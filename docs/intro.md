@@ -1,47 +1,55 @@
 ---
-sidebar_position: 1
+id: intro
+title: Introduction
+sidebar_label: Introduction
+description: Welcome to the BRAIN Diet documentation
 ---
 
-# Tutorial Intro
+# Welcome to the BRAIN Diet
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The BRAIN Diet (Bio-Regulation Algorithm and Integrated Neuronutrition) is a comprehensive, evidence-based approach to supporting brain health through precision nutrition.
+
+## What is the BRAIN Diet?
+
+The BRAIN Diet is a Mediterranean-rooted precision nutrition model designed to optimize brain health through integrated nutritional strategies. It targets the key biological systems commonly disrupted in ADHD, depression, cognitive decline, and other neurocognitive disorders.
+
+## Key Features
+
+- **Plant-based leaning** (70% minimum energy from plants)
+- **Food-first approach** with no-supplement baseline
+- **Targeted micronutrient density**
+- **Neurotransmitter precursor support**
+- **Circadian-aligned meal timing**
+- **Food matrix strategies** for nutrient synergy
+- **Psychobiotic and polyphenol-rich foods**
 
 ## Getting Started
 
-Get started by **creating a new site**.
+1. **Read the [Nutrients Overview](./nutrients/)**: Understand the key nutrients and their roles
+2. **Explore individual nutrients**: Learn about specific vitamins and minerals
+3. **Understand the framework**: See how the diet integrates multiple systems
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Who Can Benefit?
 
-### What you'll need
+The BRAIN Diet is designed for:
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- Individuals with ADHD and attention difficulties
+- Those experiencing cognitive decline
+- People with mood and anxiety disorders
+- Anyone interested in optimizing brain health
+- Both omnivore and plant-based eaters
 
-## Generate a new site
+## Scientific Foundation
 
-Generate a new Docusaurus site using the **classic template**.
+This approach is based on comprehensive research into:
 
-The classic template will automatically be added to your project after you run the command:
+- Neurotransmitter regulation
+- Mitochondrial function
+- Gut-brain axis communication
+- Inflammation and oxidative stress
+- Methylation pathways
+- Circadian rhythms and metabolism
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Getting Help
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+For questions about implementing the BRAIN Diet, consult with qualified healthcare professionals who can provide personalized guidance based on your individual health status and needs.
