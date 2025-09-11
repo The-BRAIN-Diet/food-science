@@ -23,6 +23,29 @@ const sidebars: SidebarsConfig = {
         'nutrients/iodine',
       ],
     },
+    {
+      type: 'category',
+      label: 'Biological Targets',
+      items: [
+        'biological-targets/index',
+        'biological-targets/insulin-response',
+        'biological-targets/gut-microbiome',
+        'biological-targets/hormonal-response',
+        'biological-targets/methylation',
+        'biological-targets/endocannabinoid-system',
+        'biological-targets/mitochondrial-support',
+        'biological-targets/neurochemical-balance',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Metabolic Response',
+      items: [
+        'metabolic-response/index',
+        'metabolic-response/insulin-response',
+        'metabolic-response/stress-response',
+      ],
+    },
   ],
 };
 
