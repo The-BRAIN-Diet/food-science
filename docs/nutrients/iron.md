@@ -3,6 +3,10 @@ id: iron
 title: Iron
 sidebar_label: Iron
 description: Information about iron and its role in brain health and the BRAIN diet
+tags:
+  - Nutrient
+  - Mineral
+list_image: /img/icons/nutrients.svg
 ---
 
 # Iron

@@ -3,6 +3,10 @@ id: vitamin-b12
 title: Vitamin B12
 sidebar_label: Vitamin B12
 description: Information about vitamin B12 and its role in brain health and the BRAIN diet
+tags:
+  - Nutrient
+  - Vitamin
+list_image: /img/icons/nutrients.svg
 ---
 
 # Vitamin B12 (Cobalamin)

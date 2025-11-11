@@ -3,6 +3,10 @@ id: zinc
 title: Zinc
 sidebar_label: Zinc
 description: Information about zinc and its role in brain health and the BRAIN diet
+tags:
+  - Nutrient
+  - Mineral
+list_image: /img/icons/nutrients.svg
 ---
 
 # Zinc

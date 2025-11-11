@@ -3,6 +3,9 @@ id: nutrients-overview
 title: Nutrients Overview
 sidebar_label: Nutrients Overview
 description: Overview of key nutrients important for brain health and the BRAIN diet
+tags:
+  - Area
+list_image: /img/icons/nutrients.svg
 ---
 
 # Nutrients for Brain Health
@@ -11,39 +14,11 @@ This section provides detailed information about key nutrients that are essentia
 
 ## Essential Minerals
 
-### [Sodium](./sodium.md)
-
-Essential electrolyte for fluid balance, nerve function, and muscle contractions.
-
-### [Potassium](./potassium.md)
-
-Critical for nerve impulse transmission, muscle function, and blood pressure regulation.
-
-### [Calcium](./calcium.md)
-
-Important for bone health, muscle function, and nerve transmission.
-
-### [Magnesium](./magnesium.md)
-
-Essential for over 300 enzymatic reactions, neurotransmitter regulation, and mitochondrial function.
-
-### [Iron](./iron.md)
-
-Critical for oxygen delivery to the brain and dopamine synthesis, with complex relationship to ADHD.
-
-### [Zinc](./zinc.md)
-
-Essential for neurotransmitter regulation, particularly dopamine modulation, and antioxidant function.
-
-### [Iodine](./iodine.md)
-
-Critical for thyroid hormone synthesis and brain development, essential for neurotransmitter regulation.
+<TagList tag="Mineral" />
 
 ## Essential Vitamins
 
-### [Vitamin B12](./vitamin-b12.md)
-
-Crucial for methylation processes, myelin synthesis, and mitochondrial energy production.
+<TagList tag="Vitamin" />
 
 ## Key Concepts
 

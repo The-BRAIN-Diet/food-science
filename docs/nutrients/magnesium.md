@@ -3,6 +3,10 @@ id: magnesium
 title: Magnesium
 sidebar_label: Magnesium
 description: Information about magnesium and its role in brain health and the BRAIN diet
+tags:
+  - Nutrient
+  - Mineral
+list_image: /img/icons/nutrients.svg
 ---
 
 # Magnesium

@@ -3,6 +3,9 @@ id: endocannabinoid-system
 title: Endocannabinoid System (ECS)
 sidebar_label: Endocannabinoid System (ECS)
 description: Modulating the body's natural cannabinoid system for mood, appetite, and neuroprotection
+tags:
+  - Biological Target
+list_image: /img/icons/biological-targets.svg
 ---
 
 # Endocannabinoid System (ECS)

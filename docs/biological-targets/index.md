@@ -3,41 +3,18 @@ id: biological-targets-overview
 title: Biological Targets Overview
 sidebar_label: Biological Targets Overview
 description: Overview of the 6 key biological targets addressed by the BRAIN diet
+tags:
+  - Area
+list_image: /img/icons/biological-targets.svg
 ---
 
 # Biological Targets for Brain Health
 
 The BRAIN Diet addresses 6 key biological targets that are commonly disrupted in ADHD, depression, cognitive decline, and other neurocognitive disorders. Each target represents a critical system that can be optimized through precision nutrition.
 
-## The 6 Biological Targets
+## Biological Targets
 
-### [Metabolic Response](./metabolic-response/index.md)
-
-Overview of metabolic response systems and their role in brain health.
-
-### [Gut Microbiome](./gut-microbiome.md)
-
-Supporting beneficial gut bacteria and the gut-brain axis through psychobiotic and prebiotic foods.
-
-### [Hormonal Response](./hormonal-response.md)
-
-Balancing stress hormones, sex hormones, and other endocrine factors that influence brain function.
-
-### [Methylation](./methylation.md)
-
-Supporting DNA methylation processes and one-carbon metabolism for optimal gene expression and neurotransmitter synthesis.
-
-### [Endocannabinoid System (ECS)](./endocannabinoid-system.md)
-
-Modulating the body's natural cannabinoid system for mood, appetite, and neuroprotection.
-
-### [Mitochondrial Support](./mitochondrial-support.md)
-
-Enhancing cellular energy production and reducing oxidative stress in brain cells.
-
-### [Neurochemical Balance](./neurochemical-balance.md)
-
-Optimizing neurotransmitter synthesis, release, and reuptake for improved cognitive function.
+<TagList tag="Biological Target" / >
 
 ## Integration Strategy
 

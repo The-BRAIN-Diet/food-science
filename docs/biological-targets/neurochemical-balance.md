@@ -3,6 +3,9 @@ id: neurochemical-balance
 title: Neurochemical Balance
 sidebar_label: Neurochemical Balance
 description: Optimizing neurotransmitter synthesis, release, and reuptake for improved cognitive function
+tags:
+  - Biological Target
+list_image: /img/icons/biological-targets.svg
 ---
 
 # Neurochemical Balance

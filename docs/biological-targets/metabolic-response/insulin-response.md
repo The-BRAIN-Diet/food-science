@@ -3,6 +3,10 @@ id: insulin-response
 title: Insulin Response
 sidebar_label: Insulin Response
 description: Optimizing glucose metabolism and insulin sensitivity for brain health
+tags:
+  - Biological Target
+  - Metabolic Response Target
+list_image: /img/icons/biological-targets.svg
 ---
 
 # Insulin Response

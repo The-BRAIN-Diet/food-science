@@ -3,6 +3,9 @@ id: methylation
 title: Methylation
 sidebar_label: Methylation
 description: Supporting DNA methylation processes and one-carbon metabolism for optimal gene expression and neurotransmitter synthesis
+tags:
+  - Biological Target
+list_image: /img/icons/biological-targets.svg
 ---
 
 # Methylation

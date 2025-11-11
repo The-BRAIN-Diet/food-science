@@ -3,6 +3,9 @@ id: gut-microbiome
 title: Gut Microbiome
 sidebar_label: Gut Microbiome
 description: Supporting beneficial gut bacteria and the gut-brain axis for brain health
+tags:
+  - Biological Target
+list_image: /img/icons/biological-targets.svg
 ---
 
 # Gut Microbiome

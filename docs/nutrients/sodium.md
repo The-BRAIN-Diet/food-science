@@ -3,6 +3,9 @@ id: sodium
 title: Sodium
 sidebar_label: Sodium
 description: Information about sodium and its role in brain health and the BRAIN diet
+tags:
+  - Nutrient
+list_image: /img/icons/nutrients.svg
 ---
 
 # Sodium

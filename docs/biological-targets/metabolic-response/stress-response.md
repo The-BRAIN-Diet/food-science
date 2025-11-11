@@ -3,6 +3,10 @@ id: stress-response
 title: Stress Response
 sidebar_label: Stress Response
 description: Understanding and optimizing the body's response to stress for better brain health and cognitive function
+tags:
+  - Biological Target
+  - Metabolic Response Target
+list_image: /img/icons/biological-targets.svg
 ---
 
 # Stress Response

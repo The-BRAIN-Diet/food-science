@@ -13,6 +13,10 @@ The BRAIN Diet (Bio-Regulation Algorithm and Integrated Neuronutrition) is a com
 
 The BRAIN Diet is a Mediterranean-rooted precision nutrition model designed to optimize brain health through integrated nutritional strategies. It targets the key biological systems commonly disrupted in ADHD, depression, cognitive decline, and other neurocognitive disorders.
 
+## Areas
+
+<TagList tag="Area" />
+
 ## Key Features
 
 - **Plant-based leaning** (70% minimum energy from plants)
