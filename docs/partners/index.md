@@ -2,6 +2,8 @@
 title: Partners
 sidebar_label: Partners
 description: Connect with our partners and collaborators in brain health research
+tags:
+  - Area
 ---
 
 # Partners

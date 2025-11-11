@@ -3,6 +3,8 @@ id: recipes
 title: Recipes
 sidebar_label: Recipes
 description: Brain-healthy recipes designed to support cognitive function
+tags:
+  - Area
 ---
 
 # Recipes
