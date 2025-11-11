@@ -3,6 +3,10 @@ id: calcium
 title: Calcium
 sidebar_label: Calcium
 description: Information about calcium and its role in brain health and the BRAIN diet
+tags:
+  - Nutrient
+  - Mineral
+list_image: /img/icons/nutrients.svg
 ---
 
 # Calcium

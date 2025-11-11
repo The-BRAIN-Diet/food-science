@@ -3,6 +3,9 @@ id: potassium
 title: Potassium
 sidebar_label: Potassium
 description: Information about potassium and its role in brain health and the BRAIN diet
+tags:
+  - Nutrient
+list_image: /img/icons/nutrients.svg
 ---
 
 # Potassium

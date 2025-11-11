@@ -3,6 +3,10 @@ id: iodine
 title: Iodine
 sidebar_label: Iodine
 description: Information about iodine and its role in brain health and the BRAIN diet
+tags:
+  - Nutrient
+  - Mineral
+list_image: /img/icons/nutrients.svg
 ---
 
 # Iodine
