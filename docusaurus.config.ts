@@ -55,6 +55,9 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  "plugins": [
+    './src/plugin/category-listing',
+  ],
 
   themeConfig: {
     // Replace with your project's social card

@@ -11,6 +11,8 @@ The BRAIN Diet addresses 6 key biological targets that are commonly disrupted in
 
 ## The 6 Biological Targets
 
+<TagList tag="Biological Target" / >
+
 ### [Metabolic Response](./metabolic-response/index.md)
 
 Overview of metabolic response systems and their role in brain health.
