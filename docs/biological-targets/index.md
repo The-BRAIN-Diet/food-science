@@ -10,7 +10,7 @@ list_image: /img/icons/biological-targets.svg
 
 # Biological Targets for Brain Health
 
-The BRAIN Diet addresses 6 key biological targets that are commonly disrupted in ADHD, depression, cognitive decline, and other neurocognitive disorders. Each target represents a critical system that can be optimized through precision nutrition.
+The BRAIN Diet addresses 7 key biological targets that are commonly disrupted in ADHD, depression, cognitive decline, and other neurocognitive disorders. Each target represents a critical system that can be optimized through precision nutrition.
 
 ## Biological Targets
 
