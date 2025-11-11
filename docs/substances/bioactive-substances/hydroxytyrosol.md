@@ -6,6 +6,7 @@ description: Potent antioxidant polyphenol from extra-virgin olive oil; anti-inf
 tags:
   - Polyphenol
   - Hydroxytyrosol
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview

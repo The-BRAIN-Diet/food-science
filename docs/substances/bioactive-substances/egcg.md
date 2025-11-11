@@ -7,6 +7,7 @@ tags:
   - Polyphenol
   - Flavonoid
   - Egcg
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview

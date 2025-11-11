@@ -7,6 +7,7 @@ tags:
   - Polyphenol
   - Carotenoid
   - Beta Carotene
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview

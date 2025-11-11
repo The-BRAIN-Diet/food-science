@@ -7,6 +7,7 @@ tags:
   - Polyphenol
   - Flavonoid
   - Quercetin
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview

@@ -66,6 +66,11 @@ Terpene:
   permalink: /docs/tags/terpene
   description: Terpene compounds with various biological activities
 
+Lipid:
+  label: Lipid
+  permalink: /docs/tags/lipid
+  description: Lipid bioactives and lipid-related compounds
+
 Biological Target:
   label: Biological Target
   permalink: /docs/tags/biological-target

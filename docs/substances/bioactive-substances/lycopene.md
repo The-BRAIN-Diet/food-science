@@ -7,6 +7,7 @@ tags:
   - Polyphenol
   - Carotenoid
   - Lycopene
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview

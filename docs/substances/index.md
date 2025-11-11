@@ -4,6 +4,7 @@ sidebar_label: Substances
 description: Specific substances and compounds used in the BRAIN Diet
 tags:
   - Area
+list_image: /img/icons/ingredients.svg
 sidebar_position: 4
 ---
 
@@ -53,16 +54,11 @@ This page organizes all substances referenced in the BRAIN Diet documentation ac
 
 <TagList tag="Carotenoid" />
 
-- [Carotenoids](./substances/bioactive-substances/carotenoids.md) (lutein, zeaxanthin, β-carotene, lycopene)
-
 ### Terpenes
 
 ### Lipid Bioactives
 
-- [Coenzyme Q10 (CoQ10)](./substances/bioactive-substances/coq10.md)
-- [Choline](./substances/bioactive-substances/choline.md)
-- [Creatine](./substances/bioactive-substances/creatine.md)
-- [Taurine](./substances/bioactive-substances/taurine.md)
+<TagList tag="Lipid" />
 
 ### Phytochemicals
 

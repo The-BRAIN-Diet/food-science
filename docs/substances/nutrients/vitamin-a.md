@@ -6,7 +6,6 @@ description: Neurodevelopment; immune regulation; antioxidant via carotenoids
 tags:
   - Nutrient
   - Vitamin
-  - Carotenoid
   - Vitamin A
 list_image: /img/icons/nutrients.svg
 ---
@@ -18,5 +17,3 @@ Vitamin A and provitamin A carotenoids support neurodevelopment and immune modul
 ## From the paper
 
 - β-carotene contributes to antioxidant network; carotenoid absorption enhanced with dietary fat and preparation.
-
-

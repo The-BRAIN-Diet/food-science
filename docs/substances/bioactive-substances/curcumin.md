@@ -6,6 +6,7 @@ description: Anti-inflammatory, antioxidant; bioavailability enhanced with piper
 tags:
   - Polyphenol
   - Curcumin
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview

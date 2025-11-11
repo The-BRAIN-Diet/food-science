@@ -4,7 +4,9 @@ title: Creatine
 sidebar_label: Creatine
 description: Phosphocreatine system buffer for neuronal ATP demand; cognitive support evidence
 tags:
+  - Lipid
   - Creatine
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview

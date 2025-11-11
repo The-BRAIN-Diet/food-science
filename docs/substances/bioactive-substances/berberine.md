@@ -6,6 +6,7 @@ description: Polyphenolic alkaloid; glycemic control; antimicrobial effects; mic
 tags:
   - Polyphenol
   - Berberine
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview
