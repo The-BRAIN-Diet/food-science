@@ -21,7 +21,7 @@ Tomatoes provide lycopene (carotenoid), vitamin C, and demonstrate food matrix e
 
 ## From the paper
 
-- "The bioaccessibility of carotenoids in vegetables is remarkably low... lycopene in canned and fresh tomatoes is <1%"
+- "The bioaccessibility of carotenoids in vegetables is remarkably low... lycopene in canned and fresh tomatoes is &lt;1%"
 - "Prolonged cooking increases access to lycopene in tomatoes where cell walls need to be broken down"
 - "Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil"
 - "Eat your beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus)"
