@@ -3,6 +3,10 @@ id: vitamin-d
 title: Vitamin D
 sidebar_label: Vitamin D
 description: Neurotrophic and immune modulation; calcium homeostasis
+tags:
+  - Nutrient
+  - Vitamin
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

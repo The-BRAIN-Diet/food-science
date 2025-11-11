@@ -3,6 +3,10 @@ id: tryptophan
 title: Tryptophan
 sidebar_label: Tryptophan
 description: Serotonin/melatonin precursor; NAD+ pathway substrate; LAT1 transport dynamics
+tags:
+  - Nutrient
+  - Amino Acid
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

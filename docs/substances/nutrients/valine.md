@@ -3,6 +3,10 @@ id: valine
 title: Valine
 sidebar_label: Valine
 description: Essential BCAA; supports protein balance and neurotransmitter transport competition
+tags:
+  - Nutrient
+  - Amino Acid
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

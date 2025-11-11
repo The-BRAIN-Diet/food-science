@@ -3,6 +3,10 @@ id: ala-alpha-linolenic-acid
 title: ALA (Alpha-Linolenic Acid)
 sidebar_label: ALA (n-3)
 description: Essential omega-3 precursor; limited conversion to DHA/EPA
+tags:
+  - Nutrient
+  - Fatty Acid
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

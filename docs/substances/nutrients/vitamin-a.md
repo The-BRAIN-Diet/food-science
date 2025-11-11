@@ -3,6 +3,10 @@ id: vitamin-a
 title: Vitamin A (Retinoids; β-Carotene precursor)
 sidebar_label: Vitamin A
 description: Neurodevelopment; immune regulation; antioxidant via carotenoids
+tags:
+  - Nutrient
+  - Vitamin
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

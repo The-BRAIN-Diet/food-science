@@ -3,6 +3,10 @@ id: vitamin-e
 title: Vitamin E (Tocopherols/Tocotrienols)
 sidebar_label: Vitamin E
 description: Lipid-phase antioxidant; protects PUFA (DHA) in membranes
+tags:
+  - Nutrient
+  - Vitamin
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

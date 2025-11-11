@@ -3,6 +3,10 @@ id: vitamin-b1
 title: Vitamin B1 (Thiamine)
 sidebar_label: Vitamin B1 (Thiamine)
 description: Mitochondrial glucose metabolism; ATP synthesis; rapid turnover in CNS
+tags:
+  - Nutrient
+  - Vitamin
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

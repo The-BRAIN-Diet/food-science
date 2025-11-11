@@ -3,6 +3,10 @@ id: vitamin-b5
 title: Vitamin B5 (Pantothenic Acid)
 sidebar_label: Vitamin B5 (Pantothenic Acid)
 description: CoA synthesis; fatty-acid oxidation; TCA cycle flux
+tags:
+  - Nutrient
+  - Vitamin
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

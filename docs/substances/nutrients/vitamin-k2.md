@@ -3,6 +3,10 @@ id: vitamin-k2
 title: Vitamin K2 (MK forms)
 sidebar_label: Vitamin K2
 description: Calcium handling; potential roles in brain health; often co-occurs with fat-soluble vitamins
+tags:
+  - Nutrient
+  - Vitamin
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

@@ -3,6 +3,10 @@ id: omega-3
 title: Omega-3 Fatty Acids (EPA, DHA)
 sidebar_label: Omega-3 (EPA, DHA)
 description: Anti-inflammatory, membrane, and neuromodulatory lipids central to BRAIN Diet
+tags:
+  - Nutrient
+  - Fatty Acid
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

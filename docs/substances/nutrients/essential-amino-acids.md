@@ -3,6 +3,9 @@ id: essential-amino-acids
 title: Essential Amino Acids
 sidebar_label: Essential AAs
 description: The nine essential amino acids required from diet; neurochemical relevance
+tags:
+  - Nutrient
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

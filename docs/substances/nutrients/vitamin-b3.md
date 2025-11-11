@@ -3,6 +3,10 @@ id: vitamin-b3
 title: Vitamin B3 (Niacin; Niacinamide)
 sidebar_label: Vitamin B3 (Niacin)
 description: NAD+ precursor; supports mitochondrial biogenesis and ATP production
+tags:
+  - Nutrient
+  - Vitamin
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

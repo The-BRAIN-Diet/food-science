@@ -3,6 +3,10 @@ id: leucine
 title: Leucine
 sidebar_label: Leucine
 description: Essential BCAA; mTOR signaling; protein synthesis; cognitive load support
+tags:
+  - Nutrient
+  - Amino Acid
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

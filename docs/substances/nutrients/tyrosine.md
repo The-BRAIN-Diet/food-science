@@ -3,6 +3,10 @@ id: tyrosine
 title: Tyrosine
 sidebar_label: Tyrosine
 description: Dopamine and norepinephrine precursor; LAT1 competition with LNAAs
+tags:
+  - Nutrient
+  - Amino Acid
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

@@ -3,6 +3,9 @@ id: phosphatidylserine
 title: Phosphatidylserine (PS)
 sidebar_label: Phosphatidylserine
 description: Neuronal membrane phospholipid; cognition; stress modulation
+tags:
+  - Nutrient
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

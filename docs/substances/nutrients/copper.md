@@ -3,6 +3,10 @@ id: copper
 title: Copper
 sidebar_label: Copper
 description: Cofactor in redox enzymes; dopamine β-hydroxylase; iron metabolism interplay
+tags:
+  - Nutrient
+  - Mineral
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

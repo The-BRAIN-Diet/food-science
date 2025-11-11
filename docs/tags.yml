@@ -1,0 +1,38 @@
+# Tags for BRAIN Diet Documentation
+# This file defines all tags used across the documentation
+
+Area:
+  label: Area
+  permalink: /docs/tags/area
+  description: Top-level documentation areas
+
+Nutrient:
+  label: Nutrient
+  permalink: /docs/tags/nutrient
+  description: Essential nutrients for brain health
+
+Mineral:
+  label: Mineral
+  permalink: /docs/tags/mineral
+  description: Essential minerals and trace elements
+
+Vitamin:
+  label: Vitamin
+  permalink: /docs/tags/vitamin
+  description: Essential vitamins for brain health
+
+Biological Target:
+  label: Biological Target
+  permalink: /docs/tags/biological-target
+  description: Key biological systems targeted by the BRAIN Diet
+
+Metabolic Response Target:
+  label: Metabolic Response Target
+  permalink: /docs/tags/metabolic-response-target
+  description: Metabolic response systems addressed by the BRAIN Diet
+
+Therapeutic Area:
+  label: Therapeutic Area
+  permalink: /docs/tags/therapeutic-area
+  description: Therapeutic applications and conditions supported by the BRAIN Diet
+

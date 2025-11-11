@@ -3,6 +3,10 @@ id: vitamin-b2
 title: Vitamin B2 (Riboflavin)
 sidebar_label: Vitamin B2 (Riboflavin)
 description: FMN/FAD coenzymes; redox balance; supports methylation via MTHFR
+tags:
+  - Nutrient
+  - Vitamin
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

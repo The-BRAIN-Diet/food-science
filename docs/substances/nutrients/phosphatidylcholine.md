@@ -3,6 +3,9 @@ id: phosphatidylcholine
 title: Phosphatidylcholine (PC)
 sidebar_label: Phosphatidylcholine
 description: Key brain phospholipid; carrier for DHA/EPA and acetylcholine precursor pathway
+tags:
+  - Nutrient
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

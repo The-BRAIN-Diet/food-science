@@ -3,6 +3,10 @@ id: methionine
 title: Methionine
 sidebar_label: Methionine
 description: Essential AA; precursor to SAMe via methylation cycle
+tags:
+  - Nutrient
+  - Amino Acid
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

@@ -3,6 +3,10 @@ id: selenium
 title: Selenium
 sidebar_label: Selenium
 description: Antioxidant enzyme cofactor (GPx); supports redox balance
+tags:
+  - Nutrient
+  - Mineral
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview
