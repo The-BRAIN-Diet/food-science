@@ -3,6 +3,13 @@ id: brussels-sprouts
 title: Brussels Sprouts
 sidebar_label: Brussels Sprouts
 description: Sulfur compounds for glutathione synthesis
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B9
+  - Vitamin C
+  - Scfas
 ---
 
 ## Overview

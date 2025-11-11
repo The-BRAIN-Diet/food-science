@@ -3,6 +3,13 @@ id: cherries
 title: Cherries
 sidebar_label: Cherries
 description: General cherry information; see tart cherry for sleep support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

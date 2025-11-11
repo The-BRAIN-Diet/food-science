@@ -3,6 +3,14 @@ id: fortified-plant-milks
 title: Fortified Plant Milks
 sidebar_label: Fortified Plant Milks
 description: Plant-based milks fortified with B12, D, and sometimes iodine
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B12
+  - Vitamin D
+  - Calcium
+  - Iodine
 ---
 
 ## Overview

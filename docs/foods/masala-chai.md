@@ -3,6 +3,12 @@ id: masala-chai
 title: Masala/Chai
 sidebar_label: Masala/Chai
 description: Spiced tea with bioactive brain-focused herbs
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Manganese
+  - Polyphenol
 ---
 
 ## Overview

@@ -3,6 +3,11 @@ id: vitamin-b6
 title: Vitamin B6 (Pyridoxine → PLP)
 sidebar_label: Vitamin B6 (Pyridoxine)
 description: PLP cofactor for neurotransmitter synthesis; relies on brain PDXK activation
+tags:
+  - Nutrient
+  - Vitamin
+  - Vitamin B6
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview
@@ -62,43 +67,43 @@ Since plant-based diets provide less bioavailable B6, deficiencies are more comm
 ### Plant Sources
 
 **Legumes:**
-- [Chickpeas](../foods/chickpeas.md) - Protein, fiber, folate, magnesium, iron, **B6**
-- [Lentils](../foods/lentils.md) - Protein, fiber, folate, iron, magnesium, **B6**
+- [Chickpeas](../../foods/chickpeas.md) - Protein, fiber, folate, magnesium, iron, **B6**
+- [Lentils](../../foods/lentils.md) - Protein, fiber, folate, iron, magnesium, **B6**
 
 **Whole Grains:**
-- [Whole Grains](../foods/whole-grains.md) (general) - B vitamins including **B6**
-- [Oats](../foods/oats.md) - Beta-glucans, tryptophan, **B6**, magnesium
-- [Quinoa](../foods/quinoa.md) - Complete protein, magnesium, **B6**
+- [Whole Grains](../../foods/whole-grains.md) (general) - B vitamins including **B6**
+- [Oats](../../foods/oats.md) - Beta-glucans, tryptophan, **B6**, magnesium
+- [Quinoa](../../foods/quinoa.md) - Complete protein, magnesium, **B6**
 
 **Vegetables:**
-- [Potatoes](../foods/potatoes.md) - Resistant starch (when cooled), potassium, **B6**
-- [Bananas](../foods/bananas.md) - **B6**, tryptophan, potassium
-- [Spinach](../foods/spinach.md) - Iron, magnesium, zinc, folate, **B6**
+- [Potatoes](../../foods/potatoes.md) - Resistant starch (when cooled), potassium, **B6**
+- [Bananas](../../foods/bananas.md) - **B6**, tryptophan, potassium
+- [Spinach](../../foods/spinach.md) - Iron, magnesium, zinc, folate, **B6**
 
 **Soy Products:**
-- [Soy](../foods/soy.md) - Complete protein, isoflavones, choline, **B6**
-- [Tofu](../foods/tofu.md) - Complete protein, isoflavones, **B6**
-- [Tempeh](../foods/tempeh.md) - Fermented soy, probiotics, **B6**
+- [Soy](../../foods/soy.md) - Complete protein, isoflavones, choline, **B6**
+- [Tofu](../../foods/tofu.md) - Complete protein, isoflavones, **B6**
+- [Tempeh](../../foods/tempeh.md) - Fermented soy, probiotics, **B6**
 
 ### Animal Sources (Higher Bioavailability)
 
 **Poultry & Meat:**
-- [Chicken](../foods/chicken.md) - Complete protein, niacin, zinc, tryptophan, **B6**
-- [Turkey](../foods/turkey.md) - High tryptophan, niacin, **B6**
-- [Beef](../foods/beef.md) - High creatine, CoQ10, heme iron, **B6**
+- [Chicken](../../foods/chicken.md) - Complete protein, niacin, zinc, tryptophan, **B6**
+- [Turkey](../../foods/turkey.md) - High tryptophan, niacin, **B6**
+- [Beef](../../foods/beef.md) - High creatine, CoQ10, heme iron, **B6**
 
 **Fish & Seafood:**
-- [Salmon](../foods/salmon.md) - Omega-3, protein, B vitamins including **B6**
-- [Tuna](../foods/tuna.md) - Omega-3, niacin, selenium, creatine, **B6**
+- [Salmon](../../foods/salmon.md) - Omega-3, protein, B vitamins including **B6**
+- [Tuna](../../foods/tuna.md) - Omega-3, niacin, selenium, creatine, **B6**
 
 **Dairy & Eggs:**
-- [Eggs](../foods/eggs.md) - Complete protein, choline, **B6**
-- [Milk](../foods/milk.md) - Complete protein, nicotinamide riboside, **B6**
+- [Eggs](../../foods/eggs.md) - Complete protein, choline, **B6**
+- [Milk](../../foods/milk.md) - Complete protein, nicotinamide riboside, **B6**
 
 ### Fortified Sources
 
-- [Nutritional Yeast](../foods/nutritional-yeast.md) - Fortified with **B12, B6**, NAD+ precursors
-- [Fortified Plant Milks](../foods/fortified-plant-milks.md) - May be fortified with **B6**
+- [Nutritional Yeast](../../foods/nutritional-yeast.md) - Fortified with **B12, B6**, NAD+ precursors
+- [Fortified Plant Milks](../../foods/fortified-plant-milks.md) - May be fortified with **B6**
 
 ## Dietary Recommendations
 

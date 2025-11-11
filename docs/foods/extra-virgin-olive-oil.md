@@ -3,6 +3,14 @@ id: extra-virgin-olive-oil
 title: Extra Virgin Olive Oil
 sidebar_label: Extra Virgin Olive Oil
 description: Polyphenol-rich oil with CoQ10, hydroxytyrosol, and anti-inflammatory properties
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin E
+  - Hydroxytyrosol
+  - Coq10
+  - Polyphenol
 ---
 
 ## Overview

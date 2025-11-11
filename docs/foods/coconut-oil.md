@@ -3,6 +3,10 @@ id: coconut-oil
 title: Coconut Oil
 sidebar_label: Coconut Oil
 description: MCTs for rapid brain energy and ketone production
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
 ---
 
 ## Overview

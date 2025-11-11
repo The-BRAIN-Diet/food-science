@@ -3,6 +3,11 @@ id: fermented-vegetables
 title: Fermented Vegetables
 sidebar_label: Fermented Vegetables
 description: General category of fermented vegetable foods
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Scfas
 ---
 
 ## Overview

@@ -3,6 +3,10 @@ id: essential-amino-acids
 title: Essential Amino Acids
 sidebar_label: Essential AAs
 description: The nine essential amino acids required from diet; neurochemical relevance
+tags:
+  - Nutrient
+  - Essential Amino Acids
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview
@@ -22,5 +26,3 @@ The essential amino acids (EAAs) must be obtained from diet. Several directly in
 - Valine
 
 See individual pages for neurochemical and metabolic roles.
-
-

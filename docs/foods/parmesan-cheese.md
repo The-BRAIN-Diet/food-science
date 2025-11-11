@@ -3,6 +3,11 @@ id: parmesan-cheese
 title: Parmesan Cheese
 sidebar_label: Parmesan Cheese
 description: CLA, K2, C15:0, and high protein/calcium
+tags:
+  - Food
+  - Vegetarian
+  - Calcium
+  - Vitamin K2
 ---
 
 ## Overview

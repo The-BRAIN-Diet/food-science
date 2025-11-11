@@ -2,6 +2,11 @@
 id: yogurt
 sidebar_label: Yogurt
 description: Fermented dairy providing probiotics and complete protein
+tags:
+  - Food
+  - Vegetarian
+  - Calcium
+  - Scfas
 ---
 
 ## Overview

@@ -3,6 +3,11 @@ id: lupins
 title: Lupins
 sidebar_label: Lupins
 description: Legume protein source for vegan diets
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Scfas
 ---
 
 ## Overview

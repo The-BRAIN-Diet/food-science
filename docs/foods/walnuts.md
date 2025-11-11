@@ -3,6 +3,15 @@ id: walnuts
 title: Walnuts
 sidebar_label: Walnuts
 description: ALA omega-3, polyphenols, and ellagitannins for urolithin A production
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Ala Alpha Linolenic Acid
+  - Magnesium
+  - Manganese
+  - Polyphenol
+  - Urolithin A
 ---
 
 ## Overview

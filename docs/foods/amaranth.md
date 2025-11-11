@@ -3,6 +3,13 @@ id: amaranth
 title: Amaranth
 sidebar_label: Amaranth
 description: Pseudograin with GABA potential and complete protein
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Magnesium
+  - Iron
+  - Scfas
 ---
 
 ## Overview
@@ -12,12 +19,14 @@ Amaranth is a pseudograin providing complete plant protein and, when used in fun
 ## Key Substances
 
 ### Nutrients
+
 - **Protein**: Complete plant protein
 - **Fiber**: Prebiotic fiber
 - **Magnesium**: Cofactor
 - **Iron**: Non-heme iron
 
 ### Bioactive Substances
+
 - **GABA**: Potential in fermented forms
 
 ## From the paper
@@ -37,4 +46,3 @@ Amaranth is a pseudograin providing complete plant protein and, when used in fun
 - [Quinoa](./quinoa.md) - Similar pseudograin
 - [Buckwheat](./buckwheat.md) - Similar pseudograin
 - [Sourdough Bread](./sourdough-bread.md) - Can be used in fermentation
-

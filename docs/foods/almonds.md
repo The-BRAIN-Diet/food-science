@@ -3,6 +3,12 @@ id: almonds
 title: Almonds
 sidebar_label: Almonds
 description: Vitamin E, plant protein, and healthy fats
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin E
+  - Magnesium
 ---
 
 ## Overview
@@ -12,6 +18,7 @@ Almonds provide vitamin E (antioxidant), plant protein, and monounsaturated fats
 ## Key Substances
 
 ### Nutrients
+
 - **Vitamin E**: Fat-soluble antioxidant
 - **Protein**: DIAAS 47-52, lysine-limited
 - **Monounsaturated Fats**: Healthy fats
@@ -35,4 +42,3 @@ Almonds provide vitamin E (antioxidant), plant protein, and monounsaturated fats
 - [Pistachios](./pistachios.md)
 - [Walnuts](./walnuts.md)
 - [Soy](./soy.md) - Good pairing
-

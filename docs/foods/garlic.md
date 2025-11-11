@@ -3,6 +3,13 @@ id: garlic
 title: Garlic
 sidebar_label: Garlic
 description: Allicin, sulfur compounds, and prebiotic fiber for gut and antioxidant support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Manganese
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

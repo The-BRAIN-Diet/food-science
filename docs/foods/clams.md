@@ -3,6 +3,11 @@ id: clams
 title: Clams
 sidebar_label: Clams
 description: High taurine and B12 content
+tags:
+  - Food
+  - Taurine
+  - Vitamin B12
+  - Iron
 ---
 
 ## Overview

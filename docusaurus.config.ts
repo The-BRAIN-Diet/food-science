@@ -43,7 +43,7 @@ const config: Config = {
         docs: {
           // Use automatic sidebar generation
           sidebarCollapsible: true,
-          sidebarCollapsed: false,
+          sidebarCollapsed: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -78,15 +78,7 @@ const config: Config = {
       logo: {
         alt: 'BRAIN Diet Logo',
         src: 'img/logo.svg',
-      },
-      items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Introduction',
-        }
-      ]
+      }
     },
     footer: {
       style: 'dark',
@@ -94,10 +86,7 @@ const config: Config = {
         {
           title: 'Introduction',
           items: [
-            {
-              label: 'Getting Started',
-              to: '/docs/intro',
-            },
+
           ],
         },
       ],

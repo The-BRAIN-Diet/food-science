@@ -3,6 +3,13 @@ id: mushrooms
 title: Mushrooms
 sidebar_label: Mushrooms
 description: UV-exposed mushrooms provide vitamin D; niacin source for NAD+ synthesis
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B3
+  - Vitamin D
+  - Selenium
 ---
 
 ## Overview

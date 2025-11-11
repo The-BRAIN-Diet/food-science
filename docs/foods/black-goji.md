@@ -3,6 +3,13 @@ id: black-goji
 title: Black Goji
 sidebar_label: Black Goji
 description: C3G anthocyanins for heavy metal chelation and neuroprotection
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

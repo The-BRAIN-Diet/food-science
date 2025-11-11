@@ -3,6 +3,12 @@ id: salmon-roe
 title: Salmon Roe
 sidebar_label: Salmon Roe
 description: Phospholipid-bound omega-3s with superior brain bioavailability
+tags:
+  - Food
+  - Omega 3
+  - Choline
+  - Phosphatidylcholine
+  - Carotenoid
 ---
 
 ## Overview

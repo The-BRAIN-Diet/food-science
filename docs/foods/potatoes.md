@@ -3,6 +3,14 @@ id: potatoes
 title: Potatoes
 sidebar_label: Potatoes
 description: Starchy vegetable providing resistant starch when cooled
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Potassium
+  - Vitamin B6
+  - Vitamin C
+  - Scfas
 ---
 
 ## Overview

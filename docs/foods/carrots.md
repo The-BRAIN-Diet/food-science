@@ -3,6 +3,14 @@ id: carrots
 title: Carrots
 sidebar_label: Carrots
 description: Beta-carotene source with food matrix effects on absorption
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Potassium
+  - Beta Carotene
+  - Carotenoid
+  - Scfas
 ---
 
 ## Overview

@@ -3,6 +3,11 @@ id: chicory
 title: Chicory
 sidebar_label: Chicory
 description: High inulin content; coffee substitute
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Scfas
 ---
 
 ## Overview

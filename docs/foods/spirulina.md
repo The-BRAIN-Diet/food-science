@@ -3,6 +3,11 @@ id: spirulina
 title: Spirulina
 sidebar_label: Spirulina
 description: Algae with pseudovitamin B12 (inactive) but other beneficial compounds
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Iron
 ---
 
 ## Overview

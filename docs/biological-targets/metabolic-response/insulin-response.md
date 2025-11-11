@@ -6,6 +6,8 @@ description: Optimizing glucose metabolism and insulin sensitivity for brain hea
 tags:
   - Biological Target
   - Metabolic Response Target
+  - Insulin Response
+  - ADHD
 list_image: /img/icons/biological-targets.svg
 ---
 

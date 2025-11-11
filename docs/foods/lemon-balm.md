@@ -3,6 +3,12 @@ id: lemon-balm
 title: Lemon Balm
 sidebar_label: Lemon Balm
 description: Herbal tea for sleep and calm support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
+  - Terpene
 ---
 
 ## Overview

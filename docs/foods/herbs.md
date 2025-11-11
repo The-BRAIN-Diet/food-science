@@ -3,6 +3,11 @@ id: herbs
 title: Herbs
 sidebar_label: Herbs
 description: General category of culinary and medicinal herbs
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
 ---
 
 ## Overview

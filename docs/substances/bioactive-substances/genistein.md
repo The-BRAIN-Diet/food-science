@@ -3,6 +3,11 @@ id: genistein
 title: Genistein
 sidebar_label: Genistein
 description: Soy isoflavone; ECS modulation via FAAH inhibition; anti-inflammatory/neuroprotective
+tags:
+  - Polyphenol
+  - Flavonoid
+  - Genistein
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview

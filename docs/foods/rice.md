@@ -3,6 +3,12 @@ id: rice
 title: Rice
 sidebar_label: Rice
 description: Resistant starch formation when cooled; thiamine source
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B1
+  - Scfas
 ---
 
 ## Overview

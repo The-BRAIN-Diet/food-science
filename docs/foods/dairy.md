@@ -3,6 +3,11 @@ id: dairy
 title: Dairy Products
 sidebar_label: Dairy
 description: General category of dairy foods providing protein, calcium, and probiotics
+tags:
+  - Food
+  - Vegetarian
+  - Calcium
+  - Scfas
 ---
 
 ## Overview

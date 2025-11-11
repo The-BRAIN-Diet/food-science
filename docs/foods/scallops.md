@@ -3,6 +3,10 @@ id: scallops
 title: Scallops
 sidebar_label: Scallops
 description: High taurine and creatine content with complete protein
+tags:
+  - Food
+  - Taurine
+  - Creatine
 ---
 
 ## Overview

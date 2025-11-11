@@ -3,6 +3,11 @@ id: cucumber
 title: Cucumber
 sidebar_label: Cucumber
 description: NMN source and hydrating vegetable
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin K2
 ---
 
 ## Overview

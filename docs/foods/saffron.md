@@ -3,6 +3,13 @@ id: saffron
 title: Saffron
 sidebar_label: Saffron
 description: Spice with crocin and safranal for mood and cognitive support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Saffron
+  - Terpene
+  - Polyphenol
 ---
 
 ## Overview

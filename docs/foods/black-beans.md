@@ -3,6 +3,14 @@ id: black-beans
 title: Black Beans
 sidebar_label: Black Beans
 description: Legume with polyphenols and protein; optimal soaking conditions detailed
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Iron
+  - Vitamin B9
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

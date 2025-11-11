@@ -3,6 +3,13 @@ id: grapes
 title: Grapes
 sidebar_label: Grapes
 description: Resveratrol source for SIRT1 activation and NAD+ support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Potassium
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

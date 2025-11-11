@@ -3,6 +3,14 @@ id: oats
 title: Oats
 sidebar_label: Oats
 description: Beta-glucans, tryptophan, and B vitamins for gut and neurotransmitter support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Tryptophan
+  - Vitamin B6
+  - Magnesium
+  - Scfas
 ---
 
 ## Overview

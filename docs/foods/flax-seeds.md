@@ -3,6 +3,12 @@ id: flax-seeds
 title: Flax Seeds
 sidebar_label: Flax Seeds
 description: ALA omega-3 and soluble fiber source
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Ala Alpha Linolenic Acid
+  - Scfas
 ---
 
 ## Overview

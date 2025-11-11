@@ -3,6 +3,11 @@ id: peppermint
 title: Peppermint
 sidebar_label: Peppermint
 description: Mental clarity and alertness support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
 ---
 
 ## Overview

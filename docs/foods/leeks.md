@@ -3,6 +3,12 @@ id: leeks
 title: Leeks
 sidebar_label: Leeks
 description: Allium vegetable with prebiotic fiber (FOS)
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin K2
+  - Scfas
 ---
 
 ## Overview

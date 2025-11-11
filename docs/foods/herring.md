@@ -3,6 +3,10 @@ id: herring
 title: Herring
 sidebar_label: Herring
 description: Oily fish rich in EPA/DHA omega-3s
+tags:
+  - Food
+  - Omega 3
+  - Vitamin D
 ---
 
 ## Overview

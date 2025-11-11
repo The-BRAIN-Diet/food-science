@@ -3,6 +3,12 @@ id: black-tea
 title: Black Tea
 sidebar_label: Black Tea
 description: Polyphenols and potential NAD+ support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Manganese
+  - Polyphenol
 ---
 
 ## Overview

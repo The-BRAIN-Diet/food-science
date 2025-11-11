@@ -3,6 +3,15 @@ id: chickpeas
 title: Chickpeas
 sidebar_label: Chickpeas
 description: Legume providing protein, fiber, folate, magnesium, and B6
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B9
+  - Vitamin B6
+  - Magnesium
+  - Iron
+  - Zinc
 ---
 
 ## Overview

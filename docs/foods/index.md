@@ -2,7 +2,8 @@
 id: foods-index
 title: Foods Index
 sidebar_label: Foods
-description: Comprehensive list of foods mentioned in the BRAIN Diet paper, organized by dietary pattern
+description: Brain-healthy foods, recipes and products designed to support cognitive function
+sidebar_position: 5
 ---
 
 # Foods Index
@@ -12,6 +13,7 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 ## Vegan
 
 ### Plant Proteins
+
 - [Lentils](./lentils.md)
 - [Chickpeas](./chickpeas.md)
 - [Black Beans](./black-beans.md)
@@ -28,6 +30,7 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [Soy Lecithin](./soy-lecithin.md)
 
 ### Whole Grains & Pseudograins
+
 - [Quinoa](./quinoa.md)
 - [Buckwheat](./buckwheat.md)
 - [Oats](./oats.md)
@@ -40,6 +43,7 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [Whole Grains](./whole-grains.md) (general)
 
 ### Vegetables
+
 - [Spinach](./spinach.md)
 - [Kale](./kale.md)
 - [Broccoli](./broccoli.md)
@@ -61,6 +65,7 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [Mushrooms](./mushrooms.md) (UV-exposed for vitamin D)
 
 ### Fruits
+
 - [Blueberries](./blueberries.md)
 - [Strawberries](./strawberries.md)
 - [Raspberries](./raspberries.md)
@@ -78,6 +83,7 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [Tart Cherry](./tart-cherry.md)
 
 ### Nuts & Seeds
+
 - [Walnuts](./walnuts.md)
 - [Almonds](./almonds.md)
 - [Pistachios](./pistachios.md)
@@ -91,6 +97,7 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [Tahini](./tahini.md) (sesame seed paste)
 
 ### Plant-Based Fats & Oils
+
 - [Extra Virgin Olive Oil](./extra-virgin-olive-oil.md)
 - [Olive Oil](./olive-oil.md)
 - [Olives](./olives.md)
@@ -100,6 +107,7 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [MCT Oil](./mct-oil.md)
 
 ### Herbs & Spices
+
 - [Turmeric](./turmeric.md)
 - [Ginger](./ginger.md)
 - [Cinnamon](./cinnamon.md)
@@ -112,6 +120,7 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [Capers](./capers.md)
 
 ### Fermented Plant Foods
+
 - [Sauerkraut](./sauerkraut.md)
 - [Kimchi](./kimchi.md)
 - [Miso](./miso.md)
@@ -123,11 +132,13 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [Fermented Vegetables](./fermented-vegetables.md) (general)
 
 ### Resistant Starch Sources
+
 - [Cooled Potatoes](./cooled-potatoes.md)
 - [Green Bananas](./green-bananas.md)
 - [Rice](./rice.md) (when cooled)
 
 ### Beverages
+
 - [Green Tea](./green-tea.md)
 - [Black Tea](./black-tea.md)
 - [Coffee](./coffee.md)
@@ -137,6 +148,7 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [Lemon Balm](./lemon-balm.md)
 
 ### Seaweed & Algae
+
 - [Seaweed](./seaweed.md) (general)
 - [Nori](./nori.md)
 - [Chlorella](./chlorella.md)
@@ -146,6 +158,7 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [Duckweed](./duckweed.md) (Wolffia globosa)
 
 ### Functional Foods & Supplements
+
 - [Nutritional Yeast](./nutritional-yeast.md)
 - [Fortified Plant Milks](./fortified-plant-milks.md)
 - [Sunflower Lecithin](./sunflower-lecithin.md)
@@ -153,6 +166,7 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [Cocoa](./cocoa.md)
 
 ### Culinary Additions
+
 - [Lemon](./lemon.md)
 - [Vinegar](./vinegar.md)
 - [Parsley](./parsley.md)
@@ -160,9 +174,10 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 
 ## Vegetarian
 
-*Includes all vegan foods plus:*
+_Includes all vegan foods plus:_
 
 ### Eggs & Dairy
+
 - [Eggs](./eggs.md)
 - [Yogurt](./yogurt.md)
 - [Kefir](./kefir.md)
@@ -177,9 +192,10 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 
 ## Animal-Based
 
-*Includes all vegetarian foods plus:*
+_Includes all vegetarian foods plus:_
 
 ### Fatty Fish & Seafood
+
 - [Salmon](./salmon.md)
 - [Salmon Roe](./salmon-roe.md)
 - [Sardines](./sardines.md)
@@ -196,6 +212,7 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [Lumpfish Roe](./lumpfish-roe.md)
 
 ### Meat & Poultry
+
 - [Beef](./beef.md)
 - [Lamb](./lamb.md)
 - [Pork](./pork.md)
@@ -204,12 +221,14 @@ This page lists all foods mentioned in the BRAIN Diet paper, organized by dietar
 - [Dark-Meat Poultry](./dark-meat-poultry.md)
 
 ### Organ Meats
+
 - [Liver](./liver.md)
 - [Heart](./heart.md)
 - [Kidney](./kidney.md)
 - [Organ Meats](./organ-meats.md) (overview)
 
 ### Animal-Based Fats
+
 - [Duck Fat](./duck-fat.md)
 
 ## Notes

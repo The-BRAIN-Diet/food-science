@@ -12,11 +12,13 @@ list_image: /img/icons/nutrients.svg
 
 This section provides detailed information about key nutrients that are essential for brain health and play important roles in the BRAIN diet. Each nutrient is discussed in terms of its role in brain function, relationship to ADHD and cognitive health, dietary sources, and integration with the BRAIN diet framework.
 
-## Essential Minerals and Elements
+## Micronutrients
+
+### Essential Minerals and Elements
 
 <TagList tag="Mineral" />
 
-## Essential Vitamins
+### Essential Vitamins
 
 <TagList tag="Vitamin" />
 

@@ -3,6 +3,14 @@ id: lentils
 title: Lentils
 sidebar_label: Lentils
 description: Legume rich in protein, fiber, folate, iron, and prebiotics
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B9
+  - Iron
+  - Magnesium
+  - Polyphenol
 ---
 
 ## Overview

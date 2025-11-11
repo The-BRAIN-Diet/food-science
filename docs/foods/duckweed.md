@@ -3,6 +3,12 @@ id: duckweed
 title: Duckweed (Wolffia globosa)
 sidebar_label: Duckweed
 description: Same as Mankai - functional plant with B12 and iron
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Iron
+  - Vitamin B12
 ---
 
 ## Overview
