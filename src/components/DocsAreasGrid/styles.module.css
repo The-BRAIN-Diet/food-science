@@ -1,0 +1,150 @@
+.docsAreas {
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+    width: 100%;
+    background-color: var(--ifm-background-color);
+}
+
+.sectionTitle {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.sectionDescription {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--ifm-color-content-secondary);
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.docsArea {
+    margin-bottom: 2rem;
+}
+
+.docsAreaLink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.docsAreaLink:hover {
+    text-decoration: none;
+    color: inherit;
+    transform: translateY(-4px);
+}
+
+.docsAreaCard {
+    background: var(--ifm-card-background-color);
+    border: 1px solid var(--ifm-color-emphasis-200);
+    border-radius: 8px;
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.docsAreaLink:hover .docsAreaCard {
+    border-color: var(--ifm-color-primary);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.iconContainer {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: var(--ifm-color-primary-lightest);
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--ifm-heading-color);
+}
+
+.description {
+    font-size: 0.95rem;
+    color: var(--ifm-color-content-secondary);
+    line-height: 1.6;
+    margin: 0;
+}
+
+@media screen and (max-width: 996px) {
+    .docsArea {
+        margin-bottom: 1.5rem;
+    }
+
+    .sectionTitle {
+        font-size: 2rem;
+    }
+
+    .sectionDescription {
+        font-size: 1rem;
+    }
+}
+
+/* Make it 2 columns on medium screens */
+@media screen and (max-width: 996px) and (min-width: 768px) {
+    .docsArea {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .docsArea {
+        margin-bottom: 1rem;
+    }
+
+    .docsAreaCard {
+        padding: 1.5rem;
+    }
+
+    .iconContainer {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 1rem;
+    }
+
+    .icon {
+        width: 36px;
+        height: 36px;
+    }
+
+    .title {
+        font-size: 1.25rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+}

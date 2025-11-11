@@ -2,6 +2,8 @@
 id: adhd
 title: ADHD
 sidebar_label: ADHD
+tags:
+  - Therapeutic Area
 ---
 
 ## Overview
@@ -17,6 +19,7 @@ ADHD shares overlapping biological dysfunctions with other neurocognitive condit
 - Insulin signaling couples to dopamine tone; stabilizing post-prandial glucose supports motivation, attention, and impulse control.
 
 Actionable dietary focuses:
+
 - Prioritize protein-rich, circadian-aligned breakfasts with adequate tyrosine/tryptophan and choline sources (eggs, fish, legumes, soy, seeds).
 - Ensure B6, magnesium, zinc, and iron adequacy; pair non-heme iron with vitamin C and use soaking/sprouting to reduce phytates.
 - Regular EPA/DHA intake (oily fish or algal oil); consider phospholipid-bound sources for better brain uptake.
@@ -28,6 +31,7 @@ Actionable dietary focuses:
 - Omega-3s support mitochondrial membranes and biogenesis; polyphenol-rich foods bolster endogenous antioxidant networks.
 
 Actionable dietary focuses:
+
 - Include oily fish or algal DHA/EPA; organ meats/seafood or plant strategies for CoQ10 and creatine where appropriate; legumes/whole grains plus nuts/seeds for B vitamins and magnesium.
 - Emphasize polyphenol-dense foods (berries, extra-virgin olive oil, herbs/spices) and cooking methods that limit AGEs to reduce oxidative burden.
 
@@ -38,6 +42,7 @@ Actionable dietary focuses:
 - Dietary patterns aligned with Mediterranean-style eating lower inflammatory load; Western dietary patterns elevate it.
 
 Actionable dietary focuses:
+
 - Favor fish, olive oil, nuts, legumes, vegetables, fruit, and fermented foods; reduce ultra-processed foods and high-heat, AGE-rich cooking practices.
 - Support gut barrier and microbiome diversity with fiber, polyphenols, and fermented foods to decrease systemic inflammation.
 
@@ -47,8 +52,8 @@ Actionable dietary focuses:
 - Managing glycemic variability stabilizes dopamine–insulin coupling and cognitive performance.
 
 Actionable dietary focuses:
-- Preserve whole-food structure; order meals vegetables → protein/fat → carbohydrate; pair carbohydrates with fiber/fat/protein; consider CGM-guided personalization where available.
 
+- Preserve whole-food structure; order meals vegetables → protein/fat → carbohydrate; pair carbohydrates with fiber/fat/protein; consider CGM-guided personalization where available.
 
 ## Omega-3s (Cross-Cutting)
 
@@ -65,5 +70,3 @@ Actionable dietary focuses:
   - Aim for regular EPA/DHA intake via fish or algal oil; consider phospholipid-bound options when brain uptake is a priority.
   - For individuals with higher inflammatory tone, emphasize EPA; for membrane and neurodevelopmental support, ensure adequate DHA.
   - Take with meals containing fat; store oils away from heat/light and prefer products with third-party oxidation testing.
-
-
