@@ -6,6 +6,7 @@ description: Mitochondrial glucose metabolism; ATP synthesis; rapid turnover in 
 tags:
   - Nutrient
   - Vitamin
+  - Vitamin B1
 list_image: /img/icons/nutrients.svg
 ---
 
@@ -16,5 +17,3 @@ Thiamine supports mitochondrial glucose metabolism (PDH, α-KGDH) and ATP synthe
 ## From the paper
 
 - Thiamine is essential for mitochondrial glucose metabolism and ATP; rapid turnover implies vulnerability to deficiency; therapeutic dosing studied in neurodegeneration.
-
-

@@ -6,6 +6,7 @@ description: PLP cofactor for neurotransmitter synthesis; relies on brain PDXK a
 tags:
   - Nutrient
   - Vitamin
+  - Vitamin B6
 list_image: /img/icons/nutrients.svg
 ---
 

@@ -6,6 +6,8 @@ description: Serotonin/melatonin precursor; NAD+ pathway substrate; LAT1 transpo
 tags:
   - Nutrient
   - Amino Acid
+  - Essential Amino Acid
+  - Tryptophan
 list_image: /img/icons/nutrients.svg
 ---
 

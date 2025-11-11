@@ -5,6 +5,8 @@ sidebar_label: Phosphatidylcholine
 description: Key brain phospholipid; carrier for DHA/EPA and acetylcholine precursor pathway
 tags:
   - Nutrient
+  - Phosphatidylcholine
+  - Phospholipid
 list_image: /img/icons/nutrients.svg
 ---
 

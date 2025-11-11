@@ -3,6 +3,10 @@ id: quercetin
 title: Quercetin (and Isoquercetin)
 sidebar_label: Quercetin
 description: Polyphenol; antioxidant; mitochondrial support; bioavailability improved with vitamin C
+tags:
+  - Polyphenol
+  - Flavonoid
+  - Quercetin
 ---
 
 ## Overview

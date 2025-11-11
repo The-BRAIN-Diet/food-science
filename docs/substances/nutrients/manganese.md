@@ -6,6 +6,7 @@ description: Cofactor for MnSOD (SOD2); mitochondrial antioxidant defense
 tags:
   - Nutrient
   - Mineral
+  - Manganese
 list_image: /img/icons/nutrients.svg
 ---
 

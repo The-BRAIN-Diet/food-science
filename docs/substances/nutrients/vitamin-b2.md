@@ -6,6 +6,7 @@ description: FMN/FAD coenzymes; redox balance; supports methylation via MTHFR
 tags:
   - Nutrient
   - Vitamin
+  - Vitamin B2
 list_image: /img/icons/nutrients.svg
 ---
 

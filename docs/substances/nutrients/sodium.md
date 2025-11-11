@@ -6,6 +6,7 @@ description: Electrolyte for fluid balance and nerve function
 tags:
   - Nutrient
   - Mineral
+  - Sodium
 list_image: /img/icons/nutrients.svg
 ---
 

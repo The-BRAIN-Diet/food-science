@@ -6,6 +6,7 @@ description: Enzymatic cofactor (>300 reactions); neurotransmitters; mitochondri
 tags:
   - Nutrient
   - Mineral
+  - Magnesium
 list_image: /img/icons/nutrients.svg
 ---
 

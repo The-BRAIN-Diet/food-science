@@ -6,6 +6,8 @@ description: Essential BCAA; supports protein balance and neurotransmitter trans
 tags:
   - Nutrient
   - Amino Acid
+  - Essential Amino Acid
+  - Valine
 list_image: /img/icons/nutrients.svg
 ---
 

@@ -5,6 +5,7 @@ sidebar_label: Gut Microbiome
 description: Supporting beneficial gut bacteria and the gut-brain axis for brain health
 tags:
   - Biological Target
+  - Gut Microbiome
 list_image: /img/icons/biological-targets.svg
 ---
 

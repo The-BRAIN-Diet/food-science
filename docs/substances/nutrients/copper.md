@@ -6,6 +6,7 @@ description: Cofactor in redox enzymes; dopamine β-hydroxylase; iron metabolism
 tags:
   - Nutrient
   - Mineral
+  - Copper
 list_image: /img/icons/nutrients.svg
 ---
 
@@ -16,5 +17,3 @@ Copper participates in redox enzymes and catecholamine synthesis; interacts with
 ## From the paper
 
 - Included in antioxidant enzyme networks and mineral interactions affecting oxidative stress.
-
-

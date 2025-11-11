@@ -6,6 +6,8 @@ description: Neurodevelopment; immune regulation; antioxidant via carotenoids
 tags:
   - Nutrient
   - Vitamin
+  - Carotenoid
+  - Vitamin A
 list_image: /img/icons/nutrients.svg
 ---
 

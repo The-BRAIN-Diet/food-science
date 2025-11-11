@@ -6,6 +6,7 @@ description: Cofactor in neurotransmission and antioxidant enzymes; dopamine mod
 tags:
   - Nutrient
   - Mineral
+  - Zinc
 list_image: /img/icons/nutrients.svg
 ---
 

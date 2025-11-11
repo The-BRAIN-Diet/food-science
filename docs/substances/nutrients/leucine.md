@@ -6,6 +6,8 @@ description: Essential BCAA; mTOR signaling; protein synthesis; cognitive load s
 tags:
   - Nutrient
   - Amino Acid
+  - Essential Amino Acid
+  - Leucine
 list_image: /img/icons/nutrients.svg
 ---
 

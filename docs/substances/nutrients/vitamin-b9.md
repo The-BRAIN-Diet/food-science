@@ -6,6 +6,7 @@ description: One-carbon metabolism; methylation; homocysteine recycling
 tags:
   - Nutrient
   - Vitamin
+  - Vitamin B9
 list_image: /img/icons/nutrients.svg
 ---
 
@@ -16,5 +17,3 @@ Folate supports one‑carbon metabolism and remethylation of homocysteine to met
 ## From the paper
 
 - Folic acid reduces homocysteine; synergy with B12 and omega‑3s magnifies effects; MTHFR genotype modulates needs.
-
-

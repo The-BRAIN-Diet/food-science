@@ -6,6 +6,7 @@ description: Understanding and optimizing the body's response to stress for bett
 tags:
   - Biological Target
   - Metabolic Response Target
+  - Stress Response
 list_image: /img/icons/biological-targets.svg
 ---
 

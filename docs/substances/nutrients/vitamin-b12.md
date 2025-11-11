@@ -6,6 +6,7 @@ description: Methylation; myelin; mitochondrial odd-chain FA metabolism
 tags:
   - Nutrient
   - Vitamin
+  - Vitamin B12
 list_image: /img/icons/nutrients.svg
 ---
 

@@ -6,6 +6,7 @@ description: Anti-inflammatory, membrane, and neuromodulatory lipids central to 
 tags:
   - Nutrient
   - Fatty Acid
+  - Omega 3
 list_image: /img/icons/nutrients.svg
 ---
 

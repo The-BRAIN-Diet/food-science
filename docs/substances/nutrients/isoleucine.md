@@ -6,6 +6,8 @@ description: Essential BCAA; energy metabolism; complements leucine/valine
 tags:
   - Nutrient
   - Amino Acid
+  - Essential Amino Acid
+  - Isoleucine
 list_image: /img/icons/nutrients.svg
 ---
 

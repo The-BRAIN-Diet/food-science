@@ -6,6 +6,7 @@ description: Bone health; neurotransmission; interacts with vitamin D and K2
 tags:
   - Nutrient
   - Mineral
+  - Calcium
 list_image: /img/icons/nutrients.svg
 ---
 

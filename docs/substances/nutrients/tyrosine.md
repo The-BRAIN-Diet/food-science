@@ -6,6 +6,8 @@ description: Dopamine and norepinephrine precursor; LAT1 competition with LNAAs
 tags:
   - Nutrient
   - Amino Acid
+  - Nonessential Amino Acid
+  - Tyrosine
 list_image: /img/icons/nutrients.svg
 ---
 

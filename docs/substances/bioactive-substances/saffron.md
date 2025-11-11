@@ -3,6 +3,8 @@ id: saffron
 title: Saffron (Crocin, Safranal)
 sidebar_label: Saffron
 description: Mood and cognition support; sensitive to heat/light; culinary-first use
+tags:
+  - Saffron
 ---
 
 ## Overview

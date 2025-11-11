@@ -6,6 +6,7 @@ description: CoA synthesis; fatty-acid oxidation; TCA cycle flux
 tags:
   - Nutrient
   - Vitamin
+  - Vitamin B5
 list_image: /img/icons/nutrients.svg
 ---
 

@@ -3,6 +3,10 @@ id: egcg
 title: EGCG (Green Tea Catechin)
 sidebar_label: EGCG
 description: Polyphenol; antioxidant; gut barrier/LPS modulation; supports microbiome
+tags:
+  - Polyphenol
+  - Flavonoid
+  - Egcg
 ---
 
 ## Overview

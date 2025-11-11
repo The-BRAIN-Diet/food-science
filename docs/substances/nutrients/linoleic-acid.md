@@ -6,6 +6,7 @@ description: Essential omega-6; precursor to arachidonic acid and eicosanoids
 tags:
   - Nutrient
   - Fatty Acid
+  - Linoleic Acid
 list_image: /img/icons/nutrients.svg
 ---
 

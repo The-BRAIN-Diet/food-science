@@ -6,6 +6,7 @@ description: Electrolyte for nerve transmission, muscle function, and blood pres
 tags:
   - Nutrient
   - Mineral
+  - Potassium
 list_image: /img/icons/nutrients.svg
 ---
 

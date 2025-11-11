@@ -6,6 +6,7 @@ description: Oxygen transport; dopamine synthesis (tyrosine hydroxylase cofactor
 tags:
   - Nutrient
   - Mineral
+  - Iron
 list_image: /img/icons/nutrients.svg
 ---
 

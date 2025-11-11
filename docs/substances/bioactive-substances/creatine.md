@@ -3,6 +3,8 @@ id: creatine
 title: Creatine
 sidebar_label: Creatine
 description: Phosphocreatine system buffer for neuronal ATP demand; cognitive support evidence
+tags:
+  - Creatine
 ---
 
 ## Overview

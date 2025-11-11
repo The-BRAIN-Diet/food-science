@@ -6,11 +6,11 @@ description: Essential AA; precursor to tyrosine → catecholamines
 tags:
   - Nutrient
   - Amino Acid
+  - Essential Amino Acid
+  - Phenylalanine
 list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview
 
 Phenylalanine converts to tyrosine and supports catecholamine synthesis; participates in LAT1 competition at the BBB.
-
-

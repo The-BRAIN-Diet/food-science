@@ -6,6 +6,8 @@ description: Essential AA; precursor to SAMe via methylation cycle
 tags:
   - Nutrient
   - Amino Acid
+  - Essential Amino Acid
+  - Methionine
 list_image: /img/icons/nutrients.svg
 ---
 

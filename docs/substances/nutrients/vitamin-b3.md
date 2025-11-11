@@ -6,6 +6,7 @@ description: NAD+ precursor; supports mitochondrial biogenesis and ATP productio
 tags:
   - Nutrient
   - Vitamin
+  - Vitamin B3
 list_image: /img/icons/nutrients.svg
 ---
 

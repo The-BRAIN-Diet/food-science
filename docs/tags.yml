@@ -21,6 +21,51 @@ Vitamin:
   permalink: /docs/tags/vitamin
   description: Essential vitamins for brain health
 
+Fatty Acid:
+  label: Fatty Acid
+  permalink: /docs/tags/fatty-acid
+  description: Essential fatty acids for brain health
+
+Amino Acid:
+  label: Amino Acid
+  permalink: /docs/tags/amino-acid
+  description: Essential and non-essential amino acids
+
+Essential Amino Acid:
+  label: Essential Amino Acid
+  permalink: /docs/tags/essential-amino-acid
+  description: Essential amino acids that must be obtained from diet
+
+Nonessential Amino Acid:
+  label: Nonessential Amino Acid
+  permalink: /docs/tags/nonessential-amino-acid
+  description: Nonessential amino acids that can be synthesized by the body
+
+Phospholipid:
+  label: Phospholipid
+  permalink: /docs/tags/phospholipid
+  description: Brain phospholipids for membrane structure and function
+
+Polyphenol:
+  label: Polyphenol
+  permalink: /docs/tags/polyphenol
+  description: Plant polyphenols with antioxidant and neuroprotective properties
+
+Flavonoid:
+  label: Flavonoid
+  permalink: /docs/tags/flavonoid
+  description: Flavonoid compounds, a subclass of polyphenols
+
+Carotenoid:
+  label: Carotenoid
+  permalink: /docs/tags/carotenoid
+  description: Carotenoid compounds with antioxidant and neuroprotective properties
+
+Terpene:
+  label: Terpene
+  permalink: /docs/tags/terpene
+  description: Terpene compounds with various biological activities
+
 Biological Target:
   label: Biological Target
   permalink: /docs/tags/biological-target
@@ -36,3 +81,341 @@ Therapeutic Area:
   permalink: /docs/tags/therapeutic-area
   description: Therapeutic applications and conditions supported by the BRAIN Diet
 
+# Biological Target tags
+Endocannabinoid System:
+  label: Endocannabinoid System
+  permalink: /docs/tags/endocannabinoid-system
+  description: Endocannabinoid system modulation
+
+Gut Microbiome:
+  label: Gut Microbiome
+  permalink: /docs/tags/gut-microbiome
+  description: Gut microbiome and gut-brain axis
+
+Hormonal Response:
+  label: Hormonal Response
+  permalink: /docs/tags/hormonal-response
+  description: Hormonal response and endocrine balance
+
+Methylation:
+  label: Methylation
+  permalink: /docs/tags/methylation
+  description: DNA methylation and one-carbon metabolism
+
+Mitochondrial Support:
+  label: Mitochondrial Support
+  permalink: /docs/tags/mitochondrial-support
+  description: Mitochondrial function and energy production
+
+Neurochemical Balance:
+  label: Neurochemical Balance
+  permalink: /docs/tags/neurochemical-balance
+  description: Neurotransmitter synthesis and balance
+
+Insulin Response:
+  label: Insulin Response
+  permalink: /docs/tags/insulin-response
+  description: Glucose metabolism and insulin sensitivity
+
+Stress Response:
+  label: Stress Response
+  permalink: /docs/tags/stress-response
+  description: Stress response and HPA axis regulation
+
+# Substance tags - Nutrients
+Ala Alpha Linolenic Acid:
+  label: ALA (Alpha-Linolenic Acid)
+  permalink: /docs/tags/ala-alpha-linolenic-acid
+  description: Essential omega-3 precursor
+
+Arachidonic Acid:
+  label: Arachidonic Acid
+  permalink: /docs/tags/arachidonic-acid
+  description: Omega-6 PUFA
+
+Calcium:
+  label: Calcium
+  permalink: /docs/tags/calcium
+  description: Essential mineral
+
+Copper:
+  label: Copper
+  permalink: /docs/tags/copper
+  description: Essential trace mineral
+
+Essential Amino Acids:
+  label: Essential Amino Acids
+  permalink: /docs/tags/essential-amino-acids
+  description: The nine essential amino acids
+
+Histidine:
+  label: Histidine
+  permalink: /docs/tags/histidine
+  description: Essential amino acid
+
+Iodine:
+  label: Iodine
+  permalink: /docs/tags/iodine
+  description: Essential trace mineral
+
+Iron:
+  label: Iron
+  permalink: /docs/tags/iron
+  description: Essential mineral
+
+Isoleucine:
+  label: Isoleucine
+  permalink: /docs/tags/isoleucine
+  description: Essential amino acid
+
+Leucine:
+  label: Leucine
+  permalink: /docs/tags/leucine
+  description: Essential amino acid
+
+Linoleic Acid:
+  label: Linoleic Acid
+  permalink: /docs/tags/linoleic-acid
+  description: Essential omega-6 fatty acid
+
+Lysine:
+  label: Lysine
+  permalink: /docs/tags/lysine
+  description: Essential amino acid
+
+Magnesium:
+  label: Magnesium
+  permalink: /docs/tags/magnesium
+  description: Essential mineral
+
+Manganese:
+  label: Manganese
+  permalink: /docs/tags/manganese
+  description: Essential trace mineral
+
+Methionine:
+  label: Methionine
+  permalink: /docs/tags/methionine
+  description: Essential amino acid
+
+Omega 3:
+  label: Omega-3 Fatty Acids
+  permalink: /docs/tags/omega-3
+  description: Essential omega-3 fatty acids
+
+Phenylalanine:
+  label: Phenylalanine
+  permalink: /docs/tags/phenylalanine
+  description: Essential amino acid
+
+Phosphatidylcholine:
+  label: Phosphatidylcholine
+  permalink: /docs/tags/phosphatidylcholine
+  description: Brain phospholipid
+
+Phosphatidylethanolamine:
+  label: Phosphatidylethanolamine
+  permalink: /docs/tags/phosphatidylethanolamine
+  description: Brain phospholipid
+
+Phosphatidylserine:
+  label: Phosphatidylserine
+  permalink: /docs/tags/phosphatidylserine
+  description: Brain phospholipid
+
+Potassium:
+  label: Potassium
+  permalink: /docs/tags/potassium
+  description: Essential mineral
+
+Selenium:
+  label: Selenium
+  permalink: /docs/tags/selenium
+  description: Essential trace mineral
+
+Sodium:
+  label: Sodium
+  permalink: /docs/tags/sodium
+  description: Essential mineral
+
+Threonine:
+  label: Threonine
+  permalink: /docs/tags/threonine
+  description: Essential amino acid
+
+Tryptophan:
+  label: Tryptophan
+  permalink: /docs/tags/tryptophan
+  description: Essential amino acid
+
+Tyrosine:
+  label: Tyrosine
+  permalink: /docs/tags/tyrosine
+  description: Amino acid
+
+Valine:
+  label: Valine
+  permalink: /docs/tags/valine
+  description: Essential amino acid
+
+Vitamin A:
+  label: Vitamin A
+  permalink: /docs/tags/vitamin-a
+  description: Essential vitamin
+
+Vitamin B1:
+  label: Vitamin B1
+  permalink: /docs/tags/vitamin-b1
+  description: Essential vitamin
+
+Vitamin B12:
+  label: Vitamin B12
+  permalink: /docs/tags/vitamin-b12
+  description: Essential vitamin
+
+Vitamin B2:
+  label: Vitamin B2
+  permalink: /docs/tags/vitamin-b2
+  description: Essential vitamin
+
+Vitamin B3:
+  label: Vitamin B3
+  permalink: /docs/tags/vitamin-b3
+  description: Essential vitamin
+
+Vitamin B5:
+  label: Vitamin B5
+  permalink: /docs/tags/vitamin-b5
+  description: Essential vitamin
+
+Vitamin B6:
+  label: Vitamin B6
+  permalink: /docs/tags/vitamin-b6
+  description: Essential vitamin
+
+Vitamin B9:
+  label: Vitamin B9
+  permalink: /docs/tags/vitamin-b9
+  description: Essential vitamin
+
+Vitamin C:
+  label: Vitamin C
+  permalink: /docs/tags/vitamin-c
+  description: Essential vitamin
+
+Vitamin D:
+  label: Vitamin D
+  permalink: /docs/tags/vitamin-d
+  description: Essential vitamin
+
+Vitamin E:
+  label: Vitamin E
+  permalink: /docs/tags/vitamin-e
+  description: Essential vitamin
+
+Vitamin K2:
+  label: Vitamin K2
+  permalink: /docs/tags/vitamin-k2
+  description: Essential vitamin
+
+Zinc:
+  label: Zinc
+  permalink: /docs/tags/zinc
+  description: Essential trace mineral
+
+# Substance tags - Bioactive Substances
+Berberine:
+  label: Berberine
+  permalink: /docs/tags/berberine
+  description: Polyphenolic alkaloid
+
+Carotenoids:
+  label: Carotenoids
+  permalink: /docs/tags/carotenoids
+  description: Plant pigments with antioxidant properties
+
+Lutein:
+  label: Lutein
+  permalink: /docs/tags/lutein
+  description: Neuroprotective carotenoid; accumulates in neural tissues and retina
+
+Zeaxanthin:
+  label: Zeaxanthin
+  permalink: /docs/tags/zeaxanthin
+  description: Neuroprotective carotenoid; accumulates in neural tissues and retina
+
+Beta Carotene:
+  label: β-Carotene
+  permalink: /docs/tags/beta-carotene
+  description: Vitamin A precursor; supports immune regulation and neuronal development
+
+Lycopene:
+  label: Lycopene
+  permalink: /docs/tags/lycopene
+  description: Neuroprotective carotenoid found in tomatoes
+
+Choline:
+  label: Choline
+  permalink: /docs/tags/choline
+  description: Essential nutrient
+
+Coq10:
+  label: CoQ10
+  permalink: /docs/tags/coq10
+  description: Coenzyme Q10
+
+Creatine:
+  label: Creatine
+  permalink: /docs/tags/creatine
+  description: Amino acid derivative
+
+Curcumin:
+  label: Curcumin
+  permalink: /docs/tags/curcumin
+  description: Turmeric compound
+
+Egcg:
+  label: EGCG
+  permalink: /docs/tags/egcg
+  description: Green tea catechin
+
+Genistein:
+  label: Genistein
+  permalink: /docs/tags/genistein
+  description: Soy isoflavone
+
+Hydroxytyrosol:
+  label: Hydroxytyrosol
+  permalink: /docs/tags/hydroxytyrosol
+  description: Olive polyphenol
+
+L Theanine:
+  label: L-Theanine
+  permalink: /docs/tags/l-theanine
+  description: Green tea amino acid
+
+Quercetin:
+  label: Quercetin
+  permalink: /docs/tags/quercetin
+  description: Flavonoid antioxidant
+
+Saffron:
+  label: Saffron
+  permalink: /docs/tags/saffron
+  description: Spice with neuroprotective properties
+
+Taurine:
+  label: Taurine
+  permalink: /docs/tags/taurine
+  description: Amino acid derivative
+
+# Substance tags - Metabolites
+Scfas:
+  label: SCFAs
+  permalink: /docs/tags/scfas
+  description: Short-chain fatty acids
+
+Urolithin A:
+  label: Urolithin A
+  permalink: /docs/tags/urolithin-a
+  description: Ellagitannin metabolite

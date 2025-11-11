@@ -6,6 +6,7 @@ description: Antioxidant enzyme cofactor (GPx); supports redox balance
 tags:
   - Nutrient
   - Mineral
+  - Selenium
 list_image: /img/icons/nutrients.svg
 ---
 

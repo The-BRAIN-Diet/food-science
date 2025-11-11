@@ -6,6 +6,7 @@ description: Neurotrophic and immune modulation; calcium homeostasis
 tags:
   - Nutrient
   - Vitamin
+  - Vitamin D
 list_image: /img/icons/nutrients.svg
 ---
 
@@ -16,5 +17,3 @@ Vitamin D modulates neurotrophins, immune signaling, and calcium balance; defici
 ## From the paper
 
 - Vitamin D with magnesium reduced behavioral problems; UV-exposed mushrooms considered as dietary source in modeling work.
-
-

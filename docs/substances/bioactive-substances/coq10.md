@@ -3,6 +3,8 @@ id: coq10
 title: Coenzyme Q10 (CoQ10)
 sidebar_label: CoQ10
 description: Electron transport chain cofactor and antioxidant relevant to mitochondrial function
+tags:
+  - Coq10
 ---
 
 ## Overview

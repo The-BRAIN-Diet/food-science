@@ -3,6 +3,8 @@ id: choline
 title: Choline
 sidebar_label: Choline
 description: Acetylcholine precursor; methyl donor; phospholipid synthesis for membranes
+tags:
+  - Choline
 ---
 
 ## Overview

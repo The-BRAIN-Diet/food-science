@@ -6,6 +6,7 @@ description: Calcium handling; potential roles in brain health; often co-occurs 
 tags:
   - Nutrient
   - Vitamin
+  - Vitamin K2
 list_image: /img/icons/nutrients.svg
 ---
 
@@ -16,5 +17,3 @@ Vitamin K2 modulates calcium distribution and may support neural function; occur
 ## From the paper
 
 - Discussed alongside fat-soluble nutrients within food-matrix guidance (e.g., cheeses, egg yolks).
-
-

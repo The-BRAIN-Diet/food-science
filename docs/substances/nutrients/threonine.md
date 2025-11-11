@@ -6,6 +6,8 @@ description: Essential AA; structural proteins; mucin production
 tags:
   - Nutrient
   - Amino Acid
+  - Essential Amino Acid
+  - Threonine
 list_image: /img/icons/nutrients.svg
 ---
 

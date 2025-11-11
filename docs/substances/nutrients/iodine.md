@@ -6,6 +6,7 @@ description: Thyroid hormone synthesis; neurodevelopment; neurotransmitter regul
 tags:
   - Nutrient
   - Mineral
+  - Iodine
 list_image: /img/icons/nutrients.svg
 ---
 
