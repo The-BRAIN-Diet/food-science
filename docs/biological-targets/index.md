@@ -11,9 +11,9 @@ The BRAIN Diet addresses 6 key biological targets that are commonly disrupted in
 
 ## The 6 Biological Targets
 
-### [Insulin Response](./insulin-response.md)
+### [Metabolic Response](./metabolic-response/index.md)
 
-Optimizing glucose metabolism and insulin sensitivity to support stable energy and cognitive function.
+Overview of metabolic response systems and their role in brain health.
 
 ### [Gut Microbiome](./gut-microbiome.md)
 
