@@ -2,6 +2,8 @@
 id: ad-alzhiemers
 title: Alzheimer’s Disease (AD)
 sidebar_label: Alzheimer’s (AD)
+tags:
+  - Therapeutic Area
 ---
 
 ## Overview
@@ -17,6 +19,7 @@ Synonyms and search terms: AD, Alzheimer’s disease, Alzheimer, Alzheimers.
 - Omega-3s support synaptic membrane fluidity and neurotransmitter receptor function; in APOE4 carriers, brain DHA uptake is reduced versus non-carriers, which may affect trial outcomes and dosing considerations.
 
 Actionable dietary focuses:
+
 - Ensure sufficient choline (eggs, seafood, legumes/soy), B vitamins, zinc, iron, and magnesium through nutrient-dense foods.
 - Regular EPA/DHA intake (fish or algal oil); consider phospholipid-bound omega-3 sources for improved brain delivery.
 
@@ -27,6 +30,7 @@ Actionable dietary focuses:
 - Trace lithium has emerging evidence for neuroprotection via GSK-3β modulation, with observed depletion in AD cortex in preclinical/early translational work.
 
 Actionable dietary focuses:
+
 - Include seafood/organ meats or plant-forward strategies to supply CoQ10 and B vitamins; polyphenol-rich foods to bolster endogenous antioxidant defenses.
 - Prefer cooking methods that limit AGE formation to reduce oxidative and inflammatory load.
 
@@ -36,9 +40,9 @@ Actionable dietary focuses:
 - Omega-3–derived specialized pro-resolving mediators promote resolution; Mediterranean-aligned diets are associated with reduced inflammatory tone and slower cognitive decline.
 
 Actionable dietary focuses:
+
 - Emphasize vegetables, legumes, nuts, seeds, whole grains, olive oil, fish, and fermented foods; reduce ultra-processed foods and excessive high-heat cooking.
 - Support gut barrier integrity and microbiome diversity to lower systemic inflammation.
-
 
 ## Omega-3s (Cross-Cutting)
 
@@ -55,5 +59,3 @@ Actionable dietary focuses:
   - Ensure regular EPA/DHA intake via fish or algal oil; consider phospholipid-bound options where brain uptake is a priority.
   - Balance EPA for inflammatory tone with sufficient DHA for membrane/neuroprotective needs; sustain intake over time.
   - Take with meals containing fat; use products with third-party oxidation testing and proper storage.
-
-

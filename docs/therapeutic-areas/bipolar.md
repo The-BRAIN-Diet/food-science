@@ -2,6 +2,8 @@
 id: bipolar
 title: Bipolar Disorder
 sidebar_label: Bipolar
+tags:
+  - Therapeutic Area
 ---
 
 ## Overview
@@ -15,6 +17,7 @@ Bipolar disorder shares core pathophysiology with other neurocognitive condition
 - Stable glucose–insulin dynamics help maintain dopaminergic and serotonergic balance.
 
 Actionable dietary focuses:
+
 - Protein distribution across meals; ensure B6, iron, zinc, and magnesium sufficiency via diverse whole-food sources.
 - Regular EPA/DHA intake (oily fish; algal oil for plant-based).
 - Glycemic moderation through whole-food structure, fiber, and meal sequencing.
@@ -26,6 +29,7 @@ Actionable dietary focuses:
 - Trace lithium has been associated with mitochondrial and genomic stability pathways in bipolar populations.
 
 Actionable dietary focuses:
+
 - Include nutrient-dense animal and/or plant strategies to cover creatine/CoQ10/taurine and B vitamins; consider seafood or algal DHA/EPA.
 - Polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) to enhance endogenous antioxidant networks.
 
@@ -35,9 +39,9 @@ Actionable dietary focuses:
 - Omega-3–derived SPMs facilitate resolution of neuroinflammation; Mediterranean-aligned dietary patterns reduce inflammatory burden.
 
 Actionable dietary focuses:
+
 - Emphasize vegetables, legumes, fruit, whole grains, nuts, olive oil, and fermented foods; reduce ultra-processed foods and excessive high-heat cooking that increases AGEs.
 - Support gut–brain axis through fiber diversity and fermented foods to reduce systemic inflammation.
-
 
 ## Omega-3s (Cross-Cutting)
 
@@ -54,5 +58,3 @@ Actionable dietary focuses:
   - Maintain regular EPA/DHA intake via fish or algal oil; consider phospholipid-bound options when brain uptake is a priority.
   - In higher inflammatory states, consider higher EPA balance; ensure adequate DHA for membrane support.
   - Take with meals containing fat; prefer products with third-party testing and proper storage to limit oxidation.
-
-
