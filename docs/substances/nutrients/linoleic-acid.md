@@ -13,5 +13,3 @@ list_image: /img/icons/nutrients.svg
 ## Overview
 
 LA is an essential omega‑6 fatty acid; excessive n‑6:n‑3 ratios may skew toward pro‑inflammatory eicosanoids; balance with omega‑3s is emphasized.
-
-

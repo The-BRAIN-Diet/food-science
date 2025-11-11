@@ -14,5 +14,3 @@ list_image: /img/icons/nutrients.svg
 ## Overview
 
 Methionine is essential and forms SAMe, the universal methyl donor for neurotransmitter synthesis and membrane phospholipid methylation.
-
-
