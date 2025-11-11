@@ -5,7 +5,7 @@ description: A list of references used in this website.
 ---
 
 <BibTexReferences 
-  filePath="/bibtex/BRAIN-diet.bib" 
+  fileId="BRAIN-diet" 
   title="All References" 
   style="apa"
   sortBy="year"
