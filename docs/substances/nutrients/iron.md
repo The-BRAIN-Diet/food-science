@@ -16,9 +16,9 @@ list_image: /img/icons/nutrients.svg
 
 Iron is an essential mineral that plays a critical role in oxygen transport, energy production, and brain function. Iron is critical for oxygen delivery and catecholamine synthesis; heme iron is more bioavailable than non‑heme. The paper highlights iron's complex relationship with ADHD, noting that while iron deficiency can contribute to symptoms, iron supplementation has not proven consistently effective in relieving ADHD symptoms.
 
-## From the paper
+## Biological Roles
 
-- Pair non‑heme iron with vitamin C; manage inhibitors (tea/coffee timing); deficiency linked to cognitive and mood symptoms.
+### Dopamine Synthesis
 
 ## Role in Brain Health
 
