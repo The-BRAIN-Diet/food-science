@@ -56,33 +56,39 @@ Specific Nutrient Modulators: Taurine; adenosine-regulating nutrients (green tea
 ### Animal Sources (Highest Content)
 
 **Eggs & Fish Roe:**
-- [Egg Yolks](../foods/egg-yolks.md) - **Highest choline content**, lutein, fat-soluble vitamins
-- [Eggs](../foods/eggs.md) - Complete protein, **choline**, B6, B12
-- [Salmon Roe](../foods/salmon-roe.md) - DHA, EPA, phospholipids, **choline**, astaxanthin; highly bioavailable
-- [Fish Roe](../foods/fish-roe.md) (general) - Phospholipid-bound omega-3s, **choline**
+
+- [Egg Yolks](../../foods/egg-yolks.md) - **Highest choline content**, lutein, fat-soluble vitamins
+- [Eggs](../../foods/eggs.md) - Complete protein, **choline**, B6, B12
+- [Salmon Roe](../../foods/salmon-roe.md) - DHA, EPA, phospholipids, **choline**, astaxanthin; highly bioavailable
+- [Fish Roe](../../foods/fish-roe.md) (general) - Phospholipid-bound omega-3s, **choline**
 
 **Organ Meats:**
-- [Liver](../foods/liver.md) - **High choline**, B12, retinol, heme iron, CoQ10
+
+- [Liver](../../foods/liver.md) - **High choline**, B12, retinol, heme iron, CoQ10
 
 **Dairy:**
-- [Milk](../foods/milk.md) - Complete protein, nicotinamide riboside, **choline**
-- [Yogurt](../foods/yogurt.md) - Probiotics, protein, **choline**
+
+- [Milk](../../foods/milk.md) - Complete protein, nicotinamide riboside, **choline**
+- [Yogurt](../../foods/yogurt.md) - Probiotics, protein, **choline**
 
 ### Plant Sources
 
 **Soy Products:**
-- [Soy](../foods/soy.md) - Complete protein, isoflavones, **choline**
-- [Soy Lecithin](../foods/soy-lecithin.md) - **Concentrated choline** source for phosphatidylcholine synthesis
-- [Tofu](../foods/tofu.md) - Complete protein, isoflavones, **choline**
-- [Edamame](../foods/edamame.md) - NMN, complete protein, **choline**
+
+- [Soy](../../foods/soy.md) - Complete protein, isoflavones, **choline**
+- [Soy Lecithin](../../foods/soy-lecithin.md) - **Concentrated choline** source for phosphatidylcholine synthesis
+- [Tofu](../../foods/tofu.md) - Complete protein, isoflavones, **choline**
+- [Edamame](../../foods/edamame.md) - NMN, complete protein, **choline**
 
 **Other Plant Sources:**
-- [Wheat Germ](../foods/wheat-germ.md) - **Choline**, B vitamins, vitamin E
-- [Quinoa](../foods/quinoa.md) - Complete protein, magnesium, **choline** (mentioned for vegan support)
-- [Broccoli](../foods/broccoli.md) - Sulforaphane, folate, **choline** (mentioned for vegan support)
+
+- [Wheat Germ](../../foods/wheat-germ.md) - **Choline**, B vitamins, vitamin E
+- [Quinoa](../../foods/quinoa.md) - Complete protein, magnesium, **choline** (mentioned for vegan support)
+- [Broccoli](../../foods/broccoli.md) - Sulforaphane, folate, **choline** (mentioned for vegan support)
 
 **Lecithin Sources:**
-- [Sunflower Lecithin](../foods/sunflower-lecithin.md) - **Choline** source, soy-free alternative
+
+- [Sunflower Lecithin](../../foods/sunflower-lecithin.md) - **Choline** source, soy-free alternative
 
 ## Vegan Considerations
 
@@ -101,11 +107,10 @@ Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12)
 
 ## Related Substances
 
-- [Phosphatidylcholine](./phosphatidylcholine.md) - Primary form of choline in membranes
-- [Omega-3](./omega-3.md) - Choline supports LPC-DHA transport across BBB
-- [Folate (B9)](./vitamin-b9.md) - Works with choline in one-carbon metabolism
-- [Vitamin B12](./vitamin-b12.md) - Works with choline in methylation
-- [Betaine/TMG](../metabolites/betaine-tmg.md) - Derived from choline
+- [Phosphatidylcholine](../nutrients/phosphatidylcholine.md) - Primary form of choline in membranes
+- [Omega-3](../nutrients/omega-3.md) - Choline supports LPC-DHA transport across BBB
+- [Folate (B9)](../nutrients/vitamin-b9.md) - Works with choline in one-carbon metabolism
+- [Vitamin B12](../nutrients/vitamin-b12.md) - Works with choline in methylation
 
 ## References
 

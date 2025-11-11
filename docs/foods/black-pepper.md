@@ -16,6 +16,7 @@ Black pepper contains piperine, which dramatically enhances the bioavailability 
 ## Key Substances
 
 ### Bioactive Substances
+
 - **Piperine**: Enhances curcumin absorption by up to 2000%
 
 ## From the paper
@@ -33,5 +34,3 @@ Black pepper contains piperine, which dramatically enhances the bioavailability 
 ## Related Foods
 
 - [Turmeric](./turmeric.md) - Primary pairing
-- [Spices](./spices.md) (general)
-

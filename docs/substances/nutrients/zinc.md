@@ -60,35 +60,35 @@ Epithelial layer (tight junctions) – disrupted by nutrient deficiencies (**zin
 
 **Seafood:**
 
-- [Oysters](../foods/oysters.md) - **Highest zinc content** among common foods
-- [Crab](../foods/crab.md) - High zinc, complete protein
-- [Shrimp](../foods/shrimp.md) - Zinc, selenium, protein
+- [Oysters](../../foods/oysters.md) - **Highest zinc content** among common foods
+- [Crab](../../foods/crab.md) - High zinc, complete protein
+- [Shrimp](../../foods/shrimp.md) - Zinc, selenium, protein
 
 **Meat & Poultry:**
 
-- [Beef](../foods/beef.md) - High creatine, CoQ10, heme iron, **zinc**
-- [Pork](../foods/pork.md) - Thiamine, creatine, **zinc**
-- [Chicken](../foods/chicken.md) - Complete protein, niacin, **zinc**, tryptophan
-- [Dark-Meat Poultry](../foods/dark-meat-poultry.md) - Higher taurine, **zinc**
+- [Beef](../../foods/beef.md) - High creatine, CoQ10, heme iron, **zinc**
+- [Pork](../../foods/pork.md) - Thiamine, creatine, **zinc**
+- [Chicken](../../foods/chicken.md) - Complete protein, niacin, **zinc**, tryptophan
+- [Dark-Meat Poultry](../../foods/dark-meat-poultry.md) - Higher taurine, **zinc**
 
 ### Plant Sources (Lower Bioavailability - Improve via Preparation)
 
 **Legumes (soak/sprout to reduce phytates):**
 
-- [Lentils](../foods/lentils.md) - Protein, fiber, folate, iron, **zinc** (improve bioavailability via soaking)
-- [Chickpeas](../foods/chickpeas.md) - Protein, fiber, folate, magnesium, iron, **zinc** (improve bioavailability via soaking)
-- [Black Beans](../foods/black-beans.md) - Protein, polyphenols, **zinc** (optimal soaking: 60°C, pH 6.0)
+- [Lentils](../../foods/lentils.md) - Protein, fiber, folate, iron, **zinc** (improve bioavailability via soaking)
+- [Chickpeas](../../foods/chickpeas.md) - Protein, fiber, folate, magnesium, iron, **zinc** (improve bioavailability via soaking)
+- [Black Beans](../../foods/black-beans.md) - Protein, polyphenols, **zinc** (optimal soaking: 60°C, pH 6.0)
 
 **Nuts & Seeds (soak to reduce phytates):**
 
-- [Pumpkin Seeds](../foods/pumpkin-seeds.md) - **High zinc content** for neurotransmitter modulation, tryptophan, magnesium
-- [Cashews](../foods/cashews.md) - **Zinc**, protein, magnesium (soak to improve bioavailability)
-- [Sunflower Seeds](../foods/sunflower-seeds.md) - Thiamine, vitamin E, **zinc**
+- [Pumpkin Seeds](../../foods/pumpkin-seeds.md) - **High zinc content** for neurotransmitter modulation, tryptophan, magnesium
+- [Cashews](../../foods/cashews.md) - **Zinc**, protein, magnesium (soak to improve bioavailability)
+- [Sunflower Seeds](../../foods/sunflower-seeds.md) - Thiamine, vitamin E, **zinc**
 
 **Other Plant Sources:**
 
-- [Spinach](../foods/spinach.md) - Iron, magnesium, **zinc**, folate (boil to reduce oxalates)
-- [Kale](../foods/kale.md) - Iron, magnesium, **zinc**, quercetin (boil to reduce oxalates)
+- [Spinach](../../foods/spinach.md) - Iron, magnesium, **zinc**, folate (boil to reduce oxalates)
+- [Kale](../../foods/kale.md) - Iron, magnesium, **zinc**, quercetin (boil to reduce oxalates)
 
 ## Bioavailability Considerations
 

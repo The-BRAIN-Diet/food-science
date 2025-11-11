@@ -50,34 +50,34 @@ Enhancing dietary protein, prebiotics, and microbiome diversity promotes microbi
 ### Animal Sources
 
 **Poultry & Meat:**
-- [Turkey](../foods/turkey.md) - High tryptophan, niacin, B6, **tyrosine**
-- [Chicken](../foods/chicken.md) - Complete protein, niacin, zinc, **tyrosine**
-- [Beef](../foods/beef.md) - High creatine, CoQ10, heme iron, **tyrosine**
-- [Pork](../foods/pork.md) - Thiamine, creatine, zinc, **tyrosine**
+- [Turkey](../../foods/turkey.md) - High tryptophan, niacin, B6, **tyrosine**
+- [Chicken](../../foods/chicken.md) - Complete protein, niacin, zinc, **tyrosine**
+- [Beef](../../foods/beef.md) - High creatine, CoQ10, heme iron, **tyrosine**
+- [Pork](../../foods/pork.md) - Thiamine, creatine, zinc, **tyrosine**
 
 **Fish & Seafood:**
-- [Salmon](../foods/salmon.md) - Omega-3, protein, B vitamins, **tyrosine**
-- [Sardines](../foods/sardines.md) - Omega-3, CoQ10, **tyrosine**
-- [Tuna](../foods/tuna.md) - Omega-3, niacin, selenium, creatine, **tyrosine**
+- [Salmon](../../foods/salmon.md) - Omega-3, protein, B vitamins, **tyrosine**
+- [Sardines](../../foods/sardines.md) - Omega-3, CoQ10, **tyrosine**
+- [Tuna](../../foods/tuna.md) - Omega-3, niacin, selenium, creatine, **tyrosine**
 
 **Dairy & Eggs:**
-- [Eggs](../foods/eggs.md) - Complete protein, choline, B6, **tyrosine**
-- [Milk](../foods/milk.md) - Complete protein, nicotinamide riboside, **tyrosine**
-- [Yogurt](../foods/yogurt.md) - Probiotics, protein, **tyrosine**
-- [Cheese](../foods/cheese.md) - Calcium, protein, **tyrosine**
+- [Eggs](../../foods/eggs.md) - Complete protein, choline, B6, **tyrosine**
+- [Milk](../../foods/milk.md) - Complete protein, nicotinamide riboside, **tyrosine**
+- [Yogurt](../../foods/yogurt.md) - Probiotics, protein, **tyrosine**
+- [Cheese](../../foods/cheese.md) - Calcium, protein, **tyrosine**
 
 ### Plant Sources
 
 **Soy Products:**
-- [Soy](../foods/soy.md) - Complete protein, isoflavones, choline, **tyrosine**
-- [Tofu](../foods/tofu.md) - Complete protein, isoflavones, **tyrosine**
-- [Tempeh](../foods/tempeh.md) - Fermented soy, probiotics, **tyrosine**
+- [Soy](../../foods/soy.md) - Complete protein, isoflavones, choline, **tyrosine**
+- [Tofu](../../foods/tofu.md) - Complete protein, isoflavones, **tyrosine**
+- [Tempeh](../../foods/tempeh.md) - Fermented soy, probiotics, **tyrosine**
 
 **Seeds:**
-- [Pumpkin Seeds](../foods/pumpkin-seeds.md) - High zinc, tryptophan, magnesium, **tyrosine**
+- [Pumpkin Seeds](../../foods/pumpkin-seeds.md) - High zinc, tryptophan, magnesium, **tyrosine**
 
 **Legumes:**
-- [Lentils](../foods/lentils.md) - Protein, fiber, folate, iron, **tyrosine** (when paired with grains for complete profile)
+- [Lentils](../../foods/lentils.md) - Protein, fiber, folate, iron, **tyrosine** (when paired with grains for complete profile)
 
 ## Timing and Meal Composition
 

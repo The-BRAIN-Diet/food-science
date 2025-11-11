@@ -46,28 +46,28 @@ Calcium Modulation: **Vitamin D**, magnesium, taurine, phospholipids (phosphatid
 
 **Fatty Fish:**
 
-- [Mackerel](../foods/mackerel.md) - Omega-3, CoQ10, taurine, **vitamin D** (103–105 IU/100g)
-- [Salmon](../foods/salmon.md) - Omega-3, protein, B vitamins, **vitamin D**
-- [Sardines](../foods/sardines.md) - Omega-3, CoQ10, calcium, **vitamin D**
-- [Tuna](../foods/tuna.md) - Omega-3, niacin, selenium, creatine, **vitamin D**
+- [Mackerel](../../foods/mackerel.md) - Omega-3, CoQ10, taurine, **vitamin D** (103–105 IU/100g)
+- [Salmon](../../foods/salmon.md) - Omega-3, protein, B vitamins, **vitamin D**
+- [Sardines](../../foods/sardines.md) - Omega-3, CoQ10, calcium, **vitamin D**
+- [Tuna](../../foods/tuna.md) - Omega-3, niacin, selenium, creatine, **vitamin D**
 
 **Eggs & Dairy:**
 
-- [Eggs](../foods/eggs.md) - Complete protein, choline, B6, **vitamin D** (in yolks)
-- [Milk](../foods/milk.md) - Complete protein, nicotinamide riboside, **vitamin D** (often fortified)
-- [Yogurt](../foods/yogurt.md) - Probiotics, protein, **vitamin D** (often fortified)
-- [Cheese](../foods/cheese.md) - Calcium, protein, **vitamin D**
+- [Eggs](../../foods/eggs.md) - Complete protein, choline, B6, **vitamin D** (in yolks)
+- [Milk](../../foods/milk.md) - Complete protein, nicotinamide riboside, **vitamin D** (often fortified)
+- [Yogurt](../../foods/yogurt.md) - Probiotics, protein, **vitamin D** (often fortified)
+- [Cheese](../../foods/cheese.md) - Calcium, protein, **vitamin D**
 
 ### Plant Sources (Limited - Fortified or UV-Exposed)
 
 **UV-Exposed Mushrooms:**
 
-- [Mushrooms](../foods/mushrooms.md) (UV-exposed) - **Vitamin D** source when exposed to UV light. One study looked at the modelling in dietary guidelines with a view to expediting the global acceptance of UV-exposed mushrooms as a source of vitamin D (Starck et al. 2024) (paper.txt, line 724).
+- [Mushrooms](../../foods/mushrooms.md) (UV-exposed) - **Vitamin D** source when exposed to UV light. One study looked at the modelling in dietary guidelines with a view to expediting the global acceptance of UV-exposed mushrooms as a source of vitamin D (Starck et al. 2024) (paper.txt, line 724).
 
 **Fortified Sources:**
 
-- [Fortified Plant Milks](../foods/fortified-plant-milks.md) - **Vitamin D** fortified (D2 or D3)
-- [Fortified Yogurts](../foods/yogurt.md) - May be fortified with **vitamin D**
+- [Fortified Plant Milks](../../foods/fortified-plant-milks.md) - **Vitamin D** fortified (D2 or D3)
+- [Fortified Yogurts](../../foods/yogurt.md) - May be fortified with **vitamin D**
 
 ## Deficiency and Dietary Patterns
 

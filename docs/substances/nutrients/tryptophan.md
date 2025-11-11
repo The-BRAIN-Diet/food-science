@@ -63,30 +63,36 @@ Overgrowth Suppression (SIBO, Candida, Pathobionts): Polyphenol antimicrobials (
 ### Animal Sources
 
 **Poultry:**
-- [Turkey](../foods/turkey.md) - **High tryptophan**, niacin, B6
-- [Chicken](../foods/chicken.md) - Complete protein, niacin, zinc, **tryptophan**
+
+- [Turkey](../../foods/turkey.md) - **High tryptophan**, niacin, B6
+- [Chicken](../../foods/chicken.md) - Complete protein, niacin, zinc, **tryptophan**
 
 **Eggs & Dairy:**
-- [Eggs](../foods/eggs.md) - Complete protein, choline, B6, **tryptophan**
-- [Milk](../foods/milk.md) - Complete protein, nicotinamide riboside, **tryptophan**
-- [Yogurt](../foods/yogurt.md) - Probiotics, protein, **tryptophan**
-- [Kefir](../foods/kefir.md) - Diverse probiotics, **tryptophan**
+
+- [Eggs](../../foods/eggs.md) - Complete protein, choline, B6, **tryptophan**
+- [Milk](../../foods/milk.md) - Complete protein, nicotinamide riboside, **tryptophan**
+- [Yogurt](../../foods/yogurt.md) - Probiotics, protein, **tryptophan**
+- [Kefir](../../foods/kefir.md) - Diverse probiotics, **tryptophan**
 
 ### Plant Sources
 
 **Seeds:**
-- [Pumpkin Seeds](../foods/pumpkin-seeds.md) - High zinc, **tryptophan**, magnesium, iron
+
+- [Pumpkin Seeds](../../foods/pumpkin-seeds.md) - High zinc, **tryptophan**, magnesium, iron
 
 **Whole Grains:**
-- [Oats](../foods/oats.md) - Beta-glucans, **tryptophan**, B6, magnesium
+
+- [Oats](../../foods/oats.md) - Beta-glucans, **tryptophan**, B6, magnesium
 
 **Soy Products:**
-- [Soy](../foods/soy.md) - Complete protein, isoflavones, choline, **tryptophan**
-- [Tofu](../foods/tofu.md) - Complete protein, isoflavones, **tryptophan**
-- [Tempeh](../foods/tempeh.md) - Fermented soy, probiotics, **tryptophan**
+
+- [Soy](../../foods/soy.md) - Complete protein, isoflavones, choline, **tryptophan**
+- [Tofu](../../foods/tofu.md) - Complete protein, isoflavones, **tryptophan**
+- [Tempeh](../../foods/tempeh.md) - Fermented soy, probiotics, **tryptophan**
 
 **Fruits:**
-- [Bananas](../foods/bananas.md) - B6, **tryptophan**, potassium
+
+- [Bananas](../../foods/bananas.md) - B6, **tryptophan**, potassium
 
 ## Timing and Meal Composition
 
@@ -122,7 +128,6 @@ These post-exercise windows present an optimal time to deliver nutrients critica
 - [Vitamin B6](./vitamin-b6.md) - Cofactor for serotonin synthesis from tryptophan
 - [Magnesium](./magnesium.md) - Cofactor for serotonin synthesis
 - [Tyrosine](./tyrosine.md) - Competes with tryptophan at LAT1 transporter
-- [Serotonin](../metabolites/serotonin.md) - End product of tryptophan metabolism
 
 ## References
 
