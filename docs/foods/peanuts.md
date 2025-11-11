@@ -3,6 +3,14 @@ id: peanuts
 title: Peanuts
 sidebar_label: Peanuts
 description: Niacin, resveratrol, and plant protein for NAD+ and mitochondrial support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B3
+  - Vitamin B9
+  - Magnesium
+  - Polyphenol
 ---
 
 ## Overview

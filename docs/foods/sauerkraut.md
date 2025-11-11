@@ -3,6 +3,12 @@ id: sauerkraut
 title: Sauerkraut
 sidebar_label: Sauerkraut
 description: Fermented cabbage providing Lactobacillus probiotics
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin K2
+  - Scfas
 ---
 
 ## Overview

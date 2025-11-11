@@ -3,6 +3,11 @@ id: cilantro
 title: Cilantro
 sidebar_label: Cilantro
 description: Herb with potential heavy metal chelation properties
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
 ---
 
 ## Overview

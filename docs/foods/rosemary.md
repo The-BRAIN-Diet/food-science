@@ -3,6 +3,11 @@ id: rosemary
 title: Rosemary
 sidebar_label: Rosemary
 description: Focus, antioxidant, and neuroprotective effects
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
 ---
 
 ## Overview

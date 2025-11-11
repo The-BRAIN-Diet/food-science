@@ -3,6 +3,19 @@ id: spinach
 title: Spinach
 sidebar_label: Spinach
 description: Leafy green rich in iron, magnesium, folate, and carotenoids
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Iron
+  - Magnesium
+  - Vitamin B9
+  - Vitamin K2
+  - Vitamin A
+  - Lutein
+  - Zeaxanthin
+  - Carotenoid
+  - Coq10
 ---
 
 ## Overview

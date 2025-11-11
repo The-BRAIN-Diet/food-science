@@ -3,6 +3,14 @@ id: sardines
 title: Sardines
 sidebar_label: Sardines
 description: Small oily fish rich in EPA/DHA, CoQ10, and calcium
+tags:
+  - Food
+  - Omega 3
+  - Coq10
+  - Calcium
+  - Vitamin B3
+  - Vitamin B12
+  - Selenium
 ---
 
 ## Overview

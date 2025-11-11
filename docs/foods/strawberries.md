@@ -3,6 +3,14 @@ id: strawberries
 title: Strawberries
 sidebar_label: Strawberries
 description: Polyphenol-rich berries supporting cognitive function
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Vitamin B9
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

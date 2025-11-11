@@ -6,6 +6,7 @@ description: Supporting beneficial gut bacteria and the gut-brain axis for brain
 tags:
   - Biological Target
   - Gut Microbiome
+  - ADHD
 list_image: /img/icons/biological-targets.svg
 ---
 

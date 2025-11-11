@@ -3,6 +3,13 @@ id: tempeh
 title: Tempeh
 sidebar_label: Tempeh
 description: Fermented soy providing probiotics and enhanced nutrient bioavailability
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Iron
+  - Genistein
+  - Scfas
 ---
 
 ## Overview

@@ -3,6 +3,11 @@ id: coffee
 title: Coffee
 sidebar_label: Coffee
 description: Dopamine stimulation with circadian considerations
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
 ---
 
 ## Overview

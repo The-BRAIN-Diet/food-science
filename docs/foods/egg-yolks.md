@@ -3,6 +3,17 @@ id: egg-yolks
 title: Egg Yolks
 sidebar_label: Egg Yolks
 description: Nutrient-dense part of eggs with choline, lutein, and fat-soluble vitamins
+tags:
+  - Food
+  - Vegetarian
+  - Choline
+  - Lutein
+  - Zeaxanthin
+  - Carotenoid
+  - Vitamin A
+  - Vitamin D
+  - Vitamin E
+  - Vitamin K2
 ---
 
 ## Overview

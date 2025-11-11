@@ -3,6 +3,12 @@ id: sunflower-lecithin
 title: Sunflower Lecithin
 sidebar_label: Sunflower Lecithin
 description: Choline source alternative to soy lecithin
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Choline
+  - Phosphatidylcholine
 ---
 
 ## Overview

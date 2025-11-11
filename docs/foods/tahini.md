@@ -3,6 +3,11 @@ id: tahini
 title: Tahini
 sidebar_label: Tahini
 description: Sesame seed paste providing fat for carotenoid absorption
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Calcium
 ---
 
 ## Overview

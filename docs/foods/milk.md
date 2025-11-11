@@ -3,6 +3,10 @@ id: milk
 title: Milk
 sidebar_label: Milk
 description: Complete protein, nicotinamide riboside, and calcium
+tags:
+  - Food
+  - Vegetarian
+  - Calcium
 ---
 
 ## Overview

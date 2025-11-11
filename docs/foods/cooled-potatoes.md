@@ -3,6 +3,14 @@ id: cooled-potatoes
 title: Cooled Potatoes
 sidebar_label: Cooled Potatoes
 description: Resistant starch formation through retrogradation for gut health
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Potassium
+  - Vitamin C
+  - Vitamin B6
+  - Scfas
 ---
 
 ## Overview

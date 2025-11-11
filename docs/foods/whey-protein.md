@@ -3,6 +3,10 @@ id: whey-protein
 title: Whey Protein
 sidebar_label: Whey Protein
 description: High-quality protein with nicotinamide riboside and complete amino acids
+tags:
+  - Food
+  - Vegetarian
+  - Leucine
 ---
 
 ## Overview

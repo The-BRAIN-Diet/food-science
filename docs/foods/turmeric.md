@@ -3,6 +3,12 @@ id: turmeric
 title: Turmeric
 sidebar_label: Turmeric
 description: Curcumin source; pair with black pepper and fat for absorption
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Curcumin
+  - Polyphenol
 ---
 
 ## Overview

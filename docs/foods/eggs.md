@@ -3,6 +3,23 @@ id: eggs
 title: Eggs
 sidebar_label: Eggs
 description: Complete protein with choline, B vitamins, and phospholipids
+tags:
+  - Food
+  - Vegetarian
+  - Choline
+  - Vitamin B2
+  - Vitamin B5
+  - Vitamin B12
+  - Vitamin B9
+  - Selenium
+  - Vitamin A
+  - Vitamin D
+  - Vitamin E
+  - Vitamin K2
+  - Phosphatidylethanolamine
+  - Lutein
+  - Zeaxanthin
+  - Carotenoid
 ---
 
 ## Overview

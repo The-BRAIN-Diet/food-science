@@ -3,6 +3,13 @@ id: onions
 title: Onions
 sidebar_label: Onions
 description: Inulin prebiotic, quercetin, and glutathione precursors
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Quercetin
+  - Scfas
 ---
 
 ## Overview

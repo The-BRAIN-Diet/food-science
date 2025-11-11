@@ -3,6 +3,13 @@ id: cocoa
 title: Cocoa
 sidebar_label: Cocoa
 description: Cocoa flavanols for cognitive support; see dark chocolate for heavy metal considerations
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Magnesium
+  - Iron
+  - Polyphenol
 ---
 
 ## Overview

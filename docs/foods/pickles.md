@@ -3,6 +3,12 @@ id: pickles
 title: Pickles
 sidebar_label: Pickles
 description: Fermented vegetables providing GABA-producing bacteria
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Sodium
+  - Scfas
 ---
 
 ## Overview

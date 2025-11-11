@@ -3,6 +3,14 @@ id: seaweed
 title: Seaweed
 sidebar_label: Seaweed
 description: Iodine, EPA (in red algae), magnesium, and trace minerals
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Iodine
+  - Omega 3
+  - Magnesium
+  - Scfas
 ---
 
 ## Overview

@@ -3,6 +3,11 @@ id: kefir
 title: Kefir
 sidebar_label: Kefir
 description: Fermented milk with diverse probiotics and GABA potential
+tags:
+  - Food
+  - Vegetarian
+  - Calcium
+  - Scfas
 ---
 
 ## Overview

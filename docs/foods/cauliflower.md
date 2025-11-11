@@ -3,6 +3,13 @@ id: cauliflower
 title: Cauliflower
 sidebar_label: Cauliflower
 description: Cruciferous vegetable with fiber and B vitamins
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Vitamin B9
+  - Scfas
 ---
 
 ## Overview

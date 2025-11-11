@@ -3,6 +3,12 @@ id: nori
 title: Nori
 sidebar_label: Nori
 description: Seaweed with trace creatine and minerals
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Iodine
+  - Creatine
 ---
 
 ## Overview

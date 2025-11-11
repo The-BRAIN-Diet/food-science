@@ -3,6 +3,14 @@ id: tomatoes
 title: Tomatoes
 sidebar_label: Tomatoes
 description: Lycopene, vitamin C, and food matrix effects on absorption
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Lycopene
+  - Vitamin C
+  - Potassium
+  - Carotenoid
 ---
 
 ## Overview

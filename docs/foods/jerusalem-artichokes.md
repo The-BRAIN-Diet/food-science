@@ -3,6 +3,12 @@ id: jerusalem-artichokes
 title: Jerusalem Artichokes
 sidebar_label: Jerusalem Artichokes
 description: Highest inulin content among common foods
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Potassium
+  - Scfas
 ---
 
 ## Overview

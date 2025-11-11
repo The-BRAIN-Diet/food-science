@@ -6,6 +6,9 @@ description: Optimizing neurotransmitter synthesis, release, and reuptake for im
 tags:
   - Biological Target
   - Neurochemical Balance
+  - ADHD
+  - Bipolar
+  - Alzheimers
 list_image: /img/icons/biological-targets.svg
 ---
 

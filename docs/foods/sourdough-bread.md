@@ -3,6 +3,17 @@ id: sourdough-bread
 title: Sourdough Bread
 sidebar_label: Sourdough Bread
 description: Fermented bread with GABA, improved amino acid bioavailability, and optimized Maillard products
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Magnesium
+  - Potassium
+  - Iron
+  - Zinc
+  - Copper
+  - Manganese
+  - Scfas
 ---
 
 ## Overview

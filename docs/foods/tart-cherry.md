@@ -3,6 +3,13 @@ id: tart-cherry
 title: Tart Cherry
 sidebar_label: Tart Cherry
 description: Natural melatonin source for sleep support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

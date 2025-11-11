@@ -3,6 +3,11 @@ id: lamb
 title: Lamb
 sidebar_label: Lamb
 description: Creatine, heme iron, and complete protein
+tags:
+  - Food
+  - Creatine
+  - Iron
+  - Zinc
 ---
 
 ## Overview

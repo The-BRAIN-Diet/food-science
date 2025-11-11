@@ -3,6 +3,14 @@ id: tofu
 title: Tofu
 sidebar_label: Tofu
 description: Soy-based protein source with isoflavones and choline
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Choline
+  - Iron
+  - Calcium
+  - Genistein
 ---
 
 ## Overview

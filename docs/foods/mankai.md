@@ -3,6 +3,13 @@ id: mankai
 title: Mankai (Duckweed)
 sidebar_label: Mankai
 description: Functional plant food with iron and B12 for vegan nutrient gaps
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Iron
+  - Vitamin B12
+  - Ala Alpha Linolenic Acid
 ---
 
 ## Overview

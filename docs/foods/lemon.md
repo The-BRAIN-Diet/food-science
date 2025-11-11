@@ -3,6 +3,11 @@ id: lemon
 title: Lemon
 sidebar_label: Lemon
 description: Vitamin C for iron absorption enhancement and pH adjustment
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
 ---
 
 ## Overview

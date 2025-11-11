@@ -86,6 +86,21 @@ Therapeutic Area:
   permalink: /docs/tags/therapeutic-area
   description: Therapeutic applications and conditions supported by the BRAIN Diet
 
+Food:
+  label: Food
+  permalink: /docs/tags/food
+  description: Brain-healthy foods in the BRAIN Diet
+
+Vegan:
+  label: Vegan
+  permalink: /docs/tags/vegan
+  description: Vegan-friendly foods (no animal products)
+
+Vegetarian:
+  label: Vegetarian
+  permalink: /docs/tags/vegetarian
+  description: Vegetarian-friendly foods (includes eggs and dairy, excludes meat and fish)
+
 # Biological Target tags
 Endocannabinoid System:
   label: Endocannabinoid System
@@ -424,3 +439,18 @@ Urolithin A:
   label: Urolithin A
   permalink: /docs/tags/urolithin-a
   description: Ellagitannin metabolite
+
+Alzheimers:
+  label: Alzheimers
+  permalink: /docs/tags/alzheimers
+  description: Alzheimer's disease
+
+Bipolar:
+  label: Bipolar
+  permalink: /docs/tags/bipolar
+  description: Bipolar disorder
+
+ADHD:
+  label: ADHD
+  permalink: /docs/tags/adhd
+  description: Attention deficit hyperactivity disorder

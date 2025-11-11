@@ -3,6 +3,13 @@ id: organ-meats
 title: Organ Meats
 sidebar_label: Organ Meats
 description: Nutrient-dense offal including liver, heart, kidney
+tags:
+  - Food
+  - Vitamin B12
+  - Coq10
+  - Iron
+  - Vitamin A
+  - Choline
 ---
 
 ## Overview

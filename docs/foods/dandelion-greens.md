@@ -3,6 +3,12 @@ id: dandelion-greens
 title: Dandelion Greens
 sidebar_label: Dandelion Greens
 description: Bitter greens with prebiotic fiber
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin K2
+  - Scfas
 ---
 
 ## Overview

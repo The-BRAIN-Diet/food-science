@@ -3,6 +3,10 @@ id: black-pepper
 title: Black Pepper
 sidebar_label: Black Pepper
 description: Piperine enhances curcumin absorption by up to 2000%
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
 ---
 
 ## Overview

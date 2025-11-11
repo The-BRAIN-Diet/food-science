@@ -3,6 +3,12 @@ id: beef
 title: Beef
 sidebar_label: Beef
 description: High creatine, CoQ10, heme iron, and complete protein
+tags:
+  - Food
+  - Creatine
+  - Coq10
+  - Iron
+  - Zinc
 ---
 
 ## Overview

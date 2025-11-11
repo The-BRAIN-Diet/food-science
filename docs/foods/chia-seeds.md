@@ -3,6 +3,14 @@ id: chia-seeds
 title: Chia Seeds
 sidebar_label: Chia Seeds
 description: ALA omega-3, fiber, and minerals
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Ala Alpha Linolenic Acid
+  - Calcium
+  - Magnesium
+  - Scfas
 ---
 
 ## Overview

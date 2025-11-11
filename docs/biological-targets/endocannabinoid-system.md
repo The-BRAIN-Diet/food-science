@@ -6,6 +6,7 @@ description: Modulating the body's natural cannabinoid system for mood, appetite
 tags:
   - Biological Target
   - Endocannabinoid System
+  - ADHD
 list_image: /img/icons/biological-targets.svg
 ---
 

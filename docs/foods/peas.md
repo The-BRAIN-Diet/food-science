@@ -3,6 +3,13 @@ id: peas
 title: Peas
 sidebar_label: Peas
 description: Plant protein, fiber, and thiamine source
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B1
+  - Vitamin B9
+  - Scfas
 ---
 
 ## Overview

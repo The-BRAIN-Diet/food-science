@@ -3,6 +3,12 @@ id: almonds
 title: Almonds
 sidebar_label: Almonds
 description: Vitamin E, plant protein, and healthy fats
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin E
+  - Magnesium
 ---
 
 ## Overview

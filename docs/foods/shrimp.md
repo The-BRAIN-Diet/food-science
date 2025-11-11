@@ -3,6 +3,10 @@ id: shrimp
 title: Shrimp
 sidebar_label: Shrimp
 description: Seafood providing protein and minerals
+tags:
+  - Food
+  - Selenium
+  - Zinc
 ---
 
 ## Overview

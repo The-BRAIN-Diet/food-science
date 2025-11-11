@@ -3,6 +3,12 @@ id: kimchi
 title: Kimchi
 sidebar_label: Kimchi
 description: Fermented vegetables providing probiotics, GABA, and postbiotic compounds
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin K2
+  - Scfas
 ---
 
 ## Overview

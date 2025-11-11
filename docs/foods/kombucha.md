@@ -3,6 +3,11 @@ id: kombucha
 title: Kombucha
 sidebar_label: Kombucha
 description: Fermented tea providing probiotics and postbiotics
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Scfas
 ---
 
 ## Overview

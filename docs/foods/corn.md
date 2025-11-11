@@ -3,6 +3,14 @@ id: corn
 title: Corn
 sidebar_label: Corn
 description: Carotenoid source (lutein, zeaxanthin) and complex carbohydrate
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Lutein
+  - Zeaxanthin
+  - Carotenoid
+  - Scfas
 ---
 
 ## Overview

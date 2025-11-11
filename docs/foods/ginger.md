@@ -3,6 +3,11 @@ id: ginger
 title: Ginger
 sidebar_label: Ginger
 description: Gut-brain axis support and anti-inflammatory; prokinetic for SIBO
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
 ---
 
 ## Overview
