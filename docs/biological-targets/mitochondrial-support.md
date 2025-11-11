@@ -3,6 +3,9 @@ id: mitochondrial-support
 title: Mitochondrial Support
 sidebar_label: Mitochondrial Support
 description: Enhancing cellular energy production and reducing oxidative stress in brain cells
+tags:
+  - Biological Target
+list_image: /img/icons/biological-targets.svg
 ---
 
 # Mitochondrial Support

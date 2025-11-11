@@ -11,13 +11,7 @@ This section covers the metabolic response systems that are critical for brain h
 
 ## Metabolic Response Systems
 
-### [Insulin Response](./insulin-response.md)
-
-Optimizing glucose metabolism and insulin sensitivity for brain health and cognitive function.
-
-### [Stress Response](./stress-response.md)
-
-Understanding and optimizing the body's response to stress for better brain health and cognitive function.
+<TagList tag="Metabolic Response Target" />
 
 ## Key Concepts
 
