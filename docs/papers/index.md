@@ -6,6 +6,6 @@ tags:
   - Area
 ---
 
-# Papers
+# Research Papers
 
-Coming soon - Research papers and scientific literature supporting the BRAIN Diet.
+This section contains the complete bibliography of research papers and scientific literature supporting the BRAIN Diet framework.
