@@ -57,6 +57,17 @@ const config: Config = {
   ],
   "plugins": [
     './src/plugin/category-listing',
+    [
+      './src/plugin/bibtex-loader',
+      {
+        files: [
+          {
+            id: 'BRAIN-diet',
+            path: 'bibtex/BRAIN-diet.bib',
+          },
+        ],
+      },
+    ],
   ],
 
   themeConfig: {
