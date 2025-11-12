@@ -4,6 +4,7 @@ sidebar_label: Metabolites
 description: Microbiome-derived metabolites that support gut-brain axis communication
 tags:
   - Area
+sidebar_position: 6
 list_image: /img/icons/metabolite.svg
 ---
 

@@ -4,6 +4,7 @@ sidebar_label: Bioactive Substances
 description: Non-essential functional compounds that support brain health
 tags:
   - Area
+sidebar_position: 5
 list_image: /img/icons/bioactive.svg
 ---
 

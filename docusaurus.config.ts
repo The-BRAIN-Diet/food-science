@@ -77,7 +77,7 @@ const config: Config = {
       title: 'The BRAIN Diet',
       logo: {
         alt: 'BRAIN Diet Logo',
-        src: 'img/logo.svg',
+        src: 'site-icon/white.png',
       }
     },
     footer: {

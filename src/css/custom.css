@@ -83,3 +83,32 @@
 .reference-link:visited {
   color: var(--ifm-color-primary);
 }
+
+.navbar {
+  background-color: transparent !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+
+[data-theme='dark'] .navbar {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Make navbar items more visible on transparent background */
+.navbar__item,
+.navbar__link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='dark'] .navbar__item,
+[data-theme='dark'] .navbar__link {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.navbar__title {
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}

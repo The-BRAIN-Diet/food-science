@@ -5,6 +5,7 @@ sidebar_label: Nutrients Overview
 description: Overview of key nutrients important for brain health and the BRAIN diet
 tags:
   - Area
+sidebar_position: 4
 list_image: /img/icons/nutrients.svg
 ---
 
