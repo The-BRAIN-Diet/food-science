@@ -3,6 +3,14 @@ id: avocado
 title: Avocado
 sidebar_label: Avocado
 description: MUFA-rich fruit with vitamin E, lutein, and glutathione
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin E
+  - Potassium
+  - Lutein
+  - Carotenoid
 ---
 
 ## Overview

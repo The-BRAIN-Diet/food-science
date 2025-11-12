@@ -3,6 +3,9 @@ id: kidney
 title: Kidney
 sidebar_label: Kidney
 description: Organ meat with high nutrient density
+tags:
+  - Food
+  - Iron
 ---
 
 ## Overview

@@ -3,6 +3,14 @@ id: wheat
 title: Wheat
 sidebar_label: Wheat
 description: Whole grain providing B vitamins, fiber, and minerals
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Magnesium
+  - Zinc
+  - Iron
+  - Scfas
 ---
 
 ## Overview

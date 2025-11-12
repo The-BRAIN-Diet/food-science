@@ -3,6 +3,11 @@ id: vitamin-c
 title: Vitamin C (Ascorbate)
 sidebar_label: Vitamin C
 description: Antioxidant; supports iron absorption; neuronal SVCT2 transport
+tags:
+  - Nutrient
+  - Vitamin
+  - Vitamin C
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

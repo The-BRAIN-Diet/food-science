@@ -3,6 +3,9 @@ id: scfas
 title: Short-Chain Fatty Acids (SCFAs)
 sidebar_label: SCFAs (Butyrate, Propionate, Acetate)
 description: Microbial metabolites supporting gut barrier, immune tone, and brain function
+tags:
+  - Scfas
+list_image: /img/icons/metabolite.svg
 ---
 
 ## Overview

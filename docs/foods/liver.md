@@ -3,6 +3,15 @@ id: liver
 title: Liver
 sidebar_label: Liver
 description: Nutrient-dense organ meat with bioavailable B12, retinol, iron, and CoQ10
+tags:
+  - Food
+  - Vitamin B12
+  - Vitamin A
+  - Iron
+  - Vitamin B9
+  - Choline
+  - Coq10
+  - Creatine
 ---
 
 ## Overview

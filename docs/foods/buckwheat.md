@@ -3,6 +3,12 @@ id: buckwheat
 title: Buckwheat
 sidebar_label: Buckwheat
 description: Pseudograin with rutin and complete protein
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Magnesium
+  - Scfas
 ---
 
 ## Overview

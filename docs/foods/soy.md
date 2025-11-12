@@ -3,6 +3,16 @@ id: soy
 title: Soy
 sidebar_label: Soy
 description: Complete plant protein with isoflavones (genistein) and choline
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Choline
+  - Vitamin B9
+  - Vitamin B6
+  - Iron
+  - Genistein
+  - Quercetin
 ---
 
 ## Overview

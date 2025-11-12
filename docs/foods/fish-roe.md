@@ -3,6 +3,11 @@ id: fish-roe
 title: Fish Roe
 sidebar_label: Fish Roe
 description: General category of fish eggs providing phospholipid-bound omega-3s
+tags:
+  - Food
+  - Omega 3
+  - Phosphatidylcholine
+  - Carotenoid
 ---
 
 ## Overview

@@ -3,6 +3,15 @@ id: pumpkin-seeds
 title: Pumpkin Seeds
 sidebar_label: Pumpkin Seeds
 description: High zinc, tryptophan, and magnesium for neurotransmitter support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Zinc
+  - Tryptophan
+  - Magnesium
+  - Iron
+  - Polyphenol
 ---
 
 ## Overview

@@ -3,6 +3,9 @@ id: duck-fat
 title: Duck Fat
 sidebar_label: Duck Fat
 description: Oleic acid, selenium, and palmitoleic acid for cooking
+tags:
+  - Food
+  - Selenium
 ---
 
 ## Overview

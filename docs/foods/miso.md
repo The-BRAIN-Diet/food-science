@@ -3,6 +3,12 @@ id: miso
 title: Miso
 sidebar_label: Miso
 description: Fermented soybean paste with probiotics and umami flavor
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Sodium
+  - Scfas
 ---
 
 ## Overview

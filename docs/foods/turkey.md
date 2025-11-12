@@ -3,6 +3,13 @@ id: turkey
 title: Turkey
 sidebar_label: Turkey
 description: High tryptophan and niacin for serotonin synthesis and NAD+ production
+tags:
+  - Food
+  - Tryptophan
+  - Vitamin B3
+  - Vitamin B6
+  - Vitamin B12
+  - Selenium
 ---
 
 ## Overview

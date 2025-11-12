@@ -3,6 +3,12 @@ id: cashews
 title: Cashews
 sidebar_label: Cashews
 description: Plant protein and zinc source
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Zinc
+  - Magnesium
 ---
 
 ## Overview

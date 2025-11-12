@@ -3,6 +3,11 @@ id: chamomile
 title: Chamomile
 sidebar_label: Chamomile
 description: Apigenin for sleep support via benzodiazepine receptor binding
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
 ---
 
 ## Overview

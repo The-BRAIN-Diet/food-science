@@ -3,6 +3,12 @@ id: soy-lecithin
 title: Soy Lecithin
 sidebar_label: Soy Lecithin
 description: Concentrated choline source for phosphatidylcholine synthesis
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Choline
+  - Phosphatidylcholine
 ---
 
 ## Overview

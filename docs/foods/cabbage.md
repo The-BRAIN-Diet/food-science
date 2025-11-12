@@ -3,6 +3,13 @@ id: cabbage
 title: Cabbage
 sidebar_label: Cabbage
 description: Base for sauerkraut; fiber and vitamin C
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Vitamin B9
+  - Scfas
 ---
 
 ## Overview

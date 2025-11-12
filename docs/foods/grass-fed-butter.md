@@ -3,6 +3,14 @@ id: grass-fed-butter
 title: Grass-Fed Butter
 sidebar_label: Grass-Fed Butter
 description: Butyrate, CLA, vitamins A/D/K2, selenium, and C15:0
+tags:
+  - Food
+  - Vegetarian
+  - Vitamin A
+  - Vitamin D
+  - Vitamin K2
+  - Selenium
+  - Scfas
 ---
 
 ## Overview

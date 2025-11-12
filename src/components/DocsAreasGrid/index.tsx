@@ -20,9 +20,21 @@ const DocsAreasList: DocsAreaItem[] = [
   },
   {
     title: "Nutrients",
-    description: "Learn about essential vitamins, minerals, and nutrients that support brain function.",
-    link: "/docs/nutrients",
+    description: "Essential vitamins, minerals, amino acids, fatty acids, and phospholipids that support brain function.",
+    link: "/docs/substances/nutrients",
     icon: "/img/icons/nutrients.svg",
+  },
+  {
+    title: "Bioactive Substances",
+    description: "Non-essential functional compounds including polyphenols, flavonoids, carotenoids, terpenes, and lipid bioactives.",
+    link: "/docs/substances/bioactive-substances",
+    icon: "/img/icons/bioactive.svg",
+  },
+  {
+    title: "Metabolites",
+    description: "Microbiome-derived metabolites like SCFAs and urolithin A that support gut-brain axis communication.",
+    link: "/docs/substances/metabolites",
+    icon: "/img/icons/metabolite.svg",
   },
   {
     title: "Metabolic Response",
@@ -41,12 +53,6 @@ const DocsAreasList: DocsAreaItem[] = [
     description: "Discover brain-healthy recipes designed to support cognitive function.",
     link: "/docs/recipes",
     icon: "/img/icons/recipes.svg",
-  },
-  {
-    title: "Substances",
-    description: "Learn about specific substances and compounds used in the BRAIN Diet.",
-    link: "/docs/substances",
-    icon: "/img/icons/nutrients.svg",
   },
   {
     title: "Papers",

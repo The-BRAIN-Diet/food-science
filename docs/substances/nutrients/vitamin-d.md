@@ -3,6 +3,11 @@ id: vitamin-d
 title: Vitamin D
 sidebar_label: Vitamin D
 description: Neurotrophic and immune modulation; calcium homeostasis
+tags:
+  - Nutrient
+  - Vitamin
+  - Vitamin D
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview
@@ -40,12 +45,14 @@ Calcium Modulation: **Vitamin D**, magnesium, taurine, phospholipids (phosphatid
 ### Animal Sources
 
 **Fatty Fish:**
+
 - [Mackerel](../../foods/mackerel.md) - Omega-3, CoQ10, taurine, **vitamin D** (103–105 IU/100g)
 - [Salmon](../../foods/salmon.md) - Omega-3, protein, B vitamins, **vitamin D**
 - [Sardines](../../foods/sardines.md) - Omega-3, CoQ10, calcium, **vitamin D**
 - [Tuna](../../foods/tuna.md) - Omega-3, niacin, selenium, creatine, **vitamin D**
 
 **Eggs & Dairy:**
+
 - [Eggs](../../foods/eggs.md) - Complete protein, choline, B6, **vitamin D** (in yolks)
 - [Milk](../../foods/milk.md) - Complete protein, nicotinamide riboside, **vitamin D** (often fortified)
 - [Yogurt](../../foods/yogurt.md) - Probiotics, protein, **vitamin D** (often fortified)
@@ -57,6 +64,11 @@ Calcium Modulation: **Vitamin D**, magnesium, taurine, phospholipids (phosphatid
 - [Mushrooms](../../foods/mushrooms.md) (UV-exposed) - **Vitamin D** source when exposed to UV light. One study looked at the modelling in dietary guidelines with a view to expediting the global acceptance of UV-exposed mushrooms as a source of vitamin D (Starck et al. 2024) (paper.txt, line 724).
 
 **Fortified Sources:**
+
+- [Mushrooms](../../foods/mushrooms.md) (UV-exposed) - **Vitamin D** source when exposed to UV light. One study looked at the modelling in dietary guidelines with a view to expediting the global acceptance of UV-exposed mushrooms as a source of vitamin D (Starck et al. 2024) (paper.txt, line 724).
+
+**Fortified Sources:**
+
 - [Fortified Plant Milks](../../foods/fortified-plant-milks.md) - **Vitamin D** fortified (D2 or D3)
 - [Fortified Yogurts](../../foods/yogurt.md) - May be fortified with **vitamin D**
 

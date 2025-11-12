@@ -3,6 +3,11 @@ id: cheese
 title: Cheese
 sidebar_label: Cheese
 description: Fermented dairy with calcium, protein, and potential K2
+tags:
+  - Food
+  - Vegetarian
+  - Calcium
+  - Vitamin K2
 ---
 
 ## Overview

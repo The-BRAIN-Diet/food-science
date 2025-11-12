@@ -3,6 +3,14 @@ id: kidney-beans
 title: Kidney Beans
 sidebar_label: Kidney Beans
 description: Polyphenol-rich legume supporting gut health
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Iron
+  - Vitamin B9
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

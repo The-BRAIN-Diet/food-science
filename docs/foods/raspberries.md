@@ -3,6 +3,14 @@ id: raspberries
 title: Raspberries
 sidebar_label: Raspberries
 description: Polyphenol-rich berries with fiber
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Vitamin B9
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

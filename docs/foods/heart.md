@@ -3,6 +3,10 @@ id: heart
 title: Heart
 sidebar_label: Heart
 description: Highest CoQ10 source among organ meats
+tags:
+  - Food
+  - Coq10
+  - Iron
 ---
 
 ## Overview

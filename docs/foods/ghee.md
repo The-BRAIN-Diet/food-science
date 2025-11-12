@@ -3,6 +3,14 @@ id: ghee
 title: Ghee
 sidebar_label: Ghee
 description: Heat-stable clarified butter with butyrate and fat-soluble vitamins
+tags:
+  - Food
+  - Vegetarian
+  - Vitamin A
+  - Vitamin D
+  - Vitamin E
+  - Vitamin K2
+  - Scfas
 ---
 
 ## Overview

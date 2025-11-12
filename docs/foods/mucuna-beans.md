@@ -3,6 +3,11 @@ id: mucuna-beans
 title: Mucuna Beans
 sidebar_label: Mucuna Beans
 description: Natural L-DOPA source for dopamine synthesis
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Scfas
 ---
 
 ## Overview

@@ -3,6 +3,11 @@ id: omega-3
 title: Omega-3 Fatty Acids (EPA, DHA)
 sidebar_label: Omega-3 (EPA, DHA)
 description: Anti-inflammatory, membrane, and neuromodulatory lipids central to BRAIN Diet
+tags:
+  - Nutrient
+  - Fatty Acid
+  - Omega 3
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview
@@ -52,6 +57,7 @@ Supporting NAPEs production through diet via PE-rich foods like eggs, fish roe, 
 ### Animal Sources (EPA & DHA)
 
 **Fatty Fish & Seafood:**
+
 - [Salmon](../../foods/salmon.md) - High EPA/DHA, phospholipid-bound in roe
 - [Salmon Roe](../../foods/salmon-roe.md) - Phospholipid-bound omega-3s, choline, astaxanthin; highly bioavailable
 - [Sardines](../../foods/sardines.md) - High EPA/DHA, CoQ10, low heavy metal burden
@@ -67,7 +73,7 @@ Supporting NAPEs production through diet via PE-rich foods like eggs, fish roe, 
 
 ### Plant Sources (ALA - Limited Conversion)
 
-**Note:** Conversion from ALA to DHA is <5% in most adults; direct DHA/EPA strongly recommended (paper.txt, line 282).
+**Note:** Conversion from ALA to DHA is &lt;5% in most adults; direct DHA/EPA strongly recommended (paper.txt, line 282).
 
 - [Algal Oil](../../foods/algal-oil.md) - Direct DHA (from microalgae), used in infant formulas, neuroprotective (paper.txt, line 429)
 - [Seaweed](../../foods/seaweed.md) - Low bioavailable DHA/EPA (paper.txt, line 282)
@@ -80,6 +86,7 @@ Supporting NAPEs production through diet via PE-rich foods like eggs, fish roe, 
 While the BRAIN Diet should encourage regular consumption of oily fish to meet baseline omega-3 requirements (~250–500 mg/day EPA+DHA), in line with EFSA guidelines. Beyond this, targeted foods such as salmon or lumpfish roe can be used to reliably and safely exceed minimum intakes, helping individuals achieve optimal omega-3 status for brain health, cognitive performance, and inflammatory regulation. This precision approach mirrors therapeutic ranges observed in neurocognitive research, without resorting to high-dose supplementation (paper.txt, line 251).
 
 **BRAIN Diet Targets:**
+
 - Omega-3 (PUFA) — ~1–2% and 250–500 mg EPA+DHA/day (RCT variations: 500–2000 mg/day) (paper.txt, line 408)
 
 ## Preparation and Storage

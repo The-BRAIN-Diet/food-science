@@ -3,6 +3,12 @@ id: turmeric-milk
 title: Turmeric Milk
 sidebar_label: Turmeric Milk
 description: Combination of turmeric (curcumin) with milk/fat for enhanced absorption
+tags:
+  - Food
+  - Vegetarian
+  - Calcium
+  - Curcumin
+  - Polyphenol
 ---
 
 ## Overview

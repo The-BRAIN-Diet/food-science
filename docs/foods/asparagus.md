@@ -3,6 +3,12 @@ id: asparagus
 title: Asparagus
 sidebar_label: Asparagus
 description: FOS prebiotic fiber and folate source
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B9
+  - Scfas
 ---
 
 ## Overview

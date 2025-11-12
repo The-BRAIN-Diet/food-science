@@ -3,6 +3,14 @@ id: purple-potatoes
 title: Purple Potatoes
 sidebar_label: Purple Potatoes
 description: Anthocyanins (C3G) for heavy metal chelation and neuroprotection
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Potassium
+  - Vitamin C
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

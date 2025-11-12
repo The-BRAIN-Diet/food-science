@@ -3,6 +3,10 @@ id: dark-meat-poultry
 title: Dark-Meat Poultry
 sidebar_label: Dark-Meat Poultry
 description: Higher taurine content than white meat
+tags:
+  - Food
+  - Taurine
+  - Iron
 ---
 
 ## Overview

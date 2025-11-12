@@ -3,6 +3,14 @@ id: dark-chocolate
 title: Dark Chocolate
 sidebar_label: Dark Chocolate
 description: Cocoa flavanols for cognitive support; heavy metal considerations
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Magnesium
+  - Iron
+  - Zinc
+  - Polyphenol
 ---
 
 ## Overview

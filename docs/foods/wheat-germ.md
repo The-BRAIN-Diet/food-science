@@ -3,6 +3,13 @@ id: wheat-germ
 title: Wheat Germ
 sidebar_label: Wheat Germ
 description: Choline source and B vitamin-rich grain component
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Choline
+  - Vitamin E
+  - Scfas
 ---
 
 ## Overview

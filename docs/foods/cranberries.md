@@ -3,6 +3,13 @@ id: cranberries
 title: Cranberries
 sidebar_label: Cranberries
 description: Polyphenols and resveratrol for microbiome and mitochondrial support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

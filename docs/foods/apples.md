@@ -3,6 +3,14 @@ id: apples
 title: Apples
 sidebar_label: Apples
 description: Pectin fiber, quercetin, and food matrix effects on insulin response
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Quercetin
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

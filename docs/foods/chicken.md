@@ -3,6 +3,11 @@ id: chicken
 title: Chicken
 sidebar_label: Chicken
 description: Complete protein with niacin, zinc, and tryptophan
+tags:
+  - Food
+  - Vitamin B3
+  - Zinc
+  - Tryptophan
 ---
 
 ## Overview

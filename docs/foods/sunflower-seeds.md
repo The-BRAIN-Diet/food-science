@@ -3,6 +3,13 @@ id: sunflower-seeds
 title: Sunflower Seeds
 sidebar_label: Sunflower Seeds
 description: Thiamine source and sunflower lecithin precursor
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B1
+  - Vitamin E
+  - Selenium
 ---
 
 ## Overview

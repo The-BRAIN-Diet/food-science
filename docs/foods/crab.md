@@ -3,6 +3,10 @@ id: crab
 title: Crab
 sidebar_label: Crab
 description: Seafood providing zinc and complete protein
+tags:
+  - Food
+  - Zinc
+  - Selenium
 ---
 
 ## Overview

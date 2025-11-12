@@ -3,6 +3,13 @@ id: oranges
 title: Oranges
 sidebar_label: Oranges
 description: Vitamin C for iron absorption enhancement
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Vitamin B9
+  - Scfas
 ---
 
 ## Overview

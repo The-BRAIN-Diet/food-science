@@ -3,6 +3,15 @@ id: broccoli
 title: Broccoli
 sidebar_label: Broccoli
 description: Cruciferous vegetable rich in sulforaphane, folate, and glutathione precursors
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B9
+  - Vitamin C
+  - Vitamin K2
+  - Choline
+  - Coq10
 ---
 
 ## Overview

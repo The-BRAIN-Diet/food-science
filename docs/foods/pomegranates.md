@@ -3,6 +3,15 @@ id: pomegranates
 title: Pomegranates
 sidebar_label: Pomegranates
 description: Ellagitannins for urolithin A production and polyphenol support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Potassium
+  - Polyphenol
+  - Urolithin A
+  - Scfas
 ---
 
 ## Overview

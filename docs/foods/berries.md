@@ -3,6 +3,13 @@ id: berries
 title: Berries
 sidebar_label: Berries
 description: General category of berry fruits rich in polyphenols
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

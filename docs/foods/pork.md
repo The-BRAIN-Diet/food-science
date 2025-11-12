@@ -3,6 +3,11 @@ id: pork
 title: Pork
 sidebar_label: Pork
 description: Thiamine, creatine, zinc, and complete protein
+tags:
+  - Food
+  - Vitamin B1
+  - Creatine
+  - Zinc
 ---
 
 ## Overview
