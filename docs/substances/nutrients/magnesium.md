@@ -49,6 +49,35 @@ Studies have shown magnesium to be effective when combined with:
 - Zinc and omega-3 and omega-6 fatty acids
 - Other B vitamins for comprehensive neurotransmitter support
 
+**Leafy Greens:**
+- [Spinach](../../foods/spinach.md) - Iron, magnesium, zinc, folate; boil to reduce oxalates
+- [Kale](../../foods/kale.md) - Iron, magnesium, zinc, quercetin, carotenoids; boil to reduce oxalates
+- [Swiss Chard](../../foods/swiss-chard.md) - Magnesium, vitamin K
+
+**Legumes:**
+- [Lentils](../../foods/lentils.md) - Protein, fiber, folate, iron, **magnesium**
+- [Chickpeas](../../foods/chickpeas.md) - Protein, fiber, folate, **magnesium**, iron, B6
+- [Black Beans](../../foods/black-beans.md) - Protein, fiber, polyphenols, **magnesium**
+- [Kidney Beans](../../foods/kidney-beans.md) - Protein, polyphenols, **magnesium**
+
+**Nuts & Seeds:**
+- [Pumpkin Seeds](../../foods/pumpkin-seeds.md) - High zinc, tryptophan, **magnesium**, iron
+- [Sunflower Seeds](../../foods/sunflower-seeds.md) - Thiamine, vitamin E, **magnesium**
+- [Almonds](../../foods/almonds.md) - Vitamin E, protein, **magnesium**
+- [Cashews](../../foods/cashews.md) - Zinc, protein, **magnesium**
+- [Walnuts](../../foods/walnuts.md) - ALA omega-3, **magnesium**
+
+**Whole Grains & Pseudograins:**
+- [Quinoa](../../foods/quinoa.md) - Complete protein, **magnesium**-rich, GABA potential in sourdough
+- [Oats](../../foods/oats.md) - Beta-glucans, tryptophan, B vitamins, **magnesium**
+- [Barley](../../foods/barley.md) - Beta-glucans, fiber, **magnesium**
+- [Buckwheat](../../foods/buckwheat.md) - Rutin, complete protein, **magnesium**
+- [Brown Rice](../../foods/rice.md) - Thiamine, resistant starch (when cooled), **magnesium**
+
+**Other Plant Sources:**
+- [Avocado](../../foods/avocado.md) - MUFA, vitamin E, lutein, **magnesium**
+- [Bananas](../../foods/bananas.md) - B6, tryptophan, potassium, **magnesium**
+- [Dark Chocolate](../../foods/dark-chocolate.md) - Cocoa flavanols, **magnesium** (with heavy metal considerations)
 ## Dietary Considerations
 
 ### Absorption Rate
@@ -61,6 +90,9 @@ Studies have shown magnesium to be effective when combined with:
 
 ### Supplementation Notes
 
+- [Salmon](../../foods/salmon.md) - Omega-3, protein, B vitamins, **magnesium**
+- [Sardines](../../foods/sardines.md) - Omega-3, CoQ10, calcium, **magnesium**
+- [Mackerel](../../foods/mackerel.md) - Omega-3, CoQ10, taurine, **magnesium**
 - Often taken in amounts close to or above the RDA (200–400 mg) due to limited absorption from foods
 - May be particularly beneficial for those with neurological issues, chronic stress, or fatigue
 
