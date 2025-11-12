@@ -289,7 +289,7 @@ In ADHD, where appetite suppression from medications (Nancy Clark 2022), irregul
 ### Key Indicators
 
 - **Fasting glucose levels** (target: 70-100 mg/dL)
-- **HbA1c** (target: <5.7%)
+- **HbA1c** (target: alt;5.7%)
 - **Post-meal glucose response** (target: &lt;140 mg/dL after 2 hours)
 - **Energy levels** and cognitive clarity
 - **Continuous glucose monitoring (CGMs)** offers novel insights into postprandial spikes and glycemic variability (paper.txt, line 780)
