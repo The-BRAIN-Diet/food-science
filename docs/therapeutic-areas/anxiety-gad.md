@@ -18,6 +18,60 @@ Anxiety and General Anxiety Disorder (GAD) share overlapping biological dysfunct
 
 Tryptophan, a serotonin precursor, has been linked to reduced anxiety, improved mood, and lower depressive symptoms (Aquili, 2020a) (paper.txt, line 364).
 
+### LAT1 Competition: Meal Design for Serotonin vs Dopamine Balance
+
+Moderate carbohydrate intake reduces competition at the LAT1 transporter, increasing tryptophan uptake and supporting serotonin synthesis, particularly relevant in the evening to promote calm and impulse control. In contrast, protein-forward meals in the morning favor tyrosine uptake and dopamine synthesis, enhancing alertness and executive function (paper.txt, line 375).
+
+```mermaid
+flowchart LR
+ subgraph INPUTS["Meal design levers"]
+    direction TB
+        L1["Protein-forward meal: 25–35 g protein + slow carbs + some fat"]
+        L2["Carb-assist meal: moderate carbs + lower protein"]
+        L3["Cofactors: iron, B6, folate, BH₄, omega-3s"]
+        L4["Timing cues: morning focus vs evening calming"]
+  end
+
+    %% Serotonin Pathway
+    L2 --> S1["Insulin response ↑"]
+    S1 --> S2["Competing LNAAs ↓"]
+    S2 --> S3["Trp:LNAA ratio ↑ at LAT1"]
+    S3 --> S4["Brain tryptophan uptake ↑"]
+    S4 --> S5["Serotonin synthesis ↑"]
+    S5 --> S6["Calming and impulse control supported"]
+    L4 -. "evening bias" .- S5
+
+    %% Dopamine Pathway
+    L1 --> D1["Plasma tyrosine availability ↑"]
+    D1 --> D2["Tyr:LNAA ratio ↑ at LAT1"]
+    D2 --> D3["Brain tyrosine uptake ↑"]
+    D3 --> D4["Dopamine & noradrenaline synthesis ↑"]
+    D4 --> D5["Focus and alerting tone supported"]
+    L4 -. "morning bias" .- D5
+
+    %% Cofactor Support
+    L3 --> C1["TH and AADC enzyme cofactor support ↑"]
+    C1 --> S5
+    C1 --> D4
+
+    %% Hypothesis branch
+    D5 -. "hypothesis" .- H1["Reduced anxiety & depressive symptoms"]
+
+    %% Highlight key outcomes
+    S6:::highlight
+    D5:::highlight
+    H1:::hypo
+
+    classDef highlight fill:#FFE8A3,stroke:#B07A00,stroke-width:2px,color:#000
+    classDef hypo fill:#E6F7FF,stroke:#1479C9,stroke-width:2px,color:#000,stroke-dasharray: 5 3
+```
+
+**Key Mechanisms:**
+- **Evening meals**: Moderate carbohydrates with tryptophan-rich proteins (turkey, eggs, dairy, soy, seeds, oats, bananas) increase Trp:LNAA ratio, supporting serotonin synthesis for calming effects
+- **Morning meals**: Protein-forward meals (25–35 g protein) with tyrosine sources increase Tyr:LNAA ratio, supporting dopamine synthesis for focus and alertness
+- **Cofactors**: Iron, B6, folate, BH₄, and omega-3s support both pathways through enzyme cofactor support
+- **Timing**: Morning bias for dopamine (alertness), evening bias for serotonin (calming)
+
 ### GABA Support
 
 **GABA:** Main inhibitory neurotransmitter; calms neural activity, supports sleep. Cofactors: Glutamate (from protein), B6, Magnesium functions as an NMDA receptor antagonist and GABA receptor modulator (Clerc et al. 2013), Zinc – acts as an allosteric modulator of the GABA receptor (Peralta and Huidobro-Toro 2016) (paper.txt, line 349).

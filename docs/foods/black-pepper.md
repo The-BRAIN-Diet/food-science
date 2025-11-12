@@ -29,5 +29,4 @@ Black pepper contains piperine, which dramatically enhances the bioavailability 
 ## Related Foods
 
 - [Turmeric](./turmeric.md) - Primary pairing
-- [Spices](./spices.md) (general)
 
