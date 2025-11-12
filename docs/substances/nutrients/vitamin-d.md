@@ -61,6 +61,9 @@ Calcium Modulation: **Vitamin D**, magnesium, taurine, phospholipids (phosphatid
 ### Plant Sources (Limited - Fortified or UV-Exposed)
 
 **UV-Exposed Mushrooms:**
+- [Mushrooms](../../foods/mushrooms.md) (UV-exposed) - **Vitamin D** source when exposed to UV light. One study looked at the modelling in dietary guidelines with a view to expediting the global acceptance of UV-exposed mushrooms as a source of vitamin D (Starck et al. 2024) (paper.txt, line 724).
+
+**Fortified Sources:**
 
 - [Mushrooms](../../foods/mushrooms.md) (UV-exposed) - **Vitamin D** source when exposed to UV light. One study looked at the modelling in dietary guidelines with a view to expediting the global acceptance of UV-exposed mushrooms as a source of vitamin D (Starck et al. 2024) (paper.txt, line 724).
 

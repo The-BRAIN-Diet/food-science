@@ -63,6 +63,9 @@ Specific Nutrient Modulators: Taurine; adenosine-regulating nutrients (green tea
 - [Fish Roe](../../foods/fish-roe.md) (general) - Phospholipid-bound omega-3s, **choline**
 
 **Organ Meats:**
+- [Liver](../../foods/liver.md) - **High choline**, B12, retinol, heme iron, CoQ10
+
+**Dairy:**
 
 - [Liver](../../foods/liver.md) - **High choline**, B12, retinol, heme iron, CoQ10
 

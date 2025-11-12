@@ -77,6 +77,12 @@ Overgrowth Suppression (SIBO, Candida, Pathobionts): Polyphenol antimicrobials (
 ### Plant Sources
 
 **Seeds:**
+- [Pumpkin Seeds](../../foods/pumpkin-seeds.md) - High zinc, **tryptophan**, magnesium, iron
+
+**Whole Grains:**
+- [Oats](../../foods/oats.md) - Beta-glucans, **tryptophan**, B6, magnesium
+
+**Soy Products:**
 
 - [Pumpkin Seeds](../../foods/pumpkin-seeds.md) - High zinc, **tryptophan**, magnesium, iron
 
