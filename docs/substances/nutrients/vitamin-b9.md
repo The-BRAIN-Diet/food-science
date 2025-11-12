@@ -50,39 +50,39 @@ Isoquercetin (glycosylated quercetin) is more completely absorbed than quercetin
 ### Plant Sources
 
 **Leafy Greens:**
-- [Spinach](../foods/spinach.md) - Iron, magnesium, zinc, **folate**; boil to reduce oxalates
-- [Kale](../foods/kale.md) - Iron, magnesium, zinc, quercetin, **folate**; boil to reduce oxalates
-- [Broccoli](../foods/broccoli.md) - Sulforaphane, **folate**, vitamin C, glutathione precursors
-- [Brussels Sprouts](../foods/brussels-sprouts.md) - Sulfur compounds, **folate**, vitamin C
-- [Asparagus](../foods/asparagus.md) - FOS prebiotic fiber, **folate**
+- [Spinach](../../foods/spinach.md) - Iron, magnesium, zinc, **folate**; boil to reduce oxalates
+- [Kale](../../foods/kale.md) - Iron, magnesium, zinc, quercetin, **folate**; boil to reduce oxalates
+- [Broccoli](../../foods/broccoli.md) - Sulforaphane, **folate**, vitamin C, glutathione precursors
+- [Brussels Sprouts](../../foods/brussels-sprouts.md) - Sulfur compounds, **folate**, vitamin C
+- [Asparagus](../../foods/asparagus.md) - FOS prebiotic fiber, **folate**
 
 **Legumes:**
-- [Lentils](../foods/lentils.md) - Protein, fiber, **folate**, iron, magnesium, zinc
-- [Chickpeas](../foods/chickpeas.md) - Protein, fiber, **folate**, magnesium, iron, B6
-- [Black Beans](../foods/black-beans.md) - Protein, polyphenols, **folate**
-- [Kidney Beans](../foods/kidney-beans.md) - Protein, polyphenols, **folate**
-- [Peas](../foods/peas.md) - Plant protein, fiber, thiamine, **folate**
+- [Lentils](../../foods/lentils.md) - Protein, fiber, **folate**, iron, magnesium, zinc
+- [Chickpeas](../../foods/chickpeas.md) - Protein, fiber, **folate**, magnesium, iron, B6
+- [Black Beans](../../foods/black-beans.md) - Protein, polyphenols, **folate**
+- [Kidney Beans](../../foods/kidney-beans.md) - Protein, polyphenols, **folate**
+- [Peas](../../foods/peas.md) - Plant protein, fiber, thiamine, **folate**
 
 **Whole Grains:**
-- [Oats](../foods/oats.md) - Beta-glucans, tryptophan, B6, **folate**
-- [Barley](../foods/barley.md) - Beta-glucans, fiber, **folate**
+- [Oats](../../foods/oats.md) - Beta-glucans, tryptophan, B6, **folate**
+- [Barley](../../foods/barley.md) - Beta-glucans, fiber, **folate**
 
 **Other Plant Sources:**
-- [Avocado](../foods/avocado.md) - MUFA, vitamin E, lutein, **folate**
-- [Oranges](../foods/oranges.md) - Vitamin C, **folate**
-- [Bananas](../foods/bananas.md) - B6, tryptophan, potassium, **folate**
+- [Avocado](../../foods/avocado.md) - MUFA, vitamin E, lutein, **folate**
+- [Oranges](../../foods/oranges.md) - Vitamin C, **folate**
+- [Bananas](../../foods/bananas.md) - B6, tryptophan, potassium, **folate**
 
 ### Animal Sources
 
 **Organ Meats:**
-- [Liver](../foods/liver.md) - Highest source of B12, retinol, heme iron, **folate**
+- [Liver](../../foods/liver.md) - Highest source of B12, retinol, heme iron, **folate**
 
 **Poultry & Meat:**
-- [Chicken](../foods/chicken.md) - Complete protein, niacin, zinc, **folate**
-- [Beef](../foods/beef.md) - High creatine, CoQ10, heme iron, **folate**
+- [Chicken](../../foods/chicken.md) - Complete protein, niacin, zinc, **folate**
+- [Beef](../../foods/beef.md) - High creatine, CoQ10, heme iron, **folate**
 
 **Eggs:**
-- [Eggs](../foods/eggs.md) - Complete protein, choline, B6, **folate**
+- [Eggs](../../foods/eggs.md) - Complete protein, choline, B6, **folate**
 
 ## Synergy with Other Nutrients
 

@@ -52,28 +52,28 @@ Supporting NAPEs production through diet via PE-rich foods like eggs, fish roe, 
 ### Animal Sources (EPA & DHA)
 
 **Fatty Fish & Seafood:**
-- [Salmon](../foods/salmon.md) - High EPA/DHA, phospholipid-bound in roe
-- [Salmon Roe](../foods/salmon-roe.md) - Phospholipid-bound omega-3s, choline, astaxanthin; highly bioavailable
-- [Sardines](../foods/sardines.md) - High EPA/DHA, CoQ10, low heavy metal burden
-- [Mackerel](../foods/mackerel.md) - High EPA/DHA, CoQ10, taurine, vitamin D
-- [Tuna](../foods/tuna.md) - EPA/DHA, niacin, selenium, creatine
-- [Cod](../foods/cod.md) - Omega-3s, taurine, creatine
-- [Herring](../foods/herring.md) - Oily fish, high omega-3
-- [Scallops](../foods/scallops.md) - High taurine, creatine
-- [Clams](../foods/clams.md) - Taurine, B12
-- [Oysters](../foods/oysters.md) - Zinc, some omega-3
-- [Fish Roe](../foods/fish-roe.md) (general) - Phospholipid-bound omega-3s
-- [Lumpfish Roe](../foods/lumpfish-roe.md) - Phospholipid-bound omega-3s
+- [Salmon](../../foods/salmon.md) - High EPA/DHA, phospholipid-bound in roe
+- [Salmon Roe](../../foods/salmon-roe.md) - Phospholipid-bound omega-3s, choline, astaxanthin; highly bioavailable
+- [Sardines](../../foods/sardines.md) - High EPA/DHA, CoQ10, low heavy metal burden
+- [Mackerel](../../foods/mackerel.md) - High EPA/DHA, CoQ10, taurine, vitamin D
+- [Tuna](../../foods/tuna.md) - EPA/DHA, niacin, selenium, creatine
+- [Cod](../../foods/cod.md) - Omega-3s, taurine, creatine
+- [Herring](../../foods/herring.md) - Oily fish, high omega-3
+- [Scallops](../../foods/scallops.md) - High taurine, creatine
+- [Clams](../../foods/clams.md) - Taurine, B12
+- [Oysters](../../foods/oysters.md) - Zinc, some omega-3
+- [Fish Roe](../../foods/fish-roe.md) (general) - Phospholipid-bound omega-3s
+- [Lumpfish Roe](../../foods/lumpfish-roe.md) - Phospholipid-bound omega-3s
 
 ### Plant Sources (ALA - Limited Conversion)
 
 **Note:** Conversion from ALA to DHA is <5% in most adults; direct DHA/EPA strongly recommended (paper.txt, line 282).
 
-- [Algal Oil](../foods/algal-oil.md) - Direct DHA (from microalgae), used in infant formulas, neuroprotective (paper.txt, line 429)
-- [Seaweed](../foods/seaweed.md) - Low bioavailable DHA/EPA (paper.txt, line 282)
-- [Walnuts](../foods/walnuts.md) - ALA source
-- [Chia Seeds](../foods/chia-seeds.md) - ALA source
-- [Flax Seeds](../foods/flax-seeds.md) - ALA source
+- [Algal Oil](../../foods/algal-oil.md) - Direct DHA (from microalgae), used in infant formulas, neuroprotective (paper.txt, line 429)
+- [Seaweed](../../foods/seaweed.md) - Low bioavailable DHA/EPA (paper.txt, line 282)
+- [Walnuts](../../foods/walnuts.md) - ALA source
+- [Chia Seeds](../../foods/chia-seeds.md) - ALA source
+- [Flax Seeds](../../foods/flax-seeds.md) - ALA source
 
 ## Dietary Recommendations
 

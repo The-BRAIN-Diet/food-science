@@ -42,31 +42,31 @@ Deficiency causes cognitive decline, mood disorders, neuropathy (paper.txt, line
 ### Animal Sources (Bioavailable Cobalamin)
 
 **Organ Meats:**
-- [Liver](../foods/liver.md) - **Highest source** of bioavailable B12, retinol, heme iron, folate
+- [Liver](../../foods/liver.md) - **Highest source** of bioavailable B12, retinol, heme iron, folate
 
 **Seafood:**
-- [Clams](../foods/clams.md) - **High B12**, taurine, heme iron
-- [Fish](../foods/salmon.md) (general) - B12, omega-3, protein
-- [Salmon](../foods/salmon.md) - Omega-3, protein, B vitamins including **B12**
-- [Sardines](../foods/sardines.md) - Omega-3, CoQ10, **B12**
+- [Clams](../../foods/clams.md) - **High B12**, taurine, heme iron
+- [Fish](../../foods/salmon.md) (general) - B12, omega-3, protein
+- [Salmon](../../foods/salmon.md) - Omega-3, protein, B vitamins including **B12**
+- [Sardines](../../foods/sardines.md) - Omega-3, CoQ10, **B12**
 
 **Eggs & Dairy:**
-- [Eggs](../foods/eggs.md) - Complete protein, choline, B6, **B12**
-- [Milk](../foods/milk.md) - Complete protein, nicotinamide riboside, **B12**
-- [Yogurt](../foods/yogurt.md) - Probiotics, protein, **B12**
-- [Kefir](../foods/kefir.md) - Diverse probiotics, **B12**
-- [Cheese](../foods/cheese.md) - Calcium, protein, **B12**
-- [Parmesan Cheese](../foods/parmesan-cheese.md) - CLA, K2, glutamate, high protein, **B12**
+- [Eggs](../../foods/eggs.md) - Complete protein, choline, B6, **B12**
+- [Milk](../../foods/milk.md) - Complete protein, nicotinamide riboside, **B12**
+- [Yogurt](../../foods/yogurt.md) - Probiotics, protein, **B12**
+- [Kefir](../../foods/kefir.md) - Diverse probiotics, **B12**
+- [Cheese](../../foods/cheese.md) - Calcium, protein, **B12**
+- [Parmesan Cheese](../../foods/parmesan-cheese.md) - CLA, K2, glutamate, high protein, **B12**
 
 ### Plant Sources (Limited - Fortified or Functional Foods)
 
 **Fortified Sources:**
-- [Fortified Plant Milks](../foods/fortified-plant-milks.md) - **B12** fortified (methylcobalamin preferred)
-- [Nutritional Yeast](../foods/nutritional-yeast.md) - Fortified with **B12, B6**, NAD+ precursors
+- [Fortified Plant Milks](../../foods/fortified-plant-milks.md) - **B12** fortified (methylcobalamin preferred)
+- [Nutritional Yeast](../../foods/nutritional-yeast.md) - Fortified with **B12, B6**, NAD+ precursors
 
 **Functional Plant Foods:**
-- [Mankai](../foods/mankai.md) (duckweed, Wolffia globosa) - **Iron, B12** for vegan nutrient gaps (paper.txt, line 259)
-- [Chlorella](../foods/chlorella.md) - Contains bioavailable, **true vitamin B12 (cobalamin)**, confirmed in animal feeding trials, and may help close vegan nutrient gaps. By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source (Watanabe et al. 2002) (Watanabe et al. 2002) (paper.txt, line 260)
+- [Mankai](../../foods/mankai.md) (duckweed, Wolffia globosa) - **Iron, B12** for vegan nutrient gaps (paper.txt, line 259)
+- [Chlorella](../../foods/chlorella.md) - Contains bioavailable, **true vitamin B12 (cobalamin)**, confirmed in animal feeding trials, and may help close vegan nutrient gaps. By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source (Watanabe et al. 2002) (Watanabe et al. 2002) (paper.txt, line 260)
 
 **Note:** Vitamin B₁₂ (also present in Wolffia globosa) (paper.txt, line 266).
 
