@@ -1,6 +1,6 @@
 ---
 id: alzhiemers
-title: Alzheimer's Disease (AD)
+title: Alzheimer's Disease
 sidebar_label: Alzheimer's (AD)
 description: Dietary interventions targeting mitochondrial function, oxidative stress, inflammation, and neurochemical balance to slow cognitive decline and support neuroprotection
 tags:
@@ -20,4 +20,4 @@ Alzheimer's disease shares overlapping biological dysfunctions with ADHD and bip
 
 ## Biological Targets
 
-<TagList tag="Alzheimers" filter="biological-targets" />
+<TagList tag="Alzheimer's Disease" filter="biological-targets" />

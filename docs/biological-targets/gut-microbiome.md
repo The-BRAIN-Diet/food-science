@@ -7,6 +7,8 @@ tags:
   - Biological Target
   - Gut Microbiome
   - ADHD
+  - Anxiety & GAD
+  - Depression & MDD
 list_image: /img/icons/biological-targets.svg
 ---
 

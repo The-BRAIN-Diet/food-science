@@ -8,6 +8,8 @@ tags:
   - Metabolic Response Target
   - Stress Response
   - ADHD
+  - Anxiety & GAD
+  - Depression & MDD
 list_image: /img/icons/biological-targets.svg
 ---
 

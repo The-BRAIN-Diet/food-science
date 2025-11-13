@@ -8,7 +8,9 @@ tags:
   - Neurochemical Balance
   - ADHD
   - Bipolar
-  - Alzheimers
+  - Alzheimer's Disease
+  - Anxiety & GAD
+  - Depression & MDD
 list_image: /img/icons/biological-targets.svg
 ---
 

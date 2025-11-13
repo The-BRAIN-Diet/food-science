@@ -7,6 +7,7 @@ tags:
   - Biological Target
   - Hormonal Response
   - ADHD
+  - Anxiety & GAD
 list_image: /img/icons/biological-targets.svg
 ---
 

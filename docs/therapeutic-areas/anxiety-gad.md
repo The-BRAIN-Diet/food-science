@@ -1,6 +1,6 @@
 ---
 id: anxiety-gad
-title: Anxiety and General Anxiety Disorder (GAD)
+title: Anxiety & GAD
 sidebar_label: Anxiety & GAD
 description: Nutritional strategies targeting HPA axis regulation, stress response, neurochemical balance, and gut-brain communication to reduce anxiety and support emotional regulation
 tags:
@@ -24,4 +24,4 @@ Anxiety and General Anxiety Disorder (GAD) share overlapping biological dysfunct
 
 ## Biological Targets
 
-<TagList tag="Anxiety" filter="biological-targets" />
+<TagList tag="Anxiety & GAD" filter="biological-targets" />

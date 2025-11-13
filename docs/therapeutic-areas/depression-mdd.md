@@ -1,6 +1,6 @@
 ---
 id: depression-mdd
-title: Depression and Major Depressive Disorder (MDD)
+title: Depression & MDD
 sidebar_label: Depression & MDD
 description: Food-first dietary interventions targeting neurochemical balance, inflammation, gut-brain axis, and metabolic health to support mood regulation and emotional resilience
 tags:
@@ -23,4 +23,4 @@ Depression and Major Depressive Disorder (MDD) share overlapping biological dysf
 
 ## Biological Targets
 
-<TagList tag="Depression" filter="biological-targets" />
+<TagList tag="Depression & MDD" filter="biological-targets" />

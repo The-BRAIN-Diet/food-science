@@ -450,9 +450,9 @@ Urolithin A:
   permalink: /docs/tags/urolithin-a
   description: Ellagitannin metabolite
 
-Alzheimers:
-  label: Alzheimers
-  permalink: /docs/tags/alzheimers
+Alzheimer's Disease:
+  label: Alzheimer's Disease
+  permalink: /docs/tags/alzheimer's-disease
   description: Alzheimer's disease
 
 Bipolar:
@@ -464,3 +464,19 @@ ADHD:
   label: ADHD
   permalink: /docs/tags/adhd
   description: Attention deficit hyperactivity disorder
+
+Anxiety & GAD:
+  label: Anxiety & GAD
+  permalink: /docs/tags/anxiety-gad
+  description: Anxiety and General Anxiety Disorder
+
+Depression & MDD:
+  label: Depression & MDD
+  permalink: /docs/tags/depression-mdd
+  description: Depression and Major Depressive Disorder
+
+# Food tags
+Algal Oil:
+  label: Algal Oil
+  permalink: /docs/tags/algal-oil
+  description: Vegan DHA source from microalgae
