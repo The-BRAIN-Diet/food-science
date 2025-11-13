@@ -18,7 +18,6 @@ tags:
 list_image: /img/icons/nutrients.svg
 mechanisms:
   Inflammation: Specialized Pro-Resolving Mediators (SPMs) - resolvins, protectins, maresins terminate inflammation without immunosuppression, downregulate COX-2, inhibit neutrophil infiltration, enhance macrophage clearance, limit glutamate-induced excitotoxicity
-  Oxidative Stress: Myelin Sheath Formation
   Neurochemical Balance: Membrane fluidity and neurotransmitter receptor function, ion channel behavior and gamma oscillations, support neurotransmission and phospholipid methylation
   Endocannabinoid System: Production of docosahexaenoyl ethanolamide (DHEA) and eicosapentaenoyl ethanolamide (EPEA), N-acyl ethanolamines for endocannabinoid-like signaling
   Hormonal Response: Support hormonal balance through membrane integrity and anti-inflammatory effects

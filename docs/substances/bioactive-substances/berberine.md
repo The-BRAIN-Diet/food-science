@@ -10,8 +10,28 @@ tags:
   - Gut Microbiome
   - Inflammation
 list_image: /img/icons/bioactive.svg
+mechanisms:
+  Gut Microbiome: Suppresses SIBO, Candida, and pathobionts; reduces LPS translocation; increases nutrient absorption (B12, iron, tryptophan); increases SCFA resilience
+  Insulin Response: Improves insulin sensitivity; limits sympathetic activation
+  Inflammation: Reduces LPS translocation and dampens LPS-driven inflammation through antimicrobial effects on pathobionts
 ---
 
 ## Overview
 
-Berberine supports glycemic regulation and exhibits antimicrobial actions; used contextually for SIBO/overgrowth strategies within dietary remodeling.
+Berberine is a polyphenolic alkaloid naturally found in plants such as barberry, goldenseal, and Oregon grape. It supports glycemic regulation by improving insulin sensitivity and limiting sympathetic activation, making it valuable for glucose regulation strategies. As a polyphenol antimicrobial, berberine suppresses small intestinal bacterial overgrowth (SIBO), Candida, and pathobionts while reducing lipopolysaccharide (LPS) translocation from the gut. This antimicrobial action enhances nutrient absorption of vitamin B12, iron, and tryptophan—essential precursors for neurotransmitter synthesis—and increases short-chain fatty acid (SCFA) resilience, supporting gut–brain communication and reducing systemic inflammation.
+
+## Therapeutic Areas
+
+<SubstanceMatrix tag="Berberine" />
+
+## Foods
+
+<TagList tag="Berberine" filter="foods" />
+
+## References
+
+- Polyphenol antimicrobials including berberine suppress SIBO recurrence, reduce LPS translocation, and increase nutrient absorption of B12, iron, and tryptophan [Sinha et al. 2024](/docs/papers/BRAIN-Diet-References#sinha_dietary_2024)
+- Small intestinal bacterial overgrowth (SIBO) impairs absorption of vitamin B12, iron, and tryptophan, depriving the brain of essential neurotransmitter precursors
+- LPS translocation from gut barrier weakness fuels systemic inflammation and impairs insulin sensitivity [Mohammad and Thiemermann 2021](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
+- Inflammation from LPS translocation has been linked to disrupting dopamine and serotonin pathways and causing depression [Batey et al. 2024](/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024)
+- Berberine improves insulin sensitivity and limits sympathetic activation as part of glucose regulation strategies

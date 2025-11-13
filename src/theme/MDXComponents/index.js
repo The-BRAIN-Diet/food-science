@@ -4,6 +4,7 @@ import TagList from '../TagList';
 import BibTexReferences from '../BibTexReferences';
 import DocTagDocListPage from '../DocTagDocListPage';
 import FoodMatrix from '../FoodMatrix';
+import SubstanceMatrix from '../SubstanceMatrix';
 
 export default {
   ...MDXComponents,
@@ -11,4 +12,5 @@ export default {
   BibTexReferences,
   DocTagDocListPage,
   FoodMatrix,
+  SubstanceMatrix,
 };

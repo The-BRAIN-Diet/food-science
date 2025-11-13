@@ -38,13 +38,18 @@ export default function TagList(props) {
 
   oneTag.sort((a, b) => a.order - b.order);
 
+  const filteredDocs = oneTag
+    .filter(d => d.permalink.indexOf(filter) > -1)
+    .filter(d => d.permalink != location);
+
   return (
     <div className="bok-tag-list" key={props.tag}>
       {
-        oneTag
-          .filter(d => d.permalink.indexOf(filter) > -1)
-          .filter(d => d.permalink != location)
-          .map(d => <DocItemImage key={d.title} doc={d} />)
+        filteredDocs.length === 0 ? (
+          <em>no documents tagged</em>
+        ) : (
+          filteredDocs.map(d => <DocItemImage key={d.title} doc={d} />)
+        )
       }
     </div>
   );

@@ -4,6 +4,8 @@ title: Foods Index
 sidebar_label: Foods
 description: Brain-healthy foods, recipes and products designed to support cognitive function
 sidebar_position: 5
+tags:
+  - Area
 ---
 
 # Foods Index
