@@ -6,6 +6,7 @@ description: Acetylcholine precursor; methyl donor; phospholipid synthesis for m
 tags:
   - Lipid
   - Choline
+  - Methylation
 list_image: /img/icons/bioactive.svg
 ---
 

@@ -13,4 +13,4 @@ Bipolar disorder shares core pathophysiology with other neurocognitive condition
 
 ## Biological Targets
 
-<TagList tag="Bipolar" folder="biological-targets" />
+<TagList tag="Bipolar" filter="biological-targets" />

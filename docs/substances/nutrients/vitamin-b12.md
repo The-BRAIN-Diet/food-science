@@ -7,6 +7,7 @@ tags:
   - Nutrient
   - Vitamin
   - Vitamin B12
+  - Methylation
 list_image: /img/icons/nutrients.svg
 ---
 

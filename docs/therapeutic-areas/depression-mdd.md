@@ -27,6 +27,7 @@ Glutamate is the principal excitatory neurotransmitter of the central nervous sy
 **Glutamate:** Principal excitatory neurotransmitter; learning, memory, cognition and mood deficits. Cofactors: Glutamine (from protein), B6, magnesium, zinc. Food sources: Lentils, poultry, fish, spinach, pumpkin seeds. Maintain magnesium & antioxidant intake to prevent excitotoxicity; balance with GABA-supporting foods in evening (paper.txt, line 345).
 
 Actionable dietary focuses:
+
 - Prioritize protein-rich sources with adequate tryptophan and choline sources (eggs, fish, legumes, soy, seeds)
 - Ensure B6, magnesium, and zinc adequacy
 - Balance excitatory (glutamate) with inhibitory (GABA) neurotransmitters
@@ -37,6 +38,7 @@ Actionable dietary focuses:
 **Dopamine:** Attention, motivation, executive function; DMN-to-task switching. Cofactors: Tyrosine, phenylalanine; iron, B6, folate, omega-3s. Food sources: Lean poultry, beef, fish, dairy, soy, pumpkin seeds; omega-3 rich fish. Protein-rich breakfasts; pair with anti-inflammatory nutrients to protect DMN switching; avoid chronic over-reward from ultra-processed foods (paper.txt, line 346).
 
 Actionable dietary focuses:
+
 - Protein-rich breakfasts with tyrosine sources
 - Pair with anti-inflammatory nutrients
 - Avoid chronic over-reward from ultra-processed foods
@@ -54,6 +56,7 @@ Metabolic endotoxemia (ME), defined as chronically elevated circulating lipopoly
 In a controlled endotoxemia model (Ferguson et al. 2014), high-dose EPA+DHA (3.6 g/day) attenuated fever and downstream cytokines (IL-6, IL-10), even though TNF-α remained unchanged, suggesting that omega-3s reshape the resolution phase of acute inflammation rather than block its initiation. The endotoxemia model is discussed as an analogue of postprandial inflammation, which is highly relevant as we detail below ADHD is associated with metabolic disorders, and specifically linked to postprandial inflammation (Brown et al. 2025) (paper.txt, line 462).
 
 Actionable dietary focuses:
+
 - Regular EPA/DHA intake (oily fish or algal oil) for anti-inflammatory effects
 - Support gut barrier integrity with fiber, polyphenols, and fermented foods
 - Reduce ultra-processed foods and high-heat, AGE-rich cooking practices
@@ -71,6 +74,7 @@ Interventions such as prebiotics, probiotics, high-fibre diets, and fermented fo
 These effects are thought to be, in the main, mediated through increased production of short-chain fatty acids (SCFAs) like butyrate, which support intestinal barrier integrity, regulate immune responses, antioxidant activity (Wang et al. 2022), and promote the synthesis of key neurotransmitters such as dopamine and serotonin (Silva et al. 2020) (paper.txt, line 516).
 
 Actionable dietary focuses:
+
 - Include fermented foods (kimchi, kefir, pickles, sauerkraut) for beneficial bacteria
 - Support prebiotic fiber intake (GOS, inulin, pectin) for SCFA production
 - Regular consumption of psychobiotic foods
@@ -82,6 +86,7 @@ Actionable dietary focuses:
 Low levels of BDNF have been associated with various neurodevelopmental disorders, including the polymorphism Val66me which has been linked with lower dopamine and lower BDNF and correlated to anxiety and depression (Hünnerkopf et al. 2007). Knowing one's Val66Met status, via genetic testing, can inform personalized plans for exercise, dietary factors i.e. omega-3s which also can increase BDNF (Ziaei et al. 2024) (paper.txt, line 381).
 
 Actionable dietary focuses:
+
 - Regular omega-3 intake (EPA/DHA)
 - Polyphenol-rich foods (blueberries, turmeric, green tea, walnuts)
 - Combine with exercise for synergistic BDNF enhancement
@@ -102,6 +107,7 @@ Although omega-3s are not direct endocannabinoids, they contribute to endocannab
 - Omega-3s support mitochondrial membranes and biogenesis; polyphenol-rich foods bolster endogenous antioxidant networks
 
 Actionable dietary focuses:
+
 - Include oily fish or algal DHA/EPA
 - Emphasize polyphenol-dense foods (berries, extra-virgin olive oil, herbs/spices)
 - Support B vitamin and magnesium adequacy
@@ -113,6 +119,7 @@ ADHD and some other neuropsychiatric conditions (e.g., ASD, Bipolar and MDD) may
 Managing glycemic variability stabilizes dopamine–insulin coupling and cognitive performance. Glycemic stabilization is expected to exert downstream effects on emotional regulation through modulation of HPA axis activity, limbic signalling, and neurotransmitter systems (paper.txt, line 335).
 
 Actionable dietary focuses:
+
 - Preserve whole-food structure
 - Order meals vegetables → protein/fat → carbohydrate
 - Pair carbohydrates with fiber/fat/protein
@@ -125,6 +132,7 @@ Elevated plasma homocysteine, a byproduct of methylation, is frequently elevated
 B vitamins, particularly B6, B2, folate (5-MTHF), and B12, are essential cofactors in the remethylation of homocysteine (Hcy) to methionine, which is subsequently converted to S-adenosylmethionine (SAMe) (paper.txt, line 478).
 
 Actionable dietary focuses:
+
 - Ensure adequate B vitamin intake (B6, B2, folate, B12)
 - Support methylation pathways with choline, betaine, and methionine sources
 - Address MTHFR polymorphisms if present
@@ -134,18 +142,21 @@ Actionable dietary focuses:
 ### Nutrient-Based Modulators
 
 **Category: Nutrient-Based Modulators**
+
 - **Modulator Examples**: Omega-3s (EPA/DHA) (Sauder et al. 2013), magnesium, potassium, polyphenols, B-vitamins, tryptophan, GABA precursors
 - **Primary Targets**: Omega 3 for improving vagal tone and HRV control. Improving cortisol rhythms, inflammation (Kiecolt-Glaser et al. 2011), BDNF signaling (paper.txt, line 796)
 
 ### Specific Nutrient Modulators
 
 **Category: Specific Nutrient Modulators**
+
 - **Modulator Examples**: Taurine; adenosine-regulating nutrients (green tea polyphenols, folate, choline, betaine)
 - **Primary Targets**: HPA buffering, cortisol reduction, dopamine signaling, sleep pressure, neurotransmitter balance (paper.txt, line 799)
 
 ### LPS & Immune Defense
 
 **Category: LPS & Immune Defense**
+
 - **Modulator Examples**: Polyphenols (quercetin, EGCG), prebiotics, butyrate, lactobacilli strains, fermented vegetables, extra virgin olive oil
 - **Primary Targets**: Gut barrier integrity, TLR4 suppression, LPS neutralization, microglial activation dampening (paper.txt, line 800)
 
@@ -180,4 +191,3 @@ Actionable dietary focuses:
 - Yu et al. 2020
 - Ziaei et al. 2024
 - Zhou and Danbolt 2014
-

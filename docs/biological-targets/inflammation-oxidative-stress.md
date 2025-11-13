@@ -5,6 +5,7 @@ sidebar_label: Inflammation & Oxidative Stress
 description: Chronic inflammation and oxidative stress as modifiable contributors to ADHD symptom severity
 tags:
   - Biological Target
+  - Inflammation and Oxidative Stress
   - ADHD
   - Bipolar
   - Alzheimers
@@ -13,11 +14,15 @@ list_image: /img/icons/biological-targets.svg
 
 # Inflammation and Oxidative Stress
 
-Chronic inflammation and oxidative stress are interconnected biological dysfunctions that contribute to cognitive, emotional, and behavioral dysregulation in ADHD and other neurodevelopmental conditions. The BRAIN Diet targets these pathways through antioxidant networks, anti-inflammatory nutrients, and strategies to reduce oxidative load.
-
 ## Overview
 
-Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder, and neurodegenerative conditions like Alzheimer's and Parkinson's disease, have complex, multifactorial origins. Although the precise causes are not fully understood, these conditions share overlapping biological dysfunctions, including mitochondrial impairment, **chronic inflammation, oxidative stress**, impaired methylation, gut–brain axis disruption, glucose dysregulation, micronutrient deficiencies, and neurotransmitter imbalances. These interconnected systems, while not sole causes of such disorders, can contribute to symptom burden and overall metabolic and mental health (paper.txt, line 132).
+Chronic inflammation and oxidative stress are interconnected biological dysfunctions that contribute to cognitive, emotional, and behavioral dysregulation in ADHD and other neurodevelopmental conditions. Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder, and neurodegenerative conditions like Alzheimer's and Parkinson's disease, share overlapping biological dysfunctions, including mitochondrial impairment, chronic inflammation, oxidative stress, impaired methylation, gut–brain axis disruption, glucose dysregulation, micronutrient deficiencies, and neurotransmitter imbalances. The BRAIN Diet targets these pathways through antioxidant networks, anti-inflammatory nutrients, and strategies to reduce oxidative load, treating oxidative stress as a state-sensitive, potentially modifiable contributor to symptom severity (paper.txt, lines 132, 620).
+
+## Therapeutic Areas
+
+<TagList tag="Inflammation and Oxidative Stress" filter="therapeutic-areas" />
+
+## Biological Implications
 
 ## Oxidative Stress in ADHD
 
@@ -144,47 +149,47 @@ The BRAIN Diet targets this network by combining polyphenol-dense foods, omega-3
 
 These findings reinforce the importance of nutrient strategies within the BRAIN Diet that support NAD⁺ availability, glutathione synthesis, and mitochondrial health, such as niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms), sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions), and polyphenol-rich sources (e.g., blueberries, green tea, dark chocolate, extra virgin olive oil) (paper.txt, line 701).
 
+## Substances
+
+<TagList tag="Inflammation and Oxidative Stress" filter="substances" />
+
 ## References
 
-- Bulut et al. 2007
-- Kurhan and Alp 2021
-- Miniksar et al. 2023
-- Solleiro-Villavicencio and Rivas-Arancibia 2018a, 2018b
-- Chang et al. 2020a
-- Prehn-Kristensen et al. 2018
-- Yunting Li et al. 2024
-- Rose et al. 2018
-- Cavaliere et al. 2022
-- Grüter et al. 2023
-- Hoyles et al. 2018
-- Packer et al. 1997
-- Klein et al. 2011
-- Zelicha et al. 2022
-- Pachter et al. 2024
-- A. Verlaet et al. 2018
-- Wesselink et al. 2019b
-- Mocchegiani and Malavolta 2019
-- Vertuani, Angusti, and Manfredini 2004
-- Houghton, Fassett, and Coombes 2016
-- Shi et al. 2021
-- Johnson 2014
-- Yagi et al. 2021
-- Lieblein-Boff et al., 2015
-- Vishwanathan et al., 2014
-- Boots, Haenen, and Bast 2008
-- Tongjaroenbuangam et al. 2011
-- Y. Li et al. 2016
-- Camuesco et al. 2006
-- Fuloria et al. 2022
-- Thors, Eriksson, and Fowler 2007
-- Verlaet et al. 2019
-- Zhai et al. 2015
-- Berglund et al. 1994
-- Dufault et al. 2024
-- Zhang et al. 2025
-- Nigg et al. 2016
-- Goodlad et al. 2013
-- Jiang et al. 2021
-- Uribarri et al. 2010
-- Ferguson et al. 2014
-- Brown et al. 2025
+- Significantly higher Malondialdehyde levels in adult ADHD compared with healthy controls, indicating increased oxidative stress [Bulut et al. 2007](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007)
+- Shift in thiol/disulfide homeostasis toward oxidation and higher urinary 8-OHdG (DNA oxidation) in adults with ADHD versus controls [Kurhan and Alp 2021](/docs/papers/BRAIN-Diet-References#kurhan_dynamic_2021)
+- Elevated oxidative stress index (OSI) / total oxidative status (TOS) in adult ADHD, suggesting malondialdehyde (MDA) and superoxide dismutase (SOD) levels may be effective biomarkers [Miniksar et al. 2023](/docs/papers/BRAIN-Diet-References#miniksar_effect_2023)
+- Increased oxidative stress linked to cellular damage, DNA repair system malfunction, and mitochondrial dysfunction [Solleiro-Villavicencio and Rivas-Arancibia 2018](/docs/papers/BRAIN-Diet-References#solleiro-villavicencio_effect_2018)
+- High levels of ROS cause astrocytes and microglia activation, releasing pro-inflammatory cytokines (IL-6, IL-1β, TNF-α) associated with ADHD [Chang et al. 2020](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020)
+- A decreased microbial diversity (alpha diversity) has also been reported in ADHD [Prehn-Kristensen et al. 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
+- Butyrate supports mitochondrial function, enhancing brain energy metabolism, which may help with cognitive impairments seen in ADHD [Rose et al. 2018](/docs/papers/BRAIN-Diet-References#rose_butyrate_2018)
+- Butyrate aids in reducing cholesterol and neuroinflammation [Cavaliere et al. 2022](/docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022)
+- Increased propionate levels could help reduce neuroinflammation and enhance cognitive function while protecting the blood-brain barrier [Grüter et al. 2023](/docs/papers/BRAIN-Diet-References#gruter_propionate_2023)
+- Propionate can stimulate the secretion of norepinephrine, possibly benefiting ADHD symptoms like attention and focus [Hoyles et al. 2018](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)
+- The "antioxidant network" concept: key compounds like vitamin E, vitamin C, lipoic acid, glutathione, and CoQ10 work synergistically and regenerate each other in vivo [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+- High-dose antioxidant supplements have shown inconsistent or even harmful effects in the Vitamin E clinical trials and prostate cancer [Klein et al. 2011](/docs/papers/BRAIN-Diet-References#klein_vitamin_2011)
+- The Green Mediterranean Diet DIRECT-PLUS studies led to significantly greater reductions in visceral adipose and neuroprotective effects [Zelicha et al. 2022](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+- Green Mediterranean Diet effects accompanied by increases in microbiome-derived metabolites like urolithin A, reinforcing the synergistic role of polyphenols, fibre, and gut-derived antioxidants [Pachter et al. 2024](/docs/papers/BRAIN-Diet-References#pachter_glycemic_2024)
+- Dietary antioxidant treatment of ADHD accounted for substantial alterations in the immune system, epigenetic regulation of gene expression, and oxidative stress regulation [Verlaet et al. 2018](/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018)
+- Immune dysfunction results in increased IgE levels and allergies, another link between ADHD [Wesselink et al. 2019](/docs/papers/BRAIN-Diet-References#wesselink_feeding_2019)
+- Selenium, zinc, and manganese are crucial for the proper functioning of various antioxidant systems within the body [Mocchegiani and Malavolta 2019](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
+- The intricate network of antioxidants works synergistically, with each component complementing the others to maintain cellular health [Vertuani, Angusti, and Manfredini 2004](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
+- Sulforaphane shows higher bioavailability than other polyphenol-based dietary supplements that activate Nrf2 [Houghton, Fassett, and Coombes 2016](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
+- Ferulic acid crosses the blood–brain barrier, scavenges reactive oxygen species, and synergizes with vitamins C and E to stabilize neuronal membranes and preserve DHA [Shi et al. 2021](/docs/papers/BRAIN-Diet-References#shi_anti-oxidation_2021)
+- Carotenoids accumulate selectively in neural tissues, including the retina and brain, where they help scavenge reactive oxygen species and stabilize cell membranes [Johnson 2014](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+- Lutein and zeaxanthin have been associated with improved cognitive performance, especially in domains such as memory, processing speed, and visual-spatial function [Yagi et al. 2021](/docs/papers/BRAIN-Diet-References#yagi_lutein_2021)
+- Quercetin is an effective antioxidant agent which scavenges ROS [Boots, Haenen, and Bast 2008](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+- Quercetin has antioxidant, anti-inflammatory, and anti-neuroinflammatory and neuroprotective properties [Tongjaroenbuangam et al. 2011](/docs/papers/BRAIN-Diet-References#tongjaroenbuangam_neuroprotective_2011)
+- Isoquercetin (glycosylated quercetin) is more completely absorbed than quercetin in the aglycone form, and simultaneous ingestion with vitamin C, folate and additional flavonoids improves bioavailability [Li et al. 2016](/docs/papers/BRAIN-Diet-References#li_quercetin_2016)
+- Quercetin bound to a sugar molecule forming quercitrin has anti-inflammatory and anti-oxidative effects that may be augmented by the co-ingestion of N-3 polyunsaturated fatty acids and olive oil [Camuesco et al. 2006](/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006)
+- Genistein has shown potential as a modulator of several biochemical pathways, including the endocannabinoid system and neuroinflammation [Fuloria et al. 2022](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)
+- Genistein potentially enhances the activity of certain endocannabinoids like anandamide [Thors, Eriksson, and Fowler 2007](/docs/papers/BRAIN-Diet-References#thors_inhibition_2007)
+- Elevated GSH levels recorded in ADHD subjects may reflect a compensatory response to increased oxidative stress [Verlaet et al. 2019](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
+- Heavy metals are detoxified in the body by metallothionein (MT) metal carrier proteins that must bind with Zn and copper (Cu) [Zhai et al. 2015](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)
+- A high-fiber (vegetarian) pattern showed near-complete fecal recovery of dietary cadmium and no increase in blood/urine Cd despite higher Cd intake, suggesting fibre/phytate-mediated inhibition of absorption [Berglund et al. 1994](/docs/papers/BRAIN-Diet-References#berglund_intestinal_1994)
+- ADHD has been linked with metals contamination and UPFs which contain among other additives high amounts of metals, particularly in food colourings [Dufault et al. 2024](/docs/papers/BRAIN-Diet-References#dufault_nutritional_2024)
+- Micro/nanoplastics (MNPs) are being linked to many diseases, reproductive health and ADHD [Zhang et al. 2025](/docs/papers/BRAIN-Diet-References#zhang_exploring_2025)
+- Western diets characterized by excess consumption of saturated fats, over-refined sugars, and animal-based protein and low consumption of plant-based fiber have been shown to have higher levels of oxidative stress and a greater risk of chronic disease [Jiang et al. 2021](/docs/papers/BRAIN-Diet-References#jiang_dietary_2021)
+- Higher cooking temperature/time increases Maillard products/AGEs, elevating oxidative stress and microglial activation, which reduces synaptic plasticity [Uribarri et al. 2010](/docs/papers/BRAIN-Diet-References#uribarri_advanced_2010)
+- High-heat cooking of fats and proteins produces AGEs/ALEs, which can cross the BBB, activate microglia, and impair synaptic plasticity [Uribarri et al. 2010](/docs/papers/BRAIN-Diet-References#uribarri_advanced_2010)
+- In a controlled endotoxemia model, high-dose EPA+DHA (3.6 g/day) attenuated fever and downstream cytokines (IL-6, IL-10), suggesting that omega-3s reshape the resolution phase of acute inflammation rather than block its initiation [Ferguson et al. 2014](/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014)
+- ADHD is associated with metabolic disorders, and specifically linked to postprandial inflammation [Brown et al. 2025](/docs/papers/BRAIN-Diet-References#brown_associations_2025)

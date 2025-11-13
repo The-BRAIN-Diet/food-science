@@ -7,7 +7,7 @@ The `docs` directory is split into several key subsections:
 - Don't _ever_ create lists of say foods, substances or targets. Instead, tag the group of them and add the tag to `tags.yml` and use the `<DocList />` react component. For example, for a list of vegan foods, do this:
 
 ```
-<DocList tag="Vegan" folder="foods" />  // you can omit folder attribute if you want a list of everything tagged "Vegan".
+<DocList tag="Vegan" filter="foods" />  // you can omit folder attribute if you want a list of everything tagged "Vegan".
 ```
 
 - Each substance, food, target etc. should have its own tag. e.g Pork.md should be tagged with Pork.

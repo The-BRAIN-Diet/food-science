@@ -7,6 +7,7 @@ tags:
   - Nutrient
   - Mineral
   - Zinc
+  - Methylation
 list_image: /img/icons/nutrients.svg
 ---
 

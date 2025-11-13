@@ -38,3 +38,8 @@ Algal oil provides direct DHA from microalgae, offering a vegan source of omega-
 - [Chlorella](./chlorella.md)
 - [Spirulina](./spirulina.md)
 - [Seaweed](./seaweed.md)
+
+## References
+
+- [/docs/papers/BRAIN-Diet-References#patrick_role_2019](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
+- [/docs/papers/BRAIN-Diet-References#liu_higher_2014](/docs/papers/BRAIN-Diet-References#liu_higher_2014)

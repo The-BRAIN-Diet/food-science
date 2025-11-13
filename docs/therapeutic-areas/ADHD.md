@@ -5,6 +5,12 @@ sidebar_label: ADHD
 tags:
   - Therapeutic Area
   - ADHD
+  - Methylation
+  - Gut Microbiome
+  - Hormonal Response
+  - Inflammation
+  - Oxidative Stress
+  - Mitochondrail Support
 ---
 
 ## Overview
@@ -13,4 +19,4 @@ ADHD shares overlapping biological dysfunctions with other neurocognitive condit
 
 ## Biological Targets
 
-<TagList tag="ADHD" folder="biological-targets" />
+<TagList tag="ADHD" filter="biological-targets" />

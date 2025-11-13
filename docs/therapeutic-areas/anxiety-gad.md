@@ -29,6 +29,7 @@ Levilactobacillus brevis is one of the key bacteria known to produce GABA. It pr
 **Glutamate:** Principal excitatory neurotransmitter; learning, memory, cognition and mood deficits. Cofactors: Glutamine (from protein), B6, magnesium, zinc. Food sources: Lentils, poultry, fish, spinach, pumpkin seeds. Maintain magnesium & antioxidant intake to prevent excitotoxicity; balance with GABA-supporting foods in evening (paper.txt, line 345).
 
 Actionable dietary focuses:
+
 - Prioritize protein-rich sources with adequate tryptophan and choline sources (eggs, fish, legumes, soy, seeds)
 - Ensure B6, magnesium, and zinc adequacy
 - Include fermented foods (kimchi, kefir, pickles) for GABA support
@@ -49,6 +50,7 @@ Omega-3s (EPA/DHA) improve vagal tone and HRV control, improving cortisol rhythm
 In addition, gut–brain signaling occurs via the vagus nerve, which transmits microbial and neurochemical cues to influence mood and motivation. Vagal stimulation has demonstrated clinical benefits in depression, epilepsy, and inflammation (Austelle et al. 2022) (paper.txt, line 503).
 
 Actionable dietary focuses:
+
 - Regular EPA/DHA intake (oily fish or algal oil) for vagal tone improvement
 - Support parasympathetic tone with omega-3s, magnesium, and polyphenols
 - Include fermented foods for gut–vagus axis support
@@ -61,6 +63,7 @@ Actionable dietary focuses:
 - Omega-3s support mitochondrial membranes and biogenesis; polyphenol-rich foods bolster endogenous antioxidant networks
 
 Actionable dietary focuses:
+
 - Include oily fish or algal DHA/EPA
 - Emphasize polyphenol-dense foods (berries, extra-virgin olive oil, herbs/spices)
 - Support B vitamin and magnesium adequacy
@@ -76,6 +79,7 @@ Chronic low-grade inflammation and microglial activation impair synaptic plastic
 When gut barrier weaknesses converge, lipopolysaccharide (LPS, a bacterial endotoxin) crosses into the bloodstream, fueling systemic inflammation, impairing insulin sensitivity (Mohammad and Thiemermann 2021). That inflammation has also been linked to disrupting dopamine and serotonin pathways (Batey et al. 2024) (paper.txt, line 511).
 
 Actionable dietary focuses:
+
 - Favor fish, olive oil, nuts, legumes, vegetables, fruit, and fermented foods
 - Reduce ultra-processed foods and high-heat, AGE-rich cooking practices
 - Support gut barrier and microbiome diversity with fiber, polyphenols, and fermented foods
@@ -85,6 +89,7 @@ Actionable dietary focuses:
 Managing glycemic variability stabilizes dopamine–insulin coupling and cognitive performance. Glycemic stabilization is expected to exert downstream effects on emotional regulation through modulation of HPA axis activity, limbic signalling, and neurotransmitter systems (paper.txt, line 335).
 
 Actionable dietary focuses:
+
 - Preserve whole-food structure
 - Order meals vegetables → protein/fat → carbohydrate
 - Pair carbohydrates with fiber/fat/protein
@@ -103,6 +108,7 @@ These effects are thought to be, in the main, mediated through increased product
 Levilactobacillus brevis is one of the key bacteria known to produce GABA. It produces GABA through the glutamate decarboxylase (GAD) pathway, where it converts glutamate into GABA (Cataldo et al. 2024). This bacteria is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles (paper.txt, line 537).
 
 Actionable dietary focuses:
+
 - Include fermented foods (kimchi, kefir, pickles, sauerkraut) for GABA-producing bacteria
 - Support prebiotic fiber intake (GOS, inulin, pectin) for beneficial bacteria
 - Regular consumption of psychobiotic foods
@@ -114,6 +120,7 @@ Actionable dietary focuses:
 Low levels of BDNF have been associated with various neurodevelopmental disorders, including the polymorphism Val66me which has been linked with lower dopamine and lower BDNF and correlated to anxiety and depression (Hünnerkopf et al. 2007). Knowing one's Val66Met status, via genetic testing, can inform personalized plans for exercise, dietary factors i.e. omega-3s which also can increase BDNF (Ziaei et al. 2024) (paper.txt, line 381).
 
 Actionable dietary focuses:
+
 - Regular omega-3 intake (EPA/DHA)
 - Polyphenol-rich foods (blueberries, turmeric, green tea, walnuts)
 - Combine with exercise for synergistic BDNF enhancement
@@ -129,6 +136,7 @@ Although omega-3s are not direct endocannabinoids, they contribute to endocannab
 **Oxytocin (modulator):** Social bonding, trust, emotional buffering. Cofactors: Indirect (via gut–vagus axis, social cues). Food sources: Fermented foods, magnesium-rich foods, foods supporting dopamine & serotonin. Mindful shared meals, probiotic-rich foods, stress reduction; benefits from healthy dopamine tone (paper.txt, line 353).
 
 Actionable dietary focuses:
+
 - Include fermented foods for gut–vagus axis support
 - Magnesium-rich foods
 - Foods supporting dopamine and serotonin
@@ -139,18 +147,21 @@ Actionable dietary focuses:
 ### Nutrient-Based Modulators
 
 **Category: Nutrient-Based Modulators**
+
 - **Modulator Examples**: Omega-3s (EPA/DHA) (Sauder et al. 2013), magnesium, potassium, polyphenols, B-vitamins, tryptophan, GABA precursors
 - **Primary Targets**: Omega 3 for improving vagal tone and HRV control. Improving cortisol rhythms, inflammation (Kiecolt-Glaser et al. 2011), BDNF signaling (paper.txt, line 796)
 
 ### Specific Nutrient Modulators
 
 **Category: Specific Nutrient Modulators**
+
 - **Modulator Examples**: Taurine; adenosine-regulating nutrients (green tea polyphenols, folate, choline, betaine)
 - **Primary Targets**: HPA buffering, cortisol reduction, dopamine signaling, sleep pressure, neurotransmitter balance (paper.txt, line 799)
 
 ### LPS & Immune Defense
 
 **Category: LPS & Immune Defense**
+
 - **Modulator Examples**: Polyphenols (quercetin, EGCG), prebiotics, butyrate, lactobacilli strains, fermented vegetables, extra virgin olive oil
 - **Primary Targets**: Gut barrier integrity, TLR4 suppression, LPS neutralization, microglial activation dampening (paper.txt, line 800)
 
@@ -176,4 +187,3 @@ Actionable dietary focuses:
 - Wang et al. 2022
 - Watson, Kim, and Das 2019
 - Ziaei et al. 2024
-
