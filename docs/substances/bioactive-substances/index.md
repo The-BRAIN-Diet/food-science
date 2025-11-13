@@ -14,20 +14,20 @@ This section covers non-essential functional compounds that support brain health
 
 ## Polyphenols
 
-<TagList tag="Polyphenol" />
+<TagList tag="Polyphenol" filter="substances" />
 
 ## Flavonoids
 
-<TagList tag="Flavonoid" />
+<TagList tag="Flavonoid" filter="substances" />
 
 ## Carotenoids
 
-<TagList tag="Carotenoid" />
+<TagList tag="Carotenoid" filter="substances" />
 
 ## Terpenes
 
-<TagList tag="Terpene" />
+<TagList tag="Terpene" filter="substances" />
 
 ## Lipid Bioactives
 
-<TagList tag="Lipid" />
+<TagList tag="Lipid" filter="substances" />

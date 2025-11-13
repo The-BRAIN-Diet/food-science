@@ -29,14 +29,20 @@ export default function TagList(props) {
     return array.map(o => o.permalink).indexOf(value.permalink) == index;
   }
 
-  const allTags = usePluginData('category-listing');
-  const oneTag = props.tag ? allTags[props.tag] : Object.values(allTags)
-    .flatMap(a => a)
-    .filter(uniqueOnly)
+  const allTags = usePluginData('category-listing') || {};
+  const oneTag = props.tag
+    ? (allTags[props.tag] || [])
+    : Object.values(allTags)
+      .flatMap(a => Array.isArray(a) ? a : [])
+      .filter(uniqueOnly)
   const filter = props.filter ? '/' + props.filter + '/' : ''
   const location = useLocation().pathname;
 
-  oneTag.sort((a, b) => a.order - b.order);
+  if (!Array.isArray(oneTag)) {
+    return <div className="bok-tag-list"><em>no documents tagged</em></div>;
+  }
+
+  oneTag.sort((a, b) => (a.order || 0) - (b.order || 0));
 
   const filteredDocs = oneTag
     .filter(d => d.permalink.indexOf(filter) > -1)
