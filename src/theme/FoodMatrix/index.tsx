@@ -289,42 +289,21 @@ export default function FoodMatrix({tag}: FoodMatrixProps): React.ReactElement {
         </thead>
         <tbody>
           {tableData.map((row: TableRow, index: number) => {
-            // Find the substance's own tag (e.g., "Omega 3") to create a link
-            const substanceNameTag =
-              row.substance.tags.find((t: Tag) => {
-                const tagLower = t.label.toLowerCase()
-                const titleLower = row.substance.title.toLowerCase()
-                return tagLower === titleLower || titleLower.includes(tagLower) || tagLower.includes(titleLower.split("(")[0].trim())
-              }) || row.substance.tags.find((t: Tag) => !substanceClassificationTags.includes(t.label))
-            const substanceTagLabel = substanceNameTag?.label || row.substance.title
-
             return (
               <tr key={index}>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
                   <Link to={row.target.permalink}>{row.target.title}</Link>
                 </td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
-                  <Link to={tagLabelToPermalink(substanceTagLabel)}>{row.substance.title}</Link>
+                  <Link to={row.substance.permalink}>{row.substance.title}</Link>
                 </td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
                   {row.therapeuticAreas.length > 0 ? (
                     <div>
                       {row.therapeuticAreas.map((area: Document, i: number) => {
-                        // Find the therapeutic area's own tag (e.g., "ADHD") to create a link
-                        const areaNameTag =
-                          area.tags.find((t: Tag) => {
-                            const tagLower = t.label.toLowerCase()
-                            const titleLower = area.title.toLowerCase()
-                            return (
-                              tagLower === titleLower ||
-                              titleLower.includes(tagLower) ||
-                              tagLower.includes(titleLower.split("(")[0].trim().split("&")[0].trim())
-                            )
-                          }) || area.tags.find((t: Tag) => !["Therapeutic Area"].includes(t.label))
-                        const tagLabel = areaNameTag?.label || area.title
                         return (
                           <span key={i}>
-                            <Link to={tagLabelToPermalink(tagLabel)}>{area.title}</Link>
+                            <Link to={area.permalink}>{area.title}</Link>
                             {i < row.therapeuticAreas.length - 1 && ", "}
                           </span>
                         )

@@ -27,7 +27,7 @@ Algal oil provides direct DHA from microalgae, offering a vegan source of omega-
 - Available as liquid or capsule supplement
 - Not for culinary use
 - Important for vegan DHA intake
-- Pair with [choline sources](/docs/tags/Choline) for optimal brain delivery
+- Pair with choline sources for optimal brain delivery
 
 ## Biological Target Matrix
 
