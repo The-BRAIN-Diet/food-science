@@ -4,50 +4,33 @@ title: Calcium
 sidebar_label: Calcium
 description: Bone health; neurotransmission; interacts with vitamin D and K2
 tags:
+  - Substance
   - Nutrient
   - Mineral
   - Calcium
   - Hormonal Response
   - Neurochemical Balance
 list_image: /img/icons/nutrients.svg
+mechanisms:
+  Hormonal Response: Supports calcium modulation along with vitamin D, magnesium, taurine, phospholipids, and flavonoids; supports insulin sensitivity, sympathetic arousal, and mitochondrial excitability
+  Neurochemical Balance: Essential for nerve impulse transmission and neurotransmission
 ---
-
-# Calcium
 
 ## Overview
 
-Calcium is an essential mineral that plays a critical role in bone health, muscle function, and nerve transmission. Calcium supports skeletal integrity and neurotransmission; absorption and distribution depend on vitamin D and K2 status. While the paper doesn't provide extensive specific details about calcium, it's mentioned in the context of overall mineral balance and bone health.
+Calcium is an essential mineral that plays a critical role in bone health, muscle function, and nerve transmission. It supports skeletal integrity and neurotransmission, with absorption and distribution depending on vitamin D and K2 status. Calcium, along with vitamin D, magnesium, taurine, phospholipids (phosphatidylserine), and flavonoids (quercetin), supports calcium modulation, insulin sensitivity, sympathetic arousal, and mitochondrial excitability. Phytates can bind essential minerals such as calcium, potentially impairing their absorption, though fermentation can reduce phytate content and improve mineral bioavailability. Fortified plant milks and dairy milk can help meet calcium targets when used judiciously.
 
-## Role in Brain Health
+## Biological Mechanisms and Implications
 
-Calcium is essential for:
+<SubstanceMatrix tag="Calcium" />
 
-- Supporting nerve impulse transmission
-- Maintaining proper muscle function
-- Supporting bone health and structure
-- Contributing to cognitive function
+## Foods
 
-## Dietary Considerations
+<TagList tag="Calcium" filter="foods" />
 
-### Sources
+## References
 
-- Dairy products (milk, cheese, yogurt)
-- Leafy green vegetables (kale, spinach, collard greens)
-- Fortified plant-based milks
-- Nuts and seeds (almonds, sesame seeds)
-- Fish with edible bones (sardines, salmon)
-
-### Recommendations
-
-- Follow standard dietary guidelines for calcium intake
-- Consider individual needs based on age, gender, and health status
-- Ensure adequate vitamin D intake for optimal calcium absorption
-- Balance with other minerals like magnesium and phosphorus
-
-## Integration with BRAIN Diet
-
-The BRAIN diet emphasizes nutrient-dense whole foods, many of which are excellent sources of calcium. The diet's focus on leafy green vegetables, nuts, and seeds provides plant-based calcium sources, while the omnivore version can include dairy products for additional calcium.
-
-## Notes
-
-The BRAIN diet's emphasis on whole foods and minimal processing naturally supports adequate calcium intake through diverse food sources, supporting both brain health and overall bone health.
+- Calcium supports skeletal integrity and neurotransmission; absorption and distribution depend on vitamin D and K2 status
+- Calcium Modulation: Vitamin D, magnesium, taurine, phospholipids (phosphatidylserine), flavonoids (quercetin) support insulin sensitivity, sympathetic arousal, and mitochondrial excitability
+- Phytates can bind essential minerals such as calcium, potentially impairing their absorption; fermentation can reduce phytate content and improve bioavailability
+- Fortified plant milks and dairy milk can help meet calcium targets when used judiciously
