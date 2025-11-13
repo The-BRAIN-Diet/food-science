@@ -4,14 +4,31 @@ title: Linoleic Acid (LA, n-6)
 sidebar_label: Linoleic Acid (n-6)
 description: Essential omega-6; precursor to arachidonic acid and eicosanoids
 tags:
+  - Substance
   - Nutrient
   - Fatty Acid
   - Linoleic Acid
   - Inflammation
   - Oxidative Stress
 list_image: /img/icons/nutrients.svg
+mechanisms:
+  Inflammation: Essential omega-6 fatty acid; precursor to arachidonic acid and eicosanoids; excessive n-6:n-3 ratios may skew toward pro-inflammatory eicosanoids
+  Oxidative Stress: Essential fatty acid; balance with omega-3s is emphasized for optimal inflammatory tone
 ---
 
 ## Overview
 
-LA is an essential omega‑6 fatty acid; excessive n‑6:n‑3 ratios may skew toward pro‑inflammatory eicosanoids; balance with omega‑3s is emphasized.
+Linoleic acid (LA) is an essential omega-6 fatty acid that serves as a precursor to arachidonic acid and eicosanoids. Excessive n-6:n-3 ratios may skew toward pro-inflammatory eicosanoids, affecting inflammatory tone. The BRAIN Diet emphasizes balance between omega-6 and omega-3 fatty acids, with overall dietary n-6:n-3 balance affecting inflammatory tone and brain health.
+
+## Biological Mechanisms and Implications
+
+<SubstanceMatrix tag="Linoleic Acid" />
+
+## Foods
+
+<TagList tag="Linoleic Acid" filter="foods" />
+
+## References
+
+- LA is an essential omega-6 fatty acid; excessive n-6:n-3 ratios may skew toward pro-inflammatory eicosanoids; balance with omega-3s is emphasized
+- Overall dietary n-6:n-3 balance affects inflammatory tone

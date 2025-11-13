@@ -4,6 +4,7 @@ title: Magnesium
 sidebar_label: Magnesium
 description: Enzymatic cofactor (>300 reactions); neurotransmitters; mitochondria; redox balance
 tags:
+  - Substance
   - Nutrient
   - Mineral
   - Magnesium
@@ -12,134 +13,30 @@ tags:
   - Hormonal Response
   - Stress Response
 list_image: /img/icons/nutrients.svg
+mechanisms:
+  Neurochemical Balance: Broad cofactor for neurotransmitter synthesis and receptor modulation (e.g., NMDA, GABA); functions as an NMDA receptor antagonist and GABA receptor modulator; assists enzymes involved in synthesis of dopamine and serotonin
+  Mitochondrial Support: Supports enzymes involved in glycolysis and the Krebs cycle (processes that generate ATP from glucose); binds to ATP and all triphosphates in cells to activate them
+  Hormonal Response: Supports calcium modulation along with vitamin D, taurine, phospholipids, and flavonoids; supports insulin sensitivity, sympathetic arousal, and mitochondrial excitability
+  Stress Response: Helps manage stress responses; combined with vitamin D reduced behavioral problems; synergy with zinc and omega-3s reported
 ---
-
-# Magnesium
 
 ## Overview
 
-Magnesium is an essential mineral that plays a crucial role in over 300 enzymatic reactions in the body, including those critical for brain function, neurotransmitter regulation, and mitochondrial energy production. Magnesium is a broad cofactor for neurotransmitter synthesis and receptor modulation (e.g., NMDA, GABA), ATP production, and antioxidant defenses. Deficiency is common and linked to behavioral symptoms. The paper highlights magnesium as particularly important for individuals with ADHD and brain health.
+Magnesium is an essential mineral that plays a crucial role in over 300 enzymatic reactions in the body, including those critical for brain function, neurotransmitter regulation, and mitochondrial energy production. Magnesium is a broad cofactor for neurotransmitter synthesis and receptor modulation (e.g., NMDA, GABA), ATP production, and antioxidant defenses. Deficiency is common and linked to behavioral symptoms, with deficiency in those with ADHD potentially exacerbating symptoms like irritability, attention difficulties, sleep problems, and anxiety. Magnesium functions as an NMDA receptor antagonist and GABA receptor modulator, supporting neurotransmitter regulation, especially GABA (an inhibitory neurotransmitter), and modulating glutamate receptors to prevent excitotoxicity. Magnesium supports enzymes involved in glycolysis and the Krebs cycle, processes that generate ATP from glucose, and is a key mechanism in fighting pro-oxidants and supporting antioxidants. Combined with vitamin D, magnesium supplementation has shown to significantly reduce behavioral problems and be effective. Magnesium works synergistically with zinc and omega-3 fatty acids for comprehensive neurotransmitter support.
 
-## From the paper
+## Biological Mechanisms and Implications
 
-- "Magnesium… supports neurotransmitter regulation (notably GABA), mitochondrial health, and antioxidant defenses; combined with vitamin D reduced behavioral problems; synergy with zinc and omega‑3s reported."
+<SubstanceMatrix tag="Magnesium" />
 
-## Role in Brain Health
+## Foods
 
-Magnesium is essential for:
+<TagList tag="Magnesium" filter="foods" />
 
-- **Neurotransmitter regulation**, especially GABA (an inhibitory neurotransmitter)
-- **Modulating glutamate receptors** to prevent excitotoxicity
-- **Binding to ATP and all triphosphates** in cells to activate them
-- **Supporting enzymes involved in glycolysis and the Krebs cycle** (processes that generate ATP from glucose)
-- **Assisting enzymes involved in the synthesis of dopamine and serotonin**
-- **Helping manage stress responses**
-- **Key mechanism in fighting pro-oxidants and supporting antioxidants**
+## References
 
-## Deficiency and ADHD
-
-Deficiency is common in those with ADHD and can exacerbate symptoms like:
-
-- Irritability
-- Attention difficulties
-- Sleep problems
-- Anxiety
-
-## Research Evidence
-
-Studies have shown magnesium to be effective when combined with:
-
-- Vitamin D supplementation (significantly reducing behavioral problems)
-- Zinc and omega-3 and omega-6 fatty acids
-- Other B vitamins for comprehensive neurotransmitter support
-
-**Leafy Greens:**
-
-- [Spinach](../../foods/spinach.md) - Iron, magnesium, zinc, folate; boil to reduce oxalates
-- [Kale](../../foods/kale.md) - Iron, magnesium, zinc, quercetin, carotenoids; boil to reduce oxalates
-- [Swiss Chard](../../foods/swiss-chard.md) - Magnesium, vitamin K
-
-**Legumes:**
-
-- [Lentils](../../foods/lentils.md) - Protein, fiber, folate, iron, **magnesium**
-- [Chickpeas](../../foods/chickpeas.md) - Protein, fiber, folate, **magnesium**, iron, B6
-- [Black Beans](../../foods/black-beans.md) - Protein, fiber, polyphenols, **magnesium**
-- [Kidney Beans](../../foods/kidney-beans.md) - Protein, polyphenols, **magnesium**
-
-**Nuts & Seeds:**
-
-- [Pumpkin Seeds](../../foods/pumpkin-seeds.md) - High zinc, tryptophan, **magnesium**, iron
-- [Sunflower Seeds](../../foods/sunflower-seeds.md) - Thiamine, vitamin E, **magnesium**
-- [Almonds](../../foods/almonds.md) - Vitamin E, protein, **magnesium**
-- [Cashews](../../foods/cashews.md) - Zinc, protein, **magnesium**
-- [Walnuts](../../foods/walnuts.md) - ALA omega-3, **magnesium**
-
-**Whole Grains & Pseudograins:**
-
-- [Quinoa](../../foods/quinoa.md) - Complete protein, **magnesium**-rich, GABA potential in sourdough
-- [Oats](../../foods/oats.md) - Beta-glucans, tryptophan, B vitamins, **magnesium**
-- [Barley](../../foods/barley.md) - Beta-glucans, fiber, **magnesium**
-- [Buckwheat](../../foods/buckwheat.md) - Rutin, complete protein, **magnesium**
-- [Brown Rice](../../foods/rice.md) - Thiamine, resistant starch (when cooled), **magnesium**
-
-**Other Plant Sources:**
-
-- [Avocado](../../foods/avocado.md) - MUFA, vitamin E, lutein, **magnesium**
-- [Bananas](../../foods/bananas.md) - B6, tryptophan, potassium, **magnesium**
-- [Dark Chocolate](../../foods/dark-chocolate.md) - Cocoa flavanols, **magnesium** (with heavy metal considerations)
-
-## Dietary Considerations
-
-### Absorption Rate
-
-- **30–40%** from dietary sources
-
-### RDA (Recommended Daily Allowance)
-
-- **310–420 mg** for adults
-
-### Supplementation Notes
-
-- [Salmon](../../foods/salmon.md) - Omega-3, protein, B vitamins, **magnesium**
-- [Sardines](../../foods/sardines.md) - Omega-3, CoQ10, calcium, **magnesium**
-- [Mackerel](../../foods/mackerel.md) - Omega-3, CoQ10, taurine, **magnesium**
-- Often taken in amounts close to or above the RDA (200–400 mg) due to limited absorption from foods
-- May be particularly beneficial for those with neurological issues, chronic stress, or fatigue
-
-## Food Sources
-
-### Rich Sources
-
-- **Leafy green vegetables** (spinach, kale, Swiss chard)
-- **Nuts and seeds** (almonds, pumpkin seeds, cashews)
-- **Legumes** (black beans, chickpeas, lentils)
-- **Whole grains** (quinoa, brown rice, oats)
-- **Dark chocolate** (in moderation)
-- **Avocados**
-- **Bananas**
-
-### Preparation Considerations
-
-- Soaking and sprouting grains can improve magnesium bioavailability
-- Cooking methods that preserve nutrients (steaming, light sautéing)
-
-## Practical notes
-
-- Sources: leafy greens, legumes, nuts, seeds, whole grains. Consider spread dosing and food‑first coverage.
-
-## Integration with BRAIN Diet
-
-The BRAIN diet specifically emphasizes magnesium-rich foods as part of its neurotransmitter support strategy. The diet's focus on whole grains, legumes, nuts, and leafy greens provides excellent sources of this critical mineral.
-
-## Synergistic Effects
-
-Magnesium works synergistically with:
-
-- **Vitamin D** for behavioral and cognitive improvements
-- **Zinc** for comprehensive neurotransmitter support
-- **Omega-3 fatty acids** for brain health
-- **B vitamins** for methylation and energy production
-
-## Notes
-
-Magnesium is a cornerstone nutrient in the BRAIN diet's approach to supporting brain health through comprehensive nutritional strategies. Its role in over 300 enzymatic reactions makes it essential for the diet's goals of optimizing neurobiological function.
+- Magnesium is a broad cofactor for neurotransmitter synthesis and receptor modulation (e.g., NMDA, GABA), ATP production, and antioxidant defenses; deficiency is common and linked to behavioral symptoms
+- Magnesium functions as an NMDA receptor antagonist and GABA receptor modulator [Clerc et al. 2013](/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013)
+- Magnesium supports neurotransmitter regulation (notably GABA), mitochondrial health, and antioxidant defenses; combined with vitamin D reduced behavioral problems; synergy with zinc and omega-3s reported
+- Magnesium supports enzymes involved in glycolysis and the Krebs cycle, processes that generate ATP from glucose
+- Calcium Modulation: Vitamin D, magnesium, taurine, phospholipids (phosphatidylserine), flavonoids (quercetin) support insulin sensitivity, sympathetic arousal, and mitochondrial excitability
+- Deficiency in those with ADHD can exacerbate symptoms like irritability, attention difficulties, sleep problems, and anxiety
