@@ -4,6 +4,8 @@ sidebar_label: Papers Overview
 description: Research papers and scientific literature supporting the BRAIN Diet
 tags:
   - Area
+sidebar_position: 10
+list_image: /img/icons/papers.svg
 ---
 
 # Research Papers

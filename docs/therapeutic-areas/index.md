@@ -5,6 +5,7 @@ description: Explore how the BRAIN Diet supports various therapeutic application
 tags:
   - Area
 sidebar_position: 2
+list_image: /img/icons/biological-targets.svg
 ---
 
 # Therapeutic Areas
