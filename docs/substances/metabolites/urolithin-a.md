@@ -33,4 +33,3 @@ Urolithin A is a gut microbiome-derived metabolite produced from ellagitannins (
 ## Related
 
 - See also: SCFAs, polyphenols, ellagitannins, mitochondrial support, gut microbiome diversity
-

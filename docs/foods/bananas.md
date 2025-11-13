@@ -10,7 +10,7 @@ tags:
   - Vitamin B6
   - Tryptophan
   - Potassium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,6 +20,7 @@ Bananas provide B6, tryptophan, and potassium, supporting neurotransmitter synth
 ## Key Substances
 
 ### Nutrients
+
 - **B6**: Neurotransmitter cofactor
 - **Tryptophan**: Serotonin precursor
 - **Potassium**: Electrolyte
@@ -43,4 +44,3 @@ Bananas provide B6, tryptophan, and potassium, supporting neurotransmitter synth
 - [Green Bananas](./green-bananas.md) - Different nutrient profile
 - [Oats](./oats.md) - Good pairing
 - [Turkey](./turkey.md) - Good pairing
-

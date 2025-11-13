@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Vitamin B1
   - Vitamin B9
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,6 +19,7 @@ Peas provide plant protein, prebiotic fiber, and thiamine (B1), supporting gut h
 ## Key Substances
 
 ### Nutrients
+
 - **Protein**: Plant protein source
 - **Fiber**: Prebiotic fiber
 - **Thiamine (B1)**: Essential for mitochondrial glucose metabolism
@@ -41,4 +42,3 @@ Peas provide plant protein, prebiotic fiber, and thiamine (B1), supporting gut h
 - [Lentils](./lentils.md)
 - [Chickpeas](./chickpeas.md)
 - [Rice](./rice.md) - Good pairing
-

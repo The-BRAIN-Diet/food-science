@@ -9,8 +9,8 @@ tags:
   - Vegetarian
   - Manganese
   - Potassium
-  - Egcg
-  - L Theanine
+  - EGCG
+  - L-Theanine
   - Polyphenol
 ---
 
@@ -21,11 +21,13 @@ Green tea provides catechins (especially EGCG), L-theanine, and polyphenols that
 ## Key Substances
 
 ### Nutrients
+
 - **Manganese**: Cofactor for antioxidant enzymes
 - **Fluoride**: Trace amounts
 - **Potassium**: Electrolyte
 
 ### Bioactive Substances
+
 - **EGCG (Epigallocatechin Gallate)**: Primary catechin with neuroprotective effects
 - **L-Theanine**: Amino acid that promotes calm focus
 - **Catechins**: Polyphenols supporting antioxidant networks
@@ -47,4 +49,3 @@ Green tea provides catechins (especially EGCG), L-theanine, and polyphenols that
 
 - [Black Tea](./black-tea.md)
 - [Coffee](./coffee.md)
-

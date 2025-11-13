@@ -10,7 +10,7 @@ tags:
   - Iron
   - Vitamin B9
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,12 +20,14 @@ Kidney beans provide plant protein, polyphenols, and prebiotic fiber, supporting
 ## Key Substances
 
 ### Nutrients
+
 - **Protein**: DIAAS 60-65, methionine-limited (pair with grains)
 - **Fiber**: Prebiotic fiber
 - **Iron**: Non-heme iron
 - **Folate (B9)**: Methylation support
 
 ### Bioactive Substances
+
 - **Polyphenols**: Antioxidant compounds supporting gut health
 
 ## From the paper
@@ -45,4 +47,3 @@ Kidney beans provide plant protein, polyphenols, and prebiotic fiber, supporting
 - [Black Beans](./black-beans.md)
 - [Lentils](./lentils.md)
 - [Whole Grains](./whole-grains.md)
-

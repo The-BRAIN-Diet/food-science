@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin B9
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,6 +18,7 @@ Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supp
 ## Key Substances
 
 ### Nutrients
+
 - **FOS (Fructooligosaccharides)**: Prebiotic fiber
 - **Folate (B9)**: Methylation support
 - **Fiber**: Prebiotic and general fiber
@@ -39,4 +40,3 @@ Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supp
 - [Onions](./onions.md)
 - [Garlic](./garlic.md)
 - [Leeks](./leeks.md)
-

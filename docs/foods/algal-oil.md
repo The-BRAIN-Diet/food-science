@@ -6,7 +6,7 @@ description: Vegan DHA source from microalgae
 tags:
   - Food
   - Vegan
-  - Omega 3
+  - Omega-3 Fatty Acids
   - Algal Oil
 ---
 

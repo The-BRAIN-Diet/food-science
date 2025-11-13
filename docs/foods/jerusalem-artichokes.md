@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Potassium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,6 +18,7 @@ Jerusalem artichokes (sunchokes) provide the highest inulin content among common
 ## Key Substances
 
 ### Nutrients
+
 - **Inulin**: Highest content among common foods
 - **Fiber**: Prebiotic fiber
 - **Potassium**: Electrolyte
@@ -39,4 +40,3 @@ Jerusalem artichokes (sunchokes) provide the highest inulin content among common
 
 - [Chicory](./chicory.md) - Also high in inulin
 - [Onions](./onions.md) - Also contains inulin
-

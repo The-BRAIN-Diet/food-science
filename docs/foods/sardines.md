@@ -5,8 +5,8 @@ sidebar_label: Sardines
 description: Small oily fish rich in EPA/DHA, CoQ10, and calcium
 tags:
   - Food
-  - Omega 3
-  - Coq10
+  - Omega-3 Fatty Acids
+  - CoQ10
   - Calcium
   - Vitamin B3
   - Vitamin B12
@@ -20,6 +20,7 @@ Sardines are small, sustainable oily fish providing EPA/DHA omega-3s, CoQ10, cal
 ## Key Substances
 
 ### Nutrients
+
 - **Omega-3 (EPA/DHA)**: High levels for brain health
 - **CoQ10**: Mitochondrial support
 - **Calcium**: From edible bones
@@ -46,4 +47,3 @@ Sardines are small, sustainable oily fish providing EPA/DHA omega-3s, CoQ10, cal
 - [Mackerel](./mackerel.md)
 - [Salmon](./salmon.md)
 - [Tuna](./tuna.md)
-

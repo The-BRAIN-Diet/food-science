@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Vitamin B9
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,11 +19,13 @@ Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, 
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: Prebiotic fiber
 - **Vitamin C**: Antioxidant
 - **Folate (B9)**: Some content
 
 ### Bioactive Substances
+
 - **Probiotics**: When fermented as sauerkraut
 
 ## From the paper
@@ -43,4 +45,3 @@ Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, 
 - [Sauerkraut](./sauerkraut.md)
 - [Broccoli](./broccoli.md)
 - [Cauliflower](./cauliflower.md)
-

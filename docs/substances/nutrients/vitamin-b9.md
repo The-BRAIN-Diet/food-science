@@ -86,6 +86,7 @@ Isoquercetin (glycosylated quercetin) is more completely absorbed than quercetin
 ### Animal Sources
 
 **Organ Meats:**
+
 - [Liver](../../foods/liver.md) - Highest source of B12, retinol, heme iron, **folate**
 
 **Poultry & Meat:**

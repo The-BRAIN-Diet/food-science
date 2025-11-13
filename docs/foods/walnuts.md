@@ -7,7 +7,7 @@ tags:
   - Food
   - Vegan
   - Vegetarian
-  - Ala Alpha Linolenic Acid
+  - ALA
   - Magnesium
   - Manganese
   - Polyphenol
@@ -21,12 +21,14 @@ Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that c
 ## Key Substances
 
 ### Nutrients
+
 - **Alpha-Linolenic Acid (ALA)**: Plant omega-3 (limited conversion to DHA)
 - **Protein**: Plant protein source
 - **Magnesium**: Mineral cofactor
 - **Manganese**: Antioxidant enzyme support
 
 ### Bioactive Substances
+
 - **Ellagitannins**: Precursors to urolithin A via gut microbiome
 - **Polyphenols**: Antioxidant and anti-inflammatory compounds
 
@@ -47,4 +49,3 @@ Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that c
 - [Pomegranates](./pomegranates.md) - Also contains ellagitannins
 - [Almonds](./almonds.md)
 - [Pistachios](./pistachios.md)
-

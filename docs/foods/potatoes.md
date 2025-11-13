@@ -10,7 +10,7 @@ tags:
   - Potassium
   - Vitamin B6
   - Vitamin C
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,6 +20,7 @@ Potatoes provide complex carbohydrates, potassium, and when cooked and cooled, f
 ## Key Substances
 
 ### Nutrients
+
 - **Resistant Starch**: Forms when cooked and cooled (retrogradation)
 - **Potassium**: Electrolyte
 - **B6**: Neurotransmitter cofactor
@@ -42,4 +43,3 @@ Potatoes provide complex carbohydrates, potassium, and when cooked and cooled, f
 
 - [Cooled Potatoes](./cooled-potatoes.md) - For resistant starch
 - [Purple Potatoes](./purple-potatoes.md) - For anthocyanins
-

@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Vitamin B9
   - Vitamin C
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,11 +19,13 @@ Brussels sprouts provide sulfur-containing compounds that serve as glutathione p
 ## Key Substances
 
 ### Nutrients
+
 - **Folate (B9)**: Methylation support
 - **Vitamin C**: Antioxidant
 - **Fiber**: Prebiotic fiber
 
 ### Bioactive Substances
+
 - **Sulfur compounds**: Glutathione precursors
 - **Isothiocyanates**: Potential sulforaphane-like compounds
 
@@ -44,4 +46,3 @@ Brussels sprouts provide sulfur-containing compounds that serve as glutathione p
 - [Broccoli](./broccoli.md)
 - [Cauliflower](./cauliflower.md)
 - [Cabbage](./cabbage.md)
-

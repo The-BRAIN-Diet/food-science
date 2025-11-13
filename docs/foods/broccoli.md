@@ -11,7 +11,7 @@ tags:
   - Vitamin C
   - Vitamin K2
   - Choline
-  - Coq10
+  - CoQ10
 ---
 
 ## Overview
@@ -21,12 +21,14 @@ Broccoli is a cruciferous vegetable providing sulforaphane (from glucoraphanin),
 ## Key Substances
 
 ### Nutrients
+
 - **Folate (B9)**: Methylation and neurotransmitter synthesis
 - **Vitamin C**: Antioxidant
 - **Vitamin K**: Blood clotting and bone health
 - **Fiber**: Prebiotic fiber
 
 ### Bioactive Substances
+
 - **Sulforaphane**: Isothiocyanate (ITC) from glucoraphanin; activates Nrf2, higher bioavailability than other polyphenol supplements
 - **Glutathione precursors**: Sulfur-containing compounds
 
@@ -49,4 +51,3 @@ Broccoli is a cruciferous vegetable providing sulforaphane (from glucoraphanin),
 - [Brussels Sprouts](./brussels-sprouts.md)
 - [Cauliflower](./cauliflower.md)
 - [Cabbage](./cabbage.md)
-

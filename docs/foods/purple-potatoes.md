@@ -10,7 +10,7 @@ tags:
   - Potassium
   - Vitamin C
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,11 +20,13 @@ Purple potatoes provide anthocyanins, particularly C3G (cyanidin-3-glucoside), t
 ## Key Substances
 
 ### Nutrients
+
 - **Resistant Starch**: When cooked and cooled
 - **Potassium**: Electrolyte
 - **Vitamin C**: Some content
 
 ### Bioactive Substances
+
 - **Anthocyanins (C3G)**: Cyanidin-3-glucoside for metal chelation and neuroprotection
 - **Polyphenols**: Antioxidant compounds
 
@@ -44,4 +46,3 @@ Purple potatoes provide anthocyanins, particularly C3G (cyanidin-3-glucoside), t
 - [Berries](./berries.md) - Also C3G-rich
 - [Potatoes](./potatoes.md) (general)
 - [Cooled Potatoes](./cooled-potatoes.md)
-

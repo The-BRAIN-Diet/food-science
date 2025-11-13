@@ -7,7 +7,7 @@ tags:
   - Food
   - Vegetarian
   - Calcium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -17,6 +17,7 @@ Dairy products provide complete protein, calcium, B vitamins, and in fermented f
 ## Key Dairy Products
 
 See individual pages for:
+
 - [Milk](./milk.md)
 - [Yogurt](./yogurt.md)
 - [Kefir](./kefir.md)
@@ -33,4 +34,3 @@ See individual pages for:
 - Calcium for bone and cardiovascular health
 - Probiotics (in fermented forms) for gut microbiome
 - Nicotinamide riboside (in milk/whey) for NAD+ support
-

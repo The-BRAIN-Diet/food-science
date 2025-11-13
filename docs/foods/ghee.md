@@ -10,7 +10,7 @@ tags:
   - Vitamin D
   - Vitamin E
   - Vitamin K2
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,10 +20,12 @@ Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stabili
 ## Key Substances
 
 ### Nutrients
+
 - **Vitamins A/D/E/K2**: Fat-soluble vitamins
 - **Butyrate**: Short-chain fatty acid
 
 ### Bioactive Substances
+
 - **Butyrate**: Supports gut health
 
 ## From the paper
@@ -43,4 +45,3 @@ Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stabili
 - [Grass-Fed Butter](./grass-fed-butter.md)
 - [Olive Oil](./olive-oil.md)
 - [Avocado Oil](./avocado-oil.md)
-

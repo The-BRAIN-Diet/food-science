@@ -7,8 +7,8 @@ tags:
   - Food
   - Vegan
   - Vegetarian
-  - Coq10
-  - Scfas
+  - CoQ10
+  - SCFAs
 ---
 
 ## Overview
@@ -18,6 +18,7 @@ Pistachios provide CoQ10 (plant source), healthy fats, and protein, supporting m
 ## Key Substances
 
 ### Nutrients
+
 - **CoQ10**: Plant source (lower than animal sources)
 - **Protein**: Plant protein
 - **Monounsaturated Fats**: Healthy fats
@@ -39,4 +40,3 @@ Pistachios provide CoQ10 (plant source), healthy fats, and protein, supporting m
 - [Almonds](./almonds.md)
 - [Walnuts](./walnuts.md)
 - [Broccoli](./broccoli.md) - Also contains CoQ10
-

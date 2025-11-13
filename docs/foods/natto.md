@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin K2
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,11 +18,13 @@ Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitam
 ## Key Substances
 
 ### Nutrients
+
 - **Protein**: From soybeans
 - **Vitamin K2**: Important for bone and cardiovascular health
 - **B Vitamins**: Produced during fermentation
 
 ### Bioactive Substances
+
 - **Bacillus subtilis**: Unique probiotic strain
 - **Probiotics**: Live beneficial bacteria
 
@@ -43,4 +45,3 @@ Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitam
 - [Soy](./soy.md)
 - [Tempeh](./tempeh.md)
 - [Miso](./miso.md)
-

@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,10 +19,12 @@ Black goji berries provide high levels of C3G (cyanidin-3-glucoside) anthocyanin
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: Prebiotic fiber
 - **Vitamin C**: Antioxidant
 
 ### Bioactive Substances
+
 - **Anthocyanins (C3G)**: Cyanidin-3-glucoside for metal chelation and neuroprotection
 - **Polyphenols**: Antioxidant compounds
 
@@ -41,4 +43,3 @@ Black goji berries provide high levels of C3G (cyanidin-3-glucoside) anthocyanin
 
 - [Berries](./berries.md) - Also C3G-rich
 - [Purple Potatoes](./purple-potatoes.md) - Also C3G-rich
-

@@ -10,7 +10,7 @@ tags:
   - Iron
   - Vitamin B9
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,12 +20,14 @@ Black beans provide plant protein, polyphenols, and prebiotic fiber. The paper d
 ## Key Substances
 
 ### Nutrients
+
 - **Protein**: Plant protein (methionine-limited)
 - **Fiber**: Prebiotic fiber
 - **Iron**: Non-heme iron
 - **Folate (B9)**: Methylation support
 
 ### Bioactive Substances
+
 - **Polyphenols**: Antioxidant compounds
 
 ## From the paper
@@ -45,4 +47,3 @@ Black beans provide plant protein, polyphenols, and prebiotic fiber. The paper d
 - [Lentils](./lentils.md)
 - [Kidney Beans](./kidney-beans.md)
 - [Rice](./rice.md) - Good pairing
-

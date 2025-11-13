@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin K2
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,11 +18,13 @@ Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA,
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: Prebiotic fiber from vegetables
 - **Vitamin K**: From fermented vegetables
 - **B Vitamins**: Produced during fermentation
 
 ### Bioactive Substances
+
 - **Probiotics**: Diverse lactic acid bacteria
 - **GABA**: Produced by certain fermentation bacteria
 - **Postbiotics**: Beneficial compounds from fermentation
@@ -45,4 +47,3 @@ Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA,
 - [Kefir](./kefir.md)
 - [Miso](./miso.md)
 - [Fermented Vegetables](./fermented-vegetables.md)
-

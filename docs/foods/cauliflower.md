@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Vitamin B9
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,12 +19,14 @@ Cauliflower is a cruciferous vegetable providing fiber, B vitamins, and potentia
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: Prebiotic fiber
 - **B Vitamins**: Various B vitamins
 - **Vitamin C**: Antioxidant
 - **Folate (B9)**: Some content
 
 ### Bioactive Substances
+
 - **Isothiocyanates**: Potential compounds similar to sulforaphane
 
 ## From the paper
@@ -44,4 +46,3 @@ Cauliflower is a cruciferous vegetable providing fiber, B vitamins, and potentia
 - [Broccoli](./broccoli.md)
 - [Brussels Sprouts](./brussels-sprouts.md)
 - [Cabbage](./cabbage.md)
-

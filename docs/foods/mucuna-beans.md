@@ -7,7 +7,7 @@ tags:
   - Food
   - Vegan
   - Vegetarian
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -17,10 +17,12 @@ Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, 
 ## Key Substances
 
 ### Nutrients
+
 - **Protein**: Plant protein
 - **Fiber**: Prebiotic fiber
 
 ### Bioactive Substances
+
 - **L-DOPA**: Direct dopamine precursor
 
 ## From the paper
@@ -38,4 +40,3 @@ Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, 
 
 - [Black Beans](./black-beans.md)
 - [Lentils](./lentils.md)
-

@@ -5,7 +5,7 @@ sidebar_label: Salmon Roe
 description: Phospholipid-bound omega-3s with superior brain bioavailability
 tags:
   - Food
-  - Omega 3
+  - Omega-3 Fatty Acids
   - Choline
   - Phosphatidylcholine
   - Carotenoid
@@ -18,11 +18,13 @@ Salmon roe (fish eggs) provides omega-3 fatty acids in phospholipid-bound form, 
 ## Key Substances
 
 ### Nutrients
+
 - **Omega-3 (EPA/DHA)**: In phospholipid form for enhanced BBB transport
 - **Choline**: Supports acetylcholine synthesis and membrane health
 - **Protein**: High-quality complete protein
 
 ### Bioactive Substances
+
 - **Astaxanthin**: Powerful carotenoid antioxidant
 - **Phosphatidylcholine**: Carrier for DHA/EPA to brain
 
@@ -43,4 +45,3 @@ Salmon roe (fish eggs) provides omega-3 fatty acids in phospholipid-bound form, 
 - [Lumpfish Roe](./lumpfish-roe.md)
 - [Fish Roe](./fish-roe.md) (general)
 - [Salmon](./salmon.md)
-

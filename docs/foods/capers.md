@@ -10,7 +10,7 @@ tags:
   - Sodium
   - Quercetin
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,10 +20,12 @@ Capers are among the highest sources of quercetin, a flavonoid polyphenol that s
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: Some fiber content
 - **Sodium**: High in pickled form
 
 ### Bioactive Substances
+
 - **Quercetin**: Very high content (highest among common foods)
 - **Polyphenols**: Antioxidant compounds
 
@@ -43,4 +45,3 @@ Capers are among the highest sources of quercetin, a flavonoid polyphenol that s
 - [Apples](./apples.md) - Also high in quercetin
 - [Onions](./onions.md) - Also high in quercetin
 - [Kale](./kale.md) - Also contains quercetin
-

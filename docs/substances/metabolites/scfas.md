@@ -1,5 +1,5 @@
 ---
-id: scfas
+id: SCFAs
 title: Short-Chain Fatty Acids (SCFAs)
 sidebar_label: SCFAs (Butyrate, Propionate, Acetate)
 description: Microbial metabolites supporting gut barrier, immune tone, and brain function
@@ -20,5 +20,3 @@ SCFAs arise from fermentation of fibers and resistant starches, supporting gut b
 ## From the paper
 
 - ADHD cohorts show lower SCFAs in some studies; butyrate supports mitochondrial metabolism and reduces neuroinflammation; propionate supports BBB integrity and may influence dopamine regulation.
-
-

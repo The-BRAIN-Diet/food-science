@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Choline
   - Vitamin E
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,6 +19,7 @@ Wheat germ provides choline, B vitamins, and vitamin E, supporting acetylcholine
 ## Key Substances
 
 ### Nutrients
+
 - **Choline**: Acetylcholine precursor
 - **B Vitamins**: Various B vitamins
 - **Vitamin E**: Antioxidant
@@ -40,4 +41,3 @@ Wheat germ provides choline, B vitamins, and vitamin E, supporting acetylcholine
 - [Egg Yolks](./egg-yolks.md) - Also high in choline
 - [Soy](./soy.md) - Also provides choline
 - [Whole Grains](./whole-grains.md)
-

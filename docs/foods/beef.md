@@ -6,7 +6,7 @@ description: High creatine, CoQ10, heme iron, and complete protein
 tags:
   - Food
   - Creatine
-  - Coq10
+  - CoQ10
   - Iron
   - Zinc
 ---
@@ -18,6 +18,7 @@ Beef provides high levels of creatine, CoQ10, heme iron (2-3× more bioavailable
 ## Key Substances
 
 ### Nutrients
+
 - **Creatine**: High levels for ATP recycling
 - **CoQ10**: Mitochondrial support
 - **Iron**: Heme iron (2-3× more bioavailable than non-heme)
@@ -44,4 +45,3 @@ Beef provides high levels of creatine, CoQ10, heme iron (2-3× more bioavailable
 - [Lamb](./lamb.md)
 - [Pork](./pork.md)
 - [Liver](./liver.md)
-

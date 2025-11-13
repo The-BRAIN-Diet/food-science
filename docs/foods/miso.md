@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Sodium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,11 +18,13 @@ Miso is a fermented soybean paste providing live probiotics, postbiotic compound
 ## Key Substances
 
 ### Nutrients
+
 - **Protein**: From soybeans
 - **Sodium**: High in traditional forms
 - **B Vitamins**: Produced during fermentation
 
 ### Bioactive Substances
+
 - **Probiotics**: Live beneficial bacteria
 - **Postbiotics**: Beneficial fermentation compounds
 
@@ -43,4 +45,3 @@ Miso is a fermented soybean paste providing live probiotics, postbiotic compound
 - [Soy](./soy.md)
 - [Tempeh](./tempeh.md)
 - [Natto](./natto.md)
-

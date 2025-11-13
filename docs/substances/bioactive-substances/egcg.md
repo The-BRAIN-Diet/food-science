@@ -18,5 +18,3 @@ list_image: /img/icons/bioactive.svg
 ## Overview
 
 EGCG supports antioxidant defenses and may reduce LPS translocation and inflammatory signaling; part of polyphenol strategies in the BRAIN Diet.
-
-

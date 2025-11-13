@@ -5,7 +5,7 @@ sidebar_label: Fish Roe
 description: General category of fish eggs providing phospholipid-bound omega-3s
 tags:
   - Food
-  - Omega 3
+  - Omega-3 Fatty Acids
   - Phosphatidylcholine
   - Carotenoid
 ---
@@ -17,6 +17,7 @@ Fish roe provides phospholipid-bound omega-3 fatty acids (EPA/DHA), astaxanthin,
 ## Key Fish Roe Types
 
 See individual pages for:
+
 - [Salmon Roe](./salmon-roe.md)
 - [Lumpfish Roe](./lumpfish-roe.md)
 
@@ -26,4 +27,3 @@ See individual pages for:
 - Astaxanthin for antioxidant support
 - High bioavailability compared to triglyceride forms
 - Supports LPC-DHA transport across blood-brain barrier
-

@@ -5,8 +5,8 @@ sidebar_label: Mackerel
 description: Oily fish rich in EPA/DHA, CoQ10, taurine, and vitamin D
 tags:
   - Food
-  - Omega 3
-  - Coq10
+  - Omega-3 Fatty Acids
+  - CoQ10
   - Taurine
   - Vitamin D
 ---
@@ -18,6 +18,7 @@ Mackerel is an oily fish providing high levels of EPA/DHA omega-3s, CoQ10, tauri
 ## Key Substances
 
 ### Nutrients
+
 - **Omega-3 (EPA/DHA)**: High levels
 - **CoQ10**: Mitochondrial support
 - **Taurine**: Neurotransmission and calcium signaling
@@ -43,4 +44,3 @@ Mackerel is an oily fish providing high levels of EPA/DHA omega-3s, CoQ10, tauri
 - [Sardines](./sardines.md)
 - [Salmon](./salmon.md)
 - [Tuna](./tuna.md)
-

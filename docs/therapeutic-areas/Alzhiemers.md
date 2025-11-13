@@ -5,7 +5,7 @@ sidebar_label: Alzheimer's (AD)
 description: Dietary interventions targeting mitochondrial function, oxidative stress, inflammation, and neurochemical balance to slow cognitive decline and support neuroprotection
 tags:
   - Therapeutic Area
-  - Alzhiemers
+  - Alzheimer's Disease
   - Mitochondrial Support
   - Inflammation
   - Oxidative Stress

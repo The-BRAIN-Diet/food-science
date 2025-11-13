@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,6 +19,7 @@ Berries are polyphenol-rich fruits providing anthocyanins, flavonoids, and other
 ## Key Berries
 
 See individual pages for:
+
 - [Blueberries](./blueberries.md)
 - [Strawberries](./strawberries.md)
 - [Raspberries](./raspberries.md)
@@ -31,4 +32,3 @@ See individual pages for:
 - Anthocyanins for neuroprotection
 - Fiber for gut health
 - Vitamin C for antioxidant support
-

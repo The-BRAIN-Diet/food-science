@@ -5,7 +5,7 @@ sidebar_label: Cod
 description: Lean fish with omega-3, taurine, and creatine
 tags:
   - Food
-  - Omega 3
+  - Omega-3 Fatty Acids
   - Taurine
   - Creatine
 ---
@@ -17,6 +17,7 @@ Cod is a lean fish providing omega-3s, taurine, creatine, and complete protein, 
 ## Key Substances
 
 ### Nutrients
+
 - **Omega-3 (EPA/DHA)**: Moderate levels
 - **Taurine**: Neurotransmission support
 - **Creatine**: ATP recycling support
@@ -41,4 +42,3 @@ Cod is a lean fish providing omega-3s, taurine, creatine, and complete protein, 
 - [Salmon](./salmon.md)
 - [Tuna](./tuna.md)
 - [Scallops](./scallops.md)
-

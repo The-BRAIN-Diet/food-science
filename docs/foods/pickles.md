@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Sodium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,10 +18,12 @@ Pickles (unpasteurized fermented) provide live probiotics, including Levilactoba
 ## Key Substances
 
 ### Nutrients
+
 - **Sodium**: High in pickled form
 - **Fiber**: From vegetables
 
 ### Bioactive Substances
+
 - **Probiotics**: Levilactobacillus brevis (GABA-producing)
 - **GABA**: Produced by fermentation bacteria
 
@@ -41,4 +43,3 @@ Pickles (unpasteurized fermented) provide live probiotics, including Levilactoba
 - [Kimchi](./kimchi.md) - Also contains GABA-producing bacteria
 - [Kefir](./kefir.md) - Also contains GABA-producing bacteria
 - [Fermented Vegetables](./fermented-vegetables.md)
-

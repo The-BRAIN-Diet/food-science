@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Iron
   - Vitamin B12
-  - Ala Alpha Linolenic Acid
+  - ALA
 ---
 
 ## Overview
@@ -19,6 +19,7 @@ Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavail
 ## Key Substances
 
 ### Nutrients
+
 - **Iron**: Bioavailable plant iron
 - **Vitamin B12**: True cobalamin (not pseudovitamin)
 - **Protein**: Complete plant protein
@@ -42,4 +43,3 @@ Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavail
 - [Duckweed](./duckweed.md) (same species)
 - [Spirulina](./spirulina.md) - Different algae
 - [Chlorella](./chlorella.md) - Also contains B12
-

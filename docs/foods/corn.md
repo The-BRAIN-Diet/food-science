@@ -10,7 +10,7 @@ tags:
   - Lutein
   - Zeaxanthin
   - Carotenoid
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,11 +20,13 @@ Corn provides carotenoids (lutein, zeaxanthin) and complex carbohydrates, suppor
 ## Key Substances
 
 ### Nutrients
+
 - **Carotenoids**: Lutein and zeaxanthin
 - **Complex carbohydrates**: Starch
 - **Fiber**: Some fiber content
 
 ### Bioactive Substances
+
 - **Lutein/Zeaxanthin**: Carotenoids for eye and brain health
 
 ## From the paper
@@ -42,4 +44,3 @@ Corn provides carotenoids (lutein, zeaxanthin) and complex carbohydrates, suppor
 
 - [Egg Yolks](./egg-yolks.md) - Also contains lutein/zeaxanthin
 - [Carrots](./carrots.md) - Also carotenoid-rich
-

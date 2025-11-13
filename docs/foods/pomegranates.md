@@ -11,7 +11,7 @@ tags:
   - Potassium
   - Polyphenol
   - Urolithin A
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -21,11 +21,13 @@ Pomegranates provide ellagitannins that gut bacteria convert to urolithin A, sup
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: Prebiotic fiber
 - **Vitamin C**: Antioxidant
 - **Potassium**: Electrolyte
 
 ### Bioactive Substances
+
 - **Ellagitannins**: Precursors to urolithin A via gut microbiome
 - **Polyphenols**: Antioxidant and anti-inflammatory compounds
 
@@ -47,4 +49,3 @@ Pomegranates provide ellagitannins that gut bacteria convert to urolithin A, sup
 - [Walnuts](./walnuts.md) - Also contains ellagitannins
 - [Berries](./berries.md) - Similar polyphenol benefits
 - [Urolithin A](../substances/metabolites/urolithin-a.md) - Derived metabolite
-

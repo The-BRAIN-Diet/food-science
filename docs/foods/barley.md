@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Magnesium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,6 +18,7 @@ Barley provides beta-glucan prebiotic fiber and whole grain nutrients, supportin
 ## Key Substances
 
 ### Nutrients
+
 - **Beta-glucans**: Prebiotic fiber for gut microbiome
 - **Fiber**: Soluble and insoluble fiber
 - **B Vitamins**: Various B vitamins
@@ -41,4 +42,3 @@ Barley provides beta-glucan prebiotic fiber and whole grain nutrients, supportin
 - [Oats](./oats.md) - Also contains beta-glucans
 - [Chickpeas](./chickpeas.md) - Good pairing
 - [Lentils](./lentils.md) - Good pairing
-

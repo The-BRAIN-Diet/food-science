@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,10 +19,12 @@ Cherries provide polyphenols, fiber, and vitamin C. Tart cherries specifically p
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: Prebiotic fiber
 - **Vitamin C**: Antioxidant
 
 ### Bioactive Substances
+
 - **Polyphenols**: Antioxidant compounds
 - **Melatonin**: In tart cherries specifically
 
@@ -35,4 +37,3 @@ Cherries provide polyphenols, fiber, and vitamin C. Tart cherries specifically p
 
 - [Tart Cherry](./tart-cherry.md) - For sleep support
 - [Berries](./berries.md) - Similar polyphenol benefits
-

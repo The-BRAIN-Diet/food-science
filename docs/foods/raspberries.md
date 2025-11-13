@@ -10,7 +10,7 @@ tags:
   - Vitamin C
   - Vitamin B9
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,11 +20,13 @@ Raspberries provide polyphenols, fiber, and vitamin C, supporting antioxidant ne
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: High fiber content
 - **Vitamin C**: Antioxidant
 - **Folate (B9)**: Some content
 
 ### Bioactive Substances
+
 - **Polyphenols**: Antioxidant compounds
 - **Anthocyanins**: Flavonoid compounds
 
@@ -45,4 +47,3 @@ Raspberries provide polyphenols, fiber, and vitamin C, supporting antioxidant ne
 - [Blueberries](./blueberries.md)
 - [Strawberries](./strawberries.md)
 - [Berries](./berries.md) (general)
-

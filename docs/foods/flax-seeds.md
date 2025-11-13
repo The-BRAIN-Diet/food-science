@@ -7,8 +7,8 @@ tags:
   - Food
   - Vegan
   - Vegetarian
-  - Ala Alpha Linolenic Acid
-  - Scfas
+  - ALA
+  - SCFAs
 ---
 
 ## Overview
@@ -18,6 +18,7 @@ Flax seeds provide ALA (plant omega-3), soluble fiber, and lignans, supporting g
 ## Key Substances
 
 ### Nutrients
+
 - **Alpha-Linolenic Acid (ALA)**: Plant omega-3 (limited conversion to DHA)
 - **Fiber**: Soluble and insoluble fiber
 - **Lignans**: Phytoestrogens with antioxidant properties
@@ -39,4 +40,3 @@ Flax seeds provide ALA (plant omega-3), soluble fiber, and lignans, supporting g
 - [Chia Seeds](./chia-seeds.md) - Also ALA source
 - [Walnuts](./walnuts.md) - Also ALA source
 - [Algal Oil](./algal-oil.md) - Direct DHA source
-

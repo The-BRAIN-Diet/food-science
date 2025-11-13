@@ -7,10 +7,10 @@ tags:
   - Food
   - Vegan
   - Vegetarian
-  - Ala Alpha Linolenic Acid
+  - ALA
   - Calcium
   - Magnesium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,6 +20,7 @@ Chia seeds provide ALA (plant omega-3), soluble fiber, and minerals, supporting 
 ## Key Substances
 
 ### Nutrients
+
 - **Alpha-Linolenic Acid (ALA)**: Plant omega-3 (limited conversion to DHA)
 - **Fiber**: Soluble and insoluble fiber
 - **Calcium**: Some content
@@ -42,4 +43,3 @@ Chia seeds provide ALA (plant omega-3), soluble fiber, and minerals, supporting 
 - [Flax Seeds](./flax-seeds.md) - Also ALA source
 - [Walnuts](./walnuts.md) - Also ALA source
 - [Algal Oil](./algal-oil.md) - Direct DHA source
-

@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Potassium
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,10 +19,12 @@ Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-de
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: Some fiber content
 - **Potassium**: Electrolyte
 
 ### Bioactive Substances
+
 - **Resveratrol**: Polyphenol that activates SIRT1, enhancing NAD+-dependent processes
 
 ## From the paper
@@ -41,4 +43,3 @@ Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-de
 - [Blueberries](./blueberries.md) - Also contains resveratrol
 - [Cranberries](./cranberries.md) - Also contains resveratrol
 - [Peanuts](./peanuts.md) - Also contains resveratrol
-

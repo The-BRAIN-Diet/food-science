@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin K2
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,6 +18,7 @@ Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fib
 ## Key Substances
 
 ### Nutrients
+
 - **FOS (Fructooligosaccharides)**: Prebiotic fiber
 - **Fiber**: Prebiotic and general fiber
 - **Vitamin K**: Some content
@@ -39,4 +40,3 @@ Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fib
 - [Onions](./onions.md)
 - [Garlic](./garlic.md)
 - [Asparagus](./asparagus.md)
-

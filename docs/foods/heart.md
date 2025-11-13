@@ -5,7 +5,7 @@ sidebar_label: Heart
 description: Highest CoQ10 source among organ meats
 tags:
   - Food
-  - Coq10
+  - CoQ10
   - Iron
 ---
 
@@ -16,6 +16,7 @@ Heart is an organ meat providing the highest CoQ10 content, supporting mitochond
 ## Key Substances
 
 ### Nutrients
+
 - **CoQ10**: Highest dietary source
 - **Protein**: Complete amino acid profile
 - **Iron**: Heme iron
@@ -38,4 +39,3 @@ Heart is an organ meat providing the highest CoQ10 content, supporting mitochond
 - [Liver](./liver.md)
 - [Kidney](./kidney.md)
 - [Organ Meats](./organ-meats.md)
-
