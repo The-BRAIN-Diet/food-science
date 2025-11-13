@@ -5,46 +5,41 @@ sidebar_label: Onions
 description: Inulin prebiotic, quercetin, and glutathione precursors
 tags:
   - Food
+  - Onions
   - Vegan
   - Vegetarian
   - Vitamin C
   - Quercetin
-  - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur compounds that support gut microbiome, antioxidant defenses, and glutathione synthesis.
+Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur compounds that support gut microbiome, antioxidant defenses, and glutathione synthesis. Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples). Inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier. Quercetin is abundant in capers, apples, onions, berries, kale and soybeans.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Onions" filter="recipes" />
 
-- **Inulin**: Prebiotic fiber
-- **Fiber**: Prebiotic and general fiber
-- **Vitamin C**: Antioxidant
+## Substances
 
-### Bioactive Substances
-
-- **Quercetin**: Abundant flavonoid
-- **Sulfur compounds**: Glutathione precursors
-
-## From the paper
-
-- "Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)"
-- "Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions)"
-- "Quercetin... abundant in capers, apples, onions, berries, kale and soybeans"
-- "Inulin (chicory, onions)" for Bifidobacterium and Akkermansia support
+<TagList tag="Onions" filter="substances" />
 
 ## Preparation Notes
 
-- Can be consumed raw or cooked
-- Cooking may enhance some compounds
-- Part of diverse prebiotic fiber strategy
-- Pair with other allium vegetables
+- Can be consumed raw or cooked; cooking may enhance some compounds
+- Part of diverse prebiotic fiber strategy; prebiotic fibres including inulin (chicory, onions) support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+- Pair with other allium vegetables for synergistic effects
+- Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support antioxidant defenses
 
-## Related Foods
+## Biological Target Matrix
 
-- [Garlic](./garlic.md)
-- [Leeks](./leeks.md)
-- [Chicory](./chicory.md) - Also high in inulin
+<FoodMatrix tag="Onions" />
+
+## References
+
+- Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)
+- Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions)
+- Quercetin is abundant in capers, apples, onions, berries, kale and soybeans
+- Inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+- Prebiotic fibres including inulin (chicory, onions) support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier

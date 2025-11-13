@@ -6,10 +6,11 @@ alwaysApply: false
 ---
 
 - Tag each food page with the substances it contains
-- Tag the page with "Biological Target" too, so that it appears in index.md.
-- Tag each page with the name of the biological target (e.g. Hormonal Response) so we can refer to it from a substance.
-- In the front matter, list_image: /img/icons/biological-targets.svg
+- Tag the page with "Food" too, so that it appears in index.md.
+- In the front matter, list_image: /img/icons/ingredients.svg
 - The title of the page should be a tag on page that exactly matches the title.
+- Do not tag food pages with Biological Targets.
+- Tag food pages with the substances that the food contains, and tag the substances with the foods they are contained in.
 
 The Format of the page should have this structure:
 

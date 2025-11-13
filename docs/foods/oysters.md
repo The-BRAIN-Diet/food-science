@@ -5,37 +5,37 @@ sidebar_label: Oysters
 description: Highest zinc content among common foods
 tags:
   - Food
+  - Oysters
   - Zinc
   - Vitamin B12
   - Iron
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Oysters provide the highest zinc content among common foods, supporting neurotransmitter modulation and antioxidant enzyme function.
+Oysters provide the highest zinc content among common foods, supporting neurotransmitter modulation and antioxidant enzyme function. Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, cashews. Oysters are listed first among zinc sources, indicating they are the highest dietary source.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Zinc**: Highest dietary source
-- **Protein**: Complete amino acid profile
-- **B12**: Some content
-- **Iron**: Heme iron
+<TagList tag="Oysters" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Zinc: Oysters, beef, crab, chicken, pork, Pumpkin seeds, lentils, chickpeas, cashews"
+<TagList tag="Oysters" filter="substances" />
 
 ## Preparation Notes
 
-- Can be consumed raw (sushi-grade) or cooked
+- Can be consumed raw (sushi-grade) or cooked; gentle cooking preserves nutrients
 - Sustainable when sourced responsibly
-- Important for zinc sufficiency
+- Important for zinc sufficiency; zinc is critical for neurotransmitter modulation, synaptic plasticity, and antioxidant enzyme function
 - Part of diverse protein strategy
 
-## Related Foods
+## Biological Target Matrix
 
-- [Scallops](./scallops.md)
-- [Clams](./clams.md)
-- [Crab](./crab.md)
+<FoodMatrix tag="Oysters" />
 
+## References
+
+- Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, cashews
+- Oysters are the highest dietary source of zinc, making them valuable for neurotransmitter synthesis and antioxidant support

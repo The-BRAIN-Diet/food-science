@@ -5,40 +5,42 @@ sidebar_label: Milk
 description: Complete protein, nicotinamide riboside, and calcium
 tags:
   - Food
+  - Milk
   - Vegetarian
   - Calcium
+  - Tryptophan
+  - Tyrosine
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (NAD+ precursor), and calcium, supporting mitochondrial function and bone health.
+Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (NAD+ precursor), and calcium, supporting mitochondrial function and bone health. Milk (skim) has a DIAAS score of 118, indicating balanced EAA profile and supports myelination. Nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread). Fortified plant milks and dairy milk can help meet calcium (and sometimes iodine, depending on fortification and local practices) targets.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Protein**: DIAAS 118, complete amino acid profile
-- **Calcium**: High content
-- **B Vitamins**: Various B vitamins
+<TagList tag="Milk" filter="recipes" />
 
-### Bioactive Substances
-- **Nicotinamide Riboside**: Efficient NAD+ precursor
+## Substances
 
-## From the paper
-
-- "Nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread)"
-- "Milk (skim): DIAAS 118, None (limiting amino acids) - Balanced EAA profile, supports myelination"
-- "Fortified plant milks and dairy milk can help meet calcium (and sometimes iodine, depending on fortification and local practices) targets"
+<TagList tag="Milk" filter="substances" />
 
 ## Preparation Notes
 
 - Choose quality sources when possible
 - Part of diverse protein strategy
-- Supports NAD+ availability
+- Supports NAD+ availability through nicotinamide riboside
 - Consider tolerance and preferences
+- Fortified plant milks and dairy milk can help meet calcium targets
 
-## Related Foods
+## Biological Target Matrix
 
-- [Whey Protein](./whey-protein.md)
-- [Yogurt](./yogurt.md)
-- [Kefir](./kefir.md)
+<FoodMatrix tag="Milk" />
 
+## References
+
+- Nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread)
+- Milk (skim): DIAAS 118, None (limiting amino acids) - Balanced EAA profile, supports myelination
+- Fortified plant milks and dairy milk can help meet calcium (and sometimes iodine, depending on fortification and local practices) targets
+- Serotonin: Mood regulation, emotional control, impulse moderation; food sources include turkey, eggs, dairy, soy, seeds, oats, bananas (milk provides tryptophan)
+- Dopamine: Attention, motivation, executive function; food sources include lean poultry, beef, fish, dairy, soy, pumpkin seeds (milk provides tyrosine)

@@ -5,43 +5,44 @@ sidebar_label: Beef
 description: High creatine, CoQ10, heme iron, and complete protein
 tags:
   - Food
+  - Beef
   - Creatine
   - CoQ10
   - Iron
   - Zinc
+  - Tyrosine
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Beef provides high levels of creatine, CoQ10, heme iron (2-3× more bioavailable), and complete high-quality protein, supporting ATP recycling and neurotransmitter synthesis.
+Beef provides high levels of creatine, CoQ10, heme iron (2-3× more bioavailable than non-heme), and complete high-quality protein, supporting ATP recycling and neurotransmitter synthesis. Beef has a DIAAS score of 108-110, indicating high protein quality. Creatine supports ATP recycling in neurons and enhances working memory and cognitive processing speed. Coenzyme Q10 (CoQ10) supports mitochondrial electron transport and antioxidant protection for neurons. Beef is listed as a source for dopamine synthesis, providing tyrosine and heme iron as a cofactor for tyrosine hydroxylase.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Beef" filter="recipes" />
 
-- **Creatine**: High levels for ATP recycling
-- **CoQ10**: Mitochondrial support
-- **Iron**: Heme iron (2-3× more bioavailable than non-heme)
-- **Zinc**: Neurotransmitter modulation
-- **Protein**: Complete amino acid profile (DIAAS 108-110)
+## Substances
 
-## From the paper
-
-- "Creatine: Beef, lamb, pork, salmon, tuna, cod, scallops"
-- "Coenzyme Q10 (CoQ10): Organ meats (heart, liver), oily fish (sardines, mackerel), beef"
-- "Iron(heme & non-heme): Liver, beef, lamb, poultry, fish"
-- "Zinc: Oysters, beef, crab, chicken, pork"
-- DIAAS 108-110, "High creatine, iron, zinc"
+<TagList tag="Beef" filter="substances" />
 
 ## Preparation Notes
 
-- Choose grass-fed when possible for better fatty acid profile
-- Gentle cooking preserves nutrients
-- Important for creatine and heme iron intake
-- Part of diverse protein strategy
+- Choose grass-fed when possible for better fatty acid profile and nutrient density
+- Gentle cooking preserves nutrients and prevents formation of advanced glycation end products (AGEs)
+- Important for creatine and heme iron intake, especially for individuals with deficiencies
+- Part of diverse protein strategy; high creatine, iron, zinc content
+- Avoid high-heat cooking that creates AGEs, which can cross the blood-brain barrier and activate microglia
 
-## Related Foods
+## Biological Target Matrix
 
-- [Lamb](./lamb.md)
-- [Pork](./pork.md)
-- [Liver](./liver.md)
+<FoodMatrix tag="Beef" />
+
+## References
+
+- Creatine: Supports ATP recycling in neurons; enhances working memory and cognitive processing speed; food sources include beef, lamb, pork, salmon, tuna, cod, scallops
+- Coenzyme Q10 (CoQ10): Mitochondrial electron transport; antioxidant protection for neurons; food sources include organ meats (heart, liver), oily fish (sardines, mackerel), beef
+- Iron (heme & non-heme): Oxygen delivery to brain, dopamine synthesis; food sources include liver, beef, lamb, poultry, fish; heme iron from animal sources is 2-3× more bioavailable
+- Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork
+- Beef has DIAAS score of 108-110, indicating high protein quality with complete amino acid profile
+- Dopamine: Attention, motivation, executive function; food sources include lean poultry, beef, fish, dairy, soy, pumpkin seeds; cofactors include tyrosine, phenylalanine, iron, B6, folate, omega-3s

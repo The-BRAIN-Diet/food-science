@@ -5,44 +5,39 @@ sidebar_label: Cauliflower
 description: Cruciferous vegetable with fiber and B vitamins
 tags:
   - Food
+  - Cauliflower
   - Vegan
   - Vegetarian
   - Vitamin C
   - Vitamin B9
-  - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Cauliflower is a cruciferous vegetable providing fiber, B vitamins, and potential isothiocyanates, supporting gut health and antioxidant defenses.
+Cauliflower is a cruciferous vegetable providing fiber, B vitamins, and potential isothiocyanates, supporting gut health and antioxidant defenses. Cauliflower is part of the cruciferous vegetable family, which includes broccoli, Brussels sprouts, and cabbage. Cruciferous vegetables support diverse vegetable intake and gut health via fiber.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Cauliflower" filter="recipes" />
 
-- **Fiber**: Prebiotic fiber
-- **B Vitamins**: Various B vitamins
-- **Vitamin C**: Antioxidant
-- **Folate (B9)**: Some content
+## Substances
 
-### Bioactive Substances
-
-- **Isothiocyanates**: Potential compounds similar to sulforaphane
-
-## From the paper
-
-- Part of cruciferous vegetable family
-- Supports diverse vegetable intake
+<TagList tag="Cauliflower" filter="substances" />
 
 ## Preparation Notes
 
-- Can be consumed raw, roasted, or steamed
-- Part of diverse cruciferous intake
-- Supports gut health via fiber
-- Pair with fat for fat-soluble vitamin absorption
+- Can be consumed raw, roasted, or steamed; light cooking may preserve some compounds
+- Part of diverse cruciferous intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
+- Supports gut health via fiber; prebiotic fiber supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+- Pair with fat for fat-soluble vitamin absorption; dietary fat enhances the absorption of fat-soluble vitamins
 
-## Related Foods
+## Biological Target Matrix
 
-- [Broccoli](./broccoli.md)
-- [Brussels Sprouts](./brussels-sprouts.md)
-- [Cabbage](./cabbage.md)
+<FoodMatrix tag="Cauliflower" />
+
+## References
+
+- Part of cruciferous vegetable family; cruciferous vegetables support diverse vegetable intake and gut health
+- Supports diverse vegetable intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
+- Cruciferous vegetables may contain isothiocyanates (ITCs) like sulforaphane, which have shown promising results in reducing oxidative stress

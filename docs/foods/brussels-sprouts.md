@@ -5,44 +5,39 @@ sidebar_label: Brussels Sprouts
 description: Sulfur compounds for glutathione synthesis
 tags:
   - Food
+  - Brussels Sprouts
   - Vegan
   - Vegetarian
   - Vitamin B9
   - Vitamin C
-  - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Brussels sprouts provide sulfur-containing compounds that serve as glutathione precursors, supporting antioxidant defenses and mitochondrial health.
+Brussels sprouts provide sulfur-containing compounds that serve as glutathione precursors, supporting antioxidant defenses and mitochondrial health. Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions). Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms), sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Brussels Sprouts" filter="recipes" />
 
-- **Folate (B9)**: Methylation support
-- **Vitamin C**: Antioxidant
-- **Fiber**: Prebiotic fiber
+## Substances
 
-### Bioactive Substances
-
-- **Sulfur compounds**: Glutathione precursors
-- **Isothiocyanates**: Potential sulforaphane-like compounds
-
-## From the paper
-
-- "Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions)"
-- "Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms), sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions)"
+<TagList tag="Brussels Sprouts" filter="substances" />
 
 ## Preparation Notes
 
-- Light cooking or raw consumption may preserve compounds
-- Part of diverse cruciferous vegetable intake
-- Supports glutathione synthesis
-- Pair with other sulfur-containing vegetables
+- Light cooking or raw consumption may preserve compounds; gentle cooking preserves nutrients
+- Part of diverse cruciferous vegetable intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
+- Supports glutathione synthesis; glutathione (GSH) is one of the body's major antioxidants
+- Pair with other sulfur-containing vegetables for synergistic effects
 
-## Related Foods
+## Biological Target Matrix
 
-- [Broccoli](./broccoli.md)
-- [Cauliflower](./cauliflower.md)
-- [Cabbage](./cabbage.md)
+<FoodMatrix tag="Brussels Sprouts" />
+
+## References
+
+- Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions)
+- Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms), sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health
+- Glutathione (GSH) is one of the body's major antioxidants; low levels may suggest oxidative stress; elevated GSH levels which have been recorded against ADHD subjects may reflect a compensatory response to increased oxidative stress
