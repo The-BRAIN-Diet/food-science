@@ -7,6 +7,7 @@ tags:
   - Nutrient
   - Phosphatidylcholine
   - Phospholipid
+  - Neurochemical Balance
 list_image: /img/icons/nutrients.svg
 ---
 

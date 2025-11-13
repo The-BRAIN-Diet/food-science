@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin B1
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,6 +18,7 @@ Rice provides complex carbohydrates and, when cooked and cooled, forms resistant
 ## Key Substances
 
 ### Nutrients
+
 - **Resistant Starch**: Forms when cooked and cooled (retrogradation)
 - **Thiamine (B1)**: Essential for mitochondrial glucose metabolism
 - **Complex carbohydrates**: Starch
@@ -41,4 +42,3 @@ Rice provides complex carbohydrates and, when cooked and cooled, forms resistant
 - [Cooled Potatoes](./cooled-potatoes.md) - Also forms resistant starch
 - [Lentils](./lentils.md) - Good pairing
 - [Black Beans](./black-beans.md) - Good pairing
-

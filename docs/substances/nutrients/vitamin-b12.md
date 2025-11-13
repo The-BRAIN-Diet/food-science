@@ -7,6 +7,9 @@ tags:
   - Nutrient
   - Vitamin
   - Vitamin B12
+  - Methylation
+  - Neurochemical Balance
+  - Mitochondrial Support
 list_image: /img/icons/nutrients.svg
 ---
 
@@ -49,6 +52,7 @@ Deficiency causes cognitive decline, mood disorders, neuropathy (paper.txt, line
 ### Animal Sources (Bioavailable Cobalamin)
 
 **Organ Meats:**
+
 - [Liver](../../foods/liver.md) - **Highest source** of bioavailable B12, retinol, heme iron, folate
 
 **Seafood:**

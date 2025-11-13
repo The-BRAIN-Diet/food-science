@@ -5,7 +5,7 @@ sidebar_label: Herring
 description: Oily fish rich in EPA/DHA omega-3s
 tags:
   - Food
-  - Omega 3
+  - Omega-3 Fatty Acids
   - Vitamin D
 ---
 
@@ -16,6 +16,7 @@ Herring is an oily fish providing high levels of EPA/DHA omega-3 fatty acids, su
 ## Key Substances
 
 ### Nutrients
+
 - **Omega-3 (EPA/DHA)**: High levels
 - **Protein**: Complete amino acid profile
 - **Vitamin D**: Some content
@@ -38,4 +39,3 @@ Herring is an oily fish providing high levels of EPA/DHA omega-3 fatty acids, su
 - [Sardines](./sardines.md)
 - [Mackerel](./mackerel.md)
 - [Salmon](./salmon.md)
-

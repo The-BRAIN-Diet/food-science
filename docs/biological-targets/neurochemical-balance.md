@@ -8,7 +8,9 @@ tags:
   - Neurochemical Balance
   - ADHD
   - Bipolar
-  - Alzheimers
+  - Alzheimer's Disease
+  - Anxiety & GAD
+  - Depression & MDD
 list_image: /img/icons/biological-targets.svg
 ---
 
@@ -16,219 +18,52 @@ list_image: /img/icons/biological-targets.svg
 
 ## Overview
 
-Neurochemical balance is a fundamental biological target in the BRAIN Diet, focusing on optimizing neurotransmitter synthesis, release, and reuptake for improved cognitive function. This involves supporting the complex biochemical processes that regulate brain communication and function.
+Neurochemical balance is a fundamental biological target in the BRAIN Diet, focusing on optimizing neurotransmitter synthesis, release, and reuptake for improved cognitive function. Neurochemicals are molecules that are responsible for communication between nerve cells, and nerve cells and other cells. They are typically classified based on their function which can be excitatory, inhibitory or modulatory in nature, although some neurochemicals can have multiple functions. Many neurological disorders are thought to be due to neurochemical imbalances, and much research has now implicated much broader neurotransmitter dysregulation (paper.txt, lines 297-301).
 
-## Role in Brain Health
+## Therapeutic Areas
 
-### Neurotransmitter Systems
+<TagList tag="Neurochemical Balance" filter="therapeutic-areas" />
 
-- **Dopamine**: Motivation, reward, attention, and executive function
-- **Serotonin**: Mood, sleep, appetite, and emotional regulation
-- **GABA**: Inhibitory neurotransmitter for calm and focus
-- **Glutamate**: Excitatory neurotransmitter for learning and memory
-- **Acetylcholine**: Memory, attention, and muscle control
-- **Norepinephrine**: Alertness, attention, and stress response
+## Substances
 
-### Brain Function
+<TagList tag="Neurochemical Balance" filter="substances" />
 
-- **Synaptic plasticity**: Ability of synapses to strengthen or weaken
-- **Neurotransmission**: Communication between neurons
-- **Receptor function**: How neurons respond to neurotransmitters
-- **Reuptake mechanisms**: Recycling of neurotransmitters
+## Biological Implications
 
-## Key Neurotransmitters
+Many neurological disorders are thought to be due to neurochemical imbalances although conclusive proof is often lacking, and much research has now implicated much broader neurotransmitter dysregulation. A meta study analysis concluded that while dopaminergic dysfunction is consistently linked to ADHD, evidence does not support a simple global hypo-dopaminergic model and that dopamine alterations vary by ADHD subtypes, developmental stage, and brain region, interacting with other neurotransmitter systems. The difficulties in really 'disentangling' pure dopaminergic neurotransmission from other transmitter systems are significant; &gt;200 chemical messengers (classical transmitters, neuropeptides, purines, lipid mediators, gases) have been described, underscoring the system's complexity. This is why the BRAIN Diet must target broad neurochemical precursors and cofactors to support efficient neurotransmitter production (paper.txt, line 301).
 
-### Dopamine
+For these reasons, the diet must target a broad spectrum of neurochemical precursors, while also integrating anti-inflammatory nutrients and gut–brain modulators to support balanced neurotransmitter production across systems—not dopamine alone. This approach aligns with dietary intervention research showing that nutrient patterns rich in amino acid precursors, omega-3 fatty acids, and polyphenols can influence dopamine, serotonin, GABA, and acetylcholine pathways simultaneously, supporting mood stability, attention, and cognitive performance (paper.txt, line 303).
 
-- **Synthesis**: From tyrosine via tyrosine hydroxylase and DOPA decarboxylase
-- **Function**: Motivation, reward, attention, executive function
-- **Deficiency**: Associated with ADHD, depression, and Parkinson's disease
-- **Excess**: Can contribute to addiction and mania
+Dopamine affects ADHD both as a crucial neurotransmitter involved in regulating attention, and executive functions and also as a neuromodulator affecting broader neural networks such as the Default Mode Network (DMN). The DMN are regions of the brain that are active during non-focused activity such as daydreaming. The inability to move from a DMN state to an executive state has been hypothesized as one of the causes of ADHD. Over time, this neural inefficiency contributes to mental fatigue and susceptibility to burnout, consistent with reports of attentional exhaustion in ADHD populations. Dopamine dysregulation in ADHD impairs the brain's ability to shift from rest-state (DMN) to focus-state networks. The BRAIN Diet uses nutrient-timed meals to support this transition through dopamine precursors and anti-inflammatory nutrients to reduce DMN dysregulation (paper.txt, line 306).
 
-### Serotonin
+Individuals targeting dopamine via fatty and sugary foods is common in ADHD populations which is probably correlated to the double dopamine reward experienced when eating food. These orosensory and post-ingestion dopamine circuits and reward systems can be utilised as dietary strategies, but they must be used sparingly as eating is the best strategy when the body needs nutrition, at other times other interventions are available such as exercise or meditation. Ultra-processed foods hijack the double dopamine system and lead to dysregulation and addictive behaviours (paper.txt, lines 309-321).
 
-- **Synthesis**: From tryptophan via tryptophan hydroxylase and aromatic amino acid decarboxylase
-- **Function**: Mood, sleep, appetite, emotional regulation
-- **Deficiency**: Associated with depression, anxiety, and sleep disorders
-- **Precursor**: Tryptophan, which must be obtained from diet
+Glutamate is the principal excitatory neurotransmitter of the central nervous system and the most abundant neurotransmitter in the brain. Dysregulation of glutamatergic signaling has widespread clinical relevance and is strongly implicated in Major Depressive Disorder (MDD), including treatment-resistant subtypes. Low levels of glutamate in a number of critical brain areas correlated with low scores on the Barkley attention scale, adding to the hypothesis that ADHD may involve broader disturbances in excitatory neurotransmission than dopaminergic dysfunction. Dietary phytochemicals such as genistein and omega-3s, may help restore neurochemical homeostasis including dopamine and glutamate (paper.txt, line 325).
 
-### GABA
+Norepinephrine, also known as noradrenaline, plays a significant role in attention, arousal, and the modulation of executive functions. Alterations in norepinephrine signaling have been associated with ADHD, affecting the regulation of attention and response inhibition. The physiological changes induced by the binding of norepinephrine to its receptors involve the modulation of several cognitive and executive processes usually impaired in ADHD, supporting the monoaminergic hypothesis for ADHD pathophysiology (paper.txt, line 328).
 
-- **Synthesis**: From glutamate via glutamic acid decarboxylase
-- **Function**: Inhibitory neurotransmitter, promotes calm and focus
-- **Deficiency**: Associated with anxiety, insomnia, and seizures
-- **Support**: Magnesium, B6, and other cofactors
+Serotonin is involved in mood regulation, emotional processing, and impulse control. Reduced levels of serotonin may contribute to the development of ADHD, influencing hyperactive and impulsive components of ADHD but perhaps not inattention. The involvement of serotonin in ADHD is supported by findings that reduced levels of the neurotransmitter may contribute to the disorder along with several genetic markers. Identifying specific neurotransmitter interplay with ADHD is confounded by the many comorbidities of ADHD where more than 80 percent may exhibit co-morbid psychiatric problems and over half express symptoms satisfying two or more co-morbid disorders (paper.txt, lines 330-331).
 
-### Glutamate
+Emotional dysregulation (ED) is also a major factor of ADHD with a growing body of research recognizing emotional dysregulation as a core but underacknowledged component of the condition, estimates suggest that 25–45% of children and 30–70% of adults have this comorbidity. Neurobiologically, ED overlaps extensively with pathways implicated in stress reactivity, limbic overactivation, dopaminergic tone, and inflammation. Many of the nutritional strategies discussed in this paper—such as glycemic stabilization, SCFA production, polyphenol intake, and anxiolytic probiotic interventions—are expected to exert downstream effects on emotional regulation through modulation of HPA axis activity, limbic signalling, and neurotransmitter systems (paper.txt, lines 333, 335).
 
-- **Synthesis**: From glucose via the Krebs cycle
-- **Function**: Excitatory neurotransmitter, learning and memory
-- **Excess**: Can cause excitotoxicity and brain damage
-- **Balance**: Must be balanced with GABA for optimal function
+Iron is an essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine. Pairing plant-based iron sources with citrus, fat-soluble vitamins with avocado or olive oil, or spreading minerals across meals are simple but impactful strategies that support maximising dietary nutrition (paper.txt, line 289).
 
-## Nutritional Strategies
+B6 is a cofactor in the development of all the key neurotransmitters. Only once pyridoxine (PIN), pyridoxal (PAL), pyridoxamine (PAM) cross the blood–brain barrier in their non-phosphorylated forms, can they be converted into pyridoxal-5'-phosphate (PLP or P5P), the active coenzyme form. This means that systemic supplementation with PLP does not bypass the brain's reliance on its own enzymatic machinery. Instead, they require pyridoxal kinase (PDXK) activity, which is supported by cofactors such as magnesium and ATP (paper.txt, line 359).
 
-### Amino Acid Precursors
+## References
 
-- **Tyrosine**: Precursor to dopamine, norepinephrine, and epinephrine
-- **Tryptophan**: Precursor to serotonin and melatonin
-- **Phenylalanine**: Precursor to tyrosine and dopamine
-- **Glutamine**: Precursor to glutamate and GABA
-- **Choline**: Precursor to acetylcholine
-
-### Cofactor Support
-
-- **B6 (Pyridoxine)**: Essential for neurotransmitter synthesis
-- **B12 (Cobalamin)**: Supports methylation and neurotransmitter production
-- **Folate (B9)**: Critical for one-carbon metabolism
-- **Magnesium**: Cofactor for many enzymatic reactions
-- **Zinc**: Supports neurotransmitter function
-- **Iron**: Cofactor for tyrosine hydroxylase
-
-### Fatty Acid Support
-
-- **Omega-3 fatty acids**: Support membrane fluidity and receptor function
-- **Phospholipids**: Essential for cell membrane integrity
-- **Cholesterol**: Important for membrane structure and function
-- **DHA**: Specifically important for brain function
-
-## Specific Foods for Neurochemical Support
-
-### Tyrosine-Rich Foods
-
-- **Animal proteins**: Meat, fish, poultry, eggs
-- **Dairy products**: Milk, cheese, yogurt
-- **Legumes**: Soybeans, lentils, chickpeas
-- **Nuts and seeds**: Almonds, pumpkin seeds, sesame seeds
-- **Whole grains**: Quinoa, oats, brown rice
-
-### Tryptophan-Rich Foods
-
-- **Animal proteins**: Turkey, chicken, fish, eggs
-- **Dairy products**: Milk, cheese, yogurt
-- **Soy products**: Tofu, tempeh, edamame
-- **Nuts and seeds**: Pumpkin seeds, sunflower seeds
-- **Legumes**: Chickpeas, lentils, black beans
-
-### B-Vitamin Rich Foods
-
-- **Whole grains**: Brown rice, quinoa, oats
-- **Legumes**: Lentils, chickpeas, black beans
-- **Nuts and seeds**: Almonds, sunflower seeds
-- **Leafy greens**: Spinach, kale, Swiss chard
-- **Animal products**: Eggs, fish, poultry (if omnivore)
-
-### Omega-3 Rich Foods
-
-- **Fatty fish**: Salmon, mackerel, sardines, trout
-- **Algae oil**: Plant-based EPA and DHA source
-- **Flaxseeds**: Ground flaxseeds for ALA
-- **Chia seeds**: High in ALA and fiber
-- **Walnuts**: Good source of ALA
-
-## Research Evidence
-
-### Clinical Studies
-
-- **Tyrosine supplementation**: Improves cognitive performance under stress
-- **Tryptophan supplementation**: May improve mood and sleep
-- **Omega-3 fatty acids**: Support neurotransmitter function
-- **B-vitamin support**: Enhances neurotransmitter synthesis
-
-### ADHD and Neurotransmitters
-
-- **Dopamine dysfunction**: Common in ADHD
-- **Norepinephrine imbalance**: Affects attention and focus
-- **Serotonin deficiency**: May contribute to mood symptoms
-- **Nutritional support**: May improve neurotransmitter function
-
-## Integration with BRAIN Diet
-
-### Food-First Approach
-
-- **Whole foods**: Provide complex nutrient matrices for neurotransmitter support
-- **Diverse nutrients**: Support multiple neurotransmitter systems
-- **Minimal processing**: Preserves natural compounds
-- **Natural combinations**: Enhance nutrient bioavailability
-
-### Individual Variation
-
-- **Genetic factors**: May affect neurotransmitter function and response
-- **Health status**: Underlying conditions affecting neurotransmitters
-- **Age factors**: Neurotransmitter function may change with age
-- **Lifestyle factors**: Stress, exercise, and sleep affect neurotransmitters
-
-## Practical Implementation
-
-### Daily Guidelines
-
-- **Include protein**: At each meal for amino acid precursors
-- **Consume B-vitamin rich foods**: Daily for cofactor support
-- **Eat omega-3 rich foods**: Regular intake for membrane support
-- **Support gut health**: Prebiotic and probiotic foods
-
-### Meal Examples
-
-- **Breakfast**: Oatmeal with nuts, berries, and chia seeds
-- **Lunch**: Quinoa salad with chickpeas, vegetables, and olive oil
-- **Dinner**: Grilled fish with roasted vegetables and sweet potato
-- **Snacks**: Nuts and seeds or Greek yogurt with berries
-
-## Monitoring and Assessment
-
-### Signs of Improvement
-
-- **Better mood**: Improved emotional regulation and stability
-- **Enhanced focus**: Better attention and concentration
-- **Improved sleep**: Better sleep quality and duration
-- **Stable energy**: More consistent energy throughout the day
-
-### Key Indicators
-
-- **Cognitive function**: Memory, attention, and processing speed
-- **Mood stability**: Emotional regulation and stability
-- **Sleep quality**: Sleep patterns and duration
-- **Overall well-being**: Physical and mental health
-
-## Special Considerations
-
-### Supplementation
-
-- **Amino acid supplements**: May be beneficial for some individuals
-- **B-vitamin supplements**: Comprehensive support for neurotransmitter synthesis
-- **Omega-3 supplements**: For those with limited dietary intake
-- **Individual needs**: Based on health status and goals
-
-### Interactions
-
-- **Medications**: Some drugs may affect neurotransmitter function
-- **Alcohol**: Can disrupt neurotransmitter balance
-- **Stress**: Chronic stress affects neurotransmitter production
-- **Exercise**: Physical activity can enhance neurotransmitter function
-
-## Lifestyle Factors
-
-### Exercise
-
-- **Aerobic exercise**: Increases dopamine and serotonin
-- **Resistance training**: Improves neurotransmitter function
-- **Regular activity**: Maintains neurochemical balance
-- **Moderate intensity**: Optimal for neurotransmitter benefits
-
-### Sleep
-
-- **Quality sleep**: Essential for neurotransmitter restoration
-- **Circadian rhythm**: Affects neurotransmitter production
-- **Adequate duration**: 7-9 hours for optimal function
-- **Consistent timing**: Regulates neurotransmitter rhythms
-
-### Stress Management
-
-- **Chronic stress**: Can deplete neurotransmitters
-- **Relaxation techniques**: Support neurotransmitter balance
-- **Mindfulness**: May improve neurotransmitter function
-- **Social support**: Reduces stress and supports health
-
-## Notes
-
-Neurochemical balance is essential for the BRAIN Diet's approach to optimizing brain health. By providing nutrients that support neurotransmitter synthesis, function, and balance, the diet addresses the fundamental biochemical processes that regulate brain communication and cognitive function.
+- Many neurological disorders are thought to be due to neurochemical imbalances although conclusive proof is often lacking [Akyuz et al. 2025](/docs/papers/BRAIN-Diet-References#akyuz_neurotransmitter_2025)
+- A meta study analysis concluded that while dopaminergic dysfunction is consistently linked to ADHD, evidence does not support a simple global hypo-dopaminergic model and that dopamine alterations vary by ADHD subtypes, developmental stage, and brain region, interacting with other neurotransmitter systems [MacDonald et al. 2024](/docs/papers/BRAIN-Diet-References#macdonald_dopaminergic_2024)
+- The difficulties in really 'disentangling' pure dopaminergic neurotransmission from other transmitter systems are significant; &gt;200 chemical messengers have been described, underscoring the system's complexity [Perreault et al. 2014](/docs/papers/BRAIN-Diet-References#perreault_dopamine_2014)
+- The BRAIN Diet uses nutrient-timed meals to support dopamine–insulin coupling through dopamine precursors and anti-inflammatory nutrients to reduce DMN dysregulation [Marsland et al. 2017](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)
+- A meta-analysis has shown that amphetamine based medications consistently (11 of 12 studies) restored connectivity in DMN areas [Santos et al. 2019](/docs/papers/BRAIN-Diet-References#santos_effects_2019)
+- Individuals targeting dopamine via fatty and sugary foods is common in ADHD populations which is probably correlated to the double dopamine reward experienced when eating food [Thanarajah et al. 2019](/docs/papers/BRAIN-Diet-References#thanarajah_food_2019)
+- Ultra-processed foods hijack the double dopamine system and lead to dysregulation and addictive behaviours [LaFata et al. 2024](/docs/papers/BRAIN-Diet-References#lafata_ultra-processed_2024)
+- Glutamate is the principal excitatory neurotransmitter of the central nervous system and the most abundant neurotransmitter in the brain [Zhou and Danbolt 2014](/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014)
+- Dysregulation of glutamatergic signaling is strongly implicated in Major Depressive Disorder (MDD), including treatment-resistant subtypes [Khoodoruth et al. 2022](/docs/papers/BRAIN-Diet-References#khoodoruth_glutamatergic_2022)
+- Low levels of glutamate in a number of critical brain areas correlated with low scores on the Barkley attention scale [Maltezos et al. 2014](/docs/papers/BRAIN-Diet-References#maltezos_glutamate_2014)
+- Alterations in norepinephrine signaling have been associated with ADHD, affecting the regulation of attention and response inhibition [O'Donnell et al. 2012](/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012)
+- Reduced levels of serotonin may contribute to the development of ADHD, influencing hyperactive and impulsive components of ADHD but perhaps not inattention [Banerjee and Nandagopal 2015](/docs/papers/BRAIN-Diet-References#banerjee_serotonin_2015)
+- The involvement of serotonin in ADHD is supported by findings that reduced levels of the neurotransmitter may contribute to the disorder along with several genetic markers [Oades 2010](/docs/papers/BRAIN-Diet-References#oades_serotonin_2010)
+- Emotional dysregulation (ED) is also a major factor of ADHD with estimates suggesting that 25–45% of children and 30–70% of adults have this comorbidity [Shaw et al. 2014](/docs/papers/BRAIN-Diet-References#shaw_emotional_2014)
+- Iron is an essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine [Beard et al. 2003](/docs/papers/BRAIN-Diet-References#beard_iron_2003)

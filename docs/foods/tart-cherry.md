@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,10 +19,12 @@ Tart cherry (and tart cherry juice) provides natural melatonin and polyphenols t
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: When whole fruit
 - **Vitamin C**: Antioxidant
 
 ### Bioactive Substances
+
 - **Melatonin**: Natural source for sleep support
 - **Polyphenols**: Antioxidant compounds
 
@@ -44,4 +46,3 @@ Tart cherry (and tart cherry juice) provides natural melatonin and polyphenols t
 - [Cherries](./cherries.md)
 - [Chamomile](./chamomile.md) - Also for sleep
 - [Lemon Balm](./lemon-balm.md)
-

@@ -1,0 +1,26 @@
+---
+alwaysApply: true
+description: Format of a Substance Page (Bioactive, Metabolite, Nutrient)
+globs: *.md
+alwaysApply: false
+---
+
+- Tag each food page with the substances it contains
+- Tag the page with "Substance" too, so that it appears in index.md.
+- Tag with "Bioactive", "Metabolite", "Nutrient" and any other substance classifications such as "Mineral", "Vitamin", "Fatty Acid" etc.
+- Tag each page with the name of the biological targets (e.g. Hormonal Response) so we can refer to it from a biological target page.
+- In the front matter, list_image: one of /img/icons/substance.svg /img/icons/nutrient.svg /img/icons/metabolite.svg
+
+The Format of the page should have this structure:
+
+- Overview: A single paragraph description describing the scope of the biological target.
+- Therapeutic Areas: Use the <TagList tag="biological target" filter="therapeutic-areas" /> here.
+- Substances: Use the <TagList tag="biological target" filter="substances" /> here.
+- Biological Mechanisms and Implications: From paper.txt talk about any problems arising from issues with this biological area. e.g. "Protein forward meals (25-35g of protein) for focus and alertness.
+- References: A list of findings or scientific principles, with their link to the `/docs/papers/BRAIN-Diet-References#<ref>` that discusses it, from paper.txt in the root directory. Make sure all assertions are backed up by evidence from the paper.txt file . Use references if the paper mentions them.
+
+An example for the references section might look like this:
+
+- A decreased microbial diversity (alpha diversity) has also been reported in ADHD [Prehn-Kristensen et al. 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
+
+Use the `methylation.md` page as an example.

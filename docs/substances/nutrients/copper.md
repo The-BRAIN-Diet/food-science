@@ -7,6 +7,9 @@ tags:
   - Nutrient
   - Mineral
   - Copper
+  - Neurochemical Balance
+  - Inflammation
+  - Oxidative Stress
 list_image: /img/icons/nutrients.svg
 ---
 

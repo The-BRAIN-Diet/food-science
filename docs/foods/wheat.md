@@ -10,7 +10,7 @@ tags:
   - Magnesium
   - Zinc
   - Iron
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,6 +20,7 @@ Wheat, especially whole grain forms, provides B vitamins, fiber, minerals, and w
 ## Key Substances
 
 ### Nutrients
+
 - **B Vitamins**: Various B vitamins
 - **Fiber**: Prebiotic fiber
 - **Minerals**: Magnesium, zinc, iron
@@ -42,4 +43,3 @@ Wheat, especially whole grain forms, provides B vitamins, fiber, minerals, and w
 - [Spelt](./spelt.md) - Ancient wheat variety
 - [Sourdough Bread](./sourdough-bread.md)
 - [Wheat Germ](./wheat-germ.md)
-

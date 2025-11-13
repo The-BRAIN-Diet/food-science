@@ -7,6 +7,8 @@ tags:
   - Polyphenol
   - Carotenoid
   - Zeaxanthin
+  - Inflammation
+  - Oxidative Stress
 list_image: /img/icons/bioactive.svg
 ---
 

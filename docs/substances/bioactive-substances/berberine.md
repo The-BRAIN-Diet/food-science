@@ -6,6 +6,9 @@ description: Polyphenolic alkaloid; glycemic control; antimicrobial effects; mic
 tags:
   - Polyphenol
   - Berberine
+  - Insulin Response
+  - Gut Microbiome
+  - Inflammation
 list_image: /img/icons/bioactive.svg
 ---
 

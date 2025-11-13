@@ -5,7 +5,7 @@ sidebar_label: Lumpfish Roe
 description: Fish roe providing phospholipid-bound omega-3s
 tags:
   - Food
-  - Omega 3
+  - Omega-3 Fatty Acids
   - Carotenoid
 ---
 
@@ -16,10 +16,12 @@ Lumpfish roe provides phospholipid-bound omega-3 fatty acids and astaxanthin, su
 ## Key Substances
 
 ### Nutrients
+
 - **Omega-3 (EPA/DHA)**: Phospholipid-bound form
 - **Astaxanthin**: Carotenoid antioxidant
 
 ### Bioactive Substances
+
 - **Phospholipid-bound omega-3s**: Superior brain delivery compared to triglyceride forms
 
 ## From the paper
@@ -38,4 +40,3 @@ Lumpfish roe provides phospholipid-bound omega-3 fatty acids and astaxanthin, su
 
 - [Salmon Roe](./salmon-roe.md)
 - [Fish Roe](./fish-roe.md) (general)
-

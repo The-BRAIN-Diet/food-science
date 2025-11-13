@@ -7,6 +7,8 @@ tags:
   - Nutrient
   - Mineral
   - Manganese
+  - Oxidative Stress
+  - Mitochondrial Support
 list_image: /img/icons/nutrients.svg
 ---
 
@@ -17,5 +19,3 @@ Manganese is essential for mitochondrial superoxide dismutase (SOD2), supporting
 ## From the paper
 
 - Dysregulation linked to cognition-related outcomes; balance is critical (deficiency vs excess).
-
-

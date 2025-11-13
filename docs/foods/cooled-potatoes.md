@@ -10,7 +10,7 @@ tags:
   - Potassium
   - Vitamin C
   - Vitamin B6
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,6 +20,7 @@ Potatoes that are cooked and then cooled develop resistant starch through retrog
 ## Key Substances
 
 ### Nutrients
+
 - **Resistant Starch**: Forms when cooked and cooled (retrogradation)
 - **Potassium**: Electrolyte
 - **Vitamin C**: When fresh
@@ -44,4 +45,3 @@ Potatoes that are cooked and then cooled develop resistant starch through retrog
 - [Green Bananas](./green-bananas.md) - Also forms resistant starch
 - [Rice](./rice.md) - Also forms resistant starch when cooled
 - [Potatoes](./potatoes.md) (general)
-

@@ -10,7 +10,7 @@ tags:
   - Tryptophan
   - Vitamin B6
   - Magnesium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,6 +20,7 @@ Oats provide beta-glucan fiber (prebiotic), tryptophan, B vitamins, and complex 
 ## Key Substances
 
 ### Nutrients
+
 - **Beta-glucans**: Prebiotic fiber for gut microbiome
 - **Tryptophan**: Serotonin precursor
 - **B Vitamins**: B6 mentioned
@@ -47,4 +48,3 @@ Oats provide beta-glucan fiber (prebiotic), tryptophan, B vitamins, and complex 
 - [Pumpkin Seeds](./pumpkin-seeds.md) - Good pairing
 - [Barley](./barley.md)
 - [Quinoa](./quinoa.md)
-

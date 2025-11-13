@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,10 +19,12 @@ Cranberries provide polyphenols, resveratrol, and support gut microbiome diversi
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: Prebiotic fiber
 - **Vitamin C**: Antioxidant
 
 ### Bioactive Substances
+
 - **Polyphenols**: Support microbiome diversity
 - **Resveratrol**: Activates SIRT1 for NAD+ support
 
@@ -43,4 +45,3 @@ Cranberries provide polyphenols, resveratrol, and support gut microbiome diversi
 - [Grapes](./grapes.md) - Also contains resveratrol
 - [Pomegranates](./pomegranates.md) - Similar polyphenol benefits
 - [Blueberries](./blueberries.md)
-

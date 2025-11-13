@@ -8,9 +8,9 @@ tags:
   - Vegan
   - Vegetarian
   - Iodine
-  - Omega 3
+  - Omega-3 Fatty Acids
   - Magnesium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,12 +20,14 @@ Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, 
 ## Key Substances
 
 ### Nutrients
+
 - **Iodine**: Critical for thyroid and brain function
 - **EPA**: In red algae (low bioavailable)
 - **Magnesium**: Cofactor
 - **Fiber**: Prebiotic fiber
 
 ### Bioactive Substances
+
 - **Glycolipids**: Lipid compounds
 
 ## From the paper
@@ -47,4 +49,3 @@ Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, 
 - [Nori](./nori.md)
 - [Algal Oil](./algal-oil.md)
 - [Chlorella](./chlorella.md)
-

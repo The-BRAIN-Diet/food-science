@@ -5,7 +5,7 @@ sidebar_label: Tuna
 description: Fish providing omega-3, niacin, selenium, and complete protein
 tags:
   - Food
-  - Omega 3
+  - Omega-3 Fatty Acids
   - Vitamin B3
   - Selenium
   - Creatine
@@ -18,6 +18,7 @@ Tuna provides omega-3 fatty acids, niacin (B3) for NAD+ synthesis, selenium, cre
 ## Key Substances
 
 ### Nutrients
+
 - **Omega-3 (EPA/DHA)**: Moderate to high levels
 - **Niacin (B3)**: NAD+ precursor
 - **Selenium**: High content for antioxidant support
@@ -44,4 +45,3 @@ Tuna provides omega-3 fatty acids, niacin (B3) for NAD+ synthesis, selenium, cre
 - [Salmon](./salmon.md)
 - [Sardines](./sardines.md)
 - [Cod](./cod.md)
-

@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Quercetin
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,11 +19,13 @@ Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur comp
 ## Key Substances
 
 ### Nutrients
+
 - **Inulin**: Prebiotic fiber
 - **Fiber**: Prebiotic and general fiber
 - **Vitamin C**: Antioxidant
 
 ### Bioactive Substances
+
 - **Quercetin**: Abundant flavonoid
 - **Sulfur compounds**: Glutathione precursors
 
@@ -46,4 +48,3 @@ Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur comp
 - [Garlic](./garlic.md)
 - [Leeks](./leeks.md)
 - [Chicory](./chicory.md) - Also high in inulin
-

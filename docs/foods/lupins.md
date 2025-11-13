@@ -7,7 +7,7 @@ tags:
   - Food
   - Vegan
   - Vegetarian
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -17,6 +17,7 @@ Lupins are legumes providing plant protein and fiber, part of diverse protein so
 ## Key Substances
 
 ### Nutrients
+
 - **Protein**: Plant protein source
 - **Fiber**: Prebiotic fiber
 
@@ -36,4 +37,3 @@ Lupins are legumes providing plant protein and fiber, part of diverse protein so
 - [Lentils](./lentils.md)
 - [Chickpeas](./chickpeas.md)
 - [Soy](./soy.md)
-

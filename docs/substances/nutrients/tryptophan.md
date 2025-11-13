@@ -8,6 +8,7 @@ tags:
   - Amino Acid
   - Essential Amino Acid
   - Tryptophan
+  - Neurochemical Balance
 list_image: /img/icons/nutrients.svg
 ---
 

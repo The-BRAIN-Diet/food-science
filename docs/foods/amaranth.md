@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Magnesium
   - Iron
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview

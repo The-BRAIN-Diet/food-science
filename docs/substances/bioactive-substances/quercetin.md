@@ -7,6 +7,11 @@ tags:
   - Polyphenol
   - Flavonoid
   - Quercetin
+  - Inflammation
+  - Oxidative Stress
+  - Mitochondrial Support
+  - Hormonal Response
+  - Stress Response
 list_image: /img/icons/bioactive.svg
 ---
 

@@ -6,7 +6,7 @@ tags:
   - Food
   - Vegetarian
   - Calcium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -16,11 +16,13 @@ Yogurt is fermented dairy providing live probiotics, complete protein, and B vit
 ## Key Substances
 
 ### Nutrients
+
 - **Protein**: Complete amino acid profile
 - **Calcium**: High content
 - **B Vitamins**: Produced during fermentation
 
 ### Bioactive Substances
+
 - **Probiotics**: Live beneficial bacteria (varies by product)
 - **Postbiotics**: Beneficial fermentation compounds
 
@@ -42,4 +44,3 @@ Yogurt is fermented dairy providing live probiotics, complete protein, and B vit
 - [Kefir](./kefir.md)
 - [Milk](./milk.md)
 - [Berries](./berries.md) - Good pairing
-

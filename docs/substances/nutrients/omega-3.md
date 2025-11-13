@@ -1,13 +1,29 @@
 ---
 id: omega-3
-title: Omega-3 Fatty Acids (EPA, DHA)
-sidebar_label: Omega-3 (EPA, DHA)
-description: Anti-inflammatory, membrane, and neuromodulatory lipids central to BRAIN Diet
+title: Omega-3 Fatty Acids
+sidebar_label: Omega-3
+description: (EPA, DHA) Anti-inflammatory, membrane, and neuromodulatory lipids central to BRAIN Diet
 tags:
   - Nutrient
   - Fatty Acid
-  - Omega 3
+  - Omega-3 Fatty Acids
+  - Inflammation
+  - Oxidative Stress
+  - Neurochemical Balance
+  - Endocannabinoid System
+  - Hormonal Response
+  - Stress Response
+  - Methylation
+  - Algal Oil
 list_image: /img/icons/nutrients.svg
+mechanisms:
+  Inflammation: Specialized Pro-Resolving Mediators (SPMs) - resolvins, protectins, maresins terminate inflammation without immunosuppression, downregulate COX-2, inhibit neutrophil infiltration, enhance macrophage clearance, limit glutamate-induced excitotoxicity
+  Oxidative Stress: Myelin Sheath Formation
+  Neurochemical Balance: Membrane fluidity and neurotransmitter receptor function, ion channel behavior and gamma oscillations, support neurotransmission and phospholipid methylation
+  Endocannabinoid System: Production of docosahexaenoyl ethanolamide (DHEA) and eicosapentaenoyl ethanolamide (EPEA), N-acyl ethanolamines for endocannabinoid-like signaling
+  Hormonal Response: Support hormonal balance through membrane integrity and anti-inflammatory effects
+  Stress Response: Improve vagal tone and HRV control, improve cortisol rhythms
+  Methylation: Support homocysteine reduction in combination with B12, phospholipid methylation (PLM) dependent on SAMe
 ---
 
 ## Overview

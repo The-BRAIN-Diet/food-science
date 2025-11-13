@@ -6,7 +6,9 @@ description: Essential omega-3 precursor; limited conversion to DHA/EPA
 tags:
   - Nutrient
   - Fatty Acid
-  - Ala Alpha Linolenic Acid
+  - ALA
+  - Inflammation
+  - Oxidative Stress
 list_image: /img/icons/nutrients.svg
 ---
 

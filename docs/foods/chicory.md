@@ -7,7 +7,7 @@ tags:
   - Food
   - Vegan
   - Vegetarian
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -17,6 +17,7 @@ Chicory provides high inulin content and can be used as a coffee substitute, sup
 ## Key Substances
 
 ### Nutrients
+
 - **Inulin**: High content, prebiotic fiber
 - **Fiber**: Prebiotic fiber
 
@@ -37,4 +38,3 @@ Chicory provides high inulin content and can be used as a coffee substitute, sup
 - [Jerusalem Artichokes](./jerusalem-artichokes.md) - Also high in inulin
 - [Onions](./onions.md) - Also contains inulin
 - [Dandelion Greens](./dandelion-greens.md)
-

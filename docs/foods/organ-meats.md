@@ -6,7 +6,7 @@ description: Nutrient-dense offal including liver, heart, kidney
 tags:
   - Food
   - Vitamin B12
-  - Coq10
+  - CoQ10
   - Iron
   - Vitamin A
   - Choline
@@ -19,6 +19,7 @@ Organ meats (offal) are among the most nutrient-dense foods, providing high leve
 ## Key Substances
 
 ### Nutrients
+
 - **Vitamin B12**: Highest sources
 - **CoQ10**: Highest sources (heart, liver)
 - **Iron**: Heme iron
@@ -43,4 +44,3 @@ Organ meats (offal) are among the most nutrient-dense foods, providing high leve
 - [Liver](./liver.md)
 - [Heart](./heart.md)
 - [Kidney](./kidney.md)
-

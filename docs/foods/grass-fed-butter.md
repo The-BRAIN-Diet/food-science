@@ -10,7 +10,7 @@ tags:
   - Vitamin D
   - Vitamin K2
   - Selenium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,10 +20,12 @@ Grass-fed butter provides butyrate, CLA (conjugated linole acid), vitamins A/D/K
 ## Key Substances
 
 ### Nutrients
+
 - **Vitamins A/D/K2**: Fat-soluble vitamins
 - **Selenium**: Antioxidant support
 
 ### Bioactive Substances
+
 - **Butyrate**: Short-chain fatty acid
 - **CLA (Conjugated Linoleic Acid)**: Rumenic acid and other forms
 - **C15:0 (Pentadecanoic Acid)**: Emerging research on health benefits
@@ -46,4 +48,3 @@ Grass-fed butter provides butyrate, CLA (conjugated linole acid), vitamins A/D/K
 - [Parmesan Cheese](./parmesan-cheese.md) - Also contains C15:0
 - [Ghee](./ghee.md)
 - [Butter](./butter.md) (general)
-

@@ -10,7 +10,7 @@ tags:
   - Magnesium
   - Zinc
   - Iron
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,6 +20,7 @@ Whole grains are grains that contain the entire grain kernel (bran, germ, and en
 ## Key Whole Grains
 
 See individual pages for:
+
 - [Quinoa](./quinoa.md)
 - [Buckwheat](./buckwheat.md)
 - [Oats](./oats.md)
@@ -34,4 +35,3 @@ See individual pages for:
 - B vitamins for neurotransmitter synthesis
 - Minerals (magnesium, zinc, iron)
 - Complex carbohydrates for stable glucose release
-

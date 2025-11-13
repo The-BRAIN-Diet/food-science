@@ -6,6 +6,7 @@ description: Phosphocreatine system buffer for neuronal ATP demand; cognitive su
 tags:
   - Lipid
   - Creatine
+  - Mitochondrial Support
 list_image: /img/icons/bioactive.svg
 ---
 

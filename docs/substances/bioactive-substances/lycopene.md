@@ -7,6 +7,8 @@ tags:
   - Polyphenol
   - Carotenoid
   - Lycopene
+  - Inflammation
+  - Oxidative Stress
 list_image: /img/icons/bioactive.svg
 ---
 

@@ -10,7 +10,7 @@ tags:
   - Vitamin C
   - Vitamin B9
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,11 +20,13 @@ Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant n
 ## Key Substances
 
 ### Nutrients
+
 - **Vitamin C**: High content, antioxidant
 - **Fiber**: Prebiotic fiber
 - **Folate (B9)**: Some content
 
 ### Bioactive Substances
+
 - **Polyphenols**: Antioxidant compounds
 - **Anthocyanins**: Flavonoid compounds
 
@@ -46,4 +48,3 @@ Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant n
 - [Blueberries](./blueberries.md)
 - [Raspberries](./raspberries.md)
 - [Berries](./berries.md) (general)
-

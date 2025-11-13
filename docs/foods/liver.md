@@ -10,7 +10,7 @@ tags:
   - Iron
   - Vitamin B9
   - Choline
-  - Coq10
+  - CoQ10
   - Creatine
 ---
 
@@ -21,6 +21,7 @@ Liver is one of the most nutrient-dense foods, providing bioavailable B12, retin
 ## Key Substances
 
 ### Nutrients
+
 - **Vitamin B12**: Bioavailable cobalamin for methylation
 - **Retinol (Vitamin A)**: Preformed, highly bioavailable
 - **Iron**: Heme iron (2-3× more bioavailable than non-heme)
@@ -28,6 +29,7 @@ Liver is one of the most nutrient-dense foods, providing bioavailable B12, retin
 - **Choline**: Acetylcholine precursor
 
 ### Bioactive Substances
+
 - **CoQ10**: Highest dietary source (up to 12mg/100g)
 - **Creatine**: ATP recycling support
 
@@ -51,4 +53,3 @@ Liver is one of the most nutrient-dense foods, providing bioavailable B12, retin
 - [Heart](./heart.md)
 - [Kidney](./kidney.md)
 - [Organ Meats](./organ-meats.md)
-

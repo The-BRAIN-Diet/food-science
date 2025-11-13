@@ -10,7 +10,7 @@ tags:
   - Vitamin C
   - Quercetin
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,11 +20,13 @@ Apples provide pectin (prebiotic fiber), quercetin (polyphenol), and demonstrate
 ## Key Substances
 
 ### Nutrients
+
 - **Pectin**: Prebiotic fiber supporting gut microbiome
 - **Fiber**: Soluble and insoluble fiber
 - **Vitamin C**: Antioxidant
 
 ### Bioactive Substances
+
 - **Quercetin**: Abundant flavonoid (75% of dietary polyphenol count is quercetin)
 - **Polyphenols**: Antioxidant compounds
 
@@ -47,4 +49,3 @@ Apples provide pectin (prebiotic fiber), quercetin (polyphenol), and demonstrate
 
 - [Onions](./onions.md) - Also high in quercetin
 - [Berries](./berries.md) - Similar polyphenol benefits
-

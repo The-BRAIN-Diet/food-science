@@ -7,7 +7,7 @@ tags:
   - Food
   - Vegetarian
   - Calcium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -17,11 +17,13 @@ Kefir is fermented milk providing diverse probiotics, including potential GABA-p
 ## Key Substances
 
 ### Nutrients
+
 - **Protein**: Complete amino acid profile
 - **Calcium**: High content
 - **B Vitamins**: Produced during fermentation
 
 ### Bioactive Substances
+
 - **Probiotics**: Diverse strains including potential GABA producers
 - **Postbiotics**: Beneficial fermentation compounds
 
@@ -44,4 +46,3 @@ Kefir is fermented milk providing diverse probiotics, including potential GABA-p
 - [Yogurt](./yogurt.md)
 - [Kimchi](./kimchi.md)
 - [Pickles](./pickles.md)
-

@@ -7,7 +7,7 @@ tags:
   - Food
   - Vegan
   - Vegetarian
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -17,10 +17,12 @@ Kombucha is fermented tea providing live probiotics, postbiotic compounds, and o
 ## Key Substances
 
 ### Nutrients
+
 - **B Vitamins**: Produced during fermentation
 - **Organic acids**: From fermentation
 
 ### Bioactive Substances
+
 - **Probiotics**: Live beneficial bacteria and yeasts
 - **Postbiotics**: Beneficial fermentation compounds
 
@@ -41,4 +43,3 @@ Kombucha is fermented tea providing live probiotics, postbiotic compounds, and o
 - [Green Tea](./green-tea.md) - Base for kombucha
 - [Kefir](./kefir.md)
 - [Kimchi](./kimchi.md)
-

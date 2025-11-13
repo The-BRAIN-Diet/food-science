@@ -13,7 +13,7 @@ tags:
   - Zinc
   - Copper
   - Manganese
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -23,12 +23,14 @@ Sourdough bread, especially when made with quinoa or other functional flours, pr
 ## Key Substances
 
 ### Nutrients
+
 - **GABA**: Produced by Levilactobacillus brevis in quinoa sourdough
 - **Amino acids**: Enhanced bioavailability through proteolysis
 - **B Vitamins**: Produced during fermentation
 - **Minerals**: Magnesium, potassium, iron, zinc, copper, manganese (varies by flour)
 
 ### Bioactive Substances
+
 - **Maillard Reaction Products (MRPs)**: Antioxidant melanoidins when optimized
 - **Probiotics**: Live lactic acid bacteria
 - **Postbiotics**: Beneficial fermentation compounds
@@ -53,4 +55,3 @@ Sourdough bread, especially when made with quinoa or other functional flours, pr
 - [Quinoa](./quinoa.md) - For GABA-rich sourdough
 - [Whole Grains](./whole-grains.md)
 - [Spelt](./spelt.md)
-

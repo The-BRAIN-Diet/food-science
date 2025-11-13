@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin K2
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,11 +18,13 @@ Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbio
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: Prebiotic fiber from cabbage
 - **Vitamin K**: Produced during fermentation
 - **B Vitamins**: Produced during fermentation
 
 ### Bioactive Substances
+
 - **Probiotics**: Lactobacillus strains
 - **Postbiotics**: Beneficial fermentation compounds
 
@@ -43,4 +45,3 @@ Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbio
 - [Kimchi](./kimchi.md)
 - [Cabbage](./cabbage.md)
 - [Kefir](./kefir.md)
-

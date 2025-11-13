@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Manganese
   - Polyphenol
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,10 +19,12 @@ Garlic provides allicin (when crushed), sulfur compounds for glutathione synthes
 ## Key Substances
 
 ### Nutrients
+
 - **Fiber**: Prebiotic fiber
 - **Manganese**: Cofactor for antioxidant enzymes
 
 ### Bioactive Substances
+
 - **Allicin**: Formed when garlic is crushed; antimicrobial and antioxidant
 - **Sulfur compounds**: Glutathione precursors
 - **Polyphenols**: Antioxidant compounds
@@ -45,4 +47,3 @@ Garlic provides allicin (when crushed), sulfur compounds for glutathione synthes
 - [Onions](./onions.md)
 - [Leeks](./leeks.md)
 - [Broccoli](./broccoli.md) - Also provides sulfur compounds
-

@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Vitamin B9
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,6 +19,7 @@ Oranges provide high vitamin C content that enhances non-heme iron absorption wh
 ## Key Substances
 
 ### Nutrients
+
 - **Vitamin C**: High content, enhances iron absorption (up to 4× increase)
 - **Folate (B9)**: Some content
 - **Fiber**: Some fiber content
@@ -41,4 +42,3 @@ Oranges provide high vitamin C content that enhances non-heme iron absorption wh
 - [Citrus](./citrus.md) (general)
 - [Lemon](./lemon.md)
 - [Bell Peppers](./bell-peppers.md) - Also vitamin C rich
-

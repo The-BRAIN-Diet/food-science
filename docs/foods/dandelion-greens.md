@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin K2
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,6 +18,7 @@ Dandelion greens are bitter leafy greens providing prebiotic fiber and supportin
 ## Key Substances
 
 ### Nutrients
+
 - **Inulin**: Prebiotic fiber
 - **Fiber**: Prebiotic and general fiber
 - **Vitamin K**: High content
@@ -39,4 +40,3 @@ Dandelion greens are bitter leafy greens providing prebiotic fiber and supportin
 - [Chicory](./chicory.md)
 - [Spinach](./spinach.md)
 - [Kale](./kale.md)
-

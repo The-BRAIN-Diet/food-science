@@ -8,6 +8,7 @@ tags:
   - Amino Acid
   - Essential Amino Acid
   - Methionine
+  - Methylation
 list_image: /img/icons/nutrients.svg
 ---
 

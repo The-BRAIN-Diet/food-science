@@ -11,7 +11,7 @@ tags:
   - Beta Carotene
   - Lutein
   - Carotenoid
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -21,6 +21,7 @@ Bell peppers provide very high vitamin C content, enhancing non-heme iron absorp
 ## Key Substances
 
 ### Nutrients
+
 - **Vitamin C**: Very high content, enhances iron absorption
 - **Carotenoids**: Beta-carotene, lutein
 - **Fiber**: Some fiber content
@@ -42,4 +43,3 @@ Bell peppers provide very high vitamin C content, enhancing non-heme iron absorp
 - [Tomatoes](./tomatoes.md) - Also vitamin C rich
 - [Citrus](./citrus.md) - Also vitamin C rich
 - [Lemon](./lemon.md)
-

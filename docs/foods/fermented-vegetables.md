@@ -7,7 +7,7 @@ tags:
   - Food
   - Vegan
   - Vegetarian
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -17,6 +17,7 @@ Fermented vegetables provide live probiotics, postbiotic compounds, and enhanced
 ## Key Fermented Vegetables
 
 See individual pages for:
+
 - [Sauerkraut](./sauerkraut.md)
 - [Kimchi](./kimchi.md)
 - [Pickles](./pickles.md)
@@ -27,4 +28,3 @@ See individual pages for:
 - Postbiotic compounds from fermentation
 - Enhanced nutrient bioavailability
 - GABA production (in some varieties)
-

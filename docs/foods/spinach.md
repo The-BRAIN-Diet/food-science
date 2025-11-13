@@ -15,7 +15,7 @@ tags:
   - Lutein
   - Zeaxanthin
   - Carotenoid
-  - Coq10
+  - CoQ10
 ---
 
 ## Overview
@@ -25,6 +25,7 @@ Spinach is a nutrient-dense leafy green providing iron, magnesium, folate, and c
 ## Key Substances
 
 ### Nutrients
+
 - **Iron**: Non-heme iron (enhance absorption with vitamin C)
 - **Magnesium**: Cofactor for 300+ enzymatic reactions
 - **Folate (B9)**: Methylation and neurotransmitter synthesis
@@ -32,6 +33,7 @@ Spinach is a nutrient-dense leafy green providing iron, magnesium, folate, and c
 - **Vitamin A**: From beta-carotene
 
 ### Bioactive Substances
+
 - **Lutein/Zeaxanthin**: Carotenoids for eye and brain health
 - **Oxalates**: Can bind minerals; reduce via boiling
 
@@ -52,4 +54,3 @@ Spinach is a nutrient-dense leafy green providing iron, magnesium, folate, and c
 
 - [Kale](./kale.md)
 - [Broccoli](./broccoli.md)
-

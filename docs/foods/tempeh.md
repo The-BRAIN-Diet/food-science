@@ -9,7 +9,7 @@ tags:
   - Vegetarian
   - Iron
   - Genistein
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -19,11 +19,13 @@ Tempeh is fermented soy providing live probiotics, enhanced nutrient bioavailabi
 ## Key Substances
 
 ### Nutrients
+
 - **Protein**: Complete plant protein (from soy)
 - **B Vitamins**: Produced during fermentation
 - **Iron**: Non-heme iron
 
 ### Bioactive Substances
+
 - **Probiotics**: Live beneficial bacteria
 - **Isoflavones**: Genistein and other soy isoflavones
 - **Postbiotics**: Beneficial fermentation compounds
@@ -47,4 +49,3 @@ Tempeh is fermented soy providing live probiotics, enhanced nutrient bioavailabi
 - [Miso](./miso.md)
 - [Natto](./natto.md)
 - [Kimchi](./kimchi.md)
-

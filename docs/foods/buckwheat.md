@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Magnesium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,11 +18,13 @@ Buckwheat is a pseudograin providing complete plant protein, rutin (flavonoid), 
 ## Key Substances
 
 ### Nutrients
+
 - **Protein**: DIAAS 75-80, lysine marginal
 - **Magnesium**: Cofactor
 - **Fiber**: Prebiotic fiber
 
 ### Bioactive Substances
+
 - **Rutin**: Flavonoid for vascular health
 
 ## From the paper
@@ -43,4 +45,3 @@ Buckwheat is a pseudograin providing complete plant protein, rutin (flavonoid), 
 - [Quinoa](./quinoa.md) - Similar pseudograin
 - [Lentils](./lentils.md) - Good pairing
 - [Chickpeas](./chickpeas.md) - Good pairing
-

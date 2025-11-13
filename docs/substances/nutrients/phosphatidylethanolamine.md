@@ -7,6 +7,7 @@ tags:
   - Nutrient
   - Phosphatidylethanolamine
   - Phospholipid
+  - Endocannabinoid System
 list_image: /img/icons/nutrients.svg
 ---
 

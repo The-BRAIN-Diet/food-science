@@ -8,7 +8,7 @@ tags:
   - Vegan
   - Vegetarian
   - Potassium
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -18,6 +18,7 @@ Green (unripe) bananas provide resistant starch, a prebiotic fiber that supports
 ## Key Substances
 
 ### Nutrients
+
 - **Resistant Starch**: Prebiotic fiber
 - **Potassium**: Electrolyte
 - **B6**: When ripe (less in green)
@@ -39,4 +40,3 @@ Green (unripe) bananas provide resistant starch, a prebiotic fiber that supports
 
 - [Cooled Potatoes](./cooled-potatoes.md)
 - [Bananas](./bananas.md) (ripe) - Different nutrient profile
-

@@ -10,7 +10,7 @@ tags:
   - Potassium
   - Beta Carotene
   - Carotenoid
-  - Scfas
+  - SCFAs
 ---
 
 ## Overview
@@ -20,11 +20,13 @@ Carrots provide beta-carotene (vitamin A precursor), demonstrating important foo
 ## Key Substances
 
 ### Nutrients
+
 - **Beta-carotene**: Vitamin A precursor
 - **Fiber**: Prebiotic fiber
 - **Potassium**: Electrolyte
 
 ### Bioactive Substances
+
 - **Carotenoids**: Beta-carotene for antioxidant and vitamin A support
 
 ## From the paper
@@ -45,4 +47,3 @@ Carrots provide beta-carotene (vitamin A precursor), demonstrating important foo
 - [Tahini](./tahini.md) - Good pairing
 - [Spinach](./spinach.md) - Also carotenoid-rich
 - [Tomatoes](./tomatoes.md) - Also carotenoid-rich
-
