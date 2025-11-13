@@ -1,13 +1,20 @@
 ---
-id: vitamin-b12-substance
+id: vitamin-b12
 title: Vitamin B12 (Cobalamin)
 sidebar_label: Vitamin B12 (Cobalamin)
 description: Methylation; myelin; mitochondrial odd-chain FA metabolism
+tags:
+  - Nutrient
+  - Vitamin
+  - Vitamin B12
+list_image: /img/icons/nutrients.svg
 ---
+
+# Vitamin B12 (Cobalamin)
 
 ## Overview
 
-Vitamin B12 is essential for methylation, myelin integrity, and mitochondrial metabolism (methylmalonyl-CoA → succinyl-CoA). Deficiency impairs cognition and mood.
+Vitamin B12 (cobalamin) is a water-soluble vitamin that plays a crucial role in brain development, cognitive function, and the maintenance of the nervous system. Vitamin B12 is essential for methylation, myelin integrity, and mitochondrial metabolism (methylmalonyl-CoA → succinyl-CoA). Deficiency impairs cognition and mood. The paper highlights B12 as essential for methylation processes and brain health, with particular relevance for ADHD and cognitive function.
 
 ## Biological Roles
 
@@ -45,12 +52,18 @@ Deficiency causes cognitive decline, mood disorders, neuropathy (paper.txt, line
 - [Liver](../../foods/liver.md) - **Highest source** of bioavailable B12, retinol, heme iron, folate
 
 **Seafood:**
+
+- [Liver](../../foods/liver.md) - **Highest source** of bioavailable B12, retinol, heme iron, folate
+
+**Seafood:**
+
 - [Clams](../../foods/clams.md) - **High B12**, taurine, heme iron
 - [Fish](../../foods/salmon.md) (general) - B12, omega-3, protein
 - [Salmon](../../foods/salmon.md) - Omega-3, protein, B vitamins including **B12**
 - [Sardines](../../foods/sardines.md) - Omega-3, CoQ10, **B12**
 
 **Eggs & Dairy:**
+
 - [Eggs](../../foods/eggs.md) - Complete protein, choline, B6, **B12**
 - [Milk](../../foods/milk.md) - Complete protein, nicotinamide riboside, **B12**
 - [Yogurt](../../foods/yogurt.md) - Probiotics, protein, **B12**
@@ -61,10 +74,12 @@ Deficiency causes cognitive decline, mood disorders, neuropathy (paper.txt, line
 ### Plant Sources (Limited - Fortified or Functional Foods)
 
 **Fortified Sources:**
+
 - [Fortified Plant Milks](../../foods/fortified-plant-milks.md) - **B12** fortified (methylcobalamin preferred)
 - [Nutritional Yeast](../../foods/nutritional-yeast.md) - Fortified with **B12, B6**, NAD+ precursors
 
 **Functional Plant Foods:**
+
 - [Mankai](../../foods/mankai.md) (duckweed, Wolffia globosa) - **Iron, B12** for vegan nutrient gaps (paper.txt, line 259)
 - [Chlorella](../../foods/chlorella.md) - Contains bioavailable, **true vitamin B12 (cobalamin)**, confirmed in animal feeding trials, and may help close vegan nutrient gaps. By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source (Watanabe et al. 2002) (Watanabe et al. 2002) (paper.txt, line 260)
 

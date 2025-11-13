@@ -3,6 +3,12 @@ id: chlorella
 title: Chlorella
 sidebar_label: Chlorella
 description: Algae with bioavailable true vitamin B12 and antioxidant support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B12
+  - Iron
 ---
 
 ## Overview

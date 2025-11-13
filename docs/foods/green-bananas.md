@@ -3,6 +3,12 @@ id: green-bananas
 title: Green Bananas
 sidebar_label: Green Bananas
 description: Resistant starch source for gut microbiome support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Potassium
+  - Scfas
 ---
 
 ## Overview

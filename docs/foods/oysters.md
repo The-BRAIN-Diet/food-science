@@ -3,6 +3,11 @@ id: oysters
 title: Oysters
 sidebar_label: Oysters
 description: Highest zinc content among common foods
+tags:
+  - Food
+  - Zinc
+  - Vitamin B12
+  - Iron
 ---
 
 ## Overview

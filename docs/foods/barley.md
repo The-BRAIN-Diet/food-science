@@ -3,6 +3,12 @@ id: barley
 title: Barley
 sidebar_label: Barley
 description: Beta-glucan fiber and whole grain for gut health
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Magnesium
+  - Scfas
 ---
 
 ## Overview

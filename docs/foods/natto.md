@@ -3,6 +3,12 @@ id: natto
 title: Natto
 sidebar_label: Natto
 description: Fermented soybeans with unique Bacillus subtilis and vitamin K2
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin K2
+  - Scfas
 ---
 
 ## Overview

@@ -3,6 +3,15 @@ id: bell-peppers
 title: Bell Peppers
 sidebar_label: Bell Peppers
 description: High vitamin C for iron absorption and norepinephrine support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Beta Carotene
+  - Lutein
+  - Carotenoid
+  - Scfas
 ---
 
 ## Overview

@@ -3,6 +3,9 @@ id: l-theanine
 title: L-Theanine
 sidebar_label: L-Theanine
 description: Calming amino acid from tea; increases alpha waves; sleep-friendly
+tags:
+  - L Theanine
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview

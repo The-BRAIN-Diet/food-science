@@ -3,6 +3,14 @@ id: capers
 title: Capers
 sidebar_label: Capers
 description: Highest quercetin content among common foods
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Sodium
+  - Quercetin
+  - Polyphenol
+  - Scfas
 ---
 
 ## Overview

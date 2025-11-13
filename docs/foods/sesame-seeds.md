@@ -3,6 +3,11 @@ id: sesame-seeds
 title: Sesame Seeds
 sidebar_label: Sesame Seeds
 description: Source of tahini; calcium and healthy fats
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Calcium
 ---
 
 ## Overview

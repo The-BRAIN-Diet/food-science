@@ -3,6 +3,13 @@ id: avocado-oil
 title: Avocado Oil
 sidebar_label: Avocado Oil
 description: MUFA-rich oil with vitamin E and lutein
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin E
+  - Lutein
+  - Carotenoid
 ---
 
 ## Overview

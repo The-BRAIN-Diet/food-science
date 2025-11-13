@@ -3,6 +3,10 @@ id: choline
 title: Choline
 sidebar_label: Choline
 description: Acetylcholine precursor; methyl donor; phospholipid synthesis for membranes
+tags:
+  - Lipid
+  - Choline
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview
@@ -52,6 +56,7 @@ Specific Nutrient Modulators: Taurine; adenosine-regulating nutrients (green tea
 ### Animal Sources (Highest Content)
 
 **Eggs & Fish Roe:**
+
 - [Egg Yolks](../../foods/egg-yolks.md) - **Highest choline content**, lutein, fat-soluble vitamins
 - [Eggs](../../foods/eggs.md) - Complete protein, **choline**, B6, B12
 - [Salmon Roe](../../foods/salmon-roe.md) - DHA, EPA, phospholipids, **choline**, astaxanthin; highly bioavailable
@@ -61,23 +66,31 @@ Specific Nutrient Modulators: Taurine; adenosine-regulating nutrients (green tea
 - [Liver](../../foods/liver.md) - **High choline**, B12, retinol, heme iron, CoQ10
 
 **Dairy:**
+
+- [Liver](../../foods/liver.md) - **High choline**, B12, retinol, heme iron, CoQ10
+
+**Dairy:**
+
 - [Milk](../../foods/milk.md) - Complete protein, nicotinamide riboside, **choline**
 - [Yogurt](../../foods/yogurt.md) - Probiotics, protein, **choline**
 
 ### Plant Sources
 
 **Soy Products:**
+
 - [Soy](../../foods/soy.md) - Complete protein, isoflavones, **choline**
 - [Soy Lecithin](../../foods/soy-lecithin.md) - **Concentrated choline** source for phosphatidylcholine synthesis
 - [Tofu](../../foods/tofu.md) - Complete protein, isoflavones, **choline**
 - [Edamame](../../foods/edamame.md) - NMN, complete protein, **choline**
 
 **Other Plant Sources:**
+
 - [Wheat Germ](../../foods/wheat-germ.md) - **Choline**, B vitamins, vitamin E
 - [Quinoa](../../foods/quinoa.md) - Complete protein, magnesium, **choline** (mentioned for vegan support)
 - [Broccoli](../../foods/broccoli.md) - Sulforaphane, folate, **choline** (mentioned for vegan support)
 
 **Lecithin Sources:**
+
 - [Sunflower Lecithin](../../foods/sunflower-lecithin.md) - **Choline** source, soy-free alternative
 
 ## Vegan Considerations

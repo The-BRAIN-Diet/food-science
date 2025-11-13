@@ -3,6 +3,10 @@ id: lumpfish-roe
 title: Lumpfish Roe
 sidebar_label: Lumpfish Roe
 description: Fish roe providing phospholipid-bound omega-3s
+tags:
+  - Food
+  - Omega 3
+  - Carotenoid
 ---
 
 ## Overview

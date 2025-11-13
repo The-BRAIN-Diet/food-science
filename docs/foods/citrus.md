@@ -3,6 +3,11 @@ id: citrus
 title: Citrus Fruits
 sidebar_label: Citrus
 description: General category of citrus fruits high in vitamin C
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
 ---
 
 ## Overview

@@ -3,6 +3,12 @@ id: pistachios
 title: Pistachios
 sidebar_label: Pistachios
 description: CoQ10 plant source and healthy fats
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Coq10
+  - Scfas
 ---
 
 ## Overview

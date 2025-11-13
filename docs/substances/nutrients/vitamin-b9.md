@@ -3,6 +3,11 @@ id: vitamin-b9
 title: Vitamin B9 (Folate; 5-MTHF)
 sidebar_label: Vitamin B9 (Folate)
 description: One-carbon metabolism; methylation; homocysteine recycling
+tags:
+  - Nutrient
+  - Vitamin
+  - Vitamin B9
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview
@@ -50,6 +55,7 @@ Isoquercetin (glycosylated quercetin) is more completely absorbed than quercetin
 ### Plant Sources
 
 **Leafy Greens:**
+
 - [Spinach](../../foods/spinach.md) - Iron, magnesium, zinc, **folate**; boil to reduce oxalates
 - [Kale](../../foods/kale.md) - Iron, magnesium, zinc, quercetin, **folate**; boil to reduce oxalates
 - [Broccoli](../../foods/broccoli.md) - Sulforaphane, **folate**, vitamin C, glutathione precursors
@@ -57,6 +63,7 @@ Isoquercetin (glycosylated quercetin) is more completely absorbed than quercetin
 - [Asparagus](../../foods/asparagus.md) - FOS prebiotic fiber, **folate**
 
 **Legumes:**
+
 - [Lentils](../../foods/lentils.md) - Protein, fiber, **folate**, iron, magnesium, zinc
 - [Chickpeas](../../foods/chickpeas.md) - Protein, fiber, **folate**, magnesium, iron, B6
 - [Black Beans](../../foods/black-beans.md) - Protein, polyphenols, **folate**
@@ -64,10 +71,12 @@ Isoquercetin (glycosylated quercetin) is more completely absorbed than quercetin
 - [Peas](../../foods/peas.md) - Plant protein, fiber, thiamine, **folate**
 
 **Whole Grains:**
+
 - [Oats](../../foods/oats.md) - Beta-glucans, tryptophan, B6, **folate**
 - [Barley](../../foods/barley.md) - Beta-glucans, fiber, **folate**
 
 **Other Plant Sources:**
+
 - [Avocado](../../foods/avocado.md) - MUFA, vitamin E, lutein, **folate**
 - [Oranges](../../foods/oranges.md) - Vitamin C, **folate**
 - [Bananas](../../foods/bananas.md) - B6, tryptophan, potassium, **folate**
@@ -78,10 +87,16 @@ Isoquercetin (glycosylated quercetin) is more completely absorbed than quercetin
 - [Liver](../../foods/liver.md) - Highest source of B12, retinol, heme iron, **folate**
 
 **Poultry & Meat:**
+
+- [Liver](../../foods/liver.md) - Highest source of B12, retinol, heme iron, **folate**
+
+**Poultry & Meat:**
+
 - [Chicken](../../foods/chicken.md) - Complete protein, niacin, zinc, **folate**
 - [Beef](../../foods/beef.md) - High creatine, CoQ10, heme iron, **folate**
 
 **Eggs:**
+
 - [Eggs](../../foods/eggs.md) - Complete protein, choline, B6, **folate**
 
 ## Synergy with Other Nutrients

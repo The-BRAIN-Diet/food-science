@@ -3,6 +3,13 @@ id: quinoa
 title: Quinoa
 sidebar_label: Quinoa
 description: Pseudograin with complete protein, magnesium, and GABA potential in sourdough
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Magnesium
+  - Vitamin B6
+  - Choline
 ---
 
 ## Overview

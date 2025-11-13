@@ -3,6 +3,10 @@ id: spelt
 title: Spelt
 sidebar_label: Spelt
 description: Ancient wheat with high asparagine for optimized Maillard products
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
 ---
 
 ## Overview

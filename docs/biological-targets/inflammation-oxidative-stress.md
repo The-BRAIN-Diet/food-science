@@ -5,6 +5,10 @@ sidebar_label: Inflammation & Oxidative Stress
 description: Chronic inflammation and oxidative stress as modifiable contributors to ADHD symptom severity
 tags:
   - Biological Target
+  - ADHD
+  - Bipolar
+  - Alzheimers
+list_image: /img/icons/biological-targets.svg
 ---
 
 # Inflammation and Oxidative Stress
@@ -120,7 +124,7 @@ ADHD has been linked with metals contamination and UPFs which contain among othe
 - Neuroprotective molecules that support synaptic resilience and detox pathways
 - Detox allies against microplastics and hormone-disrupting pollutants (paper.txt, lines 665-668).
 
-Multiple meta-analyses (e.g. Nigg et al. 2016; Goodlad et al. 2013) show blood lead levels <5 µg/dL are associated with increased ADHD risk, even at "low" environmental levels. Lead interferes with prefrontal cortex development, synaptic pruning, and dopamine signaling. While ADHD is associated with higher oxidative stress and weaker antioxidant defense (e.g. reduced glutathione, increased lipid peroxidation). Metals will generate ROS, so this adds another layer of vulnerability (paper.txt, line 669).
+Multiple meta-analyses (e.g. Nigg et al. 2016; Goodlad et al. 2013) show blood lead levels &lt;5 µg/dL are associated with increased ADHD risk, even at "low" environmental levels. Lead interferes with prefrontal cortex development, synaptic pruning, and dopamine signaling. While ADHD is associated with higher oxidative stress and weaker antioxidant defense (e.g. reduced glutathione, increased lipid peroxidation). Metals will generate ROS, so this adds another layer of vulnerability (paper.txt, line 669).
 
 Dietary patterns common in ADHD (e.g. low micronutrient density, irregular meals, high sugar/processed food intake) can increase absorption of toxic metals while also sometimes containing lower competing minerals like calcium, iron, and zinc which bind to toxic metals (Zhai et al. 2015). This leaning towards a poor Western diets, characterised as Western diets are characterized by excess consumption of saturated fats, over-refined sugars, and animal-based protein and low consumption of plant-based fiber, have been shown to have higher levels of oxidative stress and a greater risk of chronic disease (Jiang et al. 2021) (paper.txt, line 670).
 
@@ -184,4 +188,3 @@ These findings reinforce the importance of nutrient strategies within the BRAIN 
 - Uribarri et al. 2010
 - Ferguson et al. 2014
 - Brown et al. 2025
-

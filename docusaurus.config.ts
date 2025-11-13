@@ -43,7 +43,7 @@ const config: Config = {
         docs: {
           // Use automatic sidebar generation
           sidebarCollapsible: true,
-          sidebarCollapsed: false,
+          sidebarCollapsed: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -57,6 +57,17 @@ const config: Config = {
   ],
   "plugins": [
     './src/plugin/category-listing',
+    [
+      './src/plugin/bibtex-loader',
+      {
+        files: [
+          {
+            id: 'BRAIN-diet',
+            path: 'bibtex/BRAIN-diet.bib',
+          },
+        ],
+      },
+    ],
   ],
 
   themeConfig: {
@@ -66,16 +77,8 @@ const config: Config = {
       title: 'The BRAIN Diet',
       logo: {
         alt: 'BRAIN Diet Logo',
-        src: 'img/logo.svg',
-      },
-      items: [
-        {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Introduction',
-        }
-      ]
+        src: 'site-icon/white.png',
+      }
     },
     footer: {
       style: 'dark',
@@ -83,10 +86,7 @@ const config: Config = {
         {
           title: 'Introduction',
           items: [
-            {
-              label: 'Getting Started',
-              to: '/docs/intro',
-            },
+
           ],
         },
       ],

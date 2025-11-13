@@ -3,6 +3,11 @@ id: vitamin-b6
 title: Vitamin B6 (Pyridoxine → PLP)
 sidebar_label: Vitamin B6 (Pyridoxine)
 description: PLP cofactor for neurotransmitter synthesis; relies on brain PDXK activation
+tags:
+  - Nutrient
+  - Vitamin
+  - Vitamin B6
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview

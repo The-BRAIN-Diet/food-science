@@ -3,6 +3,21 @@ id: kale
 title: Kale
 sidebar_label: Kale
 description: Leafy green rich in iron, magnesium, zinc, quercetin, and carotenoids
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Iron
+  - Magnesium
+  - Zinc
+  - Vitamin B9
+  - Vitamin K2
+  - Vitamin A
+  - Quercetin
+  - Carotenoid
+  - Lutein
+  - Zeaxanthin
+  - Beta Carotene
 ---
 
 ## Overview

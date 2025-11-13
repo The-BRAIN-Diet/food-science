@@ -3,6 +3,13 @@ id: blueberries
 title: Blueberries
 sidebar_label: Blueberries
 description: Polyphenol-rich berries supporting cognitive function and antioxidant networks
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin C
+  - Manganese
+  - Polyphenol
 ---
 
 ## Overview

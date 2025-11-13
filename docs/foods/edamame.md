@@ -3,6 +3,13 @@ id: edamame
 title: Edamame
 sidebar_label: Edamame
 description: Young soybeans providing NMN (NAD+ precursor) and complete plant protein
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B9
+  - Iron
+  - Genistein
 ---
 
 ## Overview

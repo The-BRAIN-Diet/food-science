@@ -3,6 +3,11 @@ id: olives
 title: Olives
 sidebar_label: Olives
 description: MUFA source with polyphenols
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
 ---
 
 ## Overview

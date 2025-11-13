@@ -3,6 +3,10 @@ id: algal-oil
 title: Algal Oil
 sidebar_label: Algal Oil
 description: Vegan DHA source from microalgae
+tags:
+  - Food
+  - Vegan
+  - Omega 3
 ---
 
 ## Overview
@@ -12,6 +16,7 @@ Algal oil provides direct DHA from microalgae, offering a vegan source of omega-
 ## Key Substances
 
 ### Nutrients
+
 - **DHA**: Direct source (triglyceride form typically)
 - **EPA**: Some products contain both
 
@@ -33,4 +38,3 @@ Algal oil provides direct DHA from microalgae, offering a vegan source of omega-
 - [Chlorella](./chlorella.md)
 - [Spirulina](./spirulina.md)
 - [Seaweed](./seaweed.md)
-

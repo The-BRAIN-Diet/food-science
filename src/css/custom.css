@@ -28,3 +28,87 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Reference anchor link styling */
+.reference-item {
+  position: relative;
+}
+
+.reference-anchor {
+  position: absolute;
+  left: -1.5em;
+  opacity: 0;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-weight: normal;
+  transition: opacity 0.2s;
+  padding-right: 0.5em;
+}
+
+.reference-item:hover .reference-anchor,
+.reference-anchor:focus {
+  opacity: 1;
+}
+
+.reference-anchor:hover {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: underline;
+}
+
+/* Ensure reference items have enough left padding for the anchor */
+.reference-list ol.references {
+  padding-left: 2rem;
+}
+
+.reference-list ol.references .reference-item {
+  padding-left: 0.5rem;
+}
+
+/* Reference link at the end of each reference */
+.reference-link {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  margin-left: 0.5em;
+  font-size: 0.9em;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.reference-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+  color: var(--ifm-color-primary-dark);
+}
+
+.reference-link:visited {
+  color: var(--ifm-color-primary);
+}
+
+.navbar {
+  background-color: transparent !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+
+[data-theme='dark'] .navbar {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Make navbar items more visible on transparent background */
+.navbar__item,
+.navbar__link {
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+[data-theme='dark'] .navbar__item,
+[data-theme='dark'] .navbar__link {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.navbar__title {
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}

@@ -3,6 +3,10 @@ id: black-pepper
 title: Black Pepper
 sidebar_label: Black Pepper
 description: Piperine enhances curcumin absorption by up to 2000%
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
 ---
 
 ## Overview
@@ -12,6 +16,7 @@ Black pepper contains piperine, which dramatically enhances the bioavailability 
 ## Key Substances
 
 ### Bioactive Substances
+
 - **Piperine**: Enhances curcumin absorption by up to 2000%
 
 ## From the paper
@@ -29,4 +34,7 @@ Black pepper contains piperine, which dramatically enhances the bioavailability 
 ## Related Foods
 
 - [Turmeric](./turmeric.md) - Primary pairing
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main

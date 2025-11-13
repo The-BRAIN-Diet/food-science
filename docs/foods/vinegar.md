@@ -3,6 +3,10 @@ id: vinegar
 title: Vinegar
 sidebar_label: Vinegar
 description: Apple cider vinegar for glucose regulation and bean soaking pH optimization
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
 ---
 
 ## Overview

@@ -3,6 +3,12 @@ id: mackerel
 title: Mackerel
 sidebar_label: Mackerel
 description: Oily fish rich in EPA/DHA, CoQ10, taurine, and vitamin D
+tags:
+  - Food
+  - Omega 3
+  - Coq10
+  - Taurine
+  - Vitamin D
 ---
 
 ## Overview

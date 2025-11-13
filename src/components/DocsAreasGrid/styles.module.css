@@ -60,6 +60,11 @@
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
+.docsAreaLink:hover .iconContainer {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    transform: scale(1.05);
+}
+
 .iconContainer {
     margin-bottom: 1.5rem;
     display: flex;
@@ -67,9 +72,11 @@
     justify-content: center;
     width: 80px;
     height: 80px;
-    background: var(--ifm-color-primary-lightest);
+    background: white;
     border-radius: 50%;
     padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
 }
 
 .icon {
@@ -133,6 +140,7 @@
         width: 60px;
         height: 60px;
         margin-bottom: 1rem;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
     }
 
     .icon {

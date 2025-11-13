@@ -3,6 +3,15 @@ id: green-tea
 title: Green Tea
 sidebar_label: Green Tea
 description: Source of EGCG, L-theanine, and polyphenols for cognitive and metabolic support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Manganese
+  - Potassium
+  - Egcg
+  - L Theanine
+  - Polyphenol
 ---
 
 ## Overview

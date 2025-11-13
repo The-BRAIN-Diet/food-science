@@ -3,6 +3,10 @@ id: hydroxytyrosol
 title: Hydroxytyrosol (Olive Polyphenol)
 sidebar_label: Hydroxytyrosol
 description: Potent antioxidant polyphenol from extra-virgin olive oil; anti-inflammatory
+tags:
+  - Polyphenol
+  - Hydroxytyrosol
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview

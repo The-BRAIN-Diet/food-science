@@ -3,6 +3,10 @@ id: taurine
 title: Taurine
 sidebar_label: Taurine
 description: Osmoregulator; GABA modulation; mitochondrial membrane stabilizer; anti-inflammatory
+tags:
+  - Lipid
+  - Taurine
+list_image: /img/icons/bioactive.svg
 ---
 
 ## Overview

@@ -3,6 +3,11 @@ id: cod
 title: Cod
 sidebar_label: Cod
 description: Lean fish with omega-3, taurine, and creatine
+tags:
+  - Food
+  - Omega 3
+  - Taurine
+  - Creatine
 ---
 
 ## Overview

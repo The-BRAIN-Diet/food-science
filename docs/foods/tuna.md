@@ -3,6 +3,12 @@ id: tuna
 title: Tuna
 sidebar_label: Tuna
 description: Fish providing omega-3, niacin, selenium, and complete protein
+tags:
+  - Food
+  - Omega 3
+  - Vitamin B3
+  - Selenium
+  - Creatine
 ---
 
 ## Overview

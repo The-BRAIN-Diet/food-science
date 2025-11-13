@@ -3,6 +3,10 @@ id: mct-oil
 title: MCT Oil
 sidebar_label: MCT Oil
 description: Concentrated medium-chain triglycerides for brain energy
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
 ---
 
 ## Overview

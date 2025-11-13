@@ -3,6 +3,12 @@ id: nutritional-yeast
 title: Nutritional Yeast
 sidebar_label: Nutritional Yeast
 description: Fortified yeast providing B12, B6, and NAD+ precursors
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B12
+  - Vitamin B6
 ---
 
 ## Overview

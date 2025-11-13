@@ -6,6 +6,8 @@ description: Optimizing glucose metabolism and insulin sensitivity for brain hea
 tags:
   - Biological Target
   - Metabolic Response Target
+  - Insulin Response
+  - ADHD
 list_image: /img/icons/biological-targets.svg
 ---
 
@@ -70,6 +72,7 @@ A classic milestone study by (Haber et al. 1977) demonstrated that apple juice i
 ADHD is linked with altered brain glucose metabolism and higher cardiometabolic risk. Managing glycemic variability stabilizes dopamine–insulin coupling and cognitive performance (paper.txt, line 49-52).
 
 **Key Mechanisms:**
+
 - **Higher rates of insulin resistance** in ADHD populations
 - **Glucose dysregulation** may contribute to attention difficulties
 - **Stable blood sugar** supports sustained attention and focus
@@ -84,6 +87,7 @@ While epidemiological studies (Di Girolamo et al. 2022) suggest the prevalence o
 Prenatal exposures further highlight the metabolic link. Maternal diabetes is associated with significantly increased ADHD risk in offspring, with meta-analyses estimating a 44% increase overall (Guo et al. 2020) and higher risk for pre-existing diabetes compared to gestational diabetes (Damtie et al. 2025). Chronic maternal hyperglycemia and inflammation during neurodevelopment likely underpin this effect (Wimberley et al. 2024) (paper.txt, line 778).
 
 **Actionable Dietary Focuses for ADHD:**
+
 - Preserve whole-food structure; order meals vegetables → protein/fat → carbohydrate
 - Pair carbohydrates with fiber/fat/protein
 - Consider CGM-guided personalization where available
@@ -95,12 +99,14 @@ Prenatal exposures further highlight the metabolic link. Maternal diabetes is as
 Metabolic endotoxemia (ME), defined as chronically elevated circulating lipopolysaccharide (LPS), is very common. Even modest elevations in LPS can sustain low-grade inflammation, impair insulin sensitivity, and promote neuroinflammatory cascades that compromise dopamine signaling and cognitive resilience. That inflammation has also been linked to disrupting dopamine and serotonin pathways and causing depression (Batey et al. 2024) (paper.txt, line 511).
 
 **Key Mechanisms:**
+
 - **Insulin resistance** and metabolic dysfunction are common in MDD
 - **Inflammation** - LPS-driven inflammation disrupts dopamine and serotonin pathways
 - **Gut-brain axis** - SIBO and gut barrier dysfunction impair nutrient absorption and contribute to inflammation
 - **Omega-3s** - High-dose EPA+DHA (3.6 g/day) attenuated fever and downstream cytokines (IL-6, IL-10), reshaping the resolution phase of acute inflammation (Ferguson et al. 2014) (paper.txt, line 462)
 
 **Actionable Dietary Focuses for MDD:**
+
 - Support gut barrier integrity with fiber, polyphenols, and fermented foods
 - Regular omega-3 intake (EPA/DHA) for anti-inflammatory effects
 - Stabilize glycemic variability to support neurotransmitter balance
@@ -111,12 +117,14 @@ Metabolic endotoxemia (ME), defined as chronically elevated circulating lipopoly
 Many of the nutritional strategies discussed in this paper—such as glycemic stabilization, SCFA production, polyphenol intake, and anxiolytic probiotic interventions—are expected to exert downstream effects on emotional regulation through modulation of HPA axis activity, limbic signalling, and neurotransmitter systems (paper.txt, line 335).
 
 **Key Mechanisms:**
+
 - **Glycemic stabilization** reduces anxiety through stable energy and neurotransmitter support
 - **HPA axis modulation** - Dietary strategies can buffer stress responses
 - **GABA support** - Probiotic interventions and GABA precursors support inhibitory neurotransmission
 - **Vagal tone** - Omega-3s improve vagal tone and HRV control, reducing anxiety (Sauder et al. 2013) (paper.txt, line 796)
 
 **Actionable Dietary Focuses for GAD:**
+
 - Stabilize blood glucose with whole foods and proper meal timing
 - Support GABA with fermented foods, magnesium, and taurine
 - Include omega-3s for vagal tone improvement
@@ -127,6 +135,7 @@ Many of the nutritional strategies discussed in this paper—such as glycemic st
 ADHD and some other neuropsychiatric conditions (e.g., ASD, **Bipolar** and MDD) may represent a cluster of disorders influenced by brain-specific insulin dysregulation (Fanelli et al. 2022) (Fanelli et al., n.d.) (paper.txt, line 780).
 
 **Key Mechanisms:**
+
 - **Insulin dysregulation** is common in bipolar disorder
 - **Metabolic syndrome** risk is elevated
 - **Circadian disruption** affects glucose metabolism
@@ -245,24 +254,28 @@ In ADHD, where appetite suppression from medications (Nancy Clark 2022), irregul
 ### Glucose Regulation Modulators
 
 **Category: Glucose Regulation**
+
 - **Modulator Examples**: Low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, meal sequencing (veg → protein → carb)
 - **Primary Targets**: Improve insulin sensitivity, limit sympathetic activation (paper.txt, line 803)
 
 ### Calcium Modulation
 
 **Category: Calcium Modulation**
+
 - **Modulator Examples**: Vitamin D, magnesium, taurine, phospholipids (phosphatidylserine), flavonoids (quercetin)
 - **Primary Targets**: Insulin sensitivity, sympathetic arousal, mitochondrial excitability (paper.txt, line 797)
 
 ### Preparation Strategies
 
 **Category: Preparation Strategies**
+
 - **Modulator Examples**: Cooking/cooling starches → resistant starch; fermentation → probiotics/peptides; soaking → reduce antinutrients
 - **Primary Targets**: Gut–ENS signaling, glucose regulation, inflammation (paper.txt, line 798)
 
 ### Timing & Rhythmic Inputs
 
 **Category: Timing & Rhythmic Inputs**
+
 - **Modulator Examples**: Circadian-aligned protein/carbohydrate timing, intermittent fasting, consistent mealtimes
 - **Primary Targets**: Cortisol curve, autonomic tone, insulin sensitivity (paper.txt, line 801)
 
@@ -289,7 +302,11 @@ In ADHD, where appetite suppression from medications (Nancy Clark 2022), irregul
 ### Key Indicators
 
 - **Fasting glucose levels** (target: 70-100 mg/dL)
+<<<<<<< HEAD
 - **HbA1c** (target: alt;5.7%)
+=======
+- **HbA1c** (target: &lt;5.7%)
+>>>>>>> origin/main
 - **Post-meal glucose response** (target: &lt;140 mg/dL after 2 hours)
 - **Energy levels** and cognitive clarity
 - **Continuous glucose monitoring (CGMs)** offers novel insights into postprandial spikes and glycemic variability (paper.txt, line 780)

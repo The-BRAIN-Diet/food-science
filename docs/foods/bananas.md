@@ -3,6 +3,14 @@ id: bananas
 title: Bananas
 sidebar_label: Bananas
 description: B6 source and tryptophan-containing fruit
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin B6
+  - Tryptophan
+  - Potassium
+  - Scfas
 ---
 
 ## Overview

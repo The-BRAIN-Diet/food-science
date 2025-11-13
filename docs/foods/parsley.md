@@ -3,6 +3,14 @@ id: parsley
 title: Parsley
 sidebar_label: Parsley
 description: Reduces harmful cholesterol oxidation products when added to cooking
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Vitamin K2
+  - Vitamin C
+  - Vitamin B9
+  - Polyphenol
 ---
 
 ## Overview

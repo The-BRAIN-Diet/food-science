@@ -3,6 +3,9 @@ id: urolithin-a
 title: Urolithin A
 sidebar_label: Urolithin A
 description: Microbiome-derived metabolite from ellagitannins; supports mitochondrial resilience and mitophagy
+tags:
+  - Urolithin A
+list_image: /img/icons/metabolite.svg
 ---
 
 ## Overview

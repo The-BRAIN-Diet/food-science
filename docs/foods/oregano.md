@@ -3,6 +3,11 @@ id: oregano
 title: Oregano
 sidebar_label: Oregano
 description: Polyphenol antimicrobial for SIBO suppression
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
 ---
 
 ## Overview

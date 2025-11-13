@@ -3,6 +3,11 @@ id: cinnamon
 title: Cinnamon
 sidebar_label: Cinnamon
 description: Glycemic control, insulin sensitivity, and cognitive support
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
 ---
 
 ## Overview

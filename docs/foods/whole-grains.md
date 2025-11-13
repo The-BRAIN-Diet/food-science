@@ -3,6 +3,14 @@ id: whole-grains
 title: Whole Grains
 sidebar_label: Whole Grains
 description: General category of whole grain foods
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Magnesium
+  - Zinc
+  - Iron
+  - Scfas
 ---
 
 ## Overview

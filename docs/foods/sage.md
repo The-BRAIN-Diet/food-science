@@ -3,6 +3,11 @@ id: sage
 title: Sage
 sidebar_label: Sage
 description: Memory and cognitive enhancement
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
 ---
 
 ## Overview

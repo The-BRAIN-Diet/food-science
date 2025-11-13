@@ -1,13 +1,20 @@
 ---
-id: zinc-substance
+id: zinc
 title: Zinc
 sidebar_label: Zinc
 description: Cofactor in neurotransmission and antioxidant enzymes; dopamine modulation
+tags:
+  - Nutrient
+  - Mineral
+  - Zinc
+list_image: /img/icons/nutrients.svg
 ---
+
+# Zinc
 
 ## Overview
 
-Zinc supports neurotransmitter pathways (especially dopaminergic modulation), antioxidant enzymes, and immune signaling; insufficiency is linked with cognitive and mood symptoms.
+Zinc is an essential trace mineral that plays a critical role in brain function, neurotransmitter regulation, and antioxidant defense. Zinc supports neurotransmitter pathways (especially dopaminergic modulation), antioxidant enzymes, and immune signaling; insufficiency is linked with cognitive and mood symptoms. The paper highlights zinc as particularly important for ADHD, noting its role in dopamine modulation, synaptic plasticity, and antioxidant enzyme function.
 
 ## Biological Roles
 
@@ -52,11 +59,13 @@ Epithelial layer (tight junctions) – disrupted by nutrient deficiencies (**zin
 ### Animal Sources (Higher Bioavailability)
 
 **Seafood:**
+
 - [Oysters](../../foods/oysters.md) - **Highest zinc content** among common foods
 - [Crab](../../foods/crab.md) - High zinc, complete protein
 - [Shrimp](../../foods/shrimp.md) - Zinc, selenium, protein
 
 **Meat & Poultry:**
+
 - [Beef](../../foods/beef.md) - High creatine, CoQ10, heme iron, **zinc**
 - [Pork](../../foods/pork.md) - Thiamine, creatine, **zinc**
 - [Chicken](../../foods/chicken.md) - Complete protein, niacin, **zinc**, tryptophan
@@ -65,16 +74,19 @@ Epithelial layer (tight junctions) – disrupted by nutrient deficiencies (**zin
 ### Plant Sources (Lower Bioavailability - Improve via Preparation)
 
 **Legumes (soak/sprout to reduce phytates):**
+
 - [Lentils](../../foods/lentils.md) - Protein, fiber, folate, iron, **zinc** (improve bioavailability via soaking)
 - [Chickpeas](../../foods/chickpeas.md) - Protein, fiber, folate, magnesium, iron, **zinc** (improve bioavailability via soaking)
 - [Black Beans](../../foods/black-beans.md) - Protein, polyphenols, **zinc** (optimal soaking: 60°C, pH 6.0)
 
 **Nuts & Seeds (soak to reduce phytates):**
+
 - [Pumpkin Seeds](../../foods/pumpkin-seeds.md) - **High zinc content** for neurotransmitter modulation, tryptophan, magnesium
 - [Cashews](../../foods/cashews.md) - **Zinc**, protein, magnesium (soak to improve bioavailability)
 - [Sunflower Seeds](../../foods/sunflower-seeds.md) - Thiamine, vitamin E, **zinc**
 
 **Other Plant Sources:**
+
 - [Spinach](../../foods/spinach.md) - Iron, magnesium, **zinc**, folate (boil to reduce oxalates)
 - [Kale](../../foods/kale.md) - Iron, magnesium, **zinc**, quercetin (boil to reduce oxalates)
 

@@ -3,6 +3,13 @@ id: butter
 title: Butter
 sidebar_label: Butter
 description: See grass-fed butter for detailed information
+tags:
+  - Food
+  - Vegetarian
+  - Vitamin A
+  - Vitamin D
+  - Vitamin E
+  - Vitamin K2
 ---
 
 ## Overview

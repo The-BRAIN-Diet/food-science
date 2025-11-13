@@ -3,6 +3,15 @@ id: salmon
 title: Salmon
 sidebar_label: Salmon
 description: Oily fish rich in EPA/DHA, protein, and B vitamins
+tags:
+  - Food
+  - Omega 3
+  - Vitamin B3
+  - Vitamin B6
+  - Vitamin B12
+  - Selenium
+  - Vitamin D
+  - Carotenoid
 ---
 
 ## Overview

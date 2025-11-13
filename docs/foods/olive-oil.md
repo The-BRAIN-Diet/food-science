@@ -3,6 +3,11 @@ id: olive-oil
 title: Olive Oil
 sidebar_label: Olive Oil
 description: See extra virgin olive oil for detailed information
+tags:
+  - Food
+  - Vegan
+  - Vegetarian
+  - Polyphenol
 ---
 
 ## Overview

@@ -3,6 +3,12 @@ id: tryptophan
 title: Tryptophan
 sidebar_label: Tryptophan
 description: Serotonin/melatonin precursor; NAD+ pathway substrate; LAT1 transport dynamics
+tags:
+  - Nutrient
+  - Amino Acid
+  - Essential Amino Acid
+  - Tryptophan
+list_image: /img/icons/nutrients.svg
 ---
 
 ## Overview
@@ -57,10 +63,12 @@ Overgrowth Suppression (SIBO, Candida, Pathobionts): Polyphenol antimicrobials (
 ### Animal Sources
 
 **Poultry:**
+
 - [Turkey](../../foods/turkey.md) - **High tryptophan**, niacin, B6
 - [Chicken](../../foods/chicken.md) - Complete protein, niacin, zinc, **tryptophan**
 
 **Eggs & Dairy:**
+
 - [Eggs](../../foods/eggs.md) - Complete protein, choline, B6, **tryptophan**
 - [Milk](../../foods/milk.md) - Complete protein, nicotinamide riboside, **tryptophan**
 - [Yogurt](../../foods/yogurt.md) - Probiotics, protein, **tryptophan**
@@ -75,11 +83,21 @@ Overgrowth Suppression (SIBO, Candida, Pathobionts): Polyphenol antimicrobials (
 - [Oats](../../foods/oats.md) - Beta-glucans, **tryptophan**, B6, magnesium
 
 **Soy Products:**
+
+- [Pumpkin Seeds](../../foods/pumpkin-seeds.md) - High zinc, **tryptophan**, magnesium, iron
+
+**Whole Grains:**
+
+- [Oats](../../foods/oats.md) - Beta-glucans, **tryptophan**, B6, magnesium
+
+**Soy Products:**
+
 - [Soy](../../foods/soy.md) - Complete protein, isoflavones, choline, **tryptophan**
 - [Tofu](../../foods/tofu.md) - Complete protein, isoflavones, **tryptophan**
 - [Tempeh](../../foods/tempeh.md) - Fermented soy, probiotics, **tryptophan**
 
 **Fruits:**
+
 - [Bananas](../../foods/bananas.md) - B6, **tryptophan**, potassium
 
 ## Timing and Meal Composition
