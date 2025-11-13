@@ -11,4 +11,4 @@ list_image: /img/icons/recipes.svg
 
 # Recipes
 
-Coming soon - Brain-healthy recipes designed to support cognitive function and optimize brain health through the BRAIN Diet framework.
+<TagList tag="Recipe" filter="recipes" />
