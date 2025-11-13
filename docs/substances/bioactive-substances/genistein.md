@@ -7,6 +7,10 @@ tags:
   - Polyphenol
   - Flavonoid
   - Genistein
+  - Endocannabinoid System
+  - Inflammation
+  - Oxidative Stress
+  - Neurochemical Balance
 list_image: /img/icons/bioactive.svg
 ---
 

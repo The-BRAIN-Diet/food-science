@@ -6,6 +6,8 @@ description: Electron transport chain cofactor and antioxidant relevant to mitoc
 tags:
   - Lipid
   - Coq10
+  - Mitochondrial Support
+  - Oxidative Stress
 list_image: /img/icons/bioactive.svg
 ---
 

@@ -7,6 +7,13 @@ tags:
   - Nutrient
   - Fatty Acid
   - Omega 3
+  - Inflammation
+  - Oxidative Stress
+  - Neurochemical Balance
+  - Endocannabinoid System
+  - Hormonal Response
+  - Stress Response
+  - Methylation
 list_image: /img/icons/nutrients.svg
 ---
 

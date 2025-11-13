@@ -7,6 +7,8 @@ tags:
   - Polyphenol
   - Carotenoid
   - Beta Carotene
+  - Inflammation
+  - Oxidative Stress
 list_image: /img/icons/bioactive.svg
 ---
 

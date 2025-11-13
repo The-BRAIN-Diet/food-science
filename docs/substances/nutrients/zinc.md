@@ -8,6 +8,9 @@ tags:
   - Mineral
   - Zinc
   - Methylation
+  - Neurochemical Balance
+  - Inflammation
+  - Oxidative Stress
 list_image: /img/icons/nutrients.svg
 ---
 

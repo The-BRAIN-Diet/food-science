@@ -7,6 +7,8 @@ tags:
   - Nutrient
   - Fatty Acid
   - Ala Alpha Linolenic Acid
+  - Inflammation
+  - Oxidative Stress
 list_image: /img/icons/nutrients.svg
 ---
 

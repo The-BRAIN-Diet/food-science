@@ -1,21 +1,22 @@
 ---
 alwaysApply: true
-description: Format of a Biological Target Page
+description: Format of a Food Page
 globs: *.md
 alwaysApply: false
 ---
 
-- Tag each biological target page with the Therapeutic Areas it is involved in.
+- Tag each food page with the substances it contains
 - Tag the page with "Biological Target" too, so that it appears in index.md.
 - Tag each page with the name of the biological target (e.g. Hormonal Response) so we can refer to it from a substance.
 - In the front matter, list_image: /img/icons/biological-targets.svg
 
 The Format of the page should have this structure:
 
-- Overview: A single paragraph description describing the scope of the biological target.
-- Therapeutic Areas: Use the <TagList tag="biological target" filter="therapeutic-areas" /> here.
-- Substances: Use the <TagList tag="biological target" filter="substances" /> here.
-- Biological Mechanisms and Implications: From paper.txt talk about any problems arising from issues with this biological area. e.g. "Protein forward meals (25-35g of protein) for focus and alertness.
+- Image: Images of the food
+- Overview: A single paragraph description describing food, where it comes from, main health benefits etc.
+- Recipes: Use the <TagList tag="food tag" filter="recipes" /> here.
+- Substances: Use the <TagList tag="food tag" filter="substances" /> here.
+- Preparation Notes: From paper.txt any tips on how best to prepare the food for maximum impact.
 - References: A list of findings or scientific principles, with their link to the `/docs/papers/BRAIN-Diet-References#<ref>` that discusses it, from paper.txt in the root directory. Make sure all assertions are backed up by evidence from the paper.txt file . Use references if the paper mentions them.
 
 An example for the references section might look like this:

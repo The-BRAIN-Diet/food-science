@@ -8,6 +8,7 @@ tags:
   - Vitamin
   - Vitamin B2
   - Methylation
+  - Mitochondrial Support
 list_image: /img/icons/nutrients.svg
 ---
 

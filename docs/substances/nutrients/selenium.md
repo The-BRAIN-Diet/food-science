@@ -7,6 +7,8 @@ tags:
   - Nutrient
   - Mineral
   - Selenium
+  - Oxidative Stress
+  - Mitochondrial Support
 list_image: /img/icons/nutrients.svg
 ---
 

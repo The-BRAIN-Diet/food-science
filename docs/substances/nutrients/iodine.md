@@ -7,6 +7,8 @@ tags:
   - Nutrient
   - Mineral
   - Iodine
+  - Hormonal Response
+  - Neurochemical Balance
 list_image: /img/icons/nutrients.svg
 ---
 

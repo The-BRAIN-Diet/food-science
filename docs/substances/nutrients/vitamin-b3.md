@@ -7,6 +7,7 @@ tags:
   - Nutrient
   - Vitamin
   - Vitamin B3
+  - Mitochondrial Support
 list_image: /img/icons/nutrients.svg
 ---
 

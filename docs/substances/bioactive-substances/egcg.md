@@ -7,6 +7,11 @@ tags:
   - Polyphenol
   - Flavonoid
   - Egcg
+  - Inflammation
+  - Oxidative Stress
+  - Gut Microbiome
+  - Hormonal Response
+  - Stress Response
 list_image: /img/icons/bioactive.svg
 ---
 

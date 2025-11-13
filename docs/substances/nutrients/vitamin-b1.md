@@ -7,6 +7,8 @@ tags:
   - Nutrient
   - Vitamin
   - Vitamin B1
+  - Mitochondrial Support
+  - Insulin Response
 list_image: /img/icons/nutrients.svg
 ---
 

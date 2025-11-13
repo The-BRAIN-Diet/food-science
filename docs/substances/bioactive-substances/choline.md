@@ -7,6 +7,8 @@ tags:
   - Lipid
   - Choline
   - Methylation
+  - Neurochemical Balance
+  - Endocannabinoid System
 list_image: /img/icons/bioactive.svg
 ---
 

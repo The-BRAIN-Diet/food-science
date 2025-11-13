@@ -7,6 +7,11 @@ tags:
   - Nutrient
   - Vitamin
   - Vitamin C
+  - Inflammation
+  - Oxidative Stress
+  - Hormonal Response
+  - Stress Response
+  - Neurochemical Balance
 list_image: /img/icons/nutrients.svg
 ---
 
@@ -17,5 +22,3 @@ Vitamin C is a key water‑soluble antioxidant; supports non‑heme iron absorpt
 ## From the paper
 
 - Spacing tea/coffee from iron‑rich plant meals or adding vitamin C improves iron uptake; SVCT2 maintains brain ascorbate.
-
-

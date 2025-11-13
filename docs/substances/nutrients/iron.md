@@ -7,6 +7,8 @@ tags:
   - Nutrient
   - Mineral
   - Iron
+  - Neurochemical Balance
+  - Mitochondrial Support
 list_image: /img/icons/nutrients.svg
 ---
 

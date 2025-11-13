@@ -2,6 +2,7 @@
 id: adhd
 title: ADHD
 sidebar_label: ADHD
+description: Dietary strategies targeting inflammation, neurochemical balance, mitochondrial function, and gut-brain axis to support attention, focus, and executive function
 tags:
   - Therapeutic Area
   - ADHD
@@ -10,7 +11,12 @@ tags:
   - Hormonal Response
   - Inflammation
   - Oxidative Stress
-  - Mitochondrail Support
+  - Mitochondrial Support
+  - Endocannabinoid System
+  - Neurochemical Balance
+  - Insulin Response
+  - Stress Response
+list_image: /img/icons/therapeutic-areas.svg
 ---
 
 ## Overview

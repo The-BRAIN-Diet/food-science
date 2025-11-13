@@ -7,6 +7,7 @@ tags:
   - Nutrient
   - Mineral
   - Potassium
+  - Neurochemical Balance
 list_image: /img/icons/nutrients.svg
 ---
 

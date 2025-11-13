@@ -7,6 +7,9 @@ tags:
   - Nutrient
   - Vitamin
   - Vitamin D
+  - Hormonal Response
+  - Stress Response
+  - Gut Microbiome
 list_image: /img/icons/nutrients.svg
 ---
 

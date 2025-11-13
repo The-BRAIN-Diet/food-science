@@ -6,6 +6,9 @@ description: Mood and cognition support; sensitive to heat/light; culinary-first
 tags:
   - Terpene
   - Saffron
+  - Neurochemical Balance
+  - Inflammation
+  - Oxidative Stress
 list_image: /img/icons/bioactive.svg
 ---
 

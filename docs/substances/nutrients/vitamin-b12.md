@@ -8,6 +8,8 @@ tags:
   - Vitamin
   - Vitamin B12
   - Methylation
+  - Neurochemical Balance
+  - Mitochondrial Support
 list_image: /img/icons/nutrients.svg
 ---
 

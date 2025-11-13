@@ -7,6 +7,9 @@ tags:
   - Nutrient
   - Phosphatidylserine
   - Phospholipid
+  - Hormonal Response
+  - Stress Response
+  - Neurochemical Balance
 list_image: /img/icons/nutrients.svg
 ---
 

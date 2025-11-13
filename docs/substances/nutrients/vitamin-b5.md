@@ -7,6 +7,9 @@ tags:
   - Nutrient
   - Vitamin
   - Vitamin B5
+  - Mitochondrial Support
+  - Hormonal Response
+  - Stress Response
 list_image: /img/icons/nutrients.svg
 ---
 

@@ -7,6 +7,8 @@ tags:
   - Nutrient
   - Mineral
   - Calcium
+  - Hormonal Response
+  - Neurochemical Balance
 list_image: /img/icons/nutrients.svg
 ---
 

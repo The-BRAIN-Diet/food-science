@@ -24,7 +24,7 @@ Methylation is a fundamental biological process that serves as a critical target
 
 <TagList tag="Methylation" filter="substances" />
 
-## Biological Mechanisms and Implications
+## Biological Implications
 
 B vitamins, particularly B6, B2, folate (5-MTHF), and B12, are essential cofactors in the remethylation of homocysteine (Hcy) to methionine, which is subsequently converted to S-adenosylmethionine (SAMe).
 

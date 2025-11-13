@@ -6,6 +6,10 @@ description: Osmoregulator; GABA modulation; mitochondrial membrane stabilizer; 
 tags:
   - Lipid
   - Taurine
+  - Mitochondrial Support
+  - Hormonal Response
+  - Stress Response
+  - Neurochemical Balance
 list_image: /img/icons/bioactive.svg
 ---
 

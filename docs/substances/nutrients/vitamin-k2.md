@@ -7,6 +7,7 @@ tags:
   - Nutrient
   - Vitamin
   - Vitamin K2
+  - Hormonal Response
 list_image: /img/icons/nutrients.svg
 ---
 

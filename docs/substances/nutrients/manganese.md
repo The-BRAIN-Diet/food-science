@@ -7,6 +7,8 @@ tags:
   - Nutrient
   - Mineral
   - Manganese
+  - Oxidative Stress
+  - Mitochondrial Support
 list_image: /img/icons/nutrients.svg
 ---
 

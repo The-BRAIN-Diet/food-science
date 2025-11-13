@@ -142,6 +142,16 @@ Stress Response:
   permalink: /docs/tags/stress-response
   description: Stress response and HPA axis regulation
 
+Inflammation:
+  label: Inflammation
+  permalink: /docs/tags/inflammation
+  description: Chronic inflammation and neuroinflammation
+
+Oxidative Stress:
+  label: Oxidative Stress
+  permalink: /docs/tags/oxidative-stress
+  description: Oxidative stress and antioxidant defense
+
 # Substance tags - Nutrients
 Ala Alpha Linolenic Acid:
   label: ALA (Alpha-Linolenic Acid)

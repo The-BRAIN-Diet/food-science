@@ -8,6 +8,7 @@ tags:
   - Vitamin
   - Vitamin B6
   - Methylation
+  - Neurochemical Balance
 list_image: /img/icons/nutrients.svg
 ---
 
