@@ -4,7 +4,7 @@ title: L-Theanine
 sidebar_label: L-Theanine
 description: Calming amino acid from tea; increases alpha waves; sleep-friendly
 tags:
-  - L Theanine
+  - L-Theanine
   - Hormonal Response
   - Stress Response
   - Neurochemical Balance

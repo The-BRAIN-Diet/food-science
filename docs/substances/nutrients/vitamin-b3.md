@@ -18,5 +18,3 @@ Niacin replenishes NAD+, supporting oxidative phosphorylation, sirtuin signaling
 ## From the paper
 
 - High‑dose niacin restored blood/muscle NAD+ and improved performance in mitochondrial myopathy; diet sources listed and NAD+ table included.
-
-

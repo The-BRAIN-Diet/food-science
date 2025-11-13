@@ -6,7 +6,7 @@ description: Polyphenol; antioxidant; gut barrier/LPS modulation; supports micro
 tags:
   - Polyphenol
   - Flavonoid
-  - Egcg
+  - EGCG
   - Inflammation
   - Oxidative Stress
   - Gut Microbiome
