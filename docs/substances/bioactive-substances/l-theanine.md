@@ -31,5 +31,5 @@ L-theanine is an amino acid found in green tea that promotes relaxed alertness a
 
 ## References
 
-- L-theanine found in green tea increases alpha waves and calms without sedation
-- Supports evening wind-down and sleep preparation when combined with tryptophan, complex carbs, magnesium, and herbal teas
+- L-theanine found in green tea increases alpha waves and calms without sedation; supports evening wind-down and sleep preparation when combined with tryptophan, complex carbs, magnesium, and herbal teas
+- L-theanine synergizes with magnesium and tryptophan strategies for circadian alignment and supports GABAergic tone and neurotransmitter balance

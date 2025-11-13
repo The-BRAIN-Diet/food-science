@@ -31,4 +31,5 @@ Linoleic acid (LA) is an essential omega-6 fatty acid that serves as a precursor
 ## References
 
 - LA is an essential omega-6 fatty acid; excessive n-6:n-3 ratios may skew toward pro-inflammatory eicosanoids; balance with omega-3s is emphasized
+- Western diets can skew n-6:n-3 ratio as high as 20:1, contributing to chronic inflammation and neurotransmitter dysregulation [Simopoulos 2011](/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011)
 - Overall dietary n-6:n-3 balance affects inflammatory tone

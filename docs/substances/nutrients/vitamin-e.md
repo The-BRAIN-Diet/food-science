@@ -29,5 +29,5 @@ Vitamin E is a lipid-phase antioxidant that protects polyunsaturated fatty acids
 ## References
 
 - Vitamin E works within antioxidant networks with vitamin C, CoQ10, and polyphenols, with these compounds regenerating each other in vivo [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_antioxidant_1997)
-- High-dose antioxidant supplements have shown inconsistent or even harmful effects in rare cases, while diets rich in natural antioxidant compounds have demonstrated robust benefits
-- The BRAIN Diet emphasizes food-based sources rich in balanced antioxidants rather than high-dose single-nutrient supplementation
+- High-dose antioxidant supplements have shown inconsistent or even harmful effects in rare cases (e.g., Vitamin E clinical trials and prostate cancer), while diets rich in natural antioxidant compounds have demonstrated robust benefits
+- The BRAIN Diet emphasizes food-based sources rich in balanced antioxidants rather than high-dose single-nutrient supplementation, highlighting synergy in whole foods

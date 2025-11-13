@@ -30,6 +30,6 @@ Curcumin is the primary bioactive compound in turmeric, supporting neuroprotecti
 
 ## References
 
-- Curcumin supplementation can improve memory performance in older adults and enhance overall cognitive function [Goozee et al. 2016](/docs/papers/BRAIN-Diet-References#goozee_examining_2016)
-- Exercise + omega-3 + polyphenol synergy boosts BDNF expression; anti-inflammatory diet helps sustain levels
+- Systematic reviews affirm that curcumin supplementation can improve memory performance in older adults and enhance overall cognitive function in both healthy and at-risk populations [Goozee et al. 2016](/docs/papers/BRAIN-Diet-References#goozee_examining_2016)
+- Turmeric, along with omega-3s and other polyphenols, contributes to BDNF expression through exercise and polyphenol synergy, with anti-inflammatory diets helping sustain BDNF levels
 - Curcumin's bioavailability is markedly improved by pairing with piperine and fats; therapeutic doses range from 500–1000 mg/day curcumin with piperine

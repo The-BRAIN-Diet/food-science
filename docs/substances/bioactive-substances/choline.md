@@ -121,17 +121,15 @@ Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12)
 
 ## References
 
-- Cocchi et al. 2017
-- Covey et al. 2017
-- Derbyshire and Maes 2023
-- Garani, Watts, and Mizrahi 2021
-- Johansson et al. 2013
-- Laksmidewi and Soejitno 2021
-- Martel et al. 2011
-- Md. Jakaria a, n.d.
-- Jia et al. 2024
-- Nimgampalle 2017
-- Patrick 2019
-- Sean Davies 2018
-- Stephenson et al. 1947
-- Wilson et al. 2012
+- Choline has had a positive effect on ADHD in studies [Derbyshire and Maes 2023](/docs/papers/BRAIN-Diet-References#derbyshire_choline_2023)
+- Recent studies now targeting imbalances in the cholinergic systems representing a new focus in ADHD etiology [Johansson et al. 2013](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013)
+- Lactobacillus was shown to produce acetylcholine in a study dating back to 1947 [Stephenson et al. 1947](/docs/papers/BRAIN-Diet-References#stephenson_production_1947)
+- Lactobacillus strains have been shown to be effective against Alzheimer's disease induced rat models [Nimgampalle 2017](/docs/papers/BRAIN-Diet-References#nimgampalle_anti-alzheimer_2017)
+- DHA or EPA incorporated into PC and converted into lysophosphatidylcholine (LPC) crosses the blood-brain barrier far more efficiently than free fatty acid or triglyceride-bound forms [Patrick 2019](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
+- Phospholipid methylation (PLM), enhanced by dopamine D4 receptor activity, alters membrane structure, facilitating faster neuronal recovery [Martel et al. 2011](/docs/papers/BRAIN-Diet-References#martel_dopamine_2011)
+- Abnormalities in membrane composition and PLM have been linked to impaired ion channel regulation and reduced gamma-band activity in ADHD [Wilson et al. 2012](/docs/papers/BRAIN-Diet-References#wilson_gamma-frequency_2012) [Cocchi et al. 2017](/docs/papers/BRAIN-Diet-References#cocchi_linoleic_2017)
+- The CDP-ethanolamine pathway produces phosphatidylethanolamine (PE), which can be converted into phosphatidylcholine (PC) or N-acyl phosphatidylethanolamines (NAPEs) [Garani, Watts, and Mizrahi 2021](/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021)
+- Clinical trials have shown a doubling of plasma levels after dietary increases in oat bran due to its rich PE content [Sean Davies 2018](/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018)
+- The endocannabinoid system (ECS) is a key neuromodulatory system that helps regulate dopamine signaling [Covey et al. 2017](/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017)
+- The ECS helps regulate motivation [Laksmidewi and Soejitno 2021](/docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021)
+- Specific dietary compounds, such as green tea polyphenols, and adenosine-regulating nutrients including plant-based methyl donors (folate, choline, betaine), may influence adenosine metabolism [Jia et al. 2024](/docs/papers/BRAIN-Diet-References#jia_role_2024)

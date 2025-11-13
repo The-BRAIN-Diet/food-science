@@ -31,4 +31,4 @@ Phosphatidylethanolamine (PE) is a key brain phospholipid and potential ADHD bio
 - PE is a key brain phospholipid and potential ADHD biomarker; can convert to PC or N-acyl phosphatidylethanolamines (NAPEs)
 - NAPEs are precursors to N-acyl ethanolamines (NAEs) like PEA, OEA, and anandamide, bioactive lipids with anti-inflammatory, neuroprotective, and mood-regulating effects
 - Supporting NAPEs production through diet via PE-rich foods like eggs, fish roe, and liver may enhance endocannabinoid system tone
-- Clinical trials have shown a doubling of plasma levels after dietary increases in oat bran due to its rich PE content [Sean Davies 2018](/docs/papers/BRAIN-Diet-References#davies_oat_2018)
+- Clinical trials have shown a doubling of plasma levels after dietary increases in oat bran due to its rich PE content [Sean Davies 2018](/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018)

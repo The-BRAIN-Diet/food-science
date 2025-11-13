@@ -37,8 +37,8 @@ Quercetin is an effective antioxidant agent that scavenges reactive oxygen speci
 
 ## References
 
-- Quercetin is an effective antioxidant agent that scavenges reactive oxygen species and has anti-inflammatory and neuroprotective properties [Boots, Haenen, and Bast 2008](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+- Quercetin is an effective antioxidant agent that scavenges reactive oxygen species and has antioxidant, anti-inflammatory, anti-neuroinflammatory, and neuroprotective properties [Boots, Haenen, and Bast 2008](/docs/papers/BRAIN-Diet-References#boots_health_2008)
 - Isoquercetin (glycosylated quercetin) is more completely absorbed than quercetin in the aglycone form, and simultaneous ingestion with vitamin C, folate, and additional flavonoids improves bioavailability [Y. Li et al. 2016](/docs/papers/BRAIN-Diet-References#li_quercetin_2016)
 - Quercetin enhances mitochondrial baseline activity and energy production [Davis et al. 2009](/docs/papers/BRAIN-Diet-References#davis_quercetin_2009)
-- Quercetin bound to a sugar molecule forming quercitrin has anti-inflammatory and anti-oxidative effects that may be augmented by co-ingestion of omega-3 polyunsaturated fatty acids and olive oil [Camuesco et al. 2006](/docs/papers/BRAIN-Diet-References#camuesco_olive_2006)
+- Quercetin bound to a sugar molecule forming quercitrin has anti-inflammatory and anti-oxidative effects that may be augmented by co-ingestion of omega-3 polyunsaturated fatty acids and olive oil [Camuesco et al. 2006](/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006)
 - Quercetin, along with EGCG, supports gut barrier integrity, TLR4 suppression, LPS neutralization, and microglial activation dampening

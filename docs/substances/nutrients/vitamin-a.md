@@ -28,5 +28,6 @@ Vitamin A and provitamin A carotenoids support neurodevelopment and immune modul
 
 ## References
 
-- β-carotene contributes to antioxidant network; carotenoid absorption enhanced with dietary fat and preparation
-- Co-consuming a small amount of unsaturated fat with carotenoid-rich foods improves micelle formation and chylomicron packaging, increasing carotenoid and fat-soluble vitamin absorption
+- Carotenoids, particularly lutein, zeaxanthin, and β-carotene, play a neuroprotective role through their antioxidant and anti-inflammatory properties [Johnson 2014](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+- The bioaccessibility of carotenoids in vegetables is remarkably low—only 1-3% of the β-carotene in raw carrots is accessible for absorption [Fielding et al. 2005](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
+- Co-consuming a small amount of unsaturated fat with polyphenol-rich foods improves micelle formation and chylomicron packaging, increasing carotenoid and fat-soluble vitamin absorption [Kindel et al. 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010) [Brown et al. 2004](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)

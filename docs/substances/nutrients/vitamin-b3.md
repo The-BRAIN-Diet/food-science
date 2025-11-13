@@ -29,4 +29,5 @@ Niacin (vitamin B3) replenishes NAD+ (nicotinamide adenine dinucleotide), suppor
 ## References
 
 - Niacin replenishes NAD+, supporting oxidative phosphorylation, sirtuin signaling, and mitochondrial biogenesis; key for neuronal energy metabolism
-- High-dose niacin restored blood/muscle NAD+ and improved performance in mitochondrial myopathy; diet sources listed and NAD+ table included
+- In patients with adult-onset mitochondrial myopathy, high-dose niacin supplementation (750–1,000 mg/day) restored blood and muscle NAD+ levels by up to eightfold, improved mitochondrial biogenesis, and enhanced muscle performance [Pirinen et al. 2020](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
+- NAD+ is a central coenzyme in oxidative phosphorylation, acting as an electron carrier that enables ATP generation; incorporating NAD+ precursors into the BRAIN Diet reinforces mitochondrial energy metabolism

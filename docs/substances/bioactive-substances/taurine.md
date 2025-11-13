@@ -38,4 +38,4 @@ Taurine is a sulfur-containing, semi-essential amino acid that occurs naturally 
 - Taurine exhibits adaptogenic properties by buffering the brain against chronic stress and regulating the HPA axis, including reductions in cortisol
 - Taurine modulates calcium signaling, antioxidant defense, and neurotransmission; brain taurine levels are tied to neuroprotection
 - In animal models of ADHD, taurine supplementation has been linked to improvements in attention and hyperactivity, though equivalent human data are lacking
-- While humans can synthesize small amounts of taurine endogenously from cysteine, dietary intake from meats, shellfish, and cysteine-rich foods is important [Wójcik et al. 2010](/docs/papers/BRAIN-Diet-References#wojcik_taurine_2010)
+- While humans can synthesize small amounts of taurine endogenously from the precursor cysteine, this capacity is limited, making dietary intake from meats, shellfish, and cysteine-rich foods important [Wójcik et al. 2010](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)

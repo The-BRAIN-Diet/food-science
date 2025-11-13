@@ -30,5 +30,6 @@ Arachidonic acid (AA) is an omega-6 polyunsaturated fatty acid that gives rise t
 
 ## References
 
-- AA gives rise to eicosanoids with predominantly pro-inflammatory actions; overall dietary n-6:n-3 balance affects inflammatory tone
-- The BRAIN Diet emphasizes maintaining an appropriate balance between omega-6 and omega-3 fatty acids
+- While arachidonic acid (AA), an omega-6 PUFA, gives rise to mostly pro-inflammatory eicosanoids, omega-3s like EPA and DHA are precursors to anti-inflammatory SPMs [Simopoulos 2011](/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011)
+- Western diets can skew n-6:n-3 ratio as high as 20:1, contributing to chronic inflammation and neurotransmitter dysregulation [Simopoulos 2011](/docs/papers/BRAIN-Diet-References#simopoulos_evolutionary_2011)
+- Overall dietary n-6:n-3 balance affects inflammatory tone

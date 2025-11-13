@@ -32,5 +32,5 @@ Pantothenic acid (vitamin B5) forms CoA (coenzyme A), which is required for β-o
 
 ## References
 
-- Pantothenic acid forms CoA, required for β-oxidation and TCA cycle acetyl-CoA flux; deficiency impairs ATP production impacting brain energy
-- Essential for CoA/PDH function; deficiency impairs fatty-acid oxidation and ATP generation
+- Pantothenic acid (B5) is essential for CoA and PDH function, which are necessary for TCA cycle energy generation; deficiency impairs fatty acid oxidation and ATP production, potentially affecting brain energy levels
+- CoA is essential for pyruvate dehydrogenase (PDH) function, linking glycolysis to the TCA cycle; deficiency impairs ATP generation, directly impacting brain energy metabolism

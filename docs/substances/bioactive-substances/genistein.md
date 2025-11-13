@@ -35,7 +35,7 @@ Genistein is a soy-derived isoflavonoid that has shown potential as a modulator 
 
 ## References
 
-- Genistein inhibits fatty acid amide hydrolase (FAAH), preserving anandamide levels and enhancing endocannabinoid system tone [Gibellini and Smith 2010](/docs/papers/BRAIN-Diet-References#gibellini_biological_2010)
-- Genistein may amplify the ECS's ability to regulate dopamine, glutamate, and GABA signaling [Bare, Ghetti, and Richter 1995](/docs/papers/BRAIN-Diet-References#bare_genistein_1995)
-- Genistein alleviates oxidative stress on neuronal injury, preventing neuronal death and increasing hippocampal glutathione and superoxide dismutase [Fuloria et al. 2022](/docs/papers/BRAIN-Diet-References#fuloria_comprehensive_2022)
-- Genistein has shown potential as a modulator of neuroinflammation and is extensively applied in the investigation of neurodegenerative diseases [Fuloria et al. 2022](/docs/papers/BRAIN-Diet-References#fuloria_comprehensive_2022)
+- Polyphenols such as genistein may further enhance ECS tone by inhibiting fatty acid amide hydrolase (FAAH), the enzyme responsible for anandamide degradation [Gibellini and Smith 2010](/docs/papers/BRAIN-Diet-References#gibellini_kennedy_2010)
+- Genistein may amplify the ECS's ability to regulate dopamine, glutamate, and GABA signaling, all key pathways to regulate in ADHD
+- Genistein has been confirmed to alleviate the deleterious effects of oxidative stress on neuronal injury, preventing neuronal death, increasing hippocampal glutathione and superoxide dismutase production, and lowering lipid peroxidation and reactive oxygen species [Fuloria et al. 2022](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)
+- Genistein is believed to pass the blood–brain barrier and is extensively applied in the investigation of neurodegenerative diseases such as Alzheimer's and Huntington's [Fuloria et al. 2022](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)

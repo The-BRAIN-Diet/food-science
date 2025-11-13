@@ -34,5 +34,5 @@ Saffron extracts show promise for mood and cognition support, with studies demon
 
 - Saffron has shown promising effects on depression, mood, cognition, and ADHD symptoms at doses around 30 mg/day of standardized extract [Lopresti and Drummond 2014](/docs/papers/BRAIN-Diet-References#lopresti_saffron_2014)
 - Saffron extract supplementation improves mood, well-being, and response to psychosocial stressor in healthy adults [Jackson et al. 2021](/docs/papers/BRAIN-Diet-References#jackson_effects_2021)
-- Saffron is thought to boost serotonin and has antioxidant crocin; delicate oils such as safranal are highly sensitive to heat, light, and oxidation
 - Saffron has shown promising effects on ADHD symptoms at doses around 30 mg/day [Baziar et al. 2019](/docs/papers/BRAIN-Diet-References#baziar_crocus_2019)
+- Saffron is thought to boost serotonin and contains antioxidant crocin; delicate oils such as safranal are highly sensitive to heat, light, and oxidation
