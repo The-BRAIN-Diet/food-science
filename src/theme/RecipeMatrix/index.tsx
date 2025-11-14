@@ -104,12 +104,25 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
   const uniqueAreas = Array.from(new Map(allTherapeuticAreas.map((doc: Document) => [doc.permalink, doc])).values())
 
   // Step 2: Find foods that match the recipe's tags
-  // Recipe tags include food names (e.g., "Spinach", "Bananas")
-  // A food matches if it has a tag that matches one of the recipe's tags
-  const relatedFoods = uniqueFoods.filter((food: Document) => {
-    const foodTagLabels = food.tags.map((t: Tag) => t.label)
-    return foodTagLabels.some((ft: string) => recipeTagLabels.includes(ft))
+  // Only match foods where the recipe has a tag that exactly matches a food's name
+  // Extract food names from their titles (normalize by removing parenthetical info)
+  const getFoodName = (title: string): string => {
+    // Remove parenthetical info like "(Wolffia globosa)" from "Duckweed (Wolffia globosa)"
+    return title.split("(")[0].trim()
+  }
+
+  // Create a map of food names to food documents
+  const foodNameMap = new Map<string, Document>()
+  uniqueFoods.forEach((food: Document) => {
+    const foodName = getFoodName(food.title)
+    foodNameMap.set(foodName, food)
   })
+
+  // Find foods where the recipe has a tag that exactly matches a food name
+  // Only match on exact food names, not category tags like "Food", "Vegan", etc.
+  const relatedFoods = recipeTagLabels
+    .map((recipeTag: string) => foodNameMap.get(recipeTag))
+    .filter((food: Document | undefined): food is Document => food !== undefined)
 
   if (relatedFoods.length === 0) {
     const recipeTitle = typeof details.title === "string" ? details.title : "recipe"
@@ -121,14 +134,27 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
   // Build a map: substance -> foods that contain it
   const substanceToFoodsMap = new Map<Document, Set<Document>>()
 
+  // Extract substance names from their titles (normalize by removing parenthetical info)
+  const getSubstanceName = (title: string): string => {
+    // Remove parenthetical info like "(Turmeric)" from "Curcumin (Turmeric)"
+    return title.split("(")[0].trim()
+  }
+
+  // Create a map of substance names to substance documents
+  const substanceNameMap = new Map<string, Document>()
+  uniqueSubstances.forEach((substance: Document) => {
+    const substanceName = getSubstanceName(substance.title)
+    substanceNameMap.set(substanceName, substance)
+  })
+
   relatedFoods.forEach((food: Document) => {
     const foodTagLabels = food.tags.map((t: Tag) => t.label)
 
-    // Find substances that match the food's tags
-    const foodSubstances = uniqueSubstances.filter((substance: Document) => {
-      const substanceTagLabels = substance.tags.map((t: Tag) => t.label)
-      return substanceTagLabels.some((st: string) => foodTagLabels.includes(st))
-    })
+    // Find substances where the food has a tag that exactly matches a substance name
+    // Only match on exact substance names, not category tags like "Polyphenol"
+    const foodSubstances = foodTagLabels
+      .map((foodTag: string) => substanceNameMap.get(foodTag))
+      .filter((substance: Document | undefined): substance is Document => substance !== undefined)
 
     foodSubstances.forEach((substance: Document) => {
       if (!substanceToFoodsMap.has(substance)) {

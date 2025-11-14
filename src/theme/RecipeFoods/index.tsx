@@ -90,12 +90,24 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
   // Remove duplicates
   const uniqueFoods = Array.from(new Map(allFoods.map((doc: Document) => [doc.permalink, doc])).values())
 
-  // Find foods that match the recipe's tags
-  // A food matches if it has a tag that matches one of the recipe's tags
-  const relatedFoods = uniqueFoods.filter((food: Document) => {
-    const foodTagLabels = food.tags.map((t: Tag) => t.label)
-    return foodTagLabels.some((ft: string) => recipeTagLabels.includes(ft))
+  // Extract food names from their titles (normalize by removing parenthetical info)
+  const getFoodName = (title: string): string => {
+    // Remove parenthetical info like "(Wolffia globosa)" from "Duckweed (Wolffia globosa)"
+    return title.split("(")[0].trim()
+  }
+
+  // Create a map of food names to food documents
+  const foodNameMap = new Map<string, Document>()
+  uniqueFoods.forEach((food: Document) => {
+    const foodName = getFoodName(food.title)
+    foodNameMap.set(foodName, food)
   })
+
+  // Find foods where the recipe has a tag that exactly matches a food name
+  // Only match on exact food names, not category tags like "Food", "Vegan", etc.
+  const relatedFoods = recipeTagLabels
+    .map((recipeTag: string) => foodNameMap.get(recipeTag))
+    .filter((food: Document | undefined): food is Document => food !== undefined)
 
   // Sort by order, then by title
   relatedFoods.sort((a: Document, b: Document) => {

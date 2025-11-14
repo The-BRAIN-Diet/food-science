@@ -105,12 +105,25 @@ export default function FoodMatrix({tag}: FoodMatrixProps): React.ReactElement {
   const uniqueAreas = Array.from(new Map(allTherapeuticAreas.map((doc: Document) => [doc.permalink, doc])).values())
 
   // Step 2: Find substances that match the food's tags
-  // Food tags include substance names (e.g., "Omega 3")
-  // A substance matches if it has a tag that matches one of the food's tags
-  const relatedSubstances = uniqueSubstances.filter((substance: Document) => {
-    const substanceTagLabels = substance.tags.map((t: Tag) => t.label)
-    return substanceTagLabels.some((st: string) => foodTagLabels.includes(st))
+  // Only match when the food has a tag that exactly matches a substance's name
+  // Extract substance names from their titles (normalize by removing parenthetical info)
+  const getSubstanceName = (title: string): string => {
+    // Remove parenthetical info like "(Turmeric)" from "Curcumin (Turmeric)"
+    return title.split("(")[0].trim()
+  }
+
+  // Create a map of substance names to substance documents
+  const substanceNameMap = new Map<string, Document>()
+  uniqueSubstances.forEach((substance: Document) => {
+    const substanceName = getSubstanceName(substance.title)
+    substanceNameMap.set(substanceName, substance)
   })
+
+  // Find substances where the food has a tag that exactly matches a substance name
+  // Only match on exact substance names, not category tags like "Polyphenol"
+  const relatedSubstances = foodTagLabels
+    .map((foodTag: string) => substanceNameMap.get(foodTag))
+    .filter((substance: Document | undefined): substance is Document => substance !== undefined)
 
   // Step 3: For each substance, find biological targets
   // Substances are tagged with biological target names (e.g., "Methylation")
