@@ -27,7 +27,7 @@ Pumpkin seeds are nutrient-dense seeds providing zinc, tryptophan, magnesium, an
 
 ## Substances
 
-<TagList tag="Pumpkin Seeds" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

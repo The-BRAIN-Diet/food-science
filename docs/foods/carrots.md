@@ -23,7 +23,7 @@ Carrots provide beta-carotene (vitamin A precursor), demonstrating important foo
 
 ## Substances
 
-<TagList tag="Carrots" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

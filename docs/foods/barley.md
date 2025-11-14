@@ -22,7 +22,7 @@ Barley provides beta-glucan prebiotic fiber and whole grain nutrients, supportin
 
 ## Substances
 
-<TagList tag="Barley" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

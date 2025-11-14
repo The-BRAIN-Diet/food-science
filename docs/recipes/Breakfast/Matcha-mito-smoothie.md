@@ -20,7 +20,7 @@ tags:
 list_image: /img/recipes/matcha-mito-smoothie.jpg
 ---
 
-# 🍵 Matcha–Mitochondria Smoothie  
+# 🍵 Matcha–Mitochondria Smoothie
 
 <img src="/img/recipes/matcha-mito-smoothie.jpg" alt="Matcha mitochondria smoothie" width="480" />
 
@@ -28,29 +28,34 @@ list_image: /img/recipes/matcha-mito-smoothie.jpg
 **Meal Time:** Breakfast
 
 ## 🧾 Ingredients
-- 1 cup spinach  
-- ½ frozen banana  
-- 1 tsp matcha powder  
-- 1 tbsp chia seeds  
-- 1 tbsp pumpkin seeds  
-- 200 ml kefir or yogurt  
-- ½ cup ice  
-- Optional: ½ tsp maca powder  
 
-## 👩‍🍳 Method  
+- 1 cup spinach
+- ½ frozen banana
+- 1 tsp matcha powder
+- 1 tbsp chia seeds
+- 1 tbsp pumpkin seeds
+- 200 ml kefir or yogurt
+- ½ cup ice
+- Optional: ½ tsp maca powder
+
+## 👩‍🍳 Method
+
 Blend everything until smooth.
 
-## 🧠 BRAIN Health Notes  
-- Matcha contains **catechins** that reduce mitochondrial oxidative stress.  
-- Pumpkin seeds & spinach supply **magnesium** → essential for ATP synthesis (Mg-ATP complex).  
-- Kefir supports microbiome → reduced inflammatory load.  
+## 🧠 BRAIN Health Notes
+
+- Matcha contains **catechins** that reduce mitochondrial oxidative stress.
+- Pumpkin seeds & spinach supply **magnesium** → essential for ATP synthesis (Mg-ATP complex).
+- Kefir supports microbiome → reduced inflammatory load.
 - Chia seeds offer **ALA omega-3** → membrane fluidity + mitochondrial signalling.
 
-## 🧬 Mechanism of Action  
-- Activates **AMPK** via catechins → improved mitochondrial biogenesis.  
-- Provides high **Mg** for ATP synthase.  
-- ALA supports **mitochondrial membrane** integrity.  
+## 🧬 Mechanism of Action
+
+- Activates **AMPK** via catechins → improved mitochondrial biogenesis.
+- Provides high **Mg** for ATP synthase.
+- ALA supports **mitochondrial membrane** integrity.
 - Antioxidants reduce **ROS burden**, protecting mitochondrial DNA.
 
-## 🍽 Nutrition (approx.)  
+## 🍽 Nutrition (approx.)
+
 ~350 kcal · 14 g protein · high magnesium · moderate polyphenols

@@ -23,7 +23,7 @@ Brussels sprouts provide sulfur-containing compounds that serve as glutathione p
 
 ## Substances
 
-<TagList tag="Brussels Sprouts" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

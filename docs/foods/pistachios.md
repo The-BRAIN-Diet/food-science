@@ -22,7 +22,7 @@ Pistachios provide CoQ10 (plant source), healthy fats, and protein, supporting m
 
 ## Substances
 
-<TagList tag="Pistachios" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

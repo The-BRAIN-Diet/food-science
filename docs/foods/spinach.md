@@ -32,7 +32,7 @@ Spinach is a nutrient-dense leafy green providing iron, magnesium, zinc, folate,
 
 ## Substances
 
-<TagList tag="Spinach" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

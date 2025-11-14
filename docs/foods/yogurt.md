@@ -23,7 +23,7 @@ Yogurt is fermented dairy providing live probiotics, complete protein, and B vit
 
 ## Substances
 
-<TagList tag="Yogurt" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

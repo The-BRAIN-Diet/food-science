@@ -24,7 +24,7 @@ Quinoa is a pseudograin providing complete plant protein, magnesium, and when fe
 
 ## Substances
 
-<TagList tag="Quinoa" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

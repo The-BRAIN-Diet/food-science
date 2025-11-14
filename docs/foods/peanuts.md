@@ -25,7 +25,7 @@ Peanuts provide niacin (B3) for NAD+ synthesis, resveratrol (polyphenol), and pl
 
 ## Substances
 
-<TagList tag="Peanuts" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

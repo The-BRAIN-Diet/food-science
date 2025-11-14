@@ -37,7 +37,7 @@ Eggs, especially egg yolks, are nutrient-dense sources of complete protein, chol
 
 ## Substances
 
-<TagList tag="Eggs" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

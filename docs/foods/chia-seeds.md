@@ -24,7 +24,7 @@ Chia seeds provide ALA (plant omega-3), soluble fiber, and minerals, supporting 
 
 ## Substances
 
-<TagList tag="Chia Seeds" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

@@ -23,7 +23,7 @@ Cauliflower is a cruciferous vegetable providing fiber, B vitamins, and potentia
 
 ## Substances
 
-<TagList tag="Cauliflower" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

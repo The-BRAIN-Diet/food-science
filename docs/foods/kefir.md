@@ -23,7 +23,7 @@ Kefir is fermented milk providing diverse probiotics, including potential GABA-p
 
 ## Substances
 
-<TagList tag="Kefir" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

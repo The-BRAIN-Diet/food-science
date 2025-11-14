@@ -17,6 +17,10 @@ list_image: /img/icons/biological-targets.svg
 
 Hormonal response optimization is a critical biological target in the BRAIN Diet, focusing on balancing stress hormones, sex hormones, and other endocrine factors that significantly influence brain function, mood, and cognitive performance. The neuroendocrine and autonomic systems, together with the Enteric Nervous System (ENS), form a tightly interwoven network regulating stress responses, metabolism, and gut–brain communication. The hypothalamic–pituitary–adrenal (HPA) axis orchestrates cortisol rhythms and systemic stress signaling, while the autonomic nervous system (ANS) integrates sympathetic "fight-or-flight" activity with parasympathetic recovery pathways (paper.txt, line 769).
 
+## Recipes
+
+<TagList tag="Hormonal Response" filter="recipes" />
+
 ## Therapeutic Areas
 
 <TagList tag="Hormonal Response" filter="therapeutic-areas" />

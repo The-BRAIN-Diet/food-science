@@ -24,7 +24,7 @@ Pork provides thiamine (B1), creatine, zinc, and complete protein, supporting mi
 
 ## Substances
 
-<TagList tag="Pork" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

@@ -19,6 +19,10 @@ list_image: /img/icons/biological-targets.svg
 
 Insulin response optimization is a critical biological target in the BRAIN Diet, focusing on maintaining stable blood glucose levels and improving insulin sensitivity to support cognitive function and reduce inflammation. ADHD and some other neuropsychiatric conditions (e.g., ASD, Bipolar and MDD) may represent a cluster of disorders influenced by brain-specific insulin dysregulation. Insulin plays a central role in brain function, modulating neurotransmitter balance, synaptic plasticity, and cellular energy metabolism. Beyond standard fasting glucose measures, continuous glucose monitoring (CGMs) offers novel insights into postprandial spikes and glycemic variability (paper.txt, line 780).
 
+## Recipes
+
+<TagList tag="Insulin Response" filter="recipes" />
+
 ## Therapeutic Areas
 
 <TagList tag="Insulin Response" filter="therapeutic-areas" />

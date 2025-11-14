@@ -23,7 +23,7 @@ Cashews provide plant protein and zinc, supporting neurotransmitter modulation a
 
 ## Substances
 
-<TagList tag="Cashews" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

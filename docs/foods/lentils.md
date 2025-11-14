@@ -27,7 +27,7 @@ Lentils are a staple legume in the BRAIN Diet, providing plant protein, fiber, f
 
 ## Substances
 
-<TagList tag="Lentils" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

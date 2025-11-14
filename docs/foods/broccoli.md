@@ -27,7 +27,7 @@ Broccoli is a cruciferous vegetable providing sulforaphane (from glucoraphanin),
 
 ## Substances
 
-<TagList tag="Broccoli" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

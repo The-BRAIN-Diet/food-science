@@ -24,7 +24,7 @@ Blueberries are rich in polyphenols, particularly anthocyanins, that support cog
 
 ## Substances
 
-<TagList tag="Blueberries" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

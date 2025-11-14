@@ -20,6 +20,10 @@ list_image: /img/icons/biological-targets.svg
 
 Oxidative stress is a biological dysfunction that contributes to cognitive, emotional, and behavioral dysregulation in ADHD and other neurodevelopmental conditions. Oxidative stress arises when reactive oxygen/nitrogen species (ROS/RNS) exceed antioxidant capacity, damaging lipids, proteins, DNA, and impairing mitochondrial efficiency. In ADHD, adult cohorts frequently show elevated lipid peroxidation and oxidative indices, while antioxidant status appears normal or variably shifted, consistent with greater oxidative load rather than a primary antioxidant deficit. The BRAIN Diet targets oxidative stress through antioxidant networks, key cofactors, and strategies to reduce oxidative load, treating oxidative stress as a state-sensitive, potentially modifiable contributor to symptom severity (paper.txt, lines 619-620).
 
+## Recipes
+
+<TagList tag="Oxidative Stress" filter="recipes" />
+
 ## Therapeutic Areas
 
 <TagList tag="Oxidative Stress" filter="therapeutic-areas" />

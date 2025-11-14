@@ -23,7 +23,7 @@ Salmon roe (fish eggs) provides omega-3 fatty acids in phospholipid-bound form, 
 
 ## Substances
 
-<TagList tag="Salmon Roe" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

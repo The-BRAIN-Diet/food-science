@@ -26,7 +26,7 @@ Liver is one of the most nutrient-dense foods, providing bioavailable B12, retin
 
 ## Substances
 
-<TagList tag="Liver" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

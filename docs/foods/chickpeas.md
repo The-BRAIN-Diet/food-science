@@ -26,7 +26,7 @@ Chickpeas are legumes providing plant protein, prebiotic fiber, folate, magnesiu
 
 ## Substances
 
-<TagList tag="Chickpeas" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

@@ -18,6 +18,10 @@ list_image: /img/icons/biological-targets.svg
 
 The endocannabinoid system (ECS) is a key neuromodulatory system that helps regulate dopamine signaling, motivation, stress response, and inflammation, processes that are often disrupted in ADHD and other neurodevelopmental conditions. The BRAIN Diet targets ECS optimization through omega-3 fatty acids, polyphenols, and PE-rich foods that support endocannabinoid-like signaling and enhance ECS tone.
 
+## Recipes
+
+<TagList tag="Endocannabinoid System" filter="recipes" />
+
 ## Therapeutic Areas
 
 <TagList tag="Endocannabinoid System" filter="therapeutic-areas" />

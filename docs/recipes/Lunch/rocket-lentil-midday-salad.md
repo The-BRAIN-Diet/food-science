@@ -6,7 +6,7 @@ description: Polyphenol-rich salad supporting SIRT1 activation and microbiome sy
 tags:
   - Circadian
   - SIRT1
-  - Gut Health
+  - Gut Microbiome
   - Polyphenols
   - Lunch
   - Recipe
