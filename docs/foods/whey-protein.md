@@ -5,28 +5,23 @@ sidebar_label: Whey Protein
 description: High-quality protein with nicotinamide riboside and complete amino acids
 tags:
   - Food
+  - Whey Protein
   - Vegetarian
   - Leucine
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function.
+Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function. Whey protein isolate has DIAAS 118–122 with no limiting amino acids, high leucine content, and supports BDNF and neurotransmitter synthesis.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Protein**: DIAAS 118-122, highest quality
-- **Leucine**: High content for BDNF and neurotransmitter synthesis
-- **Complete amino acids**: All essential amino acids
+<TagList tag="Whey Protein" filter="recipes" />
 
-### Bioactive Substances
-- **Nicotinamide Riboside**: Efficient NAD+ precursor with neuroprotective potential
+## Substances
 
-## From the paper
-
-- "Nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread)"
-- "Whey protein isolate: DIAAS 118–122, None (limiting amino acids) - High leucine, supports BDNF and neurotransmitter synthesis"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -35,8 +30,12 @@ Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotina
 - Supports mitochondrial NAD+ availability
 - Part of protein strategy for brain health
 
-## Related Foods
+## Biological Target Matrix
 
-- [Milk](./milk.md) - Also contains nicotinamide riboside
-- [Dairy](./dairy.md) (general)
+<FoodMatrix tag="Whey Protein" />
+
+## References
+
+- Nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread)
+- Whey protein isolate: DIAAS 118–122, None (limiting amino acids) - High leucine, supports BDNF and neurotransmitter synthesis
 

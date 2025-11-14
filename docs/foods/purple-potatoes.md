@@ -5,34 +5,27 @@ sidebar_label: Purple Potatoes
 description: Anthocyanins (C3G) for heavy metal chelation and neuroprotection
 tags:
   - Food
+  - Purple Potatoes
   - Vegan
   - Vegetarian
   - Potassium
   - Vitamin C
   - Polyphenol
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Purple potatoes provide anthocyanins, particularly C3G (cyanidin-3-glucoside), that serve as natural chelation agents for heavy metals and support neuroprotection.
+Purple potatoes provide anthocyanins, particularly C3G (cyanidin-3-glucoside), that serve as natural chelation agents for heavy metals and support neuroprotection. Anthocyanins, especially C3G-rich sources like berries, purple potatoes, and black goji, serve as natural chelation agents for heavy metals and environmental contaminants, neuroprotective molecules that support synaptic resilience and detox pathways, and detox allies against microplastics and hormone-disrupting pollutants.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Purple Potatoes" filter="recipes" />
 
-- **Resistant Starch**: When cooked and cooled
-- **Potassium**: Electrolyte
-- **Vitamin C**: Some content
+## Substances
 
-### Bioactive Substances
-
-- **Anthocyanins (C3G)**: Cyanidin-3-glucoside for metal chelation and neuroprotection
-- **Polyphenols**: Antioxidant compounds
-
-## From the paper
-
-- "Anthocyanins, especially C3G-rich sources like berries, purple potatoes, and black goji, serve as: Natural chelation agents for heavy metals and environmental contaminants; Neuroprotective molecules that support synaptic resilience and detox pathways; Detox allies against microplastics and hormone-disrupting pollutants"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -41,8 +34,10 @@ Purple potatoes provide anthocyanins, particularly C3G (cyanidin-3-glucoside), t
 - Supports detoxification pathways
 - Pair with other C3G-rich foods
 
-## Related Foods
+## Biological Target Matrix
 
-- [Berries](./berries.md) - Also C3G-rich
-- [Potatoes](./potatoes.md) (general)
-- [Cooled Potatoes](./cooled-potatoes.md)
+<FoodMatrix tag="Purple Potatoes" />
+
+## References
+
+- Anthocyanins, especially C3G-rich sources like berries, purple potatoes, and black goji, serve as: Natural chelation agents for heavy metals and environmental contaminants; Neuroprotective molecules that support synaptic resilience and detox pathways; Detox allies against microplastics and hormone-disrupting pollutants

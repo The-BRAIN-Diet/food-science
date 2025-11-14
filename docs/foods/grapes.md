@@ -5,31 +5,26 @@ sidebar_label: Grapes
 description: Resveratrol source for SIRT1 activation and NAD+ support
 tags:
   - Food
+  - Grapes
   - Vegan
   - Vegetarian
   - Potassium
   - Polyphenol
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-dependent processes and supporting mitochondrial function.
+Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-dependent processes and supporting mitochondrial function. Polyphenols (e.g., resveratrol) activate SIRT1, enhancing NAD⁺-dependent processes, and are found in grapes, blueberries, cranberries, peanuts, and dark chocolate.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Grapes" filter="recipes" />
 
-- **Fiber**: Some fiber content
-- **Potassium**: Electrolyte
+## Substances
 
-### Bioactive Substances
-
-- **Resveratrol**: Polyphenol that activates SIRT1, enhancing NAD+-dependent processes
-
-## From the paper
-
-- "Polyphenols (e.g., resveratrol): Activate SIRT1, enhancing NAD⁺-dependent processes - Grapes, blueberries, cranberries, peanuts, dark chocolate"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -38,8 +33,10 @@ Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-de
 - Supports mitochondrial NAD+ pathways
 - Pair with other resveratrol sources
 
-## Related Foods
+## Biological Target Matrix
 
-- [Blueberries](./blueberries.md) - Also contains resveratrol
-- [Cranberries](./cranberries.md) - Also contains resveratrol
-- [Peanuts](./peanuts.md) - Also contains resveratrol
+<FoodMatrix tag="Grapes" />
+
+## References
+
+- Polyphenols (e.g., resveratrol): Activate SIRT1, enhancing NAD⁺-dependent processes - Grapes, blueberries, cranberries, peanuts, dark chocolate

@@ -5,33 +5,25 @@ sidebar_label: Miso
 description: Fermented soybean paste with probiotics and umami flavor
 tags:
   - Food
+  - Miso
   - Vegan
   - Vegetarian
   - Sodium
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication.
+Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Miso" filter="recipes" />
 
-- **Protein**: From soybeans
-- **Sodium**: High in traditional forms
-- **B Vitamins**: Produced during fermentation
+## Substances
 
-### Bioactive Substances
-
-- **Probiotics**: Live beneficial bacteria
-- **Postbiotics**: Beneficial fermentation compounds
-
-## From the paper
-
-- "Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling"
-- "Miso: Fermented soybean paste, rich in beneficial bacteria"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -40,8 +32,11 @@ Miso is a fermented soybean paste providing live probiotics, postbiotic compound
 - Add at end of cooking to preserve probiotics
 - Part of fermented foods strategy
 
-## Related Foods
+## Biological Target Matrix
 
-- [Soy](./soy.md)
-- [Tempeh](./tempeh.md)
-- [Natto](./natto.md)
+<FoodMatrix tag="Miso" />
+
+## References
+
+- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
+- Miso: Fermented soybean paste, rich in beneficial bacteria

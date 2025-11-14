@@ -5,28 +5,25 @@ sidebar_label: Asparagus
 description: FOS prebiotic fiber and folate source
 tags:
   - Food
+  - Asparagus
   - Vegan
   - Vegetarian
   - Vitamin B9
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supporting gut microbiome and methylation pathways.
+Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supporting gut microbiome and methylation pathways. Fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Asparagus" filter="recipes" />
 
-- **FOS (Fructooligosaccharides)**: Prebiotic fiber
-- **Folate (B9)**: Methylation support
-- **Fiber**: Prebiotic and general fiber
+## Substances
 
-## From the paper
-
-- "Fructooligosaccharides (FOS): Onions, garlic, leeks, asparagus"
-- "Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)" - asparagus also contains inulin
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -35,8 +32,11 @@ Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supp
 - Supports Bifidobacterium growth
 - Gentle cooking preserves nutrients
 
-## Related Foods
+## Biological Target Matrix
 
-- [Onions](./onions.md)
-- [Garlic](./garlic.md)
-- [Leeks](./leeks.md)
+<FoodMatrix tag="Asparagus" />
+
+## References
+
+- Fructooligosaccharides (FOS): Onions, garlic, leeks, asparagus
+- Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)

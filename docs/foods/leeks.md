@@ -5,28 +5,25 @@ sidebar_label: Leeks
 description: Allium vegetable with prebiotic fiber (FOS)
 tags:
   - Food
+  - Leeks
   - Vegan
   - Vegetarian
   - Vitamin K2
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity.
+Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity. Fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus, and are part of the allium family with prebiotic benefits.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Leeks" filter="recipes" />
 
-- **FOS (Fructooligosaccharides)**: Prebiotic fiber
-- **Fiber**: Prebiotic and general fiber
-- **Vitamin K**: Some content
+## Substances
 
-## From the paper
-
-- "Fructooligosaccharides (FOS): Onions, garlic, leeks, asparagus"
-- Part of allium family with prebiotic benefits
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -35,8 +32,10 @@ Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fib
 - Supports Bifidobacterium growth
 - Pair with other allium vegetables
 
-## Related Foods
+## Biological Target Matrix
 
-- [Onions](./onions.md)
-- [Garlic](./garlic.md)
-- [Asparagus](./asparagus.md)
+<FoodMatrix tag="Leeks" />
+
+## References
+
+- Fructooligosaccharides (FOS): Onions, garlic, leeks, asparagus

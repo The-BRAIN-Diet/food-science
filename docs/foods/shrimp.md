@@ -5,25 +5,23 @@ sidebar_label: Shrimp
 description: Seafood providing protein and minerals
 tags:
   - Food
+  - Shrimp
   - Selenium
   - Zinc
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Shrimp provides complete protein, selenium, and other minerals, supporting neurotransmitter synthesis and antioxidant function.
+Shrimp provides complete protein, selenium, and other minerals, supporting neurotransmitter synthesis and antioxidant function. Shrimp is listed as a seafood source and is part of diverse protein strategy.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Protein**: Complete amino acid profile
-- **Selenium**: Antioxidant support
-- **Zinc**: Some content
+<TagList tag="Shrimp" filter="recipes" />
 
-## From the paper
+## Substances
 
-- Listed as seafood source
-- Part of diverse protein strategy
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -32,9 +30,11 @@ Shrimp provides complete protein, selenium, and other minerals, supporting neuro
 - Part of diverse seafood intake
 - Supports protein and mineral goals
 
-## Related Foods
+## Biological Target Matrix
 
-- [Crab](./crab.md)
-- [Scallops](./scallops.md)
-- [Oysters](./oysters.md)
+<FoodMatrix tag="Shrimp" />
+
+## References
+
+- Shrimp is listed as a seafood source
 

@@ -5,24 +5,22 @@ sidebar_label: Kidney
 description: Organ meat with high nutrient density
 tags:
   - Food
+  - Kidney
   - Iron
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Kidney is an organ meat providing high nutrient density, including B vitamins, iron, and other minerals.
+Kidney is an organ meat providing high nutrient density, including B vitamins, iron, and other minerals. Kidney is part of the organ meats category, and occasional offal consumption is recommended for nutrient density.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **B Vitamins**: Various B vitamins
-- **Iron**: Heme iron
-- **Protein**: Complete amino acid profile
+<TagList tag="Kidney" filter="recipes" />
 
-## From the paper
+## Substances
 
-- Part of organ meats category
-- "Occasional offal (Latoch et al. 2024) i.e. liver" - kidney also mentioned
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -31,9 +29,11 @@ Kidney is an organ meat providing high nutrient density, including B vitamins, i
 - Part of nutrient-dense animal food strategy
 - Important for nutrient density
 
-## Related Foods
+## Biological Target Matrix
 
-- [Liver](./liver.md)
-- [Heart](./heart.md)
-- [Organ Meats](./organ-meats.md)
+<FoodMatrix tag="Kidney" />
+
+## References
+
+- Occasional offal (Latoch et al. 2024) i.e. liver recommended for nutrient density
 

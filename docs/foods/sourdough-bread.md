@@ -5,6 +5,7 @@ sidebar_label: Sourdough Bread
 description: Fermented bread with GABA, improved amino acid bioavailability, and optimized Maillard products
 tags:
   - Food
+  - Sourdough Bread
   - Vegan
   - Vegetarian
   - Magnesium
@@ -14,34 +15,20 @@ tags:
   - Copper
   - Manganese
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Sourdough bread, especially when made with quinoa or other functional flours, provides GABA, improved amino acid bioavailability, and optimized Maillard reaction products (MRPs) with reduced acrylamide.
+Sourdough bread, especially when made with quinoa or other functional flours, provides GABA, improved amino acid bioavailability, and optimized Maillard reaction products (MRPs) with reduced acrylamide. Quinoa sourdough offers both very high nutrients (due to the quinoa) and a high GABA profile, and sourdough fermentation enhances bioavailability of amino acids through activation of endogenous cereal proteases.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Sourdough Bread" filter="recipes" />
 
-- **GABA**: Produced by Levilactobacillus brevis in quinoa sourdough
-- **Amino acids**: Enhanced bioavailability through proteolysis
-- **B Vitamins**: Produced during fermentation
-- **Minerals**: Magnesium, potassium, iron, zinc, copper, manganese (varies by flour)
+## Substances
 
-### Bioactive Substances
-
-- **Maillard Reaction Products (MRPs)**: Antioxidant melanoidins when optimized
-- **Probiotics**: Live lactic acid bacteria
-- **Postbiotics**: Beneficial fermentation compounds
-
-## From the paper
-
-- "Quinoa sourdough... offers both very high nutrients (due to the quinoa) and a high GABA profile"
-- "Sourdough fermentation enhances bioavailability of amino acids through activation of endogenous cereal proteases"
-- "Traditionally fermented breads that optimize Maillard Reaction Products (MRPs)"
-- "Nicotinamide Riboside: Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread)"
-- Detailed bread-making table showing how sourdough reduces acrylamide and enhances MRPs
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -49,9 +36,15 @@ Sourdough bread, especially when made with quinoa or other functional flours, pr
 - Long fermentation (12-18h) improves amino acid release
 - Dutch oven baking reduces acrylamide formation
 - Glycine addition (0.3-0.4%) further reduces acrylamide
+- Traditionally fermented breads optimize Maillard Reaction Products (MRPs)
 
-## Related Foods
+## Biological Target Matrix
 
-- [Quinoa](./quinoa.md) - For GABA-rich sourdough
-- [Whole Grains](./whole-grains.md)
-- [Spelt](./spelt.md)
+<FoodMatrix tag="Sourdough Bread" />
+
+## References
+
+- Quinoa sourdough offers both very high nutrients (due to the quinoa) and a high GABA profile
+- Sourdough fermentation enhances bioavailability of amino acids through activation of endogenous cereal proteases [Gänzle, Loponen, and Gobbetti 2008](/docs/papers/BRAIN-Diet-References#ganzle_sourdough_2008)
+- Traditionally fermented breads that optimize Maillard Reaction Products (MRPs)
+- Nicotinamide Riboside: Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread)

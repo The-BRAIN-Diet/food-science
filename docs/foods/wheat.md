@@ -5,31 +5,27 @@ sidebar_label: Wheat
 description: Whole grain providing B vitamins, fiber, and minerals
 tags:
   - Food
+  - Wheat
   - Vegan
   - Vegetarian
   - Magnesium
   - Zinc
   - Iron
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Wheat, especially whole grain forms, provides B vitamins, fiber, minerals, and when used in sourdough fermentation, can produce GABA and optimized Maillard products.
+Wheat, especially whole grain forms, provides B vitamins, fiber, minerals, and when used in sourdough fermentation, can produce GABA and optimized Maillard products. Whole wheat flour provides gluten strength and more amino acids to fuel Maillard reaction.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Wheat" filter="recipes" />
 
-- **B Vitamins**: Various B vitamins
-- **Fiber**: Prebiotic fiber
-- **Minerals**: Magnesium, zinc, iron
+## Substances
 
-## From the paper
-
-- "Whole Wheat Flour: Gluten strength; more amino acids to fuel Maillard reaction"
-- Part of whole grains category
-- See [Sourdough Bread](./sourdough-bread.md) for fermented forms
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -38,8 +34,10 @@ Wheat, especially whole grain forms, provides B vitamins, fiber, minerals, and w
 - Part of diverse grain intake
 - Supports gut health via fiber
 
-## Related Foods
+## Biological Target Matrix
 
-- [Spelt](./spelt.md) - Ancient wheat variety
-- [Sourdough Bread](./sourdough-bread.md)
-- [Wheat Germ](./wheat-germ.md)
+<FoodMatrix tag="Wheat" />
+
+## References
+
+- Whole Wheat Flour: Gluten strength; more amino acids to fuel Maillard reaction

@@ -5,31 +5,24 @@ sidebar_label: Kombucha
 description: Fermented tea providing probiotics and postbiotics
 tags:
   - Food
+  - Kombucha
   - Vegan
   - Vegetarian
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Kombucha is fermented tea providing live probiotics, postbiotic compounds, and organic acids, supporting gut-brain axis communication.
+Kombucha is fermented tea providing live probiotics, postbiotic compounds, and organic acids, supporting gut-brain axis communication. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Kombucha" filter="recipes" />
 
-- **B Vitamins**: Produced during fermentation
-- **Organic acids**: From fermentation
+## Substances
 
-### Bioactive Substances
-
-- **Probiotics**: Live beneficial bacteria and yeasts
-- **Postbiotics**: Beneficial fermentation compounds
-
-## From the paper
-
-- "Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling"
-- "Kombucha: Fermented tea beverage"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -38,8 +31,11 @@ Kombucha is fermented tea providing live probiotics, postbiotic compounds, and o
 - Supports gut microbiome diversity
 - Moderate consumption due to sugar content in some products
 
-## Related Foods
+## Biological Target Matrix
 
-- [Green Tea](./green-tea.md) - Base for kombucha
-- [Kefir](./kefir.md)
-- [Kimchi](./kimchi.md)
+<FoodMatrix tag="Kombucha" />
+
+## References
+
+- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
+- Kombucha: Fermented tea beverage

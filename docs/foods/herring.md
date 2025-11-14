@@ -5,27 +5,23 @@ sidebar_label: Herring
 description: Oily fish rich in EPA/DHA omega-3s
 tags:
   - Food
+  - Herring
   - Omega-3 Fatty Acids
   - Vitamin D
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Herring is an oily fish providing high levels of EPA/DHA omega-3 fatty acids, supporting brain health and anti-inflammatory pathways.
+Herring is an oily fish providing high levels of EPA/DHA omega-3 fatty acids, supporting brain health and anti-inflammatory pathways. Herring is part of the fatty fish category recommended for brain health.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Herring" filter="recipes" />
 
-- **Omega-3 (EPA/DHA)**: High levels
-- **Protein**: Complete amino acid profile
-- **Vitamin D**: Some content
-- **B Vitamins**: Various B vitamins
+## Substances
 
-## From the paper
-
-- Listed as oily fish source of omega-3
-- Part of fatty fish category for brain health
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -34,8 +30,10 @@ Herring is an oily fish providing high levels of EPA/DHA omega-3 fatty acids, su
 - Sustainable omega-3 source
 - Part of regular oily fish intake
 
-## Related Foods
+## Biological Target Matrix
 
-- [Sardines](./sardines.md)
-- [Mackerel](./mackerel.md)
-- [Salmon](./salmon.md)
+<FoodMatrix tag="Herring" />
+
+## References
+
+- Oily fish (herring, mackerel, sardines) provide EPA/DHA omega-3 fatty acids for brain health

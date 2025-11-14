@@ -5,27 +5,25 @@ sidebar_label: Nori
 description: Seaweed with trace creatine and minerals
 tags:
   - Food
+  - Nori
   - Vegan
   - Vegetarian
   - Iodine
   - Creatine
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Nori is a seaweed providing trace amounts of creatine, iodine, and other minerals, though amounts are minimal.
+Nori is a seaweed providing trace amounts of creatine, iodine, and other minerals, though amounts are minimal. Creatine is minimal — trace amounts in seaweed (e.g., nori).
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Iodine**: Important for thyroid function
-- **Creatine**: Trace amounts (minimal)
-- **Minerals**: Various trace minerals
+<TagList tag="Nori" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Creatine: Minimal — trace amounts in seaweed (e.g., nori)"
-- Part of seaweed family
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -34,8 +32,11 @@ Nori is a seaweed providing trace amounts of creatine, iodine, and other mineral
 - Trace creatine not sufficient for needs
 - Important for iodine intake
 
-## Related Foods
+## Biological Target Matrix
 
-- [Seaweed](./seaweed.md) (general)
-- [Algal Oil](./algal-oil.md)
+<FoodMatrix tag="Nori" />
+
+## References
+
+- Creatine: Minimal — trace amounts in seaweed (e.g., nori)
 

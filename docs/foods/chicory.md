@@ -5,26 +5,24 @@ sidebar_label: Chicory
 description: High inulin content; coffee substitute
 tags:
   - Food
+  - Chicory
   - Vegan
   - Vegetarian
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Chicory provides high inulin content and can be used as a coffee substitute, supporting gut microbiome diversity.
+Chicory provides high inulin content and can be used as a coffee substitute, supporting gut microbiome diversity. Prebiotic fibres including inulin (chicory, onions) support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Chicory" filter="recipes" />
 
-- **Inulin**: High content, prebiotic fiber
-- **Fiber**: Prebiotic fiber
+## Substances
 
-## From the paper
-
-- "Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)"
-- "Chicory root: Coffee substitute, high inulin"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -33,8 +31,12 @@ Chicory provides high inulin content and can be used as a coffee substitute, sup
 - Part of diverse prebiotic fiber strategy
 - Supports Bifidobacterium and Akkermansia
 
-## Related Foods
+## Biological Target Matrix
 
-- [Jerusalem Artichokes](./jerusalem-artichokes.md) - Also high in inulin
-- [Onions](./onions.md) - Also contains inulin
-- [Dandelion Greens](./dandelion-greens.md)
+<FoodMatrix tag="Chicory" />
+
+## References
+
+- Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)
+- Chicory root: Coffee substitute, high inulin
+- Inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier

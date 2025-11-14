@@ -5,29 +5,25 @@ sidebar_label: Jerusalem Artichokes
 description: Highest inulin content among common foods
 tags:
   - Food
+  - Jerusalem Artichokes
   - Vegan
   - Vegetarian
   - Potassium
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth.
+Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth. Jerusalem artichokes have the highest inulin content, and inulin supports ↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Jerusalem Artichokes" filter="recipes" />
 
-- **Inulin**: Highest content among common foods
-- **Fiber**: Prebiotic fiber
-- **Potassium**: Electrolyte
+## Substances
 
-## From the paper
-
-- "Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)"
-- "Jerusalem artichokes: Highest inulin content"
-- "↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -36,7 +32,12 @@ Jerusalem artichokes (sunchokes) provide the highest inulin content among common
 - Start with small amounts to avoid digestive discomfort
 - Supports gut microbiome diversity
 
-## Related Foods
+## Biological Target Matrix
 
-- [Chicory](./chicory.md) - Also high in inulin
-- [Onions](./onions.md) - Also contains inulin
+<FoodMatrix tag="Jerusalem Artichokes" />
+
+## References
+
+- Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)
+- Jerusalem artichokes: Highest inulin content
+- Inulin supports ↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier

@@ -5,25 +5,24 @@ sidebar_label: Lupins
 description: Legume protein source for vegan diets
 tags:
   - Food
+  - Lupins
   - Vegan
   - Vegetarian
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Lupins are legumes providing plant protein and fiber, part of diverse protein sources for vegan BRAIN Diet approaches.
+Lupins are legumes providing plant protein and fiber, part of diverse protein sources for vegan BRAIN Diet approaches. Protein sources include legumes, fermented soy, lupins, Mankai, seeds, whole grains, and functional yeasts.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Lupins" filter="recipes" />
 
-- **Protein**: Plant protein source
-- **Fiber**: Prebiotic fiber
+## Substances
 
-## From the paper
-
-- "Protein Sources: Legumes, fermented soy, lupins, Mankai, seeds, whole grains, functional yeasts"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -32,8 +31,10 @@ Lupins are legumes providing plant protein and fiber, part of diverse protein so
 - Pair with grains for complete amino acid profile
 - Supports plant protein diversity
 
-## Related Foods
+## Biological Target Matrix
 
-- [Lentils](./lentils.md)
-- [Chickpeas](./chickpeas.md)
-- [Soy](./soy.md)
+<FoodMatrix tag="Lupins" />
+
+## References
+
+- Protein Sources: Legumes, fermented soy, lupins, Mankai, seeds, whole grains, functional yeasts

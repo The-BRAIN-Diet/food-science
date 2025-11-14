@@ -5,37 +5,27 @@ sidebar_label: Seaweed
 description: Iodine, EPA (in red algae), magnesium, and trace minerals
 tags:
   - Food
+  - Seaweed
   - Vegan
   - Vegetarian
   - Iodine
   - Omega-3 Fatty Acids
   - Magnesium
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health.
+Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health. Seaweed can be added to soups, stews, or salads and provides trace amounts of creatine (e.g., nori) and taurine.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Seaweed" filter="recipes" />
 
-- **Iodine**: Critical for thyroid and brain function
-- **EPA**: In red algae (low bioavailable)
-- **Magnesium**: Cofactor
-- **Fiber**: Prebiotic fiber
+## Substances
 
-### Bioactive Substances
-
-- **Glycolipids**: Lipid compounds
-
-## From the paper
-
-- "Seaweed (Whole): Glycolipids, EPA (in red algae), iodine, magnesium, fibre - Added to soups, stews, or salads"
-- "EPA & DHA (Omega-3): Algal oil (direct DHA), seaweed (low bioavailable DHA/EPA)"
-- "Creatine: Minimal — trace amounts in seaweed (e.g., nori)"
-- "Taurine: Minimal in plants; trace in seaweed/algae"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -44,8 +34,13 @@ Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, 
 - Part of diverse plant food strategy
 - Low bioavailable EPA; consider algal oil for direct DHA
 
-## Related Foods
+## Biological Target Matrix
 
-- [Nori](./nori.md)
-- [Algal Oil](./algal-oil.md)
-- [Chlorella](./chlorella.md)
+<FoodMatrix tag="Seaweed" />
+
+## References
+
+- Seaweed (Whole): Glycolipids, EPA (in red algae), iodine, magnesium, fibre - Added to soups, stews, or salads
+- EPA & DHA (Omega-3): Algal oil (direct DHA), seaweed (low bioavailable DHA/EPA)
+- Creatine: Minimal — trace amounts in seaweed (e.g., nori)
+- Taurine: Minimal in plants; trace in seaweed/algae

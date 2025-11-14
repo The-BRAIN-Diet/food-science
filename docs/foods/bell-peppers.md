@@ -5,6 +5,7 @@ sidebar_label: Bell Peppers
 description: High vitamin C for iron absorption and norepinephrine support
 tags:
   - Food
+  - Bell Peppers
   - Vegan
   - Vegetarian
   - Vitamin C
@@ -12,24 +13,20 @@ tags:
   - Lutein
   - Carotenoid
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Bell peppers provide very high vitamin C content, enhancing non-heme iron absorption and supporting norepinephrine synthesis.
+Bell peppers provide very high vitamin C content, enhancing non-heme iron absorption and supporting norepinephrine synthesis. Eating beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) improves iron bioavailability.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Bell Peppers" filter="recipes" />
 
-- **Vitamin C**: Very high content, enhances iron absorption
-- **Carotenoids**: Beta-carotene, lutein
-- **Fiber**: Some fiber content
+## Substances
 
-## From the paper
-
-- "Norepinephrine: Same as dopamine sources + citrus, bell peppers (vitamin C)"
-- "Eat your beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus)"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -38,8 +35,11 @@ Bell peppers provide very high vitamin C content, enhancing non-heme iron absorp
 - Part of food synergy strategy
 - Supports iron sufficiency
 
-## Related Foods
+## Biological Target Matrix
 
-- [Tomatoes](./tomatoes.md) - Also vitamin C rich
-- [Citrus](./citrus.md) - Also vitamin C rich
-- [Lemon](./lemon.md)
+<FoodMatrix tag="Bell Peppers" />
+
+## References
+
+- Norepinephrine: Same as dopamine sources + citrus, bell peppers (vitamin C)
+- Eat your beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus)

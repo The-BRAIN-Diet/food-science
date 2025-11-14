@@ -5,33 +5,25 @@ sidebar_label: Sauerkraut
 description: Fermented cabbage providing Lactobacillus probiotics
 tags:
   - Food
+  - Sauerkraut
   - Vegan
   - Vegetarian
   - Vitamin K2
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbiotic compounds, and enhanced nutrient bioavailability.
+Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbiotic compounds, and enhanced nutrient bioavailability. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Sauerkraut" filter="recipes" />
 
-- **Fiber**: Prebiotic fiber from cabbage
-- **Vitamin K**: Produced during fermentation
-- **B Vitamins**: Produced during fermentation
+## Substances
 
-### Bioactive Substances
-
-- **Probiotics**: Lactobacillus strains
-- **Postbiotics**: Beneficial fermentation compounds
-
-## From the paper
-
-- "Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling"
-- "Sauerkraut: Fermented cabbage, rich in Lactobacillus"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -40,8 +32,11 @@ Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbio
 - Part of fermented foods rotation
 - Supports gut microbiome diversity
 
-## Related Foods
+## Biological Target Matrix
 
-- [Kimchi](./kimchi.md)
-- [Cabbage](./cabbage.md)
-- [Kefir](./kefir.md)
+<FoodMatrix tag="Sauerkraut" />
+
+## References
+
+- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
+- Sauerkraut: Fermented cabbage, rich in Lactobacillus

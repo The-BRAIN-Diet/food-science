@@ -5,20 +5,24 @@ sidebar_label: Cilantro
 description: Herb with potential heavy metal chelation properties
 tags:
   - Food
+  - Cilantro
   - Vegan
   - Vegetarian
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
 Cilantro is an herb that may support heavy metal chelation and provides polyphenols, though research is limited.
 
-## Key Substances
+## Recipes
 
-### Bioactive Substances
-- **Polyphenols**: Antioxidant compounds
-- **Volatile compounds**: Aromatic compounds
+<TagList tag="Cilantro" filter="recipes" />
+
+## Substances
+
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -27,8 +31,11 @@ Cilantro is an herb that may support heavy metal chelation and provides polyphen
 - Similar uses to parsley
 - Supports diverse plant food strategy
 
-## Related Foods
+## Biological Target Matrix
 
-- [Parsley](./parsley.md) - Similar uses
-- [Herbs](./herbs.md) (general)
+<FoodMatrix tag="Cilantro" />
+
+## References
+
+- Cilantro may support heavy metal chelation and provides polyphenols
 

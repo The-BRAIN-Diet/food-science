@@ -5,26 +5,24 @@ sidebar_label: Chamomile
 description: Apigenin for sleep support via benzodiazepine receptor binding
 tags:
   - Food
+  - Chamomile
   - Vegan
   - Vegetarian
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine receptors, supporting calm and sleep onset without sedation.
+Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine receptors, supporting calm and sleep onset without sedation. Apigenin (from chamomile tea) binds to benzodiazepine receptors, supporting calm and sleep.
 
-## Key Substances
+## Recipes
 
-### Bioactive Substances
-- **Apigenin**: Flavonoid that binds to benzodiazepine receptors
-- **Polyphenols**: Antioxidant compounds
+<TagList tag="Chamomile" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Apigenin (from chamomile tea): Binds to benzodiazepine receptors, supporting calm and sleep"
-- "Herbal teas (e.g. chamomile for apigenin, lemon balm, tart cherry juice)"
-- "Evening(Wind-down, sleep prep): Herbal teas (e.g. chamomile for apigenin, lemon balm, tart cherry juice)"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -33,9 +31,13 @@ Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine recept
 - Part of sleep-supportive evening routine
 - Can be combined with other calming herbs
 
-## Related Foods
+## Biological Target Matrix
 
-- [Lemon Balm](./lemon-balm.md) - Also for sleep
-- [Tart Cherry](./tart-cherry.md) - Also for sleep
-- [L-Theanine](../substances/bioactive-substances/l-theanine.md) - Similar calming effect
+<FoodMatrix tag="Chamomile" />
+
+## References
+
+- Apigenin (from chamomile tea): Binds to benzodiazepine receptors, supporting calm and sleep [Kramer and Johnson 2024](/docs/papers/BRAIN-Diet-References#kramer_chamomile_2024)
+- Herbal teas (e.g. chamomile for apigenin, lemon balm, tart cherry juice)
+- Evening(Wind-down, sleep prep): Herbal teas (e.g. chamomile for apigenin, lemon balm, tart cherry juice)
 

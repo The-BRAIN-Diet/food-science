@@ -5,29 +5,25 @@ sidebar_label: Turmeric Milk
 description: Combination of turmeric (curcumin) with milk/fat for enhanced absorption
 tags:
   - Food
+  - Turmeric Milk
   - Vegetarian
   - Calcium
   - Curcumin
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Turmeric milk combines turmeric (curcumin) with milk/fat, enhancing curcumin absorption and providing a vehicle for brain-focused bioactive herbs.
+Turmeric milk combines turmeric (curcumin) with milk/fat, enhancing curcumin absorption and providing a vehicle for brain-focused bioactive herbs. Green tea contributes manganese and small amounts of fluoride and potassium, alongside polyphenols that support antioxidant defenses. Masala/'chai' and turmeric milk are great sources where bioactive brain focused herbs are present.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Calcium**: From milk
-- **Protein**: From milk
+<TagList tag="Turmeric Milk" filter="recipes" />
 
-### Bioactive Substances
-- **Curcumin**: From turmeric, enhanced by fat in milk
-- **Spice compounds**: Varies by preparation
+## Substances
 
-## From the paper
-
-- "Green tea contributes manganese and small amounts of fluoride and potassium, alongside polyphenols that support antioxidant defenses. Masala/'chai', turmeric milk are great sources where bioactive brain focused herbs are present"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -36,9 +32,11 @@ Turmeric milk combines turmeric (curcumin) with milk/fat, enhancing curcumin abs
 - Part of food synergy strategy
 - Supports curcumin bioavailability
 
-## Related Foods
+## Biological Target Matrix
 
-- [Turmeric](./turmeric.md)
-- [Milk](./milk.md)
-- [Masala/Chai](./masala-chai.md)
+<FoodMatrix tag="Turmeric Milk" />
+
+## References
+
+- Green tea contributes manganese and small amounts of fluoride and potassium, alongside polyphenols that support antioxidant defenses. Masala/'chai', turmeric milk are great sources where bioactive brain focused herbs are present
 

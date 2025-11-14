@@ -5,6 +5,7 @@ sidebar_label: Egg Yolks
 description: Nutrient-dense part of eggs with choline, lutein, and fat-soluble vitamins
 tags:
   - Food
+  - Egg Yolks
   - Vegetarian
   - Choline
   - Lutein
@@ -14,25 +15,20 @@ tags:
   - Vitamin D
   - Vitamin E
   - Vitamin K2
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health.
+Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health. Acetylcholine and choline food sources include egg yolks, fish roe, soy, wheat germ, and liver.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Choline**: High content for acetylcholine synthesis
-- **Lutein/Zeaxanthin**: Carotenoids for eye and brain health
-- **Fat-soluble vitamins**: A, D, E, K2
-- **Protein**: Complete amino acid profile
+<TagList tag="Egg Yolks" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Acetylcholine and choline: Egg yolks, fish roe, soy, wheat germ, liver"
-- "Carotenoids are abundant in leafy greens, orange and yellow vegetables, corn, and egg yolks"
-- "Pasture-raised egg yolks" for nutrient density
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -41,9 +37,13 @@ Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (caroteno
 - Important for choline and carotenoid intake
 - Pair with carotenoid-rich vegetables for enhanced absorption
 
-## Related Foods
+## Biological Target Matrix
 
-- [Eggs](./eggs.md)
-- [Fish Roe](./fish-roe.md) - Also high in choline
-- [Liver](./liver.md) - Also high in choline
+<FoodMatrix tag="Egg Yolks" />
+
+## References
+
+- Acetylcholine and choline: Egg yolks, fish roe, soy, wheat germ, liver
+- Carotenoids are abundant in leafy greens, orange and yellow vegetables, corn, and egg yolks
+- Pasture-raised egg yolks for nutrient density
 

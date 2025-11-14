@@ -5,33 +5,26 @@ sidebar_label: Cabbage
 description: Base for sauerkraut; fiber and vitamin C
 tags:
   - Food
+  - Cabbage
   - Vegan
   - Vegetarian
   - Vitamin C
   - Vitamin B9
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, supporting gut health through both fresh and fermented forms.
+Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, supporting gut health through both fresh and fermented forms. Sauerkraut is fermented cabbage, rich in Lactobacillus, and is part of the fermented foods strategy.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Cabbage" filter="recipes" />
 
-- **Fiber**: Prebiotic fiber
-- **Vitamin C**: Antioxidant
-- **Folate (B9)**: Some content
+## Substances
 
-### Bioactive Substances
-
-- **Probiotics**: When fermented as sauerkraut
-
-## From the paper
-
-- "Sauerkraut: Fermented cabbage, rich in Lactobacillus"
-- Part of fermented foods strategy
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -40,8 +33,10 @@ Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, 
 - Part of diverse vegetable intake
 - Supports gut health
 
-## Related Foods
+## Biological Target Matrix
 
-- [Sauerkraut](./sauerkraut.md)
-- [Broccoli](./broccoli.md)
-- [Cauliflower](./cauliflower.md)
+<FoodMatrix tag="Cabbage" />
+
+## References
+
+- Sauerkraut: Fermented cabbage, rich in Lactobacillus

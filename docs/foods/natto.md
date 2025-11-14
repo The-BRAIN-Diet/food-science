@@ -5,33 +5,25 @@ sidebar_label: Natto
 description: Fermented soybeans with unique Bacillus subtilis and vitamin K2
 tags:
   - Food
+  - Natto
   - Vegan
   - Vegetarian
   - Vitamin K2
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability.
+Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability. Natto is fermented soybeans with unique Bacillus subtilis and is part of the fermented foods strategy.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Natto" filter="recipes" />
 
-- **Protein**: From soybeans
-- **Vitamin K2**: Important for bone and cardiovascular health
-- **B Vitamins**: Produced during fermentation
+## Substances
 
-### Bioactive Substances
-
-- **Bacillus subtilis**: Unique probiotic strain
-- **Probiotics**: Live beneficial bacteria
-
-## From the paper
-
-- "Natto: Fermented soybeans, unique Bacillus subtilis"
-- Part of fermented foods strategy
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -40,8 +32,10 @@ Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitam
 - Part of fermented foods rotation
 - Unique probiotic profile
 
-## Related Foods
+## Biological Target Matrix
 
-- [Soy](./soy.md)
-- [Tempeh](./tempeh.md)
-- [Miso](./miso.md)
+<FoodMatrix tag="Natto" />
+
+## References
+
+- Natto: Fermented soybeans, unique Bacillus subtilis

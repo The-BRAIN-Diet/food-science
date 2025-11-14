@@ -5,24 +5,23 @@ sidebar_label: Dark-Meat Poultry
 description: Higher taurine content than white meat
 tags:
   - Food
+  - Dark-Meat Poultry
   - Taurine
   - Iron
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling.
+Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling. Taurine food sources include scallops, clams, dark-meat poultry, and mackerel.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Taurine**: Higher levels than white meat
-- **Protein**: Complete amino acid profile
-- **Iron**: Heme iron
+<TagList tag="Dark-Meat Poultry" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Taurine: Scallops, clams, dark-meat poultry, mackerel"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -31,9 +30,11 @@ Dark-meat poultry (thighs, legs) provides higher taurine content than white meat
 - Important for taurine intake
 - Part of diverse protein strategy
 
-## Related Foods
+## Biological Target Matrix
 
-- [Chicken](./chicken.md)
-- [Turkey](./turkey.md)
-- [Scallops](./scallops.md) - Also high in taurine
+<FoodMatrix tag="Dark-Meat Poultry" />
+
+## References
+
+- Taurine: Scallops, clams, dark-meat poultry, mackerel
 

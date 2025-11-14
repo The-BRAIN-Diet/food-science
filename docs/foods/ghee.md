@@ -5,33 +5,27 @@ sidebar_label: Ghee
 description: Heat-stable clarified butter with butyrate and fat-soluble vitamins
 tags:
   - Food
+  - Ghee
   - Vegetarian
   - Vitamin A
   - Vitamin D
   - Vitamin E
   - Vitamin K2
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking.
+Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking. Ghee provides butyrate, vitamins A/D/E/K2, is heat-stable, and low in lactose/casein, making it suitable for high-heat cooking and Ayurvedic dishes.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Ghee" filter="recipes" />
 
-- **Vitamins A/D/E/K2**: Fat-soluble vitamins
-- **Butyrate**: Short-chain fatty acid
+## Substances
 
-### Bioactive Substances
-
-- **Butyrate**: Supports gut health
-
-## From the paper
-
-- "Ghee: Butyrate, vitamins A/D/E/K2, heat-stable, low in lactose/casein - High-heat cooking, Ayurvedic dishes"
-- "Replacing industrial seed oils with more stable options like olive oil, ghee, or avocado oil"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -40,8 +34,11 @@ Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stabili
 - Part of stable cooking fat strategy
 - Supports butyrate intake
 
-## Related Foods
+## Biological Target Matrix
 
-- [Grass-Fed Butter](./grass-fed-butter.md)
-- [Olive Oil](./olive-oil.md)
-- [Avocado Oil](./avocado-oil.md)
+<FoodMatrix tag="Ghee" />
+
+## References
+
+- Ghee: Butyrate, vitamins A/D/E/K2, heat-stable, low in lactose/casein - High-heat cooking, Ayurvedic dishes
+- Replacing industrial seed oils with more stable options like olive oil, ghee, or avocado oil

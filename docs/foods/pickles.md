@@ -5,31 +5,25 @@ sidebar_label: Pickles
 description: Fermented vegetables providing GABA-producing bacteria
 tags:
   - Food
+  - Pickles
   - Vegan
   - Vegetarian
   - Sodium
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Pickles (unpasteurized fermented) provide live probiotics, including Levilactobacillus brevis strains that produce GABA through the glutamate decarboxylase pathway.
+Pickles (unpasteurized fermented) provide live probiotics, including Levilactobacillus brevis strains that produce GABA through the glutamate decarboxylase pathway. Levilactobacillus brevis is one of the key bacteria known to produce GABA, and this bacteria is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Pickles" filter="recipes" />
 
-- **Sodium**: High in pickled form
-- **Fiber**: From vegetables
+## Substances
 
-### Bioactive Substances
-
-- **Probiotics**: Levilactobacillus brevis (GABA-producing)
-- **GABA**: Produced by fermentation bacteria
-
-## From the paper
-
-- "Levilactobacillus brevis is one of the key bacteria known to produce GABA... This bacteria is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -38,8 +32,10 @@ Pickles (unpasteurized fermented) provide live probiotics, including Levilactoba
 - Part of fermented foods strategy
 - Supports GABA production via gut microbiome
 
-## Related Foods
+## Biological Target Matrix
 
-- [Kimchi](./kimchi.md) - Also contains GABA-producing bacteria
-- [Kefir](./kefir.md) - Also contains GABA-producing bacteria
-- [Fermented Vegetables](./fermented-vegetables.md)
+<FoodMatrix tag="Pickles" />
+
+## References
+
+- Levilactobacillus brevis is one of the key bacteria known to produce GABA. This bacteria is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles

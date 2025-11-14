@@ -5,29 +5,24 @@ sidebar_label: Spirulina
 description: Algae with pseudovitamin B12 (inactive) but other beneficial compounds
 tags:
   - Food
+  - Spirulina
   - Vegan
   - Vegetarian
   - Iron
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but contains pseudovitamin B12 analogues that are inactive in humans.
+Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but contains pseudovitamin B12 analogues that are inactive in humans. Spirulina has DIAAS 75-83, is methionine and lysine-limited, and contains some bioactive peptides. By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source. Nonetheless, both algae provide antioxidant and amino acid support.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Protein**: DIAAS 75-83, methionine/lysine-limited
-- **Iron**: Some content
+<TagList tag="Spirulina" filter="recipes" />
 
-### Bioactive Substances
-- **Phycocyanin**: Antioxidant compound with potential anti-inflammatory effects
-- **Antioxidants**: Various compounds
+## Substances
 
-## From the paper
-
-- "Spirulina: DIAAS 75-83, Methionine, lysine - Contains some bioactive peptides"
-- "Chlorella contains bioavailable, true vitamin B12 (cobalamin)... By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source. Nonetheless, both algae provide antioxidant and amino acid support"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -36,9 +31,12 @@ Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but 
 - Available as powder, tablets, or capsules
 - Pair with grains/legumes for amino acid balance
 
-## Related Foods
+## Biological Target Matrix
 
-- [Chlorella](./chlorella.md) - True B12 source
-- [Mankai](./mankai.md) - True B12 source
-- [Algal Oil](./algal-oil.md)
+<FoodMatrix tag="Spirulina" />
+
+## References
+
+- Spirulina: DIAAS 75-83, Methionine, lysine - Contains some bioactive peptides
+- Chlorella contains bioavailable, true vitamin B12 (cobalamin), confirmed in animal feeding trials, and may help close vegan nutrient gaps. By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source [Watanabe et al. 2002](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002). Nonetheless, both algae provide antioxidant and amino acid support
 
