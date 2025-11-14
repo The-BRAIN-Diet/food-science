@@ -4,7 +4,7 @@ title: Matcha Mitochondria Smoothie
 sidebar_label: Matcha Mito Smoothie
 description: Mitochondrial energising smoothie rich in polyphenols, magnesium, and antioxidants
 tags:
-  - Mitochondria
+  - Mitochondrial Support
   - Oxidative Stress
   - Breakfast
   - Magnesium
@@ -20,14 +20,13 @@ tags:
 list_image: /img/recipes/matcha-mito-smoothie.jpg
 ---
 
-# 🍵 Matcha–Mitochondria Smoothie
-
 <img src="/img/recipes/matcha-mito-smoothie.jpg" alt="Matcha mitochondria smoothie" width="480" />
 
-**Biosystem Target:** Mitochondrial Dysfunction  
-**Meal Time:** Breakfast
+## Overview
 
-## 🧾 Ingredients
+This energizing smoothie combines matcha's powerful catechins with magnesium-rich pumpkin seeds and spinach, omega-3 from chia seeds, and gut-supporting probiotics from kefir or yogurt. The combination activates AMPK for mitochondrial biogenesis, provides essential magnesium for ATP synthesis, and reduces oxidative stress through polyphenols and antioxidants, making it an ideal breakfast to support cellular energy production and cognitive function.
+
+## Ingredients
 
 - 1 cup spinach
 - ½ frozen banana
@@ -38,24 +37,26 @@ list_image: /img/recipes/matcha-mito-smoothie.jpg
 - ½ cup ice
 - Optional: ½ tsp maca powder
 
-## 👩‍🍳 Method
+## Method
 
-Blend everything until smooth.
+1. Blend everything until smooth.
 
-## 🧠 BRAIN Health Notes
-
-- Matcha contains **catechins** that reduce mitochondrial oxidative stress.
-- Pumpkin seeds & spinach supply **magnesium** → essential for ATP synthesis (Mg-ATP complex).
-- Kefir supports microbiome → reduced inflammatory load.
-- Chia seeds offer **ALA omega-3** → membrane fluidity + mitochondrial signalling.
-
-## 🧬 Mechanism of Action
-
-- Activates **AMPK** via catechins → improved mitochondrial biogenesis.
-- Provides high **Mg** for ATP synthase.
-- ALA supports **mitochondrial membrane** integrity.
-- Antioxidants reduce **ROS burden**, protecting mitochondrial DNA.
-
-## 🍽 Nutrition (approx.)
+## Nutrition
 
 ~350 kcal · 14 g protein · high magnesium · moderate polyphenols
+
+## Brain Health Notes
+
+- Matcha contains catechins that reduce mitochondrial oxidative stress and activate AMPK for improved mitochondrial biogenesis.
+- Pumpkin seeds and spinach supply magnesium, essential for ATP synthesis (Mg-ATP complex).
+- Kefir supports microbiome health, reducing inflammatory load.
+- Chia seeds offer ALA omega-3 for membrane fluidity and mitochondrial signalling.
+- Antioxidants reduce ROS burden, protecting mitochondrial DNA.
+
+## Foods
+
+<RecipeFoods details={frontMatter} />
+
+## Biological Target Matrix
+
+<RecipeMatrix details={frontMatter} />

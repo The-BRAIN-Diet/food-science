@@ -4,10 +4,9 @@ title: Turmeric Lentil Dahl
 sidebar_label: Turmeric Lentil Dahl
 description: Anti-inflammatory curcumin-rich lentil dish supporting gut health, NF-κB inhibition, and SCFA production
 tags:
-  - Anti-inflammatory
-  - Curcumin
-  - Gut Health
-  - Fiber
+  - Inflammation
+  - Gut Microbiome
+  - Methylation
   - Dinner
   - Recipe
   - Lentils
@@ -20,16 +19,13 @@ tags:
 list_image: /img/recipes/turmeric-lentil-dahl.jpg
 ---
 
-# 🍛 Turmeric Lentil Dahl
-
 <img src="/img/recipes/turmeric-lentil-dahl.jpg" alt="Turmeric lentil dahl in a bowl" width="480" />
 
-**Biosystem Target:** Anti-inflammatory  
-**Meal Time:** Dinner
+## Overview
 
----
+This warming, anti-inflammatory dahl combines turmeric's powerful curcumin with ginger's anti-inflammatory properties, high-fibre lentils for gut health, and folate-rich spinach. The combination provides strong NF-κB inhibition to reduce neuroinflammation, supports SCFA production through prebiotic fibre, and delivers essential nutrients for methylation pathways, making it an ideal evening meal for stable glucose and calmer energy.
 
-## 🧾 Recipe (Ingredients)
+## Ingredients
 
 - 1 cup red lentils
 - 1 tbsp grated fresh turmeric (or 1 tsp ground turmeric)
@@ -41,9 +37,7 @@ list_image: /img/recipes/turmeric-lentil-dahl.jpg
 - Salt & pepper to taste
 - Optional: lemon juice, coriander
 
----
-
-## 👩‍🍳 Method
+## Method
 
 1. Rinse lentils thoroughly until the water runs clear.
 2. Heat coconut oil in a pot over medium heat.
@@ -54,30 +48,22 @@ list_image: /img/recipes/turmeric-lentil-dahl.jpg
 7. Season with salt, pepper, and optional lemon juice.
 8. Serve warm.
 
----
+## Nutrition
 
-## 🧠 BRAIN Health Notes
+~400 kcal · 18–20 g protein (≈ 40% RDA) · 13–15 g fibre (≈ 45–50% RDA) · 25–30% RDA magnesium · 40–50% RDA folate · high polyphenols
 
-- **Turmeric (curcumin)** → strong NF-κB inhibition, reduces neuroinflammation.
-- **Ginger** → anti-inflammatory and gut motility-enhancing.
-- **Lentils** → high fibre for SCFA production and microbiome health.
-- **Spinach** → folate for methylation pathways.
+## Brain Health Notes
+
+- Turmeric (curcumin) provides strong NF-κB inhibition, reducing neuroinflammation.
+- Ginger offers anti-inflammatory benefits and supports gut motility.
+- Lentils provide high fibre for SCFA production and microbiome health.
+- Spinach supplies folate for methylation pathways.
 - Slow, even carbohydrate release supports stable glucose and calmer evening energy.
 
----
+## Foods
 
-## 🍽 Nutritional Information (Approx.)
+<RecipeFoods details={frontMatter} />
 
-- **Calories:** ~400 kcal
-- **Protein:** ~18–20 g (≈ 40% RDA)
-- **Fibre:** ~13–15 g (≈ 45–50% RDA)
-- **Magnesium:** ~25–30% RDA
-- **Folate:** ~40–50% RDA
-- **Polyphenols:** High (turmeric, ginger, spices)
-- **Omega-3:** Low (unless flax or seeds added)
+## Biological Target Matrix
 
----
-
-## 🏷 Tags
-
-`Anti-inflammatory`, `Dinner`, `Curcumin`, `Fiber`, `Lentil`
+<RecipeMatrix details={frontMatter} />
