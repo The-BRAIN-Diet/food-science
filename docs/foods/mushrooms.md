@@ -24,7 +24,7 @@ Mushrooms, especially UV-exposed varieties, provide vitamin D and niacin (B3) fo
 
 ## Substances
 
-<TagList tag="Mushrooms" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

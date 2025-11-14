@@ -25,7 +25,7 @@ Sardines are small, sustainable oily fish providing EPA/DHA omega-3s, CoQ10, cal
 
 ## Substances
 
-<TagList tag="Sardines" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

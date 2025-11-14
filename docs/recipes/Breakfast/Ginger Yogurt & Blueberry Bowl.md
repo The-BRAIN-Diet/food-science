@@ -1,10 +1,14 @@
 ---
+id: ginger-yogurt-blueberry-bowl
 title: Ginger Yogurt and Blueberries
+sidebar_label: Ginger Yogurt and Blueberries
 description: An Anti-inflammatory polyphenol-rich breakfast bowl with high fibre. Start the day with anti-inflammatory gingerols and omega 3 nuts, blueberry polyphenols, a fibre from steel rolled oats. Great to set up dopamine for focus and attention.
-list_image: "/img/recipes/ginger-yogurt-blueberries.jpg"
-meal-time: Breakfast
+list_image: /img/recipes/ginger-yogurt-blueberries.jpg
 tags:
   - Anti-inflammatory
+  - Inflammation
+  - Neurochemical Balance
+  - Oxidative Stress
   - Breakfast
   - Polyphenols
   - Omega-3
@@ -27,7 +31,7 @@ tags:
 
 This anti-inflammatory polyphenol-rich breakfast bowl combines ginger's anti-inflammatory properties with blueberry polyphenols, omega-3 rich seeds and nuts, and probiotic yogurt. The combination of gingerols, anthocyanins, ALA omega-3, and gut-supporting probiotics makes this an ideal morning meal to support dopamine production for focus and attention while reducing inflammatory load.
 
-## 🧾 Recipe (Ingredients)
+## Ingredients
 
 - 150 g full-fat Greek yogurt
 - ½ cup fresh blueberries
@@ -37,23 +41,32 @@ This anti-inflammatory polyphenol-rich breakfast bowl combines ginger's anti-inf
 - ½–1 tsp raw honey
 - Optional: cinnamon, EVOO
 
-## 👩‍🍳 Method
+## Method
 
 1. Mix yogurt + ginger.
 2. Add blueberries, seeds, walnuts.
 3. Drizzle honey.
 4. Serve.
 
-##Extra guidance
-Nuts and seeds are high calorie and high omega 6 denisty; used sparingly and guage amounts.
+## Extra Guidance
 
-## 🧠 BRAIN Health Notes
+Nuts and seeds are high calorie and high omega 6 density; used sparingly and gauge amounts.
 
-- Ginger inhibits NF-κB.
-- Blueberries → anthocyanins → cognition.
-- Seeds provide ALA + magnesium.
-- Yogurt supports gut–brain signalling.
+## Nutrition
 
-## 🍽 Nutrition
+~350 kcal · 18 g protein · high fiber · moderate polyphenols · omega-3 from seeds and nuts
 
-## 350 kcal · 18 g protein
+## Brain Health Notes
+
+- Ginger inhibits NF-κB, reducing neuroinflammation.
+- Blueberries provide anthocyanins that support cognitive function.
+- Seeds provide ALA omega-3 and magnesium for neurotransmitter synthesis and membrane fluidity.
+- Yogurt supports gut–brain signaling through probiotics and postbiotic compounds.
+
+## Foods
+
+<RecipeFoods details={frontMatter} />
+
+## Biological Target Matrix
+
+<RecipeMatrix details={frontMatter} />

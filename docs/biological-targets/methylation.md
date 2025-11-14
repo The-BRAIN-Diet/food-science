@@ -18,6 +18,10 @@ list_image: /img/icons/biological-targets.svg
 
 Methylation is a fundamental biological process that serves as a critical target in the BRAIN Diet. This biochemical process involves the addition of methyl groups to DNA, proteins, and other molecules, playing a crucial role in gene expression, neurotransmitter synthesis, and overall brain health.
 
+## Recipes
+
+<TagList tag="Methylation" filter="recipes" />
+
 ## Therapeutic Areas
 
 <TagList tag="Methylation" filter="therapeutic-areas" />

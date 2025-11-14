@@ -20,6 +20,10 @@ list_image: /img/icons/biological-targets.svg
 
 Mitochondrial support is a fundamental biological target in the BRAIN Diet, focusing on enhancing cellular energy production and reducing oxidative stress in brain cells. Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder, and neurodegenerative conditions like Alzheimer's and Parkinson's disease share overlapping biological dysfunctions, including mitochondrial impairment. Vitamins and minerals function as indispensable micronutrients and enzymatic cofactors in all pivotal brain biology pathways, aiding neurotransmitter synthesis, mitochondrial energy production, DNA repair, antioxidant defense, methylation, and the regulation of neuroplasticity (paper.txt, lines 132, 235).
 
+## Recipes
+
+<TagList tag="Mitochondrial Support" filter="recipes" />
+
 ## Therapeutic Areas
 
 <TagList tag="Mitochondrial Support" filter="therapeutic-areas" />

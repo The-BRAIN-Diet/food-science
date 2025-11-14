@@ -18,6 +18,10 @@ list_image: /img/icons/biological-targets.svg
 
 The gut microbiome represents a critical biological target in the BRAIN Diet, focusing on supporting beneficial gut bacteria and optimizing the gut-brain axis communication. A growing body of evidence suggests that modulating the gut microbiome can positively influence brain health and overall health. The gut is central in producing neurotransmitters, reducing systemic inflammation and enhancing gut-brain axis communication with fibre and fermented foods playing a central role in all of those processes (paper.txt, line 496).
 
+## Recipes
+
+<TagList tag="Gut Microbiome" filter="recipes" />
+
 ## Therapeutic Areas
 
 <TagList tag="Gut Microbiome" filter="therapeutic-areas" />

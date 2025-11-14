@@ -17,7 +17,7 @@ The Format of the page should have this structure:
 - Image: Images of the food
 - Overview: A single paragraph description describing food, where it comes from, main health benefits etc.
 - Recipes: Use the <TagList tag="food tag" filter="recipes" /> here.
-- Substances: Use the <TagList tag="food tag" filter="substances" /> here.
+- Substances: Use the <FoodSubstances details={frontMatter} /> here.
 - Preparation Notes: From paper.txt any tips on how best to prepare the food for maximum impact.
 - Biological Target Matrix: Should be <FoodMatrix tag="food tag" />
 - References: A list of findings or scientific principles, with their link to the `/docs/papers/BRAIN-Diet-References#<ref>` that discusses it, from paper.txt in the root directory. Make sure all assertions are backed up by evidence from the paper.txt file . Use references if the paper mentions them.

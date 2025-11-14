@@ -19,6 +19,10 @@ list_image: /img/icons/biological-targets.svg
 
 The stress response is a complex physiological system that plays a crucial role in brain health and cognitive function. The neuroendocrine and autonomic systems, together with the Enteric Nervous System (ENS), form a tightly interwoven network regulating stress responses, metabolism, and gut–brain communication. The hypothalamic–pituitary–adrenal (HPA) axis orchestrates cortisol rhythms and systemic stress signaling, while the autonomic nervous system (ANS) integrates sympathetic "fight-or-flight" activity with parasympathetic recovery pathways. Within this circuitry, the sympatho-adreno-medullary (SAM) axis represents the most immediate arm, releasing adrenaline and noradrenaline within seconds of a stressor (paper.txt, line 769).
 
+## Recipes
+
+<TagList tag="Stress Response" filter="recipes" />
+
 ## Therapeutic Areas
 
 <TagList tag="Stress Response" filter="therapeutic-areas" />

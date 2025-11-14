@@ -5,6 +5,9 @@ import BibTexReferences from '../BibTexReferences';
 import DocTagDocListPage from '../DocTagDocListPage';
 import FoodMatrix from '../FoodMatrix';
 import SubstanceMatrix from '../SubstanceMatrix';
+import RecipeMatrix from '../RecipeMatrix';
+import RecipeFoods from '../RecipeFoods';
+import FoodSubstances from '../FoodSubstances';
 
 export default {
   ...MDXComponents,
@@ -13,4 +16,7 @@ export default {
   DocTagDocListPage,
   FoodMatrix,
   SubstanceMatrix,
+  RecipeMatrix,
+  RecipeFoods,
+  FoodSubstances,
 };

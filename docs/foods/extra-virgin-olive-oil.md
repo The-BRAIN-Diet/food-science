@@ -25,7 +25,7 @@ Extra virgin olive oil (EVOO) is a cornerstone fat in the BRAIN Diet, providing 
 
 ## Substances
 
-<TagList tag="Extra Virgin Olive Oil" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

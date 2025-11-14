@@ -26,7 +26,7 @@ Avocado provides monounsaturated fats (MUFA), vitamin E, lutein, fiber, and glut
 
 ## Substances
 
-<TagList tag="Avocado" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

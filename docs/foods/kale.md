@@ -32,7 +32,7 @@ Kale is a nutrient-dense leafy green providing iron, magnesium, zinc, quercetin,
 
 ## Substances
 
-<TagList tag="Kale" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

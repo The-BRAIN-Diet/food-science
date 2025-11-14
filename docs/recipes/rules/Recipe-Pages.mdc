@@ -5,9 +5,10 @@ globs: *.md
 alwaysApply: false
 ---
 
-- Tag each recipe page with the foods it contains
+- Tag each recipe page with the foods it contains where the food is a significant proportion of the meal.
 - Tag the page with "Recipe" too, so that it appears in index.md.
-- In the front matter, list_image: /img/icons/recipes.svg
+- In the front matter, list_image: (image file for recipe)
+- Tag with the main biological target tags.
 
 The Format of the page should have this structure:
 
@@ -18,7 +19,7 @@ The Format of the page should have this structure:
 - Extra Guidance (optional): Any other notes for how or when to take it.
 - Nutrition: calories, etc.
 - Brain Health Notes: some notes about why it is particularly helpful for your brain.
-- Foods: should be <TagList tag="the recipe" filter="foods" />
-- Biological Target Matrix: should be <RecipeMatrix tag="The recipe tag" />
+- Foods: should be <RecipeFoods details={frontMatter} />
+- Biological Target Matrix: should be <RecipeMatrix details={frontMatter} />
 
 Use the `Ginger Yogurt & Blueberry Bowl.md` page as an example.

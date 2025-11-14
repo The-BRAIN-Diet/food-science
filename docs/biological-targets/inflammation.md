@@ -20,6 +20,10 @@ list_image: /img/icons/biological-targets.svg
 
 Chronic inflammation is a biological dysfunction that contributes to cognitive, emotional, and behavioral dysregulation in ADHD and other neurodevelopmental conditions. Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder, and neurodegenerative conditions like Alzheimer's and Parkinson's disease, share overlapping biological dysfunctions, including chronic inflammation, oxidative stress, impaired methylation, gut–brain axis disruption, glucose dysregulation, micronutrient deficiencies, and neurotransmitter imbalances. The BRAIN Diet targets inflammatory pathways through anti-inflammatory nutrients, gut barrier support, and strategies to reduce inflammatory load (paper.txt, lines 132, 505).
 
+## Recipes
+
+<TagList tag="Inflammation" filter="recipes" />
+
 ## Therapeutic Areas
 
 <TagList tag="Inflammation" filter="therapeutic-areas" />

@@ -24,7 +24,7 @@ Clams provide high levels of taurine and vitamin B12, supporting neurotransmissi
 
 ## Substances
 
-<TagList tag="Clams" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

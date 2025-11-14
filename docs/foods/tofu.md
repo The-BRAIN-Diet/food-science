@@ -27,7 +27,7 @@ Tofu is a soy-based food providing complete plant protein, isoflavones (genistei
 
 ## Substances
 
-<TagList tag="Tofu" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

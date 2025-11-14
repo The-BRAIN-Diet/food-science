@@ -25,7 +25,7 @@ Kidney beans provide plant protein, polyphenols, and prebiotic fiber, supporting
 
 ## Substances
 
-<TagList tag="Kidney Beans" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

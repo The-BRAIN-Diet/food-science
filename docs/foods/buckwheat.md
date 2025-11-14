@@ -22,7 +22,7 @@ Buckwheat is a pseudograin providing complete plant protein, rutin (flavonoid), 
 
 ## Substances
 
-<TagList tag="Buckwheat" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

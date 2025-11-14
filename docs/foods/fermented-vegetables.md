@@ -21,7 +21,7 @@ Fermented vegetables provide live probiotics, postbiotic compounds, and enhanced
 
 ## Substances
 
-<TagList tag="Fermented Vegetables" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

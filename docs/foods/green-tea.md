@@ -26,7 +26,7 @@ Green tea provides catechins (especially EGCG), L-theanine, and polyphenols that
 
 ## Substances
 
-<TagList tag="Green Tea" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

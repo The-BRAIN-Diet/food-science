@@ -24,7 +24,7 @@ Grass-fed butter provides butyrate, CLA (conjugated linoleic acid), vitamins A/D
 
 ## Substances
 
-<TagList tag="Grass-Fed Butter" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

@@ -22,7 +22,7 @@ Oysters provide the highest zinc content among common foods, supporting neurotra
 
 ## Substances
 
-<TagList tag="Oysters" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

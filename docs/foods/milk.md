@@ -23,7 +23,7 @@ Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (
 
 ## Substances
 
-<TagList tag="Milk" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

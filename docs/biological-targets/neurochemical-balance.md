@@ -20,6 +20,10 @@ list_image: /img/icons/biological-targets.svg
 
 Neurochemical balance is a fundamental biological target in the BRAIN Diet, focusing on optimizing neurotransmitter synthesis, release, and reuptake for improved cognitive function. Neurochemicals are molecules that are responsible for communication between nerve cells, and nerve cells and other cells. They are typically classified based on their function which can be excitatory, inhibitory or modulatory in nature, although some neurochemicals can have multiple functions. Many neurological disorders are thought to be due to neurochemical imbalances, and much research has now implicated much broader neurotransmitter dysregulation (paper.txt, lines 297-301).
 
+## Recipes
+
+<TagList tag="Neurochemical Balance" filter="recipes" />
+
 ## Therapeutic Areas
 
 <TagList tag="Neurochemical Balance" filter="therapeutic-areas" />

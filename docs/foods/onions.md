@@ -23,7 +23,7 @@ Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur comp
 
 ## Substances
 
-<TagList tag="Onions" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

@@ -26,7 +26,7 @@ Black beans provide plant protein, polyphenols, and prebiotic fiber. The paper d
 
 ## Substances
 
-<TagList tag="Black Beans" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 

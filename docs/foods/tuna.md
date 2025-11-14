@@ -23,7 +23,7 @@ Tuna provides omega-3 fatty acids, niacin (B3) for NAD+ synthesis, selenium, cre
 
 ## Substances
 
-<TagList tag="Tuna" filter="substances" />
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
