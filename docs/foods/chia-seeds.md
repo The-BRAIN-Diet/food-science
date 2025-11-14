@@ -5,41 +5,41 @@ sidebar_label: Chia Seeds
 description: ALA omega-3, fiber, and minerals
 tags:
   - Food
+  - Chia Seeds
   - Vegan
   - Vegetarian
   - ALA
   - Calcium
   - Magnesium
-  - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Chia seeds provide ALA (plant omega-3), soluble fiber, and minerals, supporting gut health and providing plant-based omega-3.
+Chia seeds provide ALA (plant omega-3), soluble fiber, and minerals, supporting gut health and providing plant-based omega-3. Soluble fibre (from apples, oats, flaxseeds) - chia also provides soluble fiber supporting gut health and SCFA production. ALA is an essential omega-3 fatty acid with limited conversion to DHA/EPA in adults; food sources include flax, chia, and walnuts. Conversion from ALA is less than 5% in most adults; direct DHA/EPA strongly recommended for optimal brain health.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Chia Seeds" filter="recipes" />
 
-- **Alpha-Linolenic Acid (ALA)**: Plant omega-3 (limited conversion to DHA)
-- **Fiber**: Soluble and insoluble fiber
-- **Calcium**: Some content
-- **Magnesium**: Cofactor
+## Substances
 
-## From the paper
-
-- "Soluble fibre (from apples, oats, flaxseeds)" - chia also provides soluble fiber
-- Part of plant-based omega-3 strategy
+<TagList tag="Chia Seeds" filter="substances" />
 
 ## Preparation Notes
 
-- Can be consumed raw, soaked, or in recipes
-- Soaking creates gel-like consistency
-- Part of diverse seed intake
-- Limited ALA-to-DHA conversion; consider algal DHA
+- Can be consumed raw, soaked, or in recipes; soaking creates gel-like consistency
+- Part of diverse seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
+- Limited ALA-to-DHA conversion; consider algal DHA for direct omega-3 support; conversion from ALA is less than 5% in most adults
+- Supports gut health via soluble fiber; prebiotic fibres support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
 
-## Related Foods
+## Biological Target Matrix
 
-- [Flax Seeds](./flax-seeds.md) - Also ALA source
-- [Walnuts](./walnuts.md) - Also ALA source
-- [Algal Oil](./algal-oil.md) - Direct DHA source
+<FoodMatrix tag="Chia Seeds" />
+
+## References
+
+- Soluble fibre (from apples, oats, flaxseeds) - chia also provides soluble fiber supporting gut health and SCFA production
+- ALA is an essential omega-3 fatty acid with limited conversion to DHA/EPA in adults; food sources include flax, chia, and walnuts
+- Conversion from ALA is less than 5% in most adults; direct DHA/EPA strongly recommended for optimal brain health
+- Part of plant-based omega-3 strategy; regular consumption of oily fish or algal oil to meet baseline omega-3 requirements (~250–500 mg/day EPA+DHA) is recommended

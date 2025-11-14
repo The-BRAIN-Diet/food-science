@@ -5,43 +5,40 @@ sidebar_label: Buckwheat
 description: Pseudograin with rutin and complete protein
 tags:
   - Food
+  - Buckwheat
   - Vegan
   - Vegetarian
   - Magnesium
-  - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Buckwheat is a pseudograin providing complete plant protein, rutin (flavonoid), and magnesium, supporting vascular health and neurotransmitter function.
+Buckwheat is a pseudograin providing complete plant protein, rutin (flavonoid), and magnesium, supporting vascular health and neurotransmitter function. Buckwheat has a DIAAS score of 75-80, lysine marginal; high rutin content for vascular health. Whole grains (including pseudograins like quinoa and buckwheat, grains like barley and oats) support gut health. Combine with lentils or chickpeas for amino acid complementarity.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Buckwheat" filter="recipes" />
 
-- **Protein**: DIAAS 75-80, lysine marginal
-- **Magnesium**: Cofactor
-- **Fiber**: Prebiotic fiber
+## Substances
 
-### Bioactive Substances
-
-- **Rutin**: Flavonoid for vascular health
-
-## From the paper
-
-- "Whole grains (including pseudograins like quinoa and buckwheat, grains like barley and oats)"
-- "Buckwheat: DIAAS 75-80, Lysine (marginal) - High rutin content for vascular health"
-- "Combine with lentils or chickpeas" for amino acid complementarity
+<TagList tag="Buckwheat" filter="substances" />
 
 ## Preparation Notes
 
-- Rinse before cooking
-- Can be used in sourdough/fermented breads
-- Pair with legumes for complete amino acid profile
-- Part of pseudograin diversity
+- Rinse before cooking to remove any debris
+- Can be used in sourdough/fermented breads for GABA production potential
+- Pair with legumes for complete amino acid profile; combine with lentils or chickpeas for amino acid complementarity
+- Part of pseudograin diversity strategy
+- High rutin content supports vascular health
 
-## Related Foods
+## Biological Target Matrix
 
-- [Quinoa](./quinoa.md) - Similar pseudograin
-- [Lentils](./lentils.md) - Good pairing
-- [Chickpeas](./chickpeas.md) - Good pairing
+<FoodMatrix tag="Buckwheat" />
+
+## References
+
+- Whole grains (including pseudograins like quinoa and buckwheat, grains like barley and oats) support gut health
+- Buckwheat: DIAAS 75-80, Lysine (marginal) - High rutin content for vascular health
+- Combine with lentils or chickpeas for amino acid complementarity; grain-legume complementarity improves essential amino-acid coverage
+- Rutin is a flavonoid that supports vascular health and may have neuroprotective effects

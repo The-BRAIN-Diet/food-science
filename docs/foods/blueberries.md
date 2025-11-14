@@ -5,44 +5,42 @@ sidebar_label: Blueberries
 description: Polyphenol-rich berries supporting cognitive function and antioxidant networks
 tags:
   - Food
+  - Blueberries
   - Vegan
   - Vegetarian
   - Vitamin C
   - Manganese
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Blueberries are rich in polyphenols, particularly anthocyanins, that support cognitive function, antioxidant networks, and may enhance BDNF expression when combined with exercise.
+Blueberries are rich in polyphenols, particularly anthocyanins, that support cognitive function, antioxidant networks, and may enhance BDNF expression when combined with exercise. Exercise-induced BDNF surges can be potentiated by polyphenols (e.g., blueberries, green tea). Blueberries are part of polyphenol-rich patterns that enhance endogenous antioxidant networks and support microbiome diversity.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Fiber**: Prebiotic fiber
-- **Vitamin C**: Antioxidant
-- **Manganese**: Cofactor for antioxidant enzymes
+<TagList tag="Blueberries" filter="recipes" />
 
-### Bioactive Substances
-- **Anthocyanins**: Polyphenols with neuroprotective effects
-- **Polyphenols**: Support antioxidant networks and microbiome diversity
+## Substances
 
-## From the paper
-
-- "Berries" mentioned as polyphenol-rich foods
-- "Polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) to enhance endogenous antioxidant networks"
-- "Exercise-induced BDNF surges can be potentiated by polyphenols (e.g., blueberries, green tea)"
-- Part of Mediterranean diet pattern
+<TagList tag="Blueberries" filter="substances" />
 
 ## Preparation Notes
 
-- Best consumed fresh or frozen
-- Pair with exercise for BDNF synergy
-- Part of diverse polyphenol intake strategy
+- Best consumed fresh or frozen to preserve polyphenol content
+- Pair with exercise for BDNF synergy; exercise + omega-3 + polyphenol synergy boosts BDNF expression
+- Part of diverse polyphenol intake strategy; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
+- Polyphenol sources including berries increase Faecalibacterium and Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation
 
-## Related Foods
+## Biological Target Matrix
 
-- [Strawberries](./strawberries.md)
-- [Raspberries](./raspberries.md)
-- [Berries](./berries.md) (general)
+<FoodMatrix tag="Blueberries" />
 
+## References
+
+- Berries mentioned as polyphenol-rich foods supporting antioxidant networks and microbiome diversity
+- Polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) to enhance endogenous antioxidant networks
+- Exercise-induced BDNF surges can be potentiated by polyphenols (e.g., blueberries, green tea)
+- BDNF (modulator): Neurogenesis, synaptic plasticity, mood resilience; food sources include fatty fish, blueberries, turmeric, green tea, walnuts; exercise + omega-3 + polyphenol synergy boosts expression
+- Polyphenol sources including berries increase Faecalibacterium and Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation

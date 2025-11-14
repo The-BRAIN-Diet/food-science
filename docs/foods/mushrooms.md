@@ -5,41 +5,42 @@ sidebar_label: Mushrooms
 description: UV-exposed mushrooms provide vitamin D; niacin source for NAD+ synthesis
 tags:
   - Food
+  - Mushrooms
   - Vegan
   - Vegetarian
   - Vitamin B3
   - Vitamin D
   - Selenium
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Mushrooms, especially UV-exposed varieties, provide vitamin D and niacin (B3) for NAD+ synthesis, supporting mitochondrial function and brain health.
+Mushrooms, especially UV-exposed varieties, provide vitamin D and niacin (B3) for NAD+ synthesis, supporting mitochondrial function and brain health. UV-exposed mushrooms as a source of vitamin D. Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health. Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Niacin (B3)**: NAD+ precursor for mitochondrial energy
-- **Vitamin D**: When UV-exposed (ergocalciferol)
-- **Selenium**: Antioxidant support
-- **B Vitamins**: Various B vitamins
+<TagList tag="Mushrooms" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "UV-exposed mushrooms as a source of vitamin D"
-- "Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms)"
-- "Niacin (Vitamin B₃): Chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains"
-- "UV-grown mushrooms" mentioned as functional food innovation
-- "Targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts)"
+<TagList tag="Mushrooms" filter="substances" />
 
 ## Preparation Notes
 
-- UV-exposed mushrooms provide vitamin D2 (ergocalciferol)
+- UV-exposed mushrooms provide vitamin D2 (ergocalciferol); targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts)
 - Cooking may enhance some nutrient bioavailability
-- Include in diverse plant food rotation
+- Include in diverse plant food rotation; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
+- UV-grown mushrooms mentioned as functional food innovation
 
-## Related Foods
+## Biological Target Matrix
 
-- [Peanuts](./peanuts.md) - Also high in niacin
-- [Salmon](./salmon.md) - Also provides niacin
+<FoodMatrix tag="Mushrooms" />
 
+## References
+
+- UV-exposed mushrooms as a source of vitamin D
+- Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health
+- Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains [Pirinen et al. 2020](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
+- Targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts)
+- UV-grown mushrooms mentioned as functional food innovation

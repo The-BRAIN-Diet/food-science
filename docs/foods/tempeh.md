@@ -5,47 +5,43 @@ sidebar_label: Tempeh
 description: Fermented soy providing probiotics and enhanced nutrient bioavailability
 tags:
   - Food
+  - Tempeh
   - Vegan
   - Vegetarian
   - Iron
   - Genistein
-  - SCFAs
+  - Tryptophan
+  - Tyrosine
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Tempeh is fermented soy providing live probiotics, enhanced nutrient bioavailability, and isoflavones, supporting gut health and neurotransmitter synthesis.
+Tempeh is fermented soy providing live probiotics, enhanced nutrient bioavailability, and isoflavones, supporting gut health and neurotransmitter synthesis. Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha, tempeh provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. Tempeh: Fermented soybeans, high in protein and probiotics. Fermentation improves digestibility and nutrient bioavailability.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Tempeh" filter="recipes" />
 
-- **Protein**: Complete plant protein (from soy)
-- **B Vitamins**: Produced during fermentation
-- **Iron**: Non-heme iron
+## Substances
 
-### Bioactive Substances
-
-- **Probiotics**: Live beneficial bacteria
-- **Isoflavones**: Genistein and other soy isoflavones
-- **Postbiotics**: Beneficial fermentation compounds
-
-## From the paper
-
-- "Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling"
-- "Tempeh: Fermented soybeans, high in protein and probiotics"
-- Part of fermented foods strategy
+<TagList tag="Tempeh" filter="substances" />
 
 ## Preparation Notes
 
-- Fermentation improves digestibility and nutrient bioavailability
-- Can be cooked various ways
-- Part of fermented foods rotation
-- Supports gut microbiome diversity
+- Fermentation improves digestibility and nutrient bioavailability; lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels
+- Can be cooked various ways; gentle cooking preserves probiotics
+- Part of fermented foods rotation; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
+- Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-## Related Foods
+## Biological Target Matrix
 
-- [Soy](./soy.md)
-- [Miso](./miso.md)
-- [Natto](./natto.md)
-- [Kimchi](./kimchi.md)
+<FoodMatrix tag="Tempeh" />
+
+## References
+
+- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
+- Tempeh: Fermented soybeans, high in protein and probiotics
+- Part of fermented foods strategy; fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels [LeBlanc et al. 2011](/docs/papers/BRAIN-Diet-References#leblanc_b-group_2011)
+- Fermentation produces beneficial organic acids and partially pre-digests starch and protein—improving both digestibility and glycaemic response
+- Genistein, a soy-derived isoflavonoid, has shown potential as a modulator of several biochemical pathways, including the endocannabinoid system and neuroinflammation

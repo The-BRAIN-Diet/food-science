@@ -5,39 +5,42 @@ sidebar_label: Pork
 description: Thiamine, creatine, zinc, and complete protein
 tags:
   - Food
+  - Pork
   - Vitamin B1
   - Creatine
   - Zinc
+  - Tryptophan
+  - Tyrosine
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Pork provides thiamine (B1), creatine, zinc, and complete protein, supporting mitochondrial glucose metabolism and neurotransmitter function.
+Pork provides thiamine (B1), creatine, zinc, and complete protein, supporting mitochondrial glucose metabolism and neurotransmitter function. Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils. Thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production. Creatine: Supports ATP recycling in neurons; enhances working memory and cognitive processing speed; food sources include beef, lamb, pork, salmon, tuna, cod, scallops.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Thiamine (B1)**: Essential for mitochondrial glucose metabolism
-- **Creatine**: ATP recycling support
-- **Zinc**: Neurotransmitter modulation
-- **Protein**: Complete amino acid profile
+<TagList tag="Pork" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils"
-- "Creatine: Beef, lamb, pork, salmon, tuna, cod, scallops"
-- "Zinc: Oysters, beef, crab, chicken, pork"
+<TagList tag="Pork" filter="substances" />
 
 ## Preparation Notes
 
 - Choose quality sources when possible
-- Gentle cooking preserves thiamine
+- Gentle cooking preserves thiamine; thiamine does not exist in a large brain "reservoir"; the CNS maintains small, tightly regulated intracellular pools that depend on continuous, transporter-mediated supply
 - Important for thiamine and creatine intake
 - Part of diverse protein strategy
+- Supports neurotransmitter synthesis through tryptophan and tyrosine content
 
-## Related Foods
+## Biological Target Matrix
 
-- [Beef](./beef.md)
-- [Lamb](./lamb.md)
-- [Chicken](./chicken.md)
+<FoodMatrix tag="Pork" />
 
+## References
+
+- Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils; essential for mitochondrial glucose metabolism in the brain leading to ATP production [Dhir et al. 2019](/docs/papers/BRAIN-Diet-References#dhir_thiamine_2019)
+- Creatine: Supports ATP recycling in neurons; enhances working memory and cognitive processing speed; food sources include beef, lamb, pork, salmon, tuna, cod, scallops
+- Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork
+- Thiamine does not exist in a large brain "reservoir"; the CNS maintains small, tightly regulated intracellular pools that depend on continuous, transporter-mediated supply, making deficiency states potentially acute

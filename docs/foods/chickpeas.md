@@ -5,6 +5,7 @@ sidebar_label: Chickpeas
 description: Legume providing protein, fiber, folate, magnesium, and B6
 tags:
   - Food
+  - Chickpeas
   - Vegan
   - Vegetarian
   - Vitamin B9
@@ -12,41 +13,38 @@ tags:
   - Magnesium
   - Iron
   - Zinc
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Chickpeas are legumes providing plant protein, prebiotic fiber, folate, magnesium, and B6, supporting gut health and neurotransmitter synthesis.
+Chickpeas are legumes providing plant protein, prebiotic fiber, folate, magnesium, and B6, supporting gut health and neurotransmitter synthesis. Chickpeas have a DIAAS score of 64-69, indicating they are methionine-limited and should be paired with grains for complete amino acid profile. Chickpeas are listed as sources for magnesium, iron, zinc, and B6, all critical cofactors for neurotransmitter synthesis.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Protein**: DIAAS 64-69, methionine-limited (pair with grains)
-- **Fiber**: Prebiotic fiber (GOS)
-- **Folate (B9)**: Methylation and neurotransmitter synthesis
-- **Magnesium**: Cofactor for neurotransmitter pathways
-- **Iron**: Non-heme iron
-- **B6**: Neurotransmitter cofactor
-- **Zinc**: Plant source (improve bioavailability via soaking)
+<TagList tag="Chickpeas" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Chickpeas: DIAAS 64-69, Methionine - Good source of magnesium and iron"
-- "Zinc: Pumpkin seeds, lentils, chickpeas, cashews"
-- "B6(chickpeas, potatoes, bananas, whole grains, soy)"
-- "Combine with grains like barley or oats" for amino acid complementarity
-- "Legumes such as lentils and chickpeas" for complex carbs and fiber
+<TagList tag="Chickpeas" filter="substances" />
 
 ## Preparation Notes
 
-- Soak and cook thoroughly to reduce phytates
-- Pair with grains for complete amino acid profile
-- Pair with vitamin C to enhance iron absorption
+- Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability
+- Pair with grains for complete amino acid profile; combine with grains like barley or oats for amino acid complementarity
+- Pair with vitamin C to enhance iron absorption, with studies showing up to a fourfold increase when consumed together
 - Part of grain-legume complementarity strategy
+- Legumes such as lentils and chickpeas provide complex carbs and fiber
 
-## Related Foods
+## Biological Target Matrix
 
-- [Lentils](./lentils.md)
-- [Barley](./barley.md)
-- [Oats](./oats.md)
+<FoodMatrix tag="Chickpeas" />
 
+## References
+
+- Chickpeas: DIAAS 64-69, Methionine-limited; good source of magnesium and iron
+- Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, cashews
+- B6 (chickpeas, potatoes, bananas, whole grains, soy) is a cofactor in the development of all key neurotransmitters
+- Combine with grains like barley or oats for amino acid complementarity; grain-legume complementarity improves essential amino-acid coverage
+- Legumes such as lentils and chickpeas provide complex carbs and fiber for gut health
+- Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability [GREINER and KONIETZNY 1999](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)

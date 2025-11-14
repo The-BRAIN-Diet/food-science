@@ -5,38 +5,38 @@ sidebar_label: Cashews
 description: Plant protein and zinc source
 tags:
   - Food
+  - Cashews
   - Vegan
   - Vegetarian
   - Zinc
   - Magnesium
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Cashews provide plant protein and zinc, supporting neurotransmitter modulation and antioxidant enzyme function.
+Cashews provide plant protein and zinc, supporting neurotransmitter modulation and antioxidant enzyme function. Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, cashews.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Zinc**: Plant source (improve bioavailability via soaking)
-- **Protein**: Plant protein
-- **Monounsaturated Fats**: Healthy fats
-- **Magnesium**: Cofactor
+<TagList tag="Cashews" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Zinc: Oysters, beef, crab, chicken, pork, Pumpkin seeds, lentils, chickpeas, cashews"
+<TagList tag="Cashews" filter="substances" />
 
 ## Preparation Notes
 
-- Soak to reduce phytates and improve zinc bioavailability
-- Part of diverse nut/seed intake
+- Soak to reduce phytates and improve zinc bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability
+- Part of diverse nut/seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 - Pair with animal proteins or vitamin C for better zinc absorption
-- Supports zinc sufficiency
+- Supports zinc sufficiency; zinc is critical for neurotransmitter modulation, synaptic plasticity, and antioxidant enzyme function
 
-## Related Foods
+## Biological Target Matrix
 
-- [Almonds](./almonds.md)
-- [Pumpkin Seeds](./pumpkin-seeds.md)
-- [Chickpeas](./chickpeas.md)
+<FoodMatrix tag="Cashews" />
 
+## References
+
+- Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, cashews
+- Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability [GREINER and KONIETZNY 1999](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)

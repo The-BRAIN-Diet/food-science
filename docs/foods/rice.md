@@ -5,40 +5,40 @@ sidebar_label: Rice
 description: Resistant starch formation when cooled; thiamine source
 tags:
   - Food
+  - Rice
   - Vegan
   - Vegetarian
   - Vitamin B1
-  - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Rice provides complex carbohydrates and, when cooked and cooled, forms resistant starch. Also provides thiamine (B1) for mitochondrial glucose metabolism.
+Rice provides complex carbohydrates and, when cooked and cooled, forms resistant starch. Also provides thiamine (B1) for mitochondrial glucose metabolism. Resistant Starch forms when certain starchy foods are cooked and then cooled. Foods like rice and potatoes develop higher resistant starch content when chilled. White rice was cooled and reheated showing a rise in RS content from 0.64 to 1.65 g/100 g and elicited a lower glycemic response. Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Rice" filter="recipes" />
 
-- **Resistant Starch**: Forms when cooked and cooled (retrogradation)
-- **Thiamine (B1)**: Essential for mitochondrial glucose metabolism
-- **Complex carbohydrates**: Starch
+## Substances
 
-## From the paper
-
-- "Resistant Starch, forms when certain starchy foods are cooked and then cooled... Foods like rice and potatoes develop higher resistant starch content when chilled"
-- "White rice was cooled and reheated showing a rise in RS content from 0.64 to 1.65 g/100 g and elicited a lower glycemic response"
-- "Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils"
-- "Pair legumes with grains (e.g., beans + rice) to cover lysine and methionine gaps"
+<TagList tag="Rice" filter="substances" />
 
 ## Preparation Notes
 
-- Cook and cool to form resistant starch
-- Reheating does not reverse resistant starch
-- Pair with legumes for complete amino acid profile
-- Supports butyrate production via gut fermentation
+- Cook and cool to form resistant starch; resistant starch forms when certain starchy foods are cooked and then cooled
+- Reheating does not reverse resistant starch; white rice was cooled and reheated showing a rise in RS content from 0.64 to 1.65 g/100 g and elicited a lower glycemic response
+- Pair with legumes for complete amino acid profile; pair legumes with grains (e.g., beans + rice) to cover lysine and methionine gaps
+- Supports butyrate production via gut fermentation; resistant starch (cooled potatoes, green bananas, cooled rice) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
 
-## Related Foods
+## Biological Target Matrix
 
-- [Cooled Potatoes](./cooled-potatoes.md) - Also forms resistant starch
-- [Lentils](./lentils.md) - Good pairing
-- [Black Beans](./black-beans.md) - Good pairing
+<FoodMatrix tag="Rice" />
+
+## References
+
+- Resistant Starch forms when certain starchy foods are cooked and then cooled; foods like rice and potatoes develop higher resistant starch content when chilled
+- White rice was cooled and reheated showing a rise in RS content from 0.64 to 1.65 g/100 g and elicited a lower glycemic response
+- Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils; essential for mitochondrial glucose metabolism in the brain leading to ATP production
+- Pair legumes with grains (e.g., beans + rice) to cover lysine and methionine gaps; grain-legume complementarity improves essential amino-acid coverage
+- Resistant starch (cooled potatoes, green bananas, cooled rice) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier

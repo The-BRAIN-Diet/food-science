@@ -11,7 +11,7 @@ tags:
   - Polyphenols
   - Recipe
   - Spinach
-  - Banana
+  - Bananas
   - Green Tea
   - Chia Seeds
   - Pumpkin Seeds

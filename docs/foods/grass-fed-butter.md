@@ -5,46 +5,43 @@ sidebar_label: Grass-Fed Butter
 description: Butyrate, CLA, vitamins A/D/K2, selenium, and C15:0
 tags:
   - Food
+  - Grass-Fed Butter
   - Vegetarian
   - Vitamin A
   - Vitamin D
   - Vitamin K2
   - Selenium
-  - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Grass-fed butter provides butyrate, CLA (conjugated linole acid), vitamins A/D/K2, selenium, and C15:0 pentadecanoic acid, supporting brain and metabolic health.
+Grass-fed butter provides butyrate, CLA (conjugated linoleic acid), vitamins A/D/K2, selenium, and C15:0 pentadecanoic acid, supporting brain and metabolic health. Grass-Fed Butter: Butyrate, Conjugated linoleic acid (CLA; such as rumenic acid), vitamins A/D/K2, selenium, C15:0 pentadecanoic acid. C15:0 (Parmesan and grassfed Butter). Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Grass-Fed Butter" filter="recipes" />
 
-- **Vitamins A/D/K2**: Fat-soluble vitamins
-- **Selenium**: Antioxidant support
+## Substances
 
-### Bioactive Substances
-
-- **Butyrate**: Short-chain fatty acid
-- **CLA (Conjugated Linoleic Acid)**: Rumenic acid and other forms
-- **C15:0 (Pentadecanoic Acid)**: Emerging research on health benefits
-
-## From the paper
-
-- "Grass-Fed Butter: Butyrate, Conjugated linoleic acid (CLA; such as rumenic acid), vitamins A/D/K2, selenium, C15:0 pentadecanoic acid"
-- "C15:0 (Parmesan and grassfed Butter)"
-- "Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks"
+<TagList tag="Grass-Fed Butter" filter="substances" />
 
 ## Preparation Notes
 
 - Use for finishing vegetables, grains, or cooking (with higher smoke point oil to avoid burning)
-- Choose grass-fed/pasture-raised sources
+- Choose grass-fed/pasture-raised sources for optimal nutrient profile
 - Part of nutrient-dense fat strategy
 - Supports butyrate and K2 intake
+- When consumed in moderation within an anti-inflammatory, micronutrient-rich diet, foods like grass-fed butter provide essential brain nutrients including choline, vitamin K2, butyrate, and fat-soluble vitamins A, D, and E
 
-## Related Foods
+## Biological Target Matrix
 
-- [Parmesan Cheese](./parmesan-cheese.md) - Also contains C15:0
-- [Ghee](./ghee.md)
-- [Butter](./butter.md) (general)
+<FoodMatrix tag="Grass-Fed Butter" />
+
+## References
+
+- Grass-Fed Butter: Butyrate, Conjugated linoleic acid (CLA; such as rumenic acid), vitamins A/D/K2, selenium, C15:0 pentadecanoic acid
+- C15:0 (Parmesan and grassfed Butter)
+- Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks
+- When consumed in moderation within an anti-inflammatory, micronutrient-rich diet, foods like Parmesan cheese and grass-fed butter provide essential brain nutrients including choline, vitamin K2, butyrate, and fat-soluble vitamins A, D, and E
+- Butyrate: Anti-inflammatory effects, potentially reducing neuroinflammation; supports mitochondrial function, enhancing brain energy metabolism; aids in reducing cholesterol and neuroinflammation

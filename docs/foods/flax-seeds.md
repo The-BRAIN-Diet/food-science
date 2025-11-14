@@ -5,38 +5,39 @@ sidebar_label: Flax Seeds
 description: ALA omega-3 and soluble fiber source
 tags:
   - Food
+  - Flax Seeds
   - Vegan
   - Vegetarian
   - ALA
-  - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Flax seeds provide ALA (plant omega-3), soluble fiber, and lignans, supporting gut health and providing plant-based omega-3.
+Flax seeds provide ALA (plant omega-3), soluble fiber, and lignans, supporting gut health and providing plant-based omega-3. Soluble fibre (from apples, oats, flaxseeds) supports gut health and SCFA production. ALA is an essential omega-3 fatty acid with limited conversion to DHA/EPA in adults; food sources include flax, chia, and walnuts. Conversion from ALA is less than 5% in most adults; direct DHA/EPA strongly recommended for optimal brain health.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Flax Seeds" filter="recipes" />
 
-- **Alpha-Linolenic Acid (ALA)**: Plant omega-3 (limited conversion to DHA)
-- **Fiber**: Soluble and insoluble fiber
-- **Lignans**: Phytoestrogens with antioxidant properties
+## Substances
 
-## From the paper
-
-- "Soluble fibre (from apples, oats, flaxseeds)"
-- Part of plant-based omega-3 strategy
+<TagList tag="Flax Seeds" filter="substances" />
 
 ## Preparation Notes
 
-- Grind for better ALA absorption (whole seeds may pass through)
-- Store ground seeds in refrigerator
-- Part of diverse seed intake
-- Limited ALA-to-DHA conversion; consider algal DHA
+- Grind for better ALA absorption (whole seeds may pass through undigested)
+- Store ground seeds in refrigerator to prevent oxidation of omega-3s
+- Part of diverse seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
+- Limited ALA-to-DHA conversion; consider algal DHA for direct omega-3 support; conversion from ALA is less than 5% in most adults
 
-## Related Foods
+## Biological Target Matrix
 
-- [Chia Seeds](./chia-seeds.md) - Also ALA source
-- [Walnuts](./walnuts.md) - Also ALA source
-- [Algal Oil](./algal-oil.md) - Direct DHA source
+<FoodMatrix tag="Flax Seeds" />
+
+## References
+
+- Soluble fibre (from apples, oats, flaxseeds) supports gut health and SCFA production; prebiotic fibres support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+- ALA is an essential omega-3 fatty acid with limited conversion to DHA/EPA in adults; food sources include flax, chia, and walnuts
+- Conversion from ALA is less than 5% in most adults; direct DHA/EPA strongly recommended for optimal brain health
+- Part of plant-based omega-3 strategy; regular consumption of oily fish or algal oil to meet baseline omega-3 requirements (~250–500 mg/day EPA+DHA) is recommended

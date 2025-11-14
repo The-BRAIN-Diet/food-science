@@ -5,40 +5,39 @@ sidebar_label: Barley
 description: Beta-glucan fiber and whole grain for gut health
 tags:
   - Food
+  - Barley
   - Vegan
   - Vegetarian
   - Magnesium
-  - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Barley provides beta-glucan prebiotic fiber and whole grain nutrients, supporting gut microbiome diversity and stable glucose release.
+Barley provides beta-glucan prebiotic fiber and whole grain nutrients, supporting gut microbiome diversity and stable glucose release. Beta-glucans: Oats, barley, mushrooms. Whole grains (including... grains like barley and oats) support gut health and stable glucose release. Chickpeas: Combine with grains like barley or oats for amino acid complementarity.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Barley" filter="recipes" />
 
-- **Beta-glucans**: Prebiotic fiber for gut microbiome
-- **Fiber**: Soluble and insoluble fiber
-- **B Vitamins**: Various B vitamins
-- **Magnesium**: Cofactor
+## Substances
 
-## From the paper
-
-- "Beta-glucans: Oats, barley, mushrooms"
-- "Whole grains (including... grains like barley and oats)"
-- "Chickpeas: Combine with grains like barley or oats" for amino acid complementarity
+<TagList tag="Barley" filter="substances" />
 
 ## Preparation Notes
 
-- Soak before cooking to reduce phytates
-- Part of whole grain diversity
-- Supports gut microbiome via beta-glucans
-- Pair with legumes for complete amino acid profile
+- Soak before cooking to reduce phytates and improve mineral bioavailability
+- Part of whole grain diversity strategy
+- Supports gut microbiome via beta-glucans; beta-glucans support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+- Pair with legumes for complete amino acid profile; combine with legumes like chickpeas for amino acid complementarity
 
-## Related Foods
+## Biological Target Matrix
 
-- [Oats](./oats.md) - Also contains beta-glucans
-- [Chickpeas](./chickpeas.md) - Good pairing
-- [Lentils](./lentils.md) - Good pairing
+<FoodMatrix tag="Barley" />
+
+## References
+
+- Beta-glucans: Oats, barley, mushrooms; prebiotic fiber supporting gut microbiome health
+- Whole grains (including... grains like barley and oats) support gut health and stable glucose release
+- Chickpeas: Combine with grains like barley or oats for amino acid complementarity; grain-legume complementarity improves essential amino-acid coverage
+- Beta-glucans support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier

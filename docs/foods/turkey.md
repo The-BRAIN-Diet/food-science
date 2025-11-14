@@ -5,43 +5,43 @@ sidebar_label: Turkey
 description: High tryptophan and niacin for serotonin synthesis and NAD+ production
 tags:
   - Food
+  - Turkey
   - Tryptophan
+  - Tyrosine
   - Vitamin B3
   - Vitamin B6
   - Vitamin B12
   - Selenium
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Turkey provides high-quality protein rich in tryptophan (serotonin precursor) and niacin (B3), supporting mood regulation and mitochondrial energy production.
+Turkey provides high-quality protein rich in tryptophan (serotonin precursor) and niacin (B3), supporting mood regulation and mitochondrial energy production. Turkey is listed as a source for tryptophan, which is converted to NAD+ via kynurenine pathway and serves as a serotonin precursor. Turkey is also listed as a niacin-rich food, supporting NAD+ synthesis for mitochondrial function. High-tyrosine protein from turkey supports dopamine synthesis for morning meals.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Protein**: Complete amino acid profile
-- **Tryptophan**: High levels for serotonin synthesis
-- **Niacin (B3)**: NAD+ precursor for mitochondrial function
-- **B Vitamins**: B6, B12
-- **Selenium**: Antioxidant support
+<TagList tag="Turkey" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Tryptophan: Turkey, chicken, eggs, pumpkin seeds, oats, soybeans"
-- "Serotonin: Turkey, eggs, dairy, soy, seeds, oats, bananas"
-- "Niacin (Vitamin B₃): Chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains"
-- "High-tyrosine protein (eggs, tofu, turkey)" for morning meals
-- "Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms)"
+<TagList tag="Turkey" filter="substances" />
 
 ## Preparation Notes
 
-- Pair with complex carbohydrates to enhance tryptophan-to-serotonin conversion
-- Best consumed midday or evening for calming effect
-- Gentle cooking preserves tryptophan
+- Pair with complex carbohydrates to enhance tryptophan-to-serotonin conversion; pair tryptophan-rich proteins with moderate carbs to increase Trp:LNAA ratio
+- Best consumed midday or evening for calming effect; timing midday or evening for calming effect
+- Gentle cooking preserves tryptophan and prevents formation of advanced glycation end products (AGEs)
+- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis
 
-## Related Foods
+## Biological Target Matrix
 
-- [Chicken](./chicken.md)
-- [Eggs](./eggs.md)
-- [Oats](./oats.md) - Good pairing for tryptophan
+<FoodMatrix tag="Turkey" />
 
+## References
+
+- Tryptophan: Converted to NAD+ via kynurenine pathway; food sources include turkey, chicken, eggs, pumpkin seeds, oats, soybeans
+- Serotonin: Mood regulation, emotional control, impulse moderation; food sources include turkey, eggs, dairy, soy, seeds, oats, bananas; cofactors include tryptophan, B6, magnesium
+- Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains [Pirinen et al. 2020](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
+- Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health
+- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis

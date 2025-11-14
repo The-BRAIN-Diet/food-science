@@ -5,45 +5,44 @@ sidebar_label: Sardines
 description: Small oily fish rich in EPA/DHA, CoQ10, and calcium
 tags:
   - Food
+  - Sardines
   - Omega-3 Fatty Acids
   - CoQ10
   - Calcium
   - Vitamin B3
   - Vitamin B12
   - Selenium
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Sardines are small, sustainable oily fish providing EPA/DHA omega-3s, CoQ10, calcium (from bones), and B vitamins with low heavy metal burden.
+Sardines are small, sustainable oily fish providing EPA/DHA omega-3s, CoQ10, calcium (from bones), and B vitamins with low heavy metal burden. Sardines are listed as top animal sources for omega-3 (EPA/DHA) and CoQ10, supporting brain health and mitochondrial function. Regular consumption of oily fish to meet baseline omega-3 requirements (~250–500 mg/day EPA+DHA) is recommended.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Sardines" filter="recipes" />
 
-- **Omega-3 (EPA/DHA)**: High levels for brain health
-- **CoQ10**: Mitochondrial support
-- **Calcium**: From edible bones
-- **Protein**: Complete amino acid profile
-- **B Vitamins**: B3, B12
-- **Selenium**: Antioxidant support
+## Substances
 
-## From the paper
-
-- "Oily fish (sardines, mackerel), beef" for CoQ10
-- "EPA & DHA (Omega-3): Sardines, mackerel, salmon, tuna, cod liver"
-- Listed as top animal source for omega-3
-- "Ethically sourced, high-nutrient-density options (e.g., liver, fish roe, sardines)"
+<TagList tag="Sardines" filter="substances" />
 
 ## Preparation Notes
 
-- Low on food chain = lower heavy metal burden
-- Can be consumed with bones for calcium
-- Best prepared with gentle cooking
+- Low on food chain = lower heavy metal burden compared to larger predatory fish
+- Can be consumed with bones for calcium content
+- Best prepared with gentle cooking to preserve omega-3s and prevent oxidation
 - Sustainable and affordable omega-3 source
+- Ethically sourced, high-nutrient-density option
 
-## Related Foods
+## Biological Target Matrix
 
-- [Mackerel](./mackerel.md)
-- [Salmon](./salmon.md)
-- [Tuna](./tuna.md)
+<FoodMatrix tag="Sardines" />
+
+## References
+
+- Oily fish (sardines, mackerel), beef for CoQ10; supports mitochondrial electron transport and antioxidant protection for neurons
+- EPA & DHA (Omega-3): Sardines, mackerel, salmon, tuna, cod liver; anti-inflammatory; membrane fluidity; neurotransmitter receptor function
+- Listed as top animal source for omega-3 (EPA/DHA)
+- Ethically sourced, high-nutrient-density options (e.g., liver, fish roe, sardines)
+- Regular consumption of oily fish to meet baseline omega-3 requirements (~250–500 mg/day EPA+DHA)

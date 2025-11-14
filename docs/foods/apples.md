@@ -5,47 +5,44 @@ sidebar_label: Apples
 description: Pectin fiber, quercetin, and food matrix effects on insulin response
 tags:
   - Food
+  - Apples
   - Vegan
   - Vegetarian
   - Vitamin C
   - Quercetin
   - Polyphenol
-  - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Apples provide pectin (prebiotic fiber), quercetin (polyphenol), and demonstrate important food matrix effects where intact structure blunts glycemic response compared to processed forms.
+Apples provide pectin (prebiotic fiber), quercetin (polyphenol), and demonstrate important food matrix effects where intact structure blunts glycemic response compared to processed forms. Apple juice induces a substantially greater postprandial insulin spike and lower satiety compared to either apple purée or the intact fruit. Preserving natural food structure (e.g., an apple vs. processed forms) blunts post-prandial glycemic excursions. Quercetin is abundant in apples, with the estimated flavonoid intake ranging from 50 to 800 mg/day, with about 75% of dietary polyphenol count being quercetin.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Apples" filter="recipes" />
 
-- **Pectin**: Prebiotic fiber supporting gut microbiome
-- **Fiber**: Soluble and insoluble fiber
-- **Vitamin C**: Antioxidant
+## Substances
 
-### Bioactive Substances
-
-- **Quercetin**: Abundant flavonoid (75% of dietary polyphenol count is quercetin)
-- **Polyphenols**: Antioxidant compounds
-
-## From the paper
-
-- "Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)"
-- "Apple juice induces a substantially greater postprandial insulin spike and lower satiety compared to either apple purée or the intact fruit"
-- "Preserving natural food structure (e.g., an apple vs. processed forms) blunts post-prandial glycemic excursions"
-- "Quercetin... abundant in capers, apples, onions, berries, kale and soybeans"
-- "Soluble fibre (from apples, oats, flaxseeds)"
+<TagList tag="Apples" filter="substances" />
 
 ## Preparation Notes
 
-- Consume whole fruit to preserve food matrix benefits
-- Avoid juicing to maintain fiber and glycemic control
-- Pair with fat for polyphenol absorption
-- Pectin supports gut microbiome diversity
+- Consume whole fruit to preserve food matrix benefits and blunt glycemic response
+- Avoid juicing to maintain fiber and glycemic control; apple juice induces substantially greater postprandial insulin spike
+- Pair with fat for polyphenol absorption; dietary fat enhances absorption of fat-soluble vitamins
+- Pectin supports gut microbiome diversity; prebiotic fibres including pectin (apples) support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+- Soluble fibre (from apples, oats, flaxseeds) supports gut health and SCFA production
 
-## Related Foods
+## Biological Target Matrix
 
-- [Onions](./onions.md) - Also high in quercetin
-- [Berries](./berries.md) - Similar polyphenol benefits
+<FoodMatrix tag="Apples" />
+
+## References
+
+- Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)
+- Apple juice induces a substantially greater postprandial insulin spike and lower satiety compared to either apple purée or the intact fruit
+- Preserving natural food structure (e.g., an apple vs. processed forms) blunts post-prandial glycemic excursions
+- Quercetin is abundant in capers, apples, onions, berries, kale and soybeans
+- Soluble fibre (from apples, oats, flaxseeds) supports gut health and SCFA production
+- Prebiotic fibres including pectin (apples) support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier

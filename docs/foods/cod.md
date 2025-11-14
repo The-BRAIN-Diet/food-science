@@ -5,40 +5,40 @@ sidebar_label: Cod
 description: Lean fish with omega-3, taurine, and creatine
 tags:
   - Food
+  - Cod
   - Omega-3 Fatty Acids
   - Taurine
   - Creatine
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Cod is a lean fish providing omega-3s, taurine, creatine, and complete protein, supporting brain health and neurotransmitter function.
+Cod is a lean fish providing omega-3s, taurine, creatine, and complete protein, supporting brain health and neurotransmitter function. Cod has a DIAAS score of 101-104, indicating high protein quality. Taurine regulates calcium signaling, antioxidant defense, and neurotransmission, and cod provides taurine along with creatine for ATP recycling support.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Cod" filter="recipes" />
 
-- **Omega-3 (EPA/DHA)**: Moderate levels
-- **Taurine**: Neurotransmission support
-- **Creatine**: ATP recycling support
-- **Protein**: Complete amino acid profile (DIAAS 101-104)
+## Substances
 
-## From the paper
-
-- "EPA & DHA (Omega-3): Sardines, mackerel, salmon, tuna, cod liver"
-- "Taurine: Scallops, clams, dark-meat poultry, mackerel" (cod also contains)
-- "Creatine: Beef, lamb, pork, salmon, tuna, cod, scallops"
-- DIAAS 101-104, "Lean protein, taurine"
+<TagList tag="Cod" filter="substances" />
 
 ## Preparation Notes
 
-- Best prepared with gentle cooking
-- Sustainable seafood option
-- Part of diverse fish intake
+- Best prepared with gentle cooking to preserve nutrients and prevent formation of advanced glycation end products (AGEs)
+- Sustainable seafood option with lower heavy metal burden than larger predatory fish
+- Part of diverse fish intake strategy
 - Supports neurotransmitter and energy metabolism
+- Light/gentle cooking preserves creatine levels
 
-## Related Foods
+## Biological Target Matrix
 
-- [Salmon](./salmon.md)
-- [Tuna](./tuna.md)
-- [Scallops](./scallops.md)
+<FoodMatrix tag="Cod" />
+
+## References
+
+- EPA & DHA (Omega-3): Sardines, mackerel, salmon, tuna, cod liver; anti-inflammatory; membrane fluidity; neurotransmitter receptor function
+- Taurine: Regulates calcium signaling, antioxidant defense, and neurotransmission; food sources include scallops, clams, dark-meat poultry, mackerel (cod also contains)
+- Creatine: Supports ATP recycling in neurons; enhances working memory and cognitive processing speed; food sources include beef, lamb, pork, salmon, tuna, cod, scallops
+- Cod has DIAAS score of 101-104, indicating high protein quality; lean protein, taurine source
