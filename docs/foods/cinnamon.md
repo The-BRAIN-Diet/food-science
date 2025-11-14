@@ -5,25 +5,24 @@ sidebar_label: Cinnamon
 description: Glycemic control, insulin sensitivity, and cognitive support
 tags:
   - Food
+  - Cinnamon
   - Vegan
   - Vegetarian
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Cinnamon provides compounds that support glycemic control, insulin sensitivity, and cognitive function, relevant for ADHD metabolic dysregulation.
+Cinnamon provides compounds that support glycemic control, insulin sensitivity, and cognitive function, relevant for ADHD metabolic dysregulation. Cinnamon supports glycemic control, insulin sensitivity, and cognition at 1–3 g/day cassia or Ceylon cinnamon powder.
 
-## Key Substances
+## Recipes
 
-### Bioactive Substances
-- **Cinnamaldehyde**: Primary bioactive compound
-- **Polyphenols**: Antioxidant compounds
+<TagList tag="Cinnamon" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Cinnamon: Glycemic control, insulin sensitivity, cognition - 1–3 g/day cassia or Ceylon cinnamon powder"
-- "Glucose Regulation: Low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, meal sequencing (veg → protein → carb)"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -32,8 +31,12 @@ Cinnamon provides compounds that support glycemic control, insulin sensitivity, 
 - Part of glucose regulation strategy
 - Supports insulin sensitivity
 
-## Related Foods
+## Biological Target Matrix
 
-- [Berberine](../substances/bioactive-substances/berberine.md)
-- [Vinegar](./vinegar.md)
+<FoodMatrix tag="Cinnamon" />
+
+## References
+
+- Cinnamon: Glycemic control, insulin sensitivity, cognition - 1–3 g/day cassia or Ceylon cinnamon powder
+- Glucose Regulation: Low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, meal sequencing (veg → protein → carb)
 

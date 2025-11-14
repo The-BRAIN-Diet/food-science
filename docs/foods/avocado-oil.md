@@ -5,28 +5,26 @@ sidebar_label: Avocado Oil
 description: MUFA-rich oil with vitamin E and lutein
 tags:
   - Food
+  - Avocado Oil
   - Vegan
   - Vegetarian
   - Vitamin E
   - Lutein
   - Carotenoid
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Avocado oil provides monounsaturated fats (MUFA), vitamin E, and lutein, suitable for cooking and supporting carotenoid absorption.
+Avocado oil provides monounsaturated fats (MUFA), vitamin E, and lutein, suitable for cooking and supporting carotenoid absorption. Avocado / Avocado Oil provides MUFAs (oleic), vitamin E, lutein, fibre, and glutathione, and replacing industrial seed oils with more stable options like olive oil, ghee, or avocado oil is recommended.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Monounsaturated Fats (MUFA)**: Oleic acid
-- **Vitamin E**: Fat-soluble antioxidant
-- **Lutein**: Carotenoid
+<TagList tag="Avocado Oil" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Avocado / Avocado Oil: MUFAs (oleic), vitamin E, lutein, fibre, glutathione"
-- "Replacing industrial seed oils with more stable options like olive oil, ghee, or avocado oil"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -35,9 +33,12 @@ Avocado oil provides monounsaturated fats (MUFA), vitamin E, and lutein, suitabl
 - Supports MUFA intake
 - Pair with carotenoid-rich vegetables
 
-## Related Foods
+## Biological Target Matrix
 
-- [Avocado](./avocado.md)
-- [Olive Oil](./olive-oil.md)
-- [Ghee](./ghee.md)
+<FoodMatrix tag="Avocado Oil" />
+
+## References
+
+- Avocado / Avocado Oil: MUFAs (oleic), vitamin E, lutein, fibre, glutathione
+- Replacing industrial seed oils with more stable options like olive oil, ghee, or avocado oil
 

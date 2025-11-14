@@ -5,28 +5,23 @@ sidebar_label: Spelt
 description: Ancient wheat with high asparagine for optimized Maillard products
 tags:
   - Food
+  - Spelt
   - Vegan
   - Vegetarian
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Spelt is an ancient wheat variety providing high asparagine and fiber, making it ideal for sourdough bread with optimized Maillard reaction products (MRPs).
+Spelt is an ancient wheat variety providing high asparagine and fiber, making it ideal for sourdough bread with optimized Maillard reaction products (MRPs). Whole Spelt Flour has high asparagine + fibre; substrate for Maillard; better MRPs than white flour - ↑ Melanoidin precursors; ↑ antioxidant MRPs.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Protein**: Complete amino acid profile
-- **Fiber**: High fiber content
-- **B Vitamins**: Various B vitamins
+<TagList tag="Spelt" filter="recipes" />
 
-### Bioactive Substances
-- **Maillard Reaction Products (MRPs)**: When used in optimized bread-making
+## Substances
 
-## From the paper
-
-- "Whole Spelt Flour: High asparagine + fibre; substrate for Maillard; better MRPs than white flour - ↑ Melanoidin precursors; ↑ antioxidant MRPs"
-- Part of optimized bread-making strategy
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -35,9 +30,10 @@ Spelt is an ancient wheat variety providing high asparagine and fiber, making it
 - Part of functional bread strategy
 - Supports optimized MRP formation
 
-## Related Foods
+## Biological Target Matrix
 
-- [Sourdough Bread](./sourdough-bread.md)
-- [Wheat](./wheat.md)
-- [Whole Grains](./whole-grains.md)
+<FoodMatrix tag="Spelt" />
 
+## References
+
+- Whole Spelt Flour: High asparagine + fibre; substrate for Maillard; better MRPs than white flour - ↑ Melanoidin precursors; ↑ antioxidant MRPs

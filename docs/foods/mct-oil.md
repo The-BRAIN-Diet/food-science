@@ -5,23 +5,23 @@ sidebar_label: MCT Oil
 description: Concentrated medium-chain triglycerides for brain energy
 tags:
   - Food
+  - MCT Oil
   - Vegan
   - Vegetarian
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-MCT oil is concentrated medium-chain triglycerides (C8, C10) providing rapid energy for the brain and supporting ketone production.
+MCT oil is concentrated medium-chain triglycerides (C8, C10) providing rapid energy for the brain and supporting ketone production. Coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, and supports ketone production.
 
-## Key Substances
+## Recipes
 
-### Bioactive Substances
-- **MCTs (C8, C10)**: Medium-chain triglycerides for rapid brain energy
+<TagList tag="MCT Oil" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Coconut Oil / MCT Oil: MCTs (C8, C10), rapid energy for brain, supports ketone production"
-- "Antimicrobial Lipids: Medium-chain triglycerides (MCT oil, coconut oil), caprylic acid"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -30,8 +30,12 @@ MCT oil is concentrated medium-chain triglycerides (C8, C10) providing rapid ene
 - Supports ketone production
 - Part of brain energy strategy
 
-## Related Foods
+## Biological Target Matrix
 
-- [Coconut Oil](./coconut-oil.md)
-- [Avocado Oil](./avocado-oil.md)
+<FoodMatrix tag="MCT Oil" />
+
+## References
+
+- Coconut Oil / MCT Oil: MCTs (C8, C10), rapid energy for brain, supports ketone production
+- Antimicrobial Lipids: Medium-chain triglycerides (MCT oil, coconut oil), caprylic acid
 

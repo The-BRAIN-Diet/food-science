@@ -5,28 +5,24 @@ sidebar_label: Tahini
 description: Sesame seed paste providing fat for carotenoid absorption
 tags:
   - Food
+  - Tahini
   - Vegan
   - Vegetarian
   - Calcium
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorption when paired with vegetables like carrots.
+Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorption when paired with vegetables like carrots. Practical pairings include spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Fat**: Unsaturated fats (MUFA/PUFA)
-- **Calcium**: Some content
-- **Protein**: Some protein
+<TagList tag="Tahini" filter="recipes" />
 
-### Bioactive Substances
-- **Sesamin**: Lignan compound
+## Substances
 
-## From the paper
-
-- "Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -35,9 +31,11 @@ Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorpt
 - Part of food synergy strategy
 - Supports fat-soluble vitamin absorption
 
-## Related Foods
+## Biological Target Matrix
 
-- [Carrots](./carrots.md) - Good pairing
-- [Sesame Seeds](./sesame-seeds.md)
-- [Olive Oil](./olive-oil.md) - Similar use
+<FoodMatrix tag="Tahini" />
+
+## References
+
+- Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts
 

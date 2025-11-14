@@ -5,23 +5,24 @@ sidebar_label: Sage
 description: Memory and cognitive enhancement
 tags:
   - Food
+  - Sage
   - Vegan
   - Vegetarian
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Sage provides compounds that support memory and cognitive enhancement.
+Sage provides compounds that support memory and cognitive enhancement. Sage supports memory and cognitive enhancement at 200–400 mg/day extract or culinary doses.
 
-## Key Substances
+## Recipes
 
-### Bioactive Substances
-- **Polyphenols**: Cognitive-enhancing compounds
+<TagList tag="Sage" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Sage: Memory and cognitive enhancement - 200–400 mg/day extract or culinary doses"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -30,8 +31,11 @@ Sage provides compounds that support memory and cognitive enhancement.
 - Supports memory and cognition
 - Culinary use is generally safe
 
-## Related Foods
+## Biological Target Matrix
 
-- [Rosemary](./rosemary.md)
-- [Peppermint](./peppermint.md)
+<FoodMatrix tag="Sage" />
+
+## References
+
+- Sage: Memory and cognitive enhancement - 200–400 mg/day extract or culinary doses
 

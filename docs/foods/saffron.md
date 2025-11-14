@@ -5,29 +5,26 @@ sidebar_label: Saffron
 description: Spice with crocin and safranal for mood and cognitive support
 tags:
   - Food
+  - Saffron
   - Vegan
   - Vegetarian
   - Saffron
   - Terpene
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Saffron provides crocin (antioxidant) and safranal (volatile compound) that support mood regulation, cognition, and ADHD symptoms at therapeutic doses (~30 mg/day).
+Saffron provides crocin (antioxidant) and safranal (volatile compound) that support mood regulation, cognition, and ADHD symptoms at therapeutic doses (~30 mg/day). Saffron is thought to boost serotonin and have antioxidant crocin and has shown promising effects on depression, mood, cognition, and ADHD symptoms at doses around 30 mg/day of standardized extract.
 
-## Key Substances
+## Recipes
 
-### Bioactive Substances
-- **Crocin**: Antioxidant carotenoid
-- **Safranal**: Volatile monoterpene
-- **Polyphenols**: Antioxidant compounds
+<TagList tag="Saffron" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Saffron: ADHD symptoms, mood regulation - 30 mg/day standardized extract (stigmas)"
-- "Saffron - it's thought to boost serotonin and have antioxidant crocin and it has shown promising effects on depression, mood, cognition, and ADHD symptoms at doses around 30 mg/day of standardized extract"
-- "The delicate oils contained in saffron such as safranal and other volatile monoterpenes, are highly sensitive to heat, light, and oxidation"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -36,8 +33,13 @@ Saffron provides crocin (antioxidant) and safranal (volatile compound) that supp
 - Therapeutic doses (~30 mg/day) for clinical effects
 - Part of spice strategy for mood and cognitive support
 
-## Related Foods
+## Biological Target Matrix
 
-- [Turmeric](./turmeric.md)
-- [Ginger](./ginger.md)
+<FoodMatrix tag="Saffron" />
+
+## References
+
+- Saffron: ADHD symptoms, mood regulation - 30 mg/day standardized extract (stigmas)
+- Saffron is thought to boost serotonin and have antioxidant crocin and has shown promising effects on depression, mood, cognition, and ADHD symptoms at doses around 30 mg/day of standardized extract
+- The delicate oils contained in saffron such as safranal and other volatile monoterpenes, are highly sensitive to heat, light, and oxidation
 

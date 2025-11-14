@@ -5,26 +5,23 @@ sidebar_label: Coconut Oil
 description: MCTs for rapid brain energy and ketone production
 tags:
   - Food
+  - Coconut Oil
   - Vegan
   - Vegetarian
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Coconut oil provides medium-chain triglycerides (MCTs) that provide rapid energy for the brain and support ketone production.
+Coconut oil provides medium-chain triglycerides (MCTs) that provide rapid energy for the brain and support ketone production. Coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, supports ketone production, and can be used in smoothies, baking, or small-portion use.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **MCTs (C8, C10)**: Medium-chain triglycerides
+<TagList tag="Coconut Oil" filter="recipes" />
 
-### Bioactive Substances
-- **MCTs**: Rapid energy for brain, supports ketone production
+## Substances
 
-## From the paper
-
-- "Coconut Oil / MCT Oil: MCTs (C8, C10), rapid energy for brain, supports ketone production - Smoothies, baking, small-portion use"
-- "Antimicrobial Lipids: Medium-chain triglycerides (MCT oil, coconut oil), caprylic acid - Direct inhibition of pathobionts (Candida, C. difficile) without harming commensals"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -33,8 +30,12 @@ Coconut oil provides medium-chain triglycerides (MCTs) that provide rapid energy
 - Supports ketone production
 - Antimicrobial properties for gut health
 
-## Related Foods
+## Biological Target Matrix
 
-- [MCT Oil](./mct-oil.md)
-- [Avocado Oil](./avocado-oil.md)
+<FoodMatrix tag="Coconut Oil" />
+
+## References
+
+- Coconut Oil / MCT Oil: MCTs (C8, C10), rapid energy for brain, supports ketone production - Smoothies, baking, small-portion use
+- Antimicrobial Lipids: Medium-chain triglycerides (MCT oil, coconut oil), caprylic acid - Direct inhibition of pathobionts (Candida, C. difficile) without harming commensals
 

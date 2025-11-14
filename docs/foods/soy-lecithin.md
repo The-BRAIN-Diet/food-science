@@ -5,28 +5,25 @@ sidebar_label: Soy Lecithin
 description: Concentrated choline source for phosphatidylcholine synthesis
 tags:
   - Food
+  - Soy Lecithin
   - Vegan
   - Vegetarian
   - Choline
   - Phosphatidylcholine
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery.
+Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery. Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Choline**: High concentration for PC synthesis
+<TagList tag="Soy Lecithin" filter="recipes" />
 
-### Bioactive Substances
-- **Phosphatidylcholine**: Carrier for DHA/EPA
+## Substances
 
-## From the paper
-
-- "Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6)"
-- "Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -35,9 +32,12 @@ Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine
 - Supports phospholipid-bound omega-3 strategy
 - Part of functional food approach
 
-## Related Foods
+## Biological Target Matrix
 
-- [Soy](./soy.md)
-- [Sunflower Lecithin](./sunflower-lecithin.md)
-- [Choline](../substances/bioactive-substances/choline.md)
+<FoodMatrix tag="Soy Lecithin" />
+
+## References
+
+- Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6)
+- Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery
 

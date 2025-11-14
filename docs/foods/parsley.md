@@ -5,32 +5,27 @@ sidebar_label: Parsley
 description: Reduces harmful cholesterol oxidation products when added to cooking
 tags:
   - Food
+  - Parsley
   - Vegan
   - Vegetarian
   - Vitamin K2
   - Vitamin C
   - Vitamin B9
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health.
+Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health. The strategy of simply adding parsley when cooking food has seen significant reductions in harmful COPs (Cholesterol Oxidation Products).
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Vitamin K**: High content
-- **Vitamin C**: Antioxidant
-- **Folate (B9)**: Methylation support
+<TagList tag="Parsley" filter="recipes" />
 
-### Bioactive Substances
-- **Polyphenols**: Antioxidant compounds
-- **Cholesterol Oxidation Product (COP) reduction**: When added to cooking
+## Substances
 
-## From the paper
-
-- "The strategy of simply adding parsley when cooking food has seen significant reductions in harmful COPs (Cholesterol Oxidation Products)"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -39,8 +34,10 @@ Parsley, when added during cooking, significantly reduces harmful Cholesterol Ox
 - Part of food preparation strategy to reduce harmful byproducts
 - Fresh is preferred over dried
 
-## Related Foods
+## Biological Target Matrix
 
-- [Herbs](./herbs.md) (general)
-- [Cilantro](./cilantro.md) - Similar uses
+<FoodMatrix tag="Parsley" />
 
+## References
+
+- The strategy of simply adding parsley when cooking food has seen significant reductions in harmful COPs (Cholesterol Oxidation Products)
