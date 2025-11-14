@@ -90,12 +90,27 @@ export default function FoodSubstances({details}: FoodSubstancesProps): React.Re
   // Remove duplicates
   const uniqueSubstances = Array.from(new Map(allSubstances.map((doc: Document) => [doc.permalink, doc])).values())
 
-  // Find substances that match the food's tags
-  // A substance matches if it has a tag that matches one of the food's tags
-  const relatedSubstances = uniqueSubstances.filter((substance: Document) => {
-    const substanceTagLabels = substance.tags.map((t: Tag) => t.label)
-    return substanceTagLabels.some((st: string) => foodTagLabels.includes(st))
+  // Extract substance names from their titles
+  // Substance titles might be like "Curcumin (Turmeric)" or "Berberine"
+  // We'll normalize by taking the first part before any parentheses
+  const getSubstanceName = (title: string): string => {
+    // Remove parenthetical info like "(Turmeric)" from "Curcumin (Turmeric)"
+    const normalized = title.split("(")[0].trim()
+    return normalized
+  }
+
+  // Create a map of substance names to substance documents
+  const substanceNameMap = new Map<string, Document>()
+  uniqueSubstances.forEach((substance: Document) => {
+    const substanceName = getSubstanceName(substance.title)
+    substanceNameMap.set(substanceName, substance)
   })
+
+  // Find substances where the food has a tag that exactly matches a substance name
+  // Only match on exact substance names, not category tags like "Polyphenol"
+  const relatedSubstances = foodTagLabels
+    .map((foodTag: string) => substanceNameMap.get(foodTag))
+    .filter((substance: Document | undefined): substance is Document => substance !== undefined)
 
   // Sort by order, then by title
   relatedSubstances.sort((a: Document, b: Document) => {
@@ -120,4 +135,3 @@ export default function FoodSubstances({details}: FoodSubstancesProps): React.Re
     </div>
   )
 }
-
