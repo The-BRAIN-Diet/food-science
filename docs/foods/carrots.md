@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Potassium
-  - Beta Carotene
+  - Beta-Carotene
 list_image: /img/icons/ingredients.svg
 ---
 

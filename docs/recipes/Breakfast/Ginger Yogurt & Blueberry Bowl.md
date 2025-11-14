@@ -11,7 +11,7 @@ tags:
   - Oxidative Stress
   - Breakfast
   - Polyphenols
-  - Omega-3
+  - Omega-3 Fatty Acids
   - Probiotics
   - Recipe
   - Yogurt

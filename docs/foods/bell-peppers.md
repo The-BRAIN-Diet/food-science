@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin C
-  - Beta Carotene
+  - Beta-Carotene
   - Lutein
   - Carotenoid
   - SCFAs

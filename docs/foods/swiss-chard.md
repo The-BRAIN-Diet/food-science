@@ -16,7 +16,7 @@ tags:
   - Carotenoid
   - Lutein
   - Zeaxanthin
-  - Beta Carotene
+  - Beta-Carotene
 list_image: /img/icons/ingredients.svg
 ---
 
