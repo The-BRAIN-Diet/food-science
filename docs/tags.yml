@@ -475,3 +475,848 @@ Zinc:
   label: Zinc
   permalink: /docs/tags/zinc
   description: Essential trace mineral
+
+# Food tags
+Almonds:
+  label: Almonds
+  permalink: /docs/tags/almonds
+  description: Tree nut rich in healthy fats and vitamin E
+
+Amaranth:
+  label: Amaranth
+  permalink: /docs/tags/amaranth
+  description: Ancient grain with complete protein
+
+Apples:
+  label: Apples
+  permalink: /docs/tags/apples
+  description: Fruit rich in fiber and polyphenols
+
+Asparagus:
+  label: Asparagus
+  permalink: /docs/tags/asparagus
+  description: Vegetable rich in folate and prebiotic fiber
+
+Avocado Oil:
+  label: Avocado Oil
+  permalink: /docs/tags/avocado-oil
+  description: MUFA-rich oil with vitamin E and lutein
+
+Avocado:
+  label: Avocado
+  permalink: /docs/tags/avocado
+  description: Fruit rich in monounsaturated fats and fiber
+
+Bananas:
+  label: Bananas
+  permalink: /docs/tags/bananas
+  description: Fruit rich in potassium and resistant starch
+
+Barley:
+  label: Barley
+  permalink: /docs/tags/barley
+  description: Whole grain with beta-glucan fiber
+
+Beef:
+  label: Beef
+  permalink: /docs/tags/beef
+  description: Red meat providing complete protein and iron
+
+Bell Peppers:
+  label: Bell Peppers
+  permalink: /docs/tags/bell-peppers
+  description: Vegetable rich in vitamin C and carotenoids
+
+Berries:
+  label: Berries
+  permalink: /docs/tags/berries
+  description: Fruits rich in polyphenols and antioxidants
+
+Black Beans:
+  label: Black Beans
+  permalink: /docs/tags/black-beans
+  description: Legume rich in protein, fiber, and minerals
+
+Black Goji:
+  label: Black Goji
+  permalink: /docs/tags/black-goji
+  description: Berry rich in antioxidants
+
+Black Pepper:
+  label: Black Pepper
+  permalink: /docs/tags/black-pepper
+  description: Spice containing piperine
+
+Black Tea:
+  label: Black Tea
+  permalink: /docs/tags/black-tea
+  description: Tea rich in polyphenols
+
+Blueberries:
+  label: Blueberries
+  permalink: /docs/tags/blueberries
+  description: Berry rich in anthocyanins and antioxidants
+
+Broccoli:
+  label: Broccoli
+  permalink: /docs/tags/broccoli
+  description: Cruciferous vegetable rich in sulforaphane
+
+Brussels Sprouts:
+  label: Brussels Sprouts
+  permalink: /docs/tags/brussels-sprouts
+  description: Cruciferous vegetable rich in glucosinolates
+
+Buckwheat:
+  label: Buckwheat
+  permalink: /docs/tags/buckwheat
+  description: Pseudocereal with complete protein
+
+Butter:
+  label: Butter
+  permalink: /docs/tags/butter
+  description: Dairy fat rich in butyrate
+
+Cabbage:
+  label: Cabbage
+  permalink: /docs/tags/cabbage
+  description: Cruciferous vegetable rich in glucosinolates
+
+Capers:
+  label: Capers
+  permalink: /docs/tags/capers
+  description: Flower buds rich in quercetin
+
+Carrots:
+  label: Carrots
+  permalink: /docs/tags/carrots
+  description: Root vegetable rich in beta-carotene
+
+Cashews:
+  label: Cashews
+  permalink: /docs/tags/cashews
+  description: Tree nut rich in healthy fats and minerals
+
+Cauliflower:
+  label: Cauliflower
+  permalink: /docs/tags/cauliflower
+  description: Cruciferous vegetable rich in glucosinolates
+
+Chamomile:
+  label: Chamomile
+  permalink: /docs/tags/chamomile
+  description: Herbal tea with calming properties
+
+Cheese:
+  label: Cheese
+  permalink: /docs/tags/cheese
+  description: Fermented dairy product rich in protein and calcium
+
+Cherries:
+  label: Cherries
+  permalink: /docs/tags/cherries
+  description: Fruit rich in anthocyanins and melatonin
+
+Chia Seeds:
+  label: Chia Seeds
+  permalink: /docs/tags/chia-seeds
+  description: Seeds rich in omega-3 and fiber
+
+Chicken:
+  label: Chicken
+  permalink: /docs/tags/chicken
+  description: Poultry providing complete protein
+
+Chickpeas:
+  label: Chickpeas
+  permalink: /docs/tags/chickpeas
+  description: Legume rich in protein, fiber, and minerals
+
+Chicory:
+  label: Chicory
+  permalink: /docs/tags/chicory
+  description: Root vegetable rich in inulin prebiotic fiber
+
+Chlorella:
+  label: Chlorella
+  permalink: /docs/tags/chlorella
+  description: Algae with bioavailable vitamin B12
+
+Cilantro:
+  label: Cilantro
+  permalink: /docs/tags/cilantro
+  description: Herb with detoxifying properties
+
+Cinnamon:
+  label: Cinnamon
+  permalink: /docs/tags/cinnamon
+  description: Spice supporting glycemic control
+
+Citrus:
+  label: Citrus
+  permalink: /docs/tags/citrus
+  description: Fruits rich in vitamin C
+
+Clams:
+  label: Clams
+  permalink: /docs/tags/clams
+  description: Shellfish rich in vitamin B12 and iron
+
+Cocoa:
+  label: Cocoa
+  permalink: /docs/tags/cocoa
+  description: Source of flavanols and polyphenols
+
+Coconut Oil:
+  label: Coconut Oil
+  permalink: /docs/tags/coconut-oil
+  description: Oil rich in medium-chain triglycerides
+
+Cod:
+  label: Cod
+  permalink: /docs/tags/cod
+  description: White fish providing lean protein
+
+Coffee:
+  label: Coffee
+  permalink: /docs/tags/coffee
+  description: Beverage containing caffeine and polyphenols
+
+Cooled Potatoes:
+  label: Cooled Potatoes
+  permalink: /docs/tags/cooled-potatoes
+  description: Potatoes with increased resistant starch
+
+Corn:
+  label: Corn
+  permalink: /docs/tags/corn
+  description: Grain rich in fiber and carotenoids
+
+Crab:
+  label: Crab
+  permalink: /docs/tags/crab
+  description: Shellfish rich in zinc and selenium
+
+Cranberries:
+  label: Cranberries
+  permalink: /docs/tags/cranberries
+  description: Berry rich in polyphenols and proanthocyanidins
+
+Cucumber:
+  label: Cucumber
+  permalink: /docs/tags/cucumber
+  description: Vegetable containing NMN
+
+Dairy:
+  label: Dairy
+  permalink: /docs/tags/dairy
+  description: Dairy products providing protein and calcium
+
+Dandelion Greens:
+  label: Dandelion Greens
+  permalink: /docs/tags/dandelion-greens
+  description: Leafy green rich in vitamins and minerals
+
+Dark Chocolate:
+  label: Dark Chocolate
+  permalink: /docs/tags/dark-chocolate
+  description: Chocolate rich in cocoa flavanols
+
+Dark-Meat Poultry:
+  label: Dark-Meat Poultry
+  permalink: /docs/tags/dark-meat-poultry
+  description: Poultry with higher iron content
+
+Duck Fat:
+  label: Duck Fat
+  permalink: /docs/tags/duck-fat
+  description: Cooking fat with monounsaturated fats
+
+Duckweed:
+  label: Duckweed
+  permalink: /docs/tags/duckweed
+  description: Aquatic plant with bioavailable iron and B12
+
+Edamame:
+  label: Edamame
+  permalink: /docs/tags/edamame
+  description: Young soybeans rich in NMN and protein
+
+Egg Yolks:
+  label: Egg Yolks
+  permalink: /docs/tags/egg-yolks
+  description: Egg yolks rich in choline and lutein
+
+Eggs:
+  label: Eggs
+  permalink: /docs/tags/eggs
+  description: Complete protein source with choline
+
+Extra Virgin Olive Oil:
+  label: Extra Virgin Olive Oil
+  permalink: /docs/tags/extra-virgin-olive-oil
+  description: Highest quality olive oil with polyphenols
+
+Fermented Vegetables:
+  label: Fermented Vegetables
+  permalink: /docs/tags/fermented-vegetables
+  description: Vegetables preserved through fermentation
+
+Fish Roe:
+  label: Fish Roe
+  permalink: /docs/tags/fish-roe
+  description: Fish eggs rich in omega-3 and choline
+
+Flax Seeds:
+  label: Flax Seeds
+  permalink: /docs/tags/flax-seeds
+  description: Seeds rich in ALA omega-3 and lignans
+
+Fortified Plant Milks:
+  label: Fortified Plant Milks
+  permalink: /docs/tags/fortified-plant-milks
+  description: Plant-based milks with added nutrients
+
+Garlic:
+  label: Garlic
+  permalink: /docs/tags/garlic
+  description: Bulb vegetable with allicin and sulfur compounds
+
+Ghee:
+  label: Ghee
+  permalink: /docs/tags/ghee
+  description: Clarified butter with butyrate
+
+Ginger:
+  label: Ginger
+  permalink: /docs/tags/ginger
+  description: Root spice with anti-inflammatory properties
+
+Grapes:
+  label: Grapes
+  permalink: /docs/tags/grapes
+  description: Fruit rich in resveratrol and polyphenols
+
+Grass-Fed Butter:
+  label: Grass-Fed Butter
+  permalink: /docs/tags/grass-fed-butter
+  description: Butter from grass-fed cows with higher omega-3
+
+Green Bananas:
+  label: Green Bananas
+  permalink: /docs/tags/green-bananas
+  description: Unripe bananas rich in resistant starch
+
+Green Tea:
+  label: Green Tea
+  permalink: /docs/tags/green-tea
+  description: Tea rich in EGCG and L-theanine
+
+Heart:
+  label: Heart
+  permalink: /docs/tags/heart
+  description: Organ meat rich in CoQ10 and B vitamins
+
+Herbs:
+  label: Herbs
+  permalink: /docs/tags/herbs
+  description: Culinary and medicinal herbs
+
+Herring:
+  label: Herring
+  permalink: /docs/tags/herring
+  description: Fatty fish rich in omega-3
+
+Jerusalem Artichokes:
+  label: Jerusalem Artichokes
+  permalink: /docs/tags/jerusalem-artichokes
+  description: Root vegetable rich in inulin prebiotic fiber
+
+Kale:
+  label: Kale
+  permalink: /docs/tags/kale
+  description: Leafy green rich in vitamins and glucosinolates
+
+Kefir:
+  label: Kefir
+  permalink: /docs/tags/kefir
+  description: Fermented dairy drink with probiotics
+
+Kidney Beans:
+  label: Kidney Beans
+  permalink: /docs/tags/kidney-beans
+  description: Legume rich in protein, fiber, and minerals
+
+Kidney:
+  label: Kidney
+  permalink: /docs/tags/kidney
+  description: Organ meat rich in B vitamins and minerals
+
+Kimchi:
+  label: Kimchi
+  permalink: /docs/tags/kimchi
+  description: Fermented Korean vegetable dish
+
+Kombucha:
+  label: Kombucha
+  permalink: /docs/tags/kombucha
+  description: Fermented tea beverage
+
+Lamb:
+  label: Lamb
+  permalink: /docs/tags/lamb
+  description: Red meat providing complete protein
+
+Leeks:
+  label: Leeks
+  permalink: /docs/tags/leeks
+  description: Allium vegetable rich in prebiotic fiber
+
+Lemon Balm:
+  label: Lemon Balm
+  permalink: /docs/tags/lemon-balm
+  description: Herbal tea with calming properties
+
+Lemon:
+  label: Lemon
+  permalink: /docs/tags/lemon
+  description: Citrus fruit rich in vitamin C
+
+Lentils:
+  label: Lentils
+  permalink: /docs/tags/lentils
+  description: Legume rich in protein, fiber, and folate
+
+Liver:
+  label: Liver
+  permalink: /docs/tags/liver
+  description: Organ meat rich in B vitamins, iron, and vitamin A
+
+Lumpfish Roe:
+  label: Lumpfish Roe
+  permalink: /docs/tags/lumpfish-roe
+  description: Fish eggs rich in omega-3
+
+Lupins:
+  label: Lupins
+  permalink: /docs/tags/lupins
+  description: Legume rich in protein and fiber
+
+Mackerel:
+  label: Mackerel
+  permalink: /docs/tags/mackerel
+  description: Fatty fish rich in omega-3
+
+Mankai:
+  label: Mankai
+  permalink: /docs/tags/mankai
+  description: Duckweed with bioavailable iron and B12
+
+Masala Chai:
+  label: Masala Chai
+  permalink: /docs/tags/masala-chai
+  description: Spiced tea blend
+
+MCT Oil:
+  label: MCT Oil
+  permalink: /docs/tags/mct-oil
+  description: Concentrated medium-chain triglycerides
+
+Milk:
+  label: Milk
+  permalink: /docs/tags/milk
+  description: Dairy beverage providing protein and calcium
+
+Miso:
+  label: Miso
+  permalink: /docs/tags/miso
+  description: Fermented soybean paste
+
+Mucuna Beans:
+  label: Mucuna Beans
+  permalink: /docs/tags/mucuna-beans
+  description: Legume rich in L-DOPA
+
+Mushrooms:
+  label: Mushrooms
+  permalink: /docs/tags/mushrooms
+  description: Fungi rich in B vitamins and ergosterol
+
+Natto:
+  label: Natto
+  permalink: /docs/tags/natto
+  description: Fermented soybeans rich in vitamin K2
+
+Nori:
+  label: Nori
+  permalink: /docs/tags/nori
+  description: Seaweed with trace creatine and iodine
+
+Nutritional Yeast:
+  label: Nutritional Yeast
+  permalink: /docs/tags/nutritional-yeast
+  description: Fortified yeast with B vitamins
+
+Oats:
+  label: Oats
+  permalink: /docs/tags/oats
+  description: Whole grain rich in beta-glucan fiber
+
+Olive Oil:
+  label: Olive Oil
+  permalink: /docs/tags/olive-oil
+  description: Oil rich in monounsaturated fats and polyphenols
+
+Olives:
+  label: Olives
+  permalink: /docs/tags/olives
+  description: Fruit rich in monounsaturated fats
+
+Onions:
+  label: Onions
+  permalink: /docs/tags/onions
+  description: Allium vegetable with quercetin
+
+Oranges:
+  label: Oranges
+  permalink: /docs/tags/oranges
+  description: Citrus fruit rich in vitamin C
+
+Oregano:
+  label: Oregano
+  permalink: /docs/tags/oregano
+  description: Herb with antimicrobial properties
+
+Organ Meats:
+  label: Organ Meats
+  permalink: /docs/tags/organ-meats
+  description: Nutrient-dense organ meats
+
+Oysters:
+  label: Oysters
+  permalink: /docs/tags/oysters
+  description: Shellfish rich in zinc and B12
+
+Parmesan Cheese:
+  label: Parmesan Cheese
+  permalink: /docs/tags/parmesan-cheese
+  description: Aged cheese rich in protein and calcium
+
+Parsley:
+  label: Parsley
+  permalink: /docs/tags/parsley
+  description: Herb that reduces cholesterol oxidation products
+
+Peanuts:
+  label: Peanuts
+  permalink: /docs/tags/peanuts
+  description: Legume rich in protein and resveratrol
+
+Peas:
+  label: Peas
+  permalink: /docs/tags/peas
+  description: Legume rich in protein and fiber
+
+Peppermint:
+  label: Peppermint
+  permalink: /docs/tags/peppermint
+  description: Herbal tea supporting mental clarity
+
+Pickles:
+  label: Pickles
+  permalink: /docs/tags/pickles
+  description: Fermented vegetables
+
+Pistachios:
+  label: Pistachios
+  permalink: /docs/tags/pistachios
+  description: Tree nut rich in healthy fats and antioxidants
+
+Pomegranates:
+  label: Pomegranates
+  permalink: /docs/tags/pomegranates
+  description: Fruit rich in polyphenols and punicalagins
+
+Pork:
+  label: Pork
+  permalink: /docs/tags/pork
+  description: Meat providing complete protein
+
+Potatoes:
+  label: Potatoes
+  permalink: /docs/tags/potatoes
+  description: Starchy vegetable rich in potassium
+
+Pumpkin Seeds:
+  label: Pumpkin Seeds
+  permalink: /docs/tags/pumpkin-seeds
+  description: Seeds rich in zinc and magnesium
+
+Purple Potatoes:
+  label: Purple Potatoes
+  permalink: /docs/tags/purple-potatoes
+  description: Potatoes rich in anthocyanins
+
+Quinoa:
+  label: Quinoa
+  permalink: /docs/tags/quinoa
+  description: Pseudocereal with complete protein
+
+Raspberries:
+  label: Raspberries
+  permalink: /docs/tags/raspberries
+  description: Berry rich in polyphenols and fiber
+
+Rice:
+  label: Rice
+  permalink: /docs/tags/rice
+  description: Grain providing carbohydrates
+
+Rosemary:
+  label: Rosemary
+  permalink: /docs/tags/rosemary
+  description: Herb supporting focus and cognition
+
+Sage:
+  label: Sage
+  permalink: /docs/tags/sage
+  description: Herb supporting memory and cognition
+
+Salmon Roe:
+  label: Salmon Roe
+  permalink: /docs/tags/salmon-roe
+  description: Fish eggs rich in omega-3 and astaxanthin
+
+Salmon:
+  label: Salmon
+  permalink: /docs/tags/salmon
+  description: Fatty fish rich in omega-3 and astaxanthin
+
+Sardines:
+  label: Sardines
+  permalink: /docs/tags/sardines
+  description: Small fatty fish rich in omega-3
+
+Sauerkraut:
+  label: Sauerkraut
+  permalink: /docs/tags/sauerkraut
+  description: Fermented cabbage
+
+Scallops:
+  label: Scallops
+  permalink: /docs/tags/scallops
+  description: Shellfish providing lean protein
+
+Seaweed:
+  label: Seaweed
+  permalink: /docs/tags/seaweed
+  description: Marine algae rich in minerals
+
+Sesame Seeds:
+  label: Sesame Seeds
+  permalink: /docs/tags/sesame-seeds
+  description: Seeds rich in calcium and lignans
+
+Shrimp:
+  label: Shrimp
+  permalink: /docs/tags/shrimp
+  description: Shellfish providing protein and selenium
+
+Sourdough Bread:
+  label: Sourdough Bread
+  permalink: /docs/tags/sourdough-bread
+  description: Fermented bread with improved digestibility
+
+Soy Lecithin:
+  label: Soy Lecithin
+  permalink: /docs/tags/soy-lecithin
+  description: Concentrated choline source
+
+Soy:
+  label: Soy
+  permalink: /docs/tags/soy
+  description: Legume with complete protein and isoflavones
+
+Spelt:
+  label: Spelt
+  permalink: /docs/tags/spelt
+  description: Ancient wheat with high asparagine
+
+Spinach:
+  label: Spinach
+  permalink: /docs/tags/spinach
+  description: Leafy green rich in folate and iron
+
+Spirulina:
+  label: Spirulina
+  permalink: /docs/tags/spirulina
+  description: Algae with protein and antioxidants
+
+Strawberries:
+  label: Strawberries
+  permalink: /docs/tags/strawberries
+  description: Berry rich in vitamin C and polyphenols
+
+Sunflower Lecithin:
+  label: Sunflower Lecithin
+  permalink: /docs/tags/sunflower-lecithin
+  description: Soy-free choline source
+
+Sunflower Seeds:
+  label: Sunflower Seeds
+  permalink: /docs/tags/sunflower-seeds
+  description: Seeds rich in vitamin E and selenium
+
+Swiss Chard:
+  label: Swiss Chard
+  permalink: /docs/tags/swiss-chard
+  description: Leafy green rich in vitamins and beta-carotene
+
+Tahini:
+  label: Tahini
+  permalink: /docs/tags/tahini
+  description: Sesame seed paste
+
+Tart Cherry:
+  label: Tart Cherry
+  permalink: /docs/tags/tart-cherry
+  description: Cherry rich in anthocyanins and melatonin
+
+Tempeh:
+  label: Tempeh
+  permalink: /docs/tags/tempeh
+  description: Fermented soybeans with complete protein
+
+Tofu:
+  label: Tofu
+  permalink: /docs/tags/tofu
+  description: Soybean curd with complete protein
+
+Tomatoes:
+  label: Tomatoes
+  permalink: /docs/tags/tomatoes
+  description: Fruit rich in lycopene and vitamin C
+
+Tuna:
+  label: Tuna
+  permalink: /docs/tags/tuna
+  description: Fish providing lean protein and omega-3
+
+Turkey:
+  label: Turkey
+  permalink: /docs/tags/turkey
+  description: Poultry providing complete protein
+
+Turmeric Milk:
+  label: Turmeric Milk
+  permalink: /docs/tags/turmeric-milk
+  description: Beverage combining turmeric with milk
+
+Turmeric:
+  label: Turmeric
+  permalink: /docs/tags/turmeric
+  description: Spice containing curcumin
+
+Vinegar:
+  label: Vinegar
+  permalink: /docs/tags/vinegar
+  description: Fermented liquid supporting glucose regulation
+
+Walnuts:
+  label: Walnuts
+  permalink: /docs/tags/walnuts
+  description: Tree nut rich in ALA omega-3
+
+Wheat Germ:
+  label: Wheat Germ
+  permalink: /docs/tags/wheat-germ
+  description: Nutrient-dense part of wheat grain
+
+Wheat:
+  label: Wheat
+  permalink: /docs/tags/wheat
+  description: Grain providing carbohydrates and protein
+
+Whey Protein:
+  label: Whey Protein
+  permalink: /docs/tags/whey-protein
+  description: Complete protein from dairy
+
+Whole Grains:
+  label: Whole Grains
+  permalink: /docs/tags/whole-grains
+  description: Grains with intact bran and germ
+
+Yogurt:
+  label: Yogurt
+  permalink: /docs/tags/yogurt
+  description: Fermented dairy with probiotics
+
+# Substance tags
+Substance:
+  label: Substance
+  permalink: /docs/tags/substance
+  description: Bioactive substances and nutrients
+
+Sulforaphane:
+  label: Sulforaphane
+  permalink: /docs/tags/sulforaphane
+  description: Isothiocyanate compound from cruciferous vegetables
+
+Astaxanthin:
+  label: Astaxanthin
+  permalink: /docs/tags/astaxanthin
+  description: Carotenoid antioxidant found in salmon and seafood
+
+# Recipe tags
+Recipe:
+  label: Recipe
+  permalink: /docs/tags/recipe
+  description: Recipes for the BRAIN Diet
+
+Breakfast:
+  label: Breakfast
+  permalink: /docs/tags/breakfast
+  description: Breakfast recipes
+
+Lunch:
+  label: Lunch
+  permalink: /docs/tags/lunch
+  description: Lunch recipes
+
+Dinner:
+  label: Dinner
+  permalink: /docs/tags/dinner
+  description: Dinner recipes
+
+# Substance category tags
+Bioactive:
+  label: Bioactive
+  permalink: /docs/tags/bioactive
+  description: Bioactive substances with health-promoting properties
+
+Metabolite:
+  label: Metabolite
+  permalink: /docs/tags/metabolite
+  description: Metabolites produced by the body or gut microbiome
+
+# Additional tags
+Probiotics:
+  label: Probiotics
+  permalink: /docs/tags/probiotics
+  description: Beneficial bacteria and fermented foods
+
+Anti-inflammatory:
+  label: Anti-inflammatory
+  permalink: /docs/tags/anti-inflammatory
+  description: Foods and compounds with anti-inflammatory properties
+
+Circadian Rhythm:
+  label: Circadian Rhythm
+  permalink: /docs/tags/circadian-rhythm
+  description: Foods and practices supporting circadian rhythm regulation
+
+Polyphenols:
+  label: Polyphenols
+  permalink: /docs/tags/polyphenols
+  description: Plant polyphenols with antioxidant and neuroprotective properties

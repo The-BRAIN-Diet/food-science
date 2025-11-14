@@ -5,27 +5,24 @@ sidebar_label: Olives
 description: MUFA source with polyphenols
 tags:
   - Food
+  - Olives
   - Vegan
   - Vegetarian
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health.
+Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health. Sources of MUFA include extra-virgin olive oil, avocado, olives, and nuts.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Monounsaturated Fats (MUFA)**: Oleic acid
+<TagList tag="Olives" filter="recipes" />
 
-### Bioactive Substances
-- **Polyphenols**: Antioxidant compounds
-- **Hydroxytyrosol**: In extra virgin olive oil (olives are source)
+## Substances
 
-## From the paper
-
-- "Sources: extra-virgin olive oil, avocado, olives, nuts" for MUFA
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -34,8 +31,11 @@ Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovas
 - Supports MUFA intake goals
 - Choose varieties with higher polyphenol content
 
-## Related Foods
+## Biological Target Matrix
 
-- [Extra Virgin Olive Oil](./extra-virgin-olive-oil.md)
-- [Olive Oil](./olive-oil.md)
+<FoodMatrix tag="Olives" />
+
+## References
+
+- Sources: extra-virgin olive oil, avocado, olives, nuts for MUFA
 

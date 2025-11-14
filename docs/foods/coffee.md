@@ -5,26 +5,24 @@ sidebar_label: Coffee
 description: Dopamine stimulation with circadian considerations
 tags:
   - Food
+  - Coffee
   - Vegan
   - Vegetarian
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Coffee provides caffeine that stimulates dopamine production but has pendulum effects and circadian disruption risks, requiring strategic use.
+Coffee provides caffeine that stimulates dopamine production but has pendulum effects and circadian disruption risks, requiring strategic use. Caffeine is an adenosine receptor antagonism and should be stopped 8 hours before bed considering caffeine has a highly variable half-life, ranging from 2 to 10 h, but possibly up to 20 hours.
 
-## Key Substances
+## Recipes
 
-### Bioactive Substances
-- **Caffeine**: Adenosine receptor antagonism, dopamine stimulation
+<TagList tag="Coffee" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Caffeine is an adenosine receptor antagonism... stop 8 hours before bed considering caffeine has a highly variable half-life, ranging from 2 to 10 h, but possibly up to 20 hours"
-- "Caffeine can reverse the deficits associated with fatigue it can be implicated in causing the fatigue in the first place"
-- "Caffeine increases striatal dopamine D2/D3 receptor availability"
-- "Polyphenol-rich beverages (tea/coffee) can reduce non-heme iron absorption"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -33,8 +31,14 @@ Coffee provides caffeine that stimulates dopamine production but has pendulum ef
 - Space ≥1 hour from iron-rich meals or add lemon
 - Strategic, sparing use may be most effective for ADHD
 
-## Related Foods
+## Biological Target Matrix
 
-- [Green Tea](./green-tea.md)
-- [Black Tea](./black-tea.md)
+<FoodMatrix tag="Coffee" />
+
+## References
+
+- Caffeine is an adenosine receptor antagonism; stop 8 hours before bed considering caffeine has a highly variable half-life, ranging from 2 to 10 h, but possibly up to 20 hours
+- Caffeine can reverse the deficits associated with fatigue it can be implicated in causing the fatigue in the first place
+- Caffeine increases striatal dopamine D2/D3 receptor availability
+- Polyphenol-rich beverages (tea/coffee) can reduce non-heme iron absorption
 

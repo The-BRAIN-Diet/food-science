@@ -5,6 +5,7 @@ sidebar_label: Swiss Chard
 description: Leafy green rich in iron, magnesium, folate, and carotenoids
 tags:
   - Food
+  - Swiss Chard
   - Vegan
   - Vegetarian
   - Iron
@@ -15,33 +16,21 @@ tags:
   - Carotenoid
   - Lutein
   - Zeaxanthin
-  - Beta Carotene
+  - Beta-Carotene
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, and carotenoids. Similar to other leafy greens like kale and spinach, it supports neurotransmitter synthesis and antioxidant function.
+Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, and carotenoids. Similar to other leafy greens like kale and spinach, it supports neurotransmitter synthesis and antioxidant function. The BRAIN diet specifically targets leafy green vegetables such as kale and spinach that are rich in iron, magnesium, and zinc, and Swiss chard fits within this category.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Swiss Chard" filter="recipes" />
 
-- **Iron**: Non-heme iron (enhance absorption with vitamin C)
-- **Magnesium**: Cofactor for enzymatic reactions and neurotransmitter pathways
-- **Folate (B9)**: Methylation and neurotransmitter synthesis support
-- **Vitamin K**: High content for blood clotting and bone health
-- **Vitamin A**: From beta-carotene conversion
+## Substances
 
-### Bioactive Substances
-
-- **Carotenoids**: Lutein, zeaxanthin, beta-carotene for eye and brain health
-- **Oxalates**: Can bind minerals; reduce via boiling
-
-## From the paper
-
-- "The BRAIN diet specifically targets leafy green vegetables i.e. kale and spinach that are rich in iron, magnesium, and zinc"
-- "Boiling spinach, kale, and other greens can reduce oxalate load, improving mineral bioavailability"
-- Swiss chard, as a leafy green, fits within the category of vegetables targeted for their iron, magnesium, and zinc content
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -51,8 +40,11 @@ Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, a
 - Part of diverse leafy green strategy
 - Can be used raw in salads or cooked in various dishes
 
-## Related Foods
+## Biological Target Matrix
 
-- [Spinach](./spinach.md) - Similar nutrient profile
-- [Kale](./kale.md) - Similar leafy green
-- [Broccoli](./broccoli.md) - Other cruciferous vegetable
+<FoodMatrix tag="Swiss Chard" />
+
+## References
+
+- The BRAIN diet specifically targets leafy green vegetables i.e. kale and spinach that are rich in iron, magnesium, and zinc
+- Boiling spinach, kale, and other greens can reduce oxalate load, improving mineral bioavailability

@@ -5,29 +5,26 @@ sidebar_label: Wheat Germ
 description: Choline source and B vitamin-rich grain component
 tags:
   - Food
+  - Wheat Germ
   - Vegan
   - Vegetarian
   - Choline
   - Vitamin E
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Wheat germ provides choline, B vitamins, and vitamin E, supporting acetylcholine synthesis and methylation pathways.
+Wheat germ provides choline, B vitamins, and vitamin E, supporting acetylcholine synthesis and methylation pathways. Acetylcholine and choline food sources include egg yolks, fish roe, soy, wheat germ, and liver.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Wheat Germ" filter="recipes" />
 
-- **Choline**: Acetylcholine precursor
-- **B Vitamins**: Various B vitamins
-- **Vitamin E**: Antioxidant
-- **Fiber**: Prebiotic fiber
+## Substances
 
-## From the paper
-
-- "Acetylcholine and choline: Egg yolks, fish roe, soy, wheat germ, liver"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -36,8 +33,10 @@ Wheat germ provides choline, B vitamins, and vitamin E, supporting acetylcholine
 - Part of diverse choline intake strategy
 - Supports neurotransmitter synthesis
 
-## Related Foods
+## Biological Target Matrix
 
-- [Egg Yolks](./egg-yolks.md) - Also high in choline
-- [Soy](./soy.md) - Also provides choline
-- [Whole Grains](./whole-grains.md)
+<FoodMatrix tag="Wheat Germ" />
+
+## References
+
+- Acetylcholine and choline: Egg yolks, fish roe, soy, wheat germ, liver

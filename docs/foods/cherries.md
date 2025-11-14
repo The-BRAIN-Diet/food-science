@@ -5,35 +5,36 @@ sidebar_label: Cherries
 description: General cherry information; see tart cherry for sleep support
 tags:
   - Food
+  - Cherries
   - Vegan
   - Vegetarian
   - Vitamin C
   - Polyphenol
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
 Cherries provide polyphenols, fiber, and vitamin C. Tart cherries specifically provide melatonin for sleep support.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Cherries" filter="recipes" />
 
-- **Fiber**: Prebiotic fiber
-- **Vitamin C**: Antioxidant
+## Substances
 
-### Bioactive Substances
+<FoodSubstances details={frontMatter} />
 
-- **Polyphenols**: Antioxidant compounds
-- **Melatonin**: In tart cherries specifically
+## Preparation Notes
 
-## From the paper
-
-- See [Tart Cherry](./tart-cherry.md) for detailed sleep support information
 - Part of diverse fruit intake
+- See [Tart Cherry](./tart-cherry.md) for detailed sleep support information
 
-## Related Foods
+## Biological Target Matrix
 
-- [Tart Cherry](./tart-cherry.md) - For sleep support
-- [Berries](./berries.md) - Similar polyphenol benefits
+<FoodMatrix tag="Cherries" />
+
+## References
+
+- Tart cherries provide melatonin for sleep support

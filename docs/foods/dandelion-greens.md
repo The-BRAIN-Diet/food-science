@@ -5,28 +5,25 @@ sidebar_label: Dandelion Greens
 description: Bitter greens with prebiotic fiber
 tags:
   - Food
+  - Dandelion Greens
   - Vegan
   - Vegetarian
   - Vitamin K2
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health.
+Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health. Dandelion greens are bitter greens with prebiotic fiber and are part of diverse leafy green intake.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Dandelion Greens" filter="recipes" />
 
-- **Inulin**: Prebiotic fiber
-- **Fiber**: Prebiotic and general fiber
-- **Vitamin K**: High content
+## Substances
 
-## From the paper
-
-- "Dandelion greens: Bitter greens with prebiotic fiber"
-- Part of diverse leafy green intake
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -35,8 +32,10 @@ Dandelion greens are bitter leafy greens providing prebiotic fiber and supportin
 - Part of diverse prebiotic fiber strategy
 - Supports gut microbiome diversity
 
-## Related Foods
+## Biological Target Matrix
 
-- [Chicory](./chicory.md)
-- [Spinach](./spinach.md)
-- [Kale](./kale.md)
+<FoodMatrix tag="Dandelion Greens" />
+
+## References
+
+- Dandelion greens: Bitter greens with prebiotic fiber

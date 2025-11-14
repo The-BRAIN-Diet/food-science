@@ -5,30 +5,38 @@ sidebar_label: Berries
 description: General category of berry fruits rich in polyphenols
 tags:
   - Food
+  - Berries
   - Vegan
   - Vegetarian
   - Vitamin C
   - Polyphenol
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Berries are polyphenol-rich fruits providing anthocyanins, flavonoids, and other antioxidants that support cognitive function and antioxidant networks.
+Berries are polyphenol-rich fruits providing anthocyanins, flavonoids, and other antioxidants that support cognitive function and antioxidant networks. Berries are mentioned as polyphenol-rich foods and provide polyphenols for antioxidant networks, anthocyanins for neuroprotection, fiber for gut health, and vitamin C for antioxidant support.
 
-## Key Berries
+## Recipes
 
-See individual pages for:
+<TagList tag="Berries" filter="recipes" />
 
-- [Blueberries](./blueberries.md)
-- [Strawberries](./strawberries.md)
-- [Raspberries](./raspberries.md)
-- [Cranberries](./cranberries.md)
-- [Black Goji](./black-goji.md)
+## Substances
 
-## Benefits
+<FoodSubstances details={frontMatter} />
+
+## Preparation Notes
 
 - Polyphenols for antioxidant networks
 - Anthocyanins for neuroprotection
 - Fiber for gut health
 - Vitamin C for antioxidant support
+
+## Biological Target Matrix
+
+<FoodMatrix tag="Berries" />
+
+## References
+
+- Berries are mentioned as polyphenol-rich foods

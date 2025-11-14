@@ -5,24 +5,23 @@ sidebar_label: Crab
 description: Seafood providing zinc and complete protein
 tags:
   - Food
+  - Crab
   - Zinc
   - Selenium
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Crab provides high-quality protein and zinc, supporting neurotransmitter modulation and antioxidant enzyme function.
+Crab provides high-quality protein and zinc, supporting neurotransmitter modulation and antioxidant enzyme function. Zinc food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, and cashews.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Zinc**: High content for neurotransmitter modulation
-- **Protein**: Complete amino acid profile
-- **Selenium**: Antioxidant support
+<TagList tag="Crab" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Zinc: Oysters, beef, crab, chicken, pork, Pumpkin seeds, lentils, chickpeas, cashews"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -31,9 +30,11 @@ Crab provides high-quality protein and zinc, supporting neurotransmitter modulat
 - Part of diverse protein strategy
 - Supports zinc sufficiency
 
-## Related Foods
+## Biological Target Matrix
 
-- [Oysters](./oysters.md) - Also high in zinc
-- [Scallops](./scallops.md)
-- [Shrimp](./shrimp.md)
+<FoodMatrix tag="Crab" />
+
+## References
+
+- Zinc: Oysters, beef, crab, chicken, pork, Pumpkin seeds, lentils, chickpeas, cashews
 

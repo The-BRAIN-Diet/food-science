@@ -5,32 +5,26 @@ sidebar_label: Organ Meats
 description: Nutrient-dense offal including liver, heart, kidney
 tags:
   - Food
+  - Organ Meats
   - Vitamin B12
   - CoQ10
   - Iron
   - Vitamin A
   - Choline
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Organ meats (offal) are among the most nutrient-dense foods, providing high levels of B12, CoQ10, iron, and other brain-supportive nutrients.
+Organ meats (offal) are among the most nutrient-dense foods, providing high levels of B12, CoQ10, iron, and other brain-supportive nutrients. Organ meats (heart, liver), oily fish (sardines, mackerel), beef are top sources for CoQ10, and occasional offal consumption is recommended for nutrient density.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Organ Meats" filter="recipes" />
 
-- **Vitamin B12**: Highest sources
-- **CoQ10**: Highest sources (heart, liver)
-- **Iron**: Heme iron
-- **Retinol (Vitamin A)**: From liver
-- **Choline**: From liver
+## Substances
 
-## From the paper
-
-- "Organ meats (heart, liver), oily fish (sardines, mackerel), beef" for CoQ10
-- "Occasional offal (Latoch et al. 2024) i.e. liver"
-- "Ethically sourced, high-nutrient-density options (e.g., liver, fish roe, sardines)"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -39,8 +33,12 @@ Organ meats (offal) are among the most nutrient-dense foods, providing high leve
 - Important for closing nutrient gaps
 - Part of nose-to-tail approach
 
-## Related Foods
+## Biological Target Matrix
 
-- [Liver](./liver.md)
-- [Heart](./heart.md)
-- [Kidney](./kidney.md)
+<FoodMatrix tag="Organ Meats" />
+
+## References
+
+- Organ meats (heart, liver), oily fish (sardines, mackerel), beef are top sources for CoQ10; organ meats are the highest dietary source of CoQ10 (up to 12mg per 100g)
+- Occasional offal (Latoch et al. 2024) i.e. liver recommended for nutrient density
+- Ethically sourced, high-nutrient-density options (e.g., liver, fish roe, sardines)

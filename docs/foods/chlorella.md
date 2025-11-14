@@ -5,30 +5,25 @@ sidebar_label: Chlorella
 description: Algae with bioavailable true vitamin B12 and antioxidant support
 tags:
   - Food
+  - Chlorella
   - Vegan
   - Vegetarian
   - Vitamin B12
   - Iron
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Chlorella is a microalgae providing bioavailable, true vitamin B12 (cobalamin) confirmed in animal feeding trials, plus antioxidants and amino acids.
+Chlorella is a microalgae providing bioavailable, true vitamin B12 (cobalamin) confirmed in animal feeding trials, plus antioxidants and amino acids. Chlorella contains bioavailable, true vitamin B12 (cobalamin), confirmed in animal feeding trials, and may help close vegan nutrient gaps.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Vitamin B12**: True cobalamin (bioavailable, confirmed in animal trials)
-- **Protein**: Complete amino acid profile
-- **Iron**: Some content
-- **Chlorophyll**: Antioxidant compound
+<TagList tag="Chlorella" filter="recipes" />
 
-### Bioactive Substances
-- **Antioxidants**: Various antioxidant compounds
+## Substances
 
-## From the paper
-
-- "Chlorella contains bioavailable, true vitamin B12 (cobalamin), confirmed in animal feeding trials, and may help close vegan nutrient gaps. By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -37,9 +32,11 @@ Chlorella is a microalgae providing bioavailable, true vitamin B12 (cobalamin) c
 - Choose quality sources with confirmed B12 content
 - Part of functional food strategy
 
-## Related Foods
+## Biological Target Matrix
 
-- [Spirulina](./spirulina.md) - Different B12 status
-- [Mankai](./mankai.md) - Also contains B12
-- [Algal Oil](./algal-oil.md)
+<FoodMatrix tag="Chlorella" />
+
+## References
+
+- Chlorella contains bioavailable, true vitamin B12 (cobalamin), confirmed in animal feeding trials, and may help close vegan nutrient gaps [Watanabe et al. 2002](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002). By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source. Nonetheless, both algae provide antioxidant and amino acid support
 

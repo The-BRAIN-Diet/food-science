@@ -5,30 +5,35 @@ sidebar_label: Olive Oil
 description: See extra virgin olive oil for detailed information
 tags:
   - Food
+  - Olive Oil
   - Vegan
   - Vegetarian
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Olive oil provides monounsaturated fats and polyphenols. Extra virgin olive oil has higher bioactive content.
+Olive oil provides monounsaturated fats and polyphenols. Extra virgin olive oil has higher bioactive content. Sources of MUFA include extra-virgin olive oil, avocado, olives, and nuts.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Monounsaturated Fats (MUFA)**: Oleic acid
+<TagList tag="Olive Oil" filter="recipes" />
 
-### Bioactive Substances
-- **Polyphenols**: Varies by grade and processing
+## Substances
 
-## From the paper
+<FoodSubstances details={frontMatter} />
+
+## Preparation Notes
 
 - See [Extra Virgin Olive Oil](./extra-virgin-olive-oil.md) for detailed information
-- "Sources: extra-virgin olive oil, avocado, olives, nuts" for MUFA
+- Provides monounsaturated fats and polyphenols
+- Extra virgin olive oil has higher bioactive content
 
-## Related Foods
+## Biological Target Matrix
 
-- [Extra Virgin Olive Oil](./extra-virgin-olive-oil.md)
-- [Olives](./olives.md)
+<FoodMatrix tag="Olive Oil" />
 
+## References
+
+- Sources: extra-virgin olive oil, avocado, olives, nuts for MUFA

@@ -5,26 +5,23 @@ sidebar_label: Vinegar
 description: Apple cider vinegar for glucose regulation and bean soaking pH optimization
 tags:
   - Food
+  - Vinegar
   - Vegan
   - Vegetarian
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity.
+Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity. Glucose regulation strategies include low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, and meal sequencing (veg → protein → carb).
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Acetic acid**: Primary component
+<TagList tag="Vinegar" filter="recipes" />
 
-### Bioactive Substances
-- **Acetic acid**: May support glucose regulation
+## Substances
 
-## From the paper
-
-- "Glucose Regulation: Low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, meal sequencing (veg → protein → carb)"
-- "Add a bit of lemon juice or apple cider vinegar (1–2 tsp per liter of water) to reach ~pH 5.5–6" for optimal bean soaking conditions
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -33,8 +30,12 @@ Vinegar, particularly apple cider vinegar, supports glucose regulation and can b
 - Dilute before consumption
 - Part of food preparation and glucose management strategies
 
-## Related Foods
+## Biological Target Matrix
 
-- [Lemon](./lemon.md) - Also used for pH adjustment
-- [Beans](./black-beans.md) - Used in preparation
+<FoodMatrix tag="Vinegar" />
+
+## References
+
+- Glucose Regulation: Low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, meal sequencing (veg → protein → carb)
+- Add a bit of lemon juice or apple cider vinegar (1–2 tsp per liter of water) to reach ~pH 5.5–6 for optimal bean soaking conditions
 

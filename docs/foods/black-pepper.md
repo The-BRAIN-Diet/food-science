@@ -5,24 +5,23 @@ sidebar_label: Black Pepper
 description: Piperine enhances curcumin absorption by up to 2000%
 tags:
   - Food
+  - Black Pepper
   - Vegan
   - Vegetarian
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Black pepper contains piperine, which dramatically enhances the bioavailability of curcumin (from turmeric) and other compounds, making it an important food synergy.
+Black pepper contains piperine, which dramatically enhances the bioavailability of curcumin (from turmeric) and other compounds, making it an important food synergy. Food synergies include turmeric + black pepper for enhanced curcumin absorption.
 
-## Key Substances
+## Recipes
 
-### Bioactive Substances
+<TagList tag="Black Pepper" filter="recipes" />
 
-- **Piperine**: Enhances curcumin absorption by up to 2000%
+## Substances
 
-## From the paper
-
-- "Food Synergies (e.g. Turmeric + black pepper; omega-3 fatty acids needs to be esterified to phospholipids to cross BBB)"
-- "Turmeric + black pepper" for enhanced curcumin absorption
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -31,6 +30,11 @@ Black pepper contains piperine, which dramatically enhances the bioavailability 
 - Can be used in culinary amounts
 - Supports curcumin bioavailability
 
-## Related Foods
+## Biological Target Matrix
 
-- [Turmeric](./turmeric.md) - Primary pairing
+<FoodMatrix tag="Black Pepper" />
+
+## References
+
+- Food Synergies (e.g. Turmeric + black pepper; omega-3 fatty acids needs to be esterified to phospholipids to cross BBB)
+- Turmeric + black pepper for enhanced curcumin absorption

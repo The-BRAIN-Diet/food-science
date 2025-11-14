@@ -5,29 +5,25 @@ sidebar_label: Green Bananas
 description: Resistant starch source for gut microbiome support
 tags:
   - Food
+  - Green Bananas
   - Vegan
   - Vegetarian
   - Potassium
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Green (unripe) bananas provide resistant starch, a prebiotic fiber that supports gut microbiome diversity and SCFA production, particularly butyrate.
+Green (unripe) bananas provide resistant starch, a prebiotic fiber that supports gut microbiome diversity and SCFA production, particularly butyrate. Prebiotic fibres including resistant starch (cooled potatoes, green bananas) support butyrate production and gut barrier integrity.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Green Bananas" filter="recipes" />
 
-- **Resistant Starch**: Prebiotic fiber
-- **Potassium**: Electrolyte
-- **B6**: When ripe (less in green)
+## Substances
 
-## From the paper
-
-- "Resistant starch (cooled potatoes, green bananas)"
-- "Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)"
-- Resistant starch supports butyrate production and gut barrier integrity
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -36,7 +32,12 @@ Green (unripe) bananas provide resistant starch, a prebiotic fiber that supports
 - Supports gut microbiome diversity
 - Part of prebiotic fiber strategy
 
-## Related Foods
+## Biological Target Matrix
 
-- [Cooled Potatoes](./cooled-potatoes.md)
-- [Bananas](./bananas.md) (ripe) - Different nutrient profile
+<FoodMatrix tag="Green Bananas" />
+
+## References
+
+- Resistant starch (cooled potatoes, green bananas)
+- Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)
+- Resistant starch supports butyrate production and gut barrier integrity

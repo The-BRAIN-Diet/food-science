@@ -5,23 +5,24 @@ sidebar_label: Oregano
 description: Polyphenol antimicrobial for SIBO suppression
 tags:
   - Food
+  - Oregano
   - Vegan
   - Vegetarian
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals.
+Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals. Overgrowth suppression (SIBO, Candida, Pathobionts) strategies include polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger).
 
-## Key Substances
+## Recipes
 
-### Bioactive Substances
-- **Polyphenols**: Antimicrobial compounds
+<TagList tag="Oregano" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Overgrowth Suppression (SIBO, Candida, Pathobionts): Polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger)"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -30,9 +31,11 @@ Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO 
 - Supports gut health
 - Antimicrobial properties
 
-## Related Foods
+## Biological Target Matrix
 
-- [Berberine](../substances/bioactive-substances/berberine.md)
-- [Green Tea](./green-tea.md)
-- [Ginger](./ginger.md)
+<FoodMatrix tag="Oregano" />
+
+## References
+
+- Overgrowth Suppression (SIBO, Candida, Pathobionts): Polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger)
 

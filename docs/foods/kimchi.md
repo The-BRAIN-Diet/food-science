@@ -5,35 +5,25 @@ sidebar_label: Kimchi
 description: Fermented vegetables providing probiotics, GABA, and postbiotic compounds
 tags:
   - Food
+  - Kimchi
   - Vegan
   - Vegetarian
   - Vitamin K2
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance.
+Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Kimchi" filter="recipes" />
 
-- **Fiber**: Prebiotic fiber from vegetables
-- **Vitamin K**: From fermented vegetables
-- **B Vitamins**: Produced during fermentation
+## Substances
 
-### Bioactive Substances
-
-- **Probiotics**: Diverse lactic acid bacteria
-- **GABA**: Produced by certain fermentation bacteria
-- **Postbiotics**: Beneficial compounds from fermentation
-
-## From the paper
-
-- "Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling"
-- "Kimchi: Korean fermented vegetables, diverse probiotics"
-- Part of fermented foods strategy for microbiome support
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -41,9 +31,11 @@ Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA,
 - Regular but not excessive intake
 - Part of diverse fermented foods rotation
 
-## Related Foods
+## Biological Target Matrix
 
-- [Sauerkraut](./sauerkraut.md)
-- [Kefir](./kefir.md)
-- [Miso](./miso.md)
-- [Fermented Vegetables](./fermented-vegetables.md)
+<FoodMatrix tag="Kimchi" />
+
+## References
+
+- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
+- Kimchi: Korean fermented vegetables, diverse probiotics

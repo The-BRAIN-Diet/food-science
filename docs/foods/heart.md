@@ -5,27 +5,23 @@ sidebar_label: Heart
 description: Highest CoQ10 source among organ meats
 tags:
   - Food
+  - Heart
   - CoQ10
   - Iron
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Heart is an organ meat providing the highest CoQ10 content, supporting mitochondrial electron transport and antioxidant function.
+Heart is an organ meat providing the highest CoQ10 content, supporting mitochondrial electron transport and antioxidant function. Organ meats (heart, liver), oily fish (sardines, mackerel), beef are top sources for CoQ10.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Heart" filter="recipes" />
 
-- **CoQ10**: Highest dietary source
-- **Protein**: Complete amino acid profile
-- **Iron**: Heme iron
-- **B Vitamins**: Various B vitamins
+## Substances
 
-## From the paper
-
-- "Organ meats (heart, liver), oily fish (sardines, mackerel), beef" for CoQ10
-- Part of organ meats category
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -34,8 +30,10 @@ Heart is an organ meat providing the highest CoQ10 content, supporting mitochond
 - Important for CoQ10 intake
 - Part of nutrient-dense animal food strategy
 
-## Related Foods
+## Biological Target Matrix
 
-- [Liver](./liver.md)
-- [Kidney](./kidney.md)
-- [Organ Meats](./organ-meats.md)
+<FoodMatrix tag="Heart" />
+
+## References
+
+- Organ meats (heart, liver), oily fish (sardines, mackerel), beef are top sources for CoQ10; organ meats are the highest dietary source of CoQ10 (up to 12mg per 100g)

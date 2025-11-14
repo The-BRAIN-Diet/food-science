@@ -5,29 +5,23 @@ sidebar_label: Lumpfish Roe
 description: Fish roe providing phospholipid-bound omega-3s
 tags:
   - Food
+  - Lumpfish Roe
   - Omega-3 Fatty Acids
   - Carotenoid
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Lumpfish roe provides phospholipid-bound omega-3 fatty acids and astaxanthin, supporting brain health through superior bioavailability.
+Lumpfish roe provides phospholipid-bound omega-3 fatty acids and astaxanthin, supporting brain health through superior bioavailability. Targeted foods such as salmon or lumpfish roe can be used to reliably and safely exceed minimum omega-3 intakes, helping individuals achieve optimal omega-3 status for brain health.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Lumpfish Roe" filter="recipes" />
 
-- **Omega-3 (EPA/DHA)**: Phospholipid-bound form
-- **Astaxanthin**: Carotenoid antioxidant
+## Substances
 
-### Bioactive Substances
-
-- **Phospholipid-bound omega-3s**: Superior brain delivery compared to triglyceride forms
-
-## From the paper
-
-- Listed as fish roe source
-- Part of phospholipid-bound omega-3 strategy
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -36,7 +30,10 @@ Lumpfish roe provides phospholipid-bound omega-3 fatty acids and astaxanthin, su
 - Supports phospholipid-bound omega-3 goals
 - Important for brain omega-3 delivery
 
-## Related Foods
+## Biological Target Matrix
 
-- [Salmon Roe](./salmon-roe.md)
-- [Fish Roe](./fish-roe.md) (general)
+<FoodMatrix tag="Lumpfish Roe" />
+
+## References
+
+- Targeted foods such as salmon or lumpfish roe can be used to reliably and safely exceed minimum omega-3 intakes, helping individuals achieve optimal omega-3 status for brain health, cognitive performance, and inflammatory regulation

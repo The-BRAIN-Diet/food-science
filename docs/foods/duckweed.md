@@ -5,31 +5,36 @@ sidebar_label: Duckweed
 description: Same as Mankai - functional plant with B12 and iron
 tags:
   - Food
+  - Duckweed
   - Vegan
   - Vegetarian
   - Iron
   - Vitamin B12
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Duckweed (Wolffia globosa), also known as Mankai, is a functional plant food providing bioavailable iron and true vitamin B12.
+Duckweed (Wolffia globosa), also known as Mankai, is a functional plant food providing bioavailable iron and true vitamin B12. Vitamin B₁₂ is also present in Wolffia globosa. See [Mankai](./mankai.md) for detailed information.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Iron**: Bioavailable plant iron
-- **Vitamin B12**: True cobalamin
-- **Protein**: Complete plant protein
+<TagList tag="Duckweed" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Vitamin B₁₂ (also present in Wolffia globosa)"
+<FoodSubstances details={frontMatter} />
+
+## Preparation Notes
+
+- Same as Mankai - functional plant with B12 and iron
 - See [Mankai](./mankai.md) for detailed information
 
-## Related Foods
+## Biological Target Matrix
 
-- [Mankai](./mankai.md) - Same species, different name
-- [Chlorella](./chlorella.md)
-- [Spirulina](./spirulina.md)
+<FoodMatrix tag="Duckweed" />
+
+## References
+
+- Vitamin B₁₂ (also present in Wolffia globosa) [Kaplan et al. 2019](/docs/papers/BRAIN-Diet-References#kaplan_duckweed_2019)
 

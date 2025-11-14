@@ -5,27 +5,25 @@ sidebar_label: Turmeric
 description: Curcumin source; pair with black pepper and fat for absorption
 tags:
   - Food
+  - Turmeric
   - Vegan
   - Vegetarian
   - Curcumin
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Turmeric provides curcumin, a polyphenol with anti-inflammatory and neuroprotective effects. Absorption is enhanced by pairing with black pepper (piperine) and fat.
+Turmeric provides curcumin, a polyphenol with anti-inflammatory and neuroprotective effects. Absorption is enhanced by pairing with black pepper (piperine) and fat. Curcumin (Turmeric) supports anti-inflammatory and neuroprotective effects at 500–1000 mg/day curcumin with piperine.
 
-## Key Substances
+## Recipes
 
-### Bioactive Substances
-- **Curcumin**: Primary bioactive with anti-inflammatory and neuroprotective effects
+<TagList tag="Turmeric" filter="recipes" />
 
-## From the paper
+## Substances
 
-- "Curcumin (Turmeric): Anti-inflammatory, neuroprotective - 500–1000 mg/day curcumin with piperine"
-- "Turmeric is not just a curcumin supplement, it's part of a culinary matrix that includes fats which with heat, can increase enhance curcumin's absorption"
-- "Food Synergies (e.g. Turmeric + black pepper; omega-3 fatty acids needs to be esterified to phospholipids to cross BBB)"
-- "BDNF: Fatty fish, blueberries, turmeric, green tea, walnuts"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -34,9 +32,14 @@ Turmeric provides curcumin, a polyphenol with anti-inflammatory and neuroprotect
 - Part of culinary spice strategy
 - Can be used in therapeutic doses when needed
 
-## Related Foods
+## Biological Target Matrix
 
-- [Ginger](./ginger.md) - Related Zingiberaceae family
-- [Black Pepper](./black-pepper.md) - Enhances absorption
-- [Curcumin](../substances/bioactive-substances/curcumin.md)
+<FoodMatrix tag="Turmeric" />
+
+## References
+
+- Curcumin (Turmeric): Anti-inflammatory, neuroprotective - 500–1000 mg/day curcumin with piperine
+- Turmeric is not just a curcumin supplement, it's part of a culinary matrix that includes fats which with heat, can increase enhance curcumin's absorption
+- Food Synergies (e.g. Turmeric + black pepper; omega-3 fatty acids needs to be esterified to phospholipids to cross BBB)
+- BDNF: Fatty fish, blueberries, turmeric, green tea, walnuts
 

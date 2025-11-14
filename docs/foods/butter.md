@@ -5,35 +5,38 @@ sidebar_label: Butter
 description: See grass-fed butter for detailed information
 tags:
   - Food
+  - Butter
   - Vegetarian
   - Vitamin A
   - Vitamin D
   - Vitamin E
   - Vitamin K2
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Butter provides saturated fats, fat-soluble vitamins, and in grass-fed varieties, additional bioactives like CLA and C15:0.
+Butter provides saturated fats, fat-soluble vitamins, and in grass-fed varieties, additional bioactives like CLA and C15:0. Saturated fat (SFA) should be &lt;10% (ideally &lt;7%) from sources like lard, butter, and meats.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Fat-soluble vitamins**: A, D, E, K2 (varies by source)
-- **Saturated fats**: When consumed in moderation
+<TagList tag="Butter" filter="recipes" />
 
-### Bioactive Substances
-- **Butyrate**: In some forms
-- **CLA**: In grass-fed varieties
-- **C15:0**: In grass-fed varieties
+## Substances
 
-## From the paper
+<FoodSubstances details={frontMatter} />
+
+## Preparation Notes
 
 - See [Grass-Fed Butter](./grass-fed-butter.md) for detailed information
-- "Saturated fat (SFA) — &lt;10% (ideally &l7%) lard, butter, meats"
+- Provides fat-soluble vitamins A, D, E, K2 (varies by source)
+- Grass-fed varieties provide additional bioactives like CLA and C15:0
 
-## Related Foods
+## Biological Target Matrix
 
-- [Grass-Fed Butter](./grass-fed-butter.md)
-- [Ghee](./ghee.md)
+<FoodMatrix tag="Butter" />
+
+## References
+
+- Saturated fat (SFA) — &lt;10% (ideally &lt;7%) lard, butter, meats
 

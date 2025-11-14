@@ -5,35 +5,27 @@ sidebar_label: Raspberries
 description: Polyphenol-rich berries with fiber
 tags:
   - Food
+  - Raspberries
   - Vegan
   - Vegetarian
   - Vitamin C
   - Vitamin B9
   - Polyphenol
   - SCFAs
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Raspberries provide polyphenols, fiber, and vitamin C, supporting antioxidant networks and gut health.
+Raspberries provide polyphenols, fiber, and vitamin C, supporting antioxidant networks and gut health. Berries are mentioned as polyphenol-rich foods and are part of the Mediterranean diet pattern.
 
-## Key Substances
+## Recipes
 
-### Nutrients
+<TagList tag="Raspberries" filter="recipes" />
 
-- **Fiber**: High fiber content
-- **Vitamin C**: Antioxidant
-- **Folate (B9)**: Some content
+## Substances
 
-### Bioactive Substances
-
-- **Polyphenols**: Antioxidant compounds
-- **Anthocyanins**: Flavonoid compounds
-
-## From the paper
-
-- "Berries" mentioned as polyphenol-rich foods
-- Part of Mediterranean diet pattern
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -42,8 +34,11 @@ Raspberries provide polyphenols, fiber, and vitamin C, supporting antioxidant ne
 - Supports antioxidant networks
 - High fiber supports gut health
 
-## Related Foods
+## Biological Target Matrix
 
-- [Blueberries](./blueberries.md)
-- [Strawberries](./strawberries.md)
-- [Berries](./berries.md) (general)
+<FoodMatrix tag="Raspberries" />
+
+## References
+
+- Berries are mentioned as polyphenol-rich foods
+- Part of Mediterranean diet pattern

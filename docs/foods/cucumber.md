@@ -5,27 +5,24 @@ sidebar_label: Cucumber
 description: NMN source and hydrating vegetable
 tags:
   - Food
+  - Cucumber
   - Vegan
   - Vegetarian
   - Vitamin K2
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Cucumber provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, supporting mitochondrial function and energy metabolism.
+Cucumber provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, supporting mitochondrial function and energy metabolism. Nicotinamide Mononucleotide (NMN) is a direct NAD⁺ intermediate in salvage pathway found in edamame, broccoli, cucumber, and avocado.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Water**: High water content for hydration
-- **Vitamin K**: Some content
+<TagList tag="Cucumber" filter="recipes" />
 
-### Bioactive Substances
-- **Nicotinamide Mononucleotide (NMN)**: Direct NAD+ intermediate in salvage pathway
+## Substances
 
-## From the paper
-
-- "Nicotinamide Mononucleotide (NMN): Direct NAD⁺ intermediate in salvage pathway - Edamame, broccoli, cucumber, avocado"
+<FoodSubstances details={frontMatter} />
 
 ## Preparation Notes
 
@@ -34,9 +31,10 @@ Cucumber provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate,
 - Supports mitochondrial NAD+ availability
 - Hydrating and low-calorie
 
-## Related Foods
+## Biological Target Matrix
 
-- [Edamame](./edamame.md) - Also contains NMN
-- [Broccoli](./broccoli.md) - Also contains NMN
-- [Avocado](./avocado.md) - Also contains NMN
+<FoodMatrix tag="Cucumber" />
 
+## References
+
+- Nicotinamide Mononucleotide (NMN): Direct NAD⁺ intermediate in salvage pathway - Edamame, broccoli, cucumber, avocado
