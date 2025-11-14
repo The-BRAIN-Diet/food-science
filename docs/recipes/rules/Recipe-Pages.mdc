@@ -1,0 +1,24 @@
+---
+alwaysApply: true
+description: Format of a Recipe Page
+globs: *.md
+alwaysApply: false
+---
+
+- Tag each recipe page with the foods it contains
+- Tag the page with "Recipe" too, so that it appears in index.md.
+- In the front matter, list_image: /img/icons/recipes.svg
+
+The Format of the page should have this structure:
+
+- Image of the recipe.
+- Overview: A single paragraph description describing the recipe, what it is, where it comes from, why it's delicious and good for you. Keep it brief.
+- Ingredients: a list of ingredients and amounts.
+- Method: a numbered list of steps.
+- Extra Guidance (optional): Any other notes for how or when to take it.
+- Nutrition: calories, etc.
+- Brain Health Notes: some notes about why it is particularly helpful for your brain.
+- Foods: should be <TagList tag="the recipe" filter="foods" />
+- Biological Target Matrix: should be <RecipeMatrix tag="The recipe tag" />
+
+Use the `Ginger Yogurt & Blueberry Bowl.md` page as an example.

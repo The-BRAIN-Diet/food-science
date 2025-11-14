@@ -10,10 +10,9 @@ tags:
   - Fiber
   - Dinner
   - Recipe
-  - Lentil
+  - Lentils
   - Turmeric
   - Ginger
-  - Cumin
   - Coconut Oil
   - Spinach
   - Lemon

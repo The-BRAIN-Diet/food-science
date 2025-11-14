@@ -5,40 +5,40 @@ sidebar_label: Cocoa
 description: Cocoa flavanols for cognitive support; see dark chocolate for heavy metal considerations
 tags:
   - Food
+  - Cocoa
   - Vegan
   - Vegetarian
   - Magnesium
   - Iron
   - Polyphenol
+list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Cocoa provides flavanols (polyphenols) that support cognitive function, though heavy metal content increases with cocoa percentage.
+Cocoa provides flavanols (polyphenols) that support cognitive function, though heavy metal content increases with cocoa percentage. Polyphenol Sources: Berries, green tea catechins, cocoa flavanols, cranberries, pomegranate; ↑ Faecalibacterium, Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation. Cocoa flavanols support cognitive function and vascular health.
 
-## Key Substances
+## Recipes
 
-### Nutrients
-- **Magnesium**: Some content
-- **Iron**: Some content
+<TagList tag="Cocoa" filter="recipes" />
 
-### Bioactive Substances
-- **Cocoa flavanols**: Polyphenols supporting cognitive function
+## Substances
 
-## From the paper
-
-- "Polyphenol Sources: Berries, green tea catechins, cocoa flavanols, cranberries, pomegranate"
-- See [Dark Chocolate](./dark-chocolate.md) for heavy metal considerations
+<TagList tag="Cocoa" filter="substances" />
 
 ## Preparation Notes
 
-- Choose low-Cd/Pb origins with strong post-harvest controls
-- Higher cocoa content = higher heavy metals
-- Part of diverse polyphenol intake
-- Supports cognitive function
+- Choose low-Cd/Pb origins with strong post-harvest controls to minimize heavy metal exposure
+- Higher cocoa content = higher heavy metals; be mindful of cadmium and lead content
+- Part of diverse polyphenol intake strategy; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
+- Supports cognitive function through flavanol content; polyphenol sources support gut barrier integrity, TLR4 suppression, LPS neutralization, and microglial activation dampening
 
-## Related Foods
+## Biological Target Matrix
 
-- [Dark Chocolate](./dark-chocolate.md)
-- [Berries](./berries.md) - Similar polyphenol benefits
+<FoodMatrix tag="Cocoa" />
 
+## References
+
+- Polyphenol Sources: Berries, green tea catechins, cocoa flavanols, cranberries, pomegranate; ↑ Faecalibacterium, Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation
+- See Dark Chocolate for heavy metal considerations; heavy metal content increases with cocoa percentage
+- Cocoa flavanols support cognitive function and vascular health through polyphenol effects
