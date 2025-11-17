@@ -21,3 +21,46 @@
   align-items: center;
   justify-content: center;
 }
+
+.prefaceSection {
+  padding: 5rem 0 4rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.prefaceContent {
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.prefaceContent h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.prefaceContent p {
+  margin-bottom: 1.2rem;
+}
+
+.prefaceContent ul {
+  margin: 0 0 1.5rem 1.5rem;
+  padding: 0;
+}
+
+.prefaceContent li {
+  margin-bottom: 0.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .prefaceSection {
+    padding: 3.5rem 0 3rem;
+  }
+
+  .prefaceContent {
+    padding: 0 1rem;
+  }
+
+  .prefaceContent h2 {
+    font-size: 1.9rem;
+  }
+}
