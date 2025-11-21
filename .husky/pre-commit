@@ -1,0 +1,45 @@
+# Maximum file size in bytes (1MB = 1048576 bytes)
+MAX_SIZE=1048576
+
+# Get list of staged files
+staged_files=$(git diff --cached --name-only --diff-filter=ACM)
+
+if [ -z "$staged_files" ]; then
+  exit 0
+fi
+
+# Check each staged file
+error_found=false
+for file in $staged_files; do
+  # Skip if file doesn't exist (might have been deleted)
+  if [ ! -f "$file" ]; then
+    continue
+  fi
+  
+  # Get file size (works on both macOS and Linux)
+  if [ "$(uname)" = "Darwin" ]; then
+    file_size=$(stat -f%z "$file" 2>/dev/null)
+  else
+    file_size=$(stat -c%s "$file" 2>/dev/null)
+  fi
+  
+  if [ -z "$file_size" ]; then
+    continue
+  fi
+  
+  # Check if file size exceeds limit
+  if [ "$file_size" -gt "$MAX_SIZE" ]; then
+    # Convert bytes to MB for display
+    size_mb=$(awk "BEGIN {printf \"%.2f\", $file_size/1048576}")
+    echo "❌ Error: File '$file' is too large ($size_mb MB). Maximum allowed size is 1 MB."
+    error_found=true
+  fi
+done
+
+if [ "$error_found" = true ]; then
+  echo ""
+  echo "Commit aborted. Please remove large files or add them to .gitignore."
+  exit 1
+fi
+
+exit 0
