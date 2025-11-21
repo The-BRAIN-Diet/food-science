@@ -2,6 +2,17 @@
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
+## Downloading The Repo
+
+1. Restart Cursor
+2. Hit Clone Repo
+3. From GitHub, from your repo page, hit the green code button.
+4. From the dropdown, hit the SSH tab and then click the copy URL icon.
+5. Back in cursor, hit clone repo.
+6. Choose the "Food Science" directory.
+7. In the bottom left corner, click 'main'
+8. Click 'Create New Branch` and type in the name of your new branch.
+
 ## Installation
 
 From the terminal in Cursor.
