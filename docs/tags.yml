@@ -1289,6 +1289,87 @@ Dinner:
   permalink: /docs/tags/dinner
   description: Dinner recipes
 
+Drinks:
+  label: Drinks
+  permalink: /docs/tags/drinks
+  description: Beverage recipes
+
+# Recipe characteristic tags
+functional food:
+  label: Functional Food
+  permalink: /docs/tags/functional-food
+  description: Foods designed with specific health benefits
+
+cereal:
+  label: Cereal
+  permalink: /docs/tags/cereal
+  description: Cereal-style breakfast foods
+
+brain diet:
+  label: Brain Diet
+  permalink: /docs/tags/brain-diet
+  description: BRAIN Diet compliant recipes
+
+low sugar:
+  label: Low Sugar
+  permalink: /docs/tags/low-sugar
+  description: Low sugar recipes
+
+high protein:
+  label: High Protein
+  permalink: /docs/tags/high-protein
+  description: High protein recipes
+
+fermented:
+  label: Fermented
+  permalink: /docs/tags/fermented
+  description: Fermented foods and beverages
+
+gut-brain-axis:
+  label: Gut-Brain Axis
+  permalink: /docs/tags/gut-brain-axis
+  description: Foods supporting gut-brain axis communication
+
+SCFA:
+  label: SCFA
+  permalink: /docs/tags/scfa
+  description: Short-chain fatty acids
+
+postbiotics:
+  label: Postbiotics
+  permalink: /docs/tags/postbiotics
+  description: Postbiotic compounds from fermentation
+
+hydration:
+  label: Hydration
+  permalink: /docs/tags/hydration
+  description: Hydrating beverages and foods
+
+traditional-food:
+  label: Traditional Food
+  permalink: /docs/tags/traditional-food
+  description: Traditional and heritage food preparations
+
+low-alcohol:
+  label: Low Alcohol
+  permalink: /docs/tags/low-alcohol
+  description: Low alcohol beverages
+
+brain-diet:
+  label: Brain Diet
+  permalink: /docs/tags/brain-diet-alt
+  description: BRAIN Diet approach
+
+Rocket:
+  label: Rocket
+  permalink: /docs/tags/rocket
+  description: Arugula/rocket leafy green
+
+Beets:
+  label: Beets
+  permalink: /docs/tags/beets
+  description: Root vegetable rich in nitrates and betalains
+
 # Substance category tags
 Bioactive:
   label: Bioactive
