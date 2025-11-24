@@ -16,8 +16,23 @@ list_image: /img/icons/therapeutic-areas.svg
 
 ## Overview
 
-Alzheimer's disease shares overlapping biological dysfunctions with ADHD and bipolar disorder, including mitochondrial impairment, chronic inflammation, oxidative stress, impaired methylation, and neurotransmitter imbalance. Dietary strategies can slow cognitive decline and support neuroprotection.
+Alzheimer's disease shares overlapping biological dysfunctions with other neurocognitive disorders, including mitochondrial impairment, chronic inflammation, oxidative stress, impaired methylation, and neurotransmitter imbalance (see [Tardy et al. 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)). Mediterranean-leaning and plant-forward dietary strategies have been associated with slower cognitive decline and improved neuroprotection trajectories (see [Agarwal et al. 2023](/docs/papers/BRAIN-Diet-References#agarwal_association_2023); [Morris et al. 2015](/docs/papers/BRAIN-Diet-References#morris_mind_2015); [Ashley Holub 2022](/docs/papers/BRAIN-Diet-References#ashley_holub_alzheimers_2022)).
 
-## Biological Targets
+## Biological Target Matrix
 
-<TagList tag="Alzheimer's Disease" filter="biological-targets" />
+<TherapeuticAreaMatrix tag="Alzheimer's Disease" />
+
+## Substances
+
+<TagList tag="Alzheimer's Disease" filter="substances" />
+
+## Foods
+
+<TagList tag="Alzheimer's Disease" filter="foods" />
+
+## References
+
+- [Tardy et al. 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
+- [Agarwal et al. 2023](/docs/papers/BRAIN-Diet-References#agarwal_association_2023)
+- [Morris et al. 2015](/docs/papers/BRAIN-Diet-References#morris_mind_2015)
+- [Ashley Holub 2022](/docs/papers/BRAIN-Diet-References#ashley_holub_alzheimers_2022)

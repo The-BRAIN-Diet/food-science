@@ -5,15 +5,17 @@ globs: *.md
 alwaysApply: false
 ---
 
-- Tag each food page with the substances it contains
+- Tag each therapeutic area page with the relevant biological targets so they can be discovered from the biological-target pages.
 - Tag the page with "Therapeutic Area" too, so that it appears in index.md.
 - Tag each page with the name of the therapeutic area (e.g. ADHD) so we can refer to it from a biological target.
-- Tag each page with the relevant biological targets, so we can refer back to it from the biological targets pages.
 - In the front matter, list_image: /img/icons/therapeutic-areas.svg
 
 The Format of the page should have this structure:
 
-- Overview: A single paragraph description describing food, where it comes from, main health benefits etc.
-- Biological Targets: Use the <TagList tag="therapeutic area" filter="biological-targets" /> here.
+- Overview: A single paragraph describing the therapeutic area, how it manifests biologically, and the high-level nutritional levers (cite paper.txt where relevant).
+- Biological Target Matrix: Use `<TherapeuticAreaMatrix tag="Therapeutic Area Name" />` (this component mirrors the recipe matrix but for the therapeutic area → biological targets → substances → foods chain). If this component is not yet available, render `<TagList tag="Therapeutic Area Name" filter="biological-targets" />` as a placeholder.
+- Substances: Use `<TagList tag="Therapeutic Area Name" filter="substances" />` to list supporting substances.
+- Foods: Use `<TagList tag="Therapeutic Area Name" filter="foods" />` to list foods connected via substances.
+- References: Pull the relevant citations from `paper.txt` (search for the therapeutic area name and related dysfunctions) and list them in standard format using `/docs/papers/BRAIN-Diet-References#<citation_key>` links.
 
 Use the `ADHD.md` page as an example.

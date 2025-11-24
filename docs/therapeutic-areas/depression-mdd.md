@@ -19,8 +19,22 @@ list_image: /img/icons/therapeutic-areas.svg
 
 ## Overview
 
-Depression and Major Depressive Disorder (MDD) share overlapping biological dysfunctions with other neurocognitive conditions, notably chronic inflammation, neurochemical imbalance, mitochondrial impairment, oxidative stress, impaired methylation, gut–brain axis disruption, and glucose dysregulation. Emerging data shows that ADHD is associated with 3 fold occurrences of depression and anxiety, implicating the broader biological dysfunction that this protocol seeks to address (paper.txt, line 141). This is a food-first baseline designed to modulate key biological systems commonly disrupted in ADHD, depression, cognitive decline, and other neurocognitive disorders (paper.txt, line 158).
+Depression and Major Depressive Disorder (MDD) share overlapping biological dysfunctions with other neurocognitive conditions, including neurotransmitter imbalance, mitochondrial impairment, oxidative stress, impaired methylation, gut–brain axis disruption, and glucose dysregulation (see [Badaeva et al. 2023](/docs/papers/BRAIN-Diet-References#badaeva_perspectives_2023)). Altered endocannabinoid tone, gut-derived neurotransmitter precursors, and glycemic volatility all correlate with depressive symptom load, underscoring the need for nutritional strategies that stabilize these pathways (see [Walther et al. 2023](/docs/papers/BRAIN-Diet-References#walther_depressive_2023); [Gruber et al. 2023](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)).
 
-## Biological Targets
+## Biological Target Matrix
 
-<TagList tag="Depression & MDD" filter="biological-targets" />
+<TherapeuticAreaMatrix tag="Depression & MDD" />
+
+## Substances
+
+<TagList tag="Depression & MDD" filter="substances" />
+
+## Foods
+
+<TagList tag="Depression & MDD" filter="foods" />
+
+## References
+
+- [Badaeva et al. 2023](/docs/papers/BRAIN-Diet-References#badaeva_perspectives_2023)
+- [Walther et al. 2023](/docs/papers/BRAIN-Diet-References#walther_depressive_2023)
+- [Gruber et al. 2023](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
