@@ -6,6 +6,10 @@ description: Polyphenol-rich salad supporting SIRT1 activation and microbiome sy
 tags:
   - Circadian Rhythm
   - Gut Microbiome
+  - Neurochemical Balance
+  - Methylation
+  - Insulin Response
+  - Oxidative Stress
   - Lunch
   - Polyphenols
   - Recipe
