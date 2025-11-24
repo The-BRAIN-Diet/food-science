@@ -14,6 +14,9 @@ tags:
   - traditional-food
   - low-alcohol
   - brain-diet
+  - Gut Microbiome
+  - Neurochemical Balance
+  - Insulin Response
 list_image: /img/recipes/sourdough drink.jpg
 ---
 
@@ -144,3 +147,11 @@ Low sugar, gut-supportive, hydrating — and completely natural.
   - potential support for **emotional regulation** via olfactory–limbic pathways and reduced reliance on sugary or alcoholic drinks.
 
 </Collapse>
+
+## Foods
+
+<RecipeFoods details={frontMatter} />
+
+## Biological Target Matrix
+
+<RecipeMatrix details={frontMatter} />

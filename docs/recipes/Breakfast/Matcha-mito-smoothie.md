@@ -6,6 +6,9 @@ description: Mitochondrial energising smoothie rich in polyphenols, magnesium, a
 tags:
   - Mitochondrial Support
   - Oxidative Stress
+  - Neurochemical Balance
+  - Gut Microbiome
+  - Methylation
   - Breakfast
   - Magnesium
   - Polyphenols

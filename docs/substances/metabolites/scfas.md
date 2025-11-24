@@ -10,6 +10,7 @@ tags:
   - Gut Microbiome
   - Mitochondrial Support
   - Inflammation
+  - Insulin Response
   - Oxidative Stress
   - Neurochemical Balance
 list_image: /img/icons/metabolite.svg
@@ -17,6 +18,7 @@ mechanisms:
   Gut Microbiome: Byproducts of fibre fermentation; support intestinal barrier integrity; regulate immune responses; promote synthesis of key neurotransmitters such as dopamine and serotonin
   Mitochondrial Support: Butyrate supports mitochondrial function, enhancing brain energy metabolism; aids in reducing cholesterol and neuroinflammation
   Inflammation: Butyrate has anti-inflammatory effects, potentially reducing neuroinflammation; propionate helps reduce neuroinflammation and protects the blood-brain barrier
+  Insulin Response: Propionate and butyrate improve insulin sensitivity and glucose metabolism; SCFAs produced from fiber fermentation help stabilize blood glucose and reduce insulin resistance
   Oxidative Stress: Support antioxidant activity; butyrate enhances mitochondrial function during oxidative stress
   Neurochemical Balance: Propionate stimulates secretion of norepinephrine and may influence dopamine regulation; SCFAs promote synthesis of dopamine and serotonin
 ---

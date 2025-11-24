@@ -11,12 +11,14 @@ tags:
   - Neurochemical Balance
   - Mitochondrial Support
   - Hormonal Response
+  - Insulin Response
   - Stress Response
 list_image: /img/icons/nutrients.svg
 mechanisms:
   Neurochemical Balance: Broad cofactor for neurotransmitter synthesis and receptor modulation (e.g., NMDA, GABA); functions as an NMDA receptor antagonist and GABA receptor modulator; assists enzymes involved in synthesis of dopamine and serotonin
   Mitochondrial Support: Supports enzymes involved in glycolysis and the Krebs cycle (processes that generate ATP from glucose); binds to ATP and all triphosphates in cells to activate them
   Hormonal Response: Supports calcium modulation along with vitamin D, taurine, phospholipids, and flavonoids; supports insulin sensitivity, sympathetic arousal, and mitochondrial excitability
+  Insulin Response: Supports insulin sensitivity and glucose metabolism; magnesium deficiency is associated with insulin resistance; supports enzymes involved in glucose metabolism
   Stress Response: Helps manage stress responses; combined with vitamin D reduced behavioral problems; synergy with zinc and omega-3s reported
 ---
 

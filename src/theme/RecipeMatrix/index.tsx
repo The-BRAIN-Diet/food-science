@@ -1,5 +1,6 @@
 import React from "react"
 import {usePluginData} from "@docusaurus/useGlobalData"
+import {useLocation} from "@docusaurus/router"
 import Link from "@docusaurus/Link"
 
 /**
@@ -32,7 +33,7 @@ type TagToDocMap = Record<string, Document[]>
  */
 interface TableRow {
   target: Document
-  substance: Document
+  substance: Document | null
   therapeuticAreas: Document[]
   foods: Document[]
   mechanism: string | null
@@ -68,13 +69,25 @@ interface RecipeMatrixProps {
  */
 export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactElement {
   const allTags = usePluginData("category-listing") as TagToDocMap
+  const location = useLocation()
 
-  if (!details) {
+  // Get current document from plugin data if details not provided
+  let currentDetails = details
+  if (!currentDetails) {
+    // Find the current document by matching permalink
+    const allDocs = Object.values(allTags).flat()
+    const currentDoc = allDocs.find((doc: Document) => doc.permalink === location.pathname)
+    if (currentDoc) {
+      currentDetails = currentDoc.frontMatter
+    }
+  }
+
+  if (!currentDetails) {
     return <div>Error: Recipe details (frontMatter) is required</div>
   }
 
   // Extract tags from frontMatter
-  const recipeTags = details.tags
+  const recipeTags = currentDetails.tags
   if (!Array.isArray(recipeTags)) {
     return <div>Error: Recipe tags not found in frontMatter</div>
   }
@@ -140,17 +153,42 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
     return title.split("(")[0].trim()
   }
 
-  // Create a map of substance names to substance documents
+  // Create a map of substance names/aliases to substance documents
+  // Map by title, sidebar_label, and substance tag labels
   const substanceNameMap = new Map<string, Document>()
   uniqueSubstances.forEach((substance: Document) => {
     const substanceName = getSubstanceName(substance.title)
     substanceNameMap.set(substanceName, substance)
+    
+    // Also map by sidebar_label if it exists and is different
+    const sidebarLabel = substance.frontMatter.sidebar_label as string | undefined
+    if (sidebarLabel) {
+      const sidebarName = getSubstanceName(sidebarLabel)
+      if (sidebarName !== substanceName) {
+        substanceNameMap.set(sidebarName, substance)
+      }
+      // Also add the full sidebar_label as a key (e.g., "SCFAs (Butyrate, Propionate, Acetate)")
+      substanceNameMap.set(sidebarLabel, substance)
+    }
+    
+    // Also map by substance's own tag labels (e.g., "SCFAs" tag on SCFAs substance)
+    const substanceTagLabels = substance.tags.map((t: Tag) => t.label)
+    substanceTagLabels.forEach((tagLabel: string) => {
+      // Only add if it's not a generic category tag
+      if (!["Substance", "Nutrient", "Mineral", "Vitamin", "Fatty Acid", "Amino Acid", 
+            "Bioactive", "Metabolite", "Essential Amino Acid", "Nonessential Amino Acid",
+            "Phospholipid", "Polyphenol", "Flavonoid", "Carotenoid", "Terpene", "Lipid"].includes(tagLabel)) {
+        if (!substanceNameMap.has(tagLabel)) {
+          substanceNameMap.set(tagLabel, substance)
+        }
+      }
+    })
   })
 
   relatedFoods.forEach((food: Document) => {
     const foodTagLabels = food.tags.map((t: Tag) => t.label)
 
-    // Find substances where the food has a tag that exactly matches a substance name
+    // Find substances where the food has a tag that matches a substance name/alias
     // Only match on exact substance names, not category tags like "Polyphenol"
     const foodSubstances = foodTagLabels
       .map((foodTag: string) => substanceNameMap.get(foodTag))
@@ -167,9 +205,26 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
   // Step 4: For each substance, find biological targets
   // Substances are tagged with biological target names (e.g., "Methylation")
   // Build a map: biological target -> {substances: Map(substance -> foods), therapeuticAreas: Set}
-  // Only include biological targets that are directly tagged in the recipe's frontMatter
+  // Include biological targets that are directly tagged in the recipe's frontMatter
   const targetMap = new Map<string, TargetMapEntry>()
 
+  // First, add all biological targets that are directly tagged in the recipe
+  // This ensures we show all targets even if substances aren't tagged with them
+  uniqueTargets.forEach((target: Document) => {
+    const targetTagLabels = target.tags.map((t: Tag) => t.label)
+    // Check if this target is tagged in the recipe's frontMatter
+    const isTaggedInRecipe = targetTagLabels.some((tt: string) => recipeTagLabels.includes(tt))
+    
+    if (isTaggedInRecipe && !targetMap.has(target.permalink)) {
+      targetMap.set(target.permalink, {
+        target,
+        substances: new Map<Document, Set<Document>>(),
+        therapeuticAreas: new Set<Document>(),
+      })
+    }
+  })
+
+  // Then, for each substance, find biological targets and add substance-food relationships
   substanceToFoodsMap.forEach((foods: Set<Document>, substance: Document) => {
     const substanceTagLabels = substance.tags.map((t: Tag) => t.label)
 
@@ -225,8 +280,18 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
       entry.target.tags.find((t: Tag) => !["Biological Target"].includes(t.label))
     const targetName = targetNameTag?.label || entry.target.title
 
-    // Create a row for each substance
-    entry.substances.forEach((foods: Set<Document>, substance: Document) => {
+    // If no substances, create a single row with empty substance/food to show the target
+    if (entry.substances.size === 0) {
+      tableData.push({
+        target: entry.target,
+        substance: null,
+        therapeuticAreas,
+        foods: [],
+        mechanism: null,
+      })
+    } else {
+      // Create a row for each substance
+      entry.substances.forEach((foods: Set<Document>, substance: Document) => {
       // Extract mechanism from substance frontMatter
       let mechanism: string | null = null
       const mechanisms = substance.frontMatter.mechanisms
@@ -290,12 +355,17 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
         mechanism,
       })
     })
+    }
   })
 
   // Sort by biological target title, then by substance title
   tableData.sort((a: TableRow, b: TableRow) => {
     const targetCompare = a.target.title.localeCompare(b.target.title)
     if (targetCompare !== 0) return targetCompare
+    // Handle null substances (targets with no matching substances)
+    if (!a.substance && !b.substance) return 0
+    if (!a.substance) return 1
+    if (!b.substance) return -1
     return a.substance.title.localeCompare(b.substance.title)
   })
 
@@ -342,6 +412,22 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
               </thead>
               <tbody>
                 {rows.map((row: TableRow, index: number) => {
+                  // Handle targets with no substances
+                  if (!row.substance) {
+                    return (
+                      <tr key={index}>
+                        <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top", color: "#999"}}>
+                          —
+                        </td>
+                        <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top", color: "#999"}}>
+                          —
+                        </td>
+                        <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top", color: "#999"}}>
+                          Supported through recipe ingredients
+                        </td>
+                      </tr>
+                    )
+                  }
                   return (
                     <tr key={index}>
                       <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>

@@ -9,6 +9,7 @@ tags:
   - Inflammation
   - Neurochemical Balance
   - Oxidative Stress
+  - Gut Microbiome
   - Breakfast
   - Polyphenols
   - Omega-3 Fatty Acids
