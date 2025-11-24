@@ -15,8 +15,22 @@ list_image: /img/icons/therapeutic-areas.svg
 
 ## Overview
 
-Bipolar disorder shares core pathophysiology with other neurocognitive conditions: neurotransmitter imbalance, mitochondrial dysfunction with oxidative stress, and chronic inflammation. Nutrition can modulate these interconnected systems to support mood stability and cognitive function.
+Bipolar disorder shares core pathophysiology with other neurocognitive conditions: neurotransmitter imbalance, mitochondrial dysfunction with oxidative stress, and chronic inflammation (see [Kato and Kato 2000](/docs/papers/BRAIN-Diet-References#kato_mitochondrial_2000)). Dysregulated mitochondrial signaling, telomere stress, and micronutrient insufficiency can amplify mood cycling, highlighting the need for nutrient strategies that stabilize bioenergetics and stress responses (see [Lundberg et al. 2020](/docs/papers/BRAIN-Diet-References#lundberg_lithium_2020); [Tardy et al. 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)).
 
-## Biological Targets
+## Biological Target Matrix
 
-<TagList tag="Bipolar" filter="biological-targets" />
+<TherapeuticAreaMatrix tag="Bipolar" />
+
+## Substances
+
+<TagList tag="Bipolar" filter="substances" />
+
+## Foods
+
+<TagList tag="Bipolar" filter="foods" />
+
+## References
+
+- [Kato and Kato 2000](/docs/papers/BRAIN-Diet-References#kato_mitochondrial_2000)
+- [Lundberg et al. 2020](/docs/papers/BRAIN-Diet-References#lundberg_lithium_2020)
+- [Tardy et al. 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)

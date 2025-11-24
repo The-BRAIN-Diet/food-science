@@ -20,8 +20,22 @@ list_image: /img/icons/therapeutic-areas.svg
 
 ## Overview
 
-Anxiety and General Anxiety Disorder (GAD) share overlapping biological dysfunctions with other neurocognitive conditions, notably chronic inflammation, neurochemical imbalance, mitochondrial impairment, oxidative stress, impaired methylation, gut–brain axis disruption, and glucose dysregulation. Emerging data shows that ADHD is associated with 3 fold occurrences of depression and anxiety, implicating the broader biological dysfunction that this protocol seeks to address (paper.txt, line 141). Many of the nutritional strategies discussed in this paper—such as glycemic stabilization, SCFA production, polyphenol intake, and anxiolytic probiotic interventions—are expected to exert downstream effects on emotional regulation through modulation of HPA axis activity, limbic signalling, and neurotransmitter systems (paper.txt, line 335).
+Anxiety and General Anxiety Disorder (GAD) share overlapping biological dysfunctions with other neurocognitive conditions, notably chronic inflammation, neurochemical imbalance, mitochondrial impairment, oxidative stress, impaired methylation, gut–brain axis disruption, and glucose dysregulation (see [Mohamed and Kobeissy 2024](/docs/papers/BRAIN-Diet-References#mohamed_nutrition_2024)). Nutritional strategies that stabilize glycemia, fortify the gut–brain axis, and modulate neurotransmission—such as prebiotic fibers and vagus-supportive probiotics—demonstrate anxiolytic potential (see [Johnstone et al. 2021](/docs/papers/BRAIN-Diet-References#johnstone_anxiolytic_2021); [Bravo et al. 2011](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)).
 
-## Biological Targets
+## Biological Target Matrix
 
-<TagList tag="Anxiety & GAD" filter="biological-targets" />
+<TherapeuticAreaMatrix tag="Anxiety & GAD" />
+
+## Substances
+
+<TagList tag="Anxiety & GAD" filter="substances" />
+
+## Foods
+
+<TagList tag="Anxiety & GAD" filter="foods" />
+
+## References
+
+- [Mohamed and Kobeissy 2024](/docs/papers/BRAIN-Diet-References#mohamed_nutrition_2024)
+- [Johnstone et al. 2021](/docs/papers/BRAIN-Diet-References#johnstone_anxiolytic_2021)
+- [Bravo et al. 2011](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)

@@ -256,6 +256,11 @@ Mitochondrial Support:
   permalink: /docs/tags/mitochondrial-support
   description: Mitochondrial function and energy production
 
+MCT:
+  label: MCT
+  permalink: /docs/tags/mct
+  description: Medium-chain triglycerides used for rapid ketone-based brain energy
+
 Mineral:
   label: Mineral
   permalink: /docs/tags/mineral
@@ -671,6 +676,11 @@ Coconut Oil:
   label: Coconut Oil
   permalink: /docs/tags/coconut-oil
   description: Oil rich in medium-chain triglycerides
+
+Cacao:
+  label: Cacao
+  permalink: /docs/tags/cacao
+  description: Cacao beans, nibs, and bitter chocolate applications for polyphenol support
 
 Cod:
   label: Cod
@@ -1319,6 +1329,11 @@ high protein:
   label: High Protein
   permalink: /docs/tags/high-protein
   description: High protein recipes
+
+brain-food:
+  label: Brain Food
+  permalink: /docs/tags/brain-food
+  description: Recipes or documents explicitly focused on brain health
 
 fermented:
   label: Fermented
