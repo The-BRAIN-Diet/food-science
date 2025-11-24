@@ -10,6 +10,10 @@ tags:
   - Neurochemical Balance
   - Endocannabinoid System
 list_image: /img/icons/bioactive.svg
+mechanisms:
+  Endocannabinoid System: Precursor for phosphatidylcholine (PC) synthesis; PE can be converted into PC or N-acyl phosphatidylethanolamines (NAPEs); NAPEs are precursors to N-acyl ethanolamines (NAEs) like palmitoylethanolamide (PEA), oleoylethanolamide (OEA), and anandamide (AEA), bioactive lipids which act as neuromodulators with anti-inflammatory, neuroprotective, and mood-regulating effects
+  Methylation: Precursor to trimethylglycine (TMG/betaine), a dietary methyl donor that helps recycle homocysteine to methionine via an alternative pathway; supports one-carbon metabolism alongside folate, riboflavin, and B12; influences methylation dynamics relevant to MTHFR and COMT activity
+  Neurochemical Balance: Essential precursor for acetylcholine synthesis, supporting memory, learning, and neuroplasticity; supports membrane phospholipid biosynthesis (PC) which is critical for membrane fluidity and neurotransmitter receptor function; phospholipid methylation (PLM) alters membrane structure, facilitating faster neuronal recovery and influencing ion channel behavior in gamma oscillations linked to attention and cognition
 ---
 
 ## Overview
