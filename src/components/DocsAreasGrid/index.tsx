@@ -41,8 +41,23 @@ export default function DocsAreasGrid(): ReactNode {
   const allTags = usePluginData("category-listing")
   const areaDocs: DocItem[] = allTags?.["Area"] || []
 
-  // Sort by sidebar_position (order)
-  const sortedDocs = [...areaDocs].sort((a, b) => a.order - b.order)
+  // Prioritise Recipes first on the homepage, then fall back to sidebar order
+  const getPriority = (doc: DocItem): number => {
+    const permalink = doc.permalink?.toLowerCase() || ""
+
+    // Treat anything under /docs/recipes as highest priority
+    if (permalink.startsWith("/docs/recipes")) {
+      return 0
+    }
+
+    return 1
+  }
+
+  const sortedDocs = [...areaDocs].sort((a, b) => {
+    const priorityDiff = getPriority(a) - getPriority(b)
+    if (priorityDiff !== 0) return priorityDiff
+    return a.order - b.order
+  })
 
   return (
     <section className={styles.docsAreas}>
