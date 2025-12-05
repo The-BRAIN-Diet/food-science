@@ -54,9 +54,10 @@
 
 .heroIcon {
     width: 120px;
-    height: 120px;
+    height: auto;
     margin-bottom: 1.5rem;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8));
+    object-fit: contain;
 }
 
 .heroTitle {
@@ -92,7 +93,7 @@
 @media screen and (max-width: 768px) {
     .heroIcon {
         width: 80px;
-        height: 80px;
+        height: auto;
         margin-bottom: 1rem;
     }
 

@@ -2,7 +2,7 @@
 id: chocolate-quinoa-crisp-clusters
 title: Chocolate Quinoa Crisp Clusters
 sidebar_label: Quinoa Crisp Clusters
-description: A snack-to-cereal hybrid recipe using whole quinoa microstructure, flax mucilage binding, and coconut oil crystallisation to create stable cereal-style crunch.
+description: A delicious cereal-to-snack hybrid with satisfying crunch, steady energy, and a low glycemic profile. Perfect for breakfast or anytime snacking.
 tags:
   - Recipe
   - Breakfast
@@ -28,7 +28,7 @@ list_image: /img/recipes/quinoa balls.jpg
 
 ## Overview
 
-A cereal-to-snack hybrid engineered with whole quinoa microstructure, flax mucilage binding, and solid-phase lipid crystallisation. Designed for steady energy, a low glycemic profile, and spoonable crunch. The intact quinoa grain structure provides aeration and mechanical fracture points, while flax mucilage binds clusters and coconut oil crystallisation creates a protective lipid shell that preserves crunch.
+A delicious cereal-to-snack hybrid that delivers satisfying crunch and steady energy. Made with whole quinoa grains, ground flaxseed, and a touch of coconut oil, these clusters offer a low glycemic profile perfect for sustained focus and energy. Enjoy them as a breakfast cereal with milk, or grab a handful for a wholesome snack anytime.
 
 ## Ingredients
 

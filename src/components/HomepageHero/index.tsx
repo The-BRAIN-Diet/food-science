@@ -22,7 +22,7 @@ export default function HomepageHero(): ReactNode {
         <div className={styles.videoOverlay} />
       </div>
       <div className={clsx("container", styles.heroContent)}>
-        <img src="/site-icon/white.png" alt="BRAIN Diet Logo" className={styles.heroIcon} />
+        <img src="/site-icon/white.svg" alt="BRAIN Diet Logo" className={styles.heroIcon} />
         <Heading as="h1" className={styles.heroTitle}>
           The BRAIN Diet ™
         </Heading>

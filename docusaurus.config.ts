@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'The BRAIN Diet',
   tagline: 'Bio Regulation Algorithm and Integrated Neuronutrition',
-  favicon: 'img/favicon.ico',
+  favicon: 'site-icon/white.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -77,7 +77,7 @@ const config: Config = {
       title: 'The BRAIN Diet',
       logo: {
         alt: 'BRAIN Diet Logo',
-        src: 'site-icon/white.png',
+        src: 'site-icon/white.svg',
       }
     },
     footer: {
