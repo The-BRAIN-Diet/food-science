@@ -4,7 +4,7 @@ sidebar_label: Substances
 description: Specific substances and compounds used in the BRAIN Diet
 tags:
   - Area
-sidebar_position: 4
+sidebar_position: 2
 list_image: /img/icons/ingredients.svg
 ---
 

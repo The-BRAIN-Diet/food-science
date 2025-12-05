@@ -290,8 +290,8 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
         mechanism: null,
       })
     } else {
-      // Create a row for each substance
-      entry.substances.forEach((foods: Set<Document>, substance: Document) => {
+    // Create a row for each substance
+    entry.substances.forEach((foods: Set<Document>, substance: Document) => {
       // Extract mechanism from substance frontMatter
       let mechanism: string | null = null
       const mechanisms = substance.frontMatter.mechanisms
