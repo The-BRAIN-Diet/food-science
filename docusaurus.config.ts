@@ -68,6 +68,12 @@ const config: Config = {
         ],
       },
     ],
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        indexPages: true,
+      },
+    ],
   ],
 
   themeConfig: {
