@@ -176,7 +176,25 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
     substance.tags.forEach((tag: Tag) => {
       const tagLabel = tag.label
       // Only map substance-related tags, skip category tags like "Substance", "Nutrient", etc.
-      const categoryTags = ["Substance", "Nutrient", "Bioactive", "Metabolite", "Vitamin", "Mineral", "Fatty Acid", "Amino Acid"]
+      // Category tags are broad classifications that multiple substances can share, so they shouldn't be used as keys
+      const categoryTags = [
+        "Substance",
+        "Nutrient",
+        "Bioactive",
+        "Metabolite",
+        "Vitamin",
+        "Mineral",
+        "Fatty Acid",
+        "Amino Acid",
+        "Polyphenol",
+        "Carotenoid",
+        "Flavonoid",
+        "Terpene",
+        "Omega-3 Fatty Acids",
+        "Omega-6 Fatty Acids",
+        "SCFAs",
+        "Antioxidant",
+      ]
       if (!categoryTags.includes(tagLabel)) {
         substanceNameMap.set(tagLabel, substance)
       }
@@ -190,10 +208,20 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
   }
 
   // Create a map of food names to food documents
+  // Map both normalized names (without parentheses) and full names (with parentheses)
+  // This handles cases like "Olive Oil (Early Harvest)" where recipes are tagged with the full name
   const foodNameMap = new Map<string, Document>()
   uniqueFoods.forEach((food: Document) => {
-    const foodName = getFoodName(food.title)
-    foodNameMap.set(foodName, food)
+    const normalizedName = getFoodName(food.title)
+    const fullName = food.title
+    
+    // Map by normalized name (e.g., "Olive Oil")
+    foodNameMap.set(normalizedName, food)
+    
+    // Also map by full name if it contains parentheses (e.g., "Olive Oil (Early Harvest)")
+    if (fullName !== normalizedName) {
+      foodNameMap.set(fullName, food)
+    }
   })
 
   // Find foods where the recipe has a tag that exactly matches a food name
