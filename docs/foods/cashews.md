@@ -8,8 +8,22 @@ tags:
   - Cashews
   - Vegan
   - Vegetarian
+  - Linoleic Acid
   - Zinc
   - Magnesium
+  - Phosphorus
+  - Manganese
+  - Copper
+  - Iron
+  - Tryptophan
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

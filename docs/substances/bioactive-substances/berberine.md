@@ -22,6 +22,10 @@ mechanisms:
 
 Berberine is a polyphenolic alkaloid naturally found in plants such as barberry, goldenseal, and Oregon grape. It supports glycemic regulation by improving insulin sensitivity and limiting sympathetic activation, making it valuable for glucose regulation strategies. As a polyphenol antimicrobial, berberine suppresses small intestinal bacterial overgrowth (SIBO), Candida, and pathobionts while reducing lipopolysaccharide (LPS) translocation from the gut. This antimicrobial action enhances nutrient absorption of vitamin B12, iron, and tryptophan—essential precursors for neurotransmitter synthesis—and increases short-chain fatty acid (SCFA) resilience, supporting gut–brain communication and reducing systemic inflammation.
 
+## Recipes
+
+<TagList tag="Berberine" filter="recipes" />
+
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Berberine" />

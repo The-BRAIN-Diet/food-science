@@ -22,6 +22,7 @@ mechanisms:
 The Format of the page should have this structure:
 
 - Overview: A single paragraph description describing the substance, what it is, where it comes from. Keep it brief.
+- Recipes: should be <TagList tag="the substance" filter="recipes" />
 - Biological Mechanisms and Implications: should be: <SubstanceMatrix tag="the substance" />
 - Foods: should be <TagList tag="the substance" filter="foods" />
 - References: A list of findings or scientific principles, with their link to the `/docs/papers/BRAIN-Diet-References#<ref>` that discusses it, from paper.txt in the root directory. Make sure all assertions are backed up by evidence from the paper.txt file . Use references if the paper mentions them.

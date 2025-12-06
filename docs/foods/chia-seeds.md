@@ -9,8 +9,20 @@ tags:
   - Vegan
   - Vegetarian
   - ALA
+  - Linoleic Acid
   - Calcium
   - Magnesium
+  - Phosphorus
+  - Manganese
+  - Tryptophan
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

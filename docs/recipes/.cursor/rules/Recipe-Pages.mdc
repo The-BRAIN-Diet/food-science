@@ -19,7 +19,7 @@ The Format of the page should have this structure:
 - Extra Guidance (optional): Any other notes for how or when to take it.
 - Nutrition: calories, etc.
 - Brain Health Notes: some notes about why it is particularly helpful for your brain.
-- Foods: should be <RecipeFoods details={frontMatter} />
+- Foods: should be <RecipeFoods details={frontMatter} /> (displays foods with hyperlinked substances for each food)
 - Biological Target Matrix: should be <RecipeMatrix details={frontMatter} />
 
 Use the `Ginger Yogurt & Blueberry Bowl.md` page as an example.

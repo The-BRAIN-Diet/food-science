@@ -8,22 +8,36 @@ tags:
   - Eggs
   - Vegetarian
   - Choline
+  - Vitamin B1
   - Vitamin B2
   - Vitamin B5
+  - Vitamin B6
   - Vitamin B12
   - Vitamin B9
-  - Selenium
   - Vitamin A
   - Vitamin D
   - Vitamin E
   - Vitamin K2
+  - Selenium
+  - Phosphorus
+  - Zinc
+  - Iron
   - Phosphatidylethanolamine
+  - Phosphatidylcholine
   - Lutein
   - Zeaxanthin
   - Beta-Carotene
   - Carotenoid
   - Tryptophan
   - Tyrosine
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

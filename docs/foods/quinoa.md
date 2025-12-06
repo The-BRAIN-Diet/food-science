@@ -9,8 +9,24 @@ tags:
   - Vegan
   - Vegetarian
   - Magnesium
+  - Phosphorus
+  - Manganese
+  - Iron
+  - Zinc
+  - Vitamin B1
+  - Vitamin B2
   - Vitamin B6
+  - Vitamin B9
   - Choline
+  - Tryptophan
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

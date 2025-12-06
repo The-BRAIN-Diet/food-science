@@ -8,9 +8,23 @@ tags:
   - Sunflower Seeds
   - Vegan
   - Vegetarian
+  - Linoleic Acid
   - Vitamin B1
   - Vitamin E
   - Selenium
+  - Magnesium
+  - Phosphorus
+  - Manganese
+  - Copper
+  - Tryptophan
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

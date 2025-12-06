@@ -22,6 +22,10 @@ mechanisms:
 
 Copper participates in redox enzymes and catecholamine synthesis, serving as a cofactor in dopamine β-hydroxylase, which supports norepinephrine synthesis. It interacts with iron metabolism, and balance between copper and iron is important for neural function. Copper is included in antioxidant enzyme networks and mineral interactions affecting oxidative stress, supporting overall redox balance in the brain.
 
+## Recipes
+
+<TagList tag="Copper" filter="recipes" />
+
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Copper" />

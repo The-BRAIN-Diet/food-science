@@ -8,8 +8,23 @@ tags:
   - Yogurt
   - Vegetarian
   - Calcium
+  - Phosphorus
+  - Potassium
+  - Magnesium
+  - Zinc
+  - Vitamin B2
+  - Vitamin B5
+  - Vitamin B12
   - Tryptophan
   - Tyrosine
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

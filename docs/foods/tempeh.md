@@ -8,10 +8,25 @@ tags:
   - Tempeh
   - Vegan
   - Vegetarian
+  - Linoleic Acid
   - Iron
+  - Calcium
+  - Magnesium
+  - Phosphorus
+  - Manganese
+  - Copper
+  - Choline
   - Genistein
   - Tryptophan
   - Tyrosine
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

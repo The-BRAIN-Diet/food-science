@@ -8,8 +8,22 @@ tags:
   - Almonds
   - Vegan
   - Vegetarian
+  - Linoleic Acid
   - Vitamin E
+  - Vitamin B2
   - Magnesium
+  - Phosphorus
+  - Manganese
+  - Copper
+  - Tryptophan
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

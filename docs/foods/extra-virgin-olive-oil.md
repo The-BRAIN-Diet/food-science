@@ -8,7 +8,9 @@ tags:
   - Extra Virgin Olive Oil
   - Vegan
   - Vegetarian
+  - Linoleic Acid
   - Vitamin E
+  - Vitamin K
   - Hydroxytyrosol
   - CoQ10
   - Polyphenol

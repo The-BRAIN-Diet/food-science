@@ -2,7 +2,7 @@
 id: ecs-tone-salmon-pistachio-bowl
 title: Salmon Bowl-pistachio-cacao-nibs
 sidebar_label: ECS-Tone Salmon Bowl
-description: A functional ECS-supportive bowl combining salmon, avocado, pistachios, cacao nibs, and olive oil to help preserve anandamide tone, improve membrane lipid composition, and support gut–brain signaling.
+description: A functional ECS-supportive bowl combining salmon, avocado, pistachios, cacao nibs, and early harvest olive oil to help preserve anandamide tone, improve membrane lipid composition, and support gut–brain signaling.
 tags:
   - Recipe
   - Lunch
@@ -10,6 +10,7 @@ tags:
   - Avocado
   - Pistachios
   - Cacao
+  - Olive Oil (Early Harvest)
   - Endocannabinoid System
   - Omega-3 Fatty Acids
   - Brain Food
@@ -29,7 +30,7 @@ A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) 
 - 40–50 g **pistachios** (raw or dry-roasted, unsalted)
 - 1 cup **mixed leafy greens** (rocket, lamb’s lettuce, baby spinach)
 - 1 tbsp **raw cacao nibs**
-- 1–2 tbsp **extra virgin olive oil**
+- 1–2 tbsp **early harvest olive oil**
 - 1 tsp **hemp seeds** or **chia seeds**
 - juice of **½ lemon**
 - a few sprigs of **mint** or basil
@@ -53,7 +54,7 @@ A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) 
    Lightly scatter cacao nibs (0.5–1 tsp per bowl) to provide bitterness and crunch.
 
 5. **Dress**  
-   Drizzle olive oil, add lemon juice, season lightly with salt.  
+   Drizzle early harvest olive oil, add lemon juice, season lightly with salt.  
    Finish with mint or basil leaves.
 
 ## Extra Guidance
@@ -63,7 +64,7 @@ A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) 
 
 ## Nutrition — **per 100 g of the prepared bowl**
 
-> Composite values using a normalized blend of salmon, avocado, pistachio, leafy greens, EVOO, chia, and cacao nibs.  
+> Composite values using a normalized blend of salmon, avocado, pistachio, leafy greens, early harvest olive oil, chia, and cacao nibs.  
 > Based on EU/UK reference guidelines.
 
 | **Nutrient / Substance** | **Amount per 100 g** | **RDA / RI (EU/UK)** | **% RDA** |
@@ -101,7 +102,7 @@ A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) 
 
 ### Synaptic & membrane integrity
 - DHA improves **CB1 receptor incorporation**, synaptic fluidity, and dopaminergic resilience.  
-- EVOO phenolics stabilize peroxidation, preventing lipid stress that disrupts ECS tone.
+- Early harvest olive oil phenolics stabilize peroxidation, preventing lipid stress that disrupts ECS tone.
 
 ### Gut–brain axis
 - Leafy greens + nut fiber → **SCFA fermentation** → **CB2 immune tone** and vagal modulation.
@@ -120,7 +121,7 @@ A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) 
 | | Magnesium | 29–35 mg | NAPE-PLD cofactor → AEA synthesis |
 | **Cacao nibs** | Polyphenols | 200–400 mg | ↓ inflammatory FAAH upregulation |
 | | Theobromine/caffeine | 80–150 mg | Adenosine modulation → mood/ECS cross-talk |
-| **EVOO** | Hydroxytyrosol & phenolics | 200–800 mg/kg | ↓ lipid peroxidation → receptor stability |
+| **Early harvest olive oil** | Hydroxytyrosol & phenolics | 200–800 mg/kg | ↓ lipid peroxidation → receptor stability |
 | **Leafy greens** | Folate | 140–190 μg | Methylation → ECS enzyme regulation |
 | **Chia seeds** | ALA | 17–18 g | Omega-3 precursor (limited conversion to EPA) |
 

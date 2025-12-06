@@ -8,10 +8,20 @@ tags:
   - Broccoli
   - Vegan
   - Vegetarian
+  - Vitamin B1
+  - Vitamin B2
+  - Vitamin B5
+  - Vitamin B6
   - Vitamin B9
   - Vitamin C
   - Vitamin K2
   - Choline
+  - Iron
+  - Magnesium
+  - Phosphorus
+  - Potassium
+  - Manganese
+  - Zinc
   - CoQ10
   - Sulforaphane
 list_image: /img/icons/ingredients.svg
