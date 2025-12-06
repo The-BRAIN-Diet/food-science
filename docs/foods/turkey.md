@@ -8,6 +8,7 @@ tags:
   - Turkey
   - Tryptophan
   - Tyrosine
+  - Glycine
   - Vitamin B3
   - Vitamin B6
   - Vitamin B12

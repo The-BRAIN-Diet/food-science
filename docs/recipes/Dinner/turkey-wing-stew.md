@@ -18,7 +18,6 @@ tags:
   - Olive Oil
   - Turmeric
   - Rosemary
-  - Glycine
 list_image: /img/recipes/turkey-wing-stew.jpg
 ---
 
