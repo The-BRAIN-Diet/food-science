@@ -8,9 +8,24 @@ tags:
   - Beef
   - Creatine
   - CoQ10
+  - Vitamin B2
+  - Vitamin B3
+  - Vitamin B6
+  - Vitamin B12
   - Iron
   - Zinc
+  - Phosphorus
+  - Selenium
   - Tyrosine
+  - Tryptophan
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

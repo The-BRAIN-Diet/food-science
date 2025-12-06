@@ -10,9 +10,23 @@ tags:
   - Vegetarian
   - Vitamin B9
   - Vitamin B6
+  - Vitamin B1
   - Magnesium
   - Iron
   - Zinc
+  - Phosphorus
+  - Potassium
+  - Manganese
+  - Copper
+  - Tryptophan
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

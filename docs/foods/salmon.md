@@ -7,12 +7,28 @@ tags:
   - Food
   - Salmon
   - Omega-3 Fatty Acids
+  - Vitamin B1
+  - Vitamin B2
   - Vitamin B3
+  - Vitamin B5
   - Vitamin B6
   - Vitamin B12
-  - Selenium
   - Vitamin D
+  - Selenium
+  - Phosphorus
+  - Potassium
+  - Magnesium
   - Astaxanthin
+  - Tryptophan
+  - Tyrosine
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

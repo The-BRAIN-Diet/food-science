@@ -8,12 +8,26 @@ tags:
   - Tofu
   - Vegan
   - Vegetarian
+  - Linoleic Acid
   - Choline
   - Iron
   - Calcium
+  - Magnesium
+  - Phosphorus
+  - Manganese
+  - Copper
+  - Selenium
   - Genistein
   - Tryptophan
   - Tyrosine
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

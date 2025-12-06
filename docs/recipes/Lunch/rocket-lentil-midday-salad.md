@@ -19,7 +19,7 @@ tags:
   - Tomatoes
   - Quinoa
   - Lentils
-  - Extra Virgin Olive Oil
+  - Olive Oil (Early Harvest)
   - Lemon
 list_image: /img/recipes/rocket-lentil-midday-salad.jpg
 ---
@@ -28,7 +28,7 @@ list_image: /img/recipes/rocket-lentil-midday-salad.jpg
 
 ## Overview
 
-This polyphenol-rich midday salad combines prebiotic quinoa or lentils with antioxidant-rich vegetables, healthy fats from avocado and extra virgin olive oil, and omega-3 from walnuts. The combination activates SIRT1 for metabolic clock regulation, provides fermentable carbohydrates for SCFA production and gut circadian entrainment, and modulates PER1/PER2 and REV-ERBα/ROR signalling, making it an ideal lunch to support daytime metabolic rhythms and microbiome synchronisation.
+This polyphenol-rich midday salad combines prebiotic quinoa or lentils with antioxidant-rich vegetables, healthy fats from avocado and early harvest olive oil, and omega-3 from walnuts. The combination activates SIRT1 for metabolic clock regulation, provides fermentable carbohydrates for SCFA production and gut circadian entrainment, and modulates PER1/PER2 and REV-ERBα/ROR signalling, making it an ideal lunch to support daytime metabolic rhythms and microbiome synchronisation.
 
 ## Ingredients
 
@@ -38,7 +38,7 @@ This polyphenol-rich midday salad combines prebiotic quinoa or lentils with anti
 - ½ avocado
 - ½ cup cherry tomatoes
 - ½ cup cooked quinoa or ½ cup cooked lentils (key for gut health)
-- 1 tbsp EVOO
+- 1 tbsp early harvest olive oil
 - Lemon juice
 - Optional: basil, herbs
 
@@ -47,7 +47,7 @@ This polyphenol-rich midday salad combines prebiotic quinoa or lentils with anti
 1. Add cooked quinoa or lentils as the base.
 2. Top with rocket, tomatoes, olives, avocado.
 3. Add walnuts.
-4. Drizzle with EVOO + lemon.
+4. Drizzle with early harvest olive oil + lemon.
 5. Toss lightly.
 
 ## Nutrition
@@ -59,7 +59,7 @@ This polyphenol-rich midday salad combines prebiotic quinoa or lentils with anti
 - Polyphenols activate SIRT1, supporting daytime metabolic clocks and NAD⁺ cycling.
 - Quinoa or lentils provide prebiotic-resistant starch for SCFA production and gut circadian entrainment.
 - Walnuts provide fibre, omega-3, and polyphenols.
-- Extra virgin olive oil modulates PER1/PER2 circadian genes.
+- Early harvest olive oil modulates PER1/PER2 circadian genes.
 - SCFAs stabilise overnight blood-sugar and serotonin–melatonin cycling.
 - Polyphenols modulate REV-ERBα/ROR signalling for circadian rhythm regulation.
 

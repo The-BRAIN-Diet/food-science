@@ -11,7 +11,16 @@ tags:
   - Iron
   - Magnesium
   - Zinc
+  - Calcium
+  - Phosphorus
+  - Potassium
+  - Manganese
+  - Copper
+  - Vitamin B1
+  - Vitamin B2
+  - Vitamin B6
   - Vitamin B9
+  - Vitamin C
   - Vitamin K2
   - Vitamin A
   - Quercetin

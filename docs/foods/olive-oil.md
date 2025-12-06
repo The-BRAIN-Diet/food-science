@@ -8,6 +8,9 @@ tags:
   - Olive Oil
   - Vegan
   - Vegetarian
+  - Linoleic Acid
+  - Vitamin E
+  - Vitamin K
   - Polyphenol
 list_image: /img/icons/ingredients.svg
 ---

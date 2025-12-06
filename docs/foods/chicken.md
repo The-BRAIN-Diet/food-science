@@ -7,9 +7,22 @@ tags:
   - Food
   - Chicken
   - Vitamin B3
+  - Vitamin B6
+  - Vitamin B12
+  - Phosphorus
+  - Selenium
   - Zinc
+  - Iron
   - Tryptophan
   - Tyrosine
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 

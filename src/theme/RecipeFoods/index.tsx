@@ -35,7 +35,51 @@ interface RecipeFoodsProps {
   details: Record<string, unknown>
 }
 
-function DocItemImage({doc}: {doc: Document}) {
+function DocItemImage({
+  doc,
+  substanceNameMap,
+}: {
+  doc: Document
+  substanceNameMap: Map<string, Document>
+}) {
+  // Extract substance tags from the food document
+  // Ensure tags exist and are in the correct format
+  if (!doc.tags || !Array.isArray(doc.tags)) {
+    return (
+      <article key={doc.title} className="margin-vert--lg">
+        <div className={styles.columns}>
+          <div className={styles.left}>
+            <img src={doc.frontMatter.list_image as string} className={styles.articleImage} />
+          </div>
+          <div className={styles.right}>
+            <Link to={doc.permalink}>
+              <h3>{doc.title}</h3>
+            </Link>
+            {doc.description && <p>{doc.description}</p>}
+          </div>
+        </div>
+      </article>
+    )
+  }
+
+  const foodTagLabels = doc.tags
+    .map((tag: Tag) => tag.label)
+    .filter((label: string) => substanceNameMap.has(label))
+
+  // Get substance documents for this food (deduplicate by permalink)
+  const substanceMap = new Map<string, Document>()
+  foodTagLabels.forEach((label: string) => {
+    const substance = substanceNameMap.get(label)
+    if (substance) {
+      substanceMap.set(substance.permalink, substance)
+    }
+  })
+
+  const foodSubstances = Array.from(substanceMap.values())
+
+  // Sort substances by title
+  foodSubstances.sort((a: Document, b: Document) => a.title.localeCompare(b.title))
+
   return (
     <article key={doc.title} className="margin-vert--lg">
       <div className={styles.columns}>
@@ -47,6 +91,17 @@ function DocItemImage({doc}: {doc: Document}) {
             <h3>{doc.title}</h3>
           </Link>
           {doc.description && <p>{doc.description}</p>}
+          {foodSubstances.length > 0 && (
+            <p style={{marginTop: "0.5rem", fontSize: "0.9em", color: "var(--ifm-color-content-secondary)"}}>
+              <strong>Substances:</strong>{" "}
+              {foodSubstances.map((substance: Document, index: number) => (
+                <span key={substance.permalink}>
+                  <Link to={substance.permalink}>{substance.title}</Link>
+                  {index < foodSubstances.length - 1 && ", "}
+                </span>
+              ))}
+            </p>
+          )}
         </div>
       </div>
     </article>
@@ -83,12 +138,50 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
     return String(tag)
   })
 
-  // Get all food documents
+  // Get all food and substance documents
   const allDocs = Object.values(allTags).flat()
   const allFoods = allDocs.filter((doc: Document) => doc.permalink.includes("/foods/"))
+  const allSubstances = allDocs.filter((doc: Document) => doc.permalink.includes("/substances/"))
 
   // Remove duplicates
   const uniqueFoods = Array.from(new Map(allFoods.map((doc: Document) => [doc.permalink, doc])).values())
+  const uniqueSubstances = Array.from(new Map(allSubstances.map((doc: Document) => [doc.permalink, doc])).values())
+
+  // Extract substance names from their titles (normalize by removing parenthetical info)
+  const getSubstanceName = (title: string): string => {
+    // Remove parenthetical info like "(Turmeric)" from "Curcumin (Turmeric)"
+    return title.split("(")[0].trim()
+  }
+
+  // Create a map of substance names/aliases to substance documents
+  // Map by normalized title, sidebar_label, and substance tag labels
+  const substanceNameMap = new Map<string, Document>()
+  uniqueSubstances.forEach((substance: Document) => {
+    // Map by normalized title
+    const substanceName = getSubstanceName(substance.title)
+    substanceNameMap.set(substanceName, substance)
+    
+    // Also map by sidebar_label if it exists and is different
+    const sidebarLabel = substance.frontMatter.sidebar_label as string | undefined
+    if (sidebarLabel) {
+      const sidebarName = getSubstanceName(sidebarLabel)
+      if (sidebarName !== substanceName) {
+        substanceNameMap.set(sidebarName, substance)
+      }
+      // Also add the full sidebar_label as a key
+      substanceNameMap.set(sidebarLabel, substance)
+    }
+    
+    // Map by all substance tag labels (e.g., "Vitamin C" tag matches "Vitamin C (Ascorbate)")
+    substance.tags.forEach((tag: Tag) => {
+      const tagLabel = tag.label
+      // Only map substance-related tags, skip category tags like "Substance", "Nutrient", etc.
+      const categoryTags = ["Substance", "Nutrient", "Bioactive", "Metabolite", "Vitamin", "Mineral", "Fatty Acid", "Amino Acid"]
+      if (!categoryTags.includes(tagLabel)) {
+        substanceNameMap.set(tagLabel, substance)
+      }
+    })
+  })
 
   // Extract food names from their titles (normalize by removing parenthetical info)
   const getFoodName = (title: string): string => {
@@ -127,7 +220,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
   return (
     <div className="bok-tag-list">
       {relatedFoods.map((food: Document) => (
-        <DocItemImage key={food.permalink} doc={food} />
+        <DocItemImage key={food.permalink} doc={food} substanceNameMap={substanceNameMap} />
       ))}
     </div>
   )

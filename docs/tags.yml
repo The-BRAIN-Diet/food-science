@@ -982,6 +982,11 @@ Olive Oil:
   permalink: /docs/tags/olive-oil
   description: Oil rich in monounsaturated fats and polyphenols
 
+Olive Oil (Early Harvest):
+  label: Olive Oil (Early Harvest)
+  permalink: /docs/tags/olive-oil-early-harvest
+  description: Premium extra virgin olive oil with enhanced CoQ10, oleuropein, and polyphenol content
+
 Olives:
   label: Olives
   permalink: /docs/tags/olives

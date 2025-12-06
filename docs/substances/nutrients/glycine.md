@@ -23,6 +23,10 @@ mechanisms:
 
 Glycine is a nonessential amino acid that serves multiple critical functions in brain health, gut integrity, and sleep regulation. As an inhibitory neurotransmitter, glycine helps calm neural activity and supports sleep onset. It is also a key component of collagen and gelatin, which are essential for gut barrier repair and connective tissue strength. Additionally, glycine is required for glutathione synthesis, supporting antioxidant defense and detoxification pathways.
 
+## Recipes
+
+<TagList tag="Glycine" filter="recipes" />
+
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Glycine" />

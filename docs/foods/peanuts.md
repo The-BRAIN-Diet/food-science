@@ -8,10 +8,26 @@ tags:
   - Peanuts
   - Vegan
   - Vegetarian
+  - Linoleic Acid
   - Vitamin B3
   - Vitamin B9
+  - Vitamin B1
+  - Vitamin E
   - Magnesium
+  - Phosphorus
+  - Manganese
+  - Copper
+  - Zinc
   - Polyphenol
+  - Tryptophan
+  - Lysine
+  - Methionine
+  - Phenylalanine
+  - Threonine
+  - Valine
+  - Leucine
+  - Isoleucine
+  - Histidine
 list_image: /img/icons/ingredients.svg
 ---
 
