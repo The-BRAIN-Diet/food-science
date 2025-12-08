@@ -20,7 +20,7 @@ Berries are polyphenol-rich fruits providing anthocyanins, flavonoids, and other
 
 ## Recipes
 
-<TagList tag="Berries" filter="recipes" />
+<FoodRecipes tag="Berries" />
 
 ## Substances
 

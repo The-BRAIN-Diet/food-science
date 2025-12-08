@@ -21,7 +21,7 @@ Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, 
 
 ## Recipes
 
-<TagList tag="Seaweed" filter="recipes" />
+<FoodRecipes tag="Seaweed" />
 
 ## Substances
 

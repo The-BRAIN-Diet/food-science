@@ -19,7 +19,7 @@ Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fib
 
 ## Recipes
 
-<TagList tag="Leeks" filter="recipes" />
+<FoodRecipes tag="Leeks" />
 
 ## Substances
 

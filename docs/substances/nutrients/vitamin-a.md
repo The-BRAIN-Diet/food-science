@@ -12,19 +12,20 @@ tags:
 list_image: /img/icons/nutrients.svg
 mechanisms:
   Oxidative Stress: Provitamin A carotenoids (β-carotene) act as antioxidants in neural tissue; contribute to antioxidant network
+inchikey: FPIPGXGPPPQFEQ-OVSJKPMPSA-N
 ---
 
-## Overview
+## Recipes
 
-Vitamin A and provitamin A carotenoids support neurodevelopment and immune modulation. Carotenoids, particularly β-carotene, also act as antioxidants in neural tissue, contributing to the antioxidant network. As both an antioxidant and vitamin A precursor, β-carotene supports immune regulation and neuronal development. Carotenoid absorption is enhanced with dietary fat and proper preparation, with co-consuming a small amount of unsaturated fat improving micelle formation and chylomicron packaging, increasing carotenoid and fat-soluble vitamin absorption.
+<SubstanceRecipes tag="Vitamin A" />
+
+## Foods
+
+<SubstanceFoods tag="Vitamin A" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Vitamin A" />
-
-## Foods
-
-<TagList tag="Vitamin A" filter="foods" />
 
 ## References
 

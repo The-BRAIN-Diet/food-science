@@ -18,7 +18,7 @@ Lupins are legumes providing plant protein and fiber, part of diverse protein so
 
 ## Recipes
 
-<TagList tag="Lupins" filter="recipes" />
+<FoodRecipes tag="Lupins" />
 
 ## Substances
 

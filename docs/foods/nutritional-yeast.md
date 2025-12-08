@@ -19,7 +19,7 @@ Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotin
 
 ## Recipes
 
-<TagList tag="Nutritional Yeast" filter="recipes" />
+<FoodRecipes tag="Nutritional Yeast" />
 
 ## Substances
 

@@ -19,7 +19,7 @@ Lemon balm is an herbal tea that supports sleep and calm, often used in evening 
 
 ## Recipes
 
-<TagList tag="Lemon Balm" filter="recipes" />
+<FoodRecipes tag="Lemon Balm" />
 
 ## Substances
 

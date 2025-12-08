@@ -10,19 +10,20 @@ tags:
   - Essential Amino Acid
   - Histidine
 list_image: /img/icons/nutrients.svg
+inchikey: HNDVDQJCIGZPNO-YFKPBYRVSA-N
 ---
 
-## Overview
+## Recipes
 
-Histidine is an essential amino acid that participates in enzymatic catalysis and histamine synthesis. It is discussed contextually with neurotransmission and immune signaling, as histamine plays roles in both neurotransmitter function and immune responses. Histidine is required for various enzymatic processes and is a precursor to histamine, which has diverse roles in the brain and immune system.
+<SubstanceRecipes tag="Histidine" />
+
+## Foods
+
+<SubstanceFoods tag="Histidine" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Histidine" />
-
-## Foods
-
-<TagList tag="Histidine" filter="foods" />
 
 ## References
 

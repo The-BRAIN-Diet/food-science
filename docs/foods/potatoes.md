@@ -20,7 +20,7 @@ Potatoes provide complex carbohydrates, potassium, and when cooked and cooled, f
 
 ## Recipes
 
-<TagList tag="Potatoes" filter="recipes" />
+<FoodRecipes tag="Potatoes" />
 
 ## Substances
 

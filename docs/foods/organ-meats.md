@@ -20,7 +20,7 @@ Organ meats (offal) are among the most nutrient-dense foods, providing high leve
 
 ## Recipes
 
-<TagList tag="Organ Meats" filter="recipes" />
+<FoodRecipes tag="Organ Meats" />
 
 ## Substances
 

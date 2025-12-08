@@ -19,7 +19,7 @@ Peas provide plant protein, prebiotic fiber, and thiamine (B1), supporting gut h
 
 ## Recipes
 
-<TagList tag="Peas" filter="recipes" />
+<FoodRecipes tag="Peas" />
 
 ## Substances
 

@@ -20,7 +20,7 @@ Saffron provides crocin (antioxidant) and safranal (volatile compound) that supp
 
 ## Recipes
 
-<TagList tag="Saffron" filter="recipes" />
+<FoodRecipes tag="Saffron" />
 
 ## Substances
 

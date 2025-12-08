@@ -21,7 +21,7 @@ Parsley, when added during cooking, significantly reduces harmful Cholesterol Ox
 
 ## Recipes
 
-<TagList tag="Parsley" filter="recipes" />
+<FoodRecipes tag="Parsley" />
 
 ## Substances
 

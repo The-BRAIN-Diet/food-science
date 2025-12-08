@@ -61,17 +61,45 @@ export default function SubstanceMatrix({tag}: SubstanceMatrixProps): React.Reac
   }
 
   // Step 1: Get the substance document(s) tagged with the given substance tag
-  const substanceDocs = (allTags[tag] || []).filter((doc: Document) => doc.permalink.includes("/substances/"))
+  // First try to find by tag, but also search all substances if needed
+  const allDocs = Object.values(allTags).flat()
+  const allSubstances = allDocs.filter((doc: Document) => doc.permalink.includes("/substances/"))
+  
+  // Remove duplicates
+  const uniqueSubstances = Array.from(
+    new Map(allSubstances.map((doc: Document) => [doc.permalink, doc])).values()
+  )
 
-  if (substanceDocs.length === 0) {
+  // Find substance by tag - check both direct tag matches and normalized matches
+  const getSubstanceName = (title: string): string => {
+    return title.split("(")[0].trim()
+  }
+  
+  const substanceName = getSubstanceName(tag)
+  let substanceDoc: Document | undefined = undefined
+  
+  // First try to find in allTags[tag]
+  const taggedSubstances = (allTags[tag] || []).filter((doc: Document) => doc.permalink.includes("/substances/"))
+  if (taggedSubstances.length > 0) {
+    substanceDoc = taggedSubstances[0]
+  } else {
+    // If not found, search all substances by checking their tags
+    substanceDoc = uniqueSubstances.find((substance: Document) => {
+      const substanceTagLabels = substance.tags.map((t: Tag) => t.label)
+      return substanceTagLabels.some((substanceTag: string) => {
+        const normalizedSubstanceTag = getSubstanceName(substanceTag)
+        return substanceTag === tag || substanceTag === substanceName || normalizedSubstanceTag === substanceName
+      })
+    })
+  }
+
+  if (!substanceDoc) {
     return <div>No substance found with tag: {tag}</div>
   }
 
-  const substanceDoc = substanceDocs[0] // Use the first substance document
   const substanceTagLabels = substanceDoc.tags.map((t: Tag) => t.label)
 
   // Get all documents organized by type
-  const allDocs = Object.values(allTags).flat()
   const allBiologicalTargets = allDocs.filter((doc: Document) => doc.permalink.includes("/biological-targets/"))
   const allTherapeuticAreas = allDocs.filter((doc: Document) => doc.permalink.includes("/therapeutic-areas/"))
 

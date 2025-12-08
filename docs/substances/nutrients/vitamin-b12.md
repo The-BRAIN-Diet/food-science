@@ -16,19 +16,20 @@ mechanisms:
   Methylation: Essential cofactor in remethylation of homocysteine to methionine, which is converted to S-adenosylmethionine (SAMe); works with B6, B2, and folate; contributes meaningfully to homocysteine reduction, especially in combination with omega-3 fatty acids
   Neurochemical Balance: Supports neurotransmitter production through methylation; essential for myelin synthesis
   Mitochondrial Support: Crucial role in conversion of methylmalonyl-CoA to succinyl-CoA, a key step in mitochondrial energy production; deficiency leads to buildup of methylmalonic acid and odd-chain fatty acids, which are neurotoxic
+inchikey: ASARMUCNOOHMLO-WLORSUFZSA-L
 ---
 
-## Overview
+## Recipes
 
-Vitamin B12 (cobalamin) is a water-soluble vitamin that plays a crucial role in brain development, cognitive function, and the maintenance of the nervous system. It is essential for methylation, myelin integrity, and mitochondrial metabolism. B12 is a critical cofactor in the remethylation of homocysteine to methionine, which is converted to S-adenosylmethionine (SAMe). While folate is normally considered the primary nutrient for homocysteine reduction, long-chain omega-3 fatty acids and vitamin B12 also contribute meaningfully, and in combination more effectively—one study showed B12+fish oil lowered plasma homocysteine by 39%. A reanalysis of the VITACOG trial data demonstrated that B vitamin supplementation slowed cognitive decline only in participants with adequate omega-3 status. B12 is crucial for the conversion of methylmalonyl-CoA to succinyl-CoA, a key step in mitochondrial energy production. Deficiency can lead to buildup of methylmalonic acid and odd-chain fatty acids, which are neurotoxic and contribute to myelin sheath damage, linked to symptoms such as memory loss, brain fog, depression, and even early signs of dementia. B12 deficiency is commonly deficient in vegetarians and vegans, and SIBO impairs B12 absorption along with iron and tryptophan.
+<SubstanceRecipes tag="Vitamin B12" />
+
+## Foods
+
+<SubstanceFoods tag="Vitamin B12" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Vitamin B12" />
-
-## Foods
-
-<TagList tag="Vitamin B12" filter="foods" />
 
 ## References
 

@@ -17,7 +17,7 @@ Heart is an organ meat providing the highest CoQ10 content, supporting mitochond
 
 ## Recipes
 
-<TagList tag="Heart" filter="recipes" />
+<FoodRecipes tag="Heart" />
 
 ## Substances
 

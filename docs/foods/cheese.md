@@ -19,7 +19,7 @@ Cheese is fermented dairy providing calcium, complete protein, and in some varie
 
 ## Recipes
 
-<TagList tag="Cheese" filter="recipes" />
+<FoodRecipes tag="Cheese" />
 
 ## Substances
 

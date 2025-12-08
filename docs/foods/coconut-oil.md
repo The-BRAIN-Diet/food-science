@@ -6,9 +6,12 @@ description: MCTs for rapid brain energy and ketone production
 tags:
   - Food
   - Coconut Oil
+  - MCT
+  - Caprylic Triglyceride
+  - Capric Triglyceride
+  - Caproic Triglyceride
   - Vegan
   - Vegetarian
-  - MCT
 list_image: /img/icons/ingredients.svg
 ---
 
@@ -18,7 +21,7 @@ Coconut oil provides medium-chain triglycerides (MCTs) that provide rapid energy
 
 ## Recipes
 
-<TagList tag="Coconut Oil" filter="recipes" />
+<FoodRecipes tag="Coconut Oil" />
 
 ## Substances
 

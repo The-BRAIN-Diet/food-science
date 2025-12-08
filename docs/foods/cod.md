@@ -18,7 +18,7 @@ Cod is a lean fish providing omega-3s, taurine, creatine, and complete protein, 
 
 ## Recipes
 
-<TagList tag="Cod" filter="recipes" />
+<FoodRecipes tag="Cod" />
 
 ## Substances
 

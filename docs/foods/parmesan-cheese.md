@@ -19,7 +19,7 @@ Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 penta
 
 ## Recipes
 
-<TagList tag="Parmesan Cheese" filter="recipes" />
+<FoodRecipes tag="Parmesan Cheese" />
 
 ## Substances
 

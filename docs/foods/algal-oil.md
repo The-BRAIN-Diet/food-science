@@ -16,7 +16,7 @@ Algal oil provides direct DHA from microalgae, offering a vegan source of omega-
 
 ## Recipes
 
-<TagList tag="Algal Oil" filter="recipes" />
+<FoodRecipes tag="Algal Oil" />
 
 ## Substances
 

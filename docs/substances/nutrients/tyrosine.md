@@ -13,19 +13,20 @@ tags:
 list_image: /img/icons/nutrients.svg
 mechanisms:
   Neurochemical Balance: Catecholamine precursor (dopamine, norepinephrine); brain transport via LAT1 competes with other LNAAs; iron is an essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in conversion of tyrosine to dopamine; cofactors include iron, B6, folate, omega-3s, and BH₄ (tetrahydrobiopterin) to support rate-limiting steps in catecholamine synthesis
+inchikey: OUYCCCASQSFEME-QMMMGPOBSA-N
 ---
 
-## Overview
+## Recipes
 
-Tyrosine is a nonessential amino acid that serves as a catecholamine precursor for dopamine and norepinephrine. Brain transport via LAT1 competes with other large neutral amino acids (LNAAs) including tryptophan, phenylalanine, leucine, isoleucine, and valine. Iron is an essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine. Moderate carbohydrate intake reduces competition at the LAT1 transporter. Crucially, both dopamine and norepinephrine synthesis pathways rely on cofactors including iron, B6, folate, omega-3s, and BH₄ (tetrahydrobiopterin) to support the rate-limiting steps in catecholamine synthesis. These nutrients, along with omega-3 fatty acids, also support LAT1 transport, membrane fluidity, and neurotransmitter production. Compared to the high carbohydrate breakfast, the high protein breakfast raised the tyrosine:LNAA ratio by a median ~28% (range ~10–64%). Tyrosine may enhance working memory performance in healthy older adults, potentially through modulating functional connectivity in brain regions associated with cognitive control, though meta-analysis suggests quick tolerance after limited efficacy of only 2 weeks, suggesting that extra tyrosine will not fix a dopamine dysregulation problem alone. Enhancing dietary protein, prebiotics, and microbiome diversity promotes microbial metabolism and absorption of key amino acids, increasing tyrosine availability for central serotonin and dopamine synthesis.
+<SubstanceRecipes tag="Tyrosine" />
+
+## Foods
+
+<SubstanceFoods tag="Tyrosine" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Tyrosine" />
-
-## Foods
-
-<TagList tag="Tyrosine" filter="foods" />
 
 ## References
 

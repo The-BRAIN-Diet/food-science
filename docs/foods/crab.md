@@ -17,7 +17,7 @@ Crab provides high-quality protein and zinc, supporting neurotransmitter modulat
 
 ## Recipes
 
-<TagList tag="Crab" filter="recipes" />
+<FoodRecipes tag="Crab" />
 
 ## Substances
 

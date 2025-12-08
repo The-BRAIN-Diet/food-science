@@ -16,19 +16,20 @@ mechanisms:
   Neurochemical Balance: Thought to boost serotonin; supports mood regulation and cognitive function
   Inflammation: Anti-inflammatory effects
   Oxidative Stress: Contains antioxidant crocin; supports antioxidant defenses
+inchikey: SEBIKDIMAPSUBY-RTJKDTQDSA-N
 ---
 
-## Overview
+## Recipes
 
-Saffron extracts show promise for mood and cognition support, with studies demonstrating effects on depression, mood, cognition, and ADHD symptoms at doses around 30 mg/day of standardized extract. Saffron is thought to boost serotonin and contains antioxidant crocin. The delicate oils contained in saffron, such as safranal and other volatile monoterpenes, are highly sensitive to heat, light, and oxidation. For culinary use, saffron should be bloomed gently (approximately 50–70 °C) in a little warm water or fat and added near the end of cooking to preserve aroma and bioactive potency.
+<SubstanceRecipes tag="Saffron" />
+
+## Foods
+
+<SubstanceFoods tag="Saffron" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Saffron" />
-
-## Foods
-
-<TagList tag="Saffron" filter="foods" />
 
 ## References
 

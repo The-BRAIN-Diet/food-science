@@ -19,7 +19,7 @@ Chlorella is a microalgae providing bioavailable, true vitamin B12 (cobalamin) c
 
 ## Recipes
 
-<TagList tag="Chlorella" filter="recipes" />
+<FoodRecipes tag="Chlorella" />
 
 ## Substances
 

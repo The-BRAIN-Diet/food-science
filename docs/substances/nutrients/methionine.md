@@ -13,19 +13,20 @@ tags:
 list_image: /img/icons/nutrients.svg
 mechanisms:
   Methylation: Essential amino acid that forms S-adenosylmethionine (SAMe), the universal methyl donor for neurotransmitter synthesis and membrane phospholipid methylation
+inchikey: FFEARJCKVFRZRR-BYPYZUCNSA-N
 ---
 
-## Overview
+## Recipes
 
-Methionine is an essential amino acid that forms S-adenosylmethionine (SAMe) via the methylation cycle. SAMe is the body's universal methyl donor, essential for neurotransmitter synthesis (dopamine, norepinephrine, serotonin) and membrane phospholipid methylation in neuronal membranes. The remethylation of homocysteine to methionine, which is subsequently converted to SAMe, requires B vitamins (B6, B2, folate, B12) as essential cofactors.
+<SubstanceRecipes tag="Methionine" />
+
+## Foods
+
+<SubstanceFoods tag="Methionine" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Methionine" />
-
-## Foods
-
-<TagList tag="Methionine" filter="foods" />
 
 ## References
 

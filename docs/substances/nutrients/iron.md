@@ -14,19 +14,20 @@ list_image: /img/icons/nutrients.svg
 mechanisms:
   Neurochemical Balance: Essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine; critical for catecholamine synthesis
   Mitochondrial Support: Critical for oxygen delivery to the brain via hemoglobin; supports mitochondrial function and energy production
+inchikey: XEEYBQQBJWHFJM-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Iron is an essential mineral that plays a critical role in oxygen transport, energy production, and brain function. Iron is critical for oxygen delivery and catecholamine synthesis, with heme iron being more bioavailable than non-heme iron. Iron is an essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine. The paper highlights iron's complex relationship with ADHD, noting that while iron deficiency can contribute to symptoms, iron supplementation has not proven consistently effective in relieving ADHD symptoms. Lower serum ferritin levels are found in ADHD patients compared to controls, and iron catalyzes reactions that increase oxidative stress, which may contribute to ADHD symptoms. Ferritin, an intracellular protein that stores iron and regulates its release, limits free iron that can produce oxidative radicals; lower levels in ADHD patients imply reduced iron regulation, resulting in more free iron and potentially increased oxidative stress. Small intestinal bacterial overgrowth (SIBO) impairs absorption of iron along with vitamin B12 and tryptophan, depriving the brain of essential neurotransmitter precursors.
+<SubstanceRecipes tag="Iron" />
+
+## Foods
+
+<SubstanceFoods tag="Iron" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Iron" />
-
-## Foods
-
-<TagList tag="Iron" filter="foods" />
 
 ## References
 

@@ -17,7 +17,7 @@ Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotina
 
 ## Recipes
 
-<TagList tag="Whey Protein" filter="recipes" />
+<FoodRecipes tag="Whey Protein" />
 
 ## Substances
 

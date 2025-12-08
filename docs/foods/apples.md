@@ -20,7 +20,7 @@ Apples provide pectin (prebiotic fiber), quercetin (polyphenol), and demonstrate
 
 ## Recipes
 
-<TagList tag="Apples" filter="recipes" />
+<FoodRecipes tag="Apples" />
 
 ## Substances
 

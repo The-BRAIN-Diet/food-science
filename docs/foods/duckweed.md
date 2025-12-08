@@ -19,7 +19,7 @@ Duckweed (Wolffia globosa), also known as Mankai, is a functional plant food pro
 
 ## Recipes
 
-<TagList tag="Duckweed" filter="recipes" />
+<FoodRecipes tag="Duckweed" />
 
 ## Substances
 

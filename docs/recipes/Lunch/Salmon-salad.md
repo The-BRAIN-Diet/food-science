@@ -13,7 +13,6 @@ tags:
   - Olive Oil (Early Harvest)
   - Endocannabinoid System
   - Omega-3 Fatty Acids
-  - Brain Food
 list_image: /img/recipes/Salmon-pistachio-cacoa-nibs.jpg
 ---
 

@@ -18,7 +18,7 @@ Rosemary provides compounds that support focus, antioxidant defenses, and neurop
 
 ## Recipes
 
-<TagList tag="Rosemary" filter="recipes" />
+<FoodRecipes tag="Rosemary" />
 
 ## Substances
 

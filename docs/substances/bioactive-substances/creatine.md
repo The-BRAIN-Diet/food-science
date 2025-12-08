@@ -12,19 +12,20 @@ tags:
 list_image: /img/icons/bioactive.svg
 mechanisms:
   Mitochondrial Support: Supports ATP recycling via phosphocreatine system; buffers high-energy demand in neurons; enhances mitochondrial energy buffering
+inchikey: CVSVTCORWBXHQV-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Creatine buffers ATP via the phosphocreatine system, supporting high energy demand in neurons. It enhances working memory and cognitive processing speed, particularly under cognitive load. Creatine supplementation improves cognitive performance in sleep-deprived adults and shows additive neuroprotection when combined with CoQ10 in models of Parkinson's and Huntington's disease. While omnivore diets naturally supply creatine from beef, lamb, pork, salmon, tuna, cod, and scallops, vegan diets contain minimal amounts, making supplementation or fortified foods necessary for plant-based eaters.
+<SubstanceRecipes tag="Creatine" />
+
+## Foods
+
+<SubstanceFoods tag="Creatine" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Creatine" />
-
-## Foods
-
-<TagList tag="Creatine" filter="foods" />
 
 ## References
 

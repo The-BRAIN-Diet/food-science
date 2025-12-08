@@ -6,6 +6,10 @@ description: Concentrated medium-chain triglycerides for brain energy
 tags:
   - Food
   - MCT Oil
+  - MCT
+  - Caprylic Triglyceride
+  - Capric Triglyceride
+  - Caproic Triglyceride
   - Vegan
   - Vegetarian
 list_image: /img/icons/ingredients.svg
@@ -13,11 +17,11 @@ list_image: /img/icons/ingredients.svg
 
 ## Overview
 
-MCT oil is concentrated medium-chain triglycerides (C8, C10) providing rapid energy for the brain and supporting ketone production. Coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, and supports ketone production.
+MCT oil is concentrated medium-chain triglycerides (C6, C8, C10) providing rapid energy for the brain and supporting ketone production. It contains caprylic triglyceride (C8), capric triglyceride (C10), and caproic triglyceride (C6). Coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, and supports ketone production.
 
 ## Recipes
 
-<TagList tag="MCT Oil" filter="recipes" />
+<FoodRecipes tag="MCT Oil" />
 
 ## Substances
 

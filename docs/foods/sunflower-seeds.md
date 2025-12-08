@@ -34,7 +34,7 @@ Sunflower seeds provide thiamine (B1), vitamin E, and are the source of sunflowe
 
 ## Recipes
 
-<TagList tag="Sunflower Seeds" filter="recipes" />
+<FoodRecipes tag="Sunflower Seeds" />
 
 ## Substances
 

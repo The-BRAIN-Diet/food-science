@@ -18,7 +18,7 @@ Dairy products provide complete protein, calcium, B vitamins, and in fermented f
 
 ## Recipes
 
-<TagList tag="Dairy" filter="recipes" />
+<FoodRecipes tag="Dairy" />
 
 ## Substances
 

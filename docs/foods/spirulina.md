@@ -18,7 +18,7 @@ Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but 
 
 ## Recipes
 
-<TagList tag="Spirulina" filter="recipes" />
+<FoodRecipes tag="Spirulina" />
 
 ## Substances
 

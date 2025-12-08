@@ -21,7 +21,7 @@ Wheat, especially whole grain forms, provides B vitamins, fiber, minerals, and w
 
 ## Recipes
 
-<TagList tag="Wheat" filter="recipes" />
+<FoodRecipes tag="Wheat" />
 
 ## Substances
 

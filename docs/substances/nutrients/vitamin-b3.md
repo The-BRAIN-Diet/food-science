@@ -12,19 +12,20 @@ tags:
 list_image: /img/icons/nutrients.svg
 mechanisms:
   Mitochondrial Support: Replenishes NAD+, supporting oxidative phosphorylation, sirtuin signaling, and mitochondrial biogenesis; key for neuronal energy metabolism
+inchikey: PVNIIMVLHYAWGP-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Niacin (vitamin B3) replenishes NAD+ (nicotinamide adenine dinucleotide), supporting oxidative phosphorylation, sirtuin signaling, and mitochondrial biogenesis. It is key for neuronal energy metabolism, as NAD+ is essential for ATP production in mitochondria. High-dose niacin has been shown to restore blood and muscle NAD+ levels and improve performance in mitochondrial myopathy, highlighting its importance for mitochondrial function. Dietary sources include various foods that contribute to NAD+ precursor availability in the BRAIN Diet.
+<SubstanceRecipes tag="Vitamin B3" />
+
+## Foods
+
+<SubstanceFoods tag="Vitamin B3" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Vitamin B3" />
-
-## Foods
-
-<TagList tag="Vitamin B3" filter="foods" />
 
 ## References
 

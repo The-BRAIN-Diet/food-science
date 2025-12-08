@@ -19,19 +19,20 @@ mechanisms:
   Inflammation: Anti-inflammatory and anti-neuroinflammatory properties; reduces neuroinflammation
   Oxidative Stress: Prevents neuronal death; increases hippocampal glutathione (GSH) and superoxide dismutase (SOD); lowers lipid peroxidation, ROS, and nitric oxide production
   Neurochemical Balance: Enhances endocannabinoid activity; modulates dopamine, glutamate, and GABA signaling pathways
+inchikey: TZBJGXHYKVUXJN-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Genistein is a soy-derived isoflavonoid that has shown potential as a modulator of several biochemical pathways, including the endocannabinoid system and neuroinflammation. It inhibits fatty acid amide hydrolase (FAAH), the enzyme responsible for anandamide degradation, thereby preserving anandamide levels and enhancing endocannabinoid system tone. This action may amplify the ECS's ability to regulate dopamine, glutamate, and GABA signaling—key pathways in ADHD. Genistein has been confirmed to alleviate the deleterious effects of oxidative stress on neuronal injury, preventing neuronal death, increasing hippocampal glutathione and superoxide dismutase production, and lowering lipid peroxidation and reactive oxygen species. Since genistein is believed to pass the blood–brain barrier, it is extensively applied in the investigation of neurodegenerative diseases such as Alzheimer's and Huntington's.
+<SubstanceRecipes tag="Genistein" />
+
+## Foods
+
+<SubstanceFoods tag="Genistein" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Genistein" />
-
-## Foods
-
-<TagList tag="Genistein" filter="foods" />
 
 ## References
 

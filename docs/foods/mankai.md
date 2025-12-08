@@ -20,7 +20,7 @@ Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavail
 
 ## Recipes
 
-<TagList tag="Mankai" filter="recipes" />
+<FoodRecipes tag="Mankai" />
 
 ## Substances
 

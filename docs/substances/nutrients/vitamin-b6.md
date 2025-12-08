@@ -14,19 +14,20 @@ list_image: /img/icons/nutrients.svg
 mechanisms:
   Methylation: Essential cofactor in remethylation of homocysteine to methionine, which is converted to S-adenosylmethionine (SAMe); works with B2, folate, and B12
   Neurochemical Balance: Cofactor for synthesis of dopamine, serotonin, GABA, and glutamate; supports rate-limiting steps in catecholamine synthesis; requires PDXK activation with magnesium and ATP support
+inchikey: LXNHXLLTXMVWPM-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Vitamin B6 is converted to pyridoxal-5'-phosphate (PLP) in the brain, serving as a cofactor for synthesis of dopamine, serotonin, GABA, and glutamate. Only once pyridoxine (PIN), pyridoxal (PAL), or pyridoxamine (PAM) cross the blood–brain barrier in their non-phosphorylated forms can they be converted into PLP, the active coenzyme form. This means systemic supplementation with PLP does not bypass the brain's reliance on its own enzymatic machinery—pyridoxal kinase (PDXK) activity, which is supported by cofactors such as magnesium and ATP. B6 is essential for methylation processes, working with B2, folate, and B12 in remethylation of homocysteine to methionine. Combined B6 and magnesium supplementation has been reported to reduce inattention and hyperactivity in ADHD. Since plant-based diets provide less bioavailable B6, deficiencies are more common in vegan and older populations, with additional risk factors including celiac disease, alcoholism, and genetic mutations.
+<SubstanceRecipes tag="Vitamin B6" />
+
+## Foods
+
+<SubstanceFoods tag="Vitamin B6" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Vitamin B6" />
-
-## Foods
-
-<TagList tag="Vitamin B6" filter="foods" />
 
 ## References
 

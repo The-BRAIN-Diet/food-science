@@ -34,7 +34,7 @@ Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that c
 
 ## Recipes
 
-<TagList tag="Walnuts" filter="recipes" />
+<FoodRecipes tag="Walnuts" />
 
 ## Substances
 

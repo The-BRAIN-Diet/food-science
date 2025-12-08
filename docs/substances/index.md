@@ -16,49 +16,45 @@ This page organizes all substances referenced in the BRAIN Diet documentation ac
 
 #### Fat → Fatty Acids
 
-<TagList tag="Fatty Acid" />
+<TagList tag="Fatty Acid" filter="substances" />
 
 #### Phospholipids
 
-<TagList tag="Phospholipid" />
-
-#### Carbohydrate
-
-- Glucose, fiber (pages to be added)
+<TagList tag="Phospholipid" filter="substances" />
 
 ### Micronutrients
 
 #### Essential Amino Acids
 
-<TagList tag="Essential Amino Acid" />
+<TagList tag="Essential Amino Acid" filter="substances" />
 
 #### Vitamins
 
-<TagList tag="Vitamin" />
+<TagList tag="Vitamin" filter="substances" />
 
 #### Minerals
 
-<TagList tag="Mineral" />
+<TagList tag="Mineral" filter="substances" />
 
 ## Bioactive Substances (Non-Essential, Functional)
 
 ### Polyphenols
 
-<TagList tag="Polyphenol" />
+<TagList tag="Polyphenol" filter="substances" />
 
 ### Flavonoids
 
-<TagList tag="Flavonoid" />
+<TagList tag="Flavonoid" filter="substances" />
 
 ### Carotenoids
 
-<TagList tag="Carotenoid" />
+<TagList tag="Carotenoid" filter="substances" />
 
 ### Terpenes
 
 ### Lipid Bioactives
 
-<TagList tag="Lipid" />
+<TagList tag="Lipid" filter="substances" />
 
 ### Phytochemicals
 

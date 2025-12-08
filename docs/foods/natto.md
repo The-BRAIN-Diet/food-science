@@ -19,7 +19,7 @@ Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitam
 
 ## Recipes
 
-<TagList tag="Natto" filter="recipes" />
+<FoodRecipes tag="Natto" />
 
 ## Substances
 

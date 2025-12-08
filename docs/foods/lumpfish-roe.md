@@ -17,7 +17,7 @@ Lumpfish roe provides phospholipid-bound omega-3 fatty acids and astaxanthin, su
 
 ## Recipes
 
-<TagList tag="Lumpfish Roe" filter="recipes" />
+<FoodRecipes tag="Lumpfish Roe" />
 
 ## Substances
 

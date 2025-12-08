@@ -16,19 +16,20 @@ mechanisms:
   Hormonal Response: Modulates neurotrophic factors vital for survival and growth of neurons; supports calcium homeostasis and calcium handling
   Stress Response: Modulates immune responses to reduce inflammation in the brain; supports stress response through neurotrophic and immune effects
   Gut Microbiome: Supports gut barrier integrity; nutrient deficiencies including vitamin D disrupt tight junctions, increasing permeability
+inchikey: QYSXJUFSXHHAJI-YRZJJWOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Vitamin D is crucial for brain development and cognitive function. It regulates neurotrophic factors, which are vital for the survival and growth of neurons, and modulates immune responses to reduce inflammation in the brain. Vitamin D deficiency is highly prevalent, particularly important for those consuming vegetarian and vegan diets, where there is a low intake of animal-based vitamin D. Vitamin D supports gut barrier integrity, as nutrient deficiencies including vitamin D disrupt tight junctions in the epithelial layer, increasing permeability ("leaky gut"). Vitamin D, along with magnesium, taurine, phospholipids, and flavonoids, supports calcium modulation, insulin sensitivity, sympathetic arousal, and mitochondrial excitability. Supplementation with vitamin D has shown to significantly reduce behavioral problems and be effective. UV-exposed mushrooms can provide vitamin D2, and one study looked at modeling in dietary guidelines with a view to expediting the global acceptance of UV-exposed mushrooms as a source of vitamin D.
+<SubstanceRecipes tag="Vitamin D" />
+
+## Foods
+
+<SubstanceFoods tag="Vitamin D" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Vitamin D" />
-
-## Foods
-
-<TagList tag="Vitamin D" filter="foods" />
 
 ## References
 

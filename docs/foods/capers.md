@@ -21,7 +21,7 @@ Capers are among the highest sources of quercetin, a flavonoid polyphenol that s
 
 ## Recipes
 
-<TagList tag="Capers" filter="recipes" />
+<FoodRecipes tag="Capers" />
 
 ## Substances
 

@@ -14,19 +14,20 @@ list_image: /img/icons/nutrients.svg
 mechanisms:
   Hormonal Response: Supports calcium modulation along with vitamin D, magnesium, taurine, phospholipids, and flavonoids; supports insulin sensitivity, sympathetic arousal, and mitochondrial excitability
   Neurochemical Balance: Essential for nerve impulse transmission and neurotransmission
+inchikey: OYPRJOBELJOOCE-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Calcium is an essential mineral that plays a critical role in bone health, muscle function, and nerve transmission. It supports skeletal integrity and neurotransmission, with absorption and distribution depending on vitamin D and K2 status. Calcium, along with vitamin D, magnesium, taurine, phospholipids (phosphatidylserine), and flavonoids (quercetin), supports calcium modulation, insulin sensitivity, sympathetic arousal, and mitochondrial excitability. Phytates can bind essential minerals such as calcium, potentially impairing their absorption, though fermentation can reduce phytate content and improve mineral bioavailability. Fortified plant milks and dairy milk can help meet calcium targets when used judiciously.
+<SubstanceRecipes tag="Calcium" />
+
+## Foods
+
+<SubstanceFoods tag="Calcium" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Calcium" />
-
-## Foods
-
-<TagList tag="Calcium" filter="foods" />
 
 ## References
 

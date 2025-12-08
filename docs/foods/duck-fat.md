@@ -16,7 +16,7 @@ Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflam
 
 ## Recipes
 
-<TagList tag="Duck Fat" filter="recipes" />
+<FoodRecipes tag="Duck Fat" />
 
 ## Substances
 

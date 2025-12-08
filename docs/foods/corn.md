@@ -19,7 +19,7 @@ Corn provides carotenoids (lutein, zeaxanthin) and complex carbohydrates, suppor
 
 ## Recipes
 
-<TagList tag="Corn" filter="recipes" />
+<FoodRecipes tag="Corn" />
 
 ## Substances
 

@@ -18,19 +18,20 @@ mechanisms:
   Neurochemical Balance: Important for DNA synthesis, cell division, and neurotransmitter regulation, particularly in modulating dopamine—a key neurotransmitter implicated in ADHD; acts as an allosteric modulator of the GABA receptor; supports glutamate regulation
   Inflammation: Supports immune signaling; gut barrier integrity disrupted by nutrient deficiencies including zinc
   Oxidative Stress: Essential mineral that serves as a cofactor for antioxidant enzymes; works synergistically with other antioxidants; heavy metals are detoxified by metallothionein (MT) metal carrier proteins that must bind with zinc and copper
+inchikey: HCHKCACWOHOZIP-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Zinc is an essential trace mineral that plays a critical role in brain function, neurotransmitter regulation, and antioxidant defense. Zinc supports neurotransmitter pathways (especially dopaminergic modulation), antioxidant enzymes, and immune signaling, with insufficiency linked to cognitive and mood symptoms. Zinc is important for DNA synthesis, cell division, and neurotransmitter regulation, particularly in modulating dopamine—a key neurotransmitter implicated in ADHD. Zinc acts as an allosteric modulator of the GABA receptor and supports glutamate regulation. Higher doses are sometimes recommended (e.g., 15–30 mg), especially in those with absorption issues, with studies showing benefits from higher doses of 30 mg in increasing BDNF. Improved efficacy of spreading vitamins through the day (b.i.d. dosing) was found to be more effective for zinc glycinate. Research indicates that deficiencies in vitamins and minerals essential for methylation, such as folate, vitamin B12, and zinc, are correlated to ADHD symptoms. Epithelial layer (tight junctions) disrupted by nutrient deficiencies including zinc, increasing permeability ("leaky gut"). Zinc serves as a cofactor for antioxidant enzymes and works synergistically with other antioxidants. Heavy metals are detoxified by metallothionein (MT) metal carrier proteins that must bind with zinc and copper. Plant zinc is less bioavailable due to phytates; soaking/sprouting helps improve bioavailability.
+<SubstanceRecipes tag="Zinc" />
+
+## Foods
+
+<SubstanceFoods tag="Zinc" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Zinc" />
-
-## Foods
-
-<TagList tag="Zinc" filter="foods" />
 
 ## References
 

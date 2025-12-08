@@ -17,7 +17,7 @@ Herring is an oily fish providing high levels of EPA/DHA omega-3 fatty acids, su
 
 ## Recipes
 
-<TagList tag="Herring" filter="recipes" />
+<FoodRecipes tag="Herring" />
 
 ## Substances
 

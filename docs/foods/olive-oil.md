@@ -21,7 +21,7 @@ Olive oil provides monounsaturated fats and polyphenols. Extra virgin olive oil 
 
 ## Recipes
 
-<TagList tag="Olive Oil" filter="recipes" />
+<FoodRecipes tag="Olive Oil" />
 
 ## Substances
 

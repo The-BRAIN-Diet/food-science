@@ -22,7 +22,7 @@ Bell peppers provide very high vitamin C content, enhancing non-heme iron absorp
 
 ## Recipes
 
-<TagList tag="Bell Peppers" filter="recipes" />
+<FoodRecipes tag="Bell Peppers" />
 
 ## Substances
 

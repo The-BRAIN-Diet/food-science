@@ -19,7 +19,7 @@ Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine
 
 ## Recipes
 
-<TagList tag="Soy Lecithin" filter="recipes" />
+<FoodRecipes tag="Soy Lecithin" />
 
 ## Substances
 

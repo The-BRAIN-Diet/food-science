@@ -19,7 +19,7 @@ Masala chai (spiced tea) combines tea with bioactive brain-focused herbs and spi
 
 ## Recipes
 
-<TagList tag="Masala Chai" filter="recipes" />
+<FoodRecipes tag="Masala Chai" />
 
 ## Substances
 

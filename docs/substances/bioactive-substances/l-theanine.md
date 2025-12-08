@@ -15,19 +15,20 @@ mechanisms:
   Stress Response: Increases alpha waves and promotes calm without sedation; supports relaxation
   Hormonal Response: Contributes to HPA axis buffering and stress response modulation
   Neurochemical Balance: Supports GABAergic tone and neurotransmitter balance
+inchikey: DATAGRPVKZEWHA-YFKPBYRVSA-N
 ---
 
-## Overview
+## Recipes
 
-L-theanine is an amino acid found in green tea that promotes relaxed alertness and may aid sleep initiation when timed appropriately. It increases alpha brain waves, creating a calming effect without sedation, making it valuable for evening wind-down and sleep preparation. L-theanine synergizes with magnesium and tryptophan strategies for circadian alignment and supports GABAergic tone and neurotransmitter balance.
+<SubstanceRecipes tag="L-Theanine" />
+
+## Foods
+
+<SubstanceFoods tag="L-Theanine" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="L-Theanine" />
-
-## Foods
-
-<TagList tag="L-Theanine" filter="foods" />
 
 ## References
 

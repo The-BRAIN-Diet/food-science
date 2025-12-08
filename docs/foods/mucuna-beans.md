@@ -18,7 +18,7 @@ Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, 
 
 ## Recipes
 
-<TagList tag="Mucuna Beans" filter="recipes" />
+<FoodRecipes tag="Mucuna Beans" />
 
 ## Substances
 

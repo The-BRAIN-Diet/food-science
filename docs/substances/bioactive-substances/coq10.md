@@ -14,19 +14,20 @@ list_image: /img/icons/bioactive.svg
 mechanisms:
   Mitochondrial Support: Electron transport chain cofactor; supports ATP production; antioxidant protection for neurons
   Oxidative Stress: Part of antioxidant network; works synergistically with vitamin E, vitamin C, lipoic acid, and glutathione
+inchikey: ACTIUHUUMQJHFO-UPTCCGCDSA-N
 ---
 
-## Overview
+## Recipes
 
-Coenzyme Q10 (CoQ10) is an essential cofactor in the mitochondrial electron transport chain and acts as an antioxidant in membranes. Levels decline dramatically with age, with over 50% depletion between 20 and 60 years of life. CoQ10 deficiency leads to reduced ATP production and mitochondrial dysfunction, which may contribute to neurocognitive issues in ADHD. Organ meats are the highest dietary source (up to 12mg per 100g), while olive oil contains lower amounts (0.06-2mg per 100g) with great variation between producers and harvest times. CoQ10 works synergistically with creatine, showing additive neuroprotection in models of Parkinson's and Huntington's disease.
+<SubstanceRecipes tag="CoQ10" />
+
+## Foods
+
+<SubstanceFoods tag="CoQ10" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="CoQ10" />
-
-## Foods
-
-<TagList tag="CoQ10" filter="foods" />
 
 ## References
 

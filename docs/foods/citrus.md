@@ -18,7 +18,7 @@ Citrus fruits provide high vitamin C content that enhances non-heme iron absorpt
 
 ## Recipes
 
-<TagList tag="Citrus" filter="recipes" />
+<FoodRecipes tag="Citrus" />
 
 ## Substances
 

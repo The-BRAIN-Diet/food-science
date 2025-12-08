@@ -10,19 +10,20 @@ tags:
   - Essential Amino Acid
   - Lysine
 list_image: /img/icons/nutrients.svg
+inchikey: KDXKERNSBIXSRK-YFKPBYRVSA-N
 ---
 
-## Overview
+## Recipes
 
-Lysine is an essential amino acid that is often limiting in grains and cereals. Pairing grains with legumes improves essential amino acid completeness and supports neurotransmitter precursor balance. This complementary protein strategy is important for plant-based diets to ensure adequate intake of all essential amino acids needed for protein synthesis and neurotransmitter production.
+<SubstanceRecipes tag="Essential Amino Acid" />
+
+## Foods
+
+<SubstanceFoods tag="Lysine" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Lysine" />
-
-## Foods
-
-<TagList tag="Lysine" filter="foods" />
 
 ## References
 

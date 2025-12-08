@@ -20,7 +20,7 @@ Tart cherry (and tart cherry juice) provides natural melatonin and polyphenols t
 
 ## Recipes
 
-<TagList tag="Tart Cherry" filter="recipes" />
+<FoodRecipes tag="Tart Cherry" />
 
 ## Substances
 

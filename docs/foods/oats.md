@@ -35,7 +35,7 @@ Oats provide beta-glucan fiber (prebiotic), tryptophan, B vitamins, and complex 
 
 ## Recipes
 
-<TagList tag="Oats" filter="recipes" />
+<FoodRecipes tag="Oats" />
 
 ## Substances
 

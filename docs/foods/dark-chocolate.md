@@ -21,7 +21,7 @@ Dark chocolate (70%+ cocoa) provides flavanols and polyphenols that support cogn
 
 ## Recipes
 
-<TagList tag="Dark Chocolate" filter="recipes" />
+<FoodRecipes tag="Dark Chocolate" />
 
 ## Substances
 

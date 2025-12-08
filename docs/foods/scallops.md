@@ -19,7 +19,7 @@ Scallops provide high levels of taurine and creatine, plus complete high-quality
 
 ## Recipes
 
-<TagList tag="Scallops" filter="recipes" />
+<FoodRecipes tag="Scallops" />
 
 ## Substances
 

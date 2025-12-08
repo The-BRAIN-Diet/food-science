@@ -10,19 +10,20 @@ tags:
   - Essential Amino Acid
   - Isoleucine
 list_image: /img/icons/nutrients.svg
+inchikey: AGPKZVBTJJNPAG-WHFBIAKZSA-N
 ---
 
-## Overview
+## Recipes
 
-Isoleucine is an essential branched-chain amino acid (BCAA) that supports protein balance and energy metabolism. It complements leucine and valine, and is included among essential amino acids influencing LAT1 (large neutral amino acid transporter) competition dynamics at the blood-brain barrier. Moderate carbohydrate intake reduces competition at the LAT1 transporter, allowing better transport of neurotransmitter precursors.
+<SubstanceRecipes tag="Isoleucine" />
+
+## Foods
+
+<SubstanceFoods tag="Isoleucine" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Isoleucine" />
-
-## Foods
-
-<TagList tag="Isoleucine" filter="foods" />
 
 ## References
 

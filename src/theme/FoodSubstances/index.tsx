@@ -2,6 +2,7 @@ import React from "react"
 import {usePluginData} from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
 import styles from "../TagList/styles.module.css"
+import InChIImage from "../InChIImage"
 
 /**
  * Tag structure from Docusaurus
@@ -36,11 +37,19 @@ interface FoodSubstancesProps {
 }
 
 function DocItemImage({doc}: {doc: Document}) {
+  const isSubstance = doc.permalink.includes("/substances/")
+  const inchikey = doc.frontMatter.inchikey as string | undefined
+  const listImage = doc.frontMatter.list_image as string | undefined
+
   return (
     <article key={doc.title} className="margin-vert--lg">
       <div className={styles.columns}>
         <div className={styles.left}>
-          <img src={doc.frontMatter.list_image as string} className={styles.articleImage} />
+          {isSubstance && inchikey ? (
+            <InChIImage inchikey={inchikey} fallback={listImage} className={styles.articleImage} />
+          ) : (
+            <img src={listImage || "/img/icons/ingredients.svg"} className={styles.articleImage} />
+          )}
         </div>
         <div className={styles.right}>
           <Link to={doc.permalink}>
@@ -90,20 +99,59 @@ export default function FoodSubstances({details}: FoodSubstancesProps): React.Re
   // Remove duplicates
   const uniqueSubstances = Array.from(new Map(allSubstances.map((doc: Document) => [doc.permalink, doc])).values())
 
-  // Extract substance names from their titles
-  // Substance titles might be like "Curcumin (Turmeric)" or "Berberine"
-  // We'll normalize by taking the first part before any parentheses
+  // Extract substance names from their titles (normalize by removing parenthetical info)
   const getSubstanceName = (title: string): string => {
     // Remove parenthetical info like "(Turmeric)" from "Curcumin (Turmeric)"
-    const normalized = title.split("(")[0].trim()
-    return normalized
+    return title.split("(")[0].trim()
   }
 
-  // Create a map of substance names to substance documents
+  // Create a map of substance names/aliases to substance documents
+  // Map by normalized title, sidebar_label, and substance tag labels
   const substanceNameMap = new Map<string, Document>()
   uniqueSubstances.forEach((substance: Document) => {
+    // Map by normalized title
     const substanceName = getSubstanceName(substance.title)
     substanceNameMap.set(substanceName, substance)
+    
+    // Also map by sidebar_label if it exists and is different
+    const sidebarLabel = substance.frontMatter.sidebar_label as string | undefined
+    if (sidebarLabel) {
+      const sidebarName = getSubstanceName(sidebarLabel)
+      if (sidebarName !== substanceName) {
+        substanceNameMap.set(sidebarName, substance)
+      }
+      // Also add the full sidebar_label as a key
+      substanceNameMap.set(sidebarLabel, substance)
+    }
+    
+    // Map by all substance tag labels (e.g., "CoQ10" tag matches "Coenzyme Q10 (CoQ10)")
+    substance.tags.forEach((tag: Tag) => {
+      const tagLabel = tag.label
+      // Only map substance-related tags, skip category tags like "Substance", "Nutrient", etc.
+      // Category tags are broad classifications that multiple substances can share, so they shouldn't be used as keys
+      const categoryTags = [
+        "Substance",
+        "Nutrient",
+        "Bioactive",
+        "Metabolite",
+        "Vitamin",
+        "Mineral",
+        "Fatty Acid",
+        "Amino Acid",
+        "Polyphenol",
+        "Carotenoid",
+        "Flavonoid",
+        "Terpene",
+        "Omega-3 Fatty Acids",
+        "Omega-6 Fatty Acids",
+        "SCFAs",
+        "Antioxidant",
+        "Lipid",
+      ]
+      if (!categoryTags.includes(tagLabel)) {
+        substanceNameMap.set(tagLabel, substance)
+      }
+    })
   })
 
   // Find substances where the food has a tag that exactly matches a substance name
@@ -129,9 +177,36 @@ export default function FoodSubstances({details}: FoodSubstancesProps): React.Re
 
   return (
     <div className="bok-tag-list">
-      {relatedSubstances.map((substance: Document) => (
-        <DocItemImage key={substance.permalink} doc={substance} />
-      ))}
+      <details>
+        <summary
+          style={{
+            cursor: "pointer",
+            fontWeight: "normal",
+            padding: "0.5rem 0",
+            userSelect: "none",
+            listStyle: "none",
+            color: "var(--ifm-color-primary)",
+            transition: "color 0.2s, text-decoration 0.2s",
+            textDecoration: "none",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.color = "var(--ifm-color-primary-dark)"
+            e.currentTarget.style.textDecoration = "underline"
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.color = "var(--ifm-color-primary)"
+            e.currentTarget.style.textDecoration = "none"
+          }}
+        >
+          {relatedSubstances.length} substance{relatedSubstances.length !== 1 ? "s" : ""} in this
+          food
+        </summary>
+        <div style={{ marginTop: "1rem" }}>
+          {relatedSubstances.map((substance: Document) => (
+            <DocItemImage key={substance.permalink} doc={substance} />
+          ))}
+        </div>
+      </details>
     </div>
   )
 }

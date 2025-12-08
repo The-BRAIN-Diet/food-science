@@ -18,7 +18,7 @@ Kombucha is fermented tea providing live probiotics, postbiotic compounds, and o
 
 ## Recipes
 
-<TagList tag="Kombucha" filter="recipes" />
+<FoodRecipes tag="Kombucha" />
 
 ## Substances
 

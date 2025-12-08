@@ -20,7 +20,7 @@ Wheat germ provides choline, B vitamins, and vitamin E, supporting acetylcholine
 
 ## Recipes
 
-<TagList tag="Wheat Germ" filter="recipes" />
+<FoodRecipes tag="Wheat Germ" />
 
 ## Substances
 

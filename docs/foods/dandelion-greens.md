@@ -19,7 +19,7 @@ Dandelion greens are bitter leafy greens providing prebiotic fiber and supportin
 
 ## Recipes
 
-<TagList tag="Dandelion Greens" filter="recipes" />
+<FoodRecipes tag="Dandelion Greens" />
 
 ## Substances
 

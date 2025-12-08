@@ -18,19 +18,20 @@ mechanisms:
   Hormonal Response: Exhibits adaptogenic properties by buffering the brain against chronic stress and regulating the HPA axis, including reductions in cortisol
   Stress Response: Buffers HPA axis dysregulation; reduces cortisol; supports stress resilience
   Neurochemical Balance: Modulates calcium handling; influences GABAergic tone; supports neurotransmitter balance
+inchikey: XOAAWQZATWQOTB-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Taurine is a sulfur-containing, semi-essential amino acid that occurs naturally in the body and plays a protective role in modulating inflammation and oxidative stress. It modulates calcium handling, supports mitochondrial membranes, and influences GABAergic tone and inflammation, with emerging relevance to stress buffering and cognition. Taurine protects mitochondrial function under oxidative stress and modulates neuroinflammation. It exhibits adaptogenic properties by buffering the brain against chronic stress and regulating the hypothalamic–pituitary–adrenal (HPA) axis, including reductions in cortisol. In animal models of ADHD, taurine supplementation has been linked to improvements in attention and hyperactivity, though equivalent human data are lacking. While humans can synthesize small amounts of taurine endogenously from the precursor cysteine, this capacity is limited, making dietary intake from meats, shellfish, and cysteine-rich foods (e.g., poultry, eggs, legumes) an important source.
+<SubstanceRecipes tag="Taurine" />
+
+## Foods
+
+<SubstanceFoods tag="Taurine" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Taurine" />
-
-## Foods
-
-<TagList tag="Taurine" filter="foods" />
 
 ## References
 

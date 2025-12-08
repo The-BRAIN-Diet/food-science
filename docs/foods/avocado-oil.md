@@ -20,7 +20,7 @@ Avocado oil provides monounsaturated fats (MUFA), vitamin E, and lutein, suitabl
 
 ## Recipes
 
-<TagList tag="Avocado Oil" filter="recipes" />
+<FoodRecipes tag="Avocado Oil" />
 
 ## Substances
 

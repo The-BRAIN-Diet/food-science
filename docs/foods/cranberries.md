@@ -20,7 +20,7 @@ Cranberries provide polyphenols, resveratrol, and support gut microbiome diversi
 
 ## Recipes
 
-<TagList tag="Cranberries" filter="recipes" />
+<FoodRecipes tag="Cranberries" />
 
 ## Substances
 

@@ -17,7 +17,7 @@ Black pepper contains piperine, which dramatically enhances the bioavailability 
 
 ## Recipes
 
-<TagList tag="Black Pepper" filter="recipes" />
+<FoodRecipes tag="Black Pepper" />
 
 ## Substances
 

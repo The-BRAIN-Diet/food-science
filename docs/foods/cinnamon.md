@@ -14,11 +14,11 @@ list_image: /img/icons/ingredients.svg
 
 ## Overview
 
-Cinnamon provides compounds that support glycemic control, insulin sensitivity, and cognitive function, relevant for ADHD metabolic dysregulation. Cinnamon supports glycemic control, insulin sensitivity, and cognition at 1–3 g/day cassia or Ceylon cinnamon powder.
+Cinnamon is a spice containing bioactive polyphenols and compounds (including cinnamaldehyde and eugenol) that support glycemic control, insulin sensitivity, and cognitive function, relevant for ADHD metabolic dysregulation. Cinnamon supports glycemic control, insulin sensitivity, and cognition at 1–3 g/day cassia or Ceylon cinnamon powder.
 
 ## Recipes
 
-<TagList tag="Cinnamon" filter="recipes" />
+<FoodRecipes tag="Cinnamon" />
 
 ## Substances
 

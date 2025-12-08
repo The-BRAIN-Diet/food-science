@@ -26,7 +26,7 @@ Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, a
 
 ## Recipes
 
-<TagList tag="Swiss Chard" filter="recipes" />
+<FoodRecipes tag="Swiss Chard" />
 
 ## Substances
 
