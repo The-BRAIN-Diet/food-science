@@ -19,7 +19,7 @@ Green (unripe) bananas provide resistant starch, a prebiotic fiber that supports
 
 ## Recipes
 
-<TagList tag="Green Bananas" filter="recipes" />
+<FoodRecipes tag="Green Bananas" />
 
 ## Substances
 

@@ -18,7 +18,7 @@ Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovas
 
 ## Recipes
 
-<TagList tag="Olives" filter="recipes" />
+<FoodRecipes tag="Olives" />
 
 ## Substances
 

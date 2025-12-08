@@ -17,7 +17,7 @@ Shrimp provides complete protein, selenium, and other minerals, supporting neuro
 
 ## Recipes
 
-<TagList tag="Shrimp" filter="recipes" />
+<FoodRecipes tag="Shrimp" />
 
 ## Substances
 

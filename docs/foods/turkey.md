@@ -22,7 +22,7 @@ Turkey provides high-quality protein rich in tryptophan (serotonin precursor) an
 
 ## Recipes
 
-<TagList tag="Turkey" filter="recipes" />
+<FoodRecipes tag="Turkey" />
 
 ## Substances
 

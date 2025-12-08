@@ -19,7 +19,7 @@ Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering 
 
 ## Recipes
 
-<TagList tag="Sunflower Lecithin" filter="recipes" />
+<FoodRecipes tag="Sunflower Lecithin" />
 
 ## Substances
 

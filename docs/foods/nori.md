@@ -19,7 +19,7 @@ Nori is a seaweed providing trace amounts of creatine, iodine, and other mineral
 
 ## Recipes
 
-<TagList tag="Nori" filter="recipes" />
+<FoodRecipes tag="Nori" />
 
 ## Substances
 

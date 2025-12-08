@@ -10,7 +10,8 @@ alwaysApply: false
 - Tag with "Bioactive", "Metabolite", "Nutrient" and any other substance classifications such as "Mineral", "Vitamin", "Fatty Acid" etc.
 - Tag each page with the name of the biological targets (e.g. Hormonal Response) so we can refer to it from a biological target page.
 - Tag with the tags for any foods that contain this substance.
-- In the front matter, list_image: one of /img/icons/substance.svg /img/icons/nutrient.svg /img/icons/metabolite.svg /img/icons/bioactive.svg
+- In the front matter, list_image: one of /img/icons/substance.svg /img/icons/nutrient.svg /img/icons/metabolite.svg /img/icons/bioactive.svg (this is used as a fallback if InChIKey is not available)
+- In the front matter, inchikey: (optional) The InChIKey for the substance. If provided, the chemical structure image will be fetched from PubChem API. Example: inchikey: MDJHJOXOBXJZLA-UHFFFAOYSA-N
 
 - Have a section of front-matter called mechanisms, which explains how the substance interacts with the Biological Targets. Use paper.txt for research. Example:
 
@@ -22,9 +23,9 @@ mechanisms:
 The Format of the page should have this structure:
 
 - Overview: A single paragraph description describing the substance, what it is, where it comes from. Keep it brief.
-- Recipes: should be <TagList tag="the substance" filter="recipes" />
+- Recipes: should be <SubstanceRecipes tag="the substance" /> (this component follows the causality chain: Substance -> Foods -> Recipes, and displays recipes in a collapsible section)
+- Foods: should be <SubstanceFoods tag="the substance" /> (this component displays foods containing the substance in a collapsible section)
 - Biological Mechanisms and Implications: should be: <SubstanceMatrix tag="the substance" />
-- Foods: should be <TagList tag="the substance" filter="foods" />
 - References: A list of findings or scientific principles, with their link to the `/docs/papers/BRAIN-Diet-References#<ref>` that discusses it, from paper.txt in the root directory. Make sure all assertions are backed up by evidence from the paper.txt file . Use references if the paper mentions them.
 
 An example for the references section might look like this:

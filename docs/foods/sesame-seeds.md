@@ -18,7 +18,7 @@ Sesame seeds provide calcium, healthy fats, and are the source of tahini, suppor
 
 ## Recipes
 
-<TagList tag="Sesame Seeds" filter="recipes" />
+<FoodRecipes tag="Sesame Seeds" />
 
 ## Substances
 

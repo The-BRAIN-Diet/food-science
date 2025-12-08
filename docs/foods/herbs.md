@@ -18,7 +18,7 @@ Herbs provide polyphenols, volatile compounds, and other bioactives that support
 
 ## Recipes
 
-<TagList tag="Herbs" filter="recipes" />
+<FoodRecipes tag="Herbs" />
 
 ## Substances
 

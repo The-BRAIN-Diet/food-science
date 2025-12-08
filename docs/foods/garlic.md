@@ -19,7 +19,7 @@ Garlic provides allicin (when crushed), sulfur compounds for glutathione synthes
 
 ## Recipes
 
-<TagList tag="Garlic" filter="recipes" />
+<FoodRecipes tag="Garlic" />
 
 ## Substances
 

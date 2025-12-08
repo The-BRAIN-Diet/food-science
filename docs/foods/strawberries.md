@@ -21,7 +21,7 @@ Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant n
 
 ## Recipes
 
-<TagList tag="Strawberries" filter="recipes" />
+<FoodRecipes tag="Strawberries" />
 
 ## Substances
 

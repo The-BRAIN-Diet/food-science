@@ -18,7 +18,7 @@ Peppermint provides compounds that support mental clarity and alertness, useful 
 
 ## Recipes
 
-<TagList tag="Peppermint" filter="recipes" />
+<FoodRecipes tag="Peppermint" />
 
 ## Substances
 

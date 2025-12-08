@@ -13,6 +13,7 @@ tags:
   - Vitamin K
   - CoQ10
   - Hydroxytyrosol
+  - Oleuropein
   - Polyphenol
 list_image: /img/icons/ingredients.svg
 ---
@@ -23,7 +24,7 @@ Early harvest extra virgin olive oil is a precision food in the BRAIN Diet, harv
 
 ## Recipes
 
-<TagList tag="Olive Oil (Early Harvest)" filter="recipes" />
+<FoodRecipes tag="Olive Oil (Early Harvest)" />
 
 ## Substances
 

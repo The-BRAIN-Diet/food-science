@@ -18,7 +18,7 @@ Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO 
 
 ## Recipes
 
-<TagList tag="Oregano" filter="recipes" />
+<FoodRecipes tag="Oregano" />
 
 ## Substances
 

@@ -316,6 +316,11 @@ Phosphatidylserine:
   permalink: /docs/tags/phosphatidylserine
   description: Brain phospholipid
 
+Phosphorus:
+  label: Phosphorus
+  permalink: /docs/tags/phosphorus
+  description: Essential mineral for bone health and energy metabolism
+
 Phospholipid:
   label: Phospholipid
   permalink: /docs/tags/phospholipid
@@ -380,6 +385,11 @@ Threonine:
   label: Threonine
   permalink: /docs/tags/threonine
   description: Essential amino acid
+
+Thiamine:
+  label: Thiamine
+  permalink: /docs/tags/thiamine
+  description: Vitamin B1; essential for mitochondrial glucose metabolism
 
 Tryptophan:
   label: Tryptophan
@@ -470,6 +480,11 @@ Vitamin E:
   label: Vitamin E
   permalink: /docs/tags/vitamin-e
   description: Essential vitamin
+
+Vitamin K:
+  label: Vitamin K
+  permalink: /docs/tags/vitamin-k
+  description: Essential fat-soluble vitamin for blood clotting and bone health
 
 Vitamin K2:
   label: Vitamin K2
@@ -992,6 +1007,11 @@ Olives:
   permalink: /docs/tags/olives
   description: Fruit rich in monounsaturated fats
 
+Oleuropein:
+  label: Oleuropein
+  permalink: /docs/tags/oleuropein
+  description: Major polyphenol in olive oil; supports mitochondrial function and neuroprotective effects
+
 Onions:
   label: Onions
   permalink: /docs/tags/onions
@@ -1339,11 +1359,6 @@ high protein:
   label: High Protein
   permalink: /docs/tags/high-protein
   description: High protein recipes
-
-brain-food:
-  label: Brain Food
-  permalink: /docs/tags/brain-food
-  description: Recipes or documents explicitly focused on brain health
 
 fermented:
   label: Fermented

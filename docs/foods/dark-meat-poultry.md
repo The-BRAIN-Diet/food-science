@@ -17,7 +17,7 @@ Dark-meat poultry (thighs, legs) provides higher taurine content than white meat
 
 ## Recipes
 
-<TagList tag="Dark-Meat Poultry" filter="recipes" />
+<FoodRecipes tag="Dark-Meat Poultry" />
 
 ## Substances
 

@@ -21,7 +21,7 @@ Raspberries provide polyphenols, fiber, and vitamin C, supporting antioxidant ne
 
 ## Recipes
 
-<TagList tag="Raspberries" filter="recipes" />
+<FoodRecipes tag="Raspberries" />
 
 ## Substances
 

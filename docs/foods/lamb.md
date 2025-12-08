@@ -20,7 +20,7 @@ Lamb provides creatine, heme iron, and complete high-quality protein, supporting
 
 ## Recipes
 
-<TagList tag="Lamb" filter="recipes" />
+<FoodRecipes tag="Lamb" />
 
 ## Substances
 

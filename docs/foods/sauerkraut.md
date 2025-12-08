@@ -19,7 +19,7 @@ Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbio
 
 ## Recipes
 
-<TagList tag="Sauerkraut" filter="recipes" />
+<FoodRecipes tag="Sauerkraut" />
 
 ## Substances
 

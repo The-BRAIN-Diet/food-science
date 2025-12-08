@@ -15,19 +15,20 @@ list_image: /img/icons/bioactive.svg
 mechanisms:
   Inflammation: Anti-inflammatory properties; supports immune regulation
   Oxidative Stress: Antioxidant properties; scavenges reactive oxygen species and stabilizes cell membranes
+inchikey: OAIJSZIZWZSQBC-GYZMGTAESA-N
 ---
 
-## Overview
+## Recipes
 
-Lycopene is a carotenoid found primarily in tomatoes. Like other carotenoids, it plays a neuroprotective role through its antioxidant and anti-inflammatory properties. Lycopene is a fat-soluble pigment that accumulates selectively in neural tissues, where it helps scavenge reactive oxygen species and stabilize cell membranes. The bioaccessibility of lycopene in tomatoes is very low—less than 1% in both canned and fresh tomatoes. Prolonged cooking increases access to lycopene by breaking down cell walls, and co-consuming a small amount of unsaturated fat improves micelle formation and chylomicron packaging, increasing absorption.
+<SubstanceRecipes tag="Lycopene" />
+
+## Foods
+
+<SubstanceFoods tag="Lycopene" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Lycopene" />
-
-## Foods
-
-<TagList tag="Lycopene" filter="foods" />
 
 ## References
 

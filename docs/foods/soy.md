@@ -25,7 +25,7 @@ Soy provides complete plant protein (DIAAS 92-96), isoflavones (genistein), and 
 
 ## Recipes
 
-<TagList tag="Soy" filter="recipes" />
+<FoodRecipes tag="Soy" />
 
 ## Substances
 

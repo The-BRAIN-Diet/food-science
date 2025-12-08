@@ -19,7 +19,7 @@ Miso is a fermented soybean paste providing live probiotics, postbiotic compound
 
 ## Recipes
 
-<TagList tag="Miso" filter="recipes" />
+<FoodRecipes tag="Miso" />
 
 ## Substances
 

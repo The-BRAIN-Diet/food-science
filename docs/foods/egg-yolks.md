@@ -24,7 +24,7 @@ Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (caroteno
 
 ## Recipes
 
-<TagList tag="Egg Yolks" filter="recipes" />
+<FoodRecipes tag="Egg Yolks" />
 
 ## Substances
 

@@ -14,19 +14,20 @@ list_image: /img/icons/bioactive.svg
 mechanisms:
   Inflammation: Strong anti-inflammatory profile; contributes to neuroprotective effects of extra-virgin olive oil
   Oxidative Stress: Potent antioxidant polyphenol; supports antioxidant defenses
+inchikey: JUUBCHWRXWPFFH-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Hydroxytyrosol is a potent antioxidant polyphenol found in extra-virgin olive oil, particularly in early harvest oils with higher polyphenol levels. It contributes to the strong antioxidant and anti-inflammatory profile of extra-virgin olive oil, supporting neuroprotective effects. Early harvest extra-virgin olive oil contains higher levels of hydroxytyrosol, oleuropein, and other polyphenols, making it a valuable component of the BRAIN Diet's precision dietary strategies.
+<SubstanceRecipes tag="Hydroxytyrosol" />
+
+## Foods
+
+<SubstanceFoods tag="Hydroxytyrosol" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Hydroxytyrosol" />
-
-## Foods
-
-<TagList tag="Hydroxytyrosol" filter="foods" />
 
 ## References
 

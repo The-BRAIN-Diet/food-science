@@ -20,19 +20,20 @@ mechanisms:
   Hormonal Response: Supports norepinephrine synthesis as cofactor
   Stress Response: Supports stress response through antioxidant and neurochemical effects
   Neurochemical Balance: Supports norepinephrine synthesis; transported in brain via SVCT2
+inchikey: CIWBSHSKHKDKBQ-JLAZNSOCSA-N
 ---
 
-## Overview
+## Recipes
 
-Vitamin C is a key water-soluble antioxidant that supports non-heme iron absorption and protects neuronal membranes. It is transported in the brain via SVCT2 (sodium-dependent vitamin C transporter 2), maintaining brain ascorbate levels. Vitamin C works synergistically within the antioxidant network alongside vitamin E, CoQ10, lipoic acid, and glutathione. As a cofactor for norepinephrine synthesis, vitamin C supports attention, arousal, and executive modulation. Spacing polyphenol-rich beverages (tea/coffee) from iron-rich plant meals or adding vitamin C sources improves iron uptake, with practical pairings including citrus, bell peppers, and other vitamin C-rich foods with iron sources.
+<SubstanceRecipes tag="Vitamin C" />
+
+## Foods
+
+<SubstanceFoods tag="Vitamin C" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Vitamin C" />
-
-## Foods
-
-<TagList tag="Vitamin C" filter="foods" />
 
 ## References
 

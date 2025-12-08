@@ -35,7 +35,7 @@ Beef provides high levels of creatine, CoQ10, heme iron (2-3× more bioavailable
 
 ## Recipes
 
-<TagList tag="Beef" filter="recipes" />
+<FoodRecipes tag="Beef" />
 
 ## Substances
 

@@ -18,7 +18,7 @@ Rice provides complex carbohydrates and, when cooked and cooled, forms resistant
 
 ## Recipes
 
-<TagList tag="Rice" filter="recipes" />
+<FoodRecipes tag="Rice" />
 
 ## Substances
 

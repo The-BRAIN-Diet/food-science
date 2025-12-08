@@ -20,7 +20,7 @@ Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NA
 
 ## Recipes
 
-<TagList tag="Edamame" filter="recipes" />
+<FoodRecipes tag="Edamame" />
 
 ## Substances
 

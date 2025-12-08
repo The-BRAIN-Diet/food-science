@@ -32,7 +32,7 @@ Chicken provides complete high-quality protein, niacin (B3) for NAD+ synthesis, 
 
 ## Recipes
 
-<TagList tag="Chicken" filter="recipes" />
+<FoodRecipes tag="Chicken" />
 
 ## Substances
 

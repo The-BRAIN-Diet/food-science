@@ -18,7 +18,7 @@ Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects
 
 ## Recipes
 
-<TagList tag="Ginger" filter="recipes" />
+<FoodRecipes tag="Ginger" />
 
 ## Substances
 

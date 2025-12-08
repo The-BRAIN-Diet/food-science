@@ -17,19 +17,20 @@ mechanisms:
   Mitochondrial Support: Supports mitochondrial resilience and mitophagy; improves cognitive endurance; may extend to executive function
   Inflammation: Powerful antioxidant; supports anti-inflammatory effects
   Oxidative Stress: Powerful antioxidant; supports antioxidant defenses
+inchikey: RIUPLDUFZCXCHM-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Urolithin A is a gut microbiome-derived metabolite produced from ellagitannins found in walnuts, pomegranates, and berries. It is a powerful antioxidant that supports mitochondrial resilience, mitophagy, and cognitive function. Production varies significantly by individual gut microbiome composition, particularly the Firmicutes-to-Bacteroidetes ratio, with higher polyphenol intake and microbial diversity increasing urolithin A production. Higher polyphenol intake and microbial diversity increase urolithin A and related metabolites, supporting mitochondrial resilience and mitophagy and in turn improving cognitive endurance, with hypotheses that these effects may extend to executive function. The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with microbiome-derived markers including urolithin A, reinforcing the synergistic role of polyphenols, fibre, and gut-derived antioxidants in improving metabolic and cognitive resilience. Direct supplementation with urolithin A overcomes limitations of dietary exposure and gut microbiome variability to achieve consistent levels across the population.
+<SubstanceRecipes tag="Urolithin A" />
+
+## Foods
+
+<SubstanceFoods tag="Urolithin A" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Urolithin A" />
-
-## Foods
-
-<TagList tag="Urolithin A" filter="foods" />
 
 ## References
 

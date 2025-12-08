@@ -18,7 +18,7 @@ Coffee provides caffeine that stimulates dopamine production but has pendulum ef
 
 ## Recipes
 
-<TagList tag="Coffee" filter="recipes" />
+<FoodRecipes tag="Coffee" />
 
 ## Substances
 

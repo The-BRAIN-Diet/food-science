@@ -18,7 +18,7 @@ Sage provides compounds that support memory and cognitive enhancement. Sage supp
 
 ## Recipes
 
-<TagList tag="Sage" filter="recipes" />
+<FoodRecipes tag="Sage" />
 
 ## Substances
 

@@ -21,19 +21,20 @@ mechanisms:
   Oxidative Stress: Supports antioxidant defenses; part of antioxidant network
   Hormonal Response: Supports HPA axis regulation and stress response
   Stress Response: Contributes to stress buffering through polyphenol effects
+inchikey: WMBWREPUVVBILR-WIYYLYMNSA-N
 ---
 
-## Overview
+## Recipes
 
-EGCG (epigallocatechin gallate) is the primary catechin polyphenol found in green tea. It supports antioxidant defenses, reduces lipopolysaccharide (LPS) translocation and inflammatory signaling, and modulates the gut microbiome by increasing beneficial bacteria like Faecalibacterium and Roseburia while inhibiting pathobionts such as Enterobacteriaceae. As part of polyphenol strategies in the BRAIN Diet, EGCG contributes to the neuroprotective effects observed in Green Mediterranean Diet studies, which showed attenuated brain atrophy and improved metabolic and brain aging phenotypes.
+<SubstanceRecipes tag="EGCG" />
+
+## Foods
+
+<SubstanceFoods tag="EGCG" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="EGCG" />
-
-## Foods
-
-<TagList tag="EGCG" filter="foods" />
 
 ## References
 

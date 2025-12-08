@@ -20,7 +20,7 @@ Tomatoes provide lycopene (carotenoid), vitamin C, and demonstrate food matrix e
 
 ## Recipes
 
-<TagList tag="Tomatoes" filter="recipes" />
+<FoodRecipes tag="Tomatoes" />
 
 ## Substances
 

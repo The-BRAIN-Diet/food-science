@@ -26,17 +26,17 @@ mechanisms:
   Methylation: Support homocysteine reduction in combination with B12, phospholipid methylation (PLM) dependent on SAMe
 ---
 
-## Overview
+## Recipes
 
-Omega-3 fatty acids EPA and DHA support neuronal membrane fluidity, neurotransmission, mitochondrial integrity, and active resolution of inflammation via specialized pro-resolving mediators (SPMs). They modulate nuclear receptors (PPARs), ion channels, and synaptic plasticity and interact with B-vitamins and methylation pathways.
+<SubstanceRecipes tag="Omega-3 Fatty Acids" />
+
+## Foods
+
+<SubstanceFoods tag="Omega-3 Fatty Acids" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Omega-3 Fatty Acids" />
-
-## Foods
-
-<TagList tag="Omega-3 Fatty Acids" filter="foods" />
 
 ## References
 

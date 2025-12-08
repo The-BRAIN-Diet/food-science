@@ -20,7 +20,7 @@ Blueberries are rich in polyphenols, particularly anthocyanins, that support cog
 
 ## Recipes
 
-<TagList tag="Blueberries" filter="recipes" />
+<FoodRecipes tag="Blueberries" />
 
 ## Substances
 

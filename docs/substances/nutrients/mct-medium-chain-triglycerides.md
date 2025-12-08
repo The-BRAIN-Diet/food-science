@@ -6,7 +6,6 @@ description: Medium-chain fatty acids (C8, C10) providing rapid brain energy via
 tags:
   - Substance
   - Nutrient
-  - Fatty Acid
   - MCT
   - Mitochondrial Support
   - Neurochemical Balance
@@ -16,21 +15,20 @@ mechanisms:
   Neurochemical Balance: Ketones produced from MCTs provide ATP through mitochondrial metabolism; ATP is essential for neurotransmitter synthesis, release, and reuptake, indirectly supporting neurochemical balance by ensuring adequate energy for neuronal function
 ---
 
-## Overview
+## Recipes
 
-Medium-chain triglycerides (MCTs) are fatty acids with chain lengths of 6-12 carbon atoms, primarily caprylic acid (C8) and capric acid (C10). Unlike long-chain fatty acids, MCTs are rapidly absorbed and transported directly to the liver where they are converted to ketones (beta-hydroxybutyrate and acetoacetate). These ketones serve as an alternative energy substrate for mitochondria, particularly important when glucose metabolism is impaired. MCTs provide rapid energy for the brain and support ketone production, making them valuable for brain energy metabolism.
+<SubstanceRecipes tag="MCT" />
+
+## Foods
+
+<SubstanceFoods tag="MCT" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="MCT" />
-
-## Foods
-
-<TagList tag="MCT" filter="foods" />
 
 ## References
 
 - Coconut Oil / MCT Oil: MCTs (C8, C10), rapid energy for brain, supports ketone production - Smoothies, baking, small-portion use
 - MCTs are converted to ketones which serve as alternative energy substrate for mitochondria, supporting brain energy metabolism
 - Ketones provide ATP through mitochondrial metabolism, supporting neurotransmitter synthesis and neuronal function
-

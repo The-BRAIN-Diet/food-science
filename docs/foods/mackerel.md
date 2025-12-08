@@ -19,7 +19,7 @@ Mackerel is an oily fish providing high levels of EPA/DHA omega-3s, CoQ10, tauri
 
 ## Recipes
 
-<TagList tag="Mackerel" filter="recipes" />
+<FoodRecipes tag="Mackerel" />
 
 ## Substances
 

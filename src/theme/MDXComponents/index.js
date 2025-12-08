@@ -10,6 +10,9 @@ import RecipeMatrix from '../RecipeMatrix';
 import RecipeFoods from '../RecipeFoods';
 import FoodSubstances from '../FoodSubstances';
 import TherapeuticAreaMatrix from '../TherapeuticAreaMatrix';
+import SubstanceRecipes from '../SubstanceRecipes';
+import SubstanceFoods from '../SubstanceFoods';
+import FoodRecipes from '../FoodRecipes';
 
 export default {
   ...MDXComponents,
@@ -23,4 +26,7 @@ export default {
   RecipeFoods,
   FoodSubstances,
   TherapeuticAreaMatrix,
+  SubstanceRecipes,
+  SubstanceFoods,
+  FoodRecipes,
 };

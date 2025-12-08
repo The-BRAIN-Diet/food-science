@@ -20,7 +20,7 @@ Cherries provide polyphenols, fiber, and vitamin C. Tart cherries specifically p
 
 ## Recipes
 
-<TagList tag="Cherries" filter="recipes" />
+<FoodRecipes tag="Cherries" />
 
 ## Substances
 

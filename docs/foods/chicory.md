@@ -18,7 +18,7 @@ Chicory provides high inulin content and can be used as a coffee substitute, sup
 
 ## Recipes
 
-<TagList tag="Chicory" filter="recipes" />
+<FoodRecipes tag="Chicory" />
 
 ## Substances
 

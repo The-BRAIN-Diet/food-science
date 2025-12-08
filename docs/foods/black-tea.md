@@ -19,7 +19,7 @@ Black tea provides polyphenols and may contain some compounds supporting NAD+ pa
 
 ## Recipes
 
-<TagList tag="Black Tea" filter="recipes" />
+<FoodRecipes tag="Black Tea" />
 
 ## Substances
 

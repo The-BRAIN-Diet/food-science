@@ -12,19 +12,20 @@ tags:
 list_image: /img/icons/nutrients.svg
 mechanisms:
   Oxidative Stress: Lipid-phase antioxidant; protects polyunsaturated fatty acids in membranes from peroxidation; works within antioxidant network with vitamin C, CoQ10, and polyphenols
+inchikey: GVJHHUAWPYXKBD-IEOSBIPESA-N
 ---
 
-## Overview
+## Recipes
 
-Vitamin E is a lipid-phase antioxidant that protects polyunsaturated fatty acids, particularly DHA, in neuronal membranes from peroxidation, supporting neuronal integrity and antioxidant networks. It works synergistically within the antioxidant network alongside vitamin C, CoQ10, lipoic acid, and glutathione, with these compounds regenerating each other in vivo. The BRAIN Diet emphasizes food-based sources rich in balanced antioxidants rather than high-dose single-nutrient supplementation, highlighting synergy in whole foods.
+<SubstanceRecipes tag="Vitamin E" />
+
+## Foods
+
+<SubstanceFoods tag="Vitamin E" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Vitamin E" />
-
-## Foods
-
-<TagList tag="Vitamin E" filter="foods" />
 
 ## References
 

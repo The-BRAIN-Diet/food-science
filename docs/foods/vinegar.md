@@ -17,7 +17,7 @@ Vinegar, particularly apple cider vinegar, supports glucose regulation and can b
 
 ## Recipes
 
-<TagList tag="Vinegar" filter="recipes" />
+<FoodRecipes tag="Vinegar" />
 
 ## Substances
 

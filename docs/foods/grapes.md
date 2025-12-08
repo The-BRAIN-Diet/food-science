@@ -20,7 +20,7 @@ Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-de
 
 ## Recipes
 
-<TagList tag="Grapes" filter="recipes" />
+<FoodRecipes tag="Grapes" />
 
 ## Substances
 

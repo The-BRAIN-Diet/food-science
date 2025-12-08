@@ -21,7 +21,7 @@ Purple potatoes provide anthocyanins, particularly C3G (cyanidin-3-glucoside), t
 
 ## Recipes
 
-<TagList tag="Purple Potatoes" filter="recipes" />
+<FoodRecipes tag="Purple Potatoes" />
 
 ## Substances
 

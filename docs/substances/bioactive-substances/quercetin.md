@@ -21,19 +21,20 @@ mechanisms:
   Mitochondrial Support: Enhances mitochondrial baseline activity and energy production; supports mitochondrial function
   Hormonal Response: Flavonoid support for calcium modulation and insulin sensitivity
   Stress Response: Contributes to LPS and immune defense; supports stress response modulation
+inchikey: REFJWTPEDVJJIY-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Quercetin is an effective antioxidant agent that scavenges reactive oxygen species and has antioxidant, anti-inflammatory, anti-neuroinflammatory, and neuroprotective properties. Isoquercetin (glycosylated quercetin) is more completely absorbed than quercetin in the aglycone form, and simultaneous ingestion with vitamin C, folate, and additional flavonoids improves bioavailability. Quercetin bound to a sugar molecule forming quercitrin has anti-inflammatory and anti-oxidative effects that may be augmented by co-ingestion of omega-3 polyunsaturated fatty acids and olive oil. Quercetin enhances mitochondrial baseline activity and energy production and is abundant in capers, apples, onions, berries, kale, and soybeans. The estimated flavonoid intake ranges from 50 to 800 mg/day, with about 75% of dietary polyphenol count being quercetin.
+<SubstanceRecipes tag="Quercetin" />
+
+## Foods
+
+<SubstanceFoods tag="Quercetin" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Quercetin" />
-
-## Foods
-
-<TagList tag="Quercetin" filter="foods" />
 
 ## References
 

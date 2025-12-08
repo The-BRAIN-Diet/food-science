@@ -20,7 +20,7 @@ Bananas provide B6, tryptophan, and potassium, supporting neurotransmitter synth
 
 ## Recipes
 
-<TagList tag="Bananas" filter="recipes" />
+<FoodRecipes tag="Bananas" />
 
 ## Substances
 

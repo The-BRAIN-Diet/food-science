@@ -18,7 +18,7 @@ Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine recept
 
 ## Recipes
 
-<TagList tag="Chamomile" filter="recipes" />
+<FoodRecipes tag="Chamomile" />
 
 ## Substances
 

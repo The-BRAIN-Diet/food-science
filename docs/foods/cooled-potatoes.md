@@ -20,7 +20,7 @@ Potatoes that are cooked and then cooled develop resistant starch through retrog
 
 ## Recipes
 
-<TagList tag="Cooled Potatoes" filter="recipes" />
+<FoodRecipes tag="Cooled Potatoes" />
 
 ## Substances
 

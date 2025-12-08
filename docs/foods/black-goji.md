@@ -20,7 +20,7 @@ Black goji berries provide high levels of C3G (cyanidin-3-glucoside) anthocyanin
 
 ## Recipes
 
-<TagList tag="Black Goji" filter="recipes" />
+<FoodRecipes tag="Black Goji" />
 
 ## Substances
 

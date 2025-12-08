@@ -33,7 +33,7 @@ Almonds provide vitamin E (antioxidant), plant protein, and monounsaturated fats
 
 ## Recipes
 
-<TagList tag="Almonds" filter="recipes" />
+<FoodRecipes tag="Almonds" />
 
 ## Substances
 

@@ -18,7 +18,7 @@ Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorpt
 
 ## Recipes
 
-<TagList tag="Tahini" filter="recipes" />
+<FoodRecipes tag="Tahini" />
 
 ## Substances
 

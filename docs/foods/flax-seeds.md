@@ -31,7 +31,7 @@ Flax seeds provide ALA (plant omega-3), soluble fiber, and lignans, supporting g
 
 ## Recipes
 
-<TagList tag="Flax Seeds" filter="recipes" />
+<FoodRecipes tag="Flax Seeds" />
 
 ## Substances
 

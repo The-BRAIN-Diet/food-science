@@ -20,7 +20,7 @@ Cocoa provides flavanols (polyphenols) that support cognitive function, though h
 
 ## Recipes
 
-<TagList tag="Cocoa" filter="recipes" />
+<FoodRecipes tag="Cocoa" />
 
 ## Substances
 

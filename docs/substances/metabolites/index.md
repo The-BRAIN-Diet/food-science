@@ -14,8 +14,8 @@ This section covers microbiome-derived metabolites that support gut-brain axis c
 
 ## Short-Chain Fatty Acids (SCFAs)
 
-<TagList tag="SCFAs" />
+<TagList tag="SCFAs" filter="substances" />
 
 ## Other Metabolites
 
-<TagList tag="Urolithin A" />
+<TagList tag="Urolithin A" filter="substances" />

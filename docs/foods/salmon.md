@@ -38,7 +38,7 @@ Salmon is an oily fish that provides high-quality protein, omega-3 fatty acids (
 
 ## Recipes
 
-<TagList tag="Salmon" filter="recipes" />
+<FoodRecipes tag="Salmon" />
 
 ## Substances
 

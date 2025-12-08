@@ -16,23 +16,20 @@ mechanisms:
   Gut Microbiome: Suppresses SIBO, Candida, and pathobionts; reduces LPS translocation; increases nutrient absorption (B12, iron, tryptophan); increases SCFA resilience
   Insulin Response: Improves insulin sensitivity; limits sympathetic activation
   Inflammation: Reduces LPS translocation and dampens LPS-driven inflammation through antimicrobial effects on pathobionts
+inchikey: YBHILYKTIRIUTE-UHFFFAOYSA-N
 ---
-
-## Overview
-
-Berberine is a polyphenolic alkaloid naturally found in plants such as barberry, goldenseal, and Oregon grape. It supports glycemic regulation by improving insulin sensitivity and limiting sympathetic activation, making it valuable for glucose regulation strategies. As a polyphenol antimicrobial, berberine suppresses small intestinal bacterial overgrowth (SIBO), Candida, and pathobionts while reducing lipopolysaccharide (LPS) translocation from the gut. This antimicrobial action enhances nutrient absorption of vitamin B12, iron, and tryptophan—essential precursors for neurotransmitter synthesis—and increases short-chain fatty acid (SCFA) resilience, supporting gut–brain communication and reducing systemic inflammation.
 
 ## Recipes
 
-<TagList tag="Berberine" filter="recipes" />
+<SubstanceRecipes tag="Berberine" />
+
+## Foods
+
+<SubstanceFoods tag="Berberine" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Berberine" />
-
-## Foods
-
-<TagList tag="Berberine" filter="foods" />
 
 ## References
 

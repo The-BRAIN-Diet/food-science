@@ -15,19 +15,20 @@ list_image: /img/icons/bioactive.svg
 mechanisms:
   Inflammation: Anti-inflammatory properties; supports immune regulation
   Oxidative Stress: Antioxidant properties; scavenges reactive oxygen species and stabilizes cell membranes
+inchikey: JKQXZKUSFCKOGQ-QAYBQHTQSA-N
 ---
 
-## Overview
+## Recipes
 
-Zeaxanthin is a carotenoid that plays a neuroprotective role through its antioxidant and anti-inflammatory properties. This fat-soluble pigment accumulates selectively in neural tissues, including the retina and brain, where it helps scavenge reactive oxygen species and stabilize cell membranes. Lutein and zeaxanthin have been associated with improved cognitive performance, especially in domains such as memory, processing speed, and visual-spatial function. Carotenoids are abundant in leafy greens, orange and yellow vegetables, corn, and egg yolks, and their absorption is enhanced by dietary fat.
+<SubstanceRecipes tag="Zeaxanthin" />
+
+## Foods
+
+<SubstanceFoods tag="Zeaxanthin" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Zeaxanthin" />
-
-## Foods
-
-<TagList tag="Zeaxanthin" filter="foods" />
 
 ## References
 

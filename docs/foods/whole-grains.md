@@ -21,7 +21,7 @@ Whole grains are grains that contain the entire grain kernel (bran, germ, and en
 
 ## Recipes
 
-<TagList tag="Whole Grains" filter="recipes" />
+<FoodRecipes tag="Whole Grains" />
 
 ## Substances
 

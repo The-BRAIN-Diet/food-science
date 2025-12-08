@@ -18,7 +18,7 @@ Fish roe provides phospholipid-bound omega-3 fatty acids (EPA/DHA), astaxanthin,
 
 ## Recipes
 
-<TagList tag="Fish Roe" filter="recipes" />
+<FoodRecipes tag="Fish Roe" />
 
 ## Substances
 

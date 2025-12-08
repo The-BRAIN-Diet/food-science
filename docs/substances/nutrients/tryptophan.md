@@ -13,19 +13,20 @@ tags:
 list_image: /img/icons/nutrients.svg
 mechanisms:
   Neurochemical Balance: Precursor for serotonin and melatonin; brain entry competes at LAT1 with other large neutral amino acids (LNAAs); carbohydrate-rich, low-protein meals raise the plasma tryptophan:LNAA ratio because insulin pushes competing LNAAs out to muscles; can feed NAD+ synthesis via the kynurenine pathway
+inchikey: QIVBCDIJIAJPQS-VIFPVBQESA-N
 ---
 
-## Overview
+## Recipes
 
-Tryptophan is an essential amino acid that serves as a precursor for serotonin and melatonin and can feed NAD+ synthesis via the kynurenine pathway. Its entry into the brain occurs via the LAT1 transporter and competes with other large neutral amino acids (LNAAs) including tyrosine, phenylalanine, leucine, isoleucine, and valine. Carbohydrate-rich, low-protein meals raise the plasma tryptophan:LNAA ratio because insulin pushes the competing LNAAs out to muscles, lowering competing LNAAs in plasma, thereby reducing competition at the blood-brain barrier. In a crossover breakfast study, compared to the high protein breakfast, the high carbohydrate low protein breakfast raised the tryptophan:LNAA ratio by a median ~54%. Carbohydrate type also matters: sucrose produced a larger rise in tryptophan:LNAA (+34%) than starch (+20%), consistent with higher-GI carbohydrates more strongly enhancing brain tryptophan bioavailability. Tryptophan has been linked to reduced anxiety, improved mood, and lower depressive symptoms, but shows very limited benefit for ADHD symptoms. Small intestinal bacterial overgrowth (SIBO) impairs absorption of tryptophan along with vitamin B12 and iron, depriving the brain of essential neurotransmitter precursors. Enhancing dietary protein, prebiotics, and microbiome diversity promotes microbial metabolism and absorption of key amino acids, increasing tryptophan availability for central serotonin and dopamine synthesis.
+<SubstanceRecipes tag="Tryptophan" />
+
+## Foods
+
+<SubstanceFoods tag="Tryptophan" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Tryptophan" />
-
-## Foods
-
-<TagList tag="Tryptophan" filter="foods" />
 
 ## References
 

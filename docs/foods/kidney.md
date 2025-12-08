@@ -16,7 +16,7 @@ Kidney is an organ meat providing high nutrient density, including B vitamins, i
 
 ## Recipes
 
-<TagList tag="Kidney" filter="recipes" />
+<FoodRecipes tag="Kidney" />
 
 ## Substances
 

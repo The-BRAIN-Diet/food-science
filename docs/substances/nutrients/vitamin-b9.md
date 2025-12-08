@@ -14,19 +14,20 @@ list_image: /img/icons/nutrients.svg
 mechanisms:
   Methylation: Essential cofactor in remethylation of homocysteine to methionine, which is converted to S-adenosylmethionine (SAMe); SAMe fuels synthesis of dopamine, norepinephrine, and serotonin and drives phospholipid methylation in neuronal membranes
   Neurochemical Balance: Supports neurotransmitter synthesis through methylation; cofactor for dopamine synthesis alongside iron, B6, and omega-3s
+inchikey: OVBPIULPVIDEAO-LBPRGKRZSA-N
 ---
 
-## Overview
+## Recipes
 
-Folate (vitamin B9) supports one-carbon metabolism and remethylation of homocysteine to methionine, which is subsequently converted to S-adenosylmethionine (SAMe), the body's universal methyl donor. SAMe fuels the synthesis of dopamine, norepinephrine, and serotonin and drives phospholipid methylation in neuronal membranes essential for membrane fluidity, signal transduction, and neurotransmitter receptor function. A large meta-analysis shows that folic acid supplementation (0.5-5 mg/day) typically reduces plasma homocysteine by ~25%, and adding B12 gives an additional ~7% reduction. However, while folate is normally considered the primary nutrient for homocysteine reduction, long-chain omega-3 fatty acids and vitamin B12 also contribute meaningfully, and in combination more effectively—one study showed B12+fish oil lowered plasma homocysteine by 39%. A reanalysis of the VITACOG trial data demonstrated that B vitamin supplementation slowed cognitive decline only in participants with adequate omega-3 status, supporting a nutrient synergy model. These pathways are vulnerable to genetic variants such as MTHFR polymorphisms, which reduce the efficiency of folate cycling and methylation, increasing susceptibility to cognitive dysfunction and ADHD-related symptoms.
+<SubstanceRecipes tag="Vitamin B9" />
+
+## Foods
+
+<SubstanceFoods tag="Vitamin B9" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Vitamin B9" />
-
-## Foods
-
-<TagList tag="Vitamin B9" filter="foods" />
 
 ## References
 

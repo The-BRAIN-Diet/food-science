@@ -20,7 +20,7 @@ Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, 
 
 ## Recipes
 
-<TagList tag="Cabbage" filter="recipes" />
+<FoodRecipes tag="Cabbage" />
 
 ## Substances
 

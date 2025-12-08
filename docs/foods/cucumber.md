@@ -18,7 +18,7 @@ Cucumber provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate,
 
 ## Recipes
 
-<TagList tag="Cucumber" filter="recipes" />
+<FoodRecipes tag="Cucumber" />
 
 ## Substances
 

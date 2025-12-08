@@ -20,7 +20,7 @@ Amaranth is a pseudograin providing complete plant protein and, when used in fun
 
 ## Recipes
 
-<TagList tag="Amaranth" filter="recipes" />
+<FoodRecipes tag="Amaranth" />
 
 ## Substances
 

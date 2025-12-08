@@ -14,19 +14,20 @@ list_image: /img/icons/bioactive.svg
 mechanisms:
   Inflammation: Anti-inflammatory and neuroprotective effects; supports BDNF expression through polyphenol synergy
   Oxidative Stress: Antioxidant properties; supports antioxidant defenses
+inchikey: VFLDPWHFBUODDF-FCXRPNKRSA-N
 ---
 
-## Overview
+## Recipes
 
-Curcumin is the primary bioactive compound in turmeric, supporting neuroprotection and anti-inflammatory pathways. Systematic reviews affirm that curcumin supplementation can improve memory performance in older adults and enhance overall cognitive function in both healthy and at-risk populations. Curcumin's benefits may depend on bioavailability, which is markedly improved by pairing with piperine and fats. Turmeric, along with omega-3s and other polyphenols, contributes to BDNF expression through exercise and polyphenol synergy, with anti-inflammatory diets helping sustain BDNF levels.
+<SubstanceRecipes tag="Curcumin" />
+
+## Foods
+
+<SubstanceFoods tag="Curcumin" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Curcumin" />
-
-## Foods
-
-<TagList tag="Curcumin" filter="foods" />
 
 ## References
 

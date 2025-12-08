@@ -20,19 +20,20 @@ mechanisms:
   Hormonal Response: Supports calcium modulation along with vitamin D, taurine, phospholipids, and flavonoids; supports insulin sensitivity, sympathetic arousal, and mitochondrial excitability
   Insulin Response: Supports insulin sensitivity and glucose metabolism; magnesium deficiency is associated with insulin resistance; supports enzymes involved in glucose metabolism
   Stress Response: Helps manage stress responses; combined with vitamin D reduced behavioral problems; synergy with zinc and omega-3s reported
+inchikey: FYYHWMGAXLPEAU-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Magnesium is an essential mineral that plays a crucial role in over 300 enzymatic reactions in the body, including those critical for brain function, neurotransmitter regulation, and mitochondrial energy production. Magnesium is a broad cofactor for neurotransmitter synthesis and receptor modulation (e.g., NMDA, GABA), ATP production, and antioxidant defenses. Deficiency is common and linked to behavioral symptoms, with deficiency in those with ADHD potentially exacerbating symptoms like irritability, attention difficulties, sleep problems, and anxiety. Magnesium functions as an NMDA receptor antagonist and GABA receptor modulator, supporting neurotransmitter regulation, especially GABA (an inhibitory neurotransmitter), and modulating glutamate receptors to prevent excitotoxicity. Magnesium supports enzymes involved in glycolysis and the Krebs cycle, processes that generate ATP from glucose, and is a key mechanism in fighting pro-oxidants and supporting antioxidants. Combined with vitamin D, magnesium supplementation has shown to significantly reduce behavioral problems and be effective. Magnesium works synergistically with zinc and omega-3 fatty acids for comprehensive neurotransmitter support.
+<SubstanceRecipes tag="Magnesium" />
+
+## Foods
+
+<SubstanceFoods tag="Magnesium" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Magnesium" />
-
-## Foods
-
-<TagList tag="Magnesium" filter="foods" />
 
 ## References
 

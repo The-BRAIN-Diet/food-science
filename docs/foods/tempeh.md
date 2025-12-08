@@ -36,7 +36,7 @@ Tempeh is fermented soy providing live probiotics, enhanced nutrient bioavailabi
 
 ## Recipes
 
-<TagList tag="Tempeh" filter="recipes" />
+<FoodRecipes tag="Tempeh" />
 
 ## Substances
 

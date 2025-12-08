@@ -20,7 +20,7 @@ Oranges provide high vitamin C content that enhances non-heme iron absorption wh
 
 ## Recipes
 
-<TagList tag="Oranges" filter="recipes" />
+<FoodRecipes tag="Oranges" />
 
 ## Substances
 

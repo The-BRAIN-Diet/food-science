@@ -19,7 +19,7 @@ Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supp
 
 ## Recipes
 
-<TagList tag="Asparagus" filter="recipes" />
+<FoodRecipes tag="Asparagus" />
 
 ## Substances
 

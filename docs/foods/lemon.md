@@ -18,7 +18,7 @@ Lemon provides vitamin C that enhances non-heme iron absorption and can be used 
 
 ## Recipes
 
-<TagList tag="Lemon" filter="recipes" />
+<FoodRecipes tag="Lemon" />
 
 ## Substances
 

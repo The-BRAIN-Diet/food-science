@@ -20,7 +20,7 @@ Pomegranates provide ellagitannins that gut bacteria convert to urolithin A, sup
 
 ## Recipes
 
-<TagList tag="Pomegranates" filter="recipes" />
+<FoodRecipes tag="Pomegranates" />
 
 ## Substances
 

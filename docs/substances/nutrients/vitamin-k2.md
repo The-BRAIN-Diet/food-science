@@ -12,19 +12,20 @@ tags:
 list_image: /img/icons/nutrients.svg
 mechanisms:
   Hormonal Response: Modulates calcium distribution; supports calcium handling and may support neural function; occurs in fermented foods and certain animal products
+inchikey: HYPYXGZDOYTYDR-HAJWAVTHSA-N
 ---
 
-## Overview
+## Recipes
 
-Vitamin K2 modulates calcium distribution and may support neural function. It occurs in fermented foods and certain animal products, often co-occurring with other fat-soluble vitamins (A, D, E) within nutrient-dense food matrices. Vitamin K2 is discussed alongside fat-soluble nutrients within food-matrix guidance, with sources including cheeses, egg yolks, and fermented foods. The BRAIN Diet emphasizes obtaining vitamin K2 through whole-food sources that provide synergistic fat-soluble nutrients rather than isolated supplementation.
+<SubstanceRecipes tag="Vitamin K2" />
+
+## Foods
+
+<SubstanceFoods tag="Vitamin K2" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Vitamin K2" />
-
-## Foods
-
-<TagList tag="Vitamin K2" filter="foods" />
 
 ## References
 

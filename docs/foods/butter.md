@@ -20,7 +20,7 @@ Butter provides saturated fats, fat-soluble vitamins, and in grass-fed varieties
 
 ## Recipes
 
-<TagList tag="Butter" filter="recipes" />
+<FoodRecipes tag="Butter" />
 
 ## Substances
 

@@ -14,19 +14,20 @@ list_image: /img/icons/nutrients.svg
 mechanisms:
   Oxidative Stress: Supports glutathione peroxidase (GPx) and other antioxidant systems, protecting membranes and mitochondria from oxidative damage
   Mitochondrial Support: Protects mitochondria from oxidative damage through antioxidant enzyme activity
+inchikey: BUGBHKTXTAQXES-UHFFFAOYSA-N
 ---
 
-## Overview
+## Recipes
 
-Selenium supports glutathione peroxidase (GPx) and other antioxidant systems, protecting membranes and mitochondria from oxidative damage. It is included among trace minerals essential for antioxidant networks, working synergistically with other antioxidants like vitamin E, vitamin C, and glutathione to maintain redox balance in the brain and throughout the body.
+<SubstanceRecipes tag="Selenium" />
+
+## Foods
+
+<SubstanceFoods tag="Selenium" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Selenium" />
-
-## Foods
-
-<TagList tag="Selenium" filter="foods" />
 
 ## References
 

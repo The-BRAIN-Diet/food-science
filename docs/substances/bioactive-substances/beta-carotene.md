@@ -15,19 +15,20 @@ list_image: /img/icons/bioactive.svg
 mechanisms:
   Inflammation: Anti-inflammatory properties; supports immune regulation
   Oxidative Stress: Antioxidant properties; scavenges reactive oxygen species and stabilizes cell membranes
+inchikey: OENHQHLEOONYIE-JLTXGRSLSA-N
 ---
 
-## Overview
+## Recipes
 
-β-Carotene is a carotenoid that plays a neuroprotective role through its antioxidant and anti-inflammatory properties. As both an antioxidant and vitamin A precursor, β-carotene supports immune regulation and neuronal development. This fat-soluble pigment accumulates selectively in neural tissues, including the retina and brain, where it helps scavenge reactive oxygen species and stabilize cell membranes. The bioaccessibility of carotenoids in vegetables is remarkably low—only 1-3% of the β-carotene in raw carrots is accessible for absorption. Co-consuming a small amount of unsaturated fat with carotenoid-rich foods improves micelle formation and chylomicron packaging, increasing carotenoid absorption.
+<SubstanceRecipes tag="Beta-Carotene" />
+
+## Foods
+
+<SubstanceFoods tag="Beta-Carotene" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="Beta-Carotene" />
-
-## Foods
-
-<TagList tag="Beta-Carotene" filter="foods" />
 
 ## References
 

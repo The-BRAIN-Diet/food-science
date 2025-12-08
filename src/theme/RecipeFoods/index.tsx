@@ -247,9 +247,35 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
 
   return (
     <div className="bok-tag-list">
-      {relatedFoods.map((food: Document) => (
-        <DocItemImage key={food.permalink} doc={food} substanceNameMap={substanceNameMap} />
-      ))}
+      <details>
+        <summary
+          style={{
+            cursor: "pointer",
+            fontWeight: "normal",
+            padding: "0.5rem 0",
+            userSelect: "none",
+            listStyle: "none",
+            color: "var(--ifm-color-primary)",
+            transition: "color 0.2s, text-decoration 0.2s",
+            textDecoration: "none",
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.color = "var(--ifm-color-primary-dark)"
+            e.currentTarget.style.textDecoration = "underline"
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.color = "var(--ifm-color-primary)"
+            e.currentTarget.style.textDecoration = "none"
+          }}
+        >
+          {relatedFoods.length} food{relatedFoods.length !== 1 ? "s" : ""} in this recipe
+        </summary>
+        <div style={{ marginTop: "1rem" }}>
+          {relatedFoods.map((food: Document) => (
+            <DocItemImage key={food.permalink} doc={food} substanceNameMap={substanceNameMap} />
+          ))}
+        </div>
+      </details>
     </div>
   )
 }

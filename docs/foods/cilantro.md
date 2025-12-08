@@ -18,7 +18,7 @@ Cilantro is an herb that may support heavy metal chelation and provides polyphen
 
 ## Recipes
 
-<TagList tag="Cilantro" filter="recipes" />
+<FoodRecipes tag="Cilantro" />
 
 ## Substances
 

@@ -23,17 +23,17 @@ mechanisms:
   Neurochemical Balance: Propionate stimulates secretion of norepinephrine and may influence dopamine regulation; SCFAs promote synthesis of dopamine and serotonin
 ---
 
-## Overview
+## Recipes
 
-Short-chain fatty acids (SCFAs) are byproducts of fibre fermentation in the gut, produced by beneficial bacteria from prebiotics, probiotics, and resistant starches. The primary SCFAs—butyrate, propionate, and acetate—play crucial roles in maintaining gut health, modulating the immune system, and influencing brain function. Butyrate supports intestinal barrier integrity, reduces neuroinflammation, enhances mitochondrial function, and can cross the blood-brain barrier. Propionate protects the blood-brain barrier, reduces neuroinflammation, stimulates norepinephrine secretion, and may influence dopamine regulation. ADHD cohorts show significantly lower levels of key SCFAs, including acetic, propionic, isobutyric, isovaleric, and valeric acids, highlighting a distinct microbial and metabolic profile that may contribute to cognitive impairments.
+<SubstanceRecipes tag="SCFAs" />
+
+## Foods
+
+<SubstanceFoods tag="SCFAs" />
 
 ## Biological Mechanisms and Implications
 
 <SubstanceMatrix tag="SCFAs" />
-
-## Foods
-
-<TagList tag="SCFAs" filter="foods" />
 
 ## References
 

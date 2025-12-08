@@ -21,7 +21,7 @@ Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like 
 
 ## Recipes
 
-<TagList tag="Fortified Plant Milks" filter="recipes" />
+<FoodRecipes tag="Fortified Plant Milks" />
 
 ## Substances
 

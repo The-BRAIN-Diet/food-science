@@ -21,7 +21,7 @@ Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stabili
 
 ## Recipes
 
-<TagList tag="Ghee" filter="recipes" />
+<FoodRecipes tag="Ghee" />
 
 ## Substances
 

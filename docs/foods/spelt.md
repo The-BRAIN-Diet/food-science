@@ -17,7 +17,7 @@ Spelt is an ancient wheat variety providing high asparagine and fiber, making it
 
 ## Recipes
 
-<TagList tag="Spelt" filter="recipes" />
+<FoodRecipes tag="Spelt" />
 
 ## Substances
 

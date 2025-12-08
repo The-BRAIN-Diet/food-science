@@ -19,7 +19,7 @@ Pickles (unpasteurized fermented) provide live probiotics, including Levilactoba
 
 ## Recipes
 
-<TagList tag="Pickles" filter="recipes" />
+<FoodRecipes tag="Pickles" />
 
 ## Substances
 

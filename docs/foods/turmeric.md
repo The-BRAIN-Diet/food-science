@@ -15,11 +15,11 @@ list_image: /img/icons/ingredients.svg
 
 ## Overview
 
-Turmeric provides curcumin, a polyphenol with anti-inflammatory and neuroprotective effects. Absorption is enhanced by pairing with black pepper (piperine) and fat. Curcumin (Turmeric) supports anti-inflammatory and neuroprotective effects at 500–1000 mg/day curcumin with piperine.
+Turmeric is the whole spice (dried and ground root of the Curcuma longa plant) that contains many bioactive compounds, including curcumin (the most well-known polyphenol), demethoxycurcumin, bisdemethoxycurcumin, turmerones (fat-soluble compounds), and essential oils. Only 2–6% of turmeric powder is curcumin. Curcumin is responsible for most of turmeric's anti-inflammatory and neuroprotective effects. Absorption is enhanced by pairing with black pepper (piperine) and fat. Therapeutic doses typically use 500–1000 mg/day curcumin with piperine.
 
 ## Recipes
 
-<TagList tag="Turmeric" filter="recipes" />
+<FoodRecipes tag="Turmeric" />
 
 ## Substances
 

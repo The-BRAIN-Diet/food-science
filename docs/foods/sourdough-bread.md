@@ -24,7 +24,7 @@ Sourdough bread, especially when made with quinoa or other functional flours, pr
 
 ## Recipes
 
-<TagList tag="Sourdough Bread" filter="recipes" />
+<FoodRecipes tag="Sourdough Bread" />
 
 ## Substances
 
