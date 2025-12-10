@@ -37,3 +37,4 @@ Oleocanthal is a secoiridoid polyphenol found in extra-virgin olive oil, particu
 - Found in higher concentrations in early harvest extra-virgin olive oil
 - Contributes to the brain health benefits of olive oil through anti-inflammatory mechanisms
 
+

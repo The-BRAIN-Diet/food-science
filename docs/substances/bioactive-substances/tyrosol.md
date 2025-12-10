@@ -39,3 +39,4 @@ Tyrosol is a phenolic compound found in extra-virgin olive oil, particularly in 
 - Found in higher concentrations in early harvest extra-virgin olive oil
 - Serves as a precursor to hydroxytyrosol and contributes to the brain health benefits of olive oil
 
+

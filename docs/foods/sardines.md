@@ -7,6 +7,8 @@ tags:
   - Food
   - Sardines
   - Omega-3 Fatty Acids
+  - EPA
+  - DHA
   - CoQ10
   - Calcium
   - Vitamin B3

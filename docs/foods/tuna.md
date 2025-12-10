@@ -7,6 +7,8 @@ tags:
   - Food
   - Tuna
   - Omega-3 Fatty Acids
+  - EPA
+  - DHA
   - Vitamin B3
   - Selenium
   - Creatine

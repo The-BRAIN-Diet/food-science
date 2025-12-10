@@ -7,6 +7,7 @@ tags:
   - Food
   - Vegan
   - Omega-3 Fatty Acids
+  - DHA
   - Algal Oil
 ---
 

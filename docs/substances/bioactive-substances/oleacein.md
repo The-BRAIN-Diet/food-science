@@ -37,3 +37,4 @@ Oleacein is a secoiridoid polyphenol found in extra-virgin olive oil, particular
 - Found in higher concentrations in early harvest extra-virgin olive oil
 - Contributes to the brain health benefits of olive oil through antioxidant and neuroprotective mechanisms
 
+
