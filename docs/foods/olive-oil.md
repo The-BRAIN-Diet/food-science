@@ -8,16 +8,13 @@ tags:
   - Olive Oil
   - Vegan
   - Vegetarian
-  - Linoleic Acid
-  - Vitamin E
-  - Vitamin K
   - Polyphenol
 list_image: /img/icons/ingredients.svg
 ---
 
 ## Overview
 
-Olive oil provides monounsaturated fats and polyphenols. Extra virgin olive oil has higher bioactive content. Sources of MUFA include extra-virgin olive oil, avocado, olives, and nuts.
+Regular olive oil (refined or blended) has significantly lower bioactive polyphenol content compared to extra virgin olive oil (EVOO). **Olive oil's brain benefits come from polyphenols, not fatty acids.** Regular olive oil undergoes processing that reduces or eliminates the secoiridoids and phenolics (oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol) that provide the neuroprotective, anti-inflammatory, and antioxidant effects. For brain health benefits, extra virgin olive oil, particularly early harvest EVOO, is strongly recommended due to its much higher concentration of bioactive polyphenols.
 
 ## Recipes
 
@@ -29,9 +26,10 @@ Olive oil provides monounsaturated fats and polyphenols. Extra virgin olive oil 
 
 ## Preparation Notes
 
-- See [Extra Virgin Olive Oil](./extra-virgin-olive-oil.md) for detailed information
-- Provides monounsaturated fats and polyphenols
-- Extra virgin olive oil has higher bioactive content
+- See [Extra Virgin Olive Oil](./extra-virgin-olive-oil.md) for detailed information on bioactive polyphenols
+- Regular olive oil has significantly lower polyphenol content than EVOO
+- For brain health benefits, use extra virgin olive oil, preferably early harvest
+- EVOO provides secoiridoids and phenolics (oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol) that are largely absent in regular olive oil
 
 ## Biological Target Matrix
 
@@ -39,4 +37,6 @@ Olive oil provides monounsaturated fats and polyphenols. Extra virgin olive oil 
 
 ## References
 
-- Sources: extra-virgin olive oil, avocado, olives, nuts for MUFA
+- Regular olive oil has significantly lower bioactive polyphenol content compared to extra virgin olive oil
+- **Olive oil's brain benefits come from polyphenols, not fatty acids** - these are found in meaningful amounts primarily in extra virgin olive oil, especially early harvest EVOO
+- For brain health, use extra virgin olive oil which contains secoiridoids and phenolics (oleuropein aglycone, oleocanthal, oleacein, tyrosol, hydroxytyrosol) that provide mitophagy, SIRT1, AMPK, NF-κB inhibition, NRF2 activation, and neuroprotective effects

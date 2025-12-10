@@ -7,6 +7,8 @@ tags:
   - Food
   - Fish Roe
   - Omega-3 Fatty Acids
+  - EPA
+  - DHA
   - Phosphatidylcholine
   - Carotenoid
 list_image: /img/icons/ingredients.svg

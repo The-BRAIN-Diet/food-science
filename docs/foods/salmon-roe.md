@@ -7,6 +7,8 @@ tags:
   - Food
   - Salmon Roe
   - Omega-3 Fatty Acids
+  - EPA
+  - DHA
   - Choline
   - Phosphatidylcholine
   - Astaxanthin

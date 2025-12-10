@@ -7,6 +7,8 @@ tags:
   - Food
   - Mackerel
   - Omega-3 Fatty Acids
+  - EPA
+  - DHA
   - CoQ10
   - Taurine
   - Vitamin D

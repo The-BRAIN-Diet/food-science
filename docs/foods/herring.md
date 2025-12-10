@@ -7,6 +7,8 @@ tags:
   - Food
   - Herring
   - Omega-3 Fatty Acids
+  - EPA
+  - DHA
   - Vitamin D
 list_image: /img/icons/ingredients.svg
 ---

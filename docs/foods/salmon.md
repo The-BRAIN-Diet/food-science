@@ -7,6 +7,8 @@ tags:
   - Food
   - Salmon
   - Omega-3 Fatty Acids
+  - EPA
+  - DHA
   - Vitamin B1
   - Vitamin B2
   - Vitamin B3

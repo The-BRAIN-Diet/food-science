@@ -19,6 +19,10 @@ mechanisms:
 inchikey: YBHILYKTIRIUTE-UHFFFAOYSA-N
 ---
 
+## Overview
+
+Berberine is a polyphenolic alkaloid that supports glycemic control, has antimicrobial effects, and modulates the microbiome. It is part of glucose regulation strategies and SIBO suppression protocols. **Note:** Berberine is typically consumed as a supplement (from plants like barberry, goldenseal, or Oregon grape) rather than from common dietary foods in meaningful amounts, which is why no foods are listed below.
+
 ## Recipes
 
 <SubstanceRecipes tag="Berberine" />

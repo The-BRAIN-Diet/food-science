@@ -7,6 +7,8 @@ tags:
   - Food
   - Lumpfish Roe
   - Omega-3 Fatty Acids
+  - EPA
+  - DHA
   - Carotenoid
 list_image: /img/icons/ingredients.svg
 ---
