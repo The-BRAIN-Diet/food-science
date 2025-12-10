@@ -8,10 +8,11 @@ tags:
   - Extra Virgin Olive Oil
   - Vegan
   - Vegetarian
-  - Linoleic Acid
-  - Vitamin E
-  - Vitamin K
   - Hydroxytyrosol
+  - Tyrosol
+  - Oleuropein
+  - Oleocanthal
+  - Oleacein
   - CoQ10
   - Polyphenol
 list_image: /img/icons/ingredients.svg
@@ -19,7 +20,14 @@ list_image: /img/icons/ingredients.svg
 
 ## Overview
 
-Extra virgin olive oil (EVOO) is a cornerstone fat in the BRAIN Diet, providing monounsaturated fats, polyphenols, and lipid bioactives that support brain health through anti-inflammatory and antioxidant mechanisms. Extra Virgin Olive Oil provides oleic acid, CoQ10, hydroxytyrosol, squalene; strong antioxidant & anti-inflammatory profile. Early harvest extra virgin olive oil has higher levels of CoQ10, oleuropein, and polyphenols, making it valuable for precision dietary strategies.
+Extra virgin olive oil (EVOO) is a cornerstone fat in the BRAIN Diet. **Importantly, olive oil's brain benefits come from polyphenols, not fatty acids.** The bioactive power of EVOO is derived from secoiridoids and phenolics, including:
+
+- **Oleuropein aglycone** → supports mitophagy, SIRT1 activation, and AMPK activation
+- **Oleocanthal** → NF-κB inhibition, anti-inflammatory effects
+- **Oleacein** → antioxidant, NRF2 activation
+- **Tyrosol / Hydroxytyrosol** → neuroprotective effects
+
+Early harvest extra virgin olive oil contains significantly higher concentrations of these bioactive compounds (CoQ10, oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol) compared to standard EVOO or regular olive oil. Total CoQ10 can drop by 53-56% between early and late harvest, highlighting the importance of harvest timing for maximizing bioactive content. These enhanced polyphenol levels support mitochondrial function, antioxidant networks, and anti-inflammatory pathways, making early harvest olive oil a valuable component of precision dietary strategies for brain health.
 
 ## Recipes
 
@@ -43,8 +51,9 @@ Extra virgin olive oil (EVOO) is a cornerstone fat in the BRAIN Diet, providing 
 
 ## References
 
-- Extra Virgin Olive Oil: Oleic acid, CoQ10, hydroxytyrosol, squalene; strong antioxidant & anti-inflammatory profile
-- Early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein and polyphenols
+- **Olive oil's brain benefits come from polyphenols, not fatty acids.** The bioactive power of EVOO is from secoiridoids and phenolics: oleuropein aglycone (mitophagy, SIRT1, AMPK), oleocanthal (NF-κB inhibition), oleacein (antioxidant, NRF2 activation), and tyrosol/hydroxytyrosol (neuroprotective effects)
+- Extra Virgin Olive Oil: CoQ10, hydroxytyrosol, tyrosol, oleuropein, oleocanthal, oleacein, squalene; strong antioxidant & anti-inflammatory profile
+- Early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol, and total polyphenols
 - Total CoQ dropped by 53%-56% between three weeks of the harvesting of two brands, highlighting variation by producer and harvest time
-- Sources: extra-virgin olive oil, avocado, olives, nuts for MUFA (monounsaturated fatty acids)
+- Early harvest oils have substantially higher bioactive content (CoQ10, oleuropein, polyphenols) compared to standard EVOO
 - Polyphenol sources including extra virgin olive oil support gut barrier integrity, TLR4 suppression, LPS neutralization, and microglial activation dampening

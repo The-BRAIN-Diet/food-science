@@ -2,7 +2,7 @@
 id: oleuropein
 title: Oleuropein
 sidebar_label: Oleuropein
-description: Major polyphenol in olive oil; supports mitochondrial function, autophagy, and neuroprotective effects
+description: Major secoiridoid polyphenol in olive oil; oleuropein aglycone supports mitophagy, SIRT1, and AMPK activation
 tags:
   - Substance
   - Bioactive
@@ -14,7 +14,7 @@ tags:
 list_image: /img/icons/bioactive.svg
 inchikey: RFWGABANNQMHMZ-ZCHJGGQASA-N
 mechanisms:
-  Mitochondrial Support: Supports mitochondrial function, autophagy, and neuroprotective effects through modulation of mitochondrial dynamics and antioxidant pathways
+  Mitochondrial Support: Oleuropein aglycone (the active form) supports mitophagy, SIRT1 activation, and AMPK activation; enhances mitochondrial function, autophagy, and neuroprotective effects through modulation of mitochondrial dynamics and antioxidant pathways
   Oxidative Stress: Antioxidant polyphenol; works within the polyphenol network in olive oil
   Inflammation: Anti-inflammatory properties; contributes to neuroprotective effects of extra-virgin olive oil
 ---
