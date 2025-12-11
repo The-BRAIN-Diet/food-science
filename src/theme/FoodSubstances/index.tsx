@@ -39,13 +39,16 @@ interface FoodSubstancesProps {
 function DocItemImage({doc}: {doc: Document}) {
   const isSubstance = doc.permalink.includes("/substances/")
   const inchikey = doc.frontMatter.inchikey as string | undefined
+  const inchiImage = doc.frontMatter.inchi_image as string | undefined
   const listImage = doc.frontMatter.list_image as string | undefined
 
   return (
     <article key={doc.title} className="margin-vert--lg">
       <div className={styles.columns}>
         <div className={styles.left}>
-          {isSubstance && inchikey ? (
+          {isSubstance && inchiImage ? (
+            <img src={inchiImage} alt="Chemical structure" className={styles.articleImage} />
+          ) : isSubstance && inchikey ? (
             <InChIImage inchikey={inchikey} fallback={listImage} className={styles.articleImage} />
           ) : (
             <img src={listImage || "/img/icons/ingredients.svg"} className={styles.articleImage} />
@@ -92,6 +95,32 @@ export default function FoodSubstances({details}: FoodSubstancesProps): React.Re
     return String(tag)
   })
 
+  // Category tags and other non-substance tags that should be excluded when matching
+  const categoryTags = [
+    "Substance",
+    "Nutrient",
+    "Bioactive",
+    "Metabolite",
+    "Vitamin",
+    "Mineral",
+    "Fatty Acid",
+    "Amino Acid",
+    "Polyphenol",
+    "Carotenoid",
+    "Flavonoid",
+    "Terpene",
+    "Omega-3 Fatty Acids",
+    "Omega-6 Fatty Acids",
+    "SCFAs",
+    "Antioxidant",
+    "Lipid",
+    "Food",
+    "Vegan",
+    "Vegetarian",
+    "Recipe",
+    "Area",
+  ]
+
   // Get all substance documents
   const allDocs = Object.values(allTags).flat()
   const allSubstances = allDocs.filter((doc: Document) => doc.permalink.includes("/substances/"))
@@ -129,34 +158,18 @@ export default function FoodSubstances({details}: FoodSubstancesProps): React.Re
       const tagLabel = tag.label
       // Only map substance-related tags, skip category tags like "Substance", "Nutrient", etc.
       // Category tags are broad classifications that multiple substances can share, so they shouldn't be used as keys
-      const categoryTags = [
-        "Substance",
-        "Nutrient",
-        "Bioactive",
-        "Metabolite",
-        "Vitamin",
-        "Mineral",
-        "Fatty Acid",
-        "Amino Acid",
-        "Polyphenol",
-        "Carotenoid",
-        "Flavonoid",
-        "Terpene",
-        "Omega-3 Fatty Acids",
-        "Omega-6 Fatty Acids",
-        "SCFAs",
-        "Antioxidant",
-        "Lipid",
-      ]
       if (!categoryTags.includes(tagLabel)) {
         substanceNameMap.set(tagLabel, substance)
       }
     })
   })
 
+  // Filter out category tags and other non-substance tags from food tags before matching
+  const substanceTagsToCheck = foodTagLabels.filter((tag: string) => !categoryTags.includes(tag))
+
   // Find substances where the food has a tag that exactly matches a substance name
   // Only match on exact substance names, not category tags like "Polyphenol"
-  const relatedSubstances = foodTagLabels
+  const relatedSubstances = substanceTagsToCheck
     .map((foodTag: string) => substanceNameMap.get(foodTag))
     .filter((substance: Document | undefined): substance is Document => substance !== undefined)
 

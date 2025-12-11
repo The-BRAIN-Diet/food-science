@@ -1,0 +1,47 @@
+---
+id: vitamin-c
+title: Vitamin C (Ascorbate)
+sidebar_label: Vitamin C
+description: Antioxidant; supports iron absorption; neuronal SVCT2 transport
+tags:
+  - Substance
+  - Nutrient
+  - Vitamin
+  - Vitamin C
+  - Inflammation
+  - Oxidative Stress
+  - Hormonal Response
+  - Stress Response
+  - Neurochemical Balance
+list_image: /img/icons/nutrients.svg
+mechanisms:
+  Inflammation: Antioxidant properties; supports anti-inflammatory effects
+  Oxidative Stress: Key water-soluble antioxidant; works within antioxidant network with vitamin E, CoQ10, and polyphenols
+  Hormonal Response: Supports norepinephrine synthesis as cofactor
+  Stress Response: Supports stress response through antioxidant and neurochemical effects
+  Neurochemical Balance: Supports norepinephrine synthesis; transported in brain via SVCT2
+inchikey: CIWBSHSKHKDKBQ-JLAZNSOCSA-N
+inchi_image: /img/inchi/CIWBSHSKHKDKBQ-JLAZNSOCSA-N.png
+---
+
+## Overview
+
+Vitamin C, also known as ascorbate, is a water-soluble vitamin that functions as a key antioxidant in the body. It works within antioxidant networks alongside vitamin E, CoQ10, and polyphenols, with these compounds regenerating each other to maintain antioxidant capacity. Vitamin C is essential for the synthesis of norepinephrine, serving as a cofactor in the conversion of dopamine to norepinephrine, which supports attention, arousal, and executive function. In the brain, vitamin C is actively transported via SVCT2 transporters to maintain adequate levels. Vitamin C also enhances the absorption of non-heme iron from plant sources when consumed together.
+
+## Recipes
+
+<SubstanceRecipes tag="Vitamin C" />
+
+## Foods
+
+<SubstanceFoods tag="Vitamin C" />
+
+## Biological Mechanisms and Implications
+
+<SubstanceMatrix tag="Vitamin C" />
+
+## References
+
+- Vitamin C works within antioxidant networks with vitamin E, CoQ10, and polyphenols, with these compounds regenerating each other in vivo [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_antioxidant_1997)
+- Spacing tea/coffee from iron-rich plant meals or adding vitamin C improves iron uptake; SVCT2 maintains brain ascorbate
+- Vitamin C supports norepinephrine synthesis as a cofactor, supporting attention, arousal, and executive modulation

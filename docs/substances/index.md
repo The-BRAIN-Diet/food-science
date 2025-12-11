@@ -10,23 +10,43 @@ list_image: /img/icons/ingredients.svg
 
 # Substances Index
 
-This page organizes all substances referenced in the BRAIN Diet documentation according to their biological classification: **Nutrients** (essential), **Bioactive Substances** (non-essential, functional), and **Metabolites** (derived from digestion or microbial action).
+This page organizes all substances referenced in the BRAIN Diet documentation according to their biological classification: **Nutrients** (essential), **Bioactive Compounds** (non-essential, functional), and **Microbial Metabolites** (derived from digestion or microbial action).
 
-## Nutrients (Essential Substances)
+## 1. Nutrients (Essential + Classical)
 
-#### Fat → Fatty Acids
+### 1.1 Macronutrients
 
-<TagList tag="Fatty Acid" filter="substances" />
+#### Amino Acids
 
-#### Phospholipids
+**Essential Amino Acids**
+
+<TagList tag="Essential Amino Acid" filter="substances" />
+
+**Conditional Amino Acids**
+
+<TagList tag="Nonessential Amino Acid" filter="substances" />
+
+#### Fatty Acids
+
+**Saturated Fatty Acids**
+
+<TagList tag="Saturated-Fat" filter="substances" />
+
+**Polyunsaturated Fatty Acids (PUFAs)**
+
+**Omega-3 Fatty Acids**
+
+<TagList tag="Omega-3 Fatty Acids" filter="substances" />
+
+**Omega-6 Fatty Acids**
+
+<TagList tag="Omega-6 Fatty Acids" filter="substances" />
+
+**Phospholipids**
 
 <TagList tag="Phospholipid" filter="substances" />
 
-### Micronutrients
-
-#### Essential Amino Acids
-
-<TagList tag="Essential Amino Acid" filter="substances" />
+### 1.2 Micronutrients
 
 #### Vitamins
 
@@ -34,32 +54,68 @@ This page organizes all substances referenced in the BRAIN Diet documentation ac
 
 #### Minerals
 
+**Macro Minerals**
+
 <TagList tag="Mineral" filter="substances" />
 
-## Bioactive Substances (Non-Essential, Functional)
+**Trace Minerals**
 
-### Polyphenols
+<TagList tag="Mineral" filter="substances" />
 
-<TagList tag="Polyphenol" filter="substances" />
+## 2. Bioactive Compounds (Non-Essential, Functional)
 
-### Flavonoids
+### 2.1 Polyphenols
+
+**Flavonoids**
 
 <TagList tag="Flavonoid" filter="substances" />
 
-### Carotenoids
+**Flavan-3-ols**
+
+<TagList tag="Polyphenol" filter="substances" />
+
+**Flavonols**
+
+<TagList tag="Flavonoid" filter="substances" />
+
+**Isoflavones**
+
+<TagList tag="Flavonoid" filter="substances" />
+
+**Phenolic Acids**
+
+<TagList tag="Polyphenol" filter="substances" />
+
+**Secoiridoids**
+
+<TagList tag="Polyphenol" filter="substances" />
+
+### 2.2 Carotenoids
 
 <TagList tag="Carotenoid" filter="substances" />
 
-### Terpenes
+### 2.3 Terpenes & Terpenoids
 
-### Lipid Bioactives
+<TagList tag="Terpene" filter="substances" />
+
+### 2.4 Lipid-Based Compounds
 
 <TagList tag="Lipid" filter="substances" />
 
-### Phytochemicals
+### 2.5 Alkaloids
 
-- Sulforaphane, allicin (pages to be added)
+<TagList tag="Bioactive" filter="substances" />
 
-### Microbial Components
+### 2.6 Choline & Methylation-Relevant Molecules
 
-- Pre/pro/postbiotics (pages to be added)
+<TagList tag="Bioactive" filter="substances" />
+
+## 3. Microbial Metabolites (Postbiotic Layer)
+
+### 3.1 Short-Chain Fatty Acids (SCFAs)
+
+<TagList tag="Metabolite" filter="substances" />
+
+### 3.2 Secondary Plant Metabolite Conversions
+
+<TagList tag="Metabolite" filter="substances" />

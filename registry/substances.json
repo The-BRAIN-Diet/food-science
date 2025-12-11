@@ -1,0 +1,779 @@
+{
+  "//": "Canonical substance registry for The BRAIN Diet. This file will define the correct path, tags, and metadata for every substance.",
+  "taurine": {
+    "path": "bioactive-compounds/taurine.md",
+    "tags": [
+      "bioactive"
+    ],
+    "title": "Taurine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "choline": {
+    "path": "bioactive-compounds/choline-methylation/choline.md",
+    "tags": [
+      "bioactive",
+      "choline"
+    ],
+    "title": "Choline",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "coq10": {
+    "path": "bioactive-compounds/lipid-based/coq10.md",
+    "tags": [
+      "bioactive",
+      "lipid"
+    ],
+    "title": "Coq10",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "creatine": {
+    "path": "bioactive-compounds/lipid-based/creatine.md",
+    "tags": [
+      "bioactive",
+      "lipid"
+    ],
+    "title": "Creatine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "berberine": {
+    "path": "bioactive-compounds/alkaloids/berberine.md",
+    "tags": [
+      "alkaloid",
+      "bioactive"
+    ],
+    "title": "Berberine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "l-theanine": {
+    "path": "bioactive-compounds/alkaloids/l-theanine.md",
+    "tags": [
+      "alkaloid",
+      "bioactive"
+    ],
+    "title": "L Theanine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "lutein": {
+    "path": "bioactive-compounds/carotenoids/lutein.md",
+    "tags": [
+      "bioactive",
+      "carotenoid"
+    ],
+    "title": "Lutein",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "zeaxanthin": {
+    "path": "bioactive-compounds/carotenoids/zeaxanthin.md",
+    "tags": [
+      "bioactive",
+      "carotenoid"
+    ],
+    "title": "Zeaxanthin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "beta-carotene": {
+    "path": "bioactive-compounds/carotenoids/beta-carotene.md",
+    "tags": [
+      "bioactive",
+      "carotenoid"
+    ],
+    "title": "Beta Carotene",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "lycopene": {
+    "path": "bioactive-compounds/carotenoids/lycopene.md",
+    "tags": [
+      "bioactive",
+      "carotenoid"
+    ],
+    "title": "Lycopene",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "tyrosol": {
+    "path": "bioactive-compounds/polyphenols/phenolic-acids/tyrosol.md",
+    "tags": [
+      "bioactive",
+      "phenolic-acid",
+      "polyphenol"
+    ],
+    "title": "Tyrosol",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "hydroxytyrosol": {
+    "path": "bioactive-compounds/polyphenols/phenolic-acids/hydroxytyrosol.md",
+    "tags": [
+      "bioactive",
+      "phenolic-acid",
+      "polyphenol"
+    ],
+    "title": "Hydroxytyrosol",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "oleacein": {
+    "path": "bioactive-compounds/polyphenols/secoiridoids/oleacein.md",
+    "tags": [
+      "bioactive",
+      "polyphenol",
+      "secoiridoid"
+    ],
+    "title": "Oleacein",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "oleocanthal": {
+    "path": "bioactive-compounds/polyphenols/secoiridoids/oleocanthal.md",
+    "tags": [
+      "bioactive",
+      "polyphenol",
+      "secoiridoid"
+    ],
+    "title": "Oleocanthal",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "oleuropein": {
+    "path": "bioactive-compounds/polyphenols/secoiridoids/oleuropein.md",
+    "tags": [
+      "bioactive",
+      "polyphenol",
+      "secoiridoid"
+    ],
+    "title": "Oleuropein",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "quercetin": {
+    "path": "bioactive-compounds/polyphenols/flavonols/quercetin.md",
+    "tags": [
+      "bioactive",
+      "flavonol",
+      "polyphenol"
+    ],
+    "title": "Quercetin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "egcg": {
+    "path": "bioactive-compounds/polyphenols/flavan-3-ols/egcg.md",
+    "tags": [
+      "bioactive",
+      "flavan-3-ol",
+      "polyphenol"
+    ],
+    "title": "Egcg",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "genistein": {
+    "path": "bioactive-compounds/polyphenols/isoflavones/genistein.md",
+    "tags": [
+      "bioactive",
+      "isoflavone",
+      "polyphenol"
+    ],
+    "title": "Genistein",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "curcumin": {
+    "path": "bioactive-compounds/polyphenols/curcuminoids/curcumin.md",
+    "tags": [
+      "bioactive",
+      "curcuminoid",
+      "polyphenol"
+    ],
+    "title": "Curcumin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "saffron": {
+    "path": "bioactive-compounds/terpenes/monoterpenes/saffron.md",
+    "tags": [
+      "bioactive",
+      "monoterpene",
+      "terpene"
+    ],
+    "title": "Saffron",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "cinnamaldehyde": {
+    "path": "bioactive-compounds/terpenes/phenylpropanoids/cinnamaldehyde.md",
+    "tags": [
+      "bioactive",
+      "phenylpropanoid",
+      "terpene"
+    ],
+    "title": "Cinnamaldehyde",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "tyrosine": {
+    "path": "nutrients/macronutrients/amino-acids/conditionals/tyrosine.md",
+    "tags": [
+      "amino-acid",
+      "nonessential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Tyrosine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "glycine": {
+    "path": "nutrients/macronutrients/amino-acids/conditionals/glycine.md",
+    "tags": [
+      "amino-acid",
+      "nonessential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Glycine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "threonine": {
+    "path": "nutrients/macronutrients/amino-acids/essential/threonine.md",
+    "tags": [
+      "amino-acid",
+      "essential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Threonine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "phenylalanine": {
+    "path": "nutrients/macronutrients/amino-acids/essential/phenylalanine.md",
+    "tags": [
+      "amino-acid",
+      "essential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Phenylalanine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "lysine": {
+    "path": "nutrients/macronutrients/amino-acids/essential/lysine.md",
+    "tags": [
+      "amino-acid",
+      "essential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Lysine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "isoleucine": {
+    "path": "nutrients/macronutrients/amino-acids/essential/isoleucine.md",
+    "tags": [
+      "amino-acid",
+      "essential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Isoleucine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "leucine": {
+    "path": "nutrients/macronutrients/amino-acids/essential/leucine.md",
+    "tags": [
+      "amino-acid",
+      "essential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Leucine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "histidine": {
+    "path": "nutrients/macronutrients/amino-acids/essential/histidine.md",
+    "tags": [
+      "amino-acid",
+      "essential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Histidine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "methionine": {
+    "path": "nutrients/macronutrients/amino-acids/essential/methionine.md",
+    "tags": [
+      "amino-acid",
+      "essential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Methionine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "valine": {
+    "path": "nutrients/macronutrients/amino-acids/essential/valine.md",
+    "tags": [
+      "amino-acid",
+      "essential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Valine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "tryptophan": {
+    "path": "nutrients/macronutrients/amino-acids/essential/tryptophan.md",
+    "tags": [
+      "amino-acid",
+      "essential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Tryptophan",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "phosphatidylserine": {
+    "path": "nutrients/macronutrients/fatty-acids/phospholipids/phosphatidylserine.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "phospholipid"
+    ],
+    "title": "Phosphatidylserine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "phosphatidylethanolamine": {
+    "path": "nutrients/macronutrients/fatty-acids/phospholipids/phosphatidylethanolamine.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "phospholipid"
+    ],
+    "title": "Phosphatidylethanolamine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "phosphatidylcholine": {
+    "path": "nutrients/macronutrients/fatty-acids/phospholipids/phosphatidylcholine.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "phospholipid"
+    ],
+    "title": "Phosphatidylcholine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "capric-triglyceride": {
+    "path": "nutrients/macronutrients/fatty-acids/saturated/capric-triglyceride.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "saturated-fat"
+    ],
+    "title": "Capric Triglyceride",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "caprylic-triglyceride": {
+    "path": "nutrients/macronutrients/fatty-acids/saturated/caprylic-triglyceride.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "saturated-fat"
+    ],
+    "title": "Caprylic Triglyceride",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "mct-medium-chain-triglycerides": {
+    "path": "nutrients/macronutrients/fatty-acids/saturated/mct-medium-chain-triglycerides.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "saturated-fat"
+    ],
+    "title": "Mct Medium Chain Triglycerides",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "caproic-triglyceride": {
+    "path": "nutrients/macronutrients/fatty-acids/saturated/caproic-triglyceride.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "saturated-fat"
+    ],
+    "title": "Caproic Triglyceride",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "omega-3": {
+    "path": "nutrients/macronutrients/fatty-acids/pufas/omega-3/omega-3.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "omega-3",
+      "pufa"
+    ],
+    "title": "Omega 3",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "dha-docosahexaenoic-acid": {
+    "path": "nutrients/macronutrients/fatty-acids/pufas/omega-3/dha-docosahexaenoic-acid.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "omega-3",
+      "pufa"
+    ],
+    "title": "Dha Docosahexaenoic Acid",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "epa-eicosapentaenoic-acid": {
+    "path": "nutrients/macronutrients/fatty-acids/pufas/omega-3/epa-eicosapentaenoic-acid.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "omega-3",
+      "pufa"
+    ],
+    "title": "Epa Eicosapentaenoic Acid",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "dpa-docosapentaenoic-acid": {
+    "path": "nutrients/macronutrients/fatty-acids/pufas/omega-3/dpa-docosapentaenoic-acid.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "omega-3",
+      "pufa"
+    ],
+    "title": "Dpa Docosapentaenoic Acid",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "ala-alpha-linolenic-acid": {
+    "path": "nutrients/macronutrients/fatty-acids/pufas/omega-3/ala-alpha-linolenic-acid.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "omega-3",
+      "pufa"
+    ],
+    "title": "Ala Alpha Linolenic Acid",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "linoleic-acid": {
+    "path": "nutrients/macronutrients/fatty-acids/pufas/omega-6/linoleic-acid.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "omega-6",
+      "pufa"
+    ],
+    "title": "Linoleic Acid",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "arachidonic-acid": {
+    "path": "nutrients/macronutrients/fatty-acids/pufas/omega-6/arachidonic-acid.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "omega-6",
+      "pufa"
+    ],
+    "title": "Arachidonic Acid",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "vitamin-b3": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-b3.md",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "title": "Vitamin B3",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "vitamin-b2": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-b2.md",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "title": "Vitamin B2",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "vitamin-b6": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-b6.md",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "title": "Vitamin B6",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "vitamin-c": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-c.md",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "title": "Vitamin C",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "vitamin-b9": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-b9.md",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "title": "Vitamin B9",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "vitamin-e": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-e.md",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "title": "Vitamin E",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "vitamin-a": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-a.md",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "title": "Vitamin A",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "vitamin-d": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-d.md",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "title": "Vitamin D",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "vitamin-b12": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-b12.md",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "title": "Vitamin B12",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "vitamin-b1": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-b1.md",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "title": "Vitamin B1",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "vitamin-b5": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-b5.md",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "title": "Vitamin B5",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "vitamin-k2": {
+    "path": "nutrients/micronutrients/vitamins/vitamin-k2.md",
+    "tags": [
+      "nutrient",
+      "vitamin"
+    ],
+    "title": "Vitamin K2",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "iodine": {
+    "path": "nutrients/micronutrients/minerals/trace/iodine.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Iodine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "iron": {
+    "path": "nutrients/micronutrients/minerals/trace/iron.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Iron",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "copper": {
+    "path": "nutrients/micronutrients/minerals/trace/copper.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Copper",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "zinc": {
+    "path": "nutrients/micronutrients/minerals/trace/zinc.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Zinc",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "manganese": {
+    "path": "nutrients/micronutrients/minerals/trace/manganese.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Manganese",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "selenium": {
+    "path": "nutrients/micronutrients/minerals/trace/selenium.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Selenium",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "potassium": {
+    "path": "nutrients/micronutrients/minerals/macro/potassium.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Potassium",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "magnesium": {
+    "path": "nutrients/micronutrients/minerals/macro/magnesium.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Magnesium",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "calcium": {
+    "path": "nutrients/micronutrients/minerals/macro/calcium.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Calcium",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "sodium": {
+    "path": "nutrients/micronutrients/minerals/macro/sodium.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Sodium",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "urolithin-a": {
+    "path": "microbial-metabolites/secondary-plant-conversions/urolithin-a.md",
+    "tags": [
+      "metabolite",
+      "postbiotic"
+    ],
+    "title": "Urolithin A",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "propionate": {
+    "path": "microbial-metabolites/scfas/propionate.md",
+    "tags": [
+      "metabolite",
+      "postbiotic",
+      "scfa"
+    ],
+    "title": "Propionate",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "butyrate": {
+    "path": "microbial-metabolites/scfas/butyrate.md",
+    "tags": [
+      "metabolite",
+      "postbiotic",
+      "scfa"
+    ],
+    "title": "Butyrate",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "acetate": {
+    "path": "microbial-metabolites/scfas/acetate.md",
+    "tags": [
+      "metabolite",
+      "postbiotic",
+      "scfa"
+    ],
+    "title": "Acetate",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "scfas": {
+    "path": "microbial-metabolites/scfas/scfas.md",
+    "tags": [
+      "metabolite",
+      "postbiotic",
+      "scfa"
+    ],
+    "title": "Scfas",
+    "inchikey": "",
+    "list_image": ""
+  }
+}
