@@ -34,6 +34,8 @@ This page organizes all substances referenced in the BRAIN Diet documentation ac
 
 **Polyunsaturated Fatty Acids (PUFAs)**
 
+<TagList tag="Pufa" filter="substances" />
+
 **Omega-3 Fatty Acids**
 
 <TagList tag="Omega-3 Fatty Acids" filter="substances" />
@@ -56,11 +58,13 @@ This page organizes all substances referenced in the BRAIN Diet documentation ac
 
 **Macro Minerals**
 
-<TagList tag="Mineral" filter="substances" />
+<TagList tag="Macro Mineral" filter="substances" />
 
 **Trace Minerals**
 
-<TagList tag="Mineral" filter="substances" />
+<TagList tag="Trace Mineral" filter="substances" />
+
+---
 
 ## 2. Bioactive Compounds (Non-Essential, Functional)
 
@@ -72,23 +76,23 @@ This page organizes all substances referenced in the BRAIN Diet documentation ac
 
 **Flavan-3-ols**
 
-<TagList tag="Polyphenol" filter="substances" />
+<TagList tag="Flavan-3-ol" filter="substances" />
 
 **Flavonols**
 
-<TagList tag="Flavonoid" filter="substances" />
+<TagList tag="Flavonol" filter="substances" />
 
 **Isoflavones**
 
-<TagList tag="Flavonoid" filter="substances" />
+<TagList tag="Isoflavone" filter="substances" />
 
 **Phenolic Acids**
 
-<TagList tag="Polyphenol" filter="substances" />
+<TagList tag="Phenolic-Acid" filter="substances" />
 
 **Secoiridoids**
 
-<TagList tag="Polyphenol" filter="substances" />
+<TagList tag="Secoiridoid" filter="substances" />
 
 ### 2.2 Carotenoids
 
@@ -100,22 +104,24 @@ This page organizes all substances referenced in the BRAIN Diet documentation ac
 
 ### 2.4 Lipid-Based Compounds
 
-<TagList tag="Lipid" filter="substances" />
+<TagList tag="Lipid-Based" filter="substances" />
 
 ### 2.5 Alkaloids
 
-<TagList tag="Bioactive" filter="substances" />
+<TagList tag="Alkaloid" filter="substances" />
 
 ### 2.6 Choline & Methylation-Relevant Molecules
 
-<TagList tag="Bioactive" filter="substances" />
+<TagList tag="Choline-Methylation" filter="substances" />
+
+---
 
 ## 3. Microbial Metabolites (Postbiotic Layer)
 
 ### 3.1 Short-Chain Fatty Acids (SCFAs)
 
-<TagList tag="Metabolite" filter="substances" />
+<TagList tag="SCFA" filter="substances" />
 
 ### 3.2 Secondary Plant Metabolite Conversions
 
-<TagList tag="Metabolite" filter="substances" />
+<TagList tag="Secondary-Metabolite" filter="substances" />

@@ -8,6 +8,7 @@ tags:
   - Bioactive
   - Polyphenol
   - Flavonoid
+  - Flavan-3-ol
   - EGCG
   - Inflammation
   - Oxidative Stress

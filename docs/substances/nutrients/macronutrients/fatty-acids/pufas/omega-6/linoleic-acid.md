@@ -7,6 +7,7 @@ tags:
   - Substance
   - Nutrient
   - Fatty Acid
+  - Pufa
   - Omega-6 Fatty Acids
   - Linoleic Acid
   - Inflammation

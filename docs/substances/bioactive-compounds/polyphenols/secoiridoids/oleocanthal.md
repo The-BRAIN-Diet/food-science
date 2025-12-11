@@ -7,6 +7,7 @@ tags:
   - Substance
   - Bioactive
   - Polyphenol
+  - Secoiridoid
   - Oleocanthal
   - Inflammation
 list_image: /img/icons/bioactive.svg

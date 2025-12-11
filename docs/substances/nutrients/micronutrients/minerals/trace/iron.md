@@ -7,6 +7,7 @@ tags:
   - Substance
   - Nutrient
   - Mineral
+  - Trace Mineral
   - Iron
   - Neurochemical Balance
   - Mitochondrial Support

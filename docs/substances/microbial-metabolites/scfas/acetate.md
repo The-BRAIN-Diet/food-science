@@ -7,6 +7,7 @@ tags:
   - Substance
   - Metabolite
   - SCFAs
+  - SCFA
   - Acetate
   - Gut Microbiome
   - Inflammation

@@ -4,10 +4,11 @@ title: Berberine
 sidebar_label: Berberine
 description: Polyphenolic alkaloid; glycemic control; antimicrobial effects; microbiome modulation
 tags:
-  - Polyphenol
-  - Berberine
   - Substance
   - Bioactive
+  - Polyphenol
+  - Alkaloid
+  - Berberine
   - Insulin Response
   - Gut Microbiome
   - Inflammation

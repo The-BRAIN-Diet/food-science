@@ -7,6 +7,7 @@ tags:
   - Substance
   - Bioactive
   - Polyphenol
+  - Secoiridoid
   - Oleacein
   - Oxidative Stress
 list_image: /img/icons/bioactive.svg

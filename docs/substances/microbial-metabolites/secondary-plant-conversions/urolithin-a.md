@@ -6,6 +6,7 @@ description: Microbiome-derived metabolite from ellagitannins; supports mitochon
 tags:
   - Substance
   - Metabolite
+  - Secondary-Metabolite
   - Urolithin A
   - Gut Microbiome
   - Mitochondrial Support

@@ -7,6 +7,7 @@ tags:
   - Substance
   - Bioactive
   - Polyphenol
+  - Secoiridoid
   - Oleuropein
   - Mitochondrial Support
   - Oxidative Stress

@@ -7,7 +7,9 @@ tags:
   - Substance
   - Nutrient
   - Fatty Acid
+  - Pufa
   - ALA
+  - Omega-3 Fatty Acids
   - Inflammation
   - Oxidative Stress
 list_image: /img/icons/nutrients.svg

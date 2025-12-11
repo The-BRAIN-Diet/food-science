@@ -6,6 +6,7 @@ description: Calming amino acid from tea; increases alpha waves; sleep-friendly
 tags:
   - Substance
   - Bioactive
+  - Alkaloid
   - L-Theanine
   - Hormonal Response
   - Stress Response

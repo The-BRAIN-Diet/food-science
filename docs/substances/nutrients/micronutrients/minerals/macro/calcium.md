@@ -7,6 +7,7 @@ tags:
   - Substance
   - Nutrient
   - Mineral
+  - Macro Mineral
   - Calcium
   - Hormonal Response
   - Neurochemical Balance

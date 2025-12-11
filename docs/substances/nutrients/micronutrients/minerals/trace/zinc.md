@@ -7,6 +7,7 @@ tags:
   - Substance
   - Nutrient
   - Mineral
+  - Trace Mineral
   - Zinc
   - Methylation
   - Neurochemical Balance

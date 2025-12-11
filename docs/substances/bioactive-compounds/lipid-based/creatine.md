@@ -7,6 +7,7 @@ tags:
   - Substance
   - Bioactive
   - Lipid
+  - Lipid-Based
   - Creatine
   - Mitochondrial Support
 list_image: /img/icons/bioactive.svg

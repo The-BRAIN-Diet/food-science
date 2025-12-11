@@ -8,6 +8,7 @@ tags:
   - Bioactive
   - Polyphenol
   - Flavonoid
+  - Isoflavone
   - Genistein
   - Endocannabinoid System
   - Inflammation

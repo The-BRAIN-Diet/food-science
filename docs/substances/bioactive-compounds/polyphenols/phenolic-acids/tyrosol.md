@@ -7,6 +7,7 @@ tags:
   - Substance
   - Bioactive
   - Polyphenol
+  - Phenolic-Acid
   - Tyrosol
   - Neurochemical Balance
   - Oxidative Stress

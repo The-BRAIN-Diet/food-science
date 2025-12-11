@@ -7,6 +7,7 @@ tags:
   - Substance
   - Metabolite
   - SCFAs
+  - SCFA
   - Gut Microbiome
   - Mitochondrial Support
   - Inflammation

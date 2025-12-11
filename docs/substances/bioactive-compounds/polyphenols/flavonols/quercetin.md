@@ -8,6 +8,7 @@ tags:
   - Bioactive
   - Polyphenol
   - Flavonoid
+  - Flavonol
   - Quercetin
   - Inflammation
   - Oxidative Stress

@@ -7,6 +7,7 @@ tags:
   - Substance
   - Nutrient
   - Mineral
+  - Macro Mineral
   - Magnesium
   - Neurochemical Balance
   - Mitochondrial Support

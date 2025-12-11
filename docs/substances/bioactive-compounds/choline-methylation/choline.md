@@ -4,7 +4,10 @@ title: Choline
 sidebar_label: Choline
 description: Acetylcholine precursor; methyl donor; phospholipid synthesis for membranes
 tags:
+  - Substance
+  - Bioactive
   - Lipid
+  - Choline-Methylation
   - Choline
   - Methylation
   - Neurochemical Balance

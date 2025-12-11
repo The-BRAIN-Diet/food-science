@@ -7,6 +7,7 @@ tags:
   - Substance
   - Bioactive
   - Lipid
+  - Lipid-Based
   - CoQ10
   - Mitochondrial Support
   - Oxidative Stress
