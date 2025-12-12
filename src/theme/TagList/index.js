@@ -47,34 +47,18 @@ export default function TagList(props) {
   let oneTag = [];
   
   if (props.tag) {
-    // If filtering for substances, ONLY get substances (don't include foods)
+    // If filtering for substances, use the plugin data directly for exact tag matching
     if (filter === '/substances/') {
-      const allDocs = Object.values(allTags).flat();
-      const allSubstances = allDocs.filter(d => d.permalink && d.permalink.includes('/substances/'));
+      // First try to get from allTags[tag] - this is the most direct and efficient
+      oneTag = allTags[props.tag] || [];
       
-      // Remove duplicates
+      // Filter to only substances and remove duplicates
+      const substanceDocs = oneTag.filter(d => d.permalink && d.permalink.includes('/substances/'));
       const uniqueSubstances = Array.from(
-        new Map(allSubstances.map(d => [d.permalink, d])).values()
+        new Map(substanceDocs.map(d => [d.permalink, d])).values()
       );
       
-      // Normalize tag name for matching
-      const getTagName = (title) => {
-        return title.split('(')[0].trim();
-      };
-      
-      const tagName = getTagName(props.tag);
-      
-      // Find substances that have the tag
-      const taggedSubstances = uniqueSubstances.filter(substance => {
-        if (!substance.tags || !Array.isArray(substance.tags)) return false;
-        const substanceTagLabels = substance.tags.map(t => typeof t === 'string' ? t : t.label);
-        return substanceTagLabels.some(substanceTag => {
-          const normalizedSubstanceTag = getTagName(substanceTag);
-          return substanceTag === props.tag || substanceTag === tagName || normalizedSubstanceTag === tagName;
-        });
-      });
-      
-      oneTag = taggedSubstances;
+      oneTag = uniqueSubstances;
     } else {
       // First try to get from allTags[tag]
       oneTag = allTags[props.tag] || [];

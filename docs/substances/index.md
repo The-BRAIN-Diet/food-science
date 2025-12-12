@@ -32,9 +32,11 @@ This page organizes all substances referenced in the BRAIN Diet documentation ac
 
 <TagList tag="Saturated-Fat" filter="substances" />
 
-**Polyunsaturated Fatty Acids (PUFAs)**
+## Polyunsaturated Fatty Acids (PUFAs)
 
-<TagList tag="Pufa" filter="substances" />
+PUFAs include **Omega-3** and **Omega-6** fatty acids.  
+
+
 
 **Omega-3 Fatty Acids**
 
