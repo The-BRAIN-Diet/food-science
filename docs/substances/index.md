@@ -12,9 +12,9 @@ list_image: /img/icons/ingredients.svg
 
 This page organizes all substances referenced in the BRAIN Diet documentation according to their biological classification: **Nutrients** (essential), **Bioactive Compounds** (non-essential, functional), and **Microbial Metabolites** (derived from digestion or microbial action).
 
-## 1. Nutrients (Essential + Classical)
+## Nutrients (Essential + Classical)
 
-### 1.1 Macronutrients
+### Macronutrients
 
 #### Amino Acids
 
@@ -50,7 +50,7 @@ PUFAs include **Omega-3** and **Omega-6** fatty acids.
 
 <TagList tag="Phospholipid" filter="substances" />
 
-### 1.2 Micronutrients
+### Micronutrients
 
 #### Vitamins
 
@@ -68,9 +68,9 @@ PUFAs include **Omega-3** and **Omega-6** fatty acids.
 
 ---
 
-## 2. Bioactive Compounds (Non-Essential, Functional)
+## Bioactive Compounds (Non-Essential, Functional)
 
-### 2.1 Polyphenols
+### Polyphenols
 
 **Flavonoids**
 
@@ -96,34 +96,34 @@ PUFAs include **Omega-3** and **Omega-6** fatty acids.
 
 <TagList tag="Secoiridoid" filter="substances" />
 
-### 2.2 Carotenoids
+### Carotenoids
 
 <TagList tag="Carotenoid" filter="substances" />
 
-### 2.3 Terpenes & Terpenoids
+### Terpenes & Terpenoids
 
 <TagList tag="Terpene" filter="substances" />
 
-### 2.4 Lipid-Based Compounds
+### Lipid-Based Compounds
 
 <TagList tag="Lipid-Based" filter="substances" />
 
-### 2.5 Alkaloids
+### Alkaloids
 
 <TagList tag="Alkaloid" filter="substances" />
 
-### 2.6 Choline & Methylation-Relevant Molecules
+### Choline & Methylation-Relevant Molecules
 
 <TagList tag="Choline-Methylation" filter="substances" />
 
 ---
 
-## 3. Microbial Metabolites (Postbiotic Layer)
+## Microbial Metabolites (Postbiotic Layer)
 
-### 3.1 Short-Chain Fatty Acids (SCFAs)
+### Short-Chain Fatty Acids (SCFAs)
 
 <TagList tag="SCFA" filter="substances" />
 
-### 3.2 Secondary Plant Metabolite Conversions
+### Secondary Plant Metabolite Conversions
 
 <TagList tag="Secondary-Metabolite" filter="substances" />
