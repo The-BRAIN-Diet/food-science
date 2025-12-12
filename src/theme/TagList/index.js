@@ -8,13 +8,16 @@ import InChIImage from '../InChIImage';
 function DocItemImage({ doc }) {
   const isSubstance = doc.permalink && doc.permalink.includes("/substances/");
   const inchikey = doc.frontMatter?.inchikey;
+  const inchiImage = doc.frontMatter?.inchi_image;
   const listImage = doc.frontMatter?.list_image;
 
   return (
     <article key={doc.title} className="margin-vert--lg">
       <div className={styles.columns}>
         <div className={styles.left}>
-          {isSubstance && inchikey ? (
+          {isSubstance && inchiImage ? (
+            <img src={inchiImage} alt="Chemical structure" className={styles.articleImage} />
+          ) : isSubstance && inchikey ? (
             <InChIImage inchikey={inchikey} fallback={listImage} className={styles.articleImage} />
           ) : (
             <img src={listImage || "/img/icons/ingredients.svg"} className={styles.articleImage} />
@@ -132,7 +135,7 @@ export default function TagList(props) {
         filteredDocs.length === 0 ? (
           <em>no documents tagged</em>
         ) : (
-          filteredDocs.map(d => <DocItemImage key={d.title} doc={d} />)
+          filteredDocs.map(d => <DocItemImage key={d.permalink || d.title} doc={d} />)
         )
       }
     </div>

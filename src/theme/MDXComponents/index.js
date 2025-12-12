@@ -2,6 +2,8 @@ import React from 'react';
 import MDXComponents from '@theme-original/MDXComponents';
 import Collapse from '../Collapse';
 import TagList from '../TagList';
+import SubstanceList from '../SubstanceList';
+import FolderList from '../FolderList';
 import BibTexReferences from '../BibTexReferences';
 import DocTagDocListPage from '../DocTagDocListPage';
 import FoodMatrix from '../FoodMatrix';
@@ -18,6 +20,8 @@ export default {
   ...MDXComponents,
   Collapse,
   TagList,
+  SubstanceList,
+  FolderList,
   BibTexReferences,
   DocTagDocListPage,
   FoodMatrix,

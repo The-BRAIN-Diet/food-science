@@ -30,7 +30,11 @@ module.exports = async function myPlugin(context, options) {
               frontMatter: doc.frontMatter,
             }
 
-            collection.push(shortForm);
+            // Check if this document is already in the collection (deduplicate by permalink)
+            const exists = collection.some(existing => existing.permalink === doc.permalink);
+            if (!exists) {
+              collection.push(shortForm);
+            }
             tagToDocMap[tn] = collection;
           })
         });

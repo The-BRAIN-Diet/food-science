@@ -21,9 +21,19 @@ The `docs` directory is split into several key subsections:
 - `partners`
 - `recipes`
 - `substances`
-  - `bioactive-substances`
-  - `metabolites`
-  - `nutrients`
+  - `nutrients` (Essential + Classical)
+    - `macronutrients` (amino acids, fatty acids, phospholipids)
+    - `micronutrients` (vitamins, minerals)
+  - `bioactive-compounds` (Non-Essential, Functional)
+    - `polyphenols` (flavonoids, secoiridoids, phenolic acids, etc.)
+    - `carotenoids`
+    - `terpenes`
+    - `lipid-based`
+    - `alkaloids`
+    - `choline-methylation`
+  - `microbial-metabolites` (Postbiotic Layer)
+    - `scfas`
+    - `secondary-plant-conversions`
 - `symptoms`
 - `therapeutic-areas`
 - `training`
