@@ -15,7 +15,7 @@ list_image: /img/icons/ingredients.svg
 
 ## Overview
 
-Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health. Dandelion greens are bitter greens with prebiotic fiber and are part of diverse leafy green intake.
+Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health. They are part of a diverse leafy green intake strategy that supports gut microbiome diversity.
 
 ## Recipes
 

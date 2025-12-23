@@ -6,7 +6,7 @@ description: Overview of the 6 key biological targets addressed by the BRAIN die
 tags:
   - Area
 list_image: /img/icons/biological-targets.svg
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # Biological Targets for Brain Health

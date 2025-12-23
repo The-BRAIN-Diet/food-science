@@ -14,7 +14,7 @@ list_image: /img/icons/ingredients.svg
 
 ## Overview
 
-Sage provides compounds that support memory and cognitive enhancement. Sage supports memory and cognitive enhancement at 200–400 mg/day extract or culinary doses.
+Sage provides compounds that support memory and cognitive enhancement, with therapeutic benefits demonstrated at 200–400 mg/day extract or through regular culinary doses.
 
 ## Recipes
 

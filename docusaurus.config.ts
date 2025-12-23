@@ -41,7 +41,8 @@ const config: Config = {
       'classic',
       {
         docs: {
-          // Use automatic sidebar generation
+          // Use custom sidebar configuration
+          sidebarPath: './sidebars.ts',
           sidebarCollapsible: true,
           sidebarCollapsed: true,
           // Please change this to your repo.

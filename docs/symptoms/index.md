@@ -2,9 +2,7 @@
 title: Symptoms
 sidebar_label: Symptoms
 description: Understanding symptoms and how the BRAIN Diet addresses them
-tags:
-  - Area
-sidebar_position: 7
+sidebar_position: 100
 list_image: /img/icons/symptoms.svg
 ---
 
