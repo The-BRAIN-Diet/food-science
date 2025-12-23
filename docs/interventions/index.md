@@ -2,9 +2,7 @@
 title: Interventions
 sidebar_label: Interventions
 description: Evidence-based interventions and strategies for brain health
-tags:
-  - Area
-sidebar_position: 6
+sidebar_position: 100
 list_image: /img/icons/interventions.svg
 ---
 

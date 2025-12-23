@@ -2,9 +2,7 @@
 title: Partners
 sidebar_label: Partners
 description: Connect with our partners and collaborators in brain health research
-tags:
-  - Area
-sidebar_position: 11
+sidebar_position: 100
 list_image: /img/icons/biological-targets.svg
 ---
 

@@ -19,7 +19,7 @@ function DocsArea({doc}: {doc: DocItem}) {
   const icon = doc.frontMatter.list_image || "/img/icons/biological-targets.svg"
 
   return (
-    <div className={clsx("col col--4", styles.docsArea)}>
+    <div className={clsx("col col--2", styles.docsArea)}>
       <Link to={doc.permalink} className={styles.docsAreaLink}>
         <div className={styles.docsAreaCard}>
           <div className={styles.iconContainer}>
@@ -41,23 +41,25 @@ export default function DocsAreasGrid(): ReactNode {
   const allTags = usePluginData("category-listing")
   const areaDocs: DocItem[] = allTags?.["Area"] || []
 
-  // Prioritise Recipes first on the homepage, then fall back to sidebar order
-  const getPriority = (doc: DocItem): number => {
+  // Define the visible areas in the desired order - filter by permalink path
+  const visibleDocs = areaDocs.filter(doc => {
     const permalink = doc.permalink?.toLowerCase() || ""
-
-    // Treat anything under /docs/recipes as highest priority
-    if (permalink.startsWith("/docs/recipes")) {
-      return 0
-    }
-
-    return 1
-  }
-
-  const sortedDocs = [...areaDocs].sort((a, b) => {
-    const priorityDiff = getPriority(a) - getPriority(b)
-    if (priorityDiff !== 0) return priorityDiff
-    return a.order - b.order
+    return (
+      permalink.includes("/recipes") ||
+      permalink.includes("/foods") ||
+      permalink.includes("/biological-targets") ||
+      permalink.includes("/substances") ||
+      permalink.includes("/therapeutic-areas")
+    ) && !(
+      permalink.includes("/training") ||
+      permalink.includes("/symptoms") ||
+      permalink.includes("/partners") ||
+      permalink.includes("/interventions")
+    )
   })
+
+  // Sort by sidebar_position (order): Recipes (1), Foods (2), Biological Targets (3), Substances (4), Therapeutic Areas (5)
+  const sortedDocs = visibleDocs.sort((a, b) => a.order - b.order)
 
   return (
     <section className={styles.docsAreas}>

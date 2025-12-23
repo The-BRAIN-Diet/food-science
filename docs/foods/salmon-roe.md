@@ -17,7 +17,7 @@ list_image: /img/icons/ingredients.svg
 
 ## Overview
 
-Salmon roe (fish eggs) provides omega-3 fatty acids in phospholipid-bound form, which enhances brain delivery compared to triglyceride forms. Salmon roe provides DHA, EPA, phospholipids, choline, astaxanthin; highly bioavailable; zero oxidation risk. Studies show phospholipid-bound omega-3s such as krill oil and fish roe provide EPA/DHA in a phospholipid form that gets easily converted to lysophosphatidylcholine (LPC), which was 1.9-fold more efficacious for brain gray matter DHA accretion in porcine models compared to triglyceride forms.
+Salmon roe (fish eggs) provides omega-3 fatty acids in phospholipid-bound form, which enhances brain delivery compared to triglyceride forms. It provides DHA, EPA, phospholipids, choline, and astaxanthin with high bioavailability and zero oxidation risk. Studies show phospholipid-bound omega-3s such as krill oil and fish roe provide EPA/DHA in a phospholipid form that gets easily converted to lysophosphatidylcholine (LPC), which was 1.9-fold more efficacious for brain gray matter DHA accretion in porcine models compared to triglyceride forms.
 
 ## Recipes
 

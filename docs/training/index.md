@@ -2,9 +2,7 @@
 title: Training
 sidebar_label: Training
 description: Educational resources and training materials for implementing the BRAIN Diet
-tags:
-  - Area
-sidebar_position: 8
+sidebar_position: 100
 list_image: /img/icons/training.svg
 ---
 

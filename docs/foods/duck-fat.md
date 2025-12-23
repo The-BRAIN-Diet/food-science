@@ -12,7 +12,7 @@ list_image: /img/icons/ingredients.svg
 
 ## Overview
 
-Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), suitable for roasting and pan cooking. Duck fat provides oleic acid, selenium, and palmitoleic acid (anti-inflammatory MUFA) for roasting vegetables and pan cooking.
+Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures.
 
 ## Recipes
 
