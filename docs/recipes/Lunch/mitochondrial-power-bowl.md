@@ -80,7 +80,7 @@ A vibrant, nutrient-dense bowl combining nitrate-rich leafy greens and beets wit
 - **Omega-3 balance**: Walnuts and optional hemp seeds provide ALA omega-3, supporting membrane fluidity and mitochondrial signaling pathways.
 - **Antioxidant networks**: The combination of vitamin E (from early harvest olive oil and seeds), vitamin C (from lemon and greens), and polyphenols creates a synergistic antioxidant defense system protecting mitochondrial DNA and reducing neuroinflammation.
 
-## Foods
+## Foods/Substances
 
 <RecipeFoods details={frontMatter} />
 

@@ -64,7 +64,7 @@ Nuts and seeds are high calorie and high omega 6 density; used sparingly and gau
 - Seeds provide ALA omega-3 and magnesium for neurotransmitter synthesis and membrane fluidity.
 - Yogurt supports gut–brain signaling through probiotics and postbiotic compounds.
 
-## Foods
+## Foods/Substances
 
 <RecipeFoods details={frontMatter} />
 

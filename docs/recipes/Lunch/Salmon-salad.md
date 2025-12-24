@@ -23,8 +23,6 @@ list_image: /img/recipes/Salmon-pistachio-cacoa-nibs.jpg
 A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) tone**. The combination of salmon, avocado, pistachio, raw cacao nibs, and pomegranates provides precursors for endocannabinoids, mild FAAH modulation, and a favorable omega profile. Lemon and fresh greens brighten the dish while providing fiber and micronutrients to support gut–brain communication and anti-inflammatory tone.
 
 ## Ingredients (2 servings)
-
-### Base
 - 120–150 g **wild salmon** (baked or lightly pan-seared)
 - 1 **ripe avocado**, sliced
 - 40–50 g **pistachios** (raw or dry-roasted, unsalted)
@@ -109,25 +107,7 @@ A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) 
 ### Gut–brain axis
 - Leafy greens + nut fiber → **SCFA fermentation** → **CB2 immune tone** and vagal modulation.
 
----
-
-## Ingredient → Active Compound → ECS Relevance
-
-| **Ingredient** | **Compound / Nutrient** | **Amount (per 100 g ingredient)** | **ECS / Brain Relevance** |
-|---|---|---:|---|
-| **Wild salmon** | DHA | 1100–1600 mg | Membrane fluidity → CB1 receptor insertion |
-| | EPA | 400–600 mg | Anti-inflammatory → CB2 tone preservation |
-| **Pistachios** | Oleic acid | 23–24 g | Slows AEA degradation via FAAH competition |
-| | PEA/OEA (NAEs) | trace | Endogenous ECS modulators |
-| **Avocado** | Oleic acid | 10–12 g | FAAH modulation, metabolic stability |
-| | Magnesium | 29–35 mg | NAPE-PLD cofactor → AEA synthesis |
-| **Cacao nibs** | Polyphenols | 200–400 mg | ↓ inflammatory FAAH upregulation |
-| | Theobromine/caffeine | 80–150 mg | Adenosine modulation → mood/ECS cross-talk |
-| **Early harvest olive oil** | Hydroxytyrosol & phenolics | 200–800 mg/kg | ↓ lipid peroxidation → receptor stability |
-| **Leafy greens** | Folate | 140–190 μg | Methylation → ECS enzyme regulation |
-| **Chia seeds** | ALA | 17–18 g | Omega-3 precursor (limited conversion to EPA) |
-
-## Foods
+## Foods/Substances
 <RecipeFoods details={frontMatter} />
 
 ## Biological Target Matrix

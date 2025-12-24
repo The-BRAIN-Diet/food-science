@@ -56,7 +56,7 @@ This energizing smoothie combines matcha's powerful catechins with magnesium-ric
 - Chia seeds offer ALA omega-3 for membrane fluidity and mitochondrial signalling.
 - Antioxidants reduce ROS burden, protecting mitochondrial DNA.
 
-## Foods
+## Foods/Substances
 
 <RecipeFoods details={frontMatter} />
 

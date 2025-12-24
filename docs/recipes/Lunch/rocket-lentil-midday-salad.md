@@ -63,7 +63,7 @@ This polyphenol-rich midday salad combines prebiotic quinoa or lentils with anti
 - SCFAs stabilise overnight blood-sugar and serotonin–melatonin cycling.
 - Polyphenols modulate REV-ERBα/ROR signalling for circadian rhythm regulation.
 
-## Foods
+## Foods/Substances
 
 <RecipeFoods details={frontMatter} />
 

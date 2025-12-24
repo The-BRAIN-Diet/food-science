@@ -62,7 +62,7 @@ This warming, anti-inflammatory dahl combines turmeric's powerful curcumin with 
 - Spinach supplies folate for methylation pathways.
 - Slow, even carbohydrate release supports stable glucose and calmer evening energy.
 
-## Foods
+## Foods/Substances
 
 <RecipeFoods details={frontMatter} />
 
