@@ -148,7 +148,7 @@ Low sugar, gut-supportive, hydrating — and completely natural.
 
 </Collapse>
 
-## Foods
+## Foods/Substances
 
 <RecipeFoods details={frontMatter} />
 

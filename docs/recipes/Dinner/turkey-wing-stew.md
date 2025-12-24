@@ -65,7 +65,7 @@ This deeply nourishing stew is made from **slow-cooked turkey wings**, releasing
 
 > Note: Glycine and gelatin amounts depend on simmer time and whether skin/cartilage is included.
 
-## Foods
+## Foods/Substances
 
 <RecipeFoods details={frontMatter} />
 

@@ -86,7 +86,7 @@ A delicious cereal-to-snack hybrid that delivers satisfying crunch and steady en
 - The intact grain microstructure provides mechanical fracture points and aeration, creating the characteristic crunch without relying on added fats.
 - Low glycemic profile from whole grains and minimal added sugars supports stable blood glucose and reduced insulin spikes.
 
-## Foods
+## Foods/Substances
 
 <RecipeFoods details={frontMatter} />
 

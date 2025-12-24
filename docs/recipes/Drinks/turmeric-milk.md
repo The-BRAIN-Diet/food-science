@@ -48,7 +48,7 @@ Turmeric milk combines turmeric (curcumin) with milk/fat, enhancing curcumin abs
 - Curcumin supports anti-inflammatory pathways and may help reduce neuroinflammation.
 - This drink is part of food synergy strategies that enhance nutrient bioavailability.
 
-## Foods
+## Foods/Substances
 
 <RecipeFoods details={frontMatter} />
 
