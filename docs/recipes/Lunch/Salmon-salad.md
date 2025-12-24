@@ -10,6 +10,7 @@ tags:
   - Avocado
   - Pistachios
   - Cacao
+  - Pomegranates
   - Olive Oil (Early Harvest)
   - Endocannabinoid System
   - Omega-3 Fatty Acids
@@ -19,7 +20,7 @@ list_image: /img/recipes/Salmon-pistachio-cacoa-nibs.jpg
 <img src="/img/recipes/Salmon-pistachio-cacoa-nibs.jpg" alt="ECS-Tone Salmon Bowl" width="480" />
 
 ## Overview
-A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) tone**. The combination of salmon, avocado, pistachio, and raw cacao nibs provides precursors for endocannabinoids, mild FAAH modulation, and a favorable omega profile. Lemon and fresh greens brighten the dish while providing fiber and micronutrients to support gut–brain communication and anti-inflammatory tone.
+A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) tone**. The combination of salmon, avocado, pistachio, raw cacao nibs, and pomegranates provides precursors for endocannabinoids, mild FAAH modulation, and a favorable omega profile. Lemon and fresh greens brighten the dish while providing fiber and micronutrients to support gut–brain communication and anti-inflammatory tone.
 
 ## Ingredients (2 servings)
 
@@ -29,6 +30,7 @@ A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) 
 - 40–50 g **pistachios** (raw or dry-roasted, unsalted)
 - 1 cup **mixed leafy greens** (rocket, lamb’s lettuce, baby spinach)
 - 1 tbsp **raw cacao nibs**
+- **handful of pomegranate seeds** (arils)
 - 1–2 tbsp **early harvest olive oil**
 - 1 tsp **hemp seeds** or **chia seeds**
 - juice of **½ lemon**
@@ -50,7 +52,8 @@ A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) 
 
 4. **Add toppings**  
    Sprinkle pistachios, chia/hemp.  
-   Lightly scatter cacao nibs (0.5–1 tsp per bowl) to provide bitterness and crunch.
+   Lightly scatter cacao nibs (0.5–1 tsp per bowl) to provide bitterness and crunch.  
+   Sprinkle a handful of pomegranate seeds over the bowl for sweetness and color.
 
 5. **Dress**  
    Drizzle early harvest olive oil, add lemon juice, season lightly with salt.  
@@ -63,7 +66,7 @@ A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) 
 
 ## Nutrition — **per 100 g of the prepared bowl**
 
-> Composite values using a normalized blend of salmon, avocado, pistachio, leafy greens, early harvest olive oil, chia, and cacao nibs.  
+> Composite values using a normalized blend of salmon, avocado, pistachio, leafy greens, early harvest olive oil, chia, cacao nibs, and pomegranates.  
 > Based on EU/UK reference guidelines.
 
 | **Nutrient / Substance** | **Amount per 100 g** | **RDA / RI (EU/UK)** | **% RDA** |

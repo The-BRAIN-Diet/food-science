@@ -1308,6 +1308,142 @@ Astaxanthin:
   permalink: /docs/tags/astaxanthin
   description: Carotenoid antioxidant found in salmon and seafood
 
+# Additional substance category tags
+Pufa:
+  label: PUFA
+  permalink: /docs/tags/pufa
+  description: Polyunsaturated fatty acid
+
+Saturated-Fat:
+  label: Saturated Fat
+  permalink: /docs/tags/saturated-fat
+  description: Saturated fatty acids
+
+Macro Mineral:
+  label: Macro Mineral
+  permalink: /docs/tags/macro-mineral
+  description: Essential minerals needed in larger amounts
+
+Trace Mineral:
+  label: Trace Mineral
+  permalink: /docs/tags/trace-mineral
+  description: Essential minerals needed in trace amounts
+
+Alkaloid:
+  label: Alkaloid
+  permalink: /docs/tags/alkaloid
+  description: Nitrogen-containing bioactive compounds
+
+Choline-Methylation:
+  label: Choline & Methylation
+  permalink: /docs/tags/choline-methylation
+  description: Molecules involved in choline metabolism and methylation pathways
+
+Lipid-Based:
+  label: Lipid-Based
+  permalink: /docs/tags/lipid-based
+  description: Bioactive compounds that are lipid-based
+
+Secondary-Metabolite:
+  label: Secondary Metabolite
+  permalink: /docs/tags/secondary-metabolite
+  description: Microbiome-derived metabolites from plant compounds
+
+Flavan-3-ol:
+  label: Flavan-3-ol
+  permalink: /docs/tags/flavan-3-ol
+  description: Type of flavonoid polyphenol
+
+Flavonol:
+  label: Flavonol
+  permalink: /docs/tags/flavonol
+  description: Type of flavonoid polyphenol
+
+Isoflavone:
+  label: Isoflavone
+  permalink: /docs/tags/isoflavone
+  description: Type of flavonoid polyphenol found primarily in soy
+
+Phenolic-Acid:
+  label: Phenolic Acid
+  permalink: /docs/tags/phenolic-acid
+  description: Type of polyphenol with antioxidant properties
+
+Secoiridoid:
+  label: Secoiridoid
+  permalink: /docs/tags/secoiridoid
+  description: Type of polyphenol found in olive oil
+
+DHA:
+  label: DHA (Docosahexaenoic Acid)
+  permalink: /docs/tags/dha
+  description: Omega-3 fatty acid critical for brain health
+
+EPA:
+  label: EPA (Eicosapentaenoic Acid)
+  permalink: /docs/tags/epa
+  description: Omega-3 fatty acid with anti-inflammatory properties
+
+DPA:
+  label: DPA (Docosapentaenoic Acid)
+  permalink: /docs/tags/dpa
+  description: Omega-3 fatty acid intermediate between EPA and DHA
+
+Omega-6 Fatty Acids:
+  label: Omega-6 Fatty Acids
+  permalink: /docs/tags/omega-6-fatty-acids
+  description: Polyunsaturated fatty acids including linoleic and arachidonic acid
+
+Cinnamaldehyde:
+  label: Cinnamaldehyde
+  permalink: /docs/tags/cinnamaldehyde
+  description: Key aromatic compound in cinnamon
+
+Caprylic Triglyceride:
+  label: Caprylic Triglyceride
+  permalink: /docs/tags/caprylic-triglyceride
+  description: Medium-chain triglyceride (C8)
+
+Capric Triglyceride:
+  label: Capric Triglyceride
+  permalink: /docs/tags/capric-triglyceride
+  description: Medium-chain triglyceride (C10)
+
+Caproic Triglyceride:
+  label: Caproic Triglyceride
+  permalink: /docs/tags/caproic-triglyceride
+  description: Medium-chain triglyceride (C6)
+
+Tyrosol:
+  label: Tyrosol
+  permalink: /docs/tags/tyrosol
+  description: Phenolic compound in olive oil
+
+Oleocanthal:
+  label: Oleocanthal
+  permalink: /docs/tags/oleocanthal
+  description: Secoiridoid polyphenol in olive oil with anti-inflammatory effects
+
+Oleacein:
+  label: Oleacein
+  permalink: /docs/tags/oleacein
+  description: Secoiridoid polyphenol in olive oil
+
+Acetate:
+  label: Acetate
+  permalink: /docs/tags/acetate
+  description: Short-chain fatty acid (SCFA)
+
+Butyrate:
+  label: Butyrate
+  permalink: /docs/tags/butyrate
+  description: Short-chain fatty acid (SCFA) critical for gut health
+
+Propionate:
+  label: Propionate
+  permalink: /docs/tags/propionate
+  description: Short-chain fatty acid (SCFA)
+
 # Recipe tags
 Recipe:
   label: Recipe
