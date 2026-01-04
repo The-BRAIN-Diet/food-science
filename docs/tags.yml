@@ -141,6 +141,11 @@ Food:
   permalink: /docs/tags/food
   description: Brain-healthy foods in the BRAIN Diet
 
+Arginine:
+  label: Arginine
+  permalink: /docs/tags/arginine
+  description: Conditionally essential amino acid; precursor for creatine and nitric oxide synthesis
+
 Genistein:
   label: Genistein
   permalink: /docs/tags/genistein
