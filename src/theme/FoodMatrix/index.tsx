@@ -35,6 +35,7 @@ interface TableRow {
   substance: Document
   therapeuticAreas: Document[]
   mechanism: string | null
+  contributionLevel: string
 }
 
 /**
@@ -92,6 +93,9 @@ export default function FoodMatrix({tag}: FoodMatrixProps): React.ReactElement {
 
   const foodDoc = foodDocs[0] // Use the first food document
   const foodTagLabels = foodDoc.tags.map((t: Tag) => t.label)
+  
+  // Get contribution levels from food frontmatter
+  const contributionLevels = (foodDoc.frontMatter.contribution_levels as Record<string, string> | undefined) || {}
 
   // Get all documents organized by type
   const allDocs = Object.values(allTags).flat()
@@ -249,11 +253,23 @@ export default function FoodMatrix({tag}: FoodMatrixProps): React.ReactElement {
         }
       }
 
+      // Get contribution level for this substance
+      const substanceName = getSubstanceName(substance.title)
+      const contributionLevel = contributionLevels[substanceName] || 
+                                 contributionLevels[substance.title] ||
+                                 "Contextual / minor contributor" // Default when not specified
+      
+      // Skip "Presence only (trace)" substances - they should not appear in matrix
+      if (contributionLevel === "Presence only (trace)") {
+        return // Skip this row
+      }
+      
       tableData.push({
         target: entry.target,
         substance,
         therapeuticAreas,
         mechanism,
+        contributionLevel,
       })
     })
   })
@@ -296,6 +312,7 @@ export default function FoodMatrix({tag}: FoodMatrixProps): React.ReactElement {
           <tr>
             <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Biological Target</th>
             <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Substance</th>
+            <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Contribution Level</th>
             <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Therapeutic Areas</th>
             <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Mechanism of Action</th>
           </tr>
@@ -309,6 +326,9 @@ export default function FoodMatrix({tag}: FoodMatrixProps): React.ReactElement {
                 </td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
                   <Link to={row.substance.permalink}>{row.substance.title}</Link>
+                </td>
+                <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
+                  <span style={{fontSize: "0.9em"}}>{row.contributionLevel}</span>
                 </td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
                   {row.therapeuticAreas.length > 0 ? (

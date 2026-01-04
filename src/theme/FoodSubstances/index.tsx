@@ -119,6 +119,7 @@ export default function FoodSubstances({details}: FoodSubstancesProps): React.Re
     "Vegetarian",
     "Recipe",
     "Area",
+    "Creatine", // Exclude from substance display when content is too low (e.g., nori)
   ]
 
   // Get all substance documents
@@ -167,11 +168,22 @@ export default function FoodSubstances({details}: FoodSubstancesProps): React.Re
   // Filter out category tags and other non-substance tags from food tags before matching
   const substanceTagsToCheck = foodTagLabels.filter((tag: string) => !categoryTags.includes(tag))
 
+  // Get contribution levels from food frontmatter
+  const contributionLevels = (details.contribution_levels as Record<string, string> | undefined) || {}
+
   // Find substances where the food has a tag that exactly matches a substance name
   // Only match on exact substance names, not category tags like "Polyphenol"
   const relatedSubstances = substanceTagsToCheck
     .map((foodTag: string) => substanceNameMap.get(foodTag))
     .filter((substance: Document | undefined): substance is Document => substance !== undefined)
+    .filter((substance: Document) => {
+      // Exclude "Presence only (trace)" substances from display
+      const substanceName = substance.title.split("(")[0].trim()
+      const contributionLevel = contributionLevels[substanceName] || 
+                                contributionLevels[substance.title] ||
+                                "Contextual / minor contributor" // Default when not specified
+      return contributionLevel !== "Presence only (trace)"
+    })
 
   // Sort by order, then by title
   relatedSubstances.sort((a: Document, b: Document) => {
