@@ -6,6 +6,24 @@
     background-color: var(--ifm-background-color);
 }
 
+.cardsWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.cardsRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cardsRow .docsArea {
+    flex: 0 0 auto;
+}
+
 .sectionTitle {
     text-align: center;
     font-size: 2.5rem;

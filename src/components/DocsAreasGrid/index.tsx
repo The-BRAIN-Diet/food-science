@@ -72,10 +72,12 @@ export default function DocsAreasGrid(): ReactNode {
             <p className={styles.sectionDescription}>Discover comprehensive information about the BRAIN Diet and its components</p>
           </div>
         </div>
-        <div className="row">
-          {sortedDocs.map((doc, idx) => (
-            <DocsArea key={doc.permalink || idx} doc={doc} />
-          ))}
+        <div className={styles.cardsWrapper}>
+          <div className={clsx("row", styles.cardsRow)}>
+            {sortedDocs.map((doc, idx) => (
+              <DocsArea key={doc.permalink || idx} doc={doc} />
+            ))}
+          </div>
         </div>
       </div>
     </section>
