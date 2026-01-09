@@ -95,14 +95,6 @@ const config: Config = {
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Introduction',
-          items: [
-
-          ],
-        },
-      ],
       copyright: `Copyright © ${new Date().getFullYear()} The BRAIN Diet. All rights reserved.`,
     },
     prism: {
