@@ -1551,6 +1551,11 @@ Beets:
   permalink: /docs/tags/beets
   description: Root vegetable rich in nitrates and betalains
 
+Beetroot:
+  label: Beetroot
+  permalink: /docs/tags/beetroot
+  description: Root vegetable rich in nitrates and betalains
+
 # Substance category tags
 Bioactive:
   label: Bioactive

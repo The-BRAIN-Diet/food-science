@@ -14,6 +14,7 @@ tags:
   - Spinach
   - Rocket
   - Beets
+  - Beetroot
   - Quinoa
   - Walnuts
   - Pumpkin Seeds
