@@ -1556,6 +1556,11 @@ Beetroot:
   permalink: /docs/tags/beetroot
   description: Root vegetable rich in nitrates and betalains
 
+Nitrate:
+  label: Nitrate
+  permalink: /docs/tags/nitrate
+  description: Dietary nitrate that converts to nitric oxide, supporting vascular function and mitochondrial efficiency
+
 # Substance category tags
 Bioactive:
   label: Bioactive
