@@ -8,6 +8,7 @@ tags:
   - Beetroot
   - Vegan
   - Vegetarian
+  - Nitrate
   - Vitamin B9
   - Potassium
   - Manganese
