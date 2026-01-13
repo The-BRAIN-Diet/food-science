@@ -1,5 +1,6 @@
 ---
-title: Amino-Acids
+title: Amino Acids
+sidebar_label: Amino Acids
 description: Auto-generated category page for amino-acids in The BRAIN Diet ontology.
 ---
 

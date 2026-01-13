@@ -1,5 +1,6 @@
 ---
-title: Secondary-Plant-Conversions
+title: Secondary Plant Conversions
+sidebar_label: Secondary Plant Conversions
 description: Auto-generated category page for secondary-plant-conversions in The BRAIN Diet ontology.
 ---
 
