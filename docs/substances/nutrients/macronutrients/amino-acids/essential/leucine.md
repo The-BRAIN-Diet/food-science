@@ -9,9 +9,8 @@ tags:
   - Amino Acid
   - Essential Amino Acid
   - Leucine
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/ROHFNLRQFUQHCH-YFKPBYRVSA-N.png
 inchikey: ROHFNLRQFUQHCH-YFKPBYRVSA-N
-inchi_image: /img/inchi/ROHFNLRQFUQHCH-YFKPBYRVSA-N.png
 ---
 
 ## Recipes

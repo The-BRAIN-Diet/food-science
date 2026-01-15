@@ -9,9 +9,8 @@ tags:
   - Amino Acid
   - Essential Amino Acid
   - Isoleucine
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/AGPKZVBTJJNPAG-WHFBIAKZSA-N.png
 inchikey: AGPKZVBTJJNPAG-WHFBIAKZSA-N
-inchi_image: /img/inchi/AGPKZVBTJJNPAG-WHFBIAKZSA-N.png
 ---
 
 ## Recipes

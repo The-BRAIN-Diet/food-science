@@ -11,13 +11,12 @@ tags:
   - Neurochemical Balance
   - Inflammation
   - Oxidative Stress
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/SEBIKDIMAPSUBY-RTJKDTQDSA-N.png
 mechanisms:
   Neurochemical Balance: Thought to boost serotonin; supports mood regulation and cognitive function
   Inflammation: Anti-inflammatory effects
   Oxidative Stress: Contains antioxidant crocin; supports antioxidant defenses
 inchikey: SEBIKDIMAPSUBY-RTJKDTQDSA-N
-inchi_image: /img/inchi/SEBIKDIMAPSUBY-RTJKDTQDSA-N.png
 ---
 
 ## Overview

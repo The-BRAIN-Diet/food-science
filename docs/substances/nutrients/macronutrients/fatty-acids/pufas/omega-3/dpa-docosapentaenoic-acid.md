@@ -11,11 +11,10 @@ tags:
   - DPA
   - Omega-3 Fatty Acids
   - Inflammation
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/YUFFSWGQGVEMMI-JLNKQSITSA-N.png
 mechanisms:
   Inflammation: Important in vascular health, repair, and immune modulation; emerging brain-health roles (less studied than EPA and DHA)
 inchikey: YUFFSWGQGVEMMI-JLNKQSITSA-N
-inchi_image: /img/inchi/YUFFSWGQGVEMMI-JLNKQSITSA-N.png
 ---
 
 ## Overview

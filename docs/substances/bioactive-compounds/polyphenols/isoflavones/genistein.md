@@ -14,14 +14,13 @@ tags:
   - Inflammation
   - Oxidative Stress
   - Neurochemical Balance
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/TZBJGXHYKVUXJN-UHFFFAOYSA-N.png
 mechanisms:
   Endocannabinoid System: Inhibits fatty acid amide hydrolase (FAAH), preserving anandamide levels and enhancing ECS tone; modulates dopamine, glutamate, and GABA signaling
   Inflammation: Anti-inflammatory and anti-neuroinflammatory properties; reduces neuroinflammation
   Oxidative Stress: Prevents neuronal death; increases hippocampal glutathione (GSH) and superoxide dismutase (SOD); lowers lipid peroxidation, ROS, and nitric oxide production
   Neurochemical Balance: Enhances endocannabinoid activity; modulates dopamine, glutamate, and GABA signaling pathways
 inchikey: TZBJGXHYKVUXJN-UHFFFAOYSA-N
-inchi_image: /img/inchi/TZBJGXHYKVUXJN-UHFFFAOYSA-N.png
 ---
 
 ## Overview

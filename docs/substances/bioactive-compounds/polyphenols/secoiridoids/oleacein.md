@@ -10,11 +10,10 @@ tags:
   - Secoiridoid
   - Oleacein
   - Oxidative Stress
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/XLPXUPOZUYGVPD-XNJYKOPJSA-N.png
 mechanisms:
   Oxidative Stress: Antioxidant properties; activates NRF2 pathway; supports antioxidant defenses and neuroprotection
 inchikey: XLPXUPOZUYGVPD-XNJYKOPJSA-N
-inchi_image: /img/inchi/XLPXUPOZUYGVPD-XNJYKOPJSA-N.png
 ---
 
 ## Overview

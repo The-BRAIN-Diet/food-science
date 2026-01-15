@@ -10,12 +10,11 @@ tags:
   - Vitamin B2
   - Methylation
   - Mitochondrial Support
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/AUNGANRZJHBGPY-SCRDCRAPSA-N.png
 mechanisms:
   Methylation: FAD acts as a critical cofactor for MTHFR, linking riboflavin to homocysteine recycling and methylation capacity
   Mitochondrial Support: Forms FMN/FAD coenzymes, supporting oxidative metabolism and redox balance; facilitates metabolism of B12, B6, and niacin; supports antioxidant enzymes
 inchikey: AUNGANRZJHBGPY-SCRDCRAPSA-N
-inchi_image: /img/inchi/AUNGANRZJHBGPY-SCRDCRAPSA-N.png
 ---
 
 ## Overview

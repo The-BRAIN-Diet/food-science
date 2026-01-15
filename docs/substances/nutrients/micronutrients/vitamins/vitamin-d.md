@@ -11,13 +11,12 @@ tags:
   - Hormonal Response
   - Stress Response
   - Gut Microbiome
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/QYSXJUFSXHHAJI-YRZJJWOYSA-N.png
 mechanisms:
   Hormonal Response: Modulates neurotrophic factors vital for survival and growth of neurons; supports calcium homeostasis and calcium handling
   Stress Response: Modulates immune responses to reduce inflammation in the brain; supports stress response through neurotrophic and immune effects
   Gut Microbiome: Supports gut barrier integrity; nutrient deficiencies including vitamin D disrupt tight junctions, increasing permeability
 inchikey: QYSXJUFSXHHAJI-YRZJJWOYSA-N
-inchi_image: /img/inchi/QYSXJUFSXHHAJI-YRZJJWOYSA-N.png
 ---
 
 ## Overview

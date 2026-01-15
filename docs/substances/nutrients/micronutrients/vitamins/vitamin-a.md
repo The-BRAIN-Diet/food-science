@@ -9,11 +9,10 @@ tags:
   - Vitamin
   - Vitamin A
   - Oxidative Stress
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/FPIPGXGPPPQFEQ-OVSJKPMPSA-N.png
 mechanisms:
   Oxidative Stress: Provitamin A carotenoids (β-carotene) act as antioxidants in neural tissue; contribute to antioxidant network
 inchikey: FPIPGXGPPPQFEQ-OVSJKPMPSA-N
-inchi_image: /img/inchi/FPIPGXGPPPQFEQ-OVSJKPMPSA-N.png
 ---
 
 ## Overview

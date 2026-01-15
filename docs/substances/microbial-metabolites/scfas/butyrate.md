@@ -14,7 +14,7 @@ tags:
   - Inflammation
   - Insulin Response
   - Oxidative Stress
-list_image: /img/icons/metabolite.svg
+list_image: /img/inchi/FERIUCNNQQJTOY-UHFFFAOYSA-M.png
 mechanisms:
   Gut Microbiome: Byproduct of fibre fermentation; supports intestinal barrier integrity; regulates immune responses; promotes synthesis of key neurotransmitters such as dopamine and serotonin
   Mitochondrial Support: Supports mitochondrial function, enhancing brain energy metabolism; aids in reducing cholesterol and neuroinflammation
@@ -22,7 +22,6 @@ mechanisms:
   Insulin Response: Improves insulin sensitivity and glucose metabolism; helps stabilize blood glucose and reduce insulin resistance
   Oxidative Stress: Enhances mitochondrial function during oxidative stress; supports antioxidant activity
 inchikey: FERIUCNNQQJTOY-UHFFFAOYSA-M
-inchi_image: /img/inchi/FERIUCNNQQJTOY-UHFFFAOYSA-M.png
 ---
 
 ## Overview

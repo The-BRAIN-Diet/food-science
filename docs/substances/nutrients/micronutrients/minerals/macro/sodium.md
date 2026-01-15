@@ -10,11 +10,10 @@ tags:
   - Macro Mineral
   - Sodium
   - Neurochemical Balance
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/KEAYESYHFKHZAL-UHFFFAOYSA-N.png
 mechanisms:
   Neurochemical Balance: Supports fluid balance, nerve impulse transmission, and muscle function; balance with potassium is relevant for blood pressure and neuronal excitability
 inchikey: KEAYESYHFKHZAL-UHFFFAOYSA-N
-inchi_image: /img/inchi/KEAYESYHFKHZAL-UHFFFAOYSA-N.png
 ---
 
 ## Overview

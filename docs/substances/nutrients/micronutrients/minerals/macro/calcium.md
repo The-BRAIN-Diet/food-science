@@ -11,12 +11,11 @@ tags:
   - Calcium
   - Hormonal Response
   - Neurochemical Balance
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/OYPRJOBELJOOCE-UHFFFAOYSA-N.png
 mechanisms:
   Hormonal Response: Supports calcium modulation along with vitamin D, magnesium, taurine, phospholipids, and flavonoids; supports insulin sensitivity, sympathetic arousal, and mitochondrial excitability
   Neurochemical Balance: Essential for nerve impulse transmission and neurotransmission
 inchikey: OYPRJOBELJOOCE-UHFFFAOYSA-N
-inchi_image: /img/inchi/OYPRJOBELJOOCE-UHFFFAOYSA-N.png
 ---
 
 ## Overview

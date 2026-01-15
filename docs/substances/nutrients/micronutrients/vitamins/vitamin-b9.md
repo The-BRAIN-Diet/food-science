@@ -10,12 +10,11 @@ tags:
   - Vitamin B9
   - Methylation
   - Neurochemical Balance
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/OVBPIULPVIDEAO-LBPRGKRZSA-N.png
 mechanisms:
   Methylation: Essential cofactor in remethylation of homocysteine to methionine, which is converted to S-adenosylmethionine (SAMe); SAMe fuels synthesis of dopamine, norepinephrine, and serotonin and drives phospholipid methylation in neuronal membranes
   Neurochemical Balance: Supports neurotransmitter synthesis through methylation; cofactor for dopamine synthesis alongside iron, B6, and omega-3s
 inchikey: OVBPIULPVIDEAO-LBPRGKRZSA-N
-inchi_image: /img/inchi/OVBPIULPVIDEAO-LBPRGKRZSA-N.png
 ---
 
 ## Overview

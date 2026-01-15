@@ -11,13 +11,12 @@ tags:
   - Hormonal Response
   - Stress Response
   - Neurochemical Balance
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/TZCPCKNHXULUIY-RGULYWFUSA-N.png
 mechanisms:
   Hormonal Response: Supports calcium modulation along with vitamin D, magnesium, taurine, and flavonoids; supports insulin sensitivity, sympathetic arousal, and mitochondrial excitability
   Stress Response: Supports membrane dynamics and signaling; used for cognition and stress modulation
   Neurochemical Balance: Supports neuronal membrane dynamics and signaling
 inchikey: TZCPCKNHXULUIY-RGULYWFUSA-N
-inchi_image: /img/inchi/TZCPCKNHXULUIY-RGULYWFUSA-N.png
 ---
 
 ## Overview
