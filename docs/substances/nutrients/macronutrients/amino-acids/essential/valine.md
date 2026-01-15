@@ -9,9 +9,8 @@ tags:
   - Amino Acid
   - Essential Amino Acid
   - Valine
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/KZSNJWFQEVHDMF-BYPYZUCNSA-N.png
 inchikey: KZSNJWFQEVHDMF-BYPYZUCNSA-N
-inchi_image: /img/inchi/KZSNJWFQEVHDMF-BYPYZUCNSA-N.png
 ---
 
 ## Recipes

@@ -10,11 +10,10 @@ tags:
   - Nonessential Amino Acid
   - Tyrosine
   - Neurochemical Balance
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/OUYCCCASQSFEME-QMMMGPOBSA-N.png
 mechanisms:
   Neurochemical Balance: Catecholamine precursor (dopamine, norepinephrine); brain transport via LAT1 competes with other LNAAs; iron is an essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in conversion of tyrosine to dopamine; cofactors include iron, B6, folate, omega-3s, and BH₄ (tetrahydrobiopterin) to support rate-limiting steps in catecholamine synthesis
 inchikey: OUYCCCASQSFEME-QMMMGPOBSA-N
-inchi_image: /img/inchi/OUYCCCASQSFEME-QMMMGPOBSA-N.png
 ---
 
 ## Overview

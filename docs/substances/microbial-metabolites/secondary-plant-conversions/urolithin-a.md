@@ -12,14 +12,13 @@ tags:
   - Mitochondrial Support
   - Inflammation
   - Oxidative Stress
-list_image: /img/icons/metabolite.svg
+list_image: /img/inchi/RIUPLDUFZCXCHM-UHFFFAOYSA-N.png
 mechanisms:
   Gut Microbiome: Produced from ellagitannins by gut bacteria; production varies by individual gut microbiome composition, particularly Firmicutes-to-Bacteroidetes ratio; higher polyphenol intake and microbial diversity increase urolithin A production
   Mitochondrial Support: Supports mitochondrial resilience and mitophagy; improves cognitive endurance; may extend to executive function
   Inflammation: Powerful antioxidant; supports anti-inflammatory effects
   Oxidative Stress: Powerful antioxidant; supports antioxidant defenses
 inchikey: RIUPLDUFZCXCHM-UHFFFAOYSA-N
-inchi_image: /img/inchi/RIUPLDUFZCXCHM-UHFFFAOYSA-N.png
 ---
 
 ## Recipes

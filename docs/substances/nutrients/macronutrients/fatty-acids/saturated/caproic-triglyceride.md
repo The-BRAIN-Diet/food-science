@@ -12,12 +12,11 @@ tags:
   - Caproic Triglyceride
   - Mitochondrial Support
   - Neurochemical Balance
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/UDSNDLNOAPBDNV-UHFFFAOYSA-N.png
 mechanisms:
   Mitochondrial Support: Caproic triglyceride (C6) is converted to ketones (beta-hydroxybutyrate) in the liver, which serve as an alternative energy substrate for mitochondria; ketones can be used by brain mitochondria when glucose metabolism is impaired, supporting ATP production and mitochondrial function
   Neurochemical Balance: Ketones produced from caproic triglyceride provide ATP through mitochondrial metabolism; ATP is essential for neurotransmitter synthesis, release, and reuptake, indirectly supporting neurochemical balance by ensuring adequate energy for neuronal function
 inchikey: UDSNDLNOAPBDNV-UHFFFAOYSA-N
-inchi_image: /img/inchi/UDSNDLNOAPBDNV-UHFFFAOYSA-N.png
 ---
 
 ## Overview

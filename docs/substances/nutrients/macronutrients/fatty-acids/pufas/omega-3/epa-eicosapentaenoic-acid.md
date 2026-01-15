@@ -13,13 +13,12 @@ tags:
   - Inflammation
   - Neurochemical Balance
   - Endocannabinoid System
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/JAZBEHYOTPTENJ-RCHUDCCISA-N.png
 mechanisms:
   Inflammation: Potent anti-inflammatory; precursor to E-series resolvins; specialized pro-resolving mediators (SPMs) terminate inflammation without immunosuppression, downregulate COX-2, inhibit neutrophil infiltration, enhance macrophage clearance
   Neurochemical Balance: Modulates dopamine and serotonin signalling; synergises with DHA but has independent mechanisms; membrane fluidity and neurotransmitter receptor function
   Endocannabinoid System: Production of eicosapentaenoyl ethanolamide (EPEA), an N-acyl ethanolamine for endocannabinoid-like signaling
 inchikey: JAZBEHYOTPTENJ-RCHUDCCISA-N
-inchi_image: /img/inchi/JAZBEHYOTPTENJ-RCHUDCCISA-N.png
 ---
 
 ## Overview

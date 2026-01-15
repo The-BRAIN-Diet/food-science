@@ -10,12 +10,11 @@ tags:
   - Curcumin
   - Inflammation
   - Oxidative Stress
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/VFLDPWHFBUODDF-FCXRPNKRSA-N.png
 mechanisms:
   Inflammation: Anti-inflammatory and neuroprotective effects; supports BDNF expression through polyphenol synergy
   Oxidative Stress: Antioxidant properties; supports antioxidant defenses
 inchikey: VFLDPWHFBUODDF-FCXRPNKRSA-N
-inchi_image: /img/inchi/VFLDPWHFBUODDF-FCXRPNKRSA-N.png
 ---
 
 ## Overview

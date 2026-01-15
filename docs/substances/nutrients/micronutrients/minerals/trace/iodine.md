@@ -11,12 +11,11 @@ tags:
   - Iodine
   - Hormonal Response
   - Neurochemical Balance
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/PNDPGZBMCMUPRI-UHFFFAOYSA-N.png
 mechanisms:
   Hormonal Response: Essential for synthesis of thyroid hormones (T3 and T4), which are crucial for brain development, maturation, and metabolic regulation
   Neurochemical Balance: Thyroid hormones regulate synthesis and regulation of key neurotransmitters (dopamine and serotonin), supporting cognitive function and development
 inchikey: PNDPGZBMCMUPRI-UHFFFAOYSA-N
-inchi_image: /img/inchi/PNDPGZBMCMUPRI-UHFFFAOYSA-N.png
 ---
 
 ## Overview

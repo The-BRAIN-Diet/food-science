@@ -10,11 +10,10 @@ tags:
   - Lipid-Based
   - Creatine
   - Mitochondrial Support
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/CVSVTCORWBXHQV-UHFFFAOYSA-N.png
 mechanisms:
   Mitochondrial Support: Supports ATP recycling via phosphocreatine system; buffers high-energy demand in neurons; enhances mitochondrial energy buffering
 inchikey: CVSVTCORWBXHQV-UHFFFAOYSA-N
-inchi_image: /img/inchi/CVSVTCORWBXHQV-UHFFFAOYSA-N.png
 ---
 
 ## Overview

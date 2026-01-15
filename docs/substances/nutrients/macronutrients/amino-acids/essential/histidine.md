@@ -9,9 +9,8 @@ tags:
   - Amino Acid
   - Essential Amino Acid
   - Histidine
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/HNDVDQJCIGZPNO-YFKPBYRVSA-N.png
 inchikey: HNDVDQJCIGZPNO-YFKPBYRVSA-N
-inchi_image: /img/inchi/HNDVDQJCIGZPNO-YFKPBYRVSA-N.png
 ---
 
 ## Recipes

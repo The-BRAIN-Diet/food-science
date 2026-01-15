@@ -10,11 +10,10 @@ tags:
   - Essential Amino Acid
   - Tryptophan
   - Neurochemical Balance
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/QIVBCDIJIAJPQS-VIFPVBQESA-N.png
 mechanisms:
   Neurochemical Balance: Precursor for serotonin and melatonin; brain entry competes at LAT1 with other large neutral amino acids (LNAAs); carbohydrate-rich, low-protein meals raise the plasma tryptophan:LNAA ratio because insulin pushes competing LNAAs out to muscles; can feed NAD+ synthesis via the kynurenine pathway
 inchikey: QIVBCDIJIAJPQS-VIFPVBQESA-N
-inchi_image: /img/inchi/QIVBCDIJIAJPQS-VIFPVBQESA-N.png
 ---
 
 ## Overview

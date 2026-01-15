@@ -13,14 +13,13 @@ tags:
   - Inflammation
   - Insulin Response
   - Neurochemical Balance
-list_image: /img/icons/metabolite.svg
+list_image: /img/inchi/XBDQKXXYIPTUBI-UHFFFAOYSA-M.png
 mechanisms:
   Gut Microbiome: Byproduct of fibre fermentation; supports intestinal barrier integrity; regulates immune responses
   Inflammation: Helps reduce neuroinflammation and protects the blood-brain barrier; enhances cognitive function
   Insulin Response: Improves insulin sensitivity and glucose metabolism; helps stabilize blood glucose and reduce insulin resistance
   Neurochemical Balance: Stimulates secretion of norepinephrine and may influence dopamine regulation; promotes synthesis of key neurotransmitters
 inchikey: XBDQKXXYIPTUBI-UHFFFAOYSA-M
-inchi_image: /img/inchi/XBDQKXXYIPTUBI-UHFFFAOYSA-M.png
 ---
 
 ## Overview

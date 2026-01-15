@@ -11,12 +11,11 @@ tags:
   - Lutein
   - Inflammation
   - Oxidative Stress
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/KBPHJBAIARWVSC-RGZFRNHPSA-N.png
 mechanisms:
   Inflammation: Anti-inflammatory properties; supports immune regulation
   Oxidative Stress: Antioxidant properties; scavenges reactive oxygen species and stabilizes cell membranes
 inchikey: KBPHJBAIARWVSC-RGZFRNHPSA-N
-inchi_image: /img/inchi/KBPHJBAIARWVSC-RGZFRNHPSA-N.png
 ---
 
 ## Overview

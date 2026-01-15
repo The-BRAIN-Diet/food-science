@@ -12,13 +12,12 @@ tags:
   - Mitochondrial Support
   - Oxidative Stress
   - Inflammation
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/RFWGABANNQMHMZ-ZCHJGGQASA-N.png
 inchikey: RFWGABANNQMHMZ-ZCHJGGQASA-N
 mechanisms:
   Mitochondrial Support: Oleuropein aglycone (the active form) supports mitophagy, SIRT1 activation, and AMPK activation; enhances mitochondrial function, autophagy, and neuroprotective effects through modulation of mitochondrial dynamics and antioxidant pathways
   Oxidative Stress: Antioxidant polyphenol; works within the polyphenol network in olive oil
   Inflammation: Anti-inflammatory properties; contributes to neuroprotective effects of extra-virgin olive oil
-inchi_image: /img/inchi/RFWGABANNQMHMZ-ZCHJGGQASA-N.png
 ---
 
 ## Recipes

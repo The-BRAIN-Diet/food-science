@@ -10,12 +10,11 @@ tags:
   - Vitamin B1
   - Mitochondrial Support
   - Insulin Response
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/JZRWCGZRTZMZEH-UHFFFAOYSA-N.png
 mechanisms:
   Mitochondrial Support: Essential for mitochondrial glucose metabolism in the brain leading to ATP production; supports PDH (pyruvate dehydrogenase) and α-KGDH (alpha-ketoglutarate dehydrogenase) function
   Insulin Response: Supports glucose metabolism and insulin sensitivity through mitochondrial function
 inchikey: JZRWCGZRTZMZEH-UHFFFAOYSA-N
-inchi_image: /img/inchi/JZRWCGZRTZMZEH-UHFFFAOYSA-N.png
 ---
 
 ## Overview
