@@ -12,14 +12,13 @@ tags:
   - Hormonal Response
   - Stress Response
   - Neurochemical Balance
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/XOAAWQZATWQOTB-UHFFFAOYSA-N.png
 mechanisms:
   Mitochondrial Support: Protects mitochondrial function under oxidative stress; stabilizes mitochondrial membranes; supports ATP production
   Hormonal Response: Exhibits adaptogenic properties by buffering the brain against chronic stress and regulating the HPA axis, including reductions in cortisol
   Stress Response: Buffers HPA axis dysregulation; reduces cortisol; supports stress resilience
   Neurochemical Balance: Modulates calcium handling; influences GABAergic tone; supports neurotransmitter balance
 inchikey: XOAAWQZATWQOTB-UHFFFAOYSA-N
-inchi_image: /img/inchi/XOAAWQZATWQOTB-UHFFFAOYSA-N.png
 ---
 
 ## Overview

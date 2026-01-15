@@ -11,12 +11,11 @@ tags:
   - Manganese
   - Oxidative Stress
   - Mitochondrial Support
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/PWHULOQIROXLJO-UHFFFAOYSA-N.png
 mechanisms:
   Oxidative Stress: Essential cofactor for MnSOD (SOD2), supporting detoxification of superoxide within the mitochondrial matrix
   Mitochondrial Support: Supports mitochondrial antioxidant defense through MnSOD activity
 inchikey: PWHULOQIROXLJO-UHFFFAOYSA-N
-inchi_image: /img/inchi/PWHULOQIROXLJO-UHFFFAOYSA-N.png
 ---
 
 ## Overview

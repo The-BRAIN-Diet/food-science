@@ -12,12 +12,11 @@ tags:
   - Omega-3 Fatty Acids
   - Inflammation
   - Oxidative Stress
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/DTOSIQBPPRVQHS-PDBXOOCHSA-N.png
 mechanisms:
   Inflammation: Essential omega-3 precursor; limited conversion to DHA/EPA; contributes to omega-3 pool for anti-inflammatory effects
   Oxidative Stress: Essential omega-3 fatty acid; contributes to antioxidant and membrane support
 inchikey: DTOSIQBPPRVQHS-PDBXOOCHSA-N
-inchi_image: /img/inchi/DTOSIQBPPRVQHS-PDBXOOCHSA-N.png
 ---
 
 ## Overview

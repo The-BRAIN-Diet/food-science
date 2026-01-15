@@ -9,11 +9,10 @@ tags:
   - Vitamin
   - Vitamin B3
   - Mitochondrial Support
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/PVNIIMVLHYAWGP-UHFFFAOYSA-N.png
 mechanisms:
   Mitochondrial Support: Replenishes NAD+, supporting oxidative phosphorylation, sirtuin signaling, and mitochondrial biogenesis; key for neuronal energy metabolism
 inchikey: PVNIIMVLHYAWGP-UHFFFAOYSA-N
-inchi_image: /img/inchi/PVNIIMVLHYAWGP-UHFFFAOYSA-N.png
 ---
 
 ## Overview

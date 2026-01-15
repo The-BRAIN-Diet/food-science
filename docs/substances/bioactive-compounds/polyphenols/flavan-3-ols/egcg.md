@@ -15,7 +15,7 @@ tags:
   - Gut Microbiome
   - Hormonal Response
   - Stress Response
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/WMBWREPUVVBILR-WIYYLYMNSA-N.png
 mechanisms:
   Gut Microbiome: Green tea catechins increase Faecalibacterium and Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation
   Inflammation: Polyphenol antioxidant and anti-inflammatory effects; reduces inflammatory signaling
@@ -23,7 +23,6 @@ mechanisms:
   Hormonal Response: Supports HPA axis regulation and stress response
   Stress Response: Contributes to stress buffering through polyphenol effects
 inchikey: WMBWREPUVVBILR-WIYYLYMNSA-N
-inchi_image: /img/inchi/WMBWREPUVVBILR-WIYYLYMNSA-N.png
 ---
 
 ## Overview

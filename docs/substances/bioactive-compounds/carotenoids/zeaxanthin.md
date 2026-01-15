@@ -11,12 +11,11 @@ tags:
   - Zeaxanthin
   - Inflammation
   - Oxidative Stress
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/JKQXZKUSFCKOGQ-QAYBQHTQSA-N.png
 mechanisms:
   Inflammation: Anti-inflammatory properties; supports immune regulation
   Oxidative Stress: Antioxidant properties; scavenges reactive oxygen species and stabilizes cell membranes
 inchikey: JKQXZKUSFCKOGQ-QAYBQHTQSA-N
-inchi_image: /img/inchi/JKQXZKUSFCKOGQ-QAYBQHTQSA-N.png
 ---
 
 ## Overview

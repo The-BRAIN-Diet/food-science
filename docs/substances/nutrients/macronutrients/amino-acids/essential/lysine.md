@@ -9,9 +9,8 @@ tags:
   - Amino Acid
   - Essential Amino Acid
   - Lysine
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/KDXKERNSBIXSRK-YFKPBYRVSA-N.png
 inchikey: KDXKERNSBIXSRK-YFKPBYRVSA-N
-inchi_image: /img/inchi/KDXKERNSBIXSRK-YFKPBYRVSA-N.png
 ---
 
 ## Recipes

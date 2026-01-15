@@ -11,12 +11,11 @@ tags:
   - Tyrosol
   - Neurochemical Balance
   - Oxidative Stress
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/YCCILVSKPBXVIP-UHFFFAOYSA-N.png
 mechanisms:
   Neurochemical Balance: Neuroprotective effects; contributes to brain health benefits of extra-virgin olive oil
   Oxidative Stress: Antioxidant properties; supports antioxidant defenses
 inchikey: YCCILVSKPBXVIP-UHFFFAOYSA-N
-inchi_image: /img/inchi/YCCILVSKPBXVIP-UHFFFAOYSA-N.png
 ---
 
 ## Overview

@@ -12,12 +12,11 @@ tags:
   - Arachidonic Acid
   - Inflammation
   - Oxidative Stress
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/YZXBAPSDXZZRGB-DOFZRALJSA-N.png
 mechanisms:
   Inflammation: Omega-6 PUFA that gives rise to eicosanoids with predominantly pro-inflammatory actions; overall dietary n-6:n-3 balance affects inflammatory tone
   Oxidative Stress: Contributes to inflammatory and oxidative stress pathways when in excess relative to omega-3s
 inchikey: YZXBAPSDXZZRGB-DOFZRALJSA-N
-inchi_image: /img/inchi/YZXBAPSDXZZRGB-DOFZRALJSA-N.png
 ---
 
 ## Overview

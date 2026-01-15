@@ -10,11 +10,10 @@ tags:
   - Secoiridoid
   - Oleocanthal
   - Inflammation
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/VPOVFCBNUOUZGG-VAKDEWRISA-N.png
 mechanisms:
   Inflammation: NF-κB inhibition; strong anti-inflammatory effects similar to ibuprofen; contributes to neuroprotective effects of extra-virgin olive oil
 inchikey: VPOVFCBNUOUZGG-VAKDEWRISA-N
-inchi_image: /img/inchi/VPOVFCBNUOUZGG-VAKDEWRISA-N.png
 ---
 
 ## Overview

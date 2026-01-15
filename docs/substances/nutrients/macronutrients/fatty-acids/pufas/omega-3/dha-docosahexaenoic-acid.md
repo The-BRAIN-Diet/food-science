@@ -13,13 +13,12 @@ tags:
   - Inflammation
   - Neurochemical Balance
   - Endocannabinoid System
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/MBMBGCFOFBJSGT-KUBAVDMBSA-N.png
 mechanisms:
   Inflammation: Precursor to specialized pro-resolving mediators (SPMs) including protectins and maresins; terminates inflammation without immunosuppression
   Neurochemical Balance: Accounts for ~10–15% of total brain fatty acids, but represents 20–30% of fatty acids in neuronal phospholipids such as PE and PS, and more than 90% of the brain's omega-3 PUFA; critical for membrane fluidity, synaptic vesicle fusion, and neurodevelopment; transported across BBB as LPC-DHA via MFSD2A
   Endocannabinoid System: Production of docosahexaenoyl ethanolamide (DHEA), an N-acyl ethanolamine for endocannabinoid-like signaling
 inchikey: MBMBGCFOFBJSGT-KUBAVDMBSA-N
-inchi_image: /img/inchi/MBMBGCFOFBJSGT-KUBAVDMBSA-N.png
 ---
 
 ## Overview

@@ -10,11 +10,10 @@ tags:
   - Macro Mineral
   - Potassium
   - Neurochemical Balance
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/ZLMJMSJWJFRBEC-UHFFFAOYSA-N.png
 mechanisms:
   Neurochemical Balance: Critical for membrane potential, nerve signaling, and neuronal excitability; adequate intake balances sodium effects
 inchikey: ZLMJMSJWJFRBEC-UHFFFAOYSA-N
-inchi_image: /img/inchi/ZLMJMSJWJFRBEC-UHFFFAOYSA-N.png
 ---
 
 ## Overview

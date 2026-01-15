@@ -9,9 +9,8 @@ tags:
   - Amino Acid
   - Essential Amino Acid
   - Threonine
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/AYFVYJQAPQTCCC-GBXIJSLDSA-N.png
 inchikey: AYFVYJQAPQTCCC-GBXIJSLDSA-N
-inchi_image: /img/inchi/AYFVYJQAPQTCCC-GBXIJSLDSA-N.png
 ---
 
 ## Recipes

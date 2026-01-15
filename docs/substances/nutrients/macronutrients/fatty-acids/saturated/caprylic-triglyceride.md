@@ -12,12 +12,11 @@ tags:
   - Caprylic Triglyceride
   - Mitochondrial Support
   - Neurochemical Balance
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/SHZIWNPUGXLXDT-UHFFFAOYSA-N.png
 mechanisms:
   Mitochondrial Support: Caprylic triglyceride (C8) is converted to ketones (beta-hydroxybutyrate) in the liver, which serve as an alternative energy substrate for mitochondria; ketones can be used by brain mitochondria when glucose metabolism is impaired, supporting ATP production and mitochondrial function
   Neurochemical Balance: Ketones produced from caprylic triglyceride provide ATP through mitochondrial metabolism; ATP is essential for neurotransmitter synthesis, release, and reuptake, indirectly supporting neurochemical balance by ensuring adequate energy for neuronal function
 inchikey: SHZIWNPUGXLXDT-UHFFFAOYSA-N
-inchi_image: /img/inchi/SHZIWNPUGXLXDT-UHFFFAOYSA-N.png
 ---
 
 ## Overview

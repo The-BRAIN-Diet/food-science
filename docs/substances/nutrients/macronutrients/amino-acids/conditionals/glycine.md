@@ -12,13 +12,12 @@ tags:
   - Gut Microbiome
   - Neurochemical Balance
   - Stress Response
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/DHMQDGOQFOQNFH-UHFFFAOYSA-N.png
 mechanisms:
   Gut Microbiome: Supports gut barrier integrity through collagen and gelatin synthesis; helps seal gut lining and reduce permeability; affects inflammation and gut-brain communication
   Neurochemical Balance: Acts as an inhibitory neurotransmitter; improves sleep latency and quality; supports GABA pathways and neurotransmitter balance
   Stress Response: Improves sleep latency and quality; supports stress resilience through improved sleep regulation
 inchikey: DHMQDGOQFOQNFH-UHFFFAOYSA-N
-inchi_image: /img/inchi/DHMQDGOQFOQNFH-UHFFFAOYSA-N.png
 ---
 
 ## Overview

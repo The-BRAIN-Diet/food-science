@@ -11,13 +11,12 @@ tags:
   - Hormonal Response
   - Stress Response
   - Neurochemical Balance
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/DATAGRPVKZEWHA-YFKPBYRVSA-N.png
 mechanisms:
   Stress Response: Increases alpha waves and promotes calm without sedation; supports relaxation
   Hormonal Response: Contributes to HPA axis buffering and stress response modulation
   Neurochemical Balance: Supports GABAergic tone and neurotransmitter balance
 inchikey: DATAGRPVKZEWHA-YFKPBYRVSA-N
-inchi_image: /img/inchi/DATAGRPVKZEWHA-YFKPBYRVSA-N.png
 ---
 
 ## Overview

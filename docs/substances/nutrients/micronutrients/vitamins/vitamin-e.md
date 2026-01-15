@@ -9,11 +9,10 @@ tags:
   - Vitamin
   - Vitamin E
   - Oxidative Stress
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/GVJHHUAWPYXKBD-IEOSBIPESA-N.png
 mechanisms:
   Oxidative Stress: Lipid-phase antioxidant; protects polyunsaturated fatty acids in membranes from peroxidation; works within antioxidant network with vitamin C, CoQ10, and polyphenols
 inchikey: GVJHHUAWPYXKBD-IEOSBIPESA-N
-inchi_image: /img/inchi/GVJHHUAWPYXKBD-IEOSBIPESA-N.png
 ---
 
 ## Overview

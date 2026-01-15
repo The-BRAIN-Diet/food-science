@@ -11,13 +11,12 @@ tags:
   - Methylation
   - Neurochemical Balance
   - Mitochondrial Support
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/ASARMUCNOOHMLO-WLORSUFZSA-L.png
 mechanisms:
   Methylation: Essential cofactor in remethylation of homocysteine to methionine, which is converted to S-adenosylmethionine (SAMe); works with B6, B2, and folate; contributes meaningfully to homocysteine reduction, especially in combination with omega-3 fatty acids
   Neurochemical Balance: Supports neurotransmitter production through methylation; essential for myelin synthesis
   Mitochondrial Support: Crucial role in conversion of methylmalonyl-CoA to succinyl-CoA, a key step in mitochondrial energy production; deficiency leads to buildup of methylmalonic acid and odd-chain fatty acids, which are neurotoxic
 inchikey: ASARMUCNOOHMLO-WLORSUFZSA-L
-inchi_image: /img/inchi/ASARMUCNOOHMLO-WLORSUFZSA-L.png
 ---
 
 ## Overview

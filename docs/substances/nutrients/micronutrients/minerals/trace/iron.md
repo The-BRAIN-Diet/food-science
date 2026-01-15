@@ -11,12 +11,11 @@ tags:
   - Iron
   - Neurochemical Balance
   - Mitochondrial Support
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/XEEYBQQBJWHFJM-UHFFFAOYSA-N.png
 mechanisms:
   Neurochemical Balance: Essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine; critical for catecholamine synthesis
   Mitochondrial Support: Critical for oxygen delivery to the brain via hemoglobin; supports mitochondrial function and energy production
 inchikey: XEEYBQQBJWHFJM-UHFFFAOYSA-N
-inchi_image: /img/inchi/XEEYBQQBJWHFJM-UHFFFAOYSA-N.png
 ---
 
 ## Overview

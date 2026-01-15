@@ -13,14 +13,13 @@ tags:
   - Neurochemical Balance
   - Inflammation
   - Oxidative Stress
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/HCHKCACWOHOZIP-UHFFFAOYSA-N.png
 mechanisms:
   Methylation: Deficiencies in vitamins and minerals essential for methylation, such as folate, vitamin B12, and zinc, are correlated to ADHD symptoms; supplementing these micronutrients has shown potential in supporting methylation and reducing symptom severity
   Neurochemical Balance: Important for DNA synthesis, cell division, and neurotransmitter regulation, particularly in modulating dopamine—a key neurotransmitter implicated in ADHD; acts as an allosteric modulator of the GABA receptor; supports glutamate regulation
   Inflammation: Supports immune signaling; gut barrier integrity disrupted by nutrient deficiencies including zinc
   Oxidative Stress: Essential mineral that serves as a cofactor for antioxidant enzymes; works synergistically with other antioxidants; heavy metals are detoxified by metallothionein (MT) metal carrier proteins that must bind with zinc and copper
 inchikey: HCHKCACWOHOZIP-UHFFFAOYSA-N
-inchi_image: /img/inchi/HCHKCACWOHOZIP-UHFFFAOYSA-N.png
 ---
 
 ## Overview

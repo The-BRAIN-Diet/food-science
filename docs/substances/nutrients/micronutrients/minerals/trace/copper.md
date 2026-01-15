@@ -12,13 +12,12 @@ tags:
   - Neurochemical Balance
   - Inflammation
   - Oxidative Stress
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/RYGMFSIKBFXOCR-UHFFFAOYSA-N.png
 mechanisms:
   Neurochemical Balance: Cofactor in dopamine β-hydroxylase, supporting catecholamine synthesis; supports norepinephrine synthesis
   Inflammation: Participates in redox enzymes and antioxidant networks
   Oxidative Stress: Included in antioxidant enzyme networks; interacts with iron metabolism affecting oxidative stress
 inchikey: RYGMFSIKBFXOCR-UHFFFAOYSA-N
-inchi_image: /img/inchi/RYGMFSIKBFXOCR-UHFFFAOYSA-N.png
 ---
 
 ## Overview

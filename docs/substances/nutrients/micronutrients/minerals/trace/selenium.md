@@ -11,12 +11,11 @@ tags:
   - Selenium
   - Oxidative Stress
   - Mitochondrial Support
-list_image: /img/icons/nutrients.svg
+list_image: /img/inchi/BUGBHKTXTAQXES-UHFFFAOYSA-N.png
 mechanisms:
   Oxidative Stress: Supports glutathione peroxidase (GPx) and other antioxidant systems, protecting membranes and mitochondria from oxidative damage
   Mitochondrial Support: Protects mitochondria from oxidative damage through antioxidant enzyme activity
 inchikey: BUGBHKTXTAQXES-UHFFFAOYSA-N
-inchi_image: /img/inchi/BUGBHKTXTAQXES-UHFFFAOYSA-N.png
 ---
 
 ## Overview
