@@ -1040,7 +1040,12 @@ Organ Meats:
 Oysters:
   label: Oysters
   permalink: /docs/tags/oysters
-  description: Shellfish rich in zinc and B12
+  description: Highest zinc content; unique source of phospholipid-bound omega-3s; accepted by some vegans (ostroveganism)
+
+Mussels:
+  label: Mussels
+  permalink: /docs/tags/mussels
+  description: Nutrient-dense bivalve providing phospholipid-bound omega-3s; accepted by some vegans (ostroveganism)
 
 Parmesan Cheese:
   label: Parmesan Cheese

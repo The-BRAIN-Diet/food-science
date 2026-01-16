@@ -10,8 +10,8 @@ tags:
   - Gut Microbiome
   - Methylation
   - Breakfast
-  - Magnesium
   - Drinks
+  - Magnesium
   - Polyphenols
   - Recipe
   - Spinach
