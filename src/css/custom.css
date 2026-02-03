@@ -84,31 +84,71 @@
   color: var(--ifm-color-primary);
 }
 
+/* Top section background - light grey area under navbar */
+.heroBanner {
+  background-color: #d1d5db !important; /* light grey background */
+}
+
+[data-theme='dark'] .heroBanner {
+  background-color: #4b5563 !important; /* darker grey for dark mode */
+}
+
+/* Ensure the video overlay doesn't completely hide the grey background */
+.heroBanner .videoOverlay {
+  background: linear-gradient(to bottom,
+          rgba(209, 213, 219, 0.3) 0%,
+          rgba(209, 213, 219, 0.5) 100%) !important;
+}
+
+[data-theme='dark'] .heroBanner .videoOverlay {
+  background: linear-gradient(to bottom,
+          rgba(75, 85, 99, 0.3) 0%,
+          rgba(75, 85, 99, 0.5) 100%) !important;
+}
+
+/* Navbar: translucent with dark text */
 .navbar {
-  background-color: transparent !important;
+  background-color: rgba(255, 255, 255, 0.7) !important; /* translucent white */
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.1) !important;
 }
-
 
 [data-theme='dark'] .navbar {
-  background-color: rgba(0, 0, 0, 0.1) !important;
+  background-color: rgba(0, 0, 0, 0.5) !important; /* translucent black for dark mode */
 }
 
-/* Make navbar items more visible on transparent background */
+/* Navbar items: dark text */
 .navbar__item,
 .navbar__link {
-  color: rgba(255, 255, 255, 0.9) !important;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.9) !important; /* dark text */
 }
 
 [data-theme='dark'] .navbar__item,
 [data-theme='dark'] .navbar__link {
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: rgba(255, 255, 255, 0.95) !important; /* white text for dark mode */
 }
 
 .navbar__title {
-  color: rgba(255, 255, 255, 0.9) !important;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.9) !important; /* dark text */
+}
+
+[data-theme='dark'] .navbar__title {
+  color: rgba(255, 255, 255, 0.95) !important; /* white text for dark mode */
+}
+
+.navbar__link:hover {
+  color: rgba(0, 0, 0, 1) !important; /* darker on hover */
+}
+
+[data-theme='dark'] .navbar__link:hover {
+  color: rgba(255, 255, 255, 1) !important; /* brighter on hover for dark mode */
+}
+
+/* Editorial Team page styles */
+.team-photo {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }

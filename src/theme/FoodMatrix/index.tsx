@@ -263,7 +263,7 @@ export default function FoodMatrix({tag}: FoodMatrixProps): React.ReactElement {
       if (contributionLevel === "Presence only (trace)") {
         return // Skip this row
       }
-      
+
       tableData.push({
         target: entry.target,
         substance,

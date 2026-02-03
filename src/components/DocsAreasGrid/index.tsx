@@ -74,9 +74,9 @@ export default function DocsAreasGrid(): ReactNode {
         </div>
         <div className={styles.cardsWrapper}>
           <div className={clsx("row", styles.cardsRow)}>
-            {sortedDocs.map((doc, idx) => (
-              <DocsArea key={doc.permalink || idx} doc={doc} />
-            ))}
+          {sortedDocs.map((doc, idx) => (
+            <DocsArea key={doc.permalink || idx} doc={doc} />
+          ))}
           </div>
         </div>
       </div>
