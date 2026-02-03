@@ -9,11 +9,13 @@ The BRAIN Diet scientific paper has been vetted and contributed to by a team of 
 
 ## Donations and Support
 
-We ask anyone who benefits from this resource to consider making a donation for the upkeep of the website, so that we can continue to develop and test more recipes as well as continually review the science. For those who would like to collaborate or join our team of volunteers, please contact us. Thank you for your support.
+We ask anyone who benefits from this resource to consider making a donation for the upkeep of the website, so that we can continue to develop and test more recipes as well as continually review the science (Donations page coming soon.). 
+
+ For those who would like to collaborate or join our team of volunteers, please contact us. Thank you for your support.
 
 ## Our Process
 
-The scientific advisory team were called upon to comment on and edit the first draft of The BRAIN Diet. This team includes globally renowned experts in biology, chemistry, nutrition, neurochemistry, and psychology. These volunteers committed many hours of teleconferences and many more hours of their spare time to navigate the original manuscript, which runs to over 100 pages and cites more than 500 scientific references. They have selflessly dedicated their time to help create a diet that ringfences the key science that could underwrite better outcomes for many brain‑related challenges and disorders such as ADHD, Alzheimer's disease, bipolar disorder, and cognitive decline across the lifespan.
+The scientific advisory team were called upon to comment on and edit the first draft of The BRAIN Diet. This team includes globally renowned experts in biology, chemistry, nutrition, neurochemistry, and psychology. These volunteers committed many hours of teleconferences and many more hours of their spare time to navigate and contribute to the original manuscript, which runs to over 100 pages and cites more than 500 scientific references. They have selflessly dedicated their time to help create a diet that ringfences the key science that could underwrite better outcomes for many brain‑related challenges and disorders such as ADHD, Alzheimer's disease, bipolar disorder, and cognitive decline across the lifespan.
 
 In honouring this commitment, The BRAIN Diet Limited has published this reference system as an open, free‑access resource under a Creative Commons license and we will continue to do so for the foreseeable future.
 
