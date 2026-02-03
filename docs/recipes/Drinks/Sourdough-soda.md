@@ -6,6 +6,7 @@ description: A lightly fermented, naturally sparkling drink made from stale sour
 tags:
   - Recipe
   - Drinks
+  - Dinner
   - fermented
   - gut-brain-axis
   - SCFA
