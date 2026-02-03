@@ -2,7 +2,7 @@
 id: dinner-recipes
 title: Dinner Recipes
 sidebar_label: Dinner
-sidebar_position: 3
+sidebar_position: 4
 description: Dinner recipes supporting brain health and cognitive function
 ---
 

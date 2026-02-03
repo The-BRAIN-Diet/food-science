@@ -89,7 +89,19 @@ const config: Config = {
       logo: {
         alt: 'BRAIN Diet Logo',
         src: 'site-icon/white.svg',
-      }
+      },
+      items: [
+        {
+          to: '/about-us',
+          label: 'About Us',
+          position: 'right',
+        },
+        {
+          to: '/editorial-team',
+          label: 'Editorial Team',
+          position: 'right',
+        },
+      ],
     },
     footer: {
       style: 'dark',
