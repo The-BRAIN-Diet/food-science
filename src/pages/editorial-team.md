@@ -5,7 +5,17 @@ description: Meet the team behind The BRAIN Diet
 
 # Editorial Team
 
-The BRAIN Diet content is developed and maintained by a team committed to scientific accuracy and evidence-based nutrition guidance.
+The BRAIN Diet scientific paper has been vetted and contributed to by a team of dedicated nutritionists and scientists. An abridged paper is currently under peer review.
+
+## Donations and Support
+
+We ask anyone who benefits from this resource to consider making a donation for the upkeep of the website, so that we can continue to develop and test more recipes as well as continually review the science. For those who would like to collaborate or join our team of volunteers, please contact us. Thank you for your support.
+
+## Our Process
+
+The scientific advisory team were called upon to comment on and edit the first draft of The BRAIN Diet. This team includes globally renowned experts in biology, chemistry, nutrition, neurochemistry, and psychology. These volunteers committed many hours of teleconferences and many more hours of their spare time to navigate the original manuscript, which runs to over 100 pages and cites more than 500 scientific references. They have selflessly dedicated their time to help create a diet that ringfences the key science that could underwrite better outcomes for many brain‑related challenges and disorders such as ADHD, Alzheimer's disease, bipolar disorder, and cognitive decline across the lifespan.
+
+In honouring this commitment, The BRAIN Diet Limited has published this reference system as an open, free‑access resource under a Creative Commons license and we will continue to do so for the foreseeable future.
 
 ## Team Members
 
@@ -80,15 +90,6 @@ The BRAIN Diet content is developed and maintained by a team committed to scient
 **Nina Fischer** brings expertise in nutrition science to The BRAIN Diet editorial team, contributing to the development and maintenance of evidence-based nutrition content. Her background in nutrition and commitment to scientific accuracy supports the team's mission of making complex nutritional science accessible while maintaining the highest standards of scientific integrity.
 
 [View Nina's LinkedIn profile →](https://www.linkedin.com/in/ninafischernutrition/)
-
-## Our Process
-
-All content on The BRAIN Diet undergoes a rigorous editorial process to ensure:
-
-- **Scientific accuracy**: Content is grounded in peer-reviewed research
-- **Evidence transparency**: Sources are cited and accessible
-- **Regular updates**: Content is reviewed and updated as new research emerges
-- **Clarity**: Complex scientific concepts are presented in accessible language
 
 ## Content Standards
 
