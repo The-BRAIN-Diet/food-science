@@ -7,7 +7,7 @@ description: Meet the team behind The BRAIN Diet
 
 The BRAIN Diet scientific paper has been vetted and contributed to by a team of dedicated nutritionists and scientists. An abridged paper is currently under peer review.
 
-## Our Process
+## A public body of knowledge
 
 The scientific advisory team were called upon to comment on and edit the first draft of The BRAIN Diet. This team includes globally renowned experts in biology, chemistry, nutrition, neurochemistry, and psychology. These volunteers committed many hours of teleconferences and many more hours of their spare time to navigate and contribute to the original manuscript, which runs to over 100 pages and cites more than 500 scientific references. They have selflessly dedicated their time to help create a diet that ringfences the key science that could underwrite better outcomes for many brain‑related challenges and disorders such as ADHD, Alzheimer's disease, bipolar disorder, and cognitive decline across the lifespan.
 
