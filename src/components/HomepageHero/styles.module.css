@@ -73,7 +73,14 @@
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto 1.5rem;
+}
+
+.heroButtons {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
 }
 
 @media screen and (max-width: 996px) {
@@ -87,6 +94,10 @@
 
     .heroSubtitle {
         font-size: 1.2rem;
+    }
+
+    .heroButtons {
+        flex-direction: column;
     }
 }
 

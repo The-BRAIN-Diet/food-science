@@ -152,3 +152,12 @@
   height: 200px;
   object-fit: cover;
 }
+
+.team-photo-square {
+  border-radius: 0;
+  margin-bottom: 1rem;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
