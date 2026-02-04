@@ -15,13 +15,13 @@ async function generateSocialCard() {
   }
 
   try {
-    // Create a gradient background (light grey to match the site)
+    // Create a black background
     const background = sharp({
       create: {
         width,
         height,
         channels: 3,
-        background: { r: 209, g: 213, b: 219 } // #d1d5db - light grey from hero banner
+        background: { r: 0, g: 0, b: 0 } // Black background
       }
     });
 
@@ -33,7 +33,7 @@ async function generateSocialCard() {
       })
       .toBuffer();
 
-    // Create SVG for text
+    // Create SVG for text (white text for black background)
     const textSvg = `
       <svg width="${width}" height="${height}">
         <text
@@ -42,7 +42,7 @@ async function generateSocialCard() {
           font-family="Arial, sans-serif"
           font-size="32"
           font-weight="bold"
-          fill="#1a1a1a"
+          fill="#ffffff"
           text-anchor="middle"
         >The BRAIN Diet</text>
         <text
@@ -50,7 +50,7 @@ async function generateSocialCard() {
           y="${height / 2 + 290}"
           font-family="Arial, sans-serif"
           font-size="20"
-          fill="#4a4a4a"
+          fill="#e0e0e0"
           text-anchor="middle"
         >Bio Regulation Algorithm and Integrated Neuronutrition</text>
       </svg>
