@@ -6,7 +6,14 @@ async function generateSocialCard() {
   const width = 1200;
   const height = 630;
   const outputPath = path.join(__dirname, '../static/img/brain-diet-social-card.jpg');
-  const logoPath = path.join(__dirname, '../static/site-icon/white.png');
+  const logoSvgPath = path.join(__dirname, '../static/site-icon/white.svg');
+  const logoPngPath = path.join(__dirname, '../static/site-icon/white.png');
+
+  // Try SVG first (no background), fallback to PNG
+  let logoPath = logoSvgPath;
+  if (!fs.existsSync(logoPath)) {
+    logoPath = logoPngPath;
+  }
 
   // Check if logo exists
   if (!fs.existsSync(logoPath)) {
@@ -25,13 +32,53 @@ async function generateSocialCard() {
       }
     });
 
-    // Load and resize logo
-    const logo = await sharp(logoPath)
-      .resize(400, 400, {
-        fit: 'contain',
-        background: { r: 0, g: 0, b: 0, alpha: 0 }
+    // Load and resize logo - if PNG, remove grey background by making it transparent
+    let logo;
+    if (logoPath.endsWith('.svg')) {
+      // SVG should have transparent background
+      logo = await sharp(logoPath)
+        .resize(400, 400, {
+          fit: 'contain',
+          background: { r: 0, g: 0, b: 0, alpha: 0 }
+        })
+        .png()
+        .toBuffer();
+    } else {
+      // For PNG, use composite to remove grey background
+      // First, create a mask to identify grey pixels and make them transparent
+      const logoData = await sharp(logoPath)
+        .ensureAlpha()
+        .raw()
+        .toBuffer({ resolveWithObject: true });
+      
+      // Process pixels to make grey background transparent
+      const pixels = logoData.data;
+      const { width: logoWidth, height: logoHeight } = logoData.info;
+      
+      for (let i = 0; i < pixels.length; i += 4) {
+        const r = pixels[i];
+        const g = pixels[i + 1];
+        const b = pixels[i + 2];
+        // If pixel is grey-ish (similar RGB values around 200-220), make it transparent
+        if (Math.abs(r - g) < 20 && Math.abs(g - b) < 20 && r > 180 && r < 240) {
+          pixels[i + 3] = 0; // Set alpha to 0 (transparent)
+        }
+      }
+      
+      logo = await sharp(Buffer.from(pixels), {
+        raw: {
+          width: logoWidth,
+          height: logoHeight,
+          channels: 4
+        }
       })
-      .toBuffer();
+        .resize(400, 400, {
+          fit: 'contain',
+          background: { r: 0, g: 0, b: 0, alpha: 0 }
+        })
+        .png()
+        .toBuffer();
+    }
 
     // Create SVG for text (white text for black background)
     const textSvg = `
