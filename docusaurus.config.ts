@@ -101,11 +101,16 @@ const config: Config = {
           label: 'Editorial Team',
           position: 'right',
         },
+        {
+          to: '/advisory-board',
+          label: 'Advisory Board',
+          position: 'right',
+        },
       ],
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} The BRAIN Diet. All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The BRAIN Diet. All rights reserved.<br/>THE BRAIN DIET LIMITED - Company number 16886759 - Registered in the U.K.`,
     },
     prism: {
       theme: prismThemes.github,
