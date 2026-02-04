@@ -27,7 +27,7 @@ In honouring this commitment, The BRAIN Diet Limited has published this referenc
 
 <img src="/img/team/becky.jpg" alt="Becky Upton" class="team-photo" />
 
-**Becky Upton** is a Chief Executive with extensive experience in the life sciences sector, having led organizations through complex challenges and transformation while fostering sustainable growth. Her background in life sciences operations and strategic leadership at organizations like Pistoia Alliance brings valuable perspective to ensuring The BRAIN Diet's content strategy aligns with scientific best practices and organizational excellence.
+**Dr Becky Upton** holds a Biochemistry PhD from Imperial University and an MBA from Cranfield School of Management. She is a clinical psychologist and Chief Executive with extensive experience in the life sciences sector, having led organizations through complex challenges and transformation while fostering sustainable growth. Her background in life sciences operations and strategic leadership at organizations like Pistoia Alliance, combined with her clinical psychology expertise and biochemistry research background, brings valuable perspective to ensuring The BRAIN Diet's content strategy aligns with scientific best practices and organizational excellence.
 
 [View Becky's LinkedIn profile →](https://www.linkedin.com/in/drbeckyupton/)
 
