@@ -1,0 +1,58 @@
+.mobileNav {
+  display: none;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.75rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}
+
+[data-theme='dark'] .mobileNav {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mobileNavContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.mobileNavLink {
+  color: rgba(0, 0, 0, 0.9);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+  transition: color 0.2s;
+}
+
+[data-theme='dark'] .mobileNavLink {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.mobileNavLink:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+/* Show only on mobile devices */
+@media screen and (max-width: 996px) {
+  .mobileNav {
+    display: block;
+  }
+}
+
+/* Hide on desktop */
+@media screen and (min-width: 997px) {
+  .mobileNav {
+    display: none;
+  }
+}
