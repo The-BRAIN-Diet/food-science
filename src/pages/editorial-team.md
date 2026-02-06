@@ -27,7 +27,7 @@ In honouring this commitment, The BRAIN Diet Limited has published this referenc
 
 <img src="/img/team/becky.jpg" alt="Becky Upton" class="team-photo" />
 
-**Dr Becky Upton** holds a Biochemistry PhD from Imperial University and an MBA from Cranfield School of Management. She is a clinical psychologist and Chief Executive with extensive experience in the life sciences sector, having led organizations through complex challenges and transformation while fostering sustainable growth. Her background in life sciences operations and strategic leadership at organizations like Pistoia Alliance, combined with her clinical psychology expertise and biochemistry research background, brings valuable perspective to ensuring The BRAIN Diet's content strategy aligns with scientific best practices and organizational excellence.
+**Becky Upton** holds a Biochemistry PhD from Imperial University and an MBA from Cranfield School of Management. She is a clinical psychologist and Chief Executive with extensive experience in the life sciences sector, having led organizations through complex challenges and transformation while fostering sustainable growth. Her background in life sciences operations and strategic leadership at organizations like Pistoia Alliance, combined with her clinical psychology expertise and biochemistry research background, brings valuable perspective to ensuring The BRAIN Diet's content strategy aligns with scientific best practices and organizational excellence.
 
 [View Becky's LinkedIn profile →](https://www.linkedin.com/in/drbeckyupton/)
 
@@ -35,7 +35,7 @@ In honouring this commitment, The BRAIN Diet Limited has published this referenc
 
 <img src="/img/team/tj.jpg" alt="Tj Power" class="team-photo" />
 
-**Tj Power** is the lead neuroscientist at DOSE® Lab and the instant Sunday Times bestselling author of The DOSE Effect, investigating how digitally driven lifestyles impact brain chemistry. After developing the DOSE® framework (Dopamine, Oxytocin, Serotonin, Endorphins) and training over 90,000 people through over 600 live experiences at institutions including Oxford University, Amazon, and the NHS, Tj brings internationally respected neuroscience expertise to The BRAIN Diet's understanding of how nutrition and lifestyle interventions optimize brain chemistry and cognitive function.
+**Tj Power** is the lead neuroscientist at DOSE® Lab and the instant Sunday Times bestselling author of *[The DOSE Effect](https://www.goodreads.com/book/show/215087423-the-dose-effect)*, investigating how digitally driven lifestyles impact brain chemistry. After developing the DOSE® framework (Dopamine, Oxytocin, Serotonin, Endorphins) and training over 90,000 people through over 600 live experiences at institutions including Oxford University, Amazon, and the NHS, Tj brings internationally respected neuroscience expertise to The BRAIN Diet's understanding of how nutrition and lifestyle interventions optimize brain chemistry and cognitive function.
 
 [View Tj's LinkedIn profile →](https://www.linkedin.com/in/tjpowerneuroscience/)
 
@@ -51,7 +51,7 @@ In honouring this commitment, The BRAIN Diet Limited has published this referenc
 
 <img src="/img/team/miguel.jpg" alt="Dr Miguel Toribio-Mateas" class="team-photo" />
 
-**Dr Miguel Toribio-Mateas** is a Chartered Biologist (CBiol) who works at the intersection of neuroscience, nutrition science, and mental health, with extensive research on the gut-brain axis through his Bowels & Brains™️ project assessing fermented foods' impact on microbiota and cognitive function. His doctoral research on nutritional neuroscience, including studies on mitochondrial transcription factors and neuroprotection with nutrients like coenzyme Q10, NADH, and L-serine, brings critical expertise to The BRAIN Diet's understanding of how nutrition directly influences brain health and cognitive performance.
+**Miguel Toribio-Mateas** is a Chartered Biologist (CBiol) who works at the intersection of neuroscience, nutrition science, and mental health, with extensive research on the gut-brain axis through his Bowels & Brains™️ project assessing fermented foods' impact on microbiota and cognitive function. He is the author of *[ADHD Body and Mind](https://play.google.com/store/books/details/Dr_Miguel_Toribio_Mateas_ADHD_Body_and_Mind?id=UwZ1EQAAQBAJ)*, a compassionate guide to rewilding the nervous system with neuroscience, nutrition, and gut-brain health. His doctoral research on nutritional neuroscience, including studies on mitochondrial transcription factors and neuroprotection with nutrients like coenzyme Q10, NADH, and L-serine, brings critical expertise to The BRAIN Diet's understanding of how nutrition directly influences brain health and cognitive performance.
 
 [View Dr Miguel's LinkedIn profile →](https://www.linkedin.com/in/drmiguelmateas/)
 
