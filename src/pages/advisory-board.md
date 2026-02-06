@@ -13,7 +13,7 @@ The BRAIN Diet Advisory Board consists of globally renowned experts in biology, 
 
 <img src="/img/team/Paul N.jpeg" alt="Paul Ngai" class="team-photo" />
 
-**Paul Ngai** brings extensive expertise in clinical trial transparency, disclosure, and regulatory compliance to The BRAIN Diet Advisory Board. At Xogene Services, his focus has been on revolutionizing clinical trial transparency and disclosure, with expertise in regulatory requirements and project management that enables comprehensive support from results postings to full oversight solutions. His background includes clinical trials registration and results disclosure at Johnson & Johnson, ensuring timely compliance and advancing the field of clinical trial management through technology and collaboration. This expertise in regulatory standards and trial transparency brings critical value to The BRAIN Diet's commitment to evidence-based approaches and future clinical research initiatives.
+**Paul Ngai** brings extensive expertise in clinical trial transparency, disclosure, and regulatory compliance to The BRAIN Diet Advisory Board. At Xogene Services, his focus has been on revolutionizing clinical trial transparency and disclosure, with expertise in regulatory requirements and project management that enables comprehensive support from results postings to full oversight solutions. This expertise in regulatory standards and trial transparency brings critical value to The BRAIN Diet's commitment to evidence-based approaches and future clinical research initiatives.
 
 [View Paul's LinkedIn profile →](https://www.linkedin.com/in/paul-ngai-925604/)
 
