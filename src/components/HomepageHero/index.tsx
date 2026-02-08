@@ -24,7 +24,7 @@ export default function HomepageHero(): ReactNode {
       <div className={clsx("container", styles.heroContent)}>
         <img src="/site-icon/white.svg" alt="BRAIN Diet Logo" className={styles.heroIcon} />
         <Heading as="h1" className={styles.heroTitle}>
-          The BRAIN Diet ™
+          The BRAIN Diet.org
         </Heading>
         <p className={styles.heroSubtitle}>Bio Regulation Algorithm and Integrated Neuronutrition</p>
       </div>

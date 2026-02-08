@@ -173,17 +173,21 @@ export default function FoodSubstances({details}: FoodSubstancesProps): React.Re
 
   // Find substances where the food has a tag that exactly matches a substance name
   // Only match on exact substance names, not category tags like "Polyphenol"
-  const relatedSubstances = substanceTagsToCheck
-    .map((foodTag: string) => substanceNameMap.get(foodTag))
-    .filter((substance: Document | undefined): substance is Document => substance !== undefined)
-    .filter((substance: Document) => {
-      // Exclude "Presence only (trace)" substances from display
-      const substanceName = substance.title.split("(")[0].trim()
-      const contributionLevel = contributionLevels[substanceName] || 
-                                contributionLevels[substance.title] ||
-                                "Contextual / minor contributor" // Default when not specified
-      return contributionLevel !== "Presence only (trace)"
-    })
+  const relatedSubstances = Array.from(
+    new Map(
+      substanceTagsToCheck
+        .map((foodTag: string) => substanceNameMap.get(foodTag))
+        .filter((substance: Document | undefined): substance is Document => substance !== undefined)
+        .map((substance: Document) => [substance.permalink, substance] as [string, Document])
+    ).values()
+  ).filter((substance: Document) => {
+    // Exclude "Presence only (trace)" substances from display
+    const substanceName = substance.title.split("(")[0].trim()
+    const contributionLevel = contributionLevels[substanceName] || 
+                              contributionLevels[substance.title] ||
+                              "Contextual / minor contributor" // Default when not specified
+    return contributionLevel !== "Presence only (trace)"
+  })
 
   // Sort by order, then by title
   relatedSubstances.sort((a: Document, b: Document) => {

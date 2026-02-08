@@ -46,6 +46,11 @@ Berberine:
   permalink: /docs/tags/berberine
   description: Polyphenolic alkaloid
 
+Beta-Glucans:
+  label: Beta-Glucans
+  permalink: /docs/tags/beta-glucans
+  description: Polysaccharides with immune-modulating properties
+
 Beta-Carotene:
   label: β-Carotene
   permalink: /docs/tags/beta-carotene
@@ -221,6 +226,11 @@ L-Theanine:
   permalink: /docs/tags/l-theanine
   description: Green tea amino acid
 
+L-DOPA:
+  label: L-DOPA
+  permalink: /docs/tags/l-dopa
+  description: Direct precursor to dopamine; supports neurotransmitter synthesis
+
 Lutein:
   label: Lutein
   permalink: /docs/tags/lutein
@@ -335,6 +345,11 @@ Polyphenol:
   label: Polyphenol
   permalink: /docs/tags/polyphenol
   description: Plant polyphenols with antioxidant and neuroprotective properties
+
+Polysaccharides:
+  label: Polysaccharides
+  permalink: /docs/tags/polysaccharides
+  description: Complex carbohydrates with immune-modulating and gut microbiome supporting properties
 
 Potassium:
   label: Potassium
@@ -727,6 +742,11 @@ Corn:
   permalink: /docs/tags/corn
   description: Grain rich in fiber and carotenoids
 
+Cordyceps Mushroom:
+  label: Cordyceps Mushroom
+  permalink: /docs/tags/cordyceps-mushroom
+  description: Medicinal mushroom supporting energy and mitochondrial function
+
 Crab:
   label: Crab
   permalink: /docs/tags/crab
@@ -917,6 +937,11 @@ Lemon:
   permalink: /docs/tags/lemon
   description: Citrus fruit rich in vitamin C
 
+Lion's Mane Mushroom:
+  label: Lion's Mane Mushroom
+  permalink: /docs/tags/lions-mane-mushroom
+  description: Medicinal mushroom with bioactive compounds supporting nerve health
+
 Lentils:
   label: Lentils
   permalink: /docs/tags/lentils
@@ -941,6 +966,11 @@ Mackerel:
   label: Mackerel
   permalink: /docs/tags/mackerel
   description: Fatty fish rich in omega-3
+
+Maitake Mushroom:
+  label: Maitake Mushroom
+  permalink: /docs/tags/maitake-mushroom
+  description: Medicinal mushroom rich in beta-glucans supporting immune function
 
 Mankai:
   label: Mankai
@@ -1021,6 +1051,11 @@ Onions:
   label: Onions
   permalink: /docs/tags/onions
   description: Allium vegetable with quercetin
+
+Oyster Mushroom:
+  label: Oyster Mushroom
+  permalink: /docs/tags/oyster-mushroom
+  description: Culinary mushroom rich in beta-glucans and B vitamins
 
 Oranges:
   label: Oranges
@@ -1117,6 +1152,11 @@ Raspberries:
   permalink: /docs/tags/raspberries
   description: Berry rich in polyphenols and fiber
 
+Reishi Mushroom:
+  label: Reishi Mushroom
+  permalink: /docs/tags/reishi-mushroom
+  description: Medicinal mushroom supporting vitality and stress modulation
+
 Rice:
   label: Rice
   permalink: /docs/tags/rice
@@ -1166,6 +1206,11 @@ Sesame Seeds:
   label: Sesame Seeds
   permalink: /docs/tags/sesame-seeds
   description: Seeds rich in calcium and lignans
+
+Shiitake Mushroom:
+  label: Shiitake Mushroom
+  permalink: /docs/tags/shiitake-mushroom
+  description: Culinary and medicinal mushroom rich in beta-glucans and umami flavor
 
 Shrimp:
   label: Shrimp
@@ -1256,6 +1301,11 @@ Turkey:
   label: Turkey
   permalink: /docs/tags/turkey
   description: Poultry providing complete protein
+
+Turkey Tail Mushroom:
+  label: Turkey Tail Mushroom
+  permalink: /docs/tags/turkey-tail-mushroom
+  description: Medicinal mushroom rich in polysaccharides supporting immune function
 
 Turmeric Milk:
   label: Turmeric Milk
