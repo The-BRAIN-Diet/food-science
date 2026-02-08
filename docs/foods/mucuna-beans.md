@@ -8,6 +8,7 @@ tags:
   - Mucuna Beans
   - Vegan
   - Vegetarian
+  - L-DOPA
   - SCFAs
 list_image: /img/icons/ingredients.svg
 ---
