@@ -2,7 +2,7 @@
 id: turkey-wing-stew
 title: Turkey Wing Stew
 sidebar_label: Turkey Wing Stew
-description: A collagen-rich, glycine-heavy slow-cooked stew made from affordable turkey wings — supporting gut, joint, sleep, and brain health.
+description: A collagen-rich, glycine-heavy slow-cooked stew made from affordable turkey wings — rich in protein, tryptophan, and B vitamins.
 tags:
   - Neurochemical Balance
   - Gut Microbiome
@@ -25,7 +25,7 @@ list_image: /img/recipes/turkey-wing-stew.jpg
 
 ## Overview
 
-This deeply nourishing stew is made from **slow-cooked turkey wings**, releasing gelatin and **glycine-rich collagen** into the broth. It's a **budget-friendly** meal that supports **gut barrier repair**, **sleep regulation (via glycine)**, **connective tissue strength**, and **neurotransmitter balance**. Turkey wings also provide **tryptophan**, **selenium**, and **B vitamins** important for methylation and mood.
+This deeply nourishing stew is made from **slow-cooked turkey wings**, releasing gelatin and **glycine-rich collagen** into the broth. It's a **budget-friendly** meal. Turkey wings provide **tryptophan** (an amino acid precursor to serotonin), **selenium**, and **B vitamins** — nutrients involved in various body processes including mood regulation.
 
 ## Ingredients
 
@@ -36,7 +36,7 @@ This deeply nourishing stew is made from **slow-cooked turkey wings**, releasing
 - 3 cloves **garlic**, minced
 - 1 tbsp **apple cider vinegar** (helps extract minerals from bones)
 - 2 tbsp **olive oil**
-- 1 tsp **turmeric** (optional, anti-inflammatory)
+- 1 tsp **turmeric** (optional)
 - 1 tsp **thyme** or **rosemary**
 - Salt and pepper to taste
 - Water to cover (~1.5 L)

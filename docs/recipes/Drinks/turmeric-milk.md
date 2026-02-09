@@ -20,7 +20,7 @@ list_image: /img/icons/recipes.svg
 
 ## Overview
 
-Turmeric milk combines turmeric (curcumin) with milk/fat, enhancing curcumin absorption and providing a vehicle for brain-focused bioactive herbs. The fat in milk significantly improves curcumin bioavailability, and adding black pepper (piperine) further enhances absorption. This warming drink is ideal for evening consumption and supports anti-inflammatory and neuroprotective pathways.
+Turmeric milk combines turmeric (curcumin) with milk or plant-based milk. Curcumin is fat-soluble, so the fat in milk can improve its absorption; black pepper (piperine) is also associated with enhanced curcumin absorption. This warming drink is ideal for evening consumption.
 
 ## Ingredients
 
@@ -43,11 +43,9 @@ Turmeric milk combines turmeric (curcumin) with milk/fat, enhancing curcumin abs
 
 ## Brain Health Notes
 
-- Turmeric contains curcumin, a polyphenol with anti-inflammatory and neuroprotective effects.
-- The fat in milk enhances curcumin absorption, as curcumin is fat-soluble.
-- Black pepper contains piperine, which dramatically enhances curcumin bioavailability.
-- Curcumin supports anti-inflammatory pathways and may help reduce neuroinflammation.
-- This drink is part of food synergy strategies that enhance nutrient bioavailability.
+- **Turmeric** contains curcumin, a polyphenol studied for anti-inflammatory and antioxidant effects.
+- **Milk or plant-based milk** provides fat that can improve curcumin absorption, since curcumin is fat-soluble.
+- **Black pepper** contains piperine, which is associated with enhanced curcumin bioavailability.
 
 ## Foods/Substances
 

@@ -53,6 +53,14 @@ Salmon is an oily fish that provides high-quality protein, omega-3 fatty acids (
 - Can be consumed raw (sushi-grade) or lightly cooked
 - Targeted foods such as salmon can be used to reliably and safely exceed minimum omega-3 intakes
 
+## Sourcing
+
+Both wild-caught and responsibly farm-raised salmon can be good options. Where possible, choose salmon that is sustainably sourced and labelled as free from routine antibiotics and unnecessary additives, whether wild or farmed.
+
+Please be sure to research your supermarket and their suppliers — many are moving towards more sustainable, ethical sourcing (e.g. [M&amp;S Aquaculture and Fisheries](https://corporate.marksandspencer.com/sustainability/our-products/aquaculture-and-fisheries)). For a balanced overview of wild versus farmed salmon, see resources such as the summary from [North Coast Seafoods](https://www.northcoastseafoods.com/blogs/know-seafood/farm-raised-vs-wild-caught-salmon).
+
+The U.S. Food and Drug Administration (FDA) and Environmental Protection Agency (EPA) jointly publish [guidance on fish mercury levels](https://www.fda.gov/food/environmental-contaminants-food/technical-information-development-fdaepa-advice-about-eating-fish-those-who-might-become-or-are). They categorize fish into "Best Choices", "Good Choices", and "Choices to Avoid" based on average mercury concentrations and safe weekly intake levels. Salmon is repeatedly in the "Best Choices" category because it consistently has low mercury relative to the reference dose used to set safety advice (≤0.15 µg/g).
+
 ## Biological Target Matrix
 
 <FoodMatrix tag="Salmon" />

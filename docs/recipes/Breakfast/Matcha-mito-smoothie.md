@@ -28,7 +28,7 @@ list_image: /img/recipes/matcha-mito-smoothie.jpg
 
 ## Overview
 
-This energizing smoothie combines matcha's powerful catechins with magnesium-rich pumpkin seeds and spinach, omega-3 from chia seeds, and gut-supporting probiotics from kefir or yogurt. The combination activates AMPK for mitochondrial biogenesis, provides essential magnesium for ATP synthesis, and reduces oxidative stress through polyphenols and antioxidants, making it an ideal breakfast to support cellular energy production and cognitive function.
+This energising smoothie combines matcha catechins with magnesium-rich pumpkin seeds and spinach, omega-3 from chia seeds, and probiotics from kefir or yogurt. Matcha contains catechins studied for antioxidant effects; pumpkin seeds and spinach provide magnesium; chia provides ALA omega-3.
 
 ## Ingredients
 
@@ -51,11 +51,11 @@ This energizing smoothie combines matcha's powerful catechins with magnesium-ric
 
 ## Brain Health Notes
 
-- Matcha contains catechins that reduce mitochondrial oxidative stress and activate AMPK for improved mitochondrial biogenesis.
-- Pumpkin seeds and spinach supply magnesium, essential for ATP synthesis (Mg-ATP complex).
-- Kefir supports microbiome health, reducing inflammatory load.
-- Chia seeds offer ALA omega-3 for membrane fluidity and mitochondrial signalling.
-- Antioxidants reduce ROS burden, protecting mitochondrial DNA.
+- **Matcha** contains catechins (EGCG and others) studied for antioxidant effects.
+- **Pumpkin seeds and spinach** supply magnesium, a mineral important for energy metabolism.
+- **Kefir** provides probiotics associated with gut microbiome diversity.
+- **Chia seeds** provide ALA omega-3 and fibre.
+- **Spinach and matcha** contribute polyphenols and antioxidants studied for various cellular effects.
 
 ## Foods/Substances
 

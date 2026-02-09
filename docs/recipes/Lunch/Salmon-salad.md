@@ -1,8 +1,8 @@
 ---
 id: ecs-tone-salmon-pistachio-bowl
 title: Salmon Bowl-pistachio-cacao-nibs
-sidebar_label: ECS-Tone Salmon Bowl
-description: A functional ECS-supportive bowl combining salmon, avocado, pistachios, cacao nibs, and early harvest olive oil to help preserve anandamide tone, improve membrane lipid composition, and support gut–brain signaling.
+sidebar_label: Salmon Bowl-pistachio-cacao-nibs
+description: A Mediterranean-style bowl combining salmon, avocado, pistachios, cacao nibs, and early harvest olive oil — rich in omega-3 fats, polyphenols, and fibre.
 tags:
   - Recipe
   - Lunch
@@ -20,7 +20,7 @@ list_image: /img/recipes/Salmon-pistachio-cacoa-nibs.jpg
 <img src="/img/recipes/Salmon-pistachio-cacoa-nibs.jpg" alt="ECS-Tone Salmon Bowl" width="480" />
 
 ## Overview
-A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) tone**. The combination of salmon, avocado, pistachio, raw cacao nibs, and pomegranates provides precursors for endocannabinoids, mild FAAH modulation, and a favorable omega profile. Lemon and fresh greens brighten the dish while providing fiber and micronutrients to support gut–brain communication and anti-inflammatory tone.
+A Mediterranean-style bowl combining salmon, avocado, pistachio, raw cacao nibs, and pomegranates. These ingredients provide omega-3 fats, polyphenols, fibre, and a favourable omega-6:omega-3 ratio. Lemon and fresh greens add brightness, fibre, and micronutrients.
 
 ## Ingredients (2 servings)
 - 120–150 g **wild salmon** (baked or lightly pan-seared)
@@ -95,17 +95,17 @@ A Mediterranean-style bowl engineered to support **Endocannabinoid System (ECS) 
 
 ## Brain Health Notes
 
-### ECS Tone Support
-- **Salmon** supplies EPA/DHA → membrane phospholipid pool → **2-AG biosynthesis**  
-- **Pistachios + avocado** supply oleic acid & endogenous NAEs → **reduced FAAH pressure → preserved AEA**  
-- **Cacao nibs** provide polyphenols → **reduced inflammatory degradation of CB1/CB2 signaling**
+- **Salmon** provides EPA and DHA, omega-3 fats important for brain structure and cell membranes.
+- **Pistachios and avocado** supply oleic acid and other fats; avocado contains compounds studied in relation to endocannabinoid-like signalling.
+- **Cacao nibs** provide polyphenols (flavanols) that are studied for antioxidant and vascular effects.
+- **Early harvest olive oil** contains phenolic compounds associated with antioxidant activity.
+- **Leafy greens and nuts** provide fibre that feeds gut bacteria; fibre fermentation produces SCFAs, which are studied for gut–brain communication.
 
-### Synaptic & membrane integrity
-- DHA improves **CB1 receptor incorporation**, synaptic fluidity, and dopaminergic resilience.  
-- Early harvest olive oil phenolics stabilize peroxidation, preventing lipid stress that disrupts ECS tone.
+### Salmon sourcing
 
-### Gut–brain axis
-- Leafy greens + nut fiber → **SCFA fermentation** → **CB2 immune tone** and vagal modulation.
+This bowl works with either wild-caught or responsibly farm-raised salmon. Aim for salmon that is sustainably sourced and clearly labelled as free from routine antibiotics and unnecessary additives, whether wild or farmed. Please be sure to research your supermarket and their suppliers — many are moving towards more sustainable, ethical sourcing (e.g. [M&amp;S Aquaculture and Fisheries](https://corporate.marksandspencer.com/sustainability/our-products/aquaculture-and-fisheries)). For a balanced overview of wild versus farmed salmon, see resources such as the summary from [North Coast Seafoods](https://www.northcoastseafoods.com/blogs/know-seafood/farm-raised-vs-wild-caught-salmon).
+
+The U.S. Food and Drug Administration (FDA) and Environmental Protection Agency (EPA) jointly publish [guidance on fish mercury levels](https://www.fda.gov/food/environmental-contaminants-food/technical-information-development-fdaepa-advice-about-eating-fish-those-who-might-become-or-are). They categorize fish into "Best Choices", "Good Choices", and "Choices to Avoid" based on average mercury concentrations and safe weekly intake levels. Salmon is repeatedly in the "Best Choices" category because it consistently has low mercury relative to the reference dose used to set safety advice (≤0.15 µg/g).
 
 ## Foods/Substances
 <RecipeFoods details={frontMatter} />

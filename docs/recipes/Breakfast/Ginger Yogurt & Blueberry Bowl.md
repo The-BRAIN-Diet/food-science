@@ -2,7 +2,7 @@
 id: ginger-yogurt-blueberry-bowl
 title: Ginger Yogurt and Blueberries
 sidebar_label: Ginger Yogurt and Blueberries
-description: An Anti-inflammatory polyphenol-rich breakfast bowl with high fibre. Start the day with anti-inflammatory gingerols and omega 3 nuts, blueberry polyphenols, a fibre from steel rolled oats. Great to set up dopamine for focus and attention.
+description: A polyphenol-rich breakfast bowl with high fibre, combining ginger, omega-3 nuts, blueberry polyphenols, and probiotic yogurt.
 list_image: /img/recipes/ginger-yogurt-blueberries.jpg
 tags:
   - Anti-inflammatory
@@ -30,7 +30,7 @@ tags:
 
 ## Overview
 
-This anti-inflammatory polyphenol-rich breakfast bowl combines ginger's anti-inflammatory properties with blueberry polyphenols, omega-3 rich seeds and nuts, and probiotic yogurt. The combination of gingerols, anthocyanins, ALA omega-3, and gut-supporting probiotics makes this an ideal morning meal to support dopamine production for focus and attention while reducing inflammatory load.
+This polyphenol-rich breakfast bowl combines ginger, blueberry polyphenols, omega-3 rich seeds and nuts, and probiotic yogurt. Ginger contains gingerols, blueberries contain anthocyanins, and seeds provide ALA omega-3 — all compounds studied for various health effects. Yogurt provides probiotics associated with gut health.
 
 ## Ingredients
 
@@ -59,10 +59,10 @@ Nuts and seeds are high calorie and high omega 6 density; used sparingly and gau
 
 ## Brain Health Notes
 
-- Ginger inhibits NF-κB, reducing neuroinflammation.
-- Blueberries provide anthocyanins that support cognitive function.
-- Seeds provide ALA omega-3 and magnesium for neurotransmitter synthesis and membrane fluidity.
-- Yogurt supports gut–brain signaling through probiotics and postbiotic compounds.
+- **Ginger** contains gingerols studied for anti-inflammatory effects.
+- **Blueberries** provide anthocyanins, polyphenols studied for antioxidant and vascular effects.
+- **Seeds** provide ALA omega-3 and magnesium, nutrients important for brain structure and function.
+- **Yogurt** provides probiotics and postbiotic compounds associated with gut health.
 
 ## Foods/Substances
 

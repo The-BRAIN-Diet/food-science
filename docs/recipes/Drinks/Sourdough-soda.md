@@ -98,7 +98,6 @@ Low sugar, gut-supportive, hydrating — and completely natural.
 
 ## 🔍 BRAIN Diet Snapshot
 
-- **Systems targeted:** Gut–brain axis, hydration, mild SCFA support, emotional regulation (sensory / olfactory), circadian-friendly evening drink.
 - **UPF profile:** 100% non-UPF; uses simple ingredients and fermentation rather than additives.
 - **Use case:** As a **low-sugar, low-alcohol alternative** to soft drinks in the evening, or as a gentle digestive drink with meals.
 
@@ -106,46 +105,35 @@ Low sugar, gut-supportive, hydrating — and completely natural.
 
 # 🧠 Scientific Sidebar
 
-<Collapse title="Mechanistic Notes (Gut–Brain Axis, SCFAs, Neurochemistry)">
+<Collapse title="Nutrient & Fermentation Notes">
 
-### 1. Fermentation & the Gut–Brain Axis
+### 1. Fermentation
 
-- The drink captures **lactic acid bacteria and wild yeasts** originating from the sourdough bread.  
-- Fermentation generates **organic acids** (lactate, acetate) and a modest range of **postbiotic molecules** (small peptides, microbial metabolites).  
-- Even in low doses, these can help shape the gut environment and support **vagal signalling** and gut–brain communication.
+- The drink captures **lactic acid bacteria and wild yeasts** from the sourdough bread.  
+- Fermentation generates **organic acids** (lactate, acetate) and **postbiotic molecules** (small peptides, microbial metabolites).  
+- Regular fermented-food intake is associated with increased diversity of gut microbes.
 
-### 2. SCFA Potential (Downstream)
+### 2. Fibre and SCFAs
 
-- The drink itself is not a fibre source, but regular fermented-food intake is associated with:  
-  - increased diversity of **SCFA-producing microbes**  
-  - improved production of **butyrate, acetate and propionate** when the overall diet is fibre-rich.  
-- In the context of the BRAIN Diet, this drink is a **supporting ferment** alongside fibre-rich meals, not a stand-alone SCFA source.
+- The drink itself is not a fibre source. In the context of the BRAIN Diet, it is a **supporting ferment** alongside fibre-rich meals.
 
-### 3. Mineral & B-Vitamin Availability
+### 3. Minerals and B Vitamins
 
-- Prolonged soaking and simmering of sourdough bread can solubilise:  
-  - magnesium  
-  - potassium  
-  - trace zinc  
-  - a fraction of **B-vitamins** (notably B1, B3, B6; heat-sensitive losses partly offset by prior sourdough fermentation).  
-- Sourdough fermentation itself reduces phytates, which can enhance mineral bioavailability in the crumbs used.
+- Soaking and simmering sourdough bread can solubilise **magnesium**, **potassium**, **trace zinc**, and some **B vitamins** (B1, B3, B6).  
+- Sourdough fermentation reduces phytates, which may enhance mineral bioavailability.
 
-### 4. Polyphenols, Melanoidins & Antioxidant Effects
+### 4. Toasting and Maillard Compounds
 
-- Toasting the bread to a deep golden-brown creates **melanoidins** and transforms existing polyphenols.  
-- These Maillard-derived compounds may act as **mild antioxidants and prebiotics**, supporting beneficial gut bacteria and lowering oxidative stress.
+- Toasting the bread creates **melanoidins** and transforms polyphenols — Maillard-derived compounds studied for mild antioxidant and prebiotic effects.
 
-### 5. Glycaemic and HPA Axis Considerations
+### 5. Glycaemic Profile
 
 - Most of the added sugar is **consumed by microbes** during fermentation, reducing the final glycaemic load.  
-- Compared to sweet soft drinks, sourdough soda is much less likely to cause **rapid glucose spikes** and downstream **cortisol / adrenaline surges**, offering a calmer metabolic profile that aligns with ADHD and mood-stability goals.
+- Compared to sweet soft drinks, sourdough soda typically causes smaller glucose spikes.
 
-### 6. Sensory & Emotional Regulation
+### 6. Sensory Experience
 
-- The combination of **gentle carbonation, cinnamon aroma, mild acidity and ritual** (toasting, brewing, bottling) offers:  
-  - sensory richness without ultra-processed hyper-stimulation  
-  - a calming, predictable evening drink pattern  
-  - potential support for **emotional regulation** via olfactory–limbic pathways and reduced reliance on sugary or alcoholic drinks.
+- Gentle carbonation, cinnamon aroma, and mild acidity offer sensory richness without ultra-processed stimulation — a calming, predictable evening drink pattern.
 
 </Collapse>
 
