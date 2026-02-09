@@ -2,7 +2,7 @@
 id: mitochondrial-power-bowl
 title: Mitochondrial Power Bowl
 sidebar_label: Mitochondrial Power Bowl
-description: A nitrate-rich, polyphenol-dense bowl supporting mitochondrial function, ATP generation, and metabolic resilience
+description: A nitrate-rich, polyphenol-dense bowl combining leafy greens, beets, berries, nuts, and early harvest olive oil
 tags:
   - Recipe
   - Mitochondrial Support
@@ -28,7 +28,7 @@ list_image: /img/recipes/mitochondrial-power-bowl.jpg
 
 ## Overview
 
-A vibrant, nutrient-dense bowl combining nitrate-rich leafy greens and beets with polyphenol-packed berries, nuts, and seeds. This Mediterranean-inspired meal supports mitochondrial energy production through magnesium and B-vitamin cofactors, enhances ATP generation via antioxidant networks, and promotes metabolic resilience through balanced macronutrients and bioactive compounds.
+A vibrant, nutrient-dense bowl combining nitrate-rich leafy greens and beets with polyphenol-packed berries, nuts, and seeds. This Mediterranean-inspired meal provides magnesium, B vitamins, polyphenols, and fibre — nutrients studied for their roles in energy metabolism and antioxidant defence.
 
 ## Ingredients
 
@@ -74,12 +74,12 @@ A vibrant, nutrient-dense bowl combining nitrate-rich leafy greens and beets wit
 
 ## Brain Health Notes
 
-- **Nitrate conversion**: Leafy greens and beets provide dietary nitrates that convert to nitric oxide, supporting vascular function and mitochondrial efficiency.
-- **Polyphenol synergy**: Blueberries, walnuts, and early harvest olive oil deliver diverse polyphenols (anthocyanins, ellagitannins, hydroxytyrosol) that activate Nrf2 pathways, reducing oxidative stress and supporting mitochondrial biogenesis.
-- **Magnesium for ATP**: Spinach, pumpkin seeds, and quinoa provide magnesium essential for ATP synthase activity and mitochondrial energy production.
-- **B-vitamin cofactors**: Quinoa supplies B vitamins (B1, B2, B3) that support NAD+ synthesis and mitochondrial electron transport chain function.
-- **Omega-3 balance**: Walnuts and optional hemp seeds provide ALA omega-3, supporting membrane fluidity and mitochondrial signaling pathways.
-- **Antioxidant networks**: The combination of vitamin E (from early harvest olive oil and seeds), vitamin C (from lemon and greens), and polyphenols creates a synergistic antioxidant defense system protecting mitochondrial DNA and reducing neuroinflammation.
+- **Leafy greens and beets** contain dietary nitrates that are studied for their role in nitric oxide and vascular function.
+- **Blueberries, walnuts, and early harvest olive oil** provide polyphenols (anthocyanins, ellagitannins, hydroxytyrosol) studied for antioxidant effects.
+- **Spinach, pumpkin seeds, and quinoa** provide magnesium, a mineral important for energy metabolism.
+- **Quinoa** supplies B vitamins (B1, B2, B3) involved in cellular energy pathways.
+- **Walnuts and optional hemp seeds** provide ALA omega-3, a fatty acid important for brain structure.
+- **Olive oil, seeds, lemon, and greens** contribute vitamin E, vitamin C, and polyphenols — nutrients associated with antioxidant defence.
 
 ## Foods/Substances
 

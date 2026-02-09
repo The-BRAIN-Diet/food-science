@@ -2,7 +2,7 @@
 id: turmeric-lentil-dahl
 title: Turmeric Lentil Dahl
 sidebar_label: Turmeric Lentil Dahl
-description: Anti-inflammatory curcumin-rich lentil dish supporting gut health, NF-κB inhibition, and SCFA production
+description: Turmeric- and ginger-spiced lentil dish rich in fibre, folate, and polyphenols
 tags:
   - Inflammation
   - Gut Microbiome
@@ -25,7 +25,7 @@ list_image: /img/recipes/turmeric-lentil-dahl.jpg
 
 ## Overview
 
-This warming, anti-inflammatory dahl combines turmeric's powerful curcumin with ginger's anti-inflammatory properties, high-fibre lentils for gut health, and folate-rich spinach. The combination provides strong NF-κB inhibition to reduce neuroinflammation, supports SCFA production through prebiotic fibre, and delivers essential nutrients for methylation pathways, making it an ideal evening meal for stable glucose and calmer energy.
+This warming dahl combines turmeric (curcumin), ginger, high-fibre lentils, and folate-rich spinach. Lentils provide fibre that feeds gut bacteria; turmeric and ginger contain compounds studied for anti-inflammatory effects; spinach provides folate, a B vitamin involved in one-carbon metabolism.
 
 ## Ingredients
 
@@ -56,11 +56,10 @@ This warming, anti-inflammatory dahl combines turmeric's powerful curcumin with 
 
 ## Brain Health Notes
 
-- Turmeric (curcumin) provides strong NF-κB inhibition, reducing neuroinflammation.
-- Ginger offers anti-inflammatory benefits and supports gut motility.
-- Lentils provide high fibre for SCFA production and microbiome health.
-- Spinach supplies folate for methylation pathways.
-- Slow, even carbohydrate release supports stable glucose and calmer evening energy.
+- **Turmeric** contains curcumin, a polyphenol studied for anti-inflammatory effects.
+- **Ginger** contains gingerols studied for anti-inflammatory effects.
+- **Lentils** provide high fibre that feeds gut bacteria; fibre fermentation produces SCFAs associated with gut health.
+- **Spinach** supplies folate, a B vitamin involved in one-carbon metabolism.
 
 ## Foods/Substances
 

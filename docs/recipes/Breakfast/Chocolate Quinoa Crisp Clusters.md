@@ -79,12 +79,11 @@ A delicious cereal-to-snack hybrid that delivers satisfying crunch and steady en
 
 ## Brain Health Notes
 
-- Quinoa provides complete plant protein with all essential amino acids, supporting neurotransmitter synthesis and steady energy release.
-- Flax seeds contribute ALA omega-3, soluble fiber (mucilage), and lignans, supporting gut microbiome health and SCFA production.
-- Cocoa/cacao provides polyphenols (flavanols) that support cognitive function and reduce oxidative stress.
-- Coconut oil's medium-chain triglycerides provide alternative energy substrate, while its crystallisation creates a protective lipid shell that preserves texture.
-- The intact grain microstructure provides mechanical fracture points and aeration, creating the characteristic crunch without relying on added fats.
-- Low glycemic profile from whole grains and minimal added sugars supports stable blood glucose and reduced insulin spikes.
+- **Quinoa** provides complete plant protein with all essential amino acids.
+- **Flax seeds** contribute ALA omega-3, soluble fibre (mucilage), and lignans — nutrients and compounds associated with gut health.
+- **Cocoa/cacao** provides polyphenols (flavanols) studied for antioxidant and vascular effects.
+- **Coconut oil** provides medium-chain triglycerides; its crystallisation on cooling helps create the cluster texture.
+- **Whole grains and minimal added sugars** give a lower glycemic profile than refined cereals.
 
 ## Foods/Substances
 

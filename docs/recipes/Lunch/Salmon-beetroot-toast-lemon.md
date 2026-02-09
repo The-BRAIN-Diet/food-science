@@ -23,7 +23,7 @@ tags:
 
 ## Overview
 
-A fast, brain-forward open sandwich: **omega-3 rich salmon + nitrate/polyphenol beetroot + lemon acidity** for a sharp, savoury bite. Ideal for lunch when you need high protein and vascular support without a long prep.
+A fast, brain-forward open sandwich: **omega-3 rich salmon + nitrate/polyphenol beetroot + lemon acidity** for a sharp, savoury bite. Ideal for lunch when you need high protein without a long prep. [Salmon sources](/docs/recipes/Lunch/salmon-beetroot-toast-lemon#salmon-sourcing), like all seafood, are important to research.
 
 ## Ingredients (1 serving)
 
@@ -59,17 +59,23 @@ A fast, brain-forward open sandwich: **omega-3 rich salmon + nitrate/polyphenol 
 - **Omega-3 (EPA+DHA):** ~**1.8–2.4 g** *(depends on salmon type)*
 
 ### Key micronutrient highlights (why it's "BRAIN")
-- **DHA/EPA (salmon):** neuronal membrane support + anti-inflammatory signaling
-- **Nitrates (beetroot):** nitric oxide → blood flow / vascular support
-- **Folate + potassium (beetroot):** methylation + electrolyte support
-- **Vitamin C (lemon):** antioxidant support + helps preserve/boost polyphenol activity
+- **DHA/EPA (salmon):** Provides omega-3 fats important for brain structure and signaling.
+- **Nitrates (beetroot):** Beetroot contains dietary nitrates that are studied for their role in nitric oxide signaling.
+- **Folate + potassium (beetroot):** Provides folate and potassium involved in one-carbon metabolism and electrolyte balance.
+- **Vitamin C (lemon):** A source of vitamin C and polyphenol-preserving acidity.
 
 ## Brain Health Notes
 
-- **Salmon** supplies EPA/DHA for neuronal membrane integrity and anti-inflammatory tone.
-- **Beetroot** nitrates convert to nitric oxide, supporting cerebral blood flow and mitochondrial efficiency.
-- **Lemon** provides vitamin C to enhance polyphenol stability and antioxidant defense.
-- **Wholegrain/sourdough bread** offers slower glucose release and fiber for gut-brain signaling.
+- **Salmon** provides EPA and DHA, omega-3 fats that are important for brain structure and cell membranes.
+- **Beetroot** contains dietary nitrates that are studied for their role in nitric oxide and vascular function.
+- **Lemon** provides vitamin C, a water-soluble antioxidant.
+- **Wholegrain/sourdough bread** provides fibre and a slower release of carbohydrate compared with refined bread.
+
+### Salmon sourcing {#salmon-sourcing}
+
+Both wild-caught and responsibly farm-raised salmon can be good options. Where possible, choose salmon that is sustainably sourced and labelled as free from routine antibiotics and unnecessary additives, whether wild or farmed. Please be sure to research your supermarket and their suppliers — many are moving towards more sustainable, ethical sourcing (e.g. [M&amp;S Aquaculture and Fisheries](https://corporate.marksandspencer.com/sustainability/our-products/aquaculture-and-fisheries)). For a balanced overview of wild versus farmed salmon, see resources such as the summary from [North Coast Seafoods](https://www.northcoastseafoods.com/blogs/know-seafood/farm-raised-vs-wild-caught-salmon).
+
+The U.S. Food and Drug Administration (FDA) and Environmental Protection Agency (EPA) jointly publish [guidance on fish mercury levels](https://www.fda.gov/food/environmental-contaminants-food/technical-information-development-fdaepa-advice-about-eating-fish-those-who-might-become-or-are). They categorize fish into "Best Choices", "Good Choices", and "Choices to Avoid" based on average mercury concentrations and safe weekly intake levels. Salmon is repeatedly in the "Best Choices" category because it consistently has low mercury relative to the reference dose used to set safety advice (≤0.15 µg/g).
 
 ## Foods/Substances
 
