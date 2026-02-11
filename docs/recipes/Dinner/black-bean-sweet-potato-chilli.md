@@ -3,7 +3,7 @@ id: black-bean-sweet-potato-chilli
 title: Black Bean & Sweet Potato Vegetable Chilli
 sidebar_label: Black Bean & Sweet Potato Chilli
 description: A fibre-rich bean and vegetable chilli with warming spices and slow carbohydrates for steady energy and satiety.
-list_image: /img/recipes/black-bean-sweet-potato-chilli.png
+list_image: /img/recipes/black-bean-sweet-potato-chilli.jpg
 tags:
   - Recipe
   - Dinner
@@ -26,7 +26,7 @@ tags:
   - Yogurt
 ---
 
-<img src="/img/recipes/black-bean-sweet-potato-chilli.png" alt="Black Bean & Sweet Potato Vegetable Chilli" width="480" />
+<img src="/img/recipes/black-bean-sweet-potato-chilli.jpg" alt="Black Bean & Sweet Potato Vegetable Chilli" width="480" />
 
 ## Overview
 
