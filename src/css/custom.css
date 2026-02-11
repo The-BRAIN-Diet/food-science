@@ -144,6 +144,25 @@
   color: rgba(255, 255, 255, 1) !important; /* brighter on hover for dark mode */
 }
 
+/* Breadcrumb links: ensure clickable on mobile with adequate tap target */
+.breadcrumbs__link {
+  display: inline-block;
+  min-height: 44px;
+  min-width: 44px;
+  padding: 0.5rem 0.25rem;
+  line-height: 1.5;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+.breadcrumbs__link[href]:hover,
+.breadcrumbs__link[href]:focus {
+  text-decoration: underline;
+}
+.breadcrumbs__item--active .breadcrumbs__link {
+  cursor: default;
+}
+
 /* Editorial Team page styles */
 .team-photo {
   border-radius: 50%;

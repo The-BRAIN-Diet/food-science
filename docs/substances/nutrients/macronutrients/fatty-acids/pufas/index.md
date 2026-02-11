@@ -7,7 +7,4 @@ list_image: /img/icons/nutrients.svg
 
 PUFAs include **Omega-3** and **Omega-6** fatty acids.
 
-To view the substances, use the sidebar to open:
-
-- **Omega-3 Fatty Acids**
-- **Omega-6 Fatty Acids**
+<FolderList folder="substances/nutrients/macronutrients/fatty-acids/pufas" />

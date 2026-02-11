@@ -1,7 +1,1 @@
-{
-  "label": "Dinner",
-  "position": 4,
-  "collapsed": true,
-  "collapsible": true
-}
-
+{"label":"Dinner","position":4,"link":{"type":"doc","id":"dinner-recipes"},"collapsed":false,"collapsible":true}

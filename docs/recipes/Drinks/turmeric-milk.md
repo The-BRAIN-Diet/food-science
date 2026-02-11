@@ -15,8 +15,10 @@ tags:
   - Polyphenol
   - Inflammation
   - Oxidative Stress
-list_image: /img/icons/recipes.svg
+list_image: /img/recipes/Turmeric_Milk.jpg
 ---
+
+<img src="/img/recipes/Turmeric_Milk.jpg" alt="Turmeric Milk" width="480" />
 
 ## Overview
 
