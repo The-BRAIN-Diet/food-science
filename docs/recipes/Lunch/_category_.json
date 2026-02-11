@@ -1,7 +1,1 @@
-{
-  "label": "Lunch",
-  "position": 2,
-  "collapsed": true,
-  "collapsible": true
-}
-
+{"label":"Lunch","position":2,"link":{"type":"doc","id":"lunch-recipes"},"collapsed":false,"collapsible":true}

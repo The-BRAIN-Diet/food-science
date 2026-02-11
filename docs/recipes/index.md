@@ -11,4 +11,9 @@ list_image: /img/icons/recipes.svg
 
 # Recipes
 
+- [Breakfast](/docs/recipes/Breakfast)
+- [Lunch](/docs/recipes/Lunch)
+- [Dinner](/docs/recipes/Dinner)
+- [Drinks](/docs/recipes/Drinks)
+
 <TagList tag="Recipe" filter="recipes" />

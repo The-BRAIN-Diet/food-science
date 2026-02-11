@@ -93,7 +93,7 @@ export default function FolderList({ folder }: FolderListProps): React.ReactElem
     return true;
   });
 
-  // Find immediate subfolders by checking if any substances are in subfolders
+  // Find immediate subfolders: any folder one level below this one that contains docs (at any depth)
   const subfolderPaths = new Set<string>();
   uniqueSubstances.forEach((substance: Document) => {
     if (!substance.permalink) return;
@@ -101,12 +101,11 @@ export default function FolderList({ folder }: FolderListProps): React.ReactElem
     const substancePath = substance.permalink.substring(0, substance.permalink.lastIndexOf('/'));
     const substanceFolder = substancePath.replace(/^\/docs\//, '');
     
-    // Check if this substance is in an immediate subfolder (only one level deeper)
+    // Any doc under this folder (one or more levels deeper) counts; take first segment as subfolder
     if (substanceFolder.startsWith(normalizedFolder + '/') && substanceFolder !== normalizedFolder) {
       const relativePath = substanceFolder.substring(normalizedFolder.length + 1);
       const firstSegment = relativePath.split('/')[0];
-      if (firstSegment && !relativePath.includes('/')) {
-        // Only immediate subfolder (no nested paths)
+      if (firstSegment) {
         subfolderPaths.add(`${normalizedFolder}/${firstSegment}`);
       }
     }

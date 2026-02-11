@@ -12,6 +12,10 @@ list_image: /img/icons/ingredients.svg
 
 This page organizes all substances referenced in the BRAIN Diet documentation according to their biological classification: **Nutrients** (essential), **Bioactive Compounds** (non-essential, functional), and **Microbial Metabolites** (derived from digestion or microbial action).
 
+- [Bioactive Compounds](/docs/substances/bioactive-compounds)
+- [Microbial Metabolites](/docs/substances/microbial-metabolites)
+- [Nutrients](/docs/substances/nutrients)
+
 ## Nutrients (Essential + Classical)
 
 ### Macronutrients
