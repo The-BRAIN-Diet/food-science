@@ -822,6 +822,11 @@ Extra Virgin Olive Oil:
   permalink: /docs/tags/extra-virgin-olive-oil
   description: Highest quality olive oil with polyphenols
 
+Fermented Hot Sauce:
+  label: Fermented Hot Sauce
+  permalink: /docs/tags/fermented-hot-sauce
+  description: Fermented chilli-based condiment
+
 Fermented Vegetables:
   label: Fermented Vegetables
   permalink: /docs/tags/fermented-vegetables
@@ -1336,6 +1341,11 @@ Walnuts:
   label: Walnuts
   permalink: /docs/tags/walnuts
   description: Tree nut rich in ALA omega-3
+
+Wasabi:
+  label: Wasabi
+  permalink: /docs/tags/wasabi
+  description: Pungent green condiment traditionally served with sushi
 
 Wheat Germ:
   label: Wheat Germ

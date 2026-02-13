@@ -27,6 +27,10 @@ mechanisms:
   Methylation: Support homocysteine reduction in combination with B12, phospholipid methylation (PLM) dependent on SAMe
 ---
 
+## Omega-3 fatty acids (ALA, DHA, EPA, DPA)
+
+<FolderList folder="substances/nutrients/macronutrients/fatty-acids/pufas/omega-3" />
+
 ## Overview
 
 Omega-3 fatty acids, particularly EPA (eicosapentaenoic acid) and DHA (docosahexaenoic acid), are essential polyunsaturated fats that are central to the BRAIN Diet. DHA constitutes approximately 14% of brain polyunsaturated fatty acids and is critical for membrane fluidity, neurotransmitter receptor function, and synaptic plasticity. Omega-3s produce specialized pro-resolving mediators (SPMs) including resolvins, protectins, and maresins, which actively terminate inflammation without suppressing immune function. They also support the endocannabinoid system through production of N-acyl ethanolamines, improve vagal tone and heart rate variability, and work synergistically with B vitamins in methylation processes. Phospholipid-bound forms (from krill oil, fish roe) cross the blood-brain barrier more efficiently than triglyceride forms.
