@@ -17,6 +17,9 @@ tags:
   - Iron
   - Zinc
   - SCFAs
+  - Butyrate
+  - Propionate
+  - Acetate
   - Phosphatidylethanolamine
   - Lysine
   - Methionine

@@ -12,6 +12,7 @@ tags:
   - Vitamin E
   - Vitamin K2
   - SCFAs
+  - Butyrate
 list_image: /img/icons/ingredients.svg
 ---
 

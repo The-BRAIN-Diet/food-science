@@ -18,6 +18,9 @@ tags:
   - Potassium
   - Manganese
   - Copper
+  - SCFAs
+  - Propionate
+  - Acetate
   - Tryptophan
   - Lysine
   - Methionine

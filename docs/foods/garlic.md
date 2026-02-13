@@ -8,6 +8,9 @@ tags:
   - Garlic
   - Vegan
   - Vegetarian
+  - SCFAs
+  - Propionate
+  - Acetate
   - Manganese
   - Polyphenol
 list_image: /img/icons/ingredients.svg

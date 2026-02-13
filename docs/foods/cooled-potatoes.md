@@ -8,6 +8,10 @@ tags:
   - Cooled Potatoes
   - Vegan
   - Vegetarian
+  - SCFAs
+  - Butyrate
+  - Propionate
+  - Acetate
   - Potassium
   - Vitamin C
   - Vitamin B6

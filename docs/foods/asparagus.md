@@ -10,6 +10,8 @@ tags:
   - Vegetarian
   - Vitamin B9
   - SCFAs
+  - Propionate
+  - Acetate
 list_image: /img/icons/ingredients.svg
 ---
 

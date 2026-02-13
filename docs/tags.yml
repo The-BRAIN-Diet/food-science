@@ -146,6 +146,16 @@ Food:
   permalink: /docs/tags/food
   description: Brain-healthy foods in the BRAIN Diet
 
+Vegan Specialities:
+  label: Vegan Specialities
+  permalink: /docs/tags/vegan-specialities
+  description: Vegan-focused specialty foods and products in the BRAIN Diet
+
+Condiments:
+  label: Condiments
+  permalink: /docs/tags/condiments
+  description: Condiments, sauces, and flavour enhancers in the BRAIN Diet
+
 Arginine:
   label: Arginine
   permalink: /docs/tags/arginine

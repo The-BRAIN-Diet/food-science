@@ -8,6 +8,8 @@ tags:
   - Cauliflower
   - Vegan
   - Vegetarian
+  - SCFAs
+  - Butyrate
   - Vitamin C
   - Vitamin B9
 list_image: /img/icons/ingredients.svg

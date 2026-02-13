@@ -30,6 +30,26 @@ The gut microbiome represents a critical biological target in the BRAIN Diet, fo
 
 <TagList tag="Gut Microbiome" filter="substances" />
 
+## Foods supporting SCFA production
+
+Foods that support production of short-chain fatty acids (butyrate, propionate, acetate) or provide them in the diet help populate the Biological Target Matrix and therapeutic-area matrices. Use the lists below to isolate foods by SCFA.
+
+**All foods supporting SCFAs**
+
+<TagList tag="SCFAs" filter="foods" />
+
+**Foods associated with butyrate** (resistant starch, inulin, dietary sources)
+
+<TagList tag="Butyrate" filter="foods" />
+
+**Foods associated with propionate**
+
+<TagList tag="Propionate" filter="foods" />
+
+**Foods associated with acetate**
+
+<TagList tag="Acetate" filter="foods" />
+
 ## Biological Implications
 
 The gut microbiome's two dominant bacterial phyla are Firmicutes and Bacteroidetes, and their relative abundance (the Firmicutes:Bacteroidetes (F/B) ratio) is often considered a broad indicator of gut "balance" or dysbiosis. Studies have shown how by increasing the diversity of taxa can increase the possibilities for individuals to produce certain health beneficial metabolites such as Urolithin A, or increase omega 3 metabolism and reduce downstream harmful gut metabolites (paper.txt, line 497).

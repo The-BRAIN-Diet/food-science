@@ -8,6 +8,10 @@ tags:
   - Barley
   - Vegan
   - Vegetarian
+  - SCFAs
+  - Butyrate
+  - Propionate
+  - Acetate
   - Magnesium
 list_image: /img/icons/ingredients.svg
 ---
@@ -41,3 +45,4 @@ Barley provides beta-glucan prebiotic fiber and whole grain nutrients, supportin
 - Whole grains (including... grains like barley and oats) support gut health and stable glucose release
 - Chickpeas: Combine with grains like barley or oats for amino acid complementarity; grain-legume complementarity improves essential amino-acid coverage
 - Beta-glucans support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+- Barley β-glucan produces higher proportions of butyrate than inulin in in vitro fermentation with human fecal microbiota [Hughes et al. 2008](https://academic.oup.com/femsec/article/64/3/482/473920)

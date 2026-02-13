@@ -7,6 +7,8 @@ tags:
   - Food
   - Grass-Fed Butter
   - Vegetarian
+  - SCFAs
+  - Butyrate
   - Vitamin A
   - Vitamin D
   - Vitamin K2

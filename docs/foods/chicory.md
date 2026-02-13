@@ -9,6 +9,9 @@ tags:
   - Vegan
   - Vegetarian
   - SCFAs
+  - Butyrate
+  - Propionate
+  - Acetate
 list_image: /img/icons/ingredients.svg
 ---
 

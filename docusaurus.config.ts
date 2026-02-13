@@ -79,6 +79,14 @@ const config: Config = {
         indexPages: true,
       },
     ],
+    [
+      require.resolve('@docusaurus/plugin-client-redirects'),
+      {
+        redirects: [
+          { to: '/docs/foods/mankai', from: '/docs/foods/duckweed' },
+        ],
+      },
+    ],
   ],
 
   themeConfig: {
