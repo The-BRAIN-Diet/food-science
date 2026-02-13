@@ -8,6 +8,8 @@ tags:
   - Onions
   - Vegan
   - Vegetarian
+  - SCFAs
+  - Butyrate
   - Vitamin C
   - Quercetin
 list_image: /img/icons/ingredients.svg

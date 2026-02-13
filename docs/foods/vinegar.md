@@ -8,6 +8,7 @@ tags:
   - Vinegar
   - Vegan
   - Vegetarian
+  - Condiments
 list_image: /img/icons/ingredients.svg
 ---
 

@@ -10,6 +10,8 @@ tags:
 
 # Foods Index
 
-This page lists all foods mentioned in the BRAIN Diet paper. The left navigation contains all the foods alphabetically.
+**Printable shopping list:** see the [Foods Shopping List](/docs/foods/shopping-list) for an alphabetised table you can print.
+
+This page lists all foods mentioned in the BRAIN Diet paper.
 
 <TagList tag="Food" filter="foods" />

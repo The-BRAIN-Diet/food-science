@@ -7,6 +7,8 @@ tags:
   - Food
   - Parmesan Cheese
   - Vegetarian
+  - SCFAs
+  - Butyrate
   - Calcium
   - Vitamin K2
   - Tyrosine

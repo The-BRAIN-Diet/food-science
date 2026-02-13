@@ -6,6 +6,7 @@ description: Functional plant food with iron and B12 for vegan nutrient gaps
 tags:
   - Food
   - Mankai
+  - Duckweed
   - Vegan
   - Vegetarian
   - Iron
