@@ -16,7 +16,7 @@ list_image: /img/icons/ingredients.svg
 
 ## Overview
 
-Clams provide high levels of taurine and vitamin B12, supporting neurotransmission and methylation pathways. Taurine: Regulates calcium signaling, antioxidant defense, and neurotransmission; food sources include scallops, clams, dark-meat poultry, mackerel. Vitamin B12: Liver, clams, fish, eggs, dairy. B12 is essential for methylation, homocysteine recycling, and neurotransmitter synthesis.
+Clams provide very high levels of taurine (raw clams: ~240–520 mg/100 g) and vitamin B12, supporting neurotransmission, methylation pathways, and cardiovascular health. Among shellfish, clams and mussels are particularly rich in taurine, which regulates calcium signaling, antioxidant defense, and neurotransmission [Wójcik et al. 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2813349/). Vitamin B12 from clams is essential for methylation, homocysteine recycling, and neurotransmitter synthesis. Clams also supply iron, zinc, and selenium.
 
 ## Recipes
 
@@ -40,6 +40,6 @@ Clams provide high levels of taurine and vitamin B12, supporting neurotransmissi
 
 ## References
 
-- Taurine: Regulates calcium signaling, antioxidant defense, and neurotransmission; food sources include scallops, clams, dark-meat poultry, mackerel
+- Clams and mussels are among the highest dietary sources of taurine; taurine supports bile acid conjugation, blood pressure regulation, and antioxidant/anti-inflammatory activity [Wójcik et al. 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2813349/)
 - Vitamin B12: Liver, clams, fish, eggs, dairy; essential for methylation, homocysteine recycling, and neurotransmitter synthesis [Pawlak et al. 2013](/docs/papers/BRAIN-Diet-References#pawlak_vitamin_2013)
 - Iron (heme & non-heme): Oxygen delivery to brain, dopamine synthesis; food sources include liver, beef, lamb, poultry, fish (clams also contain heme iron)

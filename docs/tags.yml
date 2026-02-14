@@ -717,6 +717,11 @@ Clams:
   permalink: /docs/tags/clams
   description: Shellfish rich in vitamin B12 and iron
 
+Cockles:
+  label: Cockles
+  permalink: /docs/tags/cockles
+  description: Bivalve shellfish providing B12, iron, zinc, selenium, and marine taurine
+
 Cocoa:
   label: Cocoa
   permalink: /docs/tags/cocoa

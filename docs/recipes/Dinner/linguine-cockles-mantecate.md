@@ -7,6 +7,8 @@ list_image: /img/recipes/pasta_colour_contrast_only.jpg
 tags:
   - Recipe
   - Dinner
+  - Cockles
+  - Clams
   - Mussels
   - Parmesan Cheese
   - Extra Virgin Olive Oil
@@ -27,7 +29,7 @@ tags:
 
 ## Overview
 
-This dish applies a classic Italian emulsification technique to shellfish pasta, producing a glossy, integrated sauce without the use of cream. Cockles are briefly steamed to preserve their natural liquor, which contains amino acids, minerals, and marine peptides contributing to both flavour and nutritional value. Whole-wheat linguine provides a fibre-rich carbohydrate base, while onion, garlic, olive oil, and parsley create a balanced aromatic structure. The sauce is finished with egg yolk and cheese off heat, forming a stable emulsion that increases nutrient density while maintaining a light texture.
+This dish applies a classic Italian emulsification technique to shellfish pasta, producing a glossy, integrated sauce without the use of cream. Cockles are briefly steamed to preserve their natural liquor, which contains amino acids, minerals, and marine peptides contributing to both flavour and nutritional value. The dish works equally well with [mussels](/docs/foods/mussels) or [clams](/docs/foods/clams), which have similar nutritional profiles; clams and mussels are even higher in taurine [Wójcik et al. 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2813349/). Whole-wheat linguine provides a fibre-rich carbohydrate base, while onion, garlic, olive oil, and parsley create a balanced aromatic structure. The sauce is finished with egg yolk and cheese off heat, forming a stable emulsion that increases nutrient density while maintaining a light texture.
 
 ## Rationale (BRAIN Diet Context)
 
@@ -44,7 +46,7 @@ The result is a meal combining stable energy supply, micronutrient density, and 
 ## Ingredients (2 servings)
 
 - 200 g whole-wheat linguine
-- 1 kg cockles, purged and rinsed
+- 1 kg cockles (or mussels, or clams), purged and rinsed
 - 1 small onion, finely chopped
 - 2 garlic cloves, thinly sliced
 - 4 tbsp extra-virgin olive oil
