@@ -12,11 +12,9 @@ alwaysApply: false
 
 ## Meal Category Tagging for Drinks
 
-- **Drinks can be tagged with multiple meal categories**: A drink recipe can be tagged with both "Drinks" and a meal category (e.g., "Breakfast", "Lunch", "Dinner", "Snacks") simultaneously.
-- **Two organizational approaches are acceptable**:
-  - **Meal-specific drinks**: Drinks consumed at specific meals (e.g., breakfast smoothies) should be in their meal category folder (`Breakfast/`, `Lunch/`, etc.) with both the meal category tag AND "Drinks" tag.
-  - **General/anytime drinks**: Drinks that can be consumed at any time (e.g., evening beverages, general hydration drinks) can remain in the `Drinks/` folder with only the "Drinks" tag.
-- **Example**: A smoothie consumed for breakfast should have both "Breakfast" and "Drinks" tags, and the file should remain in the `Breakfast/` folder. A general evening drink can be in the `Drinks/` folder with just the "Drinks" tag.
+- **Drinks in the Drinks/ folder**: Tag with "Drinks" only. Do not add "Dinner", "Lunch", or other meal tags, so they appear only on the Drinks page and not on meal-specific pages (e.g. Dinner).
+- **Meal-specific drinks** (e.g. breakfast smoothies): Place in the meal category folder (`Breakfast/`, `Lunch/`, etc.) with both the meal category tag AND "Drinks" tag.
+- **General drinks** (e.g. Sourdough Soda, Turmeric Milk): Keep in `Drinks/` folder with only the "Drinks" tag.
 - **Future category**: Drinks will eventually be added as a new category under foods, but recipes should remain organized by meal category when applicable.
 
 The Format of the page should have this structure:

@@ -6,7 +6,6 @@ description: A warming drink combining turmeric (curcumin) with milk/fat for enh
 tags:
   - Recipe
   - Drinks
-  - Dinner
   - Turmeric Milk
   - Turmeric
   - Milk
