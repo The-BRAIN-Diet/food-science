@@ -6,6 +6,7 @@ description: Polyphenol-rich midday salad with quinoa or lentils, vegetables, av
 tags:
   - Circadian Rhythm
   - Gut Microbiome
+  - Fibre
   - Neurochemical Balance
   - Methylation
   - Insulin Response

@@ -6,6 +6,7 @@ description: Turmeric- and ginger-spiced lentil dish rich in fibre, folate, and 
 tags:
   - Inflammation
   - Gut Microbiome
+  - Fibre
   - Methylation
   - Neurochemical Balance
   - Oxidative Stress

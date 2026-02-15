@@ -7,6 +7,7 @@ list_image: /img/recipes/sweet%20potatoe%20and%20curry%20n%20coconut%20creamed%2
 tags:
   - Recipe
   - Dinner
+  - Fibre
   - Potatoes
   - Corn
   - Broccoli

@@ -7,6 +7,7 @@ list_image: /img/recipes/black-bean-sweet-potato-chilli.jpg
 tags:
   - Recipe
   - Dinner
+  - Fibre
   - Gut Microbiome
   - Methylation
   - Neurochemical Balance
