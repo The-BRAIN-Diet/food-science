@@ -4,7 +4,7 @@ sidebar_label: Therapeutic Areas
 description: Explore how the BRAIN Diet supports various therapeutic applications
 tags:
   - Area
-sidebar_position: 5
+sidebar_position: 4
 list_image: /img/icons/therapeutic-areas.svg
 ---
 

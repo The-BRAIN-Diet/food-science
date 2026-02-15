@@ -47,6 +47,7 @@ export default function DocsAreasGrid(): ReactNode {
     return (
       permalink.includes("/recipes") ||
       permalink.includes("/foods") ||
+      permalink.includes("/dietary-foundations") ||
       permalink.includes("/biological-targets") ||
       permalink.includes("/substances") ||
       permalink.includes("/therapeutic-areas")
@@ -54,11 +55,13 @@ export default function DocsAreasGrid(): ReactNode {
       permalink.includes("/training") ||
       permalink.includes("/symptoms") ||
       permalink.includes("/partners") ||
-      permalink.includes("/interventions")
+      permalink.includes("/interventions") ||
+      permalink.includes("post-meal-state-regulation") ||
+      permalink.includes("dietary-fat-metabolic-signalling")
     )
   })
 
-  // Sort by sidebar_position (order): Recipes (1), Foods (2), Biological Targets (3), Substances (4), Therapeutic Areas (5)
+  // Sort by order: Recipes (1), Foods (2), Dietary Foundations (3), Therapeutic Areas (4), Biological Targets (5), Substances (6)
   const sortedDocs = visibleDocs.sort((a, b) => a.order - b.order)
 
   return (

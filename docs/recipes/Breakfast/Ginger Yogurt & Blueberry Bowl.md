@@ -3,7 +3,7 @@ id: ginger-yogurt-blueberry-bowl
 title: Ginger Yogurt and Blueberries
 sidebar_label: Ginger Yogurt and Blueberries
 description: A polyphenol-rich breakfast bowl with high fibre, combining ginger, omega-3 nuts, blueberry polyphenols, and probiotic yogurt.
-list_image: /img/recipes/ginger-yogurt-blueberries.jpg
+list_image: /img/recipes/blueberry%20and%20yogurt%20bowl.jpg
 tags:
   - Anti-inflammatory
   - Inflammation
@@ -23,10 +23,9 @@ tags:
   - Walnuts
   - Ginger
   - Cinnamon
-  - Extra Virgin Olive Oil
 ---
 
-<img src="/img/recipes/ginger-yogurt-blueberries.jpg" alt="Ginger yogurt bowl" width="480" />
+<img src="/img/recipes/blueberry%20and%20yogurt%20bowl.jpg" alt="Ginger yogurt bowl" width="480" />
 
 ## Overview
 
@@ -40,7 +39,7 @@ This polyphenol-rich breakfast bowl combines ginger, blueberry polyphenols, omeg
 - 1 tbsp crushed walnuts
 - ½ tsp grated ginger
 - ½–1 tsp raw honey
-- Optional: cinnamon, EVOO
+- Optional: cinnamon
 
 ## Method
 

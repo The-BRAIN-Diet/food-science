@@ -45,7 +45,7 @@ The result is a meal combining stable energy supply, micronutrient density, and 
 
 ## Ingredients (2 servings)
 
-- 200 g whole-wheat linguine
+- 300 g whole-wheat linguine
 - 1 kg cockles (or mussels, or clams), purged and rinsed
 - 1 small onion, finely chopped
 - 2 garlic cloves, thinly sliced
