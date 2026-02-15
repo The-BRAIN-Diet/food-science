@@ -16,3 +16,4 @@ list_image: /img/icons/training.svg
 
 - [Omega-3 Fatty Acids](/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3)
 - [Extra Virgin Olive Oil](/docs/foods/extra-virgin-olive-oil)
+

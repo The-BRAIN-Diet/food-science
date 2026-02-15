@@ -33,6 +33,7 @@ Beta-glucans in oats and barley are particularly well studied for their effects 
 ## Related Pages
 
 - [Fibre, Gut Adaptation &amp; Digestive Resilience](/docs/dietary-foundations/digestion-microbiome/fibre-gut-adaptation)
+
 - [Gut Microbiome](/docs/biological-targets/gut-microbiome)
 - [Barley](/docs/foods/barley)
 - [Oats](/docs/foods/oats)

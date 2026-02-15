@@ -16,3 +16,4 @@ list_image: /img/icons/training.svg
 
 - [Whole Grains and Glycaemic Stability](/docs/dietary-foundations/nutrient-effects/whole-grains-glycaemic-stability)
 - [Insulin Response](/docs/biological-targets/insulin-response)
+
