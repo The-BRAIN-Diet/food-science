@@ -130,6 +130,14 @@ Over time, this contributes to a larger concept: **expansion of digestive and ph
 
 ---
 
+## High-fibre recipes
+
+Recipes that provide substantial dietary fibre, supporting microbiome diversity and gradual fibre exposure:
+
+<TagList tag="Fibre" filter="recipes" />
+
+---
+
 ## Related Pages
 
 - [Gut Microbiome](/docs/biological-targets/gut-microbiome)

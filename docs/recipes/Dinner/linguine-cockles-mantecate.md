@@ -7,6 +7,7 @@ list_image: /img/recipes/pasta_colour_contrast_only.jpg
 tags:
   - Recipe
   - Dinner
+  - Fibre
   - Cockles
   - Clams
   - Mussels

@@ -11,7 +11,7 @@ list_image: /img/icons/training.svg
 
 # Dietary Foundations
 
-The BRAIN Diet is a systems-based nutrition framework designed to support brain health by addressing related key biological processes such as neurotransmitter balance, mitochondrial function, inflammation, and the gut–brain axis. Developed in the context of research on ADHD, neurodevelopmental differences, neurodegenerative risk, and broader cognitive health, it focuses on supporting core regulatory functions relevant to everyone. It is diet for overall health just with deep brain research focus.
+The BRAIN Diet is a systems-based nutrition framework designed to support brain health by addressing related key biological processes such as neurotransmitter balance, mitochondrial function, inflammation, and the gut–brain axis. Developed in the context of research on ADHD, neurodevelopmental differences, neurodegenerative risk, and broader cognitive health, it focuses on supporting core regulatory functions relevant to everyone. It is diet for overall health but with a deep research focus on brain health.
 
 In terms of dietary patterns, the foods used across this site are globally inspired, but the overall structure of the diet most closely resembles a Mediterranean-style pattern. 
 
