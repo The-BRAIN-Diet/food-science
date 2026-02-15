@@ -111,25 +111,29 @@ export default function FolderList({ folder }: FolderListProps): React.ReactElem
     }
   });
 
-  // Get README.md files for subfolders to get their titles
+  // Get README.md or first doc in subfolders for their titles and permalinks
   const subfolders: Array<{ path: string; title: string; permalink: string }> = [];
   subfolderPaths.forEach((subfolderPath) => {
-    // Find README.md for this subfolder
+    // Find README.md or index for this subfolder
     const readmeDoc = allDocs.find((doc: Document) => {
       if (!doc.permalink) return false;
       const docPath = doc.permalink.replace(/^\/docs\//, '').replace(/\/$/, '');
-      // Match README.md files in this exact subfolder
       return docPath === `${subfolderPath}/README` || docPath === subfolderPath;
     });
-    
-    if (readmeDoc) {
+    // If no README, use first doc in this subfolder (avoids broken link to .../subfolder/ with no index)
+    const firstDocInFolder = readmeDoc || (allDocs as Document[]).find((doc: Document) => {
+      if (!doc.permalink) return false;
+      const docPath = doc.permalink.replace(/^\/docs\//, '').replace(/\/$/, '');
+      return docPath.startsWith(subfolderPath + '/') && docPath !== subfolderPath;
+    });
+
+    if (firstDocInFolder) {
       subfolders.push({
         path: subfolderPath,
-        title: readmeDoc.title,
-        permalink: `/docs/${subfolderPath}/`,
+        title: firstDocInFolder.title,
+        permalink: firstDocInFolder.permalink.replace(/\/$/, ''),
       });
     } else {
-      // Fallback: use folder name as title
       const folderName = subfolderPath.split('/').pop() || subfolderPath;
       const formattedName = folderName
         .split('-')

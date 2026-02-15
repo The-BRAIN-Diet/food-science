@@ -41,7 +41,7 @@ export default function DocsAreasGrid(): ReactNode {
   const allTags = usePluginData("category-listing")
   const areaDocs: DocItem[] = allTags?.["Area"] || []
 
-  // Define the visible areas in the desired order - filter by permalink path
+  // Define the visible areas in the desired order (Recipes, Foods, Dietary Foundations, etc.) - filter by permalink path
   const visibleDocs = areaDocs.filter(doc => {
     const permalink = doc.permalink?.toLowerCase() || ""
     return (

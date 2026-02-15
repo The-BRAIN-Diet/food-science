@@ -60,8 +60,7 @@ Future observational work and clinical studies may explore these associations in
 
 The material in this section is provided for educational purposes. It summarises current nutritional science and systems-based research in an accessible form and aims to help readers make informed dietary choices.
 
-It is not intended to replace personalised medical advice.
-Individuals with diagnosed conditions, digestive disorders, or specific health concerns should seek guidance from an appropriately qualified healthcare professional.
+It is not intended to replace personalised medical advice. Individuals with diagnosed conditions, digestive disorders, or specific health concerns should seek guidance from an appropriately qualified healthcare professional.
 
 ---
 
