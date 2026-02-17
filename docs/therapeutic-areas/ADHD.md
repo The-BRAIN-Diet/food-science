@@ -27,13 +27,6 @@ ADHD shares overlapping biological dysfunctions with other neurocognitive condit
 
 <TherapeuticAreaMatrix tag="ADHD" />
 
-## Substances
-
-<TagList tag="ADHD" filter="substances" />
-
-## Foods
-
-<TagList tag="ADHD" filter="foods" />
 
 ## References
 

@@ -22,14 +22,6 @@ Alzheimer's disease shares overlapping biological dysfunctions with other neuroc
 
 <TherapeuticAreaMatrix tag="Alzheimer's Disease" />
 
-## Substances
-
-<TagList tag="Alzheimer's Disease" filter="substances" />
-
-## Foods
-
-<TagList tag="Alzheimer's Disease" filter="foods" />
-
 ## References
 
 - [Tardy et al. 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)

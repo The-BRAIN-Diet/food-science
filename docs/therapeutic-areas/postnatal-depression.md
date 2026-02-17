@@ -15,6 +15,16 @@ list_image: /img/icons/therapeutic-areas.svg
 
 **UK readers:** For NHS guidance, UK helplines, and support organisations, see [UK Guidance and Support](#uk-guidance-and-support) below.
 
+## Shopping List (foods aiding Depression & MDD)
+
+This is the practical shopping list view of the foods that show up in the [Depression & MDD Biological Target Matrix](/docs/therapeutic-areas/depression-mdd#biological-target-matrix), grouped by food category and alphabetised within each category.
+
+For a dedicated page you can bookmark/print, see [Depression & MDD — Food Shopping List](/docs/therapeutic-areas/depression-mdd-shopping-list).
+
+---
+
+## Overview
+
 Postnatal (postpartum) depression (PND/PPD) is best understood as **major depression occurring in the perinatal window** with several **distinct triggers** (rapid hormonal change, severe sleep fragmentation, immune shifts, and nutrient demand). It overlaps with Major Depressive Disorder (MDD) biology, but often has a clearer *time-locked precipitant* and stronger coupling to **sleep/circadian disruption** and **postpartum physiological load**. (See definition and screening recommendations below.)
 
 Clinical guidance emphasizes **screening + rapid access to evidence-based care**, because untreated perinatal depression harms maternal functioning and infant bonding and increases long-term risk. ([ACOG screening guidance](https://www.acog.org/programs/perinatal-mental-health/patient-screening); [APA overview](https://www.psychiatry.org/patients-families/peripartum-depression/what-is-peripartum-depression))
@@ -137,6 +147,7 @@ Lifestyle and nutrition should be framed as **adjunctive system-stabilizers**, n
 
 - **Correcting deficiencies** (e.g., iron deficiency/anemia) may improve fatigue and mood-related outcomes in relevant subgroups. ([Tian et al., 2020](https://journals.lww.com/md-journal/fulltext/2020/12110/the_effectiveness_of_iron_supplementation_for.109.aspx))
 - **Structured psychosocial support** and **sleep protection strategies** are practical levers aligned with known pathophysiology and guideline priorities. ([ACOG screening guidance](https://www.acog.org/programs/perinatal-mental-health/patient-screening))
+- **Regular physical activity**: An umbrella review and meta-analysis in *British Journal of Sports Medicine* reported that exercise produced a large effect on postnatal depressive symptoms (SMD −0.70, 95% CI −0.92 to −0.48), and moderate effects in prenatal and broader perinatal samples, across more than 150 component studies, supporting structured movement as a key adjunct alongside standard care. ([BJSM 2026](https://bjsm.bmj.com/content/early/2026/02/02/bjsports-2025-110301))
 
 ### What is promising but mixed
 
@@ -154,13 +165,23 @@ A BRAIN-style approach can legitimately claim to:
 
 ---
 
-## Red flags (urgent escalation)
+## Red Flags (Urgent Escalation)
 
-If any of the below are present, urgent clinical evaluation is required:
+Postnatal depression can usually be treated successfully, but some symptoms indicate a potential psychiatric emergency and require immediate clinical assessment.
 
-- suicidal thoughts, thoughts of harming the baby, psychosis, severe agitation, inability to care for self/infant.
+Urgent help should be sought if any of the following occur:
 
-(General clinical framing: [ACOG FAQ](https://www.acog.org/womens-health/faqs/postpartum-depression))
+- thoughts of suicide or self-harm  
+- thoughts of harming the baby  
+- hallucinations, delusions, or severe confusion  
+- extreme agitation, mania, or rapidly worsening mood  
+- inability to safely care for yourself or your baby  
+
+In the UK, severe postnatal mental illness — particularly postnatal psychosis — is considered a **medical emergency** and should be treated as such. The NHS advises seeking immediate assessment via NHS 111, a GP, maternity services, or emergency care if symptoms escalate or safety is at risk.
+
+- NHS postnatal depression overview: [nhs.uk – post-natal depression overview](https://www.nhs.uk/mental-health/conditions/post-natal-depression/overview/)  
+- NHS postnatal psychosis guidance (emergency condition): [nhs.uk – post-partum psychosis](https://www.nhs.uk/mental-health/conditions/post-partum-psychosis/)  
+- NHS urgent mental health help: [nhs.uk – urgent help for mental health](https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/)
 
 ---
 

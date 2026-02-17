@@ -19,7 +19,7 @@ list_image: /img/icons/therapeutic-areas.svg
 
 ## Shopping List (foods aiding Depression & MDD)
 
-This is the practical shopping list view of the foods that show up in the **Depression & MDD Biological Target Matrix**, grouped by food category and alphabetised within each category.
+This is the practical shopping list view of the foods that show up in the [Depression & MDD Biological Target Matrix](/docs/therapeutic-areas/depression-mdd#biological-target-matrix), grouped by food category and alphabetised within each category.
 
 - For a dedicated page you can bookmark/print, see [Depression & MDD — Food Shopping List](/docs/therapeutic-areas/depression-mdd-shopping-list).
 
