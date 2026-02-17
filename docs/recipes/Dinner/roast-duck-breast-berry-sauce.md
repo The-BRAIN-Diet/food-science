@@ -91,7 +91,7 @@ Use sparingly — this is an aromatic finish rather than a sauce.
 
 Serve with:
 
-- [Saffron Roast Potatoes](/docs/recipes/Side-dishes/Saffron-roast-potatoes)
+- [Saffron Roast Potatoes](/docs/recipes/Side-dishes/saffron-roast-potatoes)
 
 - [Roasted Aubergine with Herb Olive Oil](/docs/recipes/Side-dishes/roasted-aubergine-herb-olive-oil)
 

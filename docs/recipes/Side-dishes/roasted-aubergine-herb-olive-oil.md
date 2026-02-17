@@ -84,7 +84,7 @@ Pairs especially well with:
 
 - [Roast Duck Breast with Berry Sauce](/docs/recipes/Dinner/roast-duck-breast-berry-sauce)
 
-- [Saffron Roast Potatoes](/docs/recipes/Side-dishes/Saffron-roast-potatoes)
+- [Saffron Roast Potatoes](/docs/recipes/Side-dishes/saffron-roast-potatoes)
 
 ---
 
