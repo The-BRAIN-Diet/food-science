@@ -180,3 +180,26 @@
   object-fit: cover;
   display: block;
 }
+
+/* Therapeutic area matrices: force fully neutral background (no blue tint anywhere) */
+.therapeutic-area-matrix,
+.therapeutic-area-matrix * {
+  background: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Therapeutic area matrices: neutral table borders and brand-colour links */
+.therapeutic-area-matrix table,
+.therapeutic-area-matrix table th,
+.therapeutic-area-matrix table td {
+  border-color: #e5e7eb !important; /* light neutral grey */
+}
+
+.therapeutic-area-matrix a {
+  color: var(--ifm-color-primary) !important;
+}
+
+.therapeutic-area-matrix a:hover {
+  color: var(--ifm-color-primary-dark) !important;
+}

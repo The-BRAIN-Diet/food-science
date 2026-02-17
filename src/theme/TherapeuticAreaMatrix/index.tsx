@@ -1,6 +1,7 @@
 import React from "react"
 import {usePluginData} from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
+import Collapse from "../Collapse"
 
 interface Tag {
   label: string
@@ -213,59 +214,61 @@ export default function TherapeuticAreaMatrix({tag}: TherapeuticAreaMatrixProps)
         const target = rows[0].target
 
         return (
-          <div key={targetKey} style={{marginBottom: "2rem"}}>
-            <h3>
-              <Link to={target.permalink}>{target.title}</Link>
-            </h3>
-            <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
-              <thead>
-                <tr>
-                  <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Substance</th>
-                  <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Foods</th>
-                  <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Mechanism of Action</th>
-                </tr>
-              </thead>
-              <tbody>
-                {rows.map((row: TableRow, index: number) => {
-                  if (!row.substance) {
+          <div key={targetKey} style={{marginBottom: "1.5rem"}}>
+            <Collapse title={target.title}>
+              <h3>
+                <Link to={target.permalink}>{target.title}</Link>
+              </h3>
+              <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
+                <thead>
+                  <tr>
+                    <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Substance</th>
+                    <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Foods</th>
+                    <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Mechanism of Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {rows.map((row: TableRow, index: number) => {
+                    if (!row.substance) {
+                      return (
+                        <tr key={index}>
+                          <td style={{padding: "8px", borderBottom: "1px solid #eee", color: "#999"}}>—</td>
+                          <td style={{padding: "8px", borderBottom: "1px solid #eee", color: "#999"}}>—</td>
+                          <td style={{padding: "8px", borderBottom: "1px solid #eee", color: "#999"}}>
+                            Supported through therapeutic area targets
+                          </td>
+                        </tr>
+                      )
+                    }
+
                     return (
                       <tr key={index}>
-                        <td style={{padding: "8px", borderBottom: "1px solid #eee", color: "#999"}}>—</td>
-                        <td style={{padding: "8px", borderBottom: "1px solid #eee", color: "#999"}}>—</td>
-                        <td style={{padding: "8px", borderBottom: "1px solid #eee", color: "#999"}}>
-                          Supported through therapeutic area targets
+                        <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
+                          <Link to={row.substance.permalink}>{row.substance.title}</Link>
+                        </td>
+                        <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
+                          {row.foods.length > 0 ? (
+                            <div>
+                              {row.foods.map((food: Document, i: number) => (
+                                <span key={food.permalink}>
+                                  <Link to={food.permalink}>{food.title}</Link>
+                                  {i < row.foods.length - 1 && ", "}
+                                </span>
+                              ))}
+                            </div>
+                          ) : (
+                            <span style={{color: "#999"}}>—</span>
+                          )}
+                        </td>
+                        <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
+                          {row.mechanism ? <span>{row.mechanism}</span> : <span style={{color: "#999"}}>—</span>}
                         </td>
                       </tr>
                     )
-                  }
-
-                  return (
-                    <tr key={index}>
-                      <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
-                        <Link to={row.substance.permalink}>{row.substance.title}</Link>
-                      </td>
-                      <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
-                        {row.foods.length > 0 ? (
-                          <div>
-                            {row.foods.map((food: Document, i: number) => (
-                              <span key={food.permalink}>
-                                <Link to={food.permalink}>{food.title}</Link>
-                                {i < row.foods.length - 1 && ", "}
-                              </span>
-                            ))}
-                          </div>
-                        ) : (
-                          <span style={{color: "#999"}}>—</span>
-                        )}
-                      </td>
-                      <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
-                        {row.mechanism ? <span>{row.mechanism}</span> : <span style={{color: "#999"}}>—</span>}
-                      </td>
-                    </tr>
-                  )
-                })}
-              </tbody>
-            </table>
+                  })}
+                </tbody>
+              </table>
+            </Collapse>
           </div>
         )
       })}
