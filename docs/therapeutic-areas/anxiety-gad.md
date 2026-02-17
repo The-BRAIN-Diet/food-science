@@ -26,13 +26,6 @@ Anxiety and General Anxiety Disorder (GAD) share overlapping biological dysfunct
 
 <TherapeuticAreaMatrix tag="Anxiety & GAD" />
 
-## Substances
-
-<TagList tag="Anxiety & GAD" filter="substances" />
-
-## Foods
-
-<TagList tag="Anxiety & GAD" filter="foods" />
 
 ## References
 

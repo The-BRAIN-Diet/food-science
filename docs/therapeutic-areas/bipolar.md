@@ -21,13 +21,6 @@ Bipolar disorder shares core pathophysiology with other neurocognitive condition
 
 <TherapeuticAreaMatrix tag="Bipolar" />
 
-## Substances
-
-<TagList tag="Bipolar" filter="substances" />
-
-## Foods
-
-<TagList tag="Bipolar" filter="foods" />
 
 ## References
 
