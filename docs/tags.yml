@@ -41,6 +41,11 @@ Area:
   permalink: /docs/tags/area
   description: Top-level documentation areas
 
+Aubergine:
+  label: Aubergine
+  permalink: /docs/tags/aubergine
+  description: Vegetable (eggplant) used in side dishes and mains
+
 Berberine:
   label: Berberine
   permalink: /docs/tags/berberine
@@ -1559,6 +1564,11 @@ Drinks:
   label: Drinks
   permalink: /docs/tags/drinks
   description: Beverage recipes
+
+Side Dish:
+  label: Side Dish
+  permalink: /docs/tags/side-dish
+  description: Side dish recipes
 
 # Recipe characteristic tags
 functional food:

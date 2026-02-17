@@ -61,17 +61,6 @@ If urgent mental health help is needed in the UK, individuals can contact NHS 11
 
 ---
 
-## Epidemiology (how common is it?)
-
-Estimates vary by method, setting, and screening thresholds:
-
-- An umbrella review/meta-analytic synthesis reported pooled prevalence figures in the **tens of percent** across global datasets (noting substantial heterogeneity). ([Caffieri et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38113292/))
-- Other large syntheses frequently report global pooled rates in the **~10–20% range**, with wide cross-national variation (measurement + context effects). ([Fish-Williamson et al., 2023](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2023.1193490/full))
-
-**Interpretation:** prevalence depends heavily on whether a study measures *screen-positive symptoms* vs *diagnosed major depression*.
-
----
-
 ## Risk factors (what predicts PND?)
 
 A consistent picture across reviews/guidelines:
