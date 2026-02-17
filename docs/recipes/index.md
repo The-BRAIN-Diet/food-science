@@ -14,6 +14,7 @@ list_image: /img/icons/recipes.svg
 - [Breakfast](/docs/recipes/Breakfast)
 - [Lunch](/docs/recipes/Lunch)
 - [Dinner](/docs/recipes/Dinner)
+- [Side Dishes](/docs/recipes/Side-dishes)
 - [Drinks](/docs/recipes/Drinks)
 
 <TagList tag="Recipe" filter="recipes" />
