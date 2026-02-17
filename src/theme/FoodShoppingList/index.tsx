@@ -70,12 +70,12 @@ function inferCategoryFromTitle(doc: Document): string | null {
     return 'Seafood';
   }
 
-  // Meat & organ meats
+  // Meat & organ meats (kidney = organ only; "kidney beans" → Legumes)
   if (
     ['beef', 'lamb', 'pork', 'turkey', 'chicken'].some(name => t.includes(name)) ||
     t.includes('organ meats') ||
     t.includes('liver') ||
-    t.includes('kidney') ||
+    (t.includes('kidney') && !t.includes('kidney beans')) ||
     t.includes('heart') ||
     t.includes('dark-meat poultry')
   ) {
