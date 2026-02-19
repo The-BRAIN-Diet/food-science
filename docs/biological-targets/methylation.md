@@ -1,8 +1,8 @@
 ---
 id: methylation
-title: Methylation
-sidebar_label: Methylation
-description: Supporting DNA methylation processes and one-carbon metabolism for optimal gene expression and neurotransmitter synthesis
+title: Methylation & One-Carbon Metabolism
+sidebar_label: Methylation & One-Carbon Metabolism
+description: Biochemical regulation layer — synthesis, repair, epigenetic control, neurotransmitter production
 tags:
   - Biological Target
   - Methylation
@@ -12,7 +12,9 @@ tags:
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Methylation
+# Methylation & One-Carbon Metabolism
+
+**Biochemical regulation layer** — synthesis, repair, epigenetic control, neurotransmitter production.
 
 ## Overview
 

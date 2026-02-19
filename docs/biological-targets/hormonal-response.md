@@ -4,7 +4,6 @@ title: Hormonal Response
 sidebar_label: Hormonal Response
 description: Balancing stress hormones, sex hormones, and other endocrine factors for brain health
 tags:
-  - Biological Target
   - Hormonal Response
   - ADHD
   - Anxiety & GAD

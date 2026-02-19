@@ -1,6 +1,7 @@
 import React from "react"
 import {usePluginData} from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
+import {BRS_MODULATOR_TAGS} from "../biologicalTargetsConfig"
 
 /**
  * Tag structure from Docusaurus
@@ -103,9 +104,10 @@ export default function FoodMatrix({tag}: FoodMatrixProps): React.ReactElement {
   const allBiologicalTargets = allDocs.filter((doc: Document) => doc.permalink.includes("/biological-targets/"))
   const allTherapeuticAreas = allDocs.filter((doc: Document) => doc.permalink.includes("/therapeutic-areas/"))
 
-  // Remove duplicates
+  // Remove duplicates; restrict targets to the 6 BRS only
   const uniqueSubstances = Array.from(new Map(allSubstances.map((doc: Document) => [doc.permalink, doc])).values())
-  const uniqueTargets = Array.from(new Map(allBiologicalTargets.map((doc: Document) => [doc.permalink, doc])).values())
+  let uniqueTargets = Array.from(new Map(allBiologicalTargets.map((doc: Document) => [doc.permalink, doc])).values())
+  uniqueTargets = uniqueTargets.filter((doc: Document) => doc.tags.some((t: Tag) => t.label === "Biological Target"))
   const uniqueAreas = Array.from(new Map(allTherapeuticAreas.map((doc: Document) => [doc.permalink, doc])).values())
 
   // Step 2: Find substances that match the food's tags
@@ -129,35 +131,41 @@ export default function FoodMatrix({tag}: FoodMatrixProps): React.ReactElement {
     .map((foodTag: string) => substanceNameMap.get(foodTag))
     .filter((substance: Document | undefined): substance is Document => substance !== undefined)
 
-  // Step 3: For each substance, find biological targets
-  // Substances are tagged with biological target names (e.g., "Methylation")
+  // Step 3: For each substance, find biological targets (6 BRS only)
   // Build a map: biological target -> {substances: Set, therapeuticAreas: Set}
+  // Start with all 6 BRS so modulator substances can be attached to every target
   const targetMap = new Map<string, TargetMapEntry>()
+  uniqueTargets.forEach((target: Document) => {
+    targetMap.set(target.permalink, {
+      target,
+      substances: new Set<Document>(),
+      therapeuticAreas: new Set<Document>(),
+    })
+  })
 
   relatedSubstances.forEach((substance: Document) => {
     const substanceTagLabels = substance.tags.map((t: Tag) => t.label)
+    const hasModulatorTag = substanceTagLabels.some((l: string) =>
+      (BRS_MODULATOR_TAGS as readonly string[]).includes(l)
+    )
 
-    // Find biological targets that have a tag matching one of the substance's tags
-    // A target matches if it has a tag that matches one of the substance's tags
+    // Direct match: target has a tag matching one of the substance's tags
     const relatedTargets = uniqueTargets.filter((target: Document) => {
       const targetTagLabels = target.tags.map((t: Tag) => t.label)
-      // Check if any target tag matches any substance tag
       return targetTagLabels.some((tt: string) => substanceTagLabels.includes(tt))
     })
 
     relatedTargets.forEach((target: Document) => {
-      if (!targetMap.has(target.permalink)) {
-        targetMap.set(target.permalink, {
-          target,
-          substances: new Set<Document>(),
-          therapeuticAreas: new Set<Document>(),
-        })
-      }
       const entry = targetMap.get(target.permalink)
-      if (entry) {
-        entry.substances.add(substance)
-      }
+      if (entry) entry.substances.add(substance)
     })
+
+    // Modulator: add this substance to every BRS target
+    if (hasModulatorTag) {
+      targetMap.forEach((entry: TargetMapEntry) => {
+        entry.substances.add(substance)
+      })
+    }
   })
 
   // Step 4: For each biological target, find therapeutic areas

@@ -106,10 +106,12 @@ export default function SubstanceMatrix({tag}: SubstanceMatrixProps): React.Reac
   // Classification tags to exclude when finding biological target names
   const biologicalTargetClassificationTags = ["Biological Target"]
 
-  // Step 2: Find all biological targets tagged on this substance
+  // Step 2: Find biological targets tagged on this substance (only the 6 BRS)
   const biologicalTargets: Document[] = []
   for (const substanceTagLabel of substanceTagLabels) {
-    const targetDocs = (allTags[substanceTagLabel] || []).filter((doc: Document) => doc.permalink.includes("/biological-targets/"))
+    const targetDocs = (allTags[substanceTagLabel] || [])
+      .filter((doc: Document) => doc.permalink.includes("/biological-targets/"))
+      .filter((doc: Document) => doc.tags.some((t: Tag) => t.label === "Biological Target"))
     biologicalTargets.push(...targetDocs)
   }
 

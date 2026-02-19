@@ -1,8 +1,8 @@
 ---
 id: stress-response
-title: Stress Response
-sidebar_label: Stress Response
-description: Understanding and optimizing the body's response to stress for better brain health and cognitive function
+title: Metabolic & Neuroendocrine Stress (HPA Axis & ANS)
+sidebar_label: Metabolic & Neuroendocrine Stress
+description: Whole-body regulation layer — stress allocation, autonomic tone, hormonal coordination and energy prioritisation
 tags:
   - Biological Target
   - Metabolic Response Target
@@ -13,7 +13,9 @@ tags:
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Stress Response
+# Metabolic & Neuroendocrine Stress (HPA Axis & ANS)
+
+**Whole-body regulation layer** — stress allocation, autonomic tone, hormonal coordination and energy prioritisation.
 
 ## Overview
 

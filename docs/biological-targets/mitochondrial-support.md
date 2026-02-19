@@ -1,8 +1,8 @@
 ---
 id: mitochondrial-support
-title: Mitochondrial Support
-sidebar_label: Mitochondrial Support
-description: Enhancing cellular energy production and reducing oxidative stress in brain cells
+title: Mitochondrial Function & Bioenergetics
+sidebar_label: Mitochondrial Function & Bioenergetics
+description: Capacity layer — ATP production, metabolic resilience, oxidative phosphorylation efficiency
 tags:
   - Biological Target
   - Mitochondrial Support
@@ -14,7 +14,9 @@ tags:
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Mitochondrial Support
+# Mitochondrial Function & Bioenergetics
+
+**Capacity layer** — ATP production, metabolic resilience, oxidative phosphorylation efficiency.
 
 ## Overview
 

@@ -12,7 +12,6 @@ tags:
   - Cacao
   - Pomegranates
   - Olive Oil (Early Harvest)
-  - Endocannabinoid System
   - Omega-3 Fatty Acids
 list_image: /img/recipes/Salmon-pistachio-cacoa-nibs.jpg
 ---

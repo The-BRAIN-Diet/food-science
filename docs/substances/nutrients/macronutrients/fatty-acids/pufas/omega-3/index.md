@@ -12,6 +12,7 @@ tags:
   - Inflammation
   - Oxidative Stress
   - Neurochemical Balance
+  - Mitochondrial Support
   - Endocannabinoid System
   - Hormonal Response
   - Stress Response
@@ -19,9 +20,11 @@ tags:
   - Algal Oil
 list_image: /img/icons/nutrients.svg
 mechanisms:
-  Inflammation: Specialized Pro-Resolving Mediators (SPMs) - resolvins, protectins, maresins terminate inflammation without immunosuppression, downregulate COX-2, inhibit neutrophil infiltration, enhance macrophage clearance, limit glutamate-induced excitotoxicity
+  Inflammation: "Specialized Pro-Resolving Mediators (SPMs) - resolvins, protectins, maresins terminate inflammation without immunosuppression, downregulate COX-2, inhibit neutrophil infiltration, enhance macrophage clearance, limit glutamate-induced excitotoxicity. Production of DHEA and EPEA (N-acyl ethanolamines) feeds into CB2-related anti-inflammatory signalling; ECS lipid mediators regulate immune tone and microglial activation (primary anchor for ECS mechanism: Inflammation & Oxidative Stress)."
   Neurochemical Balance: Membrane fluidity and neurotransmitter receptor function, ion channel behavior and gamma oscillations, support neurotransmission and phospholipid methylation
+  Mitochondrial Support: "ECS-related lipid signalling may influence mitochondrial coupling/efficiency (context-dependent; largely preclinical). Omega-3 incorporation changes membrane fluidity (secondary anchor for ECS mechanism: Mitochondrial Function & Bioenergetics)."
   Endocannabinoid System: Production of docosahexaenoyl ethanolamide (DHEA) and eicosapentaenoyl ethanolamide (EPEA), N-acyl ethanolamines for endocannabinoid-like signaling
+  Gut Microbiome: Support intestinal anti-inflammatory tone, barrier function, and microbiota composition; vagal and immune pathways link gut to brain
   Hormonal Response: Support hormonal balance through membrane integrity and anti-inflammatory effects
   Stress Response: Improve vagal tone and HRV control, improve cortisol rhythms
   Methylation: Support homocysteine reduction in combination with B12, phospholipid methylation (PLM) dependent on SAMe
