@@ -111,40 +111,31 @@ export default function FolderList({ folder }: FolderListProps): React.ReactElem
     }
   });
 
-  // Get README.md or first doc in subfolders for their titles and permalinks
+  // Helper: format folder segment as display name (e.g. "essential" -> "Essential", "conditionals" -> "Conditionals")
+  const formatFolderName = (path: string): string => {
+    const folderName = path.split('/').pop() || path;
+    return folderName
+      .split('-')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  };
+
+  // Get README.md or index for subfolder title/link; fall back to folder name + first doc for link
   const subfolders: Array<{ path: string; title: string; permalink: string }> = [];
   subfolderPaths.forEach((subfolderPath) => {
-    // Find README.md or index for this subfolder
     const readmeDoc = allDocs.find((doc: Document) => {
       if (!doc.permalink) return false;
       const docPath = doc.permalink.replace(/^\/docs\//, '').replace(/\/$/, '');
       return docPath === `${subfolderPath}/README` || docPath === subfolderPath;
     });
-    // If no README, use first doc in this subfolder (avoids broken link to .../subfolder/ with no index)
-    const firstDocInFolder = readmeDoc || (allDocs as Document[]).find((doc: Document) => {
-      if (!doc.permalink) return false;
-      const docPath = doc.permalink.replace(/^\/docs\//, '').replace(/\/$/, '');
-      return docPath.startsWith(subfolderPath + '/') && docPath !== subfolderPath;
-    });
 
-    if (firstDocInFolder) {
-      subfolders.push({
-        path: subfolderPath,
-        title: firstDocInFolder.title,
-        permalink: firstDocInFolder.permalink.replace(/\/$/, ''),
-      });
-    } else {
-      const folderName = subfolderPath.split('/').pop() || subfolderPath;
-      const formattedName = folderName
-        .split('-')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join('-');
-      subfolders.push({
-        path: subfolderPath,
-        title: formattedName,
-        permalink: `/docs/${subfolderPath}/`,
-      });
-    }
+    const title = readmeDoc ? readmeDoc.title : formatFolderName(subfolderPath);
+    // Prefer index permalink when we have it; otherwise link to the category path (index is served by Docusaurus)
+    const permalink = readmeDoc
+      ? readmeDoc.permalink.replace(/\/$/, '')
+      : `/docs/${subfolderPath}/`;
+
+    subfolders.push({ path: subfolderPath, title, permalink });
   });
 
   // Sort subfolders by title

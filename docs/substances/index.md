@@ -34,13 +34,11 @@ This page organizes all substances referenced in the BRAIN Diet documentation ac
 
 **Saturated Fatty Acids**
 
-<TagList tag="Saturated-Fat" filter="substances" />
+<TagList tag="Saturated Fat" filter="substances" />
 
 ## Polyunsaturated Fatty Acids (PUFAs)
 
-PUFAs include **Omega-3** and **Omega-6** fatty acids.  
-
-
+PUFAs include **Omega-3** and **Omega-6** fatty acids.
 
 **Omega-3 Fatty Acids**
 
@@ -94,7 +92,7 @@ PUFAs include **Omega-3** and **Omega-6** fatty acids.
 
 **Phenolic Acids**
 
-<TagList tag="Phenolic-Acid" filter="substances" />
+<TagList tag="Phenolic Acid" filter="substances" />
 
 **Secoiridoids**
 
@@ -118,7 +116,7 @@ PUFAs include **Omega-3** and **Omega-6** fatty acids.
 
 ### Choline & Methylation-Relevant Molecules
 
-<TagList tag="Choline-Methylation" filter="substances" />
+<TagList tag="Choline & Methylation" filter="substances" />
 
 ---
 
@@ -130,4 +128,4 @@ PUFAs include **Omega-3** and **Omega-6** fatty acids.
 
 ### Secondary Plant Metabolite Conversions
 
-<TagList tag="Secondary-Metabolite" filter="substances" />
+<TagList tag="Secondary Metabolite" filter="substances" />

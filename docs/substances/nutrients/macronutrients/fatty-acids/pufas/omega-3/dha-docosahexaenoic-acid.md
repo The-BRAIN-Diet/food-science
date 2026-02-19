@@ -12,12 +12,15 @@ tags:
   - Omega-3 Fatty Acids
   - Inflammation
   - Neurochemical Balance
+  - Mitochondrial Support
   - Endocannabinoid System
 list_image: /img/inchi/MBMBGCFOFBJSGT-KUBAVDMBSA-N.png
 mechanisms:
-  Inflammation: Precursor to specialized pro-resolving mediators (SPMs) including protectins and maresins; terminates inflammation without immunosuppression
+  Inflammation: "Precursor to specialized pro-resolving mediators (SPMs) including protectins and maresins; terminates inflammation without immunosuppression. Production of docosahexaenoyl ethanolamide (DHEA), an N-acyl ethanolamine for endocannabinoid-like signalling, feeds into CB2-related anti-inflammatory signalling; ECS lipid mediators regulate immune tone and microglial activation (primary anchor: Inflammation & Oxidative Stress)."
   Neurochemical Balance: Accounts for ~10–15% of total brain fatty acids, but represents 20–30% of fatty acids in neuronal phospholipids such as PE and PS, and more than 90% of the brain's omega-3 PUFA; critical for membrane fluidity, synaptic vesicle fusion, and neurodevelopment; transported across BBB as LPC-DHA via MFSD2A
+  Mitochondrial Support: "ECS-related lipid signalling may influence mitochondrial coupling/efficiency (context-dependent; largely preclinical). Omega-3 incorporation changes membrane fluidity (secondary anchor for ECS mechanism: Mitochondrial Function & Bioenergetics)."
   Endocannabinoid System: Production of docosahexaenoyl ethanolamide (DHEA), an N-acyl ethanolamine for endocannabinoid-like signaling
+  Gut Microbiome: Supports intestinal anti-inflammatory tone and barrier function; may influence microbiota composition and gut–brain signalling
 inchikey: MBMBGCFOFBJSGT-KUBAVDMBSA-N
 ---
 

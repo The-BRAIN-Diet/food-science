@@ -8,7 +8,7 @@ tags:
   - Coffee
   - Vegan
   - Vegetarian
-  - Polyphenol
+  - Polyphenols
 list_image: /img/icons/ingredients.svg
 ---
 

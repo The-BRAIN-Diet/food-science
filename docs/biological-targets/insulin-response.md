@@ -4,7 +4,6 @@ title: Insulin Response
 sidebar_label: Insulin Response
 description: Optimizing glucose metabolism and insulin sensitivity for brain health
 tags:
-  - Biological Target
   - Metabolic Response Target
   - Insulin Response
   - ADHD

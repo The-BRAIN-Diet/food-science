@@ -2,6 +2,7 @@ import React from "react"
 import {usePluginData} from "@docusaurus/useGlobalData"
 import {useLocation} from "@docusaurus/router"
 import Link from "@docusaurus/Link"
+import {BRS_MODULATOR_TAGS} from "../biologicalTargetsConfig"
 
 /**
  * Tag structure from Docusaurus
@@ -113,7 +114,8 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
   // Remove duplicates
   const uniqueFoods = Array.from(new Map(allFoods.map((doc: Document) => [doc.permalink, doc])).values())
   const uniqueSubstances = Array.from(new Map(allSubstances.map((doc: Document) => [doc.permalink, doc])).values())
-  const uniqueTargets = Array.from(new Map(allBiologicalTargets.map((doc: Document) => [doc.permalink, doc])).values())
+  let uniqueTargets = Array.from(new Map(allBiologicalTargets.map((doc: Document) => [doc.permalink, doc])).values())
+  uniqueTargets = uniqueTargets.filter((doc: Document) => doc.tags.some((t: Tag) => t.label === "Biological Target"))
   const uniqueAreas = Array.from(new Map(allTherapeuticAreas.map((doc: Document) => [doc.permalink, doc])).values())
 
   // Step 2: Find foods that match the recipe's tags
@@ -205,26 +207,17 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
   // Step 4: For each substance, find biological targets
   // Substances are tagged with biological target names (e.g., "Methylation")
   // Build a map: biological target -> {substances: Map(substance -> foods), therapeuticAreas: Set}
-  // Include biological targets that are directly tagged in the recipe's frontMatter
+  // Start with all 6 BRS so modulator substances can be attached to every target
   const targetMap = new Map<string, TargetMapEntry>()
-
-  // First, add all biological targets that are directly tagged in the recipe
-  // This ensures we show all targets even if substances aren't tagged with them
   uniqueTargets.forEach((target: Document) => {
-    const targetTagLabels = target.tags.map((t: Tag) => t.label)
-    // Check if this target is tagged in the recipe's frontMatter
-    const isTaggedInRecipe = targetTagLabels.some((tt: string) => recipeTagLabels.includes(tt))
-    
-    if (isTaggedInRecipe && !targetMap.has(target.permalink)) {
-      targetMap.set(target.permalink, {
-        target,
-        substances: new Map<Document, Set<Document>>(),
-        therapeuticAreas: new Set<Document>(),
-      })
-    }
+    targetMap.set(target.permalink, {
+      target,
+      substances: new Map<Document, Set<Document>>(),
+      therapeuticAreas: new Set<Document>(),
+    })
   })
 
-  // Then, for each substance, find biological targets and add substance-food relationships
+  // For each substance, find BRS targets (substance tag + recipe tag match) and add substance-food relationships
   substanceToFoodsMap.forEach((foods: Set<Document>, substance: Document) => {
     const substanceTagLabels = substance.tags.map((t: Tag) => t.label)
 
@@ -249,6 +242,23 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
       const entry = targetMap.get(target.permalink)
       if (entry) {
         entry.substances.set(substance, foods)
+      }
+    })
+  })
+
+  // Step 4b: Add modulator-tagged substances to every BRS target (ECS, Circadian)
+  targetMap.forEach((entry: TargetMapEntry) => {
+    substanceToFoodsMap.forEach((foods: Set<Document>, substance: Document) => {
+      const hasModulatorTag = substance.tags.some((t: Tag) =>
+        BRS_MODULATOR_TAGS.includes(t.label as (typeof BRS_MODULATOR_TAGS)[number])
+      )
+      if (hasModulatorTag) {
+        if (!entry.substances.has(substance)) {
+          entry.substances.set(substance, foods)
+        } else {
+          const existing = entry.substances.get(substance)!
+          foods.forEach((f: Document) => existing.add(f))
+        }
       }
     })
   })

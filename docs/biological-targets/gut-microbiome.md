@@ -1,8 +1,8 @@
 ---
 id: gut-microbiome
-title: Gut Microbiome
-sidebar_label: Gut Microbiome
-description: Supporting beneficial gut bacteria and the gut-brain axis for brain health
+title: Gut–Brain Axis & Enteric Nervous System (ENS)
+sidebar_label: Gut–Brain Axis & ENS
+description: Peripheral neural–immune interface — microbial metabolites, vagal signalling, immune–metabolic integration
 tags:
   - Biological Target
   - Gut Microbiome
@@ -12,7 +12,9 @@ tags:
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Gut Microbiome
+# Gut–Brain Axis & Enteric Nervous System (ENS)
+
+**Peripheral neural–immune interface** — microbial metabolites, vagal signalling, immune–metabolic integration.
 
 ## Overview
 

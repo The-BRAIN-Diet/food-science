@@ -1,8 +1,8 @@
 ---
 id: inflammation
-title: Inflammation
-sidebar_label: Inflammation
-description: Chronic inflammation and neuroinflammation as modifiable contributors to ADHD symptom severity
+title: Inflammation & Oxidative Stress
+sidebar_label: Inflammation & Oxidative Stress
+description: Chronic inflammation and oxidative stress as one interconnected system; modifiable contributors to ADHD and neurocognitive symptom severity
 tags:
   - Biological Target
   - Inflammation
@@ -14,11 +14,13 @@ tags:
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Inflammation
+# Inflammation & Oxidative Stress
+
+**Immune/redox regulation layer** — cellular protection, repair processes, inflammatory signalling tone.
 
 ## Overview
 
-Chronic inflammation is a biological dysfunction that contributes to cognitive, emotional, and behavioral dysregulation in ADHD and other neurodevelopmental conditions. Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder, and neurodegenerative conditions like Alzheimer's and Parkinson's disease, share overlapping biological dysfunctions, including chronic inflammation, oxidative stress, impaired methylation, gut–brain axis disruption, glucose dysregulation, micronutrient deficiencies, and neurotransmitter imbalances. The BRAIN Diet targets inflammatory pathways through anti-inflammatory nutrients, gut barrier support, and strategies to reduce inflammatory load (paper.txt, lines 132, 505).
+Chronic inflammation and oxidative stress are treated here as one interconnected system: inflammatory and oxidative pathways reinforce each other and are targeted together by the BRAIN Diet. Chronic inflammation is a biological dysfunction that contributes to cognitive, emotional, and behavioral dysregulation in ADHD and other neurodevelopmental conditions. Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder, and neurodegenerative conditions like Alzheimer's and Parkinson's disease, share overlapping biological dysfunctions, including chronic inflammation, oxidative stress, impaired methylation, gut–brain axis disruption, glucose dysregulation, micronutrient deficiencies, and neurotransmitter imbalances. The BRAIN Diet targets inflammatory and oxidative pathways together through anti-inflammatory nutrients, antioxidant networks, gut barrier support, and strategies to reduce inflammatory and oxidative load (paper.txt, lines 132, 505). For more detail on oxidative stress mechanisms and antioxidant strategies, see [Oxidative Stress](/docs/biological-targets/oxidative-stress).
 
 ## Recipes
 

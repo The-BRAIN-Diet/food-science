@@ -1,6 +1,7 @@
 ---
-title: Essential
-description: Auto-generated category page for essential in The BRAIN Diet ontology.
+title: Essential Amino Acids
+sidebar_label: Essential
+description: The nine essential amino acids in the BRAIN Diet ontology.
 list_image: /img/icons/nutrients.svg
 ---
 

@@ -2,6 +2,7 @@ import React from "react"
 import {usePluginData} from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
 import Collapse from "../Collapse"
+import {BRS_MODULATOR_TAGS} from "../biologicalTargetsConfig"
 
 interface Tag {
   label: string
@@ -164,8 +165,13 @@ export default function TherapeuticAreaMatrix({tag}: TherapeuticAreaMatrixProps)
   therapeuticTargets.forEach((target: Document) => {
     const targetTagLabels = target.tags.map((t: Tag) => t.label)
 
-    const supportingSubstances = uniqueSubstances.filter((substance: Document) =>
+    const matchesTarget = (substance: Document) =>
       substance.tags.some((st: Tag) => st.label === target.title || targetTagLabels.includes(st.label))
+    const matchesModulator = (substance: Document) =>
+      substance.tags.some((st: Tag) => BRS_MODULATOR_TAGS.includes(st.label as typeof BRS_MODULATOR_TAGS[number]))
+
+    const supportingSubstances = uniqueSubstances.filter(
+      (substance: Document) => matchesTarget(substance) || matchesModulator(substance)
     )
 
     if (supportingSubstances.length === 0) {

@@ -1,8 +1,8 @@
 ---
 id: neurochemical-balance
-title: Neurochemical Balance
-sidebar_label: Neurochemical Balance
-description: Optimizing neurotransmitter synthesis, release, and reuptake for improved cognitive function
+title: Neurotransmitter Regulation
+sidebar_label: Neurotransmitter Regulation
+description: Signal layer — synaptic communication, circuit dynamics, behavioural expression
 tags:
   - Biological Target
   - Neurochemical Balance
@@ -14,7 +14,9 @@ tags:
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Neurochemical Balance
+# Neurotransmitter Regulation
+
+**Signal layer** — synaptic communication, circuit dynamics, behavioural expression.
 
 ## Overview
 

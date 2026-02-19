@@ -12,12 +12,15 @@ tags:
   - Omega-3 Fatty Acids
   - Inflammation
   - Neurochemical Balance
+  - Mitochondrial Support
   - Endocannabinoid System
 list_image: /img/inchi/JAZBEHYOTPTENJ-RCHUDCCISA-N.png
 mechanisms:
-  Inflammation: Potent anti-inflammatory; precursor to E-series resolvins; specialized pro-resolving mediators (SPMs) terminate inflammation without immunosuppression, downregulate COX-2, inhibit neutrophil infiltration, enhance macrophage clearance
+  Inflammation: "Potent anti-inflammatory; precursor to E-series resolvins; specialized pro-resolving mediators (SPMs) terminate inflammation without immunosuppression, downregulate COX-2, inhibit neutrophil infiltration, enhance macrophage clearance. Production of eicosapentaenoyl ethanolamide (EPEA), an N-acyl ethanolamine for endocannabinoid-like signalling, feeds into CB2-related anti-inflammatory signalling; ECS lipid mediators regulate immune tone and microglial activation (primary anchor: Inflammation & Oxidative Stress)."
   Neurochemical Balance: Modulates dopamine and serotonin signalling; synergises with DHA but has independent mechanisms; membrane fluidity and neurotransmitter receptor function
+  Mitochondrial Support: "ECS-related lipid signalling may influence mitochondrial coupling/efficiency (context-dependent; largely preclinical). Omega-3 incorporation changes membrane fluidity (secondary anchor for ECS mechanism: Mitochondrial Function & Bioenergetics)."
   Endocannabinoid System: Production of eicosapentaenoyl ethanolamide (EPEA), an N-acyl ethanolamine for endocannabinoid-like signaling
+  Gut Microbiome: Anti-inflammatory effects in the gut; may support microbiota composition and intestinal barrier; part of gut–brain immune and metabolic signalling
 inchikey: JAZBEHYOTPTENJ-RCHUDCCISA-N
 ---
 

@@ -1,6 +1,7 @@
 ---
-title: Conditionals
-description: Auto-generated category page for conditionals in The BRAIN Diet ontology.
+title: Conditional Amino Acids
+sidebar_label: Conditionals
+description: Conditionally essential and other amino acids in the BRAIN Diet ontology.
 list_image: /img/icons/nutrients.svg
 ---
 
