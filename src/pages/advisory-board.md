@@ -48,3 +48,17 @@ The BRAIN Diet Advisory Board consists of globally renowned experts in biology, 
 **Rosen Dimov** holds a PhD in Innovation and Legal Pluralism and brings extensive expertise in innovation management, circular economy, and food sector innovation to The BRAIN Diet Advisory Board. As Innovation Manager at emotion3D, he focuses on digital strategy, business planning, and operations management. He also serves as Associate Professor at Pannon Egyetem - University of Pannonia, where he teaches and researches in the field of Circular Economy, contributes to the Renewable Energy Research Group's projects, and delivers the Joint Master Programme on Bio-Economy and Bio-Based Industries. His humanitarian approach to innovation, particularly in the food sector, combined with his experience in startups, research, and teaching, brings valuable perspective to The BRAIN Diet's mission of advancing evidence-based nutrition through innovative approaches. His commitment to knowledge-driven innovation and results-oriented action aligns with The BRAIN Diet's systems-based framework for supporting brain health.
 
 [View Rosen's LinkedIn profile →](https://www.linkedin.com/in/rosendimov/)
+
+### Paul Houston
+
+<img src="/img/team/paul-houston.jpg" alt="Paul Houston" class="team-photo" />
+
+**Paul Houston** — Founder, The BRAIN Diet
+
+Paul Houston is the creator of the B.R.A.I.N. framework (Bio-Regulation Algorithm & Integrated Neuronutrition), a systems-based model examining how lifestyle inputs regulate biological function and influence cognitive and metabolic health.
+
+With a background in clinical data strategy and health systems innovation, Paul previously contributed to large-scale healthcare data initiatives and has been involved in work published in leading journals including Nature and The BMJ. His current focus is on integrating neuroscience, nutrition, and regulatory physiology into a unified training and research platform.
+
+He is developing The BRAIN Diet alongside our team of experts for both a scientific framework and applied educational ecosystem bridging nutrition, neurobiology, longevity research, and practitioner training.
+
+[View Paul's LinkedIn profile →](https://www.linkedin.com/in/paul-houston-clinical-data-sharing/)

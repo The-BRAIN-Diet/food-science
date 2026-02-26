@@ -67,14 +67,6 @@ An Honorary Research Fellow at Cardiff University's School of Psychology and Sen
 
 [View Georgia's LinkedIn profile →](https://www.linkedin.com/in/georgia-farrar-457371293/)
 
-### Paul Houston
-
-<img src="/img/team/paul-houston.jpg" alt="Paul Houston" class="team-photo" />
-
-**Paul Houston** specializes in clinical data sharing and healthcare informatics, with expertise in organizing and structuring scientific information to support evidence-based approaches to health and nutrition. His work on clinical data standards and collaboration with organizations like Trials of Life brings critical data management and information architecture expertise to The BRAIN Diet's knowledge base and evidence framework.
-
-[View Paul's LinkedIn profile →](https://www.linkedin.com/in/paul-houston-clinical-data-sharing/)
-
 ### Jacqui Mayes
 
 <img src="/img/team/jacqui.jpg" alt="Jacqui Mayes" class="team-photo" />
@@ -90,6 +82,20 @@ An Honorary Research Fellow at Cardiff University's School of Psychology and Sen
 **Nina Fischer** brings expertise in nutrition science to The BRAIN Diet editorial team, contributing to the development and maintenance of evidence-based nutrition content. Her background in nutrition and commitment to scientific accuracy supports the team's mission of making complex nutritional science accessible while maintaining the highest standards of scientific integrity.
 
 [View Nina's LinkedIn profile →](https://www.linkedin.com/in/ninafischernutrition/)
+
+### Paul Houston
+
+<img src="/img/team/paul-houston.jpg" alt="Paul Houston" class="team-photo" />
+
+**Paul Houston** — Founder, The BRAIN Diet
+
+Paul Houston is the creator of the B.R.A.I.N. framework (Bio-Regulation Algorithm & Integrated Neuronutrition), a systems-based model examining how lifestyle inputs regulate biological function and influence cognitive and metabolic health.
+
+With a background in clinical data strategy and health systems innovation, Paul previously contributed to large-scale healthcare data initiatives and has been involved in work published in leading journals including Nature and The BMJ. His current focus is on integrating neuroscience, nutrition, and regulatory physiology into a unified training and research platform.
+
+He is developing The BRAIN Diet alongside our team of experts for both a scientific framework and applied educational ecosystem bridging nutrition, neurobiology, longevity research, and practitioner training.
+
+[View Paul's LinkedIn profile →](https://www.linkedin.com/in/paul-houston-clinical-data-sharing/)
 
 ## Content Standards
 
