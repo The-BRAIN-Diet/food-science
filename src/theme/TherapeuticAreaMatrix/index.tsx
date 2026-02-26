@@ -149,7 +149,8 @@ export default function TherapeuticAreaMatrix({tag}: TherapeuticAreaMatrixProps)
 
   const uniqueFoods = Array.from(new Map(allFoods.map((doc: Document) => [doc.permalink, doc])).values())
   const uniqueSubstances = Array.from(new Map(allSubstances.map((doc: Document) => [doc.permalink, doc])).values())
-  const uniqueTargets = Array.from(new Map(allTargets.map((doc: Document) => [doc.permalink, doc])).values())
+  let uniqueTargets = Array.from(new Map(allTargets.map((doc: Document) => [doc.permalink, doc])).values())
+  uniqueTargets = uniqueTargets.filter((doc: Document) => doc.tags.some((t: Tag) => t.label === "Biological Target"))
 
   const therapeuticTargets = uniqueTargets.filter((target: Document) => target.tags.some((t: Tag) => t.label === tag))
 
