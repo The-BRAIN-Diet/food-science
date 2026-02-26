@@ -57,7 +57,7 @@ The BRAIN Diet Advisory Board consists of globally renowned experts in biology, 
 
 Paul Houston is the creator of the B.R.A.I.N. framework (Bio-Regulation Algorithm & Integrated Neuronutrition), a systems-based model examining how lifestyle inputs regulate biological function and influence cognitive and metabolic health.
 
-With a background in clinical data strategy and health systems innovation, Paul previously contributed to large-scale healthcare data initiatives and has been involved in work published in leading journals including Nature and The BMJ. His current focus is on integrating neuroscience, nutrition, and regulatory physiology into a unified training and research platform.
+With a background in clinical data strategy and health systems innovation, Paul previously contributed to large-scale healthcare data initiatives at the European Medicines Agency and European Commission funded projects. He is published in leading journals including Nature and The BMJ. His current focus is on integrating neuroscience, nutrition, and regulatory physiology into a unified training and research platform.
 
 He is developing The BRAIN Diet alongside our team of experts for both a scientific framework and applied educational ecosystem bridging nutrition, neurobiology, longevity research, and practitioner training.
 
