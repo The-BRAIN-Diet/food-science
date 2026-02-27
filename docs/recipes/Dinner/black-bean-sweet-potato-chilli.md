@@ -11,8 +11,10 @@ tags:
   - Gut Microbiome
   - Methylation
   - Neurochemical Balance
+  - Mitochondrial Support
   - Oxidative Stress
   - Insulin Response
+  - Stress Response
   - Black Beans
   - Potatoes
   - Carrots

@@ -57,6 +57,17 @@ interface RecipeMatrixProps {
 }
 
 /**
+ * Get tag label from tag (string or object with label)
+ */
+function getTagLabel(tag: unknown): string {
+  if (typeof tag === "string") return tag
+  if (typeof tag === "object" && tag !== null && "label" in tag) {
+    return (tag as {label: string}).label
+  }
+  return ""
+}
+
+/**
  * RecipeMatrix component
  *
  * Creates a table showing the relationship chain:
@@ -103,6 +114,12 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
     }
     return String(tag)
   })
+
+  // Optional per-recipe contribution levels for substances (by name)
+  const contributionLevels =
+    ((currentDetails as {contribution_levels?: Record<string, string>}).contribution_levels as
+      | Record<string, string>
+      | undefined) || {}
 
   // Get all documents organized by type
   const allDocs = Object.values(allTags).flat()
@@ -304,14 +321,14 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
       entry.substances.forEach((foods: Set<Document>, substance: Document) => {
       // Extract mechanism from substance frontMatter
       let mechanism: string | null = null
-      const mechanisms = substance.frontMatter.mechanisms
+      const mechanisms = substance.frontMatter?.mechanisms
 
       if (mechanisms && typeof mechanisms === "object" && !Array.isArray(mechanisms)) {
         const mechanismsObj = mechanisms as Record<string, string>
 
-        // Find the common tag between substance and target
-        const substanceTagLabels = substance.tags.map((t: Tag) => t.label)
-        const targetTagLabels = entry.target.tags.map((t: Tag) => t.label)
+        // Find the common tag between substance and target (normalize tag to label)
+        const substanceTagLabels = (substance.tags || []).map((t: Tag) => getTagLabel(t)).filter(Boolean)
+        const targetTagLabels = (entry.target.tags || []).map((t: Tag) => getTagLabel(t)).filter(Boolean)
 
         const commonTag = substanceTagLabels.find(
           (st: string) =>
@@ -355,6 +372,19 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
             mechanism = matchingKey ? mechanismsObj[matchingKey] : null
           }
         }
+        if (!mechanism && entry.target.title) {
+          mechanism = mechanismsObj[entry.target.title] || null
+        }
+      }
+
+      // Look up optional contribution level for this substance within the recipe
+      const substanceName = getSubstanceName(substance.title)
+      const contributionLevel =
+        contributionLevels[substanceName] || contributionLevels[substance.title] || "Contextual / minor contributor"
+
+      // Skip rows explicitly marked as trace-only presence
+      if (contributionLevel === "Presence only (trace)") {
+        return
       }
 
       tableData.push({
@@ -368,8 +398,13 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
     }
   })
 
+  // Only show substance rows that have a mechanism for this target (no "—" rows)
+  const tableDataWithMechanism = tableData.filter(
+    (row: TableRow) => row.substance == null || (row.mechanism != null && String(row.mechanism).trim() !== "")
+  )
+
   // Sort by biological target title, then by substance title
-  tableData.sort((a: TableRow, b: TableRow) => {
+  tableDataWithMechanism.sort((a: TableRow, b: TableRow) => {
     const targetCompare = a.target.title.localeCompare(b.target.title)
     if (targetCompare !== 0) return targetCompare
     // Handle null substances (targets with no matching substances)
@@ -379,14 +414,14 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
     return a.substance.title.localeCompare(b.substance.title)
   })
 
-  if (tableData.length === 0) {
+  if (tableDataWithMechanism.length === 0) {
     const recipeTitle = typeof details.title === "string" ? details.title : "recipe"
     return <div>No biological targets found for recipe: {recipeTitle}</div>
   }
 
   // Group table data by biological target
   const groupedByTarget = new Map<string, TableRow[]>()
-  tableData.forEach((row: TableRow) => {
+  tableDataWithMechanism.forEach((row: TableRow) => {
     const targetKey = row.target.permalink
     if (!groupedByTarget.has(targetKey)) {
       groupedByTarget.set(targetKey, [])
@@ -394,10 +429,12 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
     groupedByTarget.get(targetKey)?.push(row)
   })
 
-  // Sort groups by target title
-  const sortedGroups = Array.from(groupedByTarget.entries()).sort((a, b) => {
-    return a[1][0].target.title.localeCompare(b[1][0].target.title)
-  })
+  // Sort groups by target title and filter out targets with no substances at all
+  const sortedGroups = Array.from(groupedByTarget.entries())
+    .filter(([, rows]) => rows.some((row: TableRow) => row.substance))
+    .sort((a, b) => {
+      return a[1][0].target.title.localeCompare(b[1][0].target.title)
+    })
 
   return (
     <div className="recipe-matrix">

@@ -104,7 +104,7 @@ export default function SubstanceMatrix({tag}: SubstanceMatrixProps): React.Reac
   const allTherapeuticAreas = allDocs.filter((doc: Document) => doc.permalink.includes("/therapeutic-areas/"))
 
   // Classification tags to exclude when finding biological target names
-  const biologicalTargetClassificationTags = ["Biological Target"]
+  const biologicalTargetClassificationTags = ["Biological Target", "Metabolic Response Target"]
 
   // Step 2: Find biological targets tagged on this substance (only the 6 BRS)
   const biologicalTargets: Document[] = []
@@ -160,11 +160,14 @@ export default function SubstanceMatrix({tag}: SubstanceMatrixProps): React.Reac
       }
     }
 
-    tableData.push({
-      target,
-      therapeuticAreas: uniqueTherapeuticAreas,
-      mechanism,
-    })
+    // Only include rows where we have a mechanism (avoid null \"—\" rows)
+    if (mechanism) {
+      tableData.push({
+        target,
+        therapeuticAreas: uniqueTherapeuticAreas,
+        mechanism,
+      })
+    }
   }
 
   // Sort by biological target title
