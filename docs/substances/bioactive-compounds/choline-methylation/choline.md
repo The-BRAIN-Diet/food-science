@@ -11,12 +11,24 @@ tags:
   - Choline
   - Methylation
   - Neurochemical Balance
+  - Mitochondrial Support
+  - Inflammation
+  - Gut Microbiome
+  - Stress Response
   - Endocannabinoid System
 list_image: /img/inchi/OEYIOHPDSNJKLS-UHFFFAOYSA-N.png
 mechanisms:
   Endocannabinoid System: Precursor for phosphatidylcholine (PC) synthesis; PE can be converted into PC or N-acyl phosphatidylethanolamines (NAPEs); NAPEs are precursors to N-acyl ethanolamines (NAEs) like palmitoylethanolamide (PEA), oleoylethanolamide (OEA), and anandamide (AEA), bioactive lipids which act as neuromodulators with anti-inflammatory, neuroprotective, and mood-regulating effects
+  Mitochondrial Support: "Phosphatidylcholine and other choline-containing phospholipids support mitochondrial membrane integrity and energy metabolism; choline-derived betaine contributes to one-carbon status that can influence mitochondrial resilience"
+  "Mitochondrial Function & Bioenergetics": "Phosphatidylcholine and other choline-containing phospholipids support mitochondrial membrane integrity and energy metabolism; choline-derived betaine contributes to one-carbon status that can influence mitochondrial resilience"
   Methylation: Precursor to trimethylglycine (TMG/betaine), a dietary methyl donor that helps recycle homocysteine to methionine via an alternative pathway; supports one-carbon metabolism alongside folate, riboflavin, and B12; influences methylation dynamics relevant to MTHFR and COMT activity
   Neurochemical Balance: Essential precursor for acetylcholine synthesis, supporting memory, learning, and neuroplasticity; supports membrane phospholipid biosynthesis (PC) which is critical for membrane fluidity and neurotransmitter receptor function; phospholipid methylation (PLM) alters membrane structure, facilitating faster neuronal recovery and influencing ion channel behavior in gamma oscillations linked to attention and cognition
+  Inflammation: Choline-derived betaine supports homocysteine remethylation; elevated homocysteine is linked to oxidative stress and inflammatory signalling. Phosphatidylcholine supports membrane integrity and cell signalling in immune and redox contexts.
+  Gut Microbiome: Choline is metabolised by gut bacteria; some strains (e.g. Lactobacillus) can produce acetylcholine. Microbial choline metabolism (e.g. trimethylamine) shows inter-individual variability and may influence host metabolism and gut–brain signalling.
+  Stress Response: Choline supports hepatic VLDL assembly and lipid export; methyl donors (choline, betaine) may influence adenosine metabolism and HPA axis activity. Adequate choline status supports metabolic stability and stress physiology.
+  "Inflammation & Oxidative Stress": Choline-derived betaine supports homocysteine remethylation; elevated homocysteine is linked to oxidative stress and inflammatory signalling. Phosphatidylcholine supports membrane integrity and cell signalling in immune and redox contexts.
+  "Gut–Brain Axis & Enteric Nervous System (ENS)": Choline is metabolised by gut bacteria; some strains (e.g. Lactobacillus) can produce acetylcholine. Microbial choline metabolism (e.g. trimethylamine) shows inter-individual variability and may influence host metabolism and gut–brain signalling.
+  "Metabolic & Neuroendocrine Stress (HPA Axis & ANS)": Choline supports hepatic VLDL assembly and lipid export; methyl donors (choline, betaine) may influence adenosine metabolism and HPA axis activity. Adequate choline status supports metabolic stability and stress physiology.
 inchikey: OEYIOHPDSNJKLS-UHFFFAOYSA-N
 ---
 

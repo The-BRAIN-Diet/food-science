@@ -175,26 +175,19 @@ export default function TherapeuticAreaMatrix({tag}: TherapeuticAreaMatrixProps)
       (substance: Document) => matchesTarget(substance) || matchesModulator(substance)
     )
 
-    if (supportingSubstances.length === 0) {
-      tableData.push({
-        target,
-        substance: null,
-        foods: [],
-        mechanism: null,
-      })
-      return
-    }
-
     supportingSubstances.forEach((substance: Document) => {
       const foods = Array.from(substanceToFoodsMap.get(substance) ?? [])
       const mechanism = extractMechanism(substance, target.title, targetTagLabels)
 
-      tableData.push({
-        target,
-        substance,
-        foods,
-        mechanism,
-      })
+      // Only include rows where we have a mechanism for this target
+      if (mechanism) {
+        tableData.push({
+          target,
+          substance,
+          foods,
+          mechanism,
+        })
+      }
     })
   })
 
