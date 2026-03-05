@@ -1,7 +1,7 @@
 ---
 id: linguine-cockles-mantecate
-title: Linguine con le Cozze Mantecate (Linguine with cockles in a silky emulsified sauce)
-sidebar_label: Linguine con le Cozze Mantecate (Linguine with cockles in a silky emulsified sauce)
+title: Linguine alle vongole mantecate (Linguine with cockles in a silky emulsified sauce)
+sidebar_label: Linguine alle vongole mantecate (Linguine with cockles in a silky emulsified sauce)
 description: Whole-wheat linguine with cockles in a silky emulsified sauce; Italian emulsification technique without cream, supporting taurine, B12, and choline intake.
 list_image: /img/recipes/pasta_colour_contrast_only.jpg
 tags:

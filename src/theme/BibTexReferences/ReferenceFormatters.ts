@@ -134,7 +134,15 @@ function formatHarvard(entry: BibEntry): string {
         const volume = entryTags.volume || '';
         const number = entryTags.number || '';
         const pages = entryTags.pages || '';
-        return `${authors} ${year}, '${title}', <em>${journal}</em>, vol. ${volume}${number ? `, no. ${number}` : ''}${pages ? `, pp. ${pages}` : ''}.`;
+
+        const parts: string[] = [];
+        if (journal) parts.push(`<em>${journal}</em>`);
+        if (volume) parts.push(`vol. ${volume}`);
+        if (number) parts.push(`no. ${number}`);
+        if (pages) parts.push(`pp. ${pages}`);
+
+        const tail = parts.length ? `, ${parts.join(', ')}.` : '.';
+        return `${authors} ${year}, '${title}'${tail}`;
     }
 
     if (entryType.toLowerCase() === 'book') {
