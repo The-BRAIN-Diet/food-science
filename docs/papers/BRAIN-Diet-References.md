@@ -8,7 +8,7 @@ list_image: /img/icons/papers.svg
 <BibTexReferences 
   fileId="BRAIN-diet" 
   title="All References" 
-  style="apa"
+  style="harvard"
   sortBy="year"
   sortDirection="desc"
   showCitationKeys={false}
