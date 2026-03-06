@@ -3,17 +3,17 @@
 
 ADHD:
   label: ADHD
-  permalink: /docs/tags/adhd
+  permalink: /adhd
   description: Attention deficit hyperactivity disorder
 
 ALA:
   label: ALA (Alpha-Linolenic Acid)
-  permalink: /docs/tags/ala-alpha-linolenic-acid
+  permalink: /ala-alpha-linolenic-acid
   description: Essential omega-3 precursor
 
 Algal Oil:
   label: Algal Oil
-  permalink: /docs/tags/algal-oil
+  permalink: /algal-oil
   description: Vegan DHA source from microalgae
 
 Alzheimer's Disease:
@@ -48,7 +48,7 @@ Aubergine:
 
 Berberine:
   label: Berberine
-  permalink: /docs/tags/berberine
+  permalink: /berberine
   description: Polyphenolic alkaloid
 
 Beta-Glucans:
@@ -178,7 +178,7 @@ Glycine:
 
 Gut Microbiome:
   label: Gut Microbiome
-  permalink: /docs/tags/gut-microbiome
+  permalink: /gut-microbiome
   description: Gut microbiome and gut-brain axis
 
 Histidine:
@@ -198,12 +198,12 @@ Hydroxytyrosol:
 
 Inflammation:
   label: Inflammation
-  permalink: /docs/tags/inflammation
+  permalink: /inflammation
   description: Chronic inflammation and neuroinflammation
 
 Insulin Response:
   label: Insulin Response
-  permalink: /docs/tags/insulin-response
+  permalink: /insulin-response
   description: Glucose metabolism and insulin sensitivity
 
 Iodine:
@@ -358,7 +358,7 @@ Phospholipid:
 
 Polyphenol:
   label: Polyphenol
-  permalink: /docs/tags/polyphenol
+  permalink: /polyphenol
   description: Plant polyphenols with antioxidant and neuroprotective properties
 
 Polysaccharides:
@@ -1390,7 +1390,7 @@ Yogurt:
 # Substance tags
 Substance:
   label: Substance
-  permalink: /docs/tags/substance
+  permalink: /substance
   description: Bioactive substances and nutrients
 
 Sulforaphane:
@@ -1426,7 +1426,7 @@ Trace Mineral:
 
 Alkaloid:
   label: Alkaloid
-  permalink: /docs/tags/alkaloid
+  permalink: /alkaloid
   description: Nitrogen-containing bioactive compounds
 
 Choline-Methylation:
@@ -1659,7 +1659,7 @@ Nitrate:
 # Substance category tags
 Bioactive:
   label: Bioactive
-  permalink: /docs/tags/bioactive
+  permalink: /bioactive
   description: Bioactive substances with health-promoting properties
 
 Metabolite:
