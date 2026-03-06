@@ -11,6 +11,8 @@ list_image: /img/icons/recipes.svg
 
 # Recipes
 
+Printable shopping list: see the [Foods Shopping List](/docs/foods/shopping-list) for an alphabetised table you can print.
+
 - [Breakfast](/docs/recipes/Breakfast)
 - [Lunch](/docs/recipes/Lunch)
 - [Dinner](/docs/recipes/Dinner)
