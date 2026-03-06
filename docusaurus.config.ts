@@ -54,7 +54,10 @@ const config: Config = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: ['/tags/**'],
+          // Exclude tag listing routes that Docusaurus generates under
+          // /docs/tags/docs/tags/** so the sitemap only exposes the clean
+          // /docs/tags/<tag> URLs.
+          ignorePatterns: ['/tags/**', '/docs/tags/docs/tags/**'],
           filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,
