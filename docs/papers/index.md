@@ -11,3 +11,5 @@ list_image: /img/icons/papers.svg
 # Research Papers
 
 This section contains the complete bibliography of research papers and scientific literature supporting the BRAIN Diet framework.
+
+**Full bibliography:** [BRAIN Diet References](/docs/papers/BRAIN-Diet-References) — all citations used across the site, with links to sources.
