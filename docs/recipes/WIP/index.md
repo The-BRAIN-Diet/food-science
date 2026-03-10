@@ -1,12 +1,12 @@
 ---
 id: wip-recipes
-title: Recipes (work in progress)
+title: Recipes (work in progress, internal)
 sidebar_label: WIP (internal)
 sidebar_position: 99
 description: Recipes under development — for internal review only, not linked from public recipe lists
 ---
 
-# Recipes — work in progress
+# Recipes — work in progress (internal)
 
 Recipes in this folder are **under development** and for **internal review only**.
 
