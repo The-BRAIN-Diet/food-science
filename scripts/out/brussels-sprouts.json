@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "calcium_mg": 24,
+    "protein_g": 3.53,
+    "fibre_g": 3.5,
+    "iron_mg": 0.85,
+    "fat_g": 0,
+    "sat_fat_g": 0,
+    "kcal": 53,
+    "carbs_g": 9.41
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "BRUSSELS SPROUTS",
+    "fdc_id": 2135279,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

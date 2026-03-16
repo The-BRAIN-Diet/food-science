@@ -15,6 +15,19 @@ tags:
   - Oleacein
   - Polyphenol
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  protein_g: 0
+  kcal: 800
+  fat_g: 93.33
+  sat_fat_g: 13.33
+  carbs_g: 0
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: EXTRA VIRGIN OLIVE OIL
+  fdc_id: 1908563
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
@@ -28,24 +41,28 @@ Extra virgin olive oil (EVOO) is a cornerstone fat in the BRAIN Diet. **Importan
 
 Early harvest extra virgin olive oil contains significantly higher concentrations of these bioactive compounds (oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol) compared to standard EVOO or regular olive oil. Early harvest oils may also contain CoQ10 in useful quantities, though standard EVOO typically does not. These enhanced polyphenol levels support mitochondrial function, antioxidant networks, and anti-inflammatory pathways, making early harvest olive oil a valuable component of precision dietary strategies for brain health.
 
-## Recipes
 
-<FoodRecipes tag="Extra Virgin Olive Oil" />
+<NutritionTable details={frontMatter} />
 
-## Substances
 
-<FoodSubstances details={frontMatter} />
+## Food Context
 
-## Preparation Notes
+### Serving
 
 - Best used for salad dressings, drizzling, low-heat cooking to preserve polyphenols
 - Avoid high-heat cooking to preserve polyphenols and prevent oxidation
 - Early harvest oils have higher bioactive content (oleuropein, polyphenols) and may contain CoQ10 in useful quantities
 - Store away from heat and light to preserve antioxidant properties
 
-## Biological Target Matrix
 
-<FoodMatrix tag="Extra Virgin Olive Oil" />
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## Recipes
+
+<FoodRecipes tag="Extra Virgin Olive Oil" />
+
 
 ## References
 

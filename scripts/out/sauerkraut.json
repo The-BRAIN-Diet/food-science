@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 25,
+    "fibre_g": 0.8,
+    "sat_fat_g": 0,
+    "protein_g": 1.67,
+    "potassium_mg": 262,
+    "iron_mg": 0.83,
+    "calcium_mg": 50,
+    "fat_g": 0,
+    "carbs_g": 5.83
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "SAUERKRAUT",
+    "fdc_id": 1144785,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

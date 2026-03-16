@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 350.9328,
+    "protein_g": 23.56875,
+    "fat_g": 1.925,
+    "carbs_g": 62.17125,
+    "calcium_mg": 61.85,
+    "iron_mg": 7.158,
+    "magnesium_mg": 106.7,
+    "potassium_mg": 948.9,
+    "zinc_mg": 3.863
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Lentils, dry",
+    "fdc_id": 2644283,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

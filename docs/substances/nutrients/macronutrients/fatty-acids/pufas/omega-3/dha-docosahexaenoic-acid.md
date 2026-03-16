@@ -2,7 +2,7 @@
 id: dha-docosahexaenoic-acid
 title: DHA (Docosahexaenoic Acid)
 sidebar_label: DHA (22:6 n-3)
-description: Accounts for ~10–15% of total brain fatty acids, 20–30% of neuronal phospholipids (PE, PS), and &gt;90% of brain omega-3 PUFA; critical for membrane fluidity, synaptic vesicle fusion, neurodevelopment
+description: Accounts for ~10–15% of total brain fatty acids, 20–30% of neuronal phospholipids (PE, PS), and >90% of brain omega-3 PUFA; critical for membrane fluidity, synaptic vesicle fusion, neurodevelopment
 tags:
   - Substance
   - Nutrient

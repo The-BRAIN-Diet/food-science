@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "nutrition:fetch": "node scripts/fetch-usda-nutrition.mjs",
+    "nutrition:enrich": "node scripts/enrich-nutrition-from-overview.mjs",
+    "nutrition:apply": "node scripts/update-food-page-frontmatter.mjs",
+    "nutrition:validate": "node scripts/validate-food-pages.mjs",
+    "nutrition:repair": "node scripts/repair-food-pages.mjs",
+    "nutrition:pipeline": "npm run nutrition:apply -- --all && npm run nutrition:repair",
     "check-foods": "node scripts/check-foods-global.js",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
@@ -26,12 +32,15 @@
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tiny-invariant": "^1.0.2",
+    "tiny-warning": "^1.0.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.1",
     "@docusaurus/tsconfig": "3.8.1",
     "@docusaurus/types": "3.8.1",
+    "gray-matter": "^4.0.3",
     "husky": "^9.0.0",
     "sharp": "^0.34.5",
     "typescript": "~5.6.2"

@@ -1,0 +1,17 @@
+{
+  "nutrition_per_100g": {
+    "carbs_g": 0,
+    "sat_fat_g": 13.33,
+    "fat_g": 93.33,
+    "kcal": 800,
+    "protein_g": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "AVOCADO OIL",
+    "fdc_id": 1857558,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

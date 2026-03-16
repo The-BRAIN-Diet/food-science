@@ -17,31 +17,66 @@ tags:
   - Genistein
   - Quercetin
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 366
+  protein_g: 51.1
+  fat_g: 3.33
+  carbs_g: 32.9
+  calcium_mg: 338
+  iron_mg: 7.34
+  magnesium_mg: 313
+  potassium_mg: 2480
+  zinc_mg: 4.44
+  selenium_ug: 45.8
+  vitamin_b6_mg: 0.618
+  ala_mg: 2860
+  omega3_mg: 2860
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Flour, soy, defatted'
+  fdc_id: 1104705
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
+amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
+complementary_pairings: Grains or other legumes for variety and balance.
 ---
 
 ## Overview
 
 Soy provides complete plant protein (DIAAS 92-96), isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. Soy protein isolate has a DIAAS score of 92-96, indicating high protein quality, though it is methionine-limited and should be paired with grains. Genistein, a soy-derived isoflavonoid, has shown potential as a modulator of several biochemical pathways, including the endocannabinoid system and neuroinflammation. Soy is listed as a source for choline, tryptophan, tyrosine, and B6.
 
+
+## Food Context
+
+### Synergies
+
+- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
+- Part of diverse plant protein strategy
+
+### Serving
+
+- Fermented forms (tempeh, miso, natto) may have additional benefits including probiotics and improved digestibility
+- Supports choline and neurotransmitter synthesis
+- Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis
+
+
+### Essential Amino Acid Profile
+
+Soy provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
+
+
+<NutritionTable details={frontMatter} />
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Soy" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Fermented forms (tempeh, miso, natto) may have additional benefits including probiotics and improved digestibility
-- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
-- Part of diverse plant protein strategy
-- Supports choline and neurotransmitter synthesis
-- Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Soy" />
 
 ## References
 

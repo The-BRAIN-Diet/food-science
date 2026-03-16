@@ -1,0 +1,32 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 121,
+    "protein_g": 11.91,
+    "fat_g": 5.2,
+    "carbs_g": 8.91,
+    "fibre_g": 5.2,
+    "ala_mg": 446,
+    "calcium_mg": 63,
+    "iron_mg": 2.27,
+    "magnesium_mg": 64,
+    "potassium_mg": 436,
+    "zinc_mg": 1.37,
+    "selenium_ug": 0.8,
+    "vitamin_b6_mg": 0.1,
+    "folate_ug": 311,
+    "choline_mg": 56.3,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 0.62,
+    "epa_mg": 3,
+    "dha_mg": 0,
+    "omega3_mg": 449
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Edamame, frozen, prepared",
+    "fdc_id": 168411,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

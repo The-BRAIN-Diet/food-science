@@ -1,0 +1,17 @@
+{
+  "nutrition_per_100g": {
+    "sat_fat_g": 15.82,
+    "ala_mg": 606.7,
+    "epa_mg": 0.625,
+    "dha_mg": 0,
+    "omega3_mg": 607.325
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Oil, olive, extra light",
+    "fdc_id": 1750351,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

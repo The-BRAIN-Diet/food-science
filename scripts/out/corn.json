@@ -1,0 +1,15 @@
+{
+  "nutrition_per_100g": {
+    "sat_fat_g": 13.4,
+    "ala_mg": 1040,
+    "omega3_mg": 1040
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Oil, corn",
+    "fdc_id": 748323,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

@@ -2,7 +2,7 @@
 id: milk
 title: Milk
 sidebar_label: Milk
-description: Complete protein, nicotinamide riboside, and calcium
+description: 'Complete protein, nicotinamide riboside, and calcium'
 tags:
   - Food
   - Milk
@@ -17,42 +17,59 @@ tags:
   - Vitamin B5
   - Vitamin B12
   - Vitamin D
-  - Tryptophan
-  - Tyrosine
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
 list_image: /img/icons/ingredients.svg
+protein_profile_note: Complete essential amino acid profile. /img/icons/ingredients.svg
+nutrition_per_100g:
+  fibre_g: 0
+  fat_g: 2.12
+  carbs_g: 5.08
+  kcal: 55
+  iron_mg: 0
+  sat_fat_g: 1.27
+  calcium_mg: 127
+  protein_g: 3.39
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: MILK
+  fdc_id: 1909132
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (NAD+ precursor), and calcium, supporting mitochondrial function and bone health. Milk (skim) has a DIAAS score of 118, indicating balanced EAA profile and supports myelination. Nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread). Fortified plant milks and dairy milk can help meet calcium (and sometimes iodine, depending on fortification and local practices) targets.
 
-## Recipes
 
-<FoodRecipes tag="Milk" />
+<NutritionTable details={frontMatter} />
 
-## Substances
 
-<FoodSubstances details={frontMatter} />
+## Food Context
 
-## Preparation Notes
+### Sourcing
 
 - Choose quality sources when possible
+
+### Synergies
+
 - Part of diverse protein strategy
+
+### Serving
+
 - Supports NAD+ availability through nicotinamide riboside
 - Consider tolerance and preferences
 - Fortified plant milks and dairy milk can help meet calcium targets
 
-## Biological Target Matrix
 
-<FoodMatrix tag="Milk" />
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## Recipes
+
+<FoodRecipes tag="Milk" />
+
 
 ## References
 

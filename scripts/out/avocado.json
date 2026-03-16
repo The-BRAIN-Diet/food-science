@@ -1,0 +1,23 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 206.0493,
+    "protein_g": 1.8125,
+    "fat_g": 20.31,
+    "carbs_g": 8.3235,
+    "calcium_mg": 14.46,
+    "iron_mg": 0.6133,
+    "magnesium_mg": 32.8,
+    "potassium_mg": 576.4,
+    "zinc_mg": 0.4596,
+    "vitamin_b6_mg": 0.1674,
+    "folate_ug": 128.7
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Avocado, Hass, peeled, raw",
+    "fdc_id": 2710824,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 366,
+    "protein_g": 51.1,
+    "fat_g": 3.33,
+    "carbs_g": 32.9,
+    "calcium_mg": 338,
+    "iron_mg": 7.34,
+    "magnesium_mg": 313,
+    "potassium_mg": 2480,
+    "zinc_mg": 4.44,
+    "selenium_ug": 45.8,
+    "vitamin_b6_mg": 0.618,
+    "ala_mg": 2860,
+    "omega3_mg": 2860
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Flour, soy, defatted",
+    "fdc_id": 1104705,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "_comment": "Override mapping: page slug -> USDA search query. Used when slug alone does not match USDA well. Fallback: slug with dashes replaced by spaces.",
+  "beef": "beef, ground, raw",
+  "eggs": "egg, whole, raw, fresh",
+  "salmon": "salmon, Atlantic, farmed, raw",
+  "lentils": "lentils, dry",
+  "oats": "oats, whole grain, rolled, old fashioned",
+  "yogurt": "yogurt, Greek, plain, whole milk",
+  "turkey": "turkey breast, meat only, roasted",
+  "quinoa": "quinoa, uncooked",
+  "tofu": "tofu, raw, firm"
+}

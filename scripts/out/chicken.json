@@ -1,0 +1,31 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 158,
+    "protein_g": 18.01,
+    "fat_g": 17.56,
+    "carbs_g": 4.05,
+    "fibre_g": 0.3,
+    "calcium_mg": 16,
+    "iron_mg": 0.87,
+    "magnesium_mg": 12,
+    "potassium_mg": 106,
+    "zinc_mg": 1.15,
+    "selenium_ug": 10.8,
+    "vitamin_b6_mg": 0.15,
+    "folate_ug": 3,
+    "vitamin_b12_ug": 0.13,
+    "sat_fat_g": 3.23,
+    "epa_mg": 0,
+    "dha_mg": 0,
+    "ala_mg": 1037,
+    "omega3_mg": 1037
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Chicken spread",
+    "fdc_id": 173858,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

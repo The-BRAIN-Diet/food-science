@@ -2,7 +2,7 @@
 id: tuna
 title: Tuna
 sidebar_label: Tuna
-description: Fish providing omega-3, niacin, selenium, and complete protein
+description: 'Fish providing omega-3, niacin, selenium, and complete protein'
 tags:
   - Food
   - Tuna
@@ -13,36 +13,64 @@ tags:
   - Selenium
   - Creatine
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 101.8695
+  protein_g: 24.7
+  fat_g: 0.3875
+  carbs_g: -0.1045
+  calcium_mg: 3.193
+  iron_mg: 0.5914
+  magnesium_mg: 35.48
+  potassium_mg: 420.2
+  zinc_mg: 0.3524
+  selenium_ug: 76.52
+  vitamin_b12_ug: 1.374
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Tuna, ahi or yellowfin, frozen, wild caught'
+  fdc_id: 2747673
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
+protein_profile_note: Complete essential amino acid profile.
 ---
 
 ## Overview
 
-Tuna provides omega-3 fatty acids, niacin (B3) for NAD+ synthesis, selenium, creatine for ATP recycling, and high-quality complete protein. Tuna has a DIAAS score of 104-106, indicating high protein quality. Niacin (Vitamin B3) is directly converted to NAD+ via salvage pathway, and lack of niacin hampers NAD+ regeneration, decreasing ATP production and potentially affecting cognitive performance. Creatine supports ATP recycling in neurons and enhances working memory and cognitive processing speed.
+Tuna is a lean fish providing complete, high-quality protein together with **omega-3 fatty acids** (primarily EPA and DHA), **vitamin B3 (niacin)**, and **selenium**. These intrinsic nutrients support neuronal membrane composition, mitochondrial energy metabolism, and antioxidant enzyme systems [1]. Compared with oily fish such as salmon or mackerel, tuna is lower in total fat but still contributes marine omega-3s and micronutrients in relatively low-calorie portions.
+
+Within the BRAIN Diet framework, tuna is used as one component of a broader fish rotation rather than the sole marine protein source. Niacin-rich foods such as tuna contribute to NAD⁺-dependent metabolic pathways, while selenium participates in glutathione peroxidase and other antioxidant enzymes [1,2]. Because larger tuna species can accumulate higher levels of mercury, emphasis is placed on choosing lower-trophic species and moderating frequency within an overall pattern that includes smaller oily fish like sardines and herring [3].
+
+## Food Context
+
+### Sourcing
+
+- Prefer smaller tuna species (such as skipjack) and products from fisheries with transparent sustainability and contaminant monitoring, as larger predatory tuna tend to accumulate more mercury.
+- When using canned tuna, choose products packed in water or high-quality oils without excessive sodium or additives.
+
+### Serving
+
+- Use gentle cooking methods (light searing, baking, steaming) to preserve moisture and omega-3 content; avoid repeated deep-frying or heavy charring.
+- Incorporate tuna into meals that also contain vegetables and whole grains, so it contributes lean protein, niacin, and selenium within a balanced plate rather than dominating total dietary fish intake.
+
+### Essential Amino Acid Profile
+
+This food provides a **complete essential amino acid profile** typical of animal proteins, with high digestibility and bioavailability.
+
+<NutritionTable details={frontMatter} />
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
 
 ## Recipes
 
 <FoodRecipes tag="Tuna" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Choose smaller species (skipjack) to reduce mercury exposure; larger species accumulate more heavy metals
-- Light/gentle cooking preserves creatine levels; excessive heat can reduce creatine significantly
-- Best prepared with gentle cooking methods to preserve omega-3s and prevent oxidation
-- Part of diverse fish intake strategy
-- Supports NAD+, creatine availability, and mitochondrial function
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Tuna" />
-
 ## References
 
-- EPA & DHA (Omega-3): Sardines, mackerel, salmon, tuna, cod liver; anti-inflammatory; membrane fluidity; neurotransmitter receptor function
-- Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains [Pirinen et al. 2020](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
-- Tuna has DIAAS score of 104-106, indicating high protein quality; high in selenium, omega-3
-- Creatine: Supports ATP recycling in neurons; enhances working memory and cognitive processing speed; food sources include beef, lamb, pork, salmon, tuna, cod, scallops
-- Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health
+These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+
+1. [McNamara & Carlson 2006 – Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
+2. [Pirinen et al. 2020 – Niacin and NAD⁺ metabolism in health and disease](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
+3. [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

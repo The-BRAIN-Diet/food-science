@@ -26,30 +26,64 @@ tags:
   - Isoleucine
   - Histidine
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 283
+  sat_fat_g: 2.5
+  fat_g: 25
+  fibre_g: 5
+  iron_mg: 3
+  carbs_g: 10
+  protein_g: 11.67
+  calcium_mg: 67
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: SUNFLOWER SEEDS
+  fdc_id: 1879738
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
+limiting_amino_acids: Lysine (typical of nuts and seeds).
+complementary_pairings: Legumes or grains for complete essential amino acid profile.
 ---
 
 ## Overview
 
 Sunflower seeds provide thiamine (B1), vitamin E, and are the source of sunflower lecithin, supporting mitochondrial function and choline intake. Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils. Thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production. Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli).
 
+
+## Food Context
+
+### Synergies
+
+- Part of diverse seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
+
+### Serving
+
+- Can be consumed raw or roasted; gentle roasting preserves nutrients
+- Supports mitochondrial function via thiamine; thiamine does not exist in a large brain "reservoir"; the CNS maintains small, tightly regulated intracellular pools that depend on continuous, transporter-mediated supply
+- Source of sunflower lecithin for choline support; vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli)
+
+
+### Essential Amino Acid Profile
+
+Sunflower Seeds provide plant protein but are not a complete protein; lysine is typically limiting for nuts and seeds.
+
+Protein pairing strategy:
+
+Pair with legumes or grains to complete essential amino acid coverage.
+
+
+<NutritionTable details={frontMatter} />
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Sunflower Seeds" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Can be consumed raw or roasted; gentle roasting preserves nutrients
-- Part of diverse seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
-- Supports mitochondrial function via thiamine; thiamine does not exist in a large brain "reservoir"; the CNS maintains small, tightly regulated intracellular pools that depend on continuous, transporter-mediated supply
-- Source of sunflower lecithin for choline support; vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli)
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Sunflower Seeds" />
 
 ## References
 

@@ -1,0 +1,31 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 416,
+    "protein_g": 10,
+    "fat_g": 5,
+    "carbs_g": 82.64,
+    "fibre_g": 0,
+    "calcium_mg": 0,
+    "iron_mg": 0,
+    "magnesium_mg": 156,
+    "potassium_mg": 243,
+    "zinc_mg": 2.2,
+    "selenium_ug": 25.5,
+    "vitamin_b6_mg": 0.554,
+    "folate_ug": 22,
+    "choline_mg": 33.4,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 0,
+    "epa_mg": 0,
+    "dha_mg": 0,
+    "omega3_mg": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Rice crackers",
+    "fdc_id": 173161,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

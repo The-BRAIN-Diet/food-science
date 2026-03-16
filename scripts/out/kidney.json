@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "protein_g": 25.9,
+    "fat_g": 1.31,
+    "fibre_g": 4.3,
+    "calcium_mg": 98,
+    "iron_mg": 6.58,
+    "magnesium_mg": 164,
+    "potassium_mg": 1490,
+    "zinc_mg": 3.29
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Beans, Dry, Dark Red Kidney (0% moisture)",
+    "fdc_id": 747440,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

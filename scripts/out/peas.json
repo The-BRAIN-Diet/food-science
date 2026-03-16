@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 345.5703,
+    "protein_g": 21.225,
+    "fat_g": 2.419,
+    "carbs_g": 61.836,
+    "calcium_mg": 71.4,
+    "iron_mg": 5.93,
+    "magnesium_mg": 183.9,
+    "potassium_mg": 1243,
+    "zinc_mg": 3.654
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Blackeye pea, dry",
+    "fdc_id": 2644284,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

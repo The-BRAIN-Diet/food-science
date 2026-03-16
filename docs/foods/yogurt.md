@@ -8,48 +8,70 @@ tags:
   - Yogurt
   - Vegetarian
   - Calcium
-  - Phosphorus
-  - Potassium
-  - Magnesium
   - Zinc
-  - Vitamin B2
-  - Vitamin B5
-  - Vitamin B12
-  - Tryptophan
-  - Tyrosine
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
+  - Magnesium
+  - Potassium
 list_image: /img/icons/ingredients.svg
+protein_profile_note: Complete essential amino acid profile.
+nutrition_per_100g:
+  kcal: 94.507135
+  protein_g: 8.77888
+  fat_g: 4.394
+  carbs_g: 4.75402
+  sugar_g: 3.2474
+  ala_mg: 639.4
+  calcium_mg: 110.9
+  iron_mg: 0
+  magnesium_mg: 10.7
+  potassium_mg: 146.9
+  zinc_mg: 0.473
+  vitamin_b6_mg: 0.04394
+  sat_fat_g: 2.393
+  omega3_mg: 639.4
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Yogurt, Greek, plain, whole milk'
+  fdc_id: 2259794
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
+
+import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview
 
-Yogurt is fermented dairy providing live probiotics, complete protein, and B vitamins, supporting gut-brain axis communication. Fermented dairy is mentioned as nutrient-dense animal food. Practical pairings include spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts. Cultured dairy: Yogurt, kefir, buttermilk (if tolerated) provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
+Yogurt is fermented dairy providing live probiotics, complete protein, **calcium**, and B vitamins, supporting gut–brain axis communication. Key contributions include calcium, protein, and zinc. Pair with berries or nuts for polyphenol synergy.
+
+**Protein profile:** Complete essential amino acid profile.
+
+## Food Context
+
+### Sourcing
+
+- Choose products with live active cultures for probiotic benefits
+
+### Synergies
+
+- Part of fermented foods strategy; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
+- Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
+- Pair with berries/nuts for polyphenol synergy; practical pairings: berries + yogurt/nuts
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of animal proteins.
+
+
+<NutritionTable details={frontMatter} />
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
 
 ## Recipes
 
 <FoodRecipes tag="Yogurt" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Choose products with live active cultures for probiotic benefits
-- Part of fermented foods strategy; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
-- Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
-- Pair with berries/nuts for polyphenol synergy; practical pairings: berries + yogurt/nuts
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Yogurt" />
 
 ## References
 

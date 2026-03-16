@@ -10,30 +10,64 @@ tags:
   - Vegetarian
   - Polyphenol
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 1
+  protein_g: 0
+  fat_g: 0
+  carbs_g: 0.2
+  fibre_g: 0
+  calcium_mg: 2
+  iron_mg: 0.08
+  magnesium_mg: 1
+  potassium_mg: 9
+  zinc_mg: 0.04
+  selenium_ug: 0
+  vitamin_b6_mg: 0
+  folate_ug: 1
+  choline_mg: 0
+  vitamin_b12_ug: 0
+  sat_fat_g: 0.002
+  epa_mg: 0
+  dha_mg: 0
+  omega3_mg: 0
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Beverages, tea, herb, brewed, chamomile'
+  fdc_id: 174156
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine receptors, supporting calm and sleep onset without sedation. Apigenin (from chamomile tea) binds to benzodiazepine receptors, supporting calm and sleep.
 
+
+<NutritionTable details={frontMatter} />
+
+
+## Food Context
+
+### Synergies
+
+- Best consumed as tea in evening
+- Part of sleep-supportive evening routine
+
+### Serving
+
+- Steep 5-10 minutes for optimal extraction
+- Can be combined with other calming herbs
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Chamomile" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Best consumed as tea in evening
-- Steep 5-10 minutes for optimal extraction
-- Part of sleep-supportive evening routine
-- Can be combined with other calming herbs
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Chamomile" />
 
 ## References
 

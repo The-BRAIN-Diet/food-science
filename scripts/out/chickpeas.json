@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 371.99469,
+    "protein_g": 21.275,
+    "fat_g": 6.274,
+    "carbs_g": 60.358,
+    "calcium_mg": 111.1,
+    "iron_mg": 5.094,
+    "magnesium_mg": 134.8,
+    "potassium_mg": 1074,
+    "zinc_mg": 3.124
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Chickpeas, (garbanzo beans, bengal gram), dry",
+    "fdc_id": 2644282,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

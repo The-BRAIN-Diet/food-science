@@ -1,0 +1,32 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 312,
+    "protein_g": 9.68,
+    "fat_g": 3.25,
+    "carbs_g": 67.14,
+    "fibre_g": 22.7,
+    "ala_mg": 330,
+    "calcium_mg": 168,
+    "iron_mg": 55,
+    "magnesium_mg": 208,
+    "potassium_mg": 2080,
+    "zinc_mg": 4.5,
+    "selenium_ug": 6.2,
+    "vitamin_b6_mg": 0.107,
+    "folate_ug": 20,
+    "choline_mg": 49.2,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 1.838,
+    "epa_mg": 0,
+    "dha_mg": 0,
+    "omega3_mg": 330
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Spices, turmeric, ground",
+    "fdc_id": 172231,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

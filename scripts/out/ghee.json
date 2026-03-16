@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 900,
+    "protein_g": 0,
+    "fat_g": 100,
+    "carbs_g": 0,
+    "fibre_g": 0,
+    "calcium_mg": 0,
+    "iron_mg": 0,
+    "sat_fat_g": 60
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Butter, Clarified butter (ghee)",
+    "fdc_id": 171314,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

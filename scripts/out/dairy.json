@@ -1,0 +1,28 @@
+{
+  "nutrition_per_100g": {
+    "fat_g": 82.2,
+    "sugar_g": 0.58,
+    "calcium_mg": 21,
+    "iron_mg": 0.06,
+    "magnesium_mg": 1.6,
+    "potassium_mg": 23,
+    "zinc_mg": 0.07,
+    "selenium_ug": 0,
+    "vitamin_b6_mg": 0,
+    "folate_ug": 5,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 45.6,
+    "ala_mg": 17,
+    "epa_mg": 24,
+    "dha_mg": 2,
+    "omega3_mg": 43
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Butter, stick, salted",
+    "fdc_id": 790508,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

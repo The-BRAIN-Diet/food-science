@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "fibre_g": 2.4,
+    "iron_mg": 3.18,
+    "folate_ug": 188,
+    "carbs_g": 3.53,
+    "fat_g": 0,
+    "protein_g": 3.53,
+    "kcal": 24,
+    "sat_fat_g": 0,
+    "calcium_mg": 94
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "SPINACH",
+    "fdc_id": 1905313,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

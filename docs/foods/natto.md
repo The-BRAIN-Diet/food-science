@@ -9,32 +9,76 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin K2
-  - SCFAs
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 211
+  protein_g: 19.4
+  fat_g: 11
+  carbs_g: 12.68
+  fibre_g: 5.4
+  calcium_mg: 217
+  iron_mg: 8.6
+  magnesium_mg: 115
+  potassium_mg: 729
+  zinc_mg: 3.03
+  selenium_ug: 8.8
+  vitamin_b6_mg: 0.13
+  folate_ug: 8
+  choline_mg: 57
+  vitamin_b12_ug: 0
+  sat_fat_g: 1.591
+  epa_mg: 0
+  dha_mg: 0
+  ala_mg: 798
+  omega3_mg: 798
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: Natto
+  fdc_id: 172443
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
+amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
+complementary_pairings: Grains or other legumes for variety and balance.
 ---
 
 ## Overview
 
 Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability. Natto is fermented soybeans with unique Bacillus subtilis and is part of the fermented foods strategy.
 
+
+## Food Context
+
+### Sourcing
+
+- Choose quality sources
+
+### Synergies
+
+- Part of fermented foods rotation
+
+### Serving
+
+- Acquired taste; can be an acquired preference
+- Unique probiotic profile
+
+
+### Essential Amino Acid Profile
+
+Natto provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
+
+
+<NutritionTable details={frontMatter} />
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Natto" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Acquired taste; can be an acquired preference
-- Choose quality sources
-- Part of fermented foods rotation
-- Unique probiotic profile
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Natto" />
 
 ## References
 

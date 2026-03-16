@@ -1,0 +1,24 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 71.939325,
+    "protein_g": 0.89875,
+    "fat_g": 0.2325,
+    "carbs_g": 18.60375,
+    "sugar_g": 16.133,
+    "ala_mg": 0,
+    "calcium_mg": 9.897,
+    "iron_mg": 0.1991,
+    "magnesium_mg": 7.118,
+    "potassium_mg": 218.1,
+    "zinc_mg": 0.02674,
+    "omega3_mg": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Grapes, green, seedless, raw",
+    "fdc_id": 2346413,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

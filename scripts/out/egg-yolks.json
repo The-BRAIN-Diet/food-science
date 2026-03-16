@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 296,
+    "protein_g": 15.6,
+    "fat_g": 25.1,
+    "carbs_g": 0.59,
+    "calcium_mg": 119,
+    "iron_mg": 4.13,
+    "magnesium_mg": 11.2,
+    "potassium_mg": 102,
+    "zinc_mg": 2.93
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Egg, yolk, raw, frozen, pasteurized",
+    "fdc_id": 329596,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

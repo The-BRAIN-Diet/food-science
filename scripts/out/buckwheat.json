@@ -1,0 +1,24 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 334.3016028,
+    "protein_g": 8.88492,
+    "fat_g": 2.484,
+    "carbs_g": 75.01808,
+    "fibre_g": 10.35,
+    "calcium_mg": 30.55,
+    "iron_mg": 3.84,
+    "magnesium_mg": 167.4,
+    "potassium_mg": 378.1,
+    "zinc_mg": 1.755,
+    "selenium_ug": 15.7,
+    "vitamin_b6_mg": 0.1699
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Flour, buckwheat",
+    "fdc_id": 2512374,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

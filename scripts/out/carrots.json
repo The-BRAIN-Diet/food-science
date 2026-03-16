@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "iron_mg": 0.46,
+    "protein_g": 1.28,
+    "carbs_g": 8.97,
+    "kcal": 38,
+    "calcium_mg": 26,
+    "fibre_g": 2.6,
+    "fat_g": 0,
+    "potassium_mg": 321,
+    "sat_fat_g": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "CARROTS",
+    "fdc_id": 2079038,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

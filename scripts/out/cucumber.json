@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 13.934925,
+    "protein_g": 0.625,
+    "fat_g": 0.1775,
+    "carbs_g": 2.9525,
+    "calcium_mg": 16.34,
+    "iron_mg": 0,
+    "magnesium_mg": 10.11,
+    "potassium_mg": 169.6,
+    "zinc_mg": 0.204
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Cucumber, with peel, raw",
+    "fdc_id": 2346406,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

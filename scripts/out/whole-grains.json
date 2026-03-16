@@ -1,0 +1,24 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 331.6005206,
+    "protein_g": 11.06534,
+    "fat_g": 3.039,
+    "carbs_g": 71.13066,
+    "fibre_g": 4.046,
+    "calcium_mg": 13.64,
+    "iron_mg": 2.444,
+    "magnesium_mg": 203,
+    "potassium_mg": 414.5,
+    "zinc_mg": 2.236,
+    "selenium_ug": 13.6,
+    "vitamin_b6_mg": 0.2776
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Buckwheat, whole grain",
+    "fdc_id": 2512378,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

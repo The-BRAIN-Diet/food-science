@@ -2,7 +2,7 @@
 id: green-tea
 title: Green Tea
 sidebar_label: Green Tea
-description: Source of EGCG, L-theanine, and polyphenols for cognitive and metabolic support
+description: 'Source of EGCG, L-theanine, and polyphenols for cognitive and metabolic support'
 tags:
   - Food
   - Green Tea
@@ -14,30 +14,49 @@ tags:
   - L-Theanine
   - Polyphenol
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  carbs_g: 0
+  kcal: 0
+  protein_g: 0
+  fat_g: 0
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: GREEN TEA
+  fdc_id: 2048695
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Green tea provides catechins (especially EGCG), L-theanine, and polyphenols that support cognitive function, antioxidant defenses, and metabolic health. Green tea contributes manganese and small amounts of fluoride and potassium, alongside polyphenols that support antioxidant defenses. Green tea catechins (e.g., EGCG, EGC) contribute to visceral adipose tissue reduction and neuroprotective effects in Green Mediterranean Diet studies, which showed attenuated brain atrophy by ~50%. Green tea is also mentioned as a polyphenol antimicrobial for SIBO suppression.
 
+
+<NutritionTable details={frontMatter} />
+
+
+## Food Context
+
+### Synergies
+
+- Can reduce non-heme iron absorption if taken with meals; space ≥1 hour from iron-rich meals or add lemon (vitamin C) to mitigate this
+
+### Serving
+
+- Steep at lower temperatures to preserve catechins and prevent degradation
+- Green tea catechins increase Faecalibacterium and Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation
+- L-theanine found in green tea increases alpha waves and calms without sedation
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Green Tea" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Steep at lower temperatures to preserve catechins and prevent degradation
-- Can reduce non-heme iron absorption if taken with meals; space ≥1 hour from iron-rich meals or add lemon (vitamin C) to mitigate this
-- Green tea catechins increase Faecalibacterium and Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation
-- L-theanine found in green tea increases alpha waves and calms without sedation
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Green Tea" />
 
 ## References
 

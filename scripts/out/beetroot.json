@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "potassium_mg": 1111,
+    "sat_fat_g": 7.14,
+    "calcium_mg": 139,
+    "fat_g": 25,
+    "fibre_g": 3.6,
+    "carbs_g": 57.14,
+    "kcal": 500,
+    "protein_g": 7.14
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "BEETROOT CHIPS, BEETROOT",
+    "fdc_id": 2279148,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

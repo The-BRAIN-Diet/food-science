@@ -1,0 +1,26 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 94.507135,
+    "protein_g": 8.77888,
+    "fat_g": 4.394,
+    "carbs_g": 4.75402,
+    "sugar_g": 3.2474,
+    "ala_mg": 639.4,
+    "calcium_mg": 110.9,
+    "iron_mg": 0,
+    "magnesium_mg": 10.7,
+    "potassium_mg": 146.9,
+    "zinc_mg": 0.473,
+    "vitamin_b6_mg": 0.04394,
+    "sat_fat_g": 2.393,
+    "omega3_mg": 639.4
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Yogurt, Greek, plain, whole milk",
+    "fdc_id": 2259794,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

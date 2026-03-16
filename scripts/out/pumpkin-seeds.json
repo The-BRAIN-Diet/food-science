@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 600,
+    "protein_g": 23.33,
+    "calcium_mg": 0,
+    "sat_fat_g": 8.33,
+    "fat_g": 46.67,
+    "fibre_g": 3.3,
+    "carbs_g": 13.33,
+    "iron_mg": 9
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "PUMPKIN SEEDS",
+    "fdc_id": 2027948,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

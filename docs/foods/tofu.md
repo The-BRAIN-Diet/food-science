@@ -29,31 +29,75 @@ tags:
   - Isoleucine
   - Histidine
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 144
+  protein_g: 17.27
+  fat_g: 8.72
+  carbs_g: 2.78
+  fibre_g: 2.3
+  calcium_mg: 683
+  iron_mg: 2.66
+  magnesium_mg: 58
+  potassium_mg: 237
+  zinc_mg: 1.57
+  selenium_ug: 17.4
+  vitamin_b6_mg: 0.092
+  folate_ug: 29
+  vitamin_b12_ug: 0
+  sat_fat_g: 1.261
+  ala_mg: 773
+  omega3_mg: 773
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Tofu, raw, firm, prepared with calcium sulfate'
+  fdc_id: 172475
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Tofu is a soy-based food providing complete plant protein, isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. Tofu is listed as a source for iron, choline, tryptophan, and tyrosine. High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis. Tofu is often calcium-fortified, making it valuable for plant-based diets.
 
+## Food Context
+
+### Sourcing
+
+- Choose calcium-fortified varieties when possible for bone health and calcium support
+
+### Synergies
+
+- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
+- Part of diverse plant protein strategy
+- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis
+
+### Serving
+
+- Can be prepared various ways (baked, fried, steamed); gentle cooking preserves nutrients
+
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of soy.
+
+Notable amino acids:
+
+- Leucine
+- Lysine
+
+
+<NutritionTable details={frontMatter} />
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Tofu" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Choose calcium-fortified varieties when possible for bone health and calcium support
-- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
-- Can be prepared various ways (baked, fried, steamed); gentle cooking preserves nutrients
-- Part of diverse plant protein strategy
-- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Tofu" />
 
 ## References
 

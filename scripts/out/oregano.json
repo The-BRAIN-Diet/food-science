@@ -1,0 +1,32 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 265,
+    "protein_g": 9,
+    "fat_g": 4.28,
+    "carbs_g": 68.92,
+    "fibre_g": 42.5,
+    "ala_mg": 500,
+    "calcium_mg": 1597,
+    "iron_mg": 36.8,
+    "magnesium_mg": 270,
+    "potassium_mg": 1260,
+    "zinc_mg": 2.69,
+    "selenium_ug": 4.5,
+    "vitamin_b6_mg": 1.044,
+    "folate_ug": 237,
+    "choline_mg": 32.3,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 1.551,
+    "epa_mg": 0,
+    "dha_mg": 0,
+    "omega3_mg": 500
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Spices, oregano, dried",
+    "fdc_id": 171328,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

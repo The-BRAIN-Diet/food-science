@@ -1,0 +1,27 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 33.31965,
+    "protein_g": 2.89875,
+    "fat_g": 0.1875,
+    "carbs_g": 6.94125,
+    "fibre_g": 2.85,
+    "calcium_mg": 0,
+    "iron_mg": 0.6981,
+    "magnesium_mg": 13.91,
+    "potassium_mg": 281.6,
+    "zinc_mg": 0.6843,
+    "selenium_ug": 1.379,
+    "vitamin_b6_mg": 0.09888,
+    "folate_ug": 63.14,
+    "ala_mg": 989,
+    "omega3_mg": 989
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Mushroom, oyster",
+    "fdc_id": 1999627,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "fat_g": 56.67,
+    "fibre_g": 10,
+    "calcium_mg": 333,
+    "protein_g": 23.33,
+    "kcal": 633,
+    "carbs_g": 13.33,
+    "iron_mg": 3.6,
+    "sat_fat_g": 5
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "ALMONDS",
+    "fdc_id": 2074342,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

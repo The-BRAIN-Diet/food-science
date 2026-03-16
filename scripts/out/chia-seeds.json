@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "carbs_g": 42.86,
+    "sat_fat_g": 35.71,
+    "kcal": 476,
+    "potassium_mg": 0,
+    "fat_g": 30.95,
+    "iron_mg": 10.71,
+    "calcium_mg": 595,
+    "fibre_g": 33.3,
+    "protein_g": 16.67
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "CHIA SEEDS",
+    "fdc_id": 2376589,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

@@ -8,6 +8,7 @@ tags:
   - Nutrient
   - Vitamin
   - Vitamin B9
+  - Folate
   - Methylation
   - Neurochemical Balance
 list_image: /img/inchi/OVBPIULPVIDEAO-LBPRGKRZSA-N.png

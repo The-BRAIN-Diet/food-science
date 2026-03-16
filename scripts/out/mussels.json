@@ -1,0 +1,32 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 86,
+    "protein_g": 11.9,
+    "fat_g": 2.24,
+    "carbs_g": 3.69,
+    "fibre_g": 0,
+    "calcium_mg": 26,
+    "iron_mg": 3.95,
+    "magnesium_mg": 34,
+    "potassium_mg": 320,
+    "zinc_mg": 1.6,
+    "selenium_ug": 44.8,
+    "vitamin_b6_mg": 0.05,
+    "folate_ug": 42,
+    "choline_mg": 65,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 0.425,
+    "epa_mg": 188,
+    "dha_mg": 253,
+    "ala_mg": 720,
+    "omega3_mg": 1161
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Mollusks, mussel, blue, raw",
+    "fdc_id": 174216,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

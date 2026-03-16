@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 283,
+    "sat_fat_g": 2.5,
+    "fat_g": 25,
+    "fibre_g": 5,
+    "iron_mg": 3,
+    "carbs_g": 10,
+    "protein_g": 11.67,
+    "calcium_mg": 67
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "SUNFLOWER SEEDS",
+    "fdc_id": 1879738,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

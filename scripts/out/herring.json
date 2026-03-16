@@ -1,0 +1,30 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 902,
+    "protein_g": 0,
+    "fat_g": 100,
+    "carbs_g": 0,
+    "fibre_g": 0,
+    "calcium_mg": 0,
+    "iron_mg": 0,
+    "magnesium_mg": 0,
+    "potassium_mg": 0,
+    "zinc_mg": 0,
+    "selenium_ug": 0,
+    "vitamin_b6_mg": 0,
+    "folate_ug": 0,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 21.29,
+    "epa_mg": 6273,
+    "dha_mg": 4206,
+    "omega3_mg": 10479
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Fish oil, herring",
+    "fdc_id": 172340,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

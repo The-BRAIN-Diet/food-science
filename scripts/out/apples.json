@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "potassium_mg": 110,
+    "fat_g": 0,
+    "kcal": 52,
+    "calcium_mg": 0,
+    "iron_mg": 0.23,
+    "protein_g": 0,
+    "sat_fat_g": 0,
+    "fibre_g": 3.2,
+    "carbs_g": 14.29
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "APPLES",
+    "fdc_id": 2058694,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

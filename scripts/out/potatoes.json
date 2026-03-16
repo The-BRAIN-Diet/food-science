@@ -1,0 +1,25 @@
+{
+  "nutrition_per_100g": {
+    "iron_mg": 0.73,
+    "zinc_mg": 0.2,
+    "magnesium_mg": 16,
+    "calcium_mg": 14,
+    "fat_g": 0,
+    "folate_ug": 16,
+    "vitamin_b6_mg": 0.135,
+    "sat_fat_g": 0,
+    "protein_g": 2.03,
+    "carbs_g": 17.57,
+    "kcal": 74,
+    "fibre_g": 1.4,
+    "potassium_mg": 419
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "POTATOES",
+    "fdc_id": 522090,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

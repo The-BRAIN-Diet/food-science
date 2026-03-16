@@ -1,0 +1,30 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 26,
+    "protein_g": 5.92,
+    "fat_g": 0.39,
+    "carbs_g": 2.42,
+    "fibre_g": 0.4,
+    "calcium_mg": 12,
+    "iron_mg": 2.79,
+    "magnesium_mg": 19,
+    "potassium_mg": 127,
+    "zinc_mg": 0.2,
+    "selenium_ug": 0.7,
+    "vitamin_b6_mg": 0.034,
+    "folate_ug": 9,
+    "choline_mg": 6.5,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 0.135,
+    "ala_mg": 465,
+    "omega3_mg": 465
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Seaweed, spirulina, raw",
+    "fdc_id": 170091,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

@@ -11,30 +11,71 @@ tags:
   - Curcumin
   - Polyphenol
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 312
+  protein_g: 9.68
+  fat_g: 3.25
+  carbs_g: 67.14
+  fibre_g: 22.7
+  ala_mg: 330
+  calcium_mg: 168
+  iron_mg: 55
+  magnesium_mg: 208
+  potassium_mg: 2080
+  zinc_mg: 4.5
+  selenium_ug: 6.2
+  vitamin_b6_mg: 0.107
+  folate_ug: 20
+  choline_mg: 49.2
+  vitamin_b12_ug: 0
+  sat_fat_g: 1.838
+  epa_mg: 0
+  dha_mg: 0
+  omega3_mg: 330
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Spices, turmeric, ground'
+  fdc_id: 172231
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
+complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 ---
 
 ## Overview
 
 Turmeric is the whole spice (dried and ground root of the Curcuma longa plant) that contains many bioactive compounds, including curcumin (the most well-known polyphenol), demethoxycurcumin, bisdemethoxycurcumin, turmerones (fat-soluble compounds), and essential oils. Only 2–6% of turmeric powder is curcumin. Curcumin is responsible for most of turmeric's anti-inflammatory and neuroprotective effects. Absorption is enhanced by pairing with black pepper (piperine) and fat. Therapeutic doses typically use 500–1000 mg/day curcumin with piperine.
 
-## Recipes
 
-<FoodRecipes tag="Turmeric" />
+## Food Context
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
+### Synergies
 
 - Pair with black pepper (piperine) for up to 2000% increased bioavailability
 - Pair with fat and heat for enhanced absorption
 - Part of culinary spice strategy
+
+### Serving
+
 - Can be used in therapeutic doses when needed
 
-## Biological Target Matrix
 
-<FoodMatrix tag="Turmeric" />
+### Essential Amino Acid Profile
+
+Turmeric contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+
+<NutritionTable details={frontMatter} />
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## Recipes
+
+<FoodRecipes tag="Turmeric" />
+
 
 ## References
 

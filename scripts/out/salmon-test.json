@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 203.1,
+    "protein_g": 20.3,
+    "iron_mg": 0.3
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Fish, salmon, Atlantic",
+    "fdc_id": 2684441
+  },
+  "nutrition_supplementary_sources": [
+    {
+      "key": "astaxanthin_mg",
+      "label": "Astaxanthin",
+      "value": 3.2,
+      "unit": "mg",
+      "source_note": "Literature estimate for farmed Atlantic salmon; carotenoid content varies by feed and species (e.g. Turujman et al., 1997; USDA does not report astaxanthin)."
+    }
+  ]
+}

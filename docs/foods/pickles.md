@@ -9,32 +9,68 @@ tags:
   - Vegan
   - Vegetarian
   - Sodium
-  - SCFAs
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 49
+  protein_g: 0.9
+  fat_g: 0.7
+  carbs_g: 9.77
+  fibre_g: 2.5
+  calcium_mg: 25
+  iron_mg: 0.77
+  magnesium_mg: 6
+  potassium_mg: 12
+  zinc_mg: 0.23
+  selenium_ug: 0.6
+  vitamin_b6_mg: 0.14
+  folate_ug: 20
+  choline_mg: 11.9
+  vitamin_b12_ug: 0
+  sat_fat_g: 0.14
+  epa_mg: 0
+  dha_mg: 0
+  omega3_mg: 0
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Eggplant, pickled'
+  fdc_id: 169892
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Pickles (unpasteurized fermented) provide live probiotics, including Levilactobacillus brevis strains that produce GABA through the glutamate decarboxylase pathway. Levilactobacillus brevis is one of the key bacteria known to produce GABA, and this bacteria is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles.
 
+
+<NutritionTable details={frontMatter} />
+
+
+## Food Context
+
+### Sourcing
+
+- Choose unpasteurized for live probiotics
+
+### Synergies
+
+- Part of fermented foods strategy
+
+### Serving
+
+- Rinse if high-sodium variety
+- Supports GABA production via gut microbiome
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Pickles" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Choose unpasteurized for live probiotics
-- Rinse if high-sodium variety
-- Part of fermented foods strategy
-- Supports GABA production via gut microbiome
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Pickles" />
 
 ## References
 

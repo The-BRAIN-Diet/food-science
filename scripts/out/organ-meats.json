@@ -1,0 +1,32 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 184,
+    "protein_g": 13.4,
+    "fat_g": 14.6,
+    "carbs_g": 1.1,
+    "fibre_g": 0.2,
+    "calcium_mg": 34,
+    "iron_mg": 1.38,
+    "magnesium_mg": 11,
+    "potassium_mg": 114,
+    "zinc_mg": 1.9,
+    "selenium_ug": 13.3,
+    "vitamin_b6_mg": 0.08,
+    "folate_ug": 11,
+    "choline_mg": 56.8,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 5.82,
+    "epa_mg": 0,
+    "dha_mg": 0,
+    "ala_mg": 785,
+    "omega3_mg": 785
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Babyfood, meat, meat sticks, junior",
+    "fdc_id": 173486,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

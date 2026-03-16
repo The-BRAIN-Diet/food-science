@@ -1,0 +1,27 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 35,
+    "protein_g": 2.92,
+    "fat_g": 1.49,
+    "carbs_g": 4.42,
+    "fibre_g": 4.1,
+    "sugar_g": 0.8,
+    "ala_mg": 0,
+    "calcium_mg": 254,
+    "iron_mg": 1.6,
+    "magnesium_mg": 32.7,
+    "potassium_mg": 348,
+    "zinc_mg": 0.39,
+    "vitamin_b6_mg": 0.147,
+    "folate_ug": 62,
+    "omega3_mg": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Kale, raw",
+    "fdc_id": 323505,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

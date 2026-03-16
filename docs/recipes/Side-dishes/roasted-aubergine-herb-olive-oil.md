@@ -7,12 +7,14 @@ list_image: /img/recipes/Roasted-eggplant.webp
 tags:
   - Recipe
   - Side Dish
+  - Gut Microbiome
+  - Inflammation
+  - Oxidative Stress
+  - Insulin Response
   - Aubergine
   - Rosemary
   - Extra Virgin Olive Oil
 ---
-
-# Roasted Aubergine with Herb Olive Oil
 
 <img src="/img/recipes/Roasted-eggplant.webp" alt="Roasted aubergine with herb olive oil and balsamic drizzle" width="480" />
 
@@ -93,3 +95,17 @@ Pairs especially well with:
 - Aubergine absorbs oil readily; adding the herb oil late prevents it becoming greasy.
 - Grinding the herbs releases aroma and helps them disperse evenly.
 - Balsamic vinegar adds acidity and contrast without masking the herb flavours.
+
+## Brain Health Notes
+
+- **Aubergine** provides fibre and polyphenols that support gut microbiome diversity and contribute to antioxidant networks.
+- **Rosemary and thyme** are rich in polyphenols and terpene compounds that have been studied for antioxidant and anti-inflammatory effects.
+- **Extra-virgin olive oil** contributes monounsaturated fats and phenolic compounds associated with cardiometabolic and brain health.
+
+## Foods/Substances
+
+<RecipeFoods details={frontMatter} />
+
+## Biological Target Matrix
+
+<RecipeMatrix details={frontMatter} />

@@ -1,0 +1,27 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 35.107387,
+    "protein_g": 2.5,
+    "fat_g": 0.2563,
+    "carbs_g": 7.5897,
+    "fibre_g": 4.376,
+    "calcium_mg": 0,
+    "iron_mg": 0.6883,
+    "magnesium_mg": 11.72,
+    "potassium_mg": 443.3,
+    "zinc_mg": 0.7448,
+    "selenium_ug": 1.773,
+    "vitamin_b6_mg": 0.0655,
+    "folate_ug": 29.58,
+    "ala_mg": 703,
+    "omega3_mg": 703
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Mushroom, lion's mane",
+    "fdc_id": 1999626,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

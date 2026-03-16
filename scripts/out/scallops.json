@@ -1,0 +1,23 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 66.3545,
+    "protein_g": 13.5125,
+    "fat_g": 0.4933,
+    "carbs_g": 1.9662,
+    "calcium_mg": 10.54,
+    "iron_mg": 0.2133,
+    "magnesium_mg": 30.63,
+    "potassium_mg": 244.9,
+    "zinc_mg": 1.002,
+    "selenium_ug": 15.74,
+    "vitamin_b12_ug": 1.285
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Scallops, sea, frozen, wild caught",
+    "fdc_id": 2747667,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

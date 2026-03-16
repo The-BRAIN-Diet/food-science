@@ -1,0 +1,24 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 378.866123,
+    "protein_g": 13.49645,
+    "fat_g": 5.89,
+    "carbs_g": 68.65755,
+    "calcium_mg": 45.53,
+    "iron_mg": 4.339,
+    "magnesium_mg": 126.3,
+    "potassium_mg": 350.1,
+    "zinc_mg": 2.744,
+    "selenium_ug": 25.35,
+    "vitamin_b6_mg": 0.1346,
+    "folate_ug": 32.03
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Oats, whole grain, rolled, old fashioned",
+    "fdc_id": 2346396,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

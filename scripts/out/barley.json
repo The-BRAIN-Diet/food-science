@@ -1,0 +1,24 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 357.191828,
+    "protein_g": 8.72168,
+    "fat_g": 2.45,
+    "carbs_g": 77.39832,
+    "fibre_g": 12.79,
+    "calcium_mg": 35.56,
+    "iron_mg": 3.301,
+    "magnesium_mg": 88.04,
+    "potassium_mg": 366.6,
+    "zinc_mg": 2.144,
+    "selenium_ug": 13.1,
+    "vitamin_b6_mg": 0.1995
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Flour, barley",
+    "fdc_id": 2512376,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

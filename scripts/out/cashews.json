@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "carbs_g": 29.73,
+    "kcal": 568,
+    "fibre_g": 2.7,
+    "sat_fat_g": 8.11,
+    "potassium_mg": 622,
+    "protein_g": 16.22,
+    "iron_mg": 5.41,
+    "calcium_mg": 43,
+    "fat_g": 45.95
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "CASHEWS",
+    "fdc_id": 2404069,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

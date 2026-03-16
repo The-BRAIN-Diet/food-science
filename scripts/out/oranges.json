@@ -1,0 +1,32 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 246,
+    "protein_g": 0.3,
+    "fat_g": 0,
+    "carbs_g": 66.3,
+    "fibre_g": 0.7,
+    "calcium_mg": 38,
+    "iron_mg": 0.15,
+    "magnesium_mg": 2,
+    "potassium_mg": 37,
+    "zinc_mg": 0.04,
+    "selenium_ug": 0.6,
+    "vitamin_b6_mg": 0.019,
+    "folate_ug": 9,
+    "choline_mg": 3,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 0,
+    "epa_mg": 0,
+    "dha_mg": 0,
+    "ala_mg": 16,
+    "omega3_mg": 16
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Marmalade, orange",
+    "fdc_id": 168819,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

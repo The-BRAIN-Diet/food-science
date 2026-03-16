@@ -1,0 +1,26 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 62,
+    "protein_g": 2.06,
+    "fat_g": 1.44,
+    "carbs_g": 10.29,
+    "fibre_g": 0,
+    "calcium_mg": 123,
+    "iron_mg": 0,
+    "magnesium_mg": 0,
+    "potassium_mg": 132,
+    "zinc_mg": 0.37,
+    "selenium_ug": 0,
+    "folate_ug": 7,
+    "vitamin_b12_ug": 0.37,
+    "sat_fat_g": 0.206
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "SILK Coffee, soymilk",
+    "fdc_id": 175224,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

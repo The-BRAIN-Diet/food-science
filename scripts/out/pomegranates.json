@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "protein_g": 0,
+    "sugar_g": 13.27675,
+    "calcium_mg": 11.03,
+    "iron_mg": 0.03088,
+    "magnesium_mg": 6.863,
+    "potassium_mg": 165.6,
+    "zinc_mg": 0.08176,
+    "folate_ug": 5.871
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Juice, pomegranate, from concentrate, shelf-stable",
+    "fdc_id": 2727588,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

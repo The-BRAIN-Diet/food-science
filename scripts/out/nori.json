@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "fibre_g": 57.1,
+    "protein_g": 57.14,
+    "carbs_g": 57.14,
+    "fat_g": 0,
+    "calcium_mg": 286,
+    "sat_fat_g": 0,
+    "kcal": 486,
+    "iron_mg": 51.43
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "NORI",
+    "fdc_id": 1662188,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

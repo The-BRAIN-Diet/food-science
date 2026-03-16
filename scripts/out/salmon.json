@@ -1,0 +1,37 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 203.10632,
+    "protein_g": 20.31875,
+    "fat_g": 13.11,
+    "carbs_g": 0,
+    "calcium_mg": 9.423,
+    "iron_mg": 0.2588,
+    "magnesium_mg": 25.39,
+    "potassium_mg": 378.2,
+    "zinc_mg": 0.3394,
+    "selenium_ug": 22.8,
+    "vitamin_b12_ug": 5.696,
+    "sat_fat_g": 2.277,
+    "ala_mg": 541,
+    "epa_mg": 318,
+    "dha_mg": 585,
+    "omega3_mg": 1444
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Fish, salmon, Atlantic, farm raised, raw",
+    "fdc_id": 2684441,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  },
+  "nutrition_supplementary_sources": [
+    {
+      "key": "astaxanthin_mg",
+      "label": "Astaxanthin",
+      "value": 3.2,
+      "unit": "mg",
+      "source_note": "Literature estimate for farmed Atlantic salmon; carotenoid content varies by feed and species (e.g. Turujman et al., 1997; USDA does not report astaxanthin)."
+    }
+  ]
+}

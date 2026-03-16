@@ -1,0 +1,32 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 143,
+    "protein_g": 12.56,
+    "fat_g": 9.51,
+    "carbs_g": 0.72,
+    "fibre_g": 0,
+    "ala_mg": 735,
+    "calcium_mg": 56,
+    "iron_mg": 1.75,
+    "magnesium_mg": 12,
+    "potassium_mg": 138,
+    "zinc_mg": 1.29,
+    "selenium_ug": 30.7,
+    "vitamin_b6_mg": 0.17,
+    "folate_ug": 47,
+    "choline_mg": 293.8,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 3.126,
+    "epa_mg": 0,
+    "dha_mg": 58,
+    "omega3_mg": 793
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Egg, whole, raw, fresh",
+    "fdc_id": 171287,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

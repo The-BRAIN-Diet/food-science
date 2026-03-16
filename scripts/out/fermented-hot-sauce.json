@@ -1,0 +1,28 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 116,
+    "protein_g": 8.92,
+    "fat_g": 8,
+    "carbs_g": 4.38,
+    "calcium_mg": 46,
+    "iron_mg": 1.98,
+    "magnesium_mg": 52,
+    "potassium_mg": 75,
+    "zinc_mg": 1.56,
+    "selenium_ug": 17.3,
+    "vitamin_b6_mg": 0.091,
+    "folate_ug": 29,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 1.157,
+    "ala_mg": 334,
+    "omega3_mg": 334
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Tofu, salted and fermented (fuyu)",
+    "fdc_id": 174280,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

@@ -12,31 +12,56 @@ tags:
   - Tryptophan
   - Potassium
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 85
+  protein_g: 0.73
+  fat_g: 0.22
+  carbs_g: 20.1
+  fibre_g: 1.7
+  sugar_g: 15.8
+  ala_mg: 0
+  vitamin_b6_mg: 0.234
+  folate_ug: 25
+  omega3_mg: 0
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Bananas, overripe, raw'
+  fdc_id: 1105073
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Bananas provide B6, tryptophan, and potassium, supporting neurotransmitter synthesis and electrolyte balance. Bananas are listed as sources for tryptophan and B6, both critical for serotonin synthesis. Serotonin: Mood regulation, emotional control, impulse moderation; food sources include turkey, eggs, dairy, soy, seeds, oats, bananas. Note: Green bananas provide resistant starch (see Green Bananas for different nutrient profile).
 
-## Recipes
 
-<FoodRecipes tag="Bananas" />
+<NutritionTable details={frontMatter} />
 
-## Substances
 
-<FoodSubstances details={frontMatter} />
+## Food Context
 
-## Preparation Notes
+### Synergies
 
-- Ripe bananas for B6 and tryptophan content
-- Green bananas for resistant starch (prebiotic fiber); resistant starch (cooled potatoes, green bananas) supports gut microbiome
 - Part of diverse fruit intake strategy
 - Pair with tryptophan-rich proteins for serotonin synthesis; pair tryptophan-rich proteins with moderate carbs to increase Trp:LNAA ratio
 - Serotonin: Pair tryptophan-rich proteins with moderate carbs to increase Trp:LNAA ratio; timing midday or evening for calming effect
 
-## Biological Target Matrix
+### Serving
 
-<FoodMatrix tag="Bananas" />
+- Ripe bananas for B6 and tryptophan content
+- Green bananas for resistant starch (prebiotic fiber); resistant starch (cooled potatoes, green bananas) supports gut microbiome
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## Recipes
+
+<FoodRecipes tag="Bananas" />
+
 
 ## References
 

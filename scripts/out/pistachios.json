@@ -1,0 +1,23 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 560.68798,
+    "protein_g": 20.5057,
+    "fat_g": 45.02,
+    "carbs_g": 27.6943,
+    "fibre_g": 6.969,
+    "calcium_mg": 117.4,
+    "iron_mg": 3.456,
+    "magnesium_mg": 109.7,
+    "potassium_mg": 947,
+    "zinc_mg": 2.176,
+    "selenium_ug": 23.12
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Nuts, pistachio nuts, raw",
+    "fdc_id": 2515379,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

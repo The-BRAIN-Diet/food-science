@@ -1,0 +1,32 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 185,
+    "protein_g": 23.88,
+    "fat_g": 0.9,
+    "carbs_g": 20.42,
+    "fibre_g": 6.5,
+    "ala_mg": 0,
+    "calcium_mg": 67,
+    "iron_mg": 4.04,
+    "magnesium_mg": 180,
+    "potassium_mg": 2100,
+    "zinc_mg": 4.19,
+    "selenium_ug": 27.6,
+    "vitamin_b6_mg": 0,
+    "folate_ug": 3786,
+    "choline_mg": 65.1,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 0,
+    "epa_mg": 0,
+    "dha_mg": 0,
+    "omega3_mg": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Yeast extract spread",
+    "fdc_id": 167717,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

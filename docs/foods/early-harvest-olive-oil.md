@@ -2,7 +2,7 @@
 id: early-harvest-olive-oil
 title: Olive Oil (Early Harvest)
 sidebar_label: Olive Oil (Early Harvest)
-description: Premium extra virgin olive oil with enhanced CoQ10, oleuropein, and polyphenol content from early harvest timing
+description: 'Premium extra virgin olive oil with enhanced CoQ10, oleuropein, and polyphenol content from early harvest timing'
 tags:
   - Food
   - Olive Oil (Early Harvest)
@@ -16,6 +16,19 @@ tags:
   - Oleacein
   - Polyphenol
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  sat_fat_g: 15.82
+  ala_mg: 606.7
+  epa_mg: 0.625
+  dha_mg: 0
+  omega3_mg: 607.325
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Oil, olive, extra light'
+  fdc_id: 1750351
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
@@ -29,15 +42,13 @@ Early harvest extra virgin olive oil is a precision food in the BRAIN Diet, harv
 
 These enhanced bioactive levels support mitochondrial function, antioxidant networks, and anti-inflammatory pathways, making early harvest olive oil a valuable component of precision dietary strategies for brain health. The implementation of the BRAIN diet must go beyond a standard nutrient density focus; it's about choosing foods for their specific bioactive potential: early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol, and total polyphenols.
 
-## Recipes
 
-<FoodRecipes tag="Olive Oil (Early Harvest)" />
+<NutritionTable details={frontMatter} />
 
-## Substances
 
-<FoodSubstances details={frontMatter} />
+## Food Context
 
-## Preparation Notes
+### Serving
 
 - Best used for salad dressings, drizzling, and low-heat applications to preserve polyphenols and CoQ10
 - Avoid high-heat cooking to prevent degradation of bioactive compounds
@@ -46,9 +57,15 @@ These enhanced bioactive levels support mitochondrial function, antioxidant netw
 - Total CoQ dropped by 53%-56% between three weeks of the harvesting of two brands, highlighting the critical importance of harvest timing
 - Higher polyphenol content provides stronger antioxidant and anti-inflammatory effects compared to standard EVOO
 
-## Biological Target Matrix
 
-<FoodMatrix tag="Olive Oil (Early Harvest)" />
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## Recipes
+
+<FoodRecipes tag="Olive Oil (Early Harvest)" />
+
 
 ## References
 

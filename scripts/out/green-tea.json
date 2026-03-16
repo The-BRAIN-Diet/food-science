@@ -1,0 +1,16 @@
+{
+  "nutrition_per_100g": {
+    "carbs_g": 0,
+    "kcal": 0,
+    "protein_g": 0,
+    "fat_g": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "GREEN TEA",
+    "fdc_id": 2048695,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

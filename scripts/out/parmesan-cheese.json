@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "fat_g": 30,
+    "carbs_g": 0,
+    "protein_g": 40,
+    "calcium_mg": 1200,
+    "fibre_g": 0,
+    "sat_fat_g": 20,
+    "kcal": 400,
+    "iron_mg": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "PARMESAN CHEESE",
+    "fdc_id": 2096212,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

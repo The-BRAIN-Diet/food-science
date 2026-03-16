@@ -1,0 +1,23 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 60.84,
+    "protein_g": 14.2,
+    "fat_g": 0.216,
+    "carbs_g": 0.524,
+    "calcium_mg": 9.013,
+    "iron_mg": 0,
+    "magnesium_mg": 17.88,
+    "potassium_mg": 192.3,
+    "zinc_mg": 0.2687,
+    "selenium_ug": 22.29,
+    "vitamin_b12_ug": 0.586
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Cod, Pacific or Alaskan, frozen, wild caught",
+    "fdc_id": 2747654,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

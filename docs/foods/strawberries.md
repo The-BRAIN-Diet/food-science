@@ -11,32 +11,55 @@ tags:
   - Vitamin C
   - Vitamin B9
   - Polyphenol
-  - SCFAs
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 36
+  iron_mg: 0.71
+  carbs_g: 9.29
+  sat_fat_g: 0
+  fat_g: 0
+  potassium_mg: 150
+  protein_g: 0.71
+  fibre_g: 2.1
+  calcium_mg: 14
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: STRAWBERRIES
+  fdc_id: 2402614
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant networks and cognitive function. Berries are mentioned as polyphenol-rich foods and are part of polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) in the Mediterranean diet pattern.
 
+
+<NutritionTable details={frontMatter} />
+
+
+## Food Context
+
+### Synergies
+
+- Part of diverse berry intake
+- Pair with other polyphenol sources
+
+### Serving
+
+- Best consumed fresh or frozen
+- Supports antioxidant networks
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Strawberries" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Best consumed fresh or frozen
-- Part of diverse berry intake
-- Supports antioxidant networks
-- Pair with other polyphenol sources
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Strawberries" />
 
 ## References
 

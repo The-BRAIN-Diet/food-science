@@ -10,32 +10,58 @@ tags:
   - Vegetarian
   - Potassium
   - Polyphenol
-  - SCFAs
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 71.939325
+  protein_g: 0.89875
+  fat_g: 0.2325
+  carbs_g: 18.60375
+  sugar_g: 16.133
+  ala_mg: 0
+  calcium_mg: 9.897
+  iron_mg: 0.1991
+  magnesium_mg: 7.118
+  potassium_mg: 218.1
+  zinc_mg: 0.02674
+  omega3_mg: 0
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Grapes, green, seedless, raw'
+  fdc_id: 2346413
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-dependent processes and supporting mitochondrial function. Polyphenols (e.g., resveratrol) activate SIRT1, enhancing NAD⁺-dependent processes, and are found in grapes, blueberries, cranberries, peanuts, and dark chocolate.
 
+
+<NutritionTable details={frontMatter} />
+
+
+## Food Context
+
+### Synergies
+
+- Part of diverse polyphenol intake
+- Pair with other resveratrol sources
+
+### Serving
+
+- Can be consumed fresh or as juice (whole fruit preferred)
+- Supports mitochondrial NAD+ pathways
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Grapes" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Can be consumed fresh or as juice (whole fruit preferred)
-- Part of diverse polyphenol intake
-- Supports mitochondrial NAD+ pathways
-- Pair with other resveratrol sources
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Grapes" />
 
 ## References
 

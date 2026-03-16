@@ -9,34 +9,55 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin K2
-  - SCFAs
-  - Propionate
-  - Acetate
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  protein_g: 1.4675
+  fibre_g: 3
+  sugar_g: 3.1485
+  calcium_mg: 51.41
+  iron_mg: 0.761
+  magnesium_mg: 15.68
+  potassium_mg: 319
+  zinc_mg: 0.293
+  vitamin_b6_mg: 0.2083
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Leeks, bulb and greens, root removed, raw'
+  fdc_id: 2727584
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity. Fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus, and are part of the allium family with prebiotic benefits.
 
+
+<NutritionTable details={frontMatter} />
+
+
+## Food Context
+
+### Synergies
+
+- Part of diverse prebiotic fiber strategy
+- Pair with other allium vegetables
+
+### Serving
+
+- Can be consumed cooked or raw
+- Supports Bifidobacterium growth
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Leeks" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Can be consumed cooked or raw
-- Part of diverse prebiotic fiber strategy
-- Supports Bifidobacterium growth
-- Pair with other allium vegetables
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Leeks" />
 
 ## References
 

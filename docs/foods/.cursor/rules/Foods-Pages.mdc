@@ -1,29 +1,85 @@
 ---
 alwaysApply: true
-description: Format of a Food Page
+description: Format of a Food Page (three sources of truth)
 globs: *.md
 alwaysApply: false
 ---
 
-- Tag each food page with the substances it contains
-- Tag the page with "Food" too, so that it appears in index.md.
+- Tag each food page with "Food" and the food name (e.g. "Salmon", "Lentils") so it appears in index and recipe lists.
+- Tag with **intrinsic food compounds**: (1) key bioactives from the Overview (editorial, from literature) and (2) compounds present in the nutrition table (analytical, USDA/equivalent). The **Substances** section shows the **union** of these two sources. Use `<FoodSubstancesFromTable details={frontMatter} />` so both editorial (tags) and analytical (nutrition_per_100g, nutrition_supplementary_sources) are merged. Use `<FoodSubstances details={frontMatter} />` only for pages not yet on the nutrition layer.
+- **Do not tag with downstream metabolites** (e.g. SCFAs, butyrate, propionate, acetate, serotonin, GABA from precursors). These are mechanism truth—they may be described in prose as outcomes of the food but must not appear as food substances or BRS tags for that food.
 - In the front matter, list_image: /img/icons/ingredients.svg
-- The title of the page should be a tag on page that exactly matches the title.
+- The title of the page should be a tag that exactly matches the title.
 - Do not tag food pages with Biological Targets.
-- Tag food pages with the substances that the food contains, and tag the substances with the foods they are contained in.
+- For the BRS matrix, tag food pages only with substance names that the food actually contains (and that appear in the nutrition table); substance pages are tagged with foods.
 
-The Format of the page should have this structure:
+## Three truth-layer boundaries
 
-- Image: Images of the food
-- Overview: A single paragraph description describing food, where it comes from, main health benefits etc.
-- Recipes: Use the <FoodRecipes tag="food tag" /> here. (This component displays recipes in a collapsible section)
-- Substances: Use the <FoodSubstances details={frontMatter} /> here. (This component displays substances in a collapsible section)
-- Preparation Notes: From paper.txt any tips on how best to prepare the food for maximum impact.
-- Biological Target Matrix: Should be <FoodMatrix tag="food tag" />
-- References: A list of findings or scientific principles, with their link to the `/docs/papers/BRAIN-Diet-References#<ref>` that discusses it, from paper.txt in the root directory. Make sure all assertions are backed up by evidence from the paper.txt file . Use references if the paper mentions them.
+- **Intrinsic food truth:** Only compounds present in the food may appear in Key Substances, nutrition table, substances list, and tags.
+- **Mechanism truth:** Downstream metabolites and effects (e.g. SCFAs from fibre fermentation) may appear only in Mechanisms, BRS prose, or Overview as outcomes—never as food substances or tags.
+- **Strategy truth:** Pairing and complementarity advice belong only in the EAA profile (Protein pairing strategy) or Preparation Notes/Recipes, not in Overview as substance-like content.
+- **Validation:** Fail or flag if a required EAA section is missing or if downstream metabolites are proposed as food substances. Run `npm run nutrition:validate` to check. After front matter updates, run `npm run nutrition:repair` to enforce corrections at scale (or `npm run nutrition:pipeline` to apply then repair).
 
-An example for the references section might look like this:
+## Required EAA section
 
-- A decreased microbial diversity (alpha diversity) has also been reported in ADHD [Prehn-Kristensen et al. 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
+- If a food has **≥5 g protein per 100 g** or is **commonly used as a protein source** (grains like barley, oats, quinoa; legumes; nuts; seeds; animal foods), the page **must** include an **Essential Amino Acid Profile** subsection.
+- This section must classify the protein profile and include notable/limiting amino acids where relevant. Pairing advice belongs here, not in Overview.
 
-Use the `algal-oil.md` page as an example.
+## Three sources of truth
+
+Each food page has three layers that must stay aligned:
+
+1. **Overview** – Two concise paragraphs (90–160 words total). Paragraph 1 defines the food by category and nutritional identity and mentions 3–6 intrinsic compounds. Paragraph 2 explains the strongest evidence-backed physiological relevance in balanced, non-exaggerated language, with brief limitations only where needed. Use inline numeric citations [1], [2] and keep the prose editorial, not stitched notes.
+2. **Database nutrition table** – The quantitative layer. Populated from USDA FoodData Central (or other structured DBs). Use `<NutritionTable details={frontMatter} />`. Compounds with value > 0 become **analytical substances**.
+3. **Substances list** – Union of **editorial** (tags from Overview/literature) and **analytical** (nutrition table). Use `<FoodSubstancesFromTable details={frontMatter} />`; it merges both sources. Editorial ensures biologically defining compounds are present; analytical ensures accurate compositional coverage. Neither source alone is sufficient.
+
+**Missing compound rule:** If the overview mentions a compound not in the database table, find a credible value (literature or specialist DB), add it via `nutrition_supplementary_sources`, and ensure it appears in the substances list. See `system/food-page-model.md`.
+
+## Overview specification
+
+Write 2 concise paragraphs (90–160 words total).
+
+- **Paragraph 1**: Clearly define the food by category and nutritional identity. Mention only the most important intrinsic compounds (typically 3–6), such as key vitamins, minerals, or bioactives. Do not repeat numeric table values.
+- **Paragraph 2**: Explain the strongest evidence-backed physiological relevance of the food in balanced, non-exaggerated language. Where relevant, include a brief health consideration or limitation, but do not turn the Overview into a caution or risk section.
+
+The Overview must:
+- reflect the food itself (intrinsic compounds only)
+- reflect the latest well-established research, not speculation
+- mention only intrinsic compounds in the food (no downstream metabolites)
+- read like editorial prose, not stitched bullet notes
+
+The Overview must not:
+- repeat nutrient table values or copy NutritionTable rows
+- include pairing advice, sourcing notes, or cooking guidance (these belong in Food Context)
+- list long mechanistic chains or speculative pathways
+- mention downstream microbial metabolites as if they are present in the food (e.g. SCFAs from fibre)
+
+## Amino acid / EAA logic
+
+- **Animal foods** (fish, meat, eggs, dairy): Do not list all amino acids. Use a short line such as "**Protein profile:** Complete essential amino acid profile." Use front matter `protein_profile_note` if you want it data-driven. Only highlight individual amino acids when mechanistically relevant (e.g. turkey → tryptophan).
+- **Plant foods** (legumes, grains, nuts, seeds): Do not dump every amino acid. Do highlight strengths, limiting amino acids, and complementary pairings. Use front matter: `amino_acid_strengths`, `limiting_amino_acids`, `complementary_pairings`. Example: "Lysine-rich relative to grains; lower in methionine. Pair with rice or oats for complete profile."
+
+## Page structure (canonical order)
+
+Section order reflects BRAIN framework: context before data.
+
+1. **Overview** – Two short paragraphs following the Overview specification above (category + intrinsic compounds in paragraph 1; strongest evidence-backed relevance in paragraph 2), with inline numeric citations [1], [2]. Optionally add one line noting **protein profile** where relevant.
+2. **Food Context** – Framework and practical context immediately after Overview.
+   - Use at most three subsections: **Sourcing**, **Synergies**, **Serving**.
+   - **Only include a subsection if it contains meaningful, evidence-backed content for that food.** Do not show placeholder text, generic filler, or empty/null sections.
+   - Before omitting a subsection, first check whether there is a credible food-specific point that can be made from:
+     - established nutritional science
+     - preparation science
+     - food matrix / bioavailability literature
+     - practical dietary context
+   - **Sourcing**: show only if there is a meaningful distinction such as grass-fed vs grain-fed, wild vs farmed, organic vs conventional, minimally processed vs processed, or contamination/quality differences. If no such distinction is relevant or evidence-backed, omit Sourcing entirely.
+   - **Serving**: show only if preparation, portion, or cooking method meaningfully changes nutrient retention, bioavailability, oxidation/AGE formation, tolerability, or practical use in the diet. If nothing meaningful can be said, omit Serving entirely.
+   - **Synergies**: often the most relevant subsection, because food interactions shape bioavailability or physiological effect (e.g. vitamin C with non‑heme iron, fat with carotenoids, grains with legumes for amino acid complementarity, herbs/spices reducing oxidative products in cooked foods). However, **omit Synergies** if no meaningful, food‑relevant interaction can be identified. Do not invent generic or weak pairings just to fill the section.
+   - General rule: a shorter Food Context with only one or two strong subsections is better than three weak ones. **Quality over completeness**—every visible subsection should add genuine scientific or practical value.
+3. **Essential Amino Acid Profile** – When required (protein ≥5 g/100 g or commonly protein source).
+4. **Nutrition (per 100 g)** – `<NutritionTable details={frontMatter} />`. Source notes for asterisked values appear below the table. Component renders only when `nutrition_per_100g` has data.
+5. **Substances** – `<FoodSubstancesFromTable details={frontMatter} />` when using the nutrition layer; otherwise `<FoodSubstances details={frontMatter} />`
+6. **Recipes** – `<FoodRecipes tag="food tag" />`
+7. **References** – Local, page-level reference list for that food, containing only real citations that support claims on the page. Use Vancouver-style numeric citations [1], [2] in Overview and Food Context, and list the full clickable references here (ideally also present in `docs/papers/BRAIN-Diet-References`).
+
+See `system/food-page-model.md` and `system/food-nutrition-schema.md` for full schema. Use `salmon.md` and `lentils.md` as worked examples.

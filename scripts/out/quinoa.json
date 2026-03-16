@@ -1,0 +1,32 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 368,
+    "protein_g": 14.12,
+    "fat_g": 6.07,
+    "carbs_g": 64.16,
+    "fibre_g": 7,
+    "calcium_mg": 47,
+    "iron_mg": 4.57,
+    "magnesium_mg": 197,
+    "potassium_mg": 563,
+    "zinc_mg": 3.1,
+    "selenium_ug": 8.5,
+    "vitamin_b6_mg": 0.487,
+    "folate_ug": 184,
+    "choline_mg": 70.2,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 0.706,
+    "epa_mg": 0,
+    "dha_mg": 47,
+    "ala_mg": 588,
+    "omega3_mg": 635
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Quinoa, uncooked",
+    "fdc_id": 168874,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

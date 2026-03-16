@@ -38,6 +38,7 @@ interface TableRow {
   therapeuticAreas: Document[]
   foods: Document[]
   mechanism: string | null
+  contributionLevel: string
 }
 
 /**
@@ -315,6 +316,7 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
         therapeuticAreas,
         foods: [],
         mechanism: null,
+        contributionLevel: "Contextual / minor contributor",
       })
     } else {
       // Create a row for each substance
@@ -393,6 +395,7 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
         therapeuticAreas,
         foods: Array.from(foods),
         mechanism,
+        contributionLevel,
       })
     })
     }
@@ -453,6 +456,7 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
               <thead>
                 <tr>
                   <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Substance</th>
+                  <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Contribution Level</th>
                   <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Foods</th>
                   <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Mechanism of Action</th>
                 </tr>
@@ -479,6 +483,9 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
                     <tr key={index}>
                       <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
                         <Link to={row.substance.permalink}>{row.substance.title}</Link>
+                      </td>
+                      <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
+                        <span style={{fontSize: "0.9em"}}>{row.contributionLevel}</span>
                       </td>
                       <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
                         {row.foods.length > 0 ? (

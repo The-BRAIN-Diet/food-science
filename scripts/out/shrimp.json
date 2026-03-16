@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "fibre_g": 0,
+    "iron_mg": 0.42,
+    "calcium_mg": 71,
+    "protein_g": 11.76,
+    "carbs_g": 0,
+    "kcal": 47,
+    "fat_g": 0,
+    "sat_fat_g": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "SHRIMP",
+    "fdc_id": 1899566,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

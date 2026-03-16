@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "calcium_mg": 0,
+    "fibre_g": 5,
+    "kcal": 350,
+    "carbs_g": 82.5,
+    "potassium_mg": 50,
+    "fat_g": 0,
+    "iron_mg": 0.25,
+    "sat_fat_g": 0,
+    "protein_g": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "CRANBERRIES",
+    "fdc_id": 2463410,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 24,
+    "potassium_mg": 188,
+    "fibre_g": 2.4,
+    "carbs_g": 4.71,
+    "sat_fat_g": 0,
+    "calcium_mg": 24,
+    "iron_mg": 0.59,
+    "protein_g": 2.35,
+    "fat_g": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "CAULIFLOWER",
+    "fdc_id": 2409200,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

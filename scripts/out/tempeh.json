@@ -1,0 +1,28 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 192,
+    "protein_g": 20.29,
+    "fat_g": 10.8,
+    "carbs_g": 7.64,
+    "calcium_mg": 111,
+    "iron_mg": 2.7,
+    "magnesium_mg": 81,
+    "potassium_mg": 412,
+    "zinc_mg": 1.14,
+    "selenium_ug": 0,
+    "vitamin_b6_mg": 0.215,
+    "folate_ug": 24,
+    "vitamin_b12_ug": 0.08,
+    "sat_fat_g": 2.539,
+    "ala_mg": 960,
+    "omega3_mg": 960
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Tempeh",
+    "fdc_id": 174272,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

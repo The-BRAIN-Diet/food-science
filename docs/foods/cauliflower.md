@@ -8,35 +8,57 @@ tags:
   - Cauliflower
   - Vegan
   - Vegetarian
-  - SCFAs
-  - Butyrate
   - Vitamin C
   - Vitamin B9
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 24
+  potassium_mg: 188
+  fibre_g: 2.4
+  carbs_g: 4.71
+  sat_fat_g: 0
+  calcium_mg: 24
+  iron_mg: 0.59
+  protein_g: 2.35
+  fat_g: 0
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: CAULIFLOWER
+  fdc_id: 2409200
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Cauliflower is a cruciferous vegetable providing fiber, B vitamins, and potential isothiocyanates, supporting gut health and antioxidant defenses. Cauliflower is part of the cruciferous vegetable family, which includes broccoli, Brussels sprouts, and cabbage. Cruciferous vegetables support diverse vegetable intake and gut health via fiber.
 
+
+<NutritionTable details={frontMatter} />
+
+
+## Food Context
+
+### Synergies
+
+- Part of diverse cruciferous intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
+- Pair with fat for fat-soluble vitamin absorption; dietary fat enhances the absorption of fat-soluble vitamins
+
+### Serving
+
+- Can be consumed raw, roasted, or steamed; light cooking may preserve some compounds
+- Supports gut health via fiber; prebiotic fiber supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Cauliflower" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Can be consumed raw, roasted, or steamed; light cooking may preserve some compounds
-- Part of diverse cruciferous intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
-- Supports gut health via fiber; prebiotic fiber supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
-- Pair with fat for fat-soluble vitamin absorption; dietary fat enhances the absorption of fat-soluble vitamins
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Cauliflower" />
 
 ## References
 

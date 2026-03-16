@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "fibre_g": 0,
+    "fat_g": 24.65,
+    "carbs_g": 2.46,
+    "iron_mg": 0,
+    "kcal": 331,
+    "sat_fat_g": 17.61,
+    "calcium_mg": 0,
+    "protein_g": 21.13
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "CHEESE",
+    "fdc_id": 1943515,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

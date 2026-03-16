@@ -9,35 +9,62 @@ tags:
   - Vegan
   - Vegetarian
   - Potassium
-  - SCFAs
-  - Butyrate
-  - Propionate
-  - Acetate
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 73
+  protein_g: 2
+  fat_g: 0.01
+  carbs_g: 17.44
+  fibre_g: 1.6
+  calcium_mg: 14
+  iron_mg: 3.4
+  magnesium_mg: 17
+  potassium_mg: 429
+  zinc_mg: 0.12
+  selenium_ug: 0.7
+  vitamin_b6_mg: 0.077
+  folate_ug: 13
+  choline_mg: 30
+  vitamin_b12_ug: 0
+  sat_fat_g: 0
+  epa_mg: 0
+  dha_mg: 0
+  omega3_mg: 0
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Jerusalem-artichokes, raw'
+  fdc_id: 169236
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth. Jerusalem artichokes have the highest inulin content, and inulin supports ↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier.
 
-## Recipes
 
-<FoodRecipes tag="Jerusalem Artichokes" />
+<NutritionTable details={frontMatter} />
 
-## Substances
 
-<FoodSubstances details={frontMatter} />
+## Food Context
 
-## Preparation Notes
+### Serving
 
 - Can be consumed raw or cooked
 - Highest inulin source
 - Start with small amounts to avoid digestive discomfort
 - Supports gut microbiome diversity
 
-## Biological Target Matrix
 
-<FoodMatrix tag="Jerusalem Artichokes" />
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## Recipes
+
+<FoodRecipes tag="Jerusalem Artichokes" />
+
 
 ## References
 

@@ -1,0 +1,15 @@
+{
+  "nutrition_per_100g": {
+    "sat_fat_g": 6.61,
+    "ala_mg": 7450,
+    "omega3_mg": 7450
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Oil, canola",
+    "fdc_id": 748278,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

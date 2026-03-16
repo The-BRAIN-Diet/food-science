@@ -10,32 +10,57 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
-  - SCFAs
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 52.747095
+  protein_g: 0.578125
+  fat_g: 0.2825
+  carbs_g: 13.455575
+  fibre_g: 1.346
+  sugar_g: 7.964
+  calcium_mg: 4.031
+  iron_mg: 0
+  magnesium_mg: 6.615
+  potassium_mg: 186.3
+  zinc_mg: 0.04518
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Plum, black, with skin, raw'
+  fdc_id: 2710837
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Black goji berries provide high levels of C3G (cyanidin-3-glucoside) anthocyanins that chelate heavy metals and support neuroprotection. Anthocyanins, especially C3G-rich sources like berries, purple potatoes, and black goji, serve as natural chelation agents for heavy metals and environmental contaminants, neuroprotective molecules that support synaptic resilience and detox pathways, and detox allies against microplastics and hormone-disrupting pollutants.
 
+
+<NutritionTable details={frontMatter} />
+
+
+## Food Context
+
+### Synergies
+
+- Part of diverse polyphenol intake
+- Pair with other C3G-rich foods
+
+### Serving
+
+- Can be consumed dried or fresh
+- Supports detoxification pathways
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Black Goji" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Can be consumed dried or fresh
-- Part of diverse polyphenol intake
-- Supports detoxification pathways
-- Pair with other C3G-rich foods
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Black Goji" />
 
 ## References
 

@@ -8,32 +8,53 @@ tags:
   - Kombucha
   - Vegan
   - Vegetarian
-  - SCFAs
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  fat_g: 0
+  carbs_g: 3.01
+  kcal: 17
+  protein_g: 1.13
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: KOMBUCHA
+  fdc_id: 516534
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Kombucha is fermented tea providing live probiotics, postbiotic compounds, and organic acids, supporting gut-brain axis communication. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
+
+<NutritionTable details={frontMatter} />
+
+
+## Food Context
+
+### Sourcing
+
+- Choose products with live cultures
+
+### Synergies
+
+- Part of fermented foods rotation
+
+### Serving
+
+- Supports gut microbiome diversity
+- Moderate consumption due to sugar content in some products
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Kombucha" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Choose products with live cultures
-- Part of fermented foods rotation
-- Supports gut microbiome diversity
-- Moderate consumption due to sugar content in some products
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Kombucha" />
 
 ## References
 

@@ -1,0 +1,27 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 36.3915875,
+    "protein_g": 2.414375,
+    "fat_g": 0.195,
+    "carbs_g": 8.170625,
+    "fibre_g": 4.166,
+    "calcium_mg": 0.7663,
+    "iron_mg": 0.1443,
+    "magnesium_mg": 14.06,
+    "potassium_mg": 243,
+    "zinc_mg": 0.7641,
+    "selenium_ug": 1.244,
+    "vitamin_b6_mg": 0.1593,
+    "folate_ug": 32.13,
+    "ala_mg": 787,
+    "omega3_mg": 787
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Mushrooms, shiitake",
+    "fdc_id": 1999628,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

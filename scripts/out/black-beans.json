@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "fat_g": 0,
+    "iron_mg": 1.11,
+    "calcium_mg": 31,
+    "carbs_g": 15.38,
+    "sat_fat_g": 0,
+    "protein_g": 5.38,
+    "kcal": 85,
+    "fibre_g": 3.8
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "BLACK BEANS",
+    "fdc_id": 2075490,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

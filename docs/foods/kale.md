@@ -2,7 +2,7 @@
 id: kale
 title: Kale
 sidebar_label: Kale
-description: Leafy green rich in iron, magnesium, zinc, quercetin, and carotenoids
+description: 'Leafy green rich in iron, magnesium, zinc, quercetin, and carotenoids'
 tags:
   - Food
   - Kale
@@ -29,31 +29,61 @@ tags:
   - Zeaxanthin
   - Beta-Carotene
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 35
+  protein_g: 2.92
+  fat_g: 1.49
+  carbs_g: 4.42
+  fibre_g: 4.1
+  sugar_g: 0.8
+  ala_mg: 0
+  calcium_mg: 254
+  iron_mg: 1.6
+  magnesium_mg: 32.7
+  potassium_mg: 348
+  zinc_mg: 0.39
+  vitamin_b6_mg: 0.147
+  folate_ug: 62
+  omega3_mg: 0
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Kale, raw'
+  fdc_id: 323505
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Kale is a nutrient-dense leafy green providing iron, magnesium, zinc, quercetin, and carotenoids. The BRAIN diet specifically targets leafy green vegetables i.e. kale and spinach that are rich in iron, magnesium, and zinc, though this can introduce high dietary oxalate. Boiling kale can reduce oxalate load, improving mineral bioavailability. Kale is abundant in quercetin, a flavonoid polyphenol with antioxidant and anti-inflammatory properties.
 
-## Recipes
 
-<FoodRecipes tag="Kale" />
+<NutritionTable details={frontMatter} />
 
-## Substances
 
-<FoodSubstances details={frontMatter} />
+## Food Context
 
-## Preparation Notes
+### Synergies
 
-- Boiling reduces oxalates and improves mineral bioavailability [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
 - Pair with fat (avocado, olive oil) for carotenoid absorption; co-consuming a small amount of unsaturated fat improves micelle formation and chylomicron packaging
 - Pair with vitamin C sources to enhance iron absorption, with studies showing up to a fourfold increase when consumed together [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
 - Part of diverse leafy green strategy
 - Practical pairings: carrots + tahini, kale + avocado, berries + yogurt/nuts
 
-## Biological Target Matrix
+### Serving
 
-<FoodMatrix tag="Kale" />
+- Boiling reduces oxalates and improves mineral bioavailability [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## Recipes
+
+<FoodRecipes tag="Kale" />
+
 
 ## References
 

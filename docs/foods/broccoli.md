@@ -2,7 +2,7 @@
 id: broccoli
 title: Broccoli
 sidebar_label: Broccoli
-description: Cruciferous vegetable rich in sulforaphane, folate, and glutathione precursors
+description: 'Cruciferous vegetable rich in sulforaphane, folate, and glutathione precursors'
 tags:
   - Food
   - Broccoli
@@ -25,30 +25,65 @@ tags:
   - CoQ10
   - Sulforaphane
 list_image: /img/icons/ingredients.svg
+nutrition_per_100g:
+  kcal: 34
+  protein_g: 2.82
+  fat_g: 0.37
+  carbs_g: 6.64
+  fibre_g: 2.6
+  ala_mg: 104
+  calcium_mg: 47
+  iron_mg: 0.73
+  magnesium_mg: 21
+  potassium_mg: 316
+  zinc_mg: 0.41
+  selenium_ug: 2.5
+  vitamin_b6_mg: 0.175
+  folate_ug: 63
+  choline_mg: 18.7
+  vitamin_b12_ug: 0
+  sat_fat_g: 0.114
+  epa_mg: 0
+  dha_mg: 0
+  omega3_mg: 104
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Broccoli, raw'
+  fdc_id: 170379
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
 
 ## Overview
 
 Broccoli is a cruciferous vegetable providing sulforaphane (from glucoraphanin), folate, and sulfur compounds that support glutathione synthesis and mitochondrial health. Isothiocyanates (ITCs) like sulforaphane, created through enzymatic activity from glucoraphanin in broccoli, have shown promising results in reducing oxidative stress. Broccoli is listed as a sulphur-containing vegetable that provides glutathione precursors, supporting antioxidant defenses and brain health.
 
+
+<NutritionTable details={frontMatter} />
+
+
+## Food Context
+
+### Synergies
+
+- Pair with fat for fat-soluble vitamin absorption
+
+### Serving
+
+- Light cooking or raw consumption preserves sulforaphane formation
+- Chewing activates myrosinase enzyme to convert glucoraphanin to sulforaphane
+- Sulforaphane activates Nrf2 and has higher bioavailability than other polyphenol supplements
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
 ## Recipes
 
 <FoodRecipes tag="Broccoli" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Light cooking or raw consumption preserves sulforaphane formation
-- Chewing activates myrosinase enzyme to convert glucoraphanin to sulforaphane
-- Pair with fat for fat-soluble vitamin absorption
-- Sulforaphane activates Nrf2 and has higher bioavailability than other polyphenol supplements
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Broccoli" />
 
 ## References
 

@@ -2,68 +2,87 @@
 id: eggs
 title: Eggs
 sidebar_label: Eggs
-description: Complete protein with choline, B vitamins, and phospholipids
+description: 'Complete protein with choline, B vitamins, and phospholipids'
 tags:
   - Food
   - Eggs
   - Vegetarian
   - Choline
-  - Vitamin B1
-  - Vitamin B2
-  - Vitamin B5
-  - Vitamin B6
-  - Vitamin B12
-  - Vitamin B9
-  - Vitamin A
-  - Vitamin D
-  - Vitamin E
-  - Vitamin K2
   - Selenium
-  - Phosphorus
   - Zinc
   - Iron
-  - Phosphatidylethanolamine
-  - Phosphatidylcholine
-  - Lutein
-  - Zeaxanthin
-  - Beta-Carotene
-  - Carotenoid
-  - Tryptophan
-  - Tyrosine
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
 list_image: /img/icons/ingredients.svg
+protein_profile_note: Complete essential amino acid profile.
+nutrition_per_100g:
+  kcal: 143
+  protein_g: 12.56
+  fat_g: 9.51
+  carbs_g: 0.72
+  fibre_g: 0
+  ala_mg: 735
+  calcium_mg: 56
+  iron_mg: 1.75
+  magnesium_mg: 12
+  potassium_mg: 138
+  zinc_mg: 1.29
+  selenium_ug: 30.7
+  vitamin_b6_mg: 0.17
+  folate_ug: 47
+  choline_mg: 293.8
+  vitamin_b12_ug: 0
+  sat_fat_g: 3.126
+  epa_mg: 0
+  dha_mg: 58
+  omega3_mg: 793
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Egg, whole, raw, fresh'
+  fdc_id: 171287
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
+
+import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview
 
-Eggs, especially egg yolks, are nutrient-dense sources of complete protein, choline, B vitamins, and phospholipids. Pasture-raised egg yolks provide essential brain nutrients including choline, vitamin K2, butyrate, and fat-soluble vitamins A, D, and E. Eggs support neurotransmitter synthesis and membrane health, with complete amino acid profile (DIAAS 113) and are listed as sources for tryptophan and tyrosine, neurotransmitter precursors for serotonin and dopamine synthesis respectively.
+Eggs are a nutrient-dense source of complete protein, **choline**, B vitamins, and phospholipids. Key bioactives include choline (acetylcholine synthesis, membrane health), **selenium**, and **zinc**. Pasture-raised eggs can provide more vitamin E and omega-3s. Eggs support neurotransmitter synthesis and membrane health.
+
+**Protein profile:** Complete essential amino acid profile.
+
+## Food Context
+
+### Sourcing
+
+- Consider pasture-raised for higher omega-3 and vitamin content
+
+### Synergies
+
+- Pair with vegetables for carotenoid absorption (dietary fat enhances absorption of fat-soluble vitamins)
+
+### Serving
+
+- Gentle cooking preserves nutrients and prevents formation of advanced glycation end products (AGEs)
+- Regular choline intake supports ongoing acetylcholine synthesis; important for structural membrane health
+- Eggs provide phosphatidylethanolamine (PE), which can convert to phosphatidylcholine (PC) or N-acyl phosphatidylethanolamines (NAPEs) for endocannabinoid system support
+
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of animal proteins.
+
+
+<NutritionTable details={frontMatter} />
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
 
 ## Recipes
 
 <FoodRecipes tag="Eggs" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Gentle cooking preserves nutrients and prevents formation of advanced glycation end products (AGEs)
-- Pair with vegetables for carotenoid absorption (dietary fat enhances absorption of fat-soluble vitamins)
-- Consider pasture-raised for higher omega-3 and vitamin content
-- Regular choline intake supports ongoing acetylcholine synthesis; important for structural membrane health
-- Eggs provide phosphatidylethanolamine (PE), which can convert to phosphatidylcholine (PC) or N-acyl phosphatidylethanolamines (NAPEs) for endocannabinoid system support
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Eggs" />
 
 ## References
 

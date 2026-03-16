@@ -2,59 +2,87 @@
 id: oats
 title: Oats
 sidebar_label: Oats
-description: Beta-glucans, tryptophan, and B vitamins for gut and neurotransmitter support
+description: 'Beta-glucans, B vitamins, and minerals for gut and neurotransmitter support'
 tags:
   - Food
   - Oats
   - Vegan
   - Vegetarian
-  - Tryptophan
-  - Vitamin B1
-  - Vitamin B6
-  - Magnesium
-  - Phosphorus
-  - Manganese
   - Iron
+  - Magnesium
   - Zinc
-  - SCFAs
-  - Butyrate
-  - Propionate
-  - Acetate
-  - Phosphatidylethanolamine
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
+  - Selenium
+  - Folate
 list_image: /img/icons/ingredients.svg
+amino_acid_strengths: >-
+  Methionine-rich relative to legumes; good source of magnesium, iron, selenium,
+  and folate.
+limiting_amino_acids: Lower in lysine (typical of grains).
+complementary_pairings: 'Lentils, beans, or other legumes to complete essential amino acid profile.'
+nutrition_per_100g:
+  kcal: 378.866123
+  protein_g: 13.49645
+  fat_g: 5.89
+  carbs_g: 68.65755
+  calcium_mg: 45.53
+  iron_mg: 4.339
+  magnesium_mg: 126.3
+  potassium_mg: 350.1
+  zinc_mg: 2.744
+  selenium_ug: 25.35
+  vitamin_b6_mg: 0.1346
+  folate_ug: 32.03
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Oats, whole grain, rolled, old fashioned'
+  fdc_id: 2346396
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
 ---
+
+import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview
 
-Oats provide beta-glucan fiber (prebiotic), tryptophan, B vitamins, and complex carbohydrates that support gut health, serotonin synthesis, and stable glucose release. Beta-glucans are prebiotic fibers that support gut microbiome health. Oats are listed as a source for tryptophan, which serves as a serotonin precursor and can be converted to NAD+ via kynurenine pathway. Clinical trials have shown a doubling of plasma levels after dietary increases in oat bran due to its rich phosphatidylethanolamine (PE) content, which supports endocannabinoid system tone.
+Oats provide beta-glucan fibre (prebiotic), B vitamins, and minerals that support gut health, serotonin synthesis, and stable glucose release. Key contributions include **magnesium**, **iron**, **selenium**, and **folate**. Beta-glucans support gut microbiome health.
 
-## Recipes
+## Food Context
 
-<FoodRecipes tag="Oats" />
+### Synergies
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Soak overnight to reduce phytates and improve mineral bioavailability
 - Pair with tryptophan-rich proteins for serotonin synthesis; pair tryptophan-rich proteins with moderate carbs to increase Trp:LNAA ratio
 - Best consumed in evening for calming effect; timing midday or evening for calming effect
 - Part of grain-legume complementarity strategy; grains (typically lysine-limited) and legumes (methionine/cysteine-limited) complete each other's profiles when paired
 - Tryptophan + complex carbohydrates aid serotonin conversion to melatonin; examples include pumpkin seeds + oats
 
-## Biological Target Matrix
+### Serving
 
-<FoodMatrix tag="Oats" />
+- Soak overnight to reduce phytates and improve mineral bioavailability
+
+
+### Essential Amino Acid Profile
+
+Oats provide meaningful plant protein but are not a complete protein.
+
+Limiting amino acids:
+
+- Lysine (typical of grains)
+
+Protein pairing strategy:
+
+Oats are relatively higher in methionine than many legumes but lower in lysine. Combining oats with lentils, beans, or other legumes helps create a more balanced essential amino acid profile.
+
+<NutritionTable details={frontMatter} />
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## Recipes
+
+<FoodRecipes tag="Oats" />
+
 
 ## References
 

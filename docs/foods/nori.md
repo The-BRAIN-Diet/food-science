@@ -22,41 +22,70 @@ tags:
 list_image: /img/icons/ingredients.svg
 contribution_levels:
   Iodine: Primary contributor
-  "Vitamin B9": Supporting contributor
+  Vitamin B9: Supporting contributor
   Iron: Supporting contributor
   Magnesium: Contextual / minor contributor
-  "Vitamin K": Contextual / minor contributor
-  "Vitamin B12": Contextual / minor contributor
+  Vitamin K: Contextual / minor contributor
+  Vitamin B12: Contextual / minor contributor
   Carotenoids: Contextual / minor contributor
   Creatine: Presence only (trace)
   Glycine: Presence only (trace)
   Arginine: Presence only (trace)
   Methionine: Presence only (trace)
+nutrition_per_100g:
+  fibre_g: 57.1
+  protein_g: 57.14
+  carbs_g: 57.14
+  fat_g: 0
+  calcium_mg: 286
+  sat_fat_g: 0
+  kcal: 486
+  iron_mg: 51.43
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: NORI
+  fdc_id: 1662188
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
+complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 ---
 
 ## Overview
 
 Nori is a red seaweed (Porphyra species) commonly used in sushi and Japanese cuisine. It is a primary dietary source of iodine, an essential trace mineral critical for thyroid function and brain development. Nori also provides supporting amounts of folate (B9) and non-heme iron, along with contextual contributions of magnesium, vitamin K, and carotenoids. While nori may contain variable amounts of vitamin B12 depending on species and processing, it should not be relied upon as a sole B12 source. The seaweed polysaccharides and soluble fibre in nori contribute to gut barrier and microbiome modulation through cumulative, supportive effects.
 
-## Recipes
 
-<FoodRecipes tag="Nori" />
+## Food Context
 
-## Substances
+### Synergies
 
-<FoodSubstances details={frontMatter} />
+- Part of diverse plant food intake strategy
 
-## Preparation Notes
+### Serving
 
 - Commonly used in sushi rolls and as a garnish
-- Part of diverse plant food intake strategy
 - Important for iodine intake, especially in plant-based diets
 - Folate and iron contributions are context-dependent and work best as part of a varied diet
 - Seaweed polysaccharides provide cumulative gut health benefits when consumed regularly
 
-## Biological Target Matrix
 
-<FoodMatrix tag="Nori" />
+### Essential Amino Acid Profile
+
+Nori contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+
+<NutritionTable details={frontMatter} />
+
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
+
+## Recipes
+
+<FoodRecipes tag="Nori" />
+
 
 ## References
 

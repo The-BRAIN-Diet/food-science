@@ -1,0 +1,20 @@
+{
+  "nutrition_per_100g": {
+    "iron_mg": 6.75,
+    "kcal": 500,
+    "fat_g": 35,
+    "sat_fat_g": 3.75,
+    "fibre_g": 27.5,
+    "calcium_mg": 200,
+    "carbs_g": 35,
+    "protein_g": 20
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "FLAX SEEDS",
+    "fdc_id": 1919868,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

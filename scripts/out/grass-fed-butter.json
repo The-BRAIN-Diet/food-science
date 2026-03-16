@@ -1,0 +1,32 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 198,
+    "protein_g": 19.42,
+    "fat_g": 12.73,
+    "carbs_g": 0,
+    "fibre_g": 0,
+    "calcium_mg": 12,
+    "iron_mg": 1.99,
+    "magnesium_mg": 19,
+    "potassium_mg": 289,
+    "zinc_mg": 4.55,
+    "selenium_ug": 14.2,
+    "vitamin_b6_mg": 0.355,
+    "folate_ug": 6,
+    "choline_mg": 67.4,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 5.335,
+    "ala_mg": 71,
+    "epa_mg": 1,
+    "dha_mg": 0,
+    "omega3_mg": 72
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Beef, grass-fed, ground, raw",
+    "fdc_id": 168608,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

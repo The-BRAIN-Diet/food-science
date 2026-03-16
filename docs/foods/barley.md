@@ -8,41 +8,87 @@ tags:
   - Barley
   - Vegan
   - Vegetarian
-  - SCFAs
-  - Butyrate
-  - Propionate
-  - Acetate
+  - Beta-glucan
   - Magnesium
 list_image: /img/icons/ingredients.svg
+amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
+limiting_amino_acids: Lysine (typical of grains).
+complementary_pairings: Lentils, chickpeas, or other legumes for complete essential amino acid profile.
+nutrition_per_100g:
+  kcal: 357.191828
+  protein_g: 8.72168
+  fat_g: 2.45
+  carbs_g: 77.39832
+  fibre_g: 12.79
+  calcium_mg: 35.56
+  iron_mg: 3.301
+  magnesium_mg: 88.04
+  potassium_mg: 366.6
+  zinc_mg: 2.144
+  selenium_ug: 13.1
+  vitamin_b6_mg: 0.1995
+nutrition_source:
+  database: USDA FoodData Central
+  food_name: 'Flour, barley'
+  fdc_id: 2512376
+  retrieval_method: API
+  basis: per 100 g edible portion
+  last_checked: '2026-03-14'
+nutrition_supplementary_sources:
+  - key: beta_glucan_g
+    label: Beta-glucan
+    value: 4
+    unit: g
+    source_note: >-
+      Representative value for barley flour; beta-glucan content varies by cultivar and processing
+      (e.g. USDA and literature values for barley).
 ---
 
 ## Overview
 
-Barley provides beta-glucan prebiotic fiber and whole grain nutrients, supporting gut microbiome diversity and stable glucose release. Beta-glucans: Oats, barley, mushrooms. Whole grains (including... grains like barley and oats) support gut health and stable glucose release. Chickpeas: Combine with grains like barley or oats for amino acid complementarity.
+Barley is a whole grain valued for **beta-glucan** prebiotic fibre and sustained energy release. Beta-glucan supports gut microbiome diversity and stable blood glucose; it is an intrinsic component of barley (and oats, mushrooms), not to be confused with downstream metabolites such as SCFAs produced by fermentation.
+
+## Food Context
+
+### Synergies
+
+- Part of whole grain diversity strategy
+
+### Serving
+
+- Soak before cooking to reduce phytates and improve mineral bioavailability
+- Beta-glucan in barley supports gut microbiome health (mechanisms include fermentation to SCFAs such as butyrate; improved gut barrier)
+
+
+### Essential Amino Acid Profile
+
+Barley provides a useful plant protein source but is not a complete protein.
+
+Notable amino acids:
+
+- Methionine (relatively higher than in legumes)
+
+Limiting amino acids:
+
+- Lysine (typical of grains)
+
+Protein pairing strategy:
+
+Grains such as barley are relatively higher in methionine but lysine-limited. Combining barley with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
+
+<NutritionTable details={frontMatter} />
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
 
 ## Recipes
 
 <FoodRecipes tag="Barley" />
 
-## Substances
-
-<FoodSubstances details={frontMatter} />
-
-## Preparation Notes
-
-- Soak before cooking to reduce phytates and improve mineral bioavailability
-- Part of whole grain diversity strategy
-- Supports gut microbiome via beta-glucans; beta-glucans support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
-- Pair with legumes for complete amino acid profile; combine with legumes like chickpeas for amino acid complementarity
-
-## Biological Target Matrix
-
-<FoodMatrix tag="Barley" />
 
 ## References
 
-- Beta-glucans: Oats, barley, mushrooms; prebiotic fiber supporting gut microbiome health
-- Whole grains (including... grains like barley and oats) support gut health and stable glucose release
-- Chickpeas: Combine with grains like barley or oats for amino acid complementarity; grain-legume complementarity improves essential amino-acid coverage
-- Beta-glucans support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
-- Barley β-glucan produces higher proportions of butyrate than inulin in in vitro fermentation with human fecal microbiota [Hughes et al. 2008](https://academic.oup.com/femsec/article/64/3/482/473920)
+- Beta-glucans: oats, barley, mushrooms; prebiotic fibre supporting gut microbiome and stable glucose release
+- Grain–legume complementarity: barley (lysine-limited) pairs with legumes for complete essential amino acid profile
+- Barley β-glucan fermentation: in vitro fermentation yields butyrate and other SCFAs [Hughes et al. 2008](https://academic.oup.com/femsec/article/64/3/482/473920)

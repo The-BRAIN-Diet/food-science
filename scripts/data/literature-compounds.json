@@ -1,0 +1,10 @@
+{
+  "comment": "Approved secondary-source values per 100 g. Used by enrich-nutrition-from-overview.mjs. Only add entries with credible, attributable values.",
+  "astaxanthin": {
+    "key": "astaxanthin_mg",
+    "label": "Astaxanthin",
+    "value": 3.2,
+    "unit": "mg",
+    "source_note": "Literature estimate for farmed Atlantic salmon; carotenoid content varies by feed and species (e.g. Turujman et al., 1997; USDA does not report astaxanthin)."
+  }
+}

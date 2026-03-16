@@ -1,0 +1,9 @@
+{
+  "nutrition_per_100g": {},
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "status": "no_match",
+    "slug": "mankai",
+    "note": "No USDA match; add query to scripts/usda-map.json or run with USDA_API_KEY for fetch."
+  }
+}

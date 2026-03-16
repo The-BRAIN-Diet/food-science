@@ -1,0 +1,24 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 88,
+    "protein_g": 0.49,
+    "fat_g": 0,
+    "carbs_g": 17.03,
+    "ala_mg": 0,
+    "calcium_mg": 27,
+    "iron_mg": 0.72,
+    "magnesium_mg": 12,
+    "potassium_mg": 112,
+    "zinc_mg": 0.08,
+    "sat_fat_g": 0,
+    "omega3_mg": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Vinegar, balsamic",
+    "fdc_id": 172241,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

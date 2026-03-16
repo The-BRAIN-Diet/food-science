@@ -1,0 +1,31 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 250,
+    "protein_g": 10.2,
+    "fat_g": 1.53,
+    "carbs_g": 48.89,
+    "fibre_g": 4.1,
+    "calcium_mg": 20,
+    "iron_mg": 2.76,
+    "magnesium_mg": 51,
+    "potassium_mg": 165,
+    "zinc_mg": 1.1,
+    "selenium_ug": 28.7,
+    "vitamin_b6_mg": 0.147,
+    "folate_ug": 76,
+    "choline_mg": 9.8,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 0,
+    "epa_mg": 0,
+    "dha_mg": 0,
+    "omega3_mg": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Bagels, wheat",
+    "fdc_id": 167533,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

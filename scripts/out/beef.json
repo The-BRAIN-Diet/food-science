@@ -1,0 +1,32 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 250,
+    "protein_g": 27.1,
+    "fat_g": 14.93,
+    "carbs_g": 0,
+    "fibre_g": 0,
+    "calcium_mg": 12,
+    "iron_mg": 2.08,
+    "magnesium_mg": 14,
+    "potassium_mg": 136,
+    "zinc_mg": 3.57,
+    "selenium_ug": 42.9,
+    "vitamin_b6_mg": 0.13,
+    "folate_ug": 9,
+    "choline_mg": 89.2,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 6.18,
+    "epa_mg": 0,
+    "dha_mg": 0,
+    "ala_mg": 1951,
+    "omega3_mg": 1951
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Beef, cured, corned beef, canned",
+    "fdc_id": 170602,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

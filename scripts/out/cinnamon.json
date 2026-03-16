@@ -1,0 +1,31 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 253,
+    "protein_g": 7.05,
+    "fat_g": 5.29,
+    "carbs_g": 44.38,
+    "fibre_g": 3.5,
+    "calcium_mg": 71,
+    "iron_mg": 2.54,
+    "magnesium_mg": 11,
+    "potassium_mg": 74,
+    "zinc_mg": 0.49,
+    "selenium_ug": 12.3,
+    "vitamin_b6_mg": 0.027,
+    "folate_ug": 56,
+    "choline_mg": 2.7,
+    "vitamin_b12_ug": 0,
+    "sat_fat_g": 0,
+    "epa_mg": 0,
+    "dha_mg": 0,
+    "omega3_mg": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Bread, cinnamon",
+    "fdc_id": 171849,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

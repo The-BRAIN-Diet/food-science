@@ -1,0 +1,26 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 30.9734625,
+    "protein_g": 2.203125,
+    "fat_g": 0.265,
+    "carbs_g": 6.604375,
+    "fibre_g": 3.071,
+    "calcium_mg": 0,
+    "iron_mg": 0.2089,
+    "magnesium_mg": 11.04,
+    "potassium_mg": 260,
+    "zinc_mg": 0.7629,
+    "selenium_ug": 3.269,
+    "vitamin_b6_mg": 0.071,
+    "ala_mg": 1616,
+    "omega3_mg": 1616
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Mushroom, maitake",
+    "fdc_id": 2003602,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

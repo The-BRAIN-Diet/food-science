@@ -1,0 +1,17 @@
+{
+  "nutrition_per_100g": {
+    "protein_g": 0,
+    "kcal": 800,
+    "fat_g": 93.33,
+    "sat_fat_g": 13.33,
+    "carbs_g": 0
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "EXTRA VIRGIN OLIVE OIL",
+    "fdc_id": 1908563,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

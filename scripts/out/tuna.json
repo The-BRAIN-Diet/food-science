@@ -1,0 +1,23 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 101.8695,
+    "protein_g": 24.7,
+    "fat_g": 0.3875,
+    "carbs_g": -0.1045,
+    "calcium_mg": 3.193,
+    "iron_mg": 0.5914,
+    "magnesium_mg": 35.48,
+    "potassium_mg": 420.2,
+    "zinc_mg": 0.3524,
+    "selenium_ug": 76.52,
+    "vitamin_b12_ug": 1.374
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Tuna, ahi or yellowfin, frozen, wild caught",
+    "fdc_id": 2747673,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

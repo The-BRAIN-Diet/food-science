@@ -1,0 +1,21 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 571,
+    "iron_mg": 3.57,
+    "sat_fat_g": 7.14,
+    "protein_g": 25,
+    "fat_g": 39.29,
+    "carbs_g": 32.14,
+    "calcium_mg": 18,
+    "potassium_mg": 675,
+    "fibre_g": 10.7
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "PEANUTS",
+    "fdc_id": 2655605,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}

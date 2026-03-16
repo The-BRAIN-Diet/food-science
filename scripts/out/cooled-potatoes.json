@@ -1,0 +1,25 @@
+{
+  "nutrition_per_100g": {
+    "kcal": 352.682197,
+    "protein_g": 8.1125,
+    "fat_g": 0.9513,
+    "carbs_g": 79.9422,
+    "fibre_g": 5.401,
+    "calcium_mg": 44.12,
+    "iron_mg": 11.97,
+    "magnesium_mg": 73.65,
+    "potassium_mg": 1269,
+    "zinc_mg": 0.9002,
+    "selenium_ug": 1.425,
+    "vitamin_b6_mg": 0.582,
+    "folate_ug": 41.15
+  },
+  "nutrition_source": {
+    "database": "USDA FoodData Central",
+    "food_name": "Flour, potato",
+    "fdc_id": 2261422,
+    "retrieval_method": "API",
+    "basis": "per 100 g edible portion",
+    "last_checked": "2026-03-14"
+  }
+}
