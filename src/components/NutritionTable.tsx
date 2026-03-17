@@ -30,6 +30,8 @@ const RDA_VALUES: Record<string, number> = {
   folate_ug: 400,
   vitamin_b12_ug: 2.4,
   vitamin_b6_mg: 1.7,
+  vitamin_e_mg: 15,
+  vitamin_k_ug: 120,
 }
 
 function roundTo(value: number, decimals: number): number {

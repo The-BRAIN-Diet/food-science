@@ -19,6 +19,8 @@ export const NUTRIENT_ORDER: readonly string[] = [
   "folate_ug",
   "vitamin_b12_ug",
   "vitamin_b6_mg",
+  "vitamin_e_mg",
+  "vitamin_k_ug",
   "omega3_mg",
   "epa_mg",
   "dha_mg",
@@ -42,6 +44,8 @@ export const NUTRIENT_LABELS: Record<string, {label: string; unit: string}> = {
   folate_ug: {label: "Folate", unit: "µg"},
   vitamin_b12_ug: {label: "Vitamin B12", unit: "µg"},
   vitamin_b6_mg: {label: "Vitamin B6", unit: "mg"},
+  vitamin_e_mg: {label: "Vitamin E", unit: "mg"},
+  vitamin_k_ug: {label: "Vitamin K", unit: "µg"},
 
   omega3_mg: {label: "Total omega-3", unit: "mg"},
   epa_mg: {label: "EPA", unit: "mg"},
