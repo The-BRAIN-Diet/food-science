@@ -96,15 +96,7 @@ Within the BRAIN Diet framework, beef may be used strategically for nutrient den
 
 ### Essential Amino Acid Profile
 
-Beef provides a **complete essential amino acid profile** with high digestibility and bioavailability. Animal proteins generally contain all nine essential amino acids in proportions that closely match human physiological requirements, contributing to high protein quality scores [4].
-
-Key amino acids supplied by beef include:
-
-- **Leucine** — supports muscle protein synthesis and metabolic signalling through mTOR activation [11].
-- **Lysine** — supports protein synthesis, tissue repair, and collagen-related functions.
-- **Tyrosine** — contributes to catecholamine neurotransmitter synthesis, including dopamine and noradrenaline [12].
-- **Phenylalanine** — serves as a precursor to tyrosine in neurotransmitter pathways [12].
-- **Methionine** — contributes to one-carbon metabolism and methylation-related processes.
+Beef provides a **complete essential amino acid profile** with high digestibility and bioavailability. As with other animal proteins, it supplies all nine indispensable amino acids in proportions that closely match human requirements, which is reflected in its high protein quality scores [4].
 
 <NutritionTable details={frontMatter} />
 
