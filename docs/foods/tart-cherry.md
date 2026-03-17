@@ -43,7 +43,7 @@ Tart cherry (and tart cherry juice) provides natural melatonin and polyphenols t
 
 - Part of sleep-supportive evening nutrition strategy
 
-### Serving
+### Preparation
 
 - Tart cherry juice can be consumed in evening
 - Whole fruit provides fiber benefits

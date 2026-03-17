@@ -44,7 +44,7 @@ Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stabili
 
 - Part of stable cooking fat strategy
 
-### Serving
+### Preparation
 
 - Heat-stable for high-heat cooking
 - Low in lactose/casein (suitable for some sensitivities)

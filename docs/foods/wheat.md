@@ -59,7 +59,7 @@ Wheat, especially whole grain forms, provides B vitamins, fiber, minerals, and w
 
 - Part of diverse grain intake
 
-### Serving
+### Preparation
 
 - Sourdough fermentation enhances nutrient bioavailability
 - Supports gut health via fiber

@@ -51,7 +51,7 @@ Lupins are legumes providing plant protein and fiber, part of diverse protein so
 - Part of diverse legume intake
 - Pair with grains for complete amino acid profile
 
-### Serving
+### Preparation
 
 - Soak and cook thoroughly
 - Supports plant protein diversity

@@ -45,7 +45,9 @@ protein_profile_note: Complete essential amino acid profile.
 
 ## Overview
 
-Organ meats (offal) are among the most nutrient-dense foods, providing high levels of B12, CoQ10, iron, and other brain-supportive nutrients. Organ meats (heart, liver), oily fish (sardines, mackerel), beef are top sources for CoQ10, and occasional offal consumption is recommended for nutrient density.
+Organ meats (offal) are among the most nutrient-dense animal foods, often providing disproportionately high amounts of **vitamin B12**, **heme iron**, **zinc**, **choline**, and fat‑soluble vitamins depending on the specific organ. Reviews of edible offal highlight their potential to help close nutrient gaps when used in modest portions and at appropriate frequency [1].
+
+Within the BRAIN Diet framework, “organ meats” are best treated as a periodic micronutrient strategy (e.g., liver for B12/folate/retinol; heart for CoQ10), rather than a daily protein staple. Choosing reputable sources and using gentler cooking methods helps preserve micronutrients and supports an overall plant-forward pattern [1,2].
 
 
 ## Food Context
@@ -54,7 +56,7 @@ Organ meats (offal) are among the most nutrient-dense foods, providing high leve
 
 - Source from grass-fed/pasture-raised when possible
 
-### Serving
+### Preparation
 
 - Moderate consumption due to high nutrient density
 - Important for closing nutrient gaps
@@ -80,6 +82,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Organ meats (heart, liver), oily fish (sardines, mackerel), beef are top sources for CoQ10; organ meats are the highest dietary source of CoQ10 (up to 12mg per 100g)
-- Occasional offal (Latoch et al. 2024) i.e. liver recommended for nutrient density
-- Ethically sourced, high-nutrient-density options (e.g., liver, fish roe, sardines)
+These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+
+1. [Latoch et al. 2024 – Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024)
+2. [Crane 2001 – Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)

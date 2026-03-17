@@ -55,7 +55,7 @@ Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (
 
 - Part of diverse protein strategy
 
-### Serving
+### Preparation
 
 - Supports NAD+ availability through nicotinamide riboside
 - Consider tolerance and preferences

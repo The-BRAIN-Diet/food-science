@@ -53,7 +53,7 @@ Herbs provide polyphenols, volatile compounds, and other bioactives that support
 
 - Part of diverse plant food strategy
 
-### Serving
+### Preparation
 
 - Polyphenols for antioxidant networks
 - Volatile compounds for cognitive support

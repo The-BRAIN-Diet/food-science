@@ -49,7 +49,7 @@ Masala chai (spiced tea) combines tea with bioactive brain-focused herbs and spi
 
 - Part of diverse beverage strategy
 
-### Serving
+### Preparation
 
 - Can be made with various spice blends
 - Supports polyphenol intake

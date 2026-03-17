@@ -47,7 +47,7 @@ Black goji berries provide high levels of C3G (cyanidin-3-glucoside) anthocyanin
 - Part of diverse polyphenol intake
 - Pair with other C3G-rich foods
 
-### Serving
+### Preparation
 
 - Can be consumed dried or fresh
 - Supports detoxification pathways

@@ -39,7 +39,7 @@ Berries are polyphenol-rich fruits providing anthocyanins, flavonoids, and other
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Polyphenols for antioxidant networks
 - Anthocyanins for neuroprotection

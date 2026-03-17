@@ -51,7 +51,7 @@ Sage provides compounds that support memory and cognitive enhancement, with ther
 
 - Part of diverse herb/spice strategy
 
-### Serving
+### Preparation
 
 - Can be used in culinary amounts or as extract
 - Supports memory and cognition

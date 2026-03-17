@@ -45,7 +45,7 @@ Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 penta
 
 - Part of nutrient-dense animal food strategy
 
-### Serving
+### Preparation
 
 - Use as grated topping or snacks for flavor and nutrient density
 - Supports K2 and calcium intake; studies have shown that hard cheeses with high calcium do not raise serum LDL levels [Soerensen et al. 2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)

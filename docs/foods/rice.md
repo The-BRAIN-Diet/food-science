@@ -53,7 +53,7 @@ Rice provides complex carbohydrates and, when cooked and cooled, forms resistant
 
 - Pair with legumes for complete amino acid profile; pair legumes with grains (e.g., beans + rice) to cover lysine and methionine gaps
 
-### Serving
+### Preparation
 
 - Cook and cool to form resistant starch; resistant starch forms when certain starchy foods are cooked and then cooled
 - Reheating does not reverse resistant starch; white rice was cooled and reheated showing a rise in RS content from 0.64 to 1.65 g/100 g and elicited a lower glycemic response

@@ -63,7 +63,7 @@ Spinach is a nutrient-dense leafy green providing iron, magnesium, zinc, folate,
 - Pair with vitamin C sources (citrus, bell peppers) to enhance iron absorption, with studies showing up to a fourfold increase when consumed together [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_role_1989)
 - Pair with fat (olive oil, avocado) for carotenoid absorption
 
-### Serving
+### Preparation
 
 - Boiling spinach can reduce oxalate load, improving mineral bioavailability [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
 - Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability; boiling helps mitigate this

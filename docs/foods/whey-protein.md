@@ -50,7 +50,7 @@ Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotina
 
 - Part of protein strategy for brain health
 
-### Serving
+### Preparation
 
 - Can be used as supplement or in smoothies
 - High-quality protein source

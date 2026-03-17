@@ -47,7 +47,7 @@ Chlorella is a microalgae providing bioavailable, true vitamin B12 (cobalamin) c
 
 - Part of functional food strategy
 
-### Serving
+### Preparation
 
 - Available as powder, tablets, or capsules
 - Important for vegan B12 intake

@@ -47,7 +47,7 @@ Cockles are small bivalve shellfish that provide a nutrient-dense source of vita
 
 - Part of diverse protein and seafood strategy
 
-### Serving
+### Preparation
 
 - Purge in salted water before cooking; discard any that remain open when tapped
 - Brief steaming preserves the natural liquor, which contains minerals and peptides

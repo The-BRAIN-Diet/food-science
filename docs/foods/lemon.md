@@ -51,7 +51,7 @@ Lemon provides vitamin C that enhances non-heme iron absorption and can be used 
 
 - Part of food synergy strategy
 
-### Serving
+### Preparation
 
 - Add to iron-rich plant meals to enhance absorption
 - Use in bean soaking for pH optimization

@@ -59,7 +59,7 @@ Kefir is fermented milk providing diverse probiotics, including potential GABA-p
 - Part of fermented foods rotation; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
 - Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-### Serving
+### Preparation
 
 - Potential GABA production via specific strains; Levilactobacillus brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles can produce GABA
 

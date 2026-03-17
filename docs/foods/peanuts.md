@@ -63,7 +63,7 @@ Peanuts provide niacin (B3) for NAD+ synthesis, resveratrol (polyphenol), and pl
 - Part of diverse plant protein strategy; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 - Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
 
-### Serving
+### Preparation
 
 - Choose dry-roasted or raw over oil-roasted to preserve nutrients and avoid excess omega-6
 - Soak to reduce phytates and improve mineral bioavailability

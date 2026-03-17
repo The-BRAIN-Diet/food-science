@@ -50,7 +50,7 @@ Salmon roe (fish eggs) provides omega-3 fatty acids in phospholipid-bound form, 
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Best consumed cold/raw (sushi, spoonful daily) to preserve phospholipid structure
 - Avoid cooking to preserve phospholipid structure and prevent oxidation

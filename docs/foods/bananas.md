@@ -48,7 +48,7 @@ Bananas provide B6, tryptophan, and potassium, supporting neurotransmitter synth
 - Pair with tryptophan-rich proteins for serotonin synthesis; pair tryptophan-rich proteins with moderate carbs to increase Trp:LNAA ratio
 - Serotonin: Pair tryptophan-rich proteins with moderate carbs to increase Trp:LNAA ratio; timing midday or evening for calming effect
 
-### Serving
+### Preparation
 
 - Ripe bananas for B6 and tryptophan content
 - Green bananas for resistant starch (prebiotic fiber); resistant starch (cooled potatoes, green bananas) supports gut microbiome

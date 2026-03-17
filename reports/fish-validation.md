@@ -48,7 +48,7 @@
 - `tuna`: References section missing
 # Fish Category Validation Report
 
-Generated: 2026-03-16T17:19:39.103Z
+Generated: 2026-03-16T18:53:22.776Z
 
 ## clams
 

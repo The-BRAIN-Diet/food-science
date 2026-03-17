@@ -53,7 +53,7 @@ Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA,
 
 - Part of diverse fermented foods rotation
 
-### Serving
+### Preparation
 
 - Consume unpasteurized for live probiotics
 - Regular but not excessive intake

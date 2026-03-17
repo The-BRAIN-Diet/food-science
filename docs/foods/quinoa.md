@@ -69,7 +69,7 @@ Quinoa is a pseudograin providing complete plant protein, magnesium, and when fe
 - Pair with legumes to boost lysine content; combine with legumes to boost lysine for complete amino acid profile
 - Part of grain-legume complementarity strategy
 
-### Serving
+### Preparation
 
 - Rinse before cooking to remove saponins (bitter compounds)
 - Can be used in sourdough fermentation for GABA production; pseudo grains like quinoa, amaranth etc can introduce GABA and other important brain nutrients

@@ -64,7 +64,7 @@ Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, a
 - Pair with fat (olive oil, avocado) for carotenoid absorption
 - Part of diverse leafy green strategy
 
-### Serving
+### Preparation
 
 - Boiling reduces oxalates and improves mineral bioavailability
 - Can be used raw in salads or cooked in various dishes

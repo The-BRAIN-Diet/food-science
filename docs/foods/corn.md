@@ -39,7 +39,7 @@ Corn provides carotenoids (lutein, zeaxanthin) and complex carbohydrates, suppor
 - Pair with fat for carotenoid absorption; co-consuming a small amount of unsaturated fat improves micelle formation and chylomicron packaging, increasing carotenoid and fat-soluble vitamin absorption
 - Part of diverse vegetable intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-### Serving
+### Preparation
 
 - Can be consumed fresh, cooked, or as whole grain; cooking may enhance some nutrient bioavailability
 - Supports carotenoid diversity; lutein and zeaxanthin have been associated with improved cognitive performance, especially in domains such as memory, processing speed, and visual-spatial function

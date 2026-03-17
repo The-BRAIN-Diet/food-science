@@ -49,7 +49,7 @@ Jerusalem artichokes (sunchokes) provide the highest inulin content among common
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Can be consumed raw or cooked
 - Highest inulin source

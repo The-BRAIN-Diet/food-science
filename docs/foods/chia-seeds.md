@@ -57,7 +57,7 @@ Chia seeds provide ALA (plant omega-3), soluble fiber, and minerals, supporting 
 - Part of diverse seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 - Limited ALA-to-DHA conversion; consider algal DHA for direct omega-3 support; conversion from ALA is less than 5% in most adults
 
-### Serving
+### Preparation
 
 - Can be consumed raw, soaked, or in recipes; soaking creates gel-like consistency
 - Supports gut health via soluble fiber; prebiotic fibres support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier

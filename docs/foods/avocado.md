@@ -52,7 +52,7 @@ Avocado provides monounsaturated fats (MUFA), vitamin E, lutein, fiber, and glut
 - Part of MUFA strategy; MUFAs support membrane fluidity and anti-inflammatory effects
 - Practical pairings: carrots + tahini, kale + avocado, berries + yogurt/nuts
 
-### Serving
+### Preparation
 
 - Can be used as spread, in salads, or as oil
 

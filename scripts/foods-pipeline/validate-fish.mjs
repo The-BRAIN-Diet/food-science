@@ -9,7 +9,13 @@
  * - Essential Amino Acid Profile: for fish, no "Notable amino acids" subsection,
  *   includes a statement about complete EAA profile
  * - References: numbered list of markdown links pointing to BRAIN-Diet-References,
- *   and every key exists in BRAIN-diet.bib
+ *   and every key exists in BRAIN-diet.bib.
+ *
+ * Note: Key-in-bib is necessary but not sufficient for links to work. The references
+ * page deduplicates by DOI/URL/signature; if another entry has the same DOI or URL,
+ * only one is shown and the fragment #citationKey is that entry's key. After adding
+ * a new BibTeX entry, verify it appears on the references page and the food-page
+ * link scrolls to it. See Foods-Pages.mdc "References and connection to BibTeX".
  *
  * Outputs:
  * - reports/fish-validation.json

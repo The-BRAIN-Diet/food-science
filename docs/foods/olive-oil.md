@@ -35,7 +35,7 @@ Regular olive oil (refined or blended) has significantly lower bioactive polyphe
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - See [Extra Virgin Olive Oil](./extra-virgin-olive-oil.md) for detailed information on bioactive polyphenols
 - Regular olive oil has significantly lower polyphenol content than EVOO

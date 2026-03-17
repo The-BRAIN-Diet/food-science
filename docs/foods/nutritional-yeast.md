@@ -57,7 +57,7 @@ Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotin
 
 - Part of functional food strategy
 
-### Serving
+### Preparation
 
 - Can be used as seasoning or supplement
 - Important for vegan/vegetarian diets

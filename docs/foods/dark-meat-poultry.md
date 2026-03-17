@@ -51,7 +51,7 @@ Dark-meat poultry (thighs, legs) provides higher taurine content than white meat
 
 - Part of diverse protein strategy
 
-### Serving
+### Preparation
 
 - Higher taurine than white meat
 - Best prepared with gentle cooking

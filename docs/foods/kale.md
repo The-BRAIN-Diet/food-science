@@ -71,7 +71,7 @@ Kale is a nutrient-dense leafy green providing iron, magnesium, zinc, quercetin,
 - Part of diverse leafy green strategy
 - Practical pairings: carrots + tahini, kale + avocado, berries + yogurt/nuts
 
-### Serving
+### Preparation
 
 - Boiling reduces oxalates and improves mineral bioavailability [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
 

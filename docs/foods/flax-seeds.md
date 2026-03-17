@@ -55,7 +55,7 @@ Flax seeds provide ALA (plant omega-3), soluble fiber, and lignans, supporting g
 - Part of diverse seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 - Limited ALA-to-DHA conversion; consider algal DHA for direct omega-3 support; conversion from ALA is less than 5% in most adults
 
-### Serving
+### Preparation
 
 - Grind for better ALA absorption (whole seeds may pass through undigested)
 - Store ground seeds in refrigerator to prevent oxidation of omega-3s

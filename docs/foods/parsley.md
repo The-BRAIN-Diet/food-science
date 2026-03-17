@@ -57,7 +57,7 @@ Parsley, when added during cooking, significantly reduces harmful Cholesterol Ox
 
 - Part of food preparation strategy to reduce harmful byproducts
 
-### Serving
+### Preparation
 
 - Add fresh parsley during cooking to reduce COPs
 - Can be used as garnish or cooking ingredient

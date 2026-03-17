@@ -54,7 +54,7 @@ Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supp
 
 - Part of diverse prebiotic fiber strategy
 
-### Serving
+### Preparation
 
 - Can be consumed cooked or raw
 - Supports Bifidobacterium growth

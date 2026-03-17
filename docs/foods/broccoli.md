@@ -69,7 +69,7 @@ Broccoli is a cruciferous vegetable providing sulforaphane (from glucoraphanin),
 
 - Pair with fat for fat-soluble vitamin absorption
 
-### Serving
+### Preparation
 
 - Light cooking or raw consumption preserves sulforaphane formation
 - Chewing activates myrosinase enzyme to convert glucoraphanin to sulforaphane

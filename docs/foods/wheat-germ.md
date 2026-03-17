@@ -59,7 +59,7 @@ Wheat germ provides choline, B vitamins, and vitamin E, supporting acetylcholine
 
 - Part of diverse choline intake strategy
 
-### Serving
+### Preparation
 
 - Can be added to smoothies, cereals, or baked goods
 - Supports neurotransmitter synthesis

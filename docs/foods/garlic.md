@@ -39,7 +39,7 @@ Garlic provides allicin (when crushed), sulfur compounds for glutathione synthes
 
 - Part of diverse plant food strategy; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-### Serving
+### Preparation
 
 - Crush or chop to activate allicin formation; allicin is formed when garlic is crushed
 - Allow to sit 10 minutes after crushing before cooking to maximize allicin formation

@@ -41,7 +41,7 @@ Beetroot provides dietary nitrates that convert to nitric oxide, supporting vasc
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Raw or lightly cooked preserves nitrate content; roasting enhances flavor while maintaining nutritional value
 - Nitrate conversion to nitric oxide is enhanced by oral bacteria; consuming with leafy greens can support this pathway

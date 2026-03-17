@@ -46,7 +46,7 @@ Dandelion greens are bitter leafy greens providing prebiotic fiber and supportin
 
 - Part of diverse prebiotic fiber strategy
 
-### Serving
+### Preparation
 
 - Can be consumed raw or cooked
 - Bitter taste may be an acquired preference

@@ -2,7 +2,7 @@
 id: beef
 title: Beef
 sidebar_label: Beef
-description: 'High creatine, CoQ10, heme iron, and complete protein'
+description: 'High creatine, CoQ10, and bioavailable heme iron'
 tags:
   - Food
   - Beef
@@ -69,9 +69,9 @@ nutrition_supplementary_sources:
 
 ## Overview
 
-Beef is a nutrient-dense red meat providing complete high-quality protein together with several compounds relevant to brain and metabolic health, including creatine [1], coenzyme Q10 (CoQ10) [2], vitamin B12, zinc, and highly bioavailable heme iron [3]. These nutrients contribute to mitochondrial energy metabolism, oxygen transport, and neurotransmitter synthesis. Compared with non-heme iron from plant foods, heme iron from animal sources is absorbed more efficiently, making beef a useful contributor to iron status in some dietary patterns [3].
+Beef is a nutrient-dense red meat providing several compounds relevant to brain and metabolic health, including creatine [1], coenzyme Q10 (CoQ10) [2], vitamin B12, zinc, and highly bioavailable heme iron [3]. These nutrients contribute to mitochondrial energy metabolism, oxygen transport, and neurotransmitter synthesis. Compared with non-heme iron from plant foods, heme iron from animal sources is absorbed more efficiently, making beef a useful contributor to iron status in some dietary patterns [3].
 
-Beef proteins have a high digestible indispensable amino acid score (DIAAS), reflecting excellent protein quality and a complete essential amino acid profile [4]. Within the BRAIN Diet framework, beef may be used strategically for nutrient density, particularly where iron, vitamin B12, creatine, and high-quality protein are priorities. At the same time, overall dietary pattern still matters, including processing level, cooking method, total intake, and the balance between plant and animal foods [5,6].
+Within the BRAIN Diet framework, beef may be used strategically for nutrient density, particularly where iron, vitamin B12, creatine, and CoQ10 are priorities. At the same time, overall dietary pattern still matters, including processing level, cooking method, total intake, and the balance between plant and animal foods [5,6].
 
 ## Food Context
 
@@ -87,7 +87,7 @@ Beef proteins have a high digestible indispensable amino acid score (DIAAS), ref
 - Combine cooked beef with **polyphenol-rich herbs and spices** such as rosemary, thyme, oregano, or garlic, which may help reduce oxidative products generated during cooking [8].
 - Serve beef alongside **fibrous plant foods** such as legumes, greens, or whole grains to improve dietary balance and increase phytochemical diversity across the meal [6].
 
-## Serving
+## Preparation
 
 - Prefer **moderate-temperature cooking methods** such as braising, stewing, or sous-vide, which can reduce formation of heat-related compounds compared with intense charring [8].
 - Avoid frequent **high-temperature charring or heavy browning**, which increases formation of heterocyclic amines and advanced glycation end products during cooking [8,9].

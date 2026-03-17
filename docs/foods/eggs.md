@@ -61,7 +61,7 @@ Eggs are a nutrient-dense source of complete protein, **choline**, B vitamins, a
 
 - Pair with vegetables for carotenoid absorption (dietary fat enhances absorption of fat-soluble vitamins)
 
-### Serving
+### Preparation
 
 - Gentle cooking preserves nutrients and prevents formation of advanced glycation end products (AGEs)
 - Regular choline intake supports ongoing acetylcholine synthesis; important for structural membrane health
@@ -86,10 +86,8 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Pasture-raised egg yolks provide essential brain nutrients including choline, vitamin K2, butyrate, and fat-soluble vitamins A, D, and E [Soerensen et al. 2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)
-- Acetylcholine and choline: Memory, learning, neuroplasticity; food sources include egg yolks, fish roe, soy, wheat germ, liver
-- Eggs listed as source for tryptophan and tyrosine (neurotransmitter precursors)
-- Eggs mentioned as protein source with complete amino acid profile (DIAAS 113)
-- The CDP-ethanolamine pathway produces phosphatidylethanolamine (PE), which can be converted into phosphatidylcholine (PC) or N-acyl phosphatidylethanolamines (NAPEs) [Garani, Watts, and Mizrahi 2021](/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021)
-- Supporting NAPEs production through diet via PE-rich foods like eggs may enhance endocannabinoid system tone
-- Choline has had a positive effect on ADHD in studies [Derbyshire and Maes 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+
+1. [Soerensen et al. 2014 – Effect of cheese and dairy fat on LDL](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)
+2. [Garani, Watts, and Mizrahi 2021 – Endocannabinoid-related phospholipids (NAPEs)](/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021)
+3. [Derbyshire and Maes 2023 – Role of choline in brain health](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)

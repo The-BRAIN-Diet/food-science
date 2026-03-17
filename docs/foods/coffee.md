@@ -44,7 +44,7 @@ Coffee provides caffeine that stimulates dopamine production but has pendulum ef
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Stop 8+ hours before bed (variable half-life)
 - Can stimulate dopamine but may cause fatigue rebound

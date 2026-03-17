@@ -46,7 +46,7 @@ Spelt is an ancient wheat variety providing high asparagine and fiber, making it
 
 - Part of functional bread strategy
 
-### Serving
+### Preparation
 
 - Best used in sourdough fermentation
 - Higher nutrient content than refined wheat

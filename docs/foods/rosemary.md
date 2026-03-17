@@ -50,7 +50,7 @@ Rosemary provides compounds that support focus, antioxidant defenses, and neurop
 
 - Part of diverse herb/spice strategy
 
-### Serving
+### Preparation
 
 - Can be used fresh or as extract
 - Supports cognitive function

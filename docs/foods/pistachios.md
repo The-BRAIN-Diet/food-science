@@ -45,7 +45,7 @@ Pistachios provide CoQ10 (plant source), healthy fats, and protein, supporting m
 - Part of diverse nut intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 - Pair with other CoQ10 sources for optimal mitochondrial support
 
-### Serving
+### Preparation
 
 - Can be consumed raw or roasted; gentle roasting preserves nutrients
 - Supports mitochondrial function via CoQ10; CoQ10 deficiency leads to reduced ATP production and mitochondrial dysfunction

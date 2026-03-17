@@ -47,7 +47,7 @@ Early harvest extra virgin olive oil contains significantly higher concentration
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Best used for salad dressings, drizzling, low-heat cooking to preserve polyphenols
 - Avoid high-heat cooking to preserve polyphenols and prevent oxidation

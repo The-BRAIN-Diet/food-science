@@ -47,7 +47,7 @@ Buckwheat is a pseudograin providing complete plant protein, rutin (flavonoid), 
 - Pair with legumes for complete amino acid profile; combine with lentils or chickpeas for amino acid complementarity
 - Part of pseudograin diversity strategy
 
-### Serving
+### Preparation
 
 - Rinse before cooking to remove any debris
 - Can be used in sourdough/fermented breads for GABA production potential

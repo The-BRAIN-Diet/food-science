@@ -68,7 +68,7 @@ Tempeh is fermented soy providing live probiotics, enhanced nutrient bioavailabi
 - Part of fermented foods rotation; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
 - Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-### Serving
+### Preparation
 
 - Fermentation improves digestibility and nutrient bioavailability; lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels
 - Can be cooked various ways; gentle cooking preserves probiotics

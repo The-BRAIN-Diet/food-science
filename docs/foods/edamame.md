@@ -56,7 +56,7 @@ Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NA
 - Part of diverse plant protein strategy
 - Pair with grains if needed for amino acid balance
 
-### Serving
+### Preparation
 
 - Can be consumed steamed or boiled
 - Supports mitochondrial NAD+ availability

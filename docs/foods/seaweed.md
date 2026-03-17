@@ -53,7 +53,7 @@ Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, 
 
 - Part of diverse plant food strategy
 
-### Serving
+### Preparation
 
 - Can be added to soups, stews, or salads
 - Important for iodine intake (especially for plant-based diets)

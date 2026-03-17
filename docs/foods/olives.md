@@ -39,7 +39,7 @@ Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovas
 
 - Choose varieties with higher polyphenol content
 
-### Serving
+### Preparation
 
 - Can be consumed as whole fruit or in oil form
 - Part of Mediterranean diet pattern

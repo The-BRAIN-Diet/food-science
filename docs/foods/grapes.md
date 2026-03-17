@@ -48,7 +48,7 @@ Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-de
 - Part of diverse polyphenol intake
 - Pair with other resveratrol sources
 
-### Serving
+### Preparation
 
 - Can be consumed fresh or as juice (whole fruit preferred)
 - Supports mitochondrial NAD+ pathways

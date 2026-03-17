@@ -62,7 +62,7 @@ Nori is a red seaweed (Porphyra species) commonly used in sushi and Japanese cui
 
 - Part of diverse plant food intake strategy
 
-### Serving
+### Preparation
 
 - Commonly used in sushi rolls and as a garnish
 - Important for iodine intake, especially in plant-based diets

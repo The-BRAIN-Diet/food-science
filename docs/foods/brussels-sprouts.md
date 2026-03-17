@@ -44,7 +44,7 @@ Brussels sprouts provide sulfur-containing compounds that serve as glutathione p
 - Part of diverse cruciferous vegetable intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 - Pair with other sulfur-containing vegetables for synergistic effects
 
-### Serving
+### Preparation
 
 - Light cooking or raw consumption may preserve compounds; gentle cooking preserves nutrients
 - Supports glutathione synthesis; glutathione (GSH) is one of the body's major antioxidants

@@ -51,7 +51,7 @@ Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (caroteno
 
 - Pair with carotenoid-rich vegetables for enhanced absorption
 
-### Serving
+### Preparation
 
 - Gentle cooking preserves nutrients
 - Important for choline and carotenoid intake

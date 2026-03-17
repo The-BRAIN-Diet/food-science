@@ -29,7 +29,9 @@ protein_profile_note: Complete essential amino acid profile.
 
 ## Overview
 
-Kidney is an organ meat providing high nutrient density, including B vitamins, iron, and other minerals. Kidney is part of the organ meats category, and occasional offal consumption is recommended for nutrient density.
+Kidney is an organ meat that can contribute concentrated micronutrients (notably B vitamins and minerals), and is often used as part of a broader “offal rotation” rather than a daily staple. Reviews of edible offal highlight that different organs provide distinct nutrient profiles and can be used strategically in modest portions to support dietary adequacy [1].
+
+Within the BRAIN Diet framework, kidney is typically treated as an occasional nutrient-density food alongside other organ meats, paired with plant-forward meals to balance fibre and phytochemicals. Sourcing from reputable producers and using thorough cooking/handling practices are important for both quality and palatability [1].
 
 
 ## Food Context
@@ -42,7 +44,7 @@ Kidney is an organ meat providing high nutrient density, including B vitamins, i
 
 - Part of nutrient-dense animal food strategy
 
-### Serving
+### Preparation
 
 - Best prepared with gentle cooking
 - Important for nutrient density
@@ -67,5 +69,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Occasional offal (Latoch et al. 2024) i.e. liver recommended for nutrient density
+These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+
+1. [Latoch et al. 2024 – Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024)
 

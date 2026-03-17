@@ -54,7 +54,7 @@ Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine recept
 - Best consumed as tea in evening
 - Part of sleep-supportive evening routine
 
-### Serving
+### Preparation
 
 - Steep 5-10 minutes for optimal extraction
 - Can be combined with other calming herbs

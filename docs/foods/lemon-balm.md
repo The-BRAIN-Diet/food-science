@@ -53,7 +53,7 @@ Lemon balm is an herbal tea that supports sleep and calm, often used in evening 
 - Best consumed as tea in evening
 - Part of sleep-supportive evening routine
 
-### Serving
+### Preparation
 
 - Can be combined with chamomile and tart cherry
 - Supports circadian alignment

@@ -58,9 +58,7 @@ import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview
 
-Salmon is an oily fish providing complete high-quality protein together with long-chain omega-3 fatty acids **EPA** and **DHA**, **vitamin B12**, **selenium**, and the carotenoid **astaxanthin**. These intrinsic compounds support membrane phospholipid structure, mitochondrial function, and antioxidant capacity in neural and vascular tissues [1,2]. Regular inclusion of salmon and other oily fish helps reach evidence-based omega-3 intakes that are associated with cardiometabolic and cognitive benefits in many populations [1].
-
-Within the BRAIN Diet framework, salmon is used as a strategic food for marine omega-3s, B12, and high-quality protein, rather than the sole focus of the dietary pattern. Observational and intervention studies link higher EPA and DHA intakes with improved aspects of mood, executive function, and attention, particularly when EPA intake is adequate relative to DHA [1,2]. At the same time, overall dietary pattern, source (wild vs farmed), and cooking methods still matter for long-term risk and benefit balance [2].
+Salmon is an oily fish providing long-chain omega-3 fatty acids **EPA** and **DHA**, **vitamin B12**, **selenium**, the carotenoid **astaxanthin**, and high-quality protein. These intrinsic compounds support membrane phospholipid structure, mitochondrial function, and antioxidant capacity in neural and vascular tissues [1,2]. Regular inclusion of salmon and other oily fish helps reach evidence-based omega-3 intakes that are associated with cardiometabolic and cognitive benefits in many populations [1].
 
 ## Food Context
 
@@ -72,12 +70,10 @@ Please be sure to research your supermarket and their suppliers — many are mov
 
 The U.S. Food and Drug Administration (FDA) and Environmental Protection Agency (EPA) jointly publish [guidance on fish mercury levels](https://www.fda.gov/food/environmental-contaminants-food/technical-information-development-fdaepa-advice-about-eating-fish-those-who-might-become-or-are). They categorize fish into "Best Choices", "Good Choices", and "Choices to Avoid" based on average mercury concentrations and safe weekly intake levels. Salmon is repeatedly in the "Best Choices" category because it consistently has low mercury relative to the reference dose used to set safety advice (≤0.15 µg/g).
 
-### Serving
+### Preparation
 
 - Best prepared with gentle cooking to preserve omega-3s and prevent oxidation
 - Avoid high-heat cooking that creates advanced glycation end products (AGEs)
-- Can be consumed raw (sushi-grade) or lightly cooked
-- Targeted foods such as salmon can be used to reliably and safely exceed minimum omega-3 intakes
 
 
 ### Essential Amino Acid Profile

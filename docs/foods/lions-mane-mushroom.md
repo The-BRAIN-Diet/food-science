@@ -51,7 +51,7 @@ Lion's Mane mushroom (Hericium erinaceus) is a medicinal mushroom traditionally 
 
 - Store fresh mushrooms in the refrigerator; dried mushrooms should be stored in a cool, dry place
 
-### Serving
+### Preparation
 
 - Can be consumed fresh, dried, or as an extract
 - Fresh Lion's Mane has a seafood-like texture and mild flavor, suitable for cooking

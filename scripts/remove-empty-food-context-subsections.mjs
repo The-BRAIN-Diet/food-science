@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
- * Remove empty Food Context subsections (Sourcing/Synergies/Serving).
+ * Remove empty Food Context subsections (Sourcing/Synergies/Preparation).
  *
  * If a food page contains `## Food Context` and any of the subsections
- * `Sourcing`, `Synergies`, or `Serving` with no content (only whitespace)
+ * `Sourcing`, `Synergies`, or `Preparation` with no content (only whitespace)
  * before the next heading, this script removes that empty subsection heading.
  *
  * Usage:
@@ -21,7 +21,7 @@ const foodsDir = path.resolve(
 )
 
 const SKIP = new Set(["index.md", "shopping-list.md"])
-const SUBSECTIONS = ["Sourcing", "Synergies", "Serving"]
+const SUBSECTIONS = ["Sourcing", "Synergies", "Preparation"]
 
 function listFoodFiles(dir) {
   if (!fs.existsSync(dir)) return []

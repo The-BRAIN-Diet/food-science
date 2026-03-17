@@ -42,7 +42,7 @@ Avocado oil provides monounsaturated fats (MUFA), vitamin E, and lutein, suitabl
 - Part of stable cooking fat strategy
 - Pair with carotenoid-rich vegetables
 
-### Serving
+### Preparation
 
 - Suitable for cooking (higher smoke point than olive oil)
 - Supports MUFA intake

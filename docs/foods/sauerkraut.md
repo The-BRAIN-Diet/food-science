@@ -47,7 +47,7 @@ Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbio
 
 - Part of fermented foods rotation
 
-### Serving
+### Preparation
 
 - Regular but not excessive intake
 - Supports gut microbiome diversity

@@ -55,7 +55,7 @@ Wasabi is a pungent green condiment traditionally made from the grated rhizome o
 - Traditional wasabi is grated fresh and loses pungency quickly; tube or powder versions often blend horseradish, mustard, and colour.
 - Check ingredient lists if you need to differentiate true wasabi from horseradish-based preparations.
 
-### Serving
+### Preparation
 
 - Use small amounts as a condiment with sushi, fish, and rice-based meals rather than as a primary ingredient.
 

@@ -43,7 +43,7 @@ Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, 
 
 - Part of precision nutrition strategy
 
-### Serving
+### Preparation
 
 - Can be consumed as legume
 - Supports dopamine synthesis pathways

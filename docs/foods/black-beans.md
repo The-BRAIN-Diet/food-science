@@ -63,7 +63,7 @@ Black beans provide plant protein, polyphenols, and prebiotic fiber. The paper d
 - Pair with vitamin C to enhance iron absorption, with studies showing up to a fourfold increase when consumed together [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
 - Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability [GREINER and KONIET
 
-### Serving
+### Preparation
 
 - Soak at 60°C (warm water) with pH 6.0 (lemon/vinegar) for optimal phytate reduction; optimal conditions for the endogenous phytases of black beans is 60°C and pH 6.0, that resulted in a 55% reduction in 1P6 after soaking and cooking
 - Soak 12-24 hours, then cook thoroughly to reduce phytates and improve mineral bioavailability

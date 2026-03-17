@@ -47,7 +47,7 @@ Amaranth is a pseudograin providing complete plant protein and, when used in fun
 
 - Pair with legumes if needed
 
-### Serving
+### Preparation
 
 - Can be used in sourdough/fermented breads for GABA
 - Rinse before cooking to remove saponins

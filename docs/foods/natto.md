@@ -57,7 +57,7 @@ Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitam
 
 - Part of fermented foods rotation
 
-### Serving
+### Preparation
 
 - Acquired taste; can be an acquired preference
 - Unique probiotic profile

@@ -44,7 +44,7 @@ Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fib
 - Part of diverse prebiotic fiber strategy
 - Pair with other allium vegetables
 
-### Serving
+### Preparation
 
 - Can be consumed cooked or raw
 - Supports Bifidobacterium growth

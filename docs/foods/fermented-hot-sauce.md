@@ -53,7 +53,7 @@ Fermented hot sauce is made by fermenting chilli peppers (often with garlic, sal
 
 - Use sparingly to add heat and acidity to meals built around BRAIN Diet staple foods (vegetables, legumes, whole grains, quality proteins).
 
-### Serving
+### Preparation
 
 - Typically produced by fermenting chopped chillies with salt (and sometimes garlic and other aromatics) at room temperature for several days to weeks.
 

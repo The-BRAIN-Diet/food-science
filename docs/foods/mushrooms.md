@@ -50,7 +50,7 @@ Mushrooms, especially UV-exposed varieties, provide vitamin D and niacin (B3) fo
 
 - Include in diverse plant food rotation; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-### Serving
+### Preparation
 
 - UV-exposed mushrooms provide vitamin D2 (ergocalciferol); targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts)
 - Cooking may enhance some nutrient bioavailability

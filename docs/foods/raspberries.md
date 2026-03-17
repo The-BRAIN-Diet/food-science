@@ -45,7 +45,7 @@ Raspberries provide polyphenols, fiber, and vitamin C, supporting antioxidant ne
 
 - Part of diverse berry intake
 
-### Serving
+### Preparation
 
 - Best consumed fresh or frozen
 - Supports antioxidant networks

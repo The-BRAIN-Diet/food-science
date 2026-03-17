@@ -45,7 +45,7 @@ Cauliflower is a cruciferous vegetable providing fiber, B vitamins, and potentia
 - Part of diverse cruciferous intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 - Pair with fat for fat-soluble vitamin absorption; dietary fat enhances the absorption of fat-soluble vitamins
 
-### Serving
+### Preparation
 
 - Can be consumed raw, roasted, or steamed; light cooking may preserve some compounds
 - Supports gut health via fiber; prebiotic fiber supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier

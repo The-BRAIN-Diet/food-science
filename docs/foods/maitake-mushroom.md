@@ -50,7 +50,7 @@ Maitake mushroom (Grifola frondosa), also known as "hen of the woods," is a medi
 
 - Store fresh mushrooms in the refrigerator
 
-### Serving
+### Preparation
 
 - Can be consumed fresh or dried; fresh maitake has a superior texture and flavor
 - Cooking enhances flavor and may improve bioavailability of some compounds

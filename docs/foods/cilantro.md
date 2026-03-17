@@ -53,7 +53,7 @@ Cilantro is an herb that may support heavy metal chelation and provides polyphen
 
 - Part of diverse herb intake
 
-### Serving
+### Preparation
 
 - Can be used fresh or as garnish
 - Similar uses to parsley

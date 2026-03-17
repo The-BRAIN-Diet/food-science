@@ -50,7 +50,7 @@ Fish roe provides phospholipid-bound omega-3 fatty acids (EPA/DHA), astaxanthin,
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Phospholipid-bound omega-3s for superior brain delivery
 - Astaxanthin for antioxidant support

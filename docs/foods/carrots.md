@@ -46,7 +46,7 @@ Carrots provide beta-carotene (vitamin A precursor), demonstrating important foo
 - Pair with fat (tahini, olive oil, avocado) for optimal absorption; practical pairings: carrots + tahini
 - Part of diverse vegetable intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-### Serving
+### Preparation
 
 - Supports carotenoid diversity; carotenoids play a neuroprotective role through their antioxidant and anti-inflammatory properties
 

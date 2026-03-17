@@ -54,7 +54,7 @@ Soy provides complete plant protein (DIAAS 92-96), isoflavones (genistein), and 
 - Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
 - Part of diverse plant protein strategy
 
-### Serving
+### Preparation
 
 - Fermented forms (tempeh, miso, natto) may have additional benefits including probiotics and improved digestibility
 - Supports choline and neurotransmitter synthesis

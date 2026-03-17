@@ -44,7 +44,7 @@ Pomegranates provide ellagitannins that gut bacteria convert to urolithin A, sup
 
 - Pair with diverse plant foods to support microbiome; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-### Serving
+### Preparation
 
 - Consume whole fruit or juice to obtain ellagitannins
 - Production of urolithin A depends on gut microbiome diversity; higher polyphenol intake and microbial diversity increase urolithin A production

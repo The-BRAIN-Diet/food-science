@@ -54,7 +54,7 @@ Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects
 
 - Part of gut-brain axis strategy
 
-### Serving
+### Preparation
 
 - Can be used fresh, powdered, or as tea
 - Prokinetic effects support SIBO management

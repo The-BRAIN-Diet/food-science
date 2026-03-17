@@ -48,7 +48,7 @@ Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur comp
 - Part of diverse prebiotic fiber strategy; prebiotic fibres including inulin (chicory, onions) support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
 - Pair with other allium vegetables for synergistic effects
 
-### Serving
+### Preparation
 
 - Can be consumed raw or cooked; cooking may enhance some compounds
 - Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support antioxidant defenses

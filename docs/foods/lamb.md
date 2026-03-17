@@ -2,7 +2,7 @@
 id: lamb
 title: Lamb
 sidebar_label: Lamb
-description: 'Creatine, heme iron, and complete protein'
+description: 'Creatine and bioavailable heme iron'
 tags:
   - Food
   - Lamb
@@ -32,7 +32,9 @@ nutrition_source:
 
 ## Overview
 
-Lamb provides creatine, heme iron, and complete high-quality protein, supporting ATP recycling and neurotransmitter synthesis. Creatine: Supports ATP recycling in neurons; enhances working memory and cognitive processing speed; food sources include beef, lamb, pork, salmon, tuna, cod, scallops. Iron (heme & non-heme): Oxygen delivery to brain, dopamine synthesis; food sources include liver, beef, lamb, poultry, fish. Heme iron is 2-3× more bioavailable than non-heme iron.
+Lamb is a nutrient-dense red meat providing highly bioavailable **heme iron**, **zinc**, creatine, and B vitamins. Heme iron from animal foods is absorbed more efficiently than non-heme iron from plant foods, helping support iron status where requirements are higher or intake is marginal [1]. Creatine contributes to ATP buffering and rapid energy availability in excitable tissues, with organ meats and red meats among the richer dietary sources [2].
+
+Within the BRAIN Diet framework, lamb is used strategically for its iron and zinc density rather than as an everyday centrepiece. It fits best when paired with vegetables, legumes, and whole grains to keep the overall pattern plant-forward, while choosing minimally processed cuts and gentler cooking methods to avoid excessive charring and heat-derived compounds [1,3].
 
 
 ## Food Context
@@ -43,9 +45,12 @@ Lamb provides creatine, heme iron, and complete high-quality protein, supporting
 
 ### Synergies
 
-- Part of diverse protein strategy
+- Pair lamb with **allium vegetables** such as onions, garlic, or leeks in stews and roasts to add sulfur-containing compounds and polyphenols that complement its mineral-rich profile [4,5].
+- Use **herbs rich in polyphenols** (rosemary, thyme, oregano) in rubs and marinades; these traditional seasonings can help limit lipid oxidation during cooking while adding antioxidant compounds to the meal [6].
+- Combine lamb with **legumes** (lentils, chickpeas) in Mediterranean-style dishes so lamb supplies highly bioavailable iron, zinc, and B12 while legumes contribute fibre and plant polyphenols for cardiometabolic balance [7].
+- Include **acidic ingredients** such as tomatoes, lemon, or yogurt-based marinades to support tenderisation, improve palatability, and shift overall meal composition toward a more plant-forward pattern [8].
 
-### Serving
+### Preparation
 
 - Gentle cooking preserves nutrients and prevents formation of advanced glycation end products (AGEs)
 - Important for creatine and heme iron intake
@@ -71,7 +76,13 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Creatine: Supports ATP recycling in neurons; enhances working memory and cognitive processing speed; food sources include beef, lamb, pork, salmon, tuna, cod, scallops
-- Iron (heme & non-heme): Oxygen delivery to brain, dopamine synthesis; food sources include liver, beef, lamb, poultry, fish
-- Heme iron is 2-3× more bioavailable than non-heme iron, making animal sources important for iron status
-- Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork (lamb also contains)
+These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+
+1. [Beard 2003 – Iron deficiency and neural functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
+2. [Avgerinos et al. 2018 – Creatine supplementation and cognitive performance](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
+3. [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+4. [Nicastro et al. 2015 – Garlic and onions: their cancer prevention properties](/docs/papers/BRAIN-Diet-References#nicastro_garlic_onions_2015)
+5. [Rose et al. 2005 – Bioactive S-alk(en)yl cysteine sulfoxide metabolites in Allium](/docs/papers/BRAIN-Diet-References#rose_allium_sulfoxides_2005)
+6. [Ahn et al. 2007 – Effects of plant extracts on lipid oxidation and colour of cooked ground beef](/docs/papers/BRAIN-Diet-References#ahn_plant_extracts_beef_2007)
+7. [Gibson et al. 2006 – Improving the bioavailability of nutrients in plant foods at the household level](/docs/papers/BRAIN-Diet-References#gibson_improving_bioavailability_2006)
+8. [Toldrá 2010 – Handbook of Meat Processing](/docs/papers/BRAIN-Diet-References#toldra_meat_processing_2010)

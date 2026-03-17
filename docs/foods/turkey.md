@@ -45,7 +45,9 @@ nutrition_source:
 
 ## Overview
 
-Turkey provides high-quality protein rich in tryptophan (serotonin precursor) and niacin (B3), supporting mood regulation and mitochondrial energy production. Turkey is listed as a source for tryptophan, which is converted to NAD+ via kynurenine pathway and serves as a serotonin precursor. Turkey is also listed as a niacin-rich food, supporting NAD+ synthesis for mitochondrial function. High-tyrosine protein from turkey supports dopamine synthesis for morning meals.
+Turkey provides amino acids including **tryptophan** (a serotonin precursor) together with **niacin (vitamin B3)**, supporting mood-related pathways and mitochondrial energy production. Tryptophan can also be routed through the kynurenine pathway toward NAD⁺ synthesis, while niacin supports NAD⁺ availability via the salvage pathway. Turkey is also commonly used as a higher-tyrosine animal food in breakfast contexts to support catecholamine neurotransmitter synthesis.
+
+Within the BRAIN Diet framework, turkey can be used as a pragmatic way to support niacin intake and amino-acid availability while keeping meals plant-forward via vegetable- and legume-based sides. Timing and meal composition matter: carbohydrate co-consumption can influence amino-acid competition at transporters (Trp:LNAA ratio), and gentler cooking helps limit heat-derived compounds while maintaining palatability [1,2].
 
 ## Food Context
 
@@ -55,7 +57,7 @@ Turkey provides high-quality protein rich in tryptophan (serotonin precursor) an
 - Best consumed midday or evening for calming effect; timing midday or evening for calming effect
 - High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis
 
-### Serving
+### Preparation
 
 - Gentle cooking preserves tryptophan and prevents formation of advanced glycation end products (AGEs)
 
@@ -83,8 +85,7 @@ Notable amino acids:
 
 ## References
 
-- Tryptophan: Converted to NAD+ via kynurenine pathway; food sources include turkey, chicken, eggs, pumpkin seeds, oats, soybeans
-- Serotonin: Mood regulation, emotional control, impulse moderation; food sources include turkey, eggs, dairy, soy, seeds, oats, bananas; cofactors include tryptophan, B6, magnesium
-- Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains [Pirinen et al. 2020](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
-- Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health
-- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis
+These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+
+1. [Pirinen et al. 2020 – Niacin and NAD⁺ metabolism in health and disease](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
+2. [Fernstrom 2013 – Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)

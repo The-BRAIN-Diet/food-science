@@ -45,7 +45,7 @@ Peas provide plant protein, prebiotic fiber, and thiamine (B1), supporting gut h
 - Part of diverse legume intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 - Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
 
-### Serving
+### Preparation
 
 - Can be consumed fresh, frozen, or dried; fresh peas have higher nutrient content
 - Soak dried peas to reduce phytates and improve mineral bioavailability

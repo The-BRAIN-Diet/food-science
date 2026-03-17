@@ -30,7 +30,7 @@ protein_profile_note: Complete essential amino acid profile.
 
 ## Overview
 
-Shrimp provides complete protein, selenium, and other minerals, supporting neurotransmitter synthesis and antioxidant function. Shrimp is listed as a seafood source and is part of diverse protein strategy.
+Shrimp are shellfish that provide **selenium**, **iodine**, **vitamin B12**, and other trace minerals, together with highly digestible protein. These nutrients support neurotransmitter synthesis, antioxidant enzyme systems, and thyroid function within a broader seafood rotation [1]. As with other shellfish, sourcing and preparation influence both safety and sustainability, so shrimp are best used as one component of a varied marine protein pattern rather than a sole staple [2].
 
 
 ## Food Context
@@ -43,7 +43,7 @@ Shrimp provides complete protein, selenium, and other minerals, supporting neuro
 
 - Part of diverse seafood intake
 
-### Serving
+### Preparation
 
 - Best prepared with gentle cooking
 - Supports protein and mineral goals

@@ -42,7 +42,7 @@ Butter provides saturated fats, fat-soluble vitamins, and in grass-fed varieties
 - See [Grass-Fed Butter](./grass-fed-butter.md) for detailed information
 - Grass-fed varieties provide additional bioactives like CLA and C15:0
 
-### Serving
+### Preparation
 
 - Provides fat-soluble vitamins A, D, E, K2 (varies by source)
 

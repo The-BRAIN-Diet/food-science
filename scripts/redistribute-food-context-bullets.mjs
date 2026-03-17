@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Redistribute Food Context bullets from Serving into Sourcing, Synergies, and Serving.
- * Reads each food page, classifies each bullet under ### Serving by keywords, and rewrites the section.
+ * Redistribute Food Context bullets from Preparation into Sourcing, Synergies, and Preparation.
+ * Reads each food page, classifies each bullet under ### Preparation by keywords, and rewrites the section.
  */
 import fs from "node:fs"
 import path from "node:path"
@@ -16,7 +16,7 @@ function classifyBullet(line) {
   const bullet = line.replace(/^- /, "").trim()
   if (!bullet) return "serving"
 
-  // Serving first: clear preparation/cooking advice (soak, cook thoroughly, reduce phytates/oxalate)
+  // Preparation first: clear preparation/cooking advice (soak, cook thoroughly, reduce phytates/oxalate)
   // so these aren’t misclassified by later synergies rules (e.g. “legumes/grains”)
   if (
     /soak\s+(and\s+)?cook|soak\s+(before|overnight|to\s+reduce)|cook\s+thoroughly|reduce\s+(phytates|oxalate)|soaking\s+and\s+sprouting\s+reduces\s+phytates|boiling\s+.*\s+oxalate/i.test(bullet)
@@ -54,7 +54,7 @@ function classifyBullet(line) {
     /eat your beans with vitamin c/i.test(bullet)
   ) return "synergies"
 
-  // Serving: how to prepare, cook, soak, avoid
+  // Preparation: how to prepare, cook, soak, avoid
   if (
     /soak (before|overnight|and cook|to reduce)/i.test(bullet) ||
     /cook thoroughly|boiling|gentle cooking|light cooking|best prepared with gentle/i.test(bullet) ||
@@ -80,7 +80,7 @@ function classifyBullet(line) {
     /soaking and sprouting reduces phytates/i.test(bullet)
   ) return "serving"
 
-  // Default: if mentions "pair" or "part of" -> synergies; "cook"/"soak"/"avoid" -> serving; "choose"/"store" -> sourcing
+  // Default: if mentions "pair" or "part of" -> synergies; "cook"/"soak"/"avoid" -> preparation; "choose"/"store" -> sourcing
   if (/pair with|part of .* strategy|complementarity/i.test(bullet)) return "synergies"
   if (/soak|cook|boil|avoid|preserve|reduce (phytate|oxalate)|gentle cooking/i.test(bullet)) return "serving"
   if (/choose|store|sustainable|grass-fed|wild|farmed/i.test(bullet)) return "sourcing"
@@ -148,12 +148,12 @@ function getExistingSynergiesContent(block) {
 function rebuildFoodContext(block, bullets) {
   const sourcing = []
   const synergies = []
-  const serving = []
+  const preparation = []
   for (const b of bullets) {
     const kind = classifyBullet(b)
     if (kind === "sourcing") sourcing.push(b)
     else if (kind === "synergies") synergies.push(b)
-    else serving.push(b)
+    else preparation.push(b)
   }
   const existingSourcing = getExistingSourcingContent(block)
   const existingSynergies = getExistingSynergiesContent(block)
@@ -164,8 +164,8 @@ function rebuildFoodContext(block, bullets) {
   out += "### Synergies\n\n"
   out += existingSynergies
   if (synergies.length) out += synergies.join("\n") + "\n\n"
-  out += "### Serving\n\n"
-  if (serving.length) out += serving.join("\n") + "\n\n"
+  out += "### Preparation\n\n"
+  if (preparation.length) out += preparation.join("\n") + "\n\n"
   return out
 }
 

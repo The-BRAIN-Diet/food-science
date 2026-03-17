@@ -43,7 +43,7 @@ Coconut oil provides medium-chain triglycerides (MCTs) that provide rapid energy
 
 - Part of MCT strategy for brain energy
 
-### Serving
+### Preparation
 
 - Use in smoothies, baking, or small portions
 - Supports ketone production

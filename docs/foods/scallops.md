@@ -33,9 +33,9 @@ nutrition_source:
 
 ## Overview
 
-Scallops are bivalve shellfish providing complete, high-quality protein together with **vitamin B12**, **iron**, **zinc**, **magnesium**, and modest amounts of omega-3 fatty acids. Their micronutrient profile supports red blood cell formation, one-carbon metabolism, and enzymatic antioxidant systems, while the lean protein contributes to satiety and tissue repair with relatively low fat and energy per 100 g [1]. Like other shellfish, scallops also supply trace minerals that are less abundant in many terrestrial foods.
+Scallops are bivalve shellfish that provide **vitamin B12**, **iron**, **zinc**, **magnesium**, modest amounts of omega-3 fatty acids, and lean, highly digestible protein. Their micronutrient profile supports red blood cell formation, one-carbon metabolism, and enzymatic antioxidant systems, while the lean protein contributes to satiety and tissue repair with relatively low fat and energy per 100 g [1]. Like other shellfish, scallops also supply trace minerals that are less abundant in many terrestrial foods.
 
-Within the BRAIN Diet framework, scallops are used as an occasional **lean shellfish option** that complements both fish and plant-based protein sources. They fit particularly well into meals where the primary focus is on vegetables and whole grains, adding high-quality protein and micronutrients without a large increase in calories [1]. As with other seafood, overall dietary pattern, sourcing from well-managed fisheries, and gentle cooking methods help ensure that scallops contribute nutritional benefits within a sustainable, safe eating pattern [1,2].
+Within the BRAIN Diet framework, scallops are used as an occasional **lean shellfish option** that complements both fish and plant-based protein sources. They fit particularly well into meals where the primary focus is on vegetables and whole grains, adding protein and micronutrients without a large increase in calories [1]. As with other seafood, overall dietary pattern, sourcing from well-managed fisheries, and gentle cooking methods help ensure that scallops contribute nutritional benefits within a sustainable, safe eating pattern [1,2].
 
 
 ## Food Context
@@ -48,7 +48,7 @@ Within the BRAIN Diet framework, scallops are used as an occasional **lean shell
 
 - Part of diverse protein strategy
 
-### Serving
+### Preparation
 
 - Cook scallops gently (light searing, steaming, or baking) to preserve texture and nutrient content; avoid overcooking, which can toughen the protein.
 - Pair scallops with vegetable-rich sides and whole grains so their lean protein and micronutrients are integrated into balanced meals.

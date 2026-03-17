@@ -2,7 +2,7 @@
 id: chicken
 title: Chicken
 sidebar_label: Chicken
-description: 'Complete protein with niacin, zinc, and tryptophan'
+description: 'Niacin, zinc, and tryptophan'
 tags:
   - Food
   - Chicken
@@ -46,7 +46,9 @@ nutrition_source:
 
 ## Overview
 
-Chicken provides complete high-quality protein, niacin (B3) for NAD+ synthesis, zinc, and tryptophan, supporting neurotransmitter synthesis and mitochondrial function. Niacin (Vitamin B3) is directly converted to NAD+ via salvage pathway, and lack of niacin hampers NAD+ regeneration, decreasing ATP production and potentially affecting cognitive performance. Chicken is listed as a niacin-rich food and as a source for tryptophan, which is converted to NAD+ via kynurenine pathway and serves as a serotonin precursor.
+Chicken provides **niacin (vitamin B3)** for NAD⁺ synthesis, **zinc**, and amino acids including tryptophan, supporting neurotransmitter synthesis and mitochondrial function. Niacin is directly converted to NAD⁺ via the salvage pathway, and inadequate niacin can impair NAD⁺ regeneration, reducing ATP production and potentially affecting cognitive performance. Chicken is also a practical dietary source of tryptophan, which serves as a serotonin precursor and can be routed through the kynurenine pathway.
+
+Within the BRAIN Diet framework, chicken is typically used as a flexible protein base while its micronutrient profile (especially niacin and zinc) supports broader metabolic and neurochemical priorities. Pairing chicken with fibre- and polyphenol-rich plant foods helps keep the overall pattern plant-forward, while gentler cooking methods help preserve B vitamins and limit heat-derived compounds [1,2].
 
 
 ## Food Context
@@ -56,7 +58,7 @@ Chicken provides complete high-quality protein, niacin (B3) for NAD+ synthesis, 
 - Part of diverse protein strategy
 - Protein-rich breakfasts support dopamine synthesis; pair with anti-inflammatory nutrients to protect DMN switching
 
-### Serving
+### Preparation
 
 - Best prepared with gentle cooking to preserve nutrients and prevent formation of advanced glycation end products (AGEs)
 - Dark meat provides more taurine, which regulates calcium signaling, antioxidant defense, and neurotransmission
@@ -82,9 +84,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains [Pirinen et al. 2020](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
-- Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health
-- Tryptophan: Converted to NAD+ via kynurenine pathway; food sources include turkey, chicken, eggs, pumpkin seeds, oats, soybeans
-- Serotonin: Mood regulation, emotional control, impulse moderation; food sources include turkey, eggs, dairy, soy, seeds, oats, bananas; cofactors include tryptophan, B6, magnesium
-- Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork
-- Dopamine: Attention, motivation, executive function; food sources include lean poultry, beef, fish, dairy, soy, pumpkin seeds
+These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+
+1. [Pirinen et al. 2020 – Niacin and NAD⁺ metabolism in health and disease](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
+2. [Fernstrom 2013 – Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)

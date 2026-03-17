@@ -52,7 +52,7 @@ Cinnamon is a spice containing bioactive polyphenols and compounds that support 
 
 - Part of glucose regulation strategy
 
-### Serving
+### Preparation
 
 - Can be used in culinary amounts or therapeutic doses
 - Ceylon cinnamon preferred over cassia for lower coumarin

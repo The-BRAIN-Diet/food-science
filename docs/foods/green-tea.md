@@ -42,7 +42,7 @@ Green tea provides catechins (especially EGCG), L-theanine, and polyphenols that
 
 - Can reduce non-heme iron absorption if taken with meals; space ≥1 hour from iron-rich meals or add lemon (vitamin C) to mitigate this
 
-### Serving
+### Preparation
 
 - Steep at lower temperatures to preserve catechins and prevent degradation
 - Green tea catechins increase Faecalibacterium and Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation

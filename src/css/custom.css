@@ -32,6 +32,8 @@
 /* Reference anchor link styling */
 .reference-item {
   position: relative;
+  /* Ensure anchored reference items scroll below the sticky navbar */
+  scroll-margin-top: var(--ifm-navbar-height, 80px);
 }
 
 .reference-anchor {

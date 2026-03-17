@@ -55,7 +55,7 @@ Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense s
 - Choose clams from reputable suppliers that harvest from monitored coastal waters with routine testing for biotoxins and contaminants.
 - Farmed clams can offer a relatively low-impact seafood option when produced under robust environmental and safety standards.
 
-### Serving
+### Preparation
 
 - Cook clams thoroughly—for example by steaming until all shells have opened and discarding any that remain closed—to reduce microbiological risk.
 - Incorporate clams into dishes that include vegetables and whole grains so their concentrated B12, iron, and taurine content sits within a balanced meal pattern.

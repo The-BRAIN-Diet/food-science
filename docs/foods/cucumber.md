@@ -43,7 +43,7 @@ Cucumber provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate,
 
 - Part of diverse vegetable intake
 
-### Serving
+### Preparation
 
 - Can be consumed raw or lightly prepared
 - Supports mitochondrial NAD+ availability

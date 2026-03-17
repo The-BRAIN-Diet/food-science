@@ -44,7 +44,7 @@ Green (unripe) bananas provide resistant starch, a prebiotic fiber that supports
 
 - Part of prebiotic fiber strategy
 
-### Serving
+### Preparation
 
 - Consume while still green/unripe for resistant starch
 - Can be cooked to increase resistant starch

@@ -396,6 +396,14 @@ So that the BRAIN framework (context before data) is respected, the canonical or
 7. **Biological Target Matrix** – `<FoodMatrix tag="…" />`.
 8. **References** – Evidence and links.
 
+### References and the global bibliography (BibTeX)
+
+Food pages list references as markdown links to the global bibliography: `/docs/papers/BRAIN-Diet-References#citationKey`. For the link to work:
+
+1. **The entry must exist** in `static/bibtex/BRAIN-diet.bib` with that citation key.
+2. **The entry must appear on the rendered page.** The BRAIN-Diet-References page deduplicates entries by DOI, URL, or title+year+author. If another entry has the same DOI or URL, only one is shown (the one with higher “metadata score”); the visible entry’s anchor is its citation key. So a key in the .bib is necessary but not sufficient—the entry you link to must be the one that survives deduplication.
+3. **When adding a new BibTeX entry** that a food page will link to: ensure no other entry in the .bib shares the same DOI or URL, or your entry may be omitted from the page and the fragment link will not resolve. After adding, verify the reference appears on the references page and that the food-page link scrolls to it.
+
 ---
 
 ## References

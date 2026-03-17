@@ -46,7 +46,7 @@ Blueberries are rich in polyphenols, particularly anthocyanins, that support cog
 - Pair with exercise for BDNF synergy; exercise + omega-3 + polyphenol synergy boosts BDNF expression
 - Part of diverse polyphenol intake strategy; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-### Serving
+### Preparation
 
 - Best consumed fresh or frozen to preserve polyphenol content
 - Polyphenol sources including berries increase Faecalibacterium and Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation

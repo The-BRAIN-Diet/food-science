@@ -45,7 +45,7 @@ Capers are among the highest sources of quercetin, a flavonoid polyphenol that s
 - Part of diverse polyphenol intake strategy
 - Pair with other quercetin sources
 
-### Serving
+### Preparation
 
 - Can be used as seasoning or condiment
 - Rinse if high-sodium pickled variety

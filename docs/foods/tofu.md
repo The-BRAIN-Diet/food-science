@@ -72,7 +72,7 @@ Tofu is a soy-based food providing complete plant protein, isoflavones (genistei
 - Part of diverse plant protein strategy
 - High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis
 
-### Serving
+### Preparation
 
 - Can be prepared various ways (baked, fried, steamed); gentle cooking preserves nutrients
 

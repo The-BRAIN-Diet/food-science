@@ -56,7 +56,7 @@ Purple potatoes provide anthocyanins, particularly C3G (cyanidin-3-glucoside), t
 - Part of diverse polyphenol intake
 - Pair with other C3G-rich foods
 
-### Serving
+### Preparation
 
 - Can form resistant starch when cooked and cooled
 - Supports detoxification pathways

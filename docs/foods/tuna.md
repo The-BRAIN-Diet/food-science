@@ -37,7 +37,7 @@ protein_profile_note: Complete essential amino acid profile.
 
 ## Overview
 
-Tuna is a lean fish providing complete, high-quality protein together with **omega-3 fatty acids** (primarily EPA and DHA), **vitamin B3 (niacin)**, and **selenium**. These intrinsic nutrients support neuronal membrane composition, mitochondrial energy metabolism, and antioxidant enzyme systems [1]. Compared with oily fish such as salmon or mackerel, tuna is lower in total fat but still contributes marine omega-3s and micronutrients in relatively low-calorie portions.
+Tuna is a lean fish providing **omega-3 fatty acids** (primarily EPA and DHA), **vitamin B3 (niacin)**, **selenium**, and highly digestible protein. These intrinsic nutrients support neuronal membrane composition, mitochondrial energy metabolism, and antioxidant enzyme systems [1]. Compared with oily fish such as salmon or mackerel, tuna is lower in total fat but still contributes marine omega-3s and micronutrients in relatively low-calorie portions.
 
 Within the BRAIN Diet framework, tuna is used as one component of a broader fish rotation rather than the sole marine protein source. Niacin-rich foods such as tuna contribute to NAD⁺-dependent metabolic pathways, while selenium participates in glutathione peroxidase and other antioxidant enzymes [1,2]. Because larger tuna species can accumulate higher levels of mercury, emphasis is placed on choosing lower-trophic species and moderating frequency within an overall pattern that includes smaller oily fish like sardines and herring [3].
 
@@ -48,7 +48,7 @@ Within the BRAIN Diet framework, tuna is used as one component of a broader fish
 - Prefer smaller tuna species (such as skipjack) and products from fisheries with transparent sustainability and contaminant monitoring, as larger predatory tuna tend to accumulate more mercury.
 - When using canned tuna, choose products packed in water or high-quality oils without excessive sodium or additives.
 
-### Serving
+### Preparation
 
 - Use gentle cooking methods (light searing, baking, steaming) to preserve moisture and omega-3 content; avoid repeated deep-frying or heavy charring.
 - Incorporate tuna into meals that also contain vegetables and whole grains, so it contributes lean protein, niacin, and selenium within a balanced plate rather than dominating total dietary fish intake.

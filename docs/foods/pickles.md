@@ -57,7 +57,7 @@ Pickles (unpasteurized fermented) provide live probiotics, including Levilactoba
 
 - Part of fermented foods strategy
 
-### Serving
+### Preparation
 
 - Rinse if high-sodium variety
 - Supports GABA production via gut microbiome

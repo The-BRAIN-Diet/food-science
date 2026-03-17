@@ -55,7 +55,7 @@ Turmeric is the whole spice (dried and ground root of the Curcuma longa plant) t
 - Pair with fat and heat for enhanced absorption
 - Part of culinary spice strategy
 
-### Serving
+### Preparation
 
 - Can be used in therapeutic doses when needed
 

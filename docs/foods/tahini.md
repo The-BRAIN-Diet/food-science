@@ -52,7 +52,7 @@ Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorpt
 - Part of food synergy strategy
 - Supports fat-soluble vitamin absorption
 
-### Serving
+### Preparation
 
 - Can be used in dressings, dips, or spreads
 

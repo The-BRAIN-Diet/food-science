@@ -50,7 +50,7 @@ Cordyceps is a medicinal mushroom that has been traditionally used to support en
 
 - Store supplements in a cool, dry place away from light
 
-### Serving
+### Preparation
 
 - Most commonly consumed as a supplement or extract rather than whole mushroom
 - Available as powder, capsules, or liquid extracts

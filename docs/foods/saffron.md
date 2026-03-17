@@ -52,7 +52,7 @@ Saffron provides crocin (antioxidant) and safranal (volatile compound) that supp
 
 - Part of spice strategy for mood and cognitive support
 
-### Serving
+### Preparation
 
 - Bloom gently (≈50–70 °C) in warm water or fat
 - Add near end of cooking to preserve aroma and bioactive potency

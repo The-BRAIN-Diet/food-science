@@ -42,7 +42,7 @@ Vinegar, particularly apple cider vinegar, supports glucose regulation and can b
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Use in bean soaking to optimize pH for phytate reduction
 - May support postprandial glucose control

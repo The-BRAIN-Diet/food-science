@@ -55,7 +55,7 @@ Black tea provides polyphenols and may contain some compounds supporting NAD+ pa
 - Can reduce non-heme iron absorption if taken with meals
 - Part of diverse beverage strategy
 
-### Serving
+### Preparation
 
 - Space ≥1 hour from iron-rich meals or add lemon
 - Supports polyphenol intake

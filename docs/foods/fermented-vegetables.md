@@ -47,7 +47,7 @@ Fermented vegetables provide live probiotics, postbiotic compounds, and enhanced
 
 - Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-### Serving
+### Preparation
 
 - Include in diverse fermented foods rotation; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
 - Enhanced nutrient bioavailability; fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels

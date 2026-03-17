@@ -53,7 +53,7 @@ Chicory provides high inulin content and can be used as a coffee substitute, sup
 
 - Part of diverse prebiotic fiber strategy
 
-### Serving
+### Preparation
 
 - Can be consumed as root vegetable or coffee substitute
 - High inulin content

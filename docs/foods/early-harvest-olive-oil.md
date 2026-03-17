@@ -48,7 +48,7 @@ These enhanced bioactive levels support mitochondrial function, antioxidant netw
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Best used for salad dressings, drizzling, and low-heat applications to preserve polyphenols and CoQ10
 - Avoid high-heat cooking to prevent degradation of bioactive compounds

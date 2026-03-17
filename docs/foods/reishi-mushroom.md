@@ -50,7 +50,7 @@ Reishi mushroom (Ganoderma lucidum), known in China as Ling Zhi, is a medicinal 
 
 - Store in a cool, dry place away from light to preserve bioactive compounds
 
-### Serving
+### Preparation
 
 - Available as dried mushroom, powder, extract, or tea
 - Extracts may provide more concentrated bioactive compounds than whole dried mushrooms

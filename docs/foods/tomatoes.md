@@ -51,7 +51,7 @@ Tomatoes provide lycopene (carotenoid), vitamin C, and demonstrate food matrix e
 - Pair with iron-rich plant foods for enhanced absorption; eat your beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) to enhance iron absorption
 - Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil
 
-### Serving
+### Preparation
 
 - Cooking breaks down cell walls and increases lycopene bioavailability; prolonged cooking increases access to lycopene in tomatoes where cell walls need to be broken down
 - Canned tomatoes may have higher lycopene due to processing

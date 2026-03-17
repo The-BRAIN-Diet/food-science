@@ -53,7 +53,7 @@ Sourdough bread, especially when made with quinoa or other functional flours, pr
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Use whole grain or pseudograin flours for higher nutrient content
 - Long fermentation (12-18h) improves amino acid release

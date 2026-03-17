@@ -51,7 +51,7 @@ Turkey Tail mushroom (Trametes versicolor) is a common medicinal mushroom found 
 
 - Store dried mushrooms in a cool, dry place away from light
 
-### Serving
+### Preparation
 
 - Most commonly consumed as a tea, extract, or supplement rather than whole mushroom
 - Dried Turkey Tail can be simmered to make a tea

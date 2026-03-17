@@ -53,7 +53,7 @@ Lumpfish roe provides phospholipid-bound omega-3 fatty acids and astaxanthin, su
 
 - Part of diverse fish roe intake
 
-### Serving
+### Preparation
 
 - Can be consumed as is or in dishes
 - Supports phospholipid-bound omega-3 goals

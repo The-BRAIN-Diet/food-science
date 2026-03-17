@@ -55,7 +55,7 @@ Sesame seeds provide calcium, healthy fats, and are the source of tahini, suppor
 - Supports fat-soluble vitamin absorption when used as tahini; co-consuming a small amount of unsaturated fat improves micelle formation and chylomicron packaging, increasing carotenoid and fat-soluble vitamin absorption
 - Pair with carotenoid-rich vegetables; practical pairings: carrots + tahini
 
-### Serving
+### Preparation
 
 - Can be consumed whole or as tahini; tahini is ground sesame seeds
 

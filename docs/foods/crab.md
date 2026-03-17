@@ -46,7 +46,7 @@ Crab provides high-quality protein and zinc, supporting neurotransmitter modulat
 
 - Part of diverse protein strategy
 
-### Serving
+### Preparation
 
 - Best prepared with gentle cooking
 - Supports zinc sufficiency

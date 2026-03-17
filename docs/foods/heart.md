@@ -38,7 +38,9 @@ nutrition_source:
 
 ## Overview
 
-Heart is an organ meat providing the highest CoQ10 content, supporting mitochondrial electron transport and antioxidant function. Organ meats (heart, liver), oily fish (sardines, mackerel), beef are top sources for CoQ10.
+Heart is an organ meat often highlighted for its CoQ10 content, supporting mitochondrial electron transport and antioxidant function [1]. Reviews of edible offal note that different organs concentrate different nutrients; in practice, heart is typically used as an occasional rotational offal food rather than a daily staple [2].
+
+Within the BRAIN Diet framework, heart can be used strategically when prioritising mitochondrial-supportive nutrients such as CoQ10, while keeping the overall dietary pattern plant-forward. Sourcing from reputable producers and using gentle, moist-heat cooking methods help preserve palatability and avoid excessive high-heat byproducts [1,2].
 
 
 <NutritionTable details={frontMatter} />
@@ -54,7 +56,7 @@ Heart is an organ meat providing the highest CoQ10 content, supporting mitochond
 
 - Part of nutrient-dense animal food strategy
 
-### Serving
+### Preparation
 
 - Best prepared with gentle cooking
 - Important for CoQ10 intake
@@ -71,4 +73,7 @@ Heart is an organ meat providing the highest CoQ10 content, supporting mitochond
 
 ## References
 
-- Organ meats (heart, liver), oily fish (sardines, mackerel), beef are top sources for CoQ10; organ meats are the highest dietary source of CoQ10 (up to 12mg per 100g)
+These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+
+1. [Crane 2001 – Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
+2. [Latoch et al. 2024 – Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024)

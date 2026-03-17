@@ -45,7 +45,7 @@ Black pepper contains piperine, which dramatically enhances the bioavailability 
 - Pair with turmeric for maximum curcumin absorption
 - Part of food synergy strategy
 
-### Serving
+### Preparation
 
 - Can be used in culinary amounts
 - Supports curcumin bioavailability

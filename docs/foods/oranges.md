@@ -56,7 +56,7 @@ Oranges provide high vitamin C content that enhances non-heme iron absorption wh
 - Pair with iron-rich plant meals to enhance absorption
 - Part of food synergy strategy
 
-### Serving
+### Preparation
 
 - Can be consumed as whole fruit or juice (whole fruit preferred for fiber)
 - Supports iron sufficiency in plant-based diets

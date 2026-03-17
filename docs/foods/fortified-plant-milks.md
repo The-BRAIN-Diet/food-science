@@ -60,7 +60,7 @@ Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like 
 
 - Part of functional food strategy
 
-### Serving
+### Preparation
 
 - Check fortification levels and forms (methylcobalamin for B12)
 - Important for vegan/vegetarian nutrient sufficiency

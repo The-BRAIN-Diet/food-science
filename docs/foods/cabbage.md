@@ -45,7 +45,7 @@ Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, 
 
 - Part of diverse vegetable intake
 
-### Serving
+### Preparation
 
 - Can be consumed fresh or fermented
 - Fermentation (sauerkraut) provides probiotics

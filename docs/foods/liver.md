@@ -46,7 +46,9 @@ protein_profile_note: Complete essential amino acid profile.
 
 ## Overview
 
-Liver is one of the most nutrient-dense foods, providing bioavailable B12, retinol (vitamin A), heme iron, CoQ10, and choline in highly absorbable forms. Organ meats are the highest dietary source of CoQ10 (up to 12mg per 100g). Liver is listed as a source for vitamin B12, retinol, heme iron, choline, and acetylcholine synthesis support. Occasional offal consumption is recommended for nutrient density.
+Liver is a highly nutrient-dense organ meat providing exceptionally high amounts of **vitamin B12**, **folate**, **retinol (vitamin A)**, **heme iron**, and **choline**. These nutrients support one‑carbon metabolism, red blood cell formation, and neurotransmitter-related pathways, making liver a potent “micronutrient booster” when used occasionally rather than daily [1].
+
+Within the BRAIN Diet framework, liver is typically treated as a periodic offal food that can help close nutrient gaps (especially B12, folate, and retinol) while keeping the overall diet plant-forward. Because liver is also a concentrated source of preformed vitamin A, portion size and frequency matter; gentle cooking and thoughtful sourcing help balance nutrient density with practical tolerability [1,2].
 
 
 ## Food Context
@@ -55,7 +57,7 @@ Liver is one of the most nutrient-dense foods, providing bioavailable B12, retin
 
 - Source from grass-fed/pasture-raised animals when possible for optimal nutrient profile
 
-### Serving
+### Preparation
 
 - Moderate consumption due to high vitamin A content (retinol can accumulate)
 - Gentle cooking preserves nutrients and prevents formation of advanced glycation end products (AGEs)
@@ -82,9 +84,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Grass-fed liver for bioavailable retinol and B12
-- Organ meats (heart, liver), oily fish (sardines, mackerel), beef for CoQ10; organ meats are the highest dietary source of CoQ10 (up to 12mg per 100g)
-- Vitamin B12: Liver, clams, fish, eggs, dairy; deficiency causes cognitive decline, mood disorders, neuropathy
-- Acetylcholine and choline: Memory, learning, neuroplasticity; food sources include egg yolks, fish roe, soy, wheat germ, liver
-- Occasional offal (Latoch et al. 2024) i.e. liver recommended for nutrient density
-- Liver provides heme iron, which is 2-3× more bioavailable than non-heme iron
+These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+
+1. [Latoch et al. 2024 – Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024)
+2. [Crane 2001 – Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)

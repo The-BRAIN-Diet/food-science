@@ -50,7 +50,7 @@ Within the BRAIN Diet framework, lentils are treated as a core plant protein and
 - Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
 - Pair with vitamin C sources to enhance iron absorption, with studies showing up to a fourfold increase when consumed together [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
 
-### Serving
+### Preparation
 
 - Soak and cook thoroughly to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability
 - Source of prebiotic fiber (GOS - galactooligosaccharides) supporting gut microbiome health

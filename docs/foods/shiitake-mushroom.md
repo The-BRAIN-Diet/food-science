@@ -51,7 +51,7 @@ Shiitake mushroom (Lentinula edodes) is both a popular culinary mushroom and a v
 
 - Fresh shiitake should be stored in the refrigerator
 
-### Serving
+### Preparation
 
 - Can be consumed fresh or dried; dried shiitake have a more concentrated flavor
 - Rehydrate dried mushrooms in warm water before cooking; reserve the soaking liquid for soups and sauces

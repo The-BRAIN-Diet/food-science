@@ -58,7 +58,7 @@ Almonds provide vitamin E (antioxidant), plant protein, and monounsaturated fats
 - Pair with legumes for complete amino acid profile; pair with soy or legumes for amino acid complementarity
 - Part of diverse nut/seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-### Serving
+### Preparation
 
 - Supports antioxidant networks; vitamin E works within antioxidant networks with vitamin C, CoQ10, and polyphenols, with these compounds regenerating each other in vivo
 

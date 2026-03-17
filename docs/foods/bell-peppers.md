@@ -51,7 +51,7 @@ Bell peppers provide very high vitamin C content, enhancing non-heme iron absorp
 - Pair with iron-rich plant meals to enhance absorption
 - Part of food synergy strategy
 
-### Serving
+### Preparation
 
 - Can be consumed raw or cooked
 - Supports iron sufficiency

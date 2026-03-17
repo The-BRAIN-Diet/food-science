@@ -45,7 +45,7 @@ Cheese is fermented dairy providing calcium, complete protein, and in some varie
 
 - Part of diverse dairy intake strategy
 
-### Serving
+### Preparation
 
 - Supports calcium and protein goals; hard cheeses with high calcium do not raise serum LDL levels [Soerensen et al. 2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)
 - Consider fermentation benefits; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling

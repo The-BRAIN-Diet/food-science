@@ -59,7 +59,7 @@ Grass-fed butter provides butyrate, CLA (conjugated linoleic acid), vitamins A/D
 
 - Part of nutrient-dense fat strategy
 
-### Serving
+### Preparation
 
 - Use for finishing vegetables, grains, or cooking (with higher smoke point oil to avoid burning)
 - Supports butyrate and K2 intake

@@ -43,7 +43,7 @@ Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Available as supplement or food additive
 - Important for vegan choline intake

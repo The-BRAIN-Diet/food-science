@@ -52,7 +52,7 @@ Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO 
 
 - Part of SIBO management strategy
 
-### Serving
+### Preparation
 
 - Can be used in culinary amounts or as extract
 - Supports gut health

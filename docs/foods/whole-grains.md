@@ -44,7 +44,7 @@ Whole grains are grains that contain the entire grain kernel (bran, germ, and en
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Prebiotic fiber for gut microbiome
 - B vitamins for neurotransmitter synthesis

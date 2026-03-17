@@ -48,7 +48,7 @@ Dark chocolate (70%+ cocoa) provides flavanols and polyphenols that support cogn
 
 - Pair with calcium/zinc sources to reduce metal absorption
 
-### Serving
+### Preparation
 
 - Consider higher-milk/lower-cocoa options to reduce heavy metal absorption
 - Select low-Cd/Pb origins with strong post-harvest controls

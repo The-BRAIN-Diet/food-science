@@ -49,7 +49,7 @@ Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflam
 
 - Part of diverse fat strategy
 
-### Serving
+### Preparation
 
 - Suitable for roasting vegetables and pan cooking
 - Supports MUFA intake

@@ -45,7 +45,7 @@ Dairy products provide complete protein, calcium, B vitamins, and in fermented f
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Complete protein for neurotransmitter synthesis
 - Calcium for bone and cardiovascular health
@@ -64,5 +64,4 @@ Dairy products provide complete protein, calcium, B vitamins, and in fermented f
 
 ## References
 
-- Vitamin B12: Liver, clams, fish, eggs, dairy; deficiency causes cognitive decline, mood disorders, neuropathy
-- Fermented dairy products (kefir, yogurt) provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
+These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.

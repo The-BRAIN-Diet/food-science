@@ -54,7 +54,7 @@ Barley is a whole grain valued for **beta-glucan** prebiotic fibre and sustained
 
 - Part of whole grain diversity strategy
 
-### Serving
+### Preparation
 
 - Soak before cooking to reduce phytates and improve mineral bioavailability
 - Beta-glucan in barley supports gut microbiome health (mechanisms include fermentation to SCFAs such as butyrate; improved gut barrier)

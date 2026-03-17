@@ -56,7 +56,7 @@ Oats provide beta-glucan fibre (prebiotic), B vitamins, and minerals that suppor
 - Part of grain-legume complementarity strategy; grains (typically lysine-limited) and legumes (methionine/cysteine-limited) complete each other's profiles when paired
 - Tryptophan + complex carbohydrates aid serotonin conversion to melatonin; examples include pumpkin seeds + oats
 
-### Serving
+### Preparation
 
 - Soak overnight to reduce phytates and improve mineral bioavailability
 

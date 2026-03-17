@@ -59,7 +59,7 @@ Cashews provide plant protein and zinc, supporting neurotransmitter modulation a
 - Part of diverse nut/seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 - Pair with animal proteins or vitamin C for better zinc absorption
 
-### Serving
+### Preparation
 
 - Supports zinc sufficiency; zinc is critical for neurotransmitter modulation, synaptic plasticity, and antioxidant enzyme function
 

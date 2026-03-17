@@ -57,7 +57,7 @@ Sunflower seeds provide thiamine (B1), vitamin E, and are the source of sunflowe
 
 - Part of diverse seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-### Serving
+### Preparation
 
 - Can be consumed raw or roasted; gentle roasting preserves nutrients
 - Supports mitochondrial function via thiamine; thiamine does not exist in a large brain "reservoir"; the CNS maintains small, tightly regulated intracellular pools that depend on continuous, transporter-mediated supply

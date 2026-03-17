@@ -59,7 +59,7 @@ Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that c
 - Pair with other omega-3 sources for optimal DHA status (conversion from ALA is limited)
 - Higher polyphenol intake and microbial diversity increase urolithin A production from ellagitannins
 
-### Serving
+### Preparation
 
 - Best consumed raw to preserve omega-3s and prevent oxidation
 - Soaking may improve digestibility and reduce antinutrients

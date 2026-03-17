@@ -36,7 +36,7 @@ Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering 
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Available as supplement
 - Soy-free alternative to soy lecithin

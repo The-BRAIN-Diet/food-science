@@ -40,7 +40,7 @@ MCT oil is concentrated medium-chain triglycerides (C6, C8, C10) providing rapid
 
 - Part of brain energy strategy
 
-### Serving
+### Preparation
 
 - Use in smoothies or small portions
 - Start with small amounts

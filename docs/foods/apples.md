@@ -45,7 +45,7 @@ Apples provide pectin (prebiotic fiber), quercetin (polyphenol), and demonstrate
 
 - Pair with fat for polyphenol absorption; dietary fat enhances absorption of fat-soluble vitamins
 
-### Serving
+### Preparation
 
 - Consume whole fruit to preserve food matrix benefits and blunt glycemic response
 - Avoid juicing to maintain fiber and glycemic control; apple juice induces substantially greater postprandial insulin spike

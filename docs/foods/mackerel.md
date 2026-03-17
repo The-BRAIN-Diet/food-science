@@ -47,7 +47,7 @@ protein_profile_note: Complete essential amino acid profile.
 
 Mackerel is an oily fish providing complete high-quality protein together with very high levels of long-chain omega-3 fatty acids **EPA** and **DHA**, as well as **vitamin B12**, **selenium**, and other trace minerals. These intrinsic compounds support neuronal membrane phospholipid composition, mitochondrial oxidative phosphorylation, and antioxidant enzyme systems [1]. Among commonly eaten fish, mackerel is one of the richer sources of EPA and DHA per 100 g, making small portions nutritionally dense for marine omega-3 intake [1].
 
-Within the BRAIN Diet framework, mackerel functions as a **high-omega-3 oily fish** that can be rotated with salmon, sardines, and herring rather than used as the sole source. Its protein is highly digestible, and DIAAS data for similar oily fish indicate excellent indispensable amino acid coverage [2]. At the same time, overall dietary pattern, sourcing practices, and cooking methods remain important for balancing cardiometabolic benefits with environmental and contaminant considerations [1,2].
+Within the BRAIN Diet framework, mackerel functions as a **high-omega-3 oily fish** that can be rotated with salmon, sardines, and herring rather than used as the sole source. Its protein is highly digestible, and DIAAS data for similar oily fish indicate excellent indispensable amino acid coverage [2].
 
 ## Food Context
 
@@ -56,7 +56,7 @@ Within the BRAIN Diet framework, mackerel functions as a **high-omega-3 oily fis
 - Choose mackerel from well-managed fisheries that monitor stock status and contaminant levels; smaller pelagic species such as mackerel typically accumulate less mercury than large predatory fish.
 - Where possible, prefer products with transparent sustainability certification or independent fishery assessments to support long-term availability and ecosystem health.
 
-### Serving
+### Preparation
 
 - Prefer gentle or moist-heat cooking methods (baking, steaming, stewing) to help preserve EPA/DHA and reduce lipid oxidation compared with intense high-temperature pan-frying or grilling.
 - Use mackerel in modest portions within meals that also contain vegetables and whole grains, so the oily fish contributes marine omega-3s and B12 without dominating total energy or saturated fat intake.

@@ -64,7 +64,7 @@ Chickpeas are legumes providing plant protein, prebiotic fiber, folate, magnesiu
 - Pair with vitamin C to enhance iron absorption, with studies showing up to a fourfold increase when consumed together
 - Part of grain-legume complementarity strategy
 
-### Serving
+### Preparation
 
 - Legumes such as lentils and chickpeas provide complex carbs and fiber
 

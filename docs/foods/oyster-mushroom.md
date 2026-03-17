@@ -51,7 +51,7 @@ Oyster mushroom (Pleurotus ostreatus) is a popular culinary mushroom valued for 
 
 - Store fresh mushrooms in the refrigerator
 
-### Serving
+### Preparation
 
 - Can be consumed fresh or dried; fresh oyster mushrooms have a delicate texture
 - Cooking enhances flavor and may improve bioavailability of some nutrients

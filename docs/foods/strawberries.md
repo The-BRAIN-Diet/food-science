@@ -46,7 +46,7 @@ Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant n
 - Part of diverse berry intake
 - Pair with other polyphenol sources
 
-### Serving
+### Preparation
 
 - Best consumed fresh or frozen
 - Supports antioxidant networks

@@ -54,7 +54,7 @@ Citrus fruits provide high vitamin C content that enhances non-heme iron absorpt
 - Vitamin C enhances non-heme iron absorption (up to 4× increase)
 - Pair with iron-rich plant foods for enhanced absorption
 
-### Serving
+### Preparation
 
 - Antioxidant support
 

@@ -37,7 +37,7 @@ Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavail
 
 - Part of functional food strategy
 
-### Serving
+### Preparation
 
 - Can be consumed as powder, smoothie addition, or whole
 - Important for vegan/vegetarian B12 and iron intake

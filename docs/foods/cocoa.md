@@ -60,7 +60,7 @@ Cocoa provides flavanols (polyphenols) that support cognitive function, though h
 
 - Part of diverse polyphenol intake strategy; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
-### Serving
+### Preparation
 
 - Higher cocoa content = higher heavy metals; be mindful of cadmium and lead content
 - Supports cognitive function through flavanol content; polyphenol sources support gut barrier integrity, TLR4 suppression, LPS neutralization, and microglial activation dampening

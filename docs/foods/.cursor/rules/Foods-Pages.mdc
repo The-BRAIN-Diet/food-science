@@ -65,7 +65,7 @@ Section order reflects BRAIN framework: context before data.
 
 1. **Overview** – Two short paragraphs following the Overview specification above (category + intrinsic compounds in paragraph 1; strongest evidence-backed relevance in paragraph 2), with inline numeric citations [1], [2]. Optionally add one line noting **protein profile** where relevant.
 2. **Food Context** – Framework and practical context immediately after Overview.
-   - Use at most three subsections: **Sourcing**, **Synergies**, **Serving**.
+   - Use at most three subsections: **Sourcing**, **Synergies**, **Preparation**.
    - **Only include a subsection if it contains meaningful, evidence-backed content for that food.** Do not show placeholder text, generic filler, or empty/null sections.
    - Before omitting a subsection, first check whether there is a credible food-specific point that can be made from:
      - established nutritional science
@@ -73,7 +73,7 @@ Section order reflects BRAIN framework: context before data.
      - food matrix / bioavailability literature
      - practical dietary context
    - **Sourcing**: show only if there is a meaningful distinction such as grass-fed vs grain-fed, wild vs farmed, organic vs conventional, minimally processed vs processed, or contamination/quality differences. If no such distinction is relevant or evidence-backed, omit Sourcing entirely.
-   - **Serving**: show only if preparation, portion, or cooking method meaningfully changes nutrient retention, bioavailability, oxidation/AGE formation, tolerability, or practical use in the diet. If nothing meaningful can be said, omit Serving entirely.
+   - **Preparation**: show only if handling or cooking method meaningfully changes nutrient retention, bioavailability, oxidation/AGE formation, microbial safety, food structure/digestibility, or practical use in the diet. Keep this section focused on process, not meal composition. If nothing meaningful can be said, omit Preparation entirely.
    - **Synergies**: often the most relevant subsection, because food interactions shape bioavailability or physiological effect (e.g. vitamin C with non‑heme iron, fat with carotenoids, grains with legumes for amino acid complementarity, herbs/spices reducing oxidative products in cooked foods). However, **omit Synergies** if no meaningful, food‑relevant interaction can be identified. Do not invent generic or weak pairings just to fill the section.
    - General rule: a shorter Food Context with only one or two strong subsections is better than three weak ones. **Quality over completeness**—every visible subsection should add genuine scientific or practical value.
 3. **Essential Amino Acid Profile** – When required (protein ≥5 g/100 g or commonly protein source).
@@ -81,5 +81,13 @@ Section order reflects BRAIN framework: context before data.
 5. **Substances** – `<FoodSubstancesFromTable details={frontMatter} />` when using the nutrition layer; otherwise `<FoodSubstances details={frontMatter} />`
 6. **Recipes** – `<FoodRecipes tag="food tag" />`
 7. **References** – Local, page-level reference list for that food, containing only real citations that support claims on the page. Use Vancouver-style numeric citations [1], [2] in Overview and Food Context, and list the full clickable references here (ideally also present in `docs/papers/BRAIN-Diet-References`).
+
+## References and connection to BibTeX
+
+- Each reference link targets the global bibliography with a fragment: `/docs/papers/BRAIN-Diet-References#citationKey` (e.g. `#yang_metal_oysters_2024`). The **citation key** must match the key of an entry in `static/bibtex/BRAIN-diet.bib`.
+- **Link only works if the entry appears on the page.** The BRAIN-Diet-References page is built from the same .bib file but **deduplicates** entries by DOI, URL, or title+year+author. If two entries share the same DOI or URL, only one is shown (the one with richer metadata). The visible entry’s anchor is its own citation key. So:
+  - Having the key in the .bib file is **necessary** but **not sufficient**: the entry must be the one that survives deduplication, or no other entry may have the same DOI/URL.
+  - When adding a **new** BibTeX entry and a food-page link to it: avoid reusing the same DOI or URL as an existing entry; otherwise the new entry may be omitted and the fragment link will not scroll to it.
+- **After adding a new reference:** Verify that the reference appears on the [BRAIN-Diet-References](/docs/papers/BRAIN-Diet-References) page and that the link from the food page (e.g. `.../BRAIN-Diet-References#your_citation_key`) scrolls to that entry. If the entry is missing on the page, fix deduplication (remove duplicate DOI/URL elsewhere or ensure your entry has the metadata that wins) or use the citation key that actually appears.
 
 See `system/food-page-model.md` and `system/food-nutrition-schema.md` for full schema. Use `salmon.md` and `lentils.md` as worked examples.

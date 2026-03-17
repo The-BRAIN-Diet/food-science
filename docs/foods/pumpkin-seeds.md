@@ -45,7 +45,7 @@ Pumpkin seeds are nutrient-dense seeds providing zinc, tryptophan, magnesium, an
 - Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
 - Pair with complex carbs for tryptophan-to-serotonin conversion; tryptophan + complex carbohydrates aid serotonin conversion to melatonin; examples include pumpkin seeds + oats
 
-### Serving
+### Preparation
 
 - Plant zinc less bioavailable due to phytates; soaking/sprouting helps improve bioavailability
 

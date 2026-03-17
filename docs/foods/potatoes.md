@@ -45,7 +45,7 @@ Potatoes provide complex carbohydrates, potassium, and when cooked and cooled, f
 
 ## Food Context
 
-### Serving
+### Preparation
 
 - Cook and cool to form resistant starch; resistant starch forms when certain starchy foods are cooked and then cooled, a process called retrogradation
 - Reheating does not reverse resistant starch formation; white rice was cooled and reheated showing a rise in RS content from 0.64 to 1.65 g/100 g and elicited a lower glycemic response

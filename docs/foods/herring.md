@@ -41,7 +41,7 @@ nutrition_source:
 
 ## Overview
 
-Herring is a small oily fish providing complete protein together with high levels of long-chain omega-3 fatty acids **EPA** and **DHA**, **vitamin D**, and trace minerals such as **selenium**. These intrinsic nutrients contribute to neuronal membrane phospholipid composition, mitochondrial oxidative metabolism, and anti-inflammatory lipid mediator production [1]. Because herring is usually eaten as fillets rather than as oil alone, typical portions deliver marine omega-3s alongside protein and micronutrients rather than isolated fat.
+Herring is a small oily fish providing high levels of long-chain omega-3 fatty acids **EPA** and **DHA**, **vitamin D**, trace minerals such as **selenium**, and highly bioavailable protein. These intrinsic nutrients contribute to neuronal membrane phospholipid composition, mitochondrial oxidative metabolism, and anti-inflammatory lipid mediator production [1]. Because herring is usually eaten as fillets rather than as oil alone, typical portions deliver marine omega-3s alongside protein and micronutrients rather than isolated fat.
 
 Within the BRAIN Diet framework, herring is treated as one of the **rotational oily fish options** alongside salmon, mackerel, and sardines. Regular intake of oily fish rich in EPA and DHA is associated with cardiometabolic benefits and may support aspects of cognitive and mood outcomes [1,2]. As a relatively small pelagic species, herring tends to accumulate less mercury than large predatory fish, which supports its use as a frequent marine omega-3 source within a varied dietary pattern [3].
 
@@ -54,7 +54,7 @@ Within the BRAIN Diet framework, herring is treated as one of the **rotational o
 - Choose herring from fisheries with transparent sustainability assessments and contaminant monitoring; smaller pelagic species such as herring typically have lower mercury levels than large predatory fish.
 - Lightly processed forms (fresh, frozen, or simply cured) are preferable to heavily sweetened or ultra-processed preparations where possible.
 
-### Serving
+### Preparation
 
 - Prefer gentle or moist-heat cooking methods (baking, steaming, stewing) to preserve EPA/DHA and reduce oxidation compared with intense high-temperature frying.
 - Incorporate herring into meals that also contain vegetables and whole grains so that oily fish contributes marine omega-3s and vitamin D within a balanced plate.

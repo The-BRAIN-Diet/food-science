@@ -41,7 +41,7 @@ Kombucha is fermented tea providing live probiotics, postbiotic compounds, and o
 
 - Part of fermented foods rotation
 
-### Serving
+### Preparation
 
 - Supports gut microbiome diversity
 - Moderate consumption due to sugar content in some products

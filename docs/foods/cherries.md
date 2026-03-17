@@ -55,7 +55,7 @@ Cherries provide polyphenols, fiber, and vitamin C. Tart cherries specifically p
 
 - Part of diverse fruit intake
 
-### Serving
+### Preparation
 
 - See [Tart Cherry](./tart-cherry.md) for detailed sleep support information
 

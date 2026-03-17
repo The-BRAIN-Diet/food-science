@@ -96,6 +96,15 @@ const CATEGORY_TAGS = new Set([
   "Area",
 ])
 
+// Conceptual "category" substance docs that should not appear as
+// individual entries on food pages (we only want concrete molecules
+// like DHA, EPA, etc., not the umbrella category).
+const EXCLUDED_SUBSTANCE_TITLES = new Set([
+  "Omega-3 Fatty Acids",
+  "Omega-3 Fatty Acids (EPA, DHA)",
+  "Omega-6 Fatty Acids",
+])
+
 // Keys that should NOT appear as individual substances in the list
 // (energy and macronutrient rows that are structural rather than
 // distinct micronutrients or bioactives).
@@ -158,6 +167,9 @@ export default function FoodSubstancesFromTable({
 
   uniqueSubstances.forEach((substance: Document) => {
     const substanceName = getSubstanceName(substance.title)
+    if (EXCLUDED_SUBSTANCE_TITLES.has(substanceName)) {
+      return
+    }
     substanceNameMap.set(substanceName, substance)
     const sidebarLabel = substance.frontMatter.sidebar_label as string | undefined
     if (sidebarLabel) {
@@ -229,12 +241,16 @@ export default function FoodSubstancesFromTable({
   type Entry = { label: string; doc: Document | null }
   const merged: Entry[] = []
   for (const doc of editorialDocs) {
+    const baseTitle = getSubstanceName(doc.title)
+    if (EXCLUDED_SUBSTANCE_TITLES.has(baseTitle)) continue
     seenPermalinks.add(doc.permalink)
-    seenLabels.add(getSubstanceName(doc.title))
-    merged.push({ label: doc.title.split("(")[0].trim() || doc.title, doc })
+    seenLabels.add(baseTitle)
+    merged.push({ label: baseTitle || doc.title, doc })
   }
   for (const { label, doc } of analyticalResolved) {
     if (doc) {
+      const baseTitle = getSubstanceName(doc.title)
+      if (EXCLUDED_SUBSTANCE_TITLES.has(baseTitle)) continue
       if (seenPermalinks.has(doc.permalink)) continue
       seenPermalinks.add(doc.permalink)
     } else {

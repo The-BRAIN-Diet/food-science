@@ -45,7 +45,7 @@ Cranberries provide polyphenols, resveratrol, and support gut microbiome diversi
 - Part of diverse polyphenol intake
 - Pair with other resveratrol sources
 
-### Serving
+### Preparation
 
 - Can be consumed fresh, dried, or as juice
 - Supports gut microbiome diversity

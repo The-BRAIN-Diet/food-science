@@ -50,7 +50,7 @@ Peppermint provides compounds that support mental clarity and alertness, useful 
 
 - Part of diverse herb/spice strategy
 
-### Serving
+### Preparation
 
 - Can be consumed as herbal tea
 - Essential oil can be used for inhalation

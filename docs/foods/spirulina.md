@@ -50,7 +50,7 @@ Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but 
 
 - Pair with grains/legumes for amino acid balance
 
-### Serving
+### Preparation
 
 - Not suitable as primary B12 source (contains inactive analogues)
 - Provides other beneficial compounds
