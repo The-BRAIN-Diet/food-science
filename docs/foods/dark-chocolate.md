@@ -35,8 +35,17 @@ complementary_pairings: Grains and legumes for balanced essential amino acid pro
 
 ## Overview
 
-Dark chocolate (70%+ cocoa) provides flavanols and polyphenols that support cognitive function, though heavy metal content increases with cocoa percentage. Polyphenol sources include berries, green tea catechins, cocoa flavanols, cranberries, and pomegranate. While dark chocolate has high antioxidants, heavy-metals increase with cocoa content; adding milk content raises available Ca/Zn to reduce intestinal absorption of cadmium and lead.
+Dark chocolate (typically 70%+ cocoa) is a concentrated source of cocoa polyphenols—especially flavanols—that have been investigated for effects relevant to vascular health and brain-related outcomes. Mechanistic work on endothelial dysfunction highlights nitric-oxide related pathways as part of vascular regulation, while clinical trial evidence links high flavonoid intake with cognitive improvements [2][1].
 
+Within the BRAIN Diet framework, dark chocolate works best as a functional ingredient rather than a daily staple: cocoa-derived polyphenol content depends on product characteristics, while heavy metals show product-to-product variability. Choosing responsibly sourced, lab-tested products helps manage risk when intake is regular [3].
+
+
+## Key Nutritional Highlights
+
+- Concentrated cocoa flavanols, with evidence linking high flavonoid intake to cognitive improvements [1].
+- Mechanistic endpoints in vascular biology implicate endothelial nitric-oxide related pathways as part of flavonoid-associated vascular regulation [2].
+- Fibre and iron support micronutrient density per 100 g ingredient (fibre ~10.5 g; iron ~7.9 mg), though typical portions are smaller than staple grains.
+- Heavy-metal variability across products means sourcing and cocoa % selection matter for regular intake [3].
 
 ## Food Context
 
@@ -48,6 +57,10 @@ Dark chocolate (70%+ cocoa) provides flavanols and polyphenols that support cogn
 
 - Pair with calcium/zinc sources to reduce metal absorption
 
+### Polyphenols (Flavanols)
+
+Dark chocolate is rich in flavanols such as epicatechin and catechin, which are associated with vascular function, nitric oxide production via endothelial signaling, and cognitive effects in studies of high-flavonoid intake [2][1].
+
 ### Preparation
 
 - Consider higher-milk/lower-cocoa options to reduce heavy metal absorption
@@ -56,7 +69,7 @@ Dark chocolate (70%+ cocoa) provides flavanols and polyphenols that support cogn
 
 ### Essential Amino Acid Profile
 
-Dark Chocolate contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+Dark chocolate provides a modest amount of plant protein but is not a complete protein. Pair with legumes or grains to improve amino-acid balance across mixed meals.
 
 
 <NutritionTable details={frontMatter} />
@@ -73,9 +86,9 @@ Dark Chocolate contribute plant protein. Pair with complementary protein sources
 
 ## References
 
-- Polyphenol Sources: Berries, green tea catechins, cocoa flavanols, cranberries, pomegranate
-- Polyphenols (e.g., resveratrol): Grapes, blueberries, cranberries, peanuts, dark chocolate
-- Cortisol-lowering foods (dark chocolate, green tea, omega-3s)
-- While dark chocolate has high antioxidants, heavy-metals increase with cocoa content; adding milk content raises available Ca/Zn to reduce intestinal absorption of cadmium and lead
-- Heavy metals are high in chocolate from central and south America
+[1] High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor [Neshatdoust et al. 2016](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+
+[2] Role of inflammatory and proresolving mediators in endothelial dysfunction [Briones et al. 2025](/docs/papers/BRAIN-Diet-References#briones_inflammatory_proresolving_endothelium_2025)
+
+[3] Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA [Hands et al. 2024](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
 

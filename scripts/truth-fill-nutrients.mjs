@@ -29,7 +29,7 @@ import matter from "gray-matter"
 
 const FOOD_DIR = path.resolve(process.cwd(), "docs/foods")
 
-const TARGET_SLUGS = [
+const DEFAULT_TARGET_SLUGS = [
   // Grains / pseudograins
   "barley",
   "oats",
@@ -201,7 +201,7 @@ function updateFrontMatter(frontMatter, scraped) {
   const servingWeightGrams = scraped.servingWeightGrams
   const parsed = scraped.parsed
 
-  const nutrition = (frontMatter.nutrition_per_100g || {}) as Record<string, unknown>
+  const nutrition = frontMatter.nutrition_per_100g || {}
   let didUpdate = false
 
   for (const [key, cfg] of Object.entries(NUTRIENT_KEYS)) {
@@ -239,7 +239,16 @@ async function main() {
   let skippedCount = 0
   let errorCount = 0
 
-  for (const slug of TARGET_SLUGS) {
+  const args = process.argv.slice(2)
+  const slugsArg = args.find((a) => a.startsWith("--slugs="))
+  const slugs =
+    slugsArg?.includes(",") || slugsArg?.includes(" ")
+      ? slugsArg.split("=")[1].split(/[,\s]+/).filter(Boolean)
+      : slugsArg
+        ? [slugsArg.split("=")[1]]
+        : DEFAULT_TARGET_SLUGS
+
+  for (const slug of slugs) {
     const filePath = path.join(FOOD_DIR, `${slug}.md`)
     if (!fs.existsSync(filePath)) {
       console.warn(`Skip (missing file): ${slug}`)
