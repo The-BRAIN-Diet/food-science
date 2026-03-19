@@ -49,6 +49,15 @@ Mackerel is an oily fish providing complete high-quality protein together with v
 
 Within the BRAIN Diet framework, mackerel functions as a **high-omega-3 oily fish** that can be rotated with salmon, sardines, and herring rather than used as the sole source. Its protein is highly digestible, and DIAAS data for similar oily fish indicate excellent indispensable amino acid coverage [2].
 
+
+## Key Nutritional Highlights
+
+- Provides complete, highly digestible protein.
+- Commonly contributes selenium, iodine, and vitamin B12, though levels vary by species.
+- EPA/DHA content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.
+- Often lower in saturated fat than many fatty red-meat patterns when minimally processed.
+- Nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).
+
 ## Food Context
 
 ### Sourcing

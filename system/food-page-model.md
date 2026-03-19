@@ -100,6 +100,57 @@ The asterisk must visually connect the table entry and the source note below.
 
 ---
 
+## Key Nutritional Highlights Layer
+
+Add `## Key Nutritional Highlights` immediately after `## Overview` on food pages.
+
+Purpose:
+- Provide a fast, decision-relevant summary of the food's key nutritional characteristics.
+- Include both major advantages and relevant constraints in neutral scientific language.
+
+Formatting:
+- 3-6 bullets only.
+- One sentence or short clause per bullet.
+- No value-judgement labels such as "Strengths/Weaknesses" or "Pros/Cons".
+
+Repetition policy:
+- Allowed only when function changes:
+  - Highlights = summary
+  - later sections (Food Context/EAA/etc.) = expanded explanation
+- Do not repeat the same sentence at the same level of detail across multiple sections.
+
+### Key Nutritional Highlights – Specificity Rule
+
+Only include points that are meaningfully characteristic of the specific food.
+
+Do NOT include:
+- generic statements that apply to most foods in the same category,
+- comparisons to obviously inferior baselines (e.g., "better than refined grains"),
+- general macronutrient statements that add no differentiation (e.g., "provides carbohydrates"),
+- properties common to essentially all foods in the category (e.g., "low in saturated fat" for most plant foods),
+- preparation or processing effects (these belong in Food Context / Preparation).
+
+Every bullet should be answerable as:
+- "What is uniquely or meaningfully characteristic about this food in the context of the BRAIN Diet?"
+
+### Processing vs Food Identity Rule
+
+Do not conflate intrinsic food properties with processing effects.
+
+- Intrinsic properties (nutrients, amino acids, micronutrients) belong in:
+  - Overview
+  - Key Nutritional Highlights
+- Processing-related effects belong in:
+  - Food Context
+  - Preparation
+
+Highlights may include neutral phrasing such as:
+- "Nutritional profile depends on processing method."
+
+Avoid implying a whole food is harmful based only on specific processed forms.
+
+---
+
 ## Amino Acid / EAA Logic
 
 ### A. Animal foods (fish, meat, eggs, dairy)

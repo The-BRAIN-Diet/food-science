@@ -14,7 +14,7 @@ tags:
   - Oleocanthal
   - Oleacein
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/nilad___A_bowl_of_olive_oil_is_being_poured_into_it_with_olives_576050c3-95fc-43e1-bcb6-4f9bccd7cac4.jpg
 nutrition_per_100g:
   protein_g: 0
   kcal: 800
@@ -115,6 +115,12 @@ polyphenol_profile:
 ---
 
 ## Overview
+
+<img
+  src="/img/foods/nilad___A_bowl_of_olive_oil_is_being_poured_into_it_with_olives_576050c3-95fc-43e1-bcb6-4f9bccd7cac4.jpg"
+  alt="Extra virgin olive oil being poured into a glass bowl with olives"
+  style={{ width: "180px", height: "180px", objectFit: "cover", float: "left", margin: "0 1.5rem 1.5rem 0", borderRadius: 0 }}
+/>
 
 Extra virgin olive oil (EVOO) is a cornerstone fat in the BRAIN Diet, providing mostly monounsaturated fat (oleic acid) together with meaningful amounts of **vitamin E (alpha-tocopherol)**, **vitamin K₁**, and a dense cluster of **olive-specific polyphenols**. While its basic macronutrient profile looks simple, phenolics such as oleuropein aglycone, oleocanthal, oleacein, and hydroxytyrosol derivatives give EVOO a distinctive antioxidant and anti-inflammatory signature compared with refined seed oils [1,2]. The same polyphenol and tocopherol cluster helps stabilise the oil against oxidation during storage and moderate heat cooking.
 

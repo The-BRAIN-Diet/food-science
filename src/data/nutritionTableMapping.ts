@@ -9,6 +9,7 @@ export const NUTRIENT_ORDER: readonly string[] = [
   "fat_g",
   "sat_fat_g",
   "carbs_g",
+  "fibre_g",
   "iron_mg",
   "zinc_mg",
   "magnesium_mg",
@@ -22,6 +23,7 @@ export const NUTRIENT_ORDER: readonly string[] = [
   "vitamin_e_mg",
   "vitamin_k_ug",
   "omega3_mg",
+  "ala_mg",
   "epa_mg",
   "dha_mg",
 ]
@@ -32,6 +34,7 @@ export const NUTRIENT_LABELS: Record<string, {label: string; unit: string}> = {
   fat_g: {label: "Total fat", unit: "g"},
   sat_fat_g: {label: "Saturated fat", unit: "g"},
   carbs_g: {label: "Carbohydrates", unit: "g"},
+  fibre_g: {label: "Fibre", unit: "g"},
 
   iron_mg: {label: "Iron", unit: "mg"},
   zinc_mg: {label: "Zinc", unit: "mg"},
@@ -48,6 +51,7 @@ export const NUTRIENT_LABELS: Record<string, {label: string; unit: string}> = {
   vitamin_k_ug: {label: "Vitamin K", unit: "µg"},
 
   omega3_mg: {label: "Total omega-3", unit: "mg"},
+  ala_mg: {label: "ALA", unit: "mg"},
   epa_mg: {label: "EPA", unit: "mg"},
   dha_mg: {label: "DHA", unit: "mg"},
 }

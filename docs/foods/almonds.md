@@ -15,15 +15,6 @@ tags:
   - Phosphorus
   - Manganese
   - Copper
-  - Tryptophan
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
 list_image: /img/icons/ingredients.svg
 nutrition_per_100g:
   fat_g: 56.67
@@ -47,7 +38,9 @@ complementary_pairings: Legumes or grains for complete essential amino acid prof
 
 ## Overview
 
-Almonds provide vitamin E (antioxidant), plant protein, and monounsaturated fats, supporting antioxidant networks and neurotransmitter function. Almonds have a DIAAS score of 47-52, lysine-limited; vitamin E for antioxidant protection. Pair with soy or legumes for amino acid complementarity. GABA: Green tea, fermented foods, polyphenols (genistein), spinach, almonds, pumpkin seeds.
+Almonds are a nutrient-dense nut that contribute **vitamin E**, magnesium, fibre, and mostly unsaturated fats alongside plant protein. Their vitamin E can support wider antioxidant “network” function (working in concert with other dietary antioxidants rather than in isolation) [1].
+
+In a BRAIN-aligned pattern, almonds are most useful as a **whole-food fat-and-fibre** option (e.g., in snacks or meals) that can help displace more refined, low-satiety foods; observational nutrition literature commonly groups nuts with more favourable long-term health associations compared with several animal-protein sources [3]. As with most nuts and seeds, almond protein is typically **lysine-limited**, so pairing with legumes or grains can improve essential amino-acid coverage across the day [2].
 
 
 ## Food Context
@@ -86,7 +79,8 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-- Almonds: DIAAS 47-52, Lysine-limited; vitamin E for antioxidant protection
-- Pair with soy or legumes for amino acid complementarity; grain-legume complementarity improves essential amino-acid coverage
-- GABA: Main inhibitory neurotransmitter; food sources include green tea, fermented foods, polyphenols (genistein), spinach, almonds, pumpkin seeds
-- Vitamin E works within antioxidant networks with vitamin C, CoQ10, and polyphenols, with these compounds regenerating each other in vivo [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_antioxidant_1997)
+[1] Vitamin E antioxidant network and interactions [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_antioxidant_1997)
+
+[2] Plant protein adequacy and typical limiting amino acids in vegetarian patterns [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+
+[3] Protein source patterns (including nuts) and long-term health outcomes (cohort evidence) [Sun et al. 2019](/docs/papers/BRAIN-Diet-References#sun_association_2019)

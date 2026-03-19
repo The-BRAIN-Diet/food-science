@@ -46,6 +46,15 @@ Within the BRAIN Diet framework, heart can be used strategically when prioritisi
 <NutritionTable details={frontMatter} />
 
 
+
+## Key Nutritional Highlights
+
+- Nutrient-dense source of complete protein plus highly bioavailable vitamins and minerals.
+- Typically richer than standard muscle meat in vitamin B12 and other micronutrients.
+- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
+- Nutrient concentrations can be very high, so portion size and frequency are useful practical levers.
+- Processing and cooking method still matter for overall dietary context.
+
 ## Food Context
 
 ### Sourcing

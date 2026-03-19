@@ -51,6 +51,16 @@ Liver is a highly nutrient-dense organ meat providing exceptionally high amounts
 Within the BRAIN Diet framework, liver is typically treated as a periodic offal food that can help close nutrient gaps (especially B12, folate, and retinol) while keeping the overall diet plant-forward. Because liver is also a concentrated source of preformed vitamin A, portion size and frequency matter; gentle cooking and thoughtful sourcing help balance nutrient density with practical tolerability [1,2].
 
 
+
+## Key Nutritional Highlights
+
+- Highest iron among BRAIN Diet meat and organ pages (per 100 g).
+- Nutrient-dense source of complete protein plus highly bioavailable vitamins and minerals.
+- Typically richer than standard muscle meat in vitamin B12 and other micronutrients.
+- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
+- Nutrient concentrations can be very high, so portion size and frequency are useful practical levers.
+- Processing and cooking method still matter for overall dietary context.
+
 ## Food Context
 
 ### Sourcing

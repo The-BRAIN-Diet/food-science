@@ -13,6 +13,7 @@ type Document = {
     inchikey?: string;
     inchi_image?: string;
     list_image?: string;
+    excludeFromFolderList?: boolean;
   };
 };
 
@@ -72,6 +73,9 @@ export default function FolderList({ folder }: FolderListProps): React.ReactElem
   // Find immediate substance files (not nested, not README/index)
   const immediateSubstances = uniqueSubstances.filter((substance: Document) => {
     if (!substance.permalink) return false;
+
+    // Allow individual pages to opt out of the folder landing grid/list.
+    if (substance.frontMatter?.excludeFromFolderList) return false;
     
     // Get the folder path for this substance (everything up to the filename)
     const substancePath = substance.permalink.substring(0, substance.permalink.lastIndexOf('/'));

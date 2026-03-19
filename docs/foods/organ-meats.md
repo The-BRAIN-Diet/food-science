@@ -50,6 +50,15 @@ Organ meats (offal) are among the most nutrient-dense animal foods, often provid
 Within the BRAIN Diet framework, “organ meats” are best treated as a periodic micronutrient strategy (e.g., liver for B12/folate/retinol; heart for CoQ10), rather than a daily protein staple. Choosing reputable sources and using gentler cooking methods helps preserve micronutrients and supports an overall plant-forward pattern [1,2].
 
 
+
+## Key Nutritional Highlights
+
+- Nutrient-dense source of complete protein plus highly bioavailable vitamins and minerals.
+- Typically richer than standard muscle meat in vitamin B12 and other micronutrients.
+- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
+- Nutrient concentrations can be very high, so portion size and frequency are useful practical levers.
+- Processing and cooking method still matter for overall dietary context.
+
 ## Food Context
 
 ### Sourcing

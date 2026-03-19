@@ -47,6 +47,14 @@ import NutritionTable from "@site/src/components/NutritionTable";
 
 Oats provide beta-glucan fibre (prebiotic), B vitamins, and minerals that support gut health, serotonin synthesis, and stable glucose release. Key contributions include **magnesium**, **iron**, **selenium**, and **folate**. Beta-glucans support gut microbiome health.
 
+
+## Key Nutritional Highlights
+
+- Concentrated source of beta-glucan, the soluble oat fibre most linked to glycaemic and lipid benefits.
+- Strong micronutrient profile for a grain, including magnesium, iron, selenium, and folate.
+- Naturally gluten-free as a grain, though cross-contamination risk depends on sourcing/processing.
+- Oat protein remains lysine-limited, so amino-acid balance improves when paired with legumes.
+
 ## Food Context
 
 ### Synergies
@@ -86,10 +94,8 @@ Oats are relatively higher in methionine than many legumes but lower in lysine. 
 
 ## References
 
-- Beta-glucans: Prebiotic fiber for gut microbiome; food sources include oats, barley, mushrooms
-- Tryptophan: Converted to NAD+ via kynurenine pathway; food sources include turkey, chicken, eggs, pumpkin seeds, oats, soybeans
-- Serotonin: Mood regulation, emotional control, impulse moderation; food sources include turkey, eggs, dairy, soy, seeds, oats, bananas
-- Tryptophan + complex carbohydrates aid serotonin conversion to melatonin; examples include pumpkin seeds + oats
-- Soluble fibre (from apples, oats, flaxseeds) supports gut health and SCFA production
-- Clinical trials have shown a doubling of plasma levels after dietary increases in oat bran due to its rich phosphatidylethanolamine (PE) content [Sean Davies 2018](/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018)
-- Grain-legume complementarity: Grains (typically lysine-limited) and legumes (methionine/cysteine-limited) complete each other's profiles when paired, improving essential amino-acid coverage
+[1] Protein quality evaluation framework (DIAAS) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+
+[3] Oat bran lipid/phospholipid response study [Sean Davies et al. 2018](/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018)

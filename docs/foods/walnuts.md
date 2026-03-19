@@ -15,16 +15,6 @@ tags:
   - Copper
   - Phosphorus
   - Polyphenol
-  - Urolithin A
-  - Tryptophan
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
 list_image: /img/icons/ingredients.svg
 nutrition_per_100g:
   fibre_g: 6.2

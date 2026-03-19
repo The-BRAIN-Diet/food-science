@@ -37,6 +37,13 @@ nutrition_source:
 
 Pumpkin seeds are nutrient-dense seeds providing zinc, tryptophan, magnesium, and other minerals critical for neurotransmitter synthesis and antioxidant function. Pumpkin seeds have high zinc content for neurotransmitter modulation and are listed as sources for tryptophan, zinc, and glutamate synthesis. Plant zinc is less bioavailable due to phytates; soaking/sprouting helps improve bioavailability.
 
+## Key Nutritional Highlights
+
+- Dense source of zinc and iron relative to many commonly consumed nuts and seeds.
+- Higher protein density than many seed toppings used in similar serving sizes.
+- Notable tryptophan contribution among plant foods used in snacks and breakfast add-ins.
+- Phytate content can reduce apparent mineral bioavailability; soaking/sprouting can improve practical uptake.
+
 ## Food Context
 
 ### Synergies
@@ -82,10 +89,6 @@ Pumpkin seeds are notable for tryptophan and leucine but relatively low in lysin
 
 ## References
 
-- Pumpkin seeds: High zinc content for neurotransmitter modulation
-- Tryptophan: Converted to NAD+ via kynurenine pathway; food sources include turkey, chicken, eggs, pumpkin seeds, oats, soybeans
-- Tryptophan + complex carbohydrates aid serotonin conversion to melatonin; examples include pumpkin seeds + oats
-- Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, cashews
-- Glutamate: Principal excitatory neurotransmitter; food sources include lentils, poultry, fish, spinach, pumpkin seeds; cofactors include glutamine (from protein), B6, magnesium, zinc
-- Dopamine: Attention, motivation, executive function; food sources include lean poultry, beef, fish, dairy, soy, pumpkin seeds; omega-3 rich fish
-- Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability [GREINER and KONIETZNY 1999](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
+[1] Phytate reduction and mineral bioavailability in soaking/sprouting contexts [Greiner & Konietzny 1999](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
+
+[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

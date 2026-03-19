@@ -15,15 +15,6 @@ tags:
   - Manganese
   - Copper
   - Iron
-  - Tryptophan
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
 list_image: /img/icons/ingredients.svg
 nutrition_per_100g:
   carbs_g: 29.73

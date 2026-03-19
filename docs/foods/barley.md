@@ -48,6 +48,14 @@ nutrition_supplementary_sources:
 
 Barley is a whole grain valued for **beta-glucan** prebiotic fibre and sustained energy release. Beta-glucan supports gut microbiome diversity and stable blood glucose; it is an intrinsic component of barley (and oats, mushrooms), not to be confused with downstream metabolites such as SCFAs produced by fermentation.
 
+
+## Key Nutritional Highlights
+
+- Highest fibre among BRAIN Diet grain and pseudograin pages (per 100 g).
+- Rich source of beta-glucan, the viscous cereal fibre most strongly associated with barley's metabolic effects.
+- Beta-glucan-rich barley can support glycaemic control and satiety in mixed-meal contexts.
+- Grain protein is lysine-limited, so amino-acid balance improves when paired with legumes.
+
 ## Food Context
 
 ### Synergies
@@ -89,6 +97,8 @@ Grains such as barley are relatively higher in methionine but lysine-limited. Co
 
 ## References
 
-- Beta-glucans: oats, barley, mushrooms; prebiotic fibre supporting gut microbiome and stable glucose release
-- Grain–legume complementarity: barley (lysine-limited) pairs with legumes for complete essential amino acid profile
-- Barley β-glucan fermentation: in vitro fermentation yields butyrate and other SCFAs [Hughes et al. 2008](https://academic.oup.com/femsec/article/64/3/482/473920)
+[1] Protein quality evaluation framework (DIAAS) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+
+[3] Barley beta-glucan fermentation to SCFAs (in vitro evidence) [Hughes et al. 2008](https://academic.oup.com/femsec/article/64/3/482/473920)

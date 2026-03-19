@@ -47,6 +47,15 @@ Within the BRAIN Diet framework, herring is treated as one of the **rotational o
 
 <NutritionTable details={frontMatter} />
 
+
+## Key Nutritional Highlights
+
+- Provides complete, highly digestible protein.
+- Commonly contributes selenium, iodine, and vitamin B12, though levels vary by species.
+- EPA/DHA content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.
+- Often lower in saturated fat than many fatty red-meat patterns when minimally processed.
+- Nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).
+
 ## Food Context
 
 ### Sourcing

@@ -51,6 +51,16 @@ Within the BRAIN Diet framework, sardines are treated as a **compact, shelf-stab
 
 <NutritionTable details={frontMatter} />
 
+
+## Key Nutritional Highlights
+
+- Highest total omega-3 among BRAIN Diet fish and seafood pages (per 100 g).
+- Provides complete, highly digestible protein.
+- Commonly contributes selenium, iodine, and vitamin B12, though levels vary by species.
+- EPA/DHA content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.
+- Often lower in saturated fat than many fatty red-meat patterns when minimally processed.
+- Nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).
+
 ## Food Context
 
 ### Sourcing

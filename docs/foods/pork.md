@@ -38,6 +38,15 @@ Pork is a widely consumed animal food that is particularly notable for **thiamin
 Within the BRAIN Diet framework, pork is best treated as a rotational animal-food option used for targeted micronutrients rather than as a default centrepiece at every meal. Choosing minimally processed cuts and using gentler cooking methods helps preserve thiamine and reduces formation of heat-derived compounds, while still capturing the nutrient-density advantages of the food [1].
 
 
+
+## Key Nutritional Highlights
+
+- Provides a complete, highly digestible protein source.
+- Rich in bioavailable heme iron, zinc, and vitamin B12 compared with many plant foods.
+- Contributes creatine and related muscle-derived compounds relevant to cellular energy metabolism.
+- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
+- Processed versions (e.g. cured, smoked, deli-style) are associated with less favorable health outcomes.
+
 ## Food Context
 
 ### Sourcing

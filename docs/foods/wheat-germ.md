@@ -12,9 +12,9 @@ tags:
   - Vitamin E
 list_image: /img/icons/ingredients.svg
 nutrition_per_100g:
-  kcal: 884
+  kcal: 857.1
   protein_g: 0
-  fat_g: 100
+  fat_g: 97.1
   carbs_g: 0
   fibre_g: 0
   calcium_mg: 0
@@ -25,13 +25,15 @@ nutrition_per_100g:
   selenium_ug: 0
   vitamin_b6_mg: 0
   folate_ug: 0
-  choline_mg: 20
+  choline_mg: 19.3
   vitamin_b12_ug: 0
-  sat_fat_g: 18.8
+  sat_fat_g: 18.6
   epa_mg: 0
   dha_mg: 0
   ala_mg: 0
-  omega3_mg: 0
+  omega3_mg: 6700
+  vitamin_e_mg: 145.0
+  vitamin_k_ug: 24.3
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Oil, wheat germ'
@@ -43,11 +45,18 @@ nutrition_source:
 
 ## Overview
 
-Wheat germ provides choline, B vitamins, and vitamin E, supporting acetylcholine synthesis and methylation pathways. Acetylcholine and choline food sources include egg yolks, fish roe, soy, wheat germ, and liver.
+Wheat germ is the embryo fraction of the wheat kernel and is often used as a concentrated additive rather than a standalone staple food. It is notable for contributing vitamin E, choline, and other micronutrients associated with the germ fraction of grains.
+
+In practical use, nutrient impact depends strongly on form (raw/toasted wheat germ vs wheat germ oil vs mixed products). Within the BRAIN Diet framework, wheat germ is best treated as a concentrated ingredient used in small amounts within broader meal patterns.
 
 
-<NutritionTable details={frontMatter} />
 
+## Key Nutritional Highlights
+
+- Concentrated source of vitamin E and choline relative to many grain-derived ingredients.
+- Often used in small quantities to fortify meals with micronutrient density.
+- Nutritional profile varies substantially by product form (wheat germ vs wheat germ oil).
+- Best interpreted as an ingredient-level enhancer rather than a staple carbohydrate base.
 
 ## Food Context
 
@@ -57,12 +66,14 @@ Wheat germ provides choline, B vitamins, and vitamin E, supporting acetylcholine
 
 ### Synergies
 
-- Part of diverse choline intake strategy
+- Can complement other dietary choline sources (e.g. eggs, fish, soy foods) in plant-forward patterns.
 
 ### Preparation
 
-- Can be added to smoothies, cereals, or baked goods
-- Supports neurotransmitter synthesis
+- Add to porridge, yogurt bowls, or baking in modest amounts.
+- Store refrigerated after opening to limit oxidation and rancidity.
+
+<NutritionTable details={frontMatter} />
 
 
 ## Substances
@@ -76,4 +87,6 @@ Wheat germ provides choline, B vitamins, and vitamin E, supporting acetylcholine
 
 ## References
 
-- Acetylcholine and choline: Egg yolks, fish roe, soy, wheat germ, liver
+[1] Choline as a practical nutrient target in dietary patterns [Derbyshire 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+
+[2] Vitamin E antioxidant network context [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_antioxidant_1997)

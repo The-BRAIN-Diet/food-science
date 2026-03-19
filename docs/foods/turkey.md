@@ -49,6 +49,16 @@ Turkey provides amino acids including **tryptophan** (a serotonin precursor) tog
 
 Within the BRAIN Diet framework, turkey can be used as a pragmatic way to support niacin intake and amino-acid availability while keeping meals plant-forward via vegetable- and legume-based sides. Timing and meal composition matter: carbohydrate co-consumption can influence amino-acid competition at transporters (Trp:LNAA ratio), and gentler cooking helps limit heat-derived compounds while maintaining palatability [1,2].
 
+
+## Key Nutritional Highlights
+
+- Highest protein among BRAIN Diet meat and organ pages (per 100 g).
+- Provides a complete, highly digestible protein source.
+- Typically contributes B vitamins and selenium with lower heme-iron density than red meat.
+- Usually lower in saturated fat than many fatty red-meat cuts when skin and visible fat are limited.
+- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
+- Processing level matters: minimally processed cuts differ from cured or deli-style products.
+
 ## Food Context
 
 ### Synergies

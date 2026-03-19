@@ -14,30 +14,27 @@ tags:
   - Magnesium
   - Phosphorus
   - Manganese
-  - Tryptophan
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
 list_image: /img/icons/ingredients.svg
 nutrition_per_100g:
-  carbs_g: 42.86
-  sat_fat_g: 35.71
-  kcal: 476
-  potassium_mg: 0
-  fat_g: 30.95
-  iron_mg: 10.71
-  calcium_mg: 595
-  fibre_g: 33.3
-  protein_g: 16.67
+  carbs_g: 42.9
+  sat_fat_g: 3.4
+  kcal: 492.9
+  potassium_mg: 412.9
+  fat_g: 31.1
+  iron_mg: 7.9
+  calcium_mg: 640
+  fibre_g: 35
+  protein_g: 16.8
+  magnesium_mg: 339.6
+  zinc_mg: 4.6
+  selenium_ug: 56.1
+  folate_ug: 49.6
+  vitamin_e_mg: 0.5
+  ala_mg: 18086
 nutrition_source:
   database: USDA FoodData Central
-  food_name: CHIA SEEDS
-  fdc_id: 2376589
+  food_name: "Seeds, chia seeds, dried"
+  fdc_id: 170554
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
@@ -49,6 +46,13 @@ complementary_pairings: Legumes or grains for complete essential amino acid prof
 
 Chia seeds provide ALA (plant omega-3), soluble fiber, and minerals, supporting gut health and providing plant-based omega-3. Soluble fibre (from apples, oats, flaxseeds) - chia also provides soluble fiber supporting gut health and SCFA production. ALA is an essential omega-3 fatty acid with limited conversion to DHA/EPA in adults; food sources include flax, chia, and walnuts. Conversion from ALA is less than 5% in most adults; direct DHA/EPA strongly recommended for optimal brain health.
 
+
+## Key Nutritional Highlights
+
+- Exceptionally high fibre density for a seed, supporting stool bulk and gut-microbiome substrate intake.
+- Rich in ALA omega-3, but ALA-to-EPA/DHA conversion is limited in humans.
+- High calcium and iron values per 100 g relative to many commonly consumed seeds.
+- Forms a viscous gel when hydrated, useful for texture, satiety, and recipe binding.
 
 ## Food Context
 
@@ -86,7 +90,6 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-- Soluble fibre (from apples, oats, flaxseeds) - chia also provides soluble fiber supporting gut health and SCFA production
-- ALA is an essential omega-3 fatty acid with limited conversion to DHA/EPA in adults; food sources include flax, chia, and walnuts
-- Conversion from ALA is less than 5% in most adults; direct DHA/EPA strongly recommended for optimal brain health
-- Part of plant-based omega-3 strategy; regular consumption of oily fish or algal oil to meet baseline omega-3 requirements (~250–500 mg/day EPA+DHA) is recommended
+[1] Omega-3 conversion constraints and practical intake context [NIH ODS 2025](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
+
+[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

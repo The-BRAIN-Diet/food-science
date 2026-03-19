@@ -34,6 +34,15 @@ Kidney is an organ meat that can contribute concentrated micronutrients (notably
 Within the BRAIN Diet framework, kidney is typically treated as an occasional nutrient-density food alongside other organ meats, paired with plant-forward meals to balance fibre and phytochemicals. Sourcing from reputable producers and using thorough cooking/handling practices are important for both quality and palatability [1].
 
 
+
+## Key Nutritional Highlights
+
+- Nutrient-dense source of complete protein plus highly bioavailable vitamins and minerals.
+- Typically richer than standard muscle meat in vitamin B12 and other micronutrients.
+- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
+- Nutrient concentrations can be very high, so portion size and frequency are useful practical levers.
+- Processing and cooking method still matter for overall dietary context.
+
 ## Food Context
 
 ### Sourcing

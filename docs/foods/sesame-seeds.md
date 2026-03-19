@@ -47,6 +47,13 @@ complementary_pairings: Legumes or grains for complete essential amino acid prof
 Sesame seeds provide calcium, healthy fats, and are the source of tahini, supporting bone health and carotenoid absorption when paired with vegetables. Practical pairings: carrots + tahini, kale + avocado, berries + yogurt/nuts. Sesame seeds are part of diverse seed intake and support fat-soluble vitamin absorption when used as tahini.
 
 
+## Key Nutritional Highlights
+
+- Very high calcium and iron values per 100 g compared with many seeds and nuts.
+- Tahini format makes sesame easy to integrate into savory meals at useful portions.
+- Rich in unsaturated fats that can improve carotenoid and fat-soluble vitamin absorption in mixed meals.
+- Protein is meaningful but lysine-limited, so pairings with legumes improve amino-acid balance.
+
 ## Food Context
 
 ### Synergies
@@ -83,6 +90,8 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-- Practical pairings: carrots + tahini, kale + avocado, berries + yogurt/nuts (sesame seeds are source of tahini)
-- Part of diverse seed intake supporting dietary diversity
-- Co-consuming a small amount of unsaturated fat with polyphenol-rich foods improves micelle formation and chylomicron packaging, increasing carotenoid and fat-soluble vitamin absorption [Kindel et al. 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010) [Brown et al. 2004](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+[1] Fat co-ingestion mechanisms for carotenoid and fat-soluble nutrient absorption [Kindel et al. 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
+
+[2] Dietary fat effects on carotenoid bioavailability [Brown et al. 2004](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+
+[3] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

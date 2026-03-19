@@ -51,6 +51,15 @@ Chicken provides **niacin (vitamin B3)** for NAD⁺ synthesis, **zinc**, and ami
 Within the BRAIN Diet framework, chicken is typically used as a flexible protein base while its micronutrient profile (especially niacin and zinc) supports broader metabolic and neurochemical priorities. Pairing chicken with fibre- and polyphenol-rich plant foods helps keep the overall pattern plant-forward, while gentler cooking methods help preserve B vitamins and limit heat-derived compounds [1,2].
 
 
+
+## Key Nutritional Highlights
+
+- Provides a complete, highly digestible protein source.
+- Typically contributes B vitamins and selenium with lower heme-iron density than red meat.
+- Usually lower in saturated fat than many fatty red-meat cuts when skin and visible fat are limited.
+- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
+- Processing level matters: minimally processed cuts differ from cured or deli-style products.
+
 ## Food Context
 
 ### Synergies

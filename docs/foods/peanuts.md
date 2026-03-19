@@ -19,15 +19,6 @@ tags:
   - Copper
   - Zinc
   - Polyphenol
-  - Tryptophan
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
 list_image: /img/icons/ingredients.svg
 nutrition_per_100g:
   kcal: 571

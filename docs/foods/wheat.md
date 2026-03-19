@@ -46,28 +46,37 @@ complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essen
 
 ## Overview
 
-Wheat, especially whole grain forms, provides B vitamins, fiber, minerals, and when used in sourdough fermentation, can produce GABA and optimized Maillard products. Whole wheat flour provides gluten strength and more amino acids to fuel Maillard reaction.
+Wheat, especially in less-refined forms, provides complex carbohydrates, fibre, and minerals such as magnesium, iron, and zinc [2]. It can contribute useful B-vitamin intake and remains a widely used staple that can support dietary energy needs in many meal patterns.
 
+From a protein perspective, wheat is best understood as a grain protein that is typically lysine-limited rather than complete on its own [1,2]. In the BRAIN Diet framework, wheat-based foods are most useful when paired with legumes across meals to improve essential amino-acid balance while maintaining practical dietary variety [1,2].
+
+
+
+## Key Nutritional Highlights
+
+- Widely consumed staple grain with meaningful B-vitamin and mineral contribution when less refined.
+- Nutritional profile changes markedly with refinement level and product type.
+- Grain protein is lysine-limited, so amino-acid balance improves when paired with legumes [1,2].
+- Food-matrix effects differ between whole-kernel/flour products and highly processed wheat foods.
 
 ## Food Context
 
 ### Sourcing
 
-- Choose whole grain forms for higher nutrient content
+- Choose less-refined and whole-grain wheat products where tolerated, as they generally retain more fibre and micronutrients than highly refined forms.
 
 ### Synergies
 
-- Part of diverse grain intake
+- Pair wheat with legumes (e.g. lentils, chickpeas, beans) to improve essential amino-acid balance at meal/day level [1,2].
 
 ### Preparation
 
-- Sourdough fermentation enhances nutrient bioavailability
-- Supports gut health via fiber
+- Use minimally processed forms and avoid excessive refinement to preserve fibre and micronutrient density.
 
 
 ### Essential Amino Acid Profile
 
-Wheat provides a useful plant protein source but are not a complete protein.
+Wheat provides a useful plant protein source but is not a complete protein.
 
 Notable amino acids:
 
@@ -96,4 +105,6 @@ Grains such as wheat are relatively higher in methionine but lysine-limited. Com
 
 ## References
 
-- Whole Wheat Flour: Gluten strength; more amino acids to fuel Maillard reaction
+[1] Protein quality evaluation framework (DIAAS) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

@@ -44,8 +44,18 @@ complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essen
 
 ## Overview
 
-Rice provides complex carbohydrates and, when cooked and cooled, forms resistant starch. Also provides thiamine (B1) for mitochondrial glucose metabolism. Resistant Starch forms when certain starchy foods are cooked and then cooled. Foods like rice and potatoes develop higher resistant starch content when chilled. White rice was cooled and reheated showing a rise in RS content from 0.64 to 1.65 g/100 g and elicited a lower glycemic response. Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils.
+Rice is a globally used staple carbohydrate food, with nutritional profile strongly shaped by variety and processing (e.g. white vs brown, polished vs less refined). It contributes dietary energy efficiently and can be integrated into many meal patterns.
 
+When cooked and then cooled, rice can form additional resistant starch, which may reduce glycaemic response relative to freshly cooked equivalents in some contexts. Rice remains lysine-limited as a grain protein, so amino-acid balance improves when paired with legumes [1,2].
+
+
+
+## Key Nutritional Highlights
+
+- Naturally gluten-free staple grain used across diverse dietary patterns.
+- Nutritional profile differs substantially between less-refined and highly polished forms.
+- Cooking/cooling can increase resistant starch, which may improve post-meal glycaemic response.
+- Grain protein is lysine-limited, so amino-acid balance improves when paired with legumes [1,2].
 
 ## Food Context
 
@@ -91,8 +101,8 @@ Grains such as rice are relatively higher in methionine but lysine-limited. Comb
 
 ## References
 
-- Resistant Starch forms when certain starchy foods are cooked and then cooled; foods like rice and potatoes develop higher resistant starch content when chilled
-- White rice was cooled and reheated showing a rise in RS content from 0.64 to 1.65 g/100 g and elicited a lower glycemic response
-- Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils; essential for mitochondrial glucose metabolism in the brain leading to ATP production
-- Pair legumes with grains (e.g., beans + rice) to cover lysine and methionine gaps; grain-legume complementarity improves essential amino-acid coverage
-- Resistant starch (cooled potatoes, green bananas, cooled rice) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+[1] Protein quality evaluation framework (DIAAS) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+
+[3] Cook-cool-reheat rice and resistant starch/glycaemic response [Zhou et al. 2014](https://pubmed.ncbi.nlm.nih.gov/26693746/)

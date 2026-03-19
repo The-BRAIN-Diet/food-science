@@ -54,6 +54,50 @@ The Overview must not:
 - list long mechanistic chains or speculative pathways
 - mention downstream microbial metabolites as if they are present in the food (e.g. SCFAs from fibre)
 
+## Key Nutritional Highlights specification
+
+Add `## Key Nutritional Highlights` immediately after `## Overview`.
+
+- Use 3-6 bullet points only.
+- Keep each bullet to one sentence or short clause.
+- Include both notable benefits and relevant constraints where useful.
+- Use neutral, scientific wording (no "strengths/weaknesses" or "pros/cons" labels).
+- Avoid vague filler language; prefer food-specific, decision-relevant points.
+- Repetition is allowed only when function differs:
+  - Highlights = brief summary
+  - later sections = expanded explanation/context/mechanism/preparation
+- Do not list all amino acids in Highlights. If protein quality is relevant, summarize briefly (e.g. "complete protein with high digestibility" or "lysine-limited; complements legumes").
+
+### Specificity Rule
+
+Only include points that are distinctive to the specific food.
+
+Do NOT include:
+- generic statements that apply to most foods in the same category,
+- comparisons to obviously inferior baselines (e.g. "better than refined grains"),
+- general macronutrient statements that do not differentiate the food (e.g. "provides carbohydrates"),
+- properties common to essentially all foods in the category (e.g. "low in saturated fat" for most plant foods),
+- preparation or processing effects (which belong in Food Context / Preparation).
+
+Each bullet should be answerable as:
+- "What is uniquely or meaningfully characteristic about this food in the BRAIN Diet context?"
+
+### Processing vs Food Identity Rule
+
+Do not conflate intrinsic food properties with processing effects.
+
+- Intrinsic properties (nutrients, amino acids, micronutrients) belong in:
+  - Overview
+  - Key Nutritional Highlights
+- Processing-related effects belong in:
+  - Food Context
+  - Preparation
+
+Highlights may include a neutral line like:
+- "Nutritional profile depends on processing method."
+
+Avoid statements that imply the whole food is harmful based only on specific processed forms.
+
 ## Amino acid / EAA logic
 
 - **Animal foods** (fish, meat, eggs, dairy): Do not list all amino acids. Use a short line such as "**Protein profile:** Complete essential amino acid profile." Use front matter `protein_profile_note` if you want it data-driven. Only highlight individual amino acids when mechanistically relevant (e.g. turkey → tryptophan).
@@ -64,7 +108,8 @@ The Overview must not:
 Section order reflects BRAIN framework: context before data.
 
 1. **Overview** – Two short paragraphs following the Overview specification above (category + intrinsic compounds in paragraph 1; strongest evidence-backed relevance in paragraph 2), with inline numeric citations [1], [2]. Optionally add one line noting **protein profile** where relevant.
-2. **Food Context** – Framework and practical context immediately after Overview.
+2. **Key Nutritional Highlights** – 3-6 concise bullets summarizing the most decision-relevant properties with neutral wording (benefits and constraints), following the rule above.
+3. **Food Context** – Framework and practical context immediately after Highlights.
    - Use at most three subsections: **Sourcing**, **Synergies**, **Preparation**.
    - **Only include a subsection if it contains meaningful, evidence-backed content for that food.** Do not show placeholder text, generic filler, or empty/null sections.
    - Before omitting a subsection, first check whether there is a credible food-specific point that can be made from:
@@ -76,11 +121,11 @@ Section order reflects BRAIN framework: context before data.
    - **Preparation**: show only if handling or cooking method meaningfully changes nutrient retention, bioavailability, oxidation/AGE formation, microbial safety, food structure/digestibility, or practical use in the diet. Keep this section focused on process, not meal composition. If nothing meaningful can be said, omit Preparation entirely.
    - **Synergies**: often the most relevant subsection, because food interactions shape bioavailability or physiological effect (e.g. vitamin C with non‑heme iron, fat with carotenoids, grains with legumes for amino acid complementarity, herbs/spices reducing oxidative products in cooked foods). However, **omit Synergies** if no meaningful, food‑relevant interaction can be identified. Do not invent generic or weak pairings just to fill the section.
    - General rule: a shorter Food Context with only one or two strong subsections is better than three weak ones. **Quality over completeness**—every visible subsection should add genuine scientific or practical value.
-3. **Essential Amino Acid Profile** – When required (protein ≥5 g/100 g or commonly protein source).
-4. **Nutrition (per 100 g)** – `<NutritionTable details={frontMatter} />`. Source notes for asterisked values appear below the table. Component renders only when `nutrition_per_100g` has data.
-5. **Substances** – `<FoodSubstancesFromTable details={frontMatter} />` when using the nutrition layer; otherwise `<FoodSubstances details={frontMatter} />`
-6. **Recipes** – `<FoodRecipes tag="food tag" />`
-7. **References** – Local, page-level reference list for that food, containing only real citations that support claims on the page. Use Vancouver-style numeric citations [1], [2] in Overview and Food Context, and list the full clickable references here (ideally also present in `docs/papers/BRAIN-Diet-References`).
+4. **Essential Amino Acid Profile** – When required (protein ≥5 g/100 g or commonly protein source). Keep brief and functional; avoid full amino-acid dumps.
+5. **Nutrition (per 100 g)** – `<NutritionTable details={frontMatter} />`. Source notes for asterisked values appear below the table. Component renders only when `nutrition_per_100g` has data.
+6. **Substances** – `<FoodSubstancesFromTable details={frontMatter} />` when using the nutrition layer; otherwise `<FoodSubstances details={frontMatter} />`
+7. **Recipes** – `<FoodRecipes tag="food tag" />`
+8. **References** – Local, page-level reference list for that food, containing only real citations that support claims on the page. Use Vancouver-style numeric citations [1], [2] in Overview/Food Context/Highlights as needed, and list the full clickable references here (ideally also present in `docs/papers/BRAIN-Diet-References`).
 
 ## References and connection to BibTeX
 

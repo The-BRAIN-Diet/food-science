@@ -53,6 +53,15 @@ Mussels are bivalve shellfish that provide substantial amounts of **vitamin B12*
 
 Within the BRAIN Diet framework, mussels serve as a rotational shellfish option that complements other dietary sources of B12 and iron. They are especially useful in dietary patterns where red meat intake is moderated but adequate intake of these micronutrients is still required [1]. As with all shellfish, sourcing and preparation are important—safe harvesting areas, proper storage, and thorough cooking reduce microbiological risk while preserving the nutrient density of the food [2].
 
+
+## Key Nutritional Highlights
+
+- Provides complete, highly digestible protein.
+- Commonly contributes selenium, iodine, and vitamin B12, though levels vary by species.
+- EPA/DHA content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.
+- Often lower in saturated fat than many fatty red-meat patterns when minimally processed.
+- Nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).
+
 ## Food Context
 
 ### Sourcing

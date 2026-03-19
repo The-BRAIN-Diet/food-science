@@ -2,7 +2,7 @@
 id: buckwheat
 title: Buckwheat
 sidebar_label: Buckwheat
-description: Pseudograin with rutin and complete protein
+description: Pseudograin with magnesium, iron, and fiber
 tags:
   - Food
   - Buckwheat
@@ -37,26 +37,34 @@ complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essen
 
 ## Overview
 
-Buckwheat is a pseudograin providing complete plant protein, rutin (flavonoid), and magnesium, supporting vascular health and neurotransmitter function. Buckwheat has a DIAAS score of 75-80, lysine marginal; high rutin content for vascular health. Whole grains (including pseudograins like quinoa and buckwheat, grains like barley and oats) support gut health. Combine with lentils or chickpeas for amino acid complementarity.
+Buckwheat is a gluten-free pseudograin that provides complex carbohydrates, fibre, and useful plant protein, together with minerals such as magnesium, iron, zinc, and selenium [2]. Compared with many refined grain products, it can improve micronutrient density and fibre intake while broadening whole-grain diversity.
 
+As with other grain-type plant proteins, buckwheat is better framed as **lysine-limited but complementary**, rather than "complete" in isolation [1,2]. In the BRAIN Diet framework, combining buckwheat with legumes across meals is a practical way to improve essential amino-acid balance while maintaining a fibre- and mineral-rich dietary pattern [1,2].
+
+
+
+## Key Nutritional Highlights
+
+- Naturally gluten-free pseudograin, suitable for gluten-free dietary patterns.
+- Rich in flavonoids (e.g. rutin), contributing antioxidant and vascular-support properties.
+- Contains resistant starch and fibre, supporting glycaemic control and gut microbiome activity.
+- Higher lysine content than most cereal grains, improving amino-acid balance within plant-based diets.
 
 ## Food Context
 
 ### Synergies
 
-- Pair with legumes for complete amino acid profile; combine with lentils or chickpeas for amino acid complementarity
-- Part of pseudograin diversity strategy
+- Pair buckwheat with legumes (e.g. lentils, chickpeas, beans) to improve overall essential amino-acid balance at meal/day level [1,2].
 
 ### Preparation
 
 - Rinse before cooking to remove any debris
-- Can be used in sourdough/fermented breads for GABA production potential
-- High rutin content supports vascular health
+- Use gentle simmering and avoid overcooking to preserve texture and practical meal quality.
 
 
 ### Essential Amino Acid Profile
 
-Buckwheat provides a useful plant protein source but are not a complete protein.
+Buckwheat provides a useful plant protein source but is not a complete protein.
 
 Notable amino acids:
 
@@ -85,7 +93,6 @@ Grains such as buckwheat are relatively higher in methionine but lysine-limited.
 
 ## References
 
-- Whole grains (including pseudograins like quinoa and buckwheat, grains like barley and oats) support gut health
-- Buckwheat: DIAAS 75-80, Lysine (marginal) - High rutin content for vascular health
-- Combine with lentils or chickpeas for amino acid complementarity; grain-legume complementarity improves essential amino-acid coverage
-- Rutin is a flavonoid that supports vascular health and may have neuroprotective effects
+[1] Protein quality evaluation framework (DIAAS) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

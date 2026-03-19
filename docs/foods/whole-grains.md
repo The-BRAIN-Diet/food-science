@@ -39,22 +39,30 @@ complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essen
 
 ## Overview
 
-Whole grains are grains that contain the entire grain kernel (bran, germ, and endosperm), providing fiber, B vitamins, and minerals. Whole grains provide prebiotic fiber for gut microbiome, B vitamins for neurotransmitter synthesis, and minerals (magnesium, zinc, iron).
+Whole grains retain all major kernel components (bran, germ, and endosperm), which preserves more fibre and micronutrients than highly refined grain products. In practice, this usually means higher intake of dietary fibre, B vitamins, and minerals within similar eating patterns.
 
+Within the BRAIN Diet framework, whole grains are used as a foundational carbohydrate category that supports glycaemic stability and gut-directed dietary structure when they replace refined grain patterns. Protein quality remains grain-typical (lysine-limited), so amino-acid balance still improves when paired with legumes [1,2].
+
+
+
+## Key Nutritional Highlights
+
+- Category-level food identity: grains that retain bran, germ, and endosperm.
+- Consistently higher fibre density than refined grain equivalents.
+- Higher likelihood of preserving B vitamins and minerals than refined grain patterns.
+- Grain protein remains lysine-limited, so amino-acid balance improves with legumes [1,2].
 
 ## Food Context
 
 ### Preparation
 
-- Prebiotic fiber for gut microbiome
-- B vitamins for neurotransmitter synthesis
-- Minerals (magnesium, zinc, iron)
-- Complex carbohydrates for stable glucose release
+- Prefer minimally refined whole-kernel or whole-flour products where tolerated.
+- Soaking, fermentation, and cooking method can alter tolerance and functional texture.
 
 
 ### Essential Amino Acid Profile
 
-Whole Grains provides a useful plant protein source but are not a complete protein.
+Whole grains provide a useful plant protein source but are not a complete protein.
 
 Notable amino acids:
 
@@ -83,4 +91,6 @@ Grains such as whole grains are relatively higher in methionine but lysine-limit
 
 ## References
 
-- Whole grains provide prebiotic fiber, B vitamins, and minerals for brain health
+[1] Protein quality evaluation framework (DIAAS) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

@@ -37,6 +37,15 @@ Lamb is a nutrient-dense red meat providing highly bioavailable **heme iron**, *
 Within the BRAIN Diet framework, lamb is used strategically for its iron and zinc density rather than as an everyday centrepiece. It fits best when paired with vegetables, legumes, and whole grains to keep the overall pattern plant-forward, while choosing minimally processed cuts and gentler cooking methods to avoid excessive charring and heat-derived compounds [1,3].
 
 
+
+## Key Nutritional Highlights
+
+- Provides a complete, highly digestible protein source.
+- Rich in bioavailable heme iron, zinc, and vitamin B12 compared with many plant foods.
+- Contributes creatine and related muscle-derived compounds relevant to cellular energy metabolism.
+- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
+- Processed versions (e.g. cured, smoked, deli-style) are associated with less favorable health outcomes.
+
 ## Food Context
 
 ### Sourcing

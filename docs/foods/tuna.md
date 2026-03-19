@@ -41,6 +41,16 @@ Tuna is a lean fish providing **omega-3 fatty acids** (primarily EPA and DHA), *
 
 Within the BRAIN Diet framework, tuna is used as one component of a broader fish rotation rather than the sole marine protein source. Niacin-rich foods such as tuna contribute to NAD⁺-dependent metabolic pathways, while selenium participates in glutathione peroxidase and other antioxidant enzymes [1,2]. Because larger tuna species can accumulate higher levels of mercury, emphasis is placed on choosing lower-trophic species and moderating frequency within an overall pattern that includes smaller oily fish like sardines and herring [3].
 
+
+## Key Nutritional Highlights
+
+- Highest protein among BRAIN Diet fish and seafood pages (per 100 g).
+- Provides complete, highly digestible protein.
+- Commonly contributes selenium, iodine, and vitamin B12, though levels vary by species.
+- EPA/DHA content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.
+- Often lower in saturated fat than many fatty red-meat patterns when minimally processed.
+- Nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).
+
 ## Food Context
 
 ### Sourcing

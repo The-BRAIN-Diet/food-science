@@ -73,6 +73,14 @@ Beef is a nutrient-dense red meat providing several compounds relevant to brain 
 
 Within the BRAIN Diet framework, beef may be used strategically for nutrient density, particularly where iron, vitamin B12, creatine, and CoQ10 are priorities. At the same time, overall dietary pattern still matters, including processing level, cooking method, total intake, and the balance between plant and animal foods [5,6].
 
+## Key Nutritional Highlights
+
+- Provides a complete, highly digestible protein source.
+- Rich in bioavailable heme iron, zinc, and vitamin B12 compared with many plant foods.
+- Contributes creatine and related muscle-derived compounds relevant to cellular energy metabolism.
+- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
+- Processed versions (e.g. cured, smoked, deli-style) are associated with less favorable health outcomes.
+
 ## Food Context
 
 ## Sourcing
@@ -96,7 +104,7 @@ Within the BRAIN Diet framework, beef may be used strategically for nutrient den
 
 ### Essential Amino Acid Profile
 
-Beef provides a **complete essential amino acid profile** with high digestibility and bioavailability. As with other animal proteins, it supplies all nine indispensable amino acids in proportions that closely match human requirements, which is reflected in its high protein quality scores [4].
+Beef provides a complete essential amino acid profile with high digestibility and bioavailability [4].
 
 <NutritionTable details={frontMatter} />
 

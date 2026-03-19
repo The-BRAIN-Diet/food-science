@@ -57,7 +57,8 @@ export default function DocsAreasGrid(): ReactNode {
       permalink.includes("/partners") ||
       permalink.includes("/interventions") ||
       permalink.includes("post-meal-state-regulation") ||
-      permalink.includes("dietary-fat-metabolic-signalling")
+      permalink.includes("dietary-fat-metabolic-signalling") ||
+      permalink.includes("omega-3-in-the-brain-dha-pool")
     )
   })
 

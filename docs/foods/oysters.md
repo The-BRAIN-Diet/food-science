@@ -64,11 +64,16 @@ nutrition_supplementary_sources:
 
 Oysters are bivalve shellfish that provide high levels of **zinc**, **vitamin B12**, **iron**, and **selenium**, as well as modest amounts of omega-3 fatty acids. Among commonly eaten foods, oysters are notable for their zinc density, supporting enzymes involved in neurotransmitter synthesis, antioxidant defence, and immune function [1]. Their B12 and iron content contribute to red blood cell formation and one-carbon metabolism, which are important for neurological and cardiovascular health.
 
-Within the BRAIN Diet framework, oysters are recognised as one of the most micronutrient-dense foods available, particularly for **zinc**, **vitamin B12**, **iron**, and **selenium**. Because oysters are bivalves with a very simple nervous system and are often farmed with relatively low environmental impact, some people who otherwise follow plant-based diets choose to include them in what has been termed *ostroveganism*. In this context, oysters can provide nutrients that are otherwise difficult to obtain in sufficient quantities from strict plant-based diets, especially zinc and B12.
+Within the BRAIN Diet framework, oysters are a strategic micronutrient-dense option where zinc and B12 adequacy are priorities, including some dietary patterns that otherwise use little or no animal foods. Zinc concentrations vary materially by species and environment, but oysters remain among the most zinc-dense commonly eaten foods even with that variability [2].
 
-It is also important to note that zinc levels in oysters vary considerably depending on species, growing conditions, and geographic origin [2]. Pacific oysters (*Crassostrea gigas*), commonly farmed in Europe, generally contain around 15–20 mg of zinc per 100 g, while the European flat oyster (*Ostrea edulis*) has been reported to contain approximately 30–50 mg per 100 g. Some Atlantic species such as the Eastern oyster (*Crassostrea virginica*) can reach even higher concentrations in certain environments. Even with this variability, oysters remain among the most zinc-dense foods commonly consumed, meaning relatively small servings can contribute substantially to daily zinc intake. As with all shellfish, sourcing from regulated waters and proper handling are important to minimise microbiological and contaminant risks [1].
 
-<NutritionTable details={frontMatter} />
+## Key Nutritional Highlights
+
+- Highest selenium among BRAIN Diet fish and seafood pages (per 100 g).
+- One of the most zinc-dense commonly consumed foods, with very high vitamin B12 density.
+- EPA and DHA are present, but amounts vary substantially by species and preparation.
+- Mineral concentrations (especially zinc) vary by source, so species and origin matter.
+- As shellfish, oysters require strict sourcing and handling controls for microbiological safety.
 
 ## Food Context
 
@@ -81,6 +86,12 @@ It is also important to note that zinc levels in oysters vary considerably depen
 
 - Oysters can be eaten cooked or, where safe and culturally appropriate, raw; steaming or baking reduces microbiological risk while retaining much of their micronutrient density.
 - Pair oysters with vegetable-rich accompaniments such as lemon, herbs, and leafy greens to integrate their concentrated mineral content into balanced meals.
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of animal proteins.
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

@@ -37,6 +37,15 @@ Cod is a lean white fish providing modest amounts of **omega-3 fatty acids**, **
 Within the BRAIN Diet framework, cod functions as a **lean marine protein** that can be rotated with higher-fat oily fish rather than replacing them. Its protein has a high digestible indispensable amino acid score (DIAAS), indicating excellent indispensable amino acid coverage [2]. This makes cod a flexible option when meals already provide substantial fats from other ingredients, allowing marine protein and modest omega-3 intake without substantially increasing total dietary fat.
 
 
+
+## Key Nutritional Highlights
+
+- Provides complete, highly digestible protein.
+- Commonly contributes selenium, iodine, and vitamin B12, though levels vary by species.
+- EPA/DHA content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.
+- Often lower in saturated fat than many fatty red-meat patterns when minimally processed.
+- Nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).
+
 ## Food Context
 
 ### Sourcing

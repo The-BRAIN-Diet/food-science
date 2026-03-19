@@ -16,29 +16,28 @@ tags:
   - Phosphorus
   - Manganese
   - Copper
-  - Tryptophan
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
 list_image: /img/icons/ingredients.svg
 nutrition_per_100g:
-  kcal: 283
-  sat_fat_g: 2.5
-  fat_g: 25
-  fibre_g: 5
-  iron_mg: 3
-  carbs_g: 10
-  protein_g: 11.67
-  calcium_mg: 67
+  kcal: 584.8
+  sat_fat_g: 4.3
+  fat_g: 51.5
+  fibre_g: 8.7
+  iron_mg: 5.2
+  carbs_g: 20
+  protein_g: 20.9
+  calcium_mg: 78
+  potassium_mg: 645.2
+  magnesium_mg: 325
+  zinc_mg: 5
+  selenium_ug: 53.0
+  folate_ug: 227.2
+  choline_mg: 55.0
+  vitamin_b6_mg: 1.35
+  vitamin_e_mg: 35.2
 nutrition_source:
   database: USDA FoodData Central
-  food_name: SUNFLOWER SEEDS
-  fdc_id: 1879738
+  food_name: Seeds, sunflower seed kernels, dried
+  fdc_id: 170562
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
@@ -50,6 +49,13 @@ complementary_pairings: Legumes or grains for complete essential amino acid prof
 
 Sunflower seeds provide thiamine (B1), vitamin E, and are the source of sunflower lecithin, supporting mitochondrial function and choline intake. Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils. Thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production. Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli).
 
+
+## Key Nutritional Highlights
+
+- Concentrated dietary thiamine source among commonly consumed seeds.
+- High vitamin E content supports lipid-phase antioxidant intake.
+- Frequently used as a practical precursor ingredient for sunflower lecithin products.
+- Protein remains lysine-limited, so amino-acid balance improves with legumes/grains.
 
 ## Food Context
 
@@ -87,6 +93,6 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-- Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils; essential for mitochondrial glucose metabolism in the brain leading to ATP production [Dhir et al. 2019](/docs/papers/BRAIN-Diet-References#dhir_thiamine_2019)
-- Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis
-- Thiamine does not exist in a large brain "reservoir"; the CNS maintains small, tightly regulated intracellular pools that depend on continuous, transporter-mediated supply, making deficiency states potentially acute
+[1] Thiamine physiology and neuro-metabolic relevance [Dhir et al. 2019](/docs/papers/BRAIN-Diet-References#dhir_thiamine_2019)
+
+[2] Choline as a practical nutrient target in dietary patterns [Derbyshire 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)

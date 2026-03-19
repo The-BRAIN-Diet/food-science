@@ -38,6 +38,15 @@ Scallops are bivalve shellfish that provide **vitamin B12**, **iron**, **zinc**,
 Within the BRAIN Diet framework, scallops are used as an occasional **lean shellfish option** that complements both fish and plant-based protein sources. They fit particularly well into meals where the primary focus is on vegetables and whole grains, adding protein and micronutrients without a large increase in calories [1]. As with other seafood, overall dietary pattern, sourcing from well-managed fisheries, and gentle cooking methods help ensure that scallops contribute nutritional benefits within a sustainable, safe eating pattern [1,2].
 
 
+
+## Key Nutritional Highlights
+
+- Provides complete, highly digestible protein.
+- Commonly contributes selenium, iodine, and vitamin B12, though levels vary by species.
+- EPA/DHA content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.
+- Often lower in saturated fat than many fatty red-meat patterns when minimally processed.
+- Nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).
+
 ## Food Context
 
 ### Sourcing

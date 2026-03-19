@@ -2,7 +2,7 @@
 id: quinoa
 title: Quinoa
 sidebar_label: Quinoa
-description: 'Pseudograin with complete protein, magnesium, and GABA potential in sourdough'
+description: 'Pseudograin with magnesium, iron, and balanced plant protein'
 tags:
   - Food
   - Quinoa
@@ -60,29 +60,43 @@ nutrition_source:
 
 ## Overview
 
-Quinoa is a pseudograin providing complete plant protein, magnesium, and when fermented in sourdough, can produce GABA through specific bacterial strains. Quinoa has a DIAAS score of 83-87, indicating high protein quality with complete amino acid profile (lysine marginal). Quinoa sourdough offers both very high nutrients (due to the quinoa) and a high GABA profile. Quinoa is mentioned as a source for choline support, important for vegans.
+Quinoa is a nutrient-dense pseudograin that provides complex carbohydrates, fibre, and a substantial plant-protein contribution, alongside magnesium, iron, zinc, folate, and choline [2]. It is naturally gluten-free and can be a useful grain alternative for people who avoid wheat-based staples.
+
+Quinoa seeds naturally contain bitter saponins in the outer coating, so rinsing before cooking improves taste and palatability; many modern commercial products are pre-washed, but a brief rinse is still practical in home cooking [3]. Within the BRAIN Diet framework, quinoa works well as a rotating whole-grain/pseudograin option that supports mineral intake, fibre intake, and overall diet diversity [2].
+
+
+## Key Nutritional Highlights
+
+- Highest folate among BRAIN Diet grain and pseudograin pages (per 100 g).
+- Provides complex carbohydrates for meal energy and dietary pattern flexibility.
+- Typically contributes more fibre and micronutrients than refined grain products.
+- Plant-protein quality is useful but context-dependent; amino-acid complementarity can improve coverage.
+- Naturally low in saturated fat.
+- Processing and preparation methods (refining, fermentation, soaking/rinsing, cooking) influence tolerance and nutrient availability.
 
 ## Food Context
 
 ### Synergies
 
-- Pair with legumes to boost lysine content; combine with legumes to boost lysine for complete amino acid profile
-- Part of grain-legume complementarity strategy
+- Pair quinoa with legumes (e.g. lentils, chickpeas, beans) to improve overall essential amino-acid balance at meal/day level [1,2].
 
 ### Preparation
 
-- Rinse before cooking to remove saponins (bitter compounds)
-- Can be used in sourdough fermentation for GABA production; pseudo grains like quinoa, amaranth etc can introduce GABA and other important brain nutrients
-- Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis
+- Rinse before cooking to reduce residual saponin bitterness (even when labeled pre-washed).
+- Use gentle boiling/steaming and avoid overcooking to preserve texture and improve practical meal adherence.
 
 
 ### Essential Amino Acid Profile
 
-This food provides a complete essential amino acid profile (unusual for a plant source; DIAAS 83–87).
+Quinoa provides a strong plant-protein profile and is often described as relatively balanced for a pseudograin, but amino-acid complementarity with legumes still improves practical coverage [1,2].
 
 Notable amino acids:
 
 - Lysine
+
+Protein pairing strategy:
+
+Combine quinoa with legumes (e.g. lentils, chickpeas, beans) to support a more robust essential amino-acid pattern across meals [1,2].
 
 
 <NutritionTable details={frontMatter} />
@@ -99,9 +113,8 @@ Notable amino acids:
 
 ## References
 
-- Quinoa sourdough offers both very high nutrients (due to the quinoa) and a high GABA profile
-- Pseudo Grains: Quinoa, amaranth etc can introduce GABA and other important brain nutrients
-- Quinoa has DIAAS score of 83-87, lysine marginal; complete plant protein, magnesium-rich
-- Quinoa mentioned as source for choline support; vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli)
-- Combine with legumes to boost lysine; grain-legume complementarity improves essential amino-acid coverage
-- GABA: Main inhibitory neurotransmitter; food sources include green tea, fermented foods, polyphenols (genistein), spinach, almonds, pumpkin seeds; quinoa sourdough can produce GABA through fermentation
+[1] Protein quality evaluation framework (DIAAS) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+
+[3] Quinoa background on saponins, processing, and gluten-free status [Wikipedia - Quinoa](https://en.wikipedia.org/wiki/Quinoa)
