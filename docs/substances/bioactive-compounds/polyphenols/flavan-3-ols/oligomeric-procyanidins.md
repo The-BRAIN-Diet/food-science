@@ -35,5 +35,5 @@ Oligomeric procyanidins are flavanol oligomers present in cocoa and dark chocola
 
 ## References
 
-- Phenol-{Explorer} database (polyphenol content in foods) [Neveu et al. 2010](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
+- Phenol-Explorer database (polyphenol content in foods) [Neveu et al. 2010](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
 

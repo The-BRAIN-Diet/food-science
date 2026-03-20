@@ -35,5 +35,5 @@ Catechin is a flavanol found in cocoa-derived products and is included in the da
 
 ## References
 
-- Phenol-{Explorer} database (polyphenol content in foods) [Neveu et al. 2010](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
+- Phenol-Explorer database (polyphenol content in foods) [Neveu et al. 2010](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
 
