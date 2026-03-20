@@ -35,5 +35,5 @@ Epicatechin is a catechin flavanol found in cocoa and dark chocolate. It is stud
 
 ## References
 
-- Phenol-{Explorer} database (polyphenol content in foods) [Neveu et al. 2010](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
+- Phenol-Explorer database (polyphenol content in foods) [Neveu et al. 2010](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
 
