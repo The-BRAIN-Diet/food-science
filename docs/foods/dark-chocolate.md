@@ -11,6 +11,9 @@ tags:
   - Magnesium
   - Iron
   - Zinc
+  - Epicatechin
+  - Catechin
+  - Oligomeric Procyanidins
   - Polyphenol
 list_image: /img/icons/ingredients.svg
 nutrition_per_100g:
@@ -30,14 +33,38 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+nutrition_supplementary_sources:
+  - key: epicatechin_mg
+    label: Epicatechin
+    value: 70.4
+    unit: mg
+    source_note: >-
+      Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0
+      mg/100 g (mean ~70.4 mg/100 g).
+  - key: catechin_mg
+    label: Catechin
+    value: 20.5
+    unit: mg
+    source_note: >-
+      Phenol-Explorer dark-chocolate range for (+)-catechin: 10.8–50.0
+      mg/100 g (mean ~20.5 mg/100 g).
+  - key: oligomeric_procyanidins_mg
+    label: Oligomeric Procyanidins
+    value: 138.4
+    unit: mg
+    source_note: >-
+      Proanthocyanidins/procyanidin oligomer fraction in bitter/dark
+      chocolate (40–90% cocoa) reported range ~52.23–224.47 mg/100 g
+      (use as a representative oligomeric procyanidin proxy; values vary
+      strongly with cocoa percentage and processing).
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 ---
 
 ## Overview
 
-Dark chocolate (typically 70%+ cocoa) is a concentrated source of cocoa polyphenols—especially flavanols—that have been investigated for effects relevant to vascular health and brain-related outcomes. Mechanistic work on endothelial dysfunction highlights nitric-oxide related pathways as part of vascular regulation, while clinical trial evidence links high flavonoid intake with cognitive improvements [2][1].
+Dark chocolate (typically >=70% cocoa) is a concentrated source of cocoa polyphenols, particularly flavanols, including epicatechin, catechin, and oligomeric procyanidins. These compounds have been studied for their roles in vascular and neurocognitive function, with mechanistic evidence highlighting endothelial nitric oxide pathways as a key component of vascular regulation. Flavanol-rich cocoa is associated with improved endothelial function, nitric oxide bioavailability, and downstream effects on cerebral blood flow, which may contribute to observed cognitive outcomes in studies of high-flavonoid intake [1][2].
 
-Within the BRAIN Diet framework, dark chocolate works best as a functional ingredient rather than a daily staple: cocoa-derived polyphenol content depends on product characteristics, while heavy metals show product-to-product variability. Choosing responsibly sourced, lab-tested products helps manage risk when intake is regular [3].
+Within the BRAIN Diet framework, dark chocolate is best positioned as a functional ingredient rather than a daily staple. Its polyphenol content varies widely depending on cocoa percentage, processing, and formulation, while heavy metal levels can differ significantly between products. Selecting high-cocoa, minimally processed, and independently tested sources helps maximise potential benefit while managing exposure risks [3].
 
 
 ## Key Nutritional Highlights
@@ -57,10 +84,6 @@ Within the BRAIN Diet framework, dark chocolate works best as a functional ingre
 
 - Pair with calcium/zinc sources to reduce metal absorption
 
-### Polyphenols (Flavanols)
-
-Dark chocolate is rich in flavanols such as epicatechin and catechin, which are associated with vascular function, nitric oxide production via endothelial signaling, and cognitive effects in studies of high-flavonoid intake [2][1].
-
 ### Preparation
 
 - Consider higher-milk/lower-cocoa options to reduce heavy metal absorption
@@ -69,7 +92,7 @@ Dark chocolate is rich in flavanols such as epicatechin and catechin, which are 
 
 ### Essential Amino Acid Profile
 
-Dark chocolate provides a modest amount of plant protein but is not a complete protein. Pair with legumes or grains to improve amino-acid balance across mixed meals.
+Dark chocolate is not used as a primary protein food, so essential amino-acid contribution is not a practical reason to include it. Its relevance in this framework is polyphenol content and mineral density rather than protein quality.
 
 
 <NutritionTable details={frontMatter} />
