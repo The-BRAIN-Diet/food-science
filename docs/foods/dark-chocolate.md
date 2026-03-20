@@ -79,6 +79,8 @@ Within the BRAIN Diet framework, dark chocolate is best positioned as a function
 ### Sourcing
 
 - Choose 70%+ cocoa for higher flavanol content
+- Consider higher-milk/lower-cocoa formulations to reduce heavy metal absorption
+- Select low-Cd/Pb origins with strong post-harvest controls
 
 ### Synergies
 
@@ -86,8 +88,7 @@ Within the BRAIN Diet framework, dark chocolate is best positioned as a function
 
 ### Preparation
 
-- Consider higher-milk/lower-cocoa options to reduce heavy metal absorption
-- Select low-Cd/Pb origins with strong post-harvest controls
+- Store in a cool, dry place and protect from heat/light to help preserve cocoa flavanol quality over time
 
 
 ### Essential Amino Acid Profile
