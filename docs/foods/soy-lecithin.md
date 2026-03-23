@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Choline
   - Phosphatidylcholine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/soy-lecithin/soy-lecithin_thumb.webp
 nutrition_per_100g:
   kcal: 366
   protein_g: 51.1
@@ -34,12 +34,18 @@ nutrition_source:
   last_checked: '2026-03-14'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
+main_image: /img/foods/soy-lecithin/soy-lecithin_medium.webp
+legacy_list_image: /img/foods/soy-lecithin/soy-lecithin_thumb.webp
+legacy_main_image: /img/foods/soy-lecithin/soy-lecithin_medium.webp
 ---
 
 ## Overview
 
 Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery. Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended.
 
+## Recipes
+
+<FoodRecipes tag="Soy Lecithin" />
 
 ## Food Context
 
@@ -50,26 +56,17 @@ Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine
 - Supports phospholipid-bound omega-3 strategy
 - Part of functional food approach
 
-
 ### Essential Amino Acid Profile
 
 Soy Lecithin provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Soy Lecithin" />
-
-
 ## References
 
 - Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6)
 - Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery
-

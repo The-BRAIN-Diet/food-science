@@ -37,21 +37,21 @@ A warm, savoury breakfast built around eggs, greens, and whole-food carbohydrate
 ## Ingredients (1 serving)
 
 **Vegetables**
-- 100 g mushrooms, sliced  
+- 100 g (3.5 oz) mushrooms, sliced  
 - 60–80 g spinach or kale  
-- 80 g cherry tomatoes, halved  
+- 80 g (2.8 oz) cherry tomatoes, halved  
 - 1 clove garlic, minced  
 
 **Protein**
 - 2 large eggs  
 
 **Healthy fats**
-- 10 ml extra virgin olive oil  
+- 10 ml (2 tsp) extra virgin olive oil  
 
 **Slow carbohydrate base (choose one)**
-- 120 g cooked quinoa  
+- 120 g (4.2 oz) cooked quinoa  
   **or**  
-- 120 g cooked buckwheat  
+- 120 g (4.2 oz) cooked buckwheat  
 
 **Seasoning**
 - Pinch sea salt  

@@ -205,3 +205,18 @@
 .therapeutic-area-matrix a:hover {
   color: var(--ifm-color-primary-dark) !important;
 }
+
+/* Food pages: multi-panel nutrition tables (core / micros / bioactives / functional) */
+.nutrition-table-block h2 {
+  margin-bottom: 0.75rem;
+}
+
+.nutrition-table-block h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.35rem;
+  font-size: 1.1rem;
+}
+
+.nutrition-table-block > h2 + h3 {
+  margin-top: 0.75rem;
+}

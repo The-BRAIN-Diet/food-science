@@ -11,7 +11,7 @@ tags:
   - Vitamin B6
   - Vitamin B12
   - Selenium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/turkey/turkey_thumb.webp
 protein_profile_note: Complete essential amino acid profile; notably high in tryptophan (serotonin precursor).
 nutrition_per_100g:
   kcal: 147
@@ -41,6 +41,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/turkey/turkey_medium.webp
+legacy_list_image: /img/foods/turkey/turkey_thumb.webp
+legacy_main_image: /img/foods/turkey/turkey_medium.webp
 ---
 
 ## Overview
@@ -49,6 +52,9 @@ Turkey provides amino acids including **tryptophan** (a serotonin precursor) tog
 
 Within the BRAIN Diet framework, turkey can be used as a pragmatic way to support niacin intake and amino-acid availability while keeping meals plant-forward via vegetable- and legume-based sides. Timing and meal composition matter: carbohydrate co-consumption can influence amino-acid competition at transporters (Trp:LNAA ratio), and gentler cooking helps limit heat-derived compounds while maintaining palatability [1,2].
 
+## Recipes
+
+<FoodRecipes tag="Turkey" />
 
 ## Key Nutritional Highlights
 
@@ -71,7 +77,6 @@ Within the BRAIN Diet framework, turkey can be used as a pragmatic way to suppor
 
 - Gentle cooking preserves tryptophan and prevents formation of advanced glycation end products (AGEs)
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
@@ -80,18 +85,11 @@ Notable amino acids:
 
 - Tryptophan
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Turkey" />
-
 
 ## References
 

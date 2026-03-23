@@ -12,7 +12,7 @@ tags:
   - Caproic Triglyceride
   - Vegan
   - Vegetarian
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/coconut-oil/coconut-oil_thumb.webp
 nutrition_per_100g:
   sat_fat_g: 92.86
   kcal: 857
@@ -27,15 +27,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/coconut-oil/coconut-oil_medium.webp
+legacy_list_image: /img/foods/coconut-oil/coconut-oil_thumb.webp
+legacy_main_image: /img/foods/coconut-oil/coconut-oil_medium.webp
 ---
 
 ## Overview
 
 Coconut oil provides medium-chain triglycerides (MCTs) that provide rapid energy for the brain and support ketone production. MCTs (C8, C10) are converted to ketones (beta-hydroxybutyrate), which serve as an alternative energy substrate for mitochondria, supporting mitochondrial function especially when glucose metabolism is impaired. The ATP produced from ketone metabolism supports neurotransmitter synthesis, indirectly supporting neurochemical balance. Coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, supports ketone production, and can be used in smoothies, baking, or small-portion use.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Coconut Oil" />
 
 ## Food Context
 
@@ -49,18 +54,11 @@ Coconut oil provides medium-chain triglycerides (MCTs) that provide rapid energy
 - Supports ketone production
 - Antimicrobial properties for gut health
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Coconut Oil" />
-
 
 ## References
 
 - Coconut Oil / MCT Oil: MCTs (C8, C10), rapid energy for brain, supports ketone production - Smoothies, baking, small-portion use
 - Antimicrobial Lipids: Medium-chain triglycerides (MCT oil, coconut oil), caprylic acid - Direct inhibition of pathobionts (Candida, C. difficile) without harming commensals
-

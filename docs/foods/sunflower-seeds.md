@@ -16,7 +16,7 @@ tags:
   - Phosphorus
   - Manganese
   - Copper
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/sunflower-seeds/sunflower-seeds_thumb.webp
 nutrition_per_100g:
   kcal: 584.8
   sat_fat_g: 4.3
@@ -29,26 +29,32 @@ nutrition_per_100g:
   potassium_mg: 645.2
   magnesium_mg: 325
   zinc_mg: 5
-  selenium_ug: 53.0
+  selenium_ug: 53
   folate_ug: 227.2
-  choline_mg: 55.0
+  choline_mg: 55
   vitamin_b6_mg: 1.35
   vitamin_e_mg: 35.2
 nutrition_source:
   database: USDA FoodData Central
-  food_name: Seeds, sunflower seed kernels, dried
+  food_name: 'Seeds, sunflower seed kernels, dried'
   fdc_id: 170562
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
+main_image: /img/foods/sunflower-seeds/sunflower-seeds_medium.webp
+legacy_list_image: /img/foods/sunflower-seeds/sunflower-seeds_thumb.webp
+legacy_main_image: /img/foods/sunflower-seeds/sunflower-seeds_medium.webp
 ---
 
 ## Overview
 
 Sunflower seeds provide thiamine (B1), vitamin E, and are the source of sunflower lecithin, supporting mitochondrial function and choline intake. Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils. Thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production. Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli).
 
+## Recipes
+
+<FoodRecipes tag="Sunflower Seeds" />
 
 ## Key Nutritional Highlights
 
@@ -69,7 +75,6 @@ Sunflower seeds provide thiamine (B1), vitamin E, and are the source of sunflowe
 - Supports mitochondrial function via thiamine; thiamine does not exist in a large brain "reservoir"; the CNS maintains small, tightly regulated intracellular pools that depend on continuous, transporter-mediated supply
 - Source of sunflower lecithin for choline support; vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli)
 
-
 ### Essential Amino Acid Profile
 
 Sunflower Seeds provide plant protein but are not a complete protein; lysine is typically limiting for nuts and seeds.
@@ -78,18 +83,11 @@ Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Sunflower Seeds" />
-
 
 ## References
 

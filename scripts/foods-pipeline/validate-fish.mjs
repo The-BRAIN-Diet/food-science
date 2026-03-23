@@ -37,7 +37,7 @@ const REPORT_DIR = path.join(ROOT, "reports")
 const FISH_SLUGS = [
   "clams",
   "cod",
-  "fish-roe",
+  "trout-roe",
   "herring",
   "lumpfish-roe",
   "mackerel",

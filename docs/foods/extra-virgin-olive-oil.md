@@ -14,13 +14,15 @@ tags:
   - Oleocanthal
   - Oleacein
   - Polyphenol
-list_image: /img/foods/nilad___A_bowl_of_olive_oil_is_being_poured_into_it_with_olives_576050c3-95fc-43e1-bcb6-4f9bccd7cac4.jpg
+list_image: /img/foods/extra-virgin-olive-oil/extra-virgin-olive-oil_thumb.webp
 nutrition_per_100g:
   protein_g: 0
   kcal: 800
   fat_g: 93.33
   sat_fat_g: 13.33
   carbs_g: 0
+  vitamin_e_mg: 14.4
+  vitamin_k_ug: 60
 nutrition_source:
   database: USDA FoodData Central
   food_name: EXTRA VIRGIN OLIVE OIL
@@ -29,79 +31,42 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 nutrition_supplementary_sources:
-  - key: vitamin_e_mg
-    label: Vitamin E
-    value: 14.4
-    unit: mg
-    source_note: >-
-      Typical alpha-tocopherol content for extra virgin olive oil is ~14.4 mg
-      per 100 g (≈96% of the adult RDA), with cultivar and harvest timing
-      producing a wider range (~10–22 mg/100 g). See composition summaries based
-      on USDA-style datasets and olive-oil nutrient guides (e.g. DietCompass
-      and USDA-derived analyses).
-  - key: vitamin_k_ug
-    label: Vitamin K
-    value: 60
-    unit: µg
-    source_note: >-
-      Representative estimate for vitamin K1 in extra virgin olive oil is
-      around 60 µg per 100 g (≈50% of the adult RDA), corresponding to roughly
-      6–8 µg per tablespoon. Values vary with cultivar, harvest, and processing;
-      this is an indicative mid-range drawn from EVOO nutrition summaries
-      cross-referenced with USDA-style data.
   - key: total_olive_phenolics_mg
     label: Total olive polyphenols
     value: 15
     unit: mg
-    source_note: >-
-      Total phenolics in extra virgin olive oil vary widely by cultivar, harvest
-      stage, and processing. A practical "typical EVOO" range is ~100–250 mg/kg
-      (≈10–25 mg/100 g), while high-phenolic/early-harvest oils can reach ~500–900
-      mg/kg (≈50–90 mg/100 g). Use this row as a guide, not a precise fixed value
-      for all oils.
+    notes: “Typical” EVOO band; early-harvest / high-phenolic oils can be several-fold higher.
+    source_note: 'Total phenolics in extra virgin olive oil vary widely by cultivar, harvest stage, and processing. A practical "typical EVOO" range is ~100–250 mg/kg (≈10–25 mg/100 g), while high-phenolic/early-harvest oils can reach ~500–900 mg/kg (≈50–90 mg/100 g). Use this row as a guide, not a precise fixed value for all oils.'
   - key: hydroxytyrosol_mg
     label: Hydroxytyrosol
     value: 1.4
     unit: mg
-    source_note: >-
-      Hydroxytyrosol in EVOO is typically reported in the low mg/kg range and is
-      present largely as derivatives; indicative values across oils are roughly
-      ~7–21 mg/kg (≈0.7–2.1 mg/100 g). The EFSA-authorised claim is based on
-      hydroxytyrosol and its derivatives at ≥250 mg/kg (25 mg/100 g) expressed as
-      hydroxytyrosol equivalents.
+    notes: EFSA claim threshold is expressed as hydroxytyrosol equivalents (derivatives included).
+    source_note: Hydroxytyrosol in EVOO is typically reported in the low mg/kg range and is present largely as derivatives; indicative values across oils are roughly ~7–21 mg/kg (≈0.7–2.1 mg/100 g). The EFSA-authorised claim is based on hydroxytyrosol and its derivatives at ≥250 mg/kg (25 mg/100 g) expressed as hydroxytyrosol equivalents.
   - key: tyrosol_mg
     label: Tyrosol
-    value: 1.0
+    value: 1
     unit: mg
-    source_note: >-
-      Tyrosol is typically in the low mg/kg range and often co-varies with
-      hydroxytyrosol derivatives; indicative values are roughly ~6–15 mg/kg
-      (≈0.6–1.5 mg/100 g), with substantial variability by cultivar and harvest.
+    notes: Often co-varies with hydroxytyrosol derivatives across cultivars.
+    source_note: 'Tyrosol is typically in the low mg/kg range and often co-varies with hydroxytyrosol derivatives; indicative values are roughly ~6–15 mg/kg (≈0.6–1.5 mg/100 g), with substantial variability by cultivar and harvest.'
   - key: oleocanthal_mg
     label: Oleocanthal
     value: 7.8
     unit: mg
-    source_note: >-
-      Oleocanthal is a major secoiridoid associated with pungency. In an analysis
-      of 100 EVOO samples, mean oleocanthal concentration was ~77.9 mg/kg
-      (≈7.8 mg/100 g), with wide variability across oils.
+    notes: Secoiridoid linked to throat “pungency”; concentrations vary widely by oil.
+    source_note: 'Oleocanthal is a major secoiridoid associated with pungency. In an analysis of 100 EVOO samples, mean oleocanthal concentration was ~77.9 mg/kg (≈7.8 mg/100 g), with wide variability across oils.'
   - key: oleacein_mg
     label: Oleacein
     value: 4.2
     unit: mg
-    source_note: >-
-      Oleacein is commonly abundant in EVOO and varies strongly by cultivar and
-      processing. In an analysis of 100 EVOO samples, mean oleacein concentration
-      was ~41.8 mg/kg (≈4.2 mg/100 g); some oils can be much higher.
+    notes: Common secoiridoid in EVOO; correlates with polyphenol-rich chemotypes.
+    source_note: 'Oleacein is commonly abundant in EVOO and varies strongly by cultivar and processing. In an analysis of 100 EVOO samples, mean oleacein concentration was ~41.8 mg/kg (≈4.2 mg/100 g); some oils can be much higher.'
   - key: oleuropein_mg
     label: Oleuropein
     value: 5
     unit: mg
-    source_note: >-
-      Oleuropein-related secoiridoids dominate the phenolic fraction; reported
-      values depend on whether aglycone/derivatives are quantified separately.
-      Use this as a qualitative guide within the broader phenolic range rather
-      than a universal fixed number.
+    notes: Reporting depends on whether aglycones/derivatives are pooled vs split.
+    source_note: Oleuropein-related secoiridoids dominate the phenolic fraction; reported values depend on whether aglycone/derivatives are quantified separately. Use this as a qualitative guide within the broader phenolic range rather than a universal fixed number.
 polyphenol_profile:
   source: literature_estimates
   typical_range_mg_per_kg: 100-250
@@ -112,19 +77,20 @@ polyphenol_profile:
     - Oleocanthal
     - Oleacein
     - Hydroxytyrosol and tyrosol derivatives
+main_image: /img/foods/extra-virgin-olive-oil/extra-virgin-olive-oil_medium.webp
+legacy_list_image: /img/foods/olive-oil/olive-oil_thumb.webp
+legacy_main_image: /img/foods/olive-oil/olive-oil_medium.webp
 ---
 
 ## Overview
 
-<img
-  src="/img/foods/nilad___A_bowl_of_olive_oil_is_being_poured_into_it_with_olives_576050c3-95fc-43e1-bcb6-4f9bccd7cac4.jpg"
-  alt="Extra virgin olive oil being poured into a glass bowl with olives"
-  style={{ width: "180px", height: "180px", objectFit: "cover", float: "left", margin: "0 1.5rem 1.5rem 0", borderRadius: 0 }}
-/>
-
 Extra virgin olive oil (EVOO) is a cornerstone fat in the BRAIN Diet, providing mostly monounsaturated fat (oleic acid) together with meaningful amounts of **vitamin E (alpha-tocopherol)**, **vitamin K₁**, and a dense cluster of **olive-specific polyphenols**. While its basic macronutrient profile looks simple, phenolics such as oleuropein aglycone, oleocanthal, oleacein, and hydroxytyrosol derivatives give EVOO a distinctive antioxidant and anti-inflammatory signature compared with refined seed oils [1,2]. The same polyphenol and tocopherol cluster helps stabilise the oil against oxidation during storage and moderate heat cooking.
 
 Within the BRAIN Diet framework, the brain-relevant benefits of EVOO come primarily from these polyphenols and fat-soluble antioxidants rather than from calories or fat alone. The EFSA-authorised claim for “protection of blood lipids from oxidative stress” requires at least 250 mg/kg of hydroxytyrosol and its derivatives (≈25 mg/100 g) [3]. In practice, many commercial EVOOs fall around ~100–250 mg/kg total phenolics, while early-harvest, high-polyphenol oils can reach ~500–900 mg/kg depending on cultivar, harvest timing, and processing [4]. Used as the default dressing and cooking fat around vegetables, legumes, and whole grains, EVOO helps improve polyphenol bioavailability and supports cardiometabolic and neuroprotective mechanisms as part of a Mediterranean-style pattern [2–4].
+
+## Recipes
+
+<FoodRecipes tag="Extra Virgin Olive Oil" />
 
 ## Food Context
 
@@ -135,18 +101,11 @@ Within the BRAIN Diet framework, the brain-relevant benefits of EVOO come primar
 - Early harvest oils have higher bioactive content (oleuropein, polyphenols) and may contain CoQ10 in useful quantities
 - Store away from heat and light to preserve antioxidant properties
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Extra Virgin Olive Oil" />
-
 
 ## References
 

@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin B9
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/asparagus/asparagus_thumb.webp
 nutrition_per_100g:
   kcal: 20
   protein_g: 2.2
@@ -38,15 +38,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/asparagus/asparagus_medium.webp
+legacy_list_image: /img/foods/asparagus/asparagus_thumb.webp
+legacy_main_image: /img/foods/asparagus/asparagus_medium.webp
 ---
 
 ## Overview
 
 Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supporting gut microbiome and methylation pathways. Fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Asparagus" />
 
 ## Food Context
 
@@ -60,15 +65,9 @@ Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supp
 - Supports Bifidobacterium growth
 - Gentle cooking preserves nutrients
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Asparagus" />
-
 
 ## References
 

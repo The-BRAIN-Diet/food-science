@@ -11,7 +11,7 @@ tags:
   - Iron
   - Vitamin A
   - Choline
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/organ-meats/organ-meats_thumb.webp
 nutrition_per_100g:
   kcal: 184
   protein_g: 13.4
@@ -41,6 +41,9 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 protein_profile_note: Complete essential amino acid profile.
+main_image: /img/foods/organ-meats/organ-meats_medium.webp
+legacy_list_image: /img/foods/organ-meats/organ-meats_thumb.webp
+legacy_main_image: /img/foods/organ-meats/organ-meats_medium.webp
 ---
 
 ## Overview
@@ -49,7 +52,9 @@ Organ meats (offal) are among the most nutrient-dense animal foods, often provid
 
 Within the BRAIN Diet framework, “organ meats” are best treated as a periodic micronutrient strategy (e.g., liver for B12/folate/retinol; heart for CoQ10), rather than a daily protein staple. Choosing reputable sources and using gentler cooking methods helps preserve micronutrients and supports an overall plant-forward pattern [1,2].
 
+## Recipes
 
+<FoodRecipes tag="Organ Meats" />
 
 ## Key Nutritional Highlights
 
@@ -71,23 +76,15 @@ Within the BRAIN Diet framework, “organ meats” are best treated as a periodi
 - Important for closing nutrient gaps
 - Part of nose-to-tail approach
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Organ Meats" />
-
 
 ## References
 

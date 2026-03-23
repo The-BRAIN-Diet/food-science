@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Iron
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/spirulina/spirulina_thumb.webp
 nutrition_per_100g:
   kcal: 26
   protein_g: 5.92
@@ -37,12 +37,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/spirulina/spirulina_medium.webp
+legacy_list_image: /img/foods/spirulina/spirulina_thumb.webp
+legacy_main_image: /img/foods/spirulina/spirulina_medium.webp
 ---
 
 ## Overview
 
 Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but contains pseudovitamin B12 analogues that are inactive in humans. Spirulina has DIAAS 75-83, is methionine and lysine-limited, and contains some bioactive peptides. By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source. Nonetheless, both algae provide antioxidant and amino acid support.
 
+## Recipes
+
+<FoodRecipes tag="Spirulina" />
 
 ## Food Context
 
@@ -56,26 +62,17 @@ Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but 
 - Provides other beneficial compounds
 - Available as powder, tablets, or capsules
 
-
 ### Essential Amino Acid Profile
 
 Spirulina contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Spirulina" />
-
-
 ## References
 
 - Spirulina: DIAAS 75-83, Methionine, lysine - Contains some bioactive peptides
 - Chlorella contains bioavailable, true vitamin B12 (cobalamin), confirmed in animal feeding trials, and may help close vegan nutrient gaps. By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source [Watanabe et al. 2002](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002). Nonetheless, both algae provide antioxidant and amino acid support
-

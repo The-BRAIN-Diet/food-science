@@ -32,9 +32,9 @@ It works particularly well when served with simple roasted vegetables or potatoe
 - salt
 
 ### Berry sauce
-- 150 g blueberries
-- 80 g raspberries
-- 2 tbsp water or light stock
+- 150 g (5.3 oz) blueberries
+- 80 g (2.8 oz) raspberries
+- 2 tbsp (30 ml) water or light stock
 - 1–2 tsp balsamic vinegar
 - small knob of butter
 - pinch cinnamon or crushed juniper (optional)

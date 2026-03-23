@@ -27,7 +27,7 @@ tags:
   - Leucine
   - Isoleucine
   - Histidine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/chickpeas/chickpeas_thumb.webp
 nutrition_per_100g:
   kcal: 371.99469
   protein_g: 21.275
@@ -48,12 +48,18 @@ nutrition_source:
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'
+main_image: /img/foods/chickpeas/chickpeas_medium.webp
+legacy_list_image: /img/foods/chickpeas/chickpeas_thumb.webp
+legacy_main_image: /img/foods/chickpeas/chickpeas_medium.webp
 ---
 
 ## Overview
 
 Chickpeas are legumes providing plant protein, prebiotic fiber, folate, magnesium, and B6, supporting gut health and neurotransmitter synthesis. Chickpeas have a DIAAS score of 64-69, indicating they are methionine-limited and should be paired with grains for complete amino acid profile. Chickpeas are listed as sources for magnesium, iron, zinc, and B6, all critical cofactors for neurotransmitter synthesis.
 
+## Recipes
+
+<FoodRecipes tag="Chickpeas" />
 
 ## Food Context
 
@@ -67,7 +73,6 @@ Chickpeas are legumes providing plant protein, prebiotic fiber, folate, magnesiu
 ### Preparation
 
 - Legumes such as lentils and chickpeas provide complex carbs and fiber
-
 
 ### Essential Amino Acid Profile
 
@@ -85,18 +90,11 @@ Protein pairing strategy:
 
 Chickpeas are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Chickpeas" />
-
 
 ## References
 

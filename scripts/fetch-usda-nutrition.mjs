@@ -162,6 +162,7 @@ function buildPayloadFromFrontMatter(data) {
     nutrition_source: data.nutrition_source || {},
   }
   if (data.nutrition_supplementary_sources?.length) payload.nutrition_supplementary_sources = data.nutrition_supplementary_sources
+  if (data.nutrition_functional_metrics?.length) payload.nutrition_functional_metrics = data.nutrition_functional_metrics
   if (data.protein_profile_note != null) payload.protein_profile_note = data.protein_profile_note
   if (data.amino_acid_strengths != null) payload.amino_acid_strengths = data.amino_acid_strengths
   if (data.limiting_amino_acids != null) payload.limiting_amino_acids = data.limiting_amino_acids

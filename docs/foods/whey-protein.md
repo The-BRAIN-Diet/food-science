@@ -8,7 +8,7 @@ tags:
   - Whey Protein
   - Vegetarian
   - Leucine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/whey-protein/whey-protein_thumb.webp
 nutrition_per_100g:
   kcal: 352
   protein_g: 78.13
@@ -37,12 +37,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/whey-protein/whey-protein_medium.webp
+legacy_list_image: /img/foods/whey-protein/whey-protein_thumb.webp
+legacy_main_image: /img/foods/whey-protein/whey-protein_medium.webp
 ---
 
 ## Overview
 
 Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function. Whey protein isolate has DIAAS 118–122 with no limiting amino acids, high leucine content, and supports BDNF and neurotransmitter synthesis.
 
+## Recipes
+
+<FoodRecipes tag="Whey Protein" />
 
 ## Food Context
 
@@ -56,26 +62,17 @@ Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotina
 - High-quality protein source
 - Supports mitochondrial NAD+ availability
 
-
 ### Essential Amino Acid Profile
 
 Whey Protein contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Whey Protein" />
-
-
 ## References
 
 - Nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread)
 - Whey protein isolate: DIAAS 118–122, None (limiting amino acids) - High leucine, supports BDNF and neurotransmitter synthesis
-

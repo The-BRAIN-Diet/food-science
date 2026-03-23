@@ -13,7 +13,7 @@ tags:
   - Selenium
   - Zinc
   - Iron
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/chicken/chicken_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   kcal: 158
@@ -42,6 +42,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/chicken/chicken_medium.webp
+legacy_list_image: /img/foods/chicken/chicken_thumb.webp
+legacy_main_image: /img/foods/chicken/chicken_medium.webp
 ---
 
 ## Overview
@@ -50,7 +53,9 @@ Chicken provides **niacin (vitamin B3)** for NAD⁺ synthesis, **zinc**, and ami
 
 Within the BRAIN Diet framework, chicken is typically used as a flexible protein base while its micronutrient profile (especially niacin and zinc) supports broader metabolic and neurochemical priorities. Pairing chicken with fibre- and polyphenol-rich plant foods helps keep the overall pattern plant-forward, while gentler cooking methods help preserve B vitamins and limit heat-derived compounds [1,2].
 
+## Recipes
 
+<FoodRecipes tag="Chicken" />
 
 ## Key Nutritional Highlights
 
@@ -73,23 +78,15 @@ Within the BRAIN Diet framework, chicken is typically used as a flexible protein
 - Dark meat provides more taurine, which regulates calcium signaling, antioxidant defense, and neurotransmission
 - Supports NAD+ and neurotransmitter synthesis
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Chicken" />
-
 
 ## References
 

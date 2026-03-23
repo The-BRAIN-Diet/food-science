@@ -12,7 +12,7 @@ tags:
   - CoQ10
   - Taurine
   - Vitamin D
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/mackerel/mackerel_thumb.webp
 nutrition_per_100g:
   kcal: 305
   protein_g: 18.5
@@ -41,6 +41,9 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 protein_profile_note: Complete essential amino acid profile.
+main_image: /img/foods/mackerel/mackerel_medium.webp
+legacy_list_image: /img/foods/mackerel/mackerel_thumb.webp
+legacy_main_image: /img/foods/mackerel/mackerel_medium.webp
 ---
 
 ## Overview
@@ -49,6 +52,9 @@ Mackerel is an oily fish providing complete high-quality protein together with v
 
 Within the BRAIN Diet framework, mackerel functions as a **high-omega-3 oily fish** that can be rotated with salmon, sardines, and herring rather than used as the sole source. Its protein is highly digestible, and DIAAS data for similar oily fish indicate excellent indispensable amino acid coverage [2].
 
+## Recipes
+
+<FoodRecipes tag="Mackerel" />
 
 ## Key Nutritional Highlights
 
@@ -79,10 +85,6 @@ This food provides a **complete essential amino acid profile** typical of animal
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Mackerel" />
 
 ## References
 

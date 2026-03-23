@@ -14,7 +14,7 @@ tags:
   - Vitamin B3
   - Vitamin B12
   - Selenium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/sardines/sardines_thumb.webp
 nutrition_per_100g:
   kcal: 902
   protein_g: 0
@@ -41,6 +41,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/sardines/sardines_medium.webp
+legacy_list_image: /img/foods/sardines/sardines_thumb.webp
+legacy_main_image: /img/foods/sardines/sardines_medium.webp
 ---
 
 ## Overview
@@ -51,6 +54,9 @@ Within the BRAIN Diet framework, sardines are treated as a **compact, shelf-stab
 
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Sardines" />
 
 ## Key Nutritional Highlights
 
@@ -76,10 +82,6 @@ Within the BRAIN Diet framework, sardines are treated as a **compact, shelf-stab
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Sardines" />
 
 ## References
 

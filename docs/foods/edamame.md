@@ -11,7 +11,7 @@ tags:
   - Vitamin B9
   - Iron
   - Genistein
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/edamame/edamame_thumb.webp
 nutrition_per_100g:
   kcal: 121
   protein_g: 11.91
@@ -42,12 +42,18 @@ nutrition_source:
   last_checked: '2026-03-14'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
+main_image: /img/foods/edamame/edamame_medium.webp
+legacy_list_image: /img/foods/edamame/edamame_thumb.webp
+legacy_main_image: /img/foods/edamame/edamame_medium.webp
 ---
 
 ## Overview
 
 Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, plus complete plant protein and isoflavones. Nicotinamide Mononucleotide (NMN) is a direct NAD⁺ intermediate in salvage pathway found in edamame, broccoli, cucumber, and avocado.
 
+## Recipes
+
+<FoodRecipes tag="Edamame" />
 
 ## Food Context
 
@@ -61,25 +67,16 @@ Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NA
 - Can be consumed steamed or boiled
 - Supports mitochondrial NAD+ availability
 
-
 ### Essential Amino Acid Profile
 
 Edamame provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Edamame" />
-
-
 ## References
 
 - Nicotinamide Mononucleotide (NMN): Direct NAD⁺ intermediate in salvage pathway - Edamame, broccoli, cucumber, avocado
-

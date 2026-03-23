@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Polyphenol
   - Cinnamaldehyde
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cinnamon/cinnamon_thumb.webp
 nutrition_per_100g:
   kcal: 253
   protein_g: 7.05
@@ -39,12 +39,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/cinnamon/cinnamon_medium.webp
+legacy_list_image: /img/foods/cinnamon/cinnamon_thumb.webp
+legacy_main_image: /img/foods/cinnamon/cinnamon_medium.webp
 ---
 
 ## Overview
 
 Cinnamon is a spice containing bioactive polyphenols and compounds that support glycemic control, insulin sensitivity, and cognitive function, relevant for ADHD metabolic dysregulation. Cinnamon is extremely high in polyphenols, with procyanidins being a major component, and cinnamaldehyde as the key aromatic compound that contributes to its characteristic flavor and many health benefits.
 
+## Recipes
+
+<FoodRecipes tag="Cinnamon" />
 
 ## Food Context
 
@@ -58,22 +64,15 @@ Cinnamon is a spice containing bioactive polyphenols and compounds that support 
 - Ceylon cinnamon preferred over cassia for lower coumarin
 - Supports insulin sensitivity
 
-
 ### Essential Amino Acid Profile
 
 Cinnamon contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cinnamon" />
 
 ## Nutrient & Bioactive Table (per 100 g dry ground cinnamon)
 
@@ -100,9 +99,7 @@ Cinnamon contribute plant protein. Pair with complementary protein sources (e.g.
 
 **Notes on Interpretation:** Polyphenol estimates indicate cinnamon is extremely high in phenolic compounds, often cited as one of the highest among common spices. Bioactives like cinnamaldehyde and procyanidins are not part of standard nutrition databases and require analytical chemistry studies for quantification. Coumarin content is especially high in Cassia cinnamon, which matters for toxicity limits. Ceylon cinnamon has far lower coumarin.
 
-
 ## References
 
 - Cinnamon: Glycemic control, insulin sensitivity, cognition - 1–3 g/day cassia or Ceylon cinnamon powder
 - Glucose Regulation: Low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, meal sequencing (veg → protein → carb)
-

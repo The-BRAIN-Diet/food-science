@@ -11,7 +11,7 @@ tags:
   - Vitamin D
   - Vitamin E
   - Vitamin K2
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/butter/butter_thumb.webp
 nutrition_per_100g:
   kcal: 714
   sat_fat_g: 50
@@ -25,15 +25,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/butter/butter_medium.webp
+legacy_list_image: /img/foods/butter/butter_thumb.webp
+legacy_main_image: /img/foods/butter/butter_medium.webp
 ---
 
 ## Overview
 
 Butter provides saturated fats, fat-soluble vitamins, and in grass-fed varieties, additional bioactives like CLA and C15:0. Saturated fat (SFA) should be &lt;10% (ideally &lt;7%) from sources like lard, butter, and meats.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Butter" />
 
 ## Food Context
 
@@ -46,17 +51,10 @@ Butter provides saturated fats, fat-soluble vitamins, and in grass-fed varieties
 
 - Provides fat-soluble vitamins A, D, E, K2 (varies by source)
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Butter" />
-
-
 ## References
 
 - Saturated fat (SFA) — &lt;10% (ideally &lt;7%) lard, butter, meats
-

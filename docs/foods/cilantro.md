@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cilantro/cilantro_thumb.webp
 nutrition_per_100g:
   kcal: 23
   protein_g: 2.13
@@ -37,15 +37,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/cilantro/cilantro_medium.webp
+legacy_list_image: /img/foods/cilantro/cilantro_thumb.webp
+legacy_main_image: /img/foods/cilantro/cilantro_medium.webp
 ---
 
 ## Overview
 
 Cilantro is an herb that may support heavy metal chelation and provides polyphenols, though research is limited.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Cilantro" />
 
 ## Food Context
 
@@ -59,17 +64,10 @@ Cilantro is an herb that may support heavy metal chelation and provides polyphen
 - Similar uses to parsley
 - Supports diverse plant food strategy
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Cilantro" />
-
-
 ## References
 
 - Cilantro may support heavy metal chelation and provides polyphenols
-

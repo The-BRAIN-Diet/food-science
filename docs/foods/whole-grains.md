@@ -11,7 +11,7 @@ tags:
   - Magnesium
   - Zinc
   - Iron
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/whole-grains/whole-grains_thumb.webp
 nutrition_per_100g:
   kcal: 331.6005206
   protein_g: 11.06534
@@ -35,6 +35,9 @@ nutrition_source:
 amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
 limiting_amino_acids: Lysine (typical of grains).
 complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+main_image: /img/foods/whole-grains/whole-grains_medium.webp
+legacy_list_image: /img/foods/whole-grains/whole-grains_thumb.webp
+legacy_main_image: /img/foods/whole-grains/whole-grains_medium.webp
 ---
 
 ## Overview
@@ -43,7 +46,9 @@ Whole grains retain all major kernel components (bran, germ, and endosperm), whi
 
 Within the BRAIN Diet framework, whole grains are used as a foundational carbohydrate category that supports glycaemic stability and gut-directed dietary structure when they replace refined grain patterns. Protein quality remains grain-typical (lysine-limited), so amino-acid balance still improves when paired with legumes [1,2].
 
+## Recipes
 
+<FoodRecipes tag="Whole Grains" />
 
 ## Key Nutritional Highlights
 
@@ -58,7 +63,6 @@ Within the BRAIN Diet framework, whole grains are used as a foundational carbohy
 
 - Prefer minimally refined whole-kernel or whole-flour products where tolerated.
 - Soaking, fermentation, and cooking method can alter tolerance and functional texture.
-
 
 ### Essential Amino Acid Profile
 
@@ -76,18 +80,11 @@ Protein pairing strategy:
 
 Grains such as whole grains are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Whole Grains" />
-
 
 ## References
 

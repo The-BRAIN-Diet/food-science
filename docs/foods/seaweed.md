@@ -11,7 +11,7 @@ tags:
   - Iodine
   - Omega-3 Fatty Acids
   - Magnesium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/seaweed/seaweed_thumb.webp
 nutrition_per_100g:
   kcal: 306
   protein_g: 6.21
@@ -40,12 +40,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/seaweed/seaweed_medium.webp
+legacy_list_image: /img/foods/seaweed/seaweed_thumb.webp
+legacy_main_image: /img/foods/seaweed/seaweed_medium.webp
 ---
 
 ## Overview
 
 Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health. Seaweed can be added to soups, stews, or salads and provides trace amounts of creatine (e.g., nori) and taurine.
 
+## Recipes
+
+<FoodRecipes tag="Seaweed" />
 
 ## Food Context
 
@@ -59,23 +65,15 @@ Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, 
 - Important for iodine intake (especially for plant-based diets)
 - Low bioavailable EPA; consider algal oil for direct DHA
 
-
 ### Essential Amino Acid Profile
 
 Seaweed contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Seaweed" />
-
 
 ## References
 

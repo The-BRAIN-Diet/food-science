@@ -31,16 +31,16 @@ A delicious cereal-to-snack hybrid that delivers satisfying crunch and steady en
 ## Ingredients
 
 ### Core
-- 2 cups cooked quinoa, cooled & surface-dried
+- 2 cups (480 ml) cooked quinoa, cooled & surface-dried
 - 2 tbsp homemade oat flour (finely blended rolled oats)
-- 1 tbsp ground flaxseed
+- 1 tbsp (15 ml) ground flaxseed
 - 2–3 tbsp unsweetened cocoa or cacao powder
 - ¼ tsp fine sea salt
 
 ### Wet binder
 - 1–2 tbsp refined coconut oil, melted (35–45 °C)
 - 2–2.5 tbsp maple syrup or date syrup
-- 1 tsp vanilla extract
+- 1 tsp (5 ml) vanilla extract
 
 ### Optional texture boosters
 - 2–3 tbsp puffed quinoa, for surface coating

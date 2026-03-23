@@ -8,7 +8,7 @@ tags:
   - Spelt
   - Vegan
   - Vegetarian
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/spelt/spelt_thumb.webp
 nutrition_per_100g:
   kcal: 340.5831
   protein_g: 14.475
@@ -33,12 +33,18 @@ nutrition_source:
 amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
 limiting_amino_acids: Lysine (typical of grains).
 complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+main_image: /img/foods/spelt/spelt_medium.webp
+legacy_list_image: /img/foods/spelt/spelt_thumb.webp
+legacy_main_image: /img/foods/spelt/spelt_medium.webp
 ---
 
 ## Overview
 
 Spelt is an ancient wheat variety providing high asparagine and fiber, making it ideal for sourdough bread with optimized Maillard reaction products (MRPs). Whole Spelt Flour has high asparagine + fibre; substrate for Maillard; better MRPs than white flour - ↑ Melanoidin precursors; ↑ antioxidant MRPs.
 
+## Recipes
+
+<FoodRecipes tag="Spelt" />
 
 ## Food Context
 
@@ -51,7 +57,6 @@ Spelt is an ancient wheat variety providing high asparagine and fiber, making it
 - Best used in sourdough fermentation
 - Higher nutrient content than refined wheat
 - Supports optimized MRP formation
-
 
 ### Essential Amino Acid Profile
 
@@ -69,18 +74,11 @@ Protein pairing strategy:
 
 Grains such as spelt are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Spelt" />
-
 
 ## References
 

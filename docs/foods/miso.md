@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Sodium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/miso/miso_thumb.webp
 nutrition_per_100g:
   kcal: 198
   protein_g: 12.79
@@ -40,12 +40,18 @@ nutrition_source:
   last_checked: '2026-03-14'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
+main_image: /img/foods/miso/miso_medium.webp
+legacy_list_image: /img/foods/miso/miso_thumb.webp
+legacy_main_image: /img/foods/miso/miso_medium.webp
 ---
 
 ## Overview
 
 Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
+## Recipes
+
+<FoodRecipes tag="Miso" />
 
 ## Food Context
 
@@ -62,23 +68,15 @@ Miso is a fermented soybean paste providing live probiotics, postbiotic compound
 - Use in moderation due to sodium content
 - Add at end of cooking to preserve probiotics
 
-
 ### Essential Amino Acid Profile
 
 Miso provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Miso" />
-
 
 ## References
 

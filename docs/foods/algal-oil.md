@@ -24,11 +24,13 @@ nutrition_supplementary_sources:
     label: EPA
     value: 10000
     unit: mg
-    source_note: >
-      Representative EPA content for high-DHA algal oil, assuming EPA present at
-      a lower level than DHA per 100 g of oil based on NIH ODS omega-3 fact
-      sheet (algal oil providing DHA with some EPA) and typical supplement
-      label ratios. Adjust to match specific product data where available.
+    notes: Formulation-dependent; many algal oils are DHA-dominant with modest EPA.
+    source_note: |
+      Representative EPA content for high-DHA algal oil, assuming EPA present at a lower level than DHA per 100 g of oil based on NIH ODS omega-3 fact sheet (algal oil providing DHA with some EPA) and typical supplement label ratios. Adjust to match specific product data where available.
+list_image: /img/foods/algal-oil/algal-oil_thumb.webp
+main_image: /img/foods/algal-oil/algal-oil_medium.webp
+legacy_list_image: /img/foods/algal-oil/algal-oil_thumb.webp
+legacy_main_image: /img/foods/algal-oil/algal-oil_medium.webp
 ---
 
 ## Overview
@@ -36,6 +38,10 @@ nutrition_supplementary_sources:
 Algal oil provides **docosahexaenoic acid (DHA)** directly from microalgae, offering a vegan source of long-chain omega-3 fatty acids without relying on fish. Typical algal oil supplements supply on the order of 100–300 mg DHA per serving, with **lower amounts of EPA** in the same broad range depending on formulation, usually in triglyceride form [1]. This makes algal oil a practical option for raising DHA intake in dietary patterns that minimise or exclude seafood.
 
 Within the BRAIN Diet framework, algal oil is treated as a **targeted DHA delivery vehicle** rather than a culinary fat: it helps increase DHA status in line with broader omega-3 guidance, but it does not replace whole-food sources of fibre, protein, or other micronutrients. Evidence from small trials suggests that DHA from algal-oil capsules is similarly bioavailable to DHA from cooked salmon, supporting its use as a substitute when fish is not eaten [1,2].
+
+## Recipes
+
+<FoodRecipes tag="Algal Oil" />
 
 ## Food Context
 
@@ -53,10 +59,6 @@ Within the BRAIN Diet framework, algal oil is treated as a **targeted DHA delive
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Algal Oil" />
 
 ## References
 

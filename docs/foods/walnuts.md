@@ -15,7 +15,7 @@ tags:
   - Copper
   - Phosphorus
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/walnuts/walnuts_thumb.webp
 nutrition_per_100g:
   fibre_g: 6.2
   calcium_mg: 94
@@ -26,6 +26,11 @@ nutrition_per_100g:
   kcal: 656
   potassium_mg: 438
   protein_g: 15.62
+  ala_mg: 9080
+  magnesium_mg: 158
+  zinc_mg: 3.09
+  copper_mg: 1.59
+  selenium_ug: 17.5
 nutrition_source:
   database: USDA FoodData Central
   food_name: WALNUTS
@@ -33,14 +38,31 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+nutrition_supplementary_sources:
+  - key: walnut_polyphenols_proxy
+    label: Ellagitannins / total polyphenols
+    amount_display: High among tree nuts (varies by batch)
+    notes: Ellagitannins feed gut-derived urolithins (e.g. urolithin A) in responders; assays differ (GAE/TEAC).
+    source_note: 'Qualitative ranking with high batch/cultivar variance; not a USDA standard nutrient row. Use for framework context, not precise comparison across studies.'
+nutrition_functional_metrics:
+  - key: total_polyphenols_walnut
+    label: Total polyphenols (Folin proxy)
+    amount_display: Varies by cultivar and storage
+    notes: Walnuts consistently rank high in nut polyphenol surveys; matrix effects apply.
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
+main_image: /img/foods/walnuts/walnuts_medium.webp
+legacy_list_image: /img/foods/walnuts/walnuts_thumb.webp
+legacy_main_image: /img/foods/walnuts/walnuts_medium.webp
 ---
 
 ## Overview
 
 Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that can be converted to urolithin A by gut bacteria, supporting mitochondrial health and cognitive function. The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate). Walnuts are part of the Mediterranean diet pattern and support BDNF expression through exercise and polyphenol synergy.
 
+## Recipes
+
+<FoodRecipes tag="Walnuts" />
 
 ## Food Context
 
@@ -54,7 +76,6 @@ Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that c
 - Best consumed raw to preserve omega-3s and prevent oxidation
 - Soaking may improve digestibility and reduce antinutrients
 
-
 ### Essential Amino Acid Profile
 
 Walnuts provide plant protein but are not a complete protein; lysine is typically limiting for nuts and seeds.
@@ -63,18 +84,11 @@ Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Walnuts" />
-
 
 ## References
 

@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - CoQ10
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/pistachios/pistachios_thumb.webp
 nutrition_per_100g:
   kcal: 560.68798
   protein_g: 20.5057
@@ -31,12 +31,18 @@ nutrition_source:
   last_checked: '2026-03-14'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
+main_image: /img/foods/pistachios/pistachios_medium.webp
+legacy_list_image: /img/foods/pistachios/pistachios_thumb.webp
+legacy_main_image: /img/foods/pistachios/pistachios_medium.webp
 ---
 
 ## Overview
 
 Pistachios provide CoQ10 (plant source), healthy fats, and protein, supporting mitochondrial function and antioxidant defenses. Coenzyme Q10 (CoQ10): Organ meats (heart, liver), oily fish (sardines, mackerel), beef, Spinach, broccoli, pistachios, olive oil (lower amounts). CoQ10 supports mitochondrial electron transport and antioxidant protection for neurons.
 
+## Recipes
+
+<FoodRecipes tag="Pistachios" />
 
 ## Food Context
 
@@ -50,7 +56,6 @@ Pistachios provide CoQ10 (plant source), healthy fats, and protein, supporting m
 - Can be consumed raw or roasted; gentle roasting preserves nutrients
 - Supports mitochondrial function via CoQ10; CoQ10 deficiency leads to reduced ATP production and mitochondrial dysfunction
 
-
 ### Essential Amino Acid Profile
 
 Pistachios provide plant protein but are not a complete protein; lysine is typically limiting for nuts and seeds.
@@ -59,18 +64,11 @@ Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Pistachios" />
-
 
 ## References
 

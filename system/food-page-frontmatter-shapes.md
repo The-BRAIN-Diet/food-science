@@ -72,7 +72,8 @@ nutrition_supplementary_sources:
 - **tags**: Food, food name, and substances that appear in the nutrition table (and that have substance pages / BRS relevance). Do **not** list all essential amino acids (no Tryptophan, Lysine, etc. unless mechanistically notable).
 - **protein_profile_note**: Single string; e.g. `Complete essential amino acid profile.`
 - **overview_key_compounds**: Optional list of compound names (e.g. EPA, DHA, Astaxanthin). Used by Script B as the deterministic enrichment trigger; if absent, Script B falls back to **bold** phrases in the Overview section.
-- **nutrition_supplementary_sources**: Omit if not needed. When present, each entry must have `key`, `label`, `value`, `unit`, `source_note` (all required).
+- **nutrition_supplementary_sources**: Omit if not needed. Each entry needs `key`, `label`, `source_note`, plus either `value`+`unit` or `amount_display`. Optional: `notes` (short Bioactive-table notes column). See `system/food-nutrition-schema.md`.
+- **nutrition_functional_metrics**: Optional fourth sub-table (e.g. total polyphenols proxy). See `system/food-nutrition-schema.md`.
 
 ---
 

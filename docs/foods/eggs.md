@@ -11,7 +11,7 @@ tags:
   - Selenium
   - Zinc
   - Iron
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/eggs/eggs_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   kcal: 143
@@ -41,6 +41,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/eggs/eggs_medium.webp
+legacy_list_image: /img/foods/eggs/eggs_thumb.webp
+legacy_main_image: /img/foods/eggs/eggs_medium.webp
 ---
 
 import NutritionTable from "@site/src/components/NutritionTable";
@@ -50,6 +53,10 @@ import NutritionTable from "@site/src/components/NutritionTable";
 Eggs are a nutrient-dense source of complete protein, **choline**, B vitamins, and phospholipids. Key bioactives include choline (acetylcholine synthesis, membrane health), **selenium**, and **zinc**. Pasture-raised eggs can provide more vitamin E and omega-3s. Eggs support neurotransmitter synthesis and membrane health.
 
 **Protein profile:** Complete essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Eggs" />
 
 ## Food Context
 
@@ -67,22 +74,15 @@ Eggs are a nutrient-dense source of complete protein, **choline**, B vitamins, a
 - Regular choline intake supports ongoing acetylcholine synthesis; important for structural membrane health
 - Eggs provide phosphatidylethanolamine (PE), which can convert to phosphatidylcholine (PC) or N-acyl phosphatidylethanolamines (NAPEs) for endocannabinoid system support
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
-
 
 <NutritionTable details={frontMatter} />
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Eggs" />
-
 
 ## References
 

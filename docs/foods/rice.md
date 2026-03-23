@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin B1
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/rice/rice_thumb.webp
 nutrition_per_100g:
   kcal: 416
   protein_g: 10
@@ -40,6 +40,9 @@ nutrition_source:
 amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
 limiting_amino_acids: Lysine (typical of grains).
 complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+main_image: /img/foods/rice/rice_medium.webp
+legacy_list_image: /img/foods/rice/rice_thumb.webp
+legacy_main_image: /img/foods/rice/rice_medium.webp
 ---
 
 ## Overview
@@ -48,7 +51,9 @@ Rice is a globally used staple carbohydrate food, with nutritional profile stron
 
 When cooked and then cooled, rice can form additional resistant starch, which may reduce glycaemic response relative to freshly cooked equivalents in some contexts. Rice remains lysine-limited as a grain protein, so amino-acid balance improves when paired with legumes [1,2].
 
+## Recipes
 
+<FoodRecipes tag="Rice" />
 
 ## Key Nutritional Highlights
 
@@ -69,7 +74,6 @@ When cooked and then cooled, rice can form additional resistant starch, which ma
 - Reheating does not reverse resistant starch; white rice was cooled and reheated showing a rise in RS content from 0.64 to 1.65 g/100 g and elicited a lower glycemic response
 - Supports butyrate production via gut fermentation; resistant starch (cooled potatoes, green bananas, cooled rice) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
 
-
 ### Essential Amino Acid Profile
 
 Rice provides a useful plant protein source but are not a complete protein.
@@ -86,18 +90,11 @@ Protein pairing strategy:
 
 Grains such as rice are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Rice" />
-
 
 ## References
 

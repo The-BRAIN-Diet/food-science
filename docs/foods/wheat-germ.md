@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Choline
   - Vitamin E
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/wheat-germ/wheat-germ_thumb.webp
 nutrition_per_100g:
   kcal: 857.1
   protein_g: 0
@@ -32,7 +32,7 @@ nutrition_per_100g:
   dha_mg: 0
   ala_mg: 0
   omega3_mg: 6700
-  vitamin_e_mg: 145.0
+  vitamin_e_mg: 145
   vitamin_k_ug: 24.3
 nutrition_source:
   database: USDA FoodData Central
@@ -41,6 +41,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
+legacy_list_image: /img/foods/wheat-germ/wheat-germ_thumb.webp
+legacy_main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
 ---
 
 ## Overview
@@ -49,7 +52,9 @@ Wheat germ is the embryo fraction of the wheat kernel and is often used as a con
 
 In practical use, nutrient impact depends strongly on form (raw/toasted wheat germ vs wheat germ oil vs mixed products). Within the BRAIN Diet framework, wheat germ is best treated as a concentrated ingredient used in small amounts within broader meal patterns.
 
+## Recipes
 
+<FoodRecipes tag="Wheat Germ" />
 
 ## Key Nutritional Highlights
 
@@ -75,15 +80,9 @@ In practical use, nutrient impact depends strongly on form (raw/toasted wheat ge
 
 <NutritionTable details={frontMatter} />
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Wheat Germ" />
-
 
 ## References
 

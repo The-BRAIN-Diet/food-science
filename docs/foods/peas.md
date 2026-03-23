@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Vitamin B1
   - Vitamin B9
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/peas/peas_thumb.webp
 nutrition_per_100g:
   kcal: 345.5703
   protein_g: 21.225
@@ -31,12 +31,18 @@ nutrition_source:
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'
+main_image: /img/foods/peas/peas_medium.webp
+legacy_list_image: /img/foods/peas/peas_thumb.webp
+legacy_main_image: /img/foods/peas/peas_medium.webp
 ---
 
 ## Overview
 
 Peas provide plant protein, prebiotic fiber, and thiamine (B1), supporting gut health, neurotransmitter synthesis, and mitochondrial function. Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils. Thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production. Peas are part of the legume family with prebiotic benefits.
 
+## Recipes
+
+<FoodRecipes tag="Peas" />
 
 ## Food Context
 
@@ -49,7 +55,6 @@ Peas provide plant protein, prebiotic fiber, and thiamine (B1), supporting gut h
 
 - Can be consumed fresh, frozen, or dried; fresh peas have higher nutrient content
 - Soak dried peas to reduce phytates and improve mineral bioavailability
-
 
 ### Essential Amino Acid Profile
 
@@ -67,18 +72,11 @@ Protein pairing strategy:
 
 Peas are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Peas" />
-
 
 ## References
 

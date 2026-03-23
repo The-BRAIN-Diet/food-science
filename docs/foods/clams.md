@@ -9,7 +9,7 @@ tags:
   - Taurine
   - Vitamin B12
   - Iron
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/clams/clams_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   kcal: 48
@@ -38,6 +38,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/clams/clams_medium.webp
+legacy_list_image: /img/foods/clams/clams_thumb.webp
+legacy_main_image: /img/foods/clams/clams_medium.webp
 ---
 
 ## Overview
@@ -47,6 +50,10 @@ Clams are bivalve shellfish providing complete protein together with notable amo
 Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense shellfish** that complements both plant and animal sources of B12 and iron. Because portions are typically modest and eaten intermittently, clams are best viewed as a periodic micronutrient booster rather than a daily protein anchor [1,2]. As with other shellfish, water quality, harvesting practices, and preparation determine safety; sourcing from monitored waters and cooking thoroughly helps reduce microbiological and contaminant risk [2].
 
 <NutritionTable details={frontMatter} />
+
+## Recipes
+
+<FoodRecipes tag="Clams" />
 
 ## Food Context
 
@@ -63,10 +70,6 @@ Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense s
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Clams" />
 
 ## References
 

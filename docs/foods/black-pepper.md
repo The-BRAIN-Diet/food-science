@@ -8,7 +8,7 @@ tags:
   - Black Pepper
   - Vegan
   - Vegetarian
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/black-pepper/black-pepper_thumb.webp
 nutrition_per_100g:
   kcal: 52.747095
   protein_g: 0.578125
@@ -28,15 +28,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/black-pepper/black-pepper_medium.webp
+legacy_list_image: /img/foods/black-pepper/black-pepper_thumb.webp
+legacy_main_image: /img/foods/black-pepper/black-pepper_medium.webp
 ---
 
 ## Overview
 
 Black pepper contains piperine, which dramatically enhances the bioavailability of curcumin (from turmeric) and other compounds, making it an important food synergy. Food synergies include turmeric + black pepper for enhanced curcumin absorption.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Black Pepper" />
 
 ## Food Context
 
@@ -50,15 +55,9 @@ Black pepper contains piperine, which dramatically enhances the bioavailability 
 - Can be used in culinary amounts
 - Supports curcumin bioavailability
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Black Pepper" />
-
 
 ## References
 

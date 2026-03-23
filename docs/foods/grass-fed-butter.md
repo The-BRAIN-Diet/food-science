@@ -11,7 +11,7 @@ tags:
   - Vitamin D
   - Vitamin K2
   - Selenium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/grass-fed-butter/grass-fed-butter_thumb.webp
 nutrition_per_100g:
   kcal: 198
   protein_g: 19.42
@@ -41,12 +41,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 protein_profile_note: Complete essential amino acid profile.
+main_image: /img/foods/grass-fed-butter/grass-fed-butter_medium.webp
+legacy_list_image: /img/foods/grass-fed-butter/grass-fed-butter_thumb.webp
+legacy_main_image: /img/foods/grass-fed-butter/grass-fed-butter_medium.webp
 ---
 
 ## Overview
 
 Grass-fed butter provides butyrate, CLA (conjugated linoleic acid), vitamins A/D/K2, selenium, and C15:0 pentadecanoic acid, supporting brain and metabolic health. Grass-Fed Butter: Butyrate, Conjugated linoleic acid (CLA; such as rumenic acid), vitamins A/D/K2, selenium, C15:0 pentadecanoic acid. C15:0 (Parmesan and grassfed Butter). Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks.
 
+## Recipes
+
+<FoodRecipes tag="Grass-Fed Butter" />
 
 ## Food Context
 
@@ -64,23 +70,15 @@ Grass-fed butter provides butyrate, CLA (conjugated linoleic acid), vitamins A/D
 - Use for finishing vegetables, grains, or cooking (with higher smoke point oil to avoid burning)
 - Supports butyrate and K2 intake
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Grass-Fed Butter" />
-
 
 ## References
 

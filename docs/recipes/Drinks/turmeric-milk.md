@@ -26,7 +26,7 @@ Turmeric milk combines turmeric (curcumin) with milk or plant-based milk. Curcum
 ## Ingredients
 
 - 1 cup milk (dairy or plant-based)
-- 1 tsp turmeric powder
+- 1 tsp (5 ml) turmeric powder
 - ½ tsp black pepper (optional, for enhanced absorption)
 - 1 tsp honey or maple syrup (optional, for sweetness)
 - ½ tsp ground cinnamon (optional)

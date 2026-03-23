@@ -2,6 +2,11 @@ import React from "react"
 import {usePluginData} from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
 import styles from "../TagList/styles.module.css"
+import {
+  CORE_NUTRIENT_KEYS,
+  MICRONUTRIENT_KEYS,
+  NUTRIENT_LABELS,
+} from "@site/src/data/nutritionTableMapping"
 
 /**
  * Tag structure from Docusaurus
@@ -33,6 +38,41 @@ type TagToDocMap = Record<string, Document[]>
  */
 interface RecipeFoodsProps {
   details: Record<string, unknown>
+}
+
+type NutritionValues = Record<string, number | null | undefined>
+
+interface SupplementarySource {
+  key?: string
+  label?: string
+  value?: number
+  unit?: string
+  amount_display?: string
+}
+
+interface FunctionalMetric {
+  key?: string
+  label?: string
+  value?: number
+  unit?: string
+  amount_display?: string
+}
+
+// Reference intakes aligned with NutritionTable.
+const RDA_VALUES: Record<string, number> = {
+  iron_mg: 18,
+  zinc_mg: 11,
+  magnesium_mg: 420,
+  selenium_ug: 55,
+  calcium_mg: 1000,
+  potassium_mg: 3400,
+  choline_mg: 550,
+  folate_ug: 400,
+  vitamin_b12_ug: 2.4,
+  vitamin_b6_mg: 1.7,
+  vitamin_e_mg: 15,
+  vitamin_k_ug: 120,
+  copper_mg: 0.9,
 }
 
 function DocItemImage({
@@ -245,6 +285,111 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
     )
   }
 
+  const POLYPHENOL_RE = /polyphenol|flavan|catechin|anthocyan|curcumin|oleuropein|oleocanthal|oleacein|hydroxytyrosol|tyrosol/i
+  let fibreTotal = 0
+  const fibreFoods: Document[] = []
+  let polyphenolTotalMg = 0
+  const polyphenolFoods: Document[] = []
+  let hasQualitativePolyphenol = false
+
+  const nutrientTotals = new Map<string, number>()
+  const nutrientFoods = new Map<string, Document[]>()
+
+  relatedFoods.forEach((food: Document) => {
+    const fm = food.frontMatter || {}
+    const nutrition = (fm.nutrition_per_100g || {}) as NutritionValues
+    for (const key of [...CORE_NUTRIENT_KEYS, ...MICRONUTRIENT_KEYS]) {
+      const value = nutrition[key]
+      if (typeof value !== "number") continue
+      nutrientTotals.set(key, (nutrientTotals.get(key) || 0) + value)
+      nutrientFoods.set(key, [...(nutrientFoods.get(key) || []), food])
+    }
+
+    const fibre = nutrition.fibre_g
+    if (typeof fibre === "number" && fibre > 0) {
+      fibreTotal += fibre
+      fibreFoods.push(food)
+    }
+
+    const supplementary = Array.isArray(fm.nutrition_supplementary_sources)
+      ? (fm.nutrition_supplementary_sources as SupplementarySource[])
+      : []
+    supplementary.forEach((s) => {
+      const text = `${s.key || ""} ${s.label || ""}`
+      if (!POLYPHENOL_RE.test(text)) return
+      if (typeof s.value === "number") {
+        const unit = (s.unit || "").toLowerCase()
+        if (unit === "mg") polyphenolTotalMg += s.value
+        if (unit === "g") polyphenolTotalMg += s.value * 1000
+      } else if (typeof s.amount_display === "string" && s.amount_display.trim().length > 0) {
+        hasQualitativePolyphenol = true
+      }
+      polyphenolFoods.push(food)
+    })
+
+    const metrics = Array.isArray(fm.nutrition_functional_metrics)
+      ? (fm.nutrition_functional_metrics as FunctionalMetric[])
+      : []
+    metrics.forEach((m) => {
+      const text = `${m.key || ""} ${m.label || ""}`
+      if (!POLYPHENOL_RE.test(text)) return
+      if (typeof m.value === "number") {
+        const unit = (m.unit || "").toLowerCase()
+        if (unit === "mg") polyphenolTotalMg += m.value
+        if (unit === "g") polyphenolTotalMg += m.value * 1000
+      } else if (typeof m.amount_display === "string" && m.amount_display.trim().length > 0) {
+        hasQualitativePolyphenol = true
+      }
+      polyphenolFoods.push(food)
+    })
+  })
+
+  const uniqueByPermalink = (docs: Document[]) =>
+    Array.from(new Map(docs.map((d) => [d.permalink, d])).values())
+  const fibreFoodDocs = uniqueByPermalink(fibreFoods)
+  const polyphenolFoodDocs = uniqueByPermalink(polyphenolFoods)
+
+  const renderFoodList = (docs: Document[]) => {
+    const unique = uniqueByPermalink(docs)
+    if (unique.length === 0) return "—"
+    return unique.map((d, i) => (
+      <span key={d.permalink}>
+        <Link to={d.permalink}>{d.title}</Link>
+        {i < unique.length - 1 ? ", " : ""}
+      </span>
+    ))
+  }
+
+  const formatTotal = (key: string, value: number) => {
+    const unit = NUTRIENT_LABELS[key]?.unit || ""
+    const decimals = key === "kcal" ? 0 : 1
+    return `${value.toFixed(decimals)} ${unit}`.trim()
+  }
+
+  const formatRda = (key: string, value: number) => {
+    const rda = RDA_VALUES[key]
+    if (!rda || rda <= 0) return "—"
+    return `${((value / rda) * 100).toFixed(1)}%`
+  }
+
+  const nutrientRows = (keys: readonly string[]) =>
+    keys
+      .filter((key) => nutrientTotals.has(key))
+      .map((key) => (
+        <tr key={key}>
+          <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{NUTRIENT_LABELS[key]?.label || key}</td>
+          <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+            {renderFoodList(nutrientFoods.get(key) || [])}
+          </td>
+          <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+            {formatTotal(key, nutrientTotals.get(key) || 0)}
+          </td>
+        </tr>
+      ))
+
+  const coreRows = nutrientRows(CORE_NUTRIENT_KEYS)
+  const microRows = nutrientRows(MICRONUTRIENT_KEYS)
+
   return (
     <div className="bok-tag-list">
       <details>
@@ -276,6 +421,98 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
           ))}
         </div>
       </details>
+
+      {(coreRows.length > 0 || microRows.length > 0 || fibreFoodDocs.length > 0 || polyphenolFoodDocs.length > 0) && (
+        <div style={{marginTop: "1rem"}}>
+          <h3 style={{marginBottom: "0.5rem"}}>Aggregated Recipe Nutrition (food-level)</h3>
+          <p style={{fontSize: "0.9em", color: "var(--ifm-color-content-secondary)", marginTop: 0}}>
+            Totals are summed from tagged food pages on a per-100 g basis for quick recipe-level comparison.
+          </p>
+          <table style={{width: "100%", borderCollapse: "collapse"}}>
+            <thead>
+              <tr>
+                <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Nutrient / class</th>
+                <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Foods in recipe</th>
+                <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Total (sum)</th>
+                <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>% RDA aggregate</th>
+              </tr>
+            </thead>
+            <tbody>
+              {coreRows.length > 0 && (
+                <tr>
+                  <td
+                    colSpan={4}
+                    style={{padding: "8px", borderBottom: "1px solid #ddd", fontWeight: 600, background: "rgba(0,0,0,0.02)"}}
+                  >
+                    Core nutrition
+                  </td>
+                </tr>
+              )}
+              {CORE_NUTRIENT_KEYS.filter((key) => nutrientTotals.has(key)).map((key) => (
+                <tr key={key}>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{NUTRIENT_LABELS[key]?.label || key}</td>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+                    {renderFoodList(nutrientFoods.get(key) || [])}
+                  </td>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+                    {formatTotal(key, nutrientTotals.get(key) || 0)}
+                  </td>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+                    {formatRda(key, nutrientTotals.get(key) || 0)}
+                  </td>
+                </tr>
+              ))}
+              {microRows.length > 0 && (
+                <tr>
+                  <td
+                    colSpan={4}
+                    style={{padding: "8px", borderBottom: "1px solid #ddd", fontWeight: 600, background: "rgba(0,0,0,0.02)"}}
+                  >
+                    Key micronutrients
+                  </td>
+                </tr>
+              )}
+              {MICRONUTRIENT_KEYS.filter((key) => nutrientTotals.has(key)).map((key) => (
+                <tr key={key}>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{NUTRIENT_LABELS[key]?.label || key}</td>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+                    {renderFoodList(nutrientFoods.get(key) || [])}
+                  </td>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+                    {formatTotal(key, nutrientTotals.get(key) || 0)}
+                  </td>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+                    {formatRda(key, nutrientTotals.get(key) || 0)}
+                  </td>
+                </tr>
+              ))}
+              <tr>
+                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>Fibre</td>
+                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{renderFoodList(fibreFoodDocs)}</td>
+                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+                  {fibreFoodDocs.length > 0 ? `${fibreTotal.toFixed(1)} g` : "—"}
+                </td>
+                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>—</td>
+              </tr>
+              <tr>
+                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>Polyphenols (proxy)</td>
+                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{renderFoodList(polyphenolFoodDocs)}</td>
+                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+                  {polyphenolTotalMg > 0
+                    ? `${polyphenolTotalMg.toFixed(1)} mg${hasQualitativePolyphenol ? " + varies" : ""}`
+                    : hasQualitativePolyphenol
+                      ? "Varies by product / preparation"
+                      : "—"}
+                </td>
+                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>—</td>
+              </tr>
+            </tbody>
+          </table>
+          <p style={{fontSize: "0.85em", color: "var(--ifm-color-content-secondary)", marginTop: "0.5rem"}}>
+            Aggregate %RDA uses adult reference intakes and the summed food-level values shown above.
+          </p>
+        </div>
+      )}
     </div>
   )
 }

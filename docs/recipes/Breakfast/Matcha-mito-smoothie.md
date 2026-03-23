@@ -32,12 +32,12 @@ This energising smoothie combines matcha catechins with magnesium-rich pumpkin s
 
 ## Ingredients
 
-- 1 cup spinach
+- 1 cup (240 ml) spinach
 - ½ frozen banana
-- 1 tsp matcha powder
-- 1 tbsp chia seeds
-- 1 tbsp pumpkin seeds
-- 200 ml kefir or yogurt
+- 1 tsp (5 ml) matcha powder
+- 1 tbsp (15 ml) chia seeds
+- 1 tbsp (15 ml) pumpkin seeds
+- 200 ml (13.3 tbsp) kefir or yogurt
 - ½ cup ice
 - Optional: ½ tsp maca powder
 

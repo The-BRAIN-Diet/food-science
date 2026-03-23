@@ -8,7 +8,7 @@ tags:
   - Scallops
   - Taurine
   - Creatine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/scallops/scallops_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   kcal: 66.3545
@@ -29,6 +29,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/scallops/scallops_medium.webp
+legacy_list_image: /img/foods/scallops/scallops_thumb.webp
+legacy_main_image: /img/foods/scallops/scallops_medium.webp
 ---
 
 ## Overview
@@ -37,7 +40,9 @@ Scallops are bivalve shellfish that provide **vitamin B12**, **iron**, **zinc**,
 
 Within the BRAIN Diet framework, scallops are used as an occasional **lean shellfish option** that complements both fish and plant-based protein sources. They fit particularly well into meals where the primary focus is on vegetables and whole grains, adding protein and micronutrients without a large increase in calories [1]. As with other seafood, overall dietary pattern, sourcing from well-managed fisheries, and gentle cooking methods help ensure that scallops contribute nutritional benefits within a sustainable, safe eating pattern [1,2].
 
+## Recipes
 
+<FoodRecipes tag="Scallops" />
 
 ## Key Nutritional Highlights
 
@@ -62,23 +67,15 @@ Within the BRAIN Diet framework, scallops are used as an occasional **lean shell
 - Cook scallops gently (light searing, steaming, or baking) to preserve texture and nutrient content; avoid overcooking, which can toughen the protein.
 - Pair scallops with vegetable-rich sides and whole grains so their lean protein and micronutrients are integrated into balanced meals.
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Scallops" />
-
 
 ## References
 

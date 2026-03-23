@@ -12,7 +12,7 @@ tags:
   - Vitamin B12
   - Selenium
   - Astaxanthin
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/salmon/salmon_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 overview_key_compounds:
   - EPA
@@ -48,10 +48,11 @@ nutrition_supplementary_sources:
     label: Astaxanthin
     value: 3.2
     unit: mg
-    source_note: >-
-      Literature estimate for farmed Atlantic salmon; carotenoid content varies
-      by feed and species (e.g. Turujman et al., 1997; USDA does not report
-      astaxanthin).
+    notes: Carotenoid pigment; farmed salmon levels depend strongly on feed astaxanthin formulation.
+    source_note: 'Literature estimate for farmed Atlantic salmon; carotenoid content varies by feed and species (e.g. Turujman et al., 1997; USDA does not report astaxanthin).'
+main_image: /img/foods/salmon/salmon_medium.webp
+legacy_list_image: /img/foods/salmon/salmon_thumb.webp
+legacy_main_image: /img/foods/salmon/salmon_medium.webp
 ---
 
 import NutritionTable from "@site/src/components/NutritionTable";
@@ -60,6 +61,9 @@ import NutritionTable from "@site/src/components/NutritionTable";
 
 Salmon is an oily fish providing long-chain omega-3 fatty acids **EPA** and **DHA**, **vitamin B12**, **selenium**, the carotenoid **astaxanthin**, and high-quality protein. These intrinsic compounds support membrane phospholipid structure, mitochondrial function, and antioxidant capacity in neural and vascular tissues [1,2]. Regular inclusion of salmon and other oily fish helps reach evidence-based omega-3 intakes that are associated with cardiometabolic and cognitive benefits in many populations [1].
 
+## Recipes
+
+<FoodRecipes tag="Salmon" />
 
 ## Key Nutritional Highlights
 
@@ -84,7 +88,6 @@ The U.S. Food and Drug Administration (FDA) and Environmental Protection Agency 
 - Best prepared with gentle cooking to preserve omega-3s and prevent oxidation
 - Avoid high-heat cooking that creates advanced glycation end products (AGEs)
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
@@ -94,10 +97,6 @@ This food provides a complete essential amino acid profile typical of animal pro
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Salmon" />
 
 ## References
 

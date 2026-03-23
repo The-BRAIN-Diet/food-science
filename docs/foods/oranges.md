@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Vitamin B9
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/oranges/oranges_thumb.webp
 nutrition_per_100g:
   kcal: 246
   protein_g: 0.3
@@ -39,15 +39,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/oranges/oranges_medium.webp
+legacy_list_image: /img/foods/oranges/oranges_thumb.webp
+legacy_main_image: /img/foods/oranges/oranges_medium.webp
 ---
 
 ## Overview
 
 Oranges provide high vitamin C content that enhances non-heme iron absorption when paired with iron-rich plant foods. Pairing plant-based iron sources with citrus enhances iron absorption, and eating beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) improves iron bioavailability.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Oranges" />
 
 ## Food Context
 
@@ -61,15 +66,9 @@ Oranges provide high vitamin C content that enhances non-heme iron absorption wh
 - Can be consumed as whole fruit or juice (whole fruit preferred for fiber)
 - Supports iron sufficiency in plant-based diets
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Oranges" />
-
 
 ## References
 

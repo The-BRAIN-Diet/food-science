@@ -9,7 +9,7 @@ tags:
   - Condiments
   - Vegan
   - Vegetarian
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/wasabi/wasabi_thumb.webp
 nutrition_per_100g:
   kcal: 292
   protein_g: 2.23
@@ -38,15 +38,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/wasabi/wasabi_medium.webp
+legacy_list_image: /img/foods/wasabi/wasabi_thumb.webp
+legacy_main_image: /img/foods/wasabi/wasabi_medium.webp
 ---
 
 ## Overview
 
 Wasabi is a pungent green condiment traditionally made from the grated rhizome of the Wasabia japonica plant, although many commercial products outside Japan use horseradish, mustard, and colourings instead. In the BRAIN Diet context, it is used sparingly as a condiment alongside seafood and rice dishes, adding heat and volatile aromatics without substantially altering macronutrient balance.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Wasabi" />
 
 ## Food Context
 
@@ -59,17 +64,10 @@ Wasabi is a pungent green condiment traditionally made from the grated rhizome o
 
 - Use small amounts as a condiment with sushi, fish, and rice-based meals rather than as a primary ingredient.
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Wasabi" />
-
-
 ## References
 
 - See individual seafood and rice entries for nutritional and mechanistic details; wasabi is treated here primarily as a flavour accent.
-

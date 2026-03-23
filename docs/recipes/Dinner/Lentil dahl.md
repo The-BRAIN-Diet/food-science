@@ -30,13 +30,13 @@ This warming dahl combines turmeric (curcumin), ginger, high-fibre lentils, and 
 
 ## Ingredients
 
-- 1 cup red lentils
+- 1 cup (240 ml) red lentils
 - 1 tbsp grated fresh turmeric (or 1 tsp ground turmeric)
-- 1 tsp grated ginger
-- 1 tsp cumin
-- 1 tbsp coconut oil
-- 2 cups water or stock
-- 1 cup spinach
+- 1 tsp (5 ml) grated ginger
+- 1 tsp (5 ml) cumin
+- 1 tbsp (15 ml) coconut oil
+- 2 cups (480 ml) water or stock
+- 1 cup (240 ml) spinach
 - Salt & pepper to taste
 - Optional: lemon juice, coriander
 

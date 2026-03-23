@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Sodium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/pickles/pickles_thumb.webp
 nutrition_per_100g:
   kcal: 49
   protein_g: 0.9
@@ -37,15 +37,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/pickles/pickles_medium.webp
+legacy_list_image: /img/foods/pickles/pickles_thumb.webp
+legacy_main_image: /img/foods/pickles/pickles_medium.webp
 ---
 
 ## Overview
 
 Pickles (unpasteurized fermented) provide live probiotics, including Levilactobacillus brevis strains that produce GABA through the glutamate decarboxylase pathway. Levilactobacillus brevis is one of the key bacteria known to produce GABA, and this bacteria is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Pickles" />
 
 ## Food Context
 
@@ -62,15 +67,9 @@ Pickles (unpasteurized fermented) provide live probiotics, including Levilactoba
 - Rinse if high-sodium variety
 - Supports GABA production via gut microbiome
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Pickles" />
-
 
 ## References
 

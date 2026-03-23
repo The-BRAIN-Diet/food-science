@@ -34,13 +34,13 @@ This polyphenol-rich midday salad combines quinoa or lentils with vegetables, he
 
 ## Ingredients
 
-- 1 cup rocket
+- 1 cup (240 ml) rocket
 - ¼ cup olives
-- 1 tbsp walnuts
+- 1 tbsp (15 ml) walnuts
 - ½ avocado
 - ½ cup cherry tomatoes
 - ½ cup cooked quinoa or ½ cup cooked lentils (key for gut health)
-- 1 tbsp early harvest olive oil
+- 1 tbsp (15 ml) early harvest olive oil
 - Lemon juice
 - Optional: basil, herbs
 

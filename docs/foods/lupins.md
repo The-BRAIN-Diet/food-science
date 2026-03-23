@@ -8,7 +8,7 @@ tags:
   - Lupins
   - Vegan
   - Vegetarian
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/lupins/lupins_thumb.webp
 nutrition_per_100g:
   kcal: 371
   protein_g: 36.17
@@ -37,12 +37,18 @@ nutrition_source:
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'
+main_image: /img/foods/lupins/lupins_medium.webp
+legacy_list_image: /img/foods/lupins/lupins_thumb.webp
+legacy_main_image: /img/foods/lupins/lupins_medium.webp
 ---
 
 ## Overview
 
 Lupins are legumes providing plant protein and fiber, part of diverse protein sources for vegan BRAIN Diet approaches. Protein sources include legumes, fermented soy, lupins, Mankai, seeds, whole grains, and functional yeasts.
 
+## Recipes
+
+<FoodRecipes tag="Lupins" />
 
 ## Food Context
 
@@ -55,7 +61,6 @@ Lupins are legumes providing plant protein and fiber, part of diverse protein so
 
 - Soak and cook thoroughly
 - Supports plant protein diversity
-
 
 ### Essential Amino Acid Profile
 
@@ -73,18 +78,11 @@ Protein pairing strategy:
 
 Lupins are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Lupins" />
-
 
 ## References
 

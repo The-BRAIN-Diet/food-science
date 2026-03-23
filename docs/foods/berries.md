@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/berries/berries_thumb.webp
 nutrition_per_100g:
   kcal: 349
   protein_g: 14.26
@@ -30,12 +30,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/berries/berries_medium.webp
+legacy_list_image: /img/foods/berries/berries_thumb.webp
+legacy_main_image: /img/foods/berries/berries_medium.webp
 ---
 
 ## Overview
 
 Berries are polyphenol-rich fruits providing anthocyanins, flavonoids, and other antioxidants that support cognitive function and antioxidant networks. Berries are mentioned as polyphenol-rich foods and provide polyphenols for antioxidant networks, anthocyanins for neuroprotection, fiber for gut health, and vitamin C for antioxidant support.
 
+## Recipes
+
+<FoodRecipes tag="Berries" />
 
 ## Food Context
 
@@ -46,23 +52,15 @@ Berries are polyphenol-rich fruits providing anthocyanins, flavonoids, and other
 - Fiber for gut health
 - Vitamin C for antioxidant support
 
-
 ### Essential Amino Acid Profile
 
 Berries contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Berries" />
-
 
 ## References
 

@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Lutein
   - Zeaxanthin
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/corn/corn_thumb.webp
 nutrition_per_100g:
   sat_fat_g: 13.4
   ala_mg: 1040
@@ -22,15 +22,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/corn/corn_medium.webp
+legacy_list_image: /img/foods/corn/corn_thumb.webp
+legacy_main_image: /img/foods/corn/corn_medium.webp
 ---
 
 ## Overview
 
 Corn provides carotenoids (lutein, zeaxanthin) and complex carbohydrates, supporting eye/brain health and stable glucose release. Carotenoids are abundant in leafy greens, orange and yellow vegetables, corn, and egg yolks. Carotenoids, particularly lutein, zeaxanthin, and β-carotene, play a neuroprotective role through their antioxidant and anti-inflammatory properties.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Corn" />
 
 ## Food Context
 
@@ -44,15 +49,9 @@ Corn provides carotenoids (lutein, zeaxanthin) and complex carbohydrates, suppor
 - Can be consumed fresh, cooked, or as whole grain; cooking may enhance some nutrient bioavailability
 - Supports carotenoid diversity; lutein and zeaxanthin have been associated with improved cognitive performance, especially in domains such as memory, processing speed, and visual-spatial function
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Corn" />
-
 
 ## References
 

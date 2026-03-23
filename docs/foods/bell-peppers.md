@@ -12,7 +12,7 @@ tags:
   - Beta-Carotene
   - Lutein
   - Carotenoid
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/bell-peppers/bell-peppers_thumb.webp
 nutrition_per_100g:
   kcal: 19.692148
   protein_g: 0.715
@@ -34,15 +34,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/bell-peppers/bell-peppers_medium.webp
+legacy_list_image: /img/foods/bell-peppers/bell-peppers_thumb.webp
+legacy_main_image: /img/foods/bell-peppers/bell-peppers_medium.webp
 ---
 
 ## Overview
 
 Bell peppers provide very high vitamin C content, enhancing non-heme iron absorption and supporting norepinephrine synthesis. Eating beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) improves iron bioavailability.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Bell Peppers" />
 
 ## Food Context
 
@@ -56,15 +61,9 @@ Bell peppers provide very high vitamin C content, enhancing non-heme iron absorp
 - Can be consumed raw or cooked
 - Supports iron sufficiency
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Bell Peppers" />
-
 
 ## References
 

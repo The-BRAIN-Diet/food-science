@@ -11,7 +11,7 @@ tags:
   - Sodium
   - Quercetin
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/capers/capers_thumb.webp
 nutrition_per_100g:
   iron_mg: 1.2
   calcium_mg: 0
@@ -28,15 +28,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/capers/capers_medium.webp
+legacy_list_image: /img/foods/capers/capers_thumb.webp
+legacy_main_image: /img/foods/capers/capers_medium.webp
 ---
 
 ## Overview
 
 Capers are among the highest sources of quercetin, a flavonoid polyphenol that supports antioxidant networks and may have neuroprotective effects. The estimated flavonoid intake ranges from 50 to 800 mg/day (About 75% of dietary polyphenol count is quercetin). It is abundant in capers, apples, onions, berries, kale and soybeans.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Capers" />
 
 ## Food Context
 
@@ -50,15 +55,9 @@ Capers are among the highest sources of quercetin, a flavonoid polyphenol that s
 - Can be used as seasoning or condiment
 - Rinse if high-sodium pickled variety
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Capers" />
-
 
 ## References
 

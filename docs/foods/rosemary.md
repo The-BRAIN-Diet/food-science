@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/rosemary/rosemary_thumb.webp
 nutrition_per_100g:
   kcal: 131
   protein_g: 3.31
@@ -34,15 +34,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/rosemary/rosemary_medium.webp
+legacy_list_image: /img/foods/rosemary/rosemary_thumb.webp
+legacy_main_image: /img/foods/rosemary/rosemary_medium.webp
 ---
 
 ## Overview
 
 Rosemary provides compounds that support focus, antioxidant defenses, and neuroprotective effects. Rosemary supports focus, antioxidant, and neuroprotective effects and can be used as fresh herb or 250–500 mg/day extract.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Rosemary" />
 
 ## Food Context
 
@@ -56,17 +61,10 @@ Rosemary provides compounds that support focus, antioxidant defenses, and neurop
 - Supports cognitive function
 - Antioxidant support
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Rosemary" />
-
-
 ## References
 
 - Rosemary: Focus, antioxidant, neuroprotective effects - Fresh herb or 250–500 mg/day extract
-

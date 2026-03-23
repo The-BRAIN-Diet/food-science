@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Condiments
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/vinegar/vinegar_thumb.webp
 nutrition_per_100g:
   kcal: 88
   protein_g: 0.49
@@ -30,15 +30,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/vinegar/vinegar_medium.webp
+legacy_list_image: /img/foods/vinegar/vinegar_thumb.webp
+legacy_main_image: /img/foods/vinegar/vinegar_medium.webp
 ---
 
 ## Overview
 
 Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity. Glucose regulation strategies include low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, and meal sequencing (veg → protein → carb).
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Vinegar" />
 
 ## Food Context
 
@@ -49,18 +54,11 @@ Vinegar, particularly apple cider vinegar, supports glucose regulation and can b
 - Dilute before consumption
 - Part of food preparation and glucose management strategies
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Vinegar" />
-
 
 ## References
 
 - Glucose Regulation: Low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, meal sequencing (veg → protein → carb)
 - Add a bit of lemon juice or apple cider vinegar (1–2 tsp per liter of water) to reach ~pH 5.5–6 for optimal bean soaking conditions
-

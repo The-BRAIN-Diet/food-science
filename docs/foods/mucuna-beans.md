@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - L-DOPA
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/mucuna-beans/mucuna-beans_thumb.webp
 nutrition_per_100g:
   kcal: 336.59519
   protein_g: 21.5625
@@ -30,12 +30,18 @@ nutrition_source:
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'
+main_image: /img/foods/mucuna-beans/mucuna-beans_medium.webp
+legacy_list_image: /img/foods/mucuna-beans/mucuna-beans_thumb.webp
+legacy_main_image: /img/foods/mucuna-beans/mucuna-beans_medium.webp
 ---
 
 ## Overview
 
 Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, supporting neurotransmitter synthesis. The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: mucuna beans for natural LDOPA.
 
+## Recipes
+
+<FoodRecipes tag="Mucuna Beans" />
 
 ## Food Context
 
@@ -48,7 +54,6 @@ Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, 
 - Can be consumed as legume
 - Supports dopamine synthesis pathways
 - Use with awareness of L-DOPA content
-
 
 ### Essential Amino Acid Profile
 
@@ -66,18 +71,11 @@ Protein pairing strategy:
 
 Mucuna Beans are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Mucuna Beans" />
-
 
 ## References
 

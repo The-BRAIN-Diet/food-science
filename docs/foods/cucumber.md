@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin K2
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cucumber/cucumber_thumb.webp
 nutrition_per_100g:
   kcal: 13.934925
   protein_g: 0.625
@@ -27,15 +27,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/cucumber/cucumber_medium.webp
+legacy_list_image: /img/foods/cucumber/cucumber_thumb.webp
+legacy_main_image: /img/foods/cucumber/cucumber_medium.webp
 ---
 
 ## Overview
 
 Cucumber provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, supporting mitochondrial function and energy metabolism. Nicotinamide Mononucleotide (NMN) is a direct NAD⁺ intermediate in salvage pathway found in edamame, broccoli, cucumber, and avocado.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Cucumber" />
 
 ## Food Context
 
@@ -49,15 +54,9 @@ Cucumber provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate,
 - Supports mitochondrial NAD+ availability
 - Hydrating and low-calorie
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cucumber" />
-
 
 ## References
 

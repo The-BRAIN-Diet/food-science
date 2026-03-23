@@ -14,7 +14,7 @@ tags:
   - Iron
   - Tyrosine
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/pumpkin-seeds/pumpkin-seeds_thumb.webp
 nutrition_per_100g:
   kcal: 600
   protein_g: 23.33
@@ -31,11 +31,18 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/pumpkin-seeds/pumpkin-seeds_medium.webp
+legacy_list_image: /img/foods/pumpkin-seeds/pumpkin-seeds_thumb.webp
+legacy_main_image: /img/foods/pumpkin-seeds/pumpkin-seeds_medium.webp
 ---
 
 ## Overview
 
 Pumpkin seeds are nutrient-dense seeds providing zinc, tryptophan, magnesium, and other minerals critical for neurotransmitter synthesis and antioxidant function. Pumpkin seeds have high zinc content for neurotransmitter modulation and are listed as sources for tryptophan, zinc, and glutamate synthesis. Plant zinc is less bioavailable due to phytates; soaking/sprouting helps improve bioavailability.
+
+## Recipes
+
+<FoodRecipes tag="Pumpkin Seeds" />
 
 ## Key Nutritional Highlights
 
@@ -56,7 +63,6 @@ Pumpkin seeds are nutrient-dense seeds providing zinc, tryptophan, magnesium, an
 
 - Plant zinc less bioavailable due to phytates; soaking/sprouting helps improve bioavailability
 
-
 ### Essential Amino Acid Profile
 
 Pumpkin seeds provide a good plant source of protein but are not a complete protein.
@@ -74,18 +80,11 @@ Protein pairing strategy:
 
 Pumpkin seeds are notable for tryptophan and leucine but relatively low in lysine. Combining with grains or legumes helps create a more balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Pumpkin Seeds" />
-
 
 ## References
 

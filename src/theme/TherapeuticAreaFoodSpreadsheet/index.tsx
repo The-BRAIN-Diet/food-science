@@ -101,6 +101,7 @@ function inferCategoryFromTitle(doc: Pick<Document, "title">): string | null {
     ].some(name => t.includes(name)) ||
     t.includes("fish roe") ||
     t.includes("salmon roe") ||
+    t.includes("trout roe") ||
     t.includes("lumpfish roe") ||
     t.includes("seaweed")
   ) {

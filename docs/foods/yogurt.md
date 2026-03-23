@@ -11,7 +11,7 @@ tags:
   - Zinc
   - Magnesium
   - Potassium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/yogurt/yogurt_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   kcal: 94.507135
@@ -35,6 +35,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/yogurt/yogurt_medium.webp
+legacy_list_image: /img/foods/yogurt/yogurt_thumb.webp
+legacy_main_image: /img/foods/yogurt/yogurt_medium.webp
 ---
 
 import NutritionTable from "@site/src/components/NutritionTable";
@@ -44,6 +47,10 @@ import NutritionTable from "@site/src/components/NutritionTable";
 Yogurt is fermented dairy providing live probiotics, complete protein, **calcium**, and B vitamins, supporting gut–brain axis communication. Key contributions include calcium, protein, and zinc. Pair with berries or nuts for polyphenol synergy.
 
 **Protein profile:** Complete essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Yogurt" />
 
 ## Food Context
 
@@ -61,17 +68,11 @@ Yogurt is fermented dairy providing live probiotics, complete protein, **calcium
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Yogurt" />
-
 
 ## References
 

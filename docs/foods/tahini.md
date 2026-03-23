@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Calcium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/tahini/tahini_thumb.webp
 nutrition_per_100g:
   kcal: 592
   protein_g: 17.4
@@ -37,12 +37,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/tahini/tahini_medium.webp
+legacy_list_image: /img/foods/tahini/tahini_thumb.webp
+legacy_main_image: /img/foods/tahini/tahini_medium.webp
 ---
 
 ## Overview
 
 Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorption when paired with vegetables like carrots. Practical pairings include spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts.
 
+## Recipes
+
+<FoodRecipes tag="Tahini" />
 
 ## Food Context
 
@@ -56,25 +62,16 @@ Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorpt
 
 - Can be used in dressings, dips, or spreads
 
-
 ### Essential Amino Acid Profile
 
 Tahini contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Tahini" />
-
-
 ## References
 
 - Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts
-

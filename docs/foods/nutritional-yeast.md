@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Vitamin B12
   - Vitamin B6
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/nutritional-yeast/nutritional-yeast_thumb.webp
 nutrition_per_100g:
   kcal: 185
   protein_g: 23.88
@@ -40,12 +40,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/nutritional-yeast/nutritional-yeast_medium.webp
+legacy_list_image: /img/foods/nutritional-yeast/nutritional-yeast_thumb.webp
+legacy_main_image: /img/foods/nutritional-yeast/nutritional-yeast_medium.webp
 ---
 
 ## Overview
 
 Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotinamide riboside (NAD+ precursor), helping close vegan nutrient gaps. Fortified nutritional yeast (B12, B6) helps narrow vegan nutrient gaps, and precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended.
 
+## Recipes
+
+<FoodRecipes tag="Nutritional Yeast" />
 
 ## Food Context
 
@@ -62,23 +68,15 @@ Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotin
 - Can be used as seasoning or supplement
 - Important for vegan/vegetarian diets
 
-
 ### Essential Amino Acid Profile
 
 Nutritional Yeast contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Nutritional Yeast" />
-
 
 ## References
 

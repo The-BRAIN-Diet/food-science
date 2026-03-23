@@ -7,9 +7,13 @@ import InChIImage from '../InChIImage';
 
 function DocItemImage({ doc }) {
   const isSubstance = doc.permalink && doc.permalink.includes("/substances/");
+  const isFood = doc.permalink && doc.permalink.includes("/foods/");
   const inchikey = doc.frontMatter?.inchikey;
   const inchiImage = doc.frontMatter?.inchi_image;
   const listImage = doc.frontMatter?.list_image;
+  const legacyListImage = doc.frontMatter?.legacy_list_image;
+  const fallbackImage = "/img/icons/ingredients.svg";
+  const foodThumb = isFood ? listImage : null;
 
   return (
     <article key={doc.title} className="margin-vert--lg">
@@ -20,7 +24,19 @@ function DocItemImage({ doc }) {
           ) : isSubstance && inchikey ? (
             <InChIImage inchikey={inchikey} fallback={listImage} className={styles.articleImage} />
           ) : (
-            <img src={listImage || "/img/icons/ingredients.svg"} className={styles.articleImage} />
+            <img
+              src={foodThumb || listImage || fallbackImage}
+              alt={doc.title || "Food image"}
+              className={styles.articleImage}
+              onError={(e) => {
+                e.currentTarget.onerror = null;
+                if (legacyListImage) {
+                  e.currentTarget.src = legacyListImage;
+                  return;
+                }
+                e.currentTarget.src = fallbackImage;
+              }}
+            />
           )}
         </div>
         <div className={styles.right}>

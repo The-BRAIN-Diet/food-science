@@ -842,11 +842,6 @@ Fermented Vegetables:
   permalink: /fermented-vegetables
   description: Vegetables preserved through fermentation
 
-Fish Roe:
-  label: Fish Roe
-  permalink: /fish-roe
-  description: Fish eggs rich in omega-3 and choline
-
 Fibre:
   label: Fibre
   permalink: /fibre
@@ -985,7 +980,7 @@ Liver:
 Lumpfish Roe:
   label: Lumpfish Roe
   permalink: /lumpfish-roe
-  description: Fish eggs rich in omega-3
+  description: Budget salted lumpfish caviar; lower omega-3 than salmonid roe
 
 Lupins:
   label: Lupins
@@ -1327,6 +1322,11 @@ Tuna:
   permalink: /tuna
   description: Fish providing lean protein and omega-3
 
+Trout Roe:
+  label: Trout Roe
+  permalink: /trout-roe
+  description: Rainbow trout eggs; phospholipid omega-3s; mid-tier roe
+
 Turkey:
   label: Turkey
   permalink: /turkey
@@ -1336,6 +1336,11 @@ Turkey Tail Mushroom:
   label: Turkey Tail Mushroom
   permalink: /turkey-tail-mushroom
   description: Medicinal mushroom rich in polysaccharides supporting immune function
+
+Sweet Potatoes:
+  label: Sweet Potatoes
+  permalink: /sweet-potatoes
+  description: Orange-fleshed root vegetable rich in beta-carotene and fibre
 
 Turmeric Milk:
   label: Turmeric Milk

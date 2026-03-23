@@ -11,7 +11,7 @@ tags:
   - Mushrooms
   - Vitamin B3
   - Polysaccharides
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/lions-mane-mushroom/lions-mane-mushroom_thumb.webp
 nutrition_per_100g:
   kcal: 35.107387
   protein_g: 2.5
@@ -35,15 +35,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/lions-mane-mushroom/lions-mane-mushroom_medium.webp
+legacy_list_image: /img/foods/lions-mane-mushroom/lions-mane-mushroom_thumb.webp
+legacy_main_image: /img/foods/lions-mane-mushroom/lions-mane-mushroom_medium.webp
 ---
 
 ## Overview
 
 Lion's Mane mushroom (Hericium erinaceus) is a medicinal mushroom traditionally used in East Asian medicine. It contains bioactive compounds including hericenones and erinacines, which have been studied for their potential effects on nerve growth factor (NGF) pathways and neuroprotective mechanisms. While preclinical research suggests potential benefits for nerve health and neuroprotective pathways, clinical evidence for cognitive improvements in humans remains limited and requires further investigation. Lion's Mane is also valued for its culinary properties and contains polysaccharides that may support immune function.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Lion's Mane Mushroom" />
 
 ## Food Context
 
@@ -58,15 +63,9 @@ Lion's Mane mushroom (Hericium erinaceus) is a medicinal mushroom traditionally 
 - Extracts may provide more concentrated bioactive compounds
 - Rehydrate dried mushrooms before cooking
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Lion's Mane Mushroom" />
-
 
 ## References
 

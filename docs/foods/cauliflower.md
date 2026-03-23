@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Vitamin B9
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cauliflower/cauliflower_thumb.webp
 nutrition_per_100g:
   kcal: 24
   potassium_mg: 188
@@ -28,15 +28,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/cauliflower/cauliflower_medium.webp
+legacy_list_image: /img/foods/cauliflower/cauliflower_thumb.webp
+legacy_main_image: /img/foods/cauliflower/cauliflower_medium.webp
 ---
 
 ## Overview
 
 Cauliflower is a cruciferous vegetable providing fiber, B vitamins, and potential isothiocyanates, supporting gut health and antioxidant defenses. Cauliflower is part of the cruciferous vegetable family, which includes broccoli, Brussels sprouts, and cabbage. Cruciferous vegetables support diverse vegetable intake and gut health via fiber.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Cauliflower" />
 
 ## Food Context
 
@@ -50,15 +55,9 @@ Cauliflower is a cruciferous vegetable providing fiber, B vitamins, and potentia
 - Can be consumed raw, roasted, or steamed; light cooking may preserve some compounds
 - Supports gut health via fiber; prebiotic fiber supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cauliflower" />
-
 
 ## References
 

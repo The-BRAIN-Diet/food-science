@@ -15,7 +15,7 @@ tags:
   - Oleocanthal
   - Oleacein
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/early-harvest-olive-oil/early-harvest-olive-oil_thumb.webp
 nutrition_per_100g:
   sat_fat_g: 15.82
   ala_mg: 606.7
@@ -29,6 +29,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/early-harvest-olive-oil/early-harvest-olive-oil_medium.webp
+legacy_list_image: /img/foods/early-harvest-olive-oil/early-harvest-olive-oil_thumb.webp
+legacy_main_image: /img/foods/early-harvest-olive-oil/early-harvest-olive-oil_medium.webp
 ---
 
 ## Overview
@@ -42,9 +45,11 @@ Early harvest extra virgin olive oil is a precision food in the BRAIN Diet, harv
 
 These enhanced bioactive levels support mitochondrial function, antioxidant networks, and anti-inflammatory pathways, making early harvest olive oil a valuable component of precision dietary strategies for brain health. The implementation of the BRAIN diet must go beyond a standard nutrient density focus; it's about choosing foods for their specific bioactive potential: early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol, and total polyphenols.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Olive Oil (Early Harvest)" />
 
 ## Food Context
 
@@ -57,15 +62,9 @@ These enhanced bioactive levels support mitochondrial function, antioxidant netw
 - Total CoQ dropped by 53%-56% between three weeks of the harvesting of two brands, highlighting the critical importance of harvest timing
 - Higher polyphenol content provides stronger antioxidant and anti-inflammatory effects compared to standard EVOO
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Olive Oil (Early Harvest)" />
-
 
 ## References
 
@@ -75,4 +74,3 @@ These enhanced bioactive levels support mitochondrial function, antioxidant netw
 - The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol, and polyphenols
 - Early harvest oils have substantially higher bioactive content (CoQ10, oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol, polyphenols) compared to standard EVOO
 - Olive oil phenolic compounds, particularly oleuropein aglycone, oleocanthal, oleacein, and hydroxytyrosol, support mitochondrial function, autophagy, and neuroprotective effects through modulation of mitochondrial dynamics, SIRT1, AMPK, NF-κB inhibition, and NRF2 activation
-

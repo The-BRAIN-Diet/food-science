@@ -12,7 +12,7 @@ tags:
   - Vitamin B3
   - Selenium
   - Creatine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/tuna/tuna_thumb.webp
 nutrition_per_100g:
   kcal: 101.8695
   protein_g: 24.7
@@ -33,6 +33,9 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 protein_profile_note: Complete essential amino acid profile.
+main_image: /img/foods/tuna/tuna_medium.webp
+legacy_list_image: /img/foods/tuna/tuna_thumb.webp
+legacy_main_image: /img/foods/tuna/tuna_medium.webp
 ---
 
 ## Overview
@@ -41,6 +44,9 @@ Tuna is a lean fish providing **omega-3 fatty acids** (primarily EPA and DHA), *
 
 Within the BRAIN Diet framework, tuna is used as one component of a broader fish rotation rather than the sole marine protein source. Niacin-rich foods such as tuna contribute to NAD⁺-dependent metabolic pathways, while selenium participates in glutathione peroxidase and other antioxidant enzymes [1,2]. Because larger tuna species can accumulate higher levels of mercury, emphasis is placed on choosing lower-trophic species and moderating frequency within an overall pattern that includes smaller oily fish like sardines and herring [3].
 
+## Recipes
+
+<FoodRecipes tag="Tuna" />
 
 ## Key Nutritional Highlights
 
@@ -72,10 +78,6 @@ This food provides a **complete essential amino acid profile** typical of animal
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Tuna" />
 
 ## References
 

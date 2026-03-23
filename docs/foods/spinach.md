@@ -28,7 +28,7 @@ tags:
   - Beta-Carotene
   - Carotenoid
   - CoQ10
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/spinach/spinach_thumb.webp
 nutrition_per_100g:
   fibre_g: 2.4
   iron_mg: 3.18
@@ -46,15 +46,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/spinach/spinach_medium.webp
+legacy_list_image: /img/foods/spinach/spinach_thumb.webp
+legacy_main_image: /img/foods/spinach/spinach_medium.webp
 ---
 
 ## Overview
 
 Spinach is a nutrient-dense leafy green providing iron, magnesium, zinc, folate, and carotenoids. The BRAIN diet specifically targets leafy green vegetables like spinach that are rich in iron, magnesium, and zinc, though this can introduce high dietary oxalate. Boiling spinach can reduce oxalate load, improving mineral bioavailability. Spinach is important for neurotransmitter synthesis and antioxidant support, providing non-heme iron that can be enhanced with vitamin C pairing.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Spinach" />
 
 ## Food Context
 
@@ -69,15 +74,9 @@ Spinach is a nutrient-dense leafy green providing iron, magnesium, zinc, folate,
 - Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability; boiling helps mitigate this
 - Oxalate negatively affects mitochondrial function and changes redox status in monocytes [Chaiyarit and Thongboonkerd 2020](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020)
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Spinach" />
-
 
 ## References
 

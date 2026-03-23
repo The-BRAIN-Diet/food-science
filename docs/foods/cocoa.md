@@ -11,7 +11,7 @@ tags:
   - Magnesium
   - Iron
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cocoa/cocoa_thumb.webp
 nutrition_per_100g:
   kcal: 884
   protein_g: 0
@@ -40,15 +40,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/cocoa/cocoa_medium.webp
+legacy_list_image: /img/foods/cocoa/cocoa_thumb.webp
+legacy_main_image: /img/foods/cocoa/cocoa_medium.webp
 ---
 
 ## Overview
 
 Cocoa provides flavanols (polyphenols) that support cognitive function, though heavy metal content increases with cocoa percentage. Polyphenol Sources: Berries, green tea catechins, cocoa flavanols, cranberries, pomegranate; ↑ Faecalibacterium, Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation. Cocoa flavanols support cognitive function and vascular health.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Cocoa" />
 
 ## Food Context
 
@@ -65,15 +70,9 @@ Cocoa provides flavanols (polyphenols) that support cognitive function, though h
 - Higher cocoa content = higher heavy metals; be mindful of cadmium and lead content
 - Supports cognitive function through flavanol content; polyphenol sources support gut barrier integrity, TLR4 suppression, LPS neutralization, and microglial activation dampening
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cocoa" />
-
 
 ## References
 

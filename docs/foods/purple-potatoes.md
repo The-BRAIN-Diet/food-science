@@ -11,7 +11,7 @@ tags:
   - Potassium
   - Vitamin C
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/purple-potatoes/purple-potatoes_thumb.webp
 nutrition_per_100g:
   kcal: 51
   protein_g: 0.39
@@ -39,15 +39,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/purple-potatoes/purple-potatoes_medium.webp
+legacy_list_image: /img/foods/purple-potatoes/purple-potatoes_thumb.webp
+legacy_main_image: /img/foods/purple-potatoes/purple-potatoes_medium.webp
 ---
 
 ## Overview
 
 Purple potatoes provide anthocyanins, particularly C3G (cyanidin-3-glucoside), that serve as natural chelation agents for heavy metals and support neuroprotection. Anthocyanins, especially C3G-rich sources like berries, purple potatoes, and black goji, serve as natural chelation agents for heavy metals and environmental contaminants, neuroprotective molecules that support synaptic resilience and detox pathways, and detox allies against microplastics and hormone-disrupting pollutants.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Purple Potatoes" />
 
 ## Food Context
 
@@ -61,15 +66,9 @@ Purple potatoes provide anthocyanins, particularly C3G (cyanidin-3-glucoside), t
 - Can form resistant starch when cooked and cooled
 - Supports detoxification pathways
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Purple Potatoes" />
-
 
 ## References
 
