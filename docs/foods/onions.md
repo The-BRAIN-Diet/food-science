@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Quercetin
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/onions/onions_thumb.webp
 nutrition_per_100g:
   kcal: 44
   protein_g: 0.94
@@ -31,15 +31,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/onions/onions_medium.webp
+legacy_list_image: /img/foods/onions/onions_thumb.webp
+legacy_main_image: /img/foods/onions/onions_medium.webp
 ---
 
 ## Overview
 
 Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur compounds that support gut microbiome, antioxidant defenses, and glutathione synthesis. Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples). Inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier. Quercetin is abundant in capers, apples, onions, berries, kale and soybeans.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Onions" />
 
 ## Food Context
 
@@ -53,15 +58,9 @@ Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur comp
 - Can be consumed raw or cooked; cooking may enhance some compounds
 - Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support antioxidant defenses
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Onions" />
-
 
 ## References
 

@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/peppermint/peppermint_thumb.webp
 nutrition_per_100g:
   kcal: 70
   protein_g: 3.75
@@ -34,15 +34,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/peppermint/peppermint_medium.webp
+legacy_list_image: /img/foods/peppermint/peppermint_thumb.webp
+legacy_main_image: /img/foods/peppermint/peppermint_medium.webp
 ---
 
 ## Overview
 
 Peppermint provides compounds that support mental clarity and alertness, useful for ADHD focus support. Peppermint supports mental clarity and alertness and can be consumed as herbal tea or essential oil inhalation.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Peppermint" />
 
 ## Food Context
 
@@ -56,17 +61,10 @@ Peppermint provides compounds that support mental clarity and alertness, useful 
 - Essential oil can be used for inhalation
 - Supports mental clarity
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Peppermint" />
-
-
 ## References
 
 - Peppermint: Mental clarity, alertness - Herbal tea; essential oil inhalation
-

@@ -28,7 +28,7 @@ tags:
   - Isoleucine
   - Histidine
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/black-beans/black-beans_thumb.webp
 nutrition_per_100g:
   fat_g: 0
   iron_mg: 1.11
@@ -48,12 +48,18 @@ nutrition_source:
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'
+main_image: /img/foods/black-beans/black-beans_medium.webp
+legacy_list_image: /img/foods/black-beans/black-beans_thumb.webp
+legacy_main_image: /img/foods/black-beans/black-beans_medium.webp
 ---
 
 ## Overview
 
 Black beans provide plant protein, polyphenols, and prebiotic fiber. The paper details optimal soaking conditions (60°C, pH 6.0) for phytate reduction. Optimal conditions for the endogenous phytases of black beans is 60°C and pH 6.0, that resulted in a 55% reduction in 1P6 after soaking and cooking. Black beans are polyphenol-rich and support gut health, similar to kidney beans.
 
+## Recipes
+
+<FoodRecipes tag="Black Beans" />
 
 ## Food Context
 
@@ -67,7 +73,6 @@ Black beans provide plant protein, polyphenols, and prebiotic fiber. The paper d
 
 - Soak at 60°C (warm water) with pH 6.0 (lemon/vinegar) for optimal phytate reduction; optimal conditions for the endogenous phytases of black beans is 60°C and pH 6.0, that resulted in a 55% reduction in 1P6 after soaking and cooking
 - Soak 12-24 hours, then cook thoroughly to reduce phytates and improve mineral bioavailability
-
 
 ### Essential Amino Acid Profile
 
@@ -85,13 +90,7 @@ Protein pairing strategy:
 
 Black Beans are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
-
-## Recipes
-
-<FoodRecipes tag="Black Beans" />
 
 ## Substances
 

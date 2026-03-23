@@ -10,7 +10,7 @@ tags:
   - Calcium
   - Vitamin K2
   - Tyrosine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cheese/cheese_thumb.webp
 nutrition_per_100g:
   fibre_g: 0
   fat_g: 24.65
@@ -28,12 +28,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 protein_profile_note: Complete essential amino acid profile.
+main_image: /img/foods/cheese/cheese_medium.webp
+legacy_list_image: /img/foods/cheese/cheese_thumb.webp
+legacy_main_image: /img/foods/cheese/cheese_medium.webp
 ---
 
 ## Overview
 
 Cheese is fermented dairy providing calcium, complete protein, and in some varieties (like Parmesan), vitamin K2 and CLA. Studies have shown that hard cheeses with high calcium do not raise serum LDL levels. Cheese provides tyrosine for dopamine synthesis and supports bone health through calcium and K2 content.
 
+## Recipes
+
+<FoodRecipes tag="Cheese" />
 
 ## Food Context
 
@@ -50,23 +56,15 @@ Cheese is fermented dairy providing calcium, complete protein, and in some varie
 - Supports calcium and protein goals; hard cheeses with high calcium do not raise serum LDL levels [Soerensen et al. 2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)
 - Consider fermentation benefits; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cheese" />
-
 
 ## References
 

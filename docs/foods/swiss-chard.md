@@ -17,7 +17,7 @@ tags:
   - Lutein
   - Zeaxanthin
   - Beta-Carotene
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/swiss-chard/swiss-chard_thumb.webp
 nutrition_per_100g:
   kcal: 19
   protein_g: 1.8
@@ -46,15 +46,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/swiss-chard/swiss-chard_medium.webp
+legacy_list_image: /img/foods/swiss-chard/swiss-chard_thumb.webp
+legacy_main_image: /img/foods/swiss-chard/swiss-chard_medium.webp
 ---
 
 ## Overview
 
 Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, and carotenoids. Similar to other leafy greens like kale and spinach, it supports neurotransmitter synthesis and antioxidant function. The BRAIN diet specifically targets leafy green vegetables such as kale and spinach that are rich in iron, magnesium, and zinc, and Swiss chard fits within this category.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Swiss Chard" />
 
 ## Food Context
 
@@ -69,15 +74,9 @@ Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, a
 - Boiling reduces oxalates and improves mineral bioavailability
 - Can be used raw in salads or cooked in various dishes
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Swiss Chard" />
-
 
 ## References
 

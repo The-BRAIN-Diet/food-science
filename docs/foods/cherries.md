@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cherries/cherries_thumb.webp
 nutrition_per_100g:
   kcal: 63
   protein_g: 1.06
@@ -39,15 +39,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/cherries/cherries_medium.webp
+legacy_list_image: /img/foods/cherries/cherries_thumb.webp
+legacy_main_image: /img/foods/cherries/cherries_medium.webp
 ---
 
 ## Overview
 
 Cherries provide polyphenols, fiber, and vitamin C. Tart cherries specifically provide melatonin for sleep support.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Cherries" />
 
 ## Food Context
 
@@ -59,15 +64,9 @@ Cherries provide polyphenols, fiber, and vitamin C. Tart cherries specifically p
 
 - See [Tart Cherry](./tart-cherry.md) for detailed sleep support information
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cherries" />
-
 
 ## References
 

@@ -11,7 +11,7 @@ tags:
   - Potassium
   - Vitamin B6
   - Vitamin C
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/potatoes/potatoes_thumb.webp
 nutrition_per_100g:
   iron_mg: 0.73
   zinc_mg: 0.2
@@ -33,15 +33,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/potatoes/potatoes_medium.webp
+legacy_list_image: /img/foods/potatoes/potatoes_thumb.webp
+legacy_main_image: /img/foods/potatoes/potatoes_medium.webp
 ---
 
 ## Overview
 
 Potatoes provide complex carbohydrates, potassium, and when cooked and cooled, form resistant starch that supports gut microbiome and SCFA production. Resistant starch (cooled potatoes, green bananas) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier. B6 (chickpeas, potatoes, bananas, whole grains, soy) is a cofactor in the development of all key neurotransmitters. See Cooled Potatoes for resistant starch formation details.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Potatoes" />
 
 ## Food Context
 
@@ -52,15 +57,9 @@ Potatoes provide complex carbohydrates, potassium, and when cooked and cooled, f
 - Supports butyrate production via gut fermentation; resistant starch (cooled potatoes, green bananas) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
 - Lower glycemic response when cooled compared to hot potatoes
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Potatoes" />
-
 
 ## References
 

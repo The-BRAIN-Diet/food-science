@@ -35,9 +35,9 @@ This deeply nourishing stew is made from **slow-cooked turkey wings**, releasing
 - 2 **celery sticks**, chopped
 - 3 cloves **garlic**, minced
 - 1 tbsp **apple cider vinegar** (helps extract minerals from bones)
-- 2 tbsp **olive oil**
+- 2 tbsp (30 ml) **olive oil**
 - 1 tsp **turmeric** (optional)
-- 1 tsp **thyme** or **rosemary**
+- 1 tsp (5 ml) **thyme** or **rosemary**
 - Salt and pepper to taste
 - Water to cover (~1.5 L)
 

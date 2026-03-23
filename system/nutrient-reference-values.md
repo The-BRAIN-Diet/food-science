@@ -34,6 +34,9 @@ All values below are **adult daily reference intakes** used for %RDA calculation
 | Folate          | `folate_ug`        | 400             | µg   | RDA as dietary folate equivalents (DFE) |
 | Vitamin B12     | `vitamin_b12_ug`   | 2.4             | µg   | RDA for adults |
 | Vitamin B6      | `vitamin_b6_mg`    | 1.7             | mg   | Higher of adult women (1.5 mg) and men (1.7 mg) |
+| Vitamin E       | `vitamin_e_mg`     | 15              | mg   | RDA as α-tocopherol for adults |
+| Vitamin K       | `vitamin_k_ug`     | 120             | µg   | RDA for adults (as phylloquinone) |
+| Copper          | `copper_mg`        | 0.9             | mg   | RDA 900 µg for adults |
 
 These values are mirrored in code (see `src/components/NutritionTable.tsx`) so that UI calculations and documentation remain aligned.
 

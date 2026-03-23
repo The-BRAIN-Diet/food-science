@@ -15,7 +15,7 @@ tags:
   - Phosphorus
   - Manganese
   - Copper
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/almonds/almonds_thumb.webp
 nutrition_per_100g:
   fat_g: 56.67
   fibre_g: 10
@@ -34,6 +34,9 @@ nutrition_source:
   last_checked: '2026-03-14'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
+main_image: /img/foods/almonds/almonds_medium.webp
+legacy_list_image: /img/foods/almonds/almonds_thumb.webp
+legacy_main_image: /img/foods/almonds/almonds_medium.webp
 ---
 
 ## Overview
@@ -42,6 +45,9 @@ Almonds are a nutrient-dense nut that contribute **vitamin E**, magnesium, fibre
 
 In a BRAIN-aligned pattern, almonds are most useful as a **whole-food fat-and-fibre** option (e.g., in snacks or meals) that can help displace more refined, low-satiety foods; observational nutrition literature commonly groups nuts with more favourable long-term health associations compared with several animal-protein sources [3]. As with most nuts and seeds, almond protein is typically **lysine-limited**, so pairing with legumes or grains can improve essential amino-acid coverage across the day [2].
 
+## Recipes
+
+<FoodRecipes tag="Almonds" />
 
 ## Food Context
 
@@ -55,7 +61,6 @@ In a BRAIN-aligned pattern, almonds are most useful as a **whole-food fat-and-fi
 
 - Supports antioxidant networks; vitamin E works within antioxidant networks with vitamin C, CoQ10, and polyphenols, with these compounds regenerating each other in vivo
 
-
 ### Essential Amino Acid Profile
 
 Almonds provide plant protein but are not a complete protein; lysine is typically limiting for nuts and seeds.
@@ -64,18 +69,11 @@ Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Almonds" />
-
 
 ## References
 

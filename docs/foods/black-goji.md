@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/black-goji/black-goji_thumb.webp
 nutrition_per_100g:
   kcal: 52.747095
   protein_g: 0.578125
@@ -30,15 +30,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/black-goji/black-goji_medium.webp
+legacy_list_image: /img/foods/black-goji/black-goji_thumb.webp
+legacy_main_image: /img/foods/black-goji/black-goji_medium.webp
 ---
 
 ## Overview
 
 Black goji berries provide high levels of C3G (cyanidin-3-glucoside) anthocyanins that chelate heavy metals and support neuroprotection. Anthocyanins, especially C3G-rich sources like berries, purple potatoes, and black goji, serve as natural chelation agents for heavy metals and environmental contaminants, neuroprotective molecules that support synaptic resilience and detox pathways, and detox allies against microplastics and hormone-disrupting pollutants.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Black Goji" />
 
 ## Food Context
 
@@ -52,15 +57,9 @@ Black goji berries provide high levels of C3G (cyanidin-3-glucoside) anthocyanin
 - Can be consumed dried or fresh
 - Supports detoxification pathways
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Black Goji" />
-
 
 ## References
 

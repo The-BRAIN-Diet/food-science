@@ -14,7 +14,7 @@ tags:
   - Zinc
   - Copper
   - Manganese
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/sourdough-bread/sourdough-bread_thumb.webp
 nutrition_per_100g:
   kcal: 272
   protein_g: 10.75
@@ -44,12 +44,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/sourdough-bread/sourdough-bread_medium.webp
+legacy_list_image: /img/foods/sourdough-bread/sourdough-bread_thumb.webp
+legacy_main_image: /img/foods/sourdough-bread/sourdough-bread_medium.webp
 ---
 
 ## Overview
 
 Sourdough bread, especially when made with quinoa or other functional flours, provides GABA, improved amino acid bioavailability, and optimized Maillard reaction products (MRPs) with reduced acrylamide. Quinoa sourdough offers both very high nutrients (due to the quinoa) and a high GABA profile, and sourdough fermentation enhances bioavailability of amino acids through activation of endogenous cereal proteases.
 
+## Recipes
+
+<FoodRecipes tag="Sourdough Bread" />
 
 ## Food Context
 
@@ -61,23 +67,15 @@ Sourdough bread, especially when made with quinoa or other functional flours, pr
 - Glycine addition (0.3-0.4%) further reduces acrylamide
 - Traditionally fermented breads optimize Maillard Reaction Products (MRPs)
 
-
 ### Essential Amino Acid Profile
 
 Sourdough Bread contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Sourdough Bread" />
-
 
 ## References
 

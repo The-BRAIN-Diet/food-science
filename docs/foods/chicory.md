@@ -8,7 +8,7 @@ tags:
   - Chicory
   - Vegan
   - Vegetarian
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/chicory/chicory_thumb.webp
 nutrition_per_100g:
   kcal: 23
   protein_g: 1.7
@@ -37,15 +37,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/chicory/chicory_medium.webp
+legacy_list_image: /img/foods/chicory/chicory_thumb.webp
+legacy_main_image: /img/foods/chicory/chicory_medium.webp
 ---
 
 ## Overview
 
 Chicory provides high inulin content and can be used as a coffee substitute, supporting gut microbiome diversity. Prebiotic fibres including inulin (chicory, onions) support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Chicory" />
 
 ## Food Context
 
@@ -59,15 +64,9 @@ Chicory provides high inulin content and can be used as a coffee substitute, sup
 - High inulin content
 - Supports Bifidobacterium and Akkermansia
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Chicory" />
-
 
 ## References
 

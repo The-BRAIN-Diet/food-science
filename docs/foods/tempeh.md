@@ -27,7 +27,7 @@ tags:
   - Leucine
   - Isoleucine
   - Histidine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/tempeh/tempeh_thumb.webp
 nutrition_per_100g:
   kcal: 192
   protein_g: 20.29
@@ -54,12 +54,18 @@ nutrition_source:
   last_checked: '2026-03-14'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
+main_image: /img/foods/tempeh/tempeh_medium.webp
+legacy_list_image: /img/foods/tempeh/tempeh_thumb.webp
+legacy_main_image: /img/foods/tempeh/tempeh_medium.webp
 ---
 
 ## Overview
 
 Tempeh is fermented soy providing live probiotics, enhanced nutrient bioavailability, and isoflavones, supporting gut health and neurotransmitter synthesis. Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha, tempeh provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. Tempeh: Fermented soybeans, high in protein and probiotics. Fermentation improves digestibility and nutrient bioavailability.
 
+## Recipes
+
+<FoodRecipes tag="Tempeh" />
 
 ## Food Context
 
@@ -73,23 +79,15 @@ Tempeh is fermented soy providing live probiotics, enhanced nutrient bioavailabi
 - Fermentation improves digestibility and nutrient bioavailability; lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels
 - Can be cooked various ways; gentle cooking preserves probiotics
 
-
 ### Essential Amino Acid Profile
 
 Tempeh provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Tempeh" />
-
 
 ## References
 

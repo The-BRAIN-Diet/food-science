@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Polyphenols
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/coffee/coffee_thumb.webp
 nutrition_per_100g:
   kcal: 62
   protein_g: 2.06
@@ -32,15 +32,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/coffee/coffee_medium.webp
+legacy_list_image: /img/foods/coffee/coffee_thumb.webp
+legacy_main_image: /img/foods/coffee/coffee_medium.webp
 ---
 
 ## Overview
 
 Coffee provides caffeine that stimulates dopamine production but has pendulum effects and circadian disruption risks, requiring strategic use. Caffeine is an adenosine receptor antagonism and should be stopped 8 hours before bed considering caffeine has a highly variable half-life, ranging from 2 to 10 h, but possibly up to 20 hours.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Coffee" />
 
 ## Food Context
 
@@ -51,15 +56,9 @@ Coffee provides caffeine that stimulates dopamine production but has pendulum ef
 - Space ≥1 hour from iron-rich meals or add lemon
 - Strategic, sparing use may be most effective for ADHD
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Coffee" />
-
 
 ## References
 
@@ -67,4 +66,3 @@ Coffee provides caffeine that stimulates dopamine production but has pendulum ef
 - Caffeine can reverse the deficits associated with fatigue it can be implicated in causing the fatigue in the first place
 - Caffeine increases striatal dopamine D2/D3 receptor availability
 - Polyphenol-rich beverages (tea/coffee) can reduce non-heme iron absorption
-

@@ -24,6 +24,7 @@ const NUTRITION_KEYS = [
   "nutrition_per_100g",
   "nutrition_source",
   "nutrition_supplementary_sources",
+  "nutrition_functional_metrics",
   "protein_profile_note",
   "amino_acid_strengths",
   "limiting_amino_acids",

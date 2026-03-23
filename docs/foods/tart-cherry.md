@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/tart-cherry/tart-cherry_thumb.webp
 nutrition_per_100g:
   protein_g: 0.1465625
   sugar_g: 10.87075
@@ -27,15 +27,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/tart-cherry/tart-cherry_medium.webp
+legacy_list_image: /img/foods/tart-cherry/tart-cherry_thumb.webp
+legacy_main_image: /img/foods/tart-cherry/tart-cherry_medium.webp
 ---
 
 ## Overview
 
 Tart cherry (and tart cherry juice) provides natural melatonin and polyphenols that support sleep duration and quality, relevant for ADHD sleep dysregulation. Tart cherry juice is naturally rich in melatonin and shown to improve sleep duration.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Tart Cherry" />
 
 ## Food Context
 
@@ -49,15 +54,9 @@ Tart cherry (and tart cherry juice) provides natural melatonin and polyphenols t
 - Whole fruit provides fiber benefits
 - Natural alternative to melatonin supplements
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Tart Cherry" />
-
 
 ## References
 

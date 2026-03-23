@@ -1,0 +1,40 @@
+#!/bin/bash
+set -euo pipefail
+
+INPUT_DIR="/Users/paulhouston/Food Science/food-science/static/img/foods/originals"
+OUTPUT_DIR="/Users/paulhouston/Food Science/food-science/static/img/foods"
+
+mkdir -p "$OUTPUT_DIR"
+
+find "$INPUT_DIR" -maxdepth 1 \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) | while IFS= read -r img; do
+  filename="$(basename "$img")"
+  name="${filename%.*}"
+
+  mkdir -p "$OUTPUT_DIR/$name"
+
+  magick "$img" \
+    -auto-orient \
+    -resize "360x360^>" \
+    -gravity center \
+    -extent 360x360 \
+    -strip \
+    -quality 80 \
+    -define webp:method=6 \
+    "$OUTPUT_DIR/$name/${name}_thumb.webp"
+
+  magick "$img" \
+    -auto-orient \
+    -resize "800x>" \
+    -strip \
+    -quality 80 \
+    -define webp:method=6 \
+    "$OUTPUT_DIR/$name/${name}_medium.webp"
+
+  magick "$img" \
+    -auto-orient \
+    -resize "1400x>" \
+    -strip \
+    -quality 82 \
+    -define webp:method=6 \
+    "$OUTPUT_DIR/$name/${name}_large.webp"
+done

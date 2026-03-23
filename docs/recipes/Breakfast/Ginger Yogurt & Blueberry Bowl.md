@@ -34,10 +34,10 @@ This polyphenol-rich breakfast bowl combines ginger, blueberry polyphenols, omeg
 
 ## Ingredients
 
-- 150 g full-fat Greek yogurt
+- 150 g (5.3 oz) full-fat Greek yogurt
 - ½ cup fresh blueberries
 - 1 tbsp mixed seeds (chia, flax, pumpkin)
-- 1 tbsp crushed walnuts
+- 1 tbsp (15 ml) crushed walnuts
 - ½ tsp grated ginger
 - ½–1 tsp raw honey
 - Optional: cinnamon

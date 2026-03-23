@@ -14,7 +14,7 @@ tags:
   - Manganese
   - Iron
   - Magnesium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/beetroot/beetroot_thumb.webp
 nutrition_per_100g:
   potassium_mg: 1111
   sat_fat_g: 7.14
@@ -32,12 +32,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/beetroot/beetroot_medium.webp
+legacy_list_image: /img/foods/beetroot/beetroot_thumb.webp
+legacy_main_image: /img/foods/beetroot/beetroot_medium.webp
 ---
 
 ## Overview
 
 Beetroot provides dietary nitrates that convert to nitric oxide, supporting vascular function and mitochondrial efficiency. Rich in betalains (antioxidant pigments), folate, and minerals, beetroot contributes to cardiovascular health and metabolic resilience.
 
+## Recipes
+
+<FoodRecipes tag="Beetroot" />
 
 ## Food Context
 
@@ -47,26 +53,17 @@ Beetroot provides dietary nitrates that convert to nitric oxide, supporting vasc
 - Nitrate conversion to nitric oxide is enhanced by oral bacteria; consuming with leafy greens can support this pathway
 - Part of nitrate-rich vegetable intake supporting vascular and mitochondrial function
 
-
 ### Essential Amino Acid Profile
 
 Beetroot contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Beetroot" />
-
-
 ## References
 
 - Dietary nitrates from beetroot and leafy greens convert to nitric oxide, supporting vascular function and mitochondrial efficiency
 - Betalains in beetroot provide antioxidant and anti-inflammatory properties
-

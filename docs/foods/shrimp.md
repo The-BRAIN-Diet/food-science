@@ -8,7 +8,7 @@ tags:
   - Shrimp
   - Selenium
   - Zinc
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/shrimp/shrimp_thumb.webp
 nutrition_per_100g:
   fibre_g: 0
   iron_mg: 0.42
@@ -26,13 +26,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 protein_profile_note: Complete essential amino acid profile.
+main_image: /img/foods/shrimp/shrimp_medium.webp
+legacy_list_image: /img/foods/shrimp/shrimp_thumb.webp
+legacy_main_image: /img/foods/shrimp/shrimp_medium.webp
 ---
 
 ## Overview
 
 Shrimp are shellfish that provide **selenium**, **iodine**, **vitamin B12**, and other trace minerals, together with highly digestible protein. These nutrients support neurotransmitter synthesis, antioxidant enzyme systems, and thyroid function within a broader seafood rotation [1]. As with other shellfish, sourcing and preparation influence both safety and sustainability, so shrimp are best used as one component of a varied marine protein pattern rather than a sole staple [2].
 
+## Recipes
 
+<FoodRecipes tag="Shrimp" />
 
 ## Key Nutritional Highlights
 
@@ -57,25 +62,16 @@ Shrimp are shellfish that provide **selenium**, **iodine**, **vitamin B12**, and
 - Best prepared with gentle cooking
 - Supports protein and mineral goals
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Shrimp" />
-
-
 ## References
 
 - Shrimp is listed as a seafood source
-

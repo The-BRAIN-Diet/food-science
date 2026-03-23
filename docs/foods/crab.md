@@ -8,7 +8,7 @@ tags:
   - Crab
   - Zinc
   - Selenium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/crab/crab_thumb.webp
 nutrition_per_100g:
   kcal: 69.223
   protein_g: 15.5375
@@ -29,12 +29,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 protein_profile_note: Complete essential amino acid profile.
+main_image: /img/foods/crab/crab_medium.webp
+legacy_list_image: /img/foods/crab/crab_thumb.webp
+legacy_main_image: /img/foods/crab/crab_medium.webp
 ---
 
 ## Overview
 
 Crab provides high-quality protein and zinc, supporting neurotransmitter modulation and antioxidant enzyme function. Zinc food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, and cashews.
 
+## Recipes
+
+<FoodRecipes tag="Crab" />
 
 ## Food Context
 
@@ -51,25 +57,16 @@ Crab provides high-quality protein and zinc, supporting neurotransmitter modulat
 - Best prepared with gentle cooking
 - Supports zinc sufficiency
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Crab" />
-
-
 ## References
 
 - Zinc: Oysters, beef, crab, chicken, pork, Pumpkin seeds, lentils, chickpeas, cashews
-

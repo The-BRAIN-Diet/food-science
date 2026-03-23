@@ -19,7 +19,7 @@ tags:
   - Glycine
   - Arginine
   - Methionine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/nori/nori_thumb.webp
 contribution_levels:
   Iodine: Primary contributor
   Vitamin B9: Supporting contributor
@@ -49,12 +49,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/nori/nori_medium.webp
+legacy_list_image: /img/foods/nori/nori_thumb.webp
+legacy_main_image: /img/foods/nori/nori_medium.webp
 ---
 
 ## Overview
 
 Nori is a red seaweed (Porphyra species) commonly used in sushi and Japanese cuisine. It is a primary dietary source of iodine, an essential trace mineral critical for thyroid function and brain development. Nori also provides supporting amounts of folate (B9) and non-heme iron, along with contextual contributions of magnesium, vitamin K, and carotenoids. While nori may contain variable amounts of vitamin B12 depending on species and processing, it should not be relied upon as a sole B12 source. The seaweed polysaccharides and soluble fibre in nori contribute to gut barrier and microbiome modulation through cumulative, supportive effects.
 
+## Recipes
+
+<FoodRecipes tag="Nori" />
 
 ## Food Context
 
@@ -69,23 +75,15 @@ Nori is a red seaweed (Porphyra species) commonly used in sushi and Japanese cui
 - Folate and iron contributions are context-dependent and work best as part of a varied diet
 - Seaweed polysaccharides provide cumulative gut health benefits when consumed regularly
 
-
 ### Essential Amino Acid Profile
 
 Nori contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Nori" />
-
 
 ## References
 
@@ -96,4 +94,3 @@ Nori contribute plant protein. Pair with complementary protein sources (e.g. gra
 - Vitamin B12: Variable and context-dependent; should not be relied upon as sole source
 - Magnesium, Vitamin K, Carotenoids: Contextual contributors; modest amounts at typical servings
 - Creatine and creatine-pathway amino acids: Presence only (trace); not functionally meaningful at typical intake
-

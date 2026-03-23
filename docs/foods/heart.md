@@ -8,7 +8,7 @@ tags:
   - Heart
   - CoQ10
   - Iron
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/heart/heart_thumb.webp
 nutrition_per_100g:
   kcal: 28
   protein_g: 2.52
@@ -34,6 +34,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/heart/heart_medium.webp
+legacy_list_image: /img/foods/heart/heart_thumb.webp
+legacy_main_image: /img/foods/heart/heart_medium.webp
 ---
 
 ## Overview
@@ -42,10 +45,11 @@ Heart is an organ meat often highlighted for its CoQ10 content, supporting mitoc
 
 Within the BRAIN Diet framework, heart can be used strategically when prioritising mitochondrial-supportive nutrients such as CoQ10, while keeping the overall dietary pattern plant-forward. Sourcing from reputable producers and using gentle, moist-heat cooking methods help preserve palatability and avoid excessive high-heat byproducts [1,2].
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
 
+<FoodRecipes tag="Heart" />
 
 ## Key Nutritional Highlights
 
@@ -70,15 +74,9 @@ Within the BRAIN Diet framework, heart can be used strategically when prioritisi
 - Best prepared with gentle cooking
 - Important for CoQ10 intake
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Heart" />
-
 
 ## References
 

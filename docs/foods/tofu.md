@@ -28,7 +28,7 @@ tags:
   - Leucine
   - Isoleucine
   - Histidine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/tofu/tofu_thumb.webp
 nutrition_per_100g:
   kcal: 144
   protein_g: 17.27
@@ -54,11 +54,18 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/tofu/tofu_medium.webp
+legacy_list_image: /img/foods/tofu/tofu_thumb.webp
+legacy_main_image: /img/foods/tofu/tofu_medium.webp
 ---
 
 ## Overview
 
 Tofu is a soy-based food providing complete plant protein, isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. Tofu is listed as a source for iron, choline, tryptophan, and tyrosine. High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis. Tofu is often calcium-fortified, making it valuable for plant-based diets.
+
+## Recipes
+
+<FoodRecipes tag="Tofu" />
 
 ## Food Context
 
@@ -76,7 +83,6 @@ Tofu is a soy-based food providing complete plant protein, isoflavones (genistei
 
 - Can be prepared various ways (baked, fried, steamed); gentle cooking preserves nutrients
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of soy.
@@ -86,18 +92,11 @@ Notable amino acids:
 - Leucine
 - Lysine
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Tofu" />
-
 
 ## References
 

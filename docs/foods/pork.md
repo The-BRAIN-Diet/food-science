@@ -9,7 +9,7 @@ tags:
   - Vitamin B1
   - Creatine
   - Zinc
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/pork/pork_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   kcal: 233.442059
@@ -29,6 +29,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/pork/pork_medium.webp
+legacy_list_image: /img/foods/pork/pork_thumb.webp
+legacy_main_image: /img/foods/pork/pork_medium.webp
 ---
 
 ## Overview
@@ -37,7 +40,9 @@ Pork is a widely consumed animal food that is particularly notable for **thiamin
 
 Within the BRAIN Diet framework, pork is best treated as a rotational animal-food option used for targeted micronutrients rather than as a default centrepiece at every meal. Choosing minimally processed cuts and using gentler cooking methods helps preserve thiamine and reduces formation of heat-derived compounds, while still capturing the nutrient-density advantages of the food [1].
 
+## Recipes
 
+<FoodRecipes tag="Pork" />
 
 ## Key Nutritional Highlights
 
@@ -63,23 +68,15 @@ Within the BRAIN Diet framework, pork is best treated as a rotational animal-foo
 - Use gentler methods (braising, stewing, lower-temperature roasting) to help preserve thiamine, which is sensitive to heat and loss into cooking liquids.
 - Avoid frequent high-temperature charring; treat pork as one component of a broader dietary pattern.
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Pork" />
-
 
 ## References
 

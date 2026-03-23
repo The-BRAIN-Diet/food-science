@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/chamomile/chamomile_thumb.webp
 nutrition_per_100g:
   kcal: 1
   protein_g: 0
@@ -37,15 +37,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/chamomile/chamomile_medium.webp
+legacy_list_image: /img/foods/chamomile/chamomile_thumb.webp
+legacy_main_image: /img/foods/chamomile/chamomile_medium.webp
 ---
 
 ## Overview
 
 Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine receptors, supporting calm and sleep onset without sedation. Apigenin (from chamomile tea) binds to benzodiazepine receptors, supporting calm and sleep.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Chamomile" />
 
 ## Food Context
 
@@ -59,19 +64,12 @@ Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine recept
 - Steep 5-10 minutes for optimal extraction
 - Can be combined with other calming herbs
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Chamomile" />
-
 
 ## References
 
 - Apigenin (from chamomile tea): Binds to benzodiazepine receptors, supporting calm and sleep [Kramer and Johnson 2024](/docs/papers/BRAIN-Diet-References#kramer_chamomile_2024)
 - Herbal teas (e.g. chamomile for apigenin, lemon balm, tart cherry juice)
 - Evening(Wind-down, sleep prep): Herbal teas (e.g. chamomile for apigenin, lemon balm, tart cherry juice)
-

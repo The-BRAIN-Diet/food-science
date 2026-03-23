@@ -11,7 +11,7 @@ tags:
   - Mushrooms
   - Vitamin B3
   - Polysaccharides
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_thumb.webp
 nutrition_per_100g:
   kcal: 32.995442
   protein_g: 2.18
@@ -34,15 +34,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_medium.webp
+legacy_list_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_thumb.webp
+legacy_main_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_medium.webp
 ---
 
 ## Overview
 
 Cordyceps is a medicinal mushroom that has been traditionally used to support energy, endurance, and vitality. The most commonly used species include Cordyceps sinensis and Cordyceps militaris. Cordyceps contains bioactive compounds including cordycepin, polysaccharides, and adenosine, which have been studied for their potential effects on mitochondrial function, oxygen utilization, and energy metabolism. Research suggests Cordyceps may support ATP production and cellular energy pathways, making it of interest for supporting physical performance and energy levels. It is also valued for its potential immune-modulating properties.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Cordyceps Mushroom" />
 
 ## Food Context
 
@@ -57,15 +62,9 @@ Cordyceps is a medicinal mushroom that has been traditionally used to support en
 - Can be added to teas, smoothies, or other beverages
 - Quality and bioactive compound content can vary significantly between products
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cordyceps Mushroom" />
-
 
 ## References
 

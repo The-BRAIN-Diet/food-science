@@ -174,17 +174,22 @@ function getCandidateCompounds(pagePath) {
 }
 
 /**
- * Strict supplementary entry: all five fields required.
+ * Strict supplementary entry: key, label, source_note, plus either numeric value+unit or amount_display.
  */
 function isStrictSupplementary(entry) {
-  return (
-    entry &&
-    typeof entry.key === "string" &&
-    typeof entry.label === "string" &&
-    typeof entry.value === "number" &&
-    typeof entry.unit === "string" &&
-    typeof entry.source_note === "string"
-  )
+  if (
+    !entry ||
+    typeof entry.key !== "string" ||
+    typeof entry.label !== "string" ||
+    typeof entry.source_note !== "string"
+  ) {
+    return false
+  }
+  const hasNumeric =
+    typeof entry.value === "number" && typeof entry.unit === "string" && !Number.isNaN(entry.value)
+  const hasDisplay =
+    typeof entry.amount_display === "string" && entry.amount_display.trim().length > 0
+  return hasNumeric || hasDisplay
 }
 
 function runOne(pagePath, payloadPath, options = {}) {

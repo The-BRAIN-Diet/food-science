@@ -24,7 +24,7 @@ tags:
   - Zinc
   - CoQ10
   - Sulforaphane
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/broccoli/broccoli_thumb.webp
 nutrition_per_100g:
   kcal: 34
   protein_g: 2.82
@@ -53,15 +53,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/broccoli/broccoli_medium.webp
+legacy_list_image: /img/foods/broccoli/broccoli_thumb.webp
+legacy_main_image: /img/foods/broccoli/broccoli_medium.webp
 ---
 
 ## Overview
 
 Broccoli is a cruciferous vegetable providing sulforaphane (from glucoraphanin), folate, and sulfur compounds that support glutathione synthesis and mitochondrial health. Isothiocyanates (ITCs) like sulforaphane, created through enzymatic activity from glucoraphanin in broccoli, have shown promising results in reducing oxidative stress. Broccoli is listed as a sulphur-containing vegetable that provides glutathione precursors, supporting antioxidant defenses and brain health.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Broccoli" />
 
 ## Food Context
 
@@ -75,15 +80,9 @@ Broccoli is a cruciferous vegetable providing sulforaphane (from glucoraphanin),
 - Chewing activates myrosinase enzyme to convert glucoraphanin to sulforaphane
 - Sulforaphane activates Nrf2 and has higher bioavailability than other polyphenol supplements
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Broccoli" />
-
 
 ## References
 

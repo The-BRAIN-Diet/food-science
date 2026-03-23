@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin K2
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/dandelion-greens/dandelion-greens_thumb.webp
 nutrition_per_100g:
   kcal: 23.529215
   protein_g: 1.4375
@@ -30,15 +30,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/dandelion-greens/dandelion-greens_medium.webp
+legacy_list_image: /img/foods/dandelion-greens/dandelion-greens_thumb.webp
+legacy_main_image: /img/foods/dandelion-greens/dandelion-greens_medium.webp
 ---
 
 ## Overview
 
 Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health. They are part of a diverse leafy green intake strategy that supports gut microbiome diversity.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Dandelion Greens" />
 
 ## Food Context
 
@@ -52,15 +57,9 @@ Dandelion greens are bitter leafy greens providing prebiotic fiber and supportin
 - Bitter taste may be an acquired preference
 - Supports gut microbiome diversity
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Dandelion Greens" />
-
 
 ## References
 

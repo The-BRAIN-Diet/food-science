@@ -15,7 +15,7 @@ tags:
   - Catechin
   - Oligomeric Procyanidins
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/dark-chocolate/dark-chocolate_thumb.webp
 nutrition_per_100g:
   iron_mg: 7.89
   potassium_mg: 571
@@ -38,26 +38,29 @@ nutrition_supplementary_sources:
     label: Epicatechin
     value: 70.4
     unit: mg
-    source_note: >-
-      Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0
-      mg/100 g (mean ~70.4 mg/100 g).
+    notes: Often the dominant monomeric cocoa flavanol in dark chocolate.
+    source_note: 'Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0 mg/100 g (mean ~70.4 mg/100 g).'
   - key: catechin_mg
     label: Catechin
     value: 20.5
     unit: mg
-    source_note: >-
-      Phenol-Explorer dark-chocolate range for (+)-catechin: 10.8–50.0
-      mg/100 g (mean ~20.5 mg/100 g).
+    notes: Present alongside epicatechin; typically lower than epicatechin.
+    source_note: 'Phenol-Explorer dark-chocolate range for (+)-catechin: 10.8–50.0 mg/100 g (mean ~20.5 mg/100 g).'
   - key: oligomeric_procyanidins_mg
     label: Oligomeric Procyanidins
     value: 138.4
     unit: mg
-    source_note: >-
-      Proanthocyanidins/procyanidin oligomer fraction in bitter/dark
-      chocolate (40–90% cocoa) reported range ~52.23–224.47 mg/100 g
-      (use as a representative oligomeric procyanidin proxy; values vary
-      strongly with cocoa percentage and processing).
+    notes: Oligomeric flavanols; fraction varies with cocoa % and processing.
+    source_note: Proanthocyanidins/procyanidin oligomer fraction in bitter/dark chocolate (40–90% cocoa) reported range ~52.23–224.47 mg/100 g (use as a representative oligomeric procyanidin proxy; values vary strongly with cocoa percentage and processing).
+nutrition_functional_metrics:
+  - key: total_polyphenols_proxy
+    label: Total polyphenols (Folin-type)
+    amount_display: Varies by product
+    notes: 'Strongly influenced by cocoa percentage, fermentation, roasting, and alkalisation.'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/dark-chocolate/dark-chocolate_medium.webp
+legacy_list_image: /img/foods/dark-chocolate/dark-chocolate_thumb.webp
+legacy_main_image: /img/foods/dark-chocolate/dark-chocolate_medium.webp
 ---
 
 ## Overview
@@ -66,6 +69,9 @@ Dark chocolate (typically >=70% cocoa) is a concentrated source of cocoa polyphe
 
 Within the BRAIN Diet framework, dark chocolate is best positioned as a functional ingredient rather than a daily staple. Its polyphenol content varies widely depending on cocoa percentage, processing, and formulation, while heavy metal levels can differ significantly between products. Selecting high-cocoa, minimally processed, and independently tested sources helps maximise potential benefit while managing exposure risks [3].
 
+## Recipes
+
+<FoodRecipes tag="Dark Chocolate" />
 
 ## Key Nutritional Highlights
 
@@ -90,23 +96,15 @@ Within the BRAIN Diet framework, dark chocolate is best positioned as a function
 
 - Store in a cool, dry place and protect from heat/light to help preserve cocoa flavanol quality over time
 
-
 ### Essential Amino Acid Profile
 
 Dark chocolate is not used as a primary protein food, so essential amino-acid contribution is not a practical reason to include it. Its relevance in this framework is polyphenol content and mineral density rather than protein quality.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Dark Chocolate" />
-
 
 ## References
 
@@ -115,4 +113,3 @@ Dark chocolate is not used as a primary protein food, so essential amino-acid co
 [2] Role of inflammatory and proresolving mediators in endothelial dysfunction [Briones et al. 2025](/docs/papers/BRAIN-Diet-References#briones_inflammatory_proresolving_endothelium_2025)
 
 [3] Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA [Hands et al. 2024](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
-

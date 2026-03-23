@@ -11,7 +11,7 @@ tags:
   - Magnesium
   - Zinc
   - Iron
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/wheat/wheat_thumb.webp
 nutrition_per_100g:
   kcal: 250
   protein_g: 10.2
@@ -42,6 +42,9 @@ nutrition_source:
 amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
 limiting_amino_acids: Lysine (typical of grains).
 complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+main_image: /img/foods/wheat/wheat_medium.webp
+legacy_list_image: /img/foods/wheat/wheat_thumb.webp
+legacy_main_image: /img/foods/wheat/wheat_medium.webp
 ---
 
 ## Overview
@@ -50,7 +53,9 @@ Wheat, especially in less-refined forms, provides complex carbohydrates, fibre, 
 
 From a protein perspective, wheat is best understood as a grain protein that is typically lysine-limited rather than complete on its own [1,2]. In the BRAIN Diet framework, wheat-based foods are most useful when paired with legumes across meals to improve essential amino-acid balance while maintaining practical dietary variety [1,2].
 
+## Recipes
 
+<FoodRecipes tag="Wheat" />
 
 ## Key Nutritional Highlights
 
@@ -73,7 +78,6 @@ From a protein perspective, wheat is best understood as a grain protein that is 
 
 - Use minimally processed forms and avoid excessive refinement to preserve fibre and micronutrient density.
 
-
 ### Essential Amino Acid Profile
 
 Wheat provides a useful plant protein source but is not a complete protein.
@@ -90,18 +94,11 @@ Protein pairing strategy:
 
 Grains such as wheat are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Wheat" />
-
 
 ## References
 

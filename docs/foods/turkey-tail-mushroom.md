@@ -12,7 +12,7 @@ tags:
   - Vitamin B3
   - Polysaccharides
   - Beta-Glucans
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/turkey-tail-mushroom/turkey-tail-mushroom_thumb.webp
 nutrition_per_100g:
   kcal: 32.995442
   protein_g: 2.18
@@ -35,15 +35,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/turkey-tail-mushroom/turkey-tail-mushroom_medium.webp
+legacy_list_image: /img/foods/turkey-tail-mushroom/turkey-tail-mushroom_thumb.webp
+legacy_main_image: /img/foods/turkey-tail-mushroom/turkey-tail-mushroom_medium.webp
 ---
 
 ## Overview
 
 Turkey Tail mushroom (Trametes versicolor) is a common medicinal mushroom found worldwide, recognized by its colorful, banded appearance resembling a turkey's tail. It is particularly rich in polysaccharides, including polysaccharide-K (PSK) and polysaccharide-peptide (PSP), which have been extensively studied for their immune-modulating properties. Turkey Tail supports gut microbiome diversity and may help modulate immune responses. It is one of the most researched medicinal mushrooms for immune support and is commonly consumed as a tea, extract, or supplement.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Turkey Tail Mushroom" />
 
 ## Food Context
 
@@ -58,15 +63,9 @@ Turkey Tail mushroom (Trametes versicolor) is a common medicinal mushroom found 
 - Extracts may provide more concentrated polysaccharides
 - The mushroom itself is tough and not typically consumed whole
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Turkey Tail Mushroom" />
-
 
 ## References
 

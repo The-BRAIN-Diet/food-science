@@ -13,7 +13,7 @@ tags:
   - Magnesium
   - Manganese
   - Thiamine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/flax-seeds/flax-seeds_thumb.webp
 nutrition_per_100g:
   iron_mg: 5.9
   kcal: 550
@@ -34,19 +34,25 @@ nutrition_per_100g:
   ala_mg: 23500
 nutrition_source:
   database: USDA FoodData Central
-  food_name: Seeds, flaxseed
+  food_name: 'Seeds, flaxseed'
   fdc_id: 169414
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
+main_image: /img/foods/flax-seeds/flax-seeds_medium.webp
+legacy_list_image: /img/foods/flax-seeds/flax-seeds_thumb.webp
+legacy_main_image: /img/foods/flax-seeds/flax-seeds_medium.webp
 ---
 
 ## Overview
 
 Flax seeds provide ALA (plant omega-3), soluble fiber, and lignans, supporting gut health and providing plant-based omega-3. Soluble fibre (from apples, oats, flaxseeds) supports gut health and SCFA production. ALA is an essential omega-3 fatty acid with limited conversion to DHA/EPA in adults; food sources include flax, chia, and walnuts. Conversion from ALA is less than 5% in most adults; direct DHA/EPA strongly recommended for optimal brain health.
 
+## Recipes
+
+<FoodRecipes tag="Flax Seeds" />
 
 ## Key Nutritional Highlights
 
@@ -67,7 +73,6 @@ Flax seeds provide ALA (plant omega-3), soluble fiber, and lignans, supporting g
 - Grind for better ALA absorption (whole seeds may pass through undigested)
 - Store ground seeds in refrigerator to prevent oxidation of omega-3s
 
-
 ### Essential Amino Acid Profile
 
 Flax Seeds provide plant protein but are not a complete protein; lysine is typically limiting for nuts and seeds.
@@ -76,18 +81,11 @@ Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Flax Seeds" />
-
 
 ## References
 

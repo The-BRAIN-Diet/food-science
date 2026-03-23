@@ -8,7 +8,7 @@ tags:
   - Recipe
   - Dinner
   - Fibre
-  - Potatoes
+  - Sweet Potatoes
   - Corn
   - Broccoli
   - Butter
@@ -30,9 +30,9 @@ This dish illustrates a core BRAIN Diet principle: preparation and food structur
 - 1 large sweet potato (≈350 g raw)
 - 1 tin sweetcorn, drained (≈240 g)
 - 150 ml full-fat curried coconut milk (or 150 ml coconut milk + 1 tsp curry powder)
-- 30 g butter
-- 25 g parmesan, finely grated
-- 1 tbsp extra-virgin olive oil
+- 30 g (1.1 oz) butter
+- 25 g (5 tsp (approx)) parmesan, finely grated
+- 1 tbsp (15 ml) extra-virgin olive oil
 - Salt and black pepper
 
 **To serve:**

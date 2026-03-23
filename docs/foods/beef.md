@@ -16,7 +16,7 @@ tags:
   - Zinc
   - Phosphorus
   - Selenium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/beef/beef_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   kcal: 250
@@ -51,20 +51,19 @@ nutrition_supplementary_sources:
     label: Creatine
     value: 400
     unit: mg
-    source_note: >
-      Approximate creatine content per 100 g cooked beef based on dietary
-      creatine source summaries and compositional surveys (raw beef muscle
-      ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018
-      and creatine dietary sources reviews).
+    notes: Concentrated in muscle; not reported in standard USDA panels for most cuts.
+    source_note: |
+      Approximate creatine content per 100 g cooked beef based on dietary creatine source summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary sources reviews).
   - key: coq10_mg
     label: Coenzyme Q10 (CoQ10)
     value: 2.5
     unit: mg
-    source_note: >
-      Approximate CoQ10 content per 100 g beef muscle derived from studies
-      measuring ubiquinone/ubiquinol in beef cuts (~2–3 mg/100 g raw muscle,
-      with partial retention after cooking; see Crane 2001 and subsequent
-      beef CoQ10 compositional analyses).
+    notes: Mitochondrial ubiquinone; cut and cooking method alter measured content.
+    source_note: |
+      Approximate CoQ10 content per 100 g beef muscle derived from studies measuring ubiquinone/ubiquinol in beef cuts (~2–3 mg/100 g raw muscle, with partial retention after cooking; see Crane 2001 and subsequent beef CoQ10 compositional analyses).
+main_image: /img/foods/beef/beef_medium.webp
+legacy_list_image: /img/foods/beef/beef_thumb.webp
+legacy_main_image: /img/foods/beef/beef_medium.webp
 ---
 
 ## Overview
@@ -72,6 +71,10 @@ nutrition_supplementary_sources:
 Beef is a nutrient-dense red meat providing several compounds relevant to brain and metabolic health, including creatine [1], coenzyme Q10 (CoQ10) [2], vitamin B12, zinc, and highly bioavailable heme iron [3]. These nutrients contribute to mitochondrial energy metabolism, oxygen transport, and neurotransmitter synthesis. Compared with non-heme iron from plant foods, heme iron from animal sources is absorbed more efficiently, making beef a useful contributor to iron status in some dietary patterns [3].
 
 Within the BRAIN Diet framework, beef may be used strategically for nutrient density, particularly where iron, vitamin B12, creatine, and CoQ10 are priorities. At the same time, overall dietary pattern still matters, including processing level, cooking method, total intake, and the balance between plant and animal foods [5,6].
+
+## Recipes
+
+<FoodRecipes tag="Beef" />
 
 ## Key Nutritional Highlights
 
@@ -101,7 +104,6 @@ Within the BRAIN Diet framework, beef may be used strategically for nutrient den
 - Avoid frequent **high-temperature charring or heavy browning**, which increases formation of heterocyclic amines and advanced glycation end products during cooking [8,9].
 - Use beef as a **strategic nutrient-dense food**, rather than as the dominant calorie source of the overall diet, especially in dietary patterns that aim to remain plant-forward [6,10].
 
-
 ### Essential Amino Acid Profile
 
 Beef provides a complete essential amino acid profile with high digestibility and bioavailability [4].
@@ -111,10 +113,6 @@ Beef provides a complete essential amino acid profile with high digestibility an
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Beef" />
 
 ## References
 

@@ -11,7 +11,7 @@ tags:
   - Mushrooms
   - Vitamin B3
   - Polysaccharides
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/reishi-mushroom/reishi-mushroom_thumb.webp
 nutrition_per_100g:
   kcal: 32.995442
   protein_g: 2.18
@@ -34,15 +34,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/reishi-mushroom/reishi-mushroom_medium.webp
+legacy_list_image: /img/foods/reishi-mushroom/reishi-mushroom_thumb.webp
+legacy_main_image: /img/foods/reishi-mushroom/reishi-mushroom_medium.webp
 ---
 
 ## Overview
 
 Reishi mushroom (Ganoderma lucidum), known in China as Ling Zhi, is a medicinal mushroom with a long-standing reputation as a tonic for vitality. Unlike stimulants such as caffeine, Reishi works quietly and cumulatively, supporting the foundations of energy, resilience, and emotional steadiness. Modern research links these effects largely to its polysaccharides, alongside other bioactive compounds that help modulate stress and immune balance—key influences on long-term vitality. Traditionally reserved for emperors and scholars, Reishi is valued not for quick stimulation but for its ability to restore depleted reserves and support recovery and balance.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Reishi Mushroom" />
 
 ## Food Context
 
@@ -57,15 +62,9 @@ Reishi mushroom (Ganoderma lucidum), known in China as Ling Zhi, is a medicinal 
 - Can be consumed as tea, added to soups, or taken as a supplement
 - Traditional use emphasizes cumulative, long-term benefits rather than immediate effects
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Reishi Mushroom" />
-
 
 ## References
 

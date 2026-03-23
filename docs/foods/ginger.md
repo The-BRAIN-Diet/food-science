@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/ginger/ginger_thumb.webp
 nutrition_per_100g:
   kcal: 80
   protein_g: 1.82
@@ -38,15 +38,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/ginger/ginger_medium.webp
+legacy_list_image: /img/foods/ginger/ginger_thumb.webp
+legacy_main_image: /img/foods/ginger/ginger_medium.webp
 ---
 
 ## Overview
 
 Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects, and prokinetic properties helpful for SIBO management. Ginger supports gut-brain axis support and anti-inflammatory effects at 1–2 g/day fresh or powdered root, and many members of the Zingiberaceae family (which includes ginger, turmeric, and galangal) have pleiotropic effects overlapping between metabolic regulation and neurocognitive outcomes.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Ginger" />
 
 ## Food Context
 
@@ -60,19 +65,12 @@ Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects
 - Prokinetic effects support SIBO management
 - Anti-inflammatory support
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Ginger" />
-
 
 ## References
 
 - Ginger: Gut-brain axis support, anti-inflammatory - 1–2 g/day fresh or powdered root
 - Overgrowth Suppression (SIBO, Candida, Pathobionts): Polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger)
 - Many members of the Zingiberaceae family (which includes ginger, turmeric, and galangal) have pleiotropic effects overlapping between metabolic regulation and neurocognitive outcomes
-

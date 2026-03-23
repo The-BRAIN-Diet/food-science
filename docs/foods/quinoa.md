@@ -27,7 +27,7 @@ tags:
   - Leucine
   - Isoleucine
   - Histidine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/quinoa/quinoa_thumb.webp
 nutrition_per_100g:
   kcal: 368
   protein_g: 14.12
@@ -56,6 +56,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/quinoa/quinoa_medium.webp
+legacy_list_image: /img/foods/quinoa/quinoa_thumb.webp
+legacy_main_image: /img/foods/quinoa/quinoa_medium.webp
 ---
 
 ## Overview
@@ -64,6 +67,9 @@ Quinoa is a nutrient-dense pseudograin that provides complex carbohydrates, fibr
 
 Quinoa seeds naturally contain bitter saponins in the outer coating, so rinsing before cooking improves taste and palatability; many modern commercial products are pre-washed, but a brief rinse is still practical in home cooking [3]. Within the BRAIN Diet framework, quinoa works well as a rotating whole-grain/pseudograin option that supports mineral intake, fibre intake, and overall diet diversity [2].
 
+## Recipes
+
+<FoodRecipes tag="Quinoa" />
 
 ## Key Nutritional Highlights
 
@@ -85,7 +91,6 @@ Quinoa seeds naturally contain bitter saponins in the outer coating, so rinsing 
 - Rinse before cooking to reduce residual saponin bitterness (even when labeled pre-washed).
 - Use gentle boiling/steaming and avoid overcooking to preserve texture and improve practical meal adherence.
 
-
 ### Essential Amino Acid Profile
 
 Quinoa provides a strong plant-protein profile and is often described as relatively balanced for a pseudograin, but amino-acid complementarity with legumes still improves practical coverage [1,2].
@@ -98,18 +103,11 @@ Protein pairing strategy:
 
 Combine quinoa with legumes (e.g. lentils, chickpeas, beans) to support a more robust essential amino-acid pattern across meals [1,2].
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Quinoa" />
-
 
 ## References
 

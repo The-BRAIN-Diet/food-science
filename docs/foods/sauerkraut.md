@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin K2
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/sauerkraut/sauerkraut_thumb.webp
 nutrition_per_100g:
   kcal: 25
   fibre_g: 0.8
@@ -27,15 +27,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/sauerkraut/sauerkraut_medium.webp
+legacy_list_image: /img/foods/sauerkraut/sauerkraut_thumb.webp
+legacy_main_image: /img/foods/sauerkraut/sauerkraut_medium.webp
 ---
 
 ## Overview
 
 Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbiotic compounds, and enhanced nutrient bioavailability. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Sauerkraut" />
 
 ## Food Context
 
@@ -52,15 +57,9 @@ Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbio
 - Regular but not excessive intake
 - Supports gut microbiome diversity
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Sauerkraut" />
-
 
 ## References
 

@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Potassium
   - Beta-Carotene
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/carrots/carrots_thumb.webp
 nutrition_per_100g:
   iron_mg: 0.46
   protein_g: 1.28
@@ -28,15 +28,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/carrots/carrots_medium.webp
+legacy_list_image: /img/foods/carrots/carrots_thumb.webp
+legacy_main_image: /img/foods/carrots/carrots_medium.webp
 ---
 
 ## Overview
 
 Carrots provide beta-carotene (vitamin A precursor), demonstrating important food matrix effects where only 1-3% of beta-carotene in raw carrots is accessible for absorption. The bioaccessibility of carotenoids in vegetables is remarkably low—only 1-3% of the β-carotene in raw carrots is accessible for absorption. Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts. Carotenoids are abundant in leafy greens, orange and yellow vegetables, corn, and egg yolks.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Carrots" />
 
 ## Food Context
 
@@ -50,15 +55,9 @@ Carrots provide beta-carotene (vitamin A precursor), demonstrating important foo
 
 - Supports carotenoid diversity; carotenoids play a neuroprotective role through their antioxidant and anti-inflammatory properties
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Carrots" />
-
 
 ## References
 

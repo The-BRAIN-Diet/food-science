@@ -26,10 +26,10 @@ A Mediterranean-style bowl combining salmon, avocado, pistachio, raw cacao nibs,
 - 1 **ripe avocado**, sliced
 - 40–50 g **pistachios** (raw or dry-roasted, unsalted)
 - 1 cup **mixed leafy greens** (rocket, lamb’s lettuce, baby spinach)
-- 1 tbsp **raw cacao nibs**
+- 1 tbsp (15 ml) **raw cacao nibs**
 - **handful of pomegranate seeds** (arils)
 - 1–2 tbsp **early harvest olive oil**
-- 1 tsp **hemp seeds** or **chia seeds**
+- 1 tsp (5 ml) **hemp seeds** or **chia seeds**
 - juice of **½ lemon**
 - a few sprigs of **mint** or basil
 - sea salt to taste

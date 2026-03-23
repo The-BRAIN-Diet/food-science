@@ -29,7 +29,7 @@ A refreshing, lightly sparkling kvass-style drink made from toasted stale sourdo
 ## Ingredients (1.5–2 L)
 
 - 200–250 g stale sourdough bread (ideally wholegrain or rye-based)
-- 1.5 L water
+- 1.5 l (6.3 cup) water
 - 50–70 g sugar or honey (fuel for fermentation; most is consumed)
 - 1 small handful raisins (10–15)
 - 1 cinnamon stick (or ½ tsp ground cinnamon)

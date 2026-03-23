@@ -17,7 +17,7 @@ tags:
   - Vitamin B5
   - Vitamin B12
   - Vitamin D
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/milk/milk_thumb.webp
 protein_profile_note: Complete essential amino acid profile. /img/icons/ingredients.svg
 nutrition_per_100g:
   fibre_g: 0
@@ -35,15 +35,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/milk/milk_medium.webp
+legacy_list_image: /img/foods/milk/milk_thumb.webp
+legacy_main_image: /img/foods/milk/milk_medium.webp
 ---
 
 ## Overview
 
 Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (NAD+ precursor), and calcium, supporting mitochondrial function and bone health. Milk (skim) has a DIAAS score of 118, indicating balanced EAA profile and supports myelination. Nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread). Fortified plant milks and dairy milk can help meet calcium (and sometimes iodine, depending on fortification and local practices) targets.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Milk" />
 
 ## Food Context
 
@@ -61,15 +66,9 @@ Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (
 - Consider tolerance and preferences
 - Fortified plant milks and dairy milk can help meet calcium targets
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Milk" />
-
 
 ## References
 

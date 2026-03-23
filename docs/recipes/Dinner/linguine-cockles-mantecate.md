@@ -46,12 +46,12 @@ The result is a meal combining stable energy supply, micronutrient density, and 
 
 ## Ingredients (2 servings)
 
-- 300 g whole-wheat linguine
+- 300 g (10.6 oz) whole-wheat linguine
 - 1 kg cockles (or mussels, or clams), purged and rinsed
 - 1 small onion, finely chopped
 - 2 garlic cloves, thinly sliced
-- 4 tbsp extra-virgin olive oil
-- 120 ml dry white wine
+- 4 tbsp (60 ml) extra-virgin olive oil
+- 120 ml (8 tbsp) dry white wine
 - 2 egg yolks
 - 25–30 g finely grated parmesan
 - 1 small knob butter (optional)

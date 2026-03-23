@@ -2,14 +2,14 @@
 id: lamb
 title: Lamb
 sidebar_label: Lamb
-description: 'Creatine and bioavailable heme iron'
+description: Creatine and bioavailable heme iron
 tags:
   - Food
   - Lamb
   - Creatine
   - Iron
   - Zinc
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/lamb/lamb_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   kcal: 241.727079
@@ -28,6 +28,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/lamb/lamb_medium.webp
+legacy_list_image: /img/foods/lamb/lamb_thumb.webp
+legacy_main_image: /img/foods/lamb/lamb_medium.webp
 ---
 
 ## Overview
@@ -36,7 +39,9 @@ Lamb is a nutrient-dense red meat providing highly bioavailable **heme iron**, *
 
 Within the BRAIN Diet framework, lamb is used strategically for its iron and zinc density rather than as an everyday centrepiece. It fits best when paired with vegetables, legumes, and whole grains to keep the overall pattern plant-forward, while choosing minimally processed cuts and gentler cooking methods to avoid excessive charring and heat-derived compounds [1,3].
 
+## Recipes
 
+<FoodRecipes tag="Lamb" />
 
 ## Key Nutritional Highlights
 
@@ -65,23 +70,15 @@ Within the BRAIN Diet framework, lamb is used strategically for its iron and zin
 - Important for creatine and heme iron intake
 - Supports neurotransmitter synthesis through tryptophan and tyrosine content
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Lamb" />
-
 
 ## References
 

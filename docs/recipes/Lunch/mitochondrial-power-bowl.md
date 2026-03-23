@@ -36,11 +36,11 @@ A vibrant, nutrient-dense bowl combining nitrate-rich leafy greens and beets wit
 - 2 cups mixed leafy greens (spinach, arugula, or rocket)
 - ½ cup roasted beets, diced
 - ¼ cup walnuts, roughly chopped
-- 2 tbsp pumpkin seeds
+- 2 tbsp (30 ml) pumpkin seeds
 - ½ cup fresh blueberries
-- 2 tbsp fresh parsley, chopped
-- 2 tbsp early harvest olive oil
-- 1 tbsp lemon juice
+- 2 tbsp (30 ml) fresh parsley, chopped
+- 2 tbsp (30 ml) early harvest olive oil
+- 1 tbsp (15 ml) lemon juice
 - Salt and pepper to taste
 - Optional: 1 tbsp hemp seeds for additional omega-3
 

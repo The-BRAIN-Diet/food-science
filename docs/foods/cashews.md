@@ -15,7 +15,7 @@ tags:
   - Manganese
   - Copper
   - Iron
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cashews/cashews_thumb.webp
 nutrition_per_100g:
   carbs_g: 29.73
   kcal: 568
@@ -35,12 +35,18 @@ nutrition_source:
   last_checked: '2026-03-14'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
+main_image: /img/foods/cashews/cashews_medium.webp
+legacy_list_image: /img/foods/cashews/cashews_thumb.webp
+legacy_main_image: /img/foods/cashews/cashews_medium.webp
 ---
 
 ## Overview
 
 Cashews provide plant protein and zinc, supporting neurotransmitter modulation and antioxidant enzyme function. Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, cashews.
 
+## Recipes
+
+<FoodRecipes tag="Cashews" />
 
 ## Food Context
 
@@ -54,7 +60,6 @@ Cashews provide plant protein and zinc, supporting neurotransmitter modulation a
 
 - Supports zinc sufficiency; zinc is critical for neurotransmitter modulation, synaptic plasticity, and antioxidant enzyme function
 
-
 ### Essential Amino Acid Profile
 
 Cashews provide plant protein but are not a complete protein; lysine is typically limiting for nuts and seeds.
@@ -63,18 +68,11 @@ Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cashews" />
-
 
 ## References
 

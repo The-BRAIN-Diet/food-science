@@ -33,8 +33,8 @@ A small drizzle of balsamic vinegar at serving sharpens the dish and balances th
 - salt
 
 ### Herb olive oil
-- 1 tsp rosemary leaves
-- 1 tsp thyme leaves
+- 1 tsp (5 ml) rosemary leaves
+- 1 tsp (5 ml) thyme leaves
 - pinch chilli flakes
 - pinch salt
 - 2–3 tbsp extra-virgin olive oil

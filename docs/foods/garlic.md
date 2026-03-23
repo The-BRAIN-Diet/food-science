@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Manganese
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/garlic/garlic_thumb.webp
 nutrition_per_100g:
   kcal: 143
   protein_g: 6.62
@@ -26,12 +26,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/garlic/garlic_medium.webp
+legacy_list_image: /img/foods/garlic/garlic_thumb.webp
+legacy_main_image: /img/foods/garlic/garlic_medium.webp
 ---
 
 ## Overview
 
 Garlic provides allicin (when crushed), sulfur compounds for glutathione synthesis, and prebiotic fiber supporting gut health and antioxidant defenses. Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health. Garlic is part of the allium family with prebiotic benefits.
 
+## Recipes
+
+<FoodRecipes tag="Garlic" />
 
 ## Food Context
 
@@ -46,23 +52,15 @@ Garlic provides allicin (when crushed), sulfur compounds for glutathione synthes
 - Cooking reduces allicin but may enhance other compounds
 - Sulphur-containing vegetables that provide glutathione precursors support antioxidant defenses
 
-
 ### Essential Amino Acid Profile
 
 Garlic contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Garlic" />
-
 
 ## References
 

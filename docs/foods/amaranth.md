@@ -2,7 +2,7 @@
 id: amaranth
 title: Amaranth
 sidebar_label: Amaranth
-description: Pseudograin with magnesium, iron, and fiber
+description: 'Pseudograin with magnesium, iron, and fiber'
 tags:
   - Food
   - Amaranth
@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Magnesium
   - Iron
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/amaranth/amaranth_thumb.webp
 nutrition_per_100g:
   kcal: 377.9609
   protein_g: 13.2093
@@ -34,6 +34,9 @@ nutrition_source:
 amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
 limiting_amino_acids: Lysine (typical of grains).
 complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+main_image: /img/foods/amaranth/amaranth_medium.webp
+legacy_list_image: /img/foods/amaranth/amaranth_thumb.webp
+legacy_main_image: /img/foods/amaranth/amaranth_medium.webp
 ---
 
 ## Overview
@@ -42,7 +45,9 @@ Amaranth is a gluten-free pseudograin that provides complex carbohydrates, fibre
 
 Protein quality in amaranth is better interpreted as **balanced but lysine-limited**, rather than "complete" in practical meal planning terms; pairing with legumes remains the most reliable way to improve essential amino-acid balance across a day [1,2]. In the BRAIN Diet framework, amaranth is best used as a rotating whole-grain/pseudograin option that supports mineral intake and dietary variety while fitting into complementary protein strategies [2].
 
+## Recipes
 
+<FoodRecipes tag="Amaranth" />
 
 ## Key Nutritional Highlights
 
@@ -65,7 +70,6 @@ Protein quality in amaranth is better interpreted as **balanced but lysine-limit
 - Rinse before cooking to remove saponins
 - Part of pseudograin diversity
 
-
 ### Essential Amino Acid Profile
 
 Amaranth provides a useful plant protein source but is not a complete protein.
@@ -82,18 +86,11 @@ Protein pairing strategy:
 
 Grains such as amaranth are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Amaranth" />
-
 
 ## References
 

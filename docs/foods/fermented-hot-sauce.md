@@ -10,7 +10,7 @@ tags:
   - Fermented Vegetables
   - Vegan
   - Vegetarian
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/fermented-hot-sauce/fermented-hot-sauce_thumb.webp
 nutrition_per_100g:
   kcal: 116
   protein_g: 8.92
@@ -36,12 +36,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/fermented-hot-sauce/fermented-hot-sauce_medium.webp
+legacy_list_image: /img/foods/fermented-hot-sauce/fermented-hot-sauce_thumb.webp
+legacy_main_image: /img/foods/fermented-hot-sauce/fermented-hot-sauce_medium.webp
 ---
 
 ## Overview
 
 Fermented hot sauce is made by fermenting chilli peppers (often with garlic, salt, and sometimes other vegetables) before blending into a pourable sauce. As with other fermented vegetable products, the fermentation step produces organic acids and flavour compounds; many versions are unpasteurised and used in small amounts as a condiment on otherwise whole-food meals.
 
+## Recipes
+
+<FoodRecipes tag="Fermented Hot Sauce" />
 
 ## Food Context
 
@@ -57,25 +63,16 @@ Fermented hot sauce is made by fermenting chilli peppers (often with garlic, sal
 
 - Typically produced by fermenting chopped chillies with salt (and sometimes garlic and other aromatics) at room temperature for several days to weeks.
 
-
 ### Essential Amino Acid Profile
 
 Fermented Hot Sauce contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Fermented Hot Sauce" />
-
-
 ## References
 
 - See [Fermented Vegetables](/docs/foods/fermented-vegetables) for general notes on fermented vegetable products and their postbiotic compounds.
-

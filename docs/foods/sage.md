@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/sage/sage_thumb.webp
 nutrition_per_100g:
   kcal: 315
   protein_g: 10.63
@@ -38,12 +38,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/sage/sage_medium.webp
+legacy_list_image: /img/foods/sage/sage_thumb.webp
+legacy_main_image: /img/foods/sage/sage_medium.webp
 ---
 
 ## Overview
 
 Sage provides compounds that support memory and cognitive enhancement, with therapeutic benefits demonstrated at 200–400 mg/day extract or through regular culinary doses.
 
+## Recipes
+
+<FoodRecipes tag="Sage" />
 
 ## Food Context
 
@@ -57,25 +63,16 @@ Sage provides compounds that support memory and cognitive enhancement, with ther
 - Supports memory and cognition
 - Culinary use is generally safe
 
-
 ### Essential Amino Acid Profile
 
 Sage contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Sage" />
-
-
 ## References
 
 - Sage: Memory and cognitive enhancement - 200–400 mg/day extract or culinary doses
-

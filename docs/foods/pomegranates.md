@@ -11,7 +11,7 @@ tags:
   - Vitamin C
   - Potassium
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/pomegranates/pomegranates_thumb.webp
 nutrition_per_100g:
   protein_g: 0
   sugar_g: 13.27675
@@ -28,15 +28,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/pomegranates/pomegranates_medium.webp
+legacy_list_image: /img/foods/pomegranates/pomegranates_thumb.webp
+legacy_main_image: /img/foods/pomegranates/pomegranates_medium.webp
 ---
 
 ## Overview
 
 Pomegranates provide ellagitannins that gut bacteria convert to urolithin A, supporting mitochondrial resilience, mitophagy, and cognitive function. The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate). Higher polyphenol intake and microbial diversity increase urolithin A and related metabolites, supporting mitochondrial resilience and mitophagy and improving cognitive endurance.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Pomegranates" />
 
 ## Food Context
 
@@ -50,15 +55,9 @@ Pomegranates provide ellagitannins that gut bacteria convert to urolithin A, sup
 - Production of urolithin A depends on gut microbiome diversity; higher polyphenol intake and microbial diversity increase urolithin A production
 - Part of polyphenol-rich dietary pattern; polyphenol sources including berries, green tea catechins, cocoa flavanols, cranberries, pomegranate support gut microbiome health
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Pomegranates" />
-
 
 ## References
 

@@ -13,7 +13,7 @@ tags:
   - Choline
   - CoQ10
   - Creatine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/liver/liver_thumb.webp
 nutrition_per_100g:
   kcal: 133
   protein_g: 16.37
@@ -42,6 +42,9 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 protein_profile_note: Complete essential amino acid profile.
+main_image: /img/foods/liver/liver_medium.webp
+legacy_list_image: /img/foods/liver/liver_thumb.webp
+legacy_main_image: /img/foods/liver/liver_medium.webp
 ---
 
 ## Overview
@@ -50,7 +53,9 @@ Liver is a highly nutrient-dense organ meat providing exceptionally high amounts
 
 Within the BRAIN Diet framework, liver is typically treated as a periodic offal food that can help close nutrient gaps (especially B12, folate, and retinol) while keeping the overall diet plant-forward. Because liver is also a concentrated source of preformed vitamin A, portion size and frequency matter; gentle cooking and thoughtful sourcing help balance nutrient density with practical tolerability [1,2].
 
+## Recipes
 
+<FoodRecipes tag="Liver" />
 
 ## Key Nutritional Highlights
 
@@ -74,23 +79,15 @@ Within the BRAIN Diet framework, liver is typically treated as a periodic offal 
 - Important for vegan/vegetarian nutrient gap closure, though not suitable for vegetarians
 - Organ meats (heart, liver), oily fish (sardines, mackerel), beef are top sources for CoQ10
 
-
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Liver" />
-
 
 ## References
 

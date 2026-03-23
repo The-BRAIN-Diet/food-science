@@ -15,7 +15,7 @@ tags:
   - EPA
   - DHA
   - Phosphatidylcholine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/oysters/oysters_thumb.webp
 nutrition_per_100g:
   kcal: 163
   protein_g: 18.9
@@ -40,24 +40,17 @@ nutrition_supplementary_sources:
     label: EPA
     value: 876
     unit: mg
-    source_note: >-
-      EPA varies widely by species and preparation. USDA FoodData Central for
-      "Mollusks, oyster, Pacific, cooked, moist heat" (FDC 174250; via MyFoodData:
-      https://tools.myfooddata.com/nutrition-facts/174250/wt2) implies ~876 mg EPA
-      per 100 g (0.745 g per 85 g). European flat oysters (Ostrea edulis) in the
-      Danish FRIDA database are lower (~171 mg EPA per 100 g raw; Food ID 163:
-      https://frida.fooddata.dk/food/163). Use as an indicative range.
+    notes: Species and cooking method shift long-chain omega-3 totals; values are indicative.
+    source_note: 'EPA varies widely by species and preparation. USDA FoodData Central for "Mollusks, oyster, Pacific, cooked, moist heat" (FDC 174250; via MyFoodData: https://tools.myfooddata.com/nutrition-facts/174250/wt2) implies ~876 mg EPA per 100 g (0.745 g per 85 g). European flat oysters (Ostrea edulis) in the Danish FRIDA database are lower (~171 mg EPA per 100 g raw; Food ID 163: https://frida.fooddata.dk/food/163). Use as an indicative range.'
   - key: dha_mg
     label: DHA
     value: 500
     unit: mg
-    source_note: >-
-      DHA varies widely by species and preparation. USDA FoodData Central for
-      "Mollusks, oyster, Pacific, cooked, moist heat" (FDC 174250; via MyFoodData:
-      https://tools.myfooddata.com/nutrition-facts/174250/wt2) implies ~500 mg DHA
-      per 100 g (0.425 g per 85 g). European flat oysters (Ostrea edulis) in the
-      Danish FRIDA database are lower (~193 mg DHA per 100 g raw; Food ID 163:
-      https://frida.fooddata.dk/food/163). Use as an indicative range.
+    notes: Often comparable to EPA in Pacific species; check species-specific compositional tables.
+    source_note: 'DHA varies widely by species and preparation. USDA FoodData Central for "Mollusks, oyster, Pacific, cooked, moist heat" (FDC 174250; via MyFoodData: https://tools.myfooddata.com/nutrition-facts/174250/wt2) implies ~500 mg DHA per 100 g (0.425 g per 85 g). European flat oysters (Ostrea edulis) in the Danish FRIDA database are lower (~193 mg DHA per 100 g raw; Food ID 163: https://frida.fooddata.dk/food/163). Use as an indicative range.'
+main_image: /img/foods/oysters/oysters_medium.webp
+legacy_list_image: /img/foods/oysters/oysters_thumb.webp
+legacy_main_image: /img/foods/oysters/oysters_medium.webp
 ---
 
 ## Overview
@@ -66,6 +59,9 @@ Oysters are bivalve shellfish that provide high levels of **zinc**, **vitamin B1
 
 Within the BRAIN Diet framework, oysters are a strategic micronutrient-dense option where zinc and B12 adequacy are priorities, including some dietary patterns that otherwise use little or no animal foods. Zinc concentrations vary materially by species and environment, but oysters remain among the most zinc-dense commonly eaten foods even with that variability [2].
 
+## Recipes
+
+<FoodRecipes tag="Oysters" />
 
 ## Key Nutritional Highlights
 
@@ -96,10 +92,6 @@ This food provides a complete essential amino acid profile typical of animal pro
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Oysters" />
 
 ## References
 

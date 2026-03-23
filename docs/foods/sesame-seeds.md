@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Calcium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/sesame-seeds/sesame-seeds_thumb.webp
 nutrition_per_100g:
   kcal: 573
   protein_g: 17.73
@@ -40,12 +40,18 @@ nutrition_source:
   last_checked: '2026-03-14'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
+main_image: /img/foods/sesame-seeds/sesame-seeds_medium.webp
+legacy_list_image: /img/foods/sesame-seeds/sesame-seeds_thumb.webp
+legacy_main_image: /img/foods/sesame-seeds/sesame-seeds_medium.webp
 ---
 
 ## Overview
 
 Sesame seeds provide calcium, healthy fats, and are the source of tahini, supporting bone health and carotenoid absorption when paired with vegetables. Practical pairings: carrots + tahini, kale + avocado, berries + yogurt/nuts. Sesame seeds are part of diverse seed intake and support fat-soluble vitamin absorption when used as tahini.
 
+## Recipes
+
+<FoodRecipes tag="Sesame Seeds" />
 
 ## Key Nutritional Highlights
 
@@ -66,7 +72,6 @@ Sesame seeds provide calcium, healthy fats, and are the source of tahini, suppor
 
 - Can be consumed whole or as tahini; tahini is ground sesame seeds
 
-
 ### Essential Amino Acid Profile
 
 Sesame Seeds provide plant protein but are not a complete protein; lysine is typically limiting for nuts and seeds.
@@ -75,18 +80,11 @@ Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Sesame Seeds" />
-
 
 ## References
 

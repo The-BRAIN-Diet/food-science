@@ -2,7 +2,7 @@
 id: salmon-roe
 title: Salmon Roe
 sidebar_label: Salmon Roe
-description: Phospholipid-bound omega-3s with superior brain bioavailability
+description: Premium salmon (ikura) eggs — phospholipid-bound EPA/DHA and choline
 tags:
   - Food
   - Salmon Roe
@@ -12,7 +12,8 @@ tags:
   - Choline
   - Phosphatidylcholine
   - Astaxanthin
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/salmon-roe/salmon-roe_thumb.webp
+protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   kcal: 143
   protein_g: 22.32
@@ -28,61 +29,78 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.16
   folate_ug: 80
   choline_mg: 335.4
-  vitamin_b12_ug: 0
+  vitamin_b12_ug: 19
   sat_fat_g: 1.456
   epa_mg: 983
   dha_mg: 1363
   ala_mg: 1428
   omega3_mg: 3774
 nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Fish, roe, mixed species, raw'
+  database: USDA FoodData Central + literature
+  food_name: 'Salmon roe (ikura) — core panel anchored to Fish, roe, mixed species, raw (FDC 175132); vitamin B12 adjusted to typical salmonid roe (mixed-species FDC under-reports B12).'
   fdc_id: 175132
-  retrieval_method: API
+  retrieval_method: API + manual B12 alignment
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
-protein_profile_note: Complete essential amino acid profile.
+nutrition_supplementary_sources:
+  - key: astaxanthin_mg
+    label: Astaxanthin
+    value: 3.2
+    unit: mg
+    notes: Carotenoid pigment; stabilises highly unsaturated lipids in the roe matrix.
+    source_note: Literature estimate for farmed Pacific salmon; USDA FDC does not report astaxanthin for this record; content varies by feed and species.
+main_image: /img/foods/salmon-roe/salmon-roe_medium.webp
+legacy_list_image: /img/foods/salmon-roe/salmon-roe_thumb.webp
+legacy_main_image: /img/foods/salmon-roe/salmon-roe_medium.webp
 ---
 
 ## Overview
 
-Salmon roe (fish eggs) provides omega-3 fatty acids in phospholipid-bound form, which enhances brain delivery compared to triglyceride forms. It provides DHA, EPA, phospholipids, choline, and astaxanthin with high bioavailability and zero oxidation risk. Studies show phospholipid-bound omega-3s such as krill oil and fish roe provide EPA/DHA in a phospholipid form that gets easily converted to lysophosphatidylcholine (LPC), which was 1.9-fold more efficacious for brain gray matter DHA accretion in porcine models compared to triglyceride forms.
+Salmon roe (often sold as **ikura**) is the egg mass of Pacific salmonids such as *Oncorhynchus* species. It supplies long-chain omega-3 fatty acids **EPA** and **DHA** in phospholipid-rich matrices, together with very high **choline** and **vitamin B12** density per 100 g. These are the same structural reasons roe is discussed in brain-nutrition contexts: phospholipid-associated DHA can be trafficked into lysophosphatidylcholine (LPC) pathways relevant to brain delivery, compared with triacylglycerol-only forms [1][2].
 
-## Food Context
-
-### Preparation
-
-- Best consumed cold/raw (sushi, spoonful daily) to preserve phospholipid structure
-- Avoid cooking to preserve phospholipid structure and prevent oxidation
-
-
-### Essential Amino Acid Profile
-
-This food provides a complete essential amino acid profile typical of animal proteins.
-
-
-<NutritionTable details={frontMatter} />
-
-
-## Substances
-
-<FoodSubstancesFromTable details={frontMatter} />
+Within the BRAIN Diet framework, salmon roe is a **premium, concentrated** seafood ingredient: it is typically more expensive per gram than trout roe or salted lumpfish roe, but it offers among the highest practical omega-3 and choline yields per bite. It is best used as a small garnish or occasional portion rather than a bulk protein source.
 
 ## Recipes
 
 <FoodRecipes tag="Salmon Roe" />
 
-## Vitamins & Minerals
+## Key Nutritional Highlights
 
-Salmon roe is exceptionally rich in essential vitamins and minerals. It is one of the best dietary sources of **vitamin B12**, providing over 330% of the daily value per 100 grams. Salmon roe is also an excellent source of **vitamin D** (58% DV), supporting immune function and calcium homeostasis. It provides substantial amounts of **selenium** (94% DV) for antioxidant enzyme function, **magnesium** (75% DV) for neurotransmitter synthesis and mitochondrial function, and **iron** (66% DV) for oxygen transport and dopamine synthesis. Additional B vitamins include choline (45% DV), pantothenic acid (B5), riboflavin (B2), pyridoxine (B6), and folate. Salmon roe also provides **calcium** (28% DV), **vitamin E** (13% DV), and **phosphorus** (39% DV), making it one of the most nutrient-dense foods available.
+- Very high **choline** and **vitamin B12** per 100 g compared with most whole foods.
+- **EPA/DHA** in phospholipid-rich matrices, with strong compositional omega-3 density per 100 g.
+- **Astaxanthin** (carotenoid) is present in salmonid tissues and contributes to lipid stability in the natural matrix.
+- **Price and availability** are usually higher than trout roe and much higher than dyed lumpfish caviar.
+- **Freshness and cold chain** matter: oxidation risk rises with poor storage even if the matrix is phospholipid-bound.
 
-Zero oxidation risk when fresh
-- DHA or EPA incorporated into PC and converted into lysophosphatidylcholine (LPC) crosses the blood-brain barrier far more efficiently than free fatty acid or triglyceride-bound forms [Patrick 2019](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
+## Food Context
+
+### Sourcing
+
+- Prefer reputable suppliers with clear species and harvest region; frozen ikura is common and acceptable when thawed safely.
+- Colour and texture vary by species, diet, and season — not a reliable purity test on its own.
+
+### Synergies
+
+- Pair with vegetables and whole grains as a flavour-dense garnish rather than a high-sodium meal centre.
+- Vitamin C–rich foods support iron balance in mixed meals (roe provides modest iron).
+
+### Preparation
+
+- Traditionally eaten **cold** or lightly warmed (on rice, in sushi, or as a spoonful) to limit heat damage to unsaturated fats.
+- Avoid prolonged high heat; treat as a delicate fat + protein ingredient.
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of animal proteins.
+
+<NutritionTable details={frontMatter} />
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
 
 ## References
 
-- Salmon Roe: DHA, EPA, phospholipids, choline, astaxanthin; highly bioavailable; zero oxidation risk
-- Targeted foods such as salmon or lumpfish roe can be used to reliably and safely exceed minimum intakes
-- DHA or EPA incorporated into PC and converted into lysophosphatidylcholine (LPC) crosses the blood-brain barrier far more efficiently than free fatty acid or triglyceride-bound forms [Patrick 2019](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
-- Phospholipid-bound omega-3s such as krill oil and fish roe provide EPA/DHA in a phospholipid form that gets easily converted to LPC was 1.9-fold more efficacious for brain gray matter DHA accretion in porcine models [Liu et al. 2014](/docs/papers/BRAIN-Diet-References#liu_higher_2014)
-- Acetylcholine and choline: Memory, learning, neuroplasticity; food sources include egg yolks, fish roe, soy, wheat germ, liver
+[1] [Patrick 2019 — Role of phosphatidylcholine-DHA and LPC-DHA in brain transport](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
+
+[2] [Liu et al. 2014 — Higher efficacy of phospholipid omega-3 for brain DHA accretion (porcine model)](/docs/papers/BRAIN-Diet-References#liu_higher_2014)

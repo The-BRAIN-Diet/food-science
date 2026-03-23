@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cranberries/cranberries_thumb.webp
 nutrition_per_100g:
   calcium_mg: 0
   fibre_g: 5
@@ -28,15 +28,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/cranberries/cranberries_medium.webp
+legacy_list_image: /img/foods/cranberries/cranberries_thumb.webp
+legacy_main_image: /img/foods/cranberries/cranberries_medium.webp
 ---
 
 ## Overview
 
 Cranberries provide polyphenols, resveratrol, and support gut microbiome diversity, particularly Faecalibacterium and Roseburia. Polyphenol sources including berries, green tea catechins, cocoa flavanols, cranberries, and pomegranate ↑ Faecalibacterium, Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Cranberries" />
 
 ## Food Context
 
@@ -50,15 +55,9 @@ Cranberries provide polyphenols, resveratrol, and support gut microbiome diversi
 - Can be consumed fresh, dried, or as juice
 - Supports gut microbiome diversity
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cranberries" />
-
 
 ## References
 

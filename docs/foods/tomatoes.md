@@ -11,7 +11,7 @@ tags:
   - Lycopene
   - Vitamin C
   - Potassium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/tomatoes/tomatoes_thumb.webp
 nutrition_per_100g:
   kcal: 18.95436075
   protein_g: 0.695625
@@ -33,15 +33,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/tomatoes/tomatoes_medium.webp
+legacy_list_image: /img/foods/tomatoes/tomatoes_thumb.webp
+legacy_main_image: /img/foods/tomatoes/tomatoes_medium.webp
 ---
 
 ## Overview
 
 Tomatoes provide lycopene (carotenoid), vitamin C, and demonstrate food matrix effects where cooking and fat pairing enhance carotenoid absorption. The bioaccessibility of carotenoids in vegetables is remarkably low—lycopene in canned and fresh tomatoes is less than 1%. Prolonged cooking increases access to lycopene in tomatoes where cell walls need to be broken down. Practical pairings include spinach + eggs, tomatoes + olive oil, salad + oil.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Tomatoes" />
 
 ## Food Context
 
@@ -56,15 +61,9 @@ Tomatoes provide lycopene (carotenoid), vitamin C, and demonstrate food matrix e
 - Cooking breaks down cell walls and increases lycopene bioavailability; prolonged cooking increases access to lycopene in tomatoes where cell walls need to be broken down
 - Canned tomatoes may have higher lycopene due to processing
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Tomatoes" />
-
 
 ## References
 

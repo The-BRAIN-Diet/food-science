@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Manganese
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/black-tea/black-tea_thumb.webp
 nutrition_per_100g:
   kcal: 0
   protein_g: 0
@@ -38,15 +38,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/black-tea/black-tea_medium.webp
+legacy_list_image: /img/foods/black-tea/black-tea_thumb.webp
+legacy_main_image: /img/foods/black-tea/black-tea_medium.webp
 ---
 
 ## Overview
 
 Black tea provides polyphenols and may contain some compounds supporting NAD+ pathways, though less studied than green tea. Polyphenol-rich beverages (tea/coffee) can reduce non-heme iron absorption if taken with iron-rich plant meals; spacing them ≥1 hour away or adding vitamin-C sources (e.g., lemon) favors iron uptake.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Black Tea" />
 
 ## Food Context
 
@@ -60,17 +65,10 @@ Black tea provides polyphenols and may contain some compounds supporting NAD+ pa
 - Space ≥1 hour from iron-rich meals or add lemon
 - Supports polyphenol intake
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Black Tea" />
-
-
 ## References
 
 - Polyphenol-rich beverages (tea/coffee) can reduce non-heme iron absorption if taken with iron-rich plant meals; spacing them ≥1 hour away or adding vitamin-C sources (e.g., lemon) favors iron uptake
-

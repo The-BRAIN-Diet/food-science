@@ -30,3 +30,23 @@ The Format of the page should have this structure:
 - Biological Target Matrix: should be <RecipeMatrix details={frontMatter} />
 
 Use the `Ginger Yogurt & Blueberry Bowl.md` page as an example.
+
+## Ingredient Unit Standard (required)
+
+All ingredient lines in `## Ingredients` must include **both**:
+
+1. **Metric value** (`g`, `mg`, `µg`, `ml`, `l`)  
+2. **Cooking equivalent** (e.g. `tsp`, `tbsp`, `cup`, `oz`) in parentheses
+
+Examples:
+
+- `10 ml (2 tsp) extra virgin olive oil`
+- `120 g (4.2 oz) cooked quinoa`
+- `2 tbsp (30 ml) tomato purée`
+
+Rules:
+
+- Keep both units on the **same ingredient line**.
+- Use `mg` / `µg` where relevant for very small quantities.
+- If an ingredient is difficult to convert precisely (e.g. herbs by volume), use a clear approximation label such as `(approx)`.
+- Preserve culinary usability: readers should be able to cook from spoons/cups while retaining metric precision.

@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin C
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/citrus/citrus_thumb.webp
 nutrition_per_100g:
   kcal: 45
   protein_g: 0
@@ -37,15 +37,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/citrus/citrus_medium.webp
+legacy_list_image: /img/foods/citrus/citrus_thumb.webp
+legacy_main_image: /img/foods/citrus/citrus_medium.webp
 ---
 
 ## Overview
 
 Citrus fruits provide high vitamin C content that enhances non-heme iron absorption and supports antioxidant defenses. Vitamin C enhances non-heme iron absorption (up to 4× increase) and provides antioxidant support.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Citrus" />
 
 ## Food Context
 
@@ -58,17 +63,10 @@ Citrus fruits provide high vitamin C content that enhances non-heme iron absorpt
 
 - Antioxidant support
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Citrus" />
-
-
 ## References
 
 - Pairing plant-based iron sources with citrus enhances iron absorption
-

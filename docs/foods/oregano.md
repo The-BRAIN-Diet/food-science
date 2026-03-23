@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/oregano/oregano_thumb.webp
 nutrition_per_100g:
   kcal: 265
   protein_g: 9
@@ -39,12 +39,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/oregano/oregano_medium.webp
+legacy_list_image: /img/foods/oregano/oregano_thumb.webp
+legacy_main_image: /img/foods/oregano/oregano_medium.webp
 ---
 
 ## Overview
 
 Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals. Overgrowth suppression (SIBO, Candida, Pathobionts) strategies include polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger).
 
+## Recipes
+
+<FoodRecipes tag="Oregano" />
 
 ## Food Context
 
@@ -58,25 +64,16 @@ Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO 
 - Supports gut health
 - Antimicrobial properties
 
-
 ### Essential Amino Acid Profile
 
 Oregano contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-## Recipes
-
-<FoodRecipes tag="Oregano" />
-
-
 ## References
 
 - Overgrowth Suppression (SIBO, Candida, Pathobionts): Polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger)
-

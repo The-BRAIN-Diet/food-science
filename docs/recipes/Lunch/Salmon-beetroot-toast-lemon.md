@@ -35,7 +35,7 @@ A fast, brain-forward open sandwich: **omega-3 rich salmon + nitrate/polyphenol 
 - Salt + black pepper: to taste
 
 **Optional upgrades (very BRAIN):**
-- 1 tsp capers *or* chopped dill/parsley
+- 1 tsp (5 ml) capers *or* chopped dill/parsley
 - 1 tsp Dijon mustard (mix into beetroot)
 - A few rocket/arugula leaves
 

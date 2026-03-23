@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Choline
   - Phosphatidylcholine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/sunflower-lecithin/sunflower-lecithin_thumb.webp
 nutrition_per_100g:
   sat_fat_g: 8.991
   ala_mg: 162.8
@@ -24,15 +24,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/sunflower-lecithin/sunflower-lecithin_medium.webp
+legacy_list_image: /img/foods/sunflower-lecithin/sunflower-lecithin_thumb.webp
+legacy_main_image: /img/foods/sunflower-lecithin/sunflower-lecithin_medium.webp
 ---
 
 ## Overview
 
 Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering a soy-free alternative for those avoiding soy. Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Sunflower Lecithin" />
 
 ## Food Context
 
@@ -43,15 +48,9 @@ Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering 
 - Important for vegan choline intake
 - Supports phospholipid-bound omega-3 strategy
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Sunflower Lecithin" />
-
 
 ## References
 

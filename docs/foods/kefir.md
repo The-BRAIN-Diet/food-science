@@ -8,7 +8,7 @@ tags:
   - Kefir
   - Vegetarian
   - Calcium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/kefir/kefir_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   kcal: 43
@@ -38,15 +38,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/kefir/kefir_medium.webp
+legacy_list_image: /img/foods/kefir/kefir_thumb.webp
+legacy_main_image: /img/foods/kefir/kefir_medium.webp
 ---
 
 ## Overview
 
 Kefir is fermented milk providing diverse probiotics, including potential GABA-producing strains, and postbiotic compounds. Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. Kefir: Fermented milk drink, diverse probiotic strains. Levilactobacillus brevis is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles, and can produce GABA.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Kefir" />
 
 ## Food Context
 
@@ -63,15 +68,9 @@ Kefir is fermented milk providing diverse probiotics, including potential GABA-p
 
 - Potential GABA production via specific strains; Levilactobacillus brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles can produce GABA
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Kefir" />
-
 
 ## References
 

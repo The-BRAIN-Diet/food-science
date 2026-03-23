@@ -33,8 +33,9 @@ type TagToDocMap = Record<string, Document[]>
 interface SupplementarySource {
   key: string
   label: string
-  value: number
-  unit: string
+  value?: number
+  unit?: string
+  amount_display?: string
   source_note: string
 }
 
@@ -143,14 +144,21 @@ export default function FoodSubstancesFromTable({
   const rawSupplementary = (details.nutrition_supplementary_sources ||
     []) as SupplementarySource[]
   const supplementary = Array.isArray(rawSupplementary)
-    ? rawSupplementary.filter(
-        (s) =>
-          typeof s?.key === "string" &&
-          typeof s?.label === "string" &&
-          typeof s?.value === "number" &&
-          typeof s?.unit === "string" &&
-          typeof s?.source_note === "string"
-      )
+    ? rawSupplementary.filter((s) => {
+        if (
+          !s ||
+          typeof s.key !== "string" ||
+          typeof s.label !== "string" ||
+          typeof s.source_note !== "string"
+        ) {
+          return false
+        }
+        const hasNumeric =
+          typeof s.value === "number" && typeof s.unit === "string" && !Number.isNaN(s.value)
+        const hasDisplay =
+          typeof s.amount_display === "string" && s.amount_display.trim().length > 0
+        return hasNumeric || hasDisplay
+      })
     : []
 
   // Build substance name → document map (shared by editorial and analytical)

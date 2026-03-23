@@ -10,7 +10,7 @@ tags:
   - Calcium
   - Vitamin K2
   - Tyrosine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/parmesan-cheese/parmesan-cheese_thumb.webp
 nutrition_per_100g:
   fat_g: 30
   carbs_g: 0
@@ -28,12 +28,18 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+main_image: /img/foods/parmesan-cheese/parmesan-cheese_medium.webp
+legacy_list_image: /img/foods/parmesan-cheese/parmesan-cheese_thumb.webp
+legacy_main_image: /img/foods/parmesan-cheese/parmesan-cheese_medium.webp
 ---
 
 ## Overview
 
 Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 pentadecanoic acid, high protein, and calcium, with studies showing it doesn't raise LDL despite high calcium. Parmesan Cheese: CLA, vitamin K2, glutamate, high protein, calcium; fermented, C15:0. C15:0 (Parmesan and grassfed Butter). Studies have shown that hard cheeses with high calcium do not raise serum LDL levels. Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks.
 
+## Recipes
+
+<FoodRecipes tag="Parmesan Cheese" />
 
 ## Food Context
 
@@ -51,23 +57,15 @@ Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 penta
 - Supports K2 and calcium intake; studies have shown that hard cheeses with high calcium do not raise serum LDL levels [Soerensen et al. 2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)
 - When consumed in moderation within an anti-inflammatory, micronutrient-rich diet, foods like Parmesan cheese provide essential brain nutrients including choline, vitamin K2, butyrate, and fat-soluble vitamins A, D, and E
 
-
 ### Essential Amino Acid Profile
 
 Parmesan Cheese contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Parmesan Cheese" />
-
 
 ## References
 

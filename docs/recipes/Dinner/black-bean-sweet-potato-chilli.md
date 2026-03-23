@@ -16,7 +16,7 @@ tags:
   - Insulin Response
   - Stress Response
   - Black Beans
-  - Potatoes
+  - Sweet Potatoes
   - Carrots
   - Bell Peppers
   - Onions
@@ -38,7 +38,7 @@ A hearty bean and vegetable chilli built around black beans, sweet potato, and m
 ## Ingredients (4–6 servings)
 
 **Base**
-- 2 tbsp extra virgin olive oil
+- 2 tbsp (30 ml) extra virgin olive oil
 - 1 small onion, finely diced
 - 2 garlic cloves, minced
 
@@ -50,13 +50,13 @@ A hearty bean and vegetable chilli built around black beans, sweet potato, and m
 
 **Protein & sauce**
 - 2 × 400 g cans black beans, drained and rinsed
-- 3 tbsp tomato purée
-- 250 ml vegetable stock
+- 3 tbsp (45 ml) tomato purée
+- 250 ml (1 cup) vegetable stock
 
 **Spices**
-- 1 tbsp smoked paprika
-- 1 tbsp ground cumin
-- 1 tbsp ground coriander
+- 1 tbsp (15 ml) smoked paprika
+- 1 tbsp (15 ml) ground cumin
+- 1 tbsp (15 ml) ground coriander
 - Chilli powder or fresh chilli, to taste
 
 **Seasoning**

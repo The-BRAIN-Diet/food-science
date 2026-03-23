@@ -10,10 +10,10 @@ tags:
   - Vegetarian
   - Beta-glucan
   - Magnesium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/barley/barley_thumb.webp
 amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
 limiting_amino_acids: Lysine (typical of grains).
-complementary_pairings: Lentils, chickpeas, or other legumes for complete essential amino acid profile.
+complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
 nutrition_per_100g:
   kcal: 357.191828
   protein_g: 8.72168
@@ -39,15 +39,20 @@ nutrition_supplementary_sources:
     label: Beta-glucan
     value: 4
     unit: g
-    source_note: >-
-      Representative value for barley flour; beta-glucan content varies by cultivar and processing
-      (e.g. USDA and literature values for barley).
+    notes: Soluble cereal β-glucan; barley is among the richest common grain sources.
+    source_note: Representative value for barley flour; beta-glucan content varies by cultivar and processing (e.g. USDA and literature values for barley).
+main_image: /img/foods/barley/barley_medium.webp
+legacy_list_image: /img/foods/barley/barley_thumb.webp
+legacy_main_image: /img/foods/barley/barley_medium.webp
 ---
 
 ## Overview
 
 Barley is a whole grain valued for **beta-glucan** prebiotic fibre and sustained energy release. Beta-glucan supports gut microbiome diversity and stable blood glucose; it is an intrinsic component of barley (and oats, mushrooms), not to be confused with downstream metabolites such as SCFAs produced by fermentation.
 
+## Recipes
+
+<FoodRecipes tag="Barley" />
 
 ## Key Nutritional Highlights
 
@@ -66,7 +71,6 @@ Barley is a whole grain valued for **beta-glucan** prebiotic fibre and sustained
 
 - Soak before cooking to reduce phytates and improve mineral bioavailability
 - Beta-glucan in barley supports gut microbiome health (mechanisms include fermentation to SCFAs such as butyrate; improved gut barrier)
-
 
 ### Essential Amino Acid Profile
 
@@ -89,11 +93,6 @@ Grains such as barley are relatively higher in methionine but lysine-limited. Co
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Barley" />
-
 
 ## References
 

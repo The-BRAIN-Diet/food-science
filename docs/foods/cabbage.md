@@ -10,7 +10,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Vitamin B9
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cabbage/cabbage_thumb.webp
 nutrition_per_100g:
   kcal: 27.8695
   protein_g: 0.96125
@@ -29,15 +29,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/cabbage/cabbage_medium.webp
+legacy_list_image: /img/foods/cabbage/cabbage_thumb.webp
+legacy_main_image: /img/foods/cabbage/cabbage_medium.webp
 ---
 
 ## Overview
 
 Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, supporting gut health through both fresh and fermented forms. Sauerkraut is fermented cabbage, rich in Lactobacillus, and is part of the fermented foods strategy.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Cabbage" />
 
 ## Food Context
 
@@ -51,15 +56,9 @@ Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, 
 - Fermentation (sauerkraut) provides probiotics
 - Supports gut health
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cabbage" />
-
 
 ## References
 

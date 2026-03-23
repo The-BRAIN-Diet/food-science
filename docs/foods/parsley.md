@@ -12,7 +12,7 @@ tags:
   - Vitamin C
   - Vitamin B9
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/parsley/parsley_thumb.webp
 nutrition_per_100g:
   kcal: 36
   protein_g: 2.97
@@ -41,15 +41,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/parsley/parsley_medium.webp
+legacy_list_image: /img/foods/parsley/parsley_thumb.webp
+legacy_main_image: /img/foods/parsley/parsley_medium.webp
 ---
 
 ## Overview
 
 Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health. The strategy of simply adding parsley when cooking food has seen significant reductions in harmful COPs (Cholesterol Oxidation Products).
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Parsley" />
 
 ## Food Context
 
@@ -63,15 +68,9 @@ Parsley, when added during cooking, significantly reduces harmful Cholesterol Ox
 - Can be used as garnish or cooking ingredient
 - Fresh is preferred over dried
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Parsley" />
-
 
 ## References
 

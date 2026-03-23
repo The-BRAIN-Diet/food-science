@@ -12,24 +12,27 @@ tags:
   - Iron
   - Vitamin B12
   - ALA
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/mankai/mankai_thumb.webp
 nutrition_per_100g: {}
 nutrition_source:
   database: USDA FoodData Central
   status: no_match
   slug: mankai
-  note: >-
-    No USDA match; add query to scripts/usda-map.json or run with USDA_API_KEY
-    for fetch.
+  note: No USDA match; add query to scripts/usda-map.json or run with USDA_API_KEY for fetch.
+main_image: /img/foods/mankai/mankai_medium.webp
+legacy_list_image: /img/foods/mankai/mankai_thumb.webp
+legacy_main_image: /img/foods/mankai/mankai_medium.webp
 ---
 
 ## Overview
 
 Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavailable iron and true vitamin B12, helping close vegan nutrient gaps. Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12) helps narrow vegan nutrient gaps.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Mankai" />
 
 ## Food Context
 
@@ -43,15 +46,9 @@ Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavail
 - Important for vegan/vegetarian B12 and iron intake
 - Supports nutrient density goals
 
-
 ## Substances
 
 <FoodSubstances details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Mankai" />
-
 
 ## References
 

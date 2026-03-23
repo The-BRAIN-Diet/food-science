@@ -10,7 +10,7 @@ tags:
   - EPA
   - DHA
   - Vitamin D
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/herring/herring_thumb.webp
 nutrition_per_100g:
   kcal: 902
   protein_g: 0
@@ -37,6 +37,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/herring/herring_medium.webp
+legacy_list_image: /img/foods/herring/herring_thumb.webp
+legacy_main_image: /img/foods/herring/herring_medium.webp
 ---
 
 ## Overview
@@ -47,6 +50,9 @@ Within the BRAIN Diet framework, herring is treated as one of the **rotational o
 
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Herring" />
 
 ## Key Nutritional Highlights
 
@@ -71,10 +77,6 @@ Within the BRAIN Diet framework, herring is treated as one of the **rotational o
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Herring" />
 
 ## References
 

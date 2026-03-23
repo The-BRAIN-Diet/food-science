@@ -11,7 +11,7 @@ tags:
   - Mushrooms
   - Vitamin B3
   - Beta-Glucans
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/maitake-mushroom/maitake-mushroom_thumb.webp
 nutrition_per_100g:
   kcal: 30.9734625
   protein_g: 2.203125
@@ -34,15 +34,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/maitake-mushroom/maitake-mushroom_medium.webp
+legacy_list_image: /img/foods/maitake-mushroom/maitake-mushroom_thumb.webp
+legacy_main_image: /img/foods/maitake-mushroom/maitake-mushroom_medium.webp
 ---
 
 ## Overview
 
 Maitake mushroom (Grifola frondosa), also known as "hen of the woods," is a medicinal mushroom valued for its immune-supporting properties. It is particularly rich in beta-glucans, with the D-fraction being a well-studied extract that has shown immune-modulating effects in research. Maitake contains polysaccharides that may support immune cell function and help modulate inflammatory responses. The mushroom is also valued for its culinary properties, with a rich, earthy flavor and meaty texture. Maitake may support blood sugar regulation and metabolic health through its bioactive compounds.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Maitake Mushroom" />
 
 ## Food Context
 
@@ -57,15 +62,9 @@ Maitake mushroom (Grifola frondosa), also known as "hen of the woods," is a medi
 - Can be sautéed, roasted, or added to soups and stews
 - Extracts may provide more concentrated beta-glucans, particularly the D-fraction
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Maitake Mushroom" />
-
 
 ## References
 

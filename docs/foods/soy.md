@@ -16,7 +16,7 @@ tags:
   - Tyrosine
   - Genistein
   - Quercetin
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/soy/soy_thumb.webp
 nutrition_per_100g:
   kcal: 366
   protein_g: 51.1
@@ -40,12 +40,18 @@ nutrition_source:
   last_checked: '2026-03-14'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
+main_image: /img/foods/soy/soy_medium.webp
+legacy_list_image: /img/foods/soy/soy_thumb.webp
+legacy_main_image: /img/foods/soy/soy_medium.webp
 ---
 
 ## Overview
 
 Soy provides complete plant protein (DIAAS 92-96), isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. Soy protein isolate has a DIAAS score of 92-96, indicating high protein quality, though it is methionine-limited and should be paired with grains. Genistein, a soy-derived isoflavonoid, has shown potential as a modulator of several biochemical pathways, including the endocannabinoid system and neuroinflammation. Soy is listed as a source for choline, tryptophan, tyrosine, and B6.
 
+## Recipes
+
+<FoodRecipes tag="Soy" />
 
 ## Food Context
 
@@ -60,23 +66,15 @@ Soy provides complete plant protein (DIAAS 92-96), isoflavones (genistein), and 
 - Supports choline and neurotransmitter synthesis
 - Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis
 
-
 ### Essential Amino Acid Profile
 
 Soy provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Soy" />
-
 
 ## References
 

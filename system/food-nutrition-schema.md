@@ -45,8 +45,21 @@ Units are **fixed by field name**:
 - **omega3_mg** – mg total long‑chain + ALA omega‑3 per 100 g  
 - **epa_mg** – mg EPA per 100 g  
 - **dha_mg** – mg DHA per 100 g  
+- **sugar_g** – g total sugars per 100 g (when reported by the primary record)  
+- **copper_mg** – mg copper per 100 g  
 
-These fields form the **minimum standard panel**; future schema extensions (e.g. fibre, sugar, polyphenols) MUST be documented here before use.
+These fields form the **minimum standard panel**; future schema extensions (e.g. additional polyphenol keys) MUST be documented here before use.
+
+---
+
+## Rendering groups (`NutritionTable`)
+
+The UI splits `nutrition_per_100g` into **sub-tables** for readability:
+
+1. **Core nutrition** — energy, protein, fat (total + saturated), carbohydrates, sugars, fibre.  
+2. **Key micronutrients** — minerals and vitamins (iron through vitamin K, including copper when present).  
+3. **Bioactive compounds** — (a) omega‑3 fatty acids **ALA, EPA, DHA** from `nutrition_per_100g` when present; (b) **`nutrition_supplementary_sources`** (polyphenols, cocoa methylxanthines, literature-only analytes, etc.). Uses columns *Compound / class · Amount · Notes*; values marked `*` are explained in **Source notes** below the block.  
+4. **Optional functional metrics** — optional front matter `nutrition_functional_metrics` (e.g. total polyphenol proxies, antioxidant capacity) when a defensible, cited value or qualitative label exists.
 
 ---
 
@@ -54,28 +67,60 @@ These fields form the **minimum standard panel**; future schema extensions (e.g.
 
 When the **overview** mentions a key compound that is not in the primary database (e.g. USDA), add it via **supplementary sources** so the substances list and table stay aligned. See `system/food-page-model.md` (Missing Compound Rule).
 
-Optional front matter block. **Every entry MUST include all five fields.** No extra fields. Future extensions (e.g. `source_url`) must be documented here before use.
+Optional front matter block. Each entry **must** include `key`, `label`, `source_note`, plus **either** a numeric `value` with `unit` **or** a qualitative `amount_display` string (e.g. `Varies by product`).
 
 ```yaml
 nutrition_supplementary_sources:
-  - key: astaxanthin_mg      # required, snake_case, unique per page
-    label: Astaxanthin        # required, display name in table and source notes
-    value: 3.2                # required, number, per 100 g
-    unit: mg                  # required, display unit (e.g. mg, µg, g)
-    source_note: "Literature estimate for farmed Atlantic salmon; carotenoid content varies by feed and species (e.g. Turujman et al., 1997; USDA does not report astaxanthin)."  # required, attribution text
+  - key: astaxanthin_mg
+    label: Astaxanthin
+    value: 3.2
+    unit: mg
+    notes: "Carotenoid; content varies by feed and species."   # optional — short “Notes” column in Bioactive table
+    source_note: "Literature estimate for farmed Atlantic salmon; … (USDA does not report astaxanthin)."
+  - key: epicatechin_qual
+    label: Epicatechin
+    amount_display: "Varies by product"
+    notes: "Usually the dominant monomeric cocoa flavanol."
+    source_note: "Qualitative presence; quantitative values only when cited."
 ```
 
-**Strict structure (future-proof):**
+**Strict structure:**
 
 | Field        | Type   | Required | Rules |
 |-------------|--------|----------|--------|
 | `key`       | string | Yes      | Snake_case; unique within the page; used for sorting and substances mapping. |
 | `label`     | string | Yes      | Display name in the table and in Source notes. |
-| `value`     | number | Yes      | Numeric value per 100 g edible portion. |
-| `unit`      | string | Yes      | Display unit (e.g. `mg`, `µg`, `g`). |
-| `source_note`| string | Yes      | Short attribution; shown below the table and linked to the asterisk in the table row. |
+| `value`     | number | If no `amount_display` | Per 100 g; paired with `unit`. |
+| `unit`      | string | If `value` is set | e.g. `mg`, `µg`, `g`. |
+| `amount_display` | string | If no numeric `value` | Shown in the Amount column instead of `value` + `unit`. |
+| `notes`     | string | No       | Short text for the Bioactive **Notes** column. |
+| `source_note`| string | Yes      | Full attribution; listed in **Source notes (bioactive / supplementary)** below the tables. |
 
-**Rendering:** Table shows a row with amount and asterisk (e.g. `3.2 mg *`). Below the main provenance block, a **Source notes** section lists each entry as `* **Label:** source_note`. Any compound in `nutrition_supplementary_sources` must appear in the **substances list** (table-driven list).
+**Rendering:** Bioactive sub-table shows compound, amount (with `*` for traceable supplementary rows), and optional `notes`. A disclaimer paragraph appears when bioactive or functional sections are present.
+
+---
+
+## Optional functional metrics
+
+Use for **category-level** or **assay-dependent** metrics (total polyphenols, ORAC, etc.) when appropriate:
+
+```yaml
+nutrition_functional_metrics:
+  - key: total_polyphenols_proxy
+    label: Total polyphenols (Folin proxy)
+    amount_display: "Varies by product"
+    notes: "Strongly influenced by cocoa percentage and processing."
+```
+
+| Field | Type | Required | Rules |
+|-------|------|----------|--------|
+| `key` | string | Yes | Unique per page. |
+| `label` | string | Yes | Row label. |
+| `value` / `unit` | number + string | If no `amount_display` | Same as supplementary. |
+| `amount_display` | string | If no numeric value | Qualitative or labelled amount. |
+| `notes` | string | No | Notes column. |
+
+Any compound in `nutrition_supplementary_sources` must still appear in the **substances list** (table-driven list) when it is a named analyte.
 
 ---
 

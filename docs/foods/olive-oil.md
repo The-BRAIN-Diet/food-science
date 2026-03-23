@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/olive-oil/olive-oil_thumb.webp
 nutrition_per_100g:
   sat_fat_g: 13.33
   fat_g: 93.33
@@ -23,15 +23,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/olive-oil/olive-oil_medium.webp
+legacy_list_image: /img/foods/olive-oil/olive-oil_thumb.webp
+legacy_main_image: /img/foods/olive-oil/olive-oil_medium.webp
 ---
 
 ## Overview
 
 Regular olive oil (refined or blended) has significantly lower bioactive polyphenol content compared to extra virgin olive oil (EVOO). **Olive oil's brain benefits come from polyphenols, not fatty acids.** Regular olive oil undergoes processing that reduces or eliminates the secoiridoids and phenolics (oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol) that provide the neuroprotective, anti-inflammatory, and antioxidant effects. For brain health benefits, extra virgin olive oil, particularly early harvest EVOO, is strongly recommended due to its much higher concentration of bioactive polyphenols.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Olive Oil" />
 
 ## Food Context
 
@@ -42,15 +47,9 @@ Regular olive oil (refined or blended) has significantly lower bioactive polyphe
 - For brain health benefits, use extra virgin olive oil, preferably early harvest
 - EVOO provides secoiridoids and phenolics (oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol) that are largely absent in regular olive oil
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Olive Oil" />
-
 
 ## References
 

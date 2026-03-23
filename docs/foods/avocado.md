@@ -13,7 +13,7 @@ tags:
   - Lutein
   - Beta-Carotene
   - Carotenoid
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/avocado/avocado_thumb.webp
 nutrition_per_100g:
   kcal: 206.0493
   protein_g: 1.8125
@@ -33,15 +33,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/avocado/avocado_medium.webp
+legacy_list_image: /img/foods/avocado/avocado_thumb.webp
+legacy_main_image: /img/foods/avocado/avocado_medium.webp
 ---
 
 ## Overview
 
 Avocado provides monounsaturated fats (MUFA), vitamin E, lutein, fiber, and glutathione, supporting carotenoid absorption and antioxidant defenses. Avocado / Avocado Oil provides MUFAs (oleic), vitamin E, lutein, fibre, glutathione. Sources: extra-virgin olive oil, avocado, olives, nuts for MUFA (monounsaturated fatty acids). Practical pairings include carrots + tahini, kale + avocado, berries + yogurt/nuts. Nicotinamide Mononucleotide (NMN) sources include edamame, broccoli, cucumber, avocado.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Avocado" />
 
 ## Food Context
 
@@ -56,15 +61,9 @@ Avocado provides monounsaturated fats (MUFA), vitamin E, lutein, fiber, and glut
 
 - Can be used as spread, in salads, or as oil
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Avocado" />
-
 
 ## References
 

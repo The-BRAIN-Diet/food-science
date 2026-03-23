@@ -8,7 +8,7 @@ tags:
   - Dairy
   - Vegetarian
   - Calcium
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/dairy/dairy_thumb.webp
 nutrition_per_100g:
   fat_g: 82.2
   sugar_g: 0.58
@@ -33,15 +33,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/dairy/dairy_medium.webp
+legacy_list_image: /img/foods/dairy/dairy_thumb.webp
+legacy_main_image: /img/foods/dairy/dairy_medium.webp
 ---
 
 ## Overview
 
 Dairy products provide complete protein, calcium, B vitamins, and in fermented forms, probiotics and postbiotic compounds supporting gut-brain axis communication. Dairy products are listed as sources for vitamin B12, and fermented forms provide probiotics and postbiotic compounds.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Dairy" />
 
 ## Food Context
 
@@ -52,15 +57,9 @@ Dairy products provide complete protein, calcium, B vitamins, and in fermented f
 - Probiotics (in fermented forms) for gut microbiome
 - Nicotinamide riboside (in milk/whey) for NAD+ support
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Dairy" />
-
 
 ## References
 

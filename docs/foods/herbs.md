@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/herbs/herbs_thumb.webp
 nutrition_per_100g:
   kcal: 1
   protein_g: 0
@@ -37,15 +37,20 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
+main_image: /img/foods/herbs/herbs_medium.webp
+legacy_list_image: /img/foods/herbs/herbs_thumb.webp
+legacy_main_image: /img/foods/herbs/herbs_medium.webp
 ---
 
 ## Overview
 
 Herbs provide polyphenols, volatile compounds, and other bioactives that support cognitive function, antioxidant defenses, and gut health. Herbs provide polyphenols for antioxidant networks, volatile compounds for cognitive support, antimicrobial properties (some herbs), and are part of diverse plant food strategy.
 
-
 <NutritionTable details={frontMatter} />
 
+## Recipes
+
+<FoodRecipes tag="Herbs" />
 
 ## Food Context
 
@@ -59,15 +64,9 @@ Herbs provide polyphenols, volatile compounds, and other bioactives that support
 - Volatile compounds for cognitive support
 - Antimicrobial properties (some herbs)
 
-
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Herbs" />
-
 
 ## References
 

@@ -19,7 +19,7 @@ tags:
   - Copper
   - Zinc
   - Polyphenol
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/peanuts/peanuts_thumb.webp
 nutrition_per_100g:
   kcal: 571
   iron_mg: 3.57
@@ -40,12 +40,18 @@ nutrition_source:
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'
+main_image: /img/foods/peanuts/peanuts_medium.webp
+legacy_list_image: /img/foods/peanuts/peanuts_thumb.webp
+legacy_main_image: /img/foods/peanuts/peanuts_medium.webp
 ---
 
 ## Overview
 
 Peanuts provide niacin (B3) for NAD+ synthesis, resveratrol (polyphenol), and plant protein supporting mitochondrial function and antioxidant networks. Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains. Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health.
 
+## Recipes
+
+<FoodRecipes tag="Peanuts" />
 
 ## Food Context
 
@@ -58,7 +64,6 @@ Peanuts provide niacin (B3) for NAD+ synthesis, resveratrol (polyphenol), and pl
 
 - Choose dry-roasted or raw over oil-roasted to preserve nutrients and avoid excess omega-6
 - Soak to reduce phytates and improve mineral bioavailability
-
 
 ### Essential Amino Acid Profile
 
@@ -76,18 +81,11 @@ Protein pairing strategy:
 
 Peanuts are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Peanuts" />
-
 
 ## References
 

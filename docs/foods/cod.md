@@ -7,7 +7,7 @@ tags:
   - Food
   - Cod
   - Omega-3 Fatty Acids
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cod/cod_thumb.webp
 nutrition_per_100g:
   kcal: 60.84
   protein_g: 14.2
@@ -28,6 +28,9 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 protein_profile_note: Complete essential amino acid profile.
+main_image: /img/foods/cod/cod_medium.webp
+legacy_list_image: /img/foods/cod/cod_thumb.webp
+legacy_main_image: /img/foods/cod/cod_medium.webp
 ---
 
 ## Overview
@@ -36,7 +39,9 @@ Cod is a lean white fish providing modest amounts of **omega-3 fatty acids**, **
 
 Within the BRAIN Diet framework, cod functions as a **lean marine protein** that can be rotated with higher-fat oily fish rather than replacing them. Its protein has a high digestible indispensable amino acid score (DIAAS), indicating excellent indispensable amino acid coverage [2]. This makes cod a flexible option when meals already provide substantial fats from other ingredients, allowing marine protein and modest omega-3 intake without substantially increasing total dietary fat.
 
+## Recipes
 
+<FoodRecipes tag="Cod" />
 
 ## Key Nutritional Highlights
 
@@ -57,18 +62,11 @@ Within the BRAIN Diet framework, cod functions as a **lean marine protein** that
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
-
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cod" />
-
 
 ## References
 
