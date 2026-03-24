@@ -25,6 +25,8 @@ for img in "$INPUT_DIR"/*; do
   [ -f "$img" ] || continue
 
   filename="$(basename "$img")"
+
+  # ✅ NORMALISED SLUG (critical fix)
   slug="$(echo "${filename%.*}" | tr '[:upper:]' '[:lower:]' | sed -E 's/[[:space:]]+/-/g; s/[^a-z0-9._-]+//g; s/-+/-/g; s/^-+|-+$//g')"
 
   mkdir -p "$OUTPUT_DIR/$slug"
@@ -35,6 +37,7 @@ for img in "$INPUT_DIR"/*; do
 
   echo "Processing: $img (${w}x${h})"
 
+  # Thumb (square)
   magick "$img" \
     -auto-orient \
     -resize "${THUMB_SIZE}x${THUMB_SIZE}^" \
@@ -46,6 +49,7 @@ for img in "$INPUT_DIR"/*; do
     "$OUTPUT_DIR/$slug/${slug}_thumb.webp"
 
   if [ "$h" -gt "$w" ]; then
+    # Portrait → square
     magick "$img" \
       -auto-orient \
       -resize "${MEDIUM_H}x${MEDIUM_H}^" \
@@ -67,6 +71,7 @@ for img in "$INPUT_DIR"/*; do
       "$OUTPUT_DIR/$slug/${slug}_large.webp"
 
   elif [ "$h" -eq "$w" ]; then
+    # Square → keep square
     magick "$img" \
       -auto-orient \
       -resize "${MEDIUM_H}x${MEDIUM_H}" \
@@ -84,6 +89,7 @@ for img in "$INPUT_DIR"/*; do
       "$OUTPUT_DIR/$slug/${slug}_large.webp"
 
   else
+    # Landscape → normalise height
     magick "$img" \
       -auto-orient \
       -resize "x${MEDIUM_H}" \
