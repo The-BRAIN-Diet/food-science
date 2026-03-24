@@ -64,13 +64,14 @@ function pickSourceForSlug(slug, frontMatterListImagePath, allImageFiles) {
     const n = norm(rel)
     const isOriginals = rel.includes(`${path.sep}originals${path.sep}`) || rel.includes(`${path.sep}originals1${path.sep}`)
     if (isOriginals) return false
-    return n.includes(slugNorm) && /(medium|thumb|large)/i.test(b)
+    // Do not use already-generated webp variants as source; that causes recursive bogus images.
+    return n.includes(slugNorm) && /\.(png|jpg|jpeg)$/i.test(b)
   })
   if (candidates.length > 0) return candidates[0]
 
   if (typeof frontMatterListImagePath === "string" && frontMatterListImagePath.startsWith("/img/")) {
     const local = path.join(ROOT, "static", frontMatterListImagePath.replace(/^\/img\//, "img/"))
-    if (fs.existsSync(local) && /\.(webp|png|jpg|jpeg|svg)$/i.test(local)) return local
+    if (fs.existsSync(local) && /\.(png|jpg|jpeg)$/i.test(local)) return local
   }
 
   const originals = allImageFiles.filter((p) => {
@@ -81,6 +82,13 @@ function pickSourceForSlug(slug, frontMatterListImagePath, allImageFiles) {
   if (originals.length > 0) return originals[0]
 
   return ICON_FALLBACK
+}
+
+function shouldGenerateFromSource(sourcePath) {
+  if (!sourcePath) return false
+  const resolved = path.resolve(sourcePath)
+  if (resolved === path.resolve(ICON_FALLBACK)) return false
+  return /\.(png|jpg|jpeg)$/i.test(sourcePath)
 }
 
 async function writeWebpVariants(sourcePath, slug) {
@@ -123,7 +131,9 @@ async function main() {
   for (const doc of docs) {
     const {parsed, slug, filePath} = doc
     const source = pickSourceForSlug(slug, parsed.data.list_image, allImageFiles)
-    await writeWebpVariants(source, slug)
+    if (shouldGenerateFromSource(source)) {
+      await writeWebpVariants(source, slug)
+    }
     generated++
 
     const thumb = `/img/foods/${slug}/${slug}_thumb.webp`
@@ -138,9 +148,14 @@ async function main() {
         typeof parsed.data.legacy_main_image === "string"
           ? parsed.data.legacy_main_image
           : parsed.data.main_image || parsed.data.list_image,
-      list_image: thumb,
-      main_image: medium,
+      list_image: fs.existsSync(path.join(STATIC_FOODS_DIR, slug, `${slug}_thumb.webp`))
+        ? thumb
+        : parsed.data.list_image,
+      main_image: fs.existsSync(path.join(STATIC_FOODS_DIR, slug, `${slug}_medium.webp`))
+        ? medium
+        : undefined,
     }
+    if (nextData.main_image === undefined) delete nextData.main_image
     const next = matter.stringify(parsed.content, nextData, {lineWidth: 9999})
     fs.writeFileSync(filePath, next, "utf8")
     updatedDocs++

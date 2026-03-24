@@ -220,3 +220,12 @@
 .nutrition-table-block > h2 + h3 {
   margin-top: 0.75rem;
 }
+img[src*="/img/foods/"] {
+  max-height: 800px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
