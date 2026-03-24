@@ -15,6 +15,16 @@ tags:
   - Inflammation
   - Oxidative Stress
 list_image: /img/recipes/Turmeric_Milk.jpg
+# Grams ≈ 1 cup milk + 1 tsp turmeric + ½ tsp black pepper (optional line items omitted).
+recipe_nutrition:
+  servings: 1
+  ingredients:
+    - food: Milk
+      grams: 244
+    - food: Turmeric
+      grams: 2.6
+    - food: Black Pepper
+      grams: 1.1
 ---
 
 <img src="/img/recipes/Turmeric_Milk.jpg" alt="Turmeric Milk" width="480" />

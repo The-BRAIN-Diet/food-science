@@ -7,6 +7,13 @@ import {
   MICRONUTRIENT_KEYS,
   NUTRIENT_LABELS,
 } from "@site/src/data/nutritionTableMapping"
+import {
+  computeWeightedNutrients,
+  foodsContributingToNutrient,
+  isTraceTotal,
+  nutrientContribution,
+  type RecipeNutritionBlock,
+} from "@site/src/utils/recipeNutritionWeighted"
 
 /**
  * Tag structure from Docusaurus
@@ -286,6 +293,19 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
   }
 
   const POLYPHENOL_RE = /polyphenol|flavan|catechin|anthocyan|curcumin|oleuropein|oleocanthal|oleacein|hydroxytyrosol|tyrosol/i
+
+  const recipeNutrition = details.recipe_nutrition as RecipeNutritionBlock | undefined
+  const recipeServings =
+    typeof recipeNutrition?.servings === "number" && recipeNutrition.servings > 0
+      ? recipeNutrition.servings
+      : 1
+  let weighted = recipeNutrition
+    ? computeWeightedNutrients(recipeNutrition, uniqueFoods)
+    : null
+  if (weighted && weighted.totals.size === 0) {
+    weighted = null
+  }
+
   let fibreTotal = 0
   const fibreFoods: Document[] = []
   let polyphenolTotalMg = 0
@@ -295,54 +315,121 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
   const nutrientTotals = new Map<string, number>()
   const nutrientFoods = new Map<string, Document[]>()
 
-  relatedFoods.forEach((food: Document) => {
-    const fm = food.frontMatter || {}
-    const nutrition = (fm.nutrition_per_100g || {}) as NutritionValues
-    for (const key of [...CORE_NUTRIENT_KEYS, ...MICRONUTRIENT_KEYS]) {
-      const value = nutrition[key]
-      if (typeof value !== "number") continue
-      nutrientTotals.set(key, (nutrientTotals.get(key) || 0) + value)
-      nutrientFoods.set(key, [...(nutrientFoods.get(key) || []), food])
-    }
+  const resolveFoodDocByLabel = (label: string): Document | undefined => {
+    const t = label.trim().toLowerCase()
+    return uniqueFoods.find(
+      (f) =>
+        f.title.toLowerCase() === t ||
+        f.title.toLowerCase().startsWith(t + " ") ||
+        f.tags.some((tag) => tag.label.toLowerCase() === t)
+    )
+  }
 
-    const fibre = nutrition.fibre_g
-    if (typeof fibre === "number" && fibre > 0) {
-      fibreTotal += fibre
-      fibreFoods.push(food)
-    }
-
-    const supplementary = Array.isArray(fm.nutrition_supplementary_sources)
-      ? (fm.nutrition_supplementary_sources as SupplementarySource[])
-      : []
-    supplementary.forEach((s) => {
-      const text = `${s.key || ""} ${s.label || ""}`
-      if (!POLYPHENOL_RE.test(text)) return
-      if (typeof s.value === "number") {
-        const unit = (s.unit || "").toLowerCase()
-        if (unit === "mg") polyphenolTotalMg += s.value
-        if (unit === "g") polyphenolTotalMg += s.value * 1000
-      } else if (typeof s.amount_display === "string" && s.amount_display.trim().length > 0) {
-        hasQualitativePolyphenol = true
-      }
-      polyphenolFoods.push(food)
+  if (weighted && recipeNutrition) {
+    weighted.totals.forEach((v, k) => nutrientTotals.set(k, v))
+    nutrientTotals.forEach((_, key) => {
+      const titles = foodsContributingToNutrient(key, weighted.byFood)
+      const docs = titles
+        .map((title) => uniqueFoods.find((d) => d.title === title))
+        .filter((d): d is Document => Boolean(d))
+      nutrientFoods.set(key, docs)
     })
 
-    const metrics = Array.isArray(fm.nutrition_functional_metrics)
-      ? (fm.nutrition_functional_metrics as FunctionalMetric[])
-      : []
-    metrics.forEach((m) => {
-      const text = `${m.key || ""} ${m.label || ""}`
-      if (!POLYPHENOL_RE.test(text)) return
-      if (typeof m.value === "number") {
-        const unit = (m.unit || "").toLowerCase()
-        if (unit === "mg") polyphenolTotalMg += m.value
-        if (unit === "g") polyphenolTotalMg += m.value * 1000
-      } else if (typeof m.amount_display === "string" && m.amount_display.trim().length > 0) {
-        hasQualitativePolyphenol = true
+    for (const ing of recipeNutrition.ingredients) {
+      const food = resolveFoodDocByLabel(ing.food)
+      if (!food) continue
+      const fm = food.frontMatter || {}
+      const nutrition = (fm.nutrition_per_100g || {}) as NutritionValues
+      const grams = ing.grams
+      const fibre = nutrition.fibre_g
+      if (typeof fibre === "number") {
+        const c = nutrientContribution(fibre, grams)
+        fibreTotal += c
+        if (c > 0) fibreFoods.push(food)
       }
-      polyphenolFoods.push(food)
+
+      const supplementary = Array.isArray(fm.nutrition_supplementary_sources)
+        ? (fm.nutrition_supplementary_sources as SupplementarySource[])
+        : []
+      supplementary.forEach((s) => {
+        const text = `${s.key || ""} ${s.label || ""}`
+        if (!POLYPHENOL_RE.test(text)) return
+        if (typeof s.value === "number") {
+          const unit = (s.unit || "").toLowerCase()
+          const base = unit === "mg" ? s.value : unit === "g" ? s.value * 1000 : 0
+          polyphenolTotalMg += nutrientContribution(base, grams)
+        } else if (typeof s.amount_display === "string" && s.amount_display.trim().length > 0) {
+          hasQualitativePolyphenol = true
+        }
+        polyphenolFoods.push(food)
+      })
+
+      const metrics = Array.isArray(fm.nutrition_functional_metrics)
+        ? (fm.nutrition_functional_metrics as FunctionalMetric[])
+        : []
+      metrics.forEach((m) => {
+        const text = `${m.key || ""} ${m.label || ""}`
+        if (!POLYPHENOL_RE.test(text)) return
+        if (typeof m.value === "number") {
+          const unit = (m.unit || "").toLowerCase()
+          const base = unit === "mg" ? m.value : unit === "g" ? m.value * 1000 : 0
+          polyphenolTotalMg += nutrientContribution(base, grams)
+        } else if (typeof m.amount_display === "string" && m.amount_display.trim().length > 0) {
+          hasQualitativePolyphenol = true
+        }
+        polyphenolFoods.push(food)
+      })
+    }
+  } else {
+    relatedFoods.forEach((food: Document) => {
+      const fm = food.frontMatter || {}
+      const nutrition = (fm.nutrition_per_100g || {}) as NutritionValues
+      for (const key of [...CORE_NUTRIENT_KEYS, ...MICRONUTRIENT_KEYS]) {
+        const value = nutrition[key]
+        if (typeof value !== "number") continue
+        nutrientTotals.set(key, (nutrientTotals.get(key) || 0) + value)
+        nutrientFoods.set(key, [...(nutrientFoods.get(key) || []), food])
+      }
+
+      const fibre = nutrition.fibre_g
+      if (typeof fibre === "number" && fibre > 0) {
+        fibreTotal += fibre
+        fibreFoods.push(food)
+      }
+
+      const supplementary = Array.isArray(fm.nutrition_supplementary_sources)
+        ? (fm.nutrition_supplementary_sources as SupplementarySource[])
+        : []
+      supplementary.forEach((s) => {
+        const text = `${s.key || ""} ${s.label || ""}`
+        if (!POLYPHENOL_RE.test(text)) return
+        if (typeof s.value === "number") {
+          const unit = (s.unit || "").toLowerCase()
+          if (unit === "mg") polyphenolTotalMg += s.value
+          if (unit === "g") polyphenolTotalMg += s.value * 1000
+        } else if (typeof s.amount_display === "string" && s.amount_display.trim().length > 0) {
+          hasQualitativePolyphenol = true
+        }
+        polyphenolFoods.push(food)
+      })
+
+      const metrics = Array.isArray(fm.nutrition_functional_metrics)
+        ? (fm.nutrition_functional_metrics as FunctionalMetric[])
+        : []
+      metrics.forEach((m) => {
+        const text = `${m.key || ""} ${m.label || ""}`
+        if (!POLYPHENOL_RE.test(text)) return
+        if (typeof m.value === "number") {
+          const unit = (m.unit || "").toLowerCase()
+          if (unit === "mg") polyphenolTotalMg += m.value
+          if (unit === "g") polyphenolTotalMg += m.value * 1000
+        } else if (typeof m.amount_display === "string" && m.amount_display.trim().length > 0) {
+          hasQualitativePolyphenol = true
+        }
+        polyphenolFoods.push(food)
+      })
     })
-  })
+  }
 
   const uniqueByPermalink = (docs: Document[]) =>
     Array.from(new Map(docs.map((d) => [d.permalink, d])).values())
@@ -360,16 +447,22 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
     ))
   }
 
+  const displayNutrientAmount = (raw: number) => (weighted ? raw / recipeServings : raw)
+
   const formatTotal = (key: string, value: number) => {
+    const v = displayNutrientAmount(value)
+    if (weighted && isTraceTotal(key, v)) return "trace"
     const unit = NUTRIENT_LABELS[key]?.unit || ""
     const decimals = key === "kcal" ? 0 : 1
-    return `${value.toFixed(decimals)} ${unit}`.trim()
+    return `${v.toFixed(decimals)} ${unit}`.trim()
   }
 
   const formatRda = (key: string, value: number) => {
+    const v = displayNutrientAmount(value)
+    if (weighted && isTraceTotal(key, v)) return "—"
     const rda = RDA_VALUES[key]
     if (!rda || rda <= 0) return "—"
-    return `${((value / rda) * 100).toFixed(1)}%`
+    return `${((v / rda) * 100).toFixed(1)}%`
   }
 
   const nutrientRows = (keys: readonly string[]) =>
@@ -426,14 +519,29 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
         <div style={{marginTop: "1rem"}}>
           <h3 style={{marginBottom: "0.5rem"}}>Aggregated Recipe Nutrition (food-level)</h3>
           <p style={{fontSize: "0.9em", color: "var(--ifm-color-content-secondary)", marginTop: 0}}>
-            Totals are summed from tagged food pages on a per-100 g basis for quick recipe-level comparison.
+            {weighted ? (
+              <>
+                Portion-weighted from <code>recipe_nutrition</code> in front matter (grams per food × each
+                food’s per-100 g panel). Values below <strong>trace</strong> are negligible at recipe scale.
+                {recipeServings > 1 ? (
+                  <> Amounts are per serving; this recipe serves {recipeServings}.</>
+                ) : null}
+              </>
+            ) : (
+              <>
+                Legacy mode: sums per-100 g values across tagged foods (not portion-weighted). Add{" "}
+                <code>recipe_nutrition</code> to the recipe for accurate totals.
+              </>
+            )}
           </p>
           <table style={{width: "100%", borderCollapse: "collapse"}}>
             <thead>
               <tr>
                 <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Nutrient / class</th>
                 <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Foods in recipe</th>
-                <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Total (sum)</th>
+                <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>
+                  {weighted ? "Total (portion-weighted)" : "Total (sum)"}
+                </th>
                 <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>% RDA aggregate</th>
               </tr>
             </thead>
@@ -490,7 +598,11 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>Fibre</td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{renderFoodList(fibreFoodDocs)}</td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                  {fibreFoodDocs.length > 0 ? `${fibreTotal.toFixed(1)} g` : "—"}
+                  {fibreFoodDocs.length > 0
+                    ? weighted && isTraceTotal("fibre_g", displayNutrientAmount(fibreTotal))
+                      ? "trace"
+                      : `${displayNutrientAmount(fibreTotal).toFixed(1)} g`
+                    : "—"}
                 </td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>—</td>
               </tr>
@@ -498,11 +610,14 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>Polyphenols (proxy)</td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{renderFoodList(polyphenolFoodDocs)}</td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                  {polyphenolTotalMg > 0
-                    ? `${polyphenolTotalMg.toFixed(1)} mg${hasQualitativePolyphenol ? " + varies" : ""}`
-                    : hasQualitativePolyphenol
-                      ? "Varies by product / preparation"
-                      : "—"}
+                  {(() => {
+                    const pm = displayNutrientAmount(polyphenolTotalMg)
+                    if (pm > 0) {
+                      if (weighted && pm < 0.05) return "trace"
+                      return `${pm.toFixed(1)} mg${hasQualitativePolyphenol ? " + varies" : ""}`
+                    }
+                    return hasQualitativePolyphenol ? "Varies by product / preparation" : "—"
+                  })()}
                 </td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>—</td>
               </tr>

@@ -14,6 +14,16 @@ tags:
   - Aubergine
   - Rosemary
   - Extra Virgin Olive Oil
+# Portion-weighted aggregate: 1 large aubergine ~450 g; oil = 30 ml roast + 37.5 ml herb (mid of 2–3 tbsp); rosemary ~1 g fresh leaves for the batch. Thyme/chilli omitted (negligible).
+recipe_nutrition:
+  servings: 4
+  ingredients:
+    - food: Aubergine
+      grams: 450
+    - food: Extra Virgin Olive Oil
+      grams: 62
+    - food: Rosemary
+      grams: 1
 ---
 
 <img src="/img/recipes/Roasted-eggplant.webp" alt="Roasted aubergine with herb olive oil and balsamic drizzle" width="480" />
@@ -28,16 +38,16 @@ A small drizzle of balsamic vinegar at serving sharpens the dish and balances th
 
 ## Ingredients (serves 4)
 
-- 1 large aubergine
-- 2 tbsp olive oil (for initial roasting)
+- 1 large aubergine (~450 g / 1 lb, approx)
+- 30 ml (2 tbsp) olive oil (for initial roasting)
 - salt
 
 ### Herb olive oil
-- 1 tsp (5 ml) rosemary leaves
-- 1 tsp (5 ml) thyme leaves
+- ~1 g (1 tsp chopped rosemary leaves, approx)
+- ~1 g (1 tsp chopped thyme leaves, approx)
 - pinch chilli flakes
 - pinch salt
-- 2–3 tbsp extra-virgin olive oil
+- 30–45 ml (2–3 tbsp) extra-virgin olive oil
 
 ### To serve
 - small drizzle good balsamic vinegar
