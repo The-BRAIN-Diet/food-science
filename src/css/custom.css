@@ -220,7 +220,8 @@
 .nutrition-table-block > h2 + h3 {
   margin-top: 0.75rem;
 }
-img[src*="/img/foods/"] {
+/* Food images in markdown body (not the DocItem hero — that uses .food-page-hero) */
+img[src*="/img/foods/"]:not(.food-page-hero) {
   max-height: 800px;
   width: auto;
   height: auto;
@@ -228,4 +229,23 @@ img[src*="/img/foods/"] {
   display: block;
   margin-left: 0;
   margin-right: auto;
+}
+
+.food-page-hero-wrap {
+  margin: 0 0 1rem;
+}
+
+.food-page-hero {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 500px;
+  border-radius: 4px;
+}
+
+@media (max-width: 996px) {
+  .food-page-hero {
+    max-height: 320px;
+  }
 }
