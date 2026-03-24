@@ -1,15 +1,15 @@
 ---
-id: chamomile
-title: Chamomile
-sidebar_label: Chamomile
+id: chamomile-tea
+title: Chamomile Tea
+sidebar_label: Chamomile Tea
 description: Apigenin for sleep support via benzodiazepine receptor binding
 tags:
   - Food
-  - Chamomile
+  - Chamomile Tea
   - Vegan
   - Vegetarian
   - Polyphenol
-list_image: /img/foods/chamomile/chamomile_thumb.webp
+list_image: /img/foods/chamomile-tea/chamomile-tea_thumb.webp
 nutrition_per_100g:
   kcal: 1
   protein_g: 0
@@ -37,9 +37,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
-main_image: /img/foods/chamomile/chamomile_medium.webp
-legacy_list_image: /img/foods/chamomile/chamomile_thumb.webp
-legacy_main_image: /img/foods/chamomile/chamomile_medium.webp
+main_image: /img/foods/chamomile-tea/chamomile-tea_medium.webp
+legacy_list_image: /img/foods/chamomile-tea/chamomile-tea_thumb.webp
+legacy_main_image: /img/foods/chamomile-tea/chamomile-tea_medium.webp
 ---
 
 ## Overview
@@ -50,7 +50,7 @@ Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine recept
 
 ## Recipes
 
-<FoodRecipes tag="Chamomile" />
+<FoodRecipes tag="Chamomile Tea" />
 
 ## Food Context
 

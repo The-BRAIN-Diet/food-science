@@ -89,6 +89,8 @@ const config: Config = {
           { to: '/docs/foods/mankai', from: '/docs/foods/duckweed' },
           { to: '/docs/dietary-foundations/digestion-microbiome/fibre-gut-adaptation', from: '/docs/training/fibre-gut-adaptation' },
           { to: '/docs/foods/salmon-roe', from: '/docs/foods/fish-roe' },
+          { to: '/docs/foods/chamomile-tea', from: '/docs/foods/chamomile' },
+          { to: '/docs/foods/chicory-root', from: '/docs/foods/chicory' },
         ],
       },
     ],

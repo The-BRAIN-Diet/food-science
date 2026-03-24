@@ -662,9 +662,9 @@ Cauliflower:
   permalink: /cauliflower
   description: Cruciferous vegetable rich in glucosinolates
 
-Chamomile:
-  label: Chamomile
-  permalink: /chamomile
+Chamomile Tea:
+  label: Chamomile Tea
+  permalink: /chamomile-tea
   description: Herbal tea with calming properties
 
 Cheese:
@@ -692,9 +692,9 @@ Chickpeas:
   permalink: /chickpeas
   description: Legume rich in protein, fiber, and minerals
 
-Chicory:
-  label: Chicory
-  permalink: /chicory
+Chicory Root:
+  label: Chicory Root
+  permalink: /chicory-root
   description: Root vegetable rich in inulin prebiotic fiber
 
 Chlorella:

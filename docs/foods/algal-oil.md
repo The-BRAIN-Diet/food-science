@@ -28,9 +28,8 @@ nutrition_supplementary_sources:
     source_note: |
       Representative EPA content for high-DHA algal oil, assuming EPA present at a lower level than DHA per 100 g of oil based on NIH ODS omega-3 fact sheet (algal oil providing DHA with some EPA) and typical supplement label ratios. Adjust to match specific product data where available.
 list_image: /img/foods/algal-oil/algal-oil_thumb.webp
-main_image: /img/foods/algal-oil/algal-oil_medium.webp
+main_image: /img/foods/algal-oil/algal-oil_large.webp
 legacy_list_image: /img/foods/algal-oil/algal-oil_thumb.webp
-legacy_main_image: /img/foods/algal-oil/algal-oil_medium.webp
 ---
 
 ## Overview

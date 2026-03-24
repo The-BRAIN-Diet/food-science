@@ -1,14 +1,14 @@
 ---
-id: chicory
-title: Chicory
-sidebar_label: Chicory
+id: chicory-root
+title: Chicory Root
+sidebar_label: Chicory Root
 description: High inulin content; coffee substitute
 tags:
   - Food
-  - Chicory
+  - Chicory Root
   - Vegan
   - Vegetarian
-list_image: /img/foods/chicory/chicory_thumb.webp
+list_image: /img/foods/chicory-root/chicory-root_thumb.webp
 nutrition_per_100g:
   kcal: 23
   protein_g: 1.7
@@ -37,9 +37,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
-main_image: /img/foods/chicory/chicory_medium.webp
-legacy_list_image: /img/foods/chicory/chicory_thumb.webp
-legacy_main_image: /img/foods/chicory/chicory_medium.webp
+main_image: /img/foods/chicory-root/chicory-root_medium.webp
+legacy_list_image: /img/foods/chicory-root/chicory-root_thumb.webp
+legacy_main_image: /img/foods/chicory-root/chicory-root_medium.webp
 ---
 
 ## Overview
@@ -50,7 +50,7 @@ Chicory provides high inulin content and can be used as a coffee substitute, sup
 
 ## Recipes
 
-<FoodRecipes tag="Chicory" />
+<FoodRecipes tag="Chicory Root" />
 
 ## Food Context
 
