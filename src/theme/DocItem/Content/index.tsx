@@ -65,18 +65,11 @@ export default function DocItemContent({children}: Props): ReactNode {
       )}
 
       {isFoodDoc && resolvedMainImage && (
-        <p>
+        <p className="food-page-hero-wrap">
           <img
             src={resolvedMainImage}
             alt={metadata.title}
-            // IMPORTANT: fixed height ensures consistent rendering for square and landscape food images
-            style={{
-              height: "500px",
-              maxWidth: "760px",
-              width: "auto",
-              borderRadius: 4,
-              display: "block",
-            }}
+            className="food-page-hero"
             onError={(e) => {
               const img = e.currentTarget
               const nextIndex = Number(img.dataset.fallbackIndex || "0") + 1

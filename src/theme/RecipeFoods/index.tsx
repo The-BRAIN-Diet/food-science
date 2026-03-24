@@ -517,20 +517,26 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
 
       {(coreRows.length > 0 || microRows.length > 0 || fibreFoodDocs.length > 0 || polyphenolFoodDocs.length > 0) && (
         <div style={{marginTop: "1rem"}}>
-          <h3 style={{marginBottom: "0.5rem"}}>Aggregated Recipe Nutrition (food-level)</h3>
+          <h3 style={{marginBottom: "0.5rem"}}>Recipe nutrition</h3>
           <p style={{fontSize: "0.9em", color: "var(--ifm-color-content-secondary)", marginTop: 0}}>
             {weighted ? (
               <>
-                Portion-weighted from <code>recipe_nutrition</code> in front matter (grams per food × each
-                food’s per-100 g panel). Values below <strong>trace</strong> are negligible at recipe scale.
+                Totals are <strong>calculated</strong> from each food’s USDA-linked nutrient panel (per 100 g)
+                on our site, multiplied by the <strong>grams of that food in this recipe</strong>—even small
+                amounts (e.g. a few grams of herbs). Values marked <strong>trace</strong> round to negligible at
+                this scale.
                 {recipeServings > 1 ? (
-                  <> Amounts are per serving; this recipe serves {recipeServings}.</>
+                  <> Figures are <strong>per serving</strong> (this recipe serves {recipeServings}).</>
                 ) : null}
               </>
             ) : (
               <>
-                Legacy mode: sums per-100 g values across tagged foods (not portion-weighted). Add{" "}
-                <code>recipe_nutrition</code> to the recipe for accurate totals.
+                Figures are still <strong>calculated from USDA-based nutrient data</strong> on each food page (per
+                100 g). For this recipe we have not yet added ingredient weights, so the table{" "}
+                <strong>adds one full “100 g” slice of each linked food</strong>, not the grams actually used
+                (which would misrepresent small amounts like herbs, spices, or oil). When portion sizes are
+                added for the recipe, the same panels are multiplied by the real amounts—so the maths can be
+                precise for every ingredient.
               </>
             )}
           </p>
@@ -540,7 +546,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
                 <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Nutrient / class</th>
                 <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Foods in recipe</th>
                 <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>
-                  {weighted ? "Total (portion-weighted)" : "Total (sum)"}
+                  {weighted ? "Total (scaled to recipe)" : "Total (100 g per linked food)"}
                 </th>
                 <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>% RDA aggregate</th>
               </tr>
