@@ -10,24 +10,35 @@ tags:
   - Vegetarian
 list_image: /img/foods/black-pepper/black-pepper_thumb.webp
 nutrition_per_100g:
-  kcal: 52.747095
-  protein_g: 0.578125
-  fat_g: 0.2825
-  carbs_g: 13.455575
-  fibre_g: 1.346
-  sugar_g: 7.964
-  calcium_mg: 4.031
-  iron_mg: 0
-  magnesium_mg: 6.615
-  potassium_mg: 186.3
-  zinc_mg: 0.04518
+  kcal: 251
+  protein_g: 10.39
+  fat_g: 3.26
+  sat_fat_g: 1.392
+  carbs_g: 63.95
+  sugar_g: 0.64
+  fibre_g: 25.3
+  calcium_mg: 443
+  iron_mg: 9.71
+  magnesium_mg: 171
+  potassium_mg: 1329
+  zinc_mg: 1.19
+  copper_mg: 1.33
+  selenium_ug: 4.9
+  vitamin_b6_mg: 0.291
+  folate_ug: 17
+  choline_mg: 11.3
+  vitamin_b12_ug: 0
+  ala_mg: 152
+  epa_mg: 0
+  dha_mg: 0
+  omega3_mg: 152
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Plum, black, with skin, raw'
-  fdc_id: 2710837
+  food_name: 'Spices, pepper, black'
+  fdc_id: 170931
   retrieval_method: API
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-03-25'
 main_image: /img/foods/black-pepper/black-pepper_medium.webp
 legacy_list_image: /img/foods/black-pepper/black-pepper_thumb.webp
 legacy_main_image: /img/foods/black-pepper/black-pepper_medium.webp

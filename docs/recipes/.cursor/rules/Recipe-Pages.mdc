@@ -50,3 +50,23 @@ Rules:
 - Use `mg` / `µg` where relevant for very small quantities.
 - If an ingredient is difficult to convert precisely (e.g. herbs by volume), use a clear approximation label such as `(approx)`.
 - Preserve culinary usability: readers should be able to cook from spoons/cups while retaining metric precision.
+
+## Portion-weighted recipe nutrition (recommended)
+
+For accurate **Aggregated Recipe Nutrition** (not the legacy “sum of three 100 g panels”), add optional front matter:
+
+```yaml
+recipe_nutrition:
+  servings: 1
+  ingredients:
+    - food: Milk          # must match the food page title or a food tag label
+      grams: 244
+    - food: Turmeric
+      grams: 2.6
+```
+
+- **grams**: total grams of that ingredient **for the whole recipe** (derive from ingredient lines, including `~X g (approx)` where present).
+- **servings**: when &gt; 1, displayed nutrient amounts and % RDA are **per serving**.
+- Nutrients below reporting thresholds show as **trace** in the table.
+
+If `recipe_nutrition` is omitted, the recipe page falls back to the legacy tag-sum (clearly labelled in the UI).

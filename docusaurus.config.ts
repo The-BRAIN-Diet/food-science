@@ -91,6 +91,7 @@ const config: Config = {
           { to: '/docs/foods/salmon-roe', from: '/docs/foods/fish-roe' },
           { to: '/docs/foods/chamomile-tea', from: '/docs/foods/chamomile' },
           { to: '/docs/foods/chicory-root', from: '/docs/foods/chicory' },
+          { to: '/docs/foods/aubergine', from: '/docs/foods/eggplant' },
         ],
       },
     ],

@@ -40,9 +40,9 @@ nutrition_source:
   last_checked: '2026-03-14'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
-main_image: /img/foods/soy/soy_medium.webp
+main_image: /img/foods/soy/soy_large.webp
 legacy_list_image: /img/foods/soy/soy_thumb.webp
-legacy_main_image: /img/foods/soy/soy_medium.webp
+legacy_main_image: /img/foods/soy/soy_large.webp
 ---
 
 ## Overview
