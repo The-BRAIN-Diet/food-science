@@ -74,10 +74,6 @@ import NutritionTable from "@site/src/components/NutritionTable";
 
 Oats provide beta-glucan fibre (prebiotic), B vitamins, and minerals that support gut health, serotonin synthesis, and stable glucose release. Key contributions include **magnesium**, **iron**, **selenium**, and **folate**. Beta-glucans support gut microbiome health.
 
-## Recipes
-
-<FoodRecipes tag="Oats" />
-
 ## Key Nutritional Highlights
 
 - Concentrated source of beta-glucan, the soluble oat fibre most linked to glycaemic and lipid benefits.
@@ -109,6 +105,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Oats are relatively higher in methionine than many legumes but lower in lysine. Combining oats with lentils, beans, or other legumes helps create a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Oats" />
 
 <NutritionTable details={frontMatter} />
 

@@ -41,16 +41,9 @@ main_image: /img/foods/kimchi/kimchi_medium.webp
 legacy_list_image: /img/foods/kimchi/kimchi_thumb.webp
 legacy_main_image: /img/foods/kimchi/kimchi_medium.webp
 ---
-
 ## Overview
 
 Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Kimchi" />
 
 ## Food Context
 
@@ -62,6 +55,12 @@ Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA,
 
 - Consume unpasteurized for live probiotics
 - Regular but not excessive intake
+
+## Recipes
+
+<FoodRecipes tag="Kimchi" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

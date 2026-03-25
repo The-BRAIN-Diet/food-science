@@ -28,16 +28,9 @@ main_image: /img/foods/mct-oil/mct-oil_medium.webp
 legacy_list_image: /img/foods/mct-oil/mct-oil_thumb.webp
 legacy_main_image: /img/foods/mct-oil/mct-oil_medium.webp
 ---
-
 ## Overview
 
 MCT oil is concentrated medium-chain triglycerides (C6, C8, C10) providing rapid energy for the brain and supporting ketone production. It contains caprylic triglyceride (C8), capric triglyceride (C10), and caproic triglyceride (C6). Coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, and supports ketone production.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="MCT Oil" />
 
 ## Food Context
 
@@ -50,6 +43,12 @@ MCT oil is concentrated medium-chain triglycerides (C6, C8, C10) providing rapid
 - Use in smoothies or small portions
 - Start with small amounts
 - Supports ketone production
+
+## Recipes
+
+<FoodRecipes tag="MCT Oil" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

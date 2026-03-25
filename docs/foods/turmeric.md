@@ -51,14 +51,9 @@ main_image: /img/foods/turmeric/turmeric_medium.webp
 legacy_list_image: /img/foods/turmeric/turmeric_thumb.webp
 legacy_main_image: /img/foods/turmeric/turmeric_medium.webp
 ---
-
 ## Overview
 
 Turmeric is the whole spice (dried and ground root of the Curcuma longa plant) that contains many bioactive compounds, including curcumin (the most well-known polyphenol), demethoxycurcumin, bisdemethoxycurcumin, turmerones (fat-soluble compounds), and essential oils. Only 2–6% of turmeric powder is curcumin. Curcumin is responsible for most of turmeric's anti-inflammatory and neuroprotective effects. Absorption is enhanced by pairing with black pepper (piperine) and fat. Therapeutic doses typically use 500–1000 mg/day curcumin with piperine.
-
-## Recipes
-
-<FoodRecipes tag="Turmeric" />
 
 ## Food Context
 
@@ -75,6 +70,10 @@ Turmeric is the whole spice (dried and ground root of the Curcuma longa plant) t
 ### Essential Amino Acid Profile
 
 Turmeric contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Turmeric" />
 
 <NutritionTable details={frontMatter} />
 

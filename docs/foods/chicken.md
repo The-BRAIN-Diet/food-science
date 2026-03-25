@@ -46,16 +46,11 @@ main_image: /img/foods/chicken/chicken_medium.webp
 legacy_list_image: /img/foods/chicken/chicken_thumb.webp
 legacy_main_image: /img/foods/chicken/chicken_medium.webp
 ---
-
 ## Overview
 
 Chicken provides **niacin (vitamin B3)** for NAD⁺ synthesis, **zinc**, and amino acids including tryptophan, supporting neurotransmitter synthesis and mitochondrial function. Niacin is directly converted to NAD⁺ via the salvage pathway, and inadequate niacin can impair NAD⁺ regeneration, reducing ATP production and potentially affecting cognitive performance. Chicken is also a practical dietary source of tryptophan, which serves as a serotonin precursor and can be routed through the kynurenine pathway.
 
 Within the BRAIN Diet framework, chicken is typically used as a flexible protein base while its micronutrient profile (especially niacin and zinc) supports broader metabolic and neurochemical priorities. Pairing chicken with fibre- and polyphenol-rich plant foods helps keep the overall pattern plant-forward, while gentler cooking methods help preserve B vitamins and limit heat-derived compounds [1,2].
-
-## Recipes
-
-<FoodRecipes tag="Chicken" />
 
 ## Key Nutritional Highlights
 
@@ -81,6 +76,10 @@ Within the BRAIN Diet framework, chicken is typically used as a flexible protein
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Chicken" />
 
 <NutritionTable details={frontMatter} />
 

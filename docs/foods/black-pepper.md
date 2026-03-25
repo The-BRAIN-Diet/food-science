@@ -43,16 +43,9 @@ main_image: /img/foods/black-pepper/black-pepper_medium.webp
 legacy_list_image: /img/foods/black-pepper/black-pepper_thumb.webp
 legacy_main_image: /img/foods/black-pepper/black-pepper_medium.webp
 ---
-
 ## Overview
 
 Black pepper contains piperine, which dramatically enhances the bioavailability of curcumin (from turmeric) and other compounds, making it an important food synergy. Food synergies include turmeric + black pepper for enhanced curcumin absorption.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Black Pepper" />
 
 ## Food Context
 
@@ -65,6 +58,12 @@ Black pepper contains piperine, which dramatically enhances the bioavailability 
 
 - Can be used in culinary amounts
 - Supports curcumin bioavailability
+
+## Recipes
+
+<FoodRecipes tag="Black Pepper" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

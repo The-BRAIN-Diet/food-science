@@ -32,16 +32,9 @@ main_image: /img/foods/green-bananas/green-bananas_medium.webp
 legacy_list_image: /img/foods/green-bananas/green-bananas_thumb.webp
 legacy_main_image: /img/foods/green-bananas/green-bananas_medium.webp
 ---
-
 ## Overview
 
 Green (unripe) bananas provide resistant starch, a prebiotic fiber that supports gut microbiome diversity and SCFA production, particularly butyrate. Prebiotic fibres including resistant starch (cooled potatoes, green bananas) support butyrate production and gut barrier integrity.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Green Bananas" />
 
 ## Food Context
 
@@ -54,6 +47,12 @@ Green (unripe) bananas provide resistant starch, a prebiotic fiber that supports
 - Consume while still green/unripe for resistant starch
 - Can be cooked to increase resistant starch
 - Supports gut microbiome diversity
+
+## Recipes
+
+<FoodRecipes tag="Green Bananas" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

@@ -31,16 +31,11 @@ list_image: /img/foods/algal-oil/algal-oil_thumb.webp
 main_image: /img/foods/algal-oil/algal-oil_large.webp
 legacy_list_image: /img/foods/algal-oil/algal-oil_thumb.webp
 ---
-
 ## Overview
 
 Algal oil provides **docosahexaenoic acid (DHA)** directly from microalgae, offering a vegan source of long-chain omega-3 fatty acids without relying on fish. Typical algal oil supplements supply on the order of 100–300 mg DHA per serving, with **lower amounts of EPA** in the same broad range depending on formulation, usually in triglyceride form [1]. This makes algal oil a practical option for raising DHA intake in dietary patterns that minimise or exclude seafood.
 
 Within the BRAIN Diet framework, algal oil is treated as a **targeted DHA delivery vehicle** rather than a culinary fat: it helps increase DHA status in line with broader omega-3 guidance, but it does not replace whole-food sources of fibre, protein, or other micronutrients. Evidence from small trials suggests that DHA from algal-oil capsules is similarly bioavailable to DHA from cooked salmon, supporting its use as a substitute when fish is not eaten [1,2].
-
-## Recipes
-
-<FoodRecipes tag="Algal Oil" />
 
 ## Food Context
 
@@ -52,6 +47,10 @@ Within the BRAIN Diet framework, algal oil is treated as a **targeted DHA delive
 
 - Use algal oil in **capsule or measured liquid supplement forms** as directed by the manufacturer; these products are not intended for high-heat culinary use.
 - Store algal oil away from heat and light and respect shelf-life guidance to limit oxidation of DHA and preserve product quality.
+
+## Recipes
+
+<FoodRecipes tag="Algal Oil" />
 
 <NutritionTable details={frontMatter} />
 

@@ -37,16 +37,9 @@ main_image: /img/foods/dairy/dairy_medium.webp
 legacy_list_image: /img/foods/dairy/dairy_thumb.webp
 legacy_main_image: /img/foods/dairy/dairy_medium.webp
 ---
-
 ## Overview
 
 Dairy products provide complete protein, calcium, B vitamins, and in fermented forms, probiotics and postbiotic compounds supporting gut-brain axis communication. Dairy products are listed as sources for vitamin B12, and fermented forms provide probiotics and postbiotic compounds.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Dairy" />
 
 ## Food Context
 
@@ -56,6 +49,12 @@ Dairy products provide complete protein, calcium, B vitamins, and in fermented f
 - Calcium for bone and cardiovascular health
 - Probiotics (in fermented forms) for gut microbiome
 - Nicotinamide riboside (in milk/whey) for NAD+ support
+
+## Recipes
+
+<FoodRecipes tag="Dairy" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

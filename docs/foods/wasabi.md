@@ -42,16 +42,9 @@ main_image: /img/foods/wasabi/wasabi_medium.webp
 legacy_list_image: /img/foods/wasabi/wasabi_thumb.webp
 legacy_main_image: /img/foods/wasabi/wasabi_medium.webp
 ---
-
 ## Overview
 
 Wasabi is a pungent green condiment traditionally made from the grated rhizome of the Wasabia japonica plant, although many commercial products outside Japan use horseradish, mustard, and colourings instead. In the BRAIN Diet context, it is used sparingly as a condiment alongside seafood and rice dishes, adding heat and volatile aromatics without substantially altering macronutrient balance.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Wasabi" />
 
 ## Food Context
 
@@ -63,6 +56,12 @@ Wasabi is a pungent green condiment traditionally made from the grated rhizome o
 ### Preparation
 
 - Use small amounts as a condiment with sushi, fish, and rice-based meals rather than as a primary ingredient.
+
+## Recipes
+
+<FoodRecipes tag="Wasabi" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

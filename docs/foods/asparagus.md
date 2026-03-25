@@ -42,16 +42,9 @@ main_image: /img/foods/asparagus/asparagus_medium.webp
 legacy_list_image: /img/foods/asparagus/asparagus_thumb.webp
 legacy_main_image: /img/foods/asparagus/asparagus_medium.webp
 ---
-
 ## Overview
 
 Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supporting gut microbiome and methylation pathways. Fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Asparagus" />
 
 ## Food Context
 
@@ -64,6 +57,12 @@ Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supp
 - Can be consumed cooked or raw
 - Supports Bifidobacterium growth
 - Gentle cooking preserves nutrients
+
+## Recipes
+
+<FoodRecipes tag="Asparagus" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

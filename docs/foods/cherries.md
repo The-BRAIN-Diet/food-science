@@ -43,16 +43,9 @@ main_image: /img/foods/cherries/cherries_medium.webp
 legacy_list_image: /img/foods/cherries/cherries_thumb.webp
 legacy_main_image: /img/foods/cherries/cherries_medium.webp
 ---
-
 ## Overview
 
 Cherries provide polyphenols, fiber, and vitamin C. Tart cherries specifically provide melatonin for sleep support.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cherries" />
 
 ## Food Context
 
@@ -63,6 +56,12 @@ Cherries provide polyphenols, fiber, and vitamin C. Tart cherries specifically p
 ### Preparation
 
 - See [Tart Cherry](./tart-cherry.md) for detailed sleep support information
+
+## Recipes
+
+<FoodRecipes tag="Cherries" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

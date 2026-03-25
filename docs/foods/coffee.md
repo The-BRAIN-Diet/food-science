@@ -36,16 +36,9 @@ main_image: /img/foods/coffee/coffee_medium.webp
 legacy_list_image: /img/foods/coffee/coffee_thumb.webp
 legacy_main_image: /img/foods/coffee/coffee_medium.webp
 ---
-
 ## Overview
 
 Coffee provides caffeine that stimulates dopamine production but has pendulum effects and circadian disruption risks, requiring strategic use. Caffeine is an adenosine receptor antagonism and should be stopped 8 hours before bed considering caffeine has a highly variable half-life, ranging from 2 to 10 h, but possibly up to 20 hours.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Coffee" />
 
 ## Food Context
 
@@ -55,6 +48,12 @@ Coffee provides caffeine that stimulates dopamine production but has pendulum ef
 - Can stimulate dopamine but may cause fatigue rebound
 - Space ≥1 hour from iron-rich meals or add lemon
 - Strategic, sparing use may be most effective for ADHD
+
+## Recipes
+
+<FoodRecipes tag="Coffee" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

@@ -44,24 +44,19 @@ main_image: /img/foods/natto/natto_medium.webp
 legacy_list_image: /img/foods/natto/natto_thumb.webp
 legacy_main_image: /img/foods/natto/natto_medium.webp
 ---
-
 ## Overview
 
 Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability. Natto is fermented soybeans with unique Bacillus subtilis and is part of the fermented foods strategy.
 
-## Recipes
-
-<FoodRecipes tag="Natto" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose quality sources
 
 ### Synergies
 
 - Part of fermented foods rotation
+
+### Sourcing
+
+- Choose quality sources
 
 ### Preparation
 
@@ -71,6 +66,10 @@ Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitam
 ### Essential Amino Acid Profile
 
 Natto provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
+
+## Recipes
+
+<FoodRecipes tag="Natto" />
 
 <NutritionTable details={frontMatter} />
 

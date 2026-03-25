@@ -46,16 +46,11 @@ main_image: /img/foods/liver/liver_medium.webp
 legacy_list_image: /img/foods/liver/liver_thumb.webp
 legacy_main_image: /img/foods/liver/liver_medium.webp
 ---
-
 ## Overview
 
 Liver is a highly nutrient-dense organ meat providing exceptionally high amounts of **vitamin B12**, **folate**, **retinol (vitamin A)**, **heme iron**, and **choline**. These nutrients support one‑carbon metabolism, red blood cell formation, and neurotransmitter-related pathways, making liver a potent “micronutrient booster” when used occasionally rather than daily [1].
 
 Within the BRAIN Diet framework, liver is typically treated as a periodic offal food that can help close nutrient gaps (especially B12, folate, and retinol) while keeping the overall diet plant-forward. Because liver is also a concentrated source of preformed vitamin A, portion size and frequency matter; gentle cooking and thoughtful sourcing help balance nutrient density with practical tolerability [1,2].
-
-## Recipes
-
-<FoodRecipes tag="Liver" />
 
 ## Key Nutritional Highlights
 
@@ -82,6 +77,10 @@ Within the BRAIN Diet framework, liver is typically treated as a periodic offal 
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Liver" />
 
 <NutritionTable details={frontMatter} />
 

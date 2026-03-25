@@ -42,14 +42,9 @@ main_image: /img/foods/dark-meat-poultry/dark-meat-poultry_medium.webp
 legacy_list_image: /img/foods/dark-meat-poultry/dark-meat-poultry_thumb.webp
 legacy_main_image: /img/foods/dark-meat-poultry/dark-meat-poultry_medium.webp
 ---
-
 ## Overview
 
 Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling. Taurine food sources include scallops, clams, dark-meat poultry, and mackerel.
-
-## Recipes
-
-<FoodRecipes tag="Dark-Meat Poultry" />
 
 ## Food Context
 
@@ -66,6 +61,10 @@ Dark-meat poultry (thighs, legs) provides higher taurine content than white meat
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Dark-Meat Poultry" />
 
 <NutritionTable details={frontMatter} />
 

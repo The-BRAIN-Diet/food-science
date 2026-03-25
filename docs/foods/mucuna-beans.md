@@ -34,14 +34,9 @@ main_image: /img/foods/mucuna-beans/mucuna-beans_medium.webp
 legacy_list_image: /img/foods/mucuna-beans/mucuna-beans_thumb.webp
 legacy_main_image: /img/foods/mucuna-beans/mucuna-beans_medium.webp
 ---
-
 ## Overview
 
 Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, supporting neurotransmitter synthesis. The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: mucuna beans for natural LDOPA.
-
-## Recipes
-
-<FoodRecipes tag="Mucuna Beans" />
 
 ## Food Context
 
@@ -70,6 +65,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Mucuna Beans are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Mucuna Beans" />
 
 <NutritionTable details={frontMatter} />
 

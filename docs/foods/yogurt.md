@@ -48,15 +48,7 @@ Yogurt is fermented dairy providing live probiotics, complete protein, **calcium
 
 **Protein profile:** Complete essential amino acid profile.
 
-## Recipes
-
-<FoodRecipes tag="Yogurt" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose products with live active cultures for probiotic benefits
 
 ### Synergies
 
@@ -64,9 +56,17 @@ Yogurt is fermented dairy providing live probiotics, complete protein, **calcium
 - Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 - Pair with berries/nuts for polyphenol synergy; practical pairings: berries + yogurt/nuts
 
+### Sourcing
+
+- Choose products with live active cultures for probiotic benefits
+
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Yogurt" />
 
 <NutritionTable details={frontMatter} />
 

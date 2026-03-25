@@ -34,24 +34,19 @@ main_image: /img/foods/cockles/cockles_medium.webp
 legacy_list_image: /img/foods/cockles/cockles_thumb.webp
 legacy_main_image: /img/foods/cockles/cockles_medium.webp
 ---
-
 ## Overview
 
 Cockles are small bivalve shellfish that provide a nutrient-dense source of vitamin B12, iron, zinc, and selenium, along with marine taurine and phospholipid-bound omega-3 fatty acids. Like mussels and other bivalves, cockles contribute to neurotransmitter synthesis and energy metabolism. Their natural liquor (released when steamed) contains amino acids, minerals, and peptides that add both flavour and nutritional value. Cockles are a sustainable shellfish option with a low carbon footprint when farmed or wild-harvested responsibly.
 
-## Recipes
-
-<FoodRecipes tag="Cockles" />
-
 ## Food Context
-
-### Sourcing
-
-- Low in mercury compared to many fish species
 
 ### Synergies
 
 - Part of diverse protein and seafood strategy
+
+### Sourcing
+
+- Low in mercury compared to many fish species
 
 ### Preparation
 
@@ -62,6 +57,10 @@ Cockles are small bivalve shellfish that provide a nutrient-dense source of vita
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Cockles" />
 
 <NutritionTable details={frontMatter} />
 

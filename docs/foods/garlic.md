@@ -30,14 +30,9 @@ main_image: /img/foods/garlic/garlic_medium.webp
 legacy_list_image: /img/foods/garlic/garlic_thumb.webp
 legacy_main_image: /img/foods/garlic/garlic_medium.webp
 ---
-
 ## Overview
 
 Garlic provides allicin (when crushed), sulfur compounds for glutathione synthesis, and prebiotic fiber supporting gut health and antioxidant defenses. Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health. Garlic is part of the allium family with prebiotic benefits.
-
-## Recipes
-
-<FoodRecipes tag="Garlic" />
 
 ## Food Context
 
@@ -55,6 +50,10 @@ Garlic provides allicin (when crushed), sulfur compounds for glutathione synthes
 ### Essential Amino Acid Profile
 
 Garlic contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Garlic" />
 
 <NutritionTable details={frontMatter} />
 

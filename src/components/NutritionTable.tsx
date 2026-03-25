@@ -28,9 +28,19 @@ interface SupplementarySource {
 interface FunctionalMetric {
   key: string
   label: string
+  /**
+   * Qualitative scoring (canonical).
+   * Use for cross-food “functional” summaries where numeric assay values vary heavily.
+   */
+  score?: "Low" | "Medium" | "High"
+  /**
+   * Legacy support: some pages store functional metrics as a free-text amount display.
+   * If present and `score` is absent, we render it in the Score column.
+   */
+  amount_display?: string
+  /** Legacy support: numeric value + unit. Prefer `score` moving forward. */
   value?: number
   unit?: string
-  amount_display?: string
   notes?: string
 }
 
@@ -88,13 +98,15 @@ function isValidSupplementary(s: unknown): s is SupplementarySource {
 function isValidFunctionalMetric(s: unknown): s is FunctionalMetric {
   if (!s || typeof s !== "object") return false
   const o = s as FunctionalMetric
+  const hasScore =
+    typeof o.score === "string" && ["Low", "Medium", "High"].includes(o.score)
   const hasNumeric =
     typeof o.value === "number" && typeof o.unit === "string" && !Number.isNaN(o.value)
   const hasDisplay = typeof o.amount_display === "string" && o.amount_display.trim().length > 0
   return (
     typeof o.key === "string" &&
     typeof o.label === "string" &&
-    (hasNumeric || hasDisplay)
+    (hasScore || hasNumeric || hasDisplay)
   )
 }
 
@@ -103,10 +115,16 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
   const source = (details.nutrition_source || {}) as Record<string, unknown>
 
   const rawSupplementary = (details.nutrition_supplementary_sources || []) as unknown[]
-  const supplementary = rawSupplementary.filter(isValidSupplementary)
+  const supplementary = rawSupplementary
+    .filter(isValidSupplementary)
+    // Omit numeric zeros from the bioactive table; keep qualitative entries (amount_display).
+    .filter((sup) => (typeof sup.value === "number" ? sup.value > 0 : true))
 
   const rawFunctional = (details.nutrition_functional_metrics || []) as unknown[]
-  const functionalMetrics = rawFunctional.filter(isValidFunctionalMetric)
+  const functionalMetrics = rawFunctional
+    .filter(isValidFunctionalMetric)
+    // Omit numeric zeros from the functional table; keep qualitative entries (amount_display).
+    .filter((m) => (typeof m.value === "number" ? m.value > 0 : true))
 
   const hasAnyNutrition =
     (nutrition && Object.entries(nutrition).some(([_, v]) => typeof v === "number" || v === null)) ||
@@ -176,18 +194,15 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
       continue
     }
     const raw = nutrition[key]
+    if (raw === undefined || raw === null) continue
+    if (typeof raw !== "number") continue
+    // Skip zero values (e.g. DHA/EPA = 0) so we don't show "random" 0 omega-3 rows.
+    if (raw <= 0) continue
     const meta = NUTRIENT_LABELS[key] || {label: key, unit: ""}
-    if (raw === undefined) {
-      continue
-    }
-    const isNull = raw === null
-    const value = typeof raw === "number" ? raw : null
-    const displayAmount =
-      value === null ? (isNull ? "—" : "") : `${roundTo(value, 1)} ${meta.unit}`.trim()
     bioactiveLipidRows.push(
       <tr key={key}>
         <td style={tdStyle}>{meta.label}</td>
-        <td style={tdStyle}>{displayAmount || "—"}</td>
+        <td style={tdStyle}>{`${roundTo(raw, 1)} ${meta.unit}`.trim()}</td>
         <td style={tdStyle}>—</td>
       </tr>
     )
@@ -212,18 +227,20 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
   })
 
   const functionalRows = functionalMetrics.map((m) => {
-    const amountCell =
-      typeof m.amount_display === "string" && m.amount_display.trim().length > 0
-        ? m.amount_display.trim()
-        : typeof m.value === "number" && m.unit
-          ? `${roundTo(m.value, 1)} ${m.unit}`
-          : "—"
+    const scoreCell =
+      typeof m.score === "string" && m.score.trim().length > 0
+        ? m.score.trim()
+        : typeof m.amount_display === "string" && m.amount_display.trim().length > 0
+          ? m.amount_display.trim()
+          : typeof m.value === "number" && m.unit
+            ? `${roundTo(m.value, 1)} ${m.unit}`
+            : "—"
     const notesCell =
       typeof m.notes === "string" && m.notes.trim().length > 0 ? m.notes.trim() : "—"
     return (
       <tr key={m.key}>
         <td style={tdStyle}>{m.label}</td>
-        <td style={tdStyle}>{amountCell}</td>
+        <td style={tdStyle}>{scoreCell}</td>
         <td style={tdStyle}>{notesCell}</td>
       </tr>
     )
@@ -239,11 +256,11 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
 
   return (
     <section className="nutrition-table-block">
-      <h2>Nutritional Table (per 100 g)</h2>
+      <h2>Nutrient Tables (per 100 g)</h2>
 
       {coreRows.length > 0 && (
         <>
-          <h3>Core nutrition</h3>
+          <h3>Core nutrients</h3>
           <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
             <thead>
               <tr>
@@ -323,14 +340,14 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
       {hasFunctionalSection && (
         <details style={{marginTop: "1rem"}}>
           <summary style={{cursor: "pointer", color: "var(--ifm-color-primary)"}}>
-            <h3 style={{display: "inline", margin: 0}}>Functional Metrics</h3>
+            <h3 style={{display: "inline", margin: 0}}>Functional metrics</h3>
           </summary>
           <div style={{marginTop: "0.5rem"}}>
             <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
               <thead>
                 <tr>
                   <th style={thStyle}>Metric</th>
-                  <th style={thStyle}>Amount per 100 g</th>
+                  <th style={thStyle}>Score</th>
                   <th style={thStyle}>Notes</th>
                 </tr>
               </thead>

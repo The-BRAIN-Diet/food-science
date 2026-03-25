@@ -45,16 +45,9 @@ main_image: /img/foods/blueberries/blueberries_medium.webp
 legacy_list_image: /img/foods/blueberries/blueberries_thumb.webp
 legacy_main_image: /img/foods/blueberries/blueberries_medium.webp
 ---
-
 ## Overview
 
 Blueberries are rich in polyphenols, particularly anthocyanins, that support cognitive function, antioxidant networks, and may enhance BDNF expression when combined with exercise. Exercise-induced BDNF surges can be potentiated by polyphenols (e.g., blueberries, green tea). Blueberries are part of polyphenol-rich patterns that enhance endogenous antioxidant networks and support microbiome diversity.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Blueberries" />
 
 ## Food Context
 
@@ -67,6 +60,12 @@ Blueberries are rich in polyphenols, particularly anthocyanins, that support cog
 
 - Best consumed fresh or frozen to preserve polyphenol content
 - Polyphenol sources including berries increase Faecalibacterium and Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation
+
+## Recipes
+
+<FoodRecipes tag="Blueberries" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

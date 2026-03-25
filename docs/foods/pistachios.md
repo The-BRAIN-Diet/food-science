@@ -35,14 +35,9 @@ main_image: /img/foods/pistachios/pistachios_medium.webp
 legacy_list_image: /img/foods/pistachios/pistachios_thumb.webp
 legacy_main_image: /img/foods/pistachios/pistachios_medium.webp
 ---
-
 ## Overview
 
 Pistachios provide CoQ10 (plant source), healthy fats, and protein, supporting mitochondrial function and antioxidant defenses. Coenzyme Q10 (CoQ10): Organ meats (heart, liver), oily fish (sardines, mackerel), beef, Spinach, broccoli, pistachios, olive oil (lower amounts). CoQ10 supports mitochondrial electron transport and antioxidant protection for neurons.
-
-## Recipes
-
-<FoodRecipes tag="Pistachios" />
 
 ## Food Context
 
@@ -63,6 +58,10 @@ Pistachios provide plant protein but are not a complete protein; lysine is typic
 Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
+
+## Recipes
+
+<FoodRecipes tag="Pistachios" />
 
 <NutritionTable details={frontMatter} />
 

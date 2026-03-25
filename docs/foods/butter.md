@@ -29,16 +29,9 @@ main_image: /img/foods/butter/butter_medium.webp
 legacy_list_image: /img/foods/butter/butter_thumb.webp
 legacy_main_image: /img/foods/butter/butter_medium.webp
 ---
-
 ## Overview
 
 Butter provides saturated fats, fat-soluble vitamins, and in grass-fed varieties, additional bioactives like CLA and C15:0. Saturated fat (SFA) should be &lt;10% (ideally &lt;7%) from sources like lard, butter, and meats.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Butter" />
 
 ## Food Context
 
@@ -50,6 +43,12 @@ Butter provides saturated fats, fat-soluble vitamins, and in grass-fed varieties
 ### Preparation
 
 - Provides fat-soluble vitamins A, D, E, K2 (varies by source)
+
+## Recipes
+
+<FoodRecipes tag="Butter" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

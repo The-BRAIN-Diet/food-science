@@ -192,8 +192,6 @@ export default function FoodSubstancesFromTable({
     })
   })
 
-  const contributionLevels = (details.contribution_levels as Record<string, string> | undefined) || {}
-
   // 1) Editorial: substances from frontMatter tags (Overview / literature)
   const foodTags = details.tags
   const foodTagLabels = Array.isArray(foodTags)
@@ -215,8 +213,13 @@ export default function FoodSubstancesFromTable({
     ).values()
   ).filter((doc: Document) => {
     const substanceName = getSubstanceName(doc.title)
+    // Respect the "trace" suppression if present.
+    const contributionLevels =
+      (details.contribution_levels as Record<string, string> | undefined) || {}
     const level =
-      contributionLevels[substanceName] ?? contributionLevels[doc.title] ?? "Contextual / minor contributor"
+      contributionLevels[substanceName] ??
+      contributionLevels[doc.title] ??
+      "Contextual / minor contributor"
     return level !== "Presence only (trace)"
   })
   editorialDocs.sort((a: Document, b: Document) => {

@@ -33,24 +33,19 @@ main_image: /img/foods/crab/crab_medium.webp
 legacy_list_image: /img/foods/crab/crab_thumb.webp
 legacy_main_image: /img/foods/crab/crab_medium.webp
 ---
-
 ## Overview
 
 Crab provides high-quality protein and zinc, supporting neurotransmitter modulation and antioxidant enzyme function. Zinc food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, and cashews.
 
-## Recipes
-
-<FoodRecipes tag="Crab" />
-
 ## Food Context
-
-### Sourcing
-
-- Sustainable seafood option
 
 ### Synergies
 
 - Part of diverse protein strategy
+
+### Sourcing
+
+- Sustainable seafood option
 
 ### Preparation
 
@@ -60,6 +55,10 @@ Crab provides high-quality protein and zinc, supporting neurotransmitter modulat
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Crab" />
 
 <NutritionTable details={frontMatter} />
 

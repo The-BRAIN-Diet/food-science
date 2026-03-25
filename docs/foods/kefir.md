@@ -42,31 +42,30 @@ main_image: /img/foods/kefir/kefir_medium.webp
 legacy_list_image: /img/foods/kefir/kefir_thumb.webp
 legacy_main_image: /img/foods/kefir/kefir_medium.webp
 ---
-
 ## Overview
 
 Kefir is fermented milk providing diverse probiotics, including potential GABA-producing strains, and postbiotic compounds. Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. Kefir: Fermented milk drink, diverse probiotic strains. Levilactobacillus brevis is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles, and can produce GABA.
 
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Kefir" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose products with live active cultures for probiotic benefits
 
 ### Synergies
 
 - Part of fermented foods rotation; fermented foods provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
 - Supports gut microbiome diversity; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
 
+### Sourcing
+
+- Choose products with live active cultures for probiotic benefits
+
 ### Preparation
 
 - Potential GABA production via specific strains; Levilactobacillus brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles can produce GABA
+
+## Recipes
+
+<FoodRecipes tag="Kefir" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

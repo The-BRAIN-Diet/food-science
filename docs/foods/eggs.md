@@ -54,19 +54,15 @@ Eggs are a nutrient-dense source of complete protein, **choline**, B vitamins, a
 
 **Protein profile:** Complete essential amino acid profile.
 
-## Recipes
-
-<FoodRecipes tag="Eggs" />
-
 ## Food Context
-
-### Sourcing
-
-- Consider pasture-raised for higher omega-3 and vitamin content
 
 ### Synergies
 
 - Pair with vegetables for carotenoid absorption (dietary fat enhances absorption of fat-soluble vitamins)
+
+### Sourcing
+
+- Consider pasture-raised for higher omega-3 and vitamin content
 
 ### Preparation
 
@@ -77,6 +73,10 @@ Eggs are a nutrient-dense source of complete protein, **choline**, B vitamins, a
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Eggs" />
 
 <NutritionTable details={frontMatter} />
 

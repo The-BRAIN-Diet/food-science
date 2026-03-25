@@ -41,14 +41,9 @@ main_image: /img/foods/spirulina/spirulina_medium.webp
 legacy_list_image: /img/foods/spirulina/spirulina_thumb.webp
 legacy_main_image: /img/foods/spirulina/spirulina_medium.webp
 ---
-
 ## Overview
 
 Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but contains pseudovitamin B12 analogues that are inactive in humans. Spirulina has DIAAS 75-83, is methionine and lysine-limited, and contains some bioactive peptides. By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source. Nonetheless, both algae provide antioxidant and amino acid support.
-
-## Recipes
-
-<FoodRecipes tag="Spirulina" />
 
 ## Food Context
 
@@ -65,6 +60,10 @@ Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but 
 ### Essential Amino Acid Profile
 
 Spirulina contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Spirulina" />
 
 <NutritionTable details={frontMatter} />
 

@@ -36,14 +36,9 @@ main_image: /img/foods/beetroot/beetroot_medium.webp
 legacy_list_image: /img/foods/beetroot/beetroot_thumb.webp
 legacy_main_image: /img/foods/beetroot/beetroot_medium.webp
 ---
-
 ## Overview
 
 Beetroot provides dietary nitrates that convert to nitric oxide, supporting vascular function and mitochondrial efficiency. Rich in betalains (antioxidant pigments), folate, and minerals, beetroot contributes to cardiovascular health and metabolic resilience.
-
-## Recipes
-
-<FoodRecipes tag="Beetroot" />
 
 ## Food Context
 
@@ -56,6 +51,10 @@ Beetroot provides dietary nitrates that convert to nitric oxide, supporting vasc
 ### Essential Amino Acid Profile
 
 Beetroot contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Beetroot" />
 
 <NutritionTable details={frontMatter} />
 

@@ -53,14 +53,9 @@ main_image: /img/foods/nori/nori_medium.webp
 legacy_list_image: /img/foods/nori/nori_thumb.webp
 legacy_main_image: /img/foods/nori/nori_medium.webp
 ---
-
 ## Overview
 
 Nori is a red seaweed (Porphyra species) commonly used in sushi and Japanese cuisine. It is a primary dietary source of iodine, an essential trace mineral critical for thyroid function and brain development. Nori also provides supporting amounts of folate (B9) and non-heme iron, along with contextual contributions of magnesium, vitamin K, and carotenoids. While nori may contain variable amounts of vitamin B12 depending on species and processing, it should not be relied upon as a sole B12 source. The seaweed polysaccharides and soluble fibre in nori contribute to gut barrier and microbiome modulation through cumulative, supportive effects.
-
-## Recipes
-
-<FoodRecipes tag="Nori" />
 
 ## Food Context
 
@@ -78,6 +73,10 @@ Nori is a red seaweed (Porphyra species) commonly used in sushi and Japanese cui
 ### Essential Amino Acid Profile
 
 Nori contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Nori" />
 
 <NutritionTable details={frontMatter} />
 

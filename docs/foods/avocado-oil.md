@@ -29,16 +29,9 @@ main_image: /img/foods/avocado-oil/avocado-oil_medium.webp
 legacy_list_image: /img/foods/avocado-oil/avocado-oil_thumb.webp
 legacy_main_image: /img/foods/avocado-oil/avocado-oil_medium.webp
 ---
-
 ## Overview
 
 Avocado oil provides monounsaturated fats (MUFA), vitamin E, and lutein, suitable for cooking and supporting carotenoid absorption. Avocado / Avocado Oil provides MUFAs (oleic), vitamin E, lutein, fibre, and glutathione, and replacing industrial seed oils with more stable options like olive oil, ghee, or avocado oil is recommended.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Avocado Oil" />
 
 ## Food Context
 
@@ -51,6 +44,12 @@ Avocado oil provides monounsaturated fats (MUFA), vitamin E, and lutein, suitabl
 
 - Suitable for cooking (higher smoke point than olive oil)
 - Supports MUFA intake
+
+## Recipes
+
+<FoodRecipes tag="Avocado Oil" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

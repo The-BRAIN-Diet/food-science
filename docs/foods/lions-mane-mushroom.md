@@ -39,16 +39,9 @@ main_image: /img/foods/lions-mane-mushroom/lions-mane-mushroom_medium.webp
 legacy_list_image: /img/foods/lions-mane-mushroom/lions-mane-mushroom_thumb.webp
 legacy_main_image: /img/foods/lions-mane-mushroom/lions-mane-mushroom_medium.webp
 ---
-
 ## Overview
 
 Lion's Mane mushroom (Hericium erinaceus) is a medicinal mushroom traditionally used in East Asian medicine. It contains bioactive compounds including hericenones and erinacines, which have been studied for their potential effects on nerve growth factor (NGF) pathways and neuroprotective mechanisms. While preclinical research suggests potential benefits for nerve health and neuroprotective pathways, clinical evidence for cognitive improvements in humans remains limited and requires further investigation. Lion's Mane is also valued for its culinary properties and contains polysaccharides that may support immune function.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Lion's Mane Mushroom" />
 
 ## Food Context
 
@@ -62,6 +55,12 @@ Lion's Mane mushroom (Hericium erinaceus) is a medicinal mushroom traditionally 
 - Fresh Lion's Mane has a seafood-like texture and mild flavor, suitable for cooking
 - Extracts may provide more concentrated bioactive compounds
 - Rehydrate dried mushrooms before cooking
+
+## Recipes
+
+<FoodRecipes tag="Lion's Mane Mushroom" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

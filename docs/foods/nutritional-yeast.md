@@ -44,24 +44,19 @@ main_image: /img/foods/nutritional-yeast/nutritional-yeast_medium.webp
 legacy_list_image: /img/foods/nutritional-yeast/nutritional-yeast_thumb.webp
 legacy_main_image: /img/foods/nutritional-yeast/nutritional-yeast_medium.webp
 ---
-
 ## Overview
 
 Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotinamide riboside (NAD+ precursor), helping close vegan nutrient gaps. Fortified nutritional yeast (B12, B6) helps narrow vegan nutrient gaps, and precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended.
 
-## Recipes
-
-<FoodRecipes tag="Nutritional Yeast" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose fortified varieties for B12
 
 ### Synergies
 
 - Part of functional food strategy
+
+### Sourcing
+
+- Choose fortified varieties for B12
 
 ### Preparation
 
@@ -71,6 +66,10 @@ Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotin
 ### Essential Amino Acid Profile
 
 Nutritional Yeast contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Nutritional Yeast" />
 
 <NutritionTable details={frontMatter} />
 

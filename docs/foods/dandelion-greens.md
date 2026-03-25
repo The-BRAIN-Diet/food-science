@@ -34,16 +34,9 @@ main_image: /img/foods/dandelion-greens/dandelion-greens_medium.webp
 legacy_list_image: /img/foods/dandelion-greens/dandelion-greens_thumb.webp
 legacy_main_image: /img/foods/dandelion-greens/dandelion-greens_medium.webp
 ---
-
 ## Overview
 
 Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health. They are part of a diverse leafy green intake strategy that supports gut microbiome diversity.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Dandelion Greens" />
 
 ## Food Context
 
@@ -56,6 +49,12 @@ Dandelion greens are bitter leafy greens providing prebiotic fiber and supportin
 - Can be consumed raw or cooked
 - Bitter taste may be an acquired preference
 - Supports gut microbiome diversity
+
+## Recipes
+
+<FoodRecipes tag="Dandelion Greens" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

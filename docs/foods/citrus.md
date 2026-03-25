@@ -41,16 +41,9 @@ main_image: /img/foods/citrus/citrus_medium.webp
 legacy_list_image: /img/foods/citrus/citrus_thumb.webp
 legacy_main_image: /img/foods/citrus/citrus_medium.webp
 ---
-
 ## Overview
 
 Citrus fruits provide high vitamin C content that enhances non-heme iron absorption and supports antioxidant defenses. Vitamin C enhances non-heme iron absorption (up to 4× increase) and provides antioxidant support.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Citrus" />
 
 ## Food Context
 
@@ -62,6 +55,12 @@ Citrus fruits provide high vitamin C content that enhances non-heme iron absorpt
 ### Preparation
 
 - Antioxidant support
+
+## Recipes
+
+<FoodRecipes tag="Citrus" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

@@ -81,16 +81,11 @@ main_image: /img/foods/extra-virgin-olive-oil/extra-virgin-olive-oil_medium.webp
 legacy_list_image: /img/foods/olive-oil/olive-oil_thumb.webp
 legacy_main_image: /img/foods/olive-oil/olive-oil_medium.webp
 ---
-
 ## Overview
 
 Extra virgin olive oil (EVOO) is a cornerstone fat in the BRAIN Diet, providing mostly monounsaturated fat (oleic acid) together with meaningful amounts of **vitamin E (alpha-tocopherol)**, **vitamin K₁**, and a dense cluster of **olive-specific polyphenols**. While its basic macronutrient profile looks simple, phenolics such as oleuropein aglycone, oleocanthal, oleacein, and hydroxytyrosol derivatives give EVOO a distinctive antioxidant and anti-inflammatory signature compared with refined seed oils [1,2]. The same polyphenol and tocopherol cluster helps stabilise the oil against oxidation during storage and moderate heat cooking.
 
 Within the BRAIN Diet framework, the brain-relevant benefits of EVOO come primarily from these polyphenols and fat-soluble antioxidants rather than from calories or fat alone. The EFSA-authorised claim for “protection of blood lipids from oxidative stress” requires at least 250 mg/kg of hydroxytyrosol and its derivatives (≈25 mg/100 g) [3]. In practice, many commercial EVOOs fall around ~100–250 mg/kg total phenolics, while early-harvest, high-polyphenol oils can reach ~500–900 mg/kg depending on cultivar, harvest timing, and processing [4]. Used as the default dressing and cooking fat around vegetables, legumes, and whole grains, EVOO helps improve polyphenol bioavailability and supports cardiometabolic and neuroprotective mechanisms as part of a Mediterranean-style pattern [2–4].
-
-## Recipes
-
-<FoodRecipes tag="Extra Virgin Olive Oil" />
 
 ## Food Context
 
@@ -100,6 +95,10 @@ Within the BRAIN Diet framework, the brain-relevant benefits of EVOO come primar
 - Avoid high-heat cooking to preserve polyphenols and prevent oxidation
 - Early harvest oils have higher bioactive content (oleuropein, polyphenols) and may contain CoQ10 in useful quantities
 - Store away from heat and light to preserve antioxidant properties
+
+## Recipes
+
+<FoodRecipes tag="Extra Virgin Olive Oil" />
 
 <NutritionTable details={frontMatter} />
 

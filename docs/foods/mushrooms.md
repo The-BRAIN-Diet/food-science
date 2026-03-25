@@ -38,16 +38,9 @@ main_image: /img/foods/mushrooms/mushrooms_medium.webp
 legacy_list_image: /img/foods/mushrooms/mushrooms_thumb.webp
 legacy_main_image: /img/foods/mushrooms/mushrooms_medium.webp
 ---
-
 ## Overview
 
 Mushrooms, especially UV-exposed varieties, provide vitamin D and niacin (B3) for NAD+ synthesis, supporting mitochondrial function and brain health. UV-exposed mushrooms as a source of vitamin D. Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health. Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Mushrooms" />
 
 ## Food Context
 
@@ -60,6 +53,12 @@ Mushrooms, especially UV-exposed varieties, provide vitamin D and niacin (B3) fo
 - UV-exposed mushrooms provide vitamin D2 (ergocalciferol); targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts)
 - Cooking may enhance some nutrient bioavailability
 - UV-grown mushrooms mentioned as functional food innovation
+
+## Recipes
+
+<FoodRecipes tag="Mushrooms" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

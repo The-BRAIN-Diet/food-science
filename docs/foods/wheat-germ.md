@@ -45,16 +45,11 @@ main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
 legacy_list_image: /img/foods/wheat-germ/wheat-germ_thumb.webp
 legacy_main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
 ---
-
 ## Overview
 
 Wheat germ is the embryo fraction of the wheat kernel and is often used as a concentrated additive rather than a standalone staple food. It is notable for contributing vitamin E, choline, and other micronutrients associated with the germ fraction of grains.
 
 In practical use, nutrient impact depends strongly on form (raw/toasted wheat germ vs wheat germ oil vs mixed products). Within the BRAIN Diet framework, wheat germ is best treated as a concentrated ingredient used in small amounts within broader meal patterns.
-
-## Recipes
-
-<FoodRecipes tag="Wheat Germ" />
 
 ## Key Nutritional Highlights
 
@@ -65,18 +60,22 @@ In practical use, nutrient impact depends strongly on form (raw/toasted wheat ge
 
 ## Food Context
 
-### Sourcing
-
-- Store refrigerated to prevent rancidity
-
 ### Synergies
 
 - Can complement other dietary choline sources (e.g. eggs, fish, soy foods) in plant-forward patterns.
+
+### Sourcing
+
+- Store refrigerated to prevent rancidity
 
 ### Preparation
 
 - Add to porridge, yogurt bowls, or baking in modest amounts.
 - Store refrigerated after opening to limit oxidation and rancidity.
+
+## Recipes
+
+<FoodRecipes tag="Wheat Germ" />
 
 <NutritionTable details={frontMatter} />
 

@@ -33,16 +33,9 @@ main_image: /img/foods/strawberries/strawberries_medium.webp
 legacy_list_image: /img/foods/strawberries/strawberries_thumb.webp
 legacy_main_image: /img/foods/strawberries/strawberries_medium.webp
 ---
-
 ## Overview
 
 Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant networks and cognitive function. Berries are mentioned as polyphenol-rich foods and are part of polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) in the Mediterranean diet pattern.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Strawberries" />
 
 ## Food Context
 
@@ -55,6 +48,12 @@ Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant n
 
 - Best consumed fresh or frozen
 - Supports antioxidant networks
+
+## Recipes
+
+<FoodRecipes tag="Strawberries" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

@@ -38,14 +38,9 @@ main_image: /img/foods/cooled-potatoes/cooled-potatoes_medium.webp
 legacy_list_image: /img/foods/cooled-potatoes/cooled-potatoes_thumb.webp
 legacy_main_image: /img/foods/cooled-potatoes/cooled-potatoes_medium.webp
 ---
-
 ## Overview
 
 Potatoes that are cooked and then cooled develop resistant starch through retrogradation, providing prebiotic fiber that supports gut microbiome and SCFA production. The complex carbohydrate, Resistant Starch, forms when certain starchy foods are cooked and then cooled, a process called retrogradation. Foods like rice and potatoes develop higher resistant starch content when chilled. White rice was cooled and reheated showing a rise in RS content from 0.64 to 1.65 g/100 g and elicited a lower glycemic response.
-
-## Recipes
-
-<FoodRecipes tag="Cooled Potatoes" />
 
 ## Food Context
 
@@ -59,6 +54,10 @@ Potatoes that are cooked and then cooled develop resistant starch through retrog
 ### Essential Amino Acid Profile
 
 Cooled Potatoes contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Cooled Potatoes" />
 
 <NutritionTable details={frontMatter} />
 

@@ -35,14 +35,9 @@ main_image: /img/foods/pumpkin-seeds/pumpkin-seeds_medium.webp
 legacy_list_image: /img/foods/pumpkin-seeds/pumpkin-seeds_thumb.webp
 legacy_main_image: /img/foods/pumpkin-seeds/pumpkin-seeds_medium.webp
 ---
-
 ## Overview
 
 Pumpkin seeds are nutrient-dense seeds providing zinc, tryptophan, magnesium, and other minerals critical for neurotransmitter synthesis and antioxidant function. Pumpkin seeds have high zinc content for neurotransmitter modulation and are listed as sources for tryptophan, zinc, and glutamate synthesis. Plant zinc is less bioavailable due to phytates; soaking/sprouting helps improve bioavailability.
-
-## Recipes
-
-<FoodRecipes tag="Pumpkin Seeds" />
 
 ## Key Nutritional Highlights
 
@@ -79,6 +74,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Pumpkin seeds are notable for tryptophan and leucine but relatively low in lysine. Combining with grains or legumes helps create a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Pumpkin Seeds" />
 
 <NutritionTable details={frontMatter} />
 

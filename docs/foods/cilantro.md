@@ -41,16 +41,9 @@ main_image: /img/foods/cilantro/cilantro_medium.webp
 legacy_list_image: /img/foods/cilantro/cilantro_thumb.webp
 legacy_main_image: /img/foods/cilantro/cilantro_medium.webp
 ---
-
 ## Overview
 
 Cilantro is an herb that may support heavy metal chelation and provides polyphenols, though research is limited.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cilantro" />
 
 ## Food Context
 
@@ -63,6 +56,12 @@ Cilantro is an herb that may support heavy metal chelation and provides polyphen
 - Can be used fresh or as garnish
 - Similar uses to parsley
 - Supports diverse plant food strategy
+
+## Recipes
+
+<FoodRecipes tag="Cilantro" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

@@ -40,14 +40,9 @@ main_image: /img/foods/duck-fat/duck-fat_medium.webp
 legacy_list_image: /img/foods/duck-fat/duck-fat_thumb.webp
 legacy_main_image: /img/foods/duck-fat/duck-fat_medium.webp
 ---
-
 ## Overview
 
 Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures.
-
-## Recipes
-
-<FoodRecipes tag="Duck Fat" />
 
 ## Food Context
 
@@ -64,6 +59,10 @@ Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflam
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Duck Fat" />
 
 <NutritionTable details={frontMatter} />
 

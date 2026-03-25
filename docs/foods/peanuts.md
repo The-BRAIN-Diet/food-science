@@ -44,14 +44,9 @@ main_image: /img/foods/peanuts/peanuts_medium.webp
 legacy_list_image: /img/foods/peanuts/peanuts_thumb.webp
 legacy_main_image: /img/foods/peanuts/peanuts_medium.webp
 ---
-
 ## Overview
 
 Peanuts provide niacin (B3) for NAD+ synthesis, resveratrol (polyphenol), and plant protein supporting mitochondrial function and antioxidant networks. Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains. Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health.
-
-## Recipes
-
-<FoodRecipes tag="Peanuts" />
 
 ## Food Context
 
@@ -80,6 +75,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Peanuts are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Peanuts" />
 
 <NutritionTable details={frontMatter} />
 

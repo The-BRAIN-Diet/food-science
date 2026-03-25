@@ -36,14 +36,9 @@ main_image: /img/foods/kidney-beans/kidney-beans_medium.webp
 legacy_list_image: /img/foods/kidney-beans/kidney-beans_thumb.webp
 legacy_main_image: /img/foods/kidney-beans/kidney-beans_medium.webp
 ---
-
 ## Overview
 
 Kidney beans provide plant protein, polyphenols, and prebiotic fiber, supporting gut health and neurotransmitter synthesis. Kidney beans have a DIAAS score of 60-65, indicating they are methionine-limited and should be paired with grains for complete amino acid profile. Kidney beans are polyphenol-rich and support gut health through prebiotic fiber and polyphenol effects on the microbiome.
-
-## Recipes
-
-<FoodRecipes tag="Kidney Beans" />
 
 ## Food Context
 
@@ -69,6 +64,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Kidney Beans are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Kidney Beans" />
 
 <NutritionTable details={frontMatter} />
 

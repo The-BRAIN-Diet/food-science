@@ -46,16 +46,11 @@ main_image: /img/foods/wheat/wheat_medium.webp
 legacy_list_image: /img/foods/wheat/wheat_thumb.webp
 legacy_main_image: /img/foods/wheat/wheat_medium.webp
 ---
-
 ## Overview
 
 Wheat, especially in less-refined forms, provides complex carbohydrates, fibre, and minerals such as magnesium, iron, and zinc [2]. It can contribute useful B-vitamin intake and remains a widely used staple that can support dietary energy needs in many meal patterns.
 
 From a protein perspective, wheat is best understood as a grain protein that is typically lysine-limited rather than complete on its own [1,2]. In the BRAIN Diet framework, wheat-based foods are most useful when paired with legumes across meals to improve essential amino-acid balance while maintaining practical dietary variety [1,2].
-
-## Recipes
-
-<FoodRecipes tag="Wheat" />
 
 ## Key Nutritional Highlights
 
@@ -66,13 +61,13 @@ From a protein perspective, wheat is best understood as a grain protein that is 
 
 ## Food Context
 
-### Sourcing
-
-- Choose less-refined and whole-grain wheat products where tolerated, as they generally retain more fibre and micronutrients than highly refined forms.
-
 ### Synergies
 
 - Pair wheat with legumes (e.g. lentils, chickpeas, beans) to improve essential amino-acid balance at meal/day level [1,2].
+
+### Sourcing
+
+- Choose less-refined and whole-grain wheat products where tolerated, as they generally retain more fibre and micronutrients than highly refined forms.
 
 ### Preparation
 
@@ -93,6 +88,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Grains such as wheat are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Wheat" />
 
 <NutritionTable details={frontMatter} />
 

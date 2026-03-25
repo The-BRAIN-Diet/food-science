@@ -37,14 +37,9 @@ main_image: /img/foods/spelt/spelt_medium.webp
 legacy_list_image: /img/foods/spelt/spelt_thumb.webp
 legacy_main_image: /img/foods/spelt/spelt_medium.webp
 ---
-
 ## Overview
 
 Spelt is an ancient wheat variety providing high asparagine and fiber, making it ideal for sourdough bread with optimized Maillard reaction products (MRPs). Whole Spelt Flour has high asparagine + fibre; substrate for Maillard; better MRPs than white flour - ↑ Melanoidin precursors; ↑ antioxidant MRPs.
-
-## Recipes
-
-<FoodRecipes tag="Spelt" />
 
 ## Food Context
 
@@ -73,6 +68,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Grains such as spelt are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Spelt" />
 
 <NutritionTable details={frontMatter} />
 

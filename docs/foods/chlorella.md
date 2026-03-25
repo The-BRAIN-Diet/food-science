@@ -34,24 +34,19 @@ main_image: /img/foods/chlorella/chlorella_medium.webp
 legacy_list_image: /img/foods/chlorella/chlorella_thumb.webp
 legacy_main_image: /img/foods/chlorella/chlorella_medium.webp
 ---
-
 ## Overview
 
 Chlorella is a microalgae providing bioavailable, true vitamin B12 (cobalamin) confirmed in animal feeding trials, plus antioxidants and amino acids. Chlorella contains bioavailable, true vitamin B12 (cobalamin), confirmed in animal feeding trials, and may help close vegan nutrient gaps.
 
-## Recipes
-
-<FoodRecipes tag="Chlorella" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose quality sources with confirmed B12 content
 
 ### Synergies
 
 - Part of functional food strategy
+
+### Sourcing
+
+- Choose quality sources with confirmed B12 content
 
 ### Preparation
 
@@ -61,6 +56,10 @@ Chlorella is a microalgae providing bioavailable, true vitamin B12 (cobalamin) c
 ### Essential Amino Acid Profile
 
 Chlorella contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Chlorella" />
 
 <NutritionTable details={frontMatter} />
 

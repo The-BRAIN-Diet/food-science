@@ -39,16 +39,9 @@ main_image: /img/foods/oyster-mushroom/oyster-mushroom_medium.webp
 legacy_list_image: /img/foods/oyster-mushroom/oyster-mushroom_thumb.webp
 legacy_main_image: /img/foods/oyster-mushroom/oyster-mushroom_medium.webp
 ---
-
 ## Overview
 
 Oyster mushroom (Pleurotus ostreatus) is a popular culinary mushroom valued for its mild flavor, meaty texture, and nutritional benefits. It is rich in beta-glucans, polysaccharides that support immune function, and provides B vitamins including niacin (B3), which supports NAD+ synthesis and mitochondrial function. Oyster mushrooms are widely cultivated and used in cooking, offering a versatile plant-based protein source. The mushroom contains lovastatin, a compound that has been studied for its potential cardiovascular benefits, and its beta-glucan content contributes to immune-modulating properties similar to other medicinal mushrooms.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Oyster Mushroom" />
 
 ## Food Context
 
@@ -62,6 +55,12 @@ Oyster mushroom (Pleurotus ostreatus) is a popular culinary mushroom valued for 
 - Cooking enhances flavor and may improve bioavailability of some nutrients
 - Can be sautéed, roasted, grilled, or added to soups and stews
 - The mushroom has a mild, slightly sweet flavor that pairs well with many dishes
+
+## Recipes
+
+<FoodRecipes tag="Oyster Mushroom" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

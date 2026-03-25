@@ -62,16 +62,11 @@ main_image: /img/foods/dark-chocolate/dark-chocolate_medium.webp
 legacy_list_image: /img/foods/dark-chocolate/dark-chocolate_thumb.webp
 legacy_main_image: /img/foods/dark-chocolate/dark-chocolate_medium.webp
 ---
-
 ## Overview
 
 Dark chocolate (typically >=70% cocoa) is a concentrated source of cocoa polyphenols, particularly flavanols, including epicatechin, catechin, and oligomeric procyanidins. These compounds have been studied for their roles in vascular and neurocognitive function, with mechanistic evidence highlighting endothelial nitric oxide pathways as a key component of vascular regulation. Flavanol-rich cocoa is associated with improved endothelial function, nitric oxide bioavailability, and downstream effects on cerebral blood flow, which may contribute to observed cognitive outcomes in studies of high-flavonoid intake [1][2].
 
 Within the BRAIN Diet framework, dark chocolate is best positioned as a functional ingredient rather than a daily staple. Its polyphenol content varies widely depending on cocoa percentage, processing, and formulation, while heavy metal levels can differ significantly between products. Selecting high-cocoa, minimally processed, and independently tested sources helps maximise potential benefit while managing exposure risks [3].
-
-## Recipes
-
-<FoodRecipes tag="Dark Chocolate" />
 
 ## Key Nutritional Highlights
 
@@ -82,15 +77,15 @@ Within the BRAIN Diet framework, dark chocolate is best positioned as a function
 
 ## Food Context
 
+### Synergies
+
+- Pair with calcium/zinc sources to reduce metal absorption
+
 ### Sourcing
 
 - Choose 70%+ cocoa for higher flavanol content
 - Consider higher-milk/lower-cocoa formulations to reduce heavy metal absorption
 - Select low-Cd/Pb origins with strong post-harvest controls
-
-### Synergies
-
-- Pair with calcium/zinc sources to reduce metal absorption
 
 ### Preparation
 
@@ -99,6 +94,10 @@ Within the BRAIN Diet framework, dark chocolate is best positioned as a function
 ### Essential Amino Acid Profile
 
 Dark chocolate is not used as a primary protein food, so essential amino-acid contribution is not a practical reason to include it. Its relevance in this framework is polyphenol content and mineral density rather than protein quality.
+
+## Recipes
+
+<FoodRecipes tag="Dark Chocolate" />
 
 <NutritionTable details={frontMatter} />
 

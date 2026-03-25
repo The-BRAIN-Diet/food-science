@@ -45,18 +45,11 @@ main_image: /img/foods/sardines/sardines_medium.webp
 legacy_list_image: /img/foods/sardines/sardines_thumb.webp
 legacy_main_image: /img/foods/sardines/sardines_medium.webp
 ---
-
 ## Overview
 
 Sardines are small oily fish eaten whole, providing long-chain omega-3 fatty acids **EPA** and **DHA**, **vitamin B12**, **selenium**, **calcium** from the softened bones, and highly digestible protein. Because canned sardines typically include the skeleton, they contribute meaningfully to both marine omega-3 intake and calcium alongside B12 and other micronutrients [1]. These intrinsic nutrients support neuronal membrane structure, mitochondrial bioenergetics, and red blood cell formation.
 
 Within the BRAIN Diet framework, sardines are treated as a **compact, shelf-stable oily fish** that can be used when fresh fish is less practical. Regular intake of oily fish rich in EPA and DHA is associated with reduced cardiovascular risk and may support aspects of cognitive and mood outcomes [1,2]. Compared with larger predatory fish, sardines sit low in the marine food chain and generally accumulate less mercury, which supports their use as a frequent marine omega-3 source in many dietary patterns [3].
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Sardines" />
 
 ## Key Nutritional Highlights
 
@@ -78,6 +71,12 @@ Within the BRAIN Diet framework, sardines are treated as a **compact, shelf-stab
 
 - Sardines can be eaten directly from the can or lightly warmed; avoid prolonged high-temperature frying or charring that can oxidize lipids.
 - When tolerated, consuming the **bones together with the fillet** maximizes calcium intake from the food; combining sardines with vegetables and whole grains helps integrate this dense source of omega-3s into balanced meals.
+
+## Recipes
+
+<FoodRecipes tag="Sardines" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

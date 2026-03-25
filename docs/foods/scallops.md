@@ -33,16 +33,11 @@ main_image: /img/foods/scallops/scallops_medium.webp
 legacy_list_image: /img/foods/scallops/scallops_thumb.webp
 legacy_main_image: /img/foods/scallops/scallops_medium.webp
 ---
-
 ## Overview
 
 Scallops are bivalve shellfish that provide **vitamin B12**, **iron**, **zinc**, **magnesium**, modest amounts of omega-3 fatty acids, and lean, highly digestible protein. Their micronutrient profile supports red blood cell formation, one-carbon metabolism, and enzymatic antioxidant systems, while the lean protein contributes to satiety and tissue repair with relatively low fat and energy per 100 g [1]. Like other shellfish, scallops also supply trace minerals that are less abundant in many terrestrial foods.
 
 Within the BRAIN Diet framework, scallops are used as an occasional **lean shellfish option** that complements both fish and plant-based protein sources. They fit particularly well into meals where the primary focus is on vegetables and whole grains, adding protein and micronutrients without a large increase in calories [1]. As with other seafood, overall dietary pattern, sourcing from well-managed fisheries, and gentle cooking methods help ensure that scallops contribute nutritional benefits within a sustainable, safe eating pattern [1,2].
-
-## Recipes
-
-<FoodRecipes tag="Scallops" />
 
 ## Key Nutritional Highlights
 
@@ -54,13 +49,13 @@ Within the BRAIN Diet framework, scallops are used as an occasional **lean shell
 
 ## Food Context
 
-### Sourcing
-
-- Sustainable seafood option
-
 ### Synergies
 
 - Part of diverse protein strategy
+
+### Sourcing
+
+- Sustainable seafood option
 
 ### Preparation
 
@@ -70,6 +65,10 @@ Within the BRAIN Diet framework, scallops are used as an occasional **lean shell
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Scallops" />
 
 <NutritionTable details={frontMatter} />
 

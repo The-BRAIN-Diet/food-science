@@ -44,14 +44,9 @@ main_image: /img/foods/chia-seeds/chia-seeds_medium.webp
 legacy_list_image: /img/foods/chia-seeds/chia-seeds_thumb.webp
 legacy_main_image: /img/foods/chia-seeds/chia-seeds_medium.webp
 ---
-
 ## Overview
 
 Chia seeds provide ALA (plant omega-3), soluble fiber, and minerals, supporting gut health and providing plant-based omega-3. Soluble fibre (from apples, oats, flaxseeds) - chia also provides soluble fiber supporting gut health and SCFA production. ALA is an essential omega-3 fatty acid with limited conversion to DHA/EPA in adults; food sources include flax, chia, and walnuts. Conversion from ALA is less than 5% in most adults; direct DHA/EPA strongly recommended for optimal brain health.
-
-## Recipes
-
-<FoodRecipes tag="Chia Seeds" />
 
 ## Key Nutritional Highlights
 
@@ -79,6 +74,10 @@ Chia Seeds provide plant protein but are not a complete protein; lysine is typic
 Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
+
+## Recipes
+
+<FoodRecipes tag="Chia Seeds" />
 
 <NutritionTable details={frontMatter} />
 

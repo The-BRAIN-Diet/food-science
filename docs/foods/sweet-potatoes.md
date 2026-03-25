@@ -48,16 +48,11 @@ main_image: /img/foods/sweet-potatoes/sweet-potatoes_medium.webp
 legacy_list_image: /img/foods/sweet-potatoes/sweet-potatoes_thumb.webp
 legacy_main_image: /img/foods/sweet-potatoes/sweet-potatoes_medium.webp
 ---
-
 ## Overview
 
 Sweet potatoes are starchy roots that combine slow-digesting carbohydrate with meaningful fibre, potassium, and carotenoid density. Orange-fleshed varieties are especially relevant for **beta-carotene**, while also contributing vitamin C and vitamin B6 in whole-food form.
 
 Within the BRAIN Diet framework, sweet potatoes are best used as a whole-food carbohydrate base that can be roasted, steamed, or cooled/reheated depending on meal context. Their nutrient profile differs from white potatoes primarily through carotenoid concentration and generally higher intrinsic sweetness, while still supporting fibre-first meal construction.
-
-## Recipes
-
-<FoodRecipes tag="Sweet Potatoes" />
 
 ## Key Nutritional Highlights
 
@@ -81,6 +76,10 @@ Within the BRAIN Diet framework, sweet potatoes are best used as a whole-food ca
 
 Sweet potatoes are not a protein-forward food; use legumes, dairy, eggs, fish, or other protein-rich foods alongside.
 
+## Recipes
+
+<FoodRecipes tag="Sweet Potatoes" />
+
 <NutritionTable details={frontMatter} />
 
 ## Substances
@@ -90,4 +89,3 @@ Sweet potatoes are not a protein-forward food; use legumes, dairy, eggs, fish, o
 ## References
 
 [1] USDA FoodData Central compositional records for sweet potato (raw/cooked variants) [USDA FoodData Central](/docs/papers/BRAIN-Diet-References)
-

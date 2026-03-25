@@ -39,16 +39,9 @@ main_image: /img/foods/lemon/lemon_medium.webp
 legacy_list_image: /img/foods/lemon/lemon_thumb.webp
 legacy_main_image: /img/foods/lemon/lemon_medium.webp
 ---
-
 ## Overview
 
 Lemon provides vitamin C that enhances non-heme iron absorption and can be used to adjust pH in food preparation (e.g., bean soaking). Pairing plant-based iron sources with citrus enhances iron absorption, and adding vitamin-C sources (e.g., lemon) favors iron uptake.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Lemon" />
 
 ## Food Context
 
@@ -61,6 +54,12 @@ Lemon provides vitamin C that enhances non-heme iron absorption and can be used 
 - Add to iron-rich plant meals to enhance absorption
 - Use in bean soaking for pH optimization
 - Can be added to tea to reduce iron-binding effects
+
+## Recipes
+
+<FoodRecipes tag="Lemon" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

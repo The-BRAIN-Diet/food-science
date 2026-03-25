@@ -25,31 +25,30 @@ main_image: /img/foods/kombucha/kombucha_medium.webp
 legacy_list_image: /img/foods/kombucha/kombucha_thumb.webp
 legacy_main_image: /img/foods/kombucha/kombucha_medium.webp
 ---
-
 ## Overview
 
 Kombucha is fermented tea providing live probiotics, postbiotic compounds, and organic acids, supporting gut-brain axis communication. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Kombucha" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose products with live cultures
 
 ### Synergies
 
 - Part of fermented foods rotation
 
+### Sourcing
+
+- Choose products with live cultures
+
 ### Preparation
 
 - Supports gut microbiome diversity
 - Moderate consumption due to sugar content in some products
+
+## Recipes
+
+<FoodRecipes tag="Kombucha" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

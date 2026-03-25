@@ -38,16 +38,9 @@ main_image: /img/foods/peppermint/peppermint_medium.webp
 legacy_list_image: /img/foods/peppermint/peppermint_thumb.webp
 legacy_main_image: /img/foods/peppermint/peppermint_medium.webp
 ---
-
 ## Overview
 
 Peppermint provides compounds that support mental clarity and alertness, useful for ADHD focus support. Peppermint supports mental clarity and alertness and can be consumed as herbal tea or essential oil inhalation.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Peppermint" />
 
 ## Food Context
 
@@ -60,6 +53,12 @@ Peppermint provides compounds that support mental clarity and alertness, useful 
 - Can be consumed as herbal tea
 - Essential oil can be used for inhalation
 - Supports mental clarity
+
+## Recipes
+
+<FoodRecipes tag="Peppermint" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

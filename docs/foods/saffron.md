@@ -43,14 +43,9 @@ main_image: /img/foods/saffron/saffron_medium.webp
 legacy_list_image: /img/foods/saffron/saffron_thumb.webp
 legacy_main_image: /img/foods/saffron/saffron_medium.webp
 ---
-
 ## Overview
 
 Saffron provides crocin (antioxidant) and safranal (volatile compound) that support mood regulation, cognition, and ADHD symptoms at therapeutic doses (~30 mg/day). Saffron is thought to boost serotonin and have antioxidant crocin and has shown promising effects on depression, mood, cognition, and ADHD symptoms at doses around 30 mg/day of standardized extract.
-
-## Recipes
-
-<FoodRecipes tag="Saffron" />
 
 ## Food Context
 
@@ -67,6 +62,10 @@ Saffron provides crocin (antioxidant) and safranal (volatile compound) that supp
 ### Essential Amino Acid Profile
 
 Saffron contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Saffron" />
 
 <NutritionTable details={frontMatter} />
 

@@ -39,16 +39,11 @@ main_image: /img/foods/whole-grains/whole-grains_medium.webp
 legacy_list_image: /img/foods/whole-grains/whole-grains_thumb.webp
 legacy_main_image: /img/foods/whole-grains/whole-grains_medium.webp
 ---
-
 ## Overview
 
 Whole grains retain all major kernel components (bran, germ, and endosperm), which preserves more fibre and micronutrients than highly refined grain products. In practice, this usually means higher intake of dietary fibre, B vitamins, and minerals within similar eating patterns.
 
 Within the BRAIN Diet framework, whole grains are used as a foundational carbohydrate category that supports glycaemic stability and gut-directed dietary structure when they replace refined grain patterns. Protein quality remains grain-typical (lysine-limited), so amino-acid balance still improves when paired with legumes [1,2].
-
-## Recipes
-
-<FoodRecipes tag="Whole Grains" />
 
 ## Key Nutritional Highlights
 
@@ -79,6 +74,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Grains such as whole grains are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Whole Grains" />
 
 <NutritionTable details={frontMatter} />
 

@@ -52,16 +52,11 @@ main_image: /img/foods/oysters/oysters_medium.webp
 legacy_list_image: /img/foods/oysters/oysters_thumb.webp
 legacy_main_image: /img/foods/oysters/oysters_medium.webp
 ---
-
 ## Overview
 
 Oysters are bivalve shellfish that provide high levels of **zinc**, **vitamin B12**, **iron**, and **selenium**, as well as modest amounts of omega-3 fatty acids. Among commonly eaten foods, oysters are notable for their zinc density, supporting enzymes involved in neurotransmitter synthesis, antioxidant defence, and immune function [1]. Their B12 and iron content contribute to red blood cell formation and one-carbon metabolism, which are important for neurological and cardiovascular health.
 
 Within the BRAIN Diet framework, oysters are a strategic micronutrient-dense option where zinc and B12 adequacy are priorities, including some dietary patterns that otherwise use little or no animal foods. Zinc concentrations vary materially by species and environment, but oysters remain among the most zinc-dense commonly eaten foods even with that variability [2].
-
-## Recipes
-
-<FoodRecipes tag="Oysters" />
 
 ## Key Nutritional Highlights
 
@@ -86,6 +81,10 @@ Within the BRAIN Diet framework, oysters are a strategic micronutrient-dense opt
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Oysters" />
 
 <NutritionTable details={frontMatter} />
 

@@ -32,16 +32,9 @@ main_image: /img/foods/ghee/ghee_medium.webp
 legacy_list_image: /img/foods/ghee/ghee_thumb.webp
 legacy_main_image: /img/foods/ghee/ghee_medium.webp
 ---
-
 ## Overview
 
 Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking. Ghee provides butyrate, vitamins A/D/E/K2, is heat-stable, and low in lactose/casein, making it suitable for high-heat cooking and Ayurvedic dishes.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Ghee" />
 
 ## Food Context
 
@@ -54,6 +47,12 @@ Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stabili
 - Heat-stable for high-heat cooking
 - Low in lactose/casein (suitable for some sensitivities)
 - Supports butyrate intake
+
+## Recipes
+
+<FoodRecipes tag="Ghee" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

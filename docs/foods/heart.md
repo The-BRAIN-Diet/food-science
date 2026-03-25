@@ -38,18 +38,11 @@ main_image: /img/foods/heart/heart_medium.webp
 legacy_list_image: /img/foods/heart/heart_thumb.webp
 legacy_main_image: /img/foods/heart/heart_medium.webp
 ---
-
 ## Overview
 
 Heart is an organ meat often highlighted for its CoQ10 content, supporting mitochondrial electron transport and antioxidant function [1]. Reviews of edible offal note that different organs concentrate different nutrients; in practice, heart is typically used as an occasional rotational offal food rather than a daily staple [2].
 
 Within the BRAIN Diet framework, heart can be used strategically when prioritising mitochondrial-supportive nutrients such as CoQ10, while keeping the overall dietary pattern plant-forward. Sourcing from reputable producers and using gentle, moist-heat cooking methods help preserve palatability and avoid excessive high-heat byproducts [1,2].
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Heart" />
 
 ## Key Nutritional Highlights
 
@@ -61,18 +54,24 @@ Within the BRAIN Diet framework, heart can be used strategically when prioritisi
 
 ## Food Context
 
-### Sourcing
-
-- Source from grass-fed/pasture-raised when possible
-
 ### Synergies
 
 - Part of nutrient-dense animal food strategy
+
+### Sourcing
+
+- Source from grass-fed/pasture-raised when possible
 
 ### Preparation
 
 - Best prepared with gentle cooking
 - Important for CoQ10 intake
+
+## Recipes
+
+<FoodRecipes tag="Heart" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

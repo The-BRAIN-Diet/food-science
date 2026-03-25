@@ -48,16 +48,9 @@ main_image: /img/foods/green-tea/green-tea_medium.webp
 legacy_list_image: /img/foods/green-tea/green-tea_thumb.webp
 legacy_main_image: /img/foods/green-tea/green-tea_medium.webp
 ---
-
 ## Overview
 
 Green tea provides catechins (especially EGCG), L-theanine, and polyphenols that support cognitive function, antioxidant defenses, and metabolic health. Green tea contributes manganese and small amounts of fluoride and potassium, alongside polyphenols that support antioxidant defenses. Green tea catechins (e.g., EGCG, EGC) contribute to visceral adipose tissue reduction and neuroprotective effects in Green Mediterranean Diet studies, which showed attenuated brain atrophy by ~50%. Green tea is also mentioned as a polyphenol antimicrobial for SIBO suppression.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Green Tea" />
 
 ## Food Context
 
@@ -70,6 +63,12 @@ Green tea provides catechins (especially EGCG), L-theanine, and polyphenols that
 - Steep at lower temperatures to preserve catechins and prevent degradation
 - Green tea catechins increase Faecalibacterium and Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation
 - L-theanine found in green tea increases alpha waves and calms without sedation
+
+## Recipes
+
+<FoodRecipes tag="Green Tea" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

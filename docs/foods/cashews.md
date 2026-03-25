@@ -39,14 +39,9 @@ main_image: /img/foods/cashews/cashews_medium.webp
 legacy_list_image: /img/foods/cashews/cashews_thumb.webp
 legacy_main_image: /img/foods/cashews/cashews_medium.webp
 ---
-
 ## Overview
 
 Cashews provide plant protein and zinc, supporting neurotransmitter modulation and antioxidant enzyme function. Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, cashews.
-
-## Recipes
-
-<FoodRecipes tag="Cashews" />
 
 ## Food Context
 
@@ -67,6 +62,10 @@ Cashews provide plant protein but are not a complete protein; lysine is typicall
 Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
+
+## Recipes
+
+<FoodRecipes tag="Cashews" />
 
 <NutritionTable details={frontMatter} />
 

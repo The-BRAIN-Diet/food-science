@@ -44,14 +44,9 @@ main_image: /img/foods/seaweed/seaweed_medium.webp
 legacy_list_image: /img/foods/seaweed/seaweed_thumb.webp
 legacy_main_image: /img/foods/seaweed/seaweed_medium.webp
 ---
-
 ## Overview
 
 Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health. Seaweed can be added to soups, stews, or salads and provides trace amounts of creatine (e.g., nori) and taurine.
-
-## Recipes
-
-<FoodRecipes tag="Seaweed" />
 
 ## Food Context
 
@@ -68,6 +63,10 @@ Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, 
 ### Essential Amino Acid Profile
 
 Seaweed contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Seaweed" />
 
 <NutritionTable details={frontMatter} />
 

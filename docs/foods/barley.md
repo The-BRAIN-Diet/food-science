@@ -45,14 +45,9 @@ main_image: /img/foods/barley/barley_medium.webp
 legacy_list_image: /img/foods/barley/barley_thumb.webp
 legacy_main_image: /img/foods/barley/barley_medium.webp
 ---
-
 ## Overview
 
 Barley is a whole grain valued for **beta-glucan** prebiotic fibre and sustained energy release. Beta-glucan supports gut microbiome diversity and stable blood glucose; it is an intrinsic component of barley (and oats, mushrooms), not to be confused with downstream metabolites such as SCFAs produced by fermentation.
-
-## Recipes
-
-<FoodRecipes tag="Barley" />
 
 ## Key Nutritional Highlights
 
@@ -87,6 +82,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Grains such as barley are relatively higher in methionine but lysine-limited. Combining barley with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Barley" />
 
 <NutritionTable details={frontMatter} />
 

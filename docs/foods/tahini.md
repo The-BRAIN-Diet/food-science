@@ -41,14 +41,9 @@ main_image: /img/foods/tahini/tahini_medium.webp
 legacy_list_image: /img/foods/tahini/tahini_thumb.webp
 legacy_main_image: /img/foods/tahini/tahini_medium.webp
 ---
-
 ## Overview
 
 Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorption when paired with vegetables like carrots. Practical pairings include spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts.
-
-## Recipes
-
-<FoodRecipes tag="Tahini" />
 
 ## Food Context
 
@@ -65,6 +60,10 @@ Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorpt
 ### Essential Amino Acid Profile
 
 Tahini contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Tahini" />
 
 <NutritionTable details={frontMatter} />
 

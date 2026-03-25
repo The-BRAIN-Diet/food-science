@@ -34,16 +34,9 @@ main_image: /img/foods/bananas/bananas_medium.webp
 legacy_list_image: /img/foods/bananas/bananas_thumb.webp
 legacy_main_image: /img/foods/bananas/bananas_medium.webp
 ---
-
 ## Overview
 
 Bananas provide B6, tryptophan, and potassium, supporting neurotransmitter synthesis and electrolyte balance. Bananas are listed as sources for tryptophan and B6, both critical for serotonin synthesis. Serotonin: Mood regulation, emotional control, impulse moderation; food sources include turkey, eggs, dairy, soy, seeds, oats, bananas. Note: Green bananas provide resistant starch (see Green Bananas for different nutrient profile).
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Bananas" />
 
 ## Food Context
 
@@ -57,6 +50,12 @@ Bananas provide B6, tryptophan, and potassium, supporting neurotransmitter synth
 
 - Ripe bananas for B6 and tryptophan content
 - Green bananas for resistant starch (prebiotic fiber); resistant starch (cooled potatoes, green bananas) supports gut microbiome
+
+## Recipes
+
+<FoodRecipes tag="Bananas" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

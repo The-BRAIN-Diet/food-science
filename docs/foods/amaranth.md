@@ -38,16 +38,11 @@ main_image: /img/foods/amaranth/amaranth_medium.webp
 legacy_list_image: /img/foods/amaranth/amaranth_thumb.webp
 legacy_main_image: /img/foods/amaranth/amaranth_medium.webp
 ---
-
 ## Overview
 
 Amaranth is a gluten-free pseudograin that provides complex carbohydrates, fibre, and a useful plant-protein contribution, alongside minerals such as magnesium, iron, zinc, and selenium [2]. Compared with many refined grain products, it offers a denser micronutrient profile and can broaden whole-grain diversity in plant-forward dietary patterns.
 
 Protein quality in amaranth is better interpreted as **balanced but lysine-limited**, rather than "complete" in practical meal planning terms; pairing with legumes remains the most reliable way to improve essential amino-acid balance across a day [1,2]. In the BRAIN Diet framework, amaranth is best used as a rotating whole-grain/pseudograin option that supports mineral intake and dietary variety while fitting into complementary protein strategies [2].
-
-## Recipes
-
-<FoodRecipes tag="Amaranth" />
 
 ## Key Nutritional Highlights
 
@@ -85,6 +80,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Grains such as amaranth are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Amaranth" />
 
 <NutritionTable details={frontMatter} />
 
