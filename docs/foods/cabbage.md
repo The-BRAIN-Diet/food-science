@@ -33,16 +33,9 @@ main_image: /img/foods/cabbage/cabbage_medium.webp
 legacy_list_image: /img/foods/cabbage/cabbage_thumb.webp
 legacy_main_image: /img/foods/cabbage/cabbage_medium.webp
 ---
-
 ## Overview
 
 Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, supporting gut health through both fresh and fermented forms. Sauerkraut is fermented cabbage, rich in Lactobacillus, and is part of the fermented foods strategy.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cabbage" />
 
 ## Food Context
 
@@ -55,6 +48,12 @@ Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, 
 - Can be consumed fresh or fermented
 - Fermentation (sauerkraut) provides probiotics
 - Supports gut health
+
+## Recipes
+
+<FoodRecipes tag="Cabbage" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

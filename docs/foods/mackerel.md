@@ -45,16 +45,11 @@ main_image: /img/foods/mackerel/mackerel_medium.webp
 legacy_list_image: /img/foods/mackerel/mackerel_thumb.webp
 legacy_main_image: /img/foods/mackerel/mackerel_medium.webp
 ---
-
 ## Overview
 
 Mackerel is an oily fish providing complete high-quality protein together with very high levels of long-chain omega-3 fatty acids **EPA** and **DHA**, as well as **vitamin B12**, **selenium**, and other trace minerals. These intrinsic compounds support neuronal membrane phospholipid composition, mitochondrial oxidative phosphorylation, and antioxidant enzyme systems [1]. Among commonly eaten fish, mackerel is one of the richer sources of EPA and DHA per 100 g, making small portions nutritionally dense for marine omega-3 intake [1].
 
 Within the BRAIN Diet framework, mackerel functions as a **high-omega-3 oily fish** that can be rotated with salmon, sardines, and herring rather than used as the sole source. Its protein is highly digestible, and DIAAS data for similar oily fish indicate excellent indispensable amino acid coverage [2].
-
-## Recipes
-
-<FoodRecipes tag="Mackerel" />
 
 ## Key Nutritional Highlights
 
@@ -79,6 +74,10 @@ Within the BRAIN Diet framework, mackerel functions as a **high-omega-3 oily fis
 ### Essential Amino Acid Profile
 
 This food provides a **complete essential amino acid profile** typical of animal proteins, with high digestibility and bioavailability.
+
+## Recipes
+
+<FoodRecipes tag="Mackerel" />
 
 <NutritionTable details={frontMatter} />
 

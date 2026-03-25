@@ -31,31 +31,30 @@ main_image: /img/foods/sauerkraut/sauerkraut_medium.webp
 legacy_list_image: /img/foods/sauerkraut/sauerkraut_thumb.webp
 legacy_main_image: /img/foods/sauerkraut/sauerkraut_medium.webp
 ---
-
 ## Overview
 
 Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbiotic compounds, and enhanced nutrient bioavailability. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Sauerkraut" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose unpasteurized for live probiotics
 
 ### Synergies
 
 - Part of fermented foods rotation
 
+### Sourcing
+
+- Choose unpasteurized for live probiotics
+
 ### Preparation
 
 - Regular but not excessive intake
 - Supports gut microbiome diversity
+
+## Recipes
+
+<FoodRecipes tag="Sauerkraut" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

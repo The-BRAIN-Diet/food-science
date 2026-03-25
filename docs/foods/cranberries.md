@@ -32,16 +32,9 @@ main_image: /img/foods/cranberries/cranberries_medium.webp
 legacy_list_image: /img/foods/cranberries/cranberries_thumb.webp
 legacy_main_image: /img/foods/cranberries/cranberries_medium.webp
 ---
-
 ## Overview
 
 Cranberries provide polyphenols, resveratrol, and support gut microbiome diversity, particularly Faecalibacterium and Roseburia. Polyphenol sources including berries, green tea catechins, cocoa flavanols, cranberries, and pomegranate ↑ Faecalibacterium, Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cranberries" />
 
 ## Food Context
 
@@ -54,6 +47,12 @@ Cranberries provide polyphenols, resveratrol, and support gut microbiome diversi
 
 - Can be consumed fresh, dried, or as juice
 - Supports gut microbiome diversity
+
+## Recipes
+
+<FoodRecipes tag="Cranberries" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

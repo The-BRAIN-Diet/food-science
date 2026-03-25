@@ -47,7 +47,7 @@ nutrition_supplementary_sources:
 nutrition_functional_metrics:
   - key: total_polyphenols_walnut
     label: Total polyphenols (Folin proxy)
-    amount_display: Varies by cultivar and storage
+    score: High
     notes: Walnuts consistently rank high in nut polyphenol surveys; matrix effects apply.
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
@@ -55,14 +55,9 @@ main_image: /img/foods/walnuts/walnuts_medium.webp
 legacy_list_image: /img/foods/walnuts/walnuts_thumb.webp
 legacy_main_image: /img/foods/walnuts/walnuts_medium.webp
 ---
-
 ## Overview
 
 Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that can be converted to urolithin A by gut bacteria, supporting mitochondrial health and cognitive function. The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate). Walnuts are part of the Mediterranean diet pattern and support BDNF expression through exercise and polyphenol synergy.
-
-## Recipes
-
-<FoodRecipes tag="Walnuts" />
 
 ## Food Context
 
@@ -70,6 +65,10 @@ Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that c
 
 - Pair with other omega-3 sources for optimal DHA status (conversion from ALA is limited)
 - Higher polyphenol intake and microbial diversity increase urolithin A production from ellagitannins
+
+### Sourcing
+
+- Prefer fresh, well-sealed walnuts (or vacuum-packed) to reduce oxidation; rancidity risk increases with heat, light, and long storage.
 
 ### Preparation
 
@@ -83,6 +82,10 @@ Walnuts provide plant protein but are not a complete protein; lysine is typicall
 Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
+
+## Recipes
+
+<FoodRecipes tag="Walnuts" />
 
 <NutritionTable details={frontMatter} />
 

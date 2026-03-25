@@ -41,16 +41,9 @@ main_image: /img/foods/herbs/herbs_medium.webp
 legacy_list_image: /img/foods/herbs/herbs_thumb.webp
 legacy_main_image: /img/foods/herbs/herbs_medium.webp
 ---
-
 ## Overview
 
 Herbs provide polyphenols, volatile compounds, and other bioactives that support cognitive function, antioxidant defenses, and gut health. Herbs provide polyphenols for antioxidant networks, volatile compounds for cognitive support, antimicrobial properties (some herbs), and are part of diverse plant food strategy.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Herbs" />
 
 ## Food Context
 
@@ -63,6 +56,12 @@ Herbs provide polyphenols, volatile compounds, and other bioactives that support
 - Polyphenols for antioxidant networks
 - Volatile compounds for cognitive support
 - Antimicrobial properties (some herbs)
+
+## Recipes
+
+<FoodRecipes tag="Herbs" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

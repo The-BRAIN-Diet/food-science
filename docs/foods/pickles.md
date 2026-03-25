@@ -41,31 +41,30 @@ main_image: /img/foods/pickles/pickles_medium.webp
 legacy_list_image: /img/foods/pickles/pickles_thumb.webp
 legacy_main_image: /img/foods/pickles/pickles_medium.webp
 ---
-
 ## Overview
 
 Pickles (unpasteurized fermented) provide live probiotics, including Levilactobacillus brevis strains that produce GABA through the glutamate decarboxylase pathway. Levilactobacillus brevis is one of the key bacteria known to produce GABA, and this bacteria is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles.
 
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Pickles" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose unpasteurized for live probiotics
 
 ### Synergies
 
 - Part of fermented foods strategy
 
+### Sourcing
+
+- Choose unpasteurized for live probiotics
+
 ### Preparation
 
 - Rinse if high-sodium variety
 - Supports GABA production via gut microbiome
+
+## Recipes
+
+<FoodRecipes tag="Pickles" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

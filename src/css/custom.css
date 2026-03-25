@@ -220,6 +220,12 @@
 .nutrition-table-block > h2 + h3 {
   margin-top: 0.75rem;
 }
+
+/* Unified spacing for MDX "block" components (recipes/substances/tag lists, etc.) */
+.bok-tag-list {
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+}
 /* Food images in markdown body (not the DocItem hero — that uses .food-page-hero) */
 img[src*="/img/foods/"]:not(.food-page-hero) {
   max-height: 800px;

@@ -41,14 +41,9 @@ main_image: /img/foods/lupins/lupins_medium.webp
 legacy_list_image: /img/foods/lupins/lupins_thumb.webp
 legacy_main_image: /img/foods/lupins/lupins_medium.webp
 ---
-
 ## Overview
 
 Lupins are legumes providing plant protein and fiber, part of diverse protein sources for vegan BRAIN Diet approaches. Protein sources include legumes, fermented soy, lupins, Mankai, seeds, whole grains, and functional yeasts.
-
-## Recipes
-
-<FoodRecipes tag="Lupins" />
 
 ## Food Context
 
@@ -77,6 +72,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Lupins are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Lupins" />
 
 <NutritionTable details={frontMatter} />
 

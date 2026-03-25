@@ -35,14 +35,9 @@ main_image: /img/foods/peas/peas_medium.webp
 legacy_list_image: /img/foods/peas/peas_thumb.webp
 legacy_main_image: /img/foods/peas/peas_medium.webp
 ---
-
 ## Overview
 
 Peas provide plant protein, prebiotic fiber, and thiamine (B1), supporting gut health, neurotransmitter synthesis, and mitochondrial function. Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils. Thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production. Peas are part of the legume family with prebiotic benefits.
-
-## Recipes
-
-<FoodRecipes tag="Peas" />
 
 ## Food Context
 
@@ -71,6 +66,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Peas are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Peas" />
 
 <NutritionTable details={frontMatter} />
 

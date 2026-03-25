@@ -29,16 +29,11 @@ main_image: /img/foods/kidney/kidney_medium.webp
 legacy_list_image: /img/foods/kidney/kidney_thumb.webp
 legacy_main_image: /img/foods/kidney/kidney_medium.webp
 ---
-
 ## Overview
 
 Kidney is an organ meat that can contribute concentrated micronutrients (notably B vitamins and minerals), and is often used as part of a broader “offal rotation” rather than a daily staple. Reviews of edible offal highlight that different organs provide distinct nutrient profiles and can be used strategically in modest portions to support dietary adequacy [1].
 
 Within the BRAIN Diet framework, kidney is typically treated as an occasional nutrient-density food alongside other organ meats, paired with plant-forward meals to balance fibre and phytochemicals. Sourcing from reputable producers and using thorough cooking/handling practices are important for both quality and palatability [1].
-
-## Recipes
-
-<FoodRecipes tag="Kidney" />
 
 ## Key Nutritional Highlights
 
@@ -50,13 +45,13 @@ Within the BRAIN Diet framework, kidney is typically treated as an occasional nu
 
 ## Food Context
 
-### Sourcing
-
-- Source from grass-fed/pasture-raised when possible
-
 ### Synergies
 
 - Part of nutrient-dense animal food strategy
+
+### Sourcing
+
+- Source from grass-fed/pasture-raised when possible
 
 ### Preparation
 
@@ -66,6 +61,10 @@ Within the BRAIN Diet framework, kidney is typically treated as an occasional nu
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Kidney" />
 
 <NutritionTable details={frontMatter} />
 

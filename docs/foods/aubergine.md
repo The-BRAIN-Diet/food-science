@@ -44,16 +44,9 @@ main_image: /img/foods/aubergine/aubergine_medium.webp
 legacy_list_image: /img/foods/aubergine/aubergine_thumb.webp
 legacy_main_image: /img/foods/aubergine/aubergine_medium.webp
 ---
-
 ## Overview
 
 Aubergine (*Solanum melongena*), also called eggplant, is a low-energy vegetable with dietary fibre, potassium, and water-soluble antioxidants. Purple-skinned varieties are notable for anthocyanins such as nasunin in the peel. Aubergine fits Mediterranean-style patterns that emphasise vegetables, olive oil, and diverse plant foods.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Aubergine" />
 
 ## Food Context
 
@@ -66,6 +59,12 @@ Aubergine (*Solanum melongena*), also called eggplant, is a low-energy vegetable
 
 - Salting or resting sliced aubergine is optional; modern cultivars are often less bitter than older types.
 - Cooking softens flesh and reduces oxalic acid concern for most diets; nutrient panels here are for raw flesh as in USDA reference data.
+
+## Recipes
+
+<FoodRecipes tag="Aubergine" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

@@ -43,14 +43,9 @@ main_image: /img/foods/oregano/oregano_medium.webp
 legacy_list_image: /img/foods/oregano/oregano_thumb.webp
 legacy_main_image: /img/foods/oregano/oregano_medium.webp
 ---
-
 ## Overview
 
 Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals. Overgrowth suppression (SIBO, Candida, Pathobionts) strategies include polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger).
-
-## Recipes
-
-<FoodRecipes tag="Oregano" />
 
 ## Food Context
 
@@ -67,6 +62,10 @@ Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO 
 ### Essential Amino Acid Profile
 
 Oregano contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Oregano" />
 
 <NutritionTable details={frontMatter} />
 

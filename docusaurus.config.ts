@@ -92,6 +92,7 @@ const config: Config = {
           { to: '/docs/foods/chamomile-tea', from: '/docs/foods/chamomile' },
           { to: '/docs/foods/chicory-root', from: '/docs/foods/chicory' },
           { to: '/docs/foods/aubergine', from: '/docs/foods/eggplant' },
+          { to: '/docs/foods/cacao-nibs-raw', from: '/docs/foods/raw-cacao-nibs' },
         ],
       },
     ],

@@ -30,14 +30,9 @@ main_image: /img/foods/shrimp/shrimp_medium.webp
 legacy_list_image: /img/foods/shrimp/shrimp_thumb.webp
 legacy_main_image: /img/foods/shrimp/shrimp_medium.webp
 ---
-
 ## Overview
 
 Shrimp are shellfish that provide **selenium**, **iodine**, **vitamin B12**, and other trace minerals, together with highly digestible protein. These nutrients support neurotransmitter synthesis, antioxidant enzyme systems, and thyroid function within a broader seafood rotation [1]. As with other shellfish, sourcing and preparation influence both safety and sustainability, so shrimp are best used as one component of a varied marine protein pattern rather than a sole staple [2].
-
-## Recipes
-
-<FoodRecipes tag="Shrimp" />
 
 ## Key Nutritional Highlights
 
@@ -49,13 +44,13 @@ Shrimp are shellfish that provide **selenium**, **iodine**, **vitamin B12**, and
 
 ## Food Context
 
-### Sourcing
-
-- Sustainable when sourced responsibly
-
 ### Synergies
 
 - Part of diverse seafood intake
+
+### Sourcing
+
+- Sustainable when sourced responsibly
 
 ### Preparation
 
@@ -65,6 +60,10 @@ Shrimp are shellfish that provide **selenium**, **iodine**, **vitamin B12**, and
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Shrimp" />
 
 <NutritionTable details={frontMatter} />
 

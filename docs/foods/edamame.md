@@ -46,14 +46,9 @@ main_image: /img/foods/edamame/edamame_medium.webp
 legacy_list_image: /img/foods/edamame/edamame_thumb.webp
 legacy_main_image: /img/foods/edamame/edamame_medium.webp
 ---
-
 ## Overview
 
 Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, plus complete plant protein and isoflavones. Nicotinamide Mononucleotide (NMN) is a direct NAD⁺ intermediate in salvage pathway found in edamame, broccoli, cucumber, and avocado.
-
-## Recipes
-
-<FoodRecipes tag="Edamame" />
 
 ## Food Context
 
@@ -70,6 +65,10 @@ Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NA
 ### Essential Amino Acid Profile
 
 Edamame provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
+
+## Recipes
+
+<FoodRecipes tag="Edamame" />
 
 <NutritionTable details={frontMatter} />
 

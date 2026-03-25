@@ -27,16 +27,9 @@ main_image: /img/foods/olives/olives_medium.webp
 legacy_list_image: /img/foods/olives/olives_thumb.webp
 legacy_main_image: /img/foods/olives/olives_medium.webp
 ---
-
 ## Overview
 
 Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health. Sources of MUFA include extra-virgin olive oil, avocado, olives, and nuts.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Olives" />
 
 ## Food Context
 
@@ -49,6 +42,12 @@ Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovas
 - Can be consumed as whole fruit or in oil form
 - Part of Mediterranean diet pattern
 - Supports MUFA intake goals
+
+## Recipes
+
+<FoodRecipes tag="Olives" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

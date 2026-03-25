@@ -39,16 +39,9 @@ main_image: /img/foods/shiitake-mushroom/shiitake-mushroom_medium.webp
 legacy_list_image: /img/foods/shiitake-mushroom/shiitake-mushroom_thumb.webp
 legacy_main_image: /img/foods/shiitake-mushroom/shiitake-mushroom_medium.webp
 ---
-
 ## Overview
 
 Shiitake mushroom (Lentinula edodes) is both a popular culinary mushroom and a valued medicinal food. It is rich in beta-glucans, polysaccharides that support immune function, and provides a rich umami flavor to dishes. Shiitake contains eritadenine, a compound that may support cardiovascular health, and is a good source of B vitamins including niacin (B3), which supports NAD+ synthesis and mitochondrial function. The mushroom also contains lentinan, a beta-glucan that has been studied for its immune-modulating properties. Shiitake is widely used in cooking and can be consumed fresh or dried.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Shiitake Mushroom" />
 
 ## Food Context
 
@@ -62,6 +55,12 @@ Shiitake mushroom (Lentinula edodes) is both a popular culinary mushroom and a v
 - Rehydrate dried mushrooms in warm water before cooking; reserve the soaking liquid for soups and sauces
 - Cooking enhances the bioavailability of some nutrients
 - The stems are tougher and can be removed or used to make stock
+
+## Recipes
+
+<FoodRecipes tag="Shiitake Mushroom" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

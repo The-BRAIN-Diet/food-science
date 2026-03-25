@@ -37,16 +37,11 @@ main_image: /img/foods/buckwheat/buckwheat_medium.webp
 legacy_list_image: /img/foods/buckwheat/buckwheat_thumb.webp
 legacy_main_image: /img/foods/buckwheat/buckwheat_medium.webp
 ---
-
 ## Overview
 
 Buckwheat is a gluten-free pseudograin that provides complex carbohydrates, fibre, and useful plant protein, together with minerals such as magnesium, iron, zinc, and selenium [2]. Compared with many refined grain products, it can improve micronutrient density and fibre intake while broadening whole-grain diversity.
 
 As with other grain-type plant proteins, buckwheat is better framed as **lysine-limited but complementary**, rather than "complete" in isolation [1,2]. In the BRAIN Diet framework, combining buckwheat with legumes across meals is a practical way to improve essential amino-acid balance while maintaining a fibre- and mineral-rich dietary pattern [1,2].
-
-## Recipes
-
-<FoodRecipes tag="Buckwheat" />
 
 ## Key Nutritional Highlights
 
@@ -81,6 +76,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Grains such as buckwheat are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Buckwheat" />
 
 <NutritionTable details={frontMatter} />
 

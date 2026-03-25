@@ -45,16 +45,11 @@ main_image: /img/foods/organ-meats/organ-meats_medium.webp
 legacy_list_image: /img/foods/organ-meats/organ-meats_thumb.webp
 legacy_main_image: /img/foods/organ-meats/organ-meats_medium.webp
 ---
-
 ## Overview
 
 Organ meats (offal) are among the most nutrient-dense animal foods, often providing disproportionately high amounts of **vitamin B12**, **heme iron**, **zinc**, **choline**, and fat‑soluble vitamins depending on the specific organ. Reviews of edible offal highlight their potential to help close nutrient gaps when used in modest portions and at appropriate frequency [1].
 
 Within the BRAIN Diet framework, “organ meats” are best treated as a periodic micronutrient strategy (e.g., liver for B12/folate/retinol; heart for CoQ10), rather than a daily protein staple. Choosing reputable sources and using gentler cooking methods helps preserve micronutrients and supports an overall plant-forward pattern [1,2].
-
-## Recipes
-
-<FoodRecipes tag="Organ Meats" />
 
 ## Key Nutritional Highlights
 
@@ -79,6 +74,10 @@ Within the BRAIN Diet framework, “organ meats” are best treated as a periodi
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Organ Meats" />
 
 <NutritionTable details={frontMatter} />
 

@@ -31,16 +31,9 @@ main_image: /img/foods/coconut-oil/coconut-oil_medium.webp
 legacy_list_image: /img/foods/coconut-oil/coconut-oil_thumb.webp
 legacy_main_image: /img/foods/coconut-oil/coconut-oil_medium.webp
 ---
-
 ## Overview
 
 Coconut oil provides medium-chain triglycerides (MCTs) that provide rapid energy for the brain and support ketone production. MCTs (C8, C10) are converted to ketones (beta-hydroxybutyrate), which serve as an alternative energy substrate for mitochondria, supporting mitochondrial function especially when glucose metabolism is impaired. The ATP produced from ketone metabolism supports neurotransmitter synthesis, indirectly supporting neurochemical balance. Coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, supports ketone production, and can be used in smoothies, baking, or small-portion use.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Coconut Oil" />
 
 ## Food Context
 
@@ -53,6 +46,12 @@ Coconut oil provides medium-chain triglycerides (MCTs) that provide rapid energy
 - Use in smoothies, baking, or small portions
 - Supports ketone production
 - Antimicrobial properties for gut health
+
+## Recipes
+
+<FoodRecipes tag="Coconut Oil" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

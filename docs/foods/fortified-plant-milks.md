@@ -44,31 +44,30 @@ main_image: /img/foods/fortified-plant-milks/fortified-plant-milks_medium.webp
 legacy_list_image: /img/foods/fortified-plant-milks/fortified-plant-milks_thumb.webp
 legacy_main_image: /img/foods/fortified-plant-milks/fortified-plant-milks_medium.webp
 ---
-
 ## Overview
 
 Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like B12, vitamin D, and sometimes iodine, helping close vegan nutrient gaps. Targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts), B12 (fortified plant milks, nutritional yeast).
 
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Fortified Plant Milks" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose fortified varieties for B12 and D
 
 ### Synergies
 
 - Part of functional food strategy
 
+### Sourcing
+
+- Choose fortified varieties for B12 and D
+
 ### Preparation
 
 - Check fortification levels and forms (methylcobalamin for B12)
 - Important for vegan/vegetarian nutrient sufficiency
+
+## Recipes
+
+<FoodRecipes tag="Fortified Plant Milks" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

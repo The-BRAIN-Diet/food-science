@@ -45,16 +45,11 @@ main_image: /img/foods/turkey/turkey_medium.webp
 legacy_list_image: /img/foods/turkey/turkey_thumb.webp
 legacy_main_image: /img/foods/turkey/turkey_medium.webp
 ---
-
 ## Overview
 
 Turkey provides amino acids including **tryptophan** (a serotonin precursor) together with **niacin (vitamin B3)**, supporting mood-related pathways and mitochondrial energy production. Tryptophan can also be routed through the kynurenine pathway toward NAD⁺ synthesis, while niacin supports NAD⁺ availability via the salvage pathway. Turkey is also commonly used as a higher-tyrosine animal food in breakfast contexts to support catecholamine neurotransmitter synthesis.
 
 Within the BRAIN Diet framework, turkey can be used as a pragmatic way to support niacin intake and amino-acid availability while keeping meals plant-forward via vegetable- and legume-based sides. Timing and meal composition matter: carbohydrate co-consumption can influence amino-acid competition at transporters (Trp:LNAA ratio), and gentler cooking helps limit heat-derived compounds while maintaining palatability [1,2].
-
-## Recipes
-
-<FoodRecipes tag="Turkey" />
 
 ## Key Nutritional Highlights
 
@@ -84,6 +79,10 @@ This food provides a complete essential amino acid profile typical of animal pro
 Notable amino acids:
 
 - Tryptophan
+
+## Recipes
+
+<FoodRecipes tag="Turkey" />
 
 <NutritionTable details={frontMatter} />
 

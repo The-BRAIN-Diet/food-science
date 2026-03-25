@@ -33,16 +33,11 @@ main_image: /img/foods/pork/pork_medium.webp
 legacy_list_image: /img/foods/pork/pork_thumb.webp
 legacy_main_image: /img/foods/pork/pork_medium.webp
 ---
-
 ## Overview
 
 Pork is a widely consumed animal food that is particularly notable for **thiamine (vitamin B1)**, **zinc**, and creatine, alongside other B vitamins and minerals. Thiamine is required for mitochondrial carbohydrate metabolism and ATP production, while zinc supports synaptic signalling and antioxidant enzyme systems [1]. Creatine contributes to phosphocreatine buffering and ATP recycling in excitable tissues [2].
 
 Within the BRAIN Diet framework, pork is best treated as a rotational animal-food option used for targeted micronutrients rather than as a default centrepiece at every meal. Choosing minimally processed cuts and using gentler cooking methods helps preserve thiamine and reduces formation of heat-derived compounds, while still capturing the nutrient-density advantages of the food [1].
-
-## Recipes
-
-<FoodRecipes tag="Pork" />
 
 ## Key Nutritional Highlights
 
@@ -54,14 +49,14 @@ Within the BRAIN Diet framework, pork is best treated as a rotational animal-foo
 
 ## Food Context
 
+### Synergies
+
+- Pair pork with vitamin C–rich vegetables and polyphenol-rich herbs/spices to build a more plant-forward meal.
+
 ### Sourcing
 
 - Prefer minimally processed cuts over heavily cured or ultra-processed pork products.
 - Choose producers with transparent handling and food-safety practices.
-
-### Synergies
-
-- Pair pork with vitamin C–rich vegetables and polyphenol-rich herbs/spices to build a more plant-forward meal.
 
 ### Preparation
 
@@ -71,6 +66,10 @@ Within the BRAIN Diet framework, pork is best treated as a rotational animal-foo
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Pork" />
 
 <NutritionTable details={frontMatter} />
 

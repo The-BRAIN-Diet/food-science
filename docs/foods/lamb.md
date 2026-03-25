@@ -32,16 +32,11 @@ main_image: /img/foods/lamb/lamb_medium.webp
 legacy_list_image: /img/foods/lamb/lamb_thumb.webp
 legacy_main_image: /img/foods/lamb/lamb_medium.webp
 ---
-
 ## Overview
 
 Lamb is a nutrient-dense red meat providing highly bioavailable **heme iron**, **zinc**, creatine, and B vitamins. Heme iron from animal foods is absorbed more efficiently than non-heme iron from plant foods, helping support iron status where requirements are higher or intake is marginal [1]. Creatine contributes to ATP buffering and rapid energy availability in excitable tissues, with organ meats and red meats among the richer dietary sources [2].
 
 Within the BRAIN Diet framework, lamb is used strategically for its iron and zinc density rather than as an everyday centrepiece. It fits best when paired with vegetables, legumes, and whole grains to keep the overall pattern plant-forward, while choosing minimally processed cuts and gentler cooking methods to avoid excessive charring and heat-derived compounds [1,3].
-
-## Recipes
-
-<FoodRecipes tag="Lamb" />
 
 ## Key Nutritional Highlights
 
@@ -53,16 +48,16 @@ Within the BRAIN Diet framework, lamb is used strategically for its iron and zin
 
 ## Food Context
 
-### Sourcing
-
-- Choose grass-fed when possible for better fatty acid profile
-
 ### Synergies
 
 - Pair lamb with **allium vegetables** such as onions, garlic, or leeks in stews and roasts to add sulfur-containing compounds and polyphenols that complement its mineral-rich profile [4,5].
 - Use **herbs rich in polyphenols** (rosemary, thyme, oregano) in rubs and marinades; these traditional seasonings can help limit lipid oxidation during cooking while adding antioxidant compounds to the meal [6].
 - Combine lamb with **legumes** (lentils, chickpeas) in Mediterranean-style dishes so lamb supplies highly bioavailable iron, zinc, and B12 while legumes contribute fibre and plant polyphenols for cardiometabolic balance [7].
 - Include **acidic ingredients** such as tomatoes, lemon, or yogurt-based marinades to support tenderisation, improve palatability, and shift overall meal composition toward a more plant-forward pattern [8].
+
+### Sourcing
+
+- Choose grass-fed when possible for better fatty acid profile
 
 ### Preparation
 
@@ -73,6 +68,10 @@ Within the BRAIN Diet framework, lamb is used strategically for its iron and zin
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Lamb" />
 
 <NutritionTable details={frontMatter} />
 

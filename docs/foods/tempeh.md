@@ -58,14 +58,9 @@ main_image: /img/foods/tempeh/tempeh_medium.webp
 legacy_list_image: /img/foods/tempeh/tempeh_thumb.webp
 legacy_main_image: /img/foods/tempeh/tempeh_medium.webp
 ---
-
 ## Overview
 
 Tempeh is fermented soy providing live probiotics, enhanced nutrient bioavailability, and isoflavones, supporting gut health and neurotransmitter synthesis. Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha, tempeh provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. Tempeh: Fermented soybeans, high in protein and probiotics. Fermentation improves digestibility and nutrient bioavailability.
-
-## Recipes
-
-<FoodRecipes tag="Tempeh" />
 
 ## Food Context
 
@@ -82,6 +77,10 @@ Tempeh is fermented soy providing live probiotics, enhanced nutrient bioavailabi
 ### Essential Amino Acid Profile
 
 Tempeh provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
+
+## Recipes
+
+<FoodRecipes tag="Tempeh" />
 
 <NutritionTable details={frontMatter} />
 

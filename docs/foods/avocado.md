@@ -37,16 +37,9 @@ main_image: /img/foods/avocado/avocado_medium.webp
 legacy_list_image: /img/foods/avocado/avocado_thumb.webp
 legacy_main_image: /img/foods/avocado/avocado_medium.webp
 ---
-
 ## Overview
 
 Avocado provides monounsaturated fats (MUFA), vitamin E, lutein, fiber, and glutathione, supporting carotenoid absorption and antioxidant defenses. Avocado / Avocado Oil provides MUFAs (oleic), vitamin E, lutein, fibre, glutathione. Sources: extra-virgin olive oil, avocado, olives, nuts for MUFA (monounsaturated fatty acids). Practical pairings include carrots + tahini, kale + avocado, berries + yogurt/nuts. Nicotinamide Mononucleotide (NMN) sources include edamame, broccoli, cucumber, avocado.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Avocado" />
 
 ## Food Context
 
@@ -60,6 +53,12 @@ Avocado provides monounsaturated fats (MUFA), vitamin E, lutein, fiber, and glut
 ### Preparation
 
 - Can be used as spread, in salads, or as oil
+
+## Recipes
+
+<FoodRecipes tag="Avocado" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

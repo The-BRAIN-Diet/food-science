@@ -43,14 +43,9 @@ main_image: /img/foods/cinnamon/cinnamon_medium.webp
 legacy_list_image: /img/foods/cinnamon/cinnamon_thumb.webp
 legacy_main_image: /img/foods/cinnamon/cinnamon_medium.webp
 ---
-
 ## Overview
 
 Cinnamon is a spice containing bioactive polyphenols and compounds that support glycemic control, insulin sensitivity, and cognitive function, relevant for ADHD metabolic dysregulation. Cinnamon is extremely high in polyphenols, with procyanidins being a major component, and cinnamaldehyde as the key aromatic compound that contributes to its characteristic flavor and many health benefits.
-
-## Recipes
-
-<FoodRecipes tag="Cinnamon" />
 
 ## Food Context
 
@@ -68,11 +63,11 @@ Cinnamon is a spice containing bioactive polyphenols and compounds that support 
 
 Cinnamon contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
+## Recipes
+
+<FoodRecipes tag="Cinnamon" />
+
 <NutritionTable details={frontMatter} />
-
-## Substances
-
-<FoodSubstancesFromTable details={frontMatter} />
 
 ## Nutrient & Bioactive Table (per 100 g dry ground cinnamon)
 
@@ -98,6 +93,10 @@ Cinnamon contribute plant protein. Pair with complementary protein sources (e.g.
 | Volatile oils (e.g., eugenol, linalool, caryophyllene) | Not in standard tables | Present but vary widely; typically quantified via essential oil analysis |
 
 **Notes on Interpretation:** Polyphenol estimates indicate cinnamon is extremely high in phenolic compounds, often cited as one of the highest among common spices. Bioactives like cinnamaldehyde and procyanidins are not part of standard nutrition databases and require analytical chemistry studies for quantification. Coumarin content is especially high in Cassia cinnamon, which matters for toxicity limits. Ceylon cinnamon has far lower coumarin.
+
+## Substances
+
+<FoodSubstancesFromTable details={frontMatter} />
 
 ## References
 

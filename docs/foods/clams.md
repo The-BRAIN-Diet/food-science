@@ -42,18 +42,11 @@ main_image: /img/foods/clams/clams_medium.webp
 legacy_list_image: /img/foods/clams/clams_thumb.webp
 legacy_main_image: /img/foods/clams/clams_medium.webp
 ---
-
 ## Overview
 
 Clams are bivalve shellfish providing complete protein together with notable amounts of **vitamin B12**, **iron**, **zinc**, and **taurine**. Among shellfish, clams and mussels are often highlighted for their taurine content, which contributes to bile acid conjugation, membrane stabilisation, and antioxidant defence in experimental and clinical contexts [1]. Their B12 and iron content support methylation pathways, homocysteine recycling, and oxygen transport, all of which are relevant to neurological and cardiovascular health [2].
 
 Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense shellfish** that complements both plant and animal sources of B12 and iron. Because portions are typically modest and eaten intermittently, clams are best viewed as a periodic micronutrient booster rather than a daily protein anchor [1,2]. As with other shellfish, water quality, harvesting practices, and preparation determine safety; sourcing from monitored waters and cooking thoroughly helps reduce microbiological and contaminant risk [2].
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Clams" />
 
 ## Food Context
 
@@ -66,6 +59,12 @@ Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense s
 
 - Cook clams thoroughly—for example by steaming until all shells have opened and discarding any that remain closed—to reduce microbiological risk.
 - Incorporate clams into dishes that include vegetables and whole grains so their concentrated B12, iron, and taurine content sits within a balanced meal pattern.
+
+## Recipes
+
+<FoodRecipes tag="Clams" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

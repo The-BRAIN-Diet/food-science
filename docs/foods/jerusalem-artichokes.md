@@ -41,16 +41,9 @@ main_image: /img/foods/jerusalem-artichokes/jerusalem-artichokes_medium.webp
 legacy_list_image: /img/foods/jerusalem-artichokes/jerusalem-artichokes_thumb.webp
 legacy_main_image: /img/foods/jerusalem-artichokes/jerusalem-artichokes_medium.webp
 ---
-
 ## Overview
 
 Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth. Jerusalem artichokes have the highest inulin content, and inulin supports ↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Jerusalem Artichokes" />
 
 ## Food Context
 
@@ -60,6 +53,12 @@ Jerusalem artichokes (sunchokes) provide the highest inulin content among common
 - Highest inulin source
 - Start with small amounts to avoid digestive discomfort
 - Supports gut microbiome diversity
+
+## Recipes
+
+<FoodRecipes tag="Jerusalem Artichokes" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

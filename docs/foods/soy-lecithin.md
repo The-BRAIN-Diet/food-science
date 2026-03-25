@@ -38,14 +38,9 @@ main_image: /img/foods/soy-lecithin/soy-lecithin_medium.webp
 legacy_list_image: /img/foods/soy-lecithin/soy-lecithin_thumb.webp
 legacy_main_image: /img/foods/soy-lecithin/soy-lecithin_medium.webp
 ---
-
 ## Overview
 
 Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery. Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended.
-
-## Recipes
-
-<FoodRecipes tag="Soy Lecithin" />
 
 ## Food Context
 
@@ -59,6 +54,10 @@ Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine
 ### Essential Amino Acid Profile
 
 Soy Lecithin provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
+
+## Recipes
+
+<FoodRecipes tag="Soy Lecithin" />
 
 <NutritionTable details={frontMatter} />
 

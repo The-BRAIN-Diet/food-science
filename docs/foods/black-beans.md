@@ -52,14 +52,9 @@ main_image: /img/foods/black-beans/black-beans_medium.webp
 legacy_list_image: /img/foods/black-beans/black-beans_thumb.webp
 legacy_main_image: /img/foods/black-beans/black-beans_medium.webp
 ---
-
 ## Overview
 
 Black beans provide plant protein, polyphenols, and prebiotic fiber. The paper details optimal soaking conditions (60°C, pH 6.0) for phytate reduction. Optimal conditions for the endogenous phytases of black beans is 60°C and pH 6.0, that resulted in a 55% reduction in 1P6 after soaking and cooking. Black beans are polyphenol-rich and support gut health, similar to kidney beans.
-
-## Recipes
-
-<FoodRecipes tag="Black Beans" />
 
 ## Food Context
 
@@ -89,6 +84,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Black Beans are rich in lysine but relatively low in sulfur-containing amino acids. Combining with grains such as rice, oats, or barley helps create a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Black Beans" />
 
 <NutritionTable details={frontMatter} />
 

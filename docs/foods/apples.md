@@ -33,16 +33,9 @@ main_image: /img/foods/apples/apples_medium.webp
 legacy_list_image: /img/foods/apples/apples_thumb.webp
 legacy_main_image: /img/foods/apples/apples_medium.webp
 ---
-
 ## Overview
 
 Apples provide pectin (prebiotic fiber), quercetin (polyphenol), and demonstrate important food matrix effects where intact structure blunts glycemic response compared to processed forms. Apple juice induces a substantially greater postprandial insulin spike and lower satiety compared to either apple purée or the intact fruit. Preserving natural food structure (e.g., an apple vs. processed forms) blunts post-prandial glycemic excursions. Quercetin is abundant in apples, with the estimated flavonoid intake ranging from 50 to 800 mg/day, with about 75% of dietary polyphenol count being quercetin.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Apples" />
 
 ## Food Context
 
@@ -56,6 +49,12 @@ Apples provide pectin (prebiotic fiber), quercetin (polyphenol), and demonstrate
 - Avoid juicing to maintain fiber and glycemic control; apple juice induces substantially greater postprandial insulin spike
 - Pectin supports gut microbiome diversity; prebiotic fibres including pectin (apples) support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
 - Soluble fibre (from apples, oats, flaxseeds) supports gut health and SCFA production
+
+## Recipes
+
+<FoodRecipes tag="Apples" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

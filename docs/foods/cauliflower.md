@@ -32,16 +32,9 @@ main_image: /img/foods/cauliflower/cauliflower_medium.webp
 legacy_list_image: /img/foods/cauliflower/cauliflower_thumb.webp
 legacy_main_image: /img/foods/cauliflower/cauliflower_medium.webp
 ---
-
 ## Overview
 
 Cauliflower is a cruciferous vegetable providing fiber, B vitamins, and potential isothiocyanates, supporting gut health and antioxidant defenses. Cauliflower is part of the cruciferous vegetable family, which includes broccoli, Brussels sprouts, and cabbage. Cruciferous vegetables support diverse vegetable intake and gut health via fiber.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Cauliflower" />
 
 ## Food Context
 
@@ -54,6 +47,12 @@ Cauliflower is a cruciferous vegetable providing fiber, B vitamins, and potentia
 
 - Can be consumed raw, roasted, or steamed; light cooking may preserve some compounds
 - Supports gut health via fiber; prebiotic fiber supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+
+## Recipes
+
+<FoodRecipes tag="Cauliflower" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

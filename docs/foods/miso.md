@@ -44,24 +44,19 @@ main_image: /img/foods/miso/miso_medium.webp
 legacy_list_image: /img/foods/miso/miso_thumb.webp
 legacy_main_image: /img/foods/miso/miso_medium.webp
 ---
-
 ## Overview
 
 Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
-## Recipes
-
-<FoodRecipes tag="Miso" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose unpasteurized for live probiotics
 
 ### Synergies
 
 - Part of fermented foods strategy
+
+### Sourcing
+
+- Choose unpasteurized for live probiotics
 
 ### Preparation
 
@@ -71,6 +66,10 @@ Miso is a fermented soybean paste providing live probiotics, postbiotic compound
 ### Essential Amino Acid Profile
 
 Miso provide a relatively complete plant protein (higher in lysine than most grains). Pairing with grains or other legumes still supports dietary variety and amino acid balance.
+
+## Recipes
+
+<FoodRecipes tag="Miso" />
 
 <NutritionTable details={frontMatter} />
 

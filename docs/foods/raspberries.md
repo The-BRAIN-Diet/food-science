@@ -33,16 +33,9 @@ main_image: /img/foods/raspberries/raspberries_medium.webp
 legacy_list_image: /img/foods/raspberries/raspberries_thumb.webp
 legacy_main_image: /img/foods/raspberries/raspberries_medium.webp
 ---
-
 ## Overview
 
 Raspberries provide polyphenols, fiber, and vitamin C, supporting antioxidant networks and gut health. Berries are mentioned as polyphenol-rich foods and are part of the Mediterranean diet pattern.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Raspberries" />
 
 ## Food Context
 
@@ -55,6 +48,12 @@ Raspberries provide polyphenols, fiber, and vitamin C, supporting antioxidant ne
 - Best consumed fresh or frozen
 - Supports antioxidant networks
 - High fiber supports gut health
+
+## Recipes
+
+<FoodRecipes tag="Raspberries" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

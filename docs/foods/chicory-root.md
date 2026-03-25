@@ -41,16 +41,9 @@ main_image: /img/foods/chicory-root/chicory-root_medium.webp
 legacy_list_image: /img/foods/chicory-root/chicory-root_thumb.webp
 legacy_main_image: /img/foods/chicory-root/chicory-root_medium.webp
 ---
-
 ## Overview
 
 Chicory provides high inulin content and can be used as a coffee substitute, supporting gut microbiome diversity. Prebiotic fibres including inulin (chicory, onions) support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Chicory Root" />
 
 ## Food Context
 
@@ -63,6 +56,12 @@ Chicory provides high inulin content and can be used as a coffee substitute, sup
 - Can be consumed as root vegetable or coffee substitute
 - High inulin content
 - Supports Bifidobacterium and Akkermansia
+
+## Recipes
+
+<FoodRecipes tag="Chicory Root" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

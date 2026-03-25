@@ -32,16 +32,11 @@ main_image: /img/foods/cod/cod_medium.webp
 legacy_list_image: /img/foods/cod/cod_thumb.webp
 legacy_main_image: /img/foods/cod/cod_medium.webp
 ---
-
 ## Overview
 
 Cod is a lean white fish providing modest amounts of **omega-3 fatty acids**, **vitamin B12**, **selenium**, and other trace minerals, together with highly digestible protein. Compared with oily fish such as salmon or mackerel, cod contributes smaller absolute amounts of EPA and DHA but still adds marine omega-3s, micronutrients, and protein at a relatively low energy cost [1]. This makes cod useful in meals where the focus is on vegetables and whole grains, with fish acting as a lighter protein component.
 
 Within the BRAIN Diet framework, cod functions as a **lean marine protein** that can be rotated with higher-fat oily fish rather than replacing them. Its protein has a high digestible indispensable amino acid score (DIAAS), indicating excellent indispensable amino acid coverage [2]. This makes cod a flexible option when meals already provide substantial fats from other ingredients, allowing marine protein and modest omega-3 intake without substantially increasing total dietary fat.
-
-## Recipes
-
-<FoodRecipes tag="Cod" />
 
 ## Key Nutritional Highlights
 
@@ -61,6 +56,10 @@ Within the BRAIN Diet framework, cod functions as a **lean marine protein** that
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Cod" />
 
 <NutritionTable details={frontMatter} />
 

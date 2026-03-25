@@ -52,16 +52,11 @@ main_image: /img/foods/trout-roe/trout-roe_medium.webp
 legacy_list_image: /img/foods/trout-roe/trout-roe_thumb.webp
 legacy_main_image: /img/foods/trout-roe/trout-roe_medium.webp
 ---
-
 ## Overview
 
 Trout roe comes from rainbow trout (*Oncorhynchus mykiss*) and related farmed lines. Like salmon roe, it delivers **EPA**, **DHA**, and phospholipid-associated fatty acids together with **choline** and **vitamin B12** in a compact matrix. Mechanistic discussions of LPC-associated DHA transport apply to phospholipid-rich seafood matrices generally [1][2].
 
 Within the BRAIN Diet framework, trout roe is best viewed as a **mid-tier roe option**: it is often **less expensive per gram than premium salmon ikura**, while still offering strong omega-3 and choline density compared with most land-animal foods. Exact fatty-acid and carotenoid profiles remain product-dependent; species-specific compositional tables should replace the current proxy when available.
-
-## Recipes
-
-<FoodRecipes tag="Trout Roe" />
 
 ## Key Nutritional Highlights
 
@@ -73,14 +68,14 @@ Within the BRAIN Diet framework, trout roe is best viewed as a **mid-tier roe op
 
 ## Food Context
 
+### Synergies
+
+- Works well as a garnish on whole grains, vegetables, or mild fish to spread flavour without large sodium loads (unlike heavily salted caviar substitutes).
+
 ### Sourcing
 
 - Farmed trout roe is common; look for clear labelling, cold-chain handling, and use-by guidance.
 - Colour can range from orange to amber depending on pigment inputs — not a sole quality indicator.
-
-### Synergies
-
-- Works well as a garnish on whole grains, vegetables, or mild fish to spread flavour without large sodium loads (unlike heavily salted caviar substitutes).
 
 ### Preparation
 
@@ -89,6 +84,10 @@ Within the BRAIN Diet framework, trout roe is best viewed as a **mid-tier roe op
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Trout Roe" />
 
 <NutritionTable details={frontMatter} />
 

@@ -65,16 +65,11 @@ main_image: /img/foods/beef/beef_medium.webp
 legacy_list_image: /img/foods/beef/beef_thumb.webp
 legacy_main_image: /img/foods/beef/beef_medium.webp
 ---
-
 ## Overview
 
 Beef is a nutrient-dense red meat providing several compounds relevant to brain and metabolic health, including creatine [1], coenzyme Q10 (CoQ10) [2], vitamin B12, zinc, and highly bioavailable heme iron [3]. These nutrients contribute to mitochondrial energy metabolism, oxygen transport, and neurotransmitter synthesis. Compared with non-heme iron from plant foods, heme iron from animal sources is absorbed more efficiently, making beef a useful contributor to iron status in some dietary patterns [3].
 
 Within the BRAIN Diet framework, beef may be used strategically for nutrient density, particularly where iron, vitamin B12, creatine, and CoQ10 are priorities. At the same time, overall dietary pattern still matters, including processing level, cooking method, total intake, and the balance between plant and animal foods [5,6].
-
-## Recipes
-
-<FoodRecipes tag="Beef" />
 
 ## Key Nutritional Highlights
 
@@ -85,6 +80,12 @@ Within the BRAIN Diet framework, beef may be used strategically for nutrient den
 - Processed versions (e.g. cured, smoked, deli-style) are associated with less favorable health outcomes.
 
 ## Food Context
+
+## Recipes
+
+<FoodRecipes tag="Beef" />
+
+<NutritionTable details={frontMatter} />
 
 ## Sourcing
 
@@ -107,8 +108,6 @@ Within the BRAIN Diet framework, beef may be used strategically for nutrient den
 ### Essential Amino Acid Profile
 
 Beef provides a complete essential amino acid profile with high digestibility and bioavailability [4].
-
-<NutritionTable details={frontMatter} />
 
 ## Substances
 

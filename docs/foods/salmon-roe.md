@@ -53,16 +53,11 @@ main_image: /img/foods/salmon-roe/salmon-roe_medium.webp
 legacy_list_image: /img/foods/salmon-roe/salmon-roe_thumb.webp
 legacy_main_image: /img/foods/salmon-roe/salmon-roe_medium.webp
 ---
-
 ## Overview
 
 Salmon roe (often sold as **ikura**) is the egg mass of Pacific salmonids such as *Oncorhynchus* species. It supplies long-chain omega-3 fatty acids **EPA** and **DHA** in phospholipid-rich matrices, together with very high **choline** and **vitamin B12** density per 100 g. These are the same structural reasons roe is discussed in brain-nutrition contexts: phospholipid-associated DHA can be trafficked into lysophosphatidylcholine (LPC) pathways relevant to brain delivery, compared with triacylglycerol-only forms [1][2].
 
 Within the BRAIN Diet framework, salmon roe is a **premium, concentrated** seafood ingredient: it is typically more expensive per gram than trout roe or salted lumpfish roe, but it offers among the highest practical omega-3 and choline yields per bite. It is best used as a small garnish or occasional portion rather than a bulk protein source.
-
-## Recipes
-
-<FoodRecipes tag="Salmon Roe" />
 
 ## Key Nutritional Highlights
 
@@ -74,15 +69,15 @@ Within the BRAIN Diet framework, salmon roe is a **premium, concentrated** seafo
 
 ## Food Context
 
-### Sourcing
-
-- Prefer reputable suppliers with clear species and harvest region; frozen ikura is common and acceptable when thawed safely.
-- Colour and texture vary by species, diet, and season — not a reliable purity test on its own.
-
 ### Synergies
 
 - Pair with vegetables and whole grains as a flavour-dense garnish rather than a high-sodium meal centre.
 - Vitamin C–rich foods support iron balance in mixed meals (roe provides modest iron).
+
+### Sourcing
+
+- Prefer reputable suppliers with clear species and harvest region; frozen ikura is common and acceptable when thawed safely.
+- Colour and texture vary by species, diet, and season — not a reliable purity test on its own.
 
 ### Preparation
 
@@ -92,6 +87,10 @@ Within the BRAIN Diet framework, salmon roe is a **premium, concentrated** seafo
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Salmon Roe" />
 
 <NutritionTable details={frontMatter} />
 

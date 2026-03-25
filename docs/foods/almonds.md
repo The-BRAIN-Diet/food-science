@@ -38,16 +38,11 @@ main_image: /img/foods/almonds/almonds_medium.webp
 legacy_list_image: /img/foods/almonds/almonds_thumb.webp
 legacy_main_image: /img/foods/almonds/almonds_medium.webp
 ---
-
 ## Overview
 
 Almonds are a nutrient-dense nut that contribute **vitamin E**, magnesium, fibre, and mostly unsaturated fats alongside plant protein. Their vitamin E can support wider antioxidant “network” function (working in concert with other dietary antioxidants rather than in isolation) [1].
 
 In a BRAIN-aligned pattern, almonds are most useful as a **whole-food fat-and-fibre** option (e.g., in snacks or meals) that can help displace more refined, low-satiety foods; observational nutrition literature commonly groups nuts with more favourable long-term health associations compared with several animal-protein sources [3]. As with most nuts and seeds, almond protein is typically **lysine-limited**, so pairing with legumes or grains can improve essential amino-acid coverage across the day [2].
-
-## Recipes
-
-<FoodRecipes tag="Almonds" />
 
 ## Food Context
 
@@ -68,6 +63,10 @@ Almonds provide plant protein but are not a complete protein; lysine is typicall
 Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
+
+## Recipes
+
+<FoodRecipes tag="Almonds" />
 
 <NutritionTable details={frontMatter} />
 

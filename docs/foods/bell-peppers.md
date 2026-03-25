@@ -38,16 +38,9 @@ main_image: /img/foods/bell-peppers/bell-peppers_medium.webp
 legacy_list_image: /img/foods/bell-peppers/bell-peppers_thumb.webp
 legacy_main_image: /img/foods/bell-peppers/bell-peppers_medium.webp
 ---
-
 ## Overview
 
 Bell peppers provide very high vitamin C content, enhancing non-heme iron absorption and supporting norepinephrine synthesis. Eating beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) improves iron bioavailability.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Bell Peppers" />
 
 ## Food Context
 
@@ -60,6 +53,12 @@ Bell peppers provide very high vitamin C content, enhancing non-heme iron absorp
 
 - Can be consumed raw or cooked
 - Supports iron sufficiency
+
+## Recipes
+
+<FoodRecipes tag="Bell Peppers" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

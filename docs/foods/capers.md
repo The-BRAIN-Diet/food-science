@@ -32,16 +32,9 @@ main_image: /img/foods/capers/capers_medium.webp
 legacy_list_image: /img/foods/capers/capers_thumb.webp
 legacy_main_image: /img/foods/capers/capers_medium.webp
 ---
-
 ## Overview
 
 Capers are among the highest sources of quercetin, a flavonoid polyphenol that supports antioxidant networks and may have neuroprotective effects. The estimated flavonoid intake ranges from 50 to 800 mg/day (About 75% of dietary polyphenol count is quercetin). It is abundant in capers, apples, onions, berries, kale and soybeans.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Capers" />
 
 ## Food Context
 
@@ -54,6 +47,12 @@ Capers are among the highest sources of quercetin, a flavonoid polyphenol that s
 
 - Can be used as seasoning or condiment
 - Rinse if high-sodium pickled variety
+
+## Recipes
+
+<FoodRecipes tag="Capers" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

@@ -58,26 +58,21 @@ main_image: /img/foods/tofu/tofu_medium.webp
 legacy_list_image: /img/foods/tofu/tofu_thumb.webp
 legacy_main_image: /img/foods/tofu/tofu_medium.webp
 ---
-
 ## Overview
 
 Tofu is a soy-based food providing complete plant protein, isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. Tofu is listed as a source for iron, choline, tryptophan, and tyrosine. High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis. Tofu is often calcium-fortified, making it valuable for plant-based diets.
 
-## Recipes
-
-<FoodRecipes tag="Tofu" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose calcium-fortified varieties when possible for bone health and calcium support
 
 ### Synergies
 
 - Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
 - Part of diverse plant protein strategy
 - High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis
+
+### Sourcing
+
+- Choose calcium-fortified varieties when possible for bone health and calcium support
 
 ### Preparation
 
@@ -91,6 +86,10 @@ Notable amino acids:
 
 - Leucine
 - Lysine
+
+## Recipes
+
+<FoodRecipes tag="Tofu" />
 
 <NutritionTable details={frontMatter} />
 

@@ -48,16 +48,11 @@ main_image: /img/foods/lumpfish-roe/lumpfish-roe_medium.webp
 legacy_list_image: /img/foods/lumpfish-roe/lumpfish-roe_thumb.webp
 legacy_main_image: /img/foods/lumpfish-roe/lumpfish-roe_medium.webp
 ---
-
 ## Overview
 
 Lumpfish roe is the egg mass of lumpfish (*Cyclopterus lumpus*), most often sold as **salted, dyed “caviar”** for canapés and garnishes. It can contribute **EPA**, **DHA**, and fish-egg nutrients, but retail products are **dominated by added salt** and colourings, and long-chain omega-3 levels per 100 g are typically **below fresh salmon or trout roe**. It fills a **budget / occasional garnish** niche rather than a high-omega-3 strategy on its own.
 
 Within the BRAIN Diet framework, lumpfish roe is **not interchangeable** with salmon or trout ikura for nutrient density: treat it as a **small-quantity condiment**, prioritise **label sodium**, and prefer **salmonid roe** when the goal is maximal phospholipid-associated EPA/DHA per gram with lower salt load.
-
-## Recipes
-
-<FoodRecipes tag="Lumpfish Roe" />
 
 ## Key Nutritional Highlights
 
@@ -69,14 +64,14 @@ Within the BRAIN Diet framework, lumpfish roe is **not interchangeable** with sa
 
 ## Food Context
 
+### Synergies
+
+- Pair with unsalted vegetables and whole foods so the meal’s total sodium stays controlled.
+
 ### Sourcing
 
 - Choose reputable brands with transparent nutrition labels; sodium varies sharply.
 - Dyed vs natural appearance is a product-style choice, not a nutrient guarantee.
-
-### Synergies
-
-- Pair with unsalted vegetables and whole foods so the meal’s total sodium stays controlled.
 
 ### Preparation
 
@@ -86,6 +81,10 @@ Within the BRAIN Diet framework, lumpfish roe is **not interchangeable** with sa
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Lumpfish Roe" />
 
 <NutritionTable details={frontMatter} />
 

@@ -47,14 +47,9 @@ main_image: /img/foods/sunflower-seeds/sunflower-seeds_medium.webp
 legacy_list_image: /img/foods/sunflower-seeds/sunflower-seeds_thumb.webp
 legacy_main_image: /img/foods/sunflower-seeds/sunflower-seeds_medium.webp
 ---
-
 ## Overview
 
 Sunflower seeds provide thiamine (B1), vitamin E, and are the source of sunflower lecithin, supporting mitochondrial function and choline intake. Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils. Thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production. Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli).
-
-## Recipes
-
-<FoodRecipes tag="Sunflower Seeds" />
 
 ## Key Nutritional Highlights
 
@@ -82,6 +77,10 @@ Sunflower Seeds provide plant protein but are not a complete protein; lysine is 
 Protein pairing strategy:
 
 Pair with legumes or grains to complete essential amino acid coverage.
+
+## Recipes
+
+<FoodRecipes tag="Sunflower Seeds" />
 
 <NutritionTable details={frontMatter} />
 

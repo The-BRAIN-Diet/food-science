@@ -44,16 +44,11 @@ main_image: /img/foods/rice/rice_medium.webp
 legacy_list_image: /img/foods/rice/rice_thumb.webp
 legacy_main_image: /img/foods/rice/rice_medium.webp
 ---
-
 ## Overview
 
 Rice is a globally used staple carbohydrate food, with nutritional profile strongly shaped by variety and processing (e.g. white vs brown, polished vs less refined). It contributes dietary energy efficiently and can be integrated into many meal patterns.
 
 When cooked and then cooled, rice can form additional resistant starch, which may reduce glycaemic response relative to freshly cooked equivalents in some contexts. Rice remains lysine-limited as a grain protein, so amino-acid balance improves when paired with legumes [1,2].
-
-## Recipes
-
-<FoodRecipes tag="Rice" />
 
 ## Key Nutritional Highlights
 
@@ -89,6 +84,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Grains such as rice are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Rice" />
 
 <NutritionTable details={frontMatter} />
 

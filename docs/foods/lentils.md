@@ -46,10 +46,6 @@ Lentils are a staple legume providing plant protein, slowly digested carbohydrat
 
 Within the BRAIN Diet framework, lentils are treated as a core plant protein and fibre source that pairs well with grains to round out amino acid profiles. They are particularly useful in patterns that limit or exclude animal products, helping to cover non‑heme iron and zinc requirements when prepared and combined appropriately [1]. Soaking, sprouting, and pairing with vitamin C–rich foods improves mineral bioavailability from lentil-based meals [1,2].
 
-## Recipes
-
-<FoodRecipes tag="Lentils" />
-
 ## Food Context
 
 ### Synergies
@@ -77,6 +73,10 @@ Limiting amino acids:
 Protein pairing strategy:
 
 Lentils are rich in lysine but relatively low in sulfur-containing amino acids. Combining lentils with grains such as [rice](/docs/foods/rice), [oats](/docs/foods/oats), barley, or other grains helps create a more balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Lentils" />
 
 <NutritionTable details={frontMatter} />
 

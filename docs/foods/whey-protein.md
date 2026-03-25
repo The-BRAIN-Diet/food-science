@@ -41,14 +41,9 @@ main_image: /img/foods/whey-protein/whey-protein_medium.webp
 legacy_list_image: /img/foods/whey-protein/whey-protein_thumb.webp
 legacy_main_image: /img/foods/whey-protein/whey-protein_medium.webp
 ---
-
 ## Overview
 
 Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function. Whey protein isolate has DIAAS 118–122 with no limiting amino acids, high leucine content, and supports BDNF and neurotransmitter synthesis.
-
-## Recipes
-
-<FoodRecipes tag="Whey Protein" />
 
 ## Food Context
 
@@ -65,6 +60,10 @@ Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotina
 ### Essential Amino Acid Profile
 
 Whey Protein contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Whey Protein" />
 
 <NutritionTable details={frontMatter} />
 

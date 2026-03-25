@@ -41,16 +41,9 @@ main_image: /img/foods/chamomile-tea/chamomile-tea_medium.webp
 legacy_list_image: /img/foods/chamomile-tea/chamomile-tea_thumb.webp
 legacy_main_image: /img/foods/chamomile-tea/chamomile-tea_medium.webp
 ---
-
 ## Overview
 
 Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine receptors, supporting calm and sleep onset without sedation. Apigenin (from chamomile tea) binds to benzodiazepine receptors, supporting calm and sleep.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Chamomile Tea" />
 
 ## Food Context
 
@@ -63,6 +56,12 @@ Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine recept
 
 - Steep 5-10 minutes for optimal extraction
 - Can be combined with other calming herbs
+
+## Recipes
+
+<FoodRecipes tag="Chamomile Tea" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

@@ -32,16 +32,9 @@ main_image: /img/foods/carrots/carrots_medium.webp
 legacy_list_image: /img/foods/carrots/carrots_thumb.webp
 legacy_main_image: /img/foods/carrots/carrots_medium.webp
 ---
-
 ## Overview
 
 Carrots provide beta-carotene (vitamin A precursor), demonstrating important food matrix effects where only 1-3% of beta-carotene in raw carrots is accessible for absorption. The bioaccessibility of carotenoids in vegetables is remarkably low—only 1-3% of the β-carotene in raw carrots is accessible for absorption. Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts. Carotenoids are abundant in leafy greens, orange and yellow vegetables, corn, and egg yolks.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Carrots" />
 
 ## Food Context
 
@@ -54,6 +47,12 @@ Carrots provide beta-carotene (vitamin A precursor), demonstrating important foo
 ### Preparation
 
 - Supports carotenoid diversity; carotenoids play a neuroprotective role through their antioxidant and anti-inflammatory properties
+
+## Recipes
+
+<FoodRecipes tag="Carrots" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

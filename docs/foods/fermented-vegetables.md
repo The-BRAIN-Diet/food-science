@@ -38,14 +38,9 @@ main_image: /img/foods/fermented-vegetables/fermented-vegetables_medium.webp
 legacy_list_image: /img/foods/fermented-vegetables/fermented-vegetables_thumb.webp
 legacy_main_image: /img/foods/fermented-vegetables/fermented-vegetables_medium.webp
 ---
-
 ## Overview
 
 Fermented vegetables provide live probiotics, postbiotic compounds, and enhanced nutrient bioavailability, supporting gut-brain axis communication. Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. Fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels.
-
-## Recipes
-
-<FoodRecipes tag="Fermented Vegetables" />
 
 ## Food Context
 
@@ -62,6 +57,10 @@ Fermented vegetables provide live probiotics, postbiotic compounds, and enhanced
 ### Essential Amino Acid Profile
 
 Fermented Vegetables contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Fermented Vegetables" />
 
 <NutritionTable details={frontMatter} />
 

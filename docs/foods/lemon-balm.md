@@ -40,16 +40,9 @@ main_image: /img/foods/lemon-balm/lemon-balm_medium.webp
 legacy_list_image: /img/foods/lemon-balm/lemon-balm_thumb.webp
 legacy_main_image: /img/foods/lemon-balm/lemon-balm_medium.webp
 ---
-
 ## Overview
 
 Lemon balm is an herbal tea that supports sleep and calm, often used in evening routines for ADHD sleep dysregulation. Herbal teas such as chamomile for apigenin, lemon balm, and tart cherry juice are recommended for evening wind-down and sleep prep.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Lemon Balm" />
 
 ## Food Context
 
@@ -62,6 +55,12 @@ Lemon balm is an herbal tea that supports sleep and calm, often used in evening 
 
 - Can be combined with chamomile and tart cherry
 - Supports circadian alignment
+
+## Recipes
+
+<FoodRecipes tag="Lemon Balm" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

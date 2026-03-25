@@ -42,14 +42,9 @@ main_image: /img/foods/sage/sage_medium.webp
 legacy_list_image: /img/foods/sage/sage_thumb.webp
 legacy_main_image: /img/foods/sage/sage_medium.webp
 ---
-
 ## Overview
 
 Sage provides compounds that support memory and cognitive enhancement, with therapeutic benefits demonstrated at 200–400 mg/day extract or through regular culinary doses.
-
-## Recipes
-
-<FoodRecipes tag="Sage" />
 
 ## Food Context
 
@@ -66,6 +61,10 @@ Sage provides compounds that support memory and cognitive enhancement, with ther
 ### Essential Amino Acid Profile
 
 Sage contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Sage" />
 
 <NutritionTable details={frontMatter} />
 

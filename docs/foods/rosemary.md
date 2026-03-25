@@ -38,16 +38,9 @@ main_image: /img/foods/rosemary/rosemary_medium.webp
 legacy_list_image: /img/foods/rosemary/rosemary_thumb.webp
 legacy_main_image: /img/foods/rosemary/rosemary_medium.webp
 ---
-
 ## Overview
 
 Rosemary provides compounds that support focus, antioxidant defenses, and neuroprotective effects. Rosemary supports focus, antioxidant, and neuroprotective effects and can be used as fresh herb or 250–500 mg/day extract.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Rosemary" />
 
 ## Food Context
 
@@ -60,6 +53,12 @@ Rosemary provides compounds that support focus, antioxidant defenses, and neurop
 - Can be used fresh or as extract
 - Supports cognitive function
 - Antioxidant support
+
+## Recipes
+
+<FoodRecipes tag="Rosemary" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

@@ -42,16 +42,9 @@ main_image: /img/foods/ginger/ginger_medium.webp
 legacy_list_image: /img/foods/ginger/ginger_thumb.webp
 legacy_main_image: /img/foods/ginger/ginger_medium.webp
 ---
-
 ## Overview
 
 Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects, and prokinetic properties helpful for SIBO management. Ginger supports gut-brain axis support and anti-inflammatory effects at 1–2 g/day fresh or powdered root, and many members of the Zingiberaceae family (which includes ginger, turmeric, and galangal) have pleiotropic effects overlapping between metabolic regulation and neurocognitive outcomes.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Ginger" />
 
 ## Food Context
 
@@ -64,6 +57,12 @@ Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects
 - Can be used fresh, powdered, or as tea
 - Prokinetic effects support SIBO management
 - Anti-inflammatory support
+
+## Recipes
+
+<FoodRecipes tag="Ginger" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

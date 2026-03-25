@@ -60,16 +60,11 @@ main_image: /img/foods/quinoa/quinoa_medium.webp
 legacy_list_image: /img/foods/quinoa/quinoa_thumb.webp
 legacy_main_image: /img/foods/quinoa/quinoa_medium.webp
 ---
-
 ## Overview
 
 Quinoa is a nutrient-dense pseudograin that provides complex carbohydrates, fibre, and a substantial plant-protein contribution, alongside magnesium, iron, zinc, folate, and choline [2]. It is naturally gluten-free and can be a useful grain alternative for people who avoid wheat-based staples.
 
 Quinoa seeds naturally contain bitter saponins in the outer coating, so rinsing before cooking improves taste and palatability; many modern commercial products are pre-washed, but a brief rinse is still practical in home cooking [3]. Within the BRAIN Diet framework, quinoa works well as a rotating whole-grain/pseudograin option that supports mineral intake, fibre intake, and overall diet diversity [2].
-
-## Recipes
-
-<FoodRecipes tag="Quinoa" />
 
 ## Key Nutritional Highlights
 
@@ -102,6 +97,10 @@ Notable amino acids:
 Protein pairing strategy:
 
 Combine quinoa with legumes (e.g. lentils, chickpeas, beans) to support a more robust essential amino-acid pattern across meals [1,2].
+
+## Recipes
+
+<FoodRecipes tag="Quinoa" />
 
 <NutritionTable details={frontMatter} />
 

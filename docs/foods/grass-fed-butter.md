@@ -45,25 +45,20 @@ main_image: /img/foods/grass-fed-butter/grass-fed-butter_medium.webp
 legacy_list_image: /img/foods/grass-fed-butter/grass-fed-butter_thumb.webp
 legacy_main_image: /img/foods/grass-fed-butter/grass-fed-butter_medium.webp
 ---
-
 ## Overview
 
 Grass-fed butter provides butyrate, CLA (conjugated linoleic acid), vitamins A/D/K2, selenium, and C15:0 pentadecanoic acid, supporting brain and metabolic health. Grass-Fed Butter: Butyrate, Conjugated linoleic acid (CLA; such as rumenic acid), vitamins A/D/K2, selenium, C15:0 pentadecanoic acid. C15:0 (Parmesan and grassfed Butter). Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks.
 
-## Recipes
-
-<FoodRecipes tag="Grass-Fed Butter" />
-
 ## Food Context
+
+### Synergies
+
+- Part of nutrient-dense fat strategy
 
 ### Sourcing
 
 - Choose grass-fed/pasture-raised sources for optimal nutrient profile
 - When consumed in moderation within an anti-inflammatory, micronutrient-rich diet, foods like grass-fed butter provide essential brain nutrients including choline, vitamin K2, butyrate, and fat-soluble vitamins A, D, and E
-
-### Synergies
-
-- Part of nutrient-dense fat strategy
 
 ### Preparation
 
@@ -73,6 +68,10 @@ Grass-fed butter provides butyrate, CLA (conjugated linoleic acid), vitamins A/D
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
+
+## Recipes
+
+<FoodRecipes tag="Grass-Fed Butter" />
 
 <NutritionTable details={frontMatter} />
 

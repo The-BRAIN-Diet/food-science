@@ -39,32 +39,31 @@ main_image: /img/foods/milk/milk_medium.webp
 legacy_list_image: /img/foods/milk/milk_thumb.webp
 legacy_main_image: /img/foods/milk/milk_medium.webp
 ---
-
 ## Overview
 
 Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (NAD+ precursor), and calcium, supporting mitochondrial function and bone health. Milk (skim) has a DIAAS score of 118, indicating balanced EAA profile and supports myelination. Nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread). Fortified plant milks and dairy milk can help meet calcium (and sometimes iodine, depending on fortification and local practices) targets.
 
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Milk" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose quality sources when possible
 
 ### Synergies
 
 - Part of diverse protein strategy
+
+### Sourcing
+
+- Choose quality sources when possible
 
 ### Preparation
 
 - Supports NAD+ availability through nicotinamide riboside
 - Consider tolerance and preferences
 - Fortified plant milks and dairy milk can help meet calcium targets
+
+## Recipes
+
+<FoodRecipes tag="Milk" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

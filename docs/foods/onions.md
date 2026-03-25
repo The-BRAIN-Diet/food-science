@@ -35,16 +35,9 @@ main_image: /img/foods/onions/onions_medium.webp
 legacy_list_image: /img/foods/onions/onions_thumb.webp
 legacy_main_image: /img/foods/onions/onions_medium.webp
 ---
-
 ## Overview
 
 Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur compounds that support gut microbiome, antioxidant defenses, and glutathione synthesis. Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples). Inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier. Quercetin is abundant in capers, apples, onions, berries, kale and soybeans.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Onions" />
 
 ## Food Context
 
@@ -57,6 +50,12 @@ Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur comp
 
 - Can be consumed raw or cooked; cooking may enhance some compounds
 - Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support antioxidant defenses
+
+## Recipes
+
+<FoodRecipes tag="Onions" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

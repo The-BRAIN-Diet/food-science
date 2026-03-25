@@ -33,7 +33,6 @@ main_image: /img/foods/early-harvest-olive-oil/early-harvest-olive-oil_medium.we
 legacy_list_image: /img/foods/early-harvest-olive-oil/early-harvest-olive-oil_thumb.webp
 legacy_main_image: /img/foods/early-harvest-olive-oil/early-harvest-olive-oil_medium.webp
 ---
-
 ## Overview
 
 Early harvest extra virgin olive oil is a precision food in the BRAIN Diet, harvested from olives picked earlier in the season when they contain significantly higher concentrations of bioactive compounds. **Olive oil's brain benefits come from polyphenols, not fatty acids.** Early harvest oils have substantially higher levels of the key secoiridoids and phenolics that provide brain health benefits:
@@ -45,12 +44,6 @@ Early harvest extra virgin olive oil is a precision food in the BRAIN Diet, harv
 
 These enhanced bioactive levels support mitochondrial function, antioxidant networks, and anti-inflammatory pathways, making early harvest olive oil a valuable component of precision dietary strategies for brain health. The implementation of the BRAIN diet must go beyond a standard nutrient density focus; it's about choosing foods for their specific bioactive potential: early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol, and total polyphenols.
 
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Olive Oil (Early Harvest)" />
-
 ## Food Context
 
 ### Preparation
@@ -61,6 +54,12 @@ These enhanced bioactive levels support mitochondrial function, antioxidant netw
 - Look for harvest date information on labels; early harvest typically occurs in September-October (Northern Hemisphere)
 - Total CoQ dropped by 53%-56% between three weeks of the harvesting of two brands, highlighting the critical importance of harvest timing
 - Higher polyphenol content provides stronger antioxidant and anti-inflammatory effects compared to standard EVOO
+
+## Recipes
+
+<FoodRecipes tag="Olive Oil (Early Harvest)" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

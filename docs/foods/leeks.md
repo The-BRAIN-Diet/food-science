@@ -31,16 +31,9 @@ main_image: /img/foods/leeks/leeks_medium.webp
 legacy_list_image: /img/foods/leeks/leeks_thumb.webp
 legacy_main_image: /img/foods/leeks/leeks_medium.webp
 ---
-
 ## Overview
 
 Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity. Fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus, and are part of the allium family with prebiotic benefits.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Leeks" />
 
 ## Food Context
 
@@ -53,6 +46,12 @@ Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fib
 
 - Can be consumed cooked or raw
 - Supports Bifidobacterium growth
+
+## Recipes
+
+<FoodRecipes tag="Leeks" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

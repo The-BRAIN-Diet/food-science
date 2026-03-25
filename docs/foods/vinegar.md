@@ -34,16 +34,9 @@ main_image: /img/foods/vinegar/vinegar_medium.webp
 legacy_list_image: /img/foods/vinegar/vinegar_thumb.webp
 legacy_main_image: /img/foods/vinegar/vinegar_medium.webp
 ---
-
 ## Overview
 
 Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity. Glucose regulation strategies include low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, and meal sequencing (veg → protein → carb).
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Vinegar" />
 
 ## Food Context
 
@@ -53,6 +46,12 @@ Vinegar, particularly apple cider vinegar, supports glucose regulation and can b
 - May support postprandial glucose control
 - Dilute before consumption
 - Part of food preparation and glucose management strategies
+
+## Recipes
+
+<FoodRecipes tag="Vinegar" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

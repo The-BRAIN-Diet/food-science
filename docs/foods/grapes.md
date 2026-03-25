@@ -35,16 +35,9 @@ main_image: /img/foods/grapes/grapes_medium.webp
 legacy_list_image: /img/foods/grapes/grapes_thumb.webp
 legacy_main_image: /img/foods/grapes/grapes_medium.webp
 ---
-
 ## Overview
 
 Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-dependent processes and supporting mitochondrial function. Polyphenols (e.g., resveratrol) activate SIRT1, enhancing NAD⁺-dependent processes, and are found in grapes, blueberries, cranberries, peanuts, and dark chocolate.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Grapes" />
 
 ## Food Context
 
@@ -57,6 +50,12 @@ Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-de
 
 - Can be consumed fresh or as juice (whole fruit preferred)
 - Supports mitochondrial NAD+ pathways
+
+## Recipes
+
+<FoodRecipes tag="Grapes" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

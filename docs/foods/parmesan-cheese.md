@@ -32,24 +32,19 @@ main_image: /img/foods/parmesan-cheese/parmesan-cheese_medium.webp
 legacy_list_image: /img/foods/parmesan-cheese/parmesan-cheese_thumb.webp
 legacy_main_image: /img/foods/parmesan-cheese/parmesan-cheese_medium.webp
 ---
-
 ## Overview
 
 Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 pentadecanoic acid, high protein, and calcium, with studies showing it doesn't raise LDL despite high calcium. Parmesan Cheese: CLA, vitamin K2, glutamate, high protein, calcium; fermented, C15:0. C15:0 (Parmesan and grassfed Butter). Studies have shown that hard cheeses with high calcium do not raise serum LDL levels. Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks.
 
-## Recipes
-
-<FoodRecipes tag="Parmesan Cheese" />
-
 ## Food Context
-
-### Sourcing
-
-- Choose quality sources when possible
 
 ### Synergies
 
 - Part of nutrient-dense animal food strategy
+
+### Sourcing
+
+- Choose quality sources when possible
 
 ### Preparation
 
@@ -60,6 +55,10 @@ Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 penta
 ### Essential Amino Acid Profile
 
 Parmesan Cheese contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+
+## Recipes
+
+<FoodRecipes tag="Parmesan Cheese" />
 
 <NutritionTable details={frontMatter} />
 

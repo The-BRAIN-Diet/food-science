@@ -57,16 +57,9 @@ main_image: /img/foods/broccoli/broccoli_medium.webp
 legacy_list_image: /img/foods/broccoli/broccoli_thumb.webp
 legacy_main_image: /img/foods/broccoli/broccoli_medium.webp
 ---
-
 ## Overview
 
 Broccoli is a cruciferous vegetable providing sulforaphane (from glucoraphanin), folate, and sulfur compounds that support glutathione synthesis and mitochondrial health. Isothiocyanates (ITCs) like sulforaphane, created through enzymatic activity from glucoraphanin in broccoli, have shown promising results in reducing oxidative stress. Broccoli is listed as a sulphur-containing vegetable that provides glutathione precursors, supporting antioxidant defenses and brain health.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Broccoli" />
 
 ## Food Context
 
@@ -79,6 +72,12 @@ Broccoli is a cruciferous vegetable providing sulforaphane (from glucoraphanin),
 - Light cooking or raw consumption preserves sulforaphane formation
 - Chewing activates myrosinase enzyme to convert glucoraphanin to sulforaphane
 - Sulforaphane activates Nrf2 and has higher bioavailability than other polyphenol supplements
+
+## Recipes
+
+<FoodRecipes tag="Broccoli" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 

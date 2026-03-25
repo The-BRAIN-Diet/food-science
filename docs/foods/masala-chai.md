@@ -37,16 +37,9 @@ main_image: /img/foods/masala-chai/masala-chai_medium.webp
 legacy_list_image: /img/foods/masala-chai/masala-chai_thumb.webp
 legacy_main_image: /img/foods/masala-chai/masala-chai_medium.webp
 ---
-
 ## Overview
 
 Masala chai (spiced tea) combines tea with bioactive brain-focused herbs and spices, providing polyphenols and potential neuroprotective compounds. Green tea contributes manganese and small amounts of fluoride and potassium, alongside polyphenols that support antioxidant defenses. Masala/'chai' and turmeric milk are great sources where bioactive brain focused herbs are present.
-
-<NutritionTable details={frontMatter} />
-
-## Recipes
-
-<FoodRecipes tag="Masala Chai" />
 
 ## Food Context
 
@@ -59,6 +52,12 @@ Masala chai (spiced tea) combines tea with bioactive brain-focused herbs and spi
 - Can be made with various spice blends
 - Supports polyphenol intake
 - Can be customized with brain-supportive spices
+
+## Recipes
+
+<FoodRecipes tag="Masala Chai" />
+
+<NutritionTable details={frontMatter} />
 
 ## Substances
 
