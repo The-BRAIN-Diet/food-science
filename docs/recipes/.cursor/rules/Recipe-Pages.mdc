@@ -70,3 +70,58 @@ recipe_nutrition:
 - Nutrients below reporting thresholds show as **trace** in the table.
 
 If `recipe_nutrition` is omitted, the recipe page falls back to the legacy tag-sum (clearly labelled in the UI).
+
+## Copy/Paste Recipe Template (canonical)
+
+Use this as the baseline for new recipe pages so the parsing and UI components behave consistently.
+
+```md
+---
+id: <recipe-id-slug>
+title: <Human Title>
+sidebar_label: <Human Title>
+description: <One sentence: what it is + why it is good>
+tags:
+  - Recipe
+  - <Meal category (Breakfast/Lunch/Dinner/Side-dishes/Drinks)>
+  - <Food tags (must match food page titles)>
+  - <Main biological target tags>
+list_image: /img/recipes/<image-file>.jpg
+---
+
+<img src="/img/recipes/<image-file>.jpg" alt="<Alt text>" width="480" />
+
+## Overview
+
+_Replace with a single paragraph describing what the recipe is and why it is delicious and good for you._
+
+## Ingredients (servings)
+
+- _metric_ (_cooking equivalent_) _ingredient_
+- _metric_ (_cooking equivalent_) _ingredient_
+
+## Method
+
+1. _step_
+2. _step_
+
+## Extra Guidance (optional)
+
+- _note_
+
+## Nutrition
+
+_Replace with text estimates or a markdown table._
+
+## Brain Health Notes
+
+- _why it helps the brain_
+
+## Foods/Substances
+
+<RecipeFoods details={frontMatter} />
+
+## Biological Target Matrix
+
+<RecipeMatrix details={frontMatter} />
+```

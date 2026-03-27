@@ -28,7 +28,7 @@ Implementation references:
 | **Nutrient / class** | Human-readable label (Energy, Protein, Iron, …). |
 | **Foods in recipe** | Food pages that contribute to that row (hyperlinked). In weighted mode, only foods with a non-trace contribution for that nutrient; in legacy, foods whose panel includes that key. |
 | **Total** | Header: **“Total (scaled to recipe)”** or **“Total (100 g per linked food)”** depending on mode. Numeric total for the row; **trace** when below reporting thresholds (weighted mode only). |
-| **% RDA aggregate** | **Only for core + micronutrient keys** (see keys below). `(amount ÷ adult RDA) × 100`. Uses fixed adult reference values in `RecipeFoods` (must match `NutritionTable` where applicable). **—** for fibre and polyphenol proxy rows. |
+| **% RDA aggregate** | **Only for core + micronutrient keys** (see keys below). `(amount ÷ adult reference) × 100`. Most nutrients use fixed adult reference values in `RecipeFoods`; **protein is shown as a range** using a fixed g/kg/day coefficient across a body-weight range. **—** for polyphenol proxy rows. |
 
 ## Nutrient keys included in the main table
 

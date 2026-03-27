@@ -9,11 +9,35 @@ tags:
   - Salmon
   - Avocado
   - Pistachios
-  - Cacao
+  - Cacao Nibs (Raw)
+  - Spinach
   - Pomegranates
   - Olive Oil (Early Harvest)
+  - Chia Seeds
   - Omega-3 Fatty Acids
 list_image: /img/recipes/Salmon-pistachio-cacoa-nibs.jpg
+# Portion-weighted aggregate in <RecipeFoods/> (grams = whole recipe as written; UI shows per serving when servings > 1).
+recipe_nutrition:
+  servings: 2
+  ingredients:
+    - food: Salmon
+      grams: 135
+    - food: Avocado
+      grams: 150
+    - food: Pistachios
+      grams: 45
+    - food: Spinach
+      grams: 30
+    - food: Cacao Nibs (Raw)
+      grams: 15
+    - food: Pomegranates
+      grams: 50
+    - food: Olive Oil (Early Harvest)
+      grams: 22
+    - food: Chia Seeds
+      grams: 5
+    - food: Lemon
+      grams: 24
 ---
 
 <img src="/img/recipes/Salmon-pistachio-cacoa-nibs.jpg" alt="ECS-Tone Salmon Bowl" width="480" />
@@ -22,17 +46,17 @@ list_image: /img/recipes/Salmon-pistachio-cacoa-nibs.jpg
 A Mediterranean-style bowl combining salmon, avocado, pistachio, raw cacao nibs, and pomegranates. These ingredients provide omega-3 fats, polyphenols, fibre, and a favourable omega-6:omega-3 ratio. Lemon and fresh greens add brightness, fibre, and micronutrients.
 
 ## Ingredients (2 servings)
-- 120–150 g **wild salmon** (baked or lightly pan-seared)
-- 1 **ripe avocado**, sliced
-- 40–50 g **pistachios** (raw or dry-roasted, unsalted)
-- 1 cup **mixed leafy greens** (rocket, lamb’s lettuce, baby spinach)
-- 1 tbsp (15 ml) [**cacao nibs (raw)**](/docs/foods/cacao-nibs-raw)
-- **handful of pomegranate seeds** (arils)
-- 1–2 tbsp **early harvest olive oil**
-- 1 tsp (5 ml) **hemp seeds** or **chia seeds**
-- juice of **½ lemon**
-- a few sprigs of **mint** or basil
-- sea salt to taste
+- 120–150 g (4.2–5.3 oz) **wild salmon** (baked or lightly pan-seared)
+- 150 g (1 medium) **ripe avocado**, sliced
+- 40–50 g (approx 1/3 cup) **pistachios** (raw or dry-roasted, unsalted)
+- 30 g (1 cup) **spinach** (baby spinach)
+- 15 ml (1 tbsp) **cacao nibs (raw)**
+- 50 g (approx 1 cup) **pomegranate arils** (seeds)
+- 15–30 ml (1–2 tbsp) **early harvest olive oil**
+- 5 ml (1 tsp) **chia seeds**
+- 24 ml (about 1 1/2 tbsp) **lemon juice** (from 1/2 lemon)
+- 10 g (approx 2 tbsp) fresh **mint or basil leaves** (optional)
+- 1 g (approx 1/4 tsp) **fine sea salt** (to taste)
 
 ## Method
 
@@ -48,49 +72,22 @@ A Mediterranean-style bowl combining salmon, avocado, pistachio, raw cacao nibs,
    Keep structure visible for visual and textural balance.
 
 4. **Add toppings**  
-   Sprinkle pistachios, chia/hemp.  
+   Sprinkle pistachios, then chia seeds.  
    Lightly scatter cacao nibs (0.5–1 tsp per bowl) to provide bitterness and crunch.  
-   Sprinkle a handful of pomegranate seeds over the bowl for sweetness and color.
+   Sprinkle pomegranate arils over the bowl for sweetness and color.
 
 5. **Dress**  
    Drizzle early harvest olive oil, add lemon juice, season lightly with salt.  
-   Finish with mint or basil leaves.
+   Finish with mint or basil leaves (if using).
 
 ## Extra Guidance
 - Serve at **room temperature**.  
 - Do not add sweet dressings — **cacao functions as a bitter spice, not dessert**.  
 - Sprinkle cacao nibs **just before serving** to preserve snap and aromatic bitterness.
 
-## Nutrition — **per 100 g of the prepared bowl**
+## Nutrition
 
-> Composite values using a normalized blend of salmon, avocado, pistachio, leafy greens, early harvest olive oil, chia, cacao nibs, and pomegranates.  
-> Based on EU/UK reference guidelines.
-
-| **Nutrient / Substance** | **Amount per 100 g** | **RDA / RI (EU/UK)** | **% RDA** |
-|---|---:|---:|---:|
-| **Energy** | 183 kcal (766 kJ) | 2000 kcal | 9.1% |
-| **Protein** | 7.8 g | 50 g | 15.6% |
-| **Total Fat** | 14.4 g | 70 g | 20.6% |
-| Saturated | 2.2 g | 20 g | 11% |
-| Monounsaturated | 7.5 g | — | — |
-| Polyunsaturated | 3.7 g | — | — |
-| **Omega-3 total** | 650–730 mg | ≥250 mg | 130–200% |
-| **EPA** | ~140 mg | — | — |
-| **DHA** | ~420 mg | — | — |
-| **Omega-6 total** | ~960–1050 mg | — | — |
-| **n6:n3 ratio** | **1.4–1.6 : 1** | — | — |
-| **Carbohydrates** | 5.2 g | — | — |
-| Sugars | 0.7 g | &lt;90 g | 0.8% |
-| **Fiber** | 2.6 g | 30 g | 8.6% |
-| **Magnesium** | 28–36 mg | 375 mg | 7–9% |
-| **Potassium** | 240–290 mg | 3500 mg | 6.8% |
-| **Vitamin E** | 1.2–1.6 mg | 12 mg | 10–13% |
-| **Folate** | 35–44 µg | 200 µg | 17–22% |
-| **Vitamin B6** | 0.15–0.19 mg | 1.4 mg | 11–13% |
-| **Vitamin B12** | 0.85–1.0 µg | 2.4 µg | 35–42% |
-| **Copper** | 0.08–0.10 mg | 1 mg | 8–10% |
-| **Manganese** | 0.12–0.15 mg | 3 mg | 4–5% |
-| **Zinc** | 0.4–0.6 mg | 10 mg | 4–6% |
+Nutrition for this recipe is shown in the dynamic **Recipe nutrition** table below (`<RecipeFoods />`), calculated from ingredient grams and linked food panels. This avoids duplicated or conflicting table maths on the page.
 
 ## Brain Health Notes
 

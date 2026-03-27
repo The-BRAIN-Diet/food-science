@@ -39,20 +39,21 @@ legacy_main_image: /img/foods/avocado/avocado_medium.webp
 ---
 ## Overview
 
-Avocado provides monounsaturated fats (MUFA), vitamin E, lutein, fiber, and glutathione, supporting carotenoid absorption and antioxidant defenses. Avocado / Avocado Oil provides MUFAs (oleic), vitamin E, lutein, fibre, glutathione. Sources: extra-virgin olive oil, avocado, olives, nuts for MUFA (monounsaturated fatty acids). Practical pairings include carrots + tahini, kale + avocado, berries + yogurt/nuts. Nicotinamide Mononucleotide (NMN) sources include edamame, broccoli, cucumber, avocado.
+Avocado (whole fruit) provides monounsaturated fat (mostly oleic acid), vitamin E, lutein, fibre, and glutathione, which supports carotenoid absorption when eaten with colourful vegetables and contributes to everyday antioxidant intake.
+
+Co-consuming dietary fat with carotenoid-rich foods supports packaging into chylomicrons and related absorption pathways ([Kindel et al., 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)). In controlled feeding studies, carotenoid bioavailability from salad vegetables was higher with full-fat than with fat-reduced dressings ([Brown et al., 2004](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)). Vitamin D is fat-soluble; its bioavailability across milk, skim milk, corn oil, and fortified beverages has been studied directly in adults ([Tangpricha et al., 2003](/docs/papers/BRAIN-Diet-References#tangpricha_fortification_2003)).
 
 ## Food Context
 
 ### Synergies
 
-- Pair with carotenoid-rich vegetables for enhanced absorption; co-consuming a small amount of unsaturated fat improves micelle formation and chylomicron packaging, increasing carotenoid and fat-soluble vitamin absorption
-- Supports fat-soluble vitamin absorption; dietary fat enhances the absorption of fat-soluble vitamins (A, D, E, K)
-- Part of MUFA strategy; MUFAs support membrane fluidity and anti-inflammatory effects
-- Practical pairings: carrots + tahini, kale + avocado, berries + yogurt/nuts
+- Pair with carotenoid-rich vegetables for enhanced absorption: chylomicron formation and secretion ([Kindel et al., 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)); higher salad carotenoid bioavailability with higher-fat than fat-reduced dressings ([Brown et al., 2004](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)).
+- Vitamin D (fat-soluble) bioavailability and fortification vehicles (including nonfat beverages) ([Tangpricha et al., 2003](/docs/papers/BRAIN-Diet-References#tangpricha_fortification_2003)).
 
 ### Preparation
 
-- Can be used as spread, in salads, or as oil
+- Use as **whole fruit**: sliced or cubed in salads and bowls, mashed as a spread or dip, or blended into smoothies — the edible flesh is not a cooking oil.
+- **Avocado oil** (pressed/extracted fat) is a **different product** with a different nutrition profile and uses; see [Avocado Oil](/docs/foods/avocado-oil).
 
 ## Recipes
 
@@ -66,9 +67,5 @@ Avocado provides monounsaturated fats (MUFA), vitamin E, lutein, fiber, and glut
 
 ## References
 
-- Avocado / Avocado Oil: MUFAs (oleic), vitamin E, lutein, fibre, glutathione
-- Sources: extra-virgin olive oil, avocado, olives, nuts for MUFA (monounsaturated fatty acids)
-- Practical pairings: carrots + tahini, kale + avocado, berries + yogurt/nuts
-- Nicotinamide Mononucleotide (NMN): Direct NAD⁺ intermediate in salvage pathway; food sources include edamame, broccoli, cucumber, avocado
-- Co-consuming a small amount of unsaturated fat with polyphenol-rich foods improves micelle formation and chylomicron packaging, increasing carotenoid and fat-soluble vitamin absorption [Kindel et al. 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010) [Brown et al. 2004](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
-- Dietary fat enhances the absorption of fat-soluble vitamins (A, D, E, K) [Tangpricha et al. 2003](/docs/papers/BRAIN-Diet-References#tangpricha_fortification_2003)
+1. Carotenoid absorption, chylomicrons, and salad trials: [Kindel, Lee & Tso (2010) — The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010); [Brown et al. (2004) — Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+2. [Tangpricha et al. (2003) — Fortification of orange juice with vitamin D: a novel approach for enhancing vitamin D nutritional health](/docs/papers/BRAIN-Diet-References#tangpricha_fortification_2003)

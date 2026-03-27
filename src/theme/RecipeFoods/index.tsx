@@ -81,6 +81,12 @@ const RDA_VALUES: Record<string, number> = {
   vitamin_k_ug: 120,
   copper_mg: 0.9,
 }
+// Protein reference model:
+// - Single coefficient (median/central target): 1.2 g/kg/day
+// - Body-weight range only: 50-100 kg
+const PROTEIN_REF_G_PER_KG = 1.2
+const PROTEIN_REFERENCE_BODY_WEIGHT_KG_MIN = 50
+const PROTEIN_REFERENCE_BODY_WEIGHT_KG_MAX = 100
 
 function DocItemImage({
   doc,
@@ -306,8 +312,6 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
     weighted = null
   }
 
-  let fibreTotal = 0
-  const fibreFoods: Document[] = []
   let polyphenolTotalMg = 0
   const polyphenolFoods: Document[] = []
   let hasQualitativePolyphenol = false
@@ -341,13 +345,6 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
       const fm = food.frontMatter || {}
       const nutrition = (fm.nutrition_per_100g || {}) as NutritionValues
       const grams = ing.grams
-      const fibre = nutrition.fibre_g
-      if (typeof fibre === "number") {
-        const c = nutrientContribution(fibre, grams)
-        fibreTotal += c
-        if (c > 0) fibreFoods.push(food)
-      }
-
       const supplementary = Array.isArray(fm.nutrition_supplementary_sources)
         ? (fm.nutrition_supplementary_sources as SupplementarySource[])
         : []
@@ -391,12 +388,6 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
         nutrientFoods.set(key, [...(nutrientFoods.get(key) || []), food])
       }
 
-      const fibre = nutrition.fibre_g
-      if (typeof fibre === "number" && fibre > 0) {
-        fibreTotal += fibre
-        fibreFoods.push(food)
-      }
-
       const supplementary = Array.isArray(fm.nutrition_supplementary_sources)
         ? (fm.nutrition_supplementary_sources as SupplementarySource[])
         : []
@@ -433,7 +424,6 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
 
   const uniqueByPermalink = (docs: Document[]) =>
     Array.from(new Map(docs.map((d) => [d.permalink, d])).values())
-  const fibreFoodDocs = uniqueByPermalink(fibreFoods)
   const polyphenolFoodDocs = uniqueByPermalink(polyphenolFoods)
 
   const renderFoodList = (docs: Document[]) => {
@@ -460,6 +450,13 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
   const formatRda = (key: string, value: number) => {
     const v = displayNutrientAmount(value)
     if (weighted && isTraceTotal(key, v)) return "—"
+    if (key === "protein_g") {
+      const minTarget = PROTEIN_REF_G_PER_KG * PROTEIN_REFERENCE_BODY_WEIGHT_KG_MIN
+      const maxTarget = PROTEIN_REF_G_PER_KG * PROTEIN_REFERENCE_BODY_WEIGHT_KG_MAX
+      const highPct = (v / minTarget) * 100
+      const lowPct = (v / maxTarget) * 100
+      return `${lowPct.toFixed(1)}-${highPct.toFixed(1)}%*`
+    }
     const rda = RDA_VALUES[key]
     if (!rda || rda <= 0) return "—"
     return `${((v / rda) * 100).toFixed(1)}%`
@@ -515,7 +512,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
         </div>
       </details>
 
-      {(coreRows.length > 0 || microRows.length > 0 || fibreFoodDocs.length > 0 || polyphenolFoodDocs.length > 0) && (
+      {(coreRows.length > 0 || microRows.length > 0 || polyphenolFoodDocs.length > 0) && (
         <div style={{marginTop: "1rem"}}>
           <h3 style={{marginBottom: "0.5rem"}}>Recipe nutrition</h3>
           <p style={{fontSize: "0.9em", color: "var(--ifm-color-content-secondary)", marginTop: 0}}>
@@ -564,7 +561,9 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
               )}
               {CORE_NUTRIENT_KEYS.filter((key) => nutrientTotals.has(key)).map((key) => (
                 <tr key={key}>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{NUTRIENT_LABELS[key]?.label || key}</td>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+                    {key === "protein_g" ? "Protein*" : NUTRIENT_LABELS[key]?.label || key}
+                  </td>
                   <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
                     {renderFoodList(nutrientFoods.get(key) || [])}
                   </td>
@@ -601,18 +600,6 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
                 </tr>
               ))}
               <tr>
-                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>Fibre</td>
-                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{renderFoodList(fibreFoodDocs)}</td>
-                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                  {fibreFoodDocs.length > 0
-                    ? weighted && isTraceTotal("fibre_g", displayNutrientAmount(fibreTotal))
-                      ? "trace"
-                      : `${displayNutrientAmount(fibreTotal).toFixed(1)} g`
-                    : "—"}
-                </td>
-                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>—</td>
-              </tr>
-              <tr>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>Polyphenols (proxy)</td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{renderFoodList(polyphenolFoodDocs)}</td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
@@ -631,6 +618,10 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
           </table>
           <p style={{fontSize: "0.85em", color: "var(--ifm-color-content-secondary)", marginTop: "0.5rem"}}>
             Aggregate %RDA uses adult reference intakes and the summed food-level values shown above.
+          </p>
+          <p style={{fontSize: "0.85em", color: "var(--ifm-color-content-secondary)", marginTop: "0.35rem"}}>
+            * Protein is shown as a range, benchmarked to {PROTEIN_REF_G_PER_KG} g/kg/day using a{" "}
+            {PROTEIN_REFERENCE_BODY_WEIGHT_KG_MIN}-{PROTEIN_REFERENCE_BODY_WEIGHT_KG_MAX} kg reference adult range.
           </p>
         </div>
       )}
