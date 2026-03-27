@@ -47,10 +47,6 @@ A quick savory shot built from roe, lemon, and fermented hot sauce. It is design
 - Keep portions small; this is a concentrated garnish-style shot, not a full meal.
 - Use chilled roe and serve immediately after mixing.
 
-## Nutrition
-
-Weighted nutrition is calculated from ingredient grams in `recipe_nutrition`.
-
 ## Brain Health Notes
 
 - **Roe** contributes EPA/DHA and choline in a compact serving.
