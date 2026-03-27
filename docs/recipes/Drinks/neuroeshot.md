@@ -58,6 +58,8 @@ Weighted nutrition is calculated from ingredient grams in `recipe_nutrition`.
 
 ## Foods/Substances
 
+> Nutrition: Weighted nutrition is calculated from ingredient grams in `recipe_nutrition`.
+
 <RecipeFoods details={frontMatter} />
 
 ## Biological Target Matrix
