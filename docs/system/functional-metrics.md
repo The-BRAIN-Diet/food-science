@@ -2,7 +2,6 @@
 title: Functional metrics (food pages)
 sidebar_label: Functional metrics
 description: How “Functional metrics” are defined on food pages (Low/Medium/High scoring).
-unlisted: true
 draft: true
 ---
 

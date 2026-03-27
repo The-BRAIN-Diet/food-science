@@ -4,6 +4,7 @@
  */
 
 import {
+  BIOACTIVE_LIPID_KEYS,
   CORE_NUTRIENT_KEYS,
   MICRONUTRIENT_KEYS,
 } from "@site/src/data/nutritionTableMapping"
@@ -87,7 +88,8 @@ export type WeightedNutrientResult = {
 }
 
 /**
- * Compute portion-weighted totals and per-food contributions for core + micronutrients + fibre + sugars.
+ * Compute portion-weighted totals and per-food contributions for
+ * core + micronutrients + bioactive lipids.
  */
 export function computeWeightedNutrients(
   recipeNutrition: RecipeNutritionBlock,
@@ -98,7 +100,7 @@ export function computeWeightedNutrients(
   const totals = new Map<string, number>()
   const byFood = new Map<string, Map<string, number>>()
 
-  const allKeys = [...CORE_NUTRIENT_KEYS, ...MICRONUTRIENT_KEYS]
+  const allKeys = [...CORE_NUTRIENT_KEYS, ...MICRONUTRIENT_KEYS, ...BIOACTIVE_LIPID_KEYS, "omega3_mg"]
 
   for (const ing of recipeNutrition.ingredients) {
     const doc = matchFoodDoc(ing.food, foodDocs)

@@ -3,6 +3,7 @@ import {usePluginData} from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
 import styles from "../TagList/styles.module.css"
 import {
+  BIOACTIVE_LIPID_KEYS,
   CORE_NUTRIENT_KEYS,
   MICRONUTRIENT_KEYS,
   NUTRIENT_LABELS,
@@ -381,7 +382,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
     relatedFoods.forEach((food: Document) => {
       const fm = food.frontMatter || {}
       const nutrition = (fm.nutrition_per_100g || {}) as NutritionValues
-      for (const key of [...CORE_NUTRIENT_KEYS, ...MICRONUTRIENT_KEYS]) {
+      for (const key of [...CORE_NUTRIENT_KEYS, ...MICRONUTRIENT_KEYS, ...BIOACTIVE_LIPID_KEYS, "omega3_mg"]) {
         const value = nutrition[key]
         if (typeof value !== "number") continue
         nutrientTotals.set(key, (nutrientTotals.get(key) || 0) + value)
@@ -479,6 +480,8 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
 
   const coreRows = nutrientRows(CORE_NUTRIENT_KEYS)
   const microRows = nutrientRows(MICRONUTRIENT_KEYS)
+  const bioactiveKeys = [...BIOACTIVE_LIPID_KEYS, "omega3_mg"] as const
+  const bioactiveRows = nutrientRows(bioactiveKeys)
 
   return (
     <div className="bok-tag-list">
@@ -512,7 +515,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
         </div>
       </details>
 
-      {(coreRows.length > 0 || microRows.length > 0 || polyphenolFoodDocs.length > 0) && (
+      {(coreRows.length > 0 || microRows.length > 0 || bioactiveRows.length > 0 || polyphenolFoodDocs.length > 0) && (
         <div style={{marginTop: "1rem"}}>
           <h3 style={{marginBottom: "0.5rem"}}>Recipe nutrition</h3>
           <p style={{fontSize: "0.9em", color: "var(--ifm-color-content-secondary)", marginTop: 0}}>
@@ -586,6 +589,30 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
                 </tr>
               )}
               {MICRONUTRIENT_KEYS.filter((key) => nutrientTotals.has(key)).map((key) => (
+                <tr key={key}>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{NUTRIENT_LABELS[key]?.label || key}</td>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+                    {renderFoodList(nutrientFoods.get(key) || [])}
+                  </td>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+                    {formatTotal(key, nutrientTotals.get(key) || 0)}
+                  </td>
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
+                    {formatRda(key, nutrientTotals.get(key) || 0)}
+                  </td>
+                </tr>
+              ))}
+              {bioactiveRows.length > 0 && (
+                <tr>
+                  <td
+                    colSpan={4}
+                    style={{padding: "8px", borderBottom: "1px solid #ddd", fontWeight: 600, background: "rgba(0,0,0,0.02)"}}
+                  >
+                    Bioactive compounds
+                  </td>
+                </tr>
+              )}
+              {bioactiveKeys.filter((key) => nutrientTotals.has(key)).map((key) => (
                 <tr key={key}>
                   <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{NUTRIENT_LABELS[key]?.label || key}</td>
                   <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
