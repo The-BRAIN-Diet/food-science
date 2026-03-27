@@ -79,7 +79,7 @@ Within the BRAIN Diet framework, dark chocolate is best positioned as a function
 
 ### Synergies
 
-- Pair with calcium/zinc sources to reduce metal absorption
+- Pair with calcium- and zinc-containing foods as part of a broader dietary strategy that may help reduce cadmium uptake/burden over time [5].
 
 ### Sourcing
 
@@ -115,3 +115,5 @@ Dark chocolate is not used as a primary protein food, so essential amino-acid co
 [3] Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA [Hands et al. 2024](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
 
 [4] Occurrence of heavy metals in chocolates and health risk assessment (origin and geogenic context) [Godebo et al. 2024](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024)
+
+[5] Dietary strategies for cadmium and lead toxicity, including roles of essential minerals (e.g. calcium and zinc) [Zhai et al. 2015](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)
