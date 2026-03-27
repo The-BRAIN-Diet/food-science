@@ -64,9 +64,9 @@ legacy_main_image: /img/foods/dark-chocolate/dark-chocolate_medium.webp
 ---
 ## Overview
 
-Dark chocolate (typically >=70% cocoa) is a concentrated source of cocoa polyphenols, particularly flavanols, including epicatechin, catechin, and oligomeric procyanidins. These compounds have been studied for their roles in vascular and neurocognitive function, with mechanistic evidence highlighting endothelial nitric oxide pathways as a key component of vascular regulation. Flavanol-rich cocoa is associated with improved endothelial function, nitric oxide bioavailability, and downstream effects on cerebral blood flow, which may contribute to observed cognitive outcomes in studies of high-flavonoid intake [1][2].
+Dark chocolate (typically >=70% cocoa) is a concentrated source of cocoa polyphenols, particularly flavanols, including epicatechin, catechin, and oligomeric procyanidins. These compounds have been studied for roles in vascular and neurocognitive function, with mechanistic evidence highlighting endothelial nitric oxide pathways as a key component of vascular regulation.
 
-Within the BRAIN Diet framework, dark chocolate is best positioned as a functional ingredient rather than a daily staple. Its polyphenol content varies widely depending on cocoa percentage, processing, and formulation, while heavy metal levels can differ significantly between products. Selecting high-cocoa, minimally processed, and independently tested sources helps maximise potential benefit while managing exposure risks [3].
+Within the BRAIN Diet framework, dark chocolate is best positioned as a functional ingredient rather than a daily staple. Polyphenol content varies widely with cocoa percentage and processing, so practical use focuses on product selection, portion control, and overall dietary context.
 
 ## Key Nutritional Highlights
 
@@ -86,6 +86,7 @@ Within the BRAIN Diet framework, dark chocolate is best positioned as a function
 - Choose 70%+ cocoa for higher flavanol content
 - Consider higher-milk/lower-cocoa formulations to reduce heavy metal absorption
 - Select low-Cd/Pb origins with strong post-harvest controls
+- Cacao from many Latin American origins (e.g. Peru/Ecuador, parts of Central/South America) tends to show higher cadmium concentrations than West African origins (e.g. Ghana/Ivory Coast), and this pattern is mainly geogenic (soil geology background) rather than a simple marker of farm quality [4].
 
 ### Preparation
 
@@ -112,3 +113,5 @@ Dark chocolate is not used as a primary protein food, so essential amino-acid co
 [2] Role of inflammatory and proresolving mediators in endothelial dysfunction [Briones et al. 2025](/docs/papers/BRAIN-Diet-References#briones_inflammatory_proresolving_endothelium_2025)
 
 [3] Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA [Hands et al. 2024](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
+
+[4] Occurrence of heavy metals in chocolates and health risk assessment (origin and geogenic context) [Godebo et al. 2024](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024)

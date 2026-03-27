@@ -22,8 +22,39 @@ alwaysApply: false
 
 ## Required EAA section
 
-- If a food has **≥5 g protein per 100 g** or is **commonly used as a protein source** (grains like barley, oats, quinoa; legumes; nuts; seeds; animal foods), the page **must** include an **Essential Amino Acid Profile** subsection.
-- This section must classify the protein profile and include notable/limiting amino acids where relevant. Pairing advice belongs here, not in Overview.
+- Include an **Essential Amino Acid Profile** section **only when**:
+  - **Protein >= 5 g per 100 g**, OR
+  - The food is **commonly used as a meaningful protein source** (e.g. grains/legumes/nuts/seeds/animal foods in typical dietary context).
+
+- Foods with **negligible protein** (e.g. oils, fruits, low-protein vegetables) **must not** include an EAA section.
+
+### Boundary examples (explicit)
+Include EAA:
+| Food | Protein (per 100g) | Reason |
+|---|---:|---|
+| Cod | ~18 g | Primary protein source |
+| Beef | ~26 g | High-quality complete protein |
+| Walnuts | ~15 g | Contributes meaningfully + limiting AAs |
+| Lentils | ~9 g | Plant protein source |
+
+Conditional / contextual:
+| Food | Protein | Rule |
+|---|---:|---|
+| Quinoa | ~4.4 g | Include (used as protein source) |
+| Oats | ~13 g | Include |
+| Seeds | variable | Include if used as meaningful protein contributor |
+
+Exclude EAA:
+| Food | Protein | Reason |
+|---|---:|---|
+| Extra virgin olive oil | 0 g | No protein -> no amino-acid relevance |
+| Blueberries | ~0.7 g | Negligible |
+| Spinach | ~2.9 g | Not a protein source |
+| Honey | 0 g | No protein |
+
+Implementation notes:
+- Use `protein_g` from the food page `nutrition_per_100g` as the numeric gate.
+- Pairing advice belongs in the EAA section, not in Overview.
 
 ## Three sources of truth
 
