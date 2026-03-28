@@ -110,7 +110,7 @@ Dark chocolate is not used as a primary protein food, so essential amino-acid co
 
 [1] High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor [Neshatdoust et al. 2016](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
 
-[2] Role of inflammatory and proresolving mediators in endothelial dysfunction [Briones et al. 2025](/docs/papers/BRAIN-Diet-References#briones_inflammatory_proresolving_endothelium_2025)
+[2] (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans [Schroeter et al. 2006](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
 
 [3] Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA [Hands et al. 2024](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
 
