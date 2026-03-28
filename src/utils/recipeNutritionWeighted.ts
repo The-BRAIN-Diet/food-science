@@ -126,15 +126,37 @@ export function computeWeightedNutrients(
   return {totals, byFood}
 }
 
+/**
+ * List a food in "Foods in recipe" only if it is both non-trace and at least this
+ * fraction of the row total. Stops every tagged ingredient appearing on rows where
+ * USDA carries negligible analytical omega-3 (e.g. a few mg ALA in citrus) that is
+ * not meaningful next to fish roe.
+ */
+export const MIN_FOOD_SHARE_OF_ROW_TOTAL = 0.02
+
 export function foodsContributingToNutrient(
   key: string,
-  byFood: Map<string, Map<string, number>>
+  byFood: Map<string, Map<string, number>>,
+  rowTotal?: number
 ): string[] {
   const m = byFood.get(key)
   if (!m) return []
-  const out: string[] = []
-  m.forEach((amount, title) => {
-    if (!isTraceContribution(key, amount)) out.push(title)
-  })
-  return out
+
+  const nonTrace = [...m.entries()].filter(([, amount]) => !isTraceContribution(key, amount))
+  if (nonTrace.length === 0) return []
+
+  const totalFromMap = nonTrace.reduce((s, [, c]) => s + c, 0)
+  const total =
+    typeof rowTotal === "number" && Number.isFinite(rowTotal) && rowTotal > 0 ? rowTotal : totalFromMap
+
+  if (!Number.isFinite(total) || total <= 0) return []
+
+  const byShare = nonTrace.filter(([, c]) => c / total >= MIN_FOOD_SHARE_OF_ROW_TOTAL)
+  if (byShare.length > 0) {
+    return byShare.map(([title]) => title).sort((a, b) => a.localeCompare(b))
+  }
+
+  // Non-trace total but no food reaches min share (rare): attribute to the largest contributor only.
+  nonTrace.sort((a, b) => b[1] - a[1])
+  return [nonTrace[0][0]]
 }

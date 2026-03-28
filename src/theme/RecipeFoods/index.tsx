@@ -333,7 +333,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
   if (weighted && recipeNutrition) {
     weighted.totals.forEach((v, k) => nutrientTotals.set(k, v))
     nutrientTotals.forEach((_, key) => {
-      const titles = foodsContributingToNutrient(key, weighted.byFood)
+      const titles = foodsContributingToNutrient(key, weighted.byFood, nutrientTotals.get(key))
       const docs = titles
         .map((title) => uniqueFoods.find((d) => d.title === title))
         .filter((d): d is Document => Boolean(d))
