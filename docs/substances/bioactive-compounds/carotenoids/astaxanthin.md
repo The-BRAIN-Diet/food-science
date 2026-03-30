@@ -10,11 +10,12 @@ tags:
   - Astaxanthin
   - Oxidative Stress
   - Mitochondrial Support
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/MQZIGYBFDRPAKN-UWFIBFSHSA-N.png
 mechanisms:
   Oxidative Stress: Lipid-soluble carotenoid that contributes to the stability of omega-3–rich membranes; helps limit oxidative stress associated with highly unsaturated fats
   Mitochondrial Support: Supports mitochondrial and cellular resilience through antioxidant protection
 inchikey: MQZIGYBFDRPAKN-UWFIBFSHSA-N
+inchi_image: /img/inchi/MQZIGYBFDRPAKN-UWFIBFSHSA-N.png
 ---
 
 ## Overview
