@@ -10,10 +10,11 @@ tags:
   - L-DOPA
   - Neurochemical Balance
   - Mucuna Beans
-list_image: /img/icons/bioactive.svg
+list_image: /img/inchi/WTDRDQBEARUVNC-LURJTMIESA-N.png
 mechanisms:
   Neurochemical Balance: Direct precursor to dopamine synthesis; bypasses rate-limiting tyrosine hydroxylase step; supports dopamine availability for attention, motivation, and executive function
 inchikey: WTDRDQBEARUVNC-LURJTMIESA-N
+inchi_image: /img/inchi/WTDRDQBEARUVNC-LURJTMIESA-N.png
 ---
 
 ## Overview
