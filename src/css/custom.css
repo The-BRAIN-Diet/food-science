@@ -250,8 +250,28 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
   border-radius: 4px;
 }
 
+.substance-structure-wrap {
+  margin: 0 0 1rem;
+}
+
+/* Smaller than food hero (~1/4 height) */
+.substance-structure-inline {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 4px;
+}
+
 @media (max-width: 996px) {
   .food-page-hero {
     max-height: 320px;
+  }
+
+  .substance-structure-inline {
+    max-height: 200px;
   }
 }

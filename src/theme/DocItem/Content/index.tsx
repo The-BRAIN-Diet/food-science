@@ -4,6 +4,7 @@ import {ThemeClassNames} from "@docusaurus/theme-common"
 import {useDoc} from "@docusaurus/plugin-content-docs/client"
 import Heading from "@theme/Heading"
 import MDXContent from "@theme/MDXContent"
+import InChIImage from "@theme/InChIImage"
 import type {Props} from "@theme/DocItem/Content"
 
 function useSyntheticTitle(): string | null {
@@ -19,6 +20,8 @@ export default function DocItemContent({children}: Props): ReactNode {
 
   const isFoodDoc =
     metadata.permalink.includes("/docs/foods/") && Boolean(frontMatter?.id)
+  const isSubstanceDoc =
+    metadata.permalink.includes("/docs/substances/") && Boolean(frontMatter?.id)
 
   const mainImage =
     typeof frontMatter?.main_image === "string" ? frontMatter.main_image : null
@@ -56,6 +59,20 @@ export default function DocItemContent({children}: Props): ReactNode {
   ].filter((v, i, arr): v is string => typeof v === "string" && arr.indexOf(v) === i)
   const resolvedMainImage = heroCandidates[0] ?? null
 
+  const inchiImage =
+    typeof (frontMatter as {inchi_image?: unknown})?.inchi_image === "string"
+      ? String((frontMatter as {inchi_image?: string}).inchi_image)
+      : null
+
+  const inchikey =
+    typeof (frontMatter as {inchikey?: unknown})?.inchikey === "string"
+      ? String((frontMatter as {inchikey?: string}).inchikey)
+      : null
+
+  const fallbackInchiImage = inchikey
+    ? `/img/inchi/${inchikey}.png`
+    : null
+
   return (
     <div className={clsx(ThemeClassNames.docs.docMarkdown, "markdown")}>
       {syntheticTitle && (
@@ -83,6 +100,24 @@ export default function DocItemContent({children}: Props): ReactNode {
               img.style.display = "none"
             }}
           />
+        </p>
+      )}
+
+      {isSubstanceDoc && (inchiImage || inchikey) && (
+        <p className="substance-structure-wrap">
+          {inchiImage ? (
+            <img
+              src={inchiImage}
+              alt={`${metadata.title} structure`}
+              className="substance-structure-inline"
+            />
+          ) : (
+            <InChIImage
+              inchikey={inchikey ?? undefined}
+              fallback={fallbackInchiImage ?? undefined}
+              className="substance-structure-inline"
+            />
+          )}
         </p>
       )}
 
