@@ -10,6 +10,7 @@ tags:
   - Vegetarian
   - Manganese
   - Polyphenol
+  - Allicin
 list_image: /img/foods/garlic/garlic_thumb.webp
 nutrition_per_100g:
   kcal: 143
@@ -63,7 +64,6 @@ Garlic contribute plant protein. Pair with complementary protein sources (e.g. g
 
 ## References
 
-- Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions)
-- Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms), sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health
-- Part of allium family with prebiotic benefits supporting gut microbiome diversity
-- Glutathione (GSH) is one of the body's major antioxidants; low levels may suggest oxidative stress; elevated GSH levels which have been recorded against ADHD subjects may reflect a compensatory response to increased oxidative stress
+[1] Effect of garlic and lemon juice mixture on lipid profile and cardiovascular risk factors in moderate hyperlipidaemia [Entezari et al. 2016](/docs/papers/BRAIN-Diet-References#entezari_garlic_lemon_hyperlipidaemia_2016)
+
+[2] Allicin chemistry and biological properties review [Borlinghaus et al. 2014](/docs/papers/BRAIN-Diet-References#borlinghaus_allicin_chemistry_2014)

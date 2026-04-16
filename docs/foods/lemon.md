@@ -9,6 +9,8 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin C
+  - Eriocitrin
+  - Hesperidin
 list_image: /img/foods/lemon/lemon_thumb.webp
 nutrition_per_100g:
   kcal: 17
@@ -41,7 +43,7 @@ legacy_main_image: /img/foods/lemon/lemon_medium.webp
 ---
 ## Overview
 
-Lemon provides vitamin C that enhances non-heme iron absorption and can be used to adjust pH in food preparation (e.g., bean soaking). Pairing plant-based iron sources with citrus enhances iron absorption, and adding vitamin-C sources (e.g., lemon) favors iron uptake.
+Lemon provides vitamin C that enhances non-heme iron absorption and can be used to adjust pH in food preparation (e.g., bean soaking). Lemon also contains citrus flavanones, including eriocitrin (often misspelled in secondary sources) and hesperidin, which are studied for antioxidant and cardiometabolic relevance [1,2].
 
 ## Food Context
 
@@ -67,7 +69,6 @@ Lemon provides vitamin C that enhances non-heme iron absorption and can be used 
 
 ## References
 
-- Pairing plant-based iron sources with citrus (Hallberg et al. 1989) enhances iron absorption
-- Absorption note: Polyphenol-rich beverages (tea/coffee) can reduce non-heme iron absorption if taken with iron-rich plant meals; spacing them ≥1 hour away or adding vitamin-C sources (e.g., lemon) favors iron uptake
-- Add a bit of lemon juice or apple cider vinegar (1–2 tsp per liter of water) to reach ~pH 5.5–6 for bean soaking
-- Eat your beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus)
+[1] Effect of garlic and lemon juice mixture on lipid profile and cardiovascular risk factors in moderate hyperlipidaemia [Entezari et al. 2016](/docs/papers/BRAIN-Diet-References#entezari_garlic_lemon_hyperlipidaemia_2016)
+
+[2] Comparative human pharmacokinetics of citrus flavanones eriocitrin and hesperidin [Gimenez-Bastida et al. 2021](/docs/papers/BRAIN-Diet-References#gimenez-bastida_eriocitrin_hesperidin_pk_2021)
