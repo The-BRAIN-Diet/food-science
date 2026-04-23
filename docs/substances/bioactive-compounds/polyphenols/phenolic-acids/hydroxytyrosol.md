@@ -16,6 +16,7 @@ mechanisms:
   Inflammation: Strong anti-inflammatory profile; contributes to neuroprotective effects of extra-virgin olive oil
   Oxidative Stress: Potent antioxidant polyphenol; supports antioxidant defenses
 inchikey: JUUBCHWRXWPFFH-UHFFFAOYSA-N
+inchi_image: /img/inchi/JUUBCHWRXWPFFH-UHFFFAOYSA-N.png
 ---
 
 ## Overview

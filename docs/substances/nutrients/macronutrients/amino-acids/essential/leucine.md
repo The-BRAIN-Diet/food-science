@@ -11,6 +11,7 @@ tags:
   - Leucine
 list_image: /img/inchi/ROHFNLRQFUQHCH-YFKPBYRVSA-N.png
 inchikey: ROHFNLRQFUQHCH-YFKPBYRVSA-N
+inchi_image: /img/inchi/ROHFNLRQFUQHCH-YFKPBYRVSA-N.png
 ---
 
 ## Recipes

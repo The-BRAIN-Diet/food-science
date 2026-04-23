@@ -11,16 +11,23 @@ tags:
   - Manganese
   - Oxidative Stress
   - Mitochondrial Support
-list_image: /img/inchi/PWHULOQIROXLJO-UHFFFAOYSA-N.png
+ion_notation: Mn2+
+list_image: /img/minerals/manganese-wikimedia.jpg
+main_image: /img/minerals/manganese-wikimedia.jpg
 mechanisms:
-  Oxidative Stress: Essential cofactor for MnSOD (SOD2), supporting detoxification of superoxide within the mitochondrial matrix
+  Oxidative Stress: 'Essential cofactor for MnSOD (SOD2), supporting detoxification of superoxide within the mitochondrial matrix'
   Mitochondrial Support: Supports mitochondrial antioxidant defense through MnSOD activity
-inchikey: PWHULOQIROXLJO-UHFFFAOYSA-N
 ---
 
 ## Overview
 
 Manganese is an essential trace mineral that plays a critical role in mitochondrial antioxidant defense. It serves as an essential cofactor for manganese superoxide dismutase (MnSOD or SOD2), an enzyme located in the mitochondrial matrix that detoxifies superoxide radicals, protecting mitochondria from oxidative damage. This makes manganese particularly important for maintaining mitochondrial function and energy production in energy-demanding tissues like the brain. Manganese balance is critical, as both deficiency and excess can negatively impact cognitive function.
+
+## Dietary absorption and meal context
+
+- **Adequacy over excess:** Typical whole-food diets usually provide enough manganese; excess exposure is the bigger concern than mild shortfall in many contexts.
+- **Food pattern:** Whole grains, nuts, legumes, tea, and leafy vegetables are common contributors.
+- **Practical pattern:** Emphasize diverse whole-food intake and avoid unnecessary high-dose manganese supplementation.
 
 ## Recipes
 

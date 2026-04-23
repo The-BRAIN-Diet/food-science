@@ -11,6 +11,7 @@ tags:
   - Lysine
 list_image: /img/inchi/KDXKERNSBIXSRK-YFKPBYRVSA-N.png
 inchikey: KDXKERNSBIXSRK-YFKPBYRVSA-N
+inchi_image: /img/inchi/KDXKERNSBIXSRK-YFKPBYRVSA-N.png
 ---
 
 ## Recipes

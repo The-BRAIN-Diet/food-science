@@ -14,10 +14,11 @@ tags:
   - Inflammation
 list_image: /img/inchi/YBHILYKTIRIUTE-UHFFFAOYSA-N.png
 mechanisms:
-  Gut Microbiome: Suppresses SIBO, Candida, and pathobionts; reduces LPS translocation; increases nutrient absorption (B12, iron, tryptophan); increases SCFA resilience
+  Gut Microbiome: 'Suppresses SIBO, Candida, and pathobionts; reduces LPS translocation; increases nutrient absorption (B12, iron, tryptophan); increases SCFA resilience'
   Insulin Response: Improves insulin sensitivity; limits sympathetic activation
   Inflammation: Reduces LPS translocation and dampens LPS-driven inflammation through antimicrobial effects on pathobionts
 inchikey: YBHILYKTIRIUTE-UHFFFAOYSA-N
+inchi_image: /img/inchi/YBHILYKTIRIUTE-UHFFFAOYSA-N.png
 ---
 
 ## Overview

@@ -16,11 +16,12 @@ tags:
 list_image: /img/inchi/CIWBSHSKHKDKBQ-JLAZNSOCSA-N.png
 mechanisms:
   Inflammation: Antioxidant properties; supports anti-inflammatory effects
-  Oxidative Stress: Key water-soluble antioxidant; works within antioxidant network with vitamin E, CoQ10, and polyphenols
+  Oxidative Stress: 'Key water-soluble antioxidant; works within antioxidant network with vitamin E, CoQ10, and polyphenols'
   Hormonal Response: Supports norepinephrine synthesis as cofactor
   Stress Response: Supports stress response through antioxidant and neurochemical effects
   Neurochemical Balance: Supports norepinephrine synthesis; transported in brain via SVCT2
 inchikey: CIWBSHSKHKDKBQ-JLAZNSOCSA-N
+inchi_image: /img/inchi/CIWBSHSKHKDKBQ-JLAZNSOCSA-N.png
 ---
 
 ## Overview

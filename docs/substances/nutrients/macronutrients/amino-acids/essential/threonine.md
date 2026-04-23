@@ -11,6 +11,7 @@ tags:
   - Threonine
 list_image: /img/inchi/AYFVYJQAPQTCCC-GBXIJSLDSA-N.png
 inchikey: AYFVYJQAPQTCCC-GBXIJSLDSA-N
+inchi_image: /img/inchi/AYFVYJQAPQTCCC-GBXIJSLDSA-N.png
 ---
 
 ## Recipes

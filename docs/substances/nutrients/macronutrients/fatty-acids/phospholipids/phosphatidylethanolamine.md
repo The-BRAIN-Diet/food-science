@@ -11,8 +11,9 @@ tags:
   - Endocannabinoid System
 list_image: /img/inchi/CFWRDBDJAOHXSH-SECBINFHSA-N.png
 mechanisms:
-  Endocannabinoid System: Key brain phospholipid that can convert to PC or N-acyl phosphatidylethanolamines (NAPEs); NAPEs are precursors to N-acyl ethanolamines (NAEs) like palmitoylethanolamide (PEA), oleoylethanolamide (OEA), and anandamide (AEA), bioactive lipids which act as neuromodulators with anti-inflammatory, neuroprotective, and mood-regulating effects
+  Endocannabinoid System: 'Key brain phospholipid that can convert to PC or N-acyl phosphatidylethanolamines (NAPEs); NAPEs are precursors to N-acyl ethanolamines (NAEs) like palmitoylethanolamide (PEA), oleoylethanolamide (OEA), and anandamide (AEA), bioactive lipids which act as neuromodulators with anti-inflammatory, neuroprotective, and mood-regulating effects'
 inchikey: CFWRDBDJAOHXSH-SECBINFHSA-N
+inchi_image: /img/inchi/CFWRDBDJAOHXSH-SECBINFHSA-N.png
 ---
 
 ## Overview

@@ -16,6 +16,7 @@ mechanisms:
   Inflammation: Anti-inflammatory properties; supports immune regulation
   Oxidative Stress: Antioxidant properties; scavenges reactive oxygen species and stabilizes cell membranes
 inchikey: OAIJSZIZWZSQBC-GYZMGTAESA-N
+inchi_image: /img/inchi/OAIJSZIZWZSQBC-GYZMGTAESA-N.png
 ---
 
 ## Overview

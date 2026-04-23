@@ -22,6 +22,14 @@ export default function DocItemContent({children}: Props): ReactNode {
     metadata.permalink.includes("/docs/foods/") && Boolean(frontMatter?.id)
   const isSubstanceDoc =
     metadata.permalink.includes("/docs/substances/") && Boolean(frontMatter?.id)
+  const isMineralSubstanceDoc =
+    metadata.permalink.includes(
+      "/docs/substances/nutrients/micronutrients/minerals/"
+    ) && Boolean(frontMatter?.id)
+  const allowMineralInchi =
+    typeof (frontMatter as {show_inchi?: unknown})?.show_inchi === "boolean"
+      ? Boolean((frontMatter as {show_inchi?: boolean}).show_inchi)
+      : false
 
   const mainImage =
     typeof frontMatter?.main_image === "string" ? frontMatter.main_image : null
@@ -73,6 +81,15 @@ export default function DocItemContent({children}: Props): ReactNode {
     ? `/img/inchi/${inchikey}.png`
     : null
 
+  const ionNotation =
+    typeof (frontMatter as {ion_notation?: unknown})?.ion_notation === "string"
+      ? String((frontMatter as {ion_notation?: string}).ion_notation).trim()
+      : null
+
+  const ionMatch = ionNotation?.match(/^([A-Za-z]+)(\d*[+-])$/)
+  const ionBase = ionMatch?.[1] ?? ionNotation
+  const ionCharge = ionMatch?.[2] ?? null
+
   return (
     <div className={clsx(ThemeClassNames.docs.docMarkdown, "markdown")}>
       {syntheticTitle && (
@@ -81,12 +98,12 @@ export default function DocItemContent({children}: Props): ReactNode {
         </header>
       )}
 
-      {isFoodDoc && resolvedMainImage && (
-        <p className="food-page-hero-wrap">
+      {(isFoodDoc || (isSubstanceDoc && !ionNotation)) && resolvedMainImage && (
+        <div className="food-page-hero-wrap">
           <img
             src={resolvedMainImage}
             alt={metadata.title}
-            className="food-page-hero"
+            className={clsx("food-page-hero", isSubstanceDoc && "substance-page-hero")}
             onError={(e) => {
               const img = e.currentTarget
               const nextIndex = Number(img.dataset.fallbackIndex || "0") + 1
@@ -100,10 +117,28 @@ export default function DocItemContent({children}: Props): ReactNode {
               img.style.display = "none"
             }}
           />
+          {isMineralSubstanceDoc &&
+            resolvedMainImage.includes("wikimedia") && (
+            <p className="mineral-photo-caption">
+              Photo source: Wikipedia / Wikimedia Commons (Creative Commons).
+            </p>
+          )}
+        </div>
+      )}
+
+      {isSubstanceDoc && ionNotation && (
+        <p className="ion-notation-wrap" aria-label={`${metadata.title} ionic form`}>
+          <span className="ion-notation-badge">
+            {ionBase}
+            {ionCharge && <sup>{ionCharge}</sup>}
+          </span>
         </p>
       )}
 
-      {isSubstanceDoc && (inchiImage || inchikey) && (
+      {isSubstanceDoc &&
+        !ionNotation &&
+        (!isMineralSubstanceDoc || allowMineralInchi) &&
+        (inchiImage || inchikey) && (
         <p className="substance-structure-wrap">
           {inchiImage ? (
             <img

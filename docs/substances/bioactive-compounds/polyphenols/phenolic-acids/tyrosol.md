@@ -16,6 +16,7 @@ mechanisms:
   Neurochemical Balance: Neuroprotective effects; contributes to brain health benefits of extra-virgin olive oil
   Oxidative Stress: Antioxidant properties; supports antioxidant defenses
 inchikey: YCCILVSKPBXVIP-UHFFFAOYSA-N
+inchi_image: /img/inchi/YCCILVSKPBXVIP-UHFFFAOYSA-N.png
 ---
 
 ## Overview

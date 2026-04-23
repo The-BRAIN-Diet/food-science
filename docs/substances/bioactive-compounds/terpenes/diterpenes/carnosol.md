@@ -10,12 +10,14 @@ tags:
   - Diterpene
   - Carnosol
   - Rosemary
+  - Inflammation
+  - Oxidative Stress
 list_image: /img/inchi/XUSYGBPHQBWGAD-PJSUUKDQSA-N.png
 inchikey: XUSYGBPHQBWGAD-PJSUUKDQSA-N
 inchi_image: /img/inchi/XUSYGBPHQBWGAD-PJSUUKDQSA-N.png
 mechanisms:
-  Oxidative stress: Carnosol participates in rosemary antioxidant chemistry and scavenging-related redox pathways.
-  Inflammation & Oxidative Stress: Preclinical studies report modulation of inflammatory pathways (including NF-kB/iNOS-related signaling); translation to clinical outcomes remains unproven.
+  Oxidative Stress: Carnosol participates in rosemary antioxidant chemistry and scavenging-related redox pathways.
+  Inflammation: Preclinical studies report modulation of inflammatory pathways (including NF-kB/iNOS-related signaling); translation to clinical outcomes remains unproven.
 ---
 
 ## Overview

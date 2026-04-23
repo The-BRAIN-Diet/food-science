@@ -13,6 +13,7 @@ type Document = {
     inchikey?: string;
     inchi_image?: string;
     list_image?: string;
+    ion_notation?: string;
     excludeFromFolderList?: boolean;
   };
 };
@@ -22,12 +23,21 @@ function DocItemImage({ doc }: { doc: Document }) {
   const inchikey = doc.frontMatter?.inchikey;
   const inchiImage = doc.frontMatter?.inchi_image;
   const listImage = doc.frontMatter?.list_image;
+  const ionNotation = doc.frontMatter?.ion_notation;
+  const ionMatch = ionNotation?.match(/^([A-Za-z]+)(\d*[+-])$/);
+  const ionBase = ionMatch?.[1] ?? ionNotation;
+  const ionCharge = ionMatch?.[2] ?? null;
 
   return (
     <article key={doc.permalink} className="margin-vert--lg">
       <div className={styles.columns}>
         <div className={styles.left}>
-          {isSubstance && inchiImage ? (
+          {isSubstance && ionNotation ? (
+            <span className="ion-notation-badge">
+              {ionBase}
+              {ionCharge ? <sup>{ionCharge}</sup> : null}
+            </span>
+          ) : isSubstance && inchiImage ? (
             <img src={inchiImage} alt="Chemical structure" className={styles.articleImage} />
           ) : isSubstance && inchikey ? (
             <InChIImage inchikey={inchikey} fallback={listImage} className={styles.articleImage} />

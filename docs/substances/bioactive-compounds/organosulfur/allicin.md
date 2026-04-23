@@ -9,11 +9,14 @@ tags:
   - Organosulfur
   - Allicin
   - Garlic
+  - Inflammation
+  - Oxidative Stress
 list_image: /img/inchi/JDLKFOPOAOFWQN-UHFFFAOYSA-N.png
 inchikey: JDLKFOPOAOFWQN-UHFFFAOYSA-N
 inchi_image: /img/inchi/JDLKFOPOAOFWQN-UHFFFAOYSA-N.png
 mechanisms:
-  Inflammation & Oxidative Stress: Allicin is a reactive sulfur compound formed from alliin by alliinase after crushing garlic; it is studied for redox and inflammatory signaling effects.
+  Inflammation: Allicin is a reactive sulfur compound formed from alliin by alliinase after crushing garlic and is studied for modulation of inflammatory signaling.
+  Oxidative Stress: Allicin participates in redox-active sulfur chemistry and is studied for antioxidant-related effects in oxidative stress models.
 ---
 
 ## Overview

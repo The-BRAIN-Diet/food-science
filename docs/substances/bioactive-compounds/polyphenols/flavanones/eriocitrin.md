@@ -10,11 +10,12 @@ tags:
   - Flavanone
   - Eriocitrin
   - Lemon
+  - Oxidative Stress
 list_image: /img/inchi/OMQADRGFMLGFJF-MNPJBKLOSA-N.png
 inchikey: OMQADRGFMLGFJF-MNPJBKLOSA-N
 inchi_image: /img/inchi/OMQADRGFMLGFJF-MNPJBKLOSA-N.png
 mechanisms:
-  Oxidative stress: Eriocitrin is a citrus flavanone (mainly from lemon) studied for antioxidant effects and downstream flavanone metabolite exposure.
+  Oxidative Stress: Eriocitrin is a citrus flavanone (mainly from lemon) studied for antioxidant effects and downstream flavanone metabolite exposure.
 ---
 
 ## Overview

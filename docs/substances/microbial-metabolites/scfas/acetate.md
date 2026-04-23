@@ -16,6 +16,7 @@ mechanisms:
   Gut Microbiome: Byproduct of fibre fermentation; supports intestinal barrier integrity; regulates immune responses; promotes synthesis of key neurotransmitters such as dopamine and serotonin
   Inflammation: Supports immune regulation and anti-inflammatory processes
 inchikey: QTBSBXVTEAMEQO-UHFFFAOYSA-M
+inchi_image: /img/inchi/QTBSBXVTEAMEQO-UHFFFAOYSA-M.png
 ---
 
 ## Overview

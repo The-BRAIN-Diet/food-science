@@ -13,6 +13,7 @@ list_image: /img/inchi/HYPYXGZDOYTYDR-HAJWAVTHSA-N.png
 mechanisms:
   Hormonal Response: Modulates calcium distribution; supports calcium handling and may support neural function; occurs in fermented foods and certain animal products
 inchikey: HYPYXGZDOYTYDR-HAJWAVTHSA-N
+inchi_image: /img/inchi/HYPYXGZDOYTYDR-HAJWAVTHSA-N.png
 ---
 
 ## Overview

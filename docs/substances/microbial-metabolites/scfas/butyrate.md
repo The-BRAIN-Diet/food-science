@@ -2,7 +2,7 @@
 id: butyrate
 title: Butyrate
 sidebar_label: Butyrate
-description: Key SCFA supporting mitochondrial function, gut barrier integrity, and neuroinflammation reduction
+description: 'Key SCFA supporting mitochondrial function, gut barrier integrity, and neuroinflammation reduction'
 tags:
   - Substance
   - Metabolite
@@ -17,11 +17,12 @@ tags:
 list_image: /img/inchi/FERIUCNNQQJTOY-UHFFFAOYSA-M.png
 mechanisms:
   Gut Microbiome: Byproduct of fibre fermentation; supports intestinal barrier integrity; regulates immune responses; promotes synthesis of key neurotransmitters such as dopamine and serotonin
-  Mitochondrial Support: Supports mitochondrial function, enhancing brain energy metabolism; aids in reducing cholesterol and neuroinflammation
-  Inflammation: Has anti-inflammatory effects, potentially reducing neuroinflammation; deficiencies linked to many neurological disorders including ADHD
+  Mitochondrial Support: 'Supports mitochondrial function, enhancing brain energy metabolism; aids in reducing cholesterol and neuroinflammation'
+  Inflammation: 'Has anti-inflammatory effects, potentially reducing neuroinflammation; deficiencies linked to many neurological disorders including ADHD'
   Insulin Response: Improves insulin sensitivity and glucose metabolism; helps stabilize blood glucose and reduce insulin resistance
   Oxidative Stress: Enhances mitochondrial function during oxidative stress; supports antioxidant activity
 inchikey: FERIUCNNQQJTOY-UHFFFAOYSA-M
+inchi_image: /img/inchi/FERIUCNNQQJTOY-UHFFFAOYSA-M.png
 ---
 
 ## Overview

@@ -250,8 +250,42 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
   border-radius: 4px;
 }
 
+/* Substance hero images should match food hero visual scale more closely */
+.substance-page-hero {
+  max-height: 360px;
+  object-fit: contain;
+}
+
+.mineral-photo-caption {
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
 .substance-structure-wrap {
   margin: 0 0 1rem;
+}
+
+.ion-notation-wrap {
+  margin: 0 0 1rem;
+}
+
+.ion-notation-badge {
+  display: inline-block;
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-900);
+  font-size: 1.3rem;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+[data-theme="dark"] .ion-notation-badge {
+  background: var(--ifm-color-emphasis-200);
+  border-color: var(--ifm-color-emphasis-400);
 }
 
 /* Smaller than food hero (~1/4 height) */
@@ -268,6 +302,10 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
 
 @media (max-width: 996px) {
   .food-page-hero {
+    max-height: 320px;
+  }
+
+  .substance-page-hero {
     max-height: 320px;
   }
 

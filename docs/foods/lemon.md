@@ -45,7 +45,25 @@ legacy_main_image: /img/foods/lemon/lemon_medium.webp
 
 Lemon provides vitamin C that enhances non-heme iron absorption and can be used to adjust pH in food preparation (e.g., bean soaking). Lemon also contains citrus flavanones, including eriocitrin (often misspelled in secondary sources) and hesperidin, which are studied for antioxidant and cardiometabolic relevance [1,2].
 
+## Key Nutritional Highlights
+
+- Lemon is best understood as a **functional modifier** food: small amounts can meaningfully change flavour, acidity, and meal context.
+- **Fibre depends on form**: whole lemon (especially pith) contains fibre, but typical juice use contributes **negligible fibre**; whole blended lemon is a practical exception where fibre rises meaningfully.
+- Citrus flavanones (e.g. **eriocitrin**, **hesperidin**) are part of lemon’s bioactive identity; exposure depends strongly on whether peel/pith are included [2].
+
 ## Food Context
+
+### Food Matrix & Functional Properties
+
+#### Common Culinary Forms & Functional Impact
+
+**Lemon juice** is the dominant culinary form. It mainly contributes acidity, vitamin C, and flavour, but in normal culinary use it contributes negligible fibre.
+
+**Lemon zest / peel** is a concentrated source of aromatic oils and peel-associated compounds; small quantities can still add meaningful functional value (flavour intensity and a different bioactive profile than juice alone).
+
+**Whole blended lemon** (less common) retains pith and peel. This meaningfully increases fibre and exposure to peel/pith-associated bioactives compared with juice alone.
+
+**Peel / skin compounds:** Lemon is not “juice only” in many real-world uses. The skin/zest contains volatile compounds such as **limonene** and related citrus oils, and flavonoids that can be more concentrated in peel and pith than in juice. Treating lemon purely as juice can under-represent this peel-associated functional layer.
 
 ### Synergies
 
@@ -59,7 +77,11 @@ Lemon provides vitamin C that enhances non-heme iron absorption and can be used 
 
 ## Recipes
 
+Whole blended lemon recipes can be surprisingly palatable and functionally useful; they’re one of the few realistic culinary contexts where pith/peel fibre and peel-associated bioactives are actually retained (worth developing as a site recipe direction).
+
 <FoodRecipes tag="Lemon" />
+
+**Note on reference form:** The per-100 g nutrition values and any table-derived “substances” reflect the page’s reference food form. If lemon is mainly used as small amounts of juice, real-world fibre and many peel-associated bioactives will be much lower than a “whole fruit / whole portion” mental model.
 
 <NutritionTable details={frontMatter} />
 

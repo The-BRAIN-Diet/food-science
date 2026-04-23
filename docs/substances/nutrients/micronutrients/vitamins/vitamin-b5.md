@@ -13,10 +13,11 @@ tags:
   - Stress Response
 list_image: /img/inchi/GHOKWGTUZJEAQD-ZETCQYMHSA-N.png
 mechanisms:
-  Mitochondrial Support: Forms CoA (coenzyme A), required for β-oxidation and TCA cycle acetyl-CoA flux; deficiency impairs ATP production impacting brain energy
+  Mitochondrial Support: 'Forms CoA (coenzyme A), required for β-oxidation and TCA cycle acetyl-CoA flux; deficiency impairs ATP production impacting brain energy'
   Hormonal Response: Essential for CoA/PDH function; supports hormonal synthesis pathways
   Stress Response: Supports stress response through energy metabolism and ATP production
 inchikey: GHOKWGTUZJEAQD-ZETCQYMHSA-N
+inchi_image: /img/inchi/GHOKWGTUZJEAQD-ZETCQYMHSA-N.png
 ---
 
 ## Overview

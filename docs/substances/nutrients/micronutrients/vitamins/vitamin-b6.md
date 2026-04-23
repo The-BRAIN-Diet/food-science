@@ -12,9 +12,10 @@ tags:
   - Neurochemical Balance
 list_image: /img/inchi/LXNHXLLTXMVWPM-UHFFFAOYSA-N.png
 mechanisms:
-  Methylation: Essential cofactor in remethylation of homocysteine to methionine, which is converted to S-adenosylmethionine (SAMe); works with B2, folate, and B12
-  Neurochemical Balance: Cofactor for synthesis of dopamine, serotonin, GABA, and glutamate; supports rate-limiting steps in catecholamine synthesis; requires PDXK activation with magnesium and ATP support
+  Methylation: 'Essential cofactor in remethylation of homocysteine to methionine, which is converted to S-adenosylmethionine (SAMe); works with B2, folate, and B12'
+  Neurochemical Balance: 'Cofactor for synthesis of dopamine, serotonin, GABA, and glutamate; supports rate-limiting steps in catecholamine synthesis; requires PDXK activation with magnesium and ATP support'
 inchikey: LXNHXLLTXMVWPM-UHFFFAOYSA-N
+inchi_image: /img/inchi/LXNHXLLTXMVWPM-UHFFFAOYSA-N.png
 ---
 
 ## Overview

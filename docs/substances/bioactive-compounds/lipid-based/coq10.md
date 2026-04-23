@@ -14,8 +14,9 @@ tags:
 list_image: /img/inchi/ACTIUHUUMQJHFO-UPTCCGCDSA-N.png
 mechanisms:
   Mitochondrial Support: Electron transport chain cofactor; supports ATP production; antioxidant protection for neurons
-  Oxidative Stress: Part of antioxidant network; works synergistically with vitamin E, vitamin C, lipoic acid, and glutathione
+  Oxidative Stress: 'Part of antioxidant network; works synergistically with vitamin E, vitamin C, lipoic acid, and glutathione'
 inchikey: ACTIUHUUMQJHFO-UPTCCGCDSA-N
+inchi_image: /img/inchi/ACTIUHUUMQJHFO-UPTCCGCDSA-N.png
 ---
 
 ## Overview
