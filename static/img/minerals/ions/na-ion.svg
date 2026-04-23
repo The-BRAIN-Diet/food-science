@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320" role="img" aria-label="Na+ sodium ion">
+  <rect width="640" height="320" fill="#f2f4f7" rx="24" />
+  <rect x="110" y="76" width="420" height="168" rx="84" fill="#ffffff" stroke="#c9d0d8" stroke-width="4" />
+  <text x="295" y="182" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="700" fill="#1f2937">Na</text>
+  <text x="355" y="130" text-anchor="start" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="700" fill="#1f2937">+</text>
+</svg>

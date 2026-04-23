@@ -12,8 +12,9 @@ tags:
   - Neurochemical Balance
 list_image: /img/inchi/COLNVLDHVKWLRT-QMMMGPOBSA-N.png
 mechanisms:
-  Neurochemical Balance: Essential amino acid that converts to tyrosine and supports catecholamine synthesis (dopamine, norepinephrine); participates in LAT1 competition at the blood-brain barrier
+  Neurochemical Balance: 'Essential amino acid that converts to tyrosine and supports catecholamine synthesis (dopamine, norepinephrine); participates in LAT1 competition at the blood-brain barrier'
 inchikey: COLNVLDHVKWLRT-QMMMGPOBSA-N
+inchi_image: /img/inchi/COLNVLDHVKWLRT-QMMMGPOBSA-N.png
 ---
 
 ## Overview

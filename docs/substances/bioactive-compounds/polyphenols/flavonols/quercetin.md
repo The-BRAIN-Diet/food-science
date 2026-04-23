@@ -17,12 +17,13 @@ tags:
   - Stress Response
 list_image: /img/inchi/REFJWTPEDVJJIY-UHFFFAOYSA-N.png
 mechanisms:
-  Inflammation: Anti-inflammatory, anti-neuroinflammatory, and neuroprotective properties; supports gut barrier integrity and TLR4 suppression
+  Inflammation: 'Anti-inflammatory, anti-neuroinflammatory, and neuroprotective properties; supports gut barrier integrity and TLR4 suppression'
   Oxidative Stress: Effective antioxidant agent that scavenges reactive oxygen species; supports antioxidant defenses
   Mitochondrial Support: Enhances mitochondrial baseline activity and energy production; supports mitochondrial function
   Hormonal Response: Flavonoid support for calcium modulation and insulin sensitivity
   Stress Response: Contributes to LPS and immune defense; supports stress response modulation
 inchikey: REFJWTPEDVJJIY-UHFFFAOYSA-N
+inchi_image: /img/inchi/REFJWTPEDVJJIY-UHFFFAOYSA-N.png
 ---
 
 ## Overview

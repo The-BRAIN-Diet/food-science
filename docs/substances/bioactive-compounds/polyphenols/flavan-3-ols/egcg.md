@@ -23,6 +23,7 @@ mechanisms:
   Hormonal Response: Supports HPA axis regulation and stress response
   Stress Response: Contributes to stress buffering through polyphenol effects
 inchikey: WMBWREPUVVBILR-WIYYLYMNSA-N
+inchi_image: /img/inchi/WMBWREPUVVBILR-WIYYLYMNSA-N.png
 ---
 
 ## Overview

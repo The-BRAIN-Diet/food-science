@@ -1,6 +1,6 @@
 ---
 id: linoleic-acid
-title: Linoleic Acid (LA, n-6)
+title: 'Linoleic Acid (LA, n-6)'
 sidebar_label: Linoleic Acid (n-6)
 description: Essential omega-6; precursor to arachidonic acid and eicosanoids
 tags:
@@ -14,9 +14,10 @@ tags:
   - Oxidative Stress
 list_image: /img/inchi/OYHQOLUKZRVURQ-HZJYTTRNSA-N.png
 mechanisms:
-  Inflammation: Essential omega-6 fatty acid; precursor to arachidonic acid and eicosanoids; excessive n-6:n-3 ratios may skew toward pro-inflammatory eicosanoids
+  Inflammation: 'Essential omega-6 fatty acid; precursor to arachidonic acid and eicosanoids; excessive n-6:n-3 ratios may skew toward pro-inflammatory eicosanoids'
   Oxidative Stress: Essential fatty acid; balance with omega-3s is emphasized for optimal inflammatory tone
 inchikey: OYHQOLUKZRVURQ-HZJYTTRNSA-N
+inchi_image: /img/inchi/OYHQOLUKZRVURQ-HZJYTTRNSA-N.png
 ---
 
 ## Overview

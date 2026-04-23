@@ -12,6 +12,7 @@ list_image: /img/inchi/KJPRLNWUNMBNBZ-QPJJXVBHSA-N.png
 mechanisms:
   Insulin Response: Supports glycemic control and improves insulin sensitivity; contributes to cinnamon's glucose regulation effects
 inchikey: KJPRLNWUNMBNBZ-QPJJXVBHSA-N
+inchi_image: /img/inchi/KJPRLNWUNMBNBZ-QPJJXVBHSA-N.png
 ---
 
 ## Overview

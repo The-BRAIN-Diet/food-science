@@ -12,8 +12,9 @@ tags:
   - Methylation
 list_image: /img/inchi/FFEARJCKVFRZRR-BYPYZUCNSA-N.png
 mechanisms:
-  Methylation: Essential amino acid that forms S-adenosylmethionine (SAMe), the universal methyl donor for neurotransmitter synthesis and membrane phospholipid methylation
+  Methylation: 'Essential amino acid that forms S-adenosylmethionine (SAMe), the universal methyl donor for neurotransmitter synthesis and membrane phospholipid methylation'
 inchikey: FFEARJCKVFRZRR-BYPYZUCNSA-N
+inchi_image: /img/inchi/FFEARJCKVFRZRR-BYPYZUCNSA-N.png
 ---
 
 ## Overview

@@ -11,16 +11,24 @@ tags:
   - Iron
   - Neurochemical Balance
   - Mitochondrial Support
-list_image: /img/inchi/XEEYBQQBJWHFJM-UHFFFAOYSA-N.png
+ion_notation: Fe2+
+list_image: /img/minerals/iron-wikimedia.jpg
+main_image: /img/minerals/iron-wikimedia.jpg
 mechanisms:
-  Neurochemical Balance: Essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine; critical for catecholamine synthesis
+  Neurochemical Balance: 'Essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine; critical for catecholamine synthesis'
   Mitochondrial Support: Critical for oxygen delivery to the brain via hemoglobin; supports mitochondrial function and energy production
-inchikey: XEEYBQQBJWHFJM-UHFFFAOYSA-N
 ---
 
 ## Overview
 
 Iron is an essential mineral that plays a central role in oxygen transport throughout the body via hemoglobin in red blood cells. In the brain, iron is critical for oxygen delivery and serves as an essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in dopamine synthesis. This makes iron particularly important for catecholamine neurotransmitter production, which is relevant for attention, motivation, and executive function. Iron exists in two forms: heme iron from animal sources, which is more bioavailable, and non-heme iron from plant sources, which benefits from being paired with vitamin C to enhance absorption.
+
+## Dietary absorption and meal context
+
+- **Most absorbable form:** Heme iron (animal foods) is generally absorbed more efficiently than non-heme iron.
+- **Enhancers:** Pair non-heme iron foods with vitamin C sources to improve uptake.
+- **Inhibitors and timing:** Tea and coffee polyphenols can reduce non-heme iron absorption when taken with meals; spacing intake can help.
+- **Processing support:** Soaking and sprouting legumes/grains can reduce phytate burden and improve non-heme iron availability.
 
 ## Recipes
 

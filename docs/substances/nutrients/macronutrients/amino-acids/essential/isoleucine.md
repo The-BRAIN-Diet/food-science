@@ -11,6 +11,7 @@ tags:
   - Isoleucine
 list_image: /img/inchi/AGPKZVBTJJNPAG-WHFBIAKZSA-N.png
 inchikey: AGPKZVBTJJNPAG-WHFBIAKZSA-N
+inchi_image: /img/inchi/AGPKZVBTJJNPAG-WHFBIAKZSA-N.png
 ---
 
 ## Recipes

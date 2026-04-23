@@ -15,6 +15,7 @@ mechanisms:
   Mitochondrial Support: Essential for mitochondrial glucose metabolism in the brain leading to ATP production; supports PDH (pyruvate dehydrogenase) and α-KGDH (alpha-ketoglutarate dehydrogenase) function
   Insulin Response: Supports glucose metabolism and insulin sensitivity through mitochondrial function
 inchikey: JZRWCGZRTZMZEH-UHFFFAOYSA-N
+inchi_image: /img/inchi/JZRWCGZRTZMZEH-UHFFFAOYSA-N.png
 ---
 
 ## Overview

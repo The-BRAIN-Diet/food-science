@@ -11,6 +11,7 @@ tags:
   - Histidine
 list_image: /img/inchi/HNDVDQJCIGZPNO-YFKPBYRVSA-N.png
 inchikey: HNDVDQJCIGZPNO-YFKPBYRVSA-N
+inchi_image: /img/inchi/HNDVDQJCIGZPNO-YFKPBYRVSA-N.png
 ---
 
 ## Recipes

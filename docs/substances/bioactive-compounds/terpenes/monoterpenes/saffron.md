@@ -1,6 +1,6 @@
 ---
 id: saffron
-title: Saffron (Crocin, Safranal)
+title: 'Saffron (Crocin, Safranal)'
 sidebar_label: Saffron
 description: Mood and cognition support; sensitive to heat/light; culinary-first use
 tags:
@@ -17,6 +17,7 @@ mechanisms:
   Inflammation: Anti-inflammatory effects
   Oxidative Stress: Contains antioxidant crocin; supports antioxidant defenses
 inchikey: SEBIKDIMAPSUBY-RTJKDTQDSA-N
+inchi_image: /img/inchi/SEBIKDIMAPSUBY-RTJKDTQDSA-N.png
 ---
 
 ## Overview

@@ -11,6 +11,7 @@ tags:
   - Valine
 list_image: /img/inchi/KZSNJWFQEVHDMF-BYPYZUCNSA-N.png
 inchikey: KZSNJWFQEVHDMF-BYPYZUCNSA-N
+inchi_image: /img/inchi/KZSNJWFQEVHDMF-BYPYZUCNSA-N.png
 ---
 
 ## Recipes

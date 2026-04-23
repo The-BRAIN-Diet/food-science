@@ -2,7 +2,7 @@
 id: glycine
 title: Glycine
 sidebar_label: Glycine
-description: Nonessential amino acid; inhibitory neurotransmitter; supports sleep, gut barrier repair, and glutathione production
+description: 'Nonessential amino acid; inhibitory neurotransmitter; supports sleep, gut barrier repair, and glutathione production'
 tags:
   - Substance
   - Nutrient
@@ -18,6 +18,7 @@ mechanisms:
   Neurochemical Balance: Acts as an inhibitory neurotransmitter; improves sleep latency and quality; supports GABA pathways and neurotransmitter balance
   Stress Response: Improves sleep latency and quality; supports stress resilience through improved sleep regulation
 inchikey: DHMQDGOQFOQNFH-UHFFFAOYSA-N
+inchi_image: /img/inchi/DHMQDGOQFOQNFH-UHFFFAOYSA-N.png
 ---
 
 ## Overview

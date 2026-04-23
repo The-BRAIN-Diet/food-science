@@ -13,18 +13,26 @@ tags:
   - Neurochemical Balance
   - Inflammation
   - Oxidative Stress
-list_image: /img/inchi/HCHKCACWOHOZIP-UHFFFAOYSA-N.png
+ion_notation: Zn2+
+list_image: /img/minerals/zinc-wikimedia.jpg
+main_image: /img/minerals/zinc-wikimedia.jpg
 mechanisms:
-  Methylation: Deficiencies in vitamins and minerals essential for methylation, such as folate, vitamin B12, and zinc, are correlated to ADHD symptoms; supplementing these micronutrients has shown potential in supporting methylation and reducing symptom severity
-  Neurochemical Balance: Important for DNA synthesis, cell division, and neurotransmitter regulation, particularly in modulating dopamine—a key neurotransmitter implicated in ADHD; acts as an allosteric modulator of the GABA receptor; supports glutamate regulation
+  Methylation: 'Deficiencies in vitamins and minerals essential for methylation, such as folate, vitamin B12, and zinc, are correlated to ADHD symptoms; supplementing these micronutrients has shown potential in supporting methylation and reducing symptom severity'
+  Neurochemical Balance: 'Important for DNA synthesis, cell division, and neurotransmitter regulation, particularly in modulating dopamine—a key neurotransmitter implicated in ADHD; acts as an allosteric modulator of the GABA receptor; supports glutamate regulation'
   Inflammation: Supports immune signaling; gut barrier integrity disrupted by nutrient deficiencies including zinc
   Oxidative Stress: Essential mineral that serves as a cofactor for antioxidant enzymes; works synergistically with other antioxidants; heavy metals are detoxified by metallothionein (MT) metal carrier proteins that must bind with zinc and copper
-inchikey: HCHKCACWOHOZIP-UHFFFAOYSA-N
 ---
 
 ## Overview
 
 Zinc is an essential trace mineral that plays numerous critical roles in brain function and overall health. It serves as a cofactor for many enzymes involved in DNA synthesis, cell division, and neurotransmitter regulation. Zinc is particularly important for dopamine modulation, acting as an allosteric modulator of GABA receptors and supporting glutamate regulation. It also functions as a cofactor for antioxidant enzymes, working synergistically with other antioxidants to protect cells from oxidative damage. Zinc is essential for immune function and gut barrier integrity, and it plays a role in methylation processes alongside folate and B12. Plant-based zinc sources are less bioavailable due to phytates, but soaking and sprouting can improve absorption.
+
+## Dietary absorption and meal context
+
+- **Main determinant:** Zinc bioavailability is reduced by high-phytate meals, especially unsprouted grains and legumes.
+- **Processing support:** Soaking, sprouting, and fermentation can improve zinc availability from plant foods.
+- **Form and tolerance:** If supplementing, zinc glycinate is often used for tolerability and bioavailability in practice.
+- **Balance principle:** Avoid chronic high-dose zinc without supervision because copper balance can be affected.
 
 ## Recipes
 

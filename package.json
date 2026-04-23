@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "brs:audit": "node scripts/brs-audit.mjs",
+    "brs:repair": "node scripts/brs-repair.mjs",
+    "inchi:repair": "node scripts/inchi-repair.mjs",
     "nutrition:fetch": "node scripts/fetch-usda-nutrition.mjs",
     "nutrition:enrich": "node scripts/enrich-nutrition-from-overview.mjs",
     "nutrition:apply": "node scripts/update-food-page-frontmatter.mjs",

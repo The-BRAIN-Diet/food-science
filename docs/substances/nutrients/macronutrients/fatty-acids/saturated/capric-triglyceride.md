@@ -14,9 +14,10 @@ tags:
   - Neurochemical Balance
 list_image: /img/inchi/ZDLZQSIQEPUORM-UHFFFAOYSA-N.png
 mechanisms:
-  Mitochondrial Support: Capric triglyceride (C10) is converted to ketones (beta-hydroxybutyrate) in the liver, which serve as an alternative energy substrate for mitochondria; ketones can be used by brain mitochondria when glucose metabolism is impaired, supporting ATP production and mitochondrial function
-  Neurochemical Balance: Ketones produced from capric triglyceride provide ATP through mitochondrial metabolism; ATP is essential for neurotransmitter synthesis, release, and reuptake, indirectly supporting neurochemical balance by ensuring adequate energy for neuronal function
+  Mitochondrial Support: 'Capric triglyceride (C10) is converted to ketones (beta-hydroxybutyrate) in the liver, which serve as an alternative energy substrate for mitochondria; ketones can be used by brain mitochondria when glucose metabolism is impaired, supporting ATP production and mitochondrial function'
+  Neurochemical Balance: 'Ketones produced from capric triglyceride provide ATP through mitochondrial metabolism; ATP is essential for neurotransmitter synthesis, release, and reuptake, indirectly supporting neurochemical balance by ensuring adequate energy for neuronal function'
 inchikey: ZDLZQSIQEPUORM-UHFFFAOYSA-N
+inchi_image: /img/inchi/ZDLZQSIQEPUORM-UHFFFAOYSA-N.png
 ---
 
 ## Overview

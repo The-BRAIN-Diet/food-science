@@ -1,8 +1,8 @@
 ---
 id: dha-docosahexaenoic-acid
 title: DHA (Docosahexaenoic Acid)
-sidebar_label: DHA (22:6 n-3)
-description: Accounts for ~10–15% of total brain fatty acids, 20–30% of neuronal phospholipids (PE, PS), and >90% of brain omega-3 PUFA; critical for membrane fluidity, synaptic vesicle fusion, neurodevelopment
+sidebar_label: 'DHA (22:6 n-3)'
+description: 'Accounts for ~10–15% of total brain fatty acids, 20–30% of neuronal phospholipids (PE, PS), and >90% of brain omega-3 PUFA; critical for membrane fluidity, synaptic vesicle fusion, neurodevelopment'
 tags:
   - Substance
   - Nutrient
@@ -16,12 +16,13 @@ tags:
   - Endocannabinoid System
 list_image: /img/inchi/MBMBGCFOFBJSGT-KUBAVDMBSA-N.png
 mechanisms:
-  Inflammation: "Precursor to specialized pro-resolving mediators (SPMs) including protectins and maresins; terminates inflammation without immunosuppression. Production of docosahexaenoyl ethanolamide (DHEA), an N-acyl ethanolamine for endocannabinoid-like signalling, feeds into CB2-related anti-inflammatory signalling; ECS lipid mediators regulate immune tone and microglial activation (primary anchor: Inflammation & Oxidative Stress)."
-  Neurochemical Balance: Accounts for ~10–15% of total brain fatty acids, but represents 20–30% of fatty acids in neuronal phospholipids such as PE and PS, and more than 90% of the brain's omega-3 PUFA; critical for membrane fluidity, synaptic vesicle fusion, and neurodevelopment; transported across BBB as LPC-DHA via MFSD2A
-  Mitochondrial Support: "ECS-related lipid signalling may influence mitochondrial coupling/efficiency (context-dependent; largely preclinical). Omega-3 incorporation changes membrane fluidity (secondary anchor for ECS mechanism: Mitochondrial Function & Bioenergetics)."
-  Endocannabinoid System: Production of docosahexaenoyl ethanolamide (DHEA), an N-acyl ethanolamine for endocannabinoid-like signaling
+  Inflammation: 'Precursor to specialized pro-resolving mediators (SPMs) including protectins and maresins; terminates inflammation without immunosuppression. Production of docosahexaenoyl ethanolamide (DHEA), an N-acyl ethanolamine for endocannabinoid-like signalling, feeds into CB2-related anti-inflammatory signalling; ECS lipid mediators regulate immune tone and microglial activation (primary anchor: Inflammation & Oxidative Stress).'
+  Neurochemical Balance: 'Accounts for ~10–15% of total brain fatty acids, but represents 20–30% of fatty acids in neuronal phospholipids such as PE and PS, and more than 90% of the brain''s omega-3 PUFA; critical for membrane fluidity, synaptic vesicle fusion, and neurodevelopment; transported across BBB as LPC-DHA via MFSD2A'
+  Mitochondrial Support: 'ECS-related lipid signalling may influence mitochondrial coupling/efficiency (context-dependent; largely preclinical). Omega-3 incorporation changes membrane fluidity (secondary anchor for ECS mechanism: Mitochondrial Function & Bioenergetics).'
+  Endocannabinoid System: 'Production of docosahexaenoyl ethanolamide (DHEA), an N-acyl ethanolamine for endocannabinoid-like signaling'
   Gut Microbiome: Supports intestinal anti-inflammatory tone and barrier function; may influence microbiota composition and gut–brain signalling
 inchikey: MBMBGCFOFBJSGT-KUBAVDMBSA-N
+inchi_image: /img/inchi/MBMBGCFOFBJSGT-KUBAVDMBSA-N.png
 ---
 
 ## Overview

@@ -2,7 +2,7 @@
 id: propionate
 title: Propionate
 sidebar_label: Propionate
-description: SCFA supporting neuroinflammation reduction, blood-brain barrier protection, and neurotransmitter regulation
+description: 'SCFA supporting neuroinflammation reduction, blood-brain barrier protection, and neurotransmitter regulation'
 tags:
   - Substance
   - Metabolite
@@ -20,6 +20,7 @@ mechanisms:
   Insulin Response: Improves insulin sensitivity and glucose metabolism; helps stabilize blood glucose and reduce insulin resistance
   Neurochemical Balance: Stimulates secretion of norepinephrine and may influence dopamine regulation; promotes synthesis of key neurotransmitters
 inchikey: XBDQKXXYIPTUBI-UHFFFAOYSA-M
+inchi_image: /img/inchi/XBDQKXXYIPTUBI-UHFFFAOYSA-M.png
 ---
 
 ## Overview

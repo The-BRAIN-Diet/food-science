@@ -16,6 +16,7 @@ mechanisms:
   Mitochondrial Support: Precursor for creatine synthesis (along with glycine and methionine); creatine supports ATP recycling via the phosphocreatine system in neurons; important for vegetarians who rely on endogenous creatine synthesis
   Neurochemical Balance: Precursor for nitric oxide (NO) synthesis; nitric oxide supports cerebral blood flow and vascular function
 inchikey: ODKSFYDXXFIFQN-BYPYZUCNSA-N
+inchi_image: /img/inchi/ODKSFYDXXFIFQN-BYPYZUCNSA-N.png
 ---
 
 ## Overview

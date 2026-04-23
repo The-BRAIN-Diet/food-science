@@ -2,7 +2,7 @@
 id: curcumin
 title: Curcumin (Turmeric)
 sidebar_label: Curcumin
-description: Anti-inflammatory, antioxidant; bioavailability enhanced with piperine and fats
+description: 'Anti-inflammatory, antioxidant; bioavailability enhanced with piperine and fats'
 tags:
   - Substance
   - Bioactive
@@ -15,6 +15,7 @@ mechanisms:
   Inflammation: Anti-inflammatory and neuroprotective effects; supports BDNF expression through polyphenol synergy
   Oxidative Stress: Antioxidant properties; supports antioxidant defenses
 inchikey: VFLDPWHFBUODDF-FCXRPNKRSA-N
+inchi_image: /img/inchi/VFLDPWHFBUODDF-FCXRPNKRSA-N.png
 ---
 
 ## Overview

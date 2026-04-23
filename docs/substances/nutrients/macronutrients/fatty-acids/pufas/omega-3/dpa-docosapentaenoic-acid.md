@@ -1,8 +1,8 @@
 ---
 id: dpa-docosapentaenoic-acid
 title: DPA (Docosapentaenoic Acid)
-sidebar_label: DPA (22:5 n-3)
-description: The "intermediate" between EPA ↔ DHA; important in vascular health, repair, and immune modulation
+sidebar_label: 'DPA (22:5 n-3)'
+description: 'The "intermediate" between EPA ↔ DHA; important in vascular health, repair, and immune modulation'
 tags:
   - Substance
   - Nutrient
@@ -13,8 +13,9 @@ tags:
   - Inflammation
 list_image: /img/inchi/YUFFSWGQGVEMMI-JLNKQSITSA-N.png
 mechanisms:
-  Inflammation: Important in vascular health, repair, and immune modulation; emerging brain-health roles (less studied than EPA and DHA)
+  Inflammation: 'Important in vascular health, repair, and immune modulation; emerging brain-health roles (less studied than EPA and DHA)'
 inchikey: YUFFSWGQGVEMMI-JLNKQSITSA-N
+inchi_image: /img/inchi/YUFFSWGQGVEMMI-JLNKQSITSA-N.png
 ---
 
 ## Overview

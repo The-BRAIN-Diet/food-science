@@ -10,12 +10,14 @@ tags:
   - Diterpene
   - Carnosic acid
   - Rosemary
+  - Inflammation
+  - Oxidative Stress
 list_image: /img/inchi/QRYRORQUOLYVBU-VBKZILBWSA-N.png
 inchikey: QRYRORQUOLYVBU-VBKZILBWSA-N
 inchi_image: /img/inchi/QRYRORQUOLYVBU-VBKZILBWSA-N.png
 mechanisms:
-  Oxidative stress: Phenolic diterpene with redox-active catechol chemistry; contributes to antioxidant effects reported for rosemary extracts.
-  Inflammation & Oxidative Stress: Preclinical studies report reductions in inflammatory signaling and oxidant burden; human clinical outcome evidence remains limited.
+  Oxidative Stress: Phenolic diterpene with redox-active catechol chemistry; contributes to antioxidant effects reported for rosemary extracts.
+  Inflammation: Preclinical studies report reductions in inflammatory signaling; human clinical outcome evidence remains limited.
 ---
 
 ## Overview

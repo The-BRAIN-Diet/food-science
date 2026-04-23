@@ -11,8 +11,9 @@ tags:
   - Neurochemical Balance
 list_image: /img/inchi/WTJKGGKOPKCXLL-VYOBOKEXSA-N.png
 mechanisms:
-  Neurochemical Balance: Major neuronal membrane phospholipid central to membrane fluidity, receptor function, and acetylcholine synthesis; DHA/EPA incorporated into PC are converted to lysophosphatidylcholine (LPC), a key transport form across the BBB
+  Neurochemical Balance: 'Major neuronal membrane phospholipid central to membrane fluidity, receptor function, and acetylcholine synthesis; DHA/EPA incorporated into PC are converted to lysophosphatidylcholine (LPC), a key transport form across the BBB'
 inchikey: WTJKGGKOPKCXLL-VYOBOKEXSA-N
+inchi_image: /img/inchi/WTJKGGKOPKCXLL-VYOBOKEXSA-N.png
 ---
 
 ## Overview
