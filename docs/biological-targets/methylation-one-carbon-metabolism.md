@@ -1,38 +1,20 @@
 ---
-id: methylation
+id: methylation-one-carbon-metabolism
 title: Methylation & One-Carbon Metabolism
 sidebar_label: Methylation & One-Carbon Metabolism
-description: Biochemical regulation layer — synthesis, repair, epigenetic control, neurotransmitter production
+description: Biochemical regulation layer for one-carbon metabolism, methyl donor flux, and related mechanisms.
 tags:
   - Biological Target
-  - Methylation
-  - ADHD
-  - Anxiety & GAD
-  - Depression & MDD
+  - Methylation & One-Carbon Metabolism
 list_image: /img/icons/biological-targets.svg
 ---
 
 # Methylation & One-Carbon Metabolism
 
-**Biochemical regulation layer** — synthesis, repair, epigenetic control, neurotransmitter production.
+This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
 
-## Overview
-
-Methylation is a fundamental biological process that serves as a critical target in the BRAIN Diet. This biochemical process involves the addition of methyl groups to DNA, proteins, and other molecules, playing a crucial role in gene expression, neurotransmitter synthesis, and overall brain health.
-
-## Recipes
-
-<TagList tag="Methylation" filter="recipes" />
-
-## Therapeutic Areas
-
-<TagList tag="Methylation" filter="therapeutic-areas" />
-
-## Substances
-
-<TagList tag="Methylation" filter="substances" />
-
-## Biological Implications
+<details>
+<summary><strong>Methylation & One-Carbon Metabolism Biological Implications</strong></summary>
 
 B vitamins, particularly B6, B2, folate (5-MTHF), and B12, are essential cofactors in the remethylation of homocysteine (Hcy) to methionine, which is subsequently converted to S-adenosylmethionine (SAMe).
 
@@ -60,3 +42,5 @@ Research indicates that deficiencies in vitamins and minerals essential for meth
 - Vitamins and minerals function as indispensable micronutrients and enzymatic cofactors in all pivotal brain biology pathways, aiding neurotransmitter synthesis, mitochondrial energy production, DNA repair, antioxidant defense, methylation, and the regulation of neuroplasticity [Tardy et al. 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
 - B-vitamins play a central role in brain biology pathways [Kennedy 2016](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
 - A lowered abundance of Bifidobacterium longum in infancy has been associated with increased risk of developing ADHD and Asperger syndrome in childhood [Pärtty et al. 2015](/docs/papers/BRAIN-Diet-References#partty_possible_2015)
+
+</details>

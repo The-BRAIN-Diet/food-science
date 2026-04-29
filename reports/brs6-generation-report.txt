@@ -1,0 +1,10 @@
+Created files:
+/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability.mdx
+/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation.mdx
+/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity.mdx
+/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/fm/brs6-fm4-stress-inflammation-metabolic-load-allocation.mdx
+/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability.mdx
+/Users/paulhouston/Food Science/food-science/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency.mdx
+
+Missing entities:
+- Missing system entity: MISSING_SYSTEM_ENTITY_OR_NO_FOOD_SOURCE_IN_COLUMN_F

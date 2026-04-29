@@ -1,0 +1,296 @@
+# BRS Spreadsheet Schema
+
+This document defines the canonical schema and interpretation rules for the
+BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
+
+## Purpose
+
+- Spreadsheet = source of truth for mechanism data.
+- Schema files = page structure contracts.
+- Cursor rules = generation behavior constraints.
+
+## Global Constraints
+
+- Must not infer or invent PMs, FMs, KCs, cofactors, BRSX modifiers, foods, substances, or references.
+- Must use only entities explicitly present in the spreadsheet or already defined in-system.
+- If data is missing or ambiguous, stop and ask.
+- Must not create PM->PM dependency chains.
+- Must not create FM->FM dependency chains.
+- Must not include Secondary Mechanisms (SMs) during initial rollout.
+
+## Column Schema
+
+## Column A - Mechanism ID + Name
+
+**Meaning**
+- Canonical mechanism identity.
+
+**Allowed row types**
+- BRS
+- FM
+- KC
+- PM
+- SM (only if explicitly retained for advanced/internal use)
+
+**Rules**
+- IDs must remain stable.
+- IDs must not be renamed, reused, or inferred.
+- Mechanism references should use ID + name where possible.
+
+## Column B - Description
+
+**Meaning**
+- Concise biological description of the row.
+
+**Rules**
+- Must remain mechanistic.
+- Must not introduce new mechanisms.
+- Must not include scoring logic.
+
+## Column C - Underlying Mechanisms and Requirements
+
+**Meaning**
+- Structured mechanism requirements; not a general dependency graph.
+
+**FM row interpretation**
+- PMs that define the FM
+- KCs required by the FM
+- Optional BRSX modifiers
+
+**PM row interpretation**
+- KCs only
+- Optional BRSX modifiers
+
+**Rules**
+- KCs must be interpreted as substrates/precursors only.
+- PMs must not reference other PMs as dependencies.
+- FMs must not reference other FMs as dependencies.
+- BRSX entries are modifiers only (not mechanisms, KCs, or cofactors).
+- Must not use Column C to create pathway chains.
+
+**BRSX handling**
+- BRSX entries represent cross-system or contextual modulation.
+- BRSX primarily acts at PM level; effects may propagate to FM level via PM aggregation.
+- BRSX may appear in Column C where it directly influences a PM or FM.
+- BRSX must not be treated as:
+  - defining components of an FM
+  - KCs (substrates/precursors)
+  - cofactors
+  - standalone mechanisms
+- BRSX must not be used to construct dependency chains.
+
+## Column D - Cofactors
+
+**Meaning**
+- Cofactors only.
+
+**Rules**
+- PM rows may list cofactors.
+- FM rows inherit cofactors through PM aggregation.
+- KC rows should not list cofactors.
+- Column D must not include:
+  - KCs
+  - PMs
+  - FMs
+  - foods
+  - general substances unless explicitly acting as cofactors
+
+## Column E - Secondary Mechanisms (SMs)
+
+**Meaning**
+- Reserved for edge/context-specific advanced mechanisms.
+
+**Current rollout rules**
+- SMs are parked for advanced training/personalization.
+- SMs must not be included in FM or PM pages unless explicitly instructed.
+- Every SM must be linked to one PM.
+- SMs must not exist independently of a PM.
+- SMs refine/extend PMs; they do not define core FMs.
+- SMs must not be used in initial scoring or core page generation.
+
+## Column F - Interventions / Inputs -> Substances / Signals
+
+**Meaning**
+- Actionable intervention inputs.
+
+**May include**
+- foods -> substances
+- lifestyle inputs -> biological signals
+- timing/behavioral interventions
+
+**Rules**
+- Foods should map to substances where possible.
+- Must not include generic "healthy food" lists.
+- Diet recommendations must be traceable to KCs, PMs, or defined substances.
+- Missing entities must be flagged as:
+  - `Missing system entity: [name]`
+
+## Column G - Outputs / Function
+
+**Meaning**
+- Immediate biological effect.
+
+**Rules**
+- Must remain biological/mechanistic.
+- Must not shift into behavioral outcome language.
+- Must not include scoring.
+
+## Column H - Evidence Type
+
+**Meaning**
+- Type/strength of evidence.
+
+**Allowed examples**
+- Human
+- Human + mechanistic
+- Preclinical
+- Mixed
+- Emerging
+
+## Column I - Key Studies
+
+**Meaning**
+- Key supporting studies.
+
+**Rules**
+- Must use real studies only.
+- Prefer 1-3 directly relevant papers.
+- Suggested format:
+  - `Author et al. (Year) - URL`
+- Page references must link to:
+  - `/docs/papers/BRAIN-Diet-References#citationKey`
+- Citation keys must exist in:
+  - `static/bibtex/BRAIN-diet.bib`
+- If missing, flag:
+  - `Missing bibliography entry: [paper / DOI / URL]`
+
+## Column J - Dose Target / Requirement
+
+**Meaning**
+- Dose context where known.
+
+**Rules**
+- Dose should be physiological/diet-relevant where possible.
+- Must not present doses as prescriptions.
+- If PM-specific, PM context must be explicit.
+- If unknown, state dose is not yet defined.
+
+## Column K - Coverage Timing
+
+**Meaning**
+- How often support may be needed.
+- Coverage Timing estimates how often an intervention must be repeated to maintain a positive contribution to the target mechanism, using direct mechanism-persistence evidence where available, and nutrient/status kinetics as proxies where direct evidence is limited.
+
+**Assignment rule**
+- Assign Coverage Timing (Column K) based on mechanism persistence first.
+- Use nutrient/status kinetics only when direct mechanism-persistence evidence is limited.
+- Use the least frequent interval that maintains a stable positive contribution to the mechanism.
+
+**Allowed examples**
+- Meal
+- Daily
+- 48h
+- Weekly
+- Monthly
+
+## Column L - Response Type
+
+**Meaning**
+- Nature of response.
+
+**Allowed examples**
+- Immediate
+- Hours
+- Day
+- Days
+- Weeks
+- Builds
+- Reservoir
+
+## Column M - Functional Latency
+
+**Meaning**
+- Approximate time from intervention to meaningful biological effect.
+
+**Allowed examples**
+- Same meal
+- Same day
+- A week
+- Month
+- Months
+
+## Column N - Evidence / Notes
+
+**Meaning**
+- Supporting context and caveats.
+
+**May include**
+- limitations
+- biological caveats
+- evidence nuance
+- genotype/context sensitivity
+
+**Rules**
+- Must not override column definitions.
+- Must not introduce new mechanisms.
+
+## Column O - Intervention Dominance
+
+**Meaning**
+- Dominant intervention type.
+
+**Allowed values**
+- Diet-Dominant
+- Diet-Supported
+- Lifestyle-Dominant
+- Mixed (only if explicitly allowed in sheet/schema)
+
+**Rules**
+- FM rows define primary dominance.
+- PM rows inherit from parent FM unless clearly justified.
+- Must not overstate diet where lifestyle is dominant.
+
+## Column P - FM Ownership
+
+**Meaning**
+- Structural FM owner for each PM.
+
+**Rules**
+- Every PM must map to exactly one FM.
+- A PM must not belong to multiple FMs.
+- FM ownership is structural and required.
+- Secondary relevance may be noted elsewhere but must not duplicate ownership.
+
+## Page Generation Mapping
+
+## FM Pages
+
+- Column A -> FM ID + title
+- Column B -> overview/summary
+- Column C -> PMs, KCs, optional BRSX
+- Column F -> interventions
+- Column G -> outputs
+- Column H/I/N -> evidence context
+- Column K -> coverage timing
+- Column O -> intervention dominance
+
+## PM Pages
+
+- Column A -> PM ID + title
+- Column B -> overview/summary
+- Column C -> KCs + optional BRSX only
+- Column D -> cofactors
+- Column F -> inputs
+- Column G -> outputs
+- Column H/I/J/K/L/M/N -> evidence, dose, timing, latency
+- Column O -> intervention dominance
+- Column P -> single FM ownership
+
+## Enforcement Checklist
+
+- No inferred data.
+- No PM->PM chains.
+- No FM->FM chains.
+- No SMs in initial rollout.
+- No scoring formulas in FM/PM pages.
+- No non-system food/substance entities without explicit missing-entity flags.

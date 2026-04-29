@@ -1,0 +1,45 @@
+---
+description: Key Constraint (KC) page rules
+globs:
+  - "docs/biological-targets/**/kc/**/*.mdx"
+  - "docs/biological-targets/**/kc/**/*.md"
+alwaysApply: false
+---
+
+When creating or editing Key Constraint (KC) pages:
+
+Follow:
+system/key-constraint-schema.md
+
+Structure:
+- All sections must be present in the exact order defined in the schema
+
+Column interpretation:
+- Column A must provide KC ID + title
+- Column B must provide overview/description
+- Column C may provide KC relationship context
+- Column F may provide food/source context
+- Column G must provide biological role/output context
+- Column H/I/N provide evidence context
+
+Rules:
+- KCs must be interpreted as substrates/precursors only
+- Must not introduce PM->PM chains
+- Must not introduce FM->FM dependencies
+- Must not include scoring formulas
+- Must not include SMs during initial rollout
+
+Food Sources:
+- Must include only existing food pages
+- If unresolved, flag:
+  "Missing system entity: [name]"
+
+References:
+- Include only when claims are made
+- Use numeric citations [1], [2]
+- All references must link to:
+  /docs/papers/BRAIN-Diet-References#citationKey
+- Verify citationKey exists in static/bibtex/BRAIN-diet.bib
+- If missing, flag: "Missing bibliography entry"
+
+If ambiguity exists, stop and ask.

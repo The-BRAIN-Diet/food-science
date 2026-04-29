@@ -1,0 +1,34 @@
+---
+description: BRAIN Framework routing rule
+globs:
+  - "docs/biological-targets/**/fm/**/*.mdx"
+  - "docs/biological-targets/**/fm/**/*.md"
+  - "docs/biological-targets/**/pm/**/*.mdx"
+  - "docs/biological-targets/**/pm/**/*.md"
+  - "docs/biological-targets/**/kc/**/*.mdx"
+  - "docs/biological-targets/**/kc/**/*.md"
+alwaysApply: true
+---
+
+This rule determines which schema applies to each page type.
+
+Routing logic:
+
+- If the file path contains `/fm/`:
+  - Apply:
+    `system/functional-mechanism-schema.md`
+
+- If the file path contains `/pm/`:
+  - Apply:
+    `system/primary-mechanism-schema.md`
+
+- If the file path contains `/kc/`:
+  - Apply:
+    `system/key-constraint-schema.md`
+
+Conflict prevention:
+
+- Must not mix FM, PM, and KC schemas in the same file
+- Must not infer page type from content; use file path only
+
+If ambiguity exists, stop and ask.

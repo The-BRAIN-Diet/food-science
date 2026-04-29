@@ -1,0 +1,44 @@
+---
+description: Functional Mechanism (FM) page rules
+globs:
+  - "docs/biological-targets/**/fm/**/*.mdx"
+  - "docs/biological-targets/**/fm/**/*.md"
+alwaysApply: false
+---
+
+When creating or editing Functional Mechanism (FM) pages:
+
+Follow:
+system/functional-mechanism-schema.md
+
+Structure:
+- All sections must be present in the exact order defined in the schema
+
+Column interpretation:
+- Column C must be interpreted as:
+  - PMs that define the FM
+  - KCs (substrates/precursors)
+  - Optional BRSX modifiers
+- Must not use Column C as a dependency graph
+
+Diet rules:
+- Foods must be derived from:
+  - KCs (substrates)
+  - PM-linked substances
+- All foods must be mechanistically justified
+- Must not include generic or "healthy food" lists
+
+Constraints:
+- Must not introduce new PMs, FMs, or KCs
+- Must not include scoring formulas
+- Must not include SMs during initial rollout
+- Must not model one FM as structurally dependent on another
+
+References:
+- Use numeric citations [1], [2]
+- All references must link to:
+  /docs/papers/BRAIN-Diet-References#citationKey
+- Verify citationKey exists in static/bibtex/BRAIN-diet.bib
+- If missing, flag: "Missing bibliography entry"
+
+If ambiguity exists, stop and ask.

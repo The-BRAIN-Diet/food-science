@@ -1,0 +1,86 @@
+---
+title: "Glycaemic Excursion Control"
+pm_id: "BRS6(PM1)"
+parent_fm: "BRS6(FM1)"
+parent_brs: "BRS6"
+summary: "Regulation of post-prandial glucose rise and fall to reduce acute metabolic volatility and compensatory stress signalling."
+key_constraints:
+  - "BRS6(KC1) - Glucose / Energy Substrate Availability"
+cofactors:
+  - "magnesium"
+  - "chromium"
+  - "B vitamins"
+intervention_dominance: "Diet-Dominant"
+dose_sensitivity: "[MISSING_OR_DERIVE_FROM_COLUMN_J_N]"
+references:
+  - "[1] Reynolds et al. (2019) — https://pubmed.ncbi.nlm.nih.gov/30638909/"
+  - "[2] Johnston et al. (2004) — https://pubmed.ncbi.nlm.nih.gov/14694010/"
+hide_title: true
+---
+
+### BRS6(PM1) - Glycaemic Excursion Control
+
+Regulation of post-prandial glucose rise and fall to reduce acute metabolic volatility and compensatory stress signalling.
+
+### Biological Role
+
+↓ post-prandial glucose spike; ↓ glucose crash risk; ↑ stable energy availability
+
+### Dependencies (System Requirements)
+
+#### KCs
+- [BRS6(KC1) - Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
+
+#### Optional BRSX Modifiers
+- None listed
+
+### Cofactors (Chemical Enablement)
+
+- magnesium
+- chromium
+- B vitamins
+
+### Inputs (Dietary and Environmental)
+
+oats/legumes/sweet potato → slow carbohydrates + fibre; protein/fat matrix → slower glucose appearance; vinegar / acidic foods → reduced post-prandial glucose response; refined sugar → antagonistic input
+
+### Outputs / Biological Effects
+
+↓ post-prandial glucose spike; ↓ glucose crash risk; ↑ stable energy availability
+
+### Functional Mechanism Ownership
+
+- BRS6(FM1)
+
+### Intervention Dominance
+
+- Diet-Dominant
+
+### Constraints and Failure Modes
+
+[INSERT_FROM_COLUMN_N_OR_SHEET_NOTES_IF_AVAILABLE]
+
+### Notes
+
+- Evidence Type (Column H): Human + mechanistic
+- Evidence/Notes (Column N): Core diet-dominant PM linking meal construction to cognitive energy stability.
+
+### Mechanism Summary Table
+
+| Field | Value |
+|---|---|
+| PM ID | `BRS6(PM1)` |
+| FM Ownership (Column P) | `BRS6(FM1)` |
+| Dose Target / Requirement (Column J) | `Low-to-moderate glycaemic load with fibre/protein/fat buffering` |
+| Coverage Timing (Column K) | `Meal` |
+| Response Type (Column L) | `Immediate–Hours` |
+| Functional Latency (Column M) | `Same meal` |
+
+### References
+
+- Missing bibliography entry: [Reynolds et al. (2019) — https://pubmed.ncbi.nlm.nih.gov/30638909/]
+- Missing bibliography entry: [Johnston et al. (2004) — https://pubmed.ncbi.nlm.nih.gov/14694010/]
+
+### Missing Entities
+
+- None flagged from this row-level pass
