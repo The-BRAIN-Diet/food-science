@@ -1,0 +1,66 @@
+---
+description: Primary Mechanism (PM) page rules
+globs:
+  - "docs/biological-targets/**/pm/**/*.mdx"
+  - "docs/biological-targets/**/pm/**/*.md"
+alwaysApply: false
+---
+
+When creating or editing Primary Mechanism (PM) pages:
+
+Follow:
+system/primary-mechanism-schema.md
+
+Structure:
+- All sections must be present in the exact order defined in the schema
+- Must include the Mechanism Summary Table
+
+Column interpretation:
+- Column C must be interpreted as:
+  - KCs (substrates/precursors only)
+  - Optional BRSX modifiers
+  - PMs must not reference other PMs as dependencies
+- Column D must be interpreted as:
+  - Cofactors only
+- Column P must be interpreted as:
+  - Exactly one FM ownership
+- Column O must be interpreted as:
+  - Intervention dominance (inherit from FM unless justified)
+
+Mechanism rules:
+- PM must map to exactly one FM
+- PM must not be duplicated across FMs
+- PMs must not reference other PMs as dependencies
+
+Inputs:
+- Must be derived from:
+  - KCs
+  - known substances
+- Must not include generic dietary advice
+
+Dose:
+- Include:
+  - Effective Dose Range (physiological context)
+  - Dose Sensitivity (Low / Moderate / High)
+  - Bioavailability notes where relevant
+- Must not present doses as prescriptions
+
+Constraints:
+- Must not introduce new PMs, FMs, or KCs
+- Must not include scoring logic
+- Must not include SMs during initial rollout
+- Must not list foods unless mechanistically justified
+
+Substances & Foods:
+- Must exist in the system
+- If missing, flag:
+  "Missing system entity: [name]"
+
+References:
+- Use numeric citations [1], [2]
+- All references must link to:
+  /docs/papers/BRAIN-Diet-References#citationKey
+- Verify citationKey exists in static/bibtex/BRAIN-diet.bib
+- If missing, flag: "Missing bibliography entry"
+
+If ambiguity exists, stop and ask.

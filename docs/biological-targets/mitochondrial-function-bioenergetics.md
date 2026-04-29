@@ -1,40 +1,20 @@
 ---
-id: mitochondrial-support
+id: mitochondrial-function-bioenergetics
 title: Mitochondrial Function & Bioenergetics
 sidebar_label: Mitochondrial Function & Bioenergetics
-description: Capacity layer — ATP production, metabolic resilience, oxidative phosphorylation efficiency
+description: Capacity layer covering ATP production, mitochondrial resilience, and bioenergetic regulation.
 tags:
   - Biological Target
-  - Mitochondrial Support
-  - ADHD
-  - Bipolar
-  - Alzheimer's Disease
-  - Anxiety & GAD
-  - Depression & MDD
+  - Mitochondrial Function & Bioenergetics
 list_image: /img/icons/biological-targets.svg
 ---
 
 # Mitochondrial Function & Bioenergetics
 
-**Capacity layer** — ATP production, metabolic resilience, oxidative phosphorylation efficiency.
+This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
 
-## Overview
-
-Mitochondrial support is a fundamental biological target in the BRAIN Diet, focusing on enhancing cellular energy production and reducing oxidative stress in brain cells. Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder, and neurodegenerative conditions like Alzheimer's and Parkinson's disease share overlapping biological dysfunctions, including mitochondrial impairment. Vitamins and minerals function as indispensable micronutrients and enzymatic cofactors in all pivotal brain biology pathways, aiding neurotransmitter synthesis, mitochondrial energy production, DNA repair, antioxidant defense, methylation, and the regulation of neuroplasticity (paper.txt, lines 132, 235).
-
-## Recipes
-
-<TagList tag="Mitochondrial Support" filter="recipes" />
-
-## Therapeutic Areas
-
-<TagList tag="Mitochondrial Support" filter="therapeutic-areas" />
-
-## Substances
-
-<TagList tag="Mitochondrial Support" filter="substances" />
-
-## Biological Implications
+<details>
+<summary><strong>Mitochondrial Function & Bioenergetics Biological Implications</strong></summary>
 
 Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder, and neurodegenerative conditions like Alzheimer's and Parkinson's disease have complex, multifactorial origins. Although the precise causes are not fully understood, these conditions share overlapping biological dysfunctions, including mitochondrial impairment, chronic inflammation, oxidative stress, impaired methylation, gut–brain axis disruption, glucose dysregulation, micronutrient deficiencies, and neurotransmitter imbalances (paper.txt, line 132).
 
@@ -70,3 +50,5 @@ B6 is a cofactor in the development of all the key neurotransmitters. Only once 
 - Mitochondrial metabolism of lactate depends on GSH for ROS neutralization, optimizing mitochondrial energy use [Verlaet et al. 2019](/docs/papers/BRAIN-Diet-References#verlaet_effect_2019)
 - Coenzyme Q10 (CoQ10) supports mitochondrial electron transport and provides antioxidant protection for neurons [Zmitek, Rodríguez-Aguilera, and Pravst 2014](/docs/papers/BRAIN-Diet-References#zmitek_coenzyme_2014)
 - Creatine supports ATP recycling in neurons and enhances working memory and cognitive processing speed (paper.txt, line 279)
+
+</details>

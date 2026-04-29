@@ -140,8 +140,8 @@ Recipes that provide substantial dietary fibre, supporting microbiome diversity 
 
 ## Related Pages
 
-- [Gut Microbiome](/docs/biological-targets/gut-microbiome)
+- [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
 - [Gut–Brain Axis](/docs/dietary-foundations/digestion-microbiome/gut-brain-axis)
 - [SCFAs](/docs/substances/microbial-metabolites/scfas/scfas)
-- [Foods supporting SCFA production](/docs/biological-targets/gut-microbiome#foods-supporting-scfa-production)
+- [Foods supporting SCFA production](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
 

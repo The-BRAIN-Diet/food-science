@@ -1,71 +1,45 @@
 ---
 id: biological-targets-overview
-title: Biological Targets Overview
-sidebar_label: Biological Targets Overview
-description: Overview of the 6 BRAIN Biological Regulatory Systems (BRS) addressed by the BRAIN diet
+title: Biological Regulatory Systems
+sidebar_label: Biological Regulatory Systems
+description: Overview of the six BRAIN Biological Regulatory Systems (BRS)
 tags:
   - Area
 list_image: /img/icons/biological-targets.svg
 sidebar_position: 5
 ---
 
-# Biological Targets for Brain Health
+# Biological Regulatory Systems
 
-The BRAIN Diet is built around **6 BRAIN Biological Regulatory Systems (BRS)** that are commonly disrupted in ADHD, depression, cognitive decline, and other neurocognitive disorders. Each BRS represents a critical regulatory layer that can be supported through precision nutrition.
+The BRAIN Diet is organised around six Biological Regulatory Systems (BRS): interconnected control systems that link nutrition, lifestyle, physiology, and brain function. While centred on brain health, the framework is designed as a complete dietary approach grounded in core biological systems that support both cognitive function and broader physiological health.
 
-## BRAIN Biological Regulatory Systems (BRS)
+At a practical level, meals are designed as a complementary rotation across the day, aligned with natural rhythms from breakfast through to dinner. Rather than trying to optimise everything in a single meal, each meal plays a role, and each day builds on the next, creating a balanced pattern over time. This reflects how the body actually uses nutrients-absorbing, storing, and reusing them dynamically-so meals are structured to work together, supporting different systems in a coordinated and sustainable way.
 
-1. **Neurotransmitter Regulation** — *Signal layer*: synaptic communication, circuit dynamics, behavioural expression.
-2. **Methylation & One-Carbon Metabolism** — *Biochemical regulation layer*: synthesis, repair, epigenetic control, neurotransmitter production.
-3. **Inflammation & Oxidative Stress** — *Immune/redox regulation layer*: cellular protection, repair processes, inflammatory signalling tone.
-4. **Mitochondrial Function & Bioenergetics** — *Capacity layer*: ATP production, metabolic resilience, oxidative phosphorylation efficiency.
-5. **Gut–Brain Axis & Enteric Nervous System (ENS)** — *Peripheral neural–immune interface*: microbial metabolites, vagal signalling, immune–metabolic integration.
-6. **Metabolic & Neuroendocrine Stress (HPA Axis & ANS)** — *Whole-body regulation layer*: stress allocation, autonomic tone, hormonal coordination and energy prioritisation.
+Rather than focusing on isolated nutrients, the framework leverages Functional Mechanisms ( key biological controls that can be influenced through diet and lifestyle). Functional Mechanisms represent a grouping of one or more Primary Mechanisms (the underlying biological processes that support those controls) to translate complex biology into practical, usable strategies for improving health.
 
-<TagList tag="Biological Target" / >
+## The Six Biological Regulatory Systems
 
-### Modulators (cross-cutting)
+### [Neurotransmitter Regulation](/docs/biological-targets/neurotransmitter-regulation)
 
-**Endocannabinoid System (ECS)** and **Circadian Rhythm** act as modulators across all six BRS. Substances, foods, and recipes tagged with **Endocannabinoid System** or **Circadian Rhythm** are integrated into every BRS section in therapeutic-area matrices and food spreadsheets, so their cross-cutting role is visible. Tag content with these when it supports ECS or circadian alignment; the site logic includes them in all relevant matrix tables.
+Signal layer: synaptic communication and behavioural expression.
 
-## Integration Strategy
+### [Methylation & One-Carbon Metabolism](/docs/biological-targets/methylation-one-carbon-metabolism)
 
-The BRAIN Diet takes a **systems approach** by:
+Biochemical regulation: synthesis, repair, and epigenetic control.
 
-- **Addressing multiple targets simultaneously** rather than focusing on single nutrients
-- **Using food matrix strategies** that naturally support multiple systems
-- **Leveraging nutrient synergies** for enhanced effectiveness
-- **Providing both omnivore and plant-based approaches** for flexibility
+### [Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress)
 
-## Key Principles
+Immune/redox regulation: inflammatory tone, antioxidant defence, and repair balance.
 
-### 1. Food-First Approach
+### [Mitochondrial Function & Bioenergetics](/docs/biological-targets/mitochondrial-function-bioenergetics)
 
-- **Whole foods** provide complex nutrient matrices
-- **Natural combinations** enhance bioavailability
-- **Minimal processing** preserves nutrient integrity
+Capacity layer: ATP production, mitochondrial resilience, and bioenergetic efficiency.
 
-### 2. Precision Nutrition
+### [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
 
-- **Individual variation** in nutrient needs and genetic factors
-- **Targeted interventions** based on specific biological dysfunctions
-- **Comprehensive assessment** of multiple systems
+Peripheral neural-immune interface: gut signalling, microbial metabolites, and vagal integration.
 
-### 3. Circadian Alignment
+### [Metabolic & Neuroendocrine Stress](/docs/biological-targets/metabolic-neuroendocrine-stress)
 
-- **Meal timing** that supports natural biological rhythms
-- **Nutrient timing** for optimal absorption and utilization
-- **Sleep-wake cycle** optimization
+Whole-body regulation: stress allocation, autonomic tone, hormonal coordination, and energy prioritisation.
 
-## Research Foundation
-
-Each biological target is supported by:
-
-- **Peer-reviewed research** on nutritional interventions
-- **Clinical studies** in relevant populations
-- **Mechanistic understanding** of biological pathways
-- **Practical implementation** strategies
-
-## Notes
-
-This biological targets framework provides the scientific foundation for the BRAIN Diet's approach to supporting brain health through precision nutrition. Each target page includes detailed information about the biological system, nutritional strategies, and practical implementation within the diet framework.

@@ -24,9 +24,9 @@ More pages of relevance will come on line continually.
 
 - [Fibre, Gut Adaptation &amp; Digestive Resilience](/docs/dietary-foundations/digestion-microbiome/fibre-gut-adaptation)
 - [Gut–Brain Axis](/docs/dietary-foundations/digestion-microbiome/gut-brain-axis)
-- [Gut Microbiome](/docs/biological-targets/gut-microbiome)
+- [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
 - [SCFAs](/docs/substances/microbial-metabolites/scfas/scfas)
-- [Foods supporting SCFA production](/docs/biological-targets/gut-microbiome#foods-supporting-scfa-production)
+- [Foods supporting SCFA production](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
 
 ### Nutrient Effects
 

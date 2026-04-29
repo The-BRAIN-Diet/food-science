@@ -48,12 +48,21 @@ function DocItemImage({doc}: {doc: Document}) {
   const inchikey = doc.frontMatter.inchikey as string | undefined
   const inchiImage = doc.frontMatter.inchi_image as string | undefined
   const listImage = doc.frontMatter.list_image as string | undefined
+  const ionNotation = doc.frontMatter.ion_notation as string | undefined
+  const ionMatch = ionNotation?.match(/^([A-Za-z]+)(\d*[+-])$/)
+  const ionBase = ionMatch?.[1] ?? ionNotation
+  const ionCharge = ionMatch?.[2] ?? null
 
   return (
     <article key={doc.title} className="margin-vert--lg">
       <div className={styles.columns}>
         <div className={styles.left}>
-          {isSubstance && inchiImage ? (
+          {isSubstance && ionNotation ? (
+            <span className="ion-notation-badge">
+              {ionBase}
+              {ionCharge ? <sup>{ionCharge}</sup> : null}
+            </span>
+          ) : isSubstance && inchiImage ? (
             <img src={inchiImage} alt="Chemical structure" className={styles.articleImage} />
           ) : isSubstance && inchikey ? (
             <InChIImage inchikey={inchikey} fallback={listImage} className={styles.articleImage} />

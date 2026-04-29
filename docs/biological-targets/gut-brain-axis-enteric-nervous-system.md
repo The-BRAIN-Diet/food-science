@@ -1,58 +1,20 @@
 ---
-id: gut-microbiome
-title: Gut–Brain Axis & Enteric Nervous System (ENS)
-sidebar_label: Gut–Brain Axis & ENS
-description: Peripheral neural–immune interface — microbial metabolites, vagal signalling, immune–metabolic integration
+id: gut-brain-axis-enteric-nervous-system
+title: Gut-Brain Axis & Enteric Nervous System
+sidebar_label: Gut-Brain Axis & Enteric Nervous System
+description: Peripheral neural-immune interface covering gut barrier, microbial signalling, ENS, and vagal pathways.
 tags:
   - Biological Target
-  - Gut Microbiome
-  - ADHD
-  - Anxiety & GAD
-  - Depression & MDD
+  - Gut-Brain Axis & Enteric Nervous System
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Gut–Brain Axis & Enteric Nervous System (ENS)
+# Gut-Brain Axis & Enteric Nervous System
 
-**Peripheral neural–immune interface** — microbial metabolites, vagal signalling, immune–metabolic integration.
+This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
 
-## Overview
-
-The gut microbiome represents a critical biological target in the BRAIN Diet, focusing on supporting beneficial gut bacteria and optimizing the gut-brain axis communication. A growing body of evidence suggests that modulating the gut microbiome can positively influence brain health and overall health. The gut is central in producing neurotransmitters, reducing systemic inflammation and enhancing gut-brain axis communication with fibre and fermented foods playing a central role in all of those processes (paper.txt, line 496).
-
-## Recipes
-
-<TagList tag="Gut Microbiome" filter="recipes" />
-
-## Therapeutic Areas
-
-<TagList tag="Gut Microbiome" filter="therapeutic-areas" />
-
-## Substances
-
-<TagList tag="Gut Microbiome" filter="substances" />
-
-## Foods supporting SCFA production
-
-Foods that support production of short-chain fatty acids (butyrate, propionate, acetate) or provide them in the diet help populate the Biological Target Matrix and therapeutic-area matrices. Use the lists below to isolate foods by SCFA.
-
-**All foods supporting SCFAs**
-
-<TagList tag="SCFAs" filter="foods" />
-
-**Foods associated with butyrate** (resistant starch, inulin, dietary sources)
-
-<TagList tag="Butyrate" filter="foods" />
-
-**Foods associated with propionate**
-
-<TagList tag="Propionate" filter="foods" />
-
-**Foods associated with acetate**
-
-<TagList tag="Acetate" filter="foods" />
-
-## Biological Implications
+<details>
+<summary><strong>Gut–Brain Axis & Enteric Nervous System (ENS) Biological Implications</strong></summary>
 
 The gut microbiome's two dominant bacterial phyla are Firmicutes and Bacteroidetes, and their relative abundance (the Firmicutes:Bacteroidetes (F/B) ratio) is often considered a broad indicator of gut "balance" or dysbiosis. Studies have shown how by increasing the diversity of taxa can increase the possibilities for individuals to produce certain health beneficial metabolites such as Urolithin A, or increase omega 3 metabolism and reduce downstream harmful gut metabolites (paper.txt, line 497).
 
@@ -96,3 +58,5 @@ A lowered abundance of Bifidobacterium longum in infancy has been associated wit
 - Increased propionate levels could help reduce neuroinflammation and enhance cognitive function while protecting the blood-brain barrier [Grüter et al. 2023](/docs/papers/BRAIN-Diet-References#gruter_propionate_2023)
 - Propionate can stimulate the secretion of norepinephrine, possibly benefiting ADHD symptoms like attention and focus [Hoyles et al. 2018](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)
 - A lowered abundance of Bifidobacterium longum in infancy has been associated with increased risk of developing ADHD and Asperger syndrome in childhood [Pärtty et al. 2015](/docs/papers/BRAIN-Diet-References#partty_possible_2015)
+
+</details>

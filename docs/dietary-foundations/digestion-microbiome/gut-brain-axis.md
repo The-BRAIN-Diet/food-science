@@ -33,7 +33,7 @@ The gut and brain are connected by:
 
 ## Related Pages
 
-- [Gut Microbiome](/docs/biological-targets/gut-microbiome)
+- [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
 - [Fibre, Gut Adaptation &amp; Digestive Resilience](/docs/dietary-foundations/digestion-microbiome/fibre-gut-adaptation)
 - [SCFAs](/docs/substances/microbial-metabolites/scfas/scfas)
 

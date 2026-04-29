@@ -1,0 +1,104 @@
+---
+title: "<INSERT_FM_TITLE>"
+fm_id: "<INSERT_FM_ID>"
+parent_brs: "<INSERT_PARENT_BRS_ID>"
+summary: "<INSERT_FM_SUMMARY_UP_TO_120_WORDS>"
+mechanisms_covered:
+  - id: "<INSERT_PM_ID_FROM_COLUMN_C>"
+    name: "<INSERT_PM_NAME_FROM_COLUMN_C>"
+    href: "/docs/biological-targets/<brs-slug>/pm/<pm-slug>"
+key_constraints:
+  - id: "<INSERT_KC_ID>"
+    name: "<INSERT_KC_NAME>"
+    type: "substrate" # or "precursor" from spreadsheet
+    href: "/docs/biological-targets/<brs-slug>/kc/<kc-slug>"
+intervention_dominance: "<diet-dominant|lifestyle-dominant|mixed>" # from Column O
+references:
+  - index: 1
+    label: "<PLACEHOLDER_REFERENCE_LABEL>"
+    citation_key: "<placeholder_citation_key_1>"
+    href: "/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>"
+---
+
+# <INSERT_FM_ID> — <INSERT_FM_TITLE>
+
+## Name and Overview
+
+<!-- Spreadsheet-derived FM name/summary. Keep concise. -->
+<INSERT_OVERVIEW_TEXT>
+
+## Functional Role
+
+<INSERT_FUNCTIONAL_ROLE_TEXT>
+
+## Underlying Mechanisms and Requirements
+
+<!-- Column C: PMs, KCs (substrate/precursor), optional cross-BRS links. -->
+### PMs
+- [<INSERT_PM_ID> — <INSERT_PM_NAME>](/docs/biological-targets/<brs-slug>/pm/<pm-slug>)
+
+### KCs
+- [<INSERT_KC_ID> — <INSERT_KC_NAME>](/docs/biological-targets/<brs-slug>/kc/<kc-slug>) (<substrate|precursor>)
+
+### Cross-BRS Links
+- <INSERT_BRS_LINK_ID> — <INSERT_BRS_LINK_NAME>
+
+## Interventions
+
+### Diet
+
+<!-- Derive from KCs + PM-linked substances only (Column F). -->
+- <INSERT_DIET_RULE_PLACEHOLDER> [1]
+
+### Lifestyle
+
+<!-- Reflect intervention dominance from Column O. -->
+- <INSERT_LIFESTYLE_RULE_PLACEHOLDER> [2]
+
+## Outputs / Functional Effects
+
+- <INSERT_SYSTEM_LEVEL_OUTPUT>
+
+## Practical Interpretation
+
+- <INSERT_MEAL_DESIGN_IMPLICATION>
+
+## Cross-System Links
+
+- <INSERT_CROSS_SYSTEM_LINK>
+
+## Mechanism Summary Table
+
+| Field | Value |
+|---|---|
+| BRS | `<INSERT_PARENT_BRS_ID_AND_NAME>` |
+| FM Ownership | `<INSERT_FM_ID_AND_NAME>` |
+| Mechanism Type | `<INSERT_MECHANISM_TYPE>` |
+| Key Substrates (KCs) | `<INSERT_KC_LIST>` |
+| Cofactors | `<INSERT_COFACTOR_LIST>` |
+| Primary Substances | `<INSERT_PRIMARY_SUBSTANCE_LIST>` |
+| Effective Dose Range | `<INSERT_LOW_EFFECTIVE_HIGH_RANGE>` |
+| Dose Sensitivity | `<low|moderate|high|context-dependent>` |
+| Bioavailability Notes | `<INSERT_BIOAVAILABILITY_NOTES>` |
+| Limiting Factors | `<INSERT_LIMITING_FACTORS>` |
+
+## Scoring Interpretation
+
+<!-- Interpret low/high support only. Do not add formulas. -->
+- Low support: <INSERT_LOW_SUPPORT_INTERPRETATION>
+- High support: <INSERT_HIGH_SUPPORT_INTERPRETATION>
+
+## Evidence Base
+
+<INSERT_EVIDENCE_BASE_TEXT_WITH_PLACEHOLDER_CITATIONS> [1,2]
+
+## References
+
+<!-- Placeholder citations only. Replace with validated bibliography keys. -->
+1. [Placeholder reference 1](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>)
+2. [Placeholder reference 2](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_2>)
+
+## Missing Entities
+
+<!-- Include only if required by spreadsheet mapping. -->
+- Missing system entity: <INSERT_FOOD_OR_SUBSTANCE_NAME>

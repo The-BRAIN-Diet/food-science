@@ -1,40 +1,20 @@
 ---
-id: neurochemical-balance
+id: neurotransmitter-regulation
 title: Neurotransmitter Regulation
 sidebar_label: Neurotransmitter Regulation
-description: Signal layer — synaptic communication, circuit dynamics, behavioural expression
+description: Signal layer covering neurotransmitter synthesis, signalling, and excitatory-inhibitory balance.
 tags:
   - Biological Target
-  - Neurochemical Balance
-  - ADHD
-  - Bipolar
-  - Alzheimer's Disease
-  - Anxiety & GAD
-  - Depression & MDD
+  - Neurotransmitter Regulation
 list_image: /img/icons/biological-targets.svg
 ---
 
 # Neurotransmitter Regulation
 
-**Signal layer** — synaptic communication, circuit dynamics, behavioural expression.
+This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
 
-## Overview
-
-Neurochemical balance is a fundamental biological target in the BRAIN Diet, focusing on optimizing neurotransmitter synthesis, release, and reuptake for improved cognitive function. Neurochemicals are molecules that are responsible for communication between nerve cells, and nerve cells and other cells. They are typically classified based on their function which can be excitatory, inhibitory or modulatory in nature, although some neurochemicals can have multiple functions. Many neurological disorders are thought to be due to neurochemical imbalances, and much research has now implicated much broader neurotransmitter dysregulation (paper.txt, lines 297-301).
-
-## Recipes
-
-<TagList tag="Neurochemical Balance" filter="recipes" />
-
-## Therapeutic Areas
-
-<TagList tag="Neurochemical Balance" filter="therapeutic-areas" />
-
-## Substances
-
-<TagList tag="Neurochemical Balance" filter="substances" />
-
-## Biological Implications
+<details>
+<summary><strong>Neurotransmitter Regulation Biological Implications</strong></summary>
 
 Many neurological disorders are thought to be due to neurochemical imbalances although conclusive proof is often lacking, and much research has now implicated much broader neurotransmitter dysregulation. A meta study analysis concluded that while dopaminergic dysfunction is consistently linked to ADHD, evidence does not support a simple global hypo-dopaminergic model and that dopamine alterations vary by ADHD subtypes, developmental stage, and brain region, interacting with other neurotransmitter systems. The difficulties in really 'disentangling' pure dopaminergic neurotransmission from other transmitter systems are significant; &gt;200 chemical messengers (classical transmitters, neuropeptides, purines, lipid mediators, gases) have been described, underscoring the system's complexity. This is why the BRAIN Diet must target broad neurochemical precursors and cofactors to support efficient neurotransmitter production (paper.txt, line 301).
 
@@ -73,3 +53,5 @@ B6 is a cofactor in the development of all the key neurotransmitters. Only once 
 - The involvement of serotonin in ADHD is supported by findings that reduced levels of the neurotransmitter may contribute to the disorder along with several genetic markers [Oades 2010](/docs/papers/BRAIN-Diet-References#oades_serotonin_2010)
 - Emotional dysregulation (ED) is also a major factor of ADHD with estimates suggesting that 25–45% of children and 30–70% of adults have this comorbidity [Shaw et al. 2014](/docs/papers/BRAIN-Diet-References#shaw_emotional_2014)
 - Iron is an essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine [Beard et al. 2003](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
+
+</details>

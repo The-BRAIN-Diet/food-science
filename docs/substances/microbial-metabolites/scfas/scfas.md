@@ -33,7 +33,7 @@ mechanisms:
 
 <SubstanceFoods tag="SCFAs" />
 
-To isolate foods by SCFA type (butyrate, propionate, acetate), see the individual substance pages: [Butyrate](/docs/substances/microbial-metabolites/scfas/butyrate), [Propionate](/docs/substances/microbial-metabolites/scfas/propionate), [Acetate](/docs/substances/microbial-metabolites/scfas/acetate). The [Gut Microbiome](/docs/biological-targets/gut-microbiome#foods-supporting-scfa-production) biological target page also lists foods by SCFA.
+To isolate foods by SCFA type (butyrate, propionate, acetate), see the individual substance pages: [Butyrate](/docs/substances/microbial-metabolites/scfas/butyrate), [Propionate](/docs/substances/microbial-metabolites/scfas/propionate), [Acetate](/docs/substances/microbial-metabolites/scfas/acetate). The [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) biological target page also lists foods by SCFA.
 
 ## Biological Mechanisms and Implications
 
