@@ -6,6 +6,11 @@ globs:
 alwaysApply: false
 ---
 
+Build Gate Proviso:
+- Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
+- Always use semantic entity names (for example, `Intervention Dominance`, `Coverage Timing`, `Evidence Type`).
+- Treat any letter-identifier wording in generated outputs as a validation failure that must be fixed before build.
+
 When creating or editing Functional Mechanism (FM) pages:
 
 Follow:
@@ -14,12 +19,12 @@ system/functional-mechanism-schema.md
 Structure:
 - All sections must be present in the exact order defined in the schema
 
-Column interpretation:
-- Column C must be interpreted as:
+Field interpretation:
+- Underlying mechanisms and requirements must be interpreted as:
   - PMs that define the FM
   - KCs (substrates/precursors)
   - Optional BRSX modifiers
-- Must not use Column C as a dependency graph
+- Must not use underlying mechanisms and requirements as a dependency graph
 
 Diet rules:
 - Foods must be derived from:
@@ -39,6 +44,8 @@ References:
 - All references must link to:
   /docs/papers/BRAIN-Diet-References#citationKey
 - Verify citationKey exists in static/bibtex/BRAIN-diet.bib
+- If a modulator or lifestyle factor is introduced, add evidence-backed inline citations and include matching bibliography references
+- Bibliography entries for cited evidence must include DOI or source URL so users can click through to the original source
 - If missing, flag: "Missing bibliography entry"
 
 If ambiguity exists, stop and ask.

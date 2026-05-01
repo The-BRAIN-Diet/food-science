@@ -1,12 +1,18 @@
 # Functional Mechanism (FM) Schema
 
+## Build Gate Proviso
+
+- Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
+- Always use semantic entity names (for example, `Intervention Dominance`, `Coverage Timing`, `Evidence Type`).
+- Treat any letter-identifier wording in generated outputs as a validation failure that must be fixed before build.
+
 This schema defines the canonical data contract for Functional Mechanism pages.
 It is derived from the FM specification and is intended to be strict enough for
 validation while remaining readable for authors.
 
 ## Spreadsheet Interpretation Authority
 
-- Use `system/brs-spreadsheet-schema.md` as the authoritative column-by-column
+- Use `system/brs-spreadsheet-schema.md` as the authoritative field-by-field
   interpretation for spreadsheet ingestion.
 - When schema structure and spreadsheet interpretation need coordination, do not
   infer; resolve using the spreadsheet schema and generation rules.
@@ -26,7 +32,7 @@ brs: string                        # e.g. "BRS2"
 overview: string                   # <=120 words
 functional_role: string
 underlying_requirements:
-  pms:                             # derived from spreadsheet Column C
+  pms:                             # derived from spreadsheet underlying requirements field
     - id: string
       name: string
       href: string                 # required PM page link
@@ -39,7 +45,7 @@ underlying_requirements:
   cross_brs_links:
     - id: string
       name: string
-interventions:                     # derived from spreadsheet Column F (+ O for lifestyle framing)
+interventions:                     # derived from spreadsheet interventions and intervention dominance fields
   diet:
     principles:
       - string
@@ -53,7 +59,7 @@ interventions:                     # derived from spreadsheet Column F (+ O for 
     constraints:
       - string
   lifestyle:
-    dominance: "diet-dominant" | "lifestyle-dominant" | "mixed"   # from Column O
+    dominance: "diet-dominant" | "lifestyle-dominant" | "mixed"   # from intervention dominance
     factors:
       - factor: string
         effect: string
@@ -116,8 +122,10 @@ missing_entities:                  # optional; for unresolved required food/subs
 - KC entries must be only `substrate` or `precursor` (never active mechanism labels).
 - Every entry in `interventions.diet.foods` must include `mechanism_link`.
 - Every food/substance listed must already exist in system; otherwise place in `missing_entities`.
+- Every modulator or lifestyle factor claim in `interventions.lifestyle` must be evidence-backed with inline numeric citations (for example, `[1]`, `[2]`).
 - `scoring_interpretation` must not include formulas, equations, or numeric scoring logic.
 - References must all resolve to `static/bibtex/BRAIN-diet.bib` citation keys.
+- Every referenced bibliography entry must include a DOI or source URL so the citation can resolve through the bibliography page to the original source.
 - No uncited research claims in `evidence_base` or intervention rationale text.
 
 ## Dose Rules (Mechanism Summary)

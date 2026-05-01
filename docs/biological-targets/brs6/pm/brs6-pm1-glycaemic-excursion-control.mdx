@@ -3,7 +3,7 @@ title: "Glycaemic Excursion Control"
 pm_id: "BRS6(PM1)"
 parent_fm: "BRS6(FM1)"
 parent_brs: "BRS6"
-summary: "Regulation of post-prandial glucose rise and fall to reduce acute metabolic volatility and compensatory stress signalling."
+summary: "Integrated control of glucose excursion amplitude and variability arising from coordinated absorption, insulin response, and systemic glucose regulation, acting to minimise acute metabolic volatility and compensatory neuroendocrine stress signalling."
 key_constraints:
   - "BRS6(KC1) - Glucose / Energy Substrate Availability"
 cofactors:
@@ -13,74 +13,124 @@ cofactors:
 intervention_dominance: "Diet-Dominant"
 dose_sensitivity: "[MISSING_OR_DERIVE_FROM_COLUMN_J_N]"
 references:
-  - "[1] Reynolds et al. (2019) — https://pubmed.ncbi.nlm.nih.gov/30638909/"
-  - "[2] Johnston et al. (2004) — https://pubmed.ncbi.nlm.nih.gov/14694010/"
+  - "[1] [Monnier et al. (2006)](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)"
+  - "[2] [Reynolds et al. (2019)](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)"
+  - "[3] [Johnston et al. (2004)](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)"
 hide_title: true
 ---
 
 ### BRS6(PM1) - Glycaemic Excursion Control
 
-Regulation of post-prandial glucose rise and fall to reduce acute metabolic volatility and compensatory stress signalling.
+### 1. Definition
 
-### Biological Role
+Integrated control of glucose excursion amplitude and variability arising from coordinated absorption, insulin response, and systemic glucose regulation, acting to minimise acute metabolic volatility and compensatory neuroendocrine stress signalling.
 
-↓ post-prandial glucose spike; ↓ glucose crash risk; ↑ stable energy availability
+### 2. Mechanistic Basis
 
-### Dependencies (System Requirements)
+Mechanistic Basis (PM1 — Glycaemic Excursion Control)
 
-#### KCs
+Glycaemic excursions arise from the coordinated interaction between intestinal glucose absorption kinetics, insulin secretion dynamics, peripheral glucose uptake, and endogenous glucose production, collectively determining the amplitude and temporal profile of circulating glucose following nutrient intake. Beyond mean glycaemic levels, glycaemic variability represents a distinct physiological construct, with acute glucose fluctuations shown to induce oxidative stress more strongly than sustained hyperglycaemia, supporting a mechanistic link between excursion instability and downstream cellular dysfunction  
+-> Monnier et al. (2006) [1]
+
+Dietary composition directly modulates these processes: higher fibre intake reduces postprandial glucose responses through delayed gastric emptying and attenuated glucose absorption  
+-> Reynolds et al. (2019) [2]
+while acute inclusion of acetic acid has been shown to lower postprandial glycaemia and improve insulin sensitivity, further influencing excursion dynamics  
+-> Johnston et al. (2004) [3]
+
+Together, these findings establish glycaemic excursion control as an integrated regulatory process governing metabolic stability, rather than a secondary feature of average glucose levels.
+
+### 3. Dependencies
+
+#### 3.1 KCs
 - [BRS6(KC1) - Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
 
-#### Optional BRSX Modifiers
+#### 3.2 Optional BRSX Modifiers
 - None listed
 
-### Cofactors (Chemical Enablement)
+#### 3.3 Co-factors
 
 - magnesium
 - chromium
 - B vitamins
 
-### Inputs (Dietary and Environmental)
+### 4. Interventions (Core Regulatory Levers)
 
-oats/legumes/sweet potato → slow carbohydrates + fibre; protein/fat matrix → slower glucose appearance; vinegar / acidic foods → reduced post-prandial glucose response; refined sugar → antagonistic input
+#### 4.1 Dietary Modulation
 
-### Outputs / Biological Effects
+Glycaemic excursion dynamics are primarily influenced by a small number of core regulatory levers governing the rate and variability of glucose appearance in circulation.
+
+Absorption rate modulation via dietary fibre content and food matrix (e.g. intact grains, legumes) reduces the rate of glucose appearance through delayed gastric emptying and attenuated intestinal absorption  
+-> Reynolds et al. (2019) [2]
+
+Macronutrient co-ingestion, whereby protein and fat consumed alongside carbohydrates attenuate postprandial glucose excursions by slowing gastric emptying and modulating insulin response
+
+Acute modifiers, including acetic acid and meal sequencing strategies, further reduce excursion amplitude and improve postprandial glycaemic responses  
+-> Johnston et al. (2004) [3]
+
+Antagonistic inputs, such as refined sugars and low-fibre processed carbohydrates, increase the rate of glucose appearance and amplify glycaemic variability
+
+Net effect: ↓ glycaemic variability; ↓ excursion amplitude; ↓ rate of glucose appearance
+
+#### 4.2 Non-Dietary Regulatory Levers
+
+Glycaemic excursion dynamics are further influenced by non-dietary regulatory levers that modulate glucose uptake, hormonal signalling, and temporal metabolic control.
+
+Postprandial physical activity (e.g. light walking following meals) increases skeletal muscle glucose uptake and reduces postprandial excursion amplitude
+
+Meal timing alignment (earlier feeding windows; avoidance of late-night carbohydrate intake) supports improved glucose tolerance and reduces glycaemic variability
+
+Sleep optimisation (adequate duration and regular timing) supports insulin sensitivity and stabilises glycaemic control
+
+Stress load reduction (attenuation of chronic HPA axis activation) reduces hepatic glucose output and glycaemic instability
+
+Energy balance regulation (body composition and adiposity management) improves baseline insulin sensitivity and reduces excursion magnitude
+
+### 5. Functional Outputs (Directional Effects)
 
 ↓ post-prandial glucose spike; ↓ glucose crash risk; ↑ stable energy availability
 
-### Functional Mechanism Ownership
+### 6. System Integration
+
+Integrated within BRS6(FM1) as a core diet-led mechanism for glycaemic stability.
+
+### 7. Key Insight
+
+Core diet-dominant PM linking meal construction to cognitive energy stability.
+
+### 8. Functional Mechanism Ownership
 
 - BRS6(FM1)
 
-### Intervention Dominance
+### 9. Intervention Dominance
 
 - Diet-Dominant
 
-### Constraints and Failure Modes
+### 10. Constraints and Failure Modes
 
 [INSERT_FROM_COLUMN_N_OR_SHEET_NOTES_IF_AVAILABLE]
 
-### Notes
+### 11. Notes
 
-- Evidence Type (Column H): Human + mechanistic
-- Evidence/Notes (Column N): Core diet-dominant PM linking meal construction to cognitive energy stability.
+- Evidence Type: Human + mechanistic
+- Evidence Notes: Core diet-dominant PM linking meal construction to cognitive energy stability.
 
 ### Mechanism Summary Table
 
 | Field | Value |
 |---|---|
 | PM ID | `BRS6(PM1)` |
-| FM Ownership (Column P) | `BRS6(FM1)` |
-| Dose Target / Requirement (Column J) | `Low-to-moderate glycaemic load with fibre/protein/fat buffering` |
-| Coverage Timing (Column K) | `Meal` |
-| Response Type (Column L) | `Immediate–Hours` |
-| Functional Latency (Column M) | `Same meal` |
+| FM Ownership | `BRS6(FM1)` |
+| Dose Target / Requirement | `Low-to-moderate glycaemic load with fibre/protein/fat buffering` |
+| Coverage Timing | `Meal` |
+| Response Type | `Immediate–Hours` |
+| Functional Latency | `Same meal` |
 
-### References
+### 12. References
 
-- Missing bibliography entry: [Reynolds et al. (2019) — https://pubmed.ncbi.nlm.nih.gov/30638909/]
-- Missing bibliography entry: [Johnston et al. (2004) — https://pubmed.ncbi.nlm.nih.gov/14694010/]
+1. [Monnier et al. (2006)](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)
+2. [Reynolds et al. (2019)](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)
+3. [Johnston et al. (2004)](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)
 
-### Missing Entities
+### 13. Missing Entities
 
 - None flagged from this row-level pass

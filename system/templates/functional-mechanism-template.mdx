@@ -12,7 +12,7 @@ key_constraints:
     name: "<INSERT_KC_NAME>"
     type: "substrate" # or "precursor" from spreadsheet
     href: "/docs/biological-targets/<brs-slug>/kc/<kc-slug>"
-intervention_dominance: "<diet-dominant|lifestyle-dominant|mixed>" # from Column O
+intervention_dominance: "<diet-dominant|lifestyle-dominant|mixed>" # from intervention dominance
 references:
   - index: 1
     label: "<PLACEHOLDER_REFERENCE_LABEL>"
@@ -33,7 +33,7 @@ references:
 
 ## Underlying Mechanisms and Requirements
 
-<!-- Column C: PMs, KCs (substrate/precursor), optional cross-BRS links. -->
+<!-- PMs, KCs (substrate/precursor), optional cross-BRS links. -->
 ### PMs
 - [<INSERT_PM_ID> — <INSERT_PM_NAME>](/docs/biological-targets/<brs-slug>/pm/<pm-slug>)
 
@@ -47,12 +47,12 @@ references:
 
 ### Diet
 
-<!-- Derive from KCs + PM-linked substances only (Column F). -->
+<!-- Derive from KCs and PM-linked substances only. -->
 - <INSERT_DIET_RULE_PLACEHOLDER> [1]
 
 ### Lifestyle
 
-<!-- Reflect intervention dominance from Column O. -->
+<!-- Reflect intervention dominance from intervention dominance. -->
 - <INSERT_LIFESTYLE_RULE_PLACEHOLDER> [2]
 
 ## Outputs / Functional Effects

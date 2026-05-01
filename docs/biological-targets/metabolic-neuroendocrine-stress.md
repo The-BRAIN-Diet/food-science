@@ -135,5 +135,5 @@ These factors modulate system behaviour but are not part of the core BRS structu
 
 ## References
 
-1. [Placeholder reference 1](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>)
-2. [Placeholder reference 2](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_2>)
+1. [Mohamed and Kobeissy (2024)](/docs/papers/BRAIN-Diet-References#mohamed_nutrition_2024)
+2. [Fanelli et al. (2022)](/docs/papers/BRAIN-Diet-References#fanelli_insulinopathies_2022)

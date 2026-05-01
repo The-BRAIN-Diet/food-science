@@ -6,6 +6,11 @@ globs:
 alwaysApply: false
 ---
 
+Build Gate Proviso:
+- Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
+- Always use semantic entity names (for example, `Intervention Dominance`, `Coverage Timing`, `Evidence Type`).
+- Treat any letter-identifier wording in generated outputs as a validation failure that must be fixed before build.
+
 - Each biological target page must be tagged with the Therapeutic Areas it is involved in.
 - Each biological target page must be tagged with "Biological Target" so that it appears in index.md.
 - Each biological target page must be tagged with the name of the biological target (e.g. Hormonal Response) so we can refer to it from a substance.
@@ -18,6 +23,8 @@ Page structure:
 - Substances: Must use the <TagList tag="biological target" filter="substances" /> here.
 - Biological Mechanisms and Implications: From paper.txt talk about any problems arising from issues with this biological area. e.g. "Protein forward meals (25-35g of protein) for focus and alertness."
 - References: A list of findings or scientific principles, with their link to the `/docs/papers/BRAIN-Diet-References#<ref>` that discusses it, from paper.txt in the root directory. Make sure all assertions are backed up by evidence from the paper.txt file . Use references if the paper mentions them.
+- Modulators must not be added without evidence. If a modulator is introduced, include inline numeric citations and matching references linked through `/docs/papers/BRAIN-Diet-References#<ref>`.
+- Ensure cited bibliography entries include DOI or source URL so the bibliography provides a clickable path to the original source.
 
 An example for the References section might look like this:
 

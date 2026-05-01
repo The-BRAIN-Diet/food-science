@@ -6,6 +6,11 @@ globs:
 alwaysApply: false
 ---
 
+Build Gate Proviso:
+- Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
+- Always use semantic entity names (for example, `Intervention Dominance`, `Coverage Timing`, `Evidence Type`).
+- Treat any letter-identifier wording in generated outputs as a validation failure that must be fixed before build.
+
 When creating or editing Key Constraint (KC) pages:
 
 Follow:
@@ -14,13 +19,13 @@ system/key-constraint-schema.md
 Structure:
 - All sections must be present in the exact order defined in the schema
 
-Column interpretation:
-- Column A must provide KC ID + title
-- Column B must provide overview/description
-- Column C may provide KC relationship context
-- Column F may provide food/source context
-- Column G must provide biological role/output context
-- Column H/I/N provide evidence context
+Field interpretation:
+- KC ID + title must be provided
+- Overview/description must be provided
+- KC relationship context may be provided
+- Food/source context may be provided
+- Biological role/output context must be provided
+- Evidence type + key studies + evidence notes provide evidence context
 
 Rules:
 - KCs must be interpreted as substrates/precursors only

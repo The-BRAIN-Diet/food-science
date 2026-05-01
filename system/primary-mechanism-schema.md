@@ -1,5 +1,11 @@
 # Primary Mechanism (PM) Schema
 
+## Build Gate Proviso
+
+- Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
+- Always use semantic entity names (for example, `Intervention Dominance`, `Coverage Timing`, `Evidence Type`).
+- Treat any letter-identifier wording in generated outputs as a validation failure that must be fixed before build.
+
 This schema defines the canonical data contract for Primary Mechanism pages.
 It is derived from the PM specification and enforces one-to-one FM ownership.
 
@@ -23,8 +29,8 @@ id: string                           # e.g. "BRS2-PM3"
 name: string
 brs: string
 overview: string                     # <=120 words
-biological_role: string
-dependencies:                        # from spreadsheet Column C
+functional_outputs_directional_effects: string
+dependencies:                        # from spreadsheet dependencies field
   kcs:
     - id: string
       name: string
@@ -32,10 +38,10 @@ dependencies:                        # from spreadsheet Column C
   cross_brs_links:
     - id: string
       name: string
-cofactors:                           # from Column D; cofactors only
+cofactors:                           # from cofactors field; cofactors only
   - id: string
     name: string
-inputs:                              # from Column F using evidence from key studies
+inputs:                              # from inputs field using evidence from key studies
   dietary:
     kc_inputs:
       - kc_id: string
@@ -55,7 +61,7 @@ outputs_biological_effects:
 functional_mechanism_ownership:      # from Column P
   fm_id: string
   fm_name: string
-intervention_dominance:              # from Column O
+intervention_dominance:              # from intervention dominance
   mode: "diet-dominant" | "lifestyle-dominant" | "mixed"
   inherit_from_fm: boolean
   override_justification: string     # required if inherit_from_fm=false
@@ -76,18 +82,22 @@ missing_entities:                    # optional
 
 ## Section Order (Page Rendering Contract)
 
-1. Name and Overview
-2. Biological Role
-3. Dependencies (System Requirements)
-4. Cofactors (Chemical Enablement)
-5. Inputs (Dietary and Environmental)
-6. Outputs / Biological Effects
-7. Functional Mechanism Ownership
-8. Intervention Dominance
-9. Constraints and Failure Modes
-10. Notes (Optional)
-11. References
-12. Missing Entities (only when needed)
+1. Definition
+2. Mechanistic Basis
+3. Dependencies
+   - 3.1 KCs
+   - 3.2 Optional BRSX Modifiers
+   - 3.3 Co-factors
+4. Dietary Modulation
+5. Functional Outputs (Directional Effects)
+6. System Integration
+7. Key Insight
+8. Functional Mechanism Ownership
+9. Intervention Dominance
+10. Constraints and Failure Modes
+11. Notes (Optional)
+12. References
+13. Missing Entities (only when needed)
 
 ## Validation Rules
 
@@ -102,11 +112,11 @@ missing_entities:                    # optional
 - No Secondary Mechanisms (SMs) introduced during initial rollout.
 - References must resolve to existing citation keys in `static/bibtex/BRAIN-diet.bib`.
 
-## Column Integrity Mapping
+## Field Integrity Mapping
 
-- Column C -> `dependencies` (KCs + cross-BRS links only)
-- Column D -> `cofactors` (cofactors only)
-- Column O -> `intervention_dominance.mode`
+- Dependencies -> `dependencies` (KCs + cross-BRS links only)
+- Cofactors -> `cofactors` (cofactors only)
+- Intervention dominance -> `intervention_dominance.mode`
 - Column P -> `functional_mechanism_ownership`
 
 An entity must not appear in more than one of these roles with conflicting meaning.

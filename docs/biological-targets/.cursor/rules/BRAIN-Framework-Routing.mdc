@@ -10,6 +10,11 @@ globs:
 alwaysApply: true
 ---
 
+Build Gate Proviso:
+- Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
+- Always use semantic entity names (for example, `Intervention Dominance`, `Coverage Timing`, `Evidence Type`).
+- Treat any letter-identifier wording in generated outputs as a validation failure that must be fixed before build.
+
 This rule determines which schema applies to each page type.
 
 Routing logic:

@@ -1,5 +1,11 @@
 # BRAIN Diet Ontology Rules
 
+## Build Gate Proviso
+
+- Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
+- Always use semantic entity names (for example, `Intervention Dominance`, `Coverage Timing`, `Evidence Type`).
+- Treat any letter-identifier wording in generated outputs as a validation failure that must be fixed before build.
+
 ## Purpose
 
 This document defines the governing rules of the BRAIN Diet ontology.
@@ -9,7 +15,7 @@ All spreadsheet construction, mechanism mapping, recipe design, and algorithm de
 This document controls:
 - Biological structure (BRS, FM, PM)
 - Mechanism mapping
-- Coverage Timing (Column K)
+- Coverage Timing
 - System complexity limits
 
 ---
@@ -122,7 +128,7 @@ BUT NOT:
 
 ---
 
-## 5. Coverage Timing (Column K)
+## 5. Coverage Timing
 
 ### Definition
 
@@ -189,7 +195,7 @@ Coverage Timing may be based on:
 The system distinguishes:
 
 - Mechanism activation (PM/FM)
-- Coverage Timing (Column K)
+- Coverage Timing
 - Scoring (system state)
 
 ### Rules
