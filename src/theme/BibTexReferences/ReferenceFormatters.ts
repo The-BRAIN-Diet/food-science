@@ -25,7 +25,7 @@ export function formatReference(entry: BibEntry, style: ReferenceStyle = 'apa'):
 
 function formatAPA(entry: BibEntry): string {
     const { entryTags, entryType } = entry;
-    const authors = formatAuthors(entryTags.author || '', 'apa');
+    const authors = getContributors(entryTags, 'apa');
     const year = entryTags.year || '';
     const title = entryTags.title || '';
 
@@ -57,7 +57,7 @@ function formatAPA(entry: BibEntry): string {
 
 function formatMLA(entry: BibEntry): string {
     const { entryTags, entryType } = entry;
-    const authors = formatAuthors(entryTags.author || '', 'mla');
+    const authors = getContributors(entryTags, 'mla');
     const title = entryTags.title || '';
     const year = entryTags.year || '';
 
@@ -79,7 +79,7 @@ function formatMLA(entry: BibEntry): string {
 
 function formatChicago(entry: BibEntry): string {
     const { entryTags, entryType } = entry;
-    const authors = formatAuthors(entryTags.author || '', 'chicago');
+    const authors = getContributors(entryTags, 'chicago');
     const title = entryTags.title || '';
     const year = entryTags.year || '';
 
@@ -102,7 +102,7 @@ function formatChicago(entry: BibEntry): string {
 
 function formatIEEE(entry: BibEntry): string {
     const { entryTags, entryType } = entry;
-    const authors = formatAuthors(entryTags.author || '', 'ieee');
+    const authors = getContributors(entryTags, 'ieee');
     const title = entryTags.title || '';
     const year = entryTags.year || '';
 
@@ -125,7 +125,7 @@ function formatIEEE(entry: BibEntry): string {
 
 function formatHarvard(entry: BibEntry): string {
     const { entryTags, entryType } = entry;
-    const authors = formatAuthors(entryTags.author || '', 'harvard');
+    const authors = getContributors(entryTags, 'harvard');
     const year = entryTags.year || '';
     const title = entryTags.title || '';
 
@@ -184,6 +184,20 @@ function formatAuthors(authorString: string, style: ReferenceStyle): string {
     }
 
     return authors.map(a => formatSingleAuthor(a, style)).join(', ');
+}
+
+function getContributors(entryTags: Record<string, string>, style: ReferenceStyle): string {
+    const authorString = entryTags.author || '';
+    if (authorString.trim()) {
+        return formatAuthors(authorString, style);
+    }
+    const editorString = entryTags.editor || '';
+    if (!editorString.trim()) {
+        return '';
+    }
+    const formattedEditors = formatAuthors(editorString, style);
+    const hasMultipleEditors = editorString.includes(' and ');
+    return `${formattedEditors}${hasMultipleEditors ? ' (eds.)' : ' (ed.)'}`;
 }
 
 function formatSingleAuthor(author: string, style: ReferenceStyle): string {

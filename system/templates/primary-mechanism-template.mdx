@@ -7,11 +7,11 @@ summary: "<INSERT_PM_SUMMARY_UP_TO_120_WORDS>"
 key_constraints:
   - id: "<INSERT_KC_ID>"
     name: "<INSERT_KC_NAME>"
-    type: "substrate" # or "precursor" from Column C
+    type: "substrate" # or "precursor" from dependencies
 cofactors:
   - id: "<INSERT_COFACTOR_ID>"
     name: "<INSERT_COFACTOR_NAME>"
-intervention_dominance: "<diet-dominant|lifestyle-dominant|mixed>" # from Column O
+intervention_dominance: "<diet-dominant|lifestyle-dominant|mixed>" # from intervention dominance
 dose_sensitivity: "<Low|Moderate|High>"
 references:
   - index: 1
@@ -33,7 +33,7 @@ references:
 
 ## Dependencies (System Requirements)
 
-<!-- Column C only: KCs + optional cross-BRS links. PMs must not reference PMs as dependencies. -->
+<!-- Dependencies only: KCs + optional cross-BRS links. PMs must not reference PMs as dependencies. -->
 ### KCs (substrates / precursors)
 - <INSERT_KC_ID> — <INSERT_KC_NAME> (<substrate|precursor>)
 
@@ -42,7 +42,7 @@ references:
 
 ## Cofactors (Chemical Enablement)
 
-<!-- Column D only. -->
+<!-- Cofactors only. -->
 - <INSERT_COFACTOR_ID> — <INSERT_COFACTOR_NAME>
 
 ## Inputs (Dietary and Environmental)

@@ -1,5 +1,11 @@
 # Key Constraint (KC) Schema
 
+## Build Gate Proviso
+
+- Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
+- Always use semantic entity names (for example, `Intervention Dominance`, `Coverage Timing`, `Evidence Type`).
+- Treat any letter-identifier wording in generated outputs as a validation failure that must be fixed before build.
+
 This schema defines the canonical data contract for Key Constraint pages.
 
 ## Scope

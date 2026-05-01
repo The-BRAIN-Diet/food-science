@@ -1,5 +1,11 @@
 # BRS Spreadsheet Schema
 
+## Build Gate Proviso
+
+- Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
+- Always use semantic entity names (for example, `Intervention Dominance`, `Coverage Timing`, `Evidence Type`).
+- Treat any letter-identifier wording in generated outputs as a validation failure that must be fixed before build.
+
 This document defines the canonical schema and interpretation rules for the
 BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 
@@ -18,9 +24,9 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - Must not create FM->FM dependency chains.
 - Must not include Secondary Mechanisms (SMs) during initial rollout.
 
-## Column Schema
+## Field Schema
 
-## Column A - Mechanism ID + Name
+## Mechanism ID + Name
 
 **Meaning**
 - Canonical mechanism identity.
@@ -37,7 +43,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - IDs must not be renamed, reused, or inferred.
 - Mechanism references should use ID + name where possible.
 
-## Column B - Description
+## Description
 
 **Meaning**
 - Concise biological description of the row.
@@ -47,7 +53,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - Must not introduce new mechanisms.
 - Must not include scoring logic.
 
-## Column C - Underlying Mechanisms and Requirements
+## Underlying Mechanisms and Requirements
 
 **Meaning**
 - Structured mechanism requirements; not a general dependency graph.
@@ -66,12 +72,12 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - PMs must not reference other PMs as dependencies.
 - FMs must not reference other FMs as dependencies.
 - BRSX entries are modifiers only (not mechanisms, KCs, or cofactors).
-- Must not use Column C to create pathway chains.
+- Must not use underlying requirements to create pathway chains.
 
 **BRSX handling**
 - BRSX entries represent cross-system or contextual modulation.
 - BRSX primarily acts at PM level; effects may propagate to FM level via PM aggregation.
-- BRSX may appear in Column C where it directly influences a PM or FM.
+- BRSX may appear in underlying requirements where it directly influences a PM or FM.
 - BRSX must not be treated as:
   - defining components of an FM
   - KCs (substrates/precursors)
@@ -79,7 +85,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
   - standalone mechanisms
 - BRSX must not be used to construct dependency chains.
 
-## Column D - Cofactors
+## Cofactors
 
 **Meaning**
 - Cofactors only.
@@ -88,14 +94,14 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - PM rows may list cofactors.
 - FM rows inherit cofactors through PM aggregation.
 - KC rows should not list cofactors.
-- Column D must not include:
+- Cofactors must not include:
   - KCs
   - PMs
   - FMs
   - foods
   - general substances unless explicitly acting as cofactors
 
-## Column E - Secondary Mechanisms (SMs)
+## Secondary Mechanisms (SMs)
 
 **Meaning**
 - Reserved for edge/context-specific advanced mechanisms.
@@ -108,7 +114,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - SMs refine/extend PMs; they do not define core FMs.
 - SMs must not be used in initial scoring or core page generation.
 
-## Column F - Interventions / Inputs -> Substances / Signals
+## Interventions / Inputs -> Substances / Signals
 
 **Meaning**
 - Actionable intervention inputs.
@@ -125,7 +131,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - Missing entities must be flagged as:
   - `Missing system entity: [name]`
 
-## Column G - Outputs / Function
+## Outputs / Function
 
 **Meaning**
 - Immediate biological effect.
@@ -135,7 +141,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - Must not shift into behavioral outcome language.
 - Must not include scoring.
 
-## Column H - Evidence Type
+## Evidence Type
 
 **Meaning**
 - Type/strength of evidence.
@@ -147,7 +153,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - Mixed
 - Emerging
 
-## Column I - Key Studies
+## Key Studies
 
 **Meaning**
 - Key supporting studies.
@@ -164,7 +170,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - If missing, flag:
   - `Missing bibliography entry: [paper / DOI / URL]`
 
-## Column J - Dose Target / Requirement
+## Dose Target / Requirement
 
 **Meaning**
 - Dose context where known.
@@ -175,14 +181,14 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - If PM-specific, PM context must be explicit.
 - If unknown, state dose is not yet defined.
 
-## Column K - Coverage Timing
+## Coverage Timing
 
 **Meaning**
 - How often support may be needed.
 - Coverage Timing estimates how often an intervention must be repeated to maintain a positive contribution to the target mechanism, using direct mechanism-persistence evidence where available, and nutrient/status kinetics as proxies where direct evidence is limited.
 
 **Assignment rule**
-- Assign Coverage Timing (Column K) based on mechanism persistence first.
+- Assign Coverage Timing based on mechanism persistence first.
 - Use nutrient/status kinetics only when direct mechanism-persistence evidence is limited.
 - Use the least frequent interval that maintains a stable positive contribution to the mechanism.
 
@@ -193,7 +199,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - Weekly
 - Monthly
 
-## Column L - Response Type
+## Response Type
 
 **Meaning**
 - Nature of response.
@@ -207,7 +213,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - Builds
 - Reservoir
 
-## Column M - Functional Latency
+## Functional Latency
 
 **Meaning**
 - Approximate time from intervention to meaningful biological effect.
@@ -219,7 +225,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - Month
 - Months
 
-## Column N - Evidence / Notes
+## Evidence Notes
 
 **Meaning**
 - Supporting context and caveats.
@@ -234,7 +240,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - Must not override column definitions.
 - Must not introduce new mechanisms.
 
-## Column O - Intervention Dominance
+## Intervention Dominance
 
 **Meaning**
 - Dominant intervention type.
@@ -265,25 +271,25 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 
 ## FM Pages
 
-- Column A -> FM ID + title
-- Column B -> overview/summary
-- Column C -> PMs, KCs, optional BRSX
-- Column F -> interventions
-- Column G -> outputs
-- Column H/I/N -> evidence context
-- Column K -> coverage timing
-- Column O -> intervention dominance
+- Mechanism ID + name -> FM ID + title
+- Description -> overview/summary
+- Underlying mechanisms and requirements -> PMs, KCs, optional BRSX
+- Interventions / inputs -> interventions
+- Outputs / function -> outputs
+- Evidence type + key studies + evidence notes -> evidence context
+- Coverage Timing -> coverage timing
+- Intervention Dominance -> intervention dominance
 
 ## PM Pages
 
-- Column A -> PM ID + title
-- Column B -> overview/summary
-- Column C -> KCs + optional BRSX only
-- Column D -> cofactors
-- Column F -> inputs
-- Column G -> outputs
-- Column H/I/J/K/L/M/N -> evidence, dose, timing, latency
-- Column O -> intervention dominance
+- Mechanism ID + name -> PM ID + title
+- Description -> overview/summary
+- Underlying mechanisms and requirements -> KCs + optional BRSX only
+- Cofactors -> cofactors
+- Interventions / inputs -> inputs
+- Outputs / function -> outputs
+- Evidence type + key studies + dose target + coverage timing + response type + functional latency + evidence notes -> evidence, dose, timing, latency
+- Intervention Dominance -> intervention dominance
 - Column P -> single FM ownership
 
 ## Enforcement Checklist

@@ -1,5 +1,11 @@
 # BRS Page Schema
 
+## Build Gate Proviso
+
+- Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
+- Always use semantic entity names (for example, `Intervention Dominance`, `Coverage Timing`, `Evidence Type`).
+- Treat any letter-identifier wording in generated outputs as a validation failure that must be fixed before build.
+
 This schema defines the canonical structure for Biological Regulatory System (BRS) overview pages.
 
 ## Scope
@@ -63,6 +69,7 @@ list_image: string
 - Contextual modifiers only (non-core structure).
 - Allowed examples include circadian timing, stress/recovery, sleep, physical activity, meal timing.
 - Must not treat modulators as FMs, PMs, or KCs.
+- Modulator claims must be supported by evidence and cited with inline numeric citations that resolve in the References section.
 
 ## Functional Outputs
 
@@ -77,6 +84,7 @@ list_image: string
 - Use bibliography links:
   - `/docs/papers/BRAIN-Diet-References#citationKey`
 - If claims are made, references must resolve to valid bibliography keys.
+- Bibliography entries should include a DOI or source URL so users can click through from bibliography to source.
 
 ## Validation Rules
 

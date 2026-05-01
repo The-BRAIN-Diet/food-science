@@ -6,6 +6,11 @@ globs:
 alwaysApply: false
 ---
 
+Build Gate Proviso:
+- Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
+- Always use semantic entity names (for example, `Intervention Dominance`, `Coverage Timing`, `Evidence Type`).
+- Treat any letter-identifier wording in generated outputs as a validation failure that must be fixed before build.
+
 When creating or editing Primary Mechanism (PM) pages:
 
 Follow:
@@ -15,16 +20,16 @@ Structure:
 - All sections must be present in the exact order defined in the schema
 - Must include the Mechanism Summary Table
 
-Column interpretation:
-- Column C must be interpreted as:
+Field interpretation:
+- Dependencies must be interpreted as:
   - KCs (substrates/precursors only)
   - Optional BRSX modifiers
   - PMs must not reference other PMs as dependencies
-- Column D must be interpreted as:
+- Cofactors must be interpreted as:
   - Cofactors only
-- Column P must be interpreted as:
+- FM ownership must be interpreted as:
   - Exactly one FM ownership
-- Column O must be interpreted as:
+- Intervention dominance must be interpreted as:
   - Intervention dominance (inherit from FM unless justified)
 
 Mechanism rules:
