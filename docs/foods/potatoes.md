@@ -39,16 +39,22 @@ legacy_main_image: /img/foods/potatoes/potatoes_medium.webp
 ---
 ## Overview
 
-Potatoes provide complex carbohydrates, potassium, and when cooked and cooled, form resistant starch that supports gut microbiome and SCFA production. Resistant starch (cooled potatoes, green bananas) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier. B6 (chickpeas, potatoes, bananas, whole grains, soy) is a cofactor in the development of all key neurotransmitters. See Cooled Potatoes for resistant starch formation details.
+Potatoes provide complex carbohydrates, potassium, vitamin B6, and vitamin C. Their functional profile changes meaningfully by preparation and variety: cooked-then-cooled potatoes increase resistant starch through retrogradation, while purple potato varieties contribute anthocyanins (including C3G-related compounds) that are relevant to polyphenol-focused dietary patterns.
+
+In practical terms, potatoes can serve both glycaemic stability and polyphenol diversity goals when used intentionally: cooling after cooking supports resistant starch formation and lower post-prandial glycaemic response, and including purple varieties broadens anthocyanin exposure.
 
 ## Food Context
 
 ### Preparation
 
-- Cook and cool to form resistant starch; resistant starch forms when certain starchy foods are cooked and then cooled, a process called retrogradation
-- Reheating does not reverse resistant starch formation; white rice was cooled and reheated showing a rise in RS content from 0.64 to 1.65 g/100 g and elicited a lower glycemic response
-- Supports butyrate production via gut fermentation; resistant starch (cooled potatoes, green bananas) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
-- Lower glycemic response when cooled compared to hot potatoes
+- Cook, cool, and optionally reheat potatoes to increase resistant starch (retrogradation) while retaining practical meal use.
+- Cooled starch structures are associated with a lower glycaemic response versus freshly cooked hot potato servings.
+- Resistant starch supports gut fermentation patterns linked to butyrate production and broader microbiome resilience.
+
+### Variety-Specific Properties
+
+- Purple potato varieties provide anthocyanins (including C3G-related compounds), adding a polyphenol dimension beyond standard white/yellow potatoes.
+- Anthocyanin-rich potato inclusion can be used as part of a broader strategy for color-diverse polyphenol intake.
 
 ## Recipes
 
@@ -64,4 +70,5 @@ Potatoes provide complex carbohydrates, potassium, and when cooked and cooled, f
 
 - Resistant starch (cooled potatoes, green bananas) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
 - B6 (chickpeas, potatoes, bananas, whole grains, soy) is a cofactor in the development of all key neurotransmitters
-- See Cooled Potatoes for resistant starch formation details; the complex carbohydrate, Resistant Starch, forms when certain starchy foods are cooked and then cooled, a process called retrogradation
+- Resistant starch forms when starchy foods are cooked and cooled (retrogradation), and cooled-then-reheated starch can still show improved resistant starch characteristics and lower glycaemic response in model foods.
+- Anthocyanin-rich potato varieties (e.g., purple potatoes) contribute C3G-related polyphenols relevant to polyphenol diversity strategies.
