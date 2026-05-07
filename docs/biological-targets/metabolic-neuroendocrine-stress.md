@@ -70,7 +70,7 @@ Managing glycemic variability stabilizes dopamine-insulin coupling and cognitive
 
 ## Functional Mechanisms
 
-These mechanisms represent the primary dietary and lifestyle control points through which this system can be influenced.
+These functional mechanisms represent connected groupings of biological mechanisms and lifestyle control points through which this system can be influenced.
 
 ## Core Functional Mechanisms
 

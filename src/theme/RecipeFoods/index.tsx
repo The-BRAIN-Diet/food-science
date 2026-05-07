@@ -384,7 +384,9 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
       const nutrition = (fm.nutrition_per_100g || {}) as NutritionValues
       for (const key of [...CORE_NUTRIENT_KEYS, ...MICRONUTRIENT_KEYS, ...BIOACTIVE_LIPID_KEYS, "omega3_mg"]) {
         const value = nutrition[key]
-        if (typeof value !== "number") continue
+        // Only list foods that contribute a positive amount to the nutrient row.
+        // This avoids showing ingredients with null/zero analytical values (e.g. coconut oil for carbohydrates).
+        if (typeof value !== "number" || value <= 0) continue
         nutrientTotals.set(key, (nutrientTotals.get(key) || 0) + value)
         nutrientFoods.set(key, [...(nutrientFoods.get(key) || []), food])
       }

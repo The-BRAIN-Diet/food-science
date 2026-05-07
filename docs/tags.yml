@@ -752,11 +752,6 @@ Coffee:
   permalink: /coffee
   description: Beverage containing caffeine and polyphenols
 
-Cooled Potatoes:
-  label: Cooled Potatoes
-  permalink: /cooled-potatoes
-  description: Potatoes with increased resistant starch
-
 Corn:
   label: Corn
   permalink: /corn
@@ -1161,11 +1156,6 @@ Pumpkin Seeds:
   label: Pumpkin Seeds
   permalink: /pumpkin-seeds
   description: Seeds rich in zinc and magnesium
-
-Purple Potatoes:
-  label: Purple Potatoes
-  permalink: /purple-potatoes
-  description: Potatoes rich in anthocyanins
 
 Quinoa:
   label: Quinoa

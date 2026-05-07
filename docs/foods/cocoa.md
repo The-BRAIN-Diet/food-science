@@ -48,6 +48,8 @@ legacy_main_image: /img/foods/cocoa/cocoa_medium.webp
 
 Cocoa provides flavanols (polyphenols) that support cognitive function, though heavy metal content increases with cocoa percentage. Polyphenol Sources: Berries, green tea catechins, cocoa flavanols, cranberries, pomegranate; ↑ Faecalibacterium, Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation. Cocoa flavanols support cognitive function and vascular health.
 
+This page covers **cocoa (processed cocoa product context)**. For the minimally processed, less-alkalised form used in this framework as a distinct ingredient, see [`Cacao Powder`](/docs/foods/cacao-powder).
+
 ## Food Context
 
 ### Synergies
