@@ -18,4 +18,4 @@ When a recipe is ready for the public site, move it to the appropriate category 
 
 ## Recipes in this folder
 
-- [Chocolate Quinoa Crisp Clusters](/docs/recipes/WIP/chocolate-quinoa-crisp-clusters)
+No recipes currently listed.
