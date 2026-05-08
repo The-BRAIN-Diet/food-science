@@ -1,7 +1,7 @@
 ---
 id: inflammation-oxidative-stress
-title: Inflammation & Oxidative Stress
-sidebar_label: Inflammation & Oxidative Stress
+title: BRS3 - Inflammation & Oxidative Stress
+sidebar_label: BRS3 - Inflammation & Oxidative Stress
 description: Immune and redox regulation layer covering inflammatory signalling and oxidative balance.
 tags:
   - Biological Target
@@ -9,7 +9,7 @@ tags:
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Inflammation & Oxidative Stress
+# BRS3 - Inflammation & Oxidative Stress
 
 This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
 

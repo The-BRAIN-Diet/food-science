@@ -1,7 +1,7 @@
 ---
 id: metabolic-neuroendocrine-stress
-title: Metabolic & Neuroendocrine Stress
-sidebar_label: Metabolic & Neuroendocrine Stress
+title: BRS6 - Metabolic & Neuroendocrine Stress
+sidebar_label: BRS6 - Metabolic & Neuroendocrine Stress
 description: Whole-body regulation layer for stress allocation, autonomic tone, hormonal coordination, and energy prioritisation.
 tags:
   - Biological Target
@@ -9,7 +9,7 @@ tags:
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Metabolic & Neuroendocrine Stress
+# BRS6 - Metabolic & Neuroendocrine Stress
 
 ## Overview
 

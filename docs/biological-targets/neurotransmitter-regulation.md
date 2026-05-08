@@ -1,7 +1,7 @@
 ---
 id: neurotransmitter-regulation
-title: Neurotransmitter Regulation
-sidebar_label: Neurotransmitter Regulation
+title: BRS1 - Neurotransmitter Regulation
+sidebar_label: BRS1 - Neurotransmitter Regulation
 description: Signal layer covering neurotransmitter synthesis, signalling, and excitatory-inhibitory balance.
 tags:
   - Biological Target
@@ -9,7 +9,7 @@ tags:
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Neurotransmitter Regulation
+# BRS1 - Neurotransmitter Regulation
 
 This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
 

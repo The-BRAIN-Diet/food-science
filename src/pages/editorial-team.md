@@ -15,6 +15,16 @@ In honouring this commitment, The BRAIN Diet Limited has published this referenc
 
 ## Team Members
 
+### Rob Moffat
+
+<img src="/img/team/rob.jpg" alt="Rob Moffat" class="team-photo" />
+
+**Rob Moffat** is a software developer and systems architect with deep experience in finance, regulatory technology, and software risk management. As Chief Architect for FINOS, the Financial Open Source Foundation at the Linux Foundation, he works across global open-source programs that support resilient, scalable, and transparent technology ecosystems. Rob's experience in global opensource projects at the linux foundation has meant that thebraindiet has been gifted some of the most advance content management systems and AI available.
+
+He is the author of *[Risk-First Software Development, Second Edition: Deliver Better Systems in a Post-Agile, AI World](https://pragprog.com/titles/rmrfsd/risk-first-software-development-second-edition/)*, and the creator of the *[Risk First](https://riskfirst.org/overview/Start)* framework and knowledge hub, focused on practical risk-aware thinking for modern software teams. Within The BRAIN Diet, he contributes strategic technology and platform design perspective that strengthens the project's evidence infrastructure and digital delivery model.
+
+[View Rob's LinkedIn profile →](https://www.linkedin.com/in/robmoffat/?originalSubdomain=uk)
+
 ### Paul Peeters
 
 <img src="/img/team/paul.jpg" alt="Paul Peeters" class="team-photo" />

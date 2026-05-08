@@ -1,7 +1,7 @@
 ---
 id: mitochondrial-function-bioenergetics
-title: Mitochondrial Function & Bioenergetics
-sidebar_label: Mitochondrial Function & Bioenergetics
+title: BRS4 - Mitochondrial Function & Bioenergetics
+sidebar_label: BRS4 - Mitochondrial Function & Bioenergetics
 description: Capacity layer covering ATP production, mitochondrial resilience, and bioenergetic regulation.
 tags:
   - Biological Target
@@ -9,7 +9,7 @@ tags:
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Mitochondrial Function & Bioenergetics
+# BRS4 - Mitochondrial Function & Bioenergetics
 
 This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
 
