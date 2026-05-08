@@ -19,27 +19,27 @@ Rather than focusing on isolated nutrients, the framework leverages Functional M
 
 ## The Six Biological Regulatory Systems
 
-### [Neurotransmitter Regulation](/docs/biological-targets/neurotransmitter-regulation)
+### [BRS1 - Neurotransmitter Regulation](/docs/biological-targets/neurotransmitter-regulation)
 
 Signal layer: synaptic communication and behavioural expression.
 
-### [Methylation & One-Carbon Metabolism](/docs/biological-targets/methylation-one-carbon-metabolism)
+### [BRS2 - Methylation & One-Carbon Metabolism](/docs/biological-targets/methylation-one-carbon-metabolism)
 
 Biochemical regulation: synthesis, repair, and epigenetic control.
 
-### [Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress)
+### [BRS3 - Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress)
 
 Immune/redox regulation: inflammatory tone, antioxidant defence, and repair balance.
 
-### [Mitochondrial Function & Bioenergetics](/docs/biological-targets/mitochondrial-function-bioenergetics)
+### [BRS4 - Mitochondrial Function & Bioenergetics](/docs/biological-targets/mitochondrial-function-bioenergetics)
 
 Capacity layer: ATP production, mitochondrial resilience, and bioenergetic efficiency.
 
-### [Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
+### [BRS5 - Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
 
 Peripheral neural-immune interface: gut signalling, microbial metabolites, and vagal integration.
 
-### [Metabolic & Neuroendocrine Stress](/docs/biological-targets/metabolic-neuroendocrine-stress)
+### [BRS6 - Metabolic & Neuroendocrine Stress](/docs/biological-targets/metabolic-neuroendocrine-stress)
 
 Whole-body regulation: stress allocation, autonomic tone, hormonal coordination, and energy prioritisation.
 

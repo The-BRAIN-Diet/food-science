@@ -1,7 +1,7 @@
 ---
 id: gut-brain-axis-enteric-nervous-system
-title: Gut-Brain Axis & Enteric Nervous System
-sidebar_label: Gut-Brain Axis & Enteric Nervous System
+title: BRS5 - Gut-Brain Axis & Enteric Nervous System
+sidebar_label: BRS5 - Gut-Brain Axis & Enteric Nervous System
 description: Peripheral neural-immune interface covering gut barrier, microbial signalling, ENS, and vagal pathways.
 tags:
   - Biological Target
@@ -9,7 +9,7 @@ tags:
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Gut-Brain Axis & Enteric Nervous System
+# BRS5 - Gut-Brain Axis & Enteric Nervous System
 
 This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
 

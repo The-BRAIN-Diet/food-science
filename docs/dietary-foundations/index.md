@@ -31,6 +31,7 @@ More pages of relevance will come on line continually.
 ### Nutrient Effects
 
 - [Whole Grains &amp; Glycaemic Stability](/docs/dietary-foundations/nutrient-effects/whole-grains-glycaemic-stability)
+- [Glycaemic Index](/docs/foods/glycaemic-index)
 - Dietary Fat &amp; Metabolic Signalling *(coming soon)*
 
 ## Purpose of the Dietary Foundations Section

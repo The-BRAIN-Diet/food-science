@@ -18,13 +18,51 @@ system/functional-mechanism-schema.md
 
 Structure:
 - All sections must be present in the exact order defined in the schema
+- FM section headings must be explicitly numbered (`## 1. ...`, `## 2. ...`) for PM/FM consistency
+- Section contract must include:
+  - Definition
+  - Functional Role
+  - Underlying Mechanisms and Requirements
+  - Dietary Levers
+  - Lifestyle Levers
+  - Scoreable Food-State Inputs
+  - Recipe Translation & Scoring Logic
+  - Functional Consequences
+  - Practical Interpretation
+  - Cross-System Links
+  - Mechanism Summary Table
+  - Scoring Interpretation
+  - Interpretation Boundary
+  - Evidence Base
+  - References
+  - Missing Entities (only when needed)
 
 Field interpretation:
+- Front matter must use schema field names (`title`, `fm_id`, `parent_brs`, `summary`, `mechanisms_covered`, `key_constraints`, `intervention_dominance`, `coverage_timing`, `references`)
 - Underlying mechanisms and requirements must be interpreted as:
-  - PMs that define the FM
-  - KCs (substrates/precursors)
-  - Optional BRSX modifiers
+  - PMs (Primary Mechanisms) that define the FM
+  - KCs (Key Constraints) (substrate/precursor requirements)
+  - Cross-BRS links
+- Under `3. Underlying Mechanisms and Requirements`, render subsection labels exactly as:
+  - `PMs (Primary Mechanisms)`
+  - `KCs (Key Constraints)`
 - Must not use underlying mechanisms and requirements as a dependency graph
+- For BRS6(FM1), PM1 naming must be:
+  - Glycaemic Variability & Absorption Kinetics
+  - (not legacy Glycaemic Excursion Control)
+
+Scoreable input rules:
+- Dietary and Lifestyle rules:
+  - `Dietary Levers` and `Lifestyle Levers` must be separate top-level sections
+  - `Dietary Levers` must appear immediately after `3. Underlying Mechanisms and Requirements`
+  - Diet and Lifestyle content should be wrapped in collapsible `<details>` menus for readability
+- Scoreable Food-State Inputs must include all four categories:
+  - Functional Property Potentials
+  - Realised Functional States
+  - Substance / Nutrient Signals
+  - Preparation Transformations
+- Recipe Translation & Scoring Logic must stay narrative and mechanism-facing
+- Do not expose raw scoring code
 
 Diet rules:
 - Foods must be derived from:
@@ -36,8 +74,11 @@ Diet rules:
 Constraints:
 - Must not introduce new PMs, FMs, or KCs
 - Must not include scoring formulas
+- Must not expose raw scoring code
 - Must not include SMs during initial rollout
 - Must not model one FM as structurally dependent on another
+- Must include Interpretation Boundary language clarifying mechanistic/educational scope and non-predictive clinical scope
+- Must not display PM/FM codes in recipe-facing examples beyond mechanism-page context
 
 References:
 - Use numeric citations [1], [2]

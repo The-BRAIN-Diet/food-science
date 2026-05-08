@@ -1,7 +1,7 @@
 ---
 id: methylation-one-carbon-metabolism
-title: Methylation & One-Carbon Metabolism
-sidebar_label: Methylation & One-Carbon Metabolism
+title: BRS2 - Methylation & One-Carbon Metabolism
+sidebar_label: BRS2 - Methylation & One-Carbon Metabolism
 description: Biochemical regulation layer for one-carbon metabolism, methyl donor flux, and related mechanisms.
 tags:
   - Biological Target
@@ -9,7 +9,7 @@ tags:
 list_image: /img/icons/biological-targets.svg
 ---
 
-# Methylation & One-Carbon Metabolism
+# BRS2 - Methylation & One-Carbon Metabolism
 
 This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
 

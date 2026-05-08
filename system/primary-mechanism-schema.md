@@ -85,7 +85,7 @@ missing_entities:                    # optional
 1. Definition
 2. Mechanistic Basis
 3. Dependencies
-   - 3.1 Key Constraints (KCs)
+   - 3.1 KCs (Key Constraints)
    - 3.2 Optional BRSX Modifiers
    - 3.3 Co-factors
 4. Dietary Modulation
