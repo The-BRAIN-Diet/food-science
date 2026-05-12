@@ -5,11 +5,14 @@ parent_brs: "BRS6"
 summary: "Functional control of glucose–insulin dynamics and meal-derived energy availability that influence cognitive energy, catecholamine demand, and stress allocation."
 mechanisms_covered:
   - id: "BRS6(PM1)"
-    name: "Glycaemic Variability & Absorption Kinetics"
+    name: "Glucose Appearance Kinetics"
     href: "/docs/biological-targets/brs6/pm/brs6-pm1-glycaemic-variability-absorption-kinetics"
   - id: "BRS6(PM2)"
+    name: "Glycaemic Variability Regulation"
+    href: "/docs/biological-targets/brs6/pm/brs6-pm2-glycaemic-variability-regulation"
+  - id: "BRS6(PM3)"
     name: "Insulin Sensitivity & Glucose Disposal"
-    href: "/docs/biological-targets/brs6/pm/brs6-pm2-insulin-sensitivity-and-glucose-disposal"
+    href: "/docs/biological-targets/brs6/pm/brs6-pm3-insulin-sensitivity-and-glucose-disposal"
 key_constraints:
   - id: "BRS6(KC1)"
     name: "Glucose / Energy Substrate Availability"
@@ -18,13 +21,15 @@ key_constraints:
 intervention_dominance: "Diet-Dominant"
 coverage_timing: "Meal–Daily"
 references:
-  - "[1] [Reynolds et al. (2019)](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)"
-  - "[2] [Hatori et al. (2012)](/docs/papers/BRAIN-Diet-References#hatori_2012_22608008)"
-  - "[3] [Mikus et al. (2012)](/docs/papers/BRAIN-Diet-References#mikus_2012_22311420)"
+  - "[1] [Monnier et al. (2006)](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)"
+  - "[2] [Reynolds et al. (2019)](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)"
+  - "[3] [Johnston et al. (2004)](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)"
+  - "[4] [Mikus et al. (2012)](/docs/papers/BRAIN-Diet-References#mikus_2012_22311420)"
+  - "[5] [Kubota et al. (2020)](/docs/papers/BRAIN-Diet-References#kubota_2020_meal_sequence)"
 hide_title: true
 ---
 
-### BRS6(FM1) - Glycaemic–Insulin Stability & Cognitive Energy Availability
+## BRS6(FM1) - Glycaemic–Insulin Stability & Cognitive Energy Availability
 
 ## 1. Definition
 
@@ -34,19 +39,24 @@ Functional control of glucose–insulin dynamics and meal-derived energy availab
 
 ↑ glucose stability; ↓ reactive catecholamine demand; ↑ steady cognitive energy availability
 
-## 3. Underlying Mechanisms and Requirements
+## 3. Mechanistic Basis (Implementation of PMs)
 
-#### PMs (Primary Mechanisms)
-- [BRS6(PM1) - Glycaemic Variability & Absorption Kinetics](/docs/biological-targets/brs6/pm/brs6-pm1-glycaemic-variability-absorption-kinetics)
-- [BRS6(PM2) - Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/pm/brs6-pm2-insulin-sensitivity-and-glucose-disposal)
+BRS6(FM1) is implemented through BRS6(PM1), BRS6(PM2), and BRS6(PM3): PM1 governs the rate and temporal profile of glucose appearance after meals; PM2 governs the stability, volatility, and oscillatory behaviour of post-prandial glucose dynamics across the meal period; PM3 develops the extended mechanistic basis for insulin responsiveness, post-prandial disposal efficiency, and metabolic recovery. Together they operationalise FM1 as coordinated control of glucose entry, fluctuation stability, and clearance, translating food structure, meal composition, and timing into steadier substrate availability and reduced reactive metabolic volatility.
 
-#### KCs (Key Constraints)
+## 4. Underlying Mechanisms and Requirements
+
+### 4.1 PMs (Primary Mechanisms)
+- [BRS6(PM1) - Glucose Appearance Kinetics](/docs/biological-targets/brs6/pm/brs6-pm1-glycaemic-variability-absorption-kinetics)
+- [BRS6(PM2) - Glycaemic Variability Regulation](/docs/biological-targets/brs6/pm/brs6-pm2-glycaemic-variability-regulation)
+- [BRS6(PM3) - Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/pm/brs6-pm3-insulin-sensitivity-and-glucose-disposal)
+
+### 4.2 KCs (Key Constraints)
 - [BRS6(KC1) - Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
 
-#### Cross-BRS Links
+### 4.3 Cross-BRS Links
 - BRS4(FM1) — Cellular Bioenergetics
 
-## 4. Dietary Levers
+## 5. Dietary Levers
 
 <details>
 <summary><strong>Diet</strong></summary>
@@ -59,7 +69,7 @@ Functional control of glucose–insulin dynamics and meal-derived energy availab
 
 </details>
 
-## 5. Lifestyle Levers
+## 6. Lifestyle Levers
 
 <details>
 <summary><strong>Lifestyle</strong></summary>
@@ -71,9 +81,14 @@ Functional control of glucose–insulin dynamics and meal-derived energy availab
 
 </details>
 
-## 6. Scoreable Food-State Inputs
+## 7. Scoreable Food-State Inputs
 
 This FM is interpreted through food-state, preparation, nutrient, and substance signals that can be inherited from food pages and realised at recipe level.
+
+These inputs are used within the BRAIN Diet ontology to generate evidence-constrained estimates of plausible BRS6 support. They are not direct measures of clinical efficacy or guaranteed physiological outcomes.
+
+<details>
+<summary><strong>Scoreable Input Categories</strong></summary>
 
 | Input Category | Example Inputs | Functional Relevance |
 |---|---|---|
@@ -82,72 +97,12 @@ This FM is interpreted through food-state, preparation, nutrient, and substance 
 | Substance / Nutrient Signals | magnesium; polyphenol-rich foods; omega-3 fatty acids; fibre; protein | May support insulin sensitivity, glucose disposal, redox modulation, and metabolic resilience. |
 | Preparation Transformations | cooked_cooled; intact_structure_preserved; low_temperature_cooking; no_high_heat_frying | Modify digestion kinetics, oxidation burden, starch structure, and meal-derived glucose behaviour. |
 
-These inputs are used within the BRAIN Diet ontology to generate evidence-constrained estimates of plausible BRS6 support. They are not direct measures of clinical efficacy or guaranteed physiological outcomes.
+</details>
 
-## 7. Recipe Translation & Scoring Logic
+## 8. References
 
-Recipes expressing multiple glycaemic-buffering and matrix-preserving characteristics may generate stronger BRS6 support estimates within the scoring framework. These estimates derive from inherited food-level functional property potentials, preparation transformations, realised functional states, and supporting nutrient/substance signals.
-
-| Recipe Characteristic | Example BRS6 Interpretation |
-|---|---|
-| Cooked-and-cooled starches | May support reduced glycaemic volatility through increased resistant starch formation. |
-| Mixed macronutrient meals | May support slower glucose appearance through protein, fibre, and fat buffering. |
-| Low-UPF matrices | May reduce hyperpalatability-driven volatility and metabolic stress load. |
-| Acidic meal components | May attenuate post-prandial glucose response amplitude. |
-| Intact legumes, oats, and minimally processed grains | May support slower digestion kinetics and steadier substrate availability. |
-
-Recipe-level BRS6 scores should prioritise realised functional states over food-level potentials where preparation is known.
-
-## 8. Functional Consequences
-
-- Reduced rapid metabolic volatility
-- Lower compensatory catecholamine demand
-- More stable meal-derived energy availability
-- Reduced stress-related glucose fluctuation pressure
-- Improved compatibility with sustained cognitive energy demands
-
-## 9. Practical Interpretation
-
-Meals supporting BRS6(FM1) generally emphasise slower glucose appearance, intact food structure, fibre-rich matrices, balanced macronutrient composition, lower ultra-processed load, and preparation methods that preserve metabolic stability while avoiding excessive oxidation or hyperpalatable volatility.
-
-This FM should be interpreted as a meal-pattern and food-state construct rather than a simple "low sugar" or "low carbohydrate" concept.
-
-## 10. Cross-System Links
-
-- BRS4(FM1) — Cellular Bioenergetics
-
-## 11. Mechanism Summary Table
-
-| Field | Value |
-|---|---|
-| FM ID | `BRS6(FM1)` |
-| Parent BRS | `BRS6` |
-| Intervention Dominance | `Diet-Dominant` |
-| Coverage Timing | `Meal–Daily` |
-| Response Type | `Immediate–Hours` |
-| Functional Latency | `Same meal–Same day` |
-
-## 12. Scoring Interpretation
-
-Low support: meals dominated by rapidly digestible, highly processed, poorly buffered carbohydrate structures or preparation states that increase glycaemic volatility, energy density, oxidation burden, or reactive stress demand.
-
-High support: meals combining slower glucose appearance, intact food structure, viscous fibre, resistant starch-generating preparation, acidic meal components, balanced macronutrient buffering, and supportive nutrient/substance signals for glucose disposal.
-
-## 13. Interpretation Boundary
-
-BRS6(FM1) support scores represent evidence-constrained mechanistic estimates derived from known food-state, preparation, nutrient, and substance characteristics. They are intended as structured educational and hypothesis-generating tools rather than direct predictors of clinical outcomes, biomarker changes, or guaranteed physiological effects.
-
-## 14. Evidence Base
-
-- Evidence Type: Human + mechanistic [1] [2] [3]
-- Evidence Notes: Diet-first FM. Provides the metabolic stability foundation for stress allocation and attention support without treating glucose as only a fuel. This FM is especially relevant to meal-level glycaemic variability, glucose disposal, and compensatory neuroendocrine demand. [1] [2] [3]
-
-## 15. References
-
-1. [Reynolds et al. (2019)](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)
-2. [Hatori et al. (2012)](/docs/papers/BRAIN-Diet-References#hatori_2012_22608008)
-3. [Mikus et al. (2012)](/docs/papers/BRAIN-Diet-References#mikus_2012_22311420)
-
-## 16. Missing Entities
-
-- None flagged from this row-level pass
+1. [Monnier et al. (2006)](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)
+2. [Reynolds et al. (2019)](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)
+3. [Johnston et al. (2004)](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)
+4. [Mikus et al. (2012)](/docs/papers/BRAIN-Diet-References#mikus_2012_22311420)
+5. [Kubota et al. (2020)](/docs/papers/BRAIN-Diet-References#kubota_2020_meal_sequence)

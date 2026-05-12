@@ -15,3 +15,9 @@ tags:
 This page lists all foods mentioned in the BRAIN Diet paper.
 
 <TagList tag="Food" filter="foods" />
+
+## Snacks
+
+Small-format and portable recipes (ingredients still link to food pages where applicable):
+
+<TagList tag="Snacks" filter="recipes" />

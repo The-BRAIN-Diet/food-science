@@ -82,22 +82,42 @@ missing_entities:                    # optional
 
 ## Section Order (Page Rendering Contract)
 
-1. Definition
-2. Mechanistic Basis
-3. Dependencies
-   - 3.1 KCs (Key Constraints)
-   - 3.2 Optional BRSX Modifiers
-   - 3.3 Co-factors
-4. Dietary Modulation
-5. Functional Outputs (Directional Effects)
-6. System Integration
-7. Key Insight
-8. Functional Mechanism Ownership
-9. Intervention Dominance
-10. Constraints and Failure Modes
-11. Notes (Optional)
-12. References
-13. Missing Entities (only when needed)
+First line of the MDX body (after front matter) must be the mechanism title: `## <PM_ID> - <PM name>` (same heading level as numbered sections; do not use `#` or `###` for this line).
+
+Two **profiles** are allowed; pick one per PM and keep numbering contiguous (no gaps in `## N.` sequence).
+
+### Profile A — Full narrative PM (e.g. BRS6 PM1)
+
+1. Definition — `## 1. Definition`
+2. Functional Role — `## 2. Functional Role` (directional arrow summary; may be folded into Mechanistic Basis only if the page intentionally omits a separate Functional Role, which is discouraged for this profile)
+3. Mechanistic Basis — `## 3. Mechanistic Basis`
+   - **UX (recommended):** start with `### Summary` (short paragraph always visible), then a `<details>` block whose `<summary>` labels the extended mechanistic narrative (e.g. glucose appearance, structure, sequencing). Inside the block, use `####` subheads for thematic blocks and link citations to `/docs/papers/BRAIN-Diet-References#…` plus numeric refs as needed.
+   - Long-form PMs may instead use a single `## 3.` body without Summary/details if the narrative stays short.
+4. Underlying Mechanisms and Requirements — `## 4. Underlying Mechanisms and Requirements`
+   - **Full subsection set:** `### 4.1` KCs, `### 4.2` Optional BRSX Modifiers, `### 4.3` Cross-BRS Links, `### 4.4` Co-factors
+   - **PM1-style (no Optional BRSX subsection):** `### 4.1` KCs, `### 4.2` Co-factors, `### 4.3` Cross-BRS Links (omit Optional BRSX when not used; do not renumber KC out of order)
+5. Dietary Levers — `## 5.` body inside `<details><summary><strong>Diet</strong></summary>…` (match FM pages)
+6. Lifestyle Levers — `## 6.` same pattern with `<strong>Lifestyle</strong>`
+7. Scoreable Food-State Inputs — `## 7.` **only when this PM is scoreable in the ontology**; optional intro paragraph; table (or list) may sit inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…`
+8. References — `## 8. References`
+
+### Profile B — Compact PM (e.g. BRS6 PM2–PM8)
+
+1. Definition — `## 1. Definition`
+2. Mechanistic Basis — `## 2. Mechanistic Basis` (optional `### Summary` + `<details>` as in Profile A when the narrative grows)
+3. Underlying Mechanisms and Requirements — `## 3. Underlying Mechanisms and Requirements` with `### 3.1` KCs, `### 3.2` Optional BRSX Modifiers, `### 3.3` Cross-BRS Links, `### 3.4` Co-factors
+4. Dietary Levers — `## 4.` (`<details>` / **Diet**)
+5. Lifestyle Levers — `## 5.` (`<details>` / **Lifestyle**)
+6. Functional Outputs (Directional Effects) — `## 6.` short arrow-line or paragraph (distinct from §2 Functional Role on Profile A)
+7. References — `## 7. References`
+
+### Excluded from the public PM body
+
+Body sections **do not** include Missing Entities, System Integration, Key Insight, Functional Mechanism Ownership, Intervention Dominance, Constraints and Failure Modes, Scoring Interpretation, Notes, or Mechanism Summary Table. Those belong in front matter, FM pages, authoring metadata, or other artefacts. Intervention dominance and FM ownership stay in YAML/front matter where present.
+
+### MDX body vs YAML
+
+The **Required Top-Level Fields** block is the ingestion and authoring data contract (and may appear in front matter). It is not a one-to-one list of rendered body sections: the published MDX follows **Profile A** or **Profile B** above. Keys such as `outputs_biological_effects`, `inputs`, `constraints_failure_modes`, and `notes` support tooling and related pages; they do not imply extra sections after **References** unless the schema is explicitly extended.
 
 ## Validation Rules
 
@@ -107,7 +127,7 @@ missing_entities:                    # optional
 - `dependencies.kcs[].type` must be only `substrate` or `precursor`.
 - `cofactors` must not include KCs, PMs, foods, or unrelated substances.
 - Inputs must be mechanistically justified; no generic food advice entries.
-- Foods/substances must exist in system; unresolved entities go to `missing_entities`.
+- Foods/substances must exist in system; unresolved entities may be recorded in optional `missing_entities` authoring metadata but must not be rendered as a PM page section.
 - No scoring formulas or numeric scoring logic allowed.
 - No Secondary Mechanisms (SMs) introduced during initial rollout.
 - References must resolve to existing citation keys in `static/bibtex/BRAIN-diet.bib`.

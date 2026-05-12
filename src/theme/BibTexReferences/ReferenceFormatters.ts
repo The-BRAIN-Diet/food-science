@@ -6,6 +6,25 @@ export interface BibEntry {
     entryTags: Record<string, string>;
 }
 
+/**
+ * BibTeX uses `{Like This}` to protect capitalisation for bibliography styles.
+ * Strip those groups for HTML so titles and journal names read as normal text.
+ */
+function stripBibTeXBraces(value: string): string {
+    if (!value) return value;
+    let out = value;
+    let prev = '';
+    while (out !== prev) {
+        prev = out;
+        out = out.replace(/\{([^{}]*)\}/g, '$1');
+    }
+    return out.replace(/\s{2,}/g, ' ').trim();
+}
+
+function displayTag(entryTags: Record<string, string>, key: string): string {
+    return stripBibTeXBraces(entryTags[key] || '');
+}
+
 export function formatReference(entry: BibEntry, style: ReferenceStyle = 'apa'): string {
     switch (style) {
         case 'apa':
@@ -27,10 +46,10 @@ function formatAPA(entry: BibEntry): string {
     const { entryTags, entryType } = entry;
     const authors = getContributors(entryTags, 'apa');
     const year = entryTags.year || '';
-    const title = entryTags.title || '';
+    const title = displayTag(entryTags, 'title');
 
     if (entryType.toLowerCase() === 'article') {
-        const journal = entryTags.journal || '';
+        const journal = displayTag(entryTags, 'journal');
         const volume = entryTags.volume || '';
         const number = entryTags.number || '';
         const pages = entryTags.pages || '';
@@ -46,7 +65,7 @@ function formatAPA(entry: BibEntry): string {
     }
 
     if (['inproceedings', 'conference'].includes(entryType.toLowerCase())) {
-        const booktitle = entryTags.booktitle || '';
+        const booktitle = displayTag(entryTags, 'booktitle');
         const pages = entryTags.pages || '';
         const publisher = entryTags.publisher || '';
         return `${authors} (${year}). ${title}. In <em>${booktitle}</em>${pages ? ` (pp. ${pages})` : ''}. ${publisher}.`;
@@ -58,11 +77,11 @@ function formatAPA(entry: BibEntry): string {
 function formatMLA(entry: BibEntry): string {
     const { entryTags, entryType } = entry;
     const authors = getContributors(entryTags, 'mla');
-    const title = entryTags.title || '';
+    const title = displayTag(entryTags, 'title');
     const year = entryTags.year || '';
 
     if (entryType.toLowerCase() === 'article') {
-        const journal = entryTags.journal || '';
+        const journal = displayTag(entryTags, 'journal');
         const volume = entryTags.volume || '';
         const number = entryTags.number || '';
         const pages = entryTags.pages || '';
@@ -80,11 +99,11 @@ function formatMLA(entry: BibEntry): string {
 function formatChicago(entry: BibEntry): string {
     const { entryTags, entryType } = entry;
     const authors = getContributors(entryTags, 'chicago');
-    const title = entryTags.title || '';
+    const title = displayTag(entryTags, 'title');
     const year = entryTags.year || '';
 
     if (entryType.toLowerCase() === 'article') {
-        const journal = entryTags.journal || '';
+        const journal = displayTag(entryTags, 'journal');
         const volume = entryTags.volume || '';
         const number = entryTags.number || '';
         const pages = entryTags.pages || '';
@@ -103,11 +122,11 @@ function formatChicago(entry: BibEntry): string {
 function formatIEEE(entry: BibEntry): string {
     const { entryTags, entryType } = entry;
     const authors = getContributors(entryTags, 'ieee');
-    const title = entryTags.title || '';
+    const title = displayTag(entryTags, 'title');
     const year = entryTags.year || '';
 
     if (entryType.toLowerCase() === 'article') {
-        const journal = entryTags.journal || '';
+        const journal = displayTag(entryTags, 'journal');
         const volume = entryTags.volume || '';
         const number = entryTags.number || '';
         const pages = entryTags.pages || '';
@@ -115,7 +134,7 @@ function formatIEEE(entry: BibEntry): string {
     }
 
     if (['inproceedings', 'conference'].includes(entryType.toLowerCase())) {
-        const booktitle = entryTags.booktitle || '';
+        const booktitle = displayTag(entryTags, 'booktitle');
         const pages = entryTags.pages || '';
         return `${authors}, "${title}," in <em>${booktitle}</em>${pages ? `, pp. ${pages}` : ''}, ${year}.`;
     }
@@ -127,10 +146,10 @@ function formatHarvard(entry: BibEntry): string {
     const { entryTags, entryType } = entry;
     const authors = getContributors(entryTags, 'harvard');
     const year = entryTags.year || '';
-    const title = entryTags.title || '';
+    const title = displayTag(entryTags, 'title');
 
     if (entryType.toLowerCase() === 'article') {
-        const journal = entryTags.journal || '';
+        const journal = displayTag(entryTags, 'journal');
         const volume = entryTags.volume || '';
         const number = entryTags.number || '';
         const pages = entryTags.pages || '';

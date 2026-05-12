@@ -211,13 +211,27 @@ export const functionalProperties: FunctionalProperty[] = [
     evidence_level: "human_observational",
   },
   {
-    id: "low_ultra_processed",
-    label: "Low ultra-processed",
-    definition: "Food or meal pattern with low ultra-processed characteristics and fewer hyperpalatable additives.",
+    id: "reduced_upf_metabolic_load",
+    label: "Reduced UPF metabolic load",
+    definition:
+      "Food or meal pattern with lower ultra-processed food load and fewer hyperpalatable additives, associated with lower metabolic volatility risk and less rapid glycaemic dynamics in dietary context.",
     polarity: "positive",
     type: "processing",
     brs_links: [
-      { brs: "BRS6", direction: "supports", strength: 1, effect: "Supports more stable metabolic signalling context." },
+      {
+        brs: "BRS6",
+        pm: "PM2",
+        direction: "supports",
+        strength: 1,
+        effect: "May reduce spike-and-crash volatility and oscillatory burden from ultra-processed-heavy patterns.",
+      },
+      {
+        brs: "BRS6",
+        pm: "PM1",
+        direction: "supports",
+        strength: 1,
+        effect: "May support less rapid glucose appearance when intake displaces rapidly digestible UPF carbohydrates.",
+      },
       { brs: "BRS3", direction: "supports", strength: 1, effect: "May reduce avoidable oxidative/inflammatory burden." },
     ],
     evidence_level: "human_observational",

@@ -4,12 +4,12 @@ fm_id: "BRS6(FM4)"
 parent_brs: "BRS6"
 summary: "Functional control of how stress, inflammatory tone, adiposity, and metabolic load shape whole-body resource allocation and brain-relevant energy/stress state."
 mechanisms_covered:
-  - id: "BRS6(PM7)"
-    name: "Metabolic Inflammation & Adipose Stress Signalling"
-    href: "/docs/biological-targets/brs6/pm/brs6-pm7-metabolic-inflammation-and-adipose-stress-signalling"
   - id: "BRS6(PM8)"
+    name: "Metabolic Inflammation & Adipose Stress Signalling"
+    href: "/docs/biological-targets/brs6/pm/brs6-pm8-metabolic-inflammation-and-adipose-stress-signalling"
+  - id: "BRS6(PM9)"
     name: "Stress-Induced Appetite / Reward Drive Modulation"
-    href: "/docs/biological-targets/brs6/pm/brs6-pm8-stress-induced-appetite-reward-drive-modulation"
+    href: "/docs/biological-targets/brs6/pm/brs6-pm9-stress-induced-appetite-reward-drive-modulation"
 key_constraints:
   - id: "BRS6(KC1)"
     name: "Glucose / Energy Substrate Availability"
@@ -24,78 +24,56 @@ references:
 hide_title: true
 ---
 
-### BRS6(FM4) - Stress-Inflammation / Metabolic Load Allocation
+## BRS6(FM4) - Stress-Inflammation / Metabolic Load Allocation
+
+## 1. Definition
 
 Functional control of how stress, inflammatory tone, adiposity, and metabolic load shape whole-body resource allocation and brain-relevant energy/stress state.
 
-### Functional Role
+## 2. Functional Role
 
 ↓ metabolic stress load; ↓ stress-driven appetite volatility; ↑ stable energy allocation
 
-### Underlying Mechanisms and Requirements
+## 3. Mechanistic Basis (Implementation of PMs)
 
-#### PMs (Primary Mechanisms)
-- [BRS6(PM7) - Metabolic Inflammation & Adipose Stress Signalling](/docs/biological-targets/brs6/pm/brs6-pm7-metabolic-inflammation-and-adipose-stress-signalling)
-- [BRS6(PM8) - Stress-Induced Appetite / Reward Drive Modulation](/docs/biological-targets/brs6/pm/brs6-pm8-stress-induced-appetite-reward-drive-modulation)
+BRS6(FM4) is implemented through BRS6(PM8) and BRS6(PM9): PM8 captures metabolic inflammation and adipose stress signaling, while PM9 captures stress-linked appetite and reward-drive modulation. Together these PMs translate chronic stress and dietary pattern effects into metabolic load allocation and downstream inflammatory pressure.
 
-#### KCs (Key Constraints)
+## 4. Underlying Mechanisms and Requirements
+
+### PMs (Primary Mechanisms)
+- [BRS6(PM8) - Metabolic Inflammation & Adipose Stress Signalling](/docs/biological-targets/brs6/pm/brs6-pm8-metabolic-inflammation-and-adipose-stress-signalling)
+- [BRS6(PM9) - Stress-Induced Appetite / Reward Drive Modulation](/docs/biological-targets/brs6/pm/brs6-pm9-stress-induced-appetite-reward-drive-modulation)
+
+### KCs (Key Constraints)
 - [BRS6(KC1) - Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
 
-#### Cross-BRS Links
+### Cross-BRS Links
 - BRS3(FM1) — Inflammatory Tone Regulation
 - BRS4(FM1) — Cellular Bioenergetics
 - BRS1(FM1) — Catecholaminergic Function
 
-### Interventions
+## 5. Interventions
 
-#### Diet
+### Diet
 
 anti-inflammatory Mediterranean-style pattern → reduced inflammatory load; fibre-rich meals → improved metabolic signalling; protein-rich breakfast and structured meal composition → improved appetite and reward stability
 
-#### Lifestyle
+### Lifestyle
 
 stress regulation practices → reduced cortisol-driven eating pressure; regular physical activity and recovery balance → improved insulin sensitivity and inflammatory resolution; sleep timing and duration stability → lower allostatic metabolic load
 
-### Outputs / Functional Effects
+## 6. Outputs / Functional Effects
 
 ↓ metabolic stress load; ↓ stress-driven appetite volatility; ↑ stable energy allocation
 
-### Practical Interpretation
-
-[INSERT_PRACTICAL_INTERPRETATION_FROM_SHEET_IF_AVAILABLE]
-
-### Cross-System Links
+## 7. Cross-System Links
 
 - BRS3(FM1) — Inflammatory Tone Regulation
 - BRS4(FM1) — Cellular Bioenergetics
 - BRS1(FM1) — Catecholaminergic Function
 
-### Mechanism Summary Table
-
-| Field | Value |
-|---|---|
-| FM ID | `BRS6(FM4)` |
-| Parent BRS | `BRS6` |
-| Intervention Dominance | `Diet-Supported` |
-| Coverage Timing | `Daily–Weekly` |
-| Response Type | `Days–Builds` |
-| Functional Latency | `Days–Weeks` |
-
-### Scoring Interpretation
-
-Low support and high support interpretation should be defined in narrative only; no formulas are included in this test generation.
-
-### Evidence Base
-
-- Evidence Type: Human + mechanistic [1] [2] [3]
-- Evidence Notes: System hub FM tying stress physiology to metabolic inflammation and real-world eating behaviour. [1] [2] [3]
-
-### References
+## 8. References
 
 1. [Kivimäki et al. (2014)](/docs/papers/BRAIN-Diet-References#bava_2014_24792806)
 2. [Hotamisligil (2006)](/docs/papers/BRAIN-Diet-References#hahn_2005_16301683)
 3. [Adam & Epel (2007)](/docs/papers/BRAIN-Diet-References#gupte_2007_17275091)
-
-### Missing Entities
-
-- None flagged from this row-level pass

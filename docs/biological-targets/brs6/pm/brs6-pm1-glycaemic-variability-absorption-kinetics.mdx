@@ -1,9 +1,9 @@
 ---
-title: "Glycaemic Variability & Absorption Kinetics"
+title: "Glucose Appearance Kinetics"
 pm_id: "BRS6(PM1)"
 parent_fm: "BRS6(FM1)"
 parent_brs: "BRS6"
-summary: "Integrated control of meal-derived glucose appearance, excursion amplitude, and glycaemic variability through food structure, digestion kinetics, gastric emptying, intestinal absorption, and acute meal-context effects, acting to reduce metabolic volatility and compensatory neuroendocrine stress signalling."
+summary: "Regulation of the rate and temporal profile of glucose appearance following feeding through digestion kinetics, gastric emptying, intestinal absorption, food structure, and meal-context effects."
 key_constraints:
   - "BRS6(KC1) - Glucose / Energy Substrate Availability"
 cofactors:
@@ -13,158 +13,126 @@ cofactors:
 intervention_dominance: "Diet-Dominant"
 dose_sensitivity: "[MISSING_OR_DERIVE_FROM_COLUMN_J_N]"
 references:
-  - "[1] [Monnier et al. (2006)](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)"
-  - "[2] [Reynolds et al. (2019)](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)"
+  - "[1] [Reynolds et al. (2019)](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)"
+  - "[2] [Kubota et al. (2020)](/docs/papers/BRAIN-Diet-References#kubota_2020_meal_sequence)"
   - "[3] [Johnston et al. (2004)](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)"
-  - "[4] [Mikus et al. (2012)](/docs/papers/BRAIN-Diet-References#mikus_2012_22311420)"
 hide_title: true
 ---
 
-# BRS6(PM1) - Glycaemic Variability & Absorption Kinetics
+## BRS6(PM1) - Glucose Appearance Kinetics
 
 ## 1. Definition
 
-Integrated control of meal-derived glucose appearance, excursion amplitude, and glycaemic variability through food structure, digestion kinetics, gastric emptying, intestinal absorption, and acute meal-context effects, acting to reduce metabolic volatility and compensatory neuroendocrine stress signalling.
+Regulation of the rate and temporal profile of glucose appearance following feeding through digestion kinetics, gastric emptying, intestinal absorption, food structure, and meal-context effects.
 
-## 2. Mechanistic Basis
+## 2. Functional Role
 
-Glycaemic variability and post-prandial glucose excursions arise from the coordinated interaction between intestinal glucose absorption kinetics, gastric emptying, insulin secretion dynamics, peripheral glucose uptake, and endogenous glucose production. Together, these processes determine not only the amplitude of glucose excursions following nutrient intake, but also the frequency, duration, and volatility of glucose fluctuations across the meal period.
+↓ rapid initial glucose entry; ↓ steep early post-prandial rise in circulating glucose; ↑ paced, meal-appropriate timing of carbohydrate delivery to circulation; ↑ alignment between nutrient arrival and absorption kinetics
 
-Beyond mean glycaemic levels, glycaemic variability represents a distinct physiological construct. Acute glucose fluctuations have been shown to induce oxidative stress more strongly than sustained hyperglycaemia, supporting a mechanistic link between oscillatory glucose exposure, cellular stress signalling, and downstream metabolic dysfunction (Monnier et al. 2006) [1].
+## 3. Mechanistic Basis
 
-Dietary composition and food structure directly modulate these dynamics. Higher fibre intake reduces post-prandial glucose responses through delayed gastric emptying and attenuated glucose absorption (Reynolds et al. 2019) [2]. Acute inclusion of acetic acid has also been shown to reduce post-prandial glycaemia and improve insulin sensitivity, further influencing excursion dynamics and meal-level glucose stability (Johnston et al. 2004) [3].
+### Summary
 
-Exercise-related evidence also supports the importance of real-world glycaemic dynamics. Mikus et al. (2012) showed that seven days of aerobic exercise training reduced post-prandial glucose exposure and the frequency, magnitude, and duration of glycaemic excursions in adults with type 2 diabetes, despite limited change in traditional OGTT-derived responses [4]. This supports the interpretation of glycaemic variability as a dynamic regulatory target rather than a secondary feature of average glucose levels.
+BRS6(PM1) regulates the rate and temporal profile of glucose appearance following meals through food structure, digestion kinetics, gastric emptying, intestinal absorption, and meal-context effects. Meal composition, preparation state, and nutrient sequencing collectively influence how rapidly glucose enters circulation after feeding and therefore shape the initial post-prandial metabolic response.
 
-Together, these findings establish BRS6(PM1) as an acute meal-level control point linking food structure, preparation state, and meal matrix to glycaemic variability and metabolic volatility.
+<details>
+<summary><strong>Glucose appearance, food structure, and absorption kinetics</strong></summary>
 
-## 3. Scoreable Food-State Inputs
+#### (Gastric emptying and intestinal absorption)
 
-This PM is primarily scoreable through food-state and preparation signals that influence the rate, amplitude, and variability of glucose appearance after meals.
+Post-prandial glucose appearance is governed by the coordinated interaction between gastric emptying, intestinal carbohydrate digestion, nutrient absorption kinetics, and meal composition. Together, these processes determine the speed and magnitude of glucose entry into circulation following feeding.
 
-| Input Category | Example Inputs | PM1 Relevance |
-|---|---|---|
-| Functional Property Potentials | soluble_viscous_fibre; resistant_starch_potential; intact_food_matrix; low_gi_starch; acidic_meal_component; mixed_macronutrient_buffering | May slow glucose appearance and reduce glycaemic volatility. |
-| Realised Functional States | increased_resistant_starch; reduced_glycaemic_volatility; reduced_rapid_digestibility; acidic_glucose_modulation | Represent realised recipe-level behaviours after preparation and meal construction. |
-| Preparation Transformations | cooked_cooled; intact_structure_preserved; minimally_processed; no_high_heat_frying | Modify starch structure, digestion kinetics, and glucose appearance rate. |
-| Antagonistic Signals | increased_glycaemic_volatility; increased_rapid_digestibility; hyperpalatable_matrix; low_fibre_refined_carbohydrate_load | May increase rapid glucose appearance and metabolic volatility. |
+#### (Food structure and matrix buffering)
 
-Food pages should generally capture functional property potentials. Recipe pages should capture realised functional states generated by preparation method and meal matrix.
+Dietary composition and food structure directly influence glucose appearance kinetics. Higher fibre intake reduces post-prandial glucose responses through delayed gastric emptying and attenuated glucose absorption → [Reynolds et al. (2019)](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909) [1]
 
-## 4. Dependencies
+Meal matrix effects, including intact grain structure, viscous fibre content, and macronutrient buffering, further modify the temporal profile of glucose appearance following meals.
 
-#### 4.1 KCs (Key Constraints)
+#### (Preparation state and resistant starch formation)
+
+Preparation methods may substantially alter carbohydrate accessibility. Cooking and cooling starch-rich foods can increase resistant starch formation, slowing carbohydrate digestion and reducing the rate of glucose appearance after feeding.
+
+The degree of food processing additionally influences glucose accessibility, with rapidly digestible refined carbohydrates generally producing faster glucose entry than intact or minimally processed food matrices.
+
+#### (Meal sequencing and preload effects)
+
+Meal sequencing strategies further demonstrate that glucose appearance kinetics can be modified prior to carbohydrate absorption. Preloading protein, fats, or dietary fibre before carbohydrates has been shown to increase GLP-1 secretion, delay gastric emptying, and attenuate the rate of post-prandial glucose appearance.
+
+[Kubota et al. (2020)](/docs/papers/BRAIN-Diet-References#kubota_2020_meal_sequence) reviewed evidence showing that protein and fat preloads before carbohydrate intake improved post-prandial glycaemic responses through coordinated effects on incretin signalling and absorption kinetics [2]
+
+Acetic acid exposure has also been shown to reduce post-prandial glycaemia and improve insulin sensitivity, further supporting the role of acute meal-level modifiers in regulating glucose appearance dynamics → [Johnston et al. (2004)](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010) [3]
+
+#### (Meal-level glucose entry regulation)
+
+Together, these findings establish BRS6(PM1) as an acute meal-level regulatory mechanism linking food structure, preparation state, digestion kinetics, and meal sequencing to the rate and temporal profile of glucose appearance following feeding.
+
+</details>
+
+## 4. Underlying Mechanisms and Requirements
+
+### 4.1 KCs (Key Constraints)
 - [BRS6(KC1) - Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
 
-#### 4.2 Co-factors
+### 4.2 Co-factors
 
 - magnesium
 - chromium
 - B vitamins
 
-Note: these co-factors are more directly relevant to glucose handling and disposal capacity in BRS6(PM2), but may support the wider BRS6 regulatory environment.
+Note: these co-factors may align more directly with post-prandial variability regulation (BRS6(PM2)) and glucose disposal capacity (BRS6(PM3)), but may also support the wider BRS6 regulatory environment.
 
-## 5. Dietary & Lifestyle Levers
+### 4.3 Cross-BRS Links
 
-### 5.1 Dietary Modulation
+- None listed
 
-PM1 is primarily influenced by food-state and meal-construction levers that alter glucose appearance kinetics.
+## 5. Dietary Levers
+
+<details>
+<summary><strong>Diet</strong></summary>
+
+PM1 is primarily influenced by food-state and meal-construction levers that alter **the rate and timing** of glucose appearance.
 
 - Viscous fibre and intact food matrices, such as oats, barley, legumes, and minimally processed grains, may slow gastric emptying and intestinal glucose absorption.
-- Resistant starch-generating preparations, such as cooked-and-cooled potatoes, rice, or pasta, may reduce rapid digestibility and support steadier glucose appearance.
-- Macronutrient buffering through protein, fibre, and fat co-ingestion may reduce rapid glucose appearance and attenuate meal-level volatility.
-- Acidic meal components, including vinegar or fermented acidic foods, may reduce post-prandial glucose response amplitude.
-- Lower ultra-processed carbohydrate load may reduce rapid digestibility, hyperpalatable overconsumption, and glycaemic volatility.
+- Resistant starch-generating preparations, such as cooked-and-cooled potatoes, rice, or pasta, may reduce rapid digestibility and slow glucose entry.
+- Macronutrient buffering through protein, fibre, and fat co-ingestion may moderate how quickly glucose appears after feeding.
+- Acidic meal components, including vinegar or fermented acidic foods, may blunt early post-prandial glucose appearance.
+- Lower ultra-processed carbohydrate load may reduce rapid digestibility and hyperpalatable overconsumption that drives fast glucose entry.
 
-Net effect: ↓ rapid glucose appearance; ↓ glycaemic variability; ↓ meal-level metabolic volatility.
+Net effect: ↓ excessively rapid glucose appearance; ↑ meal-appropriate temporal profile of glucose entry.
 
-### 5.2 Non-Dietary Modifiers
+</details>
 
-- Post-meal walking may reduce post-prandial excursion amplitude by increasing skeletal muscle glucose uptake.
-- Meal timing and circadian alignment may influence glucose tolerance and post-prandial responses.
-- Acute stress and poor sleep may increase glucose volatility through neuroendocrine effects, but these are broader BRS6 modifiers rather than primary PM1 food-state inputs.
+## 6. Lifestyle Levers
 
-## 6. Functional Outputs
+<details>
+<summary><strong>Lifestyle</strong></summary>
 
-- ↓ rapid glucose appearance
-- ↓ glycaemic variability
-- ↓ meal-level metabolic volatility
-- ↓ reactive glucose instability
-- ↑ steadier meal-derived energy availability
+- Post-meal walking increases peripheral glucose uptake and may alter the **shape** of the post-prandial glucose curve after glucose has appeared.
+- Meal timing and circadian alignment may influence glucose tolerance and the timing of post-prandial responses.
+- Acute stress and poor sleep may shift post-prandial glucose dynamics; these are broader BRS6 modifiers rather than primary PM1 food-state inputs.
 
-## 7. System Relationships
+</details>
 
-BRS6(PM1) interacts closely with:
+## 7. Scoreable Food-State Inputs
 
-- BRS4(FM1) — Cellular Bioenergetics  
-  Meal-level glucose variability influences cellular energy availability and metabolic efficiency, linking glycaemic stability to broader mitochondrial and bioenergetic regulation.
+This PM is primarily scoreable through food-state and preparation signals that influence the **rate and temporal profile** of glucose appearance after meals. Dedicated strategy pages will spell out scoring dynamics in more detail; here, **realised functional states** are the recipe-level encodings of the meal-structure and sequencing levers described in section 3 (matrix buffering, preload structure, meal order).
 
-- BRS3 — Inflammation & Oxidative Stress  
-  Repeated glycaemic volatility and rapid glucose fluctuations may increase oxidative stress signalling and inflammatory burden.
+<details>
+<summary><strong>Scoreable Input Categories</strong></summary>
 
-- BRS1 — Neurotransmitter Regulation  
-  Metabolic instability and reactive catecholamine demand may influence attentional regulation, arousal stability, and cognitive energy allocation.
+| Input Category | Example Inputs | PM1 Relevance |
+|---|---|---|
+| Functional Property Potentials | soluble_viscous_fibre; resistant_starch_potential; intact_food_matrix; low_gi_starch; acidic_meal_component; mixed_macronutrient_buffering | May slow or smooth glucose appearance kinetics. |
+| Realised Functional States | increased_resistant_starch; reduced_rapid_digestibility; acidic_glucose_modulation; mixed_macronutrient_buffering; protein_preload_structure; fat_preload_structure; meal_sequence_glucose_buffering | Represent realised recipe-level glucose appearance behaviour. |
+| Preparation Transformations | cooked_cooled; intact_structure_preserved; minimally_processed; no_high_heat_frying | Modify starch structure, digestion kinetics, and glucose entry rate. |
+| Antagonistic Signals | increased_rapid_digestibility; hyperpalatable_matrix; low_fibre_refined_carbohydrate_load | May increase rapid glucose appearance after feeding. |
 
-## 8. Key Insight
+</details>
 
-PM1 answers the question: "How does glucose appear after this meal?"
+Food pages should generally capture functional property potentials. Recipe pages should capture realised functional states generated by preparation method and meal matrix.
 
-It is the acute food-state control point connecting meal construction to glycaemic variability, metabolic volatility, and downstream neuroendocrine stress demand.
+## 8. References
 
-## 9. Functional Mechanism Ownership
-
-- BRS6(FM1)
-
-## 10. Intervention Dominance
-
-- Diet-Dominant
-
-## 11. Constraints and Failure Modes
-
-PM1 support may be weakened when meals are dominated by:
-
-- rapidly digestible refined carbohydrates
-- low-fibre starch structures
-- highly processed carbohydrate matrices
-- hyperpalatable food combinations
-- large unbuffered glycaemic loads
-- preparation methods that increase rapid digestibility
-- late-night timing in circadian-misaligned contexts
-
-PM1 support should not be interpreted as a guarantee of individual glucose response because meal effects vary by insulin sensitivity, microbiome, sleep, stress state, physical activity, medication use, portion size, and prior meal context.
-
-## 12. Scoring Interpretation
-
-Low PM1 support: meals dominated by rapidly digestible, low-fibre, highly processed carbohydrate structures, especially where preparation increases rapid glucose appearance or hyperpalatable volatility.
-
-High PM1 support: meals combining intact food structure, viscous fibre, resistant starch-generating preparation, acidic meal components, and protein/fat/fibre buffering to support slower glucose appearance and reduced glycaemic variability.
-
-BRS6(PM1) scoring should prioritise realised recipe-level functional states over generic food-level potentials where preparation method is known.
-
-## 13. Notes
-
-- Evidence Type: Human + mechanistic
-- Evidence Notes: Core diet-dominant PM linking meal construction, food-state properties, and preparation method to glycaemic variability and metabolic stability. This PM supports BRS6(FM1) without reducing glucose to a simple "fuel" concept or treating glycaemic stability as only a diabetes-related concern.
-
-## 14. Mechanism Summary Table
-
-| Field | Value |
-|---|---|
-| PM ID | `BRS6(PM1)` |
-| PM Name | `Glycaemic Variability & Absorption Kinetics` |
-| FM Ownership | `BRS6(FM1)` |
-| Dose Target / Requirement | `Lower glycaemic volatility through intact food structure, fibre/protein/fat buffering, acidic meal components, and preparation-aware starch handling` |
-| Coverage Timing | `Meal` |
-| Response Type | `Immediate–Hours` |
-| Functional Latency | `Same meal` |
-
-## 15. References
-
-1. [Monnier et al. (2006)](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)
-2. [Reynolds et al. (2019)](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)
+1. [Reynolds et al. (2019)](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)
+2. [Kubota et al. (2020)](/docs/papers/BRAIN-Diet-References#kubota_2020_meal_sequence)
 3. [Johnston et al. (2004)](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)
-4. [Mikus et al. (2012)](/docs/papers/BRAIN-Diet-References#mikus_2012_22311420)
-
-## 16. Missing Entities
-
-- None flagged from this row-level pass
