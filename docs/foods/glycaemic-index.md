@@ -20,7 +20,7 @@ legacy_main_image: /img/icons/ingredients.svg
 
 Glycaemic Index (GI) is a carbohydrate quality framework that ranks carbohydrate-containing foods by how quickly they raise blood glucose relative to a glucose reference. In practice, lower-GI choices are generally digested and absorbed more slowly, while higher-GI choices tend to produce faster glucose appearance and larger post-meal excursions [1,2].
 
-Within the BRAIN Diet ontology, GI is not used as a stand-alone health score. It is interpreted alongside glycaemic load (GL), food matrix, fibre, processing level, and meal composition to support `BRS6(FM1) - Glycaemic–Insulin Stability & Cognitive Energy Availability` and `BRS6(PM1) - Glycaemic Variability & Absorption Kinetics` as meal-level, hypothesis-generating mechanisms rather than deterministic clinical predictions [2,3,4].
+Within the BRAIN Diet ontology, GI is not used as a stand-alone health score. It is interpreted alongside glycaemic load (GL), food matrix, fibre, processing level, and meal composition to support `BRS6(FM1) - Glycaemic–Insulin Stability & Cognitive Energy Availability` and `BRS6(PM1) - Glucose Appearance Kinetics` as meal-level, hypothesis-generating mechanisms rather than deterministic clinical predictions [2,3,4].
 
 ## Key Nutritional Highlights
 
@@ -62,4 +62,4 @@ Within the BRAIN Diet ontology, GI is not used as a stand-alone health score. It
 
 [3] Practical GI/GL framing and limitations for mixed meals and serving context [Healthline Low GI Guide](https://www.healthline.com/nutrition/low-glycemic-diet#the-glycemic-load-gl)
 
-[4] `BRS6(PM1)` canonical mechanism page for meal-level glucose appearance kinetics and variability [BRS6(PM1) - Glycaemic Variability & Absorption Kinetics](/docs/biological-targets/brs6/pm/brs6-pm1-glycaemic-variability-absorption-kinetics)
+[4] `BRS6(PM1)` canonical mechanism page for meal-level glucose appearance kinetics [BRS6(PM1) - Glucose Appearance Kinetics](/docs/biological-targets/brs6/pm/brs6-pm1-glycaemic-variability-absorption-kinetics)

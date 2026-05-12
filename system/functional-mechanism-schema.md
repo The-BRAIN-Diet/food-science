@@ -46,24 +46,27 @@ references:
 hide_title: boolean
 ```
 
-## Canonical Body Sections (Structured Content Contract)
+## Canonical Body Sections (Authoring / Ingestion Superset)
+
+The YAML shape below supports spreadsheets, tooling, and future sections. **Published FM MDX** follows **Section Order (Page Rendering Contract)**; many keys below are not rendered as body sections on the current BRS6 FM pages (see **MDX body vs YAML**).
 
 ```yaml
 definition: string
 functional_role: string
+mechanistic_basis_implementation_of_pms: string
 underlying_mechanisms_and_requirements:
-  pms:                               # render heading: "PMs (Primary Mechanisms)"
+  pms:                               # render: ### 4.1 PMs (Primary Mechanisms)
     - id: string
       name: string
       href: string
-  kcs:                               # render heading: "KCs (Key Constraints)"
+  kcs:                               # render: ### 4.2 KCs (Key Constraints)
     - id: string
       name: string
       type: "substrate" | "precursor"
       href: string
-  optional_brsx_modifiers:
+  optional_brsx_modifiers:           # optional; render as ### 4.4 only if used
     - string
-  cross_brs_links:
+  cross_brs_links:                   # render: ### 4.3 Cross-BRS Links
     - id: string
       name: string
 dietary_levers:
@@ -76,7 +79,7 @@ scoreable_food_state_inputs:
       example_inputs: [string]
       functional_relevance: string
   interpretation_note: string
-recipe_translation_scoring_logic:
+recipe_translation_scoring_logic:    # tooling / narrative artefacts; not a public body section in current contract
   intro: string
   recipe_characteristics:
     - characteristic: string
@@ -84,7 +87,6 @@ recipe_translation_scoring_logic:
   prioritisation_rule: string
 functional_consequences:
   - string
-practical_interpretation: string
 cross_system_links:
   - id: string
     name: string
@@ -112,23 +114,36 @@ missing_entities:
 
 ## Section Order (Page Rendering Contract)
 
-1. Title
-2. `## 1. Definition`
-3. `## 2. Functional Role`
-4. `## 3. Underlying Mechanisms and Requirements`
-5. `## 4. Dietary Levers`
-6. `## 5. Lifestyle Levers`
-7. `## 6. Scoreable Food-State Inputs`
-8. `## 7. Recipe Translation & Scoring Logic`
-9. `## 8. Functional Consequences`
-10. `## 9. Practical Interpretation`
-11. `## 10. Cross-System Links`
-12. `## 11. Mechanism Summary Table`
-13. `## 12. Scoring Interpretation`
-14. `## 13. Interpretation Boundary`
-15. `## 14. Evidence Base`
-16. `## 15. References`
-17. `## 16. Missing Entities` (only when needed)
+First line of the MDX body (after front matter) must be the FM title: `## <FM_ID> - <FM name>` (same heading level as `## 1. Definition`; use a hyphen/spaces as on live pages; do not use `#` or `###` for this line).
+
+### Canonical public body (BRS6 FM1)
+
+Numbered sections must stay contiguous (renumber if §7 Scoreable is omitted).
+
+1. **Definition** — `## 1. Definition`
+2. **Functional Role** — `## 2. Functional Role` (short directional arrow line or equivalent)
+3. **Mechanistic Basis (Implementation of PMs)** — `## 3. Mechanistic Basis (Implementation of PMs)` — prose explaining how covered PMs jointly implement the FM (no requirement for PM-style Summary + `<details>` unless you intentionally add it)
+4. **Underlying Mechanisms and Requirements** — `## 4. Underlying Mechanisms and Requirements`
+   - `### 4.1 PMs (Primary Mechanisms)` — linked list to PM pages
+   - `### 4.2 KCs (Key Constraints)` — linked list to KC pages
+   - `### 4.3 Cross-BRS Links`
+   - Optional extra subsection (e.g. optional BRSX modifiers) only when used; keep numbering contiguous after 4.3
+5. **Dietary Levers** — `## 5. Dietary Levers` — body inside `<details><summary><strong>Diet</strong></summary>…`
+6. **Lifestyle Levers** — `## 6. Lifestyle Levers` — body inside `<details><summary><strong>Lifestyle</strong></summary>…`
+7. **Scoreable Food-State Inputs** — `## 7. Scoreable Food-State Inputs` — short intro framing ontology use; table (or list) inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…` — **omit the entire section** when this FM does not carry scoreable rows (then **References** becomes `## 7. References`)
+8. **References** — numbered list with bibliography links
+
+### Excluded from the public FM body (current contract)
+
+Do not add body sections after **References**. The following are **not** part of the trimmed FM narrative on BRS6(FM1): Recipe Translation & Scoring Logic, standalone Functional Consequences / Outputs, standalone Cross-System Links (cross-BRS belongs under §4.3), Mechanism Summary Table, Scoring Interpretation, Interpretation Boundary, Evidence Base, Missing Entities. Those may exist in YAML, spreadsheets, or other artefacts.
+
+### MDX body vs YAML
+
+Keys such as `recipe_translation_scoring_logic`, `mechanism_summary`, `interpretation_boundary`, and `evidence_base` remain valid for ingestion and downstream tools; they do **not** imply corresponding headings in the published MDX unless you explicitly extend this contract again.
+
+### Legacy note
+
+Some BRS6 FM pages (e.g. FM2–FM4) may still use an older outline (`Interventions`, `Outputs / Functional Effects`, separate `Cross-System Links`). New edits should converge **toward the FM1 pattern** above for consistency with PM pages and Diet/Lifestyle `<details>` usage.
 
 ## Validation Rules
 
@@ -137,28 +152,29 @@ missing_entities:
 - `mechanisms_covered` and `key_constraints` must use ID+name+href.
 - FM body section headings must be explicitly numbered to match PM-style rendering consistency.
 - `Dietary Levers` and `Lifestyle Levers` must be separate top-level sections (must not be merged).
-- `Dietary Levers` must appear immediately after `3. Underlying Mechanisms and Requirements`.
+- `Dietary Levers` must appear immediately after `## 4. Underlying Mechanisms and Requirements`.
 - `Dietary Levers` and `Lifestyle Levers` content blocks should be wrapped in collapsible `<details>` menus for readability.
 - FM page body must render PM and KC entries as hyperlinks to their corresponding PM/KC pages.
-- Under `## 3. Underlying Mechanisms and Requirements`, subsection labels must be:
-  - `PMs (Primary Mechanisms)`
-  - `KCs (Key Constraints)`
-- PM1 naming for BRS6(FM1) must be `Glycaemic Variability & Absorption Kinetics` (not legacy `Glycaemic Excursion Control`).
+- Under `## 4. Underlying Mechanisms and Requirements`, subsection labels must be:
+  - `4.1 PMs (Primary Mechanisms)`
+  - `4.2 KCs (Key Constraints)`
+  - `4.3 Cross-BRS Links`
+- PM1 naming for BRS6(FM1) must be `Glucose Appearance Kinetics` (not legacy `Glycaemic Excursion Control` or `Glycaemic Variability & Absorption Kinetics`).
 - KC entries must be only `substrate` or `precursor` (never active mechanism labels).
-- `Scoreable Food-State Inputs` must include all four categories: Functional Property Potentials, Realised Functional States, Substance / Nutrient Signals, Preparation Transformations.
-- Every claim in Dietary/Lifestyle, Recipe Translation, Functional Consequences, and Practical Interpretation must be framed as mechanistic interpretation language (`may`, `supports`, `associated with`) unless evidence supports stronger wording.
-- `scoring_interpretation` must not include formulas, equations, or numeric scoring logic.
+- When `## 7. Scoreable Food-State Inputs` is present, its table must include all four categories: Functional Property Potentials, Realised Functional States, Substance / Nutrient Signals, Preparation Transformations.
+- Claims in Dietary Levers, Lifestyle Levers, Scoreable intro text, and Mechanistic Basis must stay mechanistic / interpretive (`may`, `supports`, `associated with`) unless evidence supports stronger wording.
+- Where `scoring_interpretation` or similar content exists in YAML or tooling, it must not include formulas, equations, or numeric scoring logic.
 - Do not expose raw scoring code or internal scoring implementation details in FM pages.
 - Do not display PM/FM code references in recipe-facing examples beyond mechanism-page context.
-- `interpretation_boundary` section is mandatory and must clarify educational/mechanistic scope vs clinical prediction.
 - References must all resolve to `static/bibtex/BRAIN-diet.bib` citation keys.
 - Every referenced bibliography entry must include a DOI or source URL so the citation can resolve through the bibliography page to the original source.
-- No uncited research claims in `evidence_base` or intervention rationale text.
+- When an **Evidence Base** (or equivalent) block exists in non-page artefacts, avoid uncited research claims there; the public FM MDX body does not require a separate Evidence Base section under the current contract.
 
-## Dose Rules (Mechanism Summary)
+## Dose Rules (when summary or dose metadata exists)
 
 - Dose ranges are functional anchors, not prescriptions.
 - Prefer diet-first physiological ranges.
 - Avoid supplement-level dose framing unless explicitly justified in evidence.
 - Always contextualize dose with bioavailability where relevant.
+- The trimmed FM page body does not include a Mechanism Summary Table; keep dose-adjacent fields in front matter or ingestion metadata unless the contract is extended.
 

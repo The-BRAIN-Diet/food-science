@@ -10,12 +10,12 @@ alwaysApply: false
 - In the front matter, list_image: (image file for recipe)
 - Tag with the main biological target tags.
 
-## Meal Category Tagging for Drinks
+## Meal category tagging (Drinks and Snacks)
 
-- **Drinks in the Drinks/ folder**: Tag with "Drinks" only. Do not add "Dinner", "Lunch", or other meal tags, so they appear only on the Drinks page and not on meal-specific pages (e.g. Dinner).
+- **Drinks in the `Drinks/` folder**: Tag with "Drinks" only. Do not add "Dinner", "Lunch", or other meal tags, so they appear only on the Drinks page and not on meal-specific pages (e.g. Dinner).
 - **Meal-specific drinks** (e.g. breakfast smoothies): Place in the meal category folder (`Breakfast/`, `Lunch/`, etc.) with both the meal category tag AND "Drinks" tag.
 - **General drinks** (e.g. Sourdough Soda, Turmeric Milk): Keep in `Drinks/` folder with only the "Drinks" tag.
-- **Future category**: Drinks will eventually be added as a new category under foods, but recipes should remain organized by meal category when applicable.
+- **Snacks in the `Snacks/` folder**: Tag with "Snacks" (and "Recipe"). They are listed from the Foods index and the `Snacks` recipes category page; do not use "Drinks" for snack-format recipes moved out of `Drinks/`.
 
 The Format of the page should have this structure:
 

@@ -17,25 +17,11 @@ Follow:
 system/functional-mechanism-schema.md
 
 Structure:
-- All sections must be present in the exact order defined in the schema
-- FM section headings must be explicitly numbered (`## 1. ...`, `## 2. ...`) for PM/FM consistency
-- Section contract must include:
-  - Definition
-  - Functional Role
-  - Underlying Mechanisms and Requirements
-  - Dietary Levers
-  - Lifestyle Levers
-  - Scoreable Food-State Inputs
-  - Recipe Translation & Scoring Logic
-  - Functional Consequences
-  - Practical Interpretation
-  - Cross-System Links
-  - Mechanism Summary Table
-  - Scoring Interpretation
-  - Interpretation Boundary
-  - Evidence Base
-  - References
-  - Missing Entities (only when needed)
+- Follow `system/functional-mechanism-schema.md` **Section Order (Page Rendering Contract)** — canonical on-page outline matches **BRS6(FM1)**: Definition → Functional Role → Mechanistic Basis (Implementation of PMs) → Underlying (4.1 PMs, 4.2 KCs, 4.3 Cross-BRS) → Dietary Levers → Lifestyle Levers → Scoreable Food-State Inputs (omit when not used; renumber References) → References. No body sections after References.
+- The in-body mechanism title line (e.g. `BRS6(FM1) - …`) must use markdown `##` so it matches numbered section headings; do not use `#` or `###` for that line.
+- FM section headings must be explicitly numbered (`## 1. ...`, `## 2. ...`) for PM/FM consistency.
+- **Dietary Levers** and **Lifestyle Levers** are separate top-level numbered sections (not a combined `Interventions` section); wrap bodies in `<details>` with `<summary><strong>Diet</strong></summary>` and `<summary><strong>Lifestyle</strong></summary>` as on FM1.
+- Do not add Recipe Translation, Mechanism Summary Table, Scoring Interpretation, Interpretation Boundary, Evidence Base, Missing Entities, or standalone Cross-System / Outputs sections to the public FM MDX body under the current contract (those may live in YAML or tooling).
 
 Field interpretation:
 - Front matter must use schema field names (`title`, `fm_id`, `parent_brs`, `summary`, `mechanisms_covered`, `key_constraints`, `intervention_dominance`, `coverage_timing`, `references`)
@@ -43,26 +29,20 @@ Field interpretation:
   - PMs (Primary Mechanisms) that define the FM
   - KCs (Key Constraints) (substrate/precursor requirements)
   - Cross-BRS links
-- Under `3. Underlying Mechanisms and Requirements`, render subsection labels exactly as:
-  - `PMs (Primary Mechanisms)`
-  - `KCs (Key Constraints)`
+- Under `4. Underlying Mechanisms and Requirements`, render subsection labels exactly as:
+  - `4.1 PMs (Primary Mechanisms)`
+  - `4.2 KCs (Key Constraints)`
+  - `4.3 Cross-BRS Links`
 - Must not use underlying mechanisms and requirements as a dependency graph
 - For BRS6(FM1), PM1 naming must be:
-  - Glycaemic Variability & Absorption Kinetics
+  - Glucose Appearance Kinetics
   - (not legacy Glycaemic Excursion Control)
 
 Scoreable input rules:
-- Dietary and Lifestyle rules:
-  - `Dietary Levers` and `Lifestyle Levers` must be separate top-level sections
-  - `Dietary Levers` must appear immediately after `3. Underlying Mechanisms and Requirements`
-  - Diet and Lifestyle content should be wrapped in collapsible `<details>` menus for readability
-- Scoreable Food-State Inputs must include all four categories:
-  - Functional Property Potentials
-  - Realised Functional States
-  - Substance / Nutrient Signals
-  - Preparation Transformations
-- Recipe Translation & Scoring Logic must stay narrative and mechanism-facing
-- Do not expose raw scoring code
+- `Dietary Levers` must appear immediately after `## 4. Underlying Mechanisms and Requirements`.
+- Diet and Lifestyle content should be wrapped in collapsible `<details>` menus for readability.
+- When **Scoreable Food-State Inputs** is present, the table must include all four categories: Functional Property Potentials; Realised Functional States; Substance / Nutrient Signals; Preparation Transformations.
+- Do not expose raw scoring code on the FM page.
 
 Diet rules:
 - Foods must be derived from:
@@ -77,7 +57,7 @@ Constraints:
 - Must not expose raw scoring code
 - Must not include SMs during initial rollout
 - Must not model one FM as structurally dependent on another
-- Must include Interpretation Boundary language clarifying mechanistic/educational scope and non-predictive clinical scope
+- Use mechanistic, non-prescriptive framing in narrative; a dedicated **Interpretation Boundary** heading is not required on the trimmed FM body (boundary language may appear in Scoreable intro or elsewhere as needed).
 - Must not display PM/FM codes in recipe-facing examples beyond mechanism-page context
 
 References:

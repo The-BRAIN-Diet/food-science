@@ -532,9 +532,9 @@ preparation_effects:
 
 Begin with BRS6 only to avoid scope explosion.
 
-### 6.1 BRS6(PM1): Glycaemic Variability & Absorption Kinetics
+### 6.1 BRS6(PM1): Glucose Appearance Kinetics
 
-PM1 should listen for properties affecting substrate appearance rate, digestion kinetics, meal structure, and glucose volatility.
+PM1 should listen for properties affecting the **rate and temporal profile** of glucose appearance after meals—gastric emptying, digestion kinetics, meal matrix, preparation state, and sequencing—distinct from PM2 oscillatory variability and PM3 disposal.
 
 Initial property IDs:
 - soluble_viscous_fibre
@@ -546,26 +546,27 @@ Initial property IDs:
 - protein_buffering
 - fat_buffering
 - mixed_macronutrient_buffering
-- low_ultra_processed
+- reduced_upf_metabolic_load
 - high_glycaemic_volatility_potential
 - rapid_digestibility
 - hyperpalatable_matrix
 
-### 6.2 BRS6(PM2): Insulin Sensitivity & Glucose Disposal Capacity
+### 6.2 BRS6(PM2): Glycaemic Variability Regulation
 
-PM2 should listen for properties affecting glucose disposal, insulin responsiveness, skeletal muscle uptake, inflammatory burden, and metabolic flexibility.
+PM2 should listen for properties affecting post-prandial glucose **volatility**, oscillatory exposure, spike-and-crash cycling, and meal-period stability—distinct from PM1 appearance kinetics alone and from PM3 disposal/sensitivity.
 
 Initial property IDs:
-- magnesium_source
-- polyphenol_rich
-- omega3_source
-- low_ultra_processed
-- high_fibre_pattern_supportive
-- fermented_food
-- low_energy_density
-- satiety_supportive
-- lipid_oxidation_prone
-- AGE_generation_potential
+- reduced_glycaemic_volatility
+- increased_glycaemic_volatility
+- mixed_macronutrient_buffering
+- soluble_viscous_fibre
+- reduced_upf_metabolic_load
+- hyperpalatable_matrix
+- rapid_digestibility
+- high_glycaemic_volatility_potential
+- stable_post_prandial_profile
+
+Prefer `reduced_upf_metabolic_load` in registry and public-facing ontology text; avoid abstract `*_signal` suffixes on property IDs.
 
 ## 7. Example Registry Entries
 
@@ -806,7 +807,7 @@ Each Functional Property should include:
 
 Update the food page schema to allow a `functional_properties` front matter field. Food pages should only list property IDs, confidence, notes, and whether the property is preparation-dependent. They should not manually define BRS links.
 
-Begin with BRS6 only. Add initial properties for BRS6(PM1) Glycaemic Variability & Absorption Kinetics and BRS6(PM2) Insulin Sensitivity & Glucose Disposal Capacity.
+Begin with BRS6 only. Add initial properties for BRS6(PM1) Glucose Appearance Kinetics, BRS6(PM2) Glycaemic Variability Regulation, and BRS6(PM3) insulin sensitivity / disposal narratives as needed.
 
 Ensure resistant starch is modelled as a functional property, not a fixed substance. Potatoes should have `resistant_starch_potential` as a preparation-dependent property, especially relevant to cooked-and-cooled states.
 
@@ -828,8 +829,9 @@ Example:
 
 BRS6 - Metabolic & Neuroendocrine Stress  
 FM1 - Metabolic Stability & Cognitive Energy Availability  
-PM1 - Glycaemic Variability & Absorption Kinetics  
-PM2 - Insulin Sensitivity & Glucose Disposal Capacity
+PM1 - Glucose Appearance Kinetics  
+PM2 - Glycaemic Variability Regulation  
+PM3 - Insulin Sensitivity & Glucose Disposal (extended mechanistic page)
 
 ### 12.2 Functional Properties Are Internal, But Their Meaning Should Be Publicly Translated
 

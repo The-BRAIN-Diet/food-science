@@ -35,6 +35,6 @@ L-DOPA (levodopa) is a direct precursor to dopamine that bypasses the rate-limit
 
 ## References
 
-- The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: mucuna beans for natural L-DOPA [Gasmi et al. 2022](/docs/papers/BRAIN-Diet-References#gasmi_biomedical_2022)
+- The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: mucuna beans for natural L-DOPA [Gasmi et al. 2022](/docs/papers/BRAIN-Diet-References#gasmi_neurotransmitters_2022)
 - L-DOPA is a direct precursor to dopamine that bypasses the rate-limiting tyrosine hydroxylase step
 - Supports dopamine synthesis pathways critical for attention, motivation, and executive function

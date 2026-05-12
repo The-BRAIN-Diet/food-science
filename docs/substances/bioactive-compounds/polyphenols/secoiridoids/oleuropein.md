@@ -35,7 +35,7 @@ inchi_image: /img/inchi/RFWGABANNQMHMZ-ZCHJGGQASA-N.png
 
 ## References
 
-- Early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein and polyphenols [Gasmi et al. 2022](/docs/papers/BRAIN-Diet-References#gasmi_biomedical_2022)
+- Early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein and polyphenols [Gasmi et al. 2022](/docs/papers/BRAIN-Diet-References#gasmi_neurotransmitters_2022)
 - Olive oil phenolic compounds, particularly oleuropein and hydroxytyrosol, support mitochondrial function, autophagy, and neuroprotective effects through modulation of mitochondrial dynamics and antioxidant pathways
 - Early harvest oils have higher bioactive content (CoQ10, oleuropein, polyphenols)
 - The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein and polyphenols

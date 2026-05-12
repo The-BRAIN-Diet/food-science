@@ -5,7 +5,7 @@ sidebar_label: Neuroeshot
 description: A small savory shot of roe, lemon juice, and fermented hot sauce for concentrated omega-3s and choline.
 tags:
   - Recipe
-  - Drinks
+  - Snacks
   - Salmon Roe
   - Lemon
   - Fermented Hot Sauce

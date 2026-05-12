@@ -2,103 +2,92 @@
 title: "<INSERT_FM_TITLE>"
 fm_id: "<INSERT_FM_ID>"
 parent_brs: "<INSERT_PARENT_BRS_ID>"
-summary: "<INSERT_FM_SUMMARY_UP_TO_120_WORDS>"
+summary: "<INSERT_FM_SUMMARY_ONE_LINE>"
 mechanisms_covered:
-  - id: "<INSERT_PM_ID_FROM_COLUMN_C>"
-    name: "<INSERT_PM_NAME_FROM_COLUMN_C>"
+  - id: "<INSERT_PM_ID>"
+    name: "<INSERT_PM_NAME>"
     href: "/docs/biological-targets/<brs-slug>/pm/<pm-slug>"
 key_constraints:
   - id: "<INSERT_KC_ID>"
     name: "<INSERT_KC_NAME>"
-    type: "substrate" # or "precursor" from spreadsheet
+    type: "substrate"
     href: "/docs/biological-targets/<brs-slug>/kc/<kc-slug>"
-intervention_dominance: "<diet-dominant|lifestyle-dominant|mixed>" # from intervention dominance
+intervention_dominance: "<Diet-Dominant|Lifestyle-Dominant|mixed>"
+coverage_timing: "<INSERT_COVERAGE_TIMING>"
 references:
-  - index: 1
-    label: "<PLACEHOLDER_REFERENCE_LABEL>"
-    citation_key: "<placeholder_citation_key_1>"
-    href: "/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>"
+  - "[1] [Author (YYYY)](/docs/papers/BRAIN-Diet-References#citation_key_1)"
+hide_title: true
 ---
 
-# <INSERT_FM_ID> — <INSERT_FM_TITLE>
+<!--
+  Public body follows BRS6(FM1) pattern in system/functional-mechanism-schema.md.
+  Omit entire ## 7. Scoreable Food-State Inputs when not used; renumber ## 8. References to ## 7.
+-->
 
-## Name and Overview
+## <INSERT_FM_ID> - <INSERT_FM_TITLE>
 
-<!-- Spreadsheet-derived FM name/summary. Keep concise. -->
-<INSERT_OVERVIEW_TEXT>
+## 1. Definition
 
-## Functional Role
+<INSERT_DEFINITION_TEXT>
 
-<INSERT_FUNCTIONAL_ROLE_TEXT>
+## 2. Functional Role
 
-## Underlying Mechanisms and Requirements
+<INSERT_DIRECTIONAL_ARROW_LINE>
 
-<!-- PMs, KCs (substrate/precursor), optional cross-BRS links. -->
-### PMs
-- [<INSERT_PM_ID> — <INSERT_PM_NAME>](/docs/biological-targets/<brs-slug>/pm/<pm-slug>)
+## 3. Mechanistic Basis (Implementation of PMs)
 
-### KCs
-- [<INSERT_KC_ID> — <INSERT_KC_NAME>](/docs/biological-targets/<brs-slug>/kc/<kc-slug>) (<substrate|precursor>)
+<INSERT_HOW_PMS_JOINTLY_IMPLEMENT_FM>
 
-### Cross-BRS Links
-- <INSERT_BRS_LINK_ID> — <INSERT_BRS_LINK_NAME>
+## 4. Underlying Mechanisms and Requirements
 
-## Interventions
+### 4.1 PMs (Primary Mechanisms)
 
-### Diet
+- [<INSERT_PM_ID> - <INSERT_PM_NAME>](/docs/biological-targets/<brs-slug>/pm/<pm-slug>)
 
-<!-- Derive from KCs and PM-linked substances only. -->
-- <INSERT_DIET_RULE_PLACEHOLDER> [1]
+### 4.2 KCs (Key Constraints)
 
-### Lifestyle
+- [<INSERT_KC_ID> - <INSERT_KC_NAME>](/docs/biological-targets/<brs-slug>/kc/<kc-slug>)
 
-<!-- Reflect intervention dominance from intervention dominance. -->
-- <INSERT_LIFESTYLE_RULE_PLACEHOLDER> [2]
+### 4.3 Cross-BRS Links
 
-## Outputs / Functional Effects
+- <INSERT_CROSS_BRS_LINK_LINE>
 
-- <INSERT_SYSTEM_LEVEL_OUTPUT>
+## 5. Dietary Levers
 
-## Practical Interpretation
+<details>
+<summary><strong>Diet</strong></summary>
 
-- <INSERT_MEAL_DESIGN_IMPLICATION>
+<INSERT_DIETARY_LEVER_BULLETS_OR_PROSE>
 
-## Cross-System Links
+</details>
 
-- <INSERT_CROSS_SYSTEM_LINK>
+## 6. Lifestyle Levers
 
-## Mechanism Summary Table
+<details>
+<summary><strong>Lifestyle</strong></summary>
 
-| Field | Value |
-|---|---|
-| BRS | `<INSERT_PARENT_BRS_ID_AND_NAME>` |
-| FM Ownership | `<INSERT_FM_ID_AND_NAME>` |
-| Mechanism Type | `<INSERT_MECHANISM_TYPE>` |
-| Key Substrates (KCs) | `<INSERT_KC_LIST>` |
-| Cofactors | `<INSERT_COFACTOR_LIST>` |
-| Primary Substances | `<INSERT_PRIMARY_SUBSTANCE_LIST>` |
-| Effective Dose Range | `<INSERT_LOW_EFFECTIVE_HIGH_RANGE>` |
-| Dose Sensitivity | `<low|moderate|high|context-dependent>` |
-| Bioavailability Notes | `<INSERT_BIOAVAILABILITY_NOTES>` |
-| Limiting Factors | `<INSERT_LIMITING_FACTORS>` |
+<INSERT_LIFESTYLE_LEVER_BULLETS_OR_PROSE>
 
-## Scoring Interpretation
+</details>
 
-<!-- Interpret low/high support only. Do not add formulas. -->
-- Low support: <INSERT_LOW_SUPPORT_INTERPRETATION>
-- High support: <INSERT_HIGH_SUPPORT_INTERPRETATION>
+## 7. Scoreable Food-State Inputs
 
-## Evidence Base
+<!-- Delete this entire section (and renumber References) when this FM has no scoreable table. -->
 
-<INSERT_EVIDENCE_BASE_TEXT_WITH_PLACEHOLDER_CITATIONS> [1,2]
+<INSERT_SCOREABLE_INTRO_PARAGRAPHS>
 
-## References
+<details>
+<summary><strong>Scoreable Input Categories</strong></summary>
 
-<!-- Placeholder citations only. Replace with validated bibliography keys. -->
-1. [Placeholder reference 1](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>)
-2. [Placeholder reference 2](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_2>)
+| Input Category | Example Inputs | Functional Relevance |
+|---|---|---|
+| Functional Property Potentials | … | … |
+| Realised Functional States | … | … |
+| Substance / Nutrient Signals | … | … |
+| Preparation Transformations | … | … |
 
-## Missing Entities
+</details>
 
-<!-- Include only if required by spreadsheet mapping. -->
-- Missing system entity: <INSERT_FOOD_OR_SUBSTANCE_NAME>
+## 8. References
+
+1. [Author et al. (YYYY)](/docs/papers/BRAIN-Diet-References#citation_key_1)

@@ -17,6 +17,7 @@ Printable shopping list: see the [Foods Shopping List](/docs/foods/shopping-list
 - [Lunch](/docs/recipes/Lunch)
 - [Dinner](/docs/recipes/Dinner)
 - [Side Dishes](/docs/recipes/Side-dishes)
+- [Snacks](/docs/recipes/Snacks)
 - [Drinks](/docs/recipes/Drinks)
 
 <TagList tag="Recipe" filter="recipes" />

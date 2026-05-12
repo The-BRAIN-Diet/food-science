@@ -78,4 +78,4 @@ Mucuna Beans are rich in lysine but relatively low in sulfur-containing amino ac
 
 ## References
 
-- The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein and polyphenols, grass-fed liver for bioavailable retinol and B12, mucuna beans for natural LDOPA [Gasmi et al. 2022](/docs/papers/BRAIN-Diet-References#gasmi_biomedical_2022)
+- The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein and polyphenols, grass-fed liver for bioavailable retinol and B12, mucuna beans for natural LDOPA [Gasmi et al. 2022](/docs/papers/BRAIN-Diet-References#gasmi_neurotransmitters_2022)

@@ -4,12 +4,12 @@ fm_id: "BRS6(FM2)"
 parent_brs: "BRS6"
 summary: "Functional control of cortisol rhythm, circadian timing, and stress-hormone regulation across waking, feeding, and recovery cycles."
 mechanisms_covered:
-  - id: "BRS6(PM3)"
-    name: "Cortisol Rhythm Regulation"
-    href: "/docs/biological-targets/brs6/pm/brs6-pm3-cortisol-rhythm-regulation"
   - id: "BRS6(PM4)"
+    name: "Cortisol Rhythm Regulation"
+    href: "/docs/biological-targets/brs6/pm/brs6-pm4-cortisol-rhythm-regulation"
+  - id: "BRS6(PM5)"
     name: "Circadian Feeding & Light–Dark Entrainment"
-    href: "/docs/biological-targets/brs6/pm/brs6-pm4-circadian-feeding-and-light-dark-entrainment"
+    href: "/docs/biological-targets/brs6/pm/brs6-pm5-circadian-feeding-and-light-dark-entrainment"
 key_constraints:
   - id: "BRS6(KC1)"
     name: "Glucose / Energy Substrate Availability"
@@ -28,77 +28,55 @@ references:
 hide_title: true
 ---
 
-### BRS6(FM2) - HPA Axis Rhythm & Cortisol Regulation
+## BRS6(FM2) - HPA Axis Rhythm & Cortisol Regulation
+
+## 1. Definition
 
 Functional control of cortisol rhythm, circadian timing, and stress-hormone regulation across waking, feeding, and recovery cycles.
 
-### Functional Role
+## 2. Functional Role
 
 ↑ cortisol rhythm stability; ↑ morning activation; ↓ evening stress-hormone drift
 
-### Underlying Mechanisms and Requirements
+## 3. Mechanistic Basis (Implementation of PMs)
 
-#### PMs (Primary Mechanisms)
-- [BRS6(PM3) - Cortisol Rhythm Regulation](/docs/biological-targets/brs6/pm/brs6-pm3-cortisol-rhythm-regulation)
-- [BRS6(PM4) - Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/pm/brs6-pm4-circadian-feeding-and-light-dark-entrainment)
+BRS6(FM2) is implemented through BRS6(PM4) and BRS6(PM5): PM4 anchors cortisol rhythm regulation, while PM5 anchors feeding-time and light-dark entrainment effects on circadian metabolic signaling. Together these PMs translate timing behaviors into more stable stress-hormone amplitude and phase alignment across the day.
 
-#### KCs (Key Constraints)
+## 4. Underlying Mechanisms and Requirements
+
+### PMs (Primary Mechanisms)
+- [BRS6(PM4) - Cortisol Rhythm Regulation](/docs/biological-targets/brs6/pm/brs6-pm4-cortisol-rhythm-regulation)
+- [BRS6(PM5) - Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/pm/brs6-pm5-circadian-feeding-and-light-dark-entrainment)
+
+### KCs (Key Constraints)
 - [BRS6(KC1) - Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
 - [BRS6(KC2) - Stress-Response Micronutrient Sufficiency](/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency)
 
-#### Cross-BRS Links
+### Cross-BRS Links
 - BRS1(PM1) — Dopaminergic Signalling
 - BRS4(FM1) — Cellular Bioenergetics
 
-### Interventions
+## 5. Interventions
 
-#### Diet
+### Diet
 
 regular protein-rich breakfast → morning energy/catecholamine support; consistent meal timing with early-day energy loading → circadian metabolic entrainment; reduced late-night eating → lower circadian misalignment pressure
 
-#### Lifestyle
+### Lifestyle
 
 morning daylight exposure → circadian alignment; reduced evening light and stable sleep-wake timing → improved cortisol amplitude and phase alignment; stress regulation practices → reduced evening cortisol spillover
 
-### Outputs / Functional Effects
+## 6. Outputs / Functional Effects
 
 ↑ cortisol rhythm stability; ↑ morning activation; ↓ evening stress-hormone drift
 
-### Practical Interpretation
-
-[INSERT_PRACTICAL_INTERPRETATION_FROM_SHEET_IF_AVAILABLE]
-
-### Cross-System Links
+## 7. Cross-System Links
 
 - BRS1(PM1) — Dopaminergic Signalling
 - BRS4(FM1) — Cellular Bioenergetics
 
-### Mechanism Summary Table
-
-| Field | Value |
-|---|---|
-| FM ID | `BRS6(FM2)` |
-| Parent BRS | `BRS6` |
-| Intervention Dominance | `Lifestyle-Dominant` |
-| Coverage Timing | `Daily` |
-| Response Type | `Hours–Days` |
-| Functional Latency | `Same day–Days` |
-
-### Scoring Interpretation
-
-Low support and high support interpretation should be defined in narrative only; no formulas are included in this test generation.
-
-### Evidence Base
-
-- Evidence Type: Human + mechanistic [1] [2] [3]
-- Evidence Notes: Lifestyle-dominant FM with strong diet timing support. Avoid overclaiming food-only control of cortisol. [1] [2] [3]
-
-### References
+## 8. References
 
 1. [Stenvers et al. (2019)](/docs/papers/BRAIN-Diet-References#mooney_2019_31152883)
 2. [Scheer et al. (2009)](/docs/papers/BRAIN-Diet-References#scheer_2009_19255424)
 3. [Garaulet & Gómez-Abellán (2014)](/docs/papers/BRAIN-Diet-References#garaulet_2014_24467926)
-
-### Missing Entities
-
-- None flagged from this row-level pass

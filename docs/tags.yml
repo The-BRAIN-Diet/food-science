@@ -1560,6 +1560,11 @@ Drinks:
   permalink: /drinks
   description: Beverage recipes
 
+Snacks:
+  label: Snacks
+  permalink: /snacks
+  description: Small-format and portable recipes between meals
+
 Side Dish:
   label: Side Dish
   permalink: /side-dish
