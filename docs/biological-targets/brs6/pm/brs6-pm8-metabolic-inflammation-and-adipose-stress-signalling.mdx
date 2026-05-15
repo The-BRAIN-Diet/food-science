@@ -14,84 +14,110 @@ cofactors:
 intervention_dominance: "Diet-Supported"
 dose_sensitivity: "[MISSING_OR_DERIVE_FROM_COLUMN_J_N]"
 references:
-  - "[1] Hotamisligil (2006) — https://pubmed.ncbi.nlm.nih.gov/16301683/"
-  - "[2] Kivimäki et al. (2014) — https://pubmed.ncbi.nlm.nih.gov/24792806/"
+  - "[1] [Mohammad & Thiemermann (2021)](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)"
+  - "[2] [Cazzola et al. (2024)](/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024)"
+  - "[3] [Kiecolt-Glaser et al. (2011)](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)"
 hide_title: true
 ---
 
-### BRS6(PM8) - Metabolic Inflammation & Adipose Stress Signalling
+## BRS6(PM8) - Metabolic Inflammation & Adipose Stress Signalling
 
-### 1. Definition
+## 1. Definition
 
-Inflammatory and endocrine signalling from metabolic overload, adipose tissue stress, and insulin-resistant states that influence neuroendocrine allocation.
+Inflammatory and endocrine signalling from metabolic overload, adipose tissue stress, and insulin-resistant states that shape whole-body resource allocation and neuroendocrine load.
 
-### 2. Mechanistic Basis
+## 2. Functional Role
 
-↓ adipose inflammatory signalling; ↓ metabolic stress load
+↓ adipose inflammatory signalling; ↓ metabolic stress load; ↓ low-grade systemic inflammation pressure; ↑ metabolic allocation stability
 
-### 3. Dependencies
+## 3. Mechanistic Basis
 
-#### 3.1 KCs (Key Constraints)
+### Summary
+
+BRS6(PM8) governs how chronic metabolic overload and adipose stress generate inflammatory and endocrine signals that influence neuroendocrine allocation. Pattern-level dietary and lifestyle context often matters more than isolated nutrient changes alone.
+
+<details>
+<summary><strong>Metabolic inflammation, endotoxemia, and adipose stress</strong></summary>
+
+#### (Metabolic endotoxemia and systemic inflammation)
+
+Diet-induced changes in gut barrier function can increase translocation of bacterial lipopolysaccharide (LPS) into circulation, termed metabolic endotoxemia, with downstream low-grade inflammation. [Mohammad & Thiemermann (2021)](/docs/papers/BRAIN-Diet-References#mohammad_role_2021) reviewed metabolic endotoxemia in systemic inflammation and potential dietary interventions, supporting gut–immune–metabolic coupling as a mechanistic pathway relevant to chronic load [1]
+
+#### (Adipose tissue as an inflammatory signalling organ)
+
+In obesity and insulin-resistant states, adipose tissue releases cytokines and alters endocrine signalling, contributing to persistent inflammatory tone. [Cazzola et al. (2024)](/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024) described how magnesium deficiency may potentiate oxidative stress and inflammatory processes in adipose tissue, illustrating micronutrient context within metabolic-inflammatory signalling (supportive, not deterministic) [2]
+
+#### (Nutrient patterns and inflammatory resolution)
+
+Dietary patterns rich in omega-3 fatty acids and lower in pro-inflammatory ultra-processed loads may support inflammatory resolution context. [Kiecolt-Glaser et al. (2011)](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011) reported reduced inflammation and anxiety with omega-3 supplementation in a stressed cohort, relevant to how nutrient context may modulate inflammatory burden alongside metabolic load [3]
+
+#### (Integration within FM4)
+
+Together with BRS6(PM9), PM8 operationalises FM4 as allocation of metabolic and neuroendocrine resources under chronic stress: reducing inflammatory–endocrine load from adipose and gut–immune pathways may stabilise brain-relevant energy and stress state.
+
+</details>
+
+## 4. Underlying Mechanisms and Requirements
+
+### 4.1 KCs (Key Constraints)
 - [BRS6(KC1) - Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
 
-#### 3.2 Optional BRSX Modifiers
-- None listed
+### 4.2 Co-factors
 
-#### 3.3 Co-factors
 - magnesium
 - omega-3
 - polyphenols
 - vitamin D context
 
-### 4. Dietary Modulation
+### 4.3 Cross-BRS Links
 
-Mediterranean-style pattern → ↓ metabolic inflammation; high-fibre meals → ↓ inflammatory metabolic load; exercise → ↑ insulin sensitivity + inflammatory resolution; excess visceral adiposity → antagonistic endocrine signal
+- BRS3(FM1) — Inflammatory Tone Regulation
 
-### 5. Functional Outputs (Directional Effects)
+## 5. Dietary Levers
 
-↓ adipose inflammatory signalling; ↓ metabolic stress load
+<details>
+<summary><strong>Diet</strong></summary>
 
-### 6. System Integration
+- Mediterranean-style and high-fibre patterns may reduce inflammatory metabolic load versus ultra-processed–heavy diets.
+- Omega-3–rich seafoods and polyphenol-rich plant foods may support inflammatory resolution context.
+- Lower refined-carbohydrate and hyperpalatable matrix load may reduce metabolic endotoxemia pressure in some individuals.
+- Adequate magnesium and micronutrient context may support adipose and insulin-signalling environments (supportive interpretation).
 
-Integrated within BRS6(FM4) as a metabolic-load mechanism linking adipose stress signalling with neuroendocrine allocation pressure.
+Net effect: ↓ metabolic-inflammatory signalling; ↓ adipose stress load.
 
-### 7. Key Insight
+</details>
 
-PM7 captures inflammatory-endocrine load from metabolic context, making pattern-level regulation more important than isolated nutrient changes.
+## 6. Lifestyle Levers
 
-### 8. Functional Mechanism Ownership
+<details>
+<summary><strong>Lifestyle</strong></summary>
 
-- BRS6(FM4)
+- Regular physical activity and recovery balance may improve insulin sensitivity and inflammatory resolution.
+- Sleep timing and duration stability may reduce allostatic metabolic-inflammatory load.
+- Visceral adiposity reduction (where clinically appropriate) may lower adipose-derived inflammatory signalling.
 
-### 9. Intervention Dominance
+</details>
 
-- Diet-Supported
+## 7. Scoreable Food-State Inputs
 
-### 10. Constraints and Failure Modes
+This PM is scoreable through diet-pattern, fibre, and anti-inflammatory nutrient signals that influence metabolic-inflammatory load.
 
-[INSERT_FROM_COLUMN_N_OR_SHEET_NOTES_IF_AVAILABLE]
+<details>
+<summary><strong>Scoreable Input Categories</strong></summary>
 
-### 11. Notes
+| Input Category | Example Inputs | PM8 Relevance |
+|---|---|---|
+| Functional Property Potentials | anti_inflammatory_pattern_potential; high_fibre_meal_matrix; low_upf_metabolic_load; omega_3_signal_potential | May reduce metabolic-inflammatory and endotoxemia-related load. |
+| Realised Functional States | mediterranean_pattern_signal; fibre_forward_meal; reduced_hyperpalatable_load | Represent pattern-level inflammatory-modulating meal states. |
+| Substance / Nutrient Signals | polyphenols; omega-3 fatty acids; magnesium | May support inflammatory resolution and adipose signalling context. |
+| Preparation Transformations | minimally_processed; low_heat_fat_handling; intact_food_matrix | May reduce oxidative and gut-barrier stressors. |
 
-- Evidence Type: Human + mechanistic
-- Evidence Notes: Important manuscript bridge between metabolic dysfunction, inflammation, and brain-relevant stress state.
+</details>
 
-### Mechanism Summary Table
+Food pages should capture potentials; recipe pages should capture realised anti-inflammatory pattern signals.
 
-| Field | Value |
-|---|---|
-| PM ID | `BRS6(PM8)` |
-| FM Ownership (Column P) | `BRS6(FM4)` |
-| Dose Target / Requirement | `Pattern-level change over days to weeks; no single food dose captures it` |
-| Coverage Timing | `Daily–Weekly` |
-| Response Type | `Days–Builds` |
-| Functional Latency | `Days–Weeks` |
+## 8. References
 
-### 12. References
-
-- Missing bibliography entry: [Hotamisligil (2006) — https://pubmed.ncbi.nlm.nih.gov/16301683/]
-- Missing bibliography entry: [Kivimäki et al. (2014) — https://pubmed.ncbi.nlm.nih.gov/24792806/]
-
-### 13. Missing Entities
-
-- None flagged from this row-level pass
+1. [Mohammad & Thiemermann (2021)](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
+2. [Cazzola et al. (2024)](/docs/papers/BRAIN-Diet-References#cazzola_magnesium_2024)
+3. [Kiecolt-Glaser et al. (2011)](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
