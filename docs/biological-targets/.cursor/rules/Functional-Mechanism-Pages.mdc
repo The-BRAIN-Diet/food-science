@@ -16,6 +16,17 @@ When creating or editing Functional Mechanism (FM) pages:
 Follow:
 system/functional-mechanism-schema.md
 
+Integration without repetition (required):
+- FM pages **synthesise** PMs; they do not **repeat** PM page content.
+- **PMs own mechanisms. FMs own emergent integration.**
+- **Definition (§1):** name the integrated regulatory state; reflect each included PM’s core contribution; state the emergent functional consequence; do not paste full PM definitions. Use the pattern: `Integrated regulation of [PM1], [PM2], and [PM3], influencing [outcome].`
+- **Functional Role (§2):** short ↑ / ↓ emergent outcomes only — not a mechanism dump.
+- **Mechanistic Basis (§3):** (1) opening synthesis, (2) one short clause per PM (“PM1 governs…”), (3) integration sentence, (4) functional consequence sentence. No fibre/starch/Monnier/magnesium-style PM detail that belongs on PM pages.
+- **Deduplication:** if detail exists on a PM page (e.g. PM1 sequencing, PM2 variability, PM3 disposal), do not repeat it on the FM page — only describe how PMs combine.
+- **Bad:** “PM1 does X with fibre… PM2 does Y with Monnier…” (PM summary dump).
+- **Good:** “FM1 integrates glucose entry kinetics, variability regulation, and disposal capacity to stabilise post-prandial energy availability…”
+- **BRS6(FM1) definition** must reflect PM1 glucose appearance kinetics, PM2 glycaemic variability regulation, PM3 insulin sensitivity and glucose disposal (see schema example).
+
 Structure:
 - Follow `system/functional-mechanism-schema.md` **Section Order (Page Rendering Contract)** — canonical on-page outline matches **BRS6(FM1)**: Definition → Functional Role → Mechanistic Basis (Implementation of PMs) → Underlying (4.1 PMs, 4.2 KCs, 4.3 Cross-BRS) → Dietary Levers → Lifestyle Levers → Scoreable Food-State Inputs (omit when not used; renumber References) → References. No body sections after References.
 - The in-body mechanism title line (e.g. `BRS6(FM1) - …`) must use markdown `##` so it matches numbered section headings; do not use `#` or `###` for that line.
@@ -25,6 +36,7 @@ Structure:
 
 Field interpretation:
 - Front matter must use schema field names (`title`, `fm_id`, `parent_brs`, `summary`, `mechanisms_covered`, `key_constraints`, `intervention_dominance`, `coverage_timing`, `references`)
+- `summary` must match §1 Definition and follow the integrated-PM pattern in `system/functional-mechanism-schema.md` (**FM Definition Rule**)
 - Underlying mechanisms and requirements must be interpreted as:
   - PMs (Primary Mechanisms) that define the FM
   - KCs (Key Constraints) (substrate/precursor requirements)

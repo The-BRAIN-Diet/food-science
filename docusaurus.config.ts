@@ -95,6 +95,10 @@ const config: Config = {
           { to: '/docs/foods/cacao-nibs-raw', from: '/docs/foods/raw-cacao-nibs' },
           { to: '/docs/recipes/Snacks/neuroeshot-roe', from: '/docs/recipes/Drinks/neuroeshot-roe' },
           {
+            to: '/docs/biological-targets/brs6/pm/brs6-pm1-glucose-appearance-kinetics',
+            from: '/docs/biological-targets/brs6/pm/brs6-pm1-glycaemic-variability-absorption-kinetics',
+          },
+          {
             to: '/docs/biological-targets/brs6/pm/brs6-pm2-glycaemic-variability-regulation',
             from: '/docs/biological-targets/brs6/pm/brs6-pm2-insulin-sensitivity-and-glucose-disposal',
           },

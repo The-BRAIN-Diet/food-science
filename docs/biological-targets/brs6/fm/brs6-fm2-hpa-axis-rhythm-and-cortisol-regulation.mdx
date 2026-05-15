@@ -2,7 +2,7 @@
 title: "HPA Axis Rhythm & Cortisol Regulation"
 fm_id: "BRS6(FM2)"
 parent_brs: "BRS6"
-summary: "Functional control of cortisol rhythm, circadian timing, and stress-hormone regulation across waking, feeding, and recovery cycles."
+summary: "Integrated regulation of cortisol rhythm and light–feeding entrainment across waking, feeding, and recovery cycles, influencing stress-hormone amplitude, phase alignment, and diurnal neuroendocrine stability."
 mechanisms_covered:
   - id: "BRS6(PM4)"
     name: "Cortisol Rhythm Regulation"
@@ -16,7 +16,7 @@ key_constraints:
     type: "substrate"
     href: "/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability"
   - id: "BRS6(KC2)"
-    name: "Stress-Response Micronutrient Sufficiency"
+    name: "Stress-Response Micronutrient & Lipid Sufficiency"
     type: "substrate"
     href: "/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency"
 intervention_dominance: "Lifestyle-Dominant"
@@ -32,48 +32,71 @@ hide_title: true
 
 ## 1. Definition
 
-Functional control of cortisol rhythm, circadian timing, and stress-hormone regulation across waking, feeding, and recovery cycles.
+Integrated regulation of cortisol rhythm and light–feeding entrainment across waking, feeding, and recovery cycles, influencing stress-hormone amplitude, phase alignment, and diurnal neuroendocrine stability.
 
 ## 2. Functional Role
 
-↑ cortisol rhythm stability; ↑ morning activation; ↓ evening stress-hormone drift
+↑ cortisol rhythm stability; ↑ morning activation; ↓ evening stress-hormone drift; ↑ circadian phase alignment
 
 ## 3. Mechanistic Basis (Implementation of PMs)
 
-BRS6(FM2) is implemented through BRS6(PM4) and BRS6(PM5): PM4 anchors cortisol rhythm regulation, while PM5 anchors feeding-time and light-dark entrainment effects on circadian metabolic signaling. Together these PMs translate timing behaviors into more stable stress-hormone amplitude and phase alignment across the day.
+BRS6(FM2) is implemented through BRS6(PM4) and BRS6(PM5): PM4 governs diurnal cortisol amplitude and phase, especially morning activation and evening downshift; PM5 governs alignment of feeding windows, light exposure, and sleep timing with circadian metabolic and neuroendocrine rhythms. Together they operationalise FM2 as coordinated timing control of stress-hormone expression and circadian entrainment, translating daily structure into steadier cortisol rhythm and reduced evening neuroendocrine drift.
 
 ## 4. Underlying Mechanisms and Requirements
 
-### PMs (Primary Mechanisms)
+### 4.1 PMs (Primary Mechanisms)
 - [BRS6(PM4) - Cortisol Rhythm Regulation](/docs/biological-targets/brs6/pm/brs6-pm4-cortisol-rhythm-regulation)
 - [BRS6(PM5) - Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/pm/brs6-pm5-circadian-feeding-and-light-dark-entrainment)
 
-### KCs (Key Constraints)
+### 4.2 KCs (Key Constraints)
 - [BRS6(KC1) - Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
-- [BRS6(KC2) - Stress-Response Micronutrient Sufficiency](/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency)
+- [BRS6(KC2) - Stress-Response Micronutrient & Lipid Sufficiency](/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency)
 
-### Cross-BRS Links
+### 4.3 Cross-BRS Links
 - BRS1(PM1) — Dopaminergic Signalling
 - BRS4(FM1) — Cellular Bioenergetics
 
-## 5. Interventions
+## 5. Dietary Levers
 
-### Diet
+<details>
+<summary><strong>Diet</strong></summary>
 
-regular protein-rich breakfast → morning energy/catecholamine support; consistent meal timing with early-day energy loading → circadian metabolic entrainment; reduced late-night eating → lower circadian misalignment pressure
+- Regular protein-rich breakfast → morning energy and catecholamine support within the waking phase.
+- Consistent meal timing with early-day energy loading → circadian metabolic entrainment.
+- Reduced late-night eating → lower circadian misalignment pressure on evening cortisol.
 
-### Lifestyle
+</details>
 
-morning daylight exposure → circadian alignment; reduced evening light and stable sleep-wake timing → improved cortisol amplitude and phase alignment; stress regulation practices → reduced evening cortisol spillover
+## 6. Lifestyle Levers
 
-## 6. Outputs / Functional Effects
+<details>
+<summary><strong>Lifestyle</strong></summary>
 
-↑ cortisol rhythm stability; ↑ morning activation; ↓ evening stress-hormone drift
+- Morning daylight exposure → circadian alignment and cortisol phase support.
+- Reduced evening light and stable sleep–wake timing → improved cortisol amplitude and phase alignment.
+- Stress regulation practices → reduced evening cortisol spillover.
 
-## 7. Cross-System Links
+</details>
 
-- BRS1(PM1) — Dopaminergic Signalling
-- BRS4(FM1) — Cellular Bioenergetics
+## 7. Scoreable Food-State Inputs
+
+This FM is interpreted through food-state, meal-timing, and nutrient signals that can be inherited from food pages and realised at recipe level.
+
+These inputs are used within the BRAIN Diet ontology to generate evidence-constrained estimates of plausible BRS6 support. They are not direct measures of clinical efficacy or guaranteed physiological outcomes.
+
+<details>
+<summary><strong>Scoreable Input Categories</strong></summary>
+
+| Input Category | Example Inputs | Functional Relevance |
+|---|---|---|
+| Functional Property Potentials | chrononutrition_meal_timing; early_day_protein_forward; reduced_late_night_eating_signal; mixed_macronutrient_buffering | May support cortisol phase alignment and circadian metabolic entrainment. |
+| Realised Functional States | morning_protein_loading; consistent_meal_timing; reduced_evening_intake; early_day_energy_loading | Represent recipe- and day-structure signals for FM2 timing control. |
+| Substance / Nutrient Signals | magnesium; B vitamins; vitamin C; protein; tryptophan context | May support stress-response micronutrient sufficiency (KC2) and waking-phase substrate context (KC1). |
+| Preparation Transformations | minimally_processed; intact_structure_preserved | May support stable morning substrate delivery without ultra-processed volatility. |
+
+</details>
+
+Food pages should generally capture functional property potentials. Recipe pages should capture realised functional states generated by meal timing, composition, and daily structure.
 
 ## 8. References
 

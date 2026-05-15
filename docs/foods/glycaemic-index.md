@@ -62,4 +62,4 @@ Within the BRAIN Diet ontology, GI is not used as a stand-alone health score. It
 
 [3] Practical GI/GL framing and limitations for mixed meals and serving context [Healthline Low GI Guide](https://www.healthline.com/nutrition/low-glycemic-diet#the-glycemic-load-gl)
 
-[4] `BRS6(PM1)` canonical mechanism page for meal-level glucose appearance kinetics [BRS6(PM1) - Glucose Appearance Kinetics](/docs/biological-targets/brs6/pm/brs6-pm1-glycaemic-variability-absorption-kinetics)
+[4] `BRS6(PM1)` canonical mechanism page for meal-level glucose appearance kinetics [BRS6(PM1) - Glucose Appearance Kinetics](/docs/biological-targets/brs6/pm/brs6-pm1-glucose-appearance-kinetics)

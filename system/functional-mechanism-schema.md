@@ -21,7 +21,77 @@ validation while remaining readable for authors.
 
 - Represents a controllable system-level biological function.
 - Must aggregate associated PMs and KCs without redefining PM biology.
+- Must synthesise PMs into an emergent functional state; must not repeat PM page content.
 - Must not contain scoring formulas.
+
+## FM Authoring — Integration Without Repetition
+
+Functional Mechanism pages must **synthesise** their PMs rather than **repeat** them.
+
+**Role split:** PMs own mechanisms. FMs own emergent integration.
+
+### FM Definition Rule
+
+An FM definition must:
+
+- name the integrated regulatory state
+- explicitly reflect the core contribution of each included PM
+- describe the emergent functional consequence
+- avoid repeating PM definitions in full
+
+**Preferred pattern:**
+
+`Integrated regulation of [PM1 contribution], [PM2 contribution], and [PM3 contribution], influencing [emergent functional state / outcome].`
+
+**BRS6(FM1) — PM contributions to reflect in the definition:**
+
+- PM1: glucose appearance kinetics
+- PM2: glycaemic variability regulation
+- PM3: insulin sensitivity and glucose disposal
+
+**Example (canonical for BRS6(FM1)):**
+
+Integrated regulation of glucose appearance, glycaemic stability, and insulin-supported glucose disposal across the post-prandial period, influencing metabolic continuity, reactive neuroendocrine demand, and cognitive energy availability.
+
+### FM Mechanistic Basis Rule
+
+Section **3. Mechanistic Basis (Implementation of PMs)** must:
+
+- briefly identify the role of each PM
+- explain how the PMs interact
+- describe the higher-order functional state that emerges
+- avoid copying detailed PM mechanistic paragraphs
+
+**Use this structure:**
+
+1. Opening synthesis paragraph
+2. One short sentence or clause per PM (use “PM1 governs…”, “PM2 governs…”, etc.)
+3. Integration sentence explaining the combined effect
+4. Functional consequence sentence
+
+**Good pattern:**
+
+FM1 integrates glucose entry kinetics, variability regulation, and disposal capacity to stabilise post-prandial energy availability and reduce reactive metabolic volatility.
+
+**Bad pattern (PM summary dump):**
+
+“PM1 does X with fibre, resistant starch, vinegar… PM2 does Y with Monnier… PM3 does Z with magnesium…” — do not list PM-level interventions, citations, or `<details>` content on the FM page.
+
+### Deduplication Rule
+
+If detailed mechanism content exists on a PM page, do not repeat it on the FM page.
+
+| PM | Detail stays on PM page only |
+|---|---|
+| PM1 | fibre, resistant starch, gastric emptying, meal sequencing |
+| PM2 | oscillatory glucose exposure and variability |
+| PM3 | insulin responsiveness and disposal |
+
+The FM page should only describe **how these combine**, not re-teach each PM.
+
+### FM Functional Role Rule
+
+**Functional Role** (§2) is a short directional line describing emergent outcomes (↑ / ↓), not a mechanism dump. It complements the definition; it does not substitute for §3.
 
 ## Required Top-Level Fields
 
@@ -120,9 +190,9 @@ First line of the MDX body (after front matter) must be the FM title: `## <FM_ID
 
 Numbered sections must stay contiguous (renumber if §7 Scoreable is omitted).
 
-1. **Definition** — `## 1. Definition`
-2. **Functional Role** — `## 2. Functional Role` (short directional arrow line or equivalent)
-3. **Mechanistic Basis (Implementation of PMs)** — `## 3. Mechanistic Basis (Implementation of PMs)` — prose explaining how covered PMs jointly implement the FM (no requirement for PM-style Summary + `<details>` unless you intentionally add it)
+1. **Definition** — `## 1. Definition` — integrated regulatory state per **FM Definition Rule**; `summary` in front matter must match this intent
+2. **Functional Role** — `## 2. Functional Role` — short directional arrow line per **FM Functional Role Rule**
+3. **Mechanistic Basis (Implementation of PMs)** — `## 3. Mechanistic Basis (Implementation of PMs)` — synthesis per **FM Mechanistic Basis Rule** and **Deduplication Rule** (no PM-style Summary + `<details>`; no PM citation dumps)
 4. **Underlying Mechanisms and Requirements** — `## 4. Underlying Mechanisms and Requirements`
    - `### 4.1 PMs (Primary Mechanisms)` — linked list to PM pages
    - `### 4.2 KCs (Key Constraints)` — linked list to KC pages
@@ -148,7 +218,9 @@ Some BRS6 FM pages (e.g. FM2–FM4) may still use an older outline (`Interventio
 ## Validation Rules
 
 - `title`, `fm_id`, `parent_brs`, and `summary` are required and non-empty.
-- `summary` must match the Definition section intent and remain concise.
+- `summary` must match the Definition section intent, remain concise, and follow **FM Definition Rule** (integrated PM contributions + emergent outcome; no full PM definition repeats).
+- Definition and **Mechanistic Basis** must follow **FM Authoring — Integration Without Repetition** (no PM summary dumps; no duplicated PM `<details>` content).
+- **Mechanistic Basis** should use the four-part structure: opening synthesis → one clause per PM → integration sentence → functional consequence sentence.
 - `mechanisms_covered` and `key_constraints` must use ID+name+href.
 - FM body section headings must be explicitly numbered to match PM-style rendering consistency.
 - `Dietary Levers` and `Lifestyle Levers` must be separate top-level sections (must not be merged).
