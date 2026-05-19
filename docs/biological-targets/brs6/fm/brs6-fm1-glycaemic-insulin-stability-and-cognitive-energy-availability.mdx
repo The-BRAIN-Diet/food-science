@@ -19,6 +19,8 @@ key_constraints:
     type: "substrate"
     href: "/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability"
 intervention_dominance: "Diet-Dominant"
+intervention_breakdown: "Food-State Dominant"
+timing_specific: "Yes"
 coverage_timing: "Meal–Daily"
 references:
   - "[1] [Monnier et al. (2006)](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)"
@@ -40,28 +42,36 @@ hide_title: true
 
 Integrated regulation of glucose appearance, glycaemic stability, and insulin-supported glucose disposal across the post-prandial period, influencing metabolic continuity, reactive neuroendocrine demand, and cognitive energy availability.
 
-## 2. Functional Role
+## 2. Intervention Breakdown
+
+Food-State Dominant
+
+## 3. Timing Specific
+
+Yes
+
+## 4. Functional Role
 
 ↑ post-prandial metabolic stability; ↓ glycaemic volatility; ↓ reactive catecholamine demand; ↑ continuity of cognitive energy availability
 
-## 3. Mechanistic Basis (Implementation of PMs)
+## 5. Mechanistic Basis (Implementation of PMs)
 
 BRS6(FM1) is implemented through BRS6(PM1), BRS6(PM2), and BRS6(PM3): PM1 governs the rate and temporal profile of glucose appearance after meals; PM2 governs the stability, volatility, and oscillatory behaviour of post-prandial glucose dynamics across the meal period; PM3 governs insulin responsiveness, post-prandial disposal efficiency, and broader metabolic recovery capacity. Together they operationalise FM1 as coordinated control of glucose entry, fluctuation stability, and clearance, translating food structure, meal composition, and timing into steadier substrate availability and reduced reactive metabolic volatility.
 
-## 4. Underlying Mechanisms and Requirements
+## 6. Underlying Mechanisms and Requirements
 
-### 4.1 PMs (Primary Mechanisms)
+### 6.1 PMs (Primary Mechanisms)
 - [BRS6(PM1) - Glucose Appearance Kinetics](/docs/biological-targets/brs6/pm/brs6-pm1-glucose-appearance-kinetics)
 - [BRS6(PM2) - Glycaemic Variability Regulation](/docs/biological-targets/brs6/pm/brs6-pm2-glycaemic-variability-regulation)
 - [BRS6(PM3) - Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/pm/brs6-pm3-insulin-sensitivity-and-glucose-disposal)
 
-### 4.2 KCs (Key Constraints)
+### 6.2 KCs (Key Constraints)
 - [BRS6(KC1) - Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
 
-### 4.3 Cross-BRS Links
+### 6.3 Cross-BRS Links
 - BRS4(FM1) — Cellular Bioenergetics
 
-## 5. Dietary Levers
+## 7. Dietary Levers
 
 <details>
 <summary><strong>Diet</strong></summary>
@@ -74,7 +84,7 @@ BRS6(FM1) is implemented through BRS6(PM1), BRS6(PM2), and BRS6(PM3): PM1 govern
 
 </details>
 
-## 6. Lifestyle Levers
+## 8. Lifestyle Levers
 
 <details>
 <summary><strong>Lifestyle</strong></summary>
@@ -86,7 +96,7 @@ BRS6(FM1) is implemented through BRS6(PM1), BRS6(PM2), and BRS6(PM3): PM1 govern
 
 </details>
 
-## 7. Scoreable Food-State Inputs
+## 9. Scoreable Food-State Inputs
 
 This FM is interpreted through food-state, preparation, nutrient, and substance signals that can be inherited from food pages and realised at recipe level.
 
@@ -104,7 +114,7 @@ These inputs are used within the BRAIN Diet ontology to generate evidence-constr
 
 </details>
 
-## 8. References
+## 10. References
 
 1. [Monnier et al. (2006)](/docs/papers/BRAIN-Diet-References#monnier_2006_16638903)
 2. [Reynolds et al. (2019)](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)

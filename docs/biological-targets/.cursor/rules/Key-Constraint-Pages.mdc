@@ -14,37 +14,91 @@ Build Gate Proviso:
 When creating or editing Key Constraint (KC) pages:
 
 Follow:
-system/key-constraint-schema.md
+system/key-constraint-schema.md (including **KC Evidence Layer Rules**)
 
-Structure:
-- All sections must be present in the exact order defined in the schema
+KC identity:
+- A KC is a foundational sufficiency, substrate condition, structural requirement, or enabling constraint for PMs/FMs
+- KCs enable; they do not regulate (avoid governs/regulates/modulates/drives/controls language)
 
-Field interpretation:
-- KC ID + title must be provided
-- Overview/description must be provided
-- KC relationship context may be provided
-- Food/source context may be provided
-- Biological role/output context must be provided
-- Evidence type + key studies + evidence notes provide evidence context
+Structure (exact order, numbered headings):
+1. Definition
+2. Constraint Role
+3. Supporting Inputs / Substances / Signals
+4. Biological Importance
+5. Connected Mechanisms (FMs and PMs)
+6. Constraint Stressors / Burdens
+7. References
 
-Rules:
-- KCs must be interpreted as substrates/precursors only
-- Must not introduce PM->PM chains
-- Must not introduce FM->FM dependencies
-- Must not include scoring formulas
-- Must not include SMs during initial rollout
+Page header:
+- `### {kc_id} - {name}` above section 1
+- `hide_title: true` in front matter
 
-Food Sources:
-- Must include only existing food pages
-- If unresolved, flag:
-  "Missing system entity: [name]"
+Section guidance:
+- Definition: concise sufficiency/substrate/structural condition only
+- Constraint Role: what the KC enables and what depends on it (enable/support/maintain sufficiency language)
+- Supporting Inputs: substrate-specific bullets; no recipes, whole diets, cofactor lists, or PM-style levers
+- Biological Importance: why it matters; keep foundational and short
+- Connected Mechanisms: linked FM and PM lists; no PM→PM or FM→FM chains
+- Constraint Stressors: factors that deplete/strain/impair the KC; concise; no disease claims or prescriptions
+- References: central bibliography only
 
-References:
-- Include only when claims are made
-- Use numeric citations [1], [2]
-- All references must link to:
-  /docs/papers/BRAIN-Diet-References#citationKey
-- Verify citationKey exists in static/bibtex/BRAIN-diet.bib
-- If missing, flag: "Missing bibliography entry"
+---
+
+## KC Evidence Layer Rules
+
+Evidence philosophy:
+- KC evidence supports biological necessity, substrate dependence, precursor sufficiency, structural integrity, and foundational enabling relationships
+- KC evidence does NOT primarily support dynamic regulation, intervention efficacy, therapeutic outcomes, or detailed pathway modulation (those belong to PMs/FMs)
+
+Evidence scope:
+- References validate the existence and importance of the constraint itself
+- Keep evidence foundational, broad, systems-oriented, and biologically proximal
+- Good KC claims: prerequisite substrate relationships, sufficiency requirements, structural dependencies — not acute modulation or food-specific mechanistic proof
+
+Evidence hierarchy (cite at the correct layer):
+| Layer | Evidence type |
+|---|---|
+| KC | necessity / sufficiency / substrate dependence |
+| PM | mechanistic regulation / intervention modulation |
+| FM | integrated functional-state evidence |
+| Food/Substance | detailed compound or food evidence |
+
+Citation density:
+- Do NOT cite every bullet in Supporting Inputs / Substances / Signals
+- That section lists plausible substrate-level contributors and representative examples, not individually litigated intervention claims
+- Avoid citation explosion; KC references collectively support the rationale for the input class
+
+Supporting Inputs evidence:
+- Inputs must be biologically plausible, substrate-specific, structurally relevant, and aligned with the KC
+- Presence of an input does NOT require a dedicated bullet citation, intervention-level claim, or therapeutic proof
+
+Preferred KC sources:
+- Foundational physiology, substrate dependence, structural biology, nutritional sufficiency, broad systems reviews, prerequisite relationships
+- Avoid as primary KC evidence: acute supplementation trials, narrow intervention papers, isolated food-effect studies, therapeutic outcome claims (use PM/FM/food pages instead)
+
+Avoid overmechanising:
+- No PM-style essays, intervention reviews, nutrient marketing, pathway maps, excessive cofactor detail, speculative or therapeutic overreach
+
+Reference resolution:
+- All refs must resolve through `static/bibtex/BRAIN-diet.bib`
+- Public link format: `/docs/papers/BRAIN-Diet-References#citationKey`
+- New refs need citation key, metadata, and DOI/URL where available
+- No unresolved plain-text citations
+- Use `[1]`, `[2]` inline only where sections 1–2, 4, or 6 make evidence-backed claims
+- Flag: "Missing bibliography entry"
+
+Supporting Inputs formatting:
+- Bullet list only; prefer `/docs/substances/` links when entities exist
+- Do not list SCFAs or other metabolites as if they are intrinsic food substances
+
+Style:
+- Shorter and more restrained than PM pages
+- No scoring formulas, SMs (initial rollout), intervention protocols, or heavy mechanistic prose
+
+Deprecated headings (do not use):
+- Biological Role
+- Supporting Substances/Interventions
+- Dietary Substrates/Precursors
+- Supports / Constraints (legacy)
 
 If ambiguity exists, stop and ask.
