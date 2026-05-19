@@ -11,7 +11,9 @@ list_image: /img/icons/biological-targets.svg
 
 # BRS1 - Neurotransmitter Regulation
 
-This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
+## Overview
+
+The Neurotransmitter Regulation system covers synaptic signalling, precursor supply, transport competition, and excitatory–inhibitory balance. It links dietary amino-acid substrate, meal composition, and membrane-lipid context to attention, mood, arousal, and cognitive control.
 
 <details>
 <summary><strong>Neurotransmitter Regulation Biological Implications</strong></summary>
@@ -55,3 +57,40 @@ B6 is a cofactor in the development of all the key neurotransmitters. Only once 
 - Iron is an essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine [Beard et al. 2003](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
 
 </details>
+
+---
+
+## Functional Mechanisms
+
+These functional mechanisms represent connected groupings of biological mechanisms and dietary control points through which this system can be influenced.
+
+### Core Functional Mechanisms
+
+- [BRS1(FM1) — Catecholaminergic Function (Dopamine + Norepinephrine)](/docs/biological-targets/brs1/fm/brs1-fm1-catecholaminergic-function): Provision and brain-delivery context of catecholamine precursors and signalling support for dopamine- and norepinephrine-related motivation, attention, arousal, and executive function.
+- [BRS1(FM2) — Glycaemic Modulation of Neurotransmitter Balance](/docs/biological-targets/brs1/fm/brs1-fm2-glycaemic-modulation-of-neurotransmitter-balance): Influence of carbohydrate quality, meal sequencing, and glycaemic response on precursor partitioning and neurotransmitter bias.
+- [BRS1(FM3) — Cholinergic Function](/docs/biological-targets/brs1/fm/brs1-fm3-cholinergic-function): Provision of dietary choline and cholinergic support relevant to attention, working memory, and cognitive precision.
+- [BRS1(FM4) — Phospholipid-Mediated DHA Delivery & Membrane Integration](/docs/biological-targets/brs1/fm/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration): Delivery and incorporation of DHA-rich phospholipids into neuronal membranes to support synaptic signalling and membrane function.
+- [BRS1(FM5) — Excitatory–Inhibitory Balance (GABA–Glutamate Regulation)](/docs/biological-targets/brs1/fm/brs1-fm5-excitatory-inhibitory-balance-gaba-glutamate-regulation): Functional control of excitatory–inhibitory tone through GABA–glutamate balance, supporting neural stability, inhibitory control, and resistance to overstimulation.
+
+---
+
+## Requirements (Key Constraints)
+
+- [BRS1(KC1) — Amino Acid Substrate Sufficiency](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-substrate-sufficiency): Availability of meaningful amino-acid substrate to support neurotransmitter precursor supply at the meal level.
+- [BRS1(KC2) — Amino Acid Completeness & Balance](/docs/biological-targets/brs1/kc/brs1-kc2-amino-acid-completeness-and-balance): Quality and balance of essential amino acids needed to avoid weak precursor coverage and improve transport competitiveness.
+
+---
+
+## Primary Mechanisms
+
+Primary mechanisms sit beneath functional mechanisms and define specific regulatory processes. Browse by functional mechanism above, or use these direct links:
+
+- [BRS1(PM1) — Tyrosine / Tryptophan Precursor Supply](/docs/biological-targets/brs1/pm/brs1-pm1-tyrosine-tryptophan-precursor-supply)
+- [BRS1(PM2) — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/pm/brs1-pm2-lat1-competitive-transport-modulation)
+- [BRS1(PM3) — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/pm/brs1-pm3-acetylcholine-synthesis-support)
+- [BRS1(PM4) — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/pm/brs1-pm4-neuronal-membrane-dha-incorporation)
+- [BRS1(PM5) — Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/pm/brs1-pm5-noradrenergic-signalling-attention-executive-modulation)
+- [BRS1(PM6) — GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/pm/brs1-pm6-gaba-glutamate-neurotransmission-balance)
+- [BRS1(PM7) — GABA Synthesis Capacity](/docs/biological-targets/brs1/pm/brs1-pm7-gaba-synthesis-capacity)
+- [BRS1(PM8) — Glutamate Clearance & Recycling](/docs/biological-targets/brs1/pm/brs1-pm8-glutamate-clearance-and-recycling)
+- [BRS1(PM9) — Excitotoxicity Modulation](/docs/biological-targets/brs1/pm/brs1-pm9-excitotoxicity-modulation)
