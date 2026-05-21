@@ -44,21 +44,26 @@
   border-radius: 6px;
 }
 
-/* Portrait thumbnail on first PM page per BRS */
+/* Portrait thumbnail on BRS pages — black mat with ≥3px inset crop into the image */
 .brs-pm-thumbnail-wrap {
+  display: inline-block;
   margin: 0 0 0.75rem 0;
-  text-align: left;
+  width: 217px;
+  height: 122px;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #000;
+  line-height: 0;
 }
 
 .brs-pm-thumbnail {
   display: block;
-  width: 217px;
-  height: 122px;
-  max-width: 217px;
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+  max-width: none;
+  margin: -3px;
   object-fit: cover;
   object-position: center left;
-  margin: 0;
-  border-radius: 4px;
 }
 
 /* Medium hero on individual BRS hub pages */
