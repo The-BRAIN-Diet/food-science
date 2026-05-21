@@ -7,9 +7,18 @@ tags:
   - Biological Target
   - Gut-Brain Axis & Enteric Nervous System
 list_image: /img/icons/biological-targets.svg
+hide_title: true
 ---
 
-# BRS5 - Gut-Brain Axis & Enteric Nervous System
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs5-portrait-thumbnail.png"
+    alt="BRS5 — Gut–Brain Axis & Enteric Nervous System: vagal pathways, gut barrier, and microbial signalling"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS5 - Gut-Brain Axis & Enteric Nervous System
 
 This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
 

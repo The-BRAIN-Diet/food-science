@@ -29,6 +29,48 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* Six-BRS grid on Biological Regulatory Systems overview */
+.brs-overview-intro .brs-overview-image-wrap {
+  text-align: center;
+  margin: 1.25rem 0;
+}
+
+.brs-overview-image {
+  display: inline-block;
+  width: 80%;
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+/* Portrait thumbnail on first PM page per BRS */
+.brs-pm-thumbnail-wrap {
+  margin: 0 0 0.75rem 0;
+  text-align: left;
+}
+
+.brs-pm-thumbnail {
+  display: block;
+  width: 217px;
+  height: 122px;
+  max-width: 217px;
+  object-fit: cover;
+  object-position: center left;
+  margin: 0;
+  border-radius: 4px;
+}
+
+/* Medium hero on individual BRS hub pages */
+.brs-medium-image {
+  display: block;
+  max-width: 252px;
+  width: 100%;
+  height: auto;
+  margin: 1rem 0 1.5rem;
+  border-radius: 6px;
+}
+
 /* Reference anchor link styling */
 .reference-item {
   position: relative;

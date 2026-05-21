@@ -7,9 +7,18 @@ tags:
   - Biological Target
   - Inflammation & Oxidative Stress
 list_image: /img/icons/biological-targets.svg
+hide_title: true
 ---
 
-# BRS3 - Inflammation & Oxidative Stress
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs3-portrait-thumbnail.png"
+    alt="BRS3 — Inflammation & Oxidative Stress: inflammatory tone, immune balance, and oxidative defence"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS3 - Inflammation & Oxidative Stress
 
 This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
 

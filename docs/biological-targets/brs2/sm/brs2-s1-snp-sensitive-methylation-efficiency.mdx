@@ -2,12 +2,12 @@
 title: SNP-Sensitive Methylation Efficiency
 sm_id: BRS2(S1)
 sm_category: SM-SNP
-use_case: Genetic modifiers (MTHFR, COMT cross-talk, BDNF Val66Met) altering one-carbon pathway efficiency
+use_case: Variant-sensitive one-carbon metabolism and methylation-response context
 parent_brs: BRS2
 summary: >-
-  Modifier layer for genotype-sensitive methylation efficiency: genetic variants alter pathway
-  efficiency rather than creating a standalone mechanism. Connects methyl-donor and remethylation
-  PMs to variable downstream neurochemical response — a personalization node for BRSX, not a PM.
+  Context-specific expression of how MTHFR, COMT cross-talk, and BDNF Val66Met may alter
+  methylation efficiency, methyl-donor responsiveness, and downstream neurochemical tone —
+  without redefining core BRS2 methylation mechanisms.
 connected_pms:
   - id: BRS2(PM1)
     name: Folate/B12-Dependent Homocysteine Remethylation
@@ -23,11 +23,8 @@ connected_kcs:
   - id: BRS2(KC1)
     name: Methyl Donor Sufficiency
     href: /docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency
-intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Leaning
 timing_specific: 'Yes'
-coverage_timing: Daily
-dose_sensitivity: Pattern — prioritise B2, methyl donors, and omega-3 when genotype-sensitive
 references:
   - '[1] [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)'
   - '[2] [Hünnerkopf et al. (2007)](/docs/papers/BRAIN-Diet-References#hunnerkopf_interaction_2007)'
@@ -35,90 +32,77 @@ references:
 hide_title: true
 ---
 
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs2-portrait-thumbnail.png"
+    alt="BRS2 — Methylation & One-Carbon Metabolism"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
 ## BRS2(S1) - SNP-Sensitive Methylation Efficiency
 
 ## 1. Definition
 
-Genetic modifiers alter one-carbon pathway efficiency rather than creating a standalone mechanism. This overlay includes MTHFR-related methyl-donor utilisation, COMT cross-talk with catecholamine clearance context, and BDNF Val66Met downstream relevance for variable neurochemical response. It is a modifier layer and personalization node for BRSX — not a replacement for [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation) or [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis).
+Context-specific regulatory expression describing how variant-sensitive one-carbon metabolism may alter methylation efficiency, methyl-donor responsiveness, and downstream neurochemical tone — spanning MTHFR, COMT cross-talk, and BDNF Val66Met relevance — without redefining core BRS2 methylation mechanisms ([BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis)).
 
 ## 2. Intervention Breakdown
 
 Food-State Leaning
 
-**Category:** SM-SNP  
-**Use case:** Genetic modifiers (MTHFR, COMT cross-talk, BDNF Val66Met) altering one-carbon pathway efficiency
-
 ## 3. Functional Role
 
-↑ genotype-aware methyl-donor and cofactor context; ↑ variable methylation-efficiency interpretation; ↑ downstream neurochemical-response modulation context (non-deterministic)
+↑ methylation-efficiency support; ↑ cofactor sufficiency awareness; ↑ downstream neurochemical resilience support
 
 ## 4. Mechanistic Basis
 
 ### Summary
 
-[BRS2(KC1)](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency), [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), and [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis) define stable remethylation and SAMe biology within [BRS2(FM1)](/docs/biological-targets/brs2/fm/brs2-fm1-methylation-cycle-efficiency). BRS2(S1) interprets how SNP-sensitive efficiency (MTHFR, COMT, BDNF Val66Met) may shift the *same* dietary inputs toward variable methylation capacity and downstream neurochemical response — without deterministic genotype outcomes.
+Variant-sensitive efficiency can shift donor and cofactor responsiveness under the same remethylation and SAMe biology ([BRS2(KC1)](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency), [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis), [BRS2(FM1)](/docs/biological-targets/brs2/fm/brs2-fm1-methylation-cycle-efficiency)). Outcomes vary by genotype and diet pattern; this SM explains why that variability matters.
 
 <details>
-<summary><strong>SNP-sensitive efficiency, cross-BRS modifiers, and connected PM biology</strong></summary>
+<summary><strong>Variant-sensitive pathways</strong></summary>
 
-#### (MTHFR and methyl-donor context — PM1 / KC1)
-
-Reduced folate-pathway efficiency increases reliance on food-state folate, B12, and riboflavin (B2) cofactor context alongside [BRS2(KC1)](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency). Contemporary one-carbon reviews emphasise integrated donor and cofactor patterns rather than isolated SNP narratives → [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024) [1]
-
-#### (SAMe synthesis — PM3)
-
-[BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis) remains the authoritative SAMe synthesis mechanism; variant-sensitive efficiency changes how much upstream remethylation stress is felt at the SAMe node, not the core PM definition.
-
-#### (COMT cross-talk and BDNF Val66Met)
-
-COMT-related catecholamine clearance may interact with methylation-adjacent meal patterns (BRS1 cross-talk). BDNF Val66Met has been discussed in relation to methionine–homocysteine pathway interactions and downstream plasticity context → [Hünnerkopf et al. (2007)](/docs/papers/BRAIN-Diet-References#hunnerkopf_interaction_2007) [2]
-
-#### (Omega-3 and BDNF-supportive dietary context)
-
-Omega-3 status may modulate inflammatory and plasticity-related context alongside one-carbon patterns; systematic reviews address nutrient–genotype interaction frameworks without prescribing deterministic outcomes → [Ziaei et al. (2024)](/docs/papers/BRAIN-Diet-References#ziaei_systematic_2024) [3]
-
-#### (BRSX personalization node)
-
-Cross-link BRSX: this SM is a personalization layer for genotype-sensitive interpretation across systems — it must not be read as a standalone PM or diagnostic rule.
+- **MTHFR** — folate, B2, and B12 sufficiency weigh more when folate-pathway efficiency is reduced [1]
+- **COMT** — catecholamine clearance may interact with methylation-adjacent meal patterns (BRS1) [2]
+- **BDNF Val66Met** — methionine–homocysteine and plasticity relevance downstream [2]
+- **Omega-3 / polyphenols** — membrane and resilience support alongside one-carbon inputs [3]
 
 </details>
 
 ## 5. Underlying Mechanisms and Requirements
 
-### 5.1 Connected Primary Mechanisms (PMs)
+### 5.1 Co-factors
 
-- [BRS2(PM1) — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation)
-- [BRS2(PM3) — SAMe Synthesis](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis)
+- B2, folate, B12, omega-3
 
-### 5.2 Connected Functional Mechanisms (FMs)
+### 5.2 KCs (Key Constraints)
 
-- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm/brs2-fm1-methylation-cycle-efficiency)
+- [BRS2(KC1)](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency)
 
-### 5.3 KCs (Key Constraints)
+### 5.3 Connected Primary Mechanisms (PMs)
 
-- [BRS2(KC1) — Methyl Donor Sufficiency](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency)
+- [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation)
+- [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis)
 
-### 5.4 Cross-BRS Links
+### 5.4 Connected Functional Mechanisms (FMs)
 
-- BRSX — personalization / genotype-sensitive interpretation node (modifier layer)
-- BRS1 — COMT catecholamine clearance cross-talk where catecholamine and one-carbon contexts overlap
+- [BRS2(FM1)](/docs/biological-targets/brs2/fm/brs2-fm1-methylation-cycle-efficiency)
 
-### 5.5 Co-factors
+### 5.5 Cross-BRS Links
 
-- B2 (riboflavin)
-- folate
-- B12
-- omega-3
+- BRSX — genotype-sensitive personalization
+- BRS1 — COMT / catecholamine cross-talk
 
 ## 6. Dietary Levers
 
 <details>
 <summary><strong>Diet</strong></summary>
 
-- Riboflavin/folate foods → MTHFR pathway support context (B2 + methyl donors).
-- Oily fish → omega-3 context for downstream neurochemical and plasticity framing.
-- Polyphenol-rich foods → BDNF-supportive dietary context (non-deterministic).
-- Daily, food-state patterns prioritising methyl-donor sufficiency per [BRS2(KC1)](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency).
+- Riboflavin-, folate-, and B12-rich foods supporting methyl-donor sufficiency
+- Oily fish supporting membrane and neuroplasticity-related signalling
+- Polyphenol-rich foods supporting broader resilience and inflammatory balance
+- Stable dietary patterns prioritising methyl-donor continuity
 
 </details>
 
@@ -127,9 +111,9 @@ Cross-link BRSX: this SM is a personalization layer for genotype-sensitive inter
 <details>
 <summary><strong>Lifestyle</strong></summary>
 
-- Daily coverage timing for steady B-vitamin and methyl-donor exposure (builds over weeks; not acute dosing).
-- Stress and sleep recovery supporting broader metabolic stability where COMT and one-carbon contexts interact.
-- Avoid treating genotype as a prescription for high-dose single nutrients — pattern-level food-state emphasis only.
+- Consistent daily nutrient coverage
+- Sleep and stress recovery supporting metabolic resilience
+- Avoid genotype-driven high-dose nutrient interpretation
 
 </details>
 
@@ -138,12 +122,12 @@ Cross-link BRSX: this SM is a personalization layer for genotype-sensitive inter
 <details>
 <summary><strong>Scoreable Input Categories</strong></summary>
 
-| Input Category | Example Inputs | BRS2(S1) relevance |
+| Input Category | Example Inputs | BRS2(S1) |
 |---|---|---|
-| Functional Property Potentials | consistent_methyl_donor_coverage; riboflavin_folate_context | Genotype-sensitive donor sufficiency patterns. |
-| Realised Functional States | homocysteine_modulation_context; omega3_status_context | Variable efficiency interpretation only. |
-| Substance / Nutrient Signals | folate; B12; B2; omega-3; methionine | Spreadsheet intervention signals. |
-| Preparation Transformations | minimally_processed; whole_food_matrix | Preserve cofactor and donor density. |
+| Functional Property Potentials | consistent_methyl_donor_coverage; riboflavin_folate_context | |
+| Realised Functional States | homocysteine_modulation_context; omega3_status_context | |
+| Substance / Nutrient Signals | folate; B12; B2; omega-3; methionine | |
+| Preparation Transformations | minimally_processed; whole_food_matrix | |
 
 </details>
 

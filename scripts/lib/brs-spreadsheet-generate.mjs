@@ -32,6 +32,7 @@ const MANUAL_CITATION_KEYS = {
   "hünnerkopf 2007": "hunnerkopf_interaction_2007",
   "hunnerkopf 2007": "hunnerkopf_interaction_2007",
   "ziaei 2024": "ziaei_systematic_2024",
+  "ashley 1985": "ashley_breakfast_1985",
 };
 
 let bibCache = null;

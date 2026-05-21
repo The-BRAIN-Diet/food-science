@@ -11,9 +11,21 @@ sidebar_position: 5
 
 # Biological Regulatory Systems
 
+<div class="brs-overview-intro">
+
 The BRAIN Diet is organised around six Biological Regulatory Systems (BRS): interconnected control systems that link nutrition, lifestyle, physiology, and brain function. While centred on brain health, the framework is designed as a complete dietary approach grounded in core biological systems that support both cognitive function and broader physiological health.
 
+<p class="brs-overview-image-wrap">
+  <img
+    src="/img/biological-targets/all-brs-overview.png"
+    alt="The six Biological Regulatory Systems: neurotransmitter regulation, methylation and one-carbon metabolism, inflammation balance, mitochondrial energy, gut–brain axis, and metabolic and neuroendocrine stress"
+    class="brs-overview-image"
+  />
+</p>
+
 At a practical level, meals are designed as a complementary rotation across the day, aligned with natural rhythms from breakfast through to dinner. Rather than trying to optimise everything in a single meal, each meal plays a role, and each day builds on the next, creating a balanced pattern over time. This reflects how the body actually uses nutrients-absorbing, storing, and reusing them dynamically-so meals are structured to work together, supporting different systems in a coordinated and sustainable way.
+
+</div>
 
 Rather than focusing on isolated nutrients, the framework leverages Functional Mechanisms (key biological controls that can be influenced through diet and lifestyle). Functional Mechanisms represent a grouping of one or more Primary Mechanisms (the underlying biological processes that support those controls) to translate complex biology into practical, usable strategies for improving health. Specific Mechanisms are context-specific expressions of stable biological regulation associated with phenotype patterns, therapeutic-area dynamics, and variant-sensitive modulation.
 
