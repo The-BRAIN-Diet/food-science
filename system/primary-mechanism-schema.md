@@ -80,28 +80,41 @@ missing_entities:                    # optional
   substances: [string]
 ```
 
+## Timing Specific (required ontology metadata; not a default public body section)
+
+`timing_specific` is **required in front matter** on all PM pages (`Yes` | `No`). It must **not** appear as a standalone numbered body section (`## N. Timing Specific` with only `Yes` or `No`). Where timing materially alters interpretation, discuss it within **Functional Role**, **Mechanistic Basis**, **Lifestyle Levers**, or **Scoreable Inputs & Modulation Signals**.
+
+## Intervention Breakdown (extended-profile front matter + body)
+
+When a PM carries `intervention_breakdown` in front matter, the published body includes **## 2. Intervention Breakdown** (single allowed semantic value matching front matter) immediately after Definition. This is distinct from legacy `intervention_dominance` in YAML.
+
 ## Section Order (Page Rendering Contract)
 
 First line of the MDX body (after front matter) must be the mechanism title: `## <PM_ID> - <PM name>` (same heading level as numbered sections; do not use `#` or `###` for this line).
 
-Two **profiles** are allowed; pick one per PM and keep numbering contiguous (no gaps in `## N.` sequence).
+Three **profiles** are allowed; pick one per PM and keep numbering contiguous (no gaps in `## N.` sequence).
 
-### Profile A — Full narrative PM (e.g. BRS6 PM1)
+### Profile A — Extended narrative PM (e.g. BRS1 PMs, BRS6 PM1–PM4 with Intervention Breakdown)
 
 1. Definition — `## 1. Definition`
-2. Functional Role — `## 2. Functional Role` (directional arrow summary; may be folded into Mechanistic Basis only if the page intentionally omits a separate Functional Role, which is discouraged for this profile)
-3. Mechanistic Basis — `## 3. Mechanistic Basis`
+2. Intervention Breakdown — `## 2. Intervention Breakdown` — must match `intervention_breakdown` in front matter
+3. Functional Role — `## 3. Functional Role` (directional arrow summary)
+4. Mechanistic Basis — `## 4. Mechanistic Basis`
    - **UX (recommended):** start with `### Summary` (short paragraph always visible), then a `<details>` block whose `<summary>` labels the extended mechanistic narrative (e.g. glucose appearance, structure, sequencing). Inside the block, use `####` subheads for thematic blocks and link citations to `/docs/papers/BRAIN-Diet-References#…` plus numeric refs as needed.
-   - Long-form PMs may instead use a single `## 3.` body without Summary/details if the narrative stays short.
-4. Underlying Mechanisms and Requirements — `## 4. Underlying Mechanisms and Requirements`
-   - **Full subsection set:** `### 4.1` KCs, `### 4.2` Optional BRSX Modifiers, `### 4.3` Cross-BRS Links, `### 4.4` Co-factors
-   - **PM1-style (no Optional BRSX subsection):** `### 4.1` KCs, `### 4.2` Co-factors, `### 4.3` Cross-BRS Links (omit Optional BRSX when not used; do not renumber KC out of order)
-5. Dietary Levers — `## 5.` body inside `<details><summary><strong>Diet</strong></summary>…` (match FM pages)
-6. Lifestyle Levers — `## 6.` same pattern with `<strong>Lifestyle</strong>`
-7. Scoreable Food-State Inputs — `## 7.` **only when this PM is scoreable in the ontology**; optional intro paragraph; table (or list) may sit inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…`
-8. References — `## 8. References`
+   - Long-form PMs may instead use a single `## 4.` body without Summary/details if the narrative stays short.
+5. Underlying Mechanisms and Requirements — `## 5. Underlying Mechanisms and Requirements`
+   - **Full subsection set:** `### 5.1` KCs, `### 5.2` Optional BRSX Modifiers, `### 5.3` Cross-BRS Links, `### 5.4` Co-factors
+   - **PM1-style (no Optional BRSX subsection):** `### 5.1` KCs, `### 5.2` Co-factors, `### 5.3` Cross-BRS Links (omit Optional BRSX when not used; do not renumber KC out of order)
+6. Dietary Levers — `## 6.` body inside `<details><summary><strong>Diet</strong></summary>…` (match FM pages)
+7. Lifestyle Levers — `## 7.` same pattern with `<strong>Lifestyle</strong>`; primary place for timing narrative when `timing_specific: "Yes"`
+8. Scoreable Inputs & Modulation Signals — `## 8.` **only when this PM is scoreable in the ontology**; optional intro paragraph; table (or list) may sit inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…`
+9. References — `## 9. References`
 
-### Profile B — Compact PM (e.g. BRS6 PM2–PM8)
+### Profile A′ — Full narrative PM without Intervention Breakdown body (e.g. BRS6 PM1 legacy outline, BRS6 PM5)
+
+Same as **Profile A** but omit §2 Intervention Breakdown when the PM does not use `intervention_breakdown` in front matter; renumber so Definition → Functional Role → Mechanistic Basis remains contiguous (see **Profile B** numbering for compact pages).
+
+### Profile B — Compact PM (e.g. BRS6 PM2–PM8, BRS6 PM5)
 
 1. Definition — `## 1. Definition`
 2. Mechanistic Basis — `## 2. Mechanistic Basis` (optional `### Summary` + `<details>` as in Profile A when the narrative grows)
@@ -119,8 +132,21 @@ Body sections **do not** include Missing Entities, System Integration, Key Insig
 
 The **Required Top-Level Fields** block is the ingestion and authoring data contract (and may appear in front matter). It is not a one-to-one list of rendered body sections: the published MDX follows **Profile A** or **Profile B** above. Keys such as `outputs_biological_effects`, `inputs`, `constraints_failure_modes`, and `notes` support tooling and related pages; they do not imply extra sections after **References** unless the schema is explicitly extended.
 
+## Automated validation
+
+```bash
+npm run mechanisms:validate
+```
+
+Implementation: `scripts/validate-mechanism-pages.mjs` and `scripts/lib/mechanism-page-validation.mjs` (front matter `timing_specific`, no visible Timing Specific section, extended-profile section order) plus `scripts/lib/pm-mechanistic-basis.mjs` (Mechanistic Basis missing/placeholder checks).
+
+**Mechanistic Basis validation:** if the Mechanistic Basis section (typically `## 4.` on extended PMs, `## 2.`–`## 3.` on compact PMs) is missing or placeholder, validation fails unless the page has `mechanistic_authoring_required: true` in front matter.
+
 ## Validation Rules
 
+- `timing_specific` is required in front matter (`Yes` | `No`); visible `## N. Timing Specific` body sections are forbidden.
+- Mechanistic Basis must be present and non-placeholder unless `mechanistic_authoring_required: true` is set in front matter.
+- When `intervention_breakdown` is present, body must include `## 2. Intervention Breakdown` matching front matter.
 - `overview` must be <=120 words.
 - `functional_mechanism_ownership` must contain exactly one FM (never multiple).
 - `dependencies` must not include PM-to-PM dependencies.

@@ -1,20 +1,20 @@
 ---
-title: "LAT1 Competitive Transport Modulation"
-pm_id: "BRS1(PM2)"
-parent_fm: "BRS1(FM2)"
-parent_brs: "BRS1"
-summary: "Meal composition shifts large neutral amino-acid competition at the blood–brain barrier transporter and alters precursor entry conditions."
+title: LAT1 Competitive Transport Modulation
+pm_id: BRS1(PM2)
+parent_fm: BRS1(FM2)
+parent_brs: BRS1
+summary: Meal composition shifts large neutral amino-acid competition at the blood–brain barrier transporter and alters precursor entry conditions.
 key_constraints:
-  - "BRS1(KC1) - Amino Acid Substrate Sufficiency"
+  - BRS1(KC1) - Amino Acid Substrate Sufficiency
 cofactors:
-  - "B vitamins indirectly"
-intervention_dominance: "Diet-Dominant"
-intervention_breakdown: "Food-State Dominant"
-timing_specific: "Yes"
-dose_sensitivity: "Pattern target rather than single nutrient threshold; depends on protein/carbohydrate composition"
+  - B vitamins indirectly
+intervention_dominance: Diet-Dominant
+intervention_breakdown: Food-State Dominant
+timing_specific: 'Yes'
+dose_sensitivity: Pattern target rather than single nutrient threshold; depends on protein/carbohydrate composition
 references:
-  - "[1] [Wurtman et al. (2003)](/docs/papers/BRAIN-Diet-References#wurtman_effects_2003)"
-  - "[2] [Fernstrom (2013)](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)"
+  - '[1] [Wurtman et al. (2003)](/docs/papers/BRAIN-Diet-References#wurtman_effects_2003)'
+  - '[2] [Fernstrom (2013)](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
 hide_title: true
 ---
 
@@ -28,41 +28,55 @@ Meal composition shifts large neutral amino-acid competition at the blood–brai
 
 Food-State Dominant
 
-## 3. Timing Specific
-
-Yes
-
-## 4. Functional Role
+## 3. Functional Role
 
 ↑ LAT1 transport context; ↑ LNAA competition control; ↑ tyrosine:LNAA / tryptophan:LNAA bias
 
-## 5. Mechanistic Basis
+## 4. Mechanistic Basis
 
 ### Summary
 
-BRS1(PM2) regulates meal composition shifts large neutral amino-acid competition at the blood–brain barrier transporter and alters precursor entry conditions. through dietary substrates, meal composition, and cofactor context described in the BRAIN Diet mechanism model.
+BRS1(PM2) modulates large neutral amino-acid (LNAA) competition at the blood–brain barrier LAT1 transporter through meal macronutrient composition. Carbohydrate–protein balance at meals changes which aromatic and branched-chain amino acids are favoured for brain entry, shaping precursor bias for monoamine pathways supported by BRS1(PM1).
 
 <details>
-<summary><strong>Mechanistic detail</strong></summary>
+<summary><strong>LNAA competition, meal composition, and blood–brain barrier transport</strong></summary>
 
-Truth-layer PM mainly covered by BRS1-FM1 and BRS1-FM2.
+#### (LAT1 and competitive precursor transport)
+
+Aromatic amino acids such as tyrosine and tryptophan cross the blood–brain barrier via the same large neutral amino acid transport system used by other LNAAs. Transport is competitive: the relative plasma concentrations of LNAAs at a given meal determine which precursors are most likely to enter the brain, independent of absolute protein intake alone → [Fernstrom (2013)](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013) [2]
+
+#### (Meal macronutrient effects on plasma ratios)
+
+Meal composition shifts plasma tryptophan:tyrosine and broader LNAA ratios. Carbohydrate-rich meals can increase tryptophan availability relative to competing LNAAs, whereas protein-forward meals raise tyrosine and other LNAA concentrations → [Wurtman et al. (2003)](/docs/papers/BRAIN-Diet-References#wurtman_effects_2003) [1]
+
+BRS1(PM2) therefore governs **transport bias** at the barrier, while [BRS1(PM1)](/docs/biological-targets/brs1/pm/brs1-pm1-tyrosine-tryptophan-precursor-supply) governs whether adequate precursor substrate is present in the first place.
+
+#### (Functional mechanism context)
+
+This PM primarily supports [BRS1(FM2) — Glycaemic Modulation of Neurotransmitter Balance](/docs/biological-targets/brs1/fm/brs1-fm2-glycaemic-modulation-of-neurotransmitter-balance) and interacts with [BRS1(FM1) — Catecholaminergic Function](/docs/biological-targets/brs1/fm/brs1-fm1-catecholaminergic-function) when meal patterns alter catecholamine versus serotonin precursor bias.
+
+#### (Key constraint)
+
+Transport modulation still depends on [BRS1(KC1) — Amino Acid Substrate Sufficiency](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-substrate-sufficiency): without sufficient dietary amino-acid substrate, competitive transport adjustments cannot compensate for low precursor supply.
+
+Together, BRS1(PM2) links meal construction and glycaemic–macronutrient context to blood–brain barrier competition among neurotransmitter precursors.
 
 </details>
 
-## 6. Underlying Mechanisms and Requirements
+## 5. Underlying Mechanisms and Requirements
 
-### 6.1 KCs (Key Constraints)
+### 5.1 KCs (Key Constraints)
 - [BRS1(KC1) - Amino Acid Substrate Sufficiency](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-substrate-sufficiency)
 
-### 6.2 Co-factors
+### 5.2 Co-factors
 
 - B vitamins indirectly
 
-### 6.3 Cross-BRS Links
+### 5.3 Cross-BRS Links
 
 - None listed
 
-## 7. Dietary Levers
+## 6. Dietary Levers
 
 <details>
 <summary><strong>Diet</strong></summary>
@@ -73,7 +87,7 @@ Truth-layer PM mainly covered by BRS1-FM1 and BRS1-FM2.
 
 </details>
 
-## 8. Lifestyle Levers
+## 7. Lifestyle Levers
 
 <details>
 <summary><strong>Lifestyle</strong></summary>
@@ -83,7 +97,7 @@ Truth-layer PM mainly covered by BRS1-FM1 and BRS1-FM2.
 
 </details>
 
-## 9. Scoreable Food-State Inputs
+## 8. Scoreable Inputs & Modulation Signals
 
 This PM is scoreable through food-state and nutrient signals relevant to lat1 competitive transport modulation.
 
@@ -99,7 +113,7 @@ This PM is scoreable through food-state and nutrient signals relevant to lat1 co
 
 </details>
 
-## 10. References
+## 9. References
 
 1. [Wurtman et al. (2003)](/docs/papers/BRAIN-Diet-References#wurtman_effects_2003)
 2. [Fernstrom (2013)](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
