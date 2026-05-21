@@ -360,7 +360,7 @@ function validateConnectedEntityList(data, field, issues, { entityLabel }) {
   }
 }
 
-function validateSmCategoryBlock(data, content, issues, { entityLabel }) {
+function validateSmCategoryFrontMatter(data, content, issues, { entityLabel }) {
   const cat = data.sm_category;
   if (!cat || !SM_CATEGORY_VALUES.has(String(cat).trim())) {
     pushIssue(
@@ -376,19 +376,60 @@ function validateSmCategoryBlock(data, content, issues, { entityLabel }) {
 
   const block = extractInterventionBreakdownBody(content);
   if (!block) return;
-  if (cat && !block.includes(`**Category:** ${String(cat).trim()}`)) {
+  if (/Category:\s*SM-/i.test(block) || /Use case:/i.test(block)) {
     pushIssue(
       issues,
-      "sm_category_body_mismatch",
-      `${entityLabel}: §2 Intervention Breakdown must include **Category:** matching sm_category`,
+      "sm_category_in_body",
+      `${entityLabel}: §2 Intervention Breakdown must contain only the intervention_breakdown value (Category and Use case belong in front matter, not the public body)`,
     );
   }
-  if (useCase && !block.includes(`**Use case:** ${String(useCase).trim()}`)) {
+}
+
+function getUnderlyingBlock(content) {
+  const underlying = parseNumberedSections(content).find((s) =>
+    s.title.startsWith("Underlying Mechanisms"),
+  );
+  if (!underlying) return null;
+  const blockStart = content.indexOf(underlying.line);
+  const after = content.slice(blockStart);
+  const next = after.slice(1).search(/^##\s+\d+\.\s+/m);
+  return next === -1 ? after : after.slice(0, 1 + next);
+}
+
+function validateUnderlyingCofactorsBeforeKcs(content, issues, { entityLabel, expectConnectedPmFm = false }) {
+  const underBlock = getUnderlyingBlock(content);
+  if (!underBlock) return;
+  const subs = [...underBlock.matchAll(/^###\s+\d+\.\d+\s+(.+)$/gm)].map((m) => m[1].trim());
+  if (subs.length < 2) return;
+  if (!/Co-factors/i.test(subs[0])) {
     pushIssue(
       issues,
-      "sm_use_case_body_mismatch",
-      `${entityLabel}: §2 Intervention Breakdown must include **Use case:** matching use_case`,
+      "underlying_cofactors_order",
+      `${entityLabel}: §5.1 must be Co-factors (canonical underlying order)`,
     );
+  }
+  if (!/KCs/i.test(subs[1])) {
+    pushIssue(
+      issues,
+      "underlying_kcs_order",
+      `${entityLabel}: §5.2 must be KCs (Key Constraints)`,
+    );
+  }
+  if (expectConnectedPmFm) {
+    if (!subs.some((t) => /Connected Primary Mechanisms/i.test(t))) {
+      pushIssue(
+        issues,
+        "sm_missing_connected_pms_section",
+        `${entityLabel}: Underlying section must include Connected Primary Mechanisms (PMs)`,
+      );
+    }
+    if (!subs.some((t) => /Connected Functional Mechanisms/i.test(t))) {
+      pushIssue(
+        issues,
+        "sm_missing_connected_fms_section",
+        `${entityLabel}: Underlying section must include Connected Functional Mechanisms (FMs)`,
+      );
+    }
   }
 }
 
@@ -400,6 +441,9 @@ function validatePmPage(filePath) {
   validateTimingSpecificFrontMatter(data, issues, { entityLabel });
   validateNoVisibleTimingSection(content, issues, { entityLabel });
   validatePmExtendedProfile(data, content, issues, { entityLabel });
+  if (pmUsesExtendedProfile(data, content)) {
+    validateUnderlyingCofactorsBeforeKcs(content, issues, { entityLabel });
+  }
 
   return { kind: "pm", filePath, entityId: data.pm_id, ok: issues.length === 0, issues };
 }
@@ -419,34 +463,12 @@ function validateSmPage(filePath) {
   validateTimingSpecificFrontMatter(data, issues, { entityLabel });
   validateNoVisibleTimingSection(content, issues, { entityLabel });
   validatePmExtendedProfile(data, content, issues, { entityLabel });
-  validateSmCategoryBlock(data, content, issues, { entityLabel });
+  validateSmCategoryFrontMatter(data, content, issues, { entityLabel });
   validateConnectedEntityList(data, "connected_pms", issues, { entityLabel });
   validateConnectedEntityList(data, "connected_fms", issues, { entityLabel });
   validateConnectedEntityList(data, "connected_kcs", issues, { entityLabel });
 
-  const underlying = parseNumberedSections(content).find((s) =>
-    s.title.startsWith("Underlying Mechanisms"),
-  );
-  if (underlying) {
-    const blockStart = content.indexOf(underlying.line);
-    const after = content.slice(blockStart);
-    const next = after.slice(1).search(/^##\s+\d+\.\s+/m);
-    const underBlock = next === -1 ? after : after.slice(0, 1 + next);
-    if (!/Connected Primary Mechanisms/i.test(underBlock)) {
-      pushIssue(
-        issues,
-        "sm_missing_connected_pms_section",
-        `${entityLabel}: Underlying section must include Connected Primary Mechanisms (PMs)`,
-      );
-    }
-    if (!/Connected Functional Mechanisms/i.test(underBlock)) {
-      pushIssue(
-        issues,
-        "sm_missing_connected_fms_section",
-        `${entityLabel}: Underlying section must include Connected Functional Mechanisms (FMs)`,
-      );
-    }
-  }
+  validateUnderlyingCofactorsBeforeKcs(content, issues, { entityLabel, expectConnectedPmFm: true });
 
   return { kind: "sm", filePath, entityId: data.sm_id, ok: issues.length === 0, issues };
 }

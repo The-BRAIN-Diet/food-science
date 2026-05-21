@@ -7,9 +7,19 @@ tags:
   - Biological Target
   - Neurotransmitter Regulation
 list_image: /img/icons/biological-targets.svg
+hide_title: true
 ---
 
-# BRS1 - Neurotransmitter Regulation
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs1-portrait-thumbnail.png"
+    alt="BRS1 — Neurotransmitter Regulation"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+
+## BRS1 - Neurotransmitter Regulation
 
 ## Overview
 

@@ -7,9 +7,19 @@ tags:
   - Biological Target
   - Methylation & One-Carbon Metabolism
 list_image: /img/icons/biological-targets.svg
+hide_title: true
 ---
 
-# BRS2 - Methylation & One-Carbon Metabolism
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs2-portrait-thumbnail.png"
+    alt="BRS2 — Methylation & One-Carbon Metabolism"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+
+## BRS2 - Methylation & One-Carbon Metabolism
 
 ## Overview
 

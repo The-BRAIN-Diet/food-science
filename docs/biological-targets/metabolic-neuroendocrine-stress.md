@@ -7,9 +7,18 @@ tags:
   - Biological Target
   - Metabolic & Neuroendocrine Stress
 list_image: /img/icons/biological-targets.svg
+hide_title: true
 ---
 
-# BRS6 - Metabolic & Neuroendocrine Stress
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs6-portrait-thumbnail.png"
+    alt="BRS6 — Metabolic & Neuroendocrine Stress: circadian rhythm, autonomic tone, hormonal coordination, and energy prioritisation"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS6 - Metabolic & Neuroendocrine Stress
 
 ## Overview
 

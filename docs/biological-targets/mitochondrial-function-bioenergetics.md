@@ -7,9 +7,18 @@ tags:
   - Biological Target
   - Mitochondrial Function & Bioenergetics
 list_image: /img/icons/biological-targets.svg
+hide_title: true
 ---
 
-# BRS4 - Mitochondrial Function & Bioenergetics
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs4-portrait-thumbnail.png"
+    alt="BRS4 — Mitochondrial Function & Bioenergetics: ATP production, mitochondrial resilience, and bioenergetic efficiency"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS4 - Mitochondrial Function & Bioenergetics
 
 This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
 

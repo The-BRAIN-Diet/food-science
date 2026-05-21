@@ -60,18 +60,15 @@ One of:
 - `SM-PHEN`
 - `SM-OTHER`
 
-Published in **§2 Intervention Breakdown** immediately after the breakdown value:
+**§2 Intervention Breakdown** in the public body contains **only** the `intervention_breakdown` value (same as PM pages), for example:
 
 ```markdown
 ## 2. Intervention Breakdown
 
 Food-State Leaning
-
-**Category:** SM-PHEN  
-**Use case:** Sensory overwhelm / excitatory–inhibitory instability
 ```
 
-Category and use case in the body must match `sm_category` and `use_case` in front matter.
+`sm_category` and `use_case` are required in **front matter** only — do not repeat them in the §2 body.
 
 ## Section order (Profile A — extended, same as PM)
 
@@ -82,11 +79,11 @@ First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
 3. Functional Role — directional summary oriented to regulatory balance and resilience
 4. Mechanistic Basis — connects connected PMs, FMs, KCs, and cross-BRS context into the interpretive overlay (`### Summary` + `<details>` as on PM pages)
 5. Underlying Mechanisms and Requirements
-   - `### 5.1` Connected Primary Mechanisms (PMs) — required when `connected_pms` non-empty
-   - `### 5.2` Connected Functional Mechanisms (FMs)
-   - `### 5.3` KCs (Key Constraints)
-   - `### 5.4` Cross-BRS Links (optional)
-   - `### 5.5` Co-factors (optional)
+   - `### 5.1` Co-factors
+   - `### 5.2` KCs (Key Constraints)
+   - `### 5.3` Connected Primary Mechanisms (PMs) — required when `connected_pms` non-empty
+   - `### 5.4` Connected Functional Mechanisms (FMs)
+   - `### 5.5` Cross-BRS Links (optional)
 6. Dietary Levers — `<details><summary><strong>Diet</strong></summary>`
 7. Lifestyle Levers — `<details><summary><strong>Lifestyle</strong></summary>`
 8. Scoreable Inputs & Modulation Signals — optional; same table categories as PM/FM
