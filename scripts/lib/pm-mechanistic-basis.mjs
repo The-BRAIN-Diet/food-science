@@ -27,18 +27,26 @@ export const MECHANISTIC_PLACEHOLDER_PATTERNS = [
 const MECHANISTIC_BASIS_HEADING = /^##\s+(\d+)\.\s+Mechanistic Basis\s*$/m;
 const NEXT_MAJOR_SECTION = /^##\s+\d+\.\s+/m;
 
-export function listPmMdxFiles(rootDir = process.cwd()) {
+function listOverlayMdxFiles(rootDir, subdir) {
   const base = path.join(rootDir, "docs/biological-targets");
   const out = [];
   if (!fs.existsSync(base)) return out;
   for (const brs of fs.readdirSync(base)) {
-    const pmDir = path.join(base, brs, "pm");
-    if (!fs.existsSync(pmDir)) continue;
-    for (const f of fs.readdirSync(pmDir)) {
-      if (f.endsWith(".mdx") || f.endsWith(".md")) out.push(path.join(pmDir, f));
+    const dir = path.join(base, brs, subdir);
+    if (!fs.existsSync(dir)) continue;
+    for (const f of fs.readdirSync(dir)) {
+      if (f.endsWith(".mdx") || f.endsWith(".md")) out.push(path.join(dir, f));
     }
   }
   return out.sort();
+}
+
+export function listPmMdxFiles(rootDir = process.cwd()) {
+  return listOverlayMdxFiles(rootDir, "pm");
+}
+
+export function listSmMdxFiles(rootDir = process.cwd()) {
+  return listOverlayMdxFiles(rootDir, "sm");
 }
 
 export function readPmPage(filePath) {
@@ -100,15 +108,16 @@ export function isMechanisticAuthoringDeferred(data) {
   return data?.mechanistic_authoring_required === true;
 }
 
-export function auditPmMechanisticBasis(filePath) {
+export function auditOverlayMechanisticBasis(filePath, { idField = "pm_id" } = {}) {
   const { data, content } = readPmPage(filePath);
+  const entityId = data[idField] || data.pm_id || data.sm_id;
   const deferred = isMechanisticAuthoringDeferred(data);
   const s5 = extractMechanisticBasisSection(content);
 
   if (!s5) {
     return {
       filePath,
-      pm_id: data.pm_id,
+      pm_id: entityId,
       ok: deferred,
       reason: deferred ? "mechanistic_authoring_required" : "missing_mechanistic_basis",
       sectionNum: null,
@@ -124,7 +133,7 @@ export function auditPmMechanisticBasis(filePath) {
   if (placeholder && deferred) {
     return {
       filePath,
-      pm_id: data.pm_id,
+      pm_id: entityId,
       ok: true,
       reason: "mechanistic_authoring_required",
       sectionNum: s5.sectionNum,
@@ -135,13 +144,21 @@ export function auditPmMechanisticBasis(filePath) {
 
   return {
     filePath,
-    pm_id: data.pm_id,
+    pm_id: entityId,
     ok: !placeholder,
     reason: placeholder ? "placeholder_mechanistic_detail" : "ok",
     sectionNum: s5.sectionNum,
     waived: false,
     detailsLength: details.length,
   };
+}
+
+export function auditPmMechanisticBasis(filePath) {
+  return auditOverlayMechanisticBasis(filePath, { idField: "pm_id" });
+}
+
+export function auditSmMechanisticBasis(filePath) {
+  return auditOverlayMechanisticBasis(filePath, { idField: "sm_id" });
 }
 
 /**
@@ -255,4 +272,8 @@ export function applyFromSpreadsheetRows(rows, { rootDir = process.cwd(), dryRun
 
 export function auditAllPmPages(rootDir = process.cwd()) {
   return listPmMdxFiles(rootDir).map(auditPmMechanisticBasis);
+}
+
+export function auditAllSmPages(rootDir = process.cwd()) {
+  return listSmMdxFiles(rootDir).map(auditSmMechanisticBasis);
 }

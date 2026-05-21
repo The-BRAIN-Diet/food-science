@@ -11,36 +11,64 @@ list_image: /img/icons/biological-targets.svg
 
 # BRS2 - Methylation & One-Carbon Metabolism
 
-This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
+## Overview
+
+The Methylation & One-Carbon Metabolism system regulates methyl donor availability, homocysteine recycling, transsulfuration, and SAMe-dependent phospholipid methylation. It links dietary folate, B12, choline, betaine, and sulfur amino-acid patterns to brain-relevant methylation capacity and redox coupling.
+
+One-carbon metabolism connects nutrient intake to epigenetic and neurochemical context; genotype-sensitive pathways (for example MTHFR-related efficiency) may alter how dietary methyl donors are utilised without changing the core FM/PM structure of this BRS.
 
 <details>
 <summary><strong>Methylation & One-Carbon Metabolism Biological Implications</strong></summary>
 
 B vitamins, particularly B6, B2, folate (5-MTHF), and B12, are essential cofactors in the remethylation of homocysteine (Hcy) to methionine, which is subsequently converted to S-adenosylmethionine (SAMe).
 
-A precursor to the key coenzymes FMN (Flavin mononucleotide) and FAD (Flavin adenine dinucleotide). FAD acts as a critical cofactor for MTHFR, linking riboflavin to homocysteine recycling and methylation capacity. Riboflavin coenzymes facilitate the metabolism also of B12, vitamin B6, and niacin.
-
-Elevated plasma homocysteine, a byproduct of methylation, is frequently elevated in ADHD and other neurodegenerative disorders, cognitive impairment, and psychiatric conditions. Hcy is implicated in the induction of oxidative stress, the modulation of oxygen levels, and the initiation of lipid peroxidation pathway.
-
-Trimethylglycine (TMG), also known as betaine, is a dietary methyl donor that helps recycle Hcy to methionine via an alternative pathway. Choline, a precursor to both TMG and phosphatidylcholine (PC), is similarly involved in homocysteine clearance and membrane phospholipid biosynthesis. These pathways are vulnerable to genetic variants such as MTHFR polymorphisms, which reduce the efficiency of folate cycling and methylation, thereby increasing susceptibility to cognitive dysfunction and ADHD-related symptoms (paper.txt, line 483).
-
-Dietary patterns can modulate gene expression and epigenetic regulation through multiple pathways. Nutrients involved in one-carbon metabolism (e.g., folate, riboflavin, B12, choline) can influence methylation dynamics relevant to MTHFR and COMT activity. Polyphenols and omega-3 fatty acids have been shown to upregulate BDNF expression, potentially offsetting functional impacts of the common Val66Met polymorphism (paper.txt, line 484).
-
-Research indicates that deficiencies in vitamins and minerals essential for methylation, such as folate, vitamin B12, and zinc, are correlated to ADHD symptoms and that supplementing these micronutrients has shown potential in supporting methylation and reducing symptom severity (paper.txt, line 245).
+Elevated plasma homocysteine is frequently associated with cognitive and psychiatric contexts; dietary patterns supplying methyl donors, sulfur amino acids, and omega-3 context may support homocysteine modulation and methylation capacity.
 
 ## References
 
-- Riboflavin (B2) is a precursor to the key coenzymes FMN and FAD. FAD acts as a critical cofactor for MTHFR, linking riboflavin to homocysteine recycling and methylation capacity [Aragão et al. 2024](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
-- A large meta-analysis shows that folic acid supplementation (0.5-5 mg/day) typically reduces plasma homocysteine by ~25%. Adding B12 gave an additional ~7% reduction over folate alone [Collaboration 1998](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
-- Long chain ω-3 fatty acids and vitamin B12 contribute meaningfully to homocysteine reduction, and in combination more effectively. One study with vitamin B-12, fish oil, and vitamin B-12+fish oil lowered plasma Hcy concentrations by 22%, 19%, and 39%, respectively [Tao Huang et al. 2015](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
-- B vitamin supplementation slowed cognitive decline only in participants with adequate omega-3 status, supporting a nutrient synergy model [Oulhaj et al. 2016](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
-- Elevated plasma homocysteine is frequently elevated in ADHD and other neurodegenerative disorders, cognitive impairment, and psychiatric conditions [Yu et al. 2020](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020)
-- Elevated plasma homocysteine is frequently elevated in ADHD and other neurodegenerative disorders [Luzzi et al. 2022](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022)
-- Elevated plasma homocysteine is frequently elevated in ADHD and other neurodegenerative disorders, cognitive impairment, and psychiatric conditions [Lukovac et al. 2024](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
-- Hcy is implicated in the induction of oxidative stress, the modulation of oxygen levels, and the initiation of lipid peroxidation pathway [Lukovac et al. 2024](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
-- Deficiencies in vitamins and minerals essential for methylation, such as folate, vitamin B12, and zinc, are correlated to ADHD symptoms and supplementing these micronutrients has shown potential in supporting methylation and reducing symptom severity [Razavinia et al. 2024](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024)
-- Vitamins and minerals function as indispensable micronutrients and enzymatic cofactors in all pivotal brain biology pathways, aiding neurotransmitter synthesis, mitochondrial energy production, DNA repair, antioxidant defense, methylation, and the regulation of neuroplasticity [Tardy et al. 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
-- B-vitamins play a central role in brain biology pathways [Kennedy 2016](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
-- A lowered abundance of Bifidobacterium longum in infancy has been associated with increased risk of developing ADHD and Asperger syndrome in childhood [Pärtty et al. 2015](/docs/papers/BRAIN-Diet-References#partty_possible_2015)
+- [Collaboration (1998)](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
+- [Oulhaj et al. (2016)](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
+- [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
 
 </details>
+
+---
+
+## Functional Mechanisms
+
+These functional mechanisms represent connected groupings of biological mechanisms and dietary control points through which this system can be influenced.
+
+### Core Functional Mechanisms
+
+- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm/brs2-fm1-methylation-cycle-efficiency): Diet-actionable control point regulating one-carbon flux, homocysteine recycling, and methyl donor availability.
+- [BRS2(FM2) — Transsulfuration & Redox Coupling](/docs/biological-targets/brs2/fm/brs2-fm2-transsulfuration-redox-coupling): Functional coupling of homocysteine disposal to cysteine and glutathione production.
+- [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm/brs2-fm3-methylation-membrane-coupling): Functional coupling of SAMe-dependent phospholipid methylation to neuronal membrane integrity and signaling.
+
+---
+
+## Requirements (Key Constraints)
+
+- [BRS2(KC1) — Methyl Donor Sufficiency](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency): Availability of folate, B12, choline, and betaine required for one-carbon transfer and remethylation.
+- [BRS2(KC2) — Amino Acid Substrate Sufficiency](/docs/biological-targets/brs2/kc/brs2-kc2-amino-acid-substrate-sufficiency): Availability of methionine, serine, glycine, and cysteine supporting methionine cycle and transsulfuration.
+
+---
+
+## Primary Mechanisms
+
+Primary mechanisms sit beneath functional mechanisms and define specific regulatory processes. Browse by functional mechanism above, or use these direct links:
+
+- [BRS2(PM1) — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation)
+- [BRS2(PM2) — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation)
+- [BRS2(PM3) — SAMe Synthesis](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis)
+- [BRS2(PM4) — Methionine Cycle Flux](/docs/biological-targets/brs2/pm/brs2-pm4-methionine-cycle-flux)
+- [BRS2(PM5) — Transsulfuration Pathway](/docs/biological-targets/brs2/pm/brs2-pm5-transsulfuration-pathway)
+- [BRS2(PM6) — Glutathione Synthesis](/docs/biological-targets/brs2/pm/brs2-pm6-glutathione-synthesis)
+- [BRS2(PM7) — Phospholipid Methylation](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation)
+
+---
+
+## Specific Mechanisms
+
+Context-specific expressions of stable biological regulation associated with phenotype patterns, therapeutic-area dynamics, and variant-sensitive modulation.
+
+- [BRS2(S1) — SNP-Sensitive Methylation Efficiency](/docs/biological-targets/brs2/sm/brs2-s1-snp-sensitive-methylation-efficiency)

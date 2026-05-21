@@ -22,7 +22,7 @@ def parse_id_and_name(cell):
     parts = re.split(r"\s*[—–]\s*", raw, maxsplit=1)
     id_part = parts[0].strip()
     name = parts[1].strip() if len(parts) > 1 else id_part
-    m = re.match(r"(BRS\d+)[-\(](FM|PM|KC|SM|S)(\d+)\)", id_part, re.I)
+    m = re.match(r"(BRS\d+)[-\(](FM|PM|KC|SM|S)(\d+)\)?", id_part, re.I)
     if not m:
         return None, None
     canonical_id = f"{m.group(1).upper()}({m.group(2).upper()}{m.group(3)})"

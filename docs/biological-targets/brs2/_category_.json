@@ -1,0 +1,10 @@
+{
+  "label": "BRS2 - Methylation & One-Carbon Metabolism",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "biological-targets/methylation-one-carbon-metabolism"
+  },
+  "collapsed": false,
+  "collapsible": true
+}

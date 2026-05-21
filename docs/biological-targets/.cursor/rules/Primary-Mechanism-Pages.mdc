@@ -58,7 +58,7 @@ Dose:
 Constraints:
 - Must not introduce new PMs, FMs, or KCs
 - Must not include scoring logic
-- Must not include SMs during initial rollout
+- PM pages define core mechanism biology; interpretive overlays belong on SM pages (`docs/biological-targets/**/sm/`) per `system/specific-mechanism-schema.md`
 - Must not list foods unless mechanistically justified
 
 Substances & Foods:

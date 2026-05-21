@@ -16,6 +16,10 @@ It is derived from the PM specification and enforces one-to-one FM ownership.
 - When schema structure and spreadsheet interpretation need coordination, do not
   infer; resolve using the spreadsheet schema and generation rules.
 
+## Related: Specific Mechanisms (SM)
+
+SM pages reuse this schema’s **Profile A extended** rendering contract (section order, collapsibles, scoreable table, timing front matter). See `system/specific-mechanism-schema.md`. SMs are interpretive overlays — not additional PM ontology.
+
 ## Scope
 
 - Represents a specific intervention-influenceable biological mechanism.

@@ -17,6 +17,8 @@ export const INTERVENTION_BREAKDOWN_VALUES = new Set([
   "Behavioural/Lifestyle Dominant",
 ]);
 
+export const SM_CATEGORY_VALUES = new Set(["SM-ADHD", "SM-SNP", "SM-PHEN", "SM-OTHER"]);
+
 const TIMING_BODY_HEADING = /^##\s+\d+\.\s+Timing Specific\s*$/m;
 
 export const SCOREABLE_SECTION_TITLE = "Scoreable Inputs & Modulation Signals";
@@ -301,53 +303,152 @@ const PM_EXTENDED_AFTER_INTERVENTION = [
   "Lifestyle Levers",
 ];
 
+function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
+  const extended = pmUsesExtendedProfile(data, content);
+  if (!extended) {
+    const sections = parseNumberedSections(content);
+    validateContiguousNumbering(sections, issues, { entityLabel });
+    validateScoreableSection(content, issues, { entityLabel });
+    return;
+  }
+
+  validateInterventionBreakdown(data, content, issues, {
+    entityLabel,
+    required: true,
+  });
+  const sections = parseNumberedSections(content);
+  validateContiguousNumbering(sections, issues, { entityLabel });
+  validateScoreableSection(content, issues, { entityLabel });
+
+  const core = sections.filter(
+    (s) =>
+      !/References/i.test(s.title) &&
+      !/Scoreable Inputs & Modulation Signals/i.test(s.title) &&
+      !/Scoreable Food-State Inputs/i.test(s.title),
+  );
+  if (core.length >= 4) {
+    const titles = core.slice(0, 5).map((s) => normalizeSectionTitle(s.title));
+    if (titles[0] !== "Definition") {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §1 must be Definition`);
+    }
+    if (titles[1] !== "Intervention Breakdown") {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §2 must be Intervention Breakdown`);
+    }
+    if (titles[2] !== "Functional Role") {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §3 must be Functional Role`);
+    }
+    if (!titles[3]?.startsWith("Mechanistic Basis")) {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §4 must be Mechanistic Basis in extended profile`);
+    }
+  }
+}
+
+function validateConnectedEntityList(data, field, issues, { entityLabel }) {
+  const list = data[field];
+  if (!Array.isArray(list) || list.length === 0) {
+    pushIssue(issues, `missing_${field}`, `${entityLabel}: ${field} must be a non-empty array in front matter`);
+    return;
+  }
+  for (const [i, item] of list.entries()) {
+    if (!item?.id || !item?.name || !item?.href) {
+      pushIssue(
+        issues,
+        `invalid_${field}_entry`,
+        `${entityLabel}: ${field}[${i}] requires id, name, and href`,
+      );
+    }
+  }
+}
+
+function validateSmCategoryBlock(data, content, issues, { entityLabel }) {
+  const cat = data.sm_category;
+  if (!cat || !SM_CATEGORY_VALUES.has(String(cat).trim())) {
+    pushIssue(
+      issues,
+      "invalid_sm_category",
+      `${entityLabel}: sm_category must be one of SM-ADHD, SM-SNP, SM-PHEN, SM-OTHER`,
+    );
+  }
+  const useCase = data.use_case;
+  if (!useCase || String(useCase).trim() === "") {
+    pushIssue(issues, "missing_use_case", `${entityLabel}: use_case is required in front matter`);
+  }
+
+  const block = extractInterventionBreakdownBody(content);
+  if (!block) return;
+  if (cat && !block.includes(`**Category:** ${String(cat).trim()}`)) {
+    pushIssue(
+      issues,
+      "sm_category_body_mismatch",
+      `${entityLabel}: §2 Intervention Breakdown must include **Category:** matching sm_category`,
+    );
+  }
+  if (useCase && !block.includes(`**Use case:** ${String(useCase).trim()}`)) {
+    pushIssue(
+      issues,
+      "sm_use_case_body_mismatch",
+      `${entityLabel}: §2 Intervention Breakdown must include **Use case:** matching use_case`,
+    );
+  }
+}
+
 function validatePmPage(filePath) {
   const { data, content } = readMechanismPage(filePath);
   const entityLabel = data.pm_id || path.basename(filePath);
   const issues = [];
-  const extended = pmUsesExtendedProfile(data, content);
 
   validateTimingSpecificFrontMatter(data, issues, { entityLabel });
   validateNoVisibleTimingSection(content, issues, { entityLabel });
-
-  if (extended) {
-    validateInterventionBreakdown(data, content, issues, {
-      entityLabel,
-      required: true,
-    });
-    const sections = parseNumberedSections(content);
-    validateContiguousNumbering(sections, issues, { entityLabel });
-
-    validateScoreableSection(content, issues, { entityLabel });
-
-    const core = sections.filter(
-      (s) =>
-        !/References/i.test(s.title) &&
-        !/Scoreable Inputs & Modulation Signals/i.test(s.title) &&
-        !/Scoreable Food-State Inputs/i.test(s.title),
-    );
-    if (core.length >= 4) {
-      const titles = core.slice(0, 5).map((s) => normalizeSectionTitle(s.title));
-      const expected = ["Definition", "Intervention Breakdown", ...PM_EXTENDED_AFTER_INTERVENTION.slice(0, 3)];
-      for (let i = 0; i < Math.min(4, expected.length); i++) {
-        const exp = expected[i];
-        const got = titles[i] || "";
-        if (i === 3 && got.startsWith("Mechanistic Basis")) continue;
-        if (i === 2 && got === "Functional Role") continue;
-        if (i === 1 && got === "Intervention Breakdown") continue;
-        if (i === 0 && got === "Definition") continue;
-        if (i === 3 && !got.startsWith("Mechanistic Basis")) {
-          pushIssue(issues, "pm_section_order", `${entityLabel}: expected Mechanistic Basis as §4 in extended profile`);
-        }
-      }
-    }
-  } else {
-    const sections = parseNumberedSections(content);
-    validateContiguousNumbering(sections, issues, { entityLabel });
-    validateScoreableSection(content, issues, { entityLabel });
-  }
+  validatePmExtendedProfile(data, content, issues, { entityLabel });
 
   return { kind: "pm", filePath, entityId: data.pm_id, ok: issues.length === 0, issues };
+}
+
+function validateSmPage(filePath) {
+  const { data, content } = readMechanismPage(filePath);
+  const entityLabel = data.sm_id || path.basename(filePath);
+  const issues = [];
+
+  if (!data.sm_id) {
+    pushIssue(issues, "missing_sm_id", `${entityLabel}: sm_id is required in front matter`);
+  }
+  if (!data.parent_brs) {
+    pushIssue(issues, "missing_parent_brs", `${entityLabel}: parent_brs is required in front matter`);
+  }
+
+  validateTimingSpecificFrontMatter(data, issues, { entityLabel });
+  validateNoVisibleTimingSection(content, issues, { entityLabel });
+  validatePmExtendedProfile(data, content, issues, { entityLabel });
+  validateSmCategoryBlock(data, content, issues, { entityLabel });
+  validateConnectedEntityList(data, "connected_pms", issues, { entityLabel });
+  validateConnectedEntityList(data, "connected_fms", issues, { entityLabel });
+  validateConnectedEntityList(data, "connected_kcs", issues, { entityLabel });
+
+  const underlying = parseNumberedSections(content).find((s) =>
+    s.title.startsWith("Underlying Mechanisms"),
+  );
+  if (underlying) {
+    const blockStart = content.indexOf(underlying.line);
+    const after = content.slice(blockStart);
+    const next = after.slice(1).search(/^##\s+\d+\.\s+/m);
+    const underBlock = next === -1 ? after : after.slice(0, 1 + next);
+    if (!/Connected Primary Mechanisms/i.test(underBlock)) {
+      pushIssue(
+        issues,
+        "sm_missing_connected_pms_section",
+        `${entityLabel}: Underlying section must include Connected Primary Mechanisms (PMs)`,
+      );
+    }
+    if (!/Connected Functional Mechanisms/i.test(underBlock)) {
+      pushIssue(
+        issues,
+        "sm_missing_connected_fms_section",
+        `${entityLabel}: Underlying section must include Connected Functional Mechanisms (FMs)`,
+      );
+    }
+  }
+
+  return { kind: "sm", filePath, entityId: data.sm_id, ok: issues.length === 0, issues };
 }
 
 /**
@@ -403,6 +504,7 @@ export function migrateAllTimingSections(rootDir = process.cwd(), opts = {}) {
   const files = [
     ...listMechanismMdxFiles(rootDir, "fm"),
     ...listMechanismMdxFiles(rootDir, "pm"),
+    ...listMechanismMdxFiles(rootDir, "sm"),
   ];
   return files.map((f) => migrateTimingSectionInFile(f, opts));
 }
@@ -410,5 +512,6 @@ export function migrateAllTimingSections(rootDir = process.cwd(), opts = {}) {
 export function validateAllMechanismPages(rootDir = process.cwd()) {
   const fm = listMechanismMdxFiles(rootDir, "fm").map((f) => validateFmPage(f, { rootDir }));
   const pm = listMechanismMdxFiles(rootDir, "pm").map(validatePmPage);
-  return { fm, pm, all: [...fm, ...pm] };
+  const sm = listMechanismMdxFiles(rootDir, "sm").map(validateSmPage);
+  return { fm, pm, sm, all: [...fm, ...pm, ...sm] };
 }

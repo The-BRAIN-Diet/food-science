@@ -18,7 +18,7 @@ const BIB_PATH = path.join(process.cwd(), "static/bibtex/BRAIN-diet.bib");
 
 const MANUAL_CITATION_KEYS = {
   "collaboration 1998": "collaboration_lowering_1998",
-  "tao huang 2015": "tao_huang_httpswwwresearchgatenetpublication283712589_effect_of_vitamin_b-12_and_n-3_polyunsaturated_fatty_acids_on_plasma_homocysteine_ferritin_c-reactive_protein_and_other_cardiovascular_risk_factors_a_randomized_controlled_trial_nodate",
+  "tao huang 2015": "tao_huang_effect_2015",
   "oulhaj 2016": "oulhaj_omega-3_2016",
   "aragão 2014": "aragao_revitalising_2024",
   "aragao 2024": "aragao_revitalising_2024",
@@ -29,6 +29,9 @@ const MANUAL_CITATION_KEYS = {
   "chiang 1996": "chiang_s-adenosylmethionine_1996",
   "kumar 2017": "kumar_transsulfuration_2017",
   "sekhar 2011": "sekhar_glutathione_2011",
+  "hünnerkopf 2007": "hunnerkopf_interaction_2007",
+  "hunnerkopf 2007": "hunnerkopf_interaction_2007",
+  "ziaei 2024": "ziaei_systematic_2024",
 };
 
 let bibCache = null;
@@ -51,9 +54,10 @@ function resolveCitationKey(studyLine) {
   if (!line) return null;
   const m = line.match(/^([^(]+)\s*\((\d{4})\)/);
   if (!m) return null;
-  const manual = MANUAL_CITATION_KEYS[`${m[1].trim().toLowerCase()} ${m[2]}`];
+  const authorLabel = m[1].trim().replace(/\s+et\s+al\.?$/i, "");
+  const manual = MANUAL_CITATION_KEYS[`${authorLabel.toLowerCase()} ${m[2]}`];
   if (manual && fs.existsSync(BIB_PATH)) return manual;
-  const surname = m[1].trim().split(/\s+/).pop().toLowerCase();
+  const surname = authorLabel.split(/\s+/).pop().toLowerCase();
   const year = m[2];
   const hit = loadBib().find(
     (e) => e.year === year && e.author.toLowerCase().includes(surname),
@@ -88,6 +92,11 @@ function buildReferences(studies) {
   return { refs, numbered };
 }
 
+function entityNum(id) {
+  const m = String(id).match(/\((FM|PM|KC)(\d+)\)/i);
+  return m ? m[2] : "0";
+}
+
 function slugify(brsNum, kind, num, name) {
   const base = name
     .toLowerCase()
@@ -101,10 +110,13 @@ function slugify(brsNum, kind, num, name) {
 function parseEntityRefs(text) {
   if (!text) return [];
   const out = [];
+  const seen = new Set();
   const re =
-    /BRS(\d+)[-\(](FM|PM|KC)(\d+)\)?\s*(?:\([^)]*\))?\s*(?:[—–-]\s*)?([^;]+)?/gi;
+    /BRS(\d+)[-\(](FM|PM|KC)(\d+)\)?(?:\s*\(([^)]+)\))?(?:\s*→[^;]*)?/gi;
   for (const m of text.matchAll(re)) {
     const id = `BRS${m[1]}(${m[2].toUpperCase()}${m[3]})`;
+    if (seen.has(id)) continue;
+    seen.add(id);
     const name = (m[4] || "").trim();
     out.push({ id, name });
   }
@@ -149,19 +161,25 @@ function exportSpreadsheet(brs, xlsxPath) {
 }
 
 function integratedFmDefinition(fm, pms) {
-  const clauses = pms.map((p) => p.name.toLowerCase());
+  const clauses = pms.map((p) => (p.name || p.id));
   if (clauses.length === 0) return fm.description;
   const list =
     clauses.length === 1
       ? clauses[0]
       : `${clauses.slice(0, -1).join(", ")}, and ${clauses[clauses.length - 1]}`;
-  return `Integrated regulation of ${list}, influencing ${fm.description.replace(/^Diet-actionable control point regulating /i, "").replace(/^Functional /i, "").replace(/\.$/, "")}.`;
+  const outcome = fm.description
+    .replace(/^Diet-actionable control point regulating /i, "")
+    .replace(/^Functional coupling of /i, "")
+    .replace(/^Functional /i, "")
+    .replace(/\.$/, "");
+  return `Integrated regulation of ${list}, influencing ${outcome}.`;
 }
 
 function mechanisticBasisFm(fm, pms) {
-  const lines = pms.map(
-    (p, i) => `${p.id.replace(/BRS\d+\(PM(\d+)\)/, "PM$1")} governs ${p.name.toLowerCase()}.`,
-  );
+  const lines = pms.map((p) => {
+    const label = p.id.replace(/BRS\d+\(PM(\d+)\)/i, "PM$1");
+    return `${label} governs ${p.name || p.id}.`;
+  });
   return `${fm.description}\n\n${lines.join(" ")}\n\nTogether, these PMs operationalise ${fm.id} as a coordinated methylation and one-carbon control point. ${fm.outputs ? `Emergent functional consequence: ${fm.outputs.replace(/;/g, "; ")}.` : ""}`;
 }
 
@@ -179,13 +197,17 @@ export function generateBrsFromSpreadsheet({
 
   const slugById = new Map();
   for (const e of data.entities) {
-    const num = e.id.match(/\d+/)?.[0];
-    slugById.set(e.id, slugify(brsNum, e.kind.toLowerCase(), num, e.name));
+    slugById.set(e.id, slugify(brsNum, e.kind.toLowerCase(), entityNum(e.id), e.name));
   }
 
   const fmPmMap = new Map();
   for (const fm of byKind.FM) {
-    const pms = parseEntityRefs(fm.pms_covered).filter((r) => r.id.includes("(PM"));
+    const pms = parseEntityRefs(fm.pms_covered)
+      .filter((r) => r.id.includes("(PM"))
+      .map((p) => {
+        const full = byKind.PM.find((x) => x.id === p.id);
+        return { id: p.id, name: full?.name || p.name || p.id };
+      });
     fmPmMap.set(fm.id, pms);
   }
 
@@ -207,7 +229,6 @@ export function generateBrsFromSpreadsheet({
   }
 
   for (const kc of byKind.KC) {
-    const num = kc.id.match(/\d+/)?.[0];
     const slug = slugById.get(kc.id);
     const interventions = parseInterventions(kc.interventions);
     const linkedFms = byKind.FM.filter((fm) => parseEntityRefs(fm.fm_coverage).some((r) => r.id === kc.id));
@@ -378,10 +399,9 @@ ${refBlock}
 
   for (const fm of byKind.FM) {
     const slug = slugById.get(fm.id);
-    const pms = (fmPmMap.get(fm.id) || []).map((p) => {
-      const full = byKind.PM.find((x) => x.id === p.id);
-      return { ...p, name: full?.name || p.name };
-    });
+    const pms = (fmPmMap.get(fm.id) || [])
+      .map((p) => byKind.PM.find((x) => x.id === p.id) || p)
+      .filter(Boolean);
     const kcs = parseEntityRefs(fm.fm_coverage).filter((r) => r.id.includes("(KC"));
     const cross = parseEntityRefs(fm.connected).filter((r) => /BRS\d+\(FM/.test(r.id));
     const { refs } = buildReferences(parseKeyStudies(fm.key_studies));
@@ -603,8 +623,10 @@ ${pms
       ) + "\n",
     );
     for (const sub of ["fm", "pm", "kc"]) {
+      const subDir = path.join(catDir, sub);
+      fs.mkdirSync(subDir, { recursive: true });
       fs.writeFileSync(
-        path.join(catDir, sub, "_category_.json"),
+        path.join(subDir, "_category_.json"),
         JSON.stringify({ label: sub.toUpperCase(), collapsed: true }, null, 2) + "\n",
       );
     }
