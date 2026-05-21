@@ -17,10 +17,12 @@ Follow:
 system/primary-mechanism-schema.md
 
 Structure:
-- Follow `system/primary-mechanism-schema.md` **Section Order** (Profile A vs Profile B). Profile A = full narrative (e.g. BRS6 PM1: Functional Role, Scoreable section when used). Profile B = compact (e.g. BRS6 PM2–PM8: no separate Functional Role; use **Functional Outputs (Directional Effects)** before References; no Scoreable section unless you intentionally add one and renumber).
+- Follow `system/primary-mechanism-schema.md` **Section Order** (Profile A extended vs Profile A′ / Profile B). Extended profile = Intervention Breakdown in body (§2) when `intervention_breakdown` is in front matter; **no** standalone `## N. Timing Specific` section.
+- `timing_specific` (`Yes` | `No`) is **required in front matter** on every PM page. It is ontology metadata for traversal, filtering, and scoring — not a public Yes/No body section.
+- Where timing materially alters interpretation, discuss this naturally within **Functional Role**, **Mechanistic Basis**, **Lifestyle Levers**, or **Scoreable Inputs & Modulation Signals**.
 - The in-body mechanism title line (e.g. `BRS6(PM1) - …`) must use markdown `##` so it matches numbered section headings; do not use `#` or `###` for that line.
-- **Mechanistic Basis:** for long narrative, use `### Summary` (always visible) plus a `<details>` block for the full mechanistic text (see BRS6 PM1); short PMs may keep a single short `## 2.` or `## 3.` section without Summary/details.
-- **Underlying:** subsection depth is `###` under the parent `##` (e.g. `### 3.1`, `### 4.1`). Use either the full KC → Optional BRSX → Cross-BRS → Co-factors set, or the PM1-style omission of Optional BRSX with Co-factors before Cross-BRS, as documented in the schema.
+- **Mechanistic Basis:** for long narrative, use `### Summary` (always visible) plus a `<details>` block for the full mechanistic text (see BRS6 PM1); short PMs may keep a single short Mechanistic Basis section without Summary/details.
+- **Underlying:** subsection depth is `###` under the parent `##` (e.g. `### 5.1`, `### 5.2` on extended profile). Use either the full KC → Optional BRSX → Cross-BRS → Co-factors set, or the PM1-style omission of Optional BRSX with Co-factors before Cross-BRS, as documented in the schema.
 - **Dietary Levers** and **Lifestyle Levers** are separate numbered sections; body content uses the same `<details>` / `<summary><strong>Diet</strong></summary>` and `<summary><strong>Lifestyle</strong></summary>` pattern as FM pages.
 - Do not add body sections after **References**. No **Missing Entities** section on the PM page.
 
@@ -35,6 +37,8 @@ Field interpretation:
   - Exactly one FM ownership
 - Intervention dominance must be interpreted as:
   - Intervention dominance (inherit from FM unless justified)
+- `intervention_breakdown` and `timing_specific` must be present in front matter when using the extended profile; validate with `npm run mechanisms:validate`.
+- Mechanistic Basis must be complete (not missing/placeholder) unless `mechanistic_authoring_required: true` is set in front matter to defer authoring.
 
 Mechanism rules:
 - PM must map to exactly one FM
@@ -54,7 +58,7 @@ Dose:
 Constraints:
 - Must not introduce new PMs, FMs, or KCs
 - Must not include scoring logic
-- Must not include SMs during initial rollout
+- PM pages define core mechanism biology; interpretive overlays belong on SM pages (`docs/biological-targets/**/sm/`) per `system/specific-mechanism-schema.md`
 - Must not list foods unless mechanistically justified
 
 Substances & Foods:

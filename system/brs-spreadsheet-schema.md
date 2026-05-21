@@ -292,6 +292,26 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - Intervention Dominance -> intervention dominance
 - Column P -> single FM ownership
 
+### PM §5 Mechanistic Basis (spreadsheet extension)
+
+After PM MDX shell generation, populate **§5 Mechanistic Basis** via `scripts/generate-pm-mechanistic-basis.mjs` (or flag with `npm run mechanisms:validate`).
+
+Optional row field `mechanistic_detail`:
+
+```yaml
+mechanistic_detail:
+  summary: string              # optional override of §5 Summary
+  details_title: string        # <details> summary label
+  closing: string              # optional closing paragraph
+  blocks:
+    - heading: string          # rendered as #### (heading)
+      paragraphs: [string]     # one or more paragraphs; embed [n] citations
+```
+
+If `mechanistic_detail.blocks` is absent, conversion must leave a detectable placeholder or the validator will fail with `placeholder_mechanistic_detail`.
+
+Key studies in spreadsheet rows should use bibliography keys resolvable in `static/bibtex/BRAIN-diet.bib`.
+
 ## Enforcement Checklist
 
 - No inferred data.

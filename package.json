@@ -5,6 +5,8 @@
   "scripts": {
     "brs:audit": "node scripts/brs-audit.mjs",
     "brs:repair": "node scripts/brs-repair.mjs",
+    "mechanisms:validate": "node scripts/validate-mechanism-pages.mjs",
+    "mechanisms:generate-pm-basis": "node scripts/generate-pm-mechanistic-basis.mjs",
     "inchi:repair": "node scripts/inchi-repair.mjs",
     "nutrition:fetch": "node scripts/fetch-usda-nutrition.mjs",
     "nutrition:enrich": "node scripts/enrich-nutrition-from-overview.mjs",

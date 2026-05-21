@@ -1,23 +1,23 @@
 ---
-title: "Tyrosine / Tryptophan Precursor Supply"
-pm_id: "BRS1(PM1)"
-parent_fm: "BRS1(FM1)"
-parent_brs: "BRS1"
-summary: "Provision of the direct amino-acid substrates required for catecholamine and serotonin synthesis."
+title: Tyrosine / Tryptophan Precursor Supply
+pm_id: BRS1(PM1)
+parent_fm: BRS1(FM1)
+parent_brs: BRS1
+summary: Provision of the direct amino-acid substrates required for catecholamine and serotonin synthesis.
 key_constraints:
-  - "BRS1(KC1) - Amino Acid Substrate Sufficiency"
+  - BRS1(KC1) - Amino Acid Substrate Sufficiency
 cofactors:
-  - "B6"
-  - "iron"
-  - "folate"
-  - "vitamin C"
-intervention_dominance: "Diet-Dominant"
-intervention_breakdown: "Food-State Dominant"
-timing_specific: "Yes"
-dose_sensitivity: "~25–40 g protein per meal with meaningful aromatic amino acid supply"
+  - B6
+  - iron
+  - folate
+  - vitamin C
+intervention_dominance: Diet-Dominant
+intervention_breakdown: Food-State Dominant
+timing_specific: 'Yes'
+dose_sensitivity: ~25–40 g protein per meal with meaningful aromatic amino acid supply
 references:
-  - "[1] [Wurtman et al. (2003)](/docs/papers/BRAIN-Diet-References#wurtman_effects_2003)"
-  - "[2] [Fernstrom (2013)](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)"
+  - '[1] [Wurtman et al. (2003)](/docs/papers/BRAIN-Diet-References#wurtman_effects_2003)'
+  - '[2] [Fernstrom (2013)](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
 hide_title: true
 ---
 
@@ -31,44 +31,58 @@ Provision of the direct amino-acid substrates required for catecholamine and ser
 
 Food-State Dominant
 
-## 3. Timing Specific
-
-Yes
-
-## 4. Functional Role
+## 3. Functional Role
 
 ↑ tyrosine supply; ↑ tryptophan supply
 
-## 5. Mechanistic Basis
+## 4. Mechanistic Basis
 
 ### Summary
 
-BRS1(PM1) regulates provision of the direct amino-acid substrates required for catecholamine and serotonin synthesis. through dietary substrates, meal composition, and cofactor context described in the BRAIN Diet mechanism model.
+BRS1(PM1) regulates provision of the direct amino-acid substrates required for catecholamine and serotonin synthesis through dietary protein, meal composition, and cofactor context at the meal level. Tyrosine and tryptophan from food must be present in sufficient quantity and availability for downstream monoamine pathways to remain substrate-supported.
 
 <details>
-<summary><strong>Mechanistic detail</strong></summary>
+<summary><strong>Precursor supply, meal composition, and brain amino-acid entry</strong></summary>
 
-Truth-layer PM mainly aggregated inside BRS1-FM1.
+#### (Dietary protein and aromatic amino-acid substrates)
+
+Catecholamine and serotonin synthesis depend on adequate dietary supply of tyrosine and tryptophan, the respective aromatic amino-acid precursors. Protein-rich meals provide the primary dietary source of both precursors; insufficient protein intake or poor distribution across the day can limit precursor availability before transport and enzymatic conversion steps are considered.
+
+#### (Meal composition and plasma precursor ratios)
+
+The relative availability of tyrosine and tryptophan in plasma is not determined by protein quantity alone. Normal meals differing in carbohydrate and protein composition alter plasma tryptophan and tyrosine ratios, changing the substrate context presented to brain transport and synthesis pathways → [Wurtman et al. (2003)](/docs/papers/BRAIN-Diet-References#wurtman_effects_2003) [1]
+
+Carbohydrate-rich meals can increase the plasma tryptophan ratio relative to competing large neutral amino acids (LNAAs), whereas protein-forward meals tend to raise tyrosine and other LNAA concentrations. BRS1(PM1) therefore operates at the level of **what precursors the meal delivers**, while competitive transport bias at the blood–brain barrier is handled separately by BRS1(PM2).
+
+#### (Cofactor context for precursor conversion)
+
+Precursor supply is necessary but not sufficient for efficient neurotransmitter synthesis. Tyrosine hydroxylase requires iron and B6-dependent coenzyme chemistry for catecholamine synthesis; broader B-vitamin and vitamin C context supports one-carbon and redox chemistry relevant to neurotransmitter pathways. These cofactors are listed under §5.2 and must remain available when precursor intake is adequate.
+
+#### (Key constraint and meal-level regulation)
+
+BRS1(PM1) depends on [BRS1(KC1) — Amino Acid Substrate Sufficiency](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-substrate-sufficiency): meaningful amino-acid substrate must be present at meals for this PM to support FM1. Dietary patterns that establish reliable aromatic amino-acid and LNAA supply underpin brain neurochemistry linked to attention, arousal, and mood-related signalling → [Fernstrom (2013)](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013) [2]
+
+Together, these relationships define BRS1(PM1) as a meal-level regulatory mechanism linking dietary protein, aromatic amino-acid supply, and cofactor context to substrate support for catecholaminergic and serotonergic pathways.
 
 </details>
 
-## 6. Underlying Mechanisms and Requirements
+## 5. Underlying Mechanisms and Requirements
 
-### 6.1 KCs (Key Constraints)
+### 5.1 KCs (Key Constraints)
 - [BRS1(KC1) - Amino Acid Substrate Sufficiency](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-substrate-sufficiency)
 
-### 6.2 Co-factors
+### 5.2 Co-factors
 
 - B6
 - iron
 - folate
 - vitamin C
 
-### 6.3 Cross-BRS Links
+### 5.3 Cross-BRS Links
 
 - None listed
 
-## 7. Dietary Levers
+## 6. Dietary Levers
 
 <details>
 <summary><strong>Diet</strong></summary>
@@ -80,7 +94,7 @@ Truth-layer PM mainly aggregated inside BRS1-FM1.
 
 </details>
 
-## 8. Lifestyle Levers
+## 7. Lifestyle Levers
 
 <details>
 <summary><strong>Lifestyle</strong></summary>
@@ -90,7 +104,7 @@ Truth-layer PM mainly aggregated inside BRS1-FM1.
 
 </details>
 
-## 9. Scoreable Food-State Inputs
+## 8. Scoreable Inputs & Modulation Signals
 
 This PM is scoreable through food-state and nutrient signals relevant to tyrosine / tryptophan precursor supply.
 
@@ -106,7 +120,7 @@ This PM is scoreable through food-state and nutrient signals relevant to tyrosin
 
 </details>
 
-## 10. References
+## 9. References
 
 1. [Wurtman et al. (2003)](/docs/papers/BRAIN-Diet-References#wurtman_effects_2003)
 2. [Fernstrom (2013)](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)

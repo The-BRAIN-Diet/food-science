@@ -55,7 +55,7 @@ Integrated regulation of glucose appearance, glycaemic stability, and insulin-su
 
 ### FM Mechanistic Basis Rule
 
-Section **5. Mechanistic Basis (Implementation of PMs)** must:
+Section **4. Mechanistic Basis (Implementation of PMs)** (`## 4.`) must:
 
 - briefly identify the role of each PM
 - explain how the PMs interact
@@ -91,11 +91,11 @@ The FM page should only describe **how these combine**, not re-teach each PM.
 
 ### FM Functional Role Rule
 
-**Functional Role** (§4) is a short directional line describing emergent outcomes (↑ / ↓), not a mechanism dump. It complements the definition; it does not substitute for §5.
+**Functional Role** (§3) is a short directional line describing emergent outcomes (↑ / ↓), not a mechanism dump. It complements the definition; it does not substitute for §4 Mechanistic Basis.
 
 ## Intervention Breakdown (required)
 
-Published FM pages must include **## 2. Intervention Breakdown** immediately after **## 1. Definition** and before **## 3. Timing Specific**.
+Published FM pages must include **## 2. Intervention Breakdown** immediately after **## 1. Definition** and before **## 3. Functional Role**.
 
 Choose **one** value only (no percentages, weighted estimates, or prose unless necessary):
 
@@ -111,16 +111,16 @@ Use this field to guide recipe-scoreability expectations. Do **not** create temp
 
 Legacy `intervention_dominance` spreadsheet values map approximately as: Diet-Dominant → Food-State Dominant; Diet-Supported → Food-State Leaning; Lifestyle-Dominant → Behavioural/Lifestyle Dominant; mixed → Mixed Modulation.
 
-## Timing Specific (required)
+## Timing Specific (required ontology metadata; not a default public body section)
 
-Published FM pages must include **## 3. Timing Specific** immediately after Intervention Breakdown and before Functional Role.
+`timing_specific` is **required in front matter** (and in CUE / extractors / scoring / traversal when wired). It must **not** be rendered as a standalone numbered body section (`## N. Timing Specific` with only `Yes` or `No`).
 
 Allowed values only:
 
 - **Yes** — timing materially alters interpretation, effectiveness, or biological meaning (chrononutrition, temporal state).
 - **No** — timing is not a material modifier for interpreting this FM.
 
-Timing is a **separate modifier flag**, not an intervention modulation class.
+Timing is a **separate modifier flag**, not an intervention modulation class. Where timing materially alters interpretation, discuss it naturally within **Functional Role**, **Mechanistic Basis**, **Lifestyle Levers**, or **Scoreable Inputs & Modulation Signals** rather than as an isolated Yes/No section.
 
 ## Required Top-Level Fields
 
@@ -156,25 +156,25 @@ definition: string
 functional_role: string
 mechanistic_basis_implementation_of_pms: string
 underlying_mechanisms_and_requirements:
-  pms:                               # render: ### 6.1 PMs (Primary Mechanisms)
+  pms:                               # render: ### 5.1 PMs (Primary Mechanisms)
     - id: string
       name: string
       href: string
-  kcs:                               # render: ### 4.2 KCs (Key Constraints)
+  kcs:                               # render: ### 5.2 KCs (Key Constraints)
     - id: string
       name: string
       type: "substrate" | "precursor"
       href: string
-  optional_brsx_modifiers:           # optional; render as ### 4.4 only if used
+  optional_brsx_modifiers:           # optional; render as ### 5.4 only if used
     - string
-  cross_brs_links:                   # render: ### 4.3 Cross-BRS Links
+  cross_brs_links:                   # render: ### 5.3 Cross-BRS Links
     - id: string
       name: string
 dietary_levers:
   - string
 lifestyle_levers:
   - string
-scoreable_food_state_inputs:
+scoreable_food_state_inputs:           # ingestion YAML key unchanged; public heading: ## N. Scoreable Inputs & Modulation Signals
   input_rows:
     - input_category: string       # Functional Property Potentials | Realised Functional States | Substance / Nutrient Signals | Preparation Transformations
       example_inputs: [string]
@@ -219,26 +219,27 @@ First line of the MDX body (after front matter) must be the FM title: `## <FM_ID
 
 ### Canonical public body (BRS6 FM1)
 
-Numbered sections must stay contiguous (renumber if §7 Scoreable is omitted).
+Numbered sections must stay contiguous (renumber if §8 Scoreable is omitted — then References becomes `## 8. References`).
 
 1. **Definition** — `## 1. Definition` — integrated regulatory state per **FM Definition Rule**; `summary` in front matter must match this intent
-2. **Intervention Breakdown** — `## 2. Intervention Breakdown` — single allowed value per **Intervention Breakdown** (required)
-3. **Timing Specific** — `## 3. Timing Specific` — `Yes` or `No` only per **Timing Specific** (required)
-4. **Functional Role** — `## 4. Functional Role` — short directional arrow line per **FM Functional Role Rule**
-5. **Mechanistic Basis (Implementation of PMs)** — `## 5. Mechanistic Basis (Implementation of PMs)` — synthesis per **FM Mechanistic Basis Rule** and **Deduplication Rule** (no PM-style Summary + `<details>`; no PM citation dumps)
-6. **Underlying Mechanisms and Requirements** — `## 6. Underlying Mechanisms and Requirements`
-   - `### 6.1 PMs (Primary Mechanisms)` — linked list to PM pages
-   - `### 6.2 KCs (Key Constraints)` — linked list to KC pages
-   - `### 6.3 Cross-BRS Links`
-   - Optional extra subsection (e.g. optional BRSX modifiers) only when used; keep numbering contiguous after 6.3
-7. **Dietary Levers** — `## 7. Dietary Levers` — body inside `<details><summary><strong>Diet</strong></summary>…`
-8. **Lifestyle Levers** — `## 8. Lifestyle Levers` — body inside `<details><summary><strong>Lifestyle</strong></summary>…`
-9. **Scoreable Food-State Inputs** — `## 9. Scoreable Food-State Inputs` — short intro framing ontology use; table (or list) inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…` — **omit the entire section** when this FM does not carry scoreable rows (then **References** becomes `## 9. References`)
-10. **References** — numbered list with bibliography links
+2. **Intervention Breakdown** — `## 2. Intervention Breakdown` — single allowed value per **Intervention Breakdown** (required); must match `intervention_breakdown` in front matter
+3. **Functional Role** — `## 3. Functional Role` — short directional arrow line per **FM Functional Role Rule**
+4. **Mechanistic Basis (Implementation of PMs)** — `## 4. Mechanistic Basis (Implementation of PMs)` — synthesis per **FM Mechanistic Basis Rule** and **Deduplication Rule** (no PM-style Summary + `<details>`; no PM citation dumps); weave timing context here when `timing_specific: "Yes"`
+5. **Underlying Mechanisms and Requirements** — `## 5. Underlying Mechanisms and Requirements`
+   - `### 5.1 PMs (Primary Mechanisms)` — linked list to PM pages
+   - `### 5.2 KCs (Key Constraints)` — linked list to KC pages
+   - `### 5.3 Cross-BRS Links`
+   - Optional extra subsection (e.g. optional BRSX modifiers) only when used; keep numbering contiguous after 5.3
+6. **Dietary Levers** — `## 6. Dietary Levers` — body inside `<details><summary><strong>Diet</strong></summary>…`
+7. **Lifestyle Levers** — `## 7. Lifestyle Levers` — body inside `<details><summary><strong>Lifestyle</strong></summary>…`; primary place for chrononutrition / circadian timing narrative when `timing_specific: "Yes"`
+8. **Scoreable Inputs & Modulation Signals** — `## 8. Scoreable Inputs & Modulation Signals` — short intro framing ontology use; table (or list) inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…` — **omit the entire section** when this FM does not carry scoreable rows (then **References** becomes `## 8. References`)
+9. **References** — numbered list with bibliography links
+
+`timing_specific` (`Yes` | `No`) lives in **front matter only** for ontology traversal, filtering, and scoring — not as a public `## N. Timing Specific` section.
 
 ### Excluded from the public FM body (current contract)
 
-Do not add body sections after **References**. The following are **not** part of the trimmed FM narrative on BRS6(FM1): Recipe Translation & Scoring Logic, standalone Functional Consequences / Outputs, standalone Cross-System Links (cross-BRS belongs under §4.3), Mechanism Summary Table, Scoring Interpretation, Interpretation Boundary, Evidence Base, Missing Entities. Those may exist in YAML, spreadsheets, or other artefacts.
+Do not add body sections after **References** (`## 9.`, or `## 8.` when Scoreable is omitted). The following are **not** part of the trimmed FM narrative on BRS6(FM1): Recipe Translation & Scoring Logic, standalone Functional Consequences / Outputs, standalone Cross-System Links (cross-BRS belongs under `### 5.3`), Mechanism Summary Table, Scoring Interpretation, Interpretation Boundary, Evidence Base, Missing Entities. Those may exist in YAML, spreadsheets, or other artefacts.
 
 ### MDX body vs YAML
 
@@ -256,7 +257,7 @@ Run against all FM and PM MDX pages under `docs/biological-targets/**/{fm,pm}/`:
 npm run mechanisms:validate
 ```
 
-Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts/lib/mechanism-page-validation.mjs`). Checks front matter and body §2–§3 for `intervention_breakdown` and `timing_specific`, Profile A section order, and forbidden timing-as-modulation labels in §2.
+Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts/lib/mechanism-page-validation.mjs`). Checks front matter for `intervention_breakdown` and `timing_specific`, forbids visible `## N. Timing Specific` body sections, validates FM section order, and forbidden timing-as-modulation labels in §2.
 
 ## Validation Rules
 
@@ -269,17 +270,18 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - `mechanisms_covered` and `key_constraints` must use ID+name+href.
 - FM body section headings must be explicitly numbered to match PM-style rendering consistency.
 - `Dietary Levers` and `Lifestyle Levers` must be separate top-level sections (must not be merged).
-- Published body must render `## 2. Intervention Breakdown` and `## 3. Timing Specific` between Definition and Functional Role; values must match front matter.
-- `Dietary Levers` must appear immediately after `## 6. Underlying Mechanisms and Requirements`.
+- Published body must **not** include `## N. Timing Specific`; `timing_specific` is validated in front matter only (`Yes` | `No`).
+- Published body must render `## 2. Intervention Breakdown` between Definition and Functional Role; body value must match front matter `intervention_breakdown`.
+- `Dietary Levers` must appear immediately after `## 5. Underlying Mechanisms and Requirements`.
 - `Dietary Levers` and `Lifestyle Levers` content blocks should be wrapped in collapsible `<details>` menus for readability.
 - FM page body must render PM and KC entries as hyperlinks to their corresponding PM/KC pages.
-- Under `## 6. Underlying Mechanisms and Requirements`, subsection labels must be:
-  - `6.1 PMs (Primary Mechanisms)`
-  - `6.2 KCs (Key Constraints)`
-  - `6.3 Cross-BRS Links`
+- Under `## 5. Underlying Mechanisms and Requirements`, subsection labels must be:
+  - `5.1 PMs (Primary Mechanisms)`
+  - `5.2 KCs (Key Constraints)`
+  - `5.3 Cross-BRS Links`
 - PM1 naming for BRS6(FM1) must be `Glucose Appearance Kinetics` (not legacy `Glycaemic Excursion Control` or `Glycaemic Variability & Absorption Kinetics`).
 - KC entries must be only `substrate` or `precursor` (never active mechanism labels).
-- When `## 9. Scoreable Food-State Inputs` is present, its table must include all four categories: Functional Property Potentials, Realised Functional States, Substance / Nutrient Signals, Preparation Transformations.
+- When `## 8. Scoreable Inputs & Modulation Signals` is present, its table must include all four category groups: Functional Property Potentials, Realised Functional States, Preparation Transformations, and either Substance / Nutrient Signals or Antagonistic Signals (burden/modulation row); **References** must then be `## 9. References`.
 - Claims in Dietary Levers, Lifestyle Levers, Scoreable intro text, and Mechanistic Basis must stay mechanistic / interpretive (`may`, `supports`, `associated with`) unless evidence supports stronger wording.
 - Where `scoring_interpretation` or similar content exists in YAML or tooling, it must not include formulas, equations, or numeric scoring logic.
 - Do not expose raw scoring code or internal scoring implementation details in FM pages.

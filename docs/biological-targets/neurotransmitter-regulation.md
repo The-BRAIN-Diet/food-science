@@ -94,3 +94,13 @@ Primary mechanisms sit beneath functional mechanisms and define specific regulat
 - [BRS1(PM7) — GABA Synthesis Capacity](/docs/biological-targets/brs1/pm/brs1-pm7-gaba-synthesis-capacity)
 - [BRS1(PM8) — Glutamate Clearance & Recycling](/docs/biological-targets/brs1/pm/brs1-pm8-glutamate-clearance-and-recycling)
 - [BRS1(PM9) — Excitotoxicity Modulation](/docs/biological-targets/brs1/pm/brs1-pm9-excitotoxicity-modulation)
+
+---
+
+## Specific Mechanisms
+
+Context-specific expressions of stable biological regulation associated with phenotype patterns, therapeutic-area dynamics, and variant-sensitive modulation.
+
+- [BRS1(SM-PHEN1) — Excitatory–Inhibitory Stability & Sensory Regulation](/docs/biological-targets/brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation)
+- [BRS1(SM-ADHD1) — Emotional Dysregulation & Serotonergic Regulation](/docs/biological-targets/brs1/sm/brs1-sm-adhd1-emotional-dysregulation-serotonergic-regulation)
+- [BRS1(SM-SNP1) — COMT Catecholamine Clearance Sensitivity](/docs/biological-targets/brs1/sm/brs1-sm-snp1-comt-catecholamine-clearance-sensitivity)

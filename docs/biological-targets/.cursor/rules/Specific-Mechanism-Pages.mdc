@@ -1,0 +1,41 @@
+---
+description: Specific Mechanism (SM) page rules — PM architecture overlay
+globs:
+  - "docs/biological-targets/**/sm/**/*.mdx"
+  - "docs/biological-targets/**/sm/**/*.md"
+alwaysApply: false
+---
+
+Build Gate Proviso:
+- Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
+- Always use semantic entity names.
+
+When creating or editing Specific Mechanism (SM) pages:
+
+Follow:
+- `system/specific-mechanism-schema.md`
+- `system/primary-mechanism-schema.md` for collapsible, scoreable, timing, and bibliography conventions (SMs reuse PM rendering, not a separate grammar)
+
+Structure:
+- Use **Profile A extended** (§1–§9 with Intervention Breakdown). Same numbering, `<details>` patterns, and scoreable table categories as PM pages.
+- `timing_specific` is required in front matter; no visible `## N. Timing Specific` body section.
+- §2 Intervention Breakdown must include the single allowed breakdown value, then **Category:** and **Use case:** lines matching `sm_category` and `use_case`.
+- §5 must list connected PMs and FMs before KCs; do not treat SMs as new PM/FM/KC ontology primitives.
+
+Semantic rules:
+- Definition: phenotype, therapeutic-area, variant-sensitive, or instability-pattern framing — not a replacement PM definition.
+- Mechanistic Basis: interpretive overlay linking stable [connected PMs](/docs/biological-targets) / FMs / KCs; do not redefine PM mechanism biology.
+- Dietary / Lifestyle levers: same PM lever pattern; orient toward regulatory balance, phenotype stability, resilience, and destabilisation reduction.
+- Do not make diagnostic claims, deterministic SNP outcome claims, prescriptions, or exaggerated efficacy claims.
+
+Front matter:
+- Required: `sm_id`, `sm_category`, `use_case`, `connected_pms`, `connected_fms`, `connected_kcs`, `parent_brs`, `intervention_breakdown`, `timing_specific`, `references`
+- `sm_category` must be one of: SM-ADHD, SM-SNP, SM-PHEN, SM-OTHER
+
+References:
+- Numeric citations [1], [2]; links to `/docs/papers/BRAIN-Diet-References#citationKey`
+- Verify keys exist in `static/bibtex/BRAIN-diet.bib`
+
+Validate with `npm run mechanisms:validate`.
+
+If ambiguity exists, stop and ask.
