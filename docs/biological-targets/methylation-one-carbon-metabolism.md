@@ -25,7 +25,7 @@ hide_title: true
 
 The Methylation & One-Carbon Metabolism system regulates methyl donor availability, homocysteine recycling, transsulfuration, and SAMe-dependent phospholipid methylation. It links dietary folate, B12, choline, betaine, and sulfur amino-acid patterns to brain-relevant methylation capacity and redox coupling.
 
-One-carbon metabolism connects nutrient intake to epigenetic and neurochemical context; genotype-sensitive pathways (for example MTHFR-related efficiency) may alter how dietary methyl donors are utilised without changing the core FM/PM structure of this BRS.
+One-carbon metabolism connects nutrient intake to epigenetic and neurochemical context; genotype-sensitive pathways (for example MTHFR-related efficiency) may alter how dietary methyl donors are utilised.
 
 <details>
 <summary><strong>Methylation & One-Carbon Metabolism Biological Implications</strong></summary>
