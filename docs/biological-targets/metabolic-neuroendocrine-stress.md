@@ -67,7 +67,7 @@ These functional mechanisms represent connected groupings of biological mechanis
 
 <!--
 Each Functional Mechanism is defined as a single canonical unit (name + description).
-These must be copied exactly from the FM definitions source (Spreadsheet Column B) and must not be modified.
+These must match the canonical functional mechanism definitions and must not be modified.
 
 Do not rename, reorder, paraphrase, or reinterpret.
 -->

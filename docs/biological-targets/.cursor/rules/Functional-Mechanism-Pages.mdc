@@ -28,7 +28,7 @@ Integration without repetition (required):
 - **BRS6(FM1) definition** must reflect PM1 glucose appearance kinetics, PM2 glycaemic variability regulation, PM3 insulin sensitivity and glucose disposal (see schema example).
 
 Structure:
-- Follow `system/functional-mechanism-schema.md` **Section Order (Page Rendering Contract)** — canonical outline: Definition → Intervention Breakdown → Functional Role → Mechanistic Basis (Implementation of PMs) → Underlying (5.1 PMs, 5.2 KCs, 5.3 Cross-BRS) → Dietary Levers → Lifestyle Levers → Scoreable Inputs & Modulation Signals (omit when not used; renumber References) → References. No body sections after References.
+- Follow `system/functional-mechanism-schema.md` **Section Order (Page Rendering Contract)** — canonical outline: Definition → Intervention Breakdown → Functional Role → Mechanistic Basis (Implementation of PMs) → Underlying (5.1 Cofactors and Substrates table when used, 5.2 PMs, 5.3 KCs, 5.4 Cross-BRS) → Dietary Levers → Lifestyle Levers → Scoreable Inputs & Modulation Signals (omit when not used; renumber References) → References. No body sections after References.
 - `timing_specific` (`Yes` | `No`) is **required in front matter**; do **not** add a standalone `## N. Timing Specific` body section with only Yes/No.
 - Where timing materially alters interpretation, discuss this naturally within **Functional Role**, **Mechanistic Basis**, **Lifestyle Levers**, or **Scoreable Inputs & Modulation Signals**.
 - The in-body mechanism title line (e.g. `BRS6(FM1) - …`) must use markdown `##` so it matches numbered section headings; do not use `#` or `###` for that line.
@@ -44,9 +44,10 @@ Field interpretation:
   - KCs (Key Constraints) (substrate/precursor requirements)
   - Cross-BRS links
 - Under `5. Underlying Mechanisms and Requirements`, render subsection labels exactly as:
-  - `5.1 PMs (Primary Mechanisms)`
-  - `5.2 KCs (Key Constraints)`
-  - `5.3 Cross-BRS Links`
+  - `5.1 Cofactors and Substrates` — per-PM table: **PM | Cofactors | KC substrates** (no Direct Inputs column; diet inputs stay in §6)
+  - `5.2 PMs (Primary Mechanisms)`
+  - `5.3 KCs (Key Constraints)`
+  - `5.4 Cross-BRS Links`
 - Must not use underlying mechanisms and requirements as a dependency graph
 - For BRS6(FM1), PM1 naming must be:
   - Glucose Appearance Kinetics
@@ -59,11 +60,10 @@ Scoreable input rules:
 - Do not expose raw scoring code on the FM page.
 
 Diet rules:
-- Foods must be derived from:
-  - KCs (substrates)
-  - PM-linked substances
-- All foods must be mechanistically justified
-- Must not include generic or "healthy food" lists
+- In **Dietary Levers** `<details>`, map substrates with **substance ← 2–3 food examples** per `system/substance-food-mapping-format.md` (one substance per bullet; repeat foods per substance when shared)
+- Narrative meal-pattern / glycaemic-structure levers may stay prose without `←`
+- Foods must be derived from KCs (substrates) and PM-linked substances; mechanistically justified; no generic "healthy food" lists
+- Do not use legacy `food → substance` lines or nested "Food sources (examples)" blocks
 
 Constraints:
 - Must not introduce new PMs, FMs, or KCs

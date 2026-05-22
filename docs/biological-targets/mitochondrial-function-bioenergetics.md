@@ -20,7 +20,7 @@ hide_title: true
 
 ## BRS4 - Mitochondrial Function & Bioenergetics
 
-This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
+This page is being expanded with functional mechanism and primary mechanism definitions for this biological regulatory system.
 
 <details>
 <summary><strong>Mitochondrial Function & Bioenergetics Biological Implications</strong></summary>

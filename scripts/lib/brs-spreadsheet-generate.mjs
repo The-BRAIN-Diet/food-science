@@ -124,6 +124,21 @@ function parseEntityRefs(text) {
   return out;
 }
 
+import {
+  collectSubstanceFoodMap,
+  formatSubstanceFoodBullets,
+} from "./substance-food-mapping.mjs";
+
+function interventionsToSubstanceBullets(interventions) {
+  const legacyLines = interventions
+    .filter((i) => i.lever && i.signal)
+    .map((i) => `- ${i.lever} → ${i.signal}`);
+  if (!legacyLines.length) return "- None listed";
+  const { map } = collectSubstanceFoodMap(legacyLines);
+  const bullets = formatSubstanceFoodBullets(map);
+  return bullets.length ? bullets.join("\n") : "- None listed";
+}
+
 function parseInterventions(text) {
   if (!text) return [];
   return text
@@ -243,11 +258,11 @@ ${kc.description}
 
 ### 2. Constraint Role
 
-${kc.description} Supporting inputs from the spreadsheet supply substrate and cofactor context for dependent mechanisms in this BRS.
+${kc.description} Dietary substrates and cofactors supply substrate and cofactor context for dependent mechanisms in this BRS.
 
-### 3. Supporting Inputs / Substances / Signals
+### 3. Supporting Inputs/Substrates
 
-${interventions.map((i) => `- ${i.lever}${i.signal ? ` → ${i.signal}` : ""}`).join("\n") || "- (see spreadsheet interventions)"}
+${interventionsToSubstanceBullets(interventions)}
 
 ### 4. Biological Importance
 
@@ -296,7 +311,7 @@ ${linkedFms.length ? "1. See linked FM pages for cited evidence." : ""}
       .map((s, i) => `${i + 1}. [${s.label}](/docs/papers/BRAIN-Diet-References#${s.key})`);
     const refBlock = refLines.length
       ? refLines.join("\n")
-      : "1. Citation mapping pending — add bibliography keys for spreadsheet studies.";
+      : "1. Citation mapping pending — add bibliography keys for source studies.";
 
     const body = `## ${pm.id} - ${pm.name}
 
@@ -348,7 +363,7 @@ ${cross.map((c) => `- ${c.id}${c.name ? ` — ${c.name}` : ""}`).join("\n") || "
 <details>
 <summary><strong>Diet</strong></summary>
 
-${interventions.map((i) => `- ${i.lever}${i.signal ? ` → ${i.signal}` : ""}`).join("\n") || "- See spreadsheet interventions"}
+${interventionsToSubstanceBullets(interventions)}
 
 </details>
 
@@ -357,7 +372,7 @@ ${interventions.map((i) => `- ${i.lever}${i.signal ? ` → ${i.signal}` : ""}`).
 <details>
 <summary><strong>Lifestyle</strong></summary>
 
-- Consistent daily meal timing to support one-carbon and methyl-donor patterns described in the spreadsheet.
+- Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
 - Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.
 
 </details>
@@ -453,7 +468,7 @@ ${cross.map((c) => `- ${c.id}${c.name ? ` — ${c.name}` : ""}`).join("\n") || "
 <details>
 <summary><strong>Diet</strong></summary>
 
-${interventions.map((i) => `- ${i.lever}${i.signal ? ` → ${i.signal}` : ""}`).join("\n")}
+${interventionsToSubstanceBullets(interventions)}
 
 </details>
 
@@ -478,7 +493,7 @@ These inputs are used within the BRAIN Diet ontology to generate evidence-constr
 |---|---|---|
 | Functional Property Potentials | methyl_donor_pattern; transsulfuration_support; choline_phospholipid_context | May support ${fm.name.toLowerCase()}. |
 | Realised Functional States | consistent_methyl_donor_coverage; homocysteine_modulation_context | May reflect integrated FM support at recipe level. |
-| Substance / Nutrient Signals | folate; B12; choline; betaine; methionine; omega-3 | Nutrient signals linked to spreadsheet interventions. |
+| Substance / Nutrient Signals | folate; B12; choline; betaine; methionine; omega-3 | Nutrient signals linked to dietary interventions for this FM. |
 | Preparation Transformations | minimally_processed; whole_food_matrix | May preserve methyl-donor and cofactor density. |
 
 </details>

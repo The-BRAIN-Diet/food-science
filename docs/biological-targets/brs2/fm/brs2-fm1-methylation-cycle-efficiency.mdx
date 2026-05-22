@@ -67,28 +67,28 @@ Together, these PMs operationalise BRS2(FM1) as a coordinated methylation and on
 
 ## 5. Underlying Mechanisms and Requirements
 
-### Co-factors vs direct inputs (by PM)
+### 5.1 Cofactors and Substrates
 
-| PM | Co-factors | Direct Inputs / Signals |
+| PM | Cofactors | KC substrates |
 | --- | --- | --- |
-| [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation) | B2 | folate, B12 |
-| [BRS2(PM2)](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation) | zinc | betaine, choline |
-| [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis) | magnesium | methionine |
-| [BRS2(PM4)](/docs/biological-targets/brs2/pm/brs2-pm4-methionine-cycle-flux) | B2, B6, B12 | folate |
+| [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation) | B2 | B12, betaine, choline, folate ([KC1](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency)) |
+| [BRS2(PM2)](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation) | zinc | B12, betaine, choline, folate ([KC1](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency)) |
+| [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis) | magnesium | amino acid support, cysteine, glycine, methionine ([KC2](/docs/biological-targets/brs2/kc/brs2-kc2-amino-acid-substrate-sufficiency)) |
+| [BRS2(PM4)](/docs/biological-targets/brs2/pm/brs2-pm4-methionine-cycle-flux) | B2, B6, B12 | B12, betaine, choline, folate ([KC1](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency)); amino acid support, cysteine, glycine, methionine ([KC2](/docs/biological-targets/brs2/kc/brs2-kc2-amino-acid-substrate-sufficiency)) |
 
-### 5.1 PMs (Primary Mechanisms)
+### 5.2 PMs (Primary Mechanisms)
 
 - [BRS2(PM1) - Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation)
 - [BRS2(PM2) - Betaine/BHMT Remethylation](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation)
 - [BRS2(PM3) - SAMe Synthesis](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis)
 - [BRS2(PM4) - Methionine Cycle Flux](/docs/biological-targets/brs2/pm/brs2-pm4-methionine-cycle-flux)
 
-### 5.2 KCs (Key Constraints)
+### 5.3 KCs (Key Constraints)
 
 - [BRS2(KC1) - Methyl Donor Sufficiency](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency)
 - [BRS2(KC2) - Amino Acid Substrate Sufficiency](/docs/biological-targets/brs2/kc/brs2-kc2-amino-acid-substrate-sufficiency)
 
-### 5.3 Cross-BRS Links
+### 5.4 Cross-BRS Links
 
 - None listed
 
@@ -97,10 +97,11 @@ Together, these PMs operationalise BRS2(FM1) as a coordinated methylation and on
 <details>
 <summary><strong>Diet</strong></summary>
 
-- leafy greens/legumes → folate
-- eggs/liver → choline,B12
-- beetroot/spinach → betaine
-- oily fish → EPA/DHA
+- B12 ← eggs, liver
+- Betaine ← beetroot, spinach
+- Choline ← eggs, liver
+- Folate ← leafy greens, legumes
+- Methionine ← eggs, meat, fish
 
 </details>
 
@@ -125,7 +126,7 @@ These inputs are used within the BRAIN Diet ontology to generate evidence-constr
 |---|---|---|
 | Functional Property Potentials | methyl_donor_pattern; transsulfuration_support; choline_phospholipid_context | May support methylation cycle efficiency. |
 | Realised Functional States | consistent_methyl_donor_coverage; homocysteine_modulation_context | May reflect integrated FM support at recipe level. |
-| Substance / Nutrient Signals | folate; B12; choline; betaine; methionine; omega-3 | Nutrient signals linked to spreadsheet interventions. |
+| Substance / Nutrient Signals | folate; B12; choline; betaine; methionine; omega-3 | Nutrient signals linked to dietary interventions for this FM. |
 | Preparation Transformations | minimally_processed; whole_food_matrix | May preserve methyl-donor and cofactor density. |
 
 </details>

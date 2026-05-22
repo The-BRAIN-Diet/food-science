@@ -2,105 +2,113 @@
 title: "<INSERT_FM_TITLE>"
 fm_id: "<INSERT_FM_ID>"
 parent_brs: "<INSERT_PARENT_BRS_ID>"
-summary: "<INSERT_INTEGRATED_FM_SUMMARY — PM1 + PM2 + PM3 contributions, emergent outcome; see FM Definition Rule in functional-mechanism-schema.md>"
+summary: "<INSERT_FM_SUMMARY_INTEGRATED_PM_PATTERN>"
 mechanisms_covered:
   - id: "<INSERT_PM_ID>"
     name: "<INSERT_PM_NAME>"
-    href: "/docs/biological-targets/<brs-slug>/pm/<pm-slug>"
+    href: /docs/biological-targets/<brs>/pm/<pm-slug>
 key_constraints:
   - id: "<INSERT_KC_ID>"
     name: "<INSERT_KC_NAME>"
-    type: "substrate"
-    href: "/docs/biological-targets/<brs-slug>/kc/<kc-slug>"
-intervention_dominance: "<Diet-Dominant|Lifestyle-Dominant|mixed>"
-coverage_timing: "<INSERT_COVERAGE_TIMING>"
+    type: substrate
+    href: /docs/biological-targets/<brs>/kc/<kc-slug>
+intervention_dominance: "<diet-dominant|lifestyle-dominant|mixed>"
+intervention_breakdown: "<Food-State Dominant|Food-State Leaning|Mixed Modulation|Behavioural/Lifestyle Leaning|Behavioural/Lifestyle Dominant>"
+timing_specific: "<Yes|No>"
+coverage_timing: "<Meal|Daily|etc>"
 references:
-  - "[1] [Author (YYYY)](/docs/papers/BRAIN-Diet-References#citation_key_1)"
+  - index: 1
+    label: "<PLACEHOLDER_REFERENCE_LABEL>"
+    citation_key: "<placeholder_citation_key_1>"
+    href: "/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>"
 hide_title: true
 ---
 
-<!--
-  Public body follows BRS6(FM1) pattern in system/functional-mechanism-schema.md.
-  Omit entire ## 8. Scoreable Inputs & Modulation Signals when not used; renumber References (see functional-mechanism-schema.md).
--->
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/<brs>-portrait-thumbnail.png"
+    alt="<INSERT_BRS_ALT>"
+    class="brs-pm-thumbnail"
+  />
+</p>
 
 ## <INSERT_FM_ID> - <INSERT_FM_TITLE>
 
 ## 1. Definition
 
-<!--
-  FM Definition Rule: integrated regulatory state; one clause per PM contribution; emergent outcome.
-  Pattern: Integrated regulation of [PM1], [PM2], and [PM3], influencing [outcome].
-  Do not repeat full PM definitions or PM-page detail (fibre, Monnier, etc.).
--->
-<INSERT_DEFINITION_TEXT>
+<INSERT_INTEGRATED_DEFINITION>
 
-## 2. Functional Role
+## 2. Intervention Breakdown
 
-<!--
-  Short ↑ / ↓ emergent outcomes only — not a mechanism or PM summary dump.
--->
-<INSERT_DIRECTIONAL_ARROW_LINE>
+<INSERT_SINGLE_INTERVENTION_BREAKDOWN_VALUE>
 
-## 3. Mechanistic Basis (Implementation of PMs)
+## 3. Functional Role
 
-<!--
-  Structure: (1) opening synthesis, (2) one short clause per PM (PM1 governs…),
-  (3) integration sentence, (4) functional consequence sentence.
-  Deduplication: mechanism detail lives on PM pages; FM explains how PMs combine only.
--->
-<INSERT_HOW_PMS_JOINTLY_IMPLEMENT_FM>
+<INSERT_DIRECTIONAL_ARROW_SUMMARY>
 
-## 4. Underlying Mechanisms and Requirements
+## 4. Mechanistic Basis (Implementation of PMs)
 
-### 4.1 PMs (Primary Mechanisms)
+<INSERT_OPENING_SYNTHESIS_ONE_LINE>
 
-- [<INSERT_PM_ID> - <INSERT_PM_NAME>](/docs/biological-targets/<brs-slug>/pm/<pm-slug>)
+<INSERT_PM_GOVERNS_CLAUSES>
 
-### 4.2 KCs (Key Constraints)
+Together, these PMs operationalise <INSERT_FM_ID> as <INSERT_EMERGENT_OUTCOME_PHRASE>.
 
-- [<INSERT_KC_ID> - <INSERT_KC_NAME>](/docs/biological-targets/<brs-slug>/kc/<kc-slug>)
+## 5. Underlying Mechanisms and Requirements
 
-### 4.3 Cross-BRS Links
+### 5.1 Cofactors and Substrates
 
-- <INSERT_CROSS_BRS_LINK_LINE>
+| PM | Cofactors | KC substrates |
+| --- | --- | --- |
+| [<INSERT_PM_ID>](<pm-href>) | <cofactors> | <kc substrates with KC links> |
 
-## 5. Dietary Levers
+### 5.2 PMs (Primary Mechanisms)
+
+- [<INSERT_PM_ID> - <INSERT_PM_NAME>](<pm-href>)
+
+### 5.3 KCs (Key Constraints)
+
+- [<INSERT_KC_ID> - <INSERT_KC_NAME>](<kc-href>)
+
+### 5.4 Cross-BRS Links
+
+- None listed
+
+## 6. Dietary Levers
 
 <details>
 <summary><strong>Diet</strong></summary>
 
-<INSERT_DIETARY_LEVER_BULLETS_OR_PROSE>
+<!-- Substance ← 2–3 foods per bullet — system/substance-food-mapping-format.md -->
+- <INSERT_SUBSTANCE> ← <food1>, <food2>
 
 </details>
 
-## 6. Lifestyle Levers
+## 7. Lifestyle Levers
 
 <details>
 <summary><strong>Lifestyle</strong></summary>
 
-<INSERT_LIFESTYLE_LEVER_BULLETS_OR_PROSE>
+<INSERT_LIFESTYLE_LEVER_BULLETS>
 
 </details>
 
 ## 8. Scoreable Inputs & Modulation Signals
 
-<!-- Delete this entire section (and renumber References) when this FM has no scoreable table. -->
-
-<INSERT_SCOREABLE_INTRO_PARAGRAPHS>
+These inputs are used within the BRAIN Diet ontology to generate evidence-constrained estimates of plausible <INSERT_BRS> support. They are not direct measures of clinical efficacy.
 
 <details>
 <summary><strong>Scoreable Input Categories</strong></summary>
 
 | Input Category | Example Inputs | Functional Relevance |
 |---|---|---|
-| Functional Property Potentials | … | … |
-| Realised Functional States | … | … |
-| Substance / Nutrient Signals | … | … |
-| Preparation Transformations | … | … |
+| Functional Property Potentials | … | May support … |
+| Realised Functional States | … | May reflect … |
+| Substance / Nutrient Signals | … | Nutrient signals linked to dietary interventions for this FM. |
+| Preparation Transformations | … | May preserve … |
 
 </details>
 
-## 8. References
+## 9. References
 
-1. [Author et al. (YYYY)](/docs/papers/BRAIN-Diet-References#citation_key_1)
+1. [Placeholder reference 1](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>)

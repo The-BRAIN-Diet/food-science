@@ -156,18 +156,18 @@ definition: string
 functional_role: string
 mechanistic_basis_implementation_of_pms: string
 underlying_mechanisms_and_requirements:
-  pms:                               # render: ### 5.1 PMs (Primary Mechanisms)
+  pms:                               # render: ### 5.2 PMs (Primary Mechanisms)
     - id: string
       name: string
       href: string
-  kcs:                               # render: ### 5.2 KCs (Key Constraints)
+  kcs:                               # render: ### 5.3 KCs (Key Constraints)
     - id: string
       name: string
       type: "substrate" | "precursor"
       href: string
   optional_brsx_modifiers:           # optional; render as ### 5.4 only if used
     - string
-  cross_brs_links:                   # render: ### 5.3 Cross-BRS Links
+  cross_brs_links:                   # render: ### 5.4 Cross-BRS Links
     - id: string
       name: string
 dietary_levers:
@@ -226,11 +226,12 @@ Numbered sections must stay contiguous (renumber if §8 Scoreable is omitted —
 3. **Functional Role** — `## 3. Functional Role` — short directional arrow line per **FM Functional Role Rule**
 4. **Mechanistic Basis (Implementation of PMs)** — `## 4. Mechanistic Basis (Implementation of PMs)` — synthesis per **FM Mechanistic Basis Rule** and **Deduplication Rule** (no PM-style Summary + `<details>`; no PM citation dumps); weave timing context here when `timing_specific: "Yes"`
 5. **Underlying Mechanisms and Requirements** — `## 5. Underlying Mechanisms and Requirements`
-   - `### 5.1 PMs (Primary Mechanisms)` — linked list to PM pages
-   - `### 5.2 KCs (Key Constraints)` — linked list to KC pages
-   - `### 5.3 Cross-BRS Links`
-   - Optional extra subsection (e.g. optional BRSX modifiers) only when used; keep numbering contiguous after 5.3
-6. **Dietary Levers** — `## 6. Dietary Levers` — body inside `<details><summary><strong>Diet</strong></summary>…`
+   - `### 5.1 Cofactors and Substrates` — when an FM spans multiple PMs, use a per-PM table with columns **PM | Cofactors | KC substrates** (no separate direct-inputs column; pathway inputs live in §6 Dietary Levers). **Cofactors** from each PM §5.1 (enzyme cofactors only). **KC substrates** from §3 Supporting Inputs/Substrates on every KC in that PM’s §5.2; multiple KCs in one cell separated by `;`, with KC page link in parentheses after each group.
+   - `### 5.2 PMs (Primary Mechanisms)` — linked list to PM pages
+   - `### 5.3 KCs (Key Constraints)` — linked list to KC pages
+   - `### 5.4 Cross-BRS Links`
+   - Optional extra subsection (e.g. optional BRSX modifiers) only when used; keep numbering contiguous after 5.4
+6. **Dietary Levers** — `## 6. Dietary Levers` — body inside `<details><summary><strong>Diet</strong></summary>…` — substrate-to-food bullets use **substance ← food** format per `system/substance-food-mapping-format.md` (2–3 foods per substance; duplicate foods across substances when applicable); narrative meal-pattern levers may remain prose
 7. **Lifestyle Levers** — `## 7. Lifestyle Levers` — body inside `<details><summary><strong>Lifestyle</strong></summary>…`; primary place for chrononutrition / circadian timing narrative when `timing_specific: "Yes"`
 8. **Scoreable Inputs & Modulation Signals** — `## 8. Scoreable Inputs & Modulation Signals` — short intro framing ontology use; table (or list) inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…` — **omit the entire section** when this FM does not carry scoreable rows (then **References** becomes `## 8. References`)
 9. **References** — numbered list with bibliography links
@@ -276,9 +277,10 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - `Dietary Levers` and `Lifestyle Levers` content blocks should be wrapped in collapsible `<details>` menus for readability.
 - FM page body must render PM and KC entries as hyperlinks to their corresponding PM/KC pages.
 - Under `## 5. Underlying Mechanisms and Requirements`, subsection labels must be:
-  - `5.1 PMs (Primary Mechanisms)`
-  - `5.2 KCs (Key Constraints)`
-  - `5.3 Cross-BRS Links`
+  - `5.1 Cofactors and Substrates` (per-PM table when used)
+  - `5.2 PMs (Primary Mechanisms)`
+  - `5.3 KCs (Key Constraints)`
+  - `5.4 Cross-BRS Links`
 - PM1 naming for BRS6(FM1) must be `Glucose Appearance Kinetics` (not legacy `Glycaemic Excursion Control` or `Glycaemic Variability & Absorption Kinetics`).
 - KC entries must be only `substrate` or `precursor` (never active mechanism labels).
 - When `## 8. Scoreable Inputs & Modulation Signals` is present, its table must include all four category groups: Functional Property Potentials, Realised Functional States, Preparation Transformations, and either Substance / Nutrient Signals or Antagonistic Signals (burden/modulation row); **References** must then be `## 9. References`.

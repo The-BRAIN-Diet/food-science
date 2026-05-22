@@ -25,7 +25,7 @@ Structure:
 Semantic rules:
 - Definition: phenotype, therapeutic-area, variant-sensitive, or instability-pattern framing — not a replacement PM definition.
 - Mechanistic Basis: interpretive overlay linking stable [connected PMs](/docs/biological-targets) / FMs / KCs; do not redefine PM mechanism biology.
-- Dietary / Lifestyle levers: same PM lever pattern; orient toward regulatory balance, phenotype stability, resilience, and destabilisation reduction.
+- Dietary / Lifestyle levers: same PM lever pattern; in Diet `<details>` use **substance ← 2–3 food examples** per `system/substance-food-mapping-format.md`. The left-hand label must be a **substance/nutrient** (e.g. folate, EPA/DHA, B12), not a food category (not “oily fish”, “polyphenol-rich foods”, “B12-rich foods”). Meal-pattern / interpretive levers may stay as prose bullets without `←`.
 - Do not make diagnostic claims, deterministic SNP outcome claims, prescriptions, or exaggerated efficacy claims.
 
 Front matter:

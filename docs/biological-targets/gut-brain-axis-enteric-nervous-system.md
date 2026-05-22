@@ -20,7 +20,7 @@ hide_title: true
 
 ## BRS5 - Gut-Brain Axis & Enteric Nervous System
 
-This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
+This page is being expanded with functional mechanism and primary mechanism definitions for this biological regulatory system.
 
 <details>
 <summary><strong>Gut–Brain Axis & Enteric Nervous System (ENS) Biological Implications</strong></summary>

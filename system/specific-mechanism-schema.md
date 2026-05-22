@@ -84,7 +84,7 @@ First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
    - `### 5.3` Connected Primary Mechanisms (PMs) — required when `connected_pms` non-empty
    - `### 5.4` Connected Functional Mechanisms (FMs)
    - `### 5.5` Cross-BRS Links (optional)
-6. Dietary Levers — `<details><summary><strong>Diet</strong></summary>`
+6. Dietary Levers — `<details><summary><strong>Diet</strong></summary>` — use substance ← food bullets per `system/substance-food-mapping-format.md` where listing substrates and example foods
 7. Lifestyle Levers — `<details><summary><strong>Lifestyle</strong></summary>`
 8. Scoreable Inputs & Modulation Signals — optional; same table categories as PM/FM
 9. References — if §8 Scoreable omitted, References is §8
