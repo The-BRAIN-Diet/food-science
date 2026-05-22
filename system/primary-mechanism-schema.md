@@ -109,7 +109,7 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 5. Underlying Mechanisms and Requirements — `## 5. Underlying Mechanisms and Requirements`
    - **Full subsection set:** `### 5.1` Co-factors, `### 5.2` KCs, `### 5.3` Optional BRSX Modifiers, `### 5.4` Cross-BRS Links
    - **PM1-style (no Optional BRSX subsection):** `### 5.1` Co-factors, `### 5.2` KCs (Key Constraints), `### 5.3` Cross-BRS Links (canonical: BRS6 PM1)
-6. Dietary Levers — `## 6.` body inside `<details><summary><strong>Diet</strong></summary>…` (match FM pages)
+6. Dietary Levers — `## 6.` body inside `<details><summary><strong>Diet</strong></summary>…` (match FM pages) — substance ← food bullets per `system/substance-food-mapping-format.md`; no nested “Food sources (examples)” block
 7. Lifestyle Levers — `## 7.` same pattern with `<strong>Lifestyle</strong>`; primary place for timing narrative when `timing_specific: "Yes"`
 8. Scoreable Inputs & Modulation Signals — `## 8.` **only when this PM is scoreable in the ontology**; optional intro paragraph; table (or list) may sit inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…`
 9. References — `## 9. References`

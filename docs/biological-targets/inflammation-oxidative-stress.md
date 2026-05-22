@@ -20,7 +20,7 @@ hide_title: true
 
 ## BRS3 - Inflammation & Oxidative Stress
 
-This page is being rebuilt from the Functional Mechanism and Primary Mechanism spreadsheets.
+This page is being expanded with functional mechanism and primary mechanism definitions for this biological regulatory system.
 
 <details>
 <summary><strong>Inflammation & Oxidative Stress Biological Implications</strong></summary>

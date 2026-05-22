@@ -46,17 +46,27 @@ Food-State Dominant
 
 ## 4. Mechanistic Basis (Implementation of PMs)
 
-BRS1(FM4) is implemented through BRS1(PM4): BRS1(PM4) governs neuronal membrane DHA incorporation and phospholipid delivery. Together they operationalise the functional mechanism as coordinated dietary and meal-context control of neurotransmitter-related signalling.
+DHA-rich phospholipid delivery and neuronal membrane incorporation.
+
+PM4 governs Neuronal Membrane DHA Incorporation.
+
+Together, these PMs operationalise BRS1(FM4) as coordinated phospholipid-mediated DHA delivery.
 
 ## 5. Underlying Mechanisms and Requirements
 
-### 5.1 PMs (Primary Mechanisms)
+### 5.1 Cofactors and Substrates
+
+| PM | Cofactors | KC substrates |
+| --- | --- | --- |
+| [BRS1(PM4)](/docs/biological-targets/brs1/pm/brs1-pm4-neuronal-membrane-dha-incorporation) | Choline, phospholipid context | choline, dietary protein, tryptophan, tyrosine, LNAAs ([KC1](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-substrate-sufficiency)) |
+
+### 5.2 PMs (Primary Mechanisms)
 - [BRS1(PM4) - Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/pm/brs1-pm4-neuronal-membrane-dha-incorporation)
 
-### 5.2 KCs (Key Constraints)
+### 5.3 KCs (Key Constraints)
 - [BRS1(KC1) - Amino Acid Substrate Sufficiency](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-substrate-sufficiency)
 
-### 5.3 Cross-BRS Links
+### 5.4 Cross-BRS Links
 - None listed
 
 ## 6. Dietary Levers
@@ -64,10 +74,10 @@ BRS1(FM4) is implemented through BRS1(PM4): BRS1(PM4) governs neuronal membrane 
 <details>
 <summary><strong>Diet</strong></summary>
 
-- salmon/sardines/mackerel → DHA.
-- roe → phospholipid DHA.
-- omega-3 eggs → DHA + choline.
-- flax/chia → ALA only.
+- ALA only ← flax, chia
+- DHA ← salmon, sardines, mackerel
+- DHA + choline ← omega-3 eggs
+- Phospholipid DHA ← roe
 
 </details>
 
@@ -83,7 +93,9 @@ BRS1(FM4) is implemented through BRS1(PM4): BRS1(PM4) governs neuronal membrane 
 
 ## 8. Scoreable Inputs & Modulation Signals
 
-This FM is interpreted through food-state, preparation, nutrient, and substance signals inherited from food pages and realised at recipe level.
+These inputs are used within the BRAIN Diet ontology to generate evidence-constrained estimates of plausible BRS1 support. They are not direct measures of clinical efficacy.
+
+
 
 <details>
 <summary><strong>Scoreable Input Categories</strong></summary>

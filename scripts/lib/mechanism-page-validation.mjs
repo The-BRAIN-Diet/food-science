@@ -6,6 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { isLegacyFoodToSubstanceLine } from "./substance-food-mapping.mjs";
 
 export const TIMING_SPECIFIC_VALUES = new Set(["Yes", "No"]);
 
@@ -47,6 +48,88 @@ const FORBIDDEN_INTERVENTION_LABELS = [
   /timing[- ]based/i,
   /temporal\s+modulation/i,
 ];
+
+/** Must not appear in public FM / PM / KC / SM body copy (build gate). */
+export const FORBIDDEN_PUBLIC_SPREADSHEET_PATTERNS = [
+  { re: /\bspreadsheet(s)?\b/i, label: "spreadsheet" },
+  { re: /\bprior sheet\b/i, label: "prior sheet" },
+  { re: /\bColumn\s+[A-Z]\b/i, label: "spreadsheet column letter" },
+];
+
+function extractSectionBody(content, startPattern, endPattern) {
+  const start = content.search(startPattern);
+  if (start === -1) return null;
+  const slice = content.slice(start);
+  const end = slice.search(endPattern);
+  return end === -1 ? slice : slice.slice(0, end);
+}
+
+function validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind }) {
+  if (kind === "kc") {
+    const block = extractSectionBody(
+      content,
+      /### 3\. Supporting Inputs\/Substrates/,
+      /\n### 4\. /,
+    );
+    if (!block) return;
+    for (const line of block.split("\n")) {
+      if (isLegacyFoodToSubstanceLine(line)) {
+        pushIssue(
+          issues,
+          "legacy_food_to_substance",
+          `${entityLabel}: §3 Supporting Inputs/Substrates must use substance ← food bullets (see system/substance-food-mapping-format.md)`,
+        );
+        return;
+      }
+      if (/Food sources \(examples\)/i.test(line)) {
+        pushIssue(
+          issues,
+          "nested_food_sources_collapsible",
+          `${entityLabel}: merge food examples into Dietary Levers / §3 using substance ← food format; remove nested Food sources block`,
+        );
+        return;
+      }
+    }
+    return;
+  }
+
+  const dietary = extractSectionBody(content, /## \d+\. Dietary Levers/, /\n## \d+\. /);
+  if (!dietary) return;
+  if (/Food sources \(examples\)/i.test(dietary)) {
+    pushIssue(
+      issues,
+      "nested_food_sources_collapsible",
+      `${entityLabel}: Dietary Levers must not use nested Food sources (examples); use substance ← food in Diet details`,
+    );
+  }
+  const dietDetail = dietary.match(
+    /<summary><strong>Diet<\/strong><\/summary>\s*\n([\s\S]*?)\n<\/details>/,
+  )?.[1];
+  const scan = dietDetail || dietary;
+  for (const line of scan.split("\n")) {
+    if (isLegacyFoodToSubstanceLine(line)) {
+      pushIssue(
+        issues,
+        "legacy_food_to_substance",
+        `${entityLabel}: Dietary Levers must use substance ← food bullets for substrate mapping (see system/substance-food-mapping-format.md)`,
+      );
+      return;
+    }
+  }
+}
+
+function validateNoPublicSpreadsheetMentions(content, issues, { entityLabel }) {
+  for (const { re, label } of FORBIDDEN_PUBLIC_SPREADSHEET_PATTERNS) {
+    if (re.test(content)) {
+      pushIssue(
+        issues,
+        "forbidden_spreadsheet_mention",
+        `${entityLabel}: remove public mention of "${label}" from page body (build gate)`,
+      );
+      break;
+    }
+  }
+}
 
 export function listMechanismMdxFiles(rootDir = process.cwd(), kind) {
   const base = path.join(rootDir, "docs/biological-targets");
@@ -248,6 +331,8 @@ function validateFmPage(filePath, { rootDir }) {
 
   validateTimingSpecificFrontMatter(data, issues, { entityLabel });
   validateNoVisibleTimingSection(content, issues, { entityLabel });
+  validateNoPublicSpreadsheetMentions(content, issues, { entityLabel });
+  validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "fm" });
   validateInterventionBreakdown(data, content, issues, {
     entityLabel,
     required: true,
@@ -440,12 +525,23 @@ function validatePmPage(filePath) {
 
   validateTimingSpecificFrontMatter(data, issues, { entityLabel });
   validateNoVisibleTimingSection(content, issues, { entityLabel });
+  validateNoPublicSpreadsheetMentions(content, issues, { entityLabel });
+  validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "pm" });
   validatePmExtendedProfile(data, content, issues, { entityLabel });
   if (pmUsesExtendedProfile(data, content)) {
     validateUnderlyingCofactorsBeforeKcs(content, issues, { entityLabel });
   }
 
   return { kind: "pm", filePath, entityId: data.pm_id, ok: issues.length === 0, issues };
+}
+
+function validateKcPage(filePath) {
+  const { data, content } = readMechanismPage(filePath);
+  const entityLabel = data.kc_id || path.basename(filePath);
+  const issues = [];
+  validateNoPublicSpreadsheetMentions(content, issues, { entityLabel });
+  validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "kc" });
+  return { kind: "kc", filePath, entityId: data.kc_id, ok: issues.length === 0, issues };
 }
 
 function validateSmPage(filePath) {
@@ -462,6 +558,8 @@ function validateSmPage(filePath) {
 
   validateTimingSpecificFrontMatter(data, issues, { entityLabel });
   validateNoVisibleTimingSection(content, issues, { entityLabel });
+  validateNoPublicSpreadsheetMentions(content, issues, { entityLabel });
+  validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "sm" });
   validatePmExtendedProfile(data, content, issues, { entityLabel });
   validateSmCategoryFrontMatter(data, content, issues, { entityLabel });
   validateConnectedEntityList(data, "connected_pms", issues, { entityLabel });
@@ -534,6 +632,7 @@ export function migrateAllTimingSections(rootDir = process.cwd(), opts = {}) {
 export function validateAllMechanismPages(rootDir = process.cwd()) {
   const fm = listMechanismMdxFiles(rootDir, "fm").map((f) => validateFmPage(f, { rootDir }));
   const pm = listMechanismMdxFiles(rootDir, "pm").map(validatePmPage);
+  const kc = listMechanismMdxFiles(rootDir, "kc").map(validateKcPage);
   const sm = listMechanismMdxFiles(rootDir, "sm").map(validateSmPage);
-  return { fm, pm, sm, all: [...fm, ...pm, ...sm] };
+  return { fm, pm, kc, sm, all: [...fm, ...pm, ...kc, ...sm] };
 }

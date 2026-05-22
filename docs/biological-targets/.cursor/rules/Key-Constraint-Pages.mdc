@@ -23,7 +23,7 @@ KC identity:
 Structure (exact order, numbered headings):
 1. Definition
 2. Constraint Role
-3. Supporting Inputs / Substances / Signals
+3. Supporting Inputs/Substrates
 4. Biological Importance
 5. Connected Mechanisms (FMs and PMs)
 6. Constraint Stressors / Burdens
@@ -36,7 +36,7 @@ Page header:
 Section guidance:
 - Definition: concise sufficiency/substrate/structural condition only
 - Constraint Role: what the KC enables and what depends on it (enable/support/maintain sufficiency language)
-- Supporting Inputs: substrate-specific bullets; no recipes, whole diets, cofactor lists, or PM-style levers
+- Supporting Inputs/Substrates: **substance ← 2–3 food examples** per bullet (`system/substance-food-mapping-format.md`); one substance per line; repeat foods when shared across substances; no legacy `food → substance` lines
 - Biological Importance: why it matters; keep foundational and short
 - Connected Mechanisms: linked FM and PM lists; no PM→PM or FM→FM chains
 - Constraint Stressors: factors that deplete/strain/impair the KC; concise; no disease claims or prescriptions
@@ -64,7 +64,7 @@ Evidence hierarchy (cite at the correct layer):
 | Food/Substance | detailed compound or food evidence |
 
 Citation density:
-- Do NOT cite every bullet in Supporting Inputs / Substances / Signals
+- Do NOT cite every bullet in Supporting Inputs/Substrates
 - That section lists plausible substrate-level contributors and representative examples, not individually litigated intervention claims
 - Avoid citation explosion; KC references collectively support the rationale for the input class
 
@@ -87,8 +87,9 @@ Reference resolution:
 - Use `[1]`, `[2]` inline only where sections 1–2, 4, or 6 make evidence-backed claims
 - Flag: "Missing bibliography entry"
 
-Supporting Inputs formatting:
-- Bullet list only; prefer `/docs/substances/` links when entities exist
+Supporting Inputs/Substrates formatting:
+- Bullet list only; format: `- Folate ← leafy greens, legumes, liver` (Unicode `←`)
+- Prefer `/docs/substances/` links on the substance name when pages exist
 - Do not list SCFAs or other metabolites as if they are intrinsic food substances
 
 Style:
@@ -99,6 +100,7 @@ Deprecated headings (do not use):
 - Biological Role
 - Supporting Substances/Interventions
 - Dietary Substrates/Precursors
+- Supporting Inputs / Substances / Signals (use Supporting Inputs/Substrates)
 - Supports / Constraints (legacy)
 
 If ambiguity exists, stop and ask.

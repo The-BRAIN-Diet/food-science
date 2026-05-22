@@ -61,7 +61,7 @@ Render sections in this exact order (Section Rules are authoritative):
 
 1. Definition
 2. Constraint Role
-3. Supporting Inputs / Substances / Signals
+3. Supporting Inputs/Substrates
 4. Biological Importance
 5. Connected Mechanisms
 6. Constraint Stressors / Burdens
@@ -118,7 +118,7 @@ Avoid PM-style wording:
 
 KCs do not regulate biology directly; they enable or constrain mechanisms.
 
-### 3. Supporting Inputs / Substances / Signals
+### 3. Supporting Inputs/Substrates
 
 This section replaces PM-style “Dietary Levers” and legacy “Dietary Substrates/Precursors” headings.
 
@@ -169,6 +169,8 @@ This section should answer:
 > What directly contributes to maintaining this biological requirement?
 
 Render as bullet points only (no table).
+
+**Substance → food mapping (required when listing foods):** use the canonical **substance ← 2–3 food examples** format defined in `system/substance-food-mapping-format.md` (one substance per bullet; repeat foods per substance when shared). Do not use legacy `food → substance` lines.
 
 Prefer links to existing substance pages in `/docs/substances/` when entities exist.
 
@@ -292,7 +294,7 @@ KC evidence should remain:
 
 ### Citation Density Rules
 
-Do NOT attempt to individually cite every supporting input/substance/signal listed under **Supporting Inputs / Substances / Signals**.
+Do NOT attempt to individually cite every supporting input/substance/signal listed under **Supporting Inputs/Substrates**.
 
 The inputs section represents:
 
@@ -321,7 +323,7 @@ KC pages should cite foundational biology, substrate relationships, structural s
 
 ### Supporting Inputs Evidence Rules
 
-Supporting Inputs / Substances / Signals should be:
+Supporting Inputs/Substrates should be:
 
 - biologically plausible
 - substrate-specific
@@ -476,7 +478,7 @@ missing_entities:
 | — | `### {kc_id} - {name}` (page identifier line) |
 | 1 | `### 1. Definition` |
 | 2 | `### 2. Constraint Role` |
-| 3 | `### 3. Supporting Inputs / Substances / Signals` |
+| 3 | `### 3. Supporting Inputs/Substrates` |
 | 4 | `### 4. Biological Importance` |
 | 5 | `### 5. Connected Mechanisms` |
 | 6 | `### 6. Constraint Stressors / Burdens` |
@@ -497,5 +499,7 @@ missing_entities:
 - `biological_role` (use `constraint_role` + `biological_importance`)
 - `Supporting Substances/Interventions` as a separate intervention-citation section
 - `Dietary Substrates/Precursors` as a standalone section heading
+- `Supporting Inputs / Substances / Signals` (use `Supporting Inputs/Substrates`)
+- `food → substance` bullets (use `substance ← food1, food2` per `system/substance-food-mapping-format.md`)
 - `Supports` / `Related FMs` legacy heading without "Connected Mechanisms"
 - `requirement_type` as a rendered page section (may remain ingest metadata only)
