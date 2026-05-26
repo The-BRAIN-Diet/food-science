@@ -13,7 +13,7 @@ sidebar_position: 5
 
 <div class="brs-overview-intro">
 
-The BRAIN Diet is organised around six Biological Regulatory Systems (BRS): interconnected control systems that link nutrition, lifestyle, physiology, and brain function. While centred on brain health, the framework is designed as a complete dietary approach grounded in core biological systems that support both cognitive function and broader physiological health.
+The BRAIN Framework organises biology into six overlapping Biological Regulatory Systems (BRS), not as isolated silos, but as a way of making complex and interacting physiology easier to interpret. Biological effects emerge through the integration of multiple systems operating under shared physiological demands, rather than from isolated nutrients or single pathways alone.
 
 <p class="brs-overview-image-wrap">
   <img
@@ -27,7 +27,27 @@ At a practical level, meals are designed as a complementary rotation across the 
 
 </div>
 
-Rather than focusing on isolated nutrients, the framework leverages Functional Mechanisms (key biological controls that can be influenced through diet and lifestyle). Functional Mechanisms represent a grouping of one or more Primary Mechanisms (the underlying biological processes that support those controls) to translate complex biology into practical, usable strategies for improving health. Specific Mechanisms are context-specific expressions of stable biological regulation associated with phenotype patterns, therapeutic-area dynamics, and variant-sensitive modulation.
+Within each system:
+
+- **Key Constraints (KCs)** describe the shared sufficiency conditions and foundational biological requirements that shape whether regulation is feasible.
+- **Primary Mechanisms (PMs)** describe the regulatory processes operating within those constraints.
+- **Functional Mechanisms (FMs)** group related PMs into integrated functional states.
+- **Specific Mechanisms (SMs)** describe context-dependent expression of that stable biology.
+
+<details>
+<summary><strong>How the framework organises biology</strong></summary>
+
+Biological effects rarely arise from a single nutrient, pathway, or control point in isolation; they emerge through the integration of multiple systems operating under shared physiological demands [1][2][3].
+
+Within each system, Key Constraints (KCs) describe shared sufficiency conditions, substrate economies, and foundational biological requirements that shape whether regulation can be maintained effectively at all. These are not themselves mechanisms; they are distributed biological constraints within which multiple downstream processes must operate. Examples include amino acid substrate availability, methyl donor sufficiency, membrane lipid sufficiency, and fermentable substrate availability [2][3].
+
+Primary Mechanisms (PMs) describe the more specific regulatory processes acting within those shared constraints. Functional Mechanisms (FMs) group related PMs into higher-order integrated functional states that are more useful for interpreting how biology is expressed at the level of food, meal structure, timing, and lifestyle. Specific Mechanisms (SMs) then describe context-dependent expression of otherwise stable biology, including phenotype-sensitive, therapeutic-area, and variant-sensitive patterns of regulation.
+
+This framing borrows conceptually from several established scientific ideas. Metabolic Control Analysis emphasises that regulation is distributed across networks rather than governed by single control switches or isolated rate-limiting steps [1]. Constraint-based biology emphasises that shared constraints shape the range of feasible biological states and phenotypic outcomes [2]. Allostatic physiology further suggests that regulatory capacity is continuously allocated under energetic, adaptive, and environmental pressures rather than maintained as a fixed equilibrium [3].
+
+Viewed this way, the framework is not intended to divide biology into separate boxes. It is a structured way of understanding how shared constraints, distributed regulation, integrated functional states, and context-specific expression interact across the six systems as an interconnected whole.
+
+</details>
 
 ## The Six Biological Regulatory Systems
 
@@ -54,4 +74,12 @@ Peripheral neural-immune interface: gut signalling, microbial metabolites, and v
 ### [BRS6 - Metabolic & Neuroendocrine Stress](/docs/biological-targets/metabolic-neuroendocrine-stress)
 
 Whole-body regulation: stress allocation, autonomic tone, hormonal coordination, and energy prioritisation.
+
+---
+
+## References
+
+1. [Kacser and Burns (1973)](/docs/papers/BRAIN-Diet-References#kacser_control_1973)
+2. [Yang et al. (2016)](/docs/papers/BRAIN-Diet-References#yang_principles_2016)
+3. [McEwen (1998)](/docs/papers/BRAIN-Diet-References#mcewen_protective_1998)
 

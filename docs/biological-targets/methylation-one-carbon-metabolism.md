@@ -25,23 +25,6 @@ hide_title: true
 
 The Methylation & One-Carbon Metabolism system regulates methyl donor availability, homocysteine recycling, transsulfuration, and SAMe-dependent phospholipid methylation. It links dietary folate, B12, choline, betaine, and sulfur amino-acid patterns to brain-relevant methylation capacity and redox coupling.
 
-One-carbon metabolism connects nutrient intake to epigenetic and neurochemical context; genotype-sensitive pathways (for example MTHFR-related efficiency) may alter how dietary methyl donors are utilised.
-
-<details>
-<summary><strong>Methylation & One-Carbon Metabolism Biological Implications</strong></summary>
-
-B vitamins, particularly B6, B2, folate (5-MTHF), and B12, are essential cofactors in the remethylation of homocysteine (Hcy) to methionine, which is subsequently converted to S-adenosylmethionine (SAMe).
-
-Elevated plasma homocysteine is frequently associated with cognitive and psychiatric contexts; dietary patterns supplying methyl donors, sulfur amino acids, and omega-3 context may support homocysteine modulation and methylation capacity.
-
-## References
-
-- [Collaboration (1998)](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
-- [Oulhaj et al. (2016)](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
-- [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
-
-</details>
-
 ---
 
 ## Functional Mechanisms
@@ -57,6 +40,8 @@ These functional mechanisms represent connected groupings of biological mechanis
 ---
 
 ## Requirements (Key Constraints)
+
+Key Constraints (KCs) describe shared sufficiency conditions, substrate economies, and foundational biological requirements that shape whether regulation can be maintained effectively at all. In BRS2, this includes conditions such as methyl donor sufficiency and amino acid substrate sufficiency, which influence the feasibility, continuity, and efficiency of multiple downstream mechanisms rather than acting as isolated nutrient deficits [2][3].
 
 - [BRS2(KC1) — Methyl Donor Sufficiency](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency): Availability of folate, B12, choline, and betaine required for one-carbon transfer and remethylation.
 - [BRS2(KC2) — Amino Acid Substrate Sufficiency](/docs/biological-targets/brs2/kc/brs2-kc2-amino-acid-substrate-sufficiency): Availability of methionine, serine, glycine, and cysteine supporting methionine cycle and transsulfuration.
@@ -82,3 +67,14 @@ Primary mechanisms sit beneath functional mechanisms and define specific regulat
 Context-specific expressions of stable biological regulation associated with phenotype patterns, therapeutic-area dynamics, and variant-sensitive modulation.
 
 - [BRS2(S1) — SNP-Sensitive Methylation Efficiency](/docs/biological-targets/brs2/sm/brs2-s1-snp-sensitive-methylation-efficiency)
+
+---
+
+## References
+
+1. [Kacser and Burns (1973)](/docs/papers/BRAIN-Diet-References#kacser_control_1973)
+2. [Yang et al. (2016)](/docs/papers/BRAIN-Diet-References#yang_principles_2016)
+3. [McEwen (1998)](/docs/papers/BRAIN-Diet-References#mcewen_protective_1998)
+4. [Collaboration (1998)](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
+5. [Oulhaj et al. (2016)](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
+6. [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
