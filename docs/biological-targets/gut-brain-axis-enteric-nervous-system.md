@@ -20,7 +20,7 @@ hide_title: true
 
 ## BRS5 - Gut-Brain Axis & Enteric Nervous System
 
-This page is being expanded with functional mechanism and primary mechanism definitions for this biological regulatory system.
+The Gut-Brain Axis & Enteric Nervous System system covers gut barrier integrity, microbial ecology, short-chain fatty acid and polyphenol-derived metabolite signalling, endotoxin containment, and vagal-enteric communication under dietary, immune, and circadian pressure. It links fermentable fibres, plant diversity, barrier-supportive nutrients, fermented foods, and microbiome-active polyphenols to gut-immune containment, microbial metabolite output, and gut-derived neuromodulatory support.
 
 <details>
 <summary><strong>Gut–Brain Axis & Enteric Nervous System (ENS) Biological Implications</strong></summary>
@@ -69,3 +69,40 @@ A lowered abundance of Bifidobacterium longum in infancy has been associated wit
 - A lowered abundance of Bifidobacterium longum in infancy has been associated with increased risk of developing ADHD and Asperger syndrome in childhood [Pärtty et al. 2015](/docs/papers/BRAIN-Diet-References#partty_possible_2015)
 
 </details>
+
+---
+
+## Functional Mechanisms
+
+These functional mechanisms represent connected groupings of gut barrier, microbial signalling, and gut-brain communication processes through which this system can be influenced.
+
+### Core Functional Mechanisms
+
+- [BRS5(FM1) - Gut Barrier Integrity & Immune Interface](/docs/biological-targets/brs5/fm/brs5-fm1-gut-barrier-integrity-and-immune-interface): Diet-actionable control point regulating epithelial tight-junction integrity, mucus protection, and immune containment at the gut-brain interface.
+- [BRS5(FM2) - Microbial Metabolite Signalling Capacity](/docs/biological-targets/brs5/fm/brs5-fm2-microbial-metabolite-signalling-capacity): Functional control point governing production of beneficial microbial metabolites that shape immune, endocrine, and neurobiological signalling.
+- [BRS5(FM3) - Gut-Vagal Neuromodulation & ENS Signalling](/docs/biological-targets/brs5/fm/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling): Diet-actionable control point regulating vagal and enteric signalling through microbial activity, barrier state, and metabolite/neurochemical cues.
+
+---
+
+## Requirements (Key Constraints)
+
+Key Constraints (KCs) in BRS5 describe the shared substrate, ecological-input, and barrier-supportive conditions that shape whether microbial fermentation, gut containment, and gut-brain communication can be maintained effectively at all. In this system they act less as isolated nutrient targets than as ecological and mucosal infrastructure supporting multiple downstream mechanisms simultaneously.
+
+- [BRS5(KC1) - Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability): Availability of fermentable fibres and resistant starch required to sustain microbial fermentation and SCFA production.
+- [BRS5(KC2) - Polyphenol & Plant-Diversity Input Availability](/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability): Availability of microbiome-active polyphenols and broad plant diversity required to support microbial ecology and biotransformation.
+- [BRS5(KC3) - Barrier-Supportive Nutrient Sufficiency](/docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency): Availability of nutrients that support epithelial maintenance, mucosal immunity, and barrier resilience.
+
+---
+
+## Primary Mechanisms
+
+Primary mechanisms sit beneath functional mechanisms and define the specific gut ecological, barrier, and signalling processes acting within those shared constraints.
+
+- [BRS5(PM1) - Microbial Ecological Turnover & Competitive Selection](/docs/biological-targets/brs5/pm/brs5-pm1-microbial-ecological-turnover-and-competitive-selection)
+- [BRS5(PM2) - SCFA Production & Signalling](/docs/biological-targets/brs5/pm/brs5-pm2-scfa-production-and-signalling)
+- [BRS5(PM3) - Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/pm/brs5-pm3-gut-barrier-tight-junction-integrity)
+- [BRS5(PM4) - LPS / Endotoxin Containment](/docs/biological-targets/brs5/pm/brs5-pm4-lps-endotoxin-containment)
+- [BRS5(PM5) - Vagal / ENS Signalling Modulation](/docs/biological-targets/brs5/pm/brs5-pm5-vagal-ens-signalling-modulation)
+- [BRS5(PM6) - Neurotransmitter Precursor Biotransformation & Availability](/docs/biological-targets/brs5/pm/brs5-pm6-neurotransmitter-precursor-biotransformation-and-availability)
+- [BRS5(PM7) - Keystone Taxa Support](/docs/biological-targets/brs5/pm/brs5-pm7-keystone-taxa-support)
+- [BRS5(PM8) - Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation](/docs/biological-targets/brs5/pm/brs5-pm8-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation)

@@ -1,0 +1,133 @@
+---
+title: Cellular Bioenergetics
+fm_id: BRS4(FM1)
+parent_brs: BRS4
+summary: 'Functional control of ATP production via mitochondrial respiration, ETC efficiency, NAD⁺-linked redox metabolism, and high-demand energy support.'
+mechanisms_covered:
+  - id: BRS4(PM1)
+    name: Electron Transport Chain Function
+    href: /docs/biological-targets/brs4/pm/brs4-pm1-electron-transport-chain-function
+  - id: BRS4(PM4)
+    name: NAD⁺ Metabolism
+    href: /docs/biological-targets/brs4/pm/brs4-pm4-nad-metabolism
+  - id: BRS4(PM6)
+    name: Creatine / Phosphocreatine Buffer
+    href: /docs/biological-targets/brs4/pm/brs4-pm6-creatine-phosphocreatine-buffer
+key_constraints:
+  - id: BRS4(KC1)
+    name: Macronutrient Substrate Availability
+    type: substrate
+    href: /docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability
+  - id: BRS4(KC2)
+    name: Mitochondrial Cofactor Sufficiency
+    type: cofactor
+    href: /docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency
+intervention_dominance: Diet-Supported
+intervention_breakdown: Food-State Leaning
+timing_specific: 'Yes'
+coverage_timing: Daily
+references:
+  - '[1] [Tardy et al. (2020)](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)'
+  - '[2] [Pirinen et al. (2020)](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)'
+  - '[3] [Crane (2001)](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)'
+hide_title: true
+---
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs4-portrait-thumbnail.png"
+    alt="BRS4 — Mitochondrial Function & Bioenergetics"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS4(FM1) - Cellular Bioenergetics
+
+## 1. Definition
+
+Functional control of ATP production via mitochondrial respiration, ETC efficiency, NAD⁺-linked redox metabolism, and high-demand energy support.
+
+## 2. Intervention Breakdown
+
+Food-State Leaning
+
+## 3. Functional Role
+
+↑ ATP availability; ↑ cellular energy output
+
+## 4. Mechanistic Basis (Implementation of PMs)
+
+Integrated control of ATP production through electron transport, NAD⁺-linked redox metabolism, and rapid phosphocreatine buffering.
+
+PM1 governs Electron Transport Chain Function. PM4 governs NAD⁺ Metabolism. PM6 governs Creatine / Phosphocreatine Buffer.
+
+Together, these PMs operationalise BRS4(FM1) as coordinated cellular bioenergetics.
+
+At the integrated FM level, realised energy output depends not only on fuel supply, but also on whether respiratory cofactors, redox-carrier availability, and rapid buffering reserve are sufficient to keep ATP delivery matched to demand [1][2][3].
+
+## 5. Underlying Mechanisms and Requirements
+
+### 5.1 Cofactors and Substrates
+
+| PM | Cofactors | KC substrates |
+| --- | --- | --- |
+| [BRS4(PM1)](/docs/biological-targets/brs4/pm/brs4-pm1-electron-transport-chain-function) | CoQ10, iron, riboflavin, niacin | glucose, fatty acids, amino acids ([KC1](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability)); B vitamins, CoQ10-supportive foods, iron, magnesium ([KC2](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency)) |
+| [BRS4(PM4)](/docs/biological-targets/brs4/pm/brs4-pm4-nad-metabolism) | B3 | B vitamins, CoQ10-supportive foods, iron, magnesium ([KC2](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency)) |
+| [BRS4(PM6)](/docs/biological-targets/brs4/pm/brs4-pm6-creatine-phosphocreatine-buffer) | creatine | glucose, fatty acids, amino acids ([KC1](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability)) |
+
+### 5.2 PMs (Primary Mechanisms)
+
+- [BRS4(PM1) - Electron Transport Chain Function](/docs/biological-targets/brs4/pm/brs4-pm1-electron-transport-chain-function)
+- [BRS4(PM4) - NAD⁺ Metabolism](/docs/biological-targets/brs4/pm/brs4-pm4-nad-metabolism)
+- [BRS4(PM6) - Creatine / Phosphocreatine Buffer](/docs/biological-targets/brs4/pm/brs4-pm6-creatine-phosphocreatine-buffer)
+
+### 5.3 KCs (Key Constraints)
+
+- [BRS4(KC1) - Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability)
+- [BRS4(KC2) - Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency)
+
+### 5.4 Cross-BRS Links
+
+- [BRS6(PM2) - Glycaemic Variability Regulation](/docs/biological-targets/brs6/pm/brs6-pm2-glycaemic-variability-regulation)
+
+## 6. Dietary Levers
+
+<details>
+<summary><strong>Diet</strong></summary>
+
+- CoQ10 and respiratory cofactors ← oily fish, meat, dairy, whole grains
+- Niacin-supportive foods ← poultry, fish, peanuts, mushrooms
+- Creatine ← meat, fish
+
+</details>
+
+## 7. Lifestyle Levers
+
+<details>
+<summary><strong>Lifestyle</strong></summary>
+
+- Stable meal structure helps match substrate delivery to daily energetic demand.
+- Recovery and sleep quality influence realised energy availability even when dietary support is adequate.
+
+</details>
+
+## 8. Scoreable Inputs & Modulation Signals
+
+These inputs are used within the BRAIN Diet ontology to generate evidence-constrained estimates of plausible BRS4 support. They are not direct measures of clinical efficacy.
+
+<details>
+<summary><strong>Scoreable Input Categories</strong></summary>
+
+| Input Category | Example Inputs | Functional Relevance |
+|---|---|---|
+| Functional Property Potentials | mitochondrial_cofactor_density; stable_energy_substrate_pattern; creatine_support | May support cellular bioenergetics. |
+| Realised Functional States | balanced_energy_meal; cofactor_dense_meal; creatine_present_pattern | Represent practical ATP-supportive states. |
+| Substance / Nutrient Signals | CoQ10; iron; riboflavin; niacin; creatine | Nutrient signals linked to this FM cluster. |
+| Preparation Transformations | minimally_processed; whole_food_matrix | May preserve fuel quality and cofactor density. |
+
+</details>
+
+## 9. References
+
+1. [Tardy et al. (2020)](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
+2. [Pirinen et al. (2020)](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
+3. [Crane (2001)](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)

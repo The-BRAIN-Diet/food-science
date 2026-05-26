@@ -20,7 +20,7 @@ hide_title: true
 
 ## BRS3 - Inflammation & Oxidative Stress
 
-This page is being expanded with functional mechanism and primary mechanism definitions for this biological regulatory system.
+The Inflammation & Oxidative Stress system covers inflammatory signalling tone, antioxidant defence, active inflammation resolution, and redox buffering under immune, metabolic, gut-derived, and lipid-mediated pressure. It links dietary polyphenols, antioxidant substrates and cofactors, essential fatty acid balance, gut-derived inflammatory inputs, and food-pattern effects to immune signalling balance, oxidative resilience, and termination of unresolved inflammation.
 
 <details>
 <summary><strong>Inflammation & Oxidative Stress Biological Implications</strong></summary>
@@ -195,3 +195,41 @@ These findings reinforce the importance of nutrient strategies within the BRAIN 
 - High-heat cooking of fats and proteins produces AGEs/ALEs, which can cross the BBB, activate microglia, and impair synaptic plasticity [Uribarri et al. 2010](/docs/papers/BRAIN-Diet-References#uribarri_advanced_2010)
 
 </details>
+
+---
+
+## Functional Mechanisms
+
+These functional mechanisms represent connected groupings of inflammatory and redox-control processes through which this system can be influenced.
+
+### Core Functional Mechanisms
+
+- [BRS3(FM1) - Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm/brs3-fm1-anti-inflammatory-signalling-tone): Diet-actionable control point regulating inflammatory signalling intensity across cytokine, NF-kB, gut-derived, and lipid-mediator inputs.
+- [BRS3(FM2) - Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm/brs3-fm2-antioxidant-defense-capacity): Functional control point regulating endogenous and exogenous antioxidant protection against redox overload, oxidative damage, and lipid peroxidation control.
+- [BRS3(FM3) - Inflammation Resolution Capacity](/docs/biological-targets/brs3/fm/brs3-fm3-inflammation-resolution-capacity): Functional control point governing active termination of inflammation through pro-resolving lipid mediators rather than simple suppression.
+
+---
+
+## Requirements (Key Constraints)
+
+Key Constraints (KCs) in BRS3 describe the shared substrate, cofactor, and lipid-balance conditions that shape whether inflammatory control, antioxidant defence, and resolution capacity can be maintained effectively at all. In this system they act less as isolated nutrient targets than as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
+
+- [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability): Availability of dietary antioxidant substrates and glutathione precursors required for redox buffering and damage limitation.
+- [BRS3(KC2) - Antioxidant Cofactor Sufficiency](/docs/biological-targets/brs3/kc/brs3-kc2-antioxidant-cofactor-sufficiency): Availability of trace-mineral cofactors required for endogenous antioxidant enzymes and metal-binding defence.
+- [BRS3(KC3) - Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance): Availability and balance of omega-3 and omega-6 fatty acids required for inflammatory signalling and resolution pathways.
+
+---
+
+## Primary Mechanisms
+
+Primary mechanisms sit beneath functional mechanisms and define the specific regulatory processes acting within those shared constraints.
+
+- [BRS3(PM1) - NF-kB Signalling Regulation](/docs/biological-targets/brs3/pm/brs3-pm1-nf-kb-signalling-regulation)
+- [BRS3(PM2) - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/pm/brs3-pm2-nrf2-are-antioxidant-activation)
+- [BRS3(PM3) - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/pm/brs3-pm3-ros-generation-vs-clearance-balance)
+- [BRS3(PM4) - Cytokine Network Modulation](/docs/biological-targets/brs3/pm/brs3-pm4-cytokine-network-modulation)
+- [BRS3(PM5) - Lipid Peroxidation Control](/docs/biological-targets/brs3/pm/brs3-pm5-lipid-peroxidation-control)
+- [BRS3(PM6) - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/pm/brs3-pm6-eicosanoid-spm-balance)
+- [BRS3(PM7) - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/pm/brs3-pm7-gut-derived-inflammatory-signalling)
+- [BRS3(PM8) - Antioxidant Network Recycling](/docs/biological-targets/brs3/pm/brs3-pm8-antioxidant-network-recycling)
+
