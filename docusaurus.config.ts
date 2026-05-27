@@ -102,6 +102,10 @@ const config: Config = {
             to: '/docs/biological-targets/brs6/pm/brs6-pm2-glycaemic-variability-regulation',
             from: '/docs/biological-targets/brs6/pm/brs6-pm2-insulin-sensitivity-and-glucose-disposal',
           },
+          {
+            to: '/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation',
+            from: '/docs/biological-targets/brs1/pm/brs1-pm1-tyrosine-tryptophan-precursor-supply',
+          },
         ],
       },
     ],
@@ -110,6 +114,10 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/brain-diet-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark',
+      respectPrefersColorScheme: false,
+    },
     navbar: {
       title: 'The BRAIN Diet',
       logo: {

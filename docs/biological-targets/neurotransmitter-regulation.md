@@ -95,7 +95,7 @@ These functional mechanisms represent connected groupings of biological mechanis
 
 Primary mechanisms sit beneath functional mechanisms and define specific regulatory processes. Browse by functional mechanism above, or use these direct links:
 
-- [BRS1(PM1) — Tyrosine / Tryptophan Precursor Supply](/docs/biological-targets/brs1/pm/brs1-pm1-tyrosine-tryptophan-precursor-supply)
+- [BRS1(PM1) — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation)
 - [BRS1(PM2) — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/pm/brs1-pm2-lat1-competitive-transport-modulation)
 - [BRS1(PM3) — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/pm/brs1-pm3-acetylcholine-synthesis-support)
 - [BRS1(PM4) — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/pm/brs1-pm4-neuronal-membrane-dha-incorporation)
