@@ -30,8 +30,8 @@ At a practical level, meals are designed as a complementary rotation across the 
 Within each system:
 
 - **Key Constraints (KCs)** describe the shared sufficiency conditions and foundational biological requirements that shape whether regulation is feasible.
+- **Functional Mechanisms (FMs)** represent higher-order integrated regulatory states emerging from coordinated groups of related PMs operating within shared biological constraints.
 - **Primary Mechanisms (PMs)** describe the regulatory processes operating within those constraints.
-- **Functional Mechanisms (FMs)** group related PMs into integrated functional states.
 - **Specific Mechanisms (SMs)** describe context-dependent expression of that stable biology.
 
 <details>
@@ -41,7 +41,7 @@ Biological effects rarely arise from a single nutrient, pathway, or control poin
 
 Within each system, Key Constraints (KCs) describe shared sufficiency conditions, substrate economies, and foundational biological requirements that shape whether regulation can be maintained effectively at all. These are not themselves mechanisms; they are distributed biological constraints within which multiple downstream processes must operate. Examples include amino acid substrate availability, methyl donor sufficiency, membrane lipid sufficiency, and fermentable substrate availability [2][3].
 
-Primary Mechanisms (PMs) describe the more specific regulatory processes acting within those shared constraints. Functional Mechanisms (FMs) group related PMs into higher-order integrated functional states that are more useful for interpreting how biology is expressed at the level of food, meal structure, timing, and lifestyle. Specific Mechanisms (SMs) then describe context-dependent expression of otherwise stable biology, including phenotype-sensitive, therapeutic-area, and variant-sensitive patterns of regulation.
+Functional Mechanisms (FMs) represent higher-order integrated regulatory states emerging from coordinated groups of related PMs operating within shared biological constraints. Primary Mechanisms (PMs) describe the more specific regulatory processes acting within those shared constraints. Specific Mechanisms (SMs) then describe context-dependent expression of otherwise stable biology, including phenotype-sensitive, therapeutic-area, and variant-sensitive patterns of regulation.
 
 This framing borrows conceptually from several established scientific ideas. Metabolic Control Analysis emphasises that regulation is distributed across networks rather than governed by single control switches or isolated rate-limiting steps [1]. Constraint-based biology emphasises that shared constraints shape the range of feasible biological states and phenotypic outcomes [2]. Allostatic physiology further suggests that regulatory capacity is continuously allocated under energetic, adaptive, and environmental pressures rather than maintained as a fixed equilibrium [3].
 

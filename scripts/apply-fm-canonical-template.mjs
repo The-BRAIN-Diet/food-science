@@ -22,7 +22,7 @@ const MECH = {
     opening:
       "Diet-actionable control of catecholamine precursor supply, LNAA transport bias, and noradrenergic signalling context.",
     clauses:
-      "PM1 governs Tyrosine / Tryptophan Precursor Supply. PM2 governs LAT1 Competitive Transport Modulation. PM5 governs Noradrenergic Signalling (Attention & Executive Modulation).",
+      "PM1 governs Amino-Acid Availability & Prioritisation. PM2 governs LAT1 Competitive Transport Modulation. PM5 governs Noradrenergic Signalling (Attention & Executive Modulation).",
     together:
       "Together, these PMs operationalise BRS1(FM1) as coordinated meal-level control of catecholaminergic and related neurotransmitter signalling.",
   },
