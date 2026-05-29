@@ -119,8 +119,9 @@ Context-specific expressions of stable biological regulation associated with phe
 ## References
 
 1. [Kacser and Burns (1973)](/docs/papers/BRAIN-Diet-References#kacser_control_1973)
-2. [Yang et al. (2016)](/docs/papers/BRAIN-Diet-References#yang_principles_2016)
-3. [McEwen (1998)](/docs/papers/BRAIN-Diet-References#mcewen_protective_1998)
-4. [Collaboration (1998)](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
-5. [Oulhaj et al. (2016)](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
-6. [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
+2. [Orth et al. (2010)](/docs/papers/BRAIN-Diet-References#orth_what_2010)
+3. [Sterling and Eyer (1988)](/docs/papers/BRAIN-Diet-References#sterling_allostasis_1988)
+4. [McEwen (2006)](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006)
+5. [Collaboration (1998)](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
+6. [Oulhaj et al. (2016)](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
+7. [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)

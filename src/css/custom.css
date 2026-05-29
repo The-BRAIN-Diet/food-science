@@ -79,8 +79,24 @@
 /* Reference anchor link styling */
 .reference-item {
   position: relative;
-  /* Ensure anchored reference items scroll below the sticky navbar */
+}
+
+/* Citation-key target for cross-page links (e.g. /docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006) */
+.reference-citation-heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
   scroll-margin-top: var(--ifm-navbar-height, 80px);
+}
+
+.reference-citation-heading__label {
+  display: none;
 }
 
 .reference-anchor {

@@ -116,8 +116,13 @@ export default function ReferenceList({
       {sortedEntries.map((entry, index) => (
         <li
           key={entry.citationKey || `ref-${index}`}
-          id={entry.citationKey || `ref-${index}`}
           className={`reference-item reference-type-${entry.entryType.toLowerCase()}`}>
+          {/* Heading id so Docusaurus and cross-page #citationKey links resolve (li id alone is not indexed). */}
+          {entry.citationKey && (
+            <h3 id={entry.citationKey} className="reference-citation-heading">
+              <span className="reference-citation-heading__label">{entry.citationKey}</span>
+            </h3>
+          )}
           {/* Anchor link for direct linking to this reference */}
           {entry.citationKey && (
             <a
