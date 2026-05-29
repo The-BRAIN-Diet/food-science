@@ -4,6 +4,11 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
+/** WIP recipes: included in dev (`npm start`); omitted from production builds (thebraindiet.org). */
+const includeInternalRecipeWip =
+  process.env.NODE_ENV !== 'production' ||
+  process.env.INCLUDE_INTERNAL_DOCS === 'true';
+
 const config: Config = {
   title: 'The BRAIN Diet',
   tagline: 'Bio Regulation Algorithm and Integrated Neuronutrition',
@@ -43,6 +48,7 @@ const config: Config = {
         docs: {
           sidebarCollapsible: true,
           sidebarCollapsed: true,
+          exclude: includeInternalRecipeWip ? [] : ['**/recipes/WIP/**'],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -57,7 +63,11 @@ const config: Config = {
           // Exclude tag listing routes that Docusaurus generates under
           // /docs/tags/docs/tags/** so the sitemap only exposes the clean
           // /docs/tags/<tag> URLs.
-          ignorePatterns: ['/tags/**', '/docs/tags/docs/tags/**'],
+          ignorePatterns: [
+            '/tags/**',
+            '/docs/tags/docs/tags/**',
+            ...(includeInternalRecipeWip ? [] : ['/docs/recipes/WIP/**']),
+          ],
           filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,

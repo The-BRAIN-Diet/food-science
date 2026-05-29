@@ -56,8 +56,8 @@ function pmHref(entry, rootDir) {
 
 function extractCofactors(pmContent) {
   const block =
-    pmContent.match(/### 5\.1 Co-factors\s*\n([\s\S]*?)(?=\n### 5\.2)/) ||
-    pmContent.match(/### 4\.1 Co-factors\s*\n([\s\S]*?)(?=\n### 4\.2)/);
+    pmContent.match(/### 5\.1 Cofactors and Supporting Inputs\s*\n([\s\S]*?)(?=\n### 5\.2)/) ||
+    pmContent.match(/### 4\.1 Cofactors and Supporting Inputs\s*\n([\s\S]*?)(?=\n### 4\.2)/);
   if (!block) return "—";
   const items = [...block[1].matchAll(/^-\s+(.+)$/gm)]
     .map((m) => m[1].trim())

@@ -23,29 +23,35 @@ hide_title: true
 The Mitochondrial Function & Bioenergetics system covers ATP production, electron transport, NAD+-linked redox metabolism, mitochondrial protection, substrate switching, and rapid energy buffering under varying cognitive and metabolic demand. It links macronutrient substrate availability, mitochondrial cofactor sufficiency, creatine, carnitine, CoQ10, polyphenol-rich dietary patterns, and training-recovery context to cellular energy output, mitochondrial resilience, and adaptive energetic capacity.
 
 <details>
-<summary><strong>Mitochondrial Function & Bioenergetics Biological Implications</strong></summary>
+<summary><strong>ADHD: Mitochondrial Function & Bioenergetics Biological Implications</strong></summary>
 
-Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder, and neurodegenerative conditions like Alzheimer's and Parkinson's disease have complex, multifactorial origins. Although the precise causes are not fully understood, these conditions share overlapping biological dysfunctions, including mitochondrial impairment, chronic inflammation, oxidative stress, impaired methylation, gut–brain axis disruption, glucose dysregulation, micronutrient deficiencies, and neurotransmitter imbalances (paper.txt, line 132).
+### Introduction
 
-Vitamins and minerals function as indispensable micronutrients and enzymatic cofactors in all pivotal brain biology pathways, aiding neurotransmitter synthesis, mitochondrial energy production, DNA repair, antioxidant defense, methylation, and the regulation of neuroplasticity. Their availability can determine whether compounds such as omega-3 fatty acids, polyphenols, or amino acid precursors exert their intended effects. This interdependence highlights the importance of viewing nutrition as an interdependent system (paper.txt, line 235).
+Vitamins and minerals function as indispensable micronutrients and enzymatic cofactors in brain biology, aiding neurotransmitter synthesis, mitochondrial energy production, DNA repair, antioxidant defence, methylation, and neuroplasticity. Their availability can determine whether omega-3 fatty acids, polyphenols, or amino-acid precursors exert their intended effects—nutrition should be viewed as an interdependent system.
 
-The omnivore version of the diet also incorporates nutrient-dense animal foods such as seafood, eggs, fermented dairy, occasional offal (liver), and lean animal proteins which supply other essential key brain nutrients such as omega 3, creatine, CoQ10, and taurine (paper.txt, line 156).
+Nutrient-dense animal foods such as seafood, eggs, fermented dairy, occasional offal, and lean proteins supply omega-3, creatine, CoQ10, and taurine alongside plant-forward patterns.
 
-Creatine supports ATP recycling in neurons and enhances working memory and cognitive processing speed. It is found in beef, lamb, pork, salmon, tuna, cod, and scallops, with minimal amounts in seaweed (e.g., nori). Vegan diets lack creatine; supplementation or fortified foods may be needed (paper.txt, line 279).
+Creatine supports ATP recycling in neurons and enhances working memory and cognitive processing speed. It is found in beef, lamb, pork, salmon, tuna, cod, and scallops; vegan diets lack meaningful dietary creatine unless supplemented.
 
-Coenzyme Q10 (CoQ10) supports mitochondrial electron transport and provides antioxidant protection for neurons. It is found in organ meats (heart, liver), oily fish (sardines, mackerel), beef, and in smaller amounts in spinach, broccoli, pistachios, and olive oil. Plant forms (ubiquinone) are less concentrated; deficiency risk is higher with age (paper.txt, line 280).
+Coenzyme Q10 (CoQ10) supports mitochondrial electron transport and neuronal antioxidant protection. It is found in organ meats, oily fish, beef, and smaller amounts in spinach, broccoli, pistachios, and olive oil.
 
-The implementation of the BRAIN diet must go beyond a standard nutrient density focus; it's about choosing foods for their specific bioactive potential: early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein and polyphenols (paper.txt, line 250).
+The BRAIN Diet emphasises foods for specific bioactive potential—for example early-harvest extra virgin olive oil with higher CoQ10, oleuropein, and polyphenols.
 
-Glutathione (GSH) is one of the body's major antioxidants. Low levels may suggest oxidative stress; elevated GSH levels which have been recorded against ADHD subjects may reflect a compensatory response to increased oxidative stress. Furthermore, mitochondrial metabolism of lactate depends on GSH for ROS neutralization, optimizing mitochondrial energy use (paper.txt, line 653).
+Glutathione (GSH) is a major endogenous antioxidant. Low levels may suggest oxidative stress; mitochondrial lactate metabolism depends on GSH for ROS neutralisation.
 
-Higher polyphenol intake and microbial diversity increase urolithin A and related metabolites, supporting mitochondrial resilience and mitophagy and in turn improving cognitive endurance. Hypothesis: these effects may extend to executive function (to be tested via Stroop/task-switching/n-back) (paper.txt, line 586).
+Higher polyphenol intake and microbial diversity increase urolithin A and related metabolites, supporting mitochondrial resilience and mitophagy and cognitive endurance.
 
-Butyrate supports mitochondrial function, enhancing brain energy metabolism, which may help with cognitive impairments seen in ADHD while also aiding in reducing cholesterol and neuroinflammation. Boosting SCFA production enhances mitochondrial and neurotrophic support, contributing to brain energy balance and resilience (paper.txt, lines 526, 602).
+Butyrate supports mitochondrial function and brain energy metabolism; boosting SCFA production enhances mitochondrial and neurotrophic support.
 
-Excess oxalate may disrupt mitochondrial function and redox status. Boiling spinach, kale, and other greens can reduce oxalate load, improving mineral bioavailability (paper.txt, line 207).
+Excess oxalate may disrupt mitochondrial function and redox status; boiling spinach, kale, and other greens can reduce oxalate load and improve mineral bioavailability.
 
-B6 is a cofactor in the development of all the key neurotransmitters. Only once pyridoxine (PIN), pyridoxal (PAL), pyridoxamine (PAM) cross the blood–brain barrier in their non-phosphorylated forms, can they be converted into pyridoxal-5'-phosphate (PLP or P5P), the active coenzyme form. This means that systemic supplementation with PLP does not bypass the brain's reliance on its own enzymatic machinery. Instead, they require pyridoxal kinase (PDXK) activity, which is supported by cofactors such as magnesium and ATP (paper.txt, line 359).
+### ADHD: Mitochondrial & Bioenergetic Context
+
+Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder share overlapping biological dysfunctions with other complex conditions, including mitochondrial impairment, chronic inflammation, oxidative stress, impaired methylation, gut–brain axis disruption, glucose dysregulation, micronutrient deficiencies, and neurotransmitter imbalances.
+
+Elevated glutathione levels recorded in some ADHD cohorts may reflect a compensatory response to increased oxidative stress rather than surplus antioxidant capacity alone.
+
+Butyrate may support mitochondrial function and brain energy metabolism in ways relevant to cognitive impairments reported in ADHD, while also contributing to lower neuroinflammatory load.
 
 ## References
 

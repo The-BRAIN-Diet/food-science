@@ -12,7 +12,7 @@ Recipes in this folder are **under development** and for **internal review only*
 
 - They are **not** linked from the main [Recipes](/docs/recipes) index or category TagLists.
 - To keep them out of public lists, do **not** add the `Recipe` tag (or meal-type tags like Breakfast/Lunch/Dinner) to WIP recipe front matter in `tags.yml` or in the doc. Add those tags when you move the recipe into a public category.
-- You can review them on the site via this page, the sidebar (**Recipes → WIP (internal)**), or by opening their URLs directly.
+- You can review them on the site via this page, the sidebar (**Recipes → WIP (internal)**), or by opening their URLs directly. This folder appears in the sidebar only when running the site locally (`npm start`); production builds for [thebraindiet.org](https://thebraindiet.org) exclude it from the menu and from deployment.
 
 When a recipe is ready for the public site, move it to the appropriate category (e.g. [Breakfast](/docs/recipes/Breakfast), [Lunch](/docs/recipes/Lunch), [Dinner](/docs/recipes/Dinner), [Side Dishes](/docs/recipes/Side-dishes), [Drinks](/docs/recipes/Drinks)), add the `Recipe` and meal/category tags, and remove it from this folder.
 

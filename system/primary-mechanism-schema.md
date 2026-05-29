@@ -107,11 +107,11 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
    - **UX (recommended):** start with `### Summary` (short paragraph always visible), then a `<details>` block whose `<summary>` labels the extended mechanistic narrative (e.g. glucose appearance, structure, sequencing). Inside the block, use `####` subheads for thematic blocks and link citations to `/docs/papers/BRAIN-Diet-References#…` plus numeric refs as needed.
    - Long-form PMs may instead use a single `## 4.` body without Summary/details if the narrative stays short.
 5. Underlying Mechanisms and Requirements — `## 5. Underlying Mechanisms and Requirements`
-   - **Full subsection set:** `### 5.1` Co-factors, `### 5.2` KCs, `### 5.3` Optional BRSX Modifiers, `### 5.4` Cross-BRS Links
-   - **PM1-style (no Optional BRSX subsection):** `### 5.1` Co-factors, `### 5.2` KCs (Key Constraints), `### 5.3` Cross-BRS Links (canonical: BRS6 PM1)
+   - **Full subsection set:** `### 5.1` Cofactors and Supporting Inputs, `### 5.2` KCs, `### 5.3` Optional BRSX Modifiers, `### 5.4` Cross-BRS Links
+   - **PM1-style (no Optional BRSX subsection):** `### 5.1` Cofactors and Supporting Inputs, `### 5.2` KCs (Key Constraints), `### 5.3` Cross-BRS Links (canonical: BRS6 PM1)
 6. Dietary Levers — `## 6.` body inside `<details><summary><strong>Diet</strong></summary>…` (match FM pages) — substance ← food bullets per `system/substance-food-mapping-format.md`; no nested “Food sources (examples)” block
 7. Lifestyle Levers — `## 7.` same pattern with `<strong>Lifestyle</strong>`; primary place for timing narrative when `timing_specific: "Yes"`
-8. Scoreable Inputs & Modulation Signals — `## 8.` **only when this PM is scoreable in the ontology**; optional intro paragraph; table (or list) may sit inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…`
+8. Scoreable Inputs & Modulation Signals — `## 8.` **only when this PM is scoreable in the ontology**; optional intro paragraph; table (or list) may sit inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…` Use three rows only: **Functional Property Potentials**, **Realised Functional States**, **Preparation Transformations** (do not repeat §6 substances in a Substance / Nutrient Signals row).
 9. References — `## 9. References`
 
 ### Profile A′ — Full narrative PM without Intervention Breakdown body (e.g. BRS6 PM1 legacy outline, BRS6 PM5)
@@ -122,7 +122,7 @@ Same as **Profile A** but omit §2 Intervention Breakdown when the PM does not u
 
 1. Definition — `## 1. Definition`
 2. Mechanistic Basis — `## 2. Mechanistic Basis` (optional `### Summary` + `<details>` as in Profile A when the narrative grows)
-3. Underlying Mechanisms and Requirements — `## 3. Underlying Mechanisms and Requirements` with `### 3.1` Co-factors, `### 3.2` KCs, `### 3.3` Optional BRSX Modifiers, `### 3.4` Cross-BRS Links
+3. Underlying Mechanisms and Requirements — `## 3. Underlying Mechanisms and Requirements` with `### 3.1` Cofactors and Supporting Inputs, `### 3.2` KCs, `### 3.3` Optional BRSX Modifiers, `### 3.4` Cross-BRS Links
 4. Dietary Levers — `## 4.` (`<details>` / **Diet**)
 5. Lifestyle Levers — `## 5.` (`<details>` / **Lifestyle**)
 6. Functional Outputs (Directional Effects) — `## 6.` short arrow-line or paragraph (distinct from §2 Functional Role on Profile A)
