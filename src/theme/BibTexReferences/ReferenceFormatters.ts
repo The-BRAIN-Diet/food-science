@@ -170,6 +170,16 @@ function formatHarvard(entry: BibEntry): string {
         return `${authors} ${year}, <em>${title}</em>, ${address ? `${address}, ` : ''}${publisher}.`;
     }
 
+    if (['incollection', 'inbook', 'inproceedings', 'conference'].includes(entryType.toLowerCase())) {
+        const booktitle = displayTag(entryTags, 'booktitle');
+        const pages = entryTags.pages || '';
+        const publisher = entryTags.publisher || '';
+        const address = entryTags.address || '';
+        const location = address ? `${address}, ` : '';
+        const pagePart = pages ? `, pp. ${pages.replace('--', '–')}` : '';
+        return `${authors} ${year}, '${title}', in <em>${booktitle}</em>, ${location}${publisher}${pagePart}.`;
+    }
+
     return `${authors} ${year}, '${title}'.`;
 }
 

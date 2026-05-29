@@ -39,17 +39,15 @@ Within each system:
 <details>
 <summary><strong>How the framework organises biology</strong></summary>
 
-The BRAIN Framework borrows conceptually from Metabolic Control Analysis, not as a quantitative modelling method, but as a systems principle. MCA challenges the idea that complex biological outputs are governed by single rate-limiting steps and instead shows that control is distributed across enzymes, transporters, and network structure. In the BRAIN ontology, this supports the separation between Key Constraints (shared feasibility conditions), Primary Mechanisms (core biological mechanisms, processing systems, and regulatory interactions operating within those constraints), Functional Mechanisms (integrated functional states emerging from coordinated PM activity), and Specific Mechanisms (context-dependent expression of integrated biological states under differing physiological, environmental, phenotypic, or therapeutic conditions). This helps prevent the framework from collapsing into simplistic nutrient-target logic [1].
+The BRAIN Framework draws conceptually on Metabolic Control Analysis [1], constraint-based biology [2], and allostatic physiology [3]. MCA supports the idea that biological control is distributed across networks rather than governed by single rate-limiting steps [1]. Constraint-based models show that biological systems operate within feasible state spaces shaped by substrate, energetic, enzymatic, and resource-allocation limits [2]. Allostasis adds that regulatory capacity is dynamically allocated under adaptive, behavioural, and environmental pressures [3]. Together, these ideas support the framework’s hierarchy of KCs as shared feasibility conditions, PMs as operational biological mechanisms, FMs as integrated biological states, and SMs as context-dependent expressions of those states [1][2][3].
 
 Biological effects rarely arise from a single nutrient, pathway, or control point in isolation; they emerge through the integration of multiple systems operating under shared physiological demands [1][2][3].
 
-Within each system, Key Constraints (KCs) describe shared sufficiency conditions, substrate economies, and foundational biological requirements that shape whether regulation can be maintained effectively at all. These are not themselves mechanisms; they are distributed biological constraints within which multiple downstream processes must operate. Examples include amino acid substrate availability, methyl donor sufficiency, membrane lipid sufficiency, and fermentable substrate availability [2][3].
+Within each system, Key Constraints (KCs) describe shared sufficiency conditions, substrate economies, and foundational biological requirements that shape whether regulation can be maintained effectively at all. These are not themselves mechanisms; they are distributed biological constraints within which multiple downstream processes must operate. Examples include amino acid substrate availability, methyl donor sufficiency, membrane lipid sufficiency, and fermentable substrate availability [1][2].
 
 Primary Mechanisms (PMs) describe the core biological mechanisms, processing systems, and regulatory interactions operating within those shared constraints. Functional Mechanisms (FMs) represent the integrated biological states that emerge when related PMs act together within the same constraint context—not a separate layer of biology, but a higher-order reading of coordinated PM activity. Specific Mechanisms (SMs) describe context-dependent expression of integrated biological states under differing physiological, environmental, phenotypic, or therapeutic conditions.
 
-This framing also draws from constraint-based biology, where shared constraints shape the range of feasible biological states and phenotypic outcomes [2], and from allostatic physiology, where regulatory capacity is continuously allocated under energetic, adaptive, and environmental pressures rather than maintained as a fixed equilibrium [3].
-
-Viewed this way, the framework is not intended to divide biology into separate boxes. It is a structured way of understanding how shared constraints, distributed regulation, integrated functional states, and context-specific expression interact across the six systems as an interconnected whole.
+Viewed this way, the framework is not intended to divide biology into separate boxes. It is a structured way of understanding how shared constraints, distributed regulation, integrated functional states, and context-specific expression interact across the six systems that contribute to our brain and overall health.
 
 </details>
 
@@ -84,6 +82,6 @@ Whole-body regulation: stress allocation, autonomic tone, hormonal coordination,
 ## References
 
 1. [Kacser and Burns (1973)](/docs/papers/BRAIN-Diet-References#kacser_control_1973)
-2. [Yang et al. (2016)](/docs/papers/BRAIN-Diet-References#yang_principles_2016)
-3. [McEwen (1998)](/docs/papers/BRAIN-Diet-References#mcewen_protective_1998)
+2. [Orth et al. (2010)](/docs/papers/BRAIN-Diet-References#orth_what_2010)
+3. [Sterling and Eyer (1988)](/docs/papers/BRAIN-Diet-References#sterling_allostasis_1988)
 
