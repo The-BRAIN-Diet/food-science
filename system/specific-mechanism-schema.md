@@ -79,7 +79,7 @@ First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
 3. Functional Role — directional summary oriented to regulatory balance and resilience
 4. Mechanistic Basis — connects connected PMs, FMs, KCs, and cross-BRS context into the interpretive overlay (`### Summary` + `<details>` as on PM pages)
 5. Underlying Mechanisms and Requirements
-   - `### 5.1` Co-factors
+   - `### 5.1` Cofactors and Supporting Inputs
    - `### 5.2` KCs (Key Constraints)
    - `### 5.3` Connected Primary Mechanisms (PMs) — required when `connected_pms` non-empty
    - `### 5.4` Connected Functional Mechanisms (FMs)

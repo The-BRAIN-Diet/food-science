@@ -22,7 +22,7 @@ Structure:
 - Where timing materially alters interpretation, discuss this naturally within **Functional Role**, **Mechanistic Basis**, **Lifestyle Levers**, or **Scoreable Inputs & Modulation Signals**.
 - The in-body mechanism title line (e.g. `BRS6(PM1) - …`) must use markdown `##` so it matches numbered section headings; do not use `#` or `###` for that line.
 - **Mechanistic Basis:** for long narrative, use `### Summary` (always visible) plus a `<details>` block for the full mechanistic text (see BRS6 PM1); short PMs may keep a single short Mechanistic Basis section without Summary/details.
-- **Underlying:** subsection depth is `###` under the parent `##` (e.g. `### 5.1`, `### 5.2` on extended profile). Use either the full KC → Optional BRSX → Cross-BRS → Co-factors set, or the PM1-style omission of Optional BRSX with Co-factors before Cross-BRS, as documented in the schema.
+- **Underlying:** subsection depth is `###` under the parent `##` (e.g. `### 5.1`, `### 5.2` on extended profile). Use either the full KC → Optional BRSX → Cross-BRS → Cofactors and Supporting Inputs set, or the PM1-style omission of Optional BRSX with Cofactors and Supporting Inputs before Cross-BRS, as documented in the schema.
 - **Dietary Levers** and **Lifestyle Levers** are separate numbered sections; body content uses the same `<details>` / `<summary><strong>Diet</strong></summary>` and `<summary><strong>Lifestyle</strong></summary>` pattern as FM pages.
 - **Dietary Levers (Diet):** substance ← 2–3 food examples per `system/substance-food-mapping-format.md`; no nested "Food sources (examples)"; no `food → substance` bullets.
 - Do not add body sections after **References**. No **Missing Entities** section on the PM page.

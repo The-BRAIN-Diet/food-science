@@ -226,7 +226,7 @@ Numbered sections must stay contiguous (renumber if §8 Scoreable is omitted —
 3. **Functional Role** — `## 3. Functional Role` — short directional arrow line per **FM Functional Role Rule**
 4. **Mechanistic Basis (Implementation of PMs)** — `## 4. Mechanistic Basis (Implementation of PMs)` — synthesis per **FM Mechanistic Basis Rule** and **Deduplication Rule** (no PM-style Summary + `<details>`; no PM citation dumps); weave timing context here when `timing_specific: "Yes"`
 5. **Underlying Mechanisms and Requirements** — `## 5. Underlying Mechanisms and Requirements`
-   - `### 5.1 Cofactors and Substrates` — when an FM spans multiple PMs, use a per-PM table with columns **PM | Cofactors | KC substrates** (no separate direct-inputs column; pathway inputs live in §6 Dietary Levers). **Cofactors** from each PM §5.1 (enzyme cofactors only). **KC substrates** from §3 Supporting Inputs/Substrates on every KC in that PM’s §5.2; multiple KCs in one cell separated by `;`, with KC page link in parentheses after each group.
+   - `### 5.1 Cofactors and Substrates` — when an FM spans multiple PMs, use a per-PM table with columns **PM | Cofactors | KC substrates** (no separate direct-inputs column; pathway inputs live in §6 Dietary Levers). **Cofactors** column aggregates each PM §5.1 Cofactors and Supporting Inputs list (enzyme cofactors plus other pathway supports). **KC substrates** from §3 Supporting Inputs/Substrates on every KC in that PM’s §5.2; multiple KCs in one cell separated by `;`, with KC page link in parentheses after each group.
    - `### 5.2 PMs (Primary Mechanisms)` — linked list to PM pages
    - `### 5.3 KCs (Key Constraints)` — linked list to KC pages
    - `### 5.4 Cross-BRS Links`
@@ -283,7 +283,7 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
   - `5.4 Cross-BRS Links`
 - PM1 naming for BRS6(FM1) must be `Glucose Appearance Kinetics` (not legacy `Glycaemic Excursion Control` or `Glycaemic Variability & Absorption Kinetics`).
 - KC entries must be only `substrate` or `precursor` (never active mechanism labels).
-- When `## 8. Scoreable Inputs & Modulation Signals` is present, its table must include all four category groups: Functional Property Potentials, Realised Functional States, Preparation Transformations, and either Substance / Nutrient Signals or Antagonistic Signals (burden/modulation row); **References** must then be `## 9. References`.
+- When `## 8. Scoreable Inputs & Modulation Signals` is present on **FM** pages, its table must include Functional Property Potentials, Realised Functional States, Preparation Transformations, and either Substance / Nutrient Signals or Antagonistic Signals (burden/modulation row). **PM** pages use only the first three rows (substances belong in §6 Dietary Levers). **References** must then be `## 9. References`.
 - Claims in Dietary Levers, Lifestyle Levers, Scoreable intro text, and Mechanistic Basis must stay mechanistic / interpretive (`may`, `supports`, `associated with`) unless evidence supports stronger wording.
 - Where `scoring_interpretation` or similar content exists in YAML or tooling, it must not include formulas, equations, or numeric scoring logic.
 - Do not expose raw scoring code or internal scoring implementation details in FM pages.

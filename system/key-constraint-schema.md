@@ -42,7 +42,7 @@ KCs describe:
 | KC | what must exist or remain sufficient |
 | PM | what dynamically regulates |
 | FM | what integrated functional state emerges |
-| Co-factors | local biochemical PM supports |
+| Cofactors and Supporting Inputs | local biochemical PM supports |
 
 KCs are intentionally:
 

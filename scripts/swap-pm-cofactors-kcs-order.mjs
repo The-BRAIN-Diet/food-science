@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Swap §5.1 KCs ↔ §5.2 Co-factors on PM pages (PM1-style underlying section).
+ * Swap §5.1 KCs ↔ §5.2 Cofactors and Supporting Inputs on PM pages (PM1-style underlying section).
  * Updates §5.2 cofactor cross-refs in narrative to §5.1.
  */
 import fs from "node:fs";
@@ -55,7 +55,7 @@ function swapPmFile(filePath) {
   if (!subs || subs.length < 2) return { filePath, changed: false, reason: "few_subsections" };
 
   const kc = subs.find((s) => /KCs/i.test(s.title));
-  const cof = subs.find((s) => /Co-factors/i.test(s.title));
+  const cof = subs.find((s) => /Cofactors and Supporting Inputs/i.test(s.title));
   if (!kc || !cof) return { filePath, changed: false, reason: "no_kc_or_cof" };
 
   const rest = subs.filter((s) => s !== kc && s !== cof);

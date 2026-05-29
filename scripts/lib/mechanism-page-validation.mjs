@@ -27,15 +27,23 @@ export const SCOREABLE_SECTION_TITLE = "Scoreable Inputs & Modulation Signals";
 const LEGACY_SCOREABLE_HEADING = /^##\s+\d+\.\s+Scoreable Food-State Inputs\s*$/m;
 const SCOREABLE_SECTION_HEADING = /^##\s+(\d+)\.\s+Scoreable Inputs & Modulation Signals\s*$/m;
 
-/** At least one label per group must appear in the scoreable table when the section is present. */
-export const REQUIRED_SCOREABLE_CATEGORY_GROUPS = [
+/** PM scoreable tables: food-state and preparation signals only (substances live in §6 Dietary Levers). */
+export const REQUIRED_SCOREABLE_CATEGORY_GROUPS_PM = [
   ["Functional Property Potentials"],
   ["Realised Functional States"],
   ["Preparation Transformations"],
+];
+
+/** FM/SM scoreable tables: include substance or burden row in addition to PM-style rows. */
+export const REQUIRED_SCOREABLE_CATEGORY_GROUPS_FM = [
+  ...REQUIRED_SCOREABLE_CATEGORY_GROUPS_PM,
   ["Substance / Nutrient Signals", "Antagonistic Signals"],
 ];
 
-/** @deprecated Use REQUIRED_SCOREABLE_CATEGORY_GROUPS */
+/** @deprecated Use REQUIRED_SCOREABLE_CATEGORY_GROUPS_PM or _FM */
+export const REQUIRED_SCOREABLE_CATEGORY_GROUPS = REQUIRED_SCOREABLE_CATEGORY_GROUPS_FM;
+
+/** @deprecated Use REQUIRED_SCOREABLE_CATEGORY_GROUPS_PM or _FM */
 export const REQUIRED_SCOREABLE_CATEGORIES = [
   "Functional Property Potentials",
   "Realised Functional States",
@@ -300,7 +308,7 @@ function extractScoreableSectionBlock(content) {
   };
 }
 
-function validateScoreableSection(content, issues, { entityLabel }) {
+function validateScoreableSection(content, issues, { entityLabel, pageKind = "fm" }) {
   if (LEGACY_SCOREABLE_HEADING.test(content)) {
     pushIssue(
       issues,
@@ -313,7 +321,11 @@ function validateScoreableSection(content, issues, { entityLabel }) {
   const section = extractScoreableSectionBlock(content);
   if (!section || section.legacy) return;
 
-  for (const group of REQUIRED_SCOREABLE_CATEGORY_GROUPS) {
+  const groups =
+    pageKind === "pm"
+      ? REQUIRED_SCOREABLE_CATEGORY_GROUPS_PM
+      : REQUIRED_SCOREABLE_CATEGORY_GROUPS_FM;
+  for (const group of groups) {
     if (!group.some((label) => section.block.includes(label))) {
       pushIssue(
         issues,
@@ -370,7 +382,7 @@ function validateFmPage(filePath, { rootDir }) {
     }
   }
 
-  validateScoreableSection(content, issues, { entityLabel });
+  validateScoreableSection(content, issues, { entityLabel, pageKind: "fm" });
 
   return { kind: "fm", filePath, entityId: data.fm_id, ok: issues.length === 0, issues };
 }
@@ -393,7 +405,7 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
   if (!extended) {
     const sections = parseNumberedSections(content);
     validateContiguousNumbering(sections, issues, { entityLabel });
-    validateScoreableSection(content, issues, { entityLabel });
+    validateScoreableSection(content, issues, { entityLabel, pageKind: "pm" });
     return;
   }
 
@@ -403,7 +415,7 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
   });
   const sections = parseNumberedSections(content);
   validateContiguousNumbering(sections, issues, { entityLabel });
-  validateScoreableSection(content, issues, { entityLabel });
+  validateScoreableSection(content, issues, { entityLabel, pageKind: "pm" });
 
   const core = sections.filter(
     (s) =>
@@ -486,11 +498,11 @@ function validateUnderlyingCofactorsBeforeKcs(content, issues, { entityLabel, ex
   if (!underBlock) return;
   const subs = [...underBlock.matchAll(/^###\s+\d+\.\d+\s+(.+)$/gm)].map((m) => m[1].trim());
   if (subs.length < 2) return;
-  if (!/Co-factors/i.test(subs[0])) {
+  if (!/Cofactors and Supporting Inputs/i.test(subs[0])) {
     pushIssue(
       issues,
       "underlying_cofactors_order",
-      `${entityLabel}: §5.1 must be Co-factors (canonical underlying order)`,
+      `${entityLabel}: §5.1 must be Cofactors and Supporting Inputs (canonical underlying order)`,
     );
   }
   if (!/KCs/i.test(subs[1])) {

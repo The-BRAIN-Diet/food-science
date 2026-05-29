@@ -56,7 +56,7 @@ Field interpretation:
 Scoreable input rules:
 - `Dietary Levers` must appear immediately after `## 5. Underlying Mechanisms and Requirements`.
 - Diet and Lifestyle content should be wrapped in collapsible `<details>` menus for readability.
-- When **Scoreable Inputs & Modulation Signals** is present, the table must include Functional Property Potentials, Realised Functional States, Preparation Transformations, and Substance / Nutrient Signals (FM); PM pages may use Antagonistic Signals instead of Substance / Nutrient Signals where burden signals apply.
+- When **Scoreable Inputs & Modulation Signals** is present, **FM** tables must include Functional Property Potentials, Realised Functional States, Preparation Transformations, and Substance / Nutrient Signals (or Antagonistic Signals where burden signals apply). **PM** tables use only the first three rows—substances are listed in §6 Dietary Levers, not repeated in §8.
 - Do not expose raw scoring code on the FM page.
 
 Diet rules:

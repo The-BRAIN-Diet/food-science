@@ -26,7 +26,7 @@ hide_title: true
 The Neurotransmitter Regulation system covers synaptic signalling, precursor supply, transport competition, and excitatory–inhibitory balance. It links dietary amino-acid substrate, meal composition, and membrane-lipid context to attention, mood, arousal, and cognitive control.
 
 <details>
-<summary><strong>Neurotransmitter Regulation Biological Implications</strong></summary>
+<summary><strong>ADHD: Neurotransmitter Regulation Biological Implications</strong></summary>
 
 Many neurological disorders are thought to be due to neurochemical imbalances although conclusive proof is often lacking, and much research has now implicated much broader neurotransmitter dysregulation. A meta study analysis concluded that while dopaminergic dysfunction is consistently linked to ADHD, evidence does not support a simple global hypo-dopaminergic model and that dopamine alterations vary by ADHD subtypes, developmental stage, and brain region, interacting with other neurotransmitter systems. The difficulties in really 'disentangling' pure dopaminergic neurotransmission from other transmitter systems are significant; &gt;200 chemical messengers (classical transmitters, neuropeptides, purines, lipid mediators, gases) have been described, underscoring the system's complexity. This is why the BRAIN Diet must target broad neurochemical precursors and cofactors to support efficient neurotransmitter production (paper.txt, line 301).
 
