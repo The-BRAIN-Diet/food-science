@@ -27,17 +27,27 @@ The Metabolic & Neuroendocrine Stress system governs how the body allocates ener
 Beyond metabolic health, this system is central to stress regulation, underpinning cognitive function and behavioural stability. It integrates signals related to energy availability, including insulin response, circadian rhythms, and lifestyle inputs to regulate brain energy, cognition, and whole-body function.
 
 <details>
-<summary><strong>ADHD Biological Implications</strong></summary>
+<summary><strong>ADHD: Metabolic & Neuroendocrine Stress Biological Implications</strong></summary>
 
-The neuroendocrine and autonomic systems, together with the Enteric Nervous System (ENS), form a tightly interwoven network regulating stress responses, metabolism, and gut-brain communication. These overlapping systems mediate key feedback loops between diet, inflammation, and brain function, and are highly responsive to circadian and nutritional inputs (paper.txt, line 769).
+### Introduction
 
-In ADHD, stress circuitry is often dysregulated. Children with sensory over-responsivity show prolonged sympathetic arousal and sustained cortisol elevations, suggesting compounded dysregulation of SAM and HPA systems. Epidemiological findings link this to clinical fatigue: while ~20% of the general population report clinically relevant fatigue, the rate in ADHD is ~62%. ADHD burnout may therefore arise from sustained sympathetic drive combined with blunted cortisol recovery, leading to chronic exhaustion (paper.txt, line 771).
+The neuroendocrine and autonomic systems, together with the enteric nervous system (ENS), form a tightly interwoven network regulating stress responses, metabolism, and gut–brain communication. The hypothalamic–pituitary–adrenal (HPA) axis orchestrates cortisol rhythms and systemic stress signalling, while the autonomic nervous system (ANS) integrates sympathetic activation with parasympathetic recovery. The sympatho-adreno-medullary (SAM) axis releases adrenaline and noradrenaline within seconds of a stressor. These systems mediate feedback loops between diet, inflammation, and brain function and are highly responsive to circadian and nutritional inputs.
 
-Cortisol profiles in ADHD are frequently abnormal, including altered morning and cumulative cortisol patterns. Genetic variation in HPA-axis regulators, including NR3C1 polymorphisms, further supports a heritable component to stress dysregulation. These hormonal irregularities can invoke many ADHD related symptoms such as poor resilience, amplified impulsivity and anxiety, and impaired decision-making (paper.txt, line 774).
+Preserving intact food matrices can blunt post-prandial glycaemic excursions, support brain insulin sensitivity, and stabilise dopamine–insulin coupling—mechanisms relevant to motivation and impulsive behaviour regulation.
 
-Many of the nutritional strategies discussed in this paper-such as glycemic stabilization, SCFA production, polyphenol intake, and anxiolytic probiotic interventions-are expected to exert downstream effects on emotional regulation through modulation of HPA axis activity, limbic signalling, and neurotransmitter systems (paper.txt, line 335).
+Omega-3 fatty acids (EPA/DHA) may improve vagal tone and heart-rate variability (HRV), supporting cortisol rhythm context, inflammatory balance, and BDNF signalling.
 
-Omega-3s (EPA/DHA) improve vagal tone and HRV control, improving cortisol rhythms and inflammation, BDNF signaling (paper.txt, line 796).
+Dietary and lifestyle inputs—including nutrient-based modulators (magnesium, polyphenols, B vitamins), meal sequencing, circadian-aligned timing, gut-barrier support, and adipose-metabolic load management—provide leverage points to buffer HPA–ANS dysregulation and metabolic strain.
+
+### ADHD: Metabolic & Neuroendocrine Context
+
+In ADHD, stress circuitry is often dysregulated. Children with sensory over-responsivity show prolonged sympathetic arousal and sustained cortisol elevations, suggesting compounded SAM and HPA dysregulation. While ~20% of the general population report clinically relevant fatigue, the rate in ADHD is ~62%; ADHD burnout may arise from sustained sympathetic drive combined with blunted cortisol recovery.
+
+Cortisol profiles in ADHD are frequently abnormal, including blunted cortisol awakening responses and flattened daily rhythms. Genetic variation in HPA-axis regulators, including NR3C1 polymorphisms, supports a heritable component to stress dysregulation. These irregularities may amplify poor resilience, impulsivity, anxiety, and impaired decision-making.
+
+ADHD often co-occurs with obesity, insulin resistance, and dysglycaemia; shared pathways include dopaminergic reward impairment, HPA-axis disturbance, chronic low-grade inflammation, and oxidative stress. PET studies have shown altered glucose metabolism in prefrontal and striatal regions in ADHD. High sugar intake and glycaemic variability may compound metabolic and neurocognitive dysregulation in vulnerable individuals.
+
+Glycaemic stabilization, SCFA production, polyphenol intake, and anxiolytic probiotic interventions may exert downstream effects on emotional regulation through modulation of HPA axis activity, limbic signalling, and neurotransmitter systems.
 
 ## References
 
