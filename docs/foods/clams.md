@@ -74,5 +74,5 @@ Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense s
 
 These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
 
-1. [Wójcik et al. 2009 – Health effects of taurine and its dietary sources](/docs/papers/BRAIN-Diet-References#wojcik_taurine_2009)
-2. [Pawlak et al. 2013 – Vitamin B12 in human nutrition: sources and status](/docs/papers/BRAIN-Diet-References#pawlak_vitamin_2013)
+1. [Wójcik et al. 2009 – Health effects of taurine and its dietary sources](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)
+2. [Pawlak et al. 2013 – Vitamin B12 in human nutrition: sources and status](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)

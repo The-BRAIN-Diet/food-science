@@ -36,6 +36,6 @@ Vitamin B1, also known as thiamine, is a water-soluble vitamin that is essential
 
 ## References
 
-- Thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production [Dhir et al. 2019](/docs/papers/BRAIN-Diet-References#dhir_thiamine_2019)
+- Thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production [Dhir et al. 2019](/docs/papers/BRAIN-Diet-References#dhir_neurological_2019)
 - Thiamine does not exist in a large brain "reservoir"; the CNS maintains small, tightly regulated intracellular pools that depend on continuous, transporter-mediated supply, making deficiency states potentially acute
 - Therapeutic doses up to 100× higher than RDA have shown benefit in Alzheimer's disease, with larger Phase 2 trials in progress

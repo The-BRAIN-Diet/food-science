@@ -42,6 +42,6 @@ Vitamin C, also known as ascorbate, is a water-soluble vitamin that functions as
 
 ## References
 
-- Vitamin C works within antioxidant networks with vitamin E, CoQ10, and polyphenols, with these compounds regenerating each other in vivo [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_antioxidant_1997)
+- Vitamin C works within antioxidant networks with vitamin E, CoQ10, and polyphenols, with these compounds regenerating each other in vivo [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
 - Spacing tea/coffee from iron-rich plant meals or adding vitamin C improves iron uptake; SVCT2 maintains brain ascorbate
 - Vitamin C supports norepinephrine synthesis as a cofactor, supporting attention, arousal, and executive modulation

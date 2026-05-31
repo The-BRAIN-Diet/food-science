@@ -52,5 +52,5 @@ Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavail
 ## References
 
 - Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) helps narrow vegan nutrient gaps
-- Vitamin B₁₂ (also present in Wolffia globosa) [Kaplan et al. 2019](/docs/papers/BRAIN-Diet-References#kaplan_duckweed_2019)
+- Vitamin B₁₂ (also present in Wolffia globosa) [Kaplan et al. 2019](/docs/papers/BRAIN-Diet-References#kaplan_protein_2019)
 - Protein Sources: Legumes, fermented soy, lupins, Mankai, seeds, whole grains, functional yeasts

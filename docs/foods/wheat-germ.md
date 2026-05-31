@@ -87,4 +87,4 @@ In practical use, nutrient impact depends strongly on form (raw/toasted wheat ge
 
 [1] Choline as a practical nutrient target in dietary patterns [Derbyshire 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
 
-[2] Vitamin E antioxidant network context [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_antioxidant_1997)
+[2] Vitamin E antioxidant network context [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
