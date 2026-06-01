@@ -49,7 +49,7 @@ Iron is an essential mineral that plays a central role in oxygen transport throu
 - Iron supplementation has not proven consistently effective in relieving ADHD symptoms; lower serum ferritin levels found in ADHD patients compared to controls
 - Ferritin limits free iron that can produce oxidative radicals; lower levels in ADHD patients imply reduced iron regulation, resulting in more free iron and potentially increased oxidative stress
 - Small intestinal bacterial overgrowth (SIBO) impairs absorption of vitamin B12, iron, and tryptophan, depriving the brain of essential neurotransmitter precursors
-- Pairing plant-based iron sources with vitamin C (citrus) can enhance iron absorption (up to 4× increase) [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_role_1989)
+- Pairing plant-based iron sources with vitamin C (citrus) can enhance iron absorption (up to 4× increase) [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
 - Polyphenol-rich beverages (tea/coffee) can reduce non-heme iron absorption if taken with iron-rich plant meals; spacing them ≥1 hour away or adding vitamin-C sources favors iron uptake
-- Phytates can bind essential minerals such as zinc, iron, and calcium, potentially impairing their absorption; soaking and sprouting can reduce phytates and improve bioavailability [Taylor et al. 2009](/docs/papers/BRAIN-Diet-References#taylor_phytate_2009)
+- Phytates can bind essential minerals such as zinc, iron, and calcium, potentially impairing their absorption; soaking and sprouting can reduce phytates and improve bioavailability [Taylor et al. 2009](/docs/papers/BRAIN-Diet-References#taylor_dash-style_2009)
 - Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability [GREINER and KONIETZNY 1999](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)

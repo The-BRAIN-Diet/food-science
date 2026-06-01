@@ -76,7 +76,7 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-[1] Vitamin E antioxidant network and interactions [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_antioxidant_1997)
+[1] Vitamin E antioxidant network and interactions [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
 
 [2] Plant protein adequacy and typical limiting amino acids in vegetarian patterns [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
 

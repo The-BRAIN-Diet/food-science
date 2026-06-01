@@ -52,20 +52,22 @@ legacy_main_image: /img/foods/spinach/spinach_medium.webp
 ---
 ## Overview
 
-Spinach is a nutrient-dense leafy green providing iron, magnesium, zinc, folate, and carotenoids. The BRAIN diet specifically targets leafy green vegetables like spinach that are rich in iron, magnesium, and zinc, though this can introduce high dietary oxalate. Boiling spinach can reduce oxalate load, improving mineral bioavailability. Spinach is important for neurotransmitter synthesis and antioxidant support, providing non-heme iron that can be enhanced with vitamin C pairing.
+Spinach is a nutrient-dense leafy green vegetable providing folate, magnesium, iron, potassium, carotenoids (including lutein and zeaxanthin), nitrate compounds, fibre, and a range of polyphenolic phytochemicals. Within the BRAIN Diet framework, spinach is valued as a high-coverage food supporting multiple Biological Regulatory Systems, including methylation (folate), neurotransmitter regulation (iron and magnesium), mitochondrial and metabolic function (magnesium, nitrate, and antioxidant compounds), and oxidative-stress resilience through its diverse phytonutrient content.
+
+Spinach is also one of the richest dietary sources of oxalate. While most individuals tolerate normal dietary oxalate exposure without difficulty, boiling spinach can substantially reduce soluble oxalate content, potentially improving mineral bioavailability and reducing oxalate load for those with a history of calcium oxalate kidney stones or other oxalate-related sensitivities. For most healthy individuals, the nutritional benefits of spinach are likely to outweigh concerns regarding oxalate content.
 
 ## Food Context
 
 ### Synergies
 
-- Pair with vitamin C sources (citrus, bell peppers) to enhance iron absorption, with studies showing up to a fourfold increase when consumed together [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_role_1989)
+- Pair with vitamin C sources (citrus, bell peppers) to enhance iron absorption, with studies showing up to a fourfold increase when consumed together [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
 - Pair with fat (olive oil, avocado) for carotenoid absorption
 
 ### Preparation
 
 - Boiling spinach can reduce oxalate load, improving mineral bioavailability [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
 - Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability; boiling helps mitigate this
-- Oxalate negatively affects mitochondrial function and changes redox status in monocytes [Chaiyarit and Thongboonkerd 2020](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020)
+- Oxalate negatively affects mitochondrial function and changes redox status in monocytes [Chaiyarit and Thongboonkerd 2020](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020). Experimental studies have shown that oxalate can influence mitochondrial and redox biology at the cellular level, although the relevance of these findings to typical dietary intakes remains uncertain.
 
 ## Recipes
 

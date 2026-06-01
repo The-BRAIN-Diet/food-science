@@ -300,6 +300,21 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
   margin-right: auto;
 }
 
+/*
+ * Food page hero display size (canonical — keep in sync with substance-page-hero scale)
+ *
+ * Rendered in src/theme/DocItem/Content/index.tsx (.food-page-hero) from main_image
+ * (usually *_medium.webp from scripts/resize-images.sh).
+ *
+ * Use width: auto + max-width/max-height (not a fixed width) so square crops (800×800 etc.)
+ * stay square and are not stretched wide. object-fit: contain as a safeguard.
+ *
+ * Do not set width: 100% or width: min(100%, Npx) on heroes — that widens square images.
+ * Do not raise max-height above ~360px without checking food pages.
+ *
+ * Desktop: max-width min(100%, 560px), max-height 360px
+ * Mobile (max-width 996px): max-height 320px — see @media block below
+ */
 .food-page-hero-wrap {
   margin: 0 0 1rem;
 }
@@ -308,8 +323,9 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
   display: block;
   width: auto;
   height: auto;
-  max-width: 100%;
-  max-height: 500px;
+  max-width: min(100%, 560px);
+  max-height: 360px;
+  object-fit: contain;
   border-radius: 4px;
 }
 

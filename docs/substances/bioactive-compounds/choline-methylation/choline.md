@@ -51,7 +51,7 @@ Choline is an essential nutrient that serves multiple critical functions in brai
 
 ## References
 
-- Choline has had a positive effect on ADHD in studies [Derbyshire and Maes 2023](/docs/papers/BRAIN-Diet-References#derbyshire_choline_2023)
+- Choline has had a positive effect on ADHD in studies [Derbyshire and Maes 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
 - Recent studies now targeting imbalances in the cholinergic systems representing a new focus in ADHD etiology [Johansson et al. 2013](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013)
 - Lactobacillus was shown to produce acetylcholine in a study dating back to 1947 [Stephenson et al. 1947](/docs/papers/BRAIN-Diet-References#stephenson_production_1947)
 - Lactobacillus strains have been shown to be effective against Alzheimer's disease induced rat models [Nimgampalle 2017](/docs/papers/BRAIN-Diet-References#nimgampalle_anti-alzheimer_2017)

@@ -36,4 +36,4 @@ Phenylalanine is an essential amino acid that serves as a precursor to tyrosine,
 ## References
 
 - Phenylalanine converts to tyrosine and supports catecholamine synthesis; participates in LAT1 competition at the BBB
-- Both dopamine and norepinephrine synthesis pathways rely on cofactors including iron, B6, folate, omega-3s, and BH₄ to support rate-limiting steps in catecholamine synthesis [Fanet et al. 2021](/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobiopterin_2021)
+- Both dopamine and norepinephrine synthesis pathways rely on cofactors including iron, B6, folate, omega-3s, and BH₄ to support rate-limiting steps in catecholamine synthesis [Fanet et al. 2021](/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021)

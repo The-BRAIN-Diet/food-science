@@ -20,6 +20,9 @@ nutrition_source:
   slug: mankai
   note: No USDA match; add query to scripts/usda-map.json or run with USDA_API_KEY for fetch.
 main_image: /img/foods/mankai/mankai_medium.webp
+main_image_source:
+  url: https://www.backyardboss.net/look-closely-to-see-worlds-smallest-flower-wolffia-globosa/
+  label: Backyard Boss
 legacy_list_image: /img/foods/mankai/mankai_thumb.webp
 legacy_main_image: /img/foods/mankai/mankai_medium.webp
 ---
@@ -52,5 +55,5 @@ Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavail
 ## References
 
 - Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) helps narrow vegan nutrient gaps
-- Vitamin B₁₂ (also present in Wolffia globosa) [Kaplan et al. 2019](/docs/papers/BRAIN-Diet-References#kaplan_duckweed_2019)
+- Vitamin B₁₂ (also present in Wolffia globosa) [Kaplan et al. 2019](/docs/papers/BRAIN-Diet-References#kaplan_protein_2019)
 - Protein Sources: Legumes, fermented soy, lupins, Mankai, seeds, whole grains, functional yeasts

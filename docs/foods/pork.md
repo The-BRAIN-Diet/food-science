@@ -81,5 +81,5 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
 
-1. [Dhir et al. 2019 – Thiamine and brain mitochondrial metabolism](/docs/papers/BRAIN-Diet-References#dhir_thiamine_2019)
+1. [Dhir et al. 2019 – Thiamine and brain mitochondrial metabolism](/docs/papers/BRAIN-Diet-References#dhir_neurological_2019)
 2. [Avgerinos et al. 2018 – Creatine supplementation and cognitive performance](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)

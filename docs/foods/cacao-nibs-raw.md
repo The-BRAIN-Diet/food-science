@@ -13,7 +13,7 @@ tags:
   - Epicatechin
   - Catechin
   - Oligomeric Procyanidins
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_thumb.webp
 nutrition_per_100g:
   kcal: 600
   protein_g: 14
@@ -32,9 +32,9 @@ nutrition_source:
   retrieval_method: Manual (placeholder)
   basis: per 100 g edible portion
   last_checked: '2026-03-25'
-main_image: /img/icons/ingredients.svg
-legacy_list_image: /img/icons/ingredients.svg
-legacy_main_image: /img/icons/ingredients.svg
+main_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_medium.webp
+legacy_list_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_thumb.webp
+legacy_main_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_medium.webp
 ---
 ## Overview
 

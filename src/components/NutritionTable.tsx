@@ -113,6 +113,8 @@ function isValidFunctionalMetric(s: unknown): s is FunctionalMetric {
 export default function NutritionTable({details}: NutritionTableProps): React.ReactElement {
   const nutrition = (details.nutrition_per_100g || {}) as NutritionValues
   const source = (details.nutrition_source || {}) as Record<string, unknown>
+  const tableMapsTo =
+    typeof source.table_maps_to === "string" ? source.table_maps_to.trim() : ""
 
   const rawSupplementary = (details.nutrition_supplementary_sources || []) as unknown[]
   const supplementary = rawSupplementary
@@ -257,6 +259,11 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
   return (
     <section className="nutrition-table-block">
       <h2>Nutrient Tables (per 100 g)</h2>
+      {tableMapsTo && (
+        <p style={{fontSize: "0.95em", color: "#555", marginTop: "0.25rem", marginBottom: "0.75rem"}}>
+          <strong>Maps to:</strong> {tableMapsTo}
+        </p>
+      )}
 
       {coreRows.length > 0 && (
         <>

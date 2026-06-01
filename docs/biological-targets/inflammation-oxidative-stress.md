@@ -52,9 +52,9 @@ Dietary antioxidant approaches in ADHD have been linked to immune and epigenetic
 ## References
 
 - High levels of ROS cause astrocytes and microglia activation, releasing pro-inflammatory cytokines (IL-6, IL-1β, TNF-α) associated with ADHD [Chang et al. 2020](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020)
-- The gut barrier is the dynamic interface between the microbiome, immune system, and brain. When the barrier weakens, bacterial fragments such as lipopolysaccharide (LPS) enter circulation, sustaining chronic low-grade inflammation [Mohammad and Thiemermann 2021](/docs/papers/BRAIN-Diet-References#mohammad_lipopolysaccharide_2021)
+- The gut barrier is the dynamic interface between the microbiome, immune system, and brain. When the barrier weakens, bacterial fragments such as lipopolysaccharide (LPS) enter circulation, sustaining chronic low-grade inflammation [Mohammad and Thiemermann 2021](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
 - A decreased microbial diversity (alpha diversity) has also been reported in ADHD [Prehn-Kristensen et al. 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
-- Butyrate has anti-inflammatory effects, potentially reducing neuroinflammation associated with ADHD [Yunting Li et al. 2024](/docs/papers/BRAIN-Diet-References#li_butyrate_2024)
+- Butyrate has anti-inflammatory effects, potentially reducing neuroinflammation associated with ADHD [Yunting Li et al. 2024](/docs/papers/BRAIN-Diet-References#li_sodium_2024)
 - Butyrate aids in reducing cholesterol and neuroinflammation [Cavaliere et al. 2022](/docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022)
 - Increased propionate levels could help reduce neuroinflammation and enhance cognitive function while protecting the blood-brain barrier [Grüter et al. 2023](/docs/papers/BRAIN-Diet-References#gruter_propionate_2023)
 - Propionate can stimulate the secretion of norepinephrine, possibly benefiting ADHD symptoms like attention and focus [Hoyles et al. 2018](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)

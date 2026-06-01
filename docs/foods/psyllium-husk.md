@@ -9,7 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Fibre
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/psyllium-husk/psyllium-husk_thumb.webp
 nutrition_per_100g:
   kcal: 200
   protein_g: 2.5
@@ -24,6 +24,9 @@ nutrition_source:
   retrieval_method: database import
   basis: per 100 g edible portion
   last_checked: '2026-05-11'
+main_image: /img/foods/psyllium-husk/psyllium-husk_medium.webp
+legacy_list_image: /img/foods/psyllium-husk/psyllium-husk_thumb.webp
+legacy_main_image: /img/foods/psyllium-husk/psyllium-husk_medium.webp
 ---
 ## Overview
 

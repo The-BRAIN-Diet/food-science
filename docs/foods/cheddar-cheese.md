@@ -13,7 +13,7 @@ tags:
   - Zinc
   - Selenium
   - Tyrosine
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cheddar-cheese/cheddar-cheese_thumb.webp
 protein_profile_note: Complete essential amino acid profile (animal dairy).
 nutrition_per_100g:
   kcal: 403
@@ -43,9 +43,9 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-25'
-main_image: /img/icons/ingredients.svg
-legacy_list_image: /img/icons/ingredients.svg
-legacy_main_image: /img/icons/ingredients.svg
+main_image: /img/foods/cheddar-cheese/cheddar-cheese_medium.webp
+legacy_list_image: /img/foods/cheddar-cheese/cheddar-cheese_thumb.webp
+legacy_main_image: /img/foods/cheddar-cheese/cheddar-cheese_medium.webp
 ---
 ## Overview
 

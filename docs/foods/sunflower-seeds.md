@@ -90,6 +90,6 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-[1] Thiamine physiology and neuro-metabolic relevance [Dhir et al. 2019](/docs/papers/BRAIN-Diet-References#dhir_thiamine_2019)
+[1] Thiamine physiology and neuro-metabolic relevance [Dhir et al. 2019](/docs/papers/BRAIN-Diet-References#dhir_neurological_2019)
 
 [2] Choline as a practical nutrient target in dietary patterns [Derbyshire 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)

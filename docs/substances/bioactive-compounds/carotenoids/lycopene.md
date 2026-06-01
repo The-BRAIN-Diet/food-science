@@ -37,7 +37,7 @@ Lycopene is a red carotenoid pigment found primarily in tomatoes and other red f
 
 ## References
 
-- The bioaccessibility of carotenoids in vegetables is remarkably low—lycopene in canned and fresh tomatoes is less than 1% [Fielding et al. 2005](/docs/papers/BRAIN-Diet-References#fielding_nutritional_2005)
+- The bioaccessibility of carotenoids in vegetables is remarkably low—lycopene in canned and fresh tomatoes is less than 1% [Fielding et al. 2005](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
 - Prolonged cooking increases access to lycopene in tomatoes where cell walls need to be broken down
 - Co-consuming a small amount of unsaturated fat with polyphenol-rich foods improves micelle formation and chylomicron packaging, increasing carotenoid absorption [Kindel et al. 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
 - Carotenoids are abundant in leafy greens, orange and yellow vegetables, corn, and egg yolks; their absorption is enhanced by dietary fat [Brown et al. 2004](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)

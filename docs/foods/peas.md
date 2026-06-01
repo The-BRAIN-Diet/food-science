@@ -79,6 +79,6 @@ Peas are rich in lysine but relatively low in sulfur-containing amino acids. Com
 
 ## References
 
-- Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils; essential for mitochondrial glucose metabolism in the brain leading to ATP production [Dhir et al. 2019](/docs/papers/BRAIN-Diet-References#dhir_thiamine_2019)
+- Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils; essential for mitochondrial glucose metabolism in the brain leading to ATP production [Dhir et al. 2019](/docs/papers/BRAIN-Diet-References#dhir_neurological_2019)
 - Part of legume family with prebiotic benefits; legumes provide prebiotic fiber (GOS - galactooligosaccharides) supporting gut microbiome health
 - Thiamine does not exist in a large brain "reservoir"; the CNS maintains small, tightly regulated intracellular pools that depend on continuous, transporter-mediated supply, making deficiency states potentially acute
