@@ -118,7 +118,6 @@ function inferCategoryFromTitle(doc: Document): string | null {
       'sage',
       'oregano',
       'peppermint',
-      'lemon balm',
       'cinnamon',
       'ginger',
       'saffron',
@@ -132,7 +131,7 @@ function inferCategoryFromTitle(doc: Document): string | null {
 
   // Beverages
   if (
-    ['coffee', 'green tea', 'black tea', 'chamomile', 'masala/ chai', 'masala/chai', 'chai'].some(name => t.includes(name))
+    ['coffee', 'green tea', 'black tea', 'chamomile', 'lemon balm', 'masala/ chai', 'masala/chai', 'chai'].some(name => t.includes(name))
   ) {
     return 'Beverages';
   }

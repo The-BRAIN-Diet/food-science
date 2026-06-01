@@ -7,6 +7,22 @@ ROOT_DIR="$(dirname "$SCRIPT_DIR")"
 
 INPUT_DIR="$ROOT_DIR/static/img/foods/originals"
 OUTPUT_DIR="$ROOT_DIR/static/img/foods"
+FOODS_DIR="$ROOT_DIR/docs/foods"
+
+# Originals must be named exactly like the food page id (slug): e.g. spinach.png, cheddar-cheese.png
+FOOD_SLUGS="$(find "$FOODS_DIR" -maxdepth 1 -name '*.md' ! -name 'index.md' ! -name 'shopping-list.md' -exec basename {} .md \; | sort)"
+
+slugify_filename() {
+  echo "$1" | tr '[:upper:]' '[:lower:]' | sed -E 's/[[:space:]]+/-/g; s/[^a-z0-9._-]+//g; s/-+/-/g; s/^-+|-+$//g'
+}
+
+is_food_slug() {
+  local want="$1" candidate
+  while IFS= read -r candidate; do
+    [ "$candidate" = "$want" ] && return 0
+  done <<< "$FOOD_SLUGS"
+  return 1
+}
 
 THUMB_SIZE=400
 MEDIUM_H=800
@@ -25,9 +41,13 @@ for img in "$INPUT_DIR"/*; do
   [ -f "$img" ] || continue
 
   filename="$(basename "$img")"
+  slug="$(slugify_filename "${filename%.*}")"
 
-  # ✅ NORMALISED SLUG (critical fix)
-  slug="$(echo "${filename%.*}" | tr '[:upper:]' '[:lower:]' | sed -E 's/[[:space:]]+/-/g; s/[^a-z0-9._-]+//g; s/-+/-/g; s/^-+|-+$//g')"
+  if ! is_food_slug "$slug"; then
+    echo "ERROR: '$filename' -> slug '$slug' does not match any docs/foods page id." >&2
+    echo "Rename the file in originals to match the food id (e.g. cheddar-cheese.png)." >&2
+    exit 1
+  fi
 
   mkdir -p "$OUTPUT_DIR/$slug"
 

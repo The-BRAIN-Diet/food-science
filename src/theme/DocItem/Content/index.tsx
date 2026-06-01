@@ -90,6 +90,24 @@ export default function DocItemContent({children}: Props): ReactNode {
   const ionBase = ionMatch?.[1] ?? ionNotation
   const ionCharge = ionMatch?.[2] ?? null
 
+  const mainImageSourceRaw = (frontMatter as {main_image_source?: unknown})
+    ?.main_image_source
+  const mainImageSource =
+    typeof mainImageSourceRaw === "string"
+      ? {url: mainImageSourceRaw.trim(), label: null as string | null}
+      : mainImageSourceRaw &&
+          typeof mainImageSourceRaw === "object" &&
+          typeof (mainImageSourceRaw as {url?: unknown}).url === "string"
+        ? {
+            url: String((mainImageSourceRaw as {url: string}).url).trim(),
+            label:
+              typeof (mainImageSourceRaw as {label?: unknown}).label ===
+              "string"
+                ? String((mainImageSourceRaw as {label: string}).label).trim()
+                : null,
+          }
+        : null
+
   return (
     <div className={clsx(ThemeClassNames.docs.docMarkdown, "markdown")}>
       {syntheticTitle && (
@@ -121,6 +139,15 @@ export default function DocItemContent({children}: Props): ReactNode {
             resolvedMainImage.includes("wikimedia") && (
             <p className="mineral-photo-caption">
               Photo source: Wikipedia / Wikimedia Commons (Creative Commons).
+            </p>
+          )}
+          {isFoodDoc && mainImageSource?.url && (
+            <p className="mineral-photo-caption">
+              Photo source:{" "}
+              <a href={mainImageSource.url} rel="noopener noreferrer">
+                {mainImageSource.label || mainImageSource.url}
+              </a>
+              .
             </p>
           )}
         </div>

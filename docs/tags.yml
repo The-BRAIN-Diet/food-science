@@ -877,11 +877,6 @@ Grass-Fed Butter:
   permalink: /grass-fed-butter
   description: Butter from grass-fed cows with higher omega-3
 
-Green Bananas:
-  label: Green Bananas
-  permalink: /green-bananas
-  description: Unripe bananas rich in resistant starch
-
 Green Tea:
   label: Green Tea
   permalink: /green-tea
@@ -891,11 +886,6 @@ Heart:
   label: Heart
   permalink: /heart
   description: Organ meat rich in CoQ10 and B vitamins
-
-Herbs:
-  label: Herbs
-  permalink: /herbs
-  description: Culinary and medicinal herbs
 
 Herring:
   label: Herring
@@ -947,9 +937,9 @@ Leeks:
   permalink: /leeks
   description: Allium vegetable rich in prebiotic fiber
 
-Lemon Balm:
-  label: Lemon Balm
-  permalink: /lemon-balm
+Lemon Balm Tea:
+  label: Lemon Balm Tea
+  permalink: /lemon-balm-tea
   description: Herbal tea with calming properties
 
 Lemon:
@@ -997,11 +987,6 @@ Mankai:
   permalink: /mankai
   description: Duckweed with bioavailable iron and B12
 
-Masala Chai:
-  label: Masala Chai
-  permalink: /masala-chai
-  description: Spiced tea blend
-
 MCT Oil:
   label: MCT Oil
   permalink: /mct-oil
@@ -1026,6 +1011,11 @@ Mushrooms:
   label: Mushrooms
   permalink: /mushrooms
   description: Fungi rich in B vitamins and ergosterol
+
+White Button Mushroom:
+  label: White Button Mushroom
+  permalink: /white-button-mushroom
+  description: Agaricus bisporus — white/button, cremini, chestnut (UK), portobello
 
 Natto:
   label: Natto
@@ -1087,11 +1077,6 @@ Oregano:
   permalink: /oregano
   description: Herb with antimicrobial properties
 
-Organ Meats:
-  label: Organ Meats
-  permalink: /organ-meats
-  description: Nutrient-dense organ meats
-
 Oysters:
   label: Oysters
   permalink: /oysters
@@ -1127,10 +1112,15 @@ Peppermint:
   permalink: /peppermint
   description: Herbal tea supporting mental clarity
 
-Pickles:
-  label: Pickles
-  permalink: /pickles
-  description: Fermented vegetables
+Psyllium Husk:
+  label: Psyllium Husk
+  permalink: /psyllium-husk
+  description: Concentrated soluble fibre (viscous) for meal-level buffering
+
+Vinegar Pickles:
+  label: Vinegar Pickles
+  permalink: /vinegar-pickles
+  description: Acid preservation in vinegar brine — distinct from lacto-fermented vegetables
 
 Pistachios:
   label: Pistachios

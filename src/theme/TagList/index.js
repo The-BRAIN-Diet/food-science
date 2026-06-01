@@ -59,6 +59,20 @@ function DocItemImage({ doc }) {
   );
 }
 
+function matchesSectionFilter(permalink, filter) {
+  if (!permalink || !filter) return true;
+  if (filter === '/foods/') {
+    return permalink.includes('/foods/') && !permalink.includes('/recipes/');
+  }
+  if (filter === '/recipes/') {
+    return permalink.includes('/recipes/') && !permalink.includes('/foods/');
+  }
+  if (filter === '/substances/') {
+    return permalink.includes('/substances/');
+  }
+  return permalink.includes(filter);
+}
+
 export default function TagList(props) {
 
   function uniqueOnly(value, index, array) {
@@ -92,7 +106,7 @@ export default function TagList(props) {
       // This ensures we find foods even if tag mapping isn't perfect
       if (filter === '/foods/' && props.tag) {
         const allDocs = Object.values(allTags).flat();
-        const allFoods = allDocs.filter(d => d.permalink && d.permalink.includes('/foods/'));
+        const allFoods = allDocs.filter(d => matchesSectionFilter(d.permalink, filter));
         
         // Remove duplicates
         const uniqueFoods = Array.from(
@@ -135,7 +149,7 @@ export default function TagList(props) {
   oneTag.sort((a, b) => (a.order || 0) - (b.order || 0));
 
   const filteredDocs = oneTag
-    .filter(d => d.permalink && d.permalink.indexOf(filter) > -1)
+    .filter(d => matchesSectionFilter(d.permalink, filter))
     .filter(d => d.permalink != location);
 
   return (

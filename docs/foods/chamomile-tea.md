@@ -70,5 +70,5 @@ Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine recept
 ## References
 
 - Apigenin (from chamomile tea): Binds to benzodiazepine receptors, supporting calm and sleep [Kramer and Johnson 2024](/docs/papers/BRAIN-Diet-References#kramer_apigenin_2024)
-- Herbal teas (e.g. chamomile for apigenin, lemon balm, tart cherry juice)
-- Evening(Wind-down, sleep prep): Herbal teas (e.g. chamomile for apigenin, lemon balm, tart cherry juice)
+- Herbal teas (e.g. chamomile for apigenin, lemon balm tea, tart cherry juice)
+- Evening(Wind-down, sleep prep): Herbal teas (e.g. chamomile for apigenin, lemon balm tea, tart cherry juice)

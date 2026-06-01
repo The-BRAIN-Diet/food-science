@@ -97,9 +97,11 @@ const config: Config = {
       {
         redirects: [
           { to: '/docs/foods/mankai', from: '/docs/foods/duckweed' },
+          { to: '/docs/foods/vinegar-pickles', from: '/docs/foods/pickles' },
           { to: '/docs/dietary-foundations/digestion-microbiome/fibre-gut-adaptation', from: '/docs/training/fibre-gut-adaptation' },
           { to: '/docs/foods/salmon-roe', from: '/docs/foods/fish-roe' },
           { to: '/docs/foods/chamomile-tea', from: '/docs/foods/chamomile' },
+          { to: '/docs/foods/lemon-balm-tea', from: '/docs/foods/lemon-balm' },
           { to: '/docs/foods/chicory-root', from: '/docs/foods/chicory' },
           { to: '/docs/foods/aubergine', from: '/docs/foods/eggplant' },
           { to: '/docs/foods/cacao-nibs-raw', from: '/docs/foods/raw-cacao-nibs' },

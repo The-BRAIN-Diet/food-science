@@ -21,7 +21,7 @@ tags:
   - Potassium
   - Sulforaphane
   - Glucoraphanin
-list_image: /img/foods/broccoli/broccoli_thumb.webp
+list_image: /img/foods/broccoli-sprouts/broccoli-sprouts_thumb.webp
 nutrition_per_100g:
   kcal: 10
   protein_g: 2.2
@@ -47,9 +47,9 @@ nutrition_functional_metrics:
     label: Glucoraphanin / sulforaphane potential
     amount_display: Much higher than mature broccoli
     notes: Broccoli sprouts are mainly prized for glucoraphanin density and downstream sulforaphane formation rather than for calories or macros.
-main_image: /img/foods/broccoli/broccoli_medium.webp
-legacy_list_image: /img/foods/broccoli/broccoli_thumb.webp
-legacy_main_image: /img/foods/broccoli/broccoli_medium.webp
+main_image: /img/foods/broccoli-sprouts/broccoli-sprouts_medium.webp
+legacy_list_image: /img/foods/broccoli-sprouts/broccoli-sprouts_thumb.webp
+legacy_main_image: /img/foods/broccoli-sprouts/broccoli-sprouts_medium.webp
 ---
 ## Overview
 

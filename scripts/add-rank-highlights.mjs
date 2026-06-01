@@ -58,7 +58,6 @@ const CATEGORIES = {
     "chicken",
     "turkey",
     "liver",
-    "organ-meats",
     "heart",
     "kidney",
   ],

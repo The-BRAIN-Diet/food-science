@@ -60,5 +60,5 @@ Tart cherry (and tart cherry juice) provides natural melatonin and polyphenols t
 ## References
 
 - Tart cherry juice: Naturally rich in melatonin and shown to improve sleep duration [Losso et al. 2018](/docs/papers/BRAIN-Diet-References#losso_pilot_2018)
-- Herbal teas (e.g. chamomile for apigenin, lemon balm, tart cherry juice)
-- Evening(Wind-down, sleep prep): Tryptophan + complex carbs (pumpkin seeds + oats), Magnesium, taurine, L-theanine, Herbal teas (e.g. chamomile for apigenin, lemon balm, tart cherry juice)
+- Herbal teas (e.g. chamomile for apigenin, lemon balm tea, tart cherry juice)
+- Evening(Wind-down, sleep prep): Tryptophan + complex carbs (pumpkin seeds + oats), Magnesium, taurine, L-theanine, Herbal teas (e.g. chamomile for apigenin, lemon balm tea, tart cherry juice)

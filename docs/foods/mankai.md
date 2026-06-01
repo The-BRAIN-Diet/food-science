@@ -20,6 +20,9 @@ nutrition_source:
   slug: mankai
   note: No USDA match; add query to scripts/usda-map.json or run with USDA_API_KEY for fetch.
 main_image: /img/foods/mankai/mankai_medium.webp
+main_image_source:
+  url: https://www.backyardboss.net/look-closely-to-see-worlds-smallest-flower-wolffia-globosa/
+  label: Backyard Boss
 legacy_list_image: /img/foods/mankai/mankai_thumb.webp
 legacy_main_image: /img/foods/mankai/mankai_medium.webp
 ---

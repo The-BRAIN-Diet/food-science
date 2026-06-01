@@ -13,7 +13,7 @@ tags:
   - Polyphenol
   - Epicatechin
   - Catechin
-list_image: /img/icons/ingredients.svg
+list_image: /img/foods/cacao-powder/cacao-powder_thumb.webp
 nutrition_per_100g:
   kcal: 228
   protein_g: 20
@@ -41,9 +41,9 @@ nutrition_source:
   retrieval_method: Manual entry (to verify)
   basis: per 100 g edible portion
   last_checked: '2026-05-07'
-main_image: /img/icons/ingredients.svg
-legacy_list_image: /img/icons/ingredients.svg
-legacy_main_image: /img/icons/ingredients.svg
+main_image: /img/foods/cacao-powder/cacao-powder_medium.webp
+legacy_list_image: /img/foods/cacao-powder/cacao-powder_thumb.webp
+legacy_main_image: /img/foods/cacao-powder/cacao-powder_medium.webp
 ---
 
 ## Overview

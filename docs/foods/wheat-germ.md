@@ -42,6 +42,9 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
+main_image_source:
+  url: https://www.hollandandbarrett.com/
+  label: Holland & Barrett
 legacy_list_image: /img/foods/wheat-germ/wheat-germ_thumb.webp
 legacy_main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
 ---
