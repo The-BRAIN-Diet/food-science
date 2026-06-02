@@ -1,0 +1,10 @@
+{
+  "label": "BRS3 - Inflammation & Oxidative Stress",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "biological-targets/inflammation-oxidative-stress"
+  },
+  "collapsed": false,
+  "collapsible": true
+}
