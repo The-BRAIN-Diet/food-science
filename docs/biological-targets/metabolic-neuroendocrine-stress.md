@@ -96,6 +96,22 @@ They are not intervention targets and should not include food examples.
 
 ---
 
+## Primary Mechanisms
+
+Primary mechanisms sit beneath functional mechanisms and define specific regulatory processes. Browse by functional mechanism above, or use these direct links:
+
+- [BRS6(PM1) — Glucose Appearance Kinetics](/docs/biological-targets/brs6/pm/brs6-pm1-glucose-appearance-kinetics)
+- [BRS6(PM2) — Glycaemic Variability Regulation](/docs/biological-targets/brs6/pm/brs6-pm2-glycaemic-variability-regulation)
+- [BRS6(PM3) — Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/pm/brs6-pm3-insulin-sensitivity-and-glucose-disposal)
+- [BRS6(PM4) — Cortisol Rhythm Regulation](/docs/biological-targets/brs6/pm/brs6-pm4-cortisol-rhythm-regulation)
+- [BRS6(PM5) — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/pm/brs6-pm5-circadian-feeding-and-light-dark-entrainment)
+- [BRS6(PM6) — Sympathetic Activation & Parasympathetic Recovery](/docs/biological-targets/brs6/pm/brs6-pm6-sympathetic-activation-and-parasympathetic-recovery)
+- [BRS6(PM7) — Vagal Tone / HRV Regulation](/docs/biological-targets/brs6/pm/brs6-pm7-vagal-tone-hrv-regulation)
+- [BRS6(PM8) — Metabolic Inflammation & Adipose Stress Signalling](/docs/biological-targets/brs6/pm/brs6-pm8-metabolic-inflammation-and-adipose-stress-signalling)
+- [BRS6(PM9) — Stress-Induced Appetite / Reward Drive Modulation](/docs/biological-targets/brs6/pm/brs6-pm9-stress-induced-appetite-reward-drive-modulation)
+
+---
+
 ## Modulators
 
 These factors modulate system behaviour but are not part of the core BRS structure.

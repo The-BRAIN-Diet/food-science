@@ -34,7 +34,7 @@ Within each system:
 - **Key Constraints (KCs)** describe the shared sufficiency conditions and foundational biological requirements that shape whether regulation is feasible.
 - **Primary Mechanisms (PMs)** describe the core biological mechanisms, processing systems, and regulatory interactions operating within those shared constraints.
 - **Functional Mechanisms (FMs)** represent integrated regulatory states emerging from coordinated groups of related PMs operating within the same constraints.
-- **Specific Mechanisms (SMs)** describe context-dependent expression of integrated biological states under differing physiological, environmental, phenotypic, or therapeutic conditions.
+- **Specific Mechanisms (SMs)** are interpretation layers — phenotype-sensitive, variant-sensitive, or cross-system readings of stable biology (not therapeutic-area categories).
 
 <details>
 <summary><strong>How the framework organises biology</strong></summary>
@@ -45,7 +45,7 @@ Biological effects rarely arise from a single nutrient, pathway, or control poin
 
 Within each system, Key Constraints (KCs) describe shared sufficiency conditions, substrate economies, and foundational biological requirements that shape whether regulation can be maintained effectively at all. These are not themselves mechanisms; they are distributed biological constraints within which multiple downstream processes must operate. Examples include amino acid substrate availability, methyl donor sufficiency, membrane lipid sufficiency, and fermentable substrate availability [[1]](/docs/papers/BRAIN-Diet-References#kacser_control_1973)[[2]](/docs/papers/BRAIN-Diet-References#orth_what_2010).
 
-Primary Mechanisms (PMs) describe the core biological mechanisms, processing systems, and regulatory interactions operating within those shared constraints. Functional Mechanisms (FMs) represent the integrated biological states that emerge when related PMs act together within the same constraint context—not a separate layer of biology, but a higher-order reading of coordinated PM activity. Specific Mechanisms (SMs) describe context-dependent expression of integrated biological states under differing physiological, environmental, phenotypic, or therapeutic conditions.
+Primary Mechanisms (PMs) describe the core biological mechanisms, processing systems, and regulatory interactions operating within those shared constraints. Functional Mechanisms (FMs) represent the integrated biological states that emerge when related PMs act together within the same constraint context—not a separate layer of biology, but a higher-order reading of coordinated PM activity. Specific Mechanisms (SMs) are interpretation layers for phenotype-sensitive, variant-sensitive, or cross-system context without redefining PM or FM biology.
 
 Viewed this way, the framework is not intended to divide biology into separate boxes. It is a structured way of understanding how shared constraints, distributed regulation, integrated functional states, and context-specific expression interact across the six systems that contribute to our brain and overall health.
 

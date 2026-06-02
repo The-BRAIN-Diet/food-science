@@ -147,6 +147,18 @@ const config: Config = {
             to: '/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation',
             from: '/docs/biological-targets/brs1/pm/brs1-pm1-tyrosine-tryptophan-precursor-supply',
           },
+          {
+            to: '/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-serotonergic-regulation',
+            from: '/docs/biological-targets/brs1/sm/brs1-sm-adhd1-emotional-dysregulation-serotonergic-regulation',
+          },
+          {
+            to: '/docs/biological-targets/brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk',
+            from: '/docs/biological-targets/brs1/sm/brs1-sm-adhd2-histaminergic-arousal-neuroimmune-crosstalk',
+          },
+          {
+            to: '/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency',
+            from: '/docs/biological-targets/brs2/sm/brs2-s1-snp-sensitive-methylation-efficiency',
+          },
         ],
       },
     ],

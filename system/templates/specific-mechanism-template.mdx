@@ -1,7 +1,7 @@
 ---
 title: "<INSERT_SM_TITLE>"
 sm_id: "<INSERT_SM_ID>"
-sm_category: "<SM-ADHD|SM-SNP|SM-PHEN|SM-OTHER>"
+sm_category: "<SM-SNP|SM-PHEN|SM-CROSS>"  # SM-CROSS only if SM-CROSS test passes: ≥2 BRS domains AND no single PM/FM owner
 use_case: "<INSERT_USE_CASE_FRAMING>"
 parent_brs: "<INSERT_PARENT_BRS_ID>"
 summary: "<INSERT_SM_SUMMARY_UP_TO_120_WORDS>"
@@ -73,7 +73,16 @@ hide_title: true
 
 ### 5.5 Cross-BRS Links
 
-- None listed
+<!-- SM-CROSS: required. SM-SNP / SM-PHEN: optional when cross-BRS PM context matters. -->
+<!-- Paragraph form + inline PM links — not hub-only "BRS3 crossover" labels. See system/specific-mechanism-schema.md §5.5 -->
+
+<INSERT_CROSS_BRS_NARRATIVE_WITH_LINKED_PMS>
+
+<!-- Example (delete before publish):
+#### Primary: <theme> in host BRS
+
+<Paragraph.> Maps to [BRS1(PM5) — <name>](/docs/biological-targets/brs1/pm/<slug>). Crossover to [BRS6(PM5) — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/pm/brs6-pm5-circadian-feeding-and-light-dark-entrainment) [1].
+-->
 
 ## 6. Dietary Levers
 

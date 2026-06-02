@@ -117,9 +117,9 @@ Primary mechanisms sit beneath functional mechanisms and define specific regulat
 
 ## Specific Mechanisms
 
-Context-specific expressions of stable biological regulation associated with phenotype patterns, therapeutic-area dynamics, and variant-sensitive modulation.
+Interpretation layers — phenotype-sensitive (`SM-PHEN`), variant-sensitive (`SM-SNP`), and cross-system (`SM-CROSS`) readings of stable BRS1 biology. Therapeutic-area framing (including ADHD) is covered in the hub rationale above, not as a separate SM category.
 
 - [BRS1(SM-PHEN1) — Excitatory–Inhibitory Stability & Sensory Regulation](/docs/biological-targets/brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation)
-- [BRS1(SM-ADHD1) — Emotional Dysregulation & Serotonergic Regulation](/docs/biological-targets/brs1/sm/brs1-sm-adhd1-emotional-dysregulation-serotonergic-regulation)
-- [BRS1(SM-OTHER1) — Histaminergic Arousal Regulation & Neuroimmune Crosstalk](/docs/biological-targets/brs1/sm/brs1-sm-adhd2-histaminergic-arousal-neuroimmune-crosstalk)
+- [BRS1(SM-PHEN2) — Emotional Dysregulation & Serotonergic Regulation](/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-serotonergic-regulation)
+- [BRS1(SM-CROSS1) — Histaminergic Arousal Regulation & Neuroimmune Crosstalk](/docs/biological-targets/brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk)
 - [BRS1(SM-SNP1) — COMT Catecholamine Clearance Sensitivity](/docs/biological-targets/brs1/sm/brs1-sm-snp1-comt-catecholamine-clearance-sensitivity)
