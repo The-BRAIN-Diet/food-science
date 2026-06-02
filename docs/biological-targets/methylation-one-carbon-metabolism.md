@@ -110,9 +110,9 @@ Primary mechanisms sit beneath functional mechanisms and define specific regulat
 
 ## Specific Mechanisms
 
-Context-specific expressions of stable biological regulation associated with phenotype patterns, therapeutic-area dynamics, and variant-sensitive modulation.
+Interpretation layers — phenotype-sensitive (`SM-PHEN`), variant-sensitive (`SM-SNP`), and cross-system (`SM-CROSS`) readings of stable BRS2 biology. Therapeutic-area framing (including ADHD) is covered in the hub rationale above, not as a separate SM category.
 
-- [BRS2(S1) — SNP-Sensitive Methylation Efficiency](/docs/biological-targets/brs2/sm/brs2-s1-snp-sensitive-methylation-efficiency)
+- [BRS2(SM-SNP1) — SNP-Sensitive Methylation Efficiency](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency)
 
 ---
 

@@ -25,10 +25,14 @@ This document controls:
 The BRAIN Diet is structured as:
 
 Substances / Foods  
--> Primary Mechanisms (PM)  
--> Functional Mechanisms (FM)  
+-> Key Constraints (KC) — feasibility conditions  
+-> Primary Mechanisms (PM) — bounded biological mechanisms  
+-> Functional Mechanisms (FM) — integrated functional states  
+-> Specific Mechanisms (SM) — interpretation layers  
 -> Biological Regulatory Systems (BRS)  
 -> Functional Outcomes
+
+Therapeutic-area framing (e.g. ADHD) belongs on BRS hub pages and rationale sections, not as a primary SM category. The ontology remains biology-centric.
 
 ---
 
@@ -61,7 +65,26 @@ They:
 
 ---
 
-## 1.3 Primary Mechanisms (PM)
+## 1.3 Specific Mechanisms (SM)
+
+Specific Mechanisms are **interpretation layers** — context-specific readings of stable biology grounded in connected PMs, FMs, and KCs. They reuse PM page rendering; they are not additional bounded mechanisms.
+
+### SM categories (valid)
+
+- **SM-SNP** — variant-sensitive interpretation (e.g. COMT, MTHFR, DAO, PEMT)
+- **SM-PHEN** — phenotype-sensitive interpretation (e.g. emotional dysregulation, hyperarousal, histamine sensitivity)
+- **SM-CROSS** — cross-system biological concepts that pass the **SM-CROSS test** (≥ 2 BRS domains **and** no natural single PM/FM owner; e.g. histaminergic arousal and neuroimmune crosstalk)
+
+### Rules
+
+- Do **not** use `SM-ADHD` or other therapeutic-area-primary SM categories.
+- **SM-CROSS test:** qualify only if the concept materially spans **≥ 2 BRS domains** **and** cannot be naturally owned by a single PM or FM — see `system/specific-mechanism-schema.md`.
+- SM-CROSS is not a phenotype page and not a bounded PM; document multi-BRS crossover in SM **§5.5** using paragraph prose and **links to specific PMs** (not BRS hub labels alone). See `system/specific-mechanism-schema.md`.
+- Do not implement an **XM** (Cross-Mechanisms) layer until all six BRS domains complete first-pass development and SM-CROSS examples justify review. See `system/specific-mechanism-schema.md`.
+
+---
+
+## 1.4 Primary Mechanisms (PM)
 
 Primary Mechanisms are biological processes.
 

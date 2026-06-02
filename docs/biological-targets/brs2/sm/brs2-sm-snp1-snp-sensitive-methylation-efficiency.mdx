@@ -1,10 +1,13 @@
 ---
 title: SNP-Sensitive Methylation Efficiency
-sm_id: BRS2(S1)
+sm_id: BRS2(SM-SNP1)
 sm_category: SM-SNP
 use_case: Variant-sensitive one-carbon metabolism and methylation-response context
 parent_brs: BRS2
-summary: 'Context-specific expression of how MTHFR, COMT cross-talk, and BDNF Val66Met may alter methylation efficiency, methyl-donor responsiveness, and downstream neurochemical tone — without redefining core BRS2 methylation mechanisms.'
+summary: >-
+  Variant-sensitive interpretation layer for how MTHFR, COMT cross-talk, and BDNF Val66Met may
+  alter methylation efficiency, methyl-donor responsiveness, and downstream neurochemical tone —
+  without redefining core BRS2 methylation mechanisms or deterministic genotype claims.
 connected_pms:
   - id: BRS2(PM1)
     name: Folate/B12-Dependent Homocysteine Remethylation
@@ -37,11 +40,11 @@ hide_title: true
   />
 </p>
 
-## BRS2(S1) - SNP-Sensitive Methylation Efficiency
+## BRS2(SM-SNP1) - SNP-Sensitive Methylation Efficiency
 
 ## 1. Definition
 
-Context-specific regulatory expression describing how variant-sensitive one-carbon metabolism may alter methylation efficiency, methyl-donor responsiveness, and downstream neurochemical tone — spanning MTHFR, COMT cross-talk, and BDNF Val66Met relevance — without redefining core BRS2 methylation mechanisms ([BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis)).
+Variant-sensitive interpretation layer describing how MTHFR, COMT cross-talk, and BDNF Val66Met may alter methylation efficiency, methyl-donor responsiveness, and downstream neurochemical tone — without redefining core BRS2 methylation mechanisms ([BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis)). Therapeutic-area framing belongs on the [BRS2 hub](/docs/biological-targets/methylation-one-carbon-metabolism); this page does not assert biomarkers, diagnoses, or treatment efficacy.
 
 ## 2. Intervention Breakdown
 
@@ -55,13 +58,13 @@ Food-State Leaning
 
 ### Summary
 
-Variant-sensitive efficiency can shift donor and cofactor responsiveness under the same remethylation and SAMe biology ([BRS2(KC1)](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency), [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis), [BRS2(FM1)](/docs/biological-targets/brs2/fm/brs2-fm1-methylation-cycle-efficiency)). Outcomes vary by genotype and diet pattern; this SM explains why that variability matters.
+Variant-sensitive efficiency can shift donor and cofactor responsiveness under the same remethylation and SAMe biology ([BRS2(KC1)](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency), [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis), [BRS2(FM1)](/docs/biological-targets/brs2/fm/brs2-fm1-methylation-cycle-efficiency)). Outcomes vary by genotype and diet pattern; BRS2(SM-SNP1) explains why that variability matters without deterministic SNP outcome claims.
 
 <details>
 <summary><strong>Variant-sensitive pathways</strong></summary>
 
 - **MTHFR** — folate, B2, and B12 sufficiency weigh more when folate-pathway efficiency is reduced [1]
-- **COMT** — catecholamine clearance may interact with methylation-adjacent meal patterns (BRS1) [2]
+- **COMT** — catecholamine clearance may interact with methylation-adjacent meal patterns; see [BRS1(SM-SNP1)](/docs/biological-targets/brs1/sm/brs1-sm-snp1-comt-catecholamine-clearance-sensitivity) for BRS1 clearance framing [2]
 - **BDNF Val66Met** — methionine–homocysteine and plasticity relevance downstream [2]
 - **Omega-3 / polyphenols** — membrane and resilience support alongside one-carbon inputs [3]
 
@@ -88,12 +91,12 @@ Variant-sensitive efficiency can shift donor and cofactor responsiveness under t
 
 ### 5.5 Cross-BRS Links
 
-- BRSX — genotype-sensitive personalization
-- BRS1 — COMT / catecholamine cross-talk
+- BRS1 — COMT / catecholamine clearance cross-talk ([BRS1(SM-SNP1)](/docs/biological-targets/brs1/sm/brs1-sm-snp1-comt-catecholamine-clearance-sensitivity))
+- BRS3 — inflammatory and redox context for omega-3 and polyphenol co-support alongside one-carbon inputs
 
 ## 6. Dietary Levers
 
-<details open>
+<details>
 <summary><strong>Diet</strong></summary>
 
 - B12 ← dairy, seafood, liver
@@ -125,12 +128,12 @@ Variant-sensitive efficiency can shift donor and cofactor responsiveness under t
 <details>
 <summary><strong>Scoreable Input Categories</strong></summary>
 
-| Input Category | Example Inputs | BRS2(S1) |
+| Input Category | Example Inputs | SM-SNP1 relevance |
 |---|---|---|
-| Functional Property Potentials | consistent_methyl_donor_coverage; riboflavin_folate_context | |
-| Realised Functional States | homocysteine_modulation_context; omega3_status_context | |
-| Substance / Nutrient Signals | folate; B12; B2; omega-3; methionine | |
-| Preparation Transformations | minimally_processed; whole_food_matrix | |
+| Functional Property Potentials | consistent_methyl_donor_coverage; riboflavin_folate_context | Precursor and cofactor scoring context. |
+| Realised Functional States | homocysteine_modulation_context; omega3_status_context | Variant-sensitive methylation response patterns. |
+| Substance / Nutrient Signals | folate; B12; B2; omega-3; methionine | Substrate and cofactor signals from connected PM1/PM3. |
+| Preparation Transformations | minimally_processed; whole_food_matrix | Food-matrix support for donor continuity. |
 
 </details>
 

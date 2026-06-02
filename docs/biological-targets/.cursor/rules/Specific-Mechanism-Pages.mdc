@@ -23,14 +23,18 @@ Structure:
 - §5 must list connected PMs and FMs before KCs; do not treat SMs as new PM/FM/KC ontology primitives.
 
 Semantic rules:
-- Definition: phenotype, therapeutic-area, variant-sensitive, or instability-pattern framing — not a replacement PM definition.
+- SMs are **interpretation layers**, not bounded PMs or integrated FMs.
+- Definition: phenotype-sensitive (`SM-PHEN`), variant-sensitive (`SM-SNP`), or cross-system (`SM-CROSS`) framing — not a replacement PM definition.
+- `SM-CROSS`: apply the **SM-CROSS test** in `system/specific-mechanism-schema.md` — qualify only if the concept **materially spans ≥ 2 BRS domains** **and** **cannot be naturally owned by a single PM or FM**; otherwise use PM/FM, `SM-PHEN`, `SM-SNP`, or BRS hub rationale. **`### 5.5 Cross-BRS Links` is required** on SM-CROSS pages. Not phenotype pages.
+- **§5.5 Cross-BRS Links:** explain cross-domain placement in **paragraph form** (optional `####` subheads for priority/themes). **Link to specific PM pages** — e.g. `[BRS6(PM5) — …](/docs/biological-targets/brs6/pm/…)` — not hub-only BRS labels when a relevant PM exists. §5.3/5.4 remain bullet lists for host-BRS `connected_*` entities; §5.5 is narrative + PM links. See `system/specific-mechanism-schema.md` §5.5 authoring contract.
+- Therapeutic-area framing (e.g. ADHD) belongs on BRS hub pages — not as `sm_category` or primary SM ontology.
 - Mechanistic Basis: interpretive overlay linking stable [connected PMs](/docs/biological-targets) / FMs / KCs; do not redefine PM mechanism biology.
 - Dietary / Lifestyle levers: same PM lever pattern; in Diet `<details>` use **substance ← 2–3 food examples** per `system/substance-food-mapping-format.md`. The left-hand label must be a **substance/nutrient** (e.g. folate, EPA/DHA, B12), not a food category (not “oily fish”, “polyphenol-rich foods”, “B12-rich foods”). Meal-pattern / interpretive levers may stay as prose bullets without `←`.
 - Do not make diagnostic claims, deterministic SNP outcome claims, prescriptions, or exaggerated efficacy claims.
 
 Front matter:
 - Required: `sm_id`, `sm_category`, `use_case`, `connected_pms`, `connected_fms`, `connected_kcs`, `parent_brs`, `intervention_breakdown`, `timing_specific`, `references`
-- `sm_category` must be one of: SM-ADHD, SM-SNP, SM-PHEN, SM-OTHER
+- `sm_category` must be one of: SM-SNP, SM-PHEN, SM-CROSS
 
 References:
 - Numeric citations [1], [2]; links to `/docs/papers/BRAIN-Diet-References#citationKey`

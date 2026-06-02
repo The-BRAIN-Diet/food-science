@@ -18,7 +18,7 @@ export const INTERVENTION_BREAKDOWN_VALUES = new Set([
   "Behavioural/Lifestyle Dominant",
 ]);
 
-export const SM_CATEGORY_VALUES = new Set(["SM-ADHD", "SM-SNP", "SM-PHEN", "SM-OTHER"]);
+export const SM_CATEGORY_VALUES = new Set(["SM-SNP", "SM-PHEN", "SM-CROSS"]);
 
 const TIMING_BODY_HEADING = /^##\s+\d+\.\s+Timing Specific\s*$/m;
 
@@ -463,7 +463,7 @@ function validateSmCategoryFrontMatter(data, content, issues, { entityLabel }) {
     pushIssue(
       issues,
       "invalid_sm_category",
-      `${entityLabel}: sm_category must be one of SM-ADHD, SM-SNP, SM-PHEN, SM-OTHER`,
+      `${entityLabel}: sm_category must be one of SM-SNP, SM-PHEN, SM-CROSS`,
     );
   }
   const useCase = data.use_case;
