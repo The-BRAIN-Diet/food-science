@@ -9,6 +9,25 @@ const includeInternalRecipeWip =
   process.env.NODE_ENV !== 'production' ||
   process.env.INCLUDE_INTERNAL_DOCS === 'true';
 
+const brsOverviewDocIds = new Set([
+  'biological-targets/neurotransmitter-regulation',
+  'biological-targets/methylation-one-carbon-metabolism',
+  'biological-targets/inflammation-oxidative-stress',
+  'biological-targets/mitochondrial-function-bioenergetics',
+  'biological-targets/gut-brain-axis-enteric-nervous-system',
+  'biological-targets/metabolic-neuroendocrine-stress',
+]);
+
+function removeDuplicateBrsOverviewDocs(items: any[]): any[] {
+  return items
+    .filter((item) => !(item.type === 'doc' && brsOverviewDocIds.has(item.id)))
+    .map((item) =>
+      item.type === 'category'
+        ? { ...item, items: removeDuplicateBrsOverviewDocs(item.items ?? []) }
+        : item,
+    );
+}
+
 const config: Config = {
   title: 'The BRAIN Diet',
   tagline: 'Bio Regulation Algorithm and Integrated Neuronutrition',
@@ -40,6 +59,7 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  clientModules: [require.resolve('./src/client/resetSidebarState.ts')],
 
   presets: [
     [
@@ -48,6 +68,10 @@ const config: Config = {
         docs: {
           sidebarCollapsible: true,
           sidebarCollapsed: true,
+          async sidebarItemsGenerator(args) {
+            const sidebarItems = await args.defaultSidebarItemsGenerator(args);
+            return removeDuplicateBrsOverviewDocs(sidebarItems);
+          },
           exclude: includeInternalRecipeWip ? [] : ['**/recipes/WIP/**'],
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
