@@ -121,4 +121,5 @@ Context-specific expressions of stable biological regulation associated with phe
 
 - [BRS1(SM-PHEN1) — Excitatory–Inhibitory Stability & Sensory Regulation](/docs/biological-targets/brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation)
 - [BRS1(SM-ADHD1) — Emotional Dysregulation & Serotonergic Regulation](/docs/biological-targets/brs1/sm/brs1-sm-adhd1-emotional-dysregulation-serotonergic-regulation)
+- [BRS1(SM-OTHER1) — Histaminergic Arousal Regulation & Neuroimmune Crosstalk](/docs/biological-targets/brs1/sm/brs1-sm-adhd2-histaminergic-arousal-neuroimmune-crosstalk)
 - [BRS1(SM-SNP1) — COMT Catecholamine Clearance Sensitivity](/docs/biological-targets/brs1/sm/brs1-sm-snp1-comt-catecholamine-clearance-sensitivity)

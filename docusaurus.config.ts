@@ -19,8 +19,13 @@ const brsOverviewDocIds = new Set([
 ]);
 
 function removeDuplicateBrsOverviewDocs(items: any[]): any[] {
+  const isDuplicateLeaf = (item: any): boolean =>
+    (item.type === 'doc' && brsOverviewDocIds.has(item.id)) ||
+    (item.type === 'link' && typeof item.docId === 'string' && brsOverviewDocIds.has(item.docId));
+
   return items
-    .filter((item) => !(item.type === 'doc' && brsOverviewDocIds.has(item.id)))
+    // Keep BRS category nodes, remove only duplicate leaf doc/link entries.
+    .filter((item) => !isDuplicateLeaf(item))
     .map((item) =>
       item.type === 'category'
         ? { ...item, items: removeDuplicateBrsOverviewDocs(item.items ?? []) }
