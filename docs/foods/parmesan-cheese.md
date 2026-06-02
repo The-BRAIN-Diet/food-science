@@ -34,7 +34,7 @@ legacy_main_image: /img/foods/parmesan-cheese/parmesan-cheese_medium.webp
 ---
 ## Overview
 
-Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 pentadecanoic acid, high protein, and calcium, with studies showing it doesn't raise LDL despite high calcium. Parmesan Cheese: CLA, vitamin K2, glutamate, high protein, calcium; fermented, C15:0. C15:0 (Parmesan and grassfed Butter). Studies have shown that hard cheeses with high calcium do not raise serum LDL levels. Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks.
+Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 pentadecanoic acid, glutamate, high protein, and calcium. Evidence suggests hard cheeses with high calcium do not raise serum LDL levels, supporting their use in moderation within nutrient-dense dietary patterns [Soerensen et al. 2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014).
 
 ## Food Context
 

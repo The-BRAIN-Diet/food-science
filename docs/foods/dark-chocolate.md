@@ -108,12 +108,8 @@ Dark chocolate is not used as a primary protein food, so essential amino-acid co
 
 ## References
 
-[1] High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor [Neshatdoust et al. 2016](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
-
-[2] (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans [Schroeter et al. 2006](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
-
-[3] Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA [Hands et al. 2024](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
-
-[4] Occurrence of heavy metals in chocolates and health risk assessment (origin and geogenic context) [Godebo et al. 2024](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024)
-
-[5] Dietary strategies for cadmium and lead toxicity, including roles of essential minerals (e.g. calcium and zinc) [Zhai et al. 2015](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)
+- [1] High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor [Neshatdoust et al. 2016](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+- [2] (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans [Schroeter et al. 2006](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
+- [3] Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA [Hands et al. 2024](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
+- [4] Occurrence of heavy metals in chocolates and health risk assessment (origin and geogenic context) [Godebo et al. 2024](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024)
+- [5] Dietary strategies for cadmium and lead toxicity, including roles of essential minerals (e.g. calcium and zinc) [Zhai et al. 2015](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)
