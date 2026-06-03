@@ -13,9 +13,11 @@ sidebar_position: 5
 
 <div class="brs-overview-intro">
 
-The BRAIN Framework organises biology into six overlapping Biological Regulatory Systems (BRS), not as isolated silos, but as a way of making complex and interacting physiology easier to interpret. Biological effects emerge through the integration of multiple systems operating under shared physiological demands, rather than from isolated nutrients or single pathways alone.
+The BRAIN Framework was developed from research into ADHD, depression, anxiety, cognitive decline, and other brain-related disorders. Although these conditions differ clinically, they often involve overlapping biological themes, including neural signalling, inflammation, mitochondrial function, gut–brain communication, metabolic regulation, and cellular maintenance.
 
-Diet is therefore interpreted not as a direct controller of biology, but as one contributor to the substrate, energetic, and environmental conditions within which endogenous regulatory systems operate. Dietary patterns may influence regulatory feasibility and adaptive capacity across systems, rather than acting as isolated determinants of biological outcomes.
+These recurring themes are organised into six Biological Regulatory Systems (BRS), forming the foundation of the BRAIN Diet. Rather than targeting a single condition, the framework is designed to support brain health more broadly by helping maintain the biological balance and resilience that underpin cognitive, emotional, and behavioural function throughout life.
+
+Diet is read as support for the substrate and conditions those systems work within—not as a direct switch for biology. Effects emerge from how multiple BRS interact, not from isolated nutrients or single pathways alone.
 
 <p class="brs-overview-image-wrap">
   <img
@@ -34,7 +36,7 @@ Within each system:
 - **Key Constraints (KCs)** describe the shared sufficiency conditions and foundational biological requirements that shape whether regulation is feasible.
 - **Primary Mechanisms (PMs)** describe the core biological mechanisms, processing systems, and regulatory interactions operating within those shared constraints.
 - **Functional Mechanisms (FMs)** represent integrated regulatory states emerging from coordinated groups of related PMs operating within the same constraints.
-- **Specific Mechanisms (SMs)** are interpretation layers — phenotype-sensitive, variant-sensitive, or cross-system readings of stable biology (not therapeutic-area categories).
+- **Specific Mechanisms (SMs)** are interpretation layers — context-specific interpretations of established biological regulation (phenotype-sensitive, variant-sensitive, or cross-system; not therapeutic-area categories).
 
 <details>
 <summary><strong>How the framework organises biology</strong></summary>
@@ -45,7 +47,7 @@ Biological effects rarely arise from a single nutrient, pathway, or control poin
 
 Within each system, Key Constraints (KCs) describe shared sufficiency conditions, substrate economies, and foundational biological requirements that shape whether regulation can be maintained effectively at all. These are not themselves mechanisms; they are distributed biological constraints within which multiple downstream processes must operate. Examples include amino acid substrate availability, methyl donor sufficiency, membrane lipid sufficiency, and fermentable substrate availability [[1]](/docs/papers/BRAIN-Diet-References#kacser_control_1973)[[2]](/docs/papers/BRAIN-Diet-References#orth_what_2010).
 
-Primary Mechanisms (PMs) describe the core biological mechanisms, processing systems, and regulatory interactions operating within those shared constraints. Functional Mechanisms (FMs) represent the integrated biological states that emerge when related PMs act together within the same constraint context—not a separate layer of biology, but a higher-order reading of coordinated PM activity. Specific Mechanisms (SMs) are interpretation layers for phenotype-sensitive, variant-sensitive, or cross-system context without redefining PM or FM biology.
+Primary Mechanisms (PMs) describe the core biological mechanisms, processing systems, and regulatory interactions operating within those shared constraints. Functional Mechanisms (FMs) represent the integrated biological states that emerge when related PMs act together within the same constraint context—not a separate layer of biology, but a higher-order reading of coordinated PM activity. Specific Mechanisms (SMs) are interpretation layers for context-specific interpretations of established biological regulation — phenotype-sensitive, variant-sensitive, or cross-system — without redefining PM or FM biology.
 
 Viewed this way, the framework is not intended to divide biology into separate boxes. It is a structured way of understanding how shared constraints, distributed regulation, integrated functional states, and context-specific expression interact across the six systems that contribute to our brain and overall health.
 

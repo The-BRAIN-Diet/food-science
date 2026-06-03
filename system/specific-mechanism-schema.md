@@ -109,14 +109,18 @@ Food-State Leaning
 
 `sm_category` and `use_case` are required in **front matter** only — do not repeat them in the §2 body.
 
+## Section body prose
+
+Same contract as PM pages: sections must not restate the title, `sm_id`, BRS name/number, or Definition; each section follows only its schema role. See `system/mechanism-page-section-prose.md`.
+
 ## Section order (Profile A — extended, same as PM)
 
 First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
 
-1. Definition — phenotype / variant / cross-system framing (not a core PM definition)
+1. Definition — phenotype / variant / cross-system framing (not a core PM definition). **`SM-CROSS`:** open with *why* a cross-system page is needed (what single-PM or neurotransmitter-only framing misses) and *how* an SM-CROSS differs from a PM, FM, or `SM-PHEN`/`SM-SNP` page; defer integrative biology to §4 and PM links to §5.5.
 2. Intervention Breakdown — breakdown value only
 3. Functional Role — directional summary oriented to regulatory balance and resilience
-4. Mechanistic Basis — connects connected PMs, FMs, KCs, and cross-BRS context into the interpretive overlay (`### Summary` + `<details>` as on PM pages)
+4. Mechanistic Basis — `### Summary` opens with the **multi-domain implication**, then explains the cross-system concept (`### Summary` + `<details>` as on PM pages). **`SM-CROSS`:** implication first (e.g. few systems span neural, immune, gut, and circadian biology → then histamine). See `system/mechanism-page-section-prose.md`. PM links stay in §5.5.
 5. Underlying Mechanisms and Requirements
    - `### 5.1` Cofactors and Supporting Inputs
    - `### 5.2` KCs (Key Constraints)

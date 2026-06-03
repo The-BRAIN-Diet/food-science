@@ -14,14 +14,15 @@ Build Gate Proviso:
 When creating or editing Functional Mechanism (FM) pages:
 
 Follow:
-system/functional-mechanism-schema.md
+- `system/functional-mechanism-schema.md`
+- `system/mechanism-page-section-prose.md` — sections must not restate title, entity ID, BRS name/number, or Definition; each section follows only its schema role.
 
 Integration without repetition (required):
 - FM pages **synthesise** PMs; they do not **repeat** PM page content.
 - **PMs own mechanisms. FMs own emergent integration.**
 - **Definition (§1):** name the integrated regulatory state; reflect each included PM’s core contribution; state the emergent functional consequence; do not paste full PM definitions. Use the pattern: `Integrated regulation of [PM1], [PM2], and [PM3], influencing [outcome].`
 - **Functional Role (§3):** short ↑ / ↓ emergent outcomes only — not a mechanism dump.
-- **Mechanistic Basis (§4):** (1) opening synthesis, (2) one short clause per PM (“PM1 governs…”), (3) integration sentence, (4) functional consequence sentence. No fibre/starch/Monnier/magnesium-style PM detail that belongs on PM pages.
+- **Mechanistic Basis (§4):** open with the **emergent implication** (integrated state), then PM integration (`system/mechanism-page-section-prose.md`). Structure: (1) implication / opening synthesis, (2) one short clause per PM (“PM1 governs…”), (3) integration sentence, (4) functional consequence sentence. No PM citation dumps.
 - **Deduplication:** if detail exists on a PM page (e.g. PM1 sequencing, PM2 variability, PM3 disposal), do not repeat it on the FM page — only describe how PMs combine.
 - **Bad:** “PM1 does X with fibre… PM2 does Y with Monnier…” (PM summary dump).
 - **Good:** “FM1 integrates glucose entry kinetics, variability regulation, and disposal capacity to stabilise post-prandial energy availability…”

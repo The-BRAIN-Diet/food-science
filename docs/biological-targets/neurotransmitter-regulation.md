@@ -26,53 +26,25 @@ hide_title: true
 The Neurotransmitter Regulation system covers synaptic signalling, precursor supply, transport competition, and excitatory–inhibitory balance. It links dietary amino-acid substrate, meal composition, and membrane-lipid context to attention, mood, arousal, and cognitive control.
 
 <details>
-<summary><strong>ADHD: Neurotransmitter Regulation Biological Implications</strong></summary>
+<summary><strong>ADHD Research Context</strong></summary>
 
 ### Introduction
 
-Many neurological disorders are thought to be due to neurochemical imbalances, although conclusive proof is often lacking, and much research has now implicated broader neurotransmitter dysregulation. More than 200 chemical messengers (classical transmitters, neuropeptides, purines, lipid mediators, gases) have been described, underscoring the system's complexity. The BRAIN Diet therefore targets broad neurochemical precursors and cofactors to support efficient neurotransmitter production rather than a single pathway in isolation.
+Many brain-related disorders have been associated with altered neurotransmitter signalling, yet no single neurotransmitter fully explains cognitive, emotional, or behavioural function. Neural communication emerges from the interaction of numerous signalling systems and chemical messengers. The BRAIN Diet therefore focuses on supporting broad neurotransmitter biology through dietary precursors, cofactors, membrane-building nutrients, and complementary dietary patterns rather than targeting a single pathway in isolation.
 
-The diet must target a broad spectrum of neurochemical precursors while integrating anti-inflammatory nutrients and gut–brain modulators to support balanced neurotransmitter production across systems—not dopamine alone. Nutrient patterns rich in amino-acid precursors, omega-3 fatty acids, and polyphenols can influence dopamine, serotonin, GABA, and acetylcholine pathways simultaneously, supporting mood stability, attention, and cognitive performance.
+In ADHD, neurobiology spans multiple transmitter systems rather than a single deficit. Dopaminergic dysfunction is consistently linked, but evidence does not support a simple global hypo-dopaminergic model—alterations vary by subtype, developmental stage, and brain region, interacting with other neurotransmitter systems [MacDonald et al. 2024](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024). Low glutamate in critical brain areas correlates with low scores on the Barkley attention scale [Maltezos et al. 2014](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014), and altered norepinephrine signalling has been associated with attention and response inhibition [O'Donnell et al. 2012](/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012).
 
-Glutamate is the principal excitatory neurotransmitter of the central nervous system and the most abundant neurotransmitter in the brain. Dysregulation of glutamatergic signalling has widespread clinical relevance and is strongly implicated in major depressive disorder, including treatment-resistant subtypes.
+### Core ADHD-Relevant BRS1 Mechanisms
 
-Iron is an essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine. Pairing plant-based iron sources with citrus, fat-soluble vitamins with avocado or olive oil, or spreading minerals across meals supports maximising dietary nutrition.
+ADHD neurobiology spans multiple BRS1 pathways. Each entry below gives a short clinical context and links to the relevant mechanism on this hub.
 
-B6 is a cofactor in the development of all key neurotransmitters. Pyridoxine, pyridoxal, and pyridoxamine must cross the blood–brain barrier in non-phosphorylated forms before conversion to pyridoxal-5′-phosphate (PLP), the active coenzyme form. Systemic PLP supplementation does not bypass the brain's reliance on its own enzymatic machinery; pyridoxal kinase (PDXK) activity, supported by cofactors such as magnesium and ATP, is required.
+- **[BRS1(FM1) — Catecholaminergic Function (Dopamine + Norepinephrine)](/docs/biological-targets/brs1/fm/brs1-fm1-catecholaminergic-function):** Dopamine shapes attention and default-mode to executive-network switching [Santos et al. 2019](/docs/papers/BRAIN-Diet-References#santos_como_2019). See [BRS1(PM1)](/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation), [BRS1(PM2)](/docs/biological-targets/brs1/pm/brs1-pm2-lat1-competitive-transport-modulation), [BRS1(PM5)](/docs/biological-targets/brs1/pm/brs1-pm5-noradrenergic-signalling-attention-executive-modulation).
 
-### ADHD: Neurotransmitter Regulation Context
+- **[BRS1(FM5) — Excitatory–Inhibitory Balance (GABA–Glutamate Regulation)](/docs/biological-targets/brs1/fm/brs1-fm5-excitatory-inhibitory-balance-gaba-glutamate-regulation):** Glutamate is the principal excitatory neurotransmitter of the CNS and the most abundant neurotransmitter in the brain [Zhou and Danbolt 2014](/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014). Excitatory–inhibitory disturbance beyond dopamine alone. See [BRS1(PM6)](/docs/biological-targets/brs1/pm/brs1-pm6-gaba-glutamate-neurotransmission-balance)–[BRS1(PM9)](/docs/biological-targets/brs1/pm/brs1-pm9-excitotoxicity-modulation), [BRS1(SM-PHEN1)](/docs/biological-targets/brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation).
 
-A meta-analysis concluded that while dopaminergic dysfunction is consistently linked to ADHD, evidence does not support a simple global hypo-dopaminergic model; dopamine alterations vary by ADHD subtype, developmental stage, and brain region, interacting with other neurotransmitter systems.
+- **[BRS1(PM5) — Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/pm/brs1-pm5-noradrenergic-signalling-attention-executive-modulation):** Noradrenergic modulation of attention and response inhibition within catecholaminergic context.
 
-Dopamine affects ADHD both as a neurotransmitter regulating attention and executive function and as a neuromodulator affecting broader networks such as the default mode network (DMN). The inability to shift from DMN to executive-state networks has been hypothesized as one contributor to ADHD. Over time, this neural inefficiency contributes to mental fatigue and susceptibility to burnout. Nutrient-timed meals may support this transition through dopamine precursors and anti-inflammatory context to reduce DMN dysregulation.
-
-Targeting dopamine via fatty and sugary foods is common in ADHD populations, likely correlated with double dopamine reward from eating. These circuits can be used sparingly as dietary strategies; ultra-processed foods may hijack dopamine reward systems and contribute to dysregulation.
-
-Low glutamate levels in critical brain areas have correlated with low scores on the Barkley attention scale, supporting broader excitatory–inhibitory disturbance in ADHD beyond dopaminergic dysfunction alone. Dietary phytochemicals such as genistein and omega-3s may help restore neurochemical homeostasis including dopamine and glutamate.
-
-Alterations in norepinephrine signalling have been associated with ADHD, affecting attention and response inhibition, supporting the monoaminergic hypothesis for ADHD pathophysiology.
-
-Serotonin is involved in mood regulation, emotional processing, and impulse control. Reduced serotonin may contribute to hyperactive and impulsive components of ADHD but perhaps not inattention. Comorbidity burden confounds isolation of specific transmitter effects in ADHD.
-
-Emotional dysregulation is a major but underacknowledged component of ADHD (estimates suggest 25–45% of children and 30–70% of adults). Neurobiologically, emotional dysregulation overlaps with stress reactivity, limbic overactivation, dopaminergic tone, and inflammation. Glycaemic stabilization, SCFA production, polyphenol intake, and anxiolytic probiotic interventions may exert downstream effects on emotional regulation through HPA axis activity, limbic signalling, and neurotransmitter systems.
-
-## References
-
-- Many neurological disorders are thought to be due to neurochemical imbalances although conclusive proof is often lacking [Akyuz et al. 2025](/docs/papers/BRAIN-Diet-References#akyuz_neurotransmitter_2025)
-- A meta study analysis concluded that while dopaminergic dysfunction is consistently linked to ADHD, evidence does not support a simple global hypo-dopaminergic model and that dopamine alterations vary by ADHD subtypes, developmental stage, and brain region, interacting with other neurotransmitter systems [MacDonald et al. 2024](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024)
-- The difficulties in really 'disentangling' pure dopaminergic neurotransmission from other transmitter systems are significant; &gt;200 chemical messengers have been described, underscoring the system's complexity [Perreault et al. 2014](/docs/papers/BRAIN-Diet-References#perreault_heteromeric_2014)
-- The BRAIN Diet uses nutrient-timed meals to support dopamine–insulin coupling through dopamine precursors and anti-inflammatory nutrients to reduce DMN dysregulation [Marsland et al. 2017](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)
-- A meta-analysis has shown that amphetamine based medications consistently (11 of 12 studies) restored connectivity in DMN areas [Santos et al. 2019](/docs/papers/BRAIN-Diet-References#santos_como_2019)
-- Individuals targeting dopamine via fatty and sugary foods is common in ADHD populations which is probably correlated to the double dopamine reward experienced when eating food [Thanarajah et al. 2019](/docs/papers/BRAIN-Diet-References#thanarajah_food_2019)
-- Ultra-processed foods hijack the double dopamine system and lead to dysregulation and addictive behaviours [LaFata et al. 2024](/docs/papers/BRAIN-Diet-References#lafata_ultra-processed_2024)
-- Glutamate is the principal excitatory neurotransmitter of the central nervous system and the most abundant neurotransmitter in the brain [Zhou and Danbolt 2014](/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014)
-- Dysregulation of glutamatergic signaling is strongly implicated in Major Depressive Disorder (MDD), including treatment-resistant subtypes [Khoodoruth et al. 2022](/docs/papers/BRAIN-Diet-References#khoodoruth_glutamatergic_2022)
-- Low levels of glutamate in a number of critical brain areas correlated with low scores on the Barkley attention scale [Maltezos et al. 2014](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014)
-- Alterations in norepinephrine signaling have been associated with ADHD, affecting the regulation of attention and response inhibition [O'Donnell et al. 2012](/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012)
-- Reduced levels of serotonin may contribute to the development of ADHD, influencing hyperactive and impulsive components of ADHD but perhaps not inattention [Banerjee and Nandagopal 2015](/docs/papers/BRAIN-Diet-References#banerjee_does_2015)
-- The involvement of serotonin in ADHD is supported by findings that reduced levels of the neurotransmitter may contribute to the disorder along with several genetic markers [Oades 2010](/docs/papers/BRAIN-Diet-References#oades_role_2010)
-- Emotional dysregulation (ED) is also a major factor of ADHD with estimates suggesting that 25–45% of children and 30–70% of adults have this comorbidity [Shaw et al. 2014](/docs/papers/BRAIN-Diet-References#shaw_emotion_2014)
-- Iron is an essential cofactor for tyrosine hydroxylase, the rate-limiting enzyme in the conversion of tyrosine to dopamine [Beard et al. 2003](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
+- **[BRS1(SM-PHEN2) — Emotional Dysregulation & Serotonergic Regulation](/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-serotonergic-regulation):** Emotional dysregulation and serotonergic context are salient in ADHD. Reduced serotonin may link to hyperactivity and impulsivity more than inattention, with genetic markers also implicated [Banerjee and Nandagopal 2015](/docs/papers/BRAIN-Diet-References#banerjee_does_2015) [Oades 2010](/docs/papers/BRAIN-Diet-References#oades_role_2010).
 
 </details>
 

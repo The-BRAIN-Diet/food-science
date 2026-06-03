@@ -15,6 +15,7 @@ When creating or editing Specific Mechanism (SM) pages:
 Follow:
 - `system/specific-mechanism-schema.md`
 - `system/primary-mechanism-schema.md` for collapsible, scoreable, timing, and bibliography conventions (SMs reuse PM rendering, not a separate grammar)
+- `system/mechanism-page-section-prose.md` — sections must not restate title, entity ID, BRS name/number, or Definition; each section follows only its schema role.
 
 Structure:
 - Use **Profile A extended** (§1–§9 with Intervention Breakdown). Same numbering, `<details>` patterns, and scoreable table categories as PM pages.
@@ -24,11 +25,11 @@ Structure:
 
 Semantic rules:
 - SMs are **interpretation layers**, not bounded PMs or integrated FMs.
-- Definition: phenotype-sensitive (`SM-PHEN`), variant-sensitive (`SM-SNP`), or cross-system (`SM-CROSS`) framing — not a replacement PM definition.
+- Definition: phenotype-sensitive (`SM-PHEN`), variant-sensitive (`SM-SNP`), or cross-system (`SM-CROSS`) framing — not a replacement PM definition. **`SM-CROSS` §1:** state why and how this page differs from a PM/FM (what multi-domain interpretation adds); do not open later sections by restating §1.
 - `SM-CROSS`: apply the **SM-CROSS test** in `system/specific-mechanism-schema.md` — qualify only if the concept **materially spans ≥ 2 BRS domains** **and** **cannot be naturally owned by a single PM or FM**; otherwise use PM/FM, `SM-PHEN`, `SM-SNP`, or BRS hub rationale. **`### 5.5 Cross-BRS Links` is required** on SM-CROSS pages. Not phenotype pages.
 - **§5.5 Cross-BRS Links:** explain cross-domain placement in **paragraph form** (optional `####` subheads for priority/themes). **Link to specific PM pages** — e.g. `[BRS6(PM5) — …](/docs/biological-targets/brs6/pm/…)` — not hub-only BRS labels when a relevant PM exists. §5.3/5.4 remain bullet lists for host-BRS `connected_*` entities; §5.5 is narrative + PM links. See `system/specific-mechanism-schema.md` §5.5 authoring contract.
 - Therapeutic-area framing (e.g. ADHD) belongs on BRS hub pages — not as `sm_category` or primary SM ontology.
-- Mechanistic Basis: interpretive overlay linking stable [connected PMs](/docs/biological-targets) / FMs / KCs; do not redefine PM mechanism biology.
+- Mechanistic Basis: `### Summary` opens with the **multi-domain implication**, then the cross-system concept (`system/mechanism-page-section-prose.md`). **`SM-CROSS`:** e.g. few systems span neural, immune, gut, and circadian biology → then histamine. Do not redefine PM biology; cross-BRS PM links belong in §5.5.
 - Dietary / Lifestyle levers: same PM lever pattern; in Diet `<details>` use **substance ← 2–3 food examples** per `system/substance-food-mapping-format.md`. The left-hand label must be a **substance/nutrient** (e.g. folate, EPA/DHA, B12), not a food category (not “oily fish”, “polyphenol-rich foods”, “B12-rich foods”). Meal-pattern / interpretive levers may stay as prose bullets without `←`.
 - Do not make diagnostic claims, deterministic SNP outcome claims, prescriptions, or exaggerated efficacy claims.
 

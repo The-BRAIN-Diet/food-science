@@ -27,6 +27,10 @@ tags:
 list_image: string
 ```
 
+## Section body prose
+
+Hub sections must not restate the BRS title or Overview at the start of Functional Mechanisms, Key Constraints, Primary Mechanisms, or other listed sections. Each section follows only its role in this schema. See `system/mechanism-page-section-prose.md`.
+
 ## Section Order (Page Rendering Contract)
 
 1. Name

@@ -471,6 +471,10 @@ missing_entities:
   foods: [string]
 ```
 
+## Section body prose
+
+Sections must not restate the page title, entity ID, BRS name/number, or Definition. Each section follows only its schema role. See `system/mechanism-page-section-prose.md`.
+
 ## Section Order (Page Rendering Contract)
 
 | # | Heading |

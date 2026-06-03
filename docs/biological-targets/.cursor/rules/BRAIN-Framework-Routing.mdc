@@ -7,6 +7,8 @@ globs:
   - "docs/biological-targets/**/pm/**/*.md"
   - "docs/biological-targets/**/kc/**/*.mdx"
   - "docs/biological-targets/**/kc/**/*.md"
+  - "docs/biological-targets/**/sm/**/*.mdx"
+  - "docs/biological-targets/**/sm/**/*.md"
 alwaysApply: true
 ---
 
@@ -31,9 +33,16 @@ Routing logic:
   - Apply:
     `system/key-constraint-schema.md`
 
+- If the file path contains `/sm/`:
+  - Apply:
+    `system/specific-mechanism-schema.md`
+
+Section body prose (all PM / FM / SM / KC pages):
+- Follow `system/mechanism-page-section-prose.md` — sections must not restate title, entity ID, BRS name/number, or Definition; each section follows only its schema role.
+
 Conflict prevention:
 
-- Must not mix FM, PM, and KC schemas in the same file
+- Must not mix FM, PM, KC, and SM schemas in the same file
 - Must not infer page type from content; use file path only
 
 If ambiguity exists, stop and ask.

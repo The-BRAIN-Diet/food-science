@@ -14,7 +14,8 @@ Build Gate Proviso:
 When creating or editing Key Constraint (KC) pages:
 
 Follow:
-system/key-constraint-schema.md (including **KC Evidence Layer Rules**)
+- `system/key-constraint-schema.md` (including **KC Evidence Layer Rules**)
+- `system/mechanism-page-section-prose.md` — sections must not restate title, entity ID, BRS name/number, or Definition; each section follows only its schema role.
 
 KC identity:
 - A KC is a foundational sufficiency, substrate condition, structural requirement, or enabling constraint for PMs/FMs

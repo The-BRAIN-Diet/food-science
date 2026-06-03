@@ -47,6 +47,8 @@ Butyrate may reduce neuroinflammation and support mitochondrial brain energy met
 
 ADHD is associated with metabolic disorders and postprandial inflammatory patterns; omega-3-mediated resolution biology is relevant to this context.
 
+- **[BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm/brs3-fm1-anti-inflammatory-signalling-tone):** Anti-inflammatory and DMN connectivity context in ADHD: systemic inflammation intersects default-mode network connectivity [Marsland et al. 2017](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017). The BRAIN Diet uses nutrient-timed meals to support dopamine–insulin coupling through dopamine precursors and anti-inflammatory nutrients to reduce DMN dysregulation. Catecholaminergic default-mode to executive-network switching → [BRS1(FM1) — Catecholaminergic Function](/docs/biological-targets/brs1/fm/brs1-fm1-catecholaminergic-function).
+
 Dietary antioxidant approaches in ADHD have been linked to immune and epigenetic modulation; immune dysfunction and elevated IgE/allergy patterns represent another overlapping clinical link.
 
 ## References
