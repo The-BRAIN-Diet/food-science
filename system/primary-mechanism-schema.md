@@ -92,6 +92,10 @@ missing_entities:                    # optional
 
 When a PM carries `intervention_breakdown` in front matter, the published body includes **## 2. Intervention Breakdown** (single allowed semantic value matching front matter) immediately after Definition. This is distinct from legacy `intervention_dominance` in YAML.
 
+## Section body prose
+
+Sections must not restate the page title, entity ID, BRS name/number, or Definition. Each section follows only its schema role. See `system/mechanism-page-section-prose.md`.
+
 ## Section Order (Page Rendering Contract)
 
 First line of the MDX body (after front matter) must be the mechanism title: `## <PM_ID> - <PM name>` (same heading level as numbered sections; do not use `#` or `###` for this line).
@@ -104,7 +108,8 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 2. Intervention Breakdown — `## 2. Intervention Breakdown` — must match `intervention_breakdown` in front matter
 3. Functional Role — `## 3. Functional Role` (directional arrow summary)
 4. Mechanistic Basis — `## 4. Mechanistic Basis`
-   - **UX (recommended):** start with `### Summary` (short paragraph always visible), then a `<details>` block whose `<summary>` labels the extended mechanistic narrative (e.g. glucose appearance, structure, sequencing). Inside the block, use `####` subheads for thematic blocks and link citations to `/docs/papers/BRAIN-Diet-References#…` plus numeric refs as needed.
+   - **Opening (required pattern):** `### Summary` leads with the **interesting implication** (regulatory consequence), then explains the bounded process — see `system/mechanism-page-section-prose.md` (e.g. nutrient delivery depends on availability *and* competitive transport → then LAT1).
+   - **UX (recommended):** after Summary, use a `<details>` block whose `<summary>` labels the extended mechanistic narrative. Inside the block, use `####` subheads for thematic blocks and link citations to `/docs/papers/BRAIN-Diet-References#…` plus numeric refs as needed.
    - Long-form PMs may instead use a single `## 4.` body without Summary/details if the narrative stays short.
 5. Underlying Mechanisms and Requirements — `## 5. Underlying Mechanisms and Requirements`
    - **Full subsection set:** `### 5.1` Cofactors and Supporting Inputs, `### 5.2` KCs, `### 5.3` Optional BRSX Modifiers, `### 5.4` Cross-BRS Links

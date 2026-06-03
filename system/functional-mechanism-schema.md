@@ -55,7 +55,9 @@ Integrated regulation of glucose appearance, glycaemic stability, and insulin-su
 
 ### FM Mechanistic Basis Rule
 
-Section **4. Mechanistic Basis (Implementation of PMs)** (`## 4.`) must:
+Section **4. Mechanistic Basis (Implementation of PMs)** (`## 4.`) must open with the **interesting implication** — the emergent integrated state — then explain how constituent PMs combine. See `system/mechanism-page-section-prose.md` (e.g. methylation capacity emerges from linked one-carbon pathways, not one reaction → then PM integration).
+
+Section **4.** must:
 
 - briefly identify the role of each PM
 - explain how the PMs interact
@@ -212,6 +214,10 @@ references:
 missing_entities:
   - string
 ```
+
+## Section body prose
+
+Sections must not restate the page title, entity ID, BRS name/number, or Definition. Each section follows only its schema role. See `system/mechanism-page-section-prose.md`.
 
 ## Section Order (Page Rendering Contract)
 

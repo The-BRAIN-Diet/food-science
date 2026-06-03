@@ -47,6 +47,9 @@ Cortisol profiles in ADHD are frequently abnormal, including blunted cortisol aw
 
 ADHD often co-occurs with obesity, insulin resistance, and dysglycaemia; shared pathways include dopaminergic reward impairment, HPA-axis disturbance, chronic low-grade inflammation, and oxidative stress. PET studies have shown altered glucose metabolism in prefrontal and striatal regions in ADHD. High sugar intake and glycaemic variability may compound metabolic and neurocognitive dysregulation in vulnerable individuals.
 
+- Targeting dopamine via fatty and sugary foods is common in ADHD populations, likely reflecting the double dopamine reward from eating. Orosensory and post-ingestive dopaminergic circuits can be used sparingly as dietary strategies when nutrition is needed; at other times non-food approaches may be preferable.
+- Ultra-processed foods may hijack the double dopamine reward system and contribute to dysregulation and addictive eating patterns.
+
 Glycaemic stabilization, SCFA production, polyphenol intake, and anxiolytic probiotic interventions may exert downstream effects on emotional regulation through modulation of HPA axis activity, limbic signalling, and neurotransmitter systems.
 
 ## References
@@ -59,6 +62,8 @@ Glycaemic stabilization, SCFA production, polyphenol intake, and anxiolytic prob
 - Genetic variation in HPA-axis regulators, including NR3C1 polymorphisms, further supports a heritable component to stress dysregulation [Fortier et al. 2013](/docs/papers/BRAIN-Diet-References#fortier_genetic_2013)
 - Genetic variation in HPA-axis regulators, including NR3C1 polymorphisms, further supports a heritable component to stress dysregulation [Carpena et al. 2022](/docs/papers/BRAIN-Diet-References#carpena_stress-related_2022)
 - Omega-3s (EPA/DHA) improve vagal tone and HRV control, improving cortisol rhythms and inflammation [Kiecolt-Glaser et al. 2011](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
+- Individuals targeting dopamine via fatty and sugary foods is common in ADHD populations, which is probably correlated with the double dopamine reward experienced when eating [Thanarajah et al. 2019](/docs/papers/BRAIN-Diet-References#thanarajah_food_2019)
+- Ultra-processed foods hijack the double dopamine system and lead to dysregulation and addictive behaviours [LaFata et al. 2024](/docs/papers/BRAIN-Diet-References#lafata_ultra-processed_2024)
 
 </details>
 

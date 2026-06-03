@@ -54,8 +54,8 @@ Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (caroteno
 
 ### Preparation
 
-- Gentle cooking preserves nutrients
-- Important for choline and carotenoid intake
+- Yolk **lutein** and **zeaxanthin** are highly bioavailable xanthophylls. Boiling, frying, and microwaving change isomer profiles and reduce total yolk xanthophyll content by about **6–18%** (all-E-lutein most affected in boiled yolk); cooked yolks show more Z-isomers [1].
+- Gentle cooking preserves choline and limits excessive heat damage; pair with vegetables or oils that support carotenoid absorption in mixed meals.
 
 ### Essential Amino Acid Profile
 
@@ -73,6 +73,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Acetylcholine and choline: Egg yolks, fish roe, soy, wheat germ, liver
-- Carotenoids are abundant in leafy greens, orange and yellow vegetables, corn, and egg yolks
-- Pasture-raised egg yolks for nutrient density
+1. [Nimalaratne et al. 2012 – Domestic cooking methods and egg yolk xanthophylls](/docs/papers/BRAIN-Diet-References#nimalaratne_cooking_2012)
