@@ -12,6 +12,8 @@ cofactors:
   - id: "<INSERT_COFACTOR_ID>"
     name: "<INSERT_COFACTOR_NAME>"
 intervention_dominance: "<diet-dominant|lifestyle-dominant|mixed>" # from intervention dominance
+intervention_breakdown: "<Food-State Dominant|…>" # when using Profile A extended
+timing_specific: "<Yes|No>"
 dose_sensitivity: "<Low|Moderate|High>"
 references:
   - index: 1
@@ -22,7 +24,8 @@ hide_title: true
 ---
 
 <!--
-  Profile A (full narrative): this file. Profile B (compact): see `system/primary-mechanism-schema.md` — omit Functional Role; Mechanistic Basis becomes ## 2; Underlying uses ### 3.1–3.4; Diet/Lifestyle ## 4–5; add ## 6 Functional Outputs; References ## 7. No Missing Entities section on the page.
+  Profile A (extended): see system/primary-mechanism-schema.md — §4 canonical structure on BRS1(PM1).
+  Profile B (compact): Mechanistic Basis becomes ## 2; renumber following sections.
 -->
 
 ## <INSERT_PM_ID> - <INSERT_PM_TITLE>
@@ -31,48 +34,48 @@ hide_title: true
 
 <INSERT_DEFINITION_TEXT>
 
-## 2. Functional Role
+## 2. Intervention Breakdown
+
+<INSERT_INTERVENTION_BREAKDOWN_VALUE> <!-- omit §2 when not in front matter (Profile A′) -->
+
+## 3. Functional Role
 
 <INSERT_DIRECTIONAL_ARROW_SUMMARY>
 
-## 3. Mechanistic Basis
+## 4. Mechanistic Basis
 
 ### Summary
 
-<INSERT_SHORT_MECHANISTIC_SUMMARY_ALWAYS_VISIBLE>
+<INSERT_WHY_THIS_MECHANISM_MATTERS — implication first; not a restated Definition>
 
-<details>
-<summary><strong>Mechanistic basis (expanded)</strong></summary>
+#### (<INSERT_PRIMARY_MECHANISM_THEME>)
 
-<INSERT_FULL_MECHANISTIC_NARRATIVE_USE_H4_SUBHEADS_AS_NEEDED>
+<INSERT_HOW_THE_MECHANISM_WORKS — meal-level or pathway biology this PM owns>
+<!-- Cite evidence-backed claims inline: [Author (Year)](/docs/papers/BRAIN-Diet-References#citation_key) [n] — keep citations when rewriting §4; see system/primary-mechanism-schema.md PM §4 — Citations -->
 
-#### Example thematic block
+#### (Boundaries of the mechanism)
 
-Prose and citations [1] linking to `/docs/papers/BRAIN-Diet-References#citationKey`.
+<INSERT_WHAT_THIS_PM_DOES_NOT_COVER — link owning PMs elsewhere>
 
-</details>
+#### (Integration within <INSERT_BRS_ID>)
 
-## 4. Underlying Mechanisms and Requirements
+<INSERT_KC_AND_FM_PLACEMENT — short paragraph with KC links>
 
-### 4.1 KCs (Key Constraints)
+## 5. Underlying Mechanisms and Requirements
 
-- [<INSERT_KC_ID> — <INSERT_KC_NAME>](/docs/biological-targets/<path-to-kc>)
-
-<!-- PM1-style pages: omit Optional BRSX; use ### 4.2 Cofactors and Supporting Inputs and ### 4.3 Cross-BRS Links (see schema). -->
-
-### 4.2 Optional BRSX Modifiers
-
-- None listed
-
-### 4.3 Cross-BRS Links
-
-- <INSERT_BRS_LINK_ID> — <INSERT_BRS_LINK_NAME>
-
-### 4.4 Cofactors and Supporting Inputs
+### 5.1 Cofactors and Supporting Inputs
 
 - <INSERT_COFACTOR_NAME>
 
-## 5. Dietary Levers
+### 5.2 KCs (Key Constraints)
+
+- [<INSERT_KC_ID> — <INSERT_KC_NAME>](/docs/biological-targets/<path-to-kc>)
+
+### 5.3 Cross-BRS Links
+
+- None listed
+
+## 6. Dietary Levers
 
 <details>
 <summary><strong>Diet</strong></summary>
@@ -82,7 +85,7 @@ Prose and citations [1] linking to `/docs/papers/BRAIN-Diet-References#citationK
 
 </details>
 
-## 6. Lifestyle Levers
+## 7. Lifestyle Levers
 
 <details>
 <summary><strong>Lifestyle</strong></summary>
@@ -106,6 +109,6 @@ Prose and citations [1] linking to `/docs/papers/BRAIN-Diet-References#citationK
 
 </details>
 
-## 8. References
+## 9. References
 
 1. [Placeholder reference 1](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>)

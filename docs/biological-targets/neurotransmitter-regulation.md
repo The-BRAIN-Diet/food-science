@@ -23,14 +23,16 @@ hide_title: true
 
 ## Overview
 
-The Neurotransmitter Regulation system covers synaptic signalling, precursor supply, transport competition, and excitatory–inhibitory balance. It links dietary amino-acid substrate, meal composition, and membrane-lipid context to attention, mood, arousal, and cognitive control.
+The Neurotransmitter Regulation system explores how the brain produces, transports, and uses the chemical messengers involved in attention, mood, motivation, arousal, learning, and cognitive control. It considers how dietary proteins, nutrients, meal composition, and membrane health provide the building blocks and support needed for healthy neurotransmitter activity.
+
+Unlike some structural components of the brain, many of the amino acids, vitamins, minerals, and metabolic cofactors that support neurotransmitter activity cannot be maintained in large functional reserves and depend on continual replenishment. This is one reason the BRAIN Framework focuses on supporting regular nutrient supply and broad biological regulation rather than individual neurotransmitters in isolation.
 
 <details>
 <summary><strong>ADHD Research Context</strong></summary>
 
 ### Introduction
 
-Many brain-related disorders have been associated with altered neurotransmitter signalling, yet no single neurotransmitter fully explains cognitive, emotional, or behavioural function. Neural communication emerges from the interaction of numerous signalling systems and chemical messengers. The BRAIN Diet therefore focuses on supporting broad neurotransmitter biology through dietary precursors, cofactors, membrane-building nutrients, and complementary dietary patterns rather than targeting a single pathway in isolation.
+Many brain-related disorders have been associated with altered neurotransmitter signalling, yet no single neurotransmitter fully explains cognitive, emotional, or behavioural function.
 
 In ADHD, neurobiology spans multiple transmitter systems rather than a single deficit. Dopaminergic dysfunction is consistently linked, but evidence does not support a simple global hypo-dopaminergic model—alterations vary by subtype, developmental stage, and brain region, interacting with other neurotransmitter systems [MacDonald et al. 2024](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024). Low glutamate in critical brain areas correlates with low scores on the Barkley attention scale [Maltezos et al. 2014](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014), and altered norepinephrine signalling has been associated with attention and response inhibition [O'Donnell et al. 2012](/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012).
 

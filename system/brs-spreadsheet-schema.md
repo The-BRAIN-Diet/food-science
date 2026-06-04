@@ -292,25 +292,25 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - Intervention Dominance -> intervention dominance
 - Column P -> single FM ownership
 
-### PM §5 Mechanistic Basis (spreadsheet extension)
+### PM §4 Mechanistic Basis (spreadsheet extension)
 
-After PM MDX shell generation, populate **§5 Mechanistic Basis** via `scripts/generate-pm-mechanistic-basis.mjs` (or flag with `npm run mechanisms:validate`).
+After PM MDX shell generation, populate **§4 Mechanistic Basis** via `scripts/generate-pm-mechanistic-basis.mjs` (or flag with `npm run mechanisms:validate`). Follow the canonical four-part narrative and citation rules in `system/primary-mechanism-schema.md` (**PM §4 — Canonical four-part narrative**, **PM §4 — Citations**); reference page: BRS1(PM1).
 
 Optional row field `mechanistic_detail`:
 
 ```yaml
 mechanistic_detail:
-  summary: string              # optional override of §5 Summary
-  details_title: string        # <details> summary label
-  closing: string              # optional closing paragraph
+  summary: string              # optional override of §4 Summary (why it matters)
+  details_title: string        # optional <details> summary label (omit when using visible #### blocks)
+  closing: string              # optional; avoid review-paper “together…” closers
   blocks:
-    - heading: string          # rendered as #### (heading)
-      paragraphs: [string]     # one or more paragraphs; embed [n] citations
+    - heading: string          # rendered as #### (heading) — primary mechanism, boundaries, or integration
+      paragraphs: [string]     # embed [Author (Year)](/docs/papers/BRAIN-Diet-References#key) [n] on evidence-backed claims
 ```
 
 If `mechanistic_detail.blocks` is absent, conversion must leave a detectable placeholder or the validator will fail with `placeholder_mechanistic_detail`.
 
-Key studies in spreadsheet rows should use bibliography keys resolvable in `static/bibtex/BRAIN-diet.bib`.
+**Citations:** map `key_studies` to inline refs in primary mechanism blocks; preserve citations on rewrite; do not emit dietary-lever prose in §4. Key studies must use bibliography keys resolvable in `static/bibtex/BRAIN-diet.bib`.
 
 ## Enforcement Checklist
 

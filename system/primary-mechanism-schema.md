@@ -108,9 +108,12 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 2. Intervention Breakdown — `## 2. Intervention Breakdown` — must match `intervention_breakdown` in front matter
 3. Functional Role — `## 3. Functional Role` (directional arrow summary)
 4. Mechanistic Basis — `## 4. Mechanistic Basis`
-   - **Opening (required pattern):** `### Summary` leads with the **interesting implication** (regulatory consequence), then explains the bounded process — see `system/mechanism-page-section-prose.md` (e.g. nutrient delivery depends on availability *and* competitive transport → then LAT1).
-   - **UX (recommended):** after Summary, use a `<details>` block whose `<summary>` labels the extended mechanistic narrative. Inside the block, use `####` subheads for thematic blocks and link citations to `/docs/papers/BRAIN-Diet-References#…` plus numeric refs as needed.
-   - Long-form PMs may instead use a single `## 4.` body without Summary/details if the narrative stays short.
+   - **Canonical structure (Profile A):** see **PM §4 — Canonical four-part narrative** below. **Reference page:** [BRS1(PM1)](/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation).
+   - **`### Summary` (required):** why this mechanism matters — the integrative implication in plain language, not a restated Definition or repeated mechanism name.
+   - **Body (required):** three or more `#### (…)` blocks after Summary, in order: **primary mechanism** (one or more thematic blocks) → **boundaries** → **integration** (KCs, parent FM, cross-links). Explain how the mechanism works; do not re-define the entity.
+   - **`<details>` (optional):** use only when the full narrative is long and collapsible UX helps; do not bury the primary implication inside `<details>`. Do not open `<details>` with scope-boundary or review-paper boilerplate.
+   - **Citations (required where evidence-backed):** keep inline citations in §4 when rewriting or shortening prose — see **PM §4 — Citations** below. Do not drop references to make the narrative “cleaner.”
+   - **Excluded from §4:** dietary levers, substance ← food bullets, lifestyle levers, scoreable inputs (those belong in §6–§8).
 5. Underlying Mechanisms and Requirements — `## 5. Underlying Mechanisms and Requirements`
    - **Full subsection set:** `### 5.1` Cofactors and Supporting Inputs, `### 5.2` KCs, `### 5.3` Optional BRSX Modifiers, `### 5.4` Cross-BRS Links
    - **PM1-style (no Optional BRSX subsection):** `### 5.1` Cofactors and Supporting Inputs, `### 5.2` KCs (Key Constraints), `### 5.3` Cross-BRS Links (canonical: BRS6 PM1)
@@ -132,6 +135,40 @@ Same as **Profile A** but omit §2 Intervention Breakdown when the PM does not u
 5. Lifestyle Levers — `## 5.` (`<details>` / **Lifestyle**)
 6. Functional Outputs (Directional Effects) — `## 6.` short arrow-line or paragraph (distinct from §2 Functional Role on Profile A)
 7. References — `## 7. References`
+
+### PM §4 — Canonical four-part narrative
+
+Teachable PM Mechanistic Basis follows this flow (all visible by default on the reference page):
+
+| Step | Heading level | Role |
+|------|---------------|------|
+| 1 | `### Summary` | **Why it matters** — lead with the most important implication (e.g. neurotransmitter biology depends first on an adequate amino-acid pool). |
+| 2 | `#### (…)` primary block(s) | **How it works** — meal-level biology, substrates, cofactor context where mechanistically necessary; citations inline. |
+| 3 | `#### (Boundaries of the mechanism)` (or equivalent) | **What this PM does not cover** — downstream PMs, transport, conversion, other BRS domains; brief, after the mechanism is explained. |
+| 4 | `#### (Integration within BRS…)` (or equivalent) | **Where it sits** — KCs, FM, cross-BRS links; one short placement paragraph. |
+
+**Anti-patterns:** opening with the mechanism name or entity ID; leading with scope boundaries; review-paper tone; closing “together, these relationships…” synthesis paragraphs; `Dietary levers include…` or food-example lists in §4; stripping citations during editorial passes.
+
+Authoring detail: `system/mechanism-page-section-prose.md` (**PM Mechanistic Basis — canonical structure**).
+
+### PM §4 — Citations
+
+Mechanistic Basis must remain **evidence-anchored**, not assertion-only. The four-part structure is a teaching layout, not permission to remove sources.
+
+| Where | Citation expectation |
+|-------|-------------------|
+| **`### Summary`** | Usually implication-only; add a citation only when a single study directly supports the central claim. |
+| **Primary mechanism `####` blocks** | **Required** for evidence-backed statements (pathway biology, meal effects, substrate relationships). Inline link + numeric ref: `[Author (Year)](/docs/papers/BRAIN-Diet-References#citation_key) [n]`. |
+| **Boundaries** | Cite when the boundary claim depends on literature (e.g. LNAA competition → Fernstrom on [BRS1(PM2)](/docs/biological-targets/brs1/pm/brs1-pm2-lat1-competitive-transport-modulation)); PM cross-links alone need no duplicate citation if §9 already lists the source. |
+| **Integration** | Typically placement prose + entity links; citations optional unless integration asserts an evidence-backed dependency. |
+
+**Format**
+
+- Use numeric in-text refs `[1]`, `[2]` that match the numbered list in **§9 References** (Profile A) or **§7 References** (Profile B).
+- Prefer linked author–year labels in prose, not bare “see References.”
+- Pull keys from `key_studies` / spreadsheet `references` front matter when ingesting; verify each `citation_key` exists in `static/bibtex/BRAIN-diet.bib`.
+
+**When rewriting §4:** preserve existing citations unless the claim is removed; add citations for new evidence-backed claims. **Reference:** [BRS1(PM1)](/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation) (Mariotti in primary mechanism; Fernstrom in boundaries).
 
 ### Excluded from the public PM body
 
@@ -166,6 +203,8 @@ Implementation: `scripts/validate-mechanism-pages.mjs` and `scripts/lib/mechanis
 - No scoring formulas or numeric scoring logic allowed.
 - No Secondary Mechanisms (SMs) introduced during initial rollout.
 - References must resolve to existing citation keys in `static/bibtex/BRAIN-diet.bib`.
+- Every numeric citation `[n]` used in **Mechanistic Basis** must appear in the page’s **References** section with a resolvable `citation_key` (orphan in-text refs fail authoring review).
+- PM pages with `key_studies` or non-empty `references` front matter should cite at least one source in §4 primary mechanism blocks when those studies support the mechanism narrative (waived only when `mechanistic_authoring_required: true`).
 
 ## Field Integrity Mapping
 

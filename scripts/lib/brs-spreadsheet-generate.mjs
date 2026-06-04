@@ -340,8 +340,6 @@ ${pm.description}
 
 ${pm.description}${pm.evidence_notes ? ` ${pm.evidence_notes}` : ""}
 
-${interventions.length ? `Dietary levers include ${interventions.map((i) => i.lever).join("; ")}.` : ""}
-
 </details>
 
 ## 5. Underlying Mechanisms and Requirements

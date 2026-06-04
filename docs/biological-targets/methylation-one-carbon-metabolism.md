@@ -23,7 +23,9 @@ hide_title: true
 
 ## Overview
 
-The Methylation & One-Carbon Metabolism system regulates methyl donor availability, homocysteine recycling, transsulfuration, and SAMe-dependent phospholipid methylation. It links dietary folate, B12, choline, betaine, and sulfur amino-acid patterns to brain-relevant methylation capacity and redox coupling.
+The Methylation & One-Carbon Metabolism system explores pathways through which nutrients regulate gene expression, synthesise neurotransmitters, and maintain healthy cell membranes. It links dietary folate, vitamin B12, choline, betaine, and sulfur amino acids to a network of reactions that support brain function, development, and cellular regulation.
+
+Many methylation reactions depend on nutrients that cannot be synthesised in sufficient quantities by the body and therefore rely on continual dietary supply.
 
 <details>
 <summary><strong>ADHD: Methylation & One-Carbon Metabolism Biological Implications</strong></summary>
@@ -52,22 +54,24 @@ Phospholipid methylation (PLM), dependent on SAMe, directly affects membrane flu
 
 Choline plays a crucial role in acetylcholine synthesis and neuronal membrane integrity. Choline has had positive effects on ADHD in studies, and recent work targets imbalances in cholinergic systems as a focus in ADHD aetiology.
 
-## References
+### ADHD evidence and connected BRS2 mechanisms
 
-- Riboflavin (B2) links to MTHFR, homocysteine recycling, and metabolism of B12, B6, and niacin [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
-- Folic acid supplementation reduces plasma homocysteine; adding B12 gives additional reduction over folate alone [Collaboration (1998)](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
-- Vitamin B-12, fish oil, and combined B-12 + fish oil lowered plasma homocysteine by 22%, 19%, and 39%, respectively [Tao Huang et al. (2015)](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
-- B vitamin supplementation slowed cognitive decline only in participants with adequate omega-3 status [Oulhaj et al. (2016)](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
-- Deficiencies in folate, B12, and zinc correlate with ADHD symptoms; micronutrient supplementation may support methylation and symptom severity [Razavinia et al. (2024)](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024)
-- Dietary patterns rich in fibre, folate, and omega-3 fatty acids were associated with reduced ADHD symptoms [Millichap and Yee (2012)](/docs/papers/BRAIN-Diet-References#millichap_diet_2012)
-- Elevated plasma homocysteine is frequently reported in ADHD and related conditions [Yu et al. (2020)](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020)
-- Homocysteine elevation in neurodevelopmental and psychiatric contexts [Luzzi et al. (2022)](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022)
-- Homocysteine, oxidative stress, and lipid peroxidation pathways [Lukovac et al. (2024)](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
-- Phospholipid methylation and dopamine D4 receptor activity in ADHD [Martel et al. (2011)](/docs/papers/BRAIN-Diet-References#martel_dopamine_2011)
-- Membrane composition, PLM, and reduced gamma-band activity in ADHD [Cocchi et al. (2017)](/docs/papers/BRAIN-Diet-References#cocchi_linoleic_2017)
-- Gamma-frequency oscillations and attention-related membrane mechanisms [Wilson et al. (2012)](/docs/papers/BRAIN-Diet-References#wilson_gamma-frequency_2012)
-- Choline and positive effects on ADHD in studies [Derbyshire and Maes (2023)](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
-- Cholinergic system imbalances as a focus in ADHD aetiology [Johansson et al. (2013)](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013)
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| Riboflavin (B2) links to MTHFR, homocysteine recycling, and metabolism of B12, B6, and niacin | [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(SM-SNP1)](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency) |
+| Folic acid supplementation reduces plasma homocysteine; adding B12 gives additional reduction over folate alone | [Collaboration (1998)](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation) |
+| Vitamin B-12, fish oil, and combined B-12 + fish oil lowered plasma homocysteine by 22%, 19%, and 39%, respectively | [Tao Huang et al. (2015)](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation) |
+| B vitamin supplementation slowed cognitive decline only in participants with adequate omega-3 status | [Oulhaj et al. (2016)](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis), [BRS2(PM7)](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation) |
+| Deficiencies in folate, B12, and zinc correlate with ADHD symptoms; micronutrient supplementation may support methylation and symptom severity | [Razavinia et al. (2024)](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(SM-SNP1)](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency) |
+| Dietary patterns rich in fibre, folate, and omega-3 fatty acids were associated with reduced ADHD symptoms | [Millichap and Yee (2012)](/docs/papers/BRAIN-Diet-References#millichap_diet_2012) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM2)](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation) |
+| Elevated plasma homocysteine is frequently reported in ADHD and related conditions | [Yu et al. (2020)](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM4)](/docs/biological-targets/brs2/pm/brs2-pm4-methionine-cycle-flux) |
+| Homocysteine elevation in neurodevelopmental and psychiatric contexts | [Luzzi et al. (2022)](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM2)](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation) |
+| Homocysteine, oxidative stress, and lipid peroxidation pathways | [Lukovac et al. (2024)](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024) | [BRS2(PM5)](/docs/biological-targets/brs2/pm/brs2-pm5-transsulfuration-pathway), [BRS2(PM6)](/docs/biological-targets/brs2/pm/brs2-pm6-glutathione-synthesis) |
+| Phospholipid methylation and dopamine D4 receptor activity in ADHD | [Martel et al. (2011)](/docs/papers/BRAIN-Diet-References#martel_dopamine_2011) | [BRS2(PM7)](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation), [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis) |
+| Membrane composition, PLM, and reduced gamma-band activity in ADHD | [Cocchi et al. (2017)](/docs/papers/BRAIN-Diet-References#cocchi_linoleic_2017) | [BRS2(PM7)](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation) |
+| Gamma-frequency oscillations and attention-related membrane mechanisms | [Wilson et al. (2012)](/docs/papers/BRAIN-Diet-References#wilson_gamma-frequency_2012) | [BRS2(PM7)](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation) |
+| Choline and positive effects on ADHD in studies | [Derbyshire and Maes (2023)](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) | [BRS2(PM2)](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation), [BRS2(PM7)](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation) |
+| Cholinergic system imbalances as a focus in ADHD aetiology | [Johansson et al. (2013)](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS1(PM3)](/docs/biological-targets/brs1/pm/brs1-pm3-acetylcholine-synthesis-support), [BRS2(PM2)](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation) |
 
 </details>
 

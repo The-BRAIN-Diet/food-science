@@ -13,11 +13,13 @@ sidebar_position: 5
 
 <div class="brs-overview-intro">
 
-The BRAIN Framework was developed from research into ADHD, depression, anxiety, cognitive decline, and other brain-related disorders. Although these conditions differ clinically, they often involve overlapping biological themes, including neural signalling, inflammation, mitochondrial function, gut–brain communication, metabolic regulation, and cellular maintenance.
+The BRAIN Framework was developed from research into ADHD, depression, anxiety, cognitive decline, and other brain-related disorders. Across these conditions, studies have repeatedly identified associations within six broad biological domains: neurotransmitter regulation, methylation, inflammation and oxidative stress, bioenergetics, gut–brain signalling, and metabolic regulation.
 
-These recurring themes are organised into six Biological Regulatory Systems (BRS), forming the foundation of the BRAIN Diet. Rather than targeting a single condition, the framework is designed to support brain health more broadly by helping maintain the biological balance and resilience that underpin cognitive, emotional, and behavioural function throughout life.
+These recurring themes are organised into six Biological Regulatory Systems (BRS), which form the foundation of the BRAIN Diet. The framework proposes that these systems do not operate in isolation but interact as part of a wider regulatory architecture. Their combined state may therefore be more informative than viewing individual nutrients, pathways, or mechanisms alone.
 
-Diet is read as support for the substrate and conditions those systems work within—not as a direct switch for biology. Effects emerge from how multiple BRS interact, not from isolated nutrients or single pathways alone.
+Diet and lifestyle are interpreted as inputs that influence the biological conditions within which these systems operate. By supporting the nutritional and environmental requirements of multiple BRS simultaneously, the framework aims to promote greater biological balance, resilience, and brain health across the lifespan.
+
+Future versions of the BRAIN Diet Framework will include detailed mechanisms for cross-system modulators such as sleep, circadian alignment, physical activity, and stress regulation. For now, these are highlighted under section 7 **Lifestyle Levers** on each primary mechanism page.
 
 <p class="brs-overview-image-wrap">
   <img
