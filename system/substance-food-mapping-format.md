@@ -1,13 +1,14 @@
-# Substance → Food Mapping Format (KC, FM, PM, SM)
+# Substance → Food Mapping Format (KC, PM, SM)
 
 Canonical public format for substrate/substance linkage to foods on:
 
 | Page kind | Section |
 |---|---|
 | KC | `### 3. Supporting Inputs/Substrates` |
-| FM | `## N. Dietary Levers` — inside `<details><summary><strong>Diet</strong></summary>` |
 | PM | `## N. Dietary Levers` — inside `<details><summary><strong>Diet</strong></summary>` |
 | SM | `## N. Dietary Levers` — inside `<details><summary><strong>Diet</strong></summary>` |
+
+FM pages do **not** carry Dietary Levers — interventions belong on constituent PM pages.
 
 ## Direction (required)
 
