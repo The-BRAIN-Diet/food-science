@@ -299,8 +299,15 @@ ${linkedFms.length ? "1. See linked FM pages for cited evidence." : ""}
   for (const pm of byKind.PM) {
     const slug = slugById.get(pm.id);
     const parentFm = pmFmMap.get(pm.id) || `BRS${brsNum}(FM1)`;
+    const parentFmEntity = byKind.FM.find((f) => f.id === parentFm);
+    const fmName = parentFmEntity?.name || parentFm;
     const kcs = parseEntityRefs(pm.connected).filter((r) => r.id.includes("(KC"));
-    const cross = parseEntityRefs(pm.connected).filter((r) => /BRS\d+\(FM/.test(r.id));
+    const cross = parseEntityRefs(pm.connected).filter((r) => {
+      if (!/BRS\d+\(PM/.test(r.id) && !/BRS\d+\(FM/.test(r.id)) return false;
+      const m = r.id.match(/BRS(\d+)/);
+      return m && m[1] !== String(brsNum);
+    });
+    const siblingPms = (fmPmMap.get(parentFm) || []).filter((p) => p.id !== pm.id);
     const cofactors = parseListItems(pm.cofactors);
     const interventions = parseInterventions(pm.interventions);
     const dominance = pm.intervention_dominance || "Diet-Dominant";
@@ -342,30 +349,35 @@ ${pm.description}${pm.evidence_notes ? ` ${pm.evidence_notes}` : ""}
 
 </details>
 
-## 5. Underlying Mechanisms and Requirements
+## 5. Connected BRS${brsNum} Mechanisms
 
-### 5.1 Cofactors and Supporting Inputs
+### 5.1 Overarching Functional Mechanism
 
-${cofactors.map((c) => `- ${c}`).join("\n") || "- None listed"}
+- [${parentFm} - ${fmName}](/docs/biological-targets/brs${brsNum}/fm/${slugById.get(parentFm)})
 
-### 5.2 KCs (Key Constraints)
+### 5.2 Connected Primary Mechanisms
 
-${kcs.map((k) => `- [${k.id} - ${k.name || k.id}](/docs/biological-targets/brs${brsNum}/kc/${slugById.get(k.id)})`).join("\n") || "- None listed"}
+${siblingPms.map((p) => `- [${p.id} - ${p.name}](/docs/biological-targets/brs${brsNum}/pm/${slugById.get(p.id)})`).join("\n") || "- None listed"}
 
-### 5.3 Cross-BRS Links
+## 6. Cross BRS Links
 
 ${cross.map((c) => `- ${c.id}${c.name ? ` — ${c.name}` : ""}`).join("\n") || "- None listed"}
 
-## 6. Dietary Levers
+## 7. Dietary Levers
 
-<details>
-<summary><strong>Diet</strong></summary>
+### 7.1 Direct Dietary Levers
 
 ${interventionsToSubstanceBullets(interventions)}
 
-</details>
+### 7.2 Cofactors and Supporting Inputs
 
-## 7. Lifestyle Levers
+${cofactors.map((c) => `- ${c}`).join("\n") || "- None listed"}
+
+### 7.3 KCs (Key Constraints)
+
+${kcs.map((k) => `- [${k.id} - ${k.name || k.id}](/docs/biological-targets/brs${brsNum}/kc/${slugById.get(k.id)})`).join("\n") || "- None listed"}
+
+## 8. Lifestyle Levers
 
 <details>
 <summary><strong>Lifestyle</strong></summary>
@@ -375,7 +387,7 @@ ${interventionsToSubstanceBullets(interventions)}
 
 </details>
 
-## 8. Scoreable Inputs & Modulation Signals
+## 9. Scoreable Inputs & Modulation Signals
 
 <details>
 <summary><strong>Scoreable Input Categories</strong></summary>
@@ -388,7 +400,7 @@ ${interventionsToSubstanceBullets(interventions)}
 
 </details>
 
-## 9. References
+## 10. References
 
 ${refBlock}
 `;
@@ -446,11 +458,15 @@ ${fm.outputs || "↑ integrated pathway support"}
 
 ${mechanisticBasisFm(fm, pms)}
 
-## 5. Cross-BRS Links
+## 5. Primary Mechanisms (PMs)
+
+${pms.map((p) => `- [${p.id} — ${p.name}](/docs/biological-targets/brs${brsNum}/pm/${slugById.get(p.id)})`).join("\n")}
+
+## 6. Cross BRS Links
 
 ${cross.map((c) => `- ${c.id}${c.name ? ` — ${c.name}` : ""}`).join("\n") || "- None listed"}
 
-## 6. References
+## 7. References
 
 ${refSection || "1. See PM pages for linked citations."}
 `;
