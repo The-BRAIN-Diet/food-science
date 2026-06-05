@@ -2,12 +2,13 @@
 id: crab
 title: Crab
 sidebar_label: Crab
-description: Seafood providing zinc and complete protein
+description: Lean shellfish providing complete protein, zinc, selenium, and vitamin B12
 tags:
   - Food
   - Crab
   - Zinc
   - Selenium
+  - Vitamin B12
 list_image: /img/foods/crab/crab_thumb.webp
 nutrition_per_100g:
   kcal: 69.223
@@ -35,22 +36,36 @@ legacy_main_image: /img/foods/crab/crab_medium.webp
 ---
 ## Overview
 
-Crab provides high-quality protein and zinc, supporting neurotransmitter modulation and antioxidant enzyme function. Zinc food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, and cashews.
+Crab is a lean shellfish that provides **complete protein**, **zinc**, **selenium**, and **vitamin B12** with relatively low fat and energy per 100 g. Zinc supports enzymatic and neuromodulatory roles relevant to neurotransmitter biology [1,2]; selenium contributes to selenoprotein-based antioxidant defence [3]; and B12 supports one-carbon metabolism and neurological maintenance [4]. Within the BRAIN Diet framework, crab fits as a **lean seafood rotation** that adds shellfish micronutrients alongside fish and plant proteins rather than replacing them [1].
+
+The nutrition table below reflects **snow crab legs (frozen)** from USDA FoodData Central; species, edible portion, and preparation change mineral levels materially, so treat values as indicative for the listed FDC entry.
+
+## Key Nutritional Highlights
+
+- Provides complete, highly digestible protein at moderate energy density (~69 kcal per 100 g for this USDA entry).
+- Supplies meaningful **zinc**, **selenium**, and **vitamin B12** for a lean shellfish (see nutrition table).
+- Lower in fat and saturated fat than many fatty red-meat patterns when minimally processed.
+- Mineral concentrations vary by species, habitat, and processing (fresh vs frozen vs prepared).
+- As shellfish, crab requires reliable sourcing and thorough cooking for microbiological safety.
 
 ## Food Context
 
 ### Synergies
 
-- Part of diverse protein strategy
+- Part of a varied seafood and protein rotation (fish, shellfish, legumes, eggs, dairy as appropriate).
+- Pair with vegetable-rich sides and whole grains so lean shellfish protein integrates into balanced meals.
 
 ### Sourcing
 
-- Sustainable seafood option
+- Choose crab from monitored fisheries or reputable suppliers with clear species labelling and cold-chain handling.
+- Prefer products with minimal added sodium and breading when the goal is a lean micronutrient-dense shellfish portion.
+
+The U.S. FDA and EPA publish [joint advice on fish and shellfish mercury](https://www.fda.gov/food/consumers/advice-about-eating-fish). Many crab species used in retail products fall among lower-mercury seafood choices relative to large predatory fish, but species and origin still matter—use official guidance when planning frequency for sensitive groups.
 
 ### Preparation
 
-- Best prepared with gentle cooking
-- Supports zinc sufficiency
+- Steam, bake, or lightly sauté to preserve texture; avoid overcooking, which toughens the protein matrix.
+- Reheat frozen crab gently; added butter, cream, or salty sauces shift the meal pattern away from the lean profile described here.
 
 ### Essential Amino Acid Profile
 
@@ -68,4 +83,9 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Zinc: Oysters, beef, crab, chicken, pork, Pumpkin seeds, lentils, chickpeas, cashews
+These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+
+1. [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+2. [Peralta & Huidobro-Toro 2016 – Zinc as allosteric ion channel modulator](/docs/papers/BRAIN-Diet-References#peralta_zinc_2016)
+3. [Mocchegiani & Malavolta 2019 – Role of zinc and selenium in oxidative stress](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
+4. [Kennedy 2016 – B vitamins and the brain](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)

@@ -3,7 +3,7 @@ title: Acetylcholine Synthesis Support
 pm_id: BRS1(PM3)
 parent_fm: BRS1(FM3)
 parent_brs: BRS1
-summary: 'Use of dietary choline to support acetylcholine production for attention, memory, and cognitive control.'
+summary: Conversion of dietary choline into acetylcholine, providing substrate support for cholinergic signalling involved in attention, memory, learning, and cognitive control.
 key_constraints:
   - BRS1(KC1) - Amino Acid Substrate Sufficiency
 cofactors:
@@ -16,7 +16,7 @@ timing_specific: 'Yes'
 dose_sensitivity: ~200–400 mg choline per meal when targeted
 references:
   - '[1] [Derbyshire et al. (2023)](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)'
-  - '[2] [MISSING bibliography entry: Potter et al. (2014)]'
+  - '[2] [Briguglio et al. (2018)](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)'
 hide_title: true
 ---
 
@@ -32,7 +32,9 @@ hide_title: true
 
 ## 1. Definition
 
-Use of dietary choline to support acetylcholine production for attention, memory, and cognitive control.
+Conversion of dietary choline into acetylcholine, providing substrate support for cholinergic signalling involved in attention, memory, learning, and cognitive control.
+
+This PM governs cholinergic **substrate conversion**—not competitive amino-acid transport ([BRS1(PM2)](/docs/biological-targets/brs1/pm/brs1-pm2-lat1-competitive-transport-modulation)) or broad protein-pool sufficiency ([BRS1(PM1)](/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation)). Scope is dietary choline supply and cofactor-supported synthesis, not direct cholinergic receptor pharmacology.
 
 ## 2. Intervention Breakdown
 
@@ -46,28 +48,45 @@ Food-State Dominant
 
 ### Summary
 
-BRS1(PM3) supports acetylcholine synthesis capacity through dietary choline supply and methyl-donor cofactor context at meals. Choline availability from food provides the primary substrate for phosphatidylcholine and acetylcholine pathways relevant to attention, working memory, and cognitive precision under [BRS1(FM3)](/docs/biological-targets/brs1/fm/brs1-fm3-cholinergic-function).
+Cholinergic signalling for attention, memory, and cognitive control depends on adequate acetylcholine synthesis capacity. Dietary choline provides the primary substrate for that pathway within [BRS1(FM3) - Cholinergic Function](/docs/biological-targets/brs1/fm/brs1-fm3-cholinergic-function), with one-carbon cofactor context supporting efficient utilisation.
 
 <details>
-<summary><strong>Choline supply, acetylcholine synthesis, and cognitive support</strong></summary>
+<summary><strong>Choline supply and acetylcholine synthesis — mechanistic detail</strong></summary>
 
-#### (Dietary choline as acetylcholine substrate)
+#### (Choline as acetylcholine substrate)
 
-Acetylcholine synthesis depends on choline supplied through diet, largely via phosphatidylcholine in foods such as eggs, liver, beef, and soy. Inadequate choline intake can limit substrate availability for cholinergic signalling even when overall protein intake appears adequate → [Derbyshire et al. (2023)](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) [1]
+Acetylcholine synthesis depends on dietary choline supplied largely through phosphatidylcholine and free choline in the food matrix. Inadequate choline intake can limit substrate availability for cholinergic signalling even when overall protein intake appears adequate → [Derbyshire et al. (2023)](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) [1]
+
+#### (Acetylcholine synthesis and cholinergic signalling)
+
+Within cholinergic neurons, choline combines with acetyl-CoA through the enzyme choline acetyltransferase to form acetylcholine. Because acetylcholine synthesis depends directly on substrate availability, dietary choline provides the primary nutritional input into this pathway and helps maintain cholinergic signalling capacity relevant to attention, learning, memory, and cognitive control.
 
 #### (Cofactor and one-carbon context)
 
-Efficient choline utilisation interacts with B5, B12, and folate-dependent one-carbon metabolism listed under section 5.1. These cofactors support methylation reactions relevant to phospholipid and neurotransmitter chemistry rather than replacing dietary choline itself.
+Efficient choline utilisation interacts with B5, B12, and folate-dependent one-carbon metabolism. These cofactors support methylation reactions relevant to phospholipid and neurotransmitter chemistry rather than replacing dietary choline itself.
 
-#### (Meal-level and timing context)
+#### (Boundaries of the mechanism)
 
-Choline contribution is meal-specific: targeted choline-rich foods at main meals can materially shift daily choline exposure. Timing aligns with attention-demanding parts of the day when cholinergic support is most relevant.
+Amino-acid pool sufficiency and completeness are handled upstream by [BRS1(PM1) - Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation). Blood–brain barrier transport bias for aromatic and other amino acids belongs to [BRS1(PM2) - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/pm/brs1-pm2-lat1-competitive-transport-modulation). Direct cholinergic receptor pharmacology and synaptic signalling dynamics are represented elsewhere within BRS1.
 
-#### (Key constraint and FM linkage)
+#### (Integration within BRS1)
 
-BRS1(PM3) sits on [BRS1(KC1) — Amino Acid Substrate Sufficiency](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-substrate-sufficiency) for broader amino-acid and protein-matrix context, while choline remains the defining substrate for this PM.
+This PM operationalises cholinergic substrate support within [BRS1(FM3)](/docs/biological-targets/brs1/fm/brs1-fm3-cholinergic-function), operating alongside [BRS1(KC1) - Amino Acid Substrate Sufficiency](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-substrate-sufficiency), which supports broader nutrient and substrate sufficiency. One-carbon cofactor sufficiency is supported through [BRS2](/docs/biological-targets/methylation-one-carbon-metabolism) mechanisms listed in section 5.1.
 
-Together, BRS1(PM3) operationalises dietary choline and cofactor sufficiency as meal-level support for cholinergic function.
+</details>
+
+### 4.1 Evidence Highlights
+
+#### Introduction/Summary
+
+The choline–acetylcholine substrate pathway is well established. The studies below do not restate synthesis biology; they highlight intake and dietary-context findings that refine how cholinergic substrate support is interpreted in practice.
+
+<details>
+<summary><strong>Evidence highlights — dietary choline and cholinergic context</strong></summary>
+
+- Low choline intakes and altered choline status are reported in neurodevelopmental subgroups relevant to attention and learning contexts → [Derbyshire et al. (2023)](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) [1]
+- Dietary neurotransmitter reviews identify choline and acetylcholine among food-matrix compounds with nervous-system relevance, though bioavailability and clinical endpoints still require context-specific interpretation → [Briguglio et al. (2018)](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018) [2]
+- Findings support dietary choline adequacy and meal-level exposure as modifiable substrate context rather than isolated precursor boluses → [Derbyshire et al. (2023)](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) [1]
 
 </details>
 
@@ -86,8 +105,7 @@ Together, BRS1(PM3) operationalises dietary choline and cofactor sufficiency as 
 
 ### 5.3 Cross-BRS Links
 
-
-- None listed
+- [BRS2 - Methylation & One-Carbon Metabolism](/docs/biological-targets/methylation-one-carbon-metabolism) — B5, B12, and folate cofactor context for phospholipid and methylation chemistry
 ## 6. Dietary Levers
 
 <details>
@@ -117,13 +135,13 @@ This PM is scoreable through food-state and nutrient signals relevant to acetylc
 
 | Input Category | Example Inputs | PM3 Relevance |
 |---|---|---|
-| Functional Property Potentials | complete_protein_context; lnna_transport_context; choline_rich_food_matrix | May influence meal-level mechanism support. |
-| Realised Functional States | balanced_protein_meal; slow_carbohydrate_pairing | Represent recipe-level realised states. |
-| Preparation Transformations | complementary_protein_pairing; minimally_processed_sources | Modify bioavailability and meal-matrix effects. |
+| Functional Property Potentials | choline_rich_food_matrix; phosphatidylcholine_density; one_carbon_cofactor_context | May support acetylcholine substrate availability. |
+| Realised Functional States | choline_forward_meal; egg_or_liver_inclusive_meal | Represent recipe-level cholinergic substrate states. |
+| Preparation Transformations | minimally_processed_sources; gentle_cooking_of_choline_foods | May preserve choline and phospholipid matrix effects. |
 
 </details>
 
 ## 9. References
 
 1. [Derbyshire et al. (2023)](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
-2. [MISSING bibliography entry: Potter et al. (2014)]
+2. [Briguglio et al. (2018)](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)

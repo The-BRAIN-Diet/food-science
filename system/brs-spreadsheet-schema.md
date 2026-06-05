@@ -312,6 +312,8 @@ If `mechanistic_detail.blocks` is absent, conversion must leave a detectable pla
 
 **Citations:** map `key_studies` to inline refs in primary mechanism blocks; preserve citations on rewrite; do not emit dietary-lever prose in §4. Key studies must use bibliography keys resolvable in `static/bibtex/BRAIN-diet.bib`.
 
+Optional `evidence_highlights` (array of insight strings with embedded citation links) maps to `### 4.1 Evidence Highlights` as a **subsection at the end of §4** — see `system/primary-mechanism-schema.md` (**PM §4.1 — Evidence Highlights**). Insight-driven only; not mechanism definition or study summaries.
+
 ## Enforcement Checklist
 
 - No inferred data.

@@ -194,7 +194,7 @@ function extractInterventionBreakdownBody(content) {
   if (!m || m.index === undefined) return null;
   const start = m.index;
   const after = content.slice(start);
-  const next = after.slice(1).search(/^##\s+\d+\.\s+/m);
+  const next = after.slice(1).search(NEXT_INTEGER_SECTION_HEADING);
   const end = next === -1 ? content.length : start + 1 + next;
   return content.slice(start, end);
 }
@@ -249,29 +249,83 @@ function validateInterventionBreakdown(data, content, issues, { entityLabel, req
   }
 }
 
-/** @returns {Array<{ level: number, title: string, line: string }>} */
+/** Integer `## N.` headings only (excludes decimal subsections such as `### 4.1`). */
+export const NEXT_INTEGER_SECTION_HEADING = /^##\s+\d+\.\s+(?!\d)/m;
+
+const LEGACY_EVIDENCE_HIGHLIGHTS_HEADING = /^##\s+(\d+)\.1\s+Evidence Highlights\s*$/;
+const EVIDENCE_HIGHLIGHTS_HEADING = /^###\s+(\d+)\.1\s+Evidence Highlights\s*$/;
+
+/** @returns {Array<{ type: "major", level: number, title: string, line: string }>} */
 export function parseNumberedSections(content) {
   const sections = [];
   for (const line of content.split("\n")) {
     const m = line.match(/^##\s+(\d+)\.\s+(.+?)\s*$/);
-    if (m) sections.push({ level: parseInt(m[1], 10), title: m[2].trim(), line });
+    if (m) {
+      sections.push({
+        type: "major",
+        level: parseInt(m[1], 10),
+        title: m[2].trim(),
+        line,
+      });
+    }
   }
   return sections;
 }
 
 function validateContiguousNumbering(sections, issues, { entityLabel }) {
-  if (sections.length === 0) return;
-  const nums = sections.map((s) => s.level);
-  for (let i = 0; i < nums.length; i++) {
+  const major = sections.filter((s) => s.type === "major");
+  if (major.length === 0) return;
+  for (let i = 0; i < major.length; i++) {
     const expected = i + 1;
-    if (nums[i] !== expected) {
+    if (major[i].level !== expected) {
       pushIssue(
         issues,
         "section_number_gap",
-        `${entityLabel}: expected "## ${expected}. …" but found "${sections[i].line}" (sections must be contiguous)`,
+        `${entityLabel}: expected "## ${expected}. …" but found "${major[i].line}" (integer sections must be contiguous)`,
       );
       return;
     }
+  }
+}
+
+function validateEvidenceHighlightsPlacement(content, sections, issues, { entityLabel }) {
+  for (const line of content.split("\n")) {
+    const legacy = line.match(LEGACY_EVIDENCE_HIGHLIGHTS_HEADING);
+    if (legacy) {
+      pushIssue(
+        issues,
+        "evidence_highlights_level",
+        `${entityLabel}: use ### ${legacy[1]}.1 Evidence Highlights under ## ${legacy[1]}. Mechanistic Basis, not ##`,
+      );
+      return;
+    }
+  }
+
+  const mechanistic = sections
+    .filter((s) => s.type === "major")
+    .find((s) => s.title.startsWith("Mechanistic Basis"));
+  if (!mechanistic) return;
+
+  const mbStart = content.indexOf(mechanistic.line);
+  const nextMajor = sections
+    .filter((s) => s.type === "major")
+    .find((s) => s.level === mechanistic.level + 1);
+  const mbEnd =
+    nextMajor === undefined
+      ? content.length
+      : content.indexOf(nextMajor.line, mbStart + 1);
+  const mbBlock = content.slice(mbStart, mbEnd);
+
+  const evMatch = mbBlock.match(EVIDENCE_HIGHLIGHTS_HEADING);
+  if (!evMatch) return;
+
+  const evLevel = parseInt(evMatch[1], 10);
+  if (evLevel !== mechanistic.level) {
+    pushIssue(
+      issues,
+      "evidence_highlights_number",
+      `${entityLabel}: Evidence Highlights section number must match Mechanistic Basis (e.g. ### 4.1 under ## 4. Mechanistic Basis)`,
+    );
   }
 }
 
@@ -352,8 +406,9 @@ function validateFmPage(filePath, { rootDir }) {
 
   const sections = parseNumberedSections(content);
   validateContiguousNumbering(sections, issues, { entityLabel });
+  validateEvidenceHighlightsPlacement(content, sections, issues, { entityLabel });
 
-  const numbered = sections.filter((s) => s.level <= 8);
+  const numbered = sections.filter((s) => s.type === "major" && s.level <= 8);
   if (numbered.length >= 3) {
     const t0 = normalizeSectionTitle(numbered[0]?.title || "");
     const t1 = normalizeSectionTitle(numbered[1]?.title || "");
@@ -405,6 +460,7 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
   if (!extended) {
     const sections = parseNumberedSections(content);
     validateContiguousNumbering(sections, issues, { entityLabel });
+    validateEvidenceHighlightsPlacement(content, sections, issues, { entityLabel });
     validateScoreableSection(content, issues, { entityLabel, pageKind: "pm" });
     return;
   }
@@ -415,10 +471,12 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
   });
   const sections = parseNumberedSections(content);
   validateContiguousNumbering(sections, issues, { entityLabel });
+  validateEvidenceHighlightsPlacement(content, sections, issues, { entityLabel });
   validateScoreableSection(content, issues, { entityLabel, pageKind: "pm" });
 
   const core = sections.filter(
     (s) =>
+      s.type === "major" &&
       !/References/i.test(s.title) &&
       !/Scoreable Inputs & Modulation Signals/i.test(s.title) &&
       !/Scoreable Food-State Inputs/i.test(s.title),
@@ -489,7 +547,7 @@ function getUnderlyingBlock(content) {
   if (!underlying) return null;
   const blockStart = content.indexOf(underlying.line);
   const after = content.slice(blockStart);
-  const next = after.slice(1).search(/^##\s+\d+\.\s+/m);
+  const next = after.slice(1).search(NEXT_INTEGER_SECTION_HEADING);
   return next === -1 ? after : after.slice(0, 1 + next);
 }
 

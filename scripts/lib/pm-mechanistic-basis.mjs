@@ -25,7 +25,8 @@ export const MECHANISTIC_PLACEHOLDER_PATTERNS = [
 ];
 
 const MECHANISTIC_BASIS_HEADING = /^##\s+(\d+)\.\s+Mechanistic Basis\s*$/m;
-const NEXT_MAJOR_SECTION = /^##\s+\d+\.\s+/m;
+/** Integer `## N.` sections only — includes nested `### N.1 Evidence Highlights` within Mechanistic Basis. */
+const NEXT_MAJOR_SECTION = /^##\s+\d+\.\s+(?!\d)/m;
 
 function listOverlayMdxFiles(rootDir, subdir) {
   const base = path.join(rootDir, "docs/biological-targets");

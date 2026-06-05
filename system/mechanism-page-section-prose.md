@@ -71,7 +71,32 @@ Each section must follow **only** the schema role for that section (Definition, 
 
 Example placement: [BRS1(PM1)](/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation) — Mariotti [2] in protein quality; Fernstrom [1] at the PM2 boundary.
 
-`<details>` is optional for very long PM narratives; **Summary and the four-part flow stay visible** when using the canonical pattern.
+**§4 UX:** `### Summary` stays **outside** `<details>`; the four-part `####` narrative goes **inside** one `<details>` block. `### 4.1 Evidence Highlights` follows the dropdown as a subsection of `## 4.`, not inside it.
+
+## PM §4.1 — Evidence Highlights
+
+**Placement:** `### 4.1 Evidence Highlights` at the end of `## 4. Mechanistic Basis` (Profile A), or `### 2.1` at the end of `## 2.` (Profile B). Not inside the mechanism `<details>` block.
+
+| Do | Avoid |
+|----|--------|
+| Explain why a finding matters for this PM | Restating §4 mechanism biology |
+| Prefer landmark trials, meta-analyses, human relevance, synergy/limitation insights | Exhaustive or redundant paper summaries |
+| Insight-first bullets with linked `[Author (Year)](/docs/papers/BRAIN-Diet-References#key) [n]` | Methods-heavy study recaps |
+| Reuse bibliography entries; add BibTeX only when needed | Plain-text or unlinked “see study X” bullets |
+
+**Core principle:** §4 = how the mechanism works. §4.1 = how we know (findings that change interpretation).
+
+**§4.1 UX (reference: BRS1 PM1, BRS1 PM2):** `#### Introduction/Summary` stays visible; curated finding bullets or short `####` blocks go inside one `<details><summary>Evidence highlights — …</summary>…</details>`. Do not repeat §4 mechanism prose in §4.1.
+
+## PM section roles — avoid triple repetition
+
+| Section | Role | Do | Avoid |
+|---------|------|-----|--------|
+| **§1 Definition** | What it is | One tight mechanism sentence + optional scope paragraph | Mechanism biology dump; study citations unless defining scope |
+| **§4 Summary + blocks** | How it happens | Pathway biology, boundaries, integration | Restating Definition; food lists; evidence-trial recap |
+| **§4.1 Evidence Highlights** | How we know | Finding-first bullets with citations | Re-explaining LAT1, NF-κB, Nrf2, etc. |
+
+Optional **`#### (Cross-BRS relevance of …)`** inside the mechanism dropdown when a PM's foods span multiple BRS domains (reference: BRS1 PM1 protein foods).
 
 ## Mechanistic Basis opening (FM / SM)
 

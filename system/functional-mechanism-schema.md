@@ -17,9 +17,15 @@ validation while remaining readable for authors.
 - When schema structure and spreadsheet interpretation need coordination, do not
   infer; resolve using the spreadsheet schema and generation rules.
 
+## Definition (ontology)
+
+Functional Mechanisms (FMs) represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the principal biological targets of the framework.
+
+See also `system/brain-diet-ontology-rules.md` §1.2.
+
 ## Scope
 
-- Represents a controllable system-level biological function.
+- Represents a controllable system-level biological function at FM breadth (integrated state, not a single PM process).
 - Must aggregate associated PMs and KCs without redefining PM biology.
 - Must synthesise PMs into an emergent functional state; must not repeat PM page content.
 - Must not contain scoring formulas.
