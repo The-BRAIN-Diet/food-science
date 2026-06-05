@@ -52,16 +52,16 @@ They are:
 Functional Mechanisms (FMs) represent **integrated biological states** that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the **principal biological targets** of the framework.
 
 In this ontology, FMs are the **control layer** of the system. They:
-- represent scoreable biological control signals
-- define dietary design targets
-- define scoring inputs
+- represent scoreable integrated biological states
+- define what is scored and optimised at FM breadth
 - sit between PMs and BRS
 
 ### Rules
 
 - FMs must remain limited and stable
-- FMs define what is scored and optimized
-- FMs must be interpretable as practical dietary targets or other interventions from the defined set of modulators
+- FMs define the integrated states that are scored and optimised
+- **Dietary levers, lifestyle levers, and scoreable inputs belong on PM pages** — interventions act on bounded mechanisms
+- FM pages synthesise PMs into emergent states and roll up cross-BRS links; PM pages carry implementation and intervention detail
 
 ---
 

@@ -442,60 +442,15 @@ ${DOMINANCE_TO_BREAKDOWN[dominance] || "Food-State Dominant"}
 
 ${fm.outputs || "↑ integrated pathway support"}
 
-## 4. Mechanistic Basis (Implementation of PMs)
+## 4. Mechanistic Basis (Synthesis of PMs)
 
 ${mechanisticBasisFm(fm, pms)}
 
-## 5. Underlying Mechanisms and Requirements
-
-### 5.1 PMs (Primary Mechanisms)
-
-${pms.map((p) => `- [${p.id} - ${p.name}](/docs/biological-targets/brs${brsNum}/pm/${slugById.get(p.id)})`).join("\n")}
-
-### 5.2 KCs (Key Constraints)
-
-${kcs.map((k) => `- [${k.id} - ${k.name || k.id}](/docs/biological-targets/brs${brsNum}/kc/${slugById.get(k.id)})`).join("\n")}
-
-### 5.3 Cross-BRS Links
+## 5. Cross-BRS Links
 
 ${cross.map((c) => `- ${c.id}${c.name ? ` — ${c.name}` : ""}`).join("\n") || "- None listed"}
 
-## 6. Dietary Levers
-
-<details>
-<summary><strong>Diet</strong></summary>
-
-${interventionsToSubstanceBullets(interventions)}
-
-</details>
-
-## 7. Lifestyle Levers
-
-<details>
-<summary><strong>Lifestyle</strong></summary>
-
-- Regular meal timing and sleep regularity may support daily one-carbon rhythm context alongside dietary methyl-donor intake.
-- Stress and recovery patterns may influence methylation demand indirectly; dietary substrate remains primary for this FM.
-
-</details>
-
-## 8. Scoreable Inputs & Modulation Signals
-
-These inputs are used within the BRAIN Diet ontology to generate evidence-constrained estimates of plausible ${brs} support. They are not direct measures of clinical efficacy.
-
-<details>
-<summary><strong>Scoreable Input Categories</strong></summary>
-
-| Input Category | Example Inputs | Functional Relevance |
-|---|---|---|
-| Functional Property Potentials | methyl_donor_pattern; transsulfuration_support; choline_phospholipid_context | May support ${fm.name.toLowerCase()}. |
-| Realised Functional States | consistent_methyl_donor_coverage; homocysteine_modulation_context | May reflect integrated FM support at recipe level. |
-| Substance / Nutrient Signals | folate; B12; choline; betaine; methionine; omega-3 | Nutrient signals linked to dietary interventions for this FM. |
-| Preparation Transformations | minimally_processed; whole_food_matrix | May preserve methyl-donor and cofactor density. |
-
-</details>
-
-## 9. References
+## 6. References
 
 ${refSection || "1. See PM pages for linked citations."}
 `;

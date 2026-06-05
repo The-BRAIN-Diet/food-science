@@ -167,7 +167,7 @@ export function applyCanonicalScoreableIntro(content, brs) {
 }
 
 export function applyCanonicalMechanisticBasis(content, fmId, pmClauses, opening, together) {
-  const re = /## 4\. Mechanistic Basis \(Implementation of PMs\)\s*\n[\s\S]*?(?=\n## 5\. )/;
+  const re = /## 4\. Mechanistic Basis \(Synthesis of PMs\)\s*\n[\s\S]*?(?=\n## 5\. )/;
   const body = `${opening}\n\n${pmClauses}\n\n${together}\n`;
-  return content.replace(re, `## 4. Mechanistic Basis (Implementation of PMs)\n\n${body}`);
+  return content.replace(re, `## 4. Mechanistic Basis (Synthesis of PMs)\n\n${body}`);
 }

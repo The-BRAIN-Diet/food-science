@@ -329,15 +329,59 @@ function validateEvidenceHighlightsPlacement(content, sections, issues, { entity
   }
 }
 
+/** FM synthesis contract: no intervention sections; §5 is Cross-BRS Links only. */
+const FM_FORBIDDEN_BODY_SECTIONS = [
+  "Dietary Levers",
+  "Lifestyle Levers",
+  "Scoreable Inputs & Modulation Signals",
+  "Scoreable Food-State Inputs",
+  "Underlying Mechanisms and Requirements",
+];
+
+function validateFmSynthesisContract(content, sections, issues, { entityLabel }) {
+  for (const title of FM_FORBIDDEN_BODY_SECTIONS) {
+    if (sections.some((s) => s.title === title || s.title.startsWith(title))) {
+      pushIssue(
+        issues,
+        "fm_forbidden_section",
+        `${entityLabel}: FM pages must not include "## N. ${title}" — interventions belong on PM pages`,
+      );
+    }
+  }
+  if (/^### 5\.[123]/m.test(content)) {
+    pushIssue(
+      issues,
+      "fm_legacy_underlying_subsections",
+      `${entityLabel}: FM §5 must be Cross-BRS Links only; remove §5.1–§5.3 PM/KC rollups (link PMs in §4 instead)`,
+    );
+  }
+  const cross = sections.find((s) => s.title.startsWith("Cross-BRS Links"));
+  if (!cross) {
+    pushIssue(issues, "fm_missing_cross_brs", `${entityLabel}: FM pages must include ## 5. Cross-BRS Links`);
+  } else if (cross.level !== 5) {
+    pushIssue(
+      issues,
+      "fm_cross_brs_numbering",
+      `${entityLabel}: Cross-BRS Links must be ## 5. Cross-BRS Links`,
+    );
+  }
+  const mechanistic = sections.find((s) => s.title.startsWith("Mechanistic Basis"));
+  if (mechanistic && !mechanistic.title.includes("Synthesis of PMs")) {
+    pushIssue(
+      issues,
+      "fm_mechanistic_basis_title",
+      `${entityLabel}: §4 must be "## 4. Mechanistic Basis (Synthesis of PMs)"`,
+    );
+  }
+}
+
 /** FM extended public contract (Intervention Breakdown present; no Timing Specific body section). */
 const FM_EXTENDED_SECTION_TITLES = [
   "Definition",
   "Intervention Breakdown",
   "Functional Role",
-  "Mechanistic Basis (Implementation of PMs)",
-  "Underlying Mechanisms and Requirements",
-  "Dietary Levers",
-  "Lifestyle Levers",
+  "Mechanistic Basis (Synthesis of PMs)",
+  "Cross-BRS Links",
 ];
 
 function normalizeSectionTitle(title) {
@@ -407,12 +451,15 @@ function validateFmPage(filePath, { rootDir }) {
   const sections = parseNumberedSections(content);
   validateContiguousNumbering(sections, issues, { entityLabel });
   validateEvidenceHighlightsPlacement(content, sections, issues, { entityLabel });
+  validateFmSynthesisContract(content, sections, issues, { entityLabel });
 
   const numbered = sections.filter((s) => s.type === "major" && s.level <= 8);
   if (numbered.length >= 3) {
     const t0 = normalizeSectionTitle(numbered[0]?.title || "");
     const t1 = normalizeSectionTitle(numbered[1]?.title || "");
     const t2 = normalizeSectionTitle(numbered[2]?.title || "");
+    const t3 = normalizeSectionTitle(numbered[3]?.title || "");
+    const t4 = normalizeSectionTitle(numbered[4]?.title || "");
     if (t0 !== "Definition") {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §1 must be Definition`);
     }
@@ -422,22 +469,13 @@ function validateFmPage(filePath, { rootDir }) {
     if (t2 !== "Functional Role") {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §3 must be Functional Role (timing is front matter only)`);
     }
-  }
-
-  const underlying = sections.find((s) => s.title.startsWith("Underlying Mechanisms"));
-  if (underlying) {
-    const dietIdx = sections.findIndex((s) => s.title === "Dietary Levers");
-    const underIdx = sections.findIndex((s) => s === underlying);
-    if (dietIdx !== -1 && dietIdx !== underIdx + 1) {
-      pushIssue(
-        issues,
-        "fm_dietary_order",
-        `${entityLabel}: Dietary Levers must immediately follow Underlying Mechanisms and Requirements`,
-      );
+    if (numbered.length >= 4 && !t3.startsWith("Mechanistic Basis")) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §4 must be Mechanistic Basis (Synthesis of PMs)`);
+    }
+    if (numbered.length >= 5 && !t4.startsWith("Cross-BRS Links")) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §5 must be Cross-BRS Links`);
     }
   }
-
-  validateScoreableSection(content, issues, { entityLabel, pageKind: "fm" });
 
   return { kind: "fm", filePath, entityId: data.fm_id, ok: issues.length === 0, issues };
 }

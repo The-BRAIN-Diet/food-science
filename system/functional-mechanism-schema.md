@@ -25,16 +25,18 @@ See also `system/brain-diet-ontology-rules.md` §1.2.
 
 ## Scope
 
-- Represents a controllable system-level biological function at FM breadth (integrated state, not a single PM process).
-- Must aggregate associated PMs and KCs without redefining PM biology.
-- Must synthesise PMs into an emergent functional state; must not repeat PM page content.
+- FM pages are **synthesis pages**, not implementation pages.
+- Represents an integrated biological state at FM breadth (not a single PM process).
+- Must synthesise constituent PMs into an emergent functional state; must not repeat PM page content (mechanistic detail, dietary levers, lifestyle levers, or scoreable inputs).
+- **Interventions act on PMs.** Dietary levers, lifestyle levers, and scoreable inputs belong on **PM pages** only.
+- FM pages describe the integrated state that emerges, identify contributing PMs in §4, and roll up cross-BRS placement in §5.
 - Must not contain scoring formulas.
 
 ## FM Authoring — Integration Without Repetition
 
 Functional Mechanism pages must **synthesise** their PMs rather than **repeat** them.
 
-**Role split:** PMs own mechanisms. FMs own emergent integration.
+**Role split:** PMs own mechanisms and interventions. FMs own emergent integration.
 
 ### FM Definition Rule
 
@@ -61,7 +63,7 @@ Integrated regulation of glucose appearance, glycaemic stability, and insulin-su
 
 ### FM Mechanistic Basis Rule
 
-Section **4. Mechanistic Basis (Implementation of PMs)** (`## 4.`) must open with the **interesting implication** — the emergent integrated state — then explain how constituent PMs combine. See `system/mechanism-page-section-prose.md` (e.g. methylation capacity emerges from linked one-carbon pathways, not one reaction → then PM integration).
+Section **4. Mechanistic Basis (Synthesis of PMs)** (`## 4.`) must open with the **interesting implication** — why the integrated FM state matters — then explain how constituent PMs combine. Do **not** open by repeating the §1 Definition verbatim. See `system/mechanism-page-section-prose.md`.
 
 Section **4.** must:
 
@@ -229,38 +231,31 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 
 First line of the MDX body (after front matter) must be the FM title: `## <FM_ID> - <FM name>` (same heading level as `## 1. Definition`; use a hyphen/spaces as on live pages; do not use `#` or `###` for this line).
 
-### Canonical public body (BRS6 FM1)
+### Canonical public body (synthesis contract)
 
-Numbered sections must stay contiguous (renumber if §8 Scoreable is omitted — then References becomes `## 8. References`).
+Numbered sections must stay contiguous. Optional `### 4.1 Evidence Highlights` nests under §4 when used (FM-level “why this matters” — not PM intervention evidence).
 
 1. **Definition** — `## 1. Definition` — integrated regulatory state per **FM Definition Rule**; `summary` in front matter must match this intent
 2. **Intervention Breakdown** — `## 2. Intervention Breakdown` — single allowed value per **Intervention Breakdown** (required); must match `intervention_breakdown` in front matter
-3. **Functional Role** — `## 3. Functional Role` — short directional arrow line per **FM Functional Role Rule**
-4. **Mechanistic Basis (Implementation of PMs)** — `## 4. Mechanistic Basis (Implementation of PMs)` — synthesis per **FM Mechanistic Basis Rule** and **Deduplication Rule** (no PM-style Summary + `<details>`; no PM citation dumps); weave timing context here when `timing_specific: "Yes"`
-5. **Underlying Mechanisms and Requirements** — `## 5. Underlying Mechanisms and Requirements`
-   - `### 5.1 Cofactors and Substrates` — when an FM spans multiple PMs, use a per-PM table with columns **PM | Cofactors | KC substrates** (no separate direct-inputs column; pathway inputs live in §6 Dietary Levers). **Cofactors** column aggregates each PM §5.1 Cofactors and Supporting Inputs list (enzyme cofactors plus other pathway supports). **KC substrates** from §3 Supporting Inputs/Substrates on every KC in that PM’s §5.2; multiple KCs in one cell separated by `;`, with KC page link in parentheses after each group.
-   - `### 5.2 PMs (Primary Mechanisms)` — linked list to PM pages
-   - `### 5.3 KCs (Key Constraints)` — linked list to KC pages
-   - `### 5.4 Cross-BRS Links`
-   - Optional extra subsection (e.g. optional BRSX modifiers) only when used; keep numbering contiguous after 5.4
-6. **Dietary Levers** — `## 6. Dietary Levers` — body inside `<details><summary><strong>Diet</strong></summary>…` — substrate-to-food bullets use **substance ← food** format per `system/substance-food-mapping-format.md` (2–3 foods per substance; duplicate foods across substances when applicable); narrative meal-pattern levers may remain prose
-7. **Lifestyle Levers** — `## 7. Lifestyle Levers` — body inside `<details><summary><strong>Lifestyle</strong></summary>…`; primary place for chrononutrition / circadian timing narrative when `timing_specific: "Yes"`
-8. **Scoreable Inputs & Modulation Signals** — `## 8. Scoreable Inputs & Modulation Signals` — short intro framing ontology use; table (or list) inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…` — **omit the entire section** when this FM does not carry scoreable rows (then **References** becomes `## 8. References`)
-9. **References** — numbered list with bibliography links
+3. **Functional Role** — `## 3. Functional Role` — short directional arrow line describing **emergent FM outcomes** per **FM Functional Role Rule**
+4. **Mechanistic Basis (Synthesis of PMs)** — `## 4. Mechanistic Basis (Synthesis of PMs)` — synthesis per **FM Mechanistic Basis Rule** and **Deduplication Rule**; identify contributing PMs and how they operationalise the FM; weave timing context here when `timing_specific: "Yes"`
+   - **`### 4.1 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
+5. **Cross-BRS Links** — `## 5. Cross-BRS Links` — **only** content in §5; roll up from constituent PM `§5.3 Cross-BRS Links` with linked PM pages where they exist
+6. **References** — `## 6. References` — numbered list with bibliography links
+
+**Not on FM pages:** `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, or §5.1–§5.3 PM/KC/cofactor rollups — those belong on **PM pages** (§4–§8).
+
+`mechanisms_covered` and `key_constraints` remain in **front matter** for ontology traversal and tooling; they are not rendered as FM body rollups.
 
 `timing_specific` (`Yes` | `No`) lives in **front matter only** for ontology traversal, filtering, and scoring — not as a public `## N. Timing Specific` section.
 
 ### Excluded from the public FM body (current contract)
 
-Do not add body sections after **References** (`## 9.`, or `## 8.` when Scoreable is omitted). The following are **not** part of the trimmed FM narrative on BRS6(FM1): Recipe Translation & Scoring Logic, standalone Functional Consequences / Outputs, standalone Cross-System Links (cross-BRS belongs under `### 5.3`), Mechanism Summary Table, Scoring Interpretation, Interpretation Boundary, Evidence Base, Missing Entities. Those may exist in YAML, spreadsheets, or other artefacts.
-
-### MDX body vs YAML
-
-Keys such as `recipe_translation_scoring_logic`, `mechanism_summary`, `interpretation_boundary`, and `evidence_base` remain valid for ingestion and downstream tools; they do **not** imply corresponding headings in the published MDX unless you explicitly extend this contract again.
+Do not add body sections after **References** (`## 6.`). The following are **not** part of the FM narrative: **Dietary Levers**, **Lifestyle Levers**, **Scoreable Inputs & Modulation Signals**, **Underlying Mechanisms and Requirements** (and legacy §5.1–§5.4 rollups), Recipe Translation & Scoring Logic, standalone Functional Consequences / Outputs, Mechanism Summary Table, Scoring Interpretation, Interpretation Boundary, Evidence Base, Missing Entities. Those may exist in YAML, spreadsheets, PM pages, or other artefacts.
 
 ### Legacy note
 
-Some BRS6 FM pages (e.g. FM2–FM4) may still use an older outline (`Interventions`, `Outputs / Functional Effects`, separate `Cross-System Links`). New edits should converge **toward the FM1 pattern** above for consistency with PM pages and Diet/Lifestyle `<details>` usage.
+Older FM pages used Diet/Lifestyle/Scoreable sections and `Underlying Mechanisms and Requirements` with PM/KC rollups. New edits must follow the **synthesis contract** above (§5 Cross-BRS Links only).
 
 ## Automated validation
 
@@ -281,22 +276,13 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - Definition and **Mechanistic Basis** must follow **FM Authoring — Integration Without Repetition** (no PM summary dumps; no duplicated PM `<details>` content).
 - **Mechanistic Basis** should use the four-part structure: opening synthesis → one clause per PM → integration sentence → functional consequence sentence.
 - `mechanisms_covered` and `key_constraints` must use ID+name+href.
-- FM body section headings must be explicitly numbered to match PM-style rendering consistency.
-- `Dietary Levers` and `Lifestyle Levers` must be separate top-level sections (must not be merged).
+- FM body section headings must be explicitly numbered: Definition → Intervention Breakdown → Functional Role → Mechanistic Basis (Synthesis of PMs) → Cross-BRS Links → References.
 - Published body must **not** include `## N. Timing Specific`; `timing_specific` is validated in front matter only (`Yes` | `No`).
+- Published body must **not** include `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, or `Underlying Mechanisms and Requirements`.
+- `## 5. Cross-BRS Links` is required; roll up from constituent PM cross-BRS links.
+- Optional `### 4.1 Evidence Highlights` must nest under §4 Mechanistic Basis when present.
 - Published body must render `## 2. Intervention Breakdown` between Definition and Functional Role; body value must match front matter `intervention_breakdown`.
-- `Dietary Levers` must appear immediately after `## 5. Underlying Mechanisms and Requirements`.
-- `Dietary Levers` and `Lifestyle Levers` content blocks should be wrapped in collapsible `<details>` menus for readability.
-- FM page body must render PM and KC entries as hyperlinks to their corresponding PM/KC pages.
-- Under `## 5. Underlying Mechanisms and Requirements`, subsection labels must be:
-  - `5.1 Cofactors and Substrates` (per-PM table when used)
-  - `5.2 PMs (Primary Mechanisms)`
-  - `5.3 KCs (Key Constraints)`
-  - `5.4 Cross-BRS Links`
-- PM1 naming for BRS6(FM1) must be `Glucose Appearance Kinetics` (not legacy `Glycaemic Excursion Control` or `Glycaemic Variability & Absorption Kinetics`).
-- KC entries must be only `substrate` or `precursor` (never active mechanism labels).
-- When `## 8. Scoreable Inputs & Modulation Signals` is present on **FM** pages, its table must include Functional Property Potentials, Realised Functional States, Preparation Transformations, and either Substance / Nutrient Signals or Antagonistic Signals (burden/modulation row). **PM** pages use only the first three rows (substances belong in §6 Dietary Levers). **References** must then be `## 9. References`.
-- Claims in Dietary Levers, Lifestyle Levers, Scoreable intro text, and Mechanistic Basis must stay mechanistic / interpretive (`may`, `supports`, `associated with`) unless evidence supports stronger wording.
+- Claims in Mechanistic Basis and §4.1 must stay mechanistic / interpretive (`may`, `supports`, `associated with`) unless evidence supports stronger wording.
 - Where `scoring_interpretation` or similar content exists in YAML or tooling, it must not include formulas, equations, or numeric scoring logic.
 - Do not expose raw scoring code or internal scoring implementation details in FM pages.
 - Do not display PM/FM code references in recipe-facing examples beyond mechanism-page context.
