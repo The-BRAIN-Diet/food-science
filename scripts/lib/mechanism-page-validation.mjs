@@ -107,13 +107,16 @@ function validateSubstanceFoodMappingSections(content, issues, { entityLabel, ki
     pushIssue(
       issues,
       "nested_food_sources_collapsible",
-      `${entityLabel}: Dietary Levers must not use nested Food sources (examples); use substance ← food in Diet details`,
+      `${entityLabel}: Dietary Levers must not use nested Food sources (examples); use substance ← food in Direct Dietary Levers`,
     );
   }
+  const directSection = dietary.match(
+    /### \d+\.1 Direct Dietary Levers\s*\n([\s\S]*?)(?=\n### |\n## |$)/,
+  )?.[1];
   const dietDetail = dietary.match(
     /<summary><strong>Diet<\/strong><\/summary>\s*\n([\s\S]*?)\n<\/details>/,
   )?.[1];
-  const scan = dietDetail || dietary;
+  const scan = directSection || dietDetail || dietary;
   for (const line of scan.split("\n")) {
     if (isLegacyFoodToSubstanceLine(line)) {
       pushIssue(
@@ -329,13 +332,14 @@ function validateEvidenceHighlightsPlacement(content, sections, issues, { entity
   }
 }
 
-/** FM synthesis contract: no intervention sections; §5 is Cross-BRS Links only. */
+/** FM synthesis contract: no intervention sections; §5 PMs + §6 Cross BRS Links. */
 const FM_FORBIDDEN_BODY_SECTIONS = [
   "Dietary Levers",
   "Lifestyle Levers",
   "Scoreable Inputs & Modulation Signals",
   "Scoreable Food-State Inputs",
   "Underlying Mechanisms and Requirements",
+  "Overarching Functional Mechanism",
 ];
 
 function validateFmSynthesisContract(content, sections, issues, { entityLabel }) {
@@ -344,26 +348,32 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel })
       pushIssue(
         issues,
         "fm_forbidden_section",
-        `${entityLabel}: FM pages must not include "## N. ${title}" — interventions belong on PM pages`,
+        `${entityLabel}: FM pages must not include "## N. ${title}" — use Primary Mechanisms (PMs) and Cross BRS Links instead; interventions belong on PM pages`,
       );
     }
   }
-  if (/^### 5\.[123]/m.test(content)) {
+  if (/^### 5\.[1234]/m.test(content)) {
     pushIssue(
       issues,
       "fm_legacy_underlying_subsections",
-      `${entityLabel}: FM §5 must be Cross-BRS Links only; remove §5.1–§5.3 PM/KC rollups (link PMs in §4 instead)`,
+      `${entityLabel}: remove legacy §5.x rollups; use ## 5. Primary Mechanisms (PMs) and ## 6. Cross BRS Links`,
     );
   }
-  const cross = sections.find((s) => s.title.startsWith("Cross-BRS Links"));
-  if (!cross) {
-    pushIssue(issues, "fm_missing_cross_brs", `${entityLabel}: FM pages must include ## 5. Cross-BRS Links`);
-  } else if (cross.level !== 5) {
+  const pms = sections.find((s) => s.title.startsWith("Primary Mechanisms"));
+  if (!pms) {
+    pushIssue(issues, "fm_missing_pms", `${entityLabel}: FM pages must include ## 5. Primary Mechanisms (PMs)`);
+  } else if (pms.level !== 5) {
     pushIssue(
       issues,
-      "fm_cross_brs_numbering",
-      `${entityLabel}: Cross-BRS Links must be ## 5. Cross-BRS Links`,
+      "fm_pms_numbering",
+      `${entityLabel}: Primary Mechanisms (PMs) must be ## 5. Primary Mechanisms (PMs)`,
     );
+  }
+  const brs = sections.find((s) => s.title.startsWith("Cross BRS Links"));
+  if (!brs) {
+    pushIssue(issues, "fm_missing_brs_links", `${entityLabel}: FM pages must include ## 6. Cross BRS Links`);
+  } else if (brs.level !== 6) {
+    pushIssue(issues, "fm_brs_links_numbering", `${entityLabel}: Cross BRS Links must be ## 6. Cross BRS Links`);
   }
   const mechanistic = sections.find((s) => s.title.startsWith("Mechanistic Basis"));
   if (mechanistic && !mechanistic.title.includes("Synthesis of PMs")) {
@@ -381,7 +391,8 @@ const FM_EXTENDED_SECTION_TITLES = [
   "Intervention Breakdown",
   "Functional Role",
   "Mechanistic Basis (Synthesis of PMs)",
-  "Cross-BRS Links",
+  "Primary Mechanisms (PMs)",
+  "Cross BRS Links",
 ];
 
 function normalizeSectionTitle(title) {
@@ -460,6 +471,8 @@ function validateFmPage(filePath, { rootDir }) {
     const t2 = normalizeSectionTitle(numbered[2]?.title || "");
     const t3 = normalizeSectionTitle(numbered[3]?.title || "");
     const t4 = normalizeSectionTitle(numbered[4]?.title || "");
+    const t5 = normalizeSectionTitle(numbered[5]?.title || "");
+    const t6 = normalizeSectionTitle(numbered[6]?.title || "");
     if (t0 !== "Definition") {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §1 must be Definition`);
     }
@@ -472,8 +485,14 @@ function validateFmPage(filePath, { rootDir }) {
     if (numbered.length >= 4 && !t3.startsWith("Mechanistic Basis")) {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §4 must be Mechanistic Basis (Synthesis of PMs)`);
     }
-    if (numbered.length >= 5 && !t4.startsWith("Cross-BRS Links")) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §5 must be Cross-BRS Links`);
+    if (numbered.length >= 5 && !t4.startsWith("Primary Mechanisms")) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §5 must be Primary Mechanisms (PMs)`);
+    }
+    if (numbered.length >= 6 && !t5.startsWith("Cross BRS Links")) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §6 must be Cross BRS Links`);
+    }
+    if (numbered.length >= 7 && !t6.startsWith("References")) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §7 must be References`);
     }
   }
 
@@ -484,14 +503,107 @@ function pmUsesExtendedProfile(data, content) {
   return Boolean(data.intervention_breakdown) || /^##\s+2\.\s+Intervention Breakdown\s*$/m.test(content);
 }
 
+function pmConnectedSectionTitle(parentBrs) {
+  const brs = String(parentBrs || "").trim();
+  return brs ? `Connected ${brs} Mechanisms` : "Connected BRS Mechanisms";
+}
+
 /** PM extended profile: Intervention Breakdown in body; no Timing Specific section. */
 const PM_EXTENDED_AFTER_INTERVENTION = [
   "Functional Role",
   "Mechanistic Basis",
-  "Underlying Mechanisms and Requirements",
+  "Cross BRS Links",
   "Dietary Levers",
   "Lifestyle Levers",
 ];
+
+function getConnectedMechanismsBlock(content) {
+  const connected = parseNumberedSections(content).find(
+    (s) => /^Connected BRS\d+ Mechanisms/.test(s.title) || s.title.startsWith("Connected Mechanisms"),
+  );
+  if (!connected) return null;
+  const blockStart = content.indexOf(connected.line);
+  const after = content.slice(blockStart);
+  const next = after.slice(1).search(NEXT_INTEGER_SECTION_HEADING);
+  return next === -1 ? after : after.slice(0, 1 + next);
+}
+
+function getDietaryLeversBlock(content) {
+  const dietary = parseNumberedSections(content).find((s) => s.title.startsWith("Dietary Levers"));
+  if (!dietary) return null;
+  const blockStart = content.indexOf(dietary.line);
+  const after = content.slice(blockStart);
+  const next = after.slice(1).search(NEXT_INTEGER_SECTION_HEADING);
+  return next === -1 ? after : after.slice(0, 1 + next);
+}
+
+function validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs }) {
+  const major = parseNumberedSections(content).filter((s) => s.type === "major");
+  const byLevel = new Map(major.map((s) => [s.level, s.title]));
+  const connectedTitle = pmConnectedSectionTitle(parentBrs);
+
+  if (byLevel.has(5) && String(byLevel.get(5)) !== connectedTitle) {
+    pushIssue(issues, "pm_section5", `${entityLabel}: §5 must be ${connectedTitle}`);
+  }
+  if (byLevel.has(6) && !String(byLevel.get(6)).startsWith("Cross BRS Links")) {
+    pushIssue(issues, "pm_section6", `${entityLabel}: §6 must be Cross BRS Links`);
+  }
+  if (byLevel.has(7) && !String(byLevel.get(7)).startsWith("Dietary Levers")) {
+    pushIssue(issues, "pm_section7", `${entityLabel}: §7 must be Dietary Levers`);
+  }
+  if (/^##\s+\d+\.\s+(Overarching Functional Mechanism|Underlying Mechanisms and Requirements)\s*$/m.test(content)) {
+    pushIssue(
+      issues,
+      "pm_legacy_connected",
+      `${entityLabel}: use ## 5. ${connectedTitle} (5.1 FM, 5.2 sibling PMs) and ## 6. Cross BRS Links`,
+    );
+  }
+
+  const connectedBlock = getConnectedMechanismsBlock(content);
+  if (connectedBlock) {
+    const subs = [...connectedBlock.matchAll(/^###\s+5\.(\d+)\s+(.+)$/gm)].map((m) => ({
+      title: m[2].trim(),
+    }));
+    if (subs.length >= 1 && !/Overarching Functional Mechanism/i.test(subs[0]?.title || "")) {
+      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §5.1 must be Overarching Functional Mechanism`);
+    }
+    if (subs.length >= 2 && !/Connected Primary Mechanisms/i.test(subs[1]?.title || "")) {
+      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §5.2 must be Connected Primary Mechanisms`);
+    }
+  }
+
+  const dietaryBlock = getDietaryLeversBlock(content);
+  if (!dietaryBlock) return;
+  const subs = [...dietaryBlock.matchAll(/^###\s+(\d+)\.(\d+)\s+(.+)$/gm)].map((m) => ({
+    major: parseInt(m[1], 10),
+    minor: parseInt(m[2], 10),
+    title: m[3].trim(),
+  }));
+  const dietaryLevel = parseNumberedSections(content).find((s) => s.title.startsWith("Dietary Levers"))?.level;
+  if (!dietaryLevel) return;
+  const dietSubs = subs.filter((s) => s.major === dietaryLevel);
+  if (dietSubs.length >= 1 && !/Direct Dietary Levers/i.test(dietSubs[0]?.title || "")) {
+    pushIssue(
+      issues,
+      "pm_dietary_subsections",
+      `${entityLabel}: §${dietaryLevel}.1 must be Direct Dietary Levers`,
+    );
+  }
+  if (dietSubs.length >= 2 && !/Cofactors and Supporting Inputs/i.test(dietSubs[1]?.title || "")) {
+    pushIssue(
+      issues,
+      "pm_dietary_subsections",
+      `${entityLabel}: §${dietaryLevel}.2 must be Cofactors and Supporting Inputs`,
+    );
+  }
+  if (dietSubs.length >= 3 && !/KCs/i.test(dietSubs[2]?.title || "")) {
+    pushIssue(
+      issues,
+      "pm_dietary_subsections",
+      `${entityLabel}: §${dietaryLevel}.3 must be KCs (Key Constraints)`,
+    );
+  }
+}
 
 function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
   const extended = pmUsesExtendedProfile(data, content);
@@ -520,7 +632,7 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
       !/Scoreable Food-State Inputs/i.test(s.title),
   );
   if (core.length >= 4) {
-    const titles = core.slice(0, 5).map((s) => normalizeSectionTitle(s.title));
+    const titles = core.slice(0, 6).map((s) => normalizeSectionTitle(s.title));
     if (titles[0] !== "Definition") {
       pushIssue(issues, "overlay_section_order", `${entityLabel}: §1 must be Definition`);
     }
@@ -637,7 +749,7 @@ function validatePmPage(filePath) {
   validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "pm" });
   validatePmExtendedProfile(data, content, issues, { entityLabel });
   if (pmUsesExtendedProfile(data, content)) {
-    validateUnderlyingCofactorsBeforeKcs(content, issues, { entityLabel });
+    validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs: data.parent_brs });
   }
 
   return { kind: "pm", filePath, entityId: data.pm_id, ok: issues.length === 0, issues };

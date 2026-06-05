@@ -115,13 +115,17 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
    - **Citations (required where evidence-backed):** keep inline citations in §4 when rewriting or shortening prose — see **PM §4 — Citations** below. Do not drop references to make the narrative “cleaner.”
    - **Excluded from §4 mechanism dropdown:** dietary levers, substance ← food bullets, lifestyle levers, scoreable inputs (§6–§8). Evidence Highlights use `### 4.1` at the end of `## 4.` (not inside the mechanism `<details>`).
 4.1. Evidence Highlights — `### 4.1 Evidence Highlights` (optional, recommended on authored PMs) — **subsection of §4** after the mechanism `<details>`, still before `## 5.` See **PM §4.1 — Evidence Highlights** below.
-5. Underlying Mechanisms and Requirements — `## 5. Underlying Mechanisms and Requirements`
-   - **Full subsection set:** `### 5.1` Cofactors and Supporting Inputs, `### 5.2` KCs, `### 5.3` Optional BRSX Modifiers, `### 5.4` Cross-BRS Links
-   - **PM1-style (no Optional BRSX subsection):** `### 5.1` Cofactors and Supporting Inputs, `### 5.2` KCs (Key Constraints), `### 5.3` Cross-BRS Links (canonical: BRS6 PM1)
-6. Dietary Levers — `## 6.` body inside `<details><summary><strong>Diet</strong></summary>…` (match FM pages) — substance ← food bullets per `system/substance-food-mapping-format.md`; no nested “Food sources (examples)” block
-7. Lifestyle Levers — `## 7.` same pattern with `<strong>Lifestyle</strong>`; primary place for timing narrative when `timing_specific: "Yes"`
-8. Scoreable Inputs & Modulation Signals — `## 8.` **only when this PM is scoreable in the ontology**; optional intro paragraph; table (or list) may sit inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…` Use three rows only: **Functional Property Potentials**, **Realised Functional States**, **Preparation Transformations** (do not repeat §6 substances in a Substance / Nutrient Signals row).
-9. References — `## 9. References`
+5. Connected BRSX Mechanisms — `## 5. Connected BRSX Mechanisms` where **X** is the host BRS (`parent_brs`, e.g. `Connected BRS1 Mechanisms`) — same-BRS placement
+   - `### 5.1` Overarching Functional Mechanism — link to parent FM (`parent_fm` in front matter)
+   - `### 5.2` Connected Primary Mechanisms — sibling PMs on the same FM (`mechanisms_covered` on parent FM, excluding this PM)
+6. Cross BRS Links — `## 6. Cross BRS Links` — PM/FM links in other BRS domains (harmonised with FM §6 heading)
+7. Dietary Levers — `## 7. Dietary Levers`
+   - `### 7.1` Direct Dietary Levers — substance ← food bullets per `system/substance-food-mapping-format.md`
+   - `### 7.2` Cofactors and Supporting Inputs — from front matter `cofactors`
+   - `### 7.3` KCs (Key Constraints) — linked KC pages
+8. Lifestyle Levers — `## 8.` same pattern with `<details><summary><strong>Lifestyle</strong></summary>`; primary place for timing narrative when `timing_specific: "Yes"`
+9. Scoreable Inputs & Modulation Signals — `## 9.` **only when this PM is scoreable in the ontology**; optional intro paragraph; table (or list) may sit inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…` Use three rows only: **Functional Property Potentials**, **Realised Functional States**, **Preparation Transformations** (do not repeat §7.1 substances in a Substance / Nutrient Signals row).
+10. References — `## 10. References`
 
 ### Profile A′ — Full narrative PM without Intervention Breakdown body (e.g. BRS6 PM1 legacy outline, BRS6 PM5)
 

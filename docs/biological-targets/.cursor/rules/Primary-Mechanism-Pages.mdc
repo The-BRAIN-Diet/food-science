@@ -26,9 +26,10 @@ Structure:
 - **§4 citations:** keep inline `[Author (Year)](/docs/papers/BRAIN-Diet-References#key) [n]` on evidence-backed claims in primary mechanism blocks; do not strip refs when shortening. Every `[n]` in §4 must appear in References. See `system/primary-mechanism-schema.md` (**PM §4 — Citations**).
 - **§4.1 Evidence Highlights (optional):** `### 4.1 Evidence Highlights` as a **subsection of §4** after the mechanism `<details>` (never inside that dropdown). Use `#### Introduction/Summary` (visible) + evidence `<details>` dropdown. Findings only — not mechanism repeat. See `system/primary-mechanism-schema.md` (**PM §4.1 — Evidence Highlights**) and **PM section roles** in `system/mechanism-page-section-prose.md`.
 - **Non-repetition:** §1 = what; §4 = how; §4.1 = how we know. Do not restate the same claim across all three (reference: BRS1 PM2).
-- **Underlying:** subsection depth is `###` under the parent `##` (e.g. `### 5.1`, `### 5.2` on extended profile). Use either the full KC → Optional BRSX → Cross-BRS → Cofactors and Supporting Inputs set, or the PM1-style omission of Optional BRSX with Cofactors and Supporting Inputs before Cross-BRS, as documented in the schema.
-- **Dietary Levers** and **Lifestyle Levers** are separate numbered sections; body content uses the same `<details>` / `<summary><strong>Diet</strong></summary>` and `<summary><strong>Lifestyle</strong></summary>` pattern as FM pages.
-- **Dietary Levers (Diet):** substance ← 2–3 food examples per `system/substance-food-mapping-format.md`; no nested "Food sources (examples)"; no `food → substance` bullets.
+- **§5 Connected BRSX Mechanisms** — heading must match host BRS (`Connected BRS1 Mechanisms`, etc.); `### 5.1` Overarching Functional Mechanism (parent FM); `### 5.2` Connected Primary Mechanisms (sibling PMs on same FM).
+- **§6 Cross BRS Links** — PM/FM links in other BRS domains (harmonised with FM §6).
+- **Dietary Levers** and **Lifestyle Levers** are separate numbered sections; Lifestyle body uses `<details>` / `<summary><strong>Lifestyle</strong></summary>`.
+- **Dietary Levers (7.1):** substance ← 2–3 food examples per `system/substance-food-mapping-format.md`; no legacy Diet `<details>` wrapper; no nested "Food sources (examples)"; no `food → substance` bullets.
 - Do not add body sections after **References**. No **Missing Entities** section on the PM page.
 
 Field interpretation:
