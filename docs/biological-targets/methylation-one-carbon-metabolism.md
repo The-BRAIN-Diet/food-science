@@ -79,7 +79,7 @@ Choline plays a crucial role in acetylcholine synthesis and neuronal membrane in
 
 ## Functional Mechanisms
 
-These functional mechanisms represent connected groupings of biological mechanisms and dietary control points through which this system can be influenced.
+Functional Mechanisms (FMs) represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the principal biological targets of the framework.
 
 ### Core Functional Mechanisms
 

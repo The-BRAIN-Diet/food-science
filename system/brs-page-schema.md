@@ -52,7 +52,7 @@ Hub sections must not restate the BRS title or Overview at the start of Function
 
 ## Functional Mechanisms
 
-- Short framing sentence describing FMs as primary control points.
+- Short framing sentence describing FMs as integrated biological states and principal biological targets of the framework (see `system/brain-diet-ontology-rules.md` §1.2).
 
 ## Core Functional Mechanisms
 

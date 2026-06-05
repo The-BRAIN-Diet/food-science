@@ -27,7 +27,7 @@ The BRAIN Diet is structured as:
 Substances / Foods  
 -> Key Constraints (KC) — feasibility conditions  
 -> Primary Mechanisms (PM) — bounded biological mechanisms  
--> Functional Mechanisms (FM) — integrated functional states  
+-> Functional Mechanisms (FM) — integrated biological states (principal framework targets)  
 -> Specific Mechanisms (SM) — interpretation layers  
 -> Biological Regulatory Systems (BRS)  
 -> Functional Outcomes
@@ -49,9 +49,9 @@ They are:
 
 ## 1.2 Functional Mechanisms (FM)
 
-Functional Mechanisms are the **control layer** of the system.
+Functional Mechanisms (FMs) represent **integrated biological states** that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the **principal biological targets** of the framework.
 
-They:
+In this ontology, FMs are the **control layer** of the system. They:
 - represent scoreable biological control signals
 - define dietary design targets
 - define scoring inputs

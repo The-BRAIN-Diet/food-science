@@ -12,7 +12,7 @@
 |-------|------|
 | **KC** | Feasibility conditions — shared sufficiency and constraint context |
 | **PM** | Bounded biological mechanisms |
-| **FM** | Integrated functional states |
+| **FM** | Integrated biological states emerging from coordinated PMs — capacities, desired states or regulatory conditions; principal biological targets of the framework |
 | **SM** | Interpretation layers — context-specific reading of stable biology |
 
 The ontology describes biology. Therapeutic-area framing (e.g. ADHD) belongs on **BRS hub pages**, introductions, and rationale sections — not as a primary SM category.

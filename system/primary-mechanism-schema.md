@@ -111,9 +111,10 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
    - **Canonical structure (Profile A):** see **PM §4 — Canonical four-part narrative** below. **Reference page:** [BRS1(PM1)](/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation).
    - **`### Summary` (required):** why this mechanism matters — the integrative implication in plain language, not a restated Definition or repeated mechanism name.
    - **Body (required):** three or more `#### (…)` blocks after Summary, in order: **primary mechanism** (one or more thematic blocks) → **boundaries** → **integration** (KCs, parent FM, cross-links). Explain how the mechanism works; do not re-define the entity.
-   - **`<details>` (optional):** use only when the full narrative is long and collapsible UX helps; do not bury the primary implication inside `<details>`. Do not open `<details>` with scope-boundary or review-paper boilerplate.
+   - **`<details>` (recommended on Profile A reference pages):** keep **`### Summary` visible**; wrap all post-Summary mechanism content (every `####` block: primary mechanism, boundaries, integration) in one `<details><summary>…</summary>…</details>` inside `## 4.` Do **not** put Summary or §4.1 inside this dropdown.
    - **Citations (required where evidence-backed):** keep inline citations in §4 when rewriting or shortening prose — see **PM §4 — Citations** below. Do not drop references to make the narrative “cleaner.”
-   - **Excluded from §4:** dietary levers, substance ← food bullets, lifestyle levers, scoreable inputs (those belong in §6–§8).
+   - **Excluded from §4 mechanism dropdown:** dietary levers, substance ← food bullets, lifestyle levers, scoreable inputs (§6–§8). Evidence Highlights use `### 4.1` at the end of `## 4.` (not inside the mechanism `<details>`).
+4.1. Evidence Highlights — `### 4.1 Evidence Highlights` (optional, recommended on authored PMs) — **subsection of §4** after the mechanism `<details>`, still before `## 5.` See **PM §4.1 — Evidence Highlights** below.
 5. Underlying Mechanisms and Requirements — `## 5. Underlying Mechanisms and Requirements`
    - **Full subsection set:** `### 5.1` Cofactors and Supporting Inputs, `### 5.2` KCs, `### 5.3` Optional BRSX Modifiers, `### 5.4` Cross-BRS Links
    - **PM1-style (no Optional BRSX subsection):** `### 5.1` Cofactors and Supporting Inputs, `### 5.2` KCs (Key Constraints), `### 5.3` Cross-BRS Links (canonical: BRS6 PM1)
@@ -129,7 +130,8 @@ Same as **Profile A** but omit §2 Intervention Breakdown when the PM does not u
 ### Profile B — Compact PM (e.g. BRS6 PM2–PM8, BRS6 PM5)
 
 1. Definition — `## 1. Definition`
-2. Mechanistic Basis — `## 2. Mechanistic Basis` (optional `### Summary` + `<details>` as in Profile A when the narrative grows)
+2. Mechanistic Basis — `## 2. Mechanistic Basis` (canonical four-part narrative)
+2.1. Evidence Highlights — `### 2.1 Evidence Highlights` (optional — same rules as §4.1; subsection at end of `## 2.`)
 3. Underlying Mechanisms and Requirements — `## 3. Underlying Mechanisms and Requirements` with `### 3.1` Cofactors and Supporting Inputs, `### 3.2` KCs, `### 3.3` Optional BRSX Modifiers, `### 3.4` Cross-BRS Links
 4. Dietary Levers — `## 4.` (`<details>` / **Diet**)
 5. Lifestyle Levers — `## 5.` (`<details>` / **Lifestyle**)
@@ -169,6 +171,39 @@ Mechanistic Basis must remain **evidence-anchored**, not assertion-only. The fou
 - Pull keys from `key_studies` / spreadsheet `references` front matter when ingesting; verify each `citation_key` exists in `static/bibtex/BRAIN-diet.bib`.
 
 **When rewriting §4:** preserve existing citations unless the claim is removed; add citations for new evidence-backed claims. **Reference:** [BRS1(PM1)](/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation) (Mariotti in primary mechanism; Fernstrom in boundaries).
+
+### PM §4.1 — Evidence Highlights
+
+**Purpose:** Curated, insight-driven findings that show **why the mechanism matters in practice** — not a second Mechanistic Basis and not a literature review.
+
+**Placement:** `### 4.1 Evidence Highlights` as a **subsection of §4** (after the mechanism `<details>`, not inside it). Order within `## 4.`: `### Summary` → mechanism `<details>` → `### 4.1 Evidence Highlights` → then `## 5. Underlying…`. Profile B: `### 2.1 Evidence Highlights` at the end of `## 2. Mechanistic Basis`.
+
+| § | Role |
+|---|------|
+| **§4 Mechanistic Basis** | How the biology works (canonical four-part narrative). |
+| **§4.1 Evidence Highlights** | What important studies found and why that changes or qualifies interpretation. |
+| **§5 Underlying** | Dependencies, cofactors, KCs, connected PMs, cross-BRS links. |
+| **§6 Dietary Levers** | Practical food-based strategies. |
+
+**Include studies that (high priority):** alter interpretation; reveal synergies or dependencies; show meaningful human or intervention relevance; expose heterogeneity or context-dependent responses.
+
+**Exclude (low priority):** findings that only repeat §4 textbook biology; small redundant mechanistic papers; studies that merely mention the pathway without changing how to read the PM.
+
+**UX:** `#### Introduction/Summary` (visible) → one `<details>` with finding-focused bullets or short `####` blocks. Reference: [BRS1(PM1)](/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation), [BRS1(PM2)](/docs/biological-targets/brs1/pm/brs1-pm2-lat1-competitive-transport-modulation).
+
+**Non-repetition:** §1 = *what*; §4 = *how*; §4.1 = *how we know*. Do not restate the same meal-composition or pathway claim across all three (see `system/mechanism-page-section-prose.md` — **PM section roles**).
+
+**Writing style:** Short bullets or tight paragraphs. Lead with **why the finding is interesting**, not methods or results laundry lists. Link to bibliography: `[Author (Year)](/docs/papers/BRAIN-Diet-References#citation_key) [n]`. Add new keys to `static/bibtex/BRAIN-diet.bib` only when no suitable entry exists.
+
+**Good pattern:** “B-vitamin supplementation slowed cognitive decline primarily when omega-3 status was adequate, supporting a nutrient-synergy read of one-carbon and membrane biology → [Oulhaj et al. (2016)](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016) [n].”
+
+**Anti-pattern:** “Smith et al. conducted a randomized trial in N participants measuring…”
+
+**Citations:** Same rules as §4 — every `[n]` in §4.1 must appear in **References**; prefer existing BRAIN-diet bibliography entries.
+
+**Profile B:** use `### 2.1 Evidence Highlights` at the end of `## 2. Mechanistic Basis` with the same authoring rules.
+
+Authoring detail: `system/mechanism-page-section-prose.md` (**PM §4.1 — Evidence Highlights**).
 
 ### Excluded from the public PM body
 

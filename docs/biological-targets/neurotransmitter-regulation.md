@@ -54,14 +54,14 @@ ADHD neurobiology spans multiple BRS1 pathways. Each entry below gives a short c
 
 ## Functional Mechanisms
 
-These functional mechanisms represent connected groupings of biological mechanisms and dietary control points through which this system can be influenced.
+Functional Mechanisms (FMs) represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the principal biological targets of the framework.
 
 ### Core Functional Mechanisms
 
 - [BRS1(FM1) — Catecholaminergic Function (Dopamine + Norepinephrine)](/docs/biological-targets/brs1/fm/brs1-fm1-catecholaminergic-function): Provision and brain-delivery context of catecholamine precursors and signalling support for dopamine- and norepinephrine-related motivation, attention, arousal, and executive function.
 - [BRS1(FM2) — Glycaemic Modulation of Neurotransmitter Balance](/docs/biological-targets/brs1/fm/brs1-fm2-glycaemic-modulation-of-neurotransmitter-balance): Influence of carbohydrate quality, meal sequencing, and glycaemic response on precursor partitioning and neurotransmitter bias.
 - [BRS1(FM3) — Cholinergic Function](/docs/biological-targets/brs1/fm/brs1-fm3-cholinergic-function): Provision of dietary choline and cholinergic support relevant to attention, working memory, and cognitive precision.
-- [BRS1(FM4) — Phospholipid-Mediated DHA Delivery & Membrane Integration](/docs/biological-targets/brs1/fm/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration): Delivery and incorporation of DHA-rich phospholipids into neuronal membranes to support synaptic signalling and membrane function.
+- [BRS1(FM4) — Membrane Composition, Fluidity & Structural Lipid Integrity](/docs/biological-targets/brs1/fm/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration): Integrated membrane composition, fluidity, and structural lipid integrity supporting neuronal network signalling competence.
 - [BRS1(FM5) — Excitatory–Inhibitory Balance (GABA–Glutamate Regulation)](/docs/biological-targets/brs1/fm/brs1-fm5-excitatory-inhibitory-balance-gaba-glutamate-regulation): Functional control of excitatory–inhibitory tone through GABA–glutamate balance, supporting neural stability, inhibitory control, and resistance to overstimulation.
 
 ---
@@ -97,3 +97,4 @@ Interpretation layers — phenotype-sensitive (`SM-PHEN`), variant-sensitive (`S
 - [BRS1(SM-PHEN2) — Emotional Dysregulation & Serotonergic Regulation](/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-serotonergic-regulation)
 - [BRS1(SM-CROSS1) — Histaminergic Arousal Regulation & Neuroimmune Crosstalk](/docs/biological-targets/brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk)
 - [BRS1(SM-SNP1) — COMT Catecholamine Clearance Sensitivity](/docs/biological-targets/brs1/sm/brs1-sm-snp1-comt-catecholamine-clearance-sensitivity)
+- [BRS1(SM-SNP2) — APOE4 Omega-3 Brain Delivery Sensitivity](/docs/biological-targets/brs1/sm/brs1-sm-snp2-apoe4-omega-3-brain-delivery-sensitivity)

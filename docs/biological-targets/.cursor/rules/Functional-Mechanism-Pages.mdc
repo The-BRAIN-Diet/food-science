@@ -18,6 +18,7 @@ Follow:
 - `system/mechanism-page-section-prose.md` — sections must not restate title, entity ID, BRS name/number, or Definition; each section follows only its schema role.
 
 Integration without repetition (required):
+- **Ontology:** FMs are integrated biological states emerging from coordinated PMs — capacities, desired states or regulatory conditions; principal biological targets of the framework (`system/brain-diet-ontology-rules.md` §1.2).
 - FM pages **synthesise** PMs; they do not **repeat** PM page content.
 - **PMs own mechanisms. FMs own emergent integration.**
 - **Definition (§1):** name the integrated regulatory state; reflect each included PM’s core contribution; state the emergent functional consequence; do not paste full PM definitions. Use the pattern: `Integrated regulation of [PM1], [PM2], and [PM3], influencing [outcome].`
