@@ -68,9 +68,10 @@ Section **4. Mechanistic Basis (Integrated FM Narrative)** (`## 4.`) is the trai
 Section **4.** must include:
 
 - **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with one contribution line each
-- **`### 4.2 Supporting Biological Pools (Key Constraints)`** — linked KC bullets with one contribution line each
+- **`### 4.2 Supporting Biological Pools (Key Constraints)`** — linked KC bullets with one contribution line each, or `- None listed` when no KCs apply
 - **`### 4.3 Integrated Functional Narrative`** — synthesis paragraph(s) explaining how PMs and KCs combine into the FM state
-- **`### 4.4 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
+- **`### 4.4 Functional Failure Modes`** — required when `key_constraints` is non-empty; KC-linked stressor narrative explaining functional failure (omit when §4.2 is `- None listed`)
+- **`### 4.5 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
 
 Within §4:
 
@@ -83,11 +84,17 @@ Within §4:
 
 1. Opening line (optional) introducing the integrated narrative
 2. **`### 4.1 Core Primary Mechanisms`** — linked PM list with contribution lines
-3. **`### 4.2 Supporting Biological Pools (Key Constraints)`** — linked KC list with contribution lines
+3. **`### 4.2 Supporting Biological Pools (Key Constraints)`** — linked KC list with contribution lines, or `- None listed`
 4. **`### 4.3 Integrated Functional Narrative`** — synthesis paragraph(s)
-5. Optional **`### 4.4 Evidence Highlights`**
+5. **`### 4.4 Functional Failure Modes`** — when `key_constraints` is non-empty (see **BRS5(FM1)**)
+6. Optional **`### 4.5 Evidence Highlights`** — when FM-level evidence framing is needed (see **BRS1(FM4)**)
 
-**Canonical example:** `docs/biological-targets/brs4/fm/brs4-fm1-cellular-bioenergetics.mdx`
+**Canonical examples:**
+
+| Pattern | Reference |
+|---|---|
+| §4.1–4.3 + optional §4.5 (no KCs) | `docs/biological-targets/brs1/fm/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` |
+| §4.1–4.4 with KC-linked failure modes | `docs/biological-targets/brs5/fm/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx` |
 
 **Good pattern:**
 
@@ -243,16 +250,17 @@ First line of the MDX body (after front matter) must be the FM title: `## <FM_ID
 
 ### Canonical public body (synthesis contract)
 
-Numbered sections must stay contiguous. Optional `### 4.1 Evidence Highlights` nests under §4 when used (FM-level “why this matters” — not PM intervention evidence).
+Numbered sections must stay contiguous. Optional `### 4.5 Evidence Highlights` nests under §4 when used (FM-level “why this matters” — not PM intervention evidence).
 
 1. **Definition** — `## 1. Definition` — integrated regulatory state per **FM Definition Rule**; `summary` in front matter must match this intent
 2. **Intervention Breakdown** — `## 2. Intervention Breakdown` — single allowed value per **Intervention Breakdown** (required); must match `intervention_breakdown` in front matter
 3. **Functional Role** — `## 3. Functional Role` — short directional arrow line describing **emergent FM outcomes** per **FM Functional Role Rule**
 4. **Mechanistic Basis (Integrated FM Narrative)** — `## 4. Mechanistic Basis (Integrated FM Narrative)` — per **FM Mechanistic Basis Rule** and **Deduplication Rule**; weave timing context in §4.3 when `timing_specific: "Yes"`
    - **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with contribution lines
-   - **`### 4.2 Supporting Biological Pools (Key Constraints)`** — linked KC bullets with contribution lines
+   - **`### 4.2 Supporting Biological Pools (Key Constraints)`** — linked KC bullets with contribution lines, or `- None listed`
    - **`### 4.3 Integrated Functional Narrative`** — synthesis paragraph(s)
-   - **`### 4.4 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
+   - **`### 4.4 Functional Failure Modes`** — required when `key_constraints` is non-empty
+   - **`### 4.5 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
 5. **Cross BRS Links** — `## 5. Cross BRS Links` — roll up from constituent PM `§6 Cross BRS Links` with linked PM pages where they exist
 6. **References** — `## 6. References` — numbered list with bibliography links
 
@@ -268,7 +276,7 @@ Do not add body sections after **References** (`## 6.`). The following are **not
 
 ### Legacy note
 
-Older FM pages used Diet/Lifestyle/Scoreable sections and `Underlying Mechanisms and Requirements` with PM/KC rollups. New edits must follow the **synthesis contract** above (§5 Primary Mechanisms + §6 Cross BRS Links).
+Older FM pages used Diet/Lifestyle/Scoreable sections and `Underlying Mechanisms and Requirements` with PM/KC rollups. New edits must follow the **synthesis contract** above (§4 integrated narrative + §5 Cross BRS Links).
 
 ## Automated validation
 
@@ -296,8 +304,9 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - `## 5. Cross BRS Links` is required; roll up from constituent PM §6 cross-BRS links.
 - `## 6. References` is required when references exist in front matter.
 - §4 must include `### 4.1 Core Primary Mechanisms`, `### 4.2 Supporting Biological Pools (Key Constraints)`, and `### 4.3 Integrated Functional Narrative`.
+- When `key_constraints` is non-empty, §4 must include `### 4.4 Functional Failure Modes`.
 - FM pages must **not** include standalone `## N. Primary Mechanisms (PMs)` or `## N. KCs` sections — PM/KC links belong in §4.1/§4.2.
-- Optional `### 4.4 Evidence Highlights` must nest under §4 Mechanistic Basis when present (not `### 4.1` on FM pages).
+- Optional `### 4.5 Evidence Highlights` must nest under §4 Mechanistic Basis when present.
 - Published body must render `## 2. Intervention Breakdown` between Definition and Functional Role; body value must match front matter `intervention_breakdown`.
 - Claims in Mechanistic Basis and §4.1 must stay mechanistic / interpretive (`may`, `supports`, `associated with`) unless evidence supports stronger wording.
 - Where `scoring_interpretation` or similar content exists in YAML or tooling, it must not include formulas, equations, or numeric scoring logic.

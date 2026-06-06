@@ -5,8 +5,31 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import {
+  buildFailureModesSection,
+  extractEvidenceHighlightsBlock,
+  insertFailureModesInSection4,
+} from "./fm-failure-modes.mjs";
 
 const FM_OVERRIDES = {
+  "BRS1(FM4)": `## 4. Mechanistic Basis (Integrated FM Narrative)
+
+Membrane composition, fluidity & structural lipid integrity emerges from the coordinated interaction of several primary mechanisms and supporting biological pools.
+
+### 4.1 Core Primary Mechanisms
+
+- [BRS1(PM4) — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/pm/brs1-pm4-neuronal-membrane-dha-incorporation)
+  Brain DHA accretion and incorporation into neuronal membrane phospholipids, supporting membrane fluidity and the structural lipid environment within which neural signalling occurs.
+
+### 4.2 Supporting Biological Pools (Key Constraints)
+
+- None listed
+
+### 4.3 Integrated Functional Narrative
+
+Together, the core primary mechanisms (Neuronal Membrane DHA Incorporation) operationalise BRS1(FM4) as an integrated functional state.
+
+At the FM level, performance depends on whether constituent PMs and shared constraint pools remain adequate rather than chronically constrained.`,
   "BRS4(FM1)": `## 4. Mechanistic Basis (Integrated FM Narrative)
 
 Cellular bioenergetics emerges from the coordinated interaction of several primary mechanisms and supporting biological pools.
@@ -128,24 +151,22 @@ function defaultIntegratedNarrative(fmData, pms, kcs, legacy) {
 At the FM level, performance depends on whether constituent PMs and shared constraint pools remain adequate rather than chronically constrained.`;
 }
 
-function extractEvidenceHighlights(oldSection4) {
-  const m = oldSection4.match(/(### 4\.1 Evidence Highlights[\s\S]*?)(?=\n## 5\.|\n## 6\.|\n## 7\.|$)/);
-  if (!m) return "";
-  return m[1].replace("### 4.1 Evidence Highlights", "### 4.4 Evidence Highlights").trim() + "\n\n";
-}
-
-export function buildIntegratedMechanisticBasis(fmData, oldSection4, rootDir) {
+export function buildIntegratedMechanisticBasis(fmData, oldSection4, rootDir, kcStressorMap = {}) {
   if (FM_OVERRIDES[fmData.fm_id]) {
-    const evidence = extractEvidenceHighlights(oldSection4);
-    return FM_OVERRIDES[fmData.fm_id] + (evidence ? `\n\n${evidence}` : "");
+    const evidence = extractEvidenceHighlightsBlock(oldSection4);
+    const failure =
+      fmData.fm_id === "BRS1(FM4)" ? null : buildFailureModesSection(fmData, kcStressorMap);
+    const base = FM_OVERRIDES[fmData.fm_id];
+    return insertFailureModesInSection4(base, failure, evidence);
   }
 
   const pms = fmData.mechanisms_covered || [];
   const kcs = fmData.key_constraints || [];
-  const evidence = extractEvidenceHighlights(oldSection4);
+  const evidence = extractEvidenceHighlightsBlock(oldSection4);
   const legacy = extractLegacyNarrative(oldSection4);
+  const failure = buildFailureModesSection(fmData, kcStressorMap);
 
-  return `## 4. Mechanistic Basis (Integrated FM Narrative)
+  const core = `## 4. Mechanistic Basis (Integrated FM Narrative)
 
 ${fmOpeningLine(fmData)}
 
@@ -159,8 +180,9 @@ ${buildKcBullets(rootDir, kcs)}
 
 ### 4.3 Integrated Functional Narrative
 
-${defaultIntegratedNarrative(fmData, pms, kcs, legacy)}
-${evidence ? `\n${evidence}` : ""}`.trim();
+${defaultIntegratedNarrative(fmData, pms, kcs, legacy)}`.trim();
+
+  return insertFailureModesInSection4(core, failure, evidence);
 }
 
 export function replaceFmSection4(content, fmData, rootDir) {

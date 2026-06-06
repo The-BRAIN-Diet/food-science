@@ -228,7 +228,11 @@ ${kcBullets}
 
 ### 4.3 Integrated Functional Narrative
 
-${synthesis}`;
+${synthesis}
+
+### 4.4 Functional Failure Modes
+
+Functional failure may arise when linked biological pools are chronically depleted or strained; see linked KC pages for pool definitions and FM-specific failure narrative.`;
 }
 
 export function generateBrsFromSpreadsheet({
@@ -310,13 +314,7 @@ ${linkedFms.map((fm) => `- [${fm.id} - ${fm.name}](/docs/biological-targets/brs$
 
 ${linkedPms.map((pm) => `- [${pm.id} - ${pm.name}](/docs/biological-targets/brs${brsNum}/pm/${slugById.get(pm.id)})`).join("\n") || "- None listed"}
 
-### 6. Constraint Stressors / Burdens
-
-- inadequate substrate or precursor availability
-- ultra-processed dietary patterns displacing whole-food sources
-- chronic burden increasing demand on the shared pool
-
-### 7. References
+### 6. References
 
 ${linkedFms.length ? "1. See linked FM pages for cited evidence." : ""}
 `;

@@ -344,7 +344,14 @@ function validateEvidenceHighlightsPlacement(content, sections, issues, { entity
     pushIssue(
       issues,
       "fm_evidence_highlights_subsection",
-      `${entityLabel}: on FM pages use ### 4.4 Evidence Highlights (§4.1–4.3 are reserved for integrated narrative subsections)`,
+      `${entityLabel}: on FM pages use ### 4.5 Evidence Highlights (§4.4 is Functional Failure Modes)`,
+    );
+  }
+  if (evSub === 4 && /Integrated FM Narrative/.test(mechanistic.title)) {
+    pushIssue(
+      issues,
+      "fm_evidence_highlights_subsection",
+      `${entityLabel}: on FM pages use ### 4.5 Evidence Highlights (§4.4 is Functional Failure Modes)`,
     );
   }
 }
@@ -364,7 +371,7 @@ const FM_FORBIDDEN_INDEX_SECTIONS = [
   { match: (t) => t === "KCs" || t.startsWith("KCs "), label: "KCs" },
 ];
 
-function validateFmSynthesisContract(content, sections, issues, { entityLabel }) {
+function validateFmSynthesisContract(content, sections, issues, { entityLabel, data = {} }) {
   for (const title of FM_FORBIDDEN_BODY_SECTIONS) {
     if (sections.some((s) => s.title === title || s.title.startsWith(title))) {
       pushIssue(
@@ -433,6 +440,27 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel })
         `${entityLabel}: §4 must include ### ${label}`,
       );
     }
+  }
+
+  const hasKcs = Array.isArray(data.key_constraints) && data.key_constraints.length > 0;
+  if (
+    hasKcs &&
+    mechanistic &&
+    !/^### 4\.4 Functional Failure Modes/m.test(mbBlock)
+  ) {
+    pushIssue(
+      issues,
+      "fm_missing_failure_modes",
+      `${entityLabel}: §4 must include ### 4.4 Functional Failure Modes when key_constraints are linked`,
+    );
+  }
+
+  if (/^### 4\.4 Evidence Highlights/m.test(mbBlock)) {
+    pushIssue(
+      issues,
+      "fm_evidence_highlights_subsection",
+      `${entityLabel}: move Evidence Highlights to ### 4.5 Evidence Highlights (§4.4 is Functional Failure Modes)`,
+    );
   }
 }
 
@@ -513,7 +541,7 @@ function validateFmPage(filePath, { rootDir }) {
   const sections = parseNumberedSections(content);
   validateContiguousNumbering(sections, issues, { entityLabel });
   validateEvidenceHighlightsPlacement(content, sections, issues, { entityLabel });
-  validateFmSynthesisContract(content, sections, issues, { entityLabel });
+  validateFmSynthesisContract(content, sections, issues, { entityLabel, data });
 
   const numbered = sections.filter((s) => s.type === "major" && s.level <= 6);
   if (numbered.length >= 3) {
@@ -820,6 +848,24 @@ function validateKcPage(filePath) {
   const issues = [];
   validateNoPublicSpreadsheetMentions(content, issues, { entityLabel });
   validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "kc" });
+
+  if (/### 6\. Constraint Stressors \/ Burdens/m.test(content)) {
+    pushIssue(
+      issues,
+      "kc_stressor_section_removed",
+      `${entityLabel}: remove ### 6. Constraint Stressors / Burdens — migrate stressors to linked FM §4.4 Functional Failure Modes`,
+    );
+  }
+
+  const sections = parseNumberedSections(content).filter((s) => s.type === "major" || s.title.startsWith("References"));
+  const refs = sections.find((s) => s.title.startsWith("References"));
+  if (refs && refs.level !== 6) {
+    pushIssue(issues, "kc_refs_numbering", `${entityLabel}: References must be ### 6. References`);
+  }
+  if (/^### 7\. References/m.test(content)) {
+    pushIssue(issues, "kc_refs_numbering", `${entityLabel}: References must be ### 6. References (not ### 7.)`);
+  }
+
   return { kind: "kc", filePath, entityId: data.kc_id, ok: issues.length === 0, issues };
 }
 

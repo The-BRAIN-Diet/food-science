@@ -76,8 +76,7 @@ Render sections in this exact order (Section Rules are authoritative):
 3. Shared Biological Pool
 4. Biological Importance
 5. Connected Mechanisms (#### Functional Mechanisms, #### Primary Mechanisms)
-6. Constraint Stressors / Burdens
-7. References
+6. References
 
 Page title line format (above section 1):
 
@@ -209,38 +208,7 @@ KCs may support multiple PMs/FMs simultaneously.
 
 KC pages must not define PM→PM or FM→FM dependencies.
 
-### 6. Constraint Stressors / Burdens
-
-List factors that may:
-
-- deplete
-- destabilise
-- strain
-- impair
-- increase demand upon
-
-the KC.
-
-Examples:
-
-- inadequate protein intake
-- ultra-processed low-fibre diets
-- chronic stress exposure
-- erratic meal timing
-- inflammatory burden
-- oxidative load
-- prolonged underfeeding
-
-Keep concise.
-
-Avoid:
-
-- speculative disease claims
-- intervention prescriptions
-
-Legacy ontology note (internal): cofactors and PM-local biochemical supports belong at PM/SM level, not KC level.
-
-### 7. References
+### 6. References
 
 See **KC Evidence Layer Rules** below for citation philosophy, density, hierarchy, and resolution requirements.
 
@@ -248,7 +216,7 @@ Render a numbered bibliography list. All public links must use:
 
 `/docs/papers/BRAIN-Diet-References#citationKey`
 
-Use numeric inline citations `[1]`, `[2]` only where sections 1–2, 4, or 6 make evidence-backed claims requiring a source.
+Use numeric inline citations `[1]`, `[2]` only where sections 1–2 or 4 make evidence-backed claims requiring a source.
 
 ---
 
@@ -459,9 +427,7 @@ connected_mechanisms:                # section 5
     - id: string
       name: string
       href: string
-constraint_stressors:                # section 6
-  - string
-references:                          # section 7
+references:                          # section 6
   - index: number
     label: string
     citation_key: string
@@ -485,8 +451,7 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 | 3 | `### 3. Shared Biological Pool` |
 | 4 | `### 4. Biological Importance` |
 | 5 | `### 5. Connected Mechanisms` |
-| 6 | `### 6. Constraint Stressors / Burdens` |
-| 7 | `### 7. References` |
+| 6 | `### 6. References` |
 
 ## Validation Rules
 
