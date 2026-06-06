@@ -2,10 +2,9 @@ package brain
 
 import "brain/common"
 
-// Key Constraint public body: section 3 uses substance-first food examples.
+// Key Constraint public body: section 3 lists shared biological pool members (no food mapping).
 #KCSupportingInputsSection: {
-	heading: "### 3. Supporting Inputs/Substrates"
-	// Each substrate bullet should match #SubstanceFoodBullet when foods are listed.
+	heading: "### 3. Shared Biological Pool"
 }
 
-#KCBullet: common.#SubstanceFoodBullet | string
+#KCBullet: string

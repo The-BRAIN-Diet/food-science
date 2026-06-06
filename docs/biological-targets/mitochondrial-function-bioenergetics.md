@@ -86,7 +86,7 @@ Functional Mechanisms (FMs) represent integrated biological states that emerge f
 
 ## Requirements (Key Constraints)
 
-Key Constraints (KCs) in BRS4 describe the shared substrate and cofactor conditions that shape whether mitochondrial energy production, redox control, and adaptive capacity can be maintained effectively at all. In this system they act less as isolated nutrient targets than as baseline energetic infrastructure supporting multiple downstream mechanisms simultaneously.
+Key Constraints (KCs) in BRS4 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
 
 - [BRS4(KC1) - Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability): Availability of glucose, fatty acids, and amino acids for ATP production.
 - [BRS4(KC2) - Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency): Availability of vitamins and minerals required for mitochondrial enzymes and electron transfer.
@@ -95,7 +95,7 @@ Key Constraints (KCs) in BRS4 describe the shared substrate and cofactor conditi
 
 ## Primary Mechanisms
 
-Primary mechanisms sit beneath functional mechanisms and define the specific mitochondrial processes acting within those shared substrate and cofactor constraints.
+Primary mechanisms sit beneath functional mechanisms and define the specific mitochondrial processes acting within those shared biological pool constraints.
 
 - [BRS4(PM1) - Electron Transport Chain Function](/docs/biological-targets/brs4/pm/brs4-pm1-electron-transport-chain-function)
 - [BRS4(PM2) - Mitochondrial Biogenesis](/docs/biological-targets/brs4/pm/brs4-pm2-mitochondrial-biogenesis)

@@ -153,11 +153,10 @@ Functional Mechanisms (FMs) represent integrated biological states that emerge f
 
 ## Requirements (Key Constraints)
 
-Key Constraints (KCs) in BRS3 describe the shared substrate, cofactor, and lipid-balance conditions that shape whether inflammatory control, antioxidant defence, and resolution capacity can be maintained effectively at all. In this system they act less as isolated nutrient targets than as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
+Key Constraints (KCs) in BRS3 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
 
-- [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability): Availability of dietary antioxidant substrates and glutathione precursors required for redox buffering and damage limitation.
-- [BRS3(KC2) - Antioxidant Cofactor Sufficiency](/docs/biological-targets/brs3/kc/brs3-kc2-antioxidant-cofactor-sufficiency): Availability of trace-mineral cofactors required for endogenous antioxidant enzymes and metal-binding defence.
-- [BRS3(KC3) - Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance): Availability and balance of omega-3 and omega-6 fatty acids required for inflammatory signalling and resolution pathways.
+- [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability): Availability of antioxidant substrates and precursor compounds required to support endogenous antioxidant defence, redox buffering, and oxidative-damage limitation.
+- [BRS3(KC3) - Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance): Availability and balance of omega-3 and omega-6 fatty acids required for inflammatory signalling, membrane composition, and inflammation-resolution pathways.
 
 ---
 

@@ -129,6 +129,15 @@ import {
   formatSubstanceFoodBullets,
 } from "./substance-food-mapping.mjs";
 
+function interventionsToPoolBullets(interventions) {
+  const substances = interventions
+    .filter((i) => i.lever)
+    .map((i) => i.lever.trim())
+    .filter(Boolean);
+  if (!substances.length) return "- None listed";
+  return substances.map((s) => `- ${s}`).join("\n");
+}
+
 function interventionsToSubstanceBullets(interventions) {
   const legacyLines = interventions
     .filter((i) => i.lever && i.signal)
@@ -191,12 +200,35 @@ function integratedFmDefinition(fm, pms) {
   return `Integrated regulation of ${list}, influencing ${outcome}.`;
 }
 
-function mechanisticBasisFm(fm, pms) {
-  const lines = pms.map((p) => {
-    const label = p.id.replace(/BRS\d+\(PM(\d+)\)/i, "PM$1");
-    return `${label} governs ${p.name || p.id}.`;
-  });
-  return `${fm.description}\n\n${lines.join(" ")}\n\nTogether, these PMs operationalise ${fm.id} as a coordinated methylation and one-carbon control point. ${fm.outputs ? `Emergent functional consequence: ${fm.outputs.replace(/;/g, "; ")}.` : ""}`;
+function mechanisticBasisFm(fm, pms, kcs, brsNum, slugById) {
+  const pmBullets = pms
+    .map((p) => {
+      const href = `/docs/biological-targets/brs${brsNum}/pm/${slugById.get(p.id)}`;
+      return `- [${p.id} — ${p.name}](${href})\n  Contributes to ${fm.name || fm.id}.`;
+    })
+    .join("\n\n");
+  const kcBullets = kcs.length
+    ? kcs
+        .map((k) => {
+          const href = `/docs/biological-targets/brs${brsNum}/kc/${slugById.get(k.id)}`;
+          return `- [${k.id} — ${k.name || k.id}](${href})\n  Constrains shared pool availability for constituent PMs.`;
+        })
+        .join("\n\n")
+    : "- None listed";
+  const synthesis = `${fm.description}\n\nTogether, these PMs and supporting pools operationalise ${fm.id} as an integrated functional state.${fm.outputs ? ` Emergent functional consequence: ${fm.outputs.replace(/;/g, "; ")}.` : ""}`;
+  return `${fm.description || `${fm.name} emerges from coordinated PM and KC context.`}
+
+### 4.1 Core Primary Mechanisms
+
+${pmBullets}
+
+### 4.2 Supporting Biological Pools (Key Constraints)
+
+${kcBullets}
+
+### 4.3 Integrated Functional Narrative
+
+${synthesis}`;
 }
 
 export function generateBrsFromSpreadsheet({
@@ -258,29 +290,31 @@ ${kc.description}
 
 ### 2. Constraint Role
 
-${kc.description} Dietary substrates and cofactors supply substrate and cofactor context for dependent mechanisms in this BRS.
+Provides the shared biological pool required for effective operation of linked mechanisms in this BRS.
 
-### 3. Supporting Inputs/Substrates
+### 3. Shared Biological Pool
 
-${interventionsToSubstanceBullets(interventions)}
+${interventionsToPoolBullets(interventions)}
 
 ### 4. Biological Importance
 
-${kc.description} Inadequate coverage of these inputs can limit one-carbon flux, remethylation, and downstream methylation-dependent processes across linked FMs and PMs.
+${kc.description} Insufficient pool availability may constrain effective operation of linked FMs and PMs.
 
 ### 5. Connected Mechanisms
 
-- Functional Mechanisms
-${linkedFms.map((fm) => `  - [${fm.id} - ${fm.name}](/docs/biological-targets/brs${brsNum}/fm/${slugById.get(fm.id)})`).join("\n")}
-- Primary Mechanisms
-${linkedPms.map((pm) => `  - [${pm.id} - ${pm.name}](/docs/biological-targets/brs${brsNum}/pm/${slugById.get(pm.id)})`).join("\n")}
+#### Functional Mechanisms
+
+${linkedFms.map((fm) => `- [${fm.id} - ${fm.name}](/docs/biological-targets/brs${brsNum}/fm/${slugById.get(fm.id)})`).join("\n") || "- None listed"}
+
+#### Primary Mechanisms
+
+${linkedPms.map((pm) => `- [${pm.id} - ${pm.name}](/docs/biological-targets/brs${brsNum}/pm/${slugById.get(pm.id)})`).join("\n") || "- None listed"}
 
 ### 6. Constraint Stressors / Burdens
 
-- inconsistent methyl-donor intake across days
-- low folate, B12, choline, or betaine food patterns where KC1 applies
-- inadequate sulfur amino-acid and glycine supply where KC2 applies
-- ultra-processed dietary patterns displacing whole-food methyl-donor sources
+- inadequate substrate or precursor availability
+- ultra-processed dietary patterns displacing whole-food sources
+- chronic burden increasing demand on the shared pool
 
 ### 7. References
 
@@ -454,19 +488,15 @@ ${DOMINANCE_TO_BREAKDOWN[dominance] || "Food-State Dominant"}
 
 ${fm.outputs || "↑ integrated pathway support"}
 
-## 4. Mechanistic Basis (Synthesis of PMs)
+## 4. Mechanistic Basis (Integrated FM Narrative)
 
-${mechanisticBasisFm(fm, pms)}
+${mechanisticBasisFm(fm, pms, kcs, brsNum, slugById)}
 
-## 5. Primary Mechanisms (PMs)
-
-${pms.map((p) => `- [${p.id} — ${p.name}](/docs/biological-targets/brs${brsNum}/pm/${slugById.get(p.id)})`).join("\n")}
-
-## 6. Cross BRS Links
+## 5. Cross BRS Links
 
 ${cross.map((c) => `- ${c.id}${c.name ? ` — ${c.name}` : ""}`).join("\n") || "- None listed"}
 
-## 7. References
+## 6. References
 
 ${refSection || "1. See PM pages for linked citations."}
 `;

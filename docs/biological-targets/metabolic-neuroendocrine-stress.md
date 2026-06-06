@@ -91,12 +91,13 @@ Do not rename, reorder, paraphrase, or reinterpret.
 
 ## Requirements (Key Constraints)
 
+Key Constraints (KCs) in BRS6 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
+
 - [BRS6-KC1 — Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
 - [BRS6-KC2 — Stress-Response Micronutrient & Lipid Sufficiency](/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency)
 
 <!--
-Key Constraints define required substrates and conditions for system function.
-They are not intervention targets and should not include food examples.
+Key Constraints are shared biological pool constraints, not intervention targets. Individual KC pages should not include food examples.
 -->
 
 ---
