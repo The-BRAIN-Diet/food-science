@@ -12,26 +12,38 @@ This schema defines the canonical data contract and authoring contract for Key C
 
 ## KC Definition
 
-A Key Constraint (KC) is a foundational biological sufficiency, substrate condition, structural requirement, or enabling constraint required for effective operation of one or more PMs/FMs.
-
-KCs are:
-
-- enabling conditions
-- substrate or precursor requirements
-- structural or sufficiency states
-- foundational biological constraints
-
-KCs are NOT:
-
-- mechanisms
-- regulatory processes
-- cofactor lists
-- intervention protocols
-- scoring systems
+A Key Constraint (KC) is a shared substrate, precursor, or structural biological pool whose availability constrains the effective operation of multiple Primary Mechanisms (PMs) within a Biological Regulation System (BRS).
 
 KCs describe:
 
-> What must be sufficiently available, intact, balanced, or supported for mechanisms to operate effectively?
+- shared substrate pools
+- shared precursor pools
+- shared structural biological pools
+- resources drawn upon by multiple PMs
+
+Examples: amino acids, methyl donors, macronutrient fuels, antioxidant precursors, essential fatty acids, structural membrane lipids.
+
+KCs should NOT describe:
+
+- cofactors
+- vitamins and minerals acting as enzyme cofactors
+- lifestyle interventions
+- behavioural factors
+- mechanisms themselves
+- PM-specific requirements
+
+### Architectural Principle
+
+| Layer | Answers |
+|---|---|
+| KC | What shared biological resource pool do multiple PMs depend upon? |
+| PM Cofactors (§7.2) | What vitamins, minerals, or supporting compounds are required by this specific mechanism? |
+
+This distinction avoids duplication between KC pages and PM cofactor sections.
+
+KCs answer:
+
+> What shared biological resource pool do multiple PMs depend upon?
 
 ---
 
@@ -39,10 +51,10 @@ KCs describe:
 
 | Layer | Purpose |
 |---|---|
-| KC | what must exist or remain sufficient |
+| KC | shared substrate/precursor/structural pool availability |
 | PM | what dynamically regulates |
 | FM | what integrated functional state emerges |
-| Cofactors and Supporting Inputs | local biochemical PM supports |
+| PM Cofactors (§7.2) | mechanism-specific vitamin/mineral/support requirements |
 
 KCs are intentionally:
 
@@ -61,9 +73,9 @@ Render sections in this exact order (Section Rules are authoritative):
 
 1. Definition
 2. Constraint Role
-3. Supporting Inputs/Substrates
+3. Shared Biological Pool
 4. Biological Importance
-5. Connected Mechanisms
+5. Connected Mechanisms (#### Functional Mechanisms, #### Primary Mechanisms)
 6. Constraint Stressors / Burdens
 7. References
 
@@ -118,65 +130,53 @@ Avoid PM-style wording:
 
 KCs do not regulate biology directly; they enable or constrain mechanisms.
 
-### 3. Supporting Inputs/Substrates
+### 3. Shared Biological Pool
 
-This section replaces PM-style “Dietary Levers” and legacy “Dietary Substrates/Precursors” headings.
+List the key substrates, precursors, or structural components that constitute the shared biological pool.
 
 Purpose:
 
-- identify biologically proximal substrate-level supports for the KC
-- anchor the KC in real biological inputs
-- preserve specificity without turning the KC into a PM
+- identify the biologically proximal pool members shared across multiple PMs
+- anchor the KC in real biological resources without turning the KC into a PM
 
-Inputs should generally be:
+Pool items should generally be:
 
 - substrates
 - precursors
 - structural molecules
-- sufficiency-related compounds
-- biologically proximal signals
+- essential fatty acids
+- amino-acid classes
+- macronutrient fuels
 
 Good examples:
 
 - tryptophan
-- tyrosine
-- EAAs
-- resistant starch
-- inulin
-- phospholipids
+- EPA
 - DHA
 - methyl donors
-- fermentable fibre classes
+- sulfur amino acids
+- glutathione precursor amino acids
+- polyphenols (as a class)
 
 Avoid:
 
+- cofactors (selenium, zinc, copper, manganese — belong on PM §7.2)
+- food ← substance mapping bullets (belong on PM §7.1 Direct Dietary Levers)
 - vague healthy-food lists
 - recipes
 - whole diets
-- PM-style cofactor collections
-- detailed intervention protocols
+- PM-style intervention protocols
 - generic wellness language
 
-KC support lists should remain:
-
-- substrate-specific
-- biologically explicit
-- foundational
-- non-mechanistic
+Render as plain bullet points only (no table, no food examples).
 
 This section should answer:
 
-> What directly contributes to maintaining this biological requirement?
-
-Render as bullet points only (no table).
-
-**Substance → food mapping (required when listing foods):** use the canonical **substance ← 2–3 food examples** format defined in `system/substance-food-mapping-format.md` (one substance per bullet; repeat foods per substance when shared). Do not use legacy `food → substance` lines.
-
-Prefer links to existing substance pages in `/docs/substances/` when entities exist.
+> What shared biological pool do multiple PMs draw upon?
 
 Do not list downstream microbial metabolites (e.g. SCFAs) as if they are intrinsic food substances.
 
-Do not attempt to individually cite every listed supporting input/substance (avoid citation explosion).
+Do not attempt to individually cite every listed pool member (avoid citation explosion).
 
 ### 4. Biological Importance
 
@@ -198,10 +198,10 @@ Avoid:
 
 List connected PMs and FMs that depend on this KC.
 
-This section may include:
+Render with subheadings:
 
-- Functional Mechanisms
-- Primary Mechanisms
+- `#### Functional Mechanisms`
+- `#### Primary Mechanisms`
 
 Use linked entries where possible.
 
@@ -294,7 +294,7 @@ KC evidence should remain:
 
 ### Citation Density Rules
 
-Do NOT attempt to individually cite every supporting input/substance/signal listed under **Supporting Inputs/Substrates**.
+Do NOT attempt to individually cite every pool member listed under **Shared Biological Pool**.
 
 The inputs section represents:
 
@@ -321,9 +321,9 @@ Use evidence at the correct architecture layer:
 
 KC pages should cite foundational biology, substrate relationships, structural sufficiency, and prerequisite system requirements — not detailed intervention studies, acute modulation studies, or food-specific mechanistic claims.
 
-### Supporting Inputs Evidence Rules
+### Shared Biological Pool Evidence Rules
 
-Supporting Inputs/Substrates should be:
+Shared Biological Pool items should be:
 
 - biologically plausible
 - substrate-specific
@@ -447,7 +447,7 @@ name: string
 brs: string
 summary: string                      # maps to section 1 Definition
 constraint_role: string              # section 2
-supporting_inputs:                   # section 3
+supporting_inputs:                   # section 3 Shared Biological Pool
   - string
 biological_importance: string        # section 4
 connected_mechanisms:                # section 5
@@ -482,7 +482,7 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 | — | `### {kc_id} - {name}` (page identifier line) |
 | 1 | `### 1. Definition` |
 | 2 | `### 2. Constraint Role` |
-| 3 | `### 3. Supporting Inputs/Substrates` |
+| 3 | `### 3. Shared Biological Pool` |
 | 4 | `### 4. Biological Importance` |
 | 5 | `### 5. Connected Mechanisms` |
 | 6 | `### 6. Constraint Stressors / Burdens` |
@@ -495,7 +495,7 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 - If a required substance or food entity is unresolved, flag: `Missing system entity: [name]`
 - Every `references[].citation_key` must resolve to `static/bibtex/BRAIN-diet.bib` before publish.
 - If missing, flag: `Missing bibliography entry`
-- Do not attach per-bullet citations in section 3 (Supporting Inputs); flag citation explosion if present.
+- Do not attach per-bullet citations in section 3 (Shared Biological Pool); flag citation explosion if present.
 - KC references must align with KC Evidence Layer Rules (necessity/sufficiency), not PM/FM intervention evidence types.
 
 ## Deprecated (Do Not Use on New KC Pages)
@@ -503,7 +503,8 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 - `biological_role` (use `constraint_role` + `biological_importance`)
 - `Supporting Substances/Interventions` as a separate intervention-citation section
 - `Dietary Substrates/Precursors` as a standalone section heading
-- `Supporting Inputs / Substances / Signals` (use `Supporting Inputs/Substrates`)
-- `food → substance` bullets (use `substance ← food1, food2` per `system/substance-food-mapping-format.md`)
+- `Supporting Inputs/Substrates` (use `Shared Biological Pool`)
+- `Supporting Inputs / Substances / Signals` (use `Shared Biological Pool`)
+- substance ← food bullets on KC pages (use PM §7.1 Direct Dietary Levers)
 - `Supports` / `Related FMs` legacy heading without "Connected Mechanisms"
 - `requirement_type` as a rendered page section (may remain ingest metadata only)

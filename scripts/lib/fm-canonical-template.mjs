@@ -8,20 +8,16 @@ import path from "node:path";
 import matter from "gray-matter";
 
 const KC_SUBSTRATES = {
-  "BRS1(KC1)": {
-    slug: "brs1-kc1-amino-acid-substrate-sufficiency",
-    label: "choline, dietary protein, tryptophan, tyrosine, LNAAs",
-  },
   "BRS1(KC2)": {
-    slug: "brs1-kc2-amino-acid-completeness-and-balance",
-    label: "complete protein sources, EAAs, tyrosine, tryptophan, complementary plant-protein pairing",
+    slug: "brs1-kc2-amino-acid-quality-and-competitive-balance",
+    label: "EAAs, LNAAs, tyrosine, tryptophan, complementary amino-acid combinations",
   },
   "BRS2(KC1)": {
-    slug: "brs2-kc1-methyl-donor-sufficiency",
+    slug: "brs2-kc1-one-carbon-donor-pool",
     label: "B12, betaine, choline, folate",
   },
   "BRS2(KC2)": {
-    slug: "brs2-kc2-amino-acid-substrate-sufficiency",
+    slug: "brs2-kc2-methionine-transsulfuration-substrate-pool",
     label: "amino acid support, cysteine, glycine, methionine",
   },
   "BRS6(KC1)": {
@@ -167,7 +163,7 @@ export function applyCanonicalScoreableIntro(content, brs) {
 }
 
 export function applyCanonicalMechanisticBasis(content, fmId, pmClauses, opening, together) {
-  const re = /## 4\. Mechanistic Basis \(Synthesis of PMs\)\s*\n[\s\S]*?(?=\n## 5\. )/;
+  const re = /## 4\. Mechanistic Basis \(Integrated FM Narrative\)\s*\n[\s\S]*?(?=\n## 5\. )/;
   const body = `${opening}\n\n${pmClauses}\n\n${together}\n`;
-  return content.replace(re, `## 4. Mechanistic Basis (Synthesis of PMs)\n\n${body}`);
+  return content.replace(re, `## 4. Mechanistic Basis (Integrated FM Narrative)\n\n${body}`);
 }

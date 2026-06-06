@@ -92,7 +92,7 @@ Functional Mechanisms (FMs) represent integrated biological states that emerge f
 
 ## Requirements (Key Constraints)
 
-Key Constraints (KCs) in BRS5 describe the shared substrate, ecological-input, and barrier-supportive conditions that shape whether microbial fermentation, gut containment, and gut-brain communication can be maintained effectively at all. In this system they act less as isolated nutrient targets than as ecological and mucosal infrastructure supporting multiple downstream mechanisms simultaneously.
+Key Constraints (KCs) in BRS5 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
 
 - [BRS5(KC1) - Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability): Availability of fermentable fibres and resistant starch required to sustain microbial fermentation and SCFA production.
 - [BRS5(KC2) - Polyphenol & Plant-Diversity Input Availability](/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability): Availability of microbiome-active polyphenols and broad plant diversity required to support microbial ecology and biotransformation.

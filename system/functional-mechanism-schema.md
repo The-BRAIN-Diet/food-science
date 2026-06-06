@@ -29,7 +29,7 @@ See also `system/brain-diet-ontology-rules.md` §1.2.
 - Represents an integrated biological state at FM breadth (not a single PM process).
 - Must synthesise constituent PMs into an emergent functional state; must not repeat PM page content (mechanistic detail, dietary levers, lifestyle levers, or scoreable inputs).
 - **Interventions act on PMs.** Dietary levers, lifestyle levers, and scoreable inputs belong on **PM pages** only.
-- FM pages describe the integrated state that emerges, identify contributing PMs in §4, and roll up cross-BRS placement in §5.
+- FM pages describe the integrated state that emerges, identify contributing PMs and KCs in §4, and roll up cross-BRS placement in §5.
 - Must not contain scoring formulas.
 
 ## FM Authoring — Integration Without Repetition
@@ -63,21 +63,31 @@ Integrated regulation of glucose appearance, glycaemic stability, and insulin-su
 
 ### FM Mechanistic Basis Rule
 
-Section **4. Mechanistic Basis (Synthesis of PMs)** (`## 4.`) must open with the **interesting implication** — why the integrated FM state matters — then explain how constituent PMs combine. Do **not** open by repeating the §1 Definition verbatim. See `system/mechanism-page-section-prose.md`.
+Section **4. Mechanistic Basis (Integrated FM Narrative)** (`## 4.`) is the training and navigation layer: it links constituent PMs and KCs with explicit contribution lines, then synthesises how they combine into the emergent FM state. Do **not** open by repeating the §1 Definition verbatim. See `system/mechanism-page-section-prose.md`.
 
-Section **4.** must:
+Section **4.** must include:
 
-- briefly identify the role of each PM
-- explain how the PMs interact
+- **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with one contribution line each
+- **`### 4.2 Supporting Biological Pools (Key Constraints)`** — linked KC bullets with one contribution line each
+- **`### 4.3 Integrated Functional Narrative`** — synthesis paragraph(s) explaining how PMs and KCs combine into the FM state
+- **`### 4.4 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
+
+Within §4:
+
+- briefly identify the role of each PM and KC
+- explain how the PMs interact and how shared pools constrain them
 - describe the higher-order functional state that emerges
 - avoid copying detailed PM mechanistic paragraphs
 
 **Use this structure:**
 
-1. Opening synthesis paragraph
-2. One short sentence or clause per PM (use “PM1 governs…”, “PM2 governs…”, etc.)
-3. Integration sentence explaining the combined effect
-4. Functional consequence sentence
+1. Opening line (optional) introducing the integrated narrative
+2. **`### 4.1 Core Primary Mechanisms`** — linked PM list with contribution lines
+3. **`### 4.2 Supporting Biological Pools (Key Constraints)`** — linked KC list with contribution lines
+4. **`### 4.3 Integrated Functional Narrative`** — synthesis paragraph(s)
+5. Optional **`### 4.4 Evidence Highlights`**
+
+**Canonical example:** `docs/biological-targets/brs4/fm/brs4-fm1-cellular-bioenergetics.mdx`
 
 **Good pattern:**
 
@@ -238,21 +248,23 @@ Numbered sections must stay contiguous. Optional `### 4.1 Evidence Highlights` n
 1. **Definition** — `## 1. Definition` — integrated regulatory state per **FM Definition Rule**; `summary` in front matter must match this intent
 2. **Intervention Breakdown** — `## 2. Intervention Breakdown` — single allowed value per **Intervention Breakdown** (required); must match `intervention_breakdown` in front matter
 3. **Functional Role** — `## 3. Functional Role` — short directional arrow line describing **emergent FM outcomes** per **FM Functional Role Rule**
-4. **Mechanistic Basis (Synthesis of PMs)** — `## 4. Mechanistic Basis (Synthesis of PMs)` — synthesis per **FM Mechanistic Basis Rule** and **Deduplication Rule**; identify contributing PMs and how they operationalise the FM; weave timing context here when `timing_specific: "Yes"`
-   - **`### 4.1 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
-5. **Primary Mechanisms (PMs)** — `## 5. Primary Mechanisms (PMs)` — linked list of constituent PMs from `mechanisms_covered` front matter (interventions live on PM pages)
-6. **Cross BRS Links** — `## 6. Cross BRS Links` — roll up from constituent PM `§6 Cross BRS Links` with linked PM pages where they exist
-7. **References** — `## 7. References` — numbered list with bibliography links
+4. **Mechanistic Basis (Integrated FM Narrative)** — `## 4. Mechanistic Basis (Integrated FM Narrative)` — per **FM Mechanistic Basis Rule** and **Deduplication Rule**; weave timing context in §4.3 when `timing_specific: "Yes"`
+   - **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with contribution lines
+   - **`### 4.2 Supporting Biological Pools (Key Constraints)`** — linked KC bullets with contribution lines
+   - **`### 4.3 Integrated Functional Narrative`** — synthesis paragraph(s)
+   - **`### 4.4 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
+5. **Cross BRS Links** — `## 5. Cross BRS Links` — roll up from constituent PM `§6 Cross BRS Links` with linked PM pages where they exist
+6. **References** — `## 6. References` — numbered list with bibliography links
 
-**Not on FM pages:** `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, legacy `BRS Links` heading, or cofactor/KC rollups — those belong on **PM pages** (§7–§9).
+**Not on FM pages:** standalone `Primary Mechanisms (PMs)` or `KCs` index sections (PM/KC links live in §4.1/§4.2), `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, legacy `BRS Links` heading, or PM-level cofactor/dietary lever rollups — those belong on **PM pages** (§7–§9).
 
-`mechanisms_covered` and `key_constraints` remain in **front matter** for ontology traversal and tooling; they are not rendered as FM body rollups.
+`mechanisms_covered` and `key_constraints` remain in **front matter** for ontology traversal and tooling; §4.1/§4.2 render those links in the integrated narrative.
 
 `timing_specific` (`Yes` | `No`) lives in **front matter only** for ontology traversal, filtering, and scoring — not as a public `## N. Timing Specific` section.
 
 ### Excluded from the public FM body (current contract)
 
-Do not add body sections after **References** (`## 7.`). The following are **not** part of the FM narrative: **Dietary Levers**, **Lifestyle Levers**, **Scoreable Inputs & Modulation Signals**, **Underlying Mechanisms and Requirements** (and legacy §5.1–§5.4 rollups), Recipe Translation & Scoring Logic, standalone Functional Consequences / Outputs, Mechanism Summary Table, Scoring Interpretation, Interpretation Boundary, Evidence Base, Missing Entities. Those may exist in YAML, spreadsheets, PM pages, or other artefacts.
+Do not add body sections after **References** (`## 6.`). The following are **not** part of the FM narrative: **Dietary Levers**, **Lifestyle Levers**, **Scoreable Inputs & Modulation Signals**, **Underlying Mechanisms and Requirements** (and legacy §5.1–§5.4 rollups), Recipe Translation & Scoring Logic, standalone Functional Consequences / Outputs, Mechanism Summary Table, Scoring Interpretation, Interpretation Boundary, Evidence Base, Missing Entities. Those may exist in YAML, spreadsheets, PM pages, or other artefacts.
 
 ### Legacy note
 
@@ -277,13 +289,15 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - Definition and **Mechanistic Basis** must follow **FM Authoring — Integration Without Repetition** (no PM summary dumps; no duplicated PM `<details>` content).
 - **Mechanistic Basis** should use the four-part structure: opening synthesis → one clause per PM → integration sentence → functional consequence sentence.
 - `mechanisms_covered` and `key_constraints` must use ID+name+href.
-- FM body section headings must be explicitly numbered: Definition → Intervention Breakdown → Functional Role → Mechanistic Basis (Synthesis of PMs) → Primary Mechanisms (PMs) → Cross BRS Links → References.
+- FM body section headings must be explicitly numbered: Definition → Intervention Breakdown → Functional Role → Mechanistic Basis (Integrated FM Narrative) → Cross BRS Links → References.
 - Published body must **not** include `## N. Timing Specific`; `timing_specific` is validated in front matter only (`Yes` | `No`).
 - Published body must **not** include `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, or `Underlying Mechanisms and Requirements`.
 - Published body must **not** use legacy `## N. BRS Links` or standalone `## N. Cross-BRS Links`; use `## 6. Cross BRS Links`.
-- `## 5. Primary Mechanisms (PMs)` is required; linked list from `mechanisms_covered`.
-- `## 6. Cross BRS Links` is required; roll up from constituent PM §6 cross-BRS links.
-- Optional `### 4.1 Evidence Highlights` must nest under §4 Mechanistic Basis when present.
+- `## 5. Cross BRS Links` is required; roll up from constituent PM §6 cross-BRS links.
+- `## 6. References` is required when references exist in front matter.
+- §4 must include `### 4.1 Core Primary Mechanisms`, `### 4.2 Supporting Biological Pools (Key Constraints)`, and `### 4.3 Integrated Functional Narrative`.
+- FM pages must **not** include standalone `## N. Primary Mechanisms (PMs)` or `## N. KCs` sections — PM/KC links belong in §4.1/§4.2.
+- Optional `### 4.4 Evidence Highlights` must nest under §4 Mechanistic Basis when present (not `### 4.1` on FM pages).
 - Published body must render `## 2. Intervention Breakdown` between Definition and Functional Role; body value must match front matter `intervention_breakdown`.
 - Claims in Mechanistic Basis and §4.1 must stay mechanistic / interpretive (`may`, `supports`, `associated with`) unless evidence supports stronger wording.
 - Where `scoring_interpretation` or similar content exists in YAML or tooling, it must not include formulas, equations, or numeric scoring logic.

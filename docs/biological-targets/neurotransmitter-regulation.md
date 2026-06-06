@@ -68,8 +68,9 @@ Functional Mechanisms (FMs) represent integrated biological states that emerge f
 
 ## Requirements (Key Constraints)
 
-- [BRS1(KC1) — Amino Acid Substrate Sufficiency](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-substrate-sufficiency): Availability of meaningful amino-acid substrate to support neurotransmitter precursor supply at the meal level.
-- [BRS1(KC2) — Amino Acid Completeness & Balance](/docs/biological-targets/brs1/kc/brs1-kc2-amino-acid-completeness-and-balance): Quality and balance of essential amino acids needed to avoid weak precursor coverage and improve transport competitiveness.
+Key Constraints (KCs) in BRS1 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
+
+- [BRS1(KC2) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc2-amino-acid-quality-and-competitive-balance): Quality, completeness, and relative balance of dietary amino-acid pools influencing precursor adequacy, limiting amino-acid risk, and competitive transport context.
 
 ---
 

@@ -91,10 +91,10 @@ Functional Mechanisms (FMs) represent integrated biological states that emerge f
 
 ## Requirements (Key Constraints)
 
-Key Constraints (KCs) describe shared sufficiency conditions, substrate economies, and foundational biological requirements that shape whether regulation can be maintained effectively at all. In BRS2, this includes conditions such as methyl donor sufficiency and amino acid substrate sufficiency, which influence the feasibility, continuity, and efficiency of multiple downstream mechanisms rather than acting as isolated nutrient deficits [2][3].
+Key Constraints (KCs) in BRS2 describe shared precursor and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
 
-- [BRS2(KC1) — Methyl Donor Sufficiency](/docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency): Availability of folate, B12, choline, and betaine required for one-carbon transfer and remethylation.
-- [BRS2(KC2) — Amino Acid Substrate Sufficiency](/docs/biological-targets/brs2/kc/brs2-kc2-amino-acid-substrate-sufficiency): Availability of methionine, serine, glycine, and cysteine supporting methionine cycle and transsulfuration.
+- [BRS2(KC1) — One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool): Availability of one-carbon donor substrates required to sustain methyl-group transfer, remethylation pathways, and broader one-carbon metabolism.
+- [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool): Availability of amino-acid substrates supporting methionine cycling, transsulfuration flux, glutathione synthesis, and related methylation-dependent pathways.
 
 ---
 

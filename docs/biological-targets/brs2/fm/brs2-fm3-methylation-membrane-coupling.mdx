@@ -12,13 +12,13 @@ mechanisms_covered:
     href: /docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation
 key_constraints:
   - id: BRS2(KC1)
-    name: Methyl Donor Sufficiency
+    name: One-Carbon Donor Pool
     type: substrate
-    href: /docs/biological-targets/brs2/kc/brs2-kc1-methyl-donor-sufficiency
+    href: /docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool
   - id: BRS2(KC2)
-    name: Amino Acid Substrate Sufficiency
+    name: Methionine & Transsulfuration Substrate Pool
     type: substrate
-    href: /docs/biological-targets/brs2/kc/brs2-kc2-amino-acid-substrate-sufficiency
+    href: /docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
@@ -51,25 +51,36 @@ Food-State Dominant
 
 ↑ phospholipid methylation; ↑ membrane fluidity; ↑ receptor signaling stability
 
-## 4. Mechanistic Basis (Synthesis of PMs)
+## 4. Mechanistic Basis (Integrated FM Narrative)
 
-Functional coupling of SAMe-dependent phospholipid methylation to neuronal membrane integrity and signaling.
+Methylation–membrane coupling emerges from the coordinated interaction of several primary mechanisms and supporting biological pools.
 
-PM3 governs SAMe Synthesis. PM7 governs Phospholipid Methylation.
+### 4.1 Core Primary Mechanisms
+
+- [BRS2(PM3) — SAMe Synthesis](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis)
+  Production of S-adenosylmethionine from methionine to supply universal methyl donation.
+
+- [BRS2(PM7) — Phospholipid Methylation](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation)
+  SAMe-dependent methylation of phospholipids affecting membrane composition and receptor function.
+
+### 4.2 Supporting Biological Pools (Key Constraints)
+
+- [BRS2(KC1) — One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)
+  Provides the shared one-carbon donor pool required for methyl-group transfer reactions throughout the methylation network.
+
+- [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool)
+  Provides the shared amino-acid substrate pool required for methionine metabolism and downstream sulfur-amino-acid pathways.
+
+### 4.3 Integrated Functional Narrative
 
 Together, these PMs operationalise BRS2(FM3) as a coordinated methylation–membrane coupling control point.
 
 
-## 5. Primary Mechanisms (PMs)
-
-- [BRS2(PM3) — SAMe Synthesis](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis)
-- [BRS2(PM7) — Phospholipid Methylation](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation)
-
-## 6. Cross BRS Links
+## 5. Cross BRS Links
 
 - None listed
 
-## 7. References
+## 6. References
 
 1. [Vance et al. (2014)](/docs/papers/BRAIN-Diet-References#vance_phospholipid_2014)
 2. [Arellanes et al. (2020)](/docs/papers/BRAIN-Diet-References#arellanes_brain_2020)

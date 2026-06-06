@@ -74,28 +74,37 @@ function extractSectionBody(content, startPattern, endPattern) {
 
 function validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind }) {
   if (kind === "kc") {
-    const block = extractSectionBody(
+    const poolBlock = extractSectionBody(
       content,
-      /### 3\. Supporting Inputs\/Substrates/,
+      /### 3\. Shared Biological Pool/,
       /\n### 4\. /,
     );
-    if (!block) return;
-    for (const line of block.split("\n")) {
-      if (isLegacyFoodToSubstanceLine(line)) {
-        pushIssue(
-          issues,
-          "legacy_food_to_substance",
-          `${entityLabel}: §3 Supporting Inputs/Substrates must use substance ← food bullets (see system/substance-food-mapping-format.md)`,
-        );
-        return;
-      }
-      if (/Food sources \(examples\)/i.test(line)) {
-        pushIssue(
-          issues,
-          "nested_food_sources_collapsible",
-          `${entityLabel}: merge food examples into Dietary Levers / §3 using substance ← food format; remove nested Food sources block`,
-        );
-        return;
+    if (poolBlock) {
+      for (const line of poolBlock.split("\n")) {
+        if (/←/.test(line) && line.trim().startsWith("-")) {
+          pushIssue(
+            issues,
+            "kc_food_mapping_on_pool",
+            `${entityLabel}: §3 Shared Biological Pool must list pool members only — no substance ← food bullets (use PM §7.1 Direct Dietary Levers)`,
+          );
+          return;
+        }
+        if (isLegacyFoodToSubstanceLine(line)) {
+          pushIssue(
+            issues,
+            "legacy_food_to_substance",
+            `${entityLabel}: §3 must not use food → substance lines`,
+          );
+          return;
+        }
+        if (/Food sources \(examples\)/i.test(line)) {
+          pushIssue(
+            issues,
+            "nested_food_sources_collapsible",
+            `${entityLabel}: merge food examples into PM §7.1; remove nested Food sources block from KC`,
+          );
+          return;
+        }
       }
     }
     return;
@@ -256,7 +265,7 @@ function validateInterventionBreakdown(data, content, issues, { entityLabel, req
 export const NEXT_INTEGER_SECTION_HEADING = /^##\s+\d+\.\s+(?!\d)/m;
 
 const LEGACY_EVIDENCE_HIGHLIGHTS_HEADING = /^##\s+(\d+)\.1\s+Evidence Highlights\s*$/;
-const EVIDENCE_HIGHLIGHTS_HEADING = /^###\s+(\d+)\.1\s+Evidence Highlights\s*$/;
+const EVIDENCE_HIGHLIGHTS_HEADING = /^###\s+(\d+)\.(\d+)\s+Evidence Highlights\s*$/;
 
 /** @returns {Array<{ type: "major", level: number, title: string, line: string }>} */
 export function parseNumberedSections(content) {
@@ -323,16 +332,24 @@ function validateEvidenceHighlightsPlacement(content, sections, issues, { entity
   if (!evMatch) return;
 
   const evLevel = parseInt(evMatch[1], 10);
+  const evSub = parseInt(evMatch[2], 10);
   if (evLevel !== mechanistic.level) {
     pushIssue(
       issues,
       "evidence_highlights_number",
-      `${entityLabel}: Evidence Highlights section number must match Mechanistic Basis (e.g. ### 4.1 under ## 4. Mechanistic Basis)`,
+      `${entityLabel}: Evidence Highlights section number must match Mechanistic Basis (e.g. ### 4.4 under ## 4. Mechanistic Basis)`,
+    );
+  }
+  if (evSub === 1 && /Integrated FM Narrative/.test(mechanistic.title)) {
+    pushIssue(
+      issues,
+      "fm_evidence_highlights_subsection",
+      `${entityLabel}: on FM pages use ### 4.4 Evidence Highlights (§4.1–4.3 are reserved for integrated narrative subsections)`,
     );
   }
 }
 
-/** FM synthesis contract: no intervention sections; §5 PMs + §6 Cross BRS Links. */
+/** FM synthesis contract: no intervention sections; §5 Cross BRS Links. PM/KC links live in §4.1/§4.2. */
 const FM_FORBIDDEN_BODY_SECTIONS = [
   "Dietary Levers",
   "Lifestyle Levers",
@@ -342,13 +359,28 @@ const FM_FORBIDDEN_BODY_SECTIONS = [
   "Overarching Functional Mechanism",
 ];
 
+const FM_FORBIDDEN_INDEX_SECTIONS = [
+  { match: (t) => t.startsWith("Primary Mechanisms"), label: "Primary Mechanisms (PMs)" },
+  { match: (t) => t === "KCs" || t.startsWith("KCs "), label: "KCs" },
+];
+
 function validateFmSynthesisContract(content, sections, issues, { entityLabel }) {
   for (const title of FM_FORBIDDEN_BODY_SECTIONS) {
     if (sections.some((s) => s.title === title || s.title.startsWith(title))) {
       pushIssue(
         issues,
         "fm_forbidden_section",
-        `${entityLabel}: FM pages must not include "## N. ${title}" — use Primary Mechanisms (PMs) and Cross BRS Links instead; interventions belong on PM pages`,
+        `${entityLabel}: FM pages must not include "## N. ${title}" — PM/KC links belong in §4.1/§4.2; interventions belong on PM pages`,
+      );
+    }
+  }
+  for (const { match, label } of FM_FORBIDDEN_INDEX_SECTIONS) {
+    const hit = sections.find((s) => s.type === "major" && match(s.title));
+    if (hit) {
+      pushIssue(
+        issues,
+        "fm_redundant_index_section",
+        `${entityLabel}: remove ## ${hit.level}. ${label} — use §4.1/§4.2 integrated narrative instead`,
       );
     }
   }
@@ -356,32 +388,51 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel })
     pushIssue(
       issues,
       "fm_legacy_underlying_subsections",
-      `${entityLabel}: remove legacy §5.x rollups; use ## 5. Primary Mechanisms (PMs) and ## 6. Cross BRS Links`,
-    );
-  }
-  const pms = sections.find((s) => s.title.startsWith("Primary Mechanisms"));
-  if (!pms) {
-    pushIssue(issues, "fm_missing_pms", `${entityLabel}: FM pages must include ## 5. Primary Mechanisms (PMs)`);
-  } else if (pms.level !== 5) {
-    pushIssue(
-      issues,
-      "fm_pms_numbering",
-      `${entityLabel}: Primary Mechanisms (PMs) must be ## 5. Primary Mechanisms (PMs)`,
+      `${entityLabel}: remove legacy §5.x rollups; use §4 integrated narrative and ## 5. Cross BRS Links`,
     );
   }
   const brs = sections.find((s) => s.title.startsWith("Cross BRS Links"));
   if (!brs) {
-    pushIssue(issues, "fm_missing_brs_links", `${entityLabel}: FM pages must include ## 6. Cross BRS Links`);
-  } else if (brs.level !== 6) {
-    pushIssue(issues, "fm_brs_links_numbering", `${entityLabel}: Cross BRS Links must be ## 6. Cross BRS Links`);
+    pushIssue(issues, "fm_missing_brs_links", `${entityLabel}: FM pages must include ## 5. Cross BRS Links`);
+  } else if (brs.level !== 5) {
+    pushIssue(issues, "fm_brs_links_numbering", `${entityLabel}: Cross BRS Links must be ## 5. Cross BRS Links`);
+  }
+  const refs = sections.find((s) => s.title.startsWith("References"));
+  if (refs && refs.level !== 6) {
+    pushIssue(issues, "fm_refs_numbering", `${entityLabel}: References must be ## 6. References`);
   }
   const mechanistic = sections.find((s) => s.title.startsWith("Mechanistic Basis"));
-  if (mechanistic && !mechanistic.title.includes("Synthesis of PMs")) {
+  if (mechanistic && !mechanistic.title.includes("Integrated FM Narrative")) {
     pushIssue(
       issues,
       "fm_mechanistic_basis_title",
-      `${entityLabel}: §4 must be "## 4. Mechanistic Basis (Synthesis of PMs)"`,
+      `${entityLabel}: §4 must be "## 4. Mechanistic Basis (Integrated FM Narrative)"`,
     );
+  }
+
+  const mbStart = mechanistic ? content.indexOf(mechanistic.line) : -1;
+  const nextMajor = sections
+    .filter((s) => s.type === "major")
+    .find((s) => s.level === 5);
+  const mbEnd =
+    mbStart === -1 || !nextMajor
+      ? content.length
+      : content.indexOf(nextMajor.line, mbStart + 1);
+  const mbBlock = mbStart === -1 ? "" : content.slice(mbStart, mbEnd);
+
+  for (const [sub, label] of [
+    ["4.1 Core Primary Mechanisms", "§4.1 Core Primary Mechanisms"],
+    ["4.2 Supporting Biological Pools (Key Constraints)", "§4.2 Supporting Biological Pools (Key Constraints)"],
+    ["4.3 Integrated Functional Narrative", "§4.3 Integrated Functional Narrative"],
+  ]) {
+    const subPattern = sub.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    if (mechanistic && !new RegExp(`^### ${subPattern}`, "m").test(mbBlock)) {
+      pushIssue(
+        issues,
+        "fm_integrated_narrative_subsection",
+        `${entityLabel}: §4 must include ### ${label}`,
+      );
+    }
   }
 }
 
@@ -390,9 +441,9 @@ const FM_EXTENDED_SECTION_TITLES = [
   "Definition",
   "Intervention Breakdown",
   "Functional Role",
-  "Mechanistic Basis (Synthesis of PMs)",
-  "Primary Mechanisms (PMs)",
+  "Mechanistic Basis (Integrated FM Narrative)",
   "Cross BRS Links",
+  "References",
 ];
 
 function normalizeSectionTitle(title) {
@@ -464,7 +515,7 @@ function validateFmPage(filePath, { rootDir }) {
   validateEvidenceHighlightsPlacement(content, sections, issues, { entityLabel });
   validateFmSynthesisContract(content, sections, issues, { entityLabel });
 
-  const numbered = sections.filter((s) => s.type === "major" && s.level <= 8);
+  const numbered = sections.filter((s) => s.type === "major" && s.level <= 6);
   if (numbered.length >= 3) {
     const t0 = normalizeSectionTitle(numbered[0]?.title || "");
     const t1 = normalizeSectionTitle(numbered[1]?.title || "");
@@ -472,7 +523,6 @@ function validateFmPage(filePath, { rootDir }) {
     const t3 = normalizeSectionTitle(numbered[3]?.title || "");
     const t4 = normalizeSectionTitle(numbered[4]?.title || "");
     const t5 = normalizeSectionTitle(numbered[5]?.title || "");
-    const t6 = normalizeSectionTitle(numbered[6]?.title || "");
     if (t0 !== "Definition") {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §1 must be Definition`);
     }
@@ -483,16 +533,13 @@ function validateFmPage(filePath, { rootDir }) {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §3 must be Functional Role (timing is front matter only)`);
     }
     if (numbered.length >= 4 && !t3.startsWith("Mechanistic Basis")) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §4 must be Mechanistic Basis (Synthesis of PMs)`);
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §4 must be Mechanistic Basis (Integrated FM Narrative)`);
     }
-    if (numbered.length >= 5 && !t4.startsWith("Primary Mechanisms")) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §5 must be Primary Mechanisms (PMs)`);
+    if (numbered.length >= 5 && !t4.startsWith("Cross BRS Links")) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §5 must be Cross BRS Links`);
     }
-    if (numbered.length >= 6 && !t5.startsWith("Cross BRS Links")) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §6 must be Cross BRS Links`);
-    }
-    if (numbered.length >= 7 && !t6.startsWith("References")) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §7 must be References`);
+    if (numbered.length >= 6 && !t5.startsWith("References")) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §6 must be References`);
     }
   }
 
@@ -648,10 +695,22 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
   }
 }
 
-function validateConnectedEntityList(data, field, issues, { entityLabel }) {
+function validateConnectedEntityList(data, field, issues, { entityLabel, allowEmpty = false }) {
   const list = data[field];
-  if (!Array.isArray(list) || list.length === 0) {
-    pushIssue(issues, `missing_${field}`, `${entityLabel}: ${field} must be a non-empty array in front matter`);
+  if (list === undefined || list === null) {
+    if (!allowEmpty) {
+      pushIssue(issues, `missing_${field}`, `${entityLabel}: ${field} must be a non-empty array in front matter`);
+    }
+    return;
+  }
+  if (!Array.isArray(list)) {
+    pushIssue(issues, `missing_${field}`, `${entityLabel}: ${field} must be an array in front matter`);
+    return;
+  }
+  if (list.length === 0) {
+    if (!allowEmpty) {
+      pushIssue(issues, `missing_${field}`, `${entityLabel}: ${field} must be a non-empty array in front matter`);
+    }
     return;
   }
   for (const [i, item] of list.entries()) {
@@ -784,7 +843,7 @@ function validateSmPage(filePath) {
   validateSmCategoryFrontMatter(data, content, issues, { entityLabel });
   validateConnectedEntityList(data, "connected_pms", issues, { entityLabel });
   validateConnectedEntityList(data, "connected_fms", issues, { entityLabel });
-  validateConnectedEntityList(data, "connected_kcs", issues, { entityLabel });
+  validateConnectedEntityList(data, "connected_kcs", issues, { entityLabel, allowEmpty: true });
 
   validateUnderlyingCofactorsBeforeKcs(content, issues, { entityLabel, expectConnectedPmFm: true });
 
