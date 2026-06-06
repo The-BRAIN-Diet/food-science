@@ -35,8 +35,9 @@ Structure (exact order, numbered headings):
 3. Shared Biological Pool
 4. Biological Importance
 5. Connected Mechanisms (#### Functional Mechanisms, #### Primary Mechanisms)
-6. Constraint Stressors / Burdens
-7. References
+6. References
+
+Do not include Constraint Stressors / Burdens on KC pages — migrate to linked FM §4.4 Functional Failure Modes.
 
 Page header:
 - `### {kc_id} - {name}` above section 1
@@ -48,7 +49,6 @@ Section guidance:
 - Shared Biological Pool: plain substrate/precursor/structural bullets only — NO food examples, NO cofactors, NO substance ← food mapping
 - Biological Importance: why the pool matters; keep foundational and short
 - Connected Mechanisms: linked FM and PM lists under #### subheadings; no PM→PM or FM→FM chains
-- Constraint Stressors: factors that deplete/strain/impair pool availability; concise; no disease claims or prescriptions
 - References: central bibliography only
 
 ---
@@ -93,7 +93,7 @@ Reference resolution:
 - Public link format: `/docs/papers/BRAIN-Diet-References#citationKey`
 - New refs need citation key, metadata, and DOI/URL where available
 - No unresolved plain-text citations
-- Use `[1]`, `[2]` inline only where sections 1–2, 4, or 6 make evidence-backed claims
+- Use `[1]`, `[2]` inline only where sections 1–2 or 4 make evidence-backed claims
 - Flag: "Missing bibliography entry"
 
 Shared Biological Pool formatting:
