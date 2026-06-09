@@ -19,9 +19,11 @@ validation while remaining readable for authors.
 
 ## Definition (ontology)
 
-Functional Mechanisms (FMs) represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the principal biological targets of the framework.
+Functional Mechanisms (FMs) represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the **principal navigational and teaching layer** of the framework.
 
-See also `system/brain-diet-ontology-rules.md` §1.2.
+Architecture: **BRS → FM → PM**. FM pages live at `docs/biological-targets/brs{N}/fm{M}/`; child PMs share the same folder. PM identifiers use **BRS-wide incremental numbering** (`BRS{N}-FM{M}-PM{k}` where `k` is unique within the BRS, assigned in FM order — e.g. `BRS1-FM1-PM1`, `BRS1-FM1-PM2`, `BRS1-FM2-PM3`, … `BRS1-FM5-PM9`).
+
+See also `system/brain-diet-ontology-rules.md` §1.2 and §1.4.
 
 ## Scope
 
@@ -93,8 +95,8 @@ Within §4:
 
 | Pattern | Reference |
 |---|---|
-| §4.1–4.3 + optional §4.5 (no KCs) | `docs/biological-targets/brs1/fm/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` |
-| §4.1–4.4 with KC-linked failure modes | `docs/biological-targets/brs5/fm/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx` |
+| §4.1–4.3 + optional §4.5 (no KCs) | `docs/biological-targets/brs1/fm4/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` |
+| §4.1–4.4 with KC-linked failure modes | `docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx` |
 
 **Good pattern:**
 
@@ -194,7 +196,7 @@ underlying_mechanisms_and_requirements:
       href: string
   optional_brsx_modifiers:           # optional; render as ### 5.4 only if used
     - string
-  cross_brs_links:                   # render: ### 5.4 Cross-BRS Links
+  connected_mechanisms:                   # render: ### 5.4 Connected Mechanisms
     - id: string
       name: string
 dietary_levers:
@@ -261,7 +263,7 @@ Numbered sections must stay contiguous. Optional `### 4.5 Evidence Highlights` n
    - **`### 4.3 Integrated Functional Narrative`** — synthesis paragraph(s)
    - **`### 4.4 Functional Failure Modes`** — required when `key_constraints` is non-empty
    - **`### 4.5 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
-5. **Cross BRS Links** — `## 5. Cross BRS Links` — roll up from constituent PM `§6 Cross BRS Links` with linked PM pages where they exist
+5. **Connected Mechanisms** — `## 5. Connected Mechanisms` — roll up from constituent PM `§6 Connected Mechanisms` with linked PM pages where they exist
 6. **References** — `## 6. References` — numbered list with bibliography links
 
 **Not on FM pages:** standalone `Primary Mechanisms (PMs)` or `KCs` index sections (PM/KC links live in §4.1/§4.2), `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, legacy `BRS Links` heading, or PM-level cofactor/dietary lever rollups — those belong on **PM pages** (§7–§9).
@@ -276,7 +278,7 @@ Do not add body sections after **References** (`## 6.`). The following are **not
 
 ### Legacy note
 
-Older FM pages used Diet/Lifestyle/Scoreable sections and `Underlying Mechanisms and Requirements` with PM/KC rollups. New edits must follow the **synthesis contract** above (§4 integrated narrative + §5 Cross BRS Links).
+Older FM pages used Diet/Lifestyle/Scoreable sections and `Underlying Mechanisms and Requirements` with PM/KC rollups. New edits must follow the **synthesis contract** above (§4 integrated narrative + §5 Connected Mechanisms).
 
 ## Automated validation
 
@@ -297,11 +299,11 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - Definition and **Mechanistic Basis** must follow **FM Authoring — Integration Without Repetition** (no PM summary dumps; no duplicated PM `<details>` content).
 - **Mechanistic Basis** should use the four-part structure: opening synthesis → one clause per PM → integration sentence → functional consequence sentence.
 - `mechanisms_covered` and `key_constraints` must use ID+name+href.
-- FM body section headings must be explicitly numbered: Definition → Intervention Breakdown → Functional Role → Mechanistic Basis (Integrated FM Narrative) → Cross BRS Links → References.
+- FM body section headings must be explicitly numbered: Definition → Intervention Breakdown → Functional Role → Mechanistic Basis (Integrated FM Narrative) → Connected Mechanisms → References.
 - Published body must **not** include `## N. Timing Specific`; `timing_specific` is validated in front matter only (`Yes` | `No`).
 - Published body must **not** include `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, or `Underlying Mechanisms and Requirements`.
-- Published body must **not** use legacy `## N. BRS Links` or standalone `## N. Cross-BRS Links`; use `## 6. Cross BRS Links`.
-- `## 5. Cross BRS Links` is required; roll up from constituent PM §6 cross-BRS links.
+- Published body must **not** use legacy `## N. BRS Links` or standalone `## N. Connected Mechanisms`; use `## 6. Connected Mechanisms`.
+- `## 5. Connected Mechanisms` is required; roll up from constituent PM §6 connected mechanisms.
 - `## 6. References` is required when references exist in front matter.
 - §4 must include `### 4.1 Core Primary Mechanisms`, `### 4.2 Supporting Biological Pools (Key Constraints)`, and `### 4.3 Integrated Functional Narrative`.
 - When `key_constraints` is non-empty, §4 must include `### 4.4 Functional Failure Modes`.

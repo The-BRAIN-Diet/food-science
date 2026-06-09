@@ -1,0 +1,10 @@
+{
+  "label": "BRS-X - Cross-System Regulation",
+  "position": 7,
+  "link": {
+    "type": "doc",
+    "id": "biological-targets/cross-system-regulation"
+  },
+  "collapsed": true,
+  "collapsible": true
+}

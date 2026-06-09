@@ -532,7 +532,7 @@ preparation_effects:
 
 Begin with BRS6 only to avoid scope explosion.
 
-### 6.1 BRS6(PM1): Glucose Appearance Kinetics
+### 6.1 BRS6-FM1-PM1: Glucose Appearance Kinetics
 
 PM1 should listen for properties affecting the **rate and temporal profile** of glucose appearance after meals—gastric emptying, digestion kinetics, meal matrix, preparation state, and sequencing—distinct from PM2 oscillatory variability and PM3 disposal.
 
@@ -551,7 +551,7 @@ Initial property IDs:
 - rapid_digestibility
 - hyperpalatable_matrix
 
-### 6.2 BRS6(PM2): Glycaemic Variability Regulation
+### 6.2 BRS6-FM1-PM2: Glycaemic Variability Regulation
 
 PM2 should listen for properties affecting post-prandial glucose **volatility**, oscillatory exposure, spike-and-crash cycling, and meal-period stability—distinct from PM1 appearance kinetics alone and from PM3 disposal/sensitivity.
 
@@ -807,7 +807,7 @@ Each Functional Property should include:
 
 Update the food page schema to allow a `functional_properties` front matter field. Food pages should only list property IDs, confidence, notes, and whether the property is preparation-dependent. They should not manually define BRS links.
 
-Begin with BRS6 only. Add initial properties for BRS6(PM1) Glucose Appearance Kinetics, BRS6(PM2) Glycaemic Variability Regulation, and BRS6(PM3) insulin sensitivity / disposal narratives as needed.
+Begin with BRS6 only. Add initial properties for BRS6-FM1-PM1 Glucose Appearance Kinetics, BRS6-FM1-PM2 Glycaemic Variability Regulation, and BRS6-FM1-PM3 insulin sensitivity / disposal narratives as needed.
 
 Ensure resistant starch is modelled as a functional property, not a fixed substance. Potatoes should have `resistant_starch_potential` as a preparation-dependent property, especially relevant to cooked-and-cooled states.
 

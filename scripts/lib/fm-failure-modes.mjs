@@ -16,7 +16,7 @@ Low-fibre and low-plant-diversity dietary patterns may reduce [BRS5(KC1) — Fer
 
 Low zinc, omega-3, and vitamin-A-supportive dietary patterns may strain [BRS5(KC3) — Barrier-Supportive Nutrient Sufficiency](/docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency), while chronic alcohol, emulsifier-heavy, or ultra-processed exposures and inflammatory burden may increase barrier vulnerability.
 
-These pressures may impair [BRS5(PM3) — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/pm/brs5-pm3-gut-barrier-tight-junction-integrity), weaken [BRS5(PM4) — LPS / Endotoxin Containment](/docs/biological-targets/brs5/pm/brs5-pm4-lps-endotoxin-containment), and reduce the ecological support described by [BRS5(PM7) — Keystone Taxa Support](/docs/biological-targets/brs5/pm/brs5-pm7-keystone-taxa-support). At the FM level, this may shift the system toward weaker epithelial containment, increased immune activation, and greater gut-derived inflammatory signalling.`,
+These pressures may impair [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity), weaken [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment), and reduce the ecological support described by [BRS5-FM1-PM3 — Keystone Taxa Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support). At the FM level, this may shift the system toward weaker epithelial containment, increased immune activation, and greater gut-derived inflammatory signalling.`,
 };
 
 /** Archived KC stressors (migrated off KC pages into FM §4.4). */

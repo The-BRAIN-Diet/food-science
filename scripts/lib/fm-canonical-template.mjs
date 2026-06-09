@@ -1,6 +1,6 @@
 /**
  * BRS2(FM1) canonical FM page helpers.
- * @see docs/biological-targets/brs2/fm/brs2-fm1-methylation-cycle-efficiency.mdx
+ * @see docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency.mdx
  */
 
 import fs from "node:fs";

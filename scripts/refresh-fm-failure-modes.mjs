@@ -26,7 +26,7 @@ let updated = 0;
 for (const filePath of listFm(path.join(rootDir, "docs/biological-targets"))) {
   const raw = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(raw);
-  const section4Match = content.match(/## 4\. Mechanistic Basis[^\n]*\n([\s\S]*?)(?=\n## 5\. Cross BRS Links)/);
+  const section4Match = content.match(/## 4\. Mechanistic Basis[^\n]*\n([\s\S]*?)(?=\n## 5\. Connected Mechanisms)/);
   if (!section4Match) continue;
 
   const section4 = section4Match[0];
@@ -36,7 +36,7 @@ for (const filePath of listFm(path.join(rootDir, "docs/biological-targets"))) {
   if (newSection4 === section4) continue;
 
   const newContent = content.replace(
-    /## 4\. Mechanistic Basis[^\n]*\n[\s\S]*?(?=\n## 5\. Cross BRS Links)/,
+    /## 4\. Mechanistic Basis[^\n]*\n[\s\S]*?(?=\n## 5\. Connected Mechanisms)/,
     `${newSection4.trim()}\n\n`,
   );
   fs.writeFileSync(filePath, matter.stringify(newContent, data, { lineWidth: 9999 }));

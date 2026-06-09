@@ -1,0 +1,10 @@
+{
+  "label": "BRS-X(ECS) - Endocannabinoid System",
+  "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "biological-targets/brs-x/ecs/brs-x-ecs"
+  },
+  "collapsed": true,
+  "collapsible": true
+}

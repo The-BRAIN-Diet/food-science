@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * PM §5 Connected BRSX Mechanisms (5.1 FM, 5.2 same-BRS sibling PMs)
- * + §6 Cross BRS Links (cross-domain PM/FM links).
+ * + §6 Connected Mechanisms (cross-domain PM/FM links).
  */
 import fs from "fs";
 import path from "path";
@@ -88,7 +88,7 @@ function firstTailIndex(content) {
     /\n## 5\. Connected Mechanisms/,
     /\n## 5\. Overarching Functional Mechanism/,
     /\n## 6\. Connected Mechanisms/,
-    /\n## 6\. Cross BRS Links/,
+    /\n## 6\. Connected Mechanisms/,
     /\n## 7\. Dietary Levers/,
   ];
   let idx = -1;
@@ -117,7 +117,7 @@ function migratePm(filePath, fmIndex) {
     fmLinkLine(data, fmIndex);
   const legacyConnectedPm = extractSubsection(connectedBlock, "Connected Primary Mechanisms") || "";
   const crossBrsBody =
-    extractSectionBody(tailRegion, /## 6\. Cross BRS Links/) ||
+    extractSectionBody(tailRegion, /## 6\. Connected Mechanisms/) ||
     crossBrsFromBody(legacyConnectedPm, data.parent_brs);
 
   const dietaryBlock = extractSectionBody(tailRegion, /## 7\. Dietary Levers/);
@@ -144,7 +144,7 @@ ${fmBody}
 
 ${siblingPmBullets(data, fmIndex)}
 
-## 6. Cross BRS Links
+## 6. Connected Mechanisms
 
 ${crossBrsBody}
 

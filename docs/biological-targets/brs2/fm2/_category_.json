@@ -1,0 +1,10 @@
+{
+  "label": "BRS2(FM2) - Transsulfuration & Redox Coupling",
+  "position": 2,
+  "link": {
+    "type": "doc",
+    "id": "biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling"
+  },
+  "collapsed": true,
+  "collapsible": true
+}

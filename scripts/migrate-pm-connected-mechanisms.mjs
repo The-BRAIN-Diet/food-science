@@ -32,7 +32,7 @@ function migratePm(filePath) {
     "- None listed";
   const pmBody =
     extractSubsection(connectedBlock, "Connected Primary Mechanisms") ||
-    extractSectionBody(content, /## 6\. Cross BRS Links/) ||
+    extractSectionBody(content, /## 6\. Connected Mechanisms/) ||
     "- None listed";
 
   const dietaryBlock = extractSectionBody(content, /## 7\. Dietary Levers/) ||

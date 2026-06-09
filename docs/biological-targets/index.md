@@ -43,6 +43,10 @@ Peripheral neural-immune interface: gut signalling, microbial metabolites, and v
 
 Whole-body regulation: stress allocation, autonomic tone, hormonal coordination, and energy prioritisation.
 
+### [BRS-X - Cross-System Regulation](/docs/biological-targets/cross-system-regulation)
+
+Cross-system networks spanning multiple BRS domains — including the endocannabinoid system and hormone signalling.
+
 <p class="brs-overview-image-wrap">
   <img
     src="/img/biological-targets/all-brs-overview.png"
@@ -64,7 +68,7 @@ Within each system:
 - **Key Constraints (KCs)** describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms.
 - **Primary Mechanisms (PMs)** describe the core biological mechanisms, processing systems, and regulatory interactions operating within those shared constraints.
 - **Functional Mechanisms (FMs)** represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the principal biological targets of the framework.
-- **Specific Mechanisms (SMs)** are interpretation layers — context-specific interpretations of established biological regulation (phenotype-sensitive, variant-sensitive, or cross-system; not therapeutic-area categories).
+- **Specific Mechanisms (SMs)** are interpretation layers that provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), **SM-Pattern** (e.g. vegan, vegetarian, ketogenic), and **SM-Phenotype** (e.g. hyperarousal, emotional dysregulation, sensory regulation). Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
 
 <details>
 <summary><strong>How the framework organises biology</strong></summary>

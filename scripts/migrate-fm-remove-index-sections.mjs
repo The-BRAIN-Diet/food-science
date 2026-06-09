@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Remove redundant FM §5 Primary Mechanisms and §7 KCs (covered by §4.1/§4.2).
- * Renumber Cross BRS Links → §5, References → §6.
+ * Renumber Connected Mechanisms → §5, References → §6.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -20,9 +20,9 @@ function listFmFiles(dir, acc = []) {
 
 export function removeFmIndexSections(content) {
   let body = content
-    .replace(/\n## 5\. Primary Mechanisms \(PMs\)\n[\s\S]*?(?=\n## 6\. Cross BRS Links)/, "")
+    .replace(/\n## 5\. Primary Mechanisms \(PMs\)\n[\s\S]*?(?=\n## 6\. Connected Mechanisms)/, "")
     .replace(/\n## 7\. KCs\n[\s\S]*?(?=\n## 8\. References)/, "")
-    .replace(/\n## 6\. Cross BRS Links/g, "\n## 5. Cross BRS Links")
+    .replace(/\n## 6\. Connected Mechanisms/g, "\n## 5. Connected Mechanisms")
     .replace(/\n## 8\. References/g, "\n## 6. References");
   body = body.replace(/(\n- \[[^\n]+\]\([^)]+\))\n## 6\. References/g, "$1\n\n## 6. References");
   body = body.replace(/(## 6\. References)\n(?!\n)/g, "$1\n\n");

@@ -391,7 +391,7 @@ ${pm.description}${pm.evidence_notes ? ` ${pm.evidence_notes}` : ""}
 
 ${siblingPms.map((p) => `- [${p.id} - ${p.name}](/docs/biological-targets/brs${brsNum}/pm/${slugById.get(p.id)})`).join("\n") || "- None listed"}
 
-## 6. Cross BRS Links
+## 6. Connected Mechanisms
 
 ${cross.map((c) => `- ${c.id}${c.name ? ` — ${c.name}` : ""}`).join("\n") || "- None listed"}
 
@@ -490,7 +490,7 @@ ${fm.outputs || "↑ integrated pathway support"}
 
 ${mechanisticBasisFm(fm, pms, kcs, brsNum, slugById)}
 
-## 5. Cross BRS Links
+## 5. Connected Mechanisms
 
 ${cross.map((c) => `- ${c.id}${c.name ? ` — ${c.name}` : ""}`).join("\n") || "- None listed"}
 

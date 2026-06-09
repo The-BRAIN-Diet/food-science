@@ -2,7 +2,7 @@
 /**
  * Migrate FM pages to synthesis contract:
  * - §4 Mechanistic Basis (Synthesis of PMs)
- * - §5 Cross-BRS Links only (rollup from former §5.4)
+ * - §5 Connected Mechanisms only (rollup from former §5.4)
  * - Remove Dietary / Lifestyle / Scoreable sections
  * - §6 References
  */
@@ -25,12 +25,12 @@ function listFmFiles(dir) {
 const files = listFmFiles(path.join(root, "docs/biological-targets")).sort();
 
 function extractCrossBrs(content) {
-  const m54 = content.match(/### 5\.4 Cross-BRS Links\s*\n([\s\S]*?)(?=\n## \d+\.)/);
+  const m54 = content.match(/### 5\.4 Connected Mechanisms\s*\n([\s\S]*?)(?=\n## \d+\.)/);
   if (m54) {
     const body = m54[1].trim();
     return body || "- None listed";
   }
-  const m5 = content.match(/## 5\. Cross-BRS Links\s*\n([\s\S]*?)(?=\n## \d+\.)/);
+  const m5 = content.match(/## 5\. Connected Mechanisms\s*\n([\s\S]*?)(?=\n## \d+\.)/);
   if (m5) {
     return m5[1].trim() || "- None listed";
   }
@@ -49,7 +49,7 @@ function migrateFm(content) {
 
   next = next.replace(
     /\n## 5\. Underlying Mechanisms and Requirements[\s\S]*?(?=\n## [6789]\.)/,
-    `\n\n## 5. Cross-BRS Links\n\n${crossBrs}\n`,
+    `\n\n## 5. Connected Mechanisms\n\n${crossBrs}\n`,
   );
 
   next = next.replace(/\n## 6\. Dietary Levers[\s\S]*?(?=\n## \d+\. References)/, "\n");

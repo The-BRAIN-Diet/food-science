@@ -18,7 +18,7 @@ Membrane composition, fluidity & structural lipid integrity emerges from the coo
 
 ### 4.1 Core Primary Mechanisms
 
-- [BRS1(PM4) — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/pm/brs1-pm4-neuronal-membrane-dha-incorporation)
+- [BRS1-FM4-PM5 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm5-neuronal-membrane-dha-incorporation)
   Brain DHA accretion and incorporation into neuronal membrane phospholipids, supporting membrane fluidity and the structural lipid environment within which neural signalling occurs.
 
 ### 4.2 Supporting Biological Pools (Key Constraints)
@@ -36,13 +36,13 @@ Cellular bioenergetics emerges from the coordinated interaction of several prima
 
 ### 4.1 Core Primary Mechanisms
 
-- [BRS4(PM1) — Electron Transport Chain Function](/docs/biological-targets/brs4/pm/brs4-pm1-electron-transport-chain-function)
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function)
   Generates ATP through mitochondrial electron transfer and oxidative phosphorylation.
 
-- [BRS4(PM4) — NAD⁺ Metabolism](/docs/biological-targets/brs4/pm/brs4-pm4-nad-metabolism)
+- [BRS4-FM1-PM2 — NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism)
   Maintains redox-carrier availability required for mitochondrial energy production and metabolic flux.
 
-- [BRS4(PM6) — Creatine / Phosphocreatine Buffer](/docs/biological-targets/brs4/pm/brs4-pm6-creatine-phosphocreatine-buffer)
+- [BRS4-FM4-PM6 — Creatine / Phosphocreatine Buffer](/docs/biological-targets/brs4/fm4/brs4-fm4-pm6-creatine-phosphocreatine-buffer)
   Provides rapid ATP buffering during periods of fluctuating or high energy demand.
 
 ### 4.2 Supporting Biological Pools (Key Constraints)
@@ -186,12 +186,12 @@ ${defaultIntegratedNarrative(fmData, pms, kcs, legacy)}`.trim();
 }
 
 export function replaceFmSection4(content, fmData, rootDir) {
-  const oldMatch = content.match(/## 4\. Mechanistic Basis[^\n]*\n([\s\S]*?)(?=\n## 5\. Cross BRS Links)/);
+  const oldMatch = content.match(/## 4\. Mechanistic Basis[^\n]*\n([\s\S]*?)(?=\n## 5\. Connected Mechanisms)/);
   const oldSection4 = oldMatch ? oldMatch[0] : "";
   const newSection4 = buildIntegratedMechanisticBasis(fmData, oldSection4, rootDir);
   if (!oldMatch) return content;
   return content.replace(
-    /## 4\. Mechanistic Basis[^\n]*\n[\s\S]*?(?=\n## 5\. Cross BRS Links)/,
+    /## 4\. Mechanistic Basis[^\n]*\n[\s\S]*?(?=\n## 5\. Connected Mechanisms)/,
     `${newSection4}\n\n`,
   );
 }

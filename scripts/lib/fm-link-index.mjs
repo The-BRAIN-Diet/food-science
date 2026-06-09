@@ -19,6 +19,7 @@ export function buildFmLinkIndex(rootDir = process.cwd()) {
     if (!fmId) continue;
     const rel = path
       .relative(path.join(rootDir, "docs/biological-targets"), filePath)
+      .replace(/\\/g, "/")
       .replace(/\.mdx?$/, "");
     const href = `/docs/biological-targets/${rel.replace(/\\/g, "/")}`;
     const heading = content.match(/^##\s+(.+)$/m)?.[1]?.trim();

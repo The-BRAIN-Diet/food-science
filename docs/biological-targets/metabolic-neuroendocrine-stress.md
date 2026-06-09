@@ -10,13 +10,11 @@ list_image: /img/icons/biological-targets.svg
 hide_title: true
 ---
 
-<p class="brs-pm-thumbnail-wrap">
-  <img
-    src="/img/biological-targets/brs6-portrait-thumbnail.png"
-    alt="BRS6 — Metabolic & Neuroendocrine Stress: circadian rhythm, autonomic tone, hormonal coordination, and energy prioritisation"
-    class="brs-pm-thumbnail"
-  />
-</p>
+<img
+  src="/img/biological-targets/brs6-portrait-thumbnail.png"
+  alt="BRS6 — Metabolic & Neuroendocrine Stress: circadian rhythm, autonomic tone, hormonal coordination, and energy prioritisation"
+  class="brs-hub-hero"
+/>
 
 ## BRS6 - Metabolic & Neuroendocrine Stress
 
@@ -71,21 +69,44 @@ Glycaemic stabilization, SCFA production, polyphenol intake, and anxiolytic prob
 
 ## Functional Mechanisms
 
-Functional Mechanisms (FMs) represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the principal biological targets of the framework.
+Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
-## Core Functional Mechanisms
+### [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability)
 
-- [BRS6-FM1 — Glycaemic-Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability): Integrated regulation of glucose appearance, glycaemic stability, and insulin-supported glucose disposal across the post-prandial period, influencing metabolic continuity, reactive neuroendocrine demand, and cognitive energy availability.
-- [BRS6-FM2 — HPA Axis Rhythm & Cortisol Regulation](/docs/biological-targets/brs6/fm/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation): Integrated regulation of cortisol rhythm and light–feeding entrainment across waking, feeding, and recovery cycles, influencing stress-hormone amplitude, phase alignment, and diurnal neuroendocrine stability.
-- [BRS6-FM3 — Autonomic Balance & Vagal Recovery Capacity](/docs/biological-targets/brs6/fm/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity): Integrated regulation of sympathetic–parasympathetic balance and vagal recovery capacity after stress or cognitive demand, influencing autonomic flexibility, HRV context, and physiological downshifting.
-- [BRS6-FM4 — Stress-Inflammation / Metabolic Load Allocation](/docs/biological-targets/brs6/fm/brs6-fm4-stress-inflammation-metabolic-load-allocation): Integrated regulation of metabolic-inflammatory load and stress-linked appetite–reward signalling, influencing whole-body resource allocation and brain-relevant energy/stress state.
+Integrated regulation of glucose appearance, glycaemic stability, and insulin-supported glucose disposal across the post-prandial period, influencing metabolic continuity, reactive neuroendocrine demand, and cognitive energy availability.
 
-<!--
-Each Functional Mechanism is defined as a single canonical unit (name + description).
-These must match the canonical functional mechanism definitions and must not be modified.
+**Mechanisms:**
 
-Do not rename, reorder, paraphrase, or reinterpret.
--->
+- [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics)
+- [BRS6-FM1-PM2 — Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation)
+- [BRS6-FM1-PM3 — Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal)
+
+### [BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation)
+
+Integrated regulation of cortisol rhythm and light–feeding entrainment across waking, feeding, and recovery cycles, influencing stress-hormone amplitude, phase alignment, and diurnal neuroendocrine stability.
+
+**Mechanisms:**
+
+- [BRS6-FM2-PM4 — Cortisol Rhythm Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation)
+- [BRS6-FM2-PM5 — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment)
+
+### [BRS6(FM3) — Autonomic Balance & Vagal Recovery Capacity](/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity)
+
+Integrated regulation of sympathetic–parasympathetic balance and vagal recovery capacity after stress or cognitive demand, influencing autonomic flexibility, HRV context, and physiological downshifting.
+
+**Mechanisms:**
+
+- [BRS6-FM3-PM6 — Sympathetic Activation & Parasympathetic Recovery](/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery)
+- [BRS6-FM3-PM7 — Vagal Tone / HRV Regulation](/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation)
+
+### [BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation)
+
+Integrated regulation of metabolic-inflammatory load and stress-linked appetite–reward signalling, influencing whole-body resource allocation and brain-relevant energy/stress state.
+
+**Mechanisms:**
+
+- [BRS6-FM4-PM8 — Metabolic Inflammation & Adipose Stress Signalling](/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling)
+- [BRS6-FM4-PM9 — Stress-Induced Appetite / Reward Drive Modulation](/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation)
 
 ---
 
@@ -102,19 +123,9 @@ Key Constraints are shared biological pool constraints, not intervention targets
 
 ---
 
-## Primary Mechanisms
+## Specific Mechanisms
 
-Primary mechanisms sit beneath functional mechanisms and define specific regulatory processes. Browse by functional mechanism above, or use these direct links:
-
-- [BRS6(PM1) — Glucose Appearance Kinetics](/docs/biological-targets/brs6/pm/brs6-pm1-glucose-appearance-kinetics)
-- [BRS6(PM2) — Glycaemic Variability Regulation](/docs/biological-targets/brs6/pm/brs6-pm2-glycaemic-variability-regulation)
-- [BRS6(PM3) — Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/pm/brs6-pm3-insulin-sensitivity-and-glucose-disposal)
-- [BRS6(PM4) — Cortisol Rhythm Regulation](/docs/biological-targets/brs6/pm/brs6-pm4-cortisol-rhythm-regulation)
-- [BRS6(PM5) — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/pm/brs6-pm5-circadian-feeding-and-light-dark-entrainment)
-- [BRS6(PM6) — Sympathetic Activation & Parasympathetic Recovery](/docs/biological-targets/brs6/pm/brs6-pm6-sympathetic-activation-and-parasympathetic-recovery)
-- [BRS6(PM7) — Vagal Tone / HRV Regulation](/docs/biological-targets/brs6/pm/brs6-pm7-vagal-tone-hrv-regulation)
-- [BRS6(PM8) — Metabolic Inflammation & Adipose Stress Signalling](/docs/biological-targets/brs6/pm/brs6-pm8-metabolic-inflammation-and-adipose-stress-signalling)
-- [BRS6(PM9) — Stress-Induced Appetite / Reward Drive Modulation](/docs/biological-targets/brs6/pm/brs6-pm9-stress-induced-appetite-reward-drive-modulation)
+Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS6 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), **SM-Pattern** (e.g. vegan, vegetarian, ketogenic), and **SM-Phenotype** (e.g. hyperarousal, emotional dysregulation, sensory regulation). Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
 
 ---
 

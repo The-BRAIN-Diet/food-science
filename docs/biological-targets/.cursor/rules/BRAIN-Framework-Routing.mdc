@@ -1,10 +1,8 @@
 ---
 description: BRAIN Framework routing rule
 globs:
-  - "docs/biological-targets/**/fm/**/*.mdx"
-  - "docs/biological-targets/**/fm/**/*.md"
-  - "docs/biological-targets/**/pm/**/*.mdx"
-  - "docs/biological-targets/**/pm/**/*.md"
+  - "docs/biological-targets/brs*/fm*/**/*.mdx"
+  - "docs/biological-targets/brs*/fm*/**/*.md"
   - "docs/biological-targets/**/kc/**/*.mdx"
   - "docs/biological-targets/**/kc/**/*.md"
   - "docs/biological-targets/**/sm/**/*.mdx"
@@ -21,13 +19,13 @@ This rule determines which schema applies to each page type.
 
 Routing logic:
 
-- If the file path contains `/fm/`:
-  - Apply:
-    `system/functional-mechanism-schema.md`
-
-- If the file path contains `/pm/`:
+- If the file path matches `brs*/fm*/` and the filename contains `-fm{N}-pm{M}-`:
   - Apply:
     `system/primary-mechanism-schema.md`
+
+- If the file path matches `brs*/fm*/` and the filename is an FM page (no `-pm` segment):
+  - Apply:
+    `system/functional-mechanism-schema.md`
 
 - If the file path contains `/kc/`:
   - Apply:

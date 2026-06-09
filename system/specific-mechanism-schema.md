@@ -55,9 +55,11 @@ SMs must remain mechanistically grounded in connected PMs, FMs, and KCs. They mu
 
 `SM-ADHD` is **not** a valid category. Do not create new SM-ADHD pages. Existing therapeutic-area content should live on BRS hubs or be reclassified as `SM-PHEN` (genuine phenotype) or `SM-CROSS` (multi-BRS interpretive concept).
 
-### Future consideration: XM (Cross-Mechanisms)
+### BRS-X cross-system layer
 
-After all six BRS domains complete first-pass development, review whether dense SM-CROSS examples should evolve into a dedicated **XM** layer (cross-system biological concepts without clear PM/FM ownership). **Do not implement XM yet.** Continue using `SM-CROSS` until sufficient examples exist. Potential future XM candidates include histamine system context, endocannabinoid signalling, circadian biology, neuroimmune signalling, and stress adaptation / allostatic load.
+Genuinely cross-system biological networks that span multiple BRS domains and cannot be owned by a single BRS are documented as **BRS-X** systems (see `system/brs-x-schema.md`). Initial systems: `BRS-X(ECS)` (endocannabinoid system) and `BRS-X(Hormones)` (hormone signalling & regulation). SM-Female and SM-Male may reference BRS-X(Hormones) FMs and PMs without owning those mechanisms.
+
+`SM-CROSS` pages remain interpretation layers hosted on a BRS hub for navigation. When a concept matures into a bounded cross-system mechanism with PM/FM ownership, migrate to the appropriate `BRS-X(...)` namespace rather than expanding SM-CROSS indefinitely.
 
 ## Required top-level front matter
 
@@ -126,7 +128,7 @@ First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
    - `### 5.2` KCs (Key Constraints)
    - `### 5.3` Connected Primary Mechanisms (PMs) — required when `connected_pms` non-empty
    - `### 5.4` Connected Functional Mechanisms (FMs)
-   - `### 5.5` Cross-BRS Links — see [§5.5 Cross-BRS Links (authoring contract)](#55-cross-brs-links-authoring-contract) below
+   - `### 5.5` Connected Mechanisms — see [§5.5 Connected Mechanisms (authoring contract)](#55-connected-mechanisms-authoring-contract) below
 6. Dietary Levers — `<details><summary><strong>Diet</strong></summary>` — use substance ← food bullets per `system/substance-food-mapping-format.md` where listing substrates and example foods
 7. Lifestyle Levers — `<details><summary><strong>Lifestyle</strong></summary>`
 8. Scoreable Inputs & Modulation Signals — optional; same table categories as PM/FM
@@ -134,7 +136,7 @@ First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
 
 Timing: `timing_specific` in front matter only; discuss timing in Functional Role, Mechanistic Basis, Lifestyle, or Scoreable when relevant.
 
-## §5.5 Cross-BRS Links (authoring contract)
+## §5.5 Connected Mechanisms (authoring contract)
 
 ### When required
 
@@ -147,7 +149,7 @@ Timing: `timing_specific` in front matter only; discuss timing in Functional Rol
 |------------|---------|
 | **§5.3 Connected PMs** | Bullet list of **host-BRS** PMs anchored in `connected_pms` front matter — the stable biology this SM reads from on the parent BRS. |
 | **§5.4 Connected FMs** | Bullet list of host-BRS FMs from `connected_fms` front matter. |
-| **§5.5 Cross-BRS Links** | **Narrative** cross-domain placement: prose paragraphs (and optional `####` subheads) that explain how the SM concept maps across BRS domains, with **inline markdown links to specific PM pages**. |
+| **§5.5 Connected Mechanisms** | **Narrative** cross-domain placement: prose paragraphs (and optional `####` subheads) that explain how the SM concept maps across BRS domains, with **inline markdown links to specific PM pages**. |
 
 Do **not** use hub-only labels (e.g. “BRS3 crossover”) without at least one linked PM when a relevant PM exists. Do **not** duplicate full PM definitions — link and interpret.
 
@@ -161,17 +163,17 @@ Do **not** use hub-only labels (e.g. “BRS3 crossover”) without at least one 
 ### Example pattern (`SM-CROSS`)
 
 ```markdown
-### 5.5 Cross-BRS Links
+### 5.5 Connected Mechanisms
 
 <Concept> is placed by cross-BRS priority through linked PMs, not by reassignment to a single PM home.
 
 #### Primary: <theme> in BRS1
 
-<Paragraph explaining neural/arousal role.> Arousal coupling maps to [BRS1(PM5) — …](/docs/biological-targets/brs1/pm/…). Circadian crossover maps to [BRS6(PM5) — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/pm/brs6-pm5-circadian-feeding-and-light-dark-entrainment) [1].
+<Paragraph explaining neural/arousal role.> Arousal coupling maps to [BRS1-FM1-PM2 — …](/docs/biological-targets/brs1/pm/…). Circadian crossover maps to [BRS6-FM2-PM5 — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment) [1].
 
 #### Secondary: <theme> in BRS3
 
-<Paragraph on immune/inflammatory intersection.> Maps to [BRS3(PM4) — Cytokine Network Modulation](/docs/biological-targets/brs3/pm/brs3-pm4-cytokine-network-modulation) [2].
+<Paragraph on immune/inflammatory intersection.> Maps to [BRS3-FM3-PM7 — Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) [2].
 ```
 
 Reference implementation: `docs/biological-targets/brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk.mdx`.

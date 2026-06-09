@@ -22,6 +22,8 @@ inchi_image: /img/inchi/LXNHXLLTXMVWPM-UHFFFAOYSA-N.png
 
 Vitamin B6 is a water-soluble vitamin that exists in several forms (pyridoxine, pyridoxal, pyridoxamine) which are converted to the active coenzyme form, pyridoxal-5'-phosphate (PLP), in the brain. PLP serves as a cofactor for the synthesis of all key neurotransmitters including dopamine, serotonin, GABA, and glutamate, supporting rate-limiting steps in catecholamine synthesis. B6 is also an essential cofactor in the remethylation of homocysteine to methionine, working with B2, folate, and B12 in methylation processes. The conversion to PLP requires PDXK (pyridoxal kinase) activity, which is supported by cofactors such as magnesium and ATP.
 
+Dopamine regulation — a core neurotransmitter axis in ADHD — is closely tied to insulin function. Insulin shifts the balance of amino acids in the blood, allowing more tyrosine (dopamine's precursor) to cross into the brain, where it is converted into dopamine with the help of enzymes and cofactors including vitamin B6 [Kennedy 2016](/docs/papers/BRAIN-Diet-References#kennedy_b_2016).
+
 ## Recipes
 
 <SubstanceRecipes tag="Vitamin B6" />
@@ -36,6 +38,7 @@ Vitamin B6 is a water-soluble vitamin that exists in several forms (pyridoxine, 
 
 ## References
 
+- Dopamine regulation is closely tied to insulin function; insulin shifts plasma amino acid balance, allowing more tyrosine to cross into the brain, where it is converted to dopamine with enzymatic cofactors including vitamin B6 [Kennedy 2016](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
 - B6 is a cofactor in the development of all key neurotransmitters; pyridoxine, pyridoxal, and pyridoxamine cross the blood–brain barrier in non-phosphorylated forms and are converted to PLP by PDXK [Spector 1978](/docs/papers/BRAIN-Diet-References#spector_vitamin_1978)
 - PDXK activity is supported by cofactors such as magnesium and ATP; combined B6 and magnesium supplementation has been reported to reduce inattention and hyperactivity [Mousain-Bosc et al. 2006](/docs/papers/BRAIN-Diet-References#m_mousain-bosc_1_improvement_2006)
 - B vitamins, particularly B6, B2, folate, and B12, are essential cofactors in remethylation of homocysteine to methionine, which is converted to SAMe
