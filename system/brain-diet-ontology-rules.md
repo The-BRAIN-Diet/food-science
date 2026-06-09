@@ -47,6 +47,18 @@ They are:
 
 ---
 
+## 1.1a BRS-X (Cross-System Regulation)
+
+**BRS-X** systems are cross-system biological regulatory networks that span multiple BRS domains simultaneously and cannot be cleanly owned by a single BRS.
+
+They are first-class framework objects alongside BRS1–BRS6. Naming: `BRS-X(ECS)`, `BRS-X(Hormones)`, `BRS-X(ECS-FM1)`, `BRS-X(Hormones-PM3)`, etc. See `system/brs-x-schema.md`.
+
+Cross-system references on FM/PM/SM pages use **Connected Mechanisms** (not separate handling for BRS-X vs BRS).
+
+Initial systems: Endocannabinoid System (`BRS-X(ECS)`), Hormone Signalling & Regulation (`BRS-X(Hormones)`).
+
+---
+
 ## 1.2 Functional Mechanisms (FM)
 
 Functional Mechanisms (FMs) represent **integrated biological states** that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the **principal biological targets** of the framework.
@@ -61,7 +73,7 @@ In this ontology, FMs are the **control layer** of the system. They:
 - FMs must remain limited and stable
 - FMs define the integrated states that are scored and optimised
 - **Dietary levers, lifestyle levers, and scoreable inputs belong on PM pages** — interventions act on bounded mechanisms
-- FM pages synthesise PMs into emergent states and roll up cross-BRS links; PM pages carry implementation and intervention detail
+- FM pages synthesise PMs into emergent states and roll up connected mechanisms; PM pages carry implementation and intervention detail
 
 ---
 
@@ -80,25 +92,43 @@ Specific Mechanisms are **interpretation layers** — context-specific readings 
 - Do **not** use `SM-ADHD` or other therapeutic-area-primary SM categories.
 - **SM-CROSS test:** qualify only if the concept materially spans **≥ 2 BRS domains** **and** cannot be naturally owned by a single PM or FM — see `system/specific-mechanism-schema.md`.
 - SM-CROSS is not a phenotype page and not a bounded PM; document multi-BRS crossover in SM **§5.5** using paragraph prose and **links to specific PMs** (not BRS hub labels alone). See `system/specific-mechanism-schema.md`.
-- Do not implement an **XM** (Cross-Mechanisms) layer until all six BRS domains complete first-pass development and SM-CROSS examples justify review. See `system/specific-mechanism-schema.md`.
+- When a cross-system concept matures into bounded PM/FM ownership, author under **BRS-X** (`system/brs-x-schema.md`) rather than indefinitely expanding SM-CROSS.
 
 ---
 
 ## 1.4 Primary Mechanisms (PM)
 
-Primary Mechanisms are biological processes.
+Primary Mechanisms are biological processes — the detailed mechanistic and evidence-bearing layer beneath FMs.
 
 They:
 - explain how biology works
-- feed into FMs
+- belong to exactly one parent FM
 - do not define scoring directly
+
+### FM-centric architecture (BRS → FM → PM)
+
+Navigation hierarchy: **BRS → FM → PM**. FMs are the primary navigational and teaching layer; PMs are always encountered within their parent FM context.
+
+**PM identifiers** use BRS-wide incremental numbering (unique within each BRS, not reset per FM):
+
+- `BRS1-FM1-PM1`, `BRS1-FM1-PM2`, `BRS1-FM2-PM3`, `BRS1-FM3-PM4`, … through `BRS1-FM5-PM9`
+- The PM number is unique across the BRS; the FM segment identifies the parent function.
+- Shorthand in training: e.g. "Neurotransmitters PM9" = `BRS1-FM5-PM9`.
+
+**File paths:**
+
+- FM pages: `docs/biological-targets/brs{N}/fm{M}/brs{N}-fm{M}-{slug}.mdx`
+- PM pages: `docs/biological-targets/brs{N}/fm{M}/brs{N}-fm{M}-pm{local}-{slug}.mdx`
+- URLs: `/docs/biological-targets/brs{N}/fm{M}/brs{N}-fm{M}-pm{local}-{slug}`
 
 ### Rules
 
-- All PMs must map to at least one FM
-- PMs must not exist independently
-- PMs can map to multiple FMs if justified
+- Every PM must belong to exactly one FM
+- PM numbering is incremental and unique within the parent BRS (assigned in FM order)
+- PMs must not be displayed or organised independently from their parent FM
 - PMs expand biological detail, not system structure
+
+See `system/fm-centric-pm-migration-report.md` for the global→local ID mapping.
 
 ---
 

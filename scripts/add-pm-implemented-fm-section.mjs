@@ -30,7 +30,7 @@ function insertSection(content, parentFm) {
   }
   const n = underlying[1];
   const crossRe = new RegExp(
-    `(### ${n}\\.3 Cross-BRS Links[\\s\\S]*?)(\\n## ${parseInt(n, 10) + 1}\\. )`,
+    `(### ${n}\\.3 Connected Mechanisms[\\s\\S]*?)(\\n## ${parseInt(n, 10) + 1}\\. )`,
     "m",
   );
   const m = content.match(crossRe);

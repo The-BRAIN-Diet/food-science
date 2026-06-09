@@ -1,8 +1,8 @@
 ---
 description: Functional Mechanism (FM) page rules
 globs:
-  - "docs/biological-targets/**/fm/**/*.mdx"
-  - "docs/biological-targets/**/fm/**/*.md"
+  - "docs/biological-targets/brs*/fm*/brs*-fm*.mdx"
+  - "docs/biological-targets/brs*/fm*/brs*-fm*.md"
 alwaysApply: false
 ---
 
@@ -26,13 +26,13 @@ Synthesis contract (required):
 - **Definition (§1):** integrated regulatory state; do not paste full PM definitions.
 - **Functional Role (§3):** short ↑ / ↓ **emergent FM outcomes** only — not PM delivery/incorporation language.
 - **Mechanistic Basis (§4):** `### 4.1 Core Primary Mechanisms`, `### 4.2 Supporting Biological Pools (Key Constraints)` (`- None listed` when no KCs), `### 4.3 Integrated Functional Narrative`; add `### 4.4 Functional Failure Modes` only when `key_constraints` is non-empty; optional `### 4.5 Evidence Highlights` for FM-level evidence framing.
-- **Canonical (no KCs):** `docs/biological-targets/brs1/fm/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx`
-- **Canonical (with KCs + failure modes):** `docs/biological-targets/brs5/fm/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx`
-- **§5 Cross BRS Links** — roll up from constituent PM `§6 Cross BRS Links`; do not use legacy `BRS Links` heading on FM pages.
+- **Canonical (no KCs):** `docs/biological-targets/brs1/fm4/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx`
+- **Canonical (with KCs + failure modes):** `docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx`
+- **§5 Connected Mechanisms** — roll up from constituent PM `§6 Connected Mechanisms`; do not use legacy `BRS Links` heading on FM pages.
 - **Deduplication:** if detail exists on a PM page, do not repeat it on the FM page — only describe how PMs combine into the FM state.
 
 Structure:
-- Canonical outline: **Definition → Intervention Breakdown → Functional Role → Mechanistic Basis (§4.1–4.3) → [§4.4 when KCs linked] → [optional §4.5] → Cross BRS Links → References** (`## 6.`).
+- Canonical outline: **Definition → Intervention Breakdown → Functional Role → Mechanistic Basis (§4.1–4.3) → [§4.4 when KCs linked] → [optional §4.5] → Connected Mechanisms → References** (`## 6.`).
 - `mechanisms_covered` and `key_constraints` stay in **front matter** for tooling; PM/KC links render in §4.1/§4.2 only — no duplicate §5/§7 index lists.
 - `timing_specific` (`Yes` | `No`) is **required in front matter**; do **not** add a standalone `## N. Timing Specific` body section.
 - Where timing materially alters FM interpretation, discuss it in **Functional Role** or **Mechanistic Basis** — not Lifestyle/Scoreable sections on FM pages.

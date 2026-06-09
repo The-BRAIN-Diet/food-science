@@ -155,11 +155,33 @@ export function listMechanismMdxFiles(rootDir = process.cwd(), kind) {
   const base = path.join(rootDir, "docs/biological-targets");
   const out = [];
   if (!fs.existsSync(base)) return out;
+
+  const isPmFile = (name) => /-fm\d+-pm\d+-/.test(name);
+  const isFmFile = (name) => /-fm\d+-/.test(name) && !isPmFile(name);
+
   for (const brs of fs.readdirSync(base)) {
-    const dir = path.join(base, brs, kind);
-    if (!fs.existsSync(dir)) continue;
-    for (const f of fs.readdirSync(dir)) {
-      if (f.endsWith(".mdx") || f.endsWith(".md")) out.push(path.join(dir, f));
+    if (!/^brs\d+$/i.test(brs)) continue;
+    const brsDir = path.join(base, brs);
+    for (const entry of fs.readdirSync(brsDir)) {
+      const sub = path.join(brsDir, entry);
+      if (!fs.statSync(sub).isDirectory()) continue;
+
+      // FM-centric layout: brs{N}/fm{M}/
+      if (/^fm\d+$/i.test(entry)) {
+        for (const f of fs.readdirSync(sub)) {
+          if (!f.endsWith(".mdx") && !f.endsWith(".md")) continue;
+          if (kind === "pm" && isPmFile(f)) out.push(path.join(sub, f));
+          if (kind === "fm" && isFmFile(f)) out.push(path.join(sub, f));
+        }
+        continue;
+      }
+
+      // Legacy flat layout: brs{N}/fm/ or brs{N}/pm/
+      if (entry === kind) {
+        for (const f of fs.readdirSync(sub)) {
+          if (f.endsWith(".mdx") || f.endsWith(".md")) out.push(path.join(sub, f));
+        }
+      }
     }
   }
   return out.sort();
@@ -356,7 +378,7 @@ function validateEvidenceHighlightsPlacement(content, sections, issues, { entity
   }
 }
 
-/** FM synthesis contract: no intervention sections; §5 Cross BRS Links. PM/KC links live in §4.1/§4.2. */
+/** FM synthesis contract: no intervention sections; §5 Connected Mechanisms. PM/KC links live in §4.1/§4.2. */
 const FM_FORBIDDEN_BODY_SECTIONS = [
   "Dietary Levers",
   "Lifestyle Levers",
@@ -395,14 +417,14 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
     pushIssue(
       issues,
       "fm_legacy_underlying_subsections",
-      `${entityLabel}: remove legacy §5.x rollups; use §4 integrated narrative and ## 5. Cross BRS Links`,
+      `${entityLabel}: remove legacy §5.x rollups; use §4 integrated narrative and ## 5. Connected Mechanisms`,
     );
   }
-  const brs = sections.find((s) => s.title.startsWith("Cross BRS Links"));
+  const brs = sections.find((s) => s.title.startsWith("Connected Mechanisms"));
   if (!brs) {
-    pushIssue(issues, "fm_missing_brs_links", `${entityLabel}: FM pages must include ## 5. Cross BRS Links`);
+    pushIssue(issues, "fm_missing_brs_links", `${entityLabel}: FM pages must include ## 5. Connected Mechanisms`);
   } else if (brs.level !== 5) {
-    pushIssue(issues, "fm_brs_links_numbering", `${entityLabel}: Cross BRS Links must be ## 5. Cross BRS Links`);
+    pushIssue(issues, "fm_brs_links_numbering", `${entityLabel}: Connected Mechanisms must be ## 5. Connected Mechanisms`);
   }
   const refs = sections.find((s) => s.title.startsWith("References"));
   if (refs && refs.level !== 6) {
@@ -470,7 +492,7 @@ const FM_EXTENDED_SECTION_TITLES = [
   "Intervention Breakdown",
   "Functional Role",
   "Mechanistic Basis (Integrated FM Narrative)",
-  "Cross BRS Links",
+  "Connected Mechanisms",
   "References",
 ];
 
@@ -563,8 +585,8 @@ function validateFmPage(filePath, { rootDir }) {
     if (numbered.length >= 4 && !t3.startsWith("Mechanistic Basis")) {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §4 must be Mechanistic Basis (Integrated FM Narrative)`);
     }
-    if (numbered.length >= 5 && !t4.startsWith("Cross BRS Links")) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §5 must be Cross BRS Links`);
+    if (numbered.length >= 5 && !t4.startsWith("Connected Mechanisms")) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §5 must be Connected Mechanisms`);
     }
     if (numbered.length >= 6 && !t5.startsWith("References")) {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §6 must be References`);
@@ -587,7 +609,7 @@ function pmConnectedSectionTitle(parentBrs) {
 const PM_EXTENDED_AFTER_INTERVENTION = [
   "Functional Role",
   "Mechanistic Basis",
-  "Cross BRS Links",
+  "Connected Mechanisms",
   "Dietary Levers",
   "Lifestyle Levers",
 ];
@@ -620,8 +642,8 @@ function validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs 
   if (byLevel.has(5) && String(byLevel.get(5)) !== connectedTitle) {
     pushIssue(issues, "pm_section5", `${entityLabel}: §5 must be ${connectedTitle}`);
   }
-  if (byLevel.has(6) && !String(byLevel.get(6)).startsWith("Cross BRS Links")) {
-    pushIssue(issues, "pm_section6", `${entityLabel}: §6 must be Cross BRS Links`);
+  if (byLevel.has(6) && !String(byLevel.get(6)).startsWith("Connected Mechanisms")) {
+    pushIssue(issues, "pm_section6", `${entityLabel}: §6 must be Connected Mechanisms`);
   }
   if (byLevel.has(7) && !String(byLevel.get(7)).startsWith("Dietary Levers")) {
     pushIssue(issues, "pm_section7", `${entityLabel}: §7 must be Dietary Levers`);
@@ -630,7 +652,7 @@ function validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs 
     pushIssue(
       issues,
       "pm_legacy_connected",
-      `${entityLabel}: use ## 5. ${connectedTitle} (5.1 FM, 5.2 sibling PMs) and ## 6. Cross BRS Links`,
+      `${entityLabel}: use ## 5. ${connectedTitle} (5.1 FM, 5.2 sibling PMs) and ## 6. Connected Mechanisms`,
     );
   }
 

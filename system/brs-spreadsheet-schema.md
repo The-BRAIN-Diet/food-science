@@ -294,7 +294,7 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 
 ### PM §4 Mechanistic Basis (spreadsheet extension)
 
-After PM MDX shell generation, populate **§4 Mechanistic Basis** via `scripts/generate-pm-mechanistic-basis.mjs` (or flag with `npm run mechanisms:validate`). Follow the canonical four-part narrative and citation rules in `system/primary-mechanism-schema.md` (**PM §4 — Canonical four-part narrative**, **PM §4 — Citations**); reference page: BRS1(PM1).
+After PM MDX shell generation, populate **§4 Mechanistic Basis** via `scripts/generate-pm-mechanistic-basis.mjs` (or flag with `npm run mechanisms:validate`). Follow the canonical four-part narrative and citation rules in `system/primary-mechanism-schema.md` (**PM §4 — Canonical four-part narrative**, **PM §4 — Citations**); reference page: BRS1-FM1-PM1.
 
 Optional row field `mechanistic_detail`:
 

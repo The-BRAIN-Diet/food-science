@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 /**
  * Harmonise PM/FM section structure:
- * PM §5 Overarching Functional Mechanism, §6 Cross BRS Links, §7 Dietary Levers (7.1–7.3), §8–§10 …
- * FM §6 Cross BRS Links (rename from BRS Links)
+ * PM §5 Overarching Functional Mechanism, §6 Connected Mechanisms, §7 Dietary Levers (7.1–7.3), §8–§10 …
+ * FM §6 Connected Mechanisms (rename from BRS Links)
  */
 import fs from "fs";
 import path from "path";
@@ -41,7 +41,7 @@ function extractUnderlyingSub(underBlock, subNum) {
 function extractCrossBrsFromUnderlying(underBlock) {
   for (const n of [3, 4]) {
     const m = underBlock.match(
-      new RegExp(`### 5\\.${n}\\s+Cross-BRS Links\\s*\\n([\\s\\S]*?)(?=\\n### |$)`),
+      new RegExp(`### 5\\.${n}\\s+Connected Mechanisms\\s*\\n([\\s\\S]*?)(?=\\n### |$)`),
     );
     if (m) return m[1].trim();
   }
@@ -71,7 +71,7 @@ function migratePm(filePath, fmIndex) {
   if (!/^##\s+2\.\s+Intervention Breakdown\s*$/m.test(content)) return null;
 
   const underBlock = extractSectionBody(content, /## 5\. (?:Underlying Mechanisms and Requirements|Overarching Functional Mechanism)/);
-  const crossFromSection = extractSectionBody(content, /## 6\. Cross BRS Links/);
+  const crossFromSection = extractSectionBody(content, /## 6\. Connected Mechanisms/);
   const dietaryBlock = extractSectionBody(content, /## 7\. Dietary Levers/);
   const legacyDietaryBlock = extractSectionBody(content, /## 6\. Dietary Levers/);
 
@@ -95,7 +95,7 @@ function migratePm(filePath, fmIndex) {
     /\n## 5\. (?:Underlying Mechanisms and Requirements|Overarching Functional Mechanism)[\s\S]*?(?=\n## \d+\. References|\n## 10\. References|$)/,
     "",
   );
-  body = body.replace(/\n## [6789]\. (?:Cross BRS Links|Dietary Levers|Lifestyle Levers|Scoreable Inputs)[\s\S]*?(?=\n## \d+\. References|\n## 10\. References|$)/g, "");
+  body = body.replace(/\n## [6789]\. (?:Connected Mechanisms|Dietary Levers|Lifestyle Levers|Scoreable Inputs)[\s\S]*?(?=\n## \d+\. References|\n## 10\. References|$)/g, "");
   body = body.replace(/\n## 10\. References[\s\S]*$/m, "");
   body = body.replace(/\n## 9\. References[\s\S]*$/m, "");
 
@@ -108,7 +108,7 @@ function migratePm(filePath, fmIndex) {
 
 ${fmLinkLine(data, fmIndex)}
 
-## 6. Cross BRS Links
+## 6. Connected Mechanisms
 
 ${crossBrs}
 
@@ -144,7 +144,7 @@ ${refsBody}
 
 function migrateFm(filePath) {
   const { data, content } = readMechanismPage(filePath);
-  let body = content.replace(/^## 6\. BRS Links/m, "## 6. Cross BRS Links");
+  let body = content.replace(/^## 6\. BRS Links/m, "## 6. Connected Mechanisms");
   if (body === content) return null;
   return matter.stringify(body, data, { lineWidth: 9999 });
 }

@@ -10,13 +10,11 @@ list_image: /img/icons/biological-targets.svg
 hide_title: true
 ---
 
-<p class="brs-pm-thumbnail-wrap">
-  <img
-    src="/img/biological-targets/brs3-portrait-thumbnail.png"
-    alt="BRS3 — Inflammation & Oxidative Stress: inflammatory tone, immune balance, and oxidative defence"
-    class="brs-pm-thumbnail"
-  />
-</p>
+<img
+  src="/img/biological-targets/brs3-portrait-thumbnail.png"
+  alt="BRS3 — Inflammation & Oxidative Stress: inflammatory tone, immune balance, and oxidative defence"
+  class="brs-hub-hero"
+/>
 
 ## BRS3 - Inflammation & Oxidative Stress
 
@@ -47,7 +45,7 @@ Butyrate may reduce neuroinflammation and support mitochondrial brain energy met
 
 ADHD is associated with metabolic disorders and postprandial inflammatory patterns; omega-3-mediated resolution biology is relevant to this context.
 
-- **[BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm/brs3-fm1-anti-inflammatory-signalling-tone):** Anti-inflammatory and DMN connectivity context in ADHD: systemic inflammation intersects default-mode network connectivity [Marsland et al. 2017](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017). The BRAIN Diet uses nutrient-timed meals to support dopamine–insulin coupling through dopamine precursors and anti-inflammatory nutrients to reduce DMN dysregulation. Catecholaminergic default-mode to executive-network switching → [BRS1(FM1) — Catecholaminergic Function](/docs/biological-targets/brs1/fm/brs1-fm1-catecholaminergic-function).
+- **[BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone):** Anti-inflammatory and DMN connectivity context in ADHD: systemic inflammation intersects default-mode network connectivity [Marsland et al. 2017](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017). The BRAIN Diet uses nutrient-timed meals to support dopamine–insulin coupling through dopamine precursors and anti-inflammatory nutrients to reduce DMN dysregulation. Catecholaminergic default-mode to executive-network switching → [BRS1(FM1) — Catecholaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-catecholaminergic-function).
 
 Dietary antioxidant approaches in ADHD have been linked to immune and epigenetic modulation; immune dysfunction and elevated IgE/allergy patterns represent another overlapping clinical link.
 
@@ -141,13 +139,36 @@ ADHD has been linked with metals contamination, ultra-processed foods (including
 
 ## Functional Mechanisms
 
-Functional Mechanisms (FMs) represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the principal biological targets of the framework.
+Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
-### Core Functional Mechanisms
+### [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone)
 
-- [BRS3(FM1) - Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm/brs3-fm1-anti-inflammatory-signalling-tone): Diet-actionable control point regulating inflammatory signalling intensity across cytokine, NF-kB, gut-derived, and lipid-mediator inputs.
-- [BRS3(FM2) - Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm/brs3-fm2-antioxidant-defense-capacity): Functional control point regulating endogenous and exogenous antioxidant protection against redox overload, oxidative damage, and lipid peroxidation control.
-- [BRS3(FM3) - Inflammation Resolution Capacity](/docs/biological-targets/brs3/fm/brs3-fm3-inflammation-resolution-capacity): Functional control point governing active termination of inflammation through pro-resolving lipid mediators rather than simple suppression.
+Diet-actionable control point regulating inflammatory signalling intensity across cytokine, NF-kB, gut-derived, and lipid-mediator inputs.
+
+**Mechanisms:**
+
+- [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation)
+- [BRS3-FM1-PM2 — Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling)
+
+### [BRS3(FM2) — Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity)
+
+Functional control point regulating endogenous and exogenous antioxidant protection against redox overload, oxidative damage, and lipid peroxidation control.
+
+**Mechanisms:**
+
+- [BRS3-FM2-PM5 — Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation)
+- [BRS3-FM2-PM6 — ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance)
+- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control)
+- [BRS3-FM2-PM6 — Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling)
+
+### [BRS3(FM3) — Inflammation Resolution Capacity](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity)
+
+Functional control point governing active termination of inflammation through pro-resolving lipid mediators rather than simple suppression.
+
+**Mechanisms:**
+
+- [BRS3-FM3-PM7 — Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation)
+- [BRS3-FM3-PM8 — Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance)
 
 ---
 
@@ -160,16 +181,6 @@ Key Constraints (KCs) in BRS3 describe shared substrate, precursor, and structur
 
 ---
 
-## Primary Mechanisms
+## Specific Mechanisms
 
-Primary mechanisms sit beneath functional mechanisms and define the specific regulatory processes acting within those shared constraints.
-
-- [BRS3(PM1) - NF-kB Signalling Regulation](/docs/biological-targets/brs3/pm/brs3-pm1-nf-kb-signalling-regulation)
-- [BRS3(PM2) - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/pm/brs3-pm2-nrf2-are-antioxidant-activation)
-- [BRS3(PM3) - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/pm/brs3-pm3-ros-generation-vs-clearance-balance)
-- [BRS3(PM4) - Cytokine Network Modulation](/docs/biological-targets/brs3/pm/brs3-pm4-cytokine-network-modulation)
-- [BRS3(PM5) - Lipid Peroxidation Control](/docs/biological-targets/brs3/pm/brs3-pm5-lipid-peroxidation-control)
-- [BRS3(PM6) - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/pm/brs3-pm6-eicosanoid-spm-balance)
-- [BRS3(PM7) - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/pm/brs3-pm7-gut-derived-inflammatory-signalling)
-- [BRS3(PM8) - Antioxidant Network Recycling](/docs/biological-targets/brs3/pm/brs3-pm8-antioxidant-network-recycling)
-
+Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS3 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), **SM-Pattern** (e.g. vegan, vegetarian, ketogenic), and **SM-Phenotype** (e.g. hyperarousal, emotional dysregulation, sensory regulation). Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.

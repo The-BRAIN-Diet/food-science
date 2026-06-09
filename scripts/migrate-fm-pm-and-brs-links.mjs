@@ -22,11 +22,11 @@ function listFmFiles(dir) {
 
 function extractBrsLinksBody(content) {
   for (const heading of [
-    /^## 6\. Cross BRS Links\s*\n([\s\S]*?)(?=\n## \d+\.)/m,
+    /^## 6\. Connected Mechanisms\s*\n([\s\S]*?)(?=\n## \d+\.)/m,
     /^## 6\. BRS Links\s*\n([\s\S]*?)(?=\n## \d+\.)/m,
-    /^## 5\. Cross-BRS Links\s*\n([\s\S]*?)(?=\n## \d+\.)/m,
-    /^## 5\. Cross BRS Links\s*\n([\s\S]*?)(?=\n## \d+\.)/m,
-    /^## 6\. Cross-BRS Links\s*\n([\s\S]*?)(?=\n## \d+\.)/m,
+    /^## 5\. Connected Mechanisms\s*\n([\s\S]*?)(?=\n## \d+\.)/m,
+    /^## 5\. Connected Mechanisms\s*\n([\s\S]*?)(?=\n## \d+\.)/m,
+    /^## 6\. Connected Mechanisms\s*\n([\s\S]*?)(?=\n## \d+\.)/m,
   ]) {
     const m = content.match(heading);
     if (m) return m[1].trim() || "- None listed";
@@ -55,16 +55,16 @@ function migrateFm(filePath) {
   const pmBullets = pmSectionBullets(data.mechanisms_covered);
 
   let body = content.replace(
-    /\n## 5\. (?:Cross-BRS Links|Primary Mechanisms \(PMs\))[\s\S]*?(?=\n## \d+\. References)/,
+    /\n## 5\. (?:Connected Mechanisms|Primary Mechanisms \(PMs\))[\s\S]*?(?=\n## \d+\. References)/,
     "",
   );
   body = body.replace(
-    /\n## 6\. (?:BRS Links|Cross-BRS Links|Primary Mechanisms \(PMs\))[\s\S]*?(?=\n## \d+\. References)/,
+    /\n## 6\. (?:BRS Links|Connected Mechanisms|Primary Mechanisms \(PMs\))[\s\S]*?(?=\n## \d+\. References)/,
     "",
   );
   body = body.replace(/^## [567]\. References/m, "## 7. References");
 
-  const tail = `\n\n## 5. Primary Mechanisms (PMs)\n\n${pmBullets}\n\n## 6. Cross BRS Links\n\n${brsLinks}\n\n## 7. References`;
+  const tail = `\n\n## 5. Primary Mechanisms (PMs)\n\n${pmBullets}\n\n## 6. Connected Mechanisms\n\n${brsLinks}\n\n## 7. References`;
   body = body.replace(/^## 7\. References/m, tail.trimStart());
 
   return matter.stringify(body, data, { lineWidth: 9999 });

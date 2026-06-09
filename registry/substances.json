@@ -682,6 +682,26 @@
     "inchikey": "",
     "list_image": ""
   },
+  "chromium": {
+    "path": "nutrients/micronutrients/minerals/trace/chromium.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Chromium",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "boron": {
+    "path": "nutrients/micronutrients/minerals/trace/boron.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Boron",
+    "inchikey": "",
+    "list_image": ""
+  },
   "potassium": {
     "path": "nutrients/micronutrients/minerals/macro/potassium.md",
     "tags": [
@@ -719,6 +739,16 @@
       "nutrient"
     ],
     "title": "Sodium",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "phosphorus": {
+    "path": "nutrients/micronutrients/minerals/macro/phosphorus.md",
+    "tags": [
+      "mineral",
+      "nutrient"
+    ],
+    "title": "Phosphorus",
     "inchikey": "",
     "list_image": ""
   },

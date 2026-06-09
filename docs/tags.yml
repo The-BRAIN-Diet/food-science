@@ -96,6 +96,16 @@ CoQ10:
   permalink: /coq10
   description: Coenzyme Q10
 
+Boron:
+  label: Boron
+  permalink: /boron
+  description: Ultratrace mineral; bone and hormone metabolism
+
+Chromium:
+  label: Chromium
+  permalink: /chromium
+  description: Essential trace mineral; insulin and glucose handling
+
 Copper:
   label: Copper
   permalink: /copper
@@ -120,6 +130,11 @@ EGCG:
   label: EGCG
   permalink: /egcg
   description: Green tea catechin
+
+Cross-System Regulation:
+  label: Cross-System Regulation
+  permalink: /cross-system-regulation
+  description: Cross-system biological regulatory networks (BRS-X)
 
 Endocannabinoid System:
   label: Endocannabinoid System
@@ -349,7 +364,7 @@ Phosphatidylserine:
 Phosphorus:
   label: Phosphorus
   permalink: /phosphorus
-  description: Essential mineral for bone health and energy metabolism
+  description: Macromineral; biologically active as phosphate (PO₄³⁻) in ATP, phospholipids, and nucleic acids
 
 Phospholipid:
   label: Phospholipid

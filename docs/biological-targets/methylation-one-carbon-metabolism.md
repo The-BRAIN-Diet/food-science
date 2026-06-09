@@ -10,13 +10,11 @@ list_image: /img/icons/biological-targets.svg
 hide_title: true
 ---
 
-<p class="brs-pm-thumbnail-wrap">
-  <img
-    src="/img/biological-targets/brs2-portrait-thumbnail.png"
-    alt="BRS2 — Methylation & One-Carbon Metabolism"
-    class="brs-pm-thumbnail"
-  />
-</p>
+<img
+  src="/img/biological-targets/brs2-portrait-thumbnail.png"
+  alt="BRS2 — Methylation & One-Carbon Metabolism"
+  class="brs-hub-hero"
+/>
 
 
 ## BRS2 - Methylation & One-Carbon Metabolism
@@ -58,20 +56,20 @@ Choline plays a crucial role in acetylcholine synthesis and neuronal membrane in
 
 | Evidence | Citation | Connected mechanisms |
 | --- | --- | --- |
-| Riboflavin (B2) links to MTHFR, homocysteine recycling, and metabolism of B12, B6, and niacin | [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(SM-SNP1)](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency) |
-| Folic acid supplementation reduces plasma homocysteine; adding B12 gives additional reduction over folate alone | [Collaboration (1998)](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation) |
-| Vitamin B-12, fish oil, and combined B-12 + fish oil lowered plasma homocysteine by 22%, 19%, and 39%, respectively | [Tao Huang et al. (2015)](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation) |
-| B vitamin supplementation slowed cognitive decline only in participants with adequate omega-3 status | [Oulhaj et al. (2016)](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis), [BRS2(PM7)](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation) |
-| Deficiencies in folate, B12, and zinc correlate with ADHD symptoms; micronutrient supplementation may support methylation and symptom severity | [Razavinia et al. (2024)](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(SM-SNP1)](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency) |
-| Dietary patterns rich in fibre, folate, and omega-3 fatty acids were associated with reduced ADHD symptoms | [Millichap and Yee (2012)](/docs/papers/BRAIN-Diet-References#millichap_diet_2012) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM2)](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation) |
-| Elevated plasma homocysteine is frequently reported in ADHD and related conditions | [Yu et al. (2020)](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM4)](/docs/biological-targets/brs2/pm/brs2-pm4-methionine-cycle-flux) |
-| Homocysteine elevation in neurodevelopmental and psychiatric contexts | [Luzzi et al. (2022)](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022) | [BRS2(PM1)](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(PM2)](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation) |
-| Homocysteine, oxidative stress, and lipid peroxidation pathways | [Lukovac et al. (2024)](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024) | [BRS2(PM5)](/docs/biological-targets/brs2/pm/brs2-pm5-transsulfuration-pathway), [BRS2(PM6)](/docs/biological-targets/brs2/pm/brs2-pm6-glutathione-synthesis) |
-| Phospholipid methylation and dopamine D4 receptor activity in ADHD | [Martel et al. (2011)](/docs/papers/BRAIN-Diet-References#martel_dopamine_2011) | [BRS2(PM7)](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation), [BRS2(PM3)](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis) |
-| Membrane composition, PLM, and reduced gamma-band activity in ADHD | [Cocchi et al. (2017)](/docs/papers/BRAIN-Diet-References#cocchi_linoleic_2017) | [BRS2(PM7)](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation) |
-| Gamma-frequency oscillations and attention-related membrane mechanisms | [Wilson et al. (2012)](/docs/papers/BRAIN-Diet-References#wilson_gamma-frequency_2012) | [BRS2(PM7)](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation) |
-| Choline and positive effects on ADHD in studies | [Derbyshire and Maes (2023)](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) | [BRS2(PM2)](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation), [BRS2(PM7)](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation) |
-| Cholinergic system imbalances as a focus in ADHD aetiology | [Johansson et al. (2013)](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS1(PM3)](/docs/biological-targets/brs1/pm/brs1-pm3-acetylcholine-synthesis-support), [BRS2(PM2)](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation) |
+| Riboflavin (B2) links to MTHFR, homocysteine recycling, and metabolism of B12, B6, and niacin | [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(SM-SNP1)](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency) |
+| Folic acid supplementation reduces plasma homocysteine; adding B12 gives additional reduction over folate alone | [Collaboration (1998)](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) |
+| Vitamin B-12, fish oil, and combined B-12 + fish oil lowered plasma homocysteine by 22%, 19%, and 39%, respectively | [Tao Huang et al. (2015)](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) |
+| B vitamin supplementation slowed cognitive decline only in participants with adequate omega-3 status | [Oulhaj et al. (2016)](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis), [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation) |
+| Deficiencies in folate, B12, and zinc correlate with ADHD symptoms; micronutrient supplementation may support methylation and symptom severity | [Razavinia et al. (2024)](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(SM-SNP1)](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency) |
+| Dietary patterns rich in fibre, folate, and omega-3 fatty acids were associated with reduced ADHD symptoms | [Millichap and Yee (2012)](/docs/papers/BRAIN-Diet-References#millichap_diet_2012) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) |
+| Elevated plasma homocysteine is frequently reported in ADHD and related conditions | [Yu et al. (2020)](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) |
+| Homocysteine elevation in neurodevelopmental and psychiatric contexts | [Luzzi et al. (2022)](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) |
+| Homocysteine, oxidative stress, and lipid peroxidation pathways | [Lukovac et al. (2024)](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024) | [BRS2-FM2-PM5](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway), [BRS2-FM2-PM6](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis) |
+| Phospholipid methylation and dopamine D4 receptor activity in ADHD | [Martel et al. (2011)](/docs/papers/BRAIN-Diet-References#martel_dopamine_2011) | [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation), [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) |
+| Membrane composition, PLM, and reduced gamma-band activity in ADHD | [Cocchi et al. (2017)](/docs/papers/BRAIN-Diet-References#cocchi_linoleic_2017) | [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation) |
+| Gamma-frequency oscillations and attention-related membrane mechanisms | [Wilson et al. (2012)](/docs/papers/BRAIN-Diet-References#wilson_gamma-frequency_2012) | [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation) |
+| Choline and positive effects on ADHD in studies | [Derbyshire and Maes (2023)](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) | [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation) |
+| Cholinergic system imbalances as a focus in ADHD aetiology | [Johansson et al. (2013)](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS1-FM3-PM4](/docs/biological-targets/brs1/fm3/brs1-fm3-pm4-acetylcholine-synthesis-support), [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) |
 
 </details>
 
@@ -79,13 +77,35 @@ Choline plays a crucial role in acetylcholine synthesis and neuronal membrane in
 
 ## Functional Mechanisms
 
-Functional Mechanisms (FMs) represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the principal biological targets of the framework.
+Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
-### Core Functional Mechanisms
+### [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency)
 
-- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm/brs2-fm1-methylation-cycle-efficiency): Diet-actionable control point regulating one-carbon flux, homocysteine recycling, and methyl donor availability.
-- [BRS2(FM2) — Transsulfuration & Redox Coupling](/docs/biological-targets/brs2/fm/brs2-fm2-transsulfuration-redox-coupling): Functional coupling of homocysteine disposal to cysteine and glutathione production.
-- [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm/brs2-fm3-methylation-membrane-coupling): Functional coupling of SAMe-dependent phospholipid methylation to neuronal membrane integrity and signaling.
+Integrated regulation of Folate/B12-Dependent Homocysteine Remethylation, Betaine/BHMT Remethylation, SAMe Synthesis, and Methionine Cycle Flux, influencing one-carbon flux, homocysteine recycling, and methyl donor availability.
+
+**Mechanisms:**
+
+- [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
+- [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation)
+- [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis)
+- [BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
+
+### [BRS2(FM2) — Transsulfuration & Redox Coupling](/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling)
+
+Integrated regulation of Transsulfuration Pathway, and Glutathione Synthesis, influencing homocysteine disposal to cysteine and glutathione production.
+
+**Mechanisms:**
+
+- [BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway)
+- [BRS2-FM2-PM6 — Glutathione Synthesis](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis)
+
+### [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling)
+
+Integrated regulation of SAMe Synthesis, and Phospholipid Methylation, influencing SAMe-dependent phospholipid methylation to neuronal membrane integrity and signaling.
+
+**Mechanisms:**
+
+- [BRS2-FM3-PM7 — Phospholipid Methylation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation)
 
 ---
 
@@ -98,23 +118,9 @@ Key Constraints (KCs) in BRS2 describe shared precursor and structural biologica
 
 ---
 
-## Primary Mechanisms
-
-Primary mechanisms sit beneath functional mechanisms and define specific regulatory processes. Browse by functional mechanism above, or use these direct links:
-
-- [BRS2(PM1) — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation)
-- [BRS2(PM2) — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation)
-- [BRS2(PM3) — SAMe Synthesis](/docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis)
-- [BRS2(PM4) — Methionine Cycle Flux](/docs/biological-targets/brs2/pm/brs2-pm4-methionine-cycle-flux)
-- [BRS2(PM5) — Transsulfuration Pathway](/docs/biological-targets/brs2/pm/brs2-pm5-transsulfuration-pathway)
-- [BRS2(PM6) — Glutathione Synthesis](/docs/biological-targets/brs2/pm/brs2-pm6-glutathione-synthesis)
-- [BRS2(PM7) — Phospholipid Methylation](/docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation)
-
----
-
 ## Specific Mechanisms
 
-Interpretation layers — phenotype-sensitive (`SM-PHEN`), variant-sensitive (`SM-SNP`), and cross-system (`SM-CROSS`) readings of stable BRS2 biology. Therapeutic-area framing (including ADHD) is covered in the hub rationale above, not as a separate SM category.
+Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS2 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), **SM-Pattern** (e.g. vegan, vegetarian, ketogenic), and **SM-Phenotype** (e.g. hyperarousal, emotional dysregulation, sensory regulation). Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
 
 - [BRS2(SM-SNP1) — SNP-Sensitive Methylation Efficiency](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency)
 

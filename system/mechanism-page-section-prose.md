@@ -13,11 +13,11 @@ Applies to **PM**, **FM**, **SM**, and **KC** pages under `docs/biological-targe
 
 **Sections should never begin by restating the title or definition.**
 
-Each section must follow **only** the schema role for that section (Definition, Functional Role, Mechanistic Basis, Dietary Levers, Cross-BRS Links, etc.). Do not open a section with boilerplate that repeats what the heading or a prior section already established.
+Each section must follow **only** the schema role for that section (Definition, Functional Role, Mechanistic Basis, Dietary Levers, Connected Mechanisms, etc.). Do not open a section with boilerplate that repeats what the heading or a prior section already established.
 
 ### Do not use as section openers
 
-- Restating the page title or entity ID (e.g. `BRS1(SM-CROSS1) is…`, `BRS6(PM5) describes…`)
+- Restating the page title or entity ID (e.g. `BRS1(SM-CROSS1) is…`, `BRS6-FM2-PM5 describes…`)
 - Restating the **BRS name or number** (e.g. `BRS1 — Neurotransmitter Regulation…`, `Within BRS2…`) when the page is already scoped to that BRS
 - Paraphrasing the **Definition** section at the start of Functional Role, Mechanistic Basis, Dietary Levers, or §5.5
 - Generic filler (`This section covers…`, `The following describes…`)
@@ -25,7 +25,7 @@ Each section must follow **only** the schema role for that section (Definition, 
 ### Allowed
 
 - **One** in-body title line after front matter: `## <Entity_ID> - <Title>` (per PM/FM/SM/KC section-order schema)
-- Entity IDs **inline** when linking or distinguishing mechanisms (e.g. `[BRS3(PM4) — …](href)` mid-paragraph)
+- Entity IDs **inline** when linking or distinguishing mechanisms (e.g. `[BRS3-FM3-PM7 — …](href)` mid-paragraph)
 - Canonical **bullet lists** in connected-entity subsections (§5.3 PMs, §5.4 FMs, hub FM/KC lists)
 - **`### Summary`** under Mechanistic Basis: short synthesis for that section only — not a copy of §1 Definition
 
@@ -38,17 +38,17 @@ Each section must follow **only** the schema role for that section (Definition, 
 | **Mechanistic Basis (PM)** | **Summary → primary mechanism → boundaries → integration** (see below); link PMs/KCs/citations; do not re-define the entity |
 | **Intervention Breakdown** | Single allowed value only (when in schema) |
 | **Dietary / Lifestyle Levers** | Levers and patterns — not a repeat of Definition |
-| **§5.5 Cross-BRS Links** | Cross-domain placement prose + PM links — not a second Definition |
+| **§5.5 Connected Mechanisms** | Cross-domain placement prose + PM links — not a second Definition |
 
 ## PM Mechanistic Basis — canonical structure
 
-**Reference:** [BRS1(PM1) — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation).
+**Reference:** [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
 
 ```
 ### Summary          → why this mechanism matters (implication first)
 #### (…)            → primary mechanism — how it works (one or more blocks)
 #### (Boundaries…)  → what this PM does not cover (downstream PMs, other domains)
-#### (Integration…) → KCs, FM placement, cross-BRS links
+#### (Integration…) → KCs, FM placement, connected mechanisms
 ```
 
 **Write like a framework mechanism, not a review paper.** Explain why the mechanism matters and how it works; do not re-define the entity (that is §1). Do not open §4 with the mechanism name, `BRSn(PMx) describes…`, or scope boundaries.
@@ -69,7 +69,7 @@ Each section must follow **only** the schema role for that section (Definition, 
 - **Summary:** implication-first; citations optional unless one study anchors the whole implication.
 - **Rewrites:** if a cited claim stays, the citation stays; if a claim is new and evidence-backed, add the citation and References entry.
 
-Example placement: [BRS1(PM1)](/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation) — Mariotti [2] in protein quality; Fernstrom [1] at the PM2 boundary.
+Example placement: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — Mariotti [2] in protein quality; Fernstrom [1] at the PM2 boundary.
 
 **§4 UX:** `### Summary` stays **outside** `<details>`; the four-part `####` narrative goes **inside** one `<details>` block. `### 4.1 Evidence Highlights` follows the dropdown as a subsection of `## 4.`, not inside it.
 

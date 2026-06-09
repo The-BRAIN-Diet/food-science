@@ -10,13 +10,11 @@ list_image: /img/icons/biological-targets.svg
 hide_title: true
 ---
 
-<p class="brs-pm-thumbnail-wrap">
-  <img
-    src="/img/biological-targets/brs5-portrait-thumbnail.png"
-    alt="BRS5 — Gut–Brain Axis & Enteric Nervous System: vagal pathways, gut barrier, and microbial signalling"
-    class="brs-pm-thumbnail"
-  />
-</p>
+<img
+  src="/img/biological-targets/brs5-portrait-thumbnail.png"
+  alt="BRS5 — Gut–Brain Axis & Enteric Nervous System: vagal pathways, gut barrier, and microbial signalling"
+  class="brs-hub-hero"
+/>
 
 ## BRS5 - Gut-Brain Axis & Enteric Nervous System
 
@@ -80,13 +78,36 @@ Lower *Bifidobacterium longum* abundance in infancy has been associated with inc
 
 ## Functional Mechanisms
 
-Functional Mechanisms (FMs) represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the principal biological targets of the framework.
+Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
-### Core Functional Mechanisms
+### [BRS5(FM1) — Gut Barrier Integrity & Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface)
 
-- [BRS5(FM1) - Gut Barrier Integrity & Immune Interface](/docs/biological-targets/brs5/fm/brs5-fm1-gut-barrier-integrity-and-immune-interface): Diet-actionable control point regulating epithelial tight-junction integrity, mucus protection, and immune containment at the gut-brain interface.
-- [BRS5(FM2) - Microbial Metabolite Signalling Capacity](/docs/biological-targets/brs5/fm/brs5-fm2-microbial-metabolite-signalling-capacity): Functional control point governing production of beneficial microbial metabolites that shape immune, endocrine, and neurobiological signalling.
-- [BRS5(FM3) - Gut-Vagal Neuromodulation & ENS Signalling](/docs/biological-targets/brs5/fm/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling): Diet-actionable control point regulating vagal and enteric signalling through microbial activity, barrier state, and metabolite/neurochemical cues.
+Diet-actionable control point regulating epithelial tight-junction integrity, mucus protection, and immune containment at the gut-brain interface.
+
+**Mechanisms:**
+
+- [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity)
+- [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment)
+- [BRS5-FM1-PM3 — Keystone Taxa Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support)
+
+### [BRS5(FM2) — Microbial Metabolite Signalling Capacity](/docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity)
+
+Functional control point governing production of beneficial microbial metabolites that shape immune, endocrine, and neurobiological signalling.
+
+**Mechanisms:**
+
+- [BRS5-FM2-PM4 — Microbial Ecological Turnover & Competitive Selection](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection)
+- [BRS5-FM2-PM5 — SCFA Production & Signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling)
+- [BRS5-FM2-PM6 — Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation)
+
+### [BRS5(FM3) — Gut-Vagal Neuromodulation & ENS Signalling](/docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling)
+
+Diet-actionable control point regulating vagal and enteric signalling through microbial activity, barrier state, and metabolite/neurochemical cues.
+
+**Mechanisms:**
+
+- [BRS5-FM3-PM7 — Vagal / ENS Signalling Modulation](/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation)
+- [BRS5-FM3-PM8 — Neurotransmitter Precursor Biotransformation & Availability](/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability)
 
 ---
 
@@ -100,15 +121,6 @@ Key Constraints (KCs) in BRS5 describe shared substrate, precursor, and structur
 
 ---
 
-## Primary Mechanisms
+## Specific Mechanisms
 
-Primary mechanisms sit beneath functional mechanisms and define the specific gut ecological, barrier, and signalling processes acting within those shared constraints.
-
-- [BRS5(PM1) - Microbial Ecological Turnover & Competitive Selection](/docs/biological-targets/brs5/pm/brs5-pm1-microbial-ecological-turnover-and-competitive-selection)
-- [BRS5(PM2) - SCFA Production & Signalling](/docs/biological-targets/brs5/pm/brs5-pm2-scfa-production-and-signalling)
-- [BRS5(PM3) - Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/pm/brs5-pm3-gut-barrier-tight-junction-integrity)
-- [BRS5(PM4) - LPS / Endotoxin Containment](/docs/biological-targets/brs5/pm/brs5-pm4-lps-endotoxin-containment)
-- [BRS5(PM5) - Vagal / ENS Signalling Modulation](/docs/biological-targets/brs5/pm/brs5-pm5-vagal-ens-signalling-modulation)
-- [BRS5(PM6) - Neurotransmitter Precursor Biotransformation & Availability](/docs/biological-targets/brs5/pm/brs5-pm6-neurotransmitter-precursor-biotransformation-and-availability)
-- [BRS5(PM7) - Keystone Taxa Support](/docs/biological-targets/brs5/pm/brs5-pm7-keystone-taxa-support)
-- [BRS5(PM8) - Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation](/docs/biological-targets/brs5/pm/brs5-pm8-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation)
+Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS5 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), **SM-Pattern** (e.g. vegan, vegetarian, ketogenic), and **SM-Phenotype** (e.g. hyperarousal, emotional dysregulation, sensory regulation). Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
