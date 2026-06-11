@@ -42,16 +42,20 @@ Within the BRAIN Framework, BRS-X(Hormones) is a first-class cross-system object
 
 ## Functional Mechanisms
 
-Proposed integrated states under the `BRS-X(Hormones-FMn)` namespace:
+### [BRS-X(Hormones-FM1) — Reproductive Hormone Balance & Neurocognitive Regulation](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation)
 
-### BRS-X(Hormones-FM1) — Hormone Production & Availability
+Integrated regulation of oestrogen, progesterone, gut-mediated sex-hormone metabolism, and metabolic-reproductive hormone signalling.
 
-Integrated control of hormone synthesis, availability, and endocrine resilience.
+Primary mechanisms:
 
-Potential PMs:
+- [BRS-X(Hormones-PM1) — Oestrogen Signalling Stability](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability)
+- [BRS-X(Hormones-PM2) — Estrobolome Regulation](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation)
+- [BRS-X(Hormones-PM3) — Progesterone-Supportive Microbial Metabolism](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism)
+- [BRS-X(Hormones-PM4) — Metabolic-Reproductive Hormone Integration](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration)
 
-- Steroid Hormone Synthesis
-- Endocrine Cofactor Sufficiency
+---
+
+Proposed future integrated states under the `BRS-X(Hormones-FMn)` namespace:
 
 ### BRS-X(Hormones-FM2) — Hormone-Responsive Neural Regulation
 
@@ -84,15 +88,13 @@ Potential PMs:
 - Androgen Transition & Ageing Adaptation
 - Gender-Affirming Hormone Transition Support
 
-- *No published BRS-X(Hormones-FM) pages yet.*
+- *Additional BRS-X(Hormones-FM) pages pending.*
 
 ---
 
 ## Primary Mechanisms
 
-Primary mechanisms will be authored under the `BRS-X(Hormones-PMn)` namespace as the cross-system layer develops.
-
-- *No published BRS-X(Hormones-PM) pages yet.*
+Published under [BRS-X(Hormones-FM1)](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation) — see FM page for PM links.
 
 ---
 

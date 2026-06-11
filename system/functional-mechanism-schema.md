@@ -10,6 +10,10 @@ This schema defines the canonical data contract for Functional Mechanism pages.
 It is derived from the FM specification and is intended to be strict enough for
 validation while remaining readable for authors.
 
+## Related: Phenome roll-ups
+
+FM **§2 Connected Phenomes / Functional Outcomes** aggregates child PM `phenome_relationships`. See `system/phenome-relationship-schema.md`. Do not embed phenome outcome claims in §1 Definition.
+
 ## Spreadsheet Interpretation Authority
 
 - Use `system/brs-spreadsheet-schema.md` as the authoritative field-by-field
@@ -173,6 +177,20 @@ intervention_dominance: string     # legacy spreadsheet alias; map to interventi
 coverage_timing: string            # legacy; does not replace timing_specific on the page
 references:
   - string                         # numeric citation links to bibliography anchors
+connected_phenomes:                # optional roll-up snapshot from child PMs
+  - target_phenome: string
+    connected_pm_count: number
+    strongest_relationship_type: string
+    highest_evidence_level: string
+    overall_confidence: string
+    evidence_summary: string
+    contributing_pms:
+      - id: string
+        name: string
+        href: string
+        relationship_type: string
+        confidence: string
+        evidence_level: string
 hide_title: boolean
 ```
 
@@ -252,19 +270,20 @@ First line of the MDX body (after front matter) must be the FM title: `## <FM_ID
 
 ### Canonical public body (synthesis contract)
 
-Numbered sections must stay contiguous. Optional `### 4.5 Evidence Highlights` nests under §4 when used (FM-level “why this matters” — not PM intervention evidence).
+Numbered sections must stay contiguous. Optional `### 5.5 Evidence Highlights` nests under §5 when used (FM-level “why this matters” — not PM intervention evidence).
 
 1. **Definition** — `## 1. Definition` — integrated regulatory state per **FM Definition Rule**; `summary` in front matter must match this intent
-2. **Intervention Breakdown** — `## 2. Intervention Breakdown` — single allowed value per **Intervention Breakdown** (required); must match `intervention_breakdown` in front matter
-3. **Functional Role** — `## 3. Functional Role` — short directional arrow line describing **emergent FM outcomes** per **FM Functional Role Rule**
-4. **Mechanistic Basis (Integrated FM Narrative)** — `## 4. Mechanistic Basis (Integrated FM Narrative)` — per **FM Mechanistic Basis Rule** and **Deduplication Rule**; weave timing context in §4.3 when `timing_specific: "Yes"`
-   - **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with contribution lines
-   - **`### 4.2 Supporting Biological Pools (Key Constraints)`** — linked KC bullets with contribution lines, or `- None listed`
-   - **`### 4.3 Integrated Functional Narrative`** — synthesis paragraph(s)
-   - **`### 4.4 Functional Failure Modes`** — required when `key_constraints` is non-empty
-   - **`### 4.5 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
-5. **Connected Mechanisms** — `## 5. Connected Mechanisms` — roll up from constituent PM `§6 Connected Mechanisms` with linked PM pages where they exist
-6. **References** — `## 6. References` — numbered list with bibliography links
+2. **Connected Phenomes / Functional Outcomes** — `## 2. Connected Phenomes / Functional Outcomes` — roll-up from child PM `phenome_relationships`; canonical disclaimer required
+3. **Intervention Breakdown** — `## 3. Intervention Breakdown` — single allowed value per **Intervention Breakdown** (required); must match `intervention_breakdown` in front matter
+4. **Functional Role** — `## 4. Functional Role` — short directional arrow line describing **emergent FM outcomes** per **FM Functional Role Rule**
+5. **Mechanistic Basis (Integrated FM Narrative)** — `## 5. Mechanistic Basis (Integrated FM Narrative)` — per **FM Mechanistic Basis Rule** and **Deduplication Rule**; weave timing context in §5.3 when `timing_specific: "Yes"`
+   - **`### 5.1 Core Primary Mechanisms`** — linked PM bullets with contribution lines
+   - **`### 5.2 Supporting Biological Pools (Key Constraints)`** — linked KC bullets with contribution lines, or `- None listed`
+   - **`### 5.3 Integrated Functional Narrative`** — synthesis paragraph(s)
+   - **`### 5.4 Functional Failure Modes`** — required when `key_constraints` is non-empty
+   - **`### 5.5 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
+6. **Connected Mechanisms** — `## 6. Connected Mechanisms` — roll up from constituent PM `§7 Connected Mechanisms` with linked PM pages where they exist
+7. **References** — `## 7. References` — numbered list with bibliography links
 
 **Not on FM pages:** standalone `Primary Mechanisms (PMs)` or `KCs` index sections (PM/KC links live in §4.1/§4.2), `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, legacy `BRS Links` heading, or PM-level cofactor/dietary lever rollups — those belong on **PM pages** (§7–§9).
 

@@ -7,6 +7,13 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { isLegacyFoodToSubstanceLine } from "./substance-food-mapping.mjs";
+import {
+  FM_PHENOME_SECTION_TITLE,
+  PM_PHENOME_SECTION_TITLE,
+  validateFmPhenomeFrontMatter,
+  validatePmPhenomeFrontMatter,
+  validatePhenomeSectionBody,
+} from "./phenome-relationships.mjs";
 
 export const TIMING_SPECIFIC_VALUES = new Set(["Yes", "No"]);
 
@@ -156,23 +163,45 @@ export function listMechanismMdxFiles(rootDir = process.cwd(), kind) {
   const out = [];
   if (!fs.existsSync(base)) return out;
 
-  const isPmFile = (name) => /-fm\d+-pm\d+-/.test(name);
-  const isFmFile = (name) => /-fm\d+-/.test(name) && !isPmFile(name);
+  const isPmFile = (name) =>
+    /-fm\d+-pm\d+-/.test(name) || /brs-x-[a-z]+-pm\d+-/.test(name);
+  const isFmFile = (name) =>
+    (/-fm\d+-/.test(name) || /brs-x-[a-z]+-fm\d+-/.test(name)) && !isPmFile(name);
+
+  function scanFmFolder(sub) {
+    for (const f of fs.readdirSync(sub)) {
+      if (!f.endsWith(".mdx") && !f.endsWith(".md")) continue;
+      if (kind === "pm" && isPmFile(f)) out.push(path.join(sub, f));
+      if (kind === "fm" && isFmFile(f)) out.push(path.join(sub, f));
+    }
+  }
 
   for (const brs of fs.readdirSync(base)) {
-    if (!/^brs\d+$/i.test(brs)) continue;
     const brsDir = path.join(base, brs);
+    if (!fs.statSync(brsDir).isDirectory()) continue;
+
+    // BRS-X: brs-x/{ecs,hormones}/fm{M}/
+    if (brs === "brs-x") {
+      for (const system of fs.readdirSync(brsDir)) {
+        const systemDir = path.join(brsDir, system);
+        if (!fs.statSync(systemDir).isDirectory()) continue;
+        for (const entry of fs.readdirSync(systemDir)) {
+          if (!/^fm\d+$/i.test(entry)) continue;
+          scanFmFolder(path.join(systemDir, entry));
+        }
+      }
+      continue;
+    }
+
+    if (!/^brs\d+$/i.test(brs)) continue;
+
     for (const entry of fs.readdirSync(brsDir)) {
       const sub = path.join(brsDir, entry);
       if (!fs.statSync(sub).isDirectory()) continue;
 
       // FM-centric layout: brs{N}/fm{M}/
       if (/^fm\d+$/i.test(entry)) {
-        for (const f of fs.readdirSync(sub)) {
-          if (!f.endsWith(".mdx") && !f.endsWith(".md")) continue;
-          if (kind === "pm" && isPmFile(f)) out.push(path.join(sub, f));
-          if (kind === "fm" && isFmFile(f)) out.push(path.join(sub, f));
-        }
+        scanFmFolder(sub);
         continue;
       }
 
@@ -224,7 +253,7 @@ function validateNoVisibleTimingSection(content, issues, { entityLabel }) {
 }
 
 function extractInterventionBreakdownBody(content) {
-  const m = content.match(/^##\s+2\.\s+Intervention Breakdown\s*$/m);
+  const m = content.match(/^##\s+3\.\s+Intervention Breakdown\s*$/m);
   if (!m || m.index === undefined) return null;
   const start = m.index;
   const after = content.slice(start);
@@ -245,11 +274,11 @@ function validateInterventionBreakdown(data, content, issues, { entityLabel, req
         `${entityLabel}: intervention_breakdown must be one of the five allowed semantic values`,
       );
     }
-    if (!/^##\s+2\.\s+Intervention Breakdown\s*$/m.test(content)) {
+    if (!/^##\s+3\.\s+Intervention Breakdown\s*$/m.test(content)) {
       pushIssue(
         issues,
         "missing_intervention_breakdown_section",
-        `${entityLabel}: published body must include "## 2. Intervention Breakdown" after Definition`,
+        `${entityLabel}: published body must include "## 3. Intervention Breakdown" after Phenome layer`,
       );
     }
   }
@@ -268,7 +297,7 @@ function validateInterventionBreakdown(data, content, issues, { entityLabel, req
     }
     if (fmValue && block.trim()) {
       const bodyVal = block
-        .replace(/^##\s+2\.\s+Intervention Breakdown\s*/m, "")
+        .replace(/^##\s+3\.\s+Intervention Breakdown\s*/m, "")
         .trim()
         .split("\n")[0]
         ?.trim();
@@ -276,7 +305,7 @@ function validateInterventionBreakdown(data, content, issues, { entityLabel, req
         pushIssue(
           issues,
           "intervention_breakdown_mismatch",
-          `${entityLabel}: "## 2. Intervention Breakdown" body value must match front matter intervention_breakdown`,
+          `${entityLabel}: "## 3. Intervention Breakdown" body value must match front matter intervention_breakdown`,
         );
       }
     }
@@ -366,14 +395,14 @@ function validateEvidenceHighlightsPlacement(content, sections, issues, { entity
     pushIssue(
       issues,
       "fm_evidence_highlights_subsection",
-      `${entityLabel}: on FM pages use ### 4.5 Evidence Highlights (§4.4 is Functional Failure Modes)`,
+      `${entityLabel}: on FM pages use ### 5.5 Evidence Highlights (§5.4 is Functional Failure Modes)`,
     );
   }
   if (evSub === 4 && /Integrated FM Narrative/.test(mechanistic.title)) {
     pushIssue(
       issues,
       "fm_evidence_highlights_subsection",
-      `${entityLabel}: on FM pages use ### 4.5 Evidence Highlights (§4.4 is Functional Failure Modes)`,
+      `${entityLabel}: on FM pages use ### 5.5 Evidence Highlights (§5.4 is Functional Failure Modes)`,
     );
   }
 }
@@ -399,7 +428,7 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
       pushIssue(
         issues,
         "fm_forbidden_section",
-        `${entityLabel}: FM pages must not include "## N. ${title}" — PM/KC links belong in §4.1/§4.2; interventions belong on PM pages`,
+        `${entityLabel}: FM pages must not include "## N. ${title}" — PM/KC links belong in §5.1/§5.2; interventions belong on PM pages`,
       );
     }
   }
@@ -409,40 +438,40 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
       pushIssue(
         issues,
         "fm_redundant_index_section",
-        `${entityLabel}: remove ## ${hit.level}. ${label} — use §4.1/§4.2 integrated narrative instead`,
+        `${entityLabel}: remove ## ${hit.level}. ${label} — use §5.1/§5.2 integrated narrative instead`,
       );
     }
   }
-  if (/^### 5\.[1234]/m.test(content)) {
+  if (/^### 6\.[1234]/m.test(content)) {
     pushIssue(
       issues,
       "fm_legacy_underlying_subsections",
-      `${entityLabel}: remove legacy §5.x rollups; use §4 integrated narrative and ## 5. Connected Mechanisms`,
+      `${entityLabel}: remove legacy §6.x rollups; use §5 integrated narrative and ## 6. Connected Mechanisms`,
     );
   }
   const brs = sections.find((s) => s.title.startsWith("Connected Mechanisms"));
   if (!brs) {
-    pushIssue(issues, "fm_missing_brs_links", `${entityLabel}: FM pages must include ## 5. Connected Mechanisms`);
-  } else if (brs.level !== 5) {
-    pushIssue(issues, "fm_brs_links_numbering", `${entityLabel}: Connected Mechanisms must be ## 5. Connected Mechanisms`);
+    pushIssue(issues, "fm_missing_brs_links", `${entityLabel}: FM pages must include ## 6. Connected Mechanisms`);
+  } else if (brs.level !== 6) {
+    pushIssue(issues, "fm_brs_links_numbering", `${entityLabel}: Connected Mechanisms must be ## 6. Connected Mechanisms`);
   }
   const refs = sections.find((s) => s.title.startsWith("References"));
-  if (refs && refs.level !== 6) {
-    pushIssue(issues, "fm_refs_numbering", `${entityLabel}: References must be ## 6. References`);
+  if (refs && refs.level !== 7) {
+    pushIssue(issues, "fm_refs_numbering", `${entityLabel}: References must be ## 7. References`);
   }
   const mechanistic = sections.find((s) => s.title.startsWith("Mechanistic Basis"));
   if (mechanistic && !mechanistic.title.includes("Integrated FM Narrative")) {
     pushIssue(
       issues,
       "fm_mechanistic_basis_title",
-      `${entityLabel}: §4 must be "## 4. Mechanistic Basis (Integrated FM Narrative)"`,
+      `${entityLabel}: §5 must be "## 5. Mechanistic Basis (Integrated FM Narrative)"`,
     );
   }
 
   const mbStart = mechanistic ? content.indexOf(mechanistic.line) : -1;
   const nextMajor = sections
     .filter((s) => s.type === "major")
-    .find((s) => s.level === 5);
+    .find((s) => s.level === 6);
   const mbEnd =
     mbStart === -1 || !nextMajor
       ? content.length
@@ -450,9 +479,9 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
   const mbBlock = mbStart === -1 ? "" : content.slice(mbStart, mbEnd);
 
   for (const [sub, label] of [
-    ["4.1 Core Primary Mechanisms", "§4.1 Core Primary Mechanisms"],
-    ["4.2 Supporting Biological Pools (Key Constraints)", "§4.2 Supporting Biological Pools (Key Constraints)"],
-    ["4.3 Integrated Functional Narrative", "§4.3 Integrated Functional Narrative"],
+    ["5.1 Core Primary Mechanisms", "§5.1 Core Primary Mechanisms"],
+    ["5.2 Supporting Biological Pools (Key Constraints)", "§5.2 Supporting Biological Pools (Key Constraints)"],
+    ["5.3 Integrated Functional Narrative", "§5.3 Integrated Functional Narrative"],
   ]) {
     const subPattern = sub.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     if (mechanistic && !new RegExp(`^### ${subPattern}`, "m").test(mbBlock)) {
@@ -468,20 +497,20 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
   if (
     hasKcs &&
     mechanistic &&
-    !/^### 4\.4 Functional Failure Modes/m.test(mbBlock)
+    !/^### 5\.4 Functional Failure Modes/m.test(mbBlock)
   ) {
     pushIssue(
       issues,
       "fm_missing_failure_modes",
-      `${entityLabel}: §4 must include ### 4.4 Functional Failure Modes when key_constraints are linked`,
+      `${entityLabel}: §5 must include ### 5.4 Functional Failure Modes when key_constraints are linked`,
     );
   }
 
-  if (/^### 4\.4 Evidence Highlights/m.test(mbBlock)) {
+  if (/^### 5\.4 Evidence Highlights/m.test(mbBlock)) {
     pushIssue(
       issues,
       "fm_evidence_highlights_subsection",
-      `${entityLabel}: move Evidence Highlights to ### 4.5 Evidence Highlights (§4.4 is Functional Failure Modes)`,
+      `${entityLabel}: move Evidence Highlights to ### 5.5 Evidence Highlights (§5.4 is Functional Failure Modes)`,
     );
   }
 }
@@ -489,6 +518,7 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
 /** FM extended public contract (Intervention Breakdown present; no Timing Specific body section). */
 const FM_EXTENDED_SECTION_TITLES = [
   "Definition",
+  FM_PHENOME_SECTION_TITLE,
   "Intervention Breakdown",
   "Functional Role",
   "Mechanistic Basis (Integrated FM Narrative)",
@@ -559,13 +589,15 @@ function validateFmPage(filePath, { rootDir }) {
     entityLabel,
     required: true,
   });
+  validateFmPhenomeFrontMatter(data, issues, { entityLabel });
+  validatePhenomeSectionBody(content, issues, { entityLabel, kind: "fm" });
 
   const sections = parseNumberedSections(content);
   validateContiguousNumbering(sections, issues, { entityLabel });
   validateEvidenceHighlightsPlacement(content, sections, issues, { entityLabel });
   validateFmSynthesisContract(content, sections, issues, { entityLabel, data });
 
-  const numbered = sections.filter((s) => s.type === "major" && s.level <= 6);
+  const numbered = sections.filter((s) => s.type === "major" && s.level <= 7);
   if (numbered.length >= 3) {
     const t0 = normalizeSectionTitle(numbered[0]?.title || "");
     const t1 = normalizeSectionTitle(numbered[1]?.title || "");
@@ -573,23 +605,27 @@ function validateFmPage(filePath, { rootDir }) {
     const t3 = normalizeSectionTitle(numbered[3]?.title || "");
     const t4 = normalizeSectionTitle(numbered[4]?.title || "");
     const t5 = normalizeSectionTitle(numbered[5]?.title || "");
+    const t6 = normalizeSectionTitle(numbered[6]?.title || "");
     if (t0 !== "Definition") {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §1 must be Definition`);
     }
-    if (t1 !== "Intervention Breakdown") {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §2 must be Intervention Breakdown`);
+    if (t1 !== FM_PHENOME_SECTION_TITLE) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §2 must be ${FM_PHENOME_SECTION_TITLE}`);
     }
-    if (t2 !== "Functional Role") {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §3 must be Functional Role (timing is front matter only)`);
+    if (t2 !== "Intervention Breakdown") {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §3 must be Intervention Breakdown`);
     }
-    if (numbered.length >= 4 && !t3.startsWith("Mechanistic Basis")) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §4 must be Mechanistic Basis (Integrated FM Narrative)`);
+    if (t3 !== "Functional Role") {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §4 must be Functional Role (timing is front matter only)`);
     }
-    if (numbered.length >= 5 && !t4.startsWith("Connected Mechanisms")) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §5 must be Connected Mechanisms`);
+    if (numbered.length >= 4 && !t4.startsWith("Mechanistic Basis")) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §5 must be Mechanistic Basis (Integrated FM Narrative)`);
     }
-    if (numbered.length >= 6 && !t5.startsWith("References")) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §6 must be References`);
+    if (numbered.length >= 5 && !t5.startsWith("Connected Mechanisms")) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §6 must be Connected Mechanisms`);
+    }
+    if (numbered.length >= 6 && !t6.startsWith("References")) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §7 must be References`);
     }
   }
 
@@ -597,7 +633,7 @@ function validateFmPage(filePath, { rootDir }) {
 }
 
 function pmUsesExtendedProfile(data, content) {
-  return Boolean(data.intervention_breakdown) || /^##\s+2\.\s+Intervention Breakdown\s*$/m.test(content);
+  return Boolean(data.intervention_breakdown) || /^##\s+3\.\s+Intervention Breakdown\s*$/m.test(content);
 }
 
 function pmConnectedSectionTitle(parentBrs) {
@@ -639,33 +675,33 @@ function validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs 
   const byLevel = new Map(major.map((s) => [s.level, s.title]));
   const connectedTitle = pmConnectedSectionTitle(parentBrs);
 
-  if (byLevel.has(5) && String(byLevel.get(5)) !== connectedTitle) {
-    pushIssue(issues, "pm_section5", `${entityLabel}: §5 must be ${connectedTitle}`);
+  if (byLevel.has(6) && String(byLevel.get(6)) !== connectedTitle) {
+    pushIssue(issues, "pm_section6", `${entityLabel}: §6 must be ${connectedTitle}`);
   }
-  if (byLevel.has(6) && !String(byLevel.get(6)).startsWith("Connected Mechanisms")) {
-    pushIssue(issues, "pm_section6", `${entityLabel}: §6 must be Connected Mechanisms`);
+  if (byLevel.has(7) && !String(byLevel.get(7)).startsWith("Connected Mechanisms")) {
+    pushIssue(issues, "pm_section7", `${entityLabel}: §7 must be Connected Mechanisms`);
   }
-  if (byLevel.has(7) && !String(byLevel.get(7)).startsWith("Dietary Levers")) {
-    pushIssue(issues, "pm_section7", `${entityLabel}: §7 must be Dietary Levers`);
+  if (byLevel.has(8) && !String(byLevel.get(8)).startsWith("Dietary Levers")) {
+    pushIssue(issues, "pm_section8", `${entityLabel}: §8 must be Dietary Levers`);
   }
   if (/^##\s+\d+\.\s+(Overarching Functional Mechanism|Underlying Mechanisms and Requirements)\s*$/m.test(content)) {
     pushIssue(
       issues,
       "pm_legacy_connected",
-      `${entityLabel}: use ## 5. ${connectedTitle} (5.1 FM, 5.2 sibling PMs) and ## 6. Connected Mechanisms`,
+      `${entityLabel}: use ## 6. ${connectedTitle} (6.1 FM, 6.2 sibling PMs) and ## 7. Connected Mechanisms`,
     );
   }
 
   const connectedBlock = getConnectedMechanismsBlock(content);
   if (connectedBlock) {
-    const subs = [...connectedBlock.matchAll(/^###\s+5\.(\d+)\s+(.+)$/gm)].map((m) => ({
+    const subs = [...connectedBlock.matchAll(/^###\s+6\.(\d+)\s+(.+)$/gm)].map((m) => ({
       title: m[2].trim(),
     }));
     if (subs.length >= 1 && !/Overarching Functional Mechanism/i.test(subs[0]?.title || "")) {
-      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §5.1 must be Overarching Functional Mechanism`);
+      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.1 must be Overarching Functional Mechanism`);
     }
     if (subs.length >= 2 && !/Connected Primary Mechanisms/i.test(subs[1]?.title || "")) {
-      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §5.2 must be Connected Primary Mechanisms`);
+      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.2 must be Connected Primary Mechanisms`);
     }
   }
 
@@ -729,18 +765,21 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
       !/Scoreable Food-State Inputs/i.test(s.title),
   );
   if (core.length >= 4) {
-    const titles = core.slice(0, 6).map((s) => normalizeSectionTitle(s.title));
+    const titles = core.slice(0, 7).map((s) => normalizeSectionTitle(s.title));
     if (titles[0] !== "Definition") {
       pushIssue(issues, "overlay_section_order", `${entityLabel}: §1 must be Definition`);
     }
-    if (titles[1] !== "Intervention Breakdown") {
-      pushIssue(issues, "overlay_section_order", `${entityLabel}: §2 must be Intervention Breakdown`);
+    if (titles[1] !== PM_PHENOME_SECTION_TITLE) {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §2 must be ${PM_PHENOME_SECTION_TITLE}`);
     }
-    if (titles[2] !== "Functional Role") {
-      pushIssue(issues, "overlay_section_order", `${entityLabel}: §3 must be Functional Role`);
+    if (titles[2] !== "Intervention Breakdown") {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §3 must be Intervention Breakdown`);
     }
-    if (!titles[3]?.startsWith("Mechanistic Basis")) {
-      pushIssue(issues, "overlay_section_order", `${entityLabel}: §4 must be Mechanistic Basis in extended profile`);
+    if (titles[3] !== "Functional Role") {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §4 must be Functional Role`);
+    }
+    if (!titles[4]?.startsWith("Mechanistic Basis")) {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §5 must be Mechanistic Basis in extended profile`);
     }
   }
 }
@@ -856,6 +895,8 @@ function validatePmPage(filePath) {
   validateNoVisibleTimingSection(content, issues, { entityLabel });
   validateNoPublicSpreadsheetMentions(content, issues, { entityLabel });
   validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "pm" });
+  validatePmPhenomeFrontMatter(data, issues, { entityLabel });
+  validatePhenomeSectionBody(content, issues, { entityLabel, kind: "pm" });
   validatePmExtendedProfile(data, content, issues, { entityLabel });
   if (pmUsesExtendedProfile(data, content)) {
     validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs: data.parent_brs });
@@ -907,6 +948,8 @@ function validateSmPage(filePath) {
   validateNoVisibleTimingSection(content, issues, { entityLabel });
   validateNoPublicSpreadsheetMentions(content, issues, { entityLabel });
   validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "sm" });
+  validatePmPhenomeFrontMatter(data, issues, { entityLabel });
+  validatePhenomeSectionBody(content, issues, { entityLabel, kind: "pm" });
   validatePmExtendedProfile(data, content, issues, { entityLabel });
   validateSmCategoryFrontMatter(data, content, issues, { entityLabel });
   validateConnectedEntityList(data, "connected_pms", issues, { entityLabel });

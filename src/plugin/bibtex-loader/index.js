@@ -12,6 +12,13 @@ module.exports = function bibtexLoaderPlugin(context, options) {
     return {
         name: 'bibtex-loader',
 
+        getPathsToWatch() {
+            const bibtexFiles = options.files || [];
+            return bibtexFiles.map((fileConfig) =>
+                path.join(siteDir, 'static', fileConfig.path),
+            );
+        },
+
         async loadContent() {
             const bibtexFiles = options.files || [];
             const processedFiles = {};

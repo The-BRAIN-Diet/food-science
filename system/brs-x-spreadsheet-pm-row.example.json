@@ -1,0 +1,74 @@
+[
+  {
+    "pm_id": "BRS-X(ECS-PM2)",
+    "parent_system": "BRS-X(ECS)",
+    "parent_fm": "BRS-X(ECS-FM1)",
+    "mechanism_name": "NAPE → NAE Biosynthesis from Dietary Phospholipids",
+    "status": "proposed",
+    "summary": "Dietary phosphatidylethanolamine and choline-supported phospholipid pathways that supply N-acyl phosphatidylethanolamines (NAPEs) and downstream N-acyl ethanolamines (NAEs) including PEA, OEA, and anandamide.",
+    "key_constraints": [
+      {
+        "id": "BRS-X(ECS-KC1)",
+        "name": "Phospholipid / NAPE Precursor Pool",
+        "type": "precursor"
+      }
+    ],
+    "cofactors": ["Choline", "phospholipid context"],
+    "connected_mechanisms": [
+      {
+        "id": "BRS1-FM3-PM4",
+        "name": "Acetylcholine Synthesis Support"
+      },
+      {
+        "id": "BRS2-FM3-PM7",
+        "name": "Phospholipid Methylation"
+      }
+    ],
+    "connected_brs_domains": ["BRS1", "BRS2"],
+    "intervention_dominance": "Diet-Dominant",
+    "intervention_breakdown": "Food-State Dominant",
+    "timing_specific": "Yes",
+    "dose_sensitivity": "Pattern-based choline and PE-rich food inclusion",
+    "coverage_timing": "Daily",
+    "response_type": "Builds",
+    "functional_latency": "Weeks",
+    "evidence_type": "Human + mechanistic",
+    "key_studies": [
+      {
+        "index": 1,
+        "label": "Garani, Watts, and Mizrahi (2021)",
+        "citation_key": "garani_endocannabinoid_2021",
+        "href": "/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021"
+      }
+    ],
+    "interventions_inputs": [
+      "Phosphatidylethanolamine ← eggs, fish roe, liver",
+      "Choline ← eggs, fish roe, soy"
+    ],
+    "functional_outputs": "↑ NAPE substrate availability; ↑ NAE biosynthesis support; ↑ endocannabinoid tone context",
+    "evidence_notes": "NAPE/NAE biology is mechanistically established; human dietary dose-response for brain ECS tone remains context-dependent.",
+    "mechanistic_detail": {
+      "summary": "Endocannabinoid tone depends not only on receptor signalling but on whether dietary phospholipid chemistry can sustain NAPE and NAE production.",
+      "blocks": [
+        {
+          "heading": "(PE, NAPE, and NAE biosynthesis)",
+          "paragraphs": [
+            "Phosphatidylethanolamine can be converted to N-acyl phosphatidylethanolamines (NAPEs), precursors to bioactive N-acyl ethanolamines including PEA, OEA, and anandamide → [Garani, Watts, and Mizrahi (2021)](/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021) [1]"
+          ]
+        },
+        {
+          "heading": "(Boundaries of the mechanism)",
+          "paragraphs": [
+            "Direct cholinergic acetylcholine synthesis is owned by BRS1-FM3-PM4. Membrane DHA incorporation and omega-3 NAE production are handled by BRS1-FM4-PM5 and BRS-X(ECS-PM3)."
+          ]
+        },
+        {
+          "heading": "(Integration within BRS-X(ECS))",
+          "paragraphs": [
+            "This PM operationalises substrate supply within BRS-X(ECS-FM1) Endocannabinoid Tone Regulation, constrained by BRS-X(ECS-KC1)."
+          ]
+        }
+      ]
+    }
+  }
+]
