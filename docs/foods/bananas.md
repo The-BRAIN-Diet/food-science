@@ -61,6 +61,12 @@ The nutrition table below reflects riper fruit (USDA: bananas, overripe, raw). U
 - **Green / unripe:** consume while still firm and green for resistant starch; cooking can further increase resistant starch content in some preparations
 - Resistant starch from green bananas and cooled potatoes supports gut microbiome diversity and butyrate production
 
+### Polyphenol oxidase (PPO) and smoothie pairing
+
+Bananas are relatively **high in polyphenol oxidase (PPO)**. In a controlled crossover study, a flavan-3-ol-containing **banana-based smoothie** produced peak plasma flavan-3-ol metabolite concentrations about **84% lower** than capsule control, whereas a **low-PPO mixed-berry smoothie** did not [1]. Co-ingesting flavan-3-ols with a high-PPO banana drink **without prior blender contact** still reduced plasma levels, suggesting post-ingestion PPO activity (for example in the stomach) can degrade polyphenols after swallowing [1].
+
+**Practical implication:** combining banana with other **high-PPO fruits or vegetables** in freshly blended smoothies may **greatly reduce uptake** of flavan-3-ols and likely other dietary polyphenol bioactives. PPO activity varies widely across fruits, vegetables, and plant products [1]. For polyphenol-focused intake (berries, cocoa, tea extracts, and similar), consider low-PPO smoothie bases, separate timing, or minimal pre-intake mixing/contact with high-PPO ingredients.
+
 ## Recipes
 
 <FoodRecipes tag="Bananas" />
@@ -73,6 +79,7 @@ The nutrition table below reflects riper fruit (USDA: bananas, overripe, raw). U
 
 ## References
 
+- [1] Impact of polyphenol oxidase on flavan-3-ol bioavailability in fruit smoothies [Ottaviani et al. 2023](/docs/papers/BRAIN-Diet-References#ottaviani_polyphenol_oxidase_flavan_2023)
 - Serotonin: Mood regulation, emotional control, impulse moderation; food sources include turkey, eggs, dairy, soy, seeds, oats, bananas; cofactors include tryptophan, B6, magnesium
 - B6 (chickpeas, potatoes, bananas, whole grains, soy) is a cofactor in the development of all key neurotransmitters
 - Tryptophan: Converted to NAD+ via kynurenine pathway; food sources include turkey, chicken, eggs, pumpkin seeds, oats, soybeans (bananas also contain)
