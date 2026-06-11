@@ -273,7 +273,7 @@ Optional translational mappings — see `system/phenome-relationship-schema.md`.
 | `phenome_evidence_level` | `mechanistic` \| `observational` \| `intervention` \| `clinical` |
 | `phenome_rationale` | Translational rationale (not a mechanism definition) |
 
-FM rows: `connected_phenomes` is **generated** from child PM phenome rows unless manually overriding `evidence_summary`.
+FM rows: `functional_outcome_context` is **hand-authored** integrative synthesis (2–4 outcomes). Do not auto-generate FM outcome context from child PM phenome rows.
 
 ## Column P - FM Ownership
 

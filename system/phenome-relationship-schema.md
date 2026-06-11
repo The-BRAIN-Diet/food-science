@@ -6,6 +6,16 @@
 
 PM and FM pages remain **primarily biological**. Phenome mappings are **translational relationships** — evidence-weighted links between mechanisms and functional phenomes — stored in structured front matter and rendered in dedicated sections **after Definition**.
 
+## Layer model
+
+| Layer | Page | §2 section | Confidence type |
+|-------|------|------------|-----------------|
+| **PM** | Primary Mechanism | Target Functional Outcome / Phenome | Mechanism-level |
+| **FM** | Functional Mechanism | Functional Outcome Context | Integrated-system |
+| **Phenome** (future) | Phenome graph pages | Full aggregation | Cross-system / graph |
+
+PM pages hold detailed `phenome_relationships`. FM pages hold a **concise** `functional_outcome_context` (2–3 outcomes normally; max 4). Full PM → phenome roll-up graphs belong on future phenome pages — **not** on FM pages.
+
 ## Core principle
 
 | Layer | Role |
@@ -14,17 +24,19 @@ PM and FM pages remain **primarily biological**. Phenome mappings are **translat
 | **§2 Phenome layer** | Translational relationships (this schema) |
 | **§3+** | Intervention, functional role, mechanistic basis, levers, etc. |
 
-## Canonical disclaimer (required on PM §2 and FM §2)
+## Canonical disclaimer — PM §2
 
 > These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
-## Empty state (required when no mappings)
+## Canonical disclaimer — FM §2
 
-When no credible phenome relationship exists for a PM or FM:
+> These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Confidence may increase where multiple child PMs converge on the same functional outcome.
 
-```text
-No direct functional outcome relationship currently mapped.
-```
+## Empty state
+
+**PM:** `No direct functional outcome relationship currently mapped.`
+
+**FM:** `No functional outcome context currently mapped.`
 
 Do not invent provisional mappings to avoid an empty section.
 
@@ -46,15 +58,15 @@ phenome_relationships:
     references:
       - index: 1
         label: "Celec et al. (2015)"
-        citation_key: celec_testosterone_2015
-        href: "/docs/papers/BRAIN-Diet-References#celec_testosterone_2015"
+        citation_key: celec_testosterone_brain_behavioral_functions_2015
+        href: "/docs/papers/BRAIN-Diet-References#celec_testosterone_brain_behavioral_functions_2015"
 ```
 
-### Field rules
+### PM field rules
 
 | Field | Required | Allowed values |
 |-------|----------|----------------|
-| `target_phenome` | Yes | Title-case phenome label (stable string for aggregation) |
+| `target_phenome` | Yes | Title-case phenome label (stable string for graph export) |
 | `relationship_type` | Yes | `supports`, `disrupts`, `modulates`, `indirect` |
 | `confidence` | Yes | `low`, `low-medium`, `medium`, `high` |
 | `evidence_level` | Yes | `mechanistic`, `observational`, `intervention`, `clinical` |
@@ -71,50 +83,66 @@ phenome_relationships:
 
 ---
 
-## Data model — FM (`connected_phenomes`)
+## Data model — FM (`functional_outcome_context`)
 
-FM roll-ups are **aggregated from child PM `phenome_relationships`**. The FM front matter field `connected_phenomes` is the published snapshot (regenerate when child PMs change).
+FM pages describe the **main functional outcomes most relevant to the FM as an integrated biological capacity**. This is **not** a roll-up table of all child PM phenome mappings.
 
 ```yaml
-connected_phenomes:
-  - target_phenome: "Motivation"
-    connected_pm_count: 3
-    strongest_relationship_type: supports
-    highest_evidence_level: mechanistic
-    overall_confidence: medium
-    evidence_summary: >-
-      Supported by testosterone signalling, dopaminergic modulation and metabolic-hormonal integration.
-    contributing_pms:
-      - id: "BRS-X(Hormones-PM5)"
-        name: "Testosterone–Motivation Signalling"
-        href: "/docs/biological-targets/brs-x/hormones/fm2/brs-x-hormones-pm5-testosterone-motivation-signalling"
-        relationship_type: supports
-        confidence: medium
-        evidence_level: mechanistic
+functional_outcome_context:
+  - outcome_name: "Emotional Regulation"
+    confidence: medium                 # low | low-medium | medium | high
+    synthesis: >-
+      One or two sentences integrating across child PMs without listing them.
+    references:
+      - label: "Sarkar et al. (2020)"
+        citation_key: sarkar_microbiome_social_behaviour_2020
+        href: "/docs/papers/BRAIN-Diet-References#sarkar_microbiome_social_behaviour_2020"
 ```
 
-### FM aggregation rules
+### FM field rules
 
-Generate with `scripts/lib/phenome-relationships.mjs` → `aggregateFmConnectedPhenomes(childPmRelationships)`:
+| Field | Required | Notes |
+|-------|----------|-------|
+| `outcome_name` | Yes | Human-readable integrated outcome label |
+| `confidence` | Yes | Integrated-system confidence; may equal or exceed child PM confidence where PMs converge |
+| `synthesis` | Yes | 1–2 sentences; do not list child PMs |
+| `references` | Recommended | Key references only; must resolve in bibliography when cited |
 
-| Output field | Rule |
-|--------------|------|
-| `connected_pm_count` | Count of distinct child PMs mapping to this phenome |
-| `strongest_relationship_type` | Priority: `supports` > `modulates` > `indirect` > `disrupts` |
-| `highest_evidence_level` | Priority: `clinical` > `intervention` > `observational` > `mechanistic` |
-| `overall_confidence` | See confidence roll-up below |
-| `evidence_summary` | Author or auto-draft one integrative sentence |
-| `contributing_pms` | All child PM rows for this phenome |
+### FM rules
 
-### Overall confidence roll-up
+1. Include **normally 2–3** outcomes; **absolute maximum 4**.
+2. Do **not** list every child PM.
+3. Do **not** repeat PM-level phenome dropdown content.
+4. Do **not** present outcomes as direct treatment claims.
+5. Do **not** use `connected_phenomes` on FM pages (deprecated for publication).
 
-Numeric weights: `low`=1, `low-medium`=1.5, `medium`=2, `high`=3.
+### Generated index (source of truth pipeline)
 
-1. Start from the **maximum** child PM confidence for the phenome.
-2. If **≥2 PMs** map to the same phenome with `relationship_type` in (`supports`, `modulates`), you may raise overall confidence by **one step** (e.g. low→low-medium, medium→high).
-3. **Cap at `high`**.
-4. Overall confidence must **not exceed `high`**.
-5. A single low-confidence PM must not produce `high` overall confidence.
+PM `phenome_relationships` front matter is the **sole authoring source**. Regenerate the machine index with:
+
+```bash
+npm run phenome:index
+```
+
+Output: `src/data/phenome-relationships.generated.json`
+
+Each flat record includes: `sourceNode`, `sourceTitle`, `sourcePath`, `parentFM`, `parentBRS`, `targetPhenome`, `relationshipType`, `confidence`, `evidenceLevel`, `rationale`, `references`.
+
+The index also includes generated derived views:
+
+| Key | Purpose |
+|-----|---------|
+| `relationships` | Flat PM → phenome edges |
+| `byPhenome` | Phenome → PM source nodes (reciprocal links for phenome pages) |
+| `fmRollups` | FM connected-phenome roll-ups (phenome graph pages — **not** FM MDX §2) |
+
+TypeScript query helpers: `src/data/phenomeRelationships.ts`.
+
+Do **not** hand-edit the generated JSON.
+
+### Graph aggregation (derived from index)
+
+`scripts/lib/phenome-relationship-index.mjs` builds `fmRollups` using `aggregateFmConnectedPhenomes`. FM MDX §2 remains hand-authored `functional_outcome_context`; full PM roll-up graphs belong on future phenome pages.
 
 ---
 
@@ -126,26 +154,23 @@ Placement: immediately after `## 1. Definition`, before Intervention Breakdown.
 
 Structure:
 
-1. Canonical disclaimer paragraph
+1. Canonical PM disclaimer paragraph
 2. For each relationship: `<details>` with summary **`<Target Phenome> — <relationship_type>`**
 3. Inside dropdown: Confidence, Evidence Level, Rationale, Key References (linked)
 
-Optional summary table may precede dropdowns when ≥2 mappings exist.
-
-### FM — `## 2. Connected Phenomes / Functional Outcomes`
+### FM — `## 2. Functional Outcome Context`
 
 Placement: immediately after `## 1. Definition`, before Intervention Breakdown.
 
 Structure:
 
-1. Canonical disclaimer paragraph
-2. Roll-up markdown table:
+1. Canonical FM disclaimer paragraph
+2. For each outcome: `### <Outcome name>`
+3. **Confidence:** (display label, e.g. Medium, Low–Medium)
+4. 1–2 sentence synthesis paragraph
+5. **Key references:** linked citations
 
-| Phenome | Connected PMs | Strongest Relationship | Highest Evidence Level | Overall Confidence | Evidence Summary |
-|---------|---------------:|------------------------|------------------------|--------------------|------------------|
-| Motivation | 3 | supports | mechanistic | medium | … |
-
-3. Optional `<details>` per phenome listing `contributing_pms` bullets
+**Forbidden on FM §2:** roll-up tables, contributing-PM lists, `<details>` per phenome listing child PMs.
 
 ---
 
@@ -165,14 +190,12 @@ Structure:
 | 9 Scoreable | 10 Scoreable |
 | 10 References | 11 References |
 
-Evidence Highlights: `### 5.1` under Mechanistic Basis (was `### 4.1`).
-
 ### FM renumbering
 
 | Old § | New § |
 |-------|-------|
 | 1 Definition | 1 Definition |
-| — | **2 Connected Phenomes / Functional Outcomes** |
+| — | **2 Functional Outcome Context** |
 | 2 Intervention Breakdown | 3 Intervention Breakdown |
 | 3 Functional Role | 4 Functional Role |
 | 4 Mechanistic Basis | 5 Mechanistic Basis |
@@ -183,18 +206,16 @@ Evidence Highlights: `### 5.1` under Mechanistic Basis (was `### 4.1`).
 
 ## Spreadsheet columns (PM rows)
 
-Add to `system/brs-spreadsheet-schema.md` ingestion:
-
 | Column | Meaning |
 |--------|---------|
-| `phenome_relationships` | JSON/YAML array per data model above |
+| `phenome_relationships` | JSON/YAML array per PM data model above |
 | `target_phenome` | Shortcut when one phenome per row extension |
 | `phenome_relationship_type` | supports / disrupts / modulates / indirect |
 | `phenome_confidence` | low / medium / high / low-medium |
 | `phenome_evidence_level` | mechanistic / observational / intervention / clinical |
 | `phenome_rationale` | Translational rationale text |
 
-FM rows: `connected_phenomes` is **generated** from child PMs — do not hand-author unless overriding summary text.
+FM rows: `functional_outcome_context` is **hand-authored** integrative synthesis (2–4 outcomes). Do not auto-generate FM §2 from child PM roll-ups.
 
 ---
 
@@ -203,9 +224,11 @@ FM rows: `connected_phenomes` is **generated** from child PMs — do not hand-au
 Node types:
 
 - `Mechanism` (`source_node`: PM or FM ID)
-- `Phenome` (`target_phenome`)
+- `Phenome` (`target_phenome` / `outcome_name`)
 
 Edge properties: `relationship_type`, `confidence`, `evidence_level`, `rationale`, `references`.
+
+Future phenome pages query both PM-level and FM-level relationships.
 
 ---
 
@@ -213,4 +236,4 @@ Edge properties: `relationship_type`, `confidence`, `evidence_level`, `rationale
 
 - `system/primary-mechanism-schema.md` — PM §2
 - `system/functional-mechanism-schema.md` — FM §2
-- `scripts/lib/phenome-relationships.mjs` — validation and aggregation
+- `scripts/lib/phenome-relationships.mjs` — validation and section rendering

@@ -1,0 +1,1308 @@
+{
+  "meta": {
+    "version": 1,
+    "generatedAt": "2026-06-11T13:05:45.544Z",
+    "source": "docs/biological-targets/**/*pm*.mdx",
+    "pmPageCount": 59,
+    "pmPagesWithMappings": 11,
+    "relationshipCount": 32
+  },
+  "relationships": [
+    {
+      "sourceNode": "BRS-X(ECS-PM4)",
+      "sourceTitle": "Endocannabinoid–Dopamine Neuromodulation",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Behavioural Activation",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Endocannabinoid–dopamine coupling may influence behavioural activation and effort-related signalling context relevant to ADHD framing.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Covey et al. (2017)",
+          "citationKey": "covey_endocannabinoid_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM2)",
+      "sourceTitle": "Omega-3-Derived Endocannabinoidome Signalling",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Cognitive Clarity",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Omega-3-derived ethanolamides may support neuroprotective and neurogenesis-related signalling context relevant to cognitive clarity without CB1-centric framing.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Watson et al. (2019)",
+          "citationKey": "watson_emerging_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#watson_emerging_2019"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM1)",
+      "sourceTitle": "Oestrogen Signalling Stability",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Cognitive Clarity",
+      "relationshipType": "modulates",
+      "confidence": "medium",
+      "evidenceLevel": "observational",
+      "rationale": "Oestrogen influences neural signalling systems relevant to cognitive stability across menstrual and perimenopausal contexts; ADHD-specific outcome claims should remain cautious.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Sarkar et al. (2020)",
+          "citationKey": "sarkar_microbiome_social_behaviour_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#sarkar_microbiome_social_behaviour_2020"
+        },
+        {
+          "index": 2,
+          "label": "Rusch et al. (2023)",
+          "citationKey": "rusch_signalling_cognition_gut_microbiota_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#rusch_signalling_cognition_gut_microbiota_2023"
+        },
+        {
+          "index": 3,
+          "label": "Maeng and Beumer (2023)",
+          "citationKey": "maeng_estrogen_gut_microbiome_fear_extinction_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#maeng_estrogen_gut_microbiome_fear_extinction_2023"
+        },
+        {
+          "index": 4,
+          "label": "Jacobs and D'Esposito (2011)",
+          "citationKey": "jacobs_estrogen_dopamine_cognitive_processes_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#jacobs_estrogen_dopamine_cognitive_processes_2011"
+        },
+        {
+          "index": 6,
+          "label": "de Jong et al. (2024)",
+          "citationKey": "dejong_female_specific_adhd_treatment_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#dejong_female_specific_adhd_treatment_2024"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM2)",
+      "sourceTitle": "Estrobolome Regulation",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Cognitive Clarity",
+      "relationshipType": "indirect",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Altered oestrogen recycling may indirectly influence neural signalling context relevant to cognitive clarity without establishing direct single-pathway outcome certainty.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Hu et al. (2023)",
+          "citationKey": "hu_gut_microbial_beta_glucuronidase_estrogen_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#hu_gut_microbial_beta_glucuronidase_estrogen_2023"
+        },
+        {
+          "index": 2,
+          "label": "Sui et al. (2021)",
+          "citationKey": "sui_gut_microbial_beta_glucuronidase_estrogen_reactivation_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#sui_gut_microbial_beta_glucuronidase_estrogen_reactivation_2021"
+        },
+        {
+          "index": 3,
+          "label": "Ervin et al. (2019)",
+          "citationKey": "ervin_estrobolome_beta_glucuronidase_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#ervin_estrobolome_beta_glucuronidase_2019"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM4)",
+      "sourceTitle": "Metabolic-Reproductive Hormone Integration",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "modulates",
+      "confidence": "medium",
+      "evidenceLevel": "observational",
+      "rationale": "Insulin sensitivity and metabolic stability interact with reproductive hormone regulation; this PM should be framed as metabolic-endocrine integration rather than a direct ADHD treatment claim.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Li et al. (2023)",
+          "citationKey": "li_function_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#li_function_2023"
+        },
+        {
+          "index": 2,
+          "label": "De Paoli et al. (2021)",
+          "citationKey": "depaoli_estrogen_insulin_resistance_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#depaoli_estrogen_insulin_resistance_2021"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM5)",
+      "sourceTitle": "Testosterone Signalling Stability",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Low testosterone states are associated with reduced energy, fatigue and reduced mental stamina, but direct ADHD-specific evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Celec et al. (2015)",
+          "citationKey": "celec_testosterone_brain_behavioral_functions_2015",
+          "href": "/docs/papers/BRAIN-Diet-References#celec_testosterone_brain_behavioral_functions_2015"
+        },
+        {
+          "index": 2,
+          "label": "Hackett et al. (2023)",
+          "citationKey": "hackett_symptomatic_benefits_testosterone_treatment_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#hackett_symptomatic_benefits_testosterone_treatment_2023"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM6)",
+      "sourceTitle": "Androgen-Microbiome Regulation",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Microbial androgen metabolism may influence systemic androgen exposure relevant to energy and stamina context; direct ADHD evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Leao et al. (2025)",
+          "citationKey": "leao_in_vitro_female_gut_microbiome_sex_hormones_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#leao_in_vitro_female_gut_microbiome_sex_hormones_2025"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM1)",
+      "sourceTitle": "NAPE → NAE Biosynthesis Capacity",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Dietary NAPE and NAE precursor biology may modulate endocannabinoidome context relevant to affective regulation; direct ADHD outcome claims remain cautious.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Garani et al. (2021)",
+          "citationKey": "garani_endocannabinoid_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM2)",
+      "sourceTitle": "Omega-3-Derived Endocannabinoidome Signalling",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Omega-3 endocannabinoidome signalling may indirectly modulate affective context through inflammatory and neuromodulatory interfaces; direct ADHD evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Watson et al. (2019)",
+          "citationKey": "watson_emerging_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#watson_emerging_2019"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM3)",
+      "sourceTitle": "FAAH-Mediated Endocannabinoid Preservation",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Preserved anandamide signalling may modulate affective regulation pathways through endogenous tone rather than receptor agonism.",
+      "references": [
+        {
+          "index": 2,
+          "label": "Solinas et al. (2006)",
+          "citationKey": "solinas_anandamide_2006",
+          "href": "/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM5)",
+      "sourceTitle": "Endocannabinoid Stress-Buffering Capacity",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Stress-buffering endocannabinoidome signalling may modulate affective regulation through mood-disorder-relevant endocannabinoid pathways.",
+      "references": [
+        {
+          "index": 3,
+          "label": "Rodriguez Bambico et al. (2009)",
+          "citationKey": "rodriguez_bambico_endocannabinoids_2009",
+          "href": "/docs/papers/BRAIN-Diet-References#rodriguez_bambico_endocannabinoids_2009"
+        },
+        {
+          "index": 4,
+          "label": "Micale & Di Marzo et al. (2013)",
+          "citationKey": "micale_endocannabinoid_mood_2013",
+          "href": "/docs/papers/BRAIN-Diet-References#micale_endocannabinoid_mood_2013"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM1)",
+      "sourceTitle": "Oestrogen Signalling Stability",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "modulates",
+      "confidence": "medium",
+      "evidenceLevel": "observational",
+      "rationale": "Oestrogen-mediated signalling may modulate affective regulation pathways that intersect with dopaminergic tone and stress sensitivity.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Sarkar et al. (2020)",
+          "citationKey": "sarkar_microbiome_social_behaviour_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#sarkar_microbiome_social_behaviour_2020"
+        },
+        {
+          "index": 2,
+          "label": "Rusch et al. (2023)",
+          "citationKey": "rusch_signalling_cognition_gut_microbiota_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#rusch_signalling_cognition_gut_microbiota_2023"
+        },
+        {
+          "index": 3,
+          "label": "Maeng and Beumer (2023)",
+          "citationKey": "maeng_estrogen_gut_microbiome_fear_extinction_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#maeng_estrogen_gut_microbiome_fear_extinction_2023"
+        },
+        {
+          "index": 6,
+          "label": "de Jong et al. (2024)",
+          "citationKey": "dejong_female_specific_adhd_treatment_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#dejong_female_specific_adhd_treatment_2024"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM2)",
+      "sourceTitle": "Estrobolome Regulation",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "modulates",
+      "confidence": "medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "The estrobolome can influence systemic oestrogen exposure through microbial beta-glucuronidase activity; downstream affective phenome effects are indirect and should not be presented as single-mechanism causal claims.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Hu et al. (2023)",
+          "citationKey": "hu_gut_microbial_beta_glucuronidase_estrogen_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#hu_gut_microbial_beta_glucuronidase_estrogen_2023"
+        },
+        {
+          "index": 2,
+          "label": "Sui et al. (2021)",
+          "citationKey": "sui_gut_microbial_beta_glucuronidase_estrogen_reactivation_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#sui_gut_microbial_beta_glucuronidase_estrogen_reactivation_2021"
+        },
+        {
+          "index": 3,
+          "label": "Ervin et al. (2019)",
+          "citationKey": "ervin_estrobolome_beta_glucuronidase_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#ervin_estrobolome_beta_glucuronidase_2019"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM3)",
+      "sourceTitle": "Progesterone-Supportive Microbial Metabolism",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Butyrate-producing taxa may support endocrine and inflammatory contexts relevant to progesterone balance, but direct ADHD outcome evidence is limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "d'Afflitto et al. (2022)",
+          "citationKey": "dafflitto_sex_hormone_gut_microbiota_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#dafflitto_sex_hormone_gut_microbiota_2022"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM4)",
+      "sourceTitle": "Metabolic-Reproductive Hormone Integration",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "indirect",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Metabolic volatility may indirectly influence affective regulation through neuroendocrine and reproductive hormone coupling.",
+      "references": [
+        {
+          "index": 2,
+          "label": "De Paoli et al. (2021)",
+          "citationKey": "depaoli_estrogen_insulin_resistance_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#depaoli_estrogen_insulin_resistance_2021"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM5)",
+      "sourceTitle": "Testosterone Signalling Stability",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Androgen signalling may influence mood and emotional regulation through interactions with multiple neural systems.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Celec et al. (2015)",
+          "citationKey": "celec_testosterone_brain_behavioral_functions_2015",
+          "href": "/docs/papers/BRAIN-Diet-References#celec_testosterone_brain_behavioral_functions_2015"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM6)",
+      "sourceTitle": "Androgen-Microbiome Regulation",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Microbiome-androgen interactions may influence endocrine states relevant to mood and behavioural regulation, but direct ADHD evidence is currently limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Leao et al. (2025)",
+          "citationKey": "leao_in_vitro_female_gut_microbiome_sex_hormones_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#leao_in_vitro_female_gut_microbiome_sex_hormones_2025"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM1)",
+      "sourceTitle": "Oestrogen Signalling Stability",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "indirect",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Oestrogen influences dopaminergic and neural signalling systems relevant to executive function; direct single-mechanism ADHD outcome claims should remain cautious.",
+      "references": [
+        {
+          "index": 4,
+          "label": "Jacobs and D'Esposito (2011)",
+          "citationKey": "jacobs_estrogen_dopamine_cognitive_processes_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#jacobs_estrogen_dopamine_cognitive_processes_2011"
+        },
+        {
+          "index": 2,
+          "label": "Rusch et al. (2023)",
+          "citationKey": "rusch_signalling_cognition_gut_microbiota_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#rusch_signalling_cognition_gut_microbiota_2023"
+        },
+        {
+          "index": 5,
+          "label": "Proaño et al. (2024)",
+          "citationKey": "proano_estradiol_glutamatergic_striatal_synapses_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#proano_estradiol_glutamatergic_striatal_synapses_2024"
+        },
+        {
+          "index": 6,
+          "label": "de Jong et al. (2024)",
+          "citationKey": "dejong_female_specific_adhd_treatment_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#dejong_female_specific_adhd_treatment_2024"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM2)",
+      "sourceTitle": "Estrobolome Regulation",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Hormonal Volatility",
+      "relationshipType": "modulates",
+      "confidence": "medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Estrobolome activity may support or disrupt oestrogen exposure depending on microbial beta-glucuronidase balance and enterohepatic recycling direction.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Hu et al. (2023)",
+          "citationKey": "hu_gut_microbial_beta_glucuronidase_estrogen_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#hu_gut_microbial_beta_glucuronidase_estrogen_2023"
+        },
+        {
+          "index": 2,
+          "label": "Sui et al. (2021)",
+          "citationKey": "sui_gut_microbial_beta_glucuronidase_estrogen_reactivation_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#sui_gut_microbial_beta_glucuronidase_estrogen_reactivation_2021"
+        },
+        {
+          "index": 3,
+          "label": "Ervin et al. (2019)",
+          "citationKey": "ervin_estrobolome_beta_glucuronidase_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#ervin_estrobolome_beta_glucuronidase_2019"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM4)",
+      "sourceTitle": "Metabolic-Reproductive Hormone Integration",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Hormonal Volatility",
+      "relationshipType": "modulates",
+      "confidence": "medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Insulin-linked metabolic signalling and gut ecological context may modulate oestrogen-progesterone balance across feeding and stress cycles.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Li et al. (2023)",
+          "citationKey": "li_function_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#li_function_2023"
+        },
+        {
+          "index": 2,
+          "label": "De Paoli et al. (2021)",
+          "citationKey": "depaoli_estrogen_insulin_resistance_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#depaoli_estrogen_insulin_resistance_2021"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM1)",
+      "sourceTitle": "NAPE → NAE Biosynthesis Capacity",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Motivation / Drive",
+      "relationshipType": "supports",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "NAPE → NAE biosynthesis may support AEA, PEA, and OEA signalling context relevant to motivation and drive through diet-actionable endocannabinoidome pathways rather than CB1 receptor pharmacology.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Garani et al. (2021)",
+          "citationKey": "garani_endocannabinoid_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021"
+        },
+        {
+          "index": 2,
+          "label": "Davies et al. (2018)",
+          "citationKey": "sean_davies_oatmeal_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM4)",
+      "sourceTitle": "Endocannabinoid–Dopamine Neuromodulation",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Motivation / Drive",
+      "relationshipType": "supports",
+      "confidence": "medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Endocannabinoid signalling modulates dopaminergic reward and motivation pathways; this PM addresses neuromodulation rather than dopamine production.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Covey et al. (2017)",
+          "citationKey": "covey_endocannabinoid_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017"
+        },
+        {
+          "index": 2,
+          "label": "Laksmidewi & Soejitno (2021)",
+          "citationKey": "laksmidewi_endocannabinoid_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM5)",
+      "sourceTitle": "Testosterone Signalling Stability",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Motivation / Drive",
+      "relationshipType": "supports",
+      "confidence": "medium",
+      "evidenceLevel": "observational",
+      "rationale": "Testosterone signalling has been associated with motivation, effort, behavioural activation and goal-directed behaviour.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Celec et al. (2015)",
+          "citationKey": "celec_testosterone_brain_behavioral_functions_2015",
+          "href": "/docs/papers/BRAIN-Diet-References#celec_testosterone_brain_behavioral_functions_2015"
+        },
+        {
+          "index": 2,
+          "label": "Hackett et al. (2023)",
+          "citationKey": "hackett_symptomatic_benefits_testosterone_treatment_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#hackett_symptomatic_benefits_testosterone_treatment_2023"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM6)",
+      "sourceTitle": "Androgen-Microbiome Regulation",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Motivation / Drive",
+      "relationshipType": "indirect",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Microbial androgen metabolism may influence systemic androgen availability and indirectly influence motivation-related phenomes.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Leao et al. (2025)",
+          "citationKey": "leao_in_vitro_female_gut_microbiome_sex_hormones_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#leao_in_vitro_female_gut_microbiome_sex_hormones_2025"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM5)",
+      "sourceTitle": "Endocannabinoid Stress-Buffering Capacity",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Recovery Capacity",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Endocannabinoid-mediated stress buffering may support recovery from stress-linked neuroinflammatory and excitatory load; direct ADHD evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Garani et al. (2021)",
+          "citationKey": "garani_endocannabinoid_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM4)",
+      "sourceTitle": "Endocannabinoid–Dopamine Neuromodulation",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Reward Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Endocannabinoid modulation of mesolimbic dopamine signalling may influence reward regulation without equating to substance reward pharmacology.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Covey et al. (2017)",
+          "citationKey": "covey_endocannabinoid_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017"
+        },
+        {
+          "index": 3,
+          "label": "Solinas et al. (2006)",
+          "citationKey": "solinas_anandamide_2006",
+          "href": "/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM3)",
+      "sourceTitle": "Progesterone-Supportive Microbial Metabolism",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Sleep / Calming Tone",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Progesterone-linked calming tone may intersect with gut-derived inflammatory and SCFA signalling, but evidence for direct dietary single-mechanism effects remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "d'Afflitto et al. (2022)",
+          "citationKey": "dafflitto_sex_hormone_gut_microbiota_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#dafflitto_sex_hormone_gut_microbiota_2022"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(Hormones-PM3)",
+      "sourceTitle": "Progesterone-Supportive Microbial Metabolism",
+      "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism",
+      "parentFM": "BRS-X(Hormones-FM1)",
+      "parentBRS": "BRS-X(Hormones)",
+      "targetPhenome": "Stress Reactivity",
+      "relationshipType": "indirect",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Microbial SCFA context may indirectly influence stress-responsive endocrine-inflammatory tone intersecting progesterone-related stability.",
+      "references": [
+        {
+          "index": 1,
+          "label": "d'Afflitto et al. (2022)",
+          "citationKey": "dafflitto_sex_hormone_gut_microbiota_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#dafflitto_sex_hormone_gut_microbiota_2022"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM1)",
+      "sourceTitle": "NAPE → NAE Biosynthesis Capacity",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Stress Resilience",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "PEA and related NAEs may intersect with stress-buffering endocannabinoidome signalling; dietary phospholipid support remains the primary intervention frame.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Garani et al. (2021)",
+          "citationKey": "garani_endocannabinoid_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021"
+        },
+        {
+          "index": 2,
+          "label": "Davies et al. (2018)",
+          "citationKey": "sean_davies_oatmeal_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM2)",
+      "sourceTitle": "Omega-3-Derived Endocannabinoidome Signalling",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Stress Resilience",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "DHEA and related omega-3 ethanolamides may intersect with anti-inflammatory and stress-buffering endocannabinoidome pathways.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Watson et al. (2019)",
+          "citationKey": "watson_emerging_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#watson_emerging_2019"
+        },
+        {
+          "index": 2,
+          "label": "Saleh-Ghadimi et al. (2020)",
+          "citationKey": "saleh-ghadimi_endocannabinoid_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#saleh-ghadimi_endocannabinoid_2020"
+        },
+        {
+          "index": 3,
+          "label": "Meijerink et al. (2011)",
+          "citationKey": "meijerink_docosahexaenoylethanolamine_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#meijerink_docosahexaenoylethanolamine_2011"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM3)",
+      "sourceTitle": "FAAH-Mediated Endocannabinoid Preservation",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Stress Resilience",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "FAAH inhibition may preserve endogenous anandamide tone relevant to stress-buffering context; dietary polyphenols such as genistein represent plausible diet-sensitive modulation points.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Thors et al. (2007)",
+          "citationKey": "thors_inhibition_2007",
+          "href": "/docs/papers/BRAIN-Diet-References#thors_inhibition_2007"
+        },
+        {
+          "index": 2,
+          "label": "Solinas et al. (2006)",
+          "citationKey": "solinas_anandamide_2006",
+          "href": "/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS-X(ECS-PM5)",
+      "sourceTitle": "Endocannabinoid Stress-Buffering Capacity",
+      "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity",
+      "parentFM": "BRS-X(ECS-FM1)",
+      "parentBRS": "BRS-X(ECS)",
+      "targetPhenome": "Stress Resilience",
+      "relationshipType": "supports",
+      "confidence": "medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "The endocannabinoidome appears more relevant to stress buffering than direct cognitive enhancement, integrating neuroinflammatory, HPA, and glutamatergic regulation context.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Garani et al. (2021)",
+          "citationKey": "garani_endocannabinoid_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021"
+        },
+        {
+          "index": 2,
+          "label": "Covey et al. (2017)",
+          "citationKey": "covey_endocannabinoid_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017"
+        },
+        {
+          "index": 3,
+          "label": "Rodriguez Bambico et al. (2009)",
+          "citationKey": "rodriguez_bambico_endocannabinoids_2009",
+          "href": "/docs/papers/BRAIN-Diet-References#rodriguez_bambico_endocannabinoids_2009"
+        },
+        {
+          "index": 4,
+          "label": "Micale & Di Marzo et al. (2013)",
+          "citationKey": "micale_endocannabinoid_mood_2013",
+          "href": "/docs/papers/BRAIN-Diet-References#micale_endocannabinoid_mood_2013"
+        }
+      ]
+    }
+  ],
+  "byPhenome": {
+    "Behavioural Activation": [
+      "BRS-X(ECS-PM4)"
+    ],
+    "Cognitive Clarity": [
+      "BRS-X(ECS-PM2)",
+      "BRS-X(Hormones-PM1)",
+      "BRS-X(Hormones-PM2)"
+    ],
+    "Cognitive Energy Stability": [
+      "BRS-X(Hormones-PM4)",
+      "BRS-X(Hormones-PM5)",
+      "BRS-X(Hormones-PM6)"
+    ],
+    "Emotional Regulation": [
+      "BRS-X(ECS-PM1)",
+      "BRS-X(ECS-PM2)",
+      "BRS-X(ECS-PM3)",
+      "BRS-X(ECS-PM5)",
+      "BRS-X(Hormones-PM1)",
+      "BRS-X(Hormones-PM2)",
+      "BRS-X(Hormones-PM3)",
+      "BRS-X(Hormones-PM4)",
+      "BRS-X(Hormones-PM5)",
+      "BRS-X(Hormones-PM6)"
+    ],
+    "Focus / Attention Stability": [
+      "BRS-X(Hormones-PM1)"
+    ],
+    "Hormonal Volatility": [
+      "BRS-X(Hormones-PM2)",
+      "BRS-X(Hormones-PM4)"
+    ],
+    "Motivation / Drive": [
+      "BRS-X(ECS-PM1)",
+      "BRS-X(ECS-PM4)",
+      "BRS-X(Hormones-PM5)",
+      "BRS-X(Hormones-PM6)"
+    ],
+    "Recovery Capacity": [
+      "BRS-X(ECS-PM5)"
+    ],
+    "Reward Regulation": [
+      "BRS-X(ECS-PM4)"
+    ],
+    "Sleep / Calming Tone": [
+      "BRS-X(Hormones-PM3)"
+    ],
+    "Stress Reactivity": [
+      "BRS-X(Hormones-PM3)"
+    ],
+    "Stress Resilience": [
+      "BRS-X(ECS-PM1)",
+      "BRS-X(ECS-PM2)",
+      "BRS-X(ECS-PM3)",
+      "BRS-X(ECS-PM5)"
+    ]
+  },
+  "fmRollups": {
+    "BRS-X(ECS-FM1)": [
+      {
+        "target_phenome": "Behavioural Activation",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Endocannabinoid–dopamine coupling may influence behavioural activation and effort-related signalling context relevant to ADHD framing.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(ECS-PM4)",
+            "name": "Endocannabinoid–Dopamine Neuromodulation",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Cognitive Clarity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Omega-3-derived ethanolamides may support neuroprotective and neurogenesis-related signalling context relevant to cognitive clarity without CB1-centric framing.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(ECS-PM2)",
+            "name": "Omega-3-Derived Endocannabinoidome Signalling",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Emotional Regulation",
+        "connected_pm_count": 4,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "medium",
+        "evidence_summary": "Omega-3 endocannabinoidome signalling may indirectly modulate affective context through inflammatory and neuromodulatory interfaces; direct ADHD evidence remains limited. Dietary NAPE and NAE precursor biology may modulate endocannabinoidome context relevant to affective regulation; direct ADHD outcome claims remain cautious. Preserved anandamide signalling may modulate affective regulation pathways through endogenous tone rather than receptor agonism. Stress-buffering endocannabinoidome signalling may modulate affective regulation through mood-disorder-relevant endocannabinoid pathways.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(ECS-PM2)",
+            "name": "Omega-3-Derived Endocannabinoidome Signalling",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling",
+            "relationship_type": "modulates",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS-X(ECS-PM1)",
+            "name": "NAPE → NAE Biosynthesis Capacity",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS-X(ECS-PM3)",
+            "name": "FAAH-Mediated Endocannabinoid Preservation",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS-X(ECS-PM5)",
+            "name": "Endocannabinoid Stress-Buffering Capacity",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Motivation / Drive",
+        "connected_pm_count": 2,
+        "strongest_relationship_type": "supports",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "high",
+        "evidence_summary": "Endocannabinoid signalling modulates dopaminergic reward and motivation pathways; this PM addresses neuromodulation rather than dopamine production. NAPE → NAE biosynthesis may support AEA, PEA, and OEA signalling context relevant to motivation and drive through diet-actionable endocannabinoidome pathways rather than CB1 receptor pharmacology.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(ECS-PM4)",
+            "name": "Endocannabinoid–Dopamine Neuromodulation",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation",
+            "relationship_type": "supports",
+            "confidence": "medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS-X(ECS-PM1)",
+            "name": "NAPE → NAE Biosynthesis Capacity",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity",
+            "relationship_type": "supports",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Recovery Capacity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Endocannabinoid-mediated stress buffering may support recovery from stress-linked neuroinflammatory and excitatory load; direct ADHD evidence remains limited.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(ECS-PM5)",
+            "name": "Endocannabinoid Stress-Buffering Capacity",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Reward Regulation",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Endocannabinoid modulation of mesolimbic dopamine signalling may influence reward regulation without equating to substance reward pharmacology.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(ECS-PM4)",
+            "name": "Endocannabinoid–Dopamine Neuromodulation",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Stress Resilience",
+        "connected_pm_count": 4,
+        "strongest_relationship_type": "supports",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "high",
+        "evidence_summary": "DHEA and related omega-3 ethanolamides may intersect with anti-inflammatory and stress-buffering endocannabinoidome pathways. PEA and related NAEs may intersect with stress-buffering endocannabinoidome signalling; dietary phospholipid support remains the primary intervention frame. FAAH inhibition may preserve endogenous anandamide tone relevant to stress-buffering context; dietary polyphenols such as genistein represent plausible diet-sensitive modulation points. The endocannabinoidome appears more relevant to stress buffering than direct cognitive enhancement, integrating neuroinflammatory, HPA, and glutamatergic regulation context.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(ECS-PM2)",
+            "name": "Omega-3-Derived Endocannabinoidome Signalling",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS-X(ECS-PM1)",
+            "name": "NAPE → NAE Biosynthesis Capacity",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS-X(ECS-PM3)",
+            "name": "FAAH-Mediated Endocannabinoid Preservation",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS-X(ECS-PM5)",
+            "name": "Endocannabinoid Stress-Buffering Capacity",
+            "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity",
+            "relationship_type": "supports",
+            "confidence": "medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS-X(Hormones-FM1)": [
+      {
+        "target_phenome": "Cognitive Clarity",
+        "connected_pm_count": 2,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "medium",
+        "evidence_summary": "Oestrogen influences neural signalling systems relevant to cognitive stability across menstrual and perimenopausal contexts; ADHD-specific outcome claims should remain cautious. Altered oestrogen recycling may indirectly influence neural signalling context relevant to cognitive clarity without establishing direct single-pathway outcome certainty.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(Hormones-PM1)",
+            "name": "Oestrogen Signalling Stability",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability",
+            "relationship_type": "modulates",
+            "confidence": "medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS-X(Hormones-PM2)",
+            "name": "Estrobolome Regulation",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation",
+            "relationship_type": "indirect",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Cognitive Energy Stability",
+        "connected_pm_count": 3,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "high",
+        "evidence_summary": "Insulin sensitivity and metabolic stability interact with reproductive hormone regulation; this PM should be framed as metabolic-endocrine integration rather than a direct ADHD treatment claim. Low testosterone states are associated with reduced energy, fatigue and reduced mental stamina, but direct ADHD-specific evidence remains limited. Microbial androgen metabolism may influence systemic androgen exposure relevant to energy and stamina context; direct ADHD evidence remains limited.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(Hormones-PM4)",
+            "name": "Metabolic-Reproductive Hormone Integration",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration",
+            "relationship_type": "modulates",
+            "confidence": "medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS-X(Hormones-PM5)",
+            "name": "Testosterone Signalling Stability",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS-X(Hormones-PM6)",
+            "name": "Androgen-Microbiome Regulation",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Emotional Regulation",
+        "connected_pm_count": 6,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "high",
+        "evidence_summary": "Oestrogen-mediated signalling may modulate affective regulation pathways that intersect with dopaminergic tone and stress sensitivity. The estrobolome can influence systemic oestrogen exposure through microbial beta-glucuronidase activity; downstream affective phenome effects are indirect and should not be presented as single-mechanism causal claims. Metabolic volatility may indirectly influence affective regulation through neuroendocrine and reproductive hormone coupling. Androgen signalling may influence mood and emotional regulation through interactions with multiple neural systems. Microbiome-androgen interactions may influence endocrine states relevant to mood and behavioural regulation, but direct ADHD evidence is currently limited. Butyrate-producing taxa may support endocrine and inflammatory contexts relevant to progesterone balance, but direct ADHD outcome evidence is limited.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(Hormones-PM1)",
+            "name": "Oestrogen Signalling Stability",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability",
+            "relationship_type": "modulates",
+            "confidence": "medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS-X(Hormones-PM2)",
+            "name": "Estrobolome Regulation",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation",
+            "relationship_type": "modulates",
+            "confidence": "medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS-X(Hormones-PM4)",
+            "name": "Metabolic-Reproductive Hormone Integration",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration",
+            "relationship_type": "indirect",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS-X(Hormones-PM5)",
+            "name": "Testosterone Signalling Stability",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS-X(Hormones-PM6)",
+            "name": "Androgen-Microbiome Regulation",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS-X(Hormones-PM3)",
+            "name": "Progesterone-Supportive Microbial Metabolism",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Oestrogen influences dopaminergic and neural signalling systems relevant to executive function; direct single-mechanism ADHD outcome claims should remain cautious.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(Hormones-PM1)",
+            "name": "Oestrogen Signalling Stability",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability",
+            "relationship_type": "indirect",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Hormonal Volatility",
+        "connected_pm_count": 2,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "high",
+        "evidence_summary": "Estrobolome activity may support or disrupt oestrogen exposure depending on microbial beta-glucuronidase balance and enterohepatic recycling direction. Insulin-linked metabolic signalling and gut ecological context may modulate oestrogen-progesterone balance across feeding and stress cycles.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(Hormones-PM2)",
+            "name": "Estrobolome Regulation",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation",
+            "relationship_type": "modulates",
+            "confidence": "medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS-X(Hormones-PM4)",
+            "name": "Metabolic-Reproductive Hormone Integration",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration",
+            "relationship_type": "modulates",
+            "confidence": "medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Motivation / Drive",
+        "connected_pm_count": 2,
+        "strongest_relationship_type": "supports",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "medium",
+        "evidence_summary": "Testosterone signalling has been associated with motivation, effort, behavioural activation and goal-directed behaviour. Microbial androgen metabolism may influence systemic androgen availability and indirectly influence motivation-related phenomes.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(Hormones-PM5)",
+            "name": "Testosterone Signalling Stability",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability",
+            "relationship_type": "supports",
+            "confidence": "medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS-X(Hormones-PM6)",
+            "name": "Androgen-Microbiome Regulation",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation",
+            "relationship_type": "indirect",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Sleep / Calming Tone",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low",
+        "evidence_summary": "Progesterone-linked calming tone may intersect with gut-derived inflammatory and SCFA signalling, but evidence for direct dietary single-mechanism effects remains limited.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(Hormones-PM3)",
+            "name": "Progesterone-Supportive Microbial Metabolism",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Stress Reactivity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Microbial SCFA context may indirectly influence stress-responsive endocrine-inflammatory tone intersecting progesterone-related stability.",
+        "contributing_pms": [
+          {
+            "id": "BRS-X(Hormones-PM3)",
+            "name": "Progesterone-Supportive Microbial Metabolism",
+            "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism",
+            "relationship_type": "indirect",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ]
+  }
+}

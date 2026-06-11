@@ -13,6 +13,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { auditAllPmPages, auditAllSmPages } from "./lib/pm-mechanistic-basis.mjs";
 import { validateAllMechanismPages } from "./lib/mechanism-page-validation.mjs";
+import { validatePhenomeRelationshipIndexFresh } from "./lib/phenome-relationship-index.mjs";
 
 const skipCue = process.argv.includes("--skip-cue");
 
@@ -124,6 +125,14 @@ function main() {
       const sec = a.sectionNum != null ? `§${a.sectionNum}` : "§?";
       console.log(`    - ${a.pm_id} (${sec}): ${a.reason}`);
     }
+  }
+
+  const phenomeIndex = validatePhenomeRelationshipIndexFresh();
+  if (phenomeIndex.ok) {
+    console.log("  Phenome relationship index: fresh");
+  } else {
+    failed = true;
+    console.log(`  Phenome relationship index: FAILED — ${phenomeIndex.message}`);
   }
 
   if (!skipCue) {

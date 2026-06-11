@@ -21,24 +21,11 @@ hide_title: true
 
 ## Overview
 
-Hormone signalling and regulation describes the cross-system network through which hormones are produced, transported, metabolised, recycled, and sensed across tissues — including brain, gut, liver, adipose tissue, and gonadal/adrenal axes. Hormone-responsive pathways influence neurotransmitter balance, one-carbon and methylation context, inflammatory tone, mitochondrial capacity, gut–brain signalling, and whole-body metabolic and stress allocation.
+Hormone-responsive pathways intersect with neurotransmitter balance, one-carbon and methylation context, inflammatory tone, mitochondrial capacity, gut–brain signalling, and whole-body metabolic and stress allocation.
 
 The scope includes estrogen, progesterone, and testosterone signalling; hormone–microbiome interactions; estrobolome and androbolome biology; and hormonal adaptation across life stages.
 
 Within the BRAIN Framework, BRS-X(Hormones) is a first-class cross-system object spanning all six core BRS domains. Dietary patterns, micronutrient sufficiency, microbial biotransformation, and lifestyle rhythms that shape hormonal milieu are interpreted through connected mechanisms across BRS1–BRS6.
-
----
-
-## Connected BRSs
-
-- [BRS1 — Neurotransmitter Regulation](/docs/biological-targets/neurotransmitter-regulation)
-- [BRS2 — Methylation & One-Carbon Metabolism](/docs/biological-targets/methylation-one-carbon-metabolism)
-- [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress)
-- [BRS4 — Mitochondrial Function & Bioenergetics](/docs/biological-targets/mitochondrial-function-bioenergetics)
-- [BRS5 — Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
-- [BRS6 — Metabolic & Neuroendocrine Stress](/docs/biological-targets/metabolic-neuroendocrine-stress)
-
----
 
 ## Functional Mechanisms
 
@@ -52,6 +39,8 @@ Primary mechanisms:
 - [BRS-X(Hormones-PM2) — Estrobolome Regulation](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation)
 - [BRS-X(Hormones-PM3) — Progesterone-Supportive Microbial Metabolism](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism)
 - [BRS-X(Hormones-PM4) — Metabolic-Reproductive Hormone Integration](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration)
+- [BRS-X(Hormones-PM5) — Testosterone Signalling Stability](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability)
+- [BRS-X(Hormones-PM6) — Androgen-Microbiome Regulation](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation)
 
 ---
 
@@ -105,3 +94,14 @@ Specific Mechanisms (SMs) are interpretation layers — context-specific reading
 SM-Female may reference BRS-X(Hormones-FM2), Estrogen–Neurotransmitter Coupling, and Estrobolome Regulation. SM-Male may reference Testosterone–Motivation Signalling and Androbolome Regulation.
 
 - *No published Hormones-specific SM pages yet.*
+
+---
+
+## Connected BRSs
+
+- [BRS1 — Neurotransmitter Regulation](/docs/biological-targets/neurotransmitter-regulation)
+- [BRS2 — Methylation & One-Carbon Metabolism](/docs/biological-targets/methylation-one-carbon-metabolism)
+- [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress)
+- [BRS4 — Mitochondrial Function & Bioenergetics](/docs/biological-targets/mitochondrial-function-bioenergetics)
+- [BRS5 — Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
+- [BRS6 — Metabolic & Neuroendocrine Stress](/docs/biological-targets/metabolic-neuroendocrine-stress)

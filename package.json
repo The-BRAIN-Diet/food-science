@@ -6,6 +6,7 @@
     "brs:audit": "node scripts/brs-audit.mjs",
     "brs:repair": "node scripts/brs-repair.mjs",
     "mechanisms:validate": "node scripts/validate-mechanism-pages.mjs",
+    "phenome:index": "node scripts/generate-phenome-relationship-index.mjs",
     "bib:validate": "node scripts/validate-bib-citation-keys.mjs",
     "mechanisms:generate-pm-basis": "node scripts/generate-pm-mechanistic-basis.mjs",
     "inchi:repair": "node scripts/inchi-repair.mjs",
