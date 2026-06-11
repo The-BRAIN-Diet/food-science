@@ -13,6 +13,21 @@ mechanisms_covered:
 #     name: "<INSERT_KC_NAME>"
 #     type: substrate
 #     href: /docs/biological-targets/<brs>/kc/<kc-slug>
+# Optional — roll-up snapshot from child PM phenome_relationships (see system/phenome-relationship-schema.md)
+# connected_phenomes:
+#   - target_phenome: "Motivation"
+#     connected_pm_count: 3
+#     strongest_relationship_type: supports
+#     highest_evidence_level: mechanistic
+#     overall_confidence: medium
+#     evidence_summary: "<INTEGRATIVE_SENTENCE>"
+#     contributing_pms:
+#       - id: "<INSERT_PM_ID>"
+#         name: "<INSERT_PM_NAME>"
+#         href: "<pm-href>"
+#         relationship_type: supports
+#         confidence: medium
+#         evidence_level: mechanistic
 intervention_dominance: "<diet-dominant|lifestyle-dominant|mixed>"
 intervention_breakdown: "<Food-State Dominant|Food-State Leaning|Mixed Modulation|Behavioural/Lifestyle Leaning|Behavioural/Lifestyle Dominant>"
 timing_specific: "<Yes|No>"
@@ -39,43 +54,51 @@ hide_title: true
 
 <INSERT_INTEGRATED_DEFINITION>
 
-## 2. Intervention Breakdown
+## 2. Connected Phenomes / Functional Outcomes
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+No direct functional outcome relationship currently mapped.
+
+<!-- When connected_phenomes exist, replace with roll-up table + optional <details> per phenome listing contributing PMs. -->
+
+## 3. Intervention Breakdown
 
 <INSERT_SINGLE_INTERVENTION_BREAKDOWN_VALUE>
 
-## 3. Functional Role
+## 4. Functional Role
 
 <INSERT_DIRECTIONAL_ARROW_SUMMARY_EMERGENT_FM_OUTCOMES>
 
-## 4. Mechanistic Basis (Integrated FM Narrative)
+## 5. Mechanistic Basis (Integrated FM Narrative)
 
 <INSERT_OPTIONAL_OPENING_LINE>
 
-### 4.1 Core Primary Mechanisms
+### 5.1 Core Primary Mechanisms
 
 - [<INSERT_PM_ID> — <INSERT_PM_NAME>](<pm-href>)
   <INSERT_PM_CONTRIBUTION_LINE>
 
-### 4.2 Supporting Biological Pools (Key Constraints)
+### 5.2 Supporting Biological Pools (Key Constraints)
 
 - None listed
 
-### 4.3 Integrated Functional Narrative
+### 5.3 Integrated Functional Narrative
 
 <INSERT_SYNTHESIS_PARAGRAPHS>
 
-<!-- When key_constraints is non-empty, add ### 4.4 Functional Failure Modes (see BRS5(FM1)) -->
+<!-- When key_constraints is non-empty, add ### 5.4 Functional Failure Modes (see BRS5(FM1)) -->
 
 <!-- Optional FM-level evidence framing (see BRS1(FM4)): -->
-<!-- ### 4.5 Evidence Highlights -->
+<!-- ### 5.5 Evidence Highlights -->
 <!-- #### Introduction/Summary -->
 <!-- <details><summary><strong>Evidence highlights — …</strong></summary> … </details> -->
 
-## 5. Connected Mechanisms
+## 6. Connected Mechanisms
 
-<!-- Roll up from constituent PM §6 Connected Mechanisms -->
+<!-- Roll up from constituent PM §7 Connected Mechanisms -->
 - None listed
 
-## 6. References
+## 7. References
 
 1. [Placeholder reference 1](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>)

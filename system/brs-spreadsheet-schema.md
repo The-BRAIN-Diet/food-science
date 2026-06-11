@@ -9,6 +9,10 @@
 This document defines the canonical schema and interpretation rules for the
 BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 
+For **BRS-X** (Endocannabinoid System and Hormones cross-system layers), use
+`system/brs-x-spreadsheet-schema.md` — same field semantics with BRS-X-specific
+IDs, tabs, Connected Mechanisms rules, and seed rows.
+
 ## Purpose
 
 - Spreadsheet = source of truth for mechanism data.
@@ -255,6 +259,21 @@ BRAIN Diet mechanism spreadsheet used to generate BRS, FM, and PM content.
 - FM rows define primary dominance.
 - PM rows inherit from parent FM unless clearly justified.
 - Must not overstate diet where lifestyle is dominant.
+
+## Phenome relationships (PM rows)
+
+Optional translational mappings — see `system/phenome-relationship-schema.md`.
+
+| Column | Meaning |
+|--------|---------|
+| `phenome_relationships` | JSON/YAML array: `target_phenome`, `relationship_type`, `confidence`, `evidence_level`, `rationale`, `references` |
+| `target_phenome` | Shortcut when authoring one phenome per spreadsheet row extension |
+| `phenome_relationship_type` | `supports` \| `disrupts` \| `modulates` \| `indirect` |
+| `phenome_confidence` | `low` \| `low-medium` \| `medium` \| `high` |
+| `phenome_evidence_level` | `mechanistic` \| `observational` \| `intervention` \| `clinical` |
+| `phenome_rationale` | Translational rationale (not a mechanism definition) |
+
+FM rows: `connected_phenomes` is **generated** from child PM phenome rows unless manually overriding `evidence_summary`.
 
 ## Column P - FM Ownership
 

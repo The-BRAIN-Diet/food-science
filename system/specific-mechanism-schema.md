@@ -101,10 +101,10 @@ One of:
 - `SM-PHEN` — phenotype-sensitive interpretation
 - `SM-CROSS` — cross-system interpretive concepts that pass the [SM-CROSS test](#sm-cross-test-qualification-gate) (≥ 2 BRS domains; no single PM/FM owner)
 
-**§2 Intervention Breakdown** in the public body contains **only** the `intervention_breakdown` value (same as PM pages), for example:
+**§3 Intervention Breakdown** in the public body contains **only** the `intervention_breakdown` value (same as PM pages), for example:
 
 ```markdown
-## 2. Intervention Breakdown
+## 3. Intervention Breakdown
 
 Food-State Leaning
 ```
@@ -119,37 +119,38 @@ Same contract as PM pages: sections must not restate the title, `sm_id`, BRS nam
 
 First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
 
-1. Definition — phenotype / variant / cross-system framing (not a core PM definition). **`SM-CROSS`:** open with *why* a cross-system page is needed (what single-PM or neurotransmitter-only framing misses) and *how* an SM-CROSS differs from a PM, FM, or `SM-PHEN`/`SM-SNP` page; defer integrative biology to §4 and PM links to §5.5.
-2. Intervention Breakdown — breakdown value only
-3. Functional Role — directional summary oriented to regulatory balance and resilience
-4. Mechanistic Basis — `### Summary` opens with the **multi-domain implication**, then explains the cross-system concept (`### Summary` + `<details>` as on PM pages). **`SM-CROSS`:** implication first (e.g. few systems span neural, immune, gut, and circadian biology → then histamine). See `system/mechanism-page-section-prose.md`. PM links stay in §5.5.
-5. Underlying Mechanisms and Requirements
-   - `### 5.1` Cofactors and Supporting Inputs
-   - `### 5.2` KCs (Key Constraints)
-   - `### 5.3` Connected Primary Mechanisms (PMs) — required when `connected_pms` non-empty
-   - `### 5.4` Connected Functional Mechanisms (FMs)
-   - `### 5.5` Connected Mechanisms — see [§5.5 Connected Mechanisms (authoring contract)](#55-connected-mechanisms-authoring-contract) below
-6. Dietary Levers — `<details><summary><strong>Diet</strong></summary>` — use substance ← food bullets per `system/substance-food-mapping-format.md` where listing substrates and example foods
-7. Lifestyle Levers — `<details><summary><strong>Lifestyle</strong></summary>`
-8. Scoreable Inputs & Modulation Signals — optional; same table categories as PM/FM
-9. References — if §8 Scoreable omitted, References is §8
+1. Definition — phenotype / variant / cross-system framing (not a core PM definition). **`SM-CROSS`:** open with *why* a cross-system page is needed (what single-PM or neurotransmitter-only framing misses) and *how* an SM-CROSS differs from a PM, FM, or `SM-PHEN`/`SM-SNP` page; defer integrative biology to §5 and PM links to §6.5.
+2. Target Functional Outcome / Phenome — evidence-weighted translational mappings (same contract as PM §2); empty state when none mapped
+3. Intervention Breakdown — breakdown value only
+4. Functional Role — directional summary oriented to regulatory balance and resilience
+5. Mechanistic Basis — `### Summary` opens with the **multi-domain implication**, then explains the cross-system concept (`### Summary` + `<details>` as on PM pages). **`SM-CROSS`:** implication first (e.g. few systems span neural, immune, gut, and circadian biology → then histamine). See `system/mechanism-page-section-prose.md`. PM links stay in §6.5.
+6. Underlying Mechanisms and Requirements
+   - `### 6.1` Cofactors and Supporting Inputs
+   - `### 6.2` KCs (Key Constraints)
+   - `### 6.3` Connected Primary Mechanisms (PMs) — required when `connected_pms` non-empty
+   - `### 6.4` Connected Functional Mechanisms (FMs)
+   - `### 6.5` Connected Mechanisms — see [§6.5 Connected Mechanisms (authoring contract)](#65-connected-mechanisms-authoring-contract) below
+7. Dietary Levers — `<details><summary><strong>Diet</strong></summary>` — use substance ← food bullets per `system/substance-food-mapping-format.md` where listing substrates and example foods
+8. Lifestyle Levers — `<details><summary><strong>Lifestyle</strong></summary>`
+9. Scoreable Inputs & Modulation Signals — optional; same table categories as PM/FM
+10. References — if §9 Scoreable omitted, References is §9
 
 Timing: `timing_specific` in front matter only; discuss timing in Functional Role, Mechanistic Basis, Lifestyle, or Scoreable when relevant.
 
-## §5.5 Connected Mechanisms (authoring contract)
+## §6.5 Connected Mechanisms (authoring contract)
 
 ### When required
 
-- **`SM-CROSS`:** `### 5.5` is **required** when the interpretive concept spans more than one BRS domain.
-- **`SM-SNP` / `SM-PHEN`:** `### 5.5` is **optional**; use when cross-BRS PM context materially clarifies the interpretation (e.g. COMT cross-talk to BRS1, methylation to BRS3).
+- **`SM-CROSS`:** `### 6.5` is **required** when the interpretive concept spans more than one BRS domain.
+- **`SM-SNP` / `SM-PHEN`:** `### 6.5` is **optional**; use when cross-BRS PM context materially clarifies the interpretation (e.g. COMT cross-talk to BRS1, methylation to BRS3).
 
-### Relationship to other §5 subsections
+### Relationship to other §6 subsections
 
 | Subsection | Purpose |
 |------------|---------|
-| **§5.3 Connected PMs** | Bullet list of **host-BRS** PMs anchored in `connected_pms` front matter — the stable biology this SM reads from on the parent BRS. |
-| **§5.4 Connected FMs** | Bullet list of host-BRS FMs from `connected_fms` front matter. |
-| **§5.5 Connected Mechanisms** | **Narrative** cross-domain placement: prose paragraphs (and optional `####` subheads) that explain how the SM concept maps across BRS domains, with **inline markdown links to specific PM pages**. |
+| **§6.3 Connected PMs** | Bullet list of **host-BRS** PMs anchored in `connected_pms` front matter — the stable biology this SM reads from on the parent BRS. |
+| **§6.4 Connected FMs** | Bullet list of host-BRS FMs from `connected_fms` front matter. |
+| **§6.5 Connected Mechanisms** | **Narrative** cross-domain placement: prose paragraphs (and optional `####` subheads) that explain how the SM concept maps across BRS domains, with **inline markdown links to specific PM pages**. |
 
 Do **not** use hub-only labels (e.g. “BRS3 crossover”) without at least one linked PM when a relevant PM exists. Do **not** duplicate full PM definitions — link and interpret.
 
@@ -157,13 +158,13 @@ Do **not** use hub-only labels (e.g. “BRS3 crossover”) without at least one 
 
 - **Paragraph form (preferred):** Explain cross-links in connected prose. Embed links as `[BRSx(PMn) — Name](/docs/biological-targets/brsX/pm/...)`.
 - **Optional structure:** Use `####` subheads for priority tiers (e.g. Primary / Secondary / Tertiary) or thematic blocks when an `SM-CROSS` concept spans several domains — each block should still be **paragraph-led**, not bullet-only.
-- **Citations:** Use numeric refs `[1]` in §5.5 when claims need evidence; same bibliography as the rest of the page.
-- **§4 vs §5.5:** §4 Mechanistic Basis summarises how **connected host PMs/FMs** support the overlay; §5.5 is where **cross-BRS PM placement** and priority (e.g. primary neurotransmitter home vs gut-interface crossover) are spelled out.
+- **Citations:** Use numeric refs `[1]` in §6.5 when claims need evidence; same bibliography as the rest of the page.
+- **§5 vs §6.5:** §5 Mechanistic Basis summarises how **connected host PMs/FMs** support the overlay; §6.5 is where **cross-BRS PM placement** and priority (e.g. primary neurotransmitter home vs gut-interface crossover) are spelled out.
 
 ### Example pattern (`SM-CROSS`)
 
 ```markdown
-### 5.5 Connected Mechanisms
+### 6.5 Connected Mechanisms
 
 <Concept> is placed by cross-BRS priority through linked PMs, not by reassignment to a single PM home.
 

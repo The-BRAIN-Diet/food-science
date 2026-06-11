@@ -11,6 +11,18 @@ key_constraints:
 cofactors:
   - id: "<INSERT_COFACTOR_ID>"
     name: "<INSERT_COFACTOR_NAME>"
+# Optional — authoritative phenome mappings (see system/phenome-relationship-schema.md)
+# phenome_relationships:
+#   - target_phenome: "Motivation"
+#     relationship_type: supports # supports | disrupts | modulates | indirect
+#     confidence: medium # low | low-medium | medium | high
+#     evidence_level: mechanistic # mechanistic | observational | intervention | clinical
+#     rationale: "<TRANSLATIONAL_RATIONALE>"
+#     references:
+#       - index: 1
+#         label: "<Author et al. (Year)>"
+#         citation_key: "<citation_key>"
+#         href: "/docs/papers/BRAIN-Diet-References#<citation_key>"
 intervention_dominance: "<diet-dominant|lifestyle-dominant|mixed>" # from intervention dominance
 intervention_breakdown: "<Food-State Dominant|…>" # when using Profile A extended
 timing_specific: "<Yes|No>"
@@ -24,8 +36,8 @@ hide_title: true
 ---
 
 <!--
-  Profile A (extended): see system/primary-mechanism-schema.md — §4 canonical structure on BRS1-FM1-PM1.
-  Profile B (compact): Mechanistic Basis becomes ## 2; renumber following sections.
+  Profile A (extended): see system/primary-mechanism-schema.md — §5 canonical structure on BRS1-FM1-PM1.
+  Profile B (compact): Mechanistic Basis becomes ## 3; renumber following sections.
 -->
 
 ## <INSERT_PM_ID> - <INSERT_PM_TITLE>
@@ -34,15 +46,34 @@ hide_title: true
 
 <INSERT_DEFINITION_TEXT>
 
-## 2. Intervention Breakdown
+## 2. Target Functional Outcome / Phenome
 
-<INSERT_INTERVENTION_BREAKDOWN_VALUE> <!-- omit §2 when not in front matter (Profile A′) -->
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
-## 3. Functional Role
+No direct functional outcome relationship currently mapped.
+
+<!-- When phenome_relationships exist, replace empty state with one <details> per mapping:
+<details>
+<summary><strong><TARGET_PHENOME> — <relationship_type></strong></summary>
+
+- **Confidence:** <confidence>
+- **Evidence Level:** <evidence_level>
+- **Rationale:** <rationale>
+- **Key References:**
+  - [<Author (Year)>](/docs/papers/BRAIN-Diet-References#citation_key)
+
+</details>
+-->
+
+## 3. Intervention Breakdown
+
+<INSERT_INTERVENTION_BREAKDOWN_VALUE> <!-- omit §3 when not in front matter (Profile A′) -->
+
+## 4. Functional Role
 
 <INSERT_DIRECTIONAL_ARROW_SUMMARY>
 
-## 4. Mechanistic Basis
+## 5. Mechanistic Basis
 
 ### Summary
 
@@ -54,7 +85,7 @@ hide_title: true
 #### (<INSERT_PRIMARY_MECHANISM_THEME>)
 
 <INSERT_HOW_THE_MECHANISM_WORKS — meal-level or pathway biology this PM owns>
-<!-- Cite evidence-backed claims inline: [Author (Year)](/docs/papers/BRAIN-Diet-References#citation_key) [n] — keep citations when rewriting §4; see system/primary-mechanism-schema.md PM §4 — Citations -->
+<!-- Cite evidence-backed claims inline: [Author (Year)](/docs/papers/BRAIN-Diet-References#citation_key) [n] — keep citations when rewriting §5; see system/primary-mechanism-schema.md PM §5 — Citations -->
 
 #### (Boundaries of the mechanism)
 
@@ -66,7 +97,7 @@ hide_title: true
 
 </details>
 
-### 4.1 Evidence Highlights
+### 5.1 Evidence Highlights
 
 #### Introduction/Summary
 
@@ -79,38 +110,38 @@ hide_title: true
 
 </details>
 
-## 5. Connected BRS1 Mechanisms
+## 6. Connected BRS1 Mechanisms
 
-### 5.1 Overarching Functional Mechanism
+### 6.1 Overarching Functional Mechanism
 
 - [<INSERT_PARENT_FM_ID> - <INSERT_PARENT_FM_TITLE>](/docs/biological-targets/<path-to-fm>)
 
-### 5.2 Connected Primary Mechanisms
+### 6.2 Connected Primary Mechanisms
 
 <!-- Sibling PMs on the same parent FM (exclude this PM) -->
 
 - None listed
 
-## 6. Connected Mechanisms
+## 7. Connected Mechanisms
 
 - None listed
 
-## 7. Dietary Levers
+## 8. Dietary Levers
 
-### 7.1 Direct Dietary Levers
+### 8.1 Direct Dietary Levers
 
 <!-- Substance ← 2–3 foods per bullet (see system/substance-food-mapping-format.md) -->
 - <INSERT_SUBSTANCE> ← <food1>, <food2>
 
-### 7.2 Cofactors and Supporting Inputs
+### 8.2 Cofactors and Supporting Inputs
 
 - <INSERT_COFACTOR_NAME>
 
-### 7.3 KCs (Key Constraints)
+### 8.3 KCs (Key Constraints)
 
 - [<INSERT_KC_ID> — <INSERT_KC_NAME>](/docs/biological-targets/<path-to-kc>)
 
-## 8. Lifestyle Levers
+## 9. Lifestyle Levers
 
 <details>
 <summary><strong>Lifestyle</strong></summary>
@@ -119,7 +150,7 @@ hide_title: true
 
 </details>
 
-## 9. Scoreable Inputs & Modulation Signals
+## 10. Scoreable Inputs & Modulation Signals
 
 <!-- Omit entire Scoreable section when not used for this PM; renumber References. -->
 
@@ -134,6 +165,6 @@ hide_title: true
 
 </details>
 
-## 10. References
+## 11. References
 
 1. [Placeholder reference 1](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>)
