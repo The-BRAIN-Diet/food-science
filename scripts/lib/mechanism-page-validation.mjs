@@ -8,7 +8,7 @@ import path from "node:path";
 import matter from "gray-matter";
 import { isLegacyFoodToSubstanceLine } from "./substance-food-mapping.mjs";
 import {
-  FM_PHENOME_SECTION_TITLE,
+  FM_OUTCOME_CONTEXT_SECTION_TITLE,
   PM_PHENOME_SECTION_TITLE,
   validateFmPhenomeFrontMatter,
   validatePmPhenomeFrontMatter,
@@ -186,8 +186,17 @@ export function listMechanismMdxFiles(rootDir = process.cwd(), kind) {
         const systemDir = path.join(brsDir, system);
         if (!fs.statSync(systemDir).isDirectory()) continue;
         for (const entry of fs.readdirSync(systemDir)) {
-          if (!/^fm\d+$/i.test(entry)) continue;
-          scanFmFolder(path.join(systemDir, entry));
+          if (/^fm\d+$/i.test(entry)) {
+            scanFmFolder(path.join(systemDir, entry));
+          }
+        }
+        if (kind === "kc") {
+          const kcDir = path.join(systemDir, "kc");
+          if (fs.existsSync(kcDir) && fs.statSync(kcDir).isDirectory()) {
+            for (const f of fs.readdirSync(kcDir)) {
+              if (f.endsWith(".mdx") || f.endsWith(".md")) out.push(path.join(kcDir, f));
+            }
+          }
         }
       }
       continue;
@@ -518,7 +527,7 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
 /** FM extended public contract (Intervention Breakdown present; no Timing Specific body section). */
 const FM_EXTENDED_SECTION_TITLES = [
   "Definition",
-  FM_PHENOME_SECTION_TITLE,
+  FM_OUTCOME_CONTEXT_SECTION_TITLE,
   "Intervention Breakdown",
   "Functional Role",
   "Mechanistic Basis (Integrated FM Narrative)",
@@ -609,8 +618,8 @@ function validateFmPage(filePath, { rootDir }) {
     if (t0 !== "Definition") {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §1 must be Definition`);
     }
-    if (t1 !== FM_PHENOME_SECTION_TITLE) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §2 must be ${FM_PHENOME_SECTION_TITLE}`);
+    if (t1 !== FM_OUTCOME_CONTEXT_SECTION_TITLE) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §2 must be ${FM_OUTCOME_CONTEXT_SECTION_TITLE}`);
     }
     if (t2 !== "Intervention Breakdown") {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §3 must be Intervention Breakdown`);

@@ -13,21 +13,15 @@ mechanisms_covered:
 #     name: "<INSERT_KC_NAME>"
 #     type: substrate
 #     href: /docs/biological-targets/<brs>/kc/<kc-slug>
-# Optional — roll-up snapshot from child PM phenome_relationships (see system/phenome-relationship-schema.md)
-# connected_phenomes:
-#   - target_phenome: "Motivation"
-#     connected_pm_count: 3
-#     strongest_relationship_type: supports
-#     highest_evidence_level: mechanistic
-#     overall_confidence: medium
-#     evidence_summary: "<INTEGRATIVE_SENTENCE>"
-#     contributing_pms:
-#       - id: "<INSERT_PM_ID>"
-#         name: "<INSERT_PM_NAME>"
-#         href: "<pm-href>"
-#         relationship_type: supports
-#         confidence: medium
-#         evidence_level: mechanistic
+# Optional — concise integrative outcomes (2–4 max; see system/phenome-relationship-schema.md)
+# functional_outcome_context:
+#   - outcome_name: "Emotional Regulation"
+#     confidence: medium
+#     synthesis: "<1–2 SENTENCE INTEGRATIVE SYNTHESIS — DO NOT LIST CHILD PMs>"
+#     references:
+#       - label: "<Author (Year)>"
+#         citation_key: "<citation_key>"
+#         href: "/docs/papers/BRAIN-Diet-References#<citation_key>"
 intervention_dominance: "<diet-dominant|lifestyle-dominant|mixed>"
 intervention_breakdown: "<Food-State Dominant|Food-State Leaning|Mixed Modulation|Behavioural/Lifestyle Leaning|Behavioural/Lifestyle Dominant>"
 timing_specific: "<Yes|No>"
@@ -54,13 +48,13 @@ hide_title: true
 
 <INSERT_INTEGRATED_DEFINITION>
 
-## 2. Connected Phenomes / Functional Outcomes
+## 2. Functional Outcome Context
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Confidence may increase where multiple child PMs converge on the same functional outcome.
 
-No direct functional outcome relationship currently mapped.
+No functional outcome context currently mapped.
 
-<!-- When connected_phenomes exist, replace with roll-up table + optional <details> per phenome listing contributing PMs. -->
+<!-- When functional_outcome_context exists, render ### outcome blocks with confidence, synthesis, and key references. -->
 
 ## 3. Intervention Breakdown
 

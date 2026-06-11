@@ -12,7 +12,7 @@ import {
   readMechanismPage,
 } from "./lib/mechanism-page-validation.mjs";
 import {
-  renderFmPhenomeSectionBody,
+  renderFmOutcomeContextSectionBody,
   renderPmPhenomeSectionBody,
 } from "./lib/phenome-relationships.mjs";
 
@@ -53,13 +53,13 @@ function insertPhenomeSection(content, phenomeBlock) {
 }
 
 function alreadyHasPhenomeSection(content) {
-  return /^## 2\. (Target Functional Outcome \/ Phenome|Connected Phenomes \/ Functional Outcomes)\s*$/m.test(
+  return /^## 2\. (Target Functional Outcome \/ Phenome|Connected Phenomes \/ Functional Outcomes|Functional Outcome Context)\s*$/m.test(
     content,
   );
 }
 
 const PHENOME_SECTION_HEADING =
-  /^## 2\. (Target Functional Outcome \/ Phenome|Connected Phenomes \/ Functional Outcomes)\s*$/m;
+  /^## 2\. (Target Functional Outcome \/ Phenome|Connected Phenomes \/ Functional Outcomes|Functional Outcome Context)\s*$/m;
 
 function replacePhenomeSection(content, phenomeBlock) {
   const match = content.match(PHENOME_SECTION_HEADING);
@@ -79,7 +79,7 @@ function syncPhenomeSection(filePath, kind) {
 
   const phenomeBlock =
     kind === "fm"
-      ? renderFmPhenomeSectionBody(data.connected_phenomes || [])
+      ? renderFmOutcomeContextSectionBody(data.functional_outcome_context || [])
       : renderPmPhenomeSectionBody(data.phenome_relationships || []);
 
   const body = replacePhenomeSection(content, phenomeBlock);
@@ -97,7 +97,7 @@ function migrateFile(filePath, kind) {
 
   const phenomeBlock =
     kind === "fm"
-      ? renderFmPhenomeSectionBody(data.connected_phenomes || [])
+      ? renderFmOutcomeContextSectionBody(data.functional_outcome_context || [])
       : renderPmPhenomeSectionBody(data.phenome_relationships || []); // pm + sm
 
   body = insertPhenomeSection(body, phenomeBlock);

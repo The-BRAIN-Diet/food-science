@@ -1,5 +1,5 @@
 /**
- * Phenome relationship constants, validation, and FM roll-up aggregation.
+ * Phenome relationship constants, validation, and section rendering.
  * @see system/phenome-relationship-schema.md
  */
 
@@ -31,7 +31,20 @@ export const PHENOME_EMPTY_MESSAGE =
   "No direct functional outcome relationship currently mapped.";
 
 export const PM_PHENOME_SECTION_TITLE = "Target Functional Outcome / Phenome";
-export const FM_PHENOME_SECTION_TITLE = "Connected Phenomes / Functional Outcomes";
+
+/** FM §2 — concise integrated outcome context (not a PM roll-up graph). */
+export const FM_OUTCOME_CONTEXT_SECTION_TITLE = "Functional Outcome Context";
+
+/** @deprecated Use FM_OUTCOME_CONTEXT_SECTION_TITLE */
+export const FM_PHENOME_SECTION_TITLE = FM_OUTCOME_CONTEXT_SECTION_TITLE;
+
+export const FM_OUTCOME_CONTEXT_DISCLAIMER =
+  "These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Confidence may increase where multiple child PMs converge on the same functional outcome.";
+
+export const FM_OUTCOME_CONTEXT_EMPTY_MESSAGE =
+  "No functional outcome context currently mapped.";
+
+export const FM_OUTCOME_CONTEXT_MAX = 4;
 
 const RELATIONSHIP_STRENGTH = {
   supports: 4,
@@ -61,12 +74,24 @@ const CONFIDENCE_BY_RANK = {
   3: "high",
 };
 
+const CONFIDENCE_DISPLAY = {
+  low: "Low",
+  "low-medium": "Low–Medium",
+  medium: "Medium",
+  high: "High",
+};
+
 function rankConfidence(value) {
   return CONFIDENCE_RANK[String(value).trim()] ?? 0;
 }
 
 function confidenceFromRank(rank) {
   return CONFIDENCE_BY_RANK[rank] ?? "low";
+}
+
+export function formatOutcomeConfidence(confidence) {
+  const key = String(confidence || "").trim();
+  return CONFIDENCE_DISPLAY[key] ?? key;
 }
 
 export function validatePhenomeRelationshipRow(row, issues, { entityLabel, index }) {
@@ -119,29 +144,62 @@ export function validatePmPhenomeFrontMatter(data, issues, { entityLabel }) {
   }
 }
 
-export function validateConnectedPhenomeRow(row, issues, { entityLabel, index }) {
-  const prefix = `${entityLabel}: connected_phenomes[${index}]`;
-  if (!row?.target_phenome) {
-    issues.push({ code: "missing_fm_target_phenome", message: `${prefix} requires target_phenome` });
+export function validateFunctionalOutcomeContextRow(row, issues, { entityLabel, index }) {
+  const prefix = `${entityLabel}: functional_outcome_context[${index}]`;
+  if (!row || typeof row !== "object") {
+    issues.push({ code: "invalid_fm_outcome_row", message: `${prefix} must be an object` });
+    return;
   }
-  if (row?.overall_confidence && !PHENOME_CONFIDENCE_VALUES.has(String(row.overall_confidence).trim())) {
-    issues.push({ code: "invalid_fm_overall_confidence", message: `${prefix} invalid overall_confidence` });
+  if (!row.outcome_name || String(row.outcome_name).trim() === "") {
+    issues.push({ code: "missing_fm_outcome_name", message: `${prefix} requires outcome_name` });
+  }
+  if (!PHENOME_CONFIDENCE_VALUES.has(String(row.confidence || "").trim())) {
+    issues.push({
+      code: "invalid_fm_outcome_confidence",
+      message: `${prefix} confidence must be low | low-medium | medium | high`,
+    });
+  }
+  if (!row.synthesis || String(row.synthesis).trim() === "") {
+    issues.push({ code: "missing_fm_outcome_synthesis", message: `${prefix} requires synthesis` });
+  }
+  if (row.references !== undefined && !Array.isArray(row.references)) {
+    issues.push({
+      code: "invalid_fm_outcome_references",
+      message: `${prefix} references must be an array`,
+    });
   }
 }
 
-export function validateFmPhenomeFrontMatter(data, issues, { entityLabel }) {
-  const rows = data.connected_phenomes;
+export function validateFmOutcomeContextFrontMatter(data, issues, { entityLabel }) {
+  const rows = data.functional_outcome_context;
   if (rows === undefined) return;
   if (!Array.isArray(rows)) {
     issues.push({
-      code: "invalid_connected_phenomes",
-      message: `${entityLabel}: connected_phenomes must be an array`,
+      code: "invalid_functional_outcome_context",
+      message: `${entityLabel}: functional_outcome_context must be an array`,
     });
     return;
   }
-  for (const [i, row] of rows.entries()) {
-    validateConnectedPhenomeRow(row, issues, { entityLabel, index: i });
+  if (rows.length > FM_OUTCOME_CONTEXT_MAX) {
+    issues.push({
+      code: "fm_outcome_context_too_many",
+      message: `${entityLabel}: functional_outcome_context must have at most ${FM_OUTCOME_CONTEXT_MAX} outcomes`,
+    });
   }
+  for (const [i, row] of rows.entries()) {
+    validateFunctionalOutcomeContextRow(row, issues, { entityLabel, index: i });
+  }
+  if (data.connected_phenomes !== undefined) {
+    issues.push({
+      code: "deprecated_connected_phenomes",
+      message: `${entityLabel}: remove connected_phenomes — use functional_outcome_context on FM pages (full graph roll-up belongs on future phenome pages)`,
+    });
+  }
+}
+
+/** @deprecated Use validateFmOutcomeContextFrontMatter */
+export function validateFmPhenomeFrontMatter(data, issues, ctx) {
+  validateFmOutcomeContextFrontMatter(data, issues, ctx);
 }
 
 function pickStrongestRelationship(types) {
@@ -171,7 +229,8 @@ function rollupConfidence(rows) {
 }
 
 /**
- * Aggregate child PM phenome_relationships into FM connected_phenomes rows.
+ * Aggregate child PM phenome_relationships for future phenome graph pages.
+ * Not rendered on FM pages.
  * @param {Array<{ pm_id: string, pm_name?: string, pm_href?: string, phenome_relationships?: Array }>} childPms
  */
 export function aggregateFmConnectedPhenomes(childPms) {
@@ -236,7 +295,6 @@ export function renderPmPhenomeSectionBody(relationships = []) {
     lines.push(`- **Rationale:** ${rel.rationale}`);
     if (Array.isArray(rel.references) && rel.references.length > 0) {
       lines.push("- **Key References:**");
-      // HTML anchors — markdown links inside <details> are not reliably parsed by MDX.
       lines.push("  <ul>");
       for (const ref of rel.references) {
         const href = ref.href || `/docs/papers/BRAIN-Diet-References#${ref.citation_key}`;
@@ -253,56 +311,88 @@ export function renderPmPhenomeSectionBody(relationships = []) {
   return lines.join("\n").trimEnd();
 }
 
-export function renderFmPhenomeSectionBody(connectedPhenomes = []) {
-  const lines = [`## 2. ${FM_PHENOME_SECTION_TITLE}`, "", PHENOME_DISCLAIMER, ""];
-  if (!connectedPhenomes.length) {
-    lines.push(PHENOME_EMPTY_MESSAGE);
+export function renderFmOutcomeContextSectionBody(outcomes = []) {
+  const lines = [`## 2. ${FM_OUTCOME_CONTEXT_SECTION_TITLE}`, "", FM_OUTCOME_CONTEXT_DISCLAIMER, ""];
+  if (!outcomes.length) {
+    lines.push(FM_OUTCOME_CONTEXT_EMPTY_MESSAGE);
     return lines.join("\n");
   }
 
-  lines.push(
-    "| Phenome | Connected PMs | Strongest Relationship | Highest Evidence Level | Overall Confidence | Evidence Summary |",
-  );
-  lines.push("|---|---:|---|---|---|---|");
-  for (const row of connectedPhenomes) {
-    lines.push(
-      `| ${row.target_phenome} | ${row.connected_pm_count ?? row.contributing_pms?.length ?? 0} | ${row.strongest_relationship_type} | ${row.highest_evidence_level} | ${row.overall_confidence} | ${row.evidence_summary} |`,
-    );
-  }
-  lines.push("");
-
-  for (const row of connectedPhenomes) {
-    const pms = row.contributing_pms;
-    if (!Array.isArray(pms) || pms.length === 0) continue;
-    lines.push("<details>");
-    lines.push(`<summary><strong>${row.target_phenome} — contributing PMs</strong></summary>`);
+  for (const row of outcomes) {
+    lines.push(`### ${row.outcome_name}`);
+    lines.push(`**Confidence:** ${formatOutcomeConfidence(row.confidence)}`);
     lines.push("");
-    for (const pm of pms) {
-      const link = pm.href ? `[${pm.id} — ${pm.name}](${pm.href})` : `${pm.id} — ${pm.name}`;
-      lines.push(`- ${link} (${pm.relationship_type}; ${pm.confidence}; ${pm.evidence_level})`);
+    lines.push(String(row.synthesis).trim());
+    lines.push("");
+    if (Array.isArray(row.references) && row.references.length > 0) {
+      const linked = row.references.map((ref) => {
+        const href = ref.href || `/docs/papers/BRAIN-Diet-References#${ref.citation_key}`;
+        const label = ref.label || ref.citation_key;
+        return `[${label}](${href})`;
+      });
+      lines.push(`**Key references:** ${linked.join("; ")}`);
+      lines.push("");
     }
-    lines.push("");
-    lines.push("</details>");
-    lines.push("");
   }
 
   return lines.join("\n").trimEnd();
 }
 
+/** @deprecated Use renderFmOutcomeContextSectionBody */
+export function renderFmPhenomeSectionBody(outcomes = []) {
+  return renderFmOutcomeContextSectionBody(outcomes);
+}
+
 export function validatePhenomeSectionBody(content, issues, { entityLabel, kind }) {
-  const title = kind === "fm" ? FM_PHENOME_SECTION_TITLE : PM_PHENOME_SECTION_TITLE;
-  const heading = new RegExp(`^##\\s+2\\.\\s+${title.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`, "m");
-  if (!heading.test(content)) {
+  if (kind === "pm") {
+    const heading = new RegExp(
+      `^##\\s+2\\.\\s+${PM_PHENOME_SECTION_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+      "m",
+    );
+    if (!heading.test(content)) {
+      issues.push({
+        code: "missing_phenome_section",
+        message: `${entityLabel}: published body must include "## 2. ${PM_PHENOME_SECTION_TITLE}" after Definition`,
+      });
+      return;
+    }
+    if (!content.includes(PHENOME_DISCLAIMER)) {
+      issues.push({
+        code: "missing_phenome_disclaimer",
+        message: `${entityLabel}: §2 must include the canonical phenome disclaimer`,
+      });
+    }
+    return;
+  }
+
+  const fmTitle = FM_OUTCOME_CONTEXT_SECTION_TITLE;
+  const fmHeading = new RegExp(
+    `^##\\s+2\\.\\s+${fmTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+    "m",
+  );
+  if (!fmHeading.test(content)) {
     issues.push({
-      code: "missing_phenome_section",
-      message: `${entityLabel}: published body must include "## 2. ${title}" after Definition`,
+      code: "missing_fm_outcome_context_section",
+      message: `${entityLabel}: published body must include "## 2. ${fmTitle}" after Definition`,
     });
     return;
   }
-  if (!content.includes(PHENOME_DISCLAIMER)) {
+  if (!content.includes(FM_OUTCOME_CONTEXT_DISCLAIMER)) {
     issues.push({
-      code: "missing_phenome_disclaimer",
-      message: `${entityLabel}: §2 must include the canonical phenome disclaimer`,
+      code: "missing_fm_outcome_context_disclaimer",
+      message: `${entityLabel}: §2 must include the FM functional outcome context disclaimer`,
+    });
+  }
+  if (/\|\s*Phenome\s*\|\s*Connected PMs\s*\|/m.test(content)) {
+    issues.push({
+      code: "fm_phenome_rollup_table",
+      message: `${entityLabel}: FM §2 must not include PM phenome roll-up tables`,
+    });
+  }
+  if (/contributing PMs/i.test(content)) {
+    issues.push({
+      code: "fm_phenome_pm_list",
+      message: `${entityLabel}: FM §2 must not list contributing child PMs`,
     });
   }
 }

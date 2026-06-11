@@ -35,7 +35,7 @@ Each section must follow **only** the schema role for that section (Definition, 
 |---------|--------|
 | **Definition** | What this entity is in ontology terms (once per page) |
 | **Target Functional Outcome / Phenome (PM §2)** | Evidence-weighted translational mappings only — not mechanism definition |
-| **Connected Phenomes / Functional Outcomes (FM §2)** | Roll-up of child PM phenome mappings — not mechanism definition |
+| **Functional Outcome Context (FM §2)** | Concise integrative functional outcomes for the FM — not a PM roll-up graph |
 | **Functional Role** | Directional ↑/↓ summary only |
 | **Mechanistic Basis (PM)** | **Summary → primary mechanism → boundaries → integration** (see below); link PMs/KCs/citations; do not re-define the entity |
 | **Intervention Breakdown** | Single allowed value only (when in schema) |
