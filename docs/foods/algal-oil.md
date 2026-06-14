@@ -37,11 +37,22 @@ Algal oil provides **docosahexaenoic acid (DHA)** directly from microalgae, offe
 
 Within the BRAIN Diet framework, algal oil is treated as a **targeted DHA delivery vehicle** rather than a culinary fat: it helps increase DHA status in line with broader omega-3 guidance, but it does not replace whole-food sources of fibre, protein, or other micronutrients. Evidence from small trials suggests that DHA from algal-oil capsules is similarly bioavailable to DHA from cooked salmon, supporting its use as a substitute when fish is not eaten [1,2].
 
+## Key Nutritional Highlights
+
+- Concentrated vegan **DHA** source; typical supplement servings deliver far less than per-100 g table values [1].
+- **EPA** is often present at lower levels than DHA depending on product formulation [1].
+- DHA from algal-oil capsules shows similar bioavailability to DHA from cooked salmon in controlled comparisons [2].
+- Best used as a measured supplement, not a high-heat culinary oil.
+
 ## Food Context
 
 ### Synergies
 
-- Combine DHA-rich algal oil with adequate dietary choline intake so that both precursors for phosphatidylcholine synthesis are present; this supports incorporation of DHA into membrane phospholipids and lipoprotein transport.
+- Combine DHA-rich algal oil with adequate dietary choline intake so both precursors for phosphatidylcholine synthesis are present; this supports incorporation of DHA into membrane phospholipids and lipoprotein transport.
+
+### Sourcing
+
+- Select products with clearly labelled DHA (and EPA, if desired) content per serving; triglyceride-form oils are common in supplements [1].
 
 ### Preparation
 
@@ -60,7 +71,5 @@ Within the BRAIN Diet framework, algal oil is treated as a **targeted DHA delive
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
-
-1. [NIH ODS 2025 – Omega-3 Fatty Acids: Fact Sheet for Health Professionals](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
-2. [Arterburn et al. 2008 – Algal-oil capsules and cooked salmon: nutritionally equivalent sources of DHA](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008)
+- [1] Omega-3 fatty acids fact sheet — algal-oil DHA/EPA content and supplement use [NIH ODS 2025](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
+- [2] Algal-oil capsules and cooked salmon as nutritionally equivalent DHA sources [Arterburn et al. 2008](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008)

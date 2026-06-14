@@ -2,13 +2,12 @@
 id: saffron
 title: Saffron
 sidebar_label: Saffron
-description: Spice with crocin and safranal for mood and cognitive support
+description: Culinary spice rich in crocin and safranal; gentle preparation preserves colour and aroma
 tags:
   - Food
   - Saffron
   - Vegan
   - Vegetarian
-  - Saffron
   - Terpene
   - Polyphenol
 list_image: /img/foods/saffron/saffron_thumb.webp
@@ -45,23 +44,35 @@ legacy_main_image: /img/foods/saffron/saffron_medium.webp
 ---
 ## Overview
 
-Saffron provides crocin (antioxidant) and safranal (volatile compound) that support mood regulation, cognition, and ADHD symptoms at therapeutic doses (~30 mg/day). Saffron is thought to boost serotonin and have antioxidant crocin and has shown promising effects on depression, mood, cognition, and ADHD symptoms at doses around 30 mg/day of standardized extract.
+Saffron is the dried stigma of *Crocus sativus*, prized as a culinary spice for its golden colour, honeyed aroma, and distinctive flavour. Its defining phytochemistry includes **crocin** (a carotenoid pigment), **safranal** (a volatile aroma compound), and related crocus constituents that reviews link to neurotransmitter, anti-inflammatory, and antioxidant pathways [1,3].
+
+Within the BRAIN Diet framework, saffron belongs with **concentrated herbs and spices**—used in threads or pinches steeped in warm liquid or fat, not as a bulk staple or daily supplement. Clinical literature on mood, stress, and ADHD has largely tested **standardized extracts or stigma at fixed medicinal doses**; those trials inform the biology but do not map directly to recipe-level pinches [1–4]. Gentle blooming and limiting prolonged high heat help preserve volatile and pigment fractions in cooking [5].
+
+## Key Nutritional Highlights
+
+- **Crocin** and **safranal** define saffron's pigment and aroma; typical culinary pinches are far smaller than standardized extract doses used in trials [1,2].
+- USDA spice data report iron (~11 mg) and magnesium (~264 mg) per 100 g, but practical intake is pinches, not gram-scale portions.
+- Systematic review evidence synthesizes antidepressant mechanisms—including serotonin-related pathways—and clinical signals for *C. sativus* extracts in depression research [1].
+- A comparative review links crocin, crocetin, and safranal to neurotransmitter, anti-inflammatory, and neuroprotective mechanisms, with extract efficacy signals in mild-to-moderate depression; an eight-week RCT in healthy adults also reported improved subclinical mood with standardized extract [2,3].
+- Pilot ADHD trial data exist for saffron stigma at medicinal doses—not culinary pinches [4].
+- **Safranal** and crocins are heat- and temperature-sensitive; infusion medium and temperature strongly affect aroma and pigment extraction [5].
 
 ## Food Context
 
 ### Synergies
 
-- Part of spice strategy for mood and cognitive support
+- Bloom saffron in fat or warm liquid within mixed dishes (rice, stews, roast vegetables) to distribute colour and aroma evenly.
+- Use as part of a broader herb-and-spice pattern for phytochemical diversity rather than as a single targeted ingredient.
 
 ### Preparation
 
-- Bloom gently (≈50–70 °C) in warm water or fat
-- Add near end of cooking to preserve aroma and bioactive potency
-- Therapeutic doses (~30 mg/day) for clinical effects
+- Crush or steep threads in warm water, broth, or olive oil (~50–70 °C) before adding to the dish; safranal enrichment in oil is favoured at moderate temperatures (≤ ~80 °C) [5].
+- Add saffron-infused oil or liquid near the end of cooking when possible to limit prolonged high-heat exposure to volatiles [5].
+- Store in a cool, dark, dry place; crocin and safranal degrade with light, moisture, heat, and oxidation [5].
 
 ### Essential Amino Acid Profile
 
-Saffron contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+Saffron is not eaten in quantities that meaningfully contribute protein, despite high protein per 100 g in USDA spice records. Its role in this framework is flavour and bioactive spice use, not amino-acid provision.
 
 ## Recipes
 
@@ -75,6 +86,8 @@ Saffron contribute plant protein. Pair with complementary protein sources (e.g. 
 
 ## References
 
-- Saffron: ADHD symptoms, mood regulation - 30 mg/day standardized extract (stigmas)
-- Saffron is thought to boost serotonin and have antioxidant crocin and has shown promising effects on depression, mood, cognition, and ADHD symptoms at doses around 30 mg/day of standardized extract
-- The delicate oils contained in saffron such as safranal and other volatile monoterpenes, are highly sensitive to heat, light, and oxidation
+- [1] Saffron (*Crocus sativus*) for depression — systematic review of clinical studies and antidepressant mechanisms [Lopresti & Drummond 2014](/docs/papers/BRAIN-Diet-References#lopresti_saffron_2014)
+- [2] Saffron extract supplementation, mood, and psychosocial stress response in healthy adults (RCT) [Jackson et al. 2021](/docs/papers/BRAIN-Diet-References#jackson_effects_2021)
+- [3] Comparative review of saffron for depression — neurotransmitter, anti-inflammatory, and neuroprotective mechanisms [Chauhan et al. 2024](/docs/papers/BRAIN-Diet-References#chauhan_saffron_2024)
+- [4] *Crocus sativus* vs methylphenidate in children with ADHD — randomized double-blind pilot (medicinal dosing) [Baziar et al. 2019](/docs/papers/BRAIN-Diet-References#baziar_crocus_2019)
+- [5] Bioactive compound distribution by infusion temperature and time in oil/water systems — gastronomic extraction of crocin and safranal [Criado-Navarro et al. 2024](/docs/papers/BRAIN-Diet-References#criado-navarro_distribution_2024)

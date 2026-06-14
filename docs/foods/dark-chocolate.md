@@ -72,7 +72,7 @@ Within the BRAIN Diet framework, dark chocolate is best positioned as a function
 
 - Concentrated cocoa flavanols, with evidence linking high flavonoid intake to cognitive improvements [1].
 - Mechanistic endpoints in vascular biology implicate endothelial nitric-oxide related pathways as part of flavonoid-associated vascular regulation [2].
-- Fibre and iron support micronutrient density per 100 g ingredient (fibre ~10.5 g; iron ~7.9 mg), though typical portions are smaller than staple grains.
+- Fibre and iron support micronutrient density per 100 g ingredient (fibre ~10.5 g; iron ~7.9 mg).
 - Heavy-metal variability across products means sourcing and cocoa % selection matter for regular intake [3].
 
 ## Food Context

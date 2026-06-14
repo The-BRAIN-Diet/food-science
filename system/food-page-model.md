@@ -436,16 +436,17 @@ Avoid listing all nine EAAs unless in a detailed table.
 
 ## Food page section order (canonical)
 
-So that the BRAIN framework (context before data) is respected, the canonical order of sections on every food page is:
+See **`system/food-page-schema.md`** for the consolidated schema (dark-chocolate reference page). Section order:
 
-1. **Overview** – Why the food matters biologically; key bioactives.
-2. **Food Context** – Framework and practical context: sourcing, synergies, serving. Use subheadings **Sourcing**, **Synergies**, **Serving** where applicable. (Formerly "Preparation Notes"; moved up to follow Overview.)
-3. **Essential Amino Acid Profile** – When required (protein ≥5 g/100 g or commonly protein source).
-4. **Nutrition (per 100 g)** – `<NutritionTable details={frontMatter} />` (multi-panel: core macros, micronutrients, bioactives/supplementary, optional functional metrics; see `system/food-nutrition-schema.md`).
-5. **Substances** – `<FoodSubstancesFromTable details={frontMatter} />` (or `<FoodSubstances />` when not on nutrition layer).
-6. **Recipes** – `<FoodRecipes tag="…" />`.
-7. **Biological Target Matrix** – `<FoodMatrix tag="…" />`.
-8. **References** – Evidence and links.
+1. **Overview**
+2. **Key Nutritional Highlights**
+3. **Food Context** (optional `### Essential Amino Acid Profile` inside when required)
+4. **Recipes** — `<FoodRecipes />`
+5. **Nutrition** — `<NutritionTable details={frontMatter} />`
+6. **Substances** — `<FoodSubstancesFromTable details={frontMatter} />`
+7. **References**
+
+Validate canonical structure: `npm run nutrition:validate -- --canonical`
 
 ### References and the global bibliography (BibTeX)
 

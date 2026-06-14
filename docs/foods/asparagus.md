@@ -44,19 +44,28 @@ legacy_main_image: /img/foods/asparagus/asparagus_medium.webp
 ---
 ## Overview
 
-Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supporting gut microbiome and methylation pathways. Fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus.
+Asparagus provides **folate** (vitamin B9), **fructooligosaccharides** (FOS), and fibre alongside iron and potassium in a low-calorie vegetable matrix. B-vitamins including folate support one-carbon metabolism, DNA repair, and neurochemical synthesis pathways relevant to brain function [1].
+
+Within the BRAIN Diet framework, asparagus contributes folate and prebiotic-type fibres as part of diverse vegetable intake. Human prebiotic trials report measurable effects on stress-related biology and emotional processing, supporting the value of fermentable fibres within mixed dietary patterns [2,3].
+
+## Key Nutritional Highlights
+
+- **Folate** (~52 µg per 100 g raw) supports one-carbon and B-vitamin intake relevant to methylation biology [1].
+- **FOS** prebiotic fibre occurs alongside ~2.1 g total fibre per 100 g (USDA baseline) [2,3].
+- Iron (~2.1 mg per 100 g) is relatively useful for a low-calorie vegetable.
+- Very low energy density (~20 kcal per 100 g) allows generous vegetable portions.
 
 ## Food Context
 
 ### Synergies
 
-- Part of diverse prebiotic fiber strategy
+- Include with other allium-family and prebiotic-rich vegetables (onions, leeks, garlic) as part of a diverse fermentable-fibre strategy [3].
+- Pair within meals that already supply other B-vitamins (B6, B12) to support broader one-carbon and neurotransmitter pathways [1].
 
 ### Preparation
 
-- Can be consumed cooked or raw
-- Supports Bifidobacterium growth
-- Gentle cooking preserves nutrients
+- Can be consumed lightly cooked or raw; gentle cooking preserves folate relative to prolonged high-heat methods.
+- Trim woody stem bases; steam, roast, or sauté rather than boiling away water-soluble vitamins when possible.
 
 ## Recipes
 
@@ -70,5 +79,6 @@ Asparagus provides fructooligosaccharides (FOS) prebiotic fiber and folate, supp
 
 ## References
 
-- Fructooligosaccharides (FOS): Onions, garlic, leeks, asparagus
-- Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)
+- [1] B vitamins and the brain — folate, methylation, and neurochemical synthesis [Kennedy 2016](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+- [2] Prebiotic intake, cortisol response, and emotional bias in healthy volunteers [Schmidt et al. 2015](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)
+- [3] Food-derived bioactives and gut microbiota composition [Yeo 2023](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

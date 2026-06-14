@@ -46,24 +46,21 @@ Protein quality in amaranth is better interpreted as **balanced but lysine-limit
 
 ## Key Nutritional Highlights
 
-- Highest iron among BRAIN Diet grain and pseudograin pages (per 100 g).
-- Provides complex carbohydrates for meal energy and dietary pattern flexibility.
-- Typically contributes more fibre and micronutrients than refined grain products.
-- Plant-protein quality is useful but context-dependent; amino-acid complementarity can improve coverage.
-- Naturally low in saturated fat.
-- Processing and preparation methods (refining, fermentation, soaking/rinsing, cooking) influence tolerance and nutrient availability.
+- Relatively high **iron** among BRAIN Diet grains and pseudograins (~7.6 mg per 100 g; USDA flour basis) [2].
+- **Magnesium** (~233 mg), zinc, and selenium alongside fibre (~7.2 g per 100 g) [2].
+- Plant protein ~13 g per 100 g; lysine-limited like other grains [1,2].
+- Gluten-free pseudograin useful for rotating whole-grain diversity in plant-forward patterns [2].
 
 ## Food Context
 
 ### Synergies
 
-- Pair with legumes if needed
+- Pair with legumes (lentils, chickpeas) for lysine complementarity [1,2].
 
 ### Preparation
 
-- Can be used in sourdough/fermented breads for GABA
-- Rinse before cooking to remove saponins
-- Part of pseudograin diversity
+- Rinse before cooking to reduce saponins.
+- Can be used in porridge, baked goods, or fermented breads; preparation affects tolerance and mineral availability.
 
 ### Essential Amino Acid Profile
 
@@ -93,6 +90,5 @@ Grains such as amaranth are relatively higher in methionine but lysine-limited. 
 
 ## References
 
-[1] Protein quality evaluation framework (DIAAS) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-
-[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+- [1] Protein quality evaluation framework (DIAAS) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+- [2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

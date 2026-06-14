@@ -203,6 +203,17 @@ export default function FoodSubstancesFromTable({
 
   // 1) Editorial: substances from frontMatter tags (Overview / literature)
   const foodTags = details.tags
+  const foodTitle = String(details.title ?? "").trim()
+  const foodId = String(details.id ?? "").trim()
+  const foodSidebar = String(details.sidebar_label ?? foodTitle).trim()
+  const isFoodIdentityTag = (tag: string): boolean => {
+    const normalized = tag.trim()
+    return (
+      normalized === foodTitle ||
+      normalized === foodSidebar ||
+      normalized.toLowerCase() === foodId.toLowerCase()
+    )
+  }
   const foodTagLabels = Array.isArray(foodTags)
     ? (foodTags as unknown[]).map((tag: unknown) => {
         if (typeof tag === "string") return tag
@@ -212,7 +223,9 @@ export default function FoodSubstancesFromTable({
         return String(tag)
       })
     : []
-  const editorialTagLabels = foodTagLabels.filter((tag: string) => !CATEGORY_TAGS.has(tag))
+  const editorialTagLabels = foodTagLabels.filter(
+    (tag: string) => !CATEGORY_TAGS.has(tag) && !isFoodIdentityTag(tag)
+  )
   const editorialDocs = Array.from(
     new Map(
       editorialTagLabels
