@@ -35,20 +35,29 @@ legacy_main_image: /img/foods/apples/apples_medium.webp
 ---
 ## Overview
 
-Apples provide pectin (prebiotic fiber), quercetin (polyphenol), and demonstrate important food matrix effects where intact structure blunts glycemic response compared to processed forms. Apple juice induces a substantially greater postprandial insulin spike and lower satiety compared to either apple purée or the intact fruit. Preserving natural food structure (e.g., an apple vs. processed forms) blunts post-prandial glycemic excursions. Quercetin is abundant in apples, with the estimated flavonoid intake ranging from 50 to 800 mg/day, with about 75% of dietary polyphenol count being quercetin.
+Apples provide **pectin** (soluble fibre), **quercetin** and related flavonols, and **vitamin C** within an intact plant cell-wall matrix. Classic work shows that apple juice induces a substantially greater postprandial insulin response and lower satiety than either purée or the intact fruit, underscoring how food structure modulates metabolic responses [1].
+
+Within the BRAIN Diet framework, apples are best used as **whole fruit** rather than juice or heavily processed forms. Attenuated glycemic excursions from intact matrices may support more stable post-meal metabolic signalling relevant to cognitive energy availability [1,2]. Quercetin is among the most common dietary flavonols, with apples a major food source [3,4].
+
+## Key Nutritional Highlights
+
+- Intact apple structure blunts postprandial glycemic and insulin responses compared with juice [1].
+- **Pectin** soluble fibre (~3.2 g per 100 g) is embedded in a cell-wall matrix that slows nutrient release [5].
+- **Quercetin** and related flavonols make apples a major dietary polyphenol source [3,4].
+- Low energy density (~52 kcal per 100 g) suits whole-fruit snacking within mixed meals.
 
 ## Food Context
 
 ### Synergies
 
-- Pair with fat for polyphenol absorption; dietary fat enhances absorption of fat-soluble vitamins
+- Pair with dietary fat within mixed meals when polyphenol absorption is a priority; fat can enhance uptake of some flavonoid classes [4].
+- Include as one component of diverse fruit and prebiotic-fibre intake rather than relying on apples alone [6].
 
 ### Preparation
 
-- Consume whole fruit to preserve food matrix benefits and blunt glycemic response
-- Avoid juicing to maintain fiber and glycemic control; apple juice induces substantially greater postprandial insulin spike
-- Pectin supports gut microbiome diversity; prebiotic fibres including pectin (apples) support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
-- Soluble fibre (from apples, oats, flaxseeds) supports gut health and SCFA production
+- Prefer whole fresh apples to preserve food-matrix benefits and blunt glycemic response [1].
+- Avoid juicing or heavy processing that removes fibre and disrupts cell-wall structure [1,5].
+- Leave skin on when tolerated; much of the flavonol content concentrates in peel tissue [3].
 
 ## Recipes
 
@@ -62,9 +71,9 @@ Apples provide pectin (prebiotic fiber), quercetin (polyphenol), and demonstrate
 
 ## References
 
-- Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)
-- Apple juice induces a substantially greater postprandial insulin spike and lower satiety compared to either apple purée or the intact fruit
-- Preserving natural food structure (e.g., an apple vs. processed forms) blunts post-prandial glycemic excursions
-- Quercetin is abundant in capers, apples, onions, berries, kale and soybeans
-- Soluble fibre (from apples, oats, flaxseeds) supports gut health and SCFA production
-- Prebiotic fibres including pectin (apples) support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+- [1] Depletion and disruption of dietary fibre — intact apple vs purée vs juice [Haber et al. 1977](/docs/papers/BRAIN-Diet-References#haber_depletion_1977)
+- [2] Insulin, insulin resistance, and brain dopamine signalling — food-structure context for glycemic stability [Gruber et al. 2023](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
+- [3] Phenol-Explorer database — quercetin and flavonoid contents in common foods [Neveu et al. 2010](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
+- [4] Quercetin health effects from antioxidant activity to broader nutraceutical roles [Boots et al. 2008](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+- [5] Plant cell walls and nutrient bioaccessibility in plant-based foods [Holland et al. 2020](/docs/papers/BRAIN-Diet-References#holland_plant_2020)
+- [6] Food-derived bioactives, gut microbiota composition, and host signalling [Yeo 2023](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

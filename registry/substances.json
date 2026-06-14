@@ -198,17 +198,6 @@
     "inchikey": "",
     "list_image": ""
   },
-  "saffron": {
-    "path": "bioactive-compounds/terpenes/monoterpenes/saffron.md",
-    "tags": [
-      "bioactive",
-      "monoterpene",
-      "terpene"
-    ],
-    "title": "Saffron",
-    "inchikey": "",
-    "list_image": ""
-  },
   "cinnamaldehyde": {
     "path": "bioactive-compounds/terpenes/phenylpropanoids/cinnamaldehyde.md",
     "tags": [

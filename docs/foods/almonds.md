@@ -42,19 +42,27 @@ legacy_main_image: /img/foods/almonds/almonds_medium.webp
 
 Almonds are a nutrient-dense nut that contribute **vitamin E**, magnesium, fibre, and mostly unsaturated fats alongside plant protein. Their vitamin E can support wider antioxidant “network” function (working in concert with other dietary antioxidants rather than in isolation) [1].
 
-In a BRAIN-aligned pattern, almonds are most useful as a **whole-food fat-and-fibre** option (e.g., in snacks or meals) that can help displace more refined, low-satiety foods; observational nutrition literature commonly groups nuts with more favourable long-term health associations compared with several animal-protein sources [3]. As with most nuts and seeds, almond protein is typically **lysine-limited**, so pairing with legumes or grains can improve essential amino-acid coverage across the day [2].
+Within a BRAIN-aligned pattern, almonds work best as a **whole-food fat-and-fibre** option that can displace more refined, low-satiety snacks; observational literature often groups nuts with favourable long-term health associations compared with several animal-protein sources [3]. Almond protein is typically **lysine-limited**, so pairing with legumes or grains improves essential amino-acid coverage across the day [2].
+
+## Key Nutritional Highlights
+
+- **Vitamin E** supports wider antioxidant-network function alongside other dietary antioxidants [1].
+- Plant protein ~23 g per 100 g; lysine is typically limiting for nuts and seeds [2].
+- Fibre (~10 g) and calcium (~333 mg) per 100 g support micronutrient density on a weight basis (USDA baseline).
+- Mostly unsaturated fats make almonds a practical whole-food fat source within mixed meals [3].
+- Magnesium, phosphorus, and manganese accompany the fat-and-protein matrix (see nutrition table).
 
 ## Food Context
 
 ### Synergies
 
-- Soak to reduce phytates and improve mineral bioavailability; soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability
-- Pair with legumes for complete amino acid profile; pair with soy or legumes for amino acid complementarity
-- Part of diverse nut/seed intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
+- Soak or sprout to reduce phytates and improve mineral bioavailability.
+- Pair with legumes or grains for essential amino-acid complementarity [2].
 
 ### Preparation
 
-- Supports antioxidant networks; vitamin E works within antioxidant networks with vitamin C, CoQ10, and polyphenols, with these compounds regenerating each other in vivo
+- Prefer plain whole or slivered almonds over heavily salted or sugar-coated products.
+- Vitamin E acts within broader antioxidant networks with vitamin C, CoQ10, and polyphenols [1].
 
 ### Essential Amino Acid Profile
 
@@ -76,8 +84,6 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-[1] Vitamin E antioxidant network and interactions [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
-
-[2] Plant protein adequacy and typical limiting amino acids in vegetarian patterns [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
-
-[3] Protein source patterns (including nuts) and long-term health outcomes (cohort evidence) [Sun et al. 2019](/docs/papers/BRAIN-Diet-References#sun_association_2019)
+- [1] Vitamin E antioxidant network and interactions [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+- [2] Plant protein adequacy and typical limiting amino acids in vegetarian patterns [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+- [3] Protein source patterns (including nuts) and long-term health outcomes (cohort evidence) [Sun et al. 2019](/docs/papers/BRAIN-Diet-References#sun_association_2019)
