@@ -37,7 +37,6 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
-complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/saffron/saffron_medium.webp
 legacy_list_image: /img/foods/saffron/saffron_thumb.webp
 legacy_main_image: /img/foods/saffron/saffron_medium.webp
@@ -69,10 +68,6 @@ Within the BRAIN Diet framework, saffron belongs with **concentrated herbs and s
 - Crush or steep threads in warm water, broth, or olive oil (~50–70 °C) before adding to the dish; safranal enrichment in oil is favoured at moderate temperatures (≤ ~80 °C) [5].
 - Add saffron-infused oil or liquid near the end of cooking when possible to limit prolonged high-heat exposure to volatiles [5].
 - Store in a cool, dark, dry place; crocin and safranal degrade with light, moisture, heat, and oxidation [5].
-
-### Essential Amino Acid Profile
-
-Saffron is not eaten in quantities that meaningfully contribute protein, despite high protein per 100 g in USDA spice records. Its role in this framework is flavour and bioactive spice use, not amino-acid provision.
 
 ## Recipes
 

@@ -1,5 +1,7 @@
 # BRS-X Schema
 
+Citation and reference format: **`system/brs-citation-reference-standard.md`**.
+
 ## Definition
 
 **BRS-X** systems are cross-system biological regulatory networks that operate across multiple Biological Regulatory Systems (BRS1–BRS6) simultaneously and cannot be cleanly owned by a single BRS domain.

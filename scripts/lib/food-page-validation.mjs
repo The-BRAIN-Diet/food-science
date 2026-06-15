@@ -17,6 +17,9 @@ export const PROTEIN_SOURCE_SLUGS = new Set([
   "chia-seeds", "flax-seeds", "sunflower-seeds", "whey-protein", "nutritional-yeast",
 ])
 
+/** Spices/herbs: USDA protein per 100 g is not meaningful for typical pinches. */
+export const EAA_EXCLUDE_SLUGS = new Set(["saffron"])
+
 export const DOWNSTREAM_METABOLITE_TAGS = new Set([
   "SCFAs", "Butyrate", "Propionate", "Acetate", "Short-chain fatty acids",
   "Short-Chain Fatty Acids (SCFAs)",
@@ -45,6 +48,7 @@ export function getFoodSlugs(foodsDir) {
 }
 
 export function requiresEaaSection(slug, nutrition) {
+  if (EAA_EXCLUDE_SLUGS.has(slug)) return false
   const protein = nutrition?.protein_g
   if (typeof protein === "number" && protein >= PROTEIN_THRESHOLD_G) return true
   return PROTEIN_SOURCE_SLUGS.has(slug)

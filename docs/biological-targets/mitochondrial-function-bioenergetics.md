@@ -80,6 +80,7 @@ Functional control of ATP production via mitochondrial respiration, ETC efficien
 
 - [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function)
 - [BRS4-FM1-PM2 — NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism)
+- [BRS4-FM1-PM3 — Creatine / Phosphocreatine Buffer](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer)
 
 ### [BRS4(FM2) — Mitochondrial Resilience & Redox Stability](/docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability)
 
@@ -87,8 +88,8 @@ Functional control of mitochondrial membrane integrity, oxidative stability, and
 
 **Mechanisms:**
 
-- [BRS4-FM2-PM3 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm3-ros-production-and-control)
-- [BRS4-FM2-PM4 — Mitochondrial Protection (Redox Integrity)](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-mitochondrial-protection-redox-integrity)
+- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control)
+- [BRS4-FM2-PM5 — Mitochondrial Protection (Redox Integrity)](/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity)
 
 ### [BRS4(FM3) — Substrate Utilisation Flexibility](/docs/biological-targets/brs4/fm3/brs4-fm3-substrate-utilisation-flexibility)
 
@@ -96,23 +97,16 @@ Functional control of mitochondrial capacity to use fatty acids and mixed substr
 
 **Mechanisms:**
 
-- [BRS4-FM3-PM5 — Carnitine-Mediated Fat Transport](/docs/biological-targets/brs4/fm3/brs4-fm3-pm5-carnitine-mediated-fat-transport)
+- [BRS4-FM3-PM6 — Carnitine-Mediated Fat Transport](/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport)
+- [BRS4-FM3-PM7 — Ketone Utilisation Capacity](/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity)
 
-### [BRS4(FM4) — Rapid Energy Buffering & High-Demand Support](/docs/biological-targets/brs4/fm4/brs4-fm4-rapid-energy-buffering-and-high-demand-support)
-
-Functional control of rapid ATP buffering and short-term energetic reserve under high cognitive or cellular demand.
-
-**Mechanisms:**
-
-- [BRS4-FM4-PM6 — Creatine / Phosphocreatine Buffer](/docs/biological-targets/brs4/fm4/brs4-fm4-pm6-creatine-phosphocreatine-buffer)
-
-### [BRS4(FM5) — Mitochondrial Capacity Expansion & Adaptation](/docs/biological-targets/brs4/fm5/brs4-fm5-mitochondrial-capacity-expansion-and-adaptation)
+### [BRS4(FM4) — Mitochondrial Capacity Expansion & Adaptation](/docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation)
 
 Functional control of mitochondrial density and long-term energetic capacity, primarily driven by exercise and physiological stress signals, with diet providing permissive support.
 
 **Mechanisms:**
 
-- [BRS4-FM5-PM7 — Mitochondrial Biogenesis](/docs/biological-targets/brs4/fm5/brs4-fm5-pm7-mitochondrial-biogenesis)
+- [BRS4-FM4-PM8 — Mitochondrial Biogenesis](/docs/biological-targets/brs4/fm4/brs4-fm4-pm8-mitochondrial-biogenesis)
 
 ---
 

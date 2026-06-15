@@ -6,6 +6,8 @@
     "brs:audit": "node scripts/brs-audit.mjs",
     "brs:repair": "node scripts/brs-repair.mjs",
     "mechanisms:validate": "node scripts/validate-mechanism-pages.mjs",
+    "mechanisms:migrate-citations": "node scripts/migrate-brs-citations.mjs",
+    "references:fix-generic-labels": "node scripts/fix-generic-reference-labels.mjs",
     "phenome:index": "node scripts/generate-phenome-relationship-index.mjs",
     "bib:validate": "node scripts/validate-bib-citation-keys.mjs",
     "mechanisms:generate-pm-basis": "node scripts/generate-pm-mechanistic-basis.mjs",

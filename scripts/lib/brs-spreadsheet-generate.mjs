@@ -207,30 +207,18 @@ function mechanisticBasisFm(fm, pms, kcs, brsNum, slugById) {
       return `- [${p.id} — ${p.name}](${href})\n  Contributes to ${fm.name || fm.id}.`;
     })
     .join("\n\n");
-  const kcBullets = kcs.length
-    ? kcs
-        .map((k) => {
-          const href = `/docs/biological-targets/brs${brsNum}/kc/${slugById.get(k.id)}`;
-          return `- [${k.id} — ${k.name || k.id}](${href})\n  Constrains shared pool availability for constituent PMs.`;
-        })
-        .join("\n\n")
-    : "- None listed";
-  const synthesis = `${fm.description}\n\nTogether, these PMs and supporting pools operationalise ${fm.id} as an integrated functional state.${fm.outputs ? ` Emergent functional consequence: ${fm.outputs.replace(/;/g, "; ")}.` : ""}`;
-  return `${fm.description || `${fm.name} emerges from coordinated PM and KC context.`}
+  const synthesis = `${fm.description}\n\nTogether, these PMs operationalise ${fm.id} as an integrated functional state.${fm.outputs ? ` Emergent functional consequence: ${fm.outputs.replace(/;/g, "; ")}.` : ""}`;
+  return `${fm.description || `${fm.name} emerges from coordinated PM context.`}
 
 ### 4.1 Core Primary Mechanisms
 
 ${pmBullets}
 
-### 4.2 Supporting Biological Pools (Key Constraints)
-
-${kcBullets}
-
-### 4.3 Integrated Functional Narrative
+### 4.2 Integrated Functional Narrative
 
 ${synthesis}
 
-### 4.4 Functional Failure Modes
+### 4.3 Functional Failure Modes
 
 Functional failure may arise when linked biological pools are chronically depleted or strained; see linked KC pages for pool definitions and FM-specific failure narrative.`;
 }
@@ -478,9 +466,11 @@ ${refBlock}
 
 ${definition}
 
-## 2. Intervention Breakdown
+## 2. Functional Outcome Context
 
-${DOMINANCE_TO_BREAKDOWN[dominance] || "Food-State Dominant"}
+These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Confidence may increase where multiple child PMs converge on the same functional outcome.
+
+No functional outcome context currently mapped.
 
 ## 3. Functional Role
 

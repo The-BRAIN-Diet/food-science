@@ -1,5 +1,7 @@
 # Mechanism Page — Section Body Prose
 
+Citation and reference format: **`system/brs-citation-reference-standard.md`**.
+
 ## Build Gate Proviso
 
 - Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
@@ -38,7 +40,7 @@ Each section must follow **only** the schema role for that section (Definition, 
 | **Functional Outcome Context (FM §2)** | Concise integrative functional outcomes for the FM — not a PM roll-up graph |
 | **Functional Role** | Directional ↑/↓ summary only |
 | **Mechanistic Basis (PM)** | **Summary → primary mechanism → boundaries → integration** (see below); link PMs/KCs/citations; do not re-define the entity |
-| **Intervention Breakdown** | Single allowed value only (when in schema) |
+| **Intervention Summary (PM §3)** | Intervention Profile + lever tiers with evidence tags — not mechanism definition |
 | **Dietary / Lifestyle Levers** | Levers and patterns — not a repeat of Definition |
 | **§5.5 Connected Mechanisms** | Cross-domain placement prose + PM links — not a second Definition |
 
@@ -64,14 +66,14 @@ Each section must follow **only** the schema role for that section (Definition, 
 
 ## PM §4 — Citations (keep when simplifying)
 
-**Do not remove citations** to shorten §4. The canonical structure trades review-paper length for clarity, not for weaker evidence.
+**Do not remove citations** to shorten §4. Follow **`system/brs-citation-reference-standard.md`**.
 
-- **Format:** `[Author (Year)](/docs/papers/BRAIN-Diet-References#citation_key) [n]` in the sentence that makes the claim; `[n]` must match **§9 References** (extended PM) or **§7** (compact PM).
-- **Primary mechanism blocks:** cite pathway, meal-composition, and substrate claims that come from `key_studies` / the PM reference list.
+- **Format:** `[Author et al., Year]` in the sentence that makes the claim.
+- **Primary mechanism blocks:** cite pathway, meal-composition, and substrate claims from `key_studies` / the PM reference list.
 - **Summary:** implication-first; citations optional unless one study anchors the whole implication.
-- **Rewrites:** if a cited claim stays, the citation stays; if a claim is new and evidence-backed, add the citation and References entry.
+- **Rewrites:** if a cited claim stays, the citation stays; if a claim is new and evidence-backed, add the citation and References entry (`Author et al. (Year) — Topic` with bibliography link).
 
-Example placement: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — Mariotti [2] in protein quality; Fernstrom [1] at the PM2 boundary.
+Example placement: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — Mariotti in protein quality; Fernstrom at the PM2 boundary.
 
 **§4 UX:** `### Summary` stays **outside** `<details>`; the four-part `####` narrative goes **inside** one `<details>` block. `### 4.1 Evidence Highlights` follows the dropdown as a subsection of `## 4.`, not inside it.
 
@@ -83,7 +85,7 @@ Example placement: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1
 |----|--------|
 | Explain why a finding matters for this PM | Restating §4 mechanism biology |
 | Prefer landmark trials, meta-analyses, human relevance, synergy/limitation insights | Exhaustive or redundant paper summaries |
-| Insight-first bullets with linked `[Author (Year)](/docs/papers/BRAIN-Diet-References#key) [n]` | Methods-heavy study recaps |
+| Insight-first bullets with `[Author et al., Year]` | Methods-heavy study recaps |
 | Reuse bibliography entries; add BibTeX only when needed | Plain-text or unlinked “see study X” bullets |
 
 **Core principle:** §4 = how the mechanism works. §4.1 = how we know (findings that change interpretation).

@@ -21,11 +21,7 @@ Membrane composition, fluidity & structural lipid integrity emerges from the coo
 - [BRS1-FM4-PM5 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm5-neuronal-membrane-dha-incorporation)
   Brain DHA accretion and incorporation into neuronal membrane phospholipids, supporting membrane fluidity and the structural lipid environment within which neural signalling occurs.
 
-### 4.2 Supporting Biological Pools (Key Constraints)
-
-- None listed
-
-### 4.3 Integrated Functional Narrative
+### 4.2 Integrated Functional Narrative
 
 Together, the core primary mechanisms (Neuronal Membrane DHA Incorporation) operationalise BRS1(FM4) as an integrated functional state.
 
@@ -42,18 +38,10 @@ Cellular bioenergetics emerges from the coordinated interaction of several prima
 - [BRS4-FM1-PM2 — NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism)
   Maintains redox-carrier availability required for mitochondrial energy production and metabolic flux.
 
-- [BRS4-FM4-PM6 — Creatine / Phosphocreatine Buffer](/docs/biological-targets/brs4/fm4/brs4-fm4-pm6-creatine-phosphocreatine-buffer)
+- [BRS4-FM1-PM3 — Creatine / Phosphocreatine Buffer](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer)
   Provides rapid ATP buffering during periods of fluctuating or high energy demand.
 
-### 4.2 Supporting Biological Pools (Key Constraints)
-
-- [BRS4(KC1) — Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability)
-  Supplies the glucose, fatty acids, and amino-acid-derived substrates required to fuel mitochondrial ATP production.
-
-- [BRS4(KC2) — Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency)
-  Maintains the micronutrient context required for mitochondrial enzymes, electron carriers, and ATP-generating pathways.
-
-### 4.3 Integrated Functional Narrative
+### 4.2 Integrated Functional Narrative
 
 Together, these mechanisms enable ATP production, ATP buffering, and redox regulation to operate as a coordinated energy-delivery system. Cellular bioenergetic performance therefore depends not only on the effectiveness of individual PMs, but also on whether sufficient fuel substrates and mitochondrial cofactor context are available to support mitochondrial energy metabolism.
 
@@ -174,11 +162,7 @@ ${fmOpeningLine(fmData)}
 
 ${buildPmBullets(rootDir, pms)}
 
-### 4.2 Supporting Biological Pools (Key Constraints)
-
-${buildKcBullets(rootDir, kcs)}
-
-### 4.3 Integrated Functional Narrative
+### 4.2 Integrated Functional Narrative
 
 ${defaultIntegratedNarrative(fmData, pms, kcs, legacy)}`.trim();
 
