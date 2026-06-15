@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "version": 1,
+    "description": "Canonical Phenome Registry — stable functional targets above mechanisms, below condition profiles."
+  },
+  "reviewFlags": [
+    {
+      "id": "RF001",
+      "type": "near_duplicate",
+      "phenomeIds": ["PH012", "PH013"],
+      "labels": [
+        "Energy Stability Under Variable Conditions",
+        "Energy Stability Under Variable Fuel Conditions"
+      ],
+      "note": "Near-duplicate energy/fuel stability labels — consider merging under one canonical phenome after manual review."
+    },
+    {
+      "id": "RF002",
+      "type": "related_distinct",
+      "phenomeIds": ["PH006", "PH015"],
+      "labels": ["Stress Resilience", "Stress Reactivity"],
+      "note": "Stress Resilience (adaptive capacity) vs Stress Reactivity (response intensity) — related but not identical; do not merge automatically."
+    },
+    {
+      "id": "RF003",
+      "type": "related_distinct",
+      "phenomeIds": ["PH002", "PH010"],
+      "labels": ["Motivation / Drive", "Behavioural Activation"],
+      "note": "Motivation/Drive vs Behavioural Activation — related; remain separate unless manually merged."
+    }
+  ],
+  "phenomes": [
+    {
+      "id": "PH001",
+      "name": "Focus / Attention Stability",
+      "slug": "focus-attention-stability",
+      "description": "Capacity to sustain, shift, and regulate attention across changing cognitive demands.",
+      "publicSummary": "How steadily a person can hold, shift, and return attention when tasks or distractions change.",
+      "primaryDomains": ["attention", "cognition"],
+      "status": "active"
+    },
+    {
+      "id": "PH002",
+      "name": "Motivation / Drive",
+      "slug": "motivation-drive",
+      "description": "Capacity to initiate effort, pursue goals, and maintain goal-directed behaviour.",
+      "publicSummary": "How readily a person starts effort, pursues goals, and stays engaged with what matters to them.",
+      "primaryDomains": ["motivation", "behaviour"],
+      "status": "active"
+    },
+    {
+      "id": "PH003",
+      "name": "Emotional Regulation",
+      "slug": "emotional-regulation",
+      "description": "Capacity to modulate emotional responses and maintain affective stability.",
+      "publicSummary": "How well emotional responses can be modulated so mood and reactivity stay within a workable range.",
+      "primaryDomains": ["emotion", "affect"],
+      "status": "active"
+    },
+    {
+      "id": "PH004",
+      "name": "Cognitive Energy Stability",
+      "slug": "cognitive-energy-stability",
+      "description": "Capacity to maintain mental energy and avoid cognitive energy crashes across the day.",
+      "publicSummary": "How evenly mental energy holds up through the day without sharp crashes or fog.",
+      "primaryDomains": ["energy", "cognition"],
+      "status": "active"
+    },
+    {
+      "id": "PH005",
+      "name": "Recovery Capacity",
+      "slug": "recovery-capacity",
+      "description": "Capacity to restore function after cognitive, emotional, metabolic, or physical load.",
+      "publicSummary": "How effectively function returns after sustained cognitive, emotional, metabolic, or physical demand.",
+      "primaryDomains": ["recovery", "resilience"],
+      "status": "active"
+    },
+    {
+      "id": "PH006",
+      "name": "Stress Resilience",
+      "slug": "stress-resilience",
+      "description": "Capacity to buffer, adapt to, and recover from stress exposure.",
+      "publicSummary": "How well the system buffers stress, adapts under pressure, and returns toward baseline afterward.",
+      "primaryDomains": ["stress", "resilience"],
+      "status": "active"
+    },
+    {
+      "id": "PH007",
+      "name": "Metabolic Resilience",
+      "slug": "metabolic-resilience",
+      "description": "Capacity to maintain function under changing metabolic, energetic, or physiological demand.",
+      "publicSummary": "How well the body and brain maintain stable function when energy demand, fuel availability, or metabolic conditions change.",
+      "primaryDomains": ["energy", "resilience", "metabolism"],
+      "status": "active"
+    },
+    {
+      "id": "PH008",
+      "name": "Sleep / Calming Tone",
+      "slug": "sleep-calming-tone",
+      "description": "Capacity to downshift arousal and support sleep-compatible physiological regulation.",
+      "publicSummary": "How readily arousal can downshift toward calmer, sleep-compatible physiological states.",
+      "primaryDomains": ["sleep", "arousal"],
+      "status": "active"
+    },
+    {
+      "id": "PH009",
+      "name": "Reward Regulation",
+      "slug": "reward-regulation",
+      "description": "Capacity to regulate reward sensitivity, reinforcement learning, and reward-seeking behaviour.",
+      "publicSummary": "How reward sensitivity, reinforcement learning, and reward-seeking behaviour are regulated over time.",
+      "primaryDomains": ["reward", "behaviour"],
+      "status": "active"
+    },
+    {
+      "id": "PH010",
+      "name": "Behavioural Activation",
+      "slug": "behavioural-activation",
+      "description": "Capacity to translate motivation into action, task initiation, and sustained behavioural engagement.",
+      "publicSummary": "How effectively motivation converts into starting tasks and sustaining behavioural engagement.",
+      "primaryDomains": ["behaviour", "motivation"],
+      "status": "active"
+    },
+    {
+      "id": "PH011",
+      "name": "Cognitive Clarity",
+      "slug": "cognitive-clarity",
+      "description": "Capacity to maintain clear, organised mental processing without excessive fog or confusion.",
+      "publicSummary": "How clear and organised thinking feels — distinct from attention stability or raw mental energy.",
+      "primaryDomains": ["cognition"],
+      "status": "active"
+    },
+    {
+      "id": "PH012",
+      "name": "Energy Stability Under Variable Conditions",
+      "slug": "energy-stability-under-variable-conditions",
+      "description": "Capacity to maintain energy output when nutritional, physiological, or environmental conditions change.",
+      "publicSummary": "How steadily energy production holds when conditions around nutrition, physiology, or demand shift.",
+      "primaryDomains": ["energy", "metabolism"],
+      "status": "active"
+    },
+    {
+      "id": "PH013",
+      "name": "Energy Stability Under Variable Fuel Conditions",
+      "slug": "energy-stability-under-variable-fuel-conditions",
+      "description": "Capacity to maintain ATP-linked energy supply when available fuel substrates or macronutrient context change.",
+      "publicSummary": "How well energy supply holds when glucose, fat, ketone, or mixed fuel availability changes.",
+      "primaryDomains": ["energy", "metabolism", "fuel"],
+      "status": "active"
+    },
+    {
+      "id": "PH014",
+      "name": "Hormonal Volatility",
+      "slug": "hormonal-volatility",
+      "description": "Stability of hormone-linked signalling patterns that influence mood, cognition, and physiological regulation.",
+      "publicSummary": "How stable hormone-linked signalling feels over time — as distinct from a single hormone mechanism.",
+      "primaryDomains": ["hormones", "endocrine"],
+      "status": "active"
+    },
+    {
+      "id": "PH015",
+      "name": "Stress Reactivity",
+      "slug": "stress-reactivity",
+      "description": "Intensity and pattern of physiological and affective responses to stressors.",
+      "publicSummary": "How strongly and quickly the system reacts to stress — distinct from longer-term stress resilience.",
+      "primaryDomains": ["stress", "reactivity"],
+      "status": "active"
+    }
+  ]
+}

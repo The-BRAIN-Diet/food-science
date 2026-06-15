@@ -170,7 +170,7 @@ Use **one header row**. Column order below is recommended for ChatGPT workbooks.
 
 ### Phenome relationships (PM rows)
 
-See `system/phenome-relationship-schema.md`. Add `phenome_relationships` JSON column on PM tabs. FM `functional_outcome_context` is hand-authored integrative synthesis (not a child PM roll-up).
+See `system/phenome-relationship-schema.md`. Add `phenome_relationships` JSON column on PM tabs. FM `functional_outcome_context` is hand-authored integrative synthesis (not a child PM roll-up). **Single-PM FM (1:1):** when an FM has one child PM, FM outcome names and confidence must match that PM.
 
 ### Page-generation extensions (PM only)
 

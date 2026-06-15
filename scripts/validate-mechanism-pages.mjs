@@ -14,6 +14,7 @@ import path from "node:path";
 import { auditAllPmPages, auditAllSmPages } from "./lib/pm-mechanistic-basis.mjs";
 import { validateAllMechanismPages } from "./lib/mechanism-page-validation.mjs";
 import { validatePhenomeRelationshipIndexFresh } from "./lib/phenome-relationship-index.mjs";
+import { validatePhenomeRegistry } from "./lib/phenome-registry.mjs";
 
 const skipCue = process.argv.includes("--skip-cue");
 
@@ -130,6 +131,21 @@ function main() {
   const phenomeIndex = validatePhenomeRelationshipIndexFresh();
   if (phenomeIndex.ok) {
     console.log("  Phenome relationship index: fresh");
+    const registryCheck = validatePhenomeRegistry();
+    if (registryCheck.ok) {
+      console.log(
+        `  Phenome registry mapping: passed (${registryCheck.diagnostics.mappedEdgeCount}/${registryCheck.diagnostics.relationshipEdgeCount} edges)`,
+      );
+    } else {
+      failed = true;
+      console.log("  Phenome registry mapping: FAILED");
+      for (const issue of registryCheck.issues) {
+        console.log(`    - [${issue.code}] ${issue.message}`);
+      }
+    }
+    for (const w of registryCheck.warnings || []) {
+      console.log(`    WARN [${w.code}] ${w.message}`);
+    }
   } else {
     failed = true;
     console.log(`  Phenome relationship index: FAILED — ${phenomeIndex.message}`);

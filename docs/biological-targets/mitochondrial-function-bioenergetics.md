@@ -31,6 +31,8 @@ Nutrient-dense animal foods such as seafood, eggs, fermented dairy, occasional o
 
 Creatine supports ATP recycling in neurons and enhances working memory and cognitive processing speed. It is found in beef, lamb, pork, salmon, tuna, cod, and scallops; vegan diets lack meaningful dietary creatine unless supplemented.
 
+Carnitine enables transport of long-chain fatty acids into mitochondria for β-oxidation, supporting substrate flexibility when glucose availability or metabolic demand shifts. This transport step is represented in the framework by [BRS4-FM3-PM6 — Carnitine-Mediated Fat Transport](/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport). In children with ADHD, carnitine supplementation has been reported to improve behavioural and functional outcomes in a controlled trial—one of the few direct ADHD intervention links at the mitochondrial substrate-transport layer.
+
 Coenzyme Q10 (CoQ10) supports mitochondrial electron transport and neuronal antioxidant protection. It is found in organ meats, oily fish, beef, and smaller amounts in spinach, broccoli, pistachios, and olive oil.
 
 The BRAIN Diet emphasises foods for specific bioactive potential—for example early-harvest extra virgin olive oil with higher CoQ10, oleuropein, and polyphenols.
@@ -51,6 +53,8 @@ Elevated glutathione levels recorded in some ADHD cohorts may reflect a compensa
 
 Butyrate may support mitochondrial function and brain energy metabolism in ways relevant to cognitive impairments reported in ADHD, while also contributing to lower neuroinflammatory load.
 
+Carnitine-mediated mitochondrial fat transport may be relevant where ADHD is accompanied by impaired substrate switching or carnitine insufficiency; human intervention evidence in children with ADHD supports further investigation of this bioenergetic pathway rather than routine supplementation without clinical context.
+
 ## References
 
 - Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder share overlapping biological dysfunctions, including mitochondrial impairment [Tardy et al. 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
@@ -63,6 +67,9 @@ Butyrate may support mitochondrial function and brain energy metabolism in ways 
 - Mitochondrial metabolism of lactate depends on GSH for ROS neutralization, optimizing mitochondrial energy use [Verlaet et al. 2019](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
 - Coenzyme Q10 (CoQ10) supports mitochondrial electron transport and provides antioxidant protection for neurons [Crane (2001)](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
 - Creatine supports ATP recycling in neurons and enhances working memory and cognitive processing speed [Avgerinos et al. (2018)](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
+- Carnitine supplementation improved behavioural and functional outcomes in children with ADHD in a controlled trial, supporting a link between mitochondrial fatty-acid transport capacity and neurodevelopmental energetics [van Oudheusden and Scholte (2002)](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002)
+
+> **Note — Van Oudheusden & Scholte (2002):** Van Oudheusden, L. & Scholte, H. 2002, 'Efficacy of carnitine in the treatment of children with attention-deficit hyperactivity disorder', *Prostaglandins, Leukotrienes and Essential Fatty Acids*, vol. 67, no. 1, pp. 33–38. [https://doi.org/10.1054/plef.2002.0378](https://doi.org/10.1054/plef.2002.0378)
 
 </details>
 
@@ -93,12 +100,13 @@ Functional control of mitochondrial membrane integrity, oxidative stability, and
 
 ### [BRS4(FM3) — Substrate Utilisation Flexibility](/docs/biological-targets/brs4/fm3/brs4-fm3-substrate-utilisation-flexibility)
 
-Functional control of mitochondrial capacity to use fatty acids and mixed substrates efficiently under changing metabolic demand.
+Functional control of mitochondrial capacity to transition between glucose, fatty acids, ketones, and mixed substrates efficiently under changing metabolic demand.
 
 **Mechanisms:**
 
 - [BRS4-FM3-PM6 — Carnitine-Mediated Fat Transport](/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport)
 - [BRS4-FM3-PM7 — Ketone Utilisation Capacity](/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity)
+- [BRS4-FM3-PM8 — Metabolic Fuel Switching](/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching)
 
 ### [BRS4(FM4) — Mitochondrial Capacity Expansion & Adaptation](/docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation)
 
@@ -106,7 +114,7 @@ Functional control of mitochondrial density and long-term energetic capacity, pr
 
 **Mechanisms:**
 
-- [BRS4-FM4-PM8 — Mitochondrial Biogenesis](/docs/biological-targets/brs4/fm4/brs4-fm4-pm8-mitochondrial-biogenesis)
+- [BRS4-FM4-PM9 — Mitochondrial Biogenesis](/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis)
 
 ---
 

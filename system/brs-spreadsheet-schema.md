@@ -276,7 +276,7 @@ Optional translational mappings — see `system/phenome-relationship-schema.md`.
 | `phenome_evidence_level` | `mechanistic` \| `observational` \| `intervention` \| `clinical` |
 | `phenome_rationale` | Translational rationale (not a mechanism definition) |
 
-FM rows: `functional_outcome_context` is **hand-authored** integrative synthesis (2–4 outcomes). Do not auto-generate FM outcome context from child PM phenome rows.
+FM rows: `functional_outcome_context` is **hand-authored** integrative synthesis (2–4 outcomes). Do not auto-generate FM outcome context from child PM phenome rows. **Single-PM FM (1:1):** when an FM has one child PM, FM outcome names and confidence must match that PM — see `system/phenome-relationship-schema.md`.
 
 ## Column P - FM Ownership
 

@@ -1,11 +1,66 @@
 {
   "meta": {
-    "version": 1,
-    "generatedAt": "2026-06-15T13:54:19.056Z",
+    "version": 2,
+    "generatedAt": "2026-06-15T18:27:52.913Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
-    "pmPageCount": 60,
-    "pmPagesWithMappings": 13,
-    "relationshipCount": 36
+    "registrySource": "src/data/phenome-registry.json",
+    "registryVersion": 1,
+    "pmPageCount": 61,
+    "pmPagesWithMappings": 18,
+    "relationshipCount": 47,
+    "mappedRelationshipCount": 47
+  },
+  "diagnostics": {
+    "registryPhenomeCount": 15,
+    "relationshipEdgeCount": 47,
+    "mappedEdgeCount": 47,
+    "unmappedPhenomeLabels": [],
+    "labelsInEdgesNotInRegistry": [],
+    "edgesMissingTargetPhenome": 0,
+    "edgesWithNullPhenomeId": [],
+    "duplicateRegistryNames": [],
+    "orphanRegistryPhenomes": [],
+    "reviewFlags": [
+      {
+        "id": "RF001",
+        "type": "near_duplicate",
+        "phenomeIds": [
+          "PH012",
+          "PH013"
+        ],
+        "labels": [
+          "Energy Stability Under Variable Conditions",
+          "Energy Stability Under Variable Fuel Conditions"
+        ],
+        "note": "Near-duplicate energy/fuel stability labels — consider merging under one canonical phenome after manual review."
+      },
+      {
+        "id": "RF002",
+        "type": "related_distinct",
+        "phenomeIds": [
+          "PH006",
+          "PH015"
+        ],
+        "labels": [
+          "Stress Resilience",
+          "Stress Reactivity"
+        ],
+        "note": "Stress Resilience (adaptive capacity) vs Stress Reactivity (response intensity) — related but not identical; do not merge automatically."
+      },
+      {
+        "id": "RF003",
+        "type": "related_distinct",
+        "phenomeIds": [
+          "PH002",
+          "PH010"
+        ],
+        "labels": [
+          "Motivation / Drive",
+          "Behavioural Activation"
+        ],
+        "note": "Motivation/Drive vs Behavioural Activation — related; remain separate unless manually merged."
+      }
+    ]
   },
   "relationships": [
     {
@@ -26,7 +81,8 @@
           "citationKey": "covey_endocannabinoid_2017",
           "href": "/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH010"
     },
     {
       "sourceNode": "BRS-X(ECS-PM2)",
@@ -46,7 +102,8 @@
           "citationKey": "watson_emerging_2019",
           "href": "/docs/papers/BRAIN-Diet-References#watson_emerging_2019"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH011"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM1)",
@@ -90,7 +147,8 @@
           "citationKey": "dejong_female_specific_adhd_treatment_2024",
           "href": "/docs/papers/BRAIN-Diet-References#dejong_female_specific_adhd_treatment_2024"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH011"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM2)",
@@ -122,7 +180,8 @@
           "citationKey": "ervin_estrobolome_beta_glucuronidase_2019",
           "href": "/docs/papers/BRAIN-Diet-References#ervin_estrobolome_beta_glucuronidase_2019"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH011"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM4)",
@@ -148,7 +207,8 @@
           "citationKey": "depaoli_estrogen_insulin_resistance_2021",
           "href": "/docs/papers/BRAIN-Diet-References#depaoli_estrogen_insulin_resistance_2021"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH004"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM5)",
@@ -174,7 +234,8 @@
           "citationKey": "hackett_symptomatic_benefits_testosterone_treatment_2023",
           "href": "/docs/papers/BRAIN-Diet-References#hackett_symptomatic_benefits_testosterone_treatment_2023"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH004"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM6)",
@@ -194,7 +255,8 @@
           "citationKey": "leao_in_vitro_female_gut_microbiome_sex_hormones_2025",
           "href": "/docs/papers/BRAIN-Diet-References#leao_in_vitro_female_gut_microbiome_sex_hormones_2025"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH004"
     },
     {
       "sourceNode": "BRS4-FM1-PM2",
@@ -220,7 +282,8 @@
           "citationKey": "tardy_vitamins_2020",
           "href": "/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH004"
     },
     {
       "sourceNode": "BRS-X(ECS-PM1)",
@@ -240,7 +303,8 @@
           "citationKey": "garani_endocannabinoid_2021",
           "href": "/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH003"
     },
     {
       "sourceNode": "BRS-X(ECS-PM2)",
@@ -260,7 +324,8 @@
           "citationKey": "watson_emerging_2019",
           "href": "/docs/papers/BRAIN-Diet-References#watson_emerging_2019"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH003"
     },
     {
       "sourceNode": "BRS-X(ECS-PM3)",
@@ -280,7 +345,8 @@
           "citationKey": "solinas_anandamide_2006",
           "href": "/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH003"
     },
     {
       "sourceNode": "BRS-X(ECS-PM5)",
@@ -306,7 +372,8 @@
           "citationKey": "micale_endocannabinoid_mood_2013",
           "href": "/docs/papers/BRAIN-Diet-References#micale_endocannabinoid_mood_2013"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH003"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM1)",
@@ -344,7 +411,8 @@
           "citationKey": "dejong_female_specific_adhd_treatment_2024",
           "href": "/docs/papers/BRAIN-Diet-References#dejong_female_specific_adhd_treatment_2024"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH003"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM2)",
@@ -376,7 +444,8 @@
           "citationKey": "ervin_estrobolome_beta_glucuronidase_2019",
           "href": "/docs/papers/BRAIN-Diet-References#ervin_estrobolome_beta_glucuronidase_2019"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH003"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM3)",
@@ -396,7 +465,8 @@
           "citationKey": "dafflitto_sex_hormone_gut_microbiota_2022",
           "href": "/docs/papers/BRAIN-Diet-References#dafflitto_sex_hormone_gut_microbiota_2022"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH003"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM4)",
@@ -416,7 +486,8 @@
           "citationKey": "depaoli_estrogen_insulin_resistance_2021",
           "href": "/docs/papers/BRAIN-Diet-References#depaoli_estrogen_insulin_resistance_2021"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH003"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM5)",
@@ -436,7 +507,8 @@
           "citationKey": "celec_testosterone_brain_behavioral_functions_2015",
           "href": "/docs/papers/BRAIN-Diet-References#celec_testosterone_brain_behavioral_functions_2015"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH003"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM6)",
@@ -456,7 +528,62 @@
           "citationKey": "leao_in_vitro_female_gut_microbiome_sex_hormones_2025",
           "href": "/docs/papers/BRAIN-Diet-References#leao_in_vitro_female_gut_microbiome_sex_hormones_2025"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH003"
+    },
+    {
+      "sourceNode": "BRS4-FM3-PM8",
+      "sourceTitle": "Metabolic Fuel Switching",
+      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
+      "parentFM": "BRS4(FM3)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Energy Stability Under Variable Conditions",
+      "relationshipType": "supports",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "The ability to transition efficiently between available energy substrates may support maintenance of ATP production during changing nutritional and physiological conditions.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Goodpaster & Sparks (2017)",
+          "citationKey": "goodpaster_metabolic_flexibility_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017"
+        },
+        {
+          "index": 2,
+          "label": "Smith et al. (2018)",
+          "citationKey": "smith_metabolic_flexibility_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#smith_metabolic_flexibility_2018"
+        }
+      ],
+      "targetPhenomeId": "PH012"
+    },
+    {
+      "sourceNode": "BRS4-FM3-PM6",
+      "sourceTitle": "Carnitine-Mediated Fat Transport",
+      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
+      "parentFM": "BRS4(FM3)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Energy Stability Under Variable Fuel Conditions",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "intervention",
+      "rationale": "Carnitine-dependent transport of long-chain fatty acids into mitochondria enables β-oxidation when metabolic context shifts away from glucose dominance; human intervention evidence in ADHD suggests carnitine supplementation may improve behavioural and functional outcomes in deficiency contexts, though direct brain fuel-switching outcome evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "van Oudheusden and Scholte (2002)",
+          "citationKey": "van_oudheusden_efficacy_2002",
+          "href": "/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002"
+        },
+        {
+          "index": 2,
+          "label": "Kyriazis et al. (2022)",
+          "citationKey": "kyriazis_impact_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
+        }
+      ],
+      "targetPhenomeId": "PH013"
     },
     {
       "sourceNode": "BRS4-FM3-PM7",
@@ -472,17 +599,18 @@
       "references": [
         {
           "index": 1,
-          "label": "Kyriazis et al. (2022)",
-          "citationKey": "kyriazis_impact_2022",
-          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
+          "label": "Ramezani et al. (2023)",
+          "citationKey": "ramezani_ketone_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ramezani_ketone_2023"
         },
         {
           "index": 2,
-          "label": "Fuehrlein et al. (2004)",
-          "citationKey": "fuehrlein_differential_2004",
-          "href": "/docs/papers/BRAIN-Diet-References#fuehrlein_differential_2004"
+          "label": "López-Ojeda et al. (2023)",
+          "citationKey": "lopez_ojeda_ketone_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#lopez_ojeda_ketone_2023"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH013"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM1)",
@@ -520,7 +648,8 @@
           "citationKey": "dejong_female_specific_adhd_treatment_2024",
           "href": "/docs/papers/BRAIN-Diet-References#dejong_female_specific_adhd_treatment_2024"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH001"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM2)",
@@ -552,7 +681,8 @@
           "citationKey": "ervin_estrobolome_beta_glucuronidase_2019",
           "href": "/docs/papers/BRAIN-Diet-References#ervin_estrobolome_beta_glucuronidase_2019"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH014"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM4)",
@@ -578,7 +708,89 @@
           "citationKey": "depaoli_estrogen_insulin_resistance_2021",
           "href": "/docs/papers/BRAIN-Diet-References#depaoli_estrogen_insulin_resistance_2021"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH014"
+    },
+    {
+      "sourceNode": "BRS4-FM2-PM4",
+      "sourceTitle": "ROS Production and Control",
+      "sourcePath": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control",
+      "parentFM": "BRS4(FM2)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Metabolic Resilience",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Balanced mitochondrial ROS generation and buffering may help preserve organelle function under oxidative pressure, contributing to broader metabolic stability, although direct ADHD-specific outcome evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Packer et al. (1997)",
+          "citationKey": "packer_vitamin_1997",
+          "href": "/docs/papers/BRAIN-Diet-References#packer_vitamin_1997"
+        },
+        {
+          "index": 2,
+          "label": "Kyriazis et al. (2022)",
+          "citationKey": "kyriazis_impact_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
+        }
+      ],
+      "targetPhenomeId": "PH007"
+    },
+    {
+      "sourceNode": "BRS4-FM2-PM5",
+      "sourceTitle": "Mitochondrial Protection (Redox Integrity)",
+      "sourcePath": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity",
+      "parentFM": "BRS4(FM2)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Metabolic Resilience",
+      "relationshipType": "supports",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Protection of mitochondrial membranes and redox systems may preserve energetic throughput under oxidative load and support broader metabolic adaptability, although direct ADHD-specific outcome evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Packer et al. (1997)",
+          "citationKey": "packer_vitamin_1997",
+          "href": "/docs/papers/BRAIN-Diet-References#packer_vitamin_1997"
+        },
+        {
+          "index": 2,
+          "label": "Crane (2001)",
+          "citationKey": "crane_coq10_2001",
+          "href": "/docs/papers/BRAIN-Diet-References#crane_coq10_2001"
+        }
+      ],
+      "targetPhenomeId": "PH007"
+    },
+    {
+      "sourceNode": "BRS4-FM3-PM6",
+      "sourceTitle": "Carnitine-Mediated Fat Transport",
+      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
+      "parentFM": "BRS4(FM3)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Metabolic Resilience",
+      "relationshipType": "supports",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Effective carnitine-mediated fat transport expands the range of substrates mitochondria can oxidise, contributing to broader metabolic adaptability across varying nutritional and physiological conditions when cofactor and substrate context are sufficient.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Kyriazis et al. (2022)",
+          "citationKey": "kyriazis_impact_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
+        },
+        {
+          "index": 2,
+          "label": "van Oudheusden and Scholte (2002)",
+          "citationKey": "van_oudheusden_efficacy_2002",
+          "href": "/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002"
+        }
+      ],
+      "targetPhenomeId": "PH007"
     },
     {
       "sourceNode": "BRS4-FM3-PM7",
@@ -594,11 +806,72 @@
       "references": [
         {
           "index": 1,
+          "label": "López-Ojeda et al. (2023)",
+          "citationKey": "lopez_ojeda_ketone_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#lopez_ojeda_ketone_2023"
+        },
+        {
+          "index": 2,
+          "label": "Ramezani et al. (2023)",
+          "citationKey": "ramezani_ketone_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ramezani_ketone_2023"
+        }
+      ],
+      "targetPhenomeId": "PH007"
+    },
+    {
+      "sourceNode": "BRS4-FM3-PM8",
+      "sourceTitle": "Metabolic Fuel Switching",
+      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
+      "parentFM": "BRS4(FM3)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Metabolic Resilience",
+      "relationshipType": "supports",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Fuel-switching capacity expands the range of conditions under which cellular energy production can be maintained, contributing to broader metabolic adaptability.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Smith et al. (2018)",
+          "citationKey": "smith_metabolic_flexibility_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#smith_metabolic_flexibility_2018"
+        },
+        {
+          "index": 2,
+          "label": "Goodpaster & Sparks (2017)",
+          "citationKey": "goodpaster_metabolic_flexibility_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017"
+        }
+      ],
+      "targetPhenomeId": "PH007"
+    },
+    {
+      "sourceNode": "BRS4-FM4-PM9",
+      "sourceTitle": "Mitochondrial Biogenesis",
+      "sourcePath": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis",
+      "parentFM": "BRS4(FM4)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Metabolic Resilience",
+      "relationshipType": "supports",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Greater mitochondrial density expands long-term energetic capacity and may contribute to broader metabolic adaptability across changing physiological demand.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Goodpaster & Sparks (2017)",
+          "citationKey": "goodpaster_metabolic_flexibility_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017"
+        },
+        {
+          "index": 2,
           "label": "Kyriazis et al. (2022)",
           "citationKey": "kyriazis_impact_2022",
           "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH007"
     },
     {
       "sourceNode": "BRS-X(ECS-PM1)",
@@ -624,7 +897,8 @@
           "citationKey": "sean_davies_oatmeal_2018",
           "href": "/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH002"
     },
     {
       "sourceNode": "BRS-X(ECS-PM4)",
@@ -650,7 +924,8 @@
           "citationKey": "laksmidewi_endocannabinoid_2021",
           "href": "/docs/papers/BRAIN-Diet-References#laksmidewi_endocannabinoid_2021"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH002"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM5)",
@@ -676,7 +951,8 @@
           "citationKey": "hackett_symptomatic_benefits_testosterone_treatment_2023",
           "href": "/docs/papers/BRAIN-Diet-References#hackett_symptomatic_benefits_testosterone_treatment_2023"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH002"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM6)",
@@ -696,7 +972,8 @@
           "citationKey": "leao_in_vitro_female_gut_microbiome_sex_hormones_2025",
           "href": "/docs/papers/BRAIN-Diet-References#leao_in_vitro_female_gut_microbiome_sex_hormones_2025"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH002"
     },
     {
       "sourceNode": "BRS-X(ECS-PM5)",
@@ -716,7 +993,8 @@
           "citationKey": "garani_endocannabinoid_2021",
           "href": "/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH005"
     },
     {
       "sourceNode": "BRS4-FM1-PM2",
@@ -736,7 +1014,104 @@
           "citationKey": "de_guia_nad_2019",
           "href": "/docs/papers/BRAIN-Diet-References#de_guia_nad_2019"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH005"
+    },
+    {
+      "sourceNode": "BRS4-FM2-PM4",
+      "sourceTitle": "ROS Production and Control",
+      "sourcePath": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control",
+      "parentFM": "BRS4(FM2)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Recovery Capacity",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Lower mitochondrial oxidative burden may reduce cumulative damage to respiratory machinery and support restoration after sustained metabolic demand, though direct outcome evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verlaet et al. (2019)",
+          "citationKey": "verlaet_oxidative_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019"
+        }
+      ],
+      "targetPhenomeId": "PH005"
+    },
+    {
+      "sourceNode": "BRS4-FM2-PM5",
+      "sourceTitle": "Mitochondrial Protection (Redox Integrity)",
+      "sourcePath": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity",
+      "parentFM": "BRS4(FM2)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Recovery Capacity",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Membrane and enzyme protection may help mitochondria recover functional integrity after oxidative stress episodes, though direct outcome evidence at the phenome level remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verlaet et al. (2019)",
+          "citationKey": "verlaet_oxidative_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019"
+        },
+        {
+          "index": 2,
+          "label": "Kyriazis et al. (2022)",
+          "citationKey": "kyriazis_impact_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
+        }
+      ],
+      "targetPhenomeId": "PH005"
+    },
+    {
+      "sourceNode": "BRS4-FM3-PM8",
+      "sourceTitle": "Metabolic Fuel Switching",
+      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
+      "parentFM": "BRS4(FM3)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Recovery Capacity",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "The ability to adapt fuel selection may contribute to recovery from periods of increased metabolic demand, although direct outcome evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Goodpaster & Sparks (2017)",
+          "citationKey": "goodpaster_metabolic_flexibility_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017"
+        }
+      ],
+      "targetPhenomeId": "PH005"
+    },
+    {
+      "sourceNode": "BRS4-FM4-PM9",
+      "sourceTitle": "Mitochondrial Biogenesis",
+      "sourcePath": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis",
+      "parentFM": "BRS4(FM4)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Recovery Capacity",
+      "relationshipType": "supports",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Repeated exercise and recovery-linked adaptation signals promote mitochondrial biogenesis and may support restoration of energetic capacity after sustained metabolic demand, although direct ADHD-specific outcome evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Goodpaster & Sparks (2017)",
+          "citationKey": "goodpaster_metabolic_flexibility_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017"
+        },
+        {
+          "index": 2,
+          "label": "de Guia et al. (2019)",
+          "citationKey": "de_guia_nad_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#de_guia_nad_2019"
+        }
+      ],
+      "targetPhenomeId": "PH005"
     },
     {
       "sourceNode": "BRS-X(ECS-PM4)",
@@ -762,7 +1137,8 @@
           "citationKey": "solinas_anandamide_2006",
           "href": "/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH009"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM3)",
@@ -782,7 +1158,8 @@
           "citationKey": "dafflitto_sex_hormone_gut_microbiota_2022",
           "href": "/docs/papers/BRAIN-Diet-References#dafflitto_sex_hormone_gut_microbiota_2022"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH008"
     },
     {
       "sourceNode": "BRS-X(Hormones-PM3)",
@@ -802,7 +1179,8 @@
           "citationKey": "dafflitto_sex_hormone_gut_microbiota_2022",
           "href": "/docs/papers/BRAIN-Diet-References#dafflitto_sex_hormone_gut_microbiota_2022"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH015"
     },
     {
       "sourceNode": "BRS-X(ECS-PM1)",
@@ -828,7 +1206,8 @@
           "citationKey": "sean_davies_oatmeal_2018",
           "href": "/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH006"
     },
     {
       "sourceNode": "BRS-X(ECS-PM2)",
@@ -860,7 +1239,8 @@
           "citationKey": "meijerink_docosahexaenoylethanolamine_2011",
           "href": "/docs/papers/BRAIN-Diet-References#meijerink_docosahexaenoylethanolamine_2011"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH006"
     },
     {
       "sourceNode": "BRS-X(ECS-PM3)",
@@ -886,7 +1266,8 @@
           "citationKey": "solinas_anandamide_2006",
           "href": "/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH006"
     },
     {
       "sourceNode": "BRS-X(ECS-PM5)",
@@ -924,7 +1305,8 @@
           "citationKey": "micale_endocannabinoid_mood_2013",
           "href": "/docs/papers/BRAIN-Diet-References#micale_endocannabinoid_mood_2013"
         }
-      ]
+      ],
+      "targetPhenomeId": "PH006"
     }
   ],
   "byPhenome": {
@@ -954,7 +1336,11 @@
       "BRS-X(Hormones-PM5)",
       "BRS-X(Hormones-PM6)"
     ],
+    "Energy Stability Under Variable Conditions": [
+      "BRS4-FM3-PM8"
+    ],
     "Energy Stability Under Variable Fuel Conditions": [
+      "BRS4-FM3-PM6",
       "BRS4-FM3-PM7"
     ],
     "Focus / Attention Stability": [
@@ -965,7 +1351,12 @@
       "BRS-X(Hormones-PM4)"
     ],
     "Metabolic Resilience": [
-      "BRS4-FM3-PM7"
+      "BRS4-FM2-PM4",
+      "BRS4-FM2-PM5",
+      "BRS4-FM3-PM6",
+      "BRS4-FM3-PM7",
+      "BRS4-FM3-PM8",
+      "BRS4-FM4-PM9"
     ],
     "Motivation / Drive": [
       "BRS-X(ECS-PM1)",
@@ -975,7 +1366,11 @@
     ],
     "Recovery Capacity": [
       "BRS-X(ECS-PM5)",
-      "BRS4-FM1-PM2"
+      "BRS4-FM1-PM2",
+      "BRS4-FM2-PM4",
+      "BRS4-FM2-PM5",
+      "BRS4-FM3-PM8",
+      "BRS4-FM4-PM9"
     ],
     "Reward Regulation": [
       "BRS-X(ECS-PM4)"
@@ -987,6 +1382,85 @@
       "BRS-X(Hormones-PM3)"
     ],
     "Stress Resilience": [
+      "BRS-X(ECS-PM1)",
+      "BRS-X(ECS-PM2)",
+      "BRS-X(ECS-PM3)",
+      "BRS-X(ECS-PM5)"
+    ]
+  },
+  "byPhenomeId": {
+    "PH010": [
+      "BRS-X(ECS-PM4)"
+    ],
+    "PH011": [
+      "BRS-X(ECS-PM2)",
+      "BRS-X(Hormones-PM1)",
+      "BRS-X(Hormones-PM2)"
+    ],
+    "PH004": [
+      "BRS-X(Hormones-PM4)",
+      "BRS-X(Hormones-PM5)",
+      "BRS-X(Hormones-PM6)",
+      "BRS4-FM1-PM2"
+    ],
+    "PH003": [
+      "BRS-X(ECS-PM1)",
+      "BRS-X(ECS-PM2)",
+      "BRS-X(ECS-PM3)",
+      "BRS-X(ECS-PM5)",
+      "BRS-X(Hormones-PM1)",
+      "BRS-X(Hormones-PM2)",
+      "BRS-X(Hormones-PM3)",
+      "BRS-X(Hormones-PM4)",
+      "BRS-X(Hormones-PM5)",
+      "BRS-X(Hormones-PM6)"
+    ],
+    "PH012": [
+      "BRS4-FM3-PM8"
+    ],
+    "PH013": [
+      "BRS4-FM3-PM6",
+      "BRS4-FM3-PM7"
+    ],
+    "PH001": [
+      "BRS-X(Hormones-PM1)"
+    ],
+    "PH014": [
+      "BRS-X(Hormones-PM2)",
+      "BRS-X(Hormones-PM4)"
+    ],
+    "PH007": [
+      "BRS4-FM2-PM4",
+      "BRS4-FM2-PM5",
+      "BRS4-FM3-PM6",
+      "BRS4-FM3-PM7",
+      "BRS4-FM3-PM8",
+      "BRS4-FM4-PM9"
+    ],
+    "PH002": [
+      "BRS-X(ECS-PM1)",
+      "BRS-X(ECS-PM4)",
+      "BRS-X(Hormones-PM5)",
+      "BRS-X(Hormones-PM6)"
+    ],
+    "PH005": [
+      "BRS-X(ECS-PM5)",
+      "BRS4-FM1-PM2",
+      "BRS4-FM2-PM4",
+      "BRS4-FM2-PM5",
+      "BRS4-FM3-PM8",
+      "BRS4-FM4-PM9"
+    ],
+    "PH009": [
+      "BRS-X(ECS-PM4)"
+    ],
+    "PH008": [
+      "BRS-X(Hormones-PM3)"
+    ],
+    "PH015": [
+      "BRS-X(Hormones-PM3)"
+    ],
+    "PH006": [
       "BRS-X(ECS-PM1)",
       "BRS-X(ECS-PM2)",
       "BRS-X(ECS-PM3)",
@@ -1444,13 +1918,39 @@
     ],
     "BRS4(FM3)": [
       {
-        "target_phenome": "Energy Stability Under Variable Fuel Conditions",
+        "target_phenome": "Energy Stability Under Variable Conditions",
         "connected_pm_count": 1,
-        "strongest_relationship_type": "modulates",
+        "strongest_relationship_type": "supports",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "The ability to utilise ketone bodies may help support ATP production during periods of reduced glucose availability or altered metabolic demand, including brain energy metabolism when glucose supply shifts.",
+        "evidence_summary": "The ability to transition efficiently between available energy substrates may support maintenance of ATP production during changing nutritional and physiological conditions.",
         "contributing_pms": [
+          {
+            "id": "BRS4-FM3-PM8",
+            "name": "Metabolic Fuel Switching",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
+            "relationship_type": "supports",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Energy Stability Under Variable Fuel Conditions",
+        "connected_pm_count": 2,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "intervention",
+        "overall_confidence": "medium",
+        "evidence_summary": "Carnitine-dependent transport of long-chain fatty acids into mitochondria enables β-oxidation when metabolic context shifts away from glucose dominance; human intervention evidence in ADHD suggests carnitine supplementation may improve behavioural and functional outcomes in deficiency contexts, though direct brain fuel-switching outcome evidence remains limited. The ability to utilise ketone bodies may help support ATP production during periods of reduced glucose availability or altered metabolic demand, including brain energy metabolism when glucose supply shifts.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM3-PM6",
+            "name": "Carnitine-Mediated Fat Transport",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "intervention"
+          },
           {
             "id": "BRS4-FM3-PM7",
             "name": "Ketone Utilisation Capacity",
@@ -1463,18 +1963,144 @@
       },
       {
         "target_phenome": "Metabolic Resilience",
-        "connected_pm_count": 1,
+        "connected_pm_count": 3,
         "strongest_relationship_type": "supports",
         "highest_evidence_level": "mechanistic",
-        "overall_confidence": "low",
-        "evidence_summary": "Ketone utilisation expands the range of substrates available for energy production and contributes to broader metabolic adaptability across varying nutritional and physiological conditions.",
+        "overall_confidence": "medium",
+        "evidence_summary": "Fuel-switching capacity expands the range of conditions under which cellular energy production can be maintained, contributing to broader metabolic adaptability. Effective carnitine-mediated fat transport expands the range of substrates mitochondria can oxidise, contributing to broader metabolic adaptability across varying nutritional and physiological conditions when cofactor and substrate context are sufficient. Ketone utilisation expands the range of substrates available for energy production and contributes to broader metabolic adaptability across varying nutritional and physiological conditions.",
         "contributing_pms": [
+          {
+            "id": "BRS4-FM3-PM8",
+            "name": "Metabolic Fuel Switching",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
+            "relationship_type": "supports",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS4-FM3-PM6",
+            "name": "Carnitine-Mediated Fat Transport",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
+            "relationship_type": "supports",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          },
           {
             "id": "BRS4-FM3-PM7",
             "name": "Ketone Utilisation Capacity",
             "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
             "relationship_type": "supports",
             "confidence": "low",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Recovery Capacity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low",
+        "evidence_summary": "The ability to adapt fuel selection may contribute to recovery from periods of increased metabolic demand, although direct outcome evidence remains limited.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM3-PM8",
+            "name": "Metabolic Fuel Switching",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS4(FM2)": [
+      {
+        "target_phenome": "Metabolic Resilience",
+        "connected_pm_count": 2,
+        "strongest_relationship_type": "supports",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "medium",
+        "evidence_summary": "Balanced mitochondrial ROS generation and buffering may help preserve organelle function under oxidative pressure, contributing to broader metabolic stability, although direct ADHD-specific outcome evidence remains limited. Protection of mitochondrial membranes and redox systems may preserve energetic throughput under oxidative load and support broader metabolic adaptability, although direct ADHD-specific outcome evidence remains limited.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM2-PM4",
+            "name": "ROS Production and Control",
+            "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS4-FM2-PM5",
+            "name": "Mitochondrial Protection (Redox Integrity)",
+            "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity",
+            "relationship_type": "supports",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Recovery Capacity",
+        "connected_pm_count": 2,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Lower mitochondrial oxidative burden may reduce cumulative damage to respiratory machinery and support restoration after sustained metabolic demand, though direct outcome evidence remains limited. Membrane and enzyme protection may help mitochondria recover functional integrity after oxidative stress episodes, though direct outcome evidence at the phenome level remains limited.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM2-PM4",
+            "name": "ROS Production and Control",
+            "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS4-FM2-PM5",
+            "name": "Mitochondrial Protection (Redox Integrity)",
+            "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS4(FM4)": [
+      {
+        "target_phenome": "Metabolic Resilience",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "supports",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Greater mitochondrial density expands long-term energetic capacity and may contribute to broader metabolic adaptability across changing physiological demand.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM4-PM9",
+            "name": "Mitochondrial Biogenesis",
+            "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis",
+            "relationship_type": "supports",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Recovery Capacity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "supports",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Repeated exercise and recovery-linked adaptation signals promote mitochondrial biogenesis and may support restoration of energetic capacity after sustained metabolic demand, although direct ADHD-specific outcome evidence remains limited.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM4-PM9",
+            "name": "Mitochondrial Biogenesis",
+            "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis",
+            "relationship_type": "supports",
+            "confidence": "low-medium",
             "evidence_level": "mechanistic"
           }
         ]

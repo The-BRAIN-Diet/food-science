@@ -16,6 +16,8 @@ validation while remaining readable for authors.
 
 FM **§2 Functional Outcome Context** holds a concise integrative snapshot (`functional_outcome_context` in front matter) — normally 2–3 outcomes, max 4. It does **not** roll up all child PM phenome mappings (that belongs on future phenome graph pages). See `system/phenome-relationship-schema.md`. Do not embed phenome outcome claims in §1 Definition.
 
+When `mechanisms_covered` has **exactly one** PM, apply the **Single-PM FM (1:1) rule**: FM §2 phenome labels and confidence must align with that PM’s `phenome_relationships` (see `system/phenome-relationship-schema.md`).
+
 ## Spreadsheet Interpretation Authority
 
 - Use `system/brs-spreadsheet-schema.md` as the authoritative field-by-field
@@ -68,6 +70,16 @@ An FM definition must:
 **Example (canonical for BRS6(FM1)):**
 
 Integrated regulation of glucose appearance, glycaemic stability, and insulin-supported glucose disposal across the post-prandial period, influencing metabolic continuity, reactive neuroendocrine demand, and cognitive energy availability.
+
+### Single-PM FM (1:1) definition and narrative
+
+When `mechanisms_covered` contains **exactly one** PM:
+
+- **§1 Definition** names that PM’s integrated contribution directly (no plural “PMs” framing required).
+- **§2 Functional Outcome Context** follows the **Single-PM FM (1:1) rule** in `system/phenome-relationship-schema.md` (matching phenome labels and confidence to the child PM).
+- **§4.2 Integrated Functional Narrative** may state explicitly that the FM state maps onto the sole child PM without additional parallel PM integration.
+
+**Canonical example:** `docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx` → `BRS4-FM4-PM9`.
 
 ### FM Mechanistic Basis Rule
 
@@ -269,7 +281,7 @@ First line of the MDX body (after front matter) must be the FM title: `## <FM_ID
 Numbered sections must stay contiguous. Optional `### 5.5 Evidence Highlights` nests under §5 when used (FM-level “why this matters” — not PM intervention evidence).
 
 1. **Definition** — `## 1. Definition` — integrated regulatory state per **FM Definition Rule**; `summary` in front matter must match this intent
-2. **Functional Outcome Context** — `## 2. Functional Outcome Context` — concise integrative outcomes from `functional_outcome_context`; FM disclaimer required; no PM roll-up tables
+2. **Functional Outcome Context** — `## 2. Functional Outcome Context` — concise integrative outcomes from `functional_outcome_context` as `<details>` dropdowns; FM disclaimer required; no PM roll-up tables
 3. **Intervention Breakdown** — `## 3. Intervention Breakdown` — single allowed value per **Intervention Breakdown** (required); must match `intervention_breakdown` in front matter
 4. **Functional Role** — `## 4. Functional Role` — short directional arrow line describing **emergent FM outcomes** per **FM Functional Role Rule**
 5. **Mechanistic Basis (Integrated FM Narrative)** — `## 5. Mechanistic Basis (Integrated FM Narrative)` — per **FM Mechanistic Basis Rule** and **Deduplication Rule**; weave timing context in §5.3 when `timing_specific: "Yes"`
@@ -303,10 +315,11 @@ Run against all FM and PM MDX pages under `docs/biological-targets/**/{fm,pm}/`:
 npm run mechanisms:validate
 ```
 
-Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts/lib/mechanism-page-validation.mjs`). Checks front matter for `intervention_breakdown` and `timing_specific`, forbids visible `## N. Timing Specific` body sections, validates FM section order, and forbidden timing-as-modulation labels in §2.
+Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts/lib/mechanism-page-validation.mjs` and `scripts/lib/phenome-relationships.mjs`). Checks front matter for `intervention_breakdown` and `timing_specific`, forbids visible `## N. Timing Specific` body sections, validates FM section order, phenome/outcome front matter, and **Single-PM FM (1:1)** alignment when `mechanisms_covered` has exactly one child PM.
 
 ## Validation Rules
 
+- When `mechanisms_covered` has **exactly one** PM, `functional_outcome_context` must follow the **Single-PM FM (1:1) rule** in `system/phenome-relationship-schema.md` (matching phenome labels and confidence to the child PM; enforced by `validateSinglePmFmOutcomeAlignment`).
 - `title`, `fm_id`, `parent_brs`, `summary`, `intervention_breakdown`, and `timing_specific` are required and non-empty.
 - `intervention_breakdown` must be exactly one of the five allowed values in **Intervention Breakdown**; no combined or percentage labels.
 - `timing_specific` must be exactly `Yes` or `No`.

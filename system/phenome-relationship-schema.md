@@ -18,6 +18,8 @@ PM and FM pages remain **primarily biological**. Phenome mappings are **translat
 
 PM pages hold detailed `phenome_relationships`. FM pages hold a **concise** `functional_outcome_context` (2–3 outcomes normally; max 4). Full PM → phenome roll-up graphs belong on future phenome pages — **not** on FM pages.
 
+When an FM has **exactly one** child PM (`mechanisms_covered.length === 1`), §2 must follow the **[Single-PM FM (1:1) rule](#single-pm-fm-11-rule)** below instead of inventing a separate integrative outcome set.
+
 ## Core principle
 
 | Layer | Role |
@@ -106,7 +108,7 @@ functional_outcome_context:
 | Field | Required | Notes |
 |-------|----------|-------|
 | `outcome_name` | Yes | Human-readable integrated outcome label |
-| `confidence` | Yes | Integrated-system confidence; may equal or exceed child PM confidence where PMs converge |
+| `confidence` | Yes | Integrated-system confidence; may exceed child PM confidence **only when multiple PMs converge** on the same phenome (not on 1:1 FM→PM instances) |
 | `synthesis` | Yes | 1–2 sentences; do not list child PMs |
 | `references` | Recommended | Key references only; must resolve in bibliography when cited |
 
@@ -118,29 +120,98 @@ functional_outcome_context:
 4. Do **not** present outcomes as direct treatment claims.
 5. Do **not** use `connected_phenomes` on FM pages (deprecated for publication).
 
+### Single-PM FM (1:1) rule
+
+When `mechanisms_covered` contains **exactly one** PM, the FM is a **1:1 FM → PM** instance. The FM does not integrate across multiple mechanisms at the phenome layer; the emergent FM state maps directly onto that PM.
+
+| Layer | Requirement |
+|-------|-------------|
+| **Outcome set** | `functional_outcome_context[].outcome_name` must match the sole child PM’s `phenome_relationships[].target_phenome` **exactly** (same labels, same count). |
+| **Confidence** | Each FM outcome `confidence` must match the corresponding PM `confidence`. |
+| **Synthesis** | Rewrite at FM integrative level (1–2 sentences); do **not** copy PM `rationale` verbatim. |
+| **References** | FM outcome `references` should draw from the same citation keys as the matching PM phenome mapping. |
+| **Empty state** | If the sole child PM has no `phenome_relationships`, FM §2 uses the empty state (`No functional outcome context currently mapped.`). |
+
+**What changes vs multi-PM FMs:** do **not** add FM-only phenomes, merge phenomes, or raise/lower confidence because of “FM integration”. Convergence-based confidence uplift applies only when **multiple** child PMs support the same phenome.
+
+**What stays the same:** FM §2 still uses `<details>` dropdowns per outcome (same interaction pattern as PM §2; summary shows outcome name only), the FM disclaimer, and no contributing-PM lists.
+
+**Canonical example:** `docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx` with child `BRS4-FM4-PM9`.
+
+**Enforcement:** `npm run mechanisms:validate` calls `validateSinglePmFmOutcomeAlignment` in `scripts/lib/phenome-relationships.mjs` when an FM page has exactly one `mechanisms_covered` entry.
+
+---
+
+## Phenome Registry (canonical phenome definitions)
+
+Stable phenome IDs, names, and descriptions live in **`src/data/phenome-registry.json`** — hand-edited with registry approval. Do **not** auto-create registry entries from PM edges.
+
+### Registry entry fields
+
+| Field | Required | Notes |
+|-------|----------|-------|
+| `id` | Yes | Stable ID (`PH001` …) |
+| `name` | Yes | Human-readable label; must match PM `target_phenome` / FM `outcome_name` exactly when used |
+| `slug` | Yes | URL-safe slug |
+| `description` | Yes | General, stable phenome definition — no BRS-, mechanism-, or ADHD-specific claims |
+| `publicSummary` | Yes | Plain-language summary for public pages |
+| `primaryDomains` | Yes | Tag list (e.g. `energy`, `cognition`) |
+| `status` | Yes | `active` \| `deprecated` |
+
+### Public page
+
+**`/docs/phenomes/index`** — Phenome Registry table + detail sections. Renders from `phenome-registry.json` + `phenome-relationships.generated.json`. Evidence rationales stay on PM/FM pages.
+
+### Registry review flags
+
+Near-duplicate or related-but-distinct phenome pairs are listed in `phenome-registry.json` → `reviewFlags` for manual review (not auto-merged).
+
+---
+
 ### Generated index (source of truth pipeline)
 
-PM `phenome_relationships` front matter is the **sole authoring source**. Regenerate the machine index with:
+PM `phenome_relationships` front matter is the **sole authoring source** for mechanism edges. Regenerate the machine index with:
 
 ```bash
 npm run phenome:index
+npm run phenome:validate
 ```
 
 Output: `src/data/phenome-relationships.generated.json`
 
-Each flat record includes: `sourceNode`, `sourceTitle`, `sourcePath`, `parentFM`, `parentBRS`, `targetPhenome`, `relationshipType`, `confidence`, `evidenceLevel`, `rationale`, `references`.
+Each flat record includes: `sourceNode`, `sourceTitle`, `sourcePath`, `parentFM`, `parentBRS`, **`targetPhenomeId`**, `targetPhenome`, `relationshipType`, `confidence`, `evidenceLevel`, `rationale`, `references`.
+
+| Field | Source |
+|-------|--------|
+| `targetPhenome` | PM front matter `phenome_relationships[].target_phenome` |
+| `targetPhenomeId` | Matched from `phenome-registry.json` by exact `name`; `null` if unmapped |
+| `rationale` | Edge-specific; stays on PM page and index edge |
+| Phenome `description` | Registry only — not duplicated on edges |
 
 The index also includes generated derived views:
 
 | Key | Purpose |
 |-----|---------|
-| `relationships` | Flat PM → phenome edges |
-| `byPhenome` | Phenome → PM source nodes (reciprocal links for phenome pages) |
+| `relationships` | Flat PM → phenome edges (with `targetPhenomeId`) |
+| `byPhenome` | Phenome label → PM source nodes |
+| `byPhenomeId` | Registry ID → PM source nodes |
 | `fmRollups` | FM connected-phenome roll-ups (phenome graph pages — **not** FM MDX §2) |
+| `diagnostics` | Unmapped labels, orphan registry phenomes, mapping counts |
 
 TypeScript query helpers: `src/data/phenomeRelationships.ts`.
 
 Do **not** hand-edit the generated JSON.
+
+### Registry validation
+
+`npm run phenome:validate` checks:
+
+- Every relationship edge has `targetPhenome`
+- Every `targetPhenome` label matches a registry entry
+- Every matched edge receives `targetPhenomeId`
+- No duplicate registry phenome names
+- Warn on unmapped phenome labels (`targetPhenomeId: null`)
+- Warn on active registry phenomes with no connected mechanisms
 
 ### Graph aggregation (derived from index)
 
@@ -167,12 +238,10 @@ Placement: immediately after `## 1. Definition`, before Intervention Breakdown.
 Structure:
 
 1. Canonical FM disclaimer paragraph
-2. For each outcome: `### <Outcome name>`
-3. **Confidence:** (display label, e.g. Medium, Low–Medium)
-4. 1–2 sentence synthesis paragraph
-5. **Key references:** linked citations
+2. For each outcome: `<details>` with summary **`<Outcome name>`**
+3. Inside dropdown: Confidence, Synthesis, Key References (linked list)
 
-**Forbidden on FM §2:** roll-up tables, contributing-PM lists, `<details>` per phenome listing child PMs.
+**Forbidden on FM §2:** roll-up tables, contributing-PM lists, dropdowns that enumerate child PMs per phenome.
 
 ---
 
@@ -217,7 +286,7 @@ Structure:
 | `phenome_evidence_level` | mechanistic / observational / intervention / clinical |
 | `phenome_rationale` | Translational rationale text |
 
-FM rows: `functional_outcome_context` is **hand-authored** integrative synthesis (2–4 outcomes). Do not auto-generate FM §2 from child PM roll-ups.
+FM rows: `functional_outcome_context` is **hand-authored** integrative synthesis (2–4 outcomes). Do not auto-generate FM §2 from child PM roll-ups. When the FM has **one** child PM, follow the **Single-PM FM (1:1) rule** above (matching phenome labels and confidence).
 
 ---
 

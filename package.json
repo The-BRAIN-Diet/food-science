@@ -9,6 +9,7 @@
     "mechanisms:migrate-citations": "node scripts/migrate-brs-citations.mjs",
     "references:fix-generic-labels": "node scripts/fix-generic-reference-labels.mjs",
     "phenome:index": "node scripts/generate-phenome-relationship-index.mjs",
+    "phenome:validate": "node scripts/validate-phenome-registry.mjs",
     "bib:validate": "node scripts/validate-bib-citation-keys.mjs",
     "mechanisms:generate-pm-basis": "node scripts/generate-pm-mechanistic-basis.mjs",
     "inchi:repair": "node scripts/inchi-repair.mjs",
