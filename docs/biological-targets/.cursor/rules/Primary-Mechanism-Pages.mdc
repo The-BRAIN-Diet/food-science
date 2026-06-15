@@ -15,15 +15,17 @@ When creating or editing Primary Mechanism (PM) pages:
 
 Follow:
 - `system/primary-mechanism-schema.md`
+- `system/pm-intervention-summary-standard.md` — §3 Intervention Summary layout and lever tiers
+- `system/brs-citation-reference-standard.md` — inline `[Author et al., Year]`; References `Author et al. (Year) — Topic`
 - `system/mechanism-page-section-prose.md` — sections must not restate title, entity ID, BRS name/number, or Definition; each section follows only its schema role.
 
 Structure:
-- Follow `system/primary-mechanism-schema.md` **Section Order** (Profile A extended vs Profile A′ / Profile B). Extended profile = Intervention Breakdown in body (§2) when `intervention_breakdown` is in front matter; **no** standalone `## N. Timing Specific` section.
+- Follow `system/primary-mechanism-schema.md` **Section Order** (Profile A extended vs Profile A′ / Profile B). Extended profile = **## 3. Intervention Summary** per `system/pm-intervention-summary-standard.md`. **Author §8 and §9 before §3:** Foundational levers distil §8; Supporting/Complementary reflect evidenced §9 Lifestyle Levers (same phrasing, `(Evidence:<tier>)`, and citation). Every §9 bullet must carry evidence. Omit empty Supporting/Complementary `<details>`. **No** Evidence Basis or References subsections in §3. **No** standalone `## N. Timing Specific` section.
 - `timing_specific` (`Yes` | `No`) is **required in front matter** on every PM page. It is ontology metadata for traversal, filtering, and scoring — not a public Yes/No body section.
 - Where timing materially alters interpretation, discuss this naturally within **Functional Role**, **Mechanistic Basis**, **Lifestyle Levers**, or **Scoreable Inputs & Modulation Signals**.
 - The in-body mechanism title line (e.g. `BRS6-FM1-PM1 - …`) must use markdown `##` so it matches numbered section headings; do not use `#` or `###` for that line.
 - **Mechanistic Basis (canonical):** `### Summary` (always visible) → `<details>` containing all `####` blocks (primary mechanism → boundaries → integration) → optional `### 4.1 Evidence Highlights` subsection. Reference: BRS1-FM1-PM1. §4.1 is **not** inside the mechanism dropdown.
-- **§4 citations:** keep inline `[Author (Year)](/docs/papers/BRAIN-Diet-References#key) [n]` on evidence-backed claims in primary mechanism blocks; do not strip refs when shortening. Every `[n]` in §4 must appear in References. See `system/primary-mechanism-schema.md` (**PM §4 — Citations**).
+- **§4 citations:** keep inline `[Author et al., Year]` on evidence-backed claims in primary mechanism blocks; do not strip refs when shortening. Every inline citation must have a matching References entry. See `system/brs-citation-reference-standard.md`.
 - **§4.1 Evidence Highlights (optional):** `### 4.1 Evidence Highlights` as a **subsection of §4** after the mechanism `<details>` (never inside that dropdown). Use `#### Introduction/Summary` (visible) + evidence `<details>` dropdown. Findings only — not mechanism repeat. See `system/primary-mechanism-schema.md` (**PM §4.1 — Evidence Highlights**) and **PM section roles** in `system/mechanism-page-section-prose.md`.
 - **Non-repetition:** §1 = what; §4 = how; §4.1 = how we know. Do not restate the same claim across all three (reference: BRS1 PM2).
 - **§5 Connected BRSX Mechanisms** — heading must match host BRS (`Connected BRS1 Mechanisms`, etc.); `### 5.1` Overarching Functional Mechanism (parent FM); `### 5.2` Connected Primary Mechanisms (sibling PMs on same FM).
@@ -73,10 +75,8 @@ Substances & Foods:
   "Missing system entity: [name]"
 
 References:
-- Use numeric citations [1], [2]
-- All references must link to:
-  /docs/papers/BRAIN-Diet-References#citationKey
-- Verify citationKey exists in static/bibtex/BRAIN-diet.bib
-- If missing, flag: "Missing bibliography entry"
+- Inline: `[Author et al., Year]` per `system/brs-citation-reference-standard.md`
+- References section: `[Author et al. (Year) — Short Descriptive Study Topic](/docs/papers/BRAIN-Diet-References#citationKey)`
+- Verify citationKey exists in `static/bibtex/BRAIN-diet.bib`
 
 If ambiguity exists, stop and ask.

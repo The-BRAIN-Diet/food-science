@@ -1,5 +1,7 @@
 # Functional Mechanism (FM) Schema
 
+Citation and reference format: **`system/brs-citation-reference-standard.md`**.
+
 ## Build Gate Proviso
 
 - Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
@@ -277,7 +279,7 @@ Numbered sections must stay contiguous. Optional `### 5.5 Evidence Highlights` n
    - **`### 5.4 Functional Failure Modes`** — required when `key_constraints` is non-empty
    - **`### 5.5 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
 6. **Connected Mechanisms** — `## 6. Connected Mechanisms` — roll up from constituent PM `§7 Connected Mechanisms` with linked PM pages where they exist
-7. **References** — `## 7. References` — numbered list with bibliography links
+7. **References** — `## 7. References` — `Author et al. (Year) — Topic` with bibliography links per **`system/brs-citation-reference-standard.md`**
 
 **Not on FM pages:** standalone `Primary Mechanisms (PMs)` or `KCs` index sections (PM/KC links live in §4.1/§4.2), `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, legacy `BRS Links` heading, or PM-level cofactor/dietary lever rollups — those belong on **PM pages** (§7–§9).
 
@@ -327,8 +329,8 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - Where `scoring_interpretation` or similar content exists in YAML or tooling, it must not include formulas, equations, or numeric scoring logic.
 - Do not expose raw scoring code or internal scoring implementation details in FM pages.
 - Do not display PM/FM code references in recipe-facing examples beyond mechanism-page context.
-- References must all resolve to `static/bibtex/BRAIN-diet.bib` citation keys.
-- Every referenced bibliography entry must include a DOI or source URL so the citation can resolve through the bibliography page to the original source.
+- References must all resolve to `static/bibtex/BRAIN-diet.bib` citation keys per **`system/brs-citation-reference-standard.md`**.
+- Inline body citations use `[Author et al., Year]`; References entries include descriptive study topics.
 - When an **Evidence Base** (or equivalent) block exists in non-page artefacts, avoid uncited research claims there; the public FM MDX body does not require a separate Evidence Base section under the current contract.
 
 ## Dose Rules (when summary or dose metadata exists)

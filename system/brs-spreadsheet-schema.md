@@ -1,5 +1,7 @@
 # BRS Spreadsheet Schema
 
+Citation and reference format for generated pages: **`system/brs-citation-reference-standard.md`**.
+
 ## Build Gate Proviso
 
 - Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
@@ -164,11 +166,12 @@ IDs, tabs, Connected Mechanisms rules, and seed rows.
 
 **Rules**
 - Must use real studies only.
-- Prefer 1-3 directly relevant papers.
-- Suggested format:
-  - `Author et al. (Year) - URL`
+- Prefer 1–3 directly relevant papers.
+- Required format (ingestion → page References):
+  - `Author et al. (Year) — Short Descriptive Study Topic | citation_key`
 - Page references must link to:
   - `/docs/papers/BRAIN-Diet-References#citationKey`
+- Inline body text on generated pages uses `[Author et al., Year]` per **`system/brs-citation-reference-standard.md`**.
 - Citation keys must exist in:
   - `static/bibtex/BRAIN-diet.bib`
 - If missing, flag:
@@ -313,7 +316,7 @@ FM rows: `functional_outcome_context` is **hand-authored** integrative synthesis
 
 ### PM §4 Mechanistic Basis (spreadsheet extension)
 
-After PM MDX shell generation, populate **§4 Mechanistic Basis** via `scripts/generate-pm-mechanistic-basis.mjs` (or flag with `npm run mechanisms:validate`). Follow the canonical four-part narrative and citation rules in `system/primary-mechanism-schema.md` (**PM §4 — Canonical four-part narrative**, **PM §4 — Citations**); reference page: BRS1-FM1-PM1.
+After PM MDX shell generation, populate **§4 Mechanistic Basis** via `scripts/generate-pm-mechanistic-basis.mjs` (or flag with `npm run mechanisms:validate`). Follow the canonical four-part narrative and citation rules in `system/primary-mechanism-schema.md` and **`system/brs-citation-reference-standard.md`**; reference page: BRS1-FM1-PM1.
 
 Optional row field `mechanistic_detail`:
 
@@ -324,12 +327,12 @@ mechanistic_detail:
   closing: string              # optional; avoid review-paper “together…” closers
   blocks:
     - heading: string          # rendered as #### (heading) — primary mechanism, boundaries, or integration
-      paragraphs: [string]     # embed [Author (Year)](/docs/papers/BRAIN-Diet-References#key) [n] on evidence-backed claims
+      paragraphs: [string]     # embed [Author et al., Year] on evidence-backed claims
 ```
 
 If `mechanistic_detail.blocks` is absent, conversion must leave a detectable placeholder or the validator will fail with `placeholder_mechanistic_detail`.
 
-**Citations:** map `key_studies` to inline refs in primary mechanism blocks; preserve citations on rewrite; do not emit dietary-lever prose in §4. Key studies must use bibliography keys resolvable in `static/bibtex/BRAIN-diet.bib`.
+**Citations:** map `key_studies` to inline `[Author et al., Year]` in primary mechanism blocks; References as `Author et al. (Year) — Topic` with bibliography links per **`system/brs-citation-reference-standard.md`**. Preserve citations on rewrite; do not emit dietary-lever prose in §4.
 
 Optional `evidence_highlights` (array of insight strings with embedded citation links) maps to `### 4.1 Evidence Highlights` as a **subsection at the end of §4** — see `system/primary-mechanism-schema.md` (**PM §4.1 — Evidence Highlights**). Insight-driven only; not mechanism definition or study summaries.
 

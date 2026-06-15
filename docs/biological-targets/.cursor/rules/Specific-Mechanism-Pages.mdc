@@ -14,6 +14,7 @@ When creating or editing Specific Mechanism (SM) pages:
 
 Follow:
 - `system/specific-mechanism-schema.md`
+- `system/brs-citation-reference-standard.md`
 - `system/primary-mechanism-schema.md` for collapsible, scoreable, timing, and bibliography conventions (SMs reuse PM rendering, not a separate grammar)
 - `system/mechanism-page-section-prose.md` — sections must not restate title, entity ID, BRS name/number, or Definition; each section follows only its schema role.
 
@@ -39,7 +40,7 @@ Front matter:
 - `sm_category` must be one of: SM-SNP, SM-PHEN, SM-CROSS
 
 References:
-- Numeric citations [1], [2]; links to `/docs/papers/BRAIN-Diet-References#citationKey`
+- Inline: `[Author et al., Year]`; References: `Author et al. (Year) — Topic` with links per `system/brs-citation-reference-standard.md`
 - Verify keys exist in `static/bibtex/BRAIN-diet.bib`
 
 Validate with `npm run mechanisms:validate`.

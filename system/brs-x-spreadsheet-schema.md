@@ -1,5 +1,7 @@
 # BRS-X Spreadsheet Schema
 
+Citation and reference format: **`system/brs-citation-reference-standard.md`**.
+
 ## Build Gate Proviso
 
 - Never render or expose spreadsheet column letters in generated MDX or public pages.
@@ -158,7 +160,7 @@ Use **one header row**. Column order below is recommended for ChatGPT workbooks.
 | `intervention_dominance` | FM, PM | FM, PM | `Diet-Dominant` \| `Diet-Supported` \| `Lifestyle-Dominant` \| `Mixed` |
 | `intervention_breakdown` | FM, PM | FM, PM | One of: `Food-State Dominant`, `Food-State Leaning`, `Mixed Modulation`, `Behavioural/Lifestyle Leaning`, `Behavioural/Lifestyle Dominant` |
 | `evidence_type` | FM, PM | FM, PM | `Human` \| `Human + mechanistic` \| `Preclinical` \| `Mixed` \| `Emerging` |
-| `key_studies` | PM (required), FM (recommended) | FM, PM | `Author et al. (Year) \| citation_key` — one per line or semicolon-separated |
+| `key_studies` | PM (required), FM (recommended) | FM, PM | `Author et al. (Year) — Short Descriptive Study Topic \| citation_key` — one per line or semicolon-separated |
 | `dose_sensitivity` | PM | PM | Pattern-based dose context; not prescriptive |
 | `coverage_timing` | FM, PM | FM, PM | `Meal` \| `Daily` \| `48h` \| `Weekly` \| `Monthly` |
 | `response_type` | PM | PM | `Immediate` \| `Hours` \| `Days` \| `Weeks` \| `Builds` \| `Reservoir` |

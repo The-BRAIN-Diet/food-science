@@ -5,13 +5,13 @@
     "key_studies": [
       {
         "index": 1,
-        "label": "Wurtman et al. (2003)",
+        "label": "Wurtman et al. (2003) — Carbohydrate–Protein Effects on Brain Precursors",
         "citation_key": "wurtman_effects_2003",
         "href": "/docs/papers/BRAIN-Diet-References#wurtman_effects_2003"
       },
       {
         "index": 2,
-        "label": "Fernstrom (2013)",
+        "label": "Fernstrom (2013) — LNAA Competition at the Blood–Brain Barrier",
         "citation_key": "fernstrom_lnna_2013",
         "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013"
       }
@@ -23,7 +23,7 @@
         {
           "heading": "(LAT1 and competitive precursor transport)",
           "paragraphs": [
-            "Aromatic amino acids cross the blood–brain barrier via competitive LNAA transport → [Fernstrom (2013)](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013) [2]"
+            "Aromatic amino acids cross the blood–brain barrier via competitive LNAA transport [Fernstrom, 2013]."
           ]
         }
       ]

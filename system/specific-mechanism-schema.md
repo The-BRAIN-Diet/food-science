@@ -1,5 +1,7 @@
 # Specific Mechanism (SM) Schema
 
+Citation and reference format: **`system/brs-citation-reference-standard.md`** (same as PM).
+
 ## Build Gate Proviso
 
 - Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
@@ -85,7 +87,7 @@ connected_kcs:
 intervention_breakdown: string    # same five values as PM/FM
 timing_specific: "Yes" | "No"     # required; not a public body section
 references:                       # same format as PM pages
-  - '[1] [Label](/docs/papers/BRAIN-Diet-References#citation_key)'
+  - '[Ramsey et al. (2009) — Circadian Control of NAD⁺ Biosynthesis](/docs/papers/BRAIN-Diet-References#citation_key)'
 hide_title: true
 ```
 
@@ -158,7 +160,7 @@ Do **not** use hub-only labels (e.g. “BRS3 crossover”) without at least one 
 
 - **Paragraph form (preferred):** Explain cross-links in connected prose. Embed links as `[BRSx(PMn) — Name](/docs/biological-targets/brsX/pm/...)`.
 - **Optional structure:** Use `####` subheads for priority tiers (e.g. Primary / Secondary / Tertiary) or thematic blocks when an `SM-CROSS` concept spans several domains — each block should still be **paragraph-led**, not bullet-only.
-- **Citations:** Use numeric refs `[1]` in §6.5 when claims need evidence; same bibliography as the rest of the page.
+- **Citations:** Use `[Author et al., Year]` in §6.5 when claims need evidence; References per **`system/brs-citation-reference-standard.md`**.
 - **§5 vs §6.5:** §5 Mechanistic Basis summarises how **connected host PMs/FMs** support the overlay; §6.5 is where **cross-BRS PM placement** and priority (e.g. primary neurotransmitter home vs gut-interface crossover) are spelled out.
 
 ### Example pattern (`SM-CROSS`)
@@ -170,7 +172,7 @@ Do **not** use hub-only labels (e.g. “BRS3 crossover”) without at least one 
 
 #### Primary: <theme> in BRS1
 
-<Paragraph explaining neural/arousal role.> Arousal coupling maps to [BRS1-FM1-PM2 — …](/docs/biological-targets/brs1/pm/…). Circadian crossover maps to [BRS6-FM2-PM5 — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment) [1].
+<Paragraph explaining neural/arousal role.> Arousal coupling maps to [BRS1-FM1-PM2 — …](/docs/biological-targets/brs1/pm/…). Circadian crossover maps to [BRS6-FM2-PM5 — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment) [Ramsey et al., 2009].
 
 #### Secondary: <theme> in BRS3
 

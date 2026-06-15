@@ -23,8 +23,8 @@ cofactors:
 #         label: "<Author et al. (Year)>"
 #         citation_key: "<citation_key>"
 #         href: "/docs/papers/BRAIN-Diet-References#<citation_key>"
-intervention_dominance: "<diet-dominant|lifestyle-dominant|mixed>" # from intervention dominance
-intervention_breakdown: "<Food-State Dominant|…>" # when using Profile A extended
+intervention_dominance: "<Diet-Dominant|Diet/Lifestyle-Combined|Lifestyle-Dominant>"
+intervention_breakdown: "<Food-State Dominant|…>" # spreadsheet ingest; not rendered as §3 body
 timing_specific: "<Yes|No>"
 dose_sensitivity: "<Low|Moderate|High>"
 references:
@@ -60,14 +60,31 @@ No direct functional outcome relationship currently mapped.
 - **Evidence Level:** <evidence_level>
 - **Rationale:** <rationale>
 - **Key References:**
-  - [<Author (Year)>](/docs/papers/BRAIN-Diet-References#citation_key)
+  - [Author et al. (Year) — Short Descriptive Study Topic](/docs/papers/BRAIN-Diet-References#citation_key)
 
 </details>
 -->
 
-## 3. Intervention Breakdown
+## 3. Intervention Summary
 
-<INSERT_INTERVENTION_BREAKDOWN_VALUE> <!-- omit §3 when not in front matter (Profile A′) -->
+### Intervention Profile
+
+**Intervention Dominance:** <INSERT_INTERVENTION_DOMINANCE>
+
+### Foundational Levers
+
+- <INSERT_FOUNDATIONAL_LEVER> (Evidence:<INSERT_EVIDENCE_TIER>) [Author et al., Year]
+
+<details>
+<summary><strong>Supporting Levers</strong></summary>
+
+- <INSERT_SUPPORTING_LEVER> (Evidence:<INSERT_EVIDENCE_TIER>) [Author et al., Year]
+
+</details>
+
+<!-- Omit Supporting and/or Complementary <details> when that tier has no levers — do not use "- None listed" in a dropdown -->
+
+<!-- Omit entire §3 when not using Profile A extended (Profile A′). See system/pm-intervention-summary-standard.md -->
 
 ## 4. Functional Role
 
@@ -85,7 +102,7 @@ No direct functional outcome relationship currently mapped.
 #### (<INSERT_PRIMARY_MECHANISM_THEME>)
 
 <INSERT_HOW_THE_MECHANISM_WORKS — meal-level or pathway biology this PM owns>
-<!-- Cite evidence-backed claims inline: [Author (Year)](/docs/papers/BRAIN-Diet-References#citation_key) [n] — keep citations when rewriting §5; see system/primary-mechanism-schema.md PM §5 — Citations -->
+<!-- Cite evidence-backed claims inline: [Author et al., Year] — see system/brs-citation-reference-standard.md -->
 
 #### (Boundaries of the mechanism)
 
@@ -106,7 +123,7 @@ No direct functional outcome relationship currently mapped.
 <details>
 <summary><strong>Evidence highlights — <INSERT_THEME></strong></summary>
 
-- <INSERT_FINDING_NOT_MECHANISM — [Author (Year)](/docs/papers/BRAIN-Diet-References#citation_key) [n]>
+- <INSERT_FINDING_NOT_MECHANISM — [Author et al., Year]>
 
 </details>
 
@@ -146,9 +163,11 @@ No direct functional outcome relationship currently mapped.
 <details>
 <summary><strong>Lifestyle</strong></summary>
 
-<INSERT_LIFESTYLE_LEVER_BULLETS_OR_PROSE>
+- <INSERT_LIFESTYLE_LEVER> (Evidence:<INSERT_EVIDENCE_TIER>) [Author et al., Year]
 
 </details>
+
+<!-- §9 inputs feed §3 Supporting/Complementary tiers; omit empty <details> in §3 -->
 
 ## 10. Scoreable Inputs & Modulation Signals
 
@@ -167,4 +186,5 @@ No direct functional outcome relationship currently mapped.
 
 ## 11. References
 
-1. [Placeholder reference 1](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>)
+<!-- Author et al. (Year) — Topic; see system/brs-citation-reference-standard.md -->
+- [Author et al. (Year) — Short Descriptive Study Topic](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>)

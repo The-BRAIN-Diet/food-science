@@ -22,12 +22,12 @@ Page structure:
 - Therapeutic Areas: Must use the <TagList tag="biological target" filter="therapeutic-areas" /> here.
 - Substances: Must use the <TagList tag="biological target" filter="substances" /> here.
 - Biological Mechanisms and Implications: From paper.txt talk about any problems arising from issues with this biological area. e.g. "Protein forward meals (25-35g of protein) for focus and alertness."
-- References: A list of findings or scientific principles, with their link to the `/docs/papers/BRAIN-Diet-References#<ref>` that discusses it, from paper.txt in the root directory. Make sure all assertions are backed up by evidence from the paper.txt file . Use references if the paper mentions them.
-- Modulators must not be added without evidence. If a modulator is introduced, include inline numeric citations and matching references linked through `/docs/papers/BRAIN-Diet-References#<ref>`.
+- References: A list of findings or scientific principles per **`system/brs-citation-reference-standard.md`**: inline `[Author et al., Year]` in body; References entries as `[Author et al. (Year) — Short Descriptive Study Topic](/docs/papers/BRAIN-Diet-References#<ref>)`. Use `paper.txt` and bibliography where applicable.
+- Modulators must not be added without evidence. If a modulator is introduced, cite inline per **`system/brs-citation-reference-standard.md`** and add a matching References entry.
 - Ensure cited bibliography entries include DOI or source URL so the bibliography provides a clickable path to the original source.
 
 An example for the References section might look like this:
 
-- A decreased microbial diversity (alpha diversity) has also been reported in ADHD [Prehn-Kristensen et al. 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
+- [Prehn-Kristensen et al. (2018) — Reduced Gut Microbial Diversity in ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
 
 Use the `methylation.md` page as an example.

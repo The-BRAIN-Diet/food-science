@@ -1,5 +1,5 @@
 /**
- * Build FM §4.4 Functional Failure Modes from linked KC stressors and PM context.
+ * Build FM §4.3 Functional Failure Modes from linked KC stressors and PM context.
  */
 
 import fs from "node:fs";
@@ -8,7 +8,7 @@ import matter from "gray-matter";
 import { extractKcStressors } from "./kc-stressor-extract.mjs";
 
 export const FM_FAILURE_OVERRIDES = {
-  "BRS5(FM1)": `### 4.4 Functional Failure Modes
+  "BRS5(FM1)": `### 4.3 Functional Failure Modes
 
 Gut barrier integrity may weaken when fermentable substrate availability declines, barrier-supportive nutrient sufficiency is inadequate, keystone taxa support is reduced, or endotoxin containment becomes compromised.
 
@@ -19,7 +19,7 @@ Low zinc, omega-3, and vitamin-A-supportive dietary patterns may strain [BRS5(KC
 These pressures may impair [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity), weaken [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment), and reduce the ecological support described by [BRS5-FM1-PM3 — Keystone Taxa Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support). At the FM level, this may shift the system toward weaker epithelial containment, increased immune activation, and greater gut-derived inflammatory signalling.`,
 };
 
-/** Archived KC stressors (migrated off KC pages into FM §4.4). */
+/** Archived KC stressors (migrated off KC pages into FM §4.3). */
 export const KC_STRESSOR_ARCHIVE = {
   "BRS1(KC2)": [
     "Reliance on incomplete protein sources without complementary pairing",
@@ -184,7 +184,7 @@ export function buildFailureModesSection(fmData, kcStressorMap) {
   const kcParas = kcs.map((kc) => weaveKcStressors(kc, kcStressorMap[kc.id] || [])).join("\n\n");
   const closing = buildClosing(fmData, pms);
 
-  return `### 4.4 Functional Failure Modes
+  return `### 4.3 Functional Failure Modes
 
 ${opening}
 
@@ -212,17 +212,17 @@ export function loadKcStressorMap(rootDir) {
 
 export function insertFailureModesInSection4(section4, failureModes, evidenceBlock) {
   let body = section4.replace(/\n### 4\.4 Evidence Highlights[\s\S]*?(?=\n## 5\.|$)/, "");
-  body = body.replace(/\n### 4\.4 Functional Failure Modes[\s\S]*?(?=\n### 4\.5|\n## 5\.|$)/, "");
-  body = body.replace(/\n### 4\.5 Evidence Highlights[\s\S]*?(?=\n## 5\.|$)/, "");
+  body = body.replace(/\n### 4\.3 Functional Failure Modes[\s\S]*?(?=\n### 4\.4|\n## 5\.|$)/, "");
+  body = body.replace(/\n### 4\.2 Supporting Biological Pools \(Key Constraints\)[\s\S]*?(?=\n### 4\.[23])/g, "");
 
   const failure = failureModes ? `\n\n${failureModes}` : "";
   const evidence = evidenceBlock
-    ? `\n\n${evidenceBlock.replace("### 4.4 Evidence Highlights", "### 4.5 Evidence Highlights")}`
+    ? `\n\n${evidenceBlock.replace(/^### 4\.[45] Evidence Highlights/m, "### 4.4 Evidence Highlights")}`
     : "";
 
-  if (body.match(/### 4\.3 Integrated Functional Narrative/)) {
+  if (body.match(/### 4\.2 Integrated Functional Narrative/)) {
     return body.replace(
-      /(### 4\.3 Integrated Functional Narrative[\s\S]*?)(?=\n## 5\.|$)/,
+      /(### 4\.2 Integrated Functional Narrative[\s\S]*?)(?=\n## 5\.|$)/,
       `$1${failure}${evidence}`,
     );
   }
@@ -230,6 +230,6 @@ export function insertFailureModesInSection4(section4, failureModes, evidenceBlo
 }
 
 export function extractEvidenceHighlightsBlock(section4) {
-  const m = section4.match(/(### 4\.(?:4|5) Evidence Highlights[\s\S]*?)(?=\n## 5\.|$)/);
+  const m = section4.match(/(### 4\.4 Evidence Highlights[\s\S]*?)(?=\n## 5\.|$)/);
   return m ? m[1].trim() : "";
 }

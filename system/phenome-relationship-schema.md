@@ -1,5 +1,7 @@
 # Phenome Relationship Schema
 
+Citation format for phenome `references`: **`system/brs-citation-reference-standard.md`** (`label` = `Author et al. (Year) — Topic`).
+
 ## Purpose
 
 **Target functional outcomes / phenomes** are emergent functional patterns (for example Motivation, Emotional Regulation, Sustained Attention). They must not be treated as simple tags or hard causal claims on PM/FM pages.

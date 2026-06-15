@@ -15,6 +15,7 @@ When creating or editing Key Constraint (KC) pages:
 
 Follow:
 - `system/key-constraint-schema.md` (including **KC Evidence Layer Rules**)
+- `system/brs-citation-reference-standard.md`
 - `system/mechanism-page-section-prose.md` — sections must not restate title, entity ID, BRS name/number, or Definition; each section follows only its schema role.
 
 KC identity:
@@ -49,7 +50,7 @@ Section guidance:
 - Shared Biological Pool: plain substrate/precursor/structural bullets only — NO food examples, NO cofactors, NO substance ← food mapping
 - Biological Importance: why the pool matters; keep foundational and short
 - Connected Mechanisms: linked FM and PM lists under #### subheadings; no PM→PM or FM→FM chains
-- References: central bibliography only
+- References: `Author et al. (Year) — Topic` with bibliography links per `system/brs-citation-reference-standard.md`
 
 ---
 
@@ -90,10 +91,10 @@ Avoid overmechanising:
 
 Reference resolution:
 - All refs must resolve through `static/bibtex/BRAIN-diet.bib`
-- Public link format: `/docs/papers/BRAIN-Diet-References#citationKey`
+- Public link format: `/docs/papers/BRAIN-Diet-References#citationKey` with descriptive label per `system/brs-citation-reference-standard.md`
 - New refs need citation key, metadata, and DOI/URL where available
 - No unresolved plain-text citations
-- Use `[1]`, `[2]` inline only where sections 1–2 or 4 make evidence-backed claims
+- Use `[Author et al., Year]` inline only where sections 1–2 or 4 make evidence-backed claims (`system/brs-citation-reference-standard.md`)
 - Flag: "Missing bibliography entry"
 
 Shared Biological Pool formatting:

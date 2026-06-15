@@ -1,5 +1,7 @@
 # Key Constraint (KC) Schema
 
+Citation and reference format: **`system/brs-citation-reference-standard.md`**.
+
 ## Build Gate Proviso
 
 - Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
@@ -212,11 +214,7 @@ KC pages must not define PM→PM or FM→FM dependencies.
 
 See **KC Evidence Layer Rules** below for citation philosophy, density, hierarchy, and resolution requirements.
 
-Render a numbered bibliography list. All public links must use:
-
-`/docs/papers/BRAIN-Diet-References#citationKey`
-
-Use numeric inline citations `[1]`, `[2]` only where sections 1–2 or 4 make evidence-backed claims requiring a source.
+Follow **`system/brs-citation-reference-standard.md`**: inline `[Author et al., Year]` where sections 1–2 or 4 make evidence-backed claims; References entries as `Author et al. (Year) — Short Descriptive Study Topic` linking to `/docs/papers/BRAIN-Diet-References#citationKey`.
 
 ---
 

@@ -1,5 +1,7 @@
 # BRS Page Schema
 
+Citation and reference format: **`system/brs-citation-reference-standard.md`** (inline `[Author et al., Year]`; References `Author et al. (Year) — Topic` with bibliography links).
+
 ## Build Gate Proviso
 
 - Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
@@ -73,7 +75,7 @@ Hub sections must not restate the BRS title or Overview at the start of Function
 - Contextual modifiers only (non-core structure).
 - Allowed examples include circadian timing, stress/recovery, sleep, physical activity, meal timing.
 - Must not treat modulators as FMs, PMs, or KCs.
-- Modulator claims must be supported by evidence and cited with inline numeric citations that resolve in the References section.
+- Modulator claims must be supported by evidence and cited inline per **`system/brs-citation-reference-standard.md`** (`[Author et al., Year]`).
 
 ## Functional Outputs
 
@@ -84,11 +86,12 @@ Hub sections must not restate the BRS title or Overview at the start of Function
 
 ## References
 
-- Placeholder references are allowed in templates.
-- Use bibliography links:
-  - `/docs/papers/BRAIN-Diet-References#citationKey`
-- If claims are made, references must resolve to valid bibliography keys.
-- Bibliography entries should include a DOI or source URL so users can click through from bibliography to source.
+Every BRS hub page must include a **References** section. Follow **`system/brs-citation-reference-standard.md`**.
+
+- Each entry: `Author et al. (Year) — Short Descriptive Study Topic` with link to `/docs/papers/BRAIN-Diet-References#citationKey`.
+- Citation keys must exist in `static/bibtex/BRAIN-diet.bib`.
+- Placeholder references are allowed in templates only until bibliography keys are validated.
+- Bibliography entries should include a DOI or source URL.
 
 ## Validation Rules
 

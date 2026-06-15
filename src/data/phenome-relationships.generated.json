@@ -1,11 +1,11 @@
 {
   "meta": {
     "version": 1,
-    "generatedAt": "2026-06-11T13:05:45.544Z",
+    "generatedAt": "2026-06-15T13:54:19.056Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
-    "pmPageCount": 59,
-    "pmPagesWithMappings": 11,
-    "relationshipCount": 32
+    "pmPageCount": 60,
+    "pmPagesWithMappings": 13,
+    "relationshipCount": 36
   },
   "relationships": [
     {
@@ -193,6 +193,32 @@
           "label": "Leao et al. (2025)",
           "citationKey": "leao_in_vitro_female_gut_microbiome_sex_hormones_2025",
           "href": "/docs/papers/BRAIN-Diet-References#leao_in_vitro_female_gut_microbiome_sex_hormones_2025"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS4-FM1-PM2",
+      "sourceTitle": "NAD⁺ Metabolism",
+      "sourcePath": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism",
+      "parentFM": "BRS4(FM1)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "intervention",
+      "rationale": "NAD⁺ availability underpins mitochondrial redox reactions and ATP-linked energy metabolism; human intervention evidence shows systemic NAD⁺ repletion can improve performance in deficiency, and micronutrient sufficiency has been associated with fatigue and cognitive function, though direct brain NAD⁺ outcome evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Pirinen et al. (2020)",
+          "citationKey": "pirinen_niacin_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020"
+        },
+        {
+          "index": 2,
+          "label": "Tardy et al. (2020)",
+          "citationKey": "tardy_vitamins_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020"
         }
       ]
     },
@@ -433,6 +459,32 @@
       ]
     },
     {
+      "sourceNode": "BRS4-FM3-PM7",
+      "sourceTitle": "Ketone Utilisation Capacity",
+      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
+      "parentFM": "BRS4(FM3)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Energy Stability Under Variable Fuel Conditions",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "The ability to utilise ketone bodies may help support ATP production during periods of reduced glucose availability or altered metabolic demand, including brain energy metabolism when glucose supply shifts.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Kyriazis et al. (2022)",
+          "citationKey": "kyriazis_impact_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
+        },
+        {
+          "index": 2,
+          "label": "Fuehrlein et al. (2004)",
+          "citationKey": "fuehrlein_differential_2004",
+          "href": "/docs/papers/BRAIN-Diet-References#fuehrlein_differential_2004"
+        }
+      ]
+    },
+    {
       "sourceNode": "BRS-X(Hormones-PM1)",
       "sourceTitle": "Oestrogen Signalling Stability",
       "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability",
@@ -525,6 +577,26 @@
           "label": "De Paoli et al. (2021)",
           "citationKey": "depaoli_estrogen_insulin_resistance_2021",
           "href": "/docs/papers/BRAIN-Diet-References#depaoli_estrogen_insulin_resistance_2021"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS4-FM3-PM7",
+      "sourceTitle": "Ketone Utilisation Capacity",
+      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
+      "parentFM": "BRS4(FM3)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Metabolic Resilience",
+      "relationshipType": "supports",
+      "confidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Ketone utilisation expands the range of substrates available for energy production and contributes to broader metabolic adaptability across varying nutritional and physiological conditions.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Kyriazis et al. (2022)",
+          "citationKey": "kyriazis_impact_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
         }
       ]
     },
@@ -643,6 +715,26 @@
           "label": "Garani et al. (2021)",
           "citationKey": "garani_endocannabinoid_2021",
           "href": "/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021"
+        }
+      ]
+    },
+    {
+      "sourceNode": "BRS4-FM1-PM2",
+      "sourceTitle": "NAD⁺ Metabolism",
+      "sourcePath": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism",
+      "parentFM": "BRS4(FM1)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Recovery Capacity",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "NAD⁺ salvage capacity in skeletal muscle responds to regular aerobic and resistance training and declines with age; maintaining NAD⁺ turnover may support recovery from sustained metabolic demand, though direct ADHD-specific evidence remains limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "de Guia et al. (2019)",
+          "citationKey": "de_guia_nad_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#de_guia_nad_2019"
         }
       ]
     },
@@ -847,7 +939,8 @@
     "Cognitive Energy Stability": [
       "BRS-X(Hormones-PM4)",
       "BRS-X(Hormones-PM5)",
-      "BRS-X(Hormones-PM6)"
+      "BRS-X(Hormones-PM6)",
+      "BRS4-FM1-PM2"
     ],
     "Emotional Regulation": [
       "BRS-X(ECS-PM1)",
@@ -861,12 +954,18 @@
       "BRS-X(Hormones-PM5)",
       "BRS-X(Hormones-PM6)"
     ],
+    "Energy Stability Under Variable Fuel Conditions": [
+      "BRS4-FM3-PM7"
+    ],
     "Focus / Attention Stability": [
       "BRS-X(Hormones-PM1)"
     ],
     "Hormonal Volatility": [
       "BRS-X(Hormones-PM2)",
       "BRS-X(Hormones-PM4)"
+    ],
+    "Metabolic Resilience": [
+      "BRS4-FM3-PM7"
     ],
     "Motivation / Drive": [
       "BRS-X(ECS-PM1)",
@@ -875,7 +974,8 @@
       "BRS-X(Hormones-PM6)"
     ],
     "Recovery Capacity": [
-      "BRS-X(ECS-PM5)"
+      "BRS-X(ECS-PM5)",
+      "BRS4-FM1-PM2"
     ],
     "Reward Regulation": [
       "BRS-X(ECS-PM4)"
@@ -1299,6 +1399,82 @@
             "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism",
             "relationship_type": "indirect",
             "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS4(FM1)": [
+      {
+        "target_phenome": "Cognitive Energy Stability",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "intervention",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "NAD⁺ availability underpins mitochondrial redox reactions and ATP-linked energy metabolism; human intervention evidence shows systemic NAD⁺ repletion can improve performance in deficiency, and micronutrient sufficiency has been associated with fatigue and cognitive function, though direct brain NAD⁺ outcome evidence remains limited.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM1-PM2",
+            "name": "NAD⁺ Metabolism",
+            "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "intervention"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Recovery Capacity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "NAD⁺ salvage capacity in skeletal muscle responds to regular aerobic and resistance training and declines with age; maintaining NAD⁺ turnover may support recovery from sustained metabolic demand, though direct ADHD-specific evidence remains limited.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM1-PM2",
+            "name": "NAD⁺ Metabolism",
+            "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS4(FM3)": [
+      {
+        "target_phenome": "Energy Stability Under Variable Fuel Conditions",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "The ability to utilise ketone bodies may help support ATP production during periods of reduced glucose availability or altered metabolic demand, including brain energy metabolism when glucose supply shifts.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM3-PM7",
+            "name": "Ketone Utilisation Capacity",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Metabolic Resilience",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "supports",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low",
+        "evidence_summary": "Ketone utilisation expands the range of substrates available for energy production and contributes to broader metabolic adaptability across varying nutritional and physiological conditions.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM3-PM7",
+            "name": "Ketone Utilisation Capacity",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
+            "relationship_type": "supports",
+            "confidence": "low",
             "evidence_level": "mechanistic"
           }
         ]
