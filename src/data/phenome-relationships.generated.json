@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 1,
-    "generatedAt": "2026-06-15T13:54:19.056Z",
+    "generatedAt": "2026-06-15T14:17:05.035Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "pmPageCount": 60,
     "pmPagesWithMappings": 13,
@@ -472,15 +472,15 @@
       "references": [
         {
           "index": 1,
-          "label": "Kyriazis et al. (2022)",
-          "citationKey": "kyriazis_impact_2022",
-          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
+          "label": "Ramezani et al. (2023)",
+          "citationKey": "ramezani_ketone_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ramezani_ketone_2023"
         },
         {
           "index": 2,
-          "label": "Fuehrlein et al. (2004)",
-          "citationKey": "fuehrlein_differential_2004",
-          "href": "/docs/papers/BRAIN-Diet-References#fuehrlein_differential_2004"
+          "label": "López-Ojeda et al. (2023)",
+          "citationKey": "lopez_ojeda_ketone_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#lopez_ojeda_ketone_2023"
         }
       ]
     },
@@ -594,9 +594,15 @@
       "references": [
         {
           "index": 1,
-          "label": "Kyriazis et al. (2022)",
-          "citationKey": "kyriazis_impact_2022",
-          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
+          "label": "López-Ojeda et al. (2023)",
+          "citationKey": "lopez_ojeda_ketone_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#lopez_ojeda_ketone_2023"
+        },
+        {
+          "index": 2,
+          "label": "Ramezani et al. (2023)",
+          "citationKey": "ramezani_ketone_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ramezani_ketone_2023"
         }
       ]
     },
