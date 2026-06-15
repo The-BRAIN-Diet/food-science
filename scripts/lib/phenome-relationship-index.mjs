@@ -9,6 +9,12 @@ import path from "node:path";
 import matter from "gray-matter";
 import { listMechanismMdxFiles } from "./mechanism-page-validation.mjs";
 import { aggregateFmConnectedPhenomes } from "./phenome-relationships.mjs";
+import {
+  enrichRelationshipsWithPhenomeIds,
+  buildPhenomeRegistryDiagnostics,
+  loadPhenomeRegistry,
+  buildRegistryNameIndex,
+} from "./phenome-registry.mjs";
 
 const DOCS_BIO_TARGETS = "docs/biological-targets";
 
@@ -188,22 +194,52 @@ export function queryPmsForPhenome(targetPhenome, relationships) {
  * @param {string} rootDir
  */
 export function buildPhenomeRelationshipIndex(rootDir = process.cwd()) {
-  const relationships = collectPmPhenomeRelationships(rootDir);
+  const rawRelationships = collectPmPhenomeRelationships(rootDir);
+  const registry = loadPhenomeRegistry(rootDir);
+  const relationships = enrichRelationshipsWithPhenomeIds(rawRelationships, registry);
+  const diagnostics = buildPhenomeRegistryDiagnostics(relationships, registry);
   const pmPagesWithMappings = new Set(relationships.map((r) => r.sourceNode)).size;
 
   return {
     meta: {
-      version: 1,
+      version: 2,
       generatedAt: new Date().toISOString(),
       source: `${DOCS_BIO_TARGETS}/**/*pm*.mdx`,
+      registrySource: "src/data/phenome-registry.json",
+      registryVersion: registry.meta?.version ?? 1,
       pmPageCount: listMechanismMdxFiles(rootDir, "pm").length,
       pmPagesWithMappings,
       relationshipCount: relationships.length,
+      mappedRelationshipCount: diagnostics.mappedEdgeCount,
     },
+    diagnostics,
     relationships,
     byPhenome: indexRelationshipsByPhenome(relationships),
+    byPhenomeId: indexRelationshipsByPhenomeId(relationships, registry),
     fmRollups: buildFmConnectedPhenomeRollups(relationships),
   };
+}
+
+/**
+ * @param {ReturnType<typeof enrichRelationshipsWithPhenomeIds>} relationships
+ * @param {ReturnType<typeof loadPhenomeRegistry>} registry
+ */
+function indexRelationshipsByPhenomeId(relationships, registry) {
+  /** @type {Record<string, string[]>} */
+  const byId = {};
+  const { byName } = buildRegistryNameIndex(registry);
+  const nameToId = new Map([...byName.entries()].map(([name, entry]) => [name, entry.id]));
+
+  for (const row of relationships) {
+    const id = row.targetPhenomeId || nameToId.get(row.targetPhenome);
+    if (!id) continue;
+    if (!byId[id]) byId[id] = [];
+    if (!byId[id].includes(row.sourceNode)) byId[id].push(row.sourceNode);
+  }
+  for (const key of Object.keys(byId)) {
+    byId[key].sort();
+  }
+  return byId;
 }
 
 /**

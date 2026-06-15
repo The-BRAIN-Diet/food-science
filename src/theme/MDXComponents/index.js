@@ -19,6 +19,7 @@ import SubstanceFoods from '../SubstanceFoods';
 import FoodRecipes from '../FoodRecipes';
 import FoodShoppingList from '../FoodShoppingList';
 import NutritionTable from '../../components/NutritionTable';
+import PhenomeRegistry from '../PhenomeRegistry';
 
 export default {
   ...MDXComponents,
@@ -41,4 +42,5 @@ export default {
   SubstanceFoods,
   FoodRecipes,
   FoodShoppingList,
+  PhenomeRegistry,
 };

@@ -4,6 +4,7 @@
  */
 
 import indexJson from "./phenome-relationships.generated.json";
+import registryJson from "./phenome-registry.json";
 
 export type PhenomeReference = {
   index?: number;
@@ -19,6 +20,7 @@ export type PhenomeRelationshipRecord = {
   parentFM: string | null;
   parentBRS: string | null;
   targetPhenome: string;
+  targetPhenomeId: string | null;
   relationshipType: "supports" | "disrupts" | "modulates" | "indirect";
   confidence: "low" | "low-medium" | "medium" | "high";
   evidenceLevel: "mechanistic" | "observational" | "intervention" | "clinical";
@@ -45,21 +47,55 @@ export type FmConnectedPhenomeRollup = {
   contributing_pms: FmContributingPm[];
 };
 
+export type PhenomeRegistryEntry = {
+  id: string;
+  name: string;
+  slug: string;
+  description: string;
+  publicSummary: string;
+  primaryDomains: string[];
+  status: string;
+};
+
+export type PhenomeRegistryDiagnostics = {
+  registryPhenomeCount: number;
+  relationshipEdgeCount: number;
+  mappedEdgeCount: number;
+  unmappedPhenomeLabels: string[];
+  labelsInEdgesNotInRegistry: string[];
+  edgesMissingTargetPhenome: number;
+  edgesWithNullPhenomeId: Array<{ sourceNode: string; targetPhenome: string }>;
+  duplicateRegistryNames: string[];
+  orphanRegistryPhenomes: Array<{ id: string; name: string }>;
+  reviewFlags: unknown[];
+};
+
 export type PhenomeRelationshipIndex = {
   meta: {
     version: number;
     generatedAt: string;
     source: string;
+    registrySource?: string;
+    registryVersion?: number;
     pmPageCount: number;
     pmPagesWithMappings: number;
     relationshipCount: number;
+    mappedRelationshipCount?: number;
   };
+  diagnostics?: PhenomeRegistryDiagnostics;
   relationships: PhenomeRelationshipRecord[];
   byPhenome: Record<string, string[]>;
+  byPhenomeId?: Record<string, string[]>;
   fmRollups: Record<string, FmConnectedPhenomeRollup[]>;
 };
 
 export const phenomeRelationshipIndex = indexJson as PhenomeRelationshipIndex;
+
+export const phenomeRegistry = registryJson as {
+  meta: { version: number; description?: string };
+  phenomes: PhenomeRegistryEntry[];
+  reviewFlags?: unknown[];
+};
 
 export const phenomeRelationships = phenomeRelationshipIndex.relationships;
 
@@ -74,10 +110,19 @@ export function getPmNodesForPhenome(targetPhenome: string): string[] {
   return match ? [...match[1]] : [];
 }
 
+/** PM nodes linked by stable phenome registry ID. */
+export function getPmNodesForPhenomeId(phenomeId: string): string[] {
+  return [...(phenomeRelationshipIndex.byPhenomeId?.[phenomeId] ?? [])];
+}
+
 /** Full relationship rows for a phenome — supports reciprocal phenome → PM links. */
 export function getRelationshipsForPhenome(targetPhenome: string): PhenomeRelationshipRecord[] {
   const needle = targetPhenome.trim().toLowerCase();
   return phenomeRelationships.filter((r) => r.targetPhenome.toLowerCase() === needle);
+}
+
+export function getRelationshipsForPhenomeId(phenomeId: string): PhenomeRelationshipRecord[] {
+  return phenomeRelationships.filter((r) => r.targetPhenomeId === phenomeId);
 }
 
 /** Connected phenome roll-up for an FM (graph / phenome pages — not FM MDX §2). */
@@ -88,4 +133,8 @@ export function getFmConnectedPhenomeRollup(parentFm: string): FmConnectedPhenom
 /** Distinct phenome labels present in the index. */
 export function listIndexedPhenomes(): string[] {
   return Object.keys(phenomeRelationshipIndex.byPhenome).sort();
+}
+
+export function getPhenomeRegistryEntry(phenomeId: string): PhenomeRegistryEntry | undefined {
+  return phenomeRegistry.phenomes.find((p) => p.id === phenomeId);
 }

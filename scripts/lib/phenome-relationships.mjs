@@ -85,6 +85,20 @@ function rankConfidence(value) {
   return CONFIDENCE_RANK[String(value).trim()] ?? 0;
 }
 
+function extractFmOutcomeContextSection(content) {
+  const fmTitle = FM_OUTCOME_CONTEXT_SECTION_TITLE;
+  const fmHeading = new RegExp(
+    `^##\\s+2\\.\\s+${fmTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+    "m",
+  );
+  const match = content.match(fmHeading);
+  if (!match || match.index === undefined) return null;
+  const start = match.index;
+  const after = content.slice(start);
+  const nextSection = after.slice(1).search(/^## \d+\. /m);
+  return nextSection === -1 ? after : after.slice(0, 1 + nextSection);
+}
+
 function confidenceFromRank(rank) {
   return CONFIDENCE_BY_RANK[rank] ?? "low";
 }
@@ -200,6 +214,86 @@ export function validateFmOutcomeContextFrontMatter(data, issues, { entityLabel 
 /** @deprecated Use validateFmOutcomeContextFrontMatter */
 export function validateFmPhenomeFrontMatter(data, issues, ctx) {
   validateFmOutcomeContextFrontMatter(data, issues, ctx);
+}
+
+/**
+ * When an FM has exactly one child PM, §2 outcome names and confidence must align
+ * with that PM's phenome_relationships (Single-PM FM 1:1 rule).
+ * @see system/phenome-relationship-schema.md
+ */
+export function validateSinglePmFmOutcomeAlignment(fmData, childPmData, issues, { entityLabel, childPmId }) {
+  const pms = fmData?.mechanisms_covered;
+  if (!Array.isArray(pms) || pms.length !== 1) return;
+
+  const pmRels = Array.isArray(childPmData?.phenome_relationships)
+    ? childPmData.phenome_relationships
+    : [];
+  const fmOutcomes = Array.isArray(fmData?.functional_outcome_context)
+    ? fmData.functional_outcome_context
+    : [];
+
+  const pmMapped = pmRels.length > 0;
+  const fmMapped = fmOutcomes.length > 0;
+
+  if (!pmMapped && !fmMapped) return;
+
+  if (pmMapped && !fmMapped) {
+    issues.push({
+      code: "single_pm_fm_outcome_missing",
+      message: `${entityLabel}: functional_outcome_context is required when sole child PM ${childPmId} has phenome_relationships (Single-PM FM 1:1 rule)`,
+    });
+    return;
+  }
+
+  if (!pmMapped && fmMapped) {
+    issues.push({
+      code: "single_pm_fm_outcome_orphan",
+      message: `${entityLabel}: remove functional_outcome_context or add phenome_relationships on sole child PM ${childPmId} (Single-PM FM 1:1 rule)`,
+    });
+    return;
+  }
+
+  const pmByPhenome = new Map(
+    pmRels.map((rel) => [String(rel.target_phenome || "").trim(), rel]),
+  );
+  const fmByOutcome = new Map(
+    fmOutcomes.map((row) => [String(row.outcome_name || "").trim(), row]),
+  );
+
+  if (pmByPhenome.size !== fmByOutcome.size) {
+    issues.push({
+      code: "single_pm_fm_phenome_count_mismatch",
+      message: `${entityLabel}: functional_outcome_context must include the same phenome count as sole child PM ${childPmId} (${pmByPhenome.size} expected, ${fmByOutcome.size} found)`,
+    });
+  }
+
+  for (const [phenome, pmRel] of pmByPhenome) {
+    if (!phenome) continue;
+    const fmRow = fmByOutcome.get(phenome);
+    if (!fmRow) {
+      issues.push({
+        code: "single_pm_fm_phenome_missing",
+        message: `${entityLabel}: functional_outcome_context must include "${phenome}" to match sole child PM ${childPmId} (Single-PM FM 1:1 rule)`,
+      });
+      continue;
+    }
+    if (fmRow.confidence !== pmRel.confidence) {
+      issues.push({
+        code: "single_pm_fm_confidence_mismatch",
+        message: `${entityLabel}: "${phenome}" confidence must be "${pmRel.confidence}" to match sole child PM ${childPmId} (found "${fmRow.confidence}")`,
+      });
+    }
+  }
+
+  for (const [outcomeName] of fmByOutcome) {
+    if (!outcomeName) continue;
+    if (!pmByPhenome.has(outcomeName)) {
+      issues.push({
+        code: "single_pm_fm_phenome_extra",
+        message: `${entityLabel}: remove FM-only outcome "${outcomeName}" — sole child PM ${childPmId} does not map this phenome (Single-PM FM 1:1 rule)`,
+      });
+    }
+  }
 }
 
 function pickStrongestRelationship(types) {
@@ -319,20 +413,25 @@ export function renderFmOutcomeContextSectionBody(outcomes = []) {
   }
 
   for (const row of outcomes) {
-    lines.push(`### ${row.outcome_name}`);
-    lines.push(`**Confidence:** ${formatOutcomeConfidence(row.confidence)}`);
+    const target = row.outcome_name;
+    lines.push("<details>");
+    lines.push(`<summary><strong>${target}</strong></summary>`);
     lines.push("");
-    lines.push(String(row.synthesis).trim());
-    lines.push("");
+    lines.push(`- **Confidence:** ${row.confidence}`);
+    lines.push(`- **Synthesis:** ${String(row.synthesis).trim()}`);
     if (Array.isArray(row.references) && row.references.length > 0) {
-      const linked = row.references.map((ref) => {
+      lines.push("- **Key References:**");
+      lines.push("  <ul>");
+      for (const ref of row.references) {
         const href = ref.href || `/docs/papers/BRAIN-Diet-References#${ref.citation_key}`;
         const label = ref.label || ref.citation_key;
-        return `[${label}](${href})`;
-      });
-      lines.push(`**Key references:** ${linked.join("; ")}`);
-      lines.push("");
+        lines.push(`    <li><a href="${href}">${label}</a></li>`);
+      }
+      lines.push("  </ul>");
     }
+    lines.push("");
+    lines.push("</details>");
+    lines.push("");
   }
 
   return lines.join("\n").trimEnd();
@@ -381,6 +480,19 @@ export function validatePhenomeSectionBody(content, issues, { entityLabel, kind 
     issues.push({
       code: "missing_fm_outcome_context_disclaimer",
       message: `${entityLabel}: §2 must include the FM functional outcome context disclaimer`,
+    });
+  }
+  const fmSection = extractFmOutcomeContextSection(content);
+  if (fmSection && fmSection.includes("<details>") === false && !fmSection.includes(FM_OUTCOME_CONTEXT_EMPTY_MESSAGE)) {
+    issues.push({
+      code: "fm_outcome_context_dropdowns",
+      message: `${entityLabel}: FM §2 outcomes must use <details> dropdowns (see renderFmOutcomeContextSectionBody)`,
+    });
+  }
+  if (fmSection && /^###\s+/m.test(fmSection)) {
+    issues.push({
+      code: "fm_outcome_context_heading_blocks",
+      message: `${entityLabel}: FM §2 must not use ### outcome headings — use <details> dropdowns`,
     });
   }
   if (/\|\s*Phenome\s*\|\s*Connected PMs\s*\|/m.test(content)) {

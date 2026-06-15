@@ -1,0 +1,87 @@
+.wrap {
+  margin-bottom: 2rem;
+}
+
+.tableScroll {
+  overflow-x: auto;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.registryTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.registryTable th,
+.registryTable td {
+  border: 1px solid var(--ifm-table-border-color);
+  padding: 0.65rem 0.75rem;
+  vertical-align: top;
+  text-align: left;
+}
+
+.registryTable th {
+  background: var(--ifm-table-head-background);
+  font-weight: 600;
+}
+
+.idCell {
+  white-space: nowrap;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.85rem;
+}
+
+.mechanismRow {
+  margin-bottom: 0.45rem;
+}
+
+.mechanismRow:last-child {
+  margin-bottom: 0;
+}
+
+.mechanismMeta {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 0.1rem;
+}
+
+.empty {
+  color: var(--ifm-color-emphasis-600);
+  font-style: italic;
+}
+
+.detailSection {
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.publicSummary {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.brsGroup {
+  margin-bottom: 1rem;
+}
+
+.brsLabel {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.mechanismList {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.reviewIntro {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.flagLabels {
+  color: var(--ifm-color-emphasis-600);
+}

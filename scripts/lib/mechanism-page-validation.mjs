@@ -13,6 +13,7 @@ import {
   validateFmPhenomeFrontMatter,
   validatePmPhenomeFrontMatter,
   validatePhenomeSectionBody,
+  validateSinglePmFmOutcomeAlignment,
 } from "./phenome-relationships.mjs";
 
 export const TIMING_SPECIFIC_VALUES = new Set(["Yes", "No"]);
@@ -252,6 +253,16 @@ export function readMechanismPage(filePath) {
   const raw = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(raw);
   return { raw, data, content };
+}
+
+/** Resolve `/docs/biological-targets/...` href to MDX path under repo root. */
+export function resolveMechanismMdxFromHref(href, rootDir) {
+  if (!href || typeof href !== "string") return null;
+  const rel = href
+    .replace(/^\/docs\/biological-targets\//, "")
+    .replace(/\.mdx?$/i, "");
+  if (!rel) return null;
+  return path.join(rootDir, "docs/biological-targets", `${rel}.mdx`);
 }
 
 function pushIssue(issues, code, message) {
@@ -778,6 +789,19 @@ function validateFmPage(filePath, { rootDir }) {
   });
   validateFmPhenomeFrontMatter(data, issues, { entityLabel });
   validatePhenomeSectionBody(content, issues, { entityLabel, kind: "fm" });
+
+  const pmsCovered = Array.isArray(data.mechanisms_covered) ? data.mechanisms_covered : [];
+  if (pmsCovered.length === 1) {
+    const pmEntry = pmsCovered[0];
+    const pmPath = resolveMechanismMdxFromHref(pmEntry?.href, rootDir);
+    if (pmPath && fs.existsSync(pmPath)) {
+      const { data: pmData } = readMechanismPage(pmPath);
+      validateSinglePmFmOutcomeAlignment(data, pmData, issues, {
+        entityLabel,
+        childPmId: pmEntry.id || pmData.pm_id || path.basename(pmPath),
+      });
+    }
+  }
 
   const sections = parseNumberedSections(content);
   validateContiguousNumbering(sections, issues, { entityLabel });

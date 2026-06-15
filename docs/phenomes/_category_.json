@@ -1,0 +1,10 @@
+{
+  "label": "Phenome Registry",
+  "position": 6,
+  "link": {
+    "type": "doc",
+    "id": "phenomes/index"
+  },
+  "collapsed": false,
+  "collapsible": true
+}

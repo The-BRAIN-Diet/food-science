@@ -14,6 +14,8 @@ mechanisms_covered:
 #     type: substrate
 #     href: /docs/biological-targets/<brs>/kc/<kc-slug>
 # Optional — concise integrative outcomes (2–4 max; see system/phenome-relationship-schema.md)
+# When mechanisms_covered has EXACTLY ONE PM: follow Single-PM FM (1:1) rule —
+# outcome_name + confidence must match that PM's phenome_relationships (rewritten synthesis).
 # functional_outcome_context:
 #   - outcome_name: "Emotional Regulation"
 #     confidence: medium
@@ -54,7 +56,7 @@ These outcomes describe translational contexts for the FM as an integrated biolo
 
 No functional outcome context currently mapped.
 
-<!-- When functional_outcome_context exists, render ### outcome blocks with confidence, synthesis, and key references. -->
+<!-- When functional_outcome_context exists, render <details> dropdowns per outcome (confidence, synthesis, key references). -->
 
 ## 3. Functional Role
 
@@ -72,6 +74,8 @@ No functional outcome context currently mapped.
 ### 4.2 Integrated Functional Narrative
 
 <INSERT_SYNTHESIS_PARAGRAPHS>
+
+<!-- Single-PM FM (1:1): when mechanisms_covered has one PM, note that FM state maps directly onto that PM. -->
 
 <!-- When key_constraints is non-empty, add ### 4.3 Functional Failure Modes (see BRS5(FM1)) -->
 
