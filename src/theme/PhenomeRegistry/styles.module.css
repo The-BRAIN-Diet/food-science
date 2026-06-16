@@ -32,6 +32,36 @@
   font-size: 0.85rem;
 }
 
+.mechanismsDetails {
+  margin: 0;
+}
+
+.mechanismsSummary {
+  cursor: pointer;
+  list-style: none;
+  color: var(--ifm-link-color);
+}
+
+.mechanismsSummary::-webkit-details-marker {
+  display: none;
+}
+
+.mechanismsSummary::before {
+  content: '▸ ';
+  display: inline-block;
+  transition: transform 0.15s ease;
+}
+
+.mechanismsDetails[open] .mechanismsSummary::before {
+  transform: rotate(90deg);
+}
+
+.mechanismsPanel {
+  margin-top: 0.5rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
 .mechanismRow {
   margin-bottom: 0.45rem;
 }

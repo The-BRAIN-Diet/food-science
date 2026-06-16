@@ -111,9 +111,9 @@ Navigation hierarchy: **BRS → FM → PM**. FMs are the primary navigational an
 
 **PM identifiers** use BRS-wide incremental numbering (unique within each BRS, not reset per FM):
 
-- `BRS1-FM1-PM1`, `BRS1-FM1-PM2`, `BRS1-FM2-PM3`, `BRS1-FM3-PM4`, … through `BRS1-FM5-PM9`
+- `BRS1-FM1-PM1`, `BRS1-FM1-PM2`, `BRS1-FM2-PM4`, `BRS1-FM3-PM5`, … through `BRS1-FM5-PM10`
 - The PM number is unique across the BRS; the FM segment identifies the parent function.
-- Shorthand in training: e.g. "Neurotransmitters PM9" = `BRS1-FM5-PM9`.
+- Shorthand in training: e.g. "Neurotransmitters PM9" = `BRS1-FM5-PM10`.
 
 **File paths:**
 

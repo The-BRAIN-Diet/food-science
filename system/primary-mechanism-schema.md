@@ -213,7 +213,7 @@ Mechanistic Basis must remain **evidence-anchored**, not assertion-only. Follow 
 
 **Exclude (low priority):** findings that only repeat §4 textbook biology; small redundant mechanistic papers; studies that merely mention the pathway without changing how to read the PM.
 
-**UX:** `#### Introduction/Summary` (visible) → one `<details>` with finding-focused bullets or short `####` blocks. Reference: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation), [BRS1-FM2-PM3](/docs/biological-targets/brs1/fm2/brs1-fm2-pm3-lat1-competitive-transport-modulation).
+**UX:** `#### Introduction/Summary` (visible) → one `<details>` with finding-focused bullets or short `####` blocks. Reference: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation), [BRS1-FM2-PM4](/docs/biological-targets/brs1/fm2/brs1-fm2-pm4-lat1-competitive-transport-modulation).
 
 **Non-repetition:** §1 = *what*; §4 = *how*; §4.1 = *how we know*. Do not restate the same meal-composition or pathway claim across all three (see `system/mechanism-page-section-prose.md` — **PM section roles**).
 

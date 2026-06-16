@@ -16,7 +16,7 @@
     "cofactors": ["Choline", "phospholipid context"],
     "connected_mechanisms": [
       {
-        "id": "BRS1-FM3-PM4",
+        "id": "BRS1-FM3-PM5",
         "name": "Acetylcholine Synthesis Support"
       },
       {
@@ -59,7 +59,7 @@
         {
           "heading": "(Boundaries of the mechanism)",
           "paragraphs": [
-            "Direct cholinergic acetylcholine synthesis is owned by BRS1-FM3-PM4. Membrane DHA incorporation and omega-3 NAE production are handled by BRS1-FM4-PM5 and BRS-X(ECS-PM3)."
+            "Direct cholinergic acetylcholine synthesis is owned by BRS1-FM3-PM5. Membrane DHA incorporation and omega-3 NAE production are handled by BRS1-FM4-PM6 and BRS-X(ECS-PM3)."
           ]
         },
         {
