@@ -14,13 +14,13 @@ Generated: 2026-06-08T19:48:19.603Z
 |--------|--------|-------|
 | BRS1(PM1) | BRS1-FM1-PM1 | Amino-Acid Availability & Prioritisation |
 | BRS1(PM5) | BRS1-FM1-PM2 | Noradrenergic Signalling (Attention & Executive Modulation) |
-| BRS1(PM2) | BRS1-FM2-PM3 | LAT1 Competitive Transport Modulation |
-| BRS1(PM3) | BRS1-FM3-PM4 | Acetylcholine Synthesis Support |
-| BRS1(PM4) | BRS1-FM4-PM5 | Neuronal Membrane DHA Incorporation |
-| BRS1(PM6) | BRS1-FM5-PM6 | GABA–Glutamate Neurotransmission Balance |
-| BRS1(PM7) | BRS1-FM5-PM7 | GABA Synthesis Capacity |
-| BRS1(PM8) | BRS1-FM5-PM8 | Glutamate Clearance & Recycling |
-| BRS1(PM9) | BRS1-FM5-PM9 | Excitotoxicity Modulation |
+| BRS1(PM2) | BRS1-FM2-PM4 | LAT1 Competitive Transport Modulation |
+| BRS1(PM3) | BRS1-FM3-PM5 | Acetylcholine Synthesis Support |
+| BRS1(PM4) | BRS1-FM4-PM6 | Neuronal Membrane DHA Incorporation |
+| BRS1(PM6) | BRS1-FM5-PM7 | GABA–Glutamate Neurotransmission Balance |
+| BRS1(PM7) | BRS1-FM5-PM8 | GABA Synthesis Capacity |
+| BRS1(PM8) | BRS1-FM5-PM9 | Glutamate Clearance & Recycling |
+| BRS1(PM9) | BRS1-FM5-PM10 | Excitotoxicity Modulation |
 | BRS2(PM1) | BRS2-FM1-PM1 | Folate/B12-Dependent Homocysteine Remethylation |
 | BRS2(PM2) | BRS2-FM1-PM2 | Betaine/BHMT Remethylation |
 | BRS2(PM3) | BRS2-FM1-PM3 | SAMe Synthesis |
@@ -67,13 +67,13 @@ Generated: 2026-06-08T19:48:19.603Z
 |------|-----|
 | /docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation | /docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation |
 | /docs/biological-targets/brs1/pm/brs1-pm5-noradrenergic-signalling-attention-executive-modulation | /docs/biological-targets/brs1/fm1/brs1-fm1-pm2-noradrenergic-signalling-attention-executive-modulation |
-| /docs/biological-targets/brs1/pm/brs1-pm2-lat1-competitive-transport-modulation | /docs/biological-targets/brs1/fm2/brs1-fm2-pm3-lat1-competitive-transport-modulation |
-| /docs/biological-targets/brs1/pm/brs1-pm3-acetylcholine-synthesis-support | /docs/biological-targets/brs1/fm3/brs1-fm3-pm4-acetylcholine-synthesis-support |
-| /docs/biological-targets/brs1/pm/brs1-pm4-neuronal-membrane-dha-incorporation | /docs/biological-targets/brs1/fm4/brs1-fm4-pm5-neuronal-membrane-dha-incorporation |
-| /docs/biological-targets/brs1/pm/brs1-pm6-gaba-glutamate-neurotransmission-balance | /docs/biological-targets/brs1/fm5/brs1-fm5-pm6-gaba-glutamate-neurotransmission-balance |
-| /docs/biological-targets/brs1/pm/brs1-pm7-gaba-synthesis-capacity | /docs/biological-targets/brs1/fm5/brs1-fm5-pm7-gaba-synthesis-capacity |
-| /docs/biological-targets/brs1/pm/brs1-pm8-glutamate-clearance-and-recycling | /docs/biological-targets/brs1/fm5/brs1-fm5-pm8-glutamate-clearance-and-recycling |
-| /docs/biological-targets/brs1/pm/brs1-pm9-excitotoxicity-modulation | /docs/biological-targets/brs1/fm5/brs1-fm5-pm9-excitotoxicity-modulation |
+| /docs/biological-targets/brs1/pm/brs1-pm2-lat1-competitive-transport-modulation | /docs/biological-targets/brs1/fm2/brs1-fm2-pm4-lat1-competitive-transport-modulation |
+| /docs/biological-targets/brs1/pm/brs1-pm3-acetylcholine-synthesis-support | /docs/biological-targets/brs1/fm3/brs1-fm3-pm5-acetylcholine-synthesis-support |
+| /docs/biological-targets/brs1/pm/brs1-pm4-neuronal-membrane-dha-incorporation | /docs/biological-targets/brs1/fm4/brs1-fm4-pm6-neuronal-membrane-dha-incorporation |
+| /docs/biological-targets/brs1/pm/brs1-pm6-gaba-glutamate-neurotransmission-balance | /docs/biological-targets/brs1/fm5/brs1-fm5-pm7-gaba-glutamate-neurotransmission-balance |
+| /docs/biological-targets/brs1/pm/brs1-pm7-gaba-synthesis-capacity | /docs/biological-targets/brs1/fm5/brs1-fm5-pm8-gaba-synthesis-capacity |
+| /docs/biological-targets/brs1/pm/brs1-pm8-glutamate-clearance-and-recycling | /docs/biological-targets/brs1/fm5/brs1-fm5-pm9-glutamate-clearance-and-recycling |
+| /docs/biological-targets/brs1/pm/brs1-pm9-excitotoxicity-modulation | /docs/biological-targets/brs1/fm5/brs1-fm5-pm10-excitotoxicity-modulation |
 | /docs/biological-targets/brs2/pm/brs2-pm1-folate-b12-dependent-homocysteine-remethylation | /docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation |
 | /docs/biological-targets/brs2/pm/brs2-pm2-betaine-bhmt-remethylation | /docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation |
 | /docs/biological-targets/brs2/pm/brs2-pm3-same-synthesis | /docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis |
@@ -113,7 +113,7 @@ Generated: 2026-06-08T19:48:19.603Z
 | /docs/biological-targets/brs6/pm/brs6-pm7-vagal-tone-hrv-regulation | /docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation |
 | /docs/biological-targets/brs6/pm/brs6-pm8-metabolic-inflammation-and-adipose-stress-signalling | /docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling |
 | /docs/biological-targets/brs6/pm/brs6-pm9-stress-induced-appetite-reward-drive-modulation | /docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation |
-| /docs/biological-targets/brs1/fm/brs1-fm1-catecholaminergic-function | /docs/biological-targets/brs1/fm1/brs1-fm1-catecholaminergic-function |
+| /docs/biological-targets/brs1/fm/brs1-fm1-catecholaminergic-function | /docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function |
 | /docs/biological-targets/brs1/fm/brs1-fm2-glycaemic-modulation-of-neurotransmitter-balance | /docs/biological-targets/brs1/fm2/brs1-fm2-glycaemic-modulation-of-neurotransmitter-balance |
 | /docs/biological-targets/brs1/fm/brs1-fm3-cholinergic-function | /docs/biological-targets/brs1/fm3/brs1-fm3-cholinergic-function |
 | /docs/biological-targets/brs1/fm/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration | /docs/biological-targets/brs1/fm4/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration |

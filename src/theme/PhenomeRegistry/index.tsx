@@ -75,6 +75,27 @@ function groupRelationshipsByPhenomeId(
     });
 }
 
+function ConnectedMechanismsCell({ rows, phenomeId }: { rows: RelationshipRow[]; phenomeId: string }) {
+  if (rows.length === 0) {
+    return <span className={styles.empty}>No mechanisms mapped yet</span>;
+  }
+
+  const label = rows.length === 1 ? '1 mechanism' : `${rows.length} mechanisms`;
+
+  return (
+    <details className={styles.mechanismsDetails}>
+      <summary className={styles.mechanismsSummary}>
+        <strong>{label}</strong>
+      </summary>
+      <div className={styles.mechanismsPanel}>
+        {rows.map((row) => (
+          <MechanismLink key={`${phenomeId}-${row.sourceNode}`} row={row} />
+        ))}
+      </div>
+    </details>
+  );
+}
+
 function MechanismLink({ row }: { row: RelationshipRow }) {
   return (
     <div className={styles.mechanismRow}>
@@ -146,13 +167,7 @@ export default function PhenomeRegistry(): React.ReactElement {
                   </td>
                   <td>{phenome.description}</td>
                   <td>
-                    {rows.length === 0 ? (
-                      <span className={styles.empty}>No mechanisms mapped yet</span>
-                    ) : (
-                      rows.map((row) => (
-                        <MechanismLink key={`${phenome.id}-${row.sourceNode}`} row={row} />
-                      ))
-                    )}
+                    <ConnectedMechanismsCell rows={rows} phenomeId={phenome.id} />
                   </td>
                 </tr>
               );

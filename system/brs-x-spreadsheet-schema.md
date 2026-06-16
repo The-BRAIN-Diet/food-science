@@ -237,9 +237,9 @@ Use these as **starting proposals**. ChatGPT may refine descriptions and evidenc
 
 | mechanism_id | mechanism_name | fm_ownership | underlying_mechanisms (KCs) | connected_mechanisms (BRS1–6 examples) |
 |--------------|----------------|--------------|-------------------------------|----------------------------------------|
-| `BRS-X(ECS-PM1)` | Endocannabinoid Tone Regulation | `BRS-X(ECS-FM1)` | `BRS-X(ECS-KC1)`; `BRS-X(ECS-KC2)` | `BRS1-FM3-PM4 — Acetylcholine Synthesis Support`; `BRS1-FM4-PM5 — Neuronal Membrane DHA Incorporation` |
-| `BRS-X(ECS-PM2)` | NAPE → NAE Biosynthesis from Dietary Phospholipids | `BRS-X(ECS-FM1)` | `BRS-X(ECS-KC1)` | `BRS1-FM3-PM4 — Acetylcholine Synthesis Support`; `BRS2-FM3-PM7 — Phospholipid Methylation` |
-| `BRS-X(ECS-PM3)` | Omega-3-Derived N-Acylethanolamine Production | `BRS-X(ECS-FM1)` | `BRS-X(ECS-KC2)`; `BRS-X(ECS-KC3)` | `BRS3-FM3-PM8 — Eicosanoid / SPM Balance`; `BRS1-FM4-PM5 — Neuronal Membrane DHA Incorporation` |
+| `BRS-X(ECS-PM1)` | Endocannabinoid Tone Regulation | `BRS-X(ECS-FM1)` | `BRS-X(ECS-KC1)`; `BRS-X(ECS-KC2)` | `BRS1-FM3-PM5 — Acetylcholine Synthesis Support`; `BRS1-FM4-PM6 — Neuronal Membrane DHA Incorporation` |
+| `BRS-X(ECS-PM2)` | NAPE → NAE Biosynthesis from Dietary Phospholipids | `BRS-X(ECS-FM1)` | `BRS-X(ECS-KC1)` | `BRS1-FM3-PM5 — Acetylcholine Synthesis Support`; `BRS2-FM3-PM7 — Phospholipid Methylation` |
+| `BRS-X(ECS-PM3)` | Omega-3-Derived N-Acylethanolamine Production | `BRS-X(ECS-FM1)` | `BRS-X(ECS-KC2)`; `BRS-X(ECS-KC3)` | `BRS3-FM3-PM8 — Eicosanoid / SPM Balance`; `BRS1-FM4-PM6 — Neuronal Membrane DHA Incorporation` |
 | `BRS-X(ECS-PM4)` | FAAH-Mediated Endocannabinoid Degradation Modulation | `BRS-X(ECS-FM1)` | — | `BRS3-FM1-PM1 — NF-κB Signalling Regulation` (genistein cross-link only if evidence-backed) |
 | `BRS-X(ECS-PM5)` | OEA / PEA Satiety Signalling | `BRS-X(ECS-FM3)` | `BRS-X(ECS-KC1)` | `BRS6-FM4-PM9 — Stress-Induced Appetite / Reward Drive Modulation` |
 | `BRS-X(ECS-PM6)` | ECS–Dopamine Motivation Coupling | `BRS-X(ECS-FM2)` | — | `BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation`; `BRS1-FM1-PM2 — Noradrenergic Signalling` |
@@ -347,7 +347,7 @@ See `system/brs-x-spreadsheet-pm-row.example.json` for the ingest-friendly objec
 
 | Topic | BRS1–6 | BRS-X |
 |-------|--------|-------|
-| PM ID pattern | `BRS1-FM2-PM3` (BRS-wide incremental) | `BRS-X(ECS-PM3)` (system-wide incremental) |
+| PM ID pattern | `BRS1-FM2-PM4` (BRS-wide incremental) | `BRS-X(ECS-PM3)` (system-wide incremental) |
 | `parent_brs` | `BRS1`…`BRS6` | `BRS-X(ECS)` / `BRS-X(Hormones)` |
 | Cross-links field | BRSX modifiers in underlying requirements | `connected_mechanisms` column |
 | File root | `docs/biological-targets/brs{N}/` | `docs/biological-targets/brs-x/{ecs,hormones}/` |

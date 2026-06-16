@@ -1,19 +1,19 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-06-15T18:27:52.913Z",
+    "generatedAt": "2026-06-15T21:38:58.724Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 1,
-    "pmPageCount": 61,
-    "pmPagesWithMappings": 18,
-    "relationshipCount": 47,
-    "mappedRelationshipCount": 47
+    "pmPageCount": 62,
+    "pmPagesWithMappings": 19,
+    "relationshipCount": 51,
+    "mappedRelationshipCount": 51
   },
   "diagnostics": {
     "registryPhenomeCount": 15,
-    "relationshipEdgeCount": 47,
-    "mappedEdgeCount": 47,
+    "relationshipEdgeCount": 51,
+    "mappedEdgeCount": 51,
     "unmappedPhenomeLabels": [],
     "labelsInEdgesNotInRegistry": [],
     "edgesMissingTargetPhenome": 0,
@@ -527,6 +527,39 @@
           "label": "Leao et al. (2025)",
           "citationKey": "leao_in_vitro_female_gut_microbiome_sex_hormones_2025",
           "href": "/docs/papers/BRAIN-Diet-References#leao_in_vitro_female_gut_microbiome_sex_hormones_2025"
+        }
+      ],
+      "targetPhenomeId": "PH003"
+    },
+    {
+      "sourceNode": "BRS1-FM1-PM3",
+      "sourceTitle": "Serotonergic Signalling Regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+      "parentFM": "BRS1(FM1)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "supports",
+      "confidence": "medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Serotonin signalling contributes to emotional regulation, impulse control, affective stability, and emotional responsiveness across multiple neuropsychiatric conditions.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Oades (2010)",
+          "citationKey": "oades_role_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#oades_role_2010"
+        },
+        {
+          "index": 2,
+          "label": "Shaw et al. (2014)",
+          "citationKey": "shaw_emotion_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#shaw_emotion_2014"
+        },
+        {
+          "index": 3,
+          "label": "Banerjee and Nandagopal (2015)",
+          "citationKey": "banerjee_does_2015",
+          "href": "/docs/papers/BRAIN-Diet-References#banerjee_does_2015"
         }
       ],
       "targetPhenomeId": "PH003"
@@ -1141,6 +1174,27 @@
       "targetPhenomeId": "PH009"
     },
     {
+      "sourceNode": "BRS1-FM1-PM3",
+      "sourceTitle": "Serotonergic Signalling Regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+      "parentFM": "BRS1(FM1)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Reward Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Serotonergic pathways interact with dopaminergic reward circuits and may influence reward responsiveness and behavioural inhibition.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Oades (2010)",
+          "citationKey": "oades_role_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#oades_role_2010"
+        }
+      ],
+      "targetPhenomeId": "PH009"
+    },
+    {
       "sourceNode": "BRS-X(Hormones-PM3)",
       "sourceTitle": "Progesterone-Supportive Microbial Metabolism",
       "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism",
@@ -1157,6 +1211,27 @@
           "label": "d'Afflitto et al. (2022)",
           "citationKey": "dafflitto_sex_hormone_gut_microbiota_2022",
           "href": "/docs/papers/BRAIN-Diet-References#dafflitto_sex_hormone_gut_microbiota_2022"
+        }
+      ],
+      "targetPhenomeId": "PH008"
+    },
+    {
+      "sourceNode": "BRS1-FM1-PM3",
+      "sourceTitle": "Serotonergic Signalling Regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+      "parentFM": "BRS1(FM1)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Sleep / Calming Tone",
+      "relationshipType": "supports",
+      "confidence": "medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Serotonin participates in sleep–wake regulation and contributes to neurobiological processes associated with sleep quality and behavioural calming.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Fernstrom (2013)",
+          "citationKey": "fernstrom_lnna_2013",
+          "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013"
         }
       ],
       "targetPhenomeId": "PH008"
@@ -1307,6 +1382,33 @@
         }
       ],
       "targetPhenomeId": "PH006"
+    },
+    {
+      "sourceNode": "BRS1-FM1-PM3",
+      "sourceTitle": "Serotonergic Signalling Regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+      "parentFM": "BRS1(FM1)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Stress Resilience",
+      "relationshipType": "supports",
+      "confidence": "medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Serotonergic signalling interacts with stress-response systems, emotional processing, and HPA-axis regulation.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Oades (2010)",
+          "citationKey": "oades_role_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#oades_role_2010"
+        },
+        {
+          "index": 2,
+          "label": "Fernstrom (2013)",
+          "citationKey": "fernstrom_lnna_2013",
+          "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013"
+        }
+      ],
+      "targetPhenomeId": "PH006"
     }
   ],
   "byPhenome": {
@@ -1334,7 +1436,8 @@
       "BRS-X(Hormones-PM3)",
       "BRS-X(Hormones-PM4)",
       "BRS-X(Hormones-PM5)",
-      "BRS-X(Hormones-PM6)"
+      "BRS-X(Hormones-PM6)",
+      "BRS1-FM1-PM3"
     ],
     "Energy Stability Under Variable Conditions": [
       "BRS4-FM3-PM8"
@@ -1373,10 +1476,12 @@
       "BRS4-FM4-PM9"
     ],
     "Reward Regulation": [
-      "BRS-X(ECS-PM4)"
+      "BRS-X(ECS-PM4)",
+      "BRS1-FM1-PM3"
     ],
     "Sleep / Calming Tone": [
-      "BRS-X(Hormones-PM3)"
+      "BRS-X(Hormones-PM3)",
+      "BRS1-FM1-PM3"
     ],
     "Stress Reactivity": [
       "BRS-X(Hormones-PM3)"
@@ -1385,7 +1490,8 @@
       "BRS-X(ECS-PM1)",
       "BRS-X(ECS-PM2)",
       "BRS-X(ECS-PM3)",
-      "BRS-X(ECS-PM5)"
+      "BRS-X(ECS-PM5)",
+      "BRS1-FM1-PM3"
     ]
   },
   "byPhenomeId": {
@@ -1413,7 +1519,8 @@
       "BRS-X(Hormones-PM3)",
       "BRS-X(Hormones-PM4)",
       "BRS-X(Hormones-PM5)",
-      "BRS-X(Hormones-PM6)"
+      "BRS-X(Hormones-PM6)",
+      "BRS1-FM1-PM3"
     ],
     "PH012": [
       "BRS4-FM3-PM8"
@@ -1452,10 +1559,12 @@
       "BRS4-FM4-PM9"
     ],
     "PH009": [
-      "BRS-X(ECS-PM4)"
+      "BRS-X(ECS-PM4)",
+      "BRS1-FM1-PM3"
     ],
     "PH008": [
-      "BRS-X(Hormones-PM3)"
+      "BRS-X(Hormones-PM3)",
+      "BRS1-FM1-PM3"
     ],
     "PH015": [
       "BRS-X(Hormones-PM3)"
@@ -1464,7 +1573,8 @@
       "BRS-X(ECS-PM1)",
       "BRS-X(ECS-PM2)",
       "BRS-X(ECS-PM3)",
-      "BRS-X(ECS-PM5)"
+      "BRS-X(ECS-PM5)",
+      "BRS1-FM1-PM3"
     ]
   },
   "fmRollups": {
@@ -1911,6 +2021,80 @@
             "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism",
             "relationship_type": "modulates",
             "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS1(FM1)": [
+      {
+        "target_phenome": "Emotional Regulation",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "supports",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "medium",
+        "evidence_summary": "Serotonin signalling contributes to emotional regulation, impulse control, affective stability, and emotional responsiveness across multiple neuropsychiatric conditions.",
+        "contributing_pms": [
+          {
+            "id": "BRS1-FM1-PM3",
+            "name": "Serotonergic Signalling Regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+            "relationship_type": "supports",
+            "confidence": "medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Reward Regulation",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Serotonergic pathways interact with dopaminergic reward circuits and may influence reward responsiveness and behavioural inhibition.",
+        "contributing_pms": [
+          {
+            "id": "BRS1-FM1-PM3",
+            "name": "Serotonergic Signalling Regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Sleep / Calming Tone",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "supports",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "medium",
+        "evidence_summary": "Serotonin participates in sleep–wake regulation and contributes to neurobiological processes associated with sleep quality and behavioural calming.",
+        "contributing_pms": [
+          {
+            "id": "BRS1-FM1-PM3",
+            "name": "Serotonergic Signalling Regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+            "relationship_type": "supports",
+            "confidence": "medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Stress Resilience",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "supports",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "medium",
+        "evidence_summary": "Serotonergic signalling interacts with stress-response systems, emotional processing, and HPA-axis regulation.",
+        "contributing_pms": [
+          {
+            "id": "BRS1-FM1-PM3",
+            "name": "Serotonergic Signalling Regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+            "relationship_type": "supports",
+            "confidence": "medium",
             "evidence_level": "mechanistic"
           }
         ]

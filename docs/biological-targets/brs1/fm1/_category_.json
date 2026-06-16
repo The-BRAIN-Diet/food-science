@@ -1,9 +1,9 @@
 {
-  "label": "BRS1(FM1) - Catecholaminergic Function (Dopamine + Norepinephrine)",
+  "label": "BRS1(FM1) - Monoaminergic Function",
   "position": 1,
   "link": {
     "type": "doc",
-    "id": "biological-targets/brs1/fm1/brs1-fm1-catecholaminergic-function"
+    "id": "biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function"
   },
   "collapsed": true,
   "collapsible": true

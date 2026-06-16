@@ -69,7 +69,7 @@ Choline plays a crucial role in acetylcholine synthesis and neuronal membrane in
 | Membrane composition, PLM, and reduced gamma-band activity in ADHD | [Cocchi et al. (2017)](/docs/papers/BRAIN-Diet-References#cocchi_linoleic_2017) | [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation) |
 | Gamma-frequency oscillations and attention-related membrane mechanisms | [Wilson et al. (2012)](/docs/papers/BRAIN-Diet-References#wilson_gamma-frequency_2012) | [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation) |
 | Choline and positive effects on ADHD in studies | [Derbyshire and Maes (2023)](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) | [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation) |
-| Cholinergic system imbalances as a focus in ADHD aetiology | [Johansson et al. (2013)](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS1-FM3-PM4](/docs/biological-targets/brs1/fm3/brs1-fm3-pm4-acetylcholine-synthesis-support), [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) |
+| Cholinergic system imbalances as a focus in ADHD aetiology | [Johansson et al. (2013)](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS1-FM3-PM5](/docs/biological-targets/brs1/fm3/brs1-fm3-pm5-acetylcholine-synthesis-support), [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) |
 
 </details>
 

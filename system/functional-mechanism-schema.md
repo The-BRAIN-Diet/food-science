@@ -29,7 +29,7 @@ When `mechanisms_covered` has **exactly one** PM, apply the **Single-PM FM (1:1)
 
 Functional Mechanisms (FMs) represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the **principal navigational and teaching layer** of the framework.
 
-Architecture: **BRS → FM → PM**. FM pages live at `docs/biological-targets/brs{N}/fm{M}/`; child PMs share the same folder. PM identifiers use **BRS-wide incremental numbering** (`BRS{N}-FM{M}-PM{k}` where `k` is unique within the BRS, assigned in FM order — e.g. `BRS1-FM1-PM1`, `BRS1-FM1-PM2`, `BRS1-FM2-PM3`, … `BRS1-FM5-PM9`).
+Architecture: **BRS → FM → PM**. FM pages live at `docs/biological-targets/brs{N}/fm{M}/`; child PMs share the same folder. PM identifiers use **BRS-wide incremental numbering** (`BRS{N}-FM{M}-PM{k}` where `k` is unique within the BRS, assigned in FM order — e.g. `BRS1-FM1-PM1`, `BRS1-FM1-PM2`, `BRS1-FM2-PM4`, … `BRS1-FM5-PM10`).
 
 See also `system/brain-diet-ontology-rules.md` §1.2 and §1.4.
 

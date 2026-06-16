@@ -134,8 +134,18 @@ const config: Config = {
       require.resolve('@docusaurus/plugin-client-redirects'),
       {
         redirects: [
+          // BRS1 FM1-PM3 / FM2-PM4 serotonin-LAT1 swap
+          { to: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation', from: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation' },
+          { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm4-lat1-competitive-transport-modulation', from: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm3-lat1-competitive-transport-modulation' },
+          // BRS1 insert PM4 serotonin renumber
+          { to: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm5-acetylcholine-synthesis-support', from: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm4-acetylcholine-synthesis-support' },
+          { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm6-neuronal-membrane-dha-incorporation', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm5-neuronal-membrane-dha-incorporation' },
+          { to: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm7-gaba-glutamate-neurotransmission-balance', from: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm6-gaba-glutamate-neurotransmission-balance' },
+          { to: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm8-gaba-synthesis-capacity', from: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm7-gaba-synthesis-capacity' },
+          { to: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm9-glutamate-clearance-and-recycling', from: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm8-glutamate-clearance-and-recycling' },
+          { to: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm10-excitotoxicity-modulation', from: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm9-excitotoxicity-modulation' },
           // BRS-wide incremental PM renumber
-          { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm3-lat1-competitive-transport-modulation', from: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm1-lat1-competitive-transport-modulation' },
+          { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm4-lat1-competitive-transport-modulation', from: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm1-lat1-competitive-transport-modulation' },
           { to: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm4-acetylcholine-synthesis-support', from: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm1-acetylcholine-synthesis-support' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm5-neuronal-membrane-dha-incorporation', from: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm1-neuronal-membrane-dha-incorporation' },
           { to: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm6-gaba-glutamate-neurotransmission-balance', from: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm1-gaba-glutamate-neurotransmission-balance' },
@@ -179,7 +189,7 @@ const config: Config = {
           // FM-centric PM architecture migration
           { to: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation', from: '/docs/biological-targets/brs1/pm/brs1-pm1-amino-acid-availability-and-prioritisation' },
           { to: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-noradrenergic-signalling-attention-executive-modulation', from: '/docs/biological-targets/brs1/pm/brs1-pm5-noradrenergic-signalling-attention-executive-modulation' },
-          { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm3-lat1-competitive-transport-modulation', from: '/docs/biological-targets/brs1/pm/brs1-pm2-lat1-competitive-transport-modulation' },
+          { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm4-lat1-competitive-transport-modulation', from: '/docs/biological-targets/brs1/pm/brs1-pm2-lat1-competitive-transport-modulation' },
           { to: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm4-acetylcholine-synthesis-support', from: '/docs/biological-targets/brs1/pm/brs1-pm3-acetylcholine-synthesis-support' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-pm5-neuronal-membrane-dha-incorporation', from: '/docs/biological-targets/brs1/pm/brs1-pm4-neuronal-membrane-dha-incorporation' },
           { to: '/docs/biological-targets/brs1/fm5/brs1-fm5-pm6-gaba-glutamate-neurotransmission-balance', from: '/docs/biological-targets/brs1/pm/brs1-pm6-gaba-glutamate-neurotransmission-balance' },
@@ -225,7 +235,8 @@ const config: Config = {
           { to: '/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation', from: '/docs/biological-targets/brs6/pm/brs6-pm7-vagal-tone-hrv-regulation' },
           { to: '/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling', from: '/docs/biological-targets/brs6/pm/brs6-pm8-metabolic-inflammation-and-adipose-stress-signalling' },
           { to: '/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation', from: '/docs/biological-targets/brs6/pm/brs6-pm9-stress-induced-appetite-reward-drive-modulation' },
-          { to: '/docs/biological-targets/brs1/fm1/brs1-fm1-catecholaminergic-function', from: '/docs/biological-targets/brs1/fm/brs1-fm1-catecholaminergic-function' },
+          { to: '/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function', from: '/docs/biological-targets/brs1/fm/brs1-fm1-catecholaminergic-function' },
+          { to: '/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function', from: '/docs/biological-targets/brs1/fm1/brs1-fm1-catecholaminergic-function' },
           { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-glycaemic-modulation-of-neurotransmitter-balance', from: '/docs/biological-targets/brs1/fm/brs1-fm2-glycaemic-modulation-of-neurotransmitter-balance' },
           { to: '/docs/biological-targets/brs1/fm3/brs1-fm3-cholinergic-function', from: '/docs/biological-targets/brs1/fm/brs1-fm3-cholinergic-function' },
           { to: '/docs/biological-targets/brs1/fm4/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration', from: '/docs/biological-targets/brs1/fm/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration' },
@@ -273,8 +284,12 @@ const config: Config = {
             from: '/docs/biological-targets/brs1/pm/brs1-pm1-tyrosine-tryptophan-precursor-supply',
           },
           {
-            to: '/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-serotonergic-regulation',
+            to: '/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation',
             from: '/docs/biological-targets/brs1/sm/brs1-sm-adhd1-emotional-dysregulation-serotonergic-regulation',
+          },
+          {
+            to: '/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation',
+            from: '/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-serotonergic-regulation',
           },
           {
             to: '/docs/biological-targets/brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk',

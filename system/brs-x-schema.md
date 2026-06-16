@@ -38,7 +38,7 @@ On **FM**, **PM**, and **SM** pages, cross-system references use a single sectio
 
 Examples:
 
-- `BRS1-FM2-PM3 — LAT1 Competitive Transport Modulation`
+- `BRS1-FM2-PM4 — LAT1 Competitive Transport Modulation`
 - `BRS5-FM2-PM5 — SCFA Production & Signalling`
 - `BRS-X(ECS-PM1) — Endocannabinoid Tone Regulation`
 - `BRS-X(Hormones-PM3) — Estrogen–Neurotransmitter Coupling`
