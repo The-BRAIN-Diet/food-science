@@ -445,20 +445,20 @@ export function renderFmPhenomeSectionBody(outcomes = []) {
 export function validatePhenomeSectionBody(content, issues, { entityLabel, kind }) {
   if (kind === "pm") {
     const heading = new RegExp(
-      `^##\\s+2\\.\\s+${PM_PHENOME_SECTION_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+      `^##\\s+3\\.\\s+${PM_PHENOME_SECTION_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
       "m",
     );
     if (!heading.test(content)) {
       issues.push({
         code: "missing_phenome_section",
-        message: `${entityLabel}: published body must include "## 2. ${PM_PHENOME_SECTION_TITLE}" after Definition`,
+        message: `${entityLabel}: published body must include "## 3. ${PM_PHENOME_SECTION_TITLE}" after Functional Role`,
       });
       return;
     }
     if (!content.includes(PHENOME_DISCLAIMER)) {
       issues.push({
         code: "missing_phenome_disclaimer",
-        message: `${entityLabel}: §2 must include the canonical phenome disclaimer`,
+        message: `${entityLabel}: §3 must include the canonical phenome disclaimer`,
       });
     }
     return;

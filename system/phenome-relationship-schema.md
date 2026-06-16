@@ -254,12 +254,12 @@ Structure:
 | 2 Intervention Breakdown | 3 Intervention Breakdown |
 | 3 Functional Role | 4 Functional Role |
 | 4 Mechanistic Basis | 5 Mechanistic Basis |
-| 5 Connected BRS{N} Mechanisms | 6 Connected BRS{N} Mechanisms |
-| 6 Connected Mechanisms | 7 Connected Mechanisms |
-| 7 Dietary Levers | 8 Dietary Levers |
-| 8 Lifestyle Levers | 9 Lifestyle Levers |
-| 9 Scoreable | 10 Scoreable |
-| 10 References | 11 References |
+| 5 Connected BRS{N} Mechanisms | 6 BRS Pathways and Connections (6.1 pathways, 6.2 cross-BRS, 6.3 same-FM PMs) |
+| 6 Connected Mechanisms | absorbed into §6.2 Connected BRS Mechanisms |
+| 7 Dietary Levers | 7 Dietary Levers |
+| 8 Lifestyle Levers | 8 Lifestyle Levers |
+| 9 Scoreable | 9 Scoreable |
+| 10 References | 10 References |
 
 ### FM renumbering
 

@@ -46,7 +46,11 @@ hide_title: true
 
 <INSERT_DEFINITION_TEXT>
 
-## 2. Target Functional Outcome / Phenome
+## 2. Functional Role
+
+<INSERT_DIRECTIONAL_ARROW_SUMMARY>
+
+## 3. Target Functional Outcome / Phenome
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
@@ -65,30 +69,45 @@ No direct functional outcome relationship currently mapped.
 </details>
 -->
 
-## 3. Intervention Summary
+## 4. Levers
 
 ### Intervention Profile
 
 **Intervention Dominance:** <INSERT_INTERVENTION_DOMINANCE>
 
-### Foundational Levers
-
-- <INSERT_FOUNDATIONAL_LEVER> (Evidence:<INSERT_EVIDENCE_TIER>) [Author et al., Year]
+<details>
+<summary><strong>4.1 Dietary Levers</strong></summary>
 
 <details>
-<summary><strong>Supporting Levers</strong></summary>
+<summary><strong>4.1.1 Direct Dietary Levers</strong></summary>
 
-- <INSERT_SUPPORTING_LEVER> (Evidence:<INSERT_EVIDENCE_TIER>) [Author et al., Year]
+<!-- Substance ← 2–3 foods per bullet (see system/substance-food-mapping-format.md) -->
+- <INSERT_SUBSTANCE> ← <food1>, <food2>
 
 </details>
 
-<!-- Omit Supporting and/or Complementary <details> when that tier has no levers — do not use "- None listed" in a dropdown -->
+<details>
+<summary><strong>4.1.2 Cofactors and Supporting Inputs</strong></summary>
 
-<!-- Omit entire §3 when not using Profile A extended (Profile A′). See system/pm-intervention-summary-standard.md -->
+- <INSERT_COFACTOR_NAME>
 
-## 4. Functional Role
+</details>
 
-<INSERT_DIRECTIONAL_ARROW_SUMMARY>
+<details>
+<summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>
+
+- [<INSERT_KC_ID> — <INSERT_KC_NAME>](/docs/biological-targets/<path-to-kc>)
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>4.2 Lifestyle Levers</strong></summary>
+
+- <INSERT_LIFESTYLE_LEVER> (Evidence:<INSERT_EVIDENCE_TIER>) [Author et al., Year]
+
+</details>
 
 ## 5. Mechanistic Basis
 
@@ -127,51 +146,29 @@ No direct functional outcome relationship currently mapped.
 
 </details>
 
-## 6. Connected BRS1 Mechanisms
+## 6. BRS Pathways and Connections
 
-### 6.1 Overarching Functional Mechanism
+### 6.1 BRS Pathways
+
+<!-- Ordered cross-PM pathway chains when relevant; linked PM labels with ↓ between steps -->
+
+- None listed
+
+### 6.2 Connected BRS Mechanisms
+
+<!-- PM/FM links in other BRS domains -->
+
+- None listed
+
+### 6.3 Connected Primary Mechanisms
+
+<!-- Parent FM + sibling PMs on the same host FM (exclude this PM) -->
 
 - [<INSERT_PARENT_FM_ID> - <INSERT_PARENT_FM_TITLE>](/docs/biological-targets/<path-to-fm>)
 
-### 6.2 Connected Primary Mechanisms
+## 7. Scoreable Inputs & Modulation Signals
 
-<!-- Sibling PMs on the same parent FM (exclude this PM) -->
-
-- None listed
-
-## 7. Connected Mechanisms
-
-- None listed
-
-## 8. Dietary Levers
-
-### 8.1 Direct Dietary Levers
-
-<!-- Substance ← 2–3 foods per bullet (see system/substance-food-mapping-format.md) -->
-- <INSERT_SUBSTANCE> ← <food1>, <food2>
-
-### 8.2 Cofactors and Supporting Inputs
-
-- <INSERT_COFACTOR_NAME>
-
-### 8.3 KCs (Key Constraints)
-
-- [<INSERT_KC_ID> — <INSERT_KC_NAME>](/docs/biological-targets/<path-to-kc>)
-
-## 9. Lifestyle Levers
-
-<details>
-<summary><strong>Lifestyle</strong></summary>
-
-- <INSERT_LIFESTYLE_LEVER> (Evidence:<INSERT_EVIDENCE_TIER>) [Author et al., Year]
-
-</details>
-
-<!-- §9 inputs feed §3 Supporting/Complementary tiers; omit empty <details> in §3 -->
-
-## 10. Scoreable Inputs & Modulation Signals
-
-<!-- Omit entire Scoreable section when not used for this PM; renumber References. -->
+<!-- Omit entire Scoreable section when not used for this PM; renumber References to ## 7. -->
 
 <INSERT_SCOREABLE_INTRO_IF_USED>
 
@@ -184,7 +181,7 @@ No direct functional outcome relationship currently mapped.
 
 </details>
 
-## 11. References
+## 8. References
 
 <!-- Author et al. (Year) — Topic; see system/brs-citation-reference-standard.md -->
 - [Author et al. (Year) — Short Descriptive Study Topic](/docs/papers/BRAIN-Diet-References#<placeholder_citation_key_1>)

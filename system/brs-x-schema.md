@@ -43,7 +43,7 @@ Examples:
 - `BRS-X(ECS-PM1) — Endocannabinoid Tone Regulation`
 - `BRS-X(Hormones-PM3) — Estrogen–Neurotransmitter Coupling`
 
-PM §5 (`Connected BRS{N} Mechanisms`) remains for **same-BRS** FM/PM rollups only.
+PM §6 (`BRS Pathways and Connections`) holds pathway chains (§6.1), cross-BRS links (§6.2), and same-host-FM rollups (§6.3).
 
 ## Relationship to SMs
 

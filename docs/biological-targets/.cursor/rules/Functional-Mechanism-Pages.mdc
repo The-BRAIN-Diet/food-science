@@ -30,7 +30,7 @@ Synthesis contract (required):
 - **Mechanistic Basis (§4):** `### 4.1 Core Primary Mechanisms`, `### 4.2 Integrated Functional Narrative`; add `### 4.3 Functional Failure Modes` only when `key_constraints` is non-empty; optional `### 4.4 Evidence Highlights` for FM-level evidence framing.
 - **Canonical (no KCs):** `docs/biological-targets/brs1/fm4/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx`
 - **Canonical (with KCs + failure modes):** `docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx`
-- **§5 Connected Mechanisms** — roll up from constituent PM `§6 Connected Mechanisms`; do not use legacy `BRS Links` heading on FM pages.
+- **§5 Connected Mechanisms** — roll up from constituent PM `§6.2 Connected BRS Mechanisms`; do not use legacy `BRS Links` heading on FM pages.
 - **Deduplication:** if detail exists on a PM page, do not repeat it on the FM page — only describe how PMs combine into the FM state.
 
 **Single-PM FM (1:1):** when `mechanisms_covered` has exactly one PM, §2 `functional_outcome_context` must use the **same phenome labels and confidence** as that PM’s `phenome_relationships` (rewritten FM synthesis + aligned references; no extra or merged phenomes). See `system/phenome-relationship-schema.md` § Single-PM FM (1:1) rule. Canonical: `docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx`.

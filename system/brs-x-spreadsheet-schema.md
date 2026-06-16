@@ -113,8 +113,8 @@ From `system/brs-spreadsheet-schema.md`:
 **BRS-X extensions:**
 
 - **Do not relocate** existing BRS1–6 PMs into BRS-X tabs. Link them only via **Connected Mechanisms**.
-- **Connected BRS-X Mechanisms** (§5 on PM pages): same-system FM + sibling PMs only.
-- **Connected Mechanisms** (§6 on PM / §5 on FM): cross-links to BRS1–6 **or** the other BRS-X system.
+- **Connected BRS-X rollups** (§6.3 on PM pages): same-system parent FM + sibling PMs.
+- **Connected BRS Mechanisms** (§6.2 on PM / §6 on FM): cross-links to BRS1–6 **or** the other BRS-X system.
 - KCs are **substrates/precursors only** — not hormones as KCs unless explicitly framed as a **pool/availability constraint** (e.g. cholesterol substrate pool), not receptor pharmacology.
 - Cofactors ≠ KCs ≠ Connected Mechanisms.
 
@@ -210,7 +210,7 @@ Same synthesis contract as BRS1–6 (`functional-mechanism-schema.md`):
 Profile A extended (`primary-mechanism-schema.md`):
 
 - `parent_brs` in front matter = `BRS-X(ECS)` or `BRS-X(Hormones)` (not `BRS1`…`BRS6`)
-- §5 **Connected BRS-X Mechanisms** (same-system FM + sibling PMs)
+- §6.3 **Connected Primary Mechanisms** (same-system parent FM + sibling PMs)
 - §6 **Connected Mechanisms** ← BRS1–6 and cross BRS-X links
 - **FM / PM / SM pages:** portrait thumbnail in `<p class="brs-pm-thumbnail-wrap">` with `<img class="brs-pm-thumbnail">` (same 217×122 crop as BRS1–6 mechanism pages). Assets: `brs-x-ecs-portrait-thumbnail.jpg` or `brs-x-hormones-portrait-thumbnail.jpg`
 - **System hub pages:** `brs-x-hero` or `brs-hub-hero` (half content width, no crop)

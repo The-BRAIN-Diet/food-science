@@ -2,8 +2,6 @@
 
 Citation and reference format: **`system/brs-citation-reference-standard.md`**.
 
-PM §3 Intervention Summary: **`system/pm-intervention-summary-standard.md`**.
-
 ## Build Gate Proviso
 
 - Never render or expose spreadsheet letter identifiers in generated content or public-facing pages.
@@ -101,17 +99,9 @@ phenome_relationships:               # optional; authoritative translational map
 
 ## Timing Specific (required ontology metadata; not a default public body section)
 
-`timing_specific` is **required in front matter** on all PM pages (`Yes` | `No`). It must **not** appear as a standalone numbered body section (`## N. Timing Specific` with only `Yes` or `No`). Where timing materially alters interpretation, discuss it within **Functional Role**, **Mechanistic Basis**, **Lifestyle Levers**, or **Scoreable Inputs & Modulation Signals**.
+`timing_specific` is **required in front matter** on all PM pages (`Yes` | `No`). It must **not** appear as a standalone numbered body section (`## N. Timing Specific` with only `Yes` or `No`). Where timing materially alters interpretation, discuss it within **§4.2 Lifestyle Levers**, **Functional Role**, **Mechanistic Basis**, or **Scoreable Inputs & Modulation Signals**.
 
-## Intervention Summary (extended-profile §3)
-
-Profile A PMs include **## 3. Intervention Summary** after Target Functional Outcome / Phenome. Authoring contract: **`system/pm-intervention-summary-standard.md`**.
-
-**Visible:** `### Intervention Profile` (Intervention Dominance) → `### Foundational Levers`.
-
-**Collapsible (`<details>`):** Supporting Levers and Complementary Levers — **only when that tier has levers**; omit the entire `<details>` block when empty (no `- None listed` inside dropdowns).
-
-`intervention_breakdown` in front matter (Food-State Dominant, etc.) remains spreadsheet ingest metadata and is **not** rendered as the §3 body. `intervention_dominance` in front matter feeds the Intervention Profile. **§3 must map evidenced inputs from §8 (foundational) and §9 (supporting/complementary lifestyle)** per `system/pm-intervention-summary-standard.md`.
+`intervention_breakdown` in front matter remains spreadsheet ingest metadata and is **not** rendered as a public body section. `intervention_dominance` is rendered in **§4 Levers** as **Intervention Profile** (see **PM §4 — Levers**).
 
 ## Section body prose
 
@@ -123,48 +113,115 @@ First line of the MDX body (after front matter) must be the mechanism title: `##
 
 Three **profiles** are allowed; pick one per PM and keep numbering contiguous (no gaps in `## N.` sequence).
 
-### Profile A — Extended narrative PM (e.g. BRS1 PMs, BRS6 PM1–PM4 with Intervention Breakdown)
+### Profile A — Extended narrative PM (e.g. BRS1 PMs, BRS6 PM1–PM4)
 
 1. Definition — `## 1. Definition`
-2. Target Functional Outcome / Phenome — `## 2. Target Functional Outcome / Phenome` — translational mappings from `phenome_relationships`; canonical disclaimer required; empty state when unmapped
-3. Intervention Summary — `## 3. Intervention Summary` — see **`system/pm-intervention-summary-standard.md`** (Intervention Profile + Foundational Levers visible; other subsections in `<details>`)
-4. Functional Role — `## 4. Functional Role` (directional arrow summary)
+2. Functional Role — `## 2. Functional Role` (directional arrow summary)
+3. Target Functional Outcome / Phenome — `## 3. Target Functional Outcome / Phenome` — translational mappings from `phenome_relationships`; canonical disclaimer required; empty state when unmapped
+4. Levers — `## 4. Levers` — **sole public section for dietary and lifestyle implementation** (see **PM §4 — Levers** below)
+   - **4.1 Dietary Levers** — outer `<details>` dropdown
+     - **4.1.1 Direct Dietary Levers** — nested `<details>`; substance ← food bullets per `system/substance-food-mapping-format.md`
+     - **4.1.2 Cofactors and Supporting Inputs** — nested `<details>`; from front matter `cofactors`
+     - **4.1.3 KCs (Key Constraints)** — nested `<details>`; linked KC pages
+   - **4.2 Lifestyle Levers** — `<details>` dropdown; primary place for timing narrative when `timing_specific: "Yes"`
 5. Mechanistic Basis — `## 5. Mechanistic Basis`
-   - **Canonical structure (Profile A):** see **PM §4 — Canonical four-part narrative** below. **Reference page:** [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
+   - **Canonical structure (Profile A):** see **PM §5 — Canonical four-part narrative** below. **Reference page:** [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
    - **`### Summary` (required):** why this mechanism matters — the integrative implication in plain language, not a restated Definition or repeated mechanism name.
    - **Body (required):** three or more `#### (…)` blocks after Summary, in order: **primary mechanism** (one or more thematic blocks) → **boundaries** → **integration** (KCs, parent FM, cross-links). Explain how the mechanism works; do not re-define the entity.
-   - **`<details>` (recommended on Profile A reference pages):** keep **`### Summary` visible**; wrap all post-Summary mechanism content (every `####` block: primary mechanism, boundaries, integration) in one `<details><summary>…</summary>…</details>` inside `## 4.` Do **not** put Summary or §4.1 inside this dropdown.
-   - **Citations (required where evidence-backed):** keep inline citations in §4 when rewriting or shortening prose — see **PM §4 — Citations** below. Do not drop references to make the narrative “cleaner.”
-   - **Excluded from §4 mechanism dropdown:** dietary levers, substance ← food bullets, lifestyle levers, scoreable inputs (§6–§8). Evidence Highlights use `### 4.1` at the end of `## 4.` (not inside the mechanism `<details>`).
+   - **`<details>` (recommended on Profile A reference pages):** keep **`### Summary` visible**; wrap all post-Summary mechanism content (every `####` block: primary mechanism, boundaries, integration) in one `<details><summary>…</summary>…</details>` inside `## 5.` Do **not** put Summary or §5.1 inside this dropdown.
+   - **Citations (required where evidence-backed):** keep inline citations in §5 when rewriting or shortening prose — see **PM §5 — Citations** below. Do not drop references to make the narrative “cleaner.”
+   - **Excluded from §5 mechanism dropdown:** dietary levers, substance ← food bullets, lifestyle levers, scoreable inputs (§4, §7). Evidence Highlights use `### 5.1` at the end of `## 5.` (not inside the mechanism `<details>`).
 5.1. Evidence Highlights — `### 5.1 Evidence Highlights` (optional, recommended on authored PMs) — **subsection of §5** after the mechanism `<details>`, still before `## 6.` See **PM §5.1 — Evidence Highlights** below.
-6. Connected BRSX Mechanisms — `## 6. Connected BRSX Mechanisms` where **X** is the host BRS (`parent_brs`, e.g. `Connected BRS1 Mechanisms`) — same-BRS placement
-   - `### 6.1` Overarching Functional Mechanism — link to parent FM (`parent_fm` in front matter)
-   - `### 6.2` Connected Primary Mechanisms — sibling PMs on the same FM (`mechanisms_covered` on parent FM, excluding this PM)
-7. Connected Mechanisms — `## 7. Connected Mechanisms` — PM/FM links in other BRS domains (harmonised with FM §6 heading)
-8. Dietary Levers — `## 8. Dietary Levers`
-   - `### 8.1` Direct Dietary Levers — substance ← food bullets per `system/substance-food-mapping-format.md`
-   - `### 8.2` Cofactors and Supporting Inputs — from front matter `cofactors`
-   - `### 8.3` KCs (Key Constraints) — linked KC pages
-9. Lifestyle Levers — `## 9.` same pattern with `<details><summary><strong>Lifestyle</strong></summary>`; primary place for timing narrative when `timing_specific: "Yes"`
-10. Scoreable Inputs & Modulation Signals — `## 10.` **only when this PM is scoreable in the ontology**; optional intro paragraph; table (or list) may sit inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…` Use three rows only: **Functional Property Potentials**, **Realised Functional States**, **Preparation Transformations** (do not repeat §8.1 substances in a Substance / Nutrient Signals row).
-11. References — `## 11. References`
+6. BRS Pathways and Connections — `## 6. BRS Pathways and Connections` — unified heading on all Profile A PMs (host-BRS placement and cross-BRS links)
+   - `### 6.1` BRS Pathways — ordered multi-step pathway chains across PMs (and optionally FMs) when materially relevant; use linked PM labels with `↓` between steps on separate lines. Example (BRS2-FM1-PM1): homocysteine remethylation → phospholipid methylation → neuronal membrane DHA incorporation.
+   - `### 6.2` Connected BRS Mechanisms — PM/FM links in other BRS domains (former standalone `## 7. Connected Mechanisms`; harmonised with FM §6 heading)
+   - `### 6.3` Connected Primary Mechanisms — parent FM (`parent_fm` in front matter) plus sibling PMs on the same host FM (`mechanisms_covered` on parent FM, excluding this PM)
+7. Scoreable Inputs & Modulation Signals — `## 7.` **only when this PM is scoreable in the ontology**; optional intro paragraph; table (or list) may sit inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…` Use three rows only: **Functional Property Potentials**, **Realised Functional States**, **Preparation Transformations** (do not repeat §4.1.1 substances in a Substance / Nutrient Signals row).
+8. References — `## 8. References`
 
-### Profile A′ — Full narrative PM without Intervention Summary body (e.g. BRS6 PM1 legacy outline, BRS6 PM5)
+### PM §4 — Levers
 
-Same as **Profile A** but omit §3 Intervention Summary when the PM does not use the extended intervention block; renumber so Definition → Phenome → Functional Role → Mechanistic Basis remains contiguous (see **Profile B** numbering for compact pages).
+**Heading:** `## 4. Levers`
+
+**Intervention Profile (required, visible):** place `### Intervention Profile` with `**Intervention Dominance:**` from front matter `intervention_dominance` **above** the **4.1** and **4.2** `<details>` dropdowns. Do not use `<details>` for Intervention Profile.
+
+**Rendering contract:** both **4.1 Dietary Levers** and **4.2 Lifestyle Levers** are top-level `<details>` dropdowns under `## 4. Levers`. Inside **4.1 Dietary Levers**, use three nested `<details>` blocks for **4.1.1**, **4.1.2**, and **4.1.3**. Omit any dropdown when that tier has no content (do not use `- None listed` inside empty dropdowns).
+
+**Do not** place cofactors, KCs, substance ← food levers, or lifestyle bullets under **§6 BRS Pathways and Connections** or inside **§5 Mechanistic Basis**.
+
+```markdown
+## 4. Levers
+
+### Intervention Profile
+
+**Intervention Dominance:** <from front matter intervention_dominance>
+
+<details>
+<summary><strong>4.1 Dietary Levers</strong></summary>
+
+<details>
+<summary><strong>4.1.1 Direct Dietary Levers</strong></summary>
+
+- Substance ← food bullets per system/substance-food-mapping-format.md
+
+</details>
+
+<details>
+<summary><strong>4.1.2 Cofactors and Supporting Inputs</strong></summary>
+
+- From front matter cofactors
+
+</details>
+
+<details>
+<summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>
+
+- Linked KC pages
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>4.2 Lifestyle Levers</strong></summary>
+
+- Lifestyle implementation bullets; timing narrative when timing_specific: Yes
+
+</details>
+```
+
+### PM §6 — BRS Pathways and Connections
+
+| Subsection | Role | Content |
+|------------|------|---------|
+| **6.1 BRS Pathways** | Ordered multi-step chains | Linked PM labels with `↓` on separate lines between steps when a pathway spans PMs (often cross-FM or cross-BRS). Use `- None listed` when no pathway is authored yet. |
+| **6.2 Connected BRS Mechanisms** | Cross-BRS links | PM/FM links in other BRS domains (content formerly in standalone `## 7. Connected Mechanisms`). Harmonised with FM `## 6. Connected Mechanisms`. |
+| **6.3 Connected Primary Mechanisms** | Same-host-FM placement | Parent FM link (`parent_fm`) plus sibling PMs on the same FM (exclude current PM). **No cofactors, KCs, or dietary levers here.** |
+
+**§4 vs §6:** §4 is implementation only (dietary, cofactors, KCs, lifestyle). §6 is connectivity only (pathways, cross-BRS links, same-FM PM rollups).
+
+**Example pathway (BRS2-FM1-PM1):**
+
+```
+[BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
+↓
+[BRS2-FM3-PM7 — Phospholipid Methylation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation)
+↓
+[BRS1-FM4-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm6-neuronal-membrane-dha-incorporation)
+```
 
 ### Profile B — Compact PM (e.g. BRS6 PM2–PM8, BRS6 PM5)
 
 1. Definition — `## 1. Definition`
 2. Mechanistic Basis — `## 2. Mechanistic Basis` (canonical four-part narrative)
-2.1. Evidence Highlights — `### 2.1 Evidence Highlights` (optional — same rules as §4.1; subsection at end of `## 2.`)
+2.1. Evidence Highlights — `### 2.1 Evidence Highlights` (optional — same rules as §5.1; subsection at end of `## 2.`)
 3. Underlying Mechanisms and Requirements — `## 3. Underlying Mechanisms and Requirements` with `### 3.1` Cofactors and Supporting Inputs, `### 3.2` KCs, `### 3.3` Optional BRSX Modifiers, `### 3.4` Connected Mechanisms
 4. Dietary Levers — `## 4.` (`<details>` / **Diet**)
 5. Lifestyle Levers — `## 5.` (`<details>` / **Lifestyle**)
-6. Functional Outputs (Directional Effects) — `## 6.` short arrow-line or paragraph (distinct from §2 Functional Role on Profile A)
+6. Functional Outputs (Directional Effects) — `## 6.` short arrow-line or paragraph (distinct from `## 2. Functional Role` on Profile A)
 7. References — `## 7. References`
 
-### PM §4 — Canonical four-part narrative
+### PM §5 — Canonical four-part narrative
 
 Teachable PM Mechanistic Basis follows this flow (all visible by default on the reference page):
 
@@ -175,11 +232,11 @@ Teachable PM Mechanistic Basis follows this flow (all visible by default on the 
 | 3 | `#### (Boundaries of the mechanism)` (or equivalent) | **What this PM does not cover** — downstream PMs, transport, conversion, other BRS domains; brief, after the mechanism is explained. |
 | 4 | `#### (Integration within BRS…)` (or equivalent) | **Where it sits** — KCs, FM, connected mechanisms; one short placement paragraph. |
 
-**Anti-patterns:** opening with the mechanism name or entity ID; leading with scope boundaries; review-paper tone; closing “together, these relationships…” synthesis paragraphs; `Dietary levers include…` or food-example lists in §4; stripping citations during editorial passes.
+**Anti-patterns:** opening with the mechanism name or entity ID; leading with scope boundaries; review-paper tone; closing “together, these relationships…” synthesis paragraphs; `Dietary levers include…` or food-example lists in §5; stripping citations during editorial passes.
 
 Authoring detail: `system/mechanism-page-section-prose.md` (**PM Mechanistic Basis — canonical structure**).
 
-### PM §4 — Citations
+### PM §5 — Citations
 
 Mechanistic Basis must remain **evidence-anchored**, not assertion-only. Follow **`system/brs-citation-reference-standard.md`**.
 
@@ -192,30 +249,34 @@ Mechanistic Basis must remain **evidence-anchored**, not assertion-only. Follow 
 
 **References section:** each cited study appears as `Author et al. (Year) — Short Descriptive Study Topic` with link to `/docs/papers/BRAIN-Diet-References#citation_key`. Pull keys from `key_studies` / `references` front matter; verify each `citation_key` exists in `static/bibtex/BRAIN-diet.bib`.
 
-**When rewriting §4:** preserve existing citations unless the claim is removed; add citations for new evidence-backed claims.
+**When rewriting §5:** preserve existing citations unless the claim is removed; add citations for new evidence-backed claims.
 
 **Reference page:** [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
 
-### PM §4.1 — Evidence Highlights
+### PM §5.1 — Evidence Highlights
 
 **Purpose:** Curated, insight-driven findings that show **why the mechanism matters in practice** — not a second Mechanistic Basis and not a literature review.
 
-**Placement:** `### 4.1 Evidence Highlights` as a **subsection of §4** (after the mechanism `<details>`, not inside it). Order within `## 4.`: `### Summary` → mechanism `<details>` → `### 4.1 Evidence Highlights` → then `## 5. Underlying…`. Profile B: `### 2.1 Evidence Highlights` at the end of `## 2. Mechanistic Basis`.
+**Placement:** `### 5.1 Evidence Highlights` as a **subsection of §5** (after the mechanism `<details>`, not inside it). Order within `## 5.`: `### Summary` → mechanism `<details>` → `### 5.1 Evidence Highlights` → then `## 6. BRS Pathways and Connections`. Profile B: `### 2.1 Evidence Highlights` at the end of `## 2. Mechanistic Basis`.
 
-| § | Role |
+| § | Role (Profile A extended) |
 |---|------|
-| **§4 Mechanistic Basis** | How the biology works (canonical four-part narrative). |
-| **§4.1 Evidence Highlights** | What important studies found and why that changes or qualifies interpretation. |
-| **§5 Underlying** | Dependencies, cofactors, KCs, connected PMs, connected mechanisms. |
-| **§6 Dietary Levers** | Practical food-based strategies. |
+| **§2 Functional Role** | Directional ↑/↓ summary of emergent outcomes. |
+| **§3 Target Functional Outcome / Phenome** | Translational phenome mappings — not single-mechanism outcome claims. |
+| **§4 Levers** | Dietary (4.1.1–4.1.3) and lifestyle (4.2) implementation — all in `<details>` dropdowns. |
+| **§5 Mechanistic Basis** | How the biology works (canonical four-part narrative). |
+| **§5.1 Evidence Highlights** | What important studies found and why that changes or qualifies interpretation. |
+| **§6 BRS Pathways and Connections** | Pathway chains, cross-BRS links, same-FM PM rollups — **not** levers, cofactors, or KCs. |
+
+Profile B compact PMs keep cofactors under `## 3. Underlying Mechanisms and Requirements` → `### 3.1 Cofactors and Supporting Inputs`.
 
 **Include studies that (high priority):** alter interpretation; reveal synergies or dependencies; show meaningful human or intervention relevance; expose heterogeneity or context-dependent responses.
 
-**Exclude (low priority):** findings that only repeat §4 textbook biology; small redundant mechanistic papers; studies that merely mention the pathway without changing how to read the PM.
+**Exclude (low priority):** findings that only repeat §5 textbook biology; small redundant mechanistic papers; studies that merely mention the pathway without changing how to read the PM.
 
 **UX:** `#### Introduction/Summary` (visible) → one `<details>` with finding-focused bullets or short `####` blocks. Reference: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation), [BRS1-FM2-PM4](/docs/biological-targets/brs1/fm2/brs1-fm2-pm4-lat1-competitive-transport-modulation).
 
-**Non-repetition:** §1 = *what*; §4 = *how*; §4.1 = *how we know*. Do not restate the same meal-composition or pathway claim across all three (see `system/mechanism-page-section-prose.md` — **PM section roles**).
+**Non-repetition:** §1 = *what*; §2 = *directional outcome*; §3 = *translational phenome context*; §4 = *implementation*; §5 = *how*; §5.1 = *how we know*. Do not restate the same meal-composition or pathway claim across all six (see `system/mechanism-page-section-prose.md` — **PM section roles**).
 
 **Writing style:** Short bullets or tight paragraphs. Lead with **why the finding is interesting**, not methods or results laundry lists. Inline: `[Author et al., Year]`; References entry with descriptive topic per **`system/brs-citation-reference-standard.md`**.
 
@@ -223,15 +284,15 @@ Mechanistic Basis must remain **evidence-anchored**, not assertion-only. Follow 
 
 **Anti-pattern:** “Smith et al. conducted a randomized trial in N participants measuring…”
 
-**Citations:** Same rules as §4 — every inline author–year in §4.1 must have a matching References entry; prefer existing BRAIN-diet bibliography entries.
+**Citations:** Same rules as §5 — every inline author–year in §5.1 must have a matching References entry; prefer existing BRAIN-diet bibliography entries.
 
 **Profile B:** use `### 2.1 Evidence Highlights` at the end of `## 2. Mechanistic Basis` with the same authoring rules.
 
-Authoring detail: `system/mechanism-page-section-prose.md` (**PM §4.1 — Evidence Highlights**).
+Authoring detail: `system/mechanism-page-section-prose.md` (**PM §5.1 — Evidence Highlights**).
 
 ### Excluded from the public PM body
 
-Body sections **do not** include Missing Entities, System Integration, Key Insight, Functional Mechanism Ownership, Intervention Dominance, Constraints and Failure Modes, Scoring Interpretation, Notes, or Mechanism Summary Table. Those belong in front matter, FM pages, authoring metadata, or other artefacts. Intervention dominance and FM ownership stay in YAML/front matter where present.
+Body sections **do not** include Missing Entities, System Integration, Key Insight, Functional Mechanism Ownership, Intervention Summary, Intervention Breakdown, Constraints and Failure Modes, Scoring Interpretation, Notes, or Mechanism Summary Table. Those belong in front matter, FM pages, authoring metadata, or other artefacts. `intervention_breakdown` and FM ownership stay in YAML/front matter; `intervention_dominance` is rendered only via **§4 Intervention Profile**.
 
 ### MDX body vs YAML
 
@@ -245,14 +306,15 @@ npm run mechanisms:validate
 
 Implementation: `scripts/validate-mechanism-pages.mjs` and `scripts/lib/mechanism-page-validation.mjs` (front matter `timing_specific`, no visible Timing Specific section, extended-profile section order) plus `scripts/lib/pm-mechanistic-basis.mjs` (Mechanistic Basis missing/placeholder checks).
 
-**Mechanistic Basis validation:** if the Mechanistic Basis section (typically `## 4.` on extended PMs, `## 2.`–`## 3.` on compact PMs) is missing or placeholder, validation fails unless the page has `mechanistic_authoring_required: true` in front matter.
+**Mechanistic Basis validation:** if the Mechanistic Basis section (typically `## 5.` on extended Profile A PMs, `## 2.`–`## 3.` on compact PMs) is missing or placeholder, validation fails unless the page has `mechanistic_authoring_required: true` in front matter.
 
 ## Validation Rules
 
 - `timing_specific` is required in front matter (`Yes` | `No`); visible `## N. Timing Specific` body sections are forbidden.
 - Mechanistic Basis must be present and non-placeholder unless `mechanistic_authoring_required: true` is set in front matter.
-- Extended Profile A PMs must include `## 3. Intervention Summary` per **`system/pm-intervention-summary-standard.md`** (legacy `## 3. Intervention Breakdown` is deprecated).
-- When `intervention_breakdown` is present in front matter, it must be one of the five allowed spreadsheet values; it is not required to match §3 body text.
+- Extended Profile A PMs must include `## 2. Functional Role` immediately after Definition.
+- Extended Profile A PMs must include `## 4. Levers` with visible `### Intervention Profile` and `**Intervention Dominance:**` above the dropdowns; **4.1 Dietary Levers** and **4.2 Lifestyle Levers** as `<details>` dropdowns; **4.1** must contain nested dropdowns for **4.1.1 Direct Dietary Levers**, **4.1.2 Cofactors and Supporting Inputs**, and **4.1.3 KCs (Key Constraints)** when those tiers have content.
+- `intervention_breakdown` in front matter, when present, must be one of the five allowed spreadsheet values and must not be rendered as a public body section.
 - `overview` must be <=120 words.
 - `functional_mechanism_ownership` must contain exactly one FM (never multiple).
 - `dependencies` must not include PM-to-PM dependencies.
@@ -264,7 +326,7 @@ Implementation: `scripts/validate-mechanism-pages.mjs` and `scripts/lib/mechanis
 - No Secondary Mechanisms (SMs) introduced during initial rollout.
 - References must resolve to existing citation keys in `static/bibtex/BRAIN-diet.bib` per **`system/brs-citation-reference-standard.md`**.
 - Every inline `[Author et al., Year]` in **Mechanistic Basis** must have a matching **References** entry with descriptive topic and `citation_key` (orphan in-text refs fail authoring review).
-- PM pages with `key_studies` or non-empty `references` front matter should cite at least one source in §4 primary mechanism blocks when those studies support the mechanism narrative (waived only when `mechanistic_authoring_required: true`).
+- PM pages with `key_studies` or non-empty `references` front matter should cite at least one source in §5 primary mechanism blocks when those studies support the mechanism narrative (waived only when `mechanistic_authoring_required: true`).
 
 ## Field Integrity Mapping
 

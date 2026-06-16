@@ -38,6 +38,8 @@ export const INTERVENTION_DOMINANCE_VALUES = new Set([
 
 const INTERVENTION_SUMMARY_HEADING = /^##\s+3\.\s+Intervention Summary\s*$/m;
 const LEGACY_INTERVENTION_BREAKDOWN_HEADING = /^##\s+3\.\s+Intervention Breakdown\s*$/m;
+const ANY_INTERVENTION_SECTION_HEADING = /^##\s+\d+\.\s+Intervention (Summary|Breakdown)\s*$/m;
+const LEVERS_SECTION_HEADING = /^##\s+4\.\s+Levers\s*$/m;
 
 export const SM_CATEGORY_VALUES = new Set(["SM-SNP", "SM-PHEN", "SM-CROSS"]);
 
@@ -48,7 +50,7 @@ export const SCOREABLE_SECTION_TITLE = "Scoreable Inputs & Modulation Signals";
 const LEGACY_SCOREABLE_HEADING = /^##\s+\d+\.\s+Scoreable Food-State Inputs\s*$/m;
 const SCOREABLE_SECTION_HEADING = /^##\s+(\d+)\.\s+Scoreable Inputs & Modulation Signals\s*$/m;
 
-/** PM scoreable tables: food-state and preparation signals only (substances live in §6 Dietary Levers). */
+/** PM scoreable tables: food-state and preparation signals only (substances live in §7 Dietary Levers). */
 export const REQUIRED_SCOREABLE_CATEGORY_GROUPS_PM = [
   ["Functional Property Potentials"],
   ["Realised Functional States"],
@@ -305,6 +307,59 @@ function extractInterventionSectionBody(content) {
   return { block: content.slice(start, end), isSummary: INTERVENTION_SUMMARY_HEADING.test(m[0]) };
 }
 
+function extractLeversSectionBody(content) {
+  const m = content.match(LEVERS_SECTION_HEADING);
+  if (!m || m.index === undefined) return null;
+  const start = m.index;
+  const after = content.slice(start);
+  const next = after.slice(1).search(NEXT_INTEGER_SECTION_HEADING);
+  const end = next === -1 ? content.length : start + 1 + next;
+  return { block: content.slice(start, end) };
+}
+
+function validateInterventionProfileInLevers(leversBlock, issues, { entityLabel, dominance }) {
+  if (!/^###\s+Intervention Profile\s*$/m.test(leversBlock)) {
+    pushIssue(
+      issues,
+      "missing_intervention_profile",
+      `${entityLabel}: §4 Levers must include ### Intervention Profile (visible) above dropdowns`,
+    );
+  }
+  if (!/\*\*Intervention Dominance:\*\*/i.test(leversBlock)) {
+    pushIssue(
+      issues,
+      "missing_intervention_dominance_line",
+      `${entityLabel}: §4 Intervention Profile must include **Intervention Dominance:**`,
+    );
+  }
+  if (/\*\*Coverage Timing:\*\*/i.test(leversBlock)) {
+    pushIssue(
+      issues,
+      "forbidden_coverage_timing_in_summary",
+      `${entityLabel}: §4 Intervention Profile must not include Coverage Timing`,
+    );
+  }
+  const detailsIdx = leversBlock.search(/<details>/i);
+  const profileIdx = leversBlock.search(/###\s+Intervention Profile/i);
+  if (detailsIdx !== -1 && profileIdx !== -1 && profileIdx > detailsIdx) {
+    pushIssue(
+      issues,
+      "intervention_profile_placement",
+      `${entityLabel}: §4 Intervention Profile must appear above 4.1 / 4.2 dropdowns`,
+    );
+  }
+  if (dominance) {
+    const lineMatch = leversBlock.match(/\*\*Intervention Dominance:\*\*\s*(.+)/);
+    if (lineMatch && lineMatch[1].trim() !== String(dominance).trim()) {
+      pushIssue(
+        issues,
+        "intervention_dominance_mismatch",
+        `${entityLabel}: §4 Intervention Dominance should match front matter intervention_dominance`,
+      );
+    }
+  }
+}
+
 const EVIDENCE_TIER_LABEL_RE =
   /\(Evidence:\s*(Human Outcome|Human Mechanistic|Animal Mechanistic|Cellular \/ Molecular)\)/;
 
@@ -390,11 +445,12 @@ function validateInterventionBreakdown(data, content, issues, { entityLabel, req
     }
     const hasSummary = INTERVENTION_SUMMARY_HEADING.test(content);
     const hasLegacy = LEGACY_INTERVENTION_BREAKDOWN_HEADING.test(content);
-    if (!forbidBodySection && !hasSummary && !hasLegacy) {
+    const hasLevers = LEVERS_SECTION_HEADING.test(content);
+    if (!forbidBodySection && !hasSummary && !hasLegacy && !hasLevers) {
       pushIssue(
         issues,
         "missing_intervention_section",
-        `${entityLabel}: published body must include "## 3. Intervention Summary" (or legacy "## 3. Intervention Breakdown") after Phenome layer`,
+        `${entityLabel}: published body must include "## 4. Levers" with ### Intervention Profile`,
       );
     }
   } else if (fmValue && !INTERVENTION_BREAKDOWN_VALUES.has(String(fmValue).trim())) {
@@ -414,7 +470,7 @@ function validateInterventionBreakdown(data, content, issues, { entityLabel, req
     );
   }
 
-  if (forbidBodySection && (INTERVENTION_SUMMARY_HEADING.test(content) || LEGACY_INTERVENTION_BREAKDOWN_HEADING.test(content))) {
+  if (forbidBodySection && (ANY_INTERVENTION_SECTION_HEADING.test(content))) {
     pushIssue(
       issues,
       "forbidden_intervention_section",
@@ -422,8 +478,23 @@ function validateInterventionBreakdown(data, content, issues, { entityLabel, req
     );
   }
 
+  const leversExtracted = extractLeversSectionBody(content);
+  if (leversExtracted && !forbidBodySection) {
+    validateInterventionProfileInLevers(leversExtracted.block, issues, {
+      entityLabel,
+      dominance: data.intervention_dominance,
+    });
+    if (ANY_INTERVENTION_SECTION_HEADING.test(content)) {
+      pushIssue(
+        issues,
+        "legacy_intervention_section",
+        `${entityLabel}: retire standalone Intervention Summary/Breakdown; use §4 Levers Intervention Profile only`,
+      );
+    }
+  }
+
   const extracted = extractInterventionSectionBody(content);
-  if (!extracted || forbidBodySection) return;
+  if (!extracted || forbidBodySection || leversExtracted) return;
 
   const { block, isSummary } = extracted;
   for (const re of FORBIDDEN_INTERVENTION_LABELS) {
@@ -745,27 +816,25 @@ function getLifestyleLeversBlock(content) {
 }
 
 function validatePmLifestyleLeversEvidence(content, issues, { entityLabel }) {
-  if (!INTERVENTION_SUMMARY_HEADING.test(content)) return;
-  const block = getLifestyleLeversBlock(content);
-  if (!block) return;
+  if (!LEVERS_SECTION_HEADING.test(content)) return;
+  const levers = extractLeversSectionBody(content);
+  if (!levers) return;
+  const lifestyleMatch = levers.block.match(
+    /<summary><strong>4\.2 Lifestyle Levers<\/strong><\/summary>\s*\n([\s\S]*?)<\/details>/i,
+  );
+  const block = lifestyleMatch ? lifestyleMatch[1] : "";
   const bullets = [...block.matchAll(/^- (.+)$/gm)]
     .map((m) => m[1].trim())
     .filter((b) => b && !/^None listed$/i.test(b));
   if (!bullets.length) return;
   for (const bullet of bullets) {
+    const hasCitation = /\[[^\]]+,\s*\d{4}\]/.test(bullet);
+    if (!hasCitation) continue;
     if (!EVIDENCE_TIER_LABEL_RE.test(bullet)) {
       pushIssue(
         issues,
         "lifestyle_lever_missing_evidence",
-        `${entityLabel}: §9 Lifestyle Levers bullets must include (Evidence:<tier>) — see system/pm-intervention-summary-standard.md`,
-      );
-      return;
-    }
-    if (!/\[[^\]]+,\s*\d{4}\]/.test(bullet)) {
-      pushIssue(
-        issues,
-        "lifestyle_lever_missing_citation",
-        `${entityLabel}: §9 Lifestyle Levers bullets must include [Author et al., Year]`,
+        `${entityLabel}: §4.2 Lifestyle Levers bullets must include (Evidence:<tier>)`,
       );
       return;
     }
@@ -840,6 +909,10 @@ function validateFmPage(filePath, { rootDir }) {
 }
 
 function pmUsesExtendedProfile(data, content) {
+  if (LEVERS_SECTION_HEADING.test(content)) return true;
+  if (/^##\s+\d+\.\s+Underlying Mechanisms and Requirements\s*$/m.test(content)) {
+    return false;
+  }
   return (
     Boolean(data.intervention_breakdown) ||
     INTERVENTION_SUMMARY_HEADING.test(content) ||
@@ -847,23 +920,25 @@ function pmUsesExtendedProfile(data, content) {
   );
 }
 
-function pmConnectedSectionTitle(parentBrs) {
-  const brs = String(parentBrs || "").trim();
-  return brs ? `Connected ${brs} Mechanisms` : "Connected BRS Mechanisms";
+function pmConnectedSectionTitle() {
+  return "BRS Pathways and Connections";
 }
 
 /** PM extended profile: Intervention Breakdown in body; no Timing Specific section. */
 const PM_EXTENDED_AFTER_INTERVENTION = [
   "Functional Role",
   "Mechanistic Basis",
-  "Connected Mechanisms",
+  "BRS Pathways and Connections",
   "Dietary Levers",
   "Lifestyle Levers",
 ];
 
 function getConnectedMechanismsBlock(content) {
   const connected = parseNumberedSections(content).find(
-    (s) => /^Connected BRS\d+ Mechanisms/.test(s.title) || s.title.startsWith("Connected Mechanisms"),
+    (s) =>
+      s.title === "BRS Pathways and Connections" ||
+      /^Connected BRS[\w()-]+ Mechanisms/.test(s.title) ||
+      s.title.startsWith("Connected Mechanisms"),
   );
   if (!connected) return null;
   const blockStart = content.indexOf(connected.line);
@@ -881,25 +956,49 @@ function getDietaryLeversBlock(content) {
   return next === -1 ? after : after.slice(0, 1 + next);
 }
 
-function validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs }) {
+function validatePmHarmonisedSections(content, issues, { entityLabel }) {
   const major = parseNumberedSections(content).filter((s) => s.type === "major");
   const byLevel = new Map(major.map((s) => [s.level, s.title]));
-  const connectedTitle = pmConnectedSectionTitle(parentBrs);
+  const connectedTitle = pmConnectedSectionTitle();
 
-  if (byLevel.has(6) && String(byLevel.get(6)) !== connectedTitle) {
-    pushIssue(issues, "pm_section6", `${entityLabel}: §6 must be ${connectedTitle}`);
+  if (byLevel.has(4)) {
+    const t4 = String(byLevel.get(4));
+    if (t4 !== "Levers") {
+      pushIssue(issues, "pm_section4", `${entityLabel}: §4 must be Levers`);
+    }
   }
-  if (byLevel.has(7) && !String(byLevel.get(7)).startsWith("Connected Mechanisms")) {
-    pushIssue(issues, "pm_section7", `${entityLabel}: §7 must be Connected Mechanisms`);
+  if (byLevel.has(6)) {
+    const t6 = String(byLevel.get(6));
+    if (t6 !== connectedTitle) {
+      pushIssue(issues, "pm_section6", `${entityLabel}: §6 must be ${connectedTitle}`);
+    }
   }
-  if (byLevel.has(8) && !String(byLevel.get(8)).startsWith("Dietary Levers")) {
-    pushIssue(issues, "pm_section8", `${entityLabel}: §8 must be Dietary Levers`);
+  if (byLevel.has(7) && String(byLevel.get(7)).startsWith("Dietary Levers")) {
+    pushIssue(
+      issues,
+      "pm_legacy_dietary_section",
+      `${entityLabel}: retire standalone §7 Dietary Levers; merge into §4 Levers`,
+    );
+  }
+  if (byLevel.has(8) && String(byLevel.get(8)).startsWith("Lifestyle Levers")) {
+    pushIssue(
+      issues,
+      "pm_legacy_lifestyle_section",
+      `${entityLabel}: retire standalone §8 Lifestyle Levers; merge into §4.2 Lifestyle Levers`,
+    );
   }
   if (/^##\s+\d+\.\s+(Overarching Functional Mechanism|Underlying Mechanisms and Requirements)\s*$/m.test(content)) {
     pushIssue(
       issues,
       "pm_legacy_connected",
-      `${entityLabel}: use ## 6. ${connectedTitle} (6.1 FM, 6.2 sibling PMs) and ## 7. Connected Mechanisms`,
+      `${entityLabel}: use ## 6. ${connectedTitle} (6.1 BRS Pathways, 6.2 Connected BRS Mechanisms, 6.3 Connected Primary Mechanisms)`,
+    );
+  }
+  if (/^##\s+7\.\s+Connected Mechanisms\s*$/m.test(content)) {
+    pushIssue(
+      issues,
+      "pm_legacy_section7",
+      `${entityLabel}: retire standalone §7 Connected Mechanisms; use §6.2 Connected BRS Mechanisms`,
     );
   }
 
@@ -908,13 +1007,19 @@ function validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs 
     const subs = [...connectedBlock.matchAll(/^###\s+6\.(\d+)\s+(.+)$/gm)].map((m) => ({
       title: m[2].trim(),
     }));
-    if (subs.length >= 1 && !/Overarching Functional Mechanism/i.test(subs[0]?.title || "")) {
-      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.1 must be Overarching Functional Mechanism`);
+    if (subs.length >= 1 && !/BRS Pathways/i.test(subs[0]?.title || "")) {
+      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.1 must be BRS Pathways`);
     }
-    if (subs.length >= 2 && !/Connected Primary Mechanisms/i.test(subs[1]?.title || "")) {
-      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.2 must be Connected Primary Mechanisms`);
+    if (subs.length >= 2 && !/Connected BRS Mechanisms/i.test(subs[1]?.title || "")) {
+      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.2 must be Connected BRS Mechanisms`);
+    }
+    if (subs.length >= 3 && !/Connected Primary Mechanisms/i.test(subs[2]?.title || "")) {
+      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.3 must be Connected Primary Mechanisms`);
     }
   }
+
+  const leversExtracted = extractLeversSectionBody(content);
+  if (leversExtracted) return;
 
   const dietaryBlock = getDietaryLeversBlock(content);
   if (!dietaryBlock) return;
@@ -981,14 +1086,14 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
     if (titles[0] !== "Definition") {
       pushIssue(issues, "overlay_section_order", `${entityLabel}: §1 must be Definition`);
     }
-    if (titles[1] !== PM_PHENOME_SECTION_TITLE) {
-      pushIssue(issues, "overlay_section_order", `${entityLabel}: §2 must be ${PM_PHENOME_SECTION_TITLE}`);
+    if (titles[1] !== "Functional Role") {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §2 must be Functional Role`);
     }
-    if (titles[2] !== "Intervention Summary" && titles[2] !== "Intervention Breakdown") {
-      pushIssue(issues, "overlay_section_order", `${entityLabel}: §3 must be Intervention Summary (legacy Intervention Breakdown deprecated)`);
+    if (titles[2] !== PM_PHENOME_SECTION_TITLE) {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §3 must be ${PM_PHENOME_SECTION_TITLE}`);
     }
-    if (titles[3] !== "Functional Role") {
-      pushIssue(issues, "overlay_section_order", `${entityLabel}: §4 must be Functional Role`);
+    if (titles[3] !== "Levers") {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §4 must be Levers`);
     }
     if (!titles[4]?.startsWith("Mechanistic Basis")) {
       pushIssue(issues, "overlay_section_order", `${entityLabel}: §5 must be Mechanistic Basis in extended profile`);

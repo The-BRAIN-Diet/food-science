@@ -290,7 +290,7 @@ Numbered sections must stay contiguous. Optional `### 5.5 Evidence Highlights` n
    - **`### 5.3 Integrated Functional Narrative`** — synthesis paragraph(s)
    - **`### 5.4 Functional Failure Modes`** — required when `key_constraints` is non-empty
    - **`### 5.5 Evidence Highlights`** *(optional)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
-6. **Connected Mechanisms** — `## 6. Connected Mechanisms` — roll up from constituent PM `§7 Connected Mechanisms` with linked PM pages where they exist
+6. **Connected Mechanisms** — `## 6. Connected Mechanisms` — roll up from constituent PM `§6.2 Connected BRS Mechanisms` with linked PM pages where they exist
 7. **References** — `## 7. References` — `Author et al. (Year) — Topic` with bibliography links per **`system/brs-citation-reference-standard.md`**
 
 **Not on FM pages:** standalone `Primary Mechanisms (PMs)` or `KCs` index sections (PM/KC links live in §4.1/§4.2), `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, legacy `BRS Links` heading, or PM-level cofactor/dietary lever rollups — those belong on **PM pages** (§7–§9).
