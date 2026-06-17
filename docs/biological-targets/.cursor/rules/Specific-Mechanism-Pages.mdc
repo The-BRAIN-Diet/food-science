@@ -21,7 +21,7 @@ Follow:
 Structure:
 - Use **Profile A extended** (§1–§9 with Intervention Breakdown). Same numbering, `<details>` patterns, and scoreable table categories as PM pages.
 - `timing_specific` is required in front matter; no visible `## N. Timing Specific` body section.
-- §2 Target Functional Outcome / Phenome — same phenome layer contract as PM pages (empty state when none mapped).
+- §2 Phenome Connections — same phenome layer contract as PM pages (empty state when none mapped).
 - §3 Intervention Breakdown must include **only** the single allowed `intervention_breakdown` value (same as PM pages). `sm_category` and `use_case` live in front matter only — not in the public body.
 - §5 must list connected PMs and FMs before KCs; do not treat SMs as new PM/FM/KC ontology primitives.
 

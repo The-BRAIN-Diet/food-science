@@ -10,29 +10,30 @@ PM and FM pages remain **primarily biological**. Phenome mappings are **translat
 
 ## Layer model
 
-| Layer | Page | §2 section | Confidence type |
+| Layer | Page | §3 section | Confidence type |
 |-------|------|------------|-----------------|
-| **PM** | Primary Mechanism | Target Functional Outcome / Phenome | Mechanism-level |
-| **FM** | Functional Mechanism | Functional Outcome Context | Integrated-system |
+| **PM** | Primary Mechanism | Phenome Connections | Mechanism-level |
+| **FM** | Functional Mechanism | Phenome Connections | Integrated-system |
 | **Phenome** (future) | Phenome graph pages | Full aggregation | Cross-system / graph |
 
 PM pages hold detailed `phenome_relationships`. FM pages hold a **concise** `functional_outcome_context` (2–3 outcomes normally; max 4). Full PM → phenome roll-up graphs belong on future phenome pages — **not** on FM pages.
 
-When an FM has **exactly one** child PM (`mechanisms_covered.length === 1`), §2 must follow the **[Single-PM FM (1:1) rule](#single-pm-fm-11-rule)** below instead of inventing a separate integrative outcome set.
+When an FM has **exactly one** child PM (`mechanisms_covered.length === 1`), §3 must follow the **[Single-PM FM (1:1) rule](#single-pm-fm-11-rule)** below instead of inventing a separate integrative outcome set.
 
 ## Core principle
 
 | Layer | Role |
 |-------|------|
 | **§1 Definition** | Biological mechanism only — no phenome outcome claims |
-| **§2 Phenome layer** | Translational relationships (this schema) |
-| **§3+** | Intervention, functional role, mechanistic basis, levers, etc. |
+| **§2 Primary Biological Effects** | Directional ↑/↓ summary only |
+| **§3 Phenome layer** | Translational relationships (this schema) |
+| **§4+** | Intervention, mechanistic basis, levers, etc. |
 
-## Canonical disclaimer — PM §2
+## Canonical disclaimer — PM §3
 
 > These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
-## Canonical disclaimer — FM §2
+## Canonical disclaimer — FM §3
 
 > These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Confidence may increase where multiple child PMs converge on the same functional outcome.
 
@@ -52,7 +53,7 @@ Authoritative source for PM pages. Graph-database ready.
 
 ```yaml
 phenome_relationships:
-  - source_node: "BRS1-FM1-PM2"           # optional; defaults to pm_id
+  - source_node: "BRS1-FM1-PM3"           # optional; defaults to pm_id
     target_phenome: "Motivation"
     relationship_type: supports           # supports | disrupts | modulates | indirect
     confidence: medium                    # low | medium | high | low-medium
@@ -83,7 +84,7 @@ phenome_relationships:
 1. A PM may map to **multiple** phenomes.
 2. Do not restate phenome mappings inside §1 Definition.
 3. Mappings may be **provisional** — reflect confidence and evidence level honestly.
-4. Do not use phenomes as mechanism tags in Definition or Functional Role.
+4. Do not use phenomes as mechanism tags in Definition or Primary Biological Effects.
 
 ---
 
@@ -130,11 +131,11 @@ When `mechanisms_covered` contains **exactly one** PM, the FM is a **1:1 FM → 
 | **Confidence** | Each FM outcome `confidence` must match the corresponding PM `confidence`. |
 | **Synthesis** | Rewrite at FM integrative level (1–2 sentences); do **not** copy PM `rationale` verbatim. |
 | **References** | FM outcome `references` should draw from the same citation keys as the matching PM phenome mapping. |
-| **Empty state** | If the sole child PM has no `phenome_relationships`, FM §2 uses the empty state (`No functional outcome context currently mapped.`). |
+| **Empty state** | If the sole child PM has no `phenome_relationships`, FM §3 uses the empty state (`No functional outcome context currently mapped.`). |
 
 **What changes vs multi-PM FMs:** do **not** add FM-only phenomes, merge phenomes, or raise/lower confidence because of “FM integration”. Convergence-based confidence uplift applies only when **multiple** child PMs support the same phenome.
 
-**What stays the same:** FM §2 still uses `<details>` dropdowns per outcome (same interaction pattern as PM §2; summary shows outcome name only), the FM disclaimer, and no contributing-PM lists.
+**What stays the same:** FM §3 still uses `<details>` dropdowns per outcome (same interaction pattern as PM §3; summary shows outcome name only), the FM disclaimer, and no contributing-PM lists.
 
 **Canonical example:** `docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx` with child `BRS4-FM4-PM9`.
 
@@ -215,13 +216,13 @@ Do **not** hand-edit the generated JSON.
 
 ### Graph aggregation (derived from index)
 
-`scripts/lib/phenome-relationship-index.mjs` builds `fmRollups` using `aggregateFmConnectedPhenomes`. FM MDX §2 remains hand-authored `functional_outcome_context`; full PM roll-up graphs belong on future phenome pages.
+`scripts/lib/phenome-relationship-index.mjs` builds `fmRollups` using `aggregateFmConnectedPhenomes`. FM MDX §3 remains hand-authored `functional_outcome_context`; full PM roll-up graphs belong on future phenome pages.
 
 ---
 
 ## Page rendering contract
 
-### PM — `## 2. Target Functional Outcome / Phenome`
+### PM — `## 3. Phenome Connections`
 
 Placement: immediately after `## 1. Definition`, before Intervention Breakdown.
 
@@ -231,7 +232,7 @@ Structure:
 2. For each relationship: `<details>` with summary **`<Target Phenome> — <relationship_type>`**
 3. Inside dropdown: Confidence, Evidence Level, Rationale, Key References (linked)
 
-### FM — `## 2. Functional Outcome Context`
+### FM — `## 3. Phenome Connections`
 
 Placement: immediately after `## 1. Definition`, before Intervention Breakdown.
 
@@ -241,7 +242,7 @@ Structure:
 2. For each outcome: `<details>` with summary **`<Outcome name>`**
 3. Inside dropdown: Confidence, Synthesis, Key References (linked list)
 
-**Forbidden on FM §2:** roll-up tables, contributing-PM lists, dropdowns that enumerate child PMs per phenome.
+**Forbidden on FM §3:** roll-up tables, contributing-PM lists, dropdowns that enumerate child PMs per phenome.
 
 ---
 
@@ -250,11 +251,12 @@ Structure:
 | Old § | New § |
 |-------|-------|
 | 1 Definition | 1 Definition |
-| — | **2 Target Functional Outcome / Phenome** |
-| 2 Intervention Breakdown | 3 Intervention Breakdown |
-| 3 Functional Role | 4 Functional Role |
-| 4 Mechanistic Basis | 5 Mechanistic Basis |
-| 5 Connected BRS{N} Mechanisms | 6 BRS Pathways and Connections (6.1 pathways, 6.2 cross-BRS, 6.3 same-FM PMs) |
+| 2 Functional Role | 2 Primary Biological Effects |
+| — | **3 Phenome Connections** |
+| 2 Intervention Breakdown | *(front matter only on FM)* |
+| 3 Functional Role | *(absorbed into §2)* |
+| 4 Mechanistic Basis | 4 Mechanistic Basis |
+| 5 Connected BRS{N} Mechanisms | 5 BRS Pathways and Connections (6.1 pathways, 6.2 cross-BRS, 6.3 same-FM PMs) |
 | 6 Connected Mechanisms | absorbed into §6.2 Connected BRS Mechanisms |
 | 7 Dietary Levers | 7 Dietary Levers |
 | 8 Lifestyle Levers | 8 Lifestyle Levers |
@@ -266,12 +268,11 @@ Structure:
 | Old § | New § |
 |-------|-------|
 | 1 Definition | 1 Definition |
-| — | **2 Functional Outcome Context** |
-| 2 Intervention Breakdown | 3 Intervention Breakdown |
-| 3 Functional Role | 4 Functional Role |
-| 4 Mechanistic Basis | 5 Mechanistic Basis |
-| 5 Connected Mechanisms | 6 Connected Mechanisms |
-| 6 References | 7 References |
+| 2 Functional Outcome Context | 3 Phenome Connections |
+| 3 Functional Role | 2 Primary Biological Effects |
+| 4 Mechanistic Basis | 4 Mechanistic Basis |
+| 5 Connected Mechanisms | 5 Connected Mechanisms |
+| 6 References | 6 References |
 
 ---
 
@@ -286,7 +287,7 @@ Structure:
 | `phenome_evidence_level` | mechanistic / observational / intervention / clinical |
 | `phenome_rationale` | Translational rationale text |
 
-FM rows: `functional_outcome_context` is **hand-authored** integrative synthesis (2–4 outcomes). Do not auto-generate FM §2 from child PM roll-ups. When the FM has **one** child PM, follow the **Single-PM FM (1:1) rule** above (matching phenome labels and confidence).
+FM rows: `functional_outcome_context` is **hand-authored** integrative synthesis (2–4 outcomes). Do not auto-generate FM §3 from child PM roll-ups. When the FM has **one** child PM, follow the **Single-PM FM (1:1) rule** above (matching phenome labels and confidence).
 
 ---
 
@@ -305,6 +306,6 @@ Future phenome pages query both PM-level and FM-level relationships.
 
 ## Related schemas
 
-- `system/primary-mechanism-schema.md` — PM §2
-- `system/functional-mechanism-schema.md` — FM §2
+- `system/primary-mechanism-schema.md` — PM §3
+- `system/functional-mechanism-schema.md` — FM §3
 - `scripts/lib/phenome-relationships.mjs` — validation and section rendering

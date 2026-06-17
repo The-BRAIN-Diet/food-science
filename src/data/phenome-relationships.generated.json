@@ -532,9 +532,9 @@
       "targetPhenomeId": "PH003"
     },
     {
-      "sourceNode": "BRS1-FM1-PM3",
+      "sourceNode": "BRS1-FM1-PM4",
       "sourceTitle": "Serotonergic Signalling Regulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Emotional Regulation",
@@ -1174,9 +1174,9 @@
       "targetPhenomeId": "PH009"
     },
     {
-      "sourceNode": "BRS1-FM1-PM3",
+      "sourceNode": "BRS1-FM1-PM4",
       "sourceTitle": "Serotonergic Signalling Regulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Reward Regulation",
@@ -1216,9 +1216,9 @@
       "targetPhenomeId": "PH008"
     },
     {
-      "sourceNode": "BRS1-FM1-PM3",
+      "sourceNode": "BRS1-FM1-PM4",
       "sourceTitle": "Serotonergic Signalling Regulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Sleep / Calming Tone",
@@ -1384,9 +1384,9 @@
       "targetPhenomeId": "PH006"
     },
     {
-      "sourceNode": "BRS1-FM1-PM3",
+      "sourceNode": "BRS1-FM1-PM4",
       "sourceTitle": "Serotonergic Signalling Regulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Stress Resilience",
@@ -1437,7 +1437,7 @@
       "BRS-X(Hormones-PM4)",
       "BRS-X(Hormones-PM5)",
       "BRS-X(Hormones-PM6)",
-      "BRS1-FM1-PM3"
+      "BRS1-FM1-PM4"
     ],
     "Energy Stability Under Variable Conditions": [
       "BRS4-FM3-PM8"
@@ -1477,11 +1477,11 @@
     ],
     "Reward Regulation": [
       "BRS-X(ECS-PM4)",
-      "BRS1-FM1-PM3"
+      "BRS1-FM1-PM4"
     ],
     "Sleep / Calming Tone": [
       "BRS-X(Hormones-PM3)",
-      "BRS1-FM1-PM3"
+      "BRS1-FM1-PM4"
     ],
     "Stress Reactivity": [
       "BRS-X(Hormones-PM3)"
@@ -1491,7 +1491,7 @@
       "BRS-X(ECS-PM2)",
       "BRS-X(ECS-PM3)",
       "BRS-X(ECS-PM5)",
-      "BRS1-FM1-PM3"
+      "BRS1-FM1-PM4"
     ]
   },
   "byPhenomeId": {
@@ -1520,7 +1520,7 @@
       "BRS-X(Hormones-PM4)",
       "BRS-X(Hormones-PM5)",
       "BRS-X(Hormones-PM6)",
-      "BRS1-FM1-PM3"
+      "BRS1-FM1-PM4"
     ],
     "PH012": [
       "BRS4-FM3-PM8"
@@ -1560,11 +1560,11 @@
     ],
     "PH009": [
       "BRS-X(ECS-PM4)",
-      "BRS1-FM1-PM3"
+      "BRS1-FM1-PM4"
     ],
     "PH008": [
       "BRS-X(Hormones-PM3)",
-      "BRS1-FM1-PM3"
+      "BRS1-FM1-PM4"
     ],
     "PH015": [
       "BRS-X(Hormones-PM3)"
@@ -1574,7 +1574,7 @@
       "BRS-X(ECS-PM2)",
       "BRS-X(ECS-PM3)",
       "BRS-X(ECS-PM5)",
-      "BRS1-FM1-PM3"
+      "BRS1-FM1-PM4"
     ]
   },
   "fmRollups": {
@@ -2036,9 +2036,9 @@
         "evidence_summary": "Serotonin signalling contributes to emotional regulation, impulse control, affective stability, and emotional responsiveness across multiple neuropsychiatric conditions.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM1-PM3",
+            "id": "BRS1-FM1-PM4",
             "name": "Serotonergic Signalling Regulation",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
             "relationship_type": "supports",
             "confidence": "medium",
             "evidence_level": "mechanistic"
@@ -2054,9 +2054,9 @@
         "evidence_summary": "Serotonergic pathways interact with dopaminergic reward circuits and may influence reward responsiveness and behavioural inhibition.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM1-PM3",
+            "id": "BRS1-FM1-PM4",
             "name": "Serotonergic Signalling Regulation",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
@@ -2072,9 +2072,9 @@
         "evidence_summary": "Serotonin participates in sleep–wake regulation and contributes to neurobiological processes associated with sleep quality and behavioural calming.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM1-PM3",
+            "id": "BRS1-FM1-PM4",
             "name": "Serotonergic Signalling Regulation",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
             "relationship_type": "supports",
             "confidence": "medium",
             "evidence_level": "mechanistic"
@@ -2090,9 +2090,9 @@
         "evidence_summary": "Serotonergic signalling interacts with stress-response systems, emotional processing, and HPA-axis regulation.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM1-PM3",
+            "id": "BRS1-FM1-PM4",
             "name": "Serotonergic Signalling Regulation",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
             "relationship_type": "supports",
             "confidence": "medium",
             "evidence_level": "mechanistic"

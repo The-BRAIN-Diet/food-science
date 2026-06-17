@@ -350,7 +350,7 @@ ${pm.description}
 
 ${DOMINANCE_TO_BREAKDOWN[dominance] || "Food-State Dominant"}
 
-## 3. Functional Role
+## 2. Primary Biological Effects
 
 ${pm.outputs || "↑ pathway support (see mechanistic basis)"}
 
@@ -466,15 +466,15 @@ ${refBlock}
 
 ${definition}
 
-## 2. Functional Outcome Context
+## 2. Primary Biological Effects
+
+${fm.outputs || "↑ integrated pathway support"}
+
+## 3. Phenome Connections
 
 These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Confidence may increase where multiple child PMs converge on the same functional outcome.
 
 No functional outcome context currently mapped.
-
-## 3. Functional Role
-
-${fm.outputs || "↑ integrated pathway support"}
 
 ## 4. Mechanistic Basis (Integrated FM Narrative)
 

@@ -30,13 +30,21 @@ export const PHENOME_DISCLAIMER =
 export const PHENOME_EMPTY_MESSAGE =
   "No direct functional outcome relationship currently mapped.";
 
-export const PM_PHENOME_SECTION_TITLE = "Target Functional Outcome / Phenome";
+export const PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE = "Primary Biological Effects";
 
-/** FM §2 — concise integrated outcome context (not a PM roll-up graph). */
-export const FM_OUTCOME_CONTEXT_SECTION_TITLE = "Functional Outcome Context";
+export const PHENOME_CONNECTIONS_SECTION_TITLE = "Phenome Connections";
 
-/** @deprecated Use FM_OUTCOME_CONTEXT_SECTION_TITLE */
-export const FM_PHENOME_SECTION_TITLE = FM_OUTCOME_CONTEXT_SECTION_TITLE;
+/** PM §3 — translational phenome mappings. */
+export const PM_PHENOME_SECTION_TITLE = PHENOME_CONNECTIONS_SECTION_TITLE;
+
+/** FM §3 — concise integrated outcome context (not a PM roll-up graph). */
+export const FM_PHENOME_CONNECTIONS_SECTION_TITLE = PHENOME_CONNECTIONS_SECTION_TITLE;
+
+/** @deprecated Use FM_PHENOME_CONNECTIONS_SECTION_TITLE */
+export const FM_OUTCOME_CONTEXT_SECTION_TITLE = FM_PHENOME_CONNECTIONS_SECTION_TITLE;
+
+/** @deprecated Use FM_PHENOME_CONNECTIONS_SECTION_TITLE */
+export const FM_PHENOME_SECTION_TITLE = FM_PHENOME_CONNECTIONS_SECTION_TITLE;
 
 export const FM_OUTCOME_CONTEXT_DISCLAIMER =
   "These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Confidence may increase where multiple child PMs converge on the same functional outcome.";
@@ -86,9 +94,9 @@ function rankConfidence(value) {
 }
 
 function extractFmOutcomeContextSection(content) {
-  const fmTitle = FM_OUTCOME_CONTEXT_SECTION_TITLE;
+  const fmTitle = FM_PHENOME_CONNECTIONS_SECTION_TITLE;
   const fmHeading = new RegExp(
-    `^##\\s+2\\.\\s+${fmTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+    `^##\\s+3\\.\\s+${fmTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
     "m",
   );
   const match = content.match(fmHeading);
@@ -372,7 +380,7 @@ export function aggregateFmConnectedPhenomes(childPms) {
 }
 
 export function renderPmPhenomeSectionBody(relationships = []) {
-  const lines = [`## 2. ${PM_PHENOME_SECTION_TITLE}`, "", PHENOME_DISCLAIMER, ""];
+  const lines = [`## 3. ${PM_PHENOME_SECTION_TITLE}`, "", PHENOME_DISCLAIMER, ""];
   if (!relationships.length) {
     lines.push(PHENOME_EMPTY_MESSAGE);
     return lines.join("\n");
@@ -406,7 +414,7 @@ export function renderPmPhenomeSectionBody(relationships = []) {
 }
 
 export function renderFmOutcomeContextSectionBody(outcomes = []) {
-  const lines = [`## 2. ${FM_OUTCOME_CONTEXT_SECTION_TITLE}`, "", FM_OUTCOME_CONTEXT_DISCLAIMER, ""];
+  const lines = [`## 3. ${FM_PHENOME_CONNECTIONS_SECTION_TITLE}`, "", FM_OUTCOME_CONTEXT_DISCLAIMER, ""];
   if (!outcomes.length) {
     lines.push(FM_OUTCOME_CONTEXT_EMPTY_MESSAGE);
     return lines.join("\n");
@@ -451,7 +459,7 @@ export function validatePhenomeSectionBody(content, issues, { entityLabel, kind 
     if (!heading.test(content)) {
       issues.push({
         code: "missing_phenome_section",
-        message: `${entityLabel}: published body must include "## 3. ${PM_PHENOME_SECTION_TITLE}" after Functional Role`,
+        message: `${entityLabel}: published body must include "## 3. ${PM_PHENOME_SECTION_TITLE}" after Primary Biological Effects`,
       });
       return;
     }
@@ -464,47 +472,68 @@ export function validatePhenomeSectionBody(content, issues, { entityLabel, kind 
     return;
   }
 
-  const fmTitle = FM_OUTCOME_CONTEXT_SECTION_TITLE;
+  if (kind === "sm") {
+    const heading = new RegExp(
+      `^##\\s+2\\.\\s+${PM_PHENOME_SECTION_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+      "m",
+    );
+    if (!heading.test(content)) {
+      issues.push({
+        code: "missing_phenome_section",
+        message: `${entityLabel}: published body must include "## 2. ${PM_PHENOME_SECTION_TITLE}" after Definition`,
+      });
+      return;
+    }
+    if (!content.includes(PHENOME_DISCLAIMER)) {
+      issues.push({
+        code: "missing_phenome_disclaimer",
+        message: `${entityLabel}: §2 must include the canonical phenome disclaimer`,
+      });
+    }
+    return;
+  }
+
+  const fmTitle = FM_PHENOME_CONNECTIONS_SECTION_TITLE;
   const fmHeading = new RegExp(
-    `^##\\s+2\\.\\s+${fmTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+    `^##\\s+3\\.\\s+${fmTitle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
     "m",
   );
   if (!fmHeading.test(content)) {
     issues.push({
       code: "missing_fm_outcome_context_section",
-      message: `${entityLabel}: published body must include "## 2. ${fmTitle}" after Definition`,
+      message: `${entityLabel}: published body must include "## 3. ${fmTitle}" after Primary Biological Effects`,
     });
     return;
   }
   if (!content.includes(FM_OUTCOME_CONTEXT_DISCLAIMER)) {
     issues.push({
       code: "missing_fm_outcome_context_disclaimer",
-      message: `${entityLabel}: §2 must include the FM functional outcome context disclaimer`,
+      message: `${entityLabel}: §3 must include the FM phenome connections disclaimer`,
     });
   }
   const fmSection = extractFmOutcomeContextSection(content);
   if (fmSection && fmSection.includes("<details>") === false && !fmSection.includes(FM_OUTCOME_CONTEXT_EMPTY_MESSAGE)) {
     issues.push({
       code: "fm_outcome_context_dropdowns",
-      message: `${entityLabel}: FM §2 outcomes must use <details> dropdowns (see renderFmOutcomeContextSectionBody)`,
+      message: `${entityLabel}: FM §3 outcomes must use <details> dropdowns (see renderFmOutcomeContextSectionBody)`,
     });
   }
   if (fmSection && /^###\s+/m.test(fmSection)) {
     issues.push({
       code: "fm_outcome_context_heading_blocks",
-      message: `${entityLabel}: FM §2 must not use ### outcome headings — use <details> dropdowns`,
+      message: `${entityLabel}: FM §3 must not use ### outcome headings — use <details> dropdowns`,
     });
   }
   if (/\|\s*Phenome\s*\|\s*Connected PMs\s*\|/m.test(content)) {
     issues.push({
       code: "fm_phenome_rollup_table",
-      message: `${entityLabel}: FM §2 must not include PM phenome roll-up tables`,
+      message: `${entityLabel}: FM §3 must not include PM phenome roll-up tables`,
     });
   }
   if (/contributing PMs/i.test(content)) {
     issues.push({
       code: "fm_phenome_pm_list",
-      message: `${entityLabel}: FM §2 must not list contributing child PMs`,
+      message: `${entityLabel}: FM §3 must not list contributing child PMs`,
     });
   }
 }

@@ -26,32 +26,25 @@ const MECH = {
     together:
       "Together, these PMs operationalise BRS1(FM1) as coordinated meal-level control of monoaminergic and related neurotransmitter signalling.",
   },
-  "brs1-fm2-glycaemic-modulation-of-neurotransmitter-balance.mdx": {
-    opening:
-      "Meal-level carbohydrate quality and glycaemic response as modulators of LNAA transport and neurotransmitter bias.",
-    clauses: "PM2 governs LAT1 Competitive Transport Modulation.",
-    together:
-      "Together, these PMs operationalise BRS1(FM2) as coordinated glycaemic modulation of neurotransmitter balance.",
-  },
-  "brs1-fm3-cholinergic-function.mdx": {
+  "brs1-fm2-cholinergic-function.mdx": {
     opening: "Dietary choline and phospholipid context for acetylcholine synthesis support.",
     clauses: "PM3 governs Acetylcholine Synthesis Support.",
     together:
-      "Together, these PMs operationalise BRS1(FM3) as coordinated cholinergic substrate support.",
+      "Together, these PMs operationalise BRS1(FM2) as coordinated cholinergic substrate support.",
   },
-  "brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx": {
+  "brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx": {
     opening: "DHA-rich phospholipid delivery and neuronal membrane incorporation.",
     clauses: "PM4 governs Neuronal Membrane DHA Incorporation.",
     together:
-      "Together, these PMs operationalise BRS1(FM4) as coordinated phospholipid-mediated DHA delivery.",
+      "Together, these PMs operationalise BRS1(FM3) as coordinated phospholipid-mediated DHA delivery.",
   },
-  "brs1-fm5-excitatory-inhibitory-balance-gaba-glutamate-regulation.mdx": {
+  "brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation.mdx": {
     opening:
       "Integrated control of excitatory–inhibitory tone through GABA–glutamate balance and excitotoxicity modulation.",
     clauses:
       "PM6 governs GABA–Glutamate Neurotransmission Balance. PM7 governs GABA Synthesis Capacity. PM8 governs Glutamate Clearance & Recycling. PM9 governs Excitotoxicity Modulation.",
     together:
-      "Together, these PMs operationalise BRS1(FM5) as coordinated excitatory–inhibitory balance regulation.",
+      "Together, these PMs operationalise BRS1(FM4) as coordinated excitatory–inhibitory balance regulation.",
   },
   "brs2-fm2-transsulfuration-redox-coupling.mdx": {
     lifestyle: `- Regular meal timing may support sulfur amino-acid and glutathione precursor patterns across the day.
@@ -124,7 +117,7 @@ for (const filePath of listMechanismMdxFiles(rootDir, "fm")) {
     );
   }
 
-  if (base === "brs1-fm5-excitatory-inhibitory-balance-gaba-glutamate-regulation.mdx") {
+  if (base === "brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation.mdx") {
     next = next.replace(
       /- fermented foods → GABA-active context\./,
       "- Fermented foods ← yogurt, kefir (GABA-active context)",

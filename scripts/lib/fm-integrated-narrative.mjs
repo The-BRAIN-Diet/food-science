@@ -12,18 +12,18 @@ import {
 } from "./fm-failure-modes.mjs";
 
 const FM_OVERRIDES = {
-  "BRS1(FM4)": `## 4. Mechanistic Basis (Integrated FM Narrative)
+  "BRS1(FM3)": `## 4. Mechanistic Basis (Integrated FM Narrative)
 
 Membrane composition, fluidity & structural lipid integrity emerges from the coordinated interaction of several primary mechanisms and supporting biological pools.
 
 ### 4.1 Core Primary Mechanisms
 
-- [BRS1-FM4-PM5 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm5-neuronal-membrane-dha-incorporation)
+- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation)
   Brain DHA accretion and incorporation into neuronal membrane phospholipids, supporting membrane fluidity and the structural lipid environment within which neural signalling occurs.
 
 ### 4.2 Integrated Functional Narrative
 
-Together, the core primary mechanisms (Neuronal Membrane DHA Incorporation) operationalise BRS1(FM4) as an integrated functional state.
+Together, the core primary mechanisms (Neuronal Membrane DHA Incorporation) operationalise BRS1(FM3) as an integrated functional state.
 
 At the FM level, performance depends on whether constituent PMs and shared constraint pools remain adequate rather than chronically constrained.`,
   "BRS4(FM1)": `## 4. Mechanistic Basis (Integrated FM Narrative)
@@ -143,7 +143,7 @@ export function buildIntegratedMechanisticBasis(fmData, oldSection4, rootDir, kc
   if (FM_OVERRIDES[fmData.fm_id]) {
     const evidence = extractEvidenceHighlightsBlock(oldSection4);
     const failure =
-      fmData.fm_id === "BRS1(FM4)" ? null : buildFailureModesSection(fmData, kcStressorMap);
+      fmData.fm_id === "BRS1(FM3)" ? null : buildFailureModesSection(fmData, kcStressorMap);
     const base = FM_OVERRIDES[fmData.fm_id];
     return insertFailureModesInSection4(base, failure, evidence);
   }

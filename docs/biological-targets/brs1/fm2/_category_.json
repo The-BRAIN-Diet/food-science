@@ -1,9 +1,9 @@
 {
-  "label": "BRS1(FM2) - Glycaemic Modulation of Neurotransmitter Balance",
+  "label": "BRS1(FM2) - Cholinergic Function (Attention & Cognitive Precision)",
   "position": 2,
   "link": {
     "type": "doc",
-    "id": "biological-targets/brs1/fm2/brs1-fm2-glycaemic-modulation-of-neurotransmitter-balance"
+    "id": "biological-targets/brs1/fm2/brs1-fm2-cholinergic-function"
   },
   "collapsed": true,
   "collapsible": true

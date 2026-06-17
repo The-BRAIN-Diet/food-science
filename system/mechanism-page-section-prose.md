@@ -15,13 +15,13 @@ Applies to **PM**, **FM**, **SM**, and **KC** pages under `docs/biological-targe
 
 **Sections should never begin by restating the title or definition.**
 
-Each section must follow **only** the schema role for that section (Definition, Functional Role, Mechanistic Basis, Dietary Levers, Connected Mechanisms, etc.). Do not open a section with boilerplate that repeats what the heading or a prior section already established.
+Each section must follow **only** the schema role for that section (Definition, Primary Biological Effects, Phenome Connections, Mechanistic Basis, Dietary Levers, Connected Mechanisms, etc.). Do not open a section with boilerplate that repeats what the heading or a prior section already established.
 
 ### Do not use as section openers
 
 - Restating the page title or entity ID (e.g. `BRS1(SM-CROSS1) is…`, `BRS6-FM2-PM5 describes…`)
 - Restating the **BRS name or number** (e.g. `BRS1 — Neurotransmitter Regulation…`, `Within BRS2…`) when the page is already scoped to that BRS
-- Paraphrasing the **Definition** section at the start of Functional Role, Mechanistic Basis, Dietary Levers, or §5.5
+- Paraphrasing the **Definition** section at the start of Primary Biological Effects, Mechanistic Basis, Dietary Levers, or §5.5
 - Generic filler (`This section covers…`, `The following describes…`)
 
 ### Allowed
@@ -36,9 +36,8 @@ Each section must follow **only** the schema role for that section (Definition, 
 | Section | Write |
 |---------|--------|
 | **Definition** | What this entity is in ontology terms (once per page) |
-| **Target Functional Outcome / Phenome (PM §2)** | Evidence-weighted translational mappings only — not mechanism definition |
-| **Functional Outcome Context (FM §2)** | Concise integrative functional outcomes for the FM — not a PM roll-up graph |
-| **Functional Role** | Directional ↑/↓ summary only |
+| **Phenome Connections (PM §3 / FM §3)** | Evidence-weighted translational mappings only — not mechanism definition |
+| **Primary Biological Effects (§2)** | Directional ↑/↓ summary only |
 | **Mechanistic Basis (PM)** | **Summary → primary mechanism → boundaries → integration** (see below); link PMs/KCs/citations; do not re-define the entity |
 | **Intervention Summary (PM §3)** | Intervention Profile + lever tiers with evidence tags — not mechanism definition |
 | **Dietary / Lifestyle Levers** | Levers and patterns — not a repeat of Definition |

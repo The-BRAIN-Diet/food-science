@@ -10,24 +10,24 @@ const BRS1 = path.join(ROOT, "docs/biological-targets/brs1");
 const RENAMES = [
   [
     "fm1/brs1-fm1-pm4-serotonergic-signalling-regulation.mdx",
-    "fm1/brs1-fm1-pm3-serotonergic-signalling-regulation.mdx",
+    "fm1/brs1-fm1-pm4-serotonergic-signalling-regulation.mdx",
   ],
   [
     "fm2/brs1-fm2-pm3-lat1-competitive-transport-modulation.mdx",
-    "fm2/brs1-fm2-pm4-lat1-competitive-transport-modulation.mdx",
+    "fm2/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx",
   ],
 ];
 
 const REPLACEMENTS = [
-  ["BRS1-FM1-PM4", "BRS1-FM1-PM3"],
-  ["BRS1-FM2-PM3", "BRS1-FM2-PM4"],
+  ["BRS1-FM1-PM4", "BRS1-FM1-PM4"],
+  ["BRS1-FM2-PM3", "BRS1-FM1-PM2"],
   [
     "brs1-fm1-pm4-serotonergic-signalling-regulation",
-    "brs1-fm1-pm3-serotonergic-signalling-regulation",
+    "brs1-fm1-pm4-serotonergic-signalling-regulation",
   ],
   [
     "brs1-fm2-pm3-lat1-competitive-transport-modulation",
-    "brs1-fm2-pm4-lat1-competitive-transport-modulation",
+    "brs1-fm1-pm2-lat1-competitive-transport-modulation",
   ],
 ];
 
@@ -73,8 +73,8 @@ let config = fs.readFileSync(configPath, "utf8");
 const marker = "// BRS1 FM1-PM3 / FM2-PM4 serotonin-LAT1 swap";
 if (!config.includes(marker)) {
   const lines = [
-    `          { to: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation', from: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation' },`,
-    `          { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm4-lat1-competitive-transport-modulation', from: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm3-lat1-competitive-transport-modulation' },`,
+    `          { to: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation', from: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation' },`,
+    `          { to: '/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation', from: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm3-lat1-competitive-transport-modulation' },`,
   ];
   config = config.replace(
     "        redirects: [",

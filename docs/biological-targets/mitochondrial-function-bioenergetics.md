@@ -110,7 +110,7 @@ Functional control of mitochondrial capacity to transition between glucose, fatt
 
 ### [BRS4(FM4) — Mitochondrial Capacity Expansion & Adaptation](/docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation)
 
-Functional control of mitochondrial density and long-term energetic capacity, primarily driven by exercise and physiological stress signals, with diet providing permissive support.
+Integrated regulation of exercise-driven mitochondrial biogenesis and adaptive density expansion, with diet providing permissive substrate and cofactor support, influencing long-term energetic capacity and metabolic resilience.
 
 **Mechanisms:**
 

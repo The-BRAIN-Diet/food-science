@@ -8,8 +8,9 @@ import path from "node:path";
 import matter from "gray-matter";
 import { isLegacyFoodToSubstanceLine } from "./substance-food-mapping.mjs";
 import {
-  FM_OUTCOME_CONTEXT_SECTION_TITLE,
+  FM_PHENOME_CONNECTIONS_SECTION_TITLE,
   PM_PHENOME_SECTION_TITLE,
+  PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE,
   validateFmPhenomeFrontMatter,
   validatePmPhenomeFrontMatter,
   validatePhenomeSectionBody,
@@ -749,8 +750,8 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
 /** FM extended public contract (no Intervention Breakdown body section; no Timing Specific body section). */
 const FM_EXTENDED_SECTION_TITLES = [
   "Definition",
-  FM_OUTCOME_CONTEXT_SECTION_TITLE,
-  "Functional Role",
+  PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE,
+  FM_PHENOME_CONNECTIONS_SECTION_TITLE,
   "Mechanistic Basis (Integrated FM Narrative)",
   "Connected Mechanisms",
   "References",
@@ -888,11 +889,11 @@ function validateFmPage(filePath, { rootDir }) {
     if (t0 !== "Definition") {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §1 must be Definition`);
     }
-    if (t1 !== FM_OUTCOME_CONTEXT_SECTION_TITLE) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §2 must be ${FM_OUTCOME_CONTEXT_SECTION_TITLE}`);
+    if (t1 !== PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §2 must be ${PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE}`);
     }
-    if (t2 !== "Functional Role") {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §3 must be Functional Role`);
+    if (t2 !== FM_PHENOME_CONNECTIONS_SECTION_TITLE) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §3 must be ${FM_PHENOME_CONNECTIONS_SECTION_TITLE}`);
     }
     if (numbered.length >= 4 && !t3.startsWith("Mechanistic Basis")) {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §4 must be Mechanistic Basis (Integrated FM Narrative)`);
@@ -926,7 +927,7 @@ function pmConnectedSectionTitle() {
 
 /** PM extended profile: Intervention Breakdown in body; no Timing Specific section. */
 const PM_EXTENDED_AFTER_INTERVENTION = [
-  "Functional Role",
+  PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE,
   "Mechanistic Basis",
   "BRS Pathways and Connections",
   "Dietary Levers",
@@ -1086,8 +1087,8 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
     if (titles[0] !== "Definition") {
       pushIssue(issues, "overlay_section_order", `${entityLabel}: §1 must be Definition`);
     }
-    if (titles[1] !== "Functional Role") {
-      pushIssue(issues, "overlay_section_order", `${entityLabel}: §2 must be Functional Role`);
+    if (titles[1] !== PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE) {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §2 must be ${PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE}`);
     }
     if (titles[2] !== PM_PHENOME_SECTION_TITLE) {
       pushIssue(issues, "overlay_section_order", `${entityLabel}: §3 must be ${PM_PHENOME_SECTION_TITLE}`);
@@ -1270,7 +1271,7 @@ function validateSmPage(filePath) {
   validateNoGenericReferenceLabels(content, issues, { entityLabel });
   validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "sm" });
   validatePmPhenomeFrontMatter(data, issues, { entityLabel });
-  validatePhenomeSectionBody(content, issues, { entityLabel, kind: "pm" });
+  validatePhenomeSectionBody(content, issues, { entityLabel, kind: "sm" });
   validatePmExtendedProfile(data, content, issues, { entityLabel });
   validateSmCategoryFrontMatter(data, content, issues, { entityLabel });
   validateConnectedEntityList(data, "connected_pms", issues, { entityLabel });
