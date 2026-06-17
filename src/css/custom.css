@@ -44,6 +44,15 @@
   border-radius: 6px;
 }
 
+.phenome-register-hero {
+  display: block;
+  width: 80%;
+  max-width: 80%;
+  height: auto;
+  margin: 0 0 1.25rem 0;
+  border-radius: 6px;
+}
+
 .brs-overview-brs-divider {
   margin: 1.5rem 0;
   border: 0;

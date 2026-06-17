@@ -76,7 +76,9 @@ Whole-body regulation: stress allocation, autonomic tone, hormonal coordination,
 
 ### [BRS-X - Cross-System Regulation](/docs/biological-targets/cross-system-regulation)
 
-Cross-system networks spanning multiple BRS domains — including the endocannabinoid system and hormone signalling.
+Some biological systems operate across multiple BRSs simultaneously and cannot be accurately represented within a single domain.
+
+**BRS-X** systems capture these cross-system regulatory networks. They function as higher-order signalling architectures that influence multiple BRSs concurrently and provide important integration layers within the wider framework — spanning domains such as endocannabinoid and hormone signalling.
 
 </div>
 

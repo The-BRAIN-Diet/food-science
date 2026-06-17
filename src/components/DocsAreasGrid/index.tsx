@@ -41,28 +41,28 @@ export default function DocsAreasGrid(): ReactNode {
   const allTags = usePluginData("category-listing")
   const areaDocs: DocItem[] = allTags?.["Area"] || []
 
-  // Define the visible areas in the desired order (Recipes, Foods, Dietary Foundations, etc.) - filter by permalink path
+  // Home page area cards: Recipes, Foods, Substances, Biological Regulatory Systems
   const visibleDocs = areaDocs.filter(doc => {
     const permalink = doc.permalink?.toLowerCase() || ""
     return (
       permalink.includes("/recipes") ||
       permalink.includes("/foods") ||
-      permalink.includes("/dietary-foundations") ||
       permalink.includes("/biological-targets") ||
-      permalink.includes("/substances") ||
-      permalink.includes("/therapeutic-areas")
+      permalink.includes("/substances")
     ) && !(
       permalink.includes("/training") ||
       permalink.includes("/symptoms") ||
       permalink.includes("/partners") ||
       permalink.includes("/interventions") ||
+      permalink.includes("/therapeutic-areas") ||
+      permalink.includes("/dietary-foundations") ||
       permalink.includes("post-meal-state-regulation") ||
       permalink.includes("dietary-fat-metabolic-signalling") ||
       permalink.includes("omega-3-in-the-brain-dha-pool")
     )
   })
 
-  // Sort by order: Recipes (1), Foods (2), Dietary Foundations (3), Therapeutic Areas (4), Biological Targets (5), Substances (6)
+  // Sort by order: Recipes (1), Foods (2), Substances (4), Biological Regulatory Systems (5)
   const sortedDocs = visibleDocs.sort((a, b) => a.order - b.order)
 
   return (
