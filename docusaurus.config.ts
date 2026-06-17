@@ -36,6 +36,70 @@ function removeDuplicateBrsOverviewDocs(items: any[]): any[] {
     );
 }
 
+function isHiddenSidebarItem(item: any): boolean {
+  const hiddenPrefixes = [
+    'therapeutic-areas',
+    'interventions',
+    'partners',
+    'symptoms',
+    'training',
+    'system',
+    'CONTRIBUTION-LEVEL-SYSTEM',
+  ];
+  const hiddenLabels = [
+    'Therapeutic Areas',
+    'Interventions',
+    'Partners',
+    'Symptoms',
+    'Training',
+    'System',
+    'Contribution Level System',
+    'Functional metrics',
+  ];
+
+  const docId =
+    (item.type === 'doc' && item.id) ||
+    (item.type === 'link' && item.docId) ||
+    (item.type === 'category' && item.link?.id);
+  if (
+    typeof docId === 'string' &&
+    hiddenPrefixes.some((prefix) => docId === prefix || docId.startsWith(`${prefix}/`))
+  ) {
+    return true;
+  }
+  if (item.type === 'category') {
+    const label = String(item.label || '').toLowerCase();
+    if (hiddenLabels.some((hidden) => hidden.toLowerCase() === label)) {
+      return true;
+    }
+    if (hiddenPrefixes.includes(label)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function removeHiddenSidebarItems(items: any[]): any[] {
+  const filtered = items
+    .filter((item) => !isHiddenSidebarItem(item))
+    .map((item) =>
+      item.type === 'category'
+        ? { ...item, items: removeHiddenSidebarItems(item.items ?? []) }
+        : item,
+    );
+
+  // Drop categories whose children were all hidden (Docusaurus rejects empty categories).
+  return filtered.filter((item) => {
+    if (item.type !== 'category') return true;
+    const childCount = item.items?.length ?? 0;
+    return childCount > 0 || item.link != null;
+  });
+}
+
+function customizeDocsSidebar(items: any[]): any[] {
+  return removeHiddenSidebarItems(removeDuplicateBrsOverviewDocs(items));
+}
+
 const config: Config = {
   title: 'The BRAIN Diet',
   tagline: 'Bio Regulation Algorithm and Integrated Neuronutrition',
@@ -84,7 +148,7 @@ const config: Config = {
           sidebarCollapsed: true,
           async sidebarItemsGenerator(args) {
             const sidebarItems = await args.defaultSidebarItemsGenerator(args);
-            return removeDuplicateBrsOverviewDocs(sidebarItems);
+            return customizeDocsSidebar(sidebarItems);
           },
           exclude: includeInternalRecipeWip ? [] : ['**/recipes/WIP/**'],
           // Please change this to your repo.

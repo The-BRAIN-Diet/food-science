@@ -5,7 +5,7 @@ sidebar_label: Dietary Foundations
 description: Background guidance explaining how food choices within the BRAIN Diet relate to brain health, metabolism, and regulatory physiology.
 tags:
   - Area
-sidebar_position: 3
+sidebar_position: 50
 list_image: /img/icons/training.svg
 ---
 
