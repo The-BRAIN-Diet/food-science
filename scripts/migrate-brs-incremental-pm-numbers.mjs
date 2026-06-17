@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Renumber PMs with BRS-wide incremental PM numbers (unique within each BRS).
- * BRS1-FM1-PM1, BRS1-FM1-PM2, BRS1-FM2-PM4, …
+ * BRS1-FM1-PM1, BRS1-FM1-PM3, BRS1-FM1-PM2, …
  */
 
 import fs from "node:fs";

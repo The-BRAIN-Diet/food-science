@@ -122,9 +122,9 @@ Same contract as PM pages: sections must not restate the title, `sm_id`, BRS nam
 First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
 
 1. Definition — phenotype / variant / cross-system framing (not a core PM definition). **`SM-CROSS`:** open with *why* a cross-system page is needed (what single-PM or neurotransmitter-only framing misses) and *how* an SM-CROSS differs from a PM, FM, or `SM-PHEN`/`SM-SNP` page; defer integrative biology to §5 and PM links to §6.5.
-2. Target Functional Outcome / Phenome — evidence-weighted translational mappings (same contract as PM §2); empty state when none mapped
+2. Phenome Connections — evidence-weighted translational mappings (same contract as PM §3); empty state when none mapped
 3. Intervention Breakdown — breakdown value only
-4. Functional Role — directional summary oriented to regulatory balance and resilience
+4. Primary Biological Effects — directional summary oriented to regulatory balance and resilience
 5. Mechanistic Basis — `### Summary` opens with the **multi-domain implication**, then explains the cross-system concept (`### Summary` + `<details>` as on PM pages). **`SM-CROSS`:** implication first (e.g. few systems span neural, immune, gut, and circadian biology → then histamine). See `system/mechanism-page-section-prose.md`. PM links stay in §6.5.
 6. Underlying Mechanisms and Requirements
    - `### 6.1` Cofactors and Supporting Inputs
@@ -137,7 +137,7 @@ First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
 9. Scoreable Inputs & Modulation Signals — optional; same table categories as PM/FM
 10. References — if §9 Scoreable omitted, References is §9
 
-Timing: `timing_specific` in front matter only; discuss timing in Functional Role, Mechanistic Basis, Lifestyle, or Scoreable when relevant.
+Timing: `timing_specific` in front matter only; discuss timing in Primary Biological Effects, Mechanistic Basis, Lifestyle, or Scoreable when relevant.
 
 ## §6.5 Connected Mechanisms (authoring contract)
 
@@ -172,7 +172,7 @@ Do **not** use hub-only labels (e.g. “BRS3 crossover”) without at least one 
 
 #### Primary: <theme> in BRS1
 
-<Paragraph explaining neural/arousal role.> Arousal coupling maps to [BRS1-FM1-PM2 — …](/docs/biological-targets/brs1/pm/…). Circadian crossover maps to [BRS6-FM2-PM5 — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment) [Ramsey et al., 2009].
+<Paragraph explaining neural/arousal role.> Arousal coupling maps to [BRS1-FM1-PM3 — …](/docs/biological-targets/brs1/pm/…). Circadian crossover maps to [BRS6-FM2-PM5 — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment) [Ramsey et al., 2009].
 
 #### Secondary: <theme> in BRS3
 

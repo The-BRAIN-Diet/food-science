@@ -99,7 +99,7 @@ phenome_relationships:               # optional; authoritative translational map
 
 ## Timing Specific (required ontology metadata; not a default public body section)
 
-`timing_specific` is **required in front matter** on all PM pages (`Yes` | `No`). It must **not** appear as a standalone numbered body section (`## N. Timing Specific` with only `Yes` or `No`). Where timing materially alters interpretation, discuss it within **§4.2 Lifestyle Levers**, **Functional Role**, **Mechanistic Basis**, or **Scoreable Inputs & Modulation Signals**.
+`timing_specific` is **required in front matter** on all PM pages (`Yes` | `No`). It must **not** appear as a standalone numbered body section (`## N. Timing Specific` with only `Yes` or `No`). Where timing materially alters interpretation, discuss it within **§4.2 Lifestyle Levers**, **Primary Biological Effects**, **Mechanistic Basis**, or **Scoreable Inputs & Modulation Signals**.
 
 `intervention_breakdown` in front matter remains spreadsheet ingest metadata and is **not** rendered as a public body section. `intervention_dominance` is rendered in **§4 Levers** as **Intervention Profile** (see **PM §4 — Levers**).
 
@@ -116,8 +116,8 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 ### Profile A — Extended narrative PM (e.g. BRS1 PMs, BRS6 PM1–PM4)
 
 1. Definition — `## 1. Definition`
-2. Functional Role — `## 2. Functional Role` (directional arrow summary)
-3. Target Functional Outcome / Phenome — `## 3. Target Functional Outcome / Phenome` — translational mappings from `phenome_relationships`; canonical disclaimer required; empty state when unmapped
+2. Primary Biological Effects — `## 2. Primary Biological Effects` (directional arrow summary)
+3. Phenome Connections — `## 3. Phenome Connections` — translational mappings from `phenome_relationships`; canonical disclaimer required; empty state when unmapped
 4. Levers — `## 4. Levers` — **sole public section for dietary and lifestyle implementation** (see **PM §4 — Levers** below)
    - **4.1 Dietary Levers** — outer `<details>` dropdown
      - **4.1.1 Direct Dietary Levers** — nested `<details>`; substance ← food bullets per `system/substance-food-mapping-format.md`
@@ -207,7 +207,7 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 ↓
 [BRS2-FM3-PM7 — Phospholipid Methylation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation)
 ↓
-[BRS1-FM4-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm6-neuronal-membrane-dha-incorporation)
+[BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation)
 ```
 
 ### Profile B — Compact PM (e.g. BRS6 PM2–PM8, BRS6 PM5)
@@ -218,7 +218,7 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 3. Underlying Mechanisms and Requirements — `## 3. Underlying Mechanisms and Requirements` with `### 3.1` Cofactors and Supporting Inputs, `### 3.2` KCs, `### 3.3` Optional BRSX Modifiers, `### 3.4` Connected Mechanisms
 4. Dietary Levers — `## 4.` (`<details>` / **Diet**)
 5. Lifestyle Levers — `## 5.` (`<details>` / **Lifestyle**)
-6. Functional Outputs (Directional Effects) — `## 6.` short arrow-line or paragraph (distinct from `## 2. Functional Role` on Profile A)
+6. Functional Outputs (Directional Effects) — `## 6.` short arrow-line or paragraph (distinct from `## 2. Primary Biological Effects` on Profile A)
 7. References — `## 7. References`
 
 ### PM §5 — Canonical four-part narrative
@@ -261,8 +261,8 @@ Mechanistic Basis must remain **evidence-anchored**, not assertion-only. Follow 
 
 | § | Role (Profile A extended) |
 |---|------|
-| **§2 Functional Role** | Directional ↑/↓ summary of emergent outcomes. |
-| **§3 Target Functional Outcome / Phenome** | Translational phenome mappings — not single-mechanism outcome claims. |
+| **§2 Primary Biological Effects** | Directional ↑/↓ summary of emergent outcomes. |
+| **§3 Phenome Connections** | Translational phenome mappings — not single-mechanism outcome claims. |
 | **§4 Levers** | Dietary (4.1.1–4.1.3) and lifestyle (4.2) implementation — all in `<details>` dropdowns. |
 | **§5 Mechanistic Basis** | How the biology works (canonical four-part narrative). |
 | **§5.1 Evidence Highlights** | What important studies found and why that changes or qualifies interpretation. |
@@ -274,7 +274,7 @@ Profile B compact PMs keep cofactors under `## 3. Underlying Mechanisms and Requ
 
 **Exclude (low priority):** findings that only repeat §5 textbook biology; small redundant mechanistic papers; studies that merely mention the pathway without changing how to read the PM.
 
-**UX:** `#### Introduction/Summary` (visible) → one `<details>` with finding-focused bullets or short `####` blocks. Reference: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation), [BRS1-FM2-PM4](/docs/biological-targets/brs1/fm2/brs1-fm2-pm4-lat1-competitive-transport-modulation).
+**UX:** `#### Introduction/Summary` (visible) → one `<details>` with finding-focused bullets or short `####` blocks. Reference: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation), [BRS1-FM1-PM2](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation).
 
 **Non-repetition:** §1 = *what*; §2 = *directional outcome*; §3 = *translational phenome context*; §4 = *implementation*; §5 = *how*; §5.1 = *how we know*. Do not restate the same meal-composition or pathway claim across all six (see `system/mechanism-page-section-prose.md` — **PM section roles**).
 
@@ -312,7 +312,7 @@ Implementation: `scripts/validate-mechanism-pages.mjs` and `scripts/lib/mechanis
 
 - `timing_specific` is required in front matter (`Yes` | `No`); visible `## N. Timing Specific` body sections are forbidden.
 - Mechanistic Basis must be present and non-placeholder unless `mechanistic_authoring_required: true` is set in front matter.
-- Extended Profile A PMs must include `## 2. Functional Role` immediately after Definition.
+- Extended Profile A PMs must include `## 2. Primary Biological Effects` immediately after Definition.
 - Extended Profile A PMs must include `## 4. Levers` with visible `### Intervention Profile` and `**Intervention Dominance:**` above the dropdowns; **4.1 Dietary Levers** and **4.2 Lifestyle Levers** as `<details>` dropdowns; **4.1** must contain nested dropdowns for **4.1.1 Direct Dietary Levers**, **4.1.2 Cofactors and Supporting Inputs**, and **4.1.3 KCs (Key Constraints)** when those tiers have content.
 - `intervention_breakdown` in front matter, when present, must be one of the five allowed spreadsheet values and must not be rendered as a public body section.
 - `overview` must be <=120 words.

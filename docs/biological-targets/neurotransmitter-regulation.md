@@ -38,11 +38,9 @@ In ADHD, neurobiology spans multiple transmitter systems rather than a single de
 
 ADHD neurobiology spans multiple BRS1 pathways. Each entry below gives a short clinical context and links to the relevant mechanism on this hub.
 
-- **[BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function):** Dopamine shapes attention and default-mode to executive-network switching [Santos et al. 2019](/docs/papers/BRAIN-Diet-References#santos_como_2019). See [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation), [BRS1-FM2-PM4](/docs/biological-targets/brs1/fm2/brs1-fm2-pm4-lat1-competitive-transport-modulation), [BRS1-FM1-PM2](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-noradrenergic-signalling-attention-executive-modulation), [BRS1-FM1-PM3](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation).
+- **[BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function):** Dopamine shapes attention and default-mode to executive-network switching [Santos et al. 2019](/docs/papers/BRAIN-Diet-References#santos_como_2019). See [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation), [BRS1-FM1-PM2](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation), [BRS1-FM1-PM3](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation), [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation).
 
-- **[BRS1(FM5) — Excitatory–Inhibitory Balance (GABA–Glutamate Regulation)](/docs/biological-targets/brs1/fm5/brs1-fm5-excitatory-inhibitory-balance-gaba-glutamate-regulation):** Glutamate is the principal excitatory neurotransmitter of the CNS and the most abundant neurotransmitter in the brain [Zhou and Danbolt 2014](/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014). Excitatory–inhibitory disturbance beyond dopamine alone. See [BRS1-FM5-PM7](/docs/biological-targets/brs1/fm5/brs1-fm5-pm7-gaba-glutamate-neurotransmission-balance)–[BRS1-FM5-PM10](/docs/biological-targets/brs1/fm5/brs1-fm5-pm10-excitotoxicity-modulation), [BRS1(SM-PHEN1)](/docs/biological-targets/brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation).
-
-- **[BRS1-FM1-PM2 — Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-noradrenergic-signalling-attention-executive-modulation):** Noradrenergic modulation of attention and response inhibition within catecholaminergic context.
+- **[BRS1(FM4) — Excitatory–Inhibitory Balance (GABA–Glutamate Regulation)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation):** Glutamate is the principal excitatory neurotransmitter of the CNS and the most abundant neurotransmitter in the brain [Zhou and Danbolt 2014](/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014). Excitatory–inhibitory disturbance beyond dopamine alone. See [BRS1-FM4-PM7](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance)–[BRS1-FM4-PM10](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation), [BRS1(SM-PHEN1)](/docs/biological-targets/brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation).
 
 - **[BRS1(SM-PHEN2) — Emotional Dysregulation — Monoaminergic Interpretation](/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation):** Emotional dysregulation and monoaminergic context are salient in ADHD. Reduced serotonin may link to hyperactivity and impulsivity more than inattention, with genetic markers also implicated [Banerjee and Nandagopal 2015](/docs/papers/BRAIN-Diet-References#banerjee_does_2015) [Oades 2010](/docs/papers/BRAIN-Diet-References#oades_role_2010).
 
@@ -61,43 +59,36 @@ Functional regulation of dopamine, noradrenaline and serotonin signalling, suppo
 **Mechanisms:**
 
 - [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
-- [BRS1-FM1-PM2 — Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-noradrenergic-signalling-attention-executive-modulation)
-- [BRS1-FM1-PM3 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-serotonergic-signalling-regulation)
+- [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
+- [BRS1-FM1-PM3 — Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation)
+- [BRS1-FM1-PM4 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation)
 
-### [BRS1(FM2) — Glycaemic Modulation of Neurotransmitter Balance](/docs/biological-targets/brs1/fm2/brs1-fm2-glycaemic-modulation-of-neurotransmitter-balance)
-
-Influence of carbohydrate quality, meal sequencing, and glycaemic response on precursor partitioning and neurotransmitter bias.
-
-**Mechanisms:**
-
-- [BRS1-FM2-PM4 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm2/brs1-fm2-pm4-lat1-competitive-transport-modulation)
-
-### [BRS1(FM3) — Cholinergic Function (Attention & Cognitive Precision)](/docs/biological-targets/brs1/fm3/brs1-fm3-cholinergic-function)
+### [BRS1(FM2) — Cholinergic Function (Attention & Cognitive Precision)](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function)
 
 Provision of dietary choline and cholinergic support relevant to attention, working memory, and cognitive precision.
 
 **Mechanisms:**
 
-- [BRS1-FM3-PM5 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm3/brs1-fm3-pm5-acetylcholine-synthesis-support)
+- [BRS1-FM2-PM5 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support)
 
-### [BRS1(FM4) — Membrane Composition, Fluidity & Structural Lipid Integrity](/docs/biological-targets/brs1/fm4/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration)
+### [BRS1(FM3) — Membrane Composition, Fluidity & Structural Lipid Integrity](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration)
 
 Integrated membrane composition, fluidity, and structural lipid integrity supporting neuronal network signalling competence.
 
 **Mechanisms:**
 
-- [BRS1-FM4-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm6-neuronal-membrane-dha-incorporation)
+- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation)
 
-### [BRS1(FM5) — Excitatory–Inhibitory Balance (GABA–Glutamate Regulation)](/docs/biological-targets/brs1/fm5/brs1-fm5-excitatory-inhibitory-balance-gaba-glutamate-regulation)
+### [BRS1(FM4) — Excitatory–Inhibitory Balance (GABA–Glutamate Regulation)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation)
 
 Functional control of excitatory–inhibitory tone through GABA–glutamate balance, supporting neural stability, inhibitory control, and resistance to overstimulation.
 
 **Mechanisms:**
 
-- [BRS1-FM5-PM7 — GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm5/brs1-fm5-pm7-gaba-glutamate-neurotransmission-balance)
-- [BRS1-FM5-PM8 — GABA Synthesis Capacity](/docs/biological-targets/brs1/fm5/brs1-fm5-pm8-gaba-synthesis-capacity)
-- [BRS1-FM5-PM9 — Glutamate Clearance & Recycling](/docs/biological-targets/brs1/fm5/brs1-fm5-pm9-glutamate-clearance-and-recycling)
-- [BRS1-FM5-PM10 — Excitotoxicity Modulation](/docs/biological-targets/brs1/fm5/brs1-fm5-pm10-excitotoxicity-modulation)
+- [BRS1-FM4-PM7 — GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance)
+- [BRS1-FM4-PM8 — GABA Synthesis Capacity](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity)
+- [BRS1-FM4-PM9 — Glutamate Clearance & Recycling](/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling)
+- [BRS1-FM4-PM10 — Excitotoxicity Modulation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation)
 
 ---
 

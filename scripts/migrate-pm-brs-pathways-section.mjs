@@ -15,12 +15,23 @@ const HOMOCYSTEINE_PATHWAY = `[BRS2-FM1-PM1 — Folate/B12-Dependent Homocystein
 ↓
 [BRS2-FM3-PM7 — Phospholipid Methylation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation)
 ↓
-[BRS1-FM4-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm4/brs1-fm4-pm6-neuronal-membrane-dha-incorporation)`;
+[BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation)`;
+
+const FM1_MONOAMINERGIC_PATHWAY = `[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
+↓
+[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
+↓
+[BRS1-FM1-PM3 — Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation)
+[BRS1-FM1-PM4 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation)`;
 
 const PATHWAYS_BY_PM_ID = {
   "BRS2-FM1-PM1": HOMOCYSTEINE_PATHWAY,
   "BRS2-FM3-PM7": HOMOCYSTEINE_PATHWAY,
-  "BRS1-FM4-PM6": HOMOCYSTEINE_PATHWAY,
+  "BRS1-FM3-PM6": HOMOCYSTEINE_PATHWAY,
+  "BRS1-FM1-PM1": FM1_MONOAMINERGIC_PATHWAY,
+  "BRS1-FM1-PM2": FM1_MONOAMINERGIC_PATHWAY,
+  "BRS1-FM1-PM3": FM1_MONOAMINERGIC_PATHWAY,
+  "BRS1-FM1-PM4": FM1_MONOAMINERGIC_PATHWAY,
 };
 
 function extractSectionBody(content, headingRe) {

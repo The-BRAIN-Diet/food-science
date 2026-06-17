@@ -7,13 +7,13 @@ Generated: 2026-06-08T21:06:42.322Z
 
 | Old ID | New ID | Title |
 |--------|--------|-------|
-| BRS1-FM2-PM1 | BRS1-FM2-PM4 | LAT1 Competitive Transport Modulation |
-| BRS1-FM3-PM1 | BRS1-FM3-PM5 | Acetylcholine Synthesis Support |
-| BRS1-FM4-PM1 | BRS1-FM4-PM6 | Neuronal Membrane DHA Incorporation |
-| BRS1-FM5-PM1 | BRS1-FM5-PM7 | GABA–Glutamate Neurotransmission Balance |
-| BRS1-FM5-PM2 | BRS1-FM5-PM8 | GABA Synthesis Capacity |
-| BRS1-FM5-PM3 | BRS1-FM5-PM9 | Glutamate Clearance & Recycling |
-| BRS1-FM5-PM4 | BRS1-FM5-PM10 | Excitotoxicity Modulation |
+| BRS1-FM2-PM1 | BRS1-FM1-PM2 | LAT1 Competitive Transport Modulation |
+| BRS1-FM2-PM1 | BRS1-FM2-PM5 | Acetylcholine Synthesis Support |
+| BRS1-FM3-PM1 | BRS1-FM3-PM6 | Neuronal Membrane DHA Incorporation |
+| BRS1-FM4-PM1 | BRS1-FM4-PM7 | GABA–Glutamate Neurotransmission Balance |
+| BRS1-FM4-PM2 | BRS1-FM4-PM8 | GABA Synthesis Capacity |
+| BRS1-FM4-PM3 | BRS1-FM4-PM9 | Glutamate Clearance & Recycling |
+| BRS1-FM4-PM4 | BRS1-FM4-PM10 | Excitotoxicity Modulation |
 | BRS2-FM2-PM1 | BRS2-FM2-PM5 | Transsulfuration Pathway |
 | BRS2-FM2-PM2 | BRS2-FM2-PM6 | Glutathione Synthesis |
 | BRS2-FM3-PM1 | BRS2-FM3-PM7 | Phospholipid Methylation |

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Insert BRS1-FM1-PM3 (Serotonergic) and renumber BRS1 PM4+ → PM5+.
+ * Insert BRS1-FM1-PM4 (Serotonergic) and renumber BRS1 PM4+ → PM5+.
  */
 
 import fs from "node:fs";
@@ -10,21 +10,21 @@ const ROOT = process.cwd();
 const BRS1 = path.join(ROOT, "docs/biological-targets/brs1");
 
 const RENAMES = [
-  ["fm5/brs1-fm5-pm9-excitotoxicity-modulation.mdx", "fm5/brs1-fm5-pm10-excitotoxicity-modulation.mdx"],
-  ["fm5/brs1-fm5-pm8-glutamate-clearance-and-recycling.mdx", "fm5/brs1-fm5-pm9-glutamate-clearance-and-recycling.mdx"],
-  ["fm5/brs1-fm5-pm7-gaba-synthesis-capacity.mdx", "fm5/brs1-fm5-pm8-gaba-synthesis-capacity.mdx"],
-  ["fm5/brs1-fm5-pm6-gaba-glutamate-neurotransmission-balance.mdx", "fm5/brs1-fm5-pm7-gaba-glutamate-neurotransmission-balance.mdx"],
-  ["fm4/brs1-fm4-pm5-neuronal-membrane-dha-incorporation.mdx", "fm4/brs1-fm4-pm6-neuronal-membrane-dha-incorporation.mdx"],
-  ["fm3/brs1-fm3-pm4-acetylcholine-synthesis-support.mdx", "fm3/brs1-fm3-pm5-acetylcholine-synthesis-support.mdx"],
+  ["fm5/brs1-fm4-pm9-excitotoxicity-modulation.mdx", "fm5/brs1-fm4-pm10-excitotoxicity-modulation.mdx"],
+  ["fm5/brs1-fm4-pm8-glutamate-clearance-and-recycling.mdx", "fm5/brs1-fm4-pm9-glutamate-clearance-and-recycling.mdx"],
+  ["fm5/brs1-fm4-pm7-gaba-synthesis-capacity.mdx", "fm5/brs1-fm4-pm8-gaba-synthesis-capacity.mdx"],
+  ["fm5/brs1-fm4-pm6-gaba-glutamate-neurotransmission-balance.mdx", "fm5/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance.mdx"],
+  ["fm4/brs1-fm3-pm5-neuronal-membrane-dha-incorporation.mdx", "fm4/brs1-fm3-pm6-neuronal-membrane-dha-incorporation.mdx"],
+  ["fm3/brs1-fm2-pm4-acetylcholine-synthesis-support.mdx", "fm3/brs1-fm2-pm5-acetylcholine-synthesis-support.mdx"],
 ];
 
 const ID_MAP = [
-  ["BRS1-FM5-PM9", "BRS1-FM5-PM10"],
-  ["BRS1-FM5-PM8", "BRS1-FM5-PM9"],
-  ["BRS1-FM5-PM7", "BRS1-FM5-PM8"],
-  ["BRS1-FM5-PM6", "BRS1-FM5-PM7"],
-  ["BRS1-FM4-PM5", "BRS1-FM4-PM6"],
-  ["BRS1-FM3-PM4", "BRS1-FM3-PM5"],
+  ["BRS1-FM4-PM9", "BRS1-FM4-PM10"],
+  ["BRS1-FM4-PM8", "BRS1-FM4-PM9"],
+  ["BRS1-FM4-PM7", "BRS1-FM4-PM8"],
+  ["BRS1-FM4-PM6", "BRS1-FM4-PM7"],
+  ["BRS1-FM3-PM5", "BRS1-FM3-PM6"],
+  ["BRS1-FM2-PM4", "BRS1-FM2-PM5"],
 ];
 
 function slugMap() {
@@ -83,12 +83,12 @@ for (const file of walk(path.join(ROOT, "system"))) {
 const configPath = path.join(ROOT, "docusaurus.config.ts");
 let config = fs.readFileSync(configPath, "utf8");
 const redirects = [
-  ["brs1-fm3-pm4-acetylcholine-synthesis-support", "brs1-fm3-pm5-acetylcholine-synthesis-support"],
-  ["brs1-fm4-pm5-neuronal-membrane-dha-incorporation", "brs1-fm4-pm6-neuronal-membrane-dha-incorporation"],
-  ["brs1-fm5-pm6-gaba-glutamate-neurotransmission-balance", "brs1-fm5-pm7-gaba-glutamate-neurotransmission-balance"],
-  ["brs1-fm5-pm7-gaba-synthesis-capacity", "brs1-fm5-pm8-gaba-synthesis-capacity"],
-  ["brs1-fm5-pm8-glutamate-clearance-and-recycling", "brs1-fm5-pm9-glutamate-clearance-and-recycling"],
-  ["brs1-fm5-pm9-excitotoxicity-modulation", "brs1-fm5-pm10-excitotoxicity-modulation"],
+  ["brs1-fm2-pm4-acetylcholine-synthesis-support", "brs1-fm2-pm5-acetylcholine-synthesis-support"],
+  ["brs1-fm3-pm5-neuronal-membrane-dha-incorporation", "brs1-fm3-pm6-neuronal-membrane-dha-incorporation"],
+  ["brs1-fm4-pm6-gaba-glutamate-neurotransmission-balance", "brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance"],
+  ["brs1-fm4-pm7-gaba-synthesis-capacity", "brs1-fm4-pm8-gaba-synthesis-capacity"],
+  ["brs1-fm4-pm8-glutamate-clearance-and-recycling", "brs1-fm4-pm9-glutamate-clearance-and-recycling"],
+  ["brs1-fm4-pm9-excitotoxicity-modulation", "brs1-fm4-pm10-excitotoxicity-modulation"],
 ];
 const marker = "// BRS1 insert PM4 serotonin renumber";
 if (!config.includes(marker)) {

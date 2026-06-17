@@ -25,21 +25,21 @@ Synthesis contract (required):
 - **PMs own mechanisms and interventions. FMs own emergent integration.**
 - **Interventions act on PMs.** Do **not** add Dietary Levers, Lifestyle Levers, or Scoreable Inputs to FM pages — those belong on constituent **PM pages**.
 - **Definition (§1):** integrated regulatory state; do not paste full PM definitions.
-- **Functional Outcome Context (§2):** render each outcome as a `<details>` dropdown (same pattern as PM §2); summary shows outcome name; inside: Confidence, Synthesis, Key References.
-- **Functional Role (§3):** short ↑ / ↓ **emergent FM outcomes** only — not PM delivery/incorporation language.
+- **Primary Biological Effects (§2):** short ↑ / ↓ **emergent FM outcomes** only — not PM delivery/incorporation language.
+- **Phenome Connections (§3):** render each outcome as a `<details>` dropdown (same pattern as PM §3); summary shows outcome name; inside: Confidence, Synthesis, Key References.
 - **Mechanistic Basis (§4):** `### 4.1 Core Primary Mechanisms`, `### 4.2 Integrated Functional Narrative`; add `### 4.3 Functional Failure Modes` only when `key_constraints` is non-empty; optional `### 4.4 Evidence Highlights` for FM-level evidence framing.
-- **Canonical (no KCs):** `docs/biological-targets/brs1/fm4/brs1-fm4-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx`
+- **Canonical (no KCs):** `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx`
 - **Canonical (with KCs + failure modes):** `docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx`
 - **§5 Connected Mechanisms** — roll up from constituent PM `§6.2 Connected BRS Mechanisms`; do not use legacy `BRS Links` heading on FM pages.
 - **Deduplication:** if detail exists on a PM page, do not repeat it on the FM page — only describe how PMs combine into the FM state.
 
-**Single-PM FM (1:1):** when `mechanisms_covered` has exactly one PM, §2 `functional_outcome_context` must use the **same phenome labels and confidence** as that PM’s `phenome_relationships` (rewritten FM synthesis + aligned references; no extra or merged phenomes). See `system/phenome-relationship-schema.md` § Single-PM FM (1:1) rule. Canonical: `docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx`.
+**Single-PM FM (1:1):** when `mechanisms_covered` has exactly one PM, §3 `functional_outcome_context` must use the **same phenome labels and confidence** as that PM’s `phenome_relationships` (rewritten FM synthesis + aligned references; no extra or merged phenomes). See `system/phenome-relationship-schema.md` § Single-PM FM (1:1) rule. Canonical: `docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx`.
 
 Structure:
-- Canonical outline: **Definition → Functional Outcome Context → Functional Role → Mechanistic Basis (§4.1–4.2) → [§4.3 when KCs linked] → [optional §4.4] → Connected Mechanisms → References** (`## 5.` / `## 6.`).
+- Canonical outline: **Definition → Primary Biological Effects → Phenome Connections → Mechanistic Basis (§4.1–4.2) → [§4.3 when KCs linked] → [optional §4.4] → Connected Mechanisms → References** (`## 5.` / `## 6.`).
 - `mechanisms_covered` and `key_constraints` stay in **front matter** for tooling; PM links render in §4.1 only — no duplicate index lists or public KC pool subsection.
 - `timing_specific` (`Yes` | `No`) is **required in front matter**; do **not** add a standalone `## N. Timing Specific` body section.
-- Where timing materially alters FM interpretation, discuss it in **Functional Role** or **Mechanistic Basis** — not Lifestyle/Scoreable sections on FM pages.
+- Where timing materially alters FM interpretation, discuss it in **Primary Biological Effects** or **Mechanistic Basis** — not Lifestyle/Scoreable sections on FM pages.
 - The in-body title line must use markdown `##` (not `#` or `###`).
 - Do not add Recipe Translation, Mechanism Summary Table, Underlying Mechanisms and Requirements, Dietary/Lifestyle/Scoreable sections, or other excluded blocks from `system/functional-mechanism-schema.md`.
 

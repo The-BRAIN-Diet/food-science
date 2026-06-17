@@ -42,6 +42,7 @@ function fmUrl(filePath) {
 function buildFmSection(brs) {
   const fms = listFmFiles(brs);
   let section = `## Functional Mechanisms\n\nFunctional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.\n\n`;
+  const listedPmIds = new Set();
 
   for (const { path: filePath } of fms) {
     const { data } = matter(fs.readFileSync(filePath, "utf8"));
@@ -54,12 +55,18 @@ function buildFmSection(brs) {
     section += `${definition}\n\n`;
 
     const pms = Array.isArray(data.mechanisms_covered) ? data.mechanisms_covered : [];
-    if (pms.length) {
+    const pmsToShow = pms.filter((pm) => !listedPmIds.has(pm.id));
+    for (const pm of pmsToShow) listedPmIds.add(pm.id);
+
+    if (pmsToShow.length) {
       section += `**Mechanisms:**\n\n`;
-      for (const pm of pms) {
+      for (const pm of pmsToShow) {
         section += `- [${pm.id} — ${pm.name}](${pm.href})\n`;
       }
       section += `\n`;
+    } else if (pms.length) {
+      const refs = pms.map((pm) => `[${pm.id} — ${pm.name}](${pm.href})`).join("; ");
+      section += `**Mechanisms:** Listed above (${refs}).\n\n`;
     }
   }
   return section;
