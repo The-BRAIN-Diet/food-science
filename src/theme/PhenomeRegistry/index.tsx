@@ -134,7 +134,7 @@ export default function PhenomeRegistry(): React.ReactElement {
 
   return (
     <div className={styles.wrap}>
-      <h1>Phenome Registry</h1>
+      <h1 className={styles.srOnly}>Phenome Registry</h1>
       <p>
         Phenomes are functional patterns that sit above biological mechanisms and below condition
         profiles. They describe what a person may experience functionally, such as energy stability,
