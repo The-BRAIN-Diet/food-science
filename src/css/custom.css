@@ -44,6 +44,32 @@
   border-radius: 6px;
 }
 
+.brs-overview-brs-divider {
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+.brs-overview-x-thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0 0 1rem 0;
+}
+
+.brs-overview-x-thumbnail-link {
+  line-height: 0;
+  text-decoration: none;
+}
+
+.brs-overview-x-thumbnail-link:hover .brs-pm-thumbnail {
+  opacity: 0.92;
+}
+
+.brs-overview-x-thumbnails .brs-pm-thumbnail-wrap {
+  margin: 0;
+}
+
 /* Portrait thumbnail on BRS pages — black mat with ≥3px inset crop into the image */
 .brs-pm-thumbnail-wrap {
   display: inline-block;
