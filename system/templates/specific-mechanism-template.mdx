@@ -4,6 +4,11 @@ sm_id: "<INSERT_SM_ID>"
 sm_category: "<SM-SNP|SM-PHEN|SM-CROSS>"  # SM-CROSS only if SM-CROSS test passes: ≥2 BRS domains AND no single PM/FM owner
 use_case: "<INSERT_USE_CASE_FRAMING>"
 parent_brs: "<INSERT_PARENT_BRS_ID>"
+# SM-PHEN only — tie page to Phenome Registry (see system/specific-mechanism-schema.md):
+# interpreted_phenome:
+#   id: PH003
+#   name: Emotional Regulation
+# interpretation_lens: "<INSERT_BRS_SPECIFIC_LENS>"
 summary: "<INSERT_SM_SUMMARY_UP_TO_120_WORDS>"
 connected_pms:
   - id: "<INSERT_PM_ID>"
@@ -34,6 +39,9 @@ hide_title: true
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
+<!-- SM-PHEN: link registry phenome; state this page is one BRS interpretation lens; one <details> per interpreted phenome. See system/phenome-relationship-schema.md -->
+<!-- SM-SNP / SM-CROSS without registry phenome: use empty state below -->
+
 No direct functional outcome relationship currently mapped.
 
 ## 3. Intervention Breakdown
@@ -44,43 +52,45 @@ No direct functional outcome relationship currently mapped.
 
 <INSERT_DIRECTIONAL_SUMMARY_REGULATORY_BALANCE>
 
-## 4. Mechanistic Basis
+## 5. Mechanistic Basis
 
 ### Summary
+
+<!-- SM-PHEN: open with emergent-phenotype framing; host BRS contributes one component; link to PMs — do not duplicate PM mechanism biology -->
 
 <INSERT_SHORT_INTERPRETIVE_SUMMARY_LINKING_CONNECTED_PM_FM_KC>
 
 <details>
 <summary><strong><INSERT_DETAILS_TITLE></strong></summary>
 
-#### (Connected PM biology in context)
+#### (Phenotype interpretation — not PM mechanism duplication)
 
 <INSERT_NARRATIVE_WITH_PM_FM_KC_LINKS_AND_CITATIONS>
 
 </details>
 
-## 5. Underlying Mechanisms and Requirements
+## 6. Underlying Mechanisms and Requirements
 
-### 5.1 Cofactors and Supporting Inputs
+### 6.1 Cofactors and Supporting Inputs
 
 - <INSERT_COFACTOR_IF_ANY>
 
-### 5.2 KCs (Key Constraints)
+### 6.2 KCs (Key Constraints)
 
 - [<INSERT_KC_ID> — <INSERT_KC_NAME>](<INSERT_KC_HREF>)
 
-### 5.3 Connected Primary Mechanisms (PMs)
+### 6.3 Connected Primary Mechanisms (PMs)
 
 - [<INSERT_PM_ID> — <INSERT_PM_NAME>](<INSERT_PM_HREF>)
 
-### 5.4 Connected Functional Mechanisms (FMs)
+### 6.4 Connected Functional Mechanisms (FMs)
 
 - [<INSERT_FM_ID> — <INSERT_FM_NAME>](<INSERT_FM_HREF>)
 
-### 5.5 Connected Mechanisms
+### 6.5 Connected Mechanisms
 
-<!-- SM-CROSS: required. SM-SNP / SM-PHEN: optional when cross-BRS PM context matters. -->
-<!-- Paragraph form + inline PM links — not hub-only "BRS3 crossover" labels. See system/specific-mechanism-schema.md §5.5 -->
+<!-- SM-CROSS: required. SM-PHEN: recommended when phenotype is influenced by other BRS domains. SM-SNP: optional. -->
+<!-- Paragraph form + inline PM links — not hub-only "BRS3 crossover" labels. See system/specific-mechanism-schema.md §6.5 -->
 
 <INSERT_CROSS_BRS_NARRATIVE_WITH_LINKED_PMS>
 

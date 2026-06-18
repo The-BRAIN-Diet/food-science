@@ -244,6 +244,22 @@ Structure:
 
 **Forbidden on FM §3:** roll-up tables, contributing-PM lists, dropdowns that enumerate child PMs per phenome.
 
+### SM-PHEN — `## 2. Phenome Connections`
+
+Placement: immediately after `## 1. Definition`, before Intervention Breakdown (SM Profile A extended numbering).
+
+Structure:
+
+1. Canonical PM disclaimer paragraph (same translational framing as PM pages)
+2. **Registry link** — one sentence naming the interpreted phenome with a link to `/docs/phenomes/index#<registry-id-lowercase>` (e.g. `#ph003` for PH003)
+3. **Interpretation-lens statement** — this page is one BRS-specific lens; other BRS-hosted `SM-PHEN` pages may interpret the same registry phenome from different biology (do not duplicate those systems here)
+4. For the interpreted phenome: one `<details>` with summary **`<Phenome name> — <relationship_type> (<host BRS> lens)`**
+5. Inside dropdown: Confidence, Evidence level, Rationale (phenotype/translational only), Key references (linked)
+
+**Forbidden on SM-PHEN §2:** PM mechanism prose, neurotransmitter pathway explanations, lists of all connected PMs, duplicate PM `phenome_relationships` dropdowns.
+
+**Authoring source:** `interpreted_phenome` and `interpretation_lens` in SM front matter; registry definitions in `phenome-registry.json` only.
+
 ---
 
 ## Section renumbering (PM Profile A)

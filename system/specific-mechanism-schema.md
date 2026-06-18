@@ -27,6 +27,45 @@ The ontology describes biology. Therapeutic-area framing (e.g. ADHD) belongs on 
 
 - **SM-SNP** — variant-sensitive interpretation (e.g. COMT, MTHFR, DAO, PEMT)
 - **SM-PHEN** — phenotype-sensitive interpretation (e.g. emotional dysregulation, hyperarousal, histamine sensitivity, sensory responsiveness, cognitive fatigue)
+
+### SM-PHEN pages (phenome interpretation layer)
+
+`SM-PHEN` pages are **phenotype interpretation layers** hosted on a single BRS. They read stable biology from connected host PMs/FMs/KCs and apply it to a **registry phenome** (`src/data/phenome-registry.json`) — without redefining PM mechanism biology.
+
+**Core discipline**
+
+| Layer | Owns |
+|-------|------|
+| **PM** | Mechanism biology (synthesis, transport, signalling pathways, cofactors) |
+| **FM** | Integrated biological states emerging from coordinated PMs |
+| **SM-PHEN** | Phenotype interpretation — how connected host biology may relate to a functional phenome pattern |
+
+**One phenome, many SMs.** The same registry phenome (e.g. **PH003 — Emotional Regulation**) may have **multiple SM-PHEN pages** across different BRS domains (e.g. BRS1 monoaminergic interpretation, a future BRS3 inflammatory interpretation). Each SM owns **one BRS interpretation lens** only. Do not collapse cross-BRS phenome biology into a single SM; use additional host-BRS `SM-PHEN` pages or `SM-CROSS` when the [SM-CROSS test](#sm-cross-test-qualification-gate) applies.
+
+**Required front matter (SM-PHEN)**
+
+```yaml
+interpreted_phenome:
+  id: PH003                    # registry id from phenome-registry.json
+  name: Emotional Regulation   # must match registry name exactly
+interpretation_lens: string    # short BRS-specific lens, e.g. "BRS1 monoaminergic precursor, transport, and signalling context"
+```
+
+`use_case` remains a concise phenotype framing string; `interpreted_phenome` + `interpretation_lens` tie the page to the Phenome Registry.
+
+**§1 Definition** — describe the **phenotype pattern** (emotional reactivity, affective instability, stress responsiveness, sensory overwhelm, etc.), not a neurotransmitter or PM pathway. Therapeutic-area context (e.g. ADHD prevalence of emotional dysregulation) may appear briefly with phenotype-relevant citations; mechanism detail belongs on PM pages.
+
+**§2 Phenome Connections** — link to the registry phenome (`/docs/phenomes/index#<id>`). State that this page is **one interpretation lens** on that phenome. Use a single `<details>` dropdown per interpreted phenome with confidence, evidence level, translational rationale, and key references — **do not** duplicate PM `phenome_relationships` prose or list every connected PM.
+
+**§4 Primary Biological Effects** — directional summary oriented to **phenotype regulation** (reactivity, stability, tolerance, control), not transmitter synthesis pathways.
+
+**§5 Mechanistic Basis** — `### Summary` must open with the **emergent-phenotype framing** (multi-system phenotype, host BRS contributes one component). Use `<details>` for interpretation-layer bullets that **link to connected PMs** in one or two sentences each. **Do not** explain serotonin biology, tryptophan metabolism, LNAA transport, or other PM-owned pathways in detail — those belong on PM1–PM4 (or relevant host PMs).
+
+**§6.3 / §6.4** — bullet lists for host-BRS `connected_pms` / `connected_fms` only.
+
+**§6.5 Connected Mechanisms** — **recommended** when the phenotype is materially influenced by other BRS domains. Brief paragraph-led cross-links to **specific PM pages** on BRS3, BRS5, BRS6, etc. Do not explain those systems in PM depth.
+
+**Reference implementation:** `docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation.mdx`.
 - **SM-CROSS** — cross-system interpretive concepts spanning multiple BRS domains simultaneously, not naturally owned by a single PM or FM
 
 SM-CROSS pages are **not** bounded mechanisms and **not** phenotype pages. They explain **cross-system biological concepts** that influence or connect multiple BRS domains (e.g. histaminergic arousal and neuroimmune crosstalk spanning BRS1, BRS3, BRS5, BRS6).
@@ -93,6 +132,8 @@ hide_title: true
 
 Optional PM-compatible fields: `intervention_dominance`, `dose_sensitivity`, `mechanistic_authoring_required`, `key_constraints`, `cofactors`.
 
+**SM-PHEN only:** `interpreted_phenome` (`id`, `name`) and `interpretation_lens` — see [SM-PHEN pages (phenome interpretation layer)](#sm-phen-pages-phenome-interpretation-layer).
+
 SMs do **not** use `parent_fm` or `pm_id` — use `connected_*` lists instead.
 
 ## SM category (required)
@@ -138,6 +179,24 @@ First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
 10. References — if §9 Scoreable omitted, References is §9
 
 Timing: `timing_specific` in front matter only; discuss timing in Primary Biological Effects, Mechanistic Basis, Lifestyle, or Scoreable when relevant.
+
+### SM-CROSS alignment with PM Profile A (reference: BRS1-FM1-PM1)
+
+`SM-CROSS` pages follow the **PM Profile A extended** teaching model where possible. SMs are not FM-owned, so they do not roll up evidence through an FM integrative layer; cross-BRS PM placement lives in **`### 6.5 Connected Mechanisms`** instead of PM `## 6. BRS Pathways and Connections`.
+
+| PM Profile A (`BRS1-FM1-PM1`) | SM-CROSS equivalent |
+|-------------------------------|---------------------|
+| `## 1. Definition` | `## 1. Definition` |
+| `## 2. Primary Biological Effects` | `## 4. Primary Biological Effects` |
+| `## 3. Phenome Connections` | `## 2. Phenome Connections` |
+| `## 4. Levers` (4.1 Dietary + 4.2 Lifestyle) | `## 7. Dietary Levers` + `## 8. Lifestyle Levers` |
+| `## 5. Mechanistic Basis` (+ optional `### 5.1`) | `## 5. Mechanistic Basis` |
+| `## 6. BRS Pathways and Connections` (6.1–6.3) | `## 6. Underlying Mechanisms` — 6.1 Cofactors, 6.2 KCs, 6.3 host PMs, 6.4 FMs, **6.5 cross-BRS narrative (required)** |
+| `## 7. Scoreable Inputs` | `## 9. Scoreable Inputs` |
+| `## 8. References` | `## 10. References` |
+| *(not on PM)* | `## 3. Intervention Breakdown` |
+
+Reuse PM §5 canonical four-part narrative inside SM `## 5.`; keep substance ← food bullets in lever sections; link PMs in §6.5 without duplicating PM mechanism biology. Reference: `docs/biological-targets/brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk.mdx`.
 
 ## §6.5 Connected Mechanisms (authoring contract)
 

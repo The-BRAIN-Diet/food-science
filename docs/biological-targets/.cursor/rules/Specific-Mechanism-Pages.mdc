@@ -28,6 +28,7 @@ Structure:
 Semantic rules:
 - SMs are **interpretation layers**, not bounded PMs or integrated FMs.
 - Definition: phenotype-sensitive (`SM-PHEN`), variant-sensitive (`SM-SNP`), or cross-system (`SM-CROSS`) framing — not a replacement PM definition. **`SM-CROSS` §1:** state why and how this page differs from a PM/FM (what multi-domain interpretation adds); do not open later sections by restating §1.
+- **`SM-PHEN`:** phenotype interpretation layer tied to a **registry phenome** (`interpreted_phenome.id` / `name` in front matter). One registry phenome may have **multiple SM-PHEN pages** across BRS domains (e.g. BRS1 monoaminergic vs BRS3 inflammatory lenses on Emotional Regulation). §1 and §5 describe the **phenotype pattern**, not PM-owned neurotransmitter biology. §5 links to connected PMs; do not duplicate PM mechanism content. See `system/specific-mechanism-schema.md` → SM-PHEN pages.
 - `SM-CROSS`: apply the **SM-CROSS test** in `system/specific-mechanism-schema.md` — qualify only if the concept **materially spans ≥ 2 BRS domains** **and** **cannot be naturally owned by a single PM or FM**; otherwise use PM/FM, `SM-PHEN`, `SM-SNP`, or BRS hub rationale. **`### 5.5 Connected Mechanisms` is required** on SM-CROSS pages. Not phenotype pages.
 - **§6.5 Connected Mechanisms:** explain cross-domain placement in **paragraph form** (optional `####` subheads for priority/themes). **Link to specific PM pages** — e.g. `[BRS6-FM2-PM5 — …](/docs/biological-targets/brs6/fm2/brs6-fm2-pm2-…)` — not hub-only BRS labels when a relevant PM exists. §6.3/6.4 remain bullet lists for host-BRS `connected_*` entities; §6.5 is narrative + PM links. See `system/specific-mechanism-schema.md` §6.5 authoring contract.
 - Therapeutic-area framing (e.g. ADHD) belongs on BRS hub pages — not as `sm_category` or primary SM ontology.
@@ -37,6 +38,7 @@ Semantic rules:
 
 Front matter:
 - Required: `sm_id`, `sm_category`, `use_case`, `connected_pms`, `connected_fms`, `connected_kcs`, `parent_brs`, `intervention_breakdown`, `timing_specific`, `references`
+- **`SM-PHEN` required:** `interpreted_phenome` (`id`, `name`), `interpretation_lens`
 - `sm_category` must be one of: SM-SNP, SM-PHEN, SM-CROSS
 
 References:
