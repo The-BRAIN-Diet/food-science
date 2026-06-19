@@ -35,7 +35,7 @@ Each section must follow **only** the schema role for that section (Definition, 
 
 | Section | Write |
 |---------|--------|
-| **Definition** | What this entity is in ontology terms (once per page) |
+| **Definition (§1)** | **Opening paragraph (1–3 sentences) + exactly 3 bullets** — biological significance and cross-system effects. See **§1 Definition — UX structure** below. |
 | **Phenome Connections (PM §3 / FM §3)** | Evidence-weighted translational mappings only — not mechanism definition |
 | **Primary Biological Effects (§2)** | Directional ↑/↓ summary only |
 | **Mechanistic Basis (PM)** | **Summary → primary mechanism → boundaries → integration** (see below); link PMs/KCs/citations; do not re-define the entity |
@@ -73,6 +73,67 @@ Each section must follow **only** the schema role for that section (Definition, 
 - **Rewrites:** if a cited claim stays, the citation stays; if a claim is new and evidence-backed, add the citation and References entry (`Author et al. (Year) — Topic` with bibliography link).
 
 Example placement: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — Mariotti in protein quality; Fernstrom at the PM2 boundary.
+
+## §1 Definition — UX structure (paragraph + three bullets)
+
+Applies to **PM**, **FM**, **SM**, and **KC** pages (`## 1. Definition` or `### 1. Definition`). BRS hub pages use **`## Overview`** with the same contract (see `system/brs-page-schema.md`).
+
+The Definition is the **primary user-facing explanation** of the mechanism. Think **“Why does this mechanism matter?”** before **“How does it work?”** — detailed pathways, enzymes, transporters, and boundaries belong in **Mechanistic Basis** (PM §5 / FM §4), not in §1.
+
+**Do not add subheadings** inside §1 (no “Key Roles”, “Key Functions”, “Technical Overview”, or similar).
+
+### Opening paragraph
+
+**Purpose:** Explain what the mechanism does, why it matters, and its role in brain and body health.
+
+**Requirements:**
+
+- 1–3 sentences.
+- Written for an intelligent non-specialist.
+- Focus on biological significance, not biochemical implementation.
+- Avoid excessive jargon, enzymes, pathways, and transporters.
+
+Front matter `summary` / `overview` should align with this paragraph’s intent.
+
+### Three bullets (required)
+
+Immediately follow the opening paragraph with **exactly 3 concise bullets** highlighting important downstream biological consequences or cross-system effects.
+
+**Requirements:**
+
+- No heading above the bullet list.
+- Each bullet leads with **biology**, not framework terminology.
+- Understandable to a non-specialist.
+- End with a connected BRS reference where relevant — e.g. `— Supporting BRS1`, `— within BRS2`.
+
+**Good bullet:** `Supports neurotransmitter synthesis and regulation through methylation-dependent pathways — Supporting BRS1.`
+
+**Poor bullet:** `Contributes to BRS1-FM1 monoaminergic integration via PM3/PM4 cross-links.`
+
+### Role split (Definition vs Mechanistic Basis)
+
+| §1 Definition | §5 Mechanistic Basis (PM) / §4 (FM) |
+|---------------|-------------------------------------|
+| What + why (paragraph) | Why it matters in depth (`### Summary`) |
+| Cross-system significance (3 bullets) | Detailed how — pathways, boundaries, integration |
+| No citations required | Evidence-anchored; citations required where claims are literature-backed |
+| No enzymes, transporters, or boundary essays | Enzymology, evidence highlights, PM cross-links |
+
+### Success test
+
+After reading §1 only, a non-specialist should understand what the mechanism does, why it exists, and why it matters — including how it connects to other body systems. If the opening primarily describes chemistry or enzymes, rewrite.
+
+**Canonical PM example:** [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation).
+
+### Entity-specific notes
+
+| Entity | §1 heading | Paragraph focus | Bullet focus |
+|--------|------------|-----------------|--------------|
+| **PM** | `## 1. Definition` | Single mechanism’s job and brain/body relevance | Downstream and cross-BRS consequences |
+| **FM** | `## 1. Definition` | Emergent integrated state and why it matters | Cross-system effects of the FM state |
+| **SM** | `## 1. Definition` | Why this interpretation layer matters | How the SM changes reading of connected biology |
+| **KC** | `### 1. Definition` | Shared pool’s role in constraining mechanisms | What fails or is limited when the pool is strained |
+| **BRS hub** | `## Overview` | System purpose and brain/body integration | Cross-BRS significance of the whole BRS |
 
 **§4 UX:** `### Summary` stays **outside** `<details>`; the four-part `####` narrative goes **inside** one `<details>` block. `### 4.1 Evidence Highlights` follows the dropdown as a subsection of `## 4.`, not inside it.
 

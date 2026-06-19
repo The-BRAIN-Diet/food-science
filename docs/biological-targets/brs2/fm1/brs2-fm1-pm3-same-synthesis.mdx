@@ -3,9 +3,7 @@ title: SAMe Synthesis
 pm_id: BRS2-FM1-PM3
 parent_fm: BRS2(FM1)
 parent_brs: BRS2
-summary: >-
-  Production of S-adenosylmethionine from methionine to supply universal methyl
-  donation.
+summary: 'Converts regenerated methionine into SAMe — the body''s universal methyl donor — powering methylation reactions across brain and body. Without adequate SAMe production, downstream methylation chemistry cannot proceed effectively.'
 key_constraints:
   - BRS2(KC2) - Methionine & Transsulfuration Substrate Pool
 cofactors:
@@ -19,12 +17,8 @@ intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
 dose_sensitivity: Methionine adequacy + magnesium context
 references:
-  - >-
-    [1] [Chiang et al.
-    (1996)](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996)
-  - >-
-    [2] [Cicero and Minervino
-    (2022)](/docs/papers/BRAIN-Diet-References#cicero_combined_2022)
+  - '[Chiang et al. (1996) — S-Adenosylmethionine and Methylation](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996)'
+  - '[Cicero and Minervino (2022) — Combined Action of SAMe, Folate, and Vitamin B12 in the Treatment of](/docs/papers/BRAIN-Diet-References#cicero_combined_2022)'
 hide_title: true
 ---
 <p class="brs-pm-thumbnail-wrap">
@@ -39,14 +33,17 @@ hide_title: true
 
 ## 1. Definition
 
-Production of S-adenosylmethionine from methionine to supply universal methyl donation.
+Converts regenerated methionine into SAMe — the body's universal methyl donor — powering methylation reactions across brain and body. Without adequate SAMe production, downstream methylation chemistry cannot proceed effectively.
 
-This PM carries regenerated methionine forward into the universal methyl donor pool by producing S-adenosylmethionine (SAMe), which supports downstream methylation chemistry across the system. Folate (B9), vitamin B12, riboflavin (B2), and vitamin B6 support the one-carbon steps that sustain methionine and SAMe availability [1][2].
+* Enables neurotransmitter-related methylation and monoamine pathway support — Supporting BRS1.
+* Supplies methyl groups for phospholipid and membrane chemistry — Supporting BRS1.
+* Supports epigenetic regulation and broader cellular repair processes — Supporting BRS4.
 
 ## 2. Primary Biological Effects
 ↑ methyl donor pool
 
 ## 3. Phenome Connections
+
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
 No direct functional outcome relationship currently mapped.
@@ -56,7 +53,6 @@ No direct functional outcome relationship currently mapped.
 ### Intervention Profile
 
 **Intervention Dominance:** Diet-Dominant
-
 
 <details>
 <summary><strong>4.1 Dietary Levers</strong></summary>
@@ -105,16 +101,55 @@ No direct functional outcome relationship currently mapped.
 
 ### Summary
 
-Production of S-adenosylmethionine from methionine to supply universal methyl donation.
+Universal methyl donation across the system depends on converting regenerated methionine to S-adenosylmethionine (SAMe) — the biochemical step that translates remethylation output into usable methyl-transfer capacity for downstream processes including neurotransmitter synthesis and phospholipid methylation.
 
 <details>
-<summary><strong>SAMe Synthesis — mechanistic detail</strong></summary>
+<summary><strong>SAMe synthesis — mechanistic detail</strong></summary>
 
-#### (SAMe Synthesis)
+#### (Methionine adenosyltransferase and SAMe formation)
 
-Production of S-adenosylmethionine from methionine to supply universal methyl donation. Feeds neurotransmitter synthesis and phospholipid methylation.
+Methionine adenosyltransferase converts methionine to SAMe in an ATP-dependent reaction. Magnesium supports this enzymatic step; without adequate methionine substrate from remethylation or dietary intake, SAMe production is constrained regardless of downstream methylation demand → [Chiang et al., 1996]
 
-Folate, vitamin B12, riboflavin (B2), and vitamin B6 are cofactors for upstream remethylation and transsulfuration steps that maintain methionine flux into SAMe; magnesium supports ATP-dependent methionine adenosyltransferase activity [1][2].
+#### (Upstream remethylation dependency)
+
+SAMe synthesis sits immediately downstream of homocysteine remethylation. Folate/B12-dependent remethylation ([BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)) and betaine/BHMT remethylation ([BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation)) both feed methionine into this step. Folate, vitamin B12, riboflavin (B2), and vitamin B6 support the one-carbon steps that sustain methionine flux → [Chiang et al., 1996]; [Cicero and Minervino, 2022]
+
+#### (Downstream methyl-transfer consumers)
+
+SAMe is the universal methyl donor for phospholipid methylation ([BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)), neurotransmitter-relevant methylation chemistry within BRS1, and broader cellular methylation reactions. SAMe availability therefore couples one-carbon cycle efficiency to membrane and signalling biology across BRS domains.
+
+#### (Boundaries of the mechanism)
+
+This PM governs **methionine→SAMe synthesis** only.
+
+Homocysteine remethylation routes belong to [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) and [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation). Integrated cycle throughput belongs to [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux).
+
+Specific methyltransferase reactions — PEMT phospholipid methylation, neurotransmitter synthesis, DNA methylation — belong to their respective downstream PMs and BRS domains. This PM supplies the methyl donor pool; it does not govern individual transfer reactions.
+
+#### (Integration within BRS2)
+
+This PM bridges [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) and [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling). It depends on [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool) for methionine substrate availability and on sibling remethylation PMs for sustained methionine regeneration.
+
+</details>
+
+### 5.1 Evidence Highlights
+
+#### Introduction/Summary
+
+SAMe biochemistry is well established. The studies below highlight why methyl-donor pool availability matters in clinical and translational contexts — particularly where combined cofactor support and downstream methylation demand shape interpretation.
+
+<details>
+<summary><strong>Evidence highlights — SAMe synthesis in practice</strong></summary>
+
+#### (SAMe as the central methyl donor)
+
+Review evidence positions SAMe as the principal methyl donor linking methionine metabolism to phospholipid, neurotransmitter, and broader methylation chemistry — making methionine→SAMe flux a system-level bottleneck rather than an isolated enzymatic detail → [Chiang et al., 1996]
+
+#### (Combined SAMe, folate, and B12 support)
+
+Clinical review work on combined SAMe, folate, and vitamin B12 support reinforces that SAMe availability is interpreted alongside upstream one-carbon cofactors rather than as an isolated supplement strategy → [Cicero and Minervino, 2022]
+
+This supports the PM3 placement: SAMe synthesis is downstream of remethylation cofactor coverage (PM1) and upstream of methylation-dependent processes across BRS2 and connected domains.
 
 </details>
 
@@ -126,7 +161,8 @@ Folate, vitamin B12, riboflavin (B2), and vitamin B6 are cofactors for upstream 
 
 ### 6.2 Connected BRS Mechanisms
 
-- None listed
+- [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) — fM2-PM5 context relevant to this mechanism
+- [BRS1-FM3-PM6](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — fM3-PM6 context relevant to this mechanism
 
 ### 6.3 Connected Primary Mechanisms
 
@@ -151,5 +187,5 @@ Folate, vitamin B12, riboflavin (B2), and vitamin B6 are cofactors for upstream 
 
 ## 8. References
 
-1. [Chiang et al. (1996)](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996)
-2. [Cicero and Minervino (2022)](/docs/papers/BRAIN-Diet-References#cicero_combined_2022)
+- [Chiang et al. (1996) — S-Adenosylmethionine and Methylation](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996)
+- [Cicero and Minervino (2022) — Combined Action of SAMe, Folate, and Vitamin B12 in the Treatment of](/docs/papers/BRAIN-Diet-References#cicero_combined_2022)

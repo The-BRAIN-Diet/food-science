@@ -1,87 +1,104 @@
 #!/usr/bin/env node
 /**
- * Replace repeated FM titles on BRS hub pages with FM summary/definition text.
+ * Sync BRS hub ## Functional Mechanisms sections — one <details> dropdown per FM
+ * with summary, PM/KC links, connected mechanisms, and modulation metadata.
  */
 
 import fs from "node:fs";
 import path from "node:path";
-import matter from "gray-matter";
+import {
+  buildFunctionalMechanismsSection,
+  listFmFilesForBrs,
+  listFmFilesForBrsX,
+} from "./lib/brs-hub-fm-section.mjs";
 
 const BRS_BASE = path.join(process.cwd(), "docs/biological-targets");
 
-const HUB_FILES = {
-  1: "neurotransmitter-regulation.md",
-  2: "methylation-one-carbon-metabolism.md",
-  3: "inflammation-oxidative-stress.md",
-  4: "mitochondrial-function-bioenergetics.md",
-  5: "gut-brain-axis-enteric-nervous-system.md",
-  6: "metabolic-neuroendocrine-stress.md",
-};
+const HUB_CONFIGS = [
+  {
+    file: "neurotransmitter-regulation.md",
+    fmPaths: () => listFmFilesForBrs(1),
+    replace: (content, section) =>
+      content.replace(
+        /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
+        `${section}---\n\n## Requirements`,
+      ),
+  },
+  {
+    file: "methylation-one-carbon-metabolism.md",
+    fmPaths: () => listFmFilesForBrs(2),
+    replace: (content, section) =>
+      content.replace(
+        /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
+        `${section}---\n\n## Requirements`,
+      ),
+  },
+  {
+    file: "inflammation-oxidative-stress.md",
+    fmPaths: () => listFmFilesForBrs(3),
+    replace: (content, section) =>
+      content.replace(
+        /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
+        `${section}---\n\n## Requirements`,
+      ),
+  },
+  {
+    file: "mitochondrial-function-bioenergetics.md",
+    fmPaths: () => listFmFilesForBrs(4),
+    replace: (content, section) =>
+      content.replace(
+        /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
+        `${section}---\n\n## Requirements`,
+      ),
+  },
+  {
+    file: "gut-brain-axis-enteric-nervous-system.md",
+    fmPaths: () => listFmFilesForBrs(5),
+    replace: (content, section) =>
+      content.replace(
+        /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
+        `${section}---\n\n## Requirements`,
+      ),
+  },
+  {
+    file: "metabolic-neuroendocrine-stress.md",
+    fmPaths: () => listFmFilesForBrs(6),
+    replace: (content, section) =>
+      content.replace(
+        /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
+        `${section}---\n\n## Requirements`,
+      ),
+  },
+  {
+    file: "brs-x/ecs/endocannabinoid-system.md",
+    fmPaths: () => listFmFilesForBrsX("ecs"),
+    replace: (content, section) =>
+      content.replace(
+        /## Functional Mechanisms[\s\S]*?\n---\n\n## Primary Mechanisms/,
+        `${section}---\n\n## Primary Mechanisms`,
+      ),
+  },
+  {
+    file: "brs-x/hormones/hormone-signalling-regulation.md",
+    fmPaths: () => listFmFilesForBrsX("hormones"),
+    replace: (content, section) =>
+      content.replace(
+        /## Functional Mechanisms[\s\S]*?\n---\n\nProposed future integrated states/,
+        `${section}---\n\nProposed future integrated states`,
+      ),
+  },
+];
 
-function listFmFiles(brs) {
-  const brsDir = path.join(BRS_BASE, `brs${brs}`);
-  const files = [];
-  for (const entry of fs.readdirSync(brsDir)) {
-    const m = entry.match(/^fm(\d+)$/i);
-    if (!m) continue;
-    const fmDir = path.join(brsDir, entry);
-    for (const f of fs.readdirSync(fmDir)) {
-      if (/^brs\d+-fm\d+-/.test(f) && !/-pm\d+-/.test(f) && /\.mdx?$/.test(f)) {
-        files.push({ fm: Number(m[1]), path: path.join(fmDir, f) });
-      }
-    }
-  }
-  return files.sort((a, b) => a.fm - b.fm);
-}
-
-function fmUrl(filePath) {
-  const rel = path.relative(BRS_BASE, filePath).replace(/\\/g, "/").replace(/\.mdx?$/, "");
-  return `/docs/biological-targets/${rel}`;
-}
-
-function buildFmSection(brs) {
-  const fms = listFmFiles(brs);
-  let section = `## Functional Mechanisms\n\nFunctional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.\n\n`;
-  const listedPmIds = new Set();
-
-  for (const { path: filePath } of fms) {
-    const { data } = matter(fs.readFileSync(filePath, "utf8"));
-    const fmId = data.fm_id;
-    const title = data.title;
-    const definition = String(data.summary || "").trim();
-    const url = fmUrl(filePath);
-
-    section += `### [${fmId} — ${title}](${url})\n\n`;
-    section += `${definition}\n\n`;
-
-    const pms = Array.isArray(data.mechanisms_covered) ? data.mechanisms_covered : [];
-    const pmsToShow = pms.filter((pm) => !listedPmIds.has(pm.id));
-    for (const pm of pmsToShow) listedPmIds.add(pm.id);
-
-    if (pmsToShow.length) {
-      section += `**Mechanisms:**\n\n`;
-      for (const pm of pmsToShow) {
-        section += `- [${pm.id} — ${pm.name}](${pm.href})\n`;
-      }
-      section += `\n`;
-    } else if (pms.length) {
-      const refs = pms.map((pm) => `[${pm.id} — ${pm.name}](${pm.href})`).join("; ");
-      section += `**Mechanisms:** Listed above (${refs}).\n\n`;
-    }
-  }
-  return section;
-}
-
-function updateHub(brs) {
-  const hubPath = path.join(BRS_BASE, HUB_FILES[brs]);
+for (const hub of HUB_CONFIGS) {
+  const hubPath = path.join(BRS_BASE, hub.file);
+  const fmPaths = hub.fmPaths();
+  const section = buildFunctionalMechanismsSection(fmPaths);
   let content = fs.readFileSync(hubPath, "utf8");
-  const fmSection = buildFmSection(brs);
-  content = content.replace(
-    /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
-    `${fmSection}---\n\n## Requirements`,
-  );
-  fs.writeFileSync(hubPath, content);
-  console.log(`Updated ${HUB_FILES[brs]}`);
+  const next = hub.replace(content, section);
+  if (next === content) {
+    console.warn(`No change: ${hub.file}`);
+    continue;
+  }
+  fs.writeFileSync(hubPath, next);
+  console.log(`Updated ${hub.file} (${fmPaths.length} FM dropdowns)`);
 }
-
-for (let brs = 1; brs <= 6; brs++) updateHub(brs);

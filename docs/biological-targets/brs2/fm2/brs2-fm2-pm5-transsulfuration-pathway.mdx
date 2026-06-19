@@ -3,7 +3,7 @@ title: Transsulfuration Pathway
 pm_id: BRS2-FM2-PM5
 parent_fm: BRS2(FM2)
 parent_brs: BRS2
-summary: Diversion of homocysteine toward cysteine production through transsulfuration.
+summary: 'Provides an alternative path for handling homocysteine by converting it toward cysteine, linking one-carbon metabolism to sulfur amino acid supply. This branch helps balance remethylation demand with antioxidant precursor availability.'
 key_constraints:
   - BRS2(KC2) - Methionine & Transsulfuration Substrate Pool
 cofactors:
@@ -13,12 +13,9 @@ intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
 dose_sensitivity: Requires B6 + sulfur amino acids
 references:
-  - >-
-    [1] [Gregory et al.
-    (2016)](/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016)
-  - >-
-    [2] [Kumar et al.
-    (2017)](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
+  - '[Gregory et al. (2016) — Vitamin B6 Status Is Associated with the Methionine-homocysteine Cycle in the NHANES](/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016)'
+  - '[Kumar et al. (2017) — Transsulfuration Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)'
+  - '[Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)'
 hide_title: true
 ---
 <p class="brs-pm-thumbnail-wrap">
@@ -33,12 +30,17 @@ hide_title: true
 
 ## 1. Definition
 
-Diversion of homocysteine toward cysteine production through transsulfuration.
+Provides an alternative path for handling homocysteine by converting it toward cysteine, linking one-carbon metabolism to sulfur amino acid supply. This branch helps balance remethylation demand with antioxidant precursor availability.
+
+* Feeds cysteine supply for glutathione production and cellular redox protection — within BRS2.
+* Helps limit oxidative stress associated with homocysteine accumulation — Supporting BRS3.
+* Supports detoxification and cellular defence capacity under metabolic load — Supporting BRS3.
 
 ## 2. Primary Biological Effects
 ↑ cysteine generation
 
 ## 3. Phenome Connections
+
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
 No direct functional outcome relationship currently mapped.
@@ -48,7 +50,6 @@ No direct functional outcome relationship currently mapped.
 ### Intervention Profile
 
 **Intervention Dominance:** Diet-Dominant
-
 
 <details>
 <summary><strong>4.1 Dietary Levers</strong></summary>
@@ -88,14 +89,55 @@ No direct functional outcome relationship currently mapped.
 
 ### Summary
 
-Diversion of homocysteine toward cysteine production through transsulfuration.
+When remethylation demand is high or homocysteine accumulates, the transsulfuration branch diverts homocysteine toward cysteine — linking one-carbon metabolism to sulfur amino acid supply and downstream antioxidant chemistry within [BRS2(FM2) — Transsulfuration & Redox Coupling](/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling).
 
 <details>
-<summary><strong>Transsulfuration Pathway — mechanistic detail</strong></summary>
+<summary><strong>Transsulfuration pathway — mechanistic detail</strong></summary>
 
-#### (Transsulfuration Pathway)
+#### (Homocysteine diversion to cysteine)
 
-Diversion of homocysteine toward cysteine production through transsulfuration. Bridge from methylation to antioxidant defense
+Transsulfuration converts homocysteine to cystathionine and then cysteine through cystathionine β-synthase (CBS) and cystathionine γ-lyase (CGL). This provides an alternative homocysteine disposal route when remethylation capacity is saturated or when cysteine and glutathione demand is elevated → [Kumar et al., 2017]
+
+#### (Vitamin B6 cofactor dependency)
+
+Vitamin B6 (pyridoxal phosphate) is a required cofactor for CBS and CGL. B6 status associates with methionine–homocysteine cycle markers in population data, linking dietary B6 coverage to transsulfuration flux → [Gregory et al., 2016]
+
+#### (Bridge to antioxidant defense)
+
+Cysteine generated through transsulfuration feeds glutathione synthesis ([BRS2-FM2-PM6](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis)). This couples one-carbon homocysteine handling to cellular redox buffering — particularly relevant where elevated homocysteine intersects oxidative stress pathways → [Lukovac et al., 2024]
+
+#### (Boundaries of the mechanism)
+
+This PM governs **homocysteine diversion through transsulfuration to cysteine** only.
+
+Homocysteine remethylation routes belong to [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) and [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation). SAMe synthesis and cycle throughput belong to [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) and [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux).
+
+Glutathione synthesis from cysteine belongs to [BRS2-FM2-PM6](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis). Glutathione utilisation, lipid peroxidation control, and broader redox signalling belong to [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress).
+
+#### (Integration within BRS2)
+
+This PM operationalises the transsulfuration arm of [BRS2(FM2)](/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling), drawing on [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool) for sulfur amino acid substrate availability. Transsulfuration flux competes with remethylation for homocysteine and feeds cysteine forward to glutathione synthesis (PM6).
+
+</details>
+
+### 5.1 Evidence Highlights
+
+#### Introduction/Summary
+
+Transsulfuration biochemistry is well established. The studies below highlight why this branch matters in practice — particularly the B6 dependency and the link between homocysteine handling and oxidative-stress contexts relevant to neurodevelopment.
+
+<details>
+<summary><strong>Evidence highlights — transsulfuration in practice</strong></summary>
+
+#### (B6 status and the methionine–homocysteine cycle)
+
+NHANES analysis found vitamin B6 status associated with methionine–homocysteine cycle markers, supporting B6 as a practical dietary lever for transsulfuration flux rather than an abstract cofactor detail → [Gregory et al., 2016]
+
+#### (Homocysteine, oxidative stress, and ADHD-relevant biomarkers)
+
+In a paediatric ADHD cohort, elevated homocysteine was reported alongside biomarker shifts implicating oxidative stress pathways — contexts where transsulfuration-derived cysteine and downstream glutathione support may be mechanistically relevant → [Lukovac et al., 2024]
+
+This does not establish transsulfuration as an ADHD treatment target, but it supports reading homocysteine elevation as connected to redox pathway strain, not remethylation alone.
 
 </details>
 
@@ -103,11 +145,13 @@ Diversion of homocysteine toward cysteine production through transsulfuration. B
 
 ### 6.1 BRS Pathways
 
-- None listed
+[BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway)
+↓
+[BRS2-FM2-PM6 — Glutathione Synthesis](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis)
 
 ### 6.2 Connected BRS Mechanisms
 
-- None listed
+- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — fM2-PM5 — Lipid Peroxidation Control context relevant to this mechanism
 
 ### 6.3 Connected Primary Mechanisms
 
@@ -130,5 +174,6 @@ Diversion of homocysteine toward cysteine production through transsulfuration. B
 
 ## 8. References
 
-1. [Gregory et al. (2016)](/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016)
-2. [Kumar et al. (2017)](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
+- [Gregory et al. (2016) — Vitamin B6 Status Is Associated with the Methionine-homocysteine Cycle in the NHANES](/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016)
+- [Kumar et al. (2017) — Transsulfuration Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
+- [Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)

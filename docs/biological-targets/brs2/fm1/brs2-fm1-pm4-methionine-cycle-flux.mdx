@@ -3,7 +3,7 @@ title: Methionine Cycle Flux
 pm_id: BRS2-FM1-PM4
 parent_fm: BRS2(FM1)
 parent_brs: BRS2
-summary: Overall throughput and turnover efficiency of the methionine cycle.
+summary: 'Reflects how efficiently the whole methionine cycle runs — affecting homocysteine levels, SAMe output, and overall methylation capacity across the system. Effective cycle throughput depends on dietary patterns rather than any single nutrient in isolation.'
 key_constraints:
   - BRS2(KC1) - One-Carbon Donor Pool
   - BRS2(KC2) - Methionine & Transsulfuration Substrate Pool
@@ -16,9 +16,10 @@ intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
 dose_sensitivity: 'Pattern-based: consistent cofactor coverage'
 references:
-  - >-
-    [1] [Aragão et al.
-    (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
+  - '[Aragão et al. (2024) — Unveiling Its Timeless Significance in Human Physiology and Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)'
+  - '[Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)'
+  - '[Yu et al. (2020) — Evidence-based Prevention of Alzheimer''s Disease](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020)'
+  - '[Luzzi et al. (2022) — Homocysteine, Cognitive Functions, and Degenerative Dementias](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022)'
 hide_title: true
 ---
 <p class="brs-pm-thumbnail-wrap">
@@ -33,12 +34,17 @@ hide_title: true
 
 ## 1. Definition
 
-Overall throughput and turnover efficiency of the methionine cycle.
+Reflects how efficiently the whole methionine cycle runs — affecting homocysteine levels, SAMe output, and overall methylation capacity across the system. Effective cycle throughput depends on dietary patterns rather than any single nutrient in isolation.
+
+* Governs how well homocysteine is cleared and methyl donors are replenished — within BRS2.
+* Influences neurotransmitter and membrane methylation capacity downstream — Supporting BRS1.
+* Links one-carbon efficiency to mitochondrial and metabolic resilience — Supporting BRS4.
 
 ## 2. Primary Biological Effects
 ↑ cycle throughput
 
 ## 3. Phenome Connections
+
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
 No direct functional outcome relationship currently mapped.
@@ -92,14 +98,57 @@ No direct functional outcome relationship currently mapped.
 
 ### Summary
 
-Overall throughput and turnover efficiency of the methionine cycle.
+Effective methylation is not determined by a single enzymatic step but by overall methionine cycle throughput — the integrated flux through remethylation, SAMe production, methyl transfer, and homocysteine re-entry that governs how efficiently the one-carbon system supports downstream biology.
 
 <details>
-<summary><strong>Methionine Cycle Flux — mechanistic detail</strong></summary>
+<summary><strong>Methionine cycle flux — mechanistic detail</strong></summary>
 
-#### (Methionine Cycle Flux)
+#### (Cycle throughput as a system property)
 
-Overall throughput and turnover efficiency of the methionine cycle. System throughput node rather than a single enzymatic step
+The methionine cycle integrates homocysteine remethylation, SAMe synthesis, methyl-group transfer, and homocysteine regeneration. Throughput depends on substrate availability, cofactor coverage, and the balance between remethylation and transsulfuration branches rather than any single reaction in isolation → [Aragão et al., 2024]
+
+#### (Cofactor coverage and flux constraints)
+
+Riboflavin (B2), vitamin B6, and vitamin B12 support distinct steps across the cycle — from folate-cycle flavoproteins through transsulfuration chemistry to B12-dependent remethylation. Pattern-based cofactor coverage across meals may support cycle throughput more effectively than isolated single-nutrient boluses → [Aragão et al., 2024]
+
+#### (Homocysteine as a flux readout)
+
+Plasma homocysteine serves as a practical readout of impaired cycle throughput when remethylation, cofactor coverage, or substrate pools are strained. Elevated homocysteine is reported across neurodevelopmental, cognitive, and degenerative contexts — supporting homocysteine as a translational marker of cycle efficiency rather than a mechanism-specific endpoint → [Yu et al., 2020]; [Luzzi et al., 2022]
+
+#### (Boundaries of the mechanism)
+
+This PM governs **integrated methionine cycle throughput** — a system flux node — not individual enzymatic steps.
+
+Folate/B12 remethylation belongs to [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation). BHMT remethylation belongs to [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation). SAMe synthesis belongs to [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). Transsulfuration disposal belongs to [BRS2-FM2-PM5](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway).
+
+The integrated FM narrative for methylation cycle efficiency belongs on [BRS2(FM1)](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency). This PM represents the throughput node that those sibling PMs compose.
+
+#### (Integration within BRS2)
+
+This PM integrates flux across [BRS2(FM1)](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency), constrained by both [BRS2(KC1)](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool) and [BRS2(KC2)](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool). Cycle throughput connects remethylation arms (PM1, PM2) with SAMe output (PM3) and the transsulfuration branch (FM2-PM5) that competes for homocysteine disposal.
+
+</details>
+
+### 5.1 Evidence Highlights
+
+#### Introduction/Summary
+
+Methionine cycle flux is a systems concept rather than a single reaction. The studies below highlight why throughput — not isolated cofactor dosing — matters for interpreting homocysteine and one-carbon metabolism in practice.
+
+<details>
+<summary><strong>Evidence highlights — methionine cycle flux in practice</strong></summary>
+
+#### (Homocysteine as a cycle-efficiency marker)
+
+Evidence reviews link elevated homocysteine to cognitive decline and degenerative dementias, supporting homocysteine as a readout of impaired one-carbon cycle throughput rather than a standalone pathology → [Luzzi et al., 2022]; [Yu et al., 2020]
+
+For this PM, the key implication is interpretive: homocysteine elevation signals cycle strain across multiple steps, not failure of a single enzyme.
+
+#### (Cofactor combination effects on homocysteine)
+
+Meta-analytic evidence shows folate lowers homocysteine substantially, with additional benefit when B12 is combined — illustrating that cycle throughput responds to cofactor patterns rather than single-nutrient interventions → [Collaboration, 1998]
+
+This supports reading methionine cycle flux as a dietary-pattern property spanning folate, B12, B2, B6, choline, betaine, and methionine coverage → [Aragão et al., 2024]
 
 </details>
 
@@ -111,7 +160,8 @@ Overall throughput and turnover efficiency of the methionine cycle. System throu
 
 ### 6.2 Connected BRS Mechanisms
 
-- None listed
+- [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) — fM2-PM5 context relevant to this mechanism
+- [BRS1-FM3-PM6](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — fM3-PM6 context relevant to this mechanism
 
 ### 6.3 Connected Primary Mechanisms
 
@@ -136,4 +186,8 @@ Overall throughput and turnover efficiency of the methionine cycle. System throu
 
 ## 8. References
 
-1. [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
+- [Aragão et al. (2024) — Unveiling Its Timeless Significance in Human Physiology and Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
+- [Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
+- [Yu et al. (2020) — Evidence-based Prevention of Alzheimer's Disease](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020)
+- [Luzzi et al. (2022) — Homocysteine, Cognitive Functions, and Degenerative Dementias](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022)
+

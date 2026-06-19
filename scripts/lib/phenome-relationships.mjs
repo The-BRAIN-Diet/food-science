@@ -3,6 +3,8 @@
  * @see system/phenome-relationship-schema.md
  */
 
+import { toReferenceLabel, topicFromBibKey } from "./brs-citation-migration.mjs";
+
 export const PHENOME_RELATIONSHIP_TYPES = new Set([
   "supports",
   "disrupts",
@@ -379,8 +381,17 @@ export function aggregateFmConnectedPhenomes(childPms) {
   return out.sort((a, b) => a.target_phenome.localeCompare(b.target_phenome));
 }
 
-export function renderPmPhenomeSectionBody(relationships = []) {
-  const lines = [`## 3. ${PM_PHENOME_SECTION_TITLE}`, "", PHENOME_DISCLAIMER, ""];
+function renderPhenomeReferencesBlock(references) {
+  const items = references.map((ref) => ({
+    href: ref.href || `/docs/papers/BRAIN-Diet-References#${ref.citation_key}`,
+    label: ref.label || ref.citation_key,
+  }));
+  const serialized = JSON.stringify(items).replace(/</g, "\\u003c");
+  return ["- **Key References:**", "", `<PhenomeBibLinks items={${serialized}} />`];
+}
+
+export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 3 } = {}) {
+  const lines = [`## ${sectionNum}. ${PM_PHENOME_SECTION_TITLE}`, "", PHENOME_DISCLAIMER, ""];
   if (!relationships.length) {
     lines.push(PHENOME_EMPTY_MESSAGE);
     return lines.join("\n");
@@ -396,14 +407,7 @@ export function renderPmPhenomeSectionBody(relationships = []) {
     lines.push(`- **Evidence Level:** ${rel.evidence_level}`);
     lines.push(`- **Rationale:** ${rel.rationale}`);
     if (Array.isArray(rel.references) && rel.references.length > 0) {
-      lines.push("- **Key References:**");
-      lines.push("  <ul>");
-      for (const ref of rel.references) {
-        const href = ref.href || `/docs/papers/BRAIN-Diet-References#${ref.citation_key}`;
-        const label = ref.label || ref.citation_key;
-        lines.push(`    <li><a href="${href}">${label}</a></li>`);
-      }
-      lines.push("  </ul>");
+      lines.push(...renderPhenomeReferencesBlock(rel.references));
     }
     lines.push("");
     lines.push("</details>");
@@ -413,8 +417,13 @@ export function renderPmPhenomeSectionBody(relationships = []) {
   return lines.join("\n").trimEnd();
 }
 
-export function renderFmOutcomeContextSectionBody(outcomes = []) {
-  const lines = [`## 3. ${FM_PHENOME_CONNECTIONS_SECTION_TITLE}`, "", FM_OUTCOME_CONTEXT_DISCLAIMER, ""];
+export function renderFmOutcomeContextSectionBody(outcomes = [], { sectionNum = 3 } = {}) {
+  const lines = [
+    `## ${sectionNum}. ${FM_PHENOME_CONNECTIONS_SECTION_TITLE}`,
+    "",
+    FM_OUTCOME_CONTEXT_DISCLAIMER,
+    "",
+  ];
   if (!outcomes.length) {
     lines.push(FM_OUTCOME_CONTEXT_EMPTY_MESSAGE);
     return lines.join("\n");
@@ -428,14 +437,7 @@ export function renderFmOutcomeContextSectionBody(outcomes = []) {
     lines.push(`- **Confidence:** ${row.confidence}`);
     lines.push(`- **Synthesis:** ${String(row.synthesis).trim()}`);
     if (Array.isArray(row.references) && row.references.length > 0) {
-      lines.push("- **Key References:**");
-      lines.push("  <ul>");
-      for (const ref of row.references) {
-        const href = ref.href || `/docs/papers/BRAIN-Diet-References#${ref.citation_key}`;
-        const label = ref.label || ref.citation_key;
-        lines.push(`    <li><a href="${href}">${label}</a></li>`);
-      }
-      lines.push("  </ul>");
+      lines.push(...renderPhenomeReferencesBlock(row.references));
     }
     lines.push("");
     lines.push("</details>");
@@ -473,21 +475,25 @@ export function validatePhenomeSectionBody(content, issues, { entityLabel, kind 
   }
 
   if (kind === "sm") {
+    const usesPmCanonicalOrder = /^##\s+4\.\s+Levers\s*$/m.test(content);
+    const phenomeLevel = usesPmCanonicalOrder ? 3 : 2;
     const heading = new RegExp(
-      `^##\\s+2\\.\\s+${PM_PHENOME_SECTION_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+      `^##\\s+${phenomeLevel}\\.\\s+${PM_PHENOME_SECTION_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
       "m",
     );
     if (!heading.test(content)) {
       issues.push({
         code: "missing_phenome_section",
-        message: `${entityLabel}: published body must include "## 2. ${PM_PHENOME_SECTION_TITLE}" after Definition`,
+        message: `${entityLabel}: published body must include "## ${phenomeLevel}. ${PM_PHENOME_SECTION_TITLE}"${
+          usesPmCanonicalOrder ? " after Primary Biological Effects" : " after Definition"
+        }`,
       });
       return;
     }
     if (!content.includes(PHENOME_DISCLAIMER)) {
       issues.push({
         code: "missing_phenome_disclaimer",
-        message: `${entityLabel}: §2 must include the canonical phenome disclaimer`,
+        message: `${entityLabel}: §${phenomeLevel} must include the canonical phenome disclaimer`,
       });
     }
     return;
@@ -536,4 +542,147 @@ export function validatePhenomeSectionBody(content, issues, { entityLabel, kind 
       message: `${entityLabel}: FM §3 must not list contributing child PMs`,
     });
   }
+}
+
+const PHENOME_CITATION_KEY_RE = /BRAIN-Diet-References#([a-z0-9_-]+)/gi;
+
+function citationKeyFromReference(ref) {
+  if (!ref) return null;
+  if (typeof ref === "object") {
+    if (ref.citation_key) return String(ref.citation_key).trim();
+    if (ref.href) {
+      const m = String(ref.href).match(PHENOME_CITATION_KEY_RE);
+      return m?.[1] || null;
+    }
+  }
+  if (typeof ref === "string") {
+    const m = ref.match(PHENOME_CITATION_KEY_RE);
+    return m?.[1] || null;
+  }
+  return null;
+}
+
+function fullLabelFromReference(ref, citationKey) {
+  if (typeof ref === "object" && String(ref.label || "").includes(" — ")) {
+    return String(ref.label).trim();
+  }
+  if (typeof ref === "string") {
+    const m = ref.match(/\[([^\]]+)\]/);
+    if (m?.[1]?.includes(" — ")) return m[1].trim();
+    if (m?.[1]) {
+      const yearM = m[1].match(/\((\d{4})\)/);
+      const author = m[1].replace(/\s*\(\d{4}\)\s*$/, "").trim();
+      return toReferenceLabel(author, yearM?.[1] || "", topicFromBibKey(citationKey));
+    }
+  }
+  if (typeof ref === "object" && ref.label) {
+    const yearM = String(ref.label).match(/\((\d{4})\)/);
+    const author = String(ref.label)
+      .replace(/\s*\(\d{4}\)\s*$/, "")
+      .trim();
+    return toReferenceLabel(author, yearM?.[1] || "", topicFromBibKey(citationKey));
+  }
+  return toReferenceLabel("Reference", "", topicFromBibKey(citationKey));
+}
+
+function collectPhenomeReferenceEntries(data, kind) {
+  const rows =
+    kind === "fm" ? data.functional_outcome_context || [] : data.phenome_relationships || [];
+  const byKey = new Map();
+  for (const row of rows) {
+    for (const ref of row.references || []) {
+      const citationKey = citationKeyFromReference(ref);
+      if (!citationKey || byKey.has(citationKey)) continue;
+      const href = `/docs/papers/BRAIN-Diet-References#${citationKey}`;
+      const label = fullLabelFromReference(ref, citationKey);
+      byKey.set(citationKey, { citationKey, label, href });
+    }
+  }
+  return byKey;
+}
+
+function findPageReferencesSection(content) {
+  const start = content.search(/^## \d+\. References\s*$/m);
+  if (start === -1) return null;
+  const slice = content.slice(start);
+  const headingEnd = slice.indexOf("\n");
+  if (headingEnd === -1) return null;
+  const heading = slice.slice(0, headingEnd + 1);
+  const body = slice.slice(headingEnd + 1);
+  const full = heading + body;
+  const match = [full, heading, body];
+  match.index = start;
+  return match;
+}
+
+/**
+ * Merge phenome_relationships / functional_outcome_context references into page
+ * front matter and ## N. References body section (deduped by citation_key).
+ */
+export function mergePageReferencesWithPhenome(data, content, kind) {
+  const phenomeByKey = collectPhenomeReferenceEntries(data, kind);
+  if (!phenomeByKey.size) return { data, content, changed: false };
+
+  const entriesByKey = new Map();
+  const orderedKeys = [];
+
+  function absorb(ref) {
+    const citationKey = citationKeyFromReference(ref);
+    if (!citationKey || entriesByKey.has(citationKey)) return false;
+    const href = `/docs/papers/BRAIN-Diet-References#${citationKey}`;
+    const label = fullLabelFromReference(ref, citationKey);
+    entriesByKey.set(citationKey, { citationKey, label, href });
+    orderedKeys.push(citationKey);
+    return true;
+  }
+
+  const refsMatch = findPageReferencesSection(content);
+  if (refsMatch) {
+    const bodyRefRe =
+      /\[([^\]]+)\]\(\/docs\/papers\/BRAIN-Diet-References#([a-z0-9_-]+)\)/gi;
+    for (const m of refsMatch[2].matchAll(bodyRefRe)) {
+      absorb({ label: m[1], citation_key: m[2] });
+    }
+  }
+
+  for (const ref of data.references || []) {
+    absorb(ref);
+  }
+
+  for (const entry of phenomeByKey.values()) {
+    absorb(entry);
+  }
+
+  const newFmRefs = orderedKeys.map((key) => {
+    const { label, href } = entriesByKey.get(key);
+    return `[${label}](${href})`;
+  });
+
+  const fmChanged =
+    JSON.stringify(newFmRefs) !== JSON.stringify(data.references || []);
+
+  let newContent = content;
+  let bodyChanged = false;
+  if (refsMatch) {
+    const heading = refsMatch[1];
+    const newBullets = orderedKeys.map((key) => {
+      const { label, href } = entriesByKey.get(key);
+      return `- [${label}](${href})`;
+    });
+    const rebuilt = `${heading}${newBullets.join("\n")}\n`;
+    if (rebuilt !== refsMatch[0]) {
+      newContent =
+        content.slice(0, refsMatch.index) +
+        rebuilt +
+        content.slice(refsMatch.index + refsMatch[0].length);
+      bodyChanged = true;
+    }
+  }
+
+  const newData = fmChanged ? { ...data, references: newFmRefs } : data;
+  return {
+    data: newData,
+    content: newContent,
+    changed: fmChanged || bodyChanged,
+  };
 }

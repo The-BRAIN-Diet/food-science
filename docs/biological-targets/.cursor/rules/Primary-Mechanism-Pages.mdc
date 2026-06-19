@@ -15,6 +15,8 @@ When creating or editing Primary Mechanism (PM) pages:
 
 Follow:
 - `system/primary-mechanism-schema.md`
+- `system/phenome-relationship-schema.md` — §3 Phenome Connections data model
+- `system/phenome-relationship-review-methodology.md` — ADHD-scoped phenome review (Phase 0 bibliography → Phase 1 PM review → Phase 2 FM review → Phase 3 framework expansion → human review on rendered §3)
 - `system/pm-intervention-summary-standard.md` — §3 Intervention Summary layout and lever tiers
 - `system/brs-citation-reference-standard.md` — inline `[Author et al., Year]`; References `Author et al. (Year) — Topic`
 - `system/mechanism-page-section-prose.md` — sections must not restate title, entity ID, BRS name/number, or Definition; each section follows only its schema role.

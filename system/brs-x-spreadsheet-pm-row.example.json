@@ -21,7 +21,7 @@
       },
       {
         "id": "BRS2-FM3-PM7",
-        "name": "Phospholipid Methylation"
+        "name": "Phosphatidylcholine Formation"
       }
     ],
     "connected_brs_domains": ["BRS1", "BRS2"],

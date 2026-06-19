@@ -2,7 +2,9 @@
 id: mitochondrial-function-bioenergetics
 title: BRS4 - Mitochondrial Function & Bioenergetics
 sidebar_label: BRS4 - Mitochondrial Function & Bioenergetics
-description: Capacity layer covering ATP production, mitochondrial resilience, and bioenergetic regulation.
+description: >-
+  Capacity layer covering ATP production, mitochondrial resilience, and
+  bioenergetic regulation.
 tags:
   - Biological Target
   - Mitochondrial Function & Bioenergetics
@@ -57,7 +59,10 @@ Carnitine-mediated mitochondrial fat transport may be relevant where ADHD is acc
 
 ## References
 
-- Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder share overlapping biological dysfunctions, including mitochondrial impairment [Tardy et al. 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
+- [Crane (2001) — Biochemical Functions of Coenzyme Q₁₀](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
+- [Avgerinos et al. (2018) — A Systematic Review of Randomized Controlled Trials](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
+- [van Oudheusden and Scholte (2002) — Efficacy of Carnitine in the Treatment of Children with Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002)
+
 - Vitamins and minerals function as indispensable micronutrients and enzymatic cofactors in all pivotal brain biology pathways, aiding neurotransmitter synthesis, mitochondrial energy production, DNA repair, antioxidant defense, methylation, and the regulation of neuroplasticity [Tardy et al. 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
 - Higher polyphenol intake and microbial diversity increase urolithin A and related metabolites, supporting mitochondrial resilience and mitophagy [Singh et al. 2022](/docs/papers/BRAIN-Diet-References#singh_direct_2022)
 - Urolithin A supports mitochondrial resilience and mitophagy and in turn improves cognitive endurance [Andreux et al. 2019](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019)
@@ -65,9 +70,9 @@ Carnitine-mediated mitochondrial fat transport may be relevant where ADHD is acc
 - Butyrate supports mitochondrial function, enhancing brain energy metabolism, which may help with cognitive impairments seen in ADHD [Rose et al. 2018](/docs/papers/BRAIN-Diet-References#rose_butyrate_2018)
 - Glutathione (GSH) is one of the body's major antioxidants. Elevated GSH levels which have been recorded against ADHD subjects may reflect a compensatory response to increased oxidative stress [Verlaet et al. 2019](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
 - Mitochondrial metabolism of lactate depends on GSH for ROS neutralization, optimizing mitochondrial energy use [Verlaet et al. 2019](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
-- Coenzyme Q10 (CoQ10) supports mitochondrial electron transport and provides antioxidant protection for neurons [Crane (2001)](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
-- Creatine supports ATP recycling in neurons and enhances working memory and cognitive processing speed [Avgerinos et al. (2018)](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
-- Carnitine supplementation improved behavioural and functional outcomes in children with ADHD in a controlled trial, supporting a link between mitochondrial fatty-acid transport capacity and neurodevelopmental energetics [van Oudheusden and Scholte (2002)](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002)
+- Coenzyme Q10 (CoQ10) supports mitochondrial electron transport and provides antioxidant protection for neurons [Crane, 2001]
+- Creatine supports ATP recycling in neurons and enhances working memory and cognitive processing speed [Avgerinos et al., 2018]
+- Carnitine supplementation improved behavioural and functional outcomes in children with ADHD in a controlled trial, supporting a link between mitochondrial fatty-acid transport capacity and neurodevelopmental energetics [van Oudheusden and Scholte, 2002]
 
 > **Note — Van Oudheusden & Scholte (2002):** Van Oudheusden, L. & Scholte, H. 2002, 'Efficacy of carnitine in the treatment of children with attention-deficit hyperactivity disorder', *Prostaglandins, Leukotrienes and Essential Fatty Acids*, vol. 67, no. 1, pp. 33–38. [https://doi.org/10.1054/plef.2002.0378](https://doi.org/10.1054/plef.2002.0378)
 
@@ -79,42 +84,114 @@ Carnitine-mediated mitochondrial fat transport may be relevant where ADHD is acc
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
-### [BRS4(FM1) — Cellular Bioenergetics](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics)
+<details>
+<summary><strong>BRS4(FM1) — Cellular Bioenergetics</strong></summary>
 
 Functional control of ATP production via mitochondrial respiration, ETC efficiency, NAD⁺-linked redox metabolism, and high-demand energy support.
 
-**Mechanisms:**
+**FM page:** [BRS4(FM1) — Cellular Bioenergetics](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics)
+
+**Primary biological effects:** ↑ ATP availability; ↑ cellular energy output
+
+**Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Daily
+
+**Primary mechanisms (PMs):**
 
 - [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function)
 - [BRS4-FM1-PM2 — NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism)
 - [BRS4-FM1-PM3 — Creatine / Phosphocreatine Buffer](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer)
 
-### [BRS4(FM2) — Mitochondrial Resilience & Redox Stability](/docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability)
+**Key constraints:**
+
+- [BRS4(KC1) — Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability)
+- [BRS4(KC2) — Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation)
+
+</details>
+
+<details>
+<summary><strong>BRS4(FM2) — Mitochondrial Resilience & Redox Stability</strong></summary>
 
 Functional control of mitochondrial membrane integrity, oxidative stability, and resistance to redox-mediated mitochondrial damage.
 
-**Mechanisms:**
+**FM page:** [BRS4(FM2) — Mitochondrial Resilience & Redox Stability](/docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability)
+
+**Primary biological effects:** ↑ mitochondrial resilience; ↓ oxidative burden
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Primary mechanisms (PMs):**
 
 - [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control)
 - [BRS4-FM2-PM5 — Mitochondrial Protection (Redox Integrity)](/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity)
 
-### [BRS4(FM3) — Substrate Utilisation Flexibility](/docs/biological-targets/brs4/fm3/brs4-fm3-substrate-utilisation-flexibility)
+**Key constraints:**
+
+- [BRS4(KC2) — Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS3-FM2-PM6 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance)
+
+</details>
+
+<details>
+<summary><strong>BRS4(FM3) — Substrate Utilisation Flexibility</strong></summary>
 
 Functional control of mitochondrial capacity to transition between glucose, fatty acids, ketones, and mixed substrates efficiently under changing metabolic demand.
 
-**Mechanisms:**
+**FM page:** [BRS4(FM3) — Substrate Utilisation Flexibility](/docs/biological-targets/brs4/fm3/brs4-fm3-substrate-utilisation-flexibility)
+
+**Primary biological effects:** ↑ fatty-acid oxidation flexibility; ↑ ketone utilisation capacity; ↑ metabolic fuel switching; ↑ metabolic adaptability
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Primary mechanisms (PMs):**
 
 - [BRS4-FM3-PM6 — Carnitine-Mediated Fat Transport](/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport)
 - [BRS4-FM3-PM7 — Ketone Utilisation Capacity](/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity)
 - [BRS4-FM3-PM8 — Metabolic Fuel Switching](/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching)
 
-### [BRS4(FM4) — Mitochondrial Capacity Expansion & Adaptation](/docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation)
+**Key constraints:**
+
+- [BRS4(KC1) — Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability)
+- [BRS4(KC2) — Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation)
+
+</details>
+
+<details>
+<summary><strong>BRS4(FM4) — Mitochondrial Capacity Expansion & Adaptation</strong></summary>
 
 Integrated regulation of exercise-driven mitochondrial biogenesis and adaptive density expansion, with diet providing permissive substrate and cofactor support, influencing long-term energetic capacity and metabolic resilience.
 
-**Mechanisms:**
+**FM page:** [BRS4(FM4) — Mitochondrial Capacity Expansion & Adaptation](/docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation)
+
+**Primary biological effects:** ↑ mitochondrial density; ↑ long-term energy capacity; ↑ adaptive energetic reserve
+
+**Modulation context:** Intervention: Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Weekly
+
+**Primary mechanisms (PMs):**
 
 - [BRS4-FM4-PM9 — Mitochondrial Biogenesis](/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis)
+
+**Key constraints:**
+
+- [BRS4(KC1) — Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability)
+- [BRS4(KC2) — Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics)
+- [BRS4-FM3-PM8 - Metabolic Fuel Switching](/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching)
+
+</details>
 
 ---
 

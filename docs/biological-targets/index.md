@@ -15,13 +15,65 @@ sidebar_position: 5
 
 The BRAIN Framework was developed from research into ADHD, depression, anxiety, cognitive decline, and other brain-related disorders. Across these conditions, studies have repeatedly identified associations within six broad biological domains: neurotransmitter regulation, methylation, inflammation and oxidative stress, bioenergetics, gut–brain signalling, and metabolic regulation.
 
-<p class="brs-overview-image-wrap">
-  <img
-    src="/img/biological-targets/all-brs-overview.png"
-    alt="The six Biological Regulatory Systems: neurotransmitter regulation, methylation and one-carbon metabolism, inflammation balance, mitochondrial energy, gut–brain axis, and metabolic and neuroendocrine stress"
-    class="brs-overview-image"
-  />
-</p>
+<div class="brs-overview-thumbnails">
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/neurotransmitter-regulation">
+    <p class="brs-pm-thumbnail-wrap">
+      <img
+        src="/img/biological-targets/brs1-portrait-thumbnail.png"
+        alt="BRS1 — Neurotransmitter Regulation"
+        class="brs-pm-thumbnail"
+      />
+    </p>
+  </a>
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/methylation-one-carbon-metabolism">
+    <p class="brs-pm-thumbnail-wrap">
+      <img
+        src="/img/biological-targets/brs2-portrait-thumbnail.png"
+        alt="BRS2 — Methylation & One-Carbon Metabolism"
+        class="brs-pm-thumbnail"
+      />
+    </p>
+  </a>
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/inflammation-oxidative-stress">
+    <p class="brs-pm-thumbnail-wrap">
+      <img
+        src="/img/biological-targets/brs3-portrait-thumbnail.png"
+        alt="BRS3 — Inflammation & Oxidative Stress"
+        class="brs-pm-thumbnail"
+      />
+    </p>
+  </a>
+</div>
+
+<div class="brs-overview-thumbnails">
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/mitochondrial-function-bioenergetics">
+    <p class="brs-pm-thumbnail-wrap">
+      <img
+        src="/img/biological-targets/brs4-portrait-thumbnail.png"
+        alt="BRS4 — Mitochondrial Function & Bioenergetics"
+        class="brs-pm-thumbnail"
+      />
+    </p>
+  </a>
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/gut-brain-axis-enteric-nervous-system">
+    <p class="brs-pm-thumbnail-wrap">
+      <img
+        src="/img/biological-targets/brs5-portrait-thumbnail.png"
+        alt="BRS5 — Gut–Brain Axis & Enteric Nervous System"
+        class="brs-pm-thumbnail"
+      />
+    </p>
+  </a>
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/metabolic-neuroendocrine-stress">
+    <p class="brs-pm-thumbnail-wrap">
+      <img
+        src="/img/biological-targets/brs6-portrait-thumbnail.png"
+        alt="BRS6 — Metabolic & Neuroendocrine Stress"
+        class="brs-pm-thumbnail"
+      />
+    </p>
+  </a>
+</div>
 
 These recurring themes are organised into six Biological Regulatory Systems (BRS), which form the foundation of the BRAIN Diet. The framework proposes that these systems do not operate in isolation but interact as part of a wider regulatory architecture. Their combined state may therefore be more informative than viewing individual nutrients, pathways, or mechanisms alone.
 
@@ -53,8 +105,8 @@ Whole-body regulation: stress allocation, autonomic tone, hormonal coordination,
 
 <hr class="brs-overview-brs-divider" />
 
-<div class="brs-overview-x-thumbnails">
-  <a class="brs-overview-x-thumbnail-link" href="/docs/biological-targets/brs-x/ecs/brs-x-ecs">
+<div class="brs-overview-thumbnails">
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/brs-x/ecs/brs-x-ecs">
     <p class="brs-pm-thumbnail-wrap">
       <img
         src="/img/biological-targets/brs-x-ecs-portrait-thumbnail.jpg"
@@ -63,7 +115,7 @@ Whole-body regulation: stress allocation, autonomic tone, hormonal coordination,
       />
     </p>
   </a>
-  <a class="brs-overview-x-thumbnail-link" href="/docs/biological-targets/brs-x/hormones/brs-x-hormones">
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/brs-x/hormones/brs-x-hormones">
     <p class="brs-pm-thumbnail-wrap">
       <img
         src="/img/biological-targets/brs-x-hormones-portrait-thumbnail.jpg"
@@ -92,9 +144,9 @@ Some biological systems operate across multiple BRSs simultaneously and cannot b
 <details>
 <summary><strong>How the BRAIN Framework Models Biology</strong></summary>
 
-The BRAIN Framework draws conceptually on Metabolic Control Analysis [[1]](/docs/papers/BRAIN-Diet-References#kacser_control_1973), constraint-based biology [[2]](/docs/papers/BRAIN-Diet-References#orth_what_2010), and allostatic physiology [[3]](/docs/papers/BRAIN-Diet-References#sterling_allostasis_1988)[[4]](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006). MCA supports the idea that biological control is distributed across networks rather than governed by single rate-limiting steps [[1]](/docs/papers/BRAIN-Diet-References#kacser_control_1973). Constraint-based models show that biological systems operate within feasible state spaces shaped by substrate, energetic, enzymatic, and resource-allocation limits [[2]](/docs/papers/BRAIN-Diet-References#orth_what_2010). Allostasis and allostatic load describe regulatory capacity dynamically allocated under adaptive, behavioural, and environmental pressures, with cumulative cost when stress-mediator systems are chronically overactive or poorly regulated [[3]](/docs/papers/BRAIN-Diet-References#sterling_allostasis_1988)[[4]](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006). Together, these ideas support the framework’s hierarchy of KCs as shared feasibility conditions, PMs as operational biological mechanisms, FMs as integrated biological states, and SMs as context-dependent expressions of those states [[1]](/docs/papers/BRAIN-Diet-References#kacser_control_1973)[[2]](/docs/papers/BRAIN-Diet-References#orth_what_2010)[[3]](/docs/papers/BRAIN-Diet-References#sterling_allostasis_1988)[[4]](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006).
+The BRAIN Framework draws conceptually on Metabolic Control Analysis [Kacser and Burns, 1973], constraint-based biology [Orth et al., 2010], and allostatic physiology [Sterling and Eyer, 1988][McEwen, 2006]. MCA supports the idea that biological control is distributed across networks rather than governed by single rate-limiting steps [Kacser and Burns, 1973]. Constraint-based models show that biological systems operate within feasible state spaces shaped by substrate, energetic, enzymatic, and resource-allocation limits [Orth et al., 2010]. Allostasis and allostatic load describe regulatory capacity dynamically allocated under adaptive, behavioural, and environmental pressures, with cumulative cost when stress-mediator systems are chronically overactive or poorly regulated [Sterling and Eyer, 1988][McEwen, 2006]. Together, these ideas support the framework’s hierarchy of KCs as shared feasibility conditions, PMs as operational biological mechanisms, FMs as integrated biological states, and SMs as context-dependent expressions of those states [Kacser and Burns, 1973][Orth et al., 2010][Sterling and Eyer, 1988][McEwen, 2006].
 
-Biological effects rarely arise from a single nutrient, pathway, or control point in isolation; they emerge through the integration of multiple systems operating under shared physiological demands [[1]](/docs/papers/BRAIN-Diet-References#kacser_control_1973)[[2]](/docs/papers/BRAIN-Diet-References#orth_what_2010)[[3]](/docs/papers/BRAIN-Diet-References#sterling_allostasis_1988)[[4]](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006).
+Biological effects rarely arise from a single nutrient, pathway, or control point in isolation; they emerge through the integration of multiple systems operating under shared physiological demands [Kacser and Burns, 1973][Orth et al., 2010][Sterling and Eyer, 1988][McEwen, 2006].
 
 Viewed this way, the framework is not intended to divide biology into separate boxes. It is a structured way of understanding how shared constraints, distributed regulation, integrated biological states, and context-specific expression interact across the six systems that contribute to our brain and overall health.
 
@@ -102,8 +154,7 @@ Viewed this way, the framework is not intended to divide biology into separate b
 
 ## References
 
-1. [Kacser and Burns (1973)](/docs/papers/BRAIN-Diet-References#kacser_control_1973)
-2. [Orth et al. (2010)](/docs/papers/BRAIN-Diet-References#orth_what_2010)
-3. [Sterling and Eyer (1988)](/docs/papers/BRAIN-Diet-References#sterling_allostasis_1988)
-4. [McEwen (2006)](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006)
-
+- [Kacser and Burns (1973) — Control of Flux](/docs/papers/BRAIN-Diet-References#kacser_control_1973)
+- [Orth et al. (2010) — What Is Flux Balance Analysis?](/docs/papers/BRAIN-Diet-References#orth_what_2010)
+- [Sterling and Eyer (1988) — A New Paradigm to Explain Arousal Pathology](/docs/papers/BRAIN-Diet-References#sterling_allostasis_1988)
+- [McEwen (2006) — Protective and Damaging Effects of Stress Mediators in Health and Disease](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006)

@@ -37,18 +37,28 @@
   margin: var(--ifm-heading-margin-top) 0 var(--ifm-heading-margin-bottom) 0;
 }
 
-.brs-overview-intro .brs-overview-image-wrap {
-  text-align: center;
-  margin: 1.25rem 0;
+.brs-overview-thumbnails,
+.brs-overview-x-thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0 0 1rem 0;
 }
 
-.brs-overview-image {
-  display: inline-block;
-  width: 80%;
-  max-width: 80%;
-  height: auto;
-  margin: 0 auto;
-  border-radius: 6px;
+.brs-overview-thumbnail-link,
+.brs-overview-x-thumbnail-link {
+  line-height: 0;
+  text-decoration: none;
+}
+
+.brs-overview-thumbnail-link:hover .brs-pm-thumbnail,
+.brs-overview-x-thumbnail-link:hover .brs-pm-thumbnail {
+  opacity: 0.92;
+}
+
+.brs-overview-thumbnails .brs-pm-thumbnail-wrap,
+.brs-overview-x-thumbnails .brs-pm-thumbnail-wrap {
+  margin: 0;
 }
 
 .phenome-register-hero {
@@ -64,26 +74,6 @@
   margin: 1.5rem 0;
   border: 0;
   border-top: 1px solid var(--ifm-toc-border-color);
-}
-
-.brs-overview-x-thumbnails {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin: 0 0 1rem 0;
-}
-
-.brs-overview-x-thumbnail-link {
-  line-height: 0;
-  text-decoration: none;
-}
-
-.brs-overview-x-thumbnail-link:hover .brs-pm-thumbnail {
-  opacity: 0.92;
-}
-
-.brs-overview-x-thumbnails .brs-pm-thumbnail-wrap {
-  margin: 0;
 }
 
 /* Portrait thumbnail on BRS pages — black mat with ≥3px inset crop into the image */

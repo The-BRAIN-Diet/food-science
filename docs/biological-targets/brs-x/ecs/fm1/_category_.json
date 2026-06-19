@@ -1,6 +1,10 @@
 {
   "label": "BRS-X(ECS-FM1) - Endocannabinoidome Signalling Capacity & Neuromodulatory Regulation",
   "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "biological-targets/brs-x/ecs/fm1/brs-x-ecs-fm1-endocannabinoidome-signalling-capacity-and-neuromodulatory-regulation"
+  },
   "collapsed": true,
   "collapsible": true
 }
