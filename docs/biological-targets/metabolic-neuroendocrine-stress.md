@@ -2,7 +2,9 @@
 id: metabolic-neuroendocrine-stress
 title: BRS6 - Metabolic & Neuroendocrine Stress
 sidebar_label: BRS6 - Metabolic & Neuroendocrine Stress
-description: Whole-body regulation layer for stress allocation, autonomic tone, hormonal coordination, and energy prioritisation.
+description: >-
+  Whole-body regulation layer for stress allocation, autonomic tone, hormonal
+  coordination, and energy prioritisation.
 tags:
   - Biological Target
   - Metabolic & Neuroendocrine Stress
@@ -50,63 +52,121 @@ ADHD often co-occurs with obesity, insulin resistance, and dysglycaemia; shared 
 
 Glycaemic stabilization, SCFA production, polyphenol intake, and anxiolytic probiotic interventions may exert downstream effects on emotional regulation through modulation of HPA axis activity, limbic signalling, and neurotransmitter systems.
 
-## References
-
-- The neuroendocrine and autonomic systems, together with the Enteric Nervous System (ENS), form a tightly interwoven network regulating stress responses, metabolism, and gut-brain communication [Mohamed and Kobeissy 2024](/docs/papers/BRAIN-Diet-References#mohamed_nutrition_2024)
-- The sympatho-adreno-medullary (SAM) axis represents the most immediate arm, releasing adrenaline and noradrenaline within seconds of a stressor [Wadsworth et al. 2019](/docs/papers/BRAIN-Diet-References#wadsworth_coactivation_2019)
-- Children with sensory over-responsivity show prolonged sympathetic arousal and sustained cortisol elevations [Lane 2010](/docs/papers/BRAIN-Diet-References#lane_sensory_2010)
-- While ~20% of the general population report clinically relevant fatigue, the rate in ADHD is ~62% [Rogers et al. 2017](/docs/papers/BRAIN-Diet-References#rogers_fatigue_2017)
-- Cortisol profiles in ADHD are frequently abnormal, with meta-analytic evidence indicating altered basal, morning, and cumulative cortisol patterns in youths with ADHD [Chang et al. 2021](/docs/papers/BRAIN-Diet-References#chang_cortisol_2021)
-- Genetic variation in HPA-axis regulators, including NR3C1 polymorphisms, further supports a heritable component to stress dysregulation [Fortier et al. 2013](/docs/papers/BRAIN-Diet-References#fortier_genetic_2013)
-- Genetic variation in HPA-axis regulators, including NR3C1 polymorphisms, further supports a heritable component to stress dysregulation [Carpena et al. 2022](/docs/papers/BRAIN-Diet-References#carpena_stress-related_2022)
-- Omega-3s (EPA/DHA) improve vagal tone and HRV control, improving cortisol rhythms and inflammation [Kiecolt-Glaser et al. 2011](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
-- Individuals targeting dopamine via fatty and sugary foods is common in ADHD populations, which is probably correlated with the double dopamine reward experienced when eating [Thanarajah et al. 2019](/docs/papers/BRAIN-Diet-References#thanarajah_food_2019)
-- Ultra-processed foods hijack the double dopamine system and lead to dysregulation and addictive behaviours [LaFata et al. 2024](/docs/papers/BRAIN-Diet-References#lafata_ultra-processed_2024)
-
 </details>
-
----
 
 ## Functional Mechanisms
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
-### [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability)
+<details>
+<summary><strong>BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability</strong></summary>
 
 Integrated regulation of glucose appearance, glycaemic stability, and insulin-supported glucose disposal across the post-prandial period, influencing metabolic continuity, reactive neuroendocrine demand, and cognitive energy availability.
 
-**Mechanisms:**
+**FM page:** [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability)
+
+**Primary biological effects:** ↑ post-prandial metabolic stability; ↓ glycaemic volatility; ↓ reactive catecholamine demand; ↑ continuity of cognitive energy availability
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Meal–Daily
+
+**Primary mechanisms (PMs):**
 
 - [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics)
 - [BRS6-FM1-PM2 — Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation)
 - [BRS6-FM1-PM3 — Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal)
 
-### [BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation)
+**Key constraints:**
+
+- [BRS6(KC1) — Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
+
+**Connected mechanisms:**
+
+- BRS4(FM1) — Cellular Bioenergetics
+
+</details>
+
+<details>
+<summary><strong>BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation</strong></summary>
 
 Integrated regulation of cortisol rhythm and light–feeding entrainment across waking, feeding, and recovery cycles, influencing stress-hormone amplitude, phase alignment, and diurnal neuroendocrine stability.
 
-**Mechanisms:**
+**FM page:** [BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation)
+
+**Primary biological effects:** ↑ cortisol rhythm stability; ↑ morning activation; ↓ evening stress-hormone drift; ↑ circadian phase alignment
+
+**Modulation context:** Intervention: Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Primary mechanisms (PMs):**
 
 - [BRS6-FM2-PM4 — Cortisol Rhythm Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation)
 - [BRS6-FM2-PM5 — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment)
 
-### [BRS6(FM3) — Autonomic Balance & Vagal Recovery Capacity](/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity)
+**Key constraints:**
+
+- [BRS6(KC1) — Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
+- [BRS6(KC2) — Stress-Response Micronutrient & Lipid Sufficiency](/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency)
+
+**Connected mechanisms:**
+
+- BRS1-FM1-PM1 — Dopaminergic Signalling
+- BRS4(FM1) — Cellular Bioenergetics
+
+</details>
+
+<details>
+<summary><strong>BRS6(FM3) — Autonomic Balance & Vagal Recovery Capacity</strong></summary>
 
 Integrated regulation of sympathetic–parasympathetic balance and vagal recovery capacity after stress or cognitive demand, influencing autonomic flexibility, HRV context, and physiological downshifting.
 
-**Mechanisms:**
+**FM page:** [BRS6(FM3) — Autonomic Balance & Vagal Recovery Capacity](/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity)
+
+**Primary biological effects:** ↑ vagal recovery; ↑ HRV context; ↓ chronic sympathetic load; ↑ autonomic flexibility after demand
+
+**Modulation context:** Intervention: Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Primary mechanisms (PMs):**
 
 - [BRS6-FM3-PM6 — Sympathetic Activation & Parasympathetic Recovery](/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery)
 - [BRS6-FM3-PM7 — Vagal Tone / HRV Regulation](/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation)
 
-### [BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation)
+**Key constraints:**
+
+- [BRS6(KC2) — Stress-Response Micronutrient & Lipid Sufficiency](/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency)
+
+**Connected mechanisms:**
+
+- BRS5(FM3) — Gut–Vagal Neuromodulation & ENS Signalling
+- BRS3(FM1) — Inflammatory Tone Regulation
+
+</details>
+
+<details>
+<summary><strong>BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation</strong></summary>
 
 Integrated regulation of metabolic-inflammatory load and stress-linked appetite–reward signalling, influencing whole-body resource allocation and brain-relevant energy/stress state.
 
-**Mechanisms:**
+**FM page:** [BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation)
+
+**Primary biological effects:** ↓ metabolic stress load; ↓ stress-driven appetite volatility; ↑ stable energy allocation; ↓ chronic inflammatory pressure on neuroendocrine allocation
+
+**Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Daily–Weekly
+
+**Primary mechanisms (PMs):**
 
 - [BRS6-FM4-PM8 — Metabolic Inflammation & Adipose Stress Signalling](/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling)
 - [BRS6-FM4-PM9 — Stress-Induced Appetite / Reward Drive Modulation](/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation)
+
+**Key constraints:**
+
+- [BRS6(KC1) — Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
+
+**Connected mechanisms:**
+
+- BRS3(FM1) — Inflammatory Tone Regulation
+- BRS4(FM1) — Cellular Bioenergetics
+- BRS1(FM1) — Monoaminergic Function
+
+</details>
 
 ---
 
@@ -164,4 +224,4 @@ These factors modulate system behaviour but are not part of the core BRS structu
 
 ## References
 
-1. [Mohamed and Kobeissy (2024)](/docs/papers/BRAIN-Diet-References#mohamed_nutrition_2024)
+- [Mohamed and Kobeissy (2024) — An Evidence-Based Approach to Understanding the Diet-Brain Connection](/docs/papers/BRAIN-Diet-References#mohamed_nutrition_2024)

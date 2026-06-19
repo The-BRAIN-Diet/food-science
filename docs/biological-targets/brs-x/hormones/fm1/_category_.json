@@ -1,6 +1,10 @@
 {
   "label": "BRS-X(Hormones-FM1) - Reproductive Hormone Balance & Neurocognitive Regulation",
   "position": 1,
+  "link": {
+    "type": "doc",
+    "id": "biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation"
+  },
   "collapsed": true,
   "collapsible": true
 }

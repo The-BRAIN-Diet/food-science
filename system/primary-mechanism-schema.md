@@ -115,7 +115,7 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 
 ### Profile A — Extended narrative PM (e.g. BRS1 PMs, BRS6 PM1–PM4)
 
-1. Definition — `## 1. Definition`
+1. Definition — `## 1. Definition` — **opening paragraph (1–3 sentences) + exactly 3 bullets** (cross-system / downstream significance). See `system/mechanism-page-section-prose.md` (**§1 Definition — UX structure**). Front matter `summary` aligns with the opening paragraph. Enzymology and pathway detail belong in §5 Mechanistic Basis, not §1.
 2. Primary Biological Effects — `## 2. Primary Biological Effects` (directional arrow summary)
 3. Phenome Connections — `## 3. Phenome Connections` — translational mappings from `phenome_relationships`; canonical disclaimer required; empty state when unmapped
 4. Levers — `## 4. Levers` — **sole public section for dietary and lifestyle implementation** (see **PM §4 — Levers** below)
@@ -205,14 +205,14 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 ```
 [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
 ↓
-[BRS2-FM3-PM7 — Phospholipid Methylation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation)
+[BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)
 ↓
 [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation)
 ```
 
 ### Profile B — Compact PM (e.g. BRS6 PM2–PM8, BRS6 PM5)
 
-1. Definition — `## 1. Definition`
+1. Definition — `## 1. Definition` — **opening paragraph + exactly 3 bullets** (`system/mechanism-page-section-prose.md` **§1 Definition — UX structure**)
 2. Mechanistic Basis — `## 2. Mechanistic Basis` (canonical four-part narrative)
 2.1. Evidence Highlights — `### 2.1 Evidence Highlights` (optional — same rules as §5.1; subsection at end of `## 2.`)
 3. Underlying Mechanisms and Requirements — `## 3. Underlying Mechanisms and Requirements` with `### 3.1` Cofactors and Supporting Inputs, `### 3.2` KCs, `### 3.3` Optional BRSX Modifiers, `### 3.4` Connected Mechanisms
@@ -276,7 +276,7 @@ Profile B compact PMs keep cofactors under `## 3. Underlying Mechanisms and Requ
 
 **UX:** `#### Introduction/Summary` (visible) → one `<details>` with finding-focused bullets or short `####` blocks. Reference: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation), [BRS1-FM1-PM2](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation).
 
-**Non-repetition:** §1 = *what*; §2 = *directional outcome*; §3 = *translational phenome context*; §4 = *implementation*; §5 = *how*; §5.1 = *how we know*. Do not restate the same meal-composition or pathway claim across all six (see `system/mechanism-page-section-prose.md` — **PM section roles**).
+**Non-repetition:** §1 = *significance paragraph + 3 cross-system bullets*; §2 = *directional outcome*; §3 = *translational phenome context*; §4 = *implementation*; §5 = *detailed how*; §5.1 = *how we know*. Do not restate the same meal-composition or pathway claim across all six (see `system/mechanism-page-section-prose.md` — **PM section roles**).
 
 **Writing style:** Short bullets or tight paragraphs. Lead with **why the finding is interesting**, not methods or results laundry lists. Inline: `[Author et al., Year]`; References entry with descriptive topic per **`system/brs-citation-reference-standard.md`**.
 

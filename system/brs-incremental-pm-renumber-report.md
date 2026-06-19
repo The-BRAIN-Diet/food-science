@@ -16,7 +16,7 @@ Generated: 2026-06-08T21:06:42.322Z
 | BRS1-FM4-PM4 | BRS1-FM4-PM10 | Excitotoxicity Modulation |
 | BRS2-FM2-PM1 | BRS2-FM2-PM5 | Transsulfuration Pathway |
 | BRS2-FM2-PM2 | BRS2-FM2-PM6 | Glutathione Synthesis |
-| BRS2-FM3-PM1 | BRS2-FM3-PM7 | Phospholipid Methylation |
+| BRS2-FM3-PM1 | BRS2-FM3-PM7 | Phosphatidylcholine Formation |
 | BRS3-FM2-PM1 | BRS3-FM2-PM3 | Nrf2-ARE Antioxidant Activation |
 | BRS3-FM2-PM2 | BRS3-FM2-PM4 | ROS Generation vs Clearance Balance |
 | BRS3-FM2-PM3 | BRS3-FM2-PM5 | Lipid Peroxidation Control |

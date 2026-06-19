@@ -73,7 +73,7 @@ than PMs.
 
 Render sections in this exact order (Section Rules are authoritative):
 
-1. Definition
+1. Definition — **opening paragraph (1–3 sentences) + exactly 3 bullets** — shared pool significance and cross-system constraints. See `system/mechanism-page-section-prose.md` (**§1 Definition — UX structure**).
 2. Constraint Role
 3. Shared Biological Pool
 4. Biological Importance

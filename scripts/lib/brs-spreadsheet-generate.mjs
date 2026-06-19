@@ -79,16 +79,20 @@ function parseKeyStudies(text) {
     });
 }
 
+function parseAuthorYear(label) {
+  const m = String(label).match(/^(.+?)\s*\((\d{4})\)$/);
+  return { authorLabel: m?.[1]?.trim() || String(label).trim(), year: m?.[2] || "" };
+}
+
 function buildReferences(studies) {
   const refs = [];
   const numbered = [];
-  let i = 1;
   for (const s of studies) {
-    if (s.key) {
-      refs.push(`[${i}] [${s.label}](/docs/papers/BRAIN-Diet-References#${s.key})`);
-      numbered.push({ index: i, label: s.label, key: s.key });
-      i += 1;
-    }
+    if (!s.key) continue;
+    const { authorLabel, year } = parseAuthorYear(s.label);
+    const topic = topicFromBibKey(s.key);
+    refs.push(toFrontMatterReference(authorLabel, year, topic, s.key));
+    numbered.push({ label: s.label, key: s.key, topic });
   }
   return { refs, numbered };
 }
@@ -125,9 +129,10 @@ function parseEntityRefs(text) {
 }
 
 import {
-  collectSubstanceFoodMap,
-  formatSubstanceFoodBullets,
-} from "./substance-food-mapping.mjs";
+  toFrontMatterReference,
+  toReferenceMarkdown,
+  topicFromBibKey,
+} from "./brs-citation-migration.mjs";
 
 function interventionsToPoolBullets(interventions) {
   const substances = interventions
@@ -207,7 +212,11 @@ function mechanisticBasisFm(fm, pms, kcs, brsNum, slugById) {
       return `- [${p.id} — ${p.name}](${href})\n  Contributes to ${fm.name || fm.id}.`;
     })
     .join("\n\n");
-  const synthesis = `${fm.description}\n\nTogether, these PMs operationalise ${fm.id} as an integrated functional state.${fm.outputs ? ` Emergent functional consequence: ${fm.outputs.replace(/;/g, "; ")}.` : ""}`;
+  const synthesisLead =
+    pms.length === 1
+      ? `[${pms[0].id} — ${pms[0].name}](/docs/biological-targets/brs${brsNum}/pm/${slugById.get(pms[0].id)}) operationalises ${fm.id} as an integrated functional state.`
+      : `Together, these PMs operationalise ${fm.id} as an integrated functional state.`;
+  const synthesis = `${fm.description}\n\n${synthesisLead}${fm.outputs ? ` Emergent functional consequence: ${fm.outputs.replace(/;/g, "; ")}.` : ""}`;
   return `${fm.description || `${fm.name} emerges from coordinated PM context.`}
 
 ### 4.1 Core Primary Mechanisms
@@ -335,7 +344,10 @@ ${linkedFms.length ? "1. See linked FM pages for cited evidence." : ""}
     const studies = parseKeyStudies(pm.key_studies);
     const refLines = studies
       .filter((s) => s.key)
-      .map((s, i) => `${i + 1}. [${s.label}](/docs/papers/BRAIN-Diet-References#${s.key})`);
+      .map((s) => {
+        const { authorLabel, year } = parseAuthorYear(s.label);
+        return toReferenceMarkdown(authorLabel, year, topicFromBibKey(s.key), s.key);
+      });
     const refBlock = refLines.length
       ? refLines.join("\n")
       : "1. Citation mapping pending — add bibliography keys for source studies.";
@@ -437,7 +449,10 @@ ${refBlock}
       intervention_breakdown: DOMINANCE_TO_BREAKDOWN[dominance] || "Food-State Dominant",
       timing_specific: timingFromCoverage(pm.coverage_timing),
       dose_sensitivity: pm.dose || undefined,
-      references: studies.filter((s) => s.key).map((s, i) => `[${i + 1}] [${s.label}](/docs/papers/BRAIN-Diet-References#${s.key})`),
+      references: studies.filter((s) => s.key).map((s) => {
+        const { authorLabel, year } = parseAuthorYear(s.label);
+        return toFrontMatterReference(authorLabel, year, topicFromBibKey(s.key), s.key);
+      }),
       hide_title: true,
     }, body);
   }
@@ -457,7 +472,10 @@ ${refBlock}
 
     const refSection = studies
       .filter((s) => s.key)
-      .map((s, i) => `${i + 1}. [${s.label}](/docs/papers/BRAIN-Diet-References#${s.key})`)
+      .map((s) => {
+        const { authorLabel, year } = parseAuthorYear(s.label);
+        return toReferenceMarkdown(authorLabel, year, topicFromBibKey(s.key), s.key);
+      })
       .join("\n");
 
     const body = `## ${fm.id} - ${fm.name}
@@ -509,7 +527,10 @@ ${refSection || "1. See PM pages for linked citations."}
       intervention_breakdown: DOMINANCE_TO_BREAKDOWN[dominance] || "Food-State Dominant",
       timing_specific: timingFromCoverage(fm.coverage_timing),
       coverage_timing: fm.coverage_timing || undefined,
-      references: studies.filter((s) => s.key).map((s, i) => `[${i + 1}] [${s.label}](/docs/papers/BRAIN-Diet-References#${s.key})`),
+      references: studies.filter((s) => s.key).map((s) => {
+        const { authorLabel, year } = parseAuthorYear(s.label);
+        return toFrontMatterReference(authorLabel, year, topicFromBibKey(s.key), s.key);
+      }),
       hide_title: true,
     }, body);
   }

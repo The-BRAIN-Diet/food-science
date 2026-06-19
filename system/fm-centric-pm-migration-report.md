@@ -27,7 +27,7 @@ Generated: 2026-06-08T19:48:19.603Z
 | BRS2(PM4) | BRS2-FM1-PM4 | Methionine Cycle Flux |
 | BRS2(PM5) | BRS2-FM2-PM5 | Transsulfuration Pathway |
 | BRS2(PM6) | BRS2-FM2-PM6 | Glutathione Synthesis |
-| BRS2(PM7) | BRS2-FM3-PM7 | Phospholipid Methylation |
+| BRS2(PM7) | BRS2-FM3-PM7 | Phosphatidylcholine Formation |
 | BRS3(PM1) | BRS3-FM1-PM1 | NF-kB Signalling Regulation |
 | BRS3(PM7) | BRS3-FM1-PM2 | Gut-Derived Inflammatory Signalling |
 | BRS3(PM2) | BRS3-FM2-PM5 | Nrf2-ARE Antioxidant Activation |
@@ -80,7 +80,7 @@ Generated: 2026-06-08T19:48:19.603Z
 | /docs/biological-targets/brs2/pm/brs2-pm4-methionine-cycle-flux | /docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux |
 | /docs/biological-targets/brs2/pm/brs2-pm5-transsulfuration-pathway | /docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway |
 | /docs/biological-targets/brs2/pm/brs2-pm6-glutathione-synthesis | /docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis |
-| /docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation | /docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phospholipid-methylation |
+| /docs/biological-targets/brs2/pm/brs2-pm7-phospholipid-methylation | /docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation |
 | /docs/biological-targets/brs3/pm/brs3-pm1-nf-kb-signalling-regulation | /docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation |
 | /docs/biological-targets/brs3/pm/brs3-pm7-gut-derived-inflammatory-signalling | /docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling |
 | /docs/biological-targets/brs3/pm/brs3-pm2-nrf2-are-antioxidant-activation | /docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation |

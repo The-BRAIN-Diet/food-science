@@ -80,34 +80,90 @@ Lower *Bifidobacterium longum* abundance in infancy has been associated with inc
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
-### [BRS5(FM1) — Gut Barrier Integrity & Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface)
+<details>
+<summary><strong>BRS5(FM1) — Gut Barrier Integrity & Immune Interface</strong></summary>
 
 Diet-actionable control point regulating epithelial tight-junction integrity, mucus protection, and immune containment at the gut-brain interface.
 
-**Mechanisms:**
+**FM page:** [BRS5(FM1) — Gut Barrier Integrity & Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface)
+
+**Primary biological effects:** ↑ tight-junction integrity; ↓ LPS translocation; ↑ gut-immune containment
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Primary mechanisms (PMs):**
 
 - [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity)
 - [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment)
 - [BRS5-FM1-PM3 — Keystone Taxa Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support)
 
-### [BRS5(FM2) — Microbial Metabolite Signalling Capacity](/docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity)
+**Key constraints:**
+
+- [BRS5(KC1) — Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability)
+- [BRS5(KC3) — Barrier-Supportive Nutrient Sufficiency](/docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling)
+- [BRS6-FM1-PM3 - Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal)
+
+</details>
+
+<details>
+<summary><strong>BRS5(FM2) — Microbial Metabolite Signalling Capacity</strong></summary>
 
 Functional control point governing production of beneficial microbial metabolites that shape immune, endocrine, and neurobiological signalling.
 
-**Mechanisms:**
+**FM page:** [BRS5(FM2) — Microbial Metabolite Signalling Capacity](/docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity)
+
+**Primary biological effects:** ↑ SCFA signalling; ↑ polyphenol biotransformation; ↑ metabolite-mediated gut-brain communication
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Primary mechanisms (PMs):**
 
 - [BRS5-FM2-PM4 — Microbial Ecological Turnover & Competitive Selection](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection)
 - [BRS5-FM2-PM5 — SCFA Production & Signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling)
 - [BRS5-FM2-PM6 — Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation)
 
-### [BRS5(FM3) — Gut-Vagal Neuromodulation & ENS Signalling](/docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling)
+**Key constraints:**
+
+- [BRS5(KC1) — Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability)
+- [BRS5(KC2) — Polyphenol & Plant-Diversity Input Availability](/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability)
+
+**Connected mechanisms:**
+
+- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling)
+- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function)
+
+</details>
+
+<details>
+<summary><strong>BRS5(FM3) — Gut-Vagal Neuromodulation & ENS Signalling</strong></summary>
 
 Diet-actionable control point regulating vagal and enteric signalling through microbial activity, barrier state, and metabolite/neurochemical cues.
 
-**Mechanisms:**
+**FM page:** [BRS5(FM3) — Gut-Vagal Neuromodulation & ENS Signalling](/docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling)
+
+**Primary biological effects:** ↑ vagal signalling; ↑ ENS-brain communication; ↑ mood/attentional regulation support
+
+**Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Daily
+
+**Primary mechanisms (PMs):**
 
 - [BRS5-FM3-PM7 — Vagal / ENS Signalling Modulation](/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation)
 - [BRS5-FM3-PM8 — Neurotransmitter Precursor Biotransformation & Availability](/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability)
+
+**Key constraints:**
+
+- [BRS5(KC1) — Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability)
+
+**Connected mechanisms:**
+
+- [BRS1-FM3-PM6 - Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation)
+- [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation)
+
+</details>
 
 ---
 

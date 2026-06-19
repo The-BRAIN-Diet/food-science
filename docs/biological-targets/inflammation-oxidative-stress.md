@@ -141,34 +141,87 @@ ADHD has been linked with metals contamination, ultra-processed foods (including
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
-### [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone)
+<details>
+<summary><strong>BRS3(FM1) — Anti-Inflammatory Signalling Tone</strong></summary>
 
 Diet-actionable control point regulating inflammatory signalling intensity across cytokine, NF-kB, gut-derived, and lipid-mediator inputs.
 
-**Mechanisms:**
+**FM page:** [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone)
+
+**Primary biological effects:** ↓ NF-kB tone; ↓ pro-inflammatory cytokines; ↑ immune signalling balance
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Primary mechanisms (PMs):**
 
 - [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation)
 - [BRS3-FM1-PM2 — Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling)
 
-### [BRS3(FM2) — Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity)
+**Key constraints:**
+
+- [BRS3(KC1) — Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability)
+- [BRS3(KC3) — Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance)
+
+**Connected mechanisms:**
+
+- BRS5-FM1-PM1 - Gut Barrier / Tight Junction Integrity
+- BRS6-FM1-PM2 - Insulin Sensitivity & Glucose Disposal
+
+</details>
+
+<details>
+<summary><strong>BRS3(FM2) — Antioxidant Defense Capacity</strong></summary>
 
 Functional control point regulating endogenous and exogenous antioxidant protection against redox overload, oxidative damage, and lipid peroxidation control.
 
-**Mechanisms:**
+**FM page:** [BRS3(FM2) — Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity)
+
+**Primary biological effects:** ↑ antioxidant enzyme induction; ↑ ROS buffering; ↓ oxidative damage
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Primary mechanisms (PMs):**
 
 - [BRS3-FM2-PM5 — Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation)
 - [BRS3-FM2-PM6 — ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance)
 - [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control)
 - [BRS3-FM2-PM6 — Antioxidant Network Recycling](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling)
 
-### [BRS3(FM3) — Inflammation Resolution Capacity](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity)
+**Key constraints:**
+
+- [BRS3(KC1) — Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability)
+
+**Connected mechanisms:**
+
+- BRS4-FM2-PM4
+
+</details>
+
+<details>
+<summary><strong>BRS3(FM3) — Inflammation Resolution Capacity</strong></summary>
 
 Functional control point governing active termination of inflammation through pro-resolving lipid mediators rather than simple suppression.
 
-**Mechanisms:**
+**FM page:** [BRS3(FM3) — Inflammation Resolution Capacity](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity)
+
+**Primary biological effects:** ↑ resolvins/protectins/maresins; ↑ debris clearance; ↓ unresolved inflammation
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: 48hours
+
+**Primary mechanisms (PMs):**
 
 - [BRS3-FM3-PM7 — Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation)
 - [BRS3-FM3-PM8 — Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance)
+
+**Key constraints:**
+
+- [BRS3(KC3) — Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance)
+
+**Connected mechanisms:**
+
+- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) - supportive membrane-protection context
+
+</details>
 
 ---
 

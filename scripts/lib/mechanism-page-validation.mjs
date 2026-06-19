@@ -679,6 +679,29 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
     pushIssue(issues, "fm_missing_brs_links", `${entityLabel}: FM pages must include ## 5. Connected Mechanisms`);
   } else if (brs.level !== 5) {
     pushIssue(issues, "fm_brs_links_numbering", `${entityLabel}: Connected Mechanisms must be ## 5. Connected Mechanisms`);
+  } else {
+    const brsStart = content.indexOf(brs.line);
+    const refsSection = sections.find((s) => s.title.startsWith("References"));
+    const brsEnd =
+      refsSection && refsSection.level === 6
+        ? content.indexOf(refsSection.line, brsStart + 1)
+        : content.length;
+    const brsBlock = content.slice(brsStart, brsEnd);
+    const linkBullets = brsBlock.match(/^- \[[^\]]+\]\([^)]+\).*$/gm) || [];
+    for (const bullet of linkBullets) {
+      if (
+        /\/docs\/biological-targets\/(?:neurotransmitter-regulation|inflammation-oxidative-stress|mitochondrial-function-bioenergetics|gut-brain-axis-enteric-nervous-system|metabolic-neuroendocrine-stress)(?:\)|$)/.test(
+          bullet,
+        )
+      ) {
+        pushIssue(
+          issues,
+          "fm_connected_mechanism_hub_link",
+          `${entityLabel}: Connected Mechanisms must link specific PM/FM pages, not BRS hub pages`,
+        );
+        break;
+      }
+    }
   }
   const refs = sections.find((s) => s.title.startsWith("References"));
   if (refs && refs.level !== 6) {
@@ -714,6 +737,7 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
   for (const [sub, label] of [
     ["4.1 Core Primary Mechanisms", "§4.1 Core Primary Mechanisms"],
     ["4.2 Integrated Functional Narrative", "§4.2 Integrated Functional Narrative"],
+    ["4.3 Functional Failure Modes", "§4.3 Functional Failure Modes"],
   ]) {
     const subPattern = sub.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     if (mechanistic && !new RegExp(`^### ${subPattern}`, "m").test(mbBlock)) {
@@ -726,15 +750,19 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
   }
 
   const hasKcs = Array.isArray(data.key_constraints) && data.key_constraints.length > 0;
-  if (
-    hasKcs &&
-    mechanistic &&
-    !/^### 4\.3 Functional Failure Modes/m.test(mbBlock)
-  ) {
+  if (hasKcs && mechanistic && !/^### 4\.3 Functional Failure Modes/m.test(mbBlock)) {
     pushIssue(
       issues,
       "fm_missing_failure_modes",
       `${entityLabel}: §4 must include ### 4.3 Functional Failure Modes when key_constraints are linked`,
+    );
+  }
+
+  if (/^### 4\.4 Evidence Highlights/m.test(mbBlock) && !/^### 4\.3 Functional Failure Modes/m.test(mbBlock)) {
+    pushIssue(
+      issues,
+      "fm_missing_failure_modes",
+      `${entityLabel}: canonical §4 requires ### 4.3 Functional Failure Modes before ### 4.4 Evidence Highlights`,
     );
   }
 
@@ -743,6 +771,14 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
       issues,
       "fm_evidence_highlights_subsection",
       `${entityLabel}: move Evidence Highlights to ### 4.4 Evidence Highlights (§4.3 is Functional Failure Modes)`,
+    );
+  }
+
+  if (mechanistic && !/^### 4\.4 Evidence Highlights/m.test(mbBlock)) {
+    pushIssue(
+      issues,
+      "fm_missing_evidence_highlights",
+      `${entityLabel}: §4 must include ### 4.4 Evidence Highlights before phenome Phase 2 (run npm run mechanisms:migrate-fm-schema)`,
     );
   }
 }
@@ -1278,7 +1314,11 @@ function validateSmPage(filePath) {
   validateConnectedEntityList(data, "connected_fms", issues, { entityLabel });
   validateConnectedEntityList(data, "connected_kcs", issues, { entityLabel, allowEmpty: true });
 
-  validateUnderlyingCofactorsBeforeKcs(content, issues, { entityLabel, expectConnectedPmFm: true });
+  if (LEVERS_SECTION_HEADING.test(content)) {
+    validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs: data.parent_brs });
+  } else {
+    validateUnderlyingCofactorsBeforeKcs(content, issues, { entityLabel, expectConnectedPmFm: true });
+  }
 
   return { kind: "sm", filePath, entityId: data.sm_id, ok: issues.length === 0, issues };
 }

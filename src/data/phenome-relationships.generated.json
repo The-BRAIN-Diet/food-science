@@ -1,19 +1,19 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-06-15T21:38:58.724Z",
+    "generatedAt": "2026-06-18T13:37:45.787Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 1,
     "pmPageCount": 62,
-    "pmPagesWithMappings": 19,
-    "relationshipCount": 51,
-    "mappedRelationshipCount": 51
+    "pmPagesWithMappings": 21,
+    "relationshipCount": 57,
+    "mappedRelationshipCount": 57
   },
   "diagnostics": {
     "registryPhenomeCount": 15,
-    "relationshipEdgeCount": 51,
-    "mappedEdgeCount": 51,
+    "relationshipEdgeCount": 57,
+    "mappedEdgeCount": 57,
     "unmappedPhenomeLabels": [],
     "labelsInEdgesNotInRegistry": [],
     "edgesMissingTargetPhenome": 0,
@@ -179,6 +179,39 @@
           "label": "Ervin et al. (2019)",
           "citationKey": "ervin_estrobolome_beta_glucuronidase_2019",
           "href": "/docs/papers/BRAIN-Diet-References#ervin_estrobolome_beta_glucuronidase_2019"
+        }
+      ],
+      "targetPhenomeId": "PH011"
+    },
+    {
+      "sourceNode": "BRS1-FM3-PM6",
+      "sourceTitle": "Neuronal Membrane DHA Incorporation",
+      "sourcePath": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+      "parentFM": "BRS1(FM3)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Cognitive Clarity",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "DHA incorporation into neuronal phospholipids may support synaptic signalling competence and membrane architecture relevant to cognitive clarity without direct ADHD treatment-efficacy claims.",
+      "references": [
+        {
+          "index": 1,
+          "label": "McNamara & Carlson (2006)",
+          "citationKey": "mcnamara_role_2006",
+          "href": "/docs/papers/BRAIN-Diet-References#mcnamara_role_2006"
+        },
+        {
+          "index": 2,
+          "label": "Patrick (2019)",
+          "citationKey": "patrick_role_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#patrick_role_2019"
+        },
+        {
+          "index": 3,
+          "label": "Liu et al. (2014)",
+          "citationKey": "liu_higher_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#liu_higher_2014"
         }
       ],
       "targetPhenomeId": "PH011"
@@ -532,6 +565,39 @@
       "targetPhenomeId": "PH003"
     },
     {
+      "sourceNode": "BRS1-FM1-PM1",
+      "sourceTitle": "Amino-Acid Availability & Prioritisation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+      "parentFM": "BRS1(FM1)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Dietary tryptophan and broader indispensable amino-acid coverage may influence serotonergic precursor availability relevant to emotional regulation in ADHD; serotonin signalling and conversion belong on BRS1-FM1-PM4.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Oades (2010)",
+          "citationKey": "oades_role_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#oades_role_2010"
+        },
+        {
+          "index": 2,
+          "label": "Fernstrom (2013)",
+          "citationKey": "fernstrom_lnna_2013",
+          "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013"
+        },
+        {
+          "index": 3,
+          "label": "Briguglio et al. (2018)",
+          "citationKey": "briguglio_dietary_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018"
+        }
+      ],
+      "targetPhenomeId": "PH003"
+    },
+    {
       "sourceNode": "BRS1-FM1-PM4",
       "sourceTitle": "Serotonergic Signalling Regulation",
       "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
@@ -560,6 +626,27 @@
           "label": "Banerjee and Nandagopal (2015)",
           "citationKey": "banerjee_does_2015",
           "href": "/docs/papers/BRAIN-Diet-References#banerjee_does_2015"
+        }
+      ],
+      "targetPhenomeId": "PH003"
+    },
+    {
+      "sourceNode": "BRS1-FM3-PM6",
+      "sourceTitle": "Neuronal Membrane DHA Incorporation",
+      "sourcePath": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+      "parentFM": "BRS1(FM3)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Long-chain omega-3 membrane biology intersects neurodevelopmental and neuropsychiatric framing relevant to emotional regulation in ADHD; delivery and incorporation remain the mechanism boundary for this PM.",
+      "references": [
+        {
+          "index": 1,
+          "label": "McNamara & Carlson (2006)",
+          "citationKey": "mcnamara_role_2006",
+          "href": "/docs/papers/BRAIN-Diet-References#mcnamara_role_2006"
         }
       ],
       "targetPhenomeId": "PH003"
@@ -680,6 +767,72 @@
           "label": "de Jong et al. (2024)",
           "citationKey": "dejong_female_specific_adhd_treatment_2024",
           "href": "/docs/papers/BRAIN-Diet-References#dejong_female_specific_adhd_treatment_2024"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS1-FM1-PM1",
+      "sourceTitle": "Amino-Acid Availability & Prioritisation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+      "parentFM": "BRS1(FM1)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Meal-level amino-acid sufficiency and coverage of neurotransmitter-relevant substrates (including tyrosine and tryptophan) may support the precursor pool underlying catecholaminergic and serotonergic attention pathways relevant to ADHD; competitive LAT1 transport and downstream signalling are handled by sibling PMs (PM2–PM4), not substrate availability alone.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Fernstrom (2013)",
+          "citationKey": "fernstrom_lnna_2013",
+          "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013"
+        },
+        {
+          "index": 2,
+          "label": "Wang et al. (2019)",
+          "citationKey": "wang_dietary_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019"
+        },
+        {
+          "index": 3,
+          "label": "Aquili (2020)",
+          "citationKey": "aquili_role_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#aquili_role_2020"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS1-FM3-PM6",
+      "sourceTitle": "Neuronal Membrane DHA Incorporation",
+      "sourcePath": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+      "parentFM": "BRS1(FM3)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Neuronal membrane DHA enrichment and phospholipid-carrier delivery may support membrane properties relevant to attention and neuropsychological function in ADHD-relevant populations; delivery form, barrier transport, and habitual intake matter—not isolated bolus dosing.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Huss et al. (2010)",
+          "citationKey": "huss_supplementation_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#huss_supplementation_2010"
+        },
+        {
+          "index": 2,
+          "label": "McNamara & Carlson (2006)",
+          "citationKey": "mcnamara_role_2006",
+          "href": "/docs/papers/BRAIN-Diet-References#mcnamara_role_2006"
+        },
+        {
+          "index": 3,
+          "label": "Pei-Chen Chang (2021)",
+          "citationKey": "pei-chen_chang_personalised_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021"
         }
       ],
       "targetPhenomeId": "PH001"
@@ -1004,6 +1157,39 @@
           "label": "Leao et al. (2025)",
           "citationKey": "leao_in_vitro_female_gut_microbiome_sex_hormones_2025",
           "href": "/docs/papers/BRAIN-Diet-References#leao_in_vitro_female_gut_microbiome_sex_hormones_2025"
+        }
+      ],
+      "targetPhenomeId": "PH002"
+    },
+    {
+      "sourceNode": "BRS1-FM1-PM1",
+      "sourceTitle": "Amino-Acid Availability & Prioritisation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+      "parentFM": "BRS1(FM1)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Motivation / Drive",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Dietary tyrosine availability contributes to catecholamine precursor supply relevant to motivation and drive in ADHD populations; this PM governs amino-acid pool sufficiency only, not dopaminergic signalling or reward regulation (PM3/PM4).",
+      "references": [
+        {
+          "index": 1,
+          "label": "Fernstrom (2013)",
+          "citationKey": "fernstrom_lnna_2013",
+          "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013"
+        },
+        {
+          "index": 2,
+          "label": "Reimherr & Ward (1987)",
+          "citationKey": "f_w_reimherr_open_1987",
+          "href": "/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987"
+        },
+        {
+          "index": 3,
+          "label": "Aquili (2020)",
+          "citationKey": "aquili_role_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#aquili_role_2020"
         }
       ],
       "targetPhenomeId": "PH002"
@@ -1418,7 +1604,8 @@
     "Cognitive Clarity": [
       "BRS-X(ECS-PM2)",
       "BRS-X(Hormones-PM1)",
-      "BRS-X(Hormones-PM2)"
+      "BRS-X(Hormones-PM2)",
+      "BRS1-FM3-PM6"
     ],
     "Cognitive Energy Stability": [
       "BRS-X(Hormones-PM4)",
@@ -1437,7 +1624,9 @@
       "BRS-X(Hormones-PM4)",
       "BRS-X(Hormones-PM5)",
       "BRS-X(Hormones-PM6)",
-      "BRS1-FM1-PM4"
+      "BRS1-FM1-PM1",
+      "BRS1-FM1-PM4",
+      "BRS1-FM3-PM6"
     ],
     "Energy Stability Under Variable Conditions": [
       "BRS4-FM3-PM8"
@@ -1447,7 +1636,9 @@
       "BRS4-FM3-PM7"
     ],
     "Focus / Attention Stability": [
-      "BRS-X(Hormones-PM1)"
+      "BRS-X(Hormones-PM1)",
+      "BRS1-FM1-PM1",
+      "BRS1-FM3-PM6"
     ],
     "Hormonal Volatility": [
       "BRS-X(Hormones-PM2)",
@@ -1465,7 +1656,8 @@
       "BRS-X(ECS-PM1)",
       "BRS-X(ECS-PM4)",
       "BRS-X(Hormones-PM5)",
-      "BRS-X(Hormones-PM6)"
+      "BRS-X(Hormones-PM6)",
+      "BRS1-FM1-PM1"
     ],
     "Recovery Capacity": [
       "BRS-X(ECS-PM5)",
@@ -1501,7 +1693,8 @@
     "PH011": [
       "BRS-X(ECS-PM2)",
       "BRS-X(Hormones-PM1)",
-      "BRS-X(Hormones-PM2)"
+      "BRS-X(Hormones-PM2)",
+      "BRS1-FM3-PM6"
     ],
     "PH004": [
       "BRS-X(Hormones-PM4)",
@@ -1520,7 +1713,9 @@
       "BRS-X(Hormones-PM4)",
       "BRS-X(Hormones-PM5)",
       "BRS-X(Hormones-PM6)",
-      "BRS1-FM1-PM4"
+      "BRS1-FM1-PM1",
+      "BRS1-FM1-PM4",
+      "BRS1-FM3-PM6"
     ],
     "PH012": [
       "BRS4-FM3-PM8"
@@ -1530,7 +1725,9 @@
       "BRS4-FM3-PM7"
     ],
     "PH001": [
-      "BRS-X(Hormones-PM1)"
+      "BRS-X(Hormones-PM1)",
+      "BRS1-FM1-PM1",
+      "BRS1-FM3-PM6"
     ],
     "PH014": [
       "BRS-X(Hormones-PM2)",
@@ -1548,7 +1745,8 @@
       "BRS-X(ECS-PM1)",
       "BRS-X(ECS-PM4)",
       "BRS-X(Hormones-PM5)",
-      "BRS-X(Hormones-PM6)"
+      "BRS-X(Hormones-PM6)",
+      "BRS1-FM1-PM1"
     ],
     "PH005": [
       "BRS-X(ECS-PM5)",
@@ -1988,6 +2186,62 @@
         ]
       }
     ],
+    "BRS1(FM3)": [
+      {
+        "target_phenome": "Cognitive Clarity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "DHA incorporation into neuronal phospholipids may support synaptic signalling competence and membrane architecture relevant to cognitive clarity without direct ADHD treatment-efficacy claims.",
+        "contributing_pms": [
+          {
+            "id": "BRS1-FM3-PM6",
+            "name": "Neuronal Membrane DHA Incorporation",
+            "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Emotional Regulation",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low",
+        "evidence_summary": "Long-chain omega-3 membrane biology intersects neurodevelopmental and neuropsychiatric framing relevant to emotional regulation in ADHD; delivery and incorporation remain the mechanism boundary for this PM.",
+        "contributing_pms": [
+          {
+            "id": "BRS1-FM3-PM6",
+            "name": "Neuronal Membrane DHA Incorporation",
+            "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+            "relationship_type": "modulates",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Neuronal membrane DHA enrichment and phospholipid-carrier delivery may support membrane properties relevant to attention and neuropsychological function in ADHD-relevant populations; delivery form, barrier transport, and habitual intake matter—not isolated bolus dosing.",
+        "contributing_pms": [
+          {
+            "id": "BRS1-FM3-PM6",
+            "name": "Neuronal Membrane DHA Incorporation",
+            "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
     "BRS4(FM1)": [
       {
         "target_phenome": "Cognitive Energy Stability",
@@ -2029,18 +2283,62 @@
     "BRS1(FM1)": [
       {
         "target_phenome": "Emotional Regulation",
-        "connected_pm_count": 1,
+        "connected_pm_count": 2,
         "strongest_relationship_type": "supports",
         "highest_evidence_level": "mechanistic",
-        "overall_confidence": "medium",
-        "evidence_summary": "Serotonin signalling contributes to emotional regulation, impulse control, affective stability, and emotional responsiveness across multiple neuropsychiatric conditions.",
+        "overall_confidence": "high",
+        "evidence_summary": "Dietary tryptophan and broader indispensable amino-acid coverage may influence serotonergic precursor availability relevant to emotional regulation in ADHD; serotonin signalling and conversion belong on BRS1-FM1-PM4. Serotonin signalling contributes to emotional regulation, impulse control, affective stability, and emotional responsiveness across multiple neuropsychiatric conditions.",
         "contributing_pms": [
+          {
+            "id": "BRS1-FM1-PM1",
+            "name": "Amino-Acid Availability & Prioritisation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+            "relationship_type": "modulates",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          },
           {
             "id": "BRS1-FM1-PM4",
             "name": "Serotonergic Signalling Regulation",
             "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
             "relationship_type": "supports",
             "confidence": "medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Meal-level amino-acid sufficiency and coverage of neurotransmitter-relevant substrates (including tyrosine and tryptophan) may support the precursor pool underlying catecholaminergic and serotonergic attention pathways relevant to ADHD; competitive LAT1 transport and downstream signalling are handled by sibling PMs (PM2–PM4), not substrate availability alone.",
+        "contributing_pms": [
+          {
+            "id": "BRS1-FM1-PM1",
+            "name": "Amino-Acid Availability & Prioritisation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Motivation / Drive",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Dietary tyrosine availability contributes to catecholamine precursor supply relevant to motivation and drive in ADHD populations; this PM governs amino-acid pool sufficiency only, not dopaminergic signalling or reward regulation (PM3/PM4).",
+        "contributing_pms": [
+          {
+            "id": "BRS1-FM1-PM1",
+            "name": "Amino-Acid Availability & Prioritisation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
             "evidence_level": "mechanistic"
           }
         ]

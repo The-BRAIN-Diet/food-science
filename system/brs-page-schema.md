@@ -48,13 +48,15 @@ Hub sections must not restate the BRS title or Overview at the start of Function
 
 ## Overview
 
-- Two short paragraphs:
-  - paragraph 1: system control role and physiological integration
-  - paragraph 2: brain-relevant role and whole-body implication
+- **Opening paragraph (1–3 sentences) + exactly 3 bullets** (same UX contract as entity §1 Definition — see `system/mechanism-page-section-prose.md` **§1 Definition — UX structure**; do not add subheadings):
+  - **Paragraph:** system purpose, brain/body relevance, and why the reader should care — avoid PM/FM enzymology
+  - **Bullets:** cross-system significance; end with connected BRS references where relevant (e.g. `— Supporting BRS1`)
 
 ## Functional Mechanisms
 
 - Short framing sentence describing FMs as integrated biological states and principal biological targets of the framework (see `system/brain-diet-ontology-rules.md` §1.2).
+- Each published FM is rendered as a `<details>` dropdown: summary line, FM page link, primary biological effects, modulation metadata, child PM links, linked KCs, and connected mechanisms rolled up from the FM page.
+- Regenerate hub FM blocks with `npm run brs:update-hub-fms` after FM front matter or §5 Connected Mechanisms change.
 
 ## Core Functional Mechanisms
 

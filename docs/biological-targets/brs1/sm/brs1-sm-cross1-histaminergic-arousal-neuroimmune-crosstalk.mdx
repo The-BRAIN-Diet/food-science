@@ -2,59 +2,77 @@
 title: Histaminergic Arousal Regulation & Neuroimmune Crosstalk
 sm_id: BRS1(SM-CROSS1)
 sm_category: SM-CROSS
-use_case: >-
-  Cross-system histaminergic arousal with neuroimmune, gut-interface, and
-  circadian crossover
+use_case: 'Cross-system histaminergic arousal with neuroimmune, gut-interface, and circadian crossover'
 parent_brs: BRS1
-summary: >-
-  Cross-system interpretive layer for histaminergic arousal and neuroimmune
-  crosstalk anchored to linked PMs: BRS1(PM5/PM6), BRS3-FM3-PM7, BRS5(PM1/PM3),
-  and BRS6-FM2-PM5. Histamine remains an interpretive concept, not a bounded PM.
-  No diagnostic, deterministic, or treatment-efficacy claims.
+summary: 'Helps interpret how wakefulness, vigilance, and attentional readiness are influenced by histamine — a brain arousal signal that also responds to immune, gut, and circadian inputs. Understanding this cross-system biology helps read attention and sleep–wake patterns in context.'
 connected_pms:
   - id: BRS1-FM1-PM1
     name: Amino-Acid Availability & Prioritisation
-    href: >-
-      /docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation
+    href: /docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation
   - id: BRS1-FM1-PM3
     name: Noradrenergic Signalling (Attention & Executive Modulation)
-    href: >-
-      /docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation
+    href: /docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation
   - id: BRS1-FM4-PM7
     name: GABA-Glutamate Neurotransmission Balance
-    href: >-
-      /docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance
+    href: /docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance
 connected_fms:
   - id: BRS1(FM1)
     name: Monoaminergic Function
     href: /docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function
   - id: BRS1(FM4)
     name: Excitatory-Inhibitory Balance (GABA-Glutamate Regulation)
-    href: >-
-      /docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation
+    href: /docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation
 connected_kcs:
   - id: BRS1(KC2)
     name: Amino Acid Quality & Competitive Balance
-    href: >-
-      /docs/biological-targets/brs1/kc/brs1-kc2-amino-acid-quality-and-competitive-balance
+    href: /docs/biological-targets/brs1/kc/brs1-kc2-amino-acid-quality-and-competitive-balance
+intervention_dominance: Diet/Lifestyle-Combined
 intervention_breakdown: Mixed Modulation
 timing_specific: 'Yes'
+phenome_relationships:
+  - target_phenome: Focus / Attention Stability
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: 'Histaminergic signalling contributes to wakefulness, vigilance, and attentional readiness; cross-system immune, gut, and circadian inputs may alter arousal-attention interpretation without assigning histamine to a single PM.'
+    references:
+      - index: 1
+        label: Briguglio et al. (2018)
+        citation_key: briguglio_dietary_2018
+        href: /docs/papers/BRAIN-Diet-References#briguglio_dietary_2018
+      - index: 2
+        label: Blasco-Fontecilla (2023)
+        citation_key: blasco-fontecilla_is_2023
+        href: /docs/papers/BRAIN-Diet-References#blasco-fontecilla_is_2023
+  - target_phenome: Sleep / Calming Tone
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: Histamine is a core wake-promoting signal; sleep–wake and circadian entrainment context may shift how histaminergic arousal is experienced across the day.
+    references:
+      - index: 1
+        label: Briguglio et al. (2018)
+        citation_key: briguglio_dietary_2018
+        href: /docs/papers/BRAIN-Diet-References#briguglio_dietary_2018
+  - target_phenome: Stress Reactivity
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: 'Immune and allergic histamine release, gut-interface load, and neuroinflammatory tone may intersect with stress-linked arousal and attentional instability in susceptible contexts.'
+    references:
+      - index: 1
+        label: Blasco-Fontecilla (2023)
+        citation_key: blasco-fontecilla_is_2023
+        href: /docs/papers/BRAIN-Diet-References#blasco-fontecilla_is_2023
+      - index: 2
+        label: Mohammad and Thiemermann (2021)
+        citation_key: mohammad_role_2021
+        href: /docs/papers/BRAIN-Diet-References#mohammad_role_2021
 references:
-  - >-
-    [Briguglio et al. (2018) — A Narrative Review on Current
-    Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)
-  - >-
-    [Blasco-Fontecilla (2023) — Is Histamine and Not Acetylcholine the Missing
-    Link Between ADHD and
-    Allergies?](/docs/papers/BRAIN-Diet-References#blasco-fontecilla_is_2023)
-  - >-
-    [Mohammad and Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic
-    Inflammation and Potential
-    Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
-  - >-
-    [Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in
-    Young Patients with
-    ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
+  - '[Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)'
+  - '[Blasco-Fontecilla (2023) — Is Histamine and Not Acetylcholine the Missing Link Between ADHD and Allergies?](/docs/papers/BRAIN-Diet-References#blasco-fontecilla_is_2023)'
+  - '[Mohammad and Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic Inflammation and Potential Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)'
+  - '[Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in Young Patients with ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)'
 hide_title: true
 ---
 
@@ -70,23 +88,102 @@ hide_title: true
 
 ## 1. Definition
 
-Variation in arousal and attention is often interpreted through neurotransmitter pathways alone, yet histaminergic signalling may simultaneously reflect neural, immune, gut-derived, and circadian influences. A single PM or FM cannot own that span without misrepresenting the biology — which is why this page exists as an **SM-CROSS** interpretive layer rather than a bounded mechanism or phenotype overlay.
+Helps interpret how wakefulness, vigilance, and attentional readiness are influenced by histamine — a brain arousal signal that also responds to immune, gut, and circadian inputs. Understanding this cross-system biology helps read attention and sleep–wake patterns in context.
 
-Histamine is treated here as a **cross-system regulatory signal**, not a Primary Mechanism. This page explains *why* that framing is needed and *how* it differs from standard PM pages: integrative interpretation across domains, with concrete PM placement in [§6.5 Connected Mechanisms](#65-connected-mechanisms). Connected BRS1 PMs and FMs (§6.3–6.4) supply host-BRS meal-level context only. The page is hosted under BRS1 for navigation; therapeutic-area interpretation belongs on BRS hub pages. This SM does not establish diagnosis, biomarker certainty, or treatment efficacy.
+Histaminergic arousal regulation spans neurotransmission, immune signalling, gut-interface activity, histamine degradation, and circadian timing — converging on attention interpretation without belonging to a single BRS1 PM. This SM-CROSS page maps that convergence; it does not establish diagnosis or treatment efficacy.
 
-## 2. Phenome Connections
+## 2. Primary Biological Effects
+
+↑ arousal-attention state regulation context; ↑ wakefulness-circadian stability interpretation; ↓ neuroimmune amplification pressure on attentional control
+
+## 3. Phenome Connections
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
-No direct functional outcome relationship currently mapped.
+<details>
+<summary><strong>Focus / Attention Stability — modulates</strong></summary>
 
-## 3. Intervention Breakdown
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Histaminergic signalling contributes to wakefulness, vigilance, and attentional readiness; cross-system immune, gut, and circadian inputs may alter arousal-attention interpretation without assigning histamine to a single PM.
+- **Key References:**
 
-Mixed Modulation
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018","label":"Briguglio et al. (2018)"},{"href":"/docs/papers/BRAIN-Diet-References#blasco-fontecilla_is_2023","label":"Blasco-Fontecilla (2023)"}]} />
 
-## 4. Primary Biological Effects
+</details>
 
-↑ arousal-attention state regulation context; ↑ wakefulness-circadian stability interpretation; ↓ neuroimmune amplification pressure on attentional control
+<details>
+<summary><strong>Sleep / Calming Tone — modulates</strong></summary>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Histamine is a core wake-promoting signal; sleep–wake and circadian entrainment context may shift how histaminergic arousal is experienced across the day.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018","label":"Briguglio et al. (2018)"}]} />
+
+</details>
+
+<details>
+<summary><strong>Stress Reactivity — modulates</strong></summary>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Immune and allergic histamine release, gut-interface load, and neuroinflammatory tone may intersect with stress-linked arousal and attentional instability in susceptible contexts.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#blasco-fontecilla_is_2023","label":"Blasco-Fontecilla (2023)"},{"href":"/docs/papers/BRAIN-Diet-References#mohammad_role_2021","label":"Mohammad and Thiemermann (2021)"}]} />
+
+</details>
+
+## 4. Levers
+
+### Intervention Profile
+
+**Intervention Dominance:** Diet/Lifestyle-Combined
+
+<details>
+<summary><strong>4.1 Dietary Levers</strong></summary>
+
+<details>
+<summary><strong>4.1.1 Direct Dietary Levers</strong></summary>
+
+- Histidine ← fish, poultry, eggs
+- Vitamin C ← citrus, peppers, berries
+- Copper ← shellfish, seeds, cacao
+- B6 ← fish, poultry, legumes
+- Histamine-load sensitivity contexts may benefit from reducing heavily aged/fermented or poorly stored high-histamine foods while preserving overall nutrient density
+- Meal regularity and glycaemic smoothing may reduce concurrent arousal volatility that can amplify attentional instability when histaminergic tone is stressed
+
+</details>
+
+<details>
+<summary><strong>4.1.2 Cofactors and Supporting Inputs</strong></summary>
+
+- Histidine
+- B6
+- copper
+- vitamin C
+
+</details>
+
+<details>
+<summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>
+
+- [BRS1(KC2) - Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc2-amino-acid-quality-and-competitive-balance)
+
+</details>
+
+</details>
+
+<details>
+<summary><strong>4.2 Lifestyle Levers</strong></summary>
+
+- Circadian-regular sleep timing and meal–light alignment may stabilise wakefulness–arousal context per [BRS6-FM2-PM5](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment)
+- Allergy-load management and exposure reduction may lower inflammatory amplification pressure
+- Gut-supportive patterns (fibre diversity, symptom-trigger review, barrier-supportive nutrition) may improve tolerance context where gut-linked histamine issues are suspected
+
+</details>
 
 ## 5. Mechanistic Basis
 
@@ -111,78 +208,56 @@ Histamine exposure and clearance are also influenced by gastrointestinal process
 
 #### Circadian and systems-integration context
 
-Sleep–wake timing and light–feeding alignment modulate histaminergic arousal context alongside the domains above. Cross-system PM placement is in [§6.5](#65-connected-mechanisms); dietary and lifestyle levers are in §7–8.
+Sleep–wake timing and light–feeding alignment modulate histaminergic arousal context alongside the domains above. Cross-system PM placement is in [§6.2](#62-connected-brs-mechanisms); dietary and lifestyle levers are in §4.
 
 </details>
 
-## 6. Underlying Mechanisms and Requirements
+## 6. BRS Pathways and Connections
 
-### 6.1 Cofactors and Supporting Inputs
+### 6.1 BRS Pathways
 
-- Histidine, B6, copper, vitamin C
+[BRS1-FM1-PM3 — Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation)
+↓
+[BRS3-FM3-PM7 — Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation)
+↓
+[BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity)
+[BRS6-FM2-PM5 — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment)
 
-### 6.2 KCs (Key Constraints)
+### 6.2 Connected BRS Mechanisms
 
-- [BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
+Histamine participates in multiple biological systems simultaneously. The framework therefore maps histaminergic signalling to several connected PMs rather than assigning ownership to a single mechanism.
 
-### 6.3 Connected Primary Mechanisms (PMs)
+#### Neural Arousal & Attention Context
 
+Histamine is a bona fide neurotransmitter and participates in wakefulness, arousal, attention, and vigilance domains relevant to BRS1 interpretation. Arousal and attention coupling map to [BRS1-FM1-PM3 — Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation); excitatory–inhibitory stability under concurrent histaminergic load maps to [BRS1-FM4-PM7 — GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance). Sedation effects of centrally acting H1 antagonism are a practical example of this neural role in arousal state regulation [Briguglio et al., 2018].
+
+#### Neuroimmune & Inflammatory Context
+
+Histamine is also an immune signalling mediator released in inflammatory and allergic contexts; this can intersect with cytokine signalling and neuroinflammatory pressure, which may alter attentional stability in susceptible contexts. This maps to [BRS3-FM3-PM7 — Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) [Blasco-Fontecilla, 2023] [Mohammad and Thiemermann, 2021].
+
+#### Gut–Brain & Barrier Context
+
+Microbiome composition maps to [BRS5-FM2-PM4 — Microbial Ecological Turnover & Competitive Selection](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection). Gut barrier integrity and intestinal inflammatory tone may influence histamine burden and degradation context (including DAO-linked discussion in the literature), mapping to [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) [Blasco-Fontecilla, 2023] [Mohammad and Thiemermann, 2021] [Prehn-Kristensen et al., 2018].
+
+#### Circadian & Systems-Integration Context
+
+Sleep–wake timing and feeding–light alignment modulate histaminergic arousal context alongside the domains above. Circadian crossover maps to [BRS6-FM2-PM5 — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment) — circadian–metabolic modulation of arousal interpretation, not a separate histamine PM [Briguglio et al., 2018] [Prehn-Kristensen et al., 2018].
+
+Histamine participates simultaneously in neurotransmission, immune signalling, gut physiology, and circadian regulation. Consequently, variation in histaminergic signalling may reflect influences arising from multiple BRS domains rather than a single isolated mechanism.
+
+Within the framework, histamine is interpreted primarily through its contribution to arousal and attention regulation while retaining explicit links to inflammatory, gut, barrier, and circadian mechanisms described above.
+
+### 6.3 Connected Primary Mechanisms
+
+- [BRS1(FM1) - Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function)
+- [BRS1(FM4) - Excitatory-Inhibitory Balance (GABA-Glutamate Regulation)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation)
 - [BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
 - [BRS1-FM1-PM3 - Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation)
 - [BRS1-FM4-PM7 - GABA-Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance)
 
-### 6.4 Connected Functional Mechanisms (FMs)
+## 7. Scoreable Inputs & Modulation Signals
 
-- [BRS1(FM1) - Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function)
-- [BRS1(FM4) - Excitatory-Inhibitory Balance (GABA-Glutamate Regulation)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation)
-
-### 6.5 Connected Mechanisms
-
-Histamine biology is placed by **cross-BRS priority** through specific PM links below, not by reassignment to a single PM home.
-
-#### Primary: histamine as neurotransmitter in BRS1
-
-Histamine is a bona fide neurotransmitter and participates in wakefulness, arousal, attention, and circadian signalling domains relevant to BRS1 interpretation. Arousal and attention coupling map to [BRS1-FM1-PM3 — Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation); excitatory–inhibitory stability under concurrent histaminergic load maps to [BRS1-FM4-PM7 — GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance). Sleep–wake and feeding entrainment crossover maps to [BRS6-FM2-PM5 — Circadian Feeding & Light–Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment) — circadian–metabolic modulation of the arousal interpretation above, not a separate histamine PM [1][4]. Sedation effects of centrally acting H1 antagonism are a practical example of this neural role in arousal state regulation.
-
-#### Secondary: BRS3 neuroimmune/inflammatory modulation
-
-Histamine is also an immune signalling mediator released in inflammatory and allergic contexts; this can intersect with cytokine signalling and neuroinflammatory pressure, which may alter attentional stability in susceptible contexts. Within framework logic this maps to [BRS3-FM3-PM7 — Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) as BRS3 crossover, not primary reassignment.
-
-#### Tertiary: BRS5 gut-brain and barrier context
-
-Microbiome composition maps to [BRS5-FM2-PM4 — Microbial Ecological Turnover & Competitive Selection](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection). Gut barrier integrity and intestinal inflammatory tone may influence histamine burden and degradation context (including DAO-linked discussion in the literature), mapping to [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) as a gut-interface overlay [2][3][4].
-
-#### Interpretive framing and caution
-
-Histaminergic, inflammatory, gut, and circadian signals may co-vary with arousal and attention variability, but causal direction and individual effect size remain heterogeneous. Use this SM for structured cross-BRS interpretation; therapeutic-area framing belongs on BRS hub rationale sections [2][4].
-
-## 7. Dietary Levers
-
-<details>
-<summary><strong>Diet</strong></summary>
-
-- Histidine ← fish, poultry, eggs
-- Vitamin C ← citrus, peppers, berries
-- Copper ← shellfish, seeds, cacao
-- B6 ← fish, poultry, legumes
-
-- Histamine-load sensitivity contexts may benefit from reducing heavily aged/fermented or poorly stored high-histamine foods while preserving overall nutrient density.
-- Meal regularity and glycaemic smoothing may reduce concurrent arousal volatility that can amplify attentional instability when histaminergic tone is stressed.
-
-</details>
-
-## 8. Lifestyle Levers
-
-<details>
-<summary><strong>Lifestyle</strong></summary>
-
-- Circadian-regular sleep timing and meal–light alignment may stabilise wakefulness–arousal context per [BRS6-FM2-PM5](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment).
-- Allergy-load management and exposure reduction may lower inflammatory amplification pressure.
-- Gut-supportive patterns (fibre diversity, symptom-trigger review, barrier-supportive nutrition) may improve tolerance context where gut-linked histamine issues are suspected.
-
-</details>
-
-## 9. Scoreable Inputs & Modulation Signals
+This SM is scoreable through food-state and nutrient signals relevant to histaminergic arousal interpretation.
 
 <details>
 <summary><strong>Scoreable Input Categories</strong></summary>
@@ -191,18 +266,12 @@ Histaminergic, inflammatory, gut, and circadian signals may co-vary with arousal
 |---|---|---|
 | Functional Property Potentials | arousal_regulation_context; anti_inflammatory_support | Histaminergic-neuroimmune interpretation context. |
 | Realised Functional States | low_histamine_patterning; stable_glycaemic_meal_state | Reduces concurrent arousal and inflammatory load. |
-| Substance / Nutrient Signals | histidine; vitamin_c; copper; b6 | Precursor and cofactor signals for histamine handling context. |
 | Preparation Transformations | freshness_preservation; fermentation_load_modulation | Histamine-load exposure modulation in food handling. |
 
 </details>
 
-## 10. References
-
+## 8. References
 - [Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)
 - [Blasco-Fontecilla (2023) — Is Histamine and Not Acetylcholine the Missing Link Between ADHD and Allergies?](/docs/papers/BRAIN-Diet-References#blasco-fontecilla_is_2023)
 - [Mohammad and Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic Inflammation and Potential Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
 - [Prehn-Kristensen et al. (2018) — Reduced Microbiome Alpha Diversity in Young Patients with ADHD](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
-
-2. [Blasco-Fontecilla, 2023]
-3. [Mohammad and Thiemermann, 2021]
-4. [Prehn-Kristensen et al., 2018]

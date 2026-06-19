@@ -2,7 +2,9 @@
 id: brs-x-hormones
 title: BRS-X(Hormones) - Hormone Signalling & Regulation
 sidebar_label: BRS-X(Hormones) - Hormone Signalling & Regulation
-description: Cross-system hormone signalling spanning neurotransmission, methylation, inflammation, bioenergetics, gut-brain, and metabolic stress
+description: >-
+  Cross-system hormone signalling spanning neurotransmission, methylation,
+  inflammation, bioenergetics, gut-brain, and metabolic stress
 tags:
   - Biological Target
   - Cross-System Regulation
@@ -29,11 +31,20 @@ Within the BRAIN Framework, BRS-X(Hormones) is a first-class cross-system object
 
 ## Functional Mechanisms
 
-### [BRS-X(Hormones-FM1) — Reproductive Hormone Balance & Neurocognitive Regulation](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation)
+Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
-Integrated regulation of oestrogen, progesterone, gut-mediated sex-hormone metabolism, and metabolic-reproductive hormone signalling.
+<details>
+<summary><strong>BRS-X(Hormones-FM1) — Reproductive Hormone Balance & Neurocognitive Regulation</strong></summary>
 
-Primary mechanisms:
+Integrated regulation of oestrogen, progesterone, gut-mediated sex-hormone metabolism, and metabolic-reproductive hormone signalling, influencing neurocognitive stability through coordinated hormone signalling, enterohepatic recycling, microbial metabolism, and insulin-linked endocrine regulation.
+
+**FM page:** [BRS-X(Hormones-FM1) — Reproductive Hormone Balance & Neurocognitive Regulation](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation)
+
+**Primary biological effects:** ↑ coordinated reproductive hormone signalling; ↑ gut-mediated sex-hormone metabolism context; ↑ metabolic-reproductive integration; ↓ uncoupled hormonal volatility — reflecting integrated estrogen–gut–metabolic coupling rather than isolated endocrine endpoints [Baker et al., 2017; de Jong et al., 2024].
+
+**Modulation context:** Intervention: Mixed Modulation · Timing-specific: Yes · Coverage: Daily
+
+**Primary mechanisms (PMs):**
 
 - [BRS-X(Hormones-PM1) — Oestrogen Signalling Stability](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability)
 - [BRS-X(Hormones-PM2) — Estrobolome Regulation](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation)
@@ -41,6 +52,18 @@ Primary mechanisms:
 - [BRS-X(Hormones-PM4) — Metabolic-Reproductive Hormone Integration](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration)
 - [BRS-X(Hormones-PM5) — Testosterone Signalling Stability](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability)
 - [BRS-X(Hormones-PM6) — Androgen-Microbiome Regulation](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation)
+
+**Key constraints:**
+
+- [BRS5(KC1) — Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability)
+
+**Connected mechanisms:**
+
+- [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) — metabolic substrate context influencing reproductive hormone–neurocognitive integration
+- [BRS5(FM1) — Gut Barrier Integrity & Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — gut–estrobolome and immune interface for hormone signalling stability
+- [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — monoaminergic neurocognitive regulation coupled to reproductive hormone balance
+
+</details>
 
 ---
 

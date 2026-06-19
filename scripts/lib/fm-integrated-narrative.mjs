@@ -14,7 +14,7 @@ import {
 const FM_OVERRIDES = {
   "BRS1(FM3)": `## 4. Mechanistic Basis (Integrated FM Narrative)
 
-Membrane composition, fluidity & structural lipid integrity emerges from the coordinated interaction of several primary mechanisms and supporting biological pools.
+Membrane composition, fluidity, and structural lipid integrity represents a framework-relevant biological state anchored principally by neuronal membrane DHA incorporation.
 
 ### 4.1 Core Primary Mechanisms
 
@@ -23,9 +23,9 @@ Membrane composition, fluidity & structural lipid integrity emerges from the coo
 
 ### 4.2 Integrated Functional Narrative
 
-Together, the core primary mechanisms (Neuronal Membrane DHA Incorporation) operationalise BRS1(FM3) as an integrated functional state.
+Although BRS1(FM3) is principally operationalised through [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation), the FM represents the broader membrane structural environment within which neuronal communication occurs. Membrane composition influences receptor function, ion-channel behaviour, synaptic transmission, and network signalling competence while interacting with phospholipid metabolism, lipid protection, inflammatory regulation, and downstream lipid-signalling systems.
 
-At the FM level, performance depends on whether constituent PMs and shared constraint pools remain adequate rather than chronically constrained.`,
+At the FM level, signalling competence depends on whether phospholipid-carrier delivery, MFSD2A-mediated transport, and habitual membrane enrichment remain adequate over weeks to months—not from isolated bolus exposure or dose alone.`,
   "BRS4(FM1)": `## 4. Mechanistic Basis (Integrated FM Narrative)
 
 Cellular bioenergetics emerges from the coordinated interaction of several primary mechanisms and supporting biological pools.
@@ -45,7 +45,7 @@ Cellular bioenergetics emerges from the coordinated interaction of several prima
 
 Together, these mechanisms enable ATP production, ATP buffering, and redox regulation to operate as a coordinated energy-delivery system. Cellular bioenergetic performance therefore depends not only on the effectiveness of individual PMs, but also on whether sufficient fuel substrates and mitochondrial cofactor context are available to support mitochondrial energy metabolism.
 
-At the FM level, dysfunction may arise when ATP demand exceeds the combined capacity of substrate availability, electron transport, redox support, or rapid phosphocreatine buffering [1][2][3].`,
+At the FM level, dysfunction may arise when ATP demand exceeds the combined capacity of substrate availability, electron transport, redox support, or rapid phosphocreatine buffering.`,
 };
 
 function repoPath(rootDir, href) {
@@ -94,9 +94,12 @@ function sentenceCase(s) {
   return capitalizeFirst(String(s).trim());
 }
 
-function fmOpeningLine(fmData) {
+function fmOpeningLine(fmData, pmCount = 0) {
   const title = fmData.title || "This functional state";
   const theme = title.replace(/\([^)]*\)/g, "").trim().toLowerCase();
+  if (pmCount === 1) {
+    return `${capitalizeFirst(theme)} represents a framework-relevant biological state anchored principally by its sole primary mechanism.`;
+  }
   return `${capitalizeFirst(theme)} emerges from the coordinated interaction of several primary mechanisms and supporting biological pools.`;
 }
 
@@ -128,8 +131,25 @@ function extractLegacyNarrative(oldSection4) {
   return parts.length ? parts.join("\n\n") : null;
 }
 
+function stripTogetherForSinglePm(text, pmCount) {
+  if (pmCount !== 1 || !text) return text;
+  return text.replace(/^Together,\s*/i, "");
+}
+
 function defaultIntegratedNarrative(fmData, pms, kcs, legacy) {
-  if (legacy) return legacy.replace(/^\n/, "");
+  if (legacy) return stripTogetherForSinglePm(legacy.replace(/^\n/, ""), pms.length);
+
+  if (pms.length === 1) {
+    const pm = pms[0];
+    const pmLink = `[${pm.id} — ${pm.name}](${pm.href})`;
+    const kcPart = kcs?.length
+      ? " Shared constraint pools and connected systems also shape whether this state remains adequate."
+      : " Connected systems, shared constraints, and downstream consequences extend the FM beyond the PM alone.";
+    return `Although operationalised primarily through ${pmLink}, ${fmData.fm_id} represents a broader biological state extending beyond the mechanism alone.${kcPart}
+
+At the FM level, performance depends on whether this mechanism, connected systems, and any shared constraint pools remain adequate rather than chronically constrained.`;
+  }
+
   const pmNames = pms.map((p) => p.name).join(", ");
   const kcPart = kcs?.length
     ? " Supporting key constraint pools must also remain sufficient for these PMs to operate effectively."
@@ -156,7 +176,7 @@ export function buildIntegratedMechanisticBasis(fmData, oldSection4, rootDir, kc
 
   const core = `## 4. Mechanistic Basis (Integrated FM Narrative)
 
-${fmOpeningLine(fmData)}
+${fmOpeningLine(fmData, pms.length)}
 
 ### 4.1 Core Primary Mechanisms
 

@@ -2,6 +2,8 @@
 
 Citation format for phenome `references`: **`system/brs-citation-reference-standard.md`** (`label` = `Author et al. (Year) — Topic`).
 
+**Authoring and review procedure:** **`system/phenome-relationship-review-methodology.md`** — ADHD-scoped Phenome Relationship Review System (Phase 0 bibliography → Phase 1 PM review → Phase 2 FM review [§4.1–4.4 as primary evidence] → Phase 3 framework expansion → human review on rendered §3). This schema defines structure and validation; the methodology defines how mappings are researched, scoped, and approved.
+
 ## Purpose
 
 **Target functional outcomes / phenomes** are emergent functional patterns (for example Motivation, Emotional Regulation, Sustained Attention). They must not be treated as simple tags or hard causal claims on PM/FM pages.
@@ -44,6 +46,34 @@ When an FM has **exactly one** child PM (`mechanisms_covered.length === 1`), §3
 **FM:** `No functional outcome context currently mapped.`
 
 Do not invent provisional mappings to avoid an empty section.
+
+When running a formal review, empty §3 is valid until Phase 1 candidates pass human approval — see the methodology pilot workflow.
+
+---
+
+## Review methodology (v2)
+
+| Topic | Document |
+|-------|----------|
+| ADHD-scoped review process | `system/phenome-relationship-review-methodology.md` |
+| Three evidence layers | PM (can biology be influenced?) → FM (does integrated state matter?) → phenome (human function/experience) |
+| Bibliography readiness | Phase 0 — `npm run bib:validate` |
+| PM mechanism-level mappings | Phase 1 — write `phenome_relationships`, `npm run phenome:sync`, human review |
+| FM integrated-state mappings | Phase 2 — review FM §4.1–4.4; write convergence-based `functional_outcome_context` |
+| Framework reinforcement / discovery | Phase 3 — BRS, food, substance, wider bibliography |
+
+**Assignment rule (v1):** Mechanism → **ADHD-relevant** registry phenome only. Secondary therapeutic-area literature may support plausibility but must not create mappings without ADHD-relevant justification.
+
+### Schema evolution register
+
+The review methodology v1 proposes additional `relationship_type` and `evidence_level` values not yet enforced by validation. Until extended, map candidates using the translation tables in the methodology doc.
+
+| Field | Enforced today | Proposed (review v1) |
+|-------|----------------|----------------------|
+| `relationship_type` | `supports`, `disrupts`, `modulates`, `indirect` | add `contributes_to`, `contextual` |
+| `evidence_level` | `mechanistic`, `observational`, `intervention`, `clinical` | Human Outcome, Human Mechanistic, Preclinical, Theoretical, Mixed |
+
+Do not use proposed values in PM front matter until `scripts/lib/phenome-relationships.mjs` and this schema are updated together.
 
 ---
 
@@ -230,7 +260,7 @@ Structure:
 
 1. Canonical PM disclaimer paragraph
 2. For each relationship: `<details>` with summary **`<Target Phenome> — <relationship_type>`**
-3. Inside dropdown: Confidence, Evidence Level, Rationale, Key References (linked)
+3. Inside dropdown: Confidence, Evidence Level, Rationale, Key References via `<PhenomeBibLinks />` (opens bibliography in a **background tab**; reader stays on the mechanism page)
 
 ### FM — `## 3. Phenome Connections`
 
@@ -240,9 +270,25 @@ Structure:
 
 1. Canonical FM disclaimer paragraph
 2. For each outcome: `<details>` with summary **`<Outcome name>`**
-3. Inside dropdown: Confidence, Synthesis, Key References (linked list)
+3. Inside dropdown: Confidence, Synthesis, Key References via `<PhenomeBibLinks />` (background tab)
 
 **Forbidden on FM §3:** roll-up tables, contributing-PM lists, dropdowns that enumerate child PMs per phenome.
+
+### SM-PHEN — `## 2. Phenome Connections`
+
+Placement: immediately after `## 1. Definition`, before Intervention Breakdown (SM Profile A extended numbering).
+
+Structure:
+
+1. Canonical PM disclaimer paragraph (same translational framing as PM pages)
+2. **Registry link** — one sentence naming the interpreted phenome with a link to `/docs/phenomes/index#<registry-id-lowercase>` (e.g. `#ph003` for PH003)
+3. **Interpretation-lens statement** — this page is one BRS-specific lens; other BRS-hosted `SM-PHEN` pages may interpret the same registry phenome from different biology (do not duplicate those systems here)
+4. For the interpreted phenome: one `<details>` with summary **`<Phenome name> — <relationship_type> (<host BRS> lens)`**
+5. Inside dropdown: Confidence, Evidence level, Rationale (phenotype/translational only), Key references (linked)
+
+**Forbidden on SM-PHEN §2:** PM mechanism prose, neurotransmitter pathway explanations, lists of all connected PMs, duplicate PM `phenome_relationships` dropdowns.
+
+**Authoring source:** `interpreted_phenome` and `interpretation_lens` in SM front matter; registry definitions in `phenome-registry.json` only.
 
 ---
 

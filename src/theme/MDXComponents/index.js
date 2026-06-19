@@ -19,6 +19,7 @@ import SubstanceFoods from '../SubstanceFoods';
 import FoodRecipes from '../FoodRecipes';
 import FoodShoppingList from '../FoodShoppingList';
 import NutritionTable from '../../components/NutritionTable';
+import PhenomeBibLinks from '../../components/PhenomeBibLinks';
 import PhenomeRegistry from '../PhenomeRegistry';
 
 export default {
@@ -42,5 +43,6 @@ export default {
   SubstanceFoods,
   FoodRecipes,
   FoodShoppingList,
+  PhenomeBibLinks,
   PhenomeRegistry,
 };

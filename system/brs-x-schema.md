@@ -36,6 +36,14 @@ On **FM**, **PM**, and **SM** pages, cross-system references use a single sectio
 
 **Purpose:** Reference any biologically relevant mechanism regardless of originating system (BRS1–BRS6 or BRS-X).
 
+**FM format:** each bullet links a specific PM or FM page and includes a one-sentence connection after an em dash:
+
+```markdown
+- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/.../brs3-fm2-pm5-lipid-peroxidation-control) — membrane PUFA protection once DHA is incorporated
+```
+
+Do not list BRS hub pages alone (for example `BRS1 — Neurotransmitter Regulation`) without a specific mechanism link and connection sentence. Roll up from child PM `§6.2 Connected BRS Mechanisms`.
+
 Examples:
 
 - `BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation`
