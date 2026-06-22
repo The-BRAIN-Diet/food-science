@@ -462,3 +462,9 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
     max-height: 200px;
   }
 }
+
+/* Phenome §3 / evidence reference data-level suffix */
+.phenome-bib-data-level {
+  color: var(--ifm-color-emphasis-700);
+  font-weight: 500;
+}

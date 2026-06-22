@@ -96,7 +96,7 @@ When `mechanisms_covered` contains **exactly one** PM (Type B):
 - **§2 Primary Biological Effects** follows the **Single-PM FM (1:1) rule** in `system/phenome-relationship-schema.md` (matching phenome labels and confidence to the child PM).
 - **§4.2 Integrated Functional Narrative** — follow **`system/single-pm-fm-rule.md`**: explain why the FM state is distinct, why it matters, how connected systems constrain it, and how it differs from the PM. Do **not** open with “Together,” or other multi-PM language.
 - **§4.3 Functional Failure Modes** — extend beyond the PM (upstream constraints, connected mechanism failures, downstream consequences).
-- **§4.4 Evidence Highlights** — evidence for why the **FM state** matters, not merely that the PM exists.
+- **§4.4 Evidence Highlights** — mechanism-qualifying evidence for why the **integrated FM biology** matters in practice; not functional outcome / phenome claims and not merely that child PMs exist.
 
 **Additional canonical (Type B, KC-linked failure modes):** `docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx` → `BRS4-FM4-PM9`.
 
@@ -109,7 +109,7 @@ Section **4.** must include:
 - **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with one contribution line each
 - **`### 4.2 Integrated Functional Narrative`** — synthesis paragraph(s). **Type A (multi-PM):** how PMs combine. **Type B (single-PM anchor):** broader state, connected systems, constraints — see `system/single-pm-fm-rule.md`; do not use “Together,”
 - **`### 4.3 Functional Failure Modes`** — stressor narrative describing how the integrated FM state fails when delivery, pools, or constituent PM capacity are chronically constrained (required on all FM pages; KC-linked detail when `key_constraints` is non-empty)
-- **`### 4.4 Evidence Highlights`** *(optional on non-canonical FMs; required on canonical full-template FMs)* — FM-level evidence for why the integrated state matters; not PM delivery/intervention dumps
+- **`### 4.4 Evidence Highlights`** *(optional on non-canonical FMs; required on canonical full-template FMs)* — FM-level **mechanism-qualifying** evidence (rolls up child PM §5.1 entries after phenome content is stripped). **Same dropdown structure as PM §3** — each finding uses **Confidence**, **Evidence Level**, **Rationale**, **Key References** with per-study `dataLevel`. **Do not** include ADHD/phenome/outcome science here — that belongs in FM §3 `functional_outcome_context`. Populate via `npm run mechanisms:populate-fm-evidence -- --force` after child PM §5.1 is authored.
 
 `key_constraints` remain in **front matter** for ontology traversal. KC links belong in §4.3 Functional Failure Modes — not in a separate public §4.2 KC pool subsection.
 
@@ -126,7 +126,7 @@ Within §4:
 2. **`### 4.1 Core Primary Mechanisms`** — linked PM list with contribution lines
 3. **`### 4.2 Integrated Functional Narrative`** — synthesis paragraph(s)
 4. **`### 4.3 Functional Failure Modes`** — chronic constraint and impairment narrative
-5. **`### 4.4 Evidence Highlights`** — FM-level outcome evidence framing (canonical template)
+5. **`### 4.4 Evidence Highlights`** — FM-level mechanism-qualifying evidence (canonical template)
 
 **Canonical examples:**
 

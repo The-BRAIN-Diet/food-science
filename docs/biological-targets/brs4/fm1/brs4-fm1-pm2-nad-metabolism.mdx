@@ -23,10 +23,12 @@ phenome_relationships:
         label: Pirinen et al. (2020)
         citation_key: pirinen_niacin_2020
         href: /docs/papers/BRAIN-Diet-References#pirinen_niacin_2020
+        data_level: Human Outcome
       - index: 2
         label: Tardy et al. (2020)
         citation_key: tardy_vitamins_2020
         href: /docs/papers/BRAIN-Diet-References#tardy_vitamins_2020
+        data_level: Human Study
   - target_phenome: Recovery Capacity
     relationship_type: modulates
     confidence: low-medium
@@ -37,6 +39,7 @@ phenome_relationships:
         label: de Guia et al. (2019)
         citation_key: de_guia_nad_2019
         href: /docs/papers/BRAIN-Diet-References#de_guia_nad_2019
+        data_level: Human Mechanistic
 references:
   - '[Pirinen et al. (2020) — Niacin and Systemic NAD⁺ Deficiency in Mitochondrial Myopathy](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)'
   - '[Tardy et al. (2020) — A Narrative Review of the Biochemical and Clinical Evidence](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)'
@@ -80,7 +83,7 @@ These mappings are translational relationships, not single-mechanism outcome cla
 - **Rationale:** NAD⁺ availability underpins mitochondrial redox reactions and ATP-linked energy metabolism; human intervention evidence shows systemic NAD⁺ repletion can improve performance in deficiency, and micronutrient sufficiency has been associated with fatigue and cognitive function, though direct brain NAD⁺ outcome evidence remains limited.
 - **Key References:**
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020","label":"Pirinen et al. (2020)"},{"href":"/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020","label":"Tardy et al. (2020)"}]} />
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020","label":"Pirinen et al. (2020)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020","label":"Tardy et al. (2020)","dataLevel":"Human Study"}]} />
 
 </details>
 
@@ -92,7 +95,7 @@ These mappings are translational relationships, not single-mechanism outcome cla
 - **Rationale:** NAD⁺ salvage capacity in skeletal muscle responds to regular aerobic and resistance training and declines with age; maintaining NAD⁺ turnover may support recovery from sustained metabolic demand, though direct ADHD-specific evidence remains limited.
 - **Key References:**
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#de_guia_nad_2019","label":"de Guia et al. (2019)"}]} />
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#de_guia_nad_2019","label":"de Guia et al. (2019)","dataLevel":"Human Mechanistic"}]} />
 
 </details>
 
@@ -164,6 +167,38 @@ This PM addresses NAD⁺ availability for mitochondrial redox metabolism — not
 #### (Cross-BRS context)
 
 One-carbon and methylation-related metabolism intersect with redox handling; methionine-cycle flux is represented by [BRS2-FM1-PM4 - Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux).
+
+</details>
+
+
+
+### 5.1 Evidence Highlights
+
+#### Introduction/Summary
+
+NAD⁺-linked redox metabolism is well established in mitochondrial biochemistry. The evidence below emphasises cofactor dependence and lifestyle context rather than re-explaining NAD⁺ chemistry.
+
+<details>
+<summary><strong>B-vitamin context for energy metabolism</strong></summary>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Micronutrient review evidence positions B vitamins among the cofactors required for mitochondrial energy metabolism and broader brain-relevant enzymatic pathways [Tardy et al., 2020]. Niacin precursor availability is one practical dietary entry point for NAD⁺-dependent redox reactions represented by this PM.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020","label":"Tardy et al. (2020)","dataLevel":"Human Study"}]} />
+
+</details>
+
+<details>
+<summary><strong>Clinical relevance of NAD⁺ precursor insufficiency</strong></summary>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** In mitochondrial myopathy, niacin supplementation restored blood NAD⁺, improved mitochondrial markers, and reduced fatigability — illustrating that NAD⁺ availability can be limiting for mitochondrial oxidative capacity in human tissue [Pirinen et al., 2020]. This supports interpreting NAD⁺ metabolism as a modifiable cofactor-dependent layer within BRS4(FM1).
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020","label":"Pirinen et al. (2020)","dataLevel":"Human Outcome"}]} />
 
 </details>
 

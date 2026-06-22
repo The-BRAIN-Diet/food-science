@@ -95,6 +95,7 @@ phenome_relationships:
         label: "Celec et al. (2015)"
         citation_key: celec_testosterone_brain_behavioral_functions_2015
         href: "/docs/papers/BRAIN-Diet-References#celec_testosterone_brain_behavioral_functions_2015"
+        data_level: Mechanistic
 ```
 
 ### PM field rules
@@ -107,6 +108,7 @@ phenome_relationships:
 | `evidence_level` | Yes | `mechanistic`, `observational`, `intervention`, `clinical` |
 | `rationale` | Yes | One or two sentences; mechanistic/translational, not diagnostic |
 | `references` | Recommended | Same shape as PM `references`; must resolve in `static/bibtex/BRAIN-diet.bib` when cited |
+| `references[].data_level` | Recommended | Per-study data type label — see [Reference data levels](#reference-data-levels) |
 | `source_node` | Optional | Defaults to `pm_id`; use for graph export |
 
 ### PM rules
@@ -132,6 +134,7 @@ functional_outcome_context:
       - label: "Sarkar et al. (2020)"
         citation_key: sarkar_microbiome_social_behaviour_2020
         href: "/docs/papers/BRAIN-Diet-References#sarkar_microbiome_social_behaviour_2020"
+        data_level: Mechanistic
 ```
 
 ### FM field rules
@@ -142,6 +145,7 @@ functional_outcome_context:
 | `confidence` | Yes | Integrated-system confidence; may exceed child PM confidence **only when multiple PMs converge** on the same phenome (not on 1:1 FM→PM instances) |
 | `synthesis` | Yes | 1–2 sentences; do not list child PMs |
 | `references` | Recommended | Key references only; must resolve in bibliography when cited |
+| `references[].data_level` | Recommended | Per-study data type label — see [Reference data levels](#reference-data-levels) |
 
 ### FM rules
 
@@ -170,6 +174,48 @@ When `mechanisms_covered` contains **exactly one** PM, the FM is a **1:1 FM → 
 **Canonical example:** `docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx` with child `BRS4-FM4-PM9`.
 
 **Enforcement:** `npm run mechanisms:validate` calls `validateSinglePmFmOutcomeAlignment` in `scripts/lib/phenome-relationships.mjs` when an FM page has exactly one `mechanisms_covered` entry.
+
+---
+
+## Reference data levels
+
+Each entry in `references` (PM `phenome_relationships` and FM `functional_outcome_context`) may include **`data_level`** — a short label stating what kind of evidence that study contributes. This is rendered after the citation label in §3 Key References:
+
+- Huss et al. (2010) — **Human Study**
+- McNamara & Carlson (2006) — **Animal Data**
+- Pei-Chen Chang (2021) — **Mechanistic**
+
+### Allowed values
+
+| Value | Meaning |
+|-------|---------|
+| Human Outcome | Human clinical or functional outcome data |
+| Human Study | Human study (intervention, cohort, or review of human data) |
+| Human Mechanistic | Human study with mechanistic endpoints |
+| Animal Data | Animal-model evidence |
+| Preclinical | Animal or in vitro evidence |
+| Mechanistic | Established pathway plausibility or mechanistic review |
+| Theoretical | Model-based inference only |
+| Cellular / Molecular | Cell or molecular biology |
+| Mixed | Multiple evidence levels combined |
+
+Curated defaults live in `scripts/lib/reference-data-levels.mjs` (`CURATED_REFERENCE_DATA_LEVELS`). Backfill with:
+
+```bash
+npm run phenome:migrate-ref-levels
+npm run phenome:sync -- --sync
+```
+
+### Evidence vs phenome boundary
+
+| Section | Content |
+|---------|---------|
+| **§3 Phenome Connections** (PM) / **§3 functional_outcome_context** (FM) | Translational outcome mappings — ADHD hub rows, attention, emotional dysregulation, condition-specific biomarkers, intervention outcomes |
+| **§5.1 Evidence Highlights** (PM) / **§4.4 Evidence Highlights** (FM) | Mechanism-qualifying findings only — delivery forms, cofactors, substrate biochemistry, pathway interpretation |
+
+BRS hub ADHD dropdown tables feed **phenome review** (`system/phenome-relationship-review-methodology.md`), **not** `scripts/lib/pm-evidence-highlights.mjs`.
+
+### §5.1 populate: `npm run mechanisms:populate-evidence -- --brs BRS3 --force`. FM §4.4 rolls up child PM §5.1 entries (mechanism-only): `npm run mechanisms:populate-fm-evidence -- --force`.
 
 ---
 

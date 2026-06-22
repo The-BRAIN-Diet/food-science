@@ -3,6 +3,7 @@ import React from "react"
 type PhenomeBibItem = {
   href: string
   label: string
+  dataLevel?: string
 }
 
 function resolveDocHref(href: string): string {
@@ -41,6 +42,9 @@ export default function PhenomeBibLinks({items}: Props): React.JSX.Element {
             }}
           >
             {item.label}
+            {item.dataLevel ? (
+              <span className="phenome-bib-data-level"> — {item.dataLevel}</span>
+            ) : null}
           </a>
         </li>
       ))}
