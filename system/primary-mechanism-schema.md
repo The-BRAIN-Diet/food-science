@@ -265,18 +265,34 @@ Mechanistic Basis must remain **evidence-anchored**, not assertion-only. Follow 
 | **§3 Phenome Connections** | Translational phenome mappings — not single-mechanism outcome claims. |
 | **§4 Levers** | Dietary (4.1.1–4.1.3) and lifestyle (4.2) implementation — all in `<details>` dropdowns. |
 | **§5 Mechanistic Basis** | How the biology works (canonical four-part narrative). |
-| **§5.1 Evidence Highlights** | What important studies found and why that changes or qualifies interpretation. |
+| **§5.1 Evidence Highlights** | What important studies found and why that changes or qualifies **mechanism** interpretation — not functional outcome / phenome claims. |
 | **§6 BRS Pathways and Connections** | Pathway chains, cross-BRS links, same-FM PM rollups — **not** levers, cofactors, or KCs. |
 
 Profile B compact PMs keep cofactors under `## 3. Underlying Mechanisms and Requirements` → `### 3.1 Cofactors and Supporting Inputs`.
 
 **Include studies that (high priority):** alter interpretation; reveal synergies or dependencies; show meaningful human or intervention relevance; expose heterogeneity or context-dependent responses.
 
-**Exclude (low priority):** findings that only repeat §5 textbook biology; small redundant mechanistic papers; studies that merely mention the pathway without changing how to read the PM.
+**Exclude (low priority):** findings that only repeat §5 textbook biology; small redundant mechanistic papers; studies that merely mention the pathway without changing how to read the PM; **phenome/outcome science** (ADHD, attention, emotional dysregulation, condition-specific biomarkers, intervention outcomes in clinical populations) — those belong in **§3 Phenome Connections** only.
 
-**UX:** `#### Introduction/Summary` (visible) → one `<details>` with finding-focused bullets or short `####` blocks. Reference: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation), [BRS1-FM1-PM2](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation).
+**Phenome boundary (non-negotiable):** §5.1 and FM §4.4 must **not** duplicate §3. Do not populate evidence highlights from BRS hub ADHD dropdown tables; those rows feed phenome review (`system/phenome-relationship-review-methodology.md`), not mechanism evidence maps (`scripts/lib/pm-evidence-highlights.mjs`).
 
-**Non-repetition:** §1 = *significance paragraph + 3 cross-system bullets*; §2 = *directional outcome*; §3 = *translational phenome context*; §4 = *implementation*; §5 = *detailed how*; §5.1 = *how we know*. Do not restate the same meal-composition or pathway claim across all six (see `system/mechanism-page-section-prose.md` — **PM section roles**).
+**UX:** `#### Introduction/Summary` (visible) → one or more **phenome-aligned evidence `<details>` dropdowns** per curated finding (same field set as §3 Phenome Connections). Reference: [BRS-X(ECS-PM2)](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling), [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
+
+**Evidence entry shape (each `<details>` dropdown):**
+
+| Field | Required | Notes |
+|-------|----------|-------|
+| Summary title | Yes | `<summary><strong>…</strong></summary>` — finding label, not a phenome name |
+| **Confidence** | Yes | `low`, `low-medium`, `medium`, `high` |
+| **Evidence Level** | Yes | `mechanistic`, `observational`, `intervention`, `clinical` |
+| **Rationale** | Yes | One or two sentences — why the finding matters for interpreting this PM |
+| **Key References** | Recommended | `PhenomeBibLinks` with optional `dataLevel` per study |
+
+Do **not** use legacy `#### (heading)` prose blocks or a separate **Reference data levels** subsection — per-study data levels belong on each **Key References** line (same as §3).
+
+**Populate:** `npm run mechanisms:populate-evidence -- --brs BRS3 --force`
+
+**Profile B:** §1 = *significance paragraph + 3 cross-system bullets*; §2 = *directional outcome*; §3 = *translational phenome context*; §4 = *implementation*; §5 = *detailed how*; §5.1 = *how we know*. Do not restate the same meal-composition or pathway claim across all six (see `system/mechanism-page-section-prose.md` — **PM section roles**).
 
 **Writing style:** Short bullets or tight paragraphs. Lead with **why the finding is interesting**, not methods or results laundry lists. Inline: `[Author et al., Year]`; References entry with descriptive topic per **`system/brs-citation-reference-standard.md`**.
 
@@ -284,7 +300,7 @@ Profile B compact PMs keep cofactors under `## 3. Underlying Mechanisms and Requ
 
 **Anti-pattern:** “Smith et al. conducted a randomized trial in N participants measuring…”
 
-**Citations:** Same rules as §5 — every inline author–year in §5.1 must have a matching References entry; prefer existing BRAIN-diet bibliography entries.
+**Citations:** Every study in **Key References** must resolve in `## 8. References`; prefer existing BRAIN-diet bibliography entries.
 
 **Profile B:** use `### 2.1 Evidence Highlights` at the end of `## 2. Mechanistic Basis` with the same authoring rules.
 

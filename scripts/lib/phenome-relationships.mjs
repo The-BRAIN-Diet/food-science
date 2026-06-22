@@ -4,6 +4,11 @@
  */
 
 import { toReferenceLabel, topicFromBibKey } from "./brs-citation-migration.mjs";
+import {
+  normalizeReferenceDataLevel,
+  phenomeRefToBibItem,
+  REFERENCE_DATA_LEVELS,
+} from "./reference-data-levels.mjs";
 
 export const PHENOME_RELATIONSHIP_TYPES = new Set([
   "supports",
@@ -118,6 +123,24 @@ export function formatOutcomeConfidence(confidence) {
   return CONFIDENCE_DISPLAY[key] ?? key;
 }
 
+export { REFERENCE_DATA_LEVELS } from "./reference-data-levels.mjs";
+
+function validatePhenomeReference(ref, issues, { entityLabel, index, refIndex }) {
+  const prefix = `${entityLabel}: references[${refIndex}] in phenome_relationships[${index}]`;
+  if (!ref || typeof ref !== "object") {
+    issues.push({ code: "invalid_phenome_reference", message: `${prefix} must be an object` });
+    return;
+  }
+  if (ref.data_level !== undefined && ref.data_level !== null && String(ref.data_level).trim() !== "") {
+    if (!normalizeReferenceDataLevel(ref.data_level)) {
+      issues.push({
+        code: "invalid_reference_data_level",
+        message: `${prefix} data_level must be one of: ${[...REFERENCE_DATA_LEVELS].join(", ")}`,
+      });
+    }
+  }
+}
+
 export function validatePhenomeRelationshipRow(row, issues, { entityLabel, index }) {
   const prefix = `${entityLabel}: phenome_relationships[${index}]`;
   if (!row || typeof row !== "object") {
@@ -150,6 +173,10 @@ export function validatePhenomeRelationshipRow(row, issues, { entityLabel, index
   }
   if (row.references !== undefined && !Array.isArray(row.references)) {
     issues.push({ code: "invalid_phenome_references", message: `${prefix} references must be an array` });
+  } else if (Array.isArray(row.references)) {
+    for (const [ri, ref] of row.references.entries()) {
+      validatePhenomeReference(ref, issues, { entityLabel, index, refIndex: ri });
+    }
   }
 }
 
@@ -191,6 +218,10 @@ export function validateFunctionalOutcomeContextRow(row, issues, { entityLabel, 
       code: "invalid_fm_outcome_references",
       message: `${prefix} references must be an array`,
     });
+  } else if (Array.isArray(row.references)) {
+    for (const [ri, ref] of row.references.entries()) {
+      validatePhenomeReference(ref, issues, { entityLabel, index, refIndex: ri });
+    }
   }
 }
 
@@ -382,10 +413,7 @@ export function aggregateFmConnectedPhenomes(childPms) {
 }
 
 function renderPhenomeReferencesBlock(references) {
-  const items = references.map((ref) => ({
-    href: ref.href || `/docs/papers/BRAIN-Diet-References#${ref.citation_key}`,
-    label: ref.label || ref.citation_key,
-  }));
+  const items = references.map(phenomeRefToBibItem);
   const serialized = JSON.stringify(items).replace(/</g, "\\u003c");
   return ["- **Key References:**", "", `<PhenomeBibLinks items={${serialized}} />`];
 }

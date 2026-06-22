@@ -158,7 +158,7 @@ After reading §1 only, a non-specialist should understand what the mechanism do
 |---------|------|-----|--------|
 | **§1 Definition** | What it is | One tight mechanism sentence + optional scope paragraph | Mechanism biology dump; study citations unless defining scope |
 | **§4 Summary + blocks** | How it happens | Pathway biology, boundaries, integration | Restating Definition; food lists; evidence-trial recap |
-| **§4.1 Evidence Highlights** | How we know | Finding-first bullets with citations | Re-explaining LAT1, NF-κB, Nrf2, etc. |
+| **§4.1 Evidence Highlights** | How we know (mechanism-qualifying findings with citations) | Re-explaining LAT1, NF-κB, Nrf2, etc.; **phenome/outcome science** (belongs in §3) |
 
 Optional **`#### (Cross-BRS relevance of …)`** inside the mechanism dropdown when a PM's foods span multiple BRS domains (reference: BRS1 PM1 protein foods).
 
