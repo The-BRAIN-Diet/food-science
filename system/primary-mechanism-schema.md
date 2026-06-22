@@ -115,7 +115,7 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 
 ### Profile A — Extended narrative PM (e.g. BRS1 PMs, BRS6 PM1–PM4)
 
-1. Definition — `## 1. Definition` — **opening paragraph (1–3 sentences) + exactly 3 bullets** (cross-system / downstream significance). See `system/mechanism-page-section-prose.md` (**§1 Definition — UX structure**). Front matter `summary` aligns with the opening paragraph. Enzymology and pathway detail belong in §5 Mechanistic Basis, not §1.
+1. Definition — `## 1. Definition` — **translational opening paragraph + 3 bullets** (inline parenthetical glosses for specialist terms). See `system/mechanism-page-section-prose.md` (**§1 Definition — translational UX**). Front matter `summary` aligns with the opening paragraph. Enzymology and pathway detail belong in §5 Mechanistic Basis, not §1.
 2. Primary Biological Effects — `## 2. Primary Biological Effects` (directional arrow summary)
 3. Phenome Connections — `## 3. Phenome Connections` — translational mappings from `phenome_relationships`; canonical disclaimer required; empty state when unmapped
 4. Levers — `## 4. Levers` — **sole public section for dietary and lifestyle implementation** (see **PM §4 — Levers** below)

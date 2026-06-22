@@ -18,7 +18,17 @@ hide_title: true
 
 ## BRS5 - Gut-Brain Axis & Enteric Nervous System
 
-The Gut-Brain Axis & Enteric Nervous System system covers gut barrier integrity, microbial ecology, short-chain fatty acid and polyphenol-derived metabolite signalling, endotoxin containment, and vagal-enteric communication under dietary, immune, and circadian pressure. It links fermentable fibres, plant diversity, barrier-supportive nutrients, fermented foods, and microbiome-active polyphenols to gut-immune containment, microbial metabolite output, and gut-derived neuromodulatory support.
+(Gut Barrier, Microbial Signalling & Gut–Brain Neural Pathways)
+
+## Overview
+
+Helps maintain a selective gut barrier, beneficial microbial metabolite signalling, and gut-to-brain communication through vagal and enteric nervous system pathways. Gut ecology and barrier integrity shape immune containment and brain-relevant neuromodulatory inputs.
+
+* Supports gut barrier integrity and microbial metabolite signalling — within BRS5.
+* Links gut ecology to inflammatory containment — Supporting BRS3.
+* Connects gut–vagal pathways to neuroendocrine stress biology — Supporting BRS6.
+
+
 
 <details>
 <summary><strong>ADHD: Gut–Brain Axis & Enteric Nervous System Biological Implications</strong></summary>

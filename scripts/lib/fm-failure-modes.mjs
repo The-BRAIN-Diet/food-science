@@ -21,7 +21,7 @@ These pressures may impair [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integr
 
 /** Archived KC stressors (migrated off KC pages into FM §4.3). */
 export const KC_STRESSOR_ARCHIVE = {
-  "BRS1(KC2)": [
+  "BRS1(KC1)": [
     "Reliance on incomplete protein sources without complementary pairing",
     "Chronically low indispensable amino-acid coverage across meals",
     "LNAA imbalance favouring transport competition away from key precursors",

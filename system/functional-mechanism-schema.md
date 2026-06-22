@@ -300,7 +300,7 @@ First line of the MDX body (after front matter) must be the FM title: `## <FM_ID
 
 Numbered sections must stay contiguous. Optional `### 5.5 Evidence Highlights` nests under §5 when used (FM-level “why this matters” — not PM intervention evidence).
 
-1. **Definition** — `## 1. Definition` — integrated regulatory state per **FM Definition Rule**; `summary` in front matter must match this intent
+1. **Definition** — `## 1. Definition` — translational integrated state per **FM Definition Rule**; optional public subtitle under title; `summary` aligns with §1 opening paragraph
 2. **Primary Biological Effects** — `## 2. Primary Biological Effects` — short directional arrow line describing **emergent FM outcomes** per **FM Primary Biological Effects Rule**
 3. **Phenome Connections** — `## 3. Phenome Connections` — concise integrative outcomes from `functional_outcome_context` as `<details>` dropdowns; FM disclaimer required; no PM roll-up tables
 4. **Mechanistic Basis (Integrated FM Narrative)** — `## 4. Mechanistic Basis (Integrated FM Narrative)` — per **FM Mechanistic Basis Rule** and **Deduplication Rule**; weave timing context in §4.2 or §4.3 when `timing_specific: "Yes"`
@@ -308,7 +308,7 @@ Numbered sections must stay contiguous. Optional `### 5.5 Evidence Highlights` n
    - **`### 4.2 Integrated Functional Narrative`** — synthesis paragraph(s)
    - **`### 4.3 Functional Failure Modes`** — chronic constraint and impairment narrative (required)
    - **`### 4.4 Evidence Highlights`** — FM-level evidence for why the integrated state matters (required on **all** FMs before phenome Phase 2; see `system/fm-schema-rollout-sequence.md`)
-5. **Connected Mechanisms** — `## 5. Connected Mechanisms` — roll up from constituent PM `§6.2 Connected BRS Mechanisms`; each bullet links a specific PM or FM page and includes a **one-sentence connection** after an em dash describing how that mechanism relates to this FM (see **BRS1(FM3)** canonical)
+5. **Connected Mechanisms** — `## 5. Connected Mechanisms` — roll up from constituent PM connected-mechanisms sections; each bullet links a specific PM or FM page and includes a **one-sentence connection** after an em dash describing how that mechanism relates to this FM (see **BRS1(FM3)** canonical)
 6. **References** — `## 6. References` — `Author et al. (Year) — Topic` with bibliography links per **`system/brs-citation-reference-standard.md`**
 
 **Not on FM pages:** standalone `Primary Mechanisms (PMs)` or `KCs` index sections (PM/KC links live in §4.1/§4.2), `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, legacy `BRS Links` heading, or PM-level cofactor/dietary lever rollups — those belong on **PM pages** (§7–§9).
