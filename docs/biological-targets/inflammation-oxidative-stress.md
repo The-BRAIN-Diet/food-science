@@ -18,7 +18,17 @@ hide_title: true
 
 ## BRS3 - Inflammation & Oxidative Stress
 
-The Inflammation & Oxidative Stress system covers inflammatory signalling tone, antioxidant defence, active inflammation resolution, and redox buffering under immune, metabolic, gut-derived, and lipid-mediated pressure. It links dietary polyphenols, antioxidant substrates and cofactors, essential fatty acid balance, gut-derived inflammatory inputs, and food-pattern effects to immune signalling balance, oxidative resilience, and termination of unresolved inflammation.
+(Immune Signalling, Redox Balance & Inflammation Resolution)
+
+## Overview
+
+Helps regulate how intensely the body's inflammatory signals fire, how well antioxidant defences protect cells and membranes, and how effectively inflammation is shut down rather than left unresolved. Diet-influenced inputs shape immune balance, oxidative resilience, and recovery from inflammatory load.
+
+* Helps keep inflammatory and oxidative load in healthier balance — within BRS3.
+* Links gut barrier and microbial context to immune signalling — Supporting BRS5.
+* Connects redox biology to mitochondrial energy systems — Supporting BRS4.
+
+
 
 <details>
 <summary><strong>ADHD: Inflammation & Immune Signalling Biological Implications</strong></summary>

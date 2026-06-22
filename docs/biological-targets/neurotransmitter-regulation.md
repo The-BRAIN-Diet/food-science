@@ -23,7 +23,11 @@ hide_title: true
 
 Helps support the brain's chemical communication networks — the systems that underpin attention, motivation, mood, and behavioural control. Nutrition provides the proteins, amino acids, fats, vitamins, minerals, and metabolic cofactors that sustain neurotransmitter production, transport, signalling, and regulation across monoaminergic, cholinergic, membrane-lipid, and excitatory–inhibitory pathways.
 
-Unlike some structural brain components, many neurotransmitter-relevant nutrients cannot be stored in large functional reserves and depend on continual dietary replenishment. The BRAIN Framework therefore focuses on regular nutrient supply and broad biological regulation across connected pathways rather than isolated neurotransmitters alone.
+* Sustains neurotransmitter synthesis, membrane composition, and neuronal signalling — Supporting BRS1.
+* Links dietary protein and amino-acid patterns to attention, mood, and behavioural control — within BRS1.
+* Connects neurotransmitter biology to methylation, inflammation, and metabolic context — Supporting BRS2, BRS3, and BRS6.
+
+
 
 <details>
 <summary><strong>ADHD: Neurotransmitter Regulation Biological Implications</strong></summary>
@@ -94,7 +98,7 @@ Functional regulation of dopamine, noradrenaline and serotonin signalling, suppo
 
 **Key constraints:**
 
-- [BRS1(KC2) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc2-amino-acid-quality-and-competitive-balance)
+- [BRS1(KC1) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
 
 </details>
 
@@ -157,7 +161,7 @@ Functional control of excitatory–inhibitory tone through GABA–glutamate bala
 
 **Key constraints:**
 
-- [BRS1(KC2) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc2-amino-acid-quality-and-competitive-balance)
+- [BRS1(KC1) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
 
 **Connected mechanisms:**
 
@@ -173,7 +177,7 @@ Functional control of excitatory–inhibitory tone through GABA–glutamate bala
 
 Key Constraints (KCs) in BRS1 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
 
-- [BRS1(KC2) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc2-amino-acid-quality-and-competitive-balance): Quality, completeness, and relative balance of dietary amino-acid pools influencing precursor adequacy, limiting amino-acid risk, and competitive transport context.
+- [BRS1(KC1) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance): Quality, completeness, and relative balance of dietary amino-acid pools influencing precursor adequacy, limiting amino-acid risk, and competitive transport context.
 
 ---
 

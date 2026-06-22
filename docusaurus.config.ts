@@ -198,6 +198,8 @@ const config: Config = {
       require.resolve('@docusaurus/plugin-client-redirects'),
       {
         redirects: [
+          // BRS1 KC2 -> KC1 after KC1 removal
+          { to: '/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance', from: '/docs/biological-targets/brs1/kc/brs1-kc2-amino-acid-quality-and-competitive-balance' },
           // BRS1 FM3–FM5 → FM2–FM4 after FM2 removal
           { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function', from: '/docs/biological-targets/brs1/fm3/brs1-fm3-cholinergic-function' },
           { to: '/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support', from: '/docs/biological-targets/brs1/fm3/brs1-fm3-pm5-acetylcholine-synthesis-support' },

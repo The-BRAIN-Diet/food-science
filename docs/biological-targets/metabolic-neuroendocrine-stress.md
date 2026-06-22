@@ -20,11 +20,17 @@ hide_title: true
 
 ## BRS6 - Metabolic & Neuroendocrine Stress
 
+(Stress Hormones, Autonomic Balance & Metabolic Energy Allocation)
+
 ## Overview
 
-The Metabolic & Neuroendocrine Stress system governs how the body allocates energy, regulates stress responses, and maintains physiological balance across changing internal and external conditions. It integrates signals from the hypothalamic-pituitary-adrenal (HPA) axis, autonomic nervous system (ANS), and broader metabolic pathways to coordinate hormonal output, energy availability, and adaptive responses.
+Helps the body allocate energy, regulate stress responses, and maintain physiological balance across changing internal and external conditions. This integrates hypothalamic–pituitary–adrenal (HPA) axis signals, autonomic nervous system balance, and broader metabolic pathways that shape hormonal output, energy availability, and adaptive responses.
 
-Beyond metabolic health, this system is central to stress regulation, underpinning cognitive function and behavioural stability. It integrates signals related to energy availability, including insulin response, circadian rhythms, and lifestyle inputs to regulate brain energy, cognition, and whole-body function.
+* Supports stable glycaemic–insulin dynamics and cognitive energy availability — within BRS6.
+* Regulates cortisol rhythm and circadian timing of feeding and recovery — within BRS6.
+* Links metabolic-inflammatory load to wider brain-relevant stress state — Supporting BRS3 and BRS1.
+
+
 
 <details>
 <summary><strong>ADHD: Metabolic & Neuroendocrine Stress Biological Implications</strong></summary>

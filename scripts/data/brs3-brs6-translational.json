@@ -1,0 +1,586 @@
+[
+  {
+    "path": "brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone.mdx",
+    "translational": "A diet-actionable control point that helps regulate how intensely inflammatory signals fire across cytokine networks, NF-κB transcription (a master switch for pro-inflammatory gene expression), gut-derived inputs, and lipid-mediator pathways.",
+    "scientific": "Diet-actionable control point regulating inflammatory signalling intensity across cytokine, NF-kB, gut-derived, and lipid-mediator inputs.",
+    "bullets": [
+      "Helps keep pro-inflammatory transcriptional tone in check through NF-κB regulation — within BRS3.",
+      "Limits gut-derived endotoxin spillover into systemic inflammatory signalling — Supporting BRS5.",
+      "Connects dietary antioxidant and fatty-acid context to inflammatory intensity — within BRS3."
+    ],
+    "subtitle": "(Anti-Inflammatory Signalling Control)"
+  },
+  {
+    "path": "brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
+    "translational": "Regulates the NF-κB inflammatory transcription pathway (a master regulator of pro-inflammatory gene expression) that drives cytokine and immune-activation programmes.",
+    "scientific": "Regulation of the NF-kB inflammatory transcription pathway that drives pro-inflammatory gene expression. This PM captures an upstream inflammatory-control node through which diet can influence transcriptional tone rather than downstream symptom expression alone.",
+    "bullets": [
+      "Regulates upstream NF-κB transcriptional inflammatory tone — within BRS3.",
+      "Influences pro-inflammatory gene expression programmes — within BRS3.",
+      "Provides dietary-actionable control over inflammatory signalling intensity — within BRS3."
+    ]
+  },
+  {
+    "path": "brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+    "translational": "Describes inflammatory signalling driven by endotoxin translocation and barrier dysfunction (leakage of bacterial lipopolysaccharide across the gut lining), linking gut ecology to systemic and neural inflammation.",
+    "scientific": "Inflammatory signalling driven by endotoxin translocation and barrier dysfunction, linking gut ecology to systemic and neural inflammation. This PM captures inflammatory load entering from the gut interface, where barrier integrity, microbial ecology, and endotoxin burden shape downstream immune signalling.",
+    "bullets": [
+      "Links gut endotoxin translocation to systemic inflammatory load — Supporting BRS5.",
+      "Captures barrier-dysfunction-driven inflammatory spillover — within BRS3.",
+      "Shapes neural and systemic inflammation context from the gut interface — within BRS3."
+    ]
+  },
+  {
+    "path": "brs3/fm2/brs3-fm2-antioxidant-defense-capacity.mdx",
+    "translational": "A functional control point regulating endogenous and dietary antioxidant protection against redox overload, oxidative damage, and lipid peroxidation (oxidative breakdown of membrane fats).",
+    "scientific": "Functional control point regulating endogenous and exogenous antioxidant protection against redox overload, oxidative damage, and lipid peroxidation control.",
+    "bullets": [
+      "Raises endogenous antioxidant defence through Nrf2-dependent gene programmes — within BRS3.",
+      "Balances reactive oxygen species production against clearance capacity — within BRS3.",
+      "Protects membrane lipids and polyunsaturated fatty acids from oxidative degradation — within BRS3."
+    ],
+    "subtitle": "(Antioxidant Defence & Redox Protection)"
+  },
+  {
+    "path": "brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+    "translational": "Activates Nrf2-dependent antioxidant and detoxification gene programmes (endogenous cellular defence switches) that raise cellular protection against oxidative stress.",
+    "scientific": "Activation of Nrf2-dependent antioxidant and detoxification gene programs that raise endogenous cellular protection. This PM governs endogenous defence induction rather than exogenous antioxidant supply alone.",
+    "bullets": [
+      "Induces endogenous antioxidant and detoxification gene programmes via Nrf2 — within BRS3.",
+      "Raises cellular protection against oxidative stress — within BRS3.",
+      "Depends on antioxidant substrate and cofactor sufficiency from KC pools — within BRS3."
+    ]
+  },
+  {
+    "path": "brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
+    "translational": "Maintains dynamic balance between reactive oxygen species (ROS) production and neutralisation across immune and metabolic contexts — capturing net redox pressure rather than a single biomarker.",
+    "scientific": "Dynamic balance between reactive oxygen species production and neutralization across immune and metabolic contexts. This PM captures net redox pressure as a dynamic balance between generation and clearance.",
+    "bullets": [
+      "Balances ROS generation against clearance capacity — within BRS3.",
+      "Captures net redox pressure across immune and metabolic contexts — within BRS3.",
+      "Links to mitochondrial ROS biology represented in BRS4 — Supporting BRS4."
+    ]
+  },
+  {
+    "path": "brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+    "translational": "Protects membrane lipids and polyunsaturated fatty acids from oxidative degradation — where antioxidant availability and lipid quality jointly determine whether vulnerable fatty acids are protected or damaged.",
+    "scientific": "Protection of membrane lipids and polyunsaturated fatty acids from oxidative degradation. This PM governs oxidative damage control at the membrane level.",
+    "bullets": [
+      "Protects polyunsaturated fatty acids from oxidative membrane damage — within BRS3.",
+      "Depends on antioxidant network recycling and substrate sufficiency — within BRS3.",
+      "Intersects neuronal membrane lipid chemistry in BRS1 — Supporting BRS1."
+    ]
+  },
+  {
+    "path": "brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+    "translational": "Supports recycling interactions among antioxidant systems that regenerate vitamin and thiol antioxidant capacity (networked regeneration rather than single-compound supply).",
+    "scientific": "Recycling interactions among antioxidant systems that regenerate vitamin and thiol antioxidant capacity. This PM governs antioxidant-network recycling and regeneration rather than single-compound antioxidant supply.",
+    "bullets": [
+      "Recycles vitamin and thiol antioxidants across networked systems — within BRS3.",
+      "Regenerates endogenous antioxidant capacity beyond single-molecule supply — within BRS3.",
+      "Supports glutathione-linked redox chemistry intersecting BRS2 — Supporting BRS2."
+    ]
+  },
+  {
+    "path": "brs3/fm3/brs3-fm3-inflammation-resolution-capacity.mdx",
+    "translational": "A functional control point governing active termination of inflammation through pro-resolving lipid mediators (specialised molecules that switch inflammation off) rather than simple suppression of immune activity.",
+    "scientific": "Functional control point governing active termination of inflammation through pro-resolving lipid mediators rather than simple suppression.",
+    "bullets": [
+      "Modulates cytokine signalling tone across IL-6, TNF-α, and CRP-linked pathways — within BRS3.",
+      "Balances arachidonic-acid inflammatory mediators against EPA/DHA-derived pro-resolving mediators — within BRS3.",
+      "Depends on essential fatty acid balance and antioxidant substrate sufficiency — within BRS3."
+    ],
+    "subtitle": "(Inflammation Resolution & Lipid Mediator Balance)"
+  },
+  {
+    "path": "brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
+    "translational": "Modulates cytokine signalling tone across IL-6, TNF-α, and CRP-linked inflammatory pathways — governing downstream cytokine intensity rather than upstream transcriptional nodes alone.",
+    "scientific": "Modulation of cytokine signalling tone across IL-6, TNF-a, CRP-linked inflammatory pathways. This PM governs downstream cytokine-signalling tone rather than upstream transcriptional nodes or gut-derived endotoxin load.",
+    "bullets": [
+      "Modulates IL-6, TNF-α, and CRP-linked cytokine tone — within BRS3.",
+      "Governs downstream inflammatory signalling intensity — within BRS3.",
+      "Complements upstream NF-κB regulation represented in sibling PMs — within BRS3."
+    ]
+  },
+  {
+    "path": "brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
+    "translational": "Balances arachidonic-acid-derived inflammatory mediators against EPA/DHA-derived specialised pro-resolving mediators (SPMs) — governing the shift from pro-inflammatory eicosanoids toward active inflammation resolution.",
+    "scientific": "Balancing arachidonic-acid-derived inflammatory mediators against EPA/DHA-derived specialized pro-resolving mediators. This PM governs the balance between pro-inflammatory eicosanoids and pro-resolving lipid mediators.",
+    "bullets": [
+      "Balances pro-inflammatory eicosanoids against pro-resolving mediators — within BRS3.",
+      "Depends on essential fatty acid balance from KC pools — within BRS3.",
+      "Drives active inflammation resolution rather than simple suppression — within BRS3."
+    ]
+  },
+  {
+    "path": "brs3/kc/brs3-kc1-antioxidant-substrate-availability.mdx",
+    "translational": "Helps ensure availability of antioxidant substrates and precursor compounds required to support endogenous antioxidant defence, redox buffering, and limitation of oxidative damage.",
+    "scientific": "Availability of antioxidant substrates and precursor compounds required to support endogenous antioxidant defence, redox buffering, and oxidative-damage limitation.",
+    "bullets": [
+      "Constrains Nrf2 activation and antioxidant network recycling when depleted — within BRS3.",
+      "Supports redox buffering across BRS3(FM2) mechanisms — within BRS3.",
+      "Links fruit, vegetable, and polyphenol intake to endogenous defence capacity — within BRS3."
+    ]
+  },
+  {
+    "path": "brs3/kc/brs3-kc3-essential-fatty-acid-balance.mdx",
+    "translational": "Helps ensure availability and balance of omega-3 and omega-6 fatty acids required for inflammatory signalling, membrane composition, and inflammation-resolution pathways.",
+    "scientific": "Availability and balance of omega-3 and omega-6 fatty acids required for inflammatory signalling, membrane composition, and inflammation-resolution pathways.",
+    "bullets": [
+      "Constrains eicosanoid and SPM balance when omega-3/omega-6 ratio is unfavourable — within BRS3.",
+      "Supports membrane composition relevant to neuronal signalling — Supporting BRS1.",
+      "Underpins inflammation-resolution capacity in BRS3(FM3) — within BRS3."
+    ]
+  },
+  {
+    "path": "brs4/fm1/brs4-fm1-cellular-bioenergetics.mdx",
+    "translational": "A functional control point governing ATP production via mitochondrial respiration, electron transport chain efficiency, NAD⁺-linked redox metabolism, and high-demand energy buffering for brain and body tissues.",
+    "scientific": "Functional control of ATP production via mitochondrial respiration, ETC efficiency, NAD⁺-linked redox metabolism, and high-demand energy support.",
+    "bullets": [
+      "Generates ATP through oxidative phosphorylation and electron transport — within BRS4.",
+      "Maintains NAD⁺ availability for redox reactions and mitochondrial signalling — within BRS4.",
+      "Buffers rapid ATP demand through creatine–phosphocreatine systems — within BRS4."
+    ],
+    "subtitle": "(Cellular Bioenergetics & ATP Production)"
+  },
+  {
+    "path": "brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
+    "translational": "Governs oxidative phosphorylation and electron transfer efficiency that generates ATP (cellular energy) within mitochondria.",
+    "scientific": "Oxidative phosphorylation and electron transfer efficiency generating ATP.",
+    "bullets": [
+      "Generates ATP through mitochondrial electron transport and oxidative phosphorylation — within BRS4.",
+      "Depends on macronutrient substrate and cofactor sufficiency — within BRS4.",
+      "Underpins cognitive energy availability intersecting BRS6 — Supporting BRS6."
+    ]
+  },
+  {
+    "path": "brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx",
+    "translational": "Maintains NAD⁺ availability for redox reactions, oxidative metabolism, and mitochondrial signalling (a central cofactor linking energy production to cellular regulation).",
+    "scientific": "NAD⁺ availability for redox reactions, oxidative metabolism, and mitochondrial signalling.",
+    "bullets": [
+      "Sustains NAD⁺ for redox reactions and mitochondrial signalling — within BRS4.",
+      "Links energy metabolism to cellular regulatory chemistry — within BRS4.",
+      "Depends on micronutrient cofactors represented in BRS4(KC2) — within BRS4."
+    ]
+  },
+  {
+    "path": "brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx",
+    "translational": "Provides a rapid ATP buffering system supporting high-energy-demand tissues, especially brain and muscle, through creatine–phosphocreatine cycling.",
+    "scientific": "Rapid ATP buffering system supporting high-energy-demand tissues, especially brain and muscle.",
+    "bullets": [
+      "Buffers rapid ATP demand in brain and high-energy tissues — within BRS4.",
+      "Supports cognitive energy availability under acute demand — Supporting BRS6.",
+      "Complements oxidative phosphorylation for burst energy needs — within BRS4."
+    ]
+  },
+  {
+    "path": "brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability.mdx",
+    "translational": "A functional control point governing mitochondrial membrane integrity, oxidative stability, and resistance to redox-mediated mitochondrial damage.",
+    "scientific": "Functional control of mitochondrial membrane integrity, oxidative stability, and resistance to redox-mediated mitochondrial damage.",
+    "bullets": [
+      "Balances mitochondrial reactive oxygen species production against protective buffering — within BRS4.",
+      "Protects mitochondrial membranes, enzymes, and redox systems from oxidative damage — within BRS4.",
+      "Supports energetic resilience under metabolic and inflammatory load — Supporting BRS3."
+    ],
+    "subtitle": "(Mitochondrial Resilience & Redox Stability)"
+  },
+  {
+    "path": "brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
+    "translational": "Maintains balance between mitochondrial reactive oxygen species (ROS) generation and protective buffering within the organelle.",
+    "scientific": "Balance between mitochondrial ROS generation and protective buffering within the organelle.",
+    "bullets": [
+      "Balances mitochondrial ROS production against protective buffering — within BRS4.",
+      "Prevents redox-mediated mitochondrial damage under metabolic load — within BRS4.",
+      "Intersects systemic redox balance represented in BRS3 — Supporting BRS3."
+    ]
+  },
+  {
+    "path": "brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx",
+    "translational": "Protects mitochondrial membranes, enzymes, and redox systems from oxidative damage — preserving organelle integrity under metabolic strain.",
+    "scientific": "Protection of mitochondrial membranes, enzymes, and redox systems from oxidative damage.",
+    "bullets": [
+      "Protects mitochondrial membranes and enzymes from oxidative damage — within BRS4.",
+      "Preserves organelle integrity under inflammatory and metabolic strain — within BRS4.",
+      "Depends on antioxidant substrate sufficiency from BRS3 — Supporting BRS3."
+    ]
+  },
+  {
+    "path": "brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport.mdx",
+    "translational": "Transports long-chain fatty acids into mitochondria for β-oxidation (fatty-acid burning) — a prerequisite step for fat-derived ATP production.",
+    "scientific": "Transport of long-chain fatty acids into mitochondria for β-oxidation.",
+    "bullets": [
+      "Transports long-chain fatty acids into mitochondria for β-oxidation — within BRS4.",
+      "Enables fat-derived ATP production when glucose availability shifts — within BRS4.",
+      "Depends on carnitine and substrate availability from dietary patterns — within BRS4."
+    ]
+  },
+  {
+    "path": "brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity.mdx",
+    "translational": "Supports capacity to transport, metabolise, and utilise ketone bodies as alternative mitochondrial energy substrates when glucose availability or metabolic conditions change.",
+    "scientific": "Capacity to transport, metabolise, and utilise ketone bodies as alternative mitochondrial energy substrates, supporting ATP production when glucose availability or metabolic conditions change.",
+    "bullets": [
+      "Utilises ketone bodies as alternative mitochondrial fuel — within BRS4.",
+      "Supports ATP production when glucose availability is constrained — within BRS4.",
+      "Contributes to metabolic fuel flexibility across substrate conditions — within BRS4."
+    ]
+  },
+  {
+    "path": "brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching.mdx",
+    "translational": "Enables transition between glucose-derived, fatty-acid-derived, and ketone-derived energy production pathways according to substrate availability and physiological demand.",
+    "scientific": "Capacity to transition between glucose-derived, fatty-acid-derived, and ketone-derived energy production pathways according to substrate availability and physiological demand.",
+    "bullets": [
+      "Switches between glucose, fat, and ketone ATP production pathways — within BRS4.",
+      "Adapts energy substrate use to physiological demand — within BRS4.",
+      "Links glycaemic context from BRS6 to mitochondrial substrate choice — Supporting BRS6."
+    ]
+  },
+  {
+    "path": "brs4/fm3/brs4-fm3-substrate-utilisation-flexibility.mdx",
+    "translational": "A functional control point governing mitochondrial capacity to transition between glucose, fatty acids, ketones, and mixed substrates efficiently under changing metabolic demand (metabolic fuel flexibility).",
+    "scientific": "Functional control of mitochondrial capacity to transition between glucose, fatty acids, ketones, and mixed substrates efficiently under changing metabolic demand.",
+    "bullets": [
+      "Transports long-chain fatty acids into mitochondria for β-oxidation — within BRS4.",
+      "Utilises ketone bodies as alternative energy substrates when glucose availability shifts — within BRS4.",
+      "Switches between glucose-derived, fatty-acid-derived, and ketone-derived ATP production — within BRS4."
+    ],
+    "subtitle": "(Substrate Utilisation & Metabolic Fuel Flexibility)"
+  },
+  {
+    "path": "brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx",
+    "translational": "Supports integrated regulation of exercise-driven mitochondrial biogenesis (formation of new mitochondria) and adaptive density expansion, with diet providing permissive substrate and cofactor support for long-term energetic capacity.",
+    "scientific": "Integrated regulation of exercise-driven mitochondrial biogenesis and adaptive density expansion, with diet providing permissive substrate and cofactor support, influencing long-term energetic capacity.",
+    "bullets": [
+      "Drives formation of new mitochondria through PGC-1α and related pathways — within BRS4.",
+      "Links physical activity signals to mitochondrial density expansion over time — within BRS4.",
+      "Depends on macronutrient substrate and cofactor sufficiency for adaptive support — within BRS4."
+    ],
+    "subtitle": "(Mitochondrial Capacity Expansion & Adaptation)"
+  },
+  {
+    "path": "brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
+    "translational": "Drives formation of new mitochondria through pathways such as PGC-1α, AMPK, and related transcriptional regulators (adaptive expansion of mitochondrial capacity).",
+    "scientific": "Formation of new mitochondria through pathways such as PGC-1α, AMPK, and related transcriptional regulators.",
+    "bullets": [
+      "Drives mitochondrial biogenesis through PGC-1α and AMPK pathways — within BRS4.",
+      "Expands mitochondrial density in response to exercise signals — within BRS4.",
+      "Depends on permissive substrate and cofactor support from diet — within BRS4."
+    ]
+  },
+  {
+    "path": "brs4/kc/brs4-kc1-macronutrient-substrate-availability.mdx",
+    "translational": "Helps ensure availability of glucose, fatty acids, and amino acids as substrates for ATP production across mitochondrial bioenergetic pathways.",
+    "scientific": "Availability of glucose, fatty acids, and amino acids for ATP production.",
+    "bullets": [
+      "Constrains ATP production when macronutrient substrates are insufficient — within BRS4.",
+      "Supports fuel switching across glucose, fat, and ketone pathways — within BRS4.",
+      "Links meal composition to cognitive energy context — Supporting BRS6."
+    ]
+  },
+  {
+    "path": "brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency.mdx",
+    "translational": "Helps ensure availability of vitamins and minerals required for mitochondrial enzymes and electron transfer (cofactor sufficiency for bioenergetic machinery).",
+    "scientific": "Availability of vitamins and minerals required for mitochondrial enzymes and electron transfer.",
+    "bullets": [
+      "Constrains electron transport and NAD⁺ metabolism when cofactors are depleted — within BRS4.",
+      "Supports enzyme function across BRS4(FM1–FM2) mechanisms — within BRS4.",
+      "Links micronutrient sufficiency to energetic resilience — within BRS4."
+    ]
+  },
+  {
+    "path": "brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx",
+    "translational": "A diet-actionable control point regulating epithelial tight-junction integrity, mucus protection, and immune containment at the gut–brain interface (keeping gut contents selectively separated from systemic circulation).",
+    "scientific": "Diet-actionable control point regulating epithelial tight-junction integrity, mucus protection, and immune containment at the gut-brain interface.",
+    "bullets": [
+      "Maintains epithelial tight junctions and selective intestinal permeability — within BRS5.",
+      "Contains bacterial endotoxin and prevents metabolic endotoxaemia — within BRS5.",
+      "Supports beneficial keystone taxa underpinning anti-inflammatory gut ecology — within BRS5."
+    ],
+    "subtitle": "(Gut Barrier Integrity & Immune Interface)"
+  },
+  {
+    "path": "brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
+    "translational": "Maintains epithelial tight junctions, mucus integrity, and selective permeability at the intestinal barrier — the structural containment layer determining whether the gut remains a selective interface.",
+    "scientific": "Maintenance of epithelial tight junctions, mucus integrity, and selective permeability at the intestinal barrier.",
+    "bullets": [
+      "Maintains epithelial tight junctions and selective intestinal permeability — within BRS5.",
+      "Preserves mucus integrity at the gut lining — within BRS5.",
+      "Provides structural containment upstream of endotoxin spillover — within BRS5."
+    ]
+  },
+  {
+    "path": "brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx",
+    "translational": "Contains bacterial endotoxin (lipopolysaccharide) and prevents metabolic endotoxaemia through barrier integrity and microbial balance — limiting systemic inflammatory spillover from the gut.",
+    "scientific": "Containment of bacterial endotoxin and prevention of metabolic endotoxemia through barrier integrity and microbial balance.",
+    "bullets": [
+      "Contains bacterial endotoxin and limits metabolic endotoxaemia — within BRS5.",
+      "Prevents gut-derived inflammatory spillover into systemic circulation — Supporting BRS3.",
+      "Depends on barrier integrity and microbial balance together — within BRS5."
+    ]
+  },
+  {
+    "path": "brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx",
+    "translational": "Supports beneficial taxa and functional guilds such as Bifidobacterium, Faecalibacterium, and Lactobacillus that underpin anti-inflammatory and signalling effects within the gut ecosystem.",
+    "scientific": "Support of beneficial taxa and functional guilds such as Bifidobacterium, Faecalibacterium, and Lactobacillus that underpin anti-inflammatory and signalling effects.",
+    "bullets": [
+      "Supports keystone taxa underpinning anti-inflammatory gut ecology — within BRS5.",
+      "Depends on fermentable fibre and plant diversity from KC pools — within BRS5.",
+      "Shapes microbial metabolite signalling capacity downstream — within BRS5."
+    ]
+  },
+  {
+    "path": "brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity.mdx",
+    "translational": "A functional control point governing production of beneficial microbial metabolites that shape immune, endocrine, and neurobiological signalling.",
+    "scientific": "Functional control point governing production of beneficial microbial metabolites that shape immune, endocrine, and neurobiological signalling.",
+    "bullets": [
+      "Drives microbial ecological turnover and competitive selection of beneficial functions — within BRS5.",
+      "Produces short-chain fatty acids that influence barrier, inflammation, and brain signalling — within BRS5.",
+      "Biotransforms polyphenols into mitochondrial-relevant metabolites such as urolithin A — Supporting BRS4."
+    ],
+    "subtitle": "(Microbial Metabolite Signalling)"
+  },
+  {
+    "path": "brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
+    "translational": "Drives continuous renewal of the gut microbial ecosystem through substrate availability and ecological competition, selecting which taxa and functions are maintained over time.",
+    "scientific": "Continuous renewal of the gut microbial ecosystem driven by substrate availability and ecological competition, leading to selection of taxa and functions over time.",
+    "bullets": [
+      "Drives ecological turnover and competitive selection of microbial functions — within BRS5.",
+      "Depends on repeated fermentable substrate exposure over time — within BRS5.",
+      "Shapes which metabolite-signalling pathways are maintained — within BRS5."
+    ]
+  },
+  {
+    "path": "brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx",
+    "translational": "Supports microbial fermentation of fibres into short-chain fatty acids (butyrate, propionate, and acetate) that influence barrier function, inflammation, metabolism, and brain signalling.",
+    "scientific": "Microbial fermentation of fibres into short-chain fatty acids that influence barrier function, inflammation, metabolism, and brain signalling.",
+    "bullets": [
+      "Produces butyrate, propionate, and acetate from fermentable fibre — within BRS5.",
+      "Supports barrier function and anti-inflammatory signalling — within BRS5.",
+      "Influences brain-relevant metabolic and neuromodulatory context — Supporting BRS6."
+    ]
+  },
+  {
+    "path": "brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx",
+    "translational": "Supports microbial conversion of dietary polyphenols into downstream metabolites such as urolithin A that influence mitochondrial and inflammatory resilience (a key BRS5-to-BRS4 bridge mechanism).",
+    "scientific": "Microbial conversion of dietary polyphenols into downstream metabolites such as urolithin A that influence mitochondrial and inflammatory resilience.",
+    "bullets": [
+      "Biotransforms polyphenols into metabolites such as urolithin A — within BRS5.",
+      "Bridges gut ecology to mitochondrial resilience in BRS4 — Supporting BRS4.",
+      "Depends on polyphenol and plant diversity from KC pools — within BRS5."
+    ]
+  },
+  {
+    "path": "brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling.mdx",
+    "translational": "A diet-actionable control point regulating vagal and enteric nervous system signalling through microbial activity, barrier state, and metabolite or neurochemical cues (gut-to-brain neuromodulation).",
+    "scientific": "Diet-actionable control point regulating vagal and enteric signalling through microbial activity, barrier state, and metabolite/neurochemical cues.",
+    "bullets": [
+      "Modulates vagal and enteric nervous system signalling through gut-derived cues — within BRS5.",
+      "Influences neurotransmitter precursor biotransformation and availability — Supporting BRS1.",
+      "Links gut ecology and barrier state to autonomic neuromodulation — Supporting BRS6."
+    ],
+    "subtitle": "(Gut–Vagal Neuromodulation & ENS Signalling)"
+  },
+  {
+    "path": "brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
+    "translational": "Modulates vagal and enteric nervous system signalling through microbial activity and gut-derived neuroactive cues — a primary gut-to-brain communication route.",
+    "scientific": "Modulation of vagal and enteric nervous system signalling through microbial activity and gut-derived neuroactive cues.",
+    "bullets": [
+      "Modulates vagal and enteric nervous system signalling from the gut — within BRS5.",
+      "Transduces microbial and barrier-state cues into neuromodulation — within BRS5.",
+      "Links gut ecology to autonomic balance in BRS6 — Supporting BRS6."
+    ]
+  },
+  {
+    "path": "brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx",
+    "translational": "Influences microbial and absorptive processes that shape availability of central neurotransmitter precursors such as tryptophan and tyrosine — the gut-side contribution to monoaminergic substrate context.",
+    "scientific": "Microbial and absorptive processes that influence availability of central neurotransmitter precursors such as tryptophan and tyrosine.",
+    "bullets": [
+      "Influences tryptophan and tyrosine precursor availability from the gut — within BRS5.",
+      "Provides gut-side context for monoaminergic biology in BRS1 — Supporting BRS1.",
+      "Does not redefine core neurotransmitter pathway biology housed in BRS1 — within BRS5."
+    ]
+  },
+  {
+    "path": "brs5/kc/brs5-kc1-fermentable-fibre-availability.mdx",
+    "translational": "Helps ensure availability of fermentable fibres and resistant starch required to sustain microbial fermentation and short-chain fatty acid production.",
+    "scientific": "Availability of fermentable fibres and resistant starch required to sustain microbial fermentation and SCFA production.",
+    "bullets": [
+      "Constrains SCFA production when fermentable fibre intake is low — within BRS5.",
+      "Sustains microbial ecological turnover and keystone taxa support — within BRS5.",
+      "Underpins barrier and metabolite-signalling mechanisms across BRS5 — within BRS5."
+    ]
+  },
+  {
+    "path": "brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability.mdx",
+    "translational": "Helps ensure availability of microbiome-active polyphenols and broad plant diversity required to support microbial ecology and biotransformation.",
+    "scientific": "Availability of microbiome-active polyphenols and broad plant diversity required to support microbial ecology and biotransformation.",
+    "bullets": [
+      "Constrains polyphenol biotransformation when plant diversity is low — within BRS5.",
+      "Supports microbial ecological competition and functional selection — within BRS5.",
+      "Enables downstream mitochondrial-relevant metabolite generation — Supporting BRS4."
+    ]
+  },
+  {
+    "path": "brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency.mdx",
+    "translational": "Helps ensure availability of nutrients that support epithelial maintenance, mucosal immunity, and barrier resilience at the gut lining.",
+    "scientific": "Availability of nutrients that support epithelial maintenance, mucosal immunity, and barrier resilience.",
+    "bullets": [
+      "Constrains tight-junction integrity when barrier-supportive nutrients are insufficient — within BRS5.",
+      "Supports mucosal immunity and epithelial maintenance — within BRS5.",
+      "Underpins gut barrier mechanisms across BRS5(FM1) — within BRS5."
+    ]
+  },
+  {
+    "path": "brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability.mdx",
+    "translational": "Supports integrated regulation of glucose appearance, glycaemic stability, and insulin-supported glucose disposal across the post-prandial period — influencing metabolic continuity, reactive neuroendocrine demand, and cognitive energy availability.",
+    "scientific": "Integrated regulation of glucose appearance, glycaemic stability, and insulin-supported glucose disposal across the post-prandial period, influencing metabolic continuity, reactive neuroendocrine demand, and cognitive energy availability.",
+    "bullets": [
+      "Regulates the rate and profile of glucose appearance after meals — within BRS6.",
+      "Limits glycaemic variability and post-prandial glucose oscillation — within BRS6.",
+      "Supports insulin-sensitive glucose clearance and utilisation — within BRS6."
+    ],
+    "subtitle": "(Glycaemic–Insulin Stability & Cognitive Energy)"
+  },
+  {
+    "path": "brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
+    "translational": "Regulates the rate and temporal profile of glucose appearance following feeding through digestion kinetics, gastric emptying, intestinal absorption, food structure, and meal-context effects.",
+    "scientific": "Regulation of the rate and temporal profile of glucose appearance following feeding through digestion kinetics, gastric emptying, intestinal absorption, food structure, and meal-context effects.",
+    "bullets": [
+      "Regulates how quickly glucose appears after meals — within BRS6.",
+      "Shapes post-prandial glucose profile through food structure and digestion — within BRS6.",
+      "Upstream of glycaemic variability and insulin demand — within BRS6."
+    ]
+  },
+  {
+    "path": "brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation.mdx",
+    "translational": "Regulates stability, volatility, and oscillatory behaviour of post-prandial glucose dynamics — governing how variable glucose fluctuations become and the metabolic and neuroendocrine stress burden they create.",
+    "scientific": "Regulation of the stability, volatility, and oscillatory behaviour of post-prandial glucose dynamics across the meal period. Rather than controlling glucose entry directly, this mechanism governs how variable or stable glucose fluctuations become over time and the resulting metabolic and neuroendocrine stress burden associated with those fluctuations.",
+    "bullets": [
+      "Limits glycaemic volatility and post-prandial glucose oscillation — within BRS6.",
+      "Reduces metabolic and neuroendocrine stress from glucose swings — within BRS6.",
+      "Operates downstream of glucose appearance kinetics — within BRS6."
+    ]
+  },
+  {
+    "path": "brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal.mdx",
+    "translational": "Supports capacity to clear and utilise circulating glucose efficiently after nutrient intake through insulin-responsive tissues — reducing prolonged post-prandial strain and supporting metabolic recovery.",
+    "scientific": "Capacity to clear and utilise circulating glucose efficiently after nutrient intake through insulin-responsive tissues, hepatic and muscle glucose handling, and broader metabolic context, reducing prolonged post-prandial strain and supporting metabolic recovery.",
+    "bullets": [
+      "Supports insulin-sensitive glucose clearance after meals — within BRS6.",
+      "Reduces prolonged post-prandial metabolic strain — within BRS6.",
+      "Links to cognitive energy availability across the meal period — within BRS6."
+    ]
+  },
+  {
+    "path": "brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation.mdx",
+    "translational": "Supports integrated regulation of cortisol rhythm and light–feeding entrainment across waking, feeding, and recovery cycles — influencing stress-hormone amplitude, phase alignment, and diurnal neuroendocrine stability.",
+    "scientific": "Integrated regulation of cortisol rhythm and light–feeding entrainment across waking, feeding, and recovery cycles, influencing stress-hormone amplitude, phase alignment, and diurnal neuroendocrine stability.",
+    "bullets": [
+      "Regulates diurnal cortisol pattern including morning activation and evening downshift — within BRS6.",
+      "Aligns feeding windows and light exposure with circadian neuroendocrine rhythms — within BRS6.",
+      "Links meal timing and sleep structure to HPA-axis phase stability — within BRS6."
+    ],
+    "subtitle": "(HPA Axis Rhythm & Cortisol Regulation)"
+  },
+  {
+    "path": "brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
+    "translational": "Regulates the diurnal cortisol pattern, especially morning activation and evening downshift, through HPA-axis timing, sleep–wake structure, and consistency of feeding-related metabolic cues.",
+    "scientific": "Regulation of the diurnal cortisol pattern, especially morning activation and evening downshift, through HPA-axis timing, sleep–wake structure, and consistency of feeding-related metabolic cues.",
+    "bullets": [
+      "Regulates diurnal cortisol amplitude and phase — within BRS6.",
+      "Aligns morning activation and evening downshift — within BRS6.",
+      "Depends on sleep–wake and feeding cue consistency — within BRS6."
+    ]
+  },
+  {
+    "path": "brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment.mdx",
+    "translational": "Aligns feeding windows, light exposure, and sleep timing with circadian regulation of metabolism and neuroendocrine rhythms across the 24-hour cycle.",
+    "scientific": "Alignment of feeding windows, light exposure, and sleep timing with circadian regulation of metabolism and neuroendocrine rhythms across the 24-hour cycle.",
+    "bullets": [
+      "Entrains metabolism to light–dark and feeding rhythms — within BRS6.",
+      "Supports cortisol phase alignment across the 24-hour cycle — within BRS6.",
+      "Links meal timing and sleep structure to HPA-axis stability — within BRS6."
+    ]
+  },
+  {
+    "path": "brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity.mdx",
+    "translational": "Supports integrated regulation of sympathetic–parasympathetic balance and vagal recovery capacity after stress or cognitive demand — influencing autonomic flexibility, heart-rate variability context, and physiological downshifting.",
+    "scientific": "Integrated regulation of sympathetic–parasympathetic balance and vagal recovery capacity after stress or cognitive demand, influencing autonomic flexibility, HRV context, and physiological downshifting.",
+    "bullets": [
+      "Regulates sympathetic arousal and shift back into parasympathetic recovery — within BRS6.",
+      "Supports vagal tone and heart-rate-variability-related recovery signalling — within BRS6.",
+      "Connects gut–vagal neuromodulation to autonomic flexibility — Supporting BRS5."
+    ],
+    "subtitle": "(Autonomic Balance & Vagal Recovery)"
+  },
+  {
+    "path": "brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
+    "translational": "Regulates sympathetic arousal and the shift back into parasympathetic recovery after stress, exercise, or cognitive demand — restoring autonomic flexibility across activation–recovery cycles.",
+    "scientific": "Regulation of sympathetic arousal and the shift back into parasympathetic recovery after stress, exercise, or cognitive demand, restoring autonomic flexibility across activation–recovery cycles.",
+    "bullets": [
+      "Regulates sympathetic arousal after stress or cognitive demand — within BRS6.",
+      "Restores parasympathetic recovery across activation cycles — within BRS6.",
+      "Supports autonomic flexibility represented in the parent FM — within BRS6."
+    ]
+  },
+  {
+    "path": "brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation.mdx",
+    "translational": "Regulates vagal tone and heart-rate-variability-related recovery signalling that reflects parasympathetic capacity after stress, exercise, or cognitive demand.",
+    "scientific": "Regulation of vagal tone and heart-rate-variability-related recovery signalling that reflects parasympathetic capacity after stress, exercise, or cognitive demand.",
+    "bullets": [
+      "Supports vagal tone and heart-rate-variability recovery signalling — within BRS6.",
+      "Reflects parasympathetic capacity after stress or demand — within BRS6.",
+      "Intersects gut–vagal neuromodulation from BRS5 — Supporting BRS5."
+    ]
+  },
+  {
+    "path": "brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling.mdx",
+    "translational": "Describes inflammatory and endocrine signalling from metabolic overload, adipose tissue stress, and insulin-resistant states that shape whole-body resource allocation and neuroendocrine load.",
+    "scientific": "Inflammatory and endocrine signalling from metabolic overload, adipose tissue stress, and insulin-resistant states that shape whole-body resource allocation and neuroendocrine load.",
+    "bullets": [
+      "Signals metabolic-inflammatory load from adipose and insulin-resistant states — within BRS6.",
+      "Shapes whole-body resource allocation under metabolic overload — within BRS6.",
+      "Intersects inflammatory biology represented in BRS3 — Supporting BRS3."
+    ]
+  },
+  {
+    "path": "brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation.mdx",
+    "translational": "Describes stress-related modulation of appetite, reward drive, and food-seeking behaviour through cortisol, catecholamine, and metabolic signals that influence intake stability and neuroendocrine allocation.",
+    "scientific": "Stress-related modulation of appetite, reward drive, and food-seeking behaviour through cortisol, catecholamine, and metabolic signals that influence intake stability and neuroendocrine allocation.",
+    "bullets": [
+      "Modulates stress-linked appetite and reward drive — within BRS6.",
+      "Influences food-seeking through cortisol and catecholamine signals — within BRS6.",
+      "Shapes neuroendocrine allocation under stress load — within BRS6."
+    ]
+  },
+  {
+    "path": "brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation.mdx",
+    "translational": "Supports integrated regulation of metabolic-inflammatory load and stress-linked appetite–reward signalling — influencing whole-body resource allocation and brain-relevant energy and stress state.",
+    "scientific": "Integrated regulation of metabolic-inflammatory load and stress-linked appetite–reward signalling, influencing whole-body resource allocation and brain-relevant energy/stress state.",
+    "bullets": [
+      "Modulates metabolic inflammation and adipose stress signalling under overload — within BRS6.",
+      "Regulates stress-induced appetite, reward drive, and food-seeking behaviour — within BRS6.",
+      "Shapes neuroendocrine allocation between stress, inflammation, and energy systems — Supporting BRS3."
+    ],
+    "subtitle": "(Stress–Inflammation & Metabolic Load Allocation)"
+  },
+  {
+    "path": "brs6/kc/brs6-kc1-glucose-energy-substrate-availability.mdx",
+    "translational": "Helps ensure availability of stable meal-derived energy substrates required to support neuroendocrine stress allocation without excessive glycaemic volatility.",
+    "scientific": "Availability of stable meal-derived energy substrates required to support neuroendocrine stress allocation without excessive glycaemic volatility.",
+    "bullets": [
+      "Constrains glycaemic stability when energy substrates are poorly structured — within BRS6.",
+      "Supports post-prandial metabolic continuity for cognitive energy — within BRS6.",
+      "Underpins glucose appearance and variability regulation — within BRS6."
+    ]
+  },
+  {
+    "path": "brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency.mdx",
+    "translational": "Helps ensure availability of nutrients that support stress-response enzymes, autonomic regulation, and recovery physiology.",
+    "scientific": "Availability of nutrients that support stress-response enzymes, autonomic regulation, and recovery physiology.",
+    "bullets": [
+      "Constrains HPA-axis and autonomic recovery when micronutrients are depleted — within BRS6.",
+      "Supports stress-response enzyme function and recovery physiology — within BRS6.",
+      "Underpins cortisol rhythm and vagal recovery mechanisms — within BRS6."
+    ]
+  }
+]

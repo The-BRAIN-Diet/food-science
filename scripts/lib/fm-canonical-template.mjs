@@ -8,8 +8,8 @@ import path from "node:path";
 import matter from "gray-matter";
 
 const KC_SUBSTRATES = {
-  "BRS1(KC2)": {
-    slug: "brs1-kc2-amino-acid-quality-and-competitive-balance",
+  "BRS1(KC1)": {
+    slug: "brs1-kc1-amino-acid-quality-and-competitive-balance",
     label: "EAAs, LNAAs, tyrosine, tryptophan, complementary amino-acid combinations",
   },
   "BRS2(KC1)": {

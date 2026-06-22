@@ -31,11 +31,27 @@ Each section must follow **only** the schema role for that section (Definition, 
 - Canonical **bullet lists** in connected-entity subsections (§5.3 PMs, §5.4 FMs, hub FM/KC lists)
 - **`### Summary`** under Mechanistic Basis: short synthesis for that section only — not a copy of §1 Definition
 
+## Page title block
+
+After front matter, each mechanism page opens with:
+
+```
+## <Entity_ID> - <Scientific Title>
+
+(<Public-facing subtitle — where useful, especially FM pages>)
+
+## 1. Definition
+```
+
+**Principle:** Translate, do not dumb down. Keep scientific terms; explain them inline in **parentheses** on first use so both specialist and non-specialist readers can follow without leaving the page.
+
+**Canonical FM example:** [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function).
+
 ## Per-section intent (reminder)
 
 | Section | Write |
 |---------|--------|
-| **Definition (§1)** | **Opening paragraph (1–3 sentences) + exactly 3 bullets** — biological significance and cross-system effects. See **§1 Definition — UX structure** below. |
+| **Definition (§1)** | **Translational opening paragraph (1–3 sentences) + 3 bullets** — everyday function with inline glosses for specialist terms. See **§1 Definition — translational UX** below. |
 | **Phenome Connections (PM §3 / FM §3)** | Evidence-weighted translational mappings only — not mechanism definition |
 | **Primary Biological Effects (§2)** | Directional ↑/↓ summary only |
 | **Mechanistic Basis (PM)** | **Summary → primary mechanism → boundaries → integration** (see below); link PMs/KCs/citations; do not re-define the entity |
@@ -73,6 +89,26 @@ Each section must follow **only** the schema role for that section (Definition, 
 - **Rewrites:** if a cited claim stays, the citation stays; if a claim is new and evidence-backed, add the citation and References entry (`Author et al. (Year) — Topic` with bibliography link).
 
 Example placement: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — Mariotti in protein quality; Fernstrom at the PM2 boundary.
+
+## §1 Definition — translational UX (paragraph + bullets)
+
+Applies to **PM**, **FM**, **SM**, and **KC** pages. BRS hub pages use **`## Overview`** with the same translational contract (see `system/brs-page-schema.md`).
+
+**Principle:** Translate, do not dumb down. Retain scientific terms; gloss them inline in **parentheses** so both audiences can read without leaving the page.
+
+### Opening paragraph (translational)
+
+- 1–3 sentences explaining everyday function.
+- Specialist terms kept; unfamiliar terms introduced in **parentheses** on first use.
+- **Avoid** opening with dense technical language without context — weave specialist terms into the translational paragraph with parenthetical glosses instead.
+
+**Canonical FM example:** [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function).
+
+### Functional role bullets
+
+3 concise bullets (4–5 where needed) immediately after §1 paragraph: what it supports, primary BRS (`— within BRSn`), cross-BRS influence (`— Supporting BRSn`).
+
+Technical/architectural detail belongs in **Mechanistic Basis**, not a separate definition section.
 
 ## §1 Definition — UX structure (paragraph + three bullets)
 

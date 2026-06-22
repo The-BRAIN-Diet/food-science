@@ -20,7 +20,17 @@ hide_title: true
 
 ## BRS4 - Mitochondrial Function & Bioenergetics
 
-The Mitochondrial Function & Bioenergetics system covers ATP production, electron transport, NAD+-linked redox metabolism, mitochondrial protection, substrate switching, and rapid energy buffering under varying cognitive and metabolic demand. It links macronutrient substrate availability, mitochondrial cofactor sufficiency, creatine, carnitine, CoQ10, polyphenol-rich dietary patterns, and training-recovery context to cellular energy output, mitochondrial resilience, and adaptive energetic capacity.
+(Cellular Energy, Mitochondrial Resilience & Fuel Flexibility)
+
+## Overview
+
+Supports the body's capacity to produce usable cellular energy (ATP), protect mitochondria under stress, and switch between fuels as metabolic demand changes. Steady bioenergetics underpin cognitive energy supply and wider metabolic resilience.
+
+* Supports cellular ATP production and mitochondrial resilience — within BRS4.
+* Links fuel flexibility to post-prandial metabolic context — Supporting BRS6.
+* Intersects antioxidant and inflammatory redox biology — Supporting BRS3.
+
+
 
 <details>
 <summary><strong>ADHD: Mitochondrial Function & Bioenergetics Biological Implications</strong></summary>

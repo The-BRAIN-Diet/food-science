@@ -22,13 +22,13 @@ hide_title: true
 
 ## Overview
 
-Helps the body and brain maintain, repair, and regulate themselves by supplying the biochemical building blocks needed for gene regulation, neurotransmitter production, membrane integrity, and antioxidant defence.
-
-These interconnected one-carbon and methylation pathways sit at the intersection of brain function, cellular resilience, and long-term health.
+Helps the body and brain maintain, repair, and regulate themselves by supplying the biochemical building blocks needed for gene regulation, neurotransmitter production, membrane integrity, and antioxidant defence (one-carbon metabolism and methyl-group transfer chemistry).
 
 * Sustains neurotransmitter synthesis, membrane composition, and neuronal signalling — Supporting BRS1.
 * Links homocysteine control to oxidative stress and inflammatory resilience — Supporting BRS3.
 * Supports mitochondrial function, epigenetic regulation, and metabolic adaptation — Supporting BRS4.
+
+
 
 <details>
 <summary><strong>ADHD: Methylation & One-Carbon Metabolism Biological Implications</strong></summary>
