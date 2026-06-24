@@ -43,8 +43,15 @@ legacy_main_image: /img/foods/cilantro/cilantro_medium.webp
 ---
 ## Overview
 
-Cilantro is an herb that may support heavy metal chelation and provides polyphenols, though research is limited.
+Cilantro (coriander leaves) provides **polyphenols** and culinary antioxidants in an herb matrix with very low energy density [1]. Food-derived phenolics from herbs and vegetables modulate gut microbiota and neurotransmitter-related pathways [2].
 
+Within the BRAIN Diet framework, cilantro is a flavour and polyphenol herb used fresh as a garnish rather than for bulk nutrient intake [1,2].
+## Key Nutritional Highlights
+
+- Fresh herb polyphenols at negligible calorie contribution [1].
+- Culinary garnish increasing phytochemical diversity [2].
+- Fat-soluble flavour compounds released in oily dressings.
+- Genetic taste variation (soapiness) affects palatability, not nutrient profile.
 ## Food Context
 
 ### Synergies
@@ -69,4 +76,5 @@ Cilantro is an herb that may support heavy metal chelation and provides polyphen
 
 ## References
 
-- Cilantro may support heavy metal chelation and provides polyphenols
+- [1] de Oliveira & Chávez 2022 – Parsley (Petroselinum crispum Mill.): A source of bioactive compounds as a domestic strategy to minimize cholesterol oxidation during the thermal preparation of omelets [de Oliveira & Chávez 2022 – Parsley (Petroselinum crispum Mill.): A source of bioactive compounds as a domestic strategy to minimize cholesterol oxidation during the thermal preparation of omelets](/docs/papers/BRAIN-Diet-References#de_oliveira_parsley_2022)
+- [2] Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters [Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

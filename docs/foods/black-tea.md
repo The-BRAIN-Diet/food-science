@@ -44,8 +44,15 @@ legacy_main_image: /img/foods/black-tea/black-tea_medium.webp
 ---
 ## Overview
 
-Black tea provides polyphenols and may contain some compounds supporting NAD+ pathways, though less studied than green tea. Polyphenol-rich beverages (tea/coffee) can reduce non-heme iron absorption if taken with iron-rich plant meals; spacing them ≥1 hour away or adding vitamin-C sources (e.g., lemon) favors iron uptake.
+Black tea provides **theaflavins** and **catechins** (lower than green tea for unoxidised catechins) and caffeine in a polyphenol-rich beverage matrix [1]. High-polyphenol dietary patterns, including tea polyphenols, have been studied for metabolic and cognitive endpoints [2].
 
+Within the BRAIN Diet framework, black tea is a flavonoid beverage best used without excess sugar; timing may matter for caffeine-sensitive individuals [1]. Polyphenol-rich drinks can reduce non-heme iron absorption if taken with iron-rich plant meals.
+## Key Nutritional Highlights
+
+- Theaflavin/catechin-class polyphenols; oxidation level differs from green tea [1].
+- High-polyphenol Mediterranean-style patterns associate with metabolic benefits in trials [2].
+- Contains caffeine; separate from iron-rich plant meals if optimising non-heme iron absorption.
+- Low energy when unsweetened; flavonoid yield varies by brew time and leaf grade.
 ## Food Context
 
 ### Synergies
@@ -70,4 +77,5 @@ Black tea provides polyphenols and may contain some compounds supporting NAD+ pa
 
 ## References
 
-- Polyphenol-rich beverages (tea/coffee) can reduce non-heme iron absorption if taken with iron-rich plant meals; spacing them ≥1 hour away or adding vitamin-C sources (e.g., lemon) favors iron uptake
+- [1] Zelicha & Kloting 2022 – The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial [Zelicha & Kloting 2022 – The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+- [2] Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials [Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)

@@ -41,8 +41,15 @@ legacy_main_image: /img/foods/cashews/cashews_medium.webp
 ---
 ## Overview
 
-Cashews provide plant protein and zinc, supporting neurotransmitter modulation and antioxidant enzyme function. Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, cashews.
+Cashews provide plant protein, **magnesium**, **zinc**, and unsaturated fats in a tree-nut matrix [1]. Soaking and sprouting can reduce **phytates**, improving mineral bioavailability from nuts and seeds [1].
 
+Within the BRAIN Diet framework, cashews are a lysine-limited plant protein source paired with legumes or grains for amino-acid complementarity.
+## Key Nutritional Highlights
+
+- Magnesium and zinc in a tree-nut matrix; typical portions are 30–40 g, not 100 g.
+- Lysine-limited plant protein; pair with legumes for amino-acid balance.
+- Soaking/sprouting reduces phytates and can improve mineral bioavailability [1].
+- Unsaturated fat source; energy-dense — portion control matters.
 ## Food Context
 
 ### Synergies
@@ -75,5 +82,4 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-- Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, cashews
-- Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability [GREINER and KONIETZNY 1999](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
+- [1] Greiner & Konietzny 1999 – Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa) [Greiner & Konietzny 1999 – Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)

@@ -36,8 +36,15 @@ legacy_main_image: /img/foods/black-goji/black-goji_medium.webp
 ---
 ## Overview
 
-Black goji berries provide high levels of C3G (cyanidin-3-glucoside) anthocyanins that chelate heavy metals and support neuroprotection. Anthocyanins, especially C3G-rich sources like berries, purple potatoes, and black goji, serve as natural chelation agents for heavy metals and environmental contaminants, neuroprotective molecules that support synaptic resilience and detox pathways, and detox allies against microplastics and hormone-disrupting pollutants.
+Black goji (Lycium ruthenicum) berries are **anthocyanin-rich** fruits with exceptionally high pigment density compared with many common berries [1]. Dietary flavonoid and anthocyanin intake has been associated with cognitive endpoints in controlled feeding contexts [2].
 
+Within the BRAIN Diet framework, black goji is a concentrated polyphenol-class food used in small portions for anthocyanin diversity rather than as a staple calorie source [1,2].
+## Key Nutritional Highlights
+
+- Anthocyanin-dense berry; pigment content strongly exceeds many common cultivated berries [1].
+- High-flavonoid dietary patterns link to cognitive improvements in human trials [2].
+- Low typical serving sizes; nutrient and polyphenol intake scales with portion.
+- Part of diverse berry/polyphenol strategy rather than a single-source reliance [2].
 ## Food Context
 
 ### Synergies
@@ -62,4 +69,5 @@ Black goji berries provide high levels of C3G (cyanidin-3-glucoside) anthocyanin
 
 ## References
 
-- Anthocyanins, especially C3G-rich sources like berries, purple potatoes, and black goji, serve as: Natural chelation agents for heavy metals and environmental contaminants; Neuroprotective molecules that support synaptic resilience and detox pathways; Detox allies against microplastics and hormone-disrupting pollutants
+- [1] Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials [Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+- [2] Boots & Haenen 2008 – Health effects of quercetin: From antioxidant to nutraceutical [Boots & Haenen 2008 – Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)

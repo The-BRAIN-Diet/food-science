@@ -33,8 +33,15 @@ legacy_main_image: /img/foods/brussels-sprouts/brussels-sprouts_medium.webp
 ---
 ## Overview
 
-Brussels sprouts provide sulfur-containing compounds that serve as glutathione precursors, supporting antioxidant defenses and mitochondrial health. Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions). Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms), sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health.
+Brussels sprouts are cruciferous vegetables providing glucosinolate-derived **isothiocyanates**, **folate**, and fibre at moderate energy density [1]. Crucifer sulfur compounds support glutathione-linked antioxidant strategies [1].
 
+Within the BRAIN Diet framework, Brussels sprouts contribute folate and crucifer diversity; folate supports methylation and neurochemical synthesis pathways [2].
+## Key Nutritional Highlights
+
+- Crucifer isothiocyanate / Nrf2 pathway interest similar to broccoli [1].
+- Folate and fibre at ~43 kcal per 100 g; supports one-carbon nutrient intake [2].
+- Sulfur-containing vegetable within glutathione precursor strategies [1].
+- Roasting acceptable; excessive charring increases heat-derived compounds.
 ## Food Context
 
 ### Synergies
@@ -59,6 +66,5 @@ Brussels sprouts provide sulfur-containing compounds that serve as glutathione p
 
 ## References
 
-- Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions)
-- Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms), sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health
-- Glutathione (GSH) is one of the body's major antioxidants; low levels may suggest oxidative stress; elevated GSH levels which have been recorded against ADHD subjects may reflect a compensatory response to increased oxidative stress
+- [1] Houghton & Fassett 2016 – Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality? [Houghton & Fassett 2016 – Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
+- [2] Kennedy et al. 2016 – B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review [Kennedy et al. 2016 – B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)

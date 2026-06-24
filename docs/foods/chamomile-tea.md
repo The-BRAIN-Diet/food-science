@@ -43,8 +43,15 @@ legacy_main_image: /img/foods/chamomile-tea/chamomile-tea_medium.webp
 ---
 ## Overview
 
-Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine receptors, supporting calm and sleep onset without sedation. Apigenin (from chamomile tea) binds to benzodiazepine receptors, supporting calm and sleep.
+Chamomile tea provides **apigenin**, a flavone that binds benzodiazepine-site receptors and is studied for calm and sleep-supportive effects [1]. It is a caffeine-free herbal infusion used in evening wind-down patterns.
 
+Within the BRAIN Diet framework, chamomile is a herbal polyphenol beverage used for relaxation context rather than micronutrient density [1].
+## Key Nutritional Highlights
+
+- Apigenin-rich herbal infusion with GABAergic receptor-binding interest [1].
+- Caffeine-free evening beverage option.
+- Polyphenol yield varies with steep time and flower quality.
+- Culinary/tea doses differ from concentrated extract trials [1].
 ## Food Context
 
 ### Synergies
@@ -69,6 +76,4 @@ Chamomile tea provides apigenin, a flavonoid that binds to benzodiazepine recept
 
 ## References
 
-- Apigenin (from chamomile tea): Binds to benzodiazepine receptors, supporting calm and sleep [Kramer and Johnson 2024](/docs/papers/BRAIN-Diet-References#kramer_apigenin_2024)
-- Herbal teas (e.g. chamomile for apigenin, lemon balm tea, tart cherry juice)
-- Evening(Wind-down, sleep prep): Herbal teas (e.g. chamomile for apigenin, lemon balm tea, tart cherry juice)
+- [1] Kramer & Johnson 2024 – Apigenin: a natural molecule at the intersection of sleep and aging [Kramer & Johnson 2024 – Apigenin: a natural molecule at the intersection of sleep and aging](/docs/papers/BRAIN-Diet-References#kramer_apigenin_2024)

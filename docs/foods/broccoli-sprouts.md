@@ -53,8 +53,15 @@ legacy_main_image: /img/foods/broccoli-sprouts/broccoli-sprouts_medium.webp
 ---
 ## Overview
 
-Broccoli sprouts are the 3-5-day-old germinated seedlings of broccoli. Their main nutritional distinction is not their calorie or macronutrient profile, but their unusually high glucoraphanin content and resulting sulforaphane potential when the plant enzyme myrosinase remains active. Compared with mature broccoli, sprouts are usually used more as a concentrated phytochemical food than as a bulk vegetable, with relevance to antioxidant signalling, Nrf2 activation, inflammatory regulation, and broader cellular defence.
+Broccoli sprouts are concentrated sources of **glucoraphanin** and active **myrosinase**, delivering higher sulforaphane potential per gram than mature broccoli when handled appropriately [1]. They are used as a functional crucifer garnish or short-grown sprout food.
 
+Within the BRAIN Diet framework, sprouts are a sulforaphane-focused ingredient with meaningful food-safety considerations (fresh sprout handling); typical portions are small [1].
+## Key Nutritional Highlights
+
+- Among the densest practical glucoraphanin sources for sulforaphane delivery [1].
+- Requires active myrosinase (fresh chewing or careful preparation) for ITC conversion [1].
+- Typical servings are tablespoons, not 100 g portions.
+- Fresh sprout food-safety handling matters for immunocompromised individuals.
 ## Food Context
 
 ### Synergies
@@ -94,8 +101,4 @@ Broccoli sprouts are the 3-5-day-old germinated seedlings of broccoli. Their mai
 
 ## References
 
-- Broccoli sprouts are best understood as a glucoraphanin-rich food that can deliver sulforaphane when myrosinase remains active: [Plant sources, extraction techniques, analytical methods, bioactivity, and bioavailability of sulforaphane: a review](https://pmc.ncbi.nlm.nih.gov/articles/PMC10805900/)
-- Broccoli sprout and seed preparations with active plant myrosinase show substantially higher sulforaphane bioavailability than glucoraphanin delivered without active myrosinase: [Fahey et al. (2015), PLOS One](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0140963)
-- Nutrient values on this page are based on a raw broccoli sprouts composition table: [Norwegian Food Composition Table - Broccoli sprouts, raw](https://www.matvaretabellen.no/en/broccoli-sprouts-raw/)
-- Raw sprouts carry a meaningful food-safety risk because sprouting conditions can amplify bacterial contamination: [Colorado State University - Sprouts](https://www.chhs.colostate.edu/fsi/food-articles/produce/sprouts/)
-- Readable consumer overview and practical serving ideas: [Healthline - What Are Broccoli Sprouts? Nutrients, Benefits, and Recipes](https://www.healthline.com/nutrition/broccoli-sprouts)
+- [1] Houghton & Fassett 2016 – Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality? [Houghton & Fassett 2016 – Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)

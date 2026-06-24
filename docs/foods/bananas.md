@@ -36,10 +36,15 @@ legacy_main_image: /img/foods/bananas/bananas_medium.webp
 ---
 ## Overview
 
-Bananas are the same fruit at different ripeness stages, with distinct functional roles. **Ripe** bananas provide **B6**, **tryptophan**, and **potassium**, supporting neurotransmitter synthesis (including serotonin pathways) and electrolyte balance. **Green (unripe)** bananas are comparatively lower in sugars and richer in **resistant starch** — a prebiotic fibre that supports gut microbiome diversity, SCFA production (particularly butyrate), and gut barrier integrity.
+Bananas provide **vitamin B6**, **tryptophan**, and **potassium** when ripe, supporting neurotransmitter-related pathways and electrolyte balance [1]. **Green** bananas are comparatively richer in **resistant starch**, a fermentable fibre supporting gut microbiome diversity (downstream SCFA production is a fermentation outcome, not an intrinsic banana nutrient).
 
-The nutrition table below reflects riper fruit (USDA: bananas, overripe, raw). Unripe green bananas differ materially (less sugar, more resistant starch); use ripeness as the primary guide rather than the table alone when choosing for gut vs neurotransmitter support.
+Within the BRAIN Diet framework, ripeness is the primary functional selector: ripe fruit for B6/tryptophan patterns; green fruit for prebiotic resistant starch. Bananas are relatively high in **polyphenol oxidase (PPO)**; combining them in fresh smoothies with flavan-3-ol sources can markedly reduce polyphenol bioavailability [1].
+## Key Nutritional Highlights
 
+- Ripeness shifts role: ripe = B6/tryptophan; green = resistant starch prebiotic fibre.
+- High PPO activity can reduce flavan-3-ol uptake when blended with polyphenol-rich ingredients [1].
+- Potassium and moderate carbohydrate content; table values reflect riper fruit.
+- Typical portions are one medium fruit (~100–120 g), not 100 g table servings alone.
 ## Food Context
 
 ### Ripeness
@@ -79,10 +84,4 @@ Bananas are relatively **high in polyphenol oxidase (PPO)**. In a controlled cro
 
 ## References
 
-- [1] Impact of polyphenol oxidase on flavan-3-ol bioavailability in fruit smoothies [Ottaviani et al. 2023](/docs/papers/BRAIN-Diet-References#ottaviani_polyphenol_oxidase_flavan_2023)
-- Serotonin: Mood regulation, emotional control, impulse moderation; food sources include turkey, eggs, dairy, soy, seeds, oats, bananas; cofactors include tryptophan, B6, magnesium
-- B6 (chickpeas, potatoes, bananas, whole grains, soy) is a cofactor in the development of all key neurotransmitters
-- Tryptophan: Converted to NAD+ via kynurenine pathway; food sources include turkey, chicken, eggs, pumpkin seeds, oats, soybeans (bananas also contain)
-- Resistant starch (cooled potatoes, green bananas) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
-- Prebiotic fibres: inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)
-- Resistant starch supports butyrate production and gut barrier integrity
+- [1] Ottaviani & Ensunsa 2023 – Impact of polyphenol oxidase on the bioavailability of flavan-3-ols in fruit smoothies: a controlled, single blinded, cross-over study [Ottaviani & Ensunsa 2023 – Impact of polyphenol oxidase on the bioavailability of flavan-3-ols in fruit smoothies: a controlled, single blinded, cross-over study](/docs/papers/BRAIN-Diet-References#ottaviani_polyphenol_oxidase_flavan_2023)

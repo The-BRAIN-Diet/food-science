@@ -34,8 +34,15 @@ legacy_main_image: /img/foods/carrots/carrots_medium.webp
 ---
 ## Overview
 
-Carrots provide beta-carotene (vitamin A precursor), demonstrating important food matrix effects where only 1-3% of beta-carotene in raw carrots is accessible for absorption. The bioaccessibility of carotenoids in vegetables is remarkably low—only 1-3% of the β-carotene in raw carrots is accessible for absorption. Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts. Carotenoids are abundant in leafy greens, orange and yellow vegetables, corn, and egg yolks.
+Carrots provide **beta-carotene** and other carotenoids at low energy density; carotenoid bioaccessibility from raw vegetables is limited and improved by cooking and co-ingested fat [1,2]. Carotenoids participate in antioxidant and neuroprotective dietary patterns [3].
 
+Within the BRAIN Diet framework, carrots are a carotenoid vegetable best used with a small amount of unsaturated fat in mixed meals to support absorption [2].
+## Key Nutritional Highlights
+
+- Beta-carotene-rich root vegetable; bioaccessibility increases with cooking and fat co-ingestion [1,2].
+- Carotenoids implicated in neuroprotective antioxidant networks [3].
+- Low energy density with meaningful fibre per 100 g.
+- Pair with olive oil, avocado, or other fats in salads and cooked dishes [2].
 ## Food Context
 
 ### Synergies
@@ -60,8 +67,7 @@ Carrots provide beta-carotene (vitamin A precursor), demonstrating important foo
 
 ## References
 
-- The bioaccessibility of carotenoids in vegetables is remarkably low—only 1-3% of the β-carotene in raw carrots is accessible for absorption [Fielding et al. 2005](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
-- Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts
-- Carotenoids are abundant in leafy greens, orange and yellow vegetables, corn, and egg yolks; their absorption is enhanced by dietary fat
-- Co-consuming a small amount of unsaturated fat with polyphenol-rich foods improves micelle formation and chylomicron packaging, increasing carotenoid and fat-soluble vitamin absorption [Kindel et al. 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010) [Brown et al. 2004](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
-- Carotenoids, particularly lutein, zeaxanthin, and β-carotene, play a neuroprotective role through their antioxidant and anti-inflammatory properties [Johnson 2014](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+- [1] Fielding & Rowley 2005 – Increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil [Fielding & Rowley 2005 – Increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
+- [2] Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons [Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
+- [3] Brown & Ferruzzi 2004 – Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection [Brown & Ferruzzi 2004 – Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+- [4] Johnson et al. 2014 – Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan [Johnson et al. 2014 – Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)

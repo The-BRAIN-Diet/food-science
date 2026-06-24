@@ -266,12 +266,12 @@
   },
   {
     "path": "brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency.mdx",
-    "translational": "Helps explain why genetic variation in MTHFR, COMT, and BDNF may alter methylation efficiency and methyl-donor responsiveness (variant-sensitive reading of BRS2 biology). Variant-sensitive interpretation adds context without redefining core BRS2 mechanism biology.",
-    "scientific": "Genetic variation in MTHFR, COMT, and BDNF may modulate methylation efficiency and methyl-donor responsiveness — overlaying variant-sensitive interpretation on BRS2(FM1–FM3) biology without deterministic outcome claims.",
+    "translational": "Helps explain why inherited variation in one-carbon metabolism genes may alter folate utilisation, methyl-donor efficiency, homocysteine regulation, and responsiveness to nutritional support — a variant-sensitive interpretation of BRS2 biology without changing underlying PM mechanisms.",
+    "scientific": "Inherited variation in MTHFR, MTR/MTRR, BHMT, CBS, PEMT, and related one-carbon genes may modulate folate remethylation, SAMe generation, transsulfuration, and phospholipid methylation efficiency — overlaying variant-sensitive interpretation on BRS2(FM1–FM3) biology without deterministic outcome claims.",
     "bullets": [
-      "Modulates how folate remethylation and SAMe support are interpreted — within BRS2.",
-      "May alter sensitivity of monoaminergic and catecholamine pathways to diet — Supporting BRS1.",
-      "Influences how methylation strain connects to stress and cognitive contexts — Supporting BRS3."
+      "Modulates how folate-dependent remethylation, SAMe synthesis, and transsulfuration are interpreted — within BRS2.",
+      "May influence downstream neurotransmitter and phospholipid pathways through altered methyl-donor availability — Supporting BRS1 and BRS4.",
+      "Provides context for inter-individual nutritional responsiveness without deterministic genetic outcomes."
     ]
   }
 ]

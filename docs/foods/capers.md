@@ -34,8 +34,16 @@ legacy_main_image: /img/foods/capers/capers_medium.webp
 ---
 ## Overview
 
-Capers are among the highest sources of quercetin, a flavonoid polyphenol that supports antioxidant networks and may have neuroprotective effects. The estimated flavonoid intake ranges from 50 to 800 mg/day (About 75% of dietary polyphenol count is quercetin). It is abundant in capers, apples, onions, berries, kale and soybeans.
+Capers are among the richest common food sources of **quercetin**, a flavonoid polyphenol studied for antioxidant and anti-inflammatory roles in diet-derived bioactive networks [1]. They are used as a condiment at small portions rather than as a bulk calorie source.
 
+Within the BRAIN Diet framework, capers are a high-quercetin seasoning supporting polyphenol diversity; high-flavonoid dietary patterns have been associated with cognitive endpoints in controlled trials [2]. Pickled varieties can be high in sodium — rinsing may be appropriate.
+
+## Key Nutritional Highlights
+
+- Among the highest quercetin concentrations per 100 g of common foods (condiment-use portions) [1].
+- Low energy density (~27 kcal per 100 g); practical intake is seasoning-scale.
+- Flavonoid-rich dietary patterns link to cognitive improvements in human trials [2].
+- Rinse high-sodium pickled capers; buying jars preserved in extra virgin olive oil is an even better strategy; use as a polyphenol booster in Mediterranean-style dishes.
 ## Food Context
 
 ### Synergies
@@ -60,4 +68,5 @@ Capers are among the highest sources of quercetin, a flavonoid polyphenol that s
 
 ## References
 
-- The estimated flavonoid intake ranges from 50 to 800 mg/day (About 75% of dietary polyphenol count is quercetin). It is abundant in capers (Neveu V et al database 2010), apples, onions, berries, kale and soybeans
+- [1] Boots & Haenen 2008 – Health effects of quercetin: From antioxidant to nutraceutical [Boots & Haenen 2008 – Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+- [2] Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials [Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)

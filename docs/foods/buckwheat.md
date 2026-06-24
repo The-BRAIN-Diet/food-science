@@ -45,10 +45,10 @@ As with other grain-type plant proteins, buckwheat is better framed as **lysine-
 
 ## Key Nutritional Highlights
 
-- Naturally gluten-free pseudograin, suitable for gluten-free dietary patterns.
-- Rich in flavonoids (e.g. rutin), contributing antioxidant and vascular-support properties.
-- Contains resistant starch and fibre, supporting glycaemic control and gut microbiome activity.
-- Higher lysine content than most cereal grains, improving amino-acid balance within plant-based diets.
+- Naturally gluten-free pseudograin; lysine-limited plant protein pairs with legumes [1,2].
+- Rich in flavonoids (e.g. rutin) within antioxidant dietary patterns.
+- Fibre (~10 g per 100 g flour) supports fermentable-fibre intake [2].
+- Higher methionine than legumes; combine with lentils/chickpeas for amino-acid balance [1,2].
 
 ## Food Context
 
@@ -89,6 +89,5 @@ Grains such as buckwheat are relatively higher in methionine but lysine-limited.
 
 ## References
 
-[1] Protein quality evaluation framework (DIAAS) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-
-[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+- [1] FAO 2013 – Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation [FAO 2013 – Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+- [2] Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review [Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

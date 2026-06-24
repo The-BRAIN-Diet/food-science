@@ -144,7 +144,7 @@ Functional control of mitochondrial membrane integrity, oxidative stability, and
 
 **Connected mechanisms:**
 
-- [BRS3-FM2-PM6 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance)
+- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance)
 
 </details>
 

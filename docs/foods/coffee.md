@@ -38,8 +38,15 @@ legacy_main_image: /img/foods/coffee/coffee_medium.webp
 ---
 ## Overview
 
-Coffee provides caffeine that stimulates dopamine production but has pendulum effects and circadian disruption risks, requiring strategic use. Caffeine is an adenosine receptor antagonism and should be stopped 8 hours before bed considering caffeine has a highly variable half-life, ranging from 2 to 10 h, but possibly up to 20 hours.
+Coffee provides **caffeine**, a adenosine-receptor antagonist that increases striatal **dopamine D2/D3 receptor availability** and acute alertness [1]. Coffee polyphenols contribute to dietary flavonoid intake [2].
 
+Within the BRAIN Diet framework, coffee is a polyphenol beverage used morning-to-midday; caffeine timing affects sleep — stop ~8 hours before bed if sensitive [1]. Avoid taking with iron-rich plant meals if optimising non-heme iron absorption.
+## Key Nutritional Highlights
+
+- Caffeine modulates dopamine receptor availability and alertness [1].
+- Chlorogenic-acid polyphenols add flavonoid intake [2].
+- Timing matters for sleep; individual caffeine metabolism varies.
+- Unsweetened brews only; polyphenol–iron absorption competition with meals.
 ## Food Context
 
 ### Preparation
@@ -61,7 +68,5 @@ Coffee provides caffeine that stimulates dopamine production but has pendulum ef
 
 ## References
 
-- Caffeine is an adenosine receptor antagonism; stop 8 hours before bed considering caffeine has a highly variable half-life, ranging from 2 to 10 h, but possibly up to 20 hours
-- Caffeine can reverse the deficits associated with fatigue it can be implicated in causing the fatigue in the first place
-- Caffeine increases striatal dopamine D2/D3 receptor availability
-- Polyphenol-rich beverages (tea/coffee) can reduce non-heme iron absorption
+- [1] Volkow & Wang 2015 – Caffeine increases striatal dopamine D2/D3 receptor availability in the human brain [Volkow & Wang 2015 – Caffeine increases striatal dopamine D2/D3 receptor availability in the human brain](/docs/papers/BRAIN-Diet-References#volkow_caffeine_2015)
+- [2] Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials [Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)

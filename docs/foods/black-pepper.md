@@ -45,8 +45,15 @@ legacy_main_image: /img/foods/black-pepper/black-pepper_medium.webp
 ---
 ## Overview
 
-Black pepper contains piperine, which dramatically enhances the bioavailability of curcumin (from turmeric) and other compounds, making it an important food synergy. Food synergies include turmeric + black pepper for enhanced curcumin absorption.
+Black pepper provides **piperine**, an alkaloid that markedly increases **curcumin** bioavailability and can enhance absorption of other dietary compounds [1]. It is used as a culinary spice at gram-scale portions rather than as a bulk food.
 
+Within the BRAIN Diet framework, black pepper is primarily a **food synergy** ingredient — especially paired with turmeric — where small amounts improve polyphenol delivery [1].
+## Key Nutritional Highlights
+
+- Piperine increases curcumin bioavailability in humans [1].
+- Spice-use portions; USDA per-100 g protein values are not meaningful for typical intake.
+- Synergy ingredient for turmeric-containing meals and polyphenol-rich dishes [1].
+- Store as whole peppercorns when possible; grind fresh to preserve volatile compounds.
 ## Food Context
 
 ### Synergies
@@ -71,5 +78,4 @@ Black pepper contains piperine, which dramatically enhances the bioavailability 
 
 ## References
 
-- Food Synergies (e.g. Turmeric + black pepper; omega-3 fatty acids needs to be esterified to phospholipids to cross BBB)
-- Turmeric + black pepper for enhanced curcumin absorption
+- [1] Shoba & Joy 1998 – Influence of Piperine on the Pharmacokinetics of Curcumin in Animals and Human Volunteers [Shoba & Joy 1998 – Influence of Piperine on the Pharmacokinetics of Curcumin in Animals and Human Volunteers](/docs/papers/BRAIN-Diet-References#shoba_influence_1998)

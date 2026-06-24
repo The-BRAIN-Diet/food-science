@@ -35,8 +35,16 @@ legacy_main_image: /img/foods/cabbage/cabbage_medium.webp
 ---
 ## Overview
 
-Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, supporting gut health through both fresh and fermented forms. Sauerkraut is fermented cabbage, rich in Lactobacillus, and is part of the fermented foods strategy.
+Cabbage is a cruciferous vegetable providing **glucosinolates**, **vitamin C**, **folate**, and fibre at very low energy density [1]. Fermented cabbage (sauerkraut) delivers **Lactobacillus**-rich fermented vegetable matrices supporting gut microbiome diversity as part of fermented-food patterns [2].
 
+Within the BRAIN Diet framework, cabbage is useful fresh or fermented: fresh for crucifer phytonutrients and vitamin C; fermented for probiotic-adjacent dietary patterns where food-derived bioactives modulate gut microbiota [2].
+
+## Key Nutritional Highlights
+
+- Crucifer glucosinolate/isothiocyanate pathways linked to Nrf2 biology [1].
+- Very low energy density (~25 kcal per 100 g) with vitamin C and fibre.
+- Fermented forms (sauerkraut) support fermented-vegetable diversity for gut microbiota modulation [2].
+- Raw, lightly cooked, or fermented preparations preserve different bioactive fractions.
 ## Food Context
 
 ### Synergies
@@ -61,4 +69,5 @@ Cabbage provides fiber, vitamin C, and is the base for sauerkraut fermentation, 
 
 ## References
 
-- Sauerkraut: Fermented cabbage, rich in Lactobacillus
+- [1] Houghton & Fassett 2016 – Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality? [Houghton & Fassett 2016 – Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
+- [2] Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters [Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

@@ -2,7 +2,7 @@
 id: cheddar-cheese
 title: Cheddar Cheese
 sidebar_label: Cheddar Cheese
-description: Hard cow’s-milk cheese rich in protein, calcium, and vitamin B12
+description: 'Hard cow’s-milk cheese rich in protein, calcium, and vitamin B12'
 tags:
   - Food
   - Cheddar Cheese
@@ -49,19 +49,15 @@ legacy_main_image: /img/foods/cheddar-cheese/cheddar-cheese_medium.webp
 ---
 ## Overview
 
-Cheddar is a firm, aged cow’s-milk cheese valued for its high **protein** and **calcium**, highly bioavailable **vitamin B12**, and useful amounts of **zinc** and **selenium**. As a fermented dairy product it contributes to a nutrient-dense pattern when portion sizes fit overall saturated-fat and energy goals.
+Cheddar cheese provides **complete protein**, **calcium**, **vitamin B12**, and **zinc** in a fermented dairy matrix [1]. Fermented dairy foods contribute live and postbiotic bacterial metabolites relevant to gut microbiota patterns [2].
 
-Beyond macros, aged cheddar contains non-starter lactic acid bacteria (NSLAB). Experimental work suggests some NSLAB from cheddar can survive simulated gastrointestinal stress and show traits relevant to gut persistence, while broader review evidence supports cheese as a protective matrix for probiotic viability during production/storage and digestion contexts ([Leeuwendaal et al., 2021](/docs/papers/BRAIN-Diet-References#leeuwendaal_potential_2021); [Karimi et al., 2011](/docs/papers/BRAIN-Diet-References#karimi_viability_2011)).
-
-Typical use is as slices, grated topping, or in cooked dishes; sodium and saturated fat vary by brand and age, so **product choice matters** for people monitoring blood pressure or lipid profiles.
-
+Within the BRAIN Diet framework, cheddar is a nutrient-dense dairy protein used in modest portions; saturated fat and sodium content warrant portion awareness [1].
 ## Key Nutritional Highlights
 
-- **Dense in calcium and protein** per typical serving compared with many fresh foods.
-- **Vitamin B12** is present in meaningful amounts (animal-source form).
-- **Saturated fat and sodium** can be high per 100 g; portions and label choice (e.g. reduced-sodium, reduced-fat) affect practical intake.
-- **Matrix matters**: cheese supplies fat and protein together, which differs from isolated supplements or oils.
-
+- Complete animal protein with calcium and vitamin B12 [1].
+- Fermented dairy matrix with microbiota-modulating interest [2].
+- Energy-dense; typical portions are 30–40 g, not 100 g.
+- Aged varieties are lower lactose; sodium varies by product.
 ## Food Context
 
 ### Synergies
@@ -96,5 +92,5 @@ Animal cheese provides a **complete** essential amino acid profile with high dig
 
 ## References
 
-- [Leeuwendaal et al. (2021) — The potential of non-starter lactic acid bacteria from Cheddar cheese to colonise the gut](/docs/papers/BRAIN-Diet-References#leeuwendaal_potential_2021)
-- [Karimi et al. (2011) — Viability of probiotic microorganisms in cheese during production and storage: a review](/docs/papers/BRAIN-Diet-References#karimi_viability_2011)
+- [1] Leeuwendaal & Stanton 2021 – The potential of non-starter lactic acid bacteria from Cheddar cheese to colonise the gut [Leeuwendaal & Stanton 2021 – The potential of non-starter lactic acid bacteria from Cheddar cheese to colonise the gut](/docs/papers/BRAIN-Diet-References#leeuwendaal_potential_2021)
+- [2] Karimi & Mortazavian 2011 – Viability of probiotic microorganisms in cheese during production and storage: a review [Karimi & Mortazavian 2011 – Viability of probiotic microorganisms in cheese during production and storage: a review](/docs/papers/BRAIN-Diet-References#karimi_viability_2011)

@@ -39,10 +39,15 @@ legacy_main_image: /img/foods/avocado/avocado_medium.webp
 ---
 ## Overview
 
-Avocado (whole fruit) provides monounsaturated fat (mostly oleic acid), vitamin E, lutein, fibre, and glutathione, which supports carotenoid absorption when eaten with colourful vegetables and contributes to everyday antioxidant intake.
+Avocado is a **monounsaturated-fat-rich** fruit providing oleic acid, fibre, potassium, and fat-soluble-friendly delivery of co-ingested carotenoids when eaten with vegetables [1,2]. Dietary fat supports chylomicron packaging of carotenoids and related absorption pathways [1].
 
-Co-consuming dietary fat with carotenoid-rich foods supports packaging into chylomicrons and related absorption pathways ([Kindel et al., 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)). In controlled feeding studies, carotenoid bioavailability from salad vegetables was higher with full-fat than with fat-reduced dressings ([Brown et al., 2004](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)). Vitamin D is fat-soluble; its bioavailability across milk, skim milk, corn oil, and fortified beverages has been studied directly in adults ([Tangpricha et al., 2003](/docs/papers/BRAIN-Diet-References#tangpricha_fortification_2003)).
+Within the BRAIN Diet framework, avocado functions as a whole-food fat source that improves carotenoid bioavailability from salads and vegetable dishes [2], while contributing fibre and potassium at moderate energy density.
+## Key Nutritional Highlights
 
+- Monounsaturated-fat matrix supports carotenoid absorption from co-ingested vegetables [1,2].
+- Fibre and potassium at moderate energy density (~160–200 kcal per 100 g, cultivar-dependent).
+- Whole-food fat source preferable to refined oils when the goal is meal-matrix micronutrient absorption [2].
+- Typical portions are much smaller than 100 g; nutrient totals scale with serving size.
 ## Food Context
 
 ### Synergies
@@ -67,5 +72,6 @@ Co-consuming dietary fat with carotenoid-rich foods supports packaging into chyl
 
 ## References
 
-1. Carotenoid absorption, chylomicrons, and salad trials: [Kindel, Lee & Tso (2010) — The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010); [Brown et al. (2004) — Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
-2. [Tangpricha et al. (2003) — Fortification of orange juice with vitamin D: a novel approach for enhancing vitamin D nutritional health](/docs/papers/BRAIN-Diet-References#tangpricha_fortification_2003)
+- [1] Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons [Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
+- [2] Brown & Ferruzzi 2004 – Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection [Brown & Ferruzzi 2004 – Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+- [3] Tangpricha & Koutkia 2003 – Fortification of orange juice with vitamin D: a novel approach for enhancing vitamin D nutritional health [Tangpricha & Koutkia 2003 – Fortification of orange juice with vitamin D: a novel approach for enhancing vitamin D nutritional health](/docs/papers/BRAIN-Diet-References#tangpricha_fortification_2003)

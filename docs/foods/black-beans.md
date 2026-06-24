@@ -54,20 +54,27 @@ legacy_main_image: /img/foods/black-beans/black-beans_medium.webp
 ---
 ## Overview
 
-Black beans provide plant protein, polyphenols, and prebiotic fiber. The paper details optimal soaking conditions (60°C, pH 6.0) for phytate reduction. Optimal conditions for the endogenous phytases of black beans is 60°C and pH 6.0, that resulted in a 55% reduction in 1P6 after soaking and cooking. Black beans are polyphenol-rich and support gut health, similar to kidney beans.
+Black beans provide plant protein, polyphenols, and prebiotic fibre. Soaking and cooking under optimal conditions (about 60°C and pH 6.0) can substantially reduce phytate and improve mineral bioavailability [1]. Black beans are polyphenol-rich legumes that support gut health within diverse plant-forward dietary patterns [2].
+
+## Key Nutritional Highlights
+
+- Lysine-rich plant protein (~5.4 g per 100 g) with methionine/cysteine as limiting amino acids; pair with grains for complementarity [2].
+- Polyphenol- and fibre-containing legume supporting prebiotic intake and gut microbiome diversity.
+- Non-heme iron source where vitamin C co-ingestion can markedly improve absorption [3].
+- Soaking and sprouting reduce phytates and can improve zinc and iron bioavailability [1].
 
 ## Food Context
 
 ### Synergies
 
-- Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
-- Pair with vitamin C to enhance iron absorption, with studies showing up to a fourfold increase when consumed together [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
-- Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability [GREINER and KONIET
+- Pair with grains for complete amino acid profile; grain–legume complementarity improves essential amino-acid coverage.
+- Pair with vitamin C-rich foods to enhance non-heme iron absorption [3].
+- Soaking and sprouting reduce phytates in legumes and grains, improving mineral bioavailability [1].
 
 ### Preparation
 
-- Soak at 60°C (warm water) with pH 6.0 (lemon/vinegar) for optimal phytate reduction; optimal conditions for the endogenous phytases of black beans is 60°C and pH 6.0, that resulted in a 55% reduction in 1P6 after soaking and cooking
-- Soak 12-24 hours, then cook thoroughly to reduce phytates and improve mineral bioavailability
+- Soak at about 60°C (warm water) with pH ~6.0 (lemon/vinegar) for optimal phytate reduction; endogenous phytase activity peaks near these conditions [1].
+- Soak 12–24 hours, then cook thoroughly to reduce phytates and improve mineral bioavailability.
 
 ### Essential Amino Acid Profile
 
@@ -95,12 +102,8 @@ Black Beans are rich in lysine but relatively low in sulfur-containing amino aci
 
 <FoodSubstancesFromTable details={frontMatter} />
 
-ZNY 1999](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
-
 ## References
 
-- Optimal conditions for the endogenous phytases of black beans is 60°C and pH 6.0, that resulted in a 55% reduction in 1P6 after soaking and cooking
-- Kidney beans: DIAAS 60-65, Methionine-limited; polyphenol-rich; supports gut health (black beans similar profile)
-- Pair with whole grains or seeds for amino acid complementarity; grain-legume complementarity improves essential amino-acid coverage
-- Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability [GREINER and KONIETZNY 1999](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
-- Vitamin C significantly improves non-heme iron absorption by reducing ferric to ferrous iron, with studies showing up to a fourfold increase when consumed together [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+- [1] Greiner & Konietzny 1999 – Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa) [Greiner & Konietzny 1999 – Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
+- [2] Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review [Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+- [3] Hallberg & Brune 1989 – Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [Hallberg & Brune 1989 – Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)

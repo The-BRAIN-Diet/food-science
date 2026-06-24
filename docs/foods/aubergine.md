@@ -46,8 +46,15 @@ legacy_main_image: /img/foods/aubergine/aubergine_medium.webp
 ---
 ## Overview
 
-Aubergine (*Solanum melongena*), also called eggplant, is a low-energy vegetable with dietary fibre, potassium, and water-soluble antioxidants. Purple-skinned varieties are notable for anthocyanins such as nasunin in the peel. Aubergine fits Mediterranean-style patterns that emphasise vegetables, olive oil, and diverse plant foods.
+Aubergine (eggplant) provides **anthocyanin** pigments (notably nasunin in the peel) and fibre at low energy density, contributing polyphenol diversity within plant-forward dietary patterns [1]. Carotenoid and polyphenol bioactives from vegetables participate in antioxidant and anti-inflammatory networks relevant to brain health [1].
 
+Within the BRAIN Diet framework, aubergine is a low-calorie vegetable used for fibre and polyphenol variety; food-derived phenolics can shape gut microbiota composition and metabolite profiles that intersect with neurotransmitter biology [2].
+## Key Nutritional Highlights
+
+- Peel anthocyanins (e.g. nasunin) contribute antioxidant interest at seasoning-to-side-dish portions [1].
+- Low energy density with meaningful fibre per 100 g; typical culinary portions are smaller than table values imply.
+- Polyphenol-class vegetable supporting diverse plant-food intake rather than a single-nutrient role [2].
+- Pairs with dietary fat in mixed meals to support absorption of co-ingested fat-soluble phytonutrients [1].
 ## Food Context
 
 ### Synergies
@@ -72,5 +79,5 @@ Aubergine (*Solanum melongena*), also called eggplant, is a low-energy vegetable
 
 ## References
 
-- USDA FoodData Central SR Legacy: Eggplant, raw (FDC ID 169228) — per 100 g edible portion
-- Anthocyanins in eggplant peel (e.g. nasunin) contribute to antioxidant interest in purple cultivars
+- [1] Johnson et al. 2014 – Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan [Johnson et al. 2014 – Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+- [2] Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters [Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

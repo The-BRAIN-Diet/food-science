@@ -54,8 +54,15 @@ legacy_main_image: /img/foods/chickpeas/chickpeas_medium.webp
 ---
 ## Overview
 
-Chickpeas are legumes providing plant protein, prebiotic fiber, folate, magnesium, and B6, supporting gut health and neurotransmitter synthesis. Chickpeas have a DIAAS score of 64-69, indicating they are methionine-limited and should be paired with grains for complete amino acid profile. Chickpeas are listed as sources for magnesium, iron, zinc, and B6, all critical cofactors for neurotransmitter synthesis.
+Chickpeas provide **lysine-rich** plant protein, **fibre**, **folate**, and **iron** in a legume matrix [1]. Soaking and cooking reduce **phytates**, improving mineral bioavailability [1].
 
+Within the BRAIN Diet framework, chickpeas are methionine-limited and pair with grains for complete essential amino-acid coverage.
+## Key Nutritional Highlights
+
+- Lysine-rich legume protein; methionine/cysteine limiting (DIAAS ~65–70) [1].
+- Fibre and folate at moderate energy density.
+- Soaking/cooking reduces phytates and improves iron/zinc bioavailability [1].
+- Pair with vitamin C-rich foods to enhance non-heme iron absorption.
 ## Food Context
 
 ### Synergies
@@ -97,9 +104,4 @@ Chickpeas are rich in lysine but relatively low in sulfur-containing amino acids
 
 ## References
 
-- Chickpeas: DIAAS 64-69, Methionine-limited; good source of magnesium and iron
-- Zinc: Neurotransmitter modulation, synaptic plasticity, antioxidant enzymes; food sources include oysters, beef, crab, chicken, pork, pumpkin seeds, lentils, chickpeas, cashews
-- B6 (chickpeas, potatoes, bananas, whole grains, soy) is a cofactor in the development of all key neurotransmitters
-- Combine with grains like barley or oats for amino acid complementarity; grain-legume complementarity improves essential amino-acid coverage
-- Legumes such as lentils and chickpeas provide complex carbs and fiber for gut health
-- Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability [GREINER and KONIETZNY 1999](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
+- [1] Greiner & Konietzny 1999 – Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa) [Greiner & Konietzny 1999 – Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)

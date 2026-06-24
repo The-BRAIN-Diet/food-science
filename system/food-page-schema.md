@@ -97,7 +97,22 @@ Practical framework: sourcing, synergies, preparation. Quality over completeness
 - Every bullet must include a link: `/docs/papers/BRAIN-Diet-References#citationKey`.
 - Citation keys must exist in `static/bibtex/BRAIN-diet.bib`.
 - Plain-text-only reference bullets are invalid.
+- Each bullet must state the **paper title** (not just author/year repeated). Use inline numeric citations `[1]`, `[2]` in Overview and Key Nutritional Highlights where claims need evidence.
 - Verify the entry **survives deduplication** on the global references page (unique DOI/URL).
+
+**Worked example (beef-style):**
+
+```markdown
+- [1] Avgerinos et al. 2018 – Creatine supplementation and cognitive performance [Avgerinos et al. 2018 – Creatine supplementation and cognitive performance](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
+```
+
+**Worked example (claim-style, dark chocolate):**
+
+```markdown
+- [1] High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor [Neshatdoust et al. 2016](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+```
+
+Both forms include a readable title before the bibliography link; stub forms like `- [1] FAO 2013 [FAO 2013](...)` are invalid.
 
 ---
 

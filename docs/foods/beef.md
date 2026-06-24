@@ -73,11 +73,11 @@ Within the BRAIN Diet framework, beef may be used strategically for nutrient den
 
 ## Key Nutritional Highlights
 
-- Provides a complete, highly digestible protein source.
-- Rich in bioavailable heme iron, zinc, and vitamin B12 compared with many plant foods.
-- Contributes creatine and related muscle-derived compounds relevant to cellular energy metabolism.
-- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
-- Processed versions (e.g. cured, smoked, deli-style) are associated with less favorable health outcomes.
+- Provides a complete, highly digestible protein source [4].
+- Rich in bioavailable heme iron, zinc, and vitamin B12 compared with many plant foods [3].
+- Contributes creatine and CoQ10 relevant to cellular energy metabolism [1,2].
+- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains [6].
+- Processed versions (e.g. cured, smoked, deli-style) are associated with less favorable health outcomes [5].
 
 ## Food Context
 
@@ -115,17 +115,15 @@ Beef provides a complete essential amino acid profile with high digestibility an
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
-
-1. [Avgerinos et al. 2018 – Creatine supplementation and cognitive performance](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
-2. [Crane 2001 – Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
-3. [Beard 2003 – Iron deficiency and neural functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
-4. [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-5. [Bouvard et al. 2015 – Carcinogenicity of consumption of red and processed meat](/docs/papers/BRAIN-Diet-References#bouvard_meat_2015)
-6. [Willett et al. 2019 – Food in the Anthropocene: the EAT–Lancet Commission](/docs/papers/BRAIN-Diet-References#willett_eatlancet_2019)
-7. [Daley et al. 2010 – A review of nutritional differences between grass-fed and grain-fed beef](/docs/papers/BRAIN-Diet-References#daley_grassfed_2010)
-8. [Uribarri et al. 2010 – Advanced glycation end products in foods and a practical guide to their reduction in the diet](/docs/papers/BRAIN-Diet-References#uribarri_age_2010)
-9. [Cross & Sinha 2004 – Meat-related mutagens and cancer risk](/docs/papers/BRAIN-Diet-References#cross_hca_2010)
-10. [Satija et al. 2016 – Plant-based dietary patterns and chronic disease risk](/docs/papers/BRAIN-Diet-References#satija_plantforward_2016)
-11. [Norton & Layman 2006 – Leucine and regulation of muscle protein synthesis](/docs/papers/BRAIN-Diet-References#norton_leucine_2006)
-12. [Fernstrom 2013 – Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+- [1] Avgerinos et al. 2018 – Creatine supplementation and cognitive performance [Avgerinos et al. 2018 – Creatine supplementation and cognitive performance](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
+- [2] Crane 2001 – Biochemical functions of coenzyme Q10 in mitochondria [Crane 2001 – Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
+- [3] Beard 2003 – Iron deficiency and neural functioning [Beard 2003 – Iron deficiency and neural functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
+- [4] FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report) [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+- [5] Bouvard et al. 2015 – Carcinogenicity of consumption of red and processed meat [Bouvard et al. 2015 – Carcinogenicity of consumption of red and processed meat](/docs/papers/BRAIN-Diet-References#bouvard_meat_2015)
+- [6] Willett et al. 2019 – Food in the Anthropocene: the EAT–Lancet Commission [Willett et al. 2019 – Food in the Anthropocene: the EAT–Lancet Commission](/docs/papers/BRAIN-Diet-References#willett_eatlancet_2019)
+- [7] Daley et al. 2010 – A review of nutritional differences between grass-fed and grain-fed beef [Daley et al. 2010 – A review of nutritional differences between grass-fed and grain-fed beef](/docs/papers/BRAIN-Diet-References#daley_grassfed_2010)
+- [8] Uribarri et al. 2010 – Advanced glycation end products in foods and a practical guide to their reduction in the diet [Uribarri et al. 2010 – Advanced glycation end products in foods and a practical guide to their reduction in the diet](/docs/papers/BRAIN-Diet-References#uribarri_age_2010)
+- [9] Cross & Sinha 2004 – Meat-related mutagens and cancer risk [Cross & Sinha 2004 – Meat-related mutagens and cancer risk](/docs/papers/BRAIN-Diet-References#cross_hca_2010)
+- [10] Satija et al. 2016 – Plant-based dietary patterns and chronic disease risk [Satija et al. 2016 – Plant-based dietary patterns and chronic disease risk](/docs/papers/BRAIN-Diet-References#satija_plantforward_2016)
+- [11] Norton & Layman 2006 – Leucine and regulation of muscle protein synthesis [Norton & Layman 2006 – Leucine and regulation of muscle protein synthesis](/docs/papers/BRAIN-Diet-References#norton_leucine_2006)
+- [12] Fernstrom 2013 – Large neutral amino acids and brain neurochemistry [Fernstrom 2013 – Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)

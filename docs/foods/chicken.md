@@ -48,18 +48,15 @@ legacy_main_image: /img/foods/chicken/chicken_medium.webp
 ---
 ## Overview
 
-Chicken provides **niacin (vitamin B3)** for NAD⁺ synthesis, **zinc**, and amino acids including tryptophan, supporting neurotransmitter synthesis and mitochondrial function. Niacin is directly converted to NAD⁺ via the salvage pathway, and inadequate niacin can impair NAD⁺ regeneration, reducing ATP production and potentially affecting cognitive performance. Chicken is also a practical dietary source of tryptophan, which serves as a serotonin precursor and can be routed through the kynurenine pathway.
+Chicken provides **niacin (vitamin B3)** for NAD⁺ synthesis, **zinc**, and amino acids including **tryptophan**, supporting neurotransmitter synthesis and mitochondrial function [1]. Niacin feeds NAD⁺ salvage pathways relevant to ATP production and cognitive energy metabolism [1].
 
-Within the BRAIN Diet framework, chicken is typically used as a flexible protein base while its micronutrient profile (especially niacin and zinc) supports broader metabolic and neurochemical priorities. Pairing chicken with fibre- and polyphenol-rich plant foods helps keep the overall pattern plant-forward, while gentler cooking methods help preserve B vitamins and limit heat-derived compounds [1,2].
-
+Within the BRAIN Diet framework, chicken is a flexible protein base; large neutral amino acid balance affects tryptophan brain uptake in mixed meals [2]. Pair with fibre- and polyphenol-rich plants; gentler cooking preserves B vitamins [1,2].
 ## Key Nutritional Highlights
 
-- Provides a complete, highly digestible protein source.
-- Typically contributes B vitamins and selenium with lower heme-iron density than red meat.
-- Usually lower in saturated fat than many fatty red-meat cuts when skin and visible fat are limited.
-- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.
-- Processing level matters: minimally processed cuts differ from cured or deli-style products.
-
+- Complete, highly digestible animal protein with niacin and zinc [1].
+- Tryptophan source; LNAA competition affects serotonin-pathway routing [2].
+- Lower heme-iron density than red meat; lower saturated fat when skin limited.
+- Processing level matters: minimally processed cuts differ from cured/deli products.
 ## Food Context
 
 ### Synergies
@@ -89,7 +86,5 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
-
-1. [Pirinen et al. 2020 – Niacin and NAD⁺ metabolism in health and disease](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
-2. [Fernstrom 2013 – Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+- [1] Pirinen et al. 2020 – Niacin and NAD⁺ metabolism in health and disease [Pirinen et al. 2020 – Niacin and NAD⁺ metabolism in health and disease](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
+- [2] Fernstrom 2013 – Large neutral amino acids and brain neurochemistry [Fernstrom 2013 – Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)

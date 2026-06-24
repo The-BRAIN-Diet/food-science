@@ -99,20 +99,115 @@ SECTIONS = [
             "Vance, D. E. (2014). Physiological roles of phosphatidylethanolamine N-methyltransferase. Biochimica et Biophysica Acta, 1831(3), 626–632. https://doi.org/10.1016/j.bbalip.2012.07.018",
         ],
     },
+    {
+        "title": "BRS3 — Inflammation & Oxidative Stress: Framework Structure and ADHD-Relevant Evidence",
+        "body": (
+            "Within the BRAIN Framework, BRS3 (Inflammation & Oxidative Stress) describes the immune and "
+            "redox regulation layer linking dietary pattern, gut–immune context, and antioxidant biology to "
+            "inflammatory signalling and oxidative burden. Three Functional Mechanisms integrate eight Primary "
+            "Mechanisms: BRS3(FM1) Anti-Inflammatory Signalling Tone (PM1–PM2: NF-κB regulation, gut-derived "
+            "inflammatory signalling); BRS3(FM2) Antioxidant Defense Capacity (PM3–PM6: Nrf2-ARE antioxidant "
+            "activation, ROS generation versus clearance balance, lipid peroxidation control, antioxidant network "
+            "recycling); and BRS3(FM3) Inflammation Resolution Capacity (PM7–PM8: cytokine network modulation, "
+            "eicosanoid/SPM balance). Key Constraints govern shared antioxidant substrate and essential fatty-acid "
+            "pools that constrain multiple PMs simultaneously.\n\n"
+            "In ADHD, inflammatory and redox biology intersect across these capacities rather than through a single "
+            "biomarker. Systemic inflammation relates to default-mode network connectivity (Marsland et al., 2017); "
+            "metabolic and postprandial inflammatory patterns are reported (Brown et al., 2025); and elevated "
+            "pro-inflammatory cytokine context is described in paediatric cohorts (Chang et al., 2020). Gut-derived "
+            "load includes reduced microbiome alpha diversity (Prehn-Kristensen et al., 2018), butyrate-linked "
+            "neuroinflammation framing (Yunting Li et al., 2024), and propionate–norepinephrine signalling with "
+            "possible attention relevance (Hoyles et al., 2018). Immune–allergy overlap is also reported (Wesselink "
+            "et al., 2019). On the redox side, adult ADHD cohorts show elevated malondialdehyde (Bulut et al., 2007), "
+            "thiol/disulfide shifts and DNA oxidation markers (Kurhan & Alp, 2021), elevated oxidative-stress indices "
+            "(Miniksar et al., 2023), and compensatory glutathione elevation (Verlaet et al., 2019). Dietary "
+            "antioxidant treatment rationale, ultra-processed food and metals exposure, and emerging contaminant "
+            "burden are reviewed in ADHD nutritional contexts (Verlaet et al., 2018; Dufault et al., 2024; Zhang "
+            "et al., 2025).\n\n"
+            "Collectively, these findings support the BRAIN Framework proposition that ADHD-relevant biology in "
+            "BRS3 emerges from interacting constraints on inflammatory tone, endogenous antioxidant induction, net "
+            "redox balance, and inflammation-resolution substrate context — providing multiple diet-actionable entry "
+            "points beyond isolated anti-inflammatory or antioxidant supplementation models."
+        ),
+        "subsections": [
+            {
+                "title": "Paper review: Verlaet et al. (2018) and BRS3-FM2-PM3 (Nrf2-ARE Antioxidant Activation)",
+                "body": (
+                    "Verlaet et al. (2018) is a narrative review in Nutrients that argues for dietary antioxidant "
+                    "strategies as a complementary frame in ADHD, set against growing concern about limitations and "
+                    "side effects of stimulant pharmacotherapy alone. The authors synthesise evidence that ADHD is "
+                    "associated with immune dysregulation, epigenetic modulation of gene expression, and altered "
+                    "oxidant–antioxidant balance. Their central mechanistic claim is that chronic low-grade "
+                    "inflammation and oxidative stress can reinforce one another — through pathways such as "
+                    "T-cell-mediated neuroinflammation and neuronal oxidative injury — and that nutritional "
+                    "modulation of immune activity and redox state may therefore be biologically plausible in ADHD "
+                    "management. The review emphasises food-derived polyphenols and broader natural antioxidant "
+                    "strategies rather than high-dose isolated supplement megadosing.\n\n"
+                    "Within the BRAIN Framework, this paper is most directly anchored to BRS3-FM2-PM3 (Nrf2-ARE "
+                    "Antioxidant Activation), the PM governing endogenous antioxidant and detoxification gene "
+                    "programmes rather than passive dietary antioxidant intake alone. Verlaet et al. do not name Nrf2 "
+                    "explicitly, but their argument aligns with PM3 logic: raising cellular defence capacity through "
+                    "repeatable dietary induction patterns (for example crucifer-derived isothiocyanates such as "
+                    "sulforaphane) supported by trace-mineral cofactor sufficiency (selenium, zinc, manganese) within "
+                    "BRS3(KC1) Antioxidant Substrate Availability. Mechanistic support for Nrf2-linked induction in "
+                    "human dietary contexts is provided separately by Houghton et al. (2016), which PM3 cites for "
+                    "bioavailability and repeated-exposure kinetics; Mocchegiani & Malavolta (2019) further supports "
+                    "cofactor dependence of endogenous antioxidant enzyme systems.\n\n"
+                    "For phenome interpretation, Verlaet et al. (2018) is used cautiously at low–medium confidence "
+                    "for Cognitive Clarity and Focus / Attention Stability on PM3 — as translational context linking "
+                    "oxidative-stress and immune readout shifts to attention-relevant biology, not as proof of dietary "
+                    "treatment efficacy. The paper is hypothesis-generating and integrative rather than an "
+                    "intervention outcome trial; findings should be read alongside sibling PMs handling net ROS balance "
+                    "(PM4), membrane lipid damage (PM5), and antioxidant network recycling (PM6). Its value for the "
+                    "manuscript is in justifying why BRS3(FM2) treats endogenous antioxidant activation as a "
+                    "first-class, diet-actionable mechanism in ADHD nutritional framing."
+                ),
+            }
+        ],
+        "references": [
+            "Brown et al. (2025). Associations between ADHD and metabolic disorders. See BRAIN Diet bibliography: brown_associations_2025.",
+            "Bulut, M., et al. (2007). Evaluation of malondialdehyde levels in adult attention deficit hyperactivity disorder. Psychiatry and Clinical Psychopharmacology. https://doi.org/10.1080/14751740701595421",
+            "Chang, J. P.-C., et al. (2020). Cortisol, inflammatory biomarkers and neurotrophins in children and adolescents with ADHD in Taiwan. Brain, Behavior, and Immunity, 88. https://doi.org/10.1016/j.bbi.2020.05.017",
+            "Dufault, R., et al. (2024). Nutritional factors in ADHD and related disorders. See BRAIN Diet bibliography: dufault_nutritional_2024.",
+            "Houghton, C. A., Fassett, R. G., & Coombes, J. S. (2016). Can the clinician's expectation be matched by the reality? Sulforaphane bioavailability and Nrf2 activation. Oxidative Medicine and Cellular Longevity. https://doi.org/10.1155/2016/7857186",
+            "Hoyles, T., et al. (2018). Microbiome-host systems biology. See BRAIN Diet bibliography: hoyles_microbiome-host_2018.",
+            "Kurhan, S., & Alp, H. H. (2021). Dynamic thiol/disulfide homeostasis in ADHD. Psychiatry Investigation. https://doi.org/10.30773/pi.2020.0359",
+            "Marsland, A. L., et al. (2017). Systemic inflammation and brain structure in healthy and depressed individuals. See BRAIN Diet bibliography: marsland_systemic_2017.",
+            "Miniksar, D. B., et al. (2023). The effect of drug use, BMI and blood pressure on oxidative stress levels in children and adolescents with ADHD. Clinical Psychopharmacology and Neuroscience, 21(1). https://doi.org/10.9758/cpn.2023.21.1.88",
+            "Mocchegiani, E., & Malavolta, M. (2019). Role of zinc and selenium in antioxidant systems. See BRAIN Diet bibliography: mocchegiani_role_2019.",
+            "Prehn-Kristensen, A., et al. (2018). Reduced microbiome alpha diversity in ADHD. See BRAIN Diet bibliography: prehn-kristensen_reduced_2018.",
+            "Verlaet, A., Maasakkers, C., Hermans, N., & Savelkoul, H. (2018). Rationale for dietary antioxidant treatment of ADHD. Nutrients, 10(4), 405. https://doi.org/10.3390/nu10040405",
+            "Verlaet, A., et al. (2019). Oxidative stress in ADHD. See BRAIN Diet bibliography: verlaet_oxidative_2019.",
+            "Wesselink, E., et al. (2019). Feeding, immunity, and ADHD. See BRAIN Diet bibliography: wesselink_feeding_2019.",
+            "Yunting Li, et al. (2024). Sodium butyrate and neuroinflammation. See BRAIN Diet bibliography: li_sodium_2024.",
+            "Zhang, Y., et al. (2025). Micro/nanoplastics and ADHD. See BRAIN Diet bibliography: zhang_exploring_2025.",
+        ],
+    },
 ]
 
 
-def add_section(doc: Document, section: dict) -> int:
-    heading = doc.add_heading(section["title"], level=1)
-    heading.runs[0].font.size = Pt(14)
+def add_body_paragraphs(doc, text, heading_level=None, heading_size=14):
+    if heading_level is not None:
+        heading = doc.add_heading(text, level=heading_level)
+        heading.runs[0].font.size = Pt(heading_size)
+        return
 
-    for para_text in section["body"].split("\n\n"):
+    for para_text in text.split("\n\n"):
         p = doc.add_paragraph(para_text)
         p.paragraph_format.line_spacing_rule = WD_LINE_SPACING.DOUBLE
         p.paragraph_format.space_after = Pt(6)
         for run in p.runs:
             run.font.name = "Times New Roman"
             run.font.size = Pt(12)
+
+
+def add_section(doc: Document, section: dict) -> int:
+    add_body_paragraphs(doc, section["title"], heading_level=1, heading_size=14)
+    add_body_paragraphs(doc, section["body"])
+
+    for subsection in section.get("subsections", []):
+        add_body_paragraphs(doc, subsection["title"], heading_level=2, heading_size=13)
+        add_body_paragraphs(doc, subsection["body"])
 
     doc.add_heading("References", level=2)
     for ref in section["references"]:
@@ -125,7 +220,9 @@ def add_section(doc: Document, section: dict) -> int:
             run.font.name = "Times New Roman"
             run.font.size = Pt(11)
 
-    return len(section["body"].split())
+    return len(section["body"].split()) + sum(
+        len(subsection["body"].split()) for subsection in section.get("subsections", [])
+    )
 
 
 def main():

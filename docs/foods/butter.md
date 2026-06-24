@@ -31,8 +31,15 @@ legacy_main_image: /img/foods/butter/butter_medium.webp
 ---
 ## Overview
 
-Butter provides saturated fats, fat-soluble vitamins, and in grass-fed varieties, additional bioactives like CLA and C15:0. Saturated fat (SFA) should be &lt;10% (ideally &lt;7%) from sources like lard, butter, and meats.
+Butter is a **saturated-fat-rich** dairy fat used for culinary flavour and fat-soluble vitamin delivery (vitamins A, D, E, K when present) [1]. Saturated fat intake is recommended within upper limits in cardiometabolic dietary guidance [1].
 
+Within the BRAIN Diet framework, butter is a strategic fat for small-portion use; overall dietary pattern quality and plant-food volume matter more than isolated saturated fat sources [2].
+## Key Nutritional Highlights
+
+- Saturated fat source; keep within guideline limits for SFA intake [1].
+- Fat-soluble vitamin vehicle in whole-dairy matrix.
+- Prefer culinary amounts; not a primary BRAIN Diet staple fat.
+- Plant-forward patterns with limited animal saturated fat align with sustainable healthy diet frameworks [2].
 ## Food Context
 
 ### Sourcing
@@ -56,4 +63,5 @@ Butter provides saturated fats, fat-soluble vitamins, and in grass-fed varieties
 
 ## References
 
-- Saturated fat (SFA) — &lt;10% (ideally &lt;7%) lard, butter, meats
+- [1] Li & Hruby 2015 – Saturated Fats Compared With Unsaturated Fats and Sources of Carbohydrates in Relation to Risk of Coronary Heart Disease [Li & Hruby 2015 – Saturated Fats Compared With Unsaturated Fats and Sources of Carbohydrates in Relation to Risk of Coronary Heart Disease](/docs/papers/BRAIN-Diet-References#li_saturated_2015)
+- [2] Willett & Rockstr\"om 2019 – Food in the Anthropocene: the EAT--Lancet Commission on healthy diets from sustainable food systems [Willett & Rockstr\"om 2019 – Food in the Anthropocene: the EAT--Lancet Commission on healthy diets from sustainable food systems](/docs/papers/BRAIN-Diet-References#willett_eatlancet_2019)

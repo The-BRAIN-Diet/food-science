@@ -18,7 +18,7 @@ export const PROTEIN_SOURCE_SLUGS = new Set([
 ])
 
 /** Spices/herbs: USDA protein per 100 g is not meaningful for typical pinches. */
-export const EAA_EXCLUDE_SLUGS = new Set(["saffron"])
+export const EAA_EXCLUDE_SLUGS = new Set(["saffron", "black-pepper", "cinnamon"])
 
 export const DOWNSTREAM_METABOLITE_TAGS = new Set([
   "SCFAs", "Butyrate", "Propionate", "Acetate", "Short-chain fatty acids",

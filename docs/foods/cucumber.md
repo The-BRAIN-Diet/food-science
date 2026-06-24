@@ -33,8 +33,15 @@ legacy_main_image: /img/foods/cucumber/cucumber_medium.webp
 ---
 ## Overview
 
-Cucumber provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, supporting mitochondrial function and energy metabolism. Nicotinamide Mononucleotide (NMN) is a direct NAD⁺ intermediate in salvage pathway found in edamame, broccoli, cucumber, and avocado.
+Cucumber provides **water**, **vitamin K**, modest **vitamin C**, and very low energy density [1]. As a hydrating vegetable, it supports volume and phytochemical diversity within plant-forward patterns [2].
 
+Within the BRAIN Diet framework, cucumber is a low-calorie hydration vegetable; peel-on varieties add fibre and polyphenols.
+## Key Nutritional Highlights
+
+- Very high water content; low energy (~15 kcal per 100 g).
+- Vitamin K in whole-cucumber preparations with peel [1].
+- Supports meal volume and hydration in plant-forward patterns [2].
+- Pair with fat-containing dressings when co-ingesting fat-soluble nutrients from salads.
 ## Food Context
 
 ### Synergies
@@ -59,4 +66,5 @@ Cucumber provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate,
 
 ## References
 
-- Nicotinamide Mononucleotide (NMN): Direct NAD⁺ intermediate in salvage pathway - Edamame, broccoli, cucumber, avocado
+- [1] Kennedy et al. 2016 – B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review [Kennedy et al. 2016 – B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+- [2] Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters [Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

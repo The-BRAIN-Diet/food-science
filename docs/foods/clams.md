@@ -48,6 +48,15 @@ Clams are bivalve shellfish providing complete protein together with notable amo
 
 Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense shellfish** that complements both plant and animal sources of B12 and iron. Because portions are typically modest and eaten intermittently, clams are best viewed as a periodic micronutrient booster rather than a daily protein anchor [1,2]. As with other shellfish, water quality, harvesting practices, and preparation determine safety; sourcing from monitored waters and cooking thoroughly helps reduce microbiological and contaminant risk [2].
 
+
+
+## Key Nutritional Highlights
+
+- Clams are bivalve shellfish providing complete protein together with notable amounts of **vitamin B12**, **iron**, **zinc**, and **taurine**.
+- Among shellfish, clams and mussels are often highlighted for their taurine content, which contributes to bile acid conjugation, membrane stabilisation, and antioxidant defence in experimental and clinical contexts [1].
+- Their B12 and iron content support methylation pathways, homocysteine recycling, and oxygen transport, all of which are relevant to neurological and cardiovascular health [2].
+- Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense shellfish** that complements both plant and animal sources of B12 and iron.
+- Because portions are typically modest and eaten intermittently, clams are best viewed as a periodic micronutrient booster rather than a daily protein anchor [1,2].
 ## Food Context
 
 ### Sourcing
@@ -72,7 +81,5 @@ Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense s
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
-
-1. [Wójcik et al. 2009 – Health effects of taurine and its dietary sources](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)
-2. [Pawlak et al. 2013 – Vitamin B12 in human nutrition: sources and status](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)
+- [1] Wójcik et al. 2009 – Health effects of taurine and its dietary sources [Wójcik et al. 2009 – Health effects of taurine and its dietary sources](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)
+- [2] Pawlak et al. 2013 – Vitamin B12 in human nutrition: sources and status [Pawlak et al. 2013 – Vitamin B12 in human nutrition: sources and status](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)

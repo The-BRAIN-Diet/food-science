@@ -84,6 +84,6 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-- [1] Vitamin E antioxidant network and interactions [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
-- [2] Plant protein adequacy and typical limiting amino acids in vegetarian patterns [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
-- [3] Protein source patterns (including nuts) and long-term health outcomes (cohort evidence) [Sun et al. 2019](/docs/papers/BRAIN-Diet-References#sun_association_2019)
+- [1] Packer & Podda 1997 – Vitamin E and the Metabolic Antioxidant Network [Packer & Podda 1997 – Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+- [2] Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review [Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+- [3] Sun & Liu 2019 – Association of Major Dietary Protein Sources with All-cause and Cause-specific Mortality: The Women’s Health Initiative (FS03-08-19) [Sun & Liu 2019 – Association of Major Dietary Protein Sources with All-cause and Cause-specific Mortality: The Women’s Health Initiative (FS03-08-19)](/docs/papers/BRAIN-Diet-References#sun_association_2019)

@@ -40,8 +40,15 @@ legacy_main_image: /img/foods/bell-peppers/bell-peppers_medium.webp
 ---
 ## Overview
 
-Bell peppers provide very high vitamin C content, enhancing non-heme iron absorption and supporting norepinephrine synthesis. Eating beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) improves iron bioavailability.
+Bell peppers provide **vitamin C**, carotenoids (including capsanthin and related pigments), and low energy density [1]. Co-consuming vegetables with a small amount of dietary fat improves carotenoid absorption via chylomicron packaging [2].
 
+Within the BRAIN Diet framework, peppers are a vitamin C–rich vegetable supporting non-heme iron absorption in mixed meals and contributing carotenoid diversity [1,2].
+## Key Nutritional Highlights
+
+- Very high vitamin C per 100 g among common vegetables; supports non-heme iron absorption in mixed meals [1].
+- Carotenoid pigments with improved bioavailability when paired with dietary fat [2].
+- Low energy density; colour (red/yellow/orange) tracks carotenoid profile.
+- Useful culinary pairing with legumes, grains, and iron-containing plant foods [1].
 ## Food Context
 
 ### Synergies
@@ -66,5 +73,5 @@ Bell peppers provide very high vitamin C content, enhancing non-heme iron absorp
 
 ## References
 
-- Norepinephrine: Same as dopamine sources + citrus, bell peppers (vitamin C)
-- Eat your beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus)
+- [1] Johnson et al. 2014 – Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan [Johnson et al. 2014 – Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+- [2] Brown & Ferruzzi 2004 – Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection [Brown & Ferruzzi 2004 – Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)

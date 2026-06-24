@@ -59,8 +59,15 @@ legacy_main_image: /img/foods/broccoli/broccoli_medium.webp
 ---
 ## Overview
 
-Broccoli is a cruciferous vegetable providing sulforaphane (from glucoraphanin), folate, and sulfur compounds that support glutathione synthesis and mitochondrial health. Isothiocyanates (ITCs) like sulforaphane, created through enzymatic activity from glucoraphanin in broccoli, have shown promising results in reducing oxidative stress. Broccoli is listed as a sulphur-containing vegetable that provides glutathione precursors, supporting antioxidant defenses and brain health.
+Broccoli is a cruciferous vegetable providing **sulforaphane** precursors (glucoraphanin), **folate**, and sulfur compounds supporting glutathione-linked antioxidant networks [1]. Isothiocyanates from crucifers activate Nrf2-associated cytoprotective gene programmes [1].
 
+Within the BRAIN Diet framework, broccoli contributes folate and crucifer phytonutrients at low energy density; light cooking or chewing-dependent myrosinase activity affects sulforaphane yield [2].
+## Key Nutritional Highlights
+
+- Glucoraphanin → sulforaphane pathway; Nrf2-activating isothiocyanate interest [1].
+- Folate and vitamin C at low energy density (~34 kcal per 100 g raw) [2].
+- Sulfur-containing vegetable supporting glutathione precursor intake [1].
+- Chewing/light cooking preserves myrosinase-dependent sulforaphane formation.
 ## Food Context
 
 ### Synergies
@@ -85,8 +92,5 @@ Broccoli is a cruciferous vegetable providing sulforaphane (from glucoraphanin),
 
 ## References
 
-- Isothiocyanates (ITCs) like sulforaphane, created through enzymatic activity from glucoraphanin in broccoli, have also shown promising results in reducing oxidative stress
-- Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health
-- Listed as plant source of CoQ10 (lower amounts than animal sources)
-- Nicotinamide Mononucleotide (NMN) sources include edamame, broccoli, cucumber, avocado
-- Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis
+- [1] Houghton & Fassett 2016 – Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality? [Houghton & Fassett 2016 – Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
+- [2] Kennedy et al. 2016 – B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review [Kennedy et al. 2016 – B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
