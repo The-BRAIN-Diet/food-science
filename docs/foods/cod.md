@@ -40,11 +40,10 @@ Within the BRAIN Diet framework, cod functions as a **lean marine protein** that
 
 ## Key Nutritional Highlights
 
-- Provides complete, highly digestible protein.
-- Commonly contributes selenium, iodine, and vitamin B12, though levels vary by species.
-- EPA/DHA content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.
-- Often lower in saturated fat than many fatty red-meat patterns when minimally processed.
-- Nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).
+- Provides complete, highly digestible protein with excellent DIAAS coverage [2].
+- Modest EPA/DHA relative to oily fish; still contributes marine omega-3s at low energy cost [1].
+- Selenium and vitamin B12 vary by species; see nutrition table for this FDC entry.
+- Lean marine protein (~61 kcal per 100 g) for meals already containing other fat sources [1].
 
 ## Food Context
 
@@ -69,7 +68,5 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
-
-1. [McNamara & Carlson 2006 – Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
-2. [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+- [1] McNamara & Carlson 2006 – Omega-3 fatty acids in brain development, function, and psychopathology [McNamara & Carlson 2006 – Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
+- [2] FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report) [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

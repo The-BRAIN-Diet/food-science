@@ -38,8 +38,15 @@ legacy_main_image: /img/foods/beetroot/beetroot_medium.webp
 ---
 ## Overview
 
-Beetroot provides dietary nitrates that convert to nitric oxide, supporting vascular function and mitochondrial efficiency. Rich in betalains (antioxidant pigments), folate, and minerals, beetroot contributes to cardiovascular health and metabolic resilience.
+Beetroot provides dietary **nitrates** and **betalain** pigments with interest for vascular and antioxidant biology [1]. Folate and minerals accompany a moderate plant-protein fraction in whole beetroot preparations [2].
 
+Within the BRAIN Diet framework, beetroot fits nitrate-rich vegetable patterns supporting vascular function context; lysine-limited plant protein pairs with legumes or grains for amino-acid balance [2].
+## Key Nutritional Highlights
+
+- Dietary nitrate source supporting nitric-oxide-related vascular biology (mechanistic dietary context) [1].
+- Betalain pigments contribute antioxidant interest within vegetable polyphenol intake.
+- Lysine-limited plant protein (~7 g per 100 g in some products); pair with legumes [2].
+- Raw or lightly cooked preparations retain more nitrate than prolonged high-heat processing.
 ## Food Context
 
 ### Preparation
@@ -64,5 +71,5 @@ Beetroot contribute plant protein. Pair with complementary protein sources (e.g.
 
 ## References
 
-- Dietary nitrates from beetroot and leafy greens convert to nitric oxide, supporting vascular function and mitochondrial efficiency
-- Betalains in beetroot provide antioxidant and anti-inflammatory properties
+- [1] Schroeter & Heiss 2006 – (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans [Schroeter & Heiss 2006 – (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
+- [2] Kennedy et al. 2016 – B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review [Kennedy et al. 2016 – B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)

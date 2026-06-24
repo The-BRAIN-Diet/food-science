@@ -66,7 +66,7 @@ nutrition_supplementary_sources:
     label: Oligomeric Procyanidins
     value: 344
     unit: mg
-    notes: Oligomeric flavanols; fraction varies with fermentation, roasting, and alkalisation.
+    notes: 'Oligomeric flavanols; fraction varies with fermentation, roasting, and alkalisation.'
     source_note: Proanthocyanidin oligomer fraction in natural cocoa powder reported ~52–636 mg/100 g (mean ~344 mg/100 g); strongly product- and process-dependent.
 nutrition_functional_metrics:
   - key: total_polyphenols_proxy
@@ -140,9 +140,9 @@ When cacao powder contributes meaningfully to protein intake in a meal, pair wit
 
 ## References
 
-- [1] Impact of fermentation, drying, roasting and Dutch processing on flavan-3-ol stereochemistry in cacao beans and cocoa ingredients [Paynter et al. 2011](/docs/papers/BRAIN-Diet-References#paynter_flavan3ol_cocoa_processing_2011)
-- [2] (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans [Schroeter et al. 2006](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
-- [3] High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor [Neshatdoust et al. 2016](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
-- [4] Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA [Hands et al. 2024](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
-- [5] Occurrence of heavy metals in chocolates and health risk assessment (origin and geogenic context) [Godebo et al. 2024](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024)
-- [6] Dietary strategies for cadmium and lead toxicity, including roles of essential minerals (e.g. calcium and zinc) [Zhai et al. 2015](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)
+- [1] Payne & Hurst 2011 – Impact of fermentation, drying, roasting and Dutch processing on flavan-3-ol stereochemistry in cacao beans and cocoa ingredients [Payne & Hurst 2011 – Impact of fermentation, drying, roasting and Dutch processing on flavan-3-ol stereochemistry in cacao beans and cocoa ingredients](/docs/papers/BRAIN-Diet-References#paynter_flavan3ol_cocoa_processing_2011)
+- [2] Schroeter & Heiss 2006 – (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans [Schroeter & Heiss 2006 – (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
+- [3] Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials [Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+- [4] Hands & Anderson 2024 – A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA [Hands & Anderson 2024 – A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
+- [5] Godebo & Stoner 2024 – Occurrence of heavy metals coupled with elevated levels of essential elements in chocolates: Health risk assessment [Godebo & Stoner 2024 – Occurrence of heavy metals coupled with elevated levels of essential elements in chocolates: Health risk assessment](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024)
+- [6] Zhai & Narbad 2015 – Dietary Strategies for the Treatment of Cadmium and Lead Toxicity [Zhai & Narbad 2015 – Dietary Strategies for the Treatment of Cadmium and Lead Toxicity](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)

@@ -71,9 +71,9 @@ Within the BRAIN Diet framework, apples are best used as **whole fruit** rather 
 
 ## References
 
-- [1] Depletion and disruption of dietary fibre — intact apple vs purée vs juice [Haber et al. 1977](/docs/papers/BRAIN-Diet-References#haber_depletion_1977)
-- [2] Insulin, insulin resistance, and brain dopamine signalling — food-structure context for glycemic stability [Gruber et al. 2023](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
-- [3] Phenol-Explorer database — quercetin and flavonoid contents in common foods [Neveu et al. 2010](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
-- [4] Quercetin health effects from antioxidant activity to broader nutraceutical roles [Boots et al. 2008](/docs/papers/BRAIN-Diet-References#boots_health_2008)
-- [5] Plant cell walls and nutrient bioaccessibility in plant-based foods [Holland et al. 2020](/docs/papers/BRAIN-Diet-References#holland_plant_2020)
-- [6] Food-derived bioactives, gut microbiota composition, and host signalling [Yeo 2023](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+- [1] Haber & Heaton 1977 – DEPLETION AND DISRUPTION OF DIETARY FIBRE [Haber & Heaton 1977 – DEPLETION AND DISRUPTION OF DIETARY FIBRE](/docs/papers/BRAIN-Diet-References#haber_depletion_1977)
+- [2] Gruber & Hanssen 2023 – Impact of insulin and insulin resistance on brain dopamine signalling and reward processing – An underexplored mechanism in the pathophysiology of depression? [Gruber & Hanssen 2023 – Impact of insulin and insulin resistance on brain dopamine signalling and reward processing – An underexplored mechanism in the pathophysiology of depression?](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
+- [3] Neveu & Perez-Jimenez 2010 – Phenol-Explorer: an online comprehensive database on polyphenol contents in foods [Neveu & Perez-Jimenez 2010 – Phenol-Explorer: an online comprehensive database on polyphenol contents in foods](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
+- [4] Boots & Haenen 2008 – Health effects of quercetin: From antioxidant to nutraceutical [Boots & Haenen 2008 – Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+- [5] Holland & Ryden 2020 – Plant Cell Walls: Impact on Nutrient Bioaccessibility and Digestibility [Holland & Ryden 2020 – Plant Cell Walls: Impact on Nutrient Bioaccessibility and Digestibility](/docs/papers/BRAIN-Diet-References#holland_plant_2020)
+- [6] Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters [Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

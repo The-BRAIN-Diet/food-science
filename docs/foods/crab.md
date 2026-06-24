@@ -2,7 +2,7 @@
 id: crab
 title: Crab
 sidebar_label: Crab
-description: Lean shellfish providing complete protein, zinc, selenium, and vitamin B12
+description: 'Lean shellfish providing complete protein, zinc, selenium, and vitamin B12'
 tags:
   - Food
   - Crab
@@ -42,11 +42,10 @@ The nutrition table below reflects **snow crab legs (frozen)** from USDA FoodDat
 
 ## Key Nutritional Highlights
 
-- Provides complete, highly digestible protein at moderate energy density (~69 kcal per 100 g for this USDA entry).
-- Supplies meaningful **zinc**, **selenium**, and **vitamin B12** for a lean shellfish (see nutrition table).
-- Lower in fat and saturated fat than many fatty red-meat patterns when minimally processed.
-- Mineral concentrations vary by species, habitat, and processing (fresh vs frozen vs prepared).
-- As shellfish, crab requires reliable sourcing and thorough cooking for microbiological safety.
+- Complete, highly digestible protein at moderate energy density (~69 kcal per 100 g) [1].
+- Supplies meaningful **zinc**, **selenium**, and **vitamin B12** for lean shellfish [2,3,4].
+- Lower fat than many fatty red-meat patterns when minimally processed.
+- Mineral levels vary by species and preparation; table reflects snow crab legs (frozen).
 
 ## Food Context
 
@@ -83,9 +82,7 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
-
-1. [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-2. [Peralta & Huidobro-Toro 2016 – Zinc as allosteric ion channel modulator](/docs/papers/BRAIN-Diet-References#peralta_zinc_2016)
-3. [Mocchegiani & Malavolta 2019 – Role of zinc and selenium in oxidative stress](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
-4. [Kennedy 2016 – B vitamins and the brain](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+- [1] FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report) [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+- [2] Peralta & Huidobro-Toro 2016 – Zinc as allosteric ion channel modulator [Peralta & Huidobro-Toro 2016 – Zinc as allosteric ion channel modulator](/docs/papers/BRAIN-Diet-References#peralta_zinc_2016)
+- [3] Mocchegiani & Malavolta 2019 – Role of zinc and selenium in oxidative stress [Mocchegiani & Malavolta 2019 – Role of zinc and selenium in oxidative stress](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
+- [4] Kennedy 2016 – B vitamins and the brain [Kennedy 2016 – B vitamins and the brain](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)

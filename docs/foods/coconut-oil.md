@@ -33,8 +33,15 @@ legacy_main_image: /img/foods/coconut-oil/coconut-oil_medium.webp
 ---
 ## Overview
 
-Coconut oil provides medium-chain triglycerides (MCTs) that provide rapid energy for the brain and support ketone production. MCTs (C8, C10) are converted to ketones (beta-hydroxybutyrate), which serve as an alternative energy substrate for mitochondria, supporting mitochondrial function especially when glucose metabolism is impaired. The ATP produced from ketone metabolism supports neurotransmitter synthesis, indirectly supporting neurochemical balance. Coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, supports ketone production, and can be used in smoothies, baking, or small-portion use.
+Coconut oil is a **saturated-fat-rich** oil high in **medium-chain triglycerides (MCTs)** used for culinary and ketogenic contexts [1]. Saturated fat intake should remain within dietary upper limits [1].
 
+Within the BRAIN Diet framework, coconut oil is an occasional culinary fat; evidence for brain-specific benefit beyond energy metabolism is limited — overall fat quality and plant-food volume matter more [2].
+## Key Nutritional Highlights
+
+- High in saturated fat and MCTs (C8/C10 fractions vary by product) [1].
+- MCTs provide rapidly oxidised fatty acids; ketogenic contexts only.
+- Not a preferred default cooking fat vs olive/avocado oils for cardiometabolic patterns [2].
+- Energy-dense; typical use is tablespoons, not 100 g.
 ## Food Context
 
 ### Synergies
@@ -59,5 +66,5 @@ Coconut oil provides medium-chain triglycerides (MCTs) that provide rapid energy
 
 ## References
 
-- Coconut Oil / MCT Oil: MCTs (C8, C10), rapid energy for brain, supports ketone production - Smoothies, baking, small-portion use
-- Antimicrobial Lipids: Medium-chain triglycerides (MCT oil, coconut oil), caprylic acid - Direct inhibition of pathobionts (Candida, C. difficile) without harming commensals
+- [1] Li & Hruby 2015 – Saturated Fats Compared With Unsaturated Fats and Sources of Carbohydrates in Relation to Risk of Coronary Heart Disease [Li & Hruby 2015 – Saturated Fats Compared With Unsaturated Fats and Sources of Carbohydrates in Relation to Risk of Coronary Heart Disease](/docs/papers/BRAIN-Diet-References#li_saturated_2015)
+- [2] Schwingshackl & Hoffmann 2014 – Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies [Schwingshackl & Hoffmann 2014 – Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies](/docs/papers/BRAIN-Diet-References#schwingshackl_monounsaturated_2014)

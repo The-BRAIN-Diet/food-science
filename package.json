@@ -27,6 +27,8 @@
     "nutrition:enrich": "node scripts/enrich-nutrition-from-overview.mjs",
     "nutrition:apply": "node scripts/update-food-page-frontmatter.mjs",
     "nutrition:validate": "node scripts/validate-food-pages.mjs",
+    "food:audit:today": "node scripts/food-page-letter-audit.mjs",
+    "food:audit:schedule": "node scripts/food-page-letter-audit.mjs --schedule",
     "nutrition:repair": "node scripts/repair-food-pages.mjs",
     "nutrition:pipeline": "npm run nutrition:apply -- --all && npm run nutrition:repair",
     "check-foods": "node scripts/check-foods-global.js",

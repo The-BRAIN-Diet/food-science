@@ -30,8 +30,8 @@ Generated: 2026-06-08T19:48:19.603Z
 | BRS2(PM7) | BRS2-FM3-PM7 | Phosphatidylcholine Formation |
 | BRS3(PM1) | BRS3-FM1-PM1 | NF-kB Signalling Regulation |
 | BRS3(PM7) | BRS3-FM1-PM2 | Gut-Derived Inflammatory Signalling |
-| BRS3(PM2) | BRS3-FM2-PM5 | Nrf2-ARE Antioxidant Activation |
-| BRS3(PM3) | BRS3-FM2-PM6 | ROS Generation vs Clearance Balance |
+| BRS3(PM2) | BRS3-FM2-PM3 | Nrf2-ARE Antioxidant Activation |
+| BRS3(PM3) | BRS3-FM2-PM4 | ROS Generation vs Clearance Balance |
 | BRS3(PM5) | BRS3-FM2-PM5 | Lipid Peroxidation Control |
 | BRS3(PM8) | BRS3-FM2-PM6 | Antioxidant Network Recycling |
 | BRS3(PM4) | BRS3-FM3-PM7 | Cytokine Network Modulation |

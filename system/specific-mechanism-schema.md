@@ -28,6 +28,35 @@ The ontology describes biology. Therapeutic-area framing (e.g. ADHD) belongs on 
 - **SM-SNP** — variant-sensitive interpretation (e.g. COMT, MTHFR, DAO, PEMT)
 - **SM-PHEN** — phenotype-sensitive interpretation (e.g. emotional dysregulation, hyperarousal, histamine sensitivity, sensory responsiveness, cognitive fatigue)
 
+### SM-SNP pages (genotype-sensitive modifiers)
+
+**SNPs never connect to phenotypes directly.** Genotype-sensitive SM pages are **modifiers**, not primary mechanism owners. They explain how inherited variation may alter the **efficiency, sensitivity, cofactor responsiveness, or interpretive context** of existing PM/FM biology — not independent biological pathways.
+
+**Phenome rule:** SNP-sensitive SM pages should **not normally own direct Phenome mappings**. Functional outcome relationships defer to connected PM/FM structure. Add direct `phenome_relationships` / §2 phenome dropdowns on `SM-SNP` pages **only** where there is strong evidence that the genotype-sensitive modifier itself has an independent functional outcome relationship (rare; default is empty state).
+
+**§2 Phenome Connections — required modifier note** (publish after the standard phenome disclaimer, before empty state or any mapping):
+
+```markdown
+Genotype-sensitive SMs function as modifiers of existing PM/FM biology rather than independent biological pathways. Phenome interpretation should therefore defer to the connected Primary Mechanisms and Functional Mechanisms influenced by this modifier. Direct Phenome mappings should only be added where there is strong evidence that the genotype-sensitive modifier itself has an independent functional outcome relationship.
+```
+
+**Connected PM discipline:** Do **not** connect SNP pages to every PM on the host BRS automatically. List only PMs where the variant-sensitive modifier plausibly alters mechanism efficiency, pathway flux, cofactor responsiveness, substrate handling, or downstream interpretation.
+
+**§6.3 Connected Primary Mechanisms (legacy SM-SNP)** — tier with `####` subheads:
+
+| Tier | §6.3 subhead | Meaning |
+|------|----------------|---------|
+| Primary | `#### Primary connected PMs` | Host-BRS PMs **directly** affected by the variant-sensitive pathway (enzyme activity, flux, or clearance owned by that PM). |
+| Secondary | `#### Secondary or indirect connected PMs` | Host-BRS PMs influenced **through** another PM or downstream of the primary variant effect. |
+
+**§6.5 Connected Mechanisms (legacy SM-SNP)** — cross-system links only:
+
+| Tier | §6.5 content | Meaning |
+|------|----------------|---------|
+| Cross-system | Paragraph-led blocks with linked PM pages | PMs in **other BRS domains** affected only through downstream interpretation — not variant owners. |
+
+Do not duplicate PM definitions in §6.3 or §6.5; link and interpret only.
+
 ### SM-PHEN pages (phenome interpretation layer)
 
 `SM-PHEN` pages are **phenotype interpretation layers** hosted on a single BRS. They read stable biology from connected host PMs/FMs/KCs and apply it to a **registry phenome** (`src/data/phenome-registry.json`) — without redefining PM mechanism biology.
@@ -214,9 +243,9 @@ Timing: `timing_specific` in front matter only; discuss timing in Primary Biolog
 
 | Subsection | Purpose |
 |------------|---------|
-| **§6.3 Connected PMs** | Bullet list of **host-BRS** PMs anchored in `connected_pms` front matter. |
+| **§6.3 Connected PMs** | Tiered bullet lists: **Primary connected PMs** (direct variant effect) and **Secondary or indirect connected PMs** (downstream through another PM). See [SM-SNP pages](#sm-snp-pages-genotype-sensitive-modifiers). |
 | **§6.4 Connected FMs** | Bullet list of host-BRS FMs from `connected_fms` front matter. |
-| **§6.5 Connected Mechanisms** | Cross-BRS narrative (same authoring rules as SM-CROSS §6.2). |
+| **§6.5 Connected Mechanisms** | **Cross-system** narrative only — other BRS domains reached through downstream interpretation; paragraph-led with linked PM pages. |
 
 Do **not** use hub-only labels (e.g. “BRS3 crossover”) without at least one linked PM when a relevant PM exists. Do **not** duplicate full PM definitions — link and interpret.
 

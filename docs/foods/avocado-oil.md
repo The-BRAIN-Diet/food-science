@@ -31,8 +31,15 @@ legacy_main_image: /img/foods/avocado-oil/avocado-oil_medium.webp
 ---
 ## Overview
 
-Avocado oil provides monounsaturated fats (MUFA), vitamin E, and lutein, suitable for cooking and supporting carotenoid absorption. Avocado / Avocado Oil provides MUFAs (oleic), vitamin E, lutein, fibre, and glutathione, and replacing industrial seed oils with more stable options like olive oil, ghee, or avocado oil is recommended.
+Avocado oil is a **monounsaturated-fat** culinary oil (chiefly oleic acid) used for cooking and dressings where a neutral-to-mild flavoured MUFA source is desired [1]. Like other unsaturated fats, it supports micelle and chylomicron formation for fat-soluble nutrients consumed in the same meal [2].
 
+Within the BRAIN Diet framework, avocado oil is a practical fat vehicle for carotenoid-rich salads and vegetables; fat quality and food matrix still matter more than isolated oil intake alone [1].
+## Key Nutritional Highlights
+
+- High oleic acid content; monounsaturated fats feature in cardiometabolic dietary guidance [1].
+- Improves carotenoid and fat-soluble nutrient absorption when paired with vegetables [2].
+- Refined oil — prefer whole avocado when fibre and potassium are also targets.
+- Use as a cooking/dressing fat in moderation within overall fat-quality patterns [1].
 ## Food Context
 
 ### Synergies
@@ -57,5 +64,5 @@ Avocado oil provides monounsaturated fats (MUFA), vitamin E, and lutein, suitabl
 
 ## References
 
-- Avocado / Avocado Oil: MUFAs (oleic), vitamin E, lutein, fibre, glutathione
-- Replacing industrial seed oils with more stable options like olive oil, ghee, or avocado oil
+- [1] Schwingshackl & Hoffmann 2014 – Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies [Schwingshackl & Hoffmann 2014 – Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies](/docs/papers/BRAIN-Diet-References#schwingshackl_monounsaturated_2014)
+- [2] Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons [Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)

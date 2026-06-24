@@ -79,6 +79,6 @@ Within the BRAIN Diet framework, asparagus contributes folate and prebiotic-type
 
 ## References
 
-- [1] B vitamins and the brain — folate, methylation, and neurochemical synthesis [Kennedy 2016](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
-- [2] Prebiotic intake, cortisol response, and emotional bias in healthy volunteers [Schmidt et al. 2015](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)
-- [3] Food-derived bioactives and gut microbiota composition [Yeo 2023](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+- [1] Kennedy et al. 2016 – B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review [Kennedy et al. 2016 – B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+- [2] Schmidt & Cowen 2015 – Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers [Schmidt & Cowen 2015 – Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)
+- [3] Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters [Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

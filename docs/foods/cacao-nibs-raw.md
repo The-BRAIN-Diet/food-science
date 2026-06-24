@@ -2,7 +2,7 @@
 id: cacao-nibs-raw
 title: Cacao Nibs (Raw)
 sidebar_label: Cacao Nibs (Raw)
-description: Crunchy minimally processed cacao pieces; flavanols (epicatechin/catechin) and fibre, used as a bitter “spice” topping.
+description: 'Crunchy minimally processed cacao pieces; flavanols (epicatechin/catechin) and fibre, used as a bitter “spice” topping.'
 tags:
   - Food
   - Cacao
@@ -28,20 +28,26 @@ nutrition_per_100g:
   sat_fat_g: 25
 nutrition_source:
   database: Summary estimate
-  food_name: 'Cacao nibs (unsweetened)'
+  food_name: Cacao nibs (unsweetened)
   retrieval_method: Manual (placeholder)
   basis: per 100 g edible portion
   last_checked: '2026-03-25'
 main_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_medium.webp
 legacy_list_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_thumb.webp
 legacy_main_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_medium.webp
+complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 ---
 ## Overview
 
-Raw cacao nibs are small pieces of fermented and dried cacao bean. They add bitterness and crunch to savoury or lightly sweet dishes, and they’re a concentrated source of cocoa polyphenols (flavanols) such as epicatechin and catechin.
+Raw cacao nibs are minimally processed cacao pieces rich in **cocoa flavanols** (epicatechin, catechin) and fibre, used as a bitter garnish [1]. Flavanol retention is generally higher in minimally processed cacao than heavily alkalised cocoa powders [1].
 
-They fit best in this framework as a **functional garnish**: small amounts can meaningfully increase polyphenol density without turning a meal into a dessert.
+Within the BRAIN Diet framework, nibs are a polyphenol-dense ingredient in small portions; cocoa flavanols have vascular mechanistic interest [2], and heavy-metal variability across cacao products makes sourcing relevant for regular use [3].
+## Key Nutritional Highlights
 
+- Minimally processed cacao retains more native flavan-3-ols than alkalised cocoa [1].
+- Epicatechin-class flavanols with vascular mechanistic human data [2].
+- High fibre and mineral density per 100 g; typical use is garnish-scale portions.
+- Heavy-metal (Cd/Pb) sourcing matters for frequent cacao intake [3].
 ## Food Context
 
 ### Sourcing
@@ -53,6 +59,11 @@ They fit best in this framework as a **functional garnish**: small amounts can m
 
 - Add **at the end** (just before serving) to preserve crunch and aromatic top-notes
 - Store airtight, cool, and dry to limit oxidation and flavour loss
+
+### Essential Amino Acid Profile
+
+Cacao Nibs (Raw) is not used as a primary protein food in this framework; typical servings are too small for essential amino-acid contribution to be the main reason to include it. Relevance here is polyphenol content and mineral density rather than protein quality.
+
 
 ## Recipes
 
@@ -66,5 +77,6 @@ They fit best in this framework as a **functional garnish**: small amounts can m
 
 ## References
 
-- See `Dark Chocolate` for a discussion of cocoa flavanols and heavy metal variability across cocoa products.
-
+- [1] Payne & Hurst 2011 – Impact of fermentation, drying, roasting and Dutch processing on flavan-3-ol stereochemistry in cacao beans and cocoa ingredients [Payne & Hurst 2011 – Impact of fermentation, drying, roasting and Dutch processing on flavan-3-ol stereochemistry in cacao beans and cocoa ingredients](/docs/papers/BRAIN-Diet-References#paynter_flavan3ol_cocoa_processing_2011)
+- [2] Schroeter & Heiss 2006 – (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans [Schroeter & Heiss 2006 – (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
+- [3] Hands & Anderson 2024 – A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA [Hands & Anderson 2024 – A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)

@@ -84,13 +84,11 @@ Blueberries also supply **quercetin** and related flavonols. Rodent work shows q
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
-
-1. [Hein et al. 2019 – Systematic review of blueberry effects on cognitive performance with aging](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
-2. [Neshatdoust et al. 2016 – High-flavonoid intake, cognitive improvements, and serum BDNF](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
-3. [Sleiman et al. 2016 – Exercise promotes BDNF via β-hydroxybutyrate and HDAC inhibition](/docs/papers/BRAIN-Diet-References#sleiman_exercise_2016)
-4. [Davis et al. 2009 – Quercetin, mitochondrial biogenesis, and exercise tolerance (rodent)](/docs/papers/BRAIN-Diet-References#davis_quercetin_2009)
-5. [Boots et al. 2008 – Quercetin health effects from antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
-6. [Ziaei et al. 2024 – Meta-analysis of omega-3 effects on BDNF](/docs/papers/BRAIN-Diet-References#ziaei_systematic_2024)
-7. [Vertuani et al. 2004 – Antioxidant network synergy in vivo](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
-8. [Yeo 2023 – Food-derived bioactives, gut microbiota, and neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+- [1] Hein et al. 2019 – Systematic review of blueberry effects on cognitive performance with aging [Hein et al. 2019 – Systematic review of blueberry effects on cognitive performance with aging](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
+- [2] Neshatdoust et al. 2016 – High-flavonoid intake, cognitive improvements, and serum BDNF [Neshatdoust et al. 2016 – High-flavonoid intake, cognitive improvements, and serum BDNF](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+- [3] Sleiman et al. 2016 – Exercise promotes BDNF via β-hydroxybutyrate and HDAC inhibition [Sleiman et al. 2016 – Exercise promotes BDNF via β-hydroxybutyrate and HDAC inhibition](/docs/papers/BRAIN-Diet-References#sleiman_exercise_2016)
+- [4] Davis et al. 2009 – Quercetin, mitochondrial biogenesis, and exercise tolerance (rodent) [Davis et al. 2009 – Quercetin, mitochondrial biogenesis, and exercise tolerance (rodent)](/docs/papers/BRAIN-Diet-References#davis_quercetin_2009)
+- [5] Boots et al. 2008 – Quercetin health effects from antioxidant to nutraceutical [Boots et al. 2008 – Quercetin health effects from antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+- [6] Ziaei et al. 2024 – Meta-analysis of omega-3 effects on BDNF [Ziaei et al. 2024 – Meta-analysis of omega-3 effects on BDNF](/docs/papers/BRAIN-Diet-References#ziaei_systematic_2024)
+- [7] Vertuani et al. 2004 – Antioxidant network synergy in vivo [Vertuani et al. 2004 – Antioxidant network synergy in vivo](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
+- [8] Yeo 2023 – Food-derived bioactives, gut microbiota, and neurotransmitters [Yeo 2023 – Food-derived bioactives, gut microbiota, and neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

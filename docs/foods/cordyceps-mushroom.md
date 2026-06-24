@@ -40,8 +40,15 @@ legacy_main_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_medium.webp
 ---
 ## Overview
 
-Cordyceps is a medicinal mushroom that has been traditionally used to support energy, endurance, and vitality. The most commonly used species include Cordyceps sinensis and Cordyceps militaris. Cordyceps contains bioactive compounds including cordycepin, polysaccharides, and adenosine, which have been studied for their potential effects on mitochondrial function, oxygen utilization, and energy metabolism. Research suggests Cordyceps may support ATP production and cellular energy pathways, making it of interest for supporting physical performance and energy levels. It is also valued for its potential immune-modulating properties.
+Cordyceps mushrooms (including *Cordyceps militaris* cultivars) provide **polysaccharides** and **cordycepin** studied for energy-metabolism and immunomodulatory endpoints [1]. They are used as a functional mushroom in extract or culinary forms.
 
+Within the BRAIN Diet framework, cordyceps is a medicinal-mushroom adjunct; evidence in humans is emerging and doses are often extract-based rather than whole-food 100 g portions [1].
+## Key Nutritional Highlights
+
+- Cordycepin and polysaccharide bioactives in functional mushroom matrices [1].
+- Traditional use for vitality/endurance; human RCT evidence still limited.
+- Extract vs whole-mushroom doses differ materially from USDA 100 g tables.
+- Source cultivation method (*militaris* vs *sinensis*) affects compound profile.
 ## Food Context
 
 ### Sourcing
@@ -67,7 +74,4 @@ Cordyceps is a medicinal mushroom that has been traditionally used to support en
 
 ## References
 
-- Cordyceps contains bioactive compounds including cordycepin, polysaccharides, and adenosine that may support mitochondrial function and energy metabolism
-- Research suggests potential benefits for ATP production and cellular energy pathways
-- Traditional use for supporting energy, endurance, and vitality
-- May support immune function through polysaccharide content
+- [1] Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters [Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

@@ -34,8 +34,15 @@ legacy_main_image: /img/foods/cranberries/cranberries_medium.webp
 ---
 ## Overview
 
-Cranberries provide polyphenols, resveratrol, and support gut microbiome diversity, particularly Faecalibacterium and Roseburia. Polyphenol sources including berries, green tea catechins, cocoa flavanols, cranberries, and pomegranate ↑ Faecalibacterium, Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation.
+Cranberries provide **proanthocyanidins (PACs)** and anthocyanins with urinary-tract and polyphenol interest [1]. Berry-class flavonoids have cognitive systematic-review support in aging populations [2].
 
+Within the BRAIN Diet framework, cranberries are used fresh, frozen, or as low-sugar preparations; juice cocktails with added sugar reduce BRAIN Diet alignment.
+## Key Nutritional Highlights
+
+- PAC-rich berry with urinary-tract polyphenol interest [1].
+- Berry flavonoid cognitive evidence from systematic reviews [2].
+- Very tart fresh — low-sugar preparations preferred.
+- Dried sweetened cranberries are dessert-tier, not polyphenol staples.
 ## Food Context
 
 ### Synergies
@@ -60,5 +67,5 @@ Cranberries provide polyphenols, resveratrol, and support gut microbiome diversi
 
 ## References
 
-- Polyphenol Sources: Berries, green tea catechins, cocoa flavanols, cranberries, pomegranate - ↑ Faecalibacterium, Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation
-- Polyphenols (e.g., resveratrol): Grapes, blueberries, cranberries, peanuts, dark chocolate
+- [1] Hein & Whyte 2019 – Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age [Hein & Whyte 2019 – Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
+- [2] Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials [Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)

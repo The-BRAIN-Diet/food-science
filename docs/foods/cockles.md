@@ -36,8 +36,15 @@ legacy_main_image: /img/foods/cockles/cockles_medium.webp
 ---
 ## Overview
 
-Cockles are small bivalve shellfish that provide a nutrient-dense source of vitamin B12, iron, zinc, and selenium, along with marine taurine and phospholipid-bound omega-3 fatty acids. Like mussels and other bivalves, cockles contribute to neurotransmitter synthesis and energy metabolism. Their natural liquor (released when steamed) contains amino acids, minerals, and peptides that add both flavour and nutritional value. Cockles are a sustainable shellfish option with a low carbon footprint when farmed or wild-harvested responsibly.
+Cockles are small bivalve shellfish providing **vitamin B12**, **iron**, **zinc**, **selenium**, and **taurine** in a low-fat marine protein matrix [1,2]. Shellfish contribute complete highly digestible protein [3].
 
+Within the BRAIN Diet framework, cockles are a sustainable shellfish option used for B12, iron, and marine taurine density; brief steaming preserves the natural liquor minerals [1,2].
+## Key Nutritional Highlights
+
+- Very high vitamin B12 and iron per 100 g; bivalve nutrient density [1].
+- Marine taurine source; phospholipid-bound omega-3 in shellfish matrices [2].
+- Complete animal protein (DIAAS context) [3].
+- Low mercury compared with many large predatory fish; purge and steam briefly.
 ## Food Context
 
 ### Synergies
@@ -67,3 +74,9 @@ This food provides a complete essential amino acid profile typical of animal pro
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
+
+## References
+
+- [1] Pawlak & Parrott 2013 – How prevalent is vitamin B $_\textrm{12}$ deficiency among vegetarians? [Pawlak & Parrott 2013 – How prevalent is vitamin B $_\textrm{12}$ deficiency among vegetarians?](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)
+- [2] Wójcik & Koenig 2010 – The potential protective effects of taurine on coronary heart disease [Wójcik & Koenig 2010 – The potential protective effects of taurine on coronary heart disease](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)
+- [3] FAO 2013 – Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation [FAO 2013 – Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

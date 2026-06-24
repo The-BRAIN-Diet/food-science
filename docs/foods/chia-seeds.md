@@ -46,15 +46,15 @@ legacy_main_image: /img/foods/chia-seeds/chia-seeds_medium.webp
 ---
 ## Overview
 
-Chia seeds provide ALA (plant omega-3), soluble fiber, and minerals, supporting gut health and providing plant-based omega-3. Soluble fibre (from apples, oats, flaxseeds) - chia also provides soluble fiber supporting gut health and SCFA production. ALA is an essential omega-3 fatty acid with limited conversion to DHA/EPA in adults; food sources include flax, chia, and walnuts. Conversion from ALA is less than 5% in most adults; direct DHA/EPA strongly recommended for optimal brain health.
+Chia seeds provide **ALA omega-3**, **fibre**, and plant protein in a hydrophilic seed matrix [1]. They are lysine-limited like most nuts/seeds and pair with legumes for amino-acid balance [2].
 
+Within the BRAIN Diet framework, chia is a fibre and ALA source used in puddings, yogurts, and baked goods; hydration forms a gel that slows gastric emptying.
 ## Key Nutritional Highlights
 
-- Exceptionally high fibre density for a seed, supporting stool bulk and gut-microbiome substrate intake.
-- Rich in ALA omega-3, but ALA-to-EPA/DHA conversion is limited in humans.
-- High calcium and iron values per 100 g relative to many commonly consumed seeds.
-- Forms a viscous gel when hydrated, useful for texture, satiety, and recipe binding.
-
+- ALA omega-3 and very high fibre per 100 g; typical portions are 1–2 tablespoons [1].
+- Lysine-limited plant protein; pair with legumes [2].
+- Gel formation when soaked; useful soluble-fibre addition.
+- Energy-dense; 100 g table values exceed normal serving sizes.
 ## Food Context
 
 ### Synergies
@@ -87,6 +87,5 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-[1] Omega-3 conversion constraints and practical intake context [NIH ODS 2025](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
-
-[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+- [1] NIH 2025 – Omega-3 Fatty Acids: Fact Sheet for Health Professionals [NIH 2025 – Omega-3 Fatty Acids: Fact Sheet for Health Professionals](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
+- [2] Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review [Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

@@ -45,8 +45,15 @@ legacy_main_image: /img/foods/cinnamon/cinnamon_medium.webp
 ---
 ## Overview
 
-Cinnamon is a spice containing bioactive polyphenols and compounds that support glycemic control, insulin sensitivity, and cognitive function, relevant for ADHD metabolic dysregulation. Cinnamon is extremely high in polyphenols, with procyanidins being a major component, and cinnamaldehyde as the key aromatic compound that contributes to its characteristic flavor and many health benefits.
+Cinnamon provides **polyphenols** (including proanthocyanidins) studied for glycaemic and metabolic endpoints [1]. Cassia cinnamon contains **coumarin** — regular high intake may warrant Ceylon varieties for frequent use.
 
+Within the BRAIN Diet framework, cinnamon is a spice used in 1–3 g/day culinary or therapeutic contexts rather than as a bulk food [1].
+## Key Nutritional Highlights
+
+- Polyphenol-rich spice with glycaemic-control research interest [1].
+- Typical doses are 1–3 g/day; not 100 g USDA portions.
+- Cassia vs Ceylon matters for coumarin exposure with frequent use.
+- Pair with carbohydrate-containing meals in glycaemic-management patterns [1].
 ## Food Context
 
 ### Synergies
@@ -100,5 +107,4 @@ Cinnamon contribute plant protein. Pair with complementary protein sources (e.g.
 
 ## References
 
-- Cinnamon: Glycemic control, insulin sensitivity, cognition - 1–3 g/day cassia or Ceylon cinnamon powder
-- Glucose Regulation: Low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, meal sequencing (veg → protein → carb)
+- [1] Boots & Haenen 2008 – Health effects of quercetin: From antioxidant to nutraceutical [Boots & Haenen 2008 – Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
