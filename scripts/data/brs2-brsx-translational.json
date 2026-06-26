@@ -143,6 +143,7 @@
   },
   {
     "path": "brs2/fm1/brs2-fm1-methylation-cycle-efficiency.mdx",
+    "mission": "Sustain efficient one-carbon cycling so homocysteine is cleared, SAMe remains available, and methylation capacity supports brain-relevant chemistry.",
     "translational": "Supports the body's ability to recycle homocysteine (a sulfur amino acid that rises when one-carbon metabolism is strained), produce SAMe (S-adenosylmethionine, the body's universal methyl donor), and sustain methylation capacity across neurotransmitter synthesis, membrane chemistry, and gene regulation. Efficient one-carbon cycling is a foundation for many brain-relevant processes.",
     "scientific": "Integrated regulation of folate/B12-dependent remethylation, betaine/BHMT remethylation, SAMe synthesis, and methionine cycle flux — together sustaining homocysteine recycling, methyl-donor output, and methylation capacity across neurotransmitter, membrane, epigenetic, and repair chemistry.",
     "bullets": [
@@ -164,6 +165,7 @@
   },
   {
     "path": "brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
+    "subtitle": "(Secondary Homocysteine clearance route for Methionine and SAMe Support)",
     "translational": "Provides a parallel route for clearing homocysteine and keeping methyl donors available when folate-pathway demands are high or constrained, via betaine-dependent remethylation through the BHMT enzyme (betaine–homocysteine methyltransferase). Betaine- and choline-rich dietary patterns help maintain methylation resilience under increased one-carbon load.",
     "scientific": "Alternative betaine-dependent recycling of homocysteine to methionine through the BHMT pathway — sustaining methionine and SAMe supply when primary folate remethylation is under strain.",
     "bullets": [
@@ -184,6 +186,7 @@
   },
   {
     "path": "brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
+    "subtitle": "(Integrated Methionine Cycle Capacity)",
     "translational": "Reflects how efficiently the whole methionine cycle runs — affecting homocysteine levels, SAMe output, and overall methylation capacity across the system. Effective cycle throughput depends on dietary patterns rather than any single nutrient in isolation.",
     "scientific": "Integrated throughput of the methionine cycle governing homocysteine clearance, SAMe output, and system-wide methylation capacity — dependent on coordinated substrate and cofactor sufficiency rather than isolated nutrient intake.",
     "bullets": [
@@ -194,7 +197,8 @@
   },
   {
     "path": "brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx",
-    "translational": "Provides an alternative path for handling homocysteine by converting it toward cysteine through transsulfuration (the sulfur-branch of one-carbon metabolism), linking one-carbon metabolism to sulfur amino acid supply. This branch helps balance remethylation demand with antioxidant precursor availability.",
+    "subtitle": "(Routing Homocysteine Toward Cysteine & Glutathione)",
+    "translational": "Provides the metabolic switch that diverts homocysteine from methylation toward cysteine production, linking one-carbon metabolism with antioxidant defence, sulfur amino-acid metabolism, glutathione synthesis, detoxification, and cellular resilience. This pathway helps balance methylation demand with protection against oxidative and metabolic stress, particularly during periods of increased redox burden.",
     "scientific": "Conversion of homocysteine toward cysteine through the transsulfuration pathway — balancing remethylation demand with sulfur amino acid and glutathione precursor supply.",
     "bullets": [
       "Feeds cysteine supply for glutathione production and cellular redox protection — within BRS2.",
@@ -214,6 +218,7 @@
   },
   {
     "path": "brs2/fm2/brs2-fm2-transsulfuration-redox-coupling.mdx",
+    "mission": "Route homocysteine toward cysteine and glutathione production so methylation stress translates into antioxidant resilience rather than redox overload.",
     "translational": "Links homocysteine handling to cysteine supply and glutathione production (the body's principal cellular antioxidant), connecting methylation metabolism to antioxidant defence. This integrated state helps the body convert one-carbon stress into redox resilience.",
     "scientific": "Integrated coupling of transsulfuration pathway flux and glutathione synthesis — linking homocysteine handling to cysteine supply and cellular redox defence within BRS2.",
     "bullets": [
@@ -225,6 +230,7 @@
   },
   {
     "path": "brs2/fm3/brs2-fm3-methylation-membrane-coupling.mdx",
+    "mission": "Connect methylation capacity to membrane phospholipid chemistry so one-carbon nutrition supports the lipid environment the brain depends on.",
     "translational": "Connects methylation capacity to membrane phospholipid chemistry — the bridge between B-vitamin status and the membrane environment the brain relies on. SAMe supply and phosphatidylcholine formation work together to shape omega-3 carriage and membrane integrity.",
     "scientific": "Integrated coupling of SAMe-dependent methylation and phosphatidylcholine formation — linking one-carbon metabolism to neuronal membrane phospholipid chemistry and omega-3 carriage.",
     "bullets": [
@@ -236,6 +242,7 @@
   },
   {
     "path": "brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
+    "subtitle": "(Support for building phospholipid membranes for easier brain transport)",
     "translational": "Helps build phospholipid membranes that carry omega-3 fatty acids toward the brain, supporting membrane flexibility and cell signalling. This connects methylation capacity and B-vitamin status to the structural lipid environment in which neural signalling occurs.",
     "scientific": "Formation of phosphatidylcholine from methylation-dependent phospholipid chemistry — supporting membrane structure, omega-3 carriage, and neuronal signalling competence.",
     "bullets": [

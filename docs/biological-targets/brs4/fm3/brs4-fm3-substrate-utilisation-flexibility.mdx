@@ -43,8 +43,9 @@ functional_outcome_context:
         citation_key: smith_metabolic_flexibility_2018
         href: /docs/papers/BRAIN-Diet-References#smith_metabolic_flexibility_2018
         data_level: Mechanistic
+    evidence_confidence: medium
   - outcome_name: Metabolic Resilience
-    confidence: medium
+    confidence: low-medium
     synthesis: 'Broader substrate flexibility — spanning fatty-acid transport, ketone metabolism, and pathway switching — may expand the conditions under which mitochondrial energy production can be sustained, with multiple child mechanisms converging on this outcome.'
     references:
       - label: Kyriazis et al. (2022)
@@ -63,6 +64,7 @@ functional_outcome_context:
         citation_key: goodpaster_metabolic_flexibility_2017
         href: /docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017
         data_level: Mechanistic
+    evidence_confidence: low-medium
   - outcome_name: Recovery Capacity
     confidence: low
     synthesis: 'Adaptive fuel selection and substrate flexibility may indirectly support recovery from periods of increased metabolic demand, although direct outcome evidence at the integrated FM level remains limited.'
@@ -71,6 +73,7 @@ functional_outcome_context:
         citation_key: goodpaster_metabolic_flexibility_2017
         href: /docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017
         data_level: Mechanistic
+    evidence_confidence: low
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
@@ -111,40 +114,64 @@ A functional control point governing mitochondrial capacity to transition betwee
 
 ## 3. Phenome Connections
 
-These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Confidence may increase where multiple child PMs converge on the same functional outcome.
+These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Biology → Phenome Confidence reflects biological relevance to each outcome — not proof that diet or lifestyle alone will improve it. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row. Integrated FM confidence may exceed a single child PM only when multiple PMs converge on the same phenome with justified biological uplift (Phase 3 review).
 
-<details>
-<summary><strong>Energy Stability Under Variable Fuel Conditions</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Energy Stability Under Variable Fuel Conditions</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-- **Confidence:** medium
+- **Biology → Phenome Confidence:** Medium
 - **Synthesis:** Integrated carnitine-mediated fat transport, ketone utilisation, and adaptive fuel switching may help maintain ATP production when glucose availability or metabolic demand shifts, with converging support across all three child mechanisms, although direct ADHD-specific outcome evidence remains limited.
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002","label":"van Oudheusden and Scholte (2002)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017","label":"Goodpaster & Sparks (2017)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#ramezani_ketone_2023","label":"Ramezani et al. (2023)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#smith_metabolic_flexibility_2018","label":"Smith et al. (2018)","dataLevel":"Mechanistic"}]} />
+- **Evidence Confidence:** Medium
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>Metabolic Resilience</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Metabolic Resilience</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-- **Confidence:** medium
+- **Biology → Phenome Confidence:** Low–Medium
 - **Synthesis:** Broader substrate flexibility — spanning fatty-acid transport, ketone metabolism, and pathway switching — may expand the conditions under which mitochondrial energy production can be sustained, with multiple child mechanisms converging on this outcome.
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022","label":"Kyriazis et al. (2022)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#lopez_ojeda_ketone_2023","label":"López-Ojeda et al. (2023)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#smith_metabolic_flexibility_2018","label":"Smith et al. (2018)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017","label":"Goodpaster & Sparks (2017)","dataLevel":"Mechanistic"}]} />
+- **Evidence Confidence:** Low–Medium
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>Recovery Capacity</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Recovery Capacity</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-- **Confidence:** low
+- **Biology → Phenome Confidence:** Low
 - **Synthesis:** Adaptive fuel selection and substrate flexibility may indirectly support recovery from periods of increased metabolic demand, although direct outcome evidence at the integrated FM level remains limited.
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017","label":"Goodpaster & Sparks (2017)","dataLevel":"Mechanistic"}]} />
+- **Evidence Confidence:** Low
 
-</details>
+</div>
+</div>
+</div>
 
 ## 4. Mechanistic Basis (Integrated FM Narrative)
 
@@ -170,7 +197,7 @@ At the integrated FM level, flexibility does not mean fixed reliance on one fuel
 
 
 
-### 4.3 Functional Failure Modes
+### 4.3 Suboptimal Function & Its Effects
 
 Substrate utilisation flexibility may weaken when macronutrient substrate availability, or mitochondrial cofactor sufficiency become inadequate, or when supporting biological pools are chronically strained.
 
@@ -187,8 +214,13 @@ These pressures may impair [BRS4-FM3-PM6 — Carnitine-Mediated Fat Transport](/
 
 The studies below support substrate utilisation flexibility as an integrated FM state emerging from coordinated child PM biology — mechanism-qualifying findings that refine framework interpretation, not phenome/outcome science (which belongs in §3).
 
-<details>
-<summary><strong>Carnitine and long-chain fatty-acid import</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Carnitine and long-chain fatty-acid import</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -197,10 +229,17 @@ The studies below support substrate utilisation flexibility as an integrated FM 
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022","label":"Kyriazis et al. (2022)","dataLevel":"Mechanistic"}]} />
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>Ketones and brain energy metabolism</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Ketones and brain energy metabolism</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -209,10 +248,17 @@ The studies below support substrate utilisation flexibility as an integrated FM 
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#ramezani_ketone_2023","label":"Ramezani et al. (2023)","dataLevel":"Mechanistic"}]} />
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>Butyrate and brain mitochondrial function</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Butyrate and brain mitochondrial function</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -221,10 +267,17 @@ The studies below support substrate utilisation flexibility as an integrated FM 
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#rose_butyrate_2018","label":"Rose et al. (2018)","dataLevel":"Mechanistic"}]} />
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>Metabolic flexibility framing</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Metabolic flexibility framing</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -233,7 +286,9 @@ The studies below support substrate utilisation flexibility as an integrated FM 
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017","label":"Goodpaster & Sparks (2017)","dataLevel":"Mechanistic"}]} />
 
-</details>
+</div>
+</div>
+</div>
 
 ## 5. Connected Mechanisms
 

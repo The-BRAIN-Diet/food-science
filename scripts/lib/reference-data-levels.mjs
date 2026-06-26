@@ -85,7 +85,7 @@ export const CURATED_REFERENCE_DATA_LEVELS = {
   dejong_female_specific_adhd_treatment_2024: "Mechanistic",
   proano_estradiol_glutamatergic_striatal_synapses_2024: "Preclinical",
   celec_testosterone_brain_behavioral_functions_2015: "Mechanistic",
-  hackett_symptomatic_benefits_testosterone_treatment_2023: "Human Outcome",
+  hudson_symptomatic_benefits_testosterone_treatment_2023: "Human Outcome",
   li_function_2023: "Mechanistic",
   depaoli_estrogen_insulin_resistance_2021: "Mechanistic",
   dafflitto_sex_hormone_gut_microbiota_2022: "Mechanistic",
@@ -143,6 +143,13 @@ export const CURATED_REFERENCE_DATA_LEVELS = {
   simopoulos_evolutionary_2011: "Mechanistic",
   marsland_systemic_2017: "Human Mechanistic",
   "solleiro-villavicencio_effect_2018": "Mechanistic",
+  song_mitochondrial_2023: "Mechanistic",
+  "kiecolt-glaser_omega-3_2011": "Human Outcome",
+  gruber_impact_2023: "Mechanistic",
+  bravo_ingestion_2011: "Animal Data",
+  jackson_effects_2021: "Human Outcome",
+  lopresti_saffron_2014: "Human Study",
+  hollis_mitochondrial_2015: "Animal Data",
 };
 
 export function getReferenceDataLevel(citationKey) {
@@ -166,14 +173,15 @@ export function enrichReferenceWithDataLevel(ref) {
 }
 
 export function referenceNoteFromKey(citationKey, label) {
+  if (!citationKey) return null;
   const data_level = getReferenceDataLevel(citationKey);
-  if (!data_level) return null;
-  return {
+  const note = {
     label: label || citationKey,
     citation_key: citationKey,
     href: `/docs/papers/BRAIN-Diet-References#${citationKey}`,
-    data_level,
   };
+  if (data_level) note.data_level = data_level;
+  return note;
 }
 
 /** Build deduplicated reference notes from citation keys (optional label overrides). */
@@ -227,9 +235,13 @@ export function patchEvidenceReferenceNotes(content, referenceNotes) {
 
   const notesBlock = notesLines.join("\n");
 
-  const sectionMatch = content.match(
-    /^### 5\.1 Evidence Highlights[\s\S]*?<details>\s*\n<summary><strong>Evidence highlights — [^<]+<\/strong><\/summary>\s*\n([\s\S]*?)<\/details>/m,
-  );
+  const sectionMatch =
+    content.match(
+      /^### 5\.1 Evidence Highlights[\s\S]*?data-brs-fm-hub[\s\S]*?<strong>Evidence highlights — [^<]+<\/strong>[\s\S]*?<div class="brs-fm-hub-panel" hidden>\s*\n\n([\s\S]*?)<\/div>/m,
+    ) ||
+    content.match(
+      /^### 5\.1 Evidence Highlights[\s\S]*?<details>\s*\n<summary><strong>Evidence highlights — [^<]+<\/strong><\/summary>\s*\n([\s\S]*?)<\/details>/m,
+    );
   if (!sectionMatch) return content;
 
   let inner = sectionMatch[1];

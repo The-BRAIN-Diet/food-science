@@ -109,9 +109,9 @@ const LEGACY_REDIRECTS = [
 ];
 
 const CATEGORY_UPDATES = {
-  "fm2/_category_.json": { position: 2, label: "BRS1(FM2) - Cholinergic Function (Attention & Cognitive Precision)", id: "biological-targets/brs1/fm2/brs1-fm2-cholinergic-function" },
+  "fm2/_category_.json": { position: 2, label: "BRS1(FM2) - Cholinergic Function", id: "biological-targets/brs1/fm2/brs1-fm2-cholinergic-function" },
   "fm3/_category_.json": { position: 3, label: "BRS1(FM3) - Membrane Composition, Fluidity & Structural Lipid Integrity", id: "biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration" },
-  "fm4/_category_.json": { position: 4, label: "BRS1(FM4) - Excitatory–Inhibitory Balance (GABA–Glutamate Regulation)", id: "biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation" },
+  "fm4/_category_.json": { position: 4, label: "BRS1(FM4) - GABA–Glutamate Regulation", id: "biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation" },
 };
 
 function applyReplacements(text) {

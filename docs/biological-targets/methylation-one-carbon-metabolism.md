@@ -20,6 +20,10 @@ hide_title: true
 
 ## BRS2 - Methylation & One-Carbon Metabolism
 
+## Ambition
+
+Maintain efficient one-carbon metabolism to support methylation capacity, epigenetic regulation, phospholipid synthesis, neurotransmitter metabolism, and cellular repair throughout the brain and body.
+
 ## Overview
 
 Helps the body and brain maintain, repair, and regulate themselves by supplying the biochemical building blocks needed for gene regulation, neurotransmitter production, membrane integrity, and antioxidant defence through one-carbon metabolism and methyl-group transfer chemistry.
@@ -30,10 +34,87 @@ One-carbon metabolism provides the biochemical infrastructure for homocysteine r
 * Links homocysteine control to oxidative stress and inflammatory resilience — Supporting BRS3.
 * Supports mitochondrial function, epigenetic regulation, and metabolic adaptation — Supporting BRS4.
 
+<!-- brs-hub-levers:start -->
+<div class="brs-hub-levers">
 
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-<details>
-<summary><strong>ADHD: Methylation & One-Carbon Metabolism Biological Implications</strong></summary>
+<p class="brs-hub-levers-intro">Educational rollup of whole-food dietary levers referenced across BRS2 primary mechanisms. Foods are deduplicated at the BRS level and grouped for practical scanning — mechanistic rationale stays on individual PM pages.</p>
+
+<div class="brs-hub-levers-key-constraints">
+<p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
+<p class="brs-hub-lever-kc-commentary">Key constraints across this system are those with adequate methyl-donor intake; or folate-, choline-, and betaine-rich whole-food patterns. Whole foods such as Eggs, Fish roe, Spinach, Beetroot, Chard, and Clams supply the common pools.</p>
+<p class="brs-hub-lever-kc-foods">Beetroot, Chard, Clams, Dairy, Eggs, Fish, Fish roe, Kale, Legumes, Meat, Mussels, Oysters, Poultry, Spinach</p>
+</div>
+
+<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Methyl-donor-rich meals · folate- and B12-containing foods · choline and betaine sources · distributed protein supporting one-carbon throughput</p>
+
+<div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Nutrient-dense stars / signature foods</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<ul class="brs-hub-lever-list">
+<li>Eggs <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
+<li>Fish roe <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
+<li>Mackerel <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
+<li>Pumpkin Seeds <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a></span></li>
+<li>Salmon <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
+<li>Sardines <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
+<li>Spinach <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a></span></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural levers referenced across BRS2 PM pages — educational context, not clinical prescription.</p>
+
+<ul class="brs-hub-lever-list">
+<li>Consistent daily meal timing may support one-carbon and methyl-donor availability across the day. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux" class="brs-hub-lever-pm">BRS2-FM1-PM4</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
+<li>Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux" class="brs-hub-lever-pm">BRS2-FM1-PM4</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-levers:end -->
+
+## Therapeutic Area Research
+
+<!-- brs-hub-ta-research:start -->
+<div class="brs-hub-ta-research">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>ADHD: Methylation & One-Carbon Metabolism Biological Implications</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 ### ADHD: Methylation & One-Carbon Context
 
@@ -57,7 +138,12 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 | Choline implicated across neurodevelopmental disorders including ADHD, linking remethylation and phosphatidylcholine pathways | [Derbyshire and Maes, 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) | [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) |
 | Decreased muscarinic acetylcholine receptor binding reported in boys with ADHD, supporting cholinergic involvement in aetiology | [Johansson et al., 2013](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) |
 
-</details>
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-ta-research:end -->
 
 ---
 
@@ -65,10 +151,28 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
-<details>
-<summary><strong>BRS2(FM1) — Methylation Cycle Efficiency</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS2(FM1) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS2(FM1) — Methylation Cycle Efficiency</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency" aria-label="Open FM: BRS2(FM1) — Methylation Cycle Efficiency">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
 
-Integrated regulation of Folate/B12-Dependent Homocysteine Remethylation, Betaine/BHMT Remethylation, SAMe Synthesis, and Methionine Cycle Flux, influencing one-carbon flux, homocysteine recycling, and methyl donor availability.
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation">BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation</a></li>
+  <li><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation">BRS2-FM1-PM2 — Betaine/BHMT Remethylation</a></li>
+  <li><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis">BRS2-FM1-PM3 — SAMe Synthesis</a></li>
+  <li><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux">BRS2-FM1-PM4 — Methionine Cycle Flux</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Supports the body's ability to recycle homocysteine (a sulfur amino acid that rises when one-carbon metabolism is strained), produce SAMe (S-adenosylmethionine, the body's universal methyl donor), and sustain methylation capacity across neurotransmitter synthesis, membrane chemistry, and gene regulation. Efficient one-carbon cycling is a foundation for many brain-relevant processes.
 
 **FM page:** [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency)
 
@@ -76,24 +180,43 @@ Integrated regulation of Folate/B12-Dependent Homocysteine Remethylation, Betain
 
 **Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
 
-**Primary mechanisms (PMs):**
-
-- [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
-- [BRS2-FM1-PM2 — Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation)
-- [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis)
-- [BRS2-FM1-PM4 — Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux)
-
 **Key constraints:**
 
 - [BRS2(KC1) — One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)
 - [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool)
 
-</details>
+**Connected mechanisms:**
 
-<details>
-<summary><strong>BRS2(FM2) — Transsulfuration & Redox Coupling</strong></summary>
+- [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) — fM2-PM5 context relevant to this mechanism
+- [BRS1-FM3-PM6](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — fM3-PM6 context relevant to this mechanism
+- [BRS2-FM2-PM5](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway) — fM2-PM5 context relevant to this mechanism
+- [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) — fM3-PM7 context relevant to this mechanism
+- [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling) — bRS2(FM3) — Methylation–Membrane Coupling context relevant to this mechanism
 
-Integrated regulation of Transsulfuration Pathway, and Glutathione Synthesis, influencing homocysteine disposal to cysteine and glutathione production.
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS2(FM2) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS2(FM2) — Transsulfuration & Redox Coupling</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling" aria-label="Open FM: BRS2(FM2) — Transsulfuration & Redox Coupling">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway">BRS2-FM2-PM5 — Transsulfuration Pathway</a></li>
+  <li><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis">BRS2-FM2-PM6 — Glutathione Synthesis</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Links homocysteine handling to cysteine supply and glutathione production (the body's principal cellular antioxidant), connecting methylation metabolism to antioxidant defence. This integrated state helps the body convert one-carbon stress into redox resilience.
 
 **FM page:** [BRS2(FM2) — Transsulfuration & Redox Coupling](/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling)
 
@@ -101,21 +224,41 @@ Integrated regulation of Transsulfuration Pathway, and Glutathione Synthesis, in
 
 **Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: 48hours
 
-**Primary mechanisms (PMs):**
-
-- [BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway)
-- [BRS2-FM2-PM6 — Glutathione Synthesis](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis)
-
 **Key constraints:**
 
 - [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool)
 
-</details>
+**Connected mechanisms:**
 
-<details>
-<summary><strong>BRS2(FM3) — Methylation–Membrane Coupling</strong></summary>
+- [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) — fM1-PM1 context relevant to this mechanism
+- [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation) — fM1-PM2 context relevant to this mechanism
+- [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) — fM1-PM3 context relevant to this mechanism
+- [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) — fM1-PM4 context relevant to this mechanism
+- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — fM2-PM5 — Lipid Peroxidation Control context relevant to this mechanism
 
-Integrated regulation of SAMe Synthesis, and Phosphatidylcholine Formation, influencing SAMe-dependent PC formation toward neuronal membrane integrity and signaling.
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS2(FM3) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS2(FM3) — Methylation–Membrane Coupling</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling" aria-label="Open FM: BRS2(FM3) — Methylation–Membrane Coupling">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation">BRS2-FM3-PM7 — Phosphatidylcholine Formation</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Connects methylation capacity to membrane phospholipid chemistry — the bridge between B-vitamin status and the membrane environment the brain relies on. SAMe supply and phosphatidylcholine formation work together to shape omega-3 carriage and membrane integrity.
 
 **FM page:** [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling)
 
@@ -123,16 +266,20 @@ Integrated regulation of SAMe Synthesis, and Phosphatidylcholine Formation, infl
 
 **Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: weekly
 
-**Primary mechanisms (PMs):**
-
-- [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)
-
 **Key constraints:**
 
 - [BRS2(KC1) — One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)
 - [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool)
 
-</details>
+**Connected mechanisms:**
+
+- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — within BRS1. This PM establishes the methylation-dependent PC pool; PM6 governs carrier-mediated delivery and membrane integration downstream
+- [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) — fM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation context relevant to this mechanism
+- [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) — fM1-PM3 — SAMe Synthesis context relevant to this mechanism
+
+</div>
+</div>
+</div>
 
 ---
 

@@ -1,0 +1,2664 @@
+{
+  "meta": {
+    "version": 2,
+    "description": "BRS hub dietary and lifestyle lever rollups — PM §4.1.1, §4.1.3 KCs, §4.2; BRS-specific Key constraints and Key Dietary Strategy & Targets copy.",
+    "generatedAt": "2026-06-26T16:51:51.371Z"
+  },
+  "brs": {
+    "BRS-X(ECS)": {
+      "dietary": {
+        "nutrient_dense_stars": [
+          {
+            "label": "Berries",
+            "source_pms": [
+              {
+                "id": "BRS-X(ECS-PM3)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation"
+              },
+              {
+                "id": "BRS-X(ECS-PM5)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity"
+              }
+            ]
+          },
+          {
+            "label": "Eggs",
+            "source_pms": [
+              {
+                "id": "BRS-X(ECS-PM1)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity"
+              },
+              {
+                "id": "BRS-X(ECS-PM4)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation"
+              },
+              {
+                "id": "BRS-X(ECS-PM5)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity"
+              }
+            ]
+          },
+          {
+            "label": "Fish roe",
+            "source_pms": [
+              {
+                "id": "BRS-X(ECS-PM1)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity"
+              },
+              {
+                "id": "BRS-X(ECS-PM2)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling"
+              },
+              {
+                "id": "BRS-X(ECS-PM4)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation"
+              }
+            ]
+          },
+          {
+            "label": "Mackerel",
+            "source_pms": [
+              {
+                "id": "BRS-X(ECS-PM2)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling"
+              },
+              {
+                "id": "BRS-X(ECS-PM4)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation"
+              },
+              {
+                "id": "BRS-X(ECS-PM5)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity"
+              }
+            ]
+          },
+          {
+            "label": "Oats",
+            "source_pms": [
+              {
+                "id": "BRS-X(ECS-PM1)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity"
+              },
+              {
+                "id": "BRS-X(ECS-PM5)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity"
+              }
+            ]
+          },
+          {
+            "label": "Salmon",
+            "source_pms": [
+              {
+                "id": "BRS-X(ECS-PM2)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling"
+              },
+              {
+                "id": "BRS-X(ECS-PM4)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation"
+              },
+              {
+                "id": "BRS-X(ECS-PM5)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity"
+              }
+            ]
+          },
+          {
+            "label": "Sardines",
+            "source_pms": [
+              {
+                "id": "BRS-X(ECS-PM2)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling"
+              },
+              {
+                "id": "BRS-X(ECS-PM4)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation"
+              },
+              {
+                "id": "BRS-X(ECS-PM5)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity"
+              }
+            ]
+          },
+          {
+            "label": "Walnuts",
+            "source_pms": [
+              {
+                "id": "BRS-X(ECS-PM2)",
+                "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling"
+              }
+            ]
+          }
+        ]
+      },
+      "lifestyle": [
+        {
+          "label": "Chronic psychosocial stress may deplete endocannabinoidome tone intersecting HPA and inflammatory pathways.",
+          "source_pms": [
+            {
+              "id": "BRS-X(ECS-PM5)",
+              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity"
+            }
+          ]
+        },
+        {
+          "label": "Chronic stress and inflammatory load may intersect with endocannabinoid degradation context.",
+          "source_pms": [
+            {
+              "id": "BRS-X(ECS-PM3)",
+              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation"
+            }
+          ]
+        },
+        {
+          "label": "Chronic stress may weaken endocannabinoid tone intersecting dopaminergic motivation pathways.",
+          "source_pms": [
+            {
+              "id": "BRS-X(ECS-PM4)",
+              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation"
+            }
+          ]
+        },
+        {
+          "label": "Chronic ultra-processed low-omega-3 diets may limit DHEA/EPEA-related endocannabinoidome signalling context.",
+          "source_pms": [
+            {
+              "id": "BRS-X(ECS-PM2)",
+              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling"
+            }
+          ]
+        },
+        {
+          "label": "Regular meal patterns supporting phospholipid-rich food intake may sustain NAPE",
+          "source_pms": [
+            {
+              "id": "BRS-X(ECS-PM1)",
+              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity"
+            }
+          ]
+        },
+        {
+          "label": "Regular oily-fish or equivalent omega-3 patterns may support ethanolamide substrate availability.",
+          "source_pms": [
+            {
+              "id": "BRS-X(ECS-PM2)",
+              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling"
+            }
+          ]
+        },
+        {
+          "label": "Sleep regularity and stress recovery may support endocannabinoid–dopamine coupling context.",
+          "source_pms": [
+            {
+              "id": "BRS-X(ECS-PM4)",
+              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation"
+            }
+          ]
+        },
+        {
+          "label": "Sleep regularity and stress recovery practices may support endocannabinoid stress-buffering context.",
+          "source_pms": [
+            {
+              "id": "BRS-X(ECS-PM5)",
+              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity"
+            }
+          ]
+        },
+        {
+          "label": "Ultra-processed low-phospholipid patterns may reduce dietary entry into endocannabinoidome precursor pools.",
+          "source_pms": [
+            {
+              "id": "BRS-X(ECS-PM1)",
+              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity"
+            }
+          ]
+        },
+        {
+          "label": "Ultra-processed low-polyphenol diets may offer less diet-sensitive FAAH modulation support.",
+          "source_pms": [
+            {
+              "id": "BRS-X(ECS-PM3)",
+              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation"
+            }
+          ]
+        }
+      ],
+      "key_constraints": {
+        "foods": [
+          "Eggs",
+          "Fish",
+          "Fish roe",
+          "Legumes",
+          "Liver",
+          "Oats",
+          "Soy"
+        ],
+        "commentary": "Key constraints across this system are those with phospholipid-rich whole foods; or choline and NAPE precursor availability. Whole foods such as Eggs, Fish roe, Oats, Fish, Legumes, and Liver supply the common pools.",
+        "show_food_list": true,
+        "kc_count": 1
+      },
+      "stats": {
+        "pm_count": 5,
+        "unique_foods": 16,
+        "unique_lifestyle": 10,
+        "unique_key_constraints": 1,
+        "nutrient_dense_stars": 8
+      },
+      "dietary_strategy_targets": [
+        "Phospholipid-rich meals",
+        "choline-containing foods",
+        "polyphenol diversity",
+        "omega-3-supportive patterns"
+      ]
+    },
+    "BRS-X(Hormones)": {
+      "dietary": {
+        "nutrient_dense_stars": [
+          {
+            "label": "Barley",
+            "source_pms": [
+              {
+                "id": "BRS-X(Hormones-PM4)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration"
+              },
+              {
+                "id": "BRS-X(Hormones-PM5)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability"
+              },
+              {
+                "id": "BRS-X(Hormones-PM6)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation"
+              }
+            ]
+          },
+          {
+            "label": "Broccoli",
+            "source_pms": [
+              {
+                "id": "BRS-X(Hormones-PM6)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation"
+              }
+            ]
+          },
+          {
+            "label": "Eggs",
+            "source_pms": [
+              {
+                "id": "BRS-X(Hormones-PM1)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability"
+              },
+              {
+                "id": "BRS-X(Hormones-PM4)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration"
+              },
+              {
+                "id": "BRS-X(Hormones-PM5)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability"
+              }
+            ]
+          },
+          {
+            "label": "Oats",
+            "source_pms": [
+              {
+                "id": "BRS-X(Hormones-PM2)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation"
+              },
+              {
+                "id": "BRS-X(Hormones-PM3)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism"
+              },
+              {
+                "id": "BRS-X(Hormones-PM4)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration"
+              },
+              {
+                "id": "BRS-X(Hormones-PM5)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability"
+              },
+              {
+                "id": "BRS-X(Hormones-PM6)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation"
+              }
+            ]
+          },
+          {
+            "label": "Spinach",
+            "source_pms": [
+              {
+                "id": "BRS-X(Hormones-PM1)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability"
+              },
+              {
+                "id": "BRS-X(Hormones-PM5)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability"
+              },
+              {
+                "id": "BRS-X(Hormones-PM6)",
+                "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation"
+              }
+            ]
+          }
+        ]
+      },
+      "lifestyle": [
+        {
+          "label": "Antibiotic exposure and ultra-processed dietary displacement may work against estrobolome stability.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM2)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Antibiotic overuse and ultra-processed low-fibre patterns may disrupt microbial steroid-metabolising ecology.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM6)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Male ageing, low testosterone states, gender-affirming hormone therapy, and chronic stress-related androgen suppression are Biological / Life-Stage Contexts — not mechanisms on this page.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM5)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability"
+            }
+          ]
+        },
+        {
+          "label": "Physical activity may support metabolic and mood context intersecting hormone signalling.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM1)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability"
+            }
+          ]
+        },
+        {
+          "label": "Post-meal walking and regular physical activity may support insulin sensitivity intersecting reproductive hormone context.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM4)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration"
+            }
+          ]
+        },
+        {
+          "label": "Repeated daily fermentable substrate delivery matters more than isolated high-fibre meals.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM2)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Repeated dietary fibre patterns matter more than short probiotic bursts.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM3)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism"
+            }
+          ]
+        },
+        {
+          "label": "Resistance training and regular physical activity may support androgen signalling context and metabolic-neuroendocrine stability.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM5)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability"
+            }
+          ]
+        },
+        {
+          "label": "Sleep and stress recovery may intersect with luteal-phase and progesterone-related neuroendocrine context.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM3)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism"
+            }
+          ]
+        },
+        {
+          "label": "Sleep regularity and stress recovery may influence cycle-linked neuroendocrine context.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM1)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability"
+            }
+          ]
+        },
+        {
+          "label": "Sleep regularity and stress recovery may reduce chronic stress-related androgen suppression intersecting HPA mechanisms.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM5)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability"
+            }
+          ]
+        },
+        {
+          "label": "Sleep regularity and stress recovery may support gut ecological stability intersecting endocrine-microbiome coupling.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM6)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Sleep regularity may support metabolic-neuroendocrine stability.",
+          "source_pms": [
+            {
+              "id": "BRS-X(Hormones-PM4)",
+              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration"
+            }
+          ]
+        }
+      ],
+      "key_constraints": {
+        "foods": [
+          "Apples",
+          "Chicory",
+          "Cooled Potatoes",
+          "Cooled Rice",
+          "Flax",
+          "Green Bananas",
+          "Legumes",
+          "Oats",
+          "Onions"
+        ],
+        "commentary": "Key constraints across this system are those with fermentable fibre and prebiotic substrate; or diverse plant-polyphenol intake supporting microbial hormone metabolism. Whole foods such as Oats, Apples, Chicory, Cooled Potatoes, Cooled Rice, and Flax supply the common pools.",
+        "show_food_list": true,
+        "kc_count": 1
+      },
+      "stats": {
+        "pm_count": 6,
+        "unique_foods": 15,
+        "unique_lifestyle": 13,
+        "unique_key_constraints": 1,
+        "nutrient_dense_stars": 5
+      },
+      "dietary_strategy_targets": [
+        "Fermentable fibre",
+        "phytoestrogen-aware whole foods",
+        "protein and micronutrient sufficiency",
+        "plant-diversity patterns"
+      ]
+    },
+    "BRS1": {
+      "dietary": {
+        "nutrient_dense_stars": [
+          {
+            "label": "Barley",
+            "source_pms": [
+              {
+                "id": "BRS1-FM1-PM1",
+                "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation"
+              }
+            ]
+          },
+          {
+            "label": "Berries",
+            "source_pms": [
+              {
+                "id": "BRS1-FM4-PM10",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation"
+              },
+              {
+                "id": "BRS1-FM4-PM9",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling"
+              }
+            ]
+          },
+          {
+            "label": "Eggs",
+            "source_pms": [
+              {
+                "id": "BRS1-FM1-PM1",
+                "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation"
+              },
+              {
+                "id": "BRS1-FM1-PM2",
+                "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation"
+              },
+              {
+                "id": "BRS1-FM1-PM3",
+                "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation"
+              },
+              {
+                "id": "BRS1-FM1-PM4",
+                "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation"
+              },
+              {
+                "id": "BRS1-FM2-PM5",
+                "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support"
+              },
+              {
+                "id": "BRS1-FM3-PM6",
+                "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation"
+              }
+            ]
+          },
+          {
+            "label": "Extra-virgin olive oil",
+            "source_pms": [
+              {
+                "id": "BRS1-FM4-PM9",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling"
+              }
+            ]
+          },
+          {
+            "label": "Fish roe",
+            "source_pms": [
+              {
+                "id": "BRS1-FM3-PM6",
+                "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation"
+              }
+            ]
+          },
+          {
+            "label": "Kefir",
+            "source_pms": [
+              {
+                "id": "BRS1-FM4-PM8",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
+              }
+            ]
+          },
+          {
+            "label": "Lentils",
+            "source_pms": [
+              {
+                "id": "BRS1-FM1-PM1",
+                "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation"
+              },
+              {
+                "id": "BRS1-FM4-PM8",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
+              }
+            ]
+          },
+          {
+            "label": "Mackerel",
+            "source_pms": [
+              {
+                "id": "BRS1-FM4-PM10",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation"
+              }
+            ]
+          },
+          {
+            "label": "Oats",
+            "source_pms": [
+              {
+                "id": "BRS1-FM1-PM1",
+                "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation"
+              },
+              {
+                "id": "BRS1-FM1-PM2",
+                "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation"
+              }
+            ]
+          },
+          {
+            "label": "Pumpkin Seeds",
+            "source_pms": [
+              {
+                "id": "BRS1-FM4-PM7",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance"
+              },
+              {
+                "id": "BRS1-FM4-PM8",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
+              }
+            ]
+          },
+          {
+            "label": "Salmon",
+            "source_pms": [
+              {
+                "id": "BRS1-FM3-PM6",
+                "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation"
+              },
+              {
+                "id": "BRS1-FM4-PM10",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation"
+              }
+            ]
+          },
+          {
+            "label": "Sardines",
+            "source_pms": [
+              {
+                "id": "BRS1-FM3-PM6",
+                "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation"
+              },
+              {
+                "id": "BRS1-FM4-PM10",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation"
+              }
+            ]
+          },
+          {
+            "label": "Spinach",
+            "source_pms": [
+              {
+                "id": "BRS1-FM4-PM7",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance"
+              }
+            ]
+          },
+          {
+            "label": "Yogurt",
+            "source_pms": [
+              {
+                "id": "BRS1-FM4-PM8",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
+              }
+            ]
+          }
+        ]
+      },
+      "lifestyle": [
+        {
+          "label": "Avoiding protein-poor main meals that weaken pool sufficiency",
+          "source_pms": [
+            {
+              "id": "BRS1-FM1-PM1",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation"
+            }
+          ]
+        },
+        {
+          "label": "Consistent meal timing and circadian alignment",
+          "source_pms": [
+            {
+              "id": "BRS1-FM1-PM4",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices.",
+          "source_pms": [
+            {
+              "id": "BRS1-FM3-PM6",
+              "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation"
+            }
+          ]
+        },
+        {
+          "label": "Meal timing and circadian-aligned eating may influence post-prandial LNAA ratios and precursor bias across the day.",
+          "source_pms": [
+            {
+              "id": "BRS1-FM1-PM2",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation"
+            }
+          ]
+        },
+        {
+          "label": "Meal timing and circadian-aligned eating may influence precursor transport and neurotransmitter bias.",
+          "source_pms": [
+            {
+              "id": "BRS1-FM1-PM3",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation"
+            },
+            {
+              "id": "BRS1-FM2-PM5",
+              "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support"
+            },
+            {
+              "id": "BRS1-FM4-PM10",
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation"
+            },
+            {
+              "id": "BRS1-FM4-PM7",
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance"
+            },
+            {
+              "id": "BRS1-FM4-PM8",
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
+            },
+            {
+              "id": "BRS1-FM4-PM9",
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling"
+            }
+          ]
+        },
+        {
+          "label": "Physical activity and stress recovery practices may modulate catecholamine and autonomic context where listed in interventions.",
+          "source_pms": [
+            {
+              "id": "BRS1-FM1-PM3",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation"
+            },
+            {
+              "id": "BRS1-FM2-PM5",
+              "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support"
+            },
+            {
+              "id": "BRS1-FM4-PM10",
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation"
+            },
+            {
+              "id": "BRS1-FM4-PM7",
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance"
+            },
+            {
+              "id": "BRS1-FM4-PM8",
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
+            },
+            {
+              "id": "BRS1-FM4-PM9",
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling"
+            }
+          ]
+        },
+        {
+          "label": "Post-meal physical activity and stress recovery may indirectly alter glycaemic and autonomic context that couples to meal-level transport bias (secondary to food-state levers).",
+          "source_pms": [
+            {
+              "id": "BRS1-FM1-PM2",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation"
+            }
+          ]
+        },
+        {
+          "label": "Regular meal timing supporting amino-acid availability across the day",
+          "source_pms": [
+            {
+              "id": "BRS1-FM1-PM1",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation"
+            }
+          ]
+        },
+        {
+          "label": "Regular physical activity",
+          "source_pms": [
+            {
+              "id": "BRS1-FM1-PM4",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Repeated weekly oily-fish or phospholipid-DHA intake matters more than isolated high-dose episodes for membrane incorporation.",
+          "source_pms": [
+            {
+              "id": "BRS1-FM3-PM6",
+              "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation"
+            }
+          ]
+        },
+        {
+          "label": "Sleep adequacy",
+          "source_pms": [
+            {
+              "id": "BRS1-FM1-PM4",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Stress-management practices",
+          "source_pms": [
+            {
+              "id": "BRS1-FM1-PM4",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation"
+            }
+          ]
+        }
+      ],
+      "key_constraints": {
+        "foods": [
+          "Barley",
+          "Beans",
+          "Beef",
+          "Brown Rice",
+          "Dairy",
+          "Eggs",
+          "Fish",
+          "Fish roe",
+          "Kefir",
+          "Legumes",
+          "Lentils",
+          "Liver",
+          "Oats",
+          "Poultry",
+          "Quinoa",
+          "Rice",
+          "Salmon",
+          "Sardines",
+          "Soy",
+          "Turkey",
+          "Yogurt"
+        ],
+        "commentary": "Key constraints across this system are those with complete amino-acid availability; or complementary food pairings. Whole foods such as Barley, Eggs, Fish roe, Kefir, Lentils, and Oats supply the common pools.",
+        "show_food_list": true,
+        "kc_count": 3
+      },
+      "stats": {
+        "pm_count": 10,
+        "unique_foods": 35,
+        "unique_lifestyle": 12,
+        "unique_key_constraints": 3,
+        "nutrient_dense_stars": 14
+      },
+      "dietary_strategy_targets": [
+        "Protein-inclusive meals",
+        "B-vitamin-rich foods",
+        "omega-3-rich foods",
+        "glycaemic stabilisation",
+        "food choices that support membrane fluidity and receptor function",
+        "Fibre-rich whole-food dietary patterns supporting gut–brain interactions",
+        "Pair plant-based iron with citrus; fat-soluble vitamins with avocado or olive oil; spread minerals across meals where practical"
+      ]
+    },
+    "BRS2": {
+      "dietary": {
+        "nutrient_dense_stars": [
+          {
+            "label": "Eggs",
+            "source_pms": [
+              {
+                "id": "BRS2-FM1-PM1",
+                "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation"
+              },
+              {
+                "id": "BRS2-FM1-PM2",
+                "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
+              },
+              {
+                "id": "BRS2-FM1-PM3",
+                "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis"
+              },
+              {
+                "id": "BRS2-FM2-PM5",
+                "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway"
+              },
+              {
+                "id": "BRS2-FM2-PM6",
+                "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis"
+              },
+              {
+                "id": "BRS2-FM3-PM7",
+                "href": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation"
+              }
+            ]
+          },
+          {
+            "label": "Fish roe",
+            "source_pms": [
+              {
+                "id": "BRS2-FM3-PM7",
+                "href": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation"
+              }
+            ]
+          },
+          {
+            "label": "Mackerel",
+            "source_pms": [
+              {
+                "id": "BRS2-FM2-PM6",
+                "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis"
+              },
+              {
+                "id": "BRS2-FM3-PM7",
+                "href": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation"
+              }
+            ]
+          },
+          {
+            "label": "Pumpkin Seeds",
+            "source_pms": [
+              {
+                "id": "BRS2-FM1-PM3",
+                "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis"
+              }
+            ]
+          },
+          {
+            "label": "Salmon",
+            "source_pms": [
+              {
+                "id": "BRS2-FM2-PM6",
+                "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis"
+              },
+              {
+                "id": "BRS2-FM3-PM7",
+                "href": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation"
+              }
+            ]
+          },
+          {
+            "label": "Sardines",
+            "source_pms": [
+              {
+                "id": "BRS2-FM2-PM6",
+                "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis"
+              },
+              {
+                "id": "BRS2-FM3-PM7",
+                "href": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation"
+              }
+            ]
+          },
+          {
+            "label": "Spinach",
+            "source_pms": [
+              {
+                "id": "BRS2-FM1-PM1",
+                "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation"
+              },
+              {
+                "id": "BRS2-FM1-PM2",
+                "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
+              },
+              {
+                "id": "BRS2-FM1-PM3",
+                "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis"
+              }
+            ]
+          }
+        ]
+      },
+      "lifestyle": [
+        {
+          "label": "Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.",
+          "source_pms": [
+            {
+              "id": "BRS2-FM1-PM1",
+              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation"
+            },
+            {
+              "id": "BRS2-FM1-PM2",
+              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
+            },
+            {
+              "id": "BRS2-FM1-PM3",
+              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis"
+            },
+            {
+              "id": "BRS2-FM1-PM4",
+              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux"
+            },
+            {
+              "id": "BRS2-FM2-PM5",
+              "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway"
+            },
+            {
+              "id": "BRS2-FM2-PM6",
+              "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis"
+            },
+            {
+              "id": "BRS2-FM3-PM7",
+              "href": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation"
+            }
+          ]
+        },
+        {
+          "label": "Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.",
+          "source_pms": [
+            {
+              "id": "BRS2-FM1-PM1",
+              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation"
+            },
+            {
+              "id": "BRS2-FM1-PM2",
+              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
+            },
+            {
+              "id": "BRS2-FM1-PM3",
+              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis"
+            },
+            {
+              "id": "BRS2-FM1-PM4",
+              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux"
+            },
+            {
+              "id": "BRS2-FM2-PM5",
+              "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway"
+            },
+            {
+              "id": "BRS2-FM2-PM6",
+              "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis"
+            },
+            {
+              "id": "BRS2-FM3-PM7",
+              "href": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation"
+            }
+          ]
+        }
+      ],
+      "key_constraints": {
+        "foods": [
+          "Beetroot",
+          "Chard",
+          "Clams",
+          "Dairy",
+          "Eggs",
+          "Fish",
+          "Fish roe",
+          "Kale",
+          "Legumes",
+          "Meat",
+          "Mussels",
+          "Oysters",
+          "Poultry",
+          "Spinach"
+        ],
+        "commentary": "Key constraints across this system are those with adequate methyl-donor intake; or folate-, choline-, and betaine-rich whole-food patterns. Whole foods such as Eggs, Fish roe, Spinach, Beetroot, Chard, and Clams supply the common pools.",
+        "show_food_list": true,
+        "kc_count": 2
+      },
+      "stats": {
+        "pm_count": 7,
+        "unique_foods": 21,
+        "unique_lifestyle": 2,
+        "unique_key_constraints": 2,
+        "nutrient_dense_stars": 7
+      },
+      "dietary_strategy_targets": [
+        "Methyl-donor-rich meals",
+        "folate- and B12-containing foods",
+        "choline and betaine sources",
+        "distributed protein supporting one-carbon throughput"
+      ]
+    },
+    "BRS3": {
+      "dietary": {
+        "nutrient_dense_stars": [
+          {
+            "label": "Barley",
+            "source_pms": [
+              {
+                "id": "BRS3-FM1-PM2",
+                "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling"
+              }
+            ]
+          },
+          {
+            "label": "Berries",
+            "source_pms": [
+              {
+                "id": "BRS3-FM1-PM1",
+                "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation"
+              },
+              {
+                "id": "BRS3-FM1-PM2",
+                "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling"
+              },
+              {
+                "id": "BRS3-FM2-PM4",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+              },
+              {
+                "id": "BRS3-FM2-PM6",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling"
+              },
+              {
+                "id": "BRS3-FM3-PM7",
+                "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation"
+              }
+            ]
+          },
+          {
+            "label": "Broccoli",
+            "source_pms": [
+              {
+                "id": "BRS3-FM2-PM3",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation"
+              }
+            ]
+          },
+          {
+            "label": "Eggs",
+            "source_pms": [
+              {
+                "id": "BRS3-FM2-PM4",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+              }
+            ]
+          },
+          {
+            "label": "Extra-virgin olive oil",
+            "source_pms": [
+              {
+                "id": "BRS3-FM1-PM1",
+                "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation"
+              },
+              {
+                "id": "BRS3-FM2-PM4",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+              },
+              {
+                "id": "BRS3-FM2-PM5",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control"
+              },
+              {
+                "id": "BRS3-FM2-PM6",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling"
+              },
+              {
+                "id": "BRS3-FM3-PM7",
+                "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation"
+              }
+            ]
+          },
+          {
+            "label": "Fermented Vegetables",
+            "source_pms": [
+              {
+                "id": "BRS3-FM1-PM2",
+                "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling"
+              }
+            ]
+          },
+          {
+            "label": "Fish roe",
+            "source_pms": [
+              {
+                "id": "BRS3-FM3-PM8",
+                "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance"
+              }
+            ]
+          },
+          {
+            "label": "Kefir",
+            "source_pms": [
+              {
+                "id": "BRS3-FM1-PM2",
+                "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling"
+              }
+            ]
+          },
+          {
+            "label": "Mackerel",
+            "source_pms": [
+              {
+                "id": "BRS3-FM1-PM1",
+                "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation"
+              },
+              {
+                "id": "BRS3-FM2-PM3",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation"
+              },
+              {
+                "id": "BRS3-FM2-PM4",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+              },
+              {
+                "id": "BRS3-FM2-PM6",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling"
+              },
+              {
+                "id": "BRS3-FM3-PM7",
+                "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation"
+              },
+              {
+                "id": "BRS3-FM3-PM8",
+                "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance"
+              }
+            ]
+          },
+          {
+            "label": "Oats",
+            "source_pms": [
+              {
+                "id": "BRS3-FM1-PM1",
+                "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation"
+              },
+              {
+                "id": "BRS3-FM1-PM2",
+                "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling"
+              }
+            ]
+          },
+          {
+            "label": "Pumpkin Seeds",
+            "source_pms": [
+              {
+                "id": "BRS3-FM2-PM3",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation"
+              },
+              {
+                "id": "BRS3-FM2-PM5",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control"
+              },
+              {
+                "id": "BRS3-FM3-PM8",
+                "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance"
+              }
+            ]
+          },
+          {
+            "label": "Salmon",
+            "source_pms": [
+              {
+                "id": "BRS3-FM1-PM1",
+                "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation"
+              },
+              {
+                "id": "BRS3-FM2-PM3",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation"
+              },
+              {
+                "id": "BRS3-FM2-PM4",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+              },
+              {
+                "id": "BRS3-FM2-PM6",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling"
+              },
+              {
+                "id": "BRS3-FM3-PM7",
+                "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation"
+              },
+              {
+                "id": "BRS3-FM3-PM8",
+                "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance"
+              }
+            ]
+          },
+          {
+            "label": "Sardines",
+            "source_pms": [
+              {
+                "id": "BRS3-FM1-PM1",
+                "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation"
+              },
+              {
+                "id": "BRS3-FM2-PM3",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation"
+              },
+              {
+                "id": "BRS3-FM2-PM4",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+              },
+              {
+                "id": "BRS3-FM2-PM6",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling"
+              },
+              {
+                "id": "BRS3-FM3-PM7",
+                "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation"
+              },
+              {
+                "id": "BRS3-FM3-PM8",
+                "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance"
+              }
+            ]
+          },
+          {
+            "label": "Spinach",
+            "source_pms": [
+              {
+                "id": "BRS3-FM2-PM4",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+              },
+              {
+                "id": "BRS3-FM2-PM6",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling"
+              }
+            ]
+          },
+          {
+            "label": "Walnuts",
+            "source_pms": [
+              {
+                "id": "BRS3-FM2-PM5",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control"
+              },
+              {
+                "id": "BRS3-FM2-PM6",
+                "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling"
+              },
+              {
+                "id": "BRS3-FM3-PM8",
+                "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance"
+              }
+            ]
+          },
+          {
+            "label": "Yogurt",
+            "source_pms": [
+              {
+                "id": "BRS3-FM1-PM2",
+                "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling"
+              }
+            ]
+          }
+        ]
+      },
+      "lifestyle": [
+        {
+          "label": "Broad whole-food antioxidant coverage is more relevant than sporadic high-dose supplement logic.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM2-PM6",
+              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling"
+            }
+          ]
+        },
+        {
+          "label": "Consistent daily patterning is more relevant than occasional high-antioxidant meals.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM2-PM4",
+              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+            }
+          ]
+        },
+        {
+          "label": "Daily pattern quality matters more than isolated anti-inflammatory additions.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM3-PM7",
+              "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation"
+            }
+          ]
+        },
+        {
+          "label": "Exposure reduction matters: smoke, pollution, alcohol excess, and sleep disruption can all add oxidative burden alongside dietary sources.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM2-PM4",
+              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+            }
+          ]
+        },
+        {
+          "label": "Gentle cooking and lower frying load may reduce oxidative stress placed on membrane-lipid protection.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM2-PM5",
+              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control"
+            }
+          ]
+        },
+        {
+          "label": "Lower inflammatory load from broader diet and lifestyle context helps preserve resolution capacity once substrate support is present.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM3-PM8",
+              "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance"
+            }
+          ]
+        },
+        {
+          "label": "Lower ongoing oxidative exposure helps preserve the value of antioxidant recycling capacity.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM2-PM6",
+              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling"
+            }
+          ]
+        },
+        {
+          "label": "Lower overall toxic and oxidative burden may preserve the benefit of endogenous antioxidant activation once induced.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM2-PM3",
+              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation"
+            }
+          ]
+        },
+        {
+          "label": "Prefer gentler cooking and stable fat handling to limit exogenous AGE/ALE and oxidised-lipid load.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM2-PM4",
+              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+            }
+          ]
+        },
+        {
+          "label": "Reducing ultra-processed food exposure may help lower postprandial inflammatory burden where this PM is relevant.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM1-PM1",
+              "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Regular meal timing and stable daily dietary patterning matter more than isolated anti-inflammatory meals.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM1-PM1",
+              "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Repeated exposure to oxidized oils and heavily processed fats works against this PM.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM2-PM5",
+              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control"
+            }
+          ]
+        },
+        {
+          "label": "Repeated weekly inclusion of crucifer foods is more relevant than one-off intake.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM2-PM3",
+              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation"
+            }
+          ]
+        },
+        {
+          "label": "Repeated weekly marine-fat exposure matters more than isolated dosing.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM3-PM8",
+              "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance"
+            }
+          ]
+        },
+        {
+          "label": "Sleep disruption, stress overload, and highly erratic eating may worsen gut-derived inflammatory pressure indirectly.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM1-PM2",
+              "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling"
+            }
+          ]
+        },
+        {
+          "label": "Stable sleep and glycaemic routine may indirectly support lower cytokine pressure through reduced systemic stress signalling.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM3-PM7",
+              "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation"
+            }
+          ]
+        },
+        {
+          "label": "Sustained pattern quality matters more than short-term gut-focused additions.",
+          "source_pms": [
+            {
+              "id": "BRS3-FM1-PM2",
+              "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling"
+            }
+          ]
+        }
+      ],
+      "key_constraints": {
+        "foods": [
+          "Almonds",
+          "Basil",
+          "Berries",
+          "Brazil Nuts",
+          "Carrots",
+          "Chard",
+          "Chia Seeds",
+          "Cinnamon",
+          "Cocoa",
+          "Extra-virgin olive oil",
+          "Fish roe",
+          "Flaxseed",
+          "Ginger",
+          "Grapefruit",
+          "Green Tea",
+          "Kale",
+          "Lemons",
+          "Mackerel",
+          "Oranges",
+          "Oregano",
+          "Parsley",
+          "Peppers",
+          "Pumpkin Seeds",
+          "Salmon",
+          "Sardines",
+          "Spinach",
+          "Tea",
+          "Tomatoes",
+          "Turmeric",
+          "Walnuts"
+        ],
+        "commentary": "Key constraints across this system are those with antioxidant substrate availability; or balanced omega-3 and omega-6 fatty-acid intake. Whole foods such as Berries, Extra-virgin olive oil, Fish roe, Mackerel, Pumpkin Seeds, and Salmon supply the common pools.",
+        "show_food_list": true,
+        "kc_count": 2
+      },
+      "stats": {
+        "pm_count": 8,
+        "unique_foods": 50,
+        "unique_lifestyle": 17,
+        "unique_key_constraints": 2,
+        "nutrient_dense_stars": 16
+      },
+      "dietary_strategy_targets": [
+        "Anti-inflammatory whole-food patterns",
+        "antioxidant-rich vegetables and fruits",
+        "omega-3 and omega-6 balance",
+        "polyphenol-diverse intake"
+      ]
+    },
+    "BRS4": {
+      "dietary": {
+        "nutrient_dense_stars": [
+          {
+            "label": "Barley",
+            "source_pms": [
+              {
+                "id": "BRS4-FM1-PM1",
+                "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function"
+              },
+              {
+                "id": "BRS4-FM2-PM4",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+              },
+              {
+                "id": "BRS4-FM3-PM6",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport"
+              },
+              {
+                "id": "BRS4-FM3-PM8",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+              },
+              {
+                "id": "BRS4-FM4-PM9",
+                "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis"
+              }
+            ]
+          },
+          {
+            "label": "Berries",
+            "source_pms": [
+              {
+                "id": "BRS4-FM2-PM4",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+              },
+              {
+                "id": "BRS4-FM3-PM8",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+              },
+              {
+                "id": "BRS4-FM4-PM9",
+                "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis"
+              }
+            ]
+          },
+          {
+            "label": "Broccoli",
+            "source_pms": [
+              {
+                "id": "BRS4-FM2-PM5",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
+              }
+            ]
+          },
+          {
+            "label": "Eggs",
+            "source_pms": [
+              {
+                "id": "BRS4-FM1-PM1",
+                "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function"
+              },
+              {
+                "id": "BRS4-FM1-PM2",
+                "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism"
+              },
+              {
+                "id": "BRS4-FM3-PM8",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+              },
+              {
+                "id": "BRS4-FM4-PM9",
+                "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis"
+              }
+            ]
+          },
+          {
+            "label": "Extra-virgin olive oil",
+            "source_pms": [
+              {
+                "id": "BRS4-FM2-PM4",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+              },
+              {
+                "id": "BRS4-FM2-PM5",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
+              },
+              {
+                "id": "BRS4-FM4-PM9",
+                "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis"
+              }
+            ]
+          },
+          {
+            "label": "Mackerel",
+            "source_pms": [
+              {
+                "id": "BRS4-FM1-PM1",
+                "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function"
+              },
+              {
+                "id": "BRS4-FM2-PM4",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+              },
+              {
+                "id": "BRS4-FM2-PM5",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
+              },
+              {
+                "id": "BRS4-FM3-PM8",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+              }
+            ]
+          },
+          {
+            "label": "Oats",
+            "source_pms": [
+              {
+                "id": "BRS4-FM1-PM1",
+                "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function"
+              },
+              {
+                "id": "BRS4-FM2-PM4",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+              },
+              {
+                "id": "BRS4-FM3-PM6",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport"
+              },
+              {
+                "id": "BRS4-FM3-PM8",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+              },
+              {
+                "id": "BRS4-FM4-PM9",
+                "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis"
+              }
+            ]
+          },
+          {
+            "label": "Pumpkin Seeds",
+            "source_pms": [
+              {
+                "id": "BRS4-FM2-PM4",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+              },
+              {
+                "id": "BRS4-FM2-PM5",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
+              },
+              {
+                "id": "BRS4-FM3-PM8",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+              }
+            ]
+          },
+          {
+            "label": "Salmon",
+            "source_pms": [
+              {
+                "id": "BRS4-FM1-PM1",
+                "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function"
+              },
+              {
+                "id": "BRS4-FM2-PM4",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+              },
+              {
+                "id": "BRS4-FM2-PM5",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
+              },
+              {
+                "id": "BRS4-FM3-PM8",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+              }
+            ]
+          },
+          {
+            "label": "Sardines",
+            "source_pms": [
+              {
+                "id": "BRS4-FM1-PM1",
+                "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function"
+              },
+              {
+                "id": "BRS4-FM2-PM4",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+              },
+              {
+                "id": "BRS4-FM2-PM5",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
+              },
+              {
+                "id": "BRS4-FM3-PM8",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+              }
+            ]
+          },
+          {
+            "label": "Spinach",
+            "source_pms": [
+              {
+                "id": "BRS4-FM3-PM6",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport"
+              },
+              {
+                "id": "BRS4-FM4-PM9",
+                "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis"
+              }
+            ]
+          },
+          {
+            "label": "Walnuts",
+            "source_pms": [
+              {
+                "id": "BRS4-FM2-PM4",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+              },
+              {
+                "id": "BRS4-FM2-PM5",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
+              },
+              {
+                "id": "BRS4-FM3-PM7",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity"
+              },
+              {
+                "id": "BRS4-FM3-PM8",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+              }
+            ]
+          }
+        ]
+      },
+      "lifestyle": [
+        {
+          "label": "Avoid persistent energy surplus and maintain varied whole-food meals that support switching between glucose, fatty-acid, and ketone utilisation rather than fixed high-glycaemic loading",
+          "source_pms": [
+            {
+              "id": "BRS4-FM3-PM7",
+              "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity"
+            }
+          ]
+        },
+        {
+          "label": "Consider structured time-restricted eating windows where appropriate to provide periodic exposure to alternative fuel utilisation pathways",
+          "source_pms": [
+            {
+              "id": "BRS4-FM3-PM8",
+              "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+            }
+          ]
+        },
+        {
+          "label": "Context matters more than universal emphasis; this mechanism is most meaningful where fat-oxidation flexibility is a priority.",
+          "source_pms": [
+            {
+              "id": "BRS4-FM3-PM6",
+              "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport"
+            }
+          ]
+        },
+        {
+          "label": "Engage in regular physical activity to support mitochondrial health and cellular energy production",
+          "source_pms": [
+            {
+              "id": "BRS4-FM1-PM2",
+              "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism"
+            }
+          ]
+        },
+        {
+          "label": "Ensure adequate B-vitamin and magnesium intake through diverse whole foods to support mitochondrial enzyme and cofactor context for adaptive expansion",
+          "source_pms": [
+            {
+              "id": "BRS4-FM4-PM9",
+              "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis"
+            }
+          ]
+        },
+        {
+          "label": "Exercise and metabolic conditioning increase the relevance of this PM.",
+          "source_pms": [
+            {
+              "id": "BRS4-FM3-PM6",
+              "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport"
+            }
+          ]
+        },
+        {
+          "label": "In specific clinical contexts, structured ketogenic approaches may increase reliance on ketone metabolism and fuel adaptation pathways",
+          "source_pms": [
+            {
+              "id": "BRS4-FM3-PM8",
+              "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+            }
+          ]
+        },
+        {
+          "label": "In specific clinical contexts, structured ketogenic or exogenous ketone protocols may increase ketone availability and utilisation pathways",
+          "source_pms": [
+            {
+              "id": "BRS4-FM3-PM7",
+              "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity"
+            }
+          ]
+        },
+        {
+          "label": "Include regular aerobic and mixed-intensity activity to raise metabolic demand and support mitochondrial capacity for alternative fuel oxidation",
+          "source_pms": [
+            {
+              "id": "BRS4-FM3-PM7",
+              "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity"
+            }
+          ]
+        },
+        {
+          "label": "Include regular aerobic and resistance training to raise energy demand and promote exercise-linked fuel-switching adaptations",
+          "source_pms": [
+            {
+              "id": "BRS4-FM3-PM8",
+              "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+            }
+          ]
+        },
+        {
+          "label": "Lower oxidant exposure and gentler cooking support the protective role of this PM.",
+          "source_pms": [
+            {
+              "id": "BRS4-FM2-PM5",
+              "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
+            }
+          ]
+        },
+        {
+          "label": "Lower smoke, pollution, and alcohol burden may help reduce mitochondrial oxidative pressure.",
+          "source_pms": [
+            {
+              "id": "BRS4-FM2-PM4",
+              "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+            }
+          ]
+        },
+        {
+          "label": "Maintain consistent daily rhythms and sleep–wake timing to support biological pathways involved in NAD⁺ production and cellular energy regulation",
+          "source_pms": [
+            {
+              "id": "BRS4-FM1-PM2",
+              "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism"
+            }
+          ]
+        },
+        {
+          "label": "Maintain healthy body composition and insulin sensitivity to support efficient transitions between energy substrates",
+          "source_pms": [
+            {
+              "id": "BRS4-FM3-PM8",
+              "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching"
+            }
+          ]
+        },
+        {
+          "label": "Polyphenol-rich foods may provide secondary experimental support for mitochondrial biogenesis pathways alongside primary training signals",
+          "source_pms": [
+            {
+              "id": "BRS4-FM4-PM9",
+              "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis"
+            }
+          ]
+        },
+        {
+          "label": "Prioritise adequate sleep and recovery between training sessions to support adaptive mitochondrial remodelling rather than chronic under-recovery",
+          "source_pms": [
+            {
+              "id": "BRS4-FM4-PM9",
+              "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis"
+            }
+          ]
+        },
+        {
+          "label": "Prioritise adequate sleep to support normal cellular energy metabolism and physiological processes involved in NAD⁺ synthesis and utilisation",
+          "source_pms": [
+            {
+              "id": "BRS4-FM1-PM2",
+              "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism"
+            }
+          ]
+        },
+        {
+          "label": "Recovery and sleep context may indirectly influence realised bioenergetic demand, but dietary cofactor and substrate coverage remain foundational here.",
+          "source_pms": [
+            {
+              "id": "BRS4-FM1-PM1",
+              "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function"
+            }
+          ]
+        },
+        {
+          "label": "Recovery and sleep quality may influence how much oxidative burden mitochondria must absorb over time.",
+          "source_pms": [
+            {
+              "id": "BRS4-FM2-PM5",
+              "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
+            }
+          ]
+        },
+        {
+          "label": "Relevance is highest in high-demand contexts rather than as a universal baseline priority.",
+          "source_pms": [
+            {
+              "id": "BRS4-FM1-PM3",
+              "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer"
+            }
+          ]
+        },
+        {
+          "label": "Repeated daily pattern quality matters more than isolated antioxidant additions.",
+          "source_pms": [
+            {
+              "id": "BRS4-FM2-PM4",
+              "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+            }
+          ]
+        },
+        {
+          "label": "Sleep loss, under-fuelling, and sustained overload may make rapid buffering more consequential.",
+          "source_pms": [
+            {
+              "id": "BRS4-FM1-PM3",
+              "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer"
+            }
+          ]
+        },
+        {
+          "label": "Stable daily meal structure may help maintain substrate continuity for ETC throughput.",
+          "source_pms": [
+            {
+              "id": "BRS4-FM1-PM1",
+              "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function"
+            }
+          ]
+        }
+      ],
+      "key_constraints": {
+        "foods": [
+          "Almonds",
+          "Barley",
+          "Brazil Nuts",
+          "Brown Rice",
+          "Carbohydrate-containing Whole Foods",
+          "Chard",
+          "Chia Seeds",
+          "Clams",
+          "Dairy",
+          "Eggs",
+          "Fish",
+          "Flaxseed",
+          "Kale",
+          "Lean Meat",
+          "Legumes",
+          "Mackerel",
+          "Meat",
+          "Mussels",
+          "Oats",
+          "Olive Oil",
+          "Oysters",
+          "Poultry",
+          "Protein-rich Whole Foods",
+          "Pumpkin Seeds",
+          "Quinoa",
+          "Salmon",
+          "Sardines",
+          "Spinach",
+          "Walnuts"
+        ],
+        "commentary": "Key constraints across this system are those with reliable macronutrient fuel delivery; or B-vitamin, iron, and magnesium cofactor sufficiency. Whole foods such as Barley, Eggs, Mackerel, Oats, Pumpkin Seeds, and Salmon supply the common pools.",
+        "show_food_list": true,
+        "kc_count": 2
+      },
+      "stats": {
+        "pm_count": 9,
+        "unique_foods": 48,
+        "unique_lifestyle": 23,
+        "unique_key_constraints": 2,
+        "nutrient_dense_stars": 12
+      },
+      "dietary_strategy_targets": [
+        "Balanced macronutrient fuel delivery",
+        "mitochondrial cofactor-rich foods",
+        "sustained energy-substrate meals"
+      ]
+    },
+    "BRS5": {
+      "dietary": {
+        "nutrient_dense_stars": [
+          {
+            "label": "Barley",
+            "source_pms": [
+              {
+                "id": "BRS5-FM2-PM4",
+                "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection"
+              }
+            ]
+          },
+          {
+            "label": "Berries",
+            "source_pms": [
+              {
+                "id": "BRS5-FM1-PM3",
+                "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support"
+              },
+              {
+                "id": "BRS5-FM2-PM4",
+                "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection"
+              },
+              {
+                "id": "BRS5-FM2-PM6",
+                "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation"
+              }
+            ]
+          },
+          {
+            "label": "Fermented Vegetables",
+            "source_pms": [
+              {
+                "id": "BRS5-FM3-PM7",
+                "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation"
+              }
+            ]
+          },
+          {
+            "label": "Kefir",
+            "source_pms": [
+              {
+                "id": "BRS5-FM3-PM7",
+                "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation"
+              }
+            ]
+          },
+          {
+            "label": "Mackerel",
+            "source_pms": [
+              {
+                "id": "BRS5-FM1-PM1",
+                "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity"
+              }
+            ]
+          },
+          {
+            "label": "Oats",
+            "source_pms": [
+              {
+                "id": "BRS5-FM2-PM4",
+                "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection"
+              },
+              {
+                "id": "BRS5-FM2-PM5",
+                "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling"
+              }
+            ]
+          },
+          {
+            "label": "Pumpkin Seeds",
+            "source_pms": [
+              {
+                "id": "BRS5-FM1-PM1",
+                "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity"
+              }
+            ]
+          },
+          {
+            "label": "Salmon",
+            "source_pms": [
+              {
+                "id": "BRS5-FM1-PM1",
+                "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity"
+              }
+            ]
+          },
+          {
+            "label": "Sardines",
+            "source_pms": [
+              {
+                "id": "BRS5-FM1-PM1",
+                "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity"
+              }
+            ]
+          },
+          {
+            "label": "Walnuts",
+            "source_pms": [
+              {
+                "id": "BRS5-FM2-PM6",
+                "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation"
+              }
+            ]
+          },
+          {
+            "label": "Yogurt",
+            "source_pms": [
+              {
+                "id": "BRS5-FM3-PM7",
+                "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation"
+              }
+            ]
+          }
+        ]
+      },
+      "lifestyle": [
+        {
+          "label": "Consistent meal timing may help support microbial rhythm stability.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM2-PM4",
+              "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection"
+            }
+          ]
+        },
+        {
+          "label": "Daily pattern consistency matters more than intermittent “gut reset” attempts.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM1-PM1",
+              "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity"
+            }
+          ]
+        },
+        {
+          "label": "Daily pattern quality matters more than short-term “detox” framing.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM1-PM2",
+              "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment"
+            }
+          ]
+        },
+        {
+          "label": "Highly restrictive, low-variety eating may work against keystone support over time.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM1-PM3",
+              "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support"
+            }
+          ]
+        },
+        {
+          "label": "Lower alcohol and ultra-processed food exposure may reduce barrier strain.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM1-PM1",
+              "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity"
+            }
+          ]
+        },
+        {
+          "label": "Meal regularity may be especially relevant where enteric rhythm is unstable.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM3-PM7",
+              "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation"
+            }
+          ]
+        },
+        {
+          "label": "Meal regularity may indirectly support fermentation continuity by stabilising ecological inputs.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM2-PM5",
+              "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling"
+            }
+          ]
+        },
+        {
+          "label": "Repeated daily patterning matters more than one-off vagal-support ideas.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM3-PM7",
+              "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation"
+            }
+          ]
+        },
+        {
+          "label": "Repeated daily substrate exposure matters more than sporadic bolus intake.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM2-PM5",
+              "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling"
+            }
+          ]
+        },
+        {
+          "label": "Repeated dietary pattern quality matters more than isolated amino-acid emphasis.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM3-PM8",
+              "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability"
+            }
+          ]
+        },
+        {
+          "label": "Repeated dietary pattern quality matters more than occasional microbiome-focused meals.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM2-PM4",
+              "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection"
+            }
+          ]
+        },
+        {
+          "label": "Repeated exposure matters more than isolated “superfood” use.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM2-PM6",
+              "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation"
+            }
+          ]
+        },
+        {
+          "label": "Repeated pattern quality matters more than short probiotic “bursts”.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM1-PM3",
+              "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support"
+            }
+          ]
+        },
+        {
+          "label": "Responder variability should be expected even under strong dietary adherence.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM2-PM6",
+              "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation"
+            }
+          ]
+        },
+        {
+          "label": "Sleep, stress, and highly erratic eating may worsen metabolic endotoxemia context indirectly.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM1-PM2",
+              "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment"
+            }
+          ]
+        },
+        {
+          "label": "Sleep, stress, and meal irregularity may indirectly worsen gut-side precursor context.",
+          "source_pms": [
+            {
+              "id": "BRS5-FM3-PM8",
+              "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability"
+            }
+          ]
+        }
+      ],
+      "key_constraints": {
+        "foods": [
+          "Apples",
+          "Barley",
+          "Basil",
+          "Berries",
+          "Brown Rice",
+          "Chia Seeds",
+          "Chicory",
+          "Cinnamon",
+          "Clams",
+          "Cocoa",
+          "Cooled Potatoes",
+          "Cooled Rice",
+          "Cranberries",
+          "Eggs",
+          "Flax",
+          "Flaxseed",
+          "Ginger",
+          "Green Bananas",
+          "Green Tea",
+          "Legumes",
+          "Liver",
+          "Mackerel",
+          "Meat",
+          "Mussels",
+          "Oats",
+          "Onions",
+          "Orange Vegetables",
+          "Oregano",
+          "Oysters",
+          "Parsley",
+          "Pomegranate",
+          "Protein Foods",
+          "Pumpkin Seeds",
+          "Quinoa",
+          "Salmon",
+          "Sardines",
+          "Turmeric"
+        ],
+        "commentary": "Key constraints across this system are those with fermentable fibre and resistant-starch intake; or broad plant-diversity and barrier-supportive nutrients. Whole foods such as Barley, Berries, Eggs, Mackerel, Oats, and Pumpkin Seeds supply the common pools.",
+        "show_food_list": true,
+        "kc_count": 3
+      },
+      "stats": {
+        "pm_count": 8,
+        "unique_foods": 34,
+        "unique_lifestyle": 16,
+        "unique_key_constraints": 3,
+        "nutrient_dense_stars": 11
+      },
+      "dietary_strategy_targets": [
+        "Fermentable-fibre intake",
+        "plant-diversity patterns",
+        "polyphenol-rich foods",
+        "barrier-supportive nutrient pairing"
+      ]
+    },
+    "BRS6": {
+      "dietary": {
+        "nutrient_dense_stars": [
+          {
+            "label": "Barley",
+            "source_pms": [
+              {
+                "id": "BRS6-FM1-PM1",
+                "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics"
+              }
+            ]
+          },
+          {
+            "label": "Oats",
+            "source_pms": [
+              {
+                "id": "BRS6-FM1-PM1",
+                "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics"
+              }
+            ]
+          }
+        ]
+      },
+      "lifestyle": [
+        {
+          "label": "Acute overtraining without recovery may antagonise HRV improvement in some contexts.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM3-PM7",
+              "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Acute stress and poor sleep may shift post-prandial glucose dynamics; these are broader BRS6 modifiers rather than primary PM1 food-state inputs.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM1-PM1",
+              "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics"
+            }
+          ]
+        },
+        {
+          "label": "Breathwork, meditation, and vagal-training practices may directly support HRV-related recovery.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM3-PM7",
+              "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Late-day stimulant load may antagonise evening parasympathetic recovery in some individuals.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM3-PM6",
+              "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery"
+            }
+          ]
+        },
+        {
+          "label": "Meal timing and circadian alignment may influence glucose tolerance and the timing of post-prandial responses.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM1-PM1",
+              "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics"
+            }
+          ]
+        },
+        {
+          "label": "Morning and daytime light exposure may strengthen central circadian phase setting.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM2-PM5",
+              "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment"
+            }
+          ]
+        },
+        {
+          "label": "Morning daylight exposure may strengthen circadian phase cues and morning cortisol alignment.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM2-PM4",
+              "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Physical activity with appropriate recovery may improve metabolic and mood context for appetite control.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM4-PM9",
+              "href": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation"
+            }
+          ]
+        },
+        {
+          "label": "Post-meal walking and regular aerobic activity may increase skeletal muscle glucose disposal and improve post-prandial profiles.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM1-PM3",
+              "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal"
+            }
+          ]
+        },
+        {
+          "label": "Post-meal walking increases peripheral glucose uptake and may alter the **shape** of the post-prandial glucose curve after glucose has appeared.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM1-PM1",
+              "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics"
+            }
+          ]
+        },
+        {
+          "label": "Recovery walks and downshifting routines may support autonomic transition after stress or cognitive load.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM3-PM6",
+              "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery"
+            }
+          ]
+        },
+        {
+          "label": "Reduced evening artificial light may support melatonin-associated sleep–wake transitions.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM2-PM5",
+              "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment"
+            }
+          ]
+        },
+        {
+          "label": "Regular aerobic activity and post-meal walking may attenuate excursion frequency and magnitude, supporting glycaemic variability regulation across the feeding period.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM1-PM2",
+              "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Regular aerobic activity and recovery pacing may improve autonomic flexibility over time.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM3-PM7",
+              "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Regular physical activity and recovery balance may improve insulin sensitivity and inflammatory resolution.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM4-PM8",
+              "href": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling"
+            }
+          ]
+        },
+        {
+          "label": "Resistance training and maintenance of lean mass may support insulin sensitivity and metabolic flexibility over time.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM1-PM3",
+              "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal"
+            }
+          ]
+        },
+        {
+          "label": "Sleep continuity and stress-regulation practices may reduce chronic sympathetic dominance.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM3-PM6",
+              "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery"
+            }
+          ]
+        },
+        {
+          "label": "Sleep regularity and stress downshifting may sustain vagal tone across days.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM3-PM7",
+              "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Sleep regularity and stress-load management may influence neuroendocrine amplification of glucose oscillations and post-prandial variability dynamics.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM1-PM2",
+              "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Sleep regularity, stress-load management, and circadian-aligned meal timing may reduce insulin resistance–associated volatility in some contexts.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM1-PM3",
+              "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal"
+            }
+          ]
+        },
+        {
+          "label": "Sleep timing and duration stability may lower cortisol-driven eating pressure.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM4-PM9",
+              "href": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation"
+            }
+          ]
+        },
+        {
+          "label": "Sleep timing and duration stability may reduce allostatic metabolic-inflammatory load.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM4-PM8",
+              "href": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling"
+            }
+          ]
+        },
+        {
+          "label": "Slow breathing and vagal-training practices may increase parasympathetic tone after activation.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM3-PM6",
+              "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery"
+            }
+          ]
+        },
+        {
+          "label": "Stable bed and wake times may reinforce feeding–sleep coherence across the week.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM2-PM5",
+              "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment"
+            }
+          ]
+        },
+        {
+          "label": "Stable sleep–wake timing and reduced evening light exposure may support cortisol amplitude and phase.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM2-PM4",
+              "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Stress regulation and mindfulness-based practices may reduce emotional and stress-eating tendencies.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM4-PM9",
+              "href": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation"
+            }
+          ]
+        },
+        {
+          "label": "Stress regulation and recovery practices may reduce evening cortisol spillover after daytime demand.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM2-PM4",
+              "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation"
+            }
+          ]
+        },
+        {
+          "label": "Visceral adiposity reduction (where clinically appropriate) may lower adipose-derived inflammatory signalling.",
+          "source_pms": [
+            {
+              "id": "BRS6-FM4-PM8",
+              "href": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling"
+            }
+          ]
+        }
+      ],
+      "key_constraints": {
+        "foods": [
+          "Barley",
+          "Brown Rice",
+          "Legumes",
+          "Oats",
+          "Potatoes",
+          "Rice"
+        ],
+        "commentary": "Key constraints across this system are those with stable meal-derived energy substrates; or stress-response micronutrient and lipid sufficiency. Whole foods such as Barley, Brown Rice, Legumes, Oats, Potatoes, and Rice supply the common pools.",
+        "show_food_list": false,
+        "kc_count": 2
+      },
+      "stats": {
+        "pm_count": 9,
+        "unique_foods": 6,
+        "unique_lifestyle": 28,
+        "unique_key_constraints": 2,
+        "nutrient_dense_stars": 2
+      },
+      "dietary_strategy_targets": [
+        "Glycaemic stabilisation",
+        "mixed macronutrient meal matrices",
+        "consistent meal timing",
+        "lower ultra-processed load",
+        "Morning-forward meal structure may align feeding cues with waking light exposure",
+        "Polyphenol-rich foods, omega-3–containing seafoods, and adequate micronutrient context may support favourable metabolic signalling alongside core meal structure (interpreted as supportive, not deterministic)",
+        "Protein-rich breakfast and structured meal composition may support appetite and reward stability across the morning and day",
+        "Stable, lower-inflammatory meal patterns may reduce autonomic strain that antagonises recovery signalling"
+      ]
+    }
+  }
+}

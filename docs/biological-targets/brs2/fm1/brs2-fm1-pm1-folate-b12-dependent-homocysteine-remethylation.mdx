@@ -1,9 +1,10 @@
 ---
 title: Folate/B12-Dependent Homocysteine Remethylation
 pm_id: BRS2-FM1-PM1
+mission: Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.
 parent_fm: BRS2(FM1)
 parent_brs: BRS2
-summary: 'Maintains the body''s methylation capacity by recycling homocysteine back into methionine through folate- and vitamin B12-dependent remethylation (the primary one-carbon route for clearing homocysteine). This helps sustain the methyl-donor supply required for many brain and body processes while limiting excessive homocysteine accumulation.'
+summary: Maintains the body's methylation capacity by recycling homocysteine back into methionine through folate- and vitamin B12-dependent remethylation (the primary one-carbon route for clearing homocysteine). This helps sustain the methyl-donor supply required for many brain and body processes while limiting excessive homocysteine accumulation.
 key_constraints:
   - BRS2(KC1) - One-Carbon Donor Pool
 cofactors:
@@ -18,7 +19,54 @@ references:
   - '[Tao Huang et al. (2015) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)'
   - '[Oulhaj et al. (2016) — Omega-3 Fatty Acid Status Enhances the Prevention of Cognitive Decline by B](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)'
   - '[Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)'
+  - '[Razavinia et al. (2024) — Vitamins B ₉ and B ₁₂ in Children with Attention Deficit Hyperactivity](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024)'
+  - '[Wang et al. (2019) — Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)'
+  - '[Meng et al. (2022) — A Meta-analysis](/docs/papers/BRAIN-Diet-References#meng_association_2022)'
 hide_title: true
+phenome_relationships:
+  - target_phenome: Focus / Attention Stability
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: observational
+    evidence_confidence: low-medium
+    rationale: Lower folate and B12 and elevated homocysteine in paediatric ADHD cohorts support remethylation strain as a translational context for attention-relevant one-carbon biology; unhealthy dietary patterns linked to lower B vitamins and ADHD burden reinforce pattern-based interpretation. Biology → Phenome Confidence reflects pathway centrality to methylation-dependent neurodevelopment — not dietary treatment efficacy. Direct ADHD attention-outcome trials on folate/B12 remethylation remain limited (biology > evidence gap).
+    references:
+      - index: 1
+        label: Razavinia et al. (2024)
+        citation_key: razavinia_vitamins_2024
+        href: /docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024
+      - index: 2
+        label: Lukovac et al. (2024)
+        citation_key: lukovac_serum_2024
+        href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
+      - index: 3
+        label: Wang et al. (2019)
+        citation_key: wang_dietary_2019
+        href: /docs/papers/BRAIN-Diet-References#wang_dietary_2019
+        data_level: Human Study
+      - index: 4
+        label: Meng et al. (2022)
+        citation_key: meng_association_2022
+        href: /docs/papers/BRAIN-Diet-References#meng_association_2022
+  - target_phenome: Cognitive Clarity
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: observational
+    evidence_confidence: low
+    rationale: Homocysteine lowering with folate and B12 cofactor combinations and B-vitamin cognitive effects contingent on omega-3 status (VITACOG reanalysis) support a nutrient-network read linking remethylation to cognitive clarity context. Framework translation from one-carbon biochemistry — attached refs establish homocysteine modulation and cognitive-decline interaction more than direct ADHD cognitive-clarity outcomes (biology > evidence gap).
+    references:
+      - index: 1
+        label: Collaboration (1998)
+        citation_key: collaboration_lowering_1998
+        href: /docs/papers/BRAIN-Diet-References#collaboration_lowering_1998
+      - index: 2
+        label: Oulhaj et al. (2016)
+        citation_key: oulhaj_omega-3_2016
+        href: /docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016
+      - index: 3
+        label: Lukovac et al. (2024)
+        citation_key: lukovac_serum_2024
+        href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -30,7 +78,13 @@ hide_title: true
 
 ## BRS2-FM1-PM1 - Folate/B12-Dependent Homocysteine Remethylation
 
-## 1. Definition
+## 1. Mission & Overview
+
+### Mission
+
+Recycle homocysteine to methionine through folate and B12 so methyl-donor supply and homocysteine control stay supported.
+
+### Overview
 
 Maintains the body's methylation capacity by recycling homocysteine back into methionine through folate- and vitamin B12-dependent remethylation (the primary one-carbon route for clearing homocysteine). This helps sustain the methyl-donor supply required for many brain and body processes while limiting excessive homocysteine accumulation.
 
@@ -38,15 +92,50 @@ Maintains the body's methylation capacity by recycling homocysteine back into me
 * Helps limit oxidative stress and inflammatory burden associated with elevated homocysteine — Supporting BRS3.
 * Contributes to mitochondrial resilience, cellular repair and metabolic function — Supporting BRS4.
 
-
 ## 2. Primary Biological Effects
 ↓ homocysteine; ↑ methionine regeneration
 
 ## 3. Phenome Connections
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
 
-No direct functional outcome relationship currently mapped.
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Focus / Attention Stability — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low–Medium
+- **Rationale:** Lower folate and B12 and elevated homocysteine in paediatric ADHD cohorts support remethylation strain as a translational context for attention-relevant one-carbon biology; unhealthy dietary patterns linked to lower B vitamins and ADHD burden reinforce pattern-based interpretation. Biology → Phenome Confidence reflects pathway centrality to methylation-dependent neurodevelopment — not dietary treatment efficacy. Direct ADHD attention-outcome trials on folate/B12 remethylation remain limited (biology > evidence gap).
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024","label":"Razavinia et al. (2024)"},{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"},{"href":"/docs/papers/BRAIN-Diet-References#wang_dietary_2019","label":"Wang et al. (2019)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#meng_association_2022","label":"Meng et al. (2022)"}]} />
+- **Evidence Confidence:** Low–Medium
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Cognitive Clarity — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low–Medium
+- **Rationale:** Homocysteine lowering with folate and B12 cofactor combinations and B-vitamin cognitive effects contingent on omega-3 status (VITACOG reanalysis) support a nutrient-network read linking remethylation to cognitive clarity context. Framework translation from one-carbon biochemistry — attached refs establish homocysteine modulation and cognitive-decline interaction more than direct ADHD cognitive-clarity outcomes (biology > evidence gap).
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998","label":"Collaboration (1998)"},{"href":"/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016","label":"Oulhaj et al. (2016)"},{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"}]} />
+- **Evidence Confidence:** Low
+
+</div>
+</div>
+</div>
 
 ## 4. Levers
 
@@ -54,40 +143,87 @@ No direct functional outcome relationship currently mapped.
 
 **Intervention Dominance:** Diet-Dominant
 
-<details>
-<summary><strong>4.1 Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1 Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-<details>
-<summary><strong>4.1.1 Direct Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.1 Direct Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - B12 ← shellfish, dairy, eggs
 - Folate ← leafy greens, legumes
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.2 Cofactors and Supporting Inputs</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.2 Cofactors and Supporting Inputs</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - B2
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.3 KCs (Key Constraints)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - [BRS2(KC1) - One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)
 
-</details>
+**Shared Biological Pool**
 
-</details>
+- Folate-derived one-carbon units
+- Choline
+- Betaine (TMG)
+- Vitamin B12-dependent remethylation substrates
+- Methyl-group donor pools supporting one-carbon transfer
 
-<details>
-<summary><strong>4.2 Lifestyle Levers</strong></summary>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.2 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
 - Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 5. Mechanistic Basis
 
@@ -95,8 +231,13 @@ No direct functional outcome relationship currently mapped.
 
 Maintaining methylation capacity depends first on recycling homocysteine back to methionine through the folate- and B12-dependent remethylation route — the primary enzymatic path that restrains homocysteine accumulation and feeds the methionine pool upstream of SAMe production within [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency).
 
-<details>
-<summary><strong>Folate/B12-dependent homocysteine remethylation — mechanistic detail</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Folate/B12-dependent homocysteine remethylation — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 #### (Folate cycle and remethylation chemistry)
 
@@ -124,7 +265,10 @@ Remethylation efficiency interacts with omega-3 status in human trial re-analyse
 
 This PM is the primary folate/B12 remethylation step within [BRS2(FM1)](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency). It depends on [BRS2(KC1) — One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool) for folate and methyl-donor substrate availability. In the cross-BRS pathway chain, remethylation (this PM) → phospholipid methylation (FM3-PM7) → neuronal DHA incorporation (BRS1-FM3-PM6).
 
-</details>
+</div>
+</div>
+</div>
+
 
 ### 5.1 Evidence Highlights
 
@@ -132,35 +276,81 @@ This PM is the primary folate/B12 remethylation step within [BRS2(FM1)](/docs/bi
 
 Folate- and B12-dependent remethylation is textbook one-carbon biochemistry. The studies below highlight how homocysteine responds in practice, why cofactor combinations matter, and why remethylation should be read as part of a wider nutrient network rather than a single-vitamin intervention.
 
-<details>
-<summary><strong>Evidence highlights — folate/B12 remethylation in practice</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Folate and B12 effects on homocysteine</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-#### (Folate and B12 effects on homocysteine)
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** A meta-analysis of folic-acid supplementation trials found that folate typically lowers plasma homocysteine by approximately 25%; adding B12 produced an additional ~7% reduction beyond folate alone → [Collaboration, 1998] This supports interpreting homocysteine modulation as a cofactor-combination property — folate and B12 are not fully interchangeable in remethylation support.
+- **Key References:**
 
-A meta-analysis of folic-acid supplementation trials found that folate typically lowers plasma homocysteine by approximately 25%; adding B12 produced an additional ~7% reduction beyond folate alone → [Collaboration, 1998]
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998","label":"Collaboration (1998)"}]} />
 
-This supports interpreting homocysteine modulation as a cofactor-combination property — folate and B12 are not fully interchangeable in remethylation support.
+</div>
+</div>
+</div>
 
-#### (B12, omega-3, and combined homocysteine lowering)
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>B12, omega-3, and combined homocysteine lowering</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-In a randomised trial comparing vitamin B-12, fish oil, and combined B-12 + fish oil, plasma homocysteine fell by 22%, 19%, and 39% respectively — the combined arm nearly doubling the B-12-alone effect → [Tao Huang et al., 2015]
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** In a randomised trial comparing vitamin B-12, fish oil, and combined B-12 + fish oil, plasma homocysteine fell by 22%, 19%, and 39% respectively — the combined arm nearly doubling the B-12-alone effect → [Tao Huang et al., 2015] This finding supports reading remethylation alongside connected membrane biology rather than as an isolated B-vitamin pathway.
+- **Key References:**
 
-This finding supports reading remethylation alongside connected membrane biology rather than as an isolated B-vitamin pathway.
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015","label":"Tao Huang et al. (2015)"}]} />
 
-#### (B-vitamin cognitive effects and omega-3 status)
+</div>
+</div>
+</div>
 
-Re-analysis of VITACOG data showed that **B vitamin supplementation slowed cognitive decline only in participants with adequate omega-3 status**; when baseline omega-3 was low, B vitamins had no effect on cognitive decline in mild cognitive impairment → [Oulhaj et al., 2016]
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>B-vitamin cognitive effects and omega-3 status</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-For this PM, the implication is that remethylation support may be necessary but not sufficient where connected membrane and omega-3 context is inadequate — a nutrient-network read rather than a single-pathway claim.
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Re-analysis of VITACOG data showed that **B vitamin supplementation slowed cognitive decline only in participants with adequate omega-3 status**; when baseline omega-3 was low, B vitamins had no effect on cognitive decline in mild cognitive impairment → [Oulhaj et al., 2016] For this PM, the implication is that remethylation support may be necessary but not sufficient where connected membrane and omega-3 context is inadequate — a nutrient-network read rather than a single-pathway claim.
+- **Key References:**
 
-#### (Homocysteine elevation in ADHD-relevant cohorts)
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016","label":"Oulhaj et al. (2016)"}]} />
 
-In a paediatric ADHD cohort, homocysteine was significantly elevated and vitamin B12 significantly reduced compared with healthy controls, with homocysteine emerging as a potential prognostic indicator → [Lukovac et al., 2024]
+</div>
+</div>
+</div>
 
-This does not establish causality for ADHD, but it supports homocysteine as a translational readout of remethylation pathway strain in neurodevelopmental contexts.
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Homocysteine elevation in ADHD-relevant cohorts</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-</details>
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** In a paediatric ADHD cohort, homocysteine was significantly elevated and vitamin B12 significantly reduced compared with healthy controls, with homocysteine emerging as a potential prognostic indicator → [Lukovac et al., 2024] This does not establish causality for ADHD, but it supports homocysteine as a translational readout of remethylation pathway strain in neurodevelopmental contexts.
+- **Key References:**
 
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"}]} />
+
+</div>
+</div>
+</div>
 ## 6. BRS Pathways and Connections
 
 ### 6.1 BRS Pathways
@@ -186,8 +376,13 @@ This does not establish causality for ADHD, but it supports homocysteine as a tr
 
 ## 7. Scoreable Inputs & Modulation Signals
 
-<details>
-<summary><strong>Scoreable Input Categories</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Scoreable Input Categories</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 | Input Category | Example Inputs | PM relevance |
 |---|---|---|
@@ -195,12 +390,17 @@ This does not establish causality for ADHD, but it supports homocysteine as a tr
 | Realised Functional States | consistent_daily_methyl_donor_coverage | May reflect meal-level pathway support. |
 | Preparation Transformations | minimally_processed; whole_food_matrix | May preserve nutrient density for pathway support. |
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 8. References
-
 - [Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
 - [Aragão et al. (2024) — Unveiling Its Timeless Significance in Human Physiology and Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
 - [Tao Huang et al. (2015) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
 - [Oulhaj et al. (2016) — Omega-3 Fatty Acid Status Enhances the Prevention of Cognitive Decline by B](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
 - [Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
+- [Razavinia et al. (2024) — Vitamins B ₉ and B ₁₂ in Children with Attention Deficit Hyperactivity](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024)
+- [Wang et al. (2019) — Path Analysis for a Case-Control Study](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)
+- [Meng et al. (2022) — A Meta-analysis](/docs/papers/BRAIN-Diet-References#meng_association_2022)

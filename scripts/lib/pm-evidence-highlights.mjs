@@ -5,6 +5,12 @@
  * Keys: file basename. Values: { intro, blocks: [{ heading, body }], extraRefs?: [] }
  */
 
+import { BRS5_PM_EVIDENCE } from "../data/brs5-pm-evidence.mjs";
+import { BRS6_PM_EVIDENCE } from "../data/brs6-pm-evidence.mjs";
+import { BRS_X_PM_EVIDENCE } from "../data/brs-x-pm-evidence.mjs";
+
+export { BRS5_PM_EVIDENCE, BRS6_PM_EVIDENCE, BRS_X_PM_EVIDENCE };
+
 export const BRS1_PM_EVIDENCE = {
   "brs1-fm1-pm1-amino-acid-availability-and-prioritisation": {
     intro:
@@ -604,5 +610,8 @@ export function getPmEvidenceMap(brs) {
   if (brs === "BRS1") return BRS1_PM_EVIDENCE;
   if (brs === "BRS3") return BRS3_PM_EVIDENCE;
   if (brs === "BRS4") return BRS4_PM_EVIDENCE;
+  if (brs === "BRS5") return BRS5_PM_EVIDENCE;
+  if (brs === "BRS6") return BRS6_PM_EVIDENCE;
+  if (brs === "BRS-X" || brs === "BRSX") return BRS_X_PM_EVIDENCE;
   return {};
 }

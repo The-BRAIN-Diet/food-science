@@ -22,7 +22,7 @@ const MECH = {
     opening:
       "Diet-actionable control of monoamine precursor supply, LNAA transport bias, and noradrenergic signalling context.",
     clauses:
-      "PM1 governs Amino-Acid Availability & Prioritisation. PM2 governs LAT1 Competitive Transport Modulation. PM5 governs Noradrenergic Signalling (Attention & Executive Modulation).",
+      "PM1 governs Amino-Acid Availability & Prioritisation. PM2 governs LAT1 Competitive Transport Modulation. PM5 governs Noradrenergic Signalling.",
     together:
       "Together, these PMs operationalise BRS1(FM1) as coordinated meal-level control of monoaminergic and related neurotransmitter signalling.",
   },

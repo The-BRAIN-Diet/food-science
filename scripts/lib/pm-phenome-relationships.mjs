@@ -5,6 +5,7 @@
  */
 
 import { enrichReferenceWithDataLevel } from "./reference-data-levels.mjs";
+import { BRS2_PM_PHENOME } from "../data/brs2-pm-phenome.mjs";
 
 function ref(index, label, citation_key) {
   return enrichReferenceWithDataLevel({
@@ -55,6 +56,23 @@ export const BRS3_PM_PHENOME = {
         "Systemic inflammatory signalling may intersect affective regulation framing in neurodevelopmental contexts; this PM governs transcriptional inflammatory tone only—not downstream cytokine phenotypes.",
       references: [ref(1, "Marsland et al. (2017)", "marsland_systemic_2017")],
     }),
+    row({
+      target_phenome: "Apprehensive Worry / Perseverative Thought",
+      confidence: "low-medium",
+      rationale:
+        "Systemic inflammation associates with default-mode network connectivity patterns linked to perseverative thought in translational anxiety/depression framing; NF-κB transcriptional tone is the mechanism boundary.",
+      references: [
+        ref(1, "Marsland et al. (2017)", "marsland_systemic_2017"),
+        ref(2, "Batey et al. (2024)", "batey_lipopolysaccharide_2024"),
+      ],
+    }),
+    row({
+      target_phenome: "Pleasure & Interest Capacity",
+      confidence: "low",
+      rationale:
+        "LPS-linked neurotransmission disruption intersects depressive mood biology in translational reviews; pro-inflammatory transcriptional tone may modulate this context without direct anhedonia-outcome claims.",
+      references: [ref(1, "Batey et al. (2024)", "batey_lipopolysaccharide_2024")],
+    }),
   ],
   "brs3-fm1-pm2-gut-derived-inflammatory-signalling": [
     row({
@@ -83,6 +101,24 @@ export const BRS3_PM_PHENOME = {
       rationale:
         "Low-grade endotoxemia and sustained systemic inflammation correlate with mood instability in translational framing; gut-derived load remains the mechanism boundary for this PM.",
       references: [ref(1, "Mohammad & Thiemermann (2021)", "mohammad_role_2021")],
+    }),
+    row({
+      target_phenome: "Apprehensive Worry / Perseverative Thought",
+      confidence: "low-medium",
+      rationale:
+        "Gut–brain microbiota signalling modulates central GABA receptor expression and anxiety-related behaviour in animal models; gut-derived inflammatory load may intersect apprehensive-worry biology in anxiety/depression comorbidity framing.",
+      references: [
+        ref(1, "Bravo et al. (2011)", "bravo_ingestion_2011"),
+        ref(2, "Mohammad & Thiemermann (2021)", "mohammad_role_2021"),
+      ],
+    }),
+    row({
+      target_phenome: "Social Engagement Capacity",
+      relationship_type: "indirect",
+      confidence: "low",
+      rationale:
+        "Gut–brain GABAergic modulation has been linked to reduced anxiety- and depression-related behaviour in preclinical models; social-engagement outcomes remain indirect translational inference for this gut-inflammatory PM.",
+      references: [ref(1, "Bravo et al. (2011)", "bravo_ingestion_2011")],
     }),
   ],
   "brs3-fm2-pm3-nrf2-are-antioxidant-activation": [
@@ -220,6 +256,24 @@ export const BRS3_PM_PHENOME = {
         "Postprandial inflammatory patterns in ADHD metabolic overlap may modulate cognitive clarity through cytokine-network context rather than single-mechanism claims.",
       references: [ref(1, "Brown et al. (2025)", "brown_associations_2025")],
     }),
+    row({
+      target_phenome: "Apprehensive Worry / Perseverative Thought",
+      confidence: "low-medium",
+      evidence_level: "intervention",
+      rationale:
+        "Omega-3 supplementation lowered anxiety symptoms in stressed medical students alongside inflammatory markers — cytokine-network modulation is the mechanism boundary, not omega-3 as a PM treatment.",
+      references: [
+        ref(1, "Kiecolt-Glaser et al. (2011)", "kiecolt-glaser_omega-3_2011"),
+        ref(2, "Ferguson et al. (2014)", "ferguson_omega3_2014"),
+      ],
+    }),
+    row({
+      target_phenome: "Pleasure & Interest Capacity",
+      confidence: "low",
+      rationale:
+        "Mitochondrial dysfunction is a recurrent theme in depression pathophysiology reviews; cytokine-network inflammatory tone may intersect reward-related mitochondrial biology without direct anhedonia measurement on this PM.",
+      references: [ref(1, "Song et al. (2023)", "song_mitochondrial_2023")],
+    }),
   ],
   "brs3-fm3-pm8-eicosanoid-spm-balance": [
     row({
@@ -249,10 +303,32 @@ export const BRS3_PM_PHENOME = {
         "Resolution-phase lipid mediator balance may intersect attention-relevant inflammatory tone; direct ADHD SPM outcome evidence remains limited.",
       references: [ref(1, "Serhan & Petasis (2011)", "serhan_resolvins_2011")],
     }),
+    row({
+      target_phenome: "Apprehensive Worry / Perseverative Thought",
+      confidence: "low-medium",
+      evidence_level: "intervention",
+      rationale:
+        "Omega-3-derived resolution biology and human RCT evidence for anxiety reduction in stressed adults provide translational support for cytokine-resolution context relevant to apprehensive-worry phenotypes.",
+      references: [
+        ref(1, "Kiecolt-Glaser et al. (2011)", "kiecolt-glaser_omega-3_2011"),
+        ref(2, "Ferguson et al. (2014)", "ferguson_omega3_2014"),
+      ],
+    }),
+    row({
+      target_phenome: "Pleasure & Interest Capacity",
+      confidence: "low",
+      rationale:
+        "Resolution-phase eicosanoid balance may modulate inflammatory tone intersecting reward-processing and depressive biology in translational framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent context.",
+      references: [
+        ref(1, "Ferguson et al. (2014)", "ferguson_omega3_2014"),
+        ref(2, "Gruber et al. (2023)", "gruber_impact_2023"),
+      ],
+    }),
   ],
 };
 
 export function getPmPhenomeMap(brs) {
+  if (brs === "BRS2") return BRS2_PM_PHENOME;
   if (brs === "BRS3") return BRS3_PM_PHENOME;
   return {};
 }

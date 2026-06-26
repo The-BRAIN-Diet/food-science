@@ -1,6 +1,7 @@
 ---
 title: Gut-Derived Inflammatory Signalling
 pm_id: BRS3-FM1-PM2
+mission: Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.
 parent_fm: BRS3(FM1)
 parent_brs: BRS3
 summary: 'Describes inflammatory signalling driven by endotoxin translocation and barrier dysfunction (leakage of bacterial lipopolysaccharide across the gut lining), linking gut ecology to systemic and neural inflammation.'
@@ -24,7 +25,84 @@ references:
   - '[Cavaliere et al. (2022) — Butyrate and Neuroinflammation](/docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022)'
   - '[Grüter et al. (2023) — Propionate and the Blood–Brain Barrier](/docs/papers/BRAIN-Diet-References#gruter_propionate_2023)'
   - '[Hoyles et al. (2018) — Microbiome-Host Cometabolism and Propionate](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)'
+  - '[Bravo et al. (2011) — Ingestion of Lactobacillus Strain Regulates Emotional Behavior and Central GABA Receptor Expression](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)'
 hide_title: true
+phenome_relationships:
+  - target_phenome: Focus / Attention Stability
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: Propionate may stimulate norepinephrine secretion with possible relevance to attention; gut-derived inflammatory load and microbiome shifts correlate with ADHD-relevant gut–brain readouts.
+    references:
+      - index: 1
+        label: Hoyles et al. (2018)
+        citation_key: hoyles_microbiome-host_2018
+        href: /docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018
+        data_level: Mechanistic
+      - index: 2
+        label: Jiang et al. (2018)
+        citation_key: jiang_gut_2018
+        href: /docs/papers/BRAIN-Diet-References#jiang_gut_2018
+        data_level: Human Study
+    evidence_confidence: low-medium
+  - target_phenome: Cognitive Clarity
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: Butyrate and gut-barrier context may reduce neuroinflammation and support brain energy metabolism — translational links to cognitive clarity without direct ADHD treatment-efficacy claims.
+    references:
+      - index: 1
+        label: Yunting Li et al. (2024)
+        citation_key: li_sodium_2024
+        href: /docs/papers/BRAIN-Diet-References#li_sodium_2024
+        data_level: Mechanistic
+      - index: 2
+        label: Grüter et al. (2023)
+        citation_key: gruter_propionate_2023
+        href: /docs/papers/BRAIN-Diet-References#gruter_propionate_2023
+        data_level: Mechanistic
+    evidence_confidence: low-medium
+  - target_phenome: Emotional Regulation
+    relationship_type: modulates
+    confidence: low
+    evidence_level: mechanistic
+    rationale: Low-grade endotoxemia and sustained systemic inflammation correlate with mood instability in translational framing; gut-derived load remains the mechanism boundary for this PM.
+    references:
+      - index: 1
+        label: Mohammad & Thiemermann (2021)
+        citation_key: mohammad_role_2021
+        href: /docs/papers/BRAIN-Diet-References#mohammad_role_2021
+        data_level: Mechanistic
+    evidence_confidence: low
+  - target_phenome: Apprehensive Worry / Perseverative Thought
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: Gut–brain microbiota signalling modulates central GABA receptor expression and anxiety-related behaviour in animal models; gut-derived inflammatory load may intersect apprehensive-worry biology in anxiety/depression comorbidity framing.
+    references:
+      - index: 1
+        label: Bravo et al. (2011)
+        citation_key: bravo_ingestion_2011
+        href: /docs/papers/BRAIN-Diet-References#bravo_ingestion_2011
+        data_level: Animal Data
+      - index: 2
+        label: Mohammad & Thiemermann (2021)
+        citation_key: mohammad_role_2021
+        href: /docs/papers/BRAIN-Diet-References#mohammad_role_2021
+        data_level: Mechanistic
+    evidence_confidence: low-medium
+  - target_phenome: Social Engagement Capacity
+    relationship_type: indirect
+    confidence: low
+    evidence_level: mechanistic
+    rationale: Gut–brain GABAergic modulation has been linked to reduced anxiety- and depression-related behaviour in preclinical models; social-engagement outcomes remain indirect translational inference for this gut-inflammatory PM.
+    references:
+      - index: 1
+        label: Bravo et al. (2011)
+        citation_key: bravo_ingestion_2011
+        href: /docs/papers/BRAIN-Diet-References#bravo_ingestion_2011
+        data_level: Animal Data
+    evidence_confidence: low-medium
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -36,7 +114,15 @@ hide_title: true
 
 ## BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling
 
-## 1. Definition
+(Endotoxin Spillover and Gut Interface Management)
+
+## 1. Mission & Overview
+
+### Mission
+
+Limit gut-derived endotoxin spillover so barrier dysfunction does not drive systemic inflammatory load.
+
+### Overview
 
 Describes inflammatory signalling driven by endotoxin translocation and barrier dysfunction (leakage of bacterial lipopolysaccharide across the gut lining), linking gut ecology to systemic and neural inflammation.
 
@@ -44,15 +130,107 @@ Describes inflammatory signalling driven by endotoxin translocation and barrier 
 * Captures barrier-dysfunction-driven inflammatory spillover — within BRS3.
 * Shapes neural and systemic inflammation context from the gut interface — within BRS3.
 
-
 ## 2. Primary Biological Effects
 ↓ LPS translocation; ↓ neuroinflammatory signalling
 
 ## 3. Phenome Connections
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
 
-No direct functional outcome relationship currently mapped.
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Focus / Attention Stability — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low–Medium
+- **Rationale:** Propionate may stimulate norepinephrine secretion with possible relevance to attention; gut-derived inflammatory load and microbiome shifts correlate with ADHD-relevant gut–brain readouts.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018","label":"Hoyles et al. (2018)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#jiang_gut_2018","label":"Jiang et al. (2018)","dataLevel":"Human Study"}]} />
+- **Evidence Confidence:** Low–Medium
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Cognitive Clarity — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low–Medium
+- **Rationale:** Butyrate and gut-barrier context may reduce neuroinflammation and support brain energy metabolism — translational links to cognitive clarity without direct ADHD treatment-efficacy claims.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#li_sodium_2024","label":"Yunting Li et al. (2024)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#gruter_propionate_2023","label":"Grüter et al. (2023)","dataLevel":"Mechanistic"}]} />
+- **Evidence Confidence:** Low–Medium
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Emotional Regulation — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low
+- **Rationale:** Low-grade endotoxemia and sustained systemic inflammation correlate with mood instability in translational framing; gut-derived load remains the mechanism boundary for this PM.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mohammad_role_2021","label":"Mohammad & Thiemermann (2021)","dataLevel":"Mechanistic"}]} />
+- **Evidence Confidence:** Low
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Apprehensive Worry / Perseverative Thought — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low–Medium
+- **Rationale:** Gut–brain microbiota signalling modulates central GABA receptor expression and anxiety-related behaviour in animal models; gut-derived inflammatory load may intersect apprehensive-worry biology in anxiety/depression comorbidity framing.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011","label":"Bravo et al. (2011)","dataLevel":"Animal Data"},{"href":"/docs/papers/BRAIN-Diet-References#mohammad_role_2021","label":"Mohammad & Thiemermann (2021)","dataLevel":"Mechanistic"}]} />
+- **Evidence Confidence:** Low–Medium
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Social Engagement Capacity — indirect</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low
+- **Rationale:** Gut–brain GABAergic modulation has been linked to reduced anxiety- and depression-related behaviour in preclinical models; social-engagement outcomes remain indirect translational inference for this gut-inflammatory PM.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011","label":"Bravo et al. (2011)","dataLevel":"Animal Data"}]} />
+- **Evidence Confidence:** Low–Medium
+
+</div>
+</div>
+</div>
 
 ## 4. Levers
 
@@ -60,44 +238,93 @@ No direct functional outcome relationship currently mapped.
 
 **Intervention Dominance:** Diet-Dominant
 
-<details>
-<summary><strong>4.1 Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1 Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-<details>
-<summary><strong>4.1.1 Direct Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.1 Direct Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Prebiotic fibres ← legumes, oats, onions, garlic, diverse plant foods
 - Fermented foods ← yogurt, kefir, fermented vegetables
 - Plant-diversity pattern ← varied whole plant foods supporting lower LPS burden
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.2 Cofactors and Supporting Inputs</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.2 Cofactors and Supporting Inputs</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - butyrate support
 - omega-3
 - vitamin A
 - zinc
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.3 KCs (Key Constraints)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability)
 
-</details>
+**Shared Biological Pool**
 
-</details>
+- Polyphenols
+- Vitamin C
+- Antioxidant phytochemicals
+- Cysteine
+- Glycine
+- Glutamate
+- Sulfur amino acids
 
-<details>
-<summary><strong>4.2 Lifestyle Levers</strong></summary>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.2 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Sustained pattern quality matters more than short-term gut-focused additions.
 - Sleep disruption, stress overload, and highly erratic eating may worsen gut-derived inflammatory pressure indirectly.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 5. Mechanistic Basis
 
@@ -105,8 +332,13 @@ No direct functional outcome relationship currently mapped.
 
 Systemic inflammatory tone can be driven partly by gut-derived signals. When barrier integrity weakens, endotoxin and related microbial inputs enter circulation more readily, increasing low-grade inflammatory signalling within [BRS3(FM1) - Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone).
 
-<details>
-<summary><strong>Gut barrier context and inflammatory spillover</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Gut barrier context and inflammatory spillover</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 #### (Endotoxin-linked inflammatory load)
 
@@ -124,7 +356,10 @@ Upstream NF-κB transcriptional control is handled by [BRS3-FM1-PM1 - NF-kB Sign
 
 This PM links gut-derived inputs to inflammatory tone within [BRS3(FM1)](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone), drawing on [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability). Barrier and endotoxin-containment context imported through section 5.3 connected mechanisms conditions translocation load.
 
-</details>
+</div>
+</div>
+</div>
+
 
 
 
@@ -136,8 +371,13 @@ This PM links gut-derived inputs to inflammatory tone within [BRS3(FM1)](/docs/b
 
 The gut–inflammation axis is well established. The studies below highlight endotoxin, microbiome, and SCFA findings that refine how gut-derived inflammatory load is interpreted in practice.
 
-<details>
-<summary><strong>Metabolic endotoxemia and systemic inflammation</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Metabolic endotoxemia and systemic inflammation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -146,10 +386,18 @@ The gut–inflammation axis is well established. The studies below highlight end
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mohammad_role_2021","label":"Mohammad & Thiemermann (2021)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024","label":"Batey et al. (2024)","dataLevel":"Human Mechanistic"}]} />
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>Butyrate and neuroinflammation</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Butyrate and neuroinflammation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -158,10 +406,18 @@ The gut–inflammation axis is well established. The studies below highlight end
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#li_sodium_2024","label":"Yunting Li et al. (2024)","dataLevel":"Mechanistic"}]} />
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>Propionate and blood–brain barrier context</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Propionate and blood–brain barrier context</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -170,7 +426,10 @@ The gut–inflammation axis is well established. The studies below highlight end
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#gruter_propionate_2023","label":"Grüter et al. (2023)","dataLevel":"Mechanistic"}]} />
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 6. BRS Pathways and Connections
 
@@ -194,8 +453,13 @@ The gut–inflammation axis is well established. The studies below highlight end
 
 This PM is scoreable through gut-supportive diversity and lower-endotoxemia pattern signals.
 
-<details>
-<summary><strong>Scoreable Input Categories</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Scoreable Input Categories</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 | Input Category | Example Inputs | PM7 Relevance |
 |---|---|---|
@@ -203,10 +467,12 @@ This PM is scoreable through gut-supportive diversity and lower-endotoxemia patt
 | Realised Functional States | prebiotic_rich_meal; fermented_food_inclusion; diversity_rich_pattern | Reflect practical barrier-supportive states. |
 | Preparation Transformations | minimally_processed_plant_matrix; live_fermented_food_use | May preserve gut-supportive food-state effects. |
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 8. References
-
 - [Mohammad and Thiemermann (2021) — Role of Metabolic Endotoxemia in Systemic Inflammation and Potential Interventions](/docs/papers/BRAIN-Diet-References#mohammad_role_2021)
 - [Batey et al. (2024) — Understanding Implications for Depression](/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024)
 - [Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children with Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)
@@ -215,3 +481,4 @@ This PM is scoreable through gut-supportive diversity and lower-endotoxemia patt
 - [Cavaliere et al. (2022) — Butyrate and Neuroinflammation](/docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022)
 - [Grüter et al. (2023) — Propionate and the Blood–Brain Barrier](/docs/papers/BRAIN-Diet-References#gruter_propionate_2023)
 - [Hoyles et al. (2018) — Microbiome-Host Cometabolism and Propionate](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)
+- [Bravo et al. (2011) — Ingestion of Lactobacillus Strain Regulates Emotional Behavior and Central GABA Receptor Expression](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)

@@ -38,7 +38,7 @@ Structure (exact order, numbered headings):
 5. Connected Mechanisms (#### Functional Mechanisms, #### Primary Mechanisms)
 6. References
 
-Do not include Constraint Stressors / Burdens on KC pages — migrate to linked FM §4.4 Functional Failure Modes.
+Do not include Constraint Stressors / Burdens on KC pages — migrate to linked FM §4.3 Suboptimal Function & Its Effects.
 
 Page header:
 - `### {kc_id} - {name}` above section 1

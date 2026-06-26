@@ -1,6 +1,7 @@
 [
   {
     "path": "brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone.mdx",
+    "mission": "Keep inflammatory signalling intensity in check so pro-inflammatory transcription, cytokines, and gut-derived immune load do not chronically dominate.",
     "translational": "A diet-actionable control point that helps regulate how intensely inflammatory signals fire across cytokine networks, NF-κB transcription (a master switch for pro-inflammatory gene expression), gut-derived inputs, and lipid-mediator pathways.",
     "scientific": "Diet-actionable control point regulating inflammatory signalling intensity across cytokine, NF-kB, gut-derived, and lipid-mediator inputs.",
     "bullets": [
@@ -12,6 +13,7 @@
   },
   {
     "path": "brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
+    "subtitle": "(Cellular Inflammatory Activation)",
     "translational": "Regulates the NF-κB inflammatory transcription pathway (a master regulator of pro-inflammatory gene expression) that drives cytokine and immune-activation programmes.",
     "scientific": "Regulation of the NF-kB inflammatory transcription pathway that drives pro-inflammatory gene expression. This PM captures an upstream inflammatory-control node through which diet can influence transcriptional tone rather than downstream symptom expression alone.",
     "bullets": [
@@ -22,6 +24,7 @@
   },
   {
     "path": "brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
+    "subtitle": "(Endotoxin Spillover and Gut Interface Management)",
     "translational": "Describes inflammatory signalling driven by endotoxin translocation and barrier dysfunction (leakage of bacterial lipopolysaccharide across the gut lining), linking gut ecology to systemic and neural inflammation.",
     "scientific": "Inflammatory signalling driven by endotoxin translocation and barrier dysfunction, linking gut ecology to systemic and neural inflammation. This PM captures inflammatory load entering from the gut interface, where barrier integrity, microbial ecology, and endotoxin burden shape downstream immune signalling.",
     "bullets": [
@@ -32,6 +35,7 @@
   },
   {
     "path": "brs3/fm2/brs3-fm2-antioxidant-defense-capacity.mdx",
+    "mission": "Maintain endogenous and dietary antioxidant protection so oxidative damage and lipid peroxidation stay controlled under everyday metabolic and immune load.",
     "translational": "A functional control point regulating endogenous and dietary antioxidant protection against redox overload, oxidative damage, and lipid peroxidation (oxidative breakdown of membrane fats).",
     "scientific": "Functional control point regulating endogenous and exogenous antioxidant protection against redox overload, oxidative damage, and lipid peroxidation control.",
     "bullets": [
@@ -43,6 +47,7 @@
   },
   {
     "path": "brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
+    "subtitle": "(Activating the Cell's Antioxidant Defence System)",
     "translational": "Activates Nrf2-dependent antioxidant and detoxification gene programmes (endogenous cellular defence switches) that raise cellular protection against oxidative stress.",
     "scientific": "Activation of Nrf2-dependent antioxidant and detoxification gene programs that raise endogenous cellular protection. This PM governs endogenous defence induction rather than exogenous antioxidant supply alone.",
     "bullets": [
@@ -53,6 +58,7 @@
   },
   {
     "path": "brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
+    "subtitle": "(Balancing Oxidative Stress Production and Removal)",
     "translational": "Maintains dynamic balance between reactive oxygen species (ROS) production and neutralisation across immune and metabolic contexts — capturing net redox pressure rather than a single biomarker.",
     "scientific": "Dynamic balance between reactive oxygen species production and neutralization across immune and metabolic contexts. This PM captures net redox pressure as a dynamic balance between generation and clearance.",
     "bullets": [
@@ -63,6 +69,7 @@
   },
   {
     "path": "brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
+    "subtitle": "(Protecting Membrane Fats from Oxidative Damage)",
     "translational": "Protects membrane lipids and polyunsaturated fatty acids from oxidative degradation — where antioxidant availability and lipid quality jointly determine whether vulnerable fatty acids are protected or damaged.",
     "scientific": "Protection of membrane lipids and polyunsaturated fatty acids from oxidative degradation. This PM governs oxidative damage control at the membrane level.",
     "bullets": [
@@ -73,6 +80,7 @@
   },
   {
     "path": "brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
+    "subtitle": "(Recycling the Body's Antioxidant Defences)",
     "translational": "Supports recycling interactions among antioxidant systems that regenerate vitamin and thiol antioxidant capacity (networked regeneration rather than single-compound supply).",
     "scientific": "Recycling interactions among antioxidant systems that regenerate vitamin and thiol antioxidant capacity. This PM governs antioxidant-network recycling and regeneration rather than single-compound antioxidant supply.",
     "bullets": [
@@ -83,6 +91,7 @@
   },
   {
     "path": "brs3/fm3/brs3-fm3-inflammation-resolution-capacity.mdx",
+    "mission": "Enable active termination of inflammation through pro-resolving lipid signals rather than relying on simple immune suppression.",
     "translational": "A functional control point governing active termination of inflammation through pro-resolving lipid mediators (specialised molecules that switch inflammation off) rather than simple suppression of immune activity.",
     "scientific": "Functional control point governing active termination of inflammation through pro-resolving lipid mediators rather than simple suppression.",
     "bullets": [
@@ -94,6 +103,7 @@
   },
   {
     "path": "brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
+    "subtitle": "(Coordinating Immune Signalling Intensity)",
     "translational": "Modulates cytokine signalling tone across IL-6, TNF-α, and CRP-linked inflammatory pathways — governing downstream cytokine intensity rather than upstream transcriptional nodes alone.",
     "scientific": "Modulation of cytokine signalling tone across IL-6, TNF-a, CRP-linked inflammatory pathways. This PM governs downstream cytokine-signalling tone rather than upstream transcriptional nodes or gut-derived endotoxin load.",
     "bullets": [
@@ -104,6 +114,7 @@
   },
   {
     "path": "brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
+    "subtitle": "(Shifting from Pro-Inflammatory to Calming Pro-Resolving Lipid Signals)",
     "translational": "Balances arachidonic-acid-derived inflammatory mediators against EPA/DHA-derived specialised pro-resolving mediators (SPMs) — governing the shift from pro-inflammatory eicosanoids toward active inflammation resolution.",
     "scientific": "Balancing arachidonic-acid-derived inflammatory mediators against EPA/DHA-derived specialized pro-resolving mediators. This PM governs the balance between pro-inflammatory eicosanoids and pro-resolving lipid mediators.",
     "bullets": [

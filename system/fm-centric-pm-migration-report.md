@@ -13,7 +13,7 @@ Generated: 2026-06-08T19:48:19.603Z
 | Old ID | New ID | Title |
 |--------|--------|-------|
 | BRS1(PM1) | BRS1-FM1-PM1 | Amino-Acid Availability & Prioritisation |
-| BRS1(PM5) | BRS1-FM1-PM3 | Noradrenergic Signalling (Attention & Executive Modulation) |
+| BRS1(PM5) | BRS1-FM1-PM3 | Noradrenergic Signalling |
 | BRS1(PM2) | BRS1-FM1-PM2 | LAT1 Competitive Transport Modulation |
 | BRS1(PM3) | BRS1-FM2-PM5 | Acetylcholine Synthesis Support |
 | BRS1(PM4) | BRS1-FM3-PM6 | Neuronal Membrane DHA Incorporation |

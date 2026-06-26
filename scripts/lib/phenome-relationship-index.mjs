@@ -74,6 +74,7 @@ export function collectPmPhenomeRelationships(rootDir = process.cwd()) {
         targetPhenome: String(rel.target_phenome).trim(),
         relationshipType: rel.relationship_type,
         confidence: rel.confidence,
+        evidenceConfidence: rel.evidence_confidence,
         evidenceLevel: rel.evidence_level,
         rationale: rel.rationale,
         references: Array.isArray(rel.references) ? rel.references.map(normalizeReference) : [],

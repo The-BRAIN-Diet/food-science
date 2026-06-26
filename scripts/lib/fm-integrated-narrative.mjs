@@ -10,22 +10,10 @@ import {
   extractEvidenceHighlightsBlock,
   insertFailureModesInSection4,
 } from "./fm-failure-modes.mjs";
+import { FM_NARRATIVE_42_OVERRIDES } from "../data/brs1-3-fm-section4-overrides.mjs";
 
+/** Full §4 overrides for FMs that need custom 4.1 structure beyond PM bullets. */
 const FM_OVERRIDES = {
-  "BRS1(FM3)": `## 4. Mechanistic Basis (Integrated FM Narrative)
-
-Membrane composition, fluidity, and structural lipid integrity represents a framework-relevant biological state anchored principally by neuronal membrane DHA incorporation.
-
-### 4.1 Core Primary Mechanisms
-
-- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation)
-  Brain DHA accretion and incorporation into neuronal membrane phospholipids, supporting membrane fluidity and the structural lipid environment within which neural signalling occurs.
-
-### 4.2 Integrated Functional Narrative
-
-Although BRS1(FM3) is principally operationalised through [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation), the FM represents the broader membrane structural environment within which neuronal communication occurs. Membrane composition influences receptor function, ion-channel behaviour, synaptic transmission, and network signalling competence while interacting with phospholipid metabolism, lipid protection, inflammatory regulation, and downstream lipid-signalling systems.
-
-At the FM level, signalling competence depends on whether phospholipid-carrier delivery, MFSD2A-mediated transport, and habitual membrane enrichment remain adequate over weeks to months—not from isolated bolus exposure or dose alone.`,
   "BRS4(FM1)": `## 4. Mechanistic Basis (Integrated FM Narrative)
 
 Cellular bioenergetics emerges from the coordinated interaction of several primary mechanisms and supporting biological pools.
@@ -159,11 +147,17 @@ At the FM level, performance depends on whether this mechanism, connected system
 At the FM level, performance depends on whether constituent PMs and shared constraint pools remain adequate rather than chronically constrained.`;
 }
 
+function resolveNarrative42(fmData, pms, kcs, legacy) {
+  if (FM_NARRATIVE_42_OVERRIDES[fmData.fm_id]) {
+    return FM_NARRATIVE_42_OVERRIDES[fmData.fm_id];
+  }
+  return defaultIntegratedNarrative(fmData, pms, kcs, legacy);
+}
+
 export function buildIntegratedMechanisticBasis(fmData, oldSection4, rootDir, kcStressorMap = {}) {
   if (FM_OVERRIDES[fmData.fm_id]) {
     const evidence = extractEvidenceHighlightsBlock(oldSection4);
-    const failure =
-      fmData.fm_id === "BRS1(FM3)" ? null : buildFailureModesSection(fmData, kcStressorMap);
+    const failure = buildFailureModesSection(fmData, kcStressorMap);
     const base = FM_OVERRIDES[fmData.fm_id];
     return insertFailureModesInSection4(base, failure, evidence);
   }
@@ -184,15 +178,15 @@ ${buildPmBullets(rootDir, pms)}
 
 ### 4.2 Integrated Functional Narrative
 
-${defaultIntegratedNarrative(fmData, pms, kcs, legacy)}`.trim();
+${resolveNarrative42(fmData, pms, kcs, legacy)}`.trim();
 
   return insertFailureModesInSection4(core, failure, evidence);
 }
 
-export function replaceFmSection4(content, fmData, rootDir) {
+export function replaceFmSection4(content, fmData, rootDir, kcStressorMap = {}) {
   const oldMatch = content.match(/## 4\. Mechanistic Basis[^\n]*\n([\s\S]*?)(?=\n## 5\. Connected Mechanisms)/);
   const oldSection4 = oldMatch ? oldMatch[0] : "";
-  const newSection4 = buildIntegratedMechanisticBasis(fmData, oldSection4, rootDir);
+  const newSection4 = buildIntegratedMechanisticBasis(fmData, oldSection4, rootDir, kcStressorMap);
   if (!oldMatch) return content;
   return content.replace(
     /## 4\. Mechanistic Basis[^\n]*\n[\s\S]*?(?=\n## 5\. Connected Mechanisms)/,

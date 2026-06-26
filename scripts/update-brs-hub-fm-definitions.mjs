@@ -74,8 +74,8 @@ const HUB_CONFIGS = [
     fmPaths: () => listFmFilesForBrsX("ecs"),
     replace: (content, section) =>
       content.replace(
-        /## Functional Mechanisms[\s\S]*?\n---\n\n## Primary Mechanisms/,
-        `${section}---\n\n## Primary Mechanisms`,
+        /## Functional Mechanisms[\s\S]*?\n---\n\n## Specific Mechanisms/,
+        `${section}---\n\n## Specific Mechanisms`,
       ),
   },
   {
@@ -89,7 +89,22 @@ const HUB_CONFIGS = [
   },
 ];
 
+const HUB_NUM_BY_FILE = {
+  "neurotransmitter-regulation.md": "1",
+  "methylation-one-carbon-metabolism.md": "2",
+  "inflammation-oxidative-stress.md": "3",
+  "mitochondrial-function-bioenergetics.md": "4",
+  "gut-brain-axis-enteric-nervous-system.md": "5",
+  "metabolic-neuroendocrine-stress.md": "6",
+};
+
+const brsFilter = process.argv.find((a) => a.startsWith("--brs="))?.split("=")[1];
+
 for (const hub of HUB_CONFIGS) {
+  if (brsFilter) {
+    const hubNum = HUB_NUM_BY_FILE[path.basename(hub.file)];
+    if (hubNum !== brsFilter) continue;
+  }
   const hubPath = path.join(BRS_BASE, hub.file);
   const fmPaths = hub.fmPaths();
   const section = buildFunctionalMechanismsSection(fmPaths);

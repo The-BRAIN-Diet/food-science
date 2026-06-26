@@ -1,31 +1,45 @@
 ---
 title: Emotional Dysregulation — Monoaminergic Interpretation
 sm_id: BRS1(SM-PHEN2)
+mission: 'Interpret emotional reactivity patterns through monoaminergic biology without reducing them to a single transmitter.'
 sm_category: SM-PHEN
 use_case: Emotional dysregulation — BRS1 monoaminergic interpretation lens
 parent_brs: BRS1
 interpreted_phenome:
   id: PH003
   name: Emotional Regulation
+  relationship_type: modulates
+  confidence: medium
+  evidence_confidence: low-medium
+  rationale: 'Connected BRS1 PMs describe amino-acid availability, precursor transport dynamics, and monoaminergic signalling context that may influence emotional reactivity, stress responsiveness, and regulation capacity — as one component of a multi-system phenotype, not as a single-mechanism determinant. Evidence Confidence is low-medium because attached refs establish ADHD emotional-dysregulation and serotonergic context rather than direct dietary intervention outcomes on this SM.'
+  references:
+    - label: Shaw et al. (2014)
+      citation_key: shaw_emotion_2014
+      href: /docs/papers/BRAIN-Diet-References#shaw_emotion_2014
+      data_level: Human Mechanistic
+    - label: Banerjee and Nandagopal (2015)
+      citation_key: banerjee_does_2015
+      href: /docs/papers/BRAIN-Diet-References#banerjee_does_2015
+      data_level: Mechanistic
+    - label: Oades (2010)
+      citation_key: oades_role_2010
+      href: /docs/papers/BRAIN-Diet-References#oades_role_2010
+      data_level: Mechanistic
 interpretation_lens: 'BRS1 monoaminergic precursor, transport, and signalling context'
 summary: 'Helps interpret patterns of emotional reactivity, affective instability, and difficulty maintaining emotional control under stress — a major but often underacknowledged dimension of ADHD. Emotional dysregulation is a functional phenotype pattern, not a single neurotransmitter pathway.'
 connected_pms:
   - id: BRS1-FM1-PM1
     name: Amino-Acid Availability & Prioritisation
-    href: >-
-      /docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation
+    href: /docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation
   - id: BRS1-FM1-PM2
     name: LAT1 Competitive Transport Modulation
-    href: >-
-      /docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation
+    href: /docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation
   - id: BRS1-FM1-PM3
-    name: Noradrenergic Signalling (Attention & Executive Modulation)
-    href: >-
-      /docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation
+    name: Noradrenergic Signalling
+    href: /docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation
   - id: BRS1-FM1-PM4
     name: Serotonergic Signalling Regulation
-    href: >-
-      /docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation
+    href: /docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation
 connected_fms:
   - id: BRS1(FM1)
     name: Monoaminergic Function
@@ -33,22 +47,13 @@ connected_fms:
 connected_kcs:
   - id: BRS1(KC1)
     name: Amino Acid Quality & Competitive Balance
-    href: >-
-      /docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance
+    href: /docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance
 intervention_breakdown: Food-State Leaning
 timing_specific: 'Yes'
 references:
-  - >-
-    [Shaw et al. (2014) — Emotion Dysregulation in Attention Deficit
-    Hyperactivity
-    Disorder](/docs/papers/BRAIN-Diet-References#shaw_emotion_2014)
-  - >-
-    [Banerjee and Nandagopal (2015) — Does Serotonin Deficit Mediate
-    Susceptibility to
-    ADHD?](/docs/papers/BRAIN-Diet-References#banerjee_does_2015)
-  - >-
-    [Oades (2010) — Role of Serotonin in Attention-Deficit Hyperactivity
-    Disorder (ADHD)](/docs/papers/BRAIN-Diet-References#oades_role_2010)
+  - '[Shaw et al. (2014) — Emotion Dysregulation in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#shaw_emotion_2014)'
+  - '[Banerjee and Nandagopal (2015) — Does Serotonin Deficit Mediate Susceptibility to ADHD?](/docs/papers/BRAIN-Diet-References#banerjee_does_2015)'
+  - '[Oades (2010) — Role of Serotonin in Attention-Deficit Hyperactivity Disorder (ADHD)](/docs/papers/BRAIN-Diet-References#oades_role_2010)'
 hide_title: true
 ---
 
@@ -62,7 +67,15 @@ hide_title: true
 
 ## BRS1(SM-PHEN2) - Emotional Dysregulation — Monoaminergic Interpretation
 
-## 1. Definition
+(Reading Emotional Reactivity Through Monoamine Biology)
+
+## 1. Mission & Overview
+
+### Mission
+
+Interpret emotional reactivity patterns through monoaminergic biology without reducing them to a single transmitter.
+
+### Overview
 
 Helps interpret patterns of emotional reactivity, affective instability, and difficulty maintaining emotional control under stress — a major but often underacknowledged dimension of ADHD. Emotional dysregulation is a functional phenotype pattern, not a single neurotransmitter pathway.
 
@@ -70,29 +83,32 @@ Helps interpret patterns of emotional reactivity, affective instability, and dif
 * Links serotonergic and noradrenergic biology to affective stability context — within BRS1.
 * Avoids reducing emotional dysregulation to a single neurotransmitter model — within BRS1.
 
-
 ## 2. Phenome Connections
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
 
-**Registry phenome:** [PH003 — Emotional Regulation](/docs/phenomes/#ph003) — capacity to modulate emotional responses and maintain affective stability.
+**Registry phenome:** [PH003 — Emotional Regulation](/docs/phenomes/#ph003) — see Phenome Registry for the canonical definition.
 
-This page is one **BRS1 interpretation lens** on that phenome (monoaminergic precursor, transport, and signalling context). Other BRS-hosted `SM-PHEN` pages may interpret the same registry phenome from different biology (e.g. inflammatory or gut–brain lenses) without duplicating PM content here.
+This page is one **BRS1 interpretation lens** on that phenome (BRS1 monoaminergic precursor, transport, and signalling context). Other BRS-hosted `SM-PHEN` pages may interpret the same registry phenome from different biology without duplicating PM content here.
 
-<details>
-<summary><strong>Emotional Regulation — modulates (BRS1 monoaminergic lens)</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Emotional Regulation — modulates (BRS1 lens)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-**Confidence:** medium  
-**Evidence level:** observational / mechanistic (translational)  
-**Rationale:** Connected BRS1 PMs describe amino-acid availability, precursor transport dynamics, and monoaminergic signalling context that may influence emotional reactivity, stress responsiveness, and regulation capacity — as one component of a multi-system phenotype, not as a single-mechanism determinant.
+- **Biology → Phenome Confidence:** Medium
+- **Rationale:** Connected BRS1 PMs describe amino-acid availability, precursor transport dynamics, and monoaminergic signalling context that may influence emotional reactivity, stress responsiveness, and regulation capacity — as one component of a multi-system phenotype, not as a single-mechanism determinant. Evidence Confidence is low-medium because attached refs establish ADHD emotional-dysregulation and serotonergic context rather than direct dietary intervention outcomes on this SM.
+- **Key References:**
 
-**Key references:**
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#shaw_emotion_2014","label":"Shaw et al. (2014)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#banerjee_does_2015","label":"Banerjee and Nandagopal (2015)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#oades_role_2010","label":"Oades (2010)","dataLevel":"Mechanistic"}]} />
+- **Evidence Confidence:** Low–Medium
 
-- [Shaw et al., 2014]
-- [Banerjee and Nandagopal, 2015]
-- [Oades, 2010]
-
-</details>
+</div>
+</div>
+</div>
 
 ## 3. Intervention Breakdown
 
@@ -108,8 +124,13 @@ Food-State Leaning
 
 Emotional dysregulation is an **emergent phenotype** rather than the output of a single neurotransmitter system. Within the BRAIN Framework, emotional regulation may be influenced by monoaminergic signalling, stress physiology, inflammatory state, metabolic stability, gut–brain signalling, sleep quality, and broader environmental context. BRS1 contributes **one component** of this biology through amino-acid availability, precursor transport dynamics, and monoaminergic signalling via [BRS1(FM1)](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) and its PM cluster. BRS1(SM-PHEN2) interprets how those mechanisms may contribute to emotional regulation phenotypes **without redefining** the underlying PM biology.
 
-<details>
-<summary><strong>Phenotype interpretation — emotional regulation pattern</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Phenotype interpretation — emotional regulation pattern</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 #### (Emotional reactivity and affective instability)
 
@@ -123,7 +144,10 @@ Stress exposure may narrow emotional control when arousal, metabolic, and monoam
 
 Emotional dysregulation frequently co-occurs with ADHD symptom patterns; monoaminergic biology may contribute but does not fully explain the phenotype → [Shaw et al., 2014] [Banerjee and Nandagopal, 2015] [Oades, 2010]. Use this section for phenotype framing only; therapeutic-area rationale remains on the BRS1 hub.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 6. Underlying Mechanisms and Requirements
 
@@ -140,7 +164,7 @@ Emotional dysregulation frequently co-occurs with ADHD symptom patterns; monoami
 
 - [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
 - [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
-- [BRS1-FM1-PM3 — Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation)
+- [BRS1-FM1-PM3 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation)
 - [BRS1-FM1-PM4 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation)
 
 ### 6.4 Connected Functional Mechanisms (FMs)
@@ -161,8 +185,13 @@ Future BRS3- or BRS5-hosted `SM-PHEN` pages may provide additional interpretatio
 
 ## 7. Dietary Levers
 
-<details>
-<summary><strong>Diet</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Diet</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Tyrosine ← poultry, eggs, dairy
 - Tryptophan ← poultry, eggs, dairy
@@ -173,23 +202,39 @@ Future BRS3- or BRS5-hosted `SM-PHEN` pages may provide additional interpretatio
 - Distributed protein-rich meals with completeness/balance may support amino-acid pool context per [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) and [BRS1(KC1)](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance) (meal-pattern lever).
 - Carbohydrate quality and meal sequencing where glycaemic response may affect monoaminergic transport bias may link to [BRS1-FM1-PM2](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) (meal-pattern lever).
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 8. Lifestyle Levers
 
-<details>
-<summary><strong>Lifestyle</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Lifestyle</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Regular meal timing may support steadier emotional reactivity context across the day.
 - Sleep quality and stress-recovery patterns may influence emotional control capacity under concurrent demand.
 - Physical activity patterns may modulate arousal and autonomic context interacting with emotional regulation phenotypes.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 9. Scoreable Inputs & Modulation Signals
 
-<details>
-<summary><strong>Scoreable Input Categories</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Scoreable Input Categories</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 | Input Category | Example Inputs | SM-PHEN2 relevance |
 |---|---|---|
@@ -198,13 +243,12 @@ Future BRS3- or BRS5-hosted `SM-PHEN` pages may provide additional interpretatio
 | Substance / Nutrient Signals | tyrosine; tryptophan; B6; iron; folate | Substrate and cofactor signals from connected PM1. |
 | Preparation Transformations | complementary_protein_pairing | Improve amino-acid completeness at meals. |
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 10. References
-
 - [Shaw et al. (2014) — Emotion Dysregulation in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#shaw_emotion_2014)
-- [Banerjee and Nandagopal (2015) — Does Serotonin Deficit Mediate Susceptibility to ADHD?](/docs/papers/BRAIN-Diet-References#banerjee_does_2015)
-- [Oades (2010) — Role of Serotonin in Attention-Deficit Hyperactivity Disorder (ADHD)](/docs/papers/BRAIN-Diet-References#oades_role_2010)
-
 - [Banerjee and Nandagopal (2015) — Does Serotonin Deficit Mediate Susceptibility to ADHD?](/docs/papers/BRAIN-Diet-References#banerjee_does_2015)
 - [Oades (2010) — Role of Serotonin in Attention-Deficit Hyperactivity Disorder (ADHD)](/docs/papers/BRAIN-Diet-References#oades_role_2010)

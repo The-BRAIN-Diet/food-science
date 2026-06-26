@@ -61,10 +61,9 @@ Within the BRAIN Diet framework, oysters are a strategic micronutrient-dense opt
 ## Key Nutritional Highlights
 
 - Highest selenium among BRAIN Diet fish and seafood pages (per 100 g).
-- One of the most zinc-dense commonly consumed foods, with very high vitamin B12 density.
+- One of the most zinc-dense commonly consumed foods, with very high vitamin B12 density; zinc levels vary by species and origin.
 - EPA and DHA are present, but amounts vary substantially by species and preparation.
-- Mineral concentrations (especially zinc) vary by source, so species and origin matter.
-- As shellfish, oysters require strict sourcing and handling controls for microbiological safety.
+- As shellfish, oysters require strict sourcing and handling controls for microbiological safety, especially when consumed raw.
 
 ## Food Context
 
@@ -82,15 +81,15 @@ Within the BRAIN Diet framework, oysters are a strategic micronutrient-dense opt
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-## Recipes
-
-<FoodRecipes tag="Oysters" />
-
 <NutritionTable details={frontMatter} />
 
 ## Substances
 
 <FoodSubstancesFromTable details={frontMatter} />
+
+## Recipes
+
+<FoodRecipes tag="Oysters" />
 
 ## References
 

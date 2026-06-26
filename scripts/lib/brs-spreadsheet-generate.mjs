@@ -6,6 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 import matter from "gray-matter";
+import { renderHubCollapsible } from "./hub-collapsible.mjs";
 
 const DOMINANCE_TO_BREAKDOWN = {
   "Diet-Dominant": "Food-State Dominant",
@@ -227,7 +228,7 @@ ${pmBullets}
 
 ${synthesis}
 
-### 4.3 Functional Failure Modes
+### 4.3 Suboptimal Function & Its Effects
 
 Functional failure may arise when linked biological pools are chronically depleted or strained; see linked KC pages for pool definitions and FM-specific failure narrative.`;
 }
@@ -372,14 +373,9 @@ ${pm.outputs || "↑ pathway support (see mechanistic basis)"}
 
 ${pm.description}
 
-<details>
-<summary><strong>${pm.name} — mechanistic detail</strong></summary>
+${renderHubCollapsible(`${pm.name} — mechanistic detail`, `#### (${pm.name})
 
-#### (${pm.name})
-
-${pm.description}${pm.evidence_notes ? ` ${pm.evidence_notes}` : ""}
-
-</details>
+${pm.description}${pm.evidence_notes ? ` ${pm.evidence_notes}` : ""}`)}
 
 ## 5. Connected BRS${brsNum} Mechanisms
 
@@ -411,26 +407,16 @@ ${kcs.map((k) => `- [${k.id} - ${k.name || k.id}](/docs/biological-targets/brs${
 
 ## 8. Lifestyle Levers
 
-<details>
-<summary><strong>Lifestyle</strong></summary>
-
-- Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
-- Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.
-
-</details>
+${renderHubCollapsible("Lifestyle", `- Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
+- Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.`)}
 
 ## 9. Scoreable Inputs & Modulation Signals
 
-<details>
-<summary><strong>Scoreable Input Categories</strong></summary>
-
-| Input Category | Example Inputs | PM relevance |
+${renderHubCollapsible("Scoreable Input Categories", `| Input Category | Example Inputs | PM relevance |
 |---|---|---|
 | Functional Property Potentials | methyl_donor_pattern; sulfur_amino_acid_context; choline_rich_food_matrix | May support ${pm.name.toLowerCase()}. |
 | Realised Functional States | consistent_daily_methyl_donor_coverage | May reflect meal-level pathway support. |
-| Preparation Transformations | minimally_processed; whole_food_matrix | May preserve nutrient density for pathway support. |
-
-</details>
+| Preparation Transformations | minimally_processed; whole_food_matrix | May preserve nutrient density for pathway support. |`)}
 
 ## 10. References
 
@@ -490,7 +476,7 @@ ${fm.outputs || "↑ integrated pathway support"}
 
 ## 3. Phenome Connections
 
-These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Confidence may increase where multiple child PMs converge on the same functional outcome.
+These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Biology → Phenome Confidence reflects biological relevance to each outcome — not proof that diet or lifestyle alone will improve it. Integrated FM confidence may exceed a single child PM only when multiple PMs converge on the same phenome with justified biological uplift (Phase 3 review).
 
 No functional outcome context currently mapped.
 
@@ -572,10 +558,7 @@ The Methylation & One-Carbon Metabolism system regulates methyl donor availabili
 
 One-carbon metabolism connects nutrient intake to epigenetic and neurochemical context; genotype-sensitive pathways (for example MTHFR-related efficiency) may alter how dietary methyl donors are utilised without changing the core FM/PM structure of this BRS.
 
-<details>
-<summary><strong>Methylation & One-Carbon Metabolism Biological Implications</strong></summary>
-
-B vitamins, particularly B6, B2, folate (5-MTHF), and B12, are essential cofactors in the remethylation of homocysteine (Hcy) to methionine, which is subsequently converted to S-adenosylmethionine (SAMe).
+${renderHubCollapsible("Methylation & One-Carbon Metabolism Biological Implications", `B vitamins, particularly B6, B2, folate (5-MTHF), and B12, are essential cofactors in the remethylation of homocysteine (Hcy) to methionine, which is subsequently converted to S-adenosylmethionine (SAMe).
 
 Elevated plasma homocysteine is frequently associated with cognitive and psychiatric contexts; dietary patterns supplying methyl donors, sulfur amino acids, and omega-3 context may support homocysteine modulation and methylation capacity.
 
@@ -583,9 +566,7 @@ Elevated plasma homocysteine is frequently associated with cognitive and psychia
 
 - [Collaboration (1998)](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
 - [Oulhaj et al. (2016)](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
-- [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
-
-</details>
+- [Aragão et al. (2024)](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)`)}
 
 ---
 

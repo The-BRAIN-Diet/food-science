@@ -47,6 +47,52 @@ export type FmConnectedPhenomeRollup = {
   contributing_pms: FmContributingPm[];
 };
 
+export type TherapeuticAreaEntry = {
+  id: string;
+  name: string;
+  slug: string;
+  description: string;
+  status: string;
+  primaryWorkedExample?: boolean;
+};
+
+export type PhenomeLandmarkPaper = {
+  label: string;
+  citation_key?: string;
+  citationKey?: string;
+  href?: string;
+  note?: string;
+};
+
+export type PhenomeCrossReferences = {
+  rdoc_domains?: string[];
+  icf_domains?: string[];
+  promis_measures?: string[];
+  hpo_terms?: string[];
+  dsm_icd_context?: string[];
+};
+
+export type PhenomeProvenance = {
+  frameworkOrigin?: string;
+  developmentNote?: string;
+  relatedPhenomeIds?: string[];
+  benchmarkedFrameworks?: Array<{
+    frameworkId?: string;
+    id?: string;
+    name: string;
+    role?: string;
+    note?: string;
+  }>;
+};
+
+export type PhenomeRegistryEvidence = {
+  construct_landmark_papers?: PhenomeLandmarkPaper[];
+  biology_to_phenome_landmark_papers?: PhenomeLandmarkPaper[];
+  nutrition_to_biology_landmark_papers?: PhenomeLandmarkPaper[];
+};
+
+export type PhenomeEvidenceConfidence = 'low' | 'low-medium' | 'medium' | 'high';
+
 export type PhenomeRegistryEntry = {
   id: string;
   name: string;
@@ -54,7 +100,13 @@ export type PhenomeRegistryEntry = {
   description: string;
   publicSummary: string;
   primaryDomains: string[];
+  therapeuticAreaIds: string[];
   status: string;
+  provenance?: PhenomeProvenance;
+  crossReferences?: PhenomeCrossReferences;
+  evidence?: PhenomeRegistryEvidence;
+  evidence_confidence?: PhenomeEvidenceConfidence;
+  evidence_confidence_note?: string;
 };
 
 export type PhenomeRegistryDiagnostics = {
@@ -92,7 +144,15 @@ export type PhenomeRelationshipIndex = {
 export const phenomeRelationshipIndex = indexJson as PhenomeRelationshipIndex;
 
 export const phenomeRegistry = registryJson as {
-  meta: { version: number; description?: string };
+  meta: {
+    version: number;
+    provenanceSchemaVersion?: number;
+    primaryTherapeuticAreaId?: string;
+    description?: string;
+    phenomeDevelopment?: string;
+    benchmarkedFrameworks?: Array<{ id: string; name: string; role?: string; note?: string }>;
+  };
+  therapeuticAreas: TherapeuticAreaEntry[];
   phenomes: PhenomeRegistryEntry[];
   reviewFlags?: unknown[];
 };
@@ -137,4 +197,12 @@ export function listIndexedPhenomes(): string[] {
 
 export function getPhenomeRegistryEntry(phenomeId: string): PhenomeRegistryEntry | undefined {
   return phenomeRegistry.phenomes.find((p) => p.id === phenomeId);
+}
+
+export function getTherapeuticAreaEntry(taId: string): TherapeuticAreaEntry | undefined {
+  return phenomeRegistry.therapeuticAreas?.find((ta) => ta.id === taId);
+}
+
+export function listTherapeuticAreas(): TherapeuticAreaEntry[] {
+  return [...(phenomeRegistry.therapeuticAreas || [])].sort((a, b) => a.id.localeCompare(b.id));
 }

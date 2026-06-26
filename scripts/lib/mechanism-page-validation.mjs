@@ -5,6 +5,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { HAS_DROPDOWN_RE } from "./hub-collapsible.mjs";
 import matter from "gray-matter";
 import { isLegacyFoodToSubstanceLine } from "./substance-food-mapping.mjs";
 import {
@@ -340,7 +341,7 @@ function validateInterventionProfileInLevers(leversBlock, issues, { entityLabel,
       `${entityLabel}: §4 Intervention Profile must not include Coverage Timing`,
     );
   }
-  const detailsIdx = leversBlock.search(/<details>/i);
+  const detailsIdx = leversBlock.search(HAS_DROPDOWN_RE);
   const profileIdx = leversBlock.search(/###\s+Intervention Profile/i);
   if (detailsIdx !== -1 && profileIdx !== -1 && profileIdx > detailsIdx) {
     pushIssue(
@@ -380,11 +381,15 @@ function validateInterventionSummaryStructure(block, issues, { entityLabel }) {
     );
   }
   for (const title of ["Supporting Levers", "Complementary Levers"]) {
+    const hubRe = new RegExp(
+      `data-brs-fm-hub[\\s\\S]*?<strong>${title}</strong>[\\s\\S]*?<div class="brs-fm-hub-panel" hidden>\\s*\\n\\n([\\s\\S]*?)</div>`,
+      "i",
+    );
     const detailsRe = new RegExp(
       `<details>\\s*<summary><strong>${title}</strong></summary>([\\s\\S]*?)</details>`,
       "i",
     );
-    const match = block.match(detailsRe);
+    const match = block.match(hubRe) || block.match(detailsRe);
     if (!match) continue;
     const inner = match[1]
       .trim()
@@ -398,9 +403,13 @@ function validateInterventionSummaryStructure(block, issues, { entityLabel }) {
       );
     }
   }
-  if (/^##\s+3\.\s+Intervention Summary\s*[\s\S]*?###\s+Foundational Levers\s*[\s\S]*?<details>/m.test(block)) {
-    const beforeDetails = block.split(/<details>/i)[0];
-    if (/<details>/i.test(beforeDetails.replace(/^##\s+3\.\s+Intervention Summary\s*/m, ""))) {
+  if (
+    /^##\s+3\.\s+Intervention Summary\s*[\s\S]*?###\s+Foundational Levers\s*[\s\S]*?(?:<details>|data-brs-fm-hub)/m.test(
+      block,
+    )
+  ) {
+    const beforeDetails = block.split(HAS_DROPDOWN_RE)[0];
+    if (HAS_DROPDOWN_RE.test(beforeDetails.replace(/^##\s+3\.\s+Intervention Summary\s*/m, ""))) {
       pushIssue(
         issues,
         "intervention_summary_layout",
@@ -627,7 +636,7 @@ function validateEvidenceHighlightsPlacement(content, sections, issues, { entity
     pushIssue(
       issues,
       "fm_evidence_highlights_subsection",
-      `${entityLabel}: on FM pages use ### 4.4 Evidence Highlights (§4.3 is Functional Failure Modes)`,
+      `${entityLabel}: on FM pages use ### 4.4 Evidence Highlights (§4.3 is Suboptimal Function & Its Effects)`,
     );
   }
 }
@@ -730,14 +739,14 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
     pushIssue(
       issues,
       "fm_forbidden_kc_subsection",
-      `${entityLabel}: remove ### 4.2 Supporting Biological Pools (Key Constraints); KC context belongs in front matter and §4.3 Functional Failure Modes`,
+      `${entityLabel}: remove ### 4.2 Supporting Biological Pools (Key Constraints); KC context belongs in front matter and §4.3 Suboptimal Function & Its Effects`,
     );
   }
 
   for (const [sub, label] of [
     ["4.1 Core Primary Mechanisms", "§4.1 Core Primary Mechanisms"],
     ["4.2 Integrated Functional Narrative", "§4.2 Integrated Functional Narrative"],
-    ["4.3 Functional Failure Modes", "§4.3 Functional Failure Modes"],
+    ["4.3 Suboptimal Function & Its Effects", "§4.3 Suboptimal Function & Its Effects"],
   ]) {
     const subPattern = sub.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     if (mechanistic && !new RegExp(`^### ${subPattern}`, "m").test(mbBlock)) {
@@ -750,19 +759,19 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
   }
 
   const hasKcs = Array.isArray(data.key_constraints) && data.key_constraints.length > 0;
-  if (hasKcs && mechanistic && !/^### 4\.3 Functional Failure Modes/m.test(mbBlock)) {
+  if (hasKcs && mechanistic && !/^### 4\.3 Suboptimal Function & Its Effects/m.test(mbBlock)) {
     pushIssue(
       issues,
       "fm_missing_failure_modes",
-      `${entityLabel}: §4 must include ### 4.3 Functional Failure Modes when key_constraints are linked`,
+      `${entityLabel}: §4 must include ### 4.3 Suboptimal Function & Its Effects when key_constraints are linked`,
     );
   }
 
-  if (/^### 4\.4 Evidence Highlights/m.test(mbBlock) && !/^### 4\.3 Functional Failure Modes/m.test(mbBlock)) {
+  if (/^### 4\.4 Evidence Highlights/m.test(mbBlock) && !/^### 4\.3 Suboptimal Function & Its Effects/m.test(mbBlock)) {
     pushIssue(
       issues,
       "fm_missing_failure_modes",
-      `${entityLabel}: canonical §4 requires ### 4.3 Functional Failure Modes before ### 4.4 Evidence Highlights`,
+      `${entityLabel}: canonical §4 requires ### 4.3 Suboptimal Function & Its Effects before ### 4.4 Evidence Highlights`,
     );
   }
 
@@ -770,7 +779,7 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
     pushIssue(
       issues,
       "fm_evidence_highlights_subsection",
-      `${entityLabel}: move Evidence Highlights to ### 4.4 Evidence Highlights (§4.3 is Functional Failure Modes)`,
+      `${entityLabel}: move Evidence Highlights to ### 4.4 Evidence Highlights (§4.3 is Suboptimal Function & Its Effects)`,
     );
   }
 
@@ -783,9 +792,22 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
   }
 }
 
+/** §1 may use legacy Definition or Mission & Overview (BRS1–BRS3 FM / PM / SM). */
+const SECTION1_TITLES = new Set(["Definition", "Mission & Overview"]);
+
+function isValidSection1Title(title) {
+  return SECTION1_TITLES.has(normalizeSectionTitle(title));
+}
+
+/** @deprecated use isValidSection1Title */
+function isValidFmSection1Title(title) {
+  return isValidSection1Title(title);
+}
+
 /** FM extended public contract (no Intervention Breakdown body section; no Timing Specific body section). */
 const FM_EXTENDED_SECTION_TITLES = [
   "Definition",
+  "Mission & Overview",
   PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE,
   FM_PHENOME_CONNECTIONS_SECTION_TITLE,
   "Mechanistic Basis (Integrated FM Narrative)",
@@ -922,8 +944,8 @@ function validateFmPage(filePath, { rootDir }) {
     const t3 = normalizeSectionTitle(numbered[3]?.title || "");
     const t4 = normalizeSectionTitle(numbered[4]?.title || "");
     const t5 = normalizeSectionTitle(numbered[5]?.title || "");
-    if (t0 !== "Definition") {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §1 must be Definition`);
+    if (!isValidSection1Title(t0)) {
+      pushIssue(issues, "fm_section_order", `${entityLabel}: §1 must be Definition or Mission & Overview`);
     }
     if (t1 !== PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE) {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §2 must be ${PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE}`);
@@ -1120,8 +1142,8 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
   );
   if (core.length >= 4) {
     const titles = core.slice(0, 7).map((s) => normalizeSectionTitle(s.title));
-    if (titles[0] !== "Definition") {
-      pushIssue(issues, "overlay_section_order", `${entityLabel}: §1 must be Definition`);
+    if (!isValidSection1Title(titles[0])) {
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: §1 must be Definition or Mission & Overview`);
     }
     if (titles[1] !== PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE) {
       pushIssue(issues, "overlay_section_order", `${entityLabel}: §2 must be ${PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE}`);
@@ -1273,7 +1295,7 @@ function validateKcPage(filePath) {
     pushIssue(
       issues,
       "kc_stressor_section_removed",
-      `${entityLabel}: remove ### 6. Constraint Stressors / Burdens — migrate stressors to linked FM §4.4 Functional Failure Modes`,
+      `${entityLabel}: remove ### 6. Constraint Stressors / Burdens — migrate stressors to linked FM §4.3 Suboptimal Function & Its Effects`,
     );
   }
 

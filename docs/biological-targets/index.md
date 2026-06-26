@@ -141,8 +141,13 @@ Some biological systems operate across multiple BRSs simultaneously and cannot b
 
 </div>
 
-<details>
-<summary><strong>How the BRAIN Framework Models Biology</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How the BRAIN Framework Models Biology</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 The BRAIN Framework draws conceptually on Metabolic Control Analysis [Kacser and Burns, 1973], constraint-based biology [Orth et al., 2010], and allostatic physiology [Sterling and Eyer, 1988][McEwen, 2006]. MCA supports the idea that biological control is distributed across networks rather than governed by single rate-limiting steps [Kacser and Burns, 1973]. Constraint-based models show that biological systems operate within feasible state spaces shaped by substrate, energetic, enzymatic, and resource-allocation limits [Orth et al., 2010]. Allostasis and allostatic load describe regulatory capacity dynamically allocated under adaptive, behavioural, and environmental pressures, with cumulative cost when stress-mediator systems are chronically overactive or poorly regulated [Sterling and Eyer, 1988][McEwen, 2006]. Together, these ideas support the framework’s hierarchy of KCs as shared feasibility conditions, PMs as operational biological mechanisms, FMs as integrated biological states, and SMs as context-dependent expressions of those states [Kacser and Burns, 1973][Orth et al., 2010][Sterling and Eyer, 1988][McEwen, 2006].
 
@@ -150,7 +155,10 @@ Biological effects rarely arise from a single nutrient, pathway, or control poin
 
 Viewed this way, the framework is not intended to divide biology into separate boxes. It is a structured way of understanding how shared constraints, distributed regulation, integrated biological states, and context-specific expression interact across the six systems that contribute to our brain and overall health.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## References
 

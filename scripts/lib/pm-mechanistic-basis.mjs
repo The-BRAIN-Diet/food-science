@@ -12,6 +12,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { renderHubCollapsible } from "./hub-collapsible.mjs";
 
 export const MECHANISTIC_PLACEHOLDER_PATTERNS = [
   /^Truth-layer PM\b/i,
@@ -83,6 +84,17 @@ export function extractSection5(content) {
 }
 
 export function extractDetailsBody(section5Block) {
+  const hubIdx = section5Block.indexOf("data-brs-fm-hub");
+  if (hubIdx !== -1) {
+    const panelStart = section5Block.indexOf('<div class="brs-fm-hub-panel"', hubIdx);
+    if (panelStart !== -1) {
+      const panelOpen = section5Block.indexOf(">", panelStart) + 1;
+      const panelClose = section5Block.indexOf("</div>\n</div>\n</div>", panelOpen);
+      if (panelClose !== -1) {
+        return section5Block.slice(panelOpen, panelClose).trim();
+      }
+    }
+  }
   const open = section5Block.indexOf("<details>");
   if (open === -1) return "";
   const close = section5Block.indexOf("</details>", open);
@@ -192,12 +204,7 @@ export function buildMechanisticBasisMarkdown(spec, sectionNum = 4) {
 
 ${spec.summary.trim()}
 
-<details>
-<summary><strong>${spec.detailsTitle}</strong></summary>
-
-${blocks}${closing}
-
-</details>
+${renderHubCollapsible(spec.detailsTitle, `${blocks}${closing}`)}
 `;
 }
 

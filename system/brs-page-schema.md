@@ -55,7 +55,7 @@ Hub sections must not restate the BRS title or Overview at the start of Function
 ## Functional Mechanisms
 
 - Short framing sentence describing FMs as integrated biological states and principal biological targets of the framework (see `system/brain-diet-ontology-rules.md` §1.2).
-- Each published FM is rendered as a `<details>` dropdown: summary line, FM page link, primary biological effects, modulation metadata, child PM links, linked KCs, and connected mechanisms rolled up from the FM page.
+- Each published FM is rendered as a collapsible block (`data-brs-fm-hub`): FM title button toggles the extended panel; **child PM links remain visible beneath the title** when collapsed (native `<details>` cannot do this — see `src/client/brsFmHubDropdown.ts`).
 - Regenerate hub FM blocks with `npm run brs:update-hub-fms` after FM front matter or §5 Connected Mechanisms change.
 
 ## Core Functional Mechanisms

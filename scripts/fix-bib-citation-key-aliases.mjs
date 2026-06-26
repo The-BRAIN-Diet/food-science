@@ -52,6 +52,8 @@ const ALIASES = {
   kaplan_duckweed_2019: "kaplan_protein_2019",
   pawlak_vitamin_2013: "pawlak_how_2013",
   kramer_chamomile_2024: "kramer_apigenin_2024",
+  hackett_symptomatic_benefits_testosterone_treatment_2023:
+    "hudson_symptomatic_benefits_testosterone_treatment_2023",
 };
 
 function walk(dir, files = []) {

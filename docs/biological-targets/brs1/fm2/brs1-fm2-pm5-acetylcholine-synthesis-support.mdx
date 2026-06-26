@@ -1,9 +1,12 @@
 ---
 title: Acetylcholine Synthesis Support
 pm_id: BRS1-FM2-PM5
+mission: 'Convert dietary choline into acetylcholine so learning, working memory, and attention-focused signalling stay supplied.'
 parent_fm: BRS1(FM2)
 parent_brs: BRS1
 summary: 'Supports attention, working memory, and cognitive precision by helping the brain convert dietary choline into acetylcholine (the principal cholinergic neurotransmitter). Choline-rich foods provide the substrate for a signalling system central to learning and focus.'
+key_constraints:
+  - BRS2(KC1) - One-Carbon Donor Pool
 cofactors:
   - B5
   - B12
@@ -12,6 +15,41 @@ intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
 dose_sensitivity: ~200–400 mg choline per meal when targeted
+phenome_relationships:
+  - target_phenome: Focus / Attention Stability
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: 'Johansson et al. (2013) report decreased muscarinic acetylcholine receptor binding in boys with ADHD, supporting cholinergic biology relevant to attention in ADHD populations. Derbyshire and Maes (2023) review low choline intake and altered choline status in neurodevelopmental disorders including ADHD. This PM governs dietary choline substrate for acetylcholine synthesis—not direct choline supplementation outcome claims.'
+    references:
+      - index: 1
+        label: Johansson et al. (2013)
+        citation_key: johansson_decreased_2013
+        href: /docs/papers/BRAIN-Diet-References#johansson_decreased_2013
+        data_level: Human Mechanistic
+      - index: 2
+        label: Derbyshire et al. (2023)
+        citation_key: derbyshire_role_2023
+        href: /docs/papers/BRAIN-Diet-References#derbyshire_role_2023
+        data_level: Human Study
+    evidence_confidence: low-medium
+  - target_phenome: Cognitive Clarity
+    relationship_type: modulates
+    confidence: medium
+    evidence_level: mechanistic
+    rationale: 'Acetylcholine synthesis is a major contributory determinant of cholinergic cognitive precision and working-memory biology; impaired synthesis capacity would be expected to affect Cognitive Clarity as a direct biological consequence. Primary refs establish choline substrate and neurodevelopmental cholinergic context (Derbyshire et al., 2023; Briguglio et al., 2018) without direct cognitive-clarity outcome measurement on this PM.'
+    references:
+      - index: 1
+        label: Derbyshire et al. (2023)
+        citation_key: derbyshire_role_2023
+        href: /docs/papers/BRAIN-Diet-References#derbyshire_role_2023
+        data_level: Human Study
+      - index: 2
+        label: Briguglio et al. (2018)
+        citation_key: briguglio_dietary_2018
+        href: /docs/papers/BRAIN-Diet-References#briguglio_dietary_2018
+        data_level: Human Study
+    evidence_confidence: low
 references:
   - '[Derbyshire et al. (2023) — Role of Choline in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)'
   - '[Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)'
@@ -29,7 +67,15 @@ hide_title: true
 
 ## BRS1-FM2-PM5 - Acetylcholine Synthesis Support
 
-## 1. Definition
+(Choline supported neurotransmission for learning and focus)
+
+## 1. Mission & Overview
+
+### Mission
+
+Convert dietary choline into acetylcholine so learning, working memory, and attention-focused signalling stay supplied.
+
+### Overview
 
 Supports attention, working memory, and cognitive precision by helping the brain convert dietary choline into acetylcholine (the principal cholinergic neurotransmitter). Choline-rich foods provide the substrate for a signalling system central to learning and focus.
 
@@ -37,15 +83,50 @@ Supports attention, working memory, and cognitive precision by helping the brain
 * Supports attention and working-memory cholinergic signalling — within BRS1.
 * Draws on choline and phospholipid substrates that intersect membrane chemistry — Supporting BRS2.
 
-
 ## 2. Primary Biological Effects
 ↑ acetylcholine synthesis support; ↑ choline availability
 
 ## 3. Phenome Connections
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
 
-No direct functional outcome relationship currently mapped.
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Focus / Attention Stability — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low–Medium
+- **Rationale:** Johansson et al. (2013) report decreased muscarinic acetylcholine receptor binding in boys with ADHD, supporting cholinergic biology relevant to attention in ADHD populations. Derbyshire and Maes (2023) review low choline intake and altered choline status in neurodevelopmental disorders including ADHD. This PM governs dietary choline substrate for acetylcholine synthesis—not direct choline supplementation outcome claims.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#johansson_decreased_2013","label":"Johansson et al. (2013)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire et al. (2023)","dataLevel":"Human Study"}]} />
+- **Evidence Confidence:** Low–Medium
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Cognitive Clarity — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Medium
+- **Rationale:** Acetylcholine synthesis is a major contributory determinant of cholinergic cognitive precision and working-memory biology; impaired synthesis capacity would be expected to affect Cognitive Clarity as a direct biological consequence. Primary refs establish choline substrate and neurodevelopmental cholinergic context (Derbyshire et al., 2023; Briguglio et al., 2018) without direct cognitive-clarity outcome measurement on this PM.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire et al. (2023)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018","label":"Briguglio et al. (2018)","dataLevel":"Human Study"}]} />
+- **Evidence Confidence:** Low
+
+</div>
+</div>
+</div>
 
 ## 4. Levers
 
@@ -53,35 +134,89 @@ No direct functional outcome relationship currently mapped.
 
 **Intervention Dominance:** Diet-Dominant
 
-<details>
-<summary><strong>4.1 Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1 Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-<details>
-<summary><strong>4.1.1 Direct Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.1 Direct Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Choline ← eggs, liver, beef
 - Phosphatidylcholine ← eggs
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.2 Cofactors and Supporting Inputs</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.2 Cofactors and Supporting Inputs</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - B5
 - B12
 - folate
 
-</details>
+</div>
+</div>
+</div>
 
-</details>
 
-<details>
-<summary><strong>4.2 Lifestyle Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.3 KCs (Key Constraints)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- [BRS2(KC1) - One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)
+
+**Shared Biological Pool**
+
+- Folate-derived one-carbon units
+- Choline
+- Betaine (TMG)
+- Vitamin B12-dependent remethylation substrates
+- Methyl-group donor pools supporting one-carbon transfer
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.2 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Meal timing and circadian-aligned eating may influence precursor transport and neurotransmitter bias.
 - Physical activity and stress recovery practices may modulate catecholamine and autonomic context where listed in interventions.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 5. Mechanistic Basis
 
@@ -89,8 +224,13 @@ No direct functional outcome relationship currently mapped.
 
 Cholinergic signalling for attention, memory, and cognitive control depends on adequate acetylcholine synthesis capacity. Dietary choline provides the primary substrate for that pathway within [BRS1(FM2) - Cholinergic Function](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function), with one-carbon cofactor context supporting efficient utilisation.
 
-<details>
-<summary><strong>Choline supply and acetylcholine synthesis — mechanistic detail</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Choline supply and acetylcholine synthesis — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 #### (Choline as acetylcholine substrate)
 
@@ -112,7 +252,10 @@ Amino-acid pool sufficiency and completeness are handled upstream by [BRS1-FM1-P
 
 This PM operationalises cholinergic substrate support within [BRS1(FM2)](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function). One-carbon cofactor sufficiency is supported through [BRS2](/docs/biological-targets/methylation-one-carbon-metabolism) mechanisms listed in section 7.2.
 
-</details>
+</div>
+</div>
+</div>
+
 
 
 
@@ -125,8 +268,13 @@ This PM operationalises cholinergic substrate support within [BRS1(FM2)](/docs/b
 
 The choline–acetylcholine substrate pathway is well established. The studies below highlight intake and food-matrix findings that refine how cholinergic substrate support is interpreted in practice.
 
-<details>
-<summary><strong>Population choline intake adequacy</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Population choline intake adequacy</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -135,10 +283,18 @@ The choline–acetylcholine substrate pathway is well established. The studies b
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire et al. (2023)","dataLevel":"Human Mechanistic"}]} />
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>Dietary choline in food-matrix neurobiology</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary choline in food-matrix neurobiology</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -147,10 +303,18 @@ The choline–acetylcholine substrate pathway is well established. The studies b
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018","label":"Briguglio et al. (2018)","dataLevel":"Human Study"}]} />
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>Dietary choline as pattern-based substrate support</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary choline as pattern-based substrate support</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -159,7 +323,10 @@ The choline–acetylcholine substrate pathway is well established. The studies b
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire et al. (2023)","dataLevel":"Human Mechanistic"}]} />
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 6. BRS Pathways and Connections
 
@@ -173,14 +340,19 @@ The choline–acetylcholine substrate pathway is well established. The studies b
 
 ### 6.3 Connected Primary Mechanisms
 
-- [BRS1(FM2) - Cholinergic Function (Attention & Cognitive Precision)](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function)
+- [BRS1(FM2) - Cholinergic Function](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function)
 
 ## 7. Scoreable Inputs & Modulation Signals
 
 This PM is scoreable through food-state and nutrient signals relevant to acetylcholine synthesis support.
 
-<details>
-<summary><strong>Scoreable Input Categories</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Scoreable Input Categories</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 | Input Category | Example Inputs | PM3 Relevance |
 |---|---|---|
@@ -188,10 +360,12 @@ This PM is scoreable through food-state and nutrient signals relevant to acetylc
 | Realised Functional States | choline_forward_meal; egg_or_liver_inclusive_meal | Represent recipe-level cholinergic substrate states. |
 | Preparation Transformations | minimally_processed_sources; gentle_cooking_of_choline_foods | May preserve choline and phospholipid matrix effects. |
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 8. References
-
 - [Derbyshire et al. (2023) — Role of Choline in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
 - [Briguglio et al. (2018) — A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)
 - [Johansson et al. (2013) — Decreased Muscarinic Acetylcholine Receptor Binding in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013)

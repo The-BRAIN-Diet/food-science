@@ -25,7 +25,7 @@ export function stripFmInterventionAndKcSections(content) {
 
   body = body
     .replace(/\n### 5\.5 Evidence Highlights/g, "\n### __TMP_FM_EVIDENCE__")
-    .replace(/\n### 5\.4 Functional Failure Modes/g, "\n### 4.3 Functional Failure Modes")
+    .replace(/\n### 5\.4 Suboptimal Function & Its Effects/g, "\n### 4.3 Suboptimal Function & Its Effects")
     .replace(/\n### 5\.3 Integrated Functional Narrative/g, "\n### 4.2 Integrated Functional Narrative")
     .replace(/\n### 5\.1 Core Primary Mechanisms/g, "\n### 4.1 Core Primary Mechanisms")
     .replace(/\n### __TMP_FM_EVIDENCE__/g, "\n### 4.4 Evidence Highlights");

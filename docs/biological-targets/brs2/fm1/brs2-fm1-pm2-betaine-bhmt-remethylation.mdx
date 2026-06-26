@@ -1,6 +1,7 @@
 ---
 title: Betaine/BHMT Remethylation
 pm_id: BRS2-FM1-PM2
+mission: Provide a parallel homocysteine clearance route so methionine and SAMe supply remain resilient when folate demand is high.
 parent_fm: BRS2(FM1)
 parent_brs: BRS2
 summary: 'Provides a parallel route for clearing homocysteine and keeping methyl donors available when folate-pathway demands are high or constrained, via betaine-dependent remethylation through the BHMT enzyme (betaine–homocysteine methyltransferase). Betaine- and choline-rich dietary patterns help maintain methylation resilience under increased one-carbon load.'
@@ -16,7 +17,45 @@ references:
   - '[Tao Huang et al. (2015) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)'
   - '[Olthof et al. (2003) — Low Dose Betaine Supplementation Leads to Immediate and Long Term Lowering of Plasma Homocysteine](/docs/papers/BRAIN-Diet-References#olthof_low_2003)'
   - '[Derbyshire and Maes (2023) — Role of Choline in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)'
+  - '[Millichap and Yee (2012) — Diet Factor in Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#millichap_diet_2012)'
 hide_title: true
+phenome_relationships:
+  - target_phenome: Focus / Attention Stability
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: observational
+    evidence_confidence: low-medium
+    rationale: 'Dietary patterns rich in folate, fibre, and methyl-donor nutrients associated with reduced ADHD symptoms intersect betaine/choline remethylation routes; choline implicated across neurodevelopmental disorders including ADHD. BHMT-mediated homocysteine clearance is established biochemistry — ADHD attention-outcome evidence for betaine supplementation specifically remains sparse (biology > evidence gap).'
+    references:
+      - index: 1
+        label: Millichap and Yee (2012)
+        citation_key: millichap_diet_2012
+        href: /docs/papers/BRAIN-Diet-References#millichap_diet_2012
+      - index: 2
+        label: Olthof et al. (2003)
+        citation_key: olthof_low_2003
+        href: /docs/papers/BRAIN-Diet-References#olthof_low_2003
+      - index: 3
+        label: Derbyshire and Maes (2023)
+        citation_key: derbyshire_role_2023
+        href: /docs/papers/BRAIN-Diet-References#derbyshire_role_2023
+        data_level: Human Mechanistic
+  - target_phenome: Cognitive Clarity
+    relationship_type: indirect
+    confidence: low
+    evidence_level: mechanistic
+    evidence_confidence: low
+    rationale: Betaine lowers homocysteine acutely and choline supports parallel remethylation and downstream membrane chemistry — an indirect framework translation to cognitive clarity through methyl-donor sufficiency rather than measured cognitive outcomes in ADHD cohorts.
+    references:
+      - index: 1
+        label: Olthof et al. (2003)
+        citation_key: olthof_low_2003
+        href: /docs/papers/BRAIN-Diet-References#olthof_low_2003
+      - index: 2
+        label: Derbyshire and Maes (2023)
+        citation_key: derbyshire_role_2023
+        href: /docs/papers/BRAIN-Diet-References#derbyshire_role_2023
+        data_level: Human Mechanistic
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -28,7 +67,15 @@ hide_title: true
 
 ## BRS2-FM1-PM2 - Betaine/BHMT Remethylation
 
-## 1. Definition
+(Secondary Homocysteine clearance route for Methionine and SAMe Support)
+
+## 1. Mission & Overview
+
+### Mission
+
+Provide a parallel homocysteine clearance route so methionine and SAMe supply remain resilient when folate demand is high.
+
+### Overview
 
 Provides a parallel route for clearing homocysteine and keeping methyl donors available when folate-pathway demands are high or constrained, via betaine-dependent remethylation through the BHMT enzyme (betaine–homocysteine methyltransferase). Betaine- and choline-rich dietary patterns help maintain methylation resilience under increased one-carbon load.
 
@@ -36,15 +83,50 @@ Provides a parallel route for clearing homocysteine and keeping methyl donors av
 * Helps sustain phospholipid and membrane methylation chemistry downstream — Supporting BRS1.
 * Contributes to homocysteine control linked to oxidative and inflammatory stress — Supporting BRS3.
 
-
 ## 2. Primary Biological Effects
 ↑ alternative homocysteine clearance; ↑ methionine regeneration; ↑ SAMe support; ↑ methylation resilience
 
 ## 3. Phenome Connections
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
 
-No direct functional outcome relationship currently mapped.
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Focus / Attention Stability — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low–Medium
+- **Rationale:** Dietary patterns rich in folate, fibre, and methyl-donor nutrients associated with reduced ADHD symptoms intersect betaine/choline remethylation routes; choline implicated across neurodevelopmental disorders including ADHD. BHMT-mediated homocysteine clearance is established biochemistry — ADHD attention-outcome evidence for betaine supplementation specifically remains sparse (biology > evidence gap).
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#millichap_diet_2012","label":"Millichap and Yee (2012)"},{"href":"/docs/papers/BRAIN-Diet-References#olthof_low_2003","label":"Olthof et al. (2003)"},{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire and Maes (2023)","dataLevel":"Human Mechanistic"}]} />
+- **Evidence Confidence:** Low–Medium
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Cognitive Clarity — indirect</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low
+- **Rationale:** Betaine lowers homocysteine acutely and choline supports parallel remethylation and downstream membrane chemistry — an indirect framework translation to cognitive clarity through methyl-donor sufficiency rather than measured cognitive outcomes in ADHD cohorts.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#olthof_low_2003","label":"Olthof et al. (2003)"},{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire and Maes (2023)","dataLevel":"Human Mechanistic"}]} />
+- **Evidence Confidence:** Low
+
+</div>
+</div>
+</div>
 
 ## 4. Levers
 
@@ -53,40 +135,87 @@ No direct functional outcome relationship currently mapped.
 **Intervention Dominance:** Diet-Dominant
 
 
-<details>
-<summary><strong>4.1 Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1 Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-<details>
-<summary><strong>4.1.1 Direct Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.1 Direct Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Betaine ← beetroot, spinach
 - Choline ← eggs, soy lecithin
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.2 Cofactors and Supporting Inputs</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.2 Cofactors and Supporting Inputs</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - zinc
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.3 KCs (Key Constraints)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - [BRS2(KC1) - One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)
 
-</details>
+**Shared Biological Pool**
 
-</details>
+- Folate-derived one-carbon units
+- Choline
+- Betaine (TMG)
+- Vitamin B12-dependent remethylation substrates
+- Methyl-group donor pools supporting one-carbon transfer
 
-<details>
-<summary><strong>4.2 Lifestyle Levers</strong></summary>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.2 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
 - Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 5. Mechanistic Basis
 
@@ -94,8 +223,13 @@ No direct functional outcome relationship currently mapped.
 
 BRS2-FM1-PM2 provides an alternative route for recycling homocysteine to methionine using betaine as a methyl donor. This pathway operates independently of the folate-dependent remethylation cycle ([BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)) and helps maintain methyl-donor availability when methylation demand is increased or folate-cycle efficiency is reduced.
 
-<details>
-<summary><strong>Betaine/BHMT Remethylation — mechanistic detail</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Betaine/BHMT Remethylation — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 #### (Betaine as a methyl donor)
 
@@ -121,7 +255,10 @@ Direct CDP-choline Kennedy-pathway phosphatidylcholine synthesis and SAMe-depend
 
 This PM provides parallel remethylation capacity within [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency), reducing sole dependence on folate-cycle efficiency when methylation demand is high or folate-pathway function is constrained. It draws on [BRS2(KC1) — One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool) for betaine and choline-derived methyl-donor availability.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ### 5.1 Evidence Highlights
 
@@ -129,27 +266,62 @@ This PM provides parallel remethylation capacity within [BRS2(FM1) — Methylati
 
 The BHMT pathway is well characterised biochemically. The studies below highlight why a parallel remethylation route matters in practice — particularly when homocysteine lowering depends on nutrient combinations and when choline/betaine intake supports methylation resilience.
 
-<details>
-<summary><strong>Evidence highlights — betaine/BHMT remethylation in practice</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Betaine supplementation and homocysteine lowering</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-#### (Betaine supplementation and homocysteine lowering)
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Low-dose betaine supplementation produced immediate and sustained lowering of plasma homocysteine in healthy adults, supporting betaine as a dietary methyl-donor lever for homocysteine modulation → [Olthof et al., 2003]
+- **Key References:**
 
-Low-dose betaine supplementation produced immediate and sustained lowering of plasma homocysteine in healthy adults, supporting betaine as a dietary methyl-donor lever for homocysteine modulation → [Olthof et al., 2003]
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#olthof_low_2003","label":"Olthof et al. (2003)"}]} />
 
-#### (Combined B12 and omega-3 homocysteine effects)
+</div>
+</div>
+</div>
 
-In a randomised trial, vitamin B-12 alone lowered homocysteine by 22%, fish oil by 19%, and combined B-12 + fish oil by 39% — illustrating that remethylation support interacts with connected nutrient pathways beyond a single methyl-donor route → [Tao Huang et al., 2015]
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Combined B12 and omega-3 homocysteine effects</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-For BHMT, the parallel implication is that homocysteine clearance is best read across multiple remethylation and connected pathways rather than through betaine alone.
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** In a randomised trial, vitamin B-12 alone lowered homocysteine by 22%, fish oil by 19%, and combined B-12 + fish oil by 39% — illustrating that remethylation support interacts with connected nutrient pathways beyond a single methyl-donor route → [Tao Huang et al., 2015] For BHMT, the parallel implication is that homocysteine clearance is best read across multiple remethylation and connected pathways rather than through betaine alone.
+- **Key References:**
 
-#### (Choline and neurodevelopmental context)
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015","label":"Tao Huang et al. (2015)"}]} />
 
-Choline supports betaine availability through oxidation pathways and intersects broader methylation–membrane biology relevant to neurodevelopmental contexts including ADHD → [Derbyshire and Maes, 2023]
+</div>
+</div>
+</div>
 
-This supports choline-rich dietary patterns as indirect BHMT support rather than isolated betaine supplementation as the only lever.
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Choline and neurodevelopmental context</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-</details>
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Choline supports betaine availability through oxidation pathways and intersects broader methylation–membrane biology relevant to neurodevelopmental contexts including ADHD → [Derbyshire and Maes, 2023] This supports choline-rich dietary patterns as indirect BHMT support rather than isolated betaine supplementation as the only lever.
+- **Key References:**
 
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#derbyshire_role_2023","label":"Derbyshire and Maes (2023)","dataLevel":"Human Mechanistic"}]} />
+
+</div>
+</div>
+</div>
 ## 6. BRS Pathways and Connections
 
 ### 6.1 BRS Pathways
@@ -171,8 +343,13 @@ This supports choline-rich dietary patterns as indirect BHMT support rather than
 
 ## 7. Scoreable Inputs & Modulation Signals
 
-<details>
-<summary><strong>Scoreable Input Categories</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Scoreable Input Categories</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 | Input Category | Example Inputs | PM relevance |
 |---|---|---|
@@ -180,11 +357,13 @@ This supports choline-rich dietary patterns as indirect BHMT support rather than
 | Realised Functional States | consistent_daily_methyl_donor_coverage | May reflect meal-level pathway support. |
 | Preparation Transformations | minimally_processed; whole_food_matrix | May preserve nutrient density for pathway support. |
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 8. References
-
 - [Tao Huang et al. (2015) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
 - [Olthof et al. (2003) — Low Dose Betaine Supplementation Leads to Immediate and Long Term Lowering of Plasma Homocysteine](/docs/papers/BRAIN-Diet-References#olthof_low_2003)
 - [Derbyshire and Maes (2023) — Role of Choline in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
-
+- [Millichap and Yee (2012) — Diet Factor in Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#millichap_diet_2012)

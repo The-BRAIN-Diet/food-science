@@ -18,7 +18,7 @@ Follow:
 - `system/fm-schema-rollout-sequence.md` — complete §4.4 on all FMs before FM phenome Phase 2
 - `system/single-pm-fm-rule.md` — Type A (multi-PM) vs Type B (single-PM anchor FM) narrative rules
 - `system/phenome-relationship-schema.md` — §3 Phenome Connections data model
-- `system/phenome-relationship-review-methodology.md` — ADHD-scoped phenome review (Phase 2 FM review: §4.1–4.4 are mandatory phenome evidence sources; Phase 3 framework expansion)
+- `system/phenome-relationship-review-methodology.md` — ADHD-scoped phenome review (Phase 2 FM candidates from §4.1–4.4; Phase 3 biology → phenome confidence + evidence level; Phase 4 audit)
 - `system/brs-citation-reference-standard.md`
 - `system/mechanism-page-section-prose.md` — sections must not restate title, entity ID, BRS name/number, or Definition; each section follows only its schema role.
 
@@ -30,8 +30,8 @@ Synthesis contract (required):
 - **Interventions act on PMs.** Do **not** add Dietary Levers, Lifestyle Levers, or Scoreable Inputs to FM pages — those belong on constituent **PM pages**.
 - **Definition (§1):** integrated regulatory state; do not paste full PM definitions.
 - **Primary Biological Effects (§2):** short ↑ / ↓ **emergent FM outcomes** only — not PM delivery/incorporation language.
-- **Phenome Connections (§3):** render each outcome as a `<details>` dropdown (same pattern as PM §3); summary shows outcome name; inside: Confidence, Synthesis, Key References. Author via `functional_outcome_context` after Phase 2 FM review (convergence across §4 sources — not a PM roll-up).
-- **Mechanistic Basis (§4):** `### 4.1 Core Primary Mechanisms`, `### 4.2 Integrated Functional Narrative`, `### 4.3 Functional Failure Modes` (required on all FMs), and `### 4.4 Evidence Highlights` (required on canonical full-template FMs). All four subsections are **primary phenome review sources** per `system/phenome-relationship-review-methodology.md`.
+- **Phenome Connections (§3):** render each outcome as a `<details>` dropdown (same pattern as PM §3); summary shows outcome name; inside: Confidence, Synthesis, Key References. Author via `functional_outcome_context` after Phase 3 approval (convergence across §4 sources — not a PM roll-up).
+- **Mechanistic Basis (§4):** `### 4.1 Core Primary Mechanisms`, `### 4.2 Integrated Functional Narrative`, `### 4.3 Suboptimal Function & Its Effects` (required on all FMs), and `### 4.4 Evidence Highlights` (required on canonical full-template FMs). All four subsections are **primary phenome review sources** per `system/phenome-relationship-review-methodology.md`.
 - **Canonical (no KCs):** `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx`
 - **Canonical (with KCs + failure modes):** `docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx`
 - **§5 Connected Mechanisms** — roll up from constituent PM `§6.2 Connected BRS Mechanisms`; each bullet: `[ID — Name](href) — one-sentence connection` (canonical: BRS1-FM3). Do not list BRS hub pages without PM/FM links.
