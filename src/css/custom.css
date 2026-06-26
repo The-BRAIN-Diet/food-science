@@ -136,6 +136,233 @@
   opacity: 0.92;
 }
 
+/* BRS hub — FM block: PM links always visible; button expands detail panel only */
+.brs-fm-hub-item {
+  margin-bottom: 0.75rem;
+}
+
+.brs-fm-hub-shell {
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-global-radius);
+  padding: 0.35rem 0.75rem 0.6rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.brs-fm-hub-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  width: 100%;
+  margin: 0;
+  padding: 0.25rem 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.brs-fm-hub-summary:hover {
+  color: var(--ifm-color-primary);
+}
+
+/* FM row: chevron toggles; title static; Open FM link on the right */
+.brs-fm-hub-summary-row {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  width: 100%;
+  padding: 0.25rem 0;
+}
+
+.brs-fm-hub-toggle {
+  flex: 0 0 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+
+.brs-fm-hub-toggle:hover .brs-fm-hub-chevron {
+  color: var(--ifm-color-primary);
+}
+
+.brs-fm-hub-title {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  font-weight: 600;
+}
+
+.brs-fm-hub-open {
+  flex: 0 0 auto;
+  margin-left: auto;
+  padding-left: 0.5rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.brs-fm-hub-open:hover {
+  text-decoration: underline;
+}
+
+.brs-fm-hub-open-compact {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .brs-fm-hub-open-label {
+    display: none;
+  }
+
+  .brs-fm-hub-open-compact {
+    display: inline;
+    font-size: 1.35rem;
+    line-height: 1;
+  }
+}
+
+.brs-fm-hub-chevron {
+  flex: 0 0 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ifm-color-primary);
+  font-size: 1.85rem;
+  line-height: 1;
+  transition: transform 0.15s ease;
+}
+
+.brs-fm-hub-chevron::before {
+  content: "▸";
+}
+
+.brs-fm-hub-item--open .brs-fm-hub-chevron {
+  transform: rotate(90deg);
+}
+
+.brs-fm-hub-pm-list {
+  list-style: none;
+  margin: 0.15rem 0 0.35rem 1.15rem;
+  padding: 0;
+  font-size: 0.92rem;
+}
+
+.brs-fm-hub-pm-list li {
+  margin: 0.2rem 0;
+}
+
+.brs-fm-hub-pm-list a {
+  text-decoration: none;
+}
+
+.brs-fm-hub-pm-list a:hover {
+  text-decoration: underline;
+}
+
+.brs-fm-hub-panel {
+  margin: 0.35rem 0 0 1.15rem;
+  padding: 0.5rem 0 0 0.65rem;
+  border-left: 2px solid var(--ifm-color-emphasis-200);
+}
+
+.brs-hub-levers {
+  margin: 1.25rem 0 1.5rem;
+}
+
+.brs-hub-ta-research {
+  margin: 0 0 1.5rem;
+}
+
+.brs-hub-ta-research > .brs-fm-hub-item {
+  margin-top: 0.5rem;
+}
+
+.brs-hub-levers-intro {
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0 0 0.75rem;
+}
+
+.brs-hub-levers-patterns {
+  font-size: 0.9rem;
+  margin: 0 0 0.85rem;
+  padding: 0.5rem 0.65rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 6px;
+}
+
+.brs-hub-levers-key-constraints {
+  font-size: 0.9rem;
+  margin: 0 0 0.85rem;
+  padding: 0.5rem 0.65rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 6px;
+  border-left: 3px solid var(--ifm-color-primary);
+}
+
+.brs-hub-levers-key-constraints-heading {
+  margin: 0 0 0.35rem;
+}
+
+.brs-hub-lever-kc-commentary {
+  margin: 0 0 0.4rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.brs-hub-lever-kc-foods {
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.brs-hub-lever-list {
+  margin: 0.25rem 0 0.5rem;
+  padding-left: 1.2rem;
+}
+
+.brs-hub-lever-list li {
+  margin: 0.35rem 0;
+}
+
+.brs-hub-lever-pms {
+  display: inline;
+  margin-left: 0.35rem;
+  font-size: 0.78rem;
+  white-space: normal;
+}
+
+.brs-hub-lever-pm {
+  display: inline-block;
+  margin: 0.1rem 0.2rem 0.1rem 0;
+  padding: 0.05rem 0.35rem;
+  border-radius: 4px;
+  background: var(--ifm-color-emphasis-200);
+  text-decoration: none !important;
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.brs-hub-lever-pm:hover {
+  background: var(--ifm-color-emphasis-300);
+}
+
+.brs-hub-lever-category {
+  margin-top: 0.5rem;
+}
+
+.brs-fm-hub-panel[hidden] {
+  display: none !important;
+}
+
 /* Medium hero on individual BRS hub pages */
 .brs-medium-image {
   display: block;

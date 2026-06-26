@@ -1,9 +1,10 @@
 ---
 title: Glutathione Synthesis
 pm_id: BRS2-FM2-PM6
+mission: Build glutathione from sulfur amino acids so cellular antioxidant defence stays connected to one-carbon metabolism.
 parent_fm: BRS2(FM2)
 parent_brs: BRS2
-summary: 'Helps the body build glutathione (a central intracellular antioxidant) from sulfur amino acids supplied through the methylation network. Glutathione synthesis connects one-carbon handling to everyday cellular protection against oxidative damage.'
+summary: Helps the body build glutathione (a central intracellular antioxidant) from sulfur amino acids supplied through the methylation network. Glutathione synthesis connects one-carbon handling to everyday cellular protection against oxidative damage.
 key_constraints:
   - BRS2(KC2) - Methionine & Transsulfuration Substrate Pool
 cofactors:
@@ -18,6 +19,41 @@ references:
   - '[Sekhar et al. (2011) — Deficient Synthesis of Glutathione Underlies Oxidative Stress in Aging and Can Be](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)'
   - '[Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)'
 hide_title: true
+phenome_relationships:
+  - target_phenome: Recovery Capacity
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    evidence_confidence: low-medium
+    rationale: Deficient glutathione synthesis underlies oxidative stress in aging and can be corrected with dietary precursor support; review evidence maps sulfur amino acids and cofactors to glutathione pathway support. Elevated homocysteine in paediatric ADHD intersects oxidative-stress framing — GSH synthesis is a modifiable downstream redox node without established ADHD recovery-outcome trials (biology > evidence gap).
+    references:
+      - index: 1
+        label: Sekhar et al. (2011)
+        citation_key: sekhar_glutathione_2011
+        href: /docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011
+      - index: 2
+        label: Minich et al. (2019)
+        citation_key: minich_glutathione_2019
+        href: /docs/papers/BRAIN-Diet-References#minich_glutathione_2019
+      - index: 3
+        label: Lukovac et al. (2024)
+        citation_key: lukovac_serum_2024
+        href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
+  - target_phenome: Stress Resilience
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    evidence_confidence: low-medium
+    rationale: Endogenous glutathione production positions GSH synthesis as a pattern-based dietary outcome supporting stress-buffering redox resilience when transsulfuration substrate and cofactor coverage are adequate. Direct ADHD stress-resilience outcome evidence remains limited.
+    references:
+      - index: 1
+        label: Sekhar et al. (2011)
+        citation_key: sekhar_glutathione_2011
+        href: /docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011
+      - index: 2
+        label: Minich et al. (2019)
+        citation_key: minich_glutathione_2019
+        href: /docs/papers/BRAIN-Diet-References#minich_glutathione_2019
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -29,7 +65,13 @@ hide_title: true
 
 ## BRS2-FM2-PM6 - Glutathione Synthesis
 
-## 1. Definition
+## 1. Mission & Overview
+
+### Mission
+
+Build glutathione from sulfur amino acids so cellular antioxidant defence stays connected to one-carbon metabolism.
+
+### Overview
 
 Helps the body build glutathione (a central intracellular antioxidant) from sulfur amino acids supplied through the methylation network. Glutathione synthesis connects one-carbon handling to everyday cellular protection against oxidative damage.
 
@@ -37,15 +79,50 @@ Helps the body build glutathione (a central intracellular antioxidant) from sulf
 * Helps protect mitochondrial and neuronal tissue from redox strain — Supporting BRS4.
 * Contributes to resilience against homocysteine-linked metabolic stress — within BRS2.
 
-
 ## 2. Primary Biological Effects
 ↑ antioxidant capacity
 
 ## 3. Phenome Connections
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
 
-No direct functional outcome relationship currently mapped.
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Recovery Capacity — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low–Medium
+- **Rationale:** Deficient glutathione synthesis underlies oxidative stress in aging and can be corrected with dietary precursor support; review evidence maps sulfur amino acids and cofactors to glutathione pathway support. Elevated homocysteine in paediatric ADHD intersects oxidative-stress framing — GSH synthesis is a modifiable downstream redox node without established ADHD recovery-outcome trials (biology > evidence gap).
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011","label":"Sekhar et al. (2011)"},{"href":"/docs/papers/BRAIN-Diet-References#minich_glutathione_2019","label":"Minich et al. (2019)"},{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"}]} />
+- **Evidence Confidence:** Low–Medium
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Stress Resilience — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low–Medium
+- **Rationale:** Endogenous glutathione production positions GSH synthesis as a pattern-based dietary outcome supporting stress-buffering redox resilience when transsulfuration substrate and cofactor coverage are adequate. Direct ADHD stress-resilience outcome evidence remains limited.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011","label":"Sekhar et al. (2011)"},{"href":"/docs/papers/BRAIN-Diet-References#minich_glutathione_2019","label":"Minich et al. (2019)"}]} />
+- **Evidence Confidence:** Low–Medium
+
+</div>
+</div>
+</div>
 
 ## 4. Levers
 
@@ -53,43 +130,91 @@ No direct functional outcome relationship currently mapped.
 
 **Intervention Dominance:** Diet-Dominant
 
-<details>
-<summary><strong>4.1 Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1 Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-<details>
-<summary><strong>4.1.1 Direct Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.1 Direct Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Cofactor density ← brazil nuts, seafood
 - Cysteine ← eggs, legumes
 - Glycine ← eggs, legumes
 - Selenium ← brazil nuts, seafood
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.2 Cofactors and Supporting Inputs</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.2 Cofactors and Supporting Inputs</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - selenium
 - riboflavin
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.3 KCs (Key Constraints)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - [BRS2(KC2) - Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool)
 
-</details>
+**Shared Biological Pool**
 
-</details>
+- Methionine
+- Serine
+- Glycine
+- Cysteine
+- Sulfur-containing amino acids
+- Amino-acid substrates supporting transsulfuration and glutathione synthesis
 
-<details>
-<summary><strong>4.2 Lifestyle Levers</strong></summary>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.2 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
 - Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 5. Mechanistic Basis
 
@@ -97,8 +222,13 @@ No direct functional outcome relationship currently mapped.
 
 Antioxidant resilience downstream of one-carbon metabolism depends on converting transsulfuration-derived cysteine into glutathione — coupling dietary sulfur amino acid and cofactor availability to cellular redox buffering within [BRS2(FM2) — Transsulfuration & Redox Coupling](/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling).
 
-<details>
-<summary><strong>Glutathione synthesis — mechanistic detail</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Glutathione synthesis — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 #### (GSH synthesis from cysteine, glycine, and glutamate)
 
@@ -124,7 +254,10 @@ Glutathione utilisation, recycling, lipid peroxidation control, and eicosanoid/S
 
 This PM completes the transsulfuration→redox arm of [BRS2(FM2)](/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling), downstream of [BRS2-FM2-PM5](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway). It depends on [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool) for sulfur amino acid substrate availability.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ### 5.1 Evidence Highlights
 
@@ -132,23 +265,62 @@ This PM completes the transsulfuration→redox arm of [BRS2(FM2)](/docs/biologic
 
 Glutathione synthesis biochemistry is well established. The studies below highlight why GSH production matters as a downstream consequence of one-carbon and transsulfuration biology — particularly where oxidative stress and aging intersect dietary substrate availability.
 
-<details>
-<summary><strong>Evidence highlights — glutathione synthesis in practice</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Deficient GSH synthesis and oxidative stress in aging</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-#### (Deficient GSH synthesis and oxidative stress in aging)
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Human intervention work demonstrated that deficient glutathione synthesis underlies oxidative stress in aging and can be corrected with dietary precursor support — positioning GSH synthesis as a modifiable downstream node of sulfur amino acid availability → [Sekhar et al., 2011]
+- **Key References:**
 
-Human intervention work demonstrated that deficient glutathione synthesis underlies oxidative stress in aging and can be corrected with dietary precursor support — positioning GSH synthesis as a modifiable downstream node of sulfur amino acid availability → [Sekhar et al., 2011]
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011","label":"Sekhar et al. (2011)"}]} />
 
-#### (Dietary support for glutathione pathways)
+</div>
+</div>
+</div>
 
-Review evidence maps dietary sulfur amino acids, selenium, riboflavin, and phytonutrient cofactors to glutathione pathway support — reinforcing GSH synthesis as a pattern-based dietary outcome rather than an isolated supplement target → [Minich et al., 2019]
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary support for glutathione pathways</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-#### (Homocysteine and oxidative stress in ADHD-relevant cohorts)
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Review evidence maps dietary sulfur amino acids, selenium, riboflavin, and phytonutrient cofactors to glutathione pathway support — reinforcing GSH synthesis as a pattern-based dietary outcome rather than an isolated supplement target → [Minich et al., 2019]
+- **Key References:**
 
-Elevated homocysteine reported in paediatric ADHD cohorts intersects oxidative stress framing — contexts where transsulfuration-derived cysteine and GSH synthesis may be mechanistically relevant as downstream redox support, without establishing treatment efficacy → [Lukovac et al., 2024]
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#minich_glutathione_2019","label":"Minich et al. (2019)"}]} />
 
-</details>
+</div>
+</div>
+</div>
 
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Homocysteine and oxidative stress in ADHD-relevant cohorts</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Elevated homocysteine reported in paediatric ADHD cohorts intersects oxidative stress framing — contexts where transsulfuration-derived cysteine and GSH synthesis may be mechanistically relevant as downstream redox support, without establishing treatment efficacy → [Lukovac et al., 2024]
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"}]} />
+
+</div>
+</div>
+</div>
 ## 6. BRS Pathways and Connections
 
 ### 6.1 BRS Pathways
@@ -169,8 +341,13 @@ Elevated homocysteine reported in paediatric ADHD cohorts intersects oxidative s
 
 ## 7. Scoreable Inputs & Modulation Signals
 
-<details>
-<summary><strong>Scoreable Input Categories</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Scoreable Input Categories</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 | Input Category | Example Inputs | PM relevance |
 |---|---|---|
@@ -178,10 +355,12 @@ Elevated homocysteine reported in paediatric ADHD cohorts intersects oxidative s
 | Realised Functional States | consistent_daily_methyl_donor_coverage | May reflect meal-level pathway support. |
 | Preparation Transformations | minimally_processed; whole_food_matrix | May preserve nutrient density for pathway support. |
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 8. References
-
 - [Minich et al. (2019) — A Review of Dietary (Phyto)Nutrients for Glutathione Support](/docs/papers/BRAIN-Diet-References#minich_glutathione_2019)
 - [Sekhar et al. (2011) — Deficient Synthesis of Glutathione Underlies Oxidative Stress in Aging and Can Be](/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011)
 - [Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)

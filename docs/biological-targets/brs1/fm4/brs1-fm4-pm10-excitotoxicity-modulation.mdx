@@ -1,9 +1,10 @@
 ---
 title: Excitotoxicity Modulation
 pm_id: BRS1-FM4-PM10
+mission: Limit excitotoxic pressure when glutamatergic drive is excessive so neural stability is protected over time.
 parent_fm: BRS1(FM4)
 parent_brs: BRS1
-summary: 'Helps protect the brain from excessive excitatory stress when glutamatergic drive becomes too strong (excitotoxic pressure). Modulating this burden supports neural stability and cognitive regulation over time.'
+summary: Helps protect the brain from excessive excitatory stress when glutamatergic drive becomes too strong (excitotoxic pressure). Modulating this burden supports neural stability and cognitive regulation over time.
 key_constraints:
   - BRS1(KC1) - Amino Acid Quality & Competitive Balance
 cofactors:
@@ -14,6 +15,36 @@ intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Leaning
 timing_specific: 'Yes'
 dose_sensitivity: 'Pattern target: regular magnesium + anti-inflammatory support'
+phenome_relationships:
+  - target_phenome: Stress Reactivity
+    relationship_type: modulates
+    confidence: low
+    evidence_level: mechanistic
+    rationale: 'Framework translation: modulating excitotoxic glutamatergic burden may intersect reactivity under excitatory load; Mamiya et al. (2021) frames network E/I balance while Clerc et al. (2013) provides preclinical magnesium–glutamate receptor context—not direct human stress-reactivity outcomes.'
+    references:
+      - index: 1
+        label: Mamiya et al. (2021)
+        citation_key: mamiya_precision_2021
+        href: /docs/papers/BRAIN-Diet-References#mamiya_precision_2021
+        data_level: Mechanistic
+      - index: 2
+        label: Clerc et al. (2013)
+        citation_key: clerc_magnesium_2013
+        href: /docs/papers/BRAIN-Diet-References#clerc_magnesium_2013
+        data_level: Preclinical
+    evidence_confidence: low
+  - target_phenome: Recovery Capacity
+    relationship_type: modulates
+    confidence: low
+    evidence_level: mechanistic
+    rationale: 'Framework translation: limiting chronic excitotoxic signalling burden may support neural recovery context under sustained excitatory load; evidence on this PM is preclinical and mechanistic rather than human recovery outcome data.'
+    references:
+      - index: 1
+        label: Clerc et al. (2013)
+        citation_key: clerc_magnesium_2013
+        href: /docs/papers/BRAIN-Diet-References#clerc_magnesium_2013
+        data_level: Preclinical
+    evidence_confidence: low
 references:
   - '[Clerc et al. (2013) — Magnesium Sulfate Protects Against the Bioenergetic Consequences of Chronic Glutamate Receptor Stimulation](/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013)'
   - '[Mamiya et al. (2021) — Case for Neural Excitation and Inhibition](/docs/papers/BRAIN-Diet-References#mamiya_precision_2021)'
@@ -31,7 +62,15 @@ hide_title: true
 
 ## BRS1-FM4-PM10 - Excitotoxicity Modulation
 
-## 1. Definition
+(Protecting Circuits from Excessive Excitatory Stress)
+
+## 1. Mission & Overview
+
+### Mission
+
+Limit excitotoxic pressure when glutamatergic drive is excessive so neural stability is protected over time.
+
+### Overview
 
 Helps protect the brain from excessive excitatory stress when glutamatergic drive becomes too strong (excitotoxic pressure). Modulating this burden supports neural stability and cognitive regulation over time.
 
@@ -39,15 +78,50 @@ Helps protect the brain from excessive excitatory stress when glutamatergic driv
 * Supports long-term cognitive and regulatory stability under excitatory load — within BRS1.
 * Connects dietary amino-acid context to endogenous excitatory buffering capacity — within BRS1.
 
-
 ## 2. Primary Biological Effects
 ↓ excitotoxic signalling burden; ↑ inhibitory/excitatory resilience
 
 ## 3. Phenome Connections
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
 
-No direct functional outcome relationship currently mapped.
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Stress Reactivity — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low
+- **Rationale:** Framework translation: modulating excitotoxic glutamatergic burden may intersect reactivity under excitatory load; Mamiya et al. (2021) frames network E/I balance while Clerc et al. (2013) provides preclinical magnesium–glutamate receptor context—not direct human stress-reactivity outcomes.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mamiya_precision_2021","label":"Mamiya et al. (2021)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013","label":"Clerc et al. (2013)","dataLevel":"Preclinical"}]} />
+- **Evidence Confidence:** Low
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Recovery Capacity — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low
+- **Rationale:** Framework translation: limiting chronic excitotoxic signalling burden may support neural recovery context under sustained excitatory load; evidence on this PM is preclinical and mechanistic rather than human recovery outcome data.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013","label":"Clerc et al. (2013)","dataLevel":"Preclinical"}]} />
+- **Evidence Confidence:** Low
+
+</div>
+</div>
+</div>
 
 ## 4. Levers
 
@@ -55,43 +129,91 @@ No direct functional outcome relationship currently mapped.
 
 **Intervention Dominance:** Diet-Supported
 
-<details>
-<summary><strong>4.1 Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1 Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-<details>
-<summary><strong>4.1.1 Direct Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.1 Direct Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Omega-3 ← oily fish
 - Polyphenol support ← berries, cocoa
 - magnesium-rich foods → NMDA modulation.
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.2 Cofactors and Supporting Inputs</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.2 Cofactors and Supporting Inputs</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Magnesium
 - omega-3
 - antioxidants indirectly
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.3 KCs (Key Constraints)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - [BRS1(KC1) - Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
 
-</details>
+**Shared Biological Pool**
 
-</details>
+- Essential amino acids (EAAs)
+- Large neutral amino acids (LNAAs)
+- Tryptophan
+- Tyrosine
+- Limiting amino-acid coverage within mixed protein contexts
+- Complementary amino-acid combinations
 
-<details>
-<summary><strong>4.2 Lifestyle Levers</strong></summary>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.2 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Meal timing and circadian-aligned eating may influence precursor transport and neurotransmitter bias.
 - Physical activity and stress recovery practices may modulate catecholamine and autonomic context where listed in interventions.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 5. Mechanistic Basis
 
@@ -99,8 +221,13 @@ No direct functional outcome relationship currently mapped.
 
 BRS1-FM4-PM10 modulates excessive glutamatergic drive and downstream excitotoxic stress through magnesium sufficiency, omega-3 intake, and antioxidant-rich dietary patterns that support neuronal resilience within [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation).
 
-<details>
-<summary><strong>Excitotoxic stress, magnesium, and neuronal resilience</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Excitotoxic stress, magnesium, and neuronal resilience</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 #### (Excitotoxicity and glutamatergic overload)
 
@@ -120,7 +247,10 @@ BRS1-FM4-PM10 extends [BRS1-FM4-PM9](/docs/biological-targets/brs1/fm4/brs1-fm4-
 
 Together, BRS1-FM4-PM10 links dietary magnesium, omega-3, and antioxidant patterns to reduction of excitotoxic burden in the E/I cluster.
 
-</details>
+</div>
+</div>
+</div>
+
 
 
 
@@ -132,8 +262,13 @@ Together, BRS1-FM4-PM10 links dietary magnesium, omega-3, and antioxidant patter
 
 Excitotoxic stress biology is well established. The studies below highlight neural E/I balance framing and magnesium-related excitotoxic protection that refine how excitatory overload modulation is interpreted in practice.
 
-<details>
-<summary><strong>Neural excitation and inhibition balance</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Neural excitation and inhibition balance</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -142,10 +277,18 @@ Excitotoxic stress biology is well established. The studies below highlight neur
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#mamiya_precision_2021","label":"Mamiya et al. (2021)","dataLevel":"Mechanistic"}]} />
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>Magnesium and glutamate receptor bioenergetics</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Magnesium and glutamate receptor bioenergetics</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -154,7 +297,10 @@ Excitotoxic stress biology is well established. The studies below highlight neur
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013","label":"Clerc et al. (2013)","dataLevel":"Preclinical"}]} />
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 6. BRS Pathways and Connections
 
@@ -170,7 +316,7 @@ Excitotoxic stress biology is well established. The studies below highlight neur
 
 ### 6.3 Connected Primary Mechanisms
 
-- [BRS1(FM4) - Excitatory–Inhibitory Balance (GABA–Glutamate Regulation)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation)
+- [BRS1(FM4) - GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation)
 
 - [BRS1-FM4-PM7 - GABA–Glutamate Neurotransmission Balance](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance)
 - [BRS1-FM4-PM8 - GABA Synthesis Capacity](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity)
@@ -180,8 +326,13 @@ Excitotoxic stress biology is well established. The studies below highlight neur
 
 This PM is scoreable through food-state and nutrient signals relevant to excitotoxicity modulation.
 
-<details>
-<summary><strong>Scoreable Input Categories</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Scoreable Input Categories</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 | Input Category | Example Inputs | PM9 Relevance |
 |---|---|---|
@@ -189,10 +340,12 @@ This PM is scoreable through food-state and nutrient signals relevant to excitot
 | Realised Functional States | balanced_protein_meal; slow_carbohydrate_pairing | Represent recipe-level realised states. |
 | Preparation Transformations | complementary_protein_pairing; minimally_processed_sources | Modify bioavailability and meal-matrix effects. |
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 8. References
-
 - [Clerc et al. (2013) — Magnesium Sulfate Protects Against the Bioenergetic Consequences of Chronic Glutamate Receptor Stimulation](/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013)
 - [Mamiya et al. (2021) — Case for Neural Excitation and Inhibition](/docs/papers/BRAIN-Diet-References#mamiya_precision_2021)
 - [Maltezos et al. (2014) — Glutamate/Glutamine and Neuronal Integrity in Adults with ADHD](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014)

@@ -16,7 +16,7 @@ validation while remaining readable for authors.
 
 FM **§3 Phenome Connections** holds a concise integrative snapshot (`functional_outcome_context` in front matter) — normally 2–3 outcomes, max 4. It does **not** roll up all child PM phenome mappings (that belongs on future phenome graph pages). See `system/phenome-relationship-schema.md`. Do not embed phenome outcome claims in §1 Definition.
 
-**Phenome review:** FM §4 is a first-class phenome evidence source. Phase 2 review must cover §4.1 Core Primary Mechanisms, §4.2 Integrated Functional Narrative, §4.3 Functional Failure Modes, and §4.4 Evidence Highlights (when present). See `system/phenome-relationship-review-methodology.md` v2.
+**Phenome review:** FM §4 is a first-class phenome evidence source. Phase 2 review must cover §4.1 Core Primary Mechanisms, §4.2 Integrated Functional Narrative, §4.3 Suboptimal Function & Its Effects, and §4.4 Evidence Highlights (when present). Phase 3 assigns Biology → Phenome Confidence and Evidence Level (separate fields). See `system/phenome-relationship-review-methodology.md` v4.
 
 When `mechanisms_covered` has **exactly one** PM, apply the **Single-PM FM (1:1) rule**: FM §3 phenome labels and confidence must align with that PM’s `phenome_relationships` at publish time — but Phase 2 FM review may surface candidates requiring Phase 1 PM updates first (see methodology § Single-PM FM reconciliation).
 
@@ -95,7 +95,7 @@ When `mechanisms_covered` contains **exactly one** PM (Type B):
 - **§1 Definition** names that PM’s integrated contribution directly (no plural “PMs” framing required).
 - **§2 Primary Biological Effects** follows the **Single-PM FM (1:1) rule** in `system/phenome-relationship-schema.md` (matching phenome labels and confidence to the child PM).
 - **§4.2 Integrated Functional Narrative** — follow **`system/single-pm-fm-rule.md`**: explain why the FM state is distinct, why it matters, how connected systems constrain it, and how it differs from the PM. Do **not** open with “Together,” or other multi-PM language.
-- **§4.3 Functional Failure Modes** — extend beyond the PM (upstream constraints, connected mechanism failures, downstream consequences).
+- **§4.3 Suboptimal Function & Its Effects** — extend beyond the PM (upstream constraints, connected mechanism failures, downstream consequences).
 - **§4.4 Evidence Highlights** — mechanism-qualifying evidence for why the **integrated FM biology** matters in practice; not functional outcome / phenome claims and not merely that child PMs exist.
 
 **Additional canonical (Type B, KC-linked failure modes):** `docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx` → `BRS4-FM4-PM9`.
@@ -108,10 +108,10 @@ Section **4.** must include:
 
 - **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with one contribution line each
 - **`### 4.2 Integrated Functional Narrative`** — synthesis paragraph(s). **Type A (multi-PM):** how PMs combine. **Type B (single-PM anchor):** broader state, connected systems, constraints — see `system/single-pm-fm-rule.md`; do not use “Together,”
-- **`### 4.3 Functional Failure Modes`** — stressor narrative describing how the integrated FM state fails when delivery, pools, or constituent PM capacity are chronically constrained (required on all FM pages; KC-linked detail when `key_constraints` is non-empty)
+- **`### 4.3 Suboptimal Function & Its Effects`** — stressor narrative describing how the integrated FM state fails when delivery, pools, or constituent PM capacity are chronically constrained (required on all FM pages; KC-linked detail when `key_constraints` is non-empty)
 - **`### 4.4 Evidence Highlights`** *(optional on non-canonical FMs; required on canonical full-template FMs)* — FM-level **mechanism-qualifying** evidence (rolls up child PM §5.1 entries after phenome content is stripped). **Same dropdown structure as PM §3** — each finding uses **Confidence**, **Evidence Level**, **Rationale**, **Key References** with per-study `dataLevel`. **Do not** include ADHD/phenome/outcome science here — that belongs in FM §3 `functional_outcome_context`. Populate via `npm run mechanisms:populate-fm-evidence -- --force` after child PM §5.1 is authored.
 
-`key_constraints` remain in **front matter** for ontology traversal. KC links belong in §4.3 Functional Failure Modes — not in a separate public §4.2 KC pool subsection.
+`key_constraints` remain in **front matter** for ontology traversal. KC links belong in §4.3 Suboptimal Function & Its Effects — not in a separate public §4.2 KC pool subsection.
 
 Within §4:
 
@@ -125,7 +125,7 @@ Within §4:
 1. Opening line (optional) introducing the integrated narrative
 2. **`### 4.1 Core Primary Mechanisms`** — linked PM list with contribution lines
 3. **`### 4.2 Integrated Functional Narrative`** — synthesis paragraph(s)
-4. **`### 4.3 Functional Failure Modes`** — chronic constraint and impairment narrative
+4. **`### 4.3 Suboptimal Function & Its Effects`** — chronic constraint and impairment narrative
 5. **`### 4.4 Evidence Highlights`** — FM-level mechanism-qualifying evidence (canonical template)
 
 **Canonical examples:**
@@ -306,14 +306,14 @@ Numbered sections must stay contiguous. Optional `### 5.5 Evidence Highlights` n
 4. **Mechanistic Basis (Integrated FM Narrative)** — `## 4. Mechanistic Basis (Integrated FM Narrative)` — per **FM Mechanistic Basis Rule** and **Deduplication Rule**; weave timing context in §4.2 or §4.3 when `timing_specific: "Yes"`
    - **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with contribution lines
    - **`### 4.2 Integrated Functional Narrative`** — synthesis paragraph(s)
-   - **`### 4.3 Functional Failure Modes`** — chronic constraint and impairment narrative (required)
+   - **`### 4.3 Suboptimal Function & Its Effects`** — chronic constraint and impairment narrative (required)
    - **`### 4.4 Evidence Highlights`** — FM-level evidence for why the integrated state matters (required on **all** FMs before phenome Phase 2; see `system/fm-schema-rollout-sequence.md`)
 5. **Connected Mechanisms** — `## 5. Connected Mechanisms` — roll up from constituent PM connected-mechanisms sections; each bullet links a specific PM or FM page and includes a **one-sentence connection** after an em dash describing how that mechanism relates to this FM (see **BRS1(FM3)** canonical)
 6. **References** — `## 6. References` — `Author et al. (Year) — Topic` with bibliography links per **`system/brs-citation-reference-standard.md`**
 
 **Not on FM pages:** standalone `Primary Mechanisms (PMs)` or `KCs` index sections (PM/KC links live in §4.1/§4.2), `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, legacy `BRS Links` heading, or PM-level cofactor/dietary lever rollups — those belong on **PM pages** (§7–§9).
 
-`mechanisms_covered` and `key_constraints` remain in **front matter** for ontology traversal and tooling; PM links render in §4.1; KC stressor context renders in §4.3 Functional Failure Modes.
+`mechanisms_covered` and `key_constraints` remain in **front matter** for ontology traversal and tooling; PM links render in §4.1; KC stressor context renders in §4.3 Suboptimal Function & Its Effects.
 
 `timing_specific` (`Yes` | `No`) lives in **front matter only** for ontology traversal, filtering, and scoring — not as a public `## N. Timing Specific` section.
 
@@ -352,7 +352,7 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - `## 5. Connected Mechanisms` is required; roll up from constituent PM §6.2 connected mechanisms.
 - Each Connected Mechanisms bullet must use: `[ID — Name](href) — one-sentence biological connection to this FM`. Do not list BRS hub pages without a specific PM/FM link and connection sentence.
 - `## 6. References` is required when references exist in front matter.
-- §4 must include `### 4.1 Core Primary Mechanisms`, `### 4.2 Integrated Functional Narrative`, `### 4.3 Functional Failure Modes`, and `### 4.4 Evidence Highlights` (see `system/fm-schema-rollout-sequence.md`).
+- §4 must include `### 4.1 Core Primary Mechanisms`, `### 4.2 Integrated Functional Narrative`, `### 4.3 Suboptimal Function & Its Effects`, and `### 4.4 Evidence Highlights` (see `system/fm-schema-rollout-sequence.md`).
 - FM pages must **not** include `### 4.2 Supporting Biological Pools (Key Constraints)` — KC context belongs in front matter and §4.3.
 - FM pages must **not** include standalone `## N. Primary Mechanisms (PMs)` or `## N. KCs` sections — PM links belong in §4.1.
 - Claims in Mechanistic Basis and §4.1 must stay mechanistic / interpretive (`may`, `supports`, `associated with`) unless evidence supports stronger wording.

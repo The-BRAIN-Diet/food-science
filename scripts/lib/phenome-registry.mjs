@@ -9,6 +9,184 @@ import path from "node:path";
 
 const DEFAULT_REGISTRY_PATH = "src/data/phenome-registry.json";
 
+/** @type {Set<string>} */
+export const PHENOME_LANDMARK_EVIDENCE_LAYERS = new Set([
+  "construct_landmark_papers",
+  "biology_to_phenome_landmark_papers",
+  "nutrition_to_biology_landmark_papers",
+]);
+
+/** @type {Set<string>} */
+export const PHENOME_CROSS_REFERENCE_FIELDS = new Set([
+  "rdoc_domains",
+  "icf_domains",
+  "promis_measures",
+  "hpo_terms",
+  "dsm_icd_context",
+]);
+
+export const PHENOME_EVIDENCE_CONFIDENCE_VALUES = new Set([
+  "low",
+  "low-medium",
+  "medium",
+  "high",
+]);
+
+/**
+ * @param {unknown} entry
+ * @param {Map<string, { id: string }>} phenomeById
+ * @param {string} phenomeLabel
+ * @returns {Array<{ code: string, message: string, severity?: string }>}
+ */
+export function validateOptionalPhenomeProvenance(entry, phenomeById, phenomeLabel) {
+  /** @type {Array<{ code: string, message: string, severity?: string }>} */
+  const issues = [];
+  const id = entry.id || phenomeLabel;
+
+  if (entry.provenance != null) {
+    const prov = entry.provenance;
+    if (typeof prov !== "object" || Array.isArray(prov)) {
+      issues.push({
+        code: "provenance_invalid_shape",
+        message: `${id}: provenance must be an object`,
+      });
+    } else {
+      if (prov.frameworkOrigin != null && String(prov.frameworkOrigin).trim() === "") {
+        issues.push({
+          code: "provenance_empty_framework_origin",
+          message: `${id}: provenance.frameworkOrigin must be non-empty when present`,
+        });
+      }
+      if (prov.relatedPhenomeIds != null) {
+        if (!Array.isArray(prov.relatedPhenomeIds)) {
+          issues.push({
+            code: "provenance_invalid_related_phenomes",
+            message: `${id}: provenance.relatedPhenomeIds must be an array`,
+          });
+        } else {
+          for (const relatedId of prov.relatedPhenomeIds) {
+            if (!phenomeById.has(String(relatedId))) {
+              issues.push({
+                code: "provenance_unknown_related_phenome",
+                message: `${id}: unknown provenance.relatedPhenomeId "${relatedId}"`,
+              });
+            }
+            if (String(relatedId) === String(entry.id)) {
+              issues.push({
+                code: "provenance_self_related_phenome",
+                message: `${id}: provenance.relatedPhenomeIds must not include self`,
+              });
+            }
+          }
+        }
+      }
+    }
+  }
+
+  if (entry.crossReferences != null) {
+    const xref = entry.crossReferences;
+    if (typeof xref !== "object" || Array.isArray(xref)) {
+      issues.push({
+        code: "cross_references_invalid_shape",
+        message: `${id}: crossReferences must be an object`,
+      });
+    } else {
+      for (const [key, value] of Object.entries(xref)) {
+        if (!PHENOME_CROSS_REFERENCE_FIELDS.has(key)) {
+          issues.push({
+            code: "cross_references_unknown_field",
+            message: `${id}: unknown crossReferences field "${key}"`,
+            severity: "warning",
+          });
+        } else if (!Array.isArray(value)) {
+          issues.push({
+            code: "cross_references_invalid_array",
+            message: `${id}: crossReferences.${key} must be an array of strings`,
+          });
+        } else {
+          for (const item of value) {
+            if (typeof item !== "string" || !item.trim()) {
+              issues.push({
+                code: "cross_references_invalid_item",
+                message: `${id}: crossReferences.${key} items must be non-empty strings`,
+              });
+            }
+          }
+        }
+      }
+    }
+  }
+
+  if (entry.evidence != null) {
+    const evidence = entry.evidence;
+    if (typeof evidence !== "object" || Array.isArray(evidence)) {
+      issues.push({
+        code: "evidence_invalid_shape",
+        message: `${id}: evidence must be an object`,
+      });
+    } else {
+      for (const [key, value] of Object.entries(evidence)) {
+        if (!PHENOME_LANDMARK_EVIDENCE_LAYERS.has(key)) {
+          issues.push({
+            code: "evidence_unknown_layer",
+            message: `${id}: unknown evidence field "${key}"`,
+            severity: "warning",
+          });
+          continue;
+        }
+        if (!Array.isArray(value)) {
+          issues.push({
+            code: "evidence_invalid_array",
+            message: `${id}: evidence.${key} must be an array`,
+          });
+          continue;
+        }
+        for (const [idx, paper] of value.entries()) {
+          if (typeof paper !== "object" || paper == null || Array.isArray(paper)) {
+            issues.push({
+              code: "evidence_invalid_paper",
+              message: `${id}: evidence.${key}[${idx}] must be an object`,
+            });
+            continue;
+          }
+          if (!String(paper.label || "").trim()) {
+            issues.push({
+              code: "evidence_missing_label",
+              message: `${id}: evidence.${key}[${idx}] missing label`,
+            });
+          }
+          if (!String(paper.citation_key || "").trim()) {
+            issues.push({
+              code: "evidence_missing_citation_key",
+              message: `${id}: evidence.${key}[${idx}] missing citation_key`,
+              severity: "warning",
+            });
+          }
+        }
+      }
+    }
+  }
+
+  if (entry.evidence_confidence != null) {
+    const value = String(entry.evidence_confidence).trim();
+    if (!PHENOME_EVIDENCE_CONFIDENCE_VALUES.has(value)) {
+      issues.push({
+        code: "invalid_phenome_evidence_confidence",
+        message: `${id}: evidence_confidence must be low | low-medium | medium | high`,
+      });
+    }
+  }
+
+  if (entry.evidence_confidence_note != null && typeof entry.evidence_confidence_note !== "string") {
+    issues.push({
+      code: "invalid_phenome_evidence_confidence_note",
+      message: `${id}: evidence_confidence_note must be a string when present`,
+    });
+  }
+
+  return issues;
+}
+
 /**
  * @param {string} [rootDir]
  * @param {string} [registryPath]
@@ -22,7 +200,24 @@ export function loadPhenomeRegistry(rootDir = process.cwd(), registryPath) {
   if (!Array.isArray(data.phenomes)) {
     throw new Error("phenome-registry.json: phenomes must be an array");
   }
+  if (!Array.isArray(data.therapeuticAreas)) {
+    throw new Error("phenome-registry.json: therapeuticAreas must be an array");
+  }
   return data;
+}
+
+/**
+ * @param {{ therapeuticAreas: Array<{ id: string, name: string }> }} registry
+ */
+export function buildTherapeuticAreaIndex(registry) {
+  /** @type {Map<string, { id: string, name: string }>} */
+  const byId = new Map();
+  for (const entry of registry.therapeuticAreas || []) {
+    const id = String(entry.id || "").trim();
+    if (!id) continue;
+    byId.set(id, entry);
+  }
+  return { byId };
 }
 
 /**
@@ -132,6 +327,7 @@ export function buildPhenomeRegistryDiagnostics(relationships, registry) {
     duplicateRegistryNames,
     orphanRegistryPhenomes,
     reviewFlags: registry.reviewFlags || [],
+    therapeuticAreaCount: registry.therapeuticAreas?.length ?? 0,
   };
 }
 
@@ -141,6 +337,7 @@ export function buildPhenomeRegistryDiagnostics(relationships, registry) {
  */
 export function validatePhenomeRegistry(rootDir = process.cwd()) {
   const registry = loadPhenomeRegistry(rootDir);
+  const { byId: taById } = buildTherapeuticAreaIndex(registry);
   const indexPath = path.join(rootDir, "src/data/phenome-relationships.generated.json");
   /** @type {Array<Record<string, unknown>>} */
   let relationships = [];
@@ -151,8 +348,11 @@ export function validatePhenomeRegistry(rootDir = process.cwd()) {
 
   const enriched = enrichRelationshipsWithPhenomeIds(relationships, registry);
   const diagnostics = buildPhenomeRegistryDiagnostics(enriched, registry);
+  const { byId } = buildRegistryNameIndex(registry);
   /** @type {Array<{ code: string, message: string }>} */
   const issues = [];
+  /** @type {Array<{ code: string, message: string }>} */
+  const warnings = [];
 
   for (const entry of registry.phenomes) {
     for (const field of ["id", "name", "slug", "description", "publicSummary", "status"]) {
@@ -170,6 +370,49 @@ export function validatePhenomeRegistry(rootDir = process.cwd()) {
         message: `${entry.id || entry.name}: primaryDomains must be a non-empty array`,
       });
     }
+    if (!Array.isArray(entry.therapeuticAreaIds) || entry.therapeuticAreaIds.length === 0) {
+      issues.push({
+        code: "registry_missing_therapeutic_areas",
+        message: `${entry.id || entry.name}: therapeuticAreaIds must be a non-empty array`,
+      });
+    } else {
+      for (const taId of entry.therapeuticAreaIds) {
+        if (!taById.has(String(taId))) {
+          issues.push({
+            code: "registry_unknown_therapeutic_area",
+            message: `${entry.id || entry.name}: unknown therapeuticAreaId "${taId}"`,
+          });
+        }
+      }
+    }
+
+    for (const provIssue of validateOptionalPhenomeProvenance(entry, byId, entry.id || entry.name)) {
+      if (provIssue.severity === "warning") {
+        warnings.push({ code: provIssue.code, message: provIssue.message });
+      } else {
+        issues.push({ code: provIssue.code, message: provIssue.message });
+      }
+    }
+  }
+
+  for (const ta of registry.therapeuticAreas) {
+    for (const field of ["id", "name", "slug", "description", "status"]) {
+      const v = ta[field];
+      if (v === undefined || v === null || String(v).trim() === "") {
+        issues.push({
+          code: "therapeutic_area_missing_field",
+          message: `${ta.id || ta.name || "unknown TA"}: missing required field ${field}`,
+        });
+      }
+    }
+  }
+
+  const primaryTa = registry.meta?.primaryTherapeuticAreaId;
+  if (primaryTa && !taById.has(primaryTa)) {
+    issues.push({
+      code: "registry_invalid_primary_ta",
+      message: `meta.primaryTherapeuticAreaId "${primaryTa}" is not in therapeuticAreas`,
+    });
   }
 
   if (diagnostics.duplicateRegistryNames.length > 0) {
@@ -193,8 +436,6 @@ export function validatePhenomeRegistry(rootDir = process.cwd()) {
     });
   }
 
-  /** @type {Array<{ code: string, message: string }>} */
-  const warnings = [];
   for (const orphan of diagnostics.orphanRegistryPhenomes) {
     warnings.push({
       code: "orphan_registry_phenome",

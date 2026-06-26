@@ -5,7 +5,7 @@
  * Usage:
  *   node scripts/populate-fm-evidence-highlights.mjs
  *   node scripts/populate-fm-evidence-highlights.mjs --brs BRS3
- *   node scripts/populate-fm-evidence-highlights.mjs --force --dry-run
+ *   node scripts/populate-fm-evidence-highlights.mjs --placeholder-only
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -14,6 +14,7 @@ import { listMechanismMdxFiles, readMechanismPage } from "./lib/mechanism-page-v
 import {
   buildFmEvidenceHighlightsBlock,
   fmHasEvidenceHighlights,
+  fmHasPlaceholderEvidence,
   replaceEvidenceHighlightsInContent,
 } from "./lib/fm-evidence-highlights.mjs";
 
@@ -26,6 +27,7 @@ function parseArgs() {
     brs: brsIdx === -1 ? null : args[brsIdx + 1]?.toUpperCase(),
     dryRun: args.includes("--dry-run"),
     force: args.includes("--force"),
+    placeholderOnly: args.includes("--placeholder-only"),
   };
 }
 
@@ -37,7 +39,7 @@ function fmMatchesBrs(data, brs) {
 }
 
 function main() {
-  const { brs, dryRun, force } = parseArgs();
+  const { brs, dryRun, force, placeholderOnly } = parseArgs();
   let files = listMechanismMdxFiles(root, "fm");
   if (brs) {
     files = files.filter((f) => {
@@ -53,7 +55,12 @@ function main() {
     const raw = fs.readFileSync(filePath, "utf8");
     const { data, content } = matter(raw);
 
-    if (fmHasEvidenceHighlights(content) && !force) {
+    const needsRebuild =
+      !fmHasEvidenceHighlights(content) ||
+      force ||
+      (placeholderOnly && fmHasPlaceholderEvidence(content));
+
+    if (!needsRebuild) {
       skipped++;
       continue;
     }

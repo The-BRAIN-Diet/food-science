@@ -4,12 +4,13 @@
  * @see system/phenome-relationship-schema.md
  */
 
+import { renderHubCollapsible } from "./hub-collapsible.mjs";
+import { dedupeAdjacentCitationBrackets } from "./dedupe-citations.mjs";
 import {
   enrichReferenceWithDataLevel,
   phenomeRefToBibItem,
   referenceNotesFromKeys,
 } from "./reference-data-levels.mjs";
-import { dedupeAdjacentCitationBrackets } from "./dedupe-citations.mjs";
 
 export function renderEvidenceReferencesBlock(references = []) {
   const items = references.map(enrichReferenceWithDataLevel).map(phenomeRefToBibItem);
@@ -27,17 +28,13 @@ export function renderEvidenceReferencesBlock(references = []) {
  * @param {object[]} entry.references — phenome reference shape
  */
 export function renderEvidenceEntryDropdown(entry) {
-  const lines = [
-    "<details>",
-    `<summary><strong>${entry.title}</strong></summary>`,
-    "",
+  const panelLines = [
     `- **Confidence:** ${entry.confidence}`,
     `- **Evidence Level:** ${entry.evidence_level}`,
     `- **Rationale:** ${dedupeAdjacentCitationBrackets(String(entry.rationale).trim())}`,
+    ...renderEvidenceReferencesBlock(entry.references || []),
   ];
-  lines.push(...renderEvidenceReferencesBlock(entry.references || []));
-  lines.push("", "</details>", "");
-  return lines.join("\n");
+  return `${renderHubCollapsible(entry.title, panelLines.join("\n"))}\n`;
 }
 
 export function renderEvidenceHighlightsSection({
@@ -62,8 +59,15 @@ export function matchReferencesInRationale(rationale, referenceKeys = []) {
   if (!notes.length) return [];
   const text = String(rationale || "");
   return notes.filter((ref) => {
-    const author = String(ref.label || "").split(" (")[0].trim();
-    return author && text.includes(`[${author}`);
+    const label = String(ref.label || "");
+    const author = label.split(" (")[0].trim();
+    const yearMatch = label.match(/\((\d{4})\)/);
+    const year = yearMatch?.[1];
+    if (!author) return false;
+    if (text.includes(`[${author}`)) return true;
+    if (year && text.includes(`[${author}, ${year}`)) return true;
+    if (year && text.includes(`[${author} (${year}`)) return true;
+    return false;
   });
 }
 
@@ -108,16 +112,16 @@ export function normalizeEvidenceConfig(config) {
 }
 
 /** Parse PM §5.1 phenome-style entry dropdowns from rendered MDX. */
-export function extractPmEvidenceEntries(pmContent) {
+export function extractPmEvidenceEntries(pmContent, referenceNoteKeys = []) {
   const section = pmContent.match(/^### 5\.1 Evidence Highlights[\s\S]*?(?=\n## \d+\. )/m);
   if (!section) return [];
 
   const entries = [];
-  const re =
-    /<details>\s*\n<summary><strong>([^<]+)<\/strong><\/summary>\s*\n\n- \*\*Confidence:\*\* ([^\n]+)\n- \*\*Evidence Level:\*\* ([^\n]+)\n- \*\*Rationale:\*\* ([^\n]+(?:\n(?!- \*\*Key)[^\n]+)*)\n(?:- \*\*Key References:\*\*[\s\S]*?<PhenomeBibLinks items=\{(\[[\s\S]*?\])\} \/>\s*)?<\/details>/g;
+  const phenomeRe =
+    /data-brs-fm-hub[\s\S]*?<strong>([^<]+)<\/strong>[\s\S]*?<div class="brs-fm-hub-panel" hidden>\s*\n\n- \*\*Confidence:\*\* ([^\n]+)\n- \*\*Evidence Level:\*\* ([^\n]+)\n- \*\*Rationale:\*\* ([^\n]+(?:\n(?!- \*\*Key)[^\n]+)*)\n(?:- \*\*Key References:\*\*[\s\S]*?<PhenomeBibLinks items=\{(\[[\s\S]*?\])\} \/>\s*)?<\/div>/g;
 
   let m;
-  while ((m = re.exec(section[0])) !== null) {
+  while ((m = phenomeRe.exec(section[0])) !== null) {
     let references = [];
     if (m[5]) {
       try {
@@ -139,5 +143,48 @@ export function extractPmEvidenceEntries(pmContent) {
       references,
     });
   }
+  if (entries.length) return entries;
+
+  return extractLegacyPmEvidenceEntries(section[0], referenceNoteKeys);
+}
+
+const LEGACY_EVIDENCE_SKIP_RE = /boundaries of the mechanism|integration within/i;
+
+/** Legacy PM §5.1: #### (Heading) blocks inside hub collapsible panels. */
+export function extractLegacyPmEvidenceEntries(sectionText, referenceNoteKeys = []) {
+  const entries = [];
+  const panelRe =
+    /<div class="brs-fm-hub-panel" hidden>\s*\n\n([\s\S]*?)<\/div>\s*\n<\/div>\s*\n<\/div>/g;
+
+  for (const panelMatch of sectionText.matchAll(panelRe)) {
+    const body = panelMatch[1];
+    if (/- \*\*Confidence:\*\*/.test(body)) continue;
+
+    const blockRe = /####\s*\(([^)]+)\)\s*\n\n([\s\S]*?)(?=\n####\s*\(|\s*$)/g;
+    let block;
+    while ((block = blockRe.exec(body)) !== null) {
+      const title = block[1].trim();
+      if (LEGACY_EVIDENCE_SKIP_RE.test(title)) continue;
+
+      let rationale = block[2]
+        .trim()
+        .replace(/^>\s?/gm, "")
+        .replace(/\n+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+      if (!rationale || rationale.length < 40) continue;
+
+      entries.push({
+        title,
+        confidence: "low-medium",
+        evidence_level: "mechanistic",
+        rationale,
+        references: matchReferencesInRationale(rationale, referenceNoteKeys).map(
+          enrichReferenceWithDataLevel,
+        ),
+      });
+    }
+  }
+
   return entries;
 }

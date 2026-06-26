@@ -19,7 +19,7 @@ SECTIONS = [
             "integrate diet-actionable Primary Mechanisms (PMs): BRS1(FM1) Monoaminergic Function (PM1–PM4: amino-acid "
             "availability, LAT1 transport, noradrenergic executive modulation, serotonergic regulation); BRS1(FM2) "
             "Cholinergic Function (PM5: acetylcholine synthesis); BRS1(FM3) Membrane Lipid Integrity (PM6: neuronal DHA "
-            "incorporation); and BRS1(FM4) Excitatory–Inhibitory Balance (PM7–PM10: GABA–glutamate balance, GABA synthesis, "
+            "incorporation); and BRS1(FM4) GABA–Glutamate Regulation (PM7–PM10: GABA–glutamate balance, GABA synthesis, "
             "glutamate clearance, excitotoxicity modulation). Key Constraints (shared substrate pools) and Specific Mechanisms "
             "(phenotype, genetic, and cross-system interpretation layers) provide additional structural context.\n\n"
             "In ADHD, neurobiology spans multiple transmitter systems. Dopaminergic alterations vary by subtype, stage, and "

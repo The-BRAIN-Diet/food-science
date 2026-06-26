@@ -79,7 +79,7 @@ export const ENHANCEMENTS = {
   },
   "brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx": {
     translational:
-      "Provides an alternative path for handling homocysteine by converting it toward cysteine through transsulfuration (the sulfur-branch of one-carbon metabolism), linking one-carbon metabolism to sulfur amino acid supply. This branch helps balance remethylation demand with antioxidant precursor availability.",
+      "Provides the metabolic switch that diverts homocysteine from methylation toward cysteine production, linking one-carbon metabolism with antioxidant defence, sulfur amino-acid metabolism, glutathione synthesis, detoxification, and cellular resilience. This pathway helps balance methylation demand with protection against oxidative and metabolic stress, particularly during periods of increased redox burden.",
     scientific:
       "Conversion of homocysteine toward cysteine through the transsulfuration pathway — balancing remethylation demand with sulfur amino acid and glutathione precursor supply.",
   },

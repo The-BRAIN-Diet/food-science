@@ -21,7 +21,7 @@ const FM1_MONOAMINERGIC_PATHWAY = `[BRS1-FM1-PM1 — Amino-Acid Availability & P
 ↓
 [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
 ↓
-[BRS1-FM1-PM3 — Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation)
+[BRS1-FM1-PM3 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation)
 [BRS1-FM1-PM4 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation)`;
 
 const PATHWAYS_BY_PM_ID = {

@@ -3,12 +3,17 @@
  * @see system/phenome-relationship-schema.md
  */
 
+import {
+  classifyReferenceEvidence,
+  suggestedEvidenceConfidence,
+} from "./phenome-evidence-hierarchy.mjs";
 import { toReferenceLabel, topicFromBibKey } from "./brs-citation-migration.mjs";
 import {
   normalizeReferenceDataLevel,
   phenomeRefToBibItem,
   REFERENCE_DATA_LEVELS,
 } from "./reference-data-levels.mjs";
+import { renderHubCollapsible } from "./hub-collapsible.mjs";
 
 export const PHENOME_RELATIONSHIP_TYPES = new Set([
   "supports",
@@ -31,8 +36,14 @@ export const PHENOME_EVIDENCE_LEVELS = new Set([
   "clinical",
 ]);
 
+export const PHENOME_BIOLOGY_CONFIDENCE_LABEL = "Biology → Phenome Confidence";
+
+export const PHENOME_EVIDENCE_LEVEL_LABEL = "Evidence Level";
+
+export const PHENOME_EVIDENCE_CONFIDENCE_LABEL = "Evidence Confidence";
+
 export const PHENOME_DISCLAIMER =
-  "These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.";
+  "These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.";
 
 export const PHENOME_EMPTY_MESSAGE =
   "No direct functional outcome relationship currently mapped.";
@@ -54,7 +65,7 @@ export const FM_OUTCOME_CONTEXT_SECTION_TITLE = FM_PHENOME_CONNECTIONS_SECTION_T
 export const FM_PHENOME_SECTION_TITLE = FM_PHENOME_CONNECTIONS_SECTION_TITLE;
 
 export const FM_OUTCOME_CONTEXT_DISCLAIMER =
-  "These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Confidence may increase where multiple child PMs converge on the same functional outcome.";
+  "These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Biology → Phenome Confidence reflects biological relevance to each outcome — not proof that diet or lifestyle alone will improve it. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row. Integrated FM confidence may exceed a single child PM only when multiple PMs converge on the same phenome with justified biological uplift (Phase 3 review).";
 
 export const FM_OUTCOME_CONTEXT_EMPTY_MESSAGE =
   "No functional outcome context currently mapped.";
@@ -118,12 +129,57 @@ function confidenceFromRank(rank) {
   return CONFIDENCE_BY_RANK[rank] ?? "low";
 }
 
+export function resolveEvidenceConfidence(row, references = []) {
+  const key = String(row?.evidence_confidence || row?.research_confidence || "").trim();
+  if (PHENOME_CONFIDENCE_VALUES.has(key)) return key;
+  return suggestedEvidenceConfidence(classifyReferenceEvidence(references));
+}
+
+/** @deprecated Use resolveEvidenceConfidence */
+export const resolveResearchConfidence = resolveEvidenceConfidence;
+
+export function backfillEvidenceConfidenceOnData(data, kind) {
+  let changed = false;
+
+  if (
+    (kind === "pm" || kind === "sm") &&
+    Array.isArray(data.phenome_relationships)
+  ) {
+    data.phenome_relationships = data.phenome_relationships.map((row) => {
+      const refs = row.references || [];
+      const next = resolveEvidenceConfidence(row, refs);
+      const { research_confidence: _legacy, ...rest } = row;
+      if (rest.evidence_confidence === next) return rest;
+      changed = true;
+      return { ...rest, evidence_confidence: next };
+    });
+  }
+
+  if (kind === "fm" && Array.isArray(data.functional_outcome_context)) {
+    data.functional_outcome_context = data.functional_outcome_context.map((row) => {
+      const refs = row.references || [];
+      const next = resolveEvidenceConfidence(row, refs);
+      const { research_confidence: _legacy, ...rest } = row;
+      if (rest.evidence_confidence === next) return rest;
+      changed = true;
+      return { ...rest, evidence_confidence: next };
+    });
+  }
+
+  return changed;
+}
+
+/** @deprecated Use backfillEvidenceConfidenceOnData */
+export const backfillResearchConfidenceOnData = backfillEvidenceConfidenceOnData;
+
 export function formatOutcomeConfidence(confidence) {
   const key = String(confidence || "").trim();
   return CONFIDENCE_DISPLAY[key] ?? key;
 }
 
-export { REFERENCE_DATA_LEVELS } from "./reference-data-levels.mjs";
+function renderEvidenceConfidenceLine(row, references = []) {
+  return `- **${PHENOME_EVIDENCE_CONFIDENCE_LABEL}:** ${formatOutcomeConfidence(resolveEvidenceConfidence(row, references))}`;
+}
 
 function validatePhenomeReference(ref, issues, { entityLabel, index, refIndex }) {
   const prefix = `${entityLabel}: references[${refIndex}] in phenome_relationships[${index}]`;
@@ -160,6 +216,12 @@ export function validatePhenomeRelationshipRow(row, issues, { entityLabel, index
     issues.push({
       code: "invalid_phenome_confidence",
       message: `${prefix} confidence must be low | low-medium | medium | high`,
+    });
+  }
+  if (!PHENOME_CONFIDENCE_VALUES.has(String(row.evidence_confidence || "").trim())) {
+    issues.push({
+      code: "invalid_evidence_confidence",
+      message: `${prefix} evidence_confidence must be low | low-medium | medium | high`,
     });
   }
   if (!PHENOME_EVIDENCE_LEVELS.has(String(row.evidence_level || "").trim())) {
@@ -208,6 +270,12 @@ export function validateFunctionalOutcomeContextRow(row, issues, { entityLabel, 
     issues.push({
       code: "invalid_fm_outcome_confidence",
       message: `${prefix} confidence must be low | low-medium | medium | high`,
+    });
+  }
+  if (!PHENOME_CONFIDENCE_VALUES.has(String(row.evidence_confidence || "").trim())) {
+    issues.push({
+      code: "invalid_fm_evidence_confidence",
+      message: `${prefix} evidence_confidence must be low | low-medium | medium | high`,
     });
   }
   if (!row.synthesis || String(row.synthesis).trim() === "") {
@@ -324,6 +392,12 @@ export function validateSinglePmFmOutcomeAlignment(fmData, childPmData, issues, 
         message: `${entityLabel}: "${phenome}" confidence must be "${pmRel.confidence}" to match sole child PM ${childPmId} (found "${fmRow.confidence}")`,
       });
     }
+    if (fmRow.evidence_confidence !== pmRel.evidence_confidence) {
+      issues.push({
+        code: "single_pm_fm_evidence_confidence_mismatch",
+        message: `${entityLabel}: "${phenome}" evidence_confidence must be "${pmRel.evidence_confidence}" to match sole child PM ${childPmId} (found "${fmRow.evidence_confidence}")`,
+      });
+    }
   }
 
   for (const [outcomeName] of fmByOutcome) {
@@ -418,6 +492,46 @@ function renderPhenomeReferencesBlock(references) {
   return ["- **Key References:**", "", `<PhenomeBibLinks items={${serialized}} />`];
 }
 
+/**
+ * SM-PHEN §2 — one registry phenome interpretation lens (not PM roll-up).
+ * @see system/phenome-relationship-schema.md#sm-phen--2-phenome-connections
+ */
+export function renderSmPhenPhenomeSectionBody(data, { sectionNum = 2 } = {}) {
+  const ip = data.interpreted_phenome;
+  const lens = String(data.interpretation_lens || "").trim();
+  const hostBrs = String(data.parent_brs || "").trim();
+
+  const lines = [`## ${sectionNum}. ${PM_PHENOME_SECTION_TITLE}`, "", PHENOME_DISCLAIMER, ""];
+
+  if (!ip?.id || !ip?.name || !ip.confidence) {
+    lines.push(PHENOME_EMPTY_MESSAGE);
+    return lines.join("\n");
+  }
+
+  const registryId = String(ip.id).toLowerCase();
+  lines.push(
+    `**Registry phenome:** [${ip.id} — ${ip.name}](/docs/phenomes/#${registryId}) — see Phenome Registry for the canonical definition.`,
+    "",
+    `This page is one **${hostBrs || "host BRS"} interpretation lens** on that phenome (${lens || "connected host biology"}). Other BRS-hosted \`SM-PHEN\` pages may interpret the same registry phenome from different biology without duplicating PM content here.`,
+    "",
+  );
+
+  const type = ip.relationship_type || "modulates";
+  const panelLines = [
+    `- **${PHENOME_BIOLOGY_CONFIDENCE_LABEL}:** ${formatOutcomeConfidence(ip.confidence)}`,
+    `- **Rationale:** ${String(ip.rationale || "").trim()}`,
+  ];
+  if (Array.isArray(ip.references) && ip.references.length > 0) {
+    panelLines.push(...renderPhenomeReferencesBlock(ip.references));
+  }
+  panelLines.push(renderEvidenceConfidenceLine(ip, ip.references || []));
+  const summary = `${ip.name} — ${type}${hostBrs ? ` (${hostBrs} lens)` : ""}`;
+  lines.push(renderHubCollapsible(summary, panelLines.join("\n")));
+  lines.push("");
+
+  return lines.join("\n").trimEnd();
+}
+
 export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 3 } = {}) {
   const lines = [`## ${sectionNum}. ${PM_PHENOME_SECTION_TITLE}`, "", PHENOME_DISCLAIMER, ""];
   if (!relationships.length) {
@@ -428,17 +542,15 @@ export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 3 
   for (const rel of relationships) {
     const target = rel.target_phenome;
     const type = rel.relationship_type;
-    lines.push("<details>");
-    lines.push(`<summary><strong>${target} — ${type}</strong></summary>`);
-    lines.push("");
-    lines.push(`- **Confidence:** ${rel.confidence}`);
-    lines.push(`- **Evidence Level:** ${rel.evidence_level}`);
-    lines.push(`- **Rationale:** ${rel.rationale}`);
+    const panelLines = [
+      `- **${PHENOME_BIOLOGY_CONFIDENCE_LABEL}:** ${formatOutcomeConfidence(rel.confidence)}`,
+      `- **Rationale:** ${rel.rationale}`,
+    ];
     if (Array.isArray(rel.references) && rel.references.length > 0) {
-      lines.push(...renderPhenomeReferencesBlock(rel.references));
+      panelLines.push(...renderPhenomeReferencesBlock(rel.references));
     }
-    lines.push("");
-    lines.push("</details>");
+    panelLines.push(renderEvidenceConfidenceLine(rel, rel.references || []));
+    lines.push(renderHubCollapsible(`${target} — ${type}`, panelLines.join("\n")));
     lines.push("");
   }
 
@@ -459,16 +571,15 @@ export function renderFmOutcomeContextSectionBody(outcomes = [], { sectionNum = 
 
   for (const row of outcomes) {
     const target = row.outcome_name;
-    lines.push("<details>");
-    lines.push(`<summary><strong>${target}</strong></summary>`);
-    lines.push("");
-    lines.push(`- **Confidence:** ${row.confidence}`);
-    lines.push(`- **Synthesis:** ${String(row.synthesis).trim()}`);
+    const panelLines = [
+      `- **${PHENOME_BIOLOGY_CONFIDENCE_LABEL}:** ${formatOutcomeConfidence(row.confidence)}`,
+      `- **Synthesis:** ${String(row.synthesis).trim()}`,
+    ];
     if (Array.isArray(row.references) && row.references.length > 0) {
-      lines.push(...renderPhenomeReferencesBlock(row.references));
+      panelLines.push(...renderPhenomeReferencesBlock(row.references));
     }
-    lines.push("");
-    lines.push("</details>");
+    panelLines.push(renderEvidenceConfidenceLine(row, row.references || []));
+    lines.push(renderHubCollapsible(target, panelLines.join("\n")));
     lines.push("");
   }
 
@@ -546,16 +657,21 @@ export function validatePhenomeSectionBody(content, issues, { entityLabel, kind 
     });
   }
   const fmSection = extractFmOutcomeContextSection(content);
-  if (fmSection && fmSection.includes("<details>") === false && !fmSection.includes(FM_OUTCOME_CONTEXT_EMPTY_MESSAGE)) {
+  if (
+    fmSection &&
+    !/data-brs-fm-hub/.test(fmSection) &&
+    fmSection.includes("<details>") === false &&
+    !fmSection.includes(FM_OUTCOME_CONTEXT_EMPTY_MESSAGE)
+  ) {
     issues.push({
       code: "fm_outcome_context_dropdowns",
-      message: `${entityLabel}: FM §3 outcomes must use <details> dropdowns (see renderFmOutcomeContextSectionBody)`,
+      message: `${entityLabel}: FM §3 outcomes must use hub collapsible dropdowns (see renderFmOutcomeContextSectionBody)`,
     });
   }
   if (fmSection && /^###\s+/m.test(fmSection)) {
     issues.push({
       code: "fm_outcome_context_heading_blocks",
-      message: `${entityLabel}: FM §3 must not use ### outcome headings — use <details> dropdowns`,
+      message: `${entityLabel}: FM §3 must not use ### outcome headings — use hub collapsible dropdowns`,
     });
   }
   if (/\|\s*Phenome\s*\|\s*Connected PMs\s*\|/m.test(content)) {
@@ -572,19 +688,19 @@ export function validatePhenomeSectionBody(content, issues, { entityLabel, kind 
   }
 }
 
-const PHENOME_CITATION_KEY_RE = /BRAIN-Diet-References#([a-z0-9_-]+)/gi;
+const PHENOME_CITATION_KEY_CAPTURE = /BRAIN-Diet-References#([a-z0-9_-]+)/i;
 
 function citationKeyFromReference(ref) {
   if (!ref) return null;
   if (typeof ref === "object") {
     if (ref.citation_key) return String(ref.citation_key).trim();
     if (ref.href) {
-      const m = String(ref.href).match(PHENOME_CITATION_KEY_RE);
+      const m = String(ref.href).match(PHENOME_CITATION_KEY_CAPTURE);
       return m?.[1] || null;
     }
   }
   if (typeof ref === "string") {
-    const m = ref.match(PHENOME_CITATION_KEY_RE);
+    const m = ref.match(PHENOME_CITATION_KEY_CAPTURE);
     return m?.[1] || null;
   }
   return null;
@@ -614,17 +730,25 @@ function fullLabelFromReference(ref, citationKey) {
 }
 
 function collectPhenomeReferenceEntries(data, kind) {
+  const byKey = new Map();
+
+  function absorbRef(ref) {
+    const citationKey = citationKeyFromReference(ref);
+    if (!citationKey || byKey.has(citationKey)) return;
+    const href = `/docs/papers/BRAIN-Diet-References#${citationKey}`;
+    const label = fullLabelFromReference(ref, citationKey);
+    byKey.set(citationKey, { citationKey, label, href });
+  }
+
+  if (kind === "sm" && data.interpreted_phenome?.references) {
+    for (const ref of data.interpreted_phenome.references) absorbRef(ref);
+    return byKey;
+  }
+
   const rows =
     kind === "fm" ? data.functional_outcome_context || [] : data.phenome_relationships || [];
-  const byKey = new Map();
   for (const row of rows) {
-    for (const ref of row.references || []) {
-      const citationKey = citationKeyFromReference(ref);
-      if (!citationKey || byKey.has(citationKey)) continue;
-      const href = `/docs/papers/BRAIN-Diet-References#${citationKey}`;
-      const label = fullLabelFromReference(ref, citationKey);
-      byKey.set(citationKey, { citationKey, label, href });
-    }
+    for (const ref of row.references || []) absorbRef(ref);
   }
   return byKey;
 }

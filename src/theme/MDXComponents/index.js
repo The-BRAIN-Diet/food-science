@@ -21,6 +21,7 @@ import FoodShoppingList from '../FoodShoppingList';
 import NutritionTable from '../../components/NutritionTable';
 import PhenomeBibLinks from '../../components/PhenomeBibLinks';
 import PhenomeRegistry from '../PhenomeRegistry';
+import PhenomeDetail from '../PhenomeRegistry/PhenomeDetail';
 
 export default {
   ...MDXComponents,
@@ -45,4 +46,5 @@ export default {
   FoodShoppingList,
   PhenomeBibLinks,
   PhenomeRegistry,
+  PhenomeDetail,
 };

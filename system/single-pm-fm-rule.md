@@ -28,7 +28,7 @@ The framework must **not** force artificial PM integration where none exists.
 
 - Multiple child PMs
 - FM narrative explains how PMs interact
-- Functional Failure Modes emerge from combined PM constraints
+- Suboptimal function patterns emerge from combined PM constraints
 - Phenome confidence may increase where multiple PMs converge on the same outcome
 
 **Narrative focus:** integration across multiple primary mechanisms.
@@ -77,7 +77,7 @@ Explain:
 
 > Although BRS1(FM3) is principally operationalised through BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation, the FM represents the broader membrane structural environment within which neuronal communication occurs. Membrane composition influences receptor function, ion-channel behaviour, synaptic transmission, and network signalling competence while interacting with phospholipid metabolism, lipid protection, inflammatory regulation, and downstream lipid-signalling systems.
 
-### 4.3 Functional Failure Modes
+### 4.3 Suboptimal Function & Its Effects
 
 Failure modes should extend **beyond the PM itself**. Include:
 

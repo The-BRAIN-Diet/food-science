@@ -13,9 +13,11 @@ import {
 } from "./lib/mechanism-page-validation.mjs";
 import {
   PM_PHENOME_SECTION_TITLE,
+  backfillEvidenceConfidenceOnData,
   mergePageReferencesWithPhenome,
   renderFmOutcomeContextSectionBody,
   renderPmPhenomeSectionBody,
+  renderSmPhenPhenomeSectionBody,
 } from "./lib/phenome-relationships.mjs";
 import { assertAllFmsHaveEvidenceHighlights } from "./lib/fm-schema-gate.mjs";
 
@@ -91,11 +93,14 @@ function buildPhenomeBlock(kind, data, sectionNum) {
   if (kind === "fm") {
     return renderFmOutcomeContextSectionBody(data.functional_outcome_context || [], { sectionNum });
   }
+  if (kind === "sm" && data.sm_category === "SM-PHEN" && data.interpreted_phenome?.confidence) {
+    return renderSmPhenPhenomeSectionBody(data, { sectionNum });
+  }
   return renderPmPhenomeSectionBody(data.phenome_relationships || [], { sectionNum });
 }
 
 function shouldSkipSmPhenomeSync(data) {
-  return Boolean(data.interpreted_phenome);
+  return data.sm_category === "SM-PHEN" && !data.interpreted_phenome?.confidence;
 }
 
 function inferKindFromArgv(fileArg) {
@@ -115,19 +120,16 @@ function syncPhenomeSection(filePath, kind) {
   if (kind === "sm" && shouldSkipSmPhenomeSync(data)) {
     return { skipped: true, reason: "sm-phen-hand-authored" };
   }
-  if (
-    kind === "fm" &&
-    (!Array.isArray(data.functional_outcome_context) || data.functional_outcome_context.length === 0)
-  ) {
-    return { skipped: true, reason: "fm-hand-authored" };
-  }
 
+  const backfillChanged = backfillEvidenceConfidenceOnData(data, kind);
   const phenomeBlock = buildPhenomeBlock(kind, data, section.level);
   let body = replacePhenomeSection(content, phenomeBlock, section);
   const merged = mergePageReferencesWithPhenome(data, body, kind);
   body = merged.content;
   const outData = merged.data;
-  if (body === content && !merged.changed) return { skipped: true, reason: "unchanged" };
+  if (body === content && !merged.changed && !backfillChanged) {
+    return { skipped: true, reason: "unchanged" };
+  }
 
   fs.writeFileSync(filePath, matter.stringify(body, outData, { lineWidth: 9999 }), "utf8");
   return { skipped: false, file: path.relative(rootDir, filePath) };

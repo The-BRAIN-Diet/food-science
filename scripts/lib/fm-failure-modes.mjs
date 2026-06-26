@@ -1,14 +1,16 @@
 /**
- * Build FM §4.3 Functional Failure Modes from linked KC stressors and PM context.
+ * Build FM §4.3 Suboptimal Function & Its Effects from linked KC stressors and PM context.
  */
 
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { extractKcStressors } from "./kc-stressor-extract.mjs";
+import { FM_FAILURE_43_OVERRIDES } from "../data/brs1-3-fm-section4-overrides.mjs";
 
 export const FM_FAILURE_OVERRIDES = {
-  "BRS5(FM1)": `### 4.3 Functional Failure Modes
+  ...FM_FAILURE_43_OVERRIDES,
+  "BRS5(FM1)": `### 4.3 Suboptimal Function & Its Effects
 
 Gut barrier integrity may weaken when fermentable substrate availability declines, barrier-supportive nutrient sufficiency is inadequate, keystone taxa support is reduced, or endotoxin containment becomes compromised.
 
@@ -184,7 +186,7 @@ export function buildFailureModesSection(fmData, kcStressorMap) {
   const kcParas = kcs.map((kc) => weaveKcStressors(kc, kcStressorMap[kc.id] || [])).join("\n\n");
   const closing = buildClosing(fmData, pms);
 
-  return `### 4.3 Functional Failure Modes
+  return `### 4.3 Suboptimal Function & Its Effects
 
 ${opening}
 
@@ -212,7 +214,7 @@ export function loadKcStressorMap(rootDir) {
 
 export function insertFailureModesInSection4(section4, failureModes, evidenceBlock) {
   let body = section4.replace(/\n### 4\.4 Evidence Highlights[\s\S]*?(?=\n## 5\.|$)/, "");
-  body = body.replace(/\n### 4\.3 Functional Failure Modes[\s\S]*?(?=\n### 4\.4|\n## 5\.|$)/, "");
+  body = body.replace(/\n### 4\.3 Suboptimal Function & Its Effects[\s\S]*?(?=\n### 4\.4|\n## 5\.|$)/, "");
   body = body.replace(/\n### 4\.2 Supporting Biological Pools \(Key Constraints\)[\s\S]*?(?=\n### 4\.[23])/g, "");
 
   const failure = failureModes ? `\n\n${failureModes}` : "";

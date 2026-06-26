@@ -20,6 +20,10 @@ hide_title: true
 
 (Gut Barrier, Microbial Signalling & Gut–Brain Neural Pathways)
 
+## Ambition
+
+Maintain a resilient gut ecosystem that supports digestion, barrier integrity, microbial homeostasis, and integrated gut–brain signalling.
+
 ## Overview
 
 Helps maintain a selective gut barrier, beneficial microbial metabolite signalling, and gut-to-brain communication through vagal and enteric nervous system pathways. Gut ecology and barrier integrity shape immune containment and brain-relevant neuromodulatory inputs.
@@ -28,10 +32,105 @@ Helps maintain a selective gut barrier, beneficial microbial metabolite signalli
 * Links gut ecology to inflammatory containment — Supporting BRS3.
 * Connects gut–vagal pathways to neuroendocrine stress biology — Supporting BRS6.
 
+<!-- brs-hub-levers:start -->
+<div class="brs-hub-levers">
 
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-<details>
-<summary><strong>ADHD: Gut–Brain Axis & Enteric Nervous System Biological Implications</strong></summary>
+<p class="brs-hub-levers-intro">Educational rollup of whole-food dietary levers referenced across BRS5 primary mechanisms. Foods are deduplicated at the BRS level and grouped for practical scanning — mechanistic rationale stays on individual PM pages.</p>
+
+<div class="brs-hub-levers-key-constraints">
+<p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
+<p class="brs-hub-lever-kc-commentary">Key constraints across this system are those with fermentable fibre and resistant-starch intake; or broad plant-diversity and barrier-supportive nutrients. Whole foods such as Barley, Berries, Eggs, Mackerel, Oats, and Pumpkin Seeds supply the common pools.</p>
+<p class="brs-hub-lever-kc-foods">Apples, Barley, Basil, Berries, Brown Rice, Chia Seeds, Chicory, Cinnamon, Clams, Cocoa, Cooled Potatoes, Cooled Rice, Cranberries, Eggs, Flax, Flaxseed, Ginger, Green Bananas, Green Tea, Legumes, Liver, Mackerel, Meat, Mussels, Oats, Onions, Orange Vegetables, Oregano, Oysters, Parsley, Pomegranate, Protein Foods, Pumpkin Seeds, Quinoa, Salmon, Sardines, Turmeric</p>
+</div>
+
+<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Fermentable-fibre intake · plant-diversity patterns · polyphenol-rich foods · barrier-supportive nutrient pairing</p>
+
+<div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Nutrient-dense stars / signature foods</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<ul class="brs-hub-lever-list">
+<li>Barley <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a></span></li>
+<li>Berries <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></li>
+<li>Fermented Vegetables <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
+<li>Kefir <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
+<li>Mackerel <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></li>
+<li>Oats <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a></span></li>
+<li>Pumpkin Seeds <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></li>
+<li>Salmon <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></li>
+<li>Sardines <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></li>
+<li>Walnuts <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></li>
+<li>Yogurt <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural levers referenced across BRS5 PM pages — educational context, not clinical prescription.</p>
+
+<ul class="brs-hub-lever-list">
+<li>Consistent meal timing may help support microbial rhythm stability. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a></span></li>
+<li>Daily pattern consistency matters more than intermittent “gut reset” attempts. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></li>
+<li>Daily pattern quality matters more than short-term “detox” framing. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a></span></li>
+<li>Highly restrictive, low-variety eating may work against keystone support over time. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a></span></li>
+<li>Lower alcohol and ultra-processed food exposure may reduce barrier strain. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></li>
+<li>Meal regularity may be especially relevant where enteric rhythm is unstable. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
+<li>Meal regularity may indirectly support fermentation continuity by stabilising ecological inputs. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a></span></li>
+<li>Repeated daily patterning matters more than one-off vagal-support ideas. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
+<li>Repeated daily substrate exposure matters more than sporadic bolus intake. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a></span></li>
+<li>Repeated dietary pattern quality matters more than isolated amino-acid emphasis. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability" class="brs-hub-lever-pm">BRS5-FM3-PM8</a></span></li>
+<li>Repeated dietary pattern quality matters more than occasional microbiome-focused meals. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a></span></li>
+<li>Repeated exposure matters more than isolated “superfood” use. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></li>
+<li>Repeated pattern quality matters more than short probiotic “bursts”. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a></span></li>
+<li>Responder variability should be expected even under strong dietary adherence. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></li>
+<li>Sleep, stress, and highly erratic eating may worsen metabolic endotoxemia context indirectly. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a></span></li>
+<li>Sleep, stress, and meal irregularity may indirectly worsen gut-side precursor context. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability" class="brs-hub-lever-pm">BRS5-FM3-PM8</a></span></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-levers:end -->
+
+## Therapeutic Area Research
+
+<!-- brs-hub-ta-research:start -->
+<div class="brs-hub-ta-research">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>ADHD: Gut–Brain Axis & Enteric Nervous System Biological Implications</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 ### Introduction
 
@@ -82,7 +181,12 @@ Lower *Bifidobacterium longum* abundance in infancy has been associated with inc
 - Propionate can stimulate the secretion of norepinephrine, possibly benefiting ADHD symptoms like attention and focus [Hoyles et al. 2018](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)
 - A lowered abundance of Bifidobacterium longum in infancy has been associated with increased risk of developing ADHD and Asperger syndrome in childhood [Pärtty et al. 2015](/docs/papers/BRAIN-Diet-References#partty_possible_2015)
 
-</details>
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-ta-research:end -->
 
 ---
 
@@ -90,22 +194,33 @@ Lower *Bifidobacterium longum* abundance in infancy has been associated with inc
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
-<details>
-<summary><strong>BRS5(FM1) — Gut Barrier Integrity & Immune Interface</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS5(FM1) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS5(FM1) — Gut Barrier Integrity & Immune Interface</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface" aria-label="Open FM: BRS5(FM1) — Gut Barrier Integrity & Immune Interface">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
 
-Diet-actionable control point regulating epithelial tight-junction integrity, mucus protection, and immune containment at the gut-brain interface.
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity">BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity</a></li>
+  <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment">BRS5-FM1-PM2 — LPS / Endotoxin Containment</a></li>
+  <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support">BRS5-FM1-PM3 — Keystone Taxa Support</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+A diet-actionable control point regulating epithelial tight-junction integrity, mucus protection, and immune containment at the gut–brain interface (keeping gut contents selectively separated from systemic circulation).
 
 **FM page:** [BRS5(FM1) — Gut Barrier Integrity & Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface)
 
 **Primary biological effects:** ↑ tight-junction integrity; ↓ LPS translocation; ↑ gut-immune containment
 
 **Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
-
-**Primary mechanisms (PMs):**
-
-- [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity)
-- [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment)
-- [BRS5-FM1-PM3 — Keystone Taxa Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support)
 
 **Key constraints:**
 
@@ -114,27 +229,40 @@ Diet-actionable control point regulating epithelial tight-junction integrity, mu
 
 **Connected mechanisms:**
 
-- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling)
-- [BRS6-FM1-PM3 - Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal)
+- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — and wider immune tone
+- [BRS6-FM1-PM3 - Insulin Sensitivity & Glucose Disposal](/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal) — biological connection relevant to this mechanism
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>BRS5(FM2) — Microbial Metabolite Signalling Capacity</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS5(FM2) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS5(FM2) — Microbial Metabolite Signalling Capacity</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity" aria-label="Open FM: BRS5(FM2) — Microbial Metabolite Signalling Capacity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
 
-Functional control point governing production of beneficial microbial metabolites that shape immune, endocrine, and neurobiological signalling.
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection">BRS5-FM2-PM4 — Microbial Ecological Turnover & Competitive Selection</a></li>
+  <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling">BRS5-FM2-PM5 — SCFA Production & Signalling</a></li>
+  <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation">BRS5-FM2-PM6 — Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+A functional control point governing production of beneficial microbial metabolites that shape immune, endocrine, and neurobiological signalling.
 
 **FM page:** [BRS5(FM2) — Microbial Metabolite Signalling Capacity](/docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity)
 
 **Primary biological effects:** ↑ SCFA signalling; ↑ polyphenol biotransformation; ↑ metabolite-mediated gut-brain communication
 
 **Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
-
-**Primary mechanisms (PMs):**
-
-- [BRS5-FM2-PM4 — Microbial Ecological Turnover & Competitive Selection](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection)
-- [BRS5-FM2-PM5 — SCFA Production & Signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling)
-- [BRS5-FM2-PM6 — Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation](/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation)
 
 **Key constraints:**
 
@@ -143,15 +271,34 @@ Functional control point governing production of beneficial microbial metabolite
 
 **Connected mechanisms:**
 
-- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling)
-- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function)
+- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — biological connection relevant to this mechanism
+- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — biological connection relevant to this mechanism
+- [BRS6-FM2-PM5 - Circadian Feeding & Light-Dark Entrainment](/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment) — fM2-PM5 - Circadian Feeding & Light-Dark Entrainment context relevant to this mechanism
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>BRS5(FM3) — Gut-Vagal Neuromodulation & ENS Signalling</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS5(FM3) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS5(FM3) — Gut-Vagal Neuromodulation & ENS Signalling</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling" aria-label="Open FM: BRS5(FM3) — Gut-Vagal Neuromodulation & ENS Signalling">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
 
-Diet-actionable control point regulating vagal and enteric signalling through microbial activity, barrier state, and metabolite/neurochemical cues.
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation">BRS5-FM3-PM7 — Vagal / ENS Signalling Modulation</a></li>
+  <li><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability">BRS5-FM3-PM8 — Neurotransmitter Precursor Biotransformation & Availability</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+A diet-actionable control point regulating vagal and enteric nervous system signalling through microbial activity, barrier state, and metabolite or neurochemical cues (gut-to-brain neuromodulation).
 
 **FM page:** [BRS5(FM3) — Gut-Vagal Neuromodulation & ENS Signalling](/docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling)
 
@@ -159,21 +306,18 @@ Diet-actionable control point regulating vagal and enteric signalling through mi
 
 **Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Daily
 
-**Primary mechanisms (PMs):**
-
-- [BRS5-FM3-PM7 — Vagal / ENS Signalling Modulation](/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation)
-- [BRS5-FM3-PM8 — Neurotransmitter Precursor Biotransformation & Availability](/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability)
-
 **Key constraints:**
 
 - [BRS5(KC1) — Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability)
 
 **Connected mechanisms:**
 
-- [BRS1-FM3-PM6 - Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation)
-- [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation)
+- [BRS1-FM3-PM6 - Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — biological connection relevant to this mechanism
+- [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — biological connection relevant to this mechanism
 
-</details>
+</div>
+</div>
+</div>
 
 ---
 

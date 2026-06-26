@@ -131,7 +131,10 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  clientModules: [require.resolve('./src/client/resetSidebarState.ts')],
+  clientModules: [
+    require.resolve('./src/client/resetSidebarState.ts'),
+    require.resolve('./src/client/brsFmHubDropdown.ts'),
+  ],
 
   markdown: {
     mermaid: true,

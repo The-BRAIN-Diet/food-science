@@ -200,13 +200,15 @@ export function parseHubConnectedMechanisms(root) {
   for (const file of fs.readdirSync(hubDir)) {
     if (!file.endsWith(".md")) continue;
     const content = fs.readFileSync(path.join(hubDir, file), "utf8");
-    const blocks = content.split(/<details>/);
+    const blocks = content.split(/(?:data-brs-fm-hub|<details>)/);
     for (const block of blocks) {
-      const fmMatch = block.match(/<summary><strong>(BRS[\dX][^<]+)<\/strong>/);
+      const fmMatch = block.match(/<strong>(BRS[\dX][^<]+)<\/strong>/);
       if (!fmMatch) continue;
       const fmHeader = fmMatch[1].trim();
       const fmId = fmHeader.split(/\s*[-—]\s*/)[0].trim();
-      const connMatch = block.match(/\*\*Connected mechanisms:\*\*\s*\n+([\s\S]*?)(?=\n<\/details>|\n---|\n## )/i);
+      const connMatch = block.match(
+        /\*\*Connected mechanisms:\*\*\s*\n+([\s\S]*?)(?=\n<\/div>\s*\n<\/div>\s*\n<\/div>|\n<\/details>|\n---|\n## )/i,
+      );
       if (!connMatch) continue;
       const links = new Map();
       for (const line of connMatch[1].split("\n")) {

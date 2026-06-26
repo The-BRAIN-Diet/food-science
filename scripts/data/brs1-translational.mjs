@@ -2,8 +2,10 @@
 export const BRS1_UPDATES = {
   "brs1/fm1/brs1-fm1-monoaminergic-function.mdx": {
     subtitle: "(Attention, Motivation & Emotional Regulation Systems)",
+    mission:
+      "Maintain reliable monoaminergic signalling so attention, motivation, arousal, and emotional regulation stay supported across everyday cognitive and emotional demands.",
     translational:
-      "Supports attention, motivation, arousal, emotional regulation, and behavioural control through the brain's dopamine, noradrenaline, and serotonin systems (collectively known as the monoamine neurotransmitter systems). Stable signalling across these systems underpins many day-to-day cognitive and emotional functions.",
+      "Integrates amino-acid precursor availability, LAT1 competitive transport, noradrenergic attention pathways, and serotonergic regulation into a coherent monoaminergic function state. Dietary protein patterns, meal composition, and cofactor sufficiency provide the practical levers that shape how effectively these pathways can be supplied and coordinated.",
     scientific:
       "Integrated regulation spans amino-acid precursor availability (PM1), LAT1 competitive transport (PM2), noradrenergic attention pathways (PM3), and serotonergic signalling (PM4) — together shaping monoaminergic brain signalling capacity.",
     bullets: [
@@ -14,6 +16,8 @@ export const BRS1_UPDATES = {
   },
   "brs1/fm2/brs1-fm2-cholinergic-function.mdx": {
     subtitle: "(Attention, Learning & Working Memory Systems)",
+    mission:
+      "Sustain acetylcholine-supported cholinergic signalling so attention, working memory, and learning-focused cognitive precision remain well supplied.",
     translational:
       "Supports attention, working memory, and cognitive precision through the brain's cholinergic signalling system (acetylcholine-based communication between neurons). Dietary choline and related substrates help maintain the biochemical foundation for learning-focused brain activity.",
     scientific:
@@ -26,6 +30,8 @@ export const BRS1_UPDATES = {
   },
   "brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx": {
     subtitle: "(Neuronal Membrane Structure & Omega-3 Delivery)",
+    mission:
+      "Maintain neuronal membrane structure and omega-3 delivery so the brain has the lipid foundation required for stable signalling.",
     translational:
       "Supports healthy neuronal membranes and the long-chain omega-3 fats the brain needs for stable signalling. Getting DHA to the brain in the right carrier form (phospholipid-bound transport) helps maintain membrane flexibility and structural integrity over time.",
     scientific:
@@ -38,6 +44,8 @@ export const BRS1_UPDATES = {
   },
   "brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation.mdx": {
     subtitle: "(Neural Excitation–Inhibition Balance & Stability)",
+    mission:
+      "Keep excitatory and inhibitory neural signalling in balance so focus, emotional control, and sensory stability stay supported.",
     translational:
       "Helps the brain maintain stable neural activity by balancing excitatory glutamate signalling and inhibitory GABA signalling (the principal excitatory–inhibitory pair). Good excitation–inhibition balance supports focus, emotional control, and resistance to sensory overwhelm.",
     scientific:
@@ -49,6 +57,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx": {
+    subtitle: "(Neurotransmitter Protein Requirements)",
     translational:
       "Helps ensure the brain has enough of the right amino acids from your meals to support neurotransmitter production and stable signalling. Getting protein quantity, quality, and meal distribution right matters for the biochemical foundation of attention, mood, and cognitive control.",
     scientific:
@@ -60,6 +69,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx": {
+    subtitle: "(Blood–Brain Barrier Transport Competition)",
     translational:
       "Influences which amino acids reach the brain after a meal by shaping competitive transport at the blood–brain barrier (via the LAT1 transporter). Meal composition can shift whether tyrosine, tryptophan, and other precursors are favourably or unfavourably presented for brain entry.",
     scientific:
@@ -71,6 +81,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation.mdx": {
+    subtitle: "(Attention & Executive Modulation)",
     translational:
       "Supports alertness, focus, and executive control through noradrenaline (norepinephrine) — a key monoamine signal for attention and arousal. Stable noradrenergic signalling helps the brain maintain appropriate vigilance and cognitive engagement.",
     scientific:
@@ -82,6 +93,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation.mdx": {
+    subtitle: "(Pathways for Mood & Behavioural Control)",
     translational:
       "Helps support emotional regulation, stress resilience, and behavioural control through serotonin-related brain signalling (a key monoamine for mood and inhibition). Stable serotonergic activity contributes to mood stability, inhibition, and sleep-compatible neurochemistry.",
     scientific:
@@ -93,6 +105,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support.mdx": {
+    subtitle: "(Choline supported neurotransmission for learning and focus)",
     translational:
       "Supports attention, working memory, and cognitive precision by helping the brain convert dietary choline into acetylcholine (the principal cholinergic neurotransmitter). Choline-rich foods provide the substrate for a signalling system central to learning and focus.",
     scientific:
@@ -104,6 +117,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation.mdx": {
+    subtitle: "(Getting Omega-3 DHA Into Brain Membranes)",
     translational:
       "Helps supply the brain with DHA (docosahexaenoic acid) and integrate it into neuronal membranes over time, supporting membrane flexibility and the structural environment in which neural signalling occurs. Habitual omega-3 intake and phospholipid-carrier form matter more than isolated high-dose episodes.",
     scientific:
@@ -115,6 +129,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance.mdx": {
+    subtitle: "(Excitation–Inhibition Balance for Neural Stability)",
     translational:
       "Helps maintain the balance between brain excitation (glutamate) and inhibition (GABA) — a foundation for attention, emotional control, and stable reactivity. When inhibitory and excitatory signalling are well matched, neural networks operate with greater stability.",
     scientific:
@@ -126,6 +141,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity.mdx": {
+    subtitle: "(Building the Brain's Main Inhibitory Signal)",
     translational:
       "Supports inhibitory tone by helping the brain convert glutamate into GABA (gamma-aminobutyric acid, the principal inhibitory neurotransmitter). Adequate GABA synthesis capacity helps maintain calm, control, and resistance to overstimulation.",
     scientific:
@@ -137,6 +153,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling.mdx": {
+    subtitle: "(Controlling Excitatory Load in Neural Circuits)",
     translational:
       "Helps protect neural circuits from excessive excitatory drive by clearing and recycling glutamate (the brain's main excitatory neurotransmitter). Effective glutamate control supports stable signalling and reduces risk of excitatory overload.",
     scientific:
@@ -148,6 +165,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation.mdx": {
+    subtitle: "(Protecting Circuits from Excessive Excitatory Stress)",
     translational:
       "Helps protect the brain from excessive excitatory stress when glutamatergic drive becomes too strong (excitotoxic pressure). Modulating this burden supports neural stability and cognitive regulation over time.",
     scientific:
@@ -171,6 +189,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/sm/brs1-sm-snp1-comt-catecholamine-clearance-sensitivity.mdx": {
+    subtitle: "(Genetic Sensitivity to Catecholamine Clearance)",
     translational:
       "Helps explain why some people may be more sensitive to tyrosine-rich meals, competitive amino-acid transport, and noradrenergic arousal context based on genetic variation in catecholamine clearance (COMT genotype). COMT genotype modulates how stable BRS1 monoaminergic biology is read — not whether it works.",
     scientific:
@@ -182,6 +201,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/sm/brs1-sm-snp2-apoe4-omega-3-brain-delivery-sensitivity.mdx": {
+    subtitle: "(Genetic Sensitivity to Brain Omega-3 Delivery)",
     translational:
       "Helps explain why omega-3 supplementation and brain DHA delivery may appear less effective in some people carrying the APOE4 variant (a common lipid-transport genotype). Genotype-sensitive reading prevents over-interpreting uniform trial results.",
     scientific:
@@ -193,6 +213,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation.mdx": {
+    subtitle: "(Sensory Overwhelm & Inhibitory Control Patterns)",
     translational:
       "Helps interpret sensory overwhelm, reactivity, and difficulty maintaining inhibitory control when excitatory–inhibitory balance is under strain. Connected BRS1 mechanisms may support regulatory stability through meal and dietary patterns.",
     scientific:
@@ -204,6 +225,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation.mdx": {
+    subtitle: "(Reading Emotional Reactivity Through Monoamine Biology)",
     translational:
       "Helps interpret patterns of emotional reactivity, affective instability, and difficulty maintaining emotional control under stress — a major but often underacknowledged dimension of ADHD. Emotional dysregulation is a functional phenotype pattern, not a single neurotransmitter pathway.",
     scientific:
@@ -215,6 +237,7 @@ export const BRS1_UPDATES = {
     ],
   },
   "brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk.mdx": {
+    subtitle: "(Wakefulness, Attention & Immune–Gut Crosstalk)",
     translational:
       "Helps interpret how wakefulness, vigilance, and attentional readiness are influenced by histamine (a brain arousal signal that also responds to immune, gut, and circadian inputs). Understanding this cross-system biology helps read attention and sleep–wake patterns in context.",
     scientific:

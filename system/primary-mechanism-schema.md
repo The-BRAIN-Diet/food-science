@@ -122,7 +122,7 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
    - **4.1 Dietary Levers** — outer `<details>` dropdown
      - **4.1.1 Direct Dietary Levers** — nested `<details>`; substance ← food bullets per `system/substance-food-mapping-format.md`
      - **4.1.2 Cofactors and Supporting Inputs** — nested `<details>`; from front matter `cofactors`
-     - **4.1.3 KCs (Key Constraints)** — nested `<details>`; linked KC pages
+     - **4.1.3 KCs (Key Constraints)** — nested `<details>`; linked KC pages **plus** each KC’s **Shared Biological Pool** members (sourced from the KC page §3; substance-only when the KC uses Supporting Inputs/Substrates with `←` food mapping)
    - **4.2 Lifestyle Levers** — `<details>` dropdown; primary place for timing narrative when `timing_specific: "Yes"`
 5. Mechanistic Basis — `## 5. Mechanistic Basis`
    - **Canonical structure (Profile A):** see **PM §5 — Canonical four-part narrative** below. **Reference page:** [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
@@ -176,7 +176,17 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 <details>
 <summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>
 
-- Linked KC pages
+- [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability)
+
+**Shared Biological Pool**
+
+- Polyphenols
+- Vitamin C
+- Antioxidant phytochemicals
+- Cysteine
+- Glycine
+- Glutamate
+- Sulfur amino acids
 
 </details>
 
@@ -329,7 +339,7 @@ Implementation: `scripts/validate-mechanism-pages.mjs` and `scripts/lib/mechanis
 - `timing_specific` is required in front matter (`Yes` | `No`); visible `## N. Timing Specific` body sections are forbidden.
 - Mechanistic Basis must be present and non-placeholder unless `mechanistic_authoring_required: true` is set in front matter.
 - Extended Profile A PMs must include `## 2. Primary Biological Effects` immediately after Definition.
-- Extended Profile A PMs must include `## 4. Levers` with visible `### Intervention Profile` and `**Intervention Dominance:**` above the dropdowns; **4.1 Dietary Levers** and **4.2 Lifestyle Levers** as `<details>` dropdowns; **4.1** must contain nested dropdowns for **4.1.1 Direct Dietary Levers**, **4.1.2 Cofactors and Supporting Inputs**, and **4.1.3 KCs (Key Constraints)** when those tiers have content.
+- Extended Profile A PMs must include `## 4. Levers` with visible `### Intervention Profile` and `**Intervention Dominance:**` above the dropdowns; **4.1 Dietary Levers** and **4.2 Lifestyle Levers** as `<details>` dropdowns; **4.1** must contain nested dropdowns for **4.1.1 Direct Dietary Levers**, **4.1.2 Cofactors and Supporting Inputs**, and **4.1.3 KCs (Key Constraints)** when those tiers have content. **4.1.3** must list each linked KC with its **Shared Biological Pool** members below the KC link (see PM §4 example).
 - `intervention_breakdown` in front matter, when present, must be one of the five allowed spreadsheet values and must not be rendered as a public body section.
 - `overview` must be <=120 words.
 - `functional_mechanism_ownership` must contain exactly one FM (never multiple).

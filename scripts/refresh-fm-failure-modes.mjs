@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Refresh FM §4.4 Functional Failure Modes from KC stressor archive. */
+/** Refresh FM §4.3 Suboptimal Function & Its Effects from KC stressor archive. */
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";

@@ -15,7 +15,7 @@ Complete the **full FM template** on every FM page before running phenome method
 |---------|-------------|
 | §4.1 Core Primary Mechanisms | Required |
 | §4.2 Integrated Functional Narrative | Required (Type A multi-PM or Type B single-PM anchor per `system/single-pm-fm-rule.md`) |
-| §4.3 Functional Failure Modes | Required |
+| §4.3 Suboptimal Function & Its Effects | Required |
 | §4.4 Evidence Highlights | **Required on all FMs** before phenome Phase 2 |
 
 **Tooling:**
@@ -29,7 +29,9 @@ npm run mechanisms:validate               # must pass FM §4.4 gate
 
 ### Phase 2 — Phenome methodology (after all FMs have §4.4)
 
-Do **not** run FM phenome sync or Phase 2 FM phenome review until every FM page includes `### 4.4 Evidence Highlights`.
+Do **not** run FM phenome sync or phenome **Phase 2 FM review** until every FM page includes `### 4.4 Evidence Highlights`.
+
+> **Naming note:** This rollout uses “Phase 1/2” for FM **schema** completion vs phenome work. The phenome review workflow itself is Phases 0–4 in `system/phenome-relationship-review-methodology.md` v3 (PM candidates → FM candidates → outcome evidence → audit).
 
 ```bash
 # blocked until all 23 FMs have §4.4

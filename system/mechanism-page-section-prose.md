@@ -110,6 +110,35 @@ Applies to **PM**, **FM**, **SM**, and **KC** pages. BRS hub pages use **`## Ove
 
 Technical/architectural detail belongs in **Mechanistic Basis**, not a separate definition section.
 
+## §1 Mission & Overview — FM, PM, and SM pages (BRS1–BRS3)
+
+**Scope:** All **FM**, **PM**, and **SM** pages under **BRS1, BRS2, and BRS3**. **BRS hub pages** keep their top-level `## Overview` unchanged — do not apply Mission & Overview to hubs. **KC** pages keep `### 1. Definition`.
+
+Replaces `## 1. Definition` on pilot FM pages with two subsections under one numbered section:
+
+```
+## 1. Mission & Overview
+
+### Mission
+[1–2 lines max]
+
+### Overview
+[1–3 sentence paragraph + exactly 3 bullets]
+```
+
+| Part | Role | Rules |
+|------|------|--------|
+| **Mission** | What the mechanism exists to achieve; why it matters to biology and the reader | 1–2 lines; outcome-oriented; no bullets, citations, or pathway detail |
+| **Overview** | Expanded translational explanation (former Definition body) | Same rules as **§1 Definition** above; must not repeat Mission wording |
+
+**Front matter:** `mission` holds the Mission text; `summary` holds the Overview opening paragraph (hub FM accordion panels continue to use `summary` unchanged).
+
+**Naming note:** FM `### Overview` is not the same as a BRS hub `## Overview` — the hub stays a single system-level block; only FM mechanism pages use the Mission + Overview split.
+
+**Section numbering:** §2 Primary Biological Effects onward is unchanged.
+
+Legacy `## 1. Definition` remains valid for KC pages and for FM/PM/SM outside BRS1–BRS3 until migrated.
+
 ## §1 Definition — UX structure (paragraph + three bullets)
 
 Applies to **PM**, **FM**, **SM**, and **KC** pages (`## 1. Definition` or `### 1. Definition`). BRS hub pages use **`## Overview`** with the same contract (see `system/brs-page-schema.md`).

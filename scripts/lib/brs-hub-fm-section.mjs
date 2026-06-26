@@ -1,5 +1,5 @@
 /**
- * Build BRS hub ## Functional Mechanisms section with per-FM <details> dropdowns.
+ * Build BRS hub collapsible blocks (FM section + shared ADHD / hub panels).
  */
 
 import fs from "node:fs";
@@ -61,7 +61,25 @@ function buildModulationContext(data) {
   return parts.length ? parts.join(" · ") : "";
 }
 
-function buildFmDropdown({ data, content, url }, pmsToShow) {
+import { renderHubCollapsible, HUB_COLLAPSIBLE_ATTR } from "./hub-collapsible.mjs";
+
+export { renderHubCollapsible as buildHubCollapsibleBlock } from "./hub-collapsible.mjs";
+
+function buildPmNavList(pms) {
+  if (!pms.length) return "";
+  let block = `<ul class="brs-fm-hub-pm-list">\n`;
+  for (const pm of pms) {
+    const href = String(pm.href || "").trim();
+    const id = String(pm.id || "").trim();
+    const name = String(pm.name || "").trim();
+    if (!href || !id) continue;
+    block += `  <li><a href="${href}">${id} — ${name}</a></li>\n`;
+  }
+  block += `</ul>\n`;
+  return block;
+}
+
+function buildFmDropdown({ data, content, url }, pms) {
   const fmId = data.fm_id;
   const title = data.title;
   const summary = String(data.summary || "").trim();
@@ -70,7 +88,20 @@ function buildFmDropdown({ data, content, url }, pmsToShow) {
   const connected = extractConnectedMechanisms(content);
   const modulation = buildModulationContext(data);
 
-  let block = `<details>\n<summary><strong>${fmId} — ${title}</strong></summary>\n\n`;
+  let block = `<div class="brs-fm-hub-item" ${HUB_COLLAPSIBLE_ATTR}>\n`;
+  block += `<div class="brs-fm-hub-shell">\n`;
+  block += `<div class="brs-fm-hub-summary-row">\n`;
+  block += `<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand ${fmId} summary">\n`;
+  block += `<span class="brs-fm-hub-chevron" aria-hidden="true"></span>\n`;
+  block += `</button>\n`;
+  block += `<strong class="brs-fm-hub-title">${fmId} — ${title}</strong>\n`;
+  block += `<a class="brs-fm-hub-open" href="${url}" aria-label="Open FM: ${fmId} — ${title}">\n`;
+  block += `<span class="brs-fm-hub-open-label">Open FM →</span>\n`;
+  block += `<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>\n`;
+  block += `</a>\n`;
+  block += `</div>\n\n`;
+  block += buildPmNavList(pms);
+  block += `<div class="brs-fm-hub-panel" hidden>\n\n`;
   block += `${summary}\n\n`;
   block += `**FM page:** [${fmId} — ${title}](${url})\n\n`;
 
@@ -79,13 +110,6 @@ function buildFmDropdown({ data, content, url }, pmsToShow) {
   }
   if (modulation) {
     block += `**Modulation context:** ${modulation}\n\n`;
-  }
-  if (pmsToShow.length) {
-    block += `**Primary mechanisms (PMs):**\n\n`;
-    for (const pm of pmsToShow) {
-      block += `- [${pm.id} — ${pm.name}](${pm.href})\n`;
-    }
-    block += `\n`;
   }
   if (kcs.length) {
     block += `**Key constraints:**\n\n`;
@@ -102,26 +126,20 @@ function buildFmDropdown({ data, content, url }, pmsToShow) {
     block += `\n`;
   }
 
-  block += `</details>\n\n`;
+  block += `</div>\n`;
+  block += `</div>\n`;
+  block += `</div>\n\n`;
   return block;
 }
 
 export function buildFunctionalMechanismsSection(fmFilePaths) {
   let section = `## Functional Mechanisms\n\n${FM_SECTION_INTRO}\n\n`;
-  const listedPmIds = new Set();
 
   for (const filePath of fmFilePaths) {
     const { data, content } = matter(fs.readFileSync(filePath, "utf8"));
     const url = fmUrlFromPath(filePath);
     const pms = Array.isArray(data.mechanisms_covered) ? data.mechanisms_covered : [];
-    const pmsToShow = pms.filter((pm) => !listedPmIds.has(pm.id));
-    for (const pm of pmsToShow) listedPmIds.add(pm.id);
-
-    if (!pmsToShow.length && pms.length) {
-      section += buildFmDropdown({ data, content, url }, pms);
-    } else {
-      section += buildFmDropdown({ data, content, url }, pmsToShow);
-    }
+    section += buildFmDropdown({ data, content, url }, pms);
   }
 
   return section;

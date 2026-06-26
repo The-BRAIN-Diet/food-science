@@ -1,9 +1,10 @@
 ---
 title: Transsulfuration Pathway
 pm_id: BRS2-FM2-PM5
+mission: Divert homocysteine toward cysteine so methylation demand is balanced against sulfur amino-acid and redox needs.
 parent_fm: BRS2(FM2)
 parent_brs: BRS2
-summary: 'Provides an alternative path for handling homocysteine by converting it toward cysteine through transsulfuration (the sulfur-branch of one-carbon metabolism), linking one-carbon metabolism to sulfur amino acid supply. This branch helps balance remethylation demand with antioxidant precursor availability.'
+summary: 'Provides the metabolic switch that diverts homocysteine from methylation toward cysteine production, linking one-carbon metabolism with antioxidant defence, sulfur amino-acid metabolism, glutathione synthesis, detoxification, and cellular resilience. This pathway helps balance methylation demand with protection against oxidative and metabolic stress, particularly during periods of increased redox burden.'
 key_constraints:
   - BRS2(KC2) - Methionine & Transsulfuration Substrate Pool
 cofactors:
@@ -17,6 +18,33 @@ references:
   - '[Kumar et al. (2017) — Transsulfuration Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)'
   - '[Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)'
 hide_title: true
+phenome_relationships:
+  - target_phenome: Stress Reactivity
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    evidence_confidence: low-medium
+    rationale: B6 status associates with methionine–homocysteine cycle markers supporting transsulfuration as a practical dietary lever; elevated homocysteine in paediatric ADHD intersects oxidative-stress framing where transsulfuration-derived cysteine may modulate stress-relevant redox tone. Direct ADHD stress-reactivity outcome evidence for transsulfuration flux remains limited (biology > evidence gap).
+    references:
+      - index: 1
+        label: Gregory et al. (2016)
+        citation_key: gregory_homocysteine_2016
+        href: /docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016
+      - index: 2
+        label: Lukovac et al. (2024)
+        citation_key: lukovac_serum_2024
+        href: /docs/papers/BRAIN-Diet-References#lukovac_serum_2024
+  - target_phenome: Recovery Capacity
+    relationship_type: indirect
+    confidence: low
+    evidence_level: mechanistic
+    evidence_confidence: low
+    rationale: Transsulfuration supplies cysteine for downstream glutathione synthesis — an indirect framework translation to recovery capacity through redox substrate availability rather than measured recovery outcomes in ADHD cohorts.
+    references:
+      - index: 1
+        label: Gregory et al. (2016)
+        citation_key: gregory_homocysteine_2016
+        href: /docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -28,23 +56,66 @@ hide_title: true
 
 ## BRS2-FM2-PM5 - Transsulfuration Pathway
 
-## 1. Definition
+(Routing Homocysteine Toward Cysteine & Glutathione)
 
-Provides an alternative path for handling homocysteine by converting it toward cysteine through transsulfuration (the sulfur-branch of one-carbon metabolism), linking one-carbon metabolism to sulfur amino acid supply. This branch helps balance remethylation demand with antioxidant precursor availability.
+## 1. Mission & Overview
+
+### Mission
+
+Divert homocysteine toward cysteine so methylation demand is balanced against sulfur amino-acid and redox needs.
+
+### Overview
+
+Provides the metabolic switch that diverts homocysteine from methylation toward cysteine production, linking one-carbon metabolism with antioxidant defence, sulfur amino-acid metabolism, glutathione synthesis, detoxification, and cellular resilience. This pathway helps balance methylation demand with protection against oxidative and metabolic stress, particularly during periods of increased redox burden.
 
 * Feeds cysteine supply for glutathione production and cellular redox protection — within BRS2.
 * Helps limit oxidative stress associated with homocysteine accumulation — Supporting BRS3.
 * Supports detoxification and cellular defence capacity under metabolic load — Supporting BRS3.
 
-
 ## 2. Primary Biological Effects
-↑ cysteine generation
+↑ cysteine availability; ↑ glutathione precursor supply; ↑ sulfur amino-acid metabolism; ↑ antioxidant defence capacity; ↑ homocysteine disposal; ↑ metabolic resilience under oxidative stress
 
 ## 3. Phenome Connections
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
 
-No direct functional outcome relationship currently mapped.
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Stress Reactivity — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low–Medium
+- **Rationale:** B6 status associates with methionine–homocysteine cycle markers supporting transsulfuration as a practical dietary lever; elevated homocysteine in paediatric ADHD intersects oxidative-stress framing where transsulfuration-derived cysteine may modulate stress-relevant redox tone. Direct ADHD stress-reactivity outcome evidence for transsulfuration flux remains limited (biology > evidence gap).
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016","label":"Gregory et al. (2016)"},{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"}]} />
+- **Evidence Confidence:** Low–Medium
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Recovery Capacity — indirect</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low
+- **Rationale:** Transsulfuration supplies cysteine for downstream glutathione synthesis — an indirect framework translation to recovery capacity through redox substrate availability rather than measured recovery outcomes in ADHD cohorts.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016","label":"Gregory et al. (2016)"}]} />
+- **Evidence Confidence:** Low
+
+</div>
+</div>
+</div>
 
 ## 4. Levers
 
@@ -52,39 +123,87 @@ No direct functional outcome relationship currently mapped.
 
 **Intervention Dominance:** Diet-Dominant
 
-<details>
-<summary><strong>4.1 Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1 Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-<details>
-<summary><strong>4.1.1 Direct Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.1 Direct Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Sulfur amino acids ← poultry, eggs, legumes
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.2 Cofactors and Supporting Inputs</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.2 Cofactors and Supporting Inputs</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - B6
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.3 KCs (Key Constraints)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - [BRS2(KC2) - Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool)
 
-</details>
+**Shared Biological Pool**
 
-</details>
+- Methionine
+- Serine
+- Glycine
+- Cysteine
+- Sulfur-containing amino acids
+- Amino-acid substrates supporting transsulfuration and glutathione synthesis
 
-<details>
-<summary><strong>4.2 Lifestyle Levers</strong></summary>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.2 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Consistent daily meal timing may support one-carbon and methyl-donor availability across the day.
 - Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 5. Mechanistic Basis
 
@@ -92,8 +211,13 @@ No direct functional outcome relationship currently mapped.
 
 When remethylation demand is high or homocysteine accumulates, the transsulfuration branch diverts homocysteine toward cysteine — linking one-carbon metabolism to sulfur amino acid supply and downstream antioxidant chemistry within [BRS2(FM2) — Transsulfuration & Redox Coupling](/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling).
 
-<details>
-<summary><strong>Transsulfuration pathway — mechanistic detail</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Transsulfuration pathway — mechanistic detail</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 #### (Homocysteine diversion to cysteine)
 
@@ -119,7 +243,10 @@ Glutathione synthesis from cysteine belongs to [BRS2-FM2-PM6](/docs/biological-t
 
 This PM operationalises the transsulfuration arm of [BRS2(FM2)](/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling), drawing on [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool) for sulfur amino acid substrate availability. Transsulfuration flux competes with remethylation for homocysteine and feeds cysteine forward to glutathione synthesis (PM6).
 
-</details>
+</div>
+</div>
+</div>
+
 
 ### 5.1 Evidence Highlights
 
@@ -127,21 +254,43 @@ This PM operationalises the transsulfuration arm of [BRS2(FM2)](/docs/biological
 
 Transsulfuration biochemistry is well established. The studies below highlight why this branch matters in practice — particularly the B6 dependency and the link between homocysteine handling and oxidative-stress contexts relevant to neurodevelopment.
 
-<details>
-<summary><strong>Evidence highlights — transsulfuration in practice</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>B6 status and the methionine–homocysteine cycle</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-#### (B6 status and the methionine–homocysteine cycle)
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** NHANES analysis found vitamin B6 status associated with methionine–homocysteine cycle markers, supporting B6 as a practical dietary lever for transsulfuration flux rather than an abstract cofactor detail → [Gregory et al., 2016]
+- **Key References:**
 
-NHANES analysis found vitamin B6 status associated with methionine–homocysteine cycle markers, supporting B6 as a practical dietary lever for transsulfuration flux rather than an abstract cofactor detail → [Gregory et al., 2016]
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016","label":"Gregory et al. (2016)"}]} />
 
-#### (Homocysteine, oxidative stress, and ADHD-relevant biomarkers)
+</div>
+</div>
+</div>
 
-In a paediatric ADHD cohort, elevated homocysteine was reported alongside biomarker shifts implicating oxidative stress pathways — contexts where transsulfuration-derived cysteine and downstream glutathione support may be mechanistically relevant → [Lukovac et al., 2024]
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Homocysteine, oxidative stress, and ADHD-relevant biomarkers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-This does not establish transsulfuration as an ADHD treatment target, but it supports reading homocysteine elevation as connected to redox pathway strain, not remethylation alone.
+- **Confidence:** low-medium
+- **Evidence Level:** mechanistic
+- **Rationale:** In a paediatric ADHD cohort, elevated homocysteine was reported alongside biomarker shifts implicating oxidative stress pathways — contexts where transsulfuration-derived cysteine and downstream glutathione support may be mechanistically relevant → [Lukovac et al., 2024] This does not establish transsulfuration as an ADHD treatment target, but it supports reading homocysteine elevation as connected to redox pathway strain, not remethylation alone.
+- **Key References:**
 
-</details>
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"}]} />
 
+</div>
+</div>
+</div>
 ## 6. BRS Pathways and Connections
 
 ### 6.1 BRS Pathways
@@ -162,8 +311,13 @@ This does not establish transsulfuration as an ADHD treatment target, but it sup
 
 ## 7. Scoreable Inputs & Modulation Signals
 
-<details>
-<summary><strong>Scoreable Input Categories</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Scoreable Input Categories</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 | Input Category | Example Inputs | PM relevance |
 |---|---|---|
@@ -171,10 +325,12 @@ This does not establish transsulfuration as an ADHD treatment target, but it sup
 | Realised Functional States | consistent_daily_methyl_donor_coverage | May reflect meal-level pathway support. |
 | Preparation Transformations | minimally_processed; whole_food_matrix | May preserve nutrient density for pathway support. |
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 8. References
-
 - [Gregory et al. (2016) — Vitamin B6 Status Is Associated with the Methionine-homocysteine Cycle in the NHANES](/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016)
 - [Kumar et al. (2017) — Transsulfuration Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
 - [Lukovac et al. (2024) — Serum Biomarker Analysis in Pediatric ADHD](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)

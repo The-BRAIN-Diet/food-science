@@ -1,13 +1,85 @@
 {
   "meta": {
-    "version": 1,
-    "description": "Canonical Phenome Registry — stable functional targets above mechanisms, below condition profiles."
+    "version": 4,
+    "provenanceSchemaVersion": 2,
+    "primaryTherapeuticAreaId": "TA001",
+    "description": "Canonical Phenome Registry — shared functional outcome domains above mechanisms, below condition profiles. Therapeutic areas tag where each phenome is clinically relevant; ADHD (TA001) is the primary Version 1 validation use case. Assignment pipeline: system/phenome-relationship-schema.md#phenome-assignment-pipeline.",
+    "phenomeDevelopment": "Candidate phenomes were developed within the BRAIN Framework as functional outcome domains linking biological regulatory systems to clinically relevant cognitive, behavioural, emotional, social, and physiological capacities. During development, the registry was compared with established research frameworks, including the NIH Research Domain Criteria (RDoC), to identify omissions, reduce overlap between phenomes, and improve construct separation. These external frameworks were used to validate and refine the taxonomy rather than define its structure. The BRAIN Phenome Registry therefore represents an independent translational classification informed by, but not derived from, existing neuropsychiatric research frameworks.",
+    "benchmarkedFrameworks": [
+      {
+        "id": "RDoC",
+        "name": "NIH Research Domain Criteria",
+        "role": "benchmark",
+        "note": "Used to identify omissions, reduce phenome overlap, and improve construct separation — not the defining taxonomy."
+      },
+      {
+        "id": "ICF",
+        "name": "WHO International Classification of Functioning, Disability and Health",
+        "role": "benchmark",
+        "note": "Optional cross-reference for activity and participation domains where clinically relevant."
+      }
+    ]
   },
+  "therapeuticAreas": [
+    {
+      "id": "TA001",
+      "name": "ADHD",
+      "slug": "adhd",
+      "description": "Attention-deficit/hyperactivity disorder and related executive-function, impulsivity, and hyperactivity phenotypes.",
+      "status": "active",
+      "primaryWorkedExample": true
+    },
+    {
+      "id": "TA002",
+      "name": "Anxiety Disorders",
+      "slug": "anxiety-disorders",
+      "description": "Generalised anxiety, social anxiety, panic, and related hyperarousal and worry phenotypes.",
+      "status": "active"
+    },
+    {
+      "id": "TA003",
+      "name": "Depressive Disorders",
+      "slug": "depressive-disorders",
+      "description": "Major depression, dysthymia, and related motivational, affective, and cognitive slowing phenotypes.",
+      "status": "active"
+    },
+    {
+      "id": "TA004",
+      "name": "Autism Spectrum",
+      "slug": "autism-spectrum",
+      "description": "Autism spectrum conditions and related sensory, social-cognitive, and regulatory phenotypes.",
+      "status": "active"
+    },
+    {
+      "id": "TA005",
+      "name": "Cognitive Ageing",
+      "slug": "cognitive-ageing",
+      "description": "Age-related cognitive decline, mild cognitive impairment, and dementia-risk cognitive phenotypes.",
+      "status": "active"
+    },
+    {
+      "id": "TA006",
+      "name": "Long COVID",
+      "slug": "long-covid",
+      "description": "Post-acute infection syndromes with cognitive, fatigue, and autonomic phenotypes.",
+      "status": "active"
+    },
+    {
+      "id": "TA007",
+      "name": "Healthy Cognitive Optimisation",
+      "slug": "healthy-cognitive-optimisation",
+      "description": "Non-clinical cognitive performance, resilience, and brain-health optimisation contexts.",
+      "status": "active"
+    }
+  ],
   "reviewFlags": [
     {
       "id": "RF001",
       "type": "near_duplicate",
-      "phenomeIds": ["PH012", "PH013"],
+      "phenomeIds": [
+        "PH012",
+        "PH013"
+      ],
       "labels": [
         "Energy Stability Under Variable Conditions",
         "Energy Stability Under Variable Fuel Conditions"
@@ -17,16 +89,67 @@
     {
       "id": "RF002",
       "type": "related_distinct",
-      "phenomeIds": ["PH006", "PH015"],
-      "labels": ["Stress Resilience", "Stress Reactivity"],
+      "phenomeIds": [
+        "PH006",
+        "PH015"
+      ],
+      "labels": [
+        "Stress Resilience",
+        "Stress Reactivity"
+      ],
       "note": "Stress Resilience (adaptive capacity) vs Stress Reactivity (response intensity) — related but not identical; do not merge automatically."
     },
     {
       "id": "RF003",
       "type": "related_distinct",
-      "phenomeIds": ["PH002", "PH010"],
-      "labels": ["Motivation / Drive", "Behavioural Activation"],
+      "phenomeIds": [
+        "PH002",
+        "PH010"
+      ],
+      "labels": [
+        "Motivation / Drive",
+        "Behavioural Activation"
+      ],
       "note": "Motivation/Drive vs Behavioural Activation — related; remain separate unless manually merged."
+    },
+    {
+      "id": "RF004",
+      "type": "related_distinct",
+      "phenomeIds": [
+        "PH003",
+        "PH016"
+      ],
+      "labels": [
+        "Emotional Regulation",
+        "Apprehensive Worry / Perseverative Thought"
+      ],
+      "note": "Emotional Regulation (affective modulation) vs Apprehensive Worry (sustained apprehensive/ruminative cognition) — RDoC Negative Valence / cognitive control overlap; remain separate."
+    },
+    {
+      "id": "RF005",
+      "type": "related_distinct",
+      "phenomeIds": [
+        "PH009",
+        "PH017"
+      ],
+      "labels": [
+        "Reward Regulation",
+        "Pleasure & Interest Capacity"
+      ],
+      "note": "Reward Regulation (sensitivity, learning, seeking) vs Pleasure & Interest Capacity (experienced interest/pleasure and consummatory engagement) — RDoC Positive Valence / anhedonia domain; remain separate."
+    },
+    {
+      "id": "RF006",
+      "type": "related_distinct",
+      "phenomeIds": [
+        "PH003",
+        "PH018"
+      ],
+      "labels": [
+        "Emotional Regulation",
+        "Social Engagement Capacity"
+      ],
+      "note": "Emotional Regulation vs Social Engagement Capacity (affiliation, approach, participation) — RDoC Social Processes; remain separate."
     }
   ],
   "phenomes": [
@@ -36,8 +159,82 @@
       "slug": "focus-attention-stability",
       "description": "Capacity to sustain, shift, and regulate attention across changing cognitive demands.",
       "publicSummary": "How steadily a person can hold, shift, and return attention when tasks or distractions change.",
-      "primaryDomains": ["attention", "cognition"],
-      "status": "active"
+      "primaryDomains": [
+        "attention",
+        "cognition"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA002",
+        "TA004",
+        "TA005",
+        "TA006",
+        "TA007"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "ADHD-focused construct and precursor-transport biology are well represented; human dietary attention-outcome evidence on the registry stack is indirect (omega-3 cognition trials) — not dietary ADHD treatment efficacy.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 ADHD registry phenome (pre-v3). Benchmarked against RDoC Cognitive Systems (attention, cognitive control) and distinguished from Cognitive Clarity (PH011) as sustained/shifted attention versus processing clarity.",
+        "relatedPhenomeIds": [
+          "PH002",
+          "PH011"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Cognitive Systems — attention",
+          "Cognitive Systems — cognitive control"
+        ],
+        "dsm_icd_context": [
+          "Attention-deficit/hyperactivity disorder"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Millichap & Yee (2012)",
+            "citation_key": "millichap_diet_2012",
+            "href": "/docs/papers/BRAIN-Diet-References#millichap_diet_2012",
+            "note": "Reviews diet and nutritional factors in ADHD — foundational construct framing for attention phenotypes."
+          },
+          {
+            "label": "Aquili (2020)",
+            "citation_key": "aquili_role_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#aquili_role_2020",
+            "note": "Reviews catecholaminergic neurotransmission and attentional function relevant to ADHD biology."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Fernstrom (2013)",
+            "citation_key": "fernstrom_lnna_2013",
+            "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013",
+            "note": "Large neutral amino acid transport and precursor availability intersect monoaminergic attention pathways."
+          },
+          {
+            "label": "Derbyshire & Maes (2023)",
+            "citation_key": "derbyshire_role_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#derbyshire_role_2023",
+            "note": "Links oxidative stress and neuroinflammation biology to ADHD symptom domains including attention."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Wang et al. (2019)",
+            "citation_key": "wang_dietary_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019",
+            "note": "Dietary patterns and amino-acid context modulate neurotransmitter precursor biology upstream of attention."
+          },
+          {
+            "label": "Oulhaj et al. (2016)",
+            "citation_key": "oulhaj_omega-3_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016",
+            "note": "Omega-3 supplementation associated with cognitive performance improvements in ageing — adjacent human nutrition→cognition support."
+          }
+        ]
+      }
     },
     {
       "id": "PH002",
@@ -45,8 +242,81 @@
       "slug": "motivation-drive",
       "description": "Capacity to initiate effort, pursue goals, and maintain goal-directed behaviour.",
       "publicSummary": "How readily a person starts effort, pursues goals, and stays engaged with what matters to them.",
-      "primaryDomains": ["motivation", "behaviour"],
-      "status": "active"
+      "primaryDomains": [
+        "motivation",
+        "behaviour"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA003",
+        "TA004",
+        "TA007"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Dopaminergic and endocannabinoid motivation biology are review-supported; open-label tyrosine and dietary precursor evidence is mechanistic or adjunct — not definitive motivation-intervention efficacy.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 ADHD registry phenome. Benchmarked against RDoC Positive Valence Systems (motivation, reward learning) and kept distinct from Behavioural Activation (PH010) and Reward Regulation (PH009).",
+        "relatedPhenomeIds": [
+          "PH009",
+          "PH010"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Positive Valence Systems — reward learning",
+          "Positive Valence Systems — motivation / effort"
+        ],
+        "dsm_icd_context": [
+          "Attention-deficit/hyperactivity disorder",
+          "Major depressive disorder — motivational symptoms"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "MacDonald et al. (2024)",
+            "citation_key": "macdonald_dopamine_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024",
+            "note": "Reviews dopamine signalling in motivation and goal-directed behaviour."
+          },
+          {
+            "label": "Aquili (2020)",
+            "citation_key": "aquili_role_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#aquili_role_2020",
+            "note": "Catecholaminergic neurotransmission framing for effort and drive biology."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Fernstrom (2013)",
+            "citation_key": "fernstrom_lnna_2013",
+            "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013",
+            "note": "Precursor transport and tyrosine availability upstream of catecholaminergic drive circuits."
+          },
+          {
+            "label": "Garani et al. (2021)",
+            "citation_key": "garani_endocannabinoid_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021",
+            "note": "Endocannabinoid system modulation of motivation and stress-related behavioural states."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Wurtman et al. (2003)",
+            "citation_key": "wurtman_effects_2003",
+            "href": "/docs/papers/BRAIN-Diet-References#wurtman_effects_2003",
+            "note": "Dietary tyrosine and precursor manipulation affects catecholamine synthesis biology."
+          },
+          {
+            "label": "Reimherr et al. (1987)",
+            "citation_key": "f_w_reimherr_open_1987",
+            "href": "/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987",
+            "note": "Open-label tyrosine supplementation in ADHD — early human adjunct evidence for drive/activation biology."
+          }
+        ]
+      }
     },
     {
       "id": "PH003",
@@ -54,8 +324,84 @@
       "slug": "emotional-regulation",
       "description": "Capacity to modulate emotional responses and maintain affective stability.",
       "publicSummary": "How well emotional responses can be modulated so mood and reactivity stay within a workable range.",
-      "primaryDomains": ["emotion", "affect"],
-      "status": "active"
+      "primaryDomains": [
+        "emotion",
+        "affect"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA002",
+        "TA003",
+        "TA004",
+        "TA006"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Construct and inhibitory-balance biology are strong; registry nutrition layer draws on mood/anxiety intervention reviews — not direct emotional-regulation phenome trials.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 ADHD registry phenome. Benchmarked against RDoC Negative Valence and Arousal/Regulatory Systems; distinct from Apprehensive Worry (PH016), Stress Reactivity (PH015), and Social Engagement (PH018).",
+        "relatedPhenomeIds": [
+          "PH015",
+          "PH016",
+          "PH018"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Negative Valence Systems — sustained affect / affective regulation",
+          "Arousal and Regulatory Systems — affective regulation"
+        ],
+        "dsm_icd_context": [
+          "Attention-deficit/hyperactivity disorder — emotional dysregulation",
+          "Major depressive disorder",
+          "Generalised anxiety disorder"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Oades et al. (2010)",
+            "citation_key": "oades_role_2010",
+            "href": "/docs/papers/BRAIN-Diet-References#oades_role_2010",
+            "note": "Reviews dopamine and serotonin roles in motivation, affect, and ADHD-related emotional function."
+          },
+          {
+            "label": "Edden et al. (2012)",
+            "citation_key": "edden_reduced_2012",
+            "href": "/docs/papers/BRAIN-Diet-References#edden_reduced_2012",
+            "note": "GABA deficits in ADHD cohorts — construct validation for excitation–inhibition and affective control."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Fernstrom (2013)",
+            "citation_key": "fernstrom_lnna_2013",
+            "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013",
+            "note": "Serotonergic precursor biology intersects affective modulation pathways."
+          },
+          {
+            "label": "Briguglio et al. (2018)",
+            "citation_key": "briguglio_dietary_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018",
+            "note": "Dietary neurotransmitter biology review spanning mood and anxiety-relevant serotonergic context."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Kiecolt-Glaser et al. (2011)",
+            "citation_key": "kiecolt-glaser_omega-3_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011",
+            "note": "Omega-3 lowered anxiety and inflammatory markers in stressed adults — upstream affective biology."
+          },
+          {
+            "label": "Jackson et al. (2021)",
+            "citation_key": "jackson_effects_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#jackson_effects_2021",
+            "note": "Saffron RCT reported mood improvements — adjacent human nutrition→affective biology support."
+          }
+        ]
+      }
     },
     {
       "id": "PH004",
@@ -63,8 +409,83 @@
       "slug": "cognitive-energy-stability",
       "description": "Capacity to maintain mental energy and avoid cognitive energy crashes across the day.",
       "publicSummary": "How evenly mental energy holds up through the day without sharp crashes or fog.",
-      "primaryDomains": ["energy", "cognition"],
-      "status": "active"
+      "primaryDomains": [
+        "energy",
+        "cognition"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA003",
+        "TA005",
+        "TA006",
+        "TA007"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Mitochondrial and metabolic-flexibility reviews anchor the construct; micronutrient and sex-hormone links are mechanistic — limited direct cognitive-fatigue outcome demonstration on the registry stack.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 registry phenome for mental energy stability across the day. Distinguished from Energy Stability Under Variable Conditions (PH012) and fuel-substrate phenome (PH013) as cognitive energy tone rather than metabolic supply mechanics.",
+        "relatedPhenomeIds": [
+          "PH011",
+          "PH012",
+          "PH013"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Arousal and Regulatory Systems — fatigue / energy regulation",
+          "Cognitive Systems — cognitive effort"
+        ],
+        "dsm_icd_context": [
+          "Major depressive disorder — fatigue",
+          "Long COVID — cognitive fatigue"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Li et al. (2023)",
+            "citation_key": "li_function_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#li_function_2023",
+            "note": "Mitochondrial function and brain energy metabolism in neuropsychiatric contexts."
+          },
+          {
+            "label": "Goodpaster & Sparks (2017)",
+            "citation_key": "goodpaster_metabolic_flexibility_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017",
+            "note": "Metabolic flexibility review — substrate switching and energetic resilience framing."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Depaoli et al. (2021)",
+            "citation_key": "depaoli_estrogen_insulin_resistance_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#depaoli_estrogen_insulin_resistance_2021",
+            "note": "Estrogen–insulin resistance biology intersects brain energy and mood regulation."
+          },
+          {
+            "label": "Pirinen et al. (2020)",
+            "citation_key": "pirinen_niacin_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020",
+            "note": "NAD⁺/mitochondrial biology and human energy metabolism — bioenergetic phenome context."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Tardy et al. (2020)",
+            "citation_key": "tardy_vitamins_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020",
+            "note": "B-vitamin supplementation and fatigue/energy outcomes — micronutrient→bioenergetic biology."
+          },
+          {
+            "label": "Pirinen et al. (2020)",
+            "citation_key": "pirinen_niacin_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020",
+            "note": "Niacin/NAD precursor intervention modulates mitochondrial energetic capacity in humans."
+          }
+        ]
+      }
     },
     {
       "id": "PH005",
@@ -72,8 +493,80 @@
       "slug": "recovery-capacity",
       "description": "Capacity to restore function after cognitive, emotional, metabolic, or physical load.",
       "publicSummary": "How effectively function returns after sustained cognitive, emotional, metabolic, or physical demand.",
-      "primaryDomains": ["recovery", "resilience"],
-      "status": "active"
+      "primaryDomains": [
+        "recovery",
+        "resilience"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA005",
+        "TA006",
+        "TA007"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Recovery biology spans redox, NAD⁺, and metabolic-flexibility reviews; human nutrition evidence is supportive but not recovery-phenome-specific RCTs.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 registry phenome for post-load functional restoration. Related to Stress Resilience (PH006) and Metabolic Resilience (PH007) but targets recovery trajectory rather than buffering or substrate flexibility alone.",
+        "relatedPhenomeIds": [
+          "PH006",
+          "PH007"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Arousal and Regulatory Systems — recovery / homeostatic regulation"
+        ],
+        "dsm_icd_context": [
+          "Long COVID — post-exertional recovery",
+          "Chronic fatigue contexts"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Goodpaster & Sparks (2017)",
+            "citation_key": "goodpaster_metabolic_flexibility_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017",
+            "note": "Metabolic flexibility as capacity to restore and adapt energetic state after demand."
+          },
+          {
+            "label": "de Guia et al. (2019)",
+            "citation_key": "de_guia_nad_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#de_guia_nad_2019",
+            "note": "NAD⁺ biology and cellular resilience — recovery-oriented bioenergetic framing."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Verlaet et al. (2019)",
+            "citation_key": "verlaet_oxidative_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019",
+            "note": "Oxidative stress biology in ADHD — load-and-recovery redox context."
+          },
+          {
+            "label": "Sekhar et al. (2011)",
+            "citation_key": "sekhar_glutathione_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#sekhar_glutathione_2011",
+            "note": "Glutathione synthesis and redox recovery capacity in humans."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Minich & Brown (2019)",
+            "citation_key": "minich_glutathione_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#minich_glutathione_2019",
+            "note": "Dietary and supplemental strategies supporting glutathione biology."
+          },
+          {
+            "label": "Clerc et al. (2013)",
+            "citation_key": "clerc_magnesium_2013",
+            "href": "/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013",
+            "note": "Magnesium and stress-recovery physiology — nutritional modulator of restorative biology."
+          }
+        ]
+      }
     },
     {
       "id": "PH006",
@@ -81,8 +574,80 @@
       "slug": "stress-resilience",
       "description": "Capacity to buffer, adapt to, and recover from stress exposure.",
       "publicSummary": "How well the system buffers stress, adapts under pressure, and returns toward baseline afterward.",
-      "primaryDomains": ["stress", "resilience"],
-      "status": "active"
+      "primaryDomains": [
+        "stress",
+        "resilience"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA002",
+        "TA003",
+        "TA006"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Endocannabinoid and stress-adaptation reviews are strong; human dietary stress-resilience outcomes are indirect (omega-3 anxiety, oatmeal preclinical adjunct).",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 registry phenome for adaptive stress buffering. Benchmarked against RDoC Negative Valence and Arousal systems; distinct from Stress Reactivity (PH015) per RF002.",
+        "relatedPhenomeIds": [
+          "PH015"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Negative Valence Systems — sustained threat / stress adaptation",
+          "Arousal and Regulatory Systems — stress regulation"
+        ],
+        "dsm_icd_context": [
+          "Generalised anxiety disorder",
+          "Post-traumatic stress disorder — resilience contexts"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Garani et al. (2021)",
+            "citation_key": "garani_endocannabinoid_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021",
+            "note": "Endocannabinoid system in stress modulation and behavioural adaptation."
+          },
+          {
+            "label": "Oades et al. (2010)",
+            "citation_key": "oades_role_2010",
+            "href": "/docs/papers/BRAIN-Diet-References#oades_role_2010",
+            "note": "Monoaminergic systems in stress-related motivation and affect — ADHD-adjacent framing."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Watson et al. (2019)",
+            "citation_key": "watson_emerging_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#watson_emerging_2019",
+            "note": "Emerging gut–brain signalling and stress-related neuroimmune biology."
+          },
+          {
+            "label": "Mamiya et al. (2021)",
+            "citation_key": "mamiya_precision_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#mamiya_precision_2021",
+            "note": "Precision psychiatry framing for excitation–inhibition balance in stress-related phenotypes."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Kiecolt-Glaser et al. (2011)",
+            "citation_key": "kiecolt-glaser_omega-3_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011",
+            "note": "Omega-3 reduced anxiety and inflammatory markers under stress — human resilience biology."
+          },
+          {
+            "label": "Sean Davies et al. (2018)",
+            "citation_key": "sean_davies_oatmeal_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018",
+            "note": "Oatmeal bioactive context for gut–brain and stress-related signalling (preclinical/adjunct)."
+          }
+        ]
+      }
     },
     {
       "id": "PH007",
@@ -90,8 +655,80 @@
       "slug": "metabolic-resilience",
       "description": "Capacity to maintain function under changing metabolic, energetic, or physiological demand.",
       "publicSummary": "How well the body and brain maintain stable function when energy demand, fuel availability, or metabolic conditions change.",
-      "primaryDomains": ["energy", "resilience", "metabolism"],
-      "status": "active"
+      "primaryDomains": [
+        "energy",
+        "resilience",
+        "metabolism"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA005",
+        "TA006",
+        "TA007"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Metabolic-flexibility and ketone-body reviews anchor the construct; ketone intervention human evidence supports substrate biology more than broad metabolic-resilience phenome endpoints.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 registry phenome for maintaining function under changing metabolic demand. Overlaps conceptually with PH012/PH013 but emphasises systemic adaptive capacity rather than condition-specific energy stability labels.",
+        "relatedPhenomeIds": [
+          "PH012",
+          "PH013"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Arousal and Regulatory Systems — metabolic / physiological regulation"
+        ],
+        "icf_domains": [
+          "Body functions — metabolic and energy production functions"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Goodpaster & Sparks (2017)",
+            "citation_key": "goodpaster_metabolic_flexibility_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017",
+            "note": "Canonical metabolic flexibility construct and measurement framing."
+          },
+          {
+            "label": "Smith et al. (2018)",
+            "citation_key": "smith_metabolic_flexibility_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#smith_metabolic_flexibility_2018",
+            "note": "Metabolic flexibility in health and disease — resilience under variable demand."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Kyriazis et al. (2022)",
+            "citation_key": "kyriazis_impact_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022",
+            "note": "Ketone bodies and brain energy metabolism — adaptive substrate biology."
+          },
+          {
+            "label": "Packer et al. (1997)",
+            "citation_key": "packer_vitamin_1997",
+            "href": "/docs/papers/BRAIN-Diet-References#packer_vitamin_1997",
+            "note": "CoQ10 and mitochondrial antioxidant biology supporting metabolic resilience."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Lopez-Ojeda et al. (2023)",
+            "citation_key": "lopez_ojeda_ketone_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#lopez_ojeda_ketone_2023",
+            "note": "Ketogenic and ketone-body dietary contexts modulate brain energy substrate biology."
+          },
+          {
+            "label": "Ramezani et al. (2023)",
+            "citation_key": "ramezani_ketone_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#ramezani_ketone_2023",
+            "note": "Ketone ester supplementation and metabolic substrate flexibility in humans."
+          }
+        ]
+      }
     },
     {
       "id": "PH008",
@@ -99,8 +736,81 @@
       "slug": "sleep-calming-tone",
       "description": "Capacity to downshift arousal and support sleep-compatible physiological regulation.",
       "publicSummary": "How readily arousal can downshift toward calmer, sleep-compatible physiological states.",
-      "primaryDomains": ["sleep", "arousal"],
-      "status": "active"
+      "primaryDomains": [
+        "sleep",
+        "arousal"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA002",
+        "TA004",
+        "TA006"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "GABAergic sleep biochemistry is mechanistically strong (Cataldo); human dietary sleep-outcome evidence on the registry stack is limited — not sleep-disorder treatment efficacy.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 registry phenome for arousal downshift and sleep-compatible regulation. Benchmarked against RDoC Arousal/Regulatory Systems (sleep–wake, circadian).",
+        "relatedPhenomeIds": [
+          "PH003",
+          "PH015"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Arousal and Regulatory Systems — sleep–wake regulation",
+          "Arousal and Regulatory Systems — circadian rhythms"
+        ],
+        "dsm_icd_context": [
+          "Insomnia disorder",
+          "ADHD — sleep disturbance"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Cataldo et al. (2024)",
+            "citation_key": "cataldo_comprehensive_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#cataldo_comprehensive_2024",
+            "note": "Comprehensive review of PLP-dependent GABA synthesis and sleep-relevant inhibitory neurochemistry."
+          },
+          {
+            "label": "Fernstrom (2013)",
+            "citation_key": "fernstrom_lnna_2013",
+            "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013",
+            "note": "Precursor biology intersecting serotonergic sleep–wake and calming tone pathways."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Cataldo et al. (2024)",
+            "citation_key": "cataldo_comprehensive_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#cataldo_comprehensive_2024",
+            "note": "Glutamate decarboxylase and GABA synthesis as principal calming neurophysiology."
+          },
+          {
+            "label": "D'Afflitto et al. (2022)",
+            "citation_key": "dafflitto_sex_hormone_gut_microbiota_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#dafflitto_sex_hormone_gut_microbiota_2022",
+            "note": "Sex-hormone and gut–microbiota signalling intersect sleep and arousal regulation."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Bravo et al. (2011)",
+            "citation_key": "bravo_ingestion_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011",
+            "note": "Gut–brain GABAergic modulation via microbiota — dietary probiotic context for calming biology."
+          },
+          {
+            "label": "Clerc et al. (2013)",
+            "citation_key": "clerc_magnesium_2013",
+            "href": "/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013",
+            "note": "Magnesium and neuromuscular/sleep-related physiology — nutritional calming-tone modulator."
+          }
+        ]
+      }
     },
     {
       "id": "PH009",
@@ -108,8 +818,81 @@
       "slug": "reward-regulation",
       "description": "Capacity to regulate reward sensitivity, reinforcement learning, and reward-seeking behaviour.",
       "publicSummary": "How reward sensitivity, reinforcement learning, and reward-seeking behaviour are regulated over time.",
-      "primaryDomains": ["reward", "behaviour"],
-      "status": "active"
+      "primaryDomains": [
+        "reward",
+        "behaviour"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA002",
+        "TA003",
+        "TA007"
+      ],
+      "status": "active",
+      "evidence_confidence": "low",
+      "evidence_confidence_note": "Endocannabinoid reward biology is review-supported but sparse on mechanism pages; registry stack lacks direct human reward-regulation outcome trials.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 registry phenome for reward sensitivity and reinforcement learning. Distinct from Pleasure & Interest Capacity (PH017) and Motivation/Drive (PH002) per RF005.",
+        "relatedPhenomeIds": [
+          "PH002",
+          "PH017"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Positive Valence Systems — reward valuation",
+          "Positive Valence Systems — reward learning"
+        ],
+        "dsm_icd_context": [
+          "Attention-deficit/hyperactivity disorder",
+          "Substance use disorder — reward dysregulation contexts"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Covey et al. (2017)",
+            "citation_key": "covey_endocannabinoid_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017",
+            "note": "Endocannabinoid modulation of reward processing and reinforcement."
+          },
+          {
+            "label": "Gruber et al. (2023)",
+            "citation_key": "gruber_impact_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#gruber_impact_2023",
+            "note": "Insulin–dopamine reward-processing disruption in depression — reward regulation construct."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Solinas et al. (2006)",
+            "citation_key": "solinas_anandamide_2006",
+            "href": "/docs/papers/BRAIN-Diet-References#solinas_anandamide_2006",
+            "note": "Anandamide and endocannabinoid signalling in reward-related behaviour."
+          },
+          {
+            "label": "Oades et al. (2010)",
+            "citation_key": "oades_role_2010",
+            "href": "/docs/papers/BRAIN-Diet-References#oades_role_2010",
+            "note": "Dopaminergic reward and reinforcement biology in ADHD-related contexts."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Ferguson et al. (2014)",
+            "citation_key": "ferguson_omega3_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
+            "note": "Omega-3 PUFA modulates inflammatory biology intersecting mood/reward pathways."
+          },
+          {
+            "label": "Jackson et al. (2021)",
+            "citation_key": "jackson_effects_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#jackson_effects_2021",
+            "note": "Saffron RCT mood outcomes — adjacent human nutrition→reward-affect biology."
+          }
+        ]
+      }
     },
     {
       "id": "PH010",
@@ -117,8 +900,78 @@
       "slug": "behavioural-activation",
       "description": "Capacity to translate motivation into action, task initiation, and sustained behavioural engagement.",
       "publicSummary": "How effectively motivation converts into starting tasks and sustaining behavioural engagement.",
-      "primaryDomains": ["behaviour", "motivation"],
-      "status": "active"
+      "primaryDomains": [
+        "behaviour",
+        "motivation"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA003",
+        "TA007"
+      ],
+      "status": "active",
+      "evidence_confidence": "low",
+      "evidence_confidence_note": "Mechanism coverage is thin at registry level; endocannabinoid and dopaminergic reviews provide construct context only — not behavioural-activation intervention evidence.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 registry phenome for translating motivation into action. Related to Motivation/Drive (PH002) per RF003; distinct as behavioural initiation/engagement rather than intrinsic drive tone.",
+        "relatedPhenomeIds": [
+          "PH002"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Positive Valence Systems — initial response to reward / action initiation"
+        ],
+        "dsm_icd_context": [
+          "Attention-deficit/hyperactivity disorder — hyperactivity/impulsivity",
+          "Major depressive disorder — behavioural activation contexts"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Covey et al. (2017)",
+            "citation_key": "covey_endocannabinoid_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#covey_endocannabinoid_2017",
+            "note": "Endocannabinoid system and motivated behaviour / action initiation biology."
+          },
+          {
+            "label": "Aquili (2020)",
+            "citation_key": "aquili_role_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#aquili_role_2020",
+            "note": "Catecholaminergic signalling and goal-directed behavioural engagement."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "MacDonald et al. (2024)",
+            "citation_key": "macdonald_dopamine_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024",
+            "note": "Dopamine and initiation of goal-directed action — core activation biology."
+          },
+          {
+            "label": "Wurtman et al. (2003)",
+            "citation_key": "wurtman_effects_2003",
+            "href": "/docs/papers/BRAIN-Diet-References#wurtman_effects_2003",
+            "note": "Dietary precursor effects on catecholamine synthesis upstream of behavioural activation."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Reimherr et al. (1987)",
+            "citation_key": "f_w_reimherr_open_1987",
+            "href": "/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987",
+            "note": "Tyrosine supplementation in ADHD — early human evidence for activation-related biology."
+          },
+          {
+            "label": "Wang et al. (2019)",
+            "citation_key": "wang_dietary_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019",
+            "note": "Dietary amino-acid context modulates neurotransmitter biology relevant to task engagement."
+          }
+        ]
+      }
     },
     {
       "id": "PH011",
@@ -126,8 +979,82 @@
       "slug": "cognitive-clarity",
       "description": "Capacity to maintain clear, organised mental processing without excessive fog or confusion.",
       "publicSummary": "How clear and organised thinking feels — distinct from attention stability or raw mental energy.",
-      "primaryDomains": ["cognition"],
-      "status": "active"
+      "primaryDomains": [
+        "cognition"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA002",
+        "TA003",
+        "TA004",
+        "TA005",
+        "TA006",
+        "TA007"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Oxidative-stress and omega-3 cognition reviews support biology→phenome; homocysteine and gut–estrogen links are mechanistic — clarity outcomes not isolated as primary endpoints on the stack.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 registry phenome for mental processing clarity (distinct from Focus/Attention Stability PH001 and Cognitive Energy PH004). Enriched with cross-system oxidative and micronutrient biology.",
+        "relatedPhenomeIds": [
+          "PH001",
+          "PH004"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Cognitive Systems — cognitive control / processing efficiency"
+        ],
+        "dsm_icd_context": [
+          "Attention-deficit/hyperactivity disorder — cognitive symptoms",
+          "Mild cognitive impairment"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Derbyshire & Maes (2023)",
+            "citation_key": "derbyshire_role_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#derbyshire_role_2023",
+            "note": "Neuroinflammation and oxidative stress in ADHD — cognitive symptom construct context."
+          },
+          {
+            "label": "Liu et al. (2014)",
+            "citation_key": "liu_higher_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#liu_higher_2014",
+            "note": "Homocysteine and cognitive function — clarity/processing efficiency framing."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Verlaet et al. (2019)",
+            "citation_key": "verlaet_oxidative_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019",
+            "note": "Oxidative stress biology linked to ADHD cognitive symptom domains."
+          },
+          {
+            "label": "Collaboration (1998)",
+            "citation_key": "collaboration_lowering_1998",
+            "href": "/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998",
+            "note": "Homocysteine lowering and cognitive outcomes — biology→clarity linkage."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Oulhaj et al. (2016)",
+            "citation_key": "oulhaj_omega-3_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016",
+            "note": "Omega-3 supplementation and cognitive performance — human nutrition→cognition support."
+          },
+          {
+            "label": "Watson et al. (2019)",
+            "citation_key": "watson_emerging_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#watson_emerging_2019",
+            "note": "Gut–brain signalling and cognitive health — microbiome nutrition context."
+          }
+        ]
+      }
     },
     {
       "id": "PH012",
@@ -135,8 +1062,79 @@
       "slug": "energy-stability-under-variable-conditions",
       "description": "Capacity to maintain energy output when nutritional, physiological, or environmental conditions change.",
       "publicSummary": "How steadily energy production holds when conditions around nutrition, physiology, or demand shift.",
-      "primaryDomains": ["energy", "metabolism"],
-      "status": "active"
+      "primaryDomains": [
+        "energy",
+        "metabolism"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA005",
+        "TA006",
+        "TA007"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Metabolic-flexibility reviews strongly anchor the construct; single-FM mechanism linkage in BRAIN v1 — nutrition layer is micronutrient/bioenergetic context rather than condition-variable energy trials.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 registry phenome for energy stability when environmental and physiological conditions change. Near-duplicate review flag with PH013 (RF001) — fuel-substrate specificity reserved for PH013.",
+        "relatedPhenomeIds": [
+          "PH013",
+          "PH007"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Arousal and Regulatory Systems — metabolic regulation"
+        ],
+        "icf_domains": [
+          "Body functions — energy and drive functions"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Goodpaster & Sparks (2017)",
+            "citation_key": "goodpaster_metabolic_flexibility_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017",
+            "note": "Metabolic flexibility under changing physiological demand — canonical construct."
+          },
+          {
+            "label": "Smith et al. (2018)",
+            "citation_key": "smith_metabolic_flexibility_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#smith_metabolic_flexibility_2018",
+            "note": "Adaptive substrate utilisation and energetic stability in variable conditions."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Kyriazis et al. (2022)",
+            "citation_key": "kyriazis_impact_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022",
+            "note": "Brain ketone metabolism and energetic adaptation under variable supply."
+          },
+          {
+            "label": "Goodpaster & Sparks (2017)",
+            "citation_key": "goodpaster_metabolic_flexibility_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017",
+            "note": "Physiological flexibility as biology→energy-stability linkage."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Pirinen et al. (2020)",
+            "citation_key": "pirinen_niacin_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020",
+            "note": "NAD⁺/mitochondrial support for energetic stability under metabolic stress."
+          },
+          {
+            "label": "Tardy et al. (2020)",
+            "citation_key": "tardy_vitamins_2020",
+            "href": "/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020",
+            "note": "B-vitamin supplementation and energy/fatigue-related outcomes."
+          }
+        ]
+      }
     },
     {
       "id": "PH013",
@@ -144,8 +1142,77 @@
       "slug": "energy-stability-under-variable-fuel-conditions",
       "description": "Capacity to maintain ATP-linked energy supply when available fuel substrates or macronutrient context change.",
       "publicSummary": "How well energy supply holds when glucose, fat, ketone, or mixed fuel availability changes.",
-      "primaryDomains": ["energy", "metabolism", "fuel"],
-      "status": "active"
+      "primaryDomains": [
+        "energy",
+        "metabolism",
+        "fuel"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA005",
+        "TA006",
+        "TA007"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Ketone and glucose-efficiency human studies support fuel-switching biology; registry stack does not demonstrate dietary fuel-manipulation trials as energy-phenome primary endpoints.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 registry phenome for ATP-linked supply when macronutrient/fuel context changes. Paired with PH012 under RF001 near-duplicate review — PH013 retains substrate-specific framing.",
+        "relatedPhenomeIds": [
+          "PH012",
+          "PH007"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Arousal and Regulatory Systems — metabolic / substrate regulation"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "van Oudheusden et al. (2002)",
+            "citation_key": "van_oudheusden_efficacy_2002",
+            "href": "/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002",
+            "note": "Efficacy of glucose and fuel interventions on cognitive performance — fuel-availability construct."
+          },
+          {
+            "label": "Lopez-Ojeda et al. (2023)",
+            "citation_key": "lopez_ojeda_ketone_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#lopez_ojeda_ketone_2023",
+            "note": "Ketone bodies as alternative fuel — variable substrate framing."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Ramezani et al. (2023)",
+            "citation_key": "ramezani_ketone_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#ramezani_ketone_2023",
+            "note": "Ketone ester effects on substrate utilisation and brain energy biology."
+          },
+          {
+            "label": "Kyriazis et al. (2022)",
+            "citation_key": "kyriazis_impact_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022",
+            "note": "Ketone metabolism and brain energetic adaptation under fuel change."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Lopez-Ojeda et al. (2023)",
+            "citation_key": "lopez_ojeda_ketone_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#lopez_ojeda_ketone_2023",
+            "note": "Dietary ketogenic context modulates ketone-body fuel biology."
+          },
+          {
+            "label": "van Oudheusden et al. (2002)",
+            "citation_key": "van_oudheusden_efficacy_2002",
+            "href": "/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002",
+            "note": "Glucose administration and cognitive fuel-supply intervention evidence."
+          }
+        ]
+      }
     },
     {
       "id": "PH014",
@@ -153,8 +1220,80 @@
       "slug": "hormonal-volatility",
       "description": "Stability of hormone-linked signalling patterns that influence mood, cognition, and physiological regulation.",
       "publicSummary": "How stable hormone-linked signalling feels over time — as distinct from a single hormone mechanism.",
-      "primaryDomains": ["hormones", "endocrine"],
-      "status": "active"
+      "primaryDomains": [
+        "hormones",
+        "endocrine"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA002",
+        "TA003",
+        "TA004"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Estrobolome and sex-hormone signalling reviews are mechanistically strong; human dietary hormone-stability trials are not represented on the foundational stack.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 registry phenome for hormone-linked signalling stability affecting mood and cognition. Cross-referenced to gut–estrobolome and insulin–estrogen biology from BRS-X Hormones workstream.",
+        "relatedPhenomeIds": [
+          "PH003",
+          "PH004"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Arousal and Regulatory Systems — endocrine / hormonal regulation"
+        ],
+        "dsm_icd_context": [
+          "Premenstrual dysphoric disorder",
+          "Perimenopause — mood and cognitive volatility"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Hu et al. (2023)",
+            "citation_key": "hu_gut_microbial_beta_glucuronidase_estrogen_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#hu_gut_microbial_beta_glucuronidase_estrogen_2023",
+            "note": "Gut microbial beta-glucuronidase and estrogen recirculation — hormonal volatility biology."
+          },
+          {
+            "label": "Li et al. (2023)",
+            "citation_key": "li_function_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#li_function_2023",
+            "note": "Mitochondrial and neuroendocrine function intersecting mood and cognitive regulation."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Depaoli et al. (2021)",
+            "citation_key": "depaoli_estrogen_insulin_resistance_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#depaoli_estrogen_insulin_resistance_2021",
+            "note": "Estrogen–insulin resistance coupling and neuropsychiatric endocrine volatility."
+          },
+          {
+            "label": "Ervin et al. (2019)",
+            "citation_key": "ervin_estrobolome_beta_glucuronidase_2019",
+            "href": "/docs/papers/BRAIN-Diet-References#ervin_estrobolome_beta_glucuronidase_2019",
+            "note": "Estrobolome beta-glucuronidase activity and estrogen signalling stability."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Sui et al. (2021)",
+            "citation_key": "sui_gut_microbial_beta_glucuronidase_estrogen_reactivation_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#sui_gut_microbial_beta_glucuronidase_estrogen_reactivation_2021",
+            "note": "Dietary modulation of gut beta-glucuronidase and estrogen reactivation."
+          },
+          {
+            "label": "D'Afflitto et al. (2022)",
+            "citation_key": "dafflitto_sex_hormone_gut_microbiota_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#dafflitto_sex_hormone_gut_microbiota_2022",
+            "note": "Sex hormones, gut microbiota, and dietary signalling intersecting endocrine stability."
+          }
+        ]
+      }
     },
     {
       "id": "PH015",
@@ -162,8 +1301,333 @@
       "slug": "stress-reactivity",
       "description": "Intensity and pattern of physiological and affective responses to stressors.",
       "publicSummary": "How strongly and quickly the system reacts to stress — distinct from longer-term stress resilience.",
-      "primaryDomains": ["stress", "reactivity"],
-      "status": "active"
+      "primaryDomains": [
+        "stress",
+        "reactivity"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA002",
+        "TA004",
+        "TA006"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "E/I balance and redox biology are review-supported; magnesium and homocysteine nutrition links are mechanistic — not stress-reactivity disorder intervention trials.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Core Version 1 registry phenome for stress-response intensity. Distinct from Stress Resilience (PH006) per RF002 — reactivity (acute response) versus adaptive buffering.",
+        "relatedPhenomeIds": [
+          "PH006",
+          "PH003"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Negative Valence Systems — acute threat / fear",
+          "Arousal and Regulatory Systems — stress response"
+        ],
+        "dsm_icd_context": [
+          "Generalised anxiety disorder",
+          "Attention-deficit/hyperactivity disorder — emotional reactivity"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Mamiya et al. (2021)",
+            "citation_key": "mamiya_precision_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#mamiya_precision_2021",
+            "note": "Excitation–inhibition balance framing for stress-related psychiatric phenotypes."
+          },
+          {
+            "label": "Clerc et al. (2013)",
+            "citation_key": "clerc_magnesium_2013",
+            "href": "/docs/papers/BRAIN-Diet-References#clerc_magnesium_2013",
+            "note": "Magnesium and stress-axis physiology — construct validation for reactivity biology."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Lukovac et al. (2024)",
+            "citation_key": "lukovac_serum_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#lukovac_serum_2024",
+            "note": "Serum oxidative stress markers in ADHD — load and reactivity biology."
+          },
+          {
+            "label": "Gregory et al. (2016)",
+            "citation_key": "gregory_homocysteine_2016",
+            "href": "/docs/papers/BRAIN-Diet-References#gregory_homocysteine_2016",
+            "note": "Homocysteine, B-vitamins, and stress-related neurochemistry."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Kiecolt-Glaser et al. (2011)",
+            "citation_key": "kiecolt-glaser_omega-3_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011",
+            "note": "Omega-3 reduced stress-related anxiety and inflammation in humans."
+          },
+          {
+            "label": "Marsland et al. (2017)",
+            "citation_key": "marsland_systemic_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#marsland_systemic_2017",
+            "note": "Systemic inflammation and stress-related neural network biology."
+          }
+        ]
+      }
+    },
+    {
+      "id": "PH016",
+      "name": "Apprehensive Worry / Perseverative Thought",
+      "slug": "apprehensive-worry-perseverative-thought",
+      "description": "Capacity to limit sustained apprehensive worry, rumination, and difficulty disengaging from threat-anticipatory or negative perseverative thought.",
+      "publicSummary": "How much worry, rumination, or hard-to-stop apprehensive thinking intrudes on everyday function — distinct from general emotional reactivity or stress-response intensity.",
+      "primaryDomains": [
+        "anxiety",
+        "cognition",
+        "negative-valence"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA002",
+        "TA003",
+        "TA006"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Foundational stack combines mechanistic construct validation (Briguglio, Marsland) with translational biology→phenome and human intervention support (Kiecolt-Glaser) — not direct dietary treatment efficacy for worry disorders.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Introduced in registry v3 (2026) following cross-TA anxiety/depression gap analysis. Benchmarked against RDoC Negative Valence Systems (potential threat) and Cognitive Systems (perseverative thought / cognitive control) to remain distinct from Emotional Regulation (PH003) and Stress Reactivity (PH015).",
+        "relatedPhenomeIds": [
+          "PH003",
+          "PH011",
+          "PH015"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Negative Valence Systems — potential threat (anxiety)",
+          "Cognitive Systems — cognitive control / perseverative thought"
+        ],
+        "dsm_icd_context": [
+          "Generalised anxiety disorder",
+          "Major depressive disorder — rumination / worry features"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Briguglio et al. (2018)",
+            "citation_key": "briguglio_dietary_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018",
+            "note": "Reviews dietary neurotransmitter biology (including serotonin) relevant to neuropsychiatric anxiety and mood contexts."
+          },
+          {
+            "label": "Marsland et al. (2017)",
+            "citation_key": "marsland_systemic_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#marsland_systemic_2017",
+            "note": "Links systemic inflammation to default-mode network connectivity patterns associated with perseverative thought."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Marsland et al. (2017)",
+            "citation_key": "marsland_systemic_2017",
+            "href": "/docs/papers/BRAIN-Diet-References#marsland_systemic_2017",
+            "note": "Neuroimmune signalling intersects default-mode hyperconnectivity relevant to worry/rumination biology."
+          },
+          {
+            "label": "Batey et al. (2024)",
+            "citation_key": "batey_lipopolysaccharide_2024",
+            "href": "/docs/papers/BRAIN-Diet-References#batey_lipopolysaccharide_2024",
+            "note": "LPS-linked neurotransmission disruption in depression — adjacent biology for inflammatory–affective perseveration context."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Kiecolt-Glaser et al. (2011)",
+            "citation_key": "kiecolt-glaser_omega-3_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011",
+            "note": "Omega-3 supplementation lowered anxiety and inflammatory markers in stressed adults."
+          },
+          {
+            "label": "Zelicha et al. (2022)",
+            "citation_key": "zelicha_effect_2022",
+            "href": "/docs/papers/BRAIN-Diet-References#zelicha_effect_2022",
+            "note": "Polyphenol-rich dietary pattern reduced inflammatory tone — upstream context for neuroimmune worry biology."
+          }
+        ]
+      }
+    },
+    {
+      "id": "PH017",
+      "name": "Pleasure & Interest Capacity",
+      "slug": "pleasure-interest-capacity",
+      "description": "Capacity to experience interest, anticipatory pleasure, and consummatory engagement with rewarding or meaningful activities — the functional domain overlapping anhedonia in depressive and related conditions.",
+      "publicSummary": "How readily interest and pleasure in activities can be felt and sustained — distinct from raw motivation to start tasks or reward-seeking behaviour.",
+      "primaryDomains": [
+        "reward",
+        "affect",
+        "positive-valence"
+      ],
+      "therapeuticAreaIds": [
+        "TA001",
+        "TA002",
+        "TA003",
+        "TA007"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Construct and biology→phenome layers are review- and mechanistic-heavy; Jackson (2021) adds human intervention support for mood/pleasure domains without isolating anhedonia as a primary endpoint.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Introduced in registry v3 (2026) following cross-TA depression gap analysis. Benchmarked against RDoC Positive Valence Systems (reward valuation, consummatory pleasure / anhedonia) to remain distinct from Reward Regulation (PH009), Motivation/Drive (PH002), and Behavioural Activation (PH010).",
+        "relatedPhenomeIds": [
+          "PH002",
+          "PH009",
+          "PH010"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Positive Valence Systems — reward valuation",
+          "Positive Valence Systems — initial response to reward / consummatory pleasure"
+        ],
+        "dsm_icd_context": [
+          "Major depressive disorder — anhedonia",
+          "Bipolar disorder — reduced pleasure capacity"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Gruber et al. (2023)",
+            "citation_key": "gruber_impact_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#gruber_impact_2023",
+            "note": "Reviews insulin–dopamine reward-processing disruption in depression pathophysiology."
+          },
+          {
+            "label": "Lopresti & Drummond (2014)",
+            "citation_key": "lopresti_saffron_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#lopresti_saffron_2014",
+            "note": "Systematic review of saffron clinical studies and antidepressant mechanisms — pleasure/mood construct validation."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Gruber et al. (2023)",
+            "citation_key": "gruber_impact_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#gruber_impact_2023",
+            "note": "Brain dopamine signalling and reward processing as underexplored depression mechanisms."
+          },
+          {
+            "label": "Song et al. (2023)",
+            "citation_key": "song_mitochondrial_2023",
+            "href": "/docs/papers/BRAIN-Diet-References#song_mitochondrial_2023",
+            "note": "Mitochondrial dysfunction in depression — adjacent biology for reward-energy integration."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Jackson et al. (2021)",
+            "citation_key": "jackson_effects_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#jackson_effects_2021",
+            "note": "Saffron RCT reported reduced depression scores and improved social well-being in subclinical mood contexts."
+          },
+          {
+            "label": "Ferguson et al. (2014)",
+            "citation_key": "ferguson_omega3_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
+            "note": "Omega-3 PUFA modulates inflammatory and resolution-phase biology intersecting mood pathways."
+          }
+        ]
+      }
+    },
+    {
+      "id": "PH018",
+      "name": "Social Engagement Capacity",
+      "slug": "social-engagement-capacity",
+      "description": "Capacity for affiliative approach, social participation, and maintained engagement in interpersonal contexts without excessive withdrawal or avoidance.",
+      "publicSummary": "How readily a person can approach, participate in, and stay engaged with social connection — distinct from general emotional regulation alone.",
+      "primaryDomains": [
+        "social",
+        "behaviour",
+        "affiliation"
+      ],
+      "therapeuticAreaIds": [
+        "TA002",
+        "TA003",
+        "TA004",
+        "TA007"
+      ],
+      "status": "active",
+      "evidence_confidence": "low-medium",
+      "evidence_confidence_note": "Gut–brain and social-rank biology are strongly preclinical; Jackson (2021) provides adjacent human social-wellbeing outcome support — not a direct social-engagement phenome trial.",
+      "provenance": {
+        "frameworkOrigin": "BRAIN",
+        "developmentNote": "Introduced in registry v3 (2026) following cross-TA anxiety/depression and autism-spectrum gap analysis. Benchmarked against RDoC Social Processes (affiliation, attachment, social communication) to remain distinct from Emotional Regulation (PH003).",
+        "relatedPhenomeIds": [
+          "PH003",
+          "PH017"
+        ]
+      },
+      "crossReferences": {
+        "rdoc_domains": [
+          "Social Processes — affiliation and attachment",
+          "Social Processes — social communication"
+        ],
+        "dsm_icd_context": [
+          "Social anxiety disorder",
+          "Major depressive disorder — social withdrawal",
+          "Autism spectrum disorder — social communication differences"
+        ]
+      },
+      "evidence": {
+        "construct_landmark_papers": [
+          {
+            "label": "Hollis et al. (2015)",
+            "citation_key": "hollis_mitochondrial_2015",
+            "href": "/docs/papers/BRAIN-Diet-References#hollis_mitochondrial_2015",
+            "note": "Trait anxiety predisposes to social subordination; nucleus accumbens mitochondrial function mediates social rank biology."
+          },
+          {
+            "label": "Bravo et al. (2011)",
+            "citation_key": "bravo_ingestion_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011",
+            "note": "Gut microbiota modulates central GABA receptors and anxiety/depression-related behaviour via gut–brain signalling."
+          }
+        ],
+        "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Bravo et al. (2011)",
+            "citation_key": "bravo_ingestion_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011",
+            "note": "Microbiota–GABAergic gut–brain pathway linked to anxiety-related social behaviour in preclinical models."
+          },
+          {
+            "label": "Briguglio et al. (2018)",
+            "citation_key": "briguglio_dietary_2018",
+            "href": "/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018",
+            "note": "Dietary neurotransmitter review spanning serotonergic and GABAergic biology relevant to social-affective function."
+          }
+        ],
+        "nutrition_to_biology_landmark_papers": [
+          {
+            "label": "Bravo et al. (2011)",
+            "citation_key": "bravo_ingestion_2011",
+            "href": "/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011",
+            "note": "Probiotic L. rhamnosus modulates gut–brain GABAergic signalling — dietary microbiome intervention context."
+          },
+          {
+            "label": "Jackson et al. (2021)",
+            "citation_key": "jackson_effects_2021",
+            "href": "/docs/papers/BRAIN-Diet-References#jackson_effects_2021",
+            "note": "Saffron supplementation improved social relationship quality alongside mood outcomes in RCT."
+          }
+        ]
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Migrate KC Constraint Stressors → FM §4.4 Functional Failure Modes.
+ * Migrate KC Constraint Stressors → FM §4.3 Suboptimal Function & Its Effects.
  * Remove KC §6 stressors; renumber References to §6.
  */
 import fs from "node:fs";

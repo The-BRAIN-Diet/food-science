@@ -19,6 +19,7 @@ const { ok, issues, warnings, diagnostics } = validatePhenomeRegistry(rootDir);
 
 console.log("Phenome registry validation");
 console.log(`  Registry phenomes: ${diagnostics.registryPhenomeCount}`);
+console.log(`  Therapeutic areas: ${diagnostics.therapeuticAreaCount ?? 0}`);
 console.log(`  Relationship edges: ${diagnostics.relationshipEdgeCount}`);
 console.log(`  Edges with targetPhenomeId: ${diagnostics.mappedEdgeCount}`);
 

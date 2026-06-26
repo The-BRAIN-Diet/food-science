@@ -1,6 +1,7 @@
 ---
-title: Noradrenergic Signalling (Attention & Executive Modulation)
+title: Noradrenergic Signalling
 pm_id: BRS1-FM1-PM3
+mission: Support noradrenergic alertness and executive control so attention and arousal stay appropriately engaged.
 parent_fm: BRS1(FM1)
 parent_brs: BRS1
 summary: 'Supports alertness, focus, and executive control through noradrenaline (norepinephrine) — a key monoamine signal for attention and arousal. Stable noradrenergic signalling helps the brain maintain appropriate vigilance and cognitive engagement.'
@@ -14,12 +15,75 @@ intervention_dominance: Diet-Supported
 intervention_breakdown: Food-State Leaning
 timing_specific: 'Yes'
 dose_sensitivity: Pattern-based; adequate protein plus cofactor sufficiency
+phenome_relationships:
+  - target_phenome: Focus / Attention Stability
+    relationship_type: modulates
+    confidence: high
+    evidence_level: mechanistic
+    rationale: 'Noradrenergic signalling is a core biological determinant of attentional regulation, arousal, and executive control in ADHD — supported by locus coeruleus biology, neuropharmacology, and clinical stimulant pharmacology. Dietary tyrosine, iron, and B6 cofactor context modulates upstream substrate supply; this scores biological relevance within BRAIN, not dietary treatment efficacy.'
+    references:
+      - index: 1
+        label: O'Donnell et al. (2012)
+        citation_key: odonnell_norepinephrine_2012
+        href: /docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012
+        data_level: Mechanistic
+      - index: 2
+        label: MacDonald et al. (2024)
+        citation_key: macdonald_dopamine_2024
+        href: /docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024
+        data_level: Mechanistic
+      - index: 3
+        label: Fernstrom (2013)
+        citation_key: fernstrom_lnna_2013
+        href: /docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013
+        data_level: Mechanistic
+    evidence_confidence: low-medium
+  - target_phenome: Motivation / Drive
+    relationship_type: modulates
+    confidence: medium
+    evidence_level: mechanistic
+    rationale: 'Noradrenergic signalling modulates arousal and effort-related monoaminergic tone relevant to motivation contexts in ADHD, but dopaminergic reward circuitry is the primary biological driver of Motivation / Drive. Upstream dietary cofactor and precursor context may influence this PM without implying pharmacologic equivalence. Evidence Confidence is low-medium because attached refs do not directly measure motivation outcomes on this PM.'
+    references:
+      - index: 1
+        label: MacDonald et al. (2024)
+        citation_key: macdonald_dopamine_2024
+        href: /docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024
+        data_level: Mechanistic
+      - index: 2
+        label: Santos et al. (2019)
+        citation_key: santos_como_2019
+        href: /docs/papers/BRAIN-Diet-References#santos_como_2019
+        data_level: Mechanistic
+      - index: 3
+        label: Beard et al. (2003)
+        citation_key: beard_iron_2003
+        href: /docs/papers/BRAIN-Diet-References#beard_iron_2003
+        data_level: Animal Data
+    evidence_confidence: low-medium
+  - target_phenome: Pleasure & Interest Capacity
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: Noradrenergic and broader catecholaminergic signalling intersect reward anticipation and incentive motivation components of pleasure/interest capacity in RDoC Positive Valence framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent translational context for monoaminergic supply.
+    references:
+      - index: 1
+        label: MacDonald et al. (2024)
+        citation_key: macdonald_dopamine_2024
+        href: /docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024
+        data_level: Mechanistic
+      - index: 2
+        label: Gruber et al. (2023)
+        citation_key: gruber_impact_2023
+        href: /docs/papers/BRAIN-Diet-References#gruber_impact_2023
+        data_level: Mechanistic
+    evidence_confidence: low
 references:
   - '[O''Donnell et al. (2012) — Norepinephrine](/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012)'
   - '[Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)'
   - '[Beard et al. (2003) — Iron Deficiency Alters Brain Development and Functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003)'
   - '[MacDonald et al. (2024) — The Dopamine Hypothesis for ADHD](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024)'
   - '[Santos et al. (2019) — Como o cérebro funciona?](/docs/papers/BRAIN-Diet-References#santos_como_2019)'
+  - '[Gruber et al. (2023) — Impact of Insulin and Insulin Resistance on Brain Dopamine Signalling and Reward](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)'
 hide_title: true
 ---
 
@@ -31,9 +95,17 @@ hide_title: true
   />
 </p>
 
-## BRS1-FM1-PM3 - Noradrenergic Signalling (Attention & Executive Modulation)
+## BRS1-FM1-PM3 - Noradrenergic Signalling
 
-## 1. Definition
+(Attention & Executive Modulation)
+
+## 1. Mission & Overview
+
+### Mission
+
+Support noradrenergic alertness and executive control so attention and arousal stay appropriately engaged.
+
+### Overview
 
 Supports alertness, focus, and executive control through noradrenaline (norepinephrine) — a key monoamine signal for attention and arousal. Stable noradrenergic signalling helps the brain maintain appropriate vigilance and cognitive engagement.
 
@@ -41,15 +113,69 @@ Supports alertness, focus, and executive control through noradrenaline (norepine
 * Helps maintain executive engagement and arousal appropriate to task demands — within BRS1.
 * Operates downstream of precursor availability and LAT1 transport represented in sibling PMs — within BRS1.
 
-
 ## 2. Primary Biological Effects
 ↑ norepinephrine signalling; ↑ attention; ↑ executive modulation
 
 ## 3. Phenome Connections
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
 
-No direct functional outcome relationship currently mapped.
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Focus / Attention Stability — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** High
+- **Rationale:** Noradrenergic signalling is a core biological determinant of attentional regulation, arousal, and executive control in ADHD — supported by locus coeruleus biology, neuropharmacology, and clinical stimulant pharmacology. Dietary tyrosine, iron, and B6 cofactor context modulates upstream substrate supply; this scores biological relevance within BRAIN, not dietary treatment efficacy.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012","label":"O'Donnell et al. (2012)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024","label":"MacDonald et al. (2024)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013","label":"Fernstrom (2013)","dataLevel":"Mechanistic"}]} />
+- **Evidence Confidence:** Low–Medium
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Motivation / Drive — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Medium
+- **Rationale:** Noradrenergic signalling modulates arousal and effort-related monoaminergic tone relevant to motivation contexts in ADHD, but dopaminergic reward circuitry is the primary biological driver of Motivation / Drive. Upstream dietary cofactor and precursor context may influence this PM without implying pharmacologic equivalence. Evidence Confidence is low-medium because attached refs do not directly measure motivation outcomes on this PM.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024","label":"MacDonald et al. (2024)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#santos_como_2019","label":"Santos et al. (2019)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#beard_iron_2003","label":"Beard et al. (2003)","dataLevel":"Animal Data"}]} />
+- **Evidence Confidence:** Low–Medium
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Pleasure & Interest Capacity — modulates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low–Medium
+- **Rationale:** Noradrenergic and broader catecholaminergic signalling intersect reward anticipation and incentive motivation components of pleasure/interest capacity in RDoC Positive Valence framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent translational context for monoaminergic supply.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024","label":"MacDonald et al. (2024)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#gruber_impact_2023","label":"Gruber et al. (2023)","dataLevel":"Mechanistic"}]} />
+- **Evidence Confidence:** Low
+
+</div>
+</div>
+</div>
 
 ## 4. Levers
 
@@ -57,11 +183,21 @@ No direct functional outcome relationship currently mapped.
 
 **Intervention Dominance:** Diet-Supported
 
-<details>
-<summary><strong>4.1 Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1 Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-<details>
-<summary><strong>4.1.1 Direct Dietary Levers</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.1 Direct Dietary Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - IRON ← beef
 - Tyrosine ← protein-rich foods
@@ -69,33 +205,71 @@ No direct functional outcome relationship currently mapped.
 - Pair plant-based iron with citrus; fat-soluble vitamins with avocado or olive oil; spread minerals across meals where practical
 - exercise → ↑ catecholamine signalling.
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.2 Cofactors and Supporting Inputs</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.2 Cofactors and Supporting Inputs</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - B6
 - iron
 - vitamin C
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>
 
-- [BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.1.3 KCs (Key Constraints)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
-</details>
+- [BRS1(KC1) - Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
 
-</details>
+**Shared Biological Pool**
 
-<details>
-<summary><strong>4.2 Lifestyle Levers</strong></summary>
+- Essential amino acids (EAAs)
+- Large neutral amino acids (LNAAs)
+- Tryptophan
+- Tyrosine
+- Limiting amino-acid coverage within mixed protein contexts
+- Complementary amino-acid combinations
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.2 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - Meal timing and circadian-aligned eating may influence precursor transport and neurotransmitter bias.
 - Physical activity and stress recovery practices may modulate catecholamine and autonomic context where listed in interventions.
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 5. Mechanistic Basis
 
@@ -103,8 +277,13 @@ No direct functional outcome relationship currently mapped.
 
 BRS1-FM1-PM3 supports noradrenergic signalling pathways relevant to attention, arousal, and executive modulation through tyrosine-derived catecholamine context, cofactor sufficiency, and lifestyle–diet coupling described under [BRS1(FM1)](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function).
 
-<details>
-<summary><strong>Norepinephrine signalling, precursors, and executive modulation</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Norepinephrine signalling, precursors, and executive modulation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 #### (Noradrenergic pathways and attention)
 
@@ -126,7 +305,10 @@ Cross-BRS glycaemic stability links (section 5.3) reflect that post-prandial met
 
 Together, BRS1-FM1-PM3 extends catecholaminergic coverage beyond dopamine-focused pathways to noradrenergic attention and executive modulation.
 
-</details>
+</div>
+</div>
+</div>
+
 
 
 
@@ -138,8 +320,13 @@ Together, BRS1-FM1-PM3 extends catecholaminergic coverage beyond dopamine-focuse
 
 Noradrenergic synthesis and signalling biology is well established. The studies below highlight cofactor and enzymatic dependencies that refine how noradrenergic substrate context is interpreted — not functional outcome claims.
 
-<details>
-<summary><strong>Iron-dependent catecholamine synthesis</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Iron-dependent catecholamine synthesis</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -148,10 +335,18 @@ Noradrenergic synthesis and signalling biology is well established. The studies 
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#beard_iron_2003","label":"Beard et al. (2003)","dataLevel":"Animal Data"}]} />
 
-</details>
+</div>
+</div>
+</div>
 
-<details>
-<summary><strong>Precursor transport context</strong></summary>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Precursor transport context</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
 - **Evidence Level:** mechanistic
@@ -160,7 +355,10 @@ Noradrenergic synthesis and signalling biology is well established. The studies 
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013","label":"Fernstrom (2013)","dataLevel":"Mechanistic"}]} />
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 6. BRS Pathways and Connections
 
@@ -170,7 +368,7 @@ Noradrenergic synthesis and signalling biology is well established. The studies 
 ↓
 [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
 ↓
-[BRS1-FM1-PM3 — Noradrenergic Signalling (Attention & Executive Modulation)](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation)
+[BRS1-FM1-PM3 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation)
 [BRS1-FM1-PM4 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation)
 
 ### 6.2 Connected BRS Mechanisms
@@ -190,8 +388,13 @@ Noradrenergic synthesis and signalling biology is well established. The studies 
 
 This PM is scoreable through food-state and nutrient signals relevant to noradrenergic signalling (attention & executive modulation).
 
-<details>
-<summary><strong>Scoreable Input Categories</strong></summary>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Scoreable Input Categories</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
 
 | Input Category | Example Inputs | PM5 Relevance |
 |---|---|---|
@@ -199,12 +402,15 @@ This PM is scoreable through food-state and nutrient signals relevant to noradre
 | Realised Functional States | balanced_protein_meal; slow_carbohydrate_pairing | Represent recipe-level realised states. |
 | Preparation Transformations | complementary_protein_pairing; minimally_processed_sources | Modify bioavailability and meal-matrix effects. |
 
-</details>
+</div>
+</div>
+</div>
+
 
 ## 8. References
-
 - [O'Donnell et al. (2012) — Norepinephrine](/docs/papers/BRAIN-Diet-References#odonnell_norepinephrine_2012)
 - [Fernstrom (2013) — LNAA Transport and Brain Neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
 - [Beard et al. (2003) — Iron Deficiency Alters Brain Development and Functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
 - [MacDonald et al. (2024) — The Dopamine Hypothesis for ADHD](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024)
 - [Santos et al. (2019) — Como o cérebro funciona?](/docs/papers/BRAIN-Diet-References#santos_como_2019)
+- [Gruber et al. (2023) — Impact of Insulin and Insulin Resistance on Brain Dopamine Signalling and Reward](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
