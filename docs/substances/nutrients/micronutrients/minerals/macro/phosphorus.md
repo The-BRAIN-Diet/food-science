@@ -11,13 +11,13 @@ tags:
   - Phosphorus
   - Mitochondrial Function & Bioenergetics
   - Neurotransmitter Regulation
-  - Metabolic & Neuroendocrine Stress
+  - Metabolic & Neuroendocrine Regulation
 ion_notation: PO₄³⁻
 list_image: /img/icons/nutrient.svg
 mechanisms:
   Mitochondrial Function & Bioenergetics: 'Phosphate is the structural backbone of ATP (adenosine triphosphate) and phosphocreatine; without adequate phosphate, oxidative phosphorylation, energy transfer, and rapid high-demand buffering fail across neuronal and mitochondrial systems'
   Neurotransmitter Regulation: 'Neuronal membranes depend on phosphate-containing phospholipids — phosphatidylcholine, phosphatidylserine, and phosphatidylethanolamine — for fluidity, receptor function, and synaptic competence'
-  Metabolic & Neuroendocrine Stress: 'Protein phosphorylation and dephosphorylation are central regulatory switches in insulin, stress, and growth-factor signalling pathways that shape metabolic and neuroendocrine state'
+  Metabolic & Neuroendocrine Regulation: 'Protein phosphorylation and dephosphorylation are central regulatory switches in insulin, stress, and growth-factor signalling pathways that shape metabolic and neuroendocrine state'
 ---
 
 ## Overview

@@ -73,7 +73,7 @@ const LEGACY_KEY_MAP = new Map([
   ["Mitochondrial Function and Bioenergetics", "Mitochondrial Support"],
   ["Gut–Brain Axis & Enteric Nervous System (ENS)", "Gut Microbiome"],
   ["Gut-Brain Axis & Enteric Nervous System (ENS)", "Gut Microbiome"],
-  ["Metabolic & Neuroendocrine Stress (HPA Axis & ANS)", "Stress Response"],
+  ["Metabolic & Neuroendocrine Regulation (HPA Axis & ANS)", "Stress Response"],
   // Consolidated target used elsewhere; map to the combined BRS label
   ["Inflammation & Oxidative Stress", "Inflammation"],
   ["Inflammation and Oxidative Stress", "Inflammation"],

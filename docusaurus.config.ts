@@ -354,6 +354,7 @@ const config: Config = {
           { to: '/docs/foods/chicory-root', from: '/docs/foods/chicory' },
           { to: '/docs/foods/aubergine', from: '/docs/foods/eggplant' },
           { to: '/docs/foods/cacao-nibs-raw', from: '/docs/foods/raw-cacao-nibs' },
+          { to: '/docs/foods/greek-yogurt', from: '/docs/foods/yogurt' },
           { to: '/docs/recipes/Snacks/neuroeshot-roe', from: '/docs/recipes/Drinks/neuroeshot-roe' },
           {
             to: '/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics',

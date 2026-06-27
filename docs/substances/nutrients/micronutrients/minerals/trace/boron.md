@@ -10,12 +10,12 @@ tags:
   - Trace Mineral
   - Boron
   - Hormonal Response
-  - Metabolic & Neuroendocrine Stress
+  - Metabolic & Neuroendocrine Regulation
 ion_notation: B
 list_image: /img/icons/nutrient.svg
 mechanisms:
   Hormonal Response: 'Boron may influence vitamin D metabolism and sex-steroid hormone handling, with implications for bone mineralisation and broader endocrine context relevant to brain health across the lifespan'
-  Metabolic & Neuroendocrine Stress: 'Ultratrace boron status has been associated in human studies with markers of inflammation and metabolic handling; interpreted as a supportive dietary factor within whole-food patterns rather than a primary glucose-control lever'
+  Metabolic & Neuroendocrine Regulation: 'Ultratrace boron status has been associated in human studies with markers of inflammation and metabolic handling; interpreted as a supportive dietary factor within whole-food patterns rather than a primary glucose-control lever'
 ---
 
 ## Overview

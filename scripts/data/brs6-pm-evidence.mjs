@@ -1,5 +1,5 @@
 /**
- * Curated PM §5.1 Evidence Highlights for BRS6 (Metabolic–Neuroendocrine Stress) — mechanism-qualifying only.
+ * Curated PM §5.1 Evidence Highlights for BRS6 (Metabolic & Neuroendocrine Regulation) — mechanism-qualifying only.
  * Keys: file basename. Values: { intro, blocks: [{ heading, body }], referenceNoteKeys?: [] }
  */
 

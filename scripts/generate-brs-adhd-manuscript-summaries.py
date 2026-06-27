@@ -109,8 +109,10 @@ SECTIONS = [
             "inflammatory signalling); BRS3(FM2) Antioxidant Defense Capacity (PM3–PM6: Nrf2-ARE antioxidant "
             "activation, ROS generation versus clearance balance, lipid peroxidation control, antioxidant network "
             "recycling); and BRS3(FM3) Inflammation Resolution Capacity (PM7–PM8: cytokine network modulation, "
-            "eicosanoid/SPM balance). Key Constraints govern shared antioxidant substrate and essential fatty-acid "
-            "pools that constrain multiple PMs simultaneously.\n\n"
+            "eicosanoid/SPM balance). Key Constraints are BRS3(KC1) Antioxidant Substrate Availability and "
+            "BRS3(KC3) Essential Fatty Acid Balance — shared pools constraining endogenous antioxidant defence, "
+            "redox buffering, inflammatory signalling, and inflammation-resolution pathways. BRS3 cross-links to "
+            "BRS5 gut-barrier and immune-interface biology where gut-derived inflammatory load is relevant.\n\n"
             "In ADHD, inflammatory and redox biology intersect across these capacities rather than through a single "
             "biomarker. Systemic inflammation relates to default-mode network connectivity (Marsland et al., 2017); "
             "metabolic and postprandial inflammatory patterns are reported (Brown et al., 2025); and elevated "
@@ -123,7 +125,9 @@ SECTIONS = [
             "(Miniksar et al., 2023), and compensatory glutathione elevation (Verlaet et al., 2019). Dietary "
             "antioxidant treatment rationale, ultra-processed food and metals exposure, and emerging contaminant "
             "burden are reviewed in ADHD nutritional contexts (Verlaet et al., 2018; Dufault et al., 2024; Zhang "
-            "et al., 2025).\n\n"
+            "et al., 2025). A small randomised Pycnogenol trial reported attention and hyperactivity improvements "
+            "with normalised total antioxidant status and glutathione balance, though replication remains limited "
+            "(Trebatická et al., 2006; Dvořáková et al., 2006; Chovanová et al., 2006).\n\n"
             "Collectively, these findings support the BRAIN Framework proposition that ADHD-relevant biology in "
             "BRS3 emerges from interacting constraints on inflammatory tone, endogenous antioxidant induction, net "
             "redox balance, and inflammation-resolution substrate context — providing multiple diet-actionable entry "
@@ -133,34 +137,15 @@ SECTIONS = [
             {
                 "title": "Paper review: Verlaet et al. (2018) and BRS3-FM2-PM3 (Nrf2-ARE Antioxidant Activation)",
                 "body": (
-                    "Verlaet et al. (2018) is a narrative review in Nutrients that argues for dietary antioxidant "
-                    "strategies as a complementary frame in ADHD, set against growing concern about limitations and "
-                    "side effects of stimulant pharmacotherapy alone. The authors synthesise evidence that ADHD is "
-                    "associated with immune dysregulation, epigenetic modulation of gene expression, and altered "
-                    "oxidant–antioxidant balance. Their central mechanistic claim is that chronic low-grade "
-                    "inflammation and oxidative stress can reinforce one another — through pathways such as "
-                    "T-cell-mediated neuroinflammation and neuronal oxidative injury — and that nutritional "
-                    "modulation of immune activity and redox state may therefore be biologically plausible in ADHD "
-                    "management. The review emphasises food-derived polyphenols and broader natural antioxidant "
-                    "strategies rather than high-dose isolated supplement megadosing.\n\n"
-                    "Within the BRAIN Framework, this paper is most directly anchored to BRS3-FM2-PM3 (Nrf2-ARE "
-                    "Antioxidant Activation), the PM governing endogenous antioxidant and detoxification gene "
-                    "programmes rather than passive dietary antioxidant intake alone. Verlaet et al. do not name Nrf2 "
-                    "explicitly, but their argument aligns with PM3 logic: raising cellular defence capacity through "
-                    "repeatable dietary induction patterns (for example crucifer-derived isothiocyanates such as "
-                    "sulforaphane) supported by trace-mineral cofactor sufficiency (selenium, zinc, manganese) within "
-                    "BRS3(KC1) Antioxidant Substrate Availability. Mechanistic support for Nrf2-linked induction in "
-                    "human dietary contexts is provided separately by Houghton et al. (2016), which PM3 cites for "
-                    "bioavailability and repeated-exposure kinetics; Mocchegiani & Malavolta (2019) further supports "
-                    "cofactor dependence of endogenous antioxidant enzyme systems.\n\n"
-                    "For phenome interpretation, Verlaet et al. (2018) is used cautiously at low–medium confidence "
-                    "for Cognitive Clarity and Focus / Attention Stability on PM3 — as translational context linking "
-                    "oxidative-stress and immune readout shifts to attention-relevant biology, not as proof of dietary "
-                    "treatment efficacy. The paper is hypothesis-generating and integrative rather than an "
-                    "intervention outcome trial; findings should be read alongside sibling PMs handling net ROS balance "
-                    "(PM4), membrane lipid damage (PM5), and antioxidant network recycling (PM6). Its value for the "
-                    "manuscript is in justifying why BRS3(FM2) treats endogenous antioxidant activation as a "
-                    "first-class, diet-actionable mechanism in ADHD nutritional framing."
+                    "Verlaet et al. (2018) is a narrative review in Nutrients arguing that dietary antioxidant "
+                    "strategies may complement stimulant pharmacotherapy in ADHD, synthesising evidence linking ADHD "
+                    "to immune dysregulation, altered oxidant–antioxidant balance, and mutually reinforcing low-grade "
+                    "inflammation and oxidative stress. Within the BRAIN Framework, this argument aligns most directly "
+                    "with BRS3-FM2-PM3 (Nrf2-ARE Antioxidant Activation)—endogenous antioxidant and detoxification "
+                    "gene programmes induced through repeatable food-derived patterns rather than high-dose isolated "
+                    "supplement megadosing. The paper is used cautiously at low–medium confidence for Cognitive Clarity "
+                    "and Focus / Attention Stability as hypothesis-generating translational context, not proof of "
+                    "dietary treatment efficacy."
                 ),
             }
         ],
@@ -181,6 +166,9 @@ SECTIONS = [
             "Wesselink, E., et al. (2019). Feeding, immunity, and ADHD. See BRAIN Diet bibliography: wesselink_feeding_2019.",
             "Yunting Li, et al. (2024). Sodium butyrate and neuroinflammation. See BRAIN Diet bibliography: li_sodium_2024.",
             "Zhang, Y., et al. (2025). Micro/nanoplastics and ADHD. See BRAIN Diet bibliography: zhang_exploring_2025.",
+            "Trebatická, J., et al. (2006). Treatment of ADHD with French maritime pine bark extract, Pycnogenol. European Child & Adolescent Psychiatry, 15(6), 329–335. https://doi.org/10.1007/s00787-006-0535-6",
+            "Dvořáková, M., et al. (2006). Urinary catecholamines in children with ADHD before and after Pycnogenol treatment. See BRAIN Diet bibliography: dvorakova_glutathione_pycnogenol_adhd_2006.",
+            "Chovanová, Z., et al. (2006). Effect of Pycnogenol on 8-oxoguanine in children with ADHD. See BRAIN Diet bibliography: chovanova_8oxoguanine_pycnogenol_adhd_2006.",
         ],
     },
 ]

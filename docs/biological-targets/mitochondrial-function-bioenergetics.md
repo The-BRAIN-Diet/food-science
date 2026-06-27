@@ -24,15 +24,7 @@ hide_title: true
 
 ## Ambition
 
-Maintain efficient mitochondrial energy production and cellular bioenergetic capacity so the brain can sustain cognitive performance, neuronal signalling, repair, and adaptation under varying energetic demands.
-
-## Overview
-
-Supports the body's capacity to produce usable cellular energy (ATP), protect mitochondria under stress, and switch between fuels as metabolic demand changes. Steady bioenergetics underpin cognitive energy supply and wider metabolic resilience.
-
-* Supports cellular ATP production and mitochondrial resilience — within BRS4.
-* Links fuel flexibility to post-prandial metabolic context — Supporting BRS6.
-* Intersects antioxidant and inflammatory redox biology — Supporting BRS3.
+Maintain efficient cellular energy production and mitochondrial resilience so the brain can sustain cognitive performance, neuronal repair, and adaptation under varying fuel and energetic demands.
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -41,41 +33,35 @@ Supports the body's capacity to produce usable cellular energy (ATP), protect mi
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Levers</strong>
+<strong>Dietary Strategy</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Educational rollup of whole-food dietary levers referenced across BRS4 primary mechanisms. Foods are deduplicated at the BRS level and grouped for practical scanning — mechanistic rationale stays on individual PM pages.</p>
-
 <div class="brs-hub-levers-key-constraints">
 <p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key constraints across this system are those with reliable macronutrient fuel delivery; or B-vitamin, iron, and magnesium cofactor sufficiency. Whole foods such as Barley, Eggs, Mackerel, Oats, Pumpkin Seeds, and Salmon supply the common pools.</p>
+<p class="brs-hub-lever-kc-commentary">Key dietary constraints include steady energy from balanced meals across the day, sufficient B-vitamin, iron, and magnesium for mitochondrial function, and dietary patterns that avoid chronic energetic instability.</p>
 <p class="brs-hub-lever-kc-foods">Almonds, Barley, Brazil Nuts, Brown Rice, Carbohydrate-containing Whole Foods, Chard, Chia Seeds, Clams, Dairy, Eggs, Fish, Flaxseed, Kale, Lean Meat, Legumes, Mackerel, Meat, Mussels, Oats, Olive Oil, Oysters, Poultry, Protein-rich Whole Foods, Pumpkin Seeds, Quinoa, Salmon, Sardines, Spinach, Walnuts</p>
 </div>
 
-<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Balanced macronutrient fuel delivery · mitochondrial cofactor-rich foods · sustained energy-substrate meals</p>
+<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Build meals around dependable energy from protein, whole grains, legumes, and starchy vegetables. Include B-vitamin-rich foods, iron from lean meats and legumes, and magnesium from nuts, seeds, and greens to support how cells produce and use energy. Avoid long gaps without nourishment and favour minimally processed foods over options that leave energy pathways undersupported.</p>
 
 <div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Nutrient-dense stars / signature foods</strong>
+<strong>Target Foods</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list">
-<li>Barley <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport" class="brs-hub-lever-pm">BRS4-FM3-PM6</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
-<li>Berries <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
-<li>Broccoli <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></li>
-<li>Eggs <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
-<li>Extra-virgin olive oil <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
-<li>Mackerel <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></li>
-<li>Oats <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport" class="brs-hub-lever-pm">BRS4-FM3-PM6</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
-<li>Pumpkin Seeds <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></li>
-<li>Salmon <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></li>
-<li>Sardines <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></li>
-<li>Spinach <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport" class="brs-hub-lever-pm">BRS4-FM3-PM6</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
-<li>Walnuts <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></li>
+<ul class="brs-hub-lever-list brs-hub-star-food-list">
+<li class="brs-hub-star-food"><a href="/docs/foods/blueberries" class="brs-hub-star-food-link"><strong>Blueberries</strong></a><p class="brs-hub-star-food-why">Polyphenol-rich fruit supporting ROS control, mitochondrial resilience, and oxidative stress modulation within bioenergetic regulation.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/broccoli" class="brs-hub-star-food-link"><strong>Broccoli</strong></a><p class="brs-hub-star-food-why">Cruciferous vegetable providing sulphur compounds and antioxidant cofactors that support mitochondrial resilience and redox stability under metabolic demand.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/eggs" class="brs-hub-star-food-link"><strong>Eggs</strong></a><p class="brs-hub-star-food-why">Rich in B vitamins, choline, and complete protein supporting cellular bioenergetics, cofactor sufficiency, and sustained substrate delivery to mitochondria.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/oats" class="brs-hub-star-food-link"><strong>Oats</strong></a><p class="brs-hub-star-food-why">Slowly digested whole grain providing steady carbohydrate fuel and B-vitamin context for substrate utilisation flexibility and cognitive energy availability.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport" class="brs-hub-lever-pm">BRS4-FM3-PM6</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/pumpkin-seeds" class="brs-hub-star-food-link"><strong>Pumpkin Seeds</strong></a><p class="brs-hub-star-food-why">Magnesium- and zinc-rich seed supporting mitochondrial enzyme cofactors, redox stability, and cellular energy production pathways.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/salmon" class="brs-hub-star-food-link"><strong>Salmon</strong></a><p class="brs-hub-star-food-why">Oily fish providing CoQ10-relevant context, omega-3s, and high-quality protein supporting electron transport, ROS control, and mitochondrial biogenesis.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/spinach" class="brs-hub-star-food-link"><strong>Spinach</strong></a><p class="brs-hub-star-food-why">Iron-, magnesium-, and folate-rich leafy green supporting electron transport cofactors, redox balance, and mitochondrial enzyme function.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport" class="brs-hub-lever-pm">BRS4-FM3-PM6</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/walnuts" class="brs-hub-star-food-link"><strong>Walnuts</strong></a><p class="brs-hub-star-food-why">ALA and polyphenol source supporting mitochondrial biogenesis, ROS production–control balance, and metabolic fuel-switching context.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></li>
 </ul>
 
 </div>
@@ -90,11 +76,11 @@ Supports the body's capacity to produce usable cellular energy (ATP), protect mi
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Lifestyle Levers</strong>
+<strong>Lifestyle Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural levers referenced across BRS4 PM pages — educational context, not clinical prescription.</p>
+<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural priorities referenced across BRS4 PM pages — educational context, not clinical prescription.</p>
 
 <ul class="brs-hub-lever-list">
 <li>Avoid persistent energy surplus and maintain varied whole-food meals that support switching between glucose, fatty-acid, and ketone utilisation rather than fixed high-glycaemic loading <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a></span></li>
@@ -129,6 +115,13 @@ Supports the body's capacity to produce usable cellular energy (ATP), protect mi
 </div>
 <!-- brs-hub-levers:end -->
 
+## Overview
+
+Every brain function depends on reliable cellular energy, yet demand, fuel availability, and stress exposure change continuously. BRS4 describes the integrated capacity that keeps mitochondria producing usable energy, switching fuels appropriately, and recovering from oxidative and metabolic strain. Electron transport, fuel flexibility, mitochondrial protection, and redox stability work together so bioenergetic capacity does not become the limiting factor for cognition. Nutrition influences these capacities through balanced macronutrient fuel delivery, B-vitamin, iron, and magnesium cofactor sufficiency, and meal patterns that support steady substrate supply.
+
+* Sustains ATP production and mitochondrial resilience so cognitive energy supply remains reliable under variable demand.
+* Supports fuel flexibility and post-meal metabolic continuity — supporting BRS6.
+* Connects mitochondrial redox handling to wider antioxidant and inflammatory context — supporting BRS3.
 ## Therapeutic Area Research
 
 <!-- brs-hub-ta-research:start -->
@@ -173,7 +166,6 @@ Elevated glutathione levels recorded in some ADHD cohorts may reflect a compensa
 Butyrate may support mitochondrial function and brain energy metabolism in ways relevant to cognitive impairments reported in ADHD, while also contributing to lower neuroinflammatory load.
 
 Carnitine-mediated mitochondrial fat transport may be relevant where ADHD is accompanied by impaired substrate switching or carnitine insufficiency; human intervention evidence in children with ADHD supports further investigation of this bioenergetic pathway rather than routine supplementation without clinical context.
-
 ## References
 
 - [Crane (2001) — Biochemical Functions of Coenzyme Q₁₀](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)

@@ -22,15 +22,7 @@ hide_title: true
 
 ## Ambition
 
-Maintain balanced immune signalling and redox homeostasis so inflammatory responses remain appropriately regulated while protecting neurons from excessive oxidative damage and supporting long-term brain resilience.
-
-## Overview
-
-Inflammation is not resolved simply by suppressing inflammatory signals. The body actively terminates inflammation through specialized pro-resolving mediators (SPMs), including resolvins, protectins and maresins, which are derived largely from omega-3 fatty acids. BRS3-FM3-PM8 represents the dietary regulation of this lipid-mediator balance, determining whether inflammatory responses remain prolonged or progress towards physiological resolution.
-
-* Helps keep inflammatory and oxidative load in healthier balance — within BRS3.
-* Links gut barrier and microbial context to immune signalling — Supporting BRS5.
-* Connects redox biology to mitochondrial energy systems — Supporting BRS4.
+Maintain balanced immune signalling and redox capacity so the brain can contain inflammatory load, limit oxidative injury, and resolve inflammation appropriately.
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -39,45 +31,35 @@ Inflammation is not resolved simply by suppressing inflammatory signals. The bod
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Levers</strong>
+<strong>Dietary Strategy</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Educational rollup of whole-food dietary levers referenced across BRS3 primary mechanisms. Foods are deduplicated at the BRS level and grouped for practical scanning — mechanistic rationale stays on individual PM pages.</p>
-
 <div class="brs-hub-levers-key-constraints">
 <p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key constraints across this system are those with antioxidant substrate availability; or balanced omega-3 and omega-6 fatty-acid intake. Whole foods such as Berries, Extra-virgin olive oil, Fish roe, Mackerel, Pumpkin Seeds, and Salmon supply the common pools.</p>
-<p class="brs-hub-lever-kc-foods">Almonds, Basil, Berries, Brazil Nuts, Carrots, Chard, Chia Seeds, Cinnamon, Cocoa, Extra-virgin olive oil, Fish roe, Flaxseed, Ginger, Grapefruit, Green Tea, Kale, Lemons, Mackerel, Oranges, Oregano, Parsley, Peppers, Pumpkin Seeds, Salmon, Sardines, Spinach, Tea, Tomatoes, Turmeric, Walnuts</p>
+<p class="brs-hub-lever-kc-commentary">Key dietary constraints include antioxidant substrate availability from diverse plant foods, balanced omega-3 and omega-6 fatty-acid intake, and dietary patterns that limit chronic inflammatory and oxidative load.</p>
+<p class="brs-hub-lever-kc-foods">Almonds, Basil, Blueberries, Brazil Nuts, Carrots, Chard, Chia Seeds, Cinnamon, Cocoa, Extra-virgin olive oil, Fish roe, Flaxseed, Ginger, Grapefruit, Green Tea, Kale, Lemons, Mackerel, Oranges, Oregano, Parsley, Peppers, Pumpkin Seeds, Raspberries, Salmon, Sardines, Spinach, Strawberries, Tea, Tomatoes, Turmeric, Walnuts</p>
 </div>
 
-<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Anti-inflammatory whole-food patterns · antioxidant-rich vegetables and fruits · omega-3 and omega-6 balance · polyphenol-diverse intake</p>
+<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Centre meals on colourful vegetables, berries, herbs, and spices that provide natural antioxidants. Include oily fish, walnuts, flaxseed, and olive oil for omega-3 balance, and reduce reliance on ultra-processed foods and heavily fried or oxidised fats that add unnecessary inflammatory load. Eat a wide variety of plant foods rather than relying on high-dose isolated antioxidant supplements.</p>
 
 <div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Nutrient-dense stars / signature foods</strong>
+<strong>Target Foods</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list">
-<li>Barley <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a></span></li>
-<li>Berries <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a></span></li>
-<li>Broccoli <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a></span></li>
-<li>Eggs <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a></span></li>
-<li>Extra-virgin olive oil <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a></span></li>
-<li>Fermented Vegetables <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a></span></li>
-<li>Fish roe <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></li>
-<li>Kefir <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a></span></li>
-<li>Mackerel <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></li>
-<li>Oats <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a></span></li>
-<li>Pumpkin Seeds <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></li>
-<li>Salmon <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></li>
-<li>Sardines <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></li>
-<li>Spinach <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a></span></li>
-<li>Walnuts <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></li>
-<li>Yogurt <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a></span></li>
+<ul class="brs-hub-lever-list brs-hub-star-food-list">
+<li class="brs-hub-star-food"><a href="/docs/foods/barley" class="brs-hub-star-food-link"><strong>Barley</strong></a><p class="brs-hub-star-food-why">Soluble-fibre whole grain supporting fermentable substrate delivery, gut-derived inflammatory signalling modulation, and SCFA-related anti-inflammatory context.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/blueberries" class="brs-hub-star-food-link"><strong>Blueberries</strong></a><p class="brs-hub-star-food-why">Anthocyanin-rich fruit supporting ROS generation–clearance balance, NF-κB modulation, and endogenous antioxidant defences.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/broccoli" class="brs-hub-star-food-link"><strong>Broccoli</strong></a><p class="brs-hub-star-food-why">Sulphur-rich crucifer providing glucosinolate-derived compounds and antioxidant cofactors that support redox stability and inflammatory resolution capacity.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/extra-virgin-olive-oil" class="brs-hub-star-food-link"><strong>Extra Virgin Olive Oil</strong></a><p class="brs-hub-star-food-why">Monounsaturated fat and polyphenol source that supports anti-inflammatory signalling tone and reduces reliance on oxidised dietary fats.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/fermented-vegetables" class="brs-hub-star-food-link"><strong>Fermented Vegetables</strong></a><p class="brs-hub-star-food-why">Live-culture foods supporting gut-derived inflammatory signalling modulation and microbial metabolite context for systemic inflammatory tone.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/salmon" class="brs-hub-star-food-link"><strong>Salmon</strong></a><p class="brs-hub-star-food-why">EPA- and DHA-rich oily fish supporting NF-κB regulation, cytokine network modulation, and resolution-oriented lipid mediator formation.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/spinach" class="brs-hub-star-food-link"><strong>Spinach</strong></a><p class="brs-hub-star-food-why">Leafy green supplying vitamins C and E, folate, and magnesium that support antioxidant network recycling and cytokine network balance.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/walnuts" class="brs-hub-star-food-link"><strong>Walnuts</strong></a><p class="brs-hub-star-food-why">Plant source of ALA and polyphenols that supports antioxidant network recycling and a favourable omega-6:omega-3 balance within inflammatory tone.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></li>
 </ul>
 
 </div>
@@ -92,11 +74,11 @@ Inflammation is not resolved simply by suppressing inflammatory signals. The bod
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Lifestyle Levers</strong>
+<strong>Lifestyle Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural levers referenced across BRS3 PM pages — educational context, not clinical prescription.</p>
+<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural priorities referenced across BRS3 PM pages — educational context, not clinical prescription.</p>
 
 <ul class="brs-hub-lever-list">
 <li>Broad whole-food antioxidant coverage is more relevant than sporadic high-dose supplement logic. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a></span></li>
@@ -125,6 +107,13 @@ Inflammation is not resolved simply by suppressing inflammatory signals. The bod
 </div>
 <!-- brs-hub-levers:end -->
 
+## Overview
+
+The brain operates within a whole-body immune and redox environment that can either support or constrain cognitive function. BRS3 describes the integrated capacity that keeps inflammatory signalling proportionate, antioxidant defences responsive, and inflammation moving toward resolution rather than persistence. Anti-inflammatory tone, endogenous antioxidant activation, net redox balance, and resolution-oriented lipid mediator formation work together so immune and oxidative stress do not become chronic constraints. Nutrition influences these capacities through anti-inflammatory whole-food patterns, antioxidant-rich plants, balanced omega-3 and omega-6 intake, and dietary patterns that reduce unnecessary inflammatory and oxidative load.
+
+* Contains inflammatory tone and oxidative burden so neuronal environments remain supportive rather than chronically stressed.
+* Supports active inflammation resolution rather than prolonged low-grade immune activation.
+* Connects gut-derived immune load and mitochondrial redox context to wider brain-relevant regulation — supporting BRS5 and BRS4.
 ## Therapeutic Area Research
 
 <!-- brs-hub-ta-research:start -->
@@ -178,7 +167,6 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 <!-- brs-hub-ta-research:end -->
 
 ---
-
 ## Functional Mechanisms
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.

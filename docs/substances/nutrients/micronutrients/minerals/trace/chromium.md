@@ -9,18 +9,18 @@ tags:
   - Mineral
   - Trace Mineral
   - Chromium
-  - Metabolic & Neuroendocrine Stress
+  - Metabolic & Neuroendocrine Regulation
   - Neurotransmitter Regulation
 ion_notation: Cr³⁺
 list_image: /img/icons/nutrient.svg
 mechanisms:
-  Metabolic & Neuroendocrine Stress: 'Trivalent chromium (Cr³⁺) may support insulin responsiveness and post-prandial glucose disposal as part of broader dietary micronutrient context; pharmacological doses have been studied for glycaemic and insulin-sensitivity effects, though food-first intake remains the primary framework lever'
+  Metabolic & Neuroendocrine Regulation: 'Trivalent chromium (Cr³⁺) may support insulin responsiveness and post-prandial glucose disposal as part of broader dietary micronutrient context; pharmacological doses have been studied for glycaemic and insulin-sensitivity effects, though food-first intake remains the primary framework lever'
   Neurotransmitter Regulation: 'Insulin shifts plasma amino acid balance and can influence tyrosine availability for catecholamine synthesis; adequate glucose–insulin handling supported by micronutrient context including chromium may indirectly support dopaminergic signalling environments'
 ---
 
 ## Overview
 
-Chromium is an essential trace mineral present in small amounts in many whole foods. Nutritionally relevant forms are typically trivalent chromium (Cr³⁺), which has been studied for roles in insulin signalling and glucose metabolism. Within the BRAIN Framework, chromium is interpreted as a supportive micronutrient in [BRS6 — Metabolic & Neuroendocrine Stress](/docs/biological-targets/metabolic-neuroendocrine-stress), particularly around insulin sensitivity and glucose disposal rather than as a standalone treatment. Food sources include broccoli, whole grains, nuts, brewer's yeast, and animal tissues, though content varies with soil and processing.
+Chromium is an essential trace mineral present in small amounts in many whole foods. Nutritionally relevant forms are typically trivalent chromium (Cr³⁺), which has been studied for roles in insulin signalling and glucose metabolism. Within the BRAIN Framework, chromium is interpreted as a supportive micronutrient in [BRS6 — Metabolic & Neuroendocrine Regulation](/docs/biological-targets/metabolic-neuroendocrine-stress), particularly around insulin sensitivity and glucose disposal rather than as a standalone treatment. Food sources include broccoli, whole grains, nuts, brewer's yeast, and animal tissues, though content varies with soil and processing.
 
 ## Dietary absorption and meal context
 

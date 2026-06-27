@@ -68,7 +68,7 @@ The BRAIN Framework was developed from research into ADHD, depression, anxiety, 
     <p class="brs-pm-thumbnail-wrap">
       <img
         src="/img/biological-targets/brs6-portrait-thumbnail.png"
-        alt="BRS6 — Metabolic & Neuroendocrine Stress"
+        alt="BRS6 — Metabolic & Neuroendocrine Regulation"
         class="brs-pm-thumbnail"
       />
     </p>
@@ -99,7 +99,7 @@ Capacity layer: ATP production, mitochondrial resilience, and bioenergetic effic
 
 Peripheral neural-immune interface: gut signalling, microbial metabolites, and vagal integration.
 
-### [BRS6 - Metabolic & Neuroendocrine Stress](/docs/biological-targets/metabolic-neuroendocrine-stress)
+### [BRS6 - Metabolic & Neuroendocrine Regulation](/docs/biological-targets/metabolic-neuroendocrine-stress)
 
 Whole-body regulation: stress allocation, autonomic tone, hormonal coordination, and energy prioritisation.
 

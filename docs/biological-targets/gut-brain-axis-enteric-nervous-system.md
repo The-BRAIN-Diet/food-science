@@ -22,15 +22,7 @@ hide_title: true
 
 ## Ambition
 
-Maintain a resilient gut ecosystem that supports digestion, barrier integrity, microbial homeostasis, and integrated gut–brain signalling.
-
-## Overview
-
-Helps maintain a selective gut barrier, beneficial microbial metabolite signalling, and gut-to-brain communication through vagal and enteric nervous system pathways. Gut ecology and barrier integrity shape immune containment and brain-relevant neuromodulatory inputs.
-
-* Supports gut barrier integrity and microbial metabolite signalling — within BRS5.
-* Links gut ecology to inflammatory containment — Supporting BRS3.
-* Connects gut–vagal pathways to neuroendocrine stress biology — Supporting BRS6.
+Maintain a resilient gut–brain interface so the brain can receive stable microbial and neural signals while limiting gut-derived immune and inflammatory load.
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -39,40 +31,35 @@ Helps maintain a selective gut barrier, beneficial microbial metabolite signalli
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Levers</strong>
+<strong>Dietary Strategy</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Educational rollup of whole-food dietary levers referenced across BRS5 primary mechanisms. Foods are deduplicated at the BRS level and grouped for practical scanning — mechanistic rationale stays on individual PM pages.</p>
-
 <div class="brs-hub-levers-key-constraints">
 <p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key constraints across this system are those with fermentable fibre and resistant-starch intake; or broad plant-diversity and barrier-supportive nutrients. Whole foods such as Barley, Berries, Eggs, Mackerel, Oats, and Pumpkin Seeds supply the common pools.</p>
-<p class="brs-hub-lever-kc-foods">Apples, Barley, Basil, Berries, Brown Rice, Chia Seeds, Chicory, Cinnamon, Clams, Cocoa, Cooled Potatoes, Cooled Rice, Cranberries, Eggs, Flax, Flaxseed, Ginger, Green Bananas, Green Tea, Legumes, Liver, Mackerel, Meat, Mussels, Oats, Onions, Orange Vegetables, Oregano, Oysters, Parsley, Pomegranate, Protein Foods, Pumpkin Seeds, Quinoa, Salmon, Sardines, Turmeric</p>
+<p class="brs-hub-lever-kc-commentary">Key dietary constraints include adequate fermentable fibre, resistant starch, and diverse plant-food intake to support microbial diversity, microbial metabolism, and intestinal function.</p>
+<p class="brs-hub-lever-kc-foods">Apples, Barley, Basil, Blueberries, Brown Rice, Chia Seeds, Chicory, Cinnamon, Clams, Cocoa, Cooled Potatoes, Cooled Rice, Cranberries, Eggs, Flax, Flaxseed, Ginger, Green Bananas, Green Tea, Legumes, Liver, Mackerel, Meat, Mussels, Oats, Onions, Orange Vegetables, Oregano, Oysters, Parsley, Pomegranate, Protein Foods, Pumpkin Seeds, Quinoa, Raspberries, Salmon, Sardines, Strawberries, Turmeric</p>
 </div>
 
-<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Fermentable-fibre intake · plant-diversity patterns · polyphenol-rich foods · barrier-supportive nutrient pairing</p>
+<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Eat a wide variety of plant foods daily — vegetables, fruits, legumes, whole grains, nuts, and seeds — to feed beneficial gut microbes. Include fermented foods where tolerated, and fermentable fibre from oats, barley, beans, and cooled potatoes. Prioritise minimally processed meals that support the gut lining rather than ultra-processed foods that disrupt microbial balance and barrier function.</p>
 
 <div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Nutrient-dense stars / signature foods</strong>
+<strong>Target Foods</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list">
-<li>Barley <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a></span></li>
-<li>Berries <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></li>
-<li>Fermented Vegetables <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
-<li>Kefir <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
-<li>Mackerel <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></li>
-<li>Oats <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a></span></li>
-<li>Pumpkin Seeds <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></li>
-<li>Salmon <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></li>
-<li>Sardines <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></li>
-<li>Walnuts <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></li>
-<li>Yogurt <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
+<ul class="brs-hub-lever-list brs-hub-star-food-list">
+<li class="brs-hub-star-food"><a href="/docs/foods/barley" class="brs-hub-star-food-link"><strong>Barley</strong></a><p class="brs-hub-star-food-why">Soluble-fibre grain promoting microbial fermentation, competitive ecological selection, and butyrate-supportive substrate for barrier and vagal context.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/blueberries" class="brs-hub-star-food-link"><strong>Blueberries</strong></a><p class="brs-hub-star-food-why">Polyphenol-rich fruit supporting keystone taxa, microbial turnover, and biotransformation of plant compounds into gut- and mitochondria-relevant metabolites.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/fermented-vegetables" class="brs-hub-star-food-link"><strong>Fermented Vegetables</strong></a><p class="brs-hub-star-food-why">Live-culture food providing postbiotic peptides and microbial signals that support vagal and enteric nervous system modulation.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/greek-yogurt" class="brs-hub-star-food-link"><strong>Greek Yogurt (plain, unsweetened)</strong></a><p class="brs-hub-star-food-why">Fermented dairy providing live cultures and protein matrix that support vagal–ENS signalling and structured meal patterns for gut rhythm stability.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/kefir" class="brs-hub-star-food-link"><strong>Kefir</strong></a><p class="brs-hub-star-food-why">Fermented dairy with diverse live cultures supporting vagal–ENS signalling and gut–brain communication through microbial and postbiotic pathways.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/oats" class="brs-hub-star-food-link"><strong>Oats</strong></a><p class="brs-hub-star-food-why">β-glucan-rich whole grain supporting fermentable fibre delivery, microbial ecological turnover, and SCFA production relevant to gut–brain signalling.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/salmon" class="brs-hub-star-food-link"><strong>Salmon</strong></a><p class="brs-hub-star-food-why">Omega-3-rich seafood supporting gut barrier tight-junction integrity and limiting gut-derived immune and inflammatory load.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/walnuts" class="brs-hub-star-food-link"><strong>Walnuts</strong></a><p class="brs-hub-star-food-why">Polyphenol- and fibre-containing nut supporting microbial polyphenol biotransformation and metabolite generation relevant to gut–brain pathways.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></li>
 </ul>
 
 </div>
@@ -87,11 +74,11 @@ Helps maintain a selective gut barrier, beneficial microbial metabolite signalli
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Lifestyle Levers</strong>
+<strong>Lifestyle Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural levers referenced across BRS5 PM pages — educational context, not clinical prescription.</p>
+<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural priorities referenced across BRS5 PM pages — educational context, not clinical prescription.</p>
 
 <ul class="brs-hub-lever-list">
 <li>Consistent meal timing may help support microbial rhythm stability. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a></span></li>
@@ -119,6 +106,13 @@ Helps maintain a selective gut barrier, beneficial microbial metabolite signalli
 </div>
 <!-- brs-hub-levers:end -->
 
+## Overview
+
+The gut is a major site where diet, microbes, immunity, and neural signalling intersect with brain function. BRS5 describes the integrated capacity that keeps the gut barrier selective, microbial ecology supportive, and gut-to-brain communication proportionate rather than chronically activating. Barrier integrity, microbial metabolite signalling, enteric nervous system tone, and gut–vagal pathways work together so the gut supports rather than burdens brain-relevant regulation. Nutrition influences these capacities through fermentable fibre and resistant starch, diverse plant-food intake, polyphenol-rich patterns, and dietary choices that support intestinal function and microbial diversity.
+
+* Maintains gut barrier integrity and contained microbial metabolite signalling so gut-derived inputs remain supportive.
+* Limits gut-derived inflammatory and immune load reaching systemic circulation — supporting BRS3.
+* Connects gut–vagal and enteric signalling to stress-regulation and metabolic context — supporting BRS6.
 ## Therapeutic Area Research
 
 <!-- brs-hub-ta-research:start -->
@@ -161,7 +155,6 @@ Butyrate may reduce neuroinflammation and support mitochondrial brain energy met
 Propionate may reduce neuroinflammation, protect the blood–brain barrier, and stimulate norepinephrine secretion, with possible relevance to attention and focus.
 
 Lower *Bifidobacterium longum* abundance in infancy has been associated with increased risk of developing ADHD and Asperger syndrome; early *Lactobacillus rhamnosus* GG administration showed hypothesis-generating protective signals in a small study—interpreted as an early-life modulation window rather than definitive prevention.
-
 ## References
 
 - A growing body of evidence suggests that modulating the gut microbiome can positively influence brain health and overall health. The gut is central in producing neurotransmitters, reducing systemic inflammation and enhancing gut-brain axis communication with fibre and fermented foods playing a central role [Wastyk et al. 2021](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)

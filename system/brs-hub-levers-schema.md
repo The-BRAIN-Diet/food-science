@@ -25,8 +25,8 @@ npm run brs:generate-hub-levers
 ## Hub page order (BRS1–BRS6)
 
 1. **Ambition**
-2. **Overview**
-3. **Dietary & Lifestyle Levers** (generated block)
+2. **Dietary Strategy & Lifestyle Priorities** (generated block)
+3. **Overview**
 4. **Therapeutic Area Research** (ADHD dropdowns — BRS1–BRS6 only)
 5. **Functional Mechanisms** and downstream navigation
 
@@ -36,25 +36,22 @@ Apply or refresh Therapeutic Area Research markers:
 npm run brs:patch-ta-research
 ```
 
-## Dietary Levers panel (inside generated block)
+## Dietary Strategy panel (inside generated block)
 
-Top-level collapsible **Dietary Levers** dropdown. Inside the panel, in order:
+Top-level collapsible **Dietary Strategy** dropdown. Inside the panel, in order:
 
 | # | Section | Heading / label |
 |---|---------|-----------------|
-| 1 | Intro | Educational rollup paragraph |
-| 2 | **Key constraints** | BRS-specific intro sentence + example foods sentence; then deduplicated whole-food list |
-| 3 | **Key Dietary Strategy & Targets** | BRS seed targets merged with deduplicated PM pattern prose |
-| 4 | **Nutrient-dense stars / signature foods** | Only food category dropdown exposed on hub pages (for now) |
+| 1 | **Key constraints** | BRS-specific intro sentence; then deduplicated whole-food list |
+| 2 | **Key Dietary Strategy & Targets** | BRS seed targets merged with deduplicated PM pattern prose |
+| 3 | **Target Foods** | Only food category dropdown exposed on hub pages (for now) |
 
 ### Key constraints
 
 Single merged rollup across all KCs referenced by the BRS PMs — **no per-KC breakdown** on hub pages.
 
-1. **Commentary** (two sentences):
-   - Sentence 1: BRS-specific intro from `KEY_CONSTRAINTS_INTRO[brsId]`
-   - Sentence 2: `Whole foods such as … supply the common pools.` — uses the **full** food list when it is short (≤6 example slots); otherwise a signature-food–biased sample of up to six items
-2. **Food list** (optional): shown only when the deduplicated list is **longer** than the sample in the commentary; omitted when the commentary already names every food
+1. **Commentary**: BRS-specific intro from `KEY_CONSTRAINTS_INTRO[brsId]`
+2. **Food list**: deduplicated whole-food list from connected KCs (always shown when non-empty)
 
 ### Key Dietary Strategy & Targets
 
@@ -64,17 +61,17 @@ Replaces the former **Meal & pattern context** line.
 2. PM pattern prose from §4.1.1 bullets without extractable food tokens
 3. Semantic deduplication removes PM items that overlap seed targets
 
-### Nutrient-dense stars (hub food dropdown)
+### Target Foods (hub food dropdown)
 
-Only **signature / nutrient-dense star** foods appear in the hub food dropdown. Internal categorisation rules in `scripts/lib/brs-hub-levers.mjs` remain for assignment; other category buckets are omitted from the registry and hub HTML until re-enabled.
+Only **target / signature** foods appear in the hub food dropdown. Internal categorisation uses the `nutrient_dense_stars` bucket in `scripts/lib/brs-hub-levers.mjs`; other category buckets are omitted from the registry and hub HTML until re-enabled.
 
-**Signature foods:** salmon, sardines, mackerel, eggs, spinach, broccoli, lentils, berries, extra-virgin olive oil, walnuts, pumpkin seeds, kefir, fermented vegetables, yogurt, fish roe, oats, barley.
+Curated **Target Foods** with BRS-specific captions live in `scripts/data/brs-hub-signature-foods.mjs` (BRS1–BRS6 and BRS-X). When defined for a BRS, the curated list replaces auto-extracted nutrient-dense stars on hub pages; PM provenance tags are merged via `match_foods`.
 
-Each food line links to contributing PM IDs.
+**Food categories:** Some PM labels are categories (e.g. **Berries**) with no dedicated food page. Hub rollups expand these to linked examples via `FOOD_CATEGORY_EXPANSIONS` in `scripts/lib/brs-hub-levers.mjs` (currently Blueberries, Raspberries, Strawberries). The same expansion applies to Key constraints food lists.
 
-## Lifestyle Levers panel
+## Lifestyle Priorities panel
 
-Separate top-level collapsible **Lifestyle Levers** dropdown.
+Separate top-level collapsible **Lifestyle Priorities** dropdown.
 
 - Parsed from PM §**4.2 Lifestyle Levers**
 - Evidence tags and trailing citation brackets stripped for hub display
@@ -94,7 +91,7 @@ brs:
     key_constraints:
       foods: []                 # deduplicated across all connected KCs
       commentary: string        # BRS-specific two-sentence block
-      show_food_list: boolean   # false when full list fits in commentary; true when a longer list follows
+      show_food_list: boolean   # true when a food list follows the commentary
       kc_count: number          # underlying KC count (internal)
     dietary_strategy_targets: []  # merged seed + PM pattern items
     lifestyle: []

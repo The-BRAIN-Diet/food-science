@@ -15,5 +15,5 @@ list_image: /img/icons/training.svg
 ## Related Pages
 
 - [Whole Grains and Glycaemic Stability](/docs/dietary-foundations/nutrient-effects/whole-grains-glycaemic-stability)
-- [Metabolic & Neuroendocrine Stress](/docs/biological-targets/metabolic-neuroendocrine-stress)
+- [Metabolic & Neuroendocrine Regulation](/docs/biological-targets/metabolic-neuroendocrine-stress)
 

@@ -21,17 +21,11 @@ hide_title: true
 
 ## BRS-X(Hormones) - Hormone Signalling & Regulation
 
+(Reproductive & Metabolic Hormone Integration)
+
 ## Ambition
 
-Maintain coordinated hormonal signalling so cognition, emotional regulation, metabolism, reproduction, and adaptive physiological responses remain supported throughout the lifespan.
-
-## Overview
-
-Hormone-responsive pathways intersect with neurotransmitter balance, one-carbon and methylation context, inflammatory tone, mitochondrial capacity, gut–brain signalling, and whole-body metabolic and stress allocation.
-
-The scope includes estrogen, progesterone, and testosterone signalling; hormone–microbiome interactions; estrobolome and androbolome biology; and hormonal adaptation across life stages.
-
-Within the BRAIN Framework, BRS-X(Hormones) is a first-class cross-system object spanning all six core BRS domains. Dietary patterns, micronutrient sufficiency, microbial biotransformation, and lifestyle rhythms that shape hormonal milieu are interpreted through connected mechanisms across BRS1–BRS6.
+Maintain coordinated hormonal signalling so the brain can support cognition, emotional regulation, metabolism, and adaptive physiological responses across the lifespan.
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -40,34 +34,32 @@ Within the BRAIN Framework, BRS-X(Hormones) is a first-class cross-system object
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Levers</strong>
+<strong>Dietary Strategy</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Educational rollup of whole-food dietary levers referenced across BRS-X(Hormones) primary mechanisms. Foods are deduplicated at the BRS level and grouped for practical scanning — mechanistic rationale stays on individual PM pages.</p>
-
 <div class="brs-hub-levers-key-constraints">
 <p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key constraints across this system are those with fermentable fibre and prebiotic substrate; or diverse plant-polyphenol intake supporting microbial hormone metabolism. Whole foods such as Oats, Apples, Chicory, Cooled Potatoes, Cooled Rice, and Flax supply the common pools.</p>
+<p class="brs-hub-lever-kc-commentary">Key dietary constraints include fermentable fibre and prebiotic substrate, diverse plant-polyphenol intake, and protein and micronutrient sufficiency supporting microbial hormone metabolism.</p>
 <p class="brs-hub-lever-kc-foods">Apples, Chicory, Cooled Potatoes, Cooled Rice, Flax, Green Bananas, Legumes, Oats, Onions</p>
 </div>
 
-<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Fermentable fibre · phytoestrogen-aware whole foods · protein and micronutrient sufficiency · plant-diversity patterns</p>
+<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Include fermentable fibre from vegetables, legumes, and whole grains to support microbial hormone metabolism. Eat a diverse range of plant foods across the week, phytoestrogen-containing whole foods where relevant to life stage, and adequate protein and micronutrients to support hormonal milieu through food-first patterns.</p>
 
 <div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Nutrient-dense stars / signature foods</strong>
+<strong>Target Foods</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list">
-<li>Barley <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration" class="brs-hub-lever-pm">BRS-X(Hormones-PM4)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability" class="brs-hub-lever-pm">BRS-X(Hormones-PM5)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation" class="brs-hub-lever-pm">BRS-X(Hormones-PM6)</a></span></li>
-<li>Broccoli <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation" class="brs-hub-lever-pm">BRS-X(Hormones-PM6)</a></span></li>
-<li>Eggs <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability" class="brs-hub-lever-pm">BRS-X(Hormones-PM1)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration" class="brs-hub-lever-pm">BRS-X(Hormones-PM4)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability" class="brs-hub-lever-pm">BRS-X(Hormones-PM5)</a></span></li>
-<li>Oats <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation" class="brs-hub-lever-pm">BRS-X(Hormones-PM2)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism" class="brs-hub-lever-pm">BRS-X(Hormones-PM3)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration" class="brs-hub-lever-pm">BRS-X(Hormones-PM4)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability" class="brs-hub-lever-pm">BRS-X(Hormones-PM5)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation" class="brs-hub-lever-pm">BRS-X(Hormones-PM6)</a></span></li>
-<li>Spinach <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability" class="brs-hub-lever-pm">BRS-X(Hormones-PM1)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability" class="brs-hub-lever-pm">BRS-X(Hormones-PM5)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation" class="brs-hub-lever-pm">BRS-X(Hormones-PM6)</a></span></li>
+<ul class="brs-hub-lever-list brs-hub-star-food-list">
+<li class="brs-hub-star-food"><a href="/docs/foods/barley" class="brs-hub-star-food-link"><strong>Barley</strong></a><p class="brs-hub-star-food-why">Soluble-fibre grain supporting microbial hormone biotransformation, testosterone signalling stability, and androgen–microbiome regulation.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration" class="brs-hub-lever-pm">BRS-X(Hormones-PM4)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability" class="brs-hub-lever-pm">BRS-X(Hormones-PM5)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation" class="brs-hub-lever-pm">BRS-X(Hormones-PM6)</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/broccoli" class="brs-hub-star-food-link"><strong>Broccoli</strong></a><p class="brs-hub-star-food-why">Cruciferous vegetable providing sulphur compounds and fibre that support androgen–microbiome regulation and microbial hormone metabolism.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation" class="brs-hub-lever-pm">BRS-X(Hormones-PM6)</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/eggs" class="brs-hub-star-food-link"><strong>Eggs</strong></a><p class="brs-hub-star-food-why">Complete protein and micronutrient source supporting oestrogen signalling stability, metabolic–reproductive integration, and hormonal milieu through food-first patterns.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability" class="brs-hub-lever-pm">BRS-X(Hormones-PM1)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration" class="brs-hub-lever-pm">BRS-X(Hormones-PM4)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability" class="brs-hub-lever-pm">BRS-X(Hormones-PM5)</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/oats" class="brs-hub-star-food-link"><strong>Oats</strong></a><p class="brs-hub-star-food-why">Fermentable-fibre whole grain supporting estrobolome regulation, progesterone-supportive microbial metabolism, and metabolic–reproductive hormone integration.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation" class="brs-hub-lever-pm">BRS-X(Hormones-PM2)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism" class="brs-hub-lever-pm">BRS-X(Hormones-PM3)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration" class="brs-hub-lever-pm">BRS-X(Hormones-PM4)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability" class="brs-hub-lever-pm">BRS-X(Hormones-PM5)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation" class="brs-hub-lever-pm">BRS-X(Hormones-PM6)</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/spinach" class="brs-hub-star-food-link"><strong>Spinach</strong></a><p class="brs-hub-star-food-why">Folate- and magnesium-rich leafy green supporting one-carbon and micronutrient context for hormone synthesis, clearance, and signalling stability.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability" class="brs-hub-lever-pm">BRS-X(Hormones-PM1)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability" class="brs-hub-lever-pm">BRS-X(Hormones-PM5)</a> <a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation" class="brs-hub-lever-pm">BRS-X(Hormones-PM6)</a></span></li>
 </ul>
 
 </div>
@@ -82,11 +74,11 @@ Within the BRAIN Framework, BRS-X(Hormones) is a first-class cross-system object
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Lifestyle Levers</strong>
+<strong>Lifestyle Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural levers referenced across BRS-X(Hormones) PM pages — educational context, not clinical prescription.</p>
+<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural priorities referenced across BRS-X(Hormones) PM pages — educational context, not clinical prescription.</p>
 
 <ul class="brs-hub-lever-list">
 <li>Antibiotic exposure and ultra-processed dietary displacement may work against estrobolome stability. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation" class="brs-hub-lever-pm">BRS-X(Hormones-PM2)</a></span></li>
@@ -111,8 +103,9 @@ Within the BRAIN Framework, BRS-X(Hormones) is a first-class cross-system object
 </div>
 <!-- brs-hub-levers:end -->
 
+## Overview
 
-
+Hormonal milieu shapes how the brain regulates mood, cognition, metabolism, reproduction, and stress adaptation — yet hormone biology is distributed across neurotransmitter, metabolic, gut, and immune contexts rather than isolated endocrine organs alone. BRS-X(Hormones) describes the integrated capacity that keeps hormone signalling responsive across life stages rather than chronically dysregulated. Oestrogen, progesterone, and testosterone signalling, microbiome-linked hormone metabolism, and metabolic–reproductive integration work together so hormonal context supports rather than constrains brain-relevant function. Nutrition influences these capacities through fermentable fibre, phytoestrogen-aware whole foods, protein and micronutrient sufficiency, and plant-diversity patterns that support microbial hormone biotransformation.
 ## Functional Mechanisms
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
@@ -203,7 +196,6 @@ Potential PMs:
 - *Additional BRS-X(Hormones-FM) pages pending.*
 
 ---
-
 ## Primary Mechanisms
 
 Published under [BRS-X(Hormones-FM1)](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation) — see FM page for PM links.
@@ -227,4 +219,4 @@ SM-Female may reference BRS-X(Hormones-FM2), Estrogen–Neurotransmitter Couplin
 - [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress)
 - [BRS4 — Mitochondrial Function & Bioenergetics](/docs/biological-targets/mitochondrial-function-bioenergetics)
 - [BRS5 — Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
-- [BRS6 — Metabolic & Neuroendocrine Stress](/docs/biological-targets/metabolic-neuroendocrine-stress)
+- [BRS6 — Metabolic & Neuroendocrine Regulation](/docs/biological-targets/metabolic-neuroendocrine-stress)

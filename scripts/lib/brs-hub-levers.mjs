@@ -5,9 +5,10 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { HUB_SIGNATURE_FOODS } from "../data/brs-hub-signature-foods.mjs";
 
 export const DIETARY_CATEGORIES = [
-  { id: "nutrient_dense_stars", label: "Nutrient-dense stars / signature foods" },
+  { id: "nutrient_dense_stars", label: "Target Foods" },
   { id: "healthy_fats_oils", label: "Healthy fats & oils" },
   { id: "protein_rich_foods", label: "Protein-rich foods" },
   { id: "legumes_pulses", label: "Legumes & pulses" },
@@ -228,21 +229,21 @@ export const CORE_BRS_HUBS = ["BRS1", "BRS2", "BRS3", "BRS4", "BRS5", "BRS6"];
 /** BRS-specific first sentence for hub Key constraints commentary. */
 export const KEY_CONSTRAINTS_INTRO = {
   BRS1:
-    "Key constraints across this system are those with complete amino-acid availability; or complementary food pairings.",
+    "Key dietary constraints include complete amino-acid availability through protein-inclusive meals, complementary food pairings where plant proteins are used, and steady supply of membrane and cofactor nutrients that support neurotransmitter synthesis and signalling.",
   BRS2:
-    "Key constraints across this system are those with adequate methyl-donor intake; or folate-, choline-, and betaine-rich whole-food patterns.",
+    "Key dietary constraints include adequate methyl-donor intake from folate-, B12-, choline-, and betaine-rich whole foods, protein spread across the day, and dietary patterns that prevent chronic shortfall in methyl-donor availability.",
   BRS3:
-    "Key constraints across this system are those with antioxidant substrate availability; or balanced omega-3 and omega-6 fatty-acid intake.",
+    "Key dietary constraints include antioxidant substrate availability from diverse plant foods, balanced omega-3 and omega-6 fatty-acid intake, and dietary patterns that limit chronic inflammatory and oxidative load.",
   BRS4:
-    "Key constraints across this system are those with reliable macronutrient fuel delivery; or B-vitamin, iron, and magnesium cofactor sufficiency.",
+    "Key dietary constraints include steady energy from balanced meals across the day, sufficient B-vitamin, iron, and magnesium for mitochondrial function, and dietary patterns that avoid chronic energetic instability.",
   BRS5:
-    "Key constraints across this system are those with fermentable fibre and resistant-starch intake; or broad plant-diversity and barrier-supportive nutrients.",
+    "Key dietary constraints include adequate fermentable fibre, resistant starch, and diverse plant-food intake to support microbial diversity, microbial metabolism, and intestinal function.",
   BRS6:
-    "Key constraints across this system are those with stable meal-derived energy substrates; or stress-response micronutrient and lipid sufficiency.",
+    "Key dietary constraints include stable energy availability, dietary patterns that minimise blood sugar swings, consistent meal timing, and sufficient micronutrient and healthy fat intake to support metabolic adaptation and recovery.",
   "BRS-X(ECS)":
-    "Key constraints across this system are those with phospholipid-rich whole foods; or choline and NAPE precursor availability.",
+    "Key dietary constraints include phospholipid-rich whole foods, choline and NAPE precursor availability, and omega-3-supportive patterns that sustain endogenous lipid mediator formation.",
   "BRS-X(Hormones)":
-    "Key constraints across this system are those with fermentable fibre and prebiotic substrate; or diverse plant-polyphenol intake supporting microbial hormone metabolism.",
+    "Key dietary constraints include fermentable fibre and prebiotic substrate, diverse plant-polyphenol intake, and protein and micronutrient sufficiency supporting microbial hormone metabolism.",
 };
 
 /** BRS-specific strategy targets merged with PM pattern prose on hub pages. */
@@ -275,7 +276,6 @@ export const KEY_DIETARY_STRATEGY_TARGETS = {
     "Fermentable-fibre intake",
     "plant-diversity patterns",
     "polyphenol-rich foods",
-    "barrier-supportive nutrient pairing",
   ],
   BRS6: [
     "Glycaemic stabilisation",
@@ -295,6 +295,26 @@ export const KEY_DIETARY_STRATEGY_TARGETS = {
     "protein and micronutrient sufficiency",
     "plant-diversity patterns",
   ],
+};
+
+/** Optional hub prose override — when set, replaces merged bullet strategy on hub pages. */
+export const KEY_DIETARY_STRATEGY_PROSE = {
+  BRS1:
+    "Prioritise protein at each meal so the brain has a steady supply of amino-acid precursors for neurotransmitter synthesis. Include B-vitamin-rich foods, omega-3-containing seafoods, and healthy fats from olive oil, nuts, and eggs that support cell membranes and receptor function. Build meals that combine protein, fibre-rich carbohydrates, and healthy fats to keep energy steady and support attention-relevant signalling.",
+  BRS2:
+    "Include folate-rich leafy greens, eggs, legumes, and liver where appropriate; choline from eggs, fish, and soy; and betaine from beets and spinach. Spread protein across the day rather than concentrating it in one meal. Choose whole foods that retain their B vitamins and methyl donors instead of highly processed alternatives that strip them away.",
+  BRS3:
+    "Centre meals on colourful vegetables, berries, herbs, and spices that provide natural antioxidants. Include oily fish, walnuts, flaxseed, and olive oil for omega-3 balance, and reduce reliance on ultra-processed foods and heavily fried or oxidised fats that add unnecessary inflammatory load. Eat a wide variety of plant foods rather than relying on high-dose isolated antioxidant supplements.",
+  BRS4:
+    "Build meals around dependable energy from protein, whole grains, legumes, and starchy vegetables. Include B-vitamin-rich foods, iron from lean meats and legumes, and magnesium from nuts, seeds, and greens to support how cells produce and use energy. Avoid long gaps without nourishment and favour minimally processed foods over options that leave energy pathways undersupported.",
+  BRS5:
+    "Eat a wide variety of plant foods daily — vegetables, fruits, legumes, whole grains, nuts, and seeds — to feed beneficial gut microbes. Include fermented foods where tolerated, and fermentable fibre from oats, barley, beans, and cooled potatoes. Prioritise minimally processed meals that support the gut lining rather than ultra-processed foods that disrupt microbial balance and barrier function.",
+  BRS6:
+    "Prioritise stable meal composition, consistent meal timing, and minimally processed foods that support sustained energy availability and metabolic flexibility. Build meals that combine protein, fibre-rich carbohydrates, and healthy fats; include protein-rich breakfasts where appropriate, polyphenol-rich plant foods, and omega-3-containing seafoods. Favour dietary patterns that minimise blood sugar swings and unnecessary inflammatory burden.",
+  "BRS-X(ECS)":
+    "Prioritise phospholipid-rich whole foods — eggs, oily fish, soy, and nuts — alongside choline-containing foods that support endocannabinoid precursor biology. Include omega-3-rich seafoods and a diverse range of polyphenol-rich plants to support endogenous lipid mediator formation through food rather than pharmacological receptor targeting.",
+  "BRS-X(Hormones)":
+    "Include fermentable fibre from vegetables, legumes, and whole grains to support microbial hormone metabolism. Eat a diverse range of plant foods across the week, phytoestrogen-containing whole foods where relevant to life stage, and adequate protein and micronutrients to support hormonal milieu through food-first patterns.",
 };
 
 const STRATEGY_OVERLAP_GROUPS = [
@@ -365,6 +385,188 @@ const HUB_MARKERS = {
   start: "<!-- brs-hub-levers:start -->",
   end: "<!-- brs-hub-levers:end -->",
 };
+
+/** Food categories with no single page — expand to linked examples on hub rollups. */
+export const FOOD_CATEGORY_EXPANSIONS = {
+  berries: [
+    { label: "Blueberries", food_slug: "blueberries" },
+    { label: "Raspberries", food_slug: "raspberries" },
+    { label: "Strawberries", food_slug: "strawberries" },
+  ],
+};
+
+/** Explicit food-page slug overrides; null means no dedicated page (flag on hub). */
+export const FOOD_PAGE_SLUG_OVERRIDES = {
+  oats: "oats",
+  barley: "barley",
+  lentils: "lentils",
+  chickpeas: "chickpeas",
+  salmon: "salmon",
+  sardines: "sardines",
+  mackerel: "mackerel",
+  eggs: "eggs",
+  broccoli: "broccoli",
+  spinach: "spinach",
+  walnuts: "walnuts",
+  kefir: "kefir",
+  yogurt: "greek-yogurt",
+  "greek yogurt": "greek-yogurt",
+  "greek yogurt (plain, unsweetened)": "greek-yogurt",
+  blueberries: "blueberries",
+  raspberries: "raspberries",
+  strawberries: "strawberries",
+  "extra-virgin olive oil": "extra-virgin-olive-oil",
+  "extra virgin olive oil": "extra-virgin-olive-oil",
+  "fish roe": "salmon-roe",
+  roe: "salmon-roe",
+  "pumpkin seeds": "pumpkin-seeds",
+  "fermented vegetables": "fermented-vegetables",
+};
+
+function normalizeFoodKey(label) {
+  let key = String(label || "").trim().toLowerCase();
+  key = FOOD_ALIASES[key] || key;
+  return key;
+}
+
+export function resolveFoodPageSlug(label, explicitSlug) {
+  if (explicitSlug === null) return null;
+  if (explicitSlug) return explicitSlug;
+  const key = normalizeFoodKey(label);
+  if (Object.prototype.hasOwnProperty.call(FOOD_PAGE_SLUG_OVERRIDES, key)) {
+    return FOOD_PAGE_SLUG_OVERRIDES[key];
+  }
+  return key.replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+export function resolveFoodPageHref(label, explicitSlug, rootDir = process.cwd()) {
+  const slug = resolveFoodPageSlug(label, explicitSlug);
+  if (!slug) return { slug: null, href: null, missing_food_page: true };
+  const file = path.join(rootDir, "docs/foods", `${slug}.md`);
+  if (!fs.existsSync(file)) return { slug, href: null, missing_food_page: true };
+  return { slug, href: `/docs/foods/${slug}`, missing_food_page: false };
+}
+
+function escapeHtml(text) {
+  return String(text || "").replace(/</g, "&lt;");
+}
+
+function indexStarFoodPms(stars) {
+  /** @type {Map<string, Array<{ id: string, href: string }>>} */
+  const map = new Map();
+  for (const item of stars || []) {
+    const keys = [item.label, normalizeFoodKey(item.label)];
+    for (const key of keys) {
+      if (!map.has(key)) map.set(key, item.source_pms || []);
+    }
+  }
+  return map;
+}
+
+function mergeStarFoodPms(entry, pmIndex) {
+  const keys = [entry.label, ...(entry.match_foods || [])].map((value) => normalizeFoodKey(value));
+  const merged = new Map();
+  for (const key of keys) {
+    for (const pm of pmIndex.get(key) || []) merged.set(pm.id, pm);
+  }
+  return [...merged.values()].sort((a, b) => a.id.localeCompare(b.id));
+}
+
+function mergeStarFoodSourcePms(a, b) {
+  const map = new Map();
+  for (const pm of [...(a || []), ...(b || [])]) map.set(pm.id, pm);
+  return [...map.values()].sort((x, y) => x.id.localeCompare(y.id));
+}
+
+function dedupeStarFoodItems(items) {
+  const byKey = new Map();
+  for (const item of items) {
+    const key = normalizeFoodKey(item.label);
+    const existing = byKey.get(key);
+    if (existing) {
+      existing.source_pms = mergeStarFoodSourcePms(existing.source_pms, item.source_pms);
+      existing.explanation = existing.explanation || item.explanation;
+    } else {
+      byKey.set(key, { ...item });
+    }
+  }
+  return [...byKey.values()].sort((a, b) => a.label.localeCompare(b.label));
+}
+
+function expandCategoryStarFoods(items, rootDir = process.cwd()) {
+  const expanded = [];
+  for (const item of items) {
+    const options = FOOD_CATEGORY_EXPANSIONS[normalizeFoodKey(item.label)];
+    if (options?.length) {
+      for (const option of options) {
+        const page = resolveFoodPageHref(option.label, option.food_slug, rootDir);
+        expanded.push({
+          label: option.label,
+          food_slug: page.slug,
+          food_href: page.href,
+          missing_food_page: page.missing_food_page,
+          explanation: item.explanation,
+          source_pms: item.source_pms || [],
+        });
+      }
+    } else {
+      expanded.push(item);
+    }
+  }
+  return dedupeStarFoodItems(expanded);
+}
+
+function expandCategoryFoodLabels(foods) {
+  const out = new Set();
+  for (const food of foods) {
+    const options = FOOD_CATEGORY_EXPANSIONS[normalizeFoodKey(food)];
+    if (options?.length) {
+      for (const option of options) out.add(option.label);
+    } else {
+      out.add(food);
+    }
+  }
+  return [...out].sort((a, b) => a.localeCompare(b));
+}
+
+export function enrichStarFoodItem(item, rootDir = process.cwd()) {
+  const page = resolveFoodPageHref(item.label, item.food_slug, rootDir);
+  return {
+    ...item,
+    food_slug: page.slug,
+    food_href: page.href,
+    missing_food_page: page.missing_food_page,
+  };
+}
+
+export function applySignatureFoodRollup(brsId, rollup, rootDir = process.cwd()) {
+  const curated = HUB_SIGNATURE_FOODS[brsId];
+  const pmIndex = indexStarFoodPms(rollup.dietary?.nutrient_dense_stars || []);
+
+  if (curated?.length) {
+    rollup.dietary.nutrient_dense_stars = expandCategoryStarFoods(
+      curated.map((entry) => {
+        const page = resolveFoodPageHref(entry.label, entry.food_slug, rootDir);
+        return {
+          label: entry.label,
+          food_slug: page.slug,
+          food_href: page.href,
+          missing_food_page: page.missing_food_page,
+          explanation: entry.explanation,
+          source_pms: mergeStarFoodPms(entry, pmIndex),
+        };
+      }),
+      rootDir,
+    );
+    rollup.stats.nutrient_dense_stars = rollup.dietary.nutrient_dense_stars.length;
+    return;
+  }
+
+  rollup.dietary.nutrient_dense_stars = expandCategoryStarFoods(
+    (rollup.dietary.nutrient_dense_stars || []).map((item) => enrichStarFoodItem(item, rootDir)),
+    rootDir,
+  );
+}
 
 export function listPmMdxFiles(rootDir = process.cwd()) {
   const base = path.join(rootDir, "docs/biological-targets");
@@ -671,30 +873,14 @@ export function enrichKeyConstraints(keyConstraints, pmRows, rootDir) {
   });
 }
 
-function pickKeyConstraintExamples(foods, limit = 6) {
-  const preferred = foods.filter((food) => SIGNATURE_FOODS.has(food.toLowerCase()));
-  const rest = foods.filter((food) => !SIGNATURE_FOODS.has(food.toLowerCase()));
-  return [...preferred, ...rest].slice(0, limit);
-}
-
-function formatFoodExamples(foods) {
-  if (!foods.length) return "";
-  if (foods.length === 1) return foods[0];
-  if (foods.length === 2) return `${foods[0]} and ${foods[1]}`;
-  return `${foods.slice(0, -1).join(", ")}, and ${foods[foods.length - 1]}`;
-}
-
 export function buildKeyConstraintsCommentary(foods, brsId) {
   if (!foods.length) return { commentary: "", showFoodList: false };
-  const examples = pickKeyConstraintExamples(foods);
-  const showFoodList = foods.length > examples.length;
   const intro =
     KEY_CONSTRAINTS_INTRO[brsId] ||
     `Key constraints across this system are shared substrate and precursor pools that multiple ${brsId} mechanisms depend on.`;
-  const listedFoods = showFoodList ? examples : foods;
   return {
-    commentary: `${intro} Whole foods such as ${formatFoodExamples(listedFoods)} supply the common pools.`,
-    showFoodList,
+    commentary: intro,
+    showFoodList: true,
   };
 }
 
@@ -703,7 +889,7 @@ export function collapseKeyConstraintsRollup(enrichedKcs, brsId) {
   for (const kc of enrichedKcs) {
     for (const food of kc.foods || []) foods.add(food);
   }
-  const foodList = [...foods].sort((a, b) => a.localeCompare(b));
+  const foodList = expandCategoryFoodLabels([...foods].sort((a, b) => a.localeCompare(b)));
   if (!foodList.length) return null;
   const { commentary, showFoodList } = buildKeyConstraintsCommentary(foodList, brsId);
   return {
@@ -871,9 +1057,26 @@ function renderPmTags(sourcePms) {
   return ` <span class="brs-hub-lever-pms">${tags}</span>`;
 }
 
+function renderStarFoodItem(item) {
+  const titleHtml = item.food_href
+    ? `<a href="${item.food_href}" class="brs-hub-star-food-link"><strong>${escapeHtml(item.label)}</strong></a>`
+    : `<strong class="brs-hub-star-food-link">${escapeHtml(item.label)}</strong>`;
+  const missingFlag = item.missing_food_page
+    ? ` <span class="brs-hub-star-food-missing">No food page yet</span>`
+    : "";
+  const why = item.explanation
+    ? `<p class="brs-hub-star-food-why">${escapeHtml(item.explanation)}</p>`
+    : "";
+  return `<li class="brs-hub-star-food">${titleHtml}${missingFlag}${why}${renderPmTags(item.source_pms || [])}</li>`;
+}
+
 function renderCategoryBlock(category, items) {
   if (!items.length) return "";
   const cat = DIETARY_CATEGORIES.find((c) => c.id === category);
+  const isStars = category === "nutrient_dense_stars";
+  const listItems = isStars
+    ? items.map((item) => renderStarFoodItem(item)).join("\n")
+    : items.map((item) => `<li>${item.label}${renderPmTags(item.source_pms)}</li>`).join("\n");
   return `<div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
@@ -882,8 +1085,8 @@ function renderCategoryBlock(category, items) {
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list">
-${items.map((item) => `<li>${item.label}${renderPmTags(item.source_pms)}</li>`).join("\n")}
+<ul class="brs-hub-lever-list${isStars ? " brs-hub-star-food-list" : ""}">
+${listItems}
 </ul>
 
 </div>
@@ -908,7 +1111,9 @@ ${rollup.key_constraints.show_food_list ? `<p class="brs-hub-lever-kc-foods">${r
     : "";
 
   const strategyBlock =
-    rollup.dietary_strategy_targets?.length ?
+    rollup.dietary_strategy_prose ?
+      `<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> ${rollup.dietary_strategy_prose.replace(/</g, "&lt;")}</p>`
+    : rollup.dietary_strategy_targets?.length ?
       `<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> ${rollup.dietary_strategy_targets
         .map((item) => item.replace(/</g, "&lt;"))
         .join(" · ")}</p>`
@@ -919,7 +1124,7 @@ ${rollup.key_constraints.show_food_list ? `<p class="brs-hub-lever-kc-foods">${r
       `<ul class="brs-hub-lever-list">
 ${rollup.lifestyle.map((item) => `<li>${item.label}${renderPmTags(item.source_pms)}</li>`).join("\n")}
 </ul>`
-    : "<p><em>No lifestyle levers extracted from connected PM pages yet.</em></p>";
+    : "<p><em>No lifestyle priorities extracted from connected PM pages yet.</em></p>";
 
   return `${HUB_MARKERS.start}
 <div class="brs-hub-levers">
@@ -928,17 +1133,15 @@ ${rollup.lifestyle.map((item) => `<li>${item.label}${renderPmTags(item.source_pm
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Levers</strong>
+<strong>Dietary Strategy</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-
-<p class="brs-hub-levers-intro">Educational rollup of whole-food dietary levers referenced across ${brsId} primary mechanisms. Foods are deduplicated at the BRS level and grouped for practical scanning — mechanistic rationale stays on individual PM pages.</p>
 
 ${kcBlock}
 
 ${strategyBlock}
 
-${dietaryBlocks || "<p><em>No direct dietary levers extracted from connected PM pages yet.</em></p>"}
+${dietaryBlocks || "<p><em>No dietary strategy items extracted from connected PM pages yet.</em></p>"}
 
 </div>
 </div>
@@ -948,11 +1151,11 @@ ${dietaryBlocks || "<p><em>No direct dietary levers extracted from connected PM 
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Lifestyle Levers</strong>
+<strong>Lifestyle Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural levers referenced across ${brsId} PM pages — educational context, not clinical prescription.</p>
+<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural priorities referenced across ${brsId} PM pages — educational context, not clinical prescription.</p>
 
 ${lifestyleList}
 
@@ -988,9 +1191,13 @@ export function buildBrsHubLeversRegistry(rootDir = process.cwd()) {
     const rollup = rollupBrsLevers(rows);
     const enrichedKcs = enrichKeyConstraints(rollup.key_constraints, rows, rootDir);
     rollup.key_constraints = collapseKeyConstraintsRollup(enrichedKcs, brsId);
-    rollup.dietary_strategy_targets = mergeDietaryStrategyTargets(brsId, rollup.dietary_patterns);
+    rollup.dietary_strategy_prose = KEY_DIETARY_STRATEGY_PROSE[brsId] || null;
+    rollup.dietary_strategy_targets = rollup.dietary_strategy_prose
+      ? null
+      : mergeDietaryStrategyTargets(brsId, rollup.dietary_patterns);
     delete rollup.dietary_patterns;
     rollup.stats.unique_key_constraints = enrichedKcs.length;
+    applySignatureFoodRollup(brsId, rollup, rootDir);
     registry.brs[brsId] = rollup;
   }
   return registry;
@@ -999,23 +1206,20 @@ export function buildBrsHubLeversRegistry(rootDir = process.cwd()) {
 export function patchHubPage(hubPath, html, rootDir = process.cwd()) {
   const full = path.join(rootDir, hubPath);
   let content = fs.readFileSync(full, "utf8");
-  const block = `${html}\n\n`;
+  const block = html.trimEnd();
 
-  if (content.includes(HUB_MARKERS.start)) {
-    const re = new RegExp(
-      `${HUB_MARKERS.start.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}[\\s\\S]*?${HUB_MARKERS.end.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}`,
-    );
-    content = content.replace(re, block.trimEnd());
-  } else {
-    const insertAfterOverview =
-      /(## Overview[\s\S]*?)(\n\n+<div class="brs-fm-hub-item")/.test(content) ?
-        /(## Overview[\s\S]*?)(\n\n+<div class="brs-fm-hub-item")/
-      : /(## Overview[\s\S]*?)(\n\n+## Functional Mechanisms)/;
-    if (!insertAfterOverview.test(content)) {
-      throw new Error(`${hubPath}: could not find insertion point after Overview`);
-    }
-    content = content.replace(insertAfterOverview, `$1\n\n${block}$2`);
+  const leversBlockRe = new RegExp(
+    `\\n*${HUB_MARKERS.start.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}[\\s\\S]*?${HUB_MARKERS.end.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\n*`,
+  );
+  content = content.replace(leversBlockRe, "\n");
+
+  // Hub pages often use a single newline before the next ## heading (not blank line).
+  const insertAfterAmbition = /(## Ambition\n\n[^\n#][\s\S]*?)(\n## )/;
+  if (!insertAfterAmbition.test(content)) {
+    throw new Error(`${hubPath}: could not find insertion point after Ambition`);
   }
+  content = content.replace(insertAfterAmbition, `$1\n\n${block}\n$2`);
+
   fs.writeFileSync(full, content);
 }
 

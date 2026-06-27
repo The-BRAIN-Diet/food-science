@@ -8,7 +8,7 @@ const fs = require("fs");
 const path = require("path");
 
 const dir = path.join(__dirname, "..", "docs", "foods");
-const skip = new Set(["index.md", "shopping-list.md", "eggs.md", "salmon.md", "lentils.md", "oats.md", "yogurt.md"]);
+const skip = new Set(["index.md", "shopping-list.md", "eggs.md", "salmon.md", "lentils.md", "oats.md", "greek-yogurt.md"]);
 const block = "\n\n<NutritionTable details={frontMatter} />\n\n";
 
 const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md") && !skip.has(f));

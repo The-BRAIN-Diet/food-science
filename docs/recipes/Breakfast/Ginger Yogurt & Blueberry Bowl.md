@@ -16,7 +16,7 @@ tags:
   - Omega-3 Fatty Acids
   - Probiotics
   - Recipe
-  - Yogurt
+  - Greek Yogurt
   - Blueberries
   - Chia Seeds
   - Flax Seeds
