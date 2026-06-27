@@ -78,7 +78,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
-
-1. [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-2. *(Add shellfish-specific nutrient/safety reference for scallops once present in BRAIN-diet bibliography.)*
+[1] They fit particularly well into meals where the primary focus is on vegetables and whole grains, adding protein and micronutrients without a large increase in calories. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

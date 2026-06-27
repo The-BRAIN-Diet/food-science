@@ -73,5 +73,4 @@ Spirulina contribute plant protein. Pair with complementary protein sources (e.g
 
 ## References
 
-- Spirulina: DIAAS 75-83, Methionine, lysine - Contains some bioactive peptides
-- Chlorella contains bioavailable, true vitamin B12 (cobalamin), confirmed in animal feeding trials, and may help close vegan nutrient gaps. By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source [Watanabe et al. 2002](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002). Nonetheless, both algae provide antioxidant and amino acid support
+[1] Chlorella contains bioavailable, true vitamin B12 (cobalamin), confirmed in animal feeding trials, and may help close vegan nutrient gaps. By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source. Nonetheless, both algae provide antioxidant and amino acid support. Watanabe & Takenaka 2002. [Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae.](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002)

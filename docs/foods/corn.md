@@ -61,9 +61,14 @@ Within the BRAIN Diet framework, corn is a whole-grain/starchy vegetable contrib
 
 ## References
 
-- [1] Johnson et al. 2014 – Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan [Johnson et al. 2014 – Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
-- [2] Yagi & Nouchi 2021 – Lutein Has a Positive Impact on Brain Health in Healthy Older Adults: A Systematic Review of Randomized Controlled Trials and Cohort Studies [Yagi & Nouchi 2021 – Lutein Has a Positive Impact on Brain Health in Healthy Older Adults: A Systematic Review of Randomized Controlled Trials and Cohort Studies](/docs/papers/BRAIN-Diet-References#yagi_lutein_2021)
-- [3] Lieblein-Boff & Johnson 2015 – The effects of lutein and zeaxanthin on cognitive function: a systematic review [Lieblein-Boff & Johnson 2015 – The effects of lutein and zeaxanthin on cognitive function: a systematic review](/docs/papers/BRAIN-Diet-References#lieblein-boff_cognitive_2015)
-- [4] Vishwanathan & Kuchan 2014 – Lutein is the predominant carotenoid in infant brain [Vishwanathan & Kuchan 2014 – Lutein is the predominant carotenoid in infant brain](/docs/papers/BRAIN-Diet-References#vishwanathan_lutein_2014)
-- [5] Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons [Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
-- [6] Brown & Ferruzzi 2004 – Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection [Brown & Ferruzzi 2004 – Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+[1] A previous systematic review revealed that lutein intake leads to improved cognitive function among older adults. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+
+[2] A previous systematic review revealed that lutein intake leads to improved cognitive function among older adults. Yagi & Nouchi 2021. [Lutein Has a Positive Impact on Brain Health in Healthy Older Adults: A Systematic Review of Randomized Controlled Trials and Cohort Studies](/docs/papers/BRAIN-Diet-References#yagi_lutein_2021)
+
+[3] Carotenoid absorption improves with co-ingested dietary fat. Lieblein-Boff & Johnson 2015. [The effects of lutein and zeaxanthin on cognitive function: a systematic review](/docs/papers/BRAIN-Diet-References#lieblein-boff_cognitive_2015)
+
+[4] Reports selective accumulation of lutein in neural tissues and relevance to brain carotenoid status. Vishwanathan & Kuchan 2014. [Lutein is the predominant carotenoid in infant brain](/docs/papers/BRAIN-Diet-References#vishwanathan_lutein_2014)
+
+[5] Neurological, neurodegenerative, and psychiatric disorders represent a serious burden because of their increasing prevalence, risk of disability, and the lack of effective causal/disease-modifying treatments. Kindel & Lee 2010. [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
+
+[6] Neurological, neurodegenerative, and psychiatric disorders represent a serious burden because of their increasing prevalence, risk of disability, and the lack of effective causal/disease-modifying treatments. Brown & Ferruzzi 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)

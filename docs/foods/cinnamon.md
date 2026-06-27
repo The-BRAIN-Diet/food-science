@@ -107,4 +107,4 @@ Cinnamon contribute plant protein. Pair with complementary protein sources (e.g.
 
 ## References
 
-- [1] Boots & Haenen 2008 – Health effects of quercetin: From antioxidant to nutraceutical [Boots & Haenen 2008 – Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+[1] Polyphenol-rich spice with glycaemic-control research interest. Boots & Haenen 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)

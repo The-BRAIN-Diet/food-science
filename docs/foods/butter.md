@@ -63,5 +63,6 @@ Within the BRAIN Diet framework, butter is a strategic fat for small-portion use
 
 ## References
 
-- [1] Li & Hruby 2015 – Saturated Fats Compared With Unsaturated Fats and Sources of Carbohydrates in Relation to Risk of Coronary Heart Disease [Li & Hruby 2015 – Saturated Fats Compared With Unsaturated Fats and Sources of Carbohydrates in Relation to Risk of Coronary Heart Disease](/docs/papers/BRAIN-Diet-References#li_saturated_2015)
-- [2] Willett & Rockstr\"om 2019 – Food in the Anthropocene: the EAT--Lancet Commission on healthy diets from sustainable food systems [Willett & Rockstr\"om 2019 – Food in the Anthropocene: the EAT--Lancet Commission on healthy diets from sustainable food systems](/docs/papers/BRAIN-Diet-References#willett_eatlancet_2019)
+[1] Saturated fat source; keep within guideline limits for SFA intake. Li & Hruby 2015. [Saturated Fats Compared With Unsaturated Fats and Sources of Carbohydrates in Relation to Risk of Coronary Heart Disease](/docs/papers/BRAIN-Diet-References#li_saturated_2015)
+
+[2] Plant-forward patterns with limited animal saturated fat align with sustainable healthy diet frameworks. Willett & Rockstr\"om 2019. [Food in the Anthropocene: the EAT--Lancet Commission on healthy diets from sustainable food systems](/docs/papers/BRAIN-Diet-References#willett_eatlancet_2019)

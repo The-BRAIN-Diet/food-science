@@ -92,7 +92,6 @@ Notable amino acids:
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+[1] Abstract The aim of this study was to investigate the possible interaction of mitochondrial dysfunction and inflammatory cytokines in the risk of anxiety and depression. Pirinen & Auranen 2020. [Niacin and NAD⁺ metabolism in health and disease](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
 
-1. [Pirinen et al. 2020 – Niacin and NAD⁺ metabolism in health and disease](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
-2. [Fernstrom 2013 – Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+[2] Review of how dietary patterns and plasma ratios of large neutral amino acids (e.g., tyrosine, phenylalanine, tryptophan) influence their transport into the brain and downstream neurotransmitter synthesis. Fernstrom et al. 2013. [Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)

@@ -94,4 +94,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Sodium and formulation for lumpfish caviar are **label-dependent**; BRAIN Diet emphasis remains on **whole-food salmonid roe** when maximizing omega-3 quality per unit sodium [Patrick 2019](/docs/papers/BRAIN-Diet-References#patrick_role_2019).
+[1] Sodium and formulation for lumpfish caviar are **label-dependent**; BRAIN Diet emphasis remains on **whole-food salmonid roe** when maximizing omega-3 quality per unit sodium. Patrick et al. 2019. [Role of phosphatidylcholine‐DHA in preventing APOE4‐associated Alzheimer's disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019)

@@ -46,7 +46,7 @@ nutrition_source:
   last_checked: '2026-03-14'
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine.
-complementary_pairings: Pair with grains (rice, oats, barley, wheat) to improve sulfur-amino-acid balance.
+complementary_pairings: 'Pair with grains (rice, oats, barley, wheat) to improve sulfur-amino-acid balance.'
 main_image: /img/foods/lupin-beans/lupin-beans_medium.webp
 legacy_list_image: /img/foods/lupin-beans/lupin-beans_thumb.webp
 legacy_main_image: /img/foods/lupin-beans/lupin-beans_medium.webp
@@ -99,5 +99,6 @@ Lupin beans provide a strong plant protein source but are not sulfur-amino-acid 
 
 ## References
 
-- [1] Dietary protein quality evaluation in human nutrition (DIAAS report) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-- [2] Dietary protein and amino acids in vegetarian diets: a review [Mariotti et al. 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+[1] Report recommending the Digestible Indispensable Amino Acid Score (DIAAS) as the preferred method for evaluating dietary protein quality, replacing PDCAAS, and detailing methodology and implications for human nutrition. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+[2] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Dietary protein and amino acids in vegetarian diets: a review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

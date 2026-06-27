@@ -84,6 +84,8 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-- [1] Packer & Podda 1997 – Vitamin E and the Metabolic Antioxidant Network [Packer & Podda 1997 – Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
-- [2] Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review [Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
-- [3] Sun & Liu 2019 – Association of Major Dietary Protein Sources with All-cause and Cause-specific Mortality: The Women’s Health Initiative (FS03-08-19) [Sun & Liu 2019 – Association of Major Dietary Protein Sources with All-cause and Cause-specific Mortality: The Women’s Health Initiative (FS03-08-19)](/docs/papers/BRAIN-Diet-References#sun_association_2019)
+[1] Vitamin E acts within broader antioxidant networks with vitamin C, CoQ10, and polyphenols. Packer & Podda 1997. [Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+
+[2] Pair with legumes or grains for essential amino-acid complementarity. Mariotti & Gardner 2019. [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+
+[3] Mostly unsaturated fats make almonds a practical whole-food fat source within mixed meals. Sun & Liu 2019. [Association of Major Dietary Protein Sources with All-cause and Cause-specific Mortality: The Women’s Health Initiative (FS03-08-19)](/docs/papers/BRAIN-Diet-References#sun_association_2019)

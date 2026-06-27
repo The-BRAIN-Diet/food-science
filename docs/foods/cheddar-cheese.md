@@ -92,5 +92,6 @@ Animal cheese provides a **complete** essential amino acid profile with high dig
 
 ## References
 
-- [1] Leeuwendaal & Stanton 2021 – The potential of non-starter lactic acid bacteria from Cheddar cheese to colonise the gut [Leeuwendaal & Stanton 2021 – The potential of non-starter lactic acid bacteria from Cheddar cheese to colonise the gut](/docs/papers/BRAIN-Diet-References#leeuwendaal_potential_2021)
-- [2] Karimi & Mortazavian 2011 – Viability of probiotic microorganisms in cheese during production and storage: a review [Karimi & Mortazavian 2011 – Viability of probiotic microorganisms in cheese during production and storage: a review](/docs/papers/BRAIN-Diet-References#karimi_viability_2011)
+[1] Complete animal protein with calcium and vitamin B12. Leeuwendaal & Stanton 2021. [The potential of non-starter lactic acid bacteria from Cheddar cheese to colonise the gut](/docs/papers/BRAIN-Diet-References#leeuwendaal_potential_2021)
+
+[2] Fermented dairy matrix with microbiota-modulating interest. Karimi & Mortazavian 2011. [Viability of probiotic microorganisms in cheese during production and storage: a review](/docs/papers/BRAIN-Diet-References#karimi_viability_2011)

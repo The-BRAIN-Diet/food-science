@@ -73,4 +73,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-1. [Nimalaratne et al. 2012 – Domestic cooking methods and egg yolk xanthophylls](/docs/papers/BRAIN-Diet-References#nimalaratne_cooking_2012)
+[1] Yolk **lutein** and **zeaxanthin** are highly bioavailable xanthophylls. Boiling, frying, and microwaving change isomer profiles and reduce total yolk xanthophyll content by about **6–18%** (all-E-lutein most affected in boiled yolk); cooked yolks show more Z-isomers. Nimalaratne & Lopes-Lutz 2012. [Domestic cooking methods and egg yolk xanthophylls](/docs/papers/BRAIN-Diet-References#nimalaratne_cooking_2012)

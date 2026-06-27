@@ -108,9 +108,10 @@ Within the BRAIN Diet framework, the brain-relevant benefits of EVOO come primar
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+[1] The aim of the present meta-analysis of cohort studies was to focus on monounsaturated fat (MUFA) and cardiovascular disease, cardiovascular mortality as well as all-cause mortality, and to distinguish between the different dietary sources of MUFA. Schwingshackl & Hoffmann 2014. [Monounsaturated fatty acids, olive oil and health status](/docs/papers/BRAIN-Diet-References#schwingshackl_monounsaturated_2014)
 
-1. [Schwingshackl and Hoffmann 2014 – Monounsaturated fatty acids, olive oil and health status](/docs/papers/BRAIN-Diet-References#schwingshackl_monounsaturated_2014)
-2. [Fielding et al. 2005 – Increases in plasma lycopene after tomatoes cooked with olive oil](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
-3. [EFSA NDA Panel 2011 – Health claims related to polyphenols in olive oil (LDL oxidation)](/docs/papers/BRAIN-Diet-References#efsa_polyphenols_olive_2011)
-4. [Pedan et al. 2019 – Phenolic compounds and sensory properties of olive oil (oleocanthal/oleacein means)](/docs/papers/BRAIN-Diet-References#pedan_phenolics_sensory_2019)
+[2] Used as the default dressing and cooking fat around vegetables, legumes, and whole grains, EVOO helps improve polyphenol bioavailability and supports cardiometabolic and neuroprotective mechanisms as part of a Mediterranean-style pattern [2–4]. Fielding & Rowley 2005. [Increases in plasma lycopene after tomatoes cooked with olive oil](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
+
+[3] The EFSA-authorised claim for “protection of blood lipids from oxidative stress” requires at least 250 mg/kg of hydroxytyrosol and its derivatives (≈25 mg/100 g). EFSA Panel on Dietetic Products & Allergies (NDA) 2011. [Health claims related to polyphenols in olive oil (LDL oxidation)](/docs/papers/BRAIN-Diet-References#efsa_polyphenols_olive_2011)
+
+[4] In practice, many commercial EVOOs fall around ~100–250 mg/kg total phenolics, while early-harvest, high-polyphenol oils can reach ~500–900 mg/kg depending on cultivar, harvest timing, and processing. Pedan & Fischer 2019. [Phenolic compounds and sensory properties of olive oil (oleocanthal/oleacein means)](/docs/papers/BRAIN-Diet-References#pedan_phenolics_sensory_2019)

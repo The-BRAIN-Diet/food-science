@@ -115,15 +115,26 @@ Beef provides a complete essential amino acid profile with high digestibility an
 
 ## References
 
-- [1] Avgerinos et al. 2018 – Creatine supplementation and cognitive performance [Avgerinos et al. 2018 – Creatine supplementation and cognitive performance](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
-- [2] Crane 2001 – Biochemical functions of coenzyme Q10 in mitochondria [Crane 2001 – Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
-- [3] Beard 2003 – Iron deficiency and neural functioning [Beard 2003 – Iron deficiency and neural functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
-- [4] FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report) [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-- [5] Bouvard et al. 2015 – Carcinogenicity of consumption of red and processed meat [Bouvard et al. 2015 – Carcinogenicity of consumption of red and processed meat](/docs/papers/BRAIN-Diet-References#bouvard_meat_2015)
-- [6] Willett et al. 2019 – Food in the Anthropocene: the EAT–Lancet Commission [Willett et al. 2019 – Food in the Anthropocene: the EAT–Lancet Commission](/docs/papers/BRAIN-Diet-References#willett_eatlancet_2019)
-- [7] Daley et al. 2010 – A review of nutritional differences between grass-fed and grain-fed beef [Daley et al. 2010 – A review of nutritional differences between grass-fed and grain-fed beef](/docs/papers/BRAIN-Diet-References#daley_grassfed_2010)
-- [8] Uribarri et al. 2010 – Advanced glycation end products in foods and a practical guide to their reduction in the diet [Uribarri et al. 2010 – Advanced glycation end products in foods and a practical guide to their reduction in the diet](/docs/papers/BRAIN-Diet-References#uribarri_age_2010)
-- [9] Cross & Sinha 2004 – Meat-related mutagens and cancer risk [Cross & Sinha 2004 – Meat-related mutagens and cancer risk](/docs/papers/BRAIN-Diet-References#cross_hca_2010)
-- [10] Satija et al. 2016 – Plant-based dietary patterns and chronic disease risk [Satija et al. 2016 – Plant-based dietary patterns and chronic disease risk](/docs/papers/BRAIN-Diet-References#satija_plantforward_2016)
-- [11] Norton & Layman 2006 – Leucine and regulation of muscle protein synthesis [Norton & Layman 2006 – Leucine and regulation of muscle protein synthesis](/docs/papers/BRAIN-Diet-References#norton_leucine_2006)
-- [12] Fernstrom 2013 – Large neutral amino acids and brain neurochemistry [Fernstrom 2013 – Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+[1] Including creatine. Avgerinos & Spyrou 2018. [Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
+
+[2] Coenzyme Q10 (CoQ10). Crane et al. 2001. [Biochemical functions of coenzyme Q\textsubscript{10}](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
+
+[3] And highly bioavailable heme iron. Beard et al. 2003. [Iron Deficiency Alters Brain Development and Functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
+
+[4] Provides a complete, highly digestible protein source. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+[5] Processed versions (e.g. cured, smoked, deli-style) are associated with less favorable health outcomes. Bouvard & Loomis 2015. [Carcinogenicity of consumption of red and processed meat](/docs/papers/BRAIN-Diet-References#bouvard_meat_2015)
+
+[6] Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains. Willett & Rockstr\"om 2019. [Food in the Anthropocene: the EAT--Lancet Commission on healthy diets from sustainable food systems](/docs/papers/BRAIN-Diet-References#willett_eatlancet_2019)
+
+[7] **Grass-fed beef** may provide modestly higher omega-3 fatty acids and antioxidant compounds than grain-fed beef, although both remain rich sources of protein, iron, and zinc. Daley & Abbott 2010. [A review of nutritional differences between grass-fed and grain-fed beef](/docs/papers/BRAIN-Diet-References#daley_grassfed_2010)
+
+[8] Combine cooked beef with **polyphenol-rich herbs and spices** such as rosemary, thyme, oregano, or garlic, which may help reduce oxidative products generated during cooking. Uribarri & Woodruff 2010. [Advanced glycation end products in foods and a practical guide to their reduction in the diet](/docs/papers/BRAIN-Diet-References#uribarri_age_2010)
+
+[9] Prospective cohort analysis linking higher intakes of red and processed meat, as well as meat-related mutagens such as heterocyclic amines, with increased risks of colorectal and other cancers. Cross & Sinha 2007. [A prospective study of red and processed meat intake in relation to cancer risk](/docs/papers/BRAIN-Diet-References#cross_hca_2010)
+
+[10] Analysis of large prospective cohorts distinguishing between healthful and unhealthful plant-based dietary patterns and their associations with coronary heart disease risk. Satija & Bhupathiraju 2017. [Healthful and unhealthful plant-based diets and the risk of coronary heart disease in US adults](/docs/papers/BRAIN-Diet-References#satija_plantforward_2016)
+
+[11] Review and experimental data on how leucine availability regulates mTOR signaling and translation initiation for muscle protein synthesis following exercise. Norton & Layman 2006. [Leucine regulates translation initiation of protein synthesis in skeletal muscle after exercise](/docs/papers/BRAIN-Diet-References#norton_leucine_2006)
+
+[12] Review of how dietary patterns and plasma ratios of large neutral amino acids (e.g., tyrosine, phenylalanine, tryptophan) influence their transport into the brain and downstream neurotransmitter synthesis. Fernstrom et al. 2013. [Large neutral amino acids: dietary effects on brain neurochemistry and function](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)

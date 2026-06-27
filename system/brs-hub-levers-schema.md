@@ -13,6 +13,7 @@ Make each core BRS hub page practically useful by showing the consolidated dieta
 | **PM pages** | Authoritative lever detail (`substance ← food` bullets, lifestyle lines, KC links) |
 | **KC pages** | Substance `←` food mappings for Key constraints enrichment |
 | **BRS-specific copy** | `KEY_CONSTRAINTS_INTRO`, `KEY_DIETARY_STRATEGY_TARGETS` in `scripts/lib/brs-hub-levers.mjs` |
+| **Lifestyle Priorities** | `scripts/data/brs-hub-lifestyle-priorities.mjs` — integrated themes; PM provenance matched at generation |
 | **Generated registry** | `src/data/brs-hub-levers.generated.json` |
 | **Hub pages** | HTML block between `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-levers:end -->` |
 
@@ -73,10 +74,70 @@ Curated **Target Foods** with BRS-specific captions live in `scripts/data/brs-hu
 
 Separate top-level collapsible **Lifestyle Priorities** dropdown.
 
-- Parsed from PM §**4.2 Lifestyle Levers**
-- Evidence tags and trailing citation brackets stripped for hub display
-- Deduplicated by normalised label; PM provenance tags retained
-- **Blend rule:** `Circadian alignment` + `Consistent meal timing` → `Consistent meal timing and circadian alignment`
+This is a **BRS-level educational summary** — not a collection of PM annotations. PM pages retain mechanistic lifestyle detail in §4.2; the hub presents integrated behavioural themes.
+
+### Deduplication process
+
+```text
+All PM §4.2 lifestyle notes
+↓
+Identify common behavioural themes (match patterns)
+↓
+Merge overlapping concepts
+↓
+One integrated Lifestyle Priority (action + explanation)
+↓
+Retain links to all contributing PMs
+```
+
+Do **not** surface multiple hub entries for the same theme (e.g. several meal-timing / precursor-transport variants). Merge into one priority such as:
+
+> **Maintain regular meal timing and circadian alignment** to support a steady supply of neurotransmitter building blocks, metabolic regulation, and balanced brain signalling throughout the day.
+
+**Supports:** BRS1-FM1-PM1 · BRS1-FM1-PM2 · …
+
+### Writing style (required)
+
+Each Lifestyle Priority must include:
+
+| Element | Rule |
+|---------|------|
+| **Action** | Begin with a verb: Maintain, Prioritise, Include, Engage, Practise, Avoid, etc. |
+| **Explanation** | One short sentence on **why it matters for this BRS** — understandable without PM jargon |
+| **PM links** | Every contributing PM listed under **Supports:** |
+
+Additional rules:
+
+- Typically **15–30 words** total (action + explanation).
+- Describe **behaviours**, not mechanisms.
+- Avoid PM terminology and abbreviations (LNAA, precursor bias, autonomic context, glycaemic excursions, etc.).
+- **Never describe a physiological variable when the underlying phenomenon can be stated directly.**
+
+| Avoid | Prefer |
+|-------|--------|
+| attenuate glycaemic excursions | reduce blood sugar spikes after meals |
+| improve post-prandial glycaemic variability | help keep blood sugar more stable after eating |
+| optimise precursor transport | support a steady supply of neurotransmitter building blocks |
+| reduce autonomic strain | support healthy stress recovery |
+
+**Bad (label only):** Sleep adequacy  
+**Good:** **Prioritise sufficient, consistent sleep** to support balanced neurotransmitter regulation, cognitive performance, and physiological recovery.
+
+### Source of truth
+
+| Layer | Location |
+|-------|----------|
+| **Curated priorities** | `scripts/data/brs-hub-lifestyle-priorities.mjs` — action, explanation, `match_lifestyle` / `match_pm_ids` |
+| **PM provenance** | Attached at generation from PM §4.2 lines matching patterns |
+| **PM pages** | Authoritative mechanistic detail (unchanged) |
+
+Target **~5–8 distinct priorities per BRS**, not one per PM.
+
+Regenerate after editing curated priorities or PM §4.2 content:
+
+```bash
+npm run brs:generate-hub-levers
+```
 
 ## Registry shape (`brs-hub-levers.generated.json`)
 
@@ -98,7 +159,8 @@ brs:
     stats:
       pm_count: number
       unique_foods: number
-      unique_lifestyle: number
+      unique_lifestyle: number          # integrated hub priorities (5–8 target)
+      pm_lifestyle_notes: number        # raw PM §4.2 lines before merge (when integrated)
       unique_key_constraints: number
       nutrient_dense_stars: number
 ```
@@ -114,8 +176,10 @@ brs:
 
 | Field | Type | Notes |
 |-------|------|-------|
-| `label` | string | Deduplicated lifestyle lever text |
-| `source_pms` | `{ id, href }[]` | PM provenance |
+| `action` | string | Behaviour-led headline (verb first) |
+| `explanation` | string | Why it matters for this BRS (plain language) |
+| `label` | string | Full display text: `action` + `explanation` |
+| `source_pms` | `{ id, href }[]` | All PMs that contributed via pattern match |
 
 ## BRS-specific copy maps
 
@@ -153,7 +217,7 @@ PM pattern prose is appended when not semantically redundant.
 4. Secondary: prose bullets with `such as …` / `including …` food lists (common on BRS6 meal-timing PMs).
 5. Pattern prose: §4.1.1 bullets without extractable food tokens roll into `dietary_strategy_targets`.
 6. Normalize aliases (`EVOO` → extra-virgin olive oil, `oily fish` → salmon, sardines, mackerel, `fish roe` → signature star).
-7. Lifestyle: parse §**4.2**; strip `(Evidence:…)` and trailing citation brackets.
+7. Lifestyle: PM §**4.2** remains authoritative on PM pages; hub **Lifestyle Priorities** are integrated from `scripts/data/brs-hub-lifestyle-priorities.mjs` with PM provenance matched at generation time.
 8. Hub registry includes **nutrient_dense_stars** only; assign via `SIGNATURE_FOODS` and `categorizeFood()`.
 
 ## Core BRS hub page map

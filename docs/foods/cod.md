@@ -68,5 +68,6 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- [1] McNamara & Carlson 2006 – Omega-3 fatty acids in brain development, function, and psychopathology [McNamara & Carlson 2006 – Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
-- [2] FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report) [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+[1] Lean marine protein (~61 kcal per 100 g) for meals already containing other fat sources. McNamara & Carlson 2006. [Role of omega-3 fatty acids in brain development and function: Potential implications for the pathogenesis and prevention of psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
+
+[2] Provides complete, highly digestible protein with excellent DIAAS coverage. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

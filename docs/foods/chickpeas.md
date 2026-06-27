@@ -104,4 +104,4 @@ Chickpeas are rich in lysine but relatively low in sulfur-containing amino acids
 
 ## References
 
-- [1] Greiner & Konietzny 1999 – Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa) [Greiner & Konietzny 1999 – Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
+[1] Lysine-rich legume protein; methionine/cysteine limiting (DIAAS ~65–70). Greiner & Konietzny 1999. [Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)

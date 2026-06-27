@@ -87,8 +87,8 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-[1] Fat co-ingestion mechanisms for carotenoid and fat-soluble nutrient absorption [Kindel et al. 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
+[1] Neurological, neurodegenerative, and psychiatric disorders represent a serious burden because of their increasing prevalence, risk of disability, and the lack of effective causal/disease-modifying treatments. Kindel & Lee 2010. [Fat co-ingestion mechanisms for carotenoid and fat-soluble nutrient absorption](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
 
-[2] Dietary fat effects on carotenoid bioavailability [Brown et al. 2004](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+[2] Neurological, neurodegenerative, and psychiatric disorders represent a serious burden because of their increasing prevalence, risk of disability, and the lack of effective causal/disease-modifying treatments. Brown & Ferruzzi 2004. [Dietary fat effects on carotenoid bioavailability](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
 
-[3] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+[3] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

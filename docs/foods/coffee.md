@@ -68,5 +68,6 @@ Within the BRAIN Diet framework, coffee is a polyphenol beverage used morning-to
 
 ## References
 
-- [1] Volkow & Wang 2015 – Caffeine increases striatal dopamine D2/D3 receptor availability in the human brain [Volkow & Wang 2015 – Caffeine increases striatal dopamine D2/D3 receptor availability in the human brain](/docs/papers/BRAIN-Diet-References#volkow_caffeine_2015)
-- [2] Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials [Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+[1] Caffeine modulates dopamine receptor availability and alertness. Volkow & Wang 2015. [Caffeine increases striatal dopamine D2/D3 receptor availability in the human brain](/docs/papers/BRAIN-Diet-References#volkow_caffeine_2015)
+
+[2] Chlorogenic-acid polyphenols add flavonoid intake. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)

@@ -79,7 +79,6 @@ Within the BRAIN Diet framework, heart can be used strategically when prioritisi
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+[1] Heart is an organ meat often highlighted for its CoQ10 content, supporting mitochondrial electron transport and antioxidant function. Crane et al. 2001. [Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
 
-1. [Crane 2001 – Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
-2. [Latoch et al. 2024 – Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024)
+[2] Reviews of edible offal note that different organs concentrate different nutrients; in practice, heart is typically used as an occasional rotational offal food rather than a daily staple. Latoch & Stasiak 2024. [Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024)

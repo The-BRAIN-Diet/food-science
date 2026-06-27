@@ -77,7 +77,4 @@ Kidney Beans are rich in lysine but relatively low in sulfur-containing amino ac
 
 ## References
 
-- Kidney beans: DIAAS 60-65, Methionine-limited; polyphenol-rich; supports gut health
-- Pair with whole grains or seeds for amino acid complementarity; grain-legume complementarity improves essential amino-acid coverage
-- Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability [GREINER and KONIETZNY 1999](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
-- Polyphenol-rich legumes support gut microbiome health; polyphenol sources support gut barrier integrity, TLR4 suppression, LPS neutralization, and microglial activation dampening
+[1] Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability. Greiner & Konietzny 1999. [Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)

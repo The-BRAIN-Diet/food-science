@@ -84,11 +84,18 @@ Blueberries also supply **quercetin** and related flavonols. Rodent work shows q
 
 ## References
 
-- [1] Hein et al. 2019 – Systematic review of blueberry effects on cognitive performance with aging [Hein et al. 2019 – Systematic review of blueberry effects on cognitive performance with aging](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
-- [2] Neshatdoust et al. 2016 – High-flavonoid intake, cognitive improvements, and serum BDNF [Neshatdoust et al. 2016 – High-flavonoid intake, cognitive improvements, and serum BDNF](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
-- [3] Sleiman et al. 2016 – Exercise promotes BDNF via β-hydroxybutyrate and HDAC inhibition [Sleiman et al. 2016 – Exercise promotes BDNF via β-hydroxybutyrate and HDAC inhibition](/docs/papers/BRAIN-Diet-References#sleiman_exercise_2016)
-- [4] Davis et al. 2009 – Quercetin, mitochondrial biogenesis, and exercise tolerance (rodent) [Davis et al. 2009 – Quercetin, mitochondrial biogenesis, and exercise tolerance (rodent)](/docs/papers/BRAIN-Diet-References#davis_quercetin_2009)
-- [5] Boots et al. 2008 – Quercetin health effects from antioxidant to nutraceutical [Boots et al. 2008 – Quercetin health effects from antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
-- [6] Ziaei et al. 2024 – Meta-analysis of omega-3 effects on BDNF [Ziaei et al. 2024 – Meta-analysis of omega-3 effects on BDNF](/docs/papers/BRAIN-Diet-References#ziaei_systematic_2024)
-- [7] Vertuani et al. 2004 – Antioxidant network synergy in vivo [Vertuani et al. 2004 – Antioxidant network synergy in vivo](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
-- [8] Yeo 2023 – Food-derived bioactives, gut microbiota, and neurotransmitters [Yeo 2023 – Food-derived bioactives, gut microbiota, and neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+[1] Systematic review evidence links blueberry interventions to cognitive performance outcomes in aging, with proposed neurotrophin and vascular mechanisms. Hein & Whyte 2019. [Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
+
+[2] Flavonoid-class human trials report serum BDNF changes correlated with cognitive benefits. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+
+[3] which induces hippocampal BDNF through exercise-linked metabolites such as β-hydroxybutyrate. Sleiman & Henry 2016. [Exercise promotes the expression of brain derived neurotrophic factor (BDNF) through the action of the ketone body β-hydroxybutyrate](/docs/papers/BRAIN-Diet-References#sleiman_exercise_2016)
+
+[4] Rodent work shows quercetin can increase mitochondrial biogenesis in brain and muscle and improve exercise tolerance—mechanistic context for nutrition–exercise coupling, though not a direct blueberry-and-BDNF human trial. Davis & Murphy 2009. [Quercetin increases brain and muscle mitochondrial biogenesis and exercise tolerance](/docs/papers/BRAIN-Diet-References#davis_quercetin_2009)
+
+[5] \textlessp\textgreaterQuercetin is one of a broad group of natural polyphenolic flavonoid substances that are being investigated for their widespread health benefits. Boots & Haenen 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+
+[6] —and with omega-3-rich dietary patterns that can also modulate neurotrophin biology. Ziaei & Mohammadi 2024. [A systematic review and meta-analysis of the omega-3 fatty acids effects on brain-derived neurotrophic factor (BDNF)](/docs/papers/BRAIN-Diet-References#ziaei_systematic_2024)
+
+[7] \textlessp\textgreaterThis study aims to investigate dietary and nutritional biochemistry profiles of attention-deficit/hyperactivity disorder (ADHD) and to explore their potential relationship by path analysis. Vertuani & Angusti 2004. [The Antioxidants and Pro-Antioxidants Network: An Overview](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
+
+[8] and food-derived phenolics can influence gut microbiota composition and metabolite profiles. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

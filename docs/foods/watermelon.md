@@ -25,7 +25,7 @@ nutrition_per_100g:
   folate_ug: 3
 nutrition_source:
   database: USDA FoodData Central
-  food_name: Watermelon, raw
+  food_name: 'Watermelon, raw'
   retrieval_method: Manual curation
   basis: per 100 g edible portion
   last_checked: '2026-06-25'
@@ -80,5 +80,6 @@ Watermelon is included because it contributes to a connected biological network 
 
 ## References
 
-- [1] Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials [Avgerinos et al. 2018](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
-- [2] Dietary protein and amino acids in vegetarian diets: Current issues and practical recommendations [Mariotti et al. 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+[1] Systematic review of randomized controlled trials assessing the effects of creatine supplementation on cognitive function in healthy individuals, reporting improvements primarily in short-term memory and intelligence/reasoning. Avgerinos & Spyrou 2018. [Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
+
+[2] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Dietary protein and amino acids in vegetarian diets: Current issues and practical recommendations](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

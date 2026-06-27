@@ -87,5 +87,6 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-- [1] NIH 2025 – Omega-3 Fatty Acids: Fact Sheet for Health Professionals [NIH 2025 – Omega-3 Fatty Acids: Fact Sheet for Health Professionals](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
-- [2] Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review [Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+[1] ALA omega-3 and very high fibre per 100 g; typical portions are 1–2 tablespoons. NIH 2025. [Omega-3 Fatty Acids: Fact Sheet for Health Professionals](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
+
+[2] Lysine-limited plant protein; pair with legumes. Mariotti & Gardner 2019. [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

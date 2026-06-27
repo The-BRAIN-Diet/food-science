@@ -66,8 +66,8 @@ Tomatoes provide lycopene (carotenoid), vitamin C, and demonstrate food matrix e
 
 ## References
 
-- The bioaccessibility of carotenoids in vegetables is remarkably low—lycopene in canned and fresh tomatoes is less than 1% [Fielding et al. 2005](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
-- Prolonged cooking increases access to lycopene in tomatoes where cell walls need to be broken down
-- Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil
-- Eat your beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) to enhance iron absorption; vitamin C significantly improves non-heme iron absorption by reducing ferric to ferrous iron [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
-- Co-consuming a small amount of unsaturated fat with polyphenol-rich foods improves micelle formation and chylomicron packaging, increasing carotenoid absorption [Kindel et al. 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010) [Brown et al. 2004](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+[1] The bioaccessibility of carotenoids in vegetables is remarkably low—lycopene in canned and fresh tomatoes is less than 1%. Fielding & Rowley 2005. [Increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
+
+[2] Eat your beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) to enhance iron absorption; vitamin C significantly improves non-heme iron absorption by reducing ferric to ferrous iron. Hallberg & Brune 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+
+[3] Co-consuming a small amount of unsaturated fat with polyphenol-rich foods improves micelle formation and chylomicron packaging, increasing carotenoid absorption [Kindel et al. 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010). Brown & Ferruzzi 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)

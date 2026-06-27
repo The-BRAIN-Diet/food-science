@@ -76,4 +76,4 @@ Chlorella contribute plant protein. Pair with complementary protein sources (e.g
 
 ## References
 
-- [1] Watanabe & Takenaka 2002 – Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae. [Watanabe & Takenaka 2002 – Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae.](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002)
+[1] Microalgae protein with validated true B12 in some preparations. Watanabe & Takenaka 2002. [Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae.](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002)

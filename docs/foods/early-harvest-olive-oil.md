@@ -67,9 +67,4 @@ These enhanced bioactive levels support mitochondrial function, antioxidant netw
 
 ## References
 
-- **Olive oil's brain benefits come from polyphenols, not fatty acids.** The bioactive power of early harvest EVOO is from secoiridoids and phenolics: oleuropein aglycone (mitophagy, SIRT1, AMPK), oleocanthal (NF-κB inhibition), oleacein (antioxidant, NRF2 activation), and tyrosol/hydroxytyrosol (neuroprotective effects)
-- Early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol, and total polyphenols [Gasmi et al. 2022](/docs/papers/BRAIN-Diet-References#gasmi_neurotransmitters_2022)
-- Total CoQ dropped by 53%-56% between three weeks of the harvesting of two brands, highlighting variation by producer and harvest time
-- The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol, and polyphenols
-- Early harvest oils have substantially higher bioactive content (CoQ10, oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol, polyphenols) compared to standard EVOO
-- Olive oil phenolic compounds, particularly oleuropein aglycone, oleocanthal, oleacein, and hydroxytyrosol, support mitochondrial function, autophagy, and neuroprotective effects through modulation of mitochondrial dynamics, SIRT1, AMPK, NF-κB inhibition, and NRF2 activation
+[1] Early harvest extra virgin olive oil with higher levels of CoQ10, oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol, and total polyphenols. Gasmi & Nasreen 2022. [Neurotransmitters Regulation and Food Intake: The Role of Dietary Sources in Neurotransmission](/docs/papers/BRAIN-Diet-References#gasmi_neurotransmitters_2022)

@@ -42,7 +42,7 @@ nutrition_supplementary_sources:
     value: 840
     unit: mg
     notes: Major lipophilic antioxidant diterpene in rosemary.
-    source_note: Fresh S. rosmarinus foliage in one validated HPLC study ranged about 5638-12173 ug/g fresh weight (~564-1217 mg/100 g); 840 mg/100 g used as a representative midpoint estimate. Concentrations vary by genotype, harvest stage, and extraction/handling conditions.
+    source_note: 'Fresh S. rosmarinus foliage in one validated HPLC study ranged about 5638-12173 ug/g fresh weight (~564-1217 mg/100 g); 840 mg/100 g used as a representative midpoint estimate. Concentrations vary by genotype, harvest stage, and extraction/handling conditions.'
   - key: carnosol_mg
     label: Carnosol
     value: 280
@@ -90,8 +90,8 @@ In the BRAIN Diet framework, rosemary is best used as a concentrated flavor-and-
 
 ## References
 
-[1] Antioxidant and pro-oxidant properties of active rosemary constituents: carnosol and carnosic acid [Aruoma et al. 1992](/docs/papers/BRAIN-Diet-References#aruoma_antioxidant_pro-oxidant_rosemary_1992)
+[1] Carnosic acid and carnosol are major rosemary diterpenes linked to much of extract antioxidant activity in vitro. Aruoma & Halliwell 1992. [Antioxidant and pro-oxidant properties of active rosemary constituents: carnosol and carnosic acid](/docs/papers/BRAIN-Diet-References#aruoma_antioxidant_pro-oxidant_rosemary_1992)
 
-[2] A validated method for determination of carnosic acid and carnosol in fresh rosemary foliage [Paloukopoulou et al. 2022](/docs/papers/BRAIN-Diet-References#paloukopoulou_validated_carnosic_carnosol_rosemary_2022)
+[2] Quantitative fresh-leaf datasets report wide concentration ranges for these bioactives, indicating strong variability by plant material and handling. Paloukopoulou & Karioti 2022. [A validated method for determination of carnosic acid and carnosol in fresh rosemary foliage](/docs/papers/BRAIN-Diet-References#paloukopoulou_validated_carnosic_carnosol_rosemary_2022)
 
-[3] Carnosol: A promising anti-cancer and anti-inflammatory agent [Johnson 2011](/docs/papers/BRAIN-Diet-References#johnson_carnosol_anti-cancer_2011)
+[3] Carnosol has broad anti-inflammatory and anti-cancer mechanistic evidence in preclinical models, but this should not be interpreted as proven clinical efficacy in humans. Johnson et al. 2011. [Carnosol: A promising anti-cancer and anti-inflammatory agent](/docs/papers/BRAIN-Diet-References#johnson_carnosol_anti-cancer_2011)

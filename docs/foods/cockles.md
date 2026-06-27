@@ -77,6 +77,8 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- [1] Pawlak & Parrott 2013 – How prevalent is vitamin B $_\textrm{12}$ deficiency among vegetarians? [Pawlak & Parrott 2013 – How prevalent is vitamin B $_\textrm{12}$ deficiency among vegetarians?](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)
-- [2] Wójcik & Koenig 2010 – The potential protective effects of taurine on coronary heart disease [Wójcik & Koenig 2010 – The potential protective effects of taurine on coronary heart disease](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)
-- [3] FAO 2013 – Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation [FAO 2013 – Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+[1] Very high vitamin B12 and iron per 100 g; bivalve nutrient density. Pawlak & Parrott 2013. [How prevalent is vitamin B $_\textrm{12}$ deficiency among vegetarians?](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)
+
+[2] Marine taurine source; phospholipid-bound omega-3 in shellfish matrices. Wójcik & Koenig 2010. [The potential protective effects of taurine on coronary heart disease](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)
+
+[3] Complete animal protein (DIAAS context). FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

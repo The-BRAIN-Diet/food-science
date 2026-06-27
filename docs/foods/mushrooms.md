@@ -34,7 +34,7 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-06-01'
-  note: White/button stage of Agaricus bisporus; cremini, chestnut (UK), and portobello differ mainly in maturity and water content, not species.
+  note: 'White/button stage of Agaricus bisporus; cremini, chestnut (UK), and portobello differ mainly in maturity and water content, not species.'
 main_image: /img/foods/mushrooms/mushrooms_medium.webp
 legacy_list_image: /img/foods/mushrooms/mushrooms_thumb.webp
 legacy_main_image: /img/foods/mushrooms/mushrooms_medium.webp
@@ -91,8 +91,6 @@ Macro- and micronutrient values shift slightly with maturity and water content, 
 
 ## References
 
-- UV-exposed mushrooms as a source of vitamin D [Starck et al. 2024](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024)
-- Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health
-- Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains [Pirinen et al. 2020](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
-- Targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts)
-- UV-grown mushrooms mentioned as functional food innovation
+[1] UV-exposed mushrooms as a source of vitamin D. Starck & Cassettari 2024. [Mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024)
+
+[2] Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains. Pirinen & Auranen 2020. [Niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)

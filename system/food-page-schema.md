@@ -94,25 +94,25 @@ Practical framework: sourcing, synergies, preparation. Quality over completeness
 
 ## References
 
-- Every bullet must include a link: `/docs/papers/BRAIN-Diet-References#citationKey`.
+- One entry per citation — **no bullet prefix**. Each entry starts with **`[n]`** (same number used inline in Overview / Highlights).
+- Each entry has **three parts in order**:
+  1. **Explanation** — one sentence on why this paper supports a claim on *this* food page.
+  2. **Author and year** — plain text (e.g. `Patrick 2019`, `Liu et al. 2014`).
+  3. **Paper title** — linked to `/docs/papers/BRAIN-Diet-References#citationKey` (title only in the link text; not author/year).
 - Citation keys must exist in `static/bibtex/BRAIN-diet.bib`.
-- Plain-text-only reference bullets are invalid.
-- Each bullet must state the **paper title** (not just author/year repeated). Use inline numeric citations `[1]`, `[2]` in Overview and Key Nutritional Highlights where claims need evidence.
-- Verify the entry **survives deduplication** on the global references page (unique DOI/URL).
+- Plain-text-only lines without a bibliography link are invalid.
+- Use inline numeric citations `[1]`, `[2]` in Overview and Key Nutritional Highlights where claims need evidence.
+- Explanations are inferred from sentences in Overview / Highlights / Food Context that cite the same `[n]`; batch migration uses `node scripts/fix-food-reference-format.mjs --all` (add `--force` to re-infer explanations on already-migrated pages). Pages without inline citations fall back to BibTeX abstract or title.
 
-**Worked example (beef-style):**
-
-```markdown
-- [1] Avgerinos et al. 2018 – Creatine supplementation and cognitive performance [Avgerinos et al. 2018 – Creatine supplementation and cognitive performance](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
-```
-
-**Worked example (claim-style, dark chocolate):**
+**Canonical worked example (`docs/foods/salmon-roe.md`):**
 
 ```markdown
-- [1] High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor [Neshatdoust et al. 2016](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+[1] Phospholipid-associated DHA can enter lysophosphatidylcholine (LPC) transport pathways relevant to brain delivery, in contrast to triacylglycerol-only omega-3 forms. Patrick 2019. [Role of phosphatidylcholine-DHA and LPC-DHA in brain transport](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
+
+[2] DHA supplied as phospholipid supports brain DHA accretion more effectively than DHA as triglyceride in neonatal models — supporting the biological relevance of roe's phospholipid-rich matrix. Liu et al. 2014. [Higher efficacy of phospholipid omega-3 for brain DHA accretion (porcine model)](/docs/papers/BRAIN-Diet-References#liu_higher_2014)
 ```
 
-Both forms include a readable title before the bibliography link; stub forms like `- [1] FAO 2013 [FAO 2013](...)` are invalid.
+Invalid forms: bullet prefixes (`- [1] …`), author/year inside the link only, duplicated beef-style text, or stub links without a paper title.
 
 ---
 

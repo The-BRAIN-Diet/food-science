@@ -85,9 +85,6 @@ Kale is a nutrient-dense leafy green providing iron, magnesium, zinc, quercetin,
 
 ## References
 
-- The BRAIN diet specifically targets leafy green vegetables i.e. kale and spinach that are rich in iron, magnesium, and zinc
-- Boiling spinach, kale, and other greens can reduce oxalate load, improving mineral bioavailability [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
-- Quercetin is abundant in capers, apples, onions, berries, kale and soybeans
-- Practical pairings: carrots + tahini, kale + avocado, berries + yogurt/nuts
-- Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability; boiling helps mitigate this
-- Vitamin C significantly improves non-heme iron absorption by reducing ferric to ferrous iron, with studies showing up to a fourfold increase when consumed together [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+[1] Boiling spinach, kale, and other greens can reduce oxalate load, improving mineral bioavailability. Chai & Liebman 2005. [Effect of Different Cooking Methods on Vegetable Oxalate Content](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
+
+[2] Vitamin C significantly improves non-heme iron absorption by reducing ferric to ferrous iron, with studies showing up to a fourfold increase when consumed together. Hallberg & Brune 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)

@@ -95,7 +95,4 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-- The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate) [Zelicha et al. 2022](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
-- BDNF (modulator): Neurogenesis, synaptic plasticity, mood resilience; food sources include fatty fish, blueberries, turmeric, green tea, walnuts; exercise + omega-3 + polyphenol synergy boosts expression
-- Walnuts mentioned as source of plant-based omega-3 (ALA) with limited conversion to DHA/EPA
-- Higher polyphenol intake and microbial diversity increase urolithin A and related metabolites, supporting mitochondrial resilience and mitophagy and improving cognitive endurance
+[1] The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate). Zelicha & Kloting 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)

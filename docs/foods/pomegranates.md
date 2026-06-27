@@ -60,7 +60,6 @@ Pomegranates provide ellagitannins that gut bacteria convert to urolithin A, sup
 
 ## References
 
-- Polyphenol Sources: Berries, green tea catechins, cocoa flavanols, cranberries, pomegranate; ↑ Faecalibacterium, Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation
-- The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate) [Zelicha et al. 2022](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
-- Higher polyphenol intake and microbial diversity increase urolithin A and related metabolites, supporting mitochondrial resilience and mitophagy and improving cognitive endurance
-- Urolithin A supports mitochondrial resilience and mitophagy, improving cognitive endurance [Andreux et al. 2019](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019) [Singh et al. 2022](/docs/papers/BRAIN-Diet-References#singh_direct_2022)
+[1] The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate). Zelicha & Kloting 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+
+[2] Urolithin A supports mitochondrial resilience and mitophagy, improving cognitive endurance [Andreux et al. 2019](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019). Singh & D’Amico 2022. [Direct supplementation with Urolithin A overcomes limitations of dietary exposure and gut microbiome variability in healthy adults to achieve consistent levels across the population](/docs/papers/BRAIN-Diet-References#singh_direct_2022)

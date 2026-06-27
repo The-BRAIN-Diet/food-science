@@ -81,8 +81,12 @@ Within the BRAIN Diet framework, saffron belongs with **concentrated herbs and s
 
 ## References
 
-- [1] Saffron (*Crocus sativus*) for depression — systematic review of clinical studies and antidepressant mechanisms [Lopresti & Drummond 2014](/docs/papers/BRAIN-Diet-References#lopresti_saffron_2014)
-- [2] Saffron extract supplementation, mood, and psychosocial stress response in healthy adults (RCT) [Jackson et al. 2021](/docs/papers/BRAIN-Diet-References#jackson_effects_2021)
-- [3] Comparative review of saffron for depression — neurotransmitter, anti-inflammatory, and neuroprotective mechanisms [Chauhan et al. 2024](/docs/papers/BRAIN-Diet-References#chauhan_saffron_2024)
-- [4] *Crocus sativus* vs methylphenidate in children with ADHD — randomized double-blind pilot (medicinal dosing) [Baziar et al. 2019](/docs/papers/BRAIN-Diet-References#baziar_crocus_2019)
-- [5] Bioactive compound distribution by infusion temperature and time in oil/water systems — gastronomic extraction of crocin and safranal [Criado-Navarro et al. 2024](/docs/papers/BRAIN-Diet-References#criado-navarro_distribution_2024)
+[1] Systematic review evidence synthesizes antidepressant mechanisms—including serotonin-related pathways—and clinical signals for *C. sativus* extracts in depression research. Lopresti & Drummond 2014. [Saffron (*Crocus sativus*) for depression — systematic review of clinical studies and antidepressant mechanisms](/docs/papers/BRAIN-Diet-References#lopresti_saffron_2014)
+
+[2] \textlessp\textgreaterAnxiety, stress, and low mood are closely related and may contribute to depressive symptoms. Jackson & Forster 2021. [Saffron extract supplementation, mood, and psychosocial stress response in healthy adults (RCT)](/docs/papers/BRAIN-Diet-References#jackson_effects_2021)
+
+[3] Background:Calcium from different dairy sources might affect blood lipids and fecal fat excretion differently because of differences in the food matrix and nutritional composition. Chauhan & Tiwari 2024. [Comparative review of saffron for depression — neurotransmitter, anti-inflammatory, and neuroprotective mechanisms](/docs/papers/BRAIN-Diet-References#chauhan_saffron_2024)
+
+[4] Pilot ADHD trial data exist for saffron stigma at medicinal doses—not culinary pinches. Baziar & Aqamolaei 2019. [*Crocus sativus* vs methylphenidate in children with ADHD — randomized double-blind pilot (medicinal dosing)](/docs/papers/BRAIN-Diet-References#baziar_crocus_2019)
+
+[5] Store in a cool, dark, dry place; crocin and safranal degrade with light, moisture, heat, and oxidation. Criado-Navarro & Ledesma-Escobar 2024. [Bioactive compound distribution by infusion temperature and time in oil/water systems — gastronomic extraction of crocin and safranal](/docs/papers/BRAIN-Diet-References#criado-navarro_distribution_2024)

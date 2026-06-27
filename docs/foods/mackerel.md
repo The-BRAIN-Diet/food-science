@@ -87,7 +87,6 @@ This food provides a **complete essential amino acid profile** typical of animal
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+[1] These intrinsic compounds support neuronal membrane phospholipid composition, mitochondrial oxidative phosphorylation, and antioxidant enzyme systems. McNamara & Carlson 2006. [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
 
-1. [McNamara & Carlson 2006 – Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
-2. [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+[2] Its protein is highly digestible, and DIAAS data for similar oily fish indicate excellent indispensable amino acid coverage. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

@@ -88,7 +88,4 @@ Peanuts are rich in lysine but relatively low in sulfur-containing amino acids. 
 
 ## References
 
-- Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains [Pirinen et al. 2020](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
-- Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health
-- Polyphenols (e.g., resveratrol): Grapes, blueberries, cranberries, peanuts, dark chocolate; resveratrol activates SIRT1, enhancing NAD+-dependent processes
-- Nicotinamide Mononucleotide (NMN): Direct NAD⁺ intermediate in salvage pathway; food sources include edamame, broccoli, cucumber, avocado (peanuts also contain some)
+[1] Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains. Pirinen & Auranen 2020. [Niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)

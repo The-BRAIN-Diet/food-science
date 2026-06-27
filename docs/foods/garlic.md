@@ -64,6 +64,6 @@ Garlic contribute plant protein. Pair with complementary protein sources (e.g. g
 
 ## References
 
-[1] Effect of garlic and lemon juice mixture on lipid profile and cardiovascular risk factors in moderate hyperlipidaemia [Entezari et al. 2016](/docs/papers/BRAIN-Diet-References#entezari_garlic_lemon_hyperlipidaemia_2016)
+[1] Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder with high heterogeneity that can affect individuals of any age. Entezari & Maracy 2016. [Effect of garlic and lemon juice mixture on lipid profile and cardiovascular risk factors in moderate hyperlipidaemia](/docs/papers/BRAIN-Diet-References#entezari_garlic_lemon_hyperlipidaemia_2016)
 
-[2] Allicin chemistry and biological properties review [Borlinghaus et al. 2014](/docs/papers/BRAIN-Diet-References#borlinghaus_allicin_chemistry_2014)
+[2] Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder with high heterogeneity that can affect individuals of any age. Borlinghaus & Albrecht 2014. [Allicin chemistry and biological properties review](/docs/papers/BRAIN-Diet-References#borlinghaus_allicin_chemistry_2014)

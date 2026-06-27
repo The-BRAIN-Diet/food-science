@@ -31,6 +31,8 @@ export const CURATED_REFERENCE_DATA_LEVELS = {
   aquili_role_2020: "Mechanistic",
   f_w_reimherr_open_1987: "Human Outcome",
   oades_role_2010: "Mechanistic",
+  tang_nutritional_2025: "Human Mechanistic",
+  faraone_serotonin_2025: "Human Mechanistic",
   briguglio_dietary_2018: "Human Study",
   shaw_emotion_2014: "Human Mechanistic",
   banerjee_does_2015: "Mechanistic",

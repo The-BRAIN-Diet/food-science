@@ -84,4 +84,4 @@ Bananas are relatively **high in polyphenol oxidase (PPO)**. In a controlled cro
 
 ## References
 
-- [1] Ottaviani & Ensunsa 2023 – Impact of polyphenol oxidase on the bioavailability of flavan-3-ols in fruit smoothies: a controlled, single blinded, cross-over study [Ottaviani & Ensunsa 2023 – Impact of polyphenol oxidase on the bioavailability of flavan-3-ols in fruit smoothies: a controlled, single blinded, cross-over study](/docs/papers/BRAIN-Diet-References#ottaviani_polyphenol_oxidase_flavan_2023)
+[1] PPO activity varies widely across fruits, vegetables, and plant products. Ottaviani & Ensunsa 2023. [Impact of polyphenol oxidase on the bioavailability of flavan-3-ols in fruit smoothies: a controlled, single blinded, cross-over study](/docs/papers/BRAIN-Diet-References#ottaviani_polyphenol_oxidase_flavan_2023)

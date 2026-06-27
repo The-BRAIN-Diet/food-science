@@ -6,6 +6,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
+import { isExplainedReferenceLine } from "./bib-citation-format.mjs"
 
 export const PROTEIN_THRESHOLD_G = 5
 export const FOODS_DIR_DEFAULT = "docs/foods"
@@ -106,13 +107,21 @@ function referencesMissingBibLinks(referencesSection) {
     .filter((l) => !/^##\s/.test(l))
 
   if (lines.length === 0) {
-    issues.push("References section has no list items")
+    issues.push("References section has no entries")
     return issues
   }
 
   for (const line of lines) {
+    if (line.startsWith("-")) {
+      issues.push(`Reference uses bullet prefix (canonical: no bullets): ${line.slice(0, 60)}…`)
+      continue
+    }
     if (!BIB_LINK_RE.test(line)) {
       issues.push(`Reference without bibliography link: ${line.slice(0, 80)}…`)
+      continue
+    }
+    if (!isExplainedReferenceLine(line)) {
+      issues.push(`Reference not in explained canonical format: ${line.slice(0, 80)}…`)
     }
   }
   return issues

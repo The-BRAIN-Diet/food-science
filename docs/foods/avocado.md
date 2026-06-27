@@ -72,6 +72,8 @@ Within the BRAIN Diet framework, avocado functions as a whole-food fat source th
 
 ## References
 
-- [1] Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons [Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
-- [2] Brown & Ferruzzi 2004 – Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection [Brown & Ferruzzi 2004 – Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
-- [3] Tangpricha & Koutkia 2003 – Fortification of orange juice with vitamin D: a novel approach for enhancing vitamin D nutritional health [Tangpricha & Koutkia 2003 – Fortification of orange juice with vitamin D: a novel approach for enhancing vitamin D nutritional health](/docs/papers/BRAIN-Diet-References#tangpricha_fortification_2003)
+[1] Dietary fat supports chylomicron packaging of carotenoids and related absorption pathways. Kindel & Lee 2010. [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
+
+[2] Whole-food fat source preferable to refined oils when the goal is meal-matrix micronutrient absorption. Brown & Ferruzzi 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+
+[3] Neurological, neurodegenerative, and psychiatric disorders represent a serious burden because of their increasing prevalence, risk of disability, and the lack of effective causal/disease-modifying treatments. Tangpricha & Koutkia 2003. [Fortification of orange juice with vitamin D: a novel approach for enhancing vitamin D nutritional health](/docs/papers/BRAIN-Diet-References#tangpricha_fortification_2003)

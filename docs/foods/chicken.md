@@ -86,5 +86,6 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- [1] Pirinen et al. 2020 – Niacin and NAD⁺ metabolism in health and disease [Pirinen et al. 2020 – Niacin and NAD⁺ metabolism in health and disease](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
-- [2] Fernstrom 2013 – Large neutral amino acids and brain neurochemistry [Fernstrom 2013 – Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+[1] Complete, highly digestible animal protein with niacin and zinc. Pirinen & Auranen 2020. [Niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
+
+[2] Tryptophan source; LNAA competition affects serotonin-pathway routing. Fernstrom et al. 2013. [Large neutral amino acids: dietary effects on brain neurochemistry and function](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)

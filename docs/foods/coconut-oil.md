@@ -66,5 +66,6 @@ Within the BRAIN Diet framework, coconut oil is an occasional culinary fat; evid
 
 ## References
 
-- [1] Li & Hruby 2015 – Saturated Fats Compared With Unsaturated Fats and Sources of Carbohydrates in Relation to Risk of Coronary Heart Disease [Li & Hruby 2015 – Saturated Fats Compared With Unsaturated Fats and Sources of Carbohydrates in Relation to Risk of Coronary Heart Disease](/docs/papers/BRAIN-Diet-References#li_saturated_2015)
-- [2] Schwingshackl & Hoffmann 2014 – Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies [Schwingshackl & Hoffmann 2014 – Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies](/docs/papers/BRAIN-Diet-References#schwingshackl_monounsaturated_2014)
+[1] Saturated fat intake should remain within dietary upper limits. Li & Hruby 2015. [Saturated Fats Compared With Unsaturated Fats and Sources of Carbohydrates in Relation to Risk of Coronary Heart Disease](/docs/papers/BRAIN-Diet-References#li_saturated_2015)
+
+[2] Not a preferred default cooking fat vs olive/avocado oils for cardiometabolic patterns. Schwingshackl & Hoffmann 2014. [Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies](/docs/papers/BRAIN-Diet-References#schwingshackl_monounsaturated_2014)

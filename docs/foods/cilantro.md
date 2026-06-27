@@ -76,5 +76,6 @@ Within the BRAIN Diet framework, cilantro is a flavour and polyphenol herb used 
 
 ## References
 
-- [1] de Oliveira & Chávez 2022 – Parsley (Petroselinum crispum Mill.): A source of bioactive compounds as a domestic strategy to minimize cholesterol oxidation during the thermal preparation of omelets [de Oliveira & Chávez 2022 – Parsley (Petroselinum crispum Mill.): A source of bioactive compounds as a domestic strategy to minimize cholesterol oxidation during the thermal preparation of omelets](/docs/papers/BRAIN-Diet-References#de_oliveira_parsley_2022)
-- [2] Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters [Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+[1] Fresh herb polyphenols at negligible calorie contribution. de Oliveira & Chávez 2022. [Parsley (Petroselinum crispum Mill.): A source of bioactive compounds as a domestic strategy to minimize cholesterol oxidation during the thermal preparation of omelets](/docs/papers/BRAIN-Diet-References#de_oliveira_parsley_2022)
+
+[2] Culinary garnish increasing phytochemical diversity. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

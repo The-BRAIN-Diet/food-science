@@ -77,8 +77,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Fermented dairy mentioned as nutrient-dense animal food
-- Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + greek yogurt/nuts
-- Cultured dairy: Greek yogurt, kefir, buttermilk (if tolerated) provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
-- Serotonin: Mood regulation, emotional control, impulse moderation; food sources include turkey, eggs, dairy, soy, seeds, oats, bananas (greek yogurt provides tryptophan)
-- Fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels [LeBlanc et al. 2011](/docs/papers/BRAIN-Diet-References#leblanc_b-group_2011)
+[1] Fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels. LeBlanc & Laiño 2011. [B-Group vitamin production by lactic acid bacteria - current knowledge and potential applications: Vitamin production by LAB](/docs/papers/BRAIN-Diet-References#leblanc_b-group_2011)
