@@ -827,7 +827,7 @@ BRS overview
 
 Example:
 
-BRS6 - Metabolic & Neuroendocrine Stress  
+BRS6 - Metabolic & Neuroendocrine Regulation  
 FM1 - Metabolic Stability & Cognitive Energy Availability  
 PM1 - Glucose Appearance Kinetics  
 PM2 - Glycaemic Variability Regulation  
@@ -865,7 +865,7 @@ Functional Matrix Notes
 - Vinegar/acidity supports slower glucose appearance.
 
 BRS Links
-- BRS6 - Metabolic & Neuroendocrine Stress: supports glycaemic stability and reduced metabolic volatility.
+- BRS6 - Metabolic & Neuroendocrine Regulation: supports glycaemic stability and reduced metabolic volatility.
 - BRS5 - Gut-Brain Axis: supports fermentable substrate availability.
 - BRS3 - Inflammation & Oxidative Stress: reduces avoidable lipid oxidation burden.
 

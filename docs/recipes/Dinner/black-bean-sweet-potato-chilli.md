@@ -26,7 +26,7 @@ tags:
   - Cilantro
   - Quinoa
   - Rice
-  - Yogurt
+  - Greek Yogurt
 ---
 
 <img src="/img/recipes/black-bean-sweet-potato-chilli.jpg" alt="Black Bean & Sweet Potato Vegetable Chilli" width="480" />

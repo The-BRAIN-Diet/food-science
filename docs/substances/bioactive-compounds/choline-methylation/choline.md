@@ -28,7 +28,7 @@ mechanisms:
   Stress Response: 'Choline supports hepatic VLDL assembly and lipid export; methyl donors (choline, betaine) may influence adenosine metabolism and HPA axis activity. Adequate choline status supports metabolic stability and stress physiology.'
   Inflammation & Oxidative Stress: Choline-derived betaine supports homocysteine remethylation; elevated homocysteine is linked to oxidative stress and inflammatory signalling. Phosphatidylcholine supports membrane integrity and cell signalling in immune and redox contexts.
   Gut–Brain Axis & Enteric Nervous System (ENS): Choline is metabolised by gut bacteria; some strains (e.g. Lactobacillus) can produce acetylcholine. Microbial choline metabolism (e.g. trimethylamine) shows inter-individual variability and may influence host metabolism and gut–brain signalling.
-  Metabolic & Neuroendocrine Stress (HPA Axis & ANS): 'Choline supports hepatic VLDL assembly and lipid export; methyl donors (choline, betaine) may influence adenosine metabolism and HPA axis activity. Adequate choline status supports metabolic stability and stress physiology.'
+  Metabolic & Neuroendocrine Regulation (HPA Axis & ANS): 'Choline supports hepatic VLDL assembly and lipid export; methyl donors (choline, betaine) may influence adenosine metabolism and HPA axis activity. Adequate choline status supports metabolic stability and stress physiology.'
 inchikey: OEYIOHPDSNJKLS-UHFFFAOYSA-N
 inchi_image: /img/inchi/OEYIOHPDSNJKLS-UHFFFAOYSA-N.png
 ---

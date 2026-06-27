@@ -26,7 +26,7 @@ const ANIMAL_SLUGS = new Set([
   "eggs", "egg-yolks", "salmon", "tuna", "cod", "mackerel", "herring", "sardines",
   "shrimp", "crab", "scallops", "clams", "mussels", "oysters", "cockles",
   "salmon-roe", "trout-roe", "lumpfish-roe", "liver", "kidney", "heart",
-  "milk", "cheese", "yogurt", "butter", "grass-fed-butter", "ghee",
+  "milk", "cheese", "greek-yogurt", "butter", "grass-fed-butter", "ghee",
 ])
 const GRAIN_SLUGS = new Set([
   "barley", "oats", "rice", "wheat", "quinoa", "amaranth", "buckwheat", "spelt", "whole-grains",

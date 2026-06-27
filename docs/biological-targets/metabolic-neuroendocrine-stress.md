@@ -1,38 +1,30 @@
 ---
 id: metabolic-neuroendocrine-stress
-title: BRS6 - Metabolic & Neuroendocrine Stress
-sidebar_label: BRS6 - Metabolic & Neuroendocrine Stress
+title: BRS6 - Metabolic & Neuroendocrine Regulation
+sidebar_label: BRS6 - Metabolic & Neuroendocrine Regulation
 description: >-
-  Whole-body regulation layer for stress allocation, autonomic tone, hormonal
-  coordination, and energy prioritisation.
+  Whole-body regulation layer for adaptive energy allocation, metabolic
+  flexibility, and neuroendocrine regulation.
 tags:
   - Biological Target
-  - Metabolic & Neuroendocrine Stress
+  - Metabolic & Neuroendocrine Regulation
 list_image: /img/icons/biological-targets.svg
 hide_title: true
 ---
 
 <img
   src="/img/biological-targets/brs6-portrait-thumbnail.png"
-  alt="BRS6 — Metabolic & Neuroendocrine Stress: circadian rhythm, autonomic tone, hormonal coordination, and energy prioritisation"
+  alt="BRS6 — Metabolic & Neuroendocrine Regulation: circadian rhythm, autonomic tone, hormonal coordination, and energy prioritisation"
   class="brs-hub-hero"
 />
 
-## BRS6 - Metabolic & Neuroendocrine Stress
+## BRS6 - Metabolic & Neuroendocrine Regulation
 
-(Stress Hormones, Autonomic Balance & Metabolic Energy Allocation)
+(Adaptive Energy Regulation & Metabolic Flexibility)
 
 ## Ambition
 
-Maintain metabolic flexibility and neuroendocrine stability so the brain can sustain energy availability, adaptive stress responses, and cognitive performance across changing nutritional, physiological, and environmental conditions.
-
-## Overview
-
-Helps the body allocate energy, regulate stress responses, and maintain physiological balance across changing internal and external conditions. This integrates hypothalamic–pituitary–adrenal (HPA) axis signals, autonomic nervous system balance, and broader metabolic pathways that shape hormonal output, energy availability, and adaptive responses.
-
-* Supports stable glycaemic–insulin dynamics and cognitive energy availability — within BRS6.
-* Regulates cortisol rhythm and circadian timing of feeding and recovery — within BRS6.
-* Links metabolic-inflammatory load to wider brain-relevant stress state — Supporting BRS3 and BRS1.
+Maintain adaptive metabolic regulation and metabolic flexibility so the brain can sustain cognitive performance, respond proportionately to physiological demands, and recover efficiently as nutritional and environmental conditions change.
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -41,31 +33,35 @@ Helps the body allocate energy, regulate stress responses, and maintain physiolo
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Levers</strong>
+<strong>Dietary Strategy</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Educational rollup of whole-food dietary levers referenced across BRS6 primary mechanisms. Foods are deduplicated at the BRS level and grouped for practical scanning — mechanistic rationale stays on individual PM pages.</p>
-
 <div class="brs-hub-levers-key-constraints">
 <p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key constraints across this system are those with stable meal-derived energy substrates; or stress-response micronutrient and lipid sufficiency. Whole foods such as Barley, Brown Rice, Legumes, Oats, Potatoes, and Rice supply the common pools.</p>
-
+<p class="brs-hub-lever-kc-commentary">Key dietary constraints include stable energy availability, dietary patterns that minimise blood sugar swings, consistent meal timing, and sufficient micronutrient and healthy fat intake to support metabolic adaptation and recovery.</p>
+<p class="brs-hub-lever-kc-foods">Barley, Brown Rice, Legumes, Oats, Potatoes, Rice</p>
 </div>
 
-<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Glycaemic stabilisation · mixed macronutrient meal matrices · consistent meal timing · lower ultra-processed load · Morning-forward meal structure may align feeding cues with waking light exposure · Polyphenol-rich foods, omega-3–containing seafoods, and adequate micronutrient context may support favourable metabolic signalling alongside core meal structure (interpreted as supportive, not deterministic) · Protein-rich breakfast and structured meal composition may support appetite and reward stability across the morning and day · Stable, lower-inflammatory meal patterns may reduce autonomic strain that antagonises recovery signalling</p>
+<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Prioritise stable meal composition, consistent meal timing, and minimally processed foods that support sustained energy availability and metabolic flexibility. Build meals that combine protein, fibre-rich carbohydrates, and healthy fats; include protein-rich breakfasts where appropriate, polyphenol-rich plant foods, and omega-3-containing seafoods. Favour dietary patterns that minimise blood sugar swings and unnecessary inflammatory burden.</p>
 
 <div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Nutrient-dense stars / signature foods</strong>
+<strong>Target Foods</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list">
-<li>Barley <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a></span></li>
-<li>Oats <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a></span></li>
+<ul class="brs-hub-lever-list brs-hub-star-food-list">
+<li class="brs-hub-star-food"><a href="/docs/foods/barley" class="brs-hub-star-food-link"><strong>Barley</strong></a><p class="brs-hub-star-food-why">One of the richest whole-food sources of soluble fibre, promoting stable post-meal glucose responses, microbial fermentation, and metabolic flexibility.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/blueberries" class="brs-hub-star-food-link"><strong>Blueberries</strong></a><p class="brs-hub-star-food-why">Polyphenol-rich fruit that supports vascular function, metabolic signalling, and oxidative resilience while providing a low-glycaemic whole-food carbohydrate source.</p></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/chickpeas" class="brs-hub-star-food-link"><strong>Chickpeas</strong></a><p class="brs-hub-star-food-why">Low-glycaemic legume providing protein, fibre and resistant starch that help maintain metabolic stability and reduce post-prandial glucose excursions.</p></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/extra-virgin-olive-oil" class="brs-hub-star-food-link"><strong>Extra Virgin Olive Oil</strong></a><p class="brs-hub-star-food-why">Provides monounsaturated fats and polyphenols that support insulin sensitivity, reduce inflammatory burden, and complement healthy metabolic regulation.</p></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/greek-yogurt" class="brs-hub-star-food-link"><strong>Greek Yogurt (plain, unsweetened)</strong></a><p class="brs-hub-star-food-why">Provides high-quality protein and a favourable food matrix that supports appetite regulation, metabolic control and structured meal composition.</p></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/lentils" class="brs-hub-star-food-link"><strong>Lentils</strong></a><p class="brs-hub-star-food-why">Combines slowly digested carbohydrate, protein and fermentable fibre, supporting stable energy delivery, insulin regulation, and appetite control.</p></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/oats" class="brs-hub-star-food-link"><strong>Oats</strong></a><p class="brs-hub-star-food-why">Rich in β-glucan and slowly digested carbohydrates that support sustained energy availability, glycaemic stability, satiety, and favourable metabolic signalling.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/salmon" class="brs-hub-star-food-link"><strong>Salmon</strong></a><p class="brs-hub-star-food-why">Rich in omega-3 fatty acids and high-quality protein, supporting metabolic resilience, neuroendocrine function, and recovery following physiological stress.</p></li>
 </ul>
 
 </div>
@@ -80,11 +76,11 @@ Helps the body allocate energy, regulate stress responses, and maintain physiolo
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Lifestyle Levers</strong>
+<strong>Lifestyle Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural levers referenced across BRS6 PM pages — educational context, not clinical prescription.</p>
+<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural priorities referenced across BRS6 PM pages — educational context, not clinical prescription.</p>
 
 <ul class="brs-hub-lever-list">
 <li>Acute overtraining without recovery may antagonise HRV improvement in some contexts. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a></span></li>
@@ -124,6 +120,13 @@ Helps the body allocate energy, regulate stress responses, and maintain physiolo
 </div>
 <!-- brs-hub-levers:end -->
 
+## Overview
+
+The brain must continuously allocate limited metabolic resources across cognition, arousal, immune activity, and recovery. BRS6 describes the integrated regulatory capacity that keeps this process adaptive rather than chronically stressed or metabolically constrained. Glycaemic regulation, metabolic flexibility, neuroendocrine rhythm, autonomic balance, and physiological recovery work together so energy can be allocated efficiently across changing cognitive, physiological and environmental demands. Nutrition influences these capacities through meal composition, nutrient timing, circadian-aligned eating, and dietary patterns that minimise unnecessary metabolic stress.
+
+* Coordinates post-meal fuel delivery, glycaemic stability, and insulin-supported disposal so cognitive energy availability stays continuous rather than spike-and-crash driven.
+* Coordinates meal timing and neuroendocrine rhythms to support adaptive energy regulation and physiological recovery.
+* Helps contain cumulative metabolic and autonomic strain so energy remains available for brain-relevant regulation — supporting BRS1 and BRS3.
 ## Therapeutic Area Research
 
 <!-- brs-hub-ta-research:start -->
@@ -133,7 +136,7 @@ Helps the body allocate energy, regulate stress responses, and maintain physiolo
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>ADHD: Metabolic & Neuroendocrine Stress Biological Implications</strong>
+<strong>ADHD: Metabolic & Neuroendocrine Regulation Biological Implications</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -163,7 +166,6 @@ Glycaemic stabilization, SCFA production, polyphenol intake, and anxiolytic prob
 </div>
 </div>
 </div>
-
 ## Functional Mechanisms
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.

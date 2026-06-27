@@ -19,15 +19,11 @@ hide_title: true
 
 ## BRS-X(ECS) - Endocannabinoid System
 
+(Lipid-Mediated Neuromodulation & Stress Buffering)
+
 ## Ambition
 
-Maintain balanced endocannabinoid signalling so neural homeostasis, stress adaptation, appetite regulation, neuroimmune communication, and synaptic plasticity remain appropriately regulated across the brain and body.
-
-## Overview
-
-The endocannabinoid system is sometimes called the endocannabinoidome or the expanded endocannabinoid system, as it includes a broader range of lipid mediators, receptors, and enzymes beyond CB1 and CB2 → [Wikipedia — Endocannabinoid system](/docs/papers/BRAIN-Diet-References#wikipedia_endocannabinoid_system). The BRAIN Framework organises BRS-X(ECS) around the diet-actionable endocannabinoidome — N-acyl ethanolamines, NAPE precursor biology, FAAH-mediated degradation, endocannabinoid–dopamine interactions, and stress-buffering pathways — rather than pharmacological CB1/CB2 receptor activation.
-
-Within the BRAIN Framework, BRS-X(ECS) is a first-class cross-system object spanning neurotransmission, inflammation, bioenergetics, gut–brain signalling, and metabolic stress allocation. Dietary phospholipids, omega-3 fatty acids, and polyphenol patterns that support endogenous endocannabinoidome tone are interpreted through connected PMs and FMs across BRS1–BRS6.
+Maintain balanced endocannabinoid signalling so the brain can regulate neural homeostasis, stress adaptation, appetite, and neuroimmune communication across changing physiological demands.
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -36,37 +32,33 @@ Within the BRAIN Framework, BRS-X(ECS) is a first-class cross-system object span
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Levers</strong>
+<strong>Dietary Strategy</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Educational rollup of whole-food dietary levers referenced across BRS-X(ECS) primary mechanisms. Foods are deduplicated at the BRS level and grouped for practical scanning — mechanistic rationale stays on individual PM pages.</p>
-
 <div class="brs-hub-levers-key-constraints">
 <p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key constraints across this system are those with phospholipid-rich whole foods; or choline and NAPE precursor availability. Whole foods such as Eggs, Fish roe, Oats, Fish, Legumes, and Liver supply the common pools.</p>
+<p class="brs-hub-lever-kc-commentary">Key dietary constraints include phospholipid-rich whole foods, choline and NAPE precursor availability, and omega-3-supportive patterns that sustain endogenous lipid mediator formation.</p>
 <p class="brs-hub-lever-kc-foods">Eggs, Fish, Fish roe, Legumes, Liver, Oats, Soy</p>
 </div>
 
-<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Phospholipid-rich meals · choline-containing foods · polyphenol diversity · omega-3-supportive patterns</p>
+<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Prioritise phospholipid-rich whole foods — eggs, oily fish, soy, and nuts — alongside choline-containing foods that support endocannabinoid precursor biology. Include omega-3-rich seafoods and a diverse range of polyphenol-rich plants to support endogenous lipid mediator formation through food rather than pharmacological receptor targeting.</p>
 
 <div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Nutrient-dense stars / signature foods</strong>
+<strong>Target Foods</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list">
-<li>Berries <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation" class="brs-hub-lever-pm">BRS-X(ECS-PM3)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM5)</a></span></li>
-<li>Eggs <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM1)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation" class="brs-hub-lever-pm">BRS-X(ECS-PM4)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM5)</a></span></li>
-<li>Fish roe <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM1)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling" class="brs-hub-lever-pm">BRS-X(ECS-PM2)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation" class="brs-hub-lever-pm">BRS-X(ECS-PM4)</a></span></li>
-<li>Mackerel <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling" class="brs-hub-lever-pm">BRS-X(ECS-PM2)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation" class="brs-hub-lever-pm">BRS-X(ECS-PM4)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM5)</a></span></li>
-<li>Oats <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM1)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM5)</a></span></li>
-<li>Salmon <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling" class="brs-hub-lever-pm">BRS-X(ECS-PM2)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation" class="brs-hub-lever-pm">BRS-X(ECS-PM4)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM5)</a></span></li>
-<li>Sardines <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling" class="brs-hub-lever-pm">BRS-X(ECS-PM2)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation" class="brs-hub-lever-pm">BRS-X(ECS-PM4)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM5)</a></span></li>
-<li>Walnuts <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling" class="brs-hub-lever-pm">BRS-X(ECS-PM2)</a></span></li>
+<ul class="brs-hub-lever-list brs-hub-star-food-list">
+<li class="brs-hub-star-food"><a href="/docs/foods/blueberries" class="brs-hub-star-food-link"><strong>Blueberries</strong></a><p class="brs-hub-star-food-why">Polyphenol-rich fruit supporting FAAH-mediated endocannabinoid preservation and diet-sensitive modulation of stress-buffering capacity.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation" class="brs-hub-lever-pm">BRS-X(ECS-PM3)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM5)</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/eggs" class="brs-hub-star-food-link"><strong>Eggs</strong></a><p class="brs-hub-star-food-why">Phospholipid- and choline-rich whole food supporting NAPE → NAE biosynthesis and dietary entry into endocannabinoidome precursor pools.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM1)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation" class="brs-hub-lever-pm">BRS-X(ECS-PM4)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM5)</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/salmon-roe" class="brs-hub-star-food-link"><strong>Fish Roe</strong></a><p class="brs-hub-star-food-why">Phospholipid-bound DHA source supporting NAPE biosynthesis, omega-3-derived endocannabinoidome signalling, and dopamine-linked neuromodulation.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM1)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling" class="brs-hub-lever-pm">BRS-X(ECS-PM2)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation" class="brs-hub-lever-pm">BRS-X(ECS-PM4)</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/oats" class="brs-hub-star-food-link"><strong>Oats</strong></a><p class="brs-hub-star-food-why">Whole-grain phospholipid and fibre matrix supporting NAPE precursor availability and endocannabinoid stress-buffering through regular meal-pattern intake.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM1)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM5)</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/salmon" class="brs-hub-star-food-link"><strong>Salmon</strong></a><p class="brs-hub-star-food-why">Omega-3-rich oily fish supporting DHEA/EPEA-related endocannabinoidome signalling, dopamine neuromodulation, and stress-buffering lipid mediator context.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling" class="brs-hub-lever-pm">BRS-X(ECS-PM2)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation" class="brs-hub-lever-pm">BRS-X(ECS-PM4)</a> <a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM5)</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/walnuts" class="brs-hub-star-food-link"><strong>Walnuts</strong></a><p class="brs-hub-star-food-why">Plant source of ALA and polyphenols supporting omega-3-derived endocannabinoidome signalling without reliance on pharmacological receptor targeting.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling" class="brs-hub-lever-pm">BRS-X(ECS-PM2)</a></span></li>
 </ul>
 
 </div>
@@ -81,11 +73,11 @@ Within the BRAIN Framework, BRS-X(ECS) is a first-class cross-system object span
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Lifestyle Levers</strong>
+<strong>Lifestyle Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural levers referenced across BRS-X(ECS) PM pages — educational context, not clinical prescription.</p>
+<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural priorities referenced across BRS-X(ECS) PM pages — educational context, not clinical prescription.</p>
 
 <ul class="brs-hub-lever-list">
 <li>Chronic psychosocial stress may deplete endocannabinoidome tone intersecting HPA and inflammatory pathways. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity" class="brs-hub-lever-pm">BRS-X(ECS-PM5)</a></span></li>
@@ -107,8 +99,9 @@ Within the BRAIN Framework, BRS-X(ECS) is a first-class cross-system object span
 </div>
 <!-- brs-hub-levers:end -->
 
+## Overview
 
-
+The brain uses lipid-mediated signalling to modulate synaptic activity, stress responses, appetite, and neuroimmune communication beyond classical neurotransmitters alone. BRS-X(ECS) describes the integrated capacity that sustains endogenous endocannabinoidome tone rather than relying on pharmacological receptor activation. NAPE precursor biology, NAE biosynthesis, FAAH-mediated preservation, dopamine-linked neuromodulation, and stress-buffering pathways work together so lipid signalling remains proportionate and adaptive. Nutrition influences these capacities through phospholipid-rich meals, choline-containing foods, omega-3-supportive patterns, and polyphenol diversity that support endogenous lipid mediator formation.
 ## Functional Mechanisms
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
@@ -160,7 +153,6 @@ Supports integrated regulation of endocannabinoid and endocannabinoid-like lipid
 </div>
 
 ---
-
 ## Specific Mechanisms
 
 Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS-X(ECS) biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), **SM-Pattern** (e.g. vegan, vegetarian, ketogenic), and **SM-Phenotype** (e.g. hyperarousal, emotional dysregulation, sensory regulation). Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
@@ -175,4 +167,4 @@ Specific Mechanisms (SMs) are interpretation layers — context-specific reading
 - [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress)
 - [BRS4 — Mitochondrial Function & Bioenergetics](/docs/biological-targets/mitochondrial-function-bioenergetics)
 - [BRS5 — Gut-Brain Axis & Enteric Nervous System](/docs/biological-targets/gut-brain-axis-enteric-nervous-system)
-- [BRS6 — Metabolic & Neuroendocrine Stress](/docs/biological-targets/metabolic-neuroendocrine-stress)
+- [BRS6 — Metabolic & Neuroendocrine Regulation](/docs/biological-targets/metabolic-neuroendocrine-stress)

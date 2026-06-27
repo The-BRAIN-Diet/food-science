@@ -20,19 +20,11 @@ hide_title: true
 
 ## BRS2 - Methylation & One-Carbon Metabolism
 
+(Methyl-Donor Flux, Epigenetic Support & Membrane Chemistry)
+
 ## Ambition
 
-Maintain efficient one-carbon metabolism to support methylation capacity, epigenetic regulation, phospholipid synthesis, neurotransmitter metabolism, and cellular repair throughout the brain and body.
-
-## Overview
-
-Helps the body and brain maintain, repair, and regulate themselves by supplying the biochemical building blocks needed for gene regulation, neurotransmitter production, membrane integrity, and antioxidant defence through one-carbon metabolism and methyl-group transfer chemistry.
-
-One-carbon metabolism provides the biochemical infrastructure for homocysteine recycling, methionine regeneration, SAMe synthesis, phospholipid methylation, and transsulfuration. These interconnected pathways link dietary methyl-donor availability to neurotransmitter metabolism, membrane phospholipid chemistry, antioxidant defence, and other regulatory processes relevant to cognitive function, neurodevelopment, and long-term brain health.
-
-* Sustains neurotransmitter synthesis, membrane composition, and neuronal signalling — Supporting BRS1.
-* Links homocysteine control to oxidative stress and inflammatory resilience — Supporting BRS3.
-* Supports mitochondrial function, epigenetic regulation, and metabolic adaptation — Supporting BRS4.
+Maintain efficient one-carbon metabolism so the brain can support methylation capacity, membrane renewal, neurotransmitter metabolism, and adaptive cellular regulation.
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -41,36 +33,34 @@ One-carbon metabolism provides the biochemical infrastructure for homocysteine r
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Levers</strong>
+<strong>Dietary Strategy</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Educational rollup of whole-food dietary levers referenced across BRS2 primary mechanisms. Foods are deduplicated at the BRS level and grouped for practical scanning — mechanistic rationale stays on individual PM pages.</p>
-
 <div class="brs-hub-levers-key-constraints">
 <p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key constraints across this system are those with adequate methyl-donor intake; or folate-, choline-, and betaine-rich whole-food patterns. Whole foods such as Eggs, Fish roe, Spinach, Beetroot, Chard, and Clams supply the common pools.</p>
+<p class="brs-hub-lever-kc-commentary">Key dietary constraints include adequate methyl-donor intake from folate-, B12-, choline-, and betaine-rich whole foods, protein spread across the day, and dietary patterns that prevent chronic shortfall in methyl-donor availability.</p>
 <p class="brs-hub-lever-kc-foods">Beetroot, Chard, Clams, Dairy, Eggs, Fish, Fish roe, Kale, Legumes, Meat, Mussels, Oysters, Poultry, Spinach</p>
 </div>
 
-<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Methyl-donor-rich meals · folate- and B12-containing foods · choline and betaine sources · distributed protein supporting one-carbon throughput</p>
+<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Include folate-rich leafy greens, eggs, legumes, and liver where appropriate; choline from eggs, fish, and soy; and betaine from beets and spinach. Spread protein across the day rather than concentrating it in one meal. Choose whole foods that retain their B vitamins and methyl donors instead of highly processed alternatives that strip them away.</p>
 
 <div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Nutrient-dense stars / signature foods</strong>
+<strong>Target Foods</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list">
-<li>Eggs <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
-<li>Fish roe <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
-<li>Mackerel <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
-<li>Pumpkin Seeds <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a></span></li>
-<li>Salmon <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
-<li>Sardines <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
-<li>Spinach <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a></span></li>
+<ul class="brs-hub-lever-list brs-hub-star-food-list">
+<li class="brs-hub-star-food"><a href="/docs/foods/eggs" class="brs-hub-star-food-link"><strong>Eggs</strong></a><p class="brs-hub-star-food-why">Concentrated source of choline, B12, and complete protein supporting homocysteine remethylation, SAMe synthesis, transsulfuration, and phosphatidylcholine formation.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/salmon-roe" class="brs-hub-star-food-link"><strong>Fish Roe</strong></a><p class="brs-hub-star-food-why">Phospholipid-rich seafood supporting phosphatidylcholine formation and the methylation–membrane coupling axis.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/mackerel" class="brs-hub-star-food-link"><strong>Mackerel</strong></a><p class="brs-hub-star-food-why">Oily fish providing B vitamins and phospholipid substrate that support glutathione synthesis and choline–phosphatidylcholine pathways.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/pumpkin-seeds" class="brs-hub-star-food-link"><strong>Pumpkin Seeds</strong></a><p class="brs-hub-star-food-why">Magnesium- and zinc-rich seed supporting SAMe synthesis and enzymatic cofactor sufficiency across methylation-cycle reactions.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/salmon" class="brs-hub-star-food-link"><strong>Salmon</strong></a><p class="brs-hub-star-food-why">Provides B vitamins, selenium, and phospholipid context supporting glutathione synthesis and choline-derived phosphatidylcholine formation.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/sardines" class="brs-hub-star-food-link"><strong>Sardines</strong></a><p class="brs-hub-star-food-why">Oily fish supplying B12, selenium, and phospholipid-bound fats that support transsulfuration, glutathione synthesis, and membrane methylation coupling.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
+<li class="brs-hub-star-food"><a href="/docs/foods/spinach" class="brs-hub-star-food-link"><strong>Spinach</strong></a><p class="brs-hub-star-food-why">Leafy green rich in folate and betaine that supports folate–B12 remethylation, BHMT-mediated remethylation, and methyl-donor throughput across the one-carbon cycle.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a></span></li>
 </ul>
 
 </div>
@@ -85,11 +75,11 @@ One-carbon metabolism provides the biochemical infrastructure for homocysteine r
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Lifestyle Levers</strong>
+<strong>Lifestyle Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural levers referenced across BRS2 PM pages — educational context, not clinical prescription.</p>
+<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural priorities referenced across BRS2 PM pages — educational context, not clinical prescription.</p>
 
 <ul class="brs-hub-lever-list">
 <li>Consistent daily meal timing may support one-carbon and methyl-donor availability across the day. <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux" class="brs-hub-lever-pm">BRS2-FM1-PM4</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
@@ -103,6 +93,13 @@ One-carbon metabolism provides the biochemical infrastructure for homocysteine r
 </div>
 <!-- brs-hub-levers:end -->
 
+## Overview
+
+Cells constantly require methyl groups to regulate gene expression, renew membranes, metabolise neurotransmitters, and maintain antioxidant and repair chemistry. BRS2 describes the integrated capacity that keeps one-carbon metabolism flowing rather than bottlenecked at donor shortage, homocysteine accumulation, or transsulfuration strain. Homocysteine remethylation, SAMe synthesis, transsulfuration, and phospholipid formation work together so methyl-donor chemistry supports brain-relevant regulation across systems. Nutrition influences these capacities through folate-, B12-, choline-, and betaine-containing foods, distributed protein intake, and patterns that sustain methionine-cycle throughput.
+
+* Sustains methyl-donor flux and homocysteine recycling so downstream methylation and membrane chemistry remain available.
+* Couples transsulfuration and glutathione formation to broader redox and inflammatory resilience — supporting BRS3.
+* Bridges one-carbon metabolism to neurotransmitter and membrane biology — supporting BRS1.
 ## Therapeutic Area Research
 
 <!-- brs-hub-ta-research:start -->
@@ -146,7 +143,6 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 <!-- brs-hub-ta-research:end -->
 
 ---
-
 ## Functional Mechanisms
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.

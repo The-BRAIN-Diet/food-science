@@ -20,7 +20,7 @@ tags:
   - Chia Seeds
   - Pumpkin Seeds
   - Kefir
-  - Yogurt
+  - Greek Yogurt
 list_image: /img/recipes/matcha-mito-smoothie.jpg
 ---
 
