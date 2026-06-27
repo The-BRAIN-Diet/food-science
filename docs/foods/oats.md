@@ -118,8 +118,8 @@ Oats are relatively higher in methionine than many legumes but lower in lysine. 
 
 ## References
 
-[1] Protein quality evaluation framework (DIAAS) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+[1] Report recommending the Digestible Indispensable Amino Acid Score (DIAAS) as the preferred method for evaluating dietary protein quality, replacing PDCAAS, and detailing methodology and implications for human nutrition. FAO 2013. [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 
-[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+[2] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
 
-[3] Oat bran lipid/phospholipid response study [Sean Davies et al. 2018](/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018)
+[3] Brief Summary N-acyl-phosphatidylethanolamine (NAPEs) and their active metabolites, N-acyl-ethanolamides (NAEs) are lipid satiety factors that are normally biosynthesized in the intestinal tract in response to food intake. Sean Davies 2018. [Oat bran lipid/phospholipid response study](/docs/papers/BRAIN-Diet-References#sean_davies_oatmeal_2018)

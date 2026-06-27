@@ -76,4 +76,4 @@ Within the BRAIN Diet framework, chamomile is a herbal polyphenol beverage used 
 
 ## References
 
-- [1] Kramer & Johnson 2024 – Apigenin: a natural molecule at the intersection of sleep and aging [Kramer & Johnson 2024 – Apigenin: a natural molecule at the intersection of sleep and aging](/docs/papers/BRAIN-Diet-References#kramer_apigenin_2024)
+[1] Culinary/tea doses differ from concentrated extract trials. Kramer & Johnson 2024. [Apigenin: a natural molecule at the intersection of sleep and aging](/docs/papers/BRAIN-Diet-References#kramer_apigenin_2024)

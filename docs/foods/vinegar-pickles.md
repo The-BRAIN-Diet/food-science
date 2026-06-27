@@ -2,7 +2,7 @@
 id: vinegar-pickles
 title: Vinegar Pickles
 sidebar_label: Vinegar Pickles
-description: Acid preservation in vinegar brine — acetic acid exposure, shelf stability, and distinct biology from lacto-fermented vegetables
+description: 'Acid preservation in vinegar brine — acetic acid exposure, shelf stability, and distinct biology from lacto-fermented vegetables'
 tags:
   - Food
   - Vinegar Pickles
@@ -120,8 +120,10 @@ Acidification and reduced pH can **slow oxidative degradation** of some plant co
 
 ## References
 
-- Vinegar improves insulin sensitivity to a high-carbohydrate meal [Johnston et al. 2004](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)
-- Apple vinegar polyphenols, antioxidant activity, and in vitro α-glucosidase/α-amylase inhibition [Ousaaid et al. 2022](/docs/papers/BRAIN-Diet-References#ousaaid_nutritional_2022)
-- Gut microbiota–targeted diets and fermented-food context [Wastyk et al. 2021](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)
-- Reduced SCFA levels in ADHD cohorts [Steckler et al. 2024](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024)
-- For lacto-fermented vegetables, probiotics, and fermentation-derived metabolites, see [Fermented Vegetables](./fermented-vegetables.md), [Sauerkraut](./sauerkraut.md), and [Kimchi](./kimchi.md)
+[1] Vinegar improves insulin sensitivity to a high-carbohydrate meal. Johnston & Kim 2004. [Vinegar improves insulin sensitivity to a high-carbohydrate meal in subjects with insulin resistance or type 2 diabetes.](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)
+
+[2] Apple vinegar polyphenols, antioxidant activity, and in vitro α-glucosidase/α-amylase inhibition. Ousaaid & Laaroussi 2022. [The Nutritional and Antioxidant Potential of Artisanal and Industrial Apple Vinegars and Their Ability to Inhibit Key Enzymes Related to Type 2 Diabetes In Vitro](/docs/papers/BRAIN-Diet-References#ousaaid_nutritional_2022)
+
+[3] Gut microbiota–targeted diets and fermented-food context. Wastyk & Fragiadakis 2021. [Gut-microbiota-targeted diets modulate human immune status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)
+
+[4] Reduced SCFA levels in ADHD cohorts. Steckler & Magzal 2024. [Disrupted gut harmony in attention-deficit/hyperactivity disorder: Dysbiosis and decreased short-chain fatty acids](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024)

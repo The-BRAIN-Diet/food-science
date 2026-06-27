@@ -6,6 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { HUB_SIGNATURE_FOODS } from "../data/brs-hub-signature-foods.mjs";
+import { buildIntegratedLifestylePriorities } from "./brs-hub-lifestyle-merge.mjs";
 
 export const DIETARY_CATEGORIES = [
   { id: "nutrient_dense_stars", label: "Target Foods" },
@@ -1049,6 +1050,20 @@ export function rollupBrsLevers(pmRows) {
   };
 }
 
+function renderLifestylePriorityItem(item) {
+  const action = escapeHtml(item.action || item.label);
+  const explanation = escapeHtml(item.explanation || "");
+  const body =
+    item.action && item.explanation
+      ? `<p class="brs-hub-lifestyle-text"><strong>${action}</strong> ${explanation}</p>`
+      : `<p class="brs-hub-lifestyle-text">${action}</p>`;
+  const supports =
+    item.source_pms?.length ?
+      `<p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span>${renderPmTags(item.source_pms)}</p>`
+    : "";
+  return `<li class="brs-hub-lifestyle-priority">${body}${supports}</li>`;
+}
+
 function renderPmTags(sourcePms) {
   if (!sourcePms.length) return "";
   const tags = sourcePms
@@ -1121,10 +1136,10 @@ ${rollup.key_constraints.show_food_list ? `<p class="brs-hub-lever-kc-foods">${r
 
   const lifestyleList =
     rollup.lifestyle?.length ?
-      `<ul class="brs-hub-lever-list">
-${rollup.lifestyle.map((item) => `<li>${item.label}${renderPmTags(item.source_pms)}</li>`).join("\n")}
+      `<ul class="brs-hub-lever-list brs-hub-lifestyle-list">
+${rollup.lifestyle.map((item) => renderLifestylePriorityItem(item)).join("\n")}
 </ul>`
-    : "<p><em>No lifestyle priorities extracted from connected PM pages yet.</em></p>";
+    : "<p><em>No lifestyle priorities defined for this system yet.</em></p>";
 
   return `${HUB_MARKERS.start}
 <div class="brs-hub-levers">
@@ -1155,8 +1170,6 @@ ${dietaryBlocks || "<p><em>No dietary strategy items extracted from connected PM
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-levers-intro">Deduplicated lifestyle and behavioural priorities referenced across ${brsId} PM pages — educational context, not clinical prescription.</p>
-
 ${lifestyleList}
 
 </div>
@@ -1179,9 +1192,9 @@ export function buildBrsHubLeversRegistry(rootDir = process.cwd()) {
 
   const registry = {
     meta: {
-      version: 2,
+      version: 3,
       description:
-        "BRS hub dietary and lifestyle lever rollups — PM §4.1.1, §4.1.3 KCs, §4.2; BRS-specific Key constraints and Key Dietary Strategy & Targets copy.",
+        "BRS hub dietary and integrated lifestyle priority rollups — PM §4.1.1, §4.1.3 KCs, §4.2; curated Lifestyle Priorities in scripts/data/brs-hub-lifestyle-priorities.mjs.",
       generatedAt: new Date().toISOString(),
     },
     brs: {},
@@ -1189,6 +1202,13 @@ export function buildBrsHubLeversRegistry(rootDir = process.cwd()) {
 
   for (const [brsId, rows] of Object.entries(byBrs).sort()) {
     const rollup = rollupBrsLevers(rows);
+    const rawLifestyleCount = rollup.stats.unique_lifestyle;
+    const integrated = buildIntegratedLifestylePriorities(brsId, rows);
+    if (integrated?.length) {
+      rollup.lifestyle = integrated;
+      rollup.stats.unique_lifestyle = integrated.length;
+      rollup.stats.pm_lifestyle_notes = rawLifestyleCount;
+    }
     const enrichedKcs = enrichKeyConstraints(rollup.key_constraints, rows, rootDir);
     rollup.key_constraints = collapseKeyConstraintsRollup(enrichedKcs, brsId);
     rollup.dietary_strategy_prose = KEY_DIETARY_STRATEGY_PROSE[brsId] || null;

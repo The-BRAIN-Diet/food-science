@@ -90,8 +90,4 @@ Tempeh provide a relatively complete plant protein (higher in lysine than most g
 
 ## References
 
-- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
-- Tempeh: Fermented soybeans, high in protein and probiotics
-- Part of fermented foods strategy; fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels [LeBlanc et al. 2011](/docs/papers/BRAIN-Diet-References#leblanc_b-group_2011)
-- Fermentation produces beneficial organic acids and partially pre-digests starch and protein—improving both digestibility and glycaemic response
-- Genistein, a soy-derived isoflavonoid, has shown potential as a modulator of several biochemical pathways, including the endocannabinoid system and neuroinflammation
+[1] Part of fermented foods strategy; fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels. LeBlanc & Laiño 2011. [B-Group vitamin production by lactic acid bacteria - current knowledge and potential applications: Vitamin production by LAB](/docs/papers/BRAIN-Diet-References#leblanc_b-group_2011)

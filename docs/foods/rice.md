@@ -2,7 +2,7 @@
 id: rice
 title: Rice
 sidebar_label: Rice
-description: Staple grain — variant, milling, pigmentation, cooking/cooling, and fermentation drive fibre, RS, glycaemia, and polyphenols
+description: 'Staple grain — variant, milling, pigmentation, cooking/cooling, and fermentation drive fibre, RS, glycaemia, and polyphenols'
 tags:
   - Food
   - Rice
@@ -33,12 +33,12 @@ nutrition_per_100g:
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Rice, brown, cooked, no added fat'
-  table_maps_to: Brown rice, cooked, no added fat (reference variant for this table)
+  table_maps_to: 'Brown rice, cooked, no added fat (reference variant for this table)'
   fdc_id: 2708414
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-06-01'
-  note: Other variants (white, red, black, cooled white, fermented) differ — see comparison table above.
+  note: 'Other variants (white, red, black, cooled white, fermented) differ — see comparison table above.'
 amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
 limiting_amino_acids: Lysine (typical of grains).
 complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
@@ -120,8 +120,6 @@ Grains such as rice are relatively higher in methionine but lysine-limited. Comb
 
 ## References
 
-[1] Protein quality evaluation framework (DIAAS) [FAO 2013](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+[1] Report recommending the Digestible Indispensable Amino Acid Score (DIAAS) as the preferred method for evaluating dietary protein quality, replacing PDCAAS, and detailing methodology and implications for human nutrition. FAO 2013. [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 
-[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
-
-[3] Cook-cool-reheat rice and resistant starch/glycaemic response [Zhou et al. 2014](https://pubmed.ncbi.nlm.nih.gov/26693746/)
+[2] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

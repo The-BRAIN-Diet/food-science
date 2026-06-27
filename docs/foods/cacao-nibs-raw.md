@@ -77,6 +77,8 @@ Cacao Nibs (Raw) is not used as a primary protein food in this framework; typica
 
 ## References
 
-- [1] Payne & Hurst 2011 – Impact of fermentation, drying, roasting and Dutch processing on flavan-3-ol stereochemistry in cacao beans and cocoa ingredients [Payne & Hurst 2011 – Impact of fermentation, drying, roasting and Dutch processing on flavan-3-ol stereochemistry in cacao beans and cocoa ingredients](/docs/papers/BRAIN-Diet-References#paynter_flavan3ol_cocoa_processing_2011)
-- [2] Schroeter & Heiss 2006 – (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans [Schroeter & Heiss 2006 – (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
-- [3] Hands & Anderson 2024 – A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA [Hands & Anderson 2024 – A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
+[1] Minimally processed cacao retains more native flavan-3-ols than alkalised cocoa. Payne & Hurst 2011. [Impact of fermentation, drying, roasting and Dutch processing on flavan-3-ol stereochemistry in cacao beans and cocoa ingredients](/docs/papers/BRAIN-Diet-References#paynter_flavan3ol_cocoa_processing_2011)
+
+[2] cocoa flavanols have vascular mechanistic interest. Schroeter & Heiss 2006. [(-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
+
+[3] Heavy-metal (Cd/Pb) sourcing matters for frequent cacao intake. Hands & Anderson 2024. [A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)

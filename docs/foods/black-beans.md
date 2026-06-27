@@ -104,6 +104,8 @@ Black Beans are rich in lysine but relatively low in sulfur-containing amino aci
 
 ## References
 
-- [1] Greiner & Konietzny 1999 – Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa) [Greiner & Konietzny 1999 – Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
-- [2] Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review [Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
-- [3] Hallberg & Brune 1989 – Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [Hallberg & Brune 1989 – Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+[1] Soaking and sprouting reduce phytates and can improve zinc and iron bioavailability. Greiner & Konietzny 1999. [Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
+
+[2] Black beans are polyphenol-rich legumes that support gut health within diverse plant-forward dietary patterns. Mariotti & Gardner 2019. [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+
+[3] Pair with vitamin C-rich foods to enhance non-heme iron absorption. Hallberg & Brune 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)

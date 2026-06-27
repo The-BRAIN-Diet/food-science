@@ -64,5 +64,6 @@ Within the BRAIN Diet framework, avocado oil is a practical fat vehicle for caro
 
 ## References
 
-- [1] Schwingshackl & Hoffmann 2014 – Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies [Schwingshackl & Hoffmann 2014 – Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies](/docs/papers/BRAIN-Diet-References#schwingshackl_monounsaturated_2014)
-- [2] Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons [Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
+[1] Use as a cooking/dressing fat in moderation within overall fat-quality patterns. Schwingshackl & Hoffmann 2014. [Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies](/docs/papers/BRAIN-Diet-References#schwingshackl_monounsaturated_2014)
+
+[2] Improves carotenoid and fat-soluble nutrient absorption when paired with vegetables. Kindel & Lee 2010. [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)

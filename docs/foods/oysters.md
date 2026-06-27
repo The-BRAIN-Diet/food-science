@@ -93,7 +93,6 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+[1] Among commonly eaten foods, oysters are notable for their zinc density, supporting enzymes involved in neurotransmitter synthesis, antioxidant defence, and immune function. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 
-1. [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-2. [Yang et al. 2024 – Understanding the variable metal concentrations in estuarine oysters Crassostrea hongkongensis: A biokinetic analysis](/docs/papers/BRAIN-Diet-References#yang_metal_oysters_2024)
+[2] Zinc concentrations vary materially by species and environment, but oysters remain among the most zinc-dense commonly eaten foods even with that variability. Yang & Li 2024. [Understanding the variable metal concentrations in estuarine oysters Crassostrea hongkongensis: A biokinetic analysis](/docs/papers/BRAIN-Diet-References#yang_metal_oysters_2024)

@@ -325,6 +325,45 @@
   color: var(--ifm-color-emphasis-800);
 }
 
+.brs-hub-lifestyle-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.brs-hub-lifestyle-priority {
+  margin: 0.85rem 0;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.brs-hub-lifestyle-priority:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.brs-hub-lifestyle-text {
+  margin: 0 0 0.35rem;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--ifm-color-emphasis-900);
+}
+
+.brs-hub-lifestyle-supports {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.brs-hub-lifestyle-supports-label {
+  font-weight: 600;
+  margin-right: 0.35rem;
+}
+
+.brs-hub-lifestyle-supports .brs-hub-lever-pms {
+  display: inline;
+  margin-left: 0;
+}
+
 .brs-hub-lever-list {
   margin: 0.25rem 0 0.5rem;
   padding-left: 1.2rem;

@@ -82,4 +82,4 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-- [1] Greiner & Konietzny 1999 – Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa) [Greiner & Konietzny 1999 – Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
+[1] Soaking/sprouting reduces phytates and can improve mineral bioavailability. Greiner & Konietzny 1999. [Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)

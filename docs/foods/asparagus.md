@@ -79,6 +79,8 @@ Within the BRAIN Diet framework, asparagus contributes folate and prebiotic-type
 
 ## References
 
-- [1] Kennedy et al. 2016 – B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review [Kennedy et al. 2016 – B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
-- [2] Schmidt & Cowen 2015 – Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers [Schmidt & Cowen 2015 – Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)
-- [3] Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters [Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+[1] **Folate** (~52 µg per 100 g raw) supports one-carbon and B-vitamin intake relevant to methylation biology. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+
+[2] Attention-deficit/hyperactivity disorder (ADHD) is a neurodevelopmental disorder that has become increasingly prevalent worldwide. Schmidt & Cowen 2015. [Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)
+
+[3] Include with other allium-family and prebiotic-rich vegetables (onions, leeks, garlic) as part of a diverse fermentable-fibre strategy. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

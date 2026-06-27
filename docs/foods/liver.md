@@ -90,7 +90,6 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+[1] These nutrients support one‑carbon metabolism, red blood cell formation, and neurotransmitter-related pathways, making liver a potent “micronutrient booster” when used occasionally rather than daily. Latoch & Stasiak 2024. [Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024)
 
-1. [Latoch et al. 2024 – Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024)
-2. [Crane 2001 – Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
+[2] Review of the multiple biochemical roles of coenzyme Q10, including functions in mitochondrial electron transport, proton translocation for ATP synthesis, and antioxidant protection in cellular membranes. Crane et al. 2001. [Biochemical functions of coenzyme Q10 in mitochondria](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)

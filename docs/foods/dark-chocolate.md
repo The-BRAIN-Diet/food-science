@@ -108,8 +108,12 @@ Dark chocolate is not used as a primary protein food, so essential amino-acid co
 
 ## References
 
-- [1] High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor [Neshatdoust et al. 2016](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
-- [2] (-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans [Schroeter et al. 2006](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
-- [3] Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA [Hands et al. 2024](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
-- [4] Occurrence of heavy metals in chocolates and health risk assessment (origin and geogenic context) [Godebo et al. 2024](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024)
-- [5] Dietary strategies for cadmium and lead toxicity, including roles of essential minerals (e.g. calcium and zinc) [Zhai et al. 2015](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)
+[1] Concentrated cocoa flavanols, with evidence linking high flavonoid intake to cognitive improvements. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+
+[2] Mechanistic endpoints in vascular biology implicate endothelial nitric-oxide related pathways as part of flavonoid-associated vascular regulation. Schroeter & Heiss 2006. [(-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
+
+[3] Heavy-metal variability across products means sourcing and cocoa % selection matter for regular intake. Hands & Anderson 2024. [Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
+
+[4] Cacao from many Latin American origins (e.g. Peru/Ecuador, parts of Central/South America) tends to show higher cadmium concentrations than West African origins (e.g. Ghana/Ivory Coast), and this pattern is mainly geogenic (soil geology background) rather than a simple marker of farm quality. Godebo & Stoner 2024. [Occurrence of heavy metals in chocolates and health risk assessment (origin and geogenic context)](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024)
+
+[5] Pair with calcium- and zinc-containing foods as part of a broader dietary strategy that may help reduce cadmium uptake/burden over time. Zhai & Narbad 2015. [Dietary strategies for cadmium and lead toxicity, including roles of essential minerals (e.g. calcium and zinc)](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)

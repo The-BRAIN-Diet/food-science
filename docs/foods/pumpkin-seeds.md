@@ -87,6 +87,6 @@ Pumpkin seeds are notable for tryptophan and leucine but relatively low in lysin
 
 ## References
 
-[1] Phytate reduction and mineral bioavailability in soaking/sprouting contexts [Greiner & Konietzny 1999](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
+[1] Characterization of a phytase enzyme from germinated oats with implications for reducing phytic acid in cereals and improving mineral bioavailability. Greiner & Konietzny 1999. [Phytate reduction and mineral bioavailability in soaking/sprouting contexts](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
 
-[2] Plant-protein adequacy, limiting amino acids, and practical complementarity [Mariotti & Gardner 2019](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+[2] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

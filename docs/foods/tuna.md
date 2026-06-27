@@ -80,8 +80,8 @@ This food provides a **complete essential amino acid profile** typical of animal
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+[1] These intrinsic nutrients support neuronal membrane composition, mitochondrial energy metabolism, and antioxidant enzyme systems. McNamara & Carlson 2006. [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
 
-1. [McNamara & Carlson 2006 – Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
-2. [Pirinen et al. 2020 – Niacin and NAD⁺ metabolism in health and disease](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
-3. [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+[2] Niacin-rich foods such as tuna contribute to NAD⁺-dependent metabolic pathways. Pirinen & Auranen 2020. [Niacin and NAD⁺ metabolism in health and disease](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
+
+[3] Because larger tuna species can accumulate higher levels of mercury, emphasis is placed on choosing lower-trophic species and moderating frequency within an overall pattern that includes smaller oily fish like sardines and herring. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

@@ -77,11 +77,4 @@ Soy provide a relatively complete plant protein (higher in lysine than most grai
 
 ## References
 
-- Soy protein isolate: DIAAS 92-96, Methionine-limited; supports neurotransmitter synthesis; contains isoflavones with neuroprotective potential
-- Genistein, a soy-derived isoflavonoid, has shown potential as a modulator of several biochemical pathways, including the endocannabinoid system and neuroinflammation
-- Polyphenols such as genistein may further enhance ECS tone by inhibiting fatty acid amide hydrolase (FAAH), the enzyme responsible for anandamide degradation [Gibellini and Smith 2010](/docs/papers/BRAIN-Diet-References#gibellini_kennedy_2010)
-- Quercetin is abundant in capers, apples, onions, berries, kale and soybeans
-- Acetylcholine and choline: Memory, learning, neuroplasticity; food sources include egg yolks, fish roe, soy, wheat germ, liver
-- B6 (chickpeas, potatoes, bananas, whole grains, soy) is a cofactor in the development of all key neurotransmitters
-- Serotonin: Mood regulation, emotional control, impulse moderation; food sources include turkey, eggs, dairy, soy, seeds, oats, bananas
-- Dopamine: Attention, motivation, executive function; food sources include lean poultry, beef, fish, dairy, soy, pumpkin seeds; omega-3 rich fish
+[1] Polyphenols such as genistein may further enhance ECS tone by inhibiting fatty acid amide hydrolase (FAAH), the enzyme responsible for anandamide degradation. Gibellini & Smith 2010. [The Kennedy pathway — De novo synthesis of phosphatidylethanolamine and phosphatidylcholine](/docs/papers/BRAIN-Diet-References#gibellini_kennedy_2010)

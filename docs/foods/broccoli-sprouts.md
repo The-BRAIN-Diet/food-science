@@ -101,4 +101,4 @@ Within the BRAIN Diet framework, sprouts are a sulforaphane-focused ingredient w
 
 ## References
 
-- [1] Houghton & Fassett 2016 – Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality? [Houghton & Fassett 2016 – Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
+[1] Among the densest practical glucoraphanin sources for sulforaphane delivery. Houghton & Fassett 2016. [Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)

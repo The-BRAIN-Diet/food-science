@@ -79,8 +79,8 @@ Within the BRAIN Diet framework, herring is treated as one of the **rotational o
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+[1] These intrinsic nutrients contribute to neuronal membrane phospholipid composition, mitochondrial oxidative metabolism, and anti-inflammatory lipid mediator production. McNamara & Carlson 2006. [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
 
-1. [McNamara & Carlson 2006 – Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
-2. [Stonehouse et al. 2013 – DHA supplementation and cognitive performance in healthy adults](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013)
-3. [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+[2] \textlessp\textgreaterThe development of sarcopenia in the elderly is associated with many potential factors and/or processes that impair the renovation and maintenance of skeletal muscle mass and strength as ageing progresses. Stonehouse & Conlon 2013. [DHA supplementation and cognitive performance in healthy adults](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013)
+
+[3] As a relatively small pelagic species, herring tends to accumulate less mercury than large predatory fish, which supports its use as a frequent marine omega-3 source within a varied dietary pattern. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

@@ -67,7 +67,10 @@ Within the BRAIN Diet framework, carrots are a carotenoid vegetable best used wi
 
 ## References
 
-- [1] Fielding & Rowley 2005 – Increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil [Fielding & Rowley 2005 – Increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
-- [2] Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons [Kindel & Lee 2010 – The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
-- [3] Brown & Ferruzzi 2004 – Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection [Brown & Ferruzzi 2004 – Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
-- [4] Johnson et al. 2014 – Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan [Johnson et al. 2014 – Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+[1] Lycopene is the main carotenoid in tomatoes and it has been hypothesised to be responsible for reducing the risk of some cancers and heart disease. Fielding & Rowley 2005. [Increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
+
+[2] Pair with olive oil, avocado, or other fats in salads and cooked dishes. Kindel & Lee 2010. [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
+
+[3] Carotenoids implicated in neuroprotective antioxidant networks. Brown & Ferruzzi 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+
+[4] A previous systematic review revealed that lutein intake leads to improved cognitive function among older adults. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)

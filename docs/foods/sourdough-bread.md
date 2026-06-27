@@ -78,7 +78,4 @@ Sourdough Bread contribute plant protein. Pair with complementary protein source
 
 ## References
 
-- Quinoa sourdough offers both very high nutrients (due to the quinoa) and a high GABA profile
-- Sourdough fermentation enhances bioavailability of amino acids through activation of endogenous cereal proteases [Gänzle, Loponen, and Gobbetti 2008](/docs/papers/BRAIN-Diet-References#ganzle_proteolysis_2008)
-- Traditionally fermented breads that optimize Maillard Reaction Products (MRPs)
-- Nicotinamide Riboside: Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread)
+[1] Sourdough fermentation enhances bioavailability of amino acids through activation of endogenous cereal proteases. Gänzle & Loponen 2008. [Proteolysis in sourdough fermentations: mechanisms and potential for improved bread quality](/docs/papers/BRAIN-Diet-References#ganzle_proteolysis_2008)

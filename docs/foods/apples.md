@@ -71,9 +71,14 @@ Within the BRAIN Diet framework, apples are best used as **whole fruit** rather 
 
 ## References
 
-- [1] Haber & Heaton 1977 – DEPLETION AND DISRUPTION OF DIETARY FIBRE [Haber & Heaton 1977 – DEPLETION AND DISRUPTION OF DIETARY FIBRE](/docs/papers/BRAIN-Diet-References#haber_depletion_1977)
-- [2] Gruber & Hanssen 2023 – Impact of insulin and insulin resistance on brain dopamine signalling and reward processing – An underexplored mechanism in the pathophysiology of depression? [Gruber & Hanssen 2023 – Impact of insulin and insulin resistance on brain dopamine signalling and reward processing – An underexplored mechanism in the pathophysiology of depression?](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
-- [3] Neveu & Perez-Jimenez 2010 – Phenol-Explorer: an online comprehensive database on polyphenol contents in foods [Neveu & Perez-Jimenez 2010 – Phenol-Explorer: an online comprehensive database on polyphenol contents in foods](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
-- [4] Boots & Haenen 2008 – Health effects of quercetin: From antioxidant to nutraceutical [Boots & Haenen 2008 – Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
-- [5] Holland & Ryden 2020 – Plant Cell Walls: Impact on Nutrient Bioaccessibility and Digestibility [Holland & Ryden 2020 – Plant Cell Walls: Impact on Nutrient Bioaccessibility and Digestibility](/docs/papers/BRAIN-Diet-References#holland_plant_2020)
-- [6] Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters [Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+[1] Prefer whole fresh apples to preserve food-matrix benefits and blunt glycemic response. Haber & Heaton 1977. [DEPLETION AND DISRUPTION OF DIETARY FIBRE](/docs/papers/BRAIN-Diet-References#haber_depletion_1977)
+
+[2] Phytates are a type of organophosphorus compound produced in terrestrial ecosystems by plants. Gruber & Hanssen 2023. [Impact of insulin and insulin resistance on brain dopamine signalling and reward processing – An underexplored mechanism in the pathophysiology of depression?](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
+
+[3] Leave skin on when tolerated; much of the flavonol content concentrates in peel tissue. Neveu & Perez-Jimenez 2010. [Phenol-Explorer: an online comprehensive database on polyphenol contents in foods](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
+
+[4] Pair with dietary fat within mixed meals when polyphenol absorption is a priority; fat can enhance uptake of some flavonoid classes. Boots & Haenen 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+
+[5] **Pectin** soluble fibre (~3.2 g per 100 g) is embedded in a cell-wall matrix that slows nutrient release. Holland & Ryden 2020. [Plant Cell Walls: Impact on Nutrient Bioaccessibility and Digestibility](/docs/papers/BRAIN-Diet-References#holland_plant_2020)
+
+[6] Include as one component of diverse fruit and prebiotic-fibre intake rather than relying on apples alone. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

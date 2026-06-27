@@ -161,12 +161,13 @@ Section order reflects BRAIN framework: context before data.
 ## References and connection to BibTeX
 
 - Each reference link targets the global bibliography with a fragment: `/docs/papers/BRAIN-Diet-References#citationKey` (e.g. `#yang_metal_oysters_2024`). The **citation key** must match the key of an entry in `static/bibtex/BRAIN-diet.bib`.
-- **Required bullet rule (MUST):** Every bullet in a food page `## References` section must include at least one markdown link to `/docs/papers/BRAIN-Diet-References#...`.
-- **Fail condition:** A reference bullet without a bibliography link is invalid and must be rewritten or removed. Plain-text citation bullets are not allowed.
-- If a claim has no bibliography anchor yet, add the BibTeX entry first, ensure it renders on `/docs/papers/BRAIN-Diet-References`, then link that anchor from the food page bullet.
+- **Canonical format (MUST):** No bullet prefix. Each entry starts with **`[n]`** (same number as inline citations), then **(1) one-sentence explanation**, **(2) author and year**, **(3) linked paper title**:
+  `[n] {Explanation}. {Author Year}. [{Paper title}](/docs/papers/BRAIN-Diet-References#citationKey)`. See `docs/foods/salmon-roe.md`.
+- **Fail condition:** A reference line without a bibliography link is invalid. Bullet prefixes, duplicated beef-style text, or stub author-only links are invalid.
+- If a claim has no bibliography anchor yet, add the BibTeX entry first, ensure it renders on `/docs/papers/BRAIN-Diet-References`, then link that anchor from the reference line.
 - **Link only works if the entry appears on the page.** The BRAIN-Diet-References page is built from the same .bib file but **deduplicates** entries by DOI, URL, or title+year+author. If two entries share the same DOI or URL, only one is shown (the one with richer metadata). The visible entry’s anchor is its own citation key. So:
   - Having the key in the .bib file is **necessary** but **not sufficient**: the entry must be the one that survives deduplication, or no other entry may have the same DOI/URL.
   - When adding a **new** BibTeX entry and a food-page link to it: avoid reusing the same DOI or URL as an existing entry; otherwise the new entry may be omitted and the fragment link will not scroll to it.
 - **After adding a new reference:** Verify that the reference appears on the [BRAIN-Diet-References](/docs/papers/BRAIN-Diet-References) page and that the link from the food page (e.g. `.../BRAIN-Diet-References#kacser_control_1973`) scrolls to that entry. If the entry is missing on the page, fix deduplication (remove duplicate DOI/URL elsewhere or ensure your entry has the metadata that wins) or use the citation key that actually appears.
 
-See `system/food-page-schema.md`, `system/food-page-model.md`, and `system/food-nutrition-schema.md` for full schema. Use `docs/foods/dark-chocolate.md` as the canonical worked example; `salmon.md` and `lentils.md` for front matter shapes.
+See `system/food-page-schema.md`, `system/food-page-model.md`, and `system/food-nutrition-schema.md` for full schema. Use `docs/foods/dark-chocolate.md` for overall page structure; `docs/foods/salmon-roe.md` for the canonical References format; `salmon.md` and `lentils.md` for front matter shapes.

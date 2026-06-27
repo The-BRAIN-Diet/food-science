@@ -100,6 +100,6 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-[1] [Patrick 2019 — Role of phosphatidylcholine-DHA and LPC-DHA in brain transport](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
+[1] Phospholipid-associated DHA can enter lysophosphatidylcholine (LPC) transport pathways relevant to brain delivery, in contrast to triacylglycerol-only omega-3 forms. Patrick 2019. [Role of phosphatidylcholine-DHA and LPC-DHA in brain transport](/docs/papers/BRAIN-Diet-References#patrick_role_2019)
 
-[2] [Liu et al. 2014 — Higher efficacy of phospholipid omega-3 for brain DHA accretion (porcine model)](/docs/papers/BRAIN-Diet-References#liu_higher_2014)
+[2] DHA supplied as phospholipid supports brain DHA accretion more effectively than DHA as triglyceride in neonatal models — supporting the biological relevance of roe's phospholipid-rich matrix. Liu et al. 2014. [Higher efficacy of phospholipid omega-3 for brain DHA accretion (porcine model)](/docs/papers/BRAIN-Diet-References#liu_higher_2014)

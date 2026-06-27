@@ -81,9 +81,8 @@ Spinach is also one of the richest dietary sources of oxalate. While most indivi
 
 ## References
 
-- The BRAIN diet specifically targets leafy green vegetables i.e. kale and spinach that are rich in iron, magnesium, and zinc
-- Boiling spinach, kale, and other greens can reduce oxalate load, improving mineral bioavailability [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
-- Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability [Chaiyarit and Thongboonkerd 2020](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020)
-- Vitamin C significantly improves non-heme iron absorption by reducing ferric to ferrous iron, with studies showing up to a fourfold increase when consumed together [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
-- Spinach mentioned as source of iron, magnesium, zinc for neurotransmitter synthesis
-- Listed as plant source of CoQ10 (lower amounts than animal sources)
+[1] Boiling spinach, kale, and other greens can reduce oxalate load, improving mineral bioavailability. Chai & Liebman 2005. [Effect of Different Cooking Methods on Vegetable Oxalate Content](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
+
+[2] Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability. Chaiyarit & Thongboonkerd 2020. [Mitochondrial Dysfunction and Kidney Stone Disease](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020)
+
+[3] Vitamin C significantly improves non-heme iron absorption by reducing ferric to ferrous iron, with studies showing up to a fourfold increase when consumed together. Hallberg & Brune 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)

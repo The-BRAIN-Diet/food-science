@@ -43,7 +43,7 @@ nutrition_source:
   last_checked: '2026-03-14'
 main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
 main_image_source:
-  url: https://www.hollandandbarrett.com/
+  url: 'https://www.hollandandbarrett.com/'
   label: Holland & Barrett
 legacy_list_image: /img/foods/wheat-germ/wheat-germ_thumb.webp
 legacy_main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
@@ -88,6 +88,6 @@ In practical use, nutrient impact depends strongly on form (raw/toasted wheat ge
 
 ## References
 
-[1] Choline as a practical nutrient target in dietary patterns [Derbyshire 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+[1] \textlessp\textgreaterNeurodevelopmental disorders appear to be rising in prevalence, according to the recent Global Burden of Disease Study. Derbyshire & Maes 2023. [Choline as a practical nutrient target in dietary patterns](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
 
-[2] Vitamin E antioxidant network context [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+[2] Despite over 70 years of research since the discovery of vitamin E (Evans and Bishop 1922), its exact functions have not been fully elucidated; however, its antioxidant properties appear paramount to its function. Packer & Podda 1997. [Vitamin E antioxidant network context](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)

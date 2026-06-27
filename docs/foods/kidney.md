@@ -74,6 +74,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
-
-1. [Latoch et al. 2024 – Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024)
+[1] Sourcing from reputable producers and using thorough cooking/handling practices are important for both quality and palatability. Latoch & Stasiak 2024. [Edible offal as a valuable source of nutrients (review)](/docs/papers/BRAIN-Diet-References#latoch_edible_2024)

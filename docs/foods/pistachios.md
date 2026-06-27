@@ -71,6 +71,6 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-- Coenzyme Q10 (CoQ10): Organ meats (heart, liver), oily fish (sardines, mackerel), beef, Spinach, broccoli, pistachios, olive oil (lower amounts); supports mitochondrial electron transport and antioxidant protection for neurons
-- CoQ10 deficiency leads to reduced ATP production and mitochondrial dysfunction, which may contribute to neurocognitive issues [Mantle and Hargreaves 2024](/docs/papers/BRAIN-Diet-References#mantle_efficacy_2024)
-- CoQ10 is part of the antioxidant network, working synergistically with vitamin E, vitamin C, lipoic acid, and glutathione [Packer et al. 1997](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+[1] CoQ10 deficiency leads to reduced ATP production and mitochondrial dysfunction, which may contribute to neurocognitive issues. Mantle & Hargreaves 2024. [Efficacy and Safety of Coenzyme Q10 Supplementation in Neonates, Infants and Children: An Overview](/docs/papers/BRAIN-Diet-References#mantle_efficacy_2024)
+
+[2] CoQ10 is part of the antioxidant network, working synergistically with vitamin E, vitamin C, lipoic acid, and glutathione. Packer & Podda 1997. [Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)

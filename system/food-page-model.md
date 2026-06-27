@@ -456,10 +456,11 @@ Food pages list references as markdown links to the global bibliography: `/docs/
 2. **The entry must appear on the rendered page.** The BRAIN-Diet-References page deduplicates entries by DOI, URL, or title+year+author. If another entry has the same DOI or URL, only one is shown (the one with higher “metadata score”); the visible entry’s anchor is its citation key. So a key in the .bib is necessary but not sufficient—the entry you link to must be the one that survives deduplication.
 3. **When adding a new BibTeX entry** that a food page will link to: ensure no other entry in the .bib shares the same DOI or URL, or your entry may be omitted from the page and the fragment link will not resolve. After adding, verify the reference appears on the references page and that the food-page link scrolls to it.
 
-**Reference bullet rule (required):**
-- Every bullet in a food-page `## References` section must include at least one markdown link to `/docs/papers/BRAIN-Diet-References#...`.
-- Plain-text citation bullets without a bibliography link are not allowed.
-- If a claim has no bibliography anchor yet, add the BibTeX entry first, then link to that anchor in the bullet.
+**Reference line rule (required):**
+- Each entry in a food-page `## References` section starts with **`[n]`** (no bullet), then in order: **(1) explanation**, **(2) author and year**, **(3) linked paper title** — see `docs/foods/salmon-roe.md`.
+- Format: `[n] {Explanation sentence}. {Author Year}. [{Paper title}](/docs/papers/BRAIN-Diet-References#citationKey)`
+- Plain-text citation lines without a bibliography link are not allowed.
+- If a claim has no bibliography anchor yet, add the BibTeX entry first, then link to that anchor from the reference line.
 
 ---
 

@@ -81,5 +81,6 @@ Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense s
 
 ## References
 
-- [1] Wójcik et al. 2009 – Health effects of taurine and its dietary sources [Wójcik et al. 2009 – Health effects of taurine and its dietary sources](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)
-- [2] Pawlak et al. 2013 – Vitamin B12 in human nutrition: sources and status [Pawlak et al. 2013 – Vitamin B12 in human nutrition: sources and status](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)
+[1] Among shellfish, clams and mussels are often highlighted for their taurine content, which contributes to bile acid conjugation, membrane stabilisation, and antioxidant defence in experimental and clinical contexts. Wójcik & Koenig 2010. [The potential protective effects of taurine on coronary heart disease](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)
+
+[2] Their B12 and iron content support methylation pathways, homocysteine recycling, and oxygen transport, all of which are relevant to neurological and cardiovascular health. Pawlak & Parrott 2013. [How prevalent is vitamin B $_\textrm{12}$ deficiency among vegetarians?](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)

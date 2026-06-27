@@ -76,5 +76,6 @@ Within the BRAIN Diet framework, chicory root (and inulin ingredients) support f
 
 ## References
 
-- [1] Pouille & Ouaza 2022 – Chicory: Understanding the Effects and Effectors of This Functional Food [Pouille & Ouaza 2022 – Chicory: Understanding the Effects and Effectors of This Functional Food](/docs/papers/BRAIN-Diet-References#pouille_chicory_2022)
-- [2] Schmidt & Cowen 2015 – Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers [Schmidt & Cowen 2015 – Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)
+[1] High inulin content — fermentable prebiotic fibre. Pouille & Ouaza 2022. [Chicory: Understanding the Effects and Effectors of This Functional Food](/docs/papers/BRAIN-Diet-References#pouille_chicory_2022)
+
+[2] Prebiotic intake studied for cortisol and emotional-bias endpoints. Schmidt & Cowen 2015. [Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)

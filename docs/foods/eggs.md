@@ -97,11 +97,14 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+[1] Background:Calcium from different dairy sources might affect blood lipids and fecal fat excretion differently because of differences in the food matrix and nutritional composition. Soerensen & Thorning 2014. [Effect of cheese and dairy fat on LDL](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)
 
-1. [Soerensen et al. 2014 – Effect of cheese and dairy fat on LDL](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)
-2. [Garani, Watts, and Mizrahi 2021 – Endocannabinoid-related phospholipids (NAPEs)](/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021)
-3. [Derbyshire and Maes 2023 – Role of choline in brain health](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
-4. [Evenepoel et al. 1998 – Digestibility of cooked and raw egg protein](/docs/papers/BRAIN-Diet-References#evenepoel_digestibility_1998)
-5. [Fuchs et al. 2022 – Raw vs boiled eggs after resistance exercise (Rocky study)](/docs/papers/BRAIN-Diet-References#fuchs_raw_eggs_2022)
-6. [Nimalaratne et al. 2012 – Domestic cooking methods and egg yolk xanthophylls](/docs/papers/BRAIN-Diet-References#nimalaratne_cooking_2012)
+[2] Eggs provide phosphatidylethanolamine (PE), which can convert to phosphatidylcholine (PC) or N-acyl phosphatidylethanolamines (NAPEs) for endocannabinoid system support. Garani & Watts 2021. [Endocannabinoid-related phospholipids (NAPEs)](/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021)
+
+[3] \textlessp\textgreaterNeurodevelopmental disorders appear to be rising in prevalence, according to the recent Global Burden of Disease Study. Derbyshire & Maes 2023. [Role of choline in brain health](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+
+[4] **Cook eggs for protein utilization.** Stable-isotope work reports roughly ~51% true ileal protein digestion and amino acid absorption for raw egg protein versus ~91% for cooked egg protein — heat strongly influences digestibility and postprandial amino acid availability. Evenepoel & Geypens 1998. [Digestibility of cooked and raw egg protein](/docs/papers/BRAIN-Diet-References#evenepoel_digestibility_1998)
+
+[5] A post-exercise trial (~30 g protein from five eggs) found boiled eggs raised peak essential amino acid concentrations more than raw eggs, but myofibrillar protein synthesis rates did not differ between raw and boiled groups. Fuchs & Hermans 2022. [Raw vs boiled eggs after resistance exercise (Rocky study)](/docs/papers/BRAIN-Diet-References#fuchs_raw_eggs_2022)
+
+[6] **Yolk xanthophylls and cooking.** Egg yolk is a rich source of bioavailable lutein and zeaxanthin. Domestic boiling, frying, and microwaving alter yolk xanthophyll profiles: total losses range from **6% to 18%**, with higher **Z-isomer** content in cooked yolks and the largest reductions in all-E-lutein (about 22.5% after boiling). Cooking still leaves most yolk xanthophylls present; very high-heat or prolonged frying should be weighed against AGE formation and fat oxidation. Nimalaratne & Lopes-Lutz 2012. [Domestic cooking methods and egg yolk xanthophylls](/docs/papers/BRAIN-Diet-References#nimalaratne_cooking_2012)

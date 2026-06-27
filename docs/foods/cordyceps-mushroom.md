@@ -74,4 +74,4 @@ Within the BRAIN Diet framework, cordyceps is a medicinal-mushroom adjunct; evid
 
 ## References
 
-- [1] Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters [Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+[1] Cordycepin and polysaccharide bioactives in functional mushroom matrices. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

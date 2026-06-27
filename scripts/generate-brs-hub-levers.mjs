@@ -29,7 +29,7 @@ for (const [brsId, hubPath] of Object.entries(HUB_PAGES)) {
   patchHubPage(hubPath, html, ROOT);
   patched++;
   console.log(
-    `${brsId}: ${rollup.stats.pm_count} PMs → ${rollup.stats.unique_foods} foods, ${rollup.stats.unique_lifestyle} lifestyle levers`,
+    `${brsId}: ${rollup.stats.pm_count} PMs → ${rollup.stats.unique_foods} foods, ${rollup.stats.unique_lifestyle} lifestyle priorities`,
   );
 }
 

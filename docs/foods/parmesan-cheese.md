@@ -68,9 +68,4 @@ Parmesan Cheese contribute plant protein. Pair with complementary protein source
 
 ## References
 
-- Parmesan Cheese: CLA, vitamin K2, glutamate, high protein, calcium; fermented, C15:0
-- C15:0 (Parmesan and grassfed Butter)
-- Studies have shown that hard cheeses with high calcium do not raise serum LDL levels [Soerensen et al. 2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)
-- Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks
-- When consumed in moderation within an anti-inflammatory, micronutrient-rich diet, foods like Parmesan cheese and grass-fed butter provide essential brain nutrients including choline, vitamin K2, butyrate, and fat-soluble vitamins A, D, and E
-- Dopamine: Attention, motivation, executive function; food sources include lean poultry, beef, fish, dairy, soy, pumpkin seeds (Parmesan provides tyrosine)
+[1] Studies have shown that hard cheeses with high calcium do not raise serum LDL levels. Soerensen & Thorning 2014. [Effect of dairy calcium from cheese and milk on fecal fat excretion, blood lipids, and appetite in young men$^\textrm{1}$$^\textrm{2}$$^\textrm{3}$](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)

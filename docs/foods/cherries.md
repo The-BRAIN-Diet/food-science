@@ -76,5 +76,6 @@ Within the BRAIN Diet framework, cherries are a polyphenol fruit used fresh, fro
 
 ## References
 
-- [1] Hein & Whyte 2019 – Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age [Hein & Whyte 2019 – Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
-- [2] Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials [Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+[1] Anthocyanin-rich stone fruit; tart varieties noted for melatonin interest. Hein & Whyte 2019. [Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
+
+[2] Berry polyphenol cognitive evidence from systematic reviews. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)

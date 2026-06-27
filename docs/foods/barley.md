@@ -97,7 +97,10 @@ Grains such as barley are relatively higher in methionine but lysine-limited. Co
 
 ## References
 
-- [1] Massimino et al. 1998 – Fermentable Dietary Fiber Increases GLP-1 Secretion and Improves Glucose Homeostasis Despite Increased Intestinal Glucose Transport Capacity in Healthy Dogs [Massimino et al. 1998 – Fermentable Dietary Fiber Increases GLP-1 Secretion and Improves Glucose Homeostasis Despite Increased Intestinal Glucose Transport Capacity in Healthy Dogs](/docs/papers/BRAIN-Diet-References#massimino_fermentable_1998)
-- [2] FAO 2013 – Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation [FAO 2013 – Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-- [3] Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review [Mariotti & Gardner 2019 – Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
-- [4] Gibson et al. 2006 – Improving the bioavailability of nutrients in plant foods at the household level [Gibson et al. 2006 – Improving the bioavailability of nutrients in plant foods at the household level](/docs/papers/BRAIN-Diet-References#gibson_improving_bioavailability_2006)
+[1] Rich source of beta-glucan, the viscous cereal fibre most strongly associated with barley's metabolic effects. Massimino & McBurney 1998. [Fermentable Dietary Fiber Increases GLP-1 Secretion and Improves Glucose Homeostasis Despite Increased Intestinal Glucose Transport Capacity in Healthy Dogs](/docs/papers/BRAIN-Diet-References#massimino_fermentable_1998)
+
+[2] Report recommending the Digestible Indispensable Amino Acid Score (DIAAS) as the preferred method for evaluating dietary protein quality, replacing PDCAAS, and detailing methodology and implications for human nutrition. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+[3] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+
+[4] Soak before cooking to reduce phytates and improve mineral bioavailability. Gibson & Perlas 2006. [Improving the bioavailability of nutrients in plant foods at the household level](/docs/papers/BRAIN-Diet-References#gibson_improving_bioavailability_2006)

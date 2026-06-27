@@ -71,5 +71,6 @@ Within the BRAIN Diet framework, algal oil is treated as a **targeted DHA delive
 
 ## References
 
-- [1] NIH 2025 – Omega-3 Fatty Acids: Fact Sheet for Health Professionals [NIH 2025 – Omega-3 Fatty Acids: Fact Sheet for Health Professionals](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
-- [2] Arterburn & Oken 2008 – Algal-oil capsules and cooked salmon: nutritionally equivalent sources of docosahexaenoic acid [Arterburn & Oken 2008 – Algal-oil capsules and cooked salmon: nutritionally equivalent sources of docosahexaenoic acid](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008)
+[1] **EPA** is often present at lower levels than DHA depending on product formulation. NIH 2025. [Omega-3 Fatty Acids: Fact Sheet for Health Professionals](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
+
+[2] DHA from algal-oil capsules shows similar bioavailability to DHA from cooked salmon in controlled comparisons. Arterburn & Oken 2008. [Algal-oil capsules and cooked salmon: nutritionally equivalent sources of docosahexaenoic acid](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008)

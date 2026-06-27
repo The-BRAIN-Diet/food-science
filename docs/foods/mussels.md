@@ -91,7 +91,4 @@ This food provides a **complete essential amino acid profile** typical of animal
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
-
-1. [FAO 2013 – Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-2. *(Add shellfish-specific safety or nutrient profile reference once present in BRAIN-diet bibliography.)*
+[1] They are especially useful in dietary patterns where red meat intake is moderated but adequate intake of these micronutrients is still required. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

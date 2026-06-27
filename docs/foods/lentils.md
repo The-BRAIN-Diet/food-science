@@ -86,7 +86,6 @@ Lentils are rich in lysine but relatively low in sulfur-containing amino acids. 
 
 ## References
 
-These references link to the BRAIN Diet bibliography page, where the full citation and DOI/external source link are provided.
+[1] They are particularly useful in patterns that limit or exclude animal products, helping to cover non‑heme iron and zinc requirements when prepared and combined appropriately. Greiner & Konietzny 1999. [Phytate reduction in cereals and legumes and effects on mineral bioavailability](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
 
-1. [Greiner & Konietzny 1999 – Phytate reduction in cereals and legumes and effects on mineral bioavailability](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
-2. [Hallberg et al. 1989 – Vitamin C and non‑heme iron absorption in human studies](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+[2] Their fibre and prebiotic galacto‑oligosaccharides (GOS) also support gut microbial diversity and short‑chain fatty acid production, which indirectly influences metabolic and brain health. Hallberg & Brune 1989. [Vitamin C and non‑heme iron absorption in human studies](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)

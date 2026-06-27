@@ -69,5 +69,6 @@ Within the BRAIN Diet framework, cabbage is useful fresh or fermented: fresh for
 
 ## References
 
-- [1] Houghton & Fassett 2016 – Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality? [Houghton & Fassett 2016 – Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
-- [2] Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters [Yeo et al. 2023 – Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+[1] Crucifer glucosinolate/isothiocyanate pathways linked to Nrf2 biology. Houghton & Fassett 2016. [Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
+
+[2] Fermented forms (sauerkraut) support fermented-vegetable diversity for gut microbiota modulation. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

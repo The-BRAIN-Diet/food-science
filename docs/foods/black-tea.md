@@ -77,5 +77,6 @@ Within the BRAIN Diet framework, black tea is a flavonoid beverage best used wit
 
 ## References
 
-- [1] Zelicha & Kloting 2022 – The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial [Zelicha & Kloting 2022 – The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
-- [2] Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials [Neshatdoust & Saunders 2016 – High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+[1] Theaflavin/catechin-class polyphenols; oxidation level differs from green tea. Zelicha & Kloting 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+
+[2] High-polyphenol Mediterranean-style patterns associate with metabolic benefits in trials. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)

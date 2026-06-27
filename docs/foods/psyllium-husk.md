@@ -2,7 +2,7 @@
 id: psyllium-husk
 title: Psyllium Husk
 sidebar_label: Psyllium Husk
-description: 'Concentrated soluble fibre source for meal-level glycaemic buffering and digestive regularity'
+description: Concentrated soluble fibre source for meal-level glycaemic buffering and digestive regularity
 tags:
   - Food
   - Psyllium Husk
@@ -65,4 +65,4 @@ Within the BRAIN Diet framework, psyllium is most useful as a meal-structure too
 
 ## References
 
-[1] Dietary fibre and cardiometabolic outcomes meta-analysis [Reynolds et al. 2019](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)
+[1] It is best interpreted as a dose-sensitive adjunct food ingredient that supports glycaemic buffering and digestive regularity rather than as a replacement for whole-food fibre diversity. Reynolds & Mann 2019. [Dietary fibre and cardiometabolic outcomes meta-analysis](/docs/papers/BRAIN-Diet-References#reynolds_2019_30638909)

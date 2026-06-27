@@ -50,19 +50,28 @@ legacy_main_image: /img/foods/green-tea/green-tea_medium.webp
 ---
 ## Overview
 
-Green tea provides catechins (especially EGCG), L-theanine, and polyphenols that support cognitive function, antioxidant defenses, and metabolic health. Green tea contributes manganese and small amounts of fluoride and potassium, alongside polyphenols that support antioxidant defenses. Green tea catechins (e.g., EGCG, EGC) contribute to visceral adipose tissue reduction and neuroprotective effects in Green Mediterranean Diet studies, which showed attenuated brain atrophy by ~50%. Green tea is also mentioned as a polyphenol antimicrobial for SIBO suppression.
+Green tea provides **catechins** (especially EGCG), **L-theanine**, and other polyphenols in a low-calorie brewed beverage. These intrinsic compounds support antioxidant defenses and are widely studied for cognitive and metabolic relevance, alongside small amounts of **manganese**, **fluoride**, and **potassium** from the leaf and brew matrix.
+
+Within the BRAIN Diet framework, green tea is best used as a **polyphenol beverage** rather than a calorie or protein source. In Green Mediterranean Diet trials, added green-tea polyphenols contributed to greater visceral adiposity reduction than a standard Mediterranean diet alone [1], and the same trial programme linked the green-Mediterranean pattern to attenuated brain atrophy with glycemic control as part of the neuroprotective signal [2].
+
+## Key Nutritional Highlights
+
+- **EGCG** and related catechins dominate the polyphenol profile; brew strength, leaf dose, and steep time strongly affect extraction.
+- Green-tea polyphenols in the Green Mediterranean Diet were associated with greater visceral adiposity reduction than standard Mediterranean diet alone [1].
+- Brain MRI follow-up in DIRECT PLUS linked the green-Mediterranean pattern to attenuated brain atrophy, with glycemic control contributing to the neuroprotective signal [2].
+- **L-theanine** is a tea-specific amino acid often discussed alongside catechins for calm, non-sedating focus.
+- Can reduce non-heme iron absorption when taken with meals; spacing from iron-rich meals or adding vitamin C may help.
 
 ## Food Context
 
 ### Synergies
 
-- Can reduce non-heme iron absorption if taken with meals; space ≥1 hour from iron-rich meals or add lemon (vitamin C) to mitigate this
+- Can reduce non-heme iron absorption if taken with meals; space ≥1 hour from iron-rich meals or add lemon (vitamin C) to mitigate this.
 
 ### Preparation
 
-- Steep at lower temperatures to preserve catechins and prevent degradation
-- Green tea catechins increase Faecalibacterium and Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation
-- L-theanine found in green tea increases alpha waves and calms without sedation
+- Steep at lower temperatures (roughly 70–80 °C) to preserve catechins and limit bitter tannin extraction.
+- Unsweetened brews fit best within polyphenol-forward dietary patterns; cup strength varies widely by leaf type and steep time.
 
 ## Recipes
 
@@ -76,10 +85,6 @@ Green tea provides catechins (especially EGCG), L-theanine, and polyphenols that
 
 ## References
 
-- Green tea contributes manganese and small amounts of fluoride and potassium, alongside polyphenols that support antioxidant defenses
-- Green tea catechins (e.g., EGCG, EGC) contribute to visceral adipose tissue reduction and neuroprotective effects in Green Mediterranean Diet studies [Zelicha et al. 2022](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
-- Green Mediterranean Diet attenuated brain atrophy by ~50%, with glycemic control contributing to the neuroprotective signal, consistent with polyphenol–fibre–microbiome synergy [Pachter et al. 2024](/docs/papers/BRAIN-Diet-References#pachter_glycemic_2024)
-- Polyphenol antimicrobials (berberine, oregano, green tea) for SIBO suppression
-- Exercise-induced BDNF surges can be potentiated by polyphenols (e.g., blueberries, green tea)
-- Polyphenol sources including green tea catechins increase Faecalibacterium and Roseburia; inhibit Enterobacteriaceae; reduce NF-κB activation
-- GABA: Main inhibitory neurotransmitter; food sources include green tea, fermented foods, polyphenols (genistein), spinach, almonds, pumpkin seeds
+[1] In Green Mediterranean Diet trials, added green-tea polyphenols contributed to greater visceral adiposity reduction than a standard Mediterranean diet alone. Zelicha et al. 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+
+[2] Brain MRI follow-up in DIRECT PLUS linked the green-Mediterranean pattern to attenuated brain atrophy, with glycemic control contributing to the neuroprotective signal. Pachter et al. 2024. [Glycemic control contributes to the neuroprotective effects of Mediterranean and green-Mediterranean diets on brain age: the DIRECT PLUS brain-magnetic resonance imaging randomized controlled trial](/docs/papers/BRAIN-Diet-References#pachter_glycemic_2024)

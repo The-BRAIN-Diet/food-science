@@ -78,4 +78,4 @@ Within the BRAIN Diet framework, black pepper is primarily a **food synergy** in
 
 ## References
 
-- [1] Shoba & Joy 1998 – Influence of Piperine on the Pharmacokinetics of Curcumin in Animals and Human Volunteers [Shoba & Joy 1998 – Influence of Piperine on the Pharmacokinetics of Curcumin in Animals and Human Volunteers](/docs/papers/BRAIN-Diet-References#shoba_influence_1998)
+[1] Piperine increases curcumin bioavailability in humans. Shoba & Joy 1998. [Influence of Piperine on the Pharmacokinetics of Curcumin in Animals and Human Volunteers](/docs/papers/BRAIN-Diet-References#shoba_influence_1998)
