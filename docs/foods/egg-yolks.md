@@ -40,7 +40,16 @@ legacy_main_image: /img/foods/egg-yolks/egg-yolks_medium.webp
 ---
 ## Overview
 
-Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health. Acetylcholine and choline food sources include egg yolks, fish roe, soy, wheat germ, and liver.
+Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health.
+
+Within the BRAIN Diet framework, acetylcholine and choline food sources include egg yolks, fish roe, soy, wheat germ, and liver [1].
+## Key Nutritional Highlights
+
+
+- Reports on effect of Domestic Cooking Methods on Egg Yolk Xanthophylls [1]
+- Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health. [1]
+- Acetylcholine and choline food sources include egg yolks, fish roe, soy, wheat germ, and liver.
+- Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health.
 
 ## Food Context
 

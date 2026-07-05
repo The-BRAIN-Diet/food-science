@@ -33,7 +33,17 @@ legacy_main_image: /img/foods/garlic/garlic_medium.webp
 ---
 ## Overview
 
-Garlic provides allicin (when crushed), sulfur compounds for glutathione synthesis, and prebiotic fiber supporting gut health and antioxidant defenses. Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health. Garlic is part of the allium family with prebiotic benefits.
+Garlic provides allicin (when crushed), sulfur compounds for glutathione synthesis, and prebiotic fiber supporting gut health and antioxidant defenses. Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health.
+
+Within the BRAIN Diet framework, garlic is part of the allium family with prebiotic benefits [1][2].
+## Key Nutritional Highlights
+
+
+- Reports on effect of Garlic and Lemon Juice Mixture on Lipid Profile and Some Cardiovascular Risk Factors in People 30--60 Years Old with Moderate Hyperlipidaemia: A Randomized Clinical Trial [1]
+- Reports on allicin: chemistry and biological properties [2]
+- Garlic provides allicin (when crushed), sulfur compounds for glutathione synthesis, and prebiotic fiber supporting gut health and antioxidant defenses. [1]
+- Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health. [2]
+- Garlic is part of the allium family with prebiotic benefits.
 
 ## Food Context
 

@@ -44,7 +44,18 @@ legacy_main_image: /img/foods/kefir/kefir_medium.webp
 ---
 ## Overview
 
-Kefir is fermented milk providing diverse probiotics, including potential GABA-producing strains, and postbiotic compounds. Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. Kefir: Fermented milk drink, diverse probiotic strains. Levilactobacillus brevis is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles, and can produce GABA.
+Kefir is fermented milk providing diverse probiotics, including potential GABA-producing strains, and postbiotic compounds. Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. Kefir: Fermented milk drink, diverse probiotic strains.
+
+Within the BRAIN Diet framework, levilactobacillus brevis is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles, and can produce GABA [1][2].
+## Key Nutritional Highlights
+
+
+- Kefir provides live microbes and fermentation metabolites within diverse fermented-food strategies [1]
+- Fermented-food interventions increase microbiome diversity and immune-related outcomes in trials [2]
+- Kefir is fermented milk providing diverse probiotics, including potential GABA-producing strains, and postbiotic compounds. [1]
+- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]
+- Kefir: Fermented milk drink, diverse probiotic strains.
+- Levilactobacillus brevis is active in L.
 
 ## Food Context
 
@@ -73,8 +84,6 @@ Kefir is fermented milk providing diverse probiotics, including potential GABA-p
 
 ## References
 
-- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
-- Kefir: Fermented milk drink, diverse probiotic strains
-- Levilactobacillus brevis... This bacteria is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles
-- Nutrient density is a central premise... kimchi and kefir give microbiome support
-- GABA: Main inhibitory neurotransmitter; food sources include green tea, fermented foods, polyphenols (genistein), spinach, almonds, pumpkin seeds; Levilactobacillus brevis strains in kefir can produce GABA
+[1] Kefir provides live microbes and fermentation metabolites within diverse fermented-food strategies. Gao et al. 2025. [Fermented Dairy Products as Precision Modulators of Gut Microbiota and Host Health: Mechanistic Insights, Clinical Evidence, and Future Directions](/docs/papers/BRAIN-Diet-References#gao_fermented_2025)
+
+[2] Fermented-food interventions increase microbiome diversity and immune-related outcomes in trials. Wastyk et al. 2021. [Gut-microbiota-targeted diets modulate human immune status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)

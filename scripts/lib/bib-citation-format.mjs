@@ -88,10 +88,19 @@ export function loadBibIndex(bibPath = BIB_PATH) {
   return index
 }
 
+function mdxSafeLinkTitle(title) {
+  return title
+    .replace(/\\textit\{([^}]+)\}/g, "$1")
+    .replace(/\\textsubscript\{([^}]+)\}/g, "$1")
+    .replace(/\\textless/g, "")
+    .replace(/\\textgreater/g, "")
+    .replace(/\{([^{}]*)\}/g, "$1")
+}
+
 export function formatSalmonRoeRefLine(n, key, titleOverride = null, explanation = null, bibIndex = loadBibIndex()) {
   const meta = bibIndex.get(key)
   const authorPart = meta?.authorLabel ?? key.replace(/_/g, " ")
-  const title = titleOverride ?? meta?.title ?? key.replace(/_/g, " ")
+  const title = mdxSafeLinkTitle(titleOverride ?? meta?.title ?? key.replace(/_/g, " "))
   const link = `[${title}](/docs/papers/BRAIN-Diet-References#${key})`
   if (explanation) {
     const exp = explanation.trim().replace(/\.$/, "")

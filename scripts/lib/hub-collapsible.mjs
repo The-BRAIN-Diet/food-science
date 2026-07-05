@@ -9,8 +9,39 @@ export const HUB_COLLAPSIBLE_ATTR = "data-brs-fm-hub";
 /** Match native <details> or hub collapsible markup. */
 export const HAS_DROPDOWN_RE = /<details>|data-brs-fm-hub/;
 
-export function renderHubCollapsible(title, body) {
+/**
+ * @param {string} title
+ * @param {string} body
+ * @param {{ openHref?: string, openLabel?: string, openAriaLabel?: string }} [options]
+ */
+export function renderHubCollapsible(title, body, options = {}) {
   const panel = String(body || "").trim();
+  const openHref = String(options.openHref || "").trim();
+  const openLabel = options.openLabel || "Open Page →";
+  const openAriaLabel = options.openAriaLabel || `Open page: ${title}`;
+
+  if (openHref) {
+    return `<div class="brs-fm-hub-item" ${HUB_COLLAPSIBLE_ATTR}>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand ${title}">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">${title}</strong>
+<a class="brs-fm-hub-open" href="${openHref}" aria-label="${openAriaLabel}">
+<span class="brs-fm-hub-open-label">${openLabel}</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+
+${panel}
+
+</div>
+</div>
+</div>`;
+  }
+
   return `<div class="brs-fm-hub-item" ${HUB_COLLAPSIBLE_ATTR}>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">

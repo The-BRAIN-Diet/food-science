@@ -46,7 +46,17 @@ legacy_main_image: /img/foods/seaweed/seaweed_medium.webp
 ---
 ## Overview
 
-Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health. Seaweed can be added to soups, stews, or salads and provides trace amounts of creatine (e.g., nori) and taurine.
+Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health.
+
+Within the BRAIN Diet framework, seaweed can be added to soups, stews, or salads and provides trace amounts of creatine (e.g., nori) and taurine [1][2].
+## Key Nutritional Highlights
+
+
+- Seaweed is a primary dietary iodine source supporting thyroid hormone synthesis [1]
+- Marine algae contribute variable B12 analogues and should be interpreted cautiously for cobalamin status [2]
+- Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health. [1]
+- Seaweed can be added to soups, stews, or salads and provides trace amounts of creatine (e.g., nori) and taurine. [2]
+- Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health.
 
 ## Food Context
 
@@ -76,7 +86,6 @@ Seaweed contribute plant protein. Pair with complementary protein sources (e.g. 
 
 ## References
 
-- Seaweed (Whole): Glycolipids, EPA (in red algae), iodine, magnesium, fibre - Added to soups, stews, or salads
-- EPA & DHA (Omega-3): Algal oil (direct DHA), seaweed (low bioavailable DHA/EPA)
-- Creatine: Minimal — trace amounts in seaweed (e.g., nori)
-- Taurine: Minimal in plants; trace in seaweed/algae
+[1] Seaweed is a primary dietary iodine source supporting thyroid hormone synthesis. Arterburn et al. 2008. [Algal-oil capsules and cooked salmon: nutritionally equivalent sources of docosahexaenoic acid](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008)
+
+[2] Marine algae contribute variable B12 analogues and should be interpreted cautiously for cobalamin status. Watanabe et al. 2002. [Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae.](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002)

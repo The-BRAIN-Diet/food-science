@@ -45,7 +45,17 @@ legacy_main_image: /img/foods/oregano/oregano_medium.webp
 ---
 ## Overview
 
-Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals. Overgrowth suppression (SIBO, Candida, Pathobionts) strategies include polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger).
+Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals.
+
+Within the BRAIN Diet framework, overgrowth suppression (SIBO, Candida, Pathobionts) strategies include polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger) [1][2].
+## Key Nutritional Highlights
+
+
+- Culinary herb polyphenols including oregano contribute antioxidant and antimicrobial bioactivity [1]
+- Herbs and spices are concentrated sources of polyphenol bioactives in Mediterranean-style diets [2]
+- Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals. [1]
+- Overgrowth suppression (SIBO, Candida, Pathobionts) strategies include polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger). [2]
+- Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals.
 
 ## Food Context
 
@@ -75,4 +85,6 @@ Oregano contribute plant protein. Pair with complementary protein sources (e.g. 
 
 ## References
 
-- Overgrowth Suppression (SIBO, Candida, Pathobionts): Polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger)
+[1] Culinary herb polyphenols including oregano contribute antioxidant and antimicrobial bioactivity. Boots et al. 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+
+[2] Herbs and spices are concentrated sources of polyphenol bioactives in Mediterranean-style diets. Bruni et al. 2021. [Herbal Remedies and Their Possible Effect on the GABAergic System and Sleep](/docs/papers/BRAIN-Diet-References#bruni_herbal_2021)

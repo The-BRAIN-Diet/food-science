@@ -43,6 +43,14 @@ legacy_main_image: /img/foods/duck-fat/duck-fat_medium.webp
 ## Overview
 
 Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures.
+## Key Nutritional Highlights
+
+
+- Monounsaturated-rich animal fats such as duck fat fit within MUFA-forward dietary patterns [1]
+- Dietary fat quality affects chylomicron formation and absorption of fat-soluble micronutrients [2]
+- Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures. [1]
+- Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures. [2]
+- Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures.
 
 ## Food Context
 
@@ -72,4 +80,6 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Duck Fat: Oleic acid, selenium, palmitoleic acid (anti-inflammatory MUFA) - Roasting vegetables, pan cooking
+[1] Monounsaturated-rich animal fats such as duck fat fit within MUFA-forward dietary patterns. Schwingshackl & Hoffmann 2014. [Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies](/docs/papers/BRAIN-Diet-References#schwingshackl_monounsaturated_2014)
+
+[2] Dietary fat quality affects chylomicron formation and absorption of fat-soluble micronutrients. Kindel et al. 2010. [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)

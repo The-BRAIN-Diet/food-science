@@ -52,14 +52,15 @@ legacy_main_image: /img/foods/sweet-potatoes/sweet-potatoes_medium.webp
 
 Sweet potatoes are starchy roots that combine slow-digesting carbohydrate with meaningful fibre, potassium, and carotenoid density. Orange-fleshed varieties are especially relevant for **beta-carotene**, while also contributing vitamin C and vitamin B6 in whole-food form.
 
-Within the BRAIN Diet framework, sweet potatoes are best used as a whole-food carbohydrate base that can be roasted, steamed, or cooled/reheated depending on meal context. Their nutrient profile differs from white potatoes primarily through carotenoid concentration and generally higher intrinsic sweetness, while still supporting fibre-first meal construction.
-
+Within the BRAIN Diet framework, sweet potatoes are best used as a whole-food carbohydrate base that can be roasted, steamed, or cooled/reheated depending on meal context. Their nutrient profile differs from white potatoes primarily through carotenoid concentration and generally higher intrinsic sweetness, while still supporting fibre-first meal construction [1][2].
 ## Key Nutritional Highlights
 
-- Provides fibre and potassium in a low-fat root-vegetable matrix.
-- Orange-fleshed varieties add substantial beta-carotene contribution.
+
+- Provides fibre and potassium in a low-fat root-vegetable matrix. [1]
+- Orange-fleshed varieties add substantial beta-carotene contribution. [2]
 - Works well as a slower carbohydrate base when paired with protein, fibre, and fats.
 - Sweetness and texture are strongly variety- and cooking-method dependent.
+
 
 ## Food Context
 
@@ -88,4 +89,6 @@ Sweet potatoes are not a protein-forward food; use legumes, dairy, eggs, fish, o
 
 ## References
 
-[1] USDA FoodData Central compositional records for sweet potato (raw/cooked variants) [USDA FoodData Central](/docs/papers/BRAIN-Diet-References)
+[1] Orange-fleshed sweet potatoes supply beta-carotene and carotenoid precursors for retinoid pathways. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+
+[2] Carotenoid bioavailability improves when paired with dietary fat in mixed meals. Brown et al. 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)

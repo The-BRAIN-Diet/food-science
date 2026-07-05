@@ -41,7 +41,18 @@ legacy_main_image: /img/foods/oyster-mushroom/oyster-mushroom_medium.webp
 ---
 ## Overview
 
-Oyster mushroom (Pleurotus ostreatus) is a popular culinary mushroom valued for its mild flavor, meaty texture, and nutritional benefits. It is rich in beta-glucans, polysaccharides that support immune function, and provides B vitamins including niacin (B3), which supports NAD+ synthesis and mitochondrial function. Oyster mushrooms are widely cultivated and used in cooking, offering a versatile plant-based protein source. The mushroom contains lovastatin, a compound that has been studied for its potential cardiovascular benefits, and its beta-glucan content contributes to immune-modulating properties similar to other medicinal mushrooms.
+Oyster mushroom (Pleurotus ostreatus) is a popular culinary mushroom valued for its mild flavor, meaty texture, and nutritional benefits. It is rich in beta-glucans, polysaccharides that support immune function, and provides B vitamins including niacin (B3), which supports NAD+ synthesis and mitochondrial function.
+
+Within the BRAIN Diet framework, oyster mushrooms are widely cultivated and used in cooking, offering a versatile plant-based protein source. The mushroom contains lovastatin, a compound that has been studied for its potential cardiovascular benefits, and its beta-glucan content contributes to immune-modulating properties similar to other medicinal mushrooms [1][2].
+## Key Nutritional Highlights
+
+
+- Oyster mushrooms supply beta-glucans and B vitamins including niacin within low-calorie matrices [1]
+- Niacin supports NAD⁺-dependent mitochondrial and neurochemical metabolism [2]
+- Oyster mushroom (Pleurotus ostreatus) is a popular culinary mushroom valued for its mild flavor, meaty texture, and nutritional benefits. [1]
+- It is rich in beta-glucans, polysaccharides that support immune function, and provides B vitamins including niacin (B3), which supports NAD+ synthesis and mitochondrial function. [2]
+- Oyster mushrooms are widely cultivated and used in cooking, offering a versatile plant-based protein source.
+- The mushroom contains lovastatin, a compound that has been studied for its potential cardiovascular benefits, and its beta-glucan content contributes to immune-modulating properties similar to other medicinal mushrooms.
 
 ## Food Context
 
@@ -68,7 +79,6 @@ Oyster mushroom (Pleurotus ostreatus) is a popular culinary mushroom valued for 
 
 ## References
 
-- Oyster mushroom (Pleurotus ostreatus) is rich in beta-glucans, polysaccharides that support immune function
-- Good source of niacin (Vitamin B3), supporting NAD+ synthesis and mitochondrial function
-- Contains lovastatin, a compound that has been studied for its potential cardiovascular benefits
-- Widely used in culinary applications and valued for its nutritional profile
+[1] Oyster mushrooms supply beta-glucans and B vitamins including niacin within low-calorie matrices. Starck et al. 2024. [Mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024)
+
+[2] Niacin supports NAD⁺-dependent mitochondrial and neurochemical metabolism. Pirinen et al. 2020. [Niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)

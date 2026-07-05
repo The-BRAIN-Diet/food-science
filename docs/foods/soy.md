@@ -46,7 +46,16 @@ legacy_main_image: /img/foods/soy/soy_large.webp
 ---
 ## Overview
 
-Soy provides complete plant protein (DIAAS 92-96), isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. Soy protein isolate has a DIAAS score of 92-96, indicating high protein quality, though it is methionine-limited and should be paired with grains. Genistein, a soy-derived isoflavonoid, has shown potential as a modulator of several biochemical pathways, including the endocannabinoid system and neuroinflammation. Soy is listed as a source for choline, tryptophan, tyrosine, and B6.
+Soy provides **complete plant protein**, **isoflavones** (especially genistein), and **choline**, supporting neurotransmitter synthesis and membrane phospholipid pathways. Defatted soy flour and soy protein concentrates score highly on protein-quality metrics, though methionine remains relatively limiting and grain pairing improves amino-acid balance.
+
+Within the BRAIN Diet framework, soy is a core plant-protein anchor for vegan and plant-forward patterns. Genistein and related isoflavones are studied for metabolic and neuroinflammatory modulation [1], while soy's protein density supports essential amino-acid intake within legume–grain complementary pairings [2].
+
+## Key Nutritional Highlights
+
+- **Genistein** and related soy isoflavones are studied for neuroinflammatory and metabolic pathways [1].
+- High **plant-protein** density with favourable digestibility for a legume; pair with grains for methionine balance [2].
+- Provides **choline**, tryptophan, tyrosine, and B vitamins relevant to neurotransmitter synthesis.
+- Fermented forms (tempeh, miso, natto) add fermentation-derived benefits beyond raw soy ingredients.
 
 ## Food Context
 
@@ -77,4 +86,6 @@ Soy provide a relatively complete plant protein (higher in lysine than most grai
 
 ## References
 
-[1] Polyphenols such as genistein may further enhance ECS tone by inhibiting fatty acid amide hydrolase (FAAH), the enzyme responsible for anandamide degradation. Gibellini & Smith 2010. [The Kennedy pathway — De novo synthesis of phosphatidylethanolamine and phosphatidylcholine](/docs/papers/BRAIN-Diet-References#gibellini_kennedy_2010)
+[1] Genistein and related soy isoflavones are studied for neuroinflammatory and metabolic pathways. Fuloria et al. 2022. [Genistein: A Potential Natural Lead Molecule for New Drug Design and Development for Treating Memory Impairment](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)
+
+[2] Soy provides highly digestible plant protein; legume–grain pairing improves essential amino-acid balance. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

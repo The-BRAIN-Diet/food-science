@@ -52,7 +52,17 @@ legacy_main_image: /img/foods/swiss-chard/swiss-chard_medium.webp
 ---
 ## Overview
 
-Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, and carotenoids. Similar to other leafy greens like kale and spinach, it supports neurotransmitter synthesis and antioxidant function. The BRAIN diet specifically targets leafy green vegetables such as kale and spinach that are rich in iron, magnesium, and zinc, and Swiss chard fits within this category.
+Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, and carotenoids. Similar to other leafy greens like kale and spinach, it supports neurotransmitter synthesis and antioxidant function.
+
+The BRAIN diet specifically targets leafy green vegetables such as kale and spinach that are rich in iron, magnesium, and zinc, and Swiss chard fits within this category [1][2].
+## Key Nutritional Highlights
+
+
+- Leafy greens supply folate and B vitamins supporting one-carbon and neurochemical metabolism [1]
+- Green leafy vegetables contribute lutein and carotenoids relevant to neuroprotection [2]
+- Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, and carotenoids. [1]
+- Similar to other leafy greens like kale and spinach, it supports neurotransmitter synthesis and antioxidant function. [2]
+- The BRAIN diet specifically targets leafy green vegetables such as kale and spinach that are rich in iron, magnesium, and zinc, and Swiss chard fits within this category.
 
 ## Food Context
 
@@ -79,5 +89,6 @@ Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, a
 
 ## References
 
-- The BRAIN diet specifically targets leafy green vegetables i.e. kale and spinach that are rich in iron, magnesium, and zinc
-- Boiling spinach, kale, and other greens can reduce oxalate load, improving mineral bioavailability
+[1] Leafy greens supply folate and B vitamins supporting one-carbon and neurochemical metabolism. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+
+[2] Green leafy vegetables contribute lutein and carotenoids relevant to neuroprotection. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)

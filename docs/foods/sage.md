@@ -45,6 +45,14 @@ legacy_main_image: /img/foods/sage/sage_medium.webp
 ## Overview
 
 Sage provides compounds that support memory and cognitive enhancement, with therapeutic benefits demonstrated at 200–400 mg/day extract or through regular culinary doses.
+## Key Nutritional Highlights
+
+
+- Salvia officinalis (sage) extracts improve attention and memory in acute human trials [1]
+- Sage polyphenols modulate cholinergic and mood-related endpoints in controlled studies [2]
+- Sage provides compounds that support memory and cognitive enhancement, with therapeutic benefits demonstrated at 200–400 mg/day extract or through regular culinary doses. [1]
+- Sage provides compounds that support memory and cognitive enhancement, with therapeutic benefits demonstrated at 200–400 mg/day extract or through regular culinary doses. [2]
+- Sage provides compounds that support memory and cognitive enhancement, with therapeutic benefits demonstrated at 200–400 mg/day extract or through regular culinary doses.
 
 ## Food Context
 
@@ -74,4 +82,6 @@ Sage contribute plant protein. Pair with complementary protein sources (e.g. gra
 
 ## References
 
-- Sage: Memory and cognitive enhancement - 200–400 mg/day extract or culinary doses
+[1] Salvia officinalis (sage) extracts improve attention and memory in acute human trials. Scholey et al. 2008. [An extract of Salvia (sage) with anticholinesterase properties improves memory and attention in healthy older volunteers](/docs/papers/BRAIN-Diet-References#scholey_sage_attention_2008)
+
+[2] Sage polyphenols modulate cholinergic and mood-related endpoints in controlled studies. Kennedy et al. 2006. [Effects of cholinesterase inhibiting sage (Salvia officinalis) on mood, anxiety and performance on a psychological stressor battery](/docs/papers/BRAIN-Diet-References#kennedy_sage_mood_2006)

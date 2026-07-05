@@ -2,7 +2,7 @@
   "meta": {
     "version": 3,
     "description": "BRS hub dietary and integrated lifestyle priority rollups — PM §4.1.1, §4.1.3 KCs, §4.2; curated Lifestyle Priorities in scripts/data/brs-hub-lifestyle-priorities.mjs.",
-    "generatedAt": "2026-06-27T10:58:28.208Z"
+    "generatedAt": "2026-06-29T12:23:46.022Z"
   },
   "brs": {
     "BRS-X(ECS)": {
@@ -1330,11 +1330,28 @@
       "dietary": {
         "nutrient_dense_stars": [
           {
+            "label": "Beef",
+            "food_slug": "beef",
+            "food_href": "/docs/foods/beef",
+            "missing_food_page": false,
+            "explanation": "Creatine- and carnitine-rich animal protein supporting phosphocreatine buffering and carnitine-mediated fat transport into mitochondria when metabolic demand shifts.",
+            "source_pms": [
+              {
+                "id": "BRS4-FM1-PM3",
+                "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer"
+              },
+              {
+                "id": "BRS4-FM3-PM6",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport"
+              }
+            ]
+          },
+          {
             "label": "Blueberries",
             "food_slug": "blueberries",
             "food_href": "/docs/foods/blueberries",
             "missing_food_page": false,
-            "explanation": "Polyphenol-rich fruit supporting ROS control, mitochondrial resilience, and oxidative stress modulation within bioenergetic regulation.",
+            "explanation": "Polyphenol-rich fruit supporting ROS control, mitochondrial resilience, and dietary context for microbial urolithin A and mitophagy-related pathways alongside broader plant diversity.",
             "source_pms": [
               {
                 "id": "BRS4-FM2-PM4",
@@ -1355,7 +1372,7 @@
             "food_slug": "broccoli",
             "food_href": "/docs/foods/broccoli",
             "missing_food_page": false,
-            "explanation": "Cruciferous vegetable providing sulphur compounds and antioxidant cofactors that support mitochondrial resilience and redox stability under metabolic demand.",
+            "explanation": "Cruciferous vegetable with smaller CoQ10-relevant content, sulphur compounds, and antioxidant cofactors supporting mitochondrial protection and redox stability under metabolic demand.",
             "source_pms": [
               {
                 "id": "BRS4-FM2-PM5",
@@ -1364,11 +1381,45 @@
             ]
           },
           {
+            "label": "Cheddar Cheese",
+            "food_slug": "cheddar-cheese",
+            "food_href": "/docs/foods/cheddar-cheese",
+            "missing_food_page": false,
+            "explanation": "Fermented dairy matrix supplying complete protein, vitamin B12, zinc, and carnitine-relevant context for mitochondrial substrate transport alongside nutrient-dense animal-food patterns.",
+            "source_pms": [
+              {
+                "id": "BRS4-FM3-PM6",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport"
+              }
+            ]
+          },
+          {
+            "label": "Early Harvest Olive Oil",
+            "food_slug": "early-harvest-olive-oil",
+            "food_href": "/docs/foods/early-harvest-olive-oil",
+            "missing_food_page": false,
+            "explanation": "High-polyphenol extra virgin olive oil — especially early-harvest oils — with CoQ10-relevant and oleuropein context supporting electron transport, mitochondrial protection, and mitophagy-related dietary patterns.",
+            "source_pms": [
+              {
+                "id": "BRS4-FM2-PM4",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+              },
+              {
+                "id": "BRS4-FM2-PM5",
+                "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
+              },
+              {
+                "id": "BRS4-FM4-PM9",
+                "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis"
+              }
+            ]
+          },
+          {
             "label": "Eggs",
             "food_slug": "eggs",
             "food_href": "/docs/foods/eggs",
             "missing_food_page": false,
-            "explanation": "Rich in B vitamins, choline, and complete protein supporting cellular bioenergetics, cofactor sufficiency, and sustained substrate delivery to mitochondria.",
+            "explanation": "Nutrient-dense whole food rich in B vitamins, choline, complete protein, and bioenergetic cofactors supporting cellular ATP production, NAD-linked metabolism, and sustained substrate delivery.",
             "source_pms": [
               {
                 "id": "BRS4-FM1-PM1",
@@ -1389,11 +1440,24 @@
             ]
           },
           {
+            "label": "Kefir",
+            "food_slug": "kefir",
+            "food_href": "/docs/foods/kefir",
+            "missing_food_page": false,
+            "explanation": "Fermented dairy with live cultures, complete protein, and B vitamins supporting carnitine-relevant dairy context, cofactor sufficiency, and gut-derived metabolite patterns linked to broader bioenergetic support.",
+            "source_pms": [
+              {
+                "id": "BRS4-FM3-PM6",
+                "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport"
+              }
+            ]
+          },
+          {
             "label": "Oats",
             "food_slug": "oats",
             "food_href": "/docs/foods/oats",
             "missing_food_page": false,
-            "explanation": "Slowly digested whole grain providing steady carbohydrate fuel and B-vitamin context for substrate utilisation flexibility and cognitive energy availability.",
+            "explanation": "Slowly digested whole grain and fermentable-fibre source providing steady carbohydrate fuel, B-vitamin context, and gut-derived butyrate-related substrate for metabolic fuel flexibility.",
             "source_pms": [
               {
                 "id": "BRS4-FM1-PM1",
@@ -1443,11 +1507,15 @@
             "food_slug": "salmon",
             "food_href": "/docs/foods/salmon",
             "missing_food_page": false,
-            "explanation": "Oily fish providing CoQ10-relevant context, omega-3s, and high-quality protein supporting electron transport, ROS control, and mitochondrial biogenesis.",
+            "explanation": "Oily fish supplying EPA/DHA, creatine-relevant context, carnitine, and CoQ10-relevant compounds supporting electron transport, fatty-acid substrate delivery, and mitochondrial biogenesis.",
             "source_pms": [
               {
                 "id": "BRS4-FM1-PM1",
                 "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function"
+              },
+              {
+                "id": "BRS4-FM1-PM3",
+                "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer"
               },
               {
                 "id": "BRS4-FM2-PM4",
@@ -1464,11 +1532,24 @@
             ]
           },
           {
+            "label": "Scallops",
+            "food_slug": "scallops",
+            "food_href": "/docs/foods/scallops",
+            "missing_food_page": false,
+            "explanation": "Lean shellfish supplying creatine- and taurine-relevant context, vitamin B12, and highly digestible protein supporting phosphocreatine buffering and mitochondrial cofactor biology at low energy density.",
+            "source_pms": [
+              {
+                "id": "BRS4-FM1-PM3",
+                "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer"
+              }
+            ]
+          },
+          {
             "label": "Spinach",
             "food_slug": "spinach",
             "food_href": "/docs/foods/spinach",
             "missing_food_page": false,
-            "explanation": "Iron-, magnesium-, and folate-rich leafy green supporting electron transport cofactors, redox balance, and mitochondrial enzyme function.",
+            "explanation": "Iron-, magnesium-, and folate-rich leafy green supporting mitochondrial cofactors and redox balance; boiling can reduce oxalate load and improve mineral bioavailability where high-oxalate greens feature regularly.",
             "source_pms": [
               {
                 "id": "BRS4-FM3-PM6",
@@ -1485,7 +1566,7 @@
             "food_slug": "walnuts",
             "food_href": "/docs/foods/walnuts",
             "missing_food_page": false,
-            "explanation": "ALA and polyphenol source supporting mitochondrial biogenesis, ROS production–control balance, and metabolic fuel-switching context.",
+            "explanation": "ALA, polyphenol, and mineral source supporting mitochondrial biogenesis, ROS balance, metabolic fuel switching, and plant-forward patterns complementing animal-food bioactives.",
             "source_pms": [
               {
                 "id": "BRS4-FM2-PM4",
@@ -1600,6 +1681,21 @@
           ]
         },
         {
+          "action": "Boil high-oxalate leafy greens when oxalate load matters",
+          "explanation": "to reduce soluble oxalate, improve mineral bioavailability from iron- and magnesium-rich greens, and limit avoidable pressure on mitochondrial cofactor and redox networks.",
+          "label": "Boil high-oxalate leafy greens when oxalate load matters to reduce soluble oxalate, improve mineral bioavailability from iron- and magnesium-rich greens, and limit avoidable pressure on mitochondrial cofactor and redox networks.",
+          "source_pms": [
+            {
+              "id": "BRS4-FM2-PM4",
+              "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+            },
+            {
+              "id": "BRS4-FM2-PM5",
+              "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
+            }
+          ]
+        },
+        {
           "action": "Maintain consistent sleep–wake rhythms",
           "explanation": "to support biological pathways involved in cellular energy production and NAD-related metabolism.",
           "label": "Maintain consistent sleep–wake rhythms to support biological pathways involved in cellular energy production and NAD-related metabolism.",
@@ -1649,13 +1745,13 @@
       },
       "stats": {
         "pm_count": 9,
-        "unique_foods": 48,
-        "unique_lifestyle": 6,
+        "unique_foods": 56,
+        "unique_lifestyle": 7,
         "unique_key_constraints": 2,
-        "nutrient_dense_stars": 8,
+        "nutrient_dense_stars": 13,
         "pm_lifestyle_notes": 23
       },
-      "dietary_strategy_prose": "Build meals around dependable energy from protein, whole grains, legumes, and starchy vegetables. Include B-vitamin-rich foods, iron from lean meats and legumes, and magnesium from nuts, seeds, and greens to support how cells produce and use energy. Avoid long gaps without nourishment and favour minimally processed foods over options that leave energy pathways undersupported.",
+      "dietary_strategy_prose": "Build meals around dependable macronutrient fuel from protein, whole grains, legumes, and starchy vegetables, treating B-vitamin, iron, and magnesium cofactors as the enabling layer that helps omega-3s, polyphenols, and amino-acid substrates support mitochondrial work. Combine plant-forward patterns with nutrient-dense animal foods — seafood, eggs, fermented dairy (cheese and kefir), lean meats, and occasional offal — for creatine, carnitine, CoQ10-relevant context, taurine, and complete protein; creatine-rich examples include beef, lamb, pork, salmon, tuna, cod, and scallops, while plant-only patterns may lack meaningful dietary creatine unless supplemented. Quality extra virgin olive oil — especially early-harvest oils with higher polyphenol and CoQ10-relevant content — plus oily fish, beef, broccoli, spinach, and pistachios add further electron-transport and redox support. Support glutathione-linked antioxidant networks and polyphenol diversity through varied plants rather than high-dose isolated supplements. Include fermentable fibre from oats, barley, and legumes where tolerated to connect gut-derived butyrate biology to brain energy metabolism alongside BRS5 context.",
       "dietary_strategy_targets": null
     },
     "BRS5": {
@@ -1731,6 +1827,23 @@
               {
                 "id": "BRS5-FM3-PM7",
                 "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation"
+              }
+            ]
+          },
+          {
+            "label": "Lentils",
+            "food_slug": "lentils",
+            "food_href": "/docs/foods/lentils",
+            "missing_food_page": false,
+            "explanation": "Fermentable-fibre legume supporting microbial ecological turnover, SCFA production, and sustained substrate delivery for gut–brain signalling.",
+            "source_pms": [
+              {
+                "id": "BRS5-FM2-PM4",
+                "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection"
+              },
+              {
+                "id": "BRS5-FM2-PM5",
+                "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling"
               }
             ]
           },
@@ -1931,10 +2044,10 @@
         "unique_foods": 34,
         "unique_lifestyle": 5,
         "unique_key_constraints": 3,
-        "nutrient_dense_stars": 8,
+        "nutrient_dense_stars": 9,
         "pm_lifestyle_notes": 16
       },
-      "dietary_strategy_prose": "Eat a wide variety of plant foods daily — vegetables, fruits, legumes, whole grains, nuts, and seeds — to feed beneficial gut microbes. Include fermented foods where tolerated, and fermentable fibre from oats, barley, beans, and cooled potatoes. Prioritise minimally processed meals that support the gut lining rather than ultra-processed foods that disrupt microbial balance and barrier function.",
+      "dietary_strategy_prose": "Eat a wide variety of plant foods daily — vegetables, fruits, legumes, whole grains, nuts, and seeds — to support microbial diversity, competitive ecological turnover, and polyphenol-linked biotransformation rather than isolated superfood fixes. Include fermented foods where tolerated — kefir, plain yogurt, and fermented vegetables — alongside fermentable fibre from oats, barley, lentils, and cooled potatoes and rice to sustain short-chain fatty acid output relevant to barrier integrity and gut–brain signalling. Combine omega-3-rich seafood, eggs, and barrier-supportive whole foods with minimally processed meal patterns that limit ultra-processed load, excess alcohol, and chronic barrier strain from low plant diversity. Support neurotransmitter-precursor context through protein-rich whole foods combined with fibre-supported microbial metabolism rather than isolated amino-acid emphasis — repeated dietary pattern quality matters more than short probiotic bursts.",
       "dietary_strategy_targets": null
     },
     "BRS6": {

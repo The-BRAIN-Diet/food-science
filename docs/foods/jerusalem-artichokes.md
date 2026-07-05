@@ -43,7 +43,17 @@ legacy_main_image: /img/foods/jerusalem-artichokes/jerusalem-artichokes_medium.w
 ---
 ## Overview
 
-Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth. Jerusalem artichokes have the highest inulin content, and inulin supports ↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier.
+Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth.
+
+Within the BRAIN Diet framework, jerusalem artichokes have the highest inulin content, and inulin supports ↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier [1][2].
+## Key Nutritional Highlights
+
+
+- Jerusalem artichokes are among the richest dietary sources of inulin-type prebiotic fibre [1]
+- Prebiotic fermentable fibre intake modulates gut microbiota and stress-related biomarkers [2]
+- Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth. [1]
+- Jerusalem artichokes have the highest inulin content, and inulin supports ↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier. [2]
+- Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth.
 
 ## Food Context
 
@@ -66,6 +76,6 @@ Jerusalem artichokes (sunchokes) provide the highest inulin content among common
 
 ## References
 
-- Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)
-- Jerusalem artichokes: Highest inulin content
-- Inulin supports ↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+[1] Jerusalem artichokes are among the richest dietary sources of inulin-type prebiotic fibre. Pouille et al. 2022. [Chicory: Understanding the Effects and Effectors of This Functional Food](/docs/papers/BRAIN-Diet-References#pouille_chicory_2022)
+
+[2] Prebiotic fermentable fibre intake modulates gut microbiota and stress-related biomarkers. Schmidt et al. 2015. [Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)

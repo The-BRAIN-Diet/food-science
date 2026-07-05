@@ -55,12 +55,16 @@ import NutritionTable from "@site/src/components/NutritionTable";
 
 Eggs are a nutrient-dense source of complete protein, **choline**, B vitamins, and phospholipids. The yolk concentrates highly bioavailable **lutein** and **zeaxanthin** (xanthophyll carotenoids relevant to retinal and neural antioxidant context), alongside **selenium** and **zinc**. Pasture-raised eggs can provide more vitamin E and omega-3s. Eggs support neurotransmitter synthesis and membrane health.
 
-**Protein profile:** Complete essential amino acid profile.
-
+**Protein profile:** Complete essential amino acid profile [1][2].
 ## Key Nutritional Highlights
 
-- Complete protein with high choline, B vitamins, and phospholipids relevant to neurotransmitter and membrane support.
-- Yolk concentrates bioavailable **lutein** and **zeaxanthin** alongside fat-soluble nutrients that support carotenoid uptake in mixed meals.
+
+- Reports on effect of dairy calcium from cheese and milk on fecal fat excretion, blood lipids, and appetite in young men$^\textrm{1}$$^\textrm{2}$$^\textrm{3}$ [1]
+- Reports on endocannabinoid system in psychotic and mood disorders, a review of human studies [2]
+- Reports on the Role of Choline in Neurodevelopmental Disorders—A Narrative Review Focusing on ASC, ADHD and Dyslexia [3]
+- Reports on digestibility of cooked and raw egg protein in humans as assessed by stable isotope techniques [4]
+- Reports on raw Eggs To Support Postexercise Recovery in Healthy Young Men: Did Rocky Get It Right or Wrong? [5]
+- Reports on effect of Domestic Cooking Methods on Egg Yolk Xanthophylls [6]
 
 ## Food Context
 

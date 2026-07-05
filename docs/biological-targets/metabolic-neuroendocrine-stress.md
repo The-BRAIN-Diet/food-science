@@ -20,11 +20,11 @@ hide_title: true
 
 ## BRS6 - Metabolic & Neuroendocrine Regulation
 
-(Adaptive Energy Regulation & Metabolic Flexibility)
+(Metabolic Stability, Stress Adaptation & Systemic Resilience)
 
 ## Ambition
 
-Maintain adaptive metabolic regulation and metabolic flexibility so the brain can sustain cognitive performance, respond proportionately to physiological demands, and recover efficiently as nutritional and environmental conditions change.
+Maintain adaptive metabolic regulation, glycaemic stability, and neuroendocrine rhythm so the brain can allocate energy efficiently, respond proportionately to physiological demands, and recover without accumulating chronic metabolic or autonomic strain.
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -33,40 +33,50 @@ Maintain adaptive metabolic regulation and metabolic flexibility so the brain ca
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Strategy</strong>
+<strong>Dietary Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-hub-levers-key-constraints">
-<p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key dietary constraints include stable energy availability, dietary patterns that minimise blood sugar swings, consistent meal timing, and sufficient micronutrient and healthy fat intake to support metabolic adaptation and recovery.</p>
-<p class="brs-hub-lever-kc-foods">Barley, Brown Rice, Legumes, Oats, Potatoes, Rice</p>
+<div class="brs-hub-dietary-strategy">
+<p class="brs-hub-dietary-guidance-flow">Pattern → Nutrients → Biology → Target Foods</p>
+<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Build meals around protein, fibre-rich carbohydrates and healthy fats</strong> → balanced macronutrients → post-meal glucose appearance depends on meal composition; when refined carbohydrates dominate without protein or fibre buffering, glycaemic variability increases and cognitive energy supply becomes less predictable.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/extra-virgin-olive-oil">Extra Virgin Olive Oil</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Prioritise low-glycaemic whole-food carbohydrates</strong> → β-glucan, resistant starch and slowly digested starch → supports sustained glucose delivery and reduces post-prandial glycaemic excursions.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/lentils">Lentils</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include protein in breakfast where appropriate</strong> → protein and complete amino acids → helps regulate morning appetite and supports sustained early-day energy availability.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/tofu">Tofu</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plant foods and omega-3 sources</strong> → polyphenols and long-chain omega-3 fatty acids → supports metabolic resilience, insulin sensitivity context and healthier neuroendocrine recovery under physiological stress.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/extra-virgin-olive-oil">Extra Virgin Olive Oil</a> • <a href="/docs/foods/walnuts">Walnuts</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a></span></p>
+<p class="brs-hub-dietary-guidance-note"><em>Omega-3:</em> Marine foods provide preformed DHA and EPA. Walnuts provide ALA with variable conversion efficiency.</p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Favour minimally processed whole foods over refined patterns</strong> → intact food matrix and fibre → whole-food structure slows nutrient absorption and supports steadier metabolic and neuroendocrine regulation across the day.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/oats">Oats</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a></span></p>
+</li>
+</ul>
 </div>
 
-<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Prioritise stable meal composition, consistent meal timing, and minimally processed foods that support sustained energy availability and metabolic flexibility. Build meals that combine protein, fibre-rich carbohydrates, and healthy fats; include protein-rich breakfasts where appropriate, polyphenol-rich plant foods, and omega-3-containing seafoods. Favour dietary patterns that minimise blood sugar swings and unnecessary inflammatory burden.</p>
+</div>
+</div>
+</div>
 
-<div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Target Foods</strong>
+<strong>Optimisation Levers</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list brs-hub-star-food-list">
-<li class="brs-hub-star-food"><a href="/docs/foods/barley" class="brs-hub-star-food-link"><strong>Barley</strong></a><p class="brs-hub-star-food-why">One of the richest whole-food sources of soluble fibre, promoting stable post-meal glucose responses, microbial fermentation, and metabolic flexibility.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/blueberries" class="brs-hub-star-food-link"><strong>Blueberries</strong></a><p class="brs-hub-star-food-why">Polyphenol-rich fruit that supports vascular function, metabolic signalling, and oxidative resilience while providing a low-glycaemic whole-food carbohydrate source.</p></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/chickpeas" class="brs-hub-star-food-link"><strong>Chickpeas</strong></a><p class="brs-hub-star-food-why">Low-glycaemic legume providing protein, fibre and resistant starch that help maintain metabolic stability and reduce post-prandial glucose excursions.</p></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/extra-virgin-olive-oil" class="brs-hub-star-food-link"><strong>Extra Virgin Olive Oil</strong></a><p class="brs-hub-star-food-why">Provides monounsaturated fats and polyphenols that support insulin sensitivity, reduce inflammatory burden, and complement healthy metabolic regulation.</p></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/greek-yogurt" class="brs-hub-star-food-link"><strong>Greek Yogurt (plain, unsweetened)</strong></a><p class="brs-hub-star-food-why">Provides high-quality protein and a favourable food matrix that supports appetite regulation, metabolic control and structured meal composition.</p></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/lentils" class="brs-hub-star-food-link"><strong>Lentils</strong></a><p class="brs-hub-star-food-why">Combines slowly digested carbohydrate, protein and fermentable fibre, supporting stable energy delivery, insulin regulation, and appetite control.</p></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/oats" class="brs-hub-star-food-link"><strong>Oats</strong></a><p class="brs-hub-star-food-why">Rich in β-glucan and slowly digested carbohydrates that support sustained energy availability, glycaemic stability, satiety, and favourable metabolic signalling.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/salmon" class="brs-hub-star-food-link"><strong>Salmon</strong></a><p class="brs-hub-star-food-why">Rich in omega-3 fatty acids and high-quality protein, supporting metabolic resilience, neuroendocrine function, and recovery following physiological stress.</p></li>
-</ul>
-
-</div>
-</div>
-</div>
+<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS6 yet.</em></p>
 
 </div>
 </div>
@@ -97,13 +107,6 @@ Maintain adaptive metabolic regulation and metabolic flexibility so the brain ca
 </div>
 <!-- brs-hub-levers:end -->
 
-## Overview
-
-The brain must continuously allocate limited metabolic resources across cognition, arousal, immune activity, and recovery. BRS6 describes the integrated regulatory capacity that keeps this process adaptive rather than chronically stressed or metabolically constrained. Glycaemic regulation, metabolic flexibility, neuroendocrine rhythm, autonomic balance, and physiological recovery work together so energy can be allocated efficiently across changing cognitive, physiological and environmental demands. Nutrition influences these capacities through meal composition, nutrient timing, circadian-aligned eating, and dietary patterns that minimise unnecessary metabolic stress.
-
-* Coordinates post-meal fuel delivery, glycaemic stability, and insulin-supported disposal so cognitive energy availability stays continuous rather than spike-and-crash driven.
-* Coordinates meal timing and neuroendocrine rhythms to support adaptive energy regulation and physiological recovery.
-* Helps contain cumulative metabolic and autonomic strain so energy remains available for brain-relevant regulation — supporting BRS1 and BRS3.
 ## Therapeutic Area Research
 
 <!-- brs-hub-ta-research:start -->
@@ -119,30 +122,50 @@ The brain must continuously allocate limited metabolic resources across cognitio
 
 ### Introduction
 
-The neuroendocrine and autonomic systems, together with the enteric nervous system (ENS), form a tightly interwoven network regulating stress responses, metabolism, and gut–brain communication. The hypothalamic–pituitary–adrenal (HPA) axis orchestrates cortisol rhythms and systemic stress signalling, while the autonomic nervous system (ANS) integrates sympathetic activation with parasympathetic recovery. The sympatho-adreno-medullary (SAM) axis releases adrenaline and noradrenaline within seconds of a stressor. These systems mediate feedback loops between diet, inflammation, and brain function and are highly responsive to circadian and nutritional inputs.
+Metabolic and neuroendocrine regulation in ADHD reflects the integrated performance of multiple whole-body regulatory capacities rather than disruption of a single hormone or glucose pathway. These capacities include glycaemic stability and insulin-supported cognitive energy availability, HPA-axis cortisol rhythm, autonomic balance and vagal recovery, and stress-linked metabolic-inflammatory load allocation. BRS6 organises these as connected functional mechanisms rather than isolated biomarkers.
 
-Preserving intact food matrices can blunt post-prandial glycaemic excursions, support brain insulin sensitivity, and stabilise dopamine–insulin coupling—mechanisms relevant to motivation and impulsive behaviour regulation.
+### Dietary and lifestyle context
 
-Omega-3 fatty acids (EPA/DHA) may improve vagal tone and heart-rate variability (HRV), supporting cortisol rhythm context, inflammatory balance, and BDNF signalling.
+Meal composition, glycaemic load, circadian-aligned feeding, physical activity, sleep regularity, and stress-recovery routines all influence how these capacities perform. In ADHD contexts, evidence is interpreted through connected BRS6 FMs and PMs — with cross-links to BRS1 dopaminergic reward context and BRS3 inflammatory load where relevant.
 
-Dietary and lifestyle inputs—including nutrient-based modulators (magnesium, polyphenols, B vitamins), meal sequencing, circadian-aligned timing, gut-barrier support, and adipose-metabolic load management—provide leverage points to buffer HPA–ANS dysregulation and metabolic strain.
+### ADHD translational biological context
 
-### ADHD: Metabolic & Neuroendocrine Context
+ADHD-relevant metabolic and neuroendocrine evidence comes from studies in ADHD cohorts or ADHD-focused reviews: meta-analytic cortisol and inflammatory biomarker patterns in youths with ADHD [Chang et al., 2021](/docs/papers/BRAIN-Diet-References#chang_cortisol_2021); cortisol, inflammatory biomarkers, and neurotrophins in children and adolescents with ADHD [Chang et al., 2020](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020); cortisol levels in children with ADHD [Isaksson et al., 2012](/docs/papers/BRAIN-Diet-References#isaksson_cortisol_2012); sensory over-responsivity differentiated from ADHD using cortisol and autonomic markers [Lane et al., 2010](/docs/papers/BRAIN-Diet-References#lane_sensory_2010); altered cerebral glucose metabolism in adults with hyperactivity of childhood onset [Zametkin et al., 1990](/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990); metabolic syndrome and insulin resistance prevalence in adult ADHD outpatients [Di Girolamo et al., 2022](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022); bridging review of shared ADHD and metabolic-disorder mechanisms [Marcelli et al., 2025](/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025); and unhealthy dietary patterns linked to ADHD in case–control path analysis [Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019). General glycaemic, vagal, and psychobiotic mechanistic papers belong on BRS6 architecture pages rather than this ADHD dropdown.
 
-In ADHD, stress circuitry is often dysregulated. Children with sensory over-responsivity show prolonged sympathetic arousal and sustained cortisol elevations, suggesting compounded SAM and HPA dysregulation. While ~20% of the general population report clinically relevant fatigue, the rate in ADHD is ~62%; ADHD burnout may arise from sustained sympathetic drive combined with blunted cortisol recovery.
+Collectively, these findings do not imply that metabolic or neuroendocrine dysregulation is universal in ADHD, nor that individual biomarkers define the disorder. Instead, they support interpreting metabolic and neuroendocrine biology as a modifiable regulatory system through which dietary, lifestyle, and circadian interventions may influence cognitive and behavioural function. This translational perspective underpins the BRS6 architecture.
 
-Cortisol profiles in ADHD are frequently abnormal, including blunted cortisol awakening responses and flattened daily rhythms. Genetic variation in HPA-axis regulators, including NR3C1 polymorphisms, supports a heritable component to stress dysregulation. These irregularities may amplify poor resilience, impulsivity, anxiety, and impaired decision-making.
+### ADHD evidence and connected BRS6 mechanisms
 
-ADHD often co-occurs with obesity, insulin resistance, and dysglycaemia; shared pathways include dopaminergic reward impairment, HPA-axis disturbance, chronic low-grade inflammation, and oxidative stress. PET studies have shown altered glucose metabolism in prefrontal and striatal regions in ADHD. High sugar intake and glycaemic variability may compound metabolic and neurocognitive dysregulation in vulnerable individuals.
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| Meta-analysis reports altered basal and morning cortisol patterns in youths with ADHD compared with typically developing peers | [Chang et al., 2021](/docs/papers/BRAIN-Diet-References#chang_cortisol_2021) | [BRS6(FM2)](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation), [BRS6-FM2-PM4](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation), [BRS6-FM4-PM9](/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation) |
+| Cortisol, inflammatory biomarkers, and neurotrophins measured in children and adolescents with ADHD in Taiwan | [Chang et al., 2020](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020) | [BRS6-FM2-PM4](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation), [BRS6-FM3-PM6](/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery) |
+| Cortisol levels reported in children with ADHD | [Isaksson et al., 2012](/docs/papers/BRAIN-Diet-References#isaksson_cortisol_2012) | [BRS6-FM2-PM4](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation) |
+| Sensory over-responsivity and ADHD differentiated using electrodermal responses, cortisol, and anxiety | [Lane et al., 2010](/docs/papers/BRAIN-Diet-References#lane_sensory_2010) | [BRS6(FM3)](/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity), [BRS6-FM3-PM6](/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery), [BRS6-FM2-PM4](/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation) |
+| PET study showed altered cerebral glucose metabolism in prefrontal and striatal regions in adults with hyperactivity of childhood onset | [Zametkin et al., 1990](/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990) | [BRS6(FM1)](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability), [BRS6-FM1-PM1](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics), [BRS6-FM1-PM2](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) |
+| Prevalence of metabolic syndrome and insulin resistance in a sample of adult ADHD outpatients | [Di Girolamo et al., 2022](/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022) | [BRS6-FM1-PM3](/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal), [BRS6-FM4-PM8](/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling) |
+| Narrative review bridging ADHD and metabolic disorders, synthesising shared mechanisms and clinical implications | [Marcelli et al., 2025](/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025) | [BRS6(FM4)](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation), [BRS6(FM1)](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) |
+| Unhealthy dietary pattern linked to ADHD in case–control path analysis | [Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019) | [BRS6-FM1-PM1](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics), [BRS6-FM4-PM9](/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation) |
 
-- Targeting dopamine via fatty and sugary foods is common in ADHD populations, likely reflecting the double dopamine reward from eating. Orosensory and post-ingestive dopaminergic circuits can be used sparingly as dietary strategies when nutrition is needed; at other times non-food approaches may be preferable.
-- Ultra-processed foods may hijack the double dopamine reward system and contribute to dysregulation and addictive eating patterns.
+### Current evidence limitations
 
-Glycaemic stabilization, SCFA production, polyphenol intake, and anxiolytic probiotic interventions may exert downstream effects on emotional regulation through modulation of HPA axis activity, limbic signalling, and neurotransmitter systems.
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| Human dietary intervention studies directly measuring glycaemic, HPA-axis, and autonomic functional mechanisms in ADHD remain limited | Future evidence integration | BRS6-wide; especially [BRS6(FM1)](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability), [BRS6(FM2)](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation), [BRS6(FM3)](/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity), and [BRS6(FM4)](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation) |
+
+### Framework expansion
+
+- **Cross-BRS shared evidence:** cortisol and inflammatory biomarker work ([Chang et al., 2020](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020)) is routed here for HPA and autonomic interpretation and is also represented on [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress); dietary pattern associations ([Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019)) are also represented on [BRS2 — Methylation & One-Carbon Metabolism](/docs/biological-targets/methylation-one-carbon-metabolism).
 
 </div>
 </div>
 </div>
+
+</div>
+<!-- brs-hub-ta-research:end -->
+
+---
+
 ## Functional Mechanisms
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
@@ -309,9 +332,6 @@ Supports integrated regulation of metabolic-inflammatory load and stress-linked 
 </div>
 </div>
 
-</div>
-<!-- brs-hub-ta-research:end -->
-
 ---
 
 ## Requirements (Key Constraints)
@@ -363,9 +383,3 @@ These factors modulate system behaviour but are not part of the core BRS structu
 - Impaired focus under stress
 - Disrupted sleep patterns
 - Increased metabolic and inflammatory strain
-
----
-
-## References
-
-- [Mohamed and Kobeissy (2024) — An Evidence-Based Approach to Understanding the Diet-Brain Connection](/docs/papers/BRAIN-Diet-References#mohamed_nutrition_2024)

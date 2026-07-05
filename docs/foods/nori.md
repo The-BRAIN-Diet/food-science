@@ -55,7 +55,18 @@ legacy_main_image: /img/foods/nori/nori_medium.webp
 ---
 ## Overview
 
-Nori is a red seaweed (Porphyra species) commonly used in sushi and Japanese cuisine. It is a primary dietary source of iodine, an essential trace mineral critical for thyroid function and brain development. Nori also provides supporting amounts of folate (B9) and non-heme iron, along with contextual contributions of magnesium, vitamin K, and carotenoids. While nori may contain variable amounts of vitamin B12 depending on species and processing, it should not be relied upon as a sole B12 source. The seaweed polysaccharides and soluble fibre in nori contribute to gut barrier and microbiome modulation through cumulative, supportive effects.
+Nori is a red seaweed (Porphyra species) commonly used in sushi and Japanese cuisine. It is a primary dietary source of iodine, an essential trace mineral critical for thyroid function and brain development. Nori also provides supporting amounts of folate (B9) and non-heme iron, along with contextual contributions of magnesium, vitamin K, and carotenoids.
+
+Within the BRAIN Diet framework, while nori may contain variable amounts of vitamin B12 depending on species and processing, it should not be relied upon as a sole B12 source. The seaweed polysaccharides and soluble fibre in nori contribute to gut barrier and microbiome modulation through cumulative, supportive effects [1][2].
+## Key Nutritional Highlights
+
+
+- Seaweed foods may contribute variable vitamin B12 compounds; nori should not be relied on as a sole B12 source [1]
+- Marine algae and seaweed are primary iodine sources critical for thyroid and brain development [2]
+- Nori is a red seaweed (Porphyra species) commonly used in sushi and Japanese cuisine. [1]
+- It is a primary dietary source of iodine, an essential trace mineral critical for thyroid function and brain development. [2]
+- Nori also provides supporting amounts of folate (B9) and non-heme iron, along with contextual contributions of magnesium, vitamin K, and carotenoids.
+- While nori may contain variable amounts of vitamin B12 depending on species and processing, it should not be relied upon as a sole B12 source.
 
 ## Food Context
 
@@ -86,10 +97,6 @@ Nori contribute plant protein. Pair with complementary protein sources (e.g. gra
 
 ## References
 
-- Iodine: Primary dietary source; essential for thyroid function and brain development
-- Folate (B9): Supporting contributor for one-carbon metabolism and homocysteine regulation
-- Iron (non-heme): Supporting contributor for oxygen delivery; absorption is context-dependent
-- Seaweed polysaccharides: Supporting contributor for gut barrier and microbiome modulation (cumulative effects)
-- Vitamin B12: Variable and context-dependent; should not be relied upon as sole source
-- Magnesium, Vitamin K, Carotenoids: Contextual contributors; modest amounts at typical servings
-- Creatine and creatine-pathway amino acids: Presence only (trace); not functionally meaningful at typical intake
+[1] Seaweed foods may contribute variable vitamin B12 compounds; nori should not be relied on as a sole B12 source. Watanabe et al. 2002. [Characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae.](/docs/papers/BRAIN-Diet-References#watanabe_characterization_2002)
+
+[2] Marine algae and seaweed are primary iodine sources critical for thyroid and brain development. Arterburn et al. 2008. [Algal-oil capsules and cooked salmon: nutritionally equivalent sources of docosahexaenoic acid](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008)

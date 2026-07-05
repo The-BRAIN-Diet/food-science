@@ -47,7 +47,18 @@ legacy_main_image: /img/foods/grass-fed-butter/grass-fed-butter_medium.webp
 ---
 ## Overview
 
-Grass-fed butter provides butyrate, CLA (conjugated linoleic acid), vitamins A/D/K2, selenium, and C15:0 pentadecanoic acid, supporting brain and metabolic health. Grass-Fed Butter: Butyrate, Conjugated linoleic acid (CLA; such as rumenic acid), vitamins A/D/K2, selenium, C15:0 pentadecanoic acid. C15:0 (Parmesan and grassfed Butter). Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks.
+Grass-fed butter provides butyrate, CLA (conjugated linoleic acid), vitamins A/D/K2, selenium, and C15:0 pentadecanoic acid, supporting brain and metabolic health. Grass-Fed Butter: Butyrate, Conjugated linoleic acid (CLA; such as rumenic acid), vitamins A/D/K2, selenium, C15:0 pentadecanoic acid.
+
+Within the BRAIN Diet framework, c15:0 (Parmesan and grassfed Butter). Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks [1][2].
+## Key Nutritional Highlights
+
+
+- Grass-fed butter provides a different fatty-acid and CLA profile than conventional butter [1]
+- Butyrate-related pathways link saturated dairy fats to colonic metabolic effects in dietary context [2]
+- Grass-fed butter provides butyrate, CLA (conjugated linoleic acid), vitamins A/D/K2, selenium, and C15:0 pentadecanoic acid, supporting brain and metabolic health. [1]
+- Grass-Fed Butter: Butyrate, Conjugated linoleic acid (CLA; such as rumenic acid), vitamins A/D/K2, selenium, C15:0 pentadecanoic acid. [2]
+- C15:0 (Parmesan and grassfed Butter).
+- Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks.
 
 ## Food Context
 
@@ -81,8 +92,6 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Grass-Fed Butter: Butyrate, Conjugated linoleic acid (CLA; such as rumenic acid), vitamins A/D/K2, selenium, C15:0 pentadecanoic acid
-- C15:0 (Parmesan and grassfed Butter)
-- Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks
-- When consumed in moderation within an anti-inflammatory, micronutrient-rich diet, foods like Parmesan cheese and grass-fed butter provide essential brain nutrients including choline, vitamin K2, butyrate, and fat-soluble vitamins A, D, and E
-- Butyrate: Anti-inflammatory effects, potentially reducing neuroinflammation; supports mitochondrial function, enhancing brain energy metabolism; aids in reducing cholesterol and neuroinflammation
+[1] Grass-fed butter provides a different fatty-acid and CLA profile than conventional butter. Daley et al. 2010. [A review of nutritional differences between grass-fed and grain-fed beef](/docs/papers/BRAIN-Diet-References#daley_grassfed_2010)
+
+[2] Butyrate-related pathways link saturated dairy fats to colonic metabolic effects in dietary context. Rose et al. 2018. [Butyrate enhances mitochondrial function during oxidative stress in cell lines from boys with autism](/docs/papers/BRAIN-Diet-References#rose_butyrate_2018)

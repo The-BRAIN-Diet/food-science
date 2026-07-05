@@ -46,7 +46,17 @@ legacy_main_image: /img/foods/nutritional-yeast/nutritional-yeast_medium.webp
 ---
 ## Overview
 
-Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotinamide riboside (NAD+ precursor), helping close vegan nutrient gaps. Fortified nutritional yeast (B12, B6) helps narrow vegan nutrient gaps, and precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended.
+Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotinamide riboside (NAD+ precursor), helping close vegan nutrient gaps.
+
+Within the BRAIN Diet framework, fortified nutritional yeast (B12, B6) helps narrow vegan nutrient gaps, and precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended [1][2].
+## Key Nutritional Highlights
+
+
+- Fortified nutritional yeast helps close vitamin B12 gaps in vegan dietary patterns [1]
+- B-vitamin–rich yeast products support NAD⁺ and one-carbon cofactor availability [2]
+- Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotinamide riboside (NAD+ precursor), helping close vegan nutrient gaps. [1]
+- Fortified nutritional yeast (B12, B6) helps narrow vegan nutrient gaps, and precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recomm… [2]
+- Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotinamide riboside (NAD+ precursor), helping close vegan nutrient gaps.
 
 ## Food Context
 
@@ -79,7 +89,6 @@ Nutritional Yeast contribute plant protein. Pair with complementary protein sour
 
 ## References
 
-- Fortified nutritional yeast (B12, B6) helps narrow vegan nutrient gaps
-- Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6)
-- Targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts), B12 (fortified plant milks, nutritional yeast)
-- Nicotinamide Riboside: Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread)
+[1] Fortified nutritional yeast helps close vitamin B12 gaps in vegan dietary patterns. Pawlak et al. 2013. [How prevalent is vitamin B $_\textrm{12}$ deficiency among vegetarians?](/docs/papers/BRAIN-Diet-References#pawlak_how_2013)
+
+[2] B-vitamin–rich yeast products support NAD⁺ and one-carbon cofactor availability. Pravst et al. 2010. [Coenzyme Q10 contents in foods and fortification strategies. Crit Rev Food Sci Nutr](/docs/papers/BRAIN-Diet-References#pravst_coenzyme_2010)

@@ -40,7 +40,16 @@ legacy_main_image: /img/foods/fermented-vegetables/fermented-vegetables_medium.w
 ---
 ## Overview
 
-Fermented vegetables provide live probiotics, postbiotic compounds, and enhanced nutrient bioavailability, supporting gut-brain axis communication. Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. Fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels.
+Fermented vegetables provide live probiotics, postbiotic compounds, and enhanced nutrient bioavailability, supporting gut-brain axis communication. Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
+
+Within the BRAIN Diet framework, fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels [1].
+## Key Nutritional Highlights
+
+
+- Reports on b-Group vitamin production by lactic acid bacteria - current knowledge and potential applications: Vitamin production by LAB [1]
+- Fermented vegetables provide live probiotics, postbiotic compounds, and enhanced nutrient bioavailability, supporting gut-brain axis communication. [1]
+- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
+- Fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels.
 
 ## Food Context
 

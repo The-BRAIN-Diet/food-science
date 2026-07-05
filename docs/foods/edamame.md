@@ -48,7 +48,17 @@ legacy_main_image: /img/foods/edamame/edamame_medium.webp
 ---
 ## Overview
 
-Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, plus complete plant protein and isoflavones. Nicotinamide Mononucleotide (NMN) is a direct NAD⁺ intermediate in salvage pathway found in edamame, broccoli, cucumber, and avocado.
+Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, plus complete plant protein and isoflavones.
+
+Within the BRAIN Diet framework, nicotinamide Mononucleotide (NMN) is a direct NAD⁺ intermediate in salvage pathway found in edamame, broccoli, cucumber, and avocado [1][2].
+## Key Nutritional Highlights
+
+
+- Edamame supplies soy isoflavones such as genistein studied for metabolic and neuroinflammatory pathways [1]
+- Young soybeans provide complete plant protein with favourable digestibility for a legume [2]
+- Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, plus complete plant protein and isoflavones. [1]
+- Nicotinamide Mononucleotide (NMN) is a direct NAD⁺ intermediate in salvage pathway found in edamame, broccoli, cucumber, and avocado. [2]
+- Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, plus complete plant protein and isoflavones.
 
 ## Food Context
 
@@ -78,4 +88,6 @@ Edamame provide a relatively complete plant protein (higher in lysine than most 
 
 ## References
 
-- Nicotinamide Mononucleotide (NMN): Direct NAD⁺ intermediate in salvage pathway - Edamame, broccoli, cucumber, avocado
+[1] Edamame supplies soy isoflavones such as genistein studied for metabolic and neuroinflammatory pathways. Fuloria et al. 2022. [Genistein: A Potential Natural Lead Molecule for New Drug Design and Development for Treating Memory Impairment](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)
+
+[2] Young soybeans provide complete plant protein with favourable digestibility for a legume. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

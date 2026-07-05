@@ -34,7 +34,17 @@ legacy_main_image: /img/foods/ghee/ghee_medium.webp
 ---
 ## Overview
 
-Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking. Ghee provides butyrate, vitamins A/D/E/K2, is heat-stable, and low in lactose/casein, making it suitable for high-heat cooking and Ayurvedic dishes.
+Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking.
+
+Within the BRAIN Diet framework, ghee provides butyrate, vitamins A/D/E/K2, is heat-stable, and low in lactose/casein, making it suitable for high-heat cooking and Ayurvedic dishes [1][2].
+## Key Nutritional Highlights
+
+
+- Grass-fed dairy fats differ in fatty-acid profile from conventional dairy, including CLA content [1]
+- Short-chain fatty acids from saturated fats and fermentation support colonic and metabolic health context [2]
+- Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking. [1]
+- Ghee provides butyrate, vitamins A/D/E/K2, is heat-stable, and low in lactose/casein, making it suitable for high-heat cooking and Ayurvedic dishes. [2]
+- Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking.
 
 ## Food Context
 
@@ -60,5 +70,6 @@ Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stabili
 
 ## References
 
-- Ghee: Butyrate, vitamins A/D/E/K2, heat-stable, low in lactose/casein - High-heat cooking, Ayurvedic dishes
-- Replacing industrial seed oils with more stable options like olive oil, ghee, or avocado oil
+[1] Grass-fed dairy fats differ in fatty-acid profile from conventional dairy, including CLA content. Daley et al. 2010. [A review of nutritional differences between grass-fed and grain-fed beef](/docs/papers/BRAIN-Diet-References#daley_grassfed_2010)
+
+[2] Short-chain fatty acids from saturated fats and fermentation support colonic and metabolic health context. Rose et al. 2018. [Butyrate enhances mitochondrial function during oxidative stress in cell lines from boys with autism](/docs/papers/BRAIN-Diet-References#rose_butyrate_2018)

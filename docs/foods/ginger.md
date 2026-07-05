@@ -44,7 +44,17 @@ legacy_main_image: /img/foods/ginger/ginger_medium.webp
 ---
 ## Overview
 
-Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects, and prokinetic properties helpful for SIBO management. Ginger supports gut-brain axis support and anti-inflammatory effects at 1–2 g/day fresh or powdered root, and many members of the Zingiberaceae family (which includes ginger, turmeric, and galangal) have pleiotropic effects overlapping between metabolic regulation and neurocognitive outcomes.
+Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects, and prokinetic properties helpful for SIBO management.
+
+Within the BRAIN Diet framework, ginger supports gut-brain axis support and anti-inflammatory effects at 1–2 g/day fresh or powdered root, and many members of the Zingiberaceae family (which includes ginger, turmeric, and galangal) have pleiotropic effects overlapping between metabolic regulation and neurocognitive outcomes [1][2].
+## Key Nutritional Highlights
+
+
+- Culinary herbs and spices including ginger contribute bioactive polyphenols with anti-inflammatory relevance [1]
+- Plant-derived bioactives influence gut microbiota composition linked to gut–brain axis pathways [2]
+- Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects, and prokinetic properties helpful for SIBO management. [1]
+- Ginger supports gut-brain axis support and anti-inflammatory effects at 1–2 g/day fresh or powdered root, and many members of the Zingiberaceae family (which includes ginger, turmeric, and galangal) have pleiotropic effects overlapping b… [2]
+- Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects, and prokinetic properties helpful for SIBO management.
 
 ## Food Context
 
@@ -70,6 +80,6 @@ Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects
 
 ## References
 
-- Ginger: Gut-brain axis support, anti-inflammatory - 1–2 g/day fresh or powdered root
-- Overgrowth Suppression (SIBO, Candida, Pathobionts): Polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger)
-- Many members of the Zingiberaceae family (which includes ginger, turmeric, and galangal) have pleiotropic effects overlapping between metabolic regulation and neurocognitive outcomes
+[1] Culinary herbs and spices including ginger contribute bioactive polyphenols with anti-inflammatory relevance. Bruni et al. 2021. [Herbal Remedies and Their Possible Effect on the GABAergic System and Sleep](/docs/papers/BRAIN-Diet-References#bruni_herbal_2021)
+
+[2] Plant-derived bioactives influence gut microbiota composition linked to gut–brain axis pathways. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

@@ -33,7 +33,17 @@ legacy_main_image: /img/foods/leeks/leeks_medium.webp
 ---
 ## Overview
 
-Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity. Fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus, and are part of the allium family with prebiotic benefits.
+Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity.
+
+Within the BRAIN Diet framework, fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus, and are part of the allium family with prebiotic benefits [1][2].
+## Key Nutritional Highlights
+
+
+- Allium vegetables including leeks supply organosulfur compounds and prebiotic fructans [1]
+- Fermentable fibres from alliums support beneficial gut microbiota taxa [2]
+- Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity. [1]
+- Fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus, and are part of the allium family with prebiotic benefits. [2]
+- Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity.
 
 ## Food Context
 
@@ -59,4 +69,6 @@ Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fib
 
 ## References
 
-- Fructooligosaccharides (FOS): Onions, garlic, leeks, asparagus
+[1] Allium vegetables including leeks supply organosulfur compounds and prebiotic fructans. Nicastro et al. 2015. [Garlic and onions: their cancer prevention properties](/docs/papers/BRAIN-Diet-References#nicastro_garlic_onions_2015)
+
+[2] Fermentable fibres from alliums support beneficial gut microbiota taxa. Pouille et al. 2022. [Chicory: Understanding the Effects and Effectors of This Functional Food](/docs/papers/BRAIN-Diet-References#pouille_chicory_2022)

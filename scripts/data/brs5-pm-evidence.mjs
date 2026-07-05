@@ -75,6 +75,10 @@ export const BRS5_PM_EVIDENCE = {
         body: "Fermentable fibres, polyphenol-rich plant inputs, and fermented-food patterns create ecological conditions more compatible with beneficial taxa persistence — the support logic this PM operationalises [Jiang et al., 2018]; [Pärtty et al., 2015].",
       },
       {
+        heading: "Probiotic intervention in ADHD cohorts",
+        body: "Open-label Bifidobacterium bifidum supplementation in children with ADHD was associated with symptom change and altered gut microbiota composition — illustrating keystone-taxa modulation as an intervention route, with replication and controlled-trial evidence still limited [Wang et al., 2022].",
+      },
+      {
         heading: "Responder variability in taxa response",
         body: "Microbiome compositional responses to dietary inputs are heterogeneous across individuals, supporting pattern-based ecological pressure rather than guaranteed taxa-level outcomes [Aarts et al., 2017].",
       },
@@ -83,6 +87,7 @@ export const BRS5_PM_EVIDENCE = {
       { citation_key: "jiang_gut_2018", label: "Jiang et al. (2018)" },
       { citation_key: "partty_possible_2015", label: "Pärtty et al. (2015)" },
       { citation_key: "aarts_gut_2017", label: "Aarts et al. (2017)" },
+      { citation_key: "wang_effect_2022", label: "Wang et al. (2022)" },
     ],
   },
   "brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection": {
@@ -129,6 +134,10 @@ export const BRS5_PM_EVIDENCE = {
         body: "Butyrate enhanced mitochondrial function during oxidative stress in neuronal cell models — supporting SCFA output as a bridge to mitochondrial-relevant signalling downstream of fermentation [Rose et al., 2018].",
       },
       {
+        heading: "ADHD cohort SCFA deficit",
+        body: "Children and adolescents with ADHD showed lower faecal short-chain fatty acid levels including acetic, propionic, isobutyric, isovaleric, and valeric acids versus controls — supporting SCFA output as a measurable ecological readout in ADHD cohort work, not a universal biomarker [Steckler et al., 2024].",
+      },
+      {
         heading: "Repeated fermentable substrate delivery",
         body: "SCFA signalling depends on repeated fermentable-fibre substrate availability across days rather than isolated high-fibre boluses divorced from broader ecological support [Silva et al., 2020].",
       },
@@ -137,6 +146,7 @@ export const BRS5_PM_EVIDENCE = {
       { citation_key: "silva_role_2020", label: "Silva et al. (2020)" },
       { citation_key: "hoyles_microbiome-host_2018", label: "Hoyles et al. (2018)" },
       { citation_key: "rose_butyrate_2018", label: "Rose et al. (2018)" },
+      { citation_key: "steckler_disrupted_2024", label: "Steckler et al. (2024)" },
     ],
   },
   "brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation": {

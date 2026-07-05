@@ -43,7 +43,17 @@ legacy_main_image: /img/foods/whey-protein/whey-protein_medium.webp
 ---
 ## Overview
 
-Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function. Whey protein isolate has DIAAS 118–122 with no limiting amino acids, high leucine content, and supports BDNF and neurotransmitter synthesis.
+Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function.
+
+Within the BRAIN Diet framework, whey protein isolate has DIAAS 118–122 with no limiting amino acids, high leucine content, and supports BDNF and neurotransmitter synthesis [1][2].
+## Key Nutritional Highlights
+
+
+- Whey protein isolate scores among the highest DIAAS values for essential amino-acid quality [1]
+- Leucine-rich whey protein acutely stimulates muscle protein synthesis via mTOR signalling [2]
+- Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function. [1]
+- Whey protein isolate has DIAAS 118–122 with no limiting amino acids, high leucine content, and supports BDNF and neurotransmitter synthesis. [2]
+- Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function.
 
 ## Food Context
 
@@ -73,5 +83,6 @@ Whey Protein contribute plant protein. Pair with complementary protein sources (
 
 ## References
 
-- Nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread)
-- Whey protein isolate: DIAAS 118–122, None (limiting amino acids) - High leucine, supports BDNF and neurotransmitter synthesis
+[1] Whey protein isolate scores among the highest DIAAS values for essential amino-acid quality. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+[2] Leucine-rich whey protein acutely stimulates muscle protein synthesis via mTOR signalling. Norton & Layman 2006. [Leucine regulates translation initiation of protein synthesis in skeletal muscle after exercise](/docs/papers/BRAIN-Diet-References#norton_leucine_2006)

@@ -239,6 +239,34 @@ export function buildRegistryNameIndex(registry) {
   return { byName, byId };
 }
 
+export function phenomeDetailDocStem(phenomeId, slug) {
+  return `${String(phenomeId).toLowerCase()}-${slug}`;
+}
+
+/**
+ * @param {{ id?: string, slug?: string }} phenome
+ * @returns {string | null}
+ */
+export function phenomeDetailUrlFromEntry(phenome) {
+  const id = String(phenome?.id || "").trim();
+  const slug = String(phenome?.slug || "").trim();
+  if (!id || !slug) return null;
+  return `/docs/phenomes/details/${phenomeDetailDocStem(id, slug)}`;
+}
+
+/**
+ * @param {string} name
+ * @param {{ phenomes: Array<{ id: string, name: string, slug?: string }> }} registry
+ * @returns {string | null}
+ */
+export function phenomeDetailUrlForName(name, registry) {
+  const label = String(name || "").trim();
+  if (!label) return null;
+  const { byName } = buildRegistryNameIndex(registry);
+  const entry = byName.get(label);
+  return entry ? phenomeDetailUrlFromEntry(entry) : null;
+}
+
 /**
  * @param {Array<Record<string, unknown>>} relationships
  * @param {{ phenomes: Array<{ id: string, name: string }> }} registry

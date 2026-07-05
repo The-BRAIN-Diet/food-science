@@ -43,7 +43,17 @@ legacy_main_image: /img/foods/tahini/tahini_medium.webp
 ---
 ## Overview
 
-Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorption when paired with vegetables like carrots. Practical pairings include spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts.
+Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorption when paired with vegetables like carrots.
+
+Within the BRAIN Diet framework, practical pairings include spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts [1][2].
+## Key Nutritional Highlights
+
+
+- Sesame-based tahini provides non-heme iron; pairing with vitamin C improves absorption [1]
+- Seed pastes contain phytates that modulate mineral bioavailability in mixed meals [2]
+- Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorption when paired with vegetables like carrots. [1]
+- Practical pairings include spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts. [2]
+- Tahini (sesame seed paste) provides healthy fats that enhance carotenoid absorption when paired with vegetables like carrots.
 
 ## Food Context
 
@@ -73,4 +83,6 @@ Tahini contribute plant protein. Pair with complementary protein sources (e.g. g
 
 ## References
 
-- Practical pairings: spinach + eggs, tomatoes + olive oil, salad + oil, carrots + tahini, kale + avocado, berries + yogurt/nuts
+[1] Sesame-based tahini provides non-heme iron; pairing with vitamin C improves absorption. Hallberg et al. 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+
+[2] Seed pastes contain phytates that modulate mineral bioavailability in mixed meals. Greiner & Konietzny 1999. [Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)

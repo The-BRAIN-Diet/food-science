@@ -39,7 +39,16 @@ legacy_main_image: /img/foods/tomatoes/tomatoes_medium.webp
 ---
 ## Overview
 
-Tomatoes provide lycopene (carotenoid), vitamin C, and demonstrate food matrix effects where cooking and fat pairing enhance carotenoid absorption. The bioaccessibility of carotenoids in vegetables is remarkably low—lycopene in canned and fresh tomatoes is less than 1%. Prolonged cooking increases access to lycopene in tomatoes where cell walls need to be broken down. Practical pairings include spinach + eggs, tomatoes + olive oil, salad + oil.
+Tomatoes provide lycopene (carotenoid), vitamin C, and demonstrate food matrix effects where cooking and fat pairing enhance carotenoid absorption. The bioaccessibility of carotenoids in vegetables is remarkably low—lycopene in canned and fresh tomatoes is less than 1%.
+
+Within the BRAIN Diet framework, prolonged cooking increases access to lycopene in tomatoes where cell walls need to be broken down. Practical pairings include spinach + eggs, tomatoes + olive oil, salad + oil [1][2].
+## Key Nutritional Highlights
+
+
+- Reports on increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil [1]
+- Reports on iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [2]
+- Reports on the mechanism of the formation and secretion of chylomicrons [3]
+- Reports on carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection [4]
 
 ## Food Context
 

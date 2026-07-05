@@ -44,7 +44,17 @@ legacy_main_image: /img/foods/dark-meat-poultry/dark-meat-poultry_medium.webp
 ---
 ## Overview
 
-Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling. Taurine food sources include scallops, clams, dark-meat poultry, and mackerel.
+Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling.
+
+Within the BRAIN Diet framework, taurine food sources include scallops, clams, dark-meat poultry, and mackerel [1][2].
+## Key Nutritional Highlights
+
+
+- Dark-meat poultry is a practical dietary source of taurine alongside seafood and other animal proteins [1]
+- Poultry provides highly digestible complete protein with strong amino-acid bioavailability [2]
+- Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling. [1]
+- Taurine food sources include scallops, clams, dark-meat poultry, and mackerel. [2]
+- Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling.
 
 ## Food Context
 
@@ -74,4 +84,6 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-- Taurine: Scallops, clams, dark-meat poultry, mackerel
+[1] Dark-meat poultry is a practical dietary source of taurine alongside seafood and other animal proteins. Wójcik et al. 2010. [The potential protective effects of taurine on coronary heart disease](/docs/papers/BRAIN-Diet-References#wojcik_potential_2010)
+
+[2] Poultry provides highly digestible complete protein with strong amino-acid bioavailability. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)

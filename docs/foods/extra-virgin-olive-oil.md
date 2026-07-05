@@ -86,6 +86,13 @@ legacy_main_image: /img/foods/olive-oil/olive-oil_medium.webp
 Extra virgin olive oil (EVOO) is a cornerstone fat in the BRAIN Diet, providing mostly monounsaturated fat (oleic acid) together with meaningful amounts of **vitamin E (alpha-tocopherol)**, **vitamin K₁**, and a dense cluster of **olive-specific polyphenols**. While its basic macronutrient profile looks simple, phenolics such as oleuropein aglycone, oleocanthal, oleacein, and hydroxytyrosol derivatives give EVOO a distinctive antioxidant and anti-inflammatory signature compared with refined seed oils [1,2]. The same polyphenol and tocopherol cluster helps stabilise the oil against oxidation during storage and moderate heat cooking.
 
 Within the BRAIN Diet framework, the brain-relevant benefits of EVOO come primarily from these polyphenols and fat-soluble antioxidants rather than from calories or fat alone. The EFSA-authorised claim for “protection of blood lipids from oxidative stress” requires at least 250 mg/kg of hydroxytyrosol and its derivatives (≈25 mg/100 g) [3]. In practice, many commercial EVOOs fall around ~100–250 mg/kg total phenolics, while early-harvest, high-polyphenol oils can reach ~500–900 mg/kg depending on cultivar, harvest timing, and processing [4]. Used as the default dressing and cooking fat around vegetables, legumes, and whole grains, EVOO helps improve polyphenol bioavailability and supports cardiometabolic and neuroprotective mechanisms as part of a Mediterranean-style pattern [2–4].
+## Key Nutritional Highlights
+
+
+- Reports on monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies [1]
+- Reports on increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil [2]
+- Reports on scientific Opinion on the substantiation of health claims related to polyphenols in olive oil and protection of LDL particles from oxidative damage pursuant to Article 13(1) of Regulation (EC) No 1924/2006 [3]
+- Reports on characterization of phenolic compounds and their contribution to sensory properties of olive oil [4]
 
 ## Food Context
 

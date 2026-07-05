@@ -35,7 +35,17 @@ legacy_main_image: /img/foods/strawberries/strawberries_medium.webp
 ---
 ## Overview
 
-Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant networks and cognitive function. Berries are mentioned as polyphenol-rich foods and are part of polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) in the Mediterranean diet pattern.
+Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant networks and cognitive function.
+
+Within the BRAIN Diet framework, berries are mentioned as polyphenol-rich foods and are part of polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) in the Mediterranean diet pattern [1][2].
+## Key Nutritional Highlights
+
+
+- Berry consumption is associated with cognitive benefits in aging populations [1]
+- Strawberry polyphenols contribute to high-flavonoid dietary patterns linked to cognitive endpoints [2]
+- Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant networks and cognitive function. [1]
+- Berries are mentioned as polyphenol-rich foods and are part of polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) in the Mediterranean diet pattern. [2]
+- Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant networks and cognitive function.
 
 ## Food Context
 
@@ -61,6 +71,6 @@ Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant n
 
 ## References
 
-- Berries are mentioned as polyphenol-rich foods
-- Polyphenol-rich patterns (berries, olives/olive oil, herbs/spices)
-- Part of Mediterranean diet pattern
+[1] Berry consumption is associated with cognitive benefits in aging populations. Hein et al. 2019. [Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
+
+[2] Strawberry polyphenols contribute to high-flavonoid dietary patterns linked to cognitive endpoints. Neshatdoust et al. 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)

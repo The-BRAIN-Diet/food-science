@@ -20,11 +20,11 @@ hide_title: true
 
 ## BRS2 - Methylation & One-Carbon Metabolism
 
-(Methyl-Donor Flux, Epigenetic Support & Membrane Chemistry)
+(Gene Regulation, Membrane Integrity & Neurochemical Support)
 
 ## Ambition
 
-Maintain efficient one-carbon metabolism so the brain can support methylation capacity, membrane renewal, neurotransmitter metabolism, and adaptive cellular regulation.
+Maintain efficient one-carbon metabolism so the brain can sustain methylation capacity, membrane phospholipid renewal, neurotransmitter-relevant chemistry, glutathione formation, and adaptive epigenetic regulation without accumulating homocysteine or depleting methyl-donor reserves.
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -33,39 +33,54 @@ Maintain efficient one-carbon metabolism so the brain can support methylation ca
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Strategy</strong>
+<strong>Dietary Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-hub-levers-key-constraints">
-<p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key dietary constraints include adequate methyl-donor intake from folate-, B12-, choline-, and betaine-rich whole foods, protein spread across the day, and dietary patterns that prevent chronic shortfall in methyl-donor availability.</p>
-<p class="brs-hub-lever-kc-foods">Beetroot, Chard, Clams, Dairy, Eggs, Fish, Fish roe, Kale, Legumes, Meat, Mussels, Oysters, Poultry, Spinach</p>
+<div class="brs-hub-dietary-strategy">
+<p class="brs-hub-dietary-guidance-flow">Pattern → Nutrients → Biology → Target Foods</p>
+<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Prioritise folate- and B12-rich whole foods daily</strong> → folate and vitamin B12 → one-carbon metabolism depends on continuous methyl-donor supply through remethylation pathways; when folate or vitamin B12 availability declines, homocysteine accumulates and one-carbon metabolism becomes less efficient.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/nutritional-yeast">Nutritional Yeast</a> • <a href="/docs/foods/fortified-plant-milks">Fortified Plant Milks</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a></span></p>
+<p class="brs-hub-dietary-guidance-note"><em>Vitamin B12:</em> Vegan dietary patterns should obtain vitamin B12 from fortified foods and/or supplementation where appropriate.</p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Favour betaine-containing foods alongside folate-rich foods</strong> → betaine (trimethylglycine) → provides an alternative remethylation pathway that helps maintain methyl-donor availability when folate-dependent remethylation is under greater demand.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/beetroot">Beetroot</a> • <a href="/docs/foods/quinoa">Quinoa</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include choline-rich foods regularly</strong> → choline and phospholipid precursors → supports one-carbon metabolism while providing substrates for phosphatidylcholine synthesis and healthy membrane renewal.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/salmon-roe">Fish Roe</a> • <a href="/docs/foods/soy">Soy</a> • <a href="/docs/foods/tofu">Tofu</a> • <a href="/docs/foods/tempeh">Tempeh</a> • <a href="/docs/foods/mackerel">Mackerel</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Distribute quality protein across meals</strong> → methionine and sulphur amino acids → maintains methionine-cycle activity while supporting cysteine and glutathione synthesis.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/tofu">Tofu</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux" class="brs-hub-lever-pm">BRS2-FM1-PM4</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Maintain dietary variety across nutrient-dense whole foods</strong> → vitamins B2, B6, B9 and B12, together with magnesium, zinc and selenium → provides the vitamin and mineral cofactors required for efficient remethylation, transsulfuration and one-carbon metabolism.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/nutritional-yeast">Nutritional Yeast</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include phospholipid-rich foods regularly</strong> → phospholipids and phosphatidylcholine precursors → links one-carbon metabolism to phosphatidylcholine synthesis, membrane maintenance and healthy cellular function.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/salmon-roe">Fish Roe</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/eggs">Eggs</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></p>
+</li>
+</ul>
 </div>
 
-<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Include folate-rich leafy greens, eggs, legumes, and liver where appropriate; choline from eggs, fish, and soy; and betaine from beets and spinach. Spread protein across the day rather than concentrating it in one meal. Choose whole foods that retain their B vitamins and methyl donors instead of highly processed alternatives that strip them away.</p>
+</div>
+</div>
+</div>
 
-<div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Target Foods</strong>
+<strong>Optimisation Levers</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list brs-hub-star-food-list">
-<li class="brs-hub-star-food"><a href="/docs/foods/eggs" class="brs-hub-star-food-link"><strong>Eggs</strong></a><p class="brs-hub-star-food-why">Concentrated source of choline, B12, and complete protein supporting homocysteine remethylation, SAMe synthesis, transsulfuration, and phosphatidylcholine formation.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/salmon-roe" class="brs-hub-star-food-link"><strong>Fish Roe</strong></a><p class="brs-hub-star-food-why">Phospholipid-rich seafood supporting phosphatidylcholine formation and the methylation–membrane coupling axis.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/mackerel" class="brs-hub-star-food-link"><strong>Mackerel</strong></a><p class="brs-hub-star-food-why">Oily fish providing B vitamins and phospholipid substrate that support glutathione synthesis and choline–phosphatidylcholine pathways.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/pumpkin-seeds" class="brs-hub-star-food-link"><strong>Pumpkin Seeds</strong></a><p class="brs-hub-star-food-why">Magnesium- and zinc-rich seed supporting SAMe synthesis and enzymatic cofactor sufficiency across methylation-cycle reactions.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/salmon" class="brs-hub-star-food-link"><strong>Salmon</strong></a><p class="brs-hub-star-food-why">Provides B vitamins, selenium, and phospholipid context supporting glutathione synthesis and choline-derived phosphatidylcholine formation.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/sardines" class="brs-hub-star-food-link"><strong>Sardines</strong></a><p class="brs-hub-star-food-why">Oily fish supplying B12, selenium, and phospholipid-bound fats that support transsulfuration, glutathione synthesis, and membrane methylation coupling.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/spinach" class="brs-hub-star-food-link"><strong>Spinach</strong></a><p class="brs-hub-star-food-why">Leafy green rich in folate and betaine that supports folate–B12 remethylation, BHMT-mediated remethylation, and methyl-donor throughput across the one-carbon cycle.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a></span></li>
-</ul>
-
-</div>
-</div>
-</div>
+<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS2 yet.</em></p>
 
 </div>
 </div>
@@ -91,13 +106,6 @@ Maintain efficient one-carbon metabolism so the brain can support methylation ca
 </div>
 <!-- brs-hub-levers:end -->
 
-## Overview
-
-Cells constantly require methyl groups to regulate gene expression, renew membranes, metabolise neurotransmitters, and maintain antioxidant and repair chemistry. BRS2 describes the integrated capacity that keeps one-carbon metabolism flowing rather than bottlenecked at donor shortage, homocysteine accumulation, or transsulfuration strain. Homocysteine remethylation, SAMe synthesis, transsulfuration, and phospholipid formation work together so methyl-donor chemistry supports brain-relevant regulation across systems. Nutrition influences these capacities through folate-, B12-, choline-, and betaine-containing foods, distributed protein intake, and patterns that sustain methionine-cycle throughput.
-
-* Sustains methyl-donor flux and homocysteine recycling so downstream methylation and membrane chemistry remain available.
-* Couples transsulfuration and glutathione formation to broader redox and inflammatory resilience — supporting BRS3.
-* Bridges one-carbon metabolism to neurotransmitter and membrane biology — supporting BRS1.
 ## Therapeutic Area Research
 
 <!-- brs-hub-ta-research:start -->
@@ -117,7 +125,7 @@ Several studies have reported disturbances in methylation-relevant nutrients and
 
 Genetic studies further support the relevance of methylation biology to ADHD. Variants affecting one-carbon metabolism, particularly the MTHFR 1298A>C polymorphism, have shown associations with ADHD susceptibility in meta-analytic evidence, although findings remain inconsistent across individual variants and populations [Meng et al., 2022]. Such variants may alter folate cycling efficiency and methyl-donor availability, increasing dependence on adequate nutritional support of methylation pathways.
 
-Beyond homocysteine recycling, one-carbon metabolism contributes to phosphatidylcholine synthesis through the SAMe-dependent PEMT pathway, creating a mechanistic bridge between methyl-donor nutrition, membrane phospholipid composition, and long-chain omega-3 fatty acid transport [Vance, 2014; Oulhaj et al., 2016; Liu et al., 2014]. Choline also serves as a precursor for acetylcholine synthesis, linking methylation biology to cholinergic neurotransmission. Choline has been implicated across neurodevelopmental disorders including ADHD, while reduced muscarinic acetylcholine receptor binding observed in boys with ADHD provides additional evidence supporting cholinergic involvement in attention and cognitive control [Derbyshire and Maes, 2023; Johansson et al., 2013].
+Beyond homocysteine recycling, one-carbon metabolism contributes to phosphatidylcholine synthesis through the SAMe-dependent PEMT pathway, creating a mechanistic bridge between methyl-donor nutrition, membrane phospholipid composition, and long-chain omega-3 fatty acid transport. Choline also serves as a precursor for acetylcholine synthesis, linking methylation biology to cholinergic neurotransmission. Choline has been implicated across neurodevelopmental disorders including ADHD, while reduced muscarinic acetylcholine receptor binding observed in boys with ADHD provides additional evidence supporting cholinergic involvement in attention and cognitive control [Derbyshire and Maes, 2023; Johansson et al., 2013].
 
 Taken together, current evidence suggests that one-carbon metabolism may represent an important biological context within ADHD, linking dietary methyl-donor status, genetic susceptibility, membrane phospholipid metabolism, and cholinergic signalling. However, findings remain heterogeneous and do not support a universal methylation-based model of ADHD.
 
@@ -291,28 +299,3 @@ Key Constraints (KCs) in BRS2 describe shared precursor and structural biologica
 Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS2 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), **SM-Pattern** (e.g. vegan, vegetarian, ketogenic), and **SM-Phenotype** (e.g. hyperarousal, emotional dysregulation, sensory regulation). Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
 
 - [BRS2(SM-SNP1) — Genetic Modifiers of One-Carbon Metabolism](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency)
-
----
-
-## References
-
-- [Kacser and Burns (1973) — Control of Flux](/docs/papers/BRAIN-Diet-References#kacser_control_1973)
-- [Aragão et al. (2024) — Unveiling Its Timeless Significance in Human Physiology and Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
-- [Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
-- [Tao Huang et al. (2015) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015)
-- [Oulhaj et al. (2016) — Omega-3 Fatty Acid Status Enhances the Prevention of Cognitive Decline by B](/docs/papers/BRAIN-Diet-References#oulhaj_omega-3_2016)
-- [Razavinia et al. (2024) — Vitamins B₉ and B₁₂ in Children with Attention Deficit Hyperactivity](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024)
-- [Millichap and Yee (2012) — Diet Factor in Attention-Deficit/Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#millichap_diet_2012)
-- [Meng et al. (2022) — Association between MTHFR (677C>T and 1298A>C) Polymorphisms and Psychiatric Disorder](/docs/papers/BRAIN-Diet-References#meng_association_2022)
-- [Chiang et al. (1996) — S-Adenosylmethionine and Methylation](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996)
-- [Kumar et al. (2017) — Transsulfuration Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
-- [Minich et al. (2019) — A Review of Dietary (Phyto)Nutrients for Glutathione Support](/docs/papers/BRAIN-Diet-References#minich_glutathione_2019)
-- [Vance (2014) — Physiological Roles of Phosphatidylethanolamine N-methyltransferase](/docs/papers/BRAIN-Diet-References#vance_phospholipid_2014)
-- [Liu et al. (2014) — Higher Efficacy of Dietary DHA Provided As a Phospholipid Than As a](/docs/papers/BRAIN-Diet-References#liu_higher_2014)
-- [Lukovac et al. (2024) — Implications of Homocysteine, Vitamin B12, Vitamin D, Ferritin, and Iron Levels](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024)
-- [Luzzi et al. (2022) — State of the Art](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022)
-- [Derbyshire and Maes (2023) — Role of Choline in Neurodevelopmental Disorders](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
-- [Johansson et al. (2013) — Decreased Binding Capacity (B Max) of Muscarinic Acetylcholine Receptors in Fibroblasts from](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013)
-- [Orth et al. (2010) — What Is Flux Balance Analysis?](/docs/papers/BRAIN-Diet-References#orth_what_2010)
-- [Sterling and Eyer (1988) — A New Paradigm to Explain Arousal Pathology](/docs/papers/BRAIN-Diet-References#sterling_allostasis_1988)
-- [McEwen (2006) — Protective and Damaging Effects of Stress Mediators in Health and Disease](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006)

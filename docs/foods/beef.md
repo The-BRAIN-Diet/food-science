@@ -117,7 +117,7 @@ Beef provides a complete essential amino acid profile with high digestibility an
 
 [1] Including creatine. Avgerinos & Spyrou 2018. [Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
 
-[2] Coenzyme Q10 (CoQ10). Crane et al. 2001. [Biochemical functions of coenzyme Q\textsubscript{10}](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
+[2] Coenzyme Q10 (CoQ10). Crane et al. 2001. [Biochemical functions of coenzyme Q10](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
 
 [3] And highly bioavailable heme iron. Beard et al. 2003. [Iron Deficiency Alters Brain Development and Functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
 

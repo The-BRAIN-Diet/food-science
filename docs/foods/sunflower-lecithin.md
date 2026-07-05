@@ -30,7 +30,17 @@ legacy_main_image: /img/foods/sunflower-lecithin/sunflower-lecithin_medium.webp
 ---
 ## Overview
 
-Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering a soy-free alternative for those avoiding soy. Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery.
+Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering a soy-free alternative for those avoiding soy.
+
+Within the BRAIN Diet framework, vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery [1][2].
+## Key Nutritional Highlights
+
+
+- Sunflower lecithin provides phosphatidylcholine for choline intake in plant-based diets [1]
+- Adequate choline supports neurotransmitter synthesis and membrane integrity [2]
+- Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering a soy-free alternative for those avoiding soy. [1]
+- Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery. [2]
+- Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering a soy-free alternative for those avoiding soy.
 
 ## Food Context
 
@@ -53,4 +63,6 @@ Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering 
 
 ## References
 
-- Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery
+[1] Sunflower lecithin provides phosphatidylcholine for choline intake in plant-based diets. Derbyshire & Maes 2023. [The Role of Choline in Neurodevelopmental Disorders—A Narrative Review Focusing on ASC, ADHD and Dyslexia](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+
+[2] Adequate choline supports neurotransmitter synthesis and membrane integrity. Halder & Lal 2021. [Cholinergic System and Its Therapeutic Importance in Inflammation and Autoimmunity](/docs/papers/BRAIN-Diet-References#halder_cholinergic_2021)

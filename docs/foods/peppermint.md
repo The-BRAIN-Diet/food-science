@@ -40,7 +40,17 @@ legacy_main_image: /img/foods/peppermint/peppermint_medium.webp
 ---
 ## Overview
 
-Peppermint provides compounds that support mental clarity and alertness, useful for ADHD focus support. Peppermint supports mental clarity and alertness and can be consumed as herbal tea or essential oil inhalation.
+Peppermint provides compounds that support mental clarity and alertness, useful for ADHD focus support.
+
+Within the BRAIN Diet framework, peppermint supports mental clarity and alertness and can be consumed as herbal tea or essential oil inhalation [1][2].
+## Key Nutritional Highlights
+
+
+- Peppermint and menthol-containing herbs are studied for alertness and digestive comfort [1]
+- Culinary herb interventions show acute cognitive and mood effects in controlled trials [2]
+- Peppermint provides compounds that support mental clarity and alertness, useful for ADHD focus support. [1]
+- Peppermint supports mental clarity and alertness and can be consumed as herbal tea or essential oil inhalation. [2]
+- Peppermint provides compounds that support mental clarity and alertness, useful for ADHD focus support.
 
 ## Food Context
 
@@ -66,4 +76,6 @@ Peppermint provides compounds that support mental clarity and alertness, useful 
 
 ## References
 
-- Peppermint: Mental clarity, alertness - Herbal tea; essential oil inhalation
+[1] Peppermint and menthol-containing herbs are studied for alertness and digestive comfort. Bruni et al. 2021. [Herbal Remedies and Their Possible Effect on the GABAergic System and Sleep](/docs/papers/BRAIN-Diet-References#bruni_herbal_2021)
+
+[2] Culinary herb interventions show acute cognitive and mood effects in controlled trials. Scholey et al. 2008. [An extract of Salvia (sage) with anticholinesterase properties improves memory and attention in healthy older volunteers](/docs/papers/BRAIN-Diet-References#scholey_sage_attention_2008)

@@ -177,44 +177,86 @@ export const HUB_SIGNATURE_FOODS = {
     {
       label: "Salmon",
       food_slug: "salmon",
-      match_foods: ["salmon", "mackerel", "sardines"],
+      match_foods: ["salmon", "mackerel", "sardines", "tuna", "cod"],
       explanation:
-        "Oily fish providing CoQ10-relevant context, omega-3s, and high-quality protein supporting electron transport, ROS control, and mitochondrial biogenesis.",
+        "Oily fish supplying EPA/DHA, creatine-relevant context, carnitine, and CoQ10-relevant compounds supporting electron transport, fatty-acid substrate delivery, and mitochondrial biogenesis.",
+    },
+    {
+      label: "Scallops",
+      food_slug: "scallops",
+      match_foods: ["scallops"],
+      explanation:
+        "Lean shellfish supplying creatine- and taurine-relevant context, vitamin B12, and highly digestible protein supporting phosphocreatine buffering and mitochondrial cofactor biology at low energy density.",
     },
     {
       label: "Eggs",
       food_slug: "eggs",
       match_foods: ["eggs"],
       explanation:
-        "Rich in B vitamins, choline, and complete protein supporting cellular bioenergetics, cofactor sufficiency, and sustained substrate delivery to mitochondria.",
+        "Nutrient-dense whole food rich in B vitamins, choline, complete protein, and bioenergetic cofactors supporting cellular ATP production, NAD-linked metabolism, and sustained substrate delivery.",
+    },
+    {
+      label: "Kefir",
+      food_slug: "kefir",
+      match_foods: ["kefir"],
+      explanation:
+        "Fermented dairy with live cultures, complete protein, and B vitamins supporting carnitine-relevant dairy context, cofactor sufficiency, and gut-derived metabolite patterns linked to broader bioenergetic support.",
+    },
+    {
+      label: "Cheddar Cheese",
+      food_slug: "cheddar-cheese",
+      match_foods: ["cheese", "cheddar", "parmesan"],
+      explanation:
+        "Fermented dairy matrix supplying complete protein, vitamin B12, zinc, and carnitine-relevant context for mitochondrial substrate transport alongside nutrient-dense animal-food patterns.",
+    },
+    {
+      label: "Beef",
+      food_slug: "beef",
+      match_foods: ["beef", "lamb", "pork", "lean meat", "meat"],
+      explanation:
+        "Creatine- and carnitine-rich animal protein supporting phosphocreatine buffering and carnitine-mediated fat transport into mitochondria when metabolic demand shifts.",
+    },
+    {
+      label: "Early Harvest Olive Oil",
+      food_slug: "early-harvest-olive-oil",
+      match_foods: ["extra-virgin olive oil", "olive oil", "early-harvest olive oil"],
+      explanation:
+        "High-polyphenol extra virgin olive oil — especially early-harvest oils — with CoQ10-relevant and oleuropein context supporting electron transport, mitochondrial protection, and mitophagy-related dietary patterns.",
     },
     {
       label: "Oats",
       food_slug: "oats",
       match_foods: ["oats", "barley"],
       explanation:
-        "Slowly digested whole grain providing steady carbohydrate fuel and B-vitamin context for substrate utilisation flexibility and cognitive energy availability.",
+        "Slowly digested whole grain and fermentable-fibre source providing steady carbohydrate fuel, B-vitamin context, and gut-derived butyrate-related substrate for metabolic fuel flexibility.",
     },
     {
       label: "Spinach",
       food_slug: "spinach",
-      match_foods: ["spinach"],
+      match_foods: ["spinach", "kale"],
       explanation:
-        "Iron-, magnesium-, and folate-rich leafy green supporting electron transport cofactors, redox balance, and mitochondrial enzyme function.",
+        "Iron-, magnesium-, and folate-rich leafy green supporting mitochondrial cofactors and redox balance; boiling can reduce oxalate load and improve mineral bioavailability where high-oxalate greens feature regularly.",
     },
     {
       label: "Walnuts",
       food_slug: "walnuts",
-      match_foods: ["walnuts"],
+      match_foods: ["walnuts", "pistachios"],
       explanation:
-        "ALA and polyphenol source supporting mitochondrial biogenesis, ROS production–control balance, and metabolic fuel-switching context.",
+        "ALA, polyphenol, and mineral source supporting mitochondrial biogenesis, ROS balance, metabolic fuel switching, and plant-forward patterns complementing animal-food bioactives.",
     },
     {
       label: "Blueberries",
       food_slug: "blueberries",
       match_foods: ["blueberries", "berries"],
       explanation:
-        "Polyphenol-rich fruit supporting ROS control, mitochondrial resilience, and oxidative stress modulation within bioenergetic regulation.",
+        "Polyphenol-rich fruit supporting ROS control, mitochondrial resilience, and dietary context for microbial urolithin A and mitophagy-related pathways alongside broader plant diversity.",
+    },
+    {
+      label: "Broccoli",
+      food_slug: "broccoli",
+      match_foods: ["broccoli"],
+      explanation:
+        "Cruciferous vegetable with smaller CoQ10-relevant content, sulphur compounds, and antioxidant cofactors supporting mitochondrial protection and redox stability under metabolic demand.",
     },
     {
       label: "Pumpkin Seeds",
@@ -222,13 +264,6 @@ export const HUB_SIGNATURE_FOODS = {
       match_foods: ["pumpkin seeds"],
       explanation:
         "Magnesium- and zinc-rich seed supporting mitochondrial enzyme cofactors, redox stability, and cellular energy production pathways.",
-    },
-    {
-      label: "Broccoli",
-      food_slug: "broccoli",
-      match_foods: ["broccoli"],
-      explanation:
-        "Cruciferous vegetable providing sulphur compounds and antioxidant cofactors that support mitochondrial resilience and redox stability under metabolic demand.",
     },
   ],
   BRS5: [
@@ -273,6 +308,14 @@ export const HUB_SIGNATURE_FOODS = {
       match_foods: ["salmon", "sardines", "mackerel"],
       explanation:
         "Omega-3-rich seafood supporting gut barrier tight-junction integrity and limiting gut-derived immune and inflammatory load.",
+    },
+    {
+      label: "Lentils",
+      food_slug: "lentils",
+      match_foods: ["lentils", "legumes"],
+      source_pm_ids: ["BRS5-FM2-PM4", "BRS5-FM2-PM5"],
+      explanation:
+        "Fermentable-fibre legume supporting microbial ecological turnover, SCFA production, and sustained substrate delivery for gut–brain signalling.",
     },
     {
       label: "Walnuts",

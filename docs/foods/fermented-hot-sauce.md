@@ -42,7 +42,17 @@ legacy_main_image: /img/foods/fermented-hot-sauce/fermented-hot-sauce_medium.web
 ---
 ## Overview
 
-Fermented hot sauce is made by fermenting chilli peppers (often with garlic, salt, and sometimes other vegetables) before blending into a pourable sauce. As with other fermented vegetable products, the fermentation step produces organic acids and flavour compounds; many versions are unpasteurised and used in small amounts as a condiment on otherwise whole-food meals.
+Fermented hot sauce is made by fermenting chilli peppers (often with garlic, salt, and sometimes other vegetables) before blending into a pourable sauce.
+
+Within the BRAIN Diet framework, as with other fermented vegetable products, the fermentation step produces organic acids and flavour compounds; many versions are unpasteurised and used in small amounts as a condiment on otherwise whole-food meals [1][2].
+## Key Nutritional Highlights
+
+
+- Fermented foods can modulate gut–brain signalling through microbiota and metabolite pathways [1]
+- Fermentation-derived products contribute organic acids and microbial metabolites alongside capsaicin-rich matrices [2]
+- Fermented hot sauce is made by fermenting chilli peppers (often with garlic, salt, and sometimes other vegetables) before blending into a pourable sauce. [1]
+- As with other fermented vegetable products, the fermentation step produces organic acids and flavour compounds; many versions are unpasteurised and used in small amounts as a condiment on otherwise whole-food meals. [2]
+- Fermented hot sauce is made by fermenting chilli peppers (often with garlic, salt, and sometimes other vegetables) before blending into a pourable sauce.
 
 ## Food Context
 
@@ -74,4 +84,6 @@ Fermented Hot Sauce contribute plant protein. Pair with complementary protein so
 
 ## References
 
-- See [Fermented Vegetables](/docs/foods/fermented-vegetables) for general notes on fermented vegetable products and their postbiotic compounds.
+[1] Fermented foods can modulate gut–brain signalling through microbiota and metabolite pathways. Bravo et al. 2011. [Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)
+
+[2] Fermentation-derived products contribute organic acids and microbial metabolites alongside capsaicin-rich matrices. Antony et al. 2023. [Gut microbiome supplementation as therapy for metabolic syndrome](/docs/papers/BRAIN-Diet-References#antony_gut_2023)

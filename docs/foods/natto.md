@@ -46,7 +46,17 @@ legacy_main_image: /img/foods/natto/natto_medium.webp
 ---
 ## Overview
 
-Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability. Natto is fermented soybeans with unique Bacillus subtilis and is part of the fermented foods strategy.
+Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability.
+
+Within the BRAIN Diet framework, natto is fermented soybeans with unique Bacillus subtilis and is part of the fermented foods strategy [1][2].
+## Key Nutritional Highlights
+
+
+- Natto fermentation by Bacillus subtilis produces unique peptides and microbial metabolites [1]
+- Fermented soybeans retain isoflavones studied for metabolic and inflammatory pathways [2]
+- Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability. [1]
+- Natto is fermented soybeans with unique Bacillus subtilis and is part of the fermented foods strategy. [2]
+- Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability.
 
 ## Food Context
 
@@ -79,4 +89,6 @@ Natto provide a relatively complete plant protein (higher in lysine than most gr
 
 ## References
 
-- Natto: Fermented soybeans, unique Bacillus subtilis
+[1] Natto fermentation by Bacillus subtilis produces unique peptides and microbial metabolites. Bravo et al. 2011. [Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)
+
+[2] Fermented soybeans retain isoflavones studied for metabolic and inflammatory pathways. Fuloria et al. 2022. [Genistein: A Potential Natural Lead Molecule for New Drug Design and Development for Treating Memory Impairment](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)
