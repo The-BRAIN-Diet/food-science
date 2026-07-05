@@ -66,7 +66,14 @@ Acidification extends shelf-life by creating an environment unfavourable to most
 
 ### Texture and flavour changes
 
-Acid and salt alter **cell structure and water activity**, producing the characteristic crisp-tart profile of vinegar-brined products. Heat processing, brine strength, and storage time further change texture (softening) and perceived acidity. These are culinary and matrix effects rather than neuroactive endpoints in themselves, but they influence how pickles are used — typically as **condiments or small sides**, not bulk vegetable servings.
+Acid and salt alter **cell structure and water activity**, producing the characteristic crisp-tart profile of vinegar-brined products. Heat processing, brine strength, and storage time further change texture (softening) and perceived acidity. These are culinary and matrix effects rather than neuroactive endpoints in themselves, but they influence how pickles are used — typically as **condiments or small sides**, not bulk vegetable servings [1][2].
+## Key Nutritional Highlights
+
+
+- Reports on vinegar improves insulin sensitivity to a high-carbohydrate meal in subjects with insulin resistance or type 2 diabetes [1]
+- Reports on the Nutritional and Antioxidant Potential of Artisanal and Industrial Apple Vinegars and Their Ability to Inhibit Key Enzymes Related to Type 2 Diabetes In Vitro [2]
+- Reports on gut-microbiota-targeted diets modulate human immune status [3]
+- Reports on disrupted gut harmony in attention-deficit/hyperactivity disorder: Dysbiosis and decreased short-chain fatty acids [4]
 
 ## Potential Biological Relevance
 

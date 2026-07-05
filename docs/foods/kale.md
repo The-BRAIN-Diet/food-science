@@ -58,7 +58,18 @@ legacy_main_image: /img/foods/kale/kale_medium.webp
 ---
 ## Overview
 
-Kale is a nutrient-dense leafy green providing iron, magnesium, zinc, quercetin, and carotenoids. The BRAIN diet specifically targets leafy green vegetables i.e. kale and spinach that are rich in iron, magnesium, and zinc, though this can introduce high dietary oxalate. Boiling kale can reduce oxalate load, improving mineral bioavailability. Kale is abundant in quercetin, a flavonoid polyphenol with antioxidant and anti-inflammatory properties.
+Kale is a nutrient-dense leafy green providing iron, magnesium, zinc, quercetin, and carotenoids. The BRAIN diet specifically targets leafy green vegetables i.e. kale and spinach that are rich in iron, magnesium, and zinc, though this can introduce high dietary oxalate.
+
+Within the BRAIN Diet framework, boiling kale can reduce oxalate load, improving mineral bioavailability. Kale is abundant in quercetin, a flavonoid polyphenol with antioxidant and anti-inflammatory properties [1][2].
+## Key Nutritional Highlights
+
+
+- Reports on iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [1]
+- Reports on effect of Different Cooking Methods on Vegetable Oxalate Content [2]
+- Kale is a nutrient-dense leafy green providing iron, magnesium, zinc, quercetin, and carotenoids. [1]
+- The BRAIN diet specifically targets leafy green vegetables i.e. [2]
+- kale and spinach that are rich in iron, magnesium, and zinc, though this can introduce high dietary oxalate.
+- Boiling kale can reduce oxalate load, improving mineral bioavailability.
 
 ## Food Context
 

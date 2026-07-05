@@ -14,8 +14,8 @@ Complete the **full FM template** on every FM page before running phenome method
 | Section | Requirement |
 |---------|-------------|
 | §4.1 Core Primary Mechanisms | Required |
-| §4.2 Integrated Functional Narrative | Required (Type A multi-PM or Type B single-PM anchor per `system/single-pm-fm-rule.md`) |
-| §4.3 Suboptimal Function & Its Effects | Required |
+| §4.2 Integrated Functional Narrative | Required — integration + **Functional Rationale** (primary phenome authoring surface) |
+| §4.3 Suboptimal Function & Its Effects | Required — **consequences** of lost capacity (not dietary causes or KC stressors) |
 | §4.4 Evidence Highlights | **Required on all FMs** before phenome Phase 2 |
 
 **Tooling:**
@@ -47,7 +47,7 @@ PM phenome Phase 1 may continue independently where PM pages are ready.
 
 ## Rationale
 
-FM §4.1–§4.4 is a **first-class phenome evidence layer** (methodology v2). Phase 2 FM phenome assignment requires integrative FM narrative, failure modes, and FM-level evidence highlights — not PM roll-ups alone.
+FM §4.2 constructs integrated biological rationale for Phase 3 phenome validation. §4.3 describes consequences when that capacity declines. §4.4 holds mechanism-qualifying evidence. Phase 2 FM phenome assignment is **not** a PM §3 roll-up — see `system/functional-mechanism-schema.md` § FM §4.2 and §4.3 architecture.
 
 Running phenome methodology before §4.4 is complete produces incomplete FM syntheses and misaligned confidence.
 

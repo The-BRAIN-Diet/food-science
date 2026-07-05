@@ -1,5 +1,10 @@
 /**
  * Build FM §4.3 Suboptimal Function & Its Effects from linked KC stressors and PM context.
+ *
+ * @deprecated authoring pattern — pre-v2 architecture treated §4.3 as a KC/dietary stressor bucket.
+ * Target contract: consequence-focused §4.3 (capacity lost → biology deteriorates → functional constraints).
+ * See system/functional-mechanism-schema.md § FM §4.2 and §4.3 — distinct responsibilities.
+ * Draft output from this module requires human migration before Phase 2 sign-off.
  */
 
 import fs from "node:fs";

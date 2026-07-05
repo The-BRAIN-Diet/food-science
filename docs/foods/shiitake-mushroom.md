@@ -41,7 +41,18 @@ legacy_main_image: /img/foods/shiitake-mushroom/shiitake-mushroom_medium.webp
 ---
 ## Overview
 
-Shiitake mushroom (Lentinula edodes) is both a popular culinary mushroom and a valued medicinal food. It is rich in beta-glucans, polysaccharides that support immune function, and provides a rich umami flavor to dishes. Shiitake contains eritadenine, a compound that may support cardiovascular health, and is a good source of B vitamins including niacin (B3), which supports NAD+ synthesis and mitochondrial function. The mushroom also contains lentinan, a beta-glucan that has been studied for its immune-modulating properties. Shiitake is widely used in cooking and can be consumed fresh or dried.
+Shiitake mushroom (Lentinula edodes) is both a popular culinary mushroom and a valued medicinal food. It is rich in beta-glucans, polysaccharides that support immune function, and provides a rich umami flavor to dishes. Shiitake contains eritadenine, a compound that may support cardiovascular health, and is a good source of B vitamins including niacin (B3), which supports NAD+ synthesis and mitochondrial function.
+
+Within the BRAIN Diet framework, the mushroom also contains lentinan, a beta-glucan that has been studied for its immune-modulating properties. Shiitake is widely used in cooking and can be consumed fresh or dried [1][2].
+## Key Nutritional Highlights
+
+
+- Shiitake provides lentinan beta-glucans and B vitamins within a low-calorie mushroom matrix [1]
+- Mushroom consumption is associated with favourable dietary quality and micronutrient intake [2]
+- Shiitake mushroom (Lentinula edodes) is both a popular culinary mushroom and a valued medicinal food. [1]
+- It is rich in beta-glucans, polysaccharides that support immune function, and provides a rich umami flavor to dishes. [2]
+- Shiitake contains eritadenine, a compound that may support cardiovascular health, and is a good source of B vitamins including niacin (B3), which supports NAD+ synthesis and mitochondrial function.
+- The mushroom also contains lentinan, a beta-glucan that has been studied for its immune-modulating properties.
 
 ## Food Context
 
@@ -68,7 +79,6 @@ Shiitake mushroom (Lentinula edodes) is both a popular culinary mushroom and a v
 
 ## References
 
-- Shiitake mushroom (Lentinula edodes) is rich in beta-glucans, including lentinan, which support immune function
-- Contains eritadenine, a compound that may support cardiovascular health
-- Good source of niacin (Vitamin B3), supporting NAD+ synthesis and mitochondrial function
-- Provides umami flavor and is widely used in culinary applications
+[1] Shiitake provides lentinan beta-glucans and B vitamins within a low-calorie mushroom matrix. Starck et al. 2024. [Mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024)
+
+[2] Mushroom consumption is associated with favourable dietary quality and micronutrient intake. Briguglio et al. 2018. [Dietary Neurotransmitters: A Narrative Review on Current Knowledge](/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018)

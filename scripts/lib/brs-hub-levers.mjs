@@ -28,13 +28,26 @@ export const SIGNATURE_FOODS = new Set([
   "salmon",
   "sardines",
   "mackerel",
+  "tuna",
+  "cod",
+  "scallops",
+  "beef",
+  "lamb",
+  "pork",
+  "cheese",
+  "cheddar",
+  "cheddar cheese",
+  "kefir",
   "eggs",
   "spinach",
   "broccoli",
   "lentils",
   "berries",
+  "blueberries",
   "extra-virgin olive oil",
+  "early-harvest olive oil",
   "walnuts",
+  "pistachios",
   "pumpkin seeds",
   "kefir",
   "fermented vegetables",
@@ -86,6 +99,9 @@ export const FOOD_ALIASES = {
   evoo: "extra-virgin olive oil",
   "extra virgin olive oil": "extra-virgin olive oil",
   "extra-virgin olive oil": "extra-virgin olive oil",
+  "early harvest olive oil": "early-harvest olive oil",
+  cheese: "cheddar cheese",
+  cheddar: "cheddar cheese",
   oatmeal: "oats",
   "fish roe": "roe",
   roe: "roe",
@@ -271,12 +287,16 @@ export const KEY_DIETARY_STRATEGY_TARGETS = {
   BRS4: [
     "Balanced macronutrient fuel delivery",
     "mitochondrial cofactor-rich foods",
+    "creatine- and carnitine-supportive animal foods",
+    "polyphenol-diverse plant intake",
     "sustained energy-substrate meals",
   ],
   BRS5: [
     "Fermentable-fibre intake",
     "plant-diversity patterns",
     "polyphenol-rich foods",
+    "fermented-food patterns where tolerated",
+    "barrier-supportive nutrient pairing",
   ],
   BRS6: [
     "Glycaemic stabilisation",
@@ -307,9 +327,9 @@ export const KEY_DIETARY_STRATEGY_PROSE = {
   BRS3:
     "Centre meals on colourful vegetables, berries, herbs, and spices that provide natural antioxidants. Include oily fish, walnuts, flaxseed, and olive oil for omega-3 balance, and reduce reliance on ultra-processed foods and heavily fried or oxidised fats that add unnecessary inflammatory load. Eat a wide variety of plant foods rather than relying on high-dose isolated antioxidant supplements.",
   BRS4:
-    "Build meals around dependable energy from protein, whole grains, legumes, and starchy vegetables. Include B-vitamin-rich foods, iron from lean meats and legumes, and magnesium from nuts, seeds, and greens to support how cells produce and use energy. Avoid long gaps without nourishment and favour minimally processed foods over options that leave energy pathways undersupported.",
+    "Build meals around dependable macronutrient fuel from protein, whole grains, legumes, and starchy vegetables, treating B-vitamin, iron, and magnesium cofactors as the enabling layer that helps omega-3s, polyphenols, and amino-acid substrates support mitochondrial work. Combine plant-forward patterns with nutrient-dense animal foods — seafood, eggs, fermented dairy (cheese and kefir), lean meats, and occasional offal — for creatine, carnitine, CoQ10-relevant context, taurine, and complete protein; creatine-rich examples include beef, lamb, pork, salmon, tuna, cod, and scallops, while plant-only patterns may lack meaningful dietary creatine unless supplemented. Quality extra virgin olive oil — especially early-harvest oils with higher polyphenol and CoQ10-relevant content — plus oily fish, beef, broccoli, spinach, and pistachios add further electron-transport and redox support. Support glutathione-linked antioxidant networks and polyphenol diversity through varied plants rather than high-dose isolated supplements. Include fermentable fibre from oats, barley, and legumes where tolerated to connect gut-derived butyrate biology to brain energy metabolism alongside BRS5 context.",
   BRS5:
-    "Eat a wide variety of plant foods daily — vegetables, fruits, legumes, whole grains, nuts, and seeds — to feed beneficial gut microbes. Include fermented foods where tolerated, and fermentable fibre from oats, barley, beans, and cooled potatoes. Prioritise minimally processed meals that support the gut lining rather than ultra-processed foods that disrupt microbial balance and barrier function.",
+    "Eat a wide variety of plant foods daily — vegetables, fruits, legumes, whole grains, nuts, and seeds — to support microbial diversity, competitive ecological turnover, and polyphenol-linked biotransformation rather than isolated superfood fixes. Include fermented foods where tolerated — kefir, plain yogurt, and fermented vegetables — alongside fermentable fibre from oats, barley, lentils, and cooled potatoes and rice to sustain short-chain fatty acid output relevant to barrier integrity and gut–brain signalling. Combine omega-3-rich seafood, eggs, and barrier-supportive whole foods with minimally processed meal patterns that limit ultra-processed load, excess alcohol, and chronic barrier strain from low plant diversity. Support neurotransmitter-precursor context through protein-rich whole foods combined with fibre-supported microbial metabolism rather than isolated amino-acid emphasis — repeated dietary pattern quality matters more than short probiotic bursts.",
   BRS6:
     "Prioritise stable meal composition, consistent meal timing, and minimally processed foods that support sustained energy availability and metabolic flexibility. Build meals that combine protein, fibre-rich carbohydrates, and healthy fats; include protein-rich breakfasts where appropriate, polyphenol-rich plant foods, and omega-3-containing seafoods. Favour dietary patterns that minimise blood sugar swings and unnecessary inflammatory burden.",
   "BRS-X(ECS)":
@@ -469,6 +489,16 @@ function mergeStarFoodPms(entry, pmIndex) {
   const merged = new Map();
   for (const key of keys) {
     for (const pm of pmIndex.get(key) || []) merged.set(pm.id, pm);
+  }
+  if (entry.source_pm_ids?.length) {
+    const allPms = new Map();
+    for (const pms of pmIndex.values()) {
+      for (const pm of pms) allPms.set(pm.id, pm);
+    }
+    for (const id of entry.source_pm_ids) {
+      const pm = allPms.get(id);
+      if (pm) merged.set(pm.id, pm);
+    }
   }
   return [...merged.values()].sort((a, b) => a.id.localeCompare(b.id));
 }

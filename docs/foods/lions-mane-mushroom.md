@@ -41,7 +41,18 @@ legacy_main_image: /img/foods/lions-mane-mushroom/lions-mane-mushroom_medium.web
 ---
 ## Overview
 
-Lion's Mane mushroom (Hericium erinaceus) is a medicinal mushroom traditionally used in East Asian medicine. It contains bioactive compounds including hericenones and erinacines, which have been studied for their potential effects on nerve growth factor (NGF) pathways and neuroprotective mechanisms. While preclinical research suggests potential benefits for nerve health and neuroprotective pathways, clinical evidence for cognitive improvements in humans remains limited and requires further investigation. Lion's Mane is also valued for its culinary properties and contains polysaccharides that may support immune function.
+Lion's Mane mushroom (Hericium erinaceus) is a medicinal mushroom traditionally used in East Asian medicine. It contains bioactive compounds including hericenones and erinacines, which have been studied for their potential effects on nerve growth factor (NGF) pathways and neuroprotective mechanisms.
+
+Within the BRAIN Diet framework, while preclinical research suggests potential benefits for nerve health and neuroprotective pathways, clinical evidence for cognitive improvements in humans remains limited and requires further investigation. Lion's Mane is also valued for its culinary properties and contains polysaccharides that may support immune function [1][2].
+## Key Nutritional Highlights
+
+
+- Mushrooms including lion's mane supply beta-glucans and fungal polysaccharides studied for immune and gut effects [1]
+- Dietary bioactives from fungi may interact with gut microbiota composition [2]
+- Lion's Mane mushroom (Hericium erinaceus) is a medicinal mushroom traditionally used in East Asian medicine. [1]
+- It contains bioactive compounds including hericenones and erinacines, which have been studied for their potential effects on nerve growth factor (NGF) pathways and neuroprotective mechanisms. [2]
+- While preclinical research suggests potential benefits for nerve health and neuroprotective pathways, clinical evidence for cognitive improvements in humans remains limited and requires further investigation.
+- Lion's Mane is also valued for its culinary properties and contains polysaccharides that may support immune function.
 
 ## Food Context
 
@@ -68,7 +79,6 @@ Lion's Mane mushroom (Hericium erinaceus) is a medicinal mushroom traditionally 
 
 ## References
 
-- Lion's Mane mushroom (Hericium erinaceus) contains bioactive compounds including hericenones and erinacines that have been studied for their potential effects on nerve growth factor pathways
-- Preclinical research suggests potential neuroprotective mechanisms, though clinical evidence for cognitive improvements in humans remains limited
-- Contains polysaccharides that may support immune function
-- Traditional use in East Asian medicine for supporting overall health and vitality
+[1] Mushrooms including lion's mane supply beta-glucans and fungal polysaccharides studied for immune and gut effects. Starck et al. 2024. [Mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024)
+
+[2] Dietary bioactives from fungi may interact with gut microbiota composition. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

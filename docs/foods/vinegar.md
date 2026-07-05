@@ -36,7 +36,17 @@ legacy_main_image: /img/foods/vinegar/vinegar_medium.webp
 ---
 ## Overview
 
-Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity. Glucose regulation strategies include low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, and meal sequencing (veg → protein → carb).
+Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity.
+
+Within the BRAIN Diet framework, glucose regulation strategies include low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, and meal sequencing (veg → protein → carb) [1][2].
+## Key Nutritional Highlights
+
+
+- Vinegar with meals improves post-prandial glycaemia and insulin sensitivity in human trials [1]
+- Meal composition and glycaemic load modulate cognitive energy availability [2]
+- Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity. [1]
+- Glucose regulation strategies include low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, and meal sequencing (veg → protein → carb). [2]
+- Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity.
 
 ## Food Context
 
@@ -59,5 +69,6 @@ Vinegar, particularly apple cider vinegar, supports glucose regulation and can b
 
 ## References
 
-- Glucose Regulation: Low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, meal sequencing (veg → protein → carb)
-- Add a bit of lemon juice or apple cider vinegar (1–2 tsp per liter of water) to reach ~pH 5.5–6 for optimal bean soaking conditions
+[1] Vinegar with meals improves post-prandial glycaemia and insulin sensitivity in human trials. Johnston et al. 2004. [Vinegar improves insulin sensitivity to a high-carbohydrate meal in subjects with insulin resistance or type 2 diabetes.](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)
+
+[2] Meal composition and glycaemic load modulate cognitive energy availability. Afaghi et al. 2007. [High-glycemic-index carbohydrate meals shorten sleep onset](/docs/papers/BRAIN-Diet-References#afaghi_high-glycemic-index_2007)

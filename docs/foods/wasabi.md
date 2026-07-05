@@ -44,7 +44,17 @@ legacy_main_image: /img/foods/wasabi/wasabi_medium.webp
 ---
 ## Overview
 
-Wasabi is a pungent green condiment traditionally made from the grated rhizome of the Wasabia japonica plant, although many commercial products outside Japan use horseradish, mustard, and colourings instead. In the BRAIN Diet context, it is used sparingly as a condiment alongside seafood and rice dishes, adding heat and volatile aromatics without substantially altering macronutrient balance.
+Wasabi is a pungent green condiment traditionally made from the grated rhizome of the Wasabia japonica plant, although many commercial products outside Japan use horseradish, mustard, and colourings instead.
+
+In the BRAIN Diet context, it is used sparingly as a condiment alongside seafood and rice dishes, adding heat and volatile aromatics without substantially altering macronutrient balance [1][2].
+## Key Nutritional Highlights
+
+
+- Isothiocyanates from cruciferous and related plants activate Nrf2-linked antioxidant pathways [1]
+- Sulfur-containing plant compounds contribute polyphenol and antioxidant bioactivity [2]
+- Wasabi is a pungent green condiment traditionally made from the grated rhizome of the Wasabia japonica plant, although many commercial products outside Japan use horseradish, mustard, and colourings instead. [1]
+- In the BRAIN Diet context, it is used sparingly as a condiment alongside seafood and rice dishes, adding heat and volatile aromatics without substantially altering macronutrient balance. [2]
+- Wasabi is a pungent green condiment traditionally made from the grated rhizome of the Wasabia japonica plant, although many commercial products outside Japan use horseradish, mustard, and colourings instead.
 
 ## Food Context
 
@@ -69,4 +79,6 @@ Wasabi is a pungent green condiment traditionally made from the grated rhizome o
 
 ## References
 
-- See individual seafood and rice entries for nutritional and mechanistic details; wasabi is treated here primarily as a flavour accent.
+[1] Isothiocyanates from cruciferous and related plants activate Nrf2-linked antioxidant pathways. Houghton et al. 2016. [Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
+
+[2] Sulfur-containing plant compounds contribute polyphenol and antioxidant bioactivity. Boots et al. 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)

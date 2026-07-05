@@ -40,7 +40,17 @@ legacy_main_image: /img/foods/soy-lecithin/soy-lecithin_medium.webp
 ---
 ## Overview
 
-Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery. Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended.
+Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery.
+
+Within the BRAIN Diet framework, precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended [1][2].
+## Key Nutritional Highlights
+
+
+- Soy lecithin is a concentrated dietary phosphatidylcholine source supporting choline intake [1]
+- Choline adequacy supports acetylcholine synthesis and membrane phospholipid turnover [2]
+- Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery. [1]
+- Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended. [2]
+- Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery.
 
 ## Food Context
 
@@ -67,5 +77,6 @@ Soy Lecithin provide a relatively complete plant protein (higher in lysine than 
 
 ## References
 
-- Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6)
-- Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery
+[1] Soy lecithin is a concentrated dietary phosphatidylcholine source supporting choline intake. Derbyshire & Maes 2023. [The Role of Choline in Neurodevelopmental Disorders—A Narrative Review Focusing on ASC, ADHD and Dyslexia](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+
+[2] Choline adequacy supports acetylcholine synthesis and membrane phospholipid turnover. Halder & Lal 2021. [Cholinergic System and Its Therapeutic Importance in Inflammation and Autoimmunity](/docs/papers/BRAIN-Diet-References#halder_cholinergic_2021)

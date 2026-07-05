@@ -36,7 +36,17 @@ legacy_main_image: /img/foods/dandelion-greens/dandelion-greens_medium.webp
 ---
 ## Overview
 
-Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health. They are part of a diverse leafy green intake strategy that supports gut microbiome diversity.
+Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health.
+
+Within the BRAIN Diet framework, they are part of a diverse leafy green intake strategy that supports gut microbiome diversity [1][2].
+## Key Nutritional Highlights
+
+
+- Bitter greens and chicory-family plants supply fermentable fibre that supports gut microbiota composition [1]
+- Leafy plant foods contribute carotenoids and antioxidant phytonutrients relevant to neuroprotection [2]
+- Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health. [1]
+- They are part of a diverse leafy green intake strategy that supports gut microbiome diversity. [2]
+- Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health.
 
 ## Food Context
 
@@ -62,4 +72,6 @@ Dandelion greens are bitter leafy greens providing prebiotic fiber and supportin
 
 ## References
 
-- Dandelion greens: Bitter greens with prebiotic fiber
+[1] Bitter greens and chicory-family plants supply fermentable fibre that supports gut microbiota composition. Pouille et al. 2022. [Chicory: Understanding the Effects and Effectors of This Functional Food](/docs/papers/BRAIN-Diet-References#pouille_chicory_2022)
+
+[2] Leafy plant foods contribute carotenoids and antioxidant phytonutrients relevant to neuroprotection. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)

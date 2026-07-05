@@ -37,7 +37,18 @@ legacy_main_image: /img/foods/onions/onions_medium.webp
 ---
 ## Overview
 
-Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur compounds that support gut microbiome, antioxidant defenses, and glutathione synthesis. Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples). Inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier. Quercetin is abundant in capers, apples, onions, berries, kale and soybeans.
+Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur compounds that support gut microbiome, antioxidant defenses, and glutathione synthesis. Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples).
+
+Within the BRAIN Diet framework, inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier. Quercetin is abundant in capers, apples, onions, berries, kale and soybeans [1][2].
+## Key Nutritional Highlights
+
+
+- Onions supply organosulfur compounds and quercetin glycosides with antioxidant relevance [1]
+- Quercetin from alliums is studied for anti-inflammatory and cardiovascular mechanisms [2]
+- Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur compounds that support gut microbiome, antioxidant defenses, and glutathione synthesis. [1]
+- Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples). [2]
+- Inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier.
+- Quercetin is abundant in capers, apples, onions, berries, kale and soybeans.
 
 ## Food Context
 
@@ -63,8 +74,6 @@ Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur comp
 
 ## References
 
-- Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples)
-- Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions)
-- Quercetin is abundant in capers, apples, onions, berries, kale and soybeans
-- Inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
-- Prebiotic fibres including inulin (chicory, onions) support Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier
+[1] Onions supply organosulfur compounds and quercetin glycosides with antioxidant relevance. Nicastro et al. 2015. [Garlic and onions: their cancer prevention properties](/docs/papers/BRAIN-Diet-References#nicastro_garlic_onions_2015)
+
+[2] Quercetin from alliums is studied for anti-inflammatory and cardiovascular mechanisms. Davis et al. 2009. [Quercetin increases brain and muscle mitochondrial biogenesis and exercise tolerance](/docs/papers/BRAIN-Diet-References#davis_quercetin_2009)

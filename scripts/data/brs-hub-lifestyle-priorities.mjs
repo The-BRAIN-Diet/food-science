@@ -23,13 +23,6 @@ export const HUB_LIFESTYLE_PRIORITIES = {
       ],
     },
     {
-      action: "Include sufficient protein at main meals",
-      explanation:
-        "to help maintain reliable amino-acid availability and support neurotransmitter precursor supply across the day.",
-      match_lifestyle: [/sufficient protein at main meals/i, /protein at main meals/i],
-      match_pm_ids: ["BRS1-FM1-PM1"],
-    },
-    {
       action: "Prioritise sufficient, consistent sleep",
       explanation:
         "to support balanced neurotransmitter regulation, cognitive performance, and physiological recovery.",
@@ -57,18 +50,6 @@ export const HUB_LIFESTYLE_PRIORITIES = {
         /post-meal physical activity/i,
         /aerobic activity/i,
       ],
-    },
-    {
-      action: "Prepare omega-3-rich foods gently and include them regularly",
-      explanation:
-        "to protect delicate marine fats during cooking and support ongoing brain membrane health over time.",
-      match_lifestyle: [
-        /gentle cooking.*marine/i,
-        /marine-fat/i,
-        /oily-fish or phospholipid/i,
-        /repeated weekly oily-fish/i,
-      ],
-      match_pm_ids: ["BRS1-FM3-PM6"],
     },
   ],
 
@@ -188,6 +169,12 @@ export const HUB_LIFESTYLE_PRIORITIES = {
       explanation:
         "to reduce avoidable oxidative stress placed on mitochondrial protection and membrane integrity.",
       match_lifestyle: [/gentler cooking/i, /gentle cooking/i],
+    },
+    {
+      action: "Boil high-oxalate leafy greens when oxalate load matters",
+      explanation:
+        "to reduce soluble oxalate, improve mineral bioavailability from iron- and magnesium-rich greens, and limit avoidable pressure on mitochondrial cofactor and redox networks.",
+      match_pm_ids: ["BRS4-FM2-PM4", "BRS4-FM2-PM5"],
     },
     {
       action: "Maintain consistent sleep–wake rhythms",

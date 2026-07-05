@@ -87,14 +87,30 @@ export const BRS1_PM_EVIDENCE = {
   },
   "brs1-fm1-pm4-serotonergic-signalling-regulation": {
     intro:
-      "Serotonergic synthesis and signalling biology is well established. The studies below highlight transport and precursor-presentation findings that refine how serotonergic substrate context is interpreted.",
+      "Serotonergic synthesis and signalling biology is well established. The studies below highlight transport, dietary-modulation, and regulatory-context findings that refine how serotonergic substrate and signalling capacity is interpreted across populations — not disorder-specific treatment outcome claims.",
     blocks: [
       {
         heading: "LAT1 transport and tryptophan presentation",
         body: "Brain tryptophan access depends on LAT1 competitive transport with other large neutral amino acids — meal composition shapes serotonergic precursor presentation upstream of this PM [Fernstrom, 2013].",
       },
+      {
+        heading: "Nutritional modulation of serotonergic system biology",
+        body: "Dietary tryptophan availability, synthesis cofactors, and meal-pattern context modulate serotonergic system biology across populations; recent reviews summarise nutrition–serotonin interactions including precursor, micronutrient, and food-matrix influences relevant to how this PM is read [Tang et al., 2025]; [Briguglio et al., 2018].",
+      },
+      {
+        heading: "Serotonergic signalling in emotional–behavioural regulation phenotypes",
+        body: "Serotonergic tone contributes to emotional regulation, impulse control, and behavioural inhibition across neuropsychiatric conditions; emotional dysregulation phenotypes — including well-characterised ADHD exemplars — have been discussed in relation to serotonergic biology rather than isolated macronutrient effects [Shaw et al., 2014]. Mechanistic literature also frames serotonin precursor and synthesis-context insufficiency as a potential susceptibility layer where substrate or cofactor weakness may constrain serotonergic signalling without implying uniform serotonin deficit [Banerjee and Nandagopal, 2015].",
+        confidence: "low-medium",
+        evidence_level: "mechanistic",
+      },
     ],
-    referenceNoteKeys: [{ citation_key: "fernstrom_lnna_2013", label: "Fernstrom (2013)" }],
+    referenceNoteKeys: [
+      { citation_key: "fernstrom_lnna_2013", label: "Fernstrom (2013)" },
+      { citation_key: "tang_nutritional_2025", label: "Tang et al. (2025)" },
+      { citation_key: "briguglio_dietary_2018", label: "Briguglio et al. (2018)" },
+      { citation_key: "shaw_emotion_2014", label: "Shaw et al. (2014)" },
+      { citation_key: "banerjee_does_2015", label: "Banerjee and Nandagopal (2015)" },
+    ],
   },
   "brs1-fm2-pm5-acetylcholine-synthesis-support": {
     intro:
@@ -218,7 +234,7 @@ export const BRS1_PM_EVIDENCE = {
 export const BRS4_PM_EVIDENCE = {
   "BRS4-FM1-PM1": {
     intro:
-      "Electron transport and oxidative phosphorylation are foundational mitochondrial biochemistry. The studies below highlight why cofactor sufficiency and micronutrient context matter for sustaining respiratory-chain output.",
+      "Electron transport and oxidative phosphorylation are foundational mitochondrial biochemistry. The studies below highlight cofactor sufficiency, direct ADHD mechanistic evidence, and why micronutrient context matters for sustaining respiratory-chain output.",
     theme: "ETC cofactors and brain energy context",
     blocks: [
       {
@@ -229,10 +245,15 @@ export const BRS4_PM_EVIDENCE = {
         heading: "CoQ10 and electron transport",
         body: "Coenzyme Q10 supports mitochondrial electron transport and provides antioxidant protection for neurons — a direct link between dietary CoQ10 context and the respiratory-chain machinery this PM represents [Crane, 2001].",
       },
+      {
+        heading: "Mitochondrial respiration in ADHD cybrid models",
+        body: "Platelet-derived cybrid models from children with ADHD showed reduced cellular and mitochondrial respiration, lower ATPase transcript levels, reduced complex V activity, loss of membrane potential, and elevated oxidative stress compared with controls — direct human mechanistic evidence at the electron-transport layer [Verma et al., 2016].",
+      },
     ],
     referenceNoteKeys: [
       { citation_key: "tardy_vitamins_2020", label: "Tardy et al. (2020)" },
       { citation_key: "crane_coq10_2001", label: "Crane (2001)" },
+      { citation_key: "verma_attention_2016", label: "Verma et al. (2016)" },
     ],
   },
   "BRS4-FM1-PM2": {
@@ -248,10 +269,16 @@ export const BRS4_PM_EVIDENCE = {
         heading: "Clinical relevance of NAD⁺ precursor insufficiency",
         body: "In mitochondrial myopathy, niacin supplementation restored blood NAD⁺, improved mitochondrial markers, and reduced fatigability — illustrating that NAD⁺ availability can be limiting for mitochondrial oxidative capacity in human tissue [Pirinen et al., 2020]. This supports interpreting NAD⁺ metabolism as a modifiable cofactor-dependent layer within BRS4(FM1).",
       },
+      {
+        heading: "Redox and membrane potential in ADHD cybrid models",
+        body: "ADHD cybrid models reported loss of mitochondrial membrane potential alongside reduced respiratory output, linking NAD⁺-dependent redox context to ADHD-relevant mitochondrial strain [Verma et al., 2016]. Narrative reviews further integrate mtDNA copy-number biomarkers as possible compensatory signals in paediatric ADHD cohorts [Öğütlü et al., 2022].",
+      },
     ],
     referenceNoteKeys: [
       { citation_key: "tardy_vitamins_2020", label: "Tardy et al. (2020)" },
       { citation_key: "pirinen_niacin_2020", label: "Pirinen et al. (2020)" },
+      { citation_key: "verma_attention_2016", label: "Verma et al. (2016)" },
+      { citation_key: "ogutlu_mitochondrial_2023", label: "Öğütlü et al. (2022)" },
     ],
   },
   "BRS4-FM1-PM3": {
@@ -270,9 +297,9 @@ export const BRS4_PM_EVIDENCE = {
   "BRS4-FM2-PM4": {
     intro:
       "Mitochondrial ROS generation and buffering are mechanistically established. The evidence below refines how elevated antioxidant markers and network regeneration should be interpreted.",
-        blocks: [{
-        heading: "GSH and mitochondrial lactate metabolism",
-        body: "Mitochondrial metabolism of lactate depends on GSH for ROS neutralisation, linking antioxidant buffering directly to mitochondrial energy use efficiency [Verlaet et al., 2019]. This supports dietary and cofactor patterns that sustain antioxidant networks represented in sibling PM5.",
+    blocks: [{
+        heading: "Elevated GSH in paediatric ADHD cohorts",
+        body: "Elevated glutathione levels recorded in ADHD case–control work may reflect a compensatory response to increased oxidative stress rather than surplus antioxidant capacity alone [Verlaet et al., 2019]. Mitochondrial metabolism of lactate depends on GSH for ROS neutralisation, linking antioxidant buffering directly to mitochondrial energy use efficiency.",
       },
       {
         heading: "Antioxidant network integration",
@@ -297,11 +324,16 @@ export const BRS4_PM_EVIDENCE = {
         heading: "CoQ10 and neuronal protection",
         body: "Coenzyme Q10 supports mitochondrial electron transport and neuronal antioxidant protection, overlapping with membrane-protective logic represented by this PM [Crane, 2001].",
       },
+      {
+        heading: "Mitophagy and mitochondrial dysfunction in ADHD (review)",
+        body: "Review literature links impaired mitochondrial homeostasis and mitophagy to ADHD pathophysiology at the cellular and molecular level [Almutairi et al., 2024], supporting polyphenol-derived mitophagy pathways as complementary — not replacement — levers alongside core cofactor sufficiency.",
+      },
     ],
     extraRefs: [
       "[Singh et al. (2022) — Direct Supplementation with Urolithin A Overcomes Limitations of Dietary Exposure](/docs/papers/BRAIN-Diet-References#singh_direct_2022)",
       "[Andreux et al. (2019) — The Mitophagy Activator Urolithin A Is Safe and Induces a Molecular Signature of Improved Mitochondrial Health](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019)",
       "[Hou et al. (2024) — Urolithin A Improves Cognitive Endurance](/docs/papers/BRAIN-Diet-References#hou_urolithin_2024)",
+      "[Almutairi et al. (2024) — Mitochondrial Dysfunction and Mitophagy in ADHD](/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024)",
     ],
     referenceNoteKeys: [
       { citation_key: "verlaet_oxidative_2019", label: "Verlaet et al. (2019)" },
@@ -309,6 +341,7 @@ export const BRS4_PM_EVIDENCE = {
       { citation_key: "andreux_mitophagy_2019", label: "Andreux et al. (2019)" },
       { citation_key: "hou_urolithin_2024", label: "Hou et al. (2024)" },
       { citation_key: "crane_coq10_2001", label: "Crane (2001)" },
+      { citation_key: "almutairi_mitophagy_adhd_2024", label: "Almutairi et al. (2024)" },
     ],
   },
   "BRS4-FM3-PM6": {
@@ -318,9 +351,17 @@ export const BRS4_PM_EVIDENCE = {
         heading: "Carnitine and long-chain fatty-acid import",
         body: "Carnitine enables long-chain fatty-acid import for β-oxidation when glucose availability or metabolic demand shifts — the substrate-transport biology this PM represents [Kyriazis et al., 2022].",
       },
+      {
+        heading: "Carnitine intervention in paediatric ADHD",
+        body: "Carnitine supplementation improved behavioural and functional outcomes in children with ADHD in a controlled trial — direct human intervention evidence at the mitochondrial substrate-transport layer [van Oudheusden & Scholte, 2002].",
+      },
+    ],
+    extraRefs: [
+      "[van Oudheusden and Scholte (2002) — Efficacy of Carnitine in the Treatment of Children with Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002)",
     ],
     referenceNoteKeys: [
       { citation_key: "kyriazis_impact_2022", label: "Kyriazis et al. (2022)" },
+      { citation_key: "van_oudheusden_efficacy_2002", label: "van Oudheusden & Scholte (2002)" },
     ],
   },
   "BRS4-FM3-PM7": {
@@ -372,11 +413,17 @@ export const BRS4_PM_EVIDENCE = {
         heading: "Exercise as the primary biogenesis driver",
         body: "Mitochondrial biogenesis depends on repeated exercise and recovery signalling rather than single-meal interventions [Goodpaster & Sparks, 2017; de Guia et al., 2019]. Diet provides permissive cofactor and substrate context; lifestyle remains the dominant lever.",
       },
+      {
+        heading: "Mitophagy and mitochondrial dysfunction in ADHD (review)",
+        body: "Review literature links impaired mitophagy and mitochondrial homeostasis to ADHD pathophysiology, framing biogenesis and quality-control pathways as longer-horizon energetic reserve biology relevant to neurodevelopmental contexts [Almutairi et al., 2024; Öğütlü et al., 2022].",
+      },
     ],
     extraRefs: [
       "[Singh et al. (2022) — Direct Supplementation with Urolithin A Overcomes Limitations of Dietary Exposure](/docs/papers/BRAIN-Diet-References#singh_direct_2022)",
       "[Andreux et al. (2019) — The Mitophagy Activator Urolithin A Is Safe and Induces a Molecular Signature of Improved Mitochondrial Health](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019)",
       "[Hou et al. (2024) — Urolithin A Improves Cognitive Endurance](/docs/papers/BRAIN-Diet-References#hou_urolithin_2024)",
+      "[Almutairi et al. (2024) — Mitochondrial Dysfunction and Mitophagy in ADHD](/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024)",
+      "[Öğütlü et al. (2022) — Mitochondrial Dysfunction in Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023)",
     ],
     referenceNoteKeys: [
       { citation_key: "singh_direct_2022", label: "Singh et al. (2022)" },
@@ -384,6 +431,8 @@ export const BRS4_PM_EVIDENCE = {
       { citation_key: "hou_urolithin_2024", label: "Hou et al. (2024)" },
       { citation_key: "goodpaster_metabolic_flexibility_2017", label: "Goodpaster & Sparks (2017)" },
       { citation_key: "de_guia_nad_2019", label: "de Guia et al. (2019)" },
+      { citation_key: "almutairi_mitophagy_adhd_2024", label: "Almutairi et al. (2024)" },
+      { citation_key: "ogutlu_mitochondrial_2023", label: "Öğütlü et al. (2022)" },
     ],
   },
 };

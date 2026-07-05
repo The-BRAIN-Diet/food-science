@@ -29,7 +29,17 @@ legacy_main_image: /img/foods/olives/olives_medium.webp
 ---
 ## Overview
 
-Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health. Sources of MUFA include extra-virgin olive oil, avocado, olives, and nuts.
+Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health.
+
+Within the BRAIN Diet framework, sources of MUFA include extra-virgin olive oil, avocado, olives, and nuts [1][2].
+## Key Nutritional Highlights
+
+
+- Olives and olive oil provide monounsaturated fats and polyphenols within Mediterranean dietary patterns [1]
+- Olive oil phenolics influence intestinal inflammation and antioxidant status [2]
+- Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health. [1]
+- Sources of MUFA include extra-virgin olive oil, avocado, olives, and nuts. [2]
+- Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health.
 
 ## Food Context
 
@@ -55,4 +65,6 @@ Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovas
 
 ## References
 
-- Sources: extra-virgin olive oil, avocado, olives, nuts for MUFA
+[1] Olives and olive oil provide monounsaturated fats and polyphenols within Mediterranean dietary patterns. Schwingshackl et al. 2017. [Olive oil in the prevention and management of type 2 diabetes mellitus: a systematic review and meta-analysis of cohort studies and intervention trials](/docs/papers/BRAIN-Diet-References#schwingshackl_olive_2017)
+
+[2] Olive oil phenolics influence intestinal inflammation and antioxidant status. Camuesco et al. 2006. [Intestinal anti-inflammatory activity of combined quercitrin and dietary olive oil supplemented with fish oil, rich in EPA and DHA (n-3) polyunsaturated fatty acids, in rats with DSS-induced colitis](/docs/papers/BRAIN-Diet-References#camuesco_intestinal_2006)

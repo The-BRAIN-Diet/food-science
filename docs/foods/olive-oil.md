@@ -29,7 +29,17 @@ legacy_main_image: /img/foods/olive-oil/olive-oil_medium.webp
 ---
 ## Overview
 
-Regular olive oil (refined or blended) has significantly lower bioactive polyphenol content compared to extra virgin olive oil (EVOO). **Olive oil's brain benefits come from polyphenols, not fatty acids.** Regular olive oil undergoes processing that reduces or eliminates the secoiridoids and phenolics (oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol) that provide the neuroprotective, anti-inflammatory, and antioxidant effects. For brain health benefits, extra virgin olive oil, particularly early harvest EVOO, is strongly recommended due to its much higher concentration of bioactive polyphenols.
+Regular olive oil (refined or blended) has significantly lower bioactive polyphenol content compared to extra virgin olive oil (EVOO). **Olive oil's brain benefits come from polyphenols, not fatty acids.** Regular olive oil undergoes processing that reduces or eliminates the secoiridoids and phenolics (oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol) that provide the neuroprotective, anti-inflammatory, and antioxidant effects.
+
+Within the BRAIN Diet framework, for brain health benefits, extra virgin olive oil, particularly early harvest EVOO, is strongly recommended due to its much higher concentration of bioactive polyphenols [1][2].
+## Key Nutritional Highlights
+
+
+- Extra-virgin olive oil polyphenols contribute cardiovascular and anti-inflammatory effects beyond fatty acids alone [1]
+- Olive oil polyphenols at sufficient dose are associated with LDL oxidation protection in regulatory reviews [2]
+- Regular olive oil (refined or blended) has significantly lower bioactive polyphenol content compared to extra virgin olive oil (EVOO). [1]
+- **Olive oil's brain benefits come from polyphenols, not fatty acids.** Regular olive oil undergoes processing that reduces or eliminates the secoiridoids and phenolics (oleuropein, oleocanthal, oleacein, hydroxytyrosol, tyrosol) that pro… [2]
+- For brain health benefits, extra virgin olive oil, particularly early harvest EVOO, is strongly recommended due to its much higher concentration of bioactive polyphenols.
 
 ## Food Context
 
@@ -52,6 +62,6 @@ Regular olive oil (refined or blended) has significantly lower bioactive polyphe
 
 ## References
 
-- Regular olive oil has significantly lower bioactive polyphenol content compared to extra virgin olive oil
-- **Olive oil's brain benefits come from polyphenols, not fatty acids** - these are found in meaningful amounts primarily in extra virgin olive oil, especially early harvest EVOO
-- For brain health, use extra virgin olive oil which contains secoiridoids and phenolics (oleuropein aglycone, oleocanthal, oleacein, tyrosol, hydroxytyrosol) that provide mitophagy, SIRT1, AMPK, NF-κB inhibition, NRF2 activation, and neuroprotective effects
+[1] Extra-virgin olive oil polyphenols contribute cardiovascular and anti-inflammatory effects beyond fatty acids alone. Schwingshackl et al. 2017. [Olive oil in the prevention and management of type 2 diabetes mellitus: a systematic review and meta-analysis of cohort studies and intervention trials](/docs/papers/BRAIN-Diet-References#schwingshackl_olive_2017)
+
+[2] Olive oil polyphenols at sufficient dose are associated with LDL oxidation protection in regulatory reviews. EFSA Panel on Dietetic Products & Allergies (NDA) 2011. [Scientific Opinion on the substantiation of health claims related to polyphenols in olive oil and protection of LDL particles from oxidative damage pursuant to Article 13(1) of Regulation (EC) No 1924/2006](/docs/papers/BRAIN-Diet-References#efsa_polyphenols_olive_2011)

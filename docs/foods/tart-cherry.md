@@ -33,7 +33,16 @@ legacy_main_image: /img/foods/tart-cherry/tart-cherry_medium.webp
 ---
 ## Overview
 
-Tart cherry (and tart cherry juice) provides natural melatonin and polyphenols that support sleep duration and quality, relevant for ADHD sleep dysregulation. Tart cherry juice is naturally rich in melatonin and shown to improve sleep duration.
+Tart cherry (and tart cherry juice) provides natural melatonin and polyphenols that support sleep duration and quality, relevant for ADHD sleep dysregulation.
+
+Within the BRAIN Diet framework, tart cherry juice is naturally rich in melatonin and shown to improve sleep duration [1].
+## Key Nutritional Highlights
+
+
+- Reports on pilot Study of the Tart Cherry Juice for the Treatment of Insomnia and Investigation of Mechanisms [1]
+- Tart cherry (and tart cherry juice) provides natural melatonin and polyphenols that support sleep duration and quality, relevant for ADHD sleep dysregulation. [1]
+- Tart cherry juice is naturally rich in melatonin and shown to improve sleep duration.
+- Tart cherry (and tart cherry juice) provides natural melatonin and polyphenols that support sleep duration and quality, relevant for ADHD sleep dysregulation.
 
 ## Food Context
 

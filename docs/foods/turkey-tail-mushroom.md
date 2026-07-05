@@ -41,7 +41,18 @@ legacy_main_image: /img/foods/turkey-tail-mushroom/turkey-tail-mushroom_medium.w
 ---
 ## Overview
 
-Turkey Tail mushroom (Trametes versicolor) is a common medicinal mushroom found worldwide, recognized by its colorful, banded appearance resembling a turkey's tail. It is particularly rich in polysaccharides, including polysaccharide-K (PSK) and polysaccharide-peptide (PSP), which have been extensively studied for their immune-modulating properties. Turkey Tail supports gut microbiome diversity and may help modulate immune responses. It is one of the most researched medicinal mushrooms for immune support and is commonly consumed as a tea, extract, or supplement.
+Turkey Tail mushroom (Trametes versicolor) is a common medicinal mushroom found worldwide, recognized by its colorful, banded appearance resembling a turkey's tail. It is particularly rich in polysaccharides, including polysaccharide-K (PSK) and polysaccharide-peptide (PSP), which have been extensively studied for their immune-modulating properties.
+
+Within the BRAIN Diet framework, turkey Tail supports gut microbiome diversity and may help modulate immune responses. It is one of the most researched medicinal mushrooms for immune support and is commonly consumed as a tea, extract, or supplement [1][2].
+## Key Nutritional Highlights
+
+
+- Turkey tail provides polysaccharopeptides studied for immune-modulating effects [1]
+- Fungal beta-glucans modulate innate immune and gut-associated signalling [2]
+- Turkey Tail mushroom (Trametes versicolor) is a common medicinal mushroom found worldwide, recognized by its colorful, banded appearance resembling a turkey's tail. [1]
+- It is particularly rich in polysaccharides, including polysaccharide-K (PSK) and polysaccharide-peptide (PSP), which have been extensively studied for their immune-modulating properties. [2]
+- Turkey Tail supports gut microbiome diversity and may help modulate immune responses.
+- It is one of the most researched medicinal mushrooms for immune support and is commonly consumed as a tea, extract, or supplement.
 
 ## Food Context
 
@@ -68,7 +79,6 @@ Turkey Tail mushroom (Trametes versicolor) is a common medicinal mushroom found 
 
 ## References
 
-- Turkey Tail mushroom (Trametes versicolor) is rich in polysaccharides, particularly PSK (polysaccharide-K) and PSP (polysaccharide-peptide)
-- Extensively researched for immune-modulating properties
-- Supports gut microbiome diversity
-- One of the most studied medicinal mushrooms for immune support
+[1] Turkey tail provides polysaccharopeptides studied for immune-modulating effects. Starck et al. 2024. [Mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024)
+
+[2] Fungal beta-glucans modulate innate immune and gut-associated signalling. Lacasa et al. 2023. [Yeast Beta-Glucan Supplementation with Multivitamins Attenuates Cognitive Impairments in Individuals with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Randomized, Double-Blind, Placebo-Controlled Trial](/docs/papers/BRAIN-Diet-References#lacasa_yeast_2023)

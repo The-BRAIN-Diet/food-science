@@ -22,7 +22,7 @@ hide_title: true
 
 ## Ambition
 
-Maintain a resilient gut–brain interface so the brain can receive stable microbial and neural signals while limiting gut-derived immune and inflammatory load.
+Maintain a resilient gut–brain interface — barrier selective, microbial ecology supportive, and gut-to-brain communication proportionate — so the brain receives stable microbial and neural signals without chronic immune activation or inflammatory spillover.
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -31,40 +31,54 @@ Maintain a resilient gut–brain interface so the brain can receive stable micro
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Strategy</strong>
+<strong>Dietary Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-hub-levers-key-constraints">
-<p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key dietary constraints include adequate fermentable fibre, resistant starch, and diverse plant-food intake to support microbial diversity, microbial metabolism, and intestinal function.</p>
-<p class="brs-hub-lever-kc-foods">Apples, Barley, Basil, Blueberries, Brown Rice, Chia Seeds, Chicory, Cinnamon, Clams, Cocoa, Cooled Potatoes, Cooled Rice, Cranberries, Eggs, Flax, Flaxseed, Ginger, Green Bananas, Green Tea, Legumes, Liver, Mackerel, Meat, Mussels, Oats, Onions, Orange Vegetables, Oregano, Oysters, Parsley, Pomegranate, Protein Foods, Pumpkin Seeds, Quinoa, Raspberries, Salmon, Sardines, Strawberries, Turmeric</p>
+<div class="brs-hub-dietary-strategy">
+<p class="brs-hub-dietary-guidance-flow">Pattern → Nutrients → Biology → Target Foods</p>
+<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Eat a wide variety of plant foods daily</strong> → fermentable fibre and diverse phytochemicals → gut microbial ecology depends on varied substrate input; when plant diversity contracts, competitive microbial turnover weakens and gut–brain signalling becomes less stable.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/spinach">Spinach</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include fermentable fibre sources regularly</strong> → β-glucan, resistant starch and soluble fibre → feeds microbial fermentation and supports short-chain fatty acid production relevant to barrier and neural signalling pathways.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/lentils">Lentils</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include fermented foods where tolerated</strong> → live cultures and postbiotic peptides → supports vagal and enteric nervous system modulation through microbial and postbiotic signalling routes.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/kefir">Kefir</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/fermented-vegetables">Fermented Vegetables</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include omega-3-rich whole foods regularly</strong> → EPA, DHA and barrier-supportive fatty acids → supports tight-junction integrity and limits gut-derived inflammatory load reaching systemic circulation.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/algal-oil">Algae</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></p>
+<p class="brs-hub-dietary-guidance-note"><em>Omega-3:</em> Marine foods and algae provide preformed DHA and EPA. Walnuts provide ALA, which requires endogenous conversion with variable efficiency.</p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plant foods</strong> → polyphenols → supports keystone taxa and microbial biotransformation into gut–brain and mitochondria-relevant metabolites.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/walnuts">Walnuts</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Maintain dietary variety across nutrient-dense whole foods</strong> → zinc, vitamin A precursors and barrier-supportive micronutrients → provides the nutritional resources required for epithelial maintenance and immune containment at the gut interface.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/sardines">Sardines</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a></span></p>
+</li>
+</ul>
 </div>
 
-<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Eat a wide variety of plant foods daily — vegetables, fruits, legumes, whole grains, nuts, and seeds — to feed beneficial gut microbes. Include fermented foods where tolerated, and fermentable fibre from oats, barley, beans, and cooled potatoes. Prioritise minimally processed meals that support the gut lining rather than ultra-processed foods that disrupt microbial balance and barrier function.</p>
+</div>
+</div>
+</div>
 
-<div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Target Foods</strong>
+<strong>Optimisation Levers</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list brs-hub-star-food-list">
-<li class="brs-hub-star-food"><a href="/docs/foods/barley" class="brs-hub-star-food-link"><strong>Barley</strong></a><p class="brs-hub-star-food-why">Soluble-fibre grain promoting microbial fermentation, competitive ecological selection, and butyrate-supportive substrate for barrier and vagal context.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/blueberries" class="brs-hub-star-food-link"><strong>Blueberries</strong></a><p class="brs-hub-star-food-why">Polyphenol-rich fruit supporting keystone taxa, microbial turnover, and biotransformation of plant compounds into gut- and mitochondria-relevant metabolites.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/fermented-vegetables" class="brs-hub-star-food-link"><strong>Fermented Vegetables</strong></a><p class="brs-hub-star-food-why">Live-culture food providing postbiotic peptides and microbial signals that support vagal and enteric nervous system modulation.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/greek-yogurt" class="brs-hub-star-food-link"><strong>Greek Yogurt (plain, unsweetened)</strong></a><p class="brs-hub-star-food-why">Fermented dairy providing live cultures and protein matrix that support vagal–ENS signalling and structured meal patterns for gut rhythm stability.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/kefir" class="brs-hub-star-food-link"><strong>Kefir</strong></a><p class="brs-hub-star-food-why">Fermented dairy with diverse live cultures supporting vagal–ENS signalling and gut–brain communication through microbial and postbiotic pathways.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/oats" class="brs-hub-star-food-link"><strong>Oats</strong></a><p class="brs-hub-star-food-why">β-glucan-rich whole grain supporting fermentable fibre delivery, microbial ecological turnover, and SCFA production relevant to gut–brain signalling.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/salmon" class="brs-hub-star-food-link"><strong>Salmon</strong></a><p class="brs-hub-star-food-why">Omega-3-rich seafood supporting gut barrier tight-junction integrity and limiting gut-derived immune and inflammatory load.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/walnuts" class="brs-hub-star-food-link"><strong>Walnuts</strong></a><p class="brs-hub-star-food-why">Polyphenol- and fibre-containing nut supporting microbial polyphenol biotransformation and metabolite generation relevant to gut–brain pathways.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></li>
-</ul>
-
-</div>
-</div>
-</div>
+<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS5 yet.</em></p>
 
 </div>
 </div>
@@ -93,13 +107,6 @@ Maintain a resilient gut–brain interface so the brain can receive stable micro
 </div>
 <!-- brs-hub-levers:end -->
 
-## Overview
-
-The gut is a major site where diet, microbes, immunity, and neural signalling intersect with brain function. BRS5 describes the integrated capacity that keeps the gut barrier selective, microbial ecology supportive, and gut-to-brain communication proportionate rather than chronically activating. Barrier integrity, microbial metabolite signalling, enteric nervous system tone, and gut–vagal pathways work together so the gut supports rather than burdens brain-relevant regulation. Nutrition influences these capacities through fermentable fibre and resistant starch, diverse plant-food intake, polyphenol-rich patterns, and dietary choices that support intestinal function and microbial diversity.
-
-* Maintains gut barrier integrity and contained microbial metabolite signalling so gut-derived inputs remain supportive.
-* Limits gut-derived inflammatory and immune load reaching systemic circulation — supporting BRS3.
-* Connects gut–vagal and enteric signalling to stress-regulation and metabolic context — supporting BRS6.
 ## Therapeutic Area Research
 
 <!-- brs-hub-ta-research:start -->
@@ -115,51 +122,40 @@ The gut is a major site where diet, microbes, immunity, and neural signalling in
 
 ### Introduction
 
-The gut microbiome's dominant phyla, Firmicutes and Bacteroidetes, and their relative abundance (F/B ratio) are often considered broad indicators of gut ecological balance. Increasing taxonomic diversity can expand capacity to produce beneficial metabolites such as urolithin A, support omega-3 metabolism, and reduce harmful gut-derived metabolites.
+Gut–brain axis function in ADHD reflects the integrated performance of multiple peripheral regulatory capacities rather than disruption of a single microbial pathway. These capacities include gut barrier selectivity and immune containment, microbial ecological turnover, short-chain fatty acid and polyphenol-derived metabolite signalling, vagal and enteric nervous system communication, and gut-side neurotransmitter precursor biotransformation. BRS5 organises these as connected functional mechanisms rather than isolated microbiome labels.
 
-Gut health influences production of neurotransmitter precursors including serotonin, GABA, and dopamine. While gut-derived neurotransmitters are unlikely to cross the blood–brain barrier, precursors such as tryptophan and tyrosine do, enabling local synthesis in the brain.
+### Dietary and lifestyle context
 
-Gut–brain signalling occurs via the vagus nerve, transmitting microbial and neurochemical cues that influence mood and motivation. Vagal stimulation has demonstrated clinical benefits in depression, epilepsy, and inflammation; preclinical work shows gut microbes such as *Lactobacillus* can alter brain GABA receptor expression through vagal pathways.
+Fermentable fibre and resistant starch, diverse plant-food intake, polyphenol-rich patterns, fermented foods where tolerated, barrier-supportive nutrients, and consistent meal rhythms all influence how these capacities perform. In ADHD contexts, evidence is interpreted through connected BRS5 FMs and PMs — with cross-links to BRS3 gut-derived inflammatory load and BRS4 mitochondrial-relevant SCFA biology where relevant.
 
-The gut barrier is the dynamic interface between microbiome, immune system, and brain. When barrier integrity weakens, bacterial fragments such as lipopolysaccharide (LPS) and dietary antigens enter circulation, sustaining chronic low-grade inflammation and altering neurotransmitter metabolism.
+### ADHD translational biological context
 
-The barrier comprises four interdependent layers: microbiota (fibre and polyphenol loss reduces SCFA protection), mucus (eroded by low plant diversity and ultra-processed foods), epithelium (disrupted by nutrient deficiencies, alcohol, NSAIDs, and chronic stress), and immune interface (influenced by omega-3 and vitamin A context).
+ADHD-relevant gut–brain evidence comes from studies conducted in ADHD cohorts or ADHD-labelled intervention trials: reduced microbial alpha diversity in paediatric ADHD [Prehn-Kristensen et al., 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018); gut microbiome composition linked to neural reward anticipation in ADHD [Aarts et al., 2017](/docs/papers/BRAIN-Diet-References#aarts_gut_2017); compositional differences in gut microbiota profiles in treatment-naïve children with ADHD [Jiang et al., 2018](/docs/papers/BRAIN-Diet-References#jiang_gut_2018); lower faecal short-chain fatty acid levels in ADHD versus controls [Steckler et al., 2024](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024); open-label *Bifidobacterium bifidum* supplementation with symptom and microbiota changes in children with ADHD [Wang et al., 2022](/docs/papers/BRAIN-Diet-References#wang_effect_2022); early-life probiotic exposure with later neurodevelopmental risk associations including ADHD in a small randomised trial [Pärtty et al., 2015](/docs/papers/BRAIN-Diet-References#partty_possible_2015); and ADHD-focused gut microbiota–gut–brain axis review framing [Schleupner & Carmichael, 2022](/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022). General SCFA, propionate, prebiotic, and vagal mechanistic papers belong on BRS5 architecture pages rather than this ADHD dropdown.
 
-When weaknesses converge, LPS can fuel systemic inflammation and impair insulin sensitivity. Metabolic endotoxemia—chronically elevated circulating LPS—is common in Western dietary patterns. Small intestinal bacterial overgrowth (SIBO) can impair absorption of vitamin B12, iron, and tryptophan.
+Collectively, these findings do not imply that gut dysbiosis is universal in ADHD, nor that individual microbiome markers define the disorder. Instead, they support interpreting gut–brain axis biology as a modifiable regulatory system through which dietary, lifestyle, and microbial-context interventions may influence cognitive and behavioural function. This translational perspective underpins the BRS5 architecture.
 
-Prebiotics, probiotics, high-fibre diets, and fermented foods (psychobiotics) have been associated with changes in attentional vigilance and mood regulation; galacto-oligosaccharides (GOS) have been linked to reduced anxiety and cortisol. SCFAs such as butyrate support barrier integrity, immune regulation, and neurotransmitter precursor context.
+### ADHD evidence and connected BRS5 mechanisms
 
-### ADHD: Gut–Brain Axis Context
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| Reduced microbial alpha diversity reported in paediatric ADHD cohorts | [Prehn-Kristensen et al., 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018) | [BRS5(FM2)](/docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity), [BRS5-FM2-PM4](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) |
+| Gut microbiome composition linked to neural reward anticipation in ADHD | [Aarts et al., 2017](/docs/papers/BRAIN-Diet-References#aarts_gut_2017) | [BRS5-FM1-PM3](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support) |
+| Compositional differences in gut microbiota profiles in treatment-naïve children with ADHD, including beneficial taxa guild shifts | [Jiang et al., 2018](/docs/papers/BRAIN-Diet-References#jiang_gut_2018) | [BRS5(FM1)](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface), [BRS5-FM1-PM3](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support) |
+| ADHD cohorts showed lower faecal SCFA levels including acetic, propionic, isobutyric, isovaleric, and valeric acids versus controls | [Steckler et al., 2024](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024) | [BRS5-FM2-PM5](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling), [BRS5-FM2-PM4](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) |
+| Open-label *Bifidobacterium bifidum* supplementation associated with symptom change and altered gut microbiota in children with ADHD | [Wang et al., 2022](/docs/papers/BRAIN-Diet-References#wang_effect_2022) | [BRS5-FM1-PM3](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support), [BRS5-FM3-PM7](/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation) |
+| Early-life *Lactobacillus rhamnosus* GG exposure with later neurodevelopmental risk associations including ADHD; hypothesis-generating developmental modulation window rather than definitive prevention | [Pärtty et al., 2015](/docs/papers/BRAIN-Diet-References#partty_possible_2015) | [BRS5-FM1-PM3](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support), [BRS5(FM3)](/docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling) |
+| ADHD-focused review of gut microbiota–gut–brain axis research gaps, including female inclusion in study design | [Schleupner & Carmichael, 2022](/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022) | [BRS5(FM2)](/docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity), [BRS5-FM2-PM4](/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection) |
 
-Microbiota categorisation in ADHD remains inconsistent and taxonomy is still evolving. Some studies note reduced *Faecalibacterium prausnitzii* and *Bifidobacterium*; others report slightly increased *Bifidobacterium* in ADHD—functional effects depend on strain-level biology, not genus labels alone.
+### Current evidence limitations
 
-The gut–brain connection may play a significant role in ADHD aetiology. Barrier weakening correlates with poor cognitive function, fatigue, mood instability, and ADHD symptom severity in some cohorts.
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| Human dietary intervention studies directly measuring gut-barrier, SCFA, and vagal functional mechanisms in ADHD remain limited; probiotic and psychobiotic findings show inconsistent taxa directions across cohorts | Future evidence integration | BRS5-wide; especially [BRS5(FM1)](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface), [BRS5(FM2)](/docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity), and [BRS5(FM3)](/docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling) |
 
-Decreased microbial alpha diversity has been reported in ADHD and may contribute to increased permeability and low-grade systemic inflammation.
+### Framework expansion
 
-Butyrate may reduce neuroinflammation and support mitochondrial brain energy metabolism relevant to cognitive impairment in ADHD.
-
-Propionate may reduce neuroinflammation, protect the blood–brain barrier, and stimulate norepinephrine secretion, with possible relevance to attention and focus.
-
-Lower *Bifidobacterium longum* abundance in infancy has been associated with increased risk of developing ADHD and Asperger syndrome; early *Lactobacillus rhamnosus* GG administration showed hypothesis-generating protective signals in a small study—interpreted as an early-life modulation window rather than definitive prevention.
-## References
-
-- A growing body of evidence suggests that modulating the gut microbiome can positively influence brain health and overall health. The gut is central in producing neurotransmitters, reducing systemic inflammation and enhancing gut-brain axis communication with fibre and fermented foods playing a central role [Wastyk et al. 2021](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)
-- Increasing the diversity of taxa can increase the possibilities for individuals to produce certain health beneficial metabolites such as Urolithin A, or increase omega 3 metabolism and reduce downstream harmful gut metabolites [Schleupner and Carmichael 2022](/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022)
-- Some studies noted reduced levels of beneficial bacteria such as Faecalibacterium prausnitzii and Bifidobacterium in ADHD subjects [Wang et al. 2024](/docs/papers/BRAIN-Diet-References#wang_effect_2022)
-- Conversely, other studies found that individuals with ADHD had slightly increased Bifidobacterium [Aarts et al. 2017](/docs/papers/BRAIN-Diet-References#aarts_gut_2017)
-- The gut-brain connection may also play a significant role in the etiology of ADHD [Jiang et al. 2018](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)
-- Gut–brain signaling occurs via the vagus nerve, which transmits microbial and neurochemical cues to influence mood and motivation. Vagal stimulation has demonstrated clinical benefits in depression, epilepsy, and inflammation [Austelle et al. 2022](/docs/papers/BRAIN-Diet-References#austelle_comprehensive_2022)
-- Gut microbes such as Lactobacillus can alter brain GABA receptor expression through vagal pathways [Bravo et al. 2011](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)
-- A decreased microbial diversity (alpha diversity) has also been reported in ADHD [Prehn-Kristensen et al. 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
-- Interventions such as prebiotics, probiotics, high-fibre diets, and fermented foods, collectively referred to as psychobiotics, have been associated with changes in attentional vigilance and mood regulation [Schmidt et al. 2015](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)
-- Galacto-oligosaccharides (GOS) being linked to reduced anxiety and cortisol [Johnstone et al. 2021](/docs/papers/BRAIN-Diet-References#johnstone_anxiolytic_2021)
-- Short-chain fatty acids (SCFAs) like butyrate support intestinal barrier integrity, regulate immune responses, antioxidant activity, and promote the synthesis of key neurotransmitters such as dopamine and serotonin [Silva et al. 2020](/docs/papers/BRAIN-Diet-References#silva_role_2020)
-- Butyrate supports mitochondrial function, enhancing brain energy metabolism, which may help with cognitive impairments seen in ADHD [Rose et al. 2018](/docs/papers/BRAIN-Diet-References#rose_butyrate_2018)
-- Butyrate aids in reducing cholesterol and neuroinflammation [Cavaliere et al. 2022](/docs/papers/BRAIN-Diet-References#cavaliere_butyrate_2022)
-- Increased propionate levels could help reduce neuroinflammation and enhance cognitive function while protecting the blood-brain barrier [Grüter et al. 2023](/docs/papers/BRAIN-Diet-References#gruter_propionate_2023)
-- Propionate can stimulate the secretion of norepinephrine, possibly benefiting ADHD symptoms like attention and focus [Hoyles et al. 2018](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018)
-- A lowered abundance of Bifidobacterium longum in infancy has been associated with increased risk of developing ADHD and Asperger syndrome in childhood [Pärtty et al. 2015](/docs/papers/BRAIN-Diet-References#partty_possible_2015)
+- **BRS5(SM-Lifestage) — pending:** early-life probiotic modulation windows synthesised in [Pärtty et al., 2015](/docs/papers/BRAIN-Diet-References#partty_possible_2015); dedicated SM-Lifestage pages not yet published.
+- **Cross-BRS shared evidence:** reduced microbiome alpha diversity ([Prehn-Kristensen et al., 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)) is routed here for ecological-turnover interpretation and is also represented on [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress); immune–allergy overlap in ADHD ([Wesselink et al., 2019](/docs/papers/BRAIN-Diet-References#wesselink_feeding_2019)) is represented on BRS3.
 
 </div>
 </div>

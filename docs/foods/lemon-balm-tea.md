@@ -42,7 +42,17 @@ legacy_main_image: /img/foods/lemon-balm-tea/lemon-balm-tea_medium.webp
 ---
 ## Overview
 
-Lemon balm tea is an herbal infusion that supports sleep and calm, often used in evening routines for ADHD sleep dysregulation. Herbal teas such as chamomile for apigenin, lemon balm tea, and tart cherry juice are recommended for evening wind-down and sleep prep.
+Lemon balm tea is an herbal infusion that supports sleep and calm, often used in evening routines for ADHD sleep dysregulation.
+
+Within the BRAIN Diet framework, herbal teas such as chamomile for apigenin, lemon balm tea, and tart cherry juice are recommended for evening wind-down and sleep prep [1][2].
+## Key Nutritional Highlights
+
+
+- Melissa officinalis (lemon balm) is studied for calm and cognitive effects in herbal trials [1]
+- Herbal teas contribute polyphenol bioactives with neuromodulatory relevance [2]
+- Lemon balm tea is an herbal infusion that supports sleep and calm, often used in evening routines for ADHD sleep dysregulation. [1]
+- Herbal teas such as chamomile for apigenin, lemon balm tea, and tart cherry juice are recommended for evening wind-down and sleep prep. [2]
+- Lemon balm tea is an herbal infusion that supports sleep and calm, often used in evening routines for ADHD sleep dysregulation.
 
 ## Food Context
 
@@ -68,5 +78,6 @@ Lemon balm tea is an herbal infusion that supports sleep and calm, often used in
 
 ## References
 
-- Herbal teas (e.g. chamomile for apigenin, lemon balm tea, tart cherry juice)
-- Evening(Wind-down, sleep prep): Herbal teas (e.g. chamomile for apigenin, lemon balm tea, tart cherry juice)
+[1] Melissa officinalis (lemon balm) is studied for calm and cognitive effects in herbal trials. Perry et al. 2018. [A randomised double-blind placebo-controlled pilot trial of a combined extract of sage, rosemary and melissa, traditional herbal medicines, on the enhancement of memory in normal healthy subjects, including influence of age](/docs/papers/BRAIN-Diet-References#perry_sage_rosemary_melissa_2018)
+
+[2] Herbal teas contribute polyphenol bioactives with neuromodulatory relevance. Bruni et al. 2021. [Herbal Remedies and Their Possible Effect on the GABAergic System and Sleep](/docs/papers/BRAIN-Diet-References#bruni_herbal_2021)

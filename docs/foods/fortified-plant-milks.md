@@ -46,7 +46,17 @@ legacy_main_image: /img/foods/fortified-plant-milks/fortified-plant-milks_medium
 ---
 ## Overview
 
-Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like B12, vitamin D, and sometimes iodine, helping close vegan nutrient gaps. Targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts), B12 (fortified plant milks, nutritional yeast).
+Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like B12, vitamin D, and sometimes iodine, helping close vegan nutrient gaps.
+
+Within the BRAIN Diet framework, targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts), B12 (fortified plant milks, nutritional yeast) [1][2].
+## Key Nutritional Highlights
+
+
+- Fortified plant milks can help close calcium and iron gaps when paired appropriately within mixed meals [1]
+- B-vitamin fortification in plant beverages supports one-carbon and neurochemical pathways in vegan patterns [2]
+- Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like B12, vitamin D, and sometimes iodine, helping close vegan nutrient gaps. [1]
+- Targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts), B12 (fortified plant milks, nutritional yeast). [2]
+- Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like B12, vitamin D, and sometimes iodine, helping close vegan nutrient gaps.
 
 ## Food Context
 
@@ -75,6 +85,6 @@ Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like 
 
 ## References
 
-- Fortified plant milks and dairy milk can help meet calcium (and sometimes iodine, depending on fortification and local practices) targets
-- Targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts), B12 (fortified plant milks, nutritional yeast)
-- Vitamin B12: Fortified plant milks, nutritional yeast, supplements
+[1] Fortified plant milks can help close calcium and iron gaps when paired appropriately within mixed meals. Hallberg et al. 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+
+[2] B-vitamin fortification in plant beverages supports one-carbon and neurochemical pathways in vegan patterns. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)

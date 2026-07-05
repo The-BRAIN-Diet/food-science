@@ -33,7 +33,17 @@ legacy_main_image: /img/foods/sauerkraut/sauerkraut_medium.webp
 ---
 ## Overview
 
-Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbiotic compounds, and enhanced nutrient bioavailability. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
+Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbiotic compounds, and enhanced nutrient bioavailability.
+
+Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling [1][2].
+## Key Nutritional Highlights
+
+
+- Lacto-fermented vegetables increase microbiome diversity in fermented-food intervention trials [1]
+- Sauerkraut fermentation produces live lactic acid bacteria and organic acids [2]
+- Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbiotic compounds, and enhanced nutrient bioavailability. [1]
+- Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]
+- Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbiotic compounds, and enhanced nutrient bioavailability.
 
 ## Food Context
 
@@ -62,5 +72,6 @@ Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbio
 
 ## References
 
-- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
-- Sauerkraut: Fermented cabbage, rich in Lactobacillus
+[1] Lacto-fermented vegetables increase microbiome diversity in fermented-food intervention trials. Wastyk et al. 2021. [Gut-microbiota-targeted diets modulate human immune status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)
+
+[2] Sauerkraut fermentation produces live lactic acid bacteria and organic acids. Pärtty et al. 2015. [A possible link between early probiotic intervention and the risk of neuropsychiatric disorders later in childhood: a randomized trial](/docs/papers/BRAIN-Diet-References#partty_possible_2015)

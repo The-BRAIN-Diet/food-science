@@ -43,7 +43,17 @@ legacy_main_image: /img/foods/kimchi/kimchi_medium.webp
 ---
 ## Overview
 
-Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
+Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance.
+
+Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling [1][2].
+## Key Nutritional Highlights
+
+
+- Kimchi and lacto-fermented vegetables deliver live lactic acid bacteria and organic acids [1]
+- Fermented vegetables contribute postbiotic metabolites relevant to gut–brain axis modulation [2]
+- Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance. [1]
+- Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]
+- Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance.
 
 ## Food Context
 
@@ -68,5 +78,6 @@ Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA,
 
 ## References
 
-- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
-- Kimchi: Korean fermented vegetables, diverse probiotics
+[1] Kimchi and lacto-fermented vegetables deliver live lactic acid bacteria and organic acids. Jakobi et al. 2024. [The gut-microbiome in adult Attention-deficit/hyperactivity disorder - A Meta-analysis](/docs/papers/BRAIN-Diet-References#jakobi_gut-microbiome_2024)
+
+[2] Fermented vegetables contribute postbiotic metabolites relevant to gut–brain axis modulation. Antony et al. 2023. [Gut microbiome supplementation as therapy for metabolic syndrome](/docs/papers/BRAIN-Diet-References#antony_gut_2023)

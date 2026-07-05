@@ -52,7 +52,16 @@ Rice is a globally used staple carbohydrate. Within the BRAIN Diet, **variant an
 
 **Cooking and cooling** can create larger biological differences than minor distinctions between many white-rice cultivars. **Red and black rice** contribute more meaningfully to antioxidant and polyphenol exposure than small cultivar differences among polished whites.
 
-Grain protein remains **lysine-limited**; pairing with legumes improves essential amino acid balance [1,2]. Nutrient tables below map to **brown rice, cooked** as the reference variant; see the comparison table for how other types differ.
+Grain protein remains **lysine-limited**; pairing with legumes improves essential amino acid balance [1,2]. Nutrient tables below map to **brown rice, cooked** as the reference variant; see the comparison table for how other types differ [1][2].
+## Key Nutritional Highlights
+
+
+- Reports on dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation [1]
+- Reports on dietary Protein and Amino Acids in Vegetarian Diets—A Review [2]
+- Rice is a globally used staple carbohydrate. [1]
+- Within the BRAIN Diet, **variant and processing often matter more than the word “rice” on a label**: degree of milling, pigmentation (white, red, black), cultivar (e.g. [2]
+- basmati vs jasmine), **cooking and cooling**, fermentation, and meal context (protein, fat, fibre, acidity) shape fibre, resistant starch (RS), glycaemic impact, and polyphenol exposure.
+- **Cooking and cooling** can create larger biological differences than minor distinctions between many white-rice cultivars.
 
 ## Rice Variants and Biologically Relevant Characteristics
 

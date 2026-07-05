@@ -50,7 +50,16 @@ legacy_main_image: /img/foods/sourdough-bread/sourdough-bread_medium.webp
 ---
 ## Overview
 
-Sourdough bread, especially when made with quinoa or other functional flours, provides GABA, improved amino acid bioavailability, and optimized Maillard reaction products (MRPs) with reduced acrylamide. Quinoa sourdough offers both very high nutrients (due to the quinoa) and a high GABA profile, and sourdough fermentation enhances bioavailability of amino acids through activation of endogenous cereal proteases.
+Sourdough bread, especially when made with quinoa or other functional flours, provides GABA, improved amino acid bioavailability, and optimized Maillard reaction products (MRPs) with reduced acrylamide.
+
+Within the BRAIN Diet framework, quinoa sourdough offers both very high nutrients (due to the quinoa) and a high GABA profile, and sourdough fermentation enhances bioavailability of amino acids through activation of endogenous cereal proteases [1].
+## Key Nutritional Highlights
+
+
+- Reports on proteolysis in sourdough fermentations: mechanisms and potential for improved bread quality [1]
+- Sourdough bread, especially when made with quinoa or other functional flours, provides GABA, improved amino acid bioavailability, and optimized Maillard reaction products (MRPs) with reduced acrylamide. [1]
+- Quinoa sourdough offers both very high nutrients (due to the quinoa) and a high GABA profile, and sourdough fermentation enhances bioavailability of amino acids through activation of endogenous cereal proteases.
+- Sourdough bread, especially when made with quinoa or other functional flours, provides GABA, improved amino acid bioavailability, and optimized Maillard reaction products (MRPs) with reduced acrylamide.
 
 ## Food Context
 

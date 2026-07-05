@@ -55,7 +55,16 @@ Portobello Mushroom
 
 Use this page when a recipe, shopping list, or matrix entry says “mushrooms” without a species qualifier and you mean the common cultivated table mushroom—not shiitake, oyster, maitake, or other species (each has its own food page).
 
-Nutritionally, *A. bisporus* is a low-calorie food with useful **niacin (vitamin B3)** for NAD⁺ synthesis and mitochondrial support. **UV-exposed** white/button mushrooms can provide **vitamin D₂ (ergocalciferol)**; ordinary supermarket specimens are often low in vitamin D unless labelled or treated for UV exposure [Starck et al. 2024](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024).
+Nutritionally, *A. bisporus* is a low-calorie food with useful **niacin (vitamin B3)** for NAD⁺ synthesis and mitochondrial support. **UV-exposed** white/button mushrooms can provide **vitamin D₂ (ergocalciferol)**; ordinary supermarket specimens are often low in vitamin D unless labelled or treated for UV exposure [Starck et al. 2024](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024) [1][2].
+## Key Nutritional Highlights
+
+
+- Reports on mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines [1]
+- Reports on niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy [2]
+- **White/button mushroom** (*Agaricus bisporus*) is the BRAIN Diet’s **canonical generic entry** for this species. [1]
+- The same fungus is sold under several market names that reflect **maturity and cap colour**, not a different species: ``` White / Button Mushroom ↓ Cremini Mushroom ↓ Chestnut Mushroom (UK) ↓ Portobello Mushroom ``` Use this page when a … [2]
+- bisporus* is a low-calorie food with useful **niacin (vitamin B3)** for NAD⁺ synthesis and mitochondrial support.
+- **UV-exposed** white/button mushrooms can provide **vitamin D₂ (ergocalciferol)**; ordinary supermarket specimens are often low in vitamin D unless labelled or treated for UV exposure [Starck et al.
 
 ## Food Context
 

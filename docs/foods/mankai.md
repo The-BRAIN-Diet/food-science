@@ -28,7 +28,16 @@ legacy_main_image: /img/foods/mankai/mankai_medium.webp
 ---
 ## Overview
 
-Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavailable iron and true vitamin B12, helping close vegan nutrient gaps. Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12) helps narrow vegan nutrient gaps.
+Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavailable iron and true vitamin B12, helping close vegan nutrient gaps.
+
+Within the BRAIN Diet framework, precision sourcing of functional plant foods such as Mankai duckweed (iron, B12) helps narrow vegan nutrient gaps [1].
+## Key Nutritional Highlights
+
+
+- Reports on protein bioavailability of Wolffia globosa duckweed, a novel aquatic plant – A randomized controlled trial [1]
+- Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavailable iron and true vitamin B12, helping close vegan nutrient gaps. [1]
+- Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12) helps narrow vegan nutrient gaps.
+- Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavailable iron and true vitamin B12, helping close vegan nutrient gaps.
 
 ## Food Context
 

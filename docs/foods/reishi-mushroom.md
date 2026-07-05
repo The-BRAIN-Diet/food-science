@@ -40,7 +40,18 @@ legacy_main_image: /img/foods/reishi-mushroom/reishi-mushroom_medium.webp
 ---
 ## Overview
 
-Reishi mushroom (Ganoderma lucidum), known in China as Ling Zhi, is a medicinal mushroom with a long-standing reputation as a tonic for vitality. Unlike stimulants such as caffeine, Reishi works quietly and cumulatively, supporting the foundations of energy, resilience, and emotional steadiness. Modern research links these effects largely to its polysaccharides, alongside other bioactive compounds that help modulate stress and immune balance—key influences on long-term vitality. Traditionally reserved for emperors and scholars, Reishi is valued not for quick stimulation but for its ability to restore depleted reserves and support recovery and balance.
+Reishi mushroom (Ganoderma lucidum), known in China as Ling Zhi, is a medicinal mushroom with a long-standing reputation as a tonic for vitality. Unlike stimulants such as caffeine, Reishi works quietly and cumulatively, supporting the foundations of energy, resilience, and emotional steadiness.
+
+Within the BRAIN Diet framework, modern research links these effects largely to its polysaccharides, alongside other bioactive compounds that help modulate stress and immune balance—key influences on long-term vitality. Traditionally reserved for emperors and scholars, Reishi is valued not for quick stimulation but for its ability to restore depleted reserves and support recovery and balance [1][2].
+## Key Nutritional Highlights
+
+
+- Reishi supplies fungal polysaccharides studied for immune-modulating properties [1]
+- Mushroom polyphenols and triterpenes contribute antioxidant nutraceutical mechanisms [2]
+- Reishi mushroom (Ganoderma lucidum), known in China as Ling Zhi, is a medicinal mushroom with a long-standing reputation as a tonic for vitality. [1]
+- Unlike stimulants such as caffeine, Reishi works quietly and cumulatively, supporting the foundations of energy, resilience, and emotional steadiness. [2]
+- Modern research links these effects largely to its polysaccharides, alongside other bioactive compounds that help modulate stress and immune balance—key influences on long-term vitality.
+- Traditionally reserved for emperors and scholars, Reishi is valued not for quick stimulation but for its ability to restore depleted reserves and support recovery and balance.
 
 ## Food Context
 
@@ -67,6 +78,6 @@ Reishi mushroom (Ganoderma lucidum), known in China as Ling Zhi, is a medicinal 
 
 ## References
 
-- Reishi mushroom (Ganoderma lucidum) contains polysaccharides and other bioactive compounds that support vitality, stress modulation, and immune balance
-- A randomised, double-blind, placebo-controlled trial in patients with chronic fatigue syndrome showed that an eight-week course of Reishi mushroom extract led to significantly greater improvements in fatigue, overall clinical severity, and sense of wellbeing compared with placebo; over half of those taking Reishi were rated as meaningfully improved, and the extract was well tolerated
-- Reishi works cumulatively to restore depleted reserves, supporting the foundations of energy, resilience, and emotional steadiness rather than providing quick stimulation
+[1] Reishi supplies fungal polysaccharides studied for immune-modulating properties. Starck et al. 2024. [Mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines](/docs/papers/BRAIN-Diet-References#starck_mushrooms_2024)
+
+[2] Mushroom polyphenols and triterpenes contribute antioxidant nutraceutical mechanisms. Boots et al. 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)

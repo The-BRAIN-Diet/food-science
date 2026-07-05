@@ -47,7 +47,15 @@ import NutritionTable from "@site/src/components/NutritionTable";
 
 Greek yogurt is fermented dairy providing live probiotics, complete protein, **calcium**, and B vitamins, supporting gut–brain axis communication. Key contributions include calcium, protein, and zinc. Pair with berries or nuts for polyphenol synergy.
 
-**Protein profile:** Complete essential amino acid profile.
+**Protein profile:** Complete essential amino acid profile [1].
+## Key Nutritional Highlights
+
+
+- Reports on b-Group vitamin production by lactic acid bacteria - current knowledge and potential applications: Vitamin production by LAB [1]
+- Greek yogurt is fermented dairy providing live probiotics, complete protein, **calcium**, and B vitamins, supporting gut–brain axis communication. [1]
+- Key contributions include calcium, protein, and zinc.
+- Pair with berries or nuts for polyphenol synergy.
+- **Protein profile:** Complete essential amino acid profile.
 
 ## Food Context
 

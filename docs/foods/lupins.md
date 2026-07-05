@@ -43,7 +43,17 @@ legacy_main_image: /img/foods/lupins/lupins_medium.webp
 ---
 ## Overview
 
-Lupins are legumes providing plant protein and fiber, part of diverse protein sources for vegan BRAIN Diet approaches. Protein sources include legumes, fermented soy, lupins, Mankai, seeds, whole grains, and functional yeasts.
+Lupins are legumes providing plant protein and fiber, part of diverse protein sources for vegan BRAIN Diet approaches.
+
+Within the BRAIN Diet framework, protein sources include legumes, fermented soy, lupins, Mankai, seeds, whole grains, and functional yeasts [1][2].
+## Key Nutritional Highlights
+
+
+- Lupin provides high plant-protein density with favourable essential amino-acid coverage for a legume [1]
+- Legume-rich plant-forward patterns support nutrient density within Mediterranean-style diets [2]
+- Lupins are legumes providing plant protein and fiber, part of diverse protein sources for vegan BRAIN Diet approaches. [1]
+- Protein sources include legumes, fermented soy, lupins, Mankai, seeds, whole grains, and functional yeasts. [2]
+- Lupins are legumes providing plant protein and fiber, part of diverse protein sources for vegan BRAIN Diet approaches.
 
 ## Food Context
 
@@ -85,4 +95,6 @@ Lupins are rich in lysine but relatively low in sulfur-containing amino acids. C
 
 ## References
 
-- Protein Sources: Legumes, fermented soy, lupins, Mankai, seeds, whole grains, functional yeasts
+[1] Lupin provides high plant-protein density with favourable essential amino-acid coverage for a legume. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+
+[2] Legume-rich plant-forward patterns support nutrient density within Mediterranean-style diets. Satija et al. 2017. [Healthful and unhealthful plant-based diets and the risk of coronary heart disease in US adults](/docs/papers/BRAIN-Diet-References#satija_plantforward_2016)

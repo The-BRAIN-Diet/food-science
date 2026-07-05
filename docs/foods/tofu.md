@@ -60,7 +60,18 @@ legacy_main_image: /img/foods/tofu/tofu_medium.webp
 ---
 ## Overview
 
-Tofu is a soy-based food providing complete plant protein, isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. Tofu is listed as a source for iron, choline, tryptophan, and tyrosine. High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis. Tofu is often calcium-fortified, making it valuable for plant-based diets.
+Tofu is a soy-based food providing complete plant protein, isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. Tofu is listed as a source for iron, choline, tryptophan, and tyrosine.
+
+Within the BRAIN Diet framework, high-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis. Tofu is often calcium-fortified, making it valuable for plant-based diets [1][2].
+## Key Nutritional Highlights
+
+
+- Tofu supplies soy isoflavones such as genistein studied for neuroinflammatory and metabolic pathways [1]
+- Tofu contributes non-heme iron and calcium when fortified; meal pairing affects mineral absorption [2]
+- Tofu is a soy-based food providing complete plant protein, isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. [1]
+- Tofu is listed as a source for iron, choline, tryptophan, and tyrosine. [2]
+- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis.
+- Tofu is often calcium-fortified, making it valuable for plant-based diets.
 
 ## Food Context
 
@@ -99,8 +110,6 @@ Notable amino acids:
 
 ## References
 
-- Iron (heme & non-heme): Oxygen delivery to brain, dopamine synthesis; food sources include liver, beef, lamb, poultry, fish, lentils, spinach, tofu, pumpkin seeds
-- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis
-- See Soy for detailed isoflavone information; genistein, a soy-derived isoflavonoid, has shown potential as a modulator of several biochemical pathways, including the endocannabinoid system and neuroinflammation
-- Acetylcholine and choline: Memory, learning, neuroplasticity; food sources include egg yolks, fish roe, soy, wheat germ, liver (tofu provides choline from soy)
-- Serotonin: Mood regulation, emotional control, impulse moderation; food sources include turkey, eggs, dairy, soy, seeds, oats, bananas (tofu provides tryptophan from soy)
+[1] Tofu supplies soy isoflavones such as genistein studied for neuroinflammatory and metabolic pathways. Fuloria et al. 2022. [Genistein: A Potential Natural Lead Molecule for New Drug Design and Development for Treating Memory Impairment](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)
+
+[2] Tofu contributes non-heme iron and calcium when fortified; meal pairing affects mineral absorption. Hallberg et al. 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)

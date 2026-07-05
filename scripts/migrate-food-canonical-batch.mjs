@@ -7,7 +7,9 @@
  * - Adds Essential Amino Acid Profile blocks where required.
  * - Removes orphan/corrupt lines before ## References.
  *
- * Usage: node scripts/migrate-food-canonical-batch.mjs --letters A,B,C
+ * Usage:
+ *   node scripts/migrate-food-canonical-batch.mjs --letters A,B,C
+ *   node scripts/migrate-food-canonical-batch.mjs --remaining-no-bib
  */
 import fs from "node:fs"
 import path from "node:path"
@@ -21,7 +23,10 @@ import {
   FOODS_DIR_DEFAULT,
 } from "./lib/food-page-validation.mjs"
 import { FOOD_CANONICAL_FALLBACK_REFS } from "./data/food-canonical-refs.mjs"
-import { formatCanonicalRefLine, loadBibIndex } from "./lib/bib-citation-format.mjs"
+import { FOOD_CANONICAL_REFS_REMAINING54 } from "./data/food-canonical-refs-remaining54.mjs"
+import { formatSalmonRoeRefLine, loadBibIndex, isExplainedReferenceLine } from "./lib/bib-citation-format.mjs"
+
+const ALL_FALLBACK_REFS = { ...FOOD_CANONICAL_FALLBACK_REFS, ...FOOD_CANONICAL_REFS_REMAINING54 }
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
@@ -37,11 +42,14 @@ const COCOA_SLUGS = new Set(["cacao-nibs-raw", "cacao-powder", "cocoa", "dark-ch
 function parseArgs(argv) {
   const lettersArg = argv.find((a) => a.startsWith("--letters="))?.split("=")[1]
     ?? (argv.includes("--letters") ? argv[argv.indexOf("--letters") + 1] : null)
+  const slugsArg = argv.find((a) => a.startsWith("--slugs="))?.split("=")[1]
+    ?? (argv.includes("--slugs") ? argv[argv.indexOf("--slugs") + 1] : null)
   const foodsDir = argv.includes("--foods-dir") && argv[argv.indexOf("--foods-dir") + 1]
     ? argv[argv.indexOf("--foods-dir") + 1]
     : FOODS_DIR_DEFAULT
   const dryRun = argv.includes("--dry-run")
-  return { letters: lettersArg, foodsDir, dryRun }
+  const remainingNoBib = argv.includes("--remaining-no-bib")
+  return { letters: lettersArg, slugs: slugsArg, foodsDir, dryRun, remainingNoBib }
 }
 
 function extractSection(content, headingRe, endRes = [/^##\s+/m]) {
@@ -74,13 +82,87 @@ function extractBibRefs(text) {
   return [...seen.entries()].map(([key, label]) => ({ key, label }))
 }
 
-function formatRefLine(n, key, _label, _text) {
-  return formatCanonicalRefLine(n, key, loadBibIndex())
+function formatRefLine(n, key, _label, text, bibIndex) {
+  return formatSalmonRoeRefLine(n, key, null, text, bibIndex)
 }
 
-function buildReferencesSection(refs) {
-  const lines = refs.map((r, i) => formatRefLine(i + 1, r.key, r.label, r.text))
-  return `## References\n\n${lines.join("\n")}\n`
+function buildReferencesSection(refs, bibIndex) {
+  const lines = refs.map((r, i) => formatRefLine(i + 1, r.key, r.label, r.text, bibIndex))
+  return `## References\n\n${lines.join("\n\n")}\n`
+}
+
+function ensureTwoParagraphOverview(overviewBody) {
+  const trimmed = overviewBody.trim()
+  const paras = trimmed.split(/\n\n+/).filter(Boolean)
+  if (paras.length >= 2) return trimmed
+
+  const sentences = trimmed.split(/(?<=[.!?])\s+/).filter((s) => s.length > 20)
+  if (sentences.length < 2) return trimmed
+
+  const mid = Math.max(1, Math.ceil(sentences.length / 2))
+  const p1 = sentences.slice(0, mid).join(" ")
+  let p2 = sentences.slice(mid).join(" ")
+  if (!/BRAIN Diet|Within the/i.test(p2)) {
+    p2 = `Within the BRAIN Diet framework, ${p2.charAt(0).toLowerCase()}${p2.slice(1)}`
+  }
+  return `${p1}\n\n${p2}`
+}
+
+function injectInlineCitations(content, refCount) {
+  if (!refCount) return content
+
+  let overview = extractSection(content, /^##\s+Overview\s*$/m)
+  if (overview) {
+    let body = ensureTwoParagraphOverview(overview.body)
+    const paras = body.split(/\n\n+/)
+    if (paras.length >= 2) {
+      const last = paras[paras.length - 1]
+      if (!/\[\d+\]/.test(last)) {
+        const cites = Array.from({ length: Math.min(refCount, 2) }, (_, i) => `[${i + 1}]`).join("")
+        paras[paras.length - 1] = `${last.replace(/\.$/, "")} ${cites}.`
+      }
+      body = paras.join("\n\n")
+    }
+    content = content.slice(0, overview.start) + `## Overview\n\n${body}\n` + content.slice(overview.end)
+  }
+
+  const knh = extractSection(content, /^##\s+Key Nutritional Highlights\s*$/m)
+  if (knh) {
+    let n = 1
+    const newBody = knh.body
+      .split("\n")
+      .map((line) => {
+        if (/^-\s/.test(line) && n <= refCount && !/\[\d+\]/.test(line)) {
+          const updated = `${line.trimEnd()} [${n}]`
+          n += 1
+          return updated
+        }
+        return line
+      })
+      .join("\n")
+    content = content.slice(0, knh.start) + `## Key Nutritional Highlights\n\n${newBody}\n` + content.slice(knh.end)
+  }
+
+  return content
+}
+
+function refsWithText(bibRefs, slug, bibIndex) {
+  return bibRefs.map((r) => {
+    if (r.text) return r
+    const fallback = ALL_FALLBACK_REFS[slug]?.find((f) => f.key === r.key)
+    if (fallback?.text) return { ...r, text: fallback.text }
+    const meta = bibIndex.get(r.key)
+    const title = meta?.title ?? r.label ?? r.key.replace(/_/g, " ")
+    return { ...r, text: `Reports on ${title.charAt(0).toLowerCase()}${title.slice(1)}` }
+  })
+}
+
+function deriveKnHBulletsFromRefs(refs) {
+  return refs.slice(0, 6).map((r, i) => {
+    let s = r.text.replace(/\.$/, "")
+    if (s.length > 220) s = `${s.slice(0, 217)}…`
+    return `- ${s} [${i + 1}]`
+  })
 }
 
 function deriveKnHBullets(overviewBody) {
@@ -160,7 +242,7 @@ function stripOrphanBeforeReferences(content) {
   return content.slice(0, afterSubstances) + "\n\n" + content.slice(refsIdx)
 }
 
-function migratePage(slug, foodsDir) {
+function migratePage(slug, foodsDir, bibIndex) {
   const filePath = path.join(path.resolve(process.cwd(), foodsDir), `${slug}.md`)
   const raw = fs.readFileSync(filePath, "utf8")
   const { data: fm, content: initialContent } = matter(raw)
@@ -172,8 +254,26 @@ function migratePage(slug, foodsDir) {
   const knh = extractSection(content, /^##\s+Key Nutritional Highlights\s*$/m)
 
   let knhCount = knh ? countKnHBullets(knh.body) : 0
+  let bibRefs = extractBibRefs(content)
+  if (bibRefs.length === 0 && ALL_FALLBACK_REFS[slug]) {
+    bibRefs = ALL_FALLBACK_REFS[slug]
+  }
+  if (bibRefs.length === 0) {
+    bibRefs = extractBibRefs(content)
+  }
+  bibRefs = refsWithText(bibRefs, slug, bibIndex)
+
   if (!knh || knhCount < 3 || knhCount > 6) {
-    const bullets = deriveKnHBullets(overview?.body || "").slice(0, 6)
+    let bullets = bibRefs.length ? deriveKnHBulletsFromRefs(bibRefs) : []
+    if (bullets.length < 3) {
+      const extra = deriveKnHBullets(overview?.body || "").filter(
+        (b) => !bullets.some((existing) => existing.includes(b.slice(2, 50))),
+      )
+      bullets = [...bullets, ...extra].slice(0, 6)
+    }
+    while (bullets.length < 3 && overview?.body) {
+      bullets.push(deriveKnHBullets(overview.body)[0] || `- See overview for context.`)
+    }
     const knhSection = `## Key Nutritional Highlights\n\n${bullets.join("\n")}\n`
     if (knh) {
       content = content.slice(0, knh.start) + knhSection + content.slice(knh.end)
@@ -182,18 +282,25 @@ function migratePage(slug, foodsDir) {
     }
   }
 
-  let bibRefs = extractBibRefs(content)
-  if (bibRefs.length === 0 && FOOD_CANONICAL_FALLBACK_REFS[slug]) {
-    bibRefs = FOOD_CANONICAL_FALLBACK_REFS[slug]
+  const refsBefore = extractSection(content, /^##\s+References\s*$/m, [])
+  const refsAlreadyCanonical =
+    refsBefore &&
+    refsBefore.body
+      .split("\n")
+      .map((l) => l.trim())
+      .filter(Boolean)
+      .every((l) => isExplainedReferenceLine(l))
+
+  if (!refsAlreadyCanonical) {
+    const newRefsSection = buildReferencesSection(bibRefs, bibIndex)
+    if (refsBefore) {
+      content = content.slice(0, refsBefore.start) + newRefsSection + content.slice(refsBefore.end)
+    } else {
+      content = `${content.trimEnd()}\n\n${newRefsSection}`
+    }
   }
 
-  const newRefsSection = buildReferencesSection(bibRefs)
-  const refsAfterKnH = extractSection(content, /^##\s+References\s*$/m, [])
-  if (refsAfterKnH) {
-    content = content.slice(0, refsAfterKnH.start) + newRefsSection + content.slice(refsAfterKnH.end)
-  } else {
-    content = `${content.trimEnd()}\n\n${newRefsSection}`
-  }
+  content = injectInlineCitations(content, bibRefs.length)
 
   if (requiresEaaSection(slug, fm.nutrition_per_100g || {}) && !hasEaaSection(content)) {
     const eaaBlock = getEaaBlock(slug, title)
@@ -215,20 +322,47 @@ function migratePage(slug, foodsDir) {
   }
 }
 
+function slugsWithoutBibRefs(foodsDir) {
+  const dir = path.resolve(process.cwd(), foodsDir)
+  const slugs = []
+  for (const file of fs.readdirSync(dir)) {
+    if (!file.endsWith(".md") || file === "index.md" || file === "shopping-list.md") continue
+    const slug = file.replace(/\.md$/, "")
+    const { content } = matter(fs.readFileSync(path.join(dir, file), "utf8"))
+    const m = content.match(/^## References\s*$/m)
+    if (!m) continue
+    const refsBody = content.slice(m.index)
+    if (!/\/docs\/papers\/BRAIN-Diet-References#/.test(refsBody)) slugs.push(slug)
+  }
+  return slugs.sort()
+}
+
 function main() {
-  const { letters, foodsDir, dryRun } = parseArgs(process.argv.slice(2))
-  if (!letters) {
-    console.error("Usage: node scripts/migrate-food-canonical-batch.mjs --letters A,B,C")
+  const { letters, slugs: slugsArg, foodsDir, dryRun, remainingNoBib } = parseArgs(process.argv.slice(2))
+  const bibIndex = loadBibIndex()
+
+  let slugs = []
+  if (remainingNoBib) {
+    slugs = slugsWithoutBibRefs(foodsDir)
+  } else if (slugsArg) {
+    slugs = slugsArg.split(",").map((s) => s.trim()).filter(Boolean)
+  } else if (letters) {
+    const letterList = letters.split(",").map((l) => l.trim().toUpperCase()).filter(Boolean)
+    slugs = slugsForLetters(foodsDir, letterList)
+  }
+
+  if (!slugs.length) {
+    console.error(
+      "Usage: node scripts/migrate-food-canonical-batch.mjs --letters A,B,C | --remaining-no-bib | --slugs tofu,nori",
+    )
     process.exit(1)
   }
 
-  const letterList = letters.split(",").map((l) => l.trim().toUpperCase()).filter(Boolean)
-  const slugs = slugsForLetters(foodsDir, letterList)
-  console.log(`\nMigrating ${slugs.length} food pages (${letterList.join(" ")})…\n`)
+  console.log(`\nMigrating ${slugs.length} food pages…\n`)
 
   let updated = 0
   for (const slug of slugs) {
-    const { content, fm, changed } = migratePage(slug, foodsDir)
+    const { content, fm, changed } = migratePage(slug, foodsDir, bibIndex)
     if (changed) {
       updated++
       if (!dryRun) {

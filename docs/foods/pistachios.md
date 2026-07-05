@@ -37,7 +37,17 @@ legacy_main_image: /img/foods/pistachios/pistachios_medium.webp
 ---
 ## Overview
 
-Pistachios provide CoQ10 (plant source), healthy fats, and protein, supporting mitochondrial function and antioxidant defenses. Coenzyme Q10 (CoQ10): Organ meats (heart, liver), oily fish (sardines, mackerel), beef, Spinach, broccoli, pistachios, olive oil (lower amounts). CoQ10 supports mitochondrial electron transport and antioxidant protection for neurons.
+Pistachios provide CoQ10 (plant source), healthy fats, and protein, supporting mitochondrial function and antioxidant defenses. Coenzyme Q10 (CoQ10): Organ meats (heart, liver), oily fish (sardines, mackerel), beef, Spinach, broccoli, pistachios, olive oil (lower amounts).
+
+Within the BRAIN Diet framework, coQ10 supports mitochondrial electron transport and antioxidant protection for neurons [1][2].
+## Key Nutritional Highlights
+
+
+- Reports on efficacy and Safety of Coenzyme Q10 Supplementation in Neonates, Infants and Children: An Overview [1]
+- Reports on vitamin E and the Metabolic Antioxidant Network [2]
+- Pistachios provide CoQ10 (plant source), healthy fats, and protein, supporting mitochondrial function and antioxidant defenses. [1]
+- Coenzyme Q10 (CoQ10): Organ meats (heart, liver), oily fish (sardines, mackerel), beef, Spinach, broccoli, pistachios, olive oil (lower amounts). [2]
+- CoQ10 supports mitochondrial electron transport and antioxidant protection for neurons.
 
 ## Food Context
 

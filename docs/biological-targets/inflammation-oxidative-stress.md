@@ -18,11 +18,11 @@ hide_title: true
 
 ## BRS3 - Inflammation & Oxidative Stress
 
-(Immune Signalling, Redox Balance & Inflammation Resolution)
+(Immune Signalling, Antioxidant Defence & Inflammatory Control)
 
 ## Ambition
 
-Maintain balanced immune signalling and redox capacity so the brain can contain inflammatory load, limit oxidative injury, and resolve inflammation appropriately.
+Maintain proportionate immune signalling, responsive antioxidant defence, and active inflammation resolution so the brain operates within a redox and immune environment that supports function rather than chronically constraining it.
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -31,40 +31,54 @@ Maintain balanced immune signalling and redox capacity so the brain can contain 
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Strategy</strong>
+<strong>Dietary Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-hub-levers-key-constraints">
-<p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key dietary constraints include antioxidant substrate availability from diverse plant foods, balanced omega-3 and omega-6 fatty-acid intake, and dietary patterns that limit chronic inflammatory and oxidative load.</p>
-<p class="brs-hub-lever-kc-foods">Almonds, Basil, Blueberries, Brazil Nuts, Carrots, Chard, Chia Seeds, Cinnamon, Cocoa, Extra-virgin olive oil, Fish roe, Flaxseed, Ginger, Grapefruit, Green Tea, Kale, Lemons, Mackerel, Oranges, Oregano, Parsley, Peppers, Pumpkin Seeds, Raspberries, Salmon, Sardines, Spinach, Strawberries, Tea, Tomatoes, Turmeric, Walnuts</p>
+<div class="brs-hub-dietary-strategy">
+<p class="brs-hub-dietary-guidance-flow">Pattern → Nutrients → Biology → Target Foods</p>
+<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Centre meals on colourful vegetables, fruits and herbs</strong> → polyphenols, carotenoids and vitamin C → immune and redox systems depend on continuous dietary antioxidant input; when plant-derived protective compounds are scarce, inflammatory signalling becomes harder to restrain and ROS clearance capacity declines.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/broccoli">Broccoli</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include omega-3-rich foods regularly</strong> → EPA, DHA and ALA → long-chain omega-3 status shapes eicosanoid balance and supports specialised pro-resolving mediator formation when inflammatory responses need to terminate.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/algal-oil">Algae</a> • <a href="/docs/foods/flax-seeds">Flax Seeds</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a></span></p>
+<p class="brs-hub-dietary-guidance-note"><em>Omega-3:</em> Marine foods and algae provide preformed DHA and EPA. Walnuts, chia and flax provide ALA, which requires endogenous conversion to DHA and EPA with variable efficiency.</p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include sulphur-rich cruciferous vegetables regularly</strong> → glucosinolate-derived compounds and sulphur amino-acid context → supports NRF2-mediated antioxidant gene activation and endogenous redox defence capacity.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/broccoli">Broccoli</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Maintain antioxidant-network cofactors through varied whole foods</strong> → vitamins C and E, selenium and magnesium → provides the recycling cofactors required for glutathione metabolism and sustained ROS clearance.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/sardines">Sardines</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include fermentable fibre from whole grains and legumes</strong> → soluble fibre and resistant starch → supports microbial fermentation and gut-derived immune signalling that helps modulate systemic inflammatory tone.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/oats">Oats</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Favour extra virgin olive oil as a primary dietary fat</strong> → monounsaturated fat and polyphenols → supports lipid peroxidation control and a more resolution-supportive fatty-acid environment alongside antioxidant intake.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/extra-virgin-olive-oil">Extra Virgin Olive Oil</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a> <a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a></span></p>
+</li>
+</ul>
 </div>
 
-<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Centre meals on colourful vegetables, berries, herbs, and spices that provide natural antioxidants. Include oily fish, walnuts, flaxseed, and olive oil for omega-3 balance, and reduce reliance on ultra-processed foods and heavily fried or oxidised fats that add unnecessary inflammatory load. Eat a wide variety of plant foods rather than relying on high-dose isolated antioxidant supplements.</p>
+</div>
+</div>
+</div>
 
-<div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Target Foods</strong>
+<strong>Optimisation Levers</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list brs-hub-star-food-list">
-<li class="brs-hub-star-food"><a href="/docs/foods/barley" class="brs-hub-star-food-link"><strong>Barley</strong></a><p class="brs-hub-star-food-why">Soluble-fibre whole grain supporting fermentable substrate delivery, gut-derived inflammatory signalling modulation, and SCFA-related anti-inflammatory context.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/blueberries" class="brs-hub-star-food-link"><strong>Blueberries</strong></a><p class="brs-hub-star-food-why">Anthocyanin-rich fruit supporting ROS generation–clearance balance, NF-κB modulation, and endogenous antioxidant defences.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/broccoli" class="brs-hub-star-food-link"><strong>Broccoli</strong></a><p class="brs-hub-star-food-why">Sulphur-rich crucifer providing glucosinolate-derived compounds and antioxidant cofactors that support redox stability and inflammatory resolution capacity.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/extra-virgin-olive-oil" class="brs-hub-star-food-link"><strong>Extra Virgin Olive Oil</strong></a><p class="brs-hub-star-food-why">Monounsaturated fat and polyphenol source that supports anti-inflammatory signalling tone and reduces reliance on oxidised dietary fats.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/fermented-vegetables" class="brs-hub-star-food-link"><strong>Fermented Vegetables</strong></a><p class="brs-hub-star-food-why">Live-culture foods supporting gut-derived inflammatory signalling modulation and microbial metabolite context for systemic inflammatory tone.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/salmon" class="brs-hub-star-food-link"><strong>Salmon</strong></a><p class="brs-hub-star-food-why">EPA- and DHA-rich oily fish supporting NF-κB regulation, cytokine network modulation, and resolution-oriented lipid mediator formation.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/spinach" class="brs-hub-star-food-link"><strong>Spinach</strong></a><p class="brs-hub-star-food-why">Leafy green supplying vitamins C and E, folate, and magnesium that support antioxidant network recycling and cytokine network balance.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/walnuts" class="brs-hub-star-food-link"><strong>Walnuts</strong></a><p class="brs-hub-star-food-why">Plant source of ALA and polyphenols that supports antioxidant network recycling and a favourable omega-6:omega-3 balance within inflammatory tone.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></li>
-</ul>
-
-</div>
-</div>
-</div>
+<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS3 yet.</em></p>
 
 </div>
 </div>
@@ -94,13 +108,6 @@ Maintain balanced immune signalling and redox capacity so the brain can contain 
 </div>
 <!-- brs-hub-levers:end -->
 
-## Overview
-
-The brain operates within a whole-body immune and redox environment that can either support or constrain cognitive function. BRS3 describes the integrated capacity that keeps inflammatory signalling proportionate, antioxidant defences responsive, and inflammation moving toward resolution rather than persistence. Anti-inflammatory tone, endogenous antioxidant activation, net redox balance, and resolution-oriented lipid mediator formation work together so immune and oxidative stress do not become chronic constraints. Nutrition influences these capacities through anti-inflammatory whole-food patterns, antioxidant-rich plants, balanced omega-3 and omega-6 intake, and dietary patterns that reduce unnecessary inflammatory and oxidative load.
-
-* Contains inflammatory tone and oxidative burden so neuronal environments remain supportive rather than chronically stressed.
-* Supports active inflammation resolution rather than prolonged low-grade immune activation.
-* Connects gut-derived immune load and mitochondrial redox context to wider brain-relevant regulation — supporting BRS5 and BRS4.
 ## Therapeutic Area Research
 
 <!-- brs-hub-ta-research:start -->
@@ -130,12 +137,8 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 
 | Evidence | Citation | Connected mechanisms |
 | --- | --- | --- |
-| Systemic inflammation intersects default-mode network connectivity in ADHD-relevant contexts | [Marsland et al., 2017](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017) | [BRS3(FM1)](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone), [BRS3-FM1-PM1](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) |
-| ADHD associates with metabolic disorders and postprandial inflammatory patterns | [Brown et al., 2025](/docs/papers/BRAIN-Diet-References#brown_associations_2025) | [BRS3-FM1-PM1](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation), [BRS3-FM3-PM7](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) |
 | High ROS linked to astrocyte and microglia activation and pro-inflammatory cytokines (IL-6, IL-1β, TNF-α) in ADHD contexts | [Chang et al., 2020](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020) | [BRS3-FM3-PM7](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) |
 | Reduced microbiome alpha diversity reported in ADHD | [Prehn-Kristensen et al., 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018) | [BRS3-FM1-PM2](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling), [BRS5(FM1)](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) |
-| Butyrate may reduce neuroinflammation associated with ADHD | [Yunting Li et al., 2024](/docs/papers/BRAIN-Diet-References#li_sodium_2024) | [BRS3-FM1-PM2](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) |
-| Propionate may stimulate norepinephrine secretion with possible relevance to attention and focus | [Hoyles et al., 2018](/docs/papers/BRAIN-Diet-References#hoyles_microbiome-host_2018) | [BRS3-FM1-PM2](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) |
 | Immune dysfunction, elevated IgE, and allergy patterns overlap with ADHD contexts | [Wesselink et al., 2019](/docs/papers/BRAIN-Diet-References#wesselink_feeding_2019) | [BRS3-FM3-PM7](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) |
 | Significantly higher malondialdehyde in adult ADHD versus controls | [Bulut et al., 2007](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007) | [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance), [BRS3-FM2-PM5](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) |
 | Thiol/disulfide homeostasis shifted toward oxidation and higher urinary 8-OHdG in adult ADHD | [Kurhan & Alp, 2021](/docs/papers/BRAIN-Diet-References#kurhan_dynamic_2021) | [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) |
@@ -143,7 +146,6 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 | Dietary antioxidant treatment of ADHD linked to immune, epigenetic, and oxidative-stress regulation | [Verlaet et al., 2018](/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018) | [BRS3-FM2-PM3](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) |
 | Elevated glutathione in ADHD may reflect compensatory response to increased oxidative stress | [Verlaet et al., 2019](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019) | [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) |
 | ADHD linked with metals contamination and ultra-processed foods, including colour-additive metals | [Dufault et al., 2024](/docs/papers/BRAIN-Diet-References#dufault_nutritional_2024) | [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) |
-| Micro/nanoplastics linked to reproductive health and ADHD in emerging exposure framing | [Zhang et al., 2025](/docs/papers/BRAIN-Diet-References#zhang_exploring_2025) | [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) |
 | A small randomized placebo-controlled trial found that Pycnogenol improved attention and reduced hyperactivity in children with ADHD. Companion studies from the same cohort reported normalization of total antioxidant status (TAS), improved glutathione balance, and reduced oxidative DNA damage, providing mechanistic support for oxidative stress pathways in ADHD. Replication remains limited. | [Trebatická et al., 2006](/docs/papers/BRAIN-Diet-References#trebaticka_pycnogenol_adhd_2006); [Dvořáková et al., 2006](/docs/papers/BRAIN-Diet-References#dvorakova_glutathione_pycnogenol_adhd_2006); [Chovanová et al., 2006](/docs/papers/BRAIN-Diet-References#chovanova_8oxoguanine_pycnogenol_adhd_2006) | [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance), [BRS3-FM2-PM6](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling) |
 
 </div>

@@ -54,7 +54,13 @@ legacy_main_image: /img/foods/spinach/spinach_medium.webp
 
 Spinach is a nutrient-dense leafy green vegetable providing folate, magnesium, iron, potassium, carotenoids (including lutein and zeaxanthin), nitrate compounds, fibre, and a range of polyphenolic phytochemicals. Within the BRAIN Diet framework, spinach is valued as a high-coverage food supporting multiple Biological Regulatory Systems, including methylation (folate), neurotransmitter regulation (iron and magnesium), mitochondrial and metabolic function (magnesium, nitrate, and antioxidant compounds), and oxidative-stress resilience through its diverse phytonutrient content.
 
-Spinach is also one of the richest dietary sources of oxalate. While most individuals tolerate normal dietary oxalate exposure without difficulty, boiling spinach can substantially reduce soluble oxalate content, potentially improving mineral bioavailability and reducing oxalate load for those with a history of calcium oxalate kidney stones or other oxalate-related sensitivities. For most healthy individuals, the nutritional benefits of spinach are likely to outweigh concerns regarding oxalate content.
+Spinach is also one of the richest dietary sources of oxalate. While most individuals tolerate normal dietary oxalate exposure without difficulty, boiling spinach can substantially reduce soluble oxalate content, potentially improving mineral bioavailability and reducing oxalate load for those with a history of calcium oxalate kidney stones or other oxalate-related sensitivities. For most healthy individuals, the nutritional benefits of spinach are likely to outweigh concerns regarding oxalate content [1][2].
+## Key Nutritional Highlights
+
+
+- Reports on iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [1]
+- Reports on effect of Different Cooking Methods on Vegetable Oxalate Content [2]
+- Reports on mitochondrial Dysfunction and Kidney Stone Disease [3]
 
 ## Food Context
 

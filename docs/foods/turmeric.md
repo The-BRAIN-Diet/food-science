@@ -53,7 +53,18 @@ legacy_main_image: /img/foods/turmeric/turmeric_medium.webp
 ---
 ## Overview
 
-Turmeric is the whole spice (dried and ground root of the Curcuma longa plant) that contains many bioactive compounds, including curcumin (the most well-known polyphenol), demethoxycurcumin, bisdemethoxycurcumin, turmerones (fat-soluble compounds), and essential oils. Only 2–6% of turmeric powder is curcumin. Curcumin is responsible for most of turmeric's anti-inflammatory and neuroprotective effects. Absorption is enhanced by pairing with black pepper (piperine) and fat. Therapeutic doses typically use 500–1000 mg/day curcumin with piperine.
+Turmeric is the whole spice (dried and ground root of the Curcuma longa plant) that contains many bioactive compounds, including curcumin (the most well-known polyphenol), demethoxycurcumin, bisdemethoxycurcumin, turmerones (fat-soluble compounds), and essential oils. Only 2–6% of turmeric powder is curcumin. Curcumin is responsible for most of turmeric's anti-inflammatory and neuroprotective effects.
+
+Within the BRAIN Diet framework, absorption is enhanced by pairing with black pepper (piperine) and fat. Therapeutic doses typically use 500–1000 mg/day curcumin with piperine [1][2].
+## Key Nutritional Highlights
+
+
+- Curcumin from turmeric is studied for anti-inflammatory and neuroprotective mechanisms [1]
+- Piperine markedly increases curcumin bioavailability when turmeric is paired with black pepper [2]
+- Turmeric is the whole spice (dried and ground root of the Curcuma longa plant) that contains many bioactive compounds, including curcumin (the most well-known polyphenol), demethoxycurcumin, bisdemethoxycurcumin, turmerones (fat-soluble … [1]
+- Only 2–6% of turmeric powder is curcumin. [2]
+- Curcumin is responsible for most of turmeric's anti-inflammatory and neuroprotective effects.
+- Absorption is enhanced by pairing with black pepper (piperine) and fat.
 
 ## Food Context
 
@@ -83,7 +94,6 @@ Turmeric contribute plant protein. Pair with complementary protein sources (e.g.
 
 ## References
 
-- Curcumin (Turmeric): Anti-inflammatory, neuroprotective - 500–1000 mg/day curcumin with piperine
-- Turmeric is not just a curcumin supplement, it's part of a culinary matrix that includes fats which with heat, can increase enhance curcumin's absorption
-- Food Synergies (e.g. Turmeric + black pepper; omega-3 fatty acids needs to be esterified to phospholipids to cross BBB)
-- BDNF: Fatty fish, blueberries, turmeric, green tea, walnuts
+[1] Curcumin from turmeric is studied for anti-inflammatory and neuroprotective mechanisms. Goozee et al. 2016. [Examining the effects of a special Turmeric extract on cognition: a systematic review](/docs/papers/BRAIN-Diet-References#goozee_examining_2016)
+
+[2] Piperine markedly increases curcumin bioavailability when turmeric is paired with black pepper. Shoba et al. 1998. [Influence of Piperine on the Pharmacokinetics of Curcumin in Animals and Human Volunteers](/docs/papers/BRAIN-Diet-References#shoba_influence_1998)

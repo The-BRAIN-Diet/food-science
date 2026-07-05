@@ -6,8 +6,10 @@
 
 **Related contracts:**
 
+- `system/brain-ta-evidence-integration-standard.md` — TA evidence workflow (Phases 1–9, **7.5**); intervention ledger; framework mapping before TA rewrite
+- `system/brs-hub-ta-adhd-dropdown-schema.md` — BRS hub ADHD dropdown presentation profile (Phase 8)
 - `system/phenome-relationship-schema.md` — data model, rendering, registry rules, **[Phenome Registry Evidence Hierarchy](phenome-relationship-schema.md#phenome-registry-evidence-hierarchy)**
-- `system/functional-mechanism-schema.md` — FM §4 integrated narrative structure
+- `system/functional-mechanism-schema.md` — FM §4.2 / §4.3 architecture (integration vs consequences)
 - `system/fm-schema-rollout-sequence.md` — complete FM §4.4 on all FMs **before** phenome Phase 2 (FM review)
 - `system/brs-citation-reference-standard.md` — citation format
 - `src/data/phenome-registry.json` — canonical phenome vocabulary
@@ -75,7 +77,7 @@ Phase 4 — Audit & quality control             → validate registry output (no
 |-------|---------|-------------------|
 | **0** | Bibliography consolidation | — |
 | **1** | PM mechanism review → candidate phenome hypotheses | **No** |
-| **2** | FM integrated-state review → candidate functional outcomes | **No** |
+| **2** | FM §4.2 + §4.3 authoring → candidate functional outcomes from Functional Rationale | **No** |
 | **3** | Dedicated biology → phenome literature review per candidate phenome | **Yes** (confidence + evidence_level) |
 | **4** | Reference, confidence, registry, and duplication checks | Validates only |
 
@@ -113,7 +115,7 @@ Review PM Definition, Primary Biological Effects, Mechanistic Basis, Evidence Hi
 
 **Question:** When all child PMs are considered together, which phenomes emerge most strongly from the integrated FM state?
 
-Review PM convergence, FM definition, FM functional narrative, FM failure modes, FM evidence highlights, and FM-level literature. Assess functional coherence, dependency structure, constraint satisfaction, and integrated phenome plausibility.
+Review PM convergence, FM §4.2 Functional Rationale, FM §4.3 consequence narrative, FM evidence highlights, and FM-level literature. Assess functional coherence, dependency structure, integrated capacity, and phenome candidacy for Phase 3.
 
 **Output:** Candidate FM-level functional outcomes. **No final confidence assignment.**
 
@@ -290,20 +292,38 @@ Rows supported by convergent translational evidence are **not** “merely plausi
 
 ---
 
-## Final FM schema (primary evidence source)
+## Final FM schema (phenome workflow)
 
-FM **§4. Mechanistic Basis (Integrated FM Narrative)** is now a first-class phenome review surface. The canonical subsection structure:
+FM phenome assignment follows a **simplified pipeline**. FM §4.2 constructs integrated biological rationale; Phase 3 validates it; FM §3 publishes approved phenomes. FM §4.3 supports the workflow by describing capacity-loss consequences — it is **not** where integration or dietary stressors are authored.
 
-| Subsection | Role in phenome review |
-|------------|------------------------|
-| **4.1 Core Primary Mechanisms** | Convergence across child PM phenome mappings |
-| **4.2 Integrated Functional Narrative** | Cognitive, behavioural, regulatory, and integrated-system capacities |
-| **4.3 Suboptimal Function & Its Effects** | Functional impairments and performance limitations → phenome candidates (required on all FMs) |
-| **4.4 Evidence Highlights** | Primary FM-level outcome evidence for the integrated biological state (required on canonical full-template FMs) |
+```
+PM (§2, §5, §6, §3)
+        │
+        ▼
+FM §4.2  Integrated Functional Narrative + Functional Rationale
+        │
+        ▼
+Phase 3  Independent validation → confidence → FM §3 front matter
+        │
+        ▼
+FM §4.3  Suboptimal Function (consequences of lost capacity)
+        │
+        ▼
+FM §3    Published Phenome Connections
+```
+
+| Subsection | Role in phenome workflow |
+|------------|--------------------------|
+| **4.1 Core Primary Mechanisms** | PM contribution lines; **PM phenome convergence** input for §4.2 (not a phenome roll-up) |
+| **4.2 Integrated Functional Narrative** | **Primary authoring surface** — integrated biology, biological uplift, Functional Rationale for candidate FM phenomes |
+| **4.3 Suboptimal Function & Its Effects** | Consequence narrative motivating §3 — **not** dietary causes, KC stressors, or levers |
+| **4.4 Evidence Highlights** | Mechanism-qualifying FM evidence (not phenome/outcome claims) |
 
 **Canonical full-template FM:** `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` — §4.1–§4.4 all present.
 
-§4.3 is required on all FM pages. KC-linked detail in §4.3 when `key_constraints` is non-empty; PM- and delivery-framed failure modes when no formal KCs apply (see BRS1 FM3).
+Full §4.2 / §4.3 contracts: `system/functional-mechanism-schema.md` § [FM §4.2 and §4.3 — distinct responsibilities](functional-mechanism-schema.md#fm-42-and-43--distinct-responsibilities).
+
+**Legacy:** Existing FM §4.3 drafts may still contain KC stressor or dietary-cause prose from pre-v2 tooling (`scripts/lib/fm-failure-modes.mjs`). Treat as migration debt — rewrite to the consequence-focused contract before Phase 2 sign-off.
 
 ---
 
@@ -545,126 +565,106 @@ Review the public §3 dropdowns on localhost before accepting.
 
 ### Purpose
 
-Assess whether the FM is a coherent integrated functional capacity and generate **FM-level phenome hypotheses**.
+Author **FM §4.2 Integrated Functional Narrative** (including Functional Rationale) and draft **candidate FM phenome outcomes** for Phase 3 validation.
 
 **Prerequisite:** every FM page must include `### 4.4 Evidence Highlights` before FM phenome work begins (`system/fm-schema-rollout-sequence.md`). Run `npm run mechanisms:migrate-fm-schema`, then human-review §4.4 drafts.
 
-FM phenome hypotheses must represent **convergence across FM evidence sources** (§4.1–4.4), not a simple roll-up of child PM §3 dropdowns. Hypotheses remain unpublished until [Phase 3](#phase-3--independent-phenome-evidence-review). **Do not assign final confidence in Phase 2.**
+**Core principle:** FM §4.2 is where integrated biological rationale is constructed; Phase 3 independently tests whether that rationale is supported by the phenome literature. FM phenomes are **not** aggregated PM §3 dropdowns.
 
-Functional convergence is a **system-design validation layer**, not a confidence multiplier.
+Hypotheses remain unpublished until [Phase 3](#phase-3--independent-phenome-evidence-review). **Do not assign final confidence in Phase 2.**
 
 ### Core question
 
-**When all child PMs are considered together, which phenomes emerge most strongly from the integrated FM state?**
+**When all child PMs are considered together, what integrated functional capacity emerges — and which registry phenomes should Phase 3 test?**
 
-### Evidence sources
+### Authoring §4.2 (primary Phase 2 deliverable)
 
-| Source | Purpose |
-|--------|---------|
-| PM convergence (Phase 1 candidates + §4.1) | Cross-PM phenome overlap |
-| FM §1 Definition | Integrated capacity boundary |
-| FM §4.2 Integrated Functional Narrative | Cognitive, behavioural, regulatory capacities |
-| FM §4.3 Suboptimal Function & Its Effects | Impairments → candidate phenomes |
-| FM §4.4 Evidence Highlights | FM-level outcome evidence |
+Synthesise from child PM pages — see `system/functional-mechanism-schema.md` §4.2 authoring sources:
+
+| Source | Use in §4.2 |
+|--------|-------------|
+| PM **§2 Primary Biological Effects** | Directional contribution of each PM |
+| PM **§5 Mechanistic Basis** | Interaction, boundaries, integration |
+| PM **§6 Connected Mechanisms** | Cross-PM / cross-BRS integration |
+| FM **`key_constraints`** | Shared KC dependencies (biology — not stressor lists) |
+| FM **§5 Connected Mechanisms** | Cross-BRS integrated context |
+| **PM phenome convergence** (Phase 1) | Where multiple PMs imply the **same functional capacity** — convergence pattern only, not PM §3 rows |
+
+**§4.2 must end with a Functional Rationale paragraph** explaining why the integrated biology would be expected to influence particular functional domains — without listing registry phenomes or confidence scores.
+
+Where multiple PMs converge, document **biological uplift** in §4.2 (the rationale Phase 3 may use to justify FM confidence above any single PM).
+
+**§4.2 must not include:** phenome registry entries, confidence scores, duplicated PM biology, dietary/preparation/lifestyle advice.
+
+### Authoring §4.3 (secondary — after §4.2 draft)
+
+Describe **consequences** when integrated FM capacity declines — not causes.
+
+| §4.3 block | Content |
+|------------|---------|
+| **Opening** | Integrated biological capacity that is lost |
+| **Middle** | Biological function that deteriorates |
+| **Closing** | System-level functional consequences motivating Phase 3 / §3 (no registry phenome list) |
+
+**§4.3 must not include:** dietary patterns, UPFs, cooking, meal timing, KC stressor lists, PM levers, optimisation strategies. Those belong on PM §4 and BRS hub levers.
+
+### Evidence inputs (supporting §4.2 — not substitute for it)
+
+| Source | Role |
+|--------|------|
+| §4.1 Core Primary Mechanisms | PM contribution lines; phenome **convergence** check across Phase 1 |
+| §4.4 Evidence Highlights | Mechanism-qualifying FM evidence (not phenome claims) |
 | FM-level literature | Integrated-state evidence beyond child PM pages |
 
 ### Phase 2 must assess
 
 1. **Functional coherence** — do the PMs genuinely belong together?
-2. **Dependency structure** — are PMs sequential, parallel, enabling, redundant, or orthogonal?
-3. **Constraint satisfaction** — do the PMs describe the conditions required for the FM to function?
-4. **Integrated phenome plausibility** — which outcomes plausibly emerge from the FM as a whole?
+2. **Dependency structure** — sequential, parallel, enabling, redundant, or orthogonal?
+3. **Integrated capacity** — is §4.2’s emergent biology credible and distinct from PM summaries?
+4. **Functional Rationale** — are candidate FM phenome domains named in plain functional language (for Phase 3 scope)?
+5. **§4.3 consequence narrative** — does capacity loss plausibly connect to those candidate domains?
 
 ### FM §4 review buckets
 
 #### §4.1 Core Primary Mechanisms
 
-Review convergence across child PM phenome mappings.
-
-**Ask:** Which phenomes appear repeatedly across child PM mappings?
-
-Note PM-level phenomes that converge on the same registry target. Convergence across multiple child PMs is **evidence for Phase 3 consideration** — it does not automatically raise confidence.
+**Ask:** Which phenomes appear repeatedly across child PM Phase 1 mappings? (Convergence input for §4.2 — not FM §3 content.)
 
 #### §4.2 Integrated Functional Narrative
 
-Review for statements describing:
-
-- cognitive capacities
-- behavioural capacities
-- regulatory capacities
-- biological capabilities
-- integrated system functions
-
-These may reveal phenome connections **not obvious from individual PM pages**.
+**Primary phenome workflow surface.** Review integrated capacity language, biological uplift, and Functional Rationale. Candidate FM phenomes are **scoped here** for Phase 3 — not listed as registry mappings.
 
 #### §4.3 Suboptimal Function & Its Effects
 
-This section is now a **major phenome source** (required on all FM pages).
+Review for **consequence language** that supports (but does not duplicate) §3 synthesis:
 
-Review for:
+- reduced biological performance of the integrated FM state
+- system-level functional constraints
+- deficit-framed hints toward registry phenome domains (without naming PH IDs)
 
-- functional impairments
-- performance limitations
-- behavioural consequences
-- cognitive consequences
-- resilience limitations
-
-Failure-mode descriptions frequently map directly to phenome domains.
-
-| Failure-mode language (examples) | Candidate registry phenomes |
-|----------------------------------|----------------------------|
-| reduced cognitive flexibility | Cognitive Clarity |
+| Consequence language (examples) | Motivates registry phenome review |
+|---------------------------------|-----------------------------------|
+| unstable cognitive energy supply | Cognitive Energy Stability |
 | impaired attention stability | Focus / Attention Stability |
-| emotional dysregulation | Emotional Regulation |
-| reduced recovery capacity | Recovery Capacity |
-| stress vulnerability | Stress Resilience, Stress Reactivity |
+| reduced recovery after sustained demand | Recovery Capacity |
 
-Treat failure-mode phenome candidates as **inverse or deficit-framed** evidence for the same registry phenomes — the FM §3 synthesis should describe the integrated capacity, not restate failure-mode prose.
+FM §3 synthesis describes the **integrated capacity**; §4.3 describes **what is lost** when it fails — not dietary causes.
 
 #### §4.4 Evidence Highlights
 
-This section is now a **primary phenome evidence source**.
+Mechanism-qualifying evidence for the FM as a biological state — **not** phenome/outcome science (that belongs in Phase 3 and FM §3).
 
-Review for evidence describing:
-
-- functional outcomes
-- cognitive outcomes
-- behavioural outcomes
-- neurodevelopmental outcomes
-- performance outcomes
-- resilience outcomes
-
-**Important:** Evidence Highlights often contain stronger phenome clues than individual PM evidence because they evaluate the FM as an **integrated biological state**.
-
-**Example (BRS1 FM3):**
-
-> Membrane composition influences receptor function, ion-channel behaviour, synaptic transmission and broader neural signalling.
-
-This provides direct support for evaluating candidate phenomes such as:
-
-- Cognitive Clarity
-- Focus / Attention Stability
-- Cognitive Energy Stability
-
-even where individual PM references are primarily biochemical.
-
-### FM review workflow
+### FM review workflow (simplified)
 
 For every FM:
 
-1. **Child PM-derived phenomes** — from Phase 1 outputs and §4.1 convergence
-2. **Integrated Narrative-derived phenomes** — from §4.2 capacity language
-3. **§4.3 Suboptimal Function & Its Effects-derived phenomes** — from §4.3 impairment language (when present)
-4. **Evidence Highlight-derived phenomes** — from §4.4 outcome evidence
-
-Then **synthesise candidate FM-level phenome outcomes**:
-
-- Merge duplicate candidates across the four buckets
-- Prefer phenomes supported by multiple FM sources (for Phase 3 prioritisation)
-- Select **normally 2–3 outcomes; absolute maximum 4** candidate `outcome_name` values
-- Write provisional `synthesis` (1–2 sentences per outcome); do not copy PM `rationale` verbatim
-- Attach reference shortlist from FM §4.4 and bibliography where they may support the integrated claim
-- **Do not assign final confidence** — note convergence strength in review notes for Phase 3
+1. **Draft §4.2** from PM biology + convergence + KC/cross-BRS context + Functional Rationale
+2. **Draft §4.3** consequence narrative (capacity lost → biology deteriorates → functional constraints)
+3. **Extract candidate `outcome_name` values** from §4.2 Functional Rationale (and §4.3 consequence language) for Phase 3
+4. **Cross-check §4.1** PM phenome convergence — does §4.2 biological uplift align?
+5. Select **normally 2–3 outcomes; absolute maximum 4** candidates
+6. Write provisional `synthesis` stubs for Phase 3 — do not copy PM `rationale` verbatim
+7. **Do not assign final confidence**
 
 ### Phase 2 output
 
@@ -679,11 +679,13 @@ For each FM, produce **candidate FM-level functional outcomes**:
 
 ### FM confidence rules (Phase 3 application)
 
-When assigning FM Biology → Phenome Confidence in Phase 3, follow the [Phenome Registry Evidence Hierarchy](phenome-relationship-schema.md#phenome-registry-evidence-hierarchy). FM convergence may uplift confidence only when convergent PM biology supports the same phenome — not because FM §4.2 mechanism prose alone is stronger.
+When assigning FM Biology → Phenome Confidence in Phase 3, follow the [Phenome Registry Evidence Hierarchy](phenome-relationship-schema.md#phenome-registry-evidence-hierarchy).
+
+**FM confidence uplift (multi-PM only):** FM confidence may exceed that of any individual child PM only where multiple PMs converge on the same phenome and the integrated FM biology provides additional biological rationale (biological uplift) beyond the individual mechanisms. Functional convergence in Phase 2 is a system-design validation layer — not a confidence multiplier by itself.
 
 | Situation | Rule |
 |-----------|------|
-| Multiple child PMs + FM §4 sources converge on same phenome | FM biology confidence may exceed any single PM **only if** Phase 3 documents biological uplift |
+| Multiple child PMs + FM §4 sources converge on same phenome | FM biology confidence may exceed any single PM **only if** integrated FM biology provides documented biological uplift beyond individual PMs (Phase 3) |
 | FM §4.4 provides stronger outcome evidence than child PM biochemistry | May raise **Evidence Level** on FM synthesis refs; biology confidence uplift requires explicit justification |
 | Phenome appears in only one source bucket | Assign conservatively; note thin evidence in review notes |
 | Primary citations do not measure the phenome | May still support **high biology confidence** when pathway is core; label framework translation where multi-step |
@@ -693,7 +695,7 @@ When assigning FM Biology → Phenome Confidence in Phase 3, follow the [Phenome
 
 When `mechanisms_covered` contains **exactly one** PM, current schema enforcement still requires FM §3 to align with that PM at publish time (`validateSinglePmFmOutcomeAlignment`).
 
-Phase 2 remains **mandatory** for single-PM FMs — §4.2 and §4.4 especially may surface phenome evidence the PM review missed.
+Phase 2 remains **mandatory** for single-PM FMs — §4.2 Functional Rationale and §4.4 especially may surface phenome evidence the PM review missed.
 
 **Workflow when FM review diverges from child PM mappings:**
 
@@ -885,12 +887,14 @@ SM edges are not yet indexed in `phenome-relationships.generated.json` (PM-only 
 - [ ] Functional coherence assessed (PMs belong together)
 - [ ] Dependency structure documented (sequential / parallel / enabling / redundant / orthogonal)
 - [ ] Constraint satisfaction assessed
-- [ ] All four FM evidence buckets reviewed (§4.1–§4.4 on canonical full-template FMs; §4.3 always)
-- [ ] FM candidate outcomes represent convergence, not a PM dropdown copy-paste
+- [ ] §4.2 drafted with Functional Rationale and biological uplift where PMs converge
+- [ ] §4.3 consequence narrative (not dietary causes or KC stressors)
+- [ ] §4.1–§4.4 reviewed on canonical full-template FMs
+- [ ] FM candidate outcomes represent §4.2 rationale — not a PM §3 dropdown copy-paste
 - [ ] Every candidate `outcome_name` matches a registry `name` exactly
 - [ ] Provisional synthesis is integrative (FM-level); does not list child PMs
-- [ ] §4.4 Evidence Highlights reviewed as primary outcome evidence
-- [ ] §4.3 failure-mode language mapped to candidate phenomes (when present)
+- [ ] §4.4 Evidence Highlights reviewed as mechanism-qualifying FM evidence (not phenome claims)
+- [ ] §4.3 consequence language mapped to candidate phenomes for Phase 3 (when present)
 - [ ] 2–3 outcomes normally; max 4 candidates
 - [ ] **No final confidence assigned**
 - [ ] Single-PM FM: candidate labels align with child PM after any Phase 1 feedback

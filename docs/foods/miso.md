@@ -46,7 +46,17 @@ legacy_main_image: /img/foods/miso/miso_medium.webp
 ---
 ## Overview
 
-Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication. Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
+Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication.
+
+Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling [1][2].
+## Key Nutritional Highlights
+
+
+- Fermented soy products such as miso modulate gut–brain signalling through microbiota pathways [1]
+- Traditional fermented soy pastes deliver live microbes and fermentation-derived metabolites [2]
+- Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication. [1]
+- Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]
+- Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication.
 
 ## Food Context
 
@@ -79,5 +89,6 @@ Miso provide a relatively complete plant protein (higher in lysine than most gra
 
 ## References
 
-- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha - Live microbes + postbiotic peptides; improved SCFA pools; vagal signaling
-- Miso: Fermented soybean paste, rich in beneficial bacteria
+[1] Fermented soy products such as miso modulate gut–brain signalling through microbiota pathways. Bravo et al. 2011. [Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011)
+
+[2] Traditional fermented soy pastes deliver live microbes and fermentation-derived metabolites. Jakobi et al. 2024. [The gut-microbiome in adult Attention-deficit/hyperactivity disorder - A Meta-analysis](/docs/papers/BRAIN-Diet-References#jakobi_gut-microbiome_2024)

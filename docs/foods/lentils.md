@@ -45,6 +45,15 @@ import NutritionTable from "@site/src/components/NutritionTable";
 Lentils are a staple legume providing plant protein, slowly digested carbohydrates, and substantial amounts of **fibre**, **iron**, **zinc**, **magnesium**, and **folate**. As a dry seed, they are nutrient-dense and shelf-stable, and when cooked they contribute both energy and micronutrients that support one‑carbon metabolism, red blood cell formation, and neurometabolic processes [1]. Their fibre and prebiotic galacto‑oligosaccharides (GOS) also support gut microbial diversity and short‑chain fatty acid production, which indirectly influences metabolic and brain health [2].
 
 Within the BRAIN Diet framework, lentils are treated as a core plant protein and fibre source that pairs well with grains to round out amino acid profiles. They are particularly useful in patterns that limit or exclude animal products, helping to cover non‑heme iron and zinc requirements when prepared and combined appropriately [1]. Soaking, sprouting, and pairing with vitamin C–rich foods improves mineral bioavailability from lentil-based meals [1,2].
+## Key Nutritional Highlights
+
+
+- Reports on iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [1]
+- Reports on purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa) [2]
+- Lentils are a staple legume providing plant protein, slowly digested carbohydrates, and substantial amounts of **fibre**, **iron**, **zinc**, **magnesium**, and **folate**. [1]
+- As a dry seed, they are nutrient-dense and shelf-stable, and when cooked they contribute both energy and micronutrients that support one‑carbon metabolism, red blood cell formation, and neurometabolic processes [1].
+- Their fibre and prebiotic galacto‑oligosaccharides (GOS) also support gut microbial diversity and short‑chain fatty acid production, which indirectly influences metabolic and brain health [2].
+- Within the BRAIN Diet framework, lentils are treated as a core plant protein and fibre source that pairs well with grains to round out amino acid profiles. [2]
 
 ## Food Context
 

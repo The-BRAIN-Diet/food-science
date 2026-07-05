@@ -43,7 +43,17 @@ legacy_main_image: /img/foods/spirulina/spirulina_medium.webp
 ---
 ## Overview
 
-Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but contains pseudovitamin B12 analogues that are inactive in humans. Spirulina has DIAAS 75-83, is methionine and lysine-limited, and contains some bioactive peptides. By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source. Nonetheless, both algae provide antioxidant and amino acid support.
+Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but contains pseudovitamin B12 analogues that are inactive in humans. Spirulina has DIAAS 75-83, is methionine and lysine-limited, and contains some bioactive peptides.
+
+Within the BRAIN Diet framework, by contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source. Nonetheless, both algae provide antioxidant and amino acid support [1].
+## Key Nutritional Highlights
+
+
+- Reports on characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae [1]
+- Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but contains pseudovitamin B12 analogues that are inactive in humans. [1]
+- Spirulina has DIAAS 75-83, is methionine and lysine-limited, and contains some bioactive peptides.
+- By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source.
+- Nonetheless, both algae provide antioxidant and amino acid support.
 
 ## Food Context
 

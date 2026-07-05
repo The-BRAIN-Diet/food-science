@@ -64,10 +64,12 @@ npm run mechanisms:validate
 
 ## Layer model (page structure)
 
-| Layer | Page | §3 section | Confidence type |
-|-------|------|------------|-----------------|
-| **PM** | Primary Mechanism | Phenome Connections | Biology → Phenome Confidence (mechanism-level) |
-| **FM** | Functional Mechanism | Phenome Connections | Biology → Phenome Confidence (integrated-system) |
+**Terminology (v1.2):** Section heading **Phenome Connections** is being renamed to **Translational Phenome Connections** across PM, FM, and SM pages. Until templates and pages are updated, both names refer to the same §3 contract below.
+
+| Layer | Page | §3 section (canonical) | Confidence type |
+|-------|------|------------------------|-----------------|
+| **PM** | Primary Mechanism | Translational Phenome Connections | Biology → Phenome Confidence (mechanism-level) |
+| **FM** | Functional Mechanism | Translational Phenome Connections | Biology → Phenome Confidence (integrated-system) |
 | **Phenome** (future) | Phenome graph pages | Full aggregation | Cross-system / graph |
 
 PM pages hold detailed `phenome_relationships`. FM pages hold a **concise** `functional_outcome_context` (2–3 outcomes normally; max 4). Full PM → phenome roll-up graphs belong on future phenome pages — **not** on FM pages.
@@ -89,7 +91,7 @@ When an FM has **exactly one** child PM (`mechanisms_covered.length === 1`), §3
 
 ## Canonical disclaimer — FM §3
 
-> These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. **Biology → Phenome Confidence** reflects biological relevance to each outcome — not proof that diet or lifestyle alone will improve it. **Evidence Confidence** (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row. Integrated FM confidence may exceed a single child PM only when multiple PMs converge on the same phenome with justified biological uplift (Phase 3 review).
+> These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. **Biology → Phenome Confidence** reflects biological relevance to each outcome — not proof that diet or lifestyle alone will improve it. **Evidence Confidence** (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row. **FM confidence uplift:** FM confidence may exceed that of any individual child PM only where multiple PMs converge on the same phenome and the integrated FM biology provides additional biological rationale (biological uplift) beyond the individual mechanisms.
 
 ## Empty state
 
@@ -216,6 +218,16 @@ functional_outcome_context:
 4. Do **not** present outcomes as direct treatment claims.
 5. Do **not** use `connected_phenomes` on FM pages (deprecated for publication).
 6. Apply the [Phenome Registry Evidence Hierarchy](#phenome-registry-evidence-hierarchy): FM `synthesis` must identify inferential framework translations explicitly when primary citations did not measure the phenome.
+7. **FM confidence uplift (multi-PM only):** FM confidence may exceed that of any individual child PM only where multiple PMs converge on the same phenome and the integrated FM biology provides additional biological rationale (biological uplift) beyond the individual mechanisms.
+
+### FM confidence uplift (multi-PM only)
+
+FM **Biology → Phenome Confidence** may exceed that of any individual child PM **only when both of the following hold**:
+
+1. **Multiple PM convergence** — two or more child PMs map the same registry phenome.
+2. **Integrated biological rationale** — the FM as an integrated capacity provides additional biological uplift beyond what any single PM establishes alone (not merely FM §4.2 prose restated at higher level).
+
+FM §4.2 mechanism prose alone, FM §4.4 outcome evidence alone, or listing the same phenome on multiple PMs **without** integrative biological uplift does **not** justify FM confidence above child PM levels.
 
 ### Single-PM FM (1:1) rule
 
@@ -518,7 +530,7 @@ Attached references must **never reduce** Biology → Phenome Confidence when th
 | **low-medium** | Convergent translational evidence with one or more inferential steps; not yet core pathway status |
 | **low** | Distal, speculative, or weak biological coupling — prefer empty §3 |
 
-FM Biology → Phenome Confidence may exceed child PM confidence only when **multiple convergent PMs** support the same phenome **and** Phase 3 documents biological uplift — not because FM §4.2 mechanism prose alone is stronger.
+FM confidence may exceed that of any individual child PM only where multiple PMs converge on the same phenome and the integrated FM biology provides additional biological rationale (biological uplift) beyond the individual mechanisms — not because FM §4.2 mechanism prose alone is stronger.
 
 **Evidence Level** is assigned separately using the reference profile and literature types (mechanistic, human mechanistic, human observational, intervention, clinical pharmacology, meta-analysis). See Phase 3 in the methodology doc.
 

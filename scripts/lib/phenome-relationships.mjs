@@ -13,7 +13,30 @@ import {
   phenomeRefToBibItem,
   REFERENCE_DATA_LEVELS,
 } from "./reference-data-levels.mjs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import { renderHubCollapsible } from "./hub-collapsible.mjs";
+import {
+  loadPhenomeRegistry,
+  phenomeDetailUrlForName,
+} from "./phenome-registry.mjs";
+
+const PROJECT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
+
+/** @type {ReturnType<typeof loadPhenomeRegistry> | null} */
+let phenomeRegistryCache = null;
+
+function getPhenomeRegistry() {
+  if (!phenomeRegistryCache) {
+    phenomeRegistryCache = loadPhenomeRegistry(PROJECT_ROOT);
+  }
+  return phenomeRegistryCache;
+}
+
+function phenomeCollapsibleOptions(phenomeName) {
+  const openHref = phenomeDetailUrlForName(phenomeName, getPhenomeRegistry());
+  return openHref ? { openHref, openLabel: "Open Page →" } : {};
+}
 
 export const PHENOME_RELATIONSHIP_TYPES = new Set([
   "supports",
@@ -65,7 +88,7 @@ export const FM_OUTCOME_CONTEXT_SECTION_TITLE = FM_PHENOME_CONNECTIONS_SECTION_T
 export const FM_PHENOME_SECTION_TITLE = FM_PHENOME_CONNECTIONS_SECTION_TITLE;
 
 export const FM_OUTCOME_CONTEXT_DISCLAIMER =
-  "These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Biology → Phenome Confidence reflects biological relevance to each outcome — not proof that diet or lifestyle alone will improve it. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row. Integrated FM confidence may exceed a single child PM only when multiple PMs converge on the same phenome with justified biological uplift (Phase 3 review).";
+  "These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Biology → Phenome Confidence reflects biological relevance to each outcome — not proof that diet or lifestyle alone will improve it. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row. FM confidence uplift: FM confidence may exceed that of any individual child PM only where multiple PMs converge on the same phenome and the integrated FM biology provides additional biological rationale (biological uplift) beyond the individual mechanisms.";
 
 export const FM_OUTCOME_CONTEXT_EMPTY_MESSAGE =
   "No functional outcome context currently mapped.";
@@ -526,7 +549,9 @@ export function renderSmPhenPhenomeSectionBody(data, { sectionNum = 2 } = {}) {
   }
   panelLines.push(renderEvidenceConfidenceLine(ip, ip.references || []));
   const summary = `${ip.name} — ${type}${hostBrs ? ` (${hostBrs} lens)` : ""}`;
-  lines.push(renderHubCollapsible(summary, panelLines.join("\n")));
+  lines.push(
+    renderHubCollapsible(summary, panelLines.join("\n"), phenomeCollapsibleOptions(ip.name)),
+  );
   lines.push("");
 
   return lines.join("\n").trimEnd();
@@ -550,7 +575,13 @@ export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 3 
       panelLines.push(...renderPhenomeReferencesBlock(rel.references));
     }
     panelLines.push(renderEvidenceConfidenceLine(rel, rel.references || []));
-    lines.push(renderHubCollapsible(`${target} — ${type}`, panelLines.join("\n")));
+    lines.push(
+      renderHubCollapsible(
+        `${target} — ${type}`,
+        panelLines.join("\n"),
+        phenomeCollapsibleOptions(target),
+      ),
+    );
     lines.push("");
   }
 
@@ -579,7 +610,9 @@ export function renderFmOutcomeContextSectionBody(outcomes = [], { sectionNum = 
       panelLines.push(...renderPhenomeReferencesBlock(row.references));
     }
     panelLines.push(renderEvidenceConfidenceLine(row, row.references || []));
-    lines.push(renderHubCollapsible(target, panelLines.join("\n")));
+    lines.push(
+      renderHubCollapsible(target, panelLines.join("\n"), phenomeCollapsibleOptions(target)),
+    );
     lines.push("");
   }
 

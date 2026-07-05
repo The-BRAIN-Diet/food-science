@@ -47,7 +47,17 @@ legacy_main_image: /img/foods/parsley/parsley_medium.webp
 ---
 ## Overview
 
-Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health. The strategy of simply adding parsley when cooking food has seen significant reductions in harmful COPs (Cholesterol Oxidation Products).
+Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health.
+
+Within the BRAIN Diet framework, the strategy of simply adding parsley when cooking food has seen significant reductions in harmful COPs (Cholesterol Oxidation Products) [1][2].
+## Key Nutritional Highlights
+
+
+- Parsley and Apiaceae herbs provide polyphenols and vitamin K in culinary doses [1]
+- Herb polyphenols may influence gut microbiota composition as part of diverse plant intake [2]
+- Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health. [1]
+- The strategy of simply adding parsley when cooking food has seen significant reductions in harmful COPs (Cholesterol Oxidation Products). [2]
+- Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health.
 
 ## Food Context
 
@@ -73,4 +83,6 @@ Parsley, when added during cooking, significantly reduces harmful Cholesterol Ox
 
 ## References
 
-- The strategy of simply adding parsley when cooking food has seen significant reductions in harmful COPs (Cholesterol Oxidation Products)
+[1] Parsley and Apiaceae herbs provide polyphenols and vitamin K in culinary doses. de Oliveira et al. 2022. [Parsley (Petroselinum crispum Mill.): A source of bioactive compounds as a domestic strategy to minimize cholesterol oxidation during the thermal preparation of omelets](/docs/papers/BRAIN-Diet-References#de_oliveira_parsley_2022)
+
+[2] Herb polyphenols may influence gut microbiota composition as part of diverse plant intake. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

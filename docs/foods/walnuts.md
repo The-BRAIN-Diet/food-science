@@ -57,7 +57,16 @@ legacy_main_image: /img/foods/walnuts/walnuts_medium.webp
 ---
 ## Overview
 
-Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that can be converted to urolithin A by gut bacteria, supporting mitochondrial health and cognitive function. The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate). Walnuts are part of the Mediterranean diet pattern and support BDNF expression through exercise and polyphenol synergy.
+Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that can be converted to urolithin A by gut bacteria, supporting mitochondrial health and cognitive function. The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate).
+
+Within the BRAIN Diet framework, walnuts are part of the Mediterranean diet pattern and support BDNF expression through exercise and polyphenol synergy [1].
+## Key Nutritional Highlights
+
+
+- Reports on the effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial [1]
+- Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that can be converted to urolithin A by gut bacteria, supporting mitochondrial health and cognitive function. [1]
+- The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate).
+- Walnuts are part of the Mediterranean diet pattern and support BDNF expression through exercise and polyphenol synergy.
 
 ## Food Context
 

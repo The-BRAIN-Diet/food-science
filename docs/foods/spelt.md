@@ -39,7 +39,17 @@ legacy_main_image: /img/foods/spelt/spelt_medium.webp
 ---
 ## Overview
 
-Spelt is an ancient wheat variety providing high asparagine and fiber, making it ideal for sourdough bread with optimized Maillard reaction products (MRPs). Whole Spelt Flour has high asparagine + fibre; substrate for Maillard; better MRPs than white flour - ↑ Melanoidin precursors; ↑ antioxidant MRPs.
+Spelt is an ancient wheat variety providing high asparagine and fiber, making it ideal for sourdough bread with optimized Maillard reaction products (MRPs).
+
+Within the BRAIN Diet framework, whole Spelt Flour has high asparagine + fibre; substrate for Maillard; better MRPs than white flour - ↑ Melanoidin precursors; ↑ antioxidant MRPs [1][2].
+## Key Nutritional Highlights
+
+
+- Whole grains including spelt contain phytates that affect mineral bioavailability [1]
+- Ancient and whole grains contribute fibre and plant protein within balanced dietary patterns [2]
+- Spelt is an ancient wheat variety providing high asparagine and fiber, making it ideal for sourdough bread with optimized Maillard reaction products (MRPs). [1]
+- Whole Spelt Flour has high asparagine + fibre; substrate for Maillard; better MRPs than white flour - ↑ Melanoidin precursors; ↑ antioxidant MRPs. [2]
+- Spelt is an ancient wheat variety providing high asparagine and fiber, making it ideal for sourdough bread with optimized Maillard reaction products (MRPs).
 
 ## Food Context
 
@@ -81,4 +91,6 @@ Grains such as spelt are relatively higher in methionine but lysine-limited. Com
 
 ## References
 
-- Whole Spelt Flour: High asparagine + fibre; substrate for Maillard; better MRPs than white flour - ↑ Melanoidin precursors; ↑ antioxidant MRPs
+[1] Whole grains including spelt contain phytates that affect mineral bioavailability. Greiner & Konietzny 1999. [Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
+
+[2] Ancient and whole grains contribute fibre and plant protein within balanced dietary patterns. Liu et al. 2017. [A healthy approach to dietary fats: understanding the science and taking action to reduce consumer confusion](/docs/papers/BRAIN-Diet-References#liu_healthy_2017)

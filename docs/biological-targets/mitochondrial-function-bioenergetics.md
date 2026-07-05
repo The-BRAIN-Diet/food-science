@@ -24,7 +24,7 @@ hide_title: true
 
 ## Ambition
 
-Maintain efficient cellular energy production and mitochondrial resilience so the brain can sustain cognitive performance, neuronal repair, and adaptation under varying fuel and energetic demands.
+Maintain efficient mitochondrial energy production, fuel flexibility, and organelle resilience so the brain sustains cognitive performance, adapts to varying metabolic demands, and recovers from oxidative and energetic strain without accumulating bioenergetic debt.
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -33,40 +33,53 @@ Maintain efficient cellular energy production and mitochondrial resilience so th
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Strategy</strong>
+<strong>Dietary Priorities</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-hub-levers-key-constraints">
-<p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key dietary constraints include steady energy from balanced meals across the day, sufficient B-vitamin, iron, and magnesium for mitochondrial function, and dietary patterns that avoid chronic energetic instability.</p>
-<p class="brs-hub-lever-kc-foods">Almonds, Barley, Brazil Nuts, Brown Rice, Carbohydrate-containing Whole Foods, Chard, Chia Seeds, Clams, Dairy, Eggs, Fish, Flaxseed, Kale, Lean Meat, Legumes, Mackerel, Meat, Mussels, Oats, Olive Oil, Oysters, Poultry, Protein-rich Whole Foods, Pumpkin Seeds, Quinoa, Salmon, Sardines, Spinach, Walnuts</p>
+<div class="brs-hub-dietary-strategy">
+<p class="brs-hub-dietary-guidance-flow">Pattern → Nutrients → Biology → Target Foods</p>
+<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Build meals around slowly digested carbohydrates and whole grains</strong> → complex carbohydrates and fermentable fibre → mitochondria require steady fuel substrate delivery; when carbohydrate flux becomes erratic, ATP production and metabolic fuel switching become less efficient.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/sweet-potatoes">Sweet Potatoes</a> • <a href="/docs/foods/lentils">Lentils</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Distribute quality protein across meals</strong> → complete amino acids and sulphur amino acids → maintains electron-transport substrate supply and supports mitochondrial enzyme function under varying energy demand.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/tofu">Tofu</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Prioritise B-vitamin, iron and magnesium coverage through varied whole foods</strong> → B vitamins, iron and magnesium → provides enzymatic cofactors required for electron transport, NAD metabolism and mitochondrial redox chemistry.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/sardines">Sardines</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include creatine-relevant protein sources regularly</strong> → creatine and taurine → supports phosphocreatine buffering when cellular ATP demand rises acutely.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/scallops">Scallops</a> • <a href="/docs/foods/salmon">Salmon</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer" class="brs-hub-lever-pm">BRS4-FM1-PM3</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include foods that support carnitine-mediated fat transport</strong> → carnitine and long-chain fatty acids → enables mitochondrial uptake and oxidation of fatty-acid fuel when metabolic demand shifts.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/kefir">Kefir</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport" class="brs-hub-lever-pm">BRS4-FM3-PM6</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plants and high-quality olive oil</strong> → polyphenols and CoQ-relevant compounds → supports mitochondrial protection, ROS control and adaptive biogenesis under metabolic load.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/early-harvest-olive-oil">Early Harvest Olive Oil</a> • <a href="/docs/foods/broccoli">Broccoli</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></p>
+</li>
+</ul>
 </div>
 
-<p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Build meals around dependable energy from protein, whole grains, legumes, and starchy vegetables. Include B-vitamin-rich foods, iron from lean meats and legumes, and magnesium from nuts, seeds, and greens to support how cells produce and use energy. Avoid long gaps without nourishment and favour minimally processed foods over options that leave energy pathways undersupported.</p>
+</div>
+</div>
+</div>
 
-<div class="brs-fm-hub-item brs-hub-lever-category" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Target Foods</strong>
+<strong>Optimisation Levers</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<ul class="brs-hub-lever-list brs-hub-star-food-list">
-<li class="brs-hub-star-food"><a href="/docs/foods/blueberries" class="brs-hub-star-food-link"><strong>Blueberries</strong></a><p class="brs-hub-star-food-why">Polyphenol-rich fruit supporting ROS control, mitochondrial resilience, and oxidative stress modulation within bioenergetic regulation.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/broccoli" class="brs-hub-star-food-link"><strong>Broccoli</strong></a><p class="brs-hub-star-food-why">Cruciferous vegetable providing sulphur compounds and antioxidant cofactors that support mitochondrial resilience and redox stability under metabolic demand.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/eggs" class="brs-hub-star-food-link"><strong>Eggs</strong></a><p class="brs-hub-star-food-why">Rich in B vitamins, choline, and complete protein supporting cellular bioenergetics, cofactor sufficiency, and sustained substrate delivery to mitochondria.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/oats" class="brs-hub-star-food-link"><strong>Oats</strong></a><p class="brs-hub-star-food-why">Slowly digested whole grain providing steady carbohydrate fuel and B-vitamin context for substrate utilisation flexibility and cognitive energy availability.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport" class="brs-hub-lever-pm">BRS4-FM3-PM6</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/pumpkin-seeds" class="brs-hub-star-food-link"><strong>Pumpkin Seeds</strong></a><p class="brs-hub-star-food-why">Magnesium- and zinc-rich seed supporting mitochondrial enzyme cofactors, redox stability, and cellular energy production pathways.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/salmon" class="brs-hub-star-food-link"><strong>Salmon</strong></a><p class="brs-hub-star-food-why">Oily fish providing CoQ10-relevant context, omega-3s, and high-quality protein supporting electron transport, ROS control, and mitochondrial biogenesis.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/spinach" class="brs-hub-star-food-link"><strong>Spinach</strong></a><p class="brs-hub-star-food-why">Iron-, magnesium-, and folate-rich leafy green supporting electron transport cofactors, redox balance, and mitochondrial enzyme function.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport" class="brs-hub-lever-pm">BRS4-FM3-PM6</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></li>
-<li class="brs-hub-star-food"><a href="/docs/foods/walnuts" class="brs-hub-star-food-link"><strong>Walnuts</strong></a><p class="brs-hub-star-food-why">ALA and polyphenol source supporting mitochondrial biogenesis, ROS production–control balance, and metabolic fuel-switching context.</p> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></li>
-</ul>
-
-</div>
-</div>
-</div>
+<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS4 yet.</em></p>
 
 </div>
 </div>
@@ -86,6 +99,7 @@ Maintain efficient cellular energy production and mitochondrial resilience so th
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain stable daily meal structure</strong> to help keep energy substrates available and support steady mitochondrial throughput across the day.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a></span></p></li>
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Reduce oxidant exposure from smoke, pollution, and excess alcohol</strong> to lower mitochondrial oxidative pressure and help preserve redox balance and protective capacity.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></p></li>
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Choose gentler cooking methods</strong> to reduce avoidable oxidative stress placed on mitochondrial protection and membrane integrity.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Boil high-oxalate leafy greens when oxalate load matters</strong> to reduce soluble oxalate, improve mineral bioavailability from iron- and magnesium-rich greens, and limit avoidable pressure on mitochondrial cofactor and redox networks.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></p></li>
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain consistent sleep–wake rhythms</strong> to support biological pathways involved in cellular energy production and NAD-related metabolism.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a></span></p></li>
 </ul>
 
@@ -96,13 +110,6 @@ Maintain efficient cellular energy production and mitochondrial resilience so th
 </div>
 <!-- brs-hub-levers:end -->
 
-## Overview
-
-Every brain function depends on reliable cellular energy, yet demand, fuel availability, and stress exposure change continuously. BRS4 describes the integrated capacity that keeps mitochondria producing usable energy, switching fuels appropriately, and recovering from oxidative and metabolic strain. Electron transport, fuel flexibility, mitochondrial protection, and redox stability work together so bioenergetic capacity does not become the limiting factor for cognition. Nutrition influences these capacities through balanced macronutrient fuel delivery, B-vitamin, iron, and magnesium cofactor sufficiency, and meal patterns that support steady substrate supply.
-
-* Sustains ATP production and mitochondrial resilience so cognitive energy supply remains reliable under variable demand.
-* Supports fuel flexibility and post-meal metabolic continuity — supporting BRS6.
-* Connects mitochondrial redox handling to wider antioxidant and inflammatory context — supporting BRS3.
 ## Therapeutic Area Research
 
 <!-- brs-hub-ta-research:start -->
@@ -118,53 +125,38 @@ Every brain function depends on reliable cellular energy, yet demand, fuel avail
 
 ### Introduction
 
-Vitamins and minerals function as indispensable micronutrients and enzymatic cofactors in brain biology, aiding neurotransmitter synthesis, mitochondrial energy production, DNA repair, antioxidant defence, methylation, and neuroplasticity. Their availability can determine whether omega-3 fatty acids, polyphenols, or amino-acid precursors exert their intended effects—nutrition should be viewed as an interdependent system.
+Mitochondrial function in ADHD reflects the integrated performance of multiple bioenergetic regulatory capacities rather than disruption of a single pathway. These capacities include electron transport, ATP buffering, mitochondrial redox regulation, substrate delivery, metabolic flexibility, and longer-term mitochondrial quality control through biogenesis and mitophagy. BRS4 organises these as connected functional mechanisms rather than isolated biomarkers.
 
-Nutrient-dense animal foods such as seafood, eggs, fermented dairy, occasional offal, and lean proteins supply omega-3, creatine, CoQ10, and taurine alongside plant-forward patterns.
+### Dietary and lifestyle context
 
-Creatine supports ATP recycling in neurons and enhances working memory and cognitive processing speed. It is found in beef, lamb, pork, salmon, tuna, cod, and scallops; vegan diets lack meaningful dietary creatine unless supplemented.
+Dietary pattern, meal-level substrate delivery, B-vitamin and mineral cofactor sufficiency, carnitine and creatine food context, polyphenol-linked mitophagy support, and lifestyle-driven adaptation all influence how these capacities perform. In ADHD contexts, evidence is interpreted through connected BRS4 FMs and PMs — with cross-links to BRS3 redox biology and BRS5 gut-derived metabolite context where relevant.
 
-Carnitine enables transport of long-chain fatty acids into mitochondria for β-oxidation, supporting substrate flexibility when glucose availability or metabolic demand shifts. This transport step is represented in the framework by [BRS4-FM3-PM6 — Carnitine-Mediated Fat Transport](/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport). In children with ADHD, carnitine supplementation has been reported to improve behavioural and functional outcomes in a controlled trial—one of the few direct ADHD intervention links at the mitochondrial substrate-transport layer.
+### ADHD translational biological context
 
-Coenzyme Q10 (CoQ10) supports mitochondrial electron transport and neuronal antioxidant protection. It is found in organ meats, oily fish, beef, and smaller amounts in spinach, broccoli, pistachios, and olive oil.
+ADHD-relevant mitochondrial evidence comes from studies conducted in ADHD cohorts or ADHD-labelled intervention trials: a controlled carnitine supplementation trial in children with ADHD [van Oudheusden & Scholte, 2002](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002); paediatric case–control work on oxidative stress, glutathione, and immune markers [Verlaet et al., 2019](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019); primary cybrid models showing reduced mitochondrial respiration, complex V activity, and membrane potential in ADHD platelet-derived cells [Verma et al., 2016](/docs/papers/BRAIN-Diet-References#verma_attention_2016); and narrative reviews synthesising ADHD-specific mitochondrial biomarker and genetic-variation literature [Öğütlü et al., 2022](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023); [Almutairi et al., 2024](/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024). General cofactor, creatine, polyphenol, and gut-derived metabolite biology belongs on BRS4 architecture pages rather than this ADHD dropdown.
 
-The BRAIN Diet emphasises foods for specific bioactive potential—for example early-harvest extra virgin olive oil with higher CoQ10, oleuropein, and polyphenols.
+Collectively, these findings do not imply that mitochondrial dysfunction is universal in ADHD, nor that individual biomarkers define the disorder. Instead, they support interpreting mitochondrial biology as a modifiable regulatory system through which dietary, lifestyle, and metabolic interventions may influence cognitive and behavioural function. This translational perspective underpins the BRS4 architecture.
 
-Glutathione (GSH) is a major endogenous antioxidant. Low levels may suggest oxidative stress; mitochondrial lactate metabolism depends on GSH for ROS neutralisation.
+### ADHD evidence and connected BRS4 mechanisms
 
-Higher polyphenol intake and microbial diversity increase urolithin A and related metabolites, supporting mitochondrial resilience and mitophagy and cognitive endurance.
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| Carnitine supplementation improved behavioural and functional outcomes in children with ADHD in a controlled trial | [van Oudheusden & Scholte, 2002](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002) | [BRS4-FM3-PM6](/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport) |
+| Elevated glutathione and oxidative-stress markers in paediatric ADHD case–control work; GSH required for mitochondrial lactate metabolism and ROS neutralisation | [Verlaet et al., 2019](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019) | [BRS4(FM2)](/docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability), [BRS4-FM2-PM4](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control), [BRS4-FM2-PM5](/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity) |
+| Cybrid models from ADHD platelets showed reduced cellular and mitochondrial respiration, lower complex V activity, membrane-potential loss, and elevated oxidative stress | [Verma et al., 2016](/docs/papers/BRAIN-Diet-References#verma_attention_2016) | [BRS4(FM1)](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics), [BRS4-FM1-PM1](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function), [BRS4-FM1-PM2](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism) |
+| Narrative review synthesising ADHD-relevant mitochondrial biomarker, oxidative-stress, and genetic-variation literature (including elevated mtDNA copy number and haplogroup / polymorphism associations) | [Öğütlü et al., 2022](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023) | [BRS4(FM1)](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics), [BRS4(FM2)](/docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability), [BRS4(FM4)](/docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation); **BRS4(SM-SNP) — pending** (mtDNA copy number, haplogroup, 10398 A/G variation) |
+| Review of mitochondrial bioenergetic regulation and mitophagy at cellular and molecular level in ADHD | [Almutairi et al., 2024](/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024) | [BRS4(FM2)](/docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability), [BRS4-FM4-PM9](/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis) |
 
-Butyrate supports mitochondrial function and brain energy metabolism; boosting SCFA production enhances mitochondrial and neurotrophic support.
+### Current evidence limitations
 
-Excess oxalate may disrupt mitochondrial function and redox status; boiling spinach, kale, and other greens can reduce oxalate load and improve mineral bioavailability.
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| Human dietary intervention studies directly measuring mitochondrial functional mechanisms in ADHD remain limited | Future evidence integration | BRS4-wide; especially [BRS4(FM1)](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics), [BRS4(FM2)](/docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability), [BRS4(FM3)](/docs/biological-targets/brs4/fm3/brs4-fm3-substrate-utilisation-flexibility), and [BRS4(FM4)](/docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation) |
 
-### ADHD: Mitochondrial & Bioenergetic Context
+### Framework expansion
 
-Neurodevelopmental disorders such as ADHD, ASD, and bipolar disorder share overlapping biological dysfunctions with other complex conditions, including mitochondrial impairment, chronic inflammation, oxidative stress, impaired methylation, gut–brain axis disruption, glucose dysregulation, micronutrient deficiencies, and neurotransmitter imbalances.
-
-Elevated glutathione levels recorded in some ADHD cohorts may reflect a compensatory response to increased oxidative stress rather than surplus antioxidant capacity alone.
-
-Butyrate may support mitochondrial function and brain energy metabolism in ways relevant to cognitive impairments reported in ADHD, while also contributing to lower neuroinflammatory load.
-
-Carnitine-mediated mitochondrial fat transport may be relevant where ADHD is accompanied by impaired substrate switching or carnitine insufficiency; human intervention evidence in children with ADHD supports further investigation of this bioenergetic pathway rather than routine supplementation without clinical context.
-## References
-
-- [Crane (2001) — Biochemical Functions of Coenzyme Q₁₀](/docs/papers/BRAIN-Diet-References#crane_coq10_2001)
-- [Avgerinos et al. (2018) — A Systematic Review of Randomized Controlled Trials](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
-- [van Oudheusden and Scholte (2002) — Efficacy of Carnitine in the Treatment of Children with Attention-deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002)
-
-- Vitamins and minerals function as indispensable micronutrients and enzymatic cofactors in all pivotal brain biology pathways, aiding neurotransmitter synthesis, mitochondrial energy production, DNA repair, antioxidant defense, methylation, and the regulation of neuroplasticity [Tardy et al. 2020](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)
-- Higher polyphenol intake and microbial diversity increase urolithin A and related metabolites, supporting mitochondrial resilience and mitophagy [Singh et al. 2022](/docs/papers/BRAIN-Diet-References#singh_direct_2022)
-- Urolithin A supports mitochondrial resilience and mitophagy and in turn improves cognitive endurance [Andreux et al. 2019](/docs/papers/BRAIN-Diet-References#andreux_mitophagy_2019)
-- Urolithin A supports mitochondrial resilience and mitophagy and in turn improves cognitive endurance [Hou et al. 2024](/docs/papers/BRAIN-Diet-References#hou_urolithin_2024)
-- Butyrate supports mitochondrial function, enhancing brain energy metabolism, which may help with cognitive impairments seen in ADHD [Rose et al. 2018](/docs/papers/BRAIN-Diet-References#rose_butyrate_2018)
-- Glutathione (GSH) is one of the body's major antioxidants. Elevated GSH levels which have been recorded against ADHD subjects may reflect a compensatory response to increased oxidative stress [Verlaet et al. 2019](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
-- Mitochondrial metabolism of lactate depends on GSH for ROS neutralization, optimizing mitochondrial energy use [Verlaet et al. 2019](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)
-- Coenzyme Q10 (CoQ10) supports mitochondrial electron transport and provides antioxidant protection for neurons [Crane, 2001]
-- Creatine supports ATP recycling in neurons and enhances working memory and cognitive processing speed [Avgerinos et al., 2018]
-- Carnitine supplementation improved behavioural and functional outcomes in children with ADHD in a controlled trial, supporting a link between mitochondrial fatty-acid transport capacity and neurodevelopmental energetics [van Oudheusden and Scholte, 2002]
-
-> **Note — Van Oudheusden & Scholte (2002):** Van Oudheusden, L. & Scholte, H. 2002, 'Efficacy of carnitine in the treatment of children with attention-deficit hyperactivity disorder', *Prostaglandins, Leukotrienes and Essential Fatty Acids*, vol. 67, no. 1, pp. 33–38. [https://doi.org/10.1054/plef.2002.0378](https://doi.org/10.1054/plef.2002.0378)
+- **BRS4(SM-SNP) — pending:** mtDNA copy number, haplogroup, and polymorphism (e.g. 10398 A/G) associations synthesised in [Öğütlü et al., 2022](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023); dedicated SM-SNP pages not yet published.
+- **Cross-BRS shared evidence:** Paediatric oxidative-stress case–control work ([Verlaet et al., 2019](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019)) is routed here for mitochondrial redox interpretation and is also represented on [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress).
 
 </div>
 </div>
@@ -359,3 +351,5 @@ Key Constraints (KCs) in BRS4 describe shared substrate, precursor, and structur
 ## Specific Mechanisms
 
 Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS4 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), **SM-Pattern** (e.g. vegan, vegetarian, ketogenic), and **SM-Phenotype** (e.g. hyperarousal, emotional dysregulation, sensory regulation). Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
+
+**Pending SM-SNP layer:** ADHD–mitochondrial genetic variation (mtDNA copy number, haplogroups, and polymorphisms such as 10398 A/G) is reviewed in [Öğütlü et al., 2022](/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023) and flagged in the Therapeutic Area Research table above. Dedicated **BRS4(SM-SNP)** pages are not yet published — planned as a next framework extension.
