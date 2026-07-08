@@ -19,3 +19,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 bin/cue
+
+# Generated manuscript outputs (do not version control)
+manuscript/**/*.docx
+
+# Temporary artifacts produced during DOCX generation
+.tmp-docx-lib/
+
+# Source/original image assets (keep repo lean)
+static/img/foods/originals/
