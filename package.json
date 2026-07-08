@@ -28,6 +28,7 @@
     "phenome:apply-ph001-ph015-enrichment": "node scripts/apply-ph001-ph015-registry-enrichment.mjs",
     "brs:generate-hub-levers": "node scripts/generate-brs-hub-levers.mjs",
     "brs:patch-ta-research": "node scripts/patch-brs-hub-ta-research.mjs",
+    "brs:generate-hub-cross-integration": "node scripts/generate-brs-hub-cross-integration.mjs",
     "phenome:migrate-brs2-phase3": "node scripts/migrate-brs2-phase3-phenome.mjs",
     "phenome:validate": "node scripts/validate-phenome-registry.mjs",
     "phenome:audit-evidence": "node scripts/audit-phenome-evidence-hierarchy.mjs",

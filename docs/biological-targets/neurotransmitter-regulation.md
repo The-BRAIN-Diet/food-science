@@ -164,6 +164,7 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 <!-- brs-hub-ta-research:end -->
 
 ---
+
 ## Functional Mechanisms
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
@@ -329,7 +330,99 @@ Helps the brain maintain stable neural activity by balancing excitatory glutamat
 
 ---
 
-## Requirements (Key Constraints)
+
+<!-- brs-hub-cross-integration:start -->
+## Cross-BRS integration
+
+<p>Landmark mechanistic and systems-biology reviews explaining how this Biological Regulatory System interacts with and depends upon other systems. These are biological integration references — not ADHD intervention studies.</p>
+
+<div class="brs-hub-cross-integration-evidence">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Bioenergetic Support for Neurotransmission (BRS4 → BRS1)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>Bioenergetic capacity supports neurotransmitter synthesis, vesicle cycling, membrane potential maintenance and synaptic signalling.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#harris_synaptic_energy_2012">Harris et al., 2012</a> — Landmark review establishing that most brain energy is consumed by synaptic transmission and describing how mitochondrial ATP supply constrains presynaptic vesicle cycling, postsynaptic signalling, Na+/K+-ATPase activity, and synaptic plasticity.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015">Picard, 2015</a> — Integrative review framing mitochondria as intracellular signal-processing networks at synapses, linking mitochondrial energetics and neuromodulation to neurotransmitter metabolism and coordinated neuronal output.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Inflammatory Modulation of Neurotransmitter Systems (BRS3 → BRS1)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>Inflammatory and oxidative burden modulate neurotransmitter synthesis, metabolism and excitation–inhibition balance.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Landmark integrative review describing how pro-inflammatory cytokine signalling alters central nervous system function, monoamine-related behaviour, and neurotransmitter biology downstream of immune activation.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019">Savitz, 2019</a> — Comprehensive kynurenine-pathway review linking immune activation to glutamatergic and GABAergic neurotransmission, NMDA receptor signalling, and excitation–inhibition balance — a principal mechanistic bridge between inflammation and neurotransmitter regulation.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Stress-Axis and Autonomic Shaping of Neurotransmission (BRS6 → BRS1)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>HPA-axis regulation, autonomic balance and glycaemic stability shape neurotransmitter signalling during stress and cognitive demand.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_protective_damaging_1998">McEwen, 1998</a> — Foundational review of how stress mediators — particularly cortisol dynamics — protect and damage brain structure and function, with direct implications for neurotransmitter systems and cognitive performance under adaptive demand.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Meta-analytic review linking autonomic regulation (heart-rate variability) to stress neurobiology, cortisol dynamics, and central nervous system function — supporting autonomic–neurotransmitter coupling under load.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>One-Carbon and BH4 Support for Monoamine Biology (BRS2 → BRS1)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>One-carbon metabolism and BH4-dependent cofactor chemistry support monoamine synthesis, membrane methylation and neurotransmitter precursor handling.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021">Fanet et al., 2021</a> — Mechanistic review of tetrahydrobiopterin (BH4) as an essential cofactor for dopamine and serotonin synthesis, linking one-carbon–adjacent cofactor biology to central neurotransmission and inflammatory–oxidative modulation of monoamine pathways.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Integrative review of B-vitamin roles in brain function, including methylation-dependent synthesis of neurochemicals and signalling molecules that underpin monoaminergic and wider neurotransmitter biology.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Gut–Vagal Modulation of Neurochemical Signalling (BRS5 → BRS1)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>Gut-derived microbial metabolites and vagal signalling modulate central neurotransmitter receptor expression and stress-linked neurochemical regulation.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Landmark experimental demonstration that gut microbiota modulate central GABA receptor expression and stress-related neurochemistry via the vagus nerve — a foundational gut–brain neurotransmitter mechanism.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Integrative microbiota–gut–brain axis review synthesising how microbial metabolites, immune signalling, and vagal pathways influence central nervous system function and neurotransmitter-related behaviour.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-cross-integration:end -->
+
+
+## Key Constraints (Dietary Bottlenecks)
 
 Key Constraints (KCs) in BRS1 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
 

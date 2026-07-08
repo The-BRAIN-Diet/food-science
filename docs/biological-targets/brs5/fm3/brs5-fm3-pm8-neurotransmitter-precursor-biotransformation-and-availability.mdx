@@ -19,7 +19,38 @@ dose_sensitivity: Requires repeated dietary pattern support; not a single-food e
 references:
   - '[O''Mahony et al. (2015) — Serotonin, Tryptophan Metabolism and the Brain-gut-microbiome Axis](/docs/papers/BRAIN-Diet-References#omahony_serotonin_2015)'
   - '[Sinha et al. (2024) — Dietary Fibre Directs Microbial Tryptophan Metabolism via Metabolic Interactions in the Gut](/docs/papers/BRAIN-Diet-References#sinha_dietary_2024)'
+  - '[Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children with Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)'
+  - '[Steckler et al. (2024) — Dysbiosis and Decreased Short-chain Fatty Acids](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024)'
+  - '[Aarts et al. (2017) — Gut Microbiome in ADHD and Its Relation to Neural Reward Anticipation](/docs/papers/BRAIN-Diet-References#aarts_gut_2017)'
 hide_title: true
+phenome_relationships:
+  - target_phenome: Focus / Attention Stability
+    relationship_type: modulates
+    confidence: low-medium
+    evidence_level: observational
+    evidence_confidence: low
+    rationale: 'ADHD microbiota compositional differences and lower SCFA levels imply altered microbial biotransformation of dietary precursors relevant to gut–brain neurotransmitter availability — mechanism boundary is microbial precursor processing, not BRS1 monoamine synthesis.'
+    references:
+      - index: 1
+        label: Jiang et al. (2018)
+        citation_key: jiang_gut_2018
+        href: /docs/papers/BRAIN-Diet-References#jiang_gut_2018
+        data_level: Human Study
+      - index: 2
+        label: Steckler et al. (2024)
+        citation_key: steckler_disrupted_2024
+        href: /docs/papers/BRAIN-Diet-References#steckler_disrupted_2024
+  - target_phenome: Motivation / Drive
+    relationship_type: indirect
+    confidence: low
+    evidence_level: observational
+    evidence_confidence: low
+    rationale: Microbial metabolite handling intersects reward-anticipation biology linked to gut composition in ADHD — indirect motivation framing through precursor/metabolite availability rather than direct drive-outcome trials.
+    references:
+      - index: 1
+        label: Aarts et al. (2017)
+        citation_key: aarts_gut_2017
+        href: /docs/papers/BRAIN-Diet-References#aarts_gut_2017
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -47,7 +78,55 @@ Influences microbial and absorptive processes that shape availability of central
 
 These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
 
-No direct functional outcome relationship currently mapped.
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Focus / Attention Stability — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Focus / Attention Stability — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph001-focus-attention-stability" aria-label="Open page: Focus / Attention Stability — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low–Medium
+- **Rationale:** ADHD microbiota compositional differences and lower SCFA levels imply altered microbial biotransformation of dietary precursors relevant to gut–brain neurotransmitter availability — mechanism boundary is microbial precursor processing, not BRS1 monoamine synthesis.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#jiang_gut_2018","label":"Jiang et al. (2018)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024","label":"Steckler et al. (2024)"}]} />
+- **Evidence Confidence:** Low
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Motivation / Drive — indirect">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Motivation / Drive — indirect</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph002-motivation-drive" aria-label="Open page: Motivation / Drive — indirect">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Biology → Phenome Confidence:** Low
+- **Rationale:** Microbial metabolite handling intersects reward-anticipation biology linked to gut composition in ADHD — indirect motivation framing through precursor/metabolite availability rather than direct drive-outcome trials.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#aarts_gut_2017","label":"Aarts et al. (2017)"}]} />
+- **Evidence Confidence:** Low
+
+</div>
+</div>
+</div>
 
 ## 4. Levers
 
@@ -304,6 +383,8 @@ This PM is scoreable through precursor-support and gut-context signals.
 
 
 ## 8. References
-
 - [O'Mahony et al. (2015) — Serotonin, Tryptophan Metabolism and the Brain-gut-microbiome Axis](/docs/papers/BRAIN-Diet-References#omahony_serotonin_2015)
 - [Sinha et al. (2024) — Dietary Fibre Directs Microbial Tryptophan Metabolism via Metabolic Interactions in the Gut](/docs/papers/BRAIN-Diet-References#sinha_dietary_2024)
+- [Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children with Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)
+- [Steckler et al. (2024) — Dysbiosis and Decreased Short-chain Fatty Acids](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024)
+- [Aarts et al. (2017) — Gut Microbiome in ADHD and Its Relation to Neural Reward Anticipation](/docs/papers/BRAIN-Diet-References#aarts_gut_2017)

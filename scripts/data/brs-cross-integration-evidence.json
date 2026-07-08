@@ -1,0 +1,212 @@
+{
+  "version": "1.0",
+  "description": "Landmark mechanistic evidence for cross-BRS adaptive dependencies. Reused across manuscript summaries, hub pages, and translational content.",
+  "integrations": {
+    "BRS4->BRS1": {
+      "title": "BRS4 → BRS1",
+      "summary": "Bioenergetic capacity supports neurotransmitter synthesis, vesicle cycling, membrane potential maintenance and synaptic signalling.",
+      "evidence": [
+        {
+          "citation": "Harris et al. (2012)",
+          "citation_key": "harris_synaptic_energy_2012",
+          "supports": "Landmark review establishing that most brain energy is consumed by synaptic transmission and describing how mitochondrial ATP supply constrains presynaptic vesicle cycling, postsynaptic signalling, Na+/K+-ATPase activity, and synaptic plasticity.",
+          "reference": "Harris, J. J., Jolivet, R., & Attwell, D. (2012). Synaptic energy use and supply. Neuron, 75(5), 762–777. https://doi.org/10.1016/j.neuron.2012.08.019"
+        },
+        {
+          "citation": "Picard (2015)",
+          "citation_key": "picard_mitochondrial_synapses_2015",
+          "supports": "Integrative review framing mitochondria as intracellular signal-processing networks at synapses, linking mitochondrial energetics and neuromodulation to neurotransmitter metabolism and coordinated neuronal output.",
+          "reference": "Picard, M. (2015). Mitochondrial synapses: Intracellular communication and signal integration. Trends in Neurosciences, 38(8), 468–474. https://doi.org/10.1016/j.tins.2015.06.001"
+        }
+      ]
+    },
+    "BRS3->BRS1": {
+      "title": "BRS3 → BRS1",
+      "summary": "Inflammatory and oxidative burden modulate neurotransmitter synthesis, metabolism and excitation–inhibition balance.",
+      "evidence": [
+        {
+          "citation": "Slavich & Irwin (2014)",
+          "citation_key": "slavich_stress_inflammation_2014",
+          "supports": "Landmark integrative review describing how pro-inflammatory cytokine signalling alters central nervous system function, monoamine-related behaviour, and neurotransmitter biology downstream of immune activation.",
+          "reference": "Slavich, G. M., & Irwin, M. R. (2014). From stress to inflammation and major depressive disorder: A social signal transduction theory of depression. Psychological Bulletin, 140(3), 774–815. https://doi.org/10.1037/a0035302"
+        },
+        {
+          "citation": "Savitz (2019)",
+          "citation_key": "savitz_kynurenine_2019",
+          "supports": "Comprehensive kynurenine-pathway review linking immune activation to glutamatergic and GABAergic neurotransmission, NMDA receptor signalling, and excitation–inhibition balance — a principal mechanistic bridge between inflammation and neurotransmitter regulation.",
+          "reference": "Savitz, J. (2019). The kynurenine pathway: A finger in every pie. Molecular Psychiatry, 25(1), 131–147. https://doi.org/10.1038/s41380-019-0414-4"
+        }
+      ]
+    },
+    "BRS6->BRS1": {
+      "title": "BRS6 → BRS1",
+      "summary": "HPA-axis regulation, autonomic balance and glycaemic stability shape neurotransmitter signalling during stress and cognitive demand.",
+      "evidence": [
+        {
+          "citation": "McEwen (1998)",
+          "citation_key": "mcewen_protective_damaging_1998",
+          "supports": "Foundational review of how stress mediators — particularly cortisol dynamics — protect and damage brain structure and function, with direct implications for neurotransmitter systems and cognitive performance under adaptive demand.",
+          "reference": "McEwen, B. S. (1998). Protective and damaging effects of stress mediators. New England Journal of Medicine, 338(3), 171–179. https://doi.org/10.1056/NEJM199801083380307"
+        },
+        {
+          "citation": "Thayer et al. (2012)",
+          "citation_key": "thayer_2012_22178086",
+          "supports": "Meta-analytic review linking autonomic regulation (heart-rate variability) to stress neurobiology, cortisol dynamics, and central nervous system function — supporting autonomic–neurotransmitter coupling under load.",
+          "reference": "Thayer, J. F., Ahs, F., Fredrikson, M., Sollers, J. J., & Wager, T. D. (2012). A meta-analysis of heart rate variability and neuroimaging studies: Implications for heart rate variability as a marker of stress and health. Neuroscience & Biobehavioral Reviews, 36(2), 747–756. https://doi.org/10.1016/j.neubiorev.2011.11.009"
+        }
+      ]
+    },
+    "BRS2->BRS1": {
+      "title": "BRS2 → BRS1",
+      "summary": "One-carbon metabolism and BH4-dependent cofactor chemistry support monoamine synthesis, membrane methylation and neurotransmitter precursor handling.",
+      "evidence": [
+        {
+          "citation": "Fanet et al. (2021)",
+          "citation_key": "fanet_tetrahydrobioterin_2021",
+          "supports": "Mechanistic review of tetrahydrobiopterin (BH4) as an essential cofactor for dopamine and serotonin synthesis, linking one-carbon–adjacent cofactor biology to central neurotransmission and inflammatory–oxidative modulation of monoamine pathways.",
+          "reference": "Fanet, H., Capuron, L., Castanon, N., Calon, F., & Vancassel, S. (2021). Tetrahydrobiopterin (BH4) pathway: From metabolism to neuropsychiatry. Current Neuropharmacology, 19(5), 591–609. https://doi.org/10.2174/1570159X18666200729103529"
+        },
+        {
+          "citation": "Kennedy (2016)",
+          "citation_key": "kennedy_b_2016",
+          "supports": "Integrative review of B-vitamin roles in brain function, including methylation-dependent synthesis of neurochemicals and signalling molecules that underpin monoaminergic and wider neurotransmitter biology.",
+          "reference": "Kennedy, D. O. (2016). B vitamins and the brain: Mechanisms, dose and efficacy—A review. Nutrients, 8(2), 68. https://doi.org/10.3390/nu8020068"
+        }
+      ]
+    },
+    "BRS5->BRS1": {
+      "title": "BRS5 → BRS1",
+      "summary": "Gut-derived microbial metabolites and vagal signalling modulate central neurotransmitter receptor expression and stress-linked neurochemical regulation.",
+      "evidence": [
+        {
+          "citation": "Bravo et al. (2011)",
+          "citation_key": "bravo_ingestion_2011",
+          "supports": "Landmark experimental demonstration that gut microbiota modulate central GABA receptor expression and stress-related neurochemistry via the vagus nerve — a foundational gut–brain neurotransmitter mechanism.",
+          "reference": "Bravo, J. A., Forsythe, P., Chew, M. V., Escaravage, E. M., Savignac, H. M., Dinan, T. G., Bienenstock, J., & Cryan, J. F. (2011). Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve. Proceedings of the National Academy of Sciences, 108(38), 16050–16055. https://doi.org/10.1073/pnas.1102999108"
+        },
+        {
+          "citation": "Jaggar et al. (2020)",
+          "citation_key": "jaggar_sex_microbiota_gut_brain_axis_2020",
+          "supports": "Integrative microbiota–gut–brain axis review synthesising how microbial metabolites, immune signalling, and vagal pathways influence central nervous system function and neurotransmitter-related behaviour.",
+          "reference": "Jaggar, M., Rea, K., Spichak, S., Dinan, T. G., & Cryan, J. F. (2020). You've got male: Sex and the microbiota-gut-brain axis across the lifespan. Frontiers in Neuroendocrinology, 56, 100815. https://doi.org/10.1016/j.yfrne.2019.100815"
+        }
+      ]
+    },
+    "BRS2->BRS3": {
+      "title": "BRS2 → BRS3",
+      "summary": "Transsulfuration-linked substrate flux from one-carbon metabolism supports glutathione-centred antioxidant defence.",
+      "evidence": [
+        {
+          "citation": "Kumar et al. (2017)",
+          "citation_key": "kumar_transsulfuration_2017",
+          "supports": "Review of transsulfuration from homocysteine to cysteine and glutathione, connecting one-carbon metabolic flux to redox defence capacity within BRS3.",
+          "reference": "Kumar, N., Kaur, G., & Kaur, S. (2017). The transsulfuration pathway. World Journal of Hepatology, 9(16), 745–750. https://doi.org/10.4254/wjh.v9.i16.745"
+        },
+        {
+          "citation": "Chiang et al. (1996)",
+          "citation_key": "chiang_s-adenosylmethionine_1996",
+          "supports": "Foundational review of S-adenosylmethionine as the principal methyl donor, describing how one-carbon flux allocation influences downstream transsulfuration and cellular redox chemistry.",
+          "reference": "Chiang, P. K., Gordon, R. K., Tal, J., Zeng, G. C., Doctor, B. P., Pardhasaradhi, K., & McCann, P. P. (1996). S-Adenosylmethionine and methylation. FASEB Journal, 10(5), 471–480."
+        }
+      ]
+    },
+    "BRS5->BRS3": {
+      "title": "BRS5 → BRS3",
+      "summary": "Gut barrier integrity and microbial immune signalling influence systemic inflammatory tone and oxidative load.",
+      "evidence": [
+        {
+          "citation": "O'Mahony et al. (2015)",
+          "citation_key": "omahony_serotonin_2015",
+          "supports": "Review of microbiota–gut–brain communication describing immune and serotonergic signalling pathways through which gut ecology modulates central and peripheral inflammatory biology.",
+          "reference": "O'Mahony, S. M., Clarke, G., Borre, Y. E., Dinan, T. G., & Cryan, J. F. (2015). Serotonin, tryptophan metabolism and the brain-gut-microbiome axis. Behavioural Brain Research, 277, 32–48. https://doi.org/10.1016/j.bbr.2014.07.027"
+        },
+        {
+          "citation": "Slavich & Irwin (2014)",
+          "citation_key": "slavich_stress_inflammation_2014",
+          "supports": "Integrative framework linking environmental and social stressors to pro-inflammatory signalling — relevant to how gut-immune perturbation propagates inflammatory burden across systems.",
+          "reference": "Slavich, G. M., & Irwin, M. R. (2014). From stress to inflammation and major depressive disorder: A social signal transduction theory of depression. Psychological Bulletin, 140(3), 774–815. https://doi.org/10.1037/a0035302"
+        }
+      ]
+    },
+    "BRS5->BRS4": {
+      "title": "BRS5 → BRS4",
+      "summary": "Microbial short-chain fatty acids and gut-derived metabolic signals influence mitochondrial energetics and cellular bioenergetic reserve.",
+      "evidence": [
+        {
+          "citation": "Picard et al. (2014)",
+          "citation_key": "picard_mitochondrial_allostatic_load_2014",
+          "supports": "Perspectives review linking mitochondrial energy metabolism, glucose handling, and stress-related pathophysiology — providing a mechanistic frame for how gut-derived metabolic signals influence bioenergetic capacity.",
+          "reference": "Picard, M., Juster, R.-P., & McEwen, B. S. (2014). Mitochondrial allostatic load puts the 'gluc' back in glucocorticoids. Nature Reviews Endocrinology, 10(5), 303–310. https://doi.org/10.1038/nrendo.2014.22"
+        },
+        {
+          "citation": "Jaggar et al. (2020)",
+          "citation_key": "jaggar_sex_microbiota_gut_brain_axis_2020",
+          "supports": "Integrative gut–brain review covering microbial metabolite signalling and metabolic interactions that intersect mitochondrial and neuroendocrine adaptive regulation.",
+          "reference": "Jaggar, M., Rea, K., Spichak, S., Dinan, T. G., & Cryan, J. F. (2020). You've got male: Sex and the microbiota-gut-brain axis across the lifespan. Frontiers in Neuroendocrinology, 56, 100815. https://doi.org/10.1016/j.yfrne.2019.100815"
+        }
+      ]
+    },
+    "BRS6->BRS4": {
+      "title": "BRS6 → BRS4",
+      "summary": "Stress hormones, glycaemic load and neuroendocrine demand shape mitochondrial function and energetic recovery capacity.",
+      "evidence": [
+        {
+          "citation": "Picard et al. (2014)",
+          "citation_key": "picard_mitochondrial_allostatic_load_2014",
+          "supports": "Landmark review proposing mitochondrial allostatic load as a subcellular mechanism through which glucocorticoids, glucose imbalance, and chronic stress damage bioenergetic capacity.",
+          "reference": "Picard, M., Juster, R.-P., & McEwen, B. S. (2014). Mitochondrial allostatic load puts the 'gluc' back in glucocorticoids. Nature Reviews Endocrinology, 10(5), 303–310. https://doi.org/10.1038/nrendo.2014.22"
+        },
+        {
+          "citation": "McEwen (2006)",
+          "citation_key": "mcewen_stress_mediators_2006",
+          "supports": "Review of allostasis and allostatic load describing how stress mediators influence metabolic allocation, recovery, and cumulative biological wear with the brain as central interpreter and target.",
+          "reference": "McEwen, B. S. (2006). Protective and damaging effects of stress mediators in health and disease. Dialogues in Clinical Neuroscience, 8(4), 377–384. https://doi.org/10.31887/DCNS.2006.8.4/bmcewen"
+        }
+      ]
+    },
+    "BRS6->BRS3": {
+      "title": "BRS6 → BRS3",
+      "summary": "HPA-axis and autonomic stress signalling interact with inflammatory and oxidative biology during sustained adaptive demand.",
+      "evidence": [
+        {
+          "citation": "McEwen (2006)",
+          "citation_key": "mcewen_stress_mediators_2006",
+          "supports": "Foundational allostasis review describing bidirectional interactions between stress mediators, immune-inflammatory processes, and cumulative regulatory burden.",
+          "reference": "McEwen, B. S. (2006). Protective and damaging effects of stress mediators in health and disease. Dialogues in Clinical Neuroscience, 8(4), 377–384. https://doi.org/10.31887/DCNS.2006.8.4/bmcewen"
+        },
+        {
+          "citation": "Slavich & Irwin (2014)",
+          "citation_key": "slavich_stress_inflammation_2014",
+          "supports": "Integrative review linking stress neurobiology to pro-inflammatory cytokine activation and downstream CNS consequences — the principal mechanistic bridge between neuroendocrine stress and inflammatory load.",
+          "reference": "Slavich, G. M., & Irwin, M. R. (2014). From stress to inflammation and major depressive disorder: A social signal transduction theory of depression. Psychological Bulletin, 140(3), 774–815. https://doi.org/10.1037/a0035302"
+        }
+      ]
+    },
+    "BRS5->BRS6": {
+      "title": "BRS5 → BRS6",
+      "summary": "Gut–vagal signalling and microbial metabolites influence autonomic tone and stress-axis responsiveness.",
+      "evidence": [
+        {
+          "citation": "Bravo et al. (2011)",
+          "citation_key": "bravo_ingestion_2011",
+          "supports": "Experimental evidence that gut microbiota modulate HPA-axis stress responses and central neurochemistry via vagal pathways.",
+          "reference": "Bravo, J. A., Forsythe, P., Chew, M. V., Escaravage, E. M., Savignac, H. M., Dinan, T. G., Bienenstock, J., & Cryan, J. F. (2011). Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve. Proceedings of the National Academy of Sciences, 108(38), 16050–16055. https://doi.org/10.1073/pnas.1102999108"
+        },
+        {
+          "citation": "Thayer et al. (2012)",
+          "citation_key": "thayer_2012_22178086",
+          "supports": "Review linking autonomic regulation to stress neurobiology and central nervous system function — supporting vagal–neuroendocrine integration.",
+          "reference": "Thayer, J. F., Ahs, F., Fredrikson, M., Sollers, J. J., & Wager, T. D. (2012). A meta-analysis of heart rate variability and neuroimaging studies: Implications for heart rate variability as a marker of stress and health. Neuroscience & Biobehavioral Reviews, 36(2), 747–756. https://doi.org/10.1016/j.neubiorev.2011.11.009"
+        }
+      ]
+    }
+  },
+  "brs_integration_map": {
+    "BRS1": ["BRS4->BRS1", "BRS3->BRS1", "BRS6->BRS1", "BRS2->BRS1", "BRS5->BRS1"],
+    "BRS2": ["BRS2->BRS1", "BRS2->BRS3"],
+    "BRS3": ["BRS3->BRS1", "BRS5->BRS3", "BRS6->BRS3"],
+    "BRS4": ["BRS4->BRS1", "BRS5->BRS4", "BRS6->BRS4"],
+    "BRS5": ["BRS5->BRS1", "BRS5->BRS3", "BRS5->BRS4", "BRS5->BRS6"],
+    "BRS6": ["BRS6->BRS1", "BRS6->BRS3", "BRS6->BRS4", "BRS5->BRS6"]
+  }
+}

@@ -149,6 +149,7 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 <!-- brs-hub-ta-research:end -->
 
 ---
+
 ## Functional Mechanisms
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
@@ -285,7 +286,51 @@ Connects methylation capacity to membrane phospholipid chemistry — the bridge 
 
 ---
 
-## Requirements (Key Constraints)
+
+<!-- brs-hub-cross-integration:start -->
+## Cross-BRS integration
+
+<p>Landmark mechanistic and systems-biology reviews explaining how this Biological Regulatory System interacts with and depends upon other systems. These are biological integration references — not ADHD intervention studies.</p>
+
+<div class="brs-hub-cross-integration-evidence">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>One-Carbon and BH4 Support for Monoamine Biology (BRS2 → BRS1)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>One-carbon metabolism and BH4-dependent cofactor chemistry support monoamine synthesis, membrane methylation and neurotransmitter precursor handling.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021">Fanet et al., 2021</a> — Mechanistic review of tetrahydrobiopterin (BH4) as an essential cofactor for dopamine and serotonin synthesis, linking one-carbon–adjacent cofactor biology to central neurotransmission and inflammatory–oxidative modulation of monoamine pathways.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Integrative review of B-vitamin roles in brain function, including methylation-dependent synthesis of neurochemicals and signalling molecules that underpin monoaminergic and wider neurotransmitter biology.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>One-Carbon to Redox Coupling (BRS2 → BRS3)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>Transsulfuration-linked substrate flux from one-carbon metabolism supports glutathione-centred antioxidant defence.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017">Kumar et al., 2017</a> — Review of transsulfuration from homocysteine to cysteine and glutathione, connecting one-carbon metabolic flux to redox defence capacity within BRS3.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996">Chiang et al., 1996</a> — Foundational review of S-adenosylmethionine as the principal methyl donor, describing how one-carbon flux allocation influences downstream transsulfuration and cellular redox chemistry.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-cross-integration:end -->
+
+
+## Key Constraints (Dietary Bottlenecks)
 
 Key Constraints (KCs) in BRS2 describe shared precursor and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
 

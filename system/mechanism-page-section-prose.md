@@ -92,7 +92,7 @@ Example placement: [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1
 
 ## §1 Definition — translational UX (paragraph + bullets)
 
-Applies to **PM**, **FM**, **SM**, and **KC** pages. BRS hub pages use **`## Overview`** with the same translational contract (see `system/brs-page-schema.md`).
+Applies to **PM**, **FM**, and **SM** pages. KC pages follow `system/key-constraint-schema.md` with `### 1. Ambition` (not `Definition`). BRS hub pages use **`## Overview`** with the same translational contract (see `system/brs-page-schema.md`).
 
 **Principle:** Translate, do not dumb down. Retain scientific terms; gloss them inline in **parentheses** so both audiences can read without leaving the page.
 
@@ -197,7 +197,7 @@ After reading §1 only, a non-specialist should understand what the mechanism do
 | **PM** | `## 1. Definition` | Single mechanism’s job and brain/body relevance | Downstream and cross-BRS consequences |
 | **FM** | `## 1. Definition` | Emergent integrated state and why it matters | Cross-system effects of the FM state |
 | **SM** | `## 1. Definition` | Why this interpretation layer matters | How the SM changes reading of connected biology |
-| **KC** | `### 1. Definition` | Shared pool’s role in constraining mechanisms | What fails or is limited when the pool is strained |
+| **KC** | `### 1. Ambition` | Desired state of shared resource availability | What functions become constrained when the pool is strained |
 | **BRS hub** | `## Overview` | System purpose and brain/body integration | Cross-BRS significance of the whole BRS |
 
 **§4 UX:** `### Summary` stays **outside** `<details>`; the four-part `####` narrative goes **inside** one `<details>` block. `### 4.1 Evidence Highlights` follows the dropdown as a subsection of `## 4.`, not inside it.

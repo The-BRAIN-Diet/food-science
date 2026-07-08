@@ -16,32 +16,32 @@ phenome_relationships:
   - target_phenome: Cognitive Energy Stability
     relationship_type: modulates
     confidence: low-medium
-    evidence_level: intervention
-    rationale: 'NAD⁺ availability underpins mitochondrial redox reactions and ATP-linked energy metabolism; human intervention evidence shows systemic NAD⁺ repletion can improve performance in deficiency, and micronutrient sufficiency has been associated with fatigue and cognitive function, though direct brain NAD⁺ outcome evidence remains limited.'
-    references:
-      - index: 1
-        label: Pirinen et al. (2020)
-        citation_key: pirinen_niacin_2020
-        href: /docs/papers/BRAIN-Diet-References#pirinen_niacin_2020
-        data_level: Human Outcome
-      - index: 2
-        label: Tardy et al. (2020)
-        citation_key: tardy_vitamins_2020
-        href: /docs/papers/BRAIN-Diet-References#tardy_vitamins_2020
-        data_level: Human Study
-    evidence_confidence: medium
-  - target_phenome: Recovery Capacity
-    relationship_type: modulates
-    confidence: low-medium
     evidence_level: mechanistic
-    rationale: 'NAD⁺ salvage capacity in skeletal muscle responds to regular aerobic and resistance training and declines with age; maintaining NAD⁺ turnover may support recovery from sustained metabolic demand, though direct ADHD-specific evidence remains limited.'
+    evidence_confidence: low-medium
+    rationale: 'NAD⁺-linked redox carrier availability couples to mitochondrial respiration deficits reported in ADHD cybrids and narrative reviews of ADHD mitochondrial biomarker literature — mechanism boundary is redox-carrier turnover supporting ETC coupling, not dietary NAD⁺ supplementation efficacy.'
     references:
       - index: 1
-        label: de Guia et al. (2019)
-        citation_key: de_guia_nad_2019
-        href: /docs/papers/BRAIN-Diet-References#de_guia_nad_2019
+        label: Verma et al. (2016)
+        citation_key: verma_attention_2016
+        href: /docs/papers/BRAIN-Diet-References#verma_attention_2016
         data_level: Human Mechanistic
-    evidence_confidence: low-medium
+      - index: 2
+        label: Öğütlü et al. (2022)
+        citation_key: ogutlu_mitochondrial_2023
+        href: /docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023
+        data_level: Human Study
+  - target_phenome: Recovery Capacity
+    relationship_type: indirect
+    confidence: low
+    evidence_level: mechanistic
+    evidence_confidence: low
+    rationale: NAD⁺ salvage and turnover intersect mitochondrial resilience framing in ADHD mitochondrial reviews — an indirect framework translation through redox-carrier restoration capacity rather than measured ADHD recovery outcomes.
+    references:
+      - index: 1
+        label: Öğütlü et al. (2022)
+        citation_key: ogutlu_mitochondrial_2023
+        href: /docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023
+        data_level: Human Study
 references:
   - '[Pirinen et al. (2020) — Niacin and Systemic NAD⁺ Deficiency in Mitochondrial Myopathy](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)'
   - '[Tardy et al. (2020) — A Narrative Review of the Biochemical and Clinical Evidence](/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020)'
@@ -97,11 +97,11 @@ These mappings are translational relationships, not single-mechanism outcome cla
 <div class="brs-fm-hub-panel" hidden>
 
 - **Biology → Phenome Confidence:** Low–Medium
-- **Rationale:** NAD⁺ availability underpins mitochondrial redox reactions and ATP-linked energy metabolism; human intervention evidence shows systemic NAD⁺ repletion can improve performance in deficiency, and micronutrient sufficiency has been associated with fatigue and cognitive function, though direct brain NAD⁺ outcome evidence remains limited.
+- **Rationale:** NAD⁺-linked redox carrier availability couples to mitochondrial respiration deficits reported in ADHD cybrids and narrative reviews of ADHD mitochondrial biomarker literature — mechanism boundary is redox-carrier turnover supporting ETC coupling, not dietary NAD⁺ supplementation efficacy.
 - **Key References:**
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020","label":"Pirinen et al. (2020)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020","label":"Tardy et al. (2020)","dataLevel":"Human Study"}]} />
-- **Evidence Confidence:** Medium
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#verma_attention_2016","label":"Verma et al. (2016)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023","label":"Öğütlü et al. (2022)","dataLevel":"Human Study"}]} />
+- **Evidence Confidence:** Low–Medium
 
 </div>
 </div>
@@ -110,23 +110,23 @@ These mappings are translational relationships, not single-mechanism outcome cla
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
-<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Recovery Capacity — modulates">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Recovery Capacity — indirect">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
-<strong class="brs-fm-hub-title">Recovery Capacity — modulates</strong>
-<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph005-recovery-capacity" aria-label="Open page: Recovery Capacity — modulates">
+<strong class="brs-fm-hub-title">Recovery Capacity — indirect</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph005-recovery-capacity" aria-label="Open page: Recovery Capacity — indirect">
 <span class="brs-fm-hub-open-label">Open Page →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 
-- **Biology → Phenome Confidence:** Low–Medium
-- **Rationale:** NAD⁺ salvage capacity in skeletal muscle responds to regular aerobic and resistance training and declines with age; maintaining NAD⁺ turnover may support recovery from sustained metabolic demand, though direct ADHD-specific evidence remains limited.
+- **Biology → Phenome Confidence:** Low
+- **Rationale:** NAD⁺ salvage and turnover intersect mitochondrial resilience framing in ADHD mitochondrial reviews — an indirect framework translation through redox-carrier restoration capacity rather than measured ADHD recovery outcomes.
 - **Key References:**
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#de_guia_nad_2019","label":"de Guia et al. (2019)","dataLevel":"Human Mechanistic"}]} />
-- **Evidence Confidence:** Low–Medium
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023","label":"Öğütlü et al. (2022)","dataLevel":"Human Study"}]} />
+- **Evidence Confidence:** Low
 
 </div>
 </div>

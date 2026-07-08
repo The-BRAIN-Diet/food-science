@@ -156,6 +156,7 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 <!-- brs-hub-ta-research:end -->
 
 ---
+
 ## Functional Mechanisms
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
@@ -295,7 +296,67 @@ A functional control point governing active termination of inflammation through 
 
 ---
 
-## Requirements (Key Constraints)
+
+<!-- brs-hub-cross-integration:start -->
+## Cross-BRS integration
+
+<p>Landmark mechanistic and systems-biology reviews explaining how this Biological Regulatory System interacts with and depends upon other systems. These are biological integration references — not ADHD intervention studies.</p>
+
+<div class="brs-hub-cross-integration-evidence">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Inflammatory Modulation of Neurotransmitter Systems (BRS3 → BRS1)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>Inflammatory and oxidative burden modulate neurotransmitter synthesis, metabolism and excitation–inhibition balance.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Landmark integrative review describing how pro-inflammatory cytokine signalling alters central nervous system function, monoamine-related behaviour, and neurotransmitter biology downstream of immune activation.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019">Savitz, 2019</a> — Comprehensive kynurenine-pathway review linking immune activation to glutamatergic and GABAergic neurotransmission, NMDA receptor signalling, and excitation–inhibition balance — a principal mechanistic bridge between inflammation and neurotransmitter regulation.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Gut–Immune Drivers of Inflammatory Tone (BRS5 → BRS3)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>Gut barrier integrity and microbial immune signalling influence systemic inflammatory tone and oxidative load.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#omahony_serotonin_2015">O'Mahony et al., 2015</a> — Review of microbiota–gut–brain communication describing immune and serotonergic signalling pathways through which gut ecology modulates central and peripheral inflammatory biology.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Integrative framework linking environmental and social stressors to pro-inflammatory signalling — relevant to how gut-immune perturbation propagates inflammatory burden across systems.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Stress Signalling Interactions with Inflammatory Load (BRS6 → BRS3)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>HPA-axis and autonomic stress signalling interact with inflammatory and oxidative biology during sustained adaptive demand.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Foundational allostasis review describing bidirectional interactions between stress mediators, immune-inflammatory processes, and cumulative regulatory burden.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Integrative review linking stress neurobiology to pro-inflammatory cytokine activation and downstream CNS consequences — the principal mechanistic bridge between neuroendocrine stress and inflammatory load.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-cross-integration:end -->
+
+
+## Key Constraints (Dietary Bottlenecks)
 
 Key Constraints (KCs) in BRS3 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
 

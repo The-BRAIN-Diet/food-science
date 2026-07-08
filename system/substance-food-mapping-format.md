@@ -7,7 +7,7 @@ Canonical public format for substrate/substance linkage to foods on:
 | PM | `## N. Dietary Levers` — `### N.1 Direct Dietary Levers` |
 | SM | `## N. Dietary Levers` — inside `<details><summary><strong>Diet</strong></summary>` |
 
-KC pages use `### 3. Shared Biological Pool` with plain pool-member bullets only — no food mapping.
+KC pages use `### 2. Shared Biological Pool` with the same `Resource ← food examples` bullet convention.
 
 FM pages do **not** carry Dietary Levers — interventions belong on constituent PM pages.
 

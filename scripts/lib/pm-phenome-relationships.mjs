@@ -6,6 +6,9 @@
 
 import { enrichReferenceWithDataLevel } from "./reference-data-levels.mjs";
 import { BRS2_PM_PHENOME } from "../data/brs2-pm-phenome.mjs";
+import { BRS4_PM_PHENOME } from "../data/brs4-pm-phenome.mjs";
+import { BRS5_PM_PHENOME } from "../data/brs5-pm-phenome.mjs";
+import { BRS6_PM_PHENOME } from "../data/brs6-pm-phenome.mjs";
 
 function ref(index, label, citation_key) {
   return enrichReferenceWithDataLevel({
@@ -330,6 +333,9 @@ export const BRS3_PM_PHENOME = {
 export function getPmPhenomeMap(brs) {
   if (brs === "BRS2") return BRS2_PM_PHENOME;
   if (brs === "BRS3") return BRS3_PM_PHENOME;
+  if (brs === "BRS4") return BRS4_PM_PHENOME;
+  if (brs === "BRS5") return BRS5_PM_PHENOME;
+  if (brs === "BRS6") return BRS6_PM_PHENOME;
   return {};
 }
 
