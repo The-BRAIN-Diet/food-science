@@ -2,7 +2,7 @@
 id: sauerkraut
 title: Sauerkraut
 sidebar_label: Sauerkraut
-description: Fermented cabbage providing Lactobacillus probiotics
+description: Lacto-fermented cabbage providing live lactic acid bacteria, organic acids, and postbiotic compounds
 tags:
   - Food
   - Sauerkraut
@@ -33,32 +33,34 @@ legacy_main_image: /img/foods/sauerkraut/sauerkraut_medium.webp
 ---
 ## Overview
 
-Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbiotic compounds, and enhanced nutrient bioavailability.
+Sauerkraut is finely shredded raw cabbage preserved by **lactic acid fermentation** — the same broad pickling process used for traditional kimchi and lacto-fermented cucumbers. Airborne lactic acid bacteria on cabbage leaves acidify the shredded vegetable with salt, producing a distinctive sour flavour, extended shelf life, and a matrix of live microbes and fermentation metabolites when unpasteurized [1][2].
 
-Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling [1][2].
+Within the BRAIN Diet framework, sauerkraut belongs to the fermented-vegetable pattern supporting gut–brain axis modulation: live lactic acid bacteria, organic acids, and postbiotic peptides that may influence vagal and enteric nervous system signalling alongside broader microbiome diversity [1][2].
+
 ## Key Nutritional Highlights
 
-
-- Lacto-fermented vegetables increase microbiome diversity in fermented-food intervention trials [1]
-- Sauerkraut fermentation produces live lactic acid bacteria and organic acids [2]
-- Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbiotic compounds, and enhanced nutrient bioavailability. [1]
-- Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]
-- Sauerkraut is fermented cabbage providing live Lactobacillus probiotics, postbiotic compounds, and enhanced nutrient bioavailability.
+- Low energy density (~25 kcal per 100 g) with dietary fibre, potassium, iron, and calcium from the cabbage base.
+- Fermentation can increase bioavailability of some nutrients relative to raw cabbage; unpasteurized sauerkraut retains live *Lactobacillus* and related species [2].
+- Typical fermentation involves *Leuconostoc* and *Lactobacillus* species — including *L. brevis* and *L. plantarum* — lowering pH and producing organic acids [2].
+- Lacto-fermented vegetables increase microbiome diversity in fermented-food intervention trials when eaten as part of a broader fermented-food pattern [1].
+- High sodium content in many commercial products; portion size and label reading matter for salt-sensitive individuals.
 
 ## Food Context
 
 ### Synergies
 
-- Part of fermented foods rotation
+- Part of a diverse fermented-foods rotation alongside [kimchi](/docs/foods/kimchi), [kefir](/docs/foods/kefir), [miso](/docs/foods/miso), and other live-culture foods.
+- Pairs with plant-diversity patterns (fibre, polyphenols) that support microbial ecological turnover on BRS5 pathways.
 
 ### Sourcing
 
-- Choose unpasteurized for live probiotics
+- Choose **unpasteurized** sauerkraut refrigerated in the deli or fermentation section for live cultures; canned or shelf-stable products are often heat-treated.
+- Check labels for added vinegar only (quick-pickle) versus true fermentation (salt + time).
 
 ### Preparation
 
-- Regular but not excessive intake
-- Supports gut microbiome diversity
+- Serve cold or lightly warmed; prolonged high-heat cooking reduces live bacterial content.
+- Regular moderate intake within tolerated fermented-food rotation; start small if fermentable foods are new to the diet.
 
 ## Recipes
 
@@ -74,4 +76,4 @@ Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, kef
 
 [1] Lacto-fermented vegetables increase microbiome diversity in fermented-food intervention trials. Wastyk et al. 2021. [Gut-microbiota-targeted diets modulate human immune status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)
 
-[2] Sauerkraut fermentation produces live lactic acid bacteria and organic acids. Pärtty et al. 2015. [A possible link between early probiotic intervention and the risk of neuropsychiatric disorders later in childhood: a randomized trial](/docs/papers/BRAIN-Diet-References#partty_possible_2015)
+[2] Sauerkraut fermentation produces live lactic acid bacteria and organic acids through sequential *Leuconostoc* and *Lactobacillus* dominance. Pärtty et al. 2015. [A possible link between early probiotic intervention and the risk of neuropsychiatric disorders later in childhood: a randomized trial](/docs/papers/BRAIN-Diet-References#partty_possible_2015)

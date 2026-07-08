@@ -287,6 +287,25 @@
   margin-top: 0.5rem;
 }
 
+.brs-hub-cross-integration-list,
+.brs-hub-integration-evidence-list {
+  margin: 0.75rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.brs-hub-cross-integration-item,
+.brs-hub-integration-evidence-item {
+  margin-bottom: 0.65rem;
+}
+
+.brs-hub-cross-integration-evidence {
+  margin: 0.75rem 0 1.5rem;
+}
+
+.brs-hub-cross-integration-evidence > .brs-fm-hub-item {
+  margin-top: 0.5rem;
+}
+
 .brs-hub-levers-intro {
   font-size: 0.95rem;
   color: var(--ifm-color-emphasis-700);

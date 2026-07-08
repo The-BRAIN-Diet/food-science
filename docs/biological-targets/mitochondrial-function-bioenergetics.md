@@ -339,7 +339,67 @@ Supports integrated regulation of exercise-driven mitochondrial biogenesis (form
 
 ---
 
-## Requirements (Key Constraints)
+
+<!-- brs-hub-cross-integration:start -->
+## Cross-BRS integration
+
+<p>Landmark mechanistic and systems-biology reviews explaining how this Biological Regulatory System interacts with and depends upon other systems. These are biological integration references — not ADHD intervention studies.</p>
+
+<div class="brs-hub-cross-integration-evidence">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Bioenergetic Support for Neurotransmission (BRS4 → BRS1)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>Bioenergetic capacity supports neurotransmitter synthesis, vesicle cycling, membrane potential maintenance and synaptic signalling.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#harris_synaptic_energy_2012">Harris et al., 2012</a> — Landmark review establishing that most brain energy is consumed by synaptic transmission and describing how mitochondrial ATP supply constrains presynaptic vesicle cycling, postsynaptic signalling, Na+/K+-ATPase activity, and synaptic plasticity.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015">Picard, 2015</a> — Integrative review framing mitochondria as intracellular signal-processing networks at synapses, linking mitochondrial energetics and neuromodulation to neurotransmitter metabolism and coordinated neuronal output.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Gut-Metabolic Inputs to Mitochondrial Energetics (BRS5 → BRS4)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>Microbial short-chain fatty acids and gut-derived metabolic signals influence mitochondrial energetics and cellular bioenergetic reserve.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Perspectives review linking mitochondrial energy metabolism, glucose handling, and stress-related pathophysiology — providing a mechanistic frame for how gut-derived metabolic signals influence bioenergetic capacity.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Integrative gut–brain review covering microbial metabolite signalling and metabolic interactions that intersect mitochondrial and neuroendocrine adaptive regulation.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Neuroendocrine Control of Bioenergetic Recovery (BRS6 → BRS4)</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p>Stress hormones, glycaemic load and neuroendocrine demand shape mitochondrial function and energetic recovery capacity.</p>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Landmark review proposing mitochondrial allostatic load as a subcellular mechanism through which glucocorticoids, glucose imbalance, and chronic stress damage bioenergetic capacity.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Review of allostasis and allostatic load describing how stress mediators influence metabolic allocation, recovery, and cumulative biological wear with the brain as central interpreter and target.</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-cross-integration:end -->
+
+
+## Key Constraints (Dietary Bottlenecks)
 
 Key Constraints (KCs) in BRS4 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
 

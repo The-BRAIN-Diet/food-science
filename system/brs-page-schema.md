@@ -39,7 +39,7 @@ Hub sections must not restate the BRS title or Overview at the start of Function
 2. Overview
 3. Functional Mechanisms
 4. Core Functional Mechanisms
-5. Requirements (Key Constraints)
+5. Key Constraints (Dietary Bottlenecks)
 6. Modulators
 7. Functional Outputs
 8. References
@@ -65,7 +65,7 @@ Hub sections must not restate the BRS title or Overview at the start of Function
 - FM names and one-line descriptions must be copied from spreadsheet source.
 - Must not rename, reorder, paraphrase, or reinterpret FM canonical definitions.
 
-## Requirements (Key Constraints)
+## Key Constraints (Dietary Bottlenecks)
 
 - Bullet list in canonical format:
   - `BRSx-KCy - <KC_NAME>`

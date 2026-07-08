@@ -1,25 +1,30 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-06-26T12:41:25.098Z",
+    "generatedAt": "2026-07-06T22:48:05.849Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
     "pmPageCount": 62,
-    "pmPagesWithMappings": 43,
-    "relationshipCount": 125,
-    "mappedRelationshipCount": 125
+    "pmPagesWithMappings": 62,
+    "relationshipCount": 162,
+    "mappedRelationshipCount": 162
   },
   "diagnostics": {
     "registryPhenomeCount": 18,
-    "relationshipEdgeCount": 125,
-    "mappedEdgeCount": 125,
+    "relationshipEdgeCount": 162,
+    "mappedEdgeCount": 162,
     "unmappedPhenomeLabels": [],
     "labelsInEdgesNotInRegistry": [],
     "edgesMissingTargetPhenome": 0,
     "edgesWithNullPhenomeId": [],
     "duplicateRegistryNames": [],
-    "orphanRegistryPhenomes": [],
+    "orphanRegistryPhenomes": [
+      {
+        "id": "PH012",
+        "name": "Energy Stability Under Variable Conditions"
+      }
+    ],
     "reviewFlags": [
       {
         "id": "RF001",
@@ -856,6 +861,50 @@
       "targetPhenomeId": "PH011"
     },
     {
+      "sourceNode": "BRS5-FM2-PM4",
+      "sourceTitle": "Microbial Ecological Turnover & Competitive Selection",
+      "sourcePath": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
+      "parentFM": "BRS5(FM2)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Cognitive Clarity",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "ADHD-focused gut–brain axis review literature synthesises microbiome ecology research gaps — indirect cognitive-clarity framing through microbial community resilience rather than measured clarity outcomes.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Schleupner & Carmichael (2022)",
+          "citationKey": "schleupner_attention-deficithyperactivity_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022"
+        }
+      ],
+      "targetPhenomeId": "PH011"
+    },
+    {
+      "sourceNode": "BRS5-FM2-PM6",
+      "sourceTitle": "Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation",
+      "sourcePath": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation",
+      "parentFM": "BRS5(FM2)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Cognitive Clarity",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Gut-derived polyphenol metabolites may influence mitochondrial and inflammatory resilience with downstream cognitive implications — framework translation from ADHD gut–brain research gaps rather than direct clarity-outcome measurement.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Schleupner & Carmichael (2022)",
+          "citationKey": "schleupner_attention-deficithyperactivity_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022"
+        }
+      ],
+      "targetPhenomeId": "PH011"
+    },
+    {
       "sourceNode": "BRS-X(Hormones-PM4)",
       "sourceTitle": "Metabolic-Reproductive Hormone Integration",
       "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration",
@@ -934,6 +983,28 @@
       "targetPhenomeId": "PH004"
     },
     {
+      "sourceNode": "BRS4-FM1-PM1",
+      "sourceTitle": "Electron Transport Chain Function",
+      "sourcePath": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function",
+      "parentFM": "BRS4(FM1)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Reduced cellular and mitochondrial respiration in ADHD cybrids supports impaired ATP-generating capacity under fluctuating cognitive demand — this PM governs ETC flux only, not substrate routing (PM6–PM8) or redox protection (FM2).",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verma et al. (2016)",
+          "citationKey": "verma_attention_2016",
+          "href": "/docs/papers/BRAIN-Diet-References#verma_attention_2016"
+        }
+      ],
+      "targetPhenomeId": "PH004"
+    },
+    {
       "sourceNode": "BRS4-FM1-PM2",
       "sourceTitle": "NAD⁺ Metabolism",
       "sourcePath": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism",
@@ -942,21 +1013,199 @@
       "targetPhenome": "Cognitive Energy Stability",
       "relationshipType": "modulates",
       "confidence": "low-medium",
-      "evidenceConfidence": "medium",
-      "evidenceLevel": "intervention",
-      "rationale": "NAD⁺ availability underpins mitochondrial redox reactions and ATP-linked energy metabolism; human intervention evidence shows systemic NAD⁺ repletion can improve performance in deficiency, and micronutrient sufficiency has been associated with fatigue and cognitive function, though direct brain NAD⁺ outcome evidence remains limited.",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "NAD⁺-linked redox carrier availability couples to mitochondrial respiration deficits reported in ADHD cybrids and narrative reviews of ADHD mitochondrial biomarker literature — mechanism boundary is redox-carrier turnover supporting ETC coupling, not dietary NAD⁺ supplementation efficacy.",
       "references": [
         {
           "index": 1,
-          "label": "Pirinen et al. (2020)",
-          "citationKey": "pirinen_niacin_2020",
-          "href": "/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020"
+          "label": "Verma et al. (2016)",
+          "citationKey": "verma_attention_2016",
+          "href": "/docs/papers/BRAIN-Diet-References#verma_attention_2016"
         },
         {
           "index": 2,
-          "label": "Tardy et al. (2020)",
-          "citationKey": "tardy_vitamins_2020",
-          "href": "/docs/papers/BRAIN-Diet-References#tardy_vitamins_2020"
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
+        }
+      ],
+      "targetPhenomeId": "PH004"
+    },
+    {
+      "sourceNode": "BRS4-FM1-PM3",
+      "sourceTitle": "Creatine / Phosphocreatine Buffer",
+      "sourcePath": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer",
+      "parentFM": "BRS4(FM1)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "ADHD cybrid respiration deficits and hub reviews of mitochondrial dysfunction imply high-demand tissues may rely on phosphocreatine buffering when oxidative phosphorylation is strained — direct ADHD creatine-outcome trials are not in the hub evidence set (biology > evidence gap).",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verma et al. (2016)",
+          "citationKey": "verma_attention_2016",
+          "href": "/docs/papers/BRAIN-Diet-References#verma_attention_2016"
+        },
+        {
+          "index": 2,
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
+        }
+      ],
+      "targetPhenomeId": "PH004"
+    },
+    {
+      "sourceNode": "BRS4-FM3-PM6",
+      "sourceTitle": "Carnitine-Mediated Fat Transport",
+      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
+      "parentFM": "BRS4(FM3)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "intervention",
+      "rationale": "Carnitine-dependent fat oxidation supports mitochondrial substrate delivery for ATP production — trial evidence in ADHD children links this transport node to functional improvement alongside behavioural endpoints.",
+      "references": [
+        {
+          "index": 1,
+          "label": "van Oudheusden & Scholte (2002)",
+          "citationKey": "van_oudheusden_efficacy_2002",
+          "href": "/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002"
+        }
+      ],
+      "targetPhenomeId": "PH004"
+    },
+    {
+      "sourceNode": "BRS4-FM3-PM7",
+      "sourceTitle": "Ketone Utilisation Capacity",
+      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
+      "parentFM": "BRS4(FM3)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "ADHD mitochondrial dysfunction reviews describe substrate-flexibility strain when oxidative phosphorylation is impaired — ketone utilisation is an indirect alternative-fuel pathway node without ADHD ketone-intervention outcomes in the hub set.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
+        }
+      ],
+      "targetPhenomeId": "PH004"
+    },
+    {
+      "sourceNode": "BRS4-FM3-PM8",
+      "sourceTitle": "Metabolic Fuel Switching",
+      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
+      "parentFM": "BRS4(FM3)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "indirect",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Narrative synthesis of ADHD mitochondrial biomarker and oxidative-stress literature supports fuel-switching flexibility as a modifiable bioenergetic context when respiration is compromised — direct ADHD fuel-switching outcome trials remain limited.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
+        }
+      ],
+      "targetPhenomeId": "PH004"
+    },
+    {
+      "sourceNode": "BRS6-FM1-PM1",
+      "sourceTitle": "Glucose Appearance Kinetics",
+      "sourcePath": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "parentFM": "BRS6(FM1)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "PET evidence of altered cerebral glucose metabolism in adults with hyperactivity of childhood onset and unhealthy dietary pattern associations with ADHD in case–control path analysis converge on meal-level glucose appearance kinetics as a cognitive-energy node.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Zametkin et al. (1990)",
+          "citationKey": "zametkin_cerebral_1990",
+          "href": "/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990"
+        },
+        {
+          "index": 2,
+          "label": "Wang et al. (2019)",
+          "citationKey": "wang_dietary_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019"
+        }
+      ],
+      "targetPhenomeId": "PH004"
+    },
+    {
+      "sourceNode": "BRS6-FM1-PM2",
+      "sourceTitle": "Glycaemic Variability Regulation",
+      "sourcePath": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation",
+      "parentFM": "BRS6(FM1)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Altered cerebral glucose metabolism in ADHD and metabolic syndrome/insulin-resistance overlap in adult ADHD outpatients support glycaemic variability as a modifiable context for steadier cognitive fuel supply.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Zametkin et al. (1990)",
+          "citationKey": "zametkin_cerebral_1990",
+          "href": "/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990"
+        },
+        {
+          "index": 2,
+          "label": "Di Girolamo et al. (2022)",
+          "citationKey": "di_girolamo_prevalence_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022"
+        }
+      ],
+      "targetPhenomeId": "PH004"
+    },
+    {
+      "sourceNode": "BRS6-FM1-PM3",
+      "sourceTitle": "Insulin Sensitivity & Glucose Disposal",
+      "sourcePath": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal",
+      "parentFM": "BRS6(FM1)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Insulin resistance and ADHD metabolic overlap reviewed in narrative synthesis support efficient glucose disposal as a contributor to cognitive fuel stability — mechanism boundary is peripheral/metabolic insulin action, not CNS glucose transport pharmacology.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Di Girolamo et al. (2022)",
+          "citationKey": "di_girolamo_prevalence_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022"
+        },
+        {
+          "index": 2,
+          "label": "Marcelli et al. (2025)",
+          "citationKey": "marcelli_bridging_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025"
         }
       ],
       "targetPhenomeId": "PH004"
@@ -1300,18 +1549,24 @@
       "references": [
         {
           "index": 1,
-          "label": "Oades (2010)",
-          "citationKey": "oades_role_2010",
-          "href": "/docs/papers/BRAIN-Diet-References#oades_role_2010"
+          "label": "Tang et al. (2025)",
+          "citationKey": "tang_nutritional_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#tang_nutritional_2025"
         },
         {
           "index": 2,
+          "label": "Faraone et al. (2025)",
+          "citationKey": "faraone_serotonin_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#faraone_serotonin_2025"
+        },
+        {
+          "index": 3,
           "label": "Shaw et al. (2014)",
           "citationKey": "shaw_emotion_2014",
           "href": "/docs/papers/BRAIN-Diet-References#shaw_emotion_2014"
         },
         {
-          "index": 3,
+          "index": 4,
           "label": "Banerjee and Nandagopal (2015)",
           "citationKey": "banerjee_does_2015",
           "href": "/docs/papers/BRAIN-Diet-References#banerjee_does_2015"
@@ -1586,85 +1841,123 @@
       "targetPhenomeId": "PH003"
     },
     {
+      "sourceNode": "BRS5-FM1-PM1",
+      "sourceTitle": "Gut Barrier / Tight Junction Integrity",
+      "sourcePath": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+      "parentFM": "BRS5(FM1)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "observational",
+      "rationale": "Gut-barrier compromise may modulate gut–brain signalling tone intersecting affective regulation in neurodevelopmental contexts — indirect framing from ADHD microbiota compositional work without direct emotional-outcome trials on barrier biology.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Jiang et al. (2018)",
+          "citationKey": "jiang_gut_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#jiang_gut_2018"
+        }
+      ],
+      "targetPhenomeId": "PH003"
+    },
+    {
+      "sourceNode": "BRS5-FM2-PM5",
+      "sourceTitle": "SCFA Production & Signalling",
+      "sourcePath": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling",
+      "parentFM": "BRS5(FM2)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "observational",
+      "rationale": "SCFA gut–brain signalling may intersect affective regulation through vagal and immune pathways — indirect translational framing from ADHD SCFA deficit observation without emotional-outcome intervention trials.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Steckler et al. (2024)",
+          "citationKey": "steckler_disrupted_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024"
+        }
+      ],
+      "targetPhenomeId": "PH003"
+    },
+    {
+      "sourceNode": "BRS5-FM3-PM7",
+      "sourceTitle": "Vagal / ENS Signalling Modulation",
+      "sourcePath": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation",
+      "parentFM": "BRS5(FM3)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "intervention",
+      "rationale": "Probiotic-associated symptom change in ADHD children and hypothesis-generating early-life microbial modulation windows support gut–vagal pathways intersecting affective regulation biology without definitive prevention claims.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Wang et al. (2022)",
+          "citationKey": "wang_effect_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#wang_effect_2022"
+        },
+        {
+          "index": 2,
+          "label": "Pärtty et al. (2015)",
+          "citationKey": "partty_possible_2015",
+          "href": "/docs/papers/BRAIN-Diet-References#partty_possible_2015"
+        }
+      ],
+      "targetPhenomeId": "PH003"
+    },
+    {
+      "sourceNode": "BRS6-FM2-PM4",
+      "sourceTitle": "Cortisol Rhythm Regulation",
+      "sourcePath": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation",
+      "parentFM": "BRS6(FM2)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Emotional Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Cortisol, inflammatory biomarkers, and neurotrophins measured in children and adolescents with ADHD intersect affective regulation biology through HPA-axis tone — this PM governs cortisol rhythm, not autonomic recovery (FM3).",
+      "references": [
+        {
+          "index": 1,
+          "label": "Chang et al. (2020)",
+          "citationKey": "chang_cortisol_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2020"
+        },
+        {
+          "index": 2,
+          "label": "Chang et al. (2021)",
+          "citationKey": "chang_cortisol_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2021"
+        }
+      ],
+      "targetPhenomeId": "PH003"
+    },
+    {
       "sourceNode": "BRS4-FM3-PM8",
       "sourceTitle": "Metabolic Fuel Switching",
       "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
       "parentFM": "BRS4(FM3)",
       "parentBRS": "BRS4",
-      "targetPhenome": "Energy Stability Under Variable Conditions",
-      "relationshipType": "supports",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
-      "evidenceLevel": "mechanistic",
-      "rationale": "The ability to transition efficiently between available energy substrates may support maintenance of ATP production during changing nutritional and physiological conditions.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Goodpaster & Sparks (2017)",
-          "citationKey": "goodpaster_metabolic_flexibility_2017",
-          "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017"
-        },
-        {
-          "index": 2,
-          "label": "Smith et al. (2018)",
-          "citationKey": "smith_metabolic_flexibility_2018",
-          "href": "/docs/papers/BRAIN-Diet-References#smith_metabolic_flexibility_2018"
-        }
-      ],
-      "targetPhenomeId": "PH012"
-    },
-    {
-      "sourceNode": "BRS4-FM3-PM6",
-      "sourceTitle": "Carnitine-Mediated Fat Transport",
-      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
-      "parentFM": "BRS4(FM3)",
-      "parentBRS": "BRS4",
       "targetPhenome": "Energy Stability Under Variable Fuel Conditions",
-      "relationshipType": "modulates",
-      "confidence": "low-medium",
-      "evidenceConfidence": "medium",
-      "evidenceLevel": "intervention",
-      "rationale": "Carnitine-dependent transport of long-chain fatty acids into mitochondria enables β-oxidation when metabolic context shifts away from glucose dominance; human intervention evidence in ADHD suggests carnitine supplementation may improve behavioural and functional outcomes in deficiency contexts, though direct brain fuel-switching outcome evidence remains limited.",
-      "references": [
-        {
-          "index": 1,
-          "label": "van Oudheusden and Scholte (2002)",
-          "citationKey": "van_oudheusden_efficacy_2002",
-          "href": "/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002"
-        },
-        {
-          "index": 2,
-          "label": "Kyriazis et al. (2022)",
-          "citationKey": "kyriazis_impact_2022",
-          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
-        }
-      ],
-      "targetPhenomeId": "PH013"
-    },
-    {
-      "sourceNode": "BRS4-FM3-PM7",
-      "sourceTitle": "Ketone Utilisation Capacity",
-      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
-      "parentFM": "BRS4(FM3)",
-      "parentBRS": "BRS4",
-      "targetPhenome": "Energy Stability Under Variable Fuel Conditions",
-      "relationshipType": "modulates",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "The ability to utilise ketone bodies may help support ATP production during periods of reduced glucose availability or altered metabolic demand, including brain energy metabolism when glucose supply shifts.",
+      "rationale": "Metabolic fuel switching governs steadiness of ATP supply across changing macronutrient availability — indirect phenome mapping from ADHD mitochondrial dysfunction framing without measured variable-fuel outcome studies.",
       "references": [
         {
           "index": 1,
-          "label": "Ramezani et al. (2023)",
-          "citationKey": "ramezani_ketone_2023",
-          "href": "/docs/papers/BRAIN-Diet-References#ramezani_ketone_2023"
-        },
-        {
-          "index": 2,
-          "label": "López-Ojeda et al. (2023)",
-          "citationKey": "lopez_ojeda_ketone_2023",
-          "href": "/docs/papers/BRAIN-Diet-References#lopez_ojeda_ketone_2023"
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
         }
       ],
       "targetPhenomeId": "PH013"
@@ -2256,6 +2549,256 @@
       "targetPhenomeId": "PH001"
     },
     {
+      "sourceNode": "BRS4-FM1-PM1",
+      "sourceTitle": "Electron Transport Chain Function",
+      "sourcePath": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function",
+      "parentFM": "BRS4(FM1)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "ADHD cybrid models show reduced mitochondrial respiration, lower complex V activity, and membrane-potential loss in platelet-derived cells — positioning electron-transport throughput as a biological node intersecting attention-relevant bioenergetic strain rather than a single-complex pharmacology claim.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verma et al. (2016)",
+          "citationKey": "verma_attention_2016",
+          "href": "/docs/papers/BRAIN-Diet-References#verma_attention_2016"
+        },
+        {
+          "index": 2,
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS4-FM3-PM6",
+      "sourceTitle": "Carnitine-Mediated Fat Transport",
+      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
+      "parentFM": "BRS4(FM3)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "medium",
+      "evidenceConfidence": "medium",
+      "evidenceLevel": "intervention",
+      "rationale": "Controlled carnitine supplementation improved behavioural and functional outcomes in children with ADHD — the strongest direct ADHD intervention anchor in BRS4, mapping fatty-acid transport into mitochondria to attention-relevant outcomes without generalising beyond trial context.",
+      "references": [
+        {
+          "index": 1,
+          "label": "van Oudheusden & Scholte (2002)",
+          "citationKey": "van_oudheusden_efficacy_2002",
+          "href": "/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS5-FM1-PM1",
+      "sourceTitle": "Gut Barrier / Tight Junction Integrity",
+      "sourcePath": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+      "parentFM": "BRS5(FM1)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Compositional gut microbiota differences in treatment-naïve children with ADHD — including beneficial taxa guild shifts — intersect gut-barrier integrity as a upstream determinant of gut–brain immune signalling relevant to attention biology.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Jiang et al. (2018)",
+          "citationKey": "jiang_gut_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#jiang_gut_2018"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS5-FM1-PM2",
+      "sourceTitle": "LPS / Endotoxin Containment",
+      "sourcePath": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment",
+      "parentFM": "BRS5(FM1)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "ADHD gut microbiota compositional differences implicate altered gut–immune interface function — LPS/endotoxin containment is the mechanism boundary for limiting gut-derived inflammatory load reaching systemic circulation, not cytokine phenotypes (BRS3).",
+      "references": [
+        {
+          "index": 1,
+          "label": "Jiang et al. (2018)",
+          "citationKey": "jiang_gut_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#jiang_gut_2018"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS5-FM1-PM3",
+      "sourceTitle": "Keystone Taxa Support",
+      "sourcePath": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support",
+      "parentFM": "BRS5(FM1)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Reduced microbial alpha diversity in paediatric ADHD, compositional shifts in treatment-naïve cohorts, and open-label Bifidobacterium supplementation with symptom change converge on ecological keystone support as attention-relevant gut–brain context.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Prehn-Kristensen et al. (2018)",
+          "citationKey": "prehn-kristensen_reduced_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018"
+        },
+        {
+          "index": 2,
+          "label": "Jiang et al. (2018)",
+          "citationKey": "jiang_gut_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#jiang_gut_2018"
+        },
+        {
+          "index": 3,
+          "label": "Wang et al. (2022)",
+          "citationKey": "wang_effect_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#wang_effect_2022"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS5-FM2-PM4",
+      "sourceTitle": "Microbial Ecological Turnover & Competitive Selection",
+      "sourcePath": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
+      "parentFM": "BRS5(FM2)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Reduced microbial alpha diversity in paediatric ADHD and lower faecal SCFA levels versus controls support ecological turnover and competitive selection as modifiable gut-community processes intersecting attention-relevant microbiome structure.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Prehn-Kristensen et al. (2018)",
+          "citationKey": "prehn-kristensen_reduced_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018"
+        },
+        {
+          "index": 2,
+          "label": "Steckler et al. (2024)",
+          "citationKey": "steckler_disrupted_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS5-FM2-PM5",
+      "sourceTitle": "SCFA Production & Signalling",
+      "sourcePath": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling",
+      "parentFM": "BRS5(FM2)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "ADHD cohorts showed lower faecal SCFA levels including acetic, propionic, isobutyric, isovaleric, and valeric acids versus controls — positioning microbial SCFA production and signalling as a direct observational anchor for attention-relevant gut metabolite biology.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Steckler et al. (2024)",
+          "citationKey": "steckler_disrupted_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS5-FM3-PM8",
+      "sourceTitle": "Neurotransmitter Precursor Biotransformation & Availability",
+      "sourcePath": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability",
+      "parentFM": "BRS5(FM3)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "observational",
+      "rationale": "ADHD microbiota compositional differences and lower SCFA levels imply altered microbial biotransformation of dietary precursors relevant to gut–brain neurotransmitter availability — mechanism boundary is microbial precursor processing, not BRS1 monoamine synthesis.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Jiang et al. (2018)",
+          "citationKey": "jiang_gut_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#jiang_gut_2018"
+        },
+        {
+          "index": 2,
+          "label": "Steckler et al. (2024)",
+          "citationKey": "steckler_disrupted_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS6-FM1-PM1",
+      "sourceTitle": "Glucose Appearance Kinetics",
+      "sourcePath": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+      "parentFM": "BRS6(FM1)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Dietary pattern linked to ADHD burden implicates postprandial glucose dynamics intersecting prefrontal and striatal fuel supply relevant to attention biology — this PM governs glucose appearance rate, not insulin disposal (PM3) or variability amplitude (PM2).",
+      "references": [
+        {
+          "index": 1,
+          "label": "Wang et al. (2019)",
+          "citationKey": "wang_dietary_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS6-FM1-PM2",
+      "sourceTitle": "Glycaemic Variability Regulation",
+      "sourcePath": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation",
+      "parentFM": "BRS6(FM1)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Prefrontal glucose utilisation patterns in ADHD and metabolic comorbidity prevalence link glycaemic fluctuation control to attention-relevant cognitive energy availability.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Zametkin et al. (1990)",
+          "citationKey": "zametkin_cerebral_1990",
+          "href": "/docs/papers/BRAIN-Diet-References#zametkin_cerebral_1990"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
       "sourceNode": "BRS-X(Hormones-PM2)",
       "sourceTitle": "Estrobolome Regulation",
       "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation",
@@ -2318,141 +2861,23 @@
       "targetPhenomeId": "PH014"
     },
     {
-      "sourceNode": "BRS4-FM2-PM4",
-      "sourceTitle": "ROS Production and Control",
-      "sourcePath": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control",
-      "parentFM": "BRS4(FM2)",
-      "parentBRS": "BRS4",
-      "targetPhenome": "Metabolic Resilience",
-      "relationshipType": "modulates",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Balanced mitochondrial ROS generation and buffering may help preserve organelle function under oxidative pressure, contributing to broader metabolic stability, although direct ADHD-specific outcome evidence remains limited.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Packer et al. (1997)",
-          "citationKey": "packer_vitamin_1997",
-          "href": "/docs/papers/BRAIN-Diet-References#packer_vitamin_1997"
-        },
-        {
-          "index": 2,
-          "label": "Kyriazis et al. (2022)",
-          "citationKey": "kyriazis_impact_2022",
-          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
-        }
-      ],
-      "targetPhenomeId": "PH007"
-    },
-    {
-      "sourceNode": "BRS4-FM2-PM5",
-      "sourceTitle": "Mitochondrial Protection (Redox Integrity)",
-      "sourcePath": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity",
-      "parentFM": "BRS4(FM2)",
-      "parentBRS": "BRS4",
-      "targetPhenome": "Metabolic Resilience",
-      "relationshipType": "supports",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Protection of mitochondrial membranes and redox systems may preserve energetic throughput under oxidative load and support broader metabolic adaptability, although direct ADHD-specific outcome evidence remains limited.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Packer et al. (1997)",
-          "citationKey": "packer_vitamin_1997",
-          "href": "/docs/papers/BRAIN-Diet-References#packer_vitamin_1997"
-        },
-        {
-          "index": 2,
-          "label": "Crane (2001)",
-          "citationKey": "crane_coq10_2001",
-          "href": "/docs/papers/BRAIN-Diet-References#crane_coq10_2001"
-        }
-      ],
-      "targetPhenomeId": "PH007"
-    },
-    {
-      "sourceNode": "BRS4-FM3-PM6",
-      "sourceTitle": "Carnitine-Mediated Fat Transport",
-      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
-      "parentFM": "BRS4(FM3)",
-      "parentBRS": "BRS4",
-      "targetPhenome": "Metabolic Resilience",
-      "relationshipType": "supports",
-      "confidence": "low-medium",
-      "evidenceConfidence": "medium",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Effective carnitine-mediated fat transport expands the range of substrates mitochondria can oxidise, contributing to broader metabolic adaptability across varying nutritional and physiological conditions when cofactor and substrate context are sufficient.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Kyriazis et al. (2022)",
-          "citationKey": "kyriazis_impact_2022",
-          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
-        },
-        {
-          "index": 2,
-          "label": "van Oudheusden and Scholte (2002)",
-          "citationKey": "van_oudheusden_efficacy_2002",
-          "href": "/docs/papers/BRAIN-Diet-References#van_oudheusden_efficacy_2002"
-        }
-      ],
-      "targetPhenomeId": "PH007"
-    },
-    {
       "sourceNode": "BRS4-FM3-PM7",
       "sourceTitle": "Ketone Utilisation Capacity",
       "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
       "parentFM": "BRS4(FM3)",
       "parentBRS": "BRS4",
       "targetPhenome": "Metabolic Resilience",
-      "relationshipType": "supports",
+      "relationshipType": "indirect",
       "confidence": "low",
-      "evidenceConfidence": "low-medium",
+      "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Ketone utilisation expands the range of substrates available for energy production and contributes to broader metabolic adaptability across varying nutritional and physiological conditions.",
+      "rationale": "Capacity to oxidise ketone bodies may contribute to metabolic adaptability when glucose/fat routing is constrained — framework translation from ADHD bioenergetic reviews rather than direct resilience-outcome measurement.",
       "references": [
         {
           "index": 1,
-          "label": "López-Ojeda et al. (2023)",
-          "citationKey": "lopez_ojeda_ketone_2023",
-          "href": "/docs/papers/BRAIN-Diet-References#lopez_ojeda_ketone_2023"
-        },
-        {
-          "index": 2,
-          "label": "Ramezani et al. (2023)",
-          "citationKey": "ramezani_ketone_2023",
-          "href": "/docs/papers/BRAIN-Diet-References#ramezani_ketone_2023"
-        }
-      ],
-      "targetPhenomeId": "PH007"
-    },
-    {
-      "sourceNode": "BRS4-FM3-PM8",
-      "sourceTitle": "Metabolic Fuel Switching",
-      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
-      "parentFM": "BRS4(FM3)",
-      "parentBRS": "BRS4",
-      "targetPhenome": "Metabolic Resilience",
-      "relationshipType": "supports",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Fuel-switching capacity expands the range of conditions under which cellular energy production can be maintained, contributing to broader metabolic adaptability.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Smith et al. (2018)",
-          "citationKey": "smith_metabolic_flexibility_2018",
-          "href": "/docs/papers/BRAIN-Diet-References#smith_metabolic_flexibility_2018"
-        },
-        {
-          "index": 2,
-          "label": "Goodpaster & Sparks (2017)",
-          "citationKey": "goodpaster_metabolic_flexibility_2017",
-          "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017"
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
         }
       ],
       "targetPhenomeId": "PH007"
@@ -2464,23 +2889,79 @@
       "parentFM": "BRS4(FM4)",
       "parentBRS": "BRS4",
       "targetPhenome": "Metabolic Resilience",
-      "relationshipType": "supports",
+      "relationshipType": "modulates",
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Greater mitochondrial density expands long-term energetic capacity and may contribute to broader metabolic adaptability across changing physiological demand.",
+      "rationale": "Expanded mitochondrial density and adaptive remodelling may support metabolic resilience when baseline ADHD mitochondrial function is strained — synthesised from ADHD-specific mitochondrial biomarker and mitophagy literature.",
       "references": [
         {
           "index": 1,
-          "label": "Goodpaster & Sparks (2017)",
-          "citationKey": "goodpaster_metabolic_flexibility_2017",
-          "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017"
+          "label": "Almutairi et al. (2024)",
+          "citationKey": "almutairi_mitophagy_adhd_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024"
         },
         {
           "index": 2,
-          "label": "Kyriazis et al. (2022)",
-          "citationKey": "kyriazis_impact_2022",
-          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
+        }
+      ],
+      "targetPhenomeId": "PH007"
+    },
+    {
+      "sourceNode": "BRS6-FM1-PM3",
+      "sourceTitle": "Insulin Sensitivity & Glucose Disposal",
+      "sourcePath": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal",
+      "parentFM": "BRS6(FM1)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Metabolic Resilience",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Prevalence of metabolic syndrome and insulin resistance in adult ADHD outpatients positions insulin sensitivity and glucose disposal as metabolic-resilience nodes intersecting ADHD metabolic comorbidity.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Di Girolamo et al. (2022)",
+          "citationKey": "di_girolamo_prevalence_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022"
+        },
+        {
+          "index": 2,
+          "label": "Marcelli et al. (2025)",
+          "citationKey": "marcelli_bridging_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025"
+        }
+      ],
+      "targetPhenomeId": "PH007"
+    },
+    {
+      "sourceNode": "BRS6-FM4-PM8",
+      "sourceTitle": "Metabolic Inflammation & Adipose Stress Signalling",
+      "sourcePath": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling",
+      "parentFM": "BRS6(FM4)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Metabolic Resilience",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Metabolic syndrome and insulin resistance in adult ADHD outpatients and narrative review bridging ADHD with metabolic disorders position adipose-stress and metabolic-inflammation signalling as resilience-relevant nodes.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Di Girolamo et al. (2022)",
+          "citationKey": "di_girolamo_prevalence_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022"
+        },
+        {
+          "index": 2,
+          "label": "Marcelli et al. (2025)",
+          "citationKey": "marcelli_bridging_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025"
         }
       ],
       "targetPhenomeId": "PH007"
@@ -2689,6 +3170,78 @@
           "label": "Beard et al. (2003)",
           "citationKey": "beard_iron_2003",
           "href": "/docs/papers/BRAIN-Diet-References#beard_iron_2003"
+        }
+      ],
+      "targetPhenomeId": "PH002"
+    },
+    {
+      "sourceNode": "BRS5-FM1-PM3",
+      "sourceTitle": "Keystone Taxa Support",
+      "sourcePath": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support",
+      "parentFM": "BRS5(FM1)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Motivation / Drive",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Gut microbiome composition linked to neural reward anticipation in ADHD positions keystone taxa support as a biological node intersecting motivation-relevant gut–brain signalling — not a direct reward-intervention claim.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Aarts et al. (2017)",
+          "citationKey": "aarts_gut_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#aarts_gut_2017"
+        }
+      ],
+      "targetPhenomeId": "PH002"
+    },
+    {
+      "sourceNode": "BRS5-FM3-PM8",
+      "sourceTitle": "Neurotransmitter Precursor Biotransformation & Availability",
+      "sourcePath": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability",
+      "parentFM": "BRS5(FM3)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Motivation / Drive",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "observational",
+      "rationale": "Microbial metabolite handling intersects reward-anticipation biology linked to gut composition in ADHD — indirect motivation framing through precursor/metabolite availability rather than direct drive-outcome trials.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Aarts et al. (2017)",
+          "citationKey": "aarts_gut_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#aarts_gut_2017"
+        }
+      ],
+      "targetPhenomeId": "PH002"
+    },
+    {
+      "sourceNode": "BRS6-FM4-PM9",
+      "sourceTitle": "Stress-Induced Appetite / Reward Drive Modulation",
+      "sourcePath": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation",
+      "parentFM": "BRS6(FM4)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Motivation / Drive",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Dietary pattern associations with ADHD burden and HPA dysregulation support stress-modulated reward/motivation pathways — mechanism boundary is appetite–reward drive under stress, not BRS1 catecholamine synthesis.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Wang et al. (2019)",
+          "citationKey": "wang_dietary_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019"
+        },
+        {
+          "index": 2,
+          "label": "Marcelli et al. (2025)",
+          "citationKey": "marcelli_bridging_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025"
         }
       ],
       "targetPhenomeId": "PH002"
@@ -2928,17 +3481,39 @@
       "parentFM": "BRS4(FM1)",
       "parentBRS": "BRS4",
       "targetPhenome": "Recovery Capacity",
-      "relationshipType": "modulates",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "NAD⁺ salvage capacity in skeletal muscle responds to regular aerobic and resistance training and declines with age; maintaining NAD⁺ turnover may support recovery from sustained metabolic demand, though direct ADHD-specific evidence remains limited.",
+      "rationale": "NAD⁺ salvage and turnover intersect mitochondrial resilience framing in ADHD mitochondrial reviews — an indirect framework translation through redox-carrier restoration capacity rather than measured ADHD recovery outcomes.",
       "references": [
         {
           "index": 1,
-          "label": "de Guia et al. (2019)",
-          "citationKey": "de_guia_nad_2019",
-          "href": "/docs/papers/BRAIN-Diet-References#de_guia_nad_2019"
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
+        }
+      ],
+      "targetPhenomeId": "PH005"
+    },
+    {
+      "sourceNode": "BRS4-FM1-PM3",
+      "sourceTitle": "Creatine / Phosphocreatine Buffer",
+      "sourcePath": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer",
+      "parentFM": "BRS4(FM1)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Recovery Capacity",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Rapid ATP buffering may support restoration after acute cognitive energy draw when mitochondrial output is compromised — indirect translational framing from ADHD bioenergetic strain literature without ADHD phosphocreatine intervention outcomes.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
         }
       ],
       "targetPhenomeId": "PH005"
@@ -2950,11 +3525,11 @@
       "parentFM": "BRS4(FM2)",
       "parentBRS": "BRS4",
       "targetPhenome": "Recovery Capacity",
-      "relationshipType": "indirect",
-      "confidence": "low",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Lower mitochondrial oxidative burden may reduce cumulative damage to respiratory machinery and support restoration after sustained metabolic demand, though direct outcome evidence remains limited.",
+      "evidenceLevel": "observational",
+      "rationale": "Elevated glutathione and oxidative-stress markers in paediatric ADHD case–control work link mitochondrial ROS handling to redox recovery context; GSH is required for mitochondrial lactate metabolism and ROS neutralisation — this PM governs ROS production/control balance, not GSH synthesis (BRS2/BRS3).",
       "references": [
         {
           "index": 1,
@@ -2975,8 +3550,8 @@
       "relationshipType": "modulates",
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Membrane and enzyme protection may help mitochondria recover functional integrity after oxidative stress episodes, though direct outcome evidence at the phenome level remains limited.",
+      "evidenceLevel": "observational",
+      "rationale": "Integrated mitochondrial membrane protection and redox integrity preserve energetic output when oxidative stress is elevated in paediatric ADHD — convergent with Verlaet glutathione/oxidative-stress findings and ADHD mitophagy reviews.",
       "references": [
         {
           "index": 1,
@@ -2986,31 +3561,9 @@
         },
         {
           "index": 2,
-          "label": "Kyriazis et al. (2022)",
-          "citationKey": "kyriazis_impact_2022",
-          "href": "/docs/papers/BRAIN-Diet-References#kyriazis_impact_2022"
-        }
-      ],
-      "targetPhenomeId": "PH005"
-    },
-    {
-      "sourceNode": "BRS4-FM3-PM8",
-      "sourceTitle": "Metabolic Fuel Switching",
-      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
-      "parentFM": "BRS4(FM3)",
-      "parentBRS": "BRS4",
-      "targetPhenome": "Recovery Capacity",
-      "relationshipType": "indirect",
-      "confidence": "low",
-      "evidenceConfidence": "low",
-      "evidenceLevel": "mechanistic",
-      "rationale": "The ability to adapt fuel selection may contribute to recovery from periods of increased metabolic demand, although direct outcome evidence remains limited.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Goodpaster & Sparks (2017)",
-          "citationKey": "goodpaster_metabolic_flexibility_2017",
-          "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017"
+          "label": "Almutairi et al. (2024)",
+          "citationKey": "almutairi_mitophagy_adhd_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024"
         }
       ],
       "targetPhenomeId": "PH005"
@@ -3022,23 +3575,89 @@
       "parentFM": "BRS4(FM4)",
       "parentBRS": "BRS4",
       "targetPhenome": "Recovery Capacity",
-      "relationshipType": "supports",
+      "relationshipType": "modulates",
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Repeated exercise and recovery-linked adaptation signals promote mitochondrial biogenesis and may support restoration of energetic capacity after sustained metabolic demand, although direct ADHD-specific outcome evidence remains limited.",
+      "rationale": "ADHD mitophagy and mitochondrial quality-control reviews link biogenesis/adaptation biology to long-term energetic restoration after repeated metabolic demand — diet and training provide permissive substrate context; direct ADHD biogenesis-outcome trials remain sparse.",
       "references": [
         {
           "index": 1,
-          "label": "Goodpaster & Sparks (2017)",
-          "citationKey": "goodpaster_metabolic_flexibility_2017",
-          "href": "/docs/papers/BRAIN-Diet-References#goodpaster_metabolic_flexibility_2017"
+          "label": "Almutairi et al. (2024)",
+          "citationKey": "almutairi_mitophagy_adhd_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024"
         },
         {
           "index": 2,
-          "label": "de Guia et al. (2019)",
-          "citationKey": "de_guia_nad_2019",
-          "href": "/docs/papers/BRAIN-Diet-References#de_guia_nad_2019"
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
+        }
+      ],
+      "targetPhenomeId": "PH005"
+    },
+    {
+      "sourceNode": "BRS5-FM2-PM6",
+      "sourceTitle": "Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation",
+      "sourcePath": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation",
+      "parentFM": "BRS5(FM2)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Recovery Capacity",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Microbial polyphenol biotransformation generates mitophagy-relevant metabolites bridging BRS5 to BRS4 — ADHD hub evidence for this PM is indirect via gut–brain axis review context; direct ADHD urolithin-outcome trials are not in the curated set (biology > evidence gap).",
+      "references": [
+        {
+          "index": 1,
+          "label": "Schleupner & Carmichael (2022)",
+          "citationKey": "schleupner_attention-deficithyperactivity_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#schleupner_attention-deficithyperactivity_2022"
+        }
+      ],
+      "targetPhenomeId": "PH005"
+    },
+    {
+      "sourceNode": "BRS6-FM3-PM6",
+      "sourceTitle": "Sympathetic Activation & Parasympathetic Recovery",
+      "sourcePath": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery",
+      "parentFM": "BRS6(FM3)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Recovery Capacity",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Parasympathetic recovery after sympathetic activation is the mechanism boundary for restoring autonomic balance following challenge — Lane autonomic differentiation work provides ADHD-relevant context.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Lane et al. (2010)",
+          "citationKey": "lane_sensory_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#lane_sensory_2010"
+        }
+      ],
+      "targetPhenomeId": "PH005"
+    },
+    {
+      "sourceNode": "BRS6-FM4-PM8",
+      "sourceTitle": "Metabolic Inflammation & Adipose Stress Signalling",
+      "sourcePath": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling",
+      "parentFM": "BRS6(FM4)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Recovery Capacity",
+      "relationshipType": "indirect",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Metabolic-inflammatory load allocation may constrain recovery after sustained metabolic or stress challenge — indirect translation from ADHD–metabolic disorder synthesis rather than measured recovery outcomes.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Marcelli et al. (2025)",
+          "citationKey": "marcelli_bridging_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025"
         }
       ],
       "targetPhenomeId": "PH005"
@@ -3082,13 +3701,47 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Framework translation: serotonergic pathways interact with dopaminergic reward circuits and may influence reward responsiveness and behavioural inhibition in ADHD-relevant contexts; primary citations establish serotonin–dopamine interface biology rather than direct reward-outcome measurement.",
+      "rationale": "Serotonergic pathways interact with dopaminergic reward circuits and may influence reward responsiveness and behavioural inhibition in ADHD-relevant contexts; Tang et al. (2025) and Faraone et al. (2025) establish nutritional and ADHD-focused serotonin biology rather than direct reward-outcome measurement.",
       "references": [
         {
           "index": 1,
-          "label": "Oades (2010)",
-          "citationKey": "oades_role_2010",
-          "href": "/docs/papers/BRAIN-Diet-References#oades_role_2010"
+          "label": "Tang et al. (2025)",
+          "citationKey": "tang_nutritional_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#tang_nutritional_2025"
+        },
+        {
+          "index": 2,
+          "label": "Faraone et al. (2025)",
+          "citationKey": "faraone_serotonin_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#faraone_serotonin_2025"
+        }
+      ],
+      "targetPhenomeId": "PH009"
+    },
+    {
+      "sourceNode": "BRS6-FM4-PM9",
+      "sourceTitle": "Stress-Induced Appetite / Reward Drive Modulation",
+      "sourcePath": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation",
+      "parentFM": "BRS6(FM4)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Reward Regulation",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Unhealthy dietary pattern linked to ADHD in case–control path analysis and altered cortisol patterns in ADHD youth intersect stress-driven appetite and reward regulation biology.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Wang et al. (2019)",
+          "citationKey": "wang_dietary_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#wang_dietary_2019"
+        },
+        {
+          "index": 2,
+          "label": "Chang et al. (2021)",
+          "citationKey": "chang_cortisol_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2021"
         }
       ],
       "targetPhenomeId": "PH009"
@@ -3155,6 +3808,50 @@
           "label": "Cataldo et al. (2024)",
           "citationKey": "cataldo_comprehensive_2024",
           "href": "/docs/papers/BRAIN-Diet-References#cataldo_comprehensive_2024"
+        }
+      ],
+      "targetPhenomeId": "PH008"
+    },
+    {
+      "sourceNode": "BRS6-FM2-PM5",
+      "sourceTitle": "Circadian Feeding & Light–Dark Entrainment",
+      "sourcePath": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment",
+      "parentFM": "BRS6(FM2)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Sleep / Calming Tone",
+      "relationshipType": "indirect",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "observational",
+      "rationale": "Altered morning cortisol patterns in youths with ADHD implicate circadian entrainment of HPA rhythm — indirect sleep/calming framing through feeding–light timing as modifiable entrainment levers without ADHD sleep-outcome trials in the hub set.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Chang et al. (2021)",
+          "citationKey": "chang_cortisol_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2021"
+        }
+      ],
+      "targetPhenomeId": "PH008"
+    },
+    {
+      "sourceNode": "BRS6-FM3-PM7",
+      "sourceTitle": "Vagal Tone / HRV Regulation",
+      "sourcePath": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation",
+      "parentFM": "BRS6(FM3)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Sleep / Calming Tone",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "observational",
+      "rationale": "Vagal tone intersects calming and sleep-relevant autonomic tone — indirect framing from ADHD autonomic differentiation literature without direct sleep-intervention outcomes.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Lane et al. (2010)",
+          "citationKey": "lane_sensory_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#lane_sensory_2010"
         }
       ],
       "targetPhenomeId": "PH008"
@@ -3326,6 +4023,118 @@
       "targetPhenomeId": "PH015"
     },
     {
+      "sourceNode": "BRS4-FM2-PM4",
+      "sourceTitle": "ROS Production and Control",
+      "sourcePath": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control",
+      "parentFM": "BRS4(FM2)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Stress Reactivity",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Oxidative-stress elevation in ADHD cohorts intersects stress-relevant redox tone — impaired ROS control may modulate allostatic load under repeated challenge without claiming oxidative stress causes ADHD.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Verlaet et al. (2019)",
+          "citationKey": "verlaet_oxidative_2019",
+          "href": "/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019"
+        },
+        {
+          "index": 2,
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
+        }
+      ],
+      "targetPhenomeId": "PH015"
+    },
+    {
+      "sourceNode": "BRS5-FM1-PM2",
+      "sourceTitle": "LPS / Endotoxin Containment",
+      "sourcePath": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment",
+      "parentFM": "BRS5(FM1)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Stress Reactivity",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Gut-derived endotoxin spillover may intersect stress-relevant inflammatory tone in ADHD translational framing — indirect mapping without ADHD LPS-intervention outcomes.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Jiang et al. (2018)",
+          "citationKey": "jiang_gut_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#jiang_gut_2018"
+        }
+      ],
+      "targetPhenomeId": "PH015"
+    },
+    {
+      "sourceNode": "BRS6-FM2-PM4",
+      "sourceTitle": "Cortisol Rhythm Regulation",
+      "sourcePath": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation",
+      "parentFM": "BRS6(FM2)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Stress Reactivity",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Meta-analysis reports altered basal and morning cortisol patterns in youths with ADHD; cortisol levels in children with ADHD and sensory-over-responsivity differentiation work using cortisol markers converge on HPA rhythm as a stress-reactivity node.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Chang et al. (2021)",
+          "citationKey": "chang_cortisol_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2021"
+        },
+        {
+          "index": 2,
+          "label": "Isaksson et al. (2012)",
+          "citationKey": "isaksson_cortisol_2012",
+          "href": "/docs/papers/BRAIN-Diet-References#isaksson_cortisol_2012"
+        },
+        {
+          "index": 3,
+          "label": "Lane et al. (2010)",
+          "citationKey": "lane_sensory_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#lane_sensory_2010"
+        }
+      ],
+      "targetPhenomeId": "PH015"
+    },
+    {
+      "sourceNode": "BRS6-FM3-PM6",
+      "sourceTitle": "Sympathetic Activation & Parasympathetic Recovery",
+      "sourcePath": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery",
+      "parentFM": "BRS6(FM3)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Stress Reactivity",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Sensory over-responsivity differentiated from ADHD using electrodermal responses, cortisol, and anxiety markers; cortisol and inflammatory biomarkers in ADHD youth support autonomic activation/recovery balance as a stress-reactivity node.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Lane et al. (2010)",
+          "citationKey": "lane_sensory_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#lane_sensory_2010"
+        },
+        {
+          "index": 2,
+          "label": "Chang et al. (2020)",
+          "citationKey": "chang_cortisol_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2020"
+        }
+      ],
+      "targetPhenomeId": "PH015"
+    },
+    {
       "sourceNode": "BRS-X(ECS-PM1)",
       "sourceTitle": "NAPE → NAE Biosynthesis Capacity",
       "sourcePath": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity",
@@ -3466,19 +4275,19 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Framework translation: serotonergic signalling interacts with stress-response systems, emotional processing, and HPA-axis regulation relevant to ADHD stress contexts; primary citations establish serotonin biology rather than direct stress-resilience outcome measurement on this PM.",
+      "rationale": "Serotonergic signalling interacts with stress-response systems, emotional processing, and HPA-axis regulation relevant to ADHD stress contexts; Tang et al. (2025) and Faraone et al. (2025) establish nutritional and ADHD-focused serotonin biology rather than direct stress-resilience outcome measurement on this PM.",
       "references": [
         {
           "index": 1,
-          "label": "Oades (2010)",
-          "citationKey": "oades_role_2010",
-          "href": "/docs/papers/BRAIN-Diet-References#oades_role_2010"
+          "label": "Tang et al. (2025)",
+          "citationKey": "tang_nutritional_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#tang_nutritional_2025"
         },
         {
           "index": 2,
-          "label": "Fernstrom (2013)",
-          "citationKey": "fernstrom_lnna_2013",
-          "href": "/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013"
+          "label": "Faraone et al. (2025)",
+          "citationKey": "faraone_serotonin_2025",
+          "href": "/docs/papers/BRAIN-Diet-References#faraone_serotonin_2025"
         }
       ],
       "targetPhenomeId": "PH006"
@@ -3560,6 +4369,100 @@
         }
       ],
       "targetPhenomeId": "PH006"
+    },
+    {
+      "sourceNode": "BRS4-FM2-PM5",
+      "sourceTitle": "Mitochondrial Protection (Redox Integrity)",
+      "sourcePath": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity",
+      "parentFM": "BRS4(FM2)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Stress Resilience",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Mitophagy and mitochondrial quality-control biology reviewed in ADHD contexts support redox-resilience framing when oxidative insult is recurrent — mechanism boundary is organelle integrity, not pharmacological antioxidant treatment claims.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Almutairi et al. (2024)",
+          "citationKey": "almutairi_mitophagy_adhd_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024"
+        }
+      ],
+      "targetPhenomeId": "PH006"
+    },
+    {
+      "sourceNode": "BRS5-FM3-PM7",
+      "sourceTitle": "Vagal / ENS Signalling Modulation",
+      "sourcePath": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation",
+      "parentFM": "BRS5(FM3)",
+      "parentBRS": "BRS5",
+      "targetPhenome": "Stress Resilience",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "intervention",
+      "rationale": "Open-label Bifidobacterium bifidum supplementation associated with symptom change and altered gut microbiota in children with ADHD — vagal/ENS signalling is the proposed gut–brain conduit; early-life Lactobacillus exposure adds developmental modulation context.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Wang et al. (2022)",
+          "citationKey": "wang_effect_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#wang_effect_2022"
+        },
+        {
+          "index": 2,
+          "label": "Pärtty et al. (2015)",
+          "citationKey": "partty_possible_2015",
+          "href": "/docs/papers/BRAIN-Diet-References#partty_possible_2015"
+        }
+      ],
+      "targetPhenomeId": "PH006"
+    },
+    {
+      "sourceNode": "BRS6-FM2-PM5",
+      "sourceTitle": "Circadian Feeding & Light–Dark Entrainment",
+      "sourcePath": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment",
+      "parentFM": "BRS6(FM2)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Stress Resilience",
+      "relationshipType": "indirect",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "observational",
+      "rationale": "Circadian-aligned feeding and light–dark cues may stabilise cortisol rhythm dysregulation reported in ADHD youth — indirect stress-resilience translation from HPA meta-analytic patterns.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Chang et al. (2021)",
+          "citationKey": "chang_cortisol_2021",
+          "href": "/docs/papers/BRAIN-Diet-References#chang_cortisol_2021"
+        }
+      ],
+      "targetPhenomeId": "PH006"
+    },
+    {
+      "sourceNode": "BRS6-FM3-PM7",
+      "sourceTitle": "Vagal Tone / HRV Regulation",
+      "sourcePath": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation",
+      "parentFM": "BRS6(FM3)",
+      "parentBRS": "BRS6",
+      "targetPhenome": "Stress Resilience",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "observational",
+      "rationale": "Electrodermal and autonomic markers differentiate sensory over-responsivity from ADHD — vagal tone/HRV regulation is the parasympathetic arm supporting stress-buffering capacity in neurodevelopmental autonomic profiling.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Lane et al. (2010)",
+          "citationKey": "lane_sensory_2010",
+          "href": "/docs/papers/BRAIN-Diet-References#lane_sensory_2010"
+        }
+      ],
+      "targetPhenomeId": "PH006"
     }
   ],
   "byPhenome": {
@@ -3593,13 +4496,23 @@
       "BRS3-FM2-PM5",
       "BRS3-FM2-PM6",
       "BRS3-FM3-PM7",
-      "BRS3-FM3-PM8"
+      "BRS3-FM3-PM8",
+      "BRS5-FM2-PM4",
+      "BRS5-FM2-PM6"
     ],
     "Cognitive Energy Stability": [
       "BRS-X(Hormones-PM4)",
       "BRS-X(Hormones-PM5)",
       "BRS-X(Hormones-PM6)",
-      "BRS4-FM1-PM2"
+      "BRS4-FM1-PM1",
+      "BRS4-FM1-PM2",
+      "BRS4-FM1-PM3",
+      "BRS4-FM3-PM6",
+      "BRS4-FM3-PM7",
+      "BRS4-FM3-PM8",
+      "BRS6-FM1-PM1",
+      "BRS6-FM1-PM2",
+      "BRS6-FM1-PM3"
     ],
     "Emotional Regulation": [
       "BRS-X(ECS-PM1)",
@@ -3625,14 +4538,14 @@
       "BRS3-FM2-PM5",
       "BRS3-FM2-PM6",
       "BRS3-FM3-PM7",
-      "BRS3-FM3-PM8"
-    ],
-    "Energy Stability Under Variable Conditions": [
-      "BRS4-FM3-PM8"
+      "BRS3-FM3-PM8",
+      "BRS5-FM1-PM1",
+      "BRS5-FM2-PM5",
+      "BRS5-FM3-PM7",
+      "BRS6-FM2-PM4"
     ],
     "Energy Stability Under Variable Fuel Conditions": [
-      "BRS4-FM3-PM6",
-      "BRS4-FM3-PM7"
+      "BRS4-FM3-PM8"
     ],
     "Focus / Attention Stability": [
       "BRS-X(Hormones-PM1)",
@@ -3653,19 +4566,27 @@
       "BRS3-FM2-PM4",
       "BRS3-FM2-PM5",
       "BRS3-FM3-PM7",
-      "BRS3-FM3-PM8"
+      "BRS3-FM3-PM8",
+      "BRS4-FM1-PM1",
+      "BRS4-FM3-PM6",
+      "BRS5-FM1-PM1",
+      "BRS5-FM1-PM2",
+      "BRS5-FM1-PM3",
+      "BRS5-FM2-PM4",
+      "BRS5-FM2-PM5",
+      "BRS5-FM3-PM8",
+      "BRS6-FM1-PM1",
+      "BRS6-FM1-PM2"
     ],
     "Hormonal Volatility": [
       "BRS-X(Hormones-PM2)",
       "BRS-X(Hormones-PM4)"
     ],
     "Metabolic Resilience": [
-      "BRS4-FM2-PM4",
-      "BRS4-FM2-PM5",
-      "BRS4-FM3-PM6",
       "BRS4-FM3-PM7",
-      "BRS4-FM3-PM8",
-      "BRS4-FM4-PM9"
+      "BRS4-FM4-PM9",
+      "BRS6-FM1-PM3",
+      "BRS6-FM4-PM8"
     ],
     "Motivation / Drive": [
       "BRS-X(ECS-PM1)",
@@ -3674,7 +4595,10 @@
       "BRS-X(Hormones-PM6)",
       "BRS1-FM1-PM1",
       "BRS1-FM1-PM2",
-      "BRS1-FM1-PM3"
+      "BRS1-FM1-PM3",
+      "BRS5-FM1-PM3",
+      "BRS5-FM3-PM8",
+      "BRS6-FM4-PM9"
     ],
     "Pleasure & Interest Capacity": [
       "BRS1-FM1-PM3",
@@ -3689,19 +4613,25 @@
       "BRS2-FM2-PM5",
       "BRS2-FM2-PM6",
       "BRS4-FM1-PM2",
+      "BRS4-FM1-PM3",
       "BRS4-FM2-PM4",
       "BRS4-FM2-PM5",
-      "BRS4-FM3-PM8",
-      "BRS4-FM4-PM9"
+      "BRS4-FM4-PM9",
+      "BRS5-FM2-PM6",
+      "BRS6-FM3-PM6",
+      "BRS6-FM4-PM8"
     ],
     "Reward Regulation": [
       "BRS-X(ECS-PM4)",
-      "BRS1-FM1-PM4"
+      "BRS1-FM1-PM4",
+      "BRS6-FM4-PM9"
     ],
     "Sleep / Calming Tone": [
       "BRS-X(Hormones-PM3)",
       "BRS1-FM1-PM4",
-      "BRS1-FM4-PM8"
+      "BRS1-FM4-PM8",
+      "BRS6-FM2-PM5",
+      "BRS6-FM3-PM7"
     ],
     "Social Engagement Capacity": [
       "BRS1-FM1-PM4",
@@ -3712,7 +4642,11 @@
       "BRS-X(Hormones-PM3)",
       "BRS1-FM4-PM10",
       "BRS1-FM4-PM7",
-      "BRS2-FM2-PM5"
+      "BRS2-FM2-PM5",
+      "BRS4-FM2-PM4",
+      "BRS5-FM1-PM2",
+      "BRS6-FM2-PM4",
+      "BRS6-FM3-PM6"
     ],
     "Stress Resilience": [
       "BRS-X(ECS-PM1)",
@@ -3722,7 +4656,11 @@
       "BRS1-FM1-PM4",
       "BRS2-FM2-PM6",
       "BRS3-FM2-PM3",
-      "BRS3-FM2-PM6"
+      "BRS3-FM2-PM6",
+      "BRS4-FM2-PM5",
+      "BRS5-FM3-PM7",
+      "BRS6-FM2-PM5",
+      "BRS6-FM3-PM7"
     ]
   },
   "byPhenomeId": {
@@ -3756,13 +4694,23 @@
       "BRS3-FM2-PM5",
       "BRS3-FM2-PM6",
       "BRS3-FM3-PM7",
-      "BRS3-FM3-PM8"
+      "BRS3-FM3-PM8",
+      "BRS5-FM2-PM4",
+      "BRS5-FM2-PM6"
     ],
     "PH004": [
       "BRS-X(Hormones-PM4)",
       "BRS-X(Hormones-PM5)",
       "BRS-X(Hormones-PM6)",
-      "BRS4-FM1-PM2"
+      "BRS4-FM1-PM1",
+      "BRS4-FM1-PM2",
+      "BRS4-FM1-PM3",
+      "BRS4-FM3-PM6",
+      "BRS4-FM3-PM7",
+      "BRS4-FM3-PM8",
+      "BRS6-FM1-PM1",
+      "BRS6-FM1-PM2",
+      "BRS6-FM1-PM3"
     ],
     "PH003": [
       "BRS-X(ECS-PM1)",
@@ -3788,14 +4736,14 @@
       "BRS3-FM2-PM5",
       "BRS3-FM2-PM6",
       "BRS3-FM3-PM7",
-      "BRS3-FM3-PM8"
-    ],
-    "PH012": [
-      "BRS4-FM3-PM8"
+      "BRS3-FM3-PM8",
+      "BRS5-FM1-PM1",
+      "BRS5-FM2-PM5",
+      "BRS5-FM3-PM7",
+      "BRS6-FM2-PM4"
     ],
     "PH013": [
-      "BRS4-FM3-PM6",
-      "BRS4-FM3-PM7"
+      "BRS4-FM3-PM8"
     ],
     "PH001": [
       "BRS-X(Hormones-PM1)",
@@ -3816,19 +4764,27 @@
       "BRS3-FM2-PM4",
       "BRS3-FM2-PM5",
       "BRS3-FM3-PM7",
-      "BRS3-FM3-PM8"
+      "BRS3-FM3-PM8",
+      "BRS4-FM1-PM1",
+      "BRS4-FM3-PM6",
+      "BRS5-FM1-PM1",
+      "BRS5-FM1-PM2",
+      "BRS5-FM1-PM3",
+      "BRS5-FM2-PM4",
+      "BRS5-FM2-PM5",
+      "BRS5-FM3-PM8",
+      "BRS6-FM1-PM1",
+      "BRS6-FM1-PM2"
     ],
     "PH014": [
       "BRS-X(Hormones-PM2)",
       "BRS-X(Hormones-PM4)"
     ],
     "PH007": [
-      "BRS4-FM2-PM4",
-      "BRS4-FM2-PM5",
-      "BRS4-FM3-PM6",
       "BRS4-FM3-PM7",
-      "BRS4-FM3-PM8",
-      "BRS4-FM4-PM9"
+      "BRS4-FM4-PM9",
+      "BRS6-FM1-PM3",
+      "BRS6-FM4-PM8"
     ],
     "PH002": [
       "BRS-X(ECS-PM1)",
@@ -3837,7 +4793,10 @@
       "BRS-X(Hormones-PM6)",
       "BRS1-FM1-PM1",
       "BRS1-FM1-PM2",
-      "BRS1-FM1-PM3"
+      "BRS1-FM1-PM3",
+      "BRS5-FM1-PM3",
+      "BRS5-FM3-PM8",
+      "BRS6-FM4-PM9"
     ],
     "PH017": [
       "BRS1-FM1-PM3",
@@ -3852,19 +4811,25 @@
       "BRS2-FM2-PM5",
       "BRS2-FM2-PM6",
       "BRS4-FM1-PM2",
+      "BRS4-FM1-PM3",
       "BRS4-FM2-PM4",
       "BRS4-FM2-PM5",
-      "BRS4-FM3-PM8",
-      "BRS4-FM4-PM9"
+      "BRS4-FM4-PM9",
+      "BRS5-FM2-PM6",
+      "BRS6-FM3-PM6",
+      "BRS6-FM4-PM8"
     ],
     "PH009": [
       "BRS-X(ECS-PM4)",
-      "BRS1-FM1-PM4"
+      "BRS1-FM1-PM4",
+      "BRS6-FM4-PM9"
     ],
     "PH008": [
       "BRS-X(Hormones-PM3)",
       "BRS1-FM1-PM4",
-      "BRS1-FM4-PM8"
+      "BRS1-FM4-PM8",
+      "BRS6-FM2-PM5",
+      "BRS6-FM3-PM7"
     ],
     "PH018": [
       "BRS1-FM1-PM4",
@@ -3875,7 +4840,11 @@
       "BRS-X(Hormones-PM3)",
       "BRS1-FM4-PM10",
       "BRS1-FM4-PM7",
-      "BRS2-FM2-PM5"
+      "BRS2-FM2-PM5",
+      "BRS4-FM2-PM4",
+      "BRS5-FM1-PM2",
+      "BRS6-FM2-PM4",
+      "BRS6-FM3-PM6"
     ],
     "PH006": [
       "BRS-X(ECS-PM1)",
@@ -3885,7 +4854,11 @@
       "BRS1-FM1-PM4",
       "BRS2-FM2-PM6",
       "BRS3-FM2-PM3",
-      "BRS3-FM2-PM6"
+      "BRS3-FM2-PM6",
+      "BRS4-FM2-PM5",
+      "BRS5-FM3-PM7",
+      "BRS6-FM2-PM5",
+      "BRS6-FM3-PM7"
     ]
   },
   "fmRollups": {
@@ -4042,7 +5015,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low",
-        "evidence_summary": "Framework translation: serotonergic pathways interact with dopaminergic reward circuits and may influence reward responsiveness and behavioural inhibition in ADHD-relevant contexts; primary citations establish serotonin–dopamine interface biology rather than direct reward-outcome measurement.",
+        "evidence_summary": "Serotonergic pathways interact with dopaminergic reward circuits and may influence reward responsiveness and behavioural inhibition in ADHD-relevant contexts; Tang et al. (2025) and Faraone et al. (2025) establish nutritional and ADHD-focused serotonin biology rather than direct reward-outcome measurement.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM4",
@@ -4096,7 +5069,7 @@
         "strongest_relationship_type": "supports",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Framework translation: serotonergic signalling interacts with stress-response systems, emotional processing, and HPA-axis regulation relevant to ADHD stress contexts; primary citations establish serotonin biology rather than direct stress-resilience outcome measurement on this PM.",
+        "evidence_summary": "Serotonergic signalling interacts with stress-response systems, emotional processing, and HPA-axis regulation relevant to ADHD stress contexts; Tang et al. (2025) and Faraone et al. (2025) establish nutritional and ADHD-focused serotonin biology rather than direct stress-resilience outcome measurement on this PM.",
         "contributing_pms": [
           {
             "id": "BRS1-FM1-PM4",
@@ -5329,120 +6302,74 @@
         ]
       }
     ],
-    "BRS4(FM1)": [
+    "BRS5(FM2)": [
       {
-        "target_phenome": "Cognitive Energy Stability",
-        "connected_pm_count": 1,
-        "strongest_relationship_type": "modulates",
-        "highest_evidence_level": "intervention",
-        "overall_confidence": "low-medium",
-        "evidence_summary": "NAD⁺ availability underpins mitochondrial redox reactions and ATP-linked energy metabolism; human intervention evidence shows systemic NAD⁺ repletion can improve performance in deficiency, and micronutrient sufficiency has been associated with fatigue and cognitive function, though direct brain NAD⁺ outcome evidence remains limited.",
-        "contributing_pms": [
-          {
-            "id": "BRS4-FM1-PM2",
-            "name": "NAD⁺ Metabolism",
-            "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism",
-            "relationship_type": "modulates",
-            "confidence": "low-medium",
-            "evidence_level": "intervention"
-          }
-        ]
-      },
-      {
-        "target_phenome": "Recovery Capacity",
-        "connected_pm_count": 1,
-        "strongest_relationship_type": "modulates",
-        "highest_evidence_level": "mechanistic",
-        "overall_confidence": "low-medium",
-        "evidence_summary": "NAD⁺ salvage capacity in skeletal muscle responds to regular aerobic and resistance training and declines with age; maintaining NAD⁺ turnover may support recovery from sustained metabolic demand, though direct ADHD-specific evidence remains limited.",
-        "contributing_pms": [
-          {
-            "id": "BRS4-FM1-PM2",
-            "name": "NAD⁺ Metabolism",
-            "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism",
-            "relationship_type": "modulates",
-            "confidence": "low-medium",
-            "evidence_level": "mechanistic"
-          }
-        ]
-      }
-    ],
-    "BRS4(FM3)": [
-      {
-        "target_phenome": "Energy Stability Under Variable Conditions",
-        "connected_pm_count": 1,
-        "strongest_relationship_type": "supports",
-        "highest_evidence_level": "mechanistic",
-        "overall_confidence": "low-medium",
-        "evidence_summary": "The ability to transition efficiently between available energy substrates may support maintenance of ATP production during changing nutritional and physiological conditions.",
-        "contributing_pms": [
-          {
-            "id": "BRS4-FM3-PM8",
-            "name": "Metabolic Fuel Switching",
-            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
-            "relationship_type": "supports",
-            "confidence": "low-medium",
-            "evidence_level": "mechanistic"
-          }
-        ]
-      },
-      {
-        "target_phenome": "Energy Stability Under Variable Fuel Conditions",
+        "target_phenome": "Cognitive Clarity",
         "connected_pm_count": 2,
-        "strongest_relationship_type": "modulates",
-        "highest_evidence_level": "intervention",
-        "overall_confidence": "medium",
-        "evidence_summary": "Carnitine-dependent transport of long-chain fatty acids into mitochondria enables β-oxidation when metabolic context shifts away from glucose dominance; human intervention evidence in ADHD suggests carnitine supplementation may improve behavioural and functional outcomes in deficiency contexts, though direct brain fuel-switching outcome evidence remains limited. The ability to utilise ketone bodies may help support ATP production during periods of reduced glucose availability or altered metabolic demand, including brain energy metabolism when glucose supply shifts.",
-        "contributing_pms": [
-          {
-            "id": "BRS4-FM3-PM6",
-            "name": "Carnitine-Mediated Fat Transport",
-            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
-            "relationship_type": "modulates",
-            "confidence": "low-medium",
-            "evidence_level": "intervention"
-          },
-          {
-            "id": "BRS4-FM3-PM7",
-            "name": "Ketone Utilisation Capacity",
-            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
-            "relationship_type": "modulates",
-            "confidence": "low-medium",
-            "evidence_level": "mechanistic"
-          }
-        ]
-      },
-      {
-        "target_phenome": "Metabolic Resilience",
-        "connected_pm_count": 3,
-        "strongest_relationship_type": "supports",
+        "strongest_relationship_type": "indirect",
         "highest_evidence_level": "mechanistic",
-        "overall_confidence": "medium",
-        "evidence_summary": "Fuel-switching capacity expands the range of conditions under which cellular energy production can be maintained, contributing to broader metabolic adaptability. Effective carnitine-mediated fat transport expands the range of substrates mitochondria can oxidise, contributing to broader metabolic adaptability across varying nutritional and physiological conditions when cofactor and substrate context are sufficient. Ketone utilisation expands the range of substrates available for energy production and contributes to broader metabolic adaptability across varying nutritional and physiological conditions.",
+        "overall_confidence": "low",
+        "evidence_summary": "ADHD-focused gut–brain axis review literature synthesises microbiome ecology research gaps — indirect cognitive-clarity framing through microbial community resilience rather than measured clarity outcomes. Gut-derived polyphenol metabolites may influence mitochondrial and inflammatory resilience with downstream cognitive implications — framework translation from ADHD gut–brain research gaps rather than direct clarity-outcome measurement.",
         "contributing_pms": [
           {
-            "id": "BRS4-FM3-PM8",
-            "name": "Metabolic Fuel Switching",
-            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
-            "relationship_type": "supports",
-            "confidence": "low-medium",
-            "evidence_level": "mechanistic"
-          },
-          {
-            "id": "BRS4-FM3-PM6",
-            "name": "Carnitine-Mediated Fat Transport",
-            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
-            "relationship_type": "supports",
-            "confidence": "low-medium",
-            "evidence_level": "mechanistic"
-          },
-          {
-            "id": "BRS4-FM3-PM7",
-            "name": "Ketone Utilisation Capacity",
-            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
-            "relationship_type": "supports",
+            "id": "BRS5-FM2-PM4",
+            "name": "Microbial Ecological Turnover & Competitive Selection",
+            "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
+            "relationship_type": "indirect",
             "confidence": "low",
             "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS5-FM2-PM6",
+            "name": "Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation",
+            "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Emotional Regulation",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low",
+        "evidence_summary": "SCFA gut–brain signalling may intersect affective regulation through vagal and immune pathways — indirect translational framing from ADHD SCFA deficit observation without emotional-outcome intervention trials.",
+        "contributing_pms": [
+          {
+            "id": "BRS5-FM2-PM5",
+            "name": "SCFA Production & Signalling",
+            "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "connected_pm_count": 2,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "medium",
+        "evidence_summary": "Reduced microbial alpha diversity in paediatric ADHD and lower faecal SCFA levels versus controls support ecological turnover and competitive selection as modifiable gut-community processes intersecting attention-relevant microbiome structure. ADHD cohorts showed lower faecal SCFA levels including acetic, propionic, isobutyric, isovaleric, and valeric acids versus controls — positioning microbial SCFA production and signalling as a direct observational anchor for attention-relevant gut metabolite biology.",
+        "contributing_pms": [
+          {
+            "id": "BRS5-FM2-PM4",
+            "name": "Microbial Ecological Turnover & Competitive Selection",
+            "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS5-FM2-PM5",
+            "name": "SCFA Production & Signalling",
+            "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
           }
         ]
       },
@@ -5452,7 +6379,141 @@
         "strongest_relationship_type": "indirect",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low",
-        "evidence_summary": "The ability to adapt fuel selection may contribute to recovery from periods of increased metabolic demand, although direct outcome evidence remains limited.",
+        "evidence_summary": "Microbial polyphenol biotransformation generates mitophagy-relevant metabolites bridging BRS5 to BRS4 — ADHD hub evidence for this PM is indirect via gut–brain axis review context; direct ADHD urolithin-outcome trials are not in the curated set (biology > evidence gap).",
+        "contributing_pms": [
+          {
+            "id": "BRS5-FM2-PM6",
+            "name": "Polyphenol Biotransformation & Mitochondrial-Relevant Metabolite Generation",
+            "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS4(FM1)": [
+      {
+        "target_phenome": "Cognitive Energy Stability",
+        "connected_pm_count": 3,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "medium",
+        "evidence_summary": "Reduced cellular and mitochondrial respiration in ADHD cybrids supports impaired ATP-generating capacity under fluctuating cognitive demand — this PM governs ETC flux only, not substrate routing (PM6–PM8) or redox protection (FM2). NAD⁺-linked redox carrier availability couples to mitochondrial respiration deficits reported in ADHD cybrids and narrative reviews of ADHD mitochondrial biomarker literature — mechanism boundary is redox-carrier turnover supporting ETC coupling, not dietary NAD⁺ supplementation efficacy. ADHD cybrid respiration deficits and hub reviews of mitochondrial dysfunction imply high-demand tissues may rely on phosphocreatine buffering when oxidative phosphorylation is strained — direct ADHD creatine-outcome trials are not in the hub evidence set (biology > evidence gap).",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM1-PM1",
+            "name": "Electron Transport Chain Function",
+            "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS4-FM1-PM2",
+            "name": "NAD⁺ Metabolism",
+            "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS4-FM1-PM3",
+            "name": "Creatine / Phosphocreatine Buffer",
+            "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "ADHD cybrid models show reduced mitochondrial respiration, lower complex V activity, and membrane-potential loss in platelet-derived cells — positioning electron-transport throughput as a biological node intersecting attention-relevant bioenergetic strain rather than a single-complex pharmacology claim.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM1-PM1",
+            "name": "Electron Transport Chain Function",
+            "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Recovery Capacity",
+        "connected_pm_count": 2,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low",
+        "evidence_summary": "NAD⁺ salvage and turnover intersect mitochondrial resilience framing in ADHD mitochondrial reviews — an indirect framework translation through redox-carrier restoration capacity rather than measured ADHD recovery outcomes. Rapid ATP buffering may support restoration after acute cognitive energy draw when mitochondrial output is compromised — indirect translational framing from ADHD bioenergetic strain literature without ADHD phosphocreatine intervention outcomes.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM1-PM2",
+            "name": "NAD⁺ Metabolism",
+            "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS4-FM1-PM3",
+            "name": "Creatine / Phosphocreatine Buffer",
+            "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS4(FM3)": [
+      {
+        "target_phenome": "Cognitive Energy Stability",
+        "connected_pm_count": 3,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "intervention",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Carnitine-dependent fat oxidation supports mitochondrial substrate delivery for ATP production — trial evidence in ADHD children links this transport node to functional improvement alongside behavioural endpoints. ADHD mitochondrial dysfunction reviews describe substrate-flexibility strain when oxidative phosphorylation is impaired — ketone utilisation is an indirect alternative-fuel pathway node without ADHD ketone-intervention outcomes in the hub set. Narrative synthesis of ADHD mitochondrial biomarker and oxidative-stress literature supports fuel-switching flexibility as a modifiable bioenergetic context when respiration is compromised — direct ADHD fuel-switching outcome trials remain limited.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM3-PM6",
+            "name": "Carnitine-Mediated Fat Transport",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "intervention"
+          },
+          {
+            "id": "BRS4-FM3-PM7",
+            "name": "Ketone Utilisation Capacity",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS4-FM3-PM8",
+            "name": "Metabolic Fuel Switching",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
+            "relationship_type": "indirect",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Energy Stability Under Variable Fuel Conditions",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low",
+        "evidence_summary": "Metabolic fuel switching governs steadiness of ATP supply across changing macronutrient availability — indirect phenome mapping from ADHD mitochondrial dysfunction framing without measured variable-fuel outcome studies.",
         "contributing_pms": [
           {
             "id": "BRS4-FM3-PM8",
@@ -5463,58 +6524,358 @@
             "evidence_level": "mechanistic"
           }
         ]
-      }
-    ],
-    "BRS4(FM2)": [
+      },
       {
-        "target_phenome": "Metabolic Resilience",
-        "connected_pm_count": 2,
-        "strongest_relationship_type": "supports",
-        "highest_evidence_level": "mechanistic",
+        "target_phenome": "Focus / Attention Stability",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "intervention",
         "overall_confidence": "medium",
-        "evidence_summary": "Balanced mitochondrial ROS generation and buffering may help preserve organelle function under oxidative pressure, contributing to broader metabolic stability, although direct ADHD-specific outcome evidence remains limited. Protection of mitochondrial membranes and redox systems may preserve energetic throughput under oxidative load and support broader metabolic adaptability, although direct ADHD-specific outcome evidence remains limited.",
+        "evidence_summary": "Controlled carnitine supplementation improved behavioural and functional outcomes in children with ADHD — the strongest direct ADHD intervention anchor in BRS4, mapping fatty-acid transport into mitochondria to attention-relevant outcomes without generalising beyond trial context.",
         "contributing_pms": [
           {
-            "id": "BRS4-FM2-PM4",
-            "name": "ROS Production and Control",
-            "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control",
+            "id": "BRS4-FM3-PM6",
+            "name": "Carnitine-Mediated Fat Transport",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport",
             "relationship_type": "modulates",
-            "confidence": "low-medium",
-            "evidence_level": "mechanistic"
-          },
-          {
-            "id": "BRS4-FM2-PM5",
-            "name": "Mitochondrial Protection (Redox Integrity)",
-            "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity",
-            "relationship_type": "supports",
-            "confidence": "low-medium",
-            "evidence_level": "mechanistic"
+            "confidence": "medium",
+            "evidence_level": "intervention"
           }
         ]
       },
       {
-        "target_phenome": "Recovery Capacity",
-        "connected_pm_count": 2,
-        "strongest_relationship_type": "modulates",
+        "target_phenome": "Metabolic Resilience",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
         "highest_evidence_level": "mechanistic",
-        "overall_confidence": "low-medium",
-        "evidence_summary": "Lower mitochondrial oxidative burden may reduce cumulative damage to respiratory machinery and support restoration after sustained metabolic demand, though direct outcome evidence remains limited. Membrane and enzyme protection may help mitochondria recover functional integrity after oxidative stress episodes, though direct outcome evidence at the phenome level remains limited.",
+        "overall_confidence": "low",
+        "evidence_summary": "Capacity to oxidise ketone bodies may contribute to metabolic adaptability when glucose/fat routing is constrained — framework translation from ADHD bioenergetic reviews rather than direct resilience-outcome measurement.",
         "contributing_pms": [
           {
-            "id": "BRS4-FM2-PM4",
-            "name": "ROS Production and Control",
-            "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control",
+            "id": "BRS4-FM3-PM7",
+            "name": "Ketone Utilisation Capacity",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
             "relationship_type": "indirect",
             "confidence": "low",
             "evidence_level": "mechanistic"
-          },
+          }
+        ]
+      }
+    ],
+    "BRS6(FM1)": [
+      {
+        "target_phenome": "Cognitive Energy Stability",
+        "connected_pm_count": 3,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "medium",
+        "evidence_summary": "PET evidence of altered cerebral glucose metabolism in adults with hyperactivity of childhood onset and unhealthy dietary pattern associations with ADHD in case–control path analysis converge on meal-level glucose appearance kinetics as a cognitive-energy node. Altered cerebral glucose metabolism in ADHD and metabolic syndrome/insulin-resistance overlap in adult ADHD outpatients support glycaemic variability as a modifiable context for steadier cognitive fuel supply. Insulin resistance and ADHD metabolic overlap reviewed in narrative synthesis support efficient glucose disposal as a contributor to cognitive fuel stability — mechanism boundary is peripheral/metabolic insulin action, not CNS glucose transport pharmacology.",
+        "contributing_pms": [
           {
-            "id": "BRS4-FM2-PM5",
-            "name": "Mitochondrial Protection (Redox Integrity)",
-            "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity",
+            "id": "BRS6-FM1-PM1",
+            "name": "Glucose Appearance Kinetics",
+            "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
             "relationship_type": "modulates",
             "confidence": "low-medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS6-FM1-PM2",
+            "name": "Glycaemic Variability Regulation",
+            "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS6-FM1-PM3",
+            "name": "Insulin Sensitivity & Glucose Disposal",
+            "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "connected_pm_count": 2,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "medium",
+        "evidence_summary": "Dietary pattern linked to ADHD burden implicates postprandial glucose dynamics intersecting prefrontal and striatal fuel supply relevant to attention biology — this PM governs glucose appearance rate, not insulin disposal (PM3) or variability amplitude (PM2). Prefrontal glucose utilisation patterns in ADHD and metabolic comorbidity prevalence link glycaemic fluctuation control to attention-relevant cognitive energy availability.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM1-PM1",
+            "name": "Glucose Appearance Kinetics",
+            "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS6-FM1-PM2",
+            "name": "Glycaemic Variability Regulation",
+            "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Metabolic Resilience",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Prevalence of metabolic syndrome and insulin resistance in adult ADHD outpatients positions insulin sensitivity and glucose disposal as metabolic-resilience nodes intersecting ADHD metabolic comorbidity.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM1-PM3",
+            "name": "Insulin Sensitivity & Glucose Disposal",
+            "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      }
+    ],
+    "BRS5(FM1)": [
+      {
+        "target_phenome": "Emotional Regulation",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low",
+        "evidence_summary": "Gut-barrier compromise may modulate gut–brain signalling tone intersecting affective regulation in neurodevelopmental contexts — indirect framing from ADHD microbiota compositional work without direct emotional-outcome trials on barrier biology.",
+        "contributing_pms": [
+          {
+            "id": "BRS5-FM1-PM1",
+            "name": "Gut Barrier / Tight Junction Integrity",
+            "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "connected_pm_count": 3,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "medium",
+        "evidence_summary": "Compositional gut microbiota differences in treatment-naïve children with ADHD — including beneficial taxa guild shifts — intersect gut-barrier integrity as a upstream determinant of gut–brain immune signalling relevant to attention biology. ADHD gut microbiota compositional differences implicate altered gut–immune interface function — LPS/endotoxin containment is the mechanism boundary for limiting gut-derived inflammatory load reaching systemic circulation, not cytokine phenotypes (BRS3). Reduced microbial alpha diversity in paediatric ADHD, compositional shifts in treatment-naïve cohorts, and open-label Bifidobacterium supplementation with symptom change converge on ecological keystone support as attention-relevant gut–brain context.",
+        "contributing_pms": [
+          {
+            "id": "BRS5-FM1-PM1",
+            "name": "Gut Barrier / Tight Junction Integrity",
+            "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS5-FM1-PM2",
+            "name": "LPS / Endotoxin Containment",
+            "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS5-FM1-PM3",
+            "name": "Keystone Taxa Support",
+            "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Motivation / Drive",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Gut microbiome composition linked to neural reward anticipation in ADHD positions keystone taxa support as a biological node intersecting motivation-relevant gut–brain signalling — not a direct reward-intervention claim.",
+        "contributing_pms": [
+          {
+            "id": "BRS5-FM1-PM3",
+            "name": "Keystone Taxa Support",
+            "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Stress Reactivity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low",
+        "evidence_summary": "Gut-derived endotoxin spillover may intersect stress-relevant inflammatory tone in ADHD translational framing — indirect mapping without ADHD LPS-intervention outcomes.",
+        "contributing_pms": [
+          {
+            "id": "BRS5-FM1-PM2",
+            "name": "LPS / Endotoxin Containment",
+            "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment",
+            "relationship_type": "indirect",
+            "confidence": "low",
             "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS5(FM3)": [
+      {
+        "target_phenome": "Emotional Regulation",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "intervention",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Probiotic-associated symptom change in ADHD children and hypothesis-generating early-life microbial modulation windows support gut–vagal pathways intersecting affective regulation biology without definitive prevention claims.",
+        "contributing_pms": [
+          {
+            "id": "BRS5-FM3-PM7",
+            "name": "Vagal / ENS Signalling Modulation",
+            "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "intervention"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Focus / Attention Stability",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "ADHD microbiota compositional differences and lower SCFA levels imply altered microbial biotransformation of dietary precursors relevant to gut–brain neurotransmitter availability — mechanism boundary is microbial precursor processing, not BRS1 monoamine synthesis.",
+        "contributing_pms": [
+          {
+            "id": "BRS5-FM3-PM8",
+            "name": "Neurotransmitter Precursor Biotransformation & Availability",
+            "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Motivation / Drive",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low",
+        "evidence_summary": "Microbial metabolite handling intersects reward-anticipation biology linked to gut composition in ADHD — indirect motivation framing through precursor/metabolite availability rather than direct drive-outcome trials.",
+        "contributing_pms": [
+          {
+            "id": "BRS5-FM3-PM8",
+            "name": "Neurotransmitter Precursor Biotransformation & Availability",
+            "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Stress Resilience",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "intervention",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Open-label Bifidobacterium bifidum supplementation associated with symptom change and altered gut microbiota in children with ADHD — vagal/ENS signalling is the proposed gut–brain conduit; early-life Lactobacillus exposure adds developmental modulation context.",
+        "contributing_pms": [
+          {
+            "id": "BRS5-FM3-PM7",
+            "name": "Vagal / ENS Signalling Modulation",
+            "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "intervention"
+          }
+        ]
+      }
+    ],
+    "BRS6(FM2)": [
+      {
+        "target_phenome": "Emotional Regulation",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Cortisol, inflammatory biomarkers, and neurotrophins measured in children and adolescents with ADHD intersect affective regulation biology through HPA-axis tone — this PM governs cortisol rhythm, not autonomic recovery (FM3).",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM2-PM4",
+            "name": "Cortisol Rhythm Regulation",
+            "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Sleep / Calming Tone",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Altered morning cortisol patterns in youths with ADHD implicate circadian entrainment of HPA rhythm — indirect sleep/calming framing through feeding–light timing as modifiable entrainment levers without ADHD sleep-outcome trials in the hub set.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM2-PM5",
+            "name": "Circadian Feeding & Light–Dark Entrainment",
+            "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment",
+            "relationship_type": "indirect",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Stress Reactivity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Meta-analysis reports altered basal and morning cortisol patterns in youths with ADHD; cortisol levels in children with ADHD and sensory-over-responsivity differentiation work using cortisol markers converge on HPA rhythm as a stress-reactivity node.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM2-PM4",
+            "name": "Cortisol Rhythm Regulation",
+            "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Stress Resilience",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Circadian-aligned feeding and light–dark cues may stabilise cortisol rhythm dysregulation reported in ADHD youth — indirect stress-resilience translation from HPA meta-analytic patterns.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM2-PM5",
+            "name": "Circadian Feeding & Light–Dark Entrainment",
+            "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment",
+            "relationship_type": "indirect",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
           }
         ]
       }
@@ -5523,16 +6884,16 @@
       {
         "target_phenome": "Metabolic Resilience",
         "connected_pm_count": 1,
-        "strongest_relationship_type": "supports",
+        "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Greater mitochondrial density expands long-term energetic capacity and may contribute to broader metabolic adaptability across changing physiological demand.",
+        "evidence_summary": "Expanded mitochondrial density and adaptive remodelling may support metabolic resilience when baseline ADHD mitochondrial function is strained — synthesised from ADHD-specific mitochondrial biomarker and mitophagy literature.",
         "contributing_pms": [
           {
             "id": "BRS4-FM4-PM9",
             "name": "Mitochondrial Biogenesis",
             "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis",
-            "relationship_type": "supports",
+            "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
           }
@@ -5541,18 +6902,92 @@
       {
         "target_phenome": "Recovery Capacity",
         "connected_pm_count": 1,
-        "strongest_relationship_type": "supports",
+        "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Repeated exercise and recovery-linked adaptation signals promote mitochondrial biogenesis and may support restoration of energetic capacity after sustained metabolic demand, although direct ADHD-specific outcome evidence remains limited.",
+        "evidence_summary": "ADHD mitophagy and mitochondrial quality-control reviews link biogenesis/adaptation biology to long-term energetic restoration after repeated metabolic demand — diet and training provide permissive substrate context; direct ADHD biogenesis-outcome trials remain sparse.",
         "contributing_pms": [
           {
             "id": "BRS4-FM4-PM9",
             "name": "Mitochondrial Biogenesis",
             "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis",
-            "relationship_type": "supports",
+            "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS6(FM4)": [
+      {
+        "target_phenome": "Metabolic Resilience",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Metabolic syndrome and insulin resistance in adult ADHD outpatients and narrative review bridging ADHD with metabolic disorders position adipose-stress and metabolic-inflammation signalling as resilience-relevant nodes.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM4-PM8",
+            "name": "Metabolic Inflammation & Adipose Stress Signalling",
+            "href": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Motivation / Drive",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Dietary pattern associations with ADHD burden and HPA dysregulation support stress-modulated reward/motivation pathways — mechanism boundary is appetite–reward drive under stress, not BRS1 catecholamine synthesis.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM4-PM9",
+            "name": "Stress-Induced Appetite / Reward Drive Modulation",
+            "href": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Recovery Capacity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Metabolic-inflammatory load allocation may constrain recovery after sustained metabolic or stress challenge — indirect translation from ADHD–metabolic disorder synthesis rather than measured recovery outcomes.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM4-PM8",
+            "name": "Metabolic Inflammation & Adipose Stress Signalling",
+            "href": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling",
+            "relationship_type": "indirect",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Reward Regulation",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Unhealthy dietary pattern linked to ADHD in case–control path analysis and altered cortisol patterns in ADHD youth intersect stress-driven appetite and reward regulation biology.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM4-PM9",
+            "name": "Stress-Induced Appetite / Reward Drive Modulation",
+            "href": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
           }
         ]
       }
@@ -5617,6 +7052,144 @@
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS4(FM2)": [
+      {
+        "target_phenome": "Recovery Capacity",
+        "connected_pm_count": 2,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "medium",
+        "evidence_summary": "Elevated glutathione and oxidative-stress markers in paediatric ADHD case–control work link mitochondrial ROS handling to redox recovery context; GSH is required for mitochondrial lactate metabolism and ROS neutralisation — this PM governs ROS production/control balance, not GSH synthesis (BRS2/BRS3). Integrated mitochondrial membrane protection and redox integrity preserve energetic output when oxidative stress is elevated in paediatric ADHD — convergent with Verlaet glutathione/oxidative-stress findings and ADHD mitophagy reviews.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM2-PM4",
+            "name": "ROS Production and Control",
+            "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          },
+          {
+            "id": "BRS4-FM2-PM5",
+            "name": "Mitochondrial Protection (Redox Integrity)",
+            "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Stress Reactivity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Oxidative-stress elevation in ADHD cohorts intersects stress-relevant redox tone — impaired ROS control may modulate allostatic load under repeated challenge without claiming oxidative stress causes ADHD.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM2-PM4",
+            "name": "ROS Production and Control",
+            "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Stress Resilience",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Mitophagy and mitochondrial quality-control biology reviewed in ADHD contexts support redox-resilience framing when oxidative insult is recurrent — mechanism boundary is organelle integrity, not pharmacological antioxidant treatment claims.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM2-PM5",
+            "name": "Mitochondrial Protection (Redox Integrity)",
+            "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS6(FM3)": [
+      {
+        "target_phenome": "Recovery Capacity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Parasympathetic recovery after sympathetic activation is the mechanism boundary for restoring autonomic balance following challenge — Lane autonomic differentiation work provides ADHD-relevant context.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM3-PM6",
+            "name": "Sympathetic Activation & Parasympathetic Recovery",
+            "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Sleep / Calming Tone",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low",
+        "evidence_summary": "Vagal tone intersects calming and sleep-relevant autonomic tone — indirect framing from ADHD autonomic differentiation literature without direct sleep-intervention outcomes.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM3-PM7",
+            "name": "Vagal Tone / HRV Regulation",
+            "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Stress Reactivity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Sensory over-responsivity differentiated from ADHD using electrodermal responses, cortisol, and anxiety markers; cortisol and inflammatory biomarkers in ADHD youth support autonomic activation/recovery balance as a stress-reactivity node.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM3-PM6",
+            "name": "Sympathetic Activation & Parasympathetic Recovery",
+            "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Stress Resilience",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "observational",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Electrodermal and autonomic markers differentiate sensory over-responsivity from ADHD — vagal tone/HRV regulation is the parasympathetic arm supporting stress-buffering capacity in neurodevelopmental autonomic profiling.",
+        "contributing_pms": [
+          {
+            "id": "BRS6-FM3-PM7",
+            "name": "Vagal Tone / HRV Regulation",
+            "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "observational"
           }
         ]
       }

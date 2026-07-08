@@ -585,7 +585,7 @@ ${fms
 
 ---
 
-## Requirements (Key Constraints)
+## Key Constraints (Dietary Bottlenecks)
 
 ${kcs
   .map((kc) => {

@@ -13,6 +13,7 @@
 | [BRS Citation & Reference Standard](./brs-citation-reference-standard.md) | Inline citations, bibliography keys, reference formatting |
 | [BRS Page Schema](./brs-page-schema.md) | Hub page section order and rendering contract |
 | [Phenome Relationship Review Methodology](./phenome-relationship-review-methodology.md) | Phenome mapping and independent evidence review |
+| [BRS ADHD Manuscript Summary Schema](./brs-adhd-manuscript-summary-schema.md) | Miguel manuscript BRS summaries — BRS justification, FM-level landmarks, allostasis gateway |
 | [Primary Mechanism Schema](./primary-mechanism-schema.md) | PM page structure and evidence placement |
 | [Functional Mechanism Schema](./functional-mechanism-schema.md) | FM page structure |
 

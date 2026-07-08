@@ -73,12 +73,11 @@ than PMs.
 
 Render sections in this exact order (Section Rules are authoritative):
 
-1. Definition — **translational opening paragraph + 3 bullets** — shared pool significance and cross-system constraints. See `system/mechanism-page-section-prose.md` (**§1 Definition — translational UX**).
-2. Constraint Role
-3. Shared Biological Pool
-4. Biological Importance
-5. Connected Mechanisms (#### Functional Mechanisms, #### Primary Mechanisms)
-6. References
+1. Ambition — concise statement of the desired biological shared-resource state.
+2. Shared Biological Pool
+3. Biological Importance
+4. Connected Mechanisms (#### Functional Mechanisms, #### Primary Mechanisms)
+5. Key References
 
 Page title line format (above section 1):
 
@@ -88,52 +87,27 @@ Page title line format (above section 1):
 
 ## Section Rules
 
-### 1. Definition
+### 1. Ambition
 
-Concise definition of the foundational sufficiency state, substrate availability, structural requirement, or enabling biological condition.
+Describe the desired state of the shared biological resource pool in one concise paragraph.
 
-Avoid:
+This section must answer:
 
-- PM-style regulation language
-- intervention descriptions
-- detailed mechanism prose
+> What biological resource availability is the body trying to maintain?
 
-Good examples:
+Rules:
 
-- amino acid substrate sufficiency
-- fermentable substrate availability
-- membrane lipid integrity
-- glucose / energy substrate continuity
+- no bullets
+- no pathway teaching
+- no PM-by-PM explanation
+- no intervention protocols
+- no PM-style control verbs (`regulates`, `drives`, `controls`)
 
-### 2. Constraint Role
+KCs define the resource state being maintained, not pathway dynamics.
 
-Describe:
+### 2. Shared Biological Pool
 
-- what the KC enables
-- what depends upon it
-- what biological sufficiency it maintains
-
-Use language such as:
-
-- enables
-- supports
-- provides substrate availability for
-- maintains sufficiency for
-- constrains effective operation of
-
-Avoid PM-style wording:
-
-- governs
-- regulates
-- modulates
-- drives
-- controls
-
-KCs do not regulate biology directly; they enable or constrain mechanisms.
-
-### 3. Shared Biological Pool
-
-List the key substrates, precursors, or structural components that constitute the shared biological pool.
+List shared biological resources (substrates, precursors, structural components) using PM-style substance-to-food mapping bullets.
 
 Purpose:
 
@@ -146,48 +120,44 @@ Pool items should generally be:
 - precursors
 - structural molecules
 - essential fatty acids
-- amino-acid classes
 - macronutrient fuels
 
-Good examples:
+Format:
 
-- tryptophan
-- EPA
-- DHA
-- methyl donors
-- sulfur amino acids
-- glutathione precursor amino acids
-- polyphenols (as a class)
+- one resource per bullet
+- use `Resource ← food, food, food`
+- 2–3 representative foods per resource where possible
+- do not add extra explanatory prose in this section
 
 Avoid:
 
 - cofactors (selenium, zinc, copper, manganese — belong on PM §7.2)
-- food ← substance mapping bullets (belong on PM §7.1 Direct Dietary Levers)
-- vague healthy-food lists
-- recipes
-- whole diets
-- PM-style intervention protocols
-- generic wellness language
+- category + member duplication in the same list (for example: `Sulfur amino acids` with `methionine` and `cysteine`)
+- mixed abstraction levels (category terms, individual molecules, and functional pathway labels in one pool)
+- pathway descriptors as list items (`methyl-group donor pools supporting one-carbon transfer`)
+- vague healthy-food lists, recipes, whole diets, or PM-style intervention protocols
 
-Render as plain bullet points only (no table, no food examples).
+Render as plain bullet points only (no table, no subheadings).
 
 This section should answer:
 
-> What shared biological pool do multiple PMs draw upon?
+> What explicit shared biological resources do multiple PMs draw upon, and what representative foods supply them?
 
 Do not list downstream microbial metabolites (e.g. SCFAs) as if they are intrinsic food substances.
 
 Do not attempt to individually cite every listed pool member (avoid citation explosion).
 
-### 4. Biological Importance
+### 3. Biological Importance
 
-Short explanation of:
+Educational explanation of:
 
-- why the constraint matters biologically
-- what systems depend on it
-- what instability or insufficiency may affect
+- why this pool exists biologically
+- why multiple mechanisms share this same pool
+- why insufficiency can constrain several PMs at once
+- why maintaining this pool supports broader biological regulation
+- where relevant, cross-BRS implications
 
-Keep concise and foundational.
+Keep concise and foundational, but richer than a one-line restatement of Ambition.
 
 Avoid:
 
@@ -195,7 +165,7 @@ Avoid:
 - heavy mechanism prose
 - intervention discussion
 
-### 5. Connected Mechanisms
+### 4. Connected Mechanisms
 
 List connected PMs and FMs that depend on this KC.
 
@@ -210,7 +180,7 @@ KCs may support multiple PMs/FMs simultaneously.
 
 KC pages must not define PM→PM or FM→FM dependencies.
 
-### 6. References
+### 5. Key References
 
 See **KC Evidence Layer Rules** below for citation philosophy, density, hierarchy, and resolution requirements.
 
@@ -411,12 +381,11 @@ KCs should remain:
 id: string                           # e.g. "BRS6(KC1)"
 name: string
 brs: string
-summary: string                      # maps to section 1 Definition
-constraint_role: string              # section 2
-supporting_inputs:                   # section 3 Shared Biological Pool
+ambition: string                     # maps to section 1 Ambition
+shared_biological_pool:              # section 2 Shared Biological Pool
   - string
-biological_importance: string        # section 4
-connected_mechanisms:                # section 5
+biological_importance: string        # section 3
+connected_mechanisms:                # section 4
   fms:
     - id: string
       name: string
@@ -425,7 +394,7 @@ connected_mechanisms:                # section 5
     - id: string
       name: string
       href: string
-references:                          # section 6
+key_references:                      # section 5
   - index: number
     label: string
     citation_key: string
@@ -444,12 +413,11 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 | # | Heading |
 |---|---|
 | — | `### {kc_id} - {name}` (page identifier line) |
-| 1 | `### 1. Definition` |
-| 2 | `### 2. Constraint Role` |
-| 3 | `### 3. Shared Biological Pool` |
-| 4 | `### 4. Biological Importance` |
-| 5 | `### 5. Connected Mechanisms` |
-| 6 | `### 6. References` |
+| 1 | `### 1. Ambition` |
+| 2 | `### 2. Shared Biological Pool` |
+| 3 | `### 3. Biological Importance` |
+| 4 | `### 4. Connected Mechanisms` |
+| 5 | `### 5. Key References` |
 
 ## Validation Rules
 
@@ -458,16 +426,18 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 - If a required substance or food entity is unresolved, flag: `Missing system entity: [name]`
 - Every `references[].citation_key` must resolve to `static/bibtex/BRAIN-diet.bib` before publish.
 - If missing, flag: `Missing bibliography entry`
-- Do not attach per-bullet citations in section 3 (Shared Biological Pool); flag citation explosion if present.
+- Do not attach per-bullet citations in section 2 (Shared Biological Pool); flag citation explosion if present.
 - KC references must align with KC Evidence Layer Rules (necessity/sufficiency), not PM/FM intervention evidence types.
 
 ## Deprecated (Do Not Use on New KC Pages)
 
-- `biological_role` (use `constraint_role` + `biological_importance`)
+- `biological_role` (use `ambition` + `biological_importance`)
 - `Supporting Substances/Interventions` as a separate intervention-citation section
 - `Dietary Substrates/Precursors` as a standalone section heading
 - `Supporting Inputs/Substrates` (use `Shared Biological Pool`)
 - `Supporting Inputs / Substances / Signals` (use `Shared Biological Pool`)
-- substance ← food bullets on KC pages (use PM §7.1 Direct Dietary Levers)
+- substance lists without food examples on KC Shared Biological Pool (use `Resource ← food examples` format)
 - `Supports` / `Related FMs` legacy heading without "Connected Mechanisms"
 - `requirement_type` as a rendered page section (may remain ingest metadata only)
+- `summary` as section 1 body field for KC pages (use `ambition`)
+- `constraint_role` section or front matter field on new KC pages

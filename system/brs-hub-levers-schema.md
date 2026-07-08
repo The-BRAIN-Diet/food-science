@@ -18,6 +18,7 @@ Each BRS hub page should orient readers in under one minute: explain the biologi
 | 4 | **Optimisation Levers** | Required where applicable — curated + PM provenance (see [Optimisation Levers](#optimisation-levers)) |
 | 5 | **Lifestyle Priorities** | Required — curated + PM provenance |
 | 6 | **Therapeutic Area Research** | BRS1–BRS6 ADHD dropdowns — [BRS Hub ADHD TA Dropdown](./brs-hub-ta-adhd-dropdown-schema.md); [BRAIN TA Evidence Integration Standard v1.2](./brain-ta-evidence-integration-standard.md) |
+| 6a | **Cross-BRS integration Evidence** | Landmark mechanistic reviews per Cross-BRS relationship (Category B — not in ADHD dropdown) |
 | 7 | **Functional Mechanisms** and downstream navigation (KCs, SMs) | Required |
 
 **Removed from hub pages (do not restore):**
@@ -32,6 +33,14 @@ Apply or refresh Therapeutic Area Research markers:
 ```bash
 npm run brs:patch-ta-research
 ```
+
+Apply or refresh Cross-BRS integration Evidence sections:
+
+```bash
+npm run brs:generate-hub-cross-integration
+```
+
+Source of truth: `scripts/data/brs-cross-integration-evidence.json` (also consumed by the Miguel manuscript generator).
 
 ---
 
