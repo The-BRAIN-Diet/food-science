@@ -7,6 +7,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { getIntegrationsForBrs } from "../data/brs-cross-integration-evidence.mjs";
 import { HUB_PAGES } from "./brs-hub-levers.mjs";
+import { HUB_COLLAPSIBLE_ATTR, renderHubNestedGroup } from "./hub-collapsible.mjs";
 
 export const CROSS_INTEGRATION_MARKERS = {
   start: "<!-- brs-hub-cross-integration:start -->",
@@ -43,11 +44,32 @@ const INTEGRATION_DISPLAY_TITLES = {
   "BRS5->BRS6": "Gut–Vagal Influence on Stress-Axis Regulation",
 };
 
-function renderIntegrationTitleHtml(title) {
-  const canonicalId = title.replace(/\s*→\s*/g, "->").trim();
+function getIntegrationDisplayTitle(integration) {
+  const canonicalId = integration.title.replace(/\s*→\s*/g, "->").trim();
   const namedTitle = INTEGRATION_DISPLAY_TITLES[canonicalId];
-  const displayTitle = namedTitle ? `${namedTitle} (${title})` : title;
-  return `<strong>${escapeHtml(displayTitle)}</strong>`;
+  return namedTitle ? `(${integration.title}) ${namedTitle}` : integration.title;
+}
+
+function renderIntegrationTitleHtml(integration) {
+  return `<strong>${escapeHtml(getIntegrationDisplayTitle(integration))}</strong>`;
+}
+
+const INTEGRATION_SECTIONS = [
+  { key: "biological_contribution", title: "Biological Contribution" },
+  { key: "systems_significance", title: "Systems Significance" },
+  { key: "integrated_regulatory_capacity", title: "Integrated Regulatory Capacity" },
+];
+
+function integrationSectionText(integration, key) {
+  if (integration[key]) return integration[key];
+  if (key === "biological_contribution" && integration.summary) return integration.summary;
+  return "";
+}
+
+function renderIntegrationSection(title, body) {
+  if (!body) return "";
+  return `<h4 class="brs-hub-integration-section-title">${escapeHtml(title)}</h4>
+<p>${escapeHtml(body)}</p>`;
 }
 
 function renderEvidenceItem(item) {
@@ -56,16 +78,20 @@ function renderEvidenceItem(item) {
   return `<li class="brs-hub-integration-evidence-item"><p><a href="${href}">${escapeHtml(label)}</a> — ${escapeHtml(item.supports)}</p></li>`;
 }
 
-function renderIntegrationCollapsible(integration, index) {
+function renderIntegrationCollapsible(integration) {
+  const sections = INTEGRATION_SECTIONS.map(({ key, title }) =>
+    renderIntegrationSection(title, integrationSectionText(integration, key)),
+  ).join("\n");
   const evidenceItems = integration.evidence.map(renderEvidenceItem).join("\n");
   return `<div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-${renderIntegrationTitleHtml(integration.title)}
+${renderIntegrationTitleHtml(integration)}
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>${escapeHtml(integration.summary)}</p>
+${sections}
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
 ${evidenceItems}
 </ul>
@@ -83,15 +109,17 @@ export function renderHubCrossIntegrationHtml(brsId) {
   if (!integrations.length) return "";
 
   const collapsibles = integrations.map(renderIntegrationCollapsible).join("\n\n");
+  const titleItems = integrations.map(getIntegrationDisplayTitle);
+  const grouped = renderHubNestedGroup(titleItems, collapsibles);
 
   return `${CROSS_INTEGRATION_MARKERS.start}
 ## Cross-BRS integration
 
-<p>Landmark mechanistic and systems-biology reviews explaining how this Biological Regulatory System interacts with and depends upon other systems. These are biological integration references — not ADHD intervention studies.</p>
+<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
-${collapsibles}
+${grouped}
 
 </div>
 ${CROSS_INTEGRATION_MARKERS.end}`;
@@ -113,10 +141,17 @@ export function patchHubCrossIntegration(hubPath, html, rootDir = process.cwd())
   // Remove any existing block first so we can reinsert it in canonical position.
   content = content.replace(blockRe, "\n\n");
 
-  // Canonical position: after full Functional Mechanisms section, before Requirements.
-  const insertRe = /(## Functional Mechanisms[\s\S]*?)(\n## Requirements \(Key Constraints\))/;
+  // Remove legacy unmarked Cross-BRS sections (e.g. after a partial patch).
+  content = content.replace(
+    /\n## Cross-BRS integration[\s\S]*?(?=\n## (?:Key Constraints \(Dietary Bottlenecks\)|Requirements \(Key Constraints\)))/,
+    "\n",
+  );
+
+  // Canonical position: after full Functional Mechanisms section, before Key Constraints.
+  const insertRe =
+    /(## Functional Mechanisms[\s\S]*?)(\n## (?:Key Constraints \(Dietary Bottlenecks\)|Requirements \(Key Constraints\)))/;
   if (!insertRe.test(content)) {
-    throw new Error(`${hubPath}: could not find insertion point before Requirements`);
+    throw new Error(`${hubPath}: could not find insertion point before Key Constraints`);
   }
   content = content.replace(insertRe, `$1\n\n${block}\n\n$2`);
 

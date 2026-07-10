@@ -65,16 +65,18 @@ Per-study format:
 
 ### 4. Cross-BRS integration Evidence
 
-- Supporting literature for every major Cross-BRS relationship, rendered like Primary Mechanism evidence.
-- **1–2 landmark mechanistic reviews per relationship** — not ADHD intervention studies.
-- Prioritise integrative neuroscience, systems biology, allostasis, and neuroinflammation reviews.
-- Source from `scripts/data/brs-cross-integration-evidence.json`.
+- Four-section architecture-derived narrative for every major Cross-BRS relationship.
+- Source: `scripts/data/brs-cross-integration-evidence.json` (fields: `biological_contribution`, `systems_significance`, `integrated_regulatory_capacity`, `evidence`).
+- Authoring standard: `system/brs-hub-levers-schema.md` § **Cross-BRS integration Evidence**.
 
 Per-relationship format:
 
-1. **Relationship label** (e.g. BRS4 → BRS1)
-2. **Brief integration statement**
-3. **Landmark citation(s)** with what each supports
+1. **Biological Contribution** — one-sentence emergent BRS contribution (adaptive capacity)
+2. **Systems Significance** — upstream enabling role, allostatic constraint framing, complement clause
+3. **Integrated Regulatory Capacity** — FM-derived integrated capacities at BRS level
+4. **Supporting Evidence** — 1–3 landmark validators
+
+Introduce allostatic **theory** primarily in **(BRS6 → BRS1) Cross-BRS integration** — Systems Significance and Integrated Regulatory Capacity — not as a standalone page or repeated in every BRS. Cross-BRS links elsewhere explain **preserving adaptive capacity** across the integrated six-BRS network. See `allostasis_reference_tiers` in the integration library.
 
 ### 5. Translational interpretation
 
@@ -94,7 +96,7 @@ Requirements:
 
 - Landmark ADHD papers supporting BRS identity and FM-level anchors.
 - Cross-BRS integration references (deduplicated).
-- Foundational allostasis citations appear in the manuscript introduction only.
+- Foundational allostasis citations appear in **(BRS6 → BRS1) Cross-BRS Supporting Evidence** and may be referenced briefly in the manuscript introduction — the full biological definition of allostasis lives in BRS6 → BRS1 Integrated Regulatory Capacity.
 
 ---
 
@@ -124,7 +126,7 @@ The BRAIN Framework does **not** propose allostatic load as a primary explanatio
 
 | BRS | Allostasis framing |
 |-----|-------------------|
-| **BRS6** | Principal allostatic gateway — HPA rhythm, autonomic balance, glycaemic stability, stress–metabolic load allocation |
+| **BRS6** | Principal allostatic gateway — coordinates neuroendocrine and metabolic resource allocation across the integrated BRS network; canonical allostasis narrative in BRS6 → BRS1 Cross-BRS integration |
 | **BRS1** | Neurochemical flexibility supporting attention, motivation, arousal, behavioural control under demand |
 | **BRS2** | Methylation, repair, and phospholipid capacity for adaptation and maintenance |
 | **BRS3** | Inflammatory and redox load control |
@@ -138,10 +140,9 @@ The BRAIN Framework does **not** propose allostatic load as a primary explanatio
 | **Cross-BRS integration Evidence** | Landmark reviews supporting each adaptive dependency (relationship statement + citations) |
 | **Translational interpretation** | ADHD relevance and adaptive capacity — points to evidence above |
 
-Use **adaptive dependency** language. Examples (summaries only; evidence in integration library):
+Use **adaptive dependency** and **upstream enabling system** language. Every integration statement should include a demand-preservation clause (*"reducing the likelihood that…"*) and a complement clause (*"complements… rather than substituting for…"*). Example (BRS4 → BRS1):
 
-- BRS4 → BRS1: bioenergetic capacity supports neurotransmitter synthesis, vesicle cycling, and synaptic signalling.
-- BRS3 → BRS1: inflammatory and oxidative burden modulate monoamine, glutamate, and GABA biology.
+> Together, the Functional Mechanisms within BRS4 maintain the energetic reserve… BRS4 is an upstream enabling system… Maintaining BRS4 therefore complements neurotransmitter precursor and cofactor biology by preserving adaptive bioenergetic capacity rather than substituting for neurotransmitter regulation itself.
 - BRS6 → BRS1: HPA-axis regulation, autonomic balance, and glycaemic stability shape neurotransmitter signalling under stress.
 - BRS2 → BRS1: one-carbon metabolism and BH4 cofactor chemistry support monoamine synthesis.
 - BRS5 → BRS1: gut-derived metabolites and vagal signalling modulate central neurotransmission.
@@ -155,10 +156,10 @@ Do not force allostasis into every BRS. BRS6 remains the principal allostatic ga
 The generated Word document must include:
 
 1. Revised objective statement (BRS justification, not PM catalogue).
-2. Allostasis positioning paragraph (BRS6 gateway; not ADHD causation claim).
+2. Brief allostasis pointer (BRS6 gateway; not ADHD causation claim) — defer full biological definition to BRS6 → BRS1 Cross-BRS integration in each BRS summary.
 3. Evidence hierarchy reminder.
 
-Foundational allostasis references (introduction only):
+Foundational allostasis references (BRS6 → BRS1 Cross-BRS and brief introduction pointer):
 
 - Sterling & Eyer (1988)
 - McEwen (1998, 2006)

@@ -61,7 +61,7 @@ function buildModulationContext(data) {
   return parts.length ? parts.join(" · ") : "";
 }
 
-import { renderHubCollapsible, HUB_COLLAPSIBLE_ATTR } from "./hub-collapsible.mjs";
+import { renderHubNestedGroup, HUB_COLLAPSIBLE_ATTR } from "./hub-collapsible.mjs";
 
 export { renderHubCollapsible as buildHubCollapsibleBlock } from "./hub-collapsible.mjs";
 
@@ -132,14 +132,27 @@ function buildFmDropdown({ data, content, url }, pms) {
   return block;
 }
 
+function buildFmGroupWrapper(fmBlocks, fmEntries) {
+  const titleItems = fmEntries.map(({ fmId, title }) => `${fmId} — ${title}`);
+  return `${renderHubNestedGroup(titleItems, fmBlocks)}\n\n`;
+}
+
 export function buildFunctionalMechanismsSection(fmFilePaths) {
   let section = `## Functional Mechanisms\n\n${FM_SECTION_INTRO}\n\n`;
+
+  const fmBlocks = [];
+  const fmEntries = [];
 
   for (const filePath of fmFilePaths) {
     const { data, content } = matter(fs.readFileSync(filePath, "utf8"));
     const url = fmUrlFromPath(filePath);
     const pms = Array.isArray(data.mechanisms_covered) ? data.mechanisms_covered : [];
-    section += buildFmDropdown({ data, content, url }, pms);
+    fmBlocks.push(buildFmDropdown({ data, content, url }, pms));
+    fmEntries.push({ fmId: data.fm_id, title: data.title });
+  }
+
+  if (fmBlocks.length) {
+    section += buildFmGroupWrapper(fmBlocks.join(""), fmEntries);
   }
 
   return section;

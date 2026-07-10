@@ -170,6 +170,22 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>BRS6(FM1) — Glycaemic–Insulin Stability &amp; Cognitive Energy Availability</li>
+  <li>BRS6(FM2) — HPA Axis Rhythm &amp; Cortisol Regulation</li>
+  <li>BRS6(FM3) — Autonomic Balance &amp; Vagal Recovery Capacity</li>
+  <li>BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
@@ -190,7 +206,7 @@ Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Fram
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Supports integrated regulation of glucose appearance, glycaemic stability, and insulin-supported glucose disposal across the post-prandial period — influencing metabolic continuity, reactive neuroendocrine demand, and cognitive energy availability.
+Maintains glycaemic-insulin stability and cognitive energy availability by coordinating glucose appearance, glycaemic control, and insulin-mediated disposal.
 
 **FM page:** [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability)
 
@@ -229,7 +245,7 @@ Supports integrated regulation of glucose appearance, glycaemic stability, and i
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Supports integrated regulation of cortisol rhythm and light–feeding entrainment across waking, feeding, and recovery cycles — influencing stress-hormone amplitude, phase alignment, and diurnal neuroendocrine stability.
+Maintains HPA-axis rhythm and cortisol regulation through coordinated circadian, feeding, and recovery-phase entrainment.
 
 **FM page:** [BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation)
 
@@ -270,7 +286,7 @@ Supports integrated regulation of cortisol rhythm and light–feeding entrainmen
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Supports integrated regulation of sympathetic–parasympathetic balance and vagal recovery capacity after stress or cognitive demand — influencing autonomic flexibility, heart-rate variability context, and physiological downshifting.
+Maintains autonomic balance and vagal recovery capacity by coordinating sympathetic-parasympathetic regulation after stress and cognitive demand.
 
 **FM page:** [BRS6(FM3) — Autonomic Balance & Vagal Recovery Capacity](/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity)
 
@@ -310,7 +326,7 @@ Supports integrated regulation of sympathetic–parasympathetic balance and vaga
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Supports integrated regulation of metabolic-inflammatory load and stress-linked appetite–reward signalling — influencing whole-body resource allocation and brain-relevant energy and stress state.
+Maintains stress-inflammation and metabolic load allocation by coordinating metabolic-inflammatory signalling with stress-linked appetite-reward biology.
 
 **FM page:** [BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation](/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation)
 
@@ -332,27 +348,54 @@ Supports integrated regulation of metabolic-inflammatory load and stress-linked 
 </div>
 </div>
 
----
+
+</div>
+</div>
+</div>
+</div>
 
 
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS integration
 
-<p>Landmark mechanistic and systems-biology reviews explaining how this Biological Regulatory System interacts with and depends upon other systems. These are biological integration references — not ADHD intervention studies.</p>
+<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>(BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission</li>
+  <li>(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</li>
+  <li>(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</li>
+  <li>(BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Stress-Axis and Autonomic Shaping of Neurotransmission (BRS6 → BRS1)</strong>
+<strong>(BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>HPA-axis regulation, autonomic balance and glycaemic stability shape neurotransmitter signalling during stress and cognitive demand.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive neuroendocrine coordination and metabolic stability that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these whole-body regulatory capacities, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. When adaptive regulation becomes prolonged or dysregulated, this coordinated resource allocation progressively manifests as allostatic load across the wider BRS network. This reduces the likelihood that chronic neuroendocrine activation progressively constrains neurotransmitter regulation within BRS1 as allostatic load accumulates. BRS6 is not itself a neurotransmitter system; it coordinates the resource-allocation logic through which other Biological Regulatory Systems — including BRS1 — sustain resilient performance under demand. Maintaining BRS6 therefore complements neurotransmitter precursor and cofactor biology by preserving the systemic regulatory environment within which resilient neurotransmitter regulation can be sustained, rather than substituting for neurotransmitter regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS6 coordinate glycaemic regulation, HPA-axis rhythm, autonomic balance and stress-responsive metabolic allocation, continuously adjusting physiological resource distribution to meet changing environmental and cognitive demands. When these regulatory capacities remain proportionate, they help preserve adaptive performance across the wider BRS network. When they become chronically activated or poorly resolved, increasing allostatic load progressively constrains the performance of interconnected Biological Regulatory Systems.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_protective_damaging_1998">McEwen, 1998</a> — Foundational review of how stress mediators — particularly cortisol dynamics — protect and damage brain structure and function, with direct implications for neurotransmitter systems and cognitive performance under adaptive demand.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Meta-analytic review linking autonomic regulation (heart-rate variability) to stress neurobiology, cortisol dynamics, and central nervous system function — supporting autonomic–neurotransmitter coupling under load.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_protective_damaging_1998">McEwen, 1998</a> — Established allostatic load as cumulative biological wear arising when stress mediators protect or damage brain structure and function under sustained adaptive demand — supporting the framework interpretation that dysregulated neuroendocrine load may become a principal constraint on BRS1 performance.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Positioned the brain as the central interpreter and target of stress-mediated adaptive regulation — supporting the framework interpretation that BRS6 coordinates how allostatic load is allocated across integrated biological systems including neurotransmitter regulation within BRS1.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Demonstrated intimate coupling between autonomic regulatory capacity, stress neurobiology and central nervous system function — supporting the interpretation of BRS6 autonomic stability as an upstream enabler of BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
 </div>
 </div>
@@ -362,13 +405,19 @@ Supports integrated regulation of metabolic-inflammatory load and stress-linked 
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Stress Signalling Interactions with Inflammatory Load (BRS6 → BRS3)</strong>
+<strong>(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>HPA-axis and autonomic stress signalling interact with inflammatory and oxidative biology during sustained adaptive demand.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive stress–metabolic load allocation that enables BRS3 to sustain immune and redox regulation under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving neuroendocrine and autonomic regulatory capacity, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. This reduces the likelihood that chronic stress activation progressively constrains immune regulation within BRS3 as allostatic load accumulates. Maintaining BRS6 therefore complements direct immune-modulatory biology within BRS3 by preserving systemic stress containment rather than substituting for inflammatory regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS6 maintain HPA-axis rhythm, autonomic balance and metabolic load allocation required to regulate how stress mediators interact with inflammatory and oxidative biology during prolonged physiological demand. Rather than acting through a single stress hormone, these integrated capacities collectively shape the systemic conditions within which BRS3 sustains proportionate immune and redox regulation.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Foundational allostasis review describing bidirectional interactions between stress mediators, immune-inflammatory processes, and cumulative regulatory burden.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Integrative review linking stress neurobiology to pro-inflammatory cytokine activation and downstream CNS consequences — the principal mechanistic bridge between neuroendocrine stress and inflammatory load.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Described bidirectional interactions between stress mediators, immune-inflammatory processes and cumulative regulatory burden — supporting the framework interpretation that BRS6 stress biology shapes BRS3 inflammatory load.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Operationalised social and psychological stress as inflammatory signals reshaping neuroimmune biology — supporting the BRS6 → BRS3 pathway as a principal stress-to-inflammation bridge within the integrated BRS network.</p></li>
 </ul>
 </div>
 </div>
@@ -378,13 +427,19 @@ Supports integrated regulation of metabolic-inflammatory load and stress-linked 
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Neuroendocrine Control of Bioenergetic Recovery (BRS6 → BRS4)</strong>
+<strong>(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Stress hormones, glycaemic load and neuroendocrine demand shape mitochondrial function and energetic recovery capacity.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive neuroendocrine and glycaemic stability that enables BRS4 to sustain mitochondrial bioenergetic capacity under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these stress–metabolic regulatory capacities, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. This reduces the likelihood that chronic stress-mediated metabolic dysregulation progressively compromises mitochondrial function within BRS4 as allostatic load accumulates. Maintaining BRS6 therefore complements substrate and cofactor biology within BRS4 by preserving systemic energetic stability rather than substituting for mitochondrial regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS6 maintain glycaemic–insulin stability, HPA-axis rhythm and stress–metabolic load allocation required to sustain mitochondrial energetic recovery during prolonged physiological demand. Rather than acting through glucocorticoids alone, these integrated capacities collectively coordinate how whole-body stress biology shapes bioenergetic reserve and recovery within BRS4.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Landmark review proposing mitochondrial allostatic load as a subcellular mechanism through which glucocorticoids, glucose imbalance, and chronic stress damage bioenergetic capacity.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Review of allostasis and allostatic load describing how stress mediators influence metabolic allocation, recovery, and cumulative biological wear with the brain as central interpreter and target.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Proposed mitochondrial allostatic load as the subcellular mechanism through which glucocorticoids, glucose imbalance and chronic stress damage bioenergetic capacity — supporting the BRS6 ↔ BRS4 adaptive bridge within the framework.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Established allostasis and allostatic load as frameworks for cumulative biological wear under stress-mediated metabolic allocation — supporting the interpretation that BRS6 coordinates systemic load that constrains BRS4 recovery capacity.</p></li>
 </ul>
 </div>
 </div>
@@ -394,14 +449,24 @@ Supports integrated regulation of metabolic-inflammatory load and stress-linked 
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Gut–Vagal Influence on Stress-Axis Regulation (BRS5 → BRS6)</strong>
+<strong>(BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Gut–vagal signalling and microbial metabolites influence autonomic tone and stress-axis responsiveness.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut–vagal neuromodulation and microbial signalling that enables BRS6 to sustain stress-axis responsiveness under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these gut–brain interface capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that impaired vagal or microbial signalling progressively disrupts autonomic and HPA-axis regulation within BRS6 as peripheral load accumulates. Maintaining BRS5 therefore complements neuroendocrine biology within BRS6 by preserving gut-derived modulatory input rather than substituting for stress-axis regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS5 maintain gut barrier integrity, microbial metabolite signalling and gut–vagal neuromodulation required to regulate autonomic tone and stress-axis responsiveness during prolonged physiological demand. Rather than acting through a single microbial pathway, these integrated capacities collectively shape how peripheral signals influence neuroendocrine recovery capacity within BRS6.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Experimental evidence that gut microbiota modulate HPA-axis stress responses and central neurochemistry via vagal pathways.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Review linking autonomic regulation to stress neurobiology and central nervous system function — supporting vagal–neuroendocrine integration.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Demonstrated that gut microbiota modulate HPA-axis stress responses via vagal pathways — supporting the framework interpretation that BRS5 gut–vagal signalling shapes BRS6 stress-axis responsiveness.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Linked autonomic regulatory capacity to stress neurobiology and central nervous system function — supporting the interpretation of vagal–neuroendocrine integration as a BRS5 → BRS6 enabling pathway.</p></li>
 </ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>

@@ -154,6 +154,21 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>BRS2(FM1) — Methylation Cycle Efficiency</li>
+  <li>BRS2(FM2) — Transsulfuration &amp; Redox Coupling</li>
+  <li>BRS2(FM3) — Methylation–Membrane Coupling</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
@@ -175,7 +190,7 @@ Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Fram
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Supports the body's ability to recycle homocysteine (a sulfur amino acid that rises when one-carbon metabolism is strained), produce SAMe (S-adenosylmethionine, the body's universal methyl donor), and sustain methylation capacity across neurotransmitter synthesis, membrane chemistry, and gene regulation. Efficient one-carbon cycling is a foundation for many brain-relevant processes.
+Maintains one-carbon cycle efficiency by coordinating homocysteine recycling, SAMe production, and methylation capacity across brain-relevant pathways.
 
 **FM page:** [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency)
 
@@ -219,7 +234,7 @@ Supports the body's ability to recycle homocysteine (a sulfur amino acid that ri
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Links homocysteine handling to cysteine supply and glutathione production (the body's principal cellular antioxidant), connecting methylation metabolism to antioxidant defence. This integrated state helps the body convert one-carbon stress into redox resilience.
+Maintains transsulfuration-redox coupling by linking homocysteine handling to cysteine availability and glutathione-dependent antioxidant protection.
 
 **FM page:** [BRS2(FM2) — Transsulfuration & Redox Coupling](/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling)
 
@@ -261,7 +276,7 @@ Links homocysteine handling to cysteine supply and glutathione production (the b
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Connects methylation capacity to membrane phospholipid chemistry — the bridge between B-vitamin status and the membrane environment the brain relies on. SAMe supply and phosphatidylcholine formation work together to shape omega-3 carriage and membrane integrity.
+Maintains methylation-membrane coupling by linking methyl-donor capacity to phospholipid chemistry and membrane signalling context.
 
 **FM page:** [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling)
 
@@ -284,27 +299,51 @@ Connects methylation capacity to membrane phospholipid chemistry — the bridge 
 </div>
 </div>
 
----
+
+</div>
+</div>
+</div>
+</div>
 
 
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS integration
 
-<p>Landmark mechanistic and systems-biology reviews explaining how this Biological Regulatory System interacts with and depends upon other systems. These are biological integration references — not ADHD intervention studies.</p>
+<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>(BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology</li>
+  <li>(BRS2 → BRS3) One-Carbon to Redox Coupling</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>One-Carbon and BH4 Support for Monoamine Biology (BRS2 → BRS1)</strong>
+<strong>(BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>One-carbon metabolism and BH4-dependent cofactor chemistry support monoamine synthesis, membrane methylation and neurotransmitter precursor handling.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS2 maintain adaptive methyl-donor and cofactor capacity that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these one-carbon metabolic capacities, BRS2 functions as an upstream enabling system, reducing the likelihood that methyl-donor or cofactor insufficiency progressively limits monoamine synthesis and wider neurotransmitter regulation within BRS1 as metabolic demand intensifies. Maintaining BRS2 therefore complements neurotransmitter precursor availability by preserving the biological environment within which resilient neurochemical regulation can be sustained, rather than substituting for neurotransmitter regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS2 maintain methylation cycle efficiency, transsulfuration-linked redox coupling and methylation–membrane integrity required to sustain methyl-donor reserves, cofactor chemistry and membrane-related neurochemical support during prolonged physiological demand. Rather than acting through a single biosynthetic step, these integrated capacities collectively preserve the cofactor and methylation context required for stable neurotransmitter regulation within BRS1.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021">Fanet et al., 2021</a> — Mechanistic review of tetrahydrobiopterin (BH4) as an essential cofactor for dopamine and serotonin synthesis, linking one-carbon–adjacent cofactor biology to central neurotransmission and inflammatory–oxidative modulation of monoamine pathways.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Integrative review of B-vitamin roles in brain function, including methylation-dependent synthesis of neurochemicals and signalling molecules that underpin monoaminergic and wider neurotransmitter biology.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021">Fanet et al., 2021</a> — Established that essential cofactor chemistry underpins central monoamine synthesis and neurotransmitter-regulatory capacity — supporting the framework interpretation that BRS2 cofactor reserves may become a principal rate-limiting constraint on monoaminergic regulation when one-carbon metabolism is strained.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Demonstrated that B-vitamin-dependent one-carbon metabolism supports brain neurochemical synthesis — supporting the interpretation of BRS2 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
 </div>
 </div>
@@ -314,14 +353,24 @@ Connects methylation capacity to membrane phospholipid chemistry — the bridge 
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>One-Carbon to Redox Coupling (BRS2 → BRS3)</strong>
+<strong>(BRS2 → BRS3) One-Carbon to Redox Coupling</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Transsulfuration-linked substrate flux from one-carbon metabolism supports glutathione-centred antioxidant defence.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS2 maintain adaptive one-carbon metabolic flux and transsulfuration coupling that enables BRS3 to sustain antioxidant defence and redox resilience under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these methyl-donor and transsulfuration capacities, BRS2 functions as an upstream enabling system, reducing the likelihood that constrained one-carbon flux progressively limits glutathione-centred redox defence within BRS3 as metabolic demand intensifies. Maintaining BRS2 therefore complements direct antioxidant substrate biology within BRS3 by preserving biosynthetic capacity rather than substituting for inflammatory and oxidative regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS2 maintain methylation cycle efficiency and transsulfuration-linked substrate routing required to sustain cysteine and glutathione precursor availability during prolonged physiological demand. Rather than acting through a single enzymatic step, these integrated capacities collectively connect one-carbon metabolism to redox defence capacity within BRS3.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017">Kumar et al., 2017</a> — Review of transsulfuration from homocysteine to cysteine and glutathione, connecting one-carbon metabolic flux to redox defence capacity within BRS3.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996">Chiang et al., 1996</a> — Foundational review of S-adenosylmethionine as the principal methyl donor, describing how one-carbon flux allocation influences downstream transsulfuration and cellular redox chemistry.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017">Kumar et al., 2017</a> — Described transsulfuration flux from homocysteine to cysteine and glutathione — supporting the framework interpretation that BRS2 substrate routing enables BRS3 redox defence capacity.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996">Chiang et al., 1996</a> — Established one-carbon flux allocation as a determinant of downstream transsulfuration and cellular redox chemistry — supporting the interpretation of BRS2 as an upstream enabling system for BRS3 antioxidant resilience.</p></li>
 </ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>

@@ -10,7 +10,7 @@ import {
   patchHubCrossIntegration,
   renderHubCrossIntegrationHtml,
 } from "./lib/brs-hub-cross-integration.mjs";
-import { getAllIntegrationCitationKeys } from "./data/brs-cross-integration-evidence.mjs";
+import { getAllIntegrationCitationKeys, getIntegrationsForBrs } from "./data/brs-cross-integration-evidence.mjs";
 
 const ROOT = process.cwd();
 let patched = 0;
@@ -23,7 +23,7 @@ for (const brsId of CORE_BRS_HUBS) {
   }
   const html = renderHubCrossIntegrationHtml(brsId);
   patchHubCrossIntegration(hubPath, html, ROOT);
-  const relationshipCount = html.split("brs-fm-hub-item").length - 1;
+  const relationshipCount = getIntegrationsForBrs(brsId).length;
   patched++;
   console.log(`${brsId}: ${relationshipCount} cross-BRS relationships patched → ${hubPath}`);
 }

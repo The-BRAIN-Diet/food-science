@@ -171,6 +171,22 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>BRS4(FM1) — Cellular Bioenergetics</li>
+  <li>BRS4(FM2) — Mitochondrial Resilience &amp; Redox Stability</li>
+  <li>BRS4(FM3) — Substrate Utilisation Flexibility</li>
+  <li>BRS4(FM4) — Mitochondrial Capacity Expansion &amp; Adaptation</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
@@ -191,7 +207,7 @@ Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Fram
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-A functional control point governing ATP production via mitochondrial respiration, electron transport chain efficiency, NAD⁺-linked redox metabolism, and high-demand energy buffering for brain and body tissues.
+Maintains cellular bioenergetic capacity through mitochondrial ATP production, electron transport efficiency, NAD+-linked redox metabolism, and high-demand energy buffering.
 
 **FM page:** [BRS4(FM1) — Cellular Bioenergetics](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics)
 
@@ -232,7 +248,7 @@ A functional control point governing ATP production via mitochondrial respiratio
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-A functional control point governing mitochondrial membrane integrity, oxidative stability, and resistance to redox-mediated mitochondrial damage.
+Maintains mitochondrial resilience and redox stability by protecting membrane integrity and limiting oxidative damage under metabolic strain.
 
 **FM page:** [BRS4(FM2) — Mitochondrial Resilience & Redox Stability](/docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability)
 
@@ -272,7 +288,7 @@ A functional control point governing mitochondrial membrane integrity, oxidative
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-A functional control point governing mitochondrial capacity to transition between glucose, fatty acids, ketones, and mixed substrates efficiently under changing metabolic demand (metabolic fuel flexibility).
+Maintains substrate utilisation flexibility by enabling efficient transitions between glucose, fatty-acid, ketone, and mixed-fuel metabolism.
 
 **FM page:** [BRS4(FM3) — Substrate Utilisation Flexibility](/docs/biological-targets/brs4/fm3/brs4-fm3-substrate-utilisation-flexibility)
 
@@ -313,7 +329,7 @@ A functional control point governing mitochondrial capacity to transition betwee
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Supports integrated regulation of exercise-driven mitochondrial biogenesis (formation of new mitochondria) and adaptive density expansion, with diet providing permissive substrate and cofactor support for long-term energetic capacity.
+Maintains mitochondrial capacity expansion and adaptation through biogenesis and density remodeling with permissive substrate and cofactor support.
 
 **FM page:** [BRS4(FM4) — Mitochondrial Capacity Expansion & Adaptation](/docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation)
 
@@ -337,27 +353,52 @@ Supports integrated regulation of exercise-driven mitochondrial biogenesis (form
 </div>
 </div>
 
----
+
+</div>
+</div>
+</div>
+</div>
 
 
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS integration
 
-<p>Landmark mechanistic and systems-biology reviews explaining how this Biological Regulatory System interacts with and depends upon other systems. These are biological integration references — not ADHD intervention studies.</p>
+<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>(BRS4 → BRS1) Bioenergetic Support for Neurotransmission</li>
+  <li>(BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics</li>
+  <li>(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Bioenergetic Support for Neurotransmission (BRS4 → BRS1)</strong>
+<strong>(BRS4 → BRS1) Bioenergetic Support for Neurotransmission</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Bioenergetic capacity supports neurotransmitter synthesis, vesicle cycling, membrane potential maintenance and synaptic signalling.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS4 maintain the adaptive bioenergetic reserve that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these bioenergetic capacities, BRS4 reduces the likelihood that energetic limitation becomes the principal rate-limiting constraint on neurotransmitter regulation within BRS1 as allostatic load accumulates. BRS4 is not itself a neurotransmitter system. Instead, it functions as an upstream enabling system that preserves the bioenergetic conditions required for resilient neurotransmitter regulation. Maintaining BRS4 therefore complements neurotransmitter precursor and cofactor biology by preserving adaptive bioenergetic capacity rather than substituting for neurotransmitter regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS4 maintain energetic reserve, metabolic flexibility, oxidative resilience and adaptive mitochondrial capacity required to sustain neurotransmission during prolonged cognitive, metabolic and physiological demand. Rather than acting through a single pathway, these integrated capacities collectively preserve neuronal energy availability and reduce the likelihood that sustained physiological demand degrades neurotransmitter regulation within BRS1.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#harris_synaptic_energy_2012">Harris et al., 2012</a> — Landmark review establishing that most brain energy is consumed by synaptic transmission and describing how mitochondrial ATP supply constrains presynaptic vesicle cycling, postsynaptic signalling, Na+/K+-ATPase activity, and synaptic plasticity.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015">Picard, 2015</a> — Integrative review framing mitochondria as intracellular signal-processing networks at synapses, linking mitochondrial energetics and neuromodulation to neurotransmitter metabolism and coordinated neuronal output.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#harris_synaptic_energy_2012">Harris et al., 2012</a> — Demonstrated that synaptic signalling accounts for the largest proportion of neuronal energy expenditure and that sustained neurotransmission depends upon adequate mitochondrial ATP supply during increasing energetic demand.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015">Picard, 2015</a> — Reframed mitochondria as dynamic signalling and energetic organelles that coordinate cellular energetics with neuronal activity, supporting the interpretation of BRS4 as an upstream enabling system preserving BRS1 adaptive performance.</p></li>
 </ul>
 </div>
 </div>
@@ -367,13 +408,19 @@ Supports integrated regulation of exercise-driven mitochondrial biogenesis (form
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Gut-Metabolic Inputs to Mitochondrial Energetics (BRS5 → BRS4)</strong>
+<strong>(BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Microbial short-chain fatty acids and gut-derived metabolic signals influence mitochondrial energetics and cellular bioenergetic reserve.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS5 maintain adaptive microbial metabolite signalling capacity that enables BRS4 to sustain bioenergetic reserve under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these gut-derived metabolic signalling capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that impaired microbial metabolite availability progressively constrains mitochondrial bioenergetic capacity within BRS4 as systemic metabolic load accumulates. Maintaining BRS5 therefore complements substrate and cofactor biology within BRS4 by preserving gut-derived energetic support rather than substituting for mitochondrial regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS5 maintain fermentable-fibre-driven microbial ecology, short-chain fatty acid signalling and gut-derived metabolic inputs required to support cellular energy handling during prolonged physiological demand. Rather than acting through a single metabolite, these integrated capacities collectively influence how peripheral metabolic signals shape bioenergetic reserve within BRS4.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Perspectives review linking mitochondrial energy metabolism, glucose handling, and stress-related pathophysiology — providing a mechanistic frame for how gut-derived metabolic signals influence bioenergetic capacity.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Integrative gut–brain review covering microbial metabolite signalling and metabolic interactions that intersect mitochondrial and neuroendocrine adaptive regulation.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Linked mitochondrial energy metabolism, glucose handling and stress-related pathophysiology — supporting the framework interpretation that metabolic and neuroendocrine load shapes bioenergetic capacity within BRS4.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Synthesised microbial metabolite signalling intersecting metabolic and neuroendocrine adaptive regulation — supporting the interpretation of BRS5 as an upstream enabler of BRS4 bioenergetic performance.</p></li>
 </ul>
 </div>
 </div>
@@ -383,14 +430,24 @@ Supports integrated regulation of exercise-driven mitochondrial biogenesis (form
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Neuroendocrine Control of Bioenergetic Recovery (BRS6 → BRS4)</strong>
+<strong>(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Stress hormones, glycaemic load and neuroendocrine demand shape mitochondrial function and energetic recovery capacity.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive neuroendocrine and glycaemic stability that enables BRS4 to sustain mitochondrial bioenergetic capacity under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these stress–metabolic regulatory capacities, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. This reduces the likelihood that chronic stress-mediated metabolic dysregulation progressively compromises mitochondrial function within BRS4 as allostatic load accumulates. Maintaining BRS6 therefore complements substrate and cofactor biology within BRS4 by preserving systemic energetic stability rather than substituting for mitochondrial regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS6 maintain glycaemic–insulin stability, HPA-axis rhythm and stress–metabolic load allocation required to sustain mitochondrial energetic recovery during prolonged physiological demand. Rather than acting through glucocorticoids alone, these integrated capacities collectively coordinate how whole-body stress biology shapes bioenergetic reserve and recovery within BRS4.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Landmark review proposing mitochondrial allostatic load as a subcellular mechanism through which glucocorticoids, glucose imbalance, and chronic stress damage bioenergetic capacity.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Review of allostasis and allostatic load describing how stress mediators influence metabolic allocation, recovery, and cumulative biological wear with the brain as central interpreter and target.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Proposed mitochondrial allostatic load as the subcellular mechanism through which glucocorticoids, glucose imbalance and chronic stress damage bioenergetic capacity — supporting the BRS6 ↔ BRS4 adaptive bridge within the framework.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Established allostasis and allostatic load as frameworks for cumulative biological wear under stress-mediated metabolic allocation — supporting the interpretation that BRS6 coordinates systemic load that constrains BRS4 recovery capacity.</p></li>
 </ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>

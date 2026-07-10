@@ -1,201 +1,229 @@
 {
-  "version": "1.0",
-  "description": "Landmark mechanistic evidence for cross-BRS adaptive dependencies. Reused across manuscript summaries, hub pages, and translational content.",
+  "version": "2.2",
+  "description": "Landmark mechanistic evidence for cross-BRS adaptive dependencies. Four-section structure per relationship. BRS6→BRS1 carries the canonical allostasis implementation narrative. Authoring: system/brs-hub-levers-schema.md § Cross-BRS integration Evidence.",
   "integrations": {
     "BRS4->BRS1": {
       "title": "BRS4 → BRS1",
-      "summary": "Bioenergetic capacity supports neurotransmitter synthesis, vesicle cycling, membrane potential maintenance and synaptic signalling.",
+      "biological_contribution": "Collectively, the Functional Mechanisms within BRS4 maintain the adaptive bioenergetic reserve that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.",
+      "systems_significance": "By preserving these bioenergetic capacities, BRS4 reduces the likelihood that energetic limitation becomes the principal rate-limiting constraint on neurotransmitter regulation within BRS1 as allostatic load accumulates. BRS4 is not itself a neurotransmitter system. Instead, it functions as an upstream enabling system that preserves the bioenergetic conditions required for resilient neurotransmitter regulation. Maintaining BRS4 therefore complements neurotransmitter precursor and cofactor biology by preserving adaptive bioenergetic capacity rather than substituting for neurotransmitter regulation itself.",
+      "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS4 maintain energetic reserve, metabolic flexibility, oxidative resilience and adaptive mitochondrial capacity required to sustain neurotransmission during prolonged cognitive, metabolic and physiological demand. Rather than acting through a single pathway, these integrated capacities collectively preserve neuronal energy availability and reduce the likelihood that sustained physiological demand degrades neurotransmitter regulation within BRS1.",
       "evidence": [
         {
           "citation": "Harris et al. (2012)",
           "citation_key": "harris_synaptic_energy_2012",
-          "supports": "Landmark review establishing that most brain energy is consumed by synaptic transmission and describing how mitochondrial ATP supply constrains presynaptic vesicle cycling, postsynaptic signalling, Na+/K+-ATPase activity, and synaptic plasticity.",
+          "supports": "Demonstrated that synaptic signalling accounts for the largest proportion of neuronal energy expenditure and that sustained neurotransmission depends upon adequate mitochondrial ATP supply during increasing energetic demand.",
           "reference": "Harris, J. J., Jolivet, R., & Attwell, D. (2012). Synaptic energy use and supply. Neuron, 75(5), 762–777. https://doi.org/10.1016/j.neuron.2012.08.019"
         },
         {
           "citation": "Picard (2015)",
           "citation_key": "picard_mitochondrial_synapses_2015",
-          "supports": "Integrative review framing mitochondria as intracellular signal-processing networks at synapses, linking mitochondrial energetics and neuromodulation to neurotransmitter metabolism and coordinated neuronal output.",
+          "supports": "Reframed mitochondria as dynamic signalling and energetic organelles that coordinate cellular energetics with neuronal activity, supporting the interpretation of BRS4 as an upstream enabling system preserving BRS1 adaptive performance.",
           "reference": "Picard, M. (2015). Mitochondrial synapses: Intracellular communication and signal integration. Trends in Neurosciences, 38(8), 468–474. https://doi.org/10.1016/j.tins.2015.06.001"
         }
       ]
     },
     "BRS3->BRS1": {
       "title": "BRS3 → BRS1",
-      "summary": "Inflammatory and oxidative burden modulate neurotransmitter synthesis, metabolism and excitation–inhibition balance.",
+      "biological_contribution": "Collectively, the Functional Mechanisms within BRS3 maintain the adaptive inflammatory and redox resilience required to preserve an immune environment that supports resilient neurotransmitter regulation within BRS1 during prolonged physiological demand.",
+      "systems_significance": "By preserving these immune-regulatory capacities, BRS3 functions as an upstream enabling system, reducing the likelihood that inflammatory and oxidative burden progressively constrain neurotransmitter regulation within BRS1 as allostatic load accumulates. Maintaining BRS3 therefore complements neurotransmitter precursor and cofactor biology by preserving the biological environment within which resilient neurotransmitter regulation can be sustained, rather than substituting for neurotransmitter regulation itself.",
+      "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS3 maintain proportionate inflammatory signalling, antioxidant defence, oxidative resilience and active inflammation resolution required to preserve immune and redox stability during prolonged physiological demand. Rather than acting through a single inflammatory pathway, these integrated capacities collectively regulate how immune and oxidative load influences the biological environment within which BRS1 sustains neurotransmitter regulation.",
       "evidence": [
         {
           "citation": "Slavich & Irwin (2014)",
           "citation_key": "slavich_stress_inflammation_2014",
-          "supports": "Landmark integrative review describing how pro-inflammatory cytokine signalling alters central nervous system function, monoamine-related behaviour, and neurotransmitter biology downstream of immune activation.",
+          "supports": "Established that psychological and physiological stressors activate inflammatory signalling capable of reshaping central nervous system function through coordinated immune, neuroendocrine and neurochemical pathways. This supports the framework interpretation that chronic inflammatory activation can become a principal upstream constraint on BRS1 performance during sustained physiological demand.",
           "reference": "Slavich, G. M., & Irwin, M. R. (2014). From stress to inflammation and major depressive disorder: A social signal transduction theory of depression. Psychological Bulletin, 140(3), 774–815. https://doi.org/10.1037/a0035302"
         },
         {
           "citation": "Savitz (2019)",
           "citation_key": "savitz_kynurenine_2019",
-          "supports": "Comprehensive kynurenine-pathway review linking immune activation to glutamatergic and GABAergic neurotransmission, NMDA receptor signalling, and excitation–inhibition balance — a principal mechanistic bridge between inflammation and neurotransmitter regulation.",
+          "supports": "Demonstrated that immune activation reshapes neurotransmitter regulation through the kynurenine pathway and broader neuroimmune interactions, influencing both monoaminergic signalling and excitation–inhibition balance. This supports the BRAIN Framework interpretation that maintaining immune regulation preserves the biological environment required for resilient monoaminergic and excitation–inhibition regulation within BRS1.",
           "reference": "Savitz, J. (2019). The kynurenine pathway: A finger in every pie. Molecular Psychiatry, 25(1), 131–147. https://doi.org/10.1038/s41380-019-0414-4"
         }
       ]
     },
     "BRS6->BRS1": {
       "title": "BRS6 → BRS1",
-      "summary": "HPA-axis regulation, autonomic balance and glycaemic stability shape neurotransmitter signalling during stress and cognitive demand.",
+      "biological_contribution": "Collectively, the Functional Mechanisms within BRS6 maintain adaptive neuroendocrine coordination and metabolic stability that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.",
+      "systems_significance": "By preserving these whole-body regulatory capacities, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. When adaptive regulation becomes prolonged or dysregulated, this coordinated resource allocation progressively manifests as allostatic load across the wider BRS network. This reduces the likelihood that chronic neuroendocrine activation progressively constrains neurotransmitter regulation within BRS1 as allostatic load accumulates. BRS6 is not itself a neurotransmitter system; it coordinates the resource-allocation logic through which other Biological Regulatory Systems — including BRS1 — sustain resilient performance under demand. Maintaining BRS6 therefore complements neurotransmitter precursor and cofactor biology by preserving the systemic regulatory environment within which resilient neurotransmitter regulation can be sustained, rather than substituting for neurotransmitter regulation itself.",
+      "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS6 coordinate glycaemic regulation, HPA-axis rhythm, autonomic balance and stress-responsive metabolic allocation, continuously adjusting physiological resource distribution to meet changing environmental and cognitive demands. When these regulatory capacities remain proportionate, they help preserve adaptive performance across the wider BRS network. When they become chronically activated or poorly resolved, increasing allostatic load progressively constrains the performance of interconnected Biological Regulatory Systems.",
       "evidence": [
         {
           "citation": "McEwen (1998)",
           "citation_key": "mcewen_protective_damaging_1998",
-          "supports": "Foundational review of how stress mediators — particularly cortisol dynamics — protect and damage brain structure and function, with direct implications for neurotransmitter systems and cognitive performance under adaptive demand.",
+          "supports": "Established allostatic load as cumulative biological wear arising when stress mediators protect or damage brain structure and function under sustained adaptive demand — supporting the framework interpretation that dysregulated neuroendocrine load may become a principal constraint on BRS1 performance.",
           "reference": "McEwen, B. S. (1998). Protective and damaging effects of stress mediators. New England Journal of Medicine, 338(3), 171–179. https://doi.org/10.1056/NEJM199801083380307"
+        },
+        {
+          "citation": "McEwen (2006)",
+          "citation_key": "mcewen_stress_mediators_2006",
+          "supports": "Positioned the brain as the central interpreter and target of stress-mediated adaptive regulation — supporting the framework interpretation that BRS6 coordinates how allostatic load is allocated across integrated biological systems including neurotransmitter regulation within BRS1.",
+          "reference": "McEwen, B. S. (2006). Protective and damaging effects of stress mediators in health and disease. Dialogues in Clinical Neuroscience, 8(4), 377–384. https://doi.org/10.31887/DCNS.2006.8.4/bmcewen"
         },
         {
           "citation": "Thayer et al. (2012)",
           "citation_key": "thayer_2012_22178086",
-          "supports": "Meta-analytic review linking autonomic regulation (heart-rate variability) to stress neurobiology, cortisol dynamics, and central nervous system function — supporting autonomic–neurotransmitter coupling under load.",
+          "supports": "Demonstrated intimate coupling between autonomic regulatory capacity, stress neurobiology and central nervous system function — supporting the interpretation of BRS6 autonomic stability as an upstream enabler of BRS1 adaptive performance during sustained physiological demand.",
           "reference": "Thayer, J. F., Ahs, F., Fredrikson, M., Sollers, J. J., & Wager, T. D. (2012). A meta-analysis of heart rate variability and neuroimaging studies: Implications for heart rate variability as a marker of stress and health. Neuroscience & Biobehavioral Reviews, 36(2), 747–756. https://doi.org/10.1016/j.neubiorev.2011.11.009"
         }
       ]
     },
     "BRS2->BRS1": {
       "title": "BRS2 → BRS1",
-      "summary": "One-carbon metabolism and BH4-dependent cofactor chemistry support monoamine synthesis, membrane methylation and neurotransmitter precursor handling.",
+      "biological_contribution": "Collectively, the Functional Mechanisms within BRS2 maintain adaptive methyl-donor and cofactor capacity that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.",
+      "systems_significance": "By preserving these one-carbon metabolic capacities, BRS2 functions as an upstream enabling system, reducing the likelihood that methyl-donor or cofactor insufficiency progressively limits monoamine synthesis and wider neurotransmitter regulation within BRS1 as metabolic demand intensifies. Maintaining BRS2 therefore complements neurotransmitter precursor availability by preserving the biological environment within which resilient neurochemical regulation can be sustained, rather than substituting for neurotransmitter regulation itself.",
+      "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS2 maintain methylation cycle efficiency, transsulfuration-linked redox coupling and methylation–membrane integrity required to sustain methyl-donor reserves, cofactor chemistry and membrane-related neurochemical support during prolonged physiological demand. Rather than acting through a single biosynthetic step, these integrated capacities collectively preserve the cofactor and methylation context required for stable neurotransmitter regulation within BRS1.",
       "evidence": [
         {
           "citation": "Fanet et al. (2021)",
           "citation_key": "fanet_tetrahydrobioterin_2021",
-          "supports": "Mechanistic review of tetrahydrobiopterin (BH4) as an essential cofactor for dopamine and serotonin synthesis, linking one-carbon–adjacent cofactor biology to central neurotransmission and inflammatory–oxidative modulation of monoamine pathways.",
+          "supports": "Established that essential cofactor chemistry underpins central monoamine synthesis and neurotransmitter-regulatory capacity — supporting the framework interpretation that BRS2 cofactor reserves may become a principal rate-limiting constraint on monoaminergic regulation when one-carbon metabolism is strained.",
           "reference": "Fanet, H., Capuron, L., Castanon, N., Calon, F., & Vancassel, S. (2021). Tetrahydrobiopterin (BH4) pathway: From metabolism to neuropsychiatry. Current Neuropharmacology, 19(5), 591–609. https://doi.org/10.2174/1570159X18666200729103529"
         },
         {
           "citation": "Kennedy (2016)",
           "citation_key": "kennedy_b_2016",
-          "supports": "Integrative review of B-vitamin roles in brain function, including methylation-dependent synthesis of neurochemicals and signalling molecules that underpin monoaminergic and wider neurotransmitter biology.",
+          "supports": "Demonstrated that B-vitamin-dependent one-carbon metabolism supports brain neurochemical synthesis — supporting the interpretation of BRS2 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.",
           "reference": "Kennedy, D. O. (2016). B vitamins and the brain: Mechanisms, dose and efficacy—A review. Nutrients, 8(2), 68. https://doi.org/10.3390/nu8020068"
         }
       ]
     },
     "BRS5->BRS1": {
       "title": "BRS5 → BRS1",
-      "summary": "Gut-derived microbial metabolites and vagal signalling modulate central neurotransmitter receptor expression and stress-linked neurochemical regulation.",
+      "biological_contribution": "Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut–brain interface resilience that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.",
+      "systems_significance": "By preserving these gut–brain interface capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that impaired gut-derived signalling or substrate availability progressively constrains neurochemical regulation within BRS1 as peripheral immune or metabolic load accumulates. Maintaining BRS5 therefore complements neurotransmitter precursor and cofactor biology by preserving the biological environment within which resilient neurotransmitter regulation can be sustained, rather than substituting for neurotransmitter regulation itself.",
+      "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS5 maintain gut barrier integrity, microbial metabolite signalling capacity and gut–vagal neuromodulation required to preserve stable peripheral-to-central signalling during prolonged physiological demand. Rather than acting through a single gut–brain pathway, these integrated capacities collectively regulate how host–microbial signalling shapes the biological environment within which BRS1 sustains neurotransmitter regulation.",
       "evidence": [
         {
           "citation": "Bravo et al. (2011)",
           "citation_key": "bravo_ingestion_2011",
-          "supports": "Landmark experimental demonstration that gut microbiota modulate central GABA receptor expression and stress-related neurochemistry via the vagus nerve — a foundational gut–brain neurotransmitter mechanism.",
+          "supports": "Demonstrated that gut microbiota can modulate central neurochemical regulation through vagal signalling pathways — supporting the framework interpretation that impaired gut–brain communication may become a principal constraint on neurotransmitter regulation during sustained peripheral perturbation.",
           "reference": "Bravo, J. A., Forsythe, P., Chew, M. V., Escaravage, E. M., Savignac, H. M., Dinan, T. G., Bienenstock, J., & Cryan, J. F. (2011). Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve. Proceedings of the National Academy of Sciences, 108(38), 16050–16055. https://doi.org/10.1073/pnas.1102999108"
         },
         {
           "citation": "Jaggar et al. (2020)",
           "citation_key": "jaggar_sex_microbiota_gut_brain_axis_2020",
-          "supports": "Integrative microbiota–gut–brain axis review synthesising how microbial metabolites, immune signalling, and vagal pathways influence central nervous system function and neurotransmitter-related behaviour.",
+          "supports": "Synthesised how microbial metabolite and vagal signalling interact with central nervous system function — supporting the interpretation of BRS5 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.",
           "reference": "Jaggar, M., Rea, K., Spichak, S., Dinan, T. G., & Cryan, J. F. (2020). You've got male: Sex and the microbiota-gut-brain axis across the lifespan. Frontiers in Neuroendocrinology, 56, 100815. https://doi.org/10.1016/j.yfrne.2019.100815"
         }
       ]
     },
     "BRS2->BRS3": {
       "title": "BRS2 → BRS3",
-      "summary": "Transsulfuration-linked substrate flux from one-carbon metabolism supports glutathione-centred antioxidant defence.",
+      "biological_contribution": "Collectively, the Functional Mechanisms within BRS2 maintain adaptive one-carbon metabolic flux and transsulfuration coupling that enables BRS3 to sustain antioxidant defence and redox resilience under prolonged physiological demand.",
+      "systems_significance": "By preserving these methyl-donor and transsulfuration capacities, BRS2 functions as an upstream enabling system, reducing the likelihood that constrained one-carbon flux progressively limits glutathione-centred redox defence within BRS3 as metabolic demand intensifies. Maintaining BRS2 therefore complements direct antioxidant substrate biology within BRS3 by preserving biosynthetic capacity rather than substituting for inflammatory and oxidative regulation itself.",
+      "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS2 maintain methylation cycle efficiency and transsulfuration-linked substrate routing required to sustain cysteine and glutathione precursor availability during prolonged physiological demand. Rather than acting through a single enzymatic step, these integrated capacities collectively connect one-carbon metabolism to redox defence capacity within BRS3.",
       "evidence": [
         {
           "citation": "Kumar et al. (2017)",
           "citation_key": "kumar_transsulfuration_2017",
-          "supports": "Review of transsulfuration from homocysteine to cysteine and glutathione, connecting one-carbon metabolic flux to redox defence capacity within BRS3.",
+          "supports": "Described transsulfuration flux from homocysteine to cysteine and glutathione — supporting the framework interpretation that BRS2 substrate routing enables BRS3 redox defence capacity.",
           "reference": "Kumar, N., Kaur, G., & Kaur, S. (2017). The transsulfuration pathway. World Journal of Hepatology, 9(16), 745–750. https://doi.org/10.4254/wjh.v9.i16.745"
         },
         {
           "citation": "Chiang et al. (1996)",
           "citation_key": "chiang_s-adenosylmethionine_1996",
-          "supports": "Foundational review of S-adenosylmethionine as the principal methyl donor, describing how one-carbon flux allocation influences downstream transsulfuration and cellular redox chemistry.",
+          "supports": "Established one-carbon flux allocation as a determinant of downstream transsulfuration and cellular redox chemistry — supporting the interpretation of BRS2 as an upstream enabling system for BRS3 antioxidant resilience.",
           "reference": "Chiang, P. K., Gordon, R. K., Tal, J., Zeng, G. C., Doctor, B. P., Pardhasaradhi, K., & McCann, P. P. (1996). S-Adenosylmethionine and methylation. FASEB Journal, 10(5), 471–480."
         }
       ]
     },
     "BRS5->BRS3": {
       "title": "BRS5 → BRS3",
-      "summary": "Gut barrier integrity and microbial immune signalling influence systemic inflammatory tone and oxidative load.",
+      "biological_contribution": "Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut barrier and microbial immune containment that enables BRS3 to sustain proportionate inflammatory tone under prolonged physiological demand.",
+      "systems_significance": "By preserving these gut–immune interface capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that gut-derived immune signalling progressively amplifies systemic inflammatory burden within BRS3 as peripheral load accumulates. Maintaining BRS5 therefore complements direct immune-modulatory biology within BRS3 by preserving barrier containment rather than substituting for inflammatory regulation itself.",
+      "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS5 maintain gut barrier integrity, microbial ecological stability and gut-derived immune signalling containment required to limit inappropriate inflammatory spillover during prolonged physiological demand. Rather than acting through a single barrier mechanism, these integrated capacities collectively regulate how peripheral immune signals shape inflammatory tone within BRS3.",
       "evidence": [
         {
           "citation": "O'Mahony et al. (2015)",
           "citation_key": "omahony_serotonin_2015",
-          "supports": "Review of microbiota–gut–brain communication describing immune and serotonergic signalling pathways through which gut ecology modulates central and peripheral inflammatory biology.",
+          "supports": "Synthesised microbiota–gut–brain communication pathways linking gut ecology to peripheral and central inflammatory biology — supporting the framework interpretation that BRS5 gut–immune signalling shapes BRS3 inflammatory tone.",
           "reference": "O'Mahony, S. M., Clarke, G., Borre, Y. E., Dinan, T. G., & Cryan, J. F. (2015). Serotonin, tryptophan metabolism and the brain-gut-microbiome axis. Behavioural Brain Research, 277, 32–48. https://doi.org/10.1016/j.bbr.2014.07.027"
         },
         {
           "citation": "Slavich & Irwin (2014)",
           "citation_key": "slavich_stress_inflammation_2014",
-          "supports": "Integrative framework linking environmental and social stressors to pro-inflammatory signalling — relevant to how gut-immune perturbation propagates inflammatory burden across systems.",
+          "supports": "Established stress-to-inflammation signalling as a systems-level pathway reshaping immune and neuroendocrine biology — supporting the interpretation that gut–immune perturbation can propagate inflammatory burden across BRS3 and connected systems.",
           "reference": "Slavich, G. M., & Irwin, M. R. (2014). From stress to inflammation and major depressive disorder: A social signal transduction theory of depression. Psychological Bulletin, 140(3), 774–815. https://doi.org/10.1037/a0035302"
         }
       ]
     },
     "BRS5->BRS4": {
       "title": "BRS5 → BRS4",
-      "summary": "Microbial short-chain fatty acids and gut-derived metabolic signals influence mitochondrial energetics and cellular bioenergetic reserve.",
+      "biological_contribution": "Collectively, the Functional Mechanisms within BRS5 maintain adaptive microbial metabolite signalling capacity that enables BRS4 to sustain bioenergetic reserve under prolonged physiological demand.",
+      "systems_significance": "By preserving these gut-derived metabolic signalling capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that impaired microbial metabolite availability progressively constrains mitochondrial bioenergetic capacity within BRS4 as systemic metabolic load accumulates. Maintaining BRS5 therefore complements substrate and cofactor biology within BRS4 by preserving gut-derived energetic support rather than substituting for mitochondrial regulation itself.",
+      "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS5 maintain fermentable-fibre-driven microbial ecology, short-chain fatty acid signalling and gut-derived metabolic inputs required to support cellular energy handling during prolonged physiological demand. Rather than acting through a single metabolite, these integrated capacities collectively influence how peripheral metabolic signals shape bioenergetic reserve within BRS4.",
       "evidence": [
         {
           "citation": "Picard et al. (2014)",
           "citation_key": "picard_mitochondrial_allostatic_load_2014",
-          "supports": "Perspectives review linking mitochondrial energy metabolism, glucose handling, and stress-related pathophysiology — providing a mechanistic frame for how gut-derived metabolic signals influence bioenergetic capacity.",
+          "supports": "Linked mitochondrial energy metabolism, glucose handling and stress-related pathophysiology — supporting the framework interpretation that metabolic and neuroendocrine load shapes bioenergetic capacity within BRS4.",
           "reference": "Picard, M., Juster, R.-P., & McEwen, B. S. (2014). Mitochondrial allostatic load puts the 'gluc' back in glucocorticoids. Nature Reviews Endocrinology, 10(5), 303–310. https://doi.org/10.1038/nrendo.2014.22"
         },
         {
           "citation": "Jaggar et al. (2020)",
           "citation_key": "jaggar_sex_microbiota_gut_brain_axis_2020",
-          "supports": "Integrative gut–brain review covering microbial metabolite signalling and metabolic interactions that intersect mitochondrial and neuroendocrine adaptive regulation.",
+          "supports": "Synthesised microbial metabolite signalling intersecting metabolic and neuroendocrine adaptive regulation — supporting the interpretation of BRS5 as an upstream enabler of BRS4 bioenergetic performance.",
           "reference": "Jaggar, M., Rea, K., Spichak, S., Dinan, T. G., & Cryan, J. F. (2020). You've got male: Sex and the microbiota-gut-brain axis across the lifespan. Frontiers in Neuroendocrinology, 56, 100815. https://doi.org/10.1016/j.yfrne.2019.100815"
         }
       ]
     },
     "BRS6->BRS4": {
       "title": "BRS6 → BRS4",
-      "summary": "Stress hormones, glycaemic load and neuroendocrine demand shape mitochondrial function and energetic recovery capacity.",
+      "biological_contribution": "Collectively, the Functional Mechanisms within BRS6 maintain adaptive neuroendocrine and glycaemic stability that enables BRS4 to sustain mitochondrial bioenergetic capacity under prolonged physiological demand.",
+      "systems_significance": "By preserving these stress–metabolic regulatory capacities, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. This reduces the likelihood that chronic stress-mediated metabolic dysregulation progressively compromises mitochondrial function within BRS4 as allostatic load accumulates. Maintaining BRS6 therefore complements substrate and cofactor biology within BRS4 by preserving systemic energetic stability rather than substituting for mitochondrial regulation itself.",
+      "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS6 maintain glycaemic–insulin stability, HPA-axis rhythm and stress–metabolic load allocation required to sustain mitochondrial energetic recovery during prolonged physiological demand. Rather than acting through glucocorticoids alone, these integrated capacities collectively coordinate how whole-body stress biology shapes bioenergetic reserve and recovery within BRS4.",
       "evidence": [
         {
           "citation": "Picard et al. (2014)",
           "citation_key": "picard_mitochondrial_allostatic_load_2014",
-          "supports": "Landmark review proposing mitochondrial allostatic load as a subcellular mechanism through which glucocorticoids, glucose imbalance, and chronic stress damage bioenergetic capacity.",
+          "supports": "Proposed mitochondrial allostatic load as the subcellular mechanism through which glucocorticoids, glucose imbalance and chronic stress damage bioenergetic capacity — supporting the BRS6 ↔ BRS4 adaptive bridge within the framework.",
           "reference": "Picard, M., Juster, R.-P., & McEwen, B. S. (2014). Mitochondrial allostatic load puts the 'gluc' back in glucocorticoids. Nature Reviews Endocrinology, 10(5), 303–310. https://doi.org/10.1038/nrendo.2014.22"
         },
         {
           "citation": "McEwen (2006)",
           "citation_key": "mcewen_stress_mediators_2006",
-          "supports": "Review of allostasis and allostatic load describing how stress mediators influence metabolic allocation, recovery, and cumulative biological wear with the brain as central interpreter and target.",
+          "supports": "Established allostasis and allostatic load as frameworks for cumulative biological wear under stress-mediated metabolic allocation — supporting the interpretation that BRS6 coordinates systemic load that constrains BRS4 recovery capacity.",
           "reference": "McEwen, B. S. (2006). Protective and damaging effects of stress mediators in health and disease. Dialogues in Clinical Neuroscience, 8(4), 377–384. https://doi.org/10.31887/DCNS.2006.8.4/bmcewen"
         }
       ]
     },
     "BRS6->BRS3": {
       "title": "BRS6 → BRS3",
-      "summary": "HPA-axis and autonomic stress signalling interact with inflammatory and oxidative biology during sustained adaptive demand.",
+      "biological_contribution": "Collectively, the Functional Mechanisms within BRS6 maintain adaptive stress–metabolic load allocation that enables BRS3 to sustain immune and redox regulation under prolonged physiological demand.",
+      "systems_significance": "By preserving neuroendocrine and autonomic regulatory capacity, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. This reduces the likelihood that chronic stress activation progressively constrains immune regulation within BRS3 as allostatic load accumulates. Maintaining BRS6 therefore complements direct immune-modulatory biology within BRS3 by preserving systemic stress containment rather than substituting for inflammatory regulation itself.",
+      "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS6 maintain HPA-axis rhythm, autonomic balance and metabolic load allocation required to regulate how stress mediators interact with inflammatory and oxidative biology during prolonged physiological demand. Rather than acting through a single stress hormone, these integrated capacities collectively shape the systemic conditions within which BRS3 sustains proportionate immune and redox regulation.",
       "evidence": [
         {
           "citation": "McEwen (2006)",
           "citation_key": "mcewen_stress_mediators_2006",
-          "supports": "Foundational allostasis review describing bidirectional interactions between stress mediators, immune-inflammatory processes, and cumulative regulatory burden.",
+          "supports": "Described bidirectional interactions between stress mediators, immune-inflammatory processes and cumulative regulatory burden — supporting the framework interpretation that BRS6 stress biology shapes BRS3 inflammatory load.",
           "reference": "McEwen, B. S. (2006). Protective and damaging effects of stress mediators in health and disease. Dialogues in Clinical Neuroscience, 8(4), 377–384. https://doi.org/10.31887/DCNS.2006.8.4/bmcewen"
         },
         {
           "citation": "Slavich & Irwin (2014)",
           "citation_key": "slavich_stress_inflammation_2014",
-          "supports": "Integrative review linking stress neurobiology to pro-inflammatory cytokine activation and downstream CNS consequences — the principal mechanistic bridge between neuroendocrine stress and inflammatory load.",
+          "supports": "Operationalised social and psychological stress as inflammatory signals reshaping neuroimmune biology — supporting the BRS6 → BRS3 pathway as a principal stress-to-inflammation bridge within the integrated BRS network.",
           "reference": "Slavich, G. M., & Irwin, M. R. (2014). From stress to inflammation and major depressive disorder: A social signal transduction theory of depression. Psychological Bulletin, 140(3), 774–815. https://doi.org/10.1037/a0035302"
         }
       ]
     },
     "BRS5->BRS6": {
       "title": "BRS5 → BRS6",
-      "summary": "Gut–vagal signalling and microbial metabolites influence autonomic tone and stress-axis responsiveness.",
+      "biological_contribution": "Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut–vagal neuromodulation and microbial signalling that enables BRS6 to sustain stress-axis responsiveness under prolonged physiological demand.",
+      "systems_significance": "By preserving these gut–brain interface capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that impaired vagal or microbial signalling progressively disrupts autonomic and HPA-axis regulation within BRS6 as peripheral load accumulates. Maintaining BRS5 therefore complements neuroendocrine biology within BRS6 by preserving gut-derived modulatory input rather than substituting for stress-axis regulation itself.",
+      "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS5 maintain gut barrier integrity, microbial metabolite signalling and gut–vagal neuromodulation required to regulate autonomic tone and stress-axis responsiveness during prolonged physiological demand. Rather than acting through a single microbial pathway, these integrated capacities collectively shape how peripheral signals influence neuroendocrine recovery capacity within BRS6.",
       "evidence": [
         {
           "citation": "Bravo et al. (2011)",
           "citation_key": "bravo_ingestion_2011",
-          "supports": "Experimental evidence that gut microbiota modulate HPA-axis stress responses and central neurochemistry via vagal pathways.",
+          "supports": "Demonstrated that gut microbiota modulate HPA-axis stress responses via vagal pathways — supporting the framework interpretation that BRS5 gut–vagal signalling shapes BRS6 stress-axis responsiveness.",
           "reference": "Bravo, J. A., Forsythe, P., Chew, M. V., Escaravage, E. M., Savignac, H. M., Dinan, T. G., Bienenstock, J., & Cryan, J. F. (2011). Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve. Proceedings of the National Academy of Sciences, 108(38), 16050–16055. https://doi.org/10.1073/pnas.1102999108"
         },
         {
           "citation": "Thayer et al. (2012)",
           "citation_key": "thayer_2012_22178086",
-          "supports": "Review linking autonomic regulation to stress neurobiology and central nervous system function — supporting vagal–neuroendocrine integration.",
+          "supports": "Linked autonomic regulatory capacity to stress neurobiology and central nervous system function — supporting the interpretation of vagal–neuroendocrine integration as a BRS5 → BRS6 enabling pathway.",
           "reference": "Thayer, J. F., Ahs, F., Fredrikson, M., Sollers, J. J., & Wager, T. D. (2012). A meta-analysis of heart rate variability and neuroimaging studies: Implications for heart rate variability as a marker of stress and health. Neuroscience & Biobehavioral Reviews, 36(2), 747–756. https://doi.org/10.1016/j.neubiorev.2011.11.009"
         }
       ]
@@ -208,5 +236,68 @@
     "BRS4": ["BRS4->BRS1", "BRS5->BRS4", "BRS6->BRS4"],
     "BRS5": ["BRS5->BRS1", "BRS5->BRS3", "BRS5->BRS4", "BRS5->BRS6"],
     "BRS6": ["BRS6->BRS1", "BRS6->BRS3", "BRS6->BRS4", "BRS5->BRS6"]
+  },
+  "allostasis_reference_tiers": {
+    "description": "Foundational allostasis literature. Canonical biological implementation of allostasis: BRS6→BRS1 Cross-BRS Integrated Regulatory Capacity. Introduce theory in BRS6→BRS1 Systems Significance; cite within Cross-BRS Supporting Evidence where relationships involve load allocation, resilience or cumulative constraint.",
+    "tier_1_foundational": [
+      {
+        "citation": "Sterling & Eyer (1988)",
+        "citation_key": "sterling_allostasis_1988",
+        "role": "Original allostasis paradigm — stability through change; predictive physiology"
+      },
+      {
+        "citation": "McEwen (1998)",
+        "citation_key": "mcewen_protective_damaging_1998",
+        "role": "Allostatic load; adaptive vs maladaptive stress responses; cumulative biological wear"
+      },
+      {
+        "citation": "McEwen (2006)",
+        "citation_key": "mcewen_stress_mediators_2006",
+        "role": "Brain as central interpreter and target of adaptive stress regulation"
+      }
+    ],
+    "tier_2_network_biology": [
+      {
+        "citation": "McEwen & Wingfield (2003)",
+        "citation_key": null,
+        "role": "Allostasis beyond endocrinology — interacting systems and energy allocation. Add to bibliography when integrated.",
+        "note": "Pending bibliography entry"
+      },
+      {
+        "citation": "Picard et al. (2014)",
+        "citation_key": "picard_mitochondrial_allostatic_load_2014",
+        "role": "Mitochondrial allostatic load — BRS6 ↔ BRS4 bridge"
+      },
+      {
+        "citation": "Picard (2015)",
+        "citation_key": "picard_mitochondrial_synapses_2015",
+        "role": "Mitochondria as adaptive signalling organelles — BRS4"
+      }
+    ],
+    "tier_3_systems_extensions": [
+      {
+        "citation": "Picard (2018) — Mitochondrial psychobiology",
+        "citation_key": null,
+        "role": "Mitochondria respond to and shape stress adaptation. Pending bibliography entry."
+      },
+      {
+        "citation": "Picard & McEwen — Psychological stress and mitochondria",
+        "citation_key": null,
+        "role": "Explicit stress → mitochondria → adaptive biology link. Pending bibliography entry."
+      },
+      {
+        "citation": "Slavich & Irwin (2014)",
+        "citation_key": "slavich_stress_inflammation_2014",
+        "role": "Social signal transduction — BRS6 → BRS3 → brain pathway"
+      }
+    ]
+  },
+  "brs_adaptive_resilience_roles": {
+    "BRS1": "resilient neurotransmitter regulation and neurochemical signalling",
+    "BRS2": "methylation, biosynthetic and repair capacity",
+    "BRS3": "inflammatory and oxidative resilience",
+    "BRS4": "bioenergetic reserve and adaptive mitochondrial capacity",
+    "BRS5": "gut-derived signalling, substrate availability and host–microbial regulation",
+    "BRS6": "neuroendocrine resource allocation, stress adaptation and physiological recovery"
   }
 }

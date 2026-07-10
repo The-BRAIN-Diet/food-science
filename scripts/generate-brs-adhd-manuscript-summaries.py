@@ -28,17 +28,13 @@ with INTEGRATION_LIBRARY_PATH.open(encoding="utf-8") as handle:
 
 ALLOSTASIS_INTRO = (
     "The BRAIN Framework does not propose allostatic load as a primary explanation of ADHD. "
-    "Instead, it uses allostatic theory as a complementary organising model for understanding "
-    "how ADHD-relevant biological systems may contribute to adaptive capacity, resilience, and "
-    "regulatory burden. Neural, autonomic, endocrine, immune, and metabolic systems coordinate "
-    "responses to environmental, behavioural, and physiological demand. When these responses are "
-    "repeatedly activated, poorly resolved, or chronically dysregulated, regulatory burden can "
-    "accumulate — shifting biological set-points and influencing cognition, emotion, fatigue, "
-    "reward processing, and treatment response.\n\n"
-    "BRS6 — Metabolic & Neuroendocrine Regulation — provides the principal gateway to allostatic "
-    "theory because it integrates HPA-axis rhythm, autonomic balance, glycaemic stability, and "
-    "stress-linked metabolic allocation. However, effective adaptation depends on the coordinated "
-    "performance of all six Biological Regulatory Systems. Each BRS summary below establishes the "
+    "Instead, it uses allostatic theory as a complementary organising model for adaptive capacity, "
+    "resilience, and regulatory burden across the integrated Biological Regulatory System network.\n\n"
+    "BRS6 — Metabolic & Neuroendocrine Regulation — functions as the principal gateway through which "
+    "neuroendocrine and metabolic resources are allocated across that network. The full biological "
+    "definition of how allostasis is implemented — including coordinated resource allocation, "
+    "proportionate adaptation, and cumulative allostatic load — is developed in the (BRS6 → BRS1) "
+    "Cross-BRS integration section within the BRS1 summary below. Each BRS summary establishes the "
     "scientific identity of that system in ADHD and explains how it may shape modifiable biology "
     "and adaptive capacity."
 )
@@ -542,9 +538,25 @@ def collect_integration_references(integrations: list[dict]) -> list[str]:
     return references
 
 
+def compose_integration_summary(integration: dict) -> str:
+    if integration.get("summary"):
+        return integration["summary"]
+    parts = [
+        integration.get("biological_contribution", ""),
+        integration.get("systems_significance", ""),
+        integration.get("integrated_regulatory_capacity", ""),
+    ]
+    return " ".join(part for part in parts if part)
+
+
 def add_integration_evidence(doc: Document, integrations: list[dict]) -> int:
     add_body_paragraphs(doc, "Cross-BRS integration Evidence", heading_level=2, heading_size=13)
     word_count = 0
+    section_labels = [
+        ("Biological Contribution", "biological_contribution"),
+        ("Systems Significance", "systems_significance"),
+        ("Integrated Regulatory Capacity", "integrated_regulatory_capacity"),
+    ]
 
     for index, integration in enumerate(integrations, start=1):
         p = doc.add_paragraph()
@@ -552,15 +564,28 @@ def add_integration_evidence(doc: Document, integrations: list[dict]) -> int:
         p.paragraph_format.space_after = Pt(4)
         p.paragraph_format.left_indent = Inches(0.25)
 
-        label = p.add_run(f"{index}. {integration['title']} — ")
+        label = p.add_run(f"{index}. {integration['title']}")
         label.bold = True
         label.font.name = "Times New Roman"
         label.font.size = Pt(12)
+        word_count += len(integration["title"].split())
 
-        statement = p.add_run(integration["summary"])
-        statement.font.name = "Times New Roman"
-        statement.font.size = Pt(12)
-        word_count += len(integration["summary"].split())
+        for heading, field in section_labels:
+            body = integration.get(field, "")
+            if not body:
+                continue
+            hp = doc.add_paragraph()
+            hp.paragraph_format.line_spacing_rule = WD_LINE_SPACING.DOUBLE
+            hp.paragraph_format.space_after = Pt(2)
+            hp.paragraph_format.left_indent = Inches(0.35)
+            ht = hp.add_run(f"{heading}: ")
+            ht.bold = True
+            ht.font.name = "Times New Roman"
+            ht.font.size = Pt(12)
+            hb = hp.add_run(body)
+            hb.font.name = "Times New Roman"
+            hb.font.size = Pt(12)
+            word_count += len(body.split())
 
         for item in integration["evidence"]:
             ep = doc.add_paragraph()
@@ -620,7 +645,7 @@ def add_section(doc: Document, section: dict) -> int:
         for s in section["landmark_studies"]
     )
     word_count += integration_word_count
-    word_count += sum(len(item["summary"].split()) for item in integrations)
+    word_count += sum(len(compose_integration_summary(item).split()) for item in integrations)
     return word_count
 
 

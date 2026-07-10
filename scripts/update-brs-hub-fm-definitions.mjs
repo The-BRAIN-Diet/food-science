@@ -19,55 +19,37 @@ const HUB_CONFIGS = [
     file: "neurotransmitter-regulation.md",
     fmPaths: () => listFmFilesForBrs(1),
     replace: (content, section) =>
-      content.replace(
-        /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
-        `${section}---\n\n## Requirements`,
-      ),
+      content.replace(/## Functional Mechanisms[\s\S]*?(?=\n## )/, section),
   },
   {
     file: "methylation-one-carbon-metabolism.md",
     fmPaths: () => listFmFilesForBrs(2),
     replace: (content, section) =>
-      content.replace(
-        /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
-        `${section}---\n\n## Requirements`,
-      ),
+      content.replace(/## Functional Mechanisms[\s\S]*?(?=\n## )/, section),
   },
   {
     file: "inflammation-oxidative-stress.md",
     fmPaths: () => listFmFilesForBrs(3),
     replace: (content, section) =>
-      content.replace(
-        /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
-        `${section}---\n\n## Requirements`,
-      ),
+      content.replace(/## Functional Mechanisms[\s\S]*?(?=\n## )/, section),
   },
   {
     file: "mitochondrial-function-bioenergetics.md",
     fmPaths: () => listFmFilesForBrs(4),
     replace: (content, section) =>
-      content.replace(
-        /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
-        `${section}---\n\n## Requirements`,
-      ),
+      content.replace(/## Functional Mechanisms[\s\S]*?(?=\n## )/, section),
   },
   {
     file: "gut-brain-axis-enteric-nervous-system.md",
     fmPaths: () => listFmFilesForBrs(5),
     replace: (content, section) =>
-      content.replace(
-        /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
-        `${section}---\n\n## Requirements`,
-      ),
+      content.replace(/## Functional Mechanisms[\s\S]*?(?=\n## )/, section),
   },
   {
     file: "metabolic-neuroendocrine-stress.md",
     fmPaths: () => listFmFilesForBrs(6),
     replace: (content, section) =>
-      content.replace(
-        /## Functional Mechanisms[\s\S]*?\n---\n\n## Requirements/,
-        `${section}---\n\n## Requirements`,
-      ),
+      content.replace(/## Functional Mechanisms[\s\S]*?(?=\n## )/, section),
   },
   {
     file: "brs-x/ecs/endocannabinoid-system.md",

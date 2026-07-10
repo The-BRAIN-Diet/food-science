@@ -169,6 +169,22 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>BRS1(FM1) — Monoaminergic Function</li>
+  <li>BRS1(FM2) — Cholinergic Function</li>
+  <li>BRS1(FM3) — Membrane Composition, Fluidity &amp; Structural Lipid Integrity</li>
+  <li>BRS1(FM4) — GABA–Glutamate Regulation</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
@@ -190,7 +206,7 @@ Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Fram
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Supports attention, motivation, arousal, emotional regulation, and behavioural control through the brain's dopamine, noradrenaline, and serotonin systems (collectively known as the monoamine neurotransmitter systems). Stable signalling across these systems underpins many day-to-day cognitive and emotional functions.
+Maintains monoaminergic signalling capacity by coordinating amino-acid precursor availability, LNAA transport balance, and noradrenergic-serotonergic regulation.
 
 **FM page:** [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function)
 
@@ -228,7 +244,7 @@ Supports attention, motivation, arousal, emotional regulation, and behavioural c
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Supports attention, working memory, and cognitive precision through the brain's cholinergic signalling system (acetylcholine-based communication between neurons). Dietary choline and related substrates help maintain the biochemical foundation for learning-focused brain activity.
+Maintains cholinergic signalling capacity to support attention, working memory, and learning-focused cognitive precision.
 
 **FM page:** [BRS1(FM2) — Cholinergic Function](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function)
 
@@ -264,7 +280,7 @@ Supports attention, working memory, and cognitive precision through the brain's 
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Supports healthy neuronal membranes and the long-chain omega-3 fats the brain needs for stable signalling. Getting DHA to the brain in the right carrier form (phospholipid-bound transport) helps maintain membrane flexibility and structural integrity over time.
+Maintains neuronal membrane DHA integration and phospholipid-mediated omega-3 delivery to support stable signalling and membrane integrity.
 
 **FM page:** [BRS1(FM3) — Membrane Composition, Fluidity & Structural Lipid Integrity](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration)
 
@@ -305,7 +321,7 @@ Supports healthy neuronal membranes and the long-chain omega-3 fats the brain ne
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Helps the brain maintain stable neural activity by balancing excitatory glutamate signalling and inhibitory GABA signalling (the principal excitatory–inhibitory pair). Good excitation–inhibition balance supports focus, emotional control, and resistance to sensory overwhelm.
+Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and GABAergic inhibition to support neural stability.
 
 **FM page:** [BRS1(FM4) — GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation)
 
@@ -328,27 +344,54 @@ Helps the brain maintain stable neural activity by balancing excitatory glutamat
 </div>
 </div>
 
----
+
+</div>
+</div>
+</div>
+</div>
 
 
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS integration
 
-<p>Landmark mechanistic and systems-biology reviews explaining how this Biological Regulatory System interacts with and depends upon other systems. These are biological integration references — not ADHD intervention studies.</p>
+<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>(BRS4 → BRS1) Bioenergetic Support for Neurotransmission</li>
+  <li>(BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems</li>
+  <li>(BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission</li>
+  <li>(BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology</li>
+  <li>(BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Bioenergetic Support for Neurotransmission (BRS4 → BRS1)</strong>
+<strong>(BRS4 → BRS1) Bioenergetic Support for Neurotransmission</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Bioenergetic capacity supports neurotransmitter synthesis, vesicle cycling, membrane potential maintenance and synaptic signalling.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS4 maintain the adaptive bioenergetic reserve that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these bioenergetic capacities, BRS4 reduces the likelihood that energetic limitation becomes the principal rate-limiting constraint on neurotransmitter regulation within BRS1 as allostatic load accumulates. BRS4 is not itself a neurotransmitter system. Instead, it functions as an upstream enabling system that preserves the bioenergetic conditions required for resilient neurotransmitter regulation. Maintaining BRS4 therefore complements neurotransmitter precursor and cofactor biology by preserving adaptive bioenergetic capacity rather than substituting for neurotransmitter regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS4 maintain energetic reserve, metabolic flexibility, oxidative resilience and adaptive mitochondrial capacity required to sustain neurotransmission during prolonged cognitive, metabolic and physiological demand. Rather than acting through a single pathway, these integrated capacities collectively preserve neuronal energy availability and reduce the likelihood that sustained physiological demand degrades neurotransmitter regulation within BRS1.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#harris_synaptic_energy_2012">Harris et al., 2012</a> — Landmark review establishing that most brain energy is consumed by synaptic transmission and describing how mitochondrial ATP supply constrains presynaptic vesicle cycling, postsynaptic signalling, Na+/K+-ATPase activity, and synaptic plasticity.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015">Picard, 2015</a> — Integrative review framing mitochondria as intracellular signal-processing networks at synapses, linking mitochondrial energetics and neuromodulation to neurotransmitter metabolism and coordinated neuronal output.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#harris_synaptic_energy_2012">Harris et al., 2012</a> — Demonstrated that synaptic signalling accounts for the largest proportion of neuronal energy expenditure and that sustained neurotransmission depends upon adequate mitochondrial ATP supply during increasing energetic demand.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015">Picard, 2015</a> — Reframed mitochondria as dynamic signalling and energetic organelles that coordinate cellular energetics with neuronal activity, supporting the interpretation of BRS4 as an upstream enabling system preserving BRS1 adaptive performance.</p></li>
 </ul>
 </div>
 </div>
@@ -358,13 +401,19 @@ Helps the brain maintain stable neural activity by balancing excitatory glutamat
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Inflammatory Modulation of Neurotransmitter Systems (BRS3 → BRS1)</strong>
+<strong>(BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Inflammatory and oxidative burden modulate neurotransmitter synthesis, metabolism and excitation–inhibition balance.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS3 maintain the adaptive inflammatory and redox resilience required to preserve an immune environment that supports resilient neurotransmitter regulation within BRS1 during prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these immune-regulatory capacities, BRS3 functions as an upstream enabling system, reducing the likelihood that inflammatory and oxidative burden progressively constrain neurotransmitter regulation within BRS1 as allostatic load accumulates. Maintaining BRS3 therefore complements neurotransmitter precursor and cofactor biology by preserving the biological environment within which resilient neurotransmitter regulation can be sustained, rather than substituting for neurotransmitter regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS3 maintain proportionate inflammatory signalling, antioxidant defence, oxidative resilience and active inflammation resolution required to preserve immune and redox stability during prolonged physiological demand. Rather than acting through a single inflammatory pathway, these integrated capacities collectively regulate how immune and oxidative load influences the biological environment within which BRS1 sustains neurotransmitter regulation.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Landmark integrative review describing how pro-inflammatory cytokine signalling alters central nervous system function, monoamine-related behaviour, and neurotransmitter biology downstream of immune activation.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019">Savitz, 2019</a> — Comprehensive kynurenine-pathway review linking immune activation to glutamatergic and GABAergic neurotransmission, NMDA receptor signalling, and excitation–inhibition balance — a principal mechanistic bridge between inflammation and neurotransmitter regulation.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Established that psychological and physiological stressors activate inflammatory signalling capable of reshaping central nervous system function through coordinated immune, neuroendocrine and neurochemical pathways. This supports the framework interpretation that chronic inflammatory activation can become a principal upstream constraint on BRS1 performance during sustained physiological demand.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019">Savitz, 2019</a> — Demonstrated that immune activation reshapes neurotransmitter regulation through the kynurenine pathway and broader neuroimmune interactions, influencing both monoaminergic signalling and excitation–inhibition balance. This supports the BRAIN Framework interpretation that maintaining immune regulation preserves the biological environment required for resilient monoaminergic and excitation–inhibition regulation within BRS1.</p></li>
 </ul>
 </div>
 </div>
@@ -374,13 +423,20 @@ Helps the brain maintain stable neural activity by balancing excitatory glutamat
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Stress-Axis and Autonomic Shaping of Neurotransmission (BRS6 → BRS1)</strong>
+<strong>(BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>HPA-axis regulation, autonomic balance and glycaemic stability shape neurotransmitter signalling during stress and cognitive demand.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive neuroendocrine coordination and metabolic stability that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these whole-body regulatory capacities, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. When adaptive regulation becomes prolonged or dysregulated, this coordinated resource allocation progressively manifests as allostatic load across the wider BRS network. This reduces the likelihood that chronic neuroendocrine activation progressively constrains neurotransmitter regulation within BRS1 as allostatic load accumulates. BRS6 is not itself a neurotransmitter system; it coordinates the resource-allocation logic through which other Biological Regulatory Systems — including BRS1 — sustain resilient performance under demand. Maintaining BRS6 therefore complements neurotransmitter precursor and cofactor biology by preserving the systemic regulatory environment within which resilient neurotransmitter regulation can be sustained, rather than substituting for neurotransmitter regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS6 coordinate glycaemic regulation, HPA-axis rhythm, autonomic balance and stress-responsive metabolic allocation, continuously adjusting physiological resource distribution to meet changing environmental and cognitive demands. When these regulatory capacities remain proportionate, they help preserve adaptive performance across the wider BRS network. When they become chronically activated or poorly resolved, increasing allostatic load progressively constrains the performance of interconnected Biological Regulatory Systems.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_protective_damaging_1998">McEwen, 1998</a> — Foundational review of how stress mediators — particularly cortisol dynamics — protect and damage brain structure and function, with direct implications for neurotransmitter systems and cognitive performance under adaptive demand.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Meta-analytic review linking autonomic regulation (heart-rate variability) to stress neurobiology, cortisol dynamics, and central nervous system function — supporting autonomic–neurotransmitter coupling under load.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_protective_damaging_1998">McEwen, 1998</a> — Established allostatic load as cumulative biological wear arising when stress mediators protect or damage brain structure and function under sustained adaptive demand — supporting the framework interpretation that dysregulated neuroendocrine load may become a principal constraint on BRS1 performance.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Positioned the brain as the central interpreter and target of stress-mediated adaptive regulation — supporting the framework interpretation that BRS6 coordinates how allostatic load is allocated across integrated biological systems including neurotransmitter regulation within BRS1.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Demonstrated intimate coupling between autonomic regulatory capacity, stress neurobiology and central nervous system function — supporting the interpretation of BRS6 autonomic stability as an upstream enabler of BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
 </div>
 </div>
@@ -390,13 +446,19 @@ Helps the brain maintain stable neural activity by balancing excitatory glutamat
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>One-Carbon and BH4 Support for Monoamine Biology (BRS2 → BRS1)</strong>
+<strong>(BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>One-carbon metabolism and BH4-dependent cofactor chemistry support monoamine synthesis, membrane methylation and neurotransmitter precursor handling.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS2 maintain adaptive methyl-donor and cofactor capacity that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these one-carbon metabolic capacities, BRS2 functions as an upstream enabling system, reducing the likelihood that methyl-donor or cofactor insufficiency progressively limits monoamine synthesis and wider neurotransmitter regulation within BRS1 as metabolic demand intensifies. Maintaining BRS2 therefore complements neurotransmitter precursor availability by preserving the biological environment within which resilient neurochemical regulation can be sustained, rather than substituting for neurotransmitter regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS2 maintain methylation cycle efficiency, transsulfuration-linked redox coupling and methylation–membrane integrity required to sustain methyl-donor reserves, cofactor chemistry and membrane-related neurochemical support during prolonged physiological demand. Rather than acting through a single biosynthetic step, these integrated capacities collectively preserve the cofactor and methylation context required for stable neurotransmitter regulation within BRS1.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021">Fanet et al., 2021</a> — Mechanistic review of tetrahydrobiopterin (BH4) as an essential cofactor for dopamine and serotonin synthesis, linking one-carbon–adjacent cofactor biology to central neurotransmission and inflammatory–oxidative modulation of monoamine pathways.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Integrative review of B-vitamin roles in brain function, including methylation-dependent synthesis of neurochemicals and signalling molecules that underpin monoaminergic and wider neurotransmitter biology.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021">Fanet et al., 2021</a> — Established that essential cofactor chemistry underpins central monoamine synthesis and neurotransmitter-regulatory capacity — supporting the framework interpretation that BRS2 cofactor reserves may become a principal rate-limiting constraint on monoaminergic regulation when one-carbon metabolism is strained.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Demonstrated that B-vitamin-dependent one-carbon metabolism supports brain neurochemical synthesis — supporting the interpretation of BRS2 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
 </div>
 </div>
@@ -406,14 +468,24 @@ Helps the brain maintain stable neural activity by balancing excitatory glutamat
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Gut–Vagal Modulation of Neurochemical Signalling (BRS5 → BRS1)</strong>
+<strong>(BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Gut-derived microbial metabolites and vagal signalling modulate central neurotransmitter receptor expression and stress-linked neurochemical regulation.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut–brain interface resilience that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these gut–brain interface capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that impaired gut-derived signalling or substrate availability progressively constrains neurochemical regulation within BRS1 as peripheral immune or metabolic load accumulates. Maintaining BRS5 therefore complements neurotransmitter precursor and cofactor biology by preserving the biological environment within which resilient neurotransmitter regulation can be sustained, rather than substituting for neurotransmitter regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS5 maintain gut barrier integrity, microbial metabolite signalling capacity and gut–vagal neuromodulation required to preserve stable peripheral-to-central signalling during prolonged physiological demand. Rather than acting through a single gut–brain pathway, these integrated capacities collectively regulate how host–microbial signalling shapes the biological environment within which BRS1 sustains neurotransmitter regulation.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Landmark experimental demonstration that gut microbiota modulate central GABA receptor expression and stress-related neurochemistry via the vagus nerve — a foundational gut–brain neurotransmitter mechanism.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Integrative microbiota–gut–brain axis review synthesising how microbial metabolites, immune signalling, and vagal pathways influence central nervous system function and neurotransmitter-related behaviour.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Demonstrated that gut microbiota can modulate central neurochemical regulation through vagal signalling pathways — supporting the framework interpretation that impaired gut–brain communication may become a principal constraint on neurotransmitter regulation during sustained peripheral perturbation.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Synthesised how microbial metabolite and vagal signalling interact with central nervous system function — supporting the interpretation of BRS5 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>

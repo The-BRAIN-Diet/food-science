@@ -59,6 +59,48 @@ ${panel}
 
 export const buildHubCollapsibleBlock = renderHubCollapsible;
 
+/**
+ * Parent dropdown listing child item titles; children hold nested hub collapsibles.
+ * @param {string[]} titleItems — plain-text titles shown as a bulleted list in collapsed summary
+ * @param {string} childrenHtml
+ */
+export function renderHubNestedGroup(titleItems, childrenHtml) {
+  const items = Array.isArray(titleItems)
+    ? titleItems
+    : String(titleItems || "")
+        .split(" · ")
+        .map((s) => s.trim())
+        .filter(Boolean);
+  const listItems = items
+    .map((title) => {
+      const safe = String(title)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+      return `  <li>${safe}</li>`;
+    })
+    .join("\n");
+
+  return `<div class="brs-fm-hub-item brs-fm-hub-group" ${HUB_COLLAPSIBLE_ATTR}>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+${listItems}
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
+${childrenHtml}
+</div>
+</div>
+</div>
+</div>`;
+}
+
 /** Find innermost <details> blocks (body contains no nested <details>). */
 function findInnermostDetailsBlocks(content) {
   const openRe = /<details>\s*\n<summary><strong>([^<]+)<\/strong><\/summary>\s*\n/g;

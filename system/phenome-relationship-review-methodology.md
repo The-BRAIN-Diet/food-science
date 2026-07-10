@@ -185,7 +185,7 @@ The PM page (§3 Phenome Connections) remains the **primary mechanism-level revi
 
 ### Lens: neuropsychiatric and neurocognitive health
 
-The Phenome Registry is **not** a disease catalogue. It defines **shared functional outcome domains** that emerge across common neuropsychiatric, neurodevelopmental, and brain-health conditions.
+The BRAIN Phenome Knowledge Database intentionally applies a narrower operational definition of "phenome" than is used in the wider phenomics literature. Although phenomes may include physiological and metabolic characteristics, the purpose of this registry is to catalogue human functional outcomes that are meaningful within cognitive, behavioural and mental health contexts. Biological capacities such as ATP production, fuel switching or mitochondrial substrate flexibility remain important, but are represented within the Biological Regulatory Systems rather than as standalone phenomes.
 
 **Therapeutic lens (v1):** Neuropsychiatric and neurocognitive health, with **ADHD as the primary worked example** (`TA001`). The architecture is designed to accommodate anxiety disorders, depressive disorders, autism spectrum conditions, stress-related disorders, cognitive ageing, long COVID, and healthy cognitive optimisation **without duplicating phenome labels per condition**.
 

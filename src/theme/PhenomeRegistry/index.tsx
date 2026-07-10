@@ -209,10 +209,13 @@ export default function PhenomeRegistry(): React.ReactElement {
     <div className={styles.wrap}>
       <h1 className={styles.srOnly}>Phenome Registry</h1>
       <p>
-        Phenomes are shared functional outcome domains that emerge across neuropsychiatric,
-        neurodevelopmental, and brain-health conditions. They sit above biological mechanisms and
-        below condition-specific profiles — describing what a person may experience functionally
-        (attention stability, emotional regulation, recovery capacity, and similar domains).
+        The BRAIN Phenome Knowledge Database intentionally applies a narrower operational definition
+        of "phenome" than is used in the wider phenomics literature. Although phenomes may include
+        physiological and metabolic characteristics, the purpose of this registry is to catalogue
+        human functional outcomes that are meaningful within cognitive, behavioural and mental
+        health contexts. Biological capacities such as ATP production, fuel switching or
+        mitochondrial substrate flexibility remain important, but are represented within the
+        Biological Regulatory Systems rather than as standalone phenomes.
       </p>
       <p>
         The registry is scoped to <strong>neuropsychiatric and neurocognitive health</strong>.

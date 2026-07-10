@@ -44,6 +44,140 @@ Source of truth: `scripts/data/brs-cross-integration-evidence.json` (also consum
 
 ---
 
+## Cross-BRS integration Evidence
+
+Cross-BRS relationships explain **how the Functional Mechanisms within one Biological Regulatory System collectively preserve the adaptive performance of another during sustained physiological demand.** Category B evidence — not ADHD intervention studies. Rendered as collapsible four-section notes on each hub page.
+
+**Hub section intro** (all BRS1–BRS6 hub pages):
+
+> Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.
+
+### Core principle
+
+Every Cross-BRS relationship answers:
+
+> **How do the Functional Mechanisms within this Biological Regulatory System collectively preserve the adaptive performance of another Biological Regulatory System?**
+
+Derive the biological story from the **contributing BRS architecture** (its FMs). Literature validates the conclusion; it does not lead the narrative. The **Biological Regulatory System** is always the unit of explanation.
+
+### Four-section structure (required)
+
+Each relationship in `scripts/data/brs-cross-integration-evidence.json` uses four fields. Each section answers one question:
+
+| # | Field | Section title | Question |
+|---|-------|---------------|----------|
+| 1 | `biological_contribution` | **Biological Contribution** | What does this BRS snapshot collectively contribute? |
+| 2 | `systems_significance` | **Systems Significance** | Why does preserving this capacity matter for the downstream BRS? |
+| 3 | `integrated_regulatory_capacity` | **Integrated Regulatory Capacity** | What integrated regulatory capacities produce this cross-BRS relationship? |
+| 4 | `evidence[]` | **Supporting Evidence** | Which landmark reviews validate the interpretation? |
+
+Hub renderer: `scripts/lib/brs-hub-cross-integration.mjs`. Regenerate hubs: `npm run brs:generate-hub-cross-integration`.
+
+#### 1. Biological Contribution
+
+One concise sentence. Emergent contribution of the **whole BRS**, not individual PMs. Frame **adaptive capacity** (ability to regulate appropriately under demand).
+
+*Collectively, the Functional Mechanisms within [source BRS] maintain the adaptive [capacity] that enables [destination BRS] to [preserve function] under prolonged physiological demand.*
+
+#### 2. Systems Significance
+
+Explain **adaptive systems significance** — upstream enabling role, principal biological constraints under allostatic load, complement vs substitute. This is the primary section for **allostatic framing** (see below). Include:
+
+- Demand-preservation clause (*reducing the likelihood that… become the principal biological constraint(s)…*)
+- Upstream enabling system (or principal gateway for BRS6)
+- Complement clause (*preserving the biological environment within which resilient [function] can be sustained*)
+
+#### 3. Integrated Regulatory Capacity
+
+FM-derived integrated capacities at **BRS level only**. Open with *Together, the Functional Mechanisms within…* Close with *Rather than acting through a single pathway…*
+
+Do **not** introduce PM detail (vesicle mobilisation, enzymes, receptor subtypes).
+
+#### 4. Supporting Evidence
+
+1–3 landmark systems-biology papers. Each `supports` field validates the framework interpretation at BRS level — not a bibliographic synopsis. No dietary prescriptions.
+
+### Positioning allostasis across the BRS network
+
+Do **not** present allostasis as synonymous solely with BRS6.
+
+- **BRS6** is the principal **gateway** for introducing allostatic theory (HPA-axis, autonomic regulation, glycaemic control, stress–metabolic load allocation).
+- **Canonical implementation:** `(BRS6 → BRS1)` Cross-BRS **Integrated Regulatory Capacity** — how allostasis is implemented biologically across the integrated network.
+- **Allostasis** is a property of the **entire BRS network**, not a single system.
+
+The six BRSs collectively determine adaptive capacity (`brs_adaptive_resilience_roles` in the integration library):
+
+| BRS | Adaptive resilience role |
+|-----|--------------------------|
+| BRS1 | Resilient neurotransmitter regulation and neurochemical signalling |
+| BRS2 | Methylation, biosynthetic and repair capacity |
+| BRS3 | Inflammatory and oxidative resilience |
+| BRS4 | Bioenergetic reserve and adaptive mitochondrial capacity |
+| BRS5 | Gut-derived signalling, substrate availability and host–microbial regulation |
+| BRS6 | Neuroendocrine resource allocation, stress adaptation and physiological recovery |
+
+Allostatic load emerges when one or more adaptive capacities become constrained and remaining BRSs must compensate. BRS6 frequently **initiates or coordinates** these responses; successful adaptation depends on **integrated performance of all six BRSs**.
+
+Therefore:
+
+- Introduce allostatic **theory** primarily within **(BRS6 → BRS1) Cross-BRS integration** (Systems Significance + Integrated Regulatory Capacity).
+- Explain other Cross-BRS relationships in terms of **preserving adaptive capacity and biological resilience**.
+- Avoid describing every BRS as *"an allostatic system."*
+- Present the six BRSs as the **integrated adaptive network** through which allostatic regulation is achieved.
+
+Distinguish:
+
+- **BRS6** — principal gateway for explaining allostatic regulation
+- **Complete BRS network** — biological substrate through which adaptive regulation and resilience are maintained
+
+### Allostasis reference tiers
+
+Foundational citations live in `allostasis_reference_tiers` within `scripts/data/brs-cross-integration-evidence.json`. Use in **(BRS6 → BRS1) Cross-BRS** Systems Significance and Supporting Evidence; brief pointer only in manuscript introduction.
+
+| Tier | Papers | Role |
+|------|--------|------|
+| **1 — Foundational** | Sterling & Eyer (1988); McEwen (1998); McEwen (2006) | Define allostasis, allostatic load, brain-centred adaptive regulation |
+| **2 — Network biology** | McEwen & Wingfield (2003)*; Picard et al. (2014); Picard (2015) | Interacting systems, mitochondrial allostatic load, signalling organelles |
+| **3 — Systems extensions** | Picard (2018)*; Picard & McEwen (stress–mitochondria)*; Slavich & Irwin (2014) | Stress adaptation, BRS6↔BRS4/BRS3 bridges |
+
+\*Pending bibliography entry — add to `static/bibtex/BRAIN-diet.bib` before citing on published pages.
+
+### Worked example (BRS4 → BRS1)
+
+**Biological Contribution**
+
+> Collectively, the Functional Mechanisms within BRS4 maintain the adaptive bioenergetic reserve that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.
+
+**Systems Significance**
+
+> By preserving these bioenergetic capacities, BRS4 reduces the likelihood that energetic limitation becomes the principal rate-limiting constraint on neurotransmitter regulation within BRS1 as allostatic load increases. BRS4 is not itself a neurotransmitter system. Instead, it functions as an upstream enabling system that preserves the bioenergetic conditions required for resilient neurotransmitter regulation. Maintaining BRS4 therefore complements neurotransmitter precursor and cofactor biology by preserving adaptive bioenergetic capacity rather than substituting for neurotransmitter regulation itself.
+
+**Integrated Regulatory Capacity**
+
+> Together, the Functional Mechanisms within BRS4 maintain energetic reserve, metabolic flexibility, oxidative resilience and adaptive mitochondrial capacity required to sustain neurotransmission during prolonged cognitive, metabolic and physiological demand. Rather than acting through a single pathway, these integrated capacities collectively preserve neuronal energy availability and reduce the likelihood that sustained physiological demand degrades neurotransmitter regulation within BRS1.
+
+**Supporting Evidence** — Harris et al. (2012); Picard (2015).
+
+### Worked example (BRS3 → BRS1)
+
+Canonical template — see integration library `BRS3->BRS1`.
+
+### Anti-patterns
+
+| Do not write | Write instead |
+|--------------|---------------|
+| One dense paragraph mixing all four questions | Four labelled sections |
+| "Mitochondria supply ATP for synapses" | BRS-level integrated capacities |
+| PM molecular detail in Integrated Regulatory Capacity | FM-derived BRS capacities only |
+| Every BRS labelled "allostatic" | Adaptive capacity / resilience; BRS6 as gateway |
+| Dietary targets in Supporting Evidence | Biological validation only |
+
+### Display titles
+
+Human-readable relationship titles are defined in `scripts/lib/brs-hub-cross-integration.mjs` (`INTEGRATION_DISPLAY_TITLES`).
+
+---
+
 ## Ambition
 
 **Length:** 30–60 words
