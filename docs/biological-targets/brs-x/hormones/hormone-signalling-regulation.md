@@ -99,7 +99,18 @@ Hormonal milieu shapes how the brain regulates mood, cognition, metabolism, repr
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
-
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>BRS-X(Hormones-FM1) — Reproductive Hormone Balance &amp; Neurocognitive Regulation</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -124,7 +135,7 @@ Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Fram
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Supports integrated regulation of oestrogen, progesterone, gut-mediated sex-hormone metabolism, and metabolic–reproductive hormone signalling, influencing neurocognitive stability through coordinated hormone signalling, enterohepatic recycling, microbial metabolism, and insulin-linked endocrine regulation. Circulating sex hormones are bidirectionally coupled to gut microbial ecology via the estrobolome (microbiome-mediated oestrogen metabolism and recycling).
+Maintains reproductive hormone balance and neurocognitive regulation by coordinating sex-hormone signalling, gut-mediated metabolism, and metabolic-endocrine integration.
 
 **FM page:** [BRS-X(Hormones-FM1) — Reproductive Hormone Balance & Neurocognitive Regulation](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation)
 
@@ -143,6 +154,12 @@ Supports integrated regulation of oestrogen, progesterone, gut-mediated sex-horm
 - [BRS5(FM1)](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — bRS5(FM1) context relevant to this mechanism
 - [BRS6(FM1)](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) — bRS6(FM1) context relevant to this mechanism
 
+</div>
+</div>
+</div>
+
+
+</div>
 </div>
 </div>
 </div>

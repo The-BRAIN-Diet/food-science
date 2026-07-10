@@ -39,28 +39,28 @@ Maintain a resilient gut–brain interface — barrier selective, microbial ecol
 <p class="brs-hub-dietary-guidance-flow">Pattern → Nutrients → Biology → Target Foods</p>
 <ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
 <li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Eat a wide variety of plant foods daily</strong> → fermentable fibre and diverse phytochemicals → gut microbial ecology depends on varied substrate input; when plant diversity contracts, competitive microbial turnover weakens and gut–brain signalling becomes less stable.</p>
+<p class="brs-hub-dietary-guidance-main"><strong>Eat a wide variety of plant foods daily</strong> → fermentable fibre and diverse phytochemicals → reduced dietary plant diversity may limit microbial ecological capacity and, over time, diminish the stability of microbiome-derived signalling relevant to gut–brain communication.</p>
 <p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/spinach">Spinach</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a></span></p>
 </li>
 <li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include fermentable fibre sources regularly</strong> → β-glucan, resistant starch and soluble fibre → feeds microbial fermentation and supports short-chain fatty acid production relevant to barrier and neural signalling pathways.</p>
+<p class="brs-hub-dietary-guidance-main"><strong>Include fermentable fibre sources regularly</strong> → β-glucan, resistant starch and soluble fibre → may provide substrate for microbial fermentation and short-chain fatty acid production relevant to barrier and neural signalling pathways, although fermentation outcomes vary with individual microbiome ecology.</p>
 <p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/lentils">Lentils</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a></span></p>
 </li>
 <li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include fermented foods where tolerated</strong> → live cultures and postbiotic peptides → supports vagal and enteric nervous system modulation through microbial and postbiotic signalling routes.</p>
+<p class="brs-hub-dietary-guidance-main"><strong>Include fermented foods where tolerated</strong> → live cultures and postbiotic peptides → may contribute to microbial and postbiotic signalling routes relevant to vagal and enteric nervous system function, though specific food effects remain heterogeneous and context-dependent.</p>
 <p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/kefir">Kefir</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/kimchi">Kimchi</a> • <a href="/docs/foods/sauerkraut">Sauerkraut</a> • <a href="/docs/foods/fermented-vegetables">Fermented Vegetables</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></p>
 </li>
 <li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include omega-3-rich whole foods regularly</strong> → EPA, DHA and barrier-supportive fatty acids → supports tight-junction integrity and limits gut-derived inflammatory load reaching systemic circulation.</p>
+<p class="brs-hub-dietary-guidance-main"><strong>Include omega-3-rich whole foods regularly</strong> → EPA, DHA and barrier-supportive fatty acids → may support tight-junction integrity and help limit gut-derived inflammatory load reaching systemic circulation.</p>
 <p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/algal-oil">Algae</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></p>
 <p class="brs-hub-dietary-guidance-note"><em>Omega-3:</em> Marine foods and algae provide preformed DHA and EPA. Walnuts provide ALA, which requires endogenous conversion with variable efficiency.</p>
 </li>
 <li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plant foods</strong> → polyphenols → supports keystone taxa and microbial biotransformation into gut–brain and mitochondria-relevant metabolites.</p>
+<p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plant foods</strong> → polyphenols → may support microbial biotransformation pathways relevant to gut–brain and mitochondria-linked metabolites, although taxa responses vary with baseline microbiome ecology.</p>
 <p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/walnuts">Walnuts</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></p>
 </li>
 <li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Maintain dietary variety across nutrient-dense whole foods</strong> → zinc, vitamin A precursors and barrier-supportive micronutrients → provides the nutritional resources required for epithelial maintenance and immune containment at the gut interface.</p>
+<p class="brs-hub-dietary-guidance-main"><strong>Maintain dietary variety across nutrient-dense whole foods</strong> → zinc, vitamin A precursors and barrier-supportive micronutrients → may provide nutritional resources that support epithelial maintenance and immune containment at the gut interface.</p>
 <p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/sardines">Sardines</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a></span></p>
 </li>
 </ul>
@@ -93,11 +93,11 @@ Maintain a resilient gut–brain interface — barrier selective, microbial ecol
 <div class="brs-fm-hub-panel" hidden>
 
 <ul class="brs-hub-lever-list brs-hub-lifestyle-list">
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain consistent daily meal patterns</strong> to support microbial rhythm stability, fermentation continuity, and steadier gut–brain signalling.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain consistent daily meal patterns</strong> to help support microbial rhythm stability, fermentation continuity, and steadier gut–brain signalling over time.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></p></li>
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Prioritise sleep and manage stress</strong> to help reduce indirect strain on gut barrier integrity, endotoxin load, and enteric signalling stability.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability" class="brs-hub-lever-pm">BRS5-FM3-PM8</a></span></p></li>
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Limit alcohol and ultra-processed food exposure</strong> to reduce barrier strain and support a healthier gut environment for microbial and immune balance.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Emphasise repeated dietary pattern quality over short-term fixes</strong> to support keystone microbes, SCFA production, and durable gut ecological turnover rather than isolated bursts.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability" class="brs-hub-lever-pm">BRS5-FM3-PM8</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain dietary variety rather than overly restrictive eating</strong> to support microbial diversity, competitive ecological selection, and long-term gut resilience.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Emphasise repeated dietary pattern quality over short-term fixes</strong> to help support SCFA production and durable gut ecological turnover rather than isolated bursts — though individual microbiome responses vary.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability" class="brs-hub-lever-pm">BRS5-FM3-PM8</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain dietary variety rather than overly restrictive eating</strong> to help preserve microbial diversity and long-term gut resilience, without assuming predictable ecological outcomes from any single food.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></p></li>
 </ul>
 
 </div>
@@ -170,6 +170,21 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>BRS5(FM1) — Gut Barrier Integrity &amp; Immune Interface</li>
+  <li>BRS5(FM2) — Microbial Metabolite Signalling Capacity</li>
+  <li>BRS5(FM3) — Gut-Vagal Neuromodulation &amp; ENS Signalling</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
@@ -190,7 +205,7 @@ Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Fram
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-A diet-actionable control point regulating epithelial tight-junction integrity, mucus protection, and immune containment at the gut–brain interface (keeping gut contents selectively separated from systemic circulation).
+Maintains gut-barrier integrity and immune interface stability through tight-junction regulation, mucus protection, and selective immune containment.
 
 **FM page:** [BRS5(FM1) — Gut Barrier Integrity & Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface)
 
@@ -232,7 +247,7 @@ A diet-actionable control point regulating epithelial tight-junction integrity, 
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-A functional control point governing production of beneficial microbial metabolites that shape immune, endocrine, and neurobiological signalling.
+Maintains microbial metabolite signalling capacity by supporting production of beneficial metabolites that shape immune, endocrine, and neurobiological pathways.
 
 **FM page:** [BRS5(FM2) — Microbial Metabolite Signalling Capacity](/docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity)
 
@@ -274,7 +289,7 @@ A functional control point governing production of beneficial microbial metaboli
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-A diet-actionable control point regulating vagal and enteric nervous system signalling through microbial activity, barrier state, and metabolite or neurochemical cues (gut-to-brain neuromodulation).
+Maintains gut-vagal and enteric neuromodulation capacity through microbial, barrier, and metabolite-driven gut-to-brain signalling.
 
 **FM page:** [BRS5(FM3) — Gut-Vagal Neuromodulation & ENS Signalling](/docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling)
 
@@ -295,27 +310,53 @@ A diet-actionable control point regulating vagal and enteric nervous system sign
 </div>
 </div>
 
----
+
+</div>
+</div>
+</div>
+</div>
 
 
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS integration
 
-<p>Landmark mechanistic and systems-biology reviews explaining how this Biological Regulatory System interacts with and depends upon other systems. These are biological integration references — not ADHD intervention studies.</p>
+<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>(BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling</li>
+  <li>(BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone</li>
+  <li>(BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics</li>
+  <li>(BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Gut–Vagal Modulation of Neurochemical Signalling (BRS5 → BRS1)</strong>
+<strong>(BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Gut-derived microbial metabolites and vagal signalling modulate central neurotransmitter receptor expression and stress-linked neurochemical regulation.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut–brain interface resilience that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these gut–brain interface capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that impaired gut-derived signalling or substrate availability progressively constrains neurochemical regulation within BRS1 as peripheral immune or metabolic load accumulates. Maintaining BRS5 therefore complements neurotransmitter precursor and cofactor biology by preserving the biological environment within which resilient neurotransmitter regulation can be sustained, rather than substituting for neurotransmitter regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS5 maintain gut barrier integrity, microbial metabolite signalling capacity and gut–vagal neuromodulation required to preserve stable peripheral-to-central signalling during prolonged physiological demand. Rather than acting through a single gut–brain pathway, these integrated capacities collectively regulate how host–microbial signalling shapes the biological environment within which BRS1 sustains neurotransmitter regulation.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Landmark experimental demonstration that gut microbiota modulate central GABA receptor expression and stress-related neurochemistry via the vagus nerve — a foundational gut–brain neurotransmitter mechanism.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Integrative microbiota–gut–brain axis review synthesising how microbial metabolites, immune signalling, and vagal pathways influence central nervous system function and neurotransmitter-related behaviour.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Demonstrated that gut microbiota can modulate central neurochemical regulation through vagal signalling pathways — supporting the framework interpretation that impaired gut–brain communication may become a principal constraint on neurotransmitter regulation during sustained peripheral perturbation.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Synthesised how microbial metabolite and vagal signalling interact with central nervous system function — supporting the interpretation of BRS5 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
 </div>
 </div>
@@ -325,13 +366,19 @@ A diet-actionable control point regulating vagal and enteric nervous system sign
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Gut–Immune Drivers of Inflammatory Tone (BRS5 → BRS3)</strong>
+<strong>(BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Gut barrier integrity and microbial immune signalling influence systemic inflammatory tone and oxidative load.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut barrier and microbial immune containment that enables BRS3 to sustain proportionate inflammatory tone under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these gut–immune interface capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that gut-derived immune signalling progressively amplifies systemic inflammatory burden within BRS3 as peripheral load accumulates. Maintaining BRS5 therefore complements direct immune-modulatory biology within BRS3 by preserving barrier containment rather than substituting for inflammatory regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS5 maintain gut barrier integrity, microbial ecological stability and gut-derived immune signalling containment required to limit inappropriate inflammatory spillover during prolonged physiological demand. Rather than acting through a single barrier mechanism, these integrated capacities collectively regulate how peripheral immune signals shape inflammatory tone within BRS3.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#omahony_serotonin_2015">O'Mahony et al., 2015</a> — Review of microbiota–gut–brain communication describing immune and serotonergic signalling pathways through which gut ecology modulates central and peripheral inflammatory biology.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Integrative framework linking environmental and social stressors to pro-inflammatory signalling — relevant to how gut-immune perturbation propagates inflammatory burden across systems.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#omahony_serotonin_2015">O'Mahony et al., 2015</a> — Synthesised microbiota–gut–brain communication pathways linking gut ecology to peripheral and central inflammatory biology — supporting the framework interpretation that BRS5 gut–immune signalling shapes BRS3 inflammatory tone.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Established stress-to-inflammation signalling as a systems-level pathway reshaping immune and neuroendocrine biology — supporting the interpretation that gut–immune perturbation can propagate inflammatory burden across BRS3 and connected systems.</p></li>
 </ul>
 </div>
 </div>
@@ -341,13 +388,19 @@ A diet-actionable control point regulating vagal and enteric nervous system sign
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Gut-Metabolic Inputs to Mitochondrial Energetics (BRS5 → BRS4)</strong>
+<strong>(BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Microbial short-chain fatty acids and gut-derived metabolic signals influence mitochondrial energetics and cellular bioenergetic reserve.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS5 maintain adaptive microbial metabolite signalling capacity that enables BRS4 to sustain bioenergetic reserve under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these gut-derived metabolic signalling capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that impaired microbial metabolite availability progressively constrains mitochondrial bioenergetic capacity within BRS4 as systemic metabolic load accumulates. Maintaining BRS5 therefore complements substrate and cofactor biology within BRS4 by preserving gut-derived energetic support rather than substituting for mitochondrial regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS5 maintain fermentable-fibre-driven microbial ecology, short-chain fatty acid signalling and gut-derived metabolic inputs required to support cellular energy handling during prolonged physiological demand. Rather than acting through a single metabolite, these integrated capacities collectively influence how peripheral metabolic signals shape bioenergetic reserve within BRS4.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Perspectives review linking mitochondrial energy metabolism, glucose handling, and stress-related pathophysiology — providing a mechanistic frame for how gut-derived metabolic signals influence bioenergetic capacity.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Integrative gut–brain review covering microbial metabolite signalling and metabolic interactions that intersect mitochondrial and neuroendocrine adaptive regulation.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Linked mitochondrial energy metabolism, glucose handling and stress-related pathophysiology — supporting the framework interpretation that metabolic and neuroendocrine load shapes bioenergetic capacity within BRS4.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Synthesised microbial metabolite signalling intersecting metabolic and neuroendocrine adaptive regulation — supporting the interpretation of BRS5 as an upstream enabler of BRS4 bioenergetic performance.</p></li>
 </ul>
 </div>
 </div>
@@ -357,14 +410,24 @@ A diet-actionable control point regulating vagal and enteric nervous system sign
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Gut–Vagal Influence on Stress-Axis Regulation (BRS5 → BRS6)</strong>
+<strong>(BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Gut–vagal signalling and microbial metabolites influence autonomic tone and stress-axis responsiveness.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut–vagal neuromodulation and microbial signalling that enables BRS6 to sustain stress-axis responsiveness under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these gut–brain interface capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that impaired vagal or microbial signalling progressively disrupts autonomic and HPA-axis regulation within BRS6 as peripheral load accumulates. Maintaining BRS5 therefore complements neuroendocrine biology within BRS6 by preserving gut-derived modulatory input rather than substituting for stress-axis regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS5 maintain gut barrier integrity, microbial metabolite signalling and gut–vagal neuromodulation required to regulate autonomic tone and stress-axis responsiveness during prolonged physiological demand. Rather than acting through a single microbial pathway, these integrated capacities collectively shape how peripheral signals influence neuroendocrine recovery capacity within BRS6.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Experimental evidence that gut microbiota modulate HPA-axis stress responses and central neurochemistry via vagal pathways.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Review linking autonomic regulation to stress neurobiology and central nervous system function — supporting vagal–neuroendocrine integration.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Demonstrated that gut microbiota modulate HPA-axis stress responses via vagal pathways — supporting the framework interpretation that BRS5 gut–vagal signalling shapes BRS6 stress-axis responsiveness.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Linked autonomic regulatory capacity to stress neurobiology and central nervous system function — supporting the interpretation of vagal–neuroendocrine integration as a BRS5 → BRS6 enabling pathway.</p></li>
 </ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>

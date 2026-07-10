@@ -161,6 +161,21 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 
 Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
 
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>BRS3(FM1) — Anti-Inflammatory Signalling Tone</li>
+  <li>BRS3(FM2) — Antioxidant Defense Capacity</li>
+  <li>BRS3(FM3) — Inflammation Resolution Capacity</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
@@ -180,7 +195,7 @@ Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Fram
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-A diet-actionable control point that helps regulate how intensely inflammatory signals fire across cytokine networks, NF-κB transcription (a master switch for pro-inflammatory gene expression), gut-derived inputs, and lipid-mediator pathways.
+Maintains anti-inflammatory signalling tone by regulating cytokine activity, NF-κB-linked inflammatory drive, and gut-derived immune inputs.
 
 **FM page:** [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone)
 
@@ -227,7 +242,7 @@ A diet-actionable control point that helps regulate how intensely inflammatory s
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-A functional control point regulating endogenous and dietary antioxidant protection against redox overload, oxidative damage, and lipid peroxidation (oxidative breakdown of membrane fats).
+Maintains antioxidant defense capacity by coordinating endogenous and dietary protection against redox overload and lipid peroxidation.
 
 **FM page:** [BRS3(FM2) — Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity)
 
@@ -268,7 +283,7 @@ A functional control point regulating endogenous and dietary antioxidant protect
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-A functional control point governing active termination of inflammation through pro-resolving lipid mediators (specialised molecules that switch inflammation off) rather than simple suppression of immune activity.
+Maintains inflammation-resolution capacity through pro-resolving lipid mediator pathways that actively terminate inflammatory responses.
 
 **FM page:** [BRS3(FM3) — Inflammation Resolution Capacity](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity)
 
@@ -294,27 +309,52 @@ A functional control point governing active termination of inflammation through 
 </div>
 </div>
 
----
+
+</div>
+</div>
+</div>
+</div>
 
 
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS integration
 
-<p>Landmark mechanistic and systems-biology reviews explaining how this Biological Regulatory System interacts with and depends upon other systems. These are biological integration references — not ADHD intervention studies.</p>
+<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>(BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems</li>
+  <li>(BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone</li>
+  <li>(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Inflammatory Modulation of Neurotransmitter Systems (BRS3 → BRS1)</strong>
+<strong>(BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Inflammatory and oxidative burden modulate neurotransmitter synthesis, metabolism and excitation–inhibition balance.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS3 maintain the adaptive inflammatory and redox resilience required to preserve an immune environment that supports resilient neurotransmitter regulation within BRS1 during prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these immune-regulatory capacities, BRS3 functions as an upstream enabling system, reducing the likelihood that inflammatory and oxidative burden progressively constrain neurotransmitter regulation within BRS1 as allostatic load accumulates. Maintaining BRS3 therefore complements neurotransmitter precursor and cofactor biology by preserving the biological environment within which resilient neurotransmitter regulation can be sustained, rather than substituting for neurotransmitter regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS3 maintain proportionate inflammatory signalling, antioxidant defence, oxidative resilience and active inflammation resolution required to preserve immune and redox stability during prolonged physiological demand. Rather than acting through a single inflammatory pathway, these integrated capacities collectively regulate how immune and oxidative load influences the biological environment within which BRS1 sustains neurotransmitter regulation.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Landmark integrative review describing how pro-inflammatory cytokine signalling alters central nervous system function, monoamine-related behaviour, and neurotransmitter biology downstream of immune activation.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019">Savitz, 2019</a> — Comprehensive kynurenine-pathway review linking immune activation to glutamatergic and GABAergic neurotransmission, NMDA receptor signalling, and excitation–inhibition balance — a principal mechanistic bridge between inflammation and neurotransmitter regulation.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Established that psychological and physiological stressors activate inflammatory signalling capable of reshaping central nervous system function through coordinated immune, neuroendocrine and neurochemical pathways. This supports the framework interpretation that chronic inflammatory activation can become a principal upstream constraint on BRS1 performance during sustained physiological demand.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019">Savitz, 2019</a> — Demonstrated that immune activation reshapes neurotransmitter regulation through the kynurenine pathway and broader neuroimmune interactions, influencing both monoaminergic signalling and excitation–inhibition balance. This supports the BRAIN Framework interpretation that maintaining immune regulation preserves the biological environment required for resilient monoaminergic and excitation–inhibition regulation within BRS1.</p></li>
 </ul>
 </div>
 </div>
@@ -324,13 +364,19 @@ A functional control point governing active termination of inflammation through 
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Gut–Immune Drivers of Inflammatory Tone (BRS5 → BRS3)</strong>
+<strong>(BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>Gut barrier integrity and microbial immune signalling influence systemic inflammatory tone and oxidative load.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut barrier and microbial immune containment that enables BRS3 to sustain proportionate inflammatory tone under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving these gut–immune interface capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that gut-derived immune signalling progressively amplifies systemic inflammatory burden within BRS3 as peripheral load accumulates. Maintaining BRS5 therefore complements direct immune-modulatory biology within BRS3 by preserving barrier containment rather than substituting for inflammatory regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS5 maintain gut barrier integrity, microbial ecological stability and gut-derived immune signalling containment required to limit inappropriate inflammatory spillover during prolonged physiological demand. Rather than acting through a single barrier mechanism, these integrated capacities collectively regulate how peripheral immune signals shape inflammatory tone within BRS3.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#omahony_serotonin_2015">O'Mahony et al., 2015</a> — Review of microbiota–gut–brain communication describing immune and serotonergic signalling pathways through which gut ecology modulates central and peripheral inflammatory biology.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Integrative framework linking environmental and social stressors to pro-inflammatory signalling — relevant to how gut-immune perturbation propagates inflammatory burden across systems.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#omahony_serotonin_2015">O'Mahony et al., 2015</a> — Synthesised microbiota–gut–brain communication pathways linking gut ecology to peripheral and central inflammatory biology — supporting the framework interpretation that BRS5 gut–immune signalling shapes BRS3 inflammatory tone.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Established stress-to-inflammation signalling as a systems-level pathway reshaping immune and neuroendocrine biology — supporting the interpretation that gut–immune perturbation can propagate inflammatory burden across BRS3 and connected systems.</p></li>
 </ul>
 </div>
 </div>
@@ -340,14 +386,24 @@ A functional control point governing active termination of inflammation through 
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Stress Signalling Interactions with Inflammatory Load (BRS6 → BRS3)</strong>
+<strong>(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-<p>HPA-axis and autonomic stress signalling interact with inflammatory and oxidative biology during sustained adaptive demand.</p>
+<h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
+<p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive stress–metabolic load allocation that enables BRS3 to sustain immune and redox regulation under prolonged physiological demand.</p>
+<h4 class="brs-hub-integration-section-title">Systems Significance</h4>
+<p>By preserving neuroendocrine and autonomic regulatory capacity, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. This reduces the likelihood that chronic stress activation progressively constrains immune regulation within BRS3 as allostatic load accumulates. Maintaining BRS6 therefore complements direct immune-modulatory biology within BRS3 by preserving systemic stress containment rather than substituting for inflammatory regulation itself.</p>
+<h4 class="brs-hub-integration-section-title">Integrated Regulatory Capacity</h4>
+<p>Together, the Functional Mechanisms within BRS6 maintain HPA-axis rhythm, autonomic balance and metabolic load allocation required to regulate how stress mediators interact with inflammatory and oxidative biology during prolonged physiological demand. Rather than acting through a single stress hormone, these integrated capacities collectively shape the systemic conditions within which BRS3 sustains proportionate immune and redox regulation.</p>
+<h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Foundational allostasis review describing bidirectional interactions between stress mediators, immune-inflammatory processes, and cumulative regulatory burden.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Integrative review linking stress neurobiology to pro-inflammatory cytokine activation and downstream CNS consequences — the principal mechanistic bridge between neuroendocrine stress and inflammatory load.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Described bidirectional interactions between stress mediators, immune-inflammatory processes and cumulative regulatory burden — supporting the framework interpretation that BRS6 stress biology shapes BRS3 inflammatory load.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Operationalised social and psychological stress as inflammatory signals reshaping neuroimmune biology — supporting the BRS6 → BRS3 pathway as a principal stress-to-inflammation bridge within the integrated BRS network.</p></li>
 </ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>

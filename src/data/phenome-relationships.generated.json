@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-07-06T22:48:05.849Z",
+    "generatedAt": "2026-07-08T14:12:33.049Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
@@ -19,26 +19,8 @@
     "edgesMissingTargetPhenome": 0,
     "edgesWithNullPhenomeId": [],
     "duplicateRegistryNames": [],
-    "orphanRegistryPhenomes": [
-      {
-        "id": "PH012",
-        "name": "Energy Stability Under Variable Conditions"
-      }
-    ],
+    "orphanRegistryPhenomes": [],
     "reviewFlags": [
-      {
-        "id": "RF001",
-        "type": "near_duplicate",
-        "phenomeIds": [
-          "PH012",
-          "PH013"
-        ],
-        "labels": [
-          "Energy Stability Under Variable Conditions",
-          "Energy Stability Under Variable Fuel Conditions"
-        ],
-        "note": "Near-duplicate energy/fuel stability labels — consider merging under one canonical phenome after manual review."
-      },
       {
         "id": "RF002",
         "type": "related_distinct",
@@ -1941,28 +1923,6 @@
       "targetPhenomeId": "PH003"
     },
     {
-      "sourceNode": "BRS4-FM3-PM8",
-      "sourceTitle": "Metabolic Fuel Switching",
-      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
-      "parentFM": "BRS4(FM3)",
-      "parentBRS": "BRS4",
-      "targetPhenome": "Energy Stability Under Variable Fuel Conditions",
-      "relationshipType": "indirect",
-      "confidence": "low",
-      "evidenceConfidence": "low",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Metabolic fuel switching governs steadiness of ATP supply across changing macronutrient availability — indirect phenome mapping from ADHD mitochondrial dysfunction framing without measured variable-fuel outcome studies.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Öğütlü et al. (2022)",
-          "citationKey": "ogutlu_mitochondrial_2023",
-          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
-        }
-      ],
-      "targetPhenomeId": "PH013"
-    },
-    {
       "sourceNode": "BRS-X(Hormones-PM1)",
       "sourceTitle": "Oestrogen Signalling Stability",
       "sourcePath": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability",
@@ -2872,6 +2832,28 @@
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
       "rationale": "Capacity to oxidise ketone bodies may contribute to metabolic adaptability when glucose/fat routing is constrained — framework translation from ADHD bioenergetic reviews rather than direct resilience-outcome measurement.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Öğütlü et al. (2022)",
+          "citationKey": "ogutlu_mitochondrial_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
+        }
+      ],
+      "targetPhenomeId": "PH007"
+    },
+    {
+      "sourceNode": "BRS4-FM3-PM8",
+      "sourceTitle": "Metabolic Fuel Switching",
+      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
+      "parentFM": "BRS4(FM3)",
+      "parentBRS": "BRS4",
+      "targetPhenome": "Metabolic Resilience",
+      "relationshipType": "indirect",
+      "confidence": "low",
+      "evidenceConfidence": "low",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Metabolic fuel switching may support maintaining functional stability across changing macronutrient fuel availability — indirect phenome mapping from mitochondrial energy-adaptation framing without directly measured metabolic-resilience outcome studies.",
       "references": [
         {
           "index": 1,
@@ -4544,9 +4526,6 @@
       "BRS5-FM3-PM7",
       "BRS6-FM2-PM4"
     ],
-    "Energy Stability Under Variable Fuel Conditions": [
-      "BRS4-FM3-PM8"
-    ],
     "Focus / Attention Stability": [
       "BRS-X(Hormones-PM1)",
       "BRS1-FM1-PM1",
@@ -4584,6 +4563,7 @@
     ],
     "Metabolic Resilience": [
       "BRS4-FM3-PM7",
+      "BRS4-FM3-PM8",
       "BRS4-FM4-PM9",
       "BRS6-FM1-PM3",
       "BRS6-FM4-PM8"
@@ -4742,9 +4722,6 @@
       "BRS5-FM3-PM7",
       "BRS6-FM2-PM4"
     ],
-    "PH013": [
-      "BRS4-FM3-PM8"
-    ],
     "PH001": [
       "BRS-X(Hormones-PM1)",
       "BRS1-FM1-PM1",
@@ -4782,6 +4759,7 @@
     ],
     "PH007": [
       "BRS4-FM3-PM7",
+      "BRS4-FM3-PM8",
       "BRS4-FM4-PM9",
       "BRS6-FM1-PM3",
       "BRS6-FM4-PM8"
@@ -6508,24 +6486,6 @@
         ]
       },
       {
-        "target_phenome": "Energy Stability Under Variable Fuel Conditions",
-        "connected_pm_count": 1,
-        "strongest_relationship_type": "indirect",
-        "highest_evidence_level": "mechanistic",
-        "overall_confidence": "low",
-        "evidence_summary": "Metabolic fuel switching governs steadiness of ATP supply across changing macronutrient availability — indirect phenome mapping from ADHD mitochondrial dysfunction framing without measured variable-fuel outcome studies.",
-        "contributing_pms": [
-          {
-            "id": "BRS4-FM3-PM8",
-            "name": "Metabolic Fuel Switching",
-            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
-            "relationship_type": "indirect",
-            "confidence": "low",
-            "evidence_level": "mechanistic"
-          }
-        ]
-      },
-      {
         "target_phenome": "Focus / Attention Stability",
         "connected_pm_count": 1,
         "strongest_relationship_type": "modulates",
@@ -6545,16 +6505,24 @@
       },
       {
         "target_phenome": "Metabolic Resilience",
-        "connected_pm_count": 1,
+        "connected_pm_count": 2,
         "strongest_relationship_type": "indirect",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low",
-        "evidence_summary": "Capacity to oxidise ketone bodies may contribute to metabolic adaptability when glucose/fat routing is constrained — framework translation from ADHD bioenergetic reviews rather than direct resilience-outcome measurement.",
+        "evidence_summary": "Capacity to oxidise ketone bodies may contribute to metabolic adaptability when glucose/fat routing is constrained — framework translation from ADHD bioenergetic reviews rather than direct resilience-outcome measurement. Metabolic fuel switching may support maintaining functional stability across changing macronutrient fuel availability — indirect phenome mapping from mitochondrial energy-adaptation framing without directly measured metabolic-resilience outcome studies.",
         "contributing_pms": [
           {
             "id": "BRS4-FM3-PM7",
             "name": "Ketone Utilisation Capacity",
             "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
+            "relationship_type": "indirect",
+            "confidence": "low",
+            "evidence_level": "mechanistic"
+          },
+          {
+            "id": "BRS4-FM3-PM8",
+            "name": "Metabolic Fuel Switching",
+            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
             "relationship_type": "indirect",
             "confidence": "low",
             "evidence_level": "mechanistic"

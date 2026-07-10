@@ -251,14 +251,19 @@
 }
 
 .brs-fm-hub-pm-list {
-  list-style: none;
-  margin: 0.15rem 0 0.35rem 1.15rem;
-  padding: 0;
+  list-style: disc;
+  margin: 0.35rem 0 0.5rem 1.5rem;
+  padding: 0 0 0 0.25rem;
   font-size: 0.92rem;
 }
 
 .brs-fm-hub-pm-list li {
-  margin: 0.2rem 0;
+  margin: 0.4rem 0;
+  padding-left: 0.15rem;
+}
+
+.brs-fm-hub-pm-list li::marker {
+  color: var(--ifm-color-emphasis-600);
 }
 
 .brs-fm-hub-pm-list a {
@@ -273,6 +278,50 @@
   margin: 0.35rem 0 0 1.15rem;
   padding: 0.5rem 0 0 0.65rem;
   border-left: 2px solid var(--ifm-color-emphasis-200);
+}
+
+/* FM group — parent dropdown listing FM titles; children hold per-FM rows */
+.brs-fm-hub-group-summary-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.35rem;
+  width: 100%;
+  padding: 0.25rem 0;
+}
+
+.brs-fm-hub-group-toggle {
+  margin-top: 0.15rem;
+}
+
+.brs-fm-hub-group-title-list {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0 0 0 0.25rem;
+  list-style: disc;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.brs-fm-hub-group-title-list li {
+  margin: 0.35rem 0;
+  padding-left: 0.15rem;
+}
+
+.brs-fm-hub-group-title-list li::marker {
+  color: var(--ifm-color-emphasis-600);
+}
+
+.brs-fm-hub-group.brs-fm-hub-item--open .brs-fm-hub-group-title-list {
+  display: none;
+}
+
+.brs-fm-hub-group-children {
+  margin-top: 0.35rem;
+}
+
+.brs-fm-hub-group-children > .brs-fm-hub-item:last-child {
+  margin-bottom: 0;
 }
 
 .brs-hub-levers {
@@ -290,12 +339,18 @@
 .brs-hub-cross-integration-list,
 .brs-hub-integration-evidence-list {
   margin: 0.75rem 0 0;
-  padding-left: 1.25rem;
+  padding-left: 1.5rem;
+  list-style: disc;
 }
 
 .brs-hub-cross-integration-item,
 .brs-hub-integration-evidence-item {
-  margin-bottom: 0.65rem;
+  margin-bottom: 0.85rem;
+  padding-left: 0.15rem;
+}
+
+.brs-hub-integration-evidence-list li::marker {
+  color: var(--ifm-color-emphasis-600);
 }
 
 .brs-hub-cross-integration-evidence {
@@ -304,6 +359,17 @@
 
 .brs-hub-cross-integration-evidence > .brs-fm-hub-item {
   margin-top: 0.5rem;
+}
+
+.brs-hub-integration-section-title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  margin: 1rem 0 0.35rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.brs-hub-integration-section-title:first-child {
+  margin-top: 0.25rem;
 }
 
 .brs-hub-levers-intro {

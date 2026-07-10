@@ -74,19 +74,6 @@
   ],
   "reviewFlags": [
     {
-      "id": "RF001",
-      "type": "near_duplicate",
-      "phenomeIds": [
-        "PH012",
-        "PH013"
-      ],
-      "labels": [
-        "Energy Stability Under Variable Conditions",
-        "Energy Stability Under Variable Fuel Conditions"
-      ],
-      "note": "Near-duplicate energy/fuel stability labels — consider merging under one canonical phenome after manual review."
-    },
-    {
       "id": "RF002",
       "type": "related_distinct",
       "phenomeIds": [
@@ -1072,7 +1059,7 @@
         "TA006",
         "TA007"
       ],
-      "status": "active",
+      "status": "retired",
       "evidence_confidence": "low-medium",
       "evidence_confidence_note": "Metabolic-flexibility reviews strongly anchor the construct; single-FM mechanism linkage in BRAIN v1 — nutrition layer is micronutrient/bioenergetic context rather than condition-variable energy trials.",
       "provenance": {
@@ -1153,7 +1140,7 @@
         "TA006",
         "TA007"
       ],
-      "status": "active",
+      "status": "retired",
       "evidence_confidence": "low-medium",
       "evidence_confidence_note": "Ketone and glucose-efficiency human studies support fuel-switching biology; registry stack does not demonstrate dietary fuel-manipulation trials as energy-phenome primary endpoints.",
       "provenance": {

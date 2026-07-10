@@ -5,6 +5,23 @@
  */
 import data from "./brs-cross-integration-evidence.json" with { type: "json" };
 
+const INTEGRATION_SECTIONS = [
+  { key: "biological_contribution", title: "Biological Contribution" },
+  { key: "systems_significance", title: "Systems Significance" },
+  { key: "integrated_regulatory_capacity", title: "Integrated Regulatory Capacity" },
+];
+
+function integrationSectionText(integration, key) {
+  return integration?.[key] ?? "";
+}
+
+/** Compose flat narrative for manuscript export (legacy summary field). */
+export function composeIntegrationSummary(integration) {
+  if (integration.summary) return integration.summary;
+  const parts = INTEGRATION_SECTIONS.map(({ key }) => integrationSectionText(integration, key)).filter(Boolean);
+  return parts.join(" ");
+}
+
 export const BRS_CROSS_INTEGRATION_EVIDENCE = data;
 
 /** @param {string} integrationId e.g. "BRS4->BRS1" */
@@ -28,5 +45,7 @@ export function getAllIntegrationCitationKeys() {
   }
   return [...keys];
 }
+
+export { INTEGRATION_SECTIONS };
 
 export default data;
