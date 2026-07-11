@@ -110,9 +110,10 @@
 
 .brs-hub-hero-clip .brs-hub-hero {
   display: block;
-  width: 106%;
-  max-width: 106%;
-  margin-left: -3%;
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  clip-path: inset(0 1.2% 0 0.35%);
 }
 
 .brs-hub-hero,
