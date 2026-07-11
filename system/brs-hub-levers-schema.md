@@ -18,7 +18,7 @@ Each BRS hub page should orient readers in under one minute: explain the biologi
 | 4 | **Optimisation Levers** | Required where applicable — curated + PM provenance (see [Optimisation Levers](#optimisation-levers)) |
 | 5 | **Lifestyle Priorities** | Required — curated + PM provenance |
 | 6 | **Therapeutic Area Research** | BRS1–BRS6 ADHD dropdowns — [BRS Hub ADHD TA Dropdown](./brs-hub-ta-adhd-dropdown-schema.md); [BRAIN TA Evidence Integration Standard v1.2](./brain-ta-evidence-integration-standard.md) |
-| 6a | **Cross-BRS integration Evidence** | Landmark mechanistic reviews per Cross-BRS relationship (Category B — not in ADHD dropdown) |
+| 6a | **Cross-BRS Dependencies** | Landmark mechanistic reviews per Cross-BRS dependency (Category B — not in ADHD dropdown) |
 | 7 | **Functional Mechanisms** and downstream navigation (KCs, SMs) | Required |
 
 **Removed from hub pages (do not restore):**
@@ -34,7 +34,7 @@ Apply or refresh Therapeutic Area Research markers:
 npm run brs:patch-ta-research
 ```
 
-Apply or refresh Cross-BRS integration Evidence sections:
+Apply or refresh Cross-BRS Dependencies sections:
 
 ```bash
 npm run brs:generate-hub-cross-integration
@@ -44,13 +44,13 @@ Source of truth: `scripts/data/brs-cross-integration-evidence.json` (also consum
 
 ---
 
-## Cross-BRS integration Evidence
+## Cross-BRS Dependencies
 
-Cross-BRS relationships explain **how the Functional Mechanisms within one Biological Regulatory System collectively preserve the adaptive performance of another during sustained physiological demand.** Category B evidence — not ADHD intervention studies. Rendered as collapsible four-section notes on each hub page.
+Cross-BRS dependencies explain **how the Functional Mechanisms within one Biological Regulatory System collectively preserve the adaptive performance of another during sustained physiological demand.** Category B evidence — not ADHD intervention studies. Rendered as collapsible four-section notes on each hub page.
 
 **Hub section intro** (all BRS1–BRS6 hub pages):
 
-> Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.
+> Cross-BRS dependencies describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.
 
 ### Core principle
 
@@ -120,8 +120,8 @@ Allostatic load emerges when one or more adaptive capacities become constrained 
 
 Therefore:
 
-- Introduce allostatic **theory** primarily within **(BRS6 → BRS1) Cross-BRS integration** (Systems Significance + Integrated Regulatory Capacity).
-- Explain other Cross-BRS relationships in terms of **preserving adaptive capacity and biological resilience**.
+- Introduce allostatic **theory** primarily within **(BRS6 → BRS1) Cross-BRS Dependencies** (Systems Significance + Integrated Regulatory Capacity).
+- Explain other Cross-BRS dependencies in terms of **preserving adaptive capacity and biological resilience**.
 - Avoid describing every BRS as *"an allostatic system."*
 - Present the six BRSs as the **integrated adaptive network** through which allostatic regulation is achieved.
 

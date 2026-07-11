@@ -26,91 +26,9 @@ hide_title: true
 
 Maintain efficient mitochondrial energy production, fuel flexibility, and organelle resilience so the brain sustains cognitive performance, adapts to varying metabolic demands, and recovers from oxidative and energetic strain without accumulating bioenergetic debt.
 
-<!-- brs-hub-levers:start -->
-<div class="brs-hub-levers">
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Priorities</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-hub-dietary-strategy">
-<p class="brs-hub-dietary-guidance-flow">Pattern → Nutrients → Biology → Target Foods</p>
-<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Build meals around slowly digested carbohydrates and whole grains</strong> → complex carbohydrates and fermentable fibre → mitochondria require steady fuel substrate delivery; when carbohydrate flux becomes erratic, ATP production and metabolic fuel switching become less efficient.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/sweet-potatoes">Sweet Potatoes</a> • <a href="/docs/foods/lentils">Lentils</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Distribute quality protein across meals</strong> → complete amino acids and sulphur amino acids → maintains electron-transport substrate supply and supports mitochondrial enzyme function under varying energy demand.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/tofu">Tofu</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Prioritise B-vitamin, iron and magnesium coverage through varied whole foods</strong> → B vitamins, iron and magnesium → provides enzymatic cofactors required for electron transport, NAD metabolism and mitochondrial redox chemistry.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/sardines">Sardines</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include creatine-relevant protein sources regularly</strong> → creatine and taurine → supports phosphocreatine buffering when cellular ATP demand rises acutely.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/scallops">Scallops</a> • <a href="/docs/foods/salmon">Salmon</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer" class="brs-hub-lever-pm">BRS4-FM1-PM3</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include foods that support carnitine-mediated fat transport</strong> → carnitine and long-chain fatty acids → enables mitochondrial uptake and oxidation of fatty-acid fuel when metabolic demand shifts.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/kefir">Kefir</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport" class="brs-hub-lever-pm">BRS4-FM3-PM6</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plants and high-quality olive oil</strong> → polyphenols and CoQ-relevant compounds → supports mitochondrial protection, ROS control and adaptive biogenesis under metabolic load.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/early-harvest-olive-oil">Early Harvest Olive Oil</a> • <a href="/docs/foods/broccoli">Broccoli</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></p>
-</li>
-</ul>
-</div>
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Optimisation Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS4 yet.</em></p>
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Lifestyle Priorities</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<ul class="brs-hub-lever-list brs-hub-lifestyle-list">
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Engage in regular aerobic and resistance training</strong> to raise energy demand, support mitochondrial adaptation, and improve metabolic fuel flexibility over time.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport" class="brs-hub-lever-pm">BRS4-FM3-PM6</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Prioritise adequate sleep and recovery between activity</strong> to support cellular energy metabolism, mitochondrial repair, and adaptive remodelling rather than chronic under-recovery.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer" class="brs-hub-lever-pm">BRS4-FM1-PM3</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain stable daily meal structure</strong> to help keep energy substrates available and support steady mitochondrial throughput across the day.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Reduce oxidant exposure from smoke, pollution, and excess alcohol</strong> to lower mitochondrial oxidative pressure and help preserve redox balance and protective capacity.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Choose gentler cooking methods</strong> to reduce avoidable oxidative stress placed on mitochondrial protection and membrane integrity.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Boil high-oxalate leafy greens when oxalate load matters</strong> to reduce soluble oxalate, improve mineral bioavailability from iron- and magnesium-rich greens, and limit avoidable pressure on mitochondrial cofactor and redox networks.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain consistent sleep–wake rhythms</strong> to support biological pathways involved in cellular energy production and NAD-related metabolism.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a></span></p></li>
-</ul>
-
-</div>
-</div>
-</div>
-
-</div>
-<!-- brs-hub-levers:end -->
-
 ## Therapeutic Area Research
+
+<p class="brs-hub-ta-research-intro">ADHD is the first fully mapped therapeutic area within the BRAIN Framework, providing a proof of concept for an adaptive biological architecture linking nutrition, biology and function. The same framework is designed to expand across additional therapeutic areas through the shared <a href="/docs/phenomes/">Phenome Registry</a>.</p>
 
 <!-- brs-hub-ta-research:start -->
 <div class="brs-hub-ta-research">
@@ -165,11 +83,100 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 </div>
 <!-- brs-hub-ta-research:end -->
 
----
+## Dietary and Lifestyle Levers
+
+<p class="brs-hub-levers-intro">Macronutrient quality and mitochondrial cofactors set the substrate ceiling for ATP production and oxidative resilience. Sleep, activity and metabolic rhythm then determine whether that capacity is recovered and deployed effectively under sustained cognitive demand.</p>
+
+<!-- brs-hub-levers:start -->
+<div class="brs-hub-levers">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary Priorities</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-hub-dietary-strategy">
+<p class="brs-hub-dietary-guidance-flow">Pattern → Nutrients → Biology → Target Foods</p>
+<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Build meals around slowly digested carbohydrates and whole grains</strong> → complex carbohydrates and fermentable fibre → mitochondria require steady fuel substrate delivery; when carbohydrate flux becomes erratic, ATP production and metabolic fuel switching become less efficient.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/sweet-potatoes">Sweet Potatoes</a> • <a href="/docs/foods/lentils">Lentils</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Distribute quality protein across meals</strong> → complete amino acids and sulphur amino acids → maintains electron-transport substrate supply and supports mitochondrial enzyme function under varying energy demand.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/tofu">Tofu</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Prioritise B-vitamin, iron and magnesium coverage through varied whole foods</strong> → B vitamins, iron and magnesium → provides enzymatic cofactors required for electron transport, NAD metabolism and mitochondrial redox chemistry.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/sardines">Sardines</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include creatine-relevant protein sources regularly</strong> → creatine and taurine → supports phosphocreatine buffering when cellular ATP demand rises acutely.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/scallops">Scallops</a> • <a href="/docs/foods/salmon">Salmon</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer" class="brs-hub-lever-pm">BRS4-FM1-PM3</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include foods that support carnitine-mediated fat transport</strong> → carnitine and long-chain fatty acids → enables mitochondrial uptake and oxidation of fatty-acid fuel when metabolic demand shifts.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/kefir">Kefir</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport" class="brs-hub-lever-pm">BRS4-FM3-PM6</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plants and high-quality olive oil</strong> → polyphenols and CoQ-relevant compounds → supports mitochondrial protection, ROS control and adaptive biogenesis under metabolic load.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/early-harvest-olive-oil">Early Harvest Olive Oil</a> • <a href="/docs/foods/broccoli">Broccoli</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></p>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Optimisation Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+
+<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS4 yet.</em></p>
+
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Lifestyle Priorities</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<ul class="brs-hub-lever-list brs-hub-lifestyle-list">
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Engage in regular aerobic and resistance training</strong> to raise energy demand, support mitochondrial adaptation, and improve metabolic fuel flexibility over time.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport" class="brs-hub-lever-pm">BRS4-FM3-PM6</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Prioritise adequate sleep and recovery between activity</strong> to support cellular energy metabolism, mitochondrial repair, and adaptive remodelling rather than chronic under-recovery.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a> <a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer" class="brs-hub-lever-pm">BRS4-FM1-PM3</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a> <a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis" class="brs-hub-lever-pm">BRS4-FM4-PM9</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain stable daily meal structure</strong> to help keep energy substrates available and support steady mitochondrial throughput across the day.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function" class="brs-hub-lever-pm">BRS4-FM1-PM1</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Reduce oxidant exposure from smoke, pollution, and excess alcohol</strong> to lower mitochondrial oxidative pressure and help preserve redox balance and protective capacity.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Choose gentler cooking methods</strong> to reduce avoidable oxidative stress placed on mitochondrial protection and membrane integrity.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Boil high-oxalate leafy greens when oxalate load matters</strong> to reduce soluble oxalate, improve mineral bioavailability from iron- and magnesium-rich greens, and limit avoidable pressure on mitochondrial cofactor and redox networks.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control" class="brs-hub-lever-pm">BRS4-FM2-PM4</a> <a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity" class="brs-hub-lever-pm">BRS4-FM2-PM5</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain consistent sleep–wake rhythms</strong> to support biological pathways involved in cellular energy production and NAD-related metabolism.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism" class="brs-hub-lever-pm">BRS4-FM1-PM2</a></span></p></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-levers:end -->
+
 
 ## Functional Mechanisms
 
-Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
+Cellular bioenergetics, mitochondrial resilience, substrate flexibility, and adaptive capacity expansion supply the ATP and redox stability neurons need under sustained demand. Without adequate energetic reserve, neurotransmitter synthesis, clearance, and signalling become harder to sustain across the day.
 
 <div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -353,17 +360,24 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 </div>
 </div>
 
-
 </div>
 </div>
 </div>
 </div>
 
+## Key Constraints (Dietary Bottlenecks)
+
+Key Constraints (KCs) in BRS4 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
+
+- [BRS4(KC1) - Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability): Availability of glucose, fatty acids, and amino acids for ATP production.
+- [BRS4(KC2) - Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency): Availability of vitamins and minerals required for mitochondrial enzymes and electron transfer.
+
+---
 
 <!-- brs-hub-cross-integration:start -->
-## Cross-BRS integration
+## Cross-BRS Dependencies
 
-<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
+<p>Bioenergetic reserve is seldom measured directly; its erosion is often recognised first through attention lapses, cognitive stamina or neurotransmitter instability. Mitochondrial capacity, substrate flexibility and oxidative resilience set the energetic ceiling beneath which every other regulatory system must operate. When that reserve thins, downstream signalling and recovery falter even when neurotransmitter pathways appear biochemically intact. The evidence below defines the principal Cross-BRS Dependencies through which BRS4 enables adaptive function across the network.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
@@ -454,16 +468,6 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 
 </div>
 <!-- brs-hub-cross-integration:end -->
-
-
-## Key Constraints (Dietary Bottlenecks)
-
-Key Constraints (KCs) in BRS4 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
-
-- [BRS4(KC1) - Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability): Availability of glucose, fatty acids, and amino acids for ATP production.
-- [BRS4(KC2) - Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency): Availability of vitamins and minerals required for mitochondrial enzymes and electron transfer.
-
----
 
 ## Specific Mechanisms
 

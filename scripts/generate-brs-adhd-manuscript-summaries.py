@@ -34,7 +34,7 @@ ALLOSTASIS_INTRO = (
     "neuroendocrine and metabolic resources are allocated across that network. The full biological "
     "definition of how allostasis is implemented — including coordinated resource allocation, "
     "proportionate adaptation, and cumulative allostatic load — is developed in the (BRS6 → BRS1) "
-    "Cross-BRS integration section within the BRS1 summary below. Each BRS summary establishes the "
+    "Cross-BRS Dependencies section within the BRS1 summary below. Each BRS summary establishes the "
     "scientific identity of that system in ADHD and explains how it may shape modifiable biology "
     "and adaptive capacity."
 )
@@ -104,7 +104,7 @@ SECTIONS = [
             "For adaptive capacity, BRS1 contributes neurochemical flexibility supporting attention, "
             "motivation, arousal, and behavioural control under fluctuating demand. When upstream "
             "systems are strained, neurotransmitter regulation bears disproportionate load — as "
-            "described in Cross-BRS integration Evidence. "
+            "described in Cross-BRS Dependencies. "
             "Regulating BRS1 therefore has ADHD relevance not only for symptom biology but for "
             "maintaining resilient neurochemical performance when regulatory burden rises."
         ),
@@ -175,7 +175,7 @@ SECTIONS = [
             "For adaptive capacity, BRS2 contributes methylation, repair, and phospholipid "
             "maintenance needed for sustained biological adaptation. Under chronic demand, "
             "one-carbon insufficiency may increase vulnerability across downstream regulatory "
-            "systems — as outlined in Cross-BRS integration Evidence. "
+            "systems — as outlined in Cross-BRS Dependencies. "
             "Regulating BRS2 therefore offers a biologically plausible route to supporting "
             "resilience by maintaining the biochemical infrastructure other systems depend upon "
             "when regulatory burden accumulates."
@@ -247,7 +247,7 @@ SECTIONS = [
             "For adaptive capacity, BRS3 contributes inflammatory and redox load control that "
             "protects downstream regulatory systems. Chronic low-grade inflammatory or oxidative "
             "strain may alter neurotransmitter regulation and increase metabolic burden handled by "
-            "BRS6 — relationships described in Cross-BRS integration Evidence. Regulating BRS3 therefore has ADHD relevance as a modifiable "
+            "BRS6 — relationships described in Cross-BRS Dependencies. Regulating BRS3 therefore has ADHD relevance as a modifiable "
             "system that may reduce biological cost when environmental, behavioural, or "
             "physiological demands accumulate."
         ),
@@ -316,7 +316,7 @@ SECTIONS = [
             "behavioural performance.\n\n"
             "For adaptive capacity, BRS4 contributes bioenergetic reserve and recovery capacity "
             "under sustained demand. Its relationship to neurotransmitter regulation and stress-linked "
-            "energetic remodelling is described in Cross-BRS integration Evidence. Regulating BRS4 therefore has ADHD relevance for maintaining cognitive and "
+            "energetic remodelling is described in Cross-BRS Dependencies. Regulating BRS4 therefore has ADHD relevance for maintaining cognitive and "
             "behavioural performance when regulatory burden increases — particularly where energetic "
             "recovery between demands is impaired."
         ),
@@ -386,7 +386,7 @@ SECTIONS = [
             "For adaptive capacity, BRS5 contributes gut-derived immune, metabolic, and vagal "
             "signalling that shapes how the body responds to environmental and physiological demand. "
             "Cross-system dependencies with inflammatory, bioenergetic, and neuroendocrine regulation "
-            "are outlined in Cross-BRS integration Evidence. Regulating "
+            "are outlined in Cross-BRS Dependencies. Regulating "
             "BRS5 therefore has ADHD relevance as a peripheral system that may influence central "
             "regulatory burden and resilience when stress, diet, or immune challenge accumulate."
         ),
@@ -458,7 +458,7 @@ SECTIONS = [
             "treatment response. Meal composition, circadian-aligned feeding, sleep regularity, and "
             "stress-recovery routines may influence cortisol phase, autonomic downshift, and "
             "metabolic load allocation. Cross-system dependencies with neurotransmitter, "
-            "inflammatory, and bioenergetic regulation are described in Cross-BRS integration Evidence. "
+            "inflammatory, and bioenergetic regulation are described in Cross-BRS Dependencies. "
             "The BRAIN Framework uses allostatic "
             "theory here not to explain ADHD causation, but to show how BRS6-centred regulation may "
             "support adaptive capacity and lower cumulative biological cost."
@@ -550,7 +550,7 @@ def compose_integration_summary(integration: dict) -> str:
 
 
 def add_integration_evidence(doc: Document, integrations: list[dict]) -> int:
-    add_body_paragraphs(doc, "Cross-BRS integration Evidence", heading_level=2, heading_size=13)
+    add_body_paragraphs(doc, "Cross-BRS Dependencies", heading_level=2, heading_size=13)
     word_count = 0
     section_labels = [
         ("Biological Contribution", "biological_contribution"),
@@ -667,10 +667,10 @@ def main():
         "Regulatory System in ADHD and argues for its biological plausibility and modifiability. "
         "The objective is not to catalogue Primary Mechanisms or provide representative PM evidence. "
         "Landmark ADHD studies are selected to justify Functional Mechanisms and the BRS as a whole. "
-        "Cross-BRS relationships are supported by landmark mechanistic reviews from "
+        "Cross-BRS dependencies are supported by landmark mechanistic reviews from "
         "scripts/data/brs-cross-integration-evidence.json. "
         "Schema: system/brs-adhd-manuscript-summary-schema.md (v2.1). "
-        "Cross-BRS relationships are implemented on BRS hub pages and sourced from "
+        "Cross-BRS dependencies are implemented on BRS hub pages and sourced from "
         "scripts/data/brs-cross-integration-evidence.json."
     )
     objective.paragraph_format.line_spacing_rule = WD_LINE_SPACING.DOUBLE

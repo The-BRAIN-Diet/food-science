@@ -1,11 +1,11 @@
 /**
- * Render Cross-BRS integration Evidence on BRS hub pages.
+ * Render Cross-BRS Dependencies on BRS hub pages.
  * @see system/brs-hub-levers-schema.md
  * @see scripts/data/brs-cross-integration-evidence.json
  */
 import fs from "node:fs";
 import path from "node:path";
-import { getIntegrationsForBrs } from "../data/brs-cross-integration-evidence.mjs";
+import { getIntegrationsForBrs, getHubCrossBrsSummary } from "../data/brs-cross-integration-evidence.mjs";
 import { HUB_PAGES } from "./brs-hub-levers.mjs";
 import { HUB_COLLAPSIBLE_ATTR, renderHubNestedGroup } from "./hub-collapsible.mjs";
 
@@ -112,10 +112,12 @@ export function renderHubCrossIntegrationHtml(brsId) {
   const titleItems = integrations.map(getIntegrationDisplayTitle);
   const grouped = renderHubNestedGroup(titleItems, collapsibles);
 
-  return `${CROSS_INTEGRATION_MARKERS.start}
-## Cross-BRS integration
+  const intro = escapeHtml(getHubCrossBrsSummary(brsId));
 
-<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
+  return `${CROSS_INTEGRATION_MARKERS.start}
+## Cross-BRS Dependencies
+
+<p>${intro}</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
@@ -143,15 +145,15 @@ export function patchHubCrossIntegration(hubPath, html, rootDir = process.cwd())
 
   // Remove legacy unmarked Cross-BRS sections (e.g. after a partial patch).
   content = content.replace(
-    /\n## Cross-BRS integration[\s\S]*?(?=\n## (?:Key Constraints \(Dietary Bottlenecks\)|Requirements \(Key Constraints\)))/,
+    /\n## Cross-BRS (?:Dependencies|integration|relationships)(?: Evidence)?[\s\S]*?(?=\n## (?:Key Constraints \(Dietary Bottlenecks\)|Requirements \(Key Constraints\)|Specific Mechanisms))/,
     "\n",
   );
 
-  // Canonical position: after full Functional Mechanisms section, before Key Constraints.
+  // Canonical position: after full Functional Mechanisms section, before Specific Mechanisms.
   const insertRe =
-    /(## Functional Mechanisms[\s\S]*?)(\n## (?:Key Constraints \(Dietary Bottlenecks\)|Requirements \(Key Constraints\)))/;
+    /(## Functional Mechanisms[\s\S]*?)(\n## Specific Mechanisms)/;
   if (!insertRe.test(content)) {
-    throw new Error(`${hubPath}: could not find insertion point before Key Constraints`);
+    throw new Error(`${hubPath}: could not find insertion point before Specific Mechanisms`);
   }
   content = content.replace(insertRe, `$1\n\n${block}\n\n$2`);
 

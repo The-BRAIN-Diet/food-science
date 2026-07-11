@@ -16,7 +16,6 @@ hide_title: true
   class="brs-hub-hero"
 />
 
-
 ## BRS1 - Neurotransmitter Regulation
 
 (Neurotransmitter Signalling & Chemical Communication)
@@ -24,6 +23,64 @@ hide_title: true
 ## Ambition
 
 Maintain continuous, balanced neurotransmitter signalling across monoaminergic, cholinergic, membrane-lipid, and GABA–glutamate systems so the brain sustains attention, arousal, motivation, emotional regulation, and behavioural control without drifting into depletion, imbalance, or excitation–inhibition mismatch.
+
+## Therapeutic Area Research
+
+<p class="brs-hub-ta-research-intro">ADHD is the first fully mapped therapeutic area within the BRAIN Framework, providing a proof of concept for an adaptive biological architecture linking nutrition, biology and function. The same framework is designed to expand across additional therapeutic areas through the shared <a href="/docs/phenomes/">Phenome Registry</a>.</p>
+
+<!-- brs-hub-ta-research:start -->
+<div class="brs-hub-ta-research">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>ADHD: Neurotransmitter Regulation Biological Implications</strong>
+</button>
+
+<div class="brs-fm-hub-panel" hidden>
+
+### Introduction
+
+Many brain-related disorders have been associated with altered neurotransmitter signalling, yet no single neurotransmitter fully explains cognitive, emotional, or behavioural function. The Neurotransmitter Regulation system spans monoaminergic, cholinergic, membrane-lipid, and excitatory–inhibitory pathways that jointly influence attention, motivation, arousal, and behavioural control.
+
+Dietary proteins, amino-acid quality, meal composition, choline supply, omega-3 membrane biology, and cofactor sufficiency all influence whether precursor pools, transport competition, and receptor environments remain adequate for stable neurotransmitter signalling. In ADHD contexts, these inputs are interpreted through connected BRS1 functional mechanisms rather than as isolated nutrient effects.
+
+### ADHD: Neurotransmitter Regulation Context
+
+In ADHD, neurobiology spans multiple transmitter systems rather than a single deficit. Dopaminergic dysfunction is consistently linked, but evidence does not support a simple global hypo-dopaminergic model—alterations vary by subtype, developmental stage, and brain region, interacting with noradrenergic, serotonergic, cholinergic, glutamatergic, and GABAergic systems.
+
+Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic executive modulation, serotonergic emotional regulation, cholinergic substrate support, neuronal DHA incorporation, and GABA–glutamate balance each represent diet-actionable entry points within BRS1. Emotional dysregulation—frequently co-occurring with ADHD symptom patterns—may further intersect monoaminergic biology without reducing the phenotype to a single transmitter.
+
+### ADHD evidence and connected BRS1 mechanisms
+
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| Dopaminergic dysfunction in ADHD does not support a simple global hypo-dopaminergic model; alterations vary by subtype, stage, and brain region | [MacDonald et al., 2024](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024) | [BRS1(FM1)](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function), [BRS1-FM1-PM3](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation) |
+| Meal-level amino-acid sufficiency may support catecholaminergic and serotonergic precursor pools relevant to ADHD attention pathways | [Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019) | [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
+| Tyrosine availability explored in attention-deficit contexts | [Reimherr & Ward, 1987](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987) | [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
+| Role of serotonin in ADHD | [Oades, 2010](/docs/papers/BRAIN-Diet-References#oades_role_2010) | [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation), [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
+| Serotonin deficit susceptibility in ADHD | [Banerjee and Nandagopal, 2015](/docs/papers/BRAIN-Diet-References#banerjee_does_2015) | [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation), [BRS1(SM-PHEN2)](/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation) |
+| Emotion dysregulation in attention deficit hyperactivity disorder | [Shaw et al., 2014](/docs/papers/BRAIN-Diet-References#shaw_emotion_2014) | [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation), [BRS1(SM-PHEN2)](/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation) |
+| Low choline intakes and altered choline status in neurodevelopmental subgroups relevant to attention and learning | [Derbyshire et al., 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) | [BRS1(FM2)](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function), [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) |
+| Decreased muscarinic acetylcholine receptor binding in neurodevelopmental contexts | [Johansson et al., 2013](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS1(FM2)](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function), [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) |
+| Focus on omega-3 polyunsaturated fatty acids and ADHD | [Pei-Chen Chang, 2021](/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021) | [BRS1(FM3)](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration), [BRS1-FM3-PM6](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) |
+| PUFA, magnesium, and zinc supplementation studied in children seeking medical attention for behavioural symptoms | [Huss et al., 2010](/docs/papers/BRAIN-Diet-References#huss_supplementation_2010) | [BRS1(FM3)](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration), [BRS1-FM3-PM6](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) |
+| Low glutamate in critical brain areas correlates with low Barkley attention scale scores | [Maltezos et al., 2014](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM7](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance) |
+| Reduced GABA concentration in attention-deficit/hyperactivity disorder | [Edden et al., 2012](/docs/papers/BRAIN-Diet-References#edden_reduced_2012) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM7](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance) |
+| Reduced striatal GABA in unmedicated children with ADHD | [Puts et al., 2020](/docs/papers/BRAIN-Diet-References#puts_reduced_2020) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM7](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance), [BRS1(SM-PHEN1)](/docs/biological-targets/brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation) |
+| Neural excitation and inhibition balance framing | [Mamiya et al., 2021](/docs/papers/BRAIN-Diet-References#mamiya_precision_2021) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM10](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation) |
+
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-ta-research:end -->
+
+## Dietary and Lifestyle Levers
+
+<p class="brs-hub-levers-intro">Continuous amino-acid, cofactor and membrane intake establishes the substrate basis for neurotransmitter synthesis, but meal timing, sleep and stress recovery determine whether that supply translates into stable signalling across the day. Dietary Guidance carries most of the biological weight here; Optimisation and Lifestyle levers refine how those substrates are preserved and deployed.</p>
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -81,9 +138,11 @@ Maintain continuous, balanced neurotransmitter signalling across monoaminergic, 
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
+
 <ul class="brs-hub-lever-list brs-hub-optimisation-list">
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare omega-3-rich foods gently and include them regularly</strong> to protect delicate marine fats during cooking and support ongoing brain membrane health over time.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation" class="brs-hub-lever-pm">BRS1-FM3-PM6</a></span></p></li>
 </ul>
+
 
 </div>
 </div>
@@ -111,63 +170,22 @@ Maintain continuous, balanced neurotransmitter signalling across monoaminergic, 
 </div>
 <!-- brs-hub-levers:end -->
 
-## Therapeutic Area Research
+<!-- brs-hub-key-constraints:start -->
+## Key Constraints (Dietary Bottlenecks)
 
-<!-- brs-hub-ta-research:start -->
-<div class="brs-hub-ta-research">
+<p>These target foods supply the shared amino-acid substrates and precursors that constrain neurotransmitter availability and LNAA transport balance across BRS1. Day-to-day function depends on balancing excitatory and inhibitory tone — glutamate, GABA, and monoamines — across the circadian cycle and as cognitive and metabolic demand shifts. When protein quality or competitive amino-acid balance is weak, that daily balance is harder to sustain, limiting downstream monoaminergic and GABA–glutamate regulation before individual Primary Mechanisms are considered.</p>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>ADHD: Neurotransmitter Regulation Biological Implications</strong>
-</button>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/milk">Milk</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/soy">Soy</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a></p>
 
-<div class="brs-fm-hub-panel" hidden>
+<ul class="brs-hub-kc-links">
+<li><a href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">BRS1(KC1) — Amino Acid Quality & Competitive Balance</a></li>
+</ul>
+<!-- brs-hub-key-constraints:end -->
 
-### Introduction
-
-Many brain-related disorders have been associated with altered neurotransmitter signalling, yet no single neurotransmitter fully explains cognitive, emotional, or behavioural function. The Neurotransmitter Regulation system spans monoaminergic, cholinergic, membrane-lipid, and excitatory–inhibitory pathways that jointly influence attention, motivation, arousal, and behavioural control.
-
-Dietary proteins, amino-acid quality, meal composition, choline supply, omega-3 membrane biology, and cofactor sufficiency all influence whether precursor pools, transport competition, and receptor environments remain adequate for stable neurotransmitter signalling. In ADHD contexts, these inputs are interpreted through connected BRS1 functional mechanisms rather than as isolated nutrient effects.
-
-### ADHD: Neurotransmitter Regulation Context
-
-In ADHD, neurobiology spans multiple transmitter systems rather than a single deficit. Dopaminergic dysfunction is consistently linked, but evidence does not support a simple global hypo-dopaminergic model—alterations vary by subtype, developmental stage, and brain region, interacting with noradrenergic, serotonergic, cholinergic, glutamatergic, and GABAergic systems.
-
-Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic executive modulation, serotonergic emotional regulation, cholinergic substrate support, neuronal DHA incorporation, and GABA–glutamate balance each represent diet-actionable entry points within BRS1. Emotional dysregulation—frequently co-occurring with ADHD symptom patterns—may further intersect monoaminergic biology without reducing the phenotype to a single transmitter.
-
-### ADHD evidence and connected BRS1 mechanisms
-
-| Evidence | Citation | Connected mechanisms |
-| --- | --- | --- |
-| Dopaminergic dysfunction in ADHD does not support a simple global hypo-dopaminergic model; alterations vary by subtype, stage, and brain region | [MacDonald et al., 2024](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024) | [BRS1(FM1)](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function), [BRS1-FM1-PM3](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation) |
-| Meal-level amino-acid sufficiency may support catecholaminergic and serotonergic precursor pools relevant to ADHD attention pathways | [Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019) | [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
-| Tyrosine availability explored in attention-deficit contexts | [Reimherr & Ward, 1987](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987) | [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
-| Role of serotonin in ADHD | [Oades, 2010](/docs/papers/BRAIN-Diet-References#oades_role_2010) | [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation), [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
-| Serotonin deficit susceptibility in ADHD | [Banerjee and Nandagopal, 2015](/docs/papers/BRAIN-Diet-References#banerjee_does_2015) | [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation), [BRS1(SM-PHEN2)](/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation) |
-| Emotion dysregulation in attention deficit hyperactivity disorder | [Shaw et al., 2014](/docs/papers/BRAIN-Diet-References#shaw_emotion_2014) | [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation), [BRS1(SM-PHEN2)](/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation) |
-| Low choline intakes and altered choline status in neurodevelopmental subgroups relevant to attention and learning | [Derbyshire et al., 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) | [BRS1(FM2)](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function), [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) |
-| Decreased muscarinic acetylcholine receptor binding in neurodevelopmental contexts | [Johansson et al., 2013](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS1(FM2)](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function), [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) |
-| Focus on omega-3 polyunsaturated fatty acids and ADHD | [Pei-Chen Chang, 2021](/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021) | [BRS1(FM3)](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration), [BRS1-FM3-PM6](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) |
-| PUFA, magnesium, and zinc supplementation studied in children seeking medical attention for behavioural symptoms | [Huss et al., 2010](/docs/papers/BRAIN-Diet-References#huss_supplementation_2010) | [BRS1(FM3)](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration), [BRS1-FM3-PM6](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) |
-| Low glutamate in critical brain areas correlates with low Barkley attention scale scores | [Maltezos et al., 2014](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM7](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance) |
-| Reduced GABA concentration in attention-deficit/hyperactivity disorder | [Edden et al., 2012](/docs/papers/BRAIN-Diet-References#edden_reduced_2012) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM7](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance) |
-| Reduced striatal GABA in unmedicated children with ADHD | [Puts et al., 2020](/docs/papers/BRAIN-Diet-References#puts_reduced_2020) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM7](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance), [BRS1(SM-PHEN1)](/docs/biological-targets/brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation) |
-| Neural excitation and inhibition balance framing | [Mamiya et al., 2021](/docs/papers/BRAIN-Diet-References#mamiya_precision_2021) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM10](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation) |
-
-</div>
-</div>
-</div>
-
-</div>
-<!-- brs-hub-ta-research:end -->
-
----
 
 ## Functional Mechanisms
 
-Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
+Monoaminergic, cholinergic, membrane-lipid, and GABA–glutamate mechanisms jointly govern attention, drive, memory, and excitatory–inhibitory balance. Together they set whether precursor supply, receptor environments, and daily signalling tone can support stable function as demand and circadian timing shift.
 
 <div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -344,17 +362,15 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 </div>
 </div>
 
-
 </div>
 </div>
 </div>
 </div>
-
 
 <!-- brs-hub-cross-integration:start -->
-## Cross-BRS integration
+## Cross-BRS Dependencies
 
-<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
+<p>Neurotransmitter regulation rarely fails in isolation. Stable attention, motivation and emotional regulation depend on the coordinated performance of multiple Biological Regulatory Systems. When upstream systems become constrained, neurotransmitter dysregulation is often the first observable consequence, even though the primary biological limitation lies elsewhere. The evidence below demonstrates the principal Cross-BRS Dependencies supporting BRS1 and explains why the BRAIN Framework is organised around interconnected regulatory systems rather than isolated biochemical pathways.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
@@ -492,15 +508,6 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 
 </div>
 <!-- brs-hub-cross-integration:end -->
-
-
-## Key Constraints (Dietary Bottlenecks)
-
-Key Constraints (KCs) in BRS1 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
-
-- [BRS1(KC1) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance): Quality, completeness, and relative balance of dietary amino-acid pools influencing precursor adequacy, limiting amino-acid risk, and competitive transport context.
-
----
 
 ## Specific Mechanisms
 

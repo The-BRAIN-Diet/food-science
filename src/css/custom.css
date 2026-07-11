@@ -332,6 +332,12 @@
   margin: 0 0 1.5rem;
 }
 
+.brs-hub-ta-research-intro {
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0.35rem 0 1rem;
+}
+
 .brs-hub-ta-research > .brs-fm-hub-item {
   margin-top: 0.5rem;
 }
@@ -375,7 +381,7 @@
 .brs-hub-levers-intro {
   font-size: 0.95rem;
   color: var(--ifm-color-emphasis-700);
-  margin: 0 0 0.75rem;
+  margin: 0.35rem 0 1rem;
 }
 
 .brs-hub-levers-patterns {
@@ -454,6 +460,16 @@
 
 .brs-hub-dietary-target-foods .brs-hub-lever-pms {
   display: inline;
+}
+
+.brs-hub-kc-links {
+  margin: 0.75rem 0 0;
+  padding-left: 1.25rem;
+  font-size: 0.88rem;
+}
+
+.brs-hub-kc-links li {
+  margin-bottom: 0.25rem;
 }
 
 .brs-hub-dietary-guidance-note {

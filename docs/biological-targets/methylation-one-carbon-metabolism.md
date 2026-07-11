@@ -26,6 +26,54 @@ hide_title: true
 
 Maintain efficient one-carbon metabolism so the brain can sustain methylation capacity, membrane phospholipid renewal, neurotransmitter-relevant chemistry, glutathione formation, and adaptive epigenetic regulation without accumulating homocysteine or depleting methyl-donor reserves.
 
+## Therapeutic Area Research
+
+<p class="brs-hub-ta-research-intro">ADHD is the first fully mapped therapeutic area within the BRAIN Framework, providing a proof of concept for an adaptive biological architecture linking nutrition, biology and function. The same framework is designed to expand across additional therapeutic areas through the shared <a href="/docs/phenomes/">Phenome Registry</a>.</p>
+
+<!-- brs-hub-ta-research:start -->
+<div class="brs-hub-ta-research">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>ADHD: Methylation & One-Carbon Metabolism Biological Implications</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+### ADHD: Methylation & One-Carbon Context
+
+Several studies have reported disturbances in methylation-relevant nutrients and biomarkers in ADHD populations. Lower folate and vitamin B12 status have been observed in children with ADHD, while elevated homocysteine, a functional marker of impaired one-carbon metabolism, has been reported in some paediatric ADHD cohorts, although findings remain heterogeneous across studies [Razavinia et al., 2024; Lukovac et al., 2024; Luzzi et al., 2022]. Dietary patterns characterised by lower intake of folate-, B vitamin-, and fibre-rich foods have also been associated with ADHD symptom burden, whereas dietary patterns rich in fibre, folate, and omega-3 fatty acids have been linked with reduced symptoms [Wang et al., 2019; Millichap and Yee, 2012].
+
+Genetic studies further support the relevance of methylation biology to ADHD. Variants affecting one-carbon metabolism, particularly the MTHFR 1298A>C polymorphism, have shown associations with ADHD susceptibility in meta-analytic evidence, although findings remain inconsistent across individual variants and populations [Meng et al., 2022]. Such variants may alter folate cycling efficiency and methyl-donor availability, increasing dependence on adequate nutritional support of methylation pathways.
+
+Beyond homocysteine recycling, one-carbon metabolism contributes to phosphatidylcholine synthesis through the SAMe-dependent PEMT pathway, creating a mechanistic bridge between methyl-donor nutrition, membrane phospholipid composition, and long-chain omega-3 fatty acid transport. Choline also serves as a precursor for acetylcholine synthesis, linking methylation biology to cholinergic neurotransmission. Choline has been implicated across neurodevelopmental disorders including ADHD, while reduced muscarinic acetylcholine receptor binding observed in boys with ADHD provides additional evidence supporting cholinergic involvement in attention and cognitive control [Derbyshire and Maes, 2023; Johansson et al., 2013].
+
+Taken together, current evidence suggests that one-carbon metabolism may represent an important biological context within ADHD, linking dietary methyl-donor status, genetic susceptibility, membrane phospholipid metabolism, and cholinergic signalling. However, findings remain heterogeneous and do not support a universal methylation-based model of ADHD.
+
+### ADHD evidence and connected BRS2 mechanisms
+
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| Elevated homocysteine, a functional marker of impaired one-carbon metabolism, has been reported in some pediatric ADHD cohorts, although findings remain heterogeneous across studies | [Lukovac et al., 2024](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux), [BRS2-FM2-PM5](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway) |
+| Lower folate and B12 in children with ADHD; meta-analytic support for methylation-relevant micronutrient disturbance | [Razavinia et al., 2024](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(SM-SNP1)](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency) |
+| MTHFR 1298A>C associated with ADHD in meta-analysis of five case–control studies; 677C>T showed no consistent ADHD association in the same analysis | [Meng et al., 2022](/docs/papers/BRAIN-Diet-References#meng_association_2022) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(SM-SNP1)](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency) |
+| Unhealthy dietary pattern linked to lower B12, folate, and B6 and to ADHD in case–control path analysis | [Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) |
+| Dietary patterns rich in fibre, folate, and omega-3 fatty acids associated with reduced ADHD symptoms | [Millichap and Yee, 2012](/docs/papers/BRAIN-Diet-References#millichap_diet_2012) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) |
+| Choline implicated across neurodevelopmental disorders including ADHD, linking remethylation and phosphatidylcholine pathways | [Derbyshire and Maes, 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) | [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) |
+| Decreased muscarinic acetylcholine receptor binding reported in boys with ADHD, supporting cholinergic involvement in aetiology | [Johansson et al., 2013](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) |
+
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-ta-research:end -->
+
+## Dietary and Lifestyle Levers
+
+<p class="brs-hub-levers-intro">Methyl-donor and B-vitamin intake establishes the one-carbon throughput on which monoamine turnover and homocysteine handling depend. Consistent eating patterns and reduced metabolic strain complement dietary supply by limiting the load on remethylation and transsulfuration capacity.</p>
+
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
 
@@ -80,7 +128,9 @@ Maintain efficient one-carbon metabolism so the brain can sustain methylation ca
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
+
 <p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS2 yet.</em></p>
+
 
 </div>
 </div>
@@ -106,53 +156,10 @@ Maintain efficient one-carbon metabolism so the brain can sustain methylation ca
 </div>
 <!-- brs-hub-levers:end -->
 
-## Therapeutic Area Research
-
-<!-- brs-hub-ta-research:start -->
-<div class="brs-hub-ta-research">
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>ADHD: Methylation & One-Carbon Metabolism Biological Implications</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-### ADHD: Methylation & One-Carbon Context
-
-Several studies have reported disturbances in methylation-relevant nutrients and biomarkers in ADHD populations. Lower folate and vitamin B12 status have been observed in children with ADHD, while elevated homocysteine, a functional marker of impaired one-carbon metabolism, has been reported in some paediatric ADHD cohorts, although findings remain heterogeneous across studies [Razavinia et al., 2024; Lukovac et al., 2024; Luzzi et al., 2022]. Dietary patterns characterised by lower intake of folate-, B vitamin-, and fibre-rich foods have also been associated with ADHD symptom burden, whereas dietary patterns rich in fibre, folate, and omega-3 fatty acids have been linked with reduced symptoms [Wang et al., 2019; Millichap and Yee, 2012].
-
-Genetic studies further support the relevance of methylation biology to ADHD. Variants affecting one-carbon metabolism, particularly the MTHFR 1298A>C polymorphism, have shown associations with ADHD susceptibility in meta-analytic evidence, although findings remain inconsistent across individual variants and populations [Meng et al., 2022]. Such variants may alter folate cycling efficiency and methyl-donor availability, increasing dependence on adequate nutritional support of methylation pathways.
-
-Beyond homocysteine recycling, one-carbon metabolism contributes to phosphatidylcholine synthesis through the SAMe-dependent PEMT pathway, creating a mechanistic bridge between methyl-donor nutrition, membrane phospholipid composition, and long-chain omega-3 fatty acid transport. Choline also serves as a precursor for acetylcholine synthesis, linking methylation biology to cholinergic neurotransmission. Choline has been implicated across neurodevelopmental disorders including ADHD, while reduced muscarinic acetylcholine receptor binding observed in boys with ADHD provides additional evidence supporting cholinergic involvement in attention and cognitive control [Derbyshire and Maes, 2023; Johansson et al., 2013].
-
-Taken together, current evidence suggests that one-carbon metabolism may represent an important biological context within ADHD, linking dietary methyl-donor status, genetic susceptibility, membrane phospholipid metabolism, and cholinergic signalling. However, findings remain heterogeneous and do not support a universal methylation-based model of ADHD.
-
-### ADHD evidence and connected BRS2 mechanisms
-
-| Evidence | Citation | Connected mechanisms |
-| --- | --- | --- |
-| Elevated homocysteine, a functional marker of impaired one-carbon metabolism, has been reported in some pediatric ADHD cohorts, although findings remain heterogeneous across studies | [Lukovac et al., 2024](/docs/papers/BRAIN-Diet-References#lukovac_serum_2024) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux), [BRS2-FM2-PM5](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway) |
-| Lower folate and B12 in children with ADHD; meta-analytic support for methylation-relevant micronutrient disturbance | [Razavinia et al., 2024](/docs/papers/BRAIN-Diet-References#razavinia_vitamins_2024) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(SM-SNP1)](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency) |
-| MTHFR 1298A>C associated with ADHD in meta-analysis of five case–control studies; 677C>T showed no consistent ADHD association in the same analysis | [Meng et al., 2022](/docs/papers/BRAIN-Diet-References#meng_association_2022) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2(SM-SNP1)](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency) |
-| Unhealthy dietary pattern linked to lower B12, folate, and B6 and to ADHD in case–control path analysis | [Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) |
-| Dietary patterns rich in fibre, folate, and omega-3 fatty acids associated with reduced ADHD symptoms | [Millichap and Yee, 2012](/docs/papers/BRAIN-Diet-References#millichap_diet_2012) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) |
-| Choline implicated across neurodevelopmental disorders including ADHD, linking remethylation and phosphatidylcholine pathways | [Derbyshire and Maes, 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) | [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) |
-| Decreased muscarinic acetylcholine receptor binding reported in boys with ADHD, supporting cholinergic involvement in aetiology | [Johansson et al., 2013](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) |
-
-</div>
-</div>
-</div>
-
-</div>
-<!-- brs-hub-ta-research:end -->
-
----
 
 ## Functional Mechanisms
 
-Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
+Methylation-cycle efficiency, transsulfuration, and methylation–membrane coupling determine methyl-group throughput and sulfur-amino-acid routing. These capacities supply one-carbon chemistry for monoamine turnover, homocysteine handling, and redox-linked support across connected systems.
 
 <div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -299,17 +306,24 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 </div>
 </div>
 
-
 </div>
 </div>
 </div>
 </div>
 
+## Key Constraints (Dietary Bottlenecks)
+
+Key Constraints (KCs) in BRS2 describe shared precursor and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
+
+- [BRS2(KC1) — One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool): Availability of one-carbon donor substrates required to sustain methyl-group transfer, remethylation pathways, and broader one-carbon metabolism.
+- [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool): Availability of amino-acid substrates supporting methionine cycling, transsulfuration flux, glutathione synthesis, and related methylation-dependent pathways.
+
+---
 
 <!-- brs-hub-cross-integration:start -->
-## Cross-BRS integration
+## Cross-BRS Dependencies
 
-<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
+<p>One-carbon metabolism is not an isolated vitamin pathway. Methyl-group throughput, remethylation and transsulfuration supply shared biochemical infrastructure on which monoamine turnover, redox defence and membrane maintenance all depend. When one-carbon capacity is constrained, the limitation rarely announces itself as a methylation defect alone; it propagates into neurotransmission and oxidative resilience downstream. The evidence below maps the principal Cross-BRS Dependencies through which BRS2 supports and constrains adaptive function across the network.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
@@ -377,16 +391,6 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 
 </div>
 <!-- brs-hub-cross-integration:end -->
-
-
-## Key Constraints (Dietary Bottlenecks)
-
-Key Constraints (KCs) in BRS2 describe shared precursor and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
-
-- [BRS2(KC1) — One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool): Availability of one-carbon donor substrates required to sustain methyl-group transfer, remethylation pathways, and broader one-carbon metabolism.
-- [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool): Availability of amino-acid substrates supporting methionine cycling, transsulfuration flux, glutathione synthesis, and related methylation-dependent pathways.
-
----
 
 ## Specific Mechanisms
 

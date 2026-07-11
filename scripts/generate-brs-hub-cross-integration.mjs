@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Patch BRS1–BRS6 hub pages with Cross-BRS Integration and Mechanistic integration evidence.
+ * Patch BRS1–BRS6 hub pages with Cross-BRS Dependencies sections.
  * @see system/brs-hub-levers-schema.md
  * @see scripts/data/brs-cross-integration-evidence.json
  */

@@ -24,6 +24,59 @@ hide_title: true
 
 Maintain proportionate immune signalling, responsive antioxidant defence, and active inflammation resolution so the brain operates within a redox and immune environment that supports function rather than chronically constraining it.
 
+## Therapeutic Area Research
+
+<p class="brs-hub-ta-research-intro">ADHD is the first fully mapped therapeutic area within the BRAIN Framework, providing a proof of concept for an adaptive biological architecture linking nutrition, biology and function. The same framework is designed to expand across additional therapeutic areas through the shared <a href="/docs/phenomes/">Phenome Registry</a>.</p>
+
+<!-- brs-hub-ta-research:start -->
+<div class="brs-hub-ta-research">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>ADHD: Inflammation & Oxidative Stress Biological Implications</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+### Introduction
+
+Inflammation and oxidative stress in ADHD are not single-pathway problems. They span gut-derived immune signalling, cytokine and NF-κB tone, net redox burden versus clearance capacity, and whether inflammation resolves through pro-resolving lipid mediators. BRS3 integrates these as connected functional capacities rather than isolated biomarker findings.
+
+Dietary pattern, gut-barrier context, omega-3 substrate availability, antioxidant network sufficiency, food preparation load, and contaminant exposure all influence how these capacities perform. In ADHD contexts, evidence is interpreted through connected BRS3 FMs and PMs — and through cross-links to BRS5 gut-barrier biology where relevant.
+
+### ADHD: Inflammation & Oxidative Stress Context
+
+ADHD cohorts show overlapping inflammatory and redox signatures: elevated pro-inflammatory cytokine context, gut-microbiome differences, postprandial inflammatory patterns, and oxidative-stress indices consistent with greater net burden rather than a simple antioxidant deficit alone. Adult studies report higher lipid peroxidation, shifted thiol/disulfide homeostasis, and elevated oxidative-stress indices; some antioxidant markers may appear normal or compensatorily elevated.
+
+Exposure patterns also matter: ultra-processed foods, metals in additives, Western dietary patterns low in plant fibre, and emerging contaminant burdens may increase exogenous oxidative load alongside gut-immune signalling strain. These findings do not define a universal inflammatory or redox model of ADHD, but they support BRS3 as a relevant biological context for diet-actionable interpretation.
+
+### ADHD evidence and connected BRS3 mechanisms
+
+| Evidence | Citation | Connected mechanisms |
+| --- | --- | --- |
+| High ROS linked to astrocyte and microglia activation and pro-inflammatory cytokines (IL-6, IL-1β, TNF-α) in ADHD contexts | [Chang et al., 2020](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020) | [BRS3-FM3-PM7](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) |
+| Reduced microbiome alpha diversity reported in ADHD | [Prehn-Kristensen et al., 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018) | [BRS3-FM1-PM2](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling), [BRS5(FM1)](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) |
+| Immune dysfunction, elevated IgE, and allergy patterns overlap with ADHD contexts | [Wesselink et al., 2019](/docs/papers/BRAIN-Diet-References#wesselink_feeding_2019) | [BRS3-FM3-PM7](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) |
+| Significantly higher malondialdehyde in adult ADHD versus controls | [Bulut et al., 2007](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007) | [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance), [BRS3-FM2-PM5](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) |
+| Thiol/disulfide homeostasis shifted toward oxidation and higher urinary 8-OHdG in adult ADHD | [Kurhan & Alp, 2021](/docs/papers/BRAIN-Diet-References#kurhan_dynamic_2021) | [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) |
+| Elevated oxidative stress index and total oxidative status in adult ADHD | [Miniksar et al., 2023](/docs/papers/BRAIN-Diet-References#miniksar_effect_2023) | [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) |
+| Dietary antioxidant treatment of ADHD linked to immune, epigenetic, and oxidative-stress regulation | [Verlaet et al., 2018](/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018) | [BRS3-FM2-PM3](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) |
+| Elevated glutathione in ADHD may reflect compensatory response to increased oxidative stress | [Verlaet et al., 2019](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019) | [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) |
+| ADHD linked with metals contamination and ultra-processed foods, including colour-additive metals | [Dufault et al., 2024](/docs/papers/BRAIN-Diet-References#dufault_nutritional_2024) | [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) |
+| A small randomized placebo-controlled trial found that Pycnogenol improved attention and reduced hyperactivity in children with ADHD. Companion studies from the same cohort reported normalization of total antioxidant status (TAS), improved glutathione balance, and reduced oxidative DNA damage, providing mechanistic support for oxidative stress pathways in ADHD. Replication remains limited. | [Trebatická et al., 2006](/docs/papers/BRAIN-Diet-References#trebaticka_pycnogenol_adhd_2006); [Dvořáková et al., 2006](/docs/papers/BRAIN-Diet-References#dvorakova_glutathione_pycnogenol_adhd_2006); [Chovanová et al., 2006](/docs/papers/BRAIN-Diet-References#chovanova_8oxoguanine_pycnogenol_adhd_2006) | [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance), [BRS3-FM2-PM6](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling) |
+
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-ta-research:end -->
+
+## Dietary and Lifestyle Levers
+
+<p class="brs-hub-levers-intro">Anti-inflammatory and antioxidant-rich whole foods set the dietary baseline, yet inflammatory and oxidative load is often driven as much by food preparation and dietary exclusions as by nutrient deficiency. Gentler cooking, avoiding repeatedly heated unstable fats and limiting ultra-processed food exposure are central Optimisation levers here — they reduce avoidable ROS and post-meal immune activation that nutrient density alone cannot fully offset.</p>
+
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
 
@@ -78,7 +131,13 @@ Maintain proportionate immune signalling, responsive antioxidant defence, and ac
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS3 yet.</em></p>
+
+<ul class="brs-hub-lever-list brs-hub-optimisation-list">
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Choose gentler cooking methods and avoid repeatedly heating unstable oils</strong> to limit lipid oxidation and dietary ROS that can overwhelm antioxidant clearance and lipid peroxidation control.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Limit ultra-processed food exposure</strong> to reduce post-meal inflammatory signalling and avoidable oxidative substrates that amplify immune tone beyond nutrient intake alone.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare antioxidant-rich vegetables to preserve heat-sensitive compounds</strong> to retain vitamin C and polyphenols that support NRF2 activation and sustained ROS clearance rather than losing them to overcooking.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a></span></p></li>
+</ul>
+
 
 </div>
 </div>
@@ -96,8 +155,6 @@ Maintain proportionate immune signalling, responsive antioxidant defence, and ac
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain consistent daily eating patterns</strong> to support lower inflammatory load and more stable antioxidant and resolution capacity over time.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></p></li>
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Prioritise sleep and manage stress load</strong> to help reduce systemic inflammatory pressure and support healthier immune and gut-related signalling.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling" class="brs-hub-lever-pm">BRS3-FM1-PM2</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a></span></p></li>
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Reduce exposure to smoke, pollution, and excess alcohol</strong> to lower avoidable oxidative and inflammatory burden on the body's defence and repair systems.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Choose gentler cooking and limit heavily fried or oxidised fats</strong> to reduce dietary sources of oxidative stress and help protect membrane lipids and antioxidant capacity.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Limit ultra-processed food exposure</strong> to help reduce post-meal inflammatory burden and support a more anti-inflammatory dietary baseline.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a></span></p></li>
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Include cruciferous vegetables and marine fats regularly</strong> to support repeated dietary activation of antioxidant and resolution pathways rather than one-off intake.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></p></li>
 </ul>
 
@@ -108,58 +165,10 @@ Maintain proportionate immune signalling, responsive antioxidant defence, and ac
 </div>
 <!-- brs-hub-levers:end -->
 
-## Therapeutic Area Research
-
-<!-- brs-hub-ta-research:start -->
-<div class="brs-hub-ta-research">
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>ADHD: Inflammation & Oxidative Stress Biological Implications</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-### Introduction
-
-Inflammation and oxidative stress in ADHD are not single-pathway problems. They span gut-derived immune signalling, cytokine and NF-κB tone, net redox burden versus clearance capacity, and whether inflammation resolves through pro-resolving lipid mediators. BRS3 integrates these as connected functional capacities rather than isolated biomarker findings.
-
-Dietary pattern, gut-barrier context, omega-3 substrate availability, antioxidant network sufficiency, food preparation load, and contaminant exposure all influence how these capacities perform. In ADHD contexts, evidence is interpreted through connected BRS3 FMs and PMs — and through cross-links to BRS5 gut-barrier biology where relevant.
-
-### ADHD: Inflammation & Oxidative Stress Context
-
-ADHD cohorts show overlapping inflammatory and redox signatures: elevated pro-inflammatory cytokine context, gut-microbiome differences, postprandial inflammatory patterns, and oxidative-stress indices consistent with greater net burden rather than a simple antioxidant deficit alone. Adult studies report higher lipid peroxidation, shifted thiol/disulfide homeostasis, and elevated oxidative-stress indices; some antioxidant markers may appear normal or compensatorily elevated.
-
-Exposure patterns also matter: ultra-processed foods, metals in additives, Western dietary patterns low in plant fibre, and emerging contaminant burdens may increase exogenous oxidative load alongside gut-immune signalling strain. These findings do not define a universal inflammatory or redox model of ADHD, but they support BRS3 as a relevant biological context for diet-actionable interpretation.
-
-### ADHD evidence and connected BRS3 mechanisms
-
-| Evidence | Citation | Connected mechanisms |
-| --- | --- | --- |
-| High ROS linked to astrocyte and microglia activation and pro-inflammatory cytokines (IL-6, IL-1β, TNF-α) in ADHD contexts | [Chang et al., 2020](/docs/papers/BRAIN-Diet-References#chang_cortisol_2020) | [BRS3-FM3-PM7](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) |
-| Reduced microbiome alpha diversity reported in ADHD | [Prehn-Kristensen et al., 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018) | [BRS3-FM1-PM2](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling), [BRS5(FM1)](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) |
-| Immune dysfunction, elevated IgE, and allergy patterns overlap with ADHD contexts | [Wesselink et al., 2019](/docs/papers/BRAIN-Diet-References#wesselink_feeding_2019) | [BRS3-FM3-PM7](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) |
-| Significantly higher malondialdehyde in adult ADHD versus controls | [Bulut et al., 2007](/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007) | [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance), [BRS3-FM2-PM5](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) |
-| Thiol/disulfide homeostasis shifted toward oxidation and higher urinary 8-OHdG in adult ADHD | [Kurhan & Alp, 2021](/docs/papers/BRAIN-Diet-References#kurhan_dynamic_2021) | [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) |
-| Elevated oxidative stress index and total oxidative status in adult ADHD | [Miniksar et al., 2023](/docs/papers/BRAIN-Diet-References#miniksar_effect_2023) | [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) |
-| Dietary antioxidant treatment of ADHD linked to immune, epigenetic, and oxidative-stress regulation | [Verlaet et al., 2018](/docs/papers/BRAIN-Diet-References#verlaet_rationale_2018) | [BRS3-FM2-PM3](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) |
-| Elevated glutathione in ADHD may reflect compensatory response to increased oxidative stress | [Verlaet et al., 2019](/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019) | [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) |
-| ADHD linked with metals contamination and ultra-processed foods, including colour-additive metals | [Dufault et al., 2024](/docs/papers/BRAIN-Diet-References#dufault_nutritional_2024) | [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) |
-| A small randomized placebo-controlled trial found that Pycnogenol improved attention and reduced hyperactivity in children with ADHD. Companion studies from the same cohort reported normalization of total antioxidant status (TAS), improved glutathione balance, and reduced oxidative DNA damage, providing mechanistic support for oxidative stress pathways in ADHD. Replication remains limited. | [Trebatická et al., 2006](/docs/papers/BRAIN-Diet-References#trebaticka_pycnogenol_adhd_2006); [Dvořáková et al., 2006](/docs/papers/BRAIN-Diet-References#dvorakova_glutathione_pycnogenol_adhd_2006); [Chovanová et al., 2006](/docs/papers/BRAIN-Diet-References#chovanova_8oxoguanine_pycnogenol_adhd_2006) | [BRS3(FM2)](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity), [BRS3-FM2-PM4](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance), [BRS3-FM2-PM6](/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling) |
-
-</div>
-</div>
-</div>
-
-</div>
-<!-- brs-hub-ta-research:end -->
-
----
 
 ## Functional Mechanisms
 
-Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
+Anti-inflammatory tone, antioxidant defence, and inflammation resolution set the background conditions under which neurotransmission, metabolism, and recovery operate. These mechanisms determine whether immune and oxidative load stays proportionate or becomes a persistent constraint on downstream function.
 
 <div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -309,17 +318,24 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 </div>
 </div>
 
-
 </div>
 </div>
 </div>
 </div>
 
+## Key Constraints (Dietary Bottlenecks)
+
+Key Constraints (KCs) in BRS3 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
+
+- [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability): Availability of antioxidant substrates and precursor compounds required to support endogenous antioxidant defence, redox buffering, and oxidative-damage limitation.
+- [BRS3(KC3) - Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance): Availability and balance of omega-3 and omega-6 fatty acids required for inflammatory signalling, membrane composition, and inflammation-resolution pathways.
+
+---
 
 <!-- brs-hub-cross-integration:start -->
-## Cross-BRS integration
+## Cross-BRS Dependencies
 
-<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
+<p>Inflammatory and oxidative load rarely remain confined to immune biology. They reshape receptor environments, mitochondrial efficiency and neurotransmitter turnover — altering the conditions under which cognition, mood and behavioural control are sustained. What appears as dysregulation within another hub may originate in immune tone and redox strain rather than a failure local to that system. The evidence below establishes the principal Cross-BRS Dependencies through which BRS3 modulates adaptive performance across the regulatory network.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
@@ -410,16 +426,6 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 
 </div>
 <!-- brs-hub-cross-integration:end -->
-
-
-## Key Constraints (Dietary Bottlenecks)
-
-Key Constraints (KCs) in BRS3 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
-
-- [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability): Availability of antioxidant substrates and precursor compounds required to support endogenous antioxidant defence, redox buffering, and oxidative-damage limitation.
-- [BRS3(KC3) - Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance): Availability and balance of omega-3 and omega-6 fatty acids required for inflammatory signalling, membrane composition, and inflammation-resolution pathways.
-
----
 
 ## Specific Mechanisms
 

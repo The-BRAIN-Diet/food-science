@@ -100,25 +100,6 @@ export const HUB_LIFESTYLE_PRIORITIES = {
       match_lifestyle: [/smoke, pollution, alcohol/i, /exposure reduction/i, /toxic and oxidative burden/i],
     },
     {
-      action: "Choose gentler cooking and limit heavily fried or oxidised fats",
-      explanation:
-        "to reduce dietary sources of oxidative stress and help protect membrane lipids and antioxidant capacity.",
-      match_lifestyle: [
-        /gentle cooking/i,
-        /gentler cooking/i,
-        /lower frying/i,
-        /oxidized oils/i,
-        /oxidised-lipid/i,
-        /age\/ale/i,
-      ],
-    },
-    {
-      action: "Limit ultra-processed food exposure",
-      explanation:
-        "to help reduce post-meal inflammatory burden and support a more anti-inflammatory dietary baseline.",
-      match_lifestyle: [/ultra-processed/i, /anti-inflammatory additions/i, /inflammatory burden/i],
-    },
-    {
       action: "Include cruciferous vegetables and marine fats regularly",
       explanation:
         "to support repeated dietary activation of antioxidant and resolution pathways rather than one-off intake.",

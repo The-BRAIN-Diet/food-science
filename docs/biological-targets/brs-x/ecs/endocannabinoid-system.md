@@ -25,6 +25,10 @@ hide_title: true
 
 Maintain balanced endocannabinoid signalling so the brain can regulate neural homeostasis, stress adaptation, appetite, and neuroimmune communication across changing physiological demands.
 
+## Dietary and Lifestyle Levers
+
+<p class="brs-hub-levers-intro">Dietary patterns, food handling and behavioural levers shape how effectively this Biological Regulatory System can operate under daily demand.</p>
+
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
 
@@ -95,9 +99,20 @@ Maintain balanced endocannabinoid signalling so the brain can regulate neural ho
 The brain uses lipid-mediated signalling to modulate synaptic activity, stress responses, appetite, and neuroimmune communication beyond classical neurotransmitters alone. BRS-X(ECS) describes the integrated capacity that sustains endogenous endocannabinoidome tone rather than relying on pharmacological receptor activation. NAPE precursor biology, NAE biosynthesis, FAAH-mediated preservation, dopamine-linked neuromodulation, and stress-buffering pathways work together so lipid signalling remains proportionate and adaptive. Nutrition influences these capacities through phospholipid-rich meals, choline-containing foods, omega-3-supportive patterns, and polyphenol diversity that support endogenous lipid mediator formation.
 ## Functional Mechanisms
 
-Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
+Endocannabinoidome signalling integrates lipid-mediated neuromodulation — NAE biosynthesis, preservation, and stress-buffering — that modulates synaptic activity and neuroimmune communication. These mechanisms sustain proportionate endogenous tone rather than relying on pharmacological receptor activation alone.
 
-
+<div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand section">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<ul class="brs-fm-hub-group-title-list">
+  <li>BRS-X(ECS-FM1) — Endocannabinoidome Signalling Capacity &amp; Neuromodulatory Regulation</li>
+</ul>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -121,7 +136,7 @@ Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Fram
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Supports integrated regulation of endocannabinoid and endocannabinoid-like lipid signalling through precursor availability, N-acyl ethanolamine production, degradation pathways, and neuromodulatory interactions influencing motivation, stress responsiveness, neuroinflammatory regulation, and cognitive stability. This functional state focuses on diet-actionable endocannabinoidome biology — NAEs (N-acyl ethanolamides, including PEA and OEA), phospholipid precursors, omega-3-derived ethanolamides (DHEA and EPEA), FAAH preservation, endocannabinoid–dopamine interactions, and stress-buffering pathways — rather than direct pharmacological activation of CB1 or CB2 receptors.
+Maintains endocannabinoidome signalling capacity by coordinating precursor availability, N-acyl ethanolamine production, degradation balance, and neuromodulatory interactions.
 
 **FM page:** [BRS-X(ECS-FM1) — Endocannabinoidome Signalling Capacity & Neuromodulatory Regulation](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-fm1-endocannabinoidome-signalling-capacity-and-neuromodulatory-regulation)
 
@@ -143,7 +158,14 @@ Supports integrated regulation of endocannabinoid and endocannabinoid-like lipid
 </div>
 </div>
 
+
+</div>
+</div>
+</div>
+</div>
+
 ---
+
 ## Specific Mechanisms
 
 Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS-X(ECS) biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), **SM-Pattern** (e.g. vegan, vegetarian, ketogenic), and **SM-Phenotype** (e.g. hyperarousal, emotional dysregulation, sensory regulation). Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.

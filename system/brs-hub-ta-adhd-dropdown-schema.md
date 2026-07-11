@@ -12,7 +12,7 @@
 
 The ADHD dropdown is a **Therapeutic Area evidence surface**, not a general biology bibliography. It lists studies that directly concern ADHD and maps them to connected BRS mechanisms. Implicated or plausibility-only mechanistic studies belong on BRS / FM / PM / KC architecture pages.
 
-**Cross-BRS integration Evidence** (landmark reviews explaining how BRS systems support one another) belongs on BRS hub pages — not in the ADHD dropdown. Source: `scripts/data/brs-cross-integration-evidence.json`; regenerate with `npm run brs:generate-hub-cross-integration`.
+**Cross-BRS Dependencies** (landmark reviews explaining how BRS systems support one another) belong on BRS hub pages — not in the ADHD dropdown. Source: `scripts/data/brs-cross-integration-evidence.json`; regenerate with `npm run brs:generate-hub-cross-integration`.
 
 ---
 
