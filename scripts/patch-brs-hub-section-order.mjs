@@ -26,6 +26,13 @@ function extract(re, content, label) {
   return { block: m[0].trimEnd(), content: content.replace(re, `\n%%${label}%%\n`) };
 }
 
+function stripHrBeforeCrossBrs(content) {
+  return content
+    .replace(/\n---\s*\n+(?=<!-- brs-hub-cross-integration:start -->)/g, "\n\n")
+    .replace(/\n---\s*\n+(?=## Cross-BRS Dependencies)/g, "\n\n")
+    .replace(/\n{3,}(?=<!-- brs-hub-cross-integration:start -->)/g, "\n\n");
+}
+
 function patchHub(content) {
   let { block: ta, content: rest } = extract(TA_BLOCK_RE, content, "TA");
   if (!ta) throw new Error("Therapeutic Area Research block not found");
@@ -44,6 +51,8 @@ function patchHub(content) {
     .replace(/\n---\n\n## Functional Mechanisms/, "\n\n## Functional Mechanisms")
     .replace(/\n---\n\n## Cross-BRS Dependencies/, "\n\n## Cross-BRS Dependencies")
     .replace(/\n{3,}/g, "\n\n");
+
+  rest = stripHrBeforeCrossBrs(rest);
 
   const taInner = ta.replace(/^## Therapeutic Area Research\n\n/, "");
   const taSection = `## Therapeutic Area Research\n\n${renderTaResearchIntroHtml()}\n\n${taInner.replace(/^<p class="brs-hub-ta-research-intro">[\s\S]*?<\/p>\n\n/, "")}`;

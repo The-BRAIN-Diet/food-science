@@ -24,15 +24,15 @@ export const HUB_KC_SECTION_INTRO = {
   BRS1:
     "These target foods supply the shared amino-acid substrates and precursors that constrain neurotransmitter availability and LNAA transport balance across BRS1. Day-to-day function depends on balancing excitatory and inhibitory tone — glutamate, GABA, and monoamines — across the circadian cycle and as cognitive and metabolic demand shifts. When protein quality or competitive amino-acid balance is weak, that daily balance is harder to sustain, limiting downstream monoaminergic and GABA–glutamate regulation before individual Primary Mechanisms are considered.",
   BRS2:
-    "These target foods supply the methyl-donor and sulfur-amino-acid pools that constrain one-carbon throughput, remethylation capacity, and transsulfuration-linked redox support across BRS2.",
+    "These target foods supply the methyl-donor and sulfur-amino-acid pools that constrain one-carbon throughput, remethylation capacity, and transsulfuration-linked redox support across BRS2. Day-to-day methyl-group flux depends on sustained folate, B12 and methionine availability across meals — when one-carbon pools thin, homocysteine handling weakens and downstream monoamine support, membrane renewal and glutathione formation falter before individual Primary Mechanisms are considered.",
   BRS3:
-    "These target foods supply the antioxidant substrates and essential fatty-acid balance that constrain inflammatory tone, redox defence, and resolution capacity across BRS3.",
+    "These target foods supply the antioxidant substrates and essential fatty-acid balance that constrain inflammatory tone, redox defence, and resolution capacity across BRS3. Inflammatory and oxidative load is shaped as much by daily food preparation and dietary pattern as by micronutrient density — when antioxidant pools or omega-3 balance are inadequate, immune tone and redox strain persist and narrow the operating space for neurotransmission and recovery downstream.",
   BRS4:
-    "These target foods supply the macronutrient fuels and mitochondrial cofactors that constrain bioenergetic reserve, substrate flexibility, and oxidative resilience across BRS4.",
+    "These target foods supply the macronutrient fuels and mitochondrial cofactors that constrain bioenergetic reserve, substrate flexibility, and oxidative resilience across BRS4. Neuronal energy demand varies across the circadian cycle and under sustained cognitive load — when substrate flexibility or cofactor sufficiency weakens, ATP production and mitochondrial recovery become harder to sustain, limiting downstream neurotransmitter turnover and signalling before individual Primary Mechanisms are considered.",
   BRS5:
-    "These target foods supply the fermentable fibres, polyphenols, and barrier-supportive nutrients that constrain gut microbial ecology, SCFA signalling, and gut–brain interface stability across BRS5.",
+    "These target foods supply the fermentable fibres, polyphenols, and barrier-supportive nutrients that constrain gut microbial ecology, SCFA signalling, and gut–brain interface stability across BRS5. Barrier integrity and microbial metabolite flux depend on consistent dietary input across meals — when fibre diversity or barrier-supportive micronutrients are sparse, immune tone, vagal signalling and neurochemical inputs from the gut interface become less stable before individual Primary Mechanisms are considered.",
   BRS6:
-    "These target foods supply the energy substrates and stress-response micronutrients that constrain glycaemic stability, neuroendocrine rhythm, and metabolic recovery capacity across BRS6.",
+    "These target foods supply the energy substrates and stress-response micronutrients that constrain glycaemic stability, neuroendocrine rhythm, and metabolic recovery capacity across BRS6. Cortisol rhythm and autonomic balance respond to both meal composition and circadian-aligned eating — when glycaemic swings or stress-response micronutrient pools are poorly supported, energy allocation and inflammatory load become harder to regulate across connected systems before individual Primary Mechanisms are considered.",
 };
 
 function escapeHtml(text) {
@@ -176,6 +176,13 @@ ${renderKcLinks(data.kcs)}
 ${HUB_KC_MARKERS.end}`;
 }
 
+function stripHrBeforeCrossBrs(content) {
+  return content
+    .replace(/\n---\s*\n+(?=<!-- brs-hub-cross-integration:start -->)/g, "\n\n")
+    .replace(/\n---\s*\n+(?=## Cross-BRS Dependencies)/g, "\n\n")
+    .replace(/\n{3,}(?=<!-- brs-hub-cross-integration:start -->)/g, "\n\n");
+}
+
 /**
  * @param {string} hubPath
  * @param {string} html
@@ -191,14 +198,15 @@ export function patchHubKeyConstraints(hubPath, html, rootDir = process.cwd()) {
   );
   content = content.replace(blockRe, "\n\n");
 
-  // Remove legacy bottom KC section (boilerplate + described links).
+  // Remove legacy KC section (boilerplate + described links) — typically after Functional Mechanisms.
   content = content.replace(
-    /\n## Key Constraints \(Dietary Bottlenecks\)\n[\s\S]*?(?=\n## Specific Mechanisms|\n## Modulators|\n---\n\n## Specific Mechanisms)/,
+    /\n## Key Constraints \(Dietary Bottlenecks\)\n[\s\S]*?(?=\n---\s*\n+(?:<!-- brs-hub-cross-integration|## Cross-BRS Dependencies)|\n<!-- brs-hub-cross-integration|\n## Cross-BRS Dependencies|\n## Specific Mechanisms|\n## Modulators)/,
     "\n",
   );
+  content = stripHrBeforeCrossBrs(content);
   content = content.replace(/\n---\n\n## Specific Mechanisms/, "\n\n## Specific Mechanisms");
 
-  const insertRe = /(<!-- brs-hub-levers:end -->)\n\n(## Functional Mechanisms)/;
+  const insertRe = /(<!-- brs-hub-levers:end -->)\n+(## Functional Mechanisms)/;
   if (!insertRe.test(content)) {
     throw new Error(`${hubPath}: could not find insertion point before Functional Mechanisms`);
   }

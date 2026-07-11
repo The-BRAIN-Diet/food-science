@@ -139,9 +139,13 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 <div class="brs-fm-hub-panel" hidden>
 
 
+
+
 <ul class="brs-hub-lever-list brs-hub-optimisation-list">
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare omega-3-rich foods gently and include them regularly</strong> to protect delicate marine fats during cooking and support ongoing brain membrane health over time.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation" class="brs-hub-lever-pm">BRS1-FM3-PM6</a></span></p></li>
 </ul>
+
+
 
 
 </div>
@@ -508,6 +512,7 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 
 </div>
 <!-- brs-hub-cross-integration:end -->
+
 
 ## Specific Mechanisms
 

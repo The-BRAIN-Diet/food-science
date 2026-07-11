@@ -43,6 +43,10 @@ function patchSectionIntro(content, brsId) {
   return content.replace(insertRe, `$1\n\n${block}\n\n<!-- brs-hub-levers:start -->`);
 }
 
+function patchDietaryGuidanceLabel(content) {
+  return content.replace(/<strong>Dietary Priorities<\/strong>/g, "<strong>Dietary Guidance</strong>");
+}
+
 function patchOptimisationPanel(content, brsId, rootDir) {
   const panelHtml = renderOptimisationLeversPanelHtml(brsId, rootDir);
   const panelRe =
@@ -71,6 +75,7 @@ for (const [brsId, hubPath] of Object.entries(HUB_PAGES)) {
   let content = fs.readFileSync(full, "utf8");
   const before = content;
   content = patchSectionIntro(content, brsId);
+  content = patchDietaryGuidanceLabel(content);
   content = patchOptimisationPanel(content, brsId, ROOT);
   if (brsId === "BRS3") content = dedupeBrs3Lifestyle(content);
   if (content === before) {

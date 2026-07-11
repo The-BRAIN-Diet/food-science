@@ -85,7 +85,7 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 
 ## Dietary and Lifestyle Levers
 
-<p class="brs-hub-levers-intro">Fermentable fibre, polyphenols and barrier-supportive nutrients shape the gut ecosystem that feeds back into neuroimmune signalling. Meal regularity, stress recovery and sleep support vagal tone and barrier integrity in ways that dietary composition alone cannot substitute.</p>
+<p class="brs-hub-levers-intro">Fermentable fibre, polyphenols and barrier-supportive nutrients shape the gut ecosystem that feeds back into neuroimmune signalling. Dietary Guidance carries most of the biological weight here; meal regularity, stress recovery and sleep refine vagal tone and barrier integrity in ways that dietary composition alone cannot substitute.</p>
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -94,7 +94,7 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Priorities</strong>
+<strong>Dietary Guidance</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -142,7 +142,11 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 <div class="brs-fm-hub-panel" hidden>
 
 
+
+
 <p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS5 yet.</em></p>
+
+
 
 
 </div>
@@ -171,6 +175,20 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 
 </div>
 <!-- brs-hub-levers:end -->
+
+<!-- brs-hub-key-constraints:start -->
+## Key Constraints (Dietary Bottlenecks)
+
+<p>These target foods supply the fermentable fibres, polyphenols, and barrier-supportive nutrients that constrain gut microbial ecology, SCFA signalling, and gut–brain interface stability across BRS5. Barrier integrity and microbial metabolite flux depend on consistent dietary input across meals — when fibre diversity or barrier-supportive micronutrients are sparse, immune tone, vagal signalling and neurochemical inputs from the gut interface become less stable before individual Primary Mechanisms are considered.</p>
+
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/apples">Apples</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/cinnamon">Cinnamon</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cocoa">Cocoa</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/flax-seeds">Flax Seeds</a> • <a href="/docs/foods/ginger">Ginger</a> • <a href="/docs/foods/green-tea">Green Tea</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/liver">Liver</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/onions">Onions</a> • <a href="/docs/foods/oregano">Oregano</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/parsley">Parsley</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/turmeric">Turmeric</a></p>
+
+<ul class="brs-hub-kc-links">
+<li><a href="/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability">BRS5(KC1) — Fermentable Fibre Sufficiency</a></li>
+<li><a href="/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability">BRS5(KC2) — Polyphenol & Plant — Diversity Input Sufficiency</a></li>
+<li><a href="/docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency">BRS5(KC3) — Barrier — Supportive Nutrient Sufficiency</a></li>
+</ul>
+<!-- brs-hub-key-constraints:end -->
 
 
 ## Functional Mechanisms
@@ -322,16 +340,6 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 </div>
 </div>
 
-## Key Constraints (Dietary Bottlenecks)
-
-Key Constraints (KCs) in BRS5 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
-
-- [BRS5(KC1) - Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability): Availability of fermentable fibres and resistant starch required to sustain microbial fermentation and SCFA production.
-- [BRS5(KC2) - Polyphenol & Plant-Diversity Input Availability](/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability): Availability of microbiome-active polyphenols and broad plant diversity required to support microbial ecology and biotransformation.
-- [BRS5(KC3) - Barrier-Supportive Nutrient Sufficiency](/docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency): Availability of nutrients that support epithelial maintenance, mucosal immunity, and barrier resilience.
-
----
-
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS Dependencies
 
@@ -449,6 +457,7 @@ Key Constraints (KCs) in BRS5 describe shared substrate, precursor, and structur
 
 </div>
 <!-- brs-hub-cross-integration:end -->
+
 
 ## Specific Mechanisms
 

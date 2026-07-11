@@ -85,7 +85,7 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 
 ## Dietary and Lifestyle Levers
 
-<p class="brs-hub-levers-intro">Macronutrient quality and mitochondrial cofactors set the substrate ceiling for ATP production and oxidative resilience. Sleep, activity and metabolic rhythm then determine whether that capacity is recovered and deployed effectively under sustained cognitive demand.</p>
+<p class="brs-hub-levers-intro">Macronutrient quality and mitochondrial cofactors set the substrate ceiling for ATP production and oxidative resilience. Dietary Guidance carries most of the biological weight here; sleep, activity and metabolic rhythm refine how that capacity is recovered and deployed under sustained cognitive demand.</p>
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -94,7 +94,7 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Priorities</strong>
+<strong>Dietary Guidance</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -141,7 +141,11 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 <div class="brs-fm-hub-panel" hidden>
 
 
+
+
 <p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS4 yet.</em></p>
+
+
 
 
 </div>
@@ -172,6 +176,19 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 
 </div>
 <!-- brs-hub-levers:end -->
+
+<!-- brs-hub-key-constraints:start -->
+## Key Constraints (Dietary Bottlenecks)
+
+<p>These target foods supply the macronutrient fuels and mitochondrial cofactors that constrain bioenergetic reserve, substrate flexibility, and oxidative resilience across BRS4. Neuronal energy demand varies across the circadian cycle and under sustained cognitive load — when substrate flexibility or cofactor sufficiency weakens, ATP production and mitochondrial recovery become harder to sustain, limiting downstream neurotransmitter turnover and signalling before individual Primary Mechanisms are considered.</p>
+
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/almonds">Almonds</a> • <a href="/docs/foods/apples">Apples</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/milk">Milk</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/olive-oil">Olive Oil</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/walnuts">Walnuts</a></p>
+
+<ul class="brs-hub-kc-links">
+<li><a href="/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability">BRS4(KC1) — Macronutrient Substrate Sufficiency</a></li>
+<li><a href="/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency">BRS4(KC2) — Mitochondrial Cofactor Sufficiency</a></li>
+</ul>
+<!-- brs-hub-key-constraints:end -->
 
 
 ## Functional Mechanisms
@@ -365,15 +382,6 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 </div>
 </div>
 
-## Key Constraints (Dietary Bottlenecks)
-
-Key Constraints (KCs) in BRS4 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
-
-- [BRS4(KC1) - Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability): Availability of glucose, fatty acids, and amino acids for ATP production.
-- [BRS4(KC2) - Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency): Availability of vitamins and minerals required for mitochondrial enzymes and electron transfer.
-
----
-
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS Dependencies
 
@@ -468,6 +476,7 @@ Key Constraints (KCs) in BRS4 describe shared substrate, precursor, and structur
 
 </div>
 <!-- brs-hub-cross-integration:end -->
+
 
 ## Specific Mechanisms
 
