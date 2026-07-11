@@ -110,7 +110,15 @@ Reproductive hormone balance interacts with neurocognitive regulation through in
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <ul class="brs-fm-hub-group-title-list">
-  <li>BRS-X(Hormones-FM1) — Reproductive Hormone Balance &amp; Neurocognitive Regulation</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS-X(Hormones-FM1) — Reproductive Hormone Balance &amp; Neurocognitive Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation" aria-label="Open FM: BRS-X(Hormones-FM1) — Reproductive Hormone Balance &amp; Neurocognitive Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
 </ul>
 </div>
 <div class="brs-fm-hub-panel" hidden>

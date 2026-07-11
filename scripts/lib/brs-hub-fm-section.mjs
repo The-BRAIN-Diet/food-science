@@ -160,7 +160,12 @@ function buildFmDropdown({ data, content, url }, pms) {
 }
 
 function buildFmGroupWrapper(fmBlocks, fmEntries) {
-  const titleItems = fmEntries.map(({ fmId, title }) => `${fmId} — ${title}`);
+  const titleItems = fmEntries.map(({ fmId, title, url }) => ({
+    title: `${fmId} — ${title}`,
+    openHref: url,
+    openLabel: "Open FM →",
+    openAriaLabel: `Open FM: ${fmId} — ${title}`,
+  }));
   return `${renderHubNestedGroup(titleItems, fmBlocks)}\n\n`;
 }
 
@@ -176,7 +181,7 @@ export function buildFunctionalMechanismsSection(fmFilePaths, brsId) {
     const url = fmUrlFromPath(filePath);
     const pms = Array.isArray(data.mechanisms_covered) ? data.mechanisms_covered : [];
     fmBlocks.push(buildFmDropdown({ data, content, url }, pms));
-    fmEntries.push({ fmId: data.fm_id, title: data.title });
+    fmEntries.push({ fmId: data.fm_id, title: data.title, url });
   }
 
   if (fmBlocks.length) {

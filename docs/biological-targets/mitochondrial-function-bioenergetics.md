@@ -12,13 +12,11 @@ list_image: /img/icons/biological-targets.svg
 hide_title: true
 ---
 
-<div class="brs-hub-hero-clip">
 <img
-  src="/img/biological-targets/brs4-hub-hero.jpg"
+  src="/img/biological-targets/brs4-portrait-thumbnail.png"
   alt="BRS4 — Mitochondrial Function & Bioenergetics: ATP production, mitochondrial resilience, and bioenergetic efficiency"
   class="brs-hub-hero"
 />
-</div>
 
 ## BRS4 - Mitochondrial Function & Bioenergetics
 
@@ -45,11 +43,7 @@ Maintain efficient mitochondrial energy production, fuel flexibility, and organe
 
 ### Introduction
 
-Mitochondrial function in ADHD reflects the integrated performance of multiple bioenergetic regulatory capacities rather than disruption of a single pathway. These capacities include electron transport, ATP buffering, mitochondrial redox regulation, substrate delivery, metabolic flexibility, and longer-term mitochondrial quality control through biogenesis and mitophagy. BRS4 organises these as connected functional mechanisms rather than isolated biomarkers.
-
-### Dietary and lifestyle context
-
-Dietary pattern, meal-level substrate delivery, B-vitamin and mineral cofactor sufficiency, carnitine and creatine food context, polyphenol-linked mitophagy support, and lifestyle-driven adaptation all influence how these capacities perform. In ADHD contexts, evidence is interpreted through connected BRS4 FMs and PMs — with cross-links to BRS3 redox biology and BRS5 gut-derived metabolite context where relevant.
+Mitochondrial function in ADHD reflects distributed bioenergetic capacities — electron transport, ATP buffering, redox regulation, substrate delivery and metabolic flexibility — not disruption of a single pathway.
 
 ### ADHD translational biological context
 
@@ -87,7 +81,7 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 
 ## Dietary and Lifestyle Levers
 
-<p class="brs-hub-levers-intro">Macronutrient quality and mitochondrial cofactors set the substrate ceiling for ATP production and oxidative resilience. Dietary Guidance carries most of the biological weight here; sleep, activity and metabolic rhythm refine how that capacity is recovered and deployed under sustained cognitive demand.</p>
+<p class="brs-hub-levers-intro">Neuronal energy demand outpaces supply quietly before fatigue becomes obvious. Macronutrient quality, mitochondrial cofactors and circadian-aligned eating determine whether ATP production and substrate flexibility keep pace with sustained cognitive load. Dietary Guidance shows how specific foods and meal patterns repeatedly supply the fuels and cofactors bioenergetic recovery depends upon.</p>
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -145,7 +139,13 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 
 
 
+
+
+
 <p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS4 yet.</em></p>
+
+
+
 
 
 
@@ -182,7 +182,7 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 <!-- brs-hub-key-constraints:start -->
 ## Key Constraints (Dietary Bottlenecks)
 
-<p>These target foods supply the macronutrient fuels and mitochondrial cofactors that constrain bioenergetic reserve, substrate flexibility, and oxidative resilience across BRS4. Neuronal energy demand varies across the circadian cycle and under sustained cognitive load — when substrate flexibility or cofactor sufficiency weakens, ATP production and mitochondrial recovery become harder to sustain, limiting downstream neurotransmitter turnover and signalling before individual Primary Mechanisms are considered.</p>
+<p>Bioenergetic reserve is shaped long before ATP shortage becomes measurable. The Key Constraints identify the shared macronutrient fuels and mitochondrial cofactors that electron transport, substrate switching and oxidative resilience all depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of mitochondrial energy regulation.</p>
 
 <p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/almonds">Almonds</a> • <a href="/docs/foods/apples">Apples</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/milk">Milk</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/olive-oil">Olive Oil</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/walnuts">Walnuts</a></p>
 
@@ -191,7 +191,6 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 <li><a href="/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency">BRS4(KC2) — Mitochondrial Cofactor Sufficiency</a></li>
 </ul>
 <!-- brs-hub-key-constraints:end -->
-
 
 ## Functional Mechanisms
 
@@ -204,10 +203,42 @@ Cellular bioenergetics, mitochondrial resilience, substrate flexibility, and ada
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <ul class="brs-fm-hub-group-title-list">
-  <li>BRS4(FM1) — Cellular Bioenergetics</li>
-  <li>BRS4(FM2) — Mitochondrial Resilience &amp; Redox Stability</li>
-  <li>BRS4(FM3) — Substrate Utilisation Flexibility</li>
-  <li>BRS4(FM4) — Mitochondrial Capacity Expansion &amp; Adaptation</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS4(FM1) — Cellular Bioenergetics</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics" aria-label="Open FM: BRS4(FM1) — Cellular Bioenergetics">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS4(FM2) — Mitochondrial Resilience &amp; Redox Stability</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability" aria-label="Open FM: BRS4(FM2) — Mitochondrial Resilience &amp; Redox Stability">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS4(FM3) — Substrate Utilisation Flexibility</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs4/fm3/brs4-fm3-substrate-utilisation-flexibility" aria-label="Open FM: BRS4(FM3) — Substrate Utilisation Flexibility">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS4(FM4) — Mitochondrial Capacity Expansion &amp; Adaptation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation" aria-label="Open FM: BRS4(FM4) — Mitochondrial Capacity Expansion &amp; Adaptation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
 </ul>
 </div>
 <div class="brs-fm-hub-panel" hidden>
@@ -379,6 +410,7 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 </div>
 </div>
 
+
 </div>
 </div>
 </div>
@@ -387,7 +419,7 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS Dependencies
 
-<p>Bioenergetic reserve is seldom measured directly; its erosion is often recognised first through attention lapses, cognitive stamina or neurotransmitter instability. Mitochondrial capacity, substrate flexibility and oxidative resilience set the energetic ceiling beneath which every other regulatory system must operate. When that reserve thins, downstream signalling and recovery falter even when neurotransmitter pathways appear biochemically intact. The evidence below defines the principal Cross-BRS Dependencies through which BRS4 enables adaptive function across the network.</p>
+<p>Bioenergetic reserve is seldom measured directly; its erosion is often recognised first through attention lapses, cognitive stamina or neurotransmitter instability. Mitochondrial capacity, substrate flexibility and oxidative resilience set the energetic ceiling beneath which every other regulatory system must operate. When that reserve thins, downstream signalling and recovery falter even when neurotransmitter pathways appear biochemically intact.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
@@ -398,20 +430,50 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <ul class="brs-fm-hub-group-title-list">
-  <li>(BRS4 → BRS1) Bioenergetic Support for Neurotransmission</li>
-  <li>(BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics</li>
-  <li>(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS4 → BRS1) Bioenergetic Support for Neurotransmission</span>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="0" aria-label="Open: (BRS4 → BRS1) Bioenergetic Support for Neurotransmission">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics</span>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="1" aria-label="Open: (BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</span>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="2" aria-label="Open: (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+  </div>
+</li>
 </ul>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <div class="brs-fm-hub-group-children">
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="0">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS4 → BRS1) Bioenergetic Support for Neurotransmission">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>(BRS4 → BRS1) Bioenergetic Support for Neurotransmission</strong>
 </button>
+<strong class="brs-fm-hub-title">(BRS4 → BRS1) Bioenergetic Support for Neurotransmission</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS4 → BRS1) Bioenergetic Support for Neurotransmission">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
 <p>Collectively, the Functional Mechanisms within BRS4 maintain the adaptive bioenergetic reserve that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.</p>
@@ -428,12 +490,18 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="1">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>(BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics</strong>
 </button>
+<strong class="brs-fm-hub-title">(BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
 <p>Collectively, the Functional Mechanisms within BRS5 maintain adaptive microbial metabolite signalling capacity that enables BRS4 to sustain bioenergetic reserve under prolonged physiological demand.</p>
@@ -450,12 +518,18 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="2">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</strong>
 </button>
+<strong class="brs-fm-hub-title">(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
 <p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive neuroendocrine and glycaemic stability that enables BRS4 to sustain mitochondrial bioenergetic capacity under prolonged physiological demand.</p>

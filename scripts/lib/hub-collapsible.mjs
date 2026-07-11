@@ -60,8 +60,62 @@ ${panel}
 export const buildHubCollapsibleBlock = renderHubCollapsible;
 
 /**
+ * @param {string} text
+ */
+function escapeHtmlAttr(text) {
+  return String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+/**
+ * @param {string} text
+ */
+function escapeHtmlText(text) {
+  return String(text)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+/**
+ * @param {string|{ title: string, openHref?: string, openLabel?: string, openAriaLabel?: string, focusChildIndex?: number }} item
+ * @param {number} index
+ */
+function renderGroupTitleItem(item, index) {
+  const normalized =
+    typeof item === "string"
+      ? { title: item, focusChildIndex: index }
+      : { focusChildIndex: index, ...item };
+  const safeTitle = escapeHtmlText(normalized.title);
+  const focusIndex = normalized.focusChildIndex ?? index;
+  let openControl = "";
+
+  if (normalized.openHref) {
+    openControl = `<a class="brs-fm-hub-open brs-fm-hub-group-open" href="${normalized.openHref}" aria-label="${escapeHtmlAttr(normalized.openAriaLabel || `Open: ${normalized.title}`)}">
+<span class="brs-fm-hub-open-label">${normalized.openLabel || "Open FM →"}</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>`;
+  } else {
+    openControl = `<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="${focusIndex}" aria-label="${escapeHtmlAttr(normalized.openAriaLabel || `Open: ${normalized.title}`)}">
+<span class="brs-fm-hub-open-label">${normalized.openLabel || "Open →"}</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>`;
+  }
+
+  return `  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">${safeTitle}</span>
+${openControl}
+  </div>
+</li>`;
+}
+
+/**
  * Parent dropdown listing child item titles; children hold nested hub collapsibles.
- * @param {string[]} titleItems — plain-text titles shown as a bulleted list in collapsed summary
+ * @param {Array<string|{ title: string, openHref?: string, openLabel?: string, openAriaLabel?: string, focusChildIndex?: number }>} titleItems — titles with optional Open link (FM) or expand action (Cross-BRS)
  * @param {string} childrenHtml
  */
 export function renderHubNestedGroup(titleItems, childrenHtml) {
@@ -71,15 +125,7 @@ export function renderHubNestedGroup(titleItems, childrenHtml) {
         .split(" · ")
         .map((s) => s.trim())
         .filter(Boolean);
-  const listItems = items
-    .map((title) => {
-      const safe = String(title)
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;");
-      return `  <li>${safe}</li>`;
-    })
-    .join("\n");
+  const listItems = items.map((item, index) => renderGroupTitleItem(item, index)).join("\n");
 
   return `<div class="brs-fm-hub-item brs-fm-hub-group" ${HUB_COLLAPSIBLE_ATTR}>
 <div class="brs-fm-hub-shell">

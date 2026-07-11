@@ -50,9 +50,6 @@ function getIntegrationDisplayTitle(integration) {
   return namedTitle ? `(${integration.title}) ${namedTitle}` : integration.title;
 }
 
-function renderIntegrationTitleHtml(integration) {
-  return `<strong>${escapeHtml(getIntegrationDisplayTitle(integration))}</strong>`;
-}
 
 const INTEGRATION_SECTIONS = [
   { key: "biological_contribution", title: "Biological Contribution" },
@@ -78,17 +75,24 @@ function renderEvidenceItem(item) {
   return `<li class="brs-hub-integration-evidence-item"><p><a href="${href}">${escapeHtml(label)}</a> — ${escapeHtml(item.supports)}</p></li>`;
 }
 
-function renderIntegrationCollapsible(integration) {
+function renderIntegrationCollapsible(integration, childIndex) {
+  const displayTitle = getIntegrationDisplayTitle(integration);
   const sections = INTEGRATION_SECTIONS.map(({ key, title }) =>
     renderIntegrationSection(title, integrationSectionText(integration, key)),
   ).join("\n");
   const evidenceItems = integration.evidence.map(renderEvidenceItem).join("\n");
-  return `<div class="brs-fm-hub-item" data-brs-fm-hub>
+  return `<div class="brs-fm-hub-item" ${HUB_COLLAPSIBLE_ATTR} data-brs-fm-hub-group-index="${childIndex}">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand ${escapeHtml(displayTitle)}">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-${renderIntegrationTitleHtml(integration)}
 </button>
+<strong class="brs-fm-hub-title">${escapeHtml(displayTitle)}</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open ${escapeHtml(displayTitle)}">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 ${sections}
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
@@ -108,8 +112,17 @@ export function renderHubCrossIntegrationHtml(brsId) {
   const integrations = getIntegrationsForBrs(brsId);
   if (!integrations.length) return "";
 
-  const collapsibles = integrations.map(renderIntegrationCollapsible).join("\n\n");
-  const titleItems = integrations.map(getIntegrationDisplayTitle);
+  const collapsibles = integrations
+    .map((integration, index) => renderIntegrationCollapsible(integration, index))
+    .join("\n\n");
+  const titleItems = integrations.map((integration) => {
+    const title = getIntegrationDisplayTitle(integration);
+    return {
+      title,
+      openLabel: "Open →",
+      openAriaLabel: `Open: ${title}`,
+    };
+  });
   const grouped = renderHubNestedGroup(titleItems, collapsibles);
 
   const intro = escapeHtml(getHubCrossBrsSummary(brsId));

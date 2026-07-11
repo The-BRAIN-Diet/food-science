@@ -41,6 +41,10 @@ Maintain efficient one-carbon metabolism so the brain can sustain methylation ca
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
+### Introduction
+
+One-carbon metabolism in ADHD spans methyl-donor availability, homocysteine handling, membrane phospholipid renewal and cholinergic support — not reducible to a single vitamin deficiency. Folate, B12, methionine and choline status, together with genetic variation in folate cycling, shape whether remethylation and transsulfuration keep pace with daily turnover under sustained attention demand.
+
 ### ADHD: Methylation & One-Carbon Context
 
 Several studies have reported disturbances in methylation-relevant nutrients and biomarkers in ADHD populations. Lower folate and vitamin B12 status have been observed in children with ADHD, while elevated homocysteine, a functional marker of impaired one-carbon metabolism, has been reported in some paediatric ADHD cohorts, although findings remain heterogeneous across studies [Razavinia et al., 2024; Lukovac et al., 2024; Luzzi et al., 2022]. Dietary patterns characterised by lower intake of folate-, B vitamin-, and fibre-rich foods have also been associated with ADHD symptom burden, whereas dietary patterns rich in fibre, folate, and omega-3 fatty acids have been linked with reduced symptoms [Wang et al., 2019; Millichap and Yee, 2012].
@@ -72,7 +76,7 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 
 ## Dietary and Lifestyle Levers
 
-<p class="brs-hub-levers-intro">Methyl-donor and B-vitamin intake establishes the one-carbon throughput on which monoamine turnover and homocysteine handling depend. Dietary Guidance carries most of the biological weight here; consistent meal timing and lifestyle recovery refine how methyl-donor reserves are preserved across remethylation and transsulfuration capacity.</p>
+<p class="brs-hub-levers-intro">Methyl-group flux is renewed at every meal, not stored indefinitely for later demand. Folate, B12, methionine and choline intake — together with consistent meal rhythm and recovery — determine whether remethylation, membrane synthesis and transsulfuration-linked redox support keep pace with daily turnover. Dietary Guidance shows how specific foods and patterns repeatedly supply the methyl-donor and B-vitamin input one-carbon biology depends upon.</p>
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -131,7 +135,13 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 
 
 
+
+
+
 <p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS2 yet.</em></p>
+
+
+
 
 
 
@@ -163,7 +173,7 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 <!-- brs-hub-key-constraints:start -->
 ## Key Constraints (Dietary Bottlenecks)
 
-<p>These target foods supply the methyl-donor and sulfur-amino-acid pools that constrain one-carbon throughput, remethylation capacity, and transsulfuration-linked redox support across BRS2. Day-to-day methyl-group flux depends on sustained folate, B12 and methionine availability across meals — when one-carbon pools thin, homocysteine handling weakens and downstream monoamine support, membrane renewal and glutathione formation falter before individual Primary Mechanisms are considered.</p>
+<p>One-carbon metabolism is shaped long before homocysteine rises. The Key Constraints identify the shared methyl-donor and sulfur-amino-acid pools that remethylation, membrane renewal and glutathione formation all depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of one-carbon regulation.</p>
 
 <p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beetroot">Beetroot</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/liver">Liver</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/greek-yogurt">Yogurt</a></p>
 
@@ -172,7 +182,6 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 <li><a href="/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool">BRS2(KC2) — Methionine & Transsulfuration Substrate Pool</a></li>
 </ul>
 <!-- brs-hub-key-constraints:end -->
-
 
 ## Functional Mechanisms
 
@@ -185,9 +194,33 @@ Methylation-cycle efficiency, transsulfuration, and methylation–membrane coupl
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <ul class="brs-fm-hub-group-title-list">
-  <li>BRS2(FM1) — Methylation Cycle Efficiency</li>
-  <li>BRS2(FM2) — Transsulfuration &amp; Redox Coupling</li>
-  <li>BRS2(FM3) — Methylation–Membrane Coupling</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS2(FM1) — Methylation Cycle Efficiency</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency" aria-label="Open FM: BRS2(FM1) — Methylation Cycle Efficiency">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS2(FM2) — Transsulfuration &amp; Redox Coupling</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling" aria-label="Open FM: BRS2(FM2) — Transsulfuration &amp; Redox Coupling">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS2(FM3) — Methylation–Membrane Coupling</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling" aria-label="Open FM: BRS2(FM3) — Methylation–Membrane Coupling">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
 </ul>
 </div>
 <div class="brs-fm-hub-panel" hidden>
@@ -323,6 +356,7 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 </div>
 </div>
 
+
 </div>
 </div>
 </div>
@@ -331,7 +365,7 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS Dependencies
 
-<p>One-carbon metabolism is not an isolated vitamin pathway. Methyl-group throughput, remethylation and transsulfuration supply shared biochemical infrastructure on which monoamine turnover, redox defence and membrane maintenance all depend. When one-carbon capacity is constrained, the limitation rarely announces itself as a methylation defect alone; it propagates into neurotransmission and oxidative resilience downstream. The evidence below maps the principal Cross-BRS Dependencies through which BRS2 supports and constrains adaptive function across the network.</p>
+<p>One-carbon metabolism is not an isolated vitamin pathway. Methyl-group throughput, remethylation and transsulfuration supply shared biochemical infrastructure on which monoamine turnover, redox defence and membrane maintenance all depend. When one-carbon capacity is constrained, the limitation rarely announces itself as a methylation defect alone — it propagates into neurotransmission and oxidative resilience downstream.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
@@ -342,19 +376,41 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <ul class="brs-fm-hub-group-title-list">
-  <li>(BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology</li>
-  <li>(BRS2 → BRS3) One-Carbon to Redox Coupling</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology</span>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="0" aria-label="Open: (BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS2 → BRS3) One-Carbon to Redox Coupling</span>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="1" aria-label="Open: (BRS2 → BRS3) One-Carbon to Redox Coupling">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+  </div>
+</li>
 </ul>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <div class="brs-fm-hub-group-children">
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="0">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>(BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology</strong>
 </button>
+<strong class="brs-fm-hub-title">(BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
 <p>Collectively, the Functional Mechanisms within BRS2 maintain adaptive methyl-donor and cofactor capacity that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.</p>
@@ -371,12 +427,18 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="1">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS2 → BRS3) One-Carbon to Redox Coupling">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>(BRS2 → BRS3) One-Carbon to Redox Coupling</strong>
 </button>
+<strong class="brs-fm-hub-title">(BRS2 → BRS3) One-Carbon to Redox Coupling</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS2 → BRS3) One-Carbon to Redox Coupling">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
 <p>Collectively, the Functional Mechanisms within BRS2 maintain adaptive one-carbon metabolic flux and transsulfuration coupling that enables BRS3 to sustain antioxidant defence and redox resilience under prolonged physiological demand.</p>
