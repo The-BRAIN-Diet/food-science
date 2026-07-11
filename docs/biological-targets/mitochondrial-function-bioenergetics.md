@@ -12,11 +12,13 @@ list_image: /img/icons/biological-targets.svg
 hide_title: true
 ---
 
+<div class="brs-hub-hero-clip">
 <img
-  src="/img/biological-targets/brs4-portrait-thumbnail.png"
+  src="/img/biological-targets/brs4-hub-hero.jpg"
   alt="BRS4 — Mitochondrial Function & Bioenergetics: ATP production, mitochondrial resilience, and bioenergetic efficiency"
   class="brs-hub-hero"
 />
+</div>
 
 ## BRS4 - Mitochondrial Function & Bioenergetics
 
