@@ -87,7 +87,7 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 
 ## Dietary and Lifestyle Levers
 
-<p class="brs-hub-levers-intro">Glycaemic load, meal composition and micronutrient density influence how reliably energy and hormones can be regulated across the day. Circadian alignment, sleep consistency and recovery behaviour remain the principal levers for cortisol rhythm, autonomic balance and sustainable load allocation.</p>
+<p class="brs-hub-levers-intro">Glycaemic load, meal composition and micronutrient density influence how reliably energy and hormones can be regulated across the day. Dietary Guidance carries most of the biological weight here; circadian alignment, sleep consistency and recovery behaviour refine cortisol rhythm, autonomic balance and sustainable load allocation.</p>
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -96,7 +96,7 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Priorities</strong>
+<strong>Dietary Guidance</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -140,7 +140,11 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 <div class="brs-fm-hub-panel" hidden>
 
 
+
+
 <p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS6 yet.</em></p>
+
+
 
 
 </div>
@@ -171,6 +175,19 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 
 </div>
 <!-- brs-hub-levers:end -->
+
+<!-- brs-hub-key-constraints:start -->
+## Key Constraints (Dietary Bottlenecks)
+
+<p>These target foods supply the energy substrates and stress-response micronutrients that constrain glycaemic stability, neuroendocrine rhythm, and metabolic recovery capacity across BRS6. Cortisol rhythm and autonomic balance respond to both meal composition and circadian-aligned eating — when glycaemic swings or stress-response micronutrient pools are poorly supported, energy allocation and inflammatory load become harder to regulate across connected systems before individual Primary Mechanisms are considered.</p>
+
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/almonds">Almonds</a> • <a href="/docs/foods/apples">Apples</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/milk">Milk</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/olive-oil">Olive Oil</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/walnuts">Walnuts</a></p>
+
+<ul class="brs-hub-kc-links">
+<li><a href="/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability">BRS6(KC1) — Glucose / Energy Substrate Sufficiency</a></li>
+<li><a href="/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency">BRS6(KC2) — Stress — Response Micronutrient & Lipid Sufficiency</a></li>
+</ul>
+<!-- brs-hub-key-constraints:end -->
 
 
 ## Functional Mechanisms
@@ -360,19 +377,6 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 </div>
 </div>
 
-## Key Constraints (Dietary Bottlenecks)
-
-Key Constraints (KCs) in BRS6 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
-
-- [BRS6-KC1 — Glucose / Energy Substrate Availability](/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability)
-- [BRS6-KC2 — Stress-Response Micronutrient & Lipid Sufficiency](/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency)
-
-<!--
-Key Constraints are shared biological pool constraints, not intervention targets. Individual KC pages should not include food examples.
--->
-
----
-
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS Dependencies
 
@@ -491,6 +495,7 @@ Key Constraints are shared biological pool constraints, not intervention targets
 
 </div>
 <!-- brs-hub-cross-integration:end -->
+
 
 ## Specific Mechanisms
 

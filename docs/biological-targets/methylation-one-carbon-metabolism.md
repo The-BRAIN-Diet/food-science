@@ -72,7 +72,7 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 
 ## Dietary and Lifestyle Levers
 
-<p class="brs-hub-levers-intro">Methyl-donor and B-vitamin intake establishes the one-carbon throughput on which monoamine turnover and homocysteine handling depend. Consistent eating patterns and reduced metabolic strain complement dietary supply by limiting the load on remethylation and transsulfuration capacity.</p>
+<p class="brs-hub-levers-intro">Methyl-donor and B-vitamin intake establishes the one-carbon throughput on which monoamine turnover and homocysteine handling depend. Dietary Guidance carries most of the biological weight here; consistent meal timing and lifestyle recovery refine how methyl-donor reserves are preserved across remethylation and transsulfuration capacity.</p>
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -81,7 +81,7 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Priorities</strong>
+<strong>Dietary Guidance</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -129,7 +129,11 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 <div class="brs-fm-hub-panel" hidden>
 
 
+
+
 <p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS2 yet.</em></p>
+
+
 
 
 </div>
@@ -155,6 +159,19 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 
 </div>
 <!-- brs-hub-levers:end -->
+
+<!-- brs-hub-key-constraints:start -->
+## Key Constraints (Dietary Bottlenecks)
+
+<p>These target foods supply the methyl-donor and sulfur-amino-acid pools that constrain one-carbon throughput, remethylation capacity, and transsulfuration-linked redox support across BRS2. Day-to-day methyl-group flux depends on sustained folate, B12 and methionine availability across meals — when one-carbon pools thin, homocysteine handling weakens and downstream monoamine support, membrane renewal and glutathione formation falter before individual Primary Mechanisms are considered.</p>
+
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beetroot">Beetroot</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/liver">Liver</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/greek-yogurt">Yogurt</a></p>
+
+<ul class="brs-hub-kc-links">
+<li><a href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">BRS2(KC1) — Methyl Donor Pool</a></li>
+<li><a href="/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool">BRS2(KC2) — Methionine & Transsulfuration Substrate Pool</a></li>
+</ul>
+<!-- brs-hub-key-constraints:end -->
 
 
 ## Functional Mechanisms
@@ -311,15 +328,6 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 </div>
 </div>
 
-## Key Constraints (Dietary Bottlenecks)
-
-Key Constraints (KCs) in BRS2 describe shared precursor and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
-
-- [BRS2(KC1) — One-Carbon Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool): Availability of one-carbon donor substrates required to sustain methyl-group transfer, remethylation pathways, and broader one-carbon metabolism.
-- [BRS2(KC2) — Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool): Availability of amino-acid substrates supporting methionine cycling, transsulfuration flux, glutathione synthesis, and related methylation-dependent pathways.
-
----
-
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS Dependencies
 
@@ -391,6 +399,7 @@ Key Constraints (KCs) in BRS2 describe shared precursor and structural biologica
 
 </div>
 <!-- brs-hub-cross-integration:end -->
+
 
 ## Specific Mechanisms
 

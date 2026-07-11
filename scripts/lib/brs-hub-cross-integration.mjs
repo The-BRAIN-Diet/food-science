@@ -127,6 +127,13 @@ ${grouped}
 ${CROSS_INTEGRATION_MARKERS.end}`;
 }
 
+function stripHrBeforeCrossBrs(content) {
+  return content
+    .replace(/\n---\s*\n+(?=<!-- brs-hub-cross-integration:start -->)/g, "\n\n")
+    .replace(/\n---\s*\n+(?=## Cross-BRS Dependencies)/g, "\n\n")
+    .replace(/\n{3,}(?=<!-- brs-hub-cross-integration:start -->)/g, "\n\n");
+}
+
 /**
  * @param {string} hubPath
  * @param {string} html
@@ -156,6 +163,8 @@ export function patchHubCrossIntegration(hubPath, html, rootDir = process.cwd())
     throw new Error(`${hubPath}: could not find insertion point before Specific Mechanisms`);
   }
   content = content.replace(insertRe, `$1\n\n${block}\n\n$2`);
+
+  content = stripHrBeforeCrossBrs(content);
 
   fs.writeFileSync(full, content);
 }

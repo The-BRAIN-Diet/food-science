@@ -75,7 +75,7 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 
 ## Dietary and Lifestyle Levers
 
-<p class="brs-hub-levers-intro">Anti-inflammatory and antioxidant-rich whole foods set the dietary baseline, yet inflammatory and oxidative load is often driven as much by food preparation and dietary exclusions as by nutrient deficiency. Gentler cooking, avoiding repeatedly heated unstable fats and limiting ultra-processed food exposure are central Optimisation levers here — they reduce avoidable ROS and post-meal immune activation that nutrient density alone cannot fully offset.</p>
+<p class="brs-hub-levers-intro">Anti-inflammatory and antioxidant-rich whole foods set the dietary baseline, yet inflammatory and oxidative load is often driven as much by food preparation and dietary exclusions as by nutrient deficiency. Dietary Guidance carries most of the biological weight here; gentler cooking, limiting ultra-processed food exposure and lifestyle recovery are central Optimisation and Lifestyle levers that reduce avoidable ROS and post-meal immune activation that nutrient density alone cannot fully offset.</p>
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -84,7 +84,7 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Priorities</strong>
+<strong>Dietary Guidance</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -132,11 +132,15 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 <div class="brs-fm-hub-panel" hidden>
 
 
+
+
 <ul class="brs-hub-lever-list brs-hub-optimisation-list">
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Choose gentler cooking methods and avoid repeatedly heating unstable oils</strong> to limit lipid oxidation and dietary ROS that can overwhelm antioxidant clearance and lipid peroxidation control.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a></span></p></li>
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Limit ultra-processed food exposure</strong> to reduce post-meal inflammatory signalling and avoidable oxidative substrates that amplify immune tone beyond nutrient intake alone.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a></span></p></li>
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare antioxidant-rich vegetables to preserve heat-sensitive compounds</strong> to retain vitamin C and polyphenols that support NRF2 activation and sustained ROS clearance rather than losing them to overcooking.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a></span></p></li>
 </ul>
+
+
 
 
 </div>
@@ -164,6 +168,19 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 
 </div>
 <!-- brs-hub-levers:end -->
+
+<!-- brs-hub-key-constraints:start -->
+## Key Constraints (Dietary Bottlenecks)
+
+<p>These target foods supply the antioxidant substrates and essential fatty-acid balance that constrain inflammatory tone, redox defence, and resolution capacity across BRS3. Inflammatory and oxidative load is shaped as much by daily food preparation and dietary pattern as by micronutrient density — when antioxidant pools or omega-3 balance are inadequate, immune tone and redox strain persist and narrow the operating space for neurotransmission and recovery downstream.</p>
+
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/almonds">Almonds</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/bell-peppers">Bell Peppers</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/cocoa">Cocoa</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/flax-seeds">Flax Seeds</a> • <a href="/docs/foods/green-tea">Green Tea</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/soy">Soy</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/walnuts">Walnuts</a></p>
+
+<ul class="brs-hub-kc-links">
+<li><a href="/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability">BRS3(KC1) — Antioxidant Substrate Sufficiency</a></li>
+<li><a href="/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance">BRS3(KC3) — Essential Fatty Acid Balance</a></li>
+</ul>
+<!-- brs-hub-key-constraints:end -->
 
 
 ## Functional Mechanisms
@@ -323,15 +340,6 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 </div>
 </div>
 
-## Key Constraints (Dietary Bottlenecks)
-
-Key Constraints (KCs) in BRS3 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
-
-- [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability): Availability of antioxidant substrates and precursor compounds required to support endogenous antioxidant defence, redox buffering, and oxidative-damage limitation.
-- [BRS3(KC3) - Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance): Availability and balance of omega-3 and omega-6 fatty acids required for inflammatory signalling, membrane composition, and inflammation-resolution pathways.
-
----
-
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS Dependencies
 
@@ -426,6 +434,7 @@ Key Constraints (KCs) in BRS3 describe shared substrate, precursor, and structur
 
 </div>
 <!-- brs-hub-cross-integration:end -->
+
 
 ## Specific Mechanisms
 
