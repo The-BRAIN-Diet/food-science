@@ -17,51 +17,59 @@ const BRS_BASE = path.join(process.cwd(), "docs/biological-targets");
 const HUB_CONFIGS = [
   {
     file: "neurotransmitter-regulation.md",
+    brsId: "BRS1",
     fmPaths: () => listFmFilesForBrs(1),
     replace: (content, section) =>
       content.replace(/## Functional Mechanisms[\s\S]*?(?=\n## )/, section),
   },
   {
     file: "methylation-one-carbon-metabolism.md",
+    brsId: "BRS2",
     fmPaths: () => listFmFilesForBrs(2),
     replace: (content, section) =>
       content.replace(/## Functional Mechanisms[\s\S]*?(?=\n## )/, section),
   },
   {
     file: "inflammation-oxidative-stress.md",
+    brsId: "BRS3",
     fmPaths: () => listFmFilesForBrs(3),
     replace: (content, section) =>
       content.replace(/## Functional Mechanisms[\s\S]*?(?=\n## )/, section),
   },
   {
     file: "mitochondrial-function-bioenergetics.md",
+    brsId: "BRS4",
     fmPaths: () => listFmFilesForBrs(4),
     replace: (content, section) =>
       content.replace(/## Functional Mechanisms[\s\S]*?(?=\n## )/, section),
   },
   {
     file: "gut-brain-axis-enteric-nervous-system.md",
+    brsId: "BRS5",
     fmPaths: () => listFmFilesForBrs(5),
     replace: (content, section) =>
       content.replace(/## Functional Mechanisms[\s\S]*?(?=\n## )/, section),
   },
   {
     file: "metabolic-neuroendocrine-stress.md",
+    brsId: "BRS6",
     fmPaths: () => listFmFilesForBrs(6),
     replace: (content, section) =>
       content.replace(/## Functional Mechanisms[\s\S]*?(?=\n## )/, section),
   },
   {
     file: "brs-x/ecs/endocannabinoid-system.md",
+    brsId: "BRS-X-ECS",
     fmPaths: () => listFmFilesForBrsX("ecs"),
     replace: (content, section) =>
       content.replace(
-        /## Functional Mechanisms[\s\S]*?\n---\n\n## Specific Mechanisms/,
-        `${section}---\n\n## Specific Mechanisms`,
+        /## Functional Mechanisms[\s\S]*?\n---\n+## Specific Mechanisms/,
+        `${section.trimEnd()}\n\n---\n\n## Specific Mechanisms`,
       ),
   },
   {
     file: "brs-x/hormones/hormone-signalling-regulation.md",
+    brsId: "BRS-X-HORMONES",
     fmPaths: () => listFmFilesForBrsX("hormones"),
     replace: (content, section) =>
       content.replace(
@@ -89,7 +97,7 @@ for (const hub of HUB_CONFIGS) {
   }
   const hubPath = path.join(BRS_BASE, hub.file);
   const fmPaths = hub.fmPaths();
-  const section = buildFunctionalMechanismsSection(fmPaths);
+  const section = buildFunctionalMechanismsSection(fmPaths, hub.brsId);
   let content = fs.readFileSync(hubPath, "utf8");
   const next = hub.replace(content, section);
   if (next === content) {

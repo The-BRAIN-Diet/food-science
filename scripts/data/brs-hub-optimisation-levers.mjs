@@ -24,4 +24,24 @@ export const HUB_OPTIMISATION_LEVERS = {
         "Biological rationale: FM §4.3 Suboptimal Function — oxidative degradation of PUFA-rich meal matrices.",
     },
   ],
+  BRS3: [
+    {
+      action: "Choose gentler cooking methods and avoid repeatedly heating unstable oils",
+      explanation:
+        "to limit lipid oxidation and dietary ROS that can overwhelm antioxidant clearance and lipid peroxidation control.",
+      match_pm_ids: ["BRS3-FM2-PM4", "BRS3-FM2-PM5"],
+    },
+    {
+      action: "Limit ultra-processed food exposure",
+      explanation:
+        "to reduce post-meal inflammatory signalling and avoidable oxidative substrates that amplify immune tone beyond nutrient intake alone.",
+      match_pm_ids: ["BRS3-FM1-PM1", "BRS3-FM3-PM7"],
+    },
+    {
+      action: "Prepare antioxidant-rich vegetables to preserve heat-sensitive compounds",
+      explanation:
+        "to retain vitamin C and polyphenols that support NRF2 activation and sustained ROS clearance rather than losing them to overcooking.",
+      match_pm_ids: ["BRS3-FM2-PM3", "BRS3-FM2-PM6"],
+    },
+  ],
 };

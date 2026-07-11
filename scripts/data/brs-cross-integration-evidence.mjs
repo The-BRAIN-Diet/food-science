@@ -1,5 +1,5 @@
 /**
- * Cross-BRS integration evidence library.
+ * Cross-BRS Dependencies evidence library.
  * Canonical source: brs-cross-integration-evidence.json
  * Used by manuscript generator, hub pages, and translational content.
  */
@@ -44,6 +44,16 @@ export function getAllIntegrationCitationKeys() {
     }
   }
   return [...keys];
+}
+
+/** Short framework intro for Biological Regulatory Systems overview. */
+export function getCrossBrsFrameworkIntro() {
+  return data.cross_brs_framework_intro ?? "";
+}
+
+/** BRS-specific high-level Cross-BRS section intro for hub pages. */
+export function getHubCrossBrsSummary(brsId) {
+  return data.hub_cross_brs_summaries?.[brsId] ?? getCrossBrsFrameworkIntro();
 }
 
 export { INTEGRATION_SECTIONS };

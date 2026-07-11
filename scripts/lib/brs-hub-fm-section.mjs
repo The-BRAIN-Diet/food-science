@@ -8,8 +8,35 @@ import matter from "gray-matter";
 
 const BRS_BASE = path.join(process.cwd(), "docs/biological-targets");
 
-const FM_SECTION_INTRO =
-  "Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.";
+/** Brief hub intro — what the FMs in this BRS cover (two lines, no navigational boilerplate). */
+export const HUB_FM_SECTION_INTRO = {
+  BRS1:
+    "Monoaminergic, cholinergic, membrane-lipid, and GABA–glutamate mechanisms jointly govern attention, drive, memory, and excitatory–inhibitory balance. Together they set whether precursor supply, receptor environments, and daily signalling tone can support stable function as demand and circadian timing shift.",
+  BRS2:
+    "Methylation-cycle efficiency, transsulfuration, and methylation–membrane coupling determine methyl-group throughput and sulfur-amino-acid routing. These capacities supply one-carbon chemistry for monoamine turnover, homocysteine handling, and redox-linked support across connected systems.",
+  BRS3:
+    "Anti-inflammatory tone, antioxidant defence, and inflammation resolution set the background conditions under which neurotransmission, metabolism, and recovery operate. These mechanisms determine whether immune and oxidative load stays proportionate or becomes a persistent constraint on downstream function.",
+  BRS4:
+    "Cellular bioenergetics, mitochondrial resilience, substrate flexibility, and adaptive capacity expansion supply the ATP and redox stability neurons need under sustained demand. Without adequate energetic reserve, neurotransmitter synthesis, clearance, and signalling become harder to sustain across the day.",
+  BRS5:
+    "Gut barrier integrity, microbial metabolite signalling, and vagal–enteric neuromodulation link the gut interface to brain chemistry, immune tone, and stress responses. These routes determine whether gut-derived signals support or strain neurotransmission, inflammation, and metabolic recovery.",
+  BRS6:
+    "Glycaemic–insulin stability, HPA rhythm, autonomic balance, and stress–inflammatory load allocation govern how energy and recovery are distributed under demand. Circadian-aligned cortisol, vagal recovery, and metabolic flexibility shape cognitive energy and cumulative allostatic load.",
+  "BRS-X-ECS":
+    "Endocannabinoidome signalling integrates lipid-mediated neuromodulation — NAE biosynthesis, preservation, and stress-buffering — that modulates synaptic activity and neuroimmune communication. These mechanisms sustain proportionate endogenous tone rather than relying on pharmacological receptor activation alone.",
+  "BRS-X-HORMONES":
+    "Reproductive hormone balance interacts with neurocognitive regulation through integrated endocrine–neural signalling. This mechanism set covers how hormone tone shapes attention, mood, and metabolic context across connected brain systems.",
+};
+
+function resolveFmSectionIntro(brsId, fmFilePaths) {
+  if (brsId && HUB_FM_SECTION_INTRO[brsId]) return HUB_FM_SECTION_INTRO[brsId];
+  const sample = String(fmFilePaths[0] || "");
+  if (sample.includes("/brs-x/ecs/")) return HUB_FM_SECTION_INTRO["BRS-X-ECS"];
+  if (sample.includes("/brs-x/hormones/")) return HUB_FM_SECTION_INTRO["BRS-X-HORMONES"];
+  const m = sample.match(/\/brs(\d+)\//);
+  if (m) return HUB_FM_SECTION_INTRO[`BRS${m[1]}`] || HUB_FM_SECTION_INTRO.BRS1;
+  return "These integrated mechanisms describe the functional capacities within this Biological Regulatory System and the Primary Mechanisms that operationalise them.";
+}
 
 export function fmUrlFromPath(filePath) {
   const rel = path
@@ -137,8 +164,9 @@ function buildFmGroupWrapper(fmBlocks, fmEntries) {
   return `${renderHubNestedGroup(titleItems, fmBlocks)}\n\n`;
 }
 
-export function buildFunctionalMechanismsSection(fmFilePaths) {
-  let section = `## Functional Mechanisms\n\n${FM_SECTION_INTRO}\n\n`;
+export function buildFunctionalMechanismsSection(fmFilePaths, brsId) {
+  const intro = resolveFmSectionIntro(brsId, fmFilePaths);
+  let section = `## Functional Mechanisms\n\n${intro}\n\n`;
 
   const fmBlocks = [];
   const fmEntries = [];

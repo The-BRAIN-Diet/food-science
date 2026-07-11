@@ -24,90 +24,9 @@ hide_title: true
 
 Maintain a resilient gut–brain interface — barrier selective, microbial ecology supportive, and gut-to-brain communication proportionate — so the brain receives stable microbial and neural signals without chronic immune activation or inflammatory spillover.
 
-<!-- brs-hub-levers:start -->
-<div class="brs-hub-levers">
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Dietary Priorities</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-hub-dietary-strategy">
-<p class="brs-hub-dietary-guidance-flow">Pattern → Nutrients → Biology → Target Foods</p>
-<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Eat a wide variety of plant foods daily</strong> → fermentable fibre and diverse phytochemicals → reduced dietary plant diversity may limit microbial ecological capacity and, over time, diminish the stability of microbiome-derived signalling relevant to gut–brain communication.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/spinach">Spinach</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include fermentable fibre sources regularly</strong> → β-glucan, resistant starch and soluble fibre → may provide substrate for microbial fermentation and short-chain fatty acid production relevant to barrier and neural signalling pathways, although fermentation outcomes vary with individual microbiome ecology.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/lentils">Lentils</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include fermented foods where tolerated</strong> → live cultures and postbiotic peptides → may contribute to microbial and postbiotic signalling routes relevant to vagal and enteric nervous system function, though specific food effects remain heterogeneous and context-dependent.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/kefir">Kefir</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/kimchi">Kimchi</a> • <a href="/docs/foods/sauerkraut">Sauerkraut</a> • <a href="/docs/foods/fermented-vegetables">Fermented Vegetables</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include omega-3-rich whole foods regularly</strong> → EPA, DHA and barrier-supportive fatty acids → may support tight-junction integrity and help limit gut-derived inflammatory load reaching systemic circulation.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/algal-oil">Algae</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></p>
-<p class="brs-hub-dietary-guidance-note"><em>Omega-3:</em> Marine foods and algae provide preformed DHA and EPA. Walnuts provide ALA, which requires endogenous conversion with variable efficiency.</p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plant foods</strong> → polyphenols → may support microbial biotransformation pathways relevant to gut–brain and mitochondria-linked metabolites, although taxa responses vary with baseline microbiome ecology.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/walnuts">Walnuts</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Maintain dietary variety across nutrient-dense whole foods</strong> → zinc, vitamin A precursors and barrier-supportive micronutrients → may provide nutritional resources that support epithelial maintenance and immune containment at the gut interface.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/sardines">Sardines</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a></span></p>
-</li>
-</ul>
-</div>
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Optimisation Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS5 yet.</em></p>
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Lifestyle Priorities</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<ul class="brs-hub-lever-list brs-hub-lifestyle-list">
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain consistent daily meal patterns</strong> to help support microbial rhythm stability, fermentation continuity, and steadier gut–brain signalling over time.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Prioritise sleep and manage stress</strong> to help reduce indirect strain on gut barrier integrity, endotoxin load, and enteric signalling stability.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability" class="brs-hub-lever-pm">BRS5-FM3-PM8</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Limit alcohol and ultra-processed food exposure</strong> to reduce barrier strain and support a healthier gut environment for microbial and immune balance.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Emphasise repeated dietary pattern quality over short-term fixes</strong> to help support SCFA production and durable gut ecological turnover rather than isolated bursts — though individual microbiome responses vary.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability" class="brs-hub-lever-pm">BRS5-FM3-PM8</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain dietary variety rather than overly restrictive eating</strong> to help preserve microbial diversity and long-term gut resilience, without assuming predictable ecological outcomes from any single food.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></p></li>
-</ul>
-
-</div>
-</div>
-</div>
-
-</div>
-<!-- brs-hub-levers:end -->
-
 ## Therapeutic Area Research
+
+<p class="brs-hub-ta-research-intro">ADHD is the first fully mapped therapeutic area within the BRAIN Framework, providing a proof of concept for an adaptive biological architecture linking nutrition, biology and function. The same framework is designed to expand across additional therapeutic areas through the shared <a href="/docs/phenomes/">Phenome Registry</a>.</p>
 
 <!-- brs-hub-ta-research:start -->
 <div class="brs-hub-ta-research">
@@ -164,11 +83,99 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 </div>
 <!-- brs-hub-ta-research:end -->
 
----
+## Dietary and Lifestyle Levers
+
+<p class="brs-hub-levers-intro">Fermentable fibre, polyphenols and barrier-supportive nutrients shape the gut ecosystem that feeds back into neuroimmune signalling. Meal regularity, stress recovery and sleep support vagal tone and barrier integrity in ways that dietary composition alone cannot substitute.</p>
+
+<!-- brs-hub-levers:start -->
+<div class="brs-hub-levers">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary Priorities</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-hub-dietary-strategy">
+<p class="brs-hub-dietary-guidance-flow">Pattern → Nutrients → Biology → Target Foods</p>
+<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Eat a wide variety of plant foods daily</strong> → fermentable fibre and diverse phytochemicals → reduced dietary plant diversity may limit microbial ecological capacity and, over time, diminish the stability of microbiome-derived signalling relevant to gut–brain communication.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/spinach">Spinach</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include fermentable fibre sources regularly</strong> → β-glucan, resistant starch and soluble fibre → may provide substrate for microbial fermentation and short-chain fatty acid production relevant to barrier and neural signalling pathways, although fermentation outcomes vary with individual microbiome ecology.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/lentils">Lentils</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include fermented foods where tolerated</strong> → live cultures and postbiotic peptides → may contribute to microbial and postbiotic signalling routes relevant to vagal and enteric nervous system function, though specific food effects remain heterogeneous and context-dependent.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/kefir">Kefir</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/kimchi">Kimchi</a> • <a href="/docs/foods/sauerkraut">Sauerkraut</a> • <a href="/docs/foods/fermented-vegetables">Fermented Vegetables</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include omega-3-rich whole foods regularly</strong> → EPA, DHA and barrier-supportive fatty acids → may support tight-junction integrity and help limit gut-derived inflammatory load reaching systemic circulation.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/algal-oil">Algae</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></p>
+<p class="brs-hub-dietary-guidance-note"><em>Omega-3:</em> Marine foods and algae provide preformed DHA and EPA. Walnuts provide ALA, which requires endogenous conversion with variable efficiency.</p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plant foods</strong> → polyphenols → may support microbial biotransformation pathways relevant to gut–brain and mitochondria-linked metabolites, although taxa responses vary with baseline microbiome ecology.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/walnuts">Walnuts</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></p>
+</li>
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Maintain dietary variety across nutrient-dense whole foods</strong> → zinc, vitamin A precursors and barrier-supportive micronutrients → may provide nutritional resources that support epithelial maintenance and immune containment at the gut interface.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/sardines">Sardines</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a></span></p>
+</li>
+</ul>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Optimisation Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+
+<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS5 yet.</em></p>
+
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Lifestyle Priorities</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<ul class="brs-hub-lever-list brs-hub-lifestyle-list">
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain consistent daily meal patterns</strong> to help support microbial rhythm stability, fermentation continuity, and steadier gut–brain signalling over time.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Prioritise sleep and manage stress</strong> to help reduce indirect strain on gut barrier integrity, endotoxin load, and enteric signalling stability.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability" class="brs-hub-lever-pm">BRS5-FM3-PM8</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Limit alcohol and ultra-processed food exposure</strong> to reduce barrier strain and support a healthier gut environment for microbial and immune balance.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Emphasise repeated dietary pattern quality over short-term fixes</strong> to help support SCFA production and durable gut ecological turnover rather than isolated bursts — though individual microbiome responses vary.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability" class="brs-hub-lever-pm">BRS5-FM3-PM8</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain dietary variety rather than overly restrictive eating</strong> to help preserve microbial diversity and long-term gut resilience, without assuming predictable ecological outcomes from any single food.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation" class="brs-hub-lever-pm">BRS5-FM2-PM6</a></span></p></li>
+</ul>
+
+</div>
+</div>
+</div>
+
+</div>
+<!-- brs-hub-levers:end -->
+
 
 ## Functional Mechanisms
 
-Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
+Gut barrier integrity, microbial metabolite signalling, and vagal–enteric neuromodulation link the gut interface to brain chemistry, immune tone, and stress responses. These routes determine whether gut-derived signals support or strain neurotransmission, inflammation, and metabolic recovery.
 
 <div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -310,17 +317,25 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 </div>
 </div>
 
-
 </div>
 </div>
 </div>
 </div>
 
+## Key Constraints (Dietary Bottlenecks)
+
+Key Constraints (KCs) in BRS5 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
+
+- [BRS5(KC1) - Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability): Availability of fermentable fibres and resistant starch required to sustain microbial fermentation and SCFA production.
+- [BRS5(KC2) - Polyphenol & Plant-Diversity Input Availability](/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability): Availability of microbiome-active polyphenols and broad plant diversity required to support microbial ecology and biotransformation.
+- [BRS5(KC3) - Barrier-Supportive Nutrient Sufficiency](/docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency): Availability of nutrients that support epithelial maintenance, mucosal immunity, and barrier resilience.
+
+---
 
 <!-- brs-hub-cross-integration:start -->
-## Cross-BRS integration
+## Cross-BRS Dependencies
 
-<p>Cross-BRS relationships describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.</p>
+<p>Gut biology extends well beyond digestion. Barrier integrity, microbial metabolite signalling and vagal–enteric traffic continuously reshape immune tone, metabolic inputs and neurochemical regulation. Dysfunction at the gut–brain interface rarely produces an isolated gastrointestinal phenotype; it propagates through neurotransmission, inflammation and stress-axis biology. The evidence below identifies the principal Cross-BRS Dependencies through which BRS5 integrates the enteric interface with system-wide adaptive function.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
@@ -434,17 +449,6 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 
 </div>
 <!-- brs-hub-cross-integration:end -->
-
-
-## Key Constraints (Dietary Bottlenecks)
-
-Key Constraints (KCs) in BRS5 describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms. They act as distributed biological infrastructure supporting multiple downstream mechanisms simultaneously.
-
-- [BRS5(KC1) - Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability): Availability of fermentable fibres and resistant starch required to sustain microbial fermentation and SCFA production.
-- [BRS5(KC2) - Polyphenol & Plant-Diversity Input Availability](/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability): Availability of microbiome-active polyphenols and broad plant diversity required to support microbial ecology and biotransformation.
-- [BRS5(KC3) - Barrier-Supportive Nutrient Sufficiency](/docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency): Availability of nutrients that support epithelial maintenance, mucosal immunity, and barrier resilience.
-
----
 
 ## Specific Mechanisms
 

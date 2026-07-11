@@ -63,11 +63,11 @@ Per-study format:
 2. **What they found** — factual, concise
 3. **Why this matters for the BRS** — FM-level or whole-BRS framing (not PM catalogue)
 
-### 4. Cross-BRS integration Evidence
+### 4. Cross-BRS Dependencies
 
-- Four-section architecture-derived narrative for every major Cross-BRS relationship.
+- Four-section architecture-derived narrative for every major Cross-BRS dependency.
 - Source: `scripts/data/brs-cross-integration-evidence.json` (fields: `biological_contribution`, `systems_significance`, `integrated_regulatory_capacity`, `evidence`).
-- Authoring standard: `system/brs-hub-levers-schema.md` § **Cross-BRS integration Evidence**.
+- Authoring standard: `system/brs-hub-levers-schema.md` § **Cross-BRS Dependencies**.
 
 Per-relationship format:
 
@@ -76,7 +76,7 @@ Per-relationship format:
 3. **Integrated Regulatory Capacity** — FM-derived integrated capacities at BRS level
 4. **Supporting Evidence** — 1–3 landmark validators
 
-Introduce allostatic **theory** primarily in **(BRS6 → BRS1) Cross-BRS integration** — Systems Significance and Integrated Regulatory Capacity — not as a standalone page or repeated in every BRS. Cross-BRS links elsewhere explain **preserving adaptive capacity** across the integrated six-BRS network. See `allostasis_reference_tiers` in the integration library.
+Introduce allostatic **theory** primarily in **(BRS6 → BRS1) Cross-BRS Dependencies** — Systems Significance and Integrated Regulatory Capacity — not as a standalone page or repeated in every BRS. Cross-BRS dependencies elsewhere explain **preserving adaptive capacity** across the integrated six-BRS network. See `allostasis_reference_tiers` in the integration library.
 
 ### 5. Translational interpretation
 
@@ -89,13 +89,13 @@ Requirements:
 
 - Persuasive argument, not evidence summary.
 - Emphasise modifiable regulatory capacity.
-- Refer to Cross-BRS integration Evidence rather than restating uncited mechanistic claims.
+- Refer to Cross-BRS Dependencies rather than restating uncited mechanistic claims.
 - Do **not** relabel every BRS as “allostatic” — see Allostasis gateway rules below.
 
 ### 6. References
 
 - Landmark ADHD papers supporting BRS identity and FM-level anchors.
-- Cross-BRS integration references (deduplicated).
+- Cross-BRS Dependencies references (deduplicated).
 - Foundational allostasis citations appear in **(BRS6 → BRS1) Cross-BRS Supporting Evidence** and may be referenced briefly in the manuscript introduction — the full biological definition of allostasis lives in BRS6 → BRS1 Integrated Regulatory Capacity.
 
 ---
@@ -126,18 +126,18 @@ The BRAIN Framework does **not** propose allostatic load as a primary explanatio
 
 | BRS | Allostasis framing |
 |-----|-------------------|
-| **BRS6** | Principal allostatic gateway — coordinates neuroendocrine and metabolic resource allocation across the integrated BRS network; canonical allostasis narrative in BRS6 → BRS1 Cross-BRS integration |
+| **BRS6** | Principal allostatic gateway — coordinates neuroendocrine and metabolic resource allocation across the integrated BRS network; canonical allostasis narrative in BRS6 → BRS1 Cross-BRS Dependencies |
 | **BRS1** | Neurochemical flexibility supporting attention, motivation, arousal, behavioural control under demand |
 | **BRS2** | Methylation, repair, and phospholipid capacity for adaptation and maintenance |
 | **BRS3** | Inflammatory and redox load control |
 | **BRS4** | Bioenergetic reserve and recovery capacity |
 | **BRS5** | Gut-derived immune, metabolic, and vagal signalling |
 
-### Cross-BRS integration architecture
+### Cross-BRS Dependencies architecture
 
 | Section | Role |
 |---------|------|
-| **Cross-BRS integration Evidence** | Landmark reviews supporting each adaptive dependency (relationship statement + citations) |
+| **Cross-BRS Dependencies** | Landmark reviews supporting each adaptive dependency (relationship statement + citations) |
 | **Translational interpretation** | ADHD relevance and adaptive capacity — points to evidence above |
 
 Use **adaptive dependency** and **upstream enabling system** language. Every integration statement should include a demand-preservation clause (*"reducing the likelihood that…"*) and a complement clause (*"complements… rather than substituting for…"*). Example (BRS4 → BRS1):
@@ -156,7 +156,7 @@ Do not force allostasis into every BRS. BRS6 remains the principal allostatic ga
 The generated Word document must include:
 
 1. Revised objective statement (BRS justification, not PM catalogue).
-2. Brief allostasis pointer (BRS6 gateway; not ADHD causation claim) — defer full biological definition to BRS6 → BRS1 Cross-BRS integration in each BRS summary.
+2. Brief allostasis pointer (BRS6 gateway; not ADHD causation claim) — defer full biological definition to BRS6 → BRS1 Cross-BRS Dependencies in each BRS summary.
 3. Evidence hierarchy reminder.
 
 Foundational allostasis references (BRS6 → BRS1 Cross-BRS and brief introduction pointer):

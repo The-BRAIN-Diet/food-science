@@ -27,6 +27,10 @@ hide_title: true
 
 Maintain coordinated hormonal signalling so the brain can support cognition, emotional regulation, metabolism, and adaptive physiological responses across the lifespan.
 
+## Dietary and Lifestyle Levers
+
+<p class="brs-hub-levers-intro">Dietary patterns, food handling and behavioural levers shape how effectively this Biological Regulatory System can operate under daily demand.</p>
+
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
 
@@ -97,7 +101,7 @@ Maintain coordinated hormonal signalling so the brain can support cognition, emo
 Hormonal milieu shapes how the brain regulates mood, cognition, metabolism, reproduction, and stress adaptation — yet hormone biology is distributed across neurotransmitter, metabolic, gut, and immune contexts rather than isolated endocrine organs alone. BRS-X(Hormones) describes the integrated capacity that keeps hormone signalling responsive across life stages rather than chronically dysregulated. Oestrogen, progesterone, and testosterone signalling, microbiome-linked hormone metabolism, and metabolic–reproductive integration work together so hormonal context supports rather than constrains brain-relevant function. Nutrition influences these capacities through fermentable fibre, phytoestrogen-aware whole foods, protein and micronutrient sufficiency, and plant-diversity patterns that support microbial hormone biotransformation.
 ## Functional Mechanisms
 
-Functional Mechanisms (FMs) are the primary navigational layer of the BRAIN Framework. Each FM represents an integrated biological function supported by one or more Primary Mechanisms (PMs) beneath it.
+Reproductive hormone balance interacts with neurocognitive regulation through integrated endocrine–neural signalling. This mechanism set covers how hormone tone shapes attention, mood, and metabolic context across connected brain systems.
 
 <div class="brs-fm-hub-item brs-fm-hub-group" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">

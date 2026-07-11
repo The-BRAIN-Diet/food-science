@@ -646,7 +646,7 @@ export function extractHubPanel(content, heading) {
   return (content.match(re)?.[1] || "").trim();
 }
 
-function titleCaseFood(label) {
+export function titleCaseFood(label) {
   const lower = label.toLowerCase();
   const special = {
     "extra-virgin olive oil": "Extra-virgin olive oil",
@@ -680,7 +680,7 @@ export function normalizeFoodToken(raw) {
   return [token];
 }
 
-function parseDietaryBullet(line) {
+export function parseDietaryBullet(line) {
   const body = line.replace(/^-\s*/, "").trim();
   if (!body) return { foods: [], pattern: null };
 
@@ -769,10 +769,12 @@ function parseFrontmatterSummary(content) {
 }
 
 export function parseKcPageFoods(content) {
-  const sec3 = content.match(/### 3\.[^\n]*\n([\s\S]*?)(?=\n### 4\.)/);
-  if (!sec3) return [];
+  const sec =
+    content.match(/### 2\. Shared Biological Pool\n([\s\S]*?)(?=\n### 3\.)/) ||
+    content.match(/### 3\.[^\n]*\n([\s\S]*?)(?=\n### 4\.)/);
+  if (!sec) return [];
   const foods = new Set();
-  for (const line of sec3[1].split("\n")) {
+  for (const line of sec[1].split("\n")) {
     if (!line.trim().startsWith("- ") || !line.includes("←")) continue;
     for (const food of parseDietaryBullet(line).foods) foods.add(food);
   }
@@ -1263,12 +1265,17 @@ export function patchHubPage(hubPath, html, rootDir = process.cwd()) {
   );
   content = content.replace(leversBlockRe, "\n");
 
-  // Hub pages often use a single newline before the next ## heading (not blank line).
+  // Insert after Therapeutic Area Research when present; otherwise after Ambition.
+  const insertAfterTa =
+    /(<!-- brs-hub-ta-research:end -->)\n\n(## Dietary and Lifestyle Levers)/;
   const insertAfterAmbition = /(## Ambition\n\n[^\n#][\s\S]*?)(\n## )/;
-  if (!insertAfterAmbition.test(content)) {
-    throw new Error(`${hubPath}: could not find insertion point after Ambition`);
+  if (insertAfterTa.test(content)) {
+    content = content.replace(insertAfterTa, `$1\n\n${block}\n\n$2`);
+  } else if (insertAfterAmbition.test(content)) {
+    content = content.replace(insertAfterAmbition, `$1\n\n${block}\n$2`);
+  } else {
+    throw new Error(`${hubPath}: could not find hub levers insertion point`);
   }
-  content = content.replace(insertAfterAmbition, `$1\n\n${block}\n$2`);
 
   fs.writeFileSync(full, content);
 }
