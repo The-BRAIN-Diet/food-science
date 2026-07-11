@@ -1265,11 +1265,15 @@ export function patchHubPage(hubPath, html, rootDir = process.cwd()) {
   );
   content = content.replace(leversBlockRe, "\n");
 
-  // Insert after Therapeutic Area Research when present; otherwise after Ambition.
+  // Insert after Key Constraints when present; otherwise after Therapeutic Area Research.
+  const insertAfterKc =
+    /(<!-- brs-hub-key-constraints:end -->)\n\n(## Functional Mechanisms)/;
   const insertAfterTa =
-    /(<!-- brs-hub-ta-research:end -->)\n\n(## Dietary and Lifestyle Levers)/;
+    /(<!-- brs-hub-ta-research:end -->)\n\n(## Functional Mechanisms)/;
   const insertAfterAmbition = /(## Ambition\n\n[^\n#][\s\S]*?)(\n## )/;
-  if (insertAfterTa.test(content)) {
+  if (insertAfterKc.test(content)) {
+    content = content.replace(insertAfterKc, `$1\n\n${block}\n\n$2`);
+  } else if (insertAfterTa.test(content)) {
     content = content.replace(insertAfterTa, `$1\n\n${block}\n\n$2`);
   } else if (insertAfterAmbition.test(content)) {
     content = content.replace(insertAfterAmbition, `$1\n\n${block}\n$2`);

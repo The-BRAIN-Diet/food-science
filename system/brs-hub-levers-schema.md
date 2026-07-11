@@ -14,12 +14,12 @@ Each BRS hub page should orient readers in under one minute: explain the biologi
 |---|---------|--------|
 | 1 | Title + subtitle | Required |
 | 2 | **Ambition** | Required — manual |
-| 3 | **Dietary Guidance** | Required — manual (see [BRS Dietary Guidance Standard](#brs-dietary-guidance-standard-final)) |
-| 4 | **Optimisation Levers** | Required where applicable — curated + PM provenance (see [Optimisation Levers](#optimisation-levers)) |
-| 5 | **Lifestyle Priorities** | Required — curated + PM provenance |
-| 6 | **Therapeutic Area Research** | BRS1–BRS6 ADHD dropdowns — [BRS Hub ADHD TA Dropdown](./brs-hub-ta-adhd-dropdown-schema.md); [BRAIN TA Evidence Integration Standard v1.2](./brain-ta-evidence-integration-standard.md) |
+| 3 | **Therapeutic Area Research** | BRS1–BRS6 ADHD dropdowns — [BRS Hub ADHD TA Dropdown](./brs-hub-ta-adhd-dropdown-schema.md); [BRAIN TA Evidence Integration Standard v1.2](./brain-ta-evidence-integration-standard.md) |
+| 4 | **Key Constraints (Dietary Bottlenecks)** | Required — regenerate with `npm run brs:generate-hub-key-constraints` |
+| 5 | **Dietary and Lifestyle Levers** | Required — **Dietary Guidance**, **Optimisation Levers**, **Lifestyle Priorities** (see [BRS Dietary Guidance Standard](#brs-dietary-guidance-standard-final)) |
+| 6 | **Functional Mechanisms** | Required — regenerate with `npm run brs:update-hub-fms` |
 | 6a | **Cross-BRS Dependencies** | Landmark mechanistic reviews per Cross-BRS dependency (Category B — not in ADHD dropdown) |
-| 7 | **Functional Mechanisms** and downstream navigation (KCs, SMs) | Required |
+| 7 | **Specific Mechanisms** and downstream navigation (SMs, etc.) | Required |
 
 **Removed from hub pages (do not restore):**
 

@@ -79,6 +79,19 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 </div>
 <!-- brs-hub-ta-research:end -->
 
+<!-- brs-hub-key-constraints:start -->
+## Key Constraints (Dietary Bottlenecks)
+
+<p>Bioenergetic reserve is shaped long before ATP shortage becomes measurable. The Key Constraints identify the shared macronutrient fuels and mitochondrial cofactors that electron transport, substrate switching and oxidative resilience all depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of mitochondrial energy regulation.</p>
+
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/almonds">Almonds</a> • <a href="/docs/foods/apples">Apples</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/milk">Milk</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/olive-oil">Olive Oil</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/walnuts">Walnuts</a></p>
+
+<ul class="brs-hub-kc-links">
+<li><a href="/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability">BRS4(KC1) — Macronutrient Substrate Sufficiency</a></li>
+<li><a href="/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency">BRS4(KC2) — Mitochondrial Cofactor Sufficiency</a></li>
+</ul>
+<!-- brs-hub-key-constraints:end -->
+
 ## Dietary and Lifestyle Levers
 
 <p class="brs-hub-levers-intro">Neuronal energy demand outpaces supply quietly before fatigue becomes obvious. Macronutrient quality, mitochondrial cofactors and circadian-aligned eating determine whether ATP production and substrate flexibility keep pace with sustained cognitive load. Dietary Guidance shows how specific foods and meal patterns repeatedly supply the fuels and cofactors bioenergetic recovery depends upon.</p>
@@ -179,18 +192,6 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 </div>
 <!-- brs-hub-levers:end -->
 
-<!-- brs-hub-key-constraints:start -->
-## Key Constraints (Dietary Bottlenecks)
-
-<p>Bioenergetic reserve is shaped long before ATP shortage becomes measurable. The Key Constraints identify the shared macronutrient fuels and mitochondrial cofactors that electron transport, substrate switching and oxidative resilience all depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of mitochondrial energy regulation.</p>
-
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/almonds">Almonds</a> • <a href="/docs/foods/apples">Apples</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/milk">Milk</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/olive-oil">Olive Oil</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/walnuts">Walnuts</a></p>
-
-<ul class="brs-hub-kc-links">
-<li><a href="/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability">BRS4(KC1) — Macronutrient Substrate Sufficiency</a></li>
-<li><a href="/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency">BRS4(KC2) — Mitochondrial Cofactor Sufficiency</a></li>
-</ul>
-<!-- brs-hub-key-constraints:end -->
 
 ## Functional Mechanisms
 
@@ -410,7 +411,6 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 </div>
 </div>
 
-
 </div>
 </div>
 </div>
@@ -552,7 +552,6 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 
 </div>
 <!-- brs-hub-cross-integration:end -->
-
 
 ## Specific Mechanisms
 

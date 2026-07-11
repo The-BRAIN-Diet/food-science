@@ -74,6 +74,19 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 </div>
 <!-- brs-hub-ta-research:end -->
 
+<!-- brs-hub-key-constraints:start -->
+## Key Constraints (Dietary Bottlenecks)
+
+<p>One-carbon metabolism is shaped long before homocysteine rises. The Key Constraints identify the shared methyl-donor and sulfur-amino-acid pools that remethylation, membrane renewal and glutathione formation all depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of one-carbon regulation.</p>
+
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beetroot">Beetroot</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/liver">Liver</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/greek-yogurt">Yogurt</a></p>
+
+<ul class="brs-hub-kc-links">
+<li><a href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">BRS2(KC1) — Methyl Donor Pool</a></li>
+<li><a href="/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool">BRS2(KC2) — Methionine & Transsulfuration Substrate Pool</a></li>
+</ul>
+<!-- brs-hub-key-constraints:end -->
+
 ## Dietary and Lifestyle Levers
 
 <p class="brs-hub-levers-intro">Methyl-group flux is renewed at every meal, not stored indefinitely for later demand. Folate, B12, methionine and choline intake — together with consistent meal rhythm and recovery — determine whether remethylation, membrane synthesis and transsulfuration-linked redox support keep pace with daily turnover. Dietary Guidance shows how specific foods and patterns repeatedly supply the methyl-donor and B-vitamin input one-carbon biology depends upon.</p>
@@ -170,18 +183,6 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 </div>
 <!-- brs-hub-levers:end -->
 
-<!-- brs-hub-key-constraints:start -->
-## Key Constraints (Dietary Bottlenecks)
-
-<p>One-carbon metabolism is shaped long before homocysteine rises. The Key Constraints identify the shared methyl-donor and sulfur-amino-acid pools that remethylation, membrane renewal and glutathione formation all depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of one-carbon regulation.</p>
-
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beetroot">Beetroot</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/liver">Liver</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/greek-yogurt">Yogurt</a></p>
-
-<ul class="brs-hub-kc-links">
-<li><a href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">BRS2(KC1) — Methyl Donor Pool</a></li>
-<li><a href="/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool">BRS2(KC2) — Methionine & Transsulfuration Substrate Pool</a></li>
-</ul>
-<!-- brs-hub-key-constraints:end -->
 
 ## Functional Mechanisms
 
@@ -356,7 +357,6 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 </div>
 </div>
 
-
 </div>
 </div>
 </div>
@@ -461,7 +461,6 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 
 </div>
 <!-- brs-hub-cross-integration:end -->
-
 
 ## Specific Mechanisms
 

@@ -206,11 +206,20 @@ export function patchHubKeyConstraints(hubPath, html, rootDir = process.cwd()) {
   content = stripHrBeforeCrossBrs(content);
   content = content.replace(/\n---\n\n## Specific Mechanisms/, "\n\n## Specific Mechanisms");
 
-  const insertRe = /(<!-- brs-hub-levers:end -->)\n+(## Functional Mechanisms)/;
-  if (!insertRe.test(content)) {
-    throw new Error(`${hubPath}: could not find insertion point before Functional Mechanisms`);
+  const insertAfterTa =
+    /(<!-- brs-hub-ta-research:end -->)\n\n(## Dietary and Lifestyle Levers)/;
+  const insertAfterTaBeforeFm =
+    /(<!-- brs-hub-ta-research:end -->)\n\n(## Functional Mechanisms)/;
+  const insertAfterAmbition = /(## Ambition\n\n[^\n#][\s\S]*?)(\n## )/;
+  if (insertAfterTa.test(content)) {
+    content = content.replace(insertAfterTa, `$1\n\n${block}\n\n$2`);
+  } else if (insertAfterTaBeforeFm.test(content)) {
+    content = content.replace(insertAfterTaBeforeFm, `$1\n\n${block}\n\n$2`);
+  } else if (insertAfterAmbition.test(content)) {
+    content = content.replace(insertAfterAmbition, `$1\n\n${block}\n$2`);
+  } else {
+    throw new Error(`${hubPath}: could not find Key Constraints insertion point`);
   }
-  content = content.replace(insertRe, `$1\n\n${block}\n\n$2`);
 
   fs.writeFileSync(full, content);
 }

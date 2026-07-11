@@ -79,6 +79,20 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 </div>
 <!-- brs-hub-ta-research:end -->
 
+<!-- brs-hub-key-constraints:start -->
+## Key Constraints (Dietary Bottlenecks)
+
+<p>Gut–brain communication is shaped long before dysbiosis becomes clinically obvious. The Key Constraints identify the shared fermentable fibres, polyphenols and barrier-supportive nutrients that microbial ecology, SCFA signalling and gut–brain interface stability all depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of enteric and neuroimmune regulation.</p>
+
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/apples">Apples</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/cinnamon">Cinnamon</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cocoa">Cocoa</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/flax-seeds">Flax Seeds</a> • <a href="/docs/foods/ginger">Ginger</a> • <a href="/docs/foods/green-tea">Green Tea</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/liver">Liver</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/onions">Onions</a> • <a href="/docs/foods/oregano">Oregano</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/parsley">Parsley</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/turmeric">Turmeric</a></p>
+
+<ul class="brs-hub-kc-links">
+<li><a href="/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability">BRS5(KC1) — Fermentable Fibre Sufficiency</a></li>
+<li><a href="/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability">BRS5(KC2) — Polyphenol & Plant — Diversity Input Sufficiency</a></li>
+<li><a href="/docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency">BRS5(KC3) — Barrier — Supportive Nutrient Sufficiency</a></li>
+</ul>
+<!-- brs-hub-key-constraints:end -->
+
 ## Dietary and Lifestyle Levers
 
 <p class="brs-hub-levers-intro">Gut-derived signals reach the brain continuously, not only after meals. Fermentable fibre, polyphenols, barrier-supportive nutrients and consistent meal rhythm determine whether microbial metabolites, immune tone and vagal traffic support or strain neurochemical regulation. Dietary Guidance shows how specific foods and eating patterns repeatedly shape the gut ecosystem that feeds back into brain biology.</p>
@@ -178,19 +192,6 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 </div>
 <!-- brs-hub-levers:end -->
 
-<!-- brs-hub-key-constraints:start -->
-## Key Constraints (Dietary Bottlenecks)
-
-<p>Gut–brain communication is shaped long before dysbiosis becomes clinically obvious. The Key Constraints identify the shared fermentable fibres, polyphenols and barrier-supportive nutrients that microbial ecology, SCFA signalling and gut–brain interface stability all depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of enteric and neuroimmune regulation.</p>
-
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/apples">Apples</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/cinnamon">Cinnamon</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cocoa">Cocoa</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/flax-seeds">Flax Seeds</a> • <a href="/docs/foods/ginger">Ginger</a> • <a href="/docs/foods/green-tea">Green Tea</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/liver">Liver</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/onions">Onions</a> • <a href="/docs/foods/oregano">Oregano</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/parsley">Parsley</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/turmeric">Turmeric</a></p>
-
-<ul class="brs-hub-kc-links">
-<li><a href="/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability">BRS5(KC1) — Fermentable Fibre Sufficiency</a></li>
-<li><a href="/docs/biological-targets/brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability">BRS5(KC2) — Polyphenol & Plant — Diversity Input Sufficiency</a></li>
-<li><a href="/docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency">BRS5(KC3) — Barrier — Supportive Nutrient Sufficiency</a></li>
-</ul>
-<!-- brs-hub-key-constraints:end -->
 
 ## Functional Mechanisms
 
@@ -359,7 +360,6 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 </div>
 </div>
 </div>
-
 
 </div>
 </div>
@@ -539,7 +539,6 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 
 </div>
 <!-- brs-hub-cross-integration:end -->
-
 
 ## Specific Mechanisms
 

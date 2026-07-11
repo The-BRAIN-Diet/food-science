@@ -78,6 +78,18 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 </div>
 <!-- brs-hub-ta-research:end -->
 
+<!-- brs-hub-key-constraints:start -->
+## Key Constraints (Dietary Bottlenecks)
+
+<p>Neurotransmitter turnover draws on shared amino-acid pools that many signalling pathways compete for. The Key Constraints identify the nutritional resources — protein quality, LNAA balance, choline and membrane precursors — that constrain whether synthesis and transport keep pace with daily demand. Dietary Guidance then builds on these shared requirements by showing how foods, meal composition and eating patterns influence the wider biology of neurotransmitter regulation.</p>
+
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/milk">Milk</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/soy">Soy</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a></p>
+
+<ul class="brs-hub-kc-links">
+<li><a href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">BRS1(KC1) — Amino Acid Quality & Competitive Balance</a></li>
+</ul>
+<!-- brs-hub-key-constraints:end -->
+
 ## Dietary and Lifestyle Levers
 
 <p class="brs-hub-levers-intro">Precursor availability is only the first constraint on stable neurotransmission. Meal timing, amino-acid competition, sleep and stress recovery determine whether dietary substrates actually sustain balanced signalling across the day. Dietary Guidance shows how protein quality, choline, membrane fats and cofactors repeatedly support monoaminergic, cholinergic and excitatory–inhibitory balance.</p>
@@ -180,17 +192,6 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 </div>
 <!-- brs-hub-levers:end -->
 
-<!-- brs-hub-key-constraints:start -->
-## Key Constraints (Dietary Bottlenecks)
-
-<p>Neurotransmitter turnover draws on shared amino-acid pools that many signalling pathways compete for. The Key Constraints identify the nutritional resources — protein quality, LNAA balance, choline and membrane precursors — that constrain whether synthesis and transport keep pace with daily demand. Dietary Guidance then builds on these shared requirements by showing how foods, meal composition and eating patterns influence the wider biology of neurotransmitter regulation.</p>
-
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/milk">Milk</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/soy">Soy</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a></p>
-
-<ul class="brs-hub-kc-links">
-<li><a href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">BRS1(KC1) — Amino Acid Quality & Competitive Balance</a></li>
-</ul>
-<!-- brs-hub-key-constraints:end -->
 
 ## Functional Mechanisms
 
@@ -402,7 +403,6 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 </div>
 </div>
 </div>
-
 
 </div>
 </div>
@@ -620,7 +620,6 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 
 </div>
 <!-- brs-hub-cross-integration:end -->
-
 
 ## Specific Mechanisms
 
