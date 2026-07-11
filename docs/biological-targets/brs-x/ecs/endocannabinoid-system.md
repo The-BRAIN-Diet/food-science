@@ -108,7 +108,15 @@ Endocannabinoidome signalling integrates lipid-mediated neuromodulation — NAE 
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <ul class="brs-fm-hub-group-title-list">
-  <li>BRS-X(ECS-FM1) — Endocannabinoidome Signalling Capacity &amp; Neuromodulatory Regulation</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS-X(ECS-FM1) — Endocannabinoidome Signalling Capacity &amp; Neuromodulatory Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-fm1-endocannabinoidome-signalling-capacity-and-neuromodulatory-regulation" aria-label="Open FM: BRS-X(ECS-FM1) — Endocannabinoidome Signalling Capacity &amp; Neuromodulatory Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
 </ul>
 </div>
 <div class="brs-fm-hub-panel" hidden>

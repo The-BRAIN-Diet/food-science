@@ -438,6 +438,8 @@ Describe how diet, nutrients, food matrices, and lifestyle influence the capacit
 - May note cross-BRS links in prose.
 - Actionable detail lives in the hub **Dietary Strategy & Lifestyle Priorities** block — do not duplicate here.
 
+**BRS hub ADHD dropdown exception:** omit this section on BRS1–BRS6 hub pages. Diet and lifestyle guidance lives in **Dietary and Lifestyle Levers** (currently ADHD-oriented); see [BRS Hub ADHD TA Dropdown Schema](./brs-hub-ta-adhd-dropdown-schema.md).
+
 ---
 
 ### 3. Therapeutic Area biological context

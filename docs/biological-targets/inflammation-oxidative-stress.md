@@ -41,9 +41,9 @@ Maintain proportionate immune signalling, responsive antioxidant defence, and ac
 
 ### Introduction
 
-Inflammation and oxidative stress in ADHD are not single-pathway problems. They span gut-derived immune signalling, cytokine and NF-κB tone, net redox burden versus clearance capacity, and whether inflammation resolves through pro-resolving lipid mediators. BRS3 integrates these as connected functional capacities rather than isolated biomarker findings.
+Immune and oxidative biology in ADHD is distributed across gut signalling, cytokine tone, redox balance and resolution capacity — not reducible to a single biomarker. Dietary pattern, omega-3 status, antioxidant sufficiency, food preparation and contaminant exposure all shape whether these capacities stay proportionate under sustained attention demand.
 
-Dietary pattern, gut-barrier context, omega-3 substrate availability, antioxidant network sufficiency, food preparation load, and contaminant exposure all influence how these capacities perform. In ADHD contexts, evidence is interpreted through connected BRS3 FMs and PMs — and through cross-links to BRS5 gut-barrier biology where relevant.
+Gut-barrier context and post-meal inflammatory patterns add further load when microbial signalling, eicosanoid balance or antioxidant recycling are already strained — so interpretation must follow connected inflammatory and redox biology rather than isolated lab findings alone.
 
 ### ADHD: Inflammation & Oxidative Stress Context
 
@@ -75,7 +75,7 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 
 ## Dietary and Lifestyle Levers
 
-<p class="brs-hub-levers-intro">Anti-inflammatory and antioxidant-rich whole foods set the dietary baseline, yet inflammatory and oxidative load is often driven as much by food preparation and dietary exclusions as by nutrient deficiency. Dietary Guidance carries most of the biological weight here; gentler cooking, limiting ultra-processed food exposure and lifestyle recovery are central Optimisation and Lifestyle levers that reduce avoidable ROS and post-meal immune activation that nutrient density alone cannot fully offset.</p>
+<p class="brs-hub-levers-intro">Oxidative and inflammatory load accumulates quietly through daily eating patterns. Whole-food choices, cooking methods and recovery behaviour determine whether immune tone stays proportionate or becomes chronic background strain. Dietary Guidance shows how specific foods and eating patterns repeatedly supply antioxidant input, omega-3 balance and lower avoidable inflammatory load.</p>
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -134,11 +134,17 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 
 
 
+
+
+
 <ul class="brs-hub-lever-list brs-hub-optimisation-list">
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Choose gentler cooking methods and avoid repeatedly heating unstable oils</strong> to limit lipid oxidation and dietary ROS that can overwhelm antioxidant clearance and lipid peroxidation control.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a></span></p></li>
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Limit ultra-processed food exposure</strong> to reduce post-meal inflammatory signalling and avoidable oxidative substrates that amplify immune tone beyond nutrient intake alone.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a></span></p></li>
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare antioxidant-rich vegetables to preserve heat-sensitive compounds</strong> to retain vitamin C and polyphenols that support NRF2 activation and sustained ROS clearance rather than losing them to overcooking.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a></span></p></li>
 </ul>
+
+
+
 
 
 
@@ -172,7 +178,7 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 <!-- brs-hub-key-constraints:start -->
 ## Key Constraints (Dietary Bottlenecks)
 
-<p>These target foods supply the antioxidant substrates and essential fatty-acid balance that constrain inflammatory tone, redox defence, and resolution capacity across BRS3. Inflammatory and oxidative load is shaped as much by daily food preparation and dietary pattern as by micronutrient density — when antioxidant pools or omega-3 balance are inadequate, immune tone and redox strain persist and narrow the operating space for neurotransmission and recovery downstream.</p>
+<p>Inflammation is shaped long before it becomes visible. The Key Constraints identify the shared nutritional resources that multiple inflammation-regulating mechanisms depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of inflammatory regulation.</p>
 
 <p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/almonds">Almonds</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/bell-peppers">Bell Peppers</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/cocoa">Cocoa</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/flax-seeds">Flax Seeds</a> • <a href="/docs/foods/green-tea">Green Tea</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/soy">Soy</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/walnuts">Walnuts</a></p>
 
@@ -181,7 +187,6 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 <li><a href="/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance">BRS3(KC3) — Essential Fatty Acid Balance</a></li>
 </ul>
 <!-- brs-hub-key-constraints:end -->
-
 
 ## Functional Mechanisms
 
@@ -194,9 +199,33 @@ Anti-inflammatory tone, antioxidant defence, and inflammation resolution set the
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <ul class="brs-fm-hub-group-title-list">
-  <li>BRS3(FM1) — Anti-Inflammatory Signalling Tone</li>
-  <li>BRS3(FM2) — Antioxidant Defense Capacity</li>
-  <li>BRS3(FM3) — Inflammation Resolution Capacity</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS3(FM1) — Anti-Inflammatory Signalling Tone</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone" aria-label="Open FM: BRS3(FM1) — Anti-Inflammatory Signalling Tone">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS3(FM2) — Antioxidant Defense Capacity</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity" aria-label="Open FM: BRS3(FM2) — Antioxidant Defense Capacity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS3(FM3) — Inflammation Resolution Capacity</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity" aria-label="Open FM: BRS3(FM3) — Inflammation Resolution Capacity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
 </ul>
 </div>
 <div class="brs-fm-hub-panel" hidden>
@@ -335,6 +364,7 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 </div>
 </div>
 
+
 </div>
 </div>
 </div>
@@ -343,7 +373,7 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS Dependencies
 
-<p>Inflammatory and oxidative load rarely remain confined to immune biology. They reshape receptor environments, mitochondrial efficiency and neurotransmitter turnover — altering the conditions under which cognition, mood and behavioural control are sustained. What appears as dysregulation within another hub may originate in immune tone and redox strain rather than a failure local to that system. The evidence below establishes the principal Cross-BRS Dependencies through which BRS3 modulates adaptive performance across the regulatory network.</p>
+<p>Inflammatory and oxidative load never remains confined to immune biology. Cytokine tone, lipid peroxidation and impaired resolution reshape receptor environments, mitochondrial efficiency and neurotransmitter turnover — altering the conditions under which attention, mood and behavioural control are sustained. Strain that surfaces in connected regulatory biology often originates here, in immune tone and redox burden that never fully resolved.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
@@ -354,20 +384,50 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <ul class="brs-fm-hub-group-title-list">
-  <li>(BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems</li>
-  <li>(BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone</li>
-  <li>(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems</span>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="0" aria-label="Open: (BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone</span>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="1" aria-label="Open: (BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</span>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="2" aria-label="Open: (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+  </div>
+</li>
 </ul>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <div class="brs-fm-hub-group-children">
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="0">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>(BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems</strong>
 </button>
+<strong class="brs-fm-hub-title">(BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
 <p>Collectively, the Functional Mechanisms within BRS3 maintain the adaptive inflammatory and redox resilience required to preserve an immune environment that supports resilient neurotransmitter regulation within BRS1 during prolonged physiological demand.</p>
@@ -384,12 +444,18 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="1">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>(BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone</strong>
 </button>
+<strong class="brs-fm-hub-title">(BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
 <p>Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut barrier and microbial immune containment that enables BRS3 to sustain proportionate inflammatory tone under prolonged physiological demand.</p>
@@ -406,12 +472,18 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="2">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</strong>
 </button>
+<strong class="brs-fm-hub-title">(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
 <p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive stress–metabolic load allocation that enables BRS3 to sustain immune and redox regulation under prolonged physiological demand.</p>

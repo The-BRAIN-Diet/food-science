@@ -100,22 +100,6 @@
 
 /* BRS / BRS-X system hub heroes (no crop, no border; half content width).
    FM / PM / SM mechanism pages use .brs-pm-thumbnail-wrap + .brs-pm-thumbnail instead. */
-.brs-hub-hero-clip {
-  display: block;
-  max-width: 50%;
-  overflow: hidden;
-  background: #000;
-  line-height: 0;
-}
-
-.brs-hub-hero-clip .brs-hub-hero {
-  display: block;
-  width: 100%;
-  max-width: 100%;
-  margin-left: 0;
-  clip-path: inset(0 1.2% 0 0.35%);
-}
-
 .brs-hub-hero,
 .brs-x-hero {
   display: block;
@@ -313,15 +297,45 @@
   flex: 1 1 auto;
   min-width: 0;
   margin: 0;
-  padding: 0 0 0 0.25rem;
+  padding: 0 0 0 1.25rem;
   list-style: disc;
+  list-style-position: outside;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 .brs-fm-hub-group-title-list li {
-  margin: 0.35rem 0;
-  padding-left: 0.15rem;
+  margin: 0.55rem 0;
+  padding-left: 0.35rem;
+}
+
+.brs-fm-hub-group-title-item {
+  display: list-item;
+}
+
+.brs-fm-hub-group-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.brs-fm-hub-group-title-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.brs-fm-hub-group-open {
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+.brs-fm-hub-open--action {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  text-align: right;
 }
 
 .brs-fm-hub-group-title-list li::marker {

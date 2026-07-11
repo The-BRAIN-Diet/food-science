@@ -43,11 +43,7 @@ Maintain adaptive metabolic regulation, glycaemic stability, and neuroendocrine 
 
 ### Introduction
 
-Metabolic and neuroendocrine regulation in ADHD reflects the integrated performance of multiple whole-body regulatory capacities rather than disruption of a single hormone or glucose pathway. These capacities include glycaemic stability and insulin-supported cognitive energy availability, HPA-axis cortisol rhythm, autonomic balance and vagal recovery, and stress-linked metabolic-inflammatory load allocation. BRS6 organises these as connected functional mechanisms rather than isolated biomarkers.
-
-### Dietary and lifestyle context
-
-Meal composition, glycaemic load, circadian-aligned feeding, physical activity, sleep regularity, and stress-recovery routines all influence how these capacities perform. In ADHD contexts, evidence is interpreted through connected BRS6 FMs and PMs — with cross-links to BRS1 dopaminergic reward context and BRS3 inflammatory load where relevant.
+Metabolic and neuroendocrine regulation in ADHD reflects integrated whole-body capacities — glycaemic stability, HPA-axis cortisol rhythm, autonomic balance and stress-linked metabolic-inflammatory load allocation — not disruption of a single hormone or glucose pathway.
 
 ### ADHD translational biological context
 
@@ -87,7 +83,7 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 
 ## Dietary and Lifestyle Levers
 
-<p class="brs-hub-levers-intro">Glycaemic load, meal composition and micronutrient density influence how reliably energy and hormones can be regulated across the day. Dietary Guidance carries most of the biological weight here; circadian alignment, sleep consistency and recovery behaviour refine cortisol rhythm, autonomic balance and sustainable load allocation.</p>
+<p class="brs-hub-levers-intro">Energy and hormone regulation respond to every meal and recovery interval across the day. Glycaemic load, meal composition, micronutrient density and circadian-aligned eating determine whether cortisol rhythm, autonomic balance and metabolic recovery stay proportionate under sustained demand. Dietary Guidance shows how specific foods and eating patterns repeatedly support stable energy allocation and stress-adaptive physiology.</p>
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -142,7 +138,13 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 
 
 
+
+
+
 <p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS6 yet.</em></p>
+
+
+
 
 
 
@@ -179,7 +181,7 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 <!-- brs-hub-key-constraints:start -->
 ## Key Constraints (Dietary Bottlenecks)
 
-<p>These target foods supply the energy substrates and stress-response micronutrients that constrain glycaemic stability, neuroendocrine rhythm, and metabolic recovery capacity across BRS6. Cortisol rhythm and autonomic balance respond to both meal composition and circadian-aligned eating — when glycaemic swings or stress-response micronutrient pools are poorly supported, energy allocation and inflammatory load become harder to regulate across connected systems before individual Primary Mechanisms are considered.</p>
+<p>Stress adaptation is shaped long before cortisol dysregulation becomes obvious. The Key Constraints identify the shared energy substrates and stress-response micronutrients that glycaemic stability, HPA rhythm and metabolic recovery all depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of neuroendocrine and metabolic regulation.</p>
 
 <p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/almonds">Almonds</a> • <a href="/docs/foods/apples">Apples</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/milk">Milk</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/olive-oil">Olive Oil</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/walnuts">Walnuts</a></p>
 
@@ -188,7 +190,6 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 <li><a href="/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency">BRS6(KC2) — Stress — Response Micronutrient & Lipid Sufficiency</a></li>
 </ul>
 <!-- brs-hub-key-constraints:end -->
-
 
 ## Functional Mechanisms
 
@@ -201,10 +202,42 @@ Glycaemic–insulin stability, HPA rhythm, autonomic balance, and stress–infla
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <ul class="brs-fm-hub-group-title-list">
-  <li>BRS6(FM1) — Glycaemic–Insulin Stability &amp; Cognitive Energy Availability</li>
-  <li>BRS6(FM2) — HPA Axis Rhythm &amp; Cortisol Regulation</li>
-  <li>BRS6(FM3) — Autonomic Balance &amp; Vagal Recovery Capacity</li>
-  <li>BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM1) — Glycaemic–Insulin Stability &amp; Cognitive Energy Availability</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability" aria-label="Open FM: BRS6(FM1) — Glycaemic–Insulin Stability &amp; Cognitive Energy Availability">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM2) — HPA Axis Rhythm &amp; Cortisol Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation" aria-label="Open FM: BRS6(FM2) — HPA Axis Rhythm &amp; Cortisol Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM3) — Autonomic Balance &amp; Vagal Recovery Capacity</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity" aria-label="Open FM: BRS6(FM3) — Autonomic Balance &amp; Vagal Recovery Capacity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation" aria-label="Open FM: BRS6(FM4) — Stress-Inflammation / Metabolic Load Allocation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
 </ul>
 </div>
 <div class="brs-fm-hub-panel" hidden>
@@ -372,6 +405,7 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 </div>
 </div>
 
+
 </div>
 </div>
 </div>
@@ -380,7 +414,7 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 <!-- brs-hub-cross-integration:start -->
 ## Cross-BRS Dependencies
 
-<p>Stress adaptation is not reducible to cortisol output. Neuroendocrine and metabolic regulation coordinates how energy, inflammatory load and recovery capacity are allocated under sustained demand — determining whether cognition, mood and behavioural control remain proportionate or drift toward exhaustion. When this allocation system is overloaded, the strain surfaces across multiple hubs long before it is recognised as a discrete endocrine disorder. The evidence below maps the principal Cross-BRS Dependencies through which BRS6 orchestrates biological load across the complete regulatory network.</p>
+<p>Stress adaptation is not reducible to cortisol output. Neuroendocrine and metabolic regulation coordinates how energy, inflammatory load and recovery capacity are allocated under sustained demand — determining whether cognition, mood and behavioural control remain proportionate or drift toward exhaustion. When this allocation system is overloaded, the strain surfaces across connected regulatory biology long before it is recognised as a discrete endocrine disorder.</p>
 
 <div class="brs-hub-cross-integration-evidence">
 
@@ -391,21 +425,59 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <ul class="brs-fm-hub-group-title-list">
-  <li>(BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission</li>
-  <li>(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</li>
-  <li>(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</li>
-  <li>(BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission</span>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="0" aria-label="Open: (BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</span>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="1" aria-label="Open: (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</span>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="2" aria-label="Open: (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">(BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation</span>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="3" aria-label="Open: (BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+  </div>
+</li>
 </ul>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <div class="brs-fm-hub-group-children">
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="0">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>(BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission</strong>
 </button>
+<strong class="brs-fm-hub-title">(BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
 <p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive neuroendocrine coordination and metabolic stability that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.</p>
@@ -423,12 +495,18 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="1">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</strong>
 </button>
+<strong class="brs-fm-hub-title">(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
 <p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive stress–metabolic load allocation that enables BRS3 to sustain immune and redox regulation under prolonged physiological demand.</p>
@@ -445,12 +523,18 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="2">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</strong>
 </button>
+<strong class="brs-fm-hub-title">(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
 <p>Collectively, the Functional Mechanisms within BRS6 maintain adaptive neuroendocrine and glycaemic stability that enables BRS4 to sustain mitochondrial bioenergetic capacity under prolonged physiological demand.</p>
@@ -467,12 +551,18 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 </div>
 </div>
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="3">
 <div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>(BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation</strong>
 </button>
+<strong class="brs-fm-hub-title">(BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation</strong>
+<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation">
+<span class="brs-fm-hub-open-label">Open →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</button>
+</div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
 <p>Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut–vagal neuromodulation and microbial signalling that enables BRS6 to sustain stress-axis responsiveness under prolonged physiological demand.</p>
