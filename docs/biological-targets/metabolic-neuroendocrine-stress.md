@@ -81,6 +81,19 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 </div>
 <!-- brs-hub-ta-research:end -->
 
+<!-- brs-hub-key-constraints:start -->
+## Key Constraints (Dietary Bottlenecks)
+
+<p>Stress adaptation is shaped long before cortisol dysregulation becomes obvious. The Key Constraints identify the shared energy substrates and stress-response micronutrients that glycaemic stability, HPA rhythm and metabolic recovery all depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of neuroendocrine and metabolic regulation.</p>
+
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/almonds">Almonds</a> • <a href="/docs/foods/apples">Apples</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/milk">Milk</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/olive-oil">Olive Oil</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/walnuts">Walnuts</a></p>
+
+<ul class="brs-hub-kc-links">
+<li><a href="/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability">BRS6(KC1) — Glucose / Energy Substrate Sufficiency</a></li>
+<li><a href="/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency">BRS6(KC2) — Stress — Response Micronutrient & Lipid Sufficiency</a></li>
+</ul>
+<!-- brs-hub-key-constraints:end -->
+
 ## Dietary and Lifestyle Levers
 
 <p class="brs-hub-levers-intro">Energy and hormone regulation respond to every meal and recovery interval across the day. Glycaemic load, meal composition, micronutrient density and circadian-aligned eating determine whether cortisol rhythm, autonomic balance and metabolic recovery stay proportionate under sustained demand. Dietary Guidance shows how specific foods and eating patterns repeatedly support stable energy allocation and stress-adaptive physiology.</p>
@@ -178,18 +191,6 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 </div>
 <!-- brs-hub-levers:end -->
 
-<!-- brs-hub-key-constraints:start -->
-## Key Constraints (Dietary Bottlenecks)
-
-<p>Stress adaptation is shaped long before cortisol dysregulation becomes obvious. The Key Constraints identify the shared energy substrates and stress-response micronutrients that glycaemic stability, HPA rhythm and metabolic recovery all depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of neuroendocrine and metabolic regulation.</p>
-
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/almonds">Almonds</a> • <a href="/docs/foods/apples">Apples</a> • <a href="/docs/foods/barley">Barley</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/cheddar-cheese">Cheddar Cheese</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/milk">Milk</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oats">Oats</a> • <a href="/docs/foods/olive-oil">Olive Oil</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/walnuts">Walnuts</a></p>
-
-<ul class="brs-hub-kc-links">
-<li><a href="/docs/biological-targets/brs6/kc/brs6-kc1-glucose-energy-substrate-availability">BRS6(KC1) — Glucose / Energy Substrate Sufficiency</a></li>
-<li><a href="/docs/biological-targets/brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency">BRS6(KC2) — Stress — Response Micronutrient & Lipid Sufficiency</a></li>
-</ul>
-<!-- brs-hub-key-constraints:end -->
 
 ## Functional Mechanisms
 
@@ -405,7 +406,6 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 </div>
 </div>
 
-
 </div>
 </div>
 </div>
@@ -585,7 +585,6 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 
 </div>
 <!-- brs-hub-cross-integration:end -->
-
 
 ## Specific Mechanisms
 

@@ -31,6 +31,11 @@ function patchSectionIntro(content, brsId) {
   if (existingRe.test(content)) {
     return content.replace(existingRe, `${block}\n\n<!-- brs-hub-levers:start -->`);
   }
+  const insertAfterKc =
+    /(<!-- brs-hub-key-constraints:end -->)\n\n<!-- brs-hub-levers:start -->/;
+  if (insertAfterKc.test(content)) {
+    return content.replace(insertAfterKc, `$1\n\n${block}\n\n<!-- brs-hub-levers:start -->`);
+  }
   const insertAfterTa =
     /(<!-- brs-hub-ta-research:end -->)\n\n<!-- brs-hub-levers:start -->/;
   if (insertAfterTa.test(content)) {

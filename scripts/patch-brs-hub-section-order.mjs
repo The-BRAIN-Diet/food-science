@@ -57,7 +57,7 @@ function patchHub(content) {
   const taInner = ta.replace(/^## Therapeutic Area Research\n\n/, "");
   const taSection = `## Therapeutic Area Research\n\n${renderTaResearchIntroHtml()}\n\n${taInner.replace(/^<p class="brs-hub-ta-research-intro">[\s\S]*?<\/p>\n\n/, "")}`;
 
-  const insert = [taSection, levers, kc].filter(Boolean).join("\n\n");
+  const insert = [taSection, kc, levers].filter(Boolean).join("\n\n");
 
   const ambitionRe = /(## Ambition\n\n[^\n#][\s\S]*?)(\n\n## )/;
   if (!ambitionRe.test(rest)) {
