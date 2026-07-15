@@ -4,6 +4,8 @@ import registryJson from '../../data/phenome-registry.json';
 import relationshipsJson from '../../data/phenome-relationships.generated.json';
 import { phenomeDetailDocPath } from './phenomeDocPath';
 import PhenomeEvidenceConfidence from './PhenomeEvidenceConfidence';
+import PhenomeScoringKey from '../../components/PhenomeScoringKey';
+import { formatMechanismConfidenceMeta } from './confidence';
 import styles from './styles.module.css';
 
 type TherapeuticAreaEntry = {
@@ -44,6 +46,7 @@ type RelationshipRow = {
   targetPhenomeId: string | null;
   relationshipType: string;
   confidence: string;
+  evidenceConfidence: string;
   evidenceLevel: string;
   rationale: string;
   references: PhenomeReference[];
@@ -124,7 +127,7 @@ function MechanismLink({ row }: { row: RelationshipRow }) {
         {row.sourceNode} — {row.sourceTitle}
       </Link>
       <span className={styles.mechanismMeta}>
-        {row.relationshipType} · {row.confidence}
+        {formatMechanismConfidenceMeta(row.relationshipType, row.confidence, row.evidenceConfidence)}
       </span>
     </div>
   );
@@ -274,6 +277,7 @@ export default function PhenomeRegistry(): React.ReactElement {
       </div>
 
       <h2>Registry overview</h2>
+      <PhenomeScoringKey />
       <div className={styles.filterRow}>
         <label htmlFor="ta-filter" className={styles.filterLabel}>
           Filter by therapeutic area
@@ -303,7 +307,7 @@ export default function PhenomeRegistry(): React.ReactElement {
               <th>Phenome</th>
               <th>Description</th>
               <th>Therapeutic areas</th>
-              <th>Evidence Confidence</th>
+              <th>Phenome Evidence Confidence</th>
               <th>Connected Mechanisms</th>
             </tr>
           </thead>

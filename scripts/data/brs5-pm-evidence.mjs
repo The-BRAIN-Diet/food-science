@@ -18,7 +18,7 @@ export const BRS5_PM_EVIDENCE = {
       },
       {
         heading: "SCFAs and gut-barrier communication",
-        body: "Short-chain fatty acids from microbial fermentation support intestinal barrier integrity and gut–brain communication context — linking fermentable-fibre ecology to the barrier biology this PM represents [Silva et al., 2020].",
+        body: "Short-chain fatty acids from microbial fermentation support intestinal barrier integrity and gut–brain communication context — linking fermentable-fibre ecology to intestinal barrier support [Silva et al., 2020].",
       },
       {
         heading: "Pattern-based barrier support",
@@ -37,7 +37,7 @@ export const BRS5_PM_EVIDENCE = {
     blocks: [
       {
         heading: "Barrier weakness and metabolic endotoxemia",
-        body: "Impaired gut barrier function permits bacterial lipopolysaccharide entry into circulation, sustaining metabolic endotoxemia and chronic low-grade inflammatory signalling — the core containment biology this PM represents [Mohammad and Thiemermann, 2021].",
+        body: "Impaired gut barrier function permits bacterial lipopolysaccharide entry into circulation, sustaining metabolic endotoxemia and chronic low-grade inflammatory signalling — illustrating how barrier failure permits inflammatory spillover from the gut [Mohammad and Thiemermann, 2021].",
       },
       {
         heading: "Postprandial and LPS-linked inflammatory context",
@@ -100,7 +100,7 @@ export const BRS5_PM_EVIDENCE = {
       },
       {
         heading: "Taxonomic diversity and metabolite-generation capacity",
-        body: "Increasing taxonomic diversity expands the ecological possibilities for producing beneficial microbial metabolites and reducing harmful by-products — the competitive-selection frame this PM represents [Schleupner and Carmichael, 2022].",
+        body: "Increasing taxonomic diversity expands the ecological possibilities for producing beneficial microbial metabolites and reducing harmful by-products — through ecological competition and turnover among microbial communities [Schleupner and Carmichael, 2022].",
       },
       {
         heading: "Alpha diversity as an ecological readout",
@@ -123,7 +123,7 @@ export const BRS5_PM_EVIDENCE = {
     blocks: [
       {
         heading: "SCFAs as gut–brain signalling molecules",
-        body: "Short-chain fatty acids from gut microbial fermentation act as signalling molecules influencing barrier integrity, immune tone, and gut–brain communication — the fermentation-to-signalling pathway this PM represents [Silva et al., 2020].",
+        body: "Short-chain fatty acids from gut microbial fermentation act as signalling molecules influencing barrier integrity, immune tone, and gut–brain communication — linking microbial fermentation to barrier, immune, and gut–brain signalling [Silva et al., 2020].",
       },
       {
         heading: "Propionate and blood–brain barrier protection",
@@ -186,7 +186,7 @@ export const BRS5_PM_EVIDENCE = {
       },
       {
         heading: "Vagus nerve as gut–brain communication route",
-        body: "The vagus nerve transmits microbial and neurochemical cues from the gut to central regulatory circuits without requiring direct neurotransmitter transfer across the blood–brain barrier — the communication route this PM represents [Austelle et al., 2022].",
+        body: "The vagus nerve transmits microbial and neurochemical cues from the gut to central regulatory circuits without requiring direct neurotransmitter transfer across the blood–brain barrier — as a principal gut–brain communication route [Austelle et al., 2022].",
       },
       {
         heading: "Neuromodulatory pathway context",

@@ -72,13 +72,9 @@ function buildFmIndex() {
 
 function buildConnectedPrimary(data, fmIndex) {
   const lines = [];
+  const selfPmId = data.pm_id ? String(data.pm_id).trim() : "";
   const parentId = data.parent_fm ? String(data.parent_fm).trim() : "";
   const fm = parentId ? fmIndex.get(parentId) : null;
-  if (fm) {
-    lines.push(`- [${parentId} - ${fm.title}](${fm.href})`);
-    lines.push("");
-  }
-  const selfPmId = data.pm_id ? String(data.pm_id).trim() : "";
   for (const pm of fm?.mechanisms || []) {
     if (pm.id === selfPmId) continue;
     const label = pm.name ? `${pm.id} - ${pm.name}` : pm.id;
@@ -163,7 +159,7 @@ function migratePm(filePath, fmIndex) {
     "</details>",
     "",
     "<details>",
-    "<summary><strong>4.2 Lifestyle Levers</strong></summary>",
+    "<summary><strong>4.3 Lifestyle Levers</strong></summary>",
     "",
     lifestyle,
     "",

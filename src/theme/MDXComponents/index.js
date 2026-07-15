@@ -20,6 +20,7 @@ import FoodRecipes from '../FoodRecipes';
 import FoodShoppingList from '../FoodShoppingList';
 import NutritionTable from '../../components/NutritionTable';
 import PhenomeBibLinks from '../../components/PhenomeBibLinks';
+import PhenomeScoringKey from '../../components/PhenomeScoringKey';
 import PhenomeRegistry from '../PhenomeRegistry';
 import PhenomeDetail from '../PhenomeRegistry/PhenomeDetail';
 
@@ -45,6 +46,7 @@ export default {
   FoodRecipes,
   FoodShoppingList,
   PhenomeBibLinks,
+  PhenomeScoringKey,
   PhenomeRegistry,
   PhenomeDetail,
 };

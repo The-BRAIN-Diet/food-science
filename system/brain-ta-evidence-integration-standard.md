@@ -279,7 +279,7 @@ Do not lose practical educational content because it lived in a long biological 
 | Target Foods captions | `scripts/data/brs-hub-signature-foods.mjs` |
 | Lifestyle themes | `scripts/data/brs-hub-lifestyle-priorities.mjs` |
 | FM §4.3 suboptimal biology | Biological *why* preparation/antinutrient effects matter — not cooking instructions |
-| Hub HTML block | Regenerate via `npm run brs:generate-hub-levers` |
+| Hub HTML block | Safe maintenance via `npm run brs:patch-hub-levers-section` on migrated BRS1–BRS6 hubs |
 
 ### Refactoring principles
 
@@ -301,7 +301,7 @@ See [BRS Hub Dietary & Lifestyle Levers](./brs-hub-levers-schema.md) for rollup 
 Regenerate hub levers after edits:
 
 ```bash
-npm run brs:generate-hub-levers
+npm run brs:patch-hub-levers-section
 ```
 
 ---
@@ -518,7 +518,7 @@ Before publication, verify:
 - [ ] Architecture strengthened (new or updated FM/PM/KC/SM content where needed)
 - [ ] Evidence gaps documented (Phase 8 §6)
 - [ ] Future expansion opportunities recorded (Phase 8 §7)
-- [ ] Hub levers regenerated (`npm run brs:generate-hub-levers`)
+- [ ] Hub levers maintained (`npm run brs:patch-hub-levers-section` on migrated BRS1–BRS6)
 - [ ] Bib keys validate (`node scripts/validate-bib-citation-keys.mjs`)
 - [ ] PM Evidence Highlights regenerated where hub tables changed
 

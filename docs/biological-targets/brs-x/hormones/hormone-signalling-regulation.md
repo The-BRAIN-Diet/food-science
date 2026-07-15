@@ -26,7 +26,6 @@ hide_title: true
 ## Ambition
 
 Maintain coordinated hormonal signalling so the brain can support cognition, emotional regulation, metabolism, and adaptive physiological responses across the lifespan.
-
 ## Dietary and Lifestyle Levers
 
 <p class="brs-hub-levers-intro">Dietary patterns, food handling and behavioural levers shape how effectively this Biological Regulatory System can operate under daily demand.</p>
@@ -42,11 +41,7 @@ Maintain coordinated hormonal signalling so the brain can support cognition, emo
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-hub-levers-key-constraints">
-<p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key dietary constraints include fermentable fibre and prebiotic substrate, diverse plant-polyphenol intake, and protein and micronutrient sufficiency supporting microbial hormone metabolism.</p>
-<p class="brs-hub-lever-kc-foods">Apples, Chicory, Cooled Potatoes, Cooled Rice, Flax, Green Bananas, Legumes, Oats, Onions</p>
-</div>
+
 
 <p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Include fermentable fibre from vegetables, legumes, and whole grains to support microbial hormone metabolism. Eat a diverse range of plant foods across the week, phytoestrogen-containing whole foods where relevant to life stage, and adequate protein and micronutrients to support hormonal milieu through food-first patterns.</p>
 

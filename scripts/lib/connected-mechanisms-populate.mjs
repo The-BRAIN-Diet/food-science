@@ -9,6 +9,18 @@ const HUB_PATH_RE =
   /\/docs\/biological-targets\/(?:methylation-one-carbon-metabolism|neurotransmitter-regulation|inflammation-oxidative-stress|mitochondrial-function-bioenergetics|gut-brain-axis-enteric-nervous-system|metabolic-neuroendocrine-stress|endocannabinoid-system|hormone-signalling-regulation)(?:\)|$)/;
 
 export const CURATED_PM_CONNECTIONS = {
+  "BRS1-FM3-PM6": [
+    {
+      label: "BRS3-FM2-PM5 — Lipid Peroxidation Control",
+      href: "/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control",
+      connection: "membrane PUFA protection downstream of incorporated DHA",
+    },
+    {
+      label: "BRS3-FM3-PM8 — Eicosanoid / SPM Balance",
+      href: "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance",
+      connection: "eicosanoid and specialised pro-resolving mediator balance downstream",
+    },
+  ],
   "BRS3-FM3-PM7": [
     {
       label: "BRS5-FM1-PM2 — LPS / Endotoxin Containment",
@@ -135,26 +147,120 @@ export function formatBullets(map) {
     .join("\n");
 }
 
-export function inferConnection(line, label) {
+function stripMechanismId(label) {
+  return String(label || "")
+    .replace(/^BRS[\dX]+-FM\d+-PM\d+\s*[-—]\s*/i, "")
+    .replace(/^BRS[\dX]+\(FM\d+\)\s*[-—]\s*/i, "")
+    .replace(/^BRS[\dX()-]+\s*[-—]\s*/i, "")
+    .trim();
+}
+
+function looksLikeIdFragment(text) {
+  return /^f?m?\d*-?f?m?\d*-?p?m?\d*$/i.test(text.replace(/\s/g, "")) || /^fM\d+-PM\d+/i.test(text);
+}
+
+function isMeaningfulConnection(text) {
+  if (!text || text.length < 8 || text.length > 200 || text.includes("](/docs/")) return false;
+  if (/context relevant to this mechanism$/i.test(text)) return false;
+  if (looksLikeIdFragment(stripMechanismId(text))) return false;
+  return true;
+}
+
+function isLowQualityConnection(connection) {
+  if (!connection) return true;
+  if (/context relevant to this mechanism$/i.test(connection)) return true;
+  if (/^fM\d+-PM\d+/i.test(connection)) return true;
+  if (/^bRS\d+/i.test(connection)) return true;
+  const title = stripMechanismId(connection);
+  return looksLikeIdFragment(title);
+}
+
+/** Split "X and Y belong to [link1] and [link2]" into per-href context clauses. */
+function inferConnectionsFromLine(line) {
+  const links = [...line.matchAll(/\[([^\]]+)\]\((\/docs\/biological-targets\/[^)]+)\)/g)];
+  if (links.length < 2) return null;
+
+  const belongRe = /(.+?)\s+belong to\s+(?=\[)/gi;
+  let lastMatch = null;
+  let m;
+  while ((m = belongRe.exec(line)) !== null) lastMatch = m;
+  if (!lastMatch) return null;
+
+  const prefix = lastMatch[1].replace(/^[-*•]\s*/, "").trim();
+  const clauseSource = prefix.split(/\.\s+/).pop()?.trim() || prefix;
+  const clauses = clauseSource.split(/\s+and\s+/i).map((s) => s.trim()).filter(Boolean);
+  if (clauses.length !== links.length) return null;
+
+  const result = new Map();
+  links.forEach((match, i) => result.set(match[2], clauses[i]));
+  return result;
+}
+
+function contextBeforeLink(line, href) {
+  const idx = line.indexOf(`](${href})`);
+  if (idx < 0) return "";
+  return line.slice(0, idx);
+}
+
+export function inferConnection(line, label, href, lineContext) {
+  if (href && lineContext?.has(href)) {
+    return lineContext.get(href);
+  }
+
+  const before = href ? contextBeforeLink(line, href) : line;
+
+  const pairClause = before.match(/\s+and\s+([^[.\n]+)\s*$/);
+  if (pairClause && isMeaningfulConnection(pairClause[1])) {
+    return pairClause[1].trim();
+  }
+
+  const belongClause = before.match(/([^.[!\n]+)\s+belong to\s*$/i);
+  if (belongClause && isMeaningfulConnection(belongClause[1])) {
+    return belongClause[1].trim();
+  }
+
+  const handledClause = before.match(
+    /([^.[!\n]+)\s+(?:is handled by|belongs to|represented by|is represented by)\s*$/i,
+  );
+  if (handledClause && isMeaningfulConnection(handledClause[1])) {
+    return handledClause[1].trim();
+  }
+
   const emDash = line.match(/\)\s*—\s*(.+?)\.?\s*$/);
-  if (emDash) {
-    const text = emDash[1].trim();
-    if (text.length > 12 && text.length < 200 && !text.includes("](/docs/")) {
-      return text.replace(/\.$/, "");
+  if (emDash && isMeaningfulConnection(emDash[1])) {
+    return emDash[1].trim().replace(/\.$/, "");
+  }
+
+  const title = stripMechanismId(label);
+  if (title && !looksLikeIdFragment(title)) {
+    return title.charAt(0).toLowerCase() + title.slice(1);
+  }
+
+  return "biological connection relevant to this mechanism";
+}
+
+function enrichLabel(label, href, entityIndex) {
+  const canonical = entityIndex?.byHref?.get(href);
+  if (canonical?.label) {
+    const bareId = /^(BRS[\dX]+(?:-FM\d+-PM\d+|\(FM\d+\)))$/i.test(label.trim());
+    if (bareId || (!label.includes("—") && !label.includes(" - "))) {
+      return canonical.label;
     }
   }
-  const after = line.split(")").slice(1).join(")").replace(/^[.;,\s]+/, "").trim();
-  if (after && !after.includes("](/docs/") && after.length > 12 && after.length < 200) {
-    return after.replace(/\.$/, "");
+  const barePm = label.trim().match(/^(BRS[\dX]+-FM\d+-PM\d+)$/i);
+  if (barePm && entityIndex?.byId?.get(barePm[1])) {
+    return entityIndex.byId.get(barePm[1]).label;
   }
-  const short = label.replace(/^BRS[\dX()-]+\s*[-—]\s*/i, "").trim();
-  return short
-    ? `${short.charAt(0).toLowerCase()}${short.slice(1)} context relevant to this mechanism`
-    : "biological connection relevant to this mechanism";
+  const bareFm = label.trim().match(/^(BRS[\dX]+\(FM\d+\))$/i);
+  if (bareFm && entityIndex?.byId?.get(bareFm[1])) {
+    return entityIndex.byId.get(bareFm[1]).label;
+  }
+  return label.trim();
 }
 
 export function buildEntityIndex(root) {
   const byId = new Map();
+  const byHref = new Map();
   for (const kind of ["fm", "pm"]) {
     for (const filePath of listMechanismMdxFiles(root, kind)) {
       const { data } = readMechanismPage(filePath);
@@ -162,10 +268,12 @@ export function buildEntityIndex(root) {
       if (!id) continue;
       const href = pageHref(root, filePath);
       const label = `${id} — ${data.title}`;
-      byId.set(id, { label, href, connection: "" });
+      const entry = { label, href, connection: "" };
+      byId.set(id, entry);
+      byHref.set(href, entry);
     }
   }
-  return byId;
+  return { byId, byHref };
 }
 
 function resolvePlainHubLine(plain, entityIndex) {
@@ -173,14 +281,14 @@ function resolvePlainHubLine(plain, entityIndex) {
   const linked = text.match(/^\[([^\]]+)\]\(([^)]+)\)(?:\s*—\s*(.+))?$/);
   if (linked && isEntityLink(linked[2])) {
     return {
-      label: linked[1],
+      label: enrichLabel(linked[1], linked[2], entityIndex),
       href: linked[2],
       connection: linked[3]?.trim() || "",
     };
   }
 
   let best = null;
-  for (const [id, entry] of entityIndex) {
+  for (const [id, entry] of entityIndex.byId) {
     if (text.startsWith(id) && (!best || id.length > best.id.length)) {
       best = { id, entry };
     }
@@ -235,30 +343,48 @@ export function addLink(map, link, { hostKey, selfHref, crossBrsOnly }) {
   if (crossBrsOnly && linkKey === hostKey) return;
   if (map.has(href)) {
     const ex = map.get(href);
-    if (!ex.connection && connection) ex.connection = connection;
+    if (connection && (!ex.connection || isLowQualityConnection(ex.connection))) {
+      ex.connection = connection;
+    }
+    if (label && label.includes("—") && !ex.label.includes("—")) {
+      ex.label = label;
+    }
     return;
   }
   map.set(href, { label, href, connection: connection || "" });
 }
 
-export function collectFromText(text, opts) {
+export function collectFromText(text, opts, entityIndex) {
   const map = new Map();
   if (!text) return map;
 
   for (const line of text.split("\n")) {
     if (!line.includes("](/docs/biological-targets/")) continue;
+    const lineContext = inferConnectionsFromLine(line);
     let match;
     LINK_RE.lastIndex = 0;
     while ((match = LINK_RE.exec(line)) !== null) {
-      const [, label, href] = match;
+      const [, rawLabel, href] = match;
+      const label = enrichLabel(rawLabel, href, entityIndex);
       if (HUB_TO_CANON[href]) {
         const canon = HUB_TO_CANON[href];
-        addLink(map, { ...canon, connection: inferConnection(line, canon.label) }, opts);
+        addLink(
+          map,
+          {
+            ...canon,
+            connection: inferConnection(line, canon.label, href, lineContext),
+          },
+          opts,
+        );
         continue;
       }
       addLink(
         map,
-        { label: label.trim(), href, connection: inferConnection(line, label) },
+        {
+          label,
+          href,
+          connection: inferConnection(line, label, href, lineContext),
+        },
         opts,
       );
     }
@@ -302,4 +428,61 @@ export function resolvePmPath(root, pm) {
     if (data.pm_id === pm.id) return f;
   }
   return null;
+}
+
+const FM_ENTITY_ID_RE = /BRS\d+\(FM\d+\)/;
+const PM_ENTITY_ID_RE = /BRS\d+-FM\d+-PM\d+/;
+
+/** True when a §6.3 bullet links an FM (not a PM). */
+export function isFmConnectedPrimaryBullet(line) {
+  const trimmed = String(line || "").trim();
+  if (!trimmed.startsWith("-")) return false;
+  if (PM_ENTITY_ID_RE.test(trimmed)) return false;
+  if (FM_ENTITY_ID_RE.test(trimmed)) return true;
+  const hrefMatch = trimmed.match(/\]\(([^)]+)\)/);
+  if (hrefMatch) {
+    const href = hrefMatch[1];
+    if (/-pm\d/i.test(href)) return false;
+    if (/\/fm\d+\//.test(href)) return true;
+  }
+  return false;
+}
+
+/** Remove FM bullets from §6.3 Connected Primary Mechanisms body. */
+export function stripFmBulletsFromConnectedPrimary(body) {
+  const lines = String(body || "").split("\n");
+  const kept = lines.filter((line) => !isFmConnectedPrimaryBullet(line));
+  const collapsed = kept.join("\n").replace(/\n{3,}/g, "\n\n").trim();
+  const bullets = collapsed.split("\n").filter((line) => line.trim().startsWith("-"));
+  return bullets.length ? collapsed : "- None listed";
+}
+
+/** @param {string} root */
+export function buildFmIndex(root) {
+  const idx = new Map();
+  for (const filePath of listMechanismMdxFiles(root, "fm")) {
+    const { data } = readMechanismPage(filePath);
+    if (!data.fm_id) continue;
+    const rel = path.relative(path.join(root, "docs"), filePath).replace(/\.mdx?$/, "");
+    idx.set(String(data.fm_id).trim(), {
+      title: data.title || data.fm_id,
+      href: `/docs/${rel.replace(/\\/g, "/")}`,
+      pms: Array.isArray(data.mechanisms_covered) ? data.mechanisms_covered : [],
+    });
+  }
+  return idx;
+}
+
+/** Same-FM sibling PMs only — excludes parent FM from §6.3. */
+export function buildSiblingPmConnectedPrimary(data, fmIndex) {
+  const selfPmId = data.pm_id ? String(data.pm_id).trim() : "";
+  const parentId = data.parent_fm ? String(data.parent_fm).trim() : "";
+  const fm = parentId ? fmIndex.get(parentId) : null;
+  const lines = [];
+  for (const pm of fm?.pms || []) {
+    if (!pm?.id || pm.id === selfPmId) continue;
+    const label = pm.name ? `${pm.id} - ${pm.name}` : pm.id;
+    lines.push(pm.href ? `- [${label}](${pm.href})` : `- ${label}`);
+  }
+  return lines.length ? lines.join("\n") : "- None listed";
 }

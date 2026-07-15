@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Expand PM §4.1.3 KCs to include Shared Biological Pool members from linked KC pages.
+ * Refresh PM §4.1.3 KCs with substance ← food lines from linked KC Shared Biological Pools.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -17,8 +17,11 @@ const ROOT = path.join(__dirname, "..");
 const DOCS = path.join(ROOT, "docs");
 const BIO = path.join(DOCS, "biological-targets");
 
-const KC_SECTION_RE =
-  /<details>\s*\n<summary><strong>4\.1\.3 KCs \(Key Constraints\)<\/strong><\/summary>\s*\n[\s\S]*?\n<\/details>/;
+const KC_HUB_PANEL_RE =
+  /(<strong>4\.1\.3 KCs \(Key Constraints\)<\/strong>[\s\S]*?<div class="brs-fm-hub-panel" hidden>\s*\n)([\s\S]*?)(\n<\/div>)/;
+
+const KC_DETAILS_RE =
+  /<details>\s*\n<summary><strong>4\.1\.3 KCs \(Key Constraints\)<\/strong><\/summary>\s*\n([\s\S]*?)\n<\/details>/;
 
 function walkPmFiles(dir) {
   const out = [];
@@ -43,20 +46,29 @@ function extractKcLinksFromSection(sectionHtml) {
 function migrateFile(filePath, index) {
   const raw = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(raw);
-  if (!KC_SECTION_RE.test(content)) {
+
+  const hubMatch = content.match(KC_HUB_PANEL_RE);
+  const detailsMatch = content.match(KC_DETAILS_RE);
+  if (!hubMatch && !detailsMatch) {
     return { filePath, status: "skipped", reason: "no 4.1.3 KC section" };
   }
 
-  const sectionMatch = content.match(KC_SECTION_RE);
-  const existingLinks = extractKcLinksFromSection(sectionMatch[0]);
+  const existingInner = hubMatch ? hubMatch[2] : detailsMatch[1];
+  const existingLinks = extractKcLinksFromSection(existingInner);
   const kcRefs = resolveKcRefs(existingLinks.length ? existingLinks : data.key_constraints, index);
   if (!kcRefs.length) {
     return { filePath, status: "skipped", reason: "no resolvable KC refs" };
   }
 
   const newInner = renderPmKcLeverBlock(kcRefs);
-  const replacement = `<details>\n<summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>\n\n${newInner}\n\n</details>`;
-  const migrated = content.replace(KC_SECTION_RE, replacement);
+  let migrated = content;
+
+  if (hubMatch) {
+    migrated = migrated.replace(KC_HUB_PANEL_RE, `$1${newInner}$3`);
+  } else {
+    const replacement = `<details>\n<summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>\n\n${newInner}\n\n</details>`;
+    migrated = migrated.replace(KC_DETAILS_RE, replacement);
+  }
 
   if (migrated === content) {
     return { filePath, status: "skipped", reason: "no changes" };

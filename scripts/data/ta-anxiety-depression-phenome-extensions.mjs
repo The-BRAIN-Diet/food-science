@@ -159,14 +159,16 @@ export const TA_FM_OUTCOME_EXTENSIONS = {
   "BRS3(FM3)": [
     {
       outcome_name: "Apprehensive Worry / Perseverative Thought",
-      confidence: "low-medium",
+      confidence: "medium",
       synthesis:
-        "Resolution-oriented lipid mediator and cytokine-network balance may modulate inflammatory tone linked to anxiety symptoms; Kiecolt-Glaser et al. (2011) provides human intervention evidence for omega-3 lowering anxiety in stressed adults as adjacent translational support.",
+        "Resolution-oriented lipid mediator and cytokine-network balance contribute to the inflammatory environment associated with apprehensive worry and perseverative thought. Human intervention evidence (Kiecolt-Glaser et al., 2011) demonstrates that omega-3 supplementation reduced inflammatory cytokine production alongside anxiety symptoms in stressed adults, providing translational support for this Biology → Phenome relationship.",
       references: [
-        ref(1, "Kiecolt-Glaser et al. (2011)", "kiecolt-glaser_omega-3_2011"),
-        ref(2, "Ferguson et al. (2014)", "ferguson_omega3_2014"),
+        ref(1, "Slavich & Irwin (2014)", "slavich_stress_inflammation_2014"),
+        ref(2, "Marsland et al. (2017)", "marsland_systemic_2017"),
+        ref(3, "Kiecolt-Glaser et al. (2011)", "kiecolt-glaser_omega-3_2011"),
+        ref(4, "Ferguson et al. (2014)", "ferguson_omega3_2014"),
       ],
-      evidence_confidence: "low-medium",
+      evidence_confidence: "medium",
     },
     {
       outcome_name: "Pleasure & Interest Capacity",

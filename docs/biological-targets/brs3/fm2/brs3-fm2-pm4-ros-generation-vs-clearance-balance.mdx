@@ -4,7 +4,7 @@ pm_id: BRS3-FM2-PM4
 mission: Balance reactive oxygen species production and clearance so net oxidative pressure stays within tolerable limits.
 parent_fm: BRS3(FM2)
 parent_brs: BRS3
-summary: Maintains dynamic balance between reactive oxygen species (ROS) production and neutralisation across immune and metabolic contexts — capturing net redox pressure rather than a single biomarker.
+summary: 'Maintains dynamic balance between reactive oxygen species (ROS, reactive molecules generated as byproducts of normal metabolism and immune activity) production and their neutralisation across immune and metabolic contexts. Rather than tracking any single biomarker, this mechanism captures net redox pressure as an ongoing balance between generation and clearance capacity. When production outpaces clearance, oxidative damage accumulates across membranes, proteins, and mitochondrial structures, feeding into downstream lipid peroxidation and antioxidant-network demand.'
 key_constraints:
   - BRS3(KC1) - Antioxidant Substrate Availability
 cofactors:
@@ -107,18 +107,112 @@ Balance reactive oxygen species production and clearance so net oxidative pressu
 
 ### Overview
 
-Maintains dynamic balance between reactive oxygen species (ROS) production and neutralisation across immune and metabolic contexts — capturing net redox pressure rather than a single biomarker.
+Maintains dynamic balance between reactive oxygen species (ROS, reactive molecules generated as byproducts of normal metabolism and immune activity) production and their neutralisation across immune and metabolic contexts. Rather than tracking any single biomarker, this mechanism captures net redox pressure as an ongoing balance between generation and clearance capacity. When production outpaces clearance, oxidative damage accumulates across membranes, proteins, and mitochondrial structures, feeding into downstream lipid peroxidation and antioxidant-network demand.
 
-* Balances ROS generation against clearance capacity.
-* Captures net redox pressure across immune and metabolic contexts.
-* Links to mitochondrial ROS biology represented in BRS4 — Supporting BRS4.
+* Balances ROS generation against clearance capacity across metabolic contexts.
+* Captures net redox pressure rather than any single biomarker.
+* Feeds into downstream lipid peroxidation and antioxidant-network demand when imbalanced.
 
 ## 2. Primary Biological Effects
 ↓ net oxidative burden; ↑ redox stability
 
 ## 3. Phenome Connections
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how directly this mechanism's biology would be expected to affect the phenome within BRAIN architecture — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How confidence scores differ</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+These are <strong>three independent scores</strong>. They are not combined or averaged.
+A phenome can have <strong>Medium</strong> registry evidence while individual mechanism
+rows show different Biology → Phenome and Evidence scores.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>1. Phenome Evidence Confidence</strong> (Phenome Registry only)
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Question:</strong> How convincing is the foundational evidence that this
+phenome is a valid, well-defined functional construct — and that diet-relevant
+biology can plausibly connect to it?
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Not</strong> a roll-up of Biology → Phenome Confidence or Evidence
+Confidence from Primary Mechanism page rows. Those are scored per mechanism; this
+score is assigned once per phenome at registry level.
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Derived from</strong> foundational landmark evidence organised in up to
+three layers: construct validation, biology→phenome linkage, and nutrition→biology
+modulation. Each layer may include one or many landmark papers depending on registry
+review.
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>2. Biology → Phenome Confidence</strong> (Primary Mechanism page §3 rows)
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Question:</strong> If this PM/FM biology were substantially impaired in
+isolation, how directly would that phenome be expected to suffer — within BRAIN
+architecture?
+</p>
+<p class="phenome-scoring-key-body">
+<strong>How it is derived:</strong> Reviewers read the PM/FM <em>definition and
+biological function first</em> — initially <em>ignoring</em> attached references and
+whether dietary intervention studies exist. References are reviewed only when scoring
+Evidence Confidence (below).
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Score levels</strong> (the value shown on each row as <em>Biology → Phenome Confidence</em>):
+</p>
+<ul class="phenome-scoring-key-sublist">
+<li><strong>High</strong> — primary biological determinant (e.g. noradrenergic signalling → attention; GABA synthesis → calming tone)</li>
+<li><strong>Medium</strong> — major contributory determinant, not the sole driver</li>
+<li><strong>Low–Medium</strong> — established but indirect, modulatory, or one integrative step removed</li>
+<li><strong>Low</strong> — distal, conditional, or weak biological coupling</li>
+</ul>
+<p class="phenome-scoring-key-body">
+<strong>“Not dietary treatment efficacy”</strong> means this score does not ask
+whether a diet or supplement <em>treats</em> the phenome. It asks whether the
+<em>biology itself</em> is architecturally relevant. Limited dietary RCT evidence
+belongs in Evidence Confidence, not here.
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>3. Evidence Confidence</strong> (Primary Mechanism page §3 rows)
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Question:</strong> How convincing are the <strong>attached Key References</strong>
+on that specific row that this biology actually relates to this phenome?
+</p>
+<p class="phenome-scoring-key-body">
+<strong>How it is derived:</strong> Assigned <em>after</em> Biology → Phenome
+Confidence, by reviewing only the references on that PM/FM row. Judges whether refs
+support the <em>relationship</em> — not just mechanism or phenome in isolation.
+</p>
+<ul class="phenome-scoring-key-sublist">
+<li><strong>High</strong> — strong convergent human evidence directly linking mechanism biology to phenome variation</li>
+<li><strong>Medium</strong> — multiple human lines supporting the relationship; may include one bridge study with an inferential step</li>
+<li><strong>Low–Medium</strong> — convergent translational stack without direct mechanism↔phenome measurement on the row</li>
+<li><strong>Low</strong> — mechanistic or preclinical only; mechanism and phenome supported separately but not bridged</li>
+</ul>
+<p class="phenome-scoring-key-body">
+Often equal to or <em>lower than</em> Biology → Phenome Confidence. Can occasionally
+be higher when outcome evidence is stronger than the mechanism's contributory role.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -133,14 +227,12 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
 - **Biology → Phenome Confidence:** Low–Medium
 - **Rationale:** Elevated oxidative stress indices and lipid-peroxidation markers in adult ADHD cohorts may modulate attention-relevant redox burden when generation exceeds clearance.
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#bulut_malondialdehyde_2007","label":"Bulut et al. (2007)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#miniksar_effect_2023","label":"Miniksar et al. (2023)","dataLevel":"Human Mechanistic"}]} />
 - **Evidence Confidence:** Low–Medium
-
 </div>
 </div>
 </div>
@@ -158,14 +250,12 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
 - **Biology → Phenome Confidence:** Low–Medium
 - **Rationale:** Thiol/disulfide shifts and DNA oxidation markers in ADHD adults support state-sensitive redox interpretation relevant to cognitive clarity without diagnostic claims.
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#kurhan_dynamic_2021","label":"Kurhan & Alp (2021)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019","label":"Verlaet et al. (2019)","dataLevel":"Human Mechanistic"}]} />
 - **Evidence Confidence:** Low–Medium
-
 </div>
 </div>
 </div>
@@ -183,14 +273,12 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
 - **Biology → Phenome Confidence:** Low
 - **Rationale:** Oxidative stress intersects neuroinflammatory cascades relevant to affective dysregulation framing; net redox balance is the mechanism boundary for this PM.
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#verlaet_oxidative_2019","label":"Verlaet et al. (2019)","dataLevel":"Human Mechanistic"}]} />
 - **Evidence Confidence:** Low–Medium
-
 </div>
 </div>
 </div>
@@ -256,18 +344,17 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability)
 
-**Shared Biological Pool**
 
-- Polyphenols
-- Vitamin C
-- Antioxidant phytochemicals
-- Cysteine
-- Glycine
-- Glutamate
-- Sulfur amino acids
 
+
+- [BRS3(KC1) - Antioxidant Substrate Sufficiency](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability)
+
+- Polyphenols ← berries, cocoa, green tea
+- Vitamin C ← citrus, kiwi, bell peppers
+- Cysteine ← eggs, poultry, legumes
+- Glycine ← collagen-rich cuts, poultry, legumes
+- Glutamate ← meat, fish, soy
 </div>
 </div>
 </div>
@@ -281,32 +368,38 @@ These mappings are translational relationships, not single-mechanism outcome cla
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Exposure reduction matters: smoke, pollution, alcohol excess, and sleep disruption can all add oxidative burden alongside dietary sources.
-- Consistent daily patterning is more relevant than occasional high-antioxidant meals.
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Optimisation Levers</strong>
+<strong>4.2 Optimisation Levers</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
 - Prefer gentler cooking and stable fat handling to limit exogenous AGE/ALE and oxidised-lipid load — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Extra virgin olive oil — Preparation](/docs/foods/extra-virgin-olive-oil#preparation).
 - Minimise repeated heating of unstable oils and high-temperature browning where practicable — food preparation can add ROS generation upstream of clearance capacity.
+- Consistent daily patterning is more relevant than occasional high-antioxidant meals.
+- Can be consumed raw or roasted; gentle roasting preserves nutrients — see [Sunflower Seeds — Preparation](/docs/foods/sunflower-seeds#preparation).
+- Prefer plain whole or slivered almonds over heavily salted or sugar-coated products. — see [Almonds — Preparation](/docs/foods/almonds#preparation).
+- Plant zinc less bioavailable due to phytates; soaking/sprouting helps improve bioavailability — see [Pumpkin Seeds — Preparation](/docs/foods/pumpkin-seeds#preparation).
 
 </div>
 </div>
 </div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Exposure reduction matters: smoke, pollution, alcohol excess, and sleep disruption can all add oxidative burden alongside dietary sources.
+
+</div>
+</div>
+</div>
+
+
+
 
 
 ## 5. Mechanistic Basis
@@ -480,12 +573,16 @@ The generation-versus-clearance model of oxidative stress is well established. T
 
 - None listed
 
-### 6.2 Connected BRS Mechanisms
+### 6.2 Cross-BRS Mechanism Relationships
 
-- [BRS4-FM1-PM1](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — fM1-PM1 context relevant to this mechanism
-- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — biological connection relevant to this mechanism
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
 
-### 6.3 Connected Primary Mechanisms
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
+- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — rOS Production and Control
+
+### 6.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
 - [BRS3-FM2-PM3 — Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — endogenous antioxidant enzyme induction supporting clearance capacity
 - [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — membrane-specific lipid damage downstream of net redox imbalance

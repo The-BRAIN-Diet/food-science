@@ -440,6 +440,7 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Established that psychological and physiological stressors activate inflammatory signalling capable of reshaping central nervous system function through coordinated immune, neuroendocrine and neurochemical pathways. This supports the framework interpretation that chronic inflammatory activation can become a principal upstream constraint on BRS1 performance during sustained physiological demand.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019">Savitz, 2019</a> — Demonstrated that immune activation reshapes neurotransmitter regulation through the kynurenine pathway and broader neuroimmune interactions, influencing both monoaminergic signalling and excitation–inhibition balance. This supports the BRAIN Framework interpretation that maintaining immune regulation preserves the biological environment required for resilient monoaminergic and excitation–inhibition regulation within BRS1.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -468,6 +469,7 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#omahony_serotonin_2015">O'Mahony et al., 2015</a> — Synthesised microbiota–gut–brain communication pathways linking gut ecology to peripheral and central inflammatory biology — supporting the framework interpretation that BRS5 gut–immune signalling shapes BRS3 inflammatory tone.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Established stress-to-inflammation signalling as a systems-level pathway reshaping immune and neuroendocrine biology — supporting the interpretation that gut–immune perturbation can propagate inflammatory burden across BRS3 and connected systems.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -496,6 +498,10 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Described bidirectional interactions between stress mediators, immune-inflammatory processes and cumulative regulatory burden — supporting the framework interpretation that BRS6 stress biology shapes BRS3 inflammatory load.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Operationalised social and psychological stress as inflammatory signals reshaping neuroimmune biology — supporting the BRS6 → BRS3 pathway as a principal stress-to-inflammation bridge within the integrated BRS network.</p></li>
 </ul>
+<h4 class="brs-hub-integration-section-title">Translational Examples</h4>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011">Kiecolt-Glaser et al., 2011</a> — Worked translational example: omega-3 supplementation reduced inflammatory cytokines (including IL-6) alongside anxiety symptoms in stressed adults. The principal inflammatory biology is measured and owned by BRS3-FM3-PM7; this dependency interprets how metabolic and neuroendocrine context (BRS6) may condition such inflammatory outcomes — without claiming this single study validates every intermediate step in the BRS6 → BRS3 pathway. Primary biology: <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation">BRS3-FM3-PM7 — Cytokine Network Modulation</a>.</p></li>
+</ul>
 </div>
 </div>
 </div>
@@ -506,6 +512,7 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 
 </div>
 <!-- brs-hub-cross-integration:end -->
+
 
 ## Specific Mechanisms
 

@@ -26,12 +26,15 @@ export default function PhenomeEvidenceConfidence({
   return (
     <div className={blockClass}>
       <p className={styles.evidenceConfidenceLine}>
-        <strong>Evidence Confidence:</strong> {label}
+        <strong>Phenome Evidence Confidence:</strong> {label}
       </p>
-      <p className={styles.evidenceConfidenceDisclaimer}>
-        Registry-level score for this phenome&apos;s foundational evidence stack — not Biology →
-        Phenome Confidence on individual mechanism pages.
-      </p>
+      {variant !== 'inline' ? (
+        <p className={styles.evidenceConfidenceDisclaimer}>
+          Registry-level score for this phenome&apos;s foundational evidence stack (construct,
+          biology→phenome, and nutrition→biology layers). Independent of Biology → Phenome Confidence
+          and Evidence Confidence on individual mechanism pages.
+        </p>
+      ) : null}
       {evidenceConfidenceNote ? (
         <p className={styles.evidenceConfidenceNote}>{evidenceConfidenceNote}</p>
       ) : null}

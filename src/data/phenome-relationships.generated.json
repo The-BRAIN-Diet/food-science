@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-07-08T14:12:33.049Z",
+    "generatedAt": "2026-07-14T22:57:06.792Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
@@ -210,19 +210,31 @@
       "parentBRS": "BRS3",
       "targetPhenome": "Apprehensive Worry / Perseverative Thought",
       "relationshipType": "modulates",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
+      "confidence": "medium",
+      "evidenceConfidence": "medium",
       "evidenceLevel": "intervention",
-      "rationale": "Omega-3 supplementation lowered anxiety symptoms in stressed medical students alongside inflammatory markers — cytokine-network modulation is the mechanism boundary, not omega-3 as a PM treatment.",
+      "rationale": "Persistent inflammatory signalling through IL-6- and TNF-α-linked cytokine networks is a recognised contributor to anxious and perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). Human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside resolution-phase cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs cytokine-network tone — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.",
       "references": [
         {
           "index": 1,
+          "label": "Slavich & Irwin (2014)",
+          "citationKey": "slavich_stress_inflammation_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014"
+        },
+        {
+          "index": 2,
+          "label": "Marsland et al. (2017)",
+          "citationKey": "marsland_systemic_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#marsland_systemic_2017"
+        },
+        {
+          "index": 3,
           "label": "Kiecolt-Glaser et al. (2011)",
           "citationKey": "kiecolt-glaser_omega-3_2011",
           "href": "/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011"
         },
         {
-          "index": 2,
+          "index": 4,
           "label": "Ferguson et al. (2014)",
           "citationKey": "ferguson_omega3_2014",
           "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014"
@@ -238,19 +250,31 @@
       "parentBRS": "BRS3",
       "targetPhenome": "Apprehensive Worry / Perseverative Thought",
       "relationshipType": "modulates",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
+      "confidence": "medium",
+      "evidenceConfidence": "medium",
       "evidenceLevel": "intervention",
-      "rationale": "Omega-3-derived resolution biology and human RCT evidence for anxiety reduction in stressed adults provide translational support for cytokine-resolution context relevant to apprehensive-worry phenotypes.",
+      "rationale": "Persistent inflammatory signalling and impaired resolution-phase lipid mediator balance are recognised contributors to anxious perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). SPM-oriented resolution biology and human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs eicosanoid–SPM balance — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.",
       "references": [
         {
           "index": 1,
+          "label": "Slavich & Irwin (2014)",
+          "citationKey": "slavich_stress_inflammation_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014"
+        },
+        {
+          "index": 2,
+          "label": "Marsland et al. (2017)",
+          "citationKey": "marsland_systemic_2017",
+          "href": "/docs/papers/BRAIN-Diet-References#marsland_systemic_2017"
+        },
+        {
+          "index": 3,
           "label": "Kiecolt-Glaser et al. (2011)",
           "citationKey": "kiecolt-glaser_omega-3_2011",
           "href": "/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011"
         },
         {
-          "index": 2,
+          "index": 4,
           "label": "Ferguson et al. (2014)",
           "citationKey": "ferguson_omega3_2014",
           "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014"
@@ -5378,15 +5402,15 @@
         "connected_pm_count": 2,
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "intervention",
-        "overall_confidence": "medium",
-        "evidence_summary": "Omega-3 supplementation lowered anxiety symptoms in stressed medical students alongside inflammatory markers — cytokine-network modulation is the mechanism boundary, not omega-3 as a PM treatment. Omega-3-derived resolution biology and human RCT evidence for anxiety reduction in stressed adults provide translational support for cytokine-resolution context relevant to apprehensive-worry phenotypes.",
+        "overall_confidence": "high",
+        "evidence_summary": "Persistent inflammatory signalling through IL-6- and TNF-α-linked cytokine networks is a recognised contributor to anxious and perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). Human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside resolution-phase cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs cytokine-network tone — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement. Persistent inflammatory signalling and impaired resolution-phase lipid mediator balance are recognised contributors to anxious perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). SPM-oriented resolution biology and human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs eicosanoid–SPM balance — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.",
         "contributing_pms": [
           {
             "id": "BRS3-FM3-PM7",
             "name": "Cytokine Network Modulation",
             "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation",
             "relationship_type": "modulates",
-            "confidence": "low-medium",
+            "confidence": "medium",
             "evidence_level": "intervention"
           },
           {
@@ -5394,7 +5418,7 @@
             "name": "Eicosanoid / SPM Balance",
             "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance",
             "relationship_type": "modulates",
-            "confidence": "low-medium",
+            "confidence": "medium",
             "evidence_level": "intervention"
           }
         ]

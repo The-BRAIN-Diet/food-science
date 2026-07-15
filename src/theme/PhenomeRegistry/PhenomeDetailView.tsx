@@ -4,6 +4,8 @@ import registryJson from '../../data/phenome-registry.json';
 import relationshipsJson from '../../data/phenome-relationships.generated.json';
 import { phenomeDetailDocPath } from './phenomeDocPath';
 import PhenomeEvidenceConfidence from './PhenomeEvidenceConfidence';
+import PhenomeScoringKey from '../../components/PhenomeScoringKey';
+import { formatMechanismConfidenceMeta } from './confidence';
 import styles from './styles.module.css';
 
 type TherapeuticAreaEntry = {
@@ -63,6 +65,7 @@ type RelationshipRow = {
   targetPhenomeId: string | null;
   relationshipType: string;
   confidence: string;
+  evidenceConfidence: string;
 };
 
 type RegistryFile = {
@@ -198,17 +201,17 @@ function PhenomeEvidenceBlock({
   return (
     <div className={styles.provenanceBlock}>
       <h3>Foundational Evidence</h3>
+      <p className={styles.evidenceSectionIntro}>
+        Registry-level <strong>Phenome Evidence Confidence</strong> (below) is independent of
+        Biology → Phenome Confidence and Evidence Confidence on individual mechanism pages. Use the
+        scoring guide for definitions of all three scores.
+      </p>
+      <PhenomeScoringKey defaultExpanded />
       <PhenomeEvidenceConfidence
         evidenceConfidence={evidenceConfidence}
         evidenceConfidenceNote={evidenceConfidenceNote}
         variant="inline"
       />
-      {layers.length ? (
-        <p className={styles.evidenceIntro}>
-          Registry-level foundational evidence for this phenome. Mechanism pages link to phenome IDs
-          and carry relationship-specific evidence — not duplicated here.
-        </p>
-      ) : null}
       {layers.map(([key, papers]) => (
         <div key={key} className={styles.evidenceLayer}>
           <p className={styles.evidenceLayerLabel}>{EVIDENCE_LAYER_LABELS[key]}</p>
@@ -354,7 +357,13 @@ export default function PhenomeDetailView({ phenomeId }: PhenomeDetailViewProps)
                       </Link>
                       <span className={styles.mechanismMeta}>
                         {' '}
-                        ({row.relationshipType} · {row.confidence})
+                        (
+                        {formatMechanismConfidenceMeta(
+                          row.relationshipType,
+                          row.confidence,
+                          row.evidenceConfidence,
+                        )}
+                        )
                       </span>
                     </li>
                   ))}

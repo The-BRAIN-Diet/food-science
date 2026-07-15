@@ -280,6 +280,59 @@
   border-left: 2px solid var(--ifm-color-emphasis-200);
 }
 
+.brs-fm-hub-item--open .brs-fm-hub-chevron {
+  transform: rotate(90deg);
+}
+
+.brs-fm-hub-chevron--open {
+  transform: rotate(90deg);
+}
+
+.phenome-scoring-key-hub {
+  margin: 0.75rem 0 1rem;
+}
+
+.phenome-scoring-key-hub .brs-fm-hub-shell {
+  border-color: var(--ifm-color-emphasis-300);
+  background: var(--ifm-color-emphasis-100);
+}
+
+.phenome-scoring-key-intro {
+  margin: 0 0 0.85rem;
+  font-size: 0.88rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.phenome-scoring-key-section + .phenome-scoring-key-section {
+  margin-top: 0.85rem;
+  padding-top: 0.85rem;
+  border-top: 1px dashed var(--ifm-color-emphasis-300);
+}
+
+.phenome-scoring-key-heading {
+  margin: 0 0 0.35rem;
+  font-size: 0.88rem;
+}
+
+.phenome-scoring-key-body {
+  margin: 0 0 0.45rem;
+  font-size: 0.86rem;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.45;
+}
+
+.phenome-scoring-key-sublist {
+  margin: 0.25rem 0 0.45rem;
+  padding-left: 1.2rem;
+  font-size: 0.86rem;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.4;
+}
+
+.phenome-scoring-key-sublist li + li {
+  margin-top: 0.25rem;
+}
+
 /* FM group — parent dropdown listing FM titles; children hold per-FM rows */
 .brs-fm-hub-group-summary-row {
   display: flex;
@@ -397,6 +450,27 @@
   margin-top: 0.5rem;
 }
 
+.brs-hub-dependency-nav-list {
+  margin: 0.75rem 0 1.5rem;
+  padding-left: 1.5rem;
+  list-style: disc;
+}
+
+.brs-hub-dependency-nav-item {
+  margin-bottom: 1rem;
+}
+
+.brs-hub-dependency-nav-title {
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+}
+
+.brs-hub-dependency-nav-summary {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
+}
+
 .brs-hub-integration-section-title {
   font-size: 0.92rem;
   font-weight: 600;
@@ -406,6 +480,22 @@
 
 .brs-hub-integration-section-title:first-child {
   margin-top: 0.25rem;
+}
+
+.brs-hub-integration-derived-note {
+  font-size: 0.88rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0.25rem 0 0.5rem;
+  font-style: italic;
+}
+
+.brs-hub-integration-pm-rel-list {
+  margin: 0.35rem 0 0.75rem;
+  padding-left: 1.25rem;
+}
+
+.brs-hub-integration-pm-rel-item {
+  margin-bottom: 0.35rem;
 }
 
 .brs-hub-levers-intro {

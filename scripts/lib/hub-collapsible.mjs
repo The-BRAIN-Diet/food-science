@@ -34,9 +34,7 @@ export function renderHubCollapsible(title, body, options = {}) {
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
 ${panel}
-
 </div>
 </div>
 </div>`;
@@ -49,9 +47,7 @@ ${panel}
 <strong>${title}</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
-
 ${panel}
-
 </div>
 </div>
 </div>`;

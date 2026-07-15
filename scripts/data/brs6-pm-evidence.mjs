@@ -22,7 +22,7 @@ export const BRS6_PM_EVIDENCE = {
       },
       {
         heading: "Meal-level regulation of glucose entry",
-        body: "Together, fibre density, intact food matrices, macronutrient buffering, and meal sequencing modify the temporal profile of glucose appearance after feeding — the acute meal-level biology this PM represents [Reynolds et al., 2019]; [Kubota et al., 2020].",
+        body: "Together, fibre density, intact food matrices, macronutrient buffering, and meal sequencing modify the temporal profile of glucose appearance after feeding — shaping the meal-level temporal profile of post-prandial glucose appearance [Reynolds et al., 2019]; [Kubota et al., 2020].",
       },
     ],
     referenceNoteKeys: [
@@ -86,7 +86,7 @@ export const BRS6_PM_EVIDENCE = {
       },
       {
         heading: "Diurnal cortisol as a timing mechanism",
-        body: "The characteristic morning cortisol peak and evening downshift coordinate stress responsiveness and metabolic signalling across the day — stability of this pattern is the core regulatory biology this PM represents [Scheer et al., 2009].",
+        body: "The characteristic morning cortisol peak and evening downshift coordinate stress responsiveness and metabolic signalling across the day — and stability of this rhythm shapes daily stress responsiveness and metabolic signalling [Scheer et al., 2009].",
       },
       {
         heading: "Gut-related modulation of waking cortisol",
@@ -173,7 +173,7 @@ export const BRS6_PM_EVIDENCE = {
     blocks: [
       {
         heading: "Metabolic endotoxemia and systemic inflammation",
-        body: "Diet-induced gut barrier changes can increase bacterial lipopolysaccharide translocation into circulation, sustaining low-grade systemic inflammation through gut–immune–metabolic coupling — the core translocation biology this PM represents [Mohammad & Thiemermann, 2021].",
+        body: "Diet-induced gut barrier changes can increase bacterial lipopolysaccharide translocation into circulation, sustaining low-grade systemic inflammation through gut–immune–metabolic coupling — illustrating gut-derived endotoxin translocation and its inflammatory consequences [Mohammad & Thiemermann, 2021].",
       },
       {
         heading: "Adipose tissue as an inflammatory signalling organ",

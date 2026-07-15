@@ -117,11 +117,11 @@ These pressures may impair [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-ta
 
   "BRS3(FM1)": `### 4.3 Suboptimal Function & Its Effects
 
-Anti-inflammatory signalling tone may weaken when antioxidant substrate availability or essential fatty acid balance become chronically inadequate.
+Anti-inflammatory signalling tone may weaken when antioxidant substrate availability becomes chronically inadequate or when habitual EPA/DHA intake fails to support resolution-competent lipid-mediator context.
 
 Low fruit and vegetable intake may reduce [BRS3(KC1) — Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability). Low polyphenol density, poor sulfur-amino-acid and glutathione-building substrate availability, chronic oxidative burden, and ultra-processed patterns displacing antioxidant-rich foods may further amplify inflammatory signalling pressure.
 
-Low omega-3 intake may reduce [BRS3(KC3) — Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance). Excessive omega-6 dominance, low oily-fish consumption, poor fatty-acid diversity, and chronic inflammatory load may skew lipid-mediator context away from resolution-competent signalling.
+Low omega-3 intake may limit EPA/DHA substrate availability for lipid-mediator pathways. Excessive omega-6 dominance, low oily-fish consumption, poor fatty-acid diversity, and chronic inflammatory load may skew lipid-mediator context away from resolution-competent signalling.
 
 Gut barrier compromise and metabolic endotoxemia may amplify gut-derived inflammatory inputs—see [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface).
 
@@ -161,9 +161,9 @@ When failure modes persist, they may impair [BRS3-FM2-PM3 — Nrf2-ARE Antioxida
 
   "BRS3(FM3)": `### 4.3 Suboptimal Function & Its Effects
 
-Inflammation resolution capacity may weaken when essential fatty acid balance becomes chronically unfavourable for specialized pro-resolving mediator formation.
+Inflammation resolution capacity may weaken when habitual EPA/DHA intake and omega-3/omega-6 dietary balance become chronically unfavourable for specialized pro-resolving mediator formation.
 
-Low omega-3 intake may reduce [BRS3(KC3) — Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance). Excessive omega-6 dominance, low oily-fish consumption, poor dietary fatty-acid diversity, and chronic inflammatory load may limit EPA/DHA substrate availability for resolvin, protectin, and maresin pathways [Serhan & Petasis, 2011].
+Low omega-3 intake may limit EPA/DHA substrate availability for resolvin, protectin, and maresin pathways. Excessive omega-6 dominance, low oily-fish consumption, poor dietary fatty-acid diversity, and chronic inflammatory load may further constrain specialised pro-resolving mediator formation [Serhan & Petasis, 2011].
 
 Oxidative damage to membrane lipids—when [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) is strained—may further compromise the lipid environment required for active resolution rather than prolonged cytokine elevation.
 

@@ -12,7 +12,7 @@ Each BRS hub page should orient readers in under one minute: explain the biologi
 
 | # | Section | Status |
 |---|---------|--------|
-| 1 | Title + subtitle | Required |
+| 1 | Title + functional descriptor | Required |
 | 2 | **Ambition** | Required — manual |
 | 3 | **Therapeutic Area Research** | BRS1–BRS6 ADHD dropdowns — [BRS Hub ADHD TA Dropdown](./brs-hub-ta-adhd-dropdown-schema.md); [BRAIN TA Evidence Integration Standard v1.2](./brain-ta-evidence-integration-standard.md) |
 | 4 | **Key Constraints (Dietary Bottlenecks)** | Required — regenerate with `npm run brs:generate-hub-key-constraints` |
@@ -46,11 +46,11 @@ Source of truth: `scripts/data/brs-cross-integration-evidence.json` (also consum
 
 ## Cross-BRS Dependencies
 
-Cross-BRS dependencies explain **how the Functional Mechanisms within one Biological Regulatory System collectively preserve the adaptive performance of another during sustained physiological demand.** Category B evidence — not ADHD intervention studies. Rendered as collapsible four-section notes on each hub page.
+Cross-BRS dependencies explain **how the Functional Mechanisms within one Biological Regulatory System collectively preserve the adaptive performance of another during sustained physiological demand.** Category B evidence — not ADHD intervention studies. Rendered as collapsible notes on each hub page.
 
-**Hub section intro** (all BRS1–BRS6 hub pages):
+**Canonical graph rule:** PM §6.2 **Cross-BRS Mechanism Relationships** are the single canonical home for explicit PM-to-PM biological relationships. Hub Cross-BRS Dependencies provide **systems-level interpretation** on the hub — they must **not** duplicate PM relationship lists (no **Declared PM Relationships** panels).
 
-> Cross-BRS dependencies describe how one Biological Regulatory System supports, constrains or preserves the adaptive performance of another. They are derived from the integrated regulatory capacities of each BRS rather than isolated biological mechanisms. Together, the six Biological Regulatory Systems form an adaptive network in which resilience depends upon coordinated system performance.
+**PM relationships are not the BRS dependency.** PM §6.2 declarations provide mechanistic evidence supporting the dependency, but a BRS dependency is a systems-level biological interpretation informed by literature, physiology, integrated BRS architecture, and expert interpretation.
 
 ### Core principle
 
@@ -60,16 +60,21 @@ Every Cross-BRS relationship answers:
 
 Derive the biological story from the **contributing BRS architecture** (its FMs). Literature validates the conclusion; it does not lead the narrative. The **Biological Regulatory System** is always the unit of explanation.
 
-### Four-section structure (required)
+### Hub panel structure (required)
 
-Each relationship in `scripts/data/brs-cross-integration-evidence.json` uses four fields. Each section answers one question:
+Each relationship in `scripts/data/brs-cross-integration-evidence.json` uses system-level fields. Each hub collapsible uses these layers:
 
-| # | Field | Section title | Question |
-|---|-------|---------------|----------|
+| # | Field / layer | Section title | Question |
+|---|---------------|---------------|----------|
 | 1 | `biological_contribution` | **Biological Contribution** | What does this BRS snapshot collectively contribute? |
 | 2 | `systems_significance` | **Systems Significance** | Why does preserving this capacity matter for the downstream BRS? |
 | 3 | `integrated_regulatory_capacity` | **Integrated Regulatory Capacity** | What integrated regulatory capacities produce this cross-BRS relationship? |
-| 4 | `evidence[]` | **Supporting Evidence** | Which landmark reviews validate the interpretation? |
+| 4 | `evidence[]` | **Supporting Evidence** | Which landmark reviews validate the systems interpretation? |
+| — | `translational_examples[]` (optional) | **Translational Examples** | Worked intervention examples — not proof of every intermediate step |
+
+**Panel order (required):** Biological Contribution → Systems Significance → Integrated Regulatory Capacity → **Supporting Evidence** → Translational Examples (if any).
+
+**Do not render Declared PM Relationships on hub pages.** PM §6.2 on Primary Mechanism pages is the canonical PM-to-PM graph.
 
 Hub renderer: `scripts/lib/brs-hub-cross-integration.mjs`. Regenerate hubs: `npm run brs:generate-hub-cross-integration`.
 
@@ -295,7 +300,21 @@ Dietary Guidance is a top-level collapsible dropdown labelled **Dietary Guidance
 
 CSS classes live in `src/css/custom.css` (`.brs-hub-dietary-guidance-*`).
 
-**Important:** BRS1 Dietary Guidance is **manually authored** inside `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-levers:end -->`. Do **not** run `npm run brs:generate-hub-levers` on BRS1 until the generator is updated for this schema — it will overwrite manual content with the legacy Dietary Strategy / Target Foods layout.
+**Important:** BRS1–BRS6 Dietary Guidance is **manually authored** inside `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-levers:end -->`. Do **not** run `npm run brs:generate-hub-levers-legacy` on migrated hubs — it is disabled and will refuse to run because the legacy renderer still outputs the obsolete Dietary Strategy / Target Foods layout and would overwrite approved **Dietary Guidance**, **Optimisation Levers**, and **Lifestyle Priorities** content.
+
+**Approved maintenance command (BRS1–BRS6):**
+
+```bash
+npm run brs:patch-hub-levers-section
+```
+
+This command refreshes section intros and Optimisation Levers panels only. It does not replace Dietary Guidance body content.
+
+**Regression guard:**
+
+```bash
+npm run test:brs-hub-levers-guard
+```
 
 ---
 
@@ -306,8 +325,8 @@ The generated block between `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-leve
 | # | Hub dropdown | PM section | Purpose |
 |---|--------------|------------|---------|
 | 4.1 | **Dietary Guidance** | §4.1 Direct Dietary Levers | What to eat — patterns, nutrients, biology, target foods |
-| 4.2 | **Optimisation Levers** | §4.3 Optimisation Levers | How to prepare, combine, or handle foods and exposures to improve bioavailability, reduce degradation, or limit avoidable biological load |
-| 4.3 | **Lifestyle Priorities** | §4.2 Lifestyle Levers | Behavioural and temporal levers (sleep, activity, meal timing, stress recovery) |
+| 4.2 | **Optimisation Levers** | §4.2 Optimisation Levers | How to prepare, combine, or handle foods and exposures to improve bioavailability, reduce degradation, or limit avoidable biological load |
+| 4.3 | **Lifestyle Priorities** | §4.3 Lifestyle Levers | Behavioural levers (sleep, activity, stress recovery, circadian routines) — not dietary delivery or preparation |
 
 ### Optimisation Levers
 
@@ -322,7 +341,7 @@ The generated block between `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-leve
 **Biological connection:**
 
 - **FM §4.2 Integrated Functional Narrative** may reference why suboptimal preparation or exposure matters at the **integrated biology** level when relevant to emergent capacity.
-- **PM §4.3 Optimisation Levers** states the actionable optimisation strategy at mechanism level.
+- **PM §4.2 Optimisation Levers** states the actionable optimisation strategy at mechanism level.
 - **Hub Optimisation Levers** integrates and deduplicates across PMs for the BRS reader.
 
 **Do not** place preparation instructions or dietary cause narratives in **FM §4.3** — that section describes consequences of lost FM capacity only.
@@ -339,7 +358,7 @@ Third collapsible dropdown labelled **Optimisation Levers**, placed immediately 
 | Layer | Location |
 |-------|----------|
 | **Curated hub levers** | `scripts/data/brs-hub-optimisation-levers.mjs` |
-| **PM levers** | §4.3 Optimisation Levers on PM pages |
+| **PM levers** | §4.2 Optimisation Levers on PM pages |
 | **FM biology (integrated context)** | FM §4.2 Integrated Functional Narrative |
 | **Practical detail** | Food Profiles (primary home for preparation instructions) |
 
@@ -351,9 +370,18 @@ Third collapsible dropdown labelled **Optimisation Levers**, placed immediately 
 
 ---
 
-## Legacy: generated Dietary Strategy block (BRS2–BRS6)
+## Legacy: generated Dietary Strategy block (disabled on migrated BRS1–BRS6)
 
-The sections below describe the **previous** auto-generated hub lever block. BRS2–BRS6 still use this layout until migrated to the [BRS Dietary Guidance Standard](#brs-dietary-guidance-standard-final). BRS1 has been migrated.
+The sections below describe the **previous** auto-generated hub lever block. **BRS1–BRS6 have migrated** to the [BRS Dietary Guidance Standard](#brs-dietary-guidance-standard-final). BRS-X hubs may still use the legacy layout until migrated.
+
+### Generator status
+
+| Command | Status |
+|---------|--------|
+| `npm run brs:patch-hub-levers-section` | **Approved** — safe maintenance for migrated hubs |
+| `npm run brs:generate-hub-levers-legacy` | **Disabled** — exits immediately on migrated BRS1–BRS6 hubs |
+
+The legacy generator (`scripts/generate-brs-hub-levers.mjs` → `renderHubLeversHtml()`) must not be run against real migrated hub pages until it is rebuilt to emit the three-panel architecture and proven idempotent on `scripts/fixtures/brs-hub-migrated-levers.fixture.md`.
 
 ### Rollup purpose (legacy)
 
@@ -370,10 +398,16 @@ Make each core BRS hub page practically useful by showing the consolidated dieta
 | **Generated registry** | `src/data/brs-hub-levers.generated.json` |
 | **Hub pages** | HTML block between `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-levers:end -->` |
 
-Regenerate after PM lever edits, copy-map changes, or **TA Phases 7 and 7.5** (BRS2–BRS6 only until generator is updated):
+Regenerate after PM lever edits, copy-map changes, or **TA Phases 7 and 7.5** only on **non-migrated** hubs. For migrated BRS1–BRS6 hubs, use safe maintenance instead:
 
 ```bash
-npm run brs:generate-hub-levers
+npm run brs:patch-hub-levers-section
+```
+
+Legacy full regeneration (disabled on migrated BRS1–BRS6):
+
+```bash
+npm run brs:generate-hub-levers-legacy
 ```
 
 ## TA evidence integration (Phases 7 and 7.5)
@@ -390,7 +424,7 @@ Practical content removed from the TA dropdown must be **re-homed** per Phase 7.
 1. `KEY_DIETARY_STRATEGY_PROSE` / `KEY_DIETARY_STRATEGY_TARGETS` (legacy — migrate to Dietary Guidance on hub rewrite)
 2. `scripts/data/brs-hub-signature-foods.mjs` (legacy target foods — migrate into Dietary Guidance target-food lines)
 3. `scripts/data/brs-hub-lifestyle-priorities.mjs`
-4. PM §4.3 Optimisation Levers + FM §4.2 integrated biology (not FM §4.3 — consequences only)
+4. PM §4.2 Optimisation Levers + FM §4.2 integrated biology (not FM §4.3 — consequences only)
 5. PM dietary levers (`substance ← food`)
 6. Food pages (primary home for preparation guidance)
 7. Substance pages (evidence-linked)
@@ -421,7 +455,7 @@ Preparation methods are **modifiers of food interventions**. Examples include bo
 | **Food pages (primary)** | Practical preparation guidance lives on the relevant food page where the intervention is described |
 | **Dietary Guidance (primary)** | General preparation principles that apply across multiple foods (e.g. reducing AGE formation, improving mineral bioavailability, preserving polyphenols) may be summarised in hub Dietary Guidance where biologically relevant |
 | **FM §4.2 (integrated biology only)** | FMs may explain why preparation matters at the **integrated capacity** level when relevant to emergent function — not cooking instructions |
-| **PM §4.3 Optimisation Levers** | Actionable preparation/bioavailability strategies at mechanism level |
+| **PM §4.2 Optimisation Levers** | Actionable preparation/bioavailability strategies at mechanism level |
 | **Not Lifestyle Priorities** | Cooking, preparation, and bioavailability strategies are **Optimisation Levers** — not behavioural lifestyle levers |
 | **Not FM §4.3** | FM §4.3 describes **consequences** of lost FM capacity — not dietary causes or preparation rationale |
 
@@ -444,7 +478,7 @@ Distinguish consistently between **biological architecture** and **intervention 
 - Lifestyle
 - Recipes
 
-Food preparation is **not** an independent intervention category. Preparation modifies food interventions and is therefore treated as a **property of food pages** (with biological context on PM §4.3 Optimisation Levers and hub Optimisation Levers where relevant).
+Food preparation is **not** an independent intervention category. Preparation modifies food interventions and is therefore treated as a **property of food pages** (with biological context on PM §4.2 Optimisation Levers and hub Optimisation Levers where relevant).
 
 ### 3. Biological Intervention Ledger
 
@@ -542,12 +576,12 @@ Curated **Target Foods** with BRS-specific captions live in `scripts/data/brs-hu
 
 Separate top-level collapsible **Lifestyle Priorities** dropdown — unchanged by the Dietary Guidance migration. Still applies to all BRS1–BRS6 hub pages.
 
-This is a **BRS-level educational summary** — not a collection of PM annotations. PM pages retain mechanistic lifestyle detail in §4.2; the hub presents integrated behavioural themes.
+This is a **BRS-level educational summary** — not a collection of PM annotations. PM pages retain mechanistic lifestyle detail in §4.3; the hub presents integrated behavioural themes.
 
 ### Deduplication process
 
 ```text
-All PM §4.2 lifestyle notes
+All PM §4.3 lifestyle notes
 ↓
 Identify common behavioural themes (match patterns)
 ↓
@@ -596,15 +630,15 @@ Additional rules:
 | Layer | Location |
 |-------|----------|
 | **Curated priorities** | `scripts/data/brs-hub-lifestyle-priorities.mjs` — action, explanation, `match_lifestyle` / `match_pm_ids` |
-| **PM provenance** | Attached at generation from PM §4.2 lines matching patterns |
+| **PM provenance** | Attached at generation from PM §4.3 lines matching patterns |
 | **PM pages** | Authoritative mechanistic detail (unchanged) |
 
 Target **~5–8 distinct priorities per BRS**, not one per PM.
 
-Regenerate after editing curated priorities or PM §4.2 content:
+Regenerate after editing curated priorities or PM §4.3 content on **non-migrated** hubs only. For migrated BRS1–BRS6 hubs:
 
 ```bash
-npm run brs:generate-hub-levers
+npm run brs:patch-hub-levers-section
 ```
 
 ## Registry shape (`brs-hub-levers.generated.json`)
@@ -628,7 +662,7 @@ brs:
       pm_count: number
       unique_foods: number
       unique_lifestyle: number          # integrated hub priorities (5–8 target)
-      pm_lifestyle_notes: number        # raw PM §4.2 lines before merge (when integrated)
+      pm_lifestyle_notes: number        # raw PM §4.3 lines before merge (when integrated)
       unique_key_constraints: number
       nutrient_dense_stars: number
 ```
@@ -685,7 +719,7 @@ PM pattern prose is appended when not semantically redundant.
 4. Secondary: prose bullets with `such as …` / `including …` food lists (common on BRS6 meal-timing PMs).
 5. Pattern prose: §4.1.1 bullets without extractable food tokens roll into `dietary_strategy_targets`.
 6. Normalize aliases (`EVOO` → extra-virgin olive oil, `oily fish` → salmon, sardines, mackerel, `fish roe` → signature star).
-7. Lifestyle: PM §**4.2** remains authoritative on PM pages; hub **Lifestyle Priorities** are integrated from `scripts/data/brs-hub-lifestyle-priorities.mjs` with PM provenance matched at generation time.
+7. Lifestyle: PM §**4.3** remains authoritative on PM pages; hub **Lifestyle Priorities** are integrated from `scripts/data/brs-hub-lifestyle-priorities.mjs` with PM provenance matched at generation time.
 8. Hub registry includes **nutrient_dense_stars** only; assign via `SIGNATURE_FOODS` and `categorizeFood()`.
 
 ## Core BRS hub page map

@@ -13,6 +13,7 @@ import {
   resolveFoodPageHref,
   titleCaseFood,
 } from "./brs-hub-levers.mjs";
+import { RETIRED_KC_HREFS, isNativeKcForBrs } from "./kc-registry.mjs";
 
 export const HUB_KC_MARKERS = {
   start: "<!-- brs-hub-key-constraints:start -->",
@@ -52,6 +53,8 @@ const KC_FOOD_EXPANSIONS = {
   meat: ["beef", "chicken", "turkey"],
   cheese: ["cheddar cheese"],
   poultry: ["chicken", "turkey"],
+  algae: ["algal oil"],
+  trout: ["trout roe"],
 };
 
 function expandKcFoodToken(raw) {
@@ -63,6 +66,7 @@ function expandKcFoodToken(raw) {
 
 export function parseKcSharedPoolFoods(content) {
   const sec =
+    content.match(/### 2\. Core Nutritional Requirements\n([\s\S]*?)(?=\n### 3\.)/) ||
     content.match(/### 2\. Shared Biological Pool\n([\s\S]*?)(?=\n### 3\.)/) ||
     content.match(/### 3\.[^\n]*\n([\s\S]*?)(?=\n### 4\.)/);
   if (!sec) return [];
@@ -105,7 +109,12 @@ function listKcPagesForBrs(brsId, rootDir = process.cwd()) {
         foods: parseKcSharedPoolFoods(content),
       };
     })
-    .filter((kc) => kc.parent_brs === brsId);
+    .filter((kc) => kc.parent_brs === brsId && !RETIRED_KC_HREFS.has(kc.href));
+}
+
+/** Hub Key Constraints list only KCs owned by the host BRS (never cross-BRS imports). */
+function mergeHubKcRollup(brsId, rootDir = process.cwd()) {
+  return listKcPagesForBrs(brsId, rootDir).sort((a, b) => a.label.localeCompare(b.label));
 }
 
 function dedupeFoodLinks(foods, rootDir) {
@@ -126,7 +135,7 @@ function dedupeFoodLinks(foods, rootDir) {
  * @param {string} [rootDir]
  */
 export function buildHubKeyConstraintsData(brsId, rootDir = process.cwd()) {
-  const kcs = listKcPagesForBrs(brsId, rootDir);
+  const kcs = mergeHubKcRollup(brsId, rootDir);
   const allFoods = kcs.flatMap((kc) => kc.foods);
   const intro =
     HUB_KC_SECTION_INTRO[brsId] ||

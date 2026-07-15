@@ -1,6 +1,6 @@
 {
   "version": "2.2",
-  "description": "Landmark mechanistic evidence for Cross-BRS Dependencies. Four-section structure per relationship. BRS6→BRS1 carries the canonical allostasis implementation narrative. Authoring: system/brs-hub-levers-schema.md § Cross-BRS Dependencies.",
+  "description": "Landmark mechanistic evidence and systems interpretation for Cross-BRS Dependencies. BRS Dependency pages carry full interpretation; hub pages link to them. PM §6.2 remains the canonical PM-to-PM graph on Primary Mechanism pages only. Authoring: system/brs-hub-levers-schema.md § Cross-BRS Dependencies.",
   "integrations": {
     "BRS4->BRS1": {
       "title": "BRS4 → BRS1",
@@ -193,6 +193,15 @@
       "biological_contribution": "Collectively, the Functional Mechanisms within BRS6 maintain adaptive stress–metabolic load allocation that enables BRS3 to sustain immune and redox regulation under prolonged physiological demand.",
       "systems_significance": "By preserving neuroendocrine and autonomic regulatory capacity, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. This reduces the likelihood that chronic stress activation progressively constrains immune regulation within BRS3 as allostatic load accumulates. Maintaining BRS6 therefore complements direct immune-modulatory biology within BRS3 by preserving systemic stress containment rather than substituting for inflammatory regulation itself.",
       "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS6 maintain HPA-axis rhythm, autonomic balance and metabolic load allocation required to regulate how stress mediators interact with inflammatory and oxidative biology during prolonged physiological demand. Rather than acting through a single stress hormone, these integrated capacities collectively shape the systemic conditions within which BRS3 sustains proportionate immune and redox regulation.",
+      "translational_examples": [
+        {
+          "citation": "Kiecolt-Glaser et al. (2011)",
+          "citation_key": "kiecolt-glaser_omega-3_2011",
+          "primary_mechanism": "BRS3-FM3-PM7 — Cytokine Network Modulation",
+          "primary_mechanism_href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation",
+          "framing": "Worked translational example: omega-3 supplementation reduced inflammatory cytokines (including IL-6) alongside anxiety symptoms in stressed adults. The principal inflammatory biology is measured and owned by BRS3-FM3-PM7; this dependency interprets how metabolic and neuroendocrine context (BRS6) may condition such inflammatory outcomes — without claiming this single study validates every intermediate step in the BRS6 → BRS3 pathway."
+        }
+      ],
       "evidence": [
         {
           "citation": "McEwen (2006)",
@@ -229,7 +238,7 @@
       ]
     }
   },
-  "cross_brs_framework_intro": "Cross-BRS dependencies describe how each Biological Regulatory System supports, constrains or preserves the adaptive performance of others through integrated regulatory capacities rather than isolated mechanisms. The six BRSs form a coordinated adaptive network in which resilience depends on system-wide performance.",
+  "cross_brs_framework_intro": "Cross-BRS dependencies are systems-level biological interpretations of how one Biological Regulatory System constrains another. They are informed by literature, integrated BRS architecture, allostatic context, expert interpretation, and mechanistic evidence from PM pages — but PM §6.2 Cross-BRS Mechanism Relationships remain the canonical PM-to-PM graph on Primary Mechanism pages only.",
   "hub_cross_brs_summaries": {
     "BRS1": "Neurotransmitter regulation rarely fails in isolation. Stable attention, motivation and emotional regulation depend on coordinated performance across bioenergetic, inflammatory, gut-derived and stress-recovery biology. When upstream load accumulates, signalling instability often appears first — even when the primary limitation lies elsewhere in connected regulatory biology.",
     "BRS2": "One-carbon metabolism is not an isolated vitamin pathway. Methyl-group throughput, remethylation and transsulfuration supply shared biochemical infrastructure on which monoamine turnover, redox defence and membrane maintenance all depend. When one-carbon capacity is constrained, the limitation rarely announces itself as a methylation defect alone — it propagates into neurotransmission and oxidative resilience downstream.",

@@ -14,16 +14,54 @@ This schema defines the canonical data contract and authoring contract for Key C
 
 ## KC Definition
 
-A Key Constraint (KC) is a shared substrate, precursor, or structural biological pool whose availability constrains the effective operation of multiple Primary Mechanisms (PMs) within a Biological Regulation System (BRS).
+A Key Constraint (KC) is a **shared substrate, precursor, or structural biological pool** whose availability can **constrain multiple biologically distinct Primary Mechanisms (PMs) simultaneously** within a Biological Regulation System (BRS).
 
 KCs describe:
 
 - shared substrate pools
 - shared precursor pools
 - shared structural biological pools
-- resources drawn upon by multiple PMs
+- resources drawn upon by multiple PMs across distinct mechanisms
 
-Examples: amino acids, methyl donors, macronutrient fuels, antioxidant precursors, essential fatty acids, structural membrane lipids.
+### KC inclusion test (required)
+
+Before creating or retaining a KC, apply:
+
+> Does this resource function as a **shared limiting pool across several biologically distinct mechanisms**, or is it primarily a **direct dietary input to a specific mechanism**?
+
+If it is primarily a direct input to a specific PM, FM, or narrow PM group, **do not** represent it as a KC. Retain it within:
+
+- PM **§4.1 Direct Dietary Levers** and **§4.1.2 Cofactors**
+- **BRS Dietary Guidance** on hub pages
+- relevant **FM** summaries and **Cross-BRS Dependencies**
+
+Importance alone does not justify KC status. Do not rename a PM dietary lever as a “pool.”
+
+### Architectural boundary
+
+| Layer | Role |
+|---|---|
+| **KC** | Shared substrate, precursor or cofactor dependency spanning multiple distinct mechanisms **within one BRS** |
+| **PM Dietary Lever** | Nutrient, compound, food or dietary strategy that directly influences a particular mechanism |
+| **BRS Dietary Guidance** | Broader practical dietary synthesis across the system |
+| **Cross-BRS Dependency** | How one regulatory system supports or constrains another |
+
+Do not blur these layers.
+
+### Cross-BRS rule (required)
+
+**Do not promote cross-BRS Key Constraints into another Biological Regulatory System hub.**
+
+- A KC belongs exclusively to the BRS that owns the shared biological resource.
+- Hub **Key Constraints (Dietary Bottlenecks)** lists **native KCs only** for that BRS.
+- If BRS1 depends on BRS2 or BRS3 biology, represent that only in **Cross-BRS Dependencies** — not by importing BRS2(KC1) or retired BRS3(KC3) into the BRS1 KC block.
+- PM §4.1.3 may still link cross-BRS KCs where a PM genuinely draws on an external pool; that does **not** roll up to foreign hub KC sections.
+
+**Native biology → native Key Constraints. Cross-system biology → Cross-BRS Dependencies.**
+
+Examples of valid KCs: amino-acid competitive pools, methyl-donor pools, fermentable-fibre substrate availability, antioxidant precursor sufficiency.
+
+**Not valid as KCs:** essential fatty acids or EPA/DHA balance when they primarily duplicate membrane-lipid or inflammation-resolution PM dietary levers (retired: `BRS3(KC3)`).
 
 KCs should NOT describe:
 
@@ -73,15 +111,28 @@ than PMs.
 
 Render sections in this exact order (Section Rules are authoritative):
 
-1. Ambition — concise statement of the desired biological shared-resource state.
+**Profile A (current — all KC pages migrated):**
+
+1. Ambition — concise statement of the biological resource condition being maintained.
+2. Core Nutritional Requirements — validated shared resources with representative foods (`Resource ← foods`).
+3. Evidence Base — why §2 resources qualify as genuine shared biological requirements.
+4. Emerging Biological Supports — source-led candidates that may support regulatory capacity but are not established core requirements (explicit “none prioritised” when empty).
+5. Connected Mechanisms (#### Functional Mechanisms, #### Primary Mechanisms)
+6. Key References — established-resource sources; separate emerging-support sources where listed.
+
+**Legacy Profile (retired — do not use):**
+
+1. Ambition
 2. Shared Biological Pool
 3. Biological Importance
-4. Connected Mechanisms (#### Functional Mechanisms, #### Primary Mechanisms)
+4. Connected Mechanisms
 5. Key References
 
 Page title line format (above section 1):
 
 `### {kc_id} - {name}`
+
+Optional **functional descriptor** on the next line — parenthetical explanation of the shared resource's biological role (see `system/mechanism-page-section-prose.md`).
 
 ---
 
@@ -105,67 +156,80 @@ Rules:
 
 KCs define the resource state being maintained, not pathway dynamics.
 
-### 2. Shared Biological Pool
+### 2. Core Nutritional Requirements
 
-List shared biological resources (substrates, precursors, structural components) using PM-style substance-to-food mapping bullets.
+List **validated** shared nutritional resources (substrates, precursors, structural components) using the translational format:
+
+`Resource or nutrient target ← representative foods`
 
 Purpose:
 
-- identify the biologically proximal pool members shared across multiple PMs
+- identify established dietary requirements, indispensable substrates, and required cofactors shared across multiple PMs
 - anchor the KC in real biological resources without turning the KC into a PM
 
-Pool items should generally be:
+Inclusion threshold (all must apply):
 
-- substrates
-- precursors
-- structural molecules
-- essential fatty acids
-- macronutrient fuels
+- established dietary requirement, indispensable substrate, or required cofactor
+- inadequate availability can materially constrain connected biology
+- shared across multiple relevant mechanisms — not a direct lever for only one PM
 
 Format:
 
 - one resource per bullet
 - use `Resource ← food, food, food`
-- 2–3 representative foods per resource where possible
+- 2–4 representative foods per resource where possible
 - do not add extra explanatory prose in this section
 
 Avoid:
 
-- cofactors (selenium, zinc, copper, manganese — belong on PM §7.2)
-- category + member duplication in the same list (for example: `Sulfur amino acids` with `methionine` and `cysteine`)
-- mixed abstraction levels (category terms, individual molecules, and functional pathway labels in one pool)
-- pathway descriptors as list items (`methyl-group donor pools supporting one-carbon transfer`)
-- vague healthy-food lists, recipes, whole diets, or PM-style intervention protocols
+- cofactors listed only on PM §4.1.2 (unless established shared requirement)
+- category + member duplication without distinct KC rationale
+- pathway descriptors as list items
+- vague healthy-food lists or PM-style intervention protocols
 
-Render as plain bullet points only (no table, no subheadings).
+**Legacy heading:** `### 2. Shared Biological Pool` (retire on migration)
 
-This section should answer:
+### 3. Evidence Base
 
-> What explicit shared biological resources do multiple PMs draw upon, and what representative foods supply them?
+Replace legacy **Biological Importance**. Explain why §2 resources qualify as **Core Nutritional Requirements**.
 
-Do not list downstream microbial metabolites (e.g. SCFAs) as if they are intrinsic food substances.
+Answer:
 
-Do not attempt to individually cite every listed pool member (avoid citation explosion).
+> What evidence establishes these nutrients or substrates as genuine shared biological requirements for this KC?
 
-### 3. Biological Importance
+Required content:
 
-Educational explanation of:
+- concise synthesis of biochemical/physiological necessity
+- deficiency or insufficiency evidence where relevant
+- precursor, substrate, cofactor, or structural roles
+- evidence that several connected mechanisms draw on the resource
+- human nutritional relevance
+- important limitations or boundaries
 
-- why this pool exists biologically
-- why multiple mechanisms share this same pool
-- why insufficiency can constrain several PMs at once
-- why maintaining this pool supports broader biological regulation
-- where relevant, cross-BRS implications
+Evidence claim:
 
-Keep concise and foundational, but richer than a one-line restatement of Ambition.
+> **Adequate availability is required to prevent biological constraint.**
 
-Avoid:
+Not automatically:
 
-- detailed pathway explanations
-- heavy mechanism prose
-- intervention discussion
+> **Additional intake enhances performance.**
 
-### 4. Connected Mechanisms
+Use a short visible **Summary** (synthesis and practical advice grounded in §2) plus hub-collapsible dropdowns per main resource group. Each dropdown opens with `#### Biological Importance` explaining that resource’s contribution to the KC, followed by `Supporting Evidence` using linked bibliography entries in hub integration format (`<a href="/docs/papers/BRAIN-Diet-References#citation_key">Author et al., Year</a> — …`). Related resources (e.g. tryptophan and tyrosine) may share one dropdown with multiple evidence items. Do not create large audit tables.
+
+**Legacy heading:** `### 3. Biological Importance` (retire on migration)
+
+### 4. Emerging Biological Supports
+
+Compounds with credible evidence that they **may** support the KC’s regulatory capacity under specific conditions — **not** core nutritional requirements.
+
+For each candidate (when listed):
+
+- **Why it is interesting** — regulatory capacity supported
+- **Why it remains emerging** — evidence boundary (preclinical, condition-specific, inconsistent supplementation, etc.)
+
+When no candidate meets the threshold, state explicitly that no Emerging Biological Supports are currently prioritised. Do not populate from trend lists.
+
+### 5. Connected Mechanisms
 
 List connected PMs and FMs that depend on this KC.
 
@@ -180,7 +244,7 @@ KCs may support multiple PMs/FMs simultaneously.
 
 KC pages must not define PM→PM or FM→FM dependencies.
 
-### 5. Key References
+### 6. Key References
 
 See **KC Evidence Layer Rules** below for citation philosophy, density, hierarchy, and resolution requirements.
 
@@ -414,14 +478,17 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 |---|---|
 | — | `### {kc_id} - {name}` (page identifier line) |
 | 1 | `### 1. Ambition` |
-| 2 | `### 2. Shared Biological Pool` |
-| 3 | `### 3. Biological Importance` |
-| 4 | `### 4. Connected Mechanisms` |
-| 5 | `### 5. Key References` |
+| 2 | `### 2. Core Nutritional Requirements` (legacy: `Shared Biological Pool`) |
+| 3 | `### 3. Evidence Base` (legacy: `Biological Importance`) |
+| 4 | `### 4. Emerging Biological Supports` |
+| 5 | `### 5. Connected Mechanisms` |
+| 6 | `### 6. Key References` |
 
 ## Validation Rules
 
 - Must not include scoring formulas or SMs during initial rollout.
+- Apply the **KC inclusion test** before adding any new KC; reject PM dietary levers repackaged as shared pools.
+- Retired KCs are listed in `scripts/lib/kc-registry.mjs` and must not appear on hub pages, PM §4.1.3, or public KC routes.
 - `connected_mechanisms.fms` and `connected_mechanisms.pms` must link to existing FM/PM pages when links are used.
 - If a required substance or food entity is unresolved, flag: `Missing system entity: [name]`
 - Every `references[].citation_key` must resolve to `static/bibtex/BRAIN-diet.bib` before publish.
@@ -441,3 +508,27 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 - `requirement_type` as a rendered page section (may remain ingest metadata only)
 - `summary` as section 1 body field for KC pages (use `ambition`)
 - `constraint_role` section or front matter field on new KC pages
+
+---
+
+## KC audit notes (2026-03)
+
+**Retired:** `BRS3(KC3) — Essential Fatty Acid Balance` — duplicated EPA/DHA and omega-3/omega-6 guidance already owned by BRS1-FM3-PM6, BRS3-FM2-PM5, BRS3-FM3-PM7/PM8, and BRS Dietary Guidance. Retained as PM Dietary Levers and Cross-BRS dependencies only.
+
+**Retain (passes shared-pool test):**
+
+| KC | Rationale |
+|---|---|
+| BRS1(KC1) | LNAA / amino-acid competitive pool constrains multiple distinct BRS1 PMs (transport, monoaminergic, GABA/glutamate) |
+| BRS2(KC1), BRS2(KC2) | Methyl-donor and transsulfuration substrate pools shared across remethylation, SAMe, glutathione, and membrane PMs |
+| BRS3(KC1) | Antioxidant precursor pool shared across NF-κB, NRF2, ROS balance, lipid peroxidation, and network recycling PMs |
+| BRS4(KC1), BRS4(KC2) | Macronutrient fuel and mitochondrial cofactor pools shared across ETC, NAD⁺, biogenesis, and substrate-switching PMs |
+| BRS5(KC1), BRS5(KC2) | Fermentable-fibre and polyphenol/plant-diversity inputs shared across barrier, SCFA, keystone-taxa, and gut–brain PMs |
+| BRS5(KC3) | Barrier-supportive nutrient pool (zinc, vitamin A, glutamine context) shared across multiple BRS5(FM1) PMs — distinct from single-nutrient PM levers |
+| BRS6(KC1), BRS6(KC2) | Glucose substrate and stress-response micronutrient pools shared across glycaemic, HPA, and metabolic PMs |
+
+**Review if expanded (borderline):**
+
+| KC | Concern |
+|---|---|
+| BRS-X(ECS-KC1) | Phospholipid/NAPE pool currently spans ECS FM1 PMs only — valid only while multiple distinct ECS PMs genuinely share the pool; do not use for generic omega-3 or phospholipid PM levers |

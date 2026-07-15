@@ -6,7 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { ENHANCEMENTS, FM_SUBTITLES } from "./translational-enhancements.mjs";
+import { ENHANCEMENTS, FM_FUNCTIONAL_DESCRIPTORS } from "./translational-enhancements.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "../..");
@@ -132,7 +132,7 @@ function buildEntry(relPath, extracted) {
     throw new Error(`Missing OVERRIDES entry for ${relPath}`);
   }
   const entry = { path: relPath, ...override };
-  if (entry.subtitle === undefined) delete entry.subtitle;
+  if (entry.functional_descriptor === undefined) delete entry.functional_descriptor;
   return entry;
 }
 
@@ -141,7 +141,7 @@ function buildOverridesMap() {
     ...listGroupFiles(["brs2", "brs-x"]),
     ...listGroupFiles(["brs3", "brs4", "brs5", "brs6"]),
   ];
-  /** @type {Record<string, { subtitle?: string, translational: string, scientific: string, bullets: string[] }>} */
+  /** @type {Record<string, { functional_descriptor?: string, translational: string, scientific: string, bullets: string[] }>} */
   const map = {};
 
   for (const relPath of allFiles) {
@@ -182,10 +182,10 @@ function buildOverridesMap() {
       bullets: bullets.map((b) => b.replace(/^\*\s*/, "").trim()),
     };
 
-    if (FM_SUBTITLES[relPath]) {
-      entry.subtitle = FM_SUBTITLES[relPath];
+    if (FM_FUNCTIONAL_DESCRIPTORS[relPath]) {
+      entry.functional_descriptor = FM_FUNCTIONAL_DESCRIPTORS[relPath];
     } else if (isFmPage(relPath)) {
-      throw new Error(`FM page missing subtitle: ${relPath}`);
+      throw new Error(`FM page missing functional descriptor: ${relPath}`);
     }
 
     if (entry.bullets.length !== 3) {

@@ -87,7 +87,7 @@ When an FM has **exactly one** child PM (`mechanisms_covered.length === 1`), §3
 
 ## Canonical disclaimer — PM §3
 
-> These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. **Biology → Phenome Confidence** reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. **Evidence Confidence** (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
+> These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. **Biology → Phenome Confidence** reflects how directly this mechanism's biology would be expected to affect the phenome within BRAIN architecture — not dietary treatment efficacy. **Evidence Confidence** (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
 
 ## Canonical disclaimer — FM §3
 

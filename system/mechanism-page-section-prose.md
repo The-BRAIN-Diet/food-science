@@ -38,10 +38,14 @@ After front matter, each mechanism page opens with:
 ```
 ## <Entity_ID> - <Scientific Title>
 
-(<Public-facing subtitle — where useful, especially FM pages>)
+(<Functional descriptor — explains biological role>)
 
-## 1. Definition
+## 1. …
 ```
+
+**§1 heading by page type:** PM Profile A → `## 1. Mission & Overview`; FM/SM → `## 1. Definition` or `## 1. Mission & Overview`; KC → `### 1. Ambition`.
+
+**Functional descriptor rule:** The **title names the mechanism**; the **functional descriptor explains its biological role**. Do not restate the scientific title — describe what the mechanism does in the body (lay-readable, parenthetical line under the title). Applies to **hub pages**, **FMs**, **PMs**, **KCs**, and **SMs** where used.
 
 **Principle:** Translate, do not dumb down. Keep scientific terms; explain them inline in **parentheses** on first use so both specialist and non-specialist readers can follow without leaving the page.
 
@@ -51,12 +55,13 @@ After front matter, each mechanism page opens with:
 
 | Section | Write |
 |---------|--------|
-| **Definition (§1)** | **Translational opening paragraph (1–3 sentences) + 3 bullets** — everyday function with inline glosses for specialist terms. See **§1 Definition — translational UX** below. |
+| **§1 Mission & Overview (PM)** | Biological ambition → ~65–75 word orientation + 3 scannable bullets | Mechanism biology dump; foods; parent-FM architecture; title paraphrase |
+| **§1 Definition / Mission & Overview (FM/SM legacy)** | **Translational opening paragraph (1–3 sentences) + 3 bullets** — see **PM §1** for migration target |
 | **Phenome Connections (PM §3 / FM §3)** | Evidence-weighted translational mappings only — not mechanism definition |
 | **Primary Biological Effects (§2)** | Directional ↑/↓ summary only |
 | **Mechanistic Basis (PM)** | **Summary → primary mechanism → boundaries → integration** (see below); link PMs/KCs/citations; do not re-define the entity |
 | **Intervention Summary (PM §3)** | Intervention Profile + lever tiers with evidence tags — not mechanism definition |
-| **Dietary / Lifestyle Levers** | Levers and patterns — not a repeat of Definition |
+| **Dietary / Lifestyle Levers** | Pattern → Nutrients → Biology → Target Foods — only after §1 establishes why the mechanism matters |
 | **§5.5 Connected Mechanisms** | Cross-domain placement prose + PM links — not a second Definition |
 
 ## PM Mechanistic Basis — canonical structure
@@ -110,11 +115,164 @@ Applies to **PM**, **FM**, and **SM** pages. KC pages follow `system/key-constra
 
 Technical/architectural detail belongs in **Mechanistic Basis**, not a separate definition section.
 
-## §1 Mission & Overview — FM, PM, and SM pages (BRS1–BRS3)
+## PM §1 — Mission & Overview
 
-**Scope:** All **FM**, **PM**, and **SM** pages under **BRS1, BRS2, and BRS3**. **BRS hub pages** keep their top-level `## Overview` unchanged — do not apply Mission & Overview to hubs. **KC** pages keep `### 1. Definition`.
+**Scope:** All **Profile A PM** pages. **FM** and **SM** pages may use `## 1. Definition` or `## 1. Mission & Overview`. **KC** pages keep `### 1. Ambition`. **BRS hub** pages use `## Ambition` + Dietary Guidance per `system/brs-hub-levers-schema.md`.
 
-Replaces `## 1. Definition` on pilot FM pages with two subsections under one numbered section:
+**Canonical heading (Profile A PM):**
+
+```
+## 1. Mission & Overview
+
+### Mission
+[1–2 lines]
+
+### Overview
+[~65–75 words — orientation paragraph + exactly 3 scannable bullets]
+```
+
+**20-second acid test:** Can someone understand this page's purpose in ~20 seconds? If not, the Overview is doing too much.
+
+### Mission
+
+Answers:
+
+> What biological capability is this PM trying to maintain or support?
+
+| Do | Avoid |
+|----|--------|
+| Describe a **functional biological capacity** | Repeat the PM title |
+| State biological ambition in 1–2 lines | Nutrients, foods, interventions, biomarkers |
+| Use plain, outcome-oriented language | Pathway teaching, enzymes, citations |
+
+**Good examples:**
+
+- Maintain coordinated glutamate clearance to preserve excitatory–inhibitory stability.
+- Maintain a resilient gut microbial ecosystem that supports beneficial metabolite production and gut–brain signalling.
+- Maintain efficient ketone utilisation to support flexible neuronal energy metabolism.
+
+**Front matter:** `mission`
+
+### Overview
+
+**Job:** Make the reader think *"Ah, this is why [this mechanism] matters"* — not teach full pathway or parent-FM architecture.
+
+A good Overview answers **three questions** in a **~65–75 word paragraph**, then **exactly 3 scannable bullets** — one per question:
+
+1. What biological job does this mechanism perform?
+2. Why is it important?
+3. How does diet influence it? (very high level only)
+
+| Do | Avoid |
+|----|--------|
+| **~65–75 words** — minimal new concepts; one gloss on first specialist term is enough | Microbiome ecology essays; stacking many concepts in the opening paragraph |
+| **3 bullets** — short, scannable; carry job, importance, and diet influence | Food lists or substance ← food bullets |
+| Stand alone for a reader landing from search with **no BRS context** | Parent FM architecture (`BRS5(FM1)…`, `ecological strand of…`, `— within BRSn` in Overview) |
+| Spend words in bullets rather than the paragraph | Framework jargon; pathway detail (belongs in §5 or §6) |
+| | Repeat Mission wording or the PM title |
+
+**Parent FM / BRS placement** belongs in **§6 Connected Mechanisms** or **§5 Mechanistic Basis** — not in Overview. Readers who need architecture are already oriented before they reach those sections.
+
+**Front matter:** `summary` (Overview paragraph only; bullets are body-only).
+
+**Canonical example:**
+
+> Keystone taxa (groups of related microorganisms) help maintain a healthy gut ecosystem by supporting fibre fermentation, beneficial metabolite production and gut–brain communication. Although they may represent only a small proportion of the microbiome, they perform functions that help stabilise the wider microbial community. Dietary pattern, plant diversity and fermentable fibres influence whether these beneficial communities remain resilient or gradually lose functional capacity.
+>
+> * Supports beneficial microbial communities that sustain fibre fermentation and gut–brain signalling.
+> * Maintains ecological resilience supporting gut barrier integrity and balanced immune function.
+> * Highlights dietary diversity and fermentable fibres as key drivers of long-term microbial stability.
+
+### §1 role split (PM)
+
+| §1 subsection | Role | §5 Mechanistic Basis |
+|---------------|------|----------------------|
+| **Mission** | Biological ambition | `### Summary` — implication in depth |
+| **Overview** | Context + job + importance + high-level diet frame (paragraph + 3 bullets) | Primary mechanism `####` blocks — how it works |
+
+After reading §1 only, a non-specialist should understand what the mechanism does, why it matters, and how diet relates at a high level — without reading §5 enzymology first.
+
+**Canonical PM example:** [BRS5-FM1-PM3 — Keystone Taxa Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support).
+
+## PM translational writing
+
+Write for **three audiences simultaneously:**
+
+- researchers;
+- clinicians and nutrition professionals;
+- scientifically interested non-specialists.
+
+Preserve scientific accuracy while reducing unnecessary cognitive load. Each section should **progressively translate** biology rather than assume specialist knowledge.
+
+**PM §1 narrative arc:** biological story → mechanism (§5) → diet (§4) — not textbook biology followed by a food list.
+
+**Principle:** Translate, do not dumb down. Keep scientific terms; gloss unfamiliar terms inline on first use.
+
+## Technical language policy (PM, FM, SM)
+
+When uncommon scientific terms first appear, provide a short plain-English definition immediately afterwards in brackets.
+
+| Term | Gloss |
+|------|--------|
+| Ketones | alternative energy molecules produced from fat |
+| Substrate | the biological material used to fuel or build a process |
+| Taxa | groups of related microorganisms |
+| Excitotoxicity | cell damage caused by excessive excitatory signalling |
+| Glycaemic variability | fluctuations in blood glucose over time |
+| Short-chain fatty acids | beneficial microbial metabolites produced from fibre |
+| One-carbon metabolism | the biochemical network that transfers methyl groups between molecules |
+
+Do **not** over-explain common biological terms. Definitions remain concise.
+
+## Functional descriptors
+
+Formal naming convention for **BRS hub pages**, **FMs**, **PMs**, **KCs**, and **SMs** where used.
+
+```
+## <Entity_ID> - <Scientific Title>
+
+(<Functional descriptor — biological role>)
+```
+
+The **title names the mechanism**; the **functional descriptor explains its biological role** — what it accomplishes, not a restated scientific name.
+
+Examples:
+
+- LAT1 Competitive Transport → `(Regulating Amino Acid Entry into the Brain)`
+- Keystone Taxa Support → `(Maintaining Beneficial Microbial Communities & Gut Ecosystem Function)`
+- Ketone Utilisation Capacity → `(Using Ketones to Sustain Cellular Energy During Fuel Transitions)`
+
+Source: `scripts/data/mechanism-functional-descriptors.mjs`; `npm run mechanisms:apply-functional-descriptors`.
+
+## PM §4 — Dietary levers framing
+
+**§4.1 Dietary Levers** must never be the first place that explains why foods matter.
+
+Before opening 4.1, readers should already understand from §1 Overview:
+
+- the biological function;
+- the regulatory purpose;
+- the mechanism being supported.
+
+Within **4.1**, use **Pattern → Nutrients → Biology → Target Foods** (substance ← food bullets per `system/substance-food-mapping-format.md`). Hub Dietary Guidance follows the same frame (`system/brs-hub-levers-schema.md`).
+
+**§4.2 Optimisation** and **§4.3 Lifestyle** build on the same biological framing — they do not re-introduce why the mechanism exists.
+
+## PM UX progression
+
+PM pages should progressively answer:
+
+1. **What** is this mechanism? — title + functional descriptor
+2. **Why** does it matter? — Mission + Overview (paragraph + bullets)
+3. **How** can diet and lifestyle support it? — §4
+4. **What** foods are most relevant? — §4.1.1–4.1.3
+5. **What** evidence supports these relationships? — §3; §5; §5.1
+
+**Avoid:** repetitive introductions; repeating the PM title in Mission or Overview; specialist concepts before glossing; isolated molecules, biomarkers, or microbial species when a **biological capacity** frame is clearer.
+
+## §1 Mission & Overview — FM / SM
+
+**Scope:** FM and SM pages on `## 1. Mission & Overview` or `## 1. Definition`. PM pages follow **PM §1 — Mission & Overview** above.
 
 ```
 ## 1. Mission & Overview
@@ -123,23 +281,17 @@ Replaces `## 1. Definition` on pilot FM pages with two subsections under one num
 [1–2 lines max]
 
 ### Overview
-[1–3 sentence paragraph + exactly 3 bullets]
+[~65–75 words + exactly 3 scannable bullets]
 ```
 
 | Part | Role | Rules |
 |------|------|--------|
-| **Mission** | What the mechanism exists to achieve; why it matters to biology and the reader | 1–2 lines; outcome-oriented; no bullets, citations, or pathway detail |
-| **Overview** | Expanded translational explanation (former Definition body) | Same rules as **§1 Definition** above; must not repeat Mission wording |
+| **Mission** | Biological ambition | Same rules as **PM §1 — Mission** |
+| **Overview** | Context + significance | Same rules as **PM §1 — Overview** |
 
-**Front matter:** `mission` holds the Mission text; `summary` holds the Overview opening paragraph (hub FM accordion panels continue to use `summary` unchanged).
+**Front matter:** `mission` + `summary` (Overview paragraph).
 
-**Naming note:** FM `### Overview` is not the same as a BRS hub `## Overview` — the hub stays a single system-level block; only FM mechanism pages use the Mission + Overview split.
-
-**Section numbering:** §2 Primary Biological Effects onward is unchanged.
-
-Legacy `## 1. Definition` remains valid for KC pages and for FM/PM/SM outside BRS1–BRS3 until migrated.
-
-## §1 Definition — UX structure (paragraph + three bullets)
+## §1 Definition — legacy UX structure (paragraph + three bullets)
 
 Applies to **PM**, **FM**, **SM**, and **KC** pages (`## 1. Definition` or `### 1. Definition`). BRS hub pages use **`## Overview`** with the same contract (see `system/brs-page-schema.md`).
 
@@ -194,8 +346,8 @@ After reading §1 only, a non-specialist should understand what the mechanism do
 
 | Entity | §1 heading | Paragraph focus | Bullet focus |
 |--------|------------|-----------------|--------------|
-| **PM** | `## 1. Definition` | Single mechanism’s job and brain/body relevance | Downstream and cross-BRS consequences |
-| **FM** | `## 1. Definition` | Emergent integrated state and why it matters | Cross-system effects of the FM state |
+| **PM (Profile A)** | `## 1. Mission & Overview` | Mission + Overview (~65–75 words) | Overview: 3 scannable bullets (job / importance / diet) |
+| **FM** | `## 1. Definition` or `## 1. Mission & Overview` | Emergent integrated state and why it matters | Cross-system effects of the FM state |
 | **SM** | `## 1. Definition` | Why this interpretation layer matters | How the SM changes reading of connected biology |
 | **KC** | `### 1. Ambition` | Desired state of shared resource availability | What functions become constrained when the pool is strained |
 | **BRS hub** | `## Overview` | System purpose and brain/body integration | Cross-BRS significance of the whole BRS |
@@ -221,8 +373,8 @@ After reading §1 only, a non-specialist should understand what the mechanism do
 
 | Section | Role | Do | Avoid |
 |---------|------|-----|--------|
-| **§1 Definition** | What it is | One tight mechanism sentence + optional scope paragraph | Mechanism biology dump; study citations unless defining scope |
-| **§4 Summary + blocks** | How it happens | Pathway biology, boundaries, integration | Restating Definition; food lists; evidence-trial recap |
+| **§1 Mission & Overview (PM)** | Biological ambition + brief orientation (~65–75 words) + 3 scannable bullets | Mechanism biology dump; foods; parent-FM architecture; title paraphrase |
+| **§5 Summary + blocks** | How it happens | Restating §1; food lists; evidence-trial recap |
 | **§4.1 Evidence Highlights** | How we know (mechanism-qualifying findings with citations) | Re-explaining LAT1, NF-κB, Nrf2, etc.; **phenome/outcome science** (belongs in §3) |
 
 Optional **`#### (Cross-BRS relevance of …)`** inside the mechanism dropdown when a PM's foods span multiple BRS domains (reference: BRS1 PM1 protein foods).

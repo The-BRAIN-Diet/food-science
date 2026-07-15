@@ -44,9 +44,9 @@ function extractSubsection(block, pattern) {
   return m ? m[1].trim() : "";
 }
 
-function mergePrimaryMechanisms(fmBody, pmBody) {
-  const parts = [fmBody, pmBody].filter((p) => p && !/^-?\s*None listed\s*$/i.test(p));
-  return parts.length ? parts.join("\n\n") : "- None listed";
+function mergePrimaryMechanisms(pmBody) {
+  const body = String(pmBody || "").trim();
+  return body && !/^-?\s*None listed\s*$/i.test(body) ? body : "- None listed";
 }
 
 function renumberTailSections(content) {
@@ -76,7 +76,7 @@ function migratePm(filePath) {
     extractSectionBody(content, /## 7\. Connected Mechanisms/) || "- None listed";
 
   const pathwaysBody = PATHWAYS_BY_PM_ID[data.pm_id] || "- None listed";
-  const primaryMechBody = mergePrimaryMechanisms(fmBody, pmBody);
+  const primaryMechBody = mergePrimaryMechanisms(pmBody);
 
   const beforeConnected = content.replace(
     /\n## 6\. (?:Connected BRS[\w()-]+ Mechanisms|BRS Pathways and Connections)[\s\S]*?(?=\n## 8\. |\n## 7\. Dietary|\n## 7\. References|$)/,

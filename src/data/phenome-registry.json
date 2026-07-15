@@ -1382,8 +1382,8 @@
         "TA006"
       ],
       "status": "active",
-      "evidence_confidence": "low-medium",
-      "evidence_confidence_note": "Foundational stack combines mechanistic construct validation (Briguglio, Marsland) with translational biology→phenome and human intervention support (Kiecolt-Glaser) — not direct dietary treatment efficacy for worry disorders.",
+      "evidence_confidence": "medium",
+      "evidence_confidence_note": "Foundational stack combines neuroimmune framing for inflammatory–perseverative cognition (Slavich & Irwin, Marsland) with convergent human mechanistic and intervention evidence (Kiecolt-Glaser, Ferguson). Attached anxiety outcomes require one inferential step to PH016 — not direct dietary treatment efficacy for worry disorders.",
       "provenance": {
         "frameworkOrigin": "BRAIN",
         "developmentNote": "Introduced in registry v3 (2026) following cross-TA anxiety/depression gap analysis. Benchmarked against RDoC Negative Valence Systems (potential threat) and Cognitive Systems (perseverative thought / cognitive control) to remain distinct from Emotional Regulation (PH003) and Stress Reactivity (PH015).",
@@ -1419,6 +1419,12 @@
           }
         ],
         "biology_to_phenome_landmark_papers": [
+          {
+            "label": "Slavich & Irwin (2014)",
+            "citation_key": "slavich_stress_inflammation_2014",
+            "href": "/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014",
+            "note": "Neuroimmune model linking stress, inflammatory signalling, and affective/perseverative cognition biology."
+          },
           {
             "label": "Marsland et al. (2017)",
             "citation_key": "marsland_systemic_2017",

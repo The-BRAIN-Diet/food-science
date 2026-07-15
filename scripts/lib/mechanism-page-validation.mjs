@@ -17,6 +17,10 @@ import {
   validatePhenomeSectionBody,
   validateSinglePmFmOutcomeAlignment,
 } from "./phenome-relationships.mjs";
+import {
+  PM_SECTION_6_2_TITLE,
+  PM_SECTION_6_3_TITLE,
+} from "./pm-relationship-sections.mjs";
 
 export const TIMING_SPECIFIC_VALUES = new Set(["Yes", "No"]);
 
@@ -99,26 +103,20 @@ function extractSectionBody(content, startPattern, endPattern) {
 
 function validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind }) {
   if (kind === "kc") {
-    const poolBlock = extractSectionBody(
-      content,
-      /### 3\. Shared Biological Pool/,
-      /\n### 4\. /,
-    );
+    const poolBlock =
+      extractSectionBody(
+        content,
+        /### 2\. (?:Core Nutritional Requirements|Shared Biological Pool)/,
+        /\n### 3\. /,
+      ) ||
+      extractSectionBody(content, /### 3\. Shared Biological Pool/, /\n### 4\. /);
     if (poolBlock) {
       for (const line of poolBlock.split("\n")) {
-        if (/←/.test(line) && line.trim().startsWith("-")) {
-          pushIssue(
-            issues,
-            "kc_food_mapping_on_pool",
-            `${entityLabel}: §3 Shared Biological Pool must list pool members only — no substance ← food bullets (use PM §7.1 Direct Dietary Levers)`,
-          );
-          return;
-        }
         if (isLegacyFoodToSubstanceLine(line)) {
           pushIssue(
             issues,
             "legacy_food_to_substance",
-            `${entityLabel}: §3 must not use food → substance lines`,
+            `${entityLabel}: §2 must not use food → substance lines`,
           );
           return;
         }
@@ -792,8 +790,15 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
   }
 }
 
-/** §1 may use legacy Definition or Mission & Overview (BRS1–BRS3 FM / PM / SM). */
-const SECTION1_TITLES = new Set(["Definition", "Mission & Overview"]);
+/** §1 may use Definition, Mission & Overview (legacy), or Mission, Objective & Biological Context (PM Profile A). */
+const SECTION1_TITLES = new Set([
+  "Definition",
+  "Mission & Overview",
+  "Mission, Objective & Biological Context",
+]);
+
+const SECTION1_TITLE_ERROR =
+  "§1 must be Definition, Mission & Overview (legacy), or Mission, Objective & Biological Context (PM Profile A)";
 
 function isValidSection1Title(title) {
   return SECTION1_TITLES.has(normalizeSectionTitle(title));
@@ -879,7 +884,7 @@ function validatePmLifestyleLeversEvidence(content, issues, { entityLabel }) {
   const levers = extractLeversSectionBody(content);
   if (!levers) return;
   const lifestyleMatch = levers.block.match(
-    /<summary><strong>4\.2 Lifestyle Levers<\/strong><\/summary>\s*\n([\s\S]*?)<\/details>/i,
+    /<summary><strong>4\.3 Lifestyle Levers<\/strong><\/summary>\s*\n([\s\S]*?)<\/details>/i,
   );
   const block = lifestyleMatch ? lifestyleMatch[1] : "";
   const bullets = [...block.matchAll(/^- (.+)$/gm)]
@@ -893,7 +898,7 @@ function validatePmLifestyleLeversEvidence(content, issues, { entityLabel }) {
       pushIssue(
         issues,
         "lifestyle_lever_missing_evidence",
-        `${entityLabel}: §4.2 Lifestyle Levers bullets must include (Evidence:<tier>)`,
+        `${entityLabel}: §4.3 Lifestyle Levers bullets must include (Evidence:<tier>)`,
       );
       return;
     }
@@ -945,7 +950,7 @@ function validateFmPage(filePath, { rootDir }) {
     const t4 = normalizeSectionTitle(numbered[4]?.title || "");
     const t5 = normalizeSectionTitle(numbered[5]?.title || "");
     if (!isValidSection1Title(t0)) {
-      pushIssue(issues, "fm_section_order", `${entityLabel}: §1 must be Definition or Mission & Overview`);
+      pushIssue(issues, "fm_section_order", `${entityLabel}: ${SECTION1_TITLE_ERROR}`);
     }
     if (t1 !== PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE) {
       pushIssue(issues, "fm_section_order", `${entityLabel}: §2 must be ${PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE}`);
@@ -1043,21 +1048,21 @@ function validatePmHarmonisedSections(content, issues, { entityLabel }) {
     pushIssue(
       issues,
       "pm_legacy_lifestyle_section",
-      `${entityLabel}: retire standalone §8 Lifestyle Levers; merge into §4.2 Lifestyle Levers`,
+      `${entityLabel}: retire standalone §8 Lifestyle Levers; merge into §4.3 Lifestyle Levers`,
     );
   }
   if (/^##\s+\d+\.\s+(Overarching Functional Mechanism|Underlying Mechanisms and Requirements)\s*$/m.test(content)) {
     pushIssue(
       issues,
       "pm_legacy_connected",
-      `${entityLabel}: use ## 6. ${connectedTitle} (6.1 BRS Pathways, 6.2 Connected BRS Mechanisms, 6.3 Connected Primary Mechanisms)`,
+      `${entityLabel}: use ## 6. ${connectedTitle} (6.1 BRS Pathways, 6.2 ${PM_SECTION_6_2_TITLE}, 6.3 ${PM_SECTION_6_3_TITLE})`,
     );
   }
   if (/^##\s+7\.\s+Connected Mechanisms\s*$/m.test(content)) {
     pushIssue(
       issues,
       "pm_legacy_section7",
-      `${entityLabel}: retire standalone §7 Connected Mechanisms; use §6.2 Connected BRS Mechanisms`,
+      `${entityLabel}: retire standalone §7 Connected Mechanisms; use §6.2 ${PM_SECTION_6_2_TITLE}`,
     );
   }
 
@@ -1069,11 +1074,11 @@ function validatePmHarmonisedSections(content, issues, { entityLabel }) {
     if (subs.length >= 1 && !/BRS Pathways/i.test(subs[0]?.title || "")) {
       pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.1 must be BRS Pathways`);
     }
-    if (subs.length >= 2 && !/Connected BRS Mechanisms/i.test(subs[1]?.title || "")) {
-      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.2 must be Connected BRS Mechanisms`);
+    if (subs.length >= 2 && !new RegExp(PM_SECTION_6_2_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i").test(subs[1]?.title || "")) {
+      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.2 must be ${PM_SECTION_6_2_TITLE}`);
     }
-    if (subs.length >= 3 && !/Connected Primary Mechanisms/i.test(subs[2]?.title || "")) {
-      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.3 must be Connected Primary Mechanisms`);
+    if (subs.length >= 3 && !new RegExp(PM_SECTION_6_3_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i").test(subs[2]?.title || "")) {
+      pushIssue(issues, "pm_connected_subsections", `${entityLabel}: §6.3 must be ${PM_SECTION_6_3_TITLE}`);
     }
   }
 
@@ -1143,7 +1148,7 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
   if (core.length >= 4) {
     const titles = core.slice(0, 7).map((s) => normalizeSectionTitle(s.title));
     if (!isValidSection1Title(titles[0])) {
-      pushIssue(issues, "overlay_section_order", `${entityLabel}: §1 must be Definition or Mission & Overview`);
+      pushIssue(issues, "overlay_section_order", `${entityLabel}: ${SECTION1_TITLE_ERROR}`);
     }
     if (titles[1] !== PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE) {
       pushIssue(issues, "overlay_section_order", `${entityLabel}: §2 must be ${PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE}`);
@@ -1297,6 +1302,26 @@ function validateKcPage(filePath) {
       "kc_stressor_section_removed",
       `${entityLabel}: remove ### 6. Constraint Stressors / Burdens — migrate stressors to linked FM §4.3 Suboptimal Function & Its Effects`,
     );
+  }
+
+  if (/### 2\. Core Nutritional Requirements/m.test(content)) {
+    if (!/### 3\. Evidence Base/m.test(content)) {
+      pushIssue(issues, "kc_profile_a_sections", `${entityLabel}: Profile A KC must include ### 3. Evidence Base`);
+    }
+    if (!/### 4\. Emerging Biological Supports/m.test(content)) {
+      pushIssue(
+        issues,
+        "kc_profile_a_sections",
+        `${entityLabel}: Profile A KC must include ### 4. Emerging Biological Supports`,
+      );
+    }
+    if (!/### 5\. Connected Mechanisms/m.test(content)) {
+      pushIssue(
+        issues,
+        "kc_profile_a_sections",
+        `${entityLabel}: Profile A KC must include ### 5. Connected Mechanisms`,
+      );
+    }
   }
 
   const sections = parseNumberedSections(content).filter((s) => s.type === "major" || s.title.startsWith("References"));

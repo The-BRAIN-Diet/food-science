@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Migrate mechanism pages to translational format:
- * - Public-facing subtitle under title (where provided)
+ * - Functional descriptor under title (where provided)
  * - §1 Definition: plain-English paragraph + 3–5 bullets
  */
 import fs from "node:fs";
@@ -15,7 +15,7 @@ import brs3to6 from "./data/brs3-brs6-translational.json" with { type: "json" };
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const docs = path.join(root, "docs/biological-targets");
 
-/** @type {Record<string, { subtitle?: string, translational: string, scientific: string, bullets: string[] }>} */
+/** @type {Record<string, { functional_descriptor?: string, translational: string, scientific: string, bullets: string[] }>} */
 const UPDATES = Object.fromEntries(
   [...Object.entries(BRS1_UPDATES), ...brs2Brsx, ...brs3to6].map((entry) => {
     const [pathKey, cfg] = Array.isArray(entry) ? entry : [entry.path, entry];
@@ -29,11 +29,11 @@ function normalizeConfig(cfg) {
   const bullets = (cfg.bullets ?? []).map((b) =>
     b.startsWith("*") ? b : `* ${b}`,
   );
-  let subtitle = cfg.subtitle?.trim();
-  if (subtitle && !subtitle.startsWith("(")) {
-    subtitle = `(${subtitle})`;
+  let functionalDescriptor = (cfg.functional_descriptor ?? cfg.subtitle)?.trim();
+  if (functionalDescriptor && !functionalDescriptor.startsWith("(")) {
+    functionalDescriptor = `(${functionalDescriptor})`;
   }
-  return { subtitle, translational, scientific, bullets };
+  return { functional_descriptor: functionalDescriptor, translational, scientific, bullets };
 }
 
 function glossToParentheses(text) {
@@ -105,9 +105,9 @@ function gitScientific(relPath) {
   }
 }
 
-function formatSubtitleLine(subtitle) {
-  if (!subtitle) return "";
-  return `\n\n${subtitle}\n`;
+function formatFunctionalDescriptorLine(functionalDescriptor) {
+  if (!functionalDescriptor) return "";
+  return `\n\n${functionalDescriptor}\n`;
 }
 
 function buildDefinitionBlock(cfg, level) {
@@ -148,11 +148,11 @@ function insertScientificDefinition(body, level, scientific) {
   return body.replace(new RegExp(`\\n${hash} 3\\. `), `\n\n${insert}${hash} 3. `);
 }
 
-function applyTitleSubtitle(body, subtitle) {
-  if (!subtitle) return body;
+function applyTitleFunctionalDescriptor(body, functionalDescriptor) {
+  if (!functionalDescriptor) return body;
   const titleRe = /^(#{2,3} [^\n]+)\n(?!\n*\()/m;
   if (/^\(/.test(body.split("\n").slice(1).find((l) => l.trim()) ?? "")) return body;
-  return body.replace(titleRe, `$1${formatSubtitleLine(subtitle)}`);
+  return body.replace(titleRe, `$1${formatFunctionalDescriptorLine(functionalDescriptor)}`);
 }
 
 function updateSummary(fm, translational) {
@@ -185,7 +185,7 @@ function migrateFile(absPath) {
       : ["* Supports connected biological pathways — within primary BRS."];
   }
 
-  body = applyTitleSubtitle(body, cfg.subtitle);
+  body = applyTitleFunctionalDescriptor(body, cfg.functional_descriptor);
   const newDef = buildDefinitionBlock(cfg, level);
   body = body.replace(
     new RegExp(

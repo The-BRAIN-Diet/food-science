@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 /**
  * Generate BRS hub dietary/lifestyle lever rollups from PM pages and patch hub .md files.
+ *
+ * DISABLED for migrated BRS1–BRS6 hubs — use `npm run brs:patch-hub-levers-section` instead.
  * @see system/brs-hub-levers-schema.md
  */
 import fs from "node:fs";
 import path from "node:path";
+import { assertLegacyHubLeversGeneratorAllowed } from "./lib/brs-hub-migrated-guard.mjs";
 import {
   HUB_PAGES,
   buildBrsHubLeversRegistry,
@@ -13,6 +16,14 @@ import {
 } from "./lib/brs-hub-levers.mjs";
 
 const ROOT = process.cwd();
+
+try {
+  assertLegacyHubLeversGeneratorAllowed(ROOT);
+} catch (err) {
+  console.error(err.message);
+  process.exit(1);
+}
+
 const OUT_JSON = path.join(ROOT, "src/data/brs-hub-levers.generated.json");
 
 const registry = buildBrsHubLeversRegistry(ROOT);

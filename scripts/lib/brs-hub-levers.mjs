@@ -5,8 +5,10 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import { assertHubLeversPatchAllowed } from "./brs-hub-migrated-guard.mjs";
 import { HUB_SIGNATURE_FOODS } from "../data/brs-hub-signature-foods.mjs";
 import { buildIntegratedLifestylePriorities } from "./brs-hub-lifestyle-merge.mjs";
+import { isNativeKcForBrs, isRetiredKc } from "./kc-registry.mjs";
 
 export const DIETARY_CATEGORIES = [
   { id: "nutrient_dense_stars", label: "Target Foods" },
@@ -112,6 +114,9 @@ export const FOOD_ALIASES = {
   "fermented veggies": "fermented vegetables",
   sauerkraut: "fermented vegetables",
   kimchi: "fermented vegetables",
+  algae: "algal oil",
+  "algal oil": "algal oil",
+  flaxseed: "flax seeds",
 };
 
 const DENYLIST = new Set([
@@ -189,7 +194,6 @@ const DENYLIST = new Set([
   "b12",
   "omega-3",
   "omega-3 eggs",
-  "algal oil",
   "krill oil",
   "soy lecithin",
 ]);
@@ -440,6 +444,7 @@ export const FOOD_PAGE_SLUG_OVERRIDES = {
   "extra virgin olive oil": "extra-virgin-olive-oil",
   "fish roe": "salmon-roe",
   roe: "salmon-roe",
+  "algal oil": "algal-oil",
   "pumpkin seeds": "pumpkin-seeds",
   "fermented vegetables": "fermented-vegetables",
 };
@@ -770,6 +775,7 @@ function parseFrontmatterSummary(content) {
 
 export function parseKcPageFoods(content) {
   const sec =
+    content.match(/### 2\. Core Nutritional Requirements\n([\s\S]*?)(?=\n### 3\.)/) ||
     content.match(/### 2\. Shared Biological Pool\n([\s\S]*?)(?=\n### 3\.)/) ||
     content.match(/### 3\.[^\n]*\n([\s\S]*?)(?=\n### 4\.)/);
   if (!sec) return [];
@@ -782,10 +788,13 @@ export function parseKcPageFoods(content) {
 }
 
 export function parseKcPagePoolItems(content) {
-  const sec3 = content.match(/### 3\.[^\n]*\n([\s\S]*?)(?=\n### 4\.)/);
-  if (!sec3) return [];
+  const sec =
+    content.match(/### 2\. Core Nutritional Requirements\n([\s\S]*?)(?=\n### 3\.)/) ||
+    content.match(/### 2\. Shared Biological Pool\n([\s\S]*?)(?=\n### 3\.)/) ||
+    content.match(/### 3\.[^\n]*\n([\s\S]*?)(?=\n### 4\.)/);
+  if (!sec) return [];
   const items = [];
-  for (const line of sec3[1].split("\n")) {
+  for (const line of sec[1].split("\n")) {
     const trimmed = line.trim();
     if (!trimmed.startsWith("- ")) continue;
     const body = trimmed.slice(2).trim();
@@ -937,7 +946,7 @@ export function extractPmLevers(content, filePath) {
   const { id, href } = parsePmMeta(content, filePath);
   const dietaryRaw = extractHubPanel(content, "4.1.1 Direct Dietary Levers");
   const kcRaw = extractHubPanel(content, "4.1.3 KCs (Key Constraints)");
-  const lifestyleRaw = extractHubPanel(content, "4.2 Lifestyle Levers");
+  const lifestyleRaw = extractHubPanel(content, "4.3 Lifestyle Levers");
 
   const foods = [];
   const patterns = [];
@@ -996,7 +1005,7 @@ function mergeLifestyleLevers(items) {
   return [...merged, ...rest].sort((a, b) => a.label.localeCompare(b.label));
 }
 
-export function rollupBrsLevers(pmRows) {
+export function rollupBrsLevers(pmRows, brsId) {
   /** @type {Map<string, { label: string, source_pms: Map<string, string> }>} */
   const foodMap = new Map();
   /** @type {Map<string, { label: string, source_pms: Map<string, string> }>} */
@@ -1008,6 +1017,8 @@ export function rollupBrsLevers(pmRows) {
   for (const row of pmRows) {
     for (const p of row.patterns) patterns.add(p);
     for (const kc of row.key_constraints || []) {
+      if (brsId && !isNativeKcForBrs(kc.href, brsId)) continue;
+      if (isRetiredKc({ href: kc.href })) continue;
       if (!kcMap.has(kc.href)) {
         kcMap.set(kc.href, {
           label: kc.label,
@@ -1226,14 +1237,14 @@ export function buildBrsHubLeversRegistry(rootDir = process.cwd()) {
     meta: {
       version: 3,
       description:
-        "BRS hub dietary and integrated lifestyle priority rollups — PM §4.1.1, §4.1.3 KCs, §4.2; curated Lifestyle Priorities in scripts/data/brs-hub-lifestyle-priorities.mjs.",
+        "BRS hub dietary and integrated lifestyle priority rollups — PM §4.1.1, §4.1.3 KCs, §4.3; curated Lifestyle Priorities in scripts/data/brs-hub-lifestyle-priorities.mjs.",
       generatedAt: new Date().toISOString(),
     },
     brs: {},
   };
 
   for (const [brsId, rows] of Object.entries(byBrs).sort()) {
-    const rollup = rollupBrsLevers(rows);
+    const rollup = rollupBrsLevers(rows, brsId);
     const rawLifestyleCount = rollup.stats.unique_lifestyle;
     const integrated = buildIntegratedLifestylePriorities(brsId, rows);
     if (integrated?.length) {
@@ -1258,6 +1269,7 @@ export function buildBrsHubLeversRegistry(rootDir = process.cwd()) {
 export function patchHubPage(hubPath, html, rootDir = process.cwd()) {
   const full = path.join(rootDir, hubPath);
   let content = fs.readFileSync(full, "utf8");
+  assertHubLeversPatchAllowed(hubPath, content);
   const block = html.trimEnd();
 
   const leversBlockRe = new RegExp(

@@ -124,7 +124,7 @@ function buildLeversSection(dietaryBlock, lifestyleBlock, oldDietaryLevel, inter
   }
 
   if (lifestyle.trim().length > 0) {
-    chunks.push("<details>", "<summary><strong>4.2 Lifestyle Levers</strong></summary>", "", lifestyle, "", "</details>");
+    chunks.push("<details>", "<summary><strong>4.3 Lifestyle Levers</strong></summary>", "", lifestyle, "", "</details>");
   }
 
   return chunks.join("\n").trimEnd();

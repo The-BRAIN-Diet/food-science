@@ -8,7 +8,7 @@
       "Links phospholipid and omega-3 substrate context to endogenous NAE biology — Supporting BRS1.",
       "Buffers stress responsiveness through HPA-axis and neuroinflammatory interaction — Supporting BRS6."
     ],
-    "subtitle": "(Endocannabinoidome Signalling & Neuromodulation)"
+    "functional_descriptor": "(Brain Lipid Signals for Mood & Stress)"
   },
   {
     "path": "brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity.mdx",
@@ -79,7 +79,7 @@
       "Links gut estrobolome and microbial metabolism to sex-hormone exposure — Supporting BRS5.",
       "Integrates insulin and metabolic signals with reproductive hormone balance — Supporting BRS6."
     ],
-    "subtitle": "(Reproductive Hormone Balance & Neurocognitive Regulation)"
+    "functional_descriptor": "(Sex Hormones, Metabolism & Brain Function)"
   },
   {
     "path": "brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability.mdx",
@@ -151,7 +151,7 @@
       "Helps control homocysteine-linked oxidative and inflammatory burden — Supporting BRS3.",
       "Supports mitochondrial function, epigenetic regulation, and cellular repair — Supporting BRS4."
     ],
-    "subtitle": "(One-Carbon Methylation & Homocysteine Recycling)"
+    "functional_descriptor": "(One-Carbon Methylation & Homocysteine Recycling)"
   },
   {
     "path": "brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation.mdx",
@@ -165,7 +165,7 @@
   },
   {
     "path": "brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation.mdx",
-    "subtitle": "(Secondary Homocysteine clearance route for Methionine and SAMe Support)",
+    "functional_descriptor": "(Secondary Homocysteine clearance route for Methionine and SAMe Support)",
     "translational": "Provides a parallel route for clearing homocysteine and keeping methyl donors available when folate-pathway demands are high or constrained, via betaine-dependent remethylation through the BHMT enzyme (betaine–homocysteine methyltransferase). Betaine- and choline-rich dietary patterns help maintain methylation resilience under increased one-carbon load.",
     "scientific": "Alternative betaine-dependent recycling of homocysteine to methionine through the BHMT pathway — sustaining methionine and SAMe supply when primary folate remethylation is under strain.",
     "bullets": [
@@ -186,7 +186,7 @@
   },
   {
     "path": "brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
-    "subtitle": "(Integrated Methionine Cycle Capacity)",
+    "functional_descriptor": "(Integrated Methionine Cycle Capacity)",
     "translational": "Reflects how efficiently the whole methionine cycle runs — affecting homocysteine levels, SAMe output, and overall methylation capacity across the system. Effective cycle throughput depends on dietary patterns rather than any single nutrient in isolation.",
     "scientific": "Integrated throughput of the methionine cycle governing homocysteine clearance, SAMe output, and system-wide methylation capacity — dependent on coordinated substrate and cofactor sufficiency rather than isolated nutrient intake.",
     "bullets": [
@@ -197,7 +197,7 @@
   },
   {
     "path": "brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx",
-    "subtitle": "(Routing Homocysteine Toward Cysteine & Glutathione)",
+    "functional_descriptor": "(Routing Homocysteine Toward Cysteine & Glutathione)",
     "translational": "Provides the metabolic switch that diverts homocysteine from methylation toward cysteine production, linking one-carbon metabolism with antioxidant defence, sulfur amino-acid metabolism, glutathione synthesis, detoxification, and cellular resilience. This pathway helps balance methylation demand with protection against oxidative and metabolic stress, particularly during periods of increased redox burden.",
     "scientific": "Conversion of homocysteine toward cysteine through the transsulfuration pathway — balancing remethylation demand with sulfur amino acid and glutathione precursor supply.",
     "bullets": [
@@ -226,7 +226,7 @@
       "Supports cellular and mitochondrial defence under metabolic strain — Supporting BRS4.",
       "Helps clear homocysteine through alternative sulfur-amino-acid pathways — within BRS2."
     ],
-    "subtitle": "(Transsulfuration, Cysteine Supply & Glutathione Defence)"
+    "functional_descriptor": "(Sulfur Amino Acids for Antioxidant Defence)"
   },
   {
     "path": "brs2/fm3/brs2-fm3-methylation-membrane-coupling.mdx",
@@ -238,11 +238,11 @@
       "Links one-carbon and B-vitamin nutrition to membrane signalling competence — Supporting BRS1.",
       "Depends on methylation efficiency interacting with omega-3 status for full effect — within BRS2."
     ],
-    "subtitle": "(Methylation–Membrane Phospholipid Coupling)"
+    "functional_descriptor": "(Methylation Support for Brain Membrane Building)"
   },
   {
     "path": "brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation.mdx",
-    "subtitle": "(Support for building phospholipid membranes for easier brain transport)",
+    "functional_descriptor": "(Support for building phospholipid membranes for easier brain transport)",
     "translational": "Helps build phospholipid membranes that carry omega-3 fatty acids toward the brain, supporting membrane flexibility and cell signalling. This connects methylation capacity and B-vitamin status to the structural lipid environment in which neural signalling occurs.",
     "scientific": "Formation of phosphatidylcholine from methylation-dependent phospholipid chemistry — supporting membrane structure, omega-3 carriage, and neuronal signalling competence.",
     "bullets": [

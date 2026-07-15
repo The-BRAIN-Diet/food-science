@@ -34,6 +34,8 @@ SM pages reuse this schema’s **Profile A extended** rendering contract (sectio
 id: string                           # e.g. "BRS2-FM1-PM3"
 name: string
 brs: string
+mission: string                      # required on Profile A PMs; maps to ### Mission (1–2 lines)
+summary: string                      # maps to Overview opening paragraph (~65–75 words); FM hub accordions
 overview: string                     # <=120 words
 functional_outputs_directional_effects: string
 dependencies:                        # from spreadsheet dependencies field
@@ -99,7 +101,7 @@ phenome_relationships:               # optional; authoritative translational map
 
 ## Timing Specific (required ontology metadata; not a default public body section)
 
-`timing_specific` is **required in front matter** on all PM pages (`Yes` | `No`). It must **not** appear as a standalone numbered body section (`## N. Timing Specific` with only `Yes` or `No`). Where timing materially alters interpretation, discuss it within **§4.2 Lifestyle Levers**, **Primary Biological Effects**, **Mechanistic Basis**, or **Scoreable Inputs & Modulation Signals**.
+`timing_specific` is **required in front matter** on all PM pages (`Yes` | `No`). It must **not** appear as a standalone numbered body section (`## N. Timing Specific` with only `Yes` or `No`). Where timing materially alters interpretation, discuss it within **§4.3 Lifestyle Levers**, **Primary Biological Effects**, **Mechanistic Basis**, or **Scoreable Inputs & Modulation Signals**.
 
 `intervention_breakdown` in front matter remains spreadsheet ingest metadata and is **not** rendered as a public body section. `intervention_dominance` is rendered in **§4 Levers** as **Intervention Profile** (see **PM §4 — Levers**).
 
@@ -109,21 +111,22 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 
 ## Section Order (Page Rendering Contract)
 
-First line of the MDX body (after front matter) must be the mechanism title: `## <PM_ID> - <PM name>` (same heading level as numbered sections; do not use `#` or `###` for this line).
+First line of the MDX body (after front matter) must be the mechanism title: `## <PM_ID> - <PM name>` (same heading level as numbered sections; do not use `#` or `###` for this line). Optional **functional descriptor** on the next line — parenthetical explanation of biological role (see `system/mechanism-page-section-prose.md` **Page title block**). The title names the mechanism; the functional descriptor explains what it does.
 
 Three **profiles** are allowed; pick one per PM and keep numbering contiguous (no gaps in `## N.` sequence).
 
-### Profile A — Extended narrative PM (e.g. BRS1 PMs, BRS6 PM1–PM4)
+### Profile A — Extended narrative PM (all BRS PM pages)
 
-1. Definition — `## 1. Definition` — **translational opening paragraph + 3 bullets** (inline parenthetical glosses for specialist terms). See `system/mechanism-page-section-prose.md` (**§1 Definition — translational UX**). Front matter `summary` aligns with the opening paragraph. Enzymology and pathway detail belong in §5 Mechanistic Basis, not §1.
+1. Mission & Overview — `## 1. Mission & Overview` with `### Mission` and `### Overview` (~65–75 word paragraph + exactly 3 scannable bullets). Front matter: `mission` + `summary`. See **PM §1 — Mission & Overview** and `system/mechanism-page-section-prose.md`. **Do not use `## 1. Definition` on PM pages.**
 2. Primary Biological Effects — `## 2. Primary Biological Effects` (directional arrow summary)
 3. Phenome Connections — `## 3. Phenome Connections` — translational mappings from `phenome_relationships`; canonical disclaimer required; empty state when unmapped
 4. Levers — `## 4. Levers` — **sole public section for dietary and lifestyle implementation** (see **PM §4 — Levers** below)
    - **4.1 Dietary Levers** — outer `<details>` dropdown
      - **4.1.1 Direct Dietary Levers** — nested `<details>`; substance ← food bullets per `system/substance-food-mapping-format.md`
-     - **4.1.2 Cofactors and Supporting Inputs** — nested `<details>`; from front matter `cofactors`
-     - **4.1.3 KCs (Key Constraints)** — nested `<details>`; linked KC pages **plus** each KC’s **Shared Biological Pool** members (sourced from the KC page §3; substance-only when the KC uses Supporting Inputs/Substrates with `←` food mapping)
-   - **4.2 Lifestyle Levers** — `<details>` dropdown; primary place for timing narrative when `timing_specific: "Yes"`
+     - **4.1.2 Cofactors and Supporting Inputs** — nested `<details>`; from front matter `cofactors`, rendered as **substance ← food** bullets (same format as §4.1.1) when food examples are known
+     - **4.1.3 KCs (Key Constraints)** — nested `<details>`; linked KC page(s) **plus** each KC’s Core Nutritional Requirements as **substance ← food** bullets (same format as §4.1.1 Direct Dietary Levers; sourced from the KC page §2 Core Nutritional Requirements, or legacy §2 Shared Biological Pool)
+   - **4.2 Optimisation Levers** — `<details>` dropdown; preparation, pairing, matrix preservation, frequency, and delivery patterns that make dietary inputs act more effectively on this biology
+   - **4.3 Lifestyle Levers** — `<details>` dropdown; non-dietary behaviours (sleep, exercise, stress recovery, circadian routines); primary place for timing narrative when `timing_specific: "Yes"`
 5. Mechanistic Basis — `## 5. Mechanistic Basis`
    - **Canonical structure (Profile A):** see **PM §5 — Canonical four-part narrative** below. **Reference page:** [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
    - **`### Summary` (required):** why this mechanism matters — the integrative implication in plain language, not a restated Definition or repeated mechanism name.
@@ -139,15 +142,123 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 7. Scoreable Inputs & Modulation Signals — `## 7.` **only when this PM is scoreable in the ontology**; optional intro paragraph; table (or list) may sit inside `<details><summary><strong>Scoreable Input Categories</strong></summary>…` Use three rows only: **Functional Property Potentials**, **Realised Functional States**, **Preparation Transformations** (do not repeat §4.1.1 substances in a Substance / Nutrient Signals row).
 8. References — `## 8. References`
 
+### PM §1 — Mission & Overview
+
+**Heading:** `## 1. Mission & Overview`
+
+**Purpose:** Open every PM with biological ambition (Mission), then context and significance (Overview) before Primary Biological Effects, Phenome Connections, or Levers.
+
+```
+## 1. Mission & Overview
+
+### Mission
+[1–2 lines — biological ambition]
+
+### Overview
+[~65–75 words — orientation paragraph + exactly 3 scannable bullets]
+```
+
+| Subsection | Role | Rules |
+|------------|------|--------|
+| **Mission** | Biological ambition — what capability this PM maintains or supports | 1–2 lines; functional biological capacity; **no** nutrients, foods, interventions, biomarkers, or title paraphrase |
+| **Overview** | Orientation — why this mechanism matters, in ~20 seconds | **~65–75 word paragraph** + **3 scannable bullets** (job / importance / high-level diet); **no parent FM or BRS architecture**; must stand alone for readers with no framework context |
+
+**20-second acid test:** Can someone understand this page's purpose in ~20 seconds? If not, the Overview is doing too much.
+
+**Overview — three questions (paragraph + bullets):**
+
+1. What biological job does this mechanism perform?
+2. Why is it important?
+3. How does diet influence it? (very high level only)
+
+**Overview anti-patterns:** microbiome ecology essays; stacking many new concepts in the opening paragraph; parent FM placement (`BRSn(FMx)…`, `ecological strand of…`); `— within BRSn` suffixes (belong in §6, not §1).
+
+**Front matter:**
+
+| Field | Maps to | Notes |
+|-------|---------|--------|
+| `mission` | `### Mission` | Required on Profile A PMs |
+| `summary` | Overview opening paragraph | Bullets are body-only |
+
+**Good Mission examples:**
+
+- Maintain coordinated glutamate clearance to preserve excitatory–inhibitory stability.
+- Maintain a resilient gut microbial ecosystem that supports beneficial metabolite production and gut–brain signalling.
+- Maintain efficient ketone utilisation to support flexible neuronal energy metabolism.
+
+**Anti-patterns:** repeating the PM title; naming a molecule or microbial species as the mission; opening with dietary advice; textbook-length Overview prose; parent FM architecture in Overview.
+
+Authoring detail: `system/mechanism-page-section-prose.md` (**PM §1**, **PM translational writing**, **Technical language policy**, **PM UX progression**).
+
+**Canonical PM example:** [BRS5-FM1-PM3 — Keystone Taxa Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support).
+
+### PM authoring standards (framework-wide)
+
+These rules apply to all Profile A PM pages. They strengthen opening sections and cross-page UX without changing overall page architecture (§2–§8 unchanged).
+
+#### Functional descriptors
+
+Every PM includes a **functional descriptor** immediately beneath the scientific title (parenthetical line). The **title names the mechanism**; the **functional descriptor explains its biological role** — what it accomplishes, not a restated scientific name.
+
+Examples:
+
+- LAT1 Competitive Transport → `(Regulating Amino Acid Entry into the Brain)`
+- Keystone Taxa Support → `(Maintaining Beneficial Microbial Communities & Gut Ecosystem Function)`
+- Ketone Utilisation Capacity → `(Using Ketones to Sustain Cellular Energy During Fuel Transitions)`
+
+Source list: `scripts/data/mechanism-functional-descriptors.mjs`; apply with `npm run mechanisms:apply-functional-descriptors`.
+
+#### Translational writing
+
+Write for **three audiences simultaneously:** researchers; clinicians and nutrition professionals; scientifically interested non-specialists. Preserve scientific accuracy while reducing unnecessary cognitive load. Each section should **progressively translate** biology rather than assume specialist knowledge.
+
+**PM §1 narrative arc:** biological story → mechanism (§5) → diet (§4) — not textbook biology followed by a food list.
+
+#### Technical language policy
+
+Do **not** introduce uncommon specialist terms without a short plain-English gloss in brackets on first use.
+
+Examples: Ketones (alternative energy molecules produced from fat); Substrate (the biological material used to fuel or build a process); Taxa (groups of related microorganisms); Excitotoxicity (cell damage caused by excessive excitatory signalling); Glycaemic variability (fluctuations in blood glucose over time); Short-chain fatty acids (beneficial microbial metabolites produced from fibre); One-carbon metabolism (the biochemical network that transfers methyl groups between molecules).
+
+Do **not** over-explain common biological terms. Definitions stay concise.
+
+#### Dietary levers (§4.1)
+
+Dietary Guidance must **never** be the first place that explains why foods matter. Readers should already understand biological function, regulatory purpose, and the mechanism being supported from §1 before opening **4.1 Dietary Levers**.
+
+Within §4.1, maintain the agreed implementation frame: **Pattern → Nutrients → Biology → Target Foods** (substance ← food bullets per `system/substance-food-mapping-format.md`). Hub pages use the same Pattern → Nutrients → Biology → Target Foods flow in BRS Dietary Guidance (`system/brs-hub-levers-schema.md`).
+
+#### PM UX progression
+
+PM pages should progressively answer:
+
+1. What is this mechanism? (title + functional descriptor)
+2. Why does it matter? (Mission + Overview)
+3. How can diet and lifestyle support it? (§4)
+4. What foods are most relevant? (§4.1.1–4.1.3)
+5. What evidence supports these relationships? (§3; §5; §5.1)
+
+**Avoid:** repetitive introductions; repeating the PM title in Mission or Overview; introducing specialist concepts before glossing them; describing isolated molecules, biomarkers, or microbial species when a **biological capacity** or **regulatory function** is the clearer frame.
+
 ### PM §4 — Levers
 
 **Heading:** `## 4. Levers`
 
-**Intervention Profile (required, visible):** place `### Intervention Profile` with `**Intervention Dominance:**` from front matter `intervention_dominance` **above** the **4.1** and **4.2** `<details>` dropdowns. Do not use `<details>` for Intervention Profile.
+**Intervention Profile (required, visible):** place `### Intervention Profile` with `**Intervention Dominance:**` from front matter `intervention_dominance` **above** the **4.1**, **4.2**, and **4.3** lever dropdowns. Do not use `<details>` for Intervention Profile.
 
-**Rendering contract:** both **4.1 Dietary Levers** and **4.2 Lifestyle Levers** are top-level `<details>` dropdowns under `## 4. Levers`. Inside **4.1 Dietary Levers**, use three nested `<details>` blocks for **4.1.1**, **4.1.2**, and **4.1.3**. Omit any dropdown when that tier has no content (do not use `- None listed` inside empty dropdowns).
+**Rendering contract:** **4.1 Dietary Levers**, **4.2 Optimisation Levers**, and **4.3 Lifestyle Levers** are top-level `<details>` (or hub-collapsible) dropdowns under `## 4. Levers`, in that order. Inside **4.1 Dietary Levers**, use three nested `<details>` blocks for **4.1.1**, **4.1.2**, and **4.1.3**. Omit any dropdown when that tier has no content (do not use `- None listed` inside empty dropdowns).
 
-**Do not** place cofactors, KCs, substance ← food levers, or lifestyle bullets under **§6 BRS Pathways and Connections** or inside **§5 Mechanistic Basis**.
+**§4.2 guiding question:** How can dietary inputs be selected, prepared, combined, timed, or preserved to act more effectively on this biology?
+
+**§4.2 vs §4.3 boundary:**
+
+| §4.2 Optimisation | §4.3 Lifestyle |
+|---|---|
+| Gentle cooking preserves marine-PUFA matrix | Sleep, exercise, stress recovery |
+| Repeated weekly oily-fish beats bolus dosing | Circadian routines |
+| Preparation, pairing, matrix, storage, frequency | Non-dietary behaviours |
+
+**Do not** place cofactors, KCs, substance ← food levers, optimisation strategies, or lifestyle bullets under **§6 BRS Pathways and Connections** or inside **§5 Mechanistic Basis**.
 
 ```markdown
 ## 4. Levers
@@ -169,31 +280,38 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 <details>
 <summary><strong>4.1.2 Cofactors and Supporting Inputs</strong></summary>
 
-- From front matter cofactors
+- Magnesium ← leafy greens, nuts, seeds
+- Folate (B9) ← leafy greens, legumes, liver
+- Vitamin B12 ← shellfish, sardines, eggs
+- Riboflavin (B2) ← dairy, eggs, lean meat
+- Vitamin B6 ← poultry, fish, chickpeas
 
 </details>
 
 <details>
 <summary><strong>4.1.3 KCs (Key Constraints)</strong></summary>
 
-- [BRS3(KC1) - Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability)
+- [BRS3(KC1) - Antioxidant Substrate Sufficiency](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability)
 
-**Shared Biological Pool**
-
-- Polyphenols
-- Vitamin C
-- Antioxidant phytochemicals
-- Cysteine
-- Glycine
-- Glutamate
-- Sulfur amino acids
+- Polyphenols ← berries, cocoa, green tea
+- Vitamin C ← citrus, kiwi, bell peppers
+- Cysteine ← eggs, poultry, legumes
+- Glycine ← collagen-rich cuts, poultry, legumes
+- Glutamate ← meat, fish, soy
 
 </details>
 
 </details>
 
 <details>
-<summary><strong>4.2 Lifestyle Levers</strong></summary>
+<summary><strong>4.2 Optimisation Levers</strong></summary>
+
+- Preparation, pairing, matrix preservation, frequency, and delivery-pattern bullets
+
+</details>
+
+<details>
+<summary><strong>4.3 Lifestyle Levers</strong></summary>
 
 - Lifestyle implementation bullets; timing narrative when timing_specific: Yes
 
@@ -205,10 +323,12 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 | Subsection | Role | Content |
 |------------|------|---------|
 | **6.1 BRS Pathways** | Ordered multi-step chains | Linked PM labels with `↓` on separate lines between steps when a pathway spans PMs (often cross-FM or cross-BRS). Use `- None listed` when no pathway is authored yet. |
-| **6.2 Connected BRS Mechanisms** | Cross-BRS links | PM/FM links in other BRS domains (content formerly in standalone `## 7. Connected Mechanisms`). Harmonised with FM `## 6. Connected Mechanisms`. |
-| **6.3 Connected Primary Mechanisms** | Same-host-FM placement | Parent FM link (`parent_fm`) plus sibling PMs on the same FM (exclude current PM). **No cofactors, KCs, or dietary levers here.** |
+| **6.2 Cross-BRS Mechanism Relationships** | Cross-BRS PM graph (canonical) | PM-to-PM links in other BRS domains with explicit biological connection copy. **Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.** This is the single canonical home for PM-to-PM relationships — do not duplicate on hub pages. |
+| **6.3 Local BRS Mechanism Relationships** | Same-BRS PM links | Sibling PMs on the same FM (exclude current PM). **Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.** No parent FM, cofactors, KCs, or dietary levers here. |
 
-**§4 vs §6:** §4 is implementation only (dietary, cofactors, KCs, lifestyle). §6 is connectivity only (pathways, cross-BRS links, same-FM PM rollups).
+**Architectural rule:** PM §6.2 is the **canonical mechanistic graph** (PM pages only). Hub **Cross-BRS Dependencies** provide systems-level interpretation — why one BRS constrains another, integrated regulatory capacity, allostatic context, and translational examples — without duplicating PM relationship lists.
+
+**§4 vs §6:** §4 is implementation only (dietary, cofactors, KCs, optimisation, lifestyle). §6 is connectivity only (pathways, cross-BRS PM relationships, same-BRS PM relationships).
 
 **Example pathway (BRS2-FM1-PM1):**
 
@@ -220,7 +340,9 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation)
 ```
 
-### Profile B — Compact PM (e.g. BRS6 PM2–PM8, BRS6 PM5)
+### Profile B — Compact PM (retired for PM pages)
+
+**Do not author new PM pages on Profile B.** Legacy compact structure below is retained only for historical reference. All PM pages use **Profile A** above.
 
 1. Definition — `## 1. Definition` — **opening paragraph + exactly 3 bullets** (`system/mechanism-page-section-prose.md` **§1 Definition — UX structure**)
 2. Mechanistic Basis — `## 2. Mechanistic Basis` (canonical four-part narrative)
@@ -271,9 +393,10 @@ Mechanistic Basis must remain **evidence-anchored**, not assertion-only. Follow 
 
 | § | Role (Profile A extended) |
 |---|------|
+| **§1 Mission & Overview** | Biological ambition + brief orientation (~65–75 words) + 3 scannable bullets | What + why before how; no dietary implementation; no parent-FM architecture |
 | **§2 Primary Biological Effects** | Directional ↑/↓ summary of emergent outcomes. |
 | **§3 Phenome Connections** | Translational phenome mappings — not single-mechanism outcome claims. |
-| **§4 Levers** | Dietary (4.1.1–4.1.3) and lifestyle (4.2) implementation — all in `<details>` dropdowns. |
+| **§4 Levers** | Dietary (4.1.1–4.1.3), optimisation (4.2), and lifestyle (4.3) implementation — all in `<details>` dropdowns. Builds on §1 Overview; Pattern → Nutrients → Biology → Target Foods inside 4.1. |
 | **§5 Mechanistic Basis** | How the biology works (canonical four-part narrative). |
 | **§5.1 Evidence Highlights** | What important studies found and why that changes or qualifies **mechanism** interpretation — not functional outcome / phenome claims. |
 | **§6 BRS Pathways and Connections** | Pathway chains, cross-BRS links, same-FM PM rollups — **not** levers, cofactors, or KCs. |
@@ -338,8 +461,10 @@ Implementation: `scripts/validate-mechanism-pages.mjs` and `scripts/lib/mechanis
 
 - `timing_specific` is required in front matter (`Yes` | `No`); visible `## N. Timing Specific` body sections are forbidden.
 - Mechanistic Basis must be present and non-placeholder unless `mechanistic_authoring_required: true` is set in front matter.
-- Extended Profile A PMs must include `## 2. Primary Biological Effects` immediately after Definition.
-- Extended Profile A PMs must include `## 4. Levers` with visible `### Intervention Profile` and `**Intervention Dominance:**` above the dropdowns; **4.1 Dietary Levers** and **4.2 Lifestyle Levers** as `<details>` dropdowns; **4.1** must contain nested dropdowns for **4.1.1 Direct Dietary Levers**, **4.1.2 Cofactors and Supporting Inputs**, and **4.1.3 KCs (Key Constraints)** when those tiers have content. **4.1.3** must list each linked KC with its **Shared Biological Pool** members below the KC link (see PM §4 example).
+- Extended Profile A PMs must include `## 1. Mission & Overview` (or legacy `## 1. Definition` until migrated) with `### Mission` and `### Overview` (~65–75 word paragraph + exactly 3 scannable bullets).
+- Overview paragraph word count target: **65–75 words** (acceptable range **50–90** for authoring review); must pass the **20-second acid test** (see `system/mechanism-page-section-prose.md` **PM §1 — Overview**).
+- Extended Profile A PMs must include `## 2. Primary Biological Effects` immediately after §1.
+- Extended Profile A PMs must include `## 4. Levers` with visible `### Intervention Profile` and `**Intervention Dominance:**` above the dropdowns; **4.1 Dietary Levers**, **4.2 Optimisation Levers** (when authored), and **4.3 Lifestyle Levers** as `<details>` dropdowns in that order; **4.1** must contain nested dropdowns for **4.1.1 Direct Dietary Levers**, **4.1.2 Cofactors and Supporting Inputs**, and **4.1.3 KCs (Key Constraints)** when those tiers have content. **4.1.3** must list each linked KC followed by **substance ← food** pool bullets matching §4.1.1 format (see PM §4 example).
 - `intervention_breakdown` in front matter, when present, must be one of the five allowed spreadsheet values and must not be rendered as a public body section.
 - `overview` must be <=120 words.
 - `functional_mechanism_ownership` must contain exactly one FM (never multiple).

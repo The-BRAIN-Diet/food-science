@@ -9,11 +9,11 @@
       "Limits gut-derived endotoxin spillover into systemic inflammatory signalling — Supporting BRS5.",
       "Connects dietary antioxidant and fatty-acid context to inflammatory intensity — within BRS3."
     ],
-    "subtitle": "(Anti-Inflammatory Signalling Control)"
+    "functional_descriptor": "(Calming Excessive Immune Signalling)"
   },
   {
     "path": "brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation.mdx",
-    "subtitle": "(Cellular Inflammatory Activation)",
+    "functional_descriptor": "(Turning Down Overactive Inflammatory Switches)",
     "translational": "Regulates the NF-κB inflammatory transcription pathway (a master regulator of pro-inflammatory gene expression) that drives cytokine and immune-activation programmes.",
     "scientific": "Regulation of the NF-kB inflammatory transcription pathway that drives pro-inflammatory gene expression. This PM captures an upstream inflammatory-control node through which diet can influence transcriptional tone rather than downstream symptom expression alone.",
     "bullets": [
@@ -24,7 +24,7 @@
   },
   {
     "path": "brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling.mdx",
-    "subtitle": "(Endotoxin Spillover and Gut Interface Management)",
+    "functional_descriptor": "(Endotoxin Spillover and Gut Interface Management)",
     "translational": "Describes inflammatory signalling driven by endotoxin translocation and barrier dysfunction (leakage of bacterial lipopolysaccharide across the gut lining), linking gut ecology to systemic and neural inflammation.",
     "scientific": "Inflammatory signalling driven by endotoxin translocation and barrier dysfunction, linking gut ecology to systemic and neural inflammation. This PM captures inflammatory load entering from the gut interface, where barrier integrity, microbial ecology, and endotoxin burden shape downstream immune signalling.",
     "bullets": [
@@ -43,11 +43,11 @@
       "Balances reactive oxygen species production against clearance capacity — within BRS3.",
       "Protects membrane lipids and polyunsaturated fatty acids from oxidative degradation — within BRS3."
     ],
-    "subtitle": "(Antioxidant Defence & Redox Protection)"
+    "functional_descriptor": "(Antioxidant Defence & Redox Protection)"
   },
   {
     "path": "brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation.mdx",
-    "subtitle": "(Activating the Cell's Antioxidant Defence System)",
+    "functional_descriptor": "(Activating the Cell's Antioxidant Defence System)",
     "translational": "Activates Nrf2-dependent antioxidant and detoxification gene programmes (endogenous cellular defence switches) that raise cellular protection against oxidative stress.",
     "scientific": "Activation of Nrf2-dependent antioxidant and detoxification gene programs that raise endogenous cellular protection. This PM governs endogenous defence induction rather than exogenous antioxidant supply alone.",
     "bullets": [
@@ -58,7 +58,7 @@
   },
   {
     "path": "brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance.mdx",
-    "subtitle": "(Balancing Oxidative Stress Production and Removal)",
+    "functional_descriptor": "(Balancing Oxidative Stress Production and Removal)",
     "translational": "Maintains dynamic balance between reactive oxygen species (ROS) production and neutralisation across immune and metabolic contexts — capturing net redox pressure rather than a single biomarker.",
     "scientific": "Dynamic balance between reactive oxygen species production and neutralization across immune and metabolic contexts. This PM captures net redox pressure as a dynamic balance between generation and clearance.",
     "bullets": [
@@ -69,7 +69,7 @@
   },
   {
     "path": "brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control.mdx",
-    "subtitle": "(Protecting Membrane Fats from Oxidative Damage)",
+    "functional_descriptor": "(Protecting Membrane Fats from Oxidative Damage)",
     "translational": "Protects membrane lipids and polyunsaturated fatty acids from oxidative degradation — where antioxidant availability and lipid quality jointly determine whether vulnerable fatty acids are protected or damaged.",
     "scientific": "Protection of membrane lipids and polyunsaturated fatty acids from oxidative degradation. This PM governs oxidative damage control at the membrane level.",
     "bullets": [
@@ -80,7 +80,7 @@
   },
   {
     "path": "brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling.mdx",
-    "subtitle": "(Recycling the Body's Antioxidant Defences)",
+    "functional_descriptor": "(Recycling the Body's Antioxidant Defences)",
     "translational": "Supports recycling interactions among antioxidant systems that regenerate vitamin and thiol antioxidant capacity (networked regeneration rather than single-compound supply).",
     "scientific": "Recycling interactions among antioxidant systems that regenerate vitamin and thiol antioxidant capacity. This PM governs antioxidant-network recycling and regeneration rather than single-compound antioxidant supply.",
     "bullets": [
@@ -99,11 +99,11 @@
       "Balances arachidonic-acid inflammatory mediators against EPA/DHA-derived pro-resolving mediators — within BRS3.",
       "Depends on essential fatty acid balance and antioxidant substrate sufficiency — within BRS3."
     ],
-    "subtitle": "(Inflammation Resolution & Lipid Mediator Balance)"
+    "functional_descriptor": "(Inflammation Resolution & Lipid Mediator Balance)"
   },
   {
     "path": "brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation.mdx",
-    "subtitle": "(Coordinating Immune Signalling Intensity)",
+    "functional_descriptor": "(Coordinating Immune Signalling Intensity)",
     "translational": "Modulates cytokine signalling tone across IL-6, TNF-α, and CRP-linked inflammatory pathways — governing downstream cytokine intensity rather than upstream transcriptional nodes alone.",
     "scientific": "Modulation of cytokine signalling tone across IL-6, TNF-a, CRP-linked inflammatory pathways. This PM governs downstream cytokine-signalling tone rather than upstream transcriptional nodes or gut-derived endotoxin load.",
     "bullets": [
@@ -114,7 +114,7 @@
   },
   {
     "path": "brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance.mdx",
-    "subtitle": "(Shifting from Pro-Inflammatory to Calming Pro-Resolving Lipid Signals)",
+    "functional_descriptor": "(Shifting from Pro-Inflammatory to Calming Pro-Resolving Lipid Signals)",
     "translational": "Balances arachidonic-acid-derived inflammatory mediators against EPA/DHA-derived specialised pro-resolving mediators (SPMs) — governing the shift from pro-inflammatory eicosanoids toward active inflammation resolution.",
     "scientific": "Balancing arachidonic-acid-derived inflammatory mediators against EPA/DHA-derived specialized pro-resolving mediators. This PM governs the balance between pro-inflammatory eicosanoids and pro-resolving lipid mediators.",
     "bullets": [
@@ -134,16 +134,6 @@
     ]
   },
   {
-    "path": "brs3/kc/brs3-kc3-essential-fatty-acid-balance.mdx",
-    "translational": "Helps ensure availability and balance of omega-3 and omega-6 fatty acids required for inflammatory signalling, membrane composition, and inflammation-resolution pathways.",
-    "scientific": "Availability and balance of omega-3 and omega-6 fatty acids required for inflammatory signalling, membrane composition, and inflammation-resolution pathways.",
-    "bullets": [
-      "Constrains eicosanoid and SPM balance when omega-3/omega-6 ratio is unfavourable — within BRS3.",
-      "Supports membrane composition relevant to neuronal signalling — Supporting BRS1.",
-      "Underpins inflammation-resolution capacity in BRS3(FM3) — within BRS3."
-    ]
-  },
-  {
     "path": "brs4/fm1/brs4-fm1-cellular-bioenergetics.mdx",
     "translational": "A functional control point governing ATP production via mitochondrial respiration, electron transport chain efficiency, NAD⁺-linked redox metabolism, and high-demand energy buffering for brain and body tissues.",
     "scientific": "Functional control of ATP production via mitochondrial respiration, ETC efficiency, NAD⁺-linked redox metabolism, and high-demand energy support.",
@@ -152,7 +142,7 @@
       "Maintains NAD⁺ availability for redox reactions and mitochondrial signalling — within BRS4.",
       "Buffers rapid ATP demand through creatine–phosphocreatine systems — within BRS4."
     ],
-    "subtitle": "(Cellular Bioenergetics & ATP Production)"
+    "functional_descriptor": "(How Cells Make & Use Energy)"
   },
   {
     "path": "brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function.mdx",
@@ -193,7 +183,7 @@
       "Protects mitochondrial membranes, enzymes, and redox systems from oxidative damage — within BRS4.",
       "Supports energetic resilience under metabolic and inflammatory load — Supporting BRS3."
     ],
-    "subtitle": "(Mitochondrial Resilience & Redox Stability)"
+    "functional_descriptor": "(Protecting Cell Powerhouses Under Stress)"
   },
   {
     "path": "brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx",
@@ -254,7 +244,7 @@
       "Utilises ketone bodies as alternative energy substrates when glucose availability shifts — within BRS4.",
       "Switches between glucose-derived, fatty-acid-derived, and ketone-derived ATP production — within BRS4."
     ],
-    "subtitle": "(Substrate Utilisation & Metabolic Fuel Flexibility)"
+    "functional_descriptor": "(Switching Fuels for Steady Energy)"
   },
   {
     "path": "brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx",
@@ -265,7 +255,7 @@
       "Links physical activity signals to mitochondrial density expansion over time — within BRS4.",
       "Depends on macronutrient substrate and cofactor sufficiency for adaptive support — within BRS4."
     ],
-    "subtitle": "(Mitochondrial Capacity Expansion & Adaptation)"
+    "functional_descriptor": "(Building More Cellular Energy Capacity)"
   },
   {
     "path": "brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis.mdx",
@@ -306,7 +296,7 @@
       "Contains bacterial endotoxin and prevents metabolic endotoxaemia — within BRS5.",
       "Supports beneficial keystone taxa underpinning anti-inflammatory gut ecology — within BRS5."
     ],
-    "subtitle": "(Gut Barrier Integrity & Immune Interface)"
+    "functional_descriptor": "(Keeping the Gut Lining Selective & Calm)"
   },
   {
     "path": "brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx",
@@ -347,7 +337,7 @@
       "Produces short-chain fatty acids that influence barrier, inflammation, and brain signalling — within BRS5.",
       "Biotransforms polyphenols into mitochondrial-relevant metabolites such as urolithin A — Supporting BRS4."
     ],
-    "subtitle": "(Microbial Metabolite Signalling)"
+    "functional_descriptor": "(Gut Bacteria Signals That Reach the Body)"
   },
   {
     "path": "brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx",
@@ -388,7 +378,7 @@
       "Influences neurotransmitter precursor biotransformation and availability — Supporting BRS1.",
       "Links gut ecology and barrier state to autonomic neuromodulation — Supporting BRS6."
     ],
-    "subtitle": "(Gut–Vagal Neuromodulation & ENS Signalling)"
+    "functional_descriptor": "(Gut-to-Brain Nerve Pathways)"
   },
   {
     "path": "brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx",
@@ -449,7 +439,7 @@
       "Limits glycaemic variability and post-prandial glucose oscillation — within BRS6.",
       "Supports insulin-sensitive glucose clearance and utilisation — within BRS6."
     ],
-    "subtitle": "(Glycaemic–Insulin Stability & Cognitive Energy)"
+    "functional_descriptor": "(Steady Blood Sugar for Brain Fuel)"
   },
   {
     "path": "brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics.mdx",
@@ -490,7 +480,7 @@
       "Aligns feeding windows and light exposure with circadian neuroendocrine rhythms — within BRS6.",
       "Links meal timing and sleep structure to HPA-axis phase stability — within BRS6."
     ],
-    "subtitle": "(HPA Axis Rhythm & Cortisol Regulation)"
+    "functional_descriptor": "(Daily Stress-Hormone Rhythm & Recovery)"
   },
   {
     "path": "brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation.mdx",
@@ -521,7 +511,7 @@
       "Supports vagal tone and heart-rate-variability-related recovery signalling — within BRS6.",
       "Connects gut–vagal neuromodulation to autonomic flexibility — Supporting BRS5."
     ],
-    "subtitle": "(Autonomic Balance & Vagal Recovery)"
+    "functional_descriptor": "(Autonomic Balance & Vagal Recovery)"
   },
   {
     "path": "brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery.mdx",
@@ -572,7 +562,7 @@
       "Regulates stress-induced appetite, reward drive, and food-seeking behaviour — within BRS6.",
       "Shapes neuroendocrine allocation between stress, inflammation, and energy systems — Supporting BRS3."
     ],
-    "subtitle": "(Stress–Inflammation & Metabolic Load Allocation)"
+    "functional_descriptor": "(How Stress Loads Metabolism & Immunity)"
   },
   {
     "path": "brs6/kc/brs6-kc1-glucose-energy-substrate-availability.mdx",

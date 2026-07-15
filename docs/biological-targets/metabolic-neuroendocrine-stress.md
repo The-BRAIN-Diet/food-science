@@ -491,6 +491,7 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Positioned the brain as the central interpreter and target of stress-mediated adaptive regulation — supporting the framework interpretation that BRS6 coordinates how allostatic load is allocated across integrated biological systems including neurotransmitter regulation within BRS1.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Demonstrated intimate coupling between autonomic regulatory capacity, stress neurobiology and central nervous system function — supporting the interpretation of BRS6 autonomic stability as an upstream enabler of BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -518,6 +519,10 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 <ul class="brs-hub-integration-evidence-list">
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Described bidirectional interactions between stress mediators, immune-inflammatory processes and cumulative regulatory burden — supporting the framework interpretation that BRS6 stress biology shapes BRS3 inflammatory load.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Operationalised social and psychological stress as inflammatory signals reshaping neuroimmune biology — supporting the BRS6 → BRS3 pathway as a principal stress-to-inflammation bridge within the integrated BRS network.</p></li>
+</ul>
+<h4 class="brs-hub-integration-section-title">Translational Examples</h4>
+<ul class="brs-hub-integration-evidence-list">
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011">Kiecolt-Glaser et al., 2011</a> — Worked translational example: omega-3 supplementation reduced inflammatory cytokines (including IL-6) alongside anxiety symptoms in stressed adults. The principal inflammatory biology is measured and owned by BRS3-FM3-PM7; this dependency interprets how metabolic and neuroendocrine context (BRS6) may condition such inflammatory outcomes — without claiming this single study validates every intermediate step in the BRS6 → BRS3 pathway. Primary biology: <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation">BRS3-FM3-PM7 — Cytokine Network Modulation</a>.</p></li>
 </ul>
 </div>
 </div>
@@ -547,6 +552,7 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Proposed mitochondrial allostatic load as the subcellular mechanism through which glucocorticoids, glucose imbalance and chronic stress damage bioenergetic capacity — supporting the BRS6 ↔ BRS4 adaptive bridge within the framework.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Established allostasis and allostatic load as frameworks for cumulative biological wear under stress-mediated metabolic allocation — supporting the interpretation that BRS6 coordinates systemic load that constrains BRS4 recovery capacity.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -575,6 +581,7 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Demonstrated that gut microbiota modulate HPA-axis stress responses via vagal pathways — supporting the framework interpretation that BRS5 gut–vagal signalling shapes BRS6 stress-axis responsiveness.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Linked autonomic regulatory capacity to stress neurobiology and central nervous system function — supporting the interpretation of vagal–neuroendocrine integration as a BRS5 → BRS6 enabling pathway.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -585,6 +592,7 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 
 </div>
 <!-- brs-hub-cross-integration:end -->
+
 
 ## Specific Mechanisms
 

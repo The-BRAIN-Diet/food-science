@@ -243,7 +243,7 @@ export const BRS4_PM_EVIDENCE = {
       },
       {
         heading: "CoQ10 and electron transport",
-        body: "Coenzyme Q10 supports mitochondrial electron transport and provides antioxidant protection for neurons — a direct link between dietary CoQ10 context and the respiratory-chain machinery this PM represents [Crane, 2001].",
+        body: "Coenzyme Q10 supports mitochondrial electron transport and provides antioxidant protection for neurons — linking dietary CoQ10 availability to respiratory-chain efficiency [Crane, 2001].",
       },
       {
         heading: "Mitochondrial respiration in ADHD cybrid models",
@@ -349,7 +349,7 @@ export const BRS4_PM_EVIDENCE = {
       "Carnitine-mediated fatty-acid transport is mechanistically established. The evidence below highlights substrate-import biology relevant to mitochondrial β-oxidation.",
         blocks: [{
         heading: "Carnitine and long-chain fatty-acid import",
-        body: "Carnitine enables long-chain fatty-acid import for β-oxidation when glucose availability or metabolic demand shifts — the substrate-transport biology this PM represents [Kyriazis et al., 2022].",
+        body: "Carnitine enables long-chain fatty-acid import for β-oxidation when glucose availability or metabolic demand shifts — enabling mitochondrial import of long-chain fatty acids for β-oxidation [Kyriazis et al., 2022].",
       },
       {
         heading: "Carnitine intervention in paediatric ADHD",
@@ -473,7 +473,7 @@ export const BRS3_PM_EVIDENCE = {
         blocks: [
       {
         heading: "Metabolic endotoxemia and systemic inflammation",
-        body: "When the gut barrier weakens, bacterial fragments such as lipopolysaccharide enter circulation and sustain chronic low-grade inflammation — the core translocation biology this PM represents [Mohammad & Thiemermann, 2021]. Dietary and postprandial context modulates LPS-linked inflammatory responses [Batey et al., 2024].",
+        body: "When the gut barrier weakens, bacterial fragments such as lipopolysaccharide enter circulation and sustain chronic low-grade inflammation — illustrating gut-derived endotoxin translocation and its inflammatory consequences [Mohammad & Thiemermann, 2021]. Dietary and postprandial context modulates LPS-linked inflammatory responses [Batey et al., 2024].",
       },
       {
         heading: "Butyrate and neuroinflammation",
@@ -577,7 +577,7 @@ export const BRS3_PM_EVIDENCE = {
     blocks: [
       {
         heading: "Synergistic antioxidant network regeneration",
-        body: "Vitamins E and C, glutathione, lipoic acid, and CoQ10 function as an interacting regeneration network in vivo rather than independent antioxidants — the core biology this PM represents [Packer et al., 1997; Vertuani et al., 2004].",
+        body: "Vitamins E and C, glutathione, lipoic acid, and CoQ10 function as an interacting regeneration network in vivo rather than independent antioxidants [Packer et al., 1997; Vertuani et al., 2004].",
       },
       {
         heading: "Megadose supplement caution",

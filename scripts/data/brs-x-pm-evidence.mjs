@@ -85,7 +85,7 @@ export const BRS_X_PM_EVIDENCE = {
       },
       {
         heading: "Motivation and behavioural activation interface",
-        body: "Endocannabinoid and dopamine systems operate as coupled neuromodulatory partners underlying human motivation and behavioural activation context — the integrative frame this PM represents within BRS-X(ECS-FM1) [Laksmidewi & Soejitno, 2021].",
+        body: "Endocannabinoid and dopamine systems operate as coupled neuromodulatory partners underlying human motivation and behavioural activation context — as coupled partners in motivation and behavioural activation [Laksmidewi & Soejitno, 2021].",
       },
       {
         heading: "Anandamide and mesolimbic dopamine context",
@@ -152,7 +152,7 @@ export const BRS_X_PM_EVIDENCE = {
     blocks: [
       {
         heading: "Microbial beta-glucuronidase and oestrogen deconjugation",
-        body: "Gut bacteria with beta-glucuronidase activity can deconjugate oestrogen metabolites in the intestinal lumen, influencing whether oestrogens are recycled via enterohepatic circulation or eliminated — the core estrobolome biology this PM represents [Hu et al., 2023]; [Sui et al., 2021]; [Ervin et al., 2019].",
+        body: "Gut bacteria with beta-glucuronidase activity can deconjugate oestrogen metabolites in the intestinal lumen, influencing whether oestrogens are recycled via enterohepatic circulation or eliminated — central to microbiome-mediated oestrogen recycling and elimination [Hu et al., 2023]; [Sui et al., 2021]; [Ervin et al., 2019].",
       },
       {
         heading: "Enterohepatic recycling direction",
@@ -218,7 +218,7 @@ export const BRS_X_PM_EVIDENCE = {
     blocks: [
       {
         heading: "Androgen receptor signalling and brain behavioural function",
-        body: "Testosterone influences brain behavioural functions through androgen receptor signalling across multiple neural systems — establishing direct androgen neuromodulation as the core biology this PM represents within BRS-X(Hormones-FM1) [Celec et al., 2015].",
+        body: "Testosterone influences brain behavioural functions through androgen receptor signalling across multiple neural systems — establishing androgen receptor signalling as a modifiable dimension of motivation and behavioural activation [Celec et al., 2015].",
       },
       {
         heading: "Testosterone–dopaminergic interface",
@@ -239,7 +239,7 @@ export const BRS_X_PM_EVIDENCE = {
     blocks: [
       {
         heading: "Steroid-transforming microbial pathways",
-        body: "Commensal bacteria may metabolise androgens through hydroxysteroid dehydrogenases, desmolase activity, and enterohepatic recycling pathways that alter systemic androgen bioavailability — the core androgen-microbiome biology this PM represents [Leao et al., 2025].",
+        body: "Commensal bacteria may metabolise androgens through hydroxysteroid dehydrogenases, desmolase activity, and enterohepatic recycling pathways that alter systemic androgen bioavailability — shaping systemic androgen exposure through microbial metabolism [Leao et al., 2025].",
       },
       {
         heading: "Enterohepatic androgen recycling",

@@ -67,10 +67,11 @@ Hub sections must not restate the BRS title or Overview at the start of Function
 
 ## Key Constraints (Dietary Bottlenecks)
 
+- Lists **native KCs only** — Key Constraints owned by this BRS (`brs{N}/kc/`). Do **not** import cross-BRS KCs from PM §4.1.3 references; cross-system support belongs in **Cross-BRS Dependencies** only.
 - Bullet list in canonical format:
-  - `BRSx-KCy - <KC_NAME>`
+  - `BRSx(KCy) - <KC_NAME>`
 - KCs are requirements/substrates, not intervention prescriptions.
-- Must not include food examples in this section.
+- Must not include food examples in this section (target foods are generated separately from native KC Shared Biological Pools).
 
 ## Modulators
 

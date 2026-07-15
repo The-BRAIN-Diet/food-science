@@ -423,6 +423,7 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021">Fanet et al., 2021</a> — Established that essential cofactor chemistry underpins central monoamine synthesis and neurotransmitter-regulatory capacity — supporting the framework interpretation that BRS2 cofactor reserves may become a principal rate-limiting constraint on monoaminergic regulation when one-carbon metabolism is strained.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Demonstrated that B-vitamin-dependent one-carbon metabolism supports brain neurochemical synthesis — supporting the interpretation of BRS2 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -451,6 +452,7 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017">Kumar et al., 2017</a> — Described transsulfuration flux from homocysteine to cysteine and glutathione — supporting the framework interpretation that BRS2 substrate routing enables BRS3 redox defence capacity.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996">Chiang et al., 1996</a> — Established one-carbon flux allocation as a determinant of downstream transsulfuration and cellular redox chemistry — supporting the interpretation of BRS2 as an upstream enabling system for BRS3 antioxidant resilience.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -461,6 +463,7 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 
 </div>
 <!-- brs-hub-cross-integration:end -->
+
 
 ## Specific Mechanisms
 

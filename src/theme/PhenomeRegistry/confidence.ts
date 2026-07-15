@@ -11,3 +11,14 @@ export function formatPhenomeEvidenceConfidence(value: string | undefined): stri
   const key = String(value || '').trim() as PhenomeEvidenceConfidence;
   return CONFIDENCE_LABELS[key] ?? null;
 }
+
+/** Compact per-mechanism scores for registry mechanism lists (matches PM §3 dimensions). */
+export function formatMechanismConfidenceMeta(
+  relationshipType: string,
+  biologyConfidence: string | undefined,
+  evidenceConfidence: string | undefined,
+): string {
+  const biology = formatPhenomeEvidenceConfidence(biologyConfidence) ?? 'Not scored';
+  const evidence = formatPhenomeEvidenceConfidence(evidenceConfidence) ?? 'Not scored';
+  return `${relationshipType} · Biology → Phenome: ${biology} · Evidence: ${evidence}`;
+}

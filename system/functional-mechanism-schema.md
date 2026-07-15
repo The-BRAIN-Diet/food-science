@@ -207,8 +207,8 @@ Describes **what happens when the integrated FM loses functional capacity** — 
 | Content | Belongs on |
 |---------|------------|
 | Dietary patterns, target foods | PM §4.1; BRS hub **Dietary Guidance** |
-| Food preparation, bioavailability | PM §4.3 Optimisation Levers; Food Profiles; BRS hub **Optimisation Levers** |
-| Sleep, timing, activity, stress | PM §4.2 Lifestyle; BRS hub **Lifestyle Priorities** |
+| Food preparation, bioavailability | PM §4.2 Optimisation Levers; Food Profiles; BRS hub **Optimisation Levers** |
+| Sleep, timing, activity, stress | PM §4.3 Lifestyle; BRS hub **Lifestyle Priorities** |
 | Biological consequences of lost FM capacity | **FM §4.3 only** |
 
 **Legacy note:** Older FM pages may still contain KC stressor paragraphs or dietary-cause language in §4.3 from pre-v2 authoring. Migrate to the consequence-focused contract above; KC stressor archives (`scripts/lib/fm-failure-modes.mjs`) are **draft aids only** — not the target architecture.
@@ -413,7 +413,7 @@ First line of the MDX body (after front matter) must be the FM title: `## <FM_ID
 
 Numbered sections must stay contiguous. Optional `### 5.5 Evidence Highlights` nests under §5 when used (FM-level “why this matters” — not PM intervention evidence).
 
-1. **Definition** — `## 1. Definition` — translational integrated state per **FM Definition Rule**; optional public subtitle under title; `summary` aligns with §1 opening paragraph
+1. **Definition** — `## 1. Definition` (or transitional `## 1. Mission & Overview`) — translational integrated state per **FM Definition Rule**; optional **functional descriptor** under title; `summary` aligns with §1 opening paragraph. PM §1 authoring: **Mission & Overview** (`system/primary-mechanism-schema.md`, `system/mechanism-page-section-prose.md` **PM §1**).
 2. **Primary Biological Effects** — `## 2. Primary Biological Effects` — short directional arrow line describing **emergent FM outcomes** per **FM Primary Biological Effects Rule**
 3. **Phenome Connections** — `## 3. Phenome Connections` — concise integrative outcomes from `functional_outcome_context` as `<details>` dropdowns; FM disclaimer required; no PM roll-up tables
 4. **Mechanistic Basis (Integrated FM Narrative)** — `## 4. Mechanistic Basis (Integrated FM Narrative)` — per **FM Mechanistic Basis Rule** and **Deduplication Rule**; weave timing context in §4.2 or §4.3 when `timing_specific: "Yes"`

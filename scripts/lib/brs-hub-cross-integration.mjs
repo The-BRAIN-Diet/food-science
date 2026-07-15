@@ -50,7 +50,6 @@ function getIntegrationDisplayTitle(integration) {
   return namedTitle ? `(${integration.title}) ${namedTitle}` : integration.title;
 }
 
-
 const INTEGRATION_SECTIONS = [
   { key: "biological_contribution", title: "Biological Contribution" },
   { key: "systems_significance", title: "Systems Significance" },
@@ -75,12 +74,34 @@ function renderEvidenceItem(item) {
   return `<li class="brs-hub-integration-evidence-item"><p><a href="${href}">${escapeHtml(label)}</a> — ${escapeHtml(item.supports)}</p></li>`;
 }
 
+function renderTranslationalExamples(integration) {
+  const examples = integration.translational_examples;
+  if (!Array.isArray(examples) || !examples.length) return "";
+  const items = examples
+    .map((ex) => {
+      const label = citationLinkLabel(ex.citation);
+      const href = citationHref(ex.citation_key);
+      const pm = ex.primary_mechanism_href
+        ? ` Primary biology: <a href="${escapeHtml(ex.primary_mechanism_href)}">${escapeHtml(ex.primary_mechanism)}</a>.`
+        : ex.primary_mechanism
+          ? ` Primary biology: ${escapeHtml(ex.primary_mechanism)}.`
+          : "";
+      return `<li class="brs-hub-integration-evidence-item"><p><a href="${href}">${escapeHtml(label)}</a> — ${escapeHtml(ex.framing)}${pm}</p></li>`;
+    })
+    .join("\n");
+  return `<h4 class="brs-hub-integration-section-title">Translational Examples</h4>
+<ul class="brs-hub-integration-evidence-list">
+${items}
+</ul>`;
+}
+
 function renderIntegrationCollapsible(integration, childIndex) {
   const displayTitle = getIntegrationDisplayTitle(integration);
   const sections = INTEGRATION_SECTIONS.map(({ key, title }) =>
     renderIntegrationSection(title, integrationSectionText(integration, key)),
   ).join("\n");
   const evidenceItems = integration.evidence.map(renderEvidenceItem).join("\n");
+  const translational = renderTranslationalExamples(integration);
   return `<div class="brs-fm-hub-item" ${HUB_COLLAPSIBLE_ATTR} data-brs-fm-hub-group-index="${childIndex}">
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
@@ -99,6 +120,7 @@ ${sections}
 <ul class="brs-hub-integration-evidence-list">
 ${evidenceItems}
 </ul>
+${translational}
 </div>
 </div>
 </div>`;
@@ -160,25 +182,19 @@ export function patchHubCrossIntegration(hubPath, html, rootDir = process.cwd())
   const blockRe = new RegExp(
     `\\n*${CROSS_INTEGRATION_MARKERS.start.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}[\\s\\S]*?${CROSS_INTEGRATION_MARKERS.end.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\n*`,
   );
-  // Remove any existing block first so we can reinsert it in canonical position.
   content = content.replace(blockRe, "\n\n");
 
-  // Remove legacy unmarked Cross-BRS sections (e.g. after a partial patch).
   content = content.replace(
     /\n## Cross-BRS (?:Dependencies|integration|relationships)(?: Evidence)?[\s\S]*?(?=\n## (?:Key Constraints \(Dietary Bottlenecks\)|Requirements \(Key Constraints\)|Specific Mechanisms))/,
     "\n",
   );
 
-  // Canonical position: after full Functional Mechanisms section, before Specific Mechanisms.
-  const insertRe =
-    /(## Functional Mechanisms[\s\S]*?)(\n## Specific Mechanisms)/;
+  const insertRe = /(## Functional Mechanisms[\s\S]*?)(\n## Specific Mechanisms)/;
   if (!insertRe.test(content)) {
     throw new Error(`${hubPath}: could not find insertion point before Specific Mechanisms`);
   }
   content = content.replace(insertRe, `$1\n\n${block}\n\n$2`);
-
   content = stripHrBeforeCrossBrs(content);
-
   fs.writeFileSync(full, content);
 }
 

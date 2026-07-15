@@ -1,43 +1,43 @@
-/** Hand-crafted translational upgrades keyed by relative path under docs/biological-targets */
-export const FM_SUBTITLES = {
+/** Hand-crafted functional descriptors keyed by relative path under docs/biological-targets */
+export const FM_FUNCTIONAL_DESCRIPTORS = {
   "brs2/fm1/brs2-fm1-methylation-cycle-efficiency.mdx":
     "(One-Carbon Methylation & Homocysteine Recycling)",
   "brs2/fm2/brs2-fm2-transsulfuration-redox-coupling.mdx":
-    "(Transsulfuration, Cysteine Supply & Glutathione Defence)",
+    "(Sulfur Amino Acids for Antioxidant Defence)",
   "brs2/fm3/brs2-fm3-methylation-membrane-coupling.mdx":
-    "(Methylation–Membrane Phospholipid Coupling)",
+    "(Methylation Support for Brain Membrane Building)",
   "brs-x/ecs/fm1/brs-x-ecs-fm1-endocannabinoidome-signalling-capacity-and-neuromodulatory-regulation.mdx":
-    "(Endocannabinoidome Signalling & Neuromodulation)",
+    "(Brain Lipid Signals for Mood & Stress)",
   "brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation.mdx":
-    "(Reproductive Hormone Balance & Neurocognitive Regulation)",
+    "(Sex Hormones, Metabolism & Brain Function)",
   "brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone.mdx":
-    "(Anti-Inflammatory Signalling Control)",
+    "(Calming Excessive Immune Signalling)",
   "brs3/fm2/brs3-fm2-antioxidant-defense-capacity.mdx":
     "(Antioxidant Defence & Redox Protection)",
   "brs3/fm3/brs3-fm3-inflammation-resolution-capacity.mdx":
     "(Inflammation Resolution & Lipid Mediator Balance)",
   "brs4/fm1/brs4-fm1-cellular-bioenergetics.mdx":
-    "(Cellular Bioenergetics & ATP Production)",
+    "(How Cells Make & Use Energy)",
   "brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability.mdx":
-    "(Mitochondrial Resilience & Redox Stability)",
+    "(Protecting Cell Powerhouses Under Stress)",
   "brs4/fm3/brs4-fm3-substrate-utilisation-flexibility.mdx":
-    "(Substrate Utilisation & Metabolic Fuel Flexibility)",
+    "(Switching Fuels for Steady Energy)",
   "brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx":
-    "(Mitochondrial Capacity Expansion & Adaptation)",
+    "(Building More Cellular Energy Capacity)",
   "brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx":
-    "(Gut Barrier Integrity & Immune Interface)",
+    "(Keeping the Gut Lining Selective & Calm)",
   "brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity.mdx":
-    "(Microbial Metabolite Signalling)",
+    "(Gut Bacteria Signals That Reach the Body)",
   "brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling.mdx":
-    "(Gut–Vagal Neuromodulation & ENS Signalling)",
+    "(Gut-to-Brain Nerve Pathways)",
   "brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability.mdx":
-    "(Glycaemic–Insulin Stability & Cognitive Energy)",
+    "(Steady Blood Sugar for Brain Fuel)",
   "brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation.mdx":
-    "(HPA Axis Rhythm & Cortisol Regulation)",
+    "(Daily Stress-Hormone Rhythm & Recovery)",
   "brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity.mdx":
     "(Autonomic Balance & Vagal Recovery)",
   "brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation.mdx":
-    "(Stress–Inflammation & Metabolic Load Allocation)",
+    "(How Stress Loads Metabolism & Immunity)",
 };
 
 export const ENHANCEMENTS = {
@@ -405,17 +405,6 @@ export const ENHANCEMENTS = {
       "Links fruit, vegetable, and polyphenol intake to endogenous defence capacity — within BRS3.",
     ],
   },
-  "brs3/kc/brs3-kc3-essential-fatty-acid-balance.mdx": {
-    translational:
-      "Helps ensure availability and balance of omega-3 and omega-6 fatty acids required for inflammatory signalling, membrane composition, and inflammation-resolution pathways.",
-    scientific:
-      "Availability and balance of omega-3 and omega-6 fatty acids required for inflammatory signalling, membrane composition, and inflammation-resolution pathways.",
-    bullets: [
-      "Constrains eicosanoid and SPM balance when omega-3/omega-6 ratio is unfavourable — within BRS3.",
-      "Supports membrane composition relevant to neuronal signalling — Supporting BRS1.",
-      "Underpins inflammation-resolution capacity in BRS3(FM3) — within BRS3.",
-    ],
-  },
   "brs4/fm1/brs4-fm1-cellular-bioenergetics.mdx": {
     translational:
       "A functional control point governing ATP production via mitochondrial respiration, electron transport chain efficiency, NAD⁺-linked redox metabolism, and high-demand energy buffering for brain and body tissues.",
@@ -616,90 +605,90 @@ export const ENHANCEMENTS = {
   },
   "brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity.mdx": {
     translational:
-      "Maintains epithelial tight junctions, mucus integrity, and selective permeability at the intestinal barrier — the structural containment layer determining whether the gut remains a selective interface.",
+      "The gut lining acts as a selective gate between the gut lumen and the body. Tight junctions (seals between epithelial cells) control paracellular passage — what moves between cells rather than through them. When junctions weaken, the physical barrier loses selectivity and inappropriate leakage may increase. Epithelial repair nutrients and regular fermentable fibre help maintain junction and mucus integrity over time.",
     scientific:
-      "Maintenance of epithelial tight junctions, mucus integrity, and selective permeability at the intestinal barrier.",
+      "Maintenance of epithelial tight junction integrity, mucus support, and selective paracellular permeability at the intestinal barrier.",
     bullets: [
-      "Maintains epithelial tight junctions and selective intestinal permeability — within BRS5.",
-      "Preserves mucus integrity at the gut lining — within BRS5.",
-      "Provides structural containment upstream of endotoxin spillover — within BRS5.",
+      "Maintains tight junction proteins and epithelial repair capacity at the gut lining.",
+      "Preserves selective control over paracellular passage between the gut lumen and the body.",
+      "Highlights zinc, vitamin A, omega-3 and fermentable fibre as epithelial maintenance inputs.",
     ],
   },
   "brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment.mdx": {
     translational:
-      "Contains bacterial endotoxin (lipopolysaccharide) and prevents metabolic endotoxaemia through barrier integrity and microbial balance — limiting systemic inflammatory spillover from the gut.",
+      "Lipopolysaccharide (LPS) is a bacterial endotoxin that can provoke innate immune activation when it reaches host tissues. This mechanism focuses on containing microbial product burden and limiting how much biologically active endotoxin the body is exposed to — not the structural condition of the epithelial gate itself. Metabolic endotoxaemia describes sustained low-grade endotoxin exposure from the gut. Fibre-rich, polyphenol-rich patterns and reduced ultra-processed food load may lower endotoxin pressure over time.",
     scientific:
-      "Containment of bacterial endotoxin and prevention of metabolic endotoxemia through barrier integrity and microbial balance.",
+      "Containment of bacterial endotoxin and limitation of host exposure to inflammatory microbial products and metabolic endotoxemia.",
     bullets: [
-      "Contains bacterial endotoxin and limits metabolic endotoxaemia — within BRS5.",
-      "Prevents gut-derived inflammatory spillover into systemic circulation — Supporting BRS3.",
-      "Depends on barrier integrity and microbial balance together — within BRS5.",
+      "Limits translocation of bacterial endotoxin and reduces systemic LPS exposure.",
+      "Constrains innate immune activation driven by gut-derived microbial products.",
+      "Highlights dietary patterns that lower endotoxin load rather than epithelial repair alone.",
     ],
   },
   "brs5/fm1/brs5-fm1-pm3-keystone-taxa-support.mdx": {
     translational:
-      "Supports beneficial taxa and functional guilds such as Bifidobacterium, Faecalibacterium, and Lactobacillus that underpin anti-inflammatory and signalling effects within the gut ecosystem.",
+      "Keystone taxa (groups of related microorganisms) help maintain a healthy gut ecosystem by supporting fibre fermentation, beneficial metabolite production and gut–brain communication. Although they may represent only a small proportion of the microbiome, they perform functions that help stabilise the wider microbial community. Dietary pattern, plant diversity and fermentable fibres influence whether these beneficial communities remain resilient or gradually lose functional capacity.",
     scientific:
-      "Support of beneficial taxa and functional guilds such as Bifidobacterium, Faecalibacterium, and Lactobacillus that underpin anti-inflammatory and signalling effects.",
+      "Support of beneficial keystone taxa and functional guilds underpinning anti-inflammatory and signalling effects within the gut ecosystem.",
     bullets: [
-      "Supports keystone taxa underpinning anti-inflammatory gut ecology — within BRS5.",
-      "Depends on fermentable fibre and plant diversity from KC pools — within BRS5.",
-      "Shapes microbial metabolite signalling capacity downstream — within BRS5.",
+      "Supports beneficial microbial communities that sustain fibre fermentation and gut–brain signalling.",
+      "Maintains ecological resilience supporting gut barrier integrity and balanced immune function.",
+      "Highlights dietary diversity and fermentable fibres as key drivers of long-term microbial stability.",
     ],
   },
   "brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection.mdx": {
     translational:
-      "Drives continuous renewal of the gut microbial ecosystem through substrate availability and ecological competition, selecting which taxa and functions are maintained over time.",
+      "The gut microbiome is not static — microbial communities turn over continuously through substrate availability and competition between species. This mechanism describes how repeated dietary inputs help select which functions persist, supporting diversity and resilience rather than a fixed microbial snapshot. Daily plant diversity and regular fermentable fibre exposure are the main dietary drivers of healthy turnover.",
     scientific:
       "Continuous renewal of the gut microbial ecosystem driven by substrate availability and ecological competition, leading to selection of taxa and functions over time.",
     bullets: [
-      "Drives ecological turnover and competitive selection of microbial functions — within BRS5.",
-      "Depends on repeated fermentable substrate exposure over time — within BRS5.",
-      "Shapes which metabolite-signalling pathways are maintained — within BRS5.",
+      "Drives ongoing ecological renewal and competitive selection of microbial functions.",
+      "Sustains community diversity and resilience against dysbiosis-prone drift.",
+      "Highlights repeated fermentable substrate and plant diversity as key long-term drivers.",
     ],
   },
   "brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling.mdx": {
     translational:
-      "Supports microbial fermentation of fibres into short-chain fatty acids (butyrate, propionate, and acetate) that influence barrier function, inflammation, metabolism, and brain signalling.",
+      "Short-chain fatty acids (beneficial compounds made when gut bacteria ferment fibre) include butyrate, propionate and acetate. They help nourish the gut lining, modulate immune tone and send signals relevant to brain function. When fermentable fibre intake is low or inconsistent, SCFA production may decline and with it this signalling capacity.",
     scientific:
       "Microbial fermentation of fibres into short-chain fatty acids that influence barrier function, inflammation, metabolism, and brain signalling.",
     bullets: [
-      "Produces butyrate, propionate, and acetate from fermentable fibre — within BRS5.",
-      "Supports barrier function and anti-inflammatory signalling — within BRS5.",
-      "Influences brain-relevant metabolic and neuromodulatory context — Supporting BRS6.",
+      "Supports microbial fermentation of dietary fibre into short-chain fatty acids.",
+      "Helps maintain gut barrier integrity and calmer immune signalling at the gut interface.",
+      "Highlights daily fermentable fibre intake as the primary dietary driver of SCFA output.",
     ],
   },
   "brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation.mdx": {
     translational:
-      "Supports microbial conversion of dietary polyphenols into downstream metabolites such as urolithin A that influence mitochondrial and inflammatory resilience (a key BRS5-to-BRS4 bridge mechanism).",
+      "Many polyphenols from plants cannot act fully until gut bacteria convert them into downstream metabolites such as urolithin A. This mechanism describes that biotransformation step — turning dietary plant compounds into signals that may support mitochondrial and inflammatory resilience. Repeated polyphenol-rich foods and sufficient microbial diversity influence how much active metabolite is produced.",
     scientific:
       "Microbial conversion of dietary polyphenols into downstream metabolites such as urolithin A that influence mitochondrial and inflammatory resilience.",
     bullets: [
-      "Biotransforms polyphenols into metabolites such as urolithin A — within BRS5.",
-      "Bridges gut ecology to mitochondrial resilience in BRS4 — Supporting BRS4.",
-      "Depends on polyphenol and plant diversity from KC pools — within BRS5.",
+      "Biotransforms dietary polyphenols into bioactive metabolites such as urolithin A.",
+      "Links plant-rich eating to downstream resilience signals relevant to cell energy and inflammation.",
+      "Highlights berries, cocoa, green tea and broad plant diversity as key polyphenol drivers.",
     ],
   },
   "brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation.mdx": {
     translational:
-      "Modulates vagal and enteric nervous system signalling through microbial activity and gut-derived neuroactive cues — a primary gut-to-brain communication route.",
+      "The gut communicates with the brain through the vagus nerve and the enteric nervous system (the gut's own nerve network). Microbial activity, fermentable fibres and gut-derived neuroactive cues can modulate these pathways — influencing stress responses, mood tone and autonomic balance. Regular meal patterns and fermented foods may support this signalling when tolerated.",
     scientific:
       "Modulation of vagal and enteric nervous system signalling through microbial activity and gut-derived neuroactive cues.",
     bullets: [
-      "Modulates vagal and enteric nervous system signalling from the gut — within BRS5.",
-      "Transduces microbial and barrier-state cues into neuromodulation — within BRS5.",
-      "Links gut ecology to autonomic balance in BRS6 — Supporting BRS6.",
+      "Modulates vagal and enteric nervous system signalling from the gut.",
+      "Transduces microbial and gut-environment cues into brain-relevant neuromodulation.",
+      "Highlights fermentable fibre, meal regularity and fermented foods as supporting dietary patterns.",
     ],
   },
   "brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability.mdx": {
     translational:
-      "Influences microbial and absorptive processes that shape availability of central neurotransmitter precursors such as tryptophan and tyrosine — the gut-side contribution to monoaminergic substrate context.",
+      "Tryptophan and tyrosine are amino acid precursors used to make serotonin and dopamine-related signalling molecules in the brain. Gut microbes and absorptive processes influence how much of these precursors remain available for central use rather than being diverted or metabolised in the gut. Protein quality, fibre intake and barrier integrity all influence this gut-side precursor context.",
     scientific:
       "Microbial and absorptive processes that influence availability of central neurotransmitter precursors such as tryptophan and tyrosine.",
     bullets: [
-      "Influences tryptophan and tyrosine precursor availability from the gut — within BRS5.",
-      "Provides gut-side context for monoaminergic biology in BRS1 — Supporting BRS1.",
-      "Does not redefine core neurotransmitter pathway biology housed in BRS1 — within BRS5.",
+      "Influences microbial and absorptive handling of tryptophan and tyrosine precursors.",
+      "Shapes gut-side availability relevant to central neurotransmitter biology.",
+      "Highlights adequate protein, B vitamins and fermentable fibre as supporting dietary inputs.",
     ],
   },
   "brs5/kc/brs5-kc1-fermentable-fibre-availability.mdx": {

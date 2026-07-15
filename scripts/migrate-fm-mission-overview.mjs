@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
- * Migrate BRS1–BRS3 FM, PM, and SM pages from §1 Definition to §1 Mission & Overview.
+ * Migrate FM, PM, and SM pages from §1 Definition to §1 Mission & Overview.
  * Uses mission + translational + bullets from translational data sources.
+ * Default scope: BRS1–BRS6 and BRS-X mechanism pages under docs/biological-targets.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -35,9 +36,11 @@ const KIND_FILTER = process.argv
   .map((s) => s.trim().toLowerCase());
 
 function pageKind(rel) {
-  if (/^brs[123]\/sm\//.test(rel)) return "sm";
-  if (/-pm\d+-/.test(rel)) return "pm";
-  if (/^brs[123]\/fm\d+\/brs[123]-fm\d+-[^/]+\.mdx$/.test(rel)) return "fm";
+  if (/\/sm\//.test(rel)) return "sm";
+  if (/-pm\d+-/i.test(rel)) return "pm";
+  if (/\/fm\d+\//.test(rel) && /\/kc\//.test(rel) === false && !/-pm\d+-/i.test(rel)) {
+    return "fm";
+  }
   return null;
 }
 
@@ -51,10 +54,7 @@ function listTargetFiles() {
       else if (/\.mdx$/.test(name)) out.push(full);
     }
   }
-  for (const brs of ["brs1", "brs2", "brs3"]) {
-    const dir = path.join(docs, brs);
-    if (fs.existsSync(dir)) walk(dir);
-  }
+  if (fs.existsSync(docs)) walk(docs);
   return out.filter((f) => {
     const rel = path.relative(docs, f);
     const kind = pageKind(rel);
@@ -67,13 +67,26 @@ function listTargetFiles() {
   });
 }
 
+const FORCE = process.argv.includes("--force");
+
 function parseSection1Block(body) {
   const re =
     /(## 1\. (?:Definition|Mission & Overview)\s*\n\n)([\s\S]*?)(\n## 2\. )/m;
   const m = body.match(re);
   if (!m) return null;
   const block = m[2].trim();
-  if (/^### Mission\s*\n/m.test(block)) return { alreadyMigrated: true };
+  if (/^### Mission\s*\n/m.test(block)) {
+    const overviewMatch = block.match(/^### Overview\s*\n\n([\s\S]*)$/m);
+    const overviewBody = overviewMatch?.[1]?.trim() || "";
+    const lines = overviewBody.split("\n");
+    const paragraphs = [];
+    const bullets = [];
+    for (const line of lines) {
+      if (line.startsWith("* ")) bullets.push(line);
+      else if (line.trim() && !line.startsWith("### ")) paragraphs.push(line.trim());
+    }
+    return { prefix: m[1], suffix: m[3], paragraphs, bullets, alreadyMigrated: true };
+  }
 
   const lines = block.split("\n");
   const paragraphs = [];
@@ -102,39 +115,71 @@ ${translational.trim()}
 ${bulletBlock}`;
 }
 
+function replaceYamlScalarBlock(fm, key, value) {
+  const escaped = value.replace(/'/g, "''");
+  const replacement = `${key}: '${escaped}'\n`;
+  const foldedRe = new RegExp(`^${key}:\\s*>-\\s*\\n(?:[ \\t].*\\n)*`, "m");
+  const quotedRe = new RegExp(`^${key}:\\s*(?:'[^']*'|"[^"]*")\\s*\\n`, "m");
+  const plainRe = new RegExp(`^${key}:\\s*[^\\n]+\\n`, "m");
+  if (foldedRe.test(fm)) return fm.replace(foldedRe, replacement);
+  if (quotedRe.test(fm)) return fm.replace(quotedRe, replacement);
+  if (plainRe.test(fm)) return fm.replace(plainRe, replacement);
+  return fm;
+}
+
+function stripOrphanFoldedLines(fm) {
+  return fm.replace(
+    /^(mission|summary): '[^']*'\n(?:  [^\n]+\n)+/gm,
+    (match) => `${match.split("\n")[0]}\n`,
+  );
+}
+
 function updateFrontMatter(fm, { mission, translational }) {
   let out = fm;
-  const missionEscaped = mission.replace(/'/g, "''");
   if (/^mission:\s/m.test(out)) {
-    out = out.replace(/^mission:\s.*\n/m, `mission: '${missionEscaped}'\n`);
+    out = replaceYamlScalarBlock(out, "mission", mission);
   } else {
     out = out.replace(
       /^(parent_brs:\s*[^\n]+\n|pm_id:\s*[^\n]+\n|sm_id:\s*[^\n]+\n|fm_id:\s*[^\n]+\n)/m,
-      `$1mission: '${missionEscaped}'\n`,
+      `$1mission: '${mission.replace(/'/g, "''")}'\n`,
     );
   }
   if (/^summary:\s/m.test(out)) {
-    const summaryEscaped = translational.replace(/'/g, "''");
-    out = out.replace(
-      /^summary:\s*>-\s*\n(?:\s+.*\n)*|^summary:\s*['"][^'"]*['"]\s*\n|^summary:\s*[^\n]+\n/m,
-      `summary: '${summaryEscaped}'\n`,
-    );
+    out = replaceYamlScalarBlock(out, "summary", translational);
   }
-  return out;
+  return stripOrphanFoldedLines(out);
 }
 
-function deriveMissionFromTranslational(translational) {
-  const first = translational.split(/(?<=[.!?])\s+/)[0]?.trim() || translational;
-  if (first.length <= 180) return first;
-  return `${first.slice(0, 177).replace(/\s+\S*$/, "")}…`;
+function deriveMissionFromTranslational(translational, bullets = []) {
+  const firstSentence = translational.split(/(?<=[.!?])\s+/)[0]?.trim() || translational;
+
+  if (bullets.length) {
+    const fromBullet = bullets[0]
+      .replace(/^\*\s*/, "")
+      .replace(/\s+—\s+(within|Supporting|supporting).*$/i, "")
+      .trim();
+    if (fromBullet.length >= 24 && fromBullet.length <= 160) return fromBullet;
+  }
+
+  if (firstSentence.length <= 160) return firstSentence;
+
+  for (const bp of [" through ", " by ", " so ", " when ", " that "]) {
+    const idx = firstSentence.indexOf(bp);
+    if (idx > 40 && idx < 140) {
+      return `${firstSentence.slice(0, idx).replace(/[,;]$/, "")}.`;
+    }
+  }
+
+  return `${firstSentence.slice(0, 157).replace(/\s+\S*$/, "")}…`;
 }
 
-function resolveMission(rel, cfg, translational) {
-  return (
+function resolveMission(rel, cfg, translational, bullets = []) {
+  const configured =
     cfg.mission?.trim() ||
     BRS1_3_MISSIONS[rel]?.trim() ||
-    deriveMissionFromTranslational(translational)
-  );
+    "";
+  if (configured) return configured;
+  return deriveMissionFromTranslational(translational, bullets);
 }
 
 function migrateFile(absPath) {
@@ -146,7 +191,7 @@ function migrateFile(absPath) {
 
   const parsed = parseSection1Block(body);
   if (!parsed) return { rel, status: "no-section1-block" };
-  if (parsed.alreadyMigrated) return { rel, status: "already-migrated" };
+  if (parsed.alreadyMigrated && !FORCE) return { rel, status: "already-migrated" };
 
   const cfg = CONFIG[rel] ?? {};
   const translational =
@@ -159,18 +204,22 @@ function migrateFile(absPath) {
       : parsed.bullets.length > 0
         ? parsed.bullets
         : ["* Supports integrated biological function on this page — within primary BRS."];
-  const mission = resolveMission(rel, cfg, translational);
+  const mission = resolveMission(rel, cfg, translational, bullets);
+  const missionText =
+    mission.trim() === translational.trim()
+      ? deriveMissionFromTranslational(translational, bullets)
+      : mission;
 
-  if (!mission || !translational) {
+  if (!missionText || !translational) {
     return { rel, status: "missing-mission-or-overview" };
   }
 
-  const newBlock = buildMissionOverviewBlock({ mission, translational, bullets });
+  const newBlock = buildMissionOverviewBlock({ mission: missionText, translational, bullets });
   body = body.replace(
     /## 1\. (?:Definition|Mission & Overview)\s*\n\n[\s\S]*?\n## 2\. /m,
     `## 1. Mission & Overview\n\n${newBlock}\n\n## 2. `,
   );
-  fm = updateFrontMatter(fm, { mission, translational });
+  fm = updateFrontMatter(fm, { mission: missionText, translational });
 
   fs.writeFileSync(absPath, `${fm}${body}`, "utf8");
   return { rel, status: "updated" };
@@ -181,7 +230,7 @@ const results = files.map(migrateFile);
 const updated = results.filter((r) => r.status === "updated");
 const skipped = results.filter((r) => r.status !== "updated");
 
-console.log(`Mission & Overview migration (BRS1–3 FM / PM / SM)`);
+console.log(`Mission & Overview migration (FM / PM / SM)`);
 console.log(`Updated ${updated.length} file(s).`);
 if (updated.length) {
   for (const r of updated) console.log(`  ✓ ${r.rel}`);

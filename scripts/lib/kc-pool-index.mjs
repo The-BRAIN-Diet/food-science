@@ -1,12 +1,17 @@
 /**
- * Index KC pages by kc_id and docs href; extract Shared Biological Pool members.
+ * Index KC pages by kc_id and docs href; extract Core Nutritional Requirements / Shared Biological Pool members.
  */
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { isRetiredKc } from "./kc-registry.mjs";
 
-const POOL_HEADING = "### 3. Shared Biological Pool";
-const INPUTS_HEADING = "### 3. Supporting Inputs/Substrates";
+const POOL_HEADINGS = [
+  "### 2. Core Nutritional Requirements",
+  "### 2. Shared Biological Pool",
+  "### 3. Shared Biological Pool",
+  "### 3. Supporting Inputs/Substrates",
+];
 
 function walkKcFiles(dir) {
   const out = [];
@@ -29,23 +34,15 @@ function parseBulletLines(block) {
     .filter(Boolean);
 }
 
-function poolMemberFromLine(line) {
-  const arrow = line.indexOf(" ← ");
-  if (arrow !== -1) return line.slice(0, arrow).trim();
-  return line.trim();
-}
-
 function extractPoolMembers(content) {
-  const poolMatch = content.match(
-    new RegExp(`${POOL_HEADING.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*\\n+([\\s\\S]*?)(?=\\n### 4\\. )`),
-  );
-  if (poolMatch) return parseBulletLines(poolMatch[1]);
-
-  const inputsMatch = content.match(
-    new RegExp(`${INPUTS_HEADING.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*\\n+([\\s\\S]*?)(?=\\n### 4\\. )`),
-  );
-  if (inputsMatch) return parseBulletLines(inputsMatch[1]).map(poolMemberFromLine);
-
+  for (const heading of POOL_HEADINGS) {
+    const poolMatch = content.match(
+      new RegExp(
+        `${heading.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*\\n+([\\s\\S]*?)(?=\\n### \\d+\\. )`,
+      ),
+    );
+    if (poolMatch) return parseBulletLines(poolMatch[1]);
+  }
   return [];
 }
 
@@ -53,6 +50,7 @@ function kcLabelFromFile(filePath, kcId) {
   const base = path.basename(filePath, ".mdx");
   const title = base
     .replace(/^brs-x-ecs-kc\d+-/i, "")
+    .replace(/^brs-x-hormones-kc\d+-/i, "")
     .replace(/^brs\d+-kc\d+-/i, "")
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
@@ -74,12 +72,13 @@ export function buildKcPoolIndex(docsRoot) {
     const raw = fs.readFileSync(filePath, "utf8");
     const { data, content } = matter(raw);
     const kcId = data.kc_id;
-    if (!kcId) continue;
+    if (!kcId || isRetiredKc({ id: kcId })) continue;
 
     const href = docsHrefFromFile(path.join(docsRoot), filePath);
     const pool = extractPoolMembers(content);
     const label =
       content.match(new RegExp(`^### ${kcId.replace(/[()]/g, "\\$&")} - (.+)$`, "m"))?.[1]?.trim() ||
+      data.title ||
       kcLabelFromFile(filePath, kcId);
 
     const entry = { kcId, label, href, pool, filePath };
@@ -122,19 +121,20 @@ export function resolveKcRefs(keyConstraints, index) {
   return refs;
 }
 
+/** PM §4.1.3 body: KC link(s) plus substance ← food lines (same format as §4.1.1). */
 export function renderPmKcLeverBlock(kcRefs) {
   if (!kcRefs.length) return "";
 
-  const lines = [];
+  const blocks = [];
   for (const kc of kcRefs) {
-    lines.push(`- [${kc.kcId} - ${kc.label}](${kc.href})`, "", "**Shared Biological Pool**", "");
+    const lines = [`- [${kc.kcId} - ${kc.label}](${kc.href})`, ""];
     if (kc.pool.length) {
       for (const member of kc.pool) lines.push(`- ${member}`);
     } else {
       lines.push("- See linked KC page for pool members.");
     }
-    lines.push("");
+    blocks.push(lines.join("\n"));
   }
 
-  return lines.join("\n").trimEnd();
+  return blocks.join("\n\n");
 }

@@ -1,9 +1,10 @@
 ---
 title: Creatine / Phosphocreatine Buffer
 pm_id: BRS4-FM1-PM3
+mission: Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.
 parent_fm: BRS4(FM1)
 parent_brs: BRS4
-summary: 'Provides a rapid ATP buffering system supporting high-energy-demand tissues, especially brain and muscle, through creatine–phosphocreatine cycling.'
+summary: 'Provides a rapid ATP buffering system through creatine–phosphocreatine cycling (a fast-acting energy reserve that regenerates ATP faster than oxidative phosphorylation alone can manage), supporting high-energy-demand tissues, especially brain and muscle. This buffer complements rather than replaces oxidative phosphorylation, covering the burst-energy gap during sudden demand spikes before slower mitochondrial ATP production can catch up. Dietary creatine and its precursor amino acids influence how large this buffering reserve can become.'
 key_constraints:
   - BRS4(KC1) - Macronutrient Substrate Availability
 cofactors:
@@ -59,21 +60,122 @@ phenome_relationships:
 
 ## BRS4-FM1-PM3 - Creatine / Phosphocreatine Buffer
 
-## 1. Definition
+(Quick Energy Buffer for Brain & Muscle)
 
-Provides a rapid ATP buffering system supporting high-energy-demand tissues, especially brain and muscle, through creatine–phosphocreatine cycling.
+## 1. Mission & Overview
+
+### Mission
+
+Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.
+
+### Overview
+
+Provides a rapid ATP buffering system through creatine–phosphocreatine cycling (a fast-acting energy reserve that regenerates ATP faster than oxidative phosphorylation alone can manage), supporting high-energy-demand tissues, especially brain and muscle. This buffer complements rather than replaces oxidative phosphorylation, covering the burst-energy gap during sudden demand spikes before slower mitochondrial ATP production can catch up. Dietary creatine and its precursor amino acids influence how large this buffering reserve can become.
 
 * Buffers rapid ATP demand in brain and high-energy tissues.
-* Supports cognitive energy availability under acute demand — Supporting BRS6.
-* Complements oxidative phosphorylation for burst energy needs.
-
+* Complements oxidative phosphorylation during sudden burst-energy spikes.
+* Depends on dietary creatine and precursor amino-acid intake.
 
 ## 2. Primary Biological Effects
 Improved short-term ATP buffering; improved energetic reserve
 
 ## 3. Phenome Connections
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how directly this mechanism's biology would be expected to affect the phenome within BRAIN architecture — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How confidence scores differ</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+These are <strong>three independent scores</strong>. They are not combined or averaged.
+A phenome can have <strong>Medium</strong> registry evidence while individual mechanism
+rows show different Biology → Phenome and Evidence scores.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>1. Phenome Evidence Confidence</strong> (Phenome Registry only)
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Question:</strong> How convincing is the foundational evidence that this
+phenome is a valid, well-defined functional construct — and that diet-relevant
+biology can plausibly connect to it?
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Not</strong> a roll-up of Biology → Phenome Confidence or Evidence
+Confidence from Primary Mechanism page rows. Those are scored per mechanism; this
+score is assigned once per phenome at registry level.
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Derived from</strong> foundational landmark evidence organised in up to
+three layers: construct validation, biology→phenome linkage, and nutrition→biology
+modulation. Each layer may include one or many landmark papers depending on registry
+review.
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>2. Biology → Phenome Confidence</strong> (Primary Mechanism page §3 rows)
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Question:</strong> If this PM/FM biology were substantially impaired in
+isolation, how directly would that phenome be expected to suffer — within BRAIN
+architecture?
+</p>
+<p class="phenome-scoring-key-body">
+<strong>How it is derived:</strong> Reviewers read the PM/FM <em>definition and
+biological function first</em> — initially <em>ignoring</em> attached references and
+whether dietary intervention studies exist. References are reviewed only when scoring
+Evidence Confidence (below).
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Score levels</strong> (the value shown on each row as <em>Biology → Phenome Confidence</em>):
+</p>
+<ul class="phenome-scoring-key-sublist">
+<li><strong>High</strong> — primary biological determinant (e.g. noradrenergic signalling → attention; GABA synthesis → calming tone)</li>
+<li><strong>Medium</strong> — major contributory determinant, not the sole driver</li>
+<li><strong>Low–Medium</strong> — established but indirect, modulatory, or one integrative step removed</li>
+<li><strong>Low</strong> — distal, conditional, or weak biological coupling</li>
+</ul>
+<p class="phenome-scoring-key-body">
+<strong>“Not dietary treatment efficacy”</strong> means this score does not ask
+whether a diet or supplement <em>treats</em> the phenome. It asks whether the
+<em>biology itself</em> is architecturally relevant. Limited dietary RCT evidence
+belongs in Evidence Confidence, not here.
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>3. Evidence Confidence</strong> (Primary Mechanism page §3 rows)
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Question:</strong> How convincing are the <strong>attached Key References</strong>
+on that specific row that this biology actually relates to this phenome?
+</p>
+<p class="phenome-scoring-key-body">
+<strong>How it is derived:</strong> Assigned <em>after</em> Biology → Phenome
+Confidence, by reviewing only the references on that PM/FM row. Judges whether refs
+support the <em>relationship</em> — not just mechanism or phenome in isolation.
+</p>
+<ul class="phenome-scoring-key-sublist">
+<li><strong>High</strong> — strong convergent human evidence directly linking mechanism biology to phenome variation</li>
+<li><strong>Medium</strong> — multiple human lines supporting the relationship; may include one bridge study with an inferential step</li>
+<li><strong>Low–Medium</strong> — convergent translational stack without direct mechanism↔phenome measurement on the row</li>
+<li><strong>Low</strong> — mechanistic or preclinical only; mechanism and phenome supported separately but not bridged</li>
+</ul>
+<p class="phenome-scoring-key-body">
+Often equal to or <em>lower than</em> Biology → Phenome Confidence. Can occasionally
+be higher when outcome evidence is stronger than the mechanism's contributory role.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -88,14 +190,12 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
 - **Biology → Phenome Confidence:** Low–Medium
 - **Rationale:** ADHD cybrid respiration deficits and hub reviews of mitochondrial dysfunction imply high-demand tissues may rely on phosphocreatine buffering when oxidative phosphorylation is strained — direct ADHD creatine-outcome trials are not in the hub evidence set (biology > evidence gap).
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#verma_attention_2016","label":"Verma et al. (2016)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023","label":"Öğütlü et al. (2022)","dataLevel":"Human Study"}]} />
 - **Evidence Confidence:** Low
-
 </div>
 </div>
 </div>
@@ -113,14 +213,12 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
 - **Biology → Phenome Confidence:** Low
 - **Rationale:** Rapid ATP buffering may support restoration after acute cognitive energy draw when mitochondrial output is compromised — indirect translational framing from ADHD bioenergetic strain literature without ADHD phosphocreatine intervention outcomes.
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023","label":"Öğütlü et al. (2022)","dataLevel":"Human Study"}]} />
 - **Evidence Confidence:** Low
-
 </div>
 </div>
 </div>
@@ -178,14 +276,12 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- [BRS4(KC1) - Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability)
 
-**Shared Biological Pool**
+- [BRS4(KC1) - Macronutrient Substrate Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability)
 
-- Amino acids
-- Fatty acids
-- Glucose
-
+- Amino acids ← fish, eggs, dairy, legumes
+- Fatty acids ← fish, eggs, olive oil, nuts, seeds
+- Glucose ← oats, barley, legumes, fruit
 </div>
 </div>
 </div>
@@ -199,7 +295,26 @@ These mappings are translational relationships, not single-mechanism outcome cla
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 Lifestyle Levers</strong>
+<strong>4.2 Optimisation Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Gentle cooking preserves nutrients and prevents formation of advanced glycation end products (AGEs) — see [Lamb — Preparation](/docs/foods/lamb#preparation).
+- Use gentler methods (braising, stewing, lower-temperature roasting) to help preserve thiamine, wh… — see [Pork — Preparation](/docs/foods/pork#preparation).
+- Prefer gentler cooking and stable fat handling to limit exogenous AGE/ALE and oxidised-lipid load — see [Salmon — Preparation](/docs/foods/salmon#preparation).
+- Use gentle cooking methods (light searing, baking, steaming) to preserve moisture and omega-3 con… — see [Tuna — Preparation](/docs/foods/tuna#preparation).
+- Cook gently — light searing, steaming, or brief baking — to preserve texture and avoid toughening… — see [Scallops — Preparation](/docs/foods/scallops#preparation).
+
+</div>
+</div>
+</div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.3 Lifestyle Levers</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -273,14 +388,16 @@ Phosphocreatine buffering is textbook energetics. The findings below focus on di
 
 - None listed
 
-### 6.2 Connected BRS Mechanisms
+### 6.2 Cross-BRS Mechanism Relationships
 
-- [BRS2-FM1-PM4 - Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) — fM1-PM4 - Methionine Cycle Flux context relevant to this mechanism
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS2-FM1-PM4 - Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) — One-carbon and methylation-related metabolism intersect with redox handling; methionine-cycle flux
 - [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — biological connection relevant to this mechanism
 
-### 6.3 Connected Primary Mechanisms
+### 6.3 Local BRS Mechanism Relationships
 
-- [BRS4(FM1) - Cellular Bioenergetics](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics)
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
 - [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function)
 - [BRS4-FM1-PM2 - NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism)

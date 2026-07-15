@@ -57,13 +57,6 @@ export const KC_STRESSOR_ARCHIVE = {
     "Chronic oxidative burden",
     "Ultra-processed dietary patterns displacing antioxidant-rich foods",
   ],
-  "BRS3(KC3)": [
-    "Low omega-3 intake",
-    "Excessive omega-6 dominance",
-    "Low oily fish consumption",
-    "Poor dietary fatty-acid diversity",
-    "Chronic inflammatory load",
-  ],
   "BRS4(KC1)": [
     "chronic energy deficit or under-fuelling",
     "erratic meal patterns reducing substrate continuity",

@@ -10,6 +10,7 @@ import { fileURLToPath } from "url";
 import { listMechanismMdxFiles, readMechanismPage } from "./lib/mechanism-page-validation.mjs";
 import {
   addLink,
+  buildEntityIndex,
   collectFromText,
   extractSection,
   formatBullets,
@@ -25,6 +26,7 @@ import {
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const hubConnections = parseHubConnectedMechanisms(root);
+const entityIndex = buildEntityIndex(root);
 
 function replaceSection(content, sectionRe, newBody, nextRe) {
   const fullRe = new RegExp(
@@ -49,7 +51,7 @@ function populatePm(filePath, root) {
 
   const selfHref = pageHref(root, filePath);
   const opts = { hostKey, selfHref, crossBrsOnly: true };
-  const links = collectFromText(getPmSourceText(content), opts);
+  const links = collectFromText(getPmSourceText(content), opts, entityIndex);
 
   // Inherit cross-BRS links from parent FM hub block
   const parentFm = data.parent_fm;
@@ -71,15 +73,15 @@ function populatePm(filePath, root) {
     }
   }
 
-  // Curated cross-BRS links where page content lacks explicit targets
+  // Curated cross-BRS links — authoritative labels and connection copy
   if (data.pm_id && CURATED_PM_CONNECTIONS[data.pm_id]) {
     for (const link of CURATED_PM_CONNECTIONS[data.pm_id]) {
-      addLink(links, link, opts);
+      links.set(link.href, { label: link.label, href: link.href, connection: link.connection });
     }
   }
 
   const newBody = formatBullets(links);
-  const existing = extractSection(content, /### 6\.2 Connected BRS Mechanisms/);
+  const existing = extractSection(content, /### 6\.2 (?:Cross-BRS Mechanism Relationships|Connected BRS Mechanisms)/);
   if (newBody === existing) return null;
   if (newBody === "- None listed" && existing && !/^- None listed\s*$/i.test(existing)) {
     return null;
@@ -87,9 +89,9 @@ function populatePm(filePath, root) {
 
   const updated = replaceSection(
     content,
-    /### 6\.2 Connected BRS Mechanisms/,
+    /### 6\.2 (?:Cross-BRS Mechanism Relationships|Connected BRS Mechanisms)/,
     newBody,
-    /### 6\.3 Connected Primary Mechanisms/,
+    /### 6\.3 (?:Local BRS Mechanism Relationships|Connected Primary Mechanisms)/,
   );
   if (!updated) return null;
   return matter.stringify(updated, data, { lineWidth: 9999 });
@@ -119,7 +121,7 @@ function populateFm(filePath) {
     const pmPath = resolvePmPath(root, pm);
     if (!pmPath) continue;
     const { content: pmContent } = readMechanismPage(pmPath);
-    const block = extractSection(pmContent, /### 6\.2 Connected BRS Mechanisms/);
+    const block = extractSection(pmContent, /### 6\.2 (?:Cross-BRS Mechanism Relationships|Connected BRS Mechanisms)/);
     for (const [href, link] of parseBullets(block)) {
       if (childPmHrefs.has(href)) continue;
       addLink(links, link, { hostKey, selfHref, crossBrsOnly: false });
@@ -128,7 +130,7 @@ function populateFm(filePath) {
       hostKey,
       selfHref,
       crossBrsOnly: false,
-    })) {
+    }, entityIndex)) {
       if (href === selfHref || childPmHrefs.has(href)) continue;
       const linkKey = getLinkKey(href);
       if (linkKey !== hostKey) {
@@ -146,7 +148,7 @@ function populateFm(filePath) {
     hostKey,
     selfHref,
     crossBrsOnly: false,
-  })) {
+  }, entityIndex)) {
     if (href === selfHref || childPmHrefs.has(href)) continue;
     addLink(links, link, { hostKey, selfHref, crossBrsOnly: false });
   }

@@ -24,7 +24,6 @@ hide_title: true
 ## Ambition
 
 Maintain balanced endocannabinoid signalling so the brain can regulate neural homeostasis, stress adaptation, appetite, and neuroimmune communication across changing physiological demands.
-
 ## Dietary and Lifestyle Levers
 
 <p class="brs-hub-levers-intro">Dietary patterns, food handling and behavioural levers shape how effectively this Biological Regulatory System can operate under daily demand.</p>
@@ -40,11 +39,7 @@ Maintain balanced endocannabinoid signalling so the brain can regulate neural ho
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-<div class="brs-hub-levers-key-constraints">
-<p class="brs-hub-levers-key-constraints-heading"><strong>Key constraints:</strong></p>
-<p class="brs-hub-lever-kc-commentary">Key dietary constraints include phospholipid-rich whole foods, choline and NAPE precursor availability, and omega-3-supportive patterns that sustain endogenous lipid mediator formation.</p>
-<p class="brs-hub-lever-kc-foods">Eggs, Fish, Fish roe, Legumes, Liver, Oats, Soy</p>
-</div>
+
 
 <p class="brs-hub-levers-patterns"><strong>Key Dietary Strategy &amp; Targets:</strong> Prioritise phospholipid-rich whole foods — eggs, oily fish, soy, and nuts — alongside choline-containing foods that support endocannabinoid precursor biology. Include omega-3-rich seafoods and a diverse range of polyphenol-rich plants to support endogenous lipid mediator formation through food rather than pharmacological receptor targeting.</p>
 

@@ -4,9 +4,7 @@ pm_id: BRS3-FM3-PM7
 mission: Tune downstream cytokine signalling intensity so inflammatory tone does not remain chronically elevated.
 parent_fm: BRS3(FM3)
 parent_brs: BRS3
-summary: 'Modulates cytokine signalling tone across IL-6, TNF-α, and CRP-linked inflammatory pathways — governing downstream cytokine intensity rather than upstream transcriptional nodes alone.'
-key_constraints:
-  - BRS3(KC3) - Essential Fatty Acid Balance
+summary: 'Modulates cytokine signalling tone across IL-6, TNF-α, and CRP-linked inflammatory pathways (immune messenger molecules that coordinate and amplify inflammatory responses) once transcriptional activation has already occurred upstream. This mechanism governs downstream signalling intensity specifically, complementing rather than duplicating the upstream NF-κB transcriptional regulation covered elsewhere. Chronically elevated cytokine tone contributes to sustained low-grade inflammation, making this a distinct dietary-actionable node further along the inflammatory cascade.'
 cofactors:
   - omega-3
   - polyphenols
@@ -22,6 +20,8 @@ references:
   - '[Brown et al. (2025) — A Cross-sectional Study on Danish Adolescents](/docs/papers/BRAIN-Diet-References#brown_associations_2025)'
   - '[Wesselink et al. (2019) — Feeding, Immunity, and ADHD](/docs/papers/BRAIN-Diet-References#wesselink_feeding_2019)'
   - '[Kiecolt-Glaser et al. (2011) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)'
+  - '[Slavich & Irwin (2014) — From Stress to Inflammation and Major Depressive Disorder](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014)'
+  - '[Marsland et al. (2017) — Systemic Inflammation and Resting State Connectivity of the Default Mode Network](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)'
   - '[Song et al. (2023) — A Fatal Blow in Depression](/docs/papers/BRAIN-Diet-References#song_mitochondrial_2023)'
 hide_title: true
 phenome_relationships:
@@ -68,21 +68,31 @@ phenome_relationships:
     evidence_confidence: low-medium
   - target_phenome: Apprehensive Worry / Perseverative Thought
     relationship_type: modulates
-    confidence: low-medium
+    confidence: medium
     evidence_level: intervention
-    rationale: 'Omega-3 supplementation lowered anxiety symptoms in stressed medical students alongside inflammatory markers — cytokine-network modulation is the mechanism boundary, not omega-3 as a PM treatment.'
+    rationale: 'Persistent inflammatory signalling through IL-6- and TNF-α-linked cytokine networks is a recognised contributor to anxious and perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). Human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside resolution-phase cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs cytokine-network tone — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.'
     references:
       - index: 1
+        label: Slavich & Irwin (2014)
+        citation_key: slavich_stress_inflammation_2014
+        href: /docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014
+        data_level: Human Mechanistic
+      - index: 2
+        label: Marsland et al. (2017)
+        citation_key: marsland_systemic_2017
+        href: /docs/papers/BRAIN-Diet-References#marsland_systemic_2017
+        data_level: Human Mechanistic
+      - index: 3
         label: Kiecolt-Glaser et al. (2011)
         citation_key: kiecolt-glaser_omega-3_2011
         href: /docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011
         data_level: Human Outcome
-      - index: 2
+      - index: 4
         label: Ferguson et al. (2014)
         citation_key: ferguson_omega3_2014
         href: /docs/papers/BRAIN-Diet-References#ferguson_omega3_2014
         data_level: Human Study
-    evidence_confidence: low-medium
+    evidence_confidence: medium
   - target_phenome: Pleasure & Interest Capacity
     relationship_type: modulates
     confidence: low
@@ -116,18 +126,112 @@ Tune downstream cytokine signalling intensity so inflammatory tone does not rema
 
 ### Overview
 
-Modulates cytokine signalling tone across IL-6, TNF-α, and CRP-linked inflammatory pathways — governing downstream cytokine intensity rather than upstream transcriptional nodes alone.
+Modulates cytokine signalling tone across IL-6, TNF-α, and CRP-linked inflammatory pathways (immune messenger molecules that coordinate and amplify inflammatory responses) once transcriptional activation has already occurred upstream. This mechanism governs downstream signalling intensity specifically, complementing rather than duplicating the upstream NF-κB transcriptional regulation covered elsewhere. Chronically elevated cytokine tone contributes to sustained low-grade inflammation, making this a distinct dietary-actionable node further along the inflammatory cascade.
 
-* Modulates IL-6, TNF-α, and CRP-linked cytokine tone.
-* Governs downstream inflammatory signalling intensity.
-* Complements upstream NF-κB regulation represented in sibling PMs.
+* Modulates IL-6, TNF-α, and CRP-linked cytokine signalling intensity.
+* Governs downstream signalling tone, complementing upstream transcriptional regulation.
+* Contributes to sustained low-grade inflammation when chronically elevated.
 
 ## 2. Primary Biological Effects
 ↓ IL-6/TNF-a pressure; ↓ inflammatory signalling tone
 
 ## 3. Phenome Connections
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how centrally this mechanism contributes to the phenome within BRAIN — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how directly this mechanism's biology would be expected to affect the phenome within BRAIN architecture — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How confidence scores differ</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+These are <strong>three independent scores</strong>. They are not combined or averaged.
+A phenome can have <strong>Medium</strong> registry evidence while individual mechanism
+rows show different Biology → Phenome and Evidence scores.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>1. Phenome Evidence Confidence</strong> (Phenome Registry only)
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Question:</strong> How convincing is the foundational evidence that this
+phenome is a valid, well-defined functional construct — and that diet-relevant
+biology can plausibly connect to it?
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Not</strong> a roll-up of Biology → Phenome Confidence or Evidence
+Confidence from Primary Mechanism page rows. Those are scored per mechanism; this
+score is assigned once per phenome at registry level.
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Derived from</strong> foundational landmark evidence organised in up to
+three layers: construct validation, biology→phenome linkage, and nutrition→biology
+modulation. Each layer may include one or many landmark papers depending on registry
+review.
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>2. Biology → Phenome Confidence</strong> (Primary Mechanism page §3 rows)
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Question:</strong> If this PM/FM biology were substantially impaired in
+isolation, how directly would that phenome be expected to suffer — within BRAIN
+architecture?
+</p>
+<p class="phenome-scoring-key-body">
+<strong>How it is derived:</strong> Reviewers read the PM/FM <em>definition and
+biological function first</em> — initially <em>ignoring</em> attached references and
+whether dietary intervention studies exist. References are reviewed only when scoring
+Evidence Confidence (below).
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Score levels</strong> (the value shown on each row as <em>Biology → Phenome Confidence</em>):
+</p>
+<ul class="phenome-scoring-key-sublist">
+<li><strong>High</strong> — primary biological determinant (e.g. noradrenergic signalling → attention; GABA synthesis → calming tone)</li>
+<li><strong>Medium</strong> — major contributory determinant, not the sole driver</li>
+<li><strong>Low–Medium</strong> — established but indirect, modulatory, or one integrative step removed</li>
+<li><strong>Low</strong> — distal, conditional, or weak biological coupling</li>
+</ul>
+<p class="phenome-scoring-key-body">
+<strong>“Not dietary treatment efficacy”</strong> means this score does not ask
+whether a diet or supplement <em>treats</em> the phenome. It asks whether the
+<em>biology itself</em> is architecturally relevant. Limited dietary RCT evidence
+belongs in Evidence Confidence, not here.
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>3. Evidence Confidence</strong> (Primary Mechanism page §3 rows)
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Question:</strong> How convincing are the <strong>attached Key References</strong>
+on that specific row that this biology actually relates to this phenome?
+</p>
+<p class="phenome-scoring-key-body">
+<strong>How it is derived:</strong> Assigned <em>after</em> Biology → Phenome
+Confidence, by reviewing only the references on that PM/FM row. Judges whether refs
+support the <em>relationship</em> — not just mechanism or phenome in isolation.
+</p>
+<ul class="phenome-scoring-key-sublist">
+<li><strong>High</strong> — strong convergent human evidence directly linking mechanism biology to phenome variation</li>
+<li><strong>Medium</strong> — multiple human lines supporting the relationship; may include one bridge study with an inferential step</li>
+<li><strong>Low–Medium</strong> — convergent translational stack without direct mechanism↔phenome measurement on the row</li>
+<li><strong>Low</strong> — mechanistic or preclinical only; mechanism and phenome supported separately but not bridged</li>
+</ul>
+<p class="phenome-scoring-key-body">
+Often equal to or <em>lower than</em> Biology → Phenome Confidence. Can occasionally
+be higher when outcome evidence is stronger than the mechanism's contributory role.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -142,14 +246,12 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
 - **Biology → Phenome Confidence:** Low–Medium
 - **Rationale:** ROS-driven glial activation and pro-inflammatory cytokine release may intersect ADHD pathogenesis framing; omega-3 interventions reshape resolution-phase cytokine responses.
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#chang_cortisol_2020","label":"Chang et al. (2020)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
 - **Evidence Confidence:** Low–Medium
-
 </div>
 </div>
 </div>
@@ -167,14 +269,12 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
 - **Biology → Phenome Confidence:** Low–Medium
 - **Rationale:** Immune dysfunction, elevated IgE, and allergy patterns represent overlapping clinical links in ADHD populations relevant to cytokine-network tone.
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#wesselink_feeding_2019","label":"Wesselink et al. (2019)","dataLevel":"Human Study"}]} />
 - **Evidence Confidence:** Low–Medium
-
 </div>
 </div>
 </div>
@@ -192,14 +292,12 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
 - **Biology → Phenome Confidence:** Low
 - **Rationale:** Postprandial inflammatory patterns in ADHD metabolic overlap may modulate cognitive clarity through cytokine-network context rather than single-mechanism claims.
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#brown_associations_2025","label":"Brown et al. (2025)","dataLevel":"Human Mechanistic"}]} />
 - **Evidence Confidence:** Low–Medium
-
 </div>
 </div>
 </div>
@@ -217,14 +315,12 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
-- **Biology → Phenome Confidence:** Low–Medium
-- **Rationale:** Omega-3 supplementation lowered anxiety symptoms in stressed medical students alongside inflammatory markers — cytokine-network modulation is the mechanism boundary, not omega-3 as a PM treatment.
+- **Biology → Phenome Confidence:** Medium
+- **Rationale:** Persistent inflammatory signalling through IL-6- and TNF-α-linked cytokine networks is a recognised contributor to anxious and perseverative cognition within neuroimmune framing (Slavich & Irwin, 2014; Marsland et al., 2017). Human omega-3 intervention reduced inflammatory markers and anxiety symptoms alongside resolution-phase cytokine remodelling (Kiecolt-Glaser et al., 2011; Ferguson et al., 2014). This PM governs cytokine-network tone — not omega-3 treatment — and attached anxiety outcomes require one inferential step to PH016 rather than direct perseverative-thought measurement.
 - **Key References:**
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011","label":"Kiecolt-Glaser et al. (2011)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
-- **Evidence Confidence:** Low–Medium
-
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014","label":"Slavich & Irwin (2014)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#marsland_systemic_2017","label":"Marsland et al. (2017)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011","label":"Kiecolt-Glaser et al. (2011)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
+- **Evidence Confidence:** Medium
 </div>
 </div>
 </div>
@@ -242,14 +338,12 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
 - **Biology → Phenome Confidence:** Low
 - **Rationale:** Mitochondrial dysfunction is a recurrent theme in depression pathophysiology reviews; cytokine-network inflammatory tone may intersect reward-related mitochondrial biology without direct anhedonia measurement on this PM.
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#song_mitochondrial_2023","label":"Song et al. (2023)","dataLevel":"Mechanistic"}]} />
 - **Evidence Confidence:** Low–Medium
-
 </div>
 </div>
 </div>
@@ -293,7 +387,7 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- magnesium
+- Magnesium ← leafy greens, nuts, seeds
 - omega-3
 - polyphenols
 - vitamin D
@@ -303,28 +397,6 @@ These mappings are translational relationships, not single-mechanism outcome cla
 </div>
 
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 KCs (Key Constraints)</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- [BRS3(KC3) - Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance)
-
-**Shared Biological Pool**
-
-- EPA
-- DHA
-- Arachidonic acid
-- Omega-3 fatty acids
-- Omega-6 fatty acids
-
-</div>
-</div>
-</div>
-
 </div>
 </div>
 </div>
@@ -334,32 +406,38 @@ These mappings are translational relationships, not single-mechanism outcome cla
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 Lifestyle Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Stable sleep and glycaemic routine may indirectly support lower cytokine pressure through reduced systemic stress signalling.
-- Daily pattern quality matters more than isolated anti-inflammatory additions.
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.3 Optimisation Levers</strong>
+<strong>4.2 Optimisation Levers</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
 - Limit ultra-processed food patterns that increase post-meal inflammatory substrate load reaching cytokine networks.
 - Prefer gentler cooking of dietary fats to reduce oxidised-lipid inputs that amplify cytokine pressure alongside nutrient intake — see [Extra virgin olive oil — Preparation](/docs/foods/extra-virgin-olive-oil#preparation).
+- Daily pattern quality matters more than isolated anti-inflammatory additions.
+- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation).
+- Prepare fermentable staples and include traditionally fermented foods where tolerated — see [Lentils — Preparation](/docs/foods/lentils#preparation).
+- Add **at the end** (just before serving) to preserve crunch and aromatic top-notes — see [Cacao Nibs (Raw) — Preparation](/docs/foods/cacao-nibs-raw#preparation).
 
 </div>
 </div>
 </div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>4.3 Lifestyle Levers</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Stable sleep and glycaemic routine may indirectly support lower cytokine pressure through reduced systemic stress signalling.
+
+</div>
+</div>
+</div>
+
+
+
 
 
 ## 5. Mechanistic Basis
@@ -390,7 +468,7 @@ Upstream NF-κB transcriptional control is handled by [BRS3-FM1-PM1 - NF-kB Sign
 
 #### (Integration within BRS3)
 
-This PM supports resolution-oriented inflammatory tone within [BRS3(FM3)](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity), drawing on [BRS3(KC3) - Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance). Stable glycaemic and gut context imported through section 5.3 connected mechanisms conditions downstream cytokine expression.
+This PM supports resolution-oriented inflammatory tone within [BRS3(FM3)](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity), supported by habitual EPA/DHA intake through §4.1 Direct Dietary Levers. Stable glycaemic and gut context imported through section 5.3 connected mechanisms conditions downstream cytokine expression.
 
 </div>
 </div>
@@ -405,7 +483,7 @@ This PM supports resolution-oriented inflammatory tone within [BRS3(FM3)](/docs/
 
 #### Introduction/Summary
 
-Cytokine networks are standard inflammatory readouts. The evidence below highlights omega-3 effects on resolution-phase inflammation.
+Cytokine networks are standard inflammatory readouts. The evidence below highlights omega-3 effects on resolution-phase inflammation in controlled models and on circulating cytokine tone in a human supplementation trial.
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -427,20 +505,44 @@ Cytokine networks are standard inflammatory readouts. The evidence below highlig
 </div>
 
 
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Omega-3 supplementation, cytokine markers, and stress-related outcomes</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** low-medium
+- **Evidence Level:** intervention
+- **Rationale:** In a randomized controlled trial of medical students under academic stress, omega-3 supplementation reduced circulating inflammatory markers (including IL-6) alongside anxiety symptoms — human evidence that fatty-acid intake can modulate cytokine-network tone within this PM's mechanism boundary, without isolating omega-3 as a PM treatment [Kiecolt-Glaser et al., 2011].
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011","label":"Kiecolt-Glaser et al. (2011)","dataLevel":"Human Outcome"}]} />
+
+</div>
+</div>
+</div>
+
+
 ## 6. BRS Pathways and Connections
 
 ### 6.1 BRS Pathways
 
 - None listed
 
-### 6.2 Connected BRS Mechanisms
+### 6.2 Cross-BRS Mechanism Relationships
 
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — membrane long-chain PUFA substrate pools feeding specialized pro-resolving mediator formation
 - [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) — gut endotoxin containment upstream of systemic cytokine network tone
+- [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — gut–immune interface context influencing inflammatory resolution substrate availability
 - [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) — post-prandial glycaemic context conditioning inflammatory cytokine expression
 
-### 6.3 Connected Primary Mechanisms
+### 6.3 Local BRS Mechanism Relationships
 
-- [BRS3(FM3) - Inflammation Resolution Capacity](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity)
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
 
 - [BRS3-FM3-PM8 - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance)
 
@@ -473,4 +575,6 @@ This PM is scoreable through cytokine-relevant anti-inflammatory food-state sign
 - [Brown et al. (2025) — A Cross-sectional Study on Danish Adolescents](/docs/papers/BRAIN-Diet-References#brown_associations_2025)
 - [Wesselink et al. (2019) — Feeding, Immunity, and ADHD](/docs/papers/BRAIN-Diet-References#wesselink_feeding_2019)
 - [Kiecolt-Glaser et al. (2011) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
+- [Slavich & Irwin (2014) — From Stress to Inflammation and Major Depressive Disorder](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014)
+- [Marsland et al. (2017) — Systemic Inflammation and Resting State Connectivity of the Default Mode Network](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)
 - [Song et al. (2023) — A Fatal Blow in Depression](/docs/papers/BRAIN-Diet-References#song_mitochondrial_2023)

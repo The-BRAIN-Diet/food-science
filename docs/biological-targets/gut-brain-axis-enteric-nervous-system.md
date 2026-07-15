@@ -445,6 +445,7 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Demonstrated that gut microbiota can modulate central neurochemical regulation through vagal signalling pathways — supporting the framework interpretation that impaired gut–brain communication may become a principal constraint on neurotransmitter regulation during sustained peripheral perturbation.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Synthesised how microbial metabolite and vagal signalling interact with central nervous system function — supporting the interpretation of BRS5 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -473,6 +474,7 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#omahony_serotonin_2015">O'Mahony et al., 2015</a> — Synthesised microbiota–gut–brain communication pathways linking gut ecology to peripheral and central inflammatory biology — supporting the framework interpretation that BRS5 gut–immune signalling shapes BRS3 inflammatory tone.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Established stress-to-inflammation signalling as a systems-level pathway reshaping immune and neuroendocrine biology — supporting the interpretation that gut–immune perturbation can propagate inflammatory burden across BRS3 and connected systems.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -501,6 +503,7 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Linked mitochondrial energy metabolism, glucose handling and stress-related pathophysiology — supporting the framework interpretation that metabolic and neuroendocrine load shapes bioenergetic capacity within BRS4.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Synthesised microbial metabolite signalling intersecting metabolic and neuroendocrine adaptive regulation — supporting the interpretation of BRS5 as an upstream enabler of BRS4 bioenergetic performance.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -529,6 +532,7 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Demonstrated that gut microbiota modulate HPA-axis stress responses via vagal pathways — supporting the framework interpretation that BRS5 gut–vagal signalling shapes BRS6 stress-axis responsiveness.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Linked autonomic regulatory capacity to stress neurobiology and central nervous system function — supporting the interpretation of vagal–neuroendocrine integration as a BRS5 → BRS6 enabling pathway.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -539,6 +543,7 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 
 </div>
 <!-- brs-hub-cross-integration:end -->
+
 
 ## Specific Mechanisms
 

@@ -11,11 +11,6 @@ mechanisms_covered:
   - id: BRS3-FM3-PM8
     name: Eicosanoid / SPM Balance
     href: /docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance
-key_constraints:
-  - id: BRS3(KC3)
-    name: Essential Fatty Acid Balance
-    type: substrate
-    href: /docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
@@ -26,23 +21,35 @@ references:
   - '[Kiecolt-Glaser et al. (2011) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)'
   - '[Song et al. (2023) — A Fatal Blow in Depression](/docs/papers/BRAIN-Diet-References#song_mitochondrial_2023)'
   - '[Gruber et al. (2023) — Impact of Insulin and Insulin Resistance on Brain Dopamine Signalling and Reward](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)'
+  - '[Slavich & Irwin (2014) — A Social Signal Transduction Theory of Depression](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014)'
+  - '[Marsland et al. (2017) — Systemic Inflammation and Resting State Connectivity of the Default Mode Network](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)'
 hide_title: true
 functional_outcome_context:
   - outcome_name: Apprehensive Worry / Perseverative Thought
-    confidence: low-medium
-    synthesis: Resolution-oriented lipid mediator and cytokine-network balance may modulate inflammatory tone linked to anxiety symptoms; Kiecolt-Glaser et al. (2011) provides human intervention evidence for omega-3 lowering anxiety in stressed adults as adjacent translational support.
+    confidence: medium
+    synthesis: 'Resolution-oriented lipid mediator and cytokine-network balance contribute to the inflammatory environment associated with apprehensive worry and perseverative thought. Human intervention evidence (Kiecolt-Glaser et al., 2011) demonstrates that omega-3 supplementation reduced inflammatory cytokine production alongside anxiety symptoms in stressed adults, providing translational support for this Biology → Phenome relationship.'
     references:
       - index: 1
+        label: Slavich & Irwin (2014)
+        citation_key: slavich_stress_inflammation_2014
+        href: /docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014
+        data_level: Human Mechanistic
+      - index: 2
+        label: Marsland et al. (2017)
+        citation_key: marsland_systemic_2017
+        href: /docs/papers/BRAIN-Diet-References#marsland_systemic_2017
+        data_level: Human Mechanistic
+      - index: 3
         label: Kiecolt-Glaser et al. (2011)
         citation_key: kiecolt-glaser_omega-3_2011
         href: /docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011
         data_level: Human Outcome
-      - index: 2
+      - index: 4
         label: Ferguson et al. (2014)
         citation_key: ferguson_omega3_2014
         href: /docs/papers/BRAIN-Diet-References#ferguson_omega3_2014
         data_level: Human Study
-    evidence_confidence: low-medium
+    evidence_confidence: medium
   - outcome_name: Pleasure & Interest Capacity
     confidence: low
     synthesis: Inflammation-resolution capacity intersects mitochondrial and reward-processing dysfunction in depression translational models; omega-3 resolution biology provides mechanistic context without direct anhedonia-outcome claims on this FM.
@@ -93,6 +100,100 @@ A functional control point governing active termination of inflammation through 
 
 These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Biology → Phenome Confidence reflects biological relevance to each outcome — not proof that diet or lifestyle alone will improve it. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row. FM confidence uplift: FM confidence may exceed that of any individual child PM only where multiple PMs converge on the same phenome and the integrated FM biology provides additional biological rationale (biological uplift) beyond the individual mechanisms.
 
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How confidence scores differ</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+These are <strong>three independent scores</strong>. They are not combined or averaged.
+A phenome can have <strong>Medium</strong> registry evidence while individual mechanism
+rows show different Biology → Phenome and Evidence scores.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>1. Phenome Evidence Confidence</strong> (Phenome Registry only)
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Question:</strong> How convincing is the foundational evidence that this
+phenome is a valid, well-defined functional construct — and that diet-relevant
+biology can plausibly connect to it?
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Not</strong> a roll-up of Biology → Phenome Confidence or Evidence
+Confidence from Primary Mechanism page rows. Those are scored per mechanism; this
+score is assigned once per phenome at registry level.
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Derived from</strong> foundational landmark evidence organised in up to
+three layers: construct validation, biology→phenome linkage, and nutrition→biology
+modulation. Each layer may include one or many landmark papers depending on registry
+review.
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>2. Biology → Phenome Confidence</strong> (Primary Mechanism page §3 rows)
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Question:</strong> If this PM/FM biology were substantially impaired in
+isolation, how directly would that phenome be expected to suffer — within BRAIN
+architecture?
+</p>
+<p class="phenome-scoring-key-body">
+<strong>How it is derived:</strong> Reviewers read the PM/FM <em>definition and
+biological function first</em> — initially <em>ignoring</em> attached references and
+whether dietary intervention studies exist. References are reviewed only when scoring
+Evidence Confidence (below).
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Score levels</strong> (the value shown on each row as <em>Biology → Phenome Confidence</em>):
+</p>
+<ul class="phenome-scoring-key-sublist">
+<li><strong>High</strong> — primary biological determinant (e.g. noradrenergic signalling → attention; GABA synthesis → calming tone)</li>
+<li><strong>Medium</strong> — major contributory determinant, not the sole driver</li>
+<li><strong>Low–Medium</strong> — established but indirect, modulatory, or one integrative step removed</li>
+<li><strong>Low</strong> — distal, conditional, or weak biological coupling</li>
+</ul>
+<p class="phenome-scoring-key-body">
+<strong>“Not dietary treatment efficacy”</strong> means this score does not ask
+whether a diet or supplement <em>treats</em> the phenome. It asks whether the
+<em>biology itself</em> is architecturally relevant. Limited dietary RCT evidence
+belongs in Evidence Confidence, not here.
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>3. Evidence Confidence</strong> (Primary Mechanism page §3 rows)
+</p>
+<p class="phenome-scoring-key-body">
+<strong>Question:</strong> How convincing are the <strong>attached Key References</strong>
+on that specific row that this biology actually relates to this phenome?
+</p>
+<p class="phenome-scoring-key-body">
+<strong>How it is derived:</strong> Assigned <em>after</em> Biology → Phenome
+Confidence, by reviewing only the references on that PM/FM row. Judges whether refs
+support the <em>relationship</em> — not just mechanism or phenome in isolation.
+</p>
+<ul class="phenome-scoring-key-sublist">
+<li><strong>High</strong> — strong convergent human evidence directly linking mechanism biology to phenome variation</li>
+<li><strong>Medium</strong> — multiple human lines supporting the relationship; may include one bridge study with an inferential step</li>
+<li><strong>Low–Medium</strong> — convergent translational stack without direct mechanism↔phenome measurement on the row</li>
+<li><strong>Low</strong> — mechanistic or preclinical only; mechanism and phenome supported separately but not bridged</li>
+</ul>
+<p class="phenome-scoring-key-body">
+Often equal to or <em>lower than</em> Biology → Phenome Confidence. Can occasionally
+be higher when outcome evidence is stronger than the mechanism's contributory role.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
@@ -106,14 +207,12 @@ These outcomes describe translational contexts for the FM as an integrated biolo
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
-- **Biology → Phenome Confidence:** Low–Medium
-- **Synthesis:** Resolution-oriented lipid mediator and cytokine-network balance may modulate inflammatory tone linked to anxiety symptoms; Kiecolt-Glaser et al. (2011) provides human intervention evidence for omega-3 lowering anxiety in stressed adults as adjacent translational support.
+- **Biology → Phenome Confidence:** Medium
+- **Synthesis:** Resolution-oriented lipid mediator and cytokine-network balance contribute to the inflammatory environment associated with apprehensive worry and perseverative thought. Human intervention evidence (Kiecolt-Glaser et al., 2011) demonstrates that omega-3 supplementation reduced inflammatory cytokine production alongside anxiety symptoms in stressed adults, providing translational support for this Biology → Phenome relationship.
 - **Key References:**
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011","label":"Kiecolt-Glaser et al. (2011)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
-- **Evidence Confidence:** Low–Medium
-
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014","label":"Slavich & Irwin (2014)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#marsland_systemic_2017","label":"Marsland et al. (2017)","dataLevel":"Human Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011","label":"Kiecolt-Glaser et al. (2011)","dataLevel":"Human Outcome"},{"href":"/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014","label":"Ferguson et al. (2014)","dataLevel":"Human Study"}]} />
+- **Evidence Confidence:** Medium
 </div>
 </div>
 </div>
@@ -131,14 +230,12 @@ These outcomes describe translational contexts for the FM as an integrated biolo
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-
 - **Biology → Phenome Confidence:** Low
 - **Synthesis:** Inflammation-resolution capacity intersects mitochondrial and reward-processing dysfunction in depression translational models; omega-3 resolution biology provides mechanistic context without direct anhedonia-outcome claims on this FM.
 - **Key References:**
 
 <PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#song_mitochondrial_2023","label":"Song et al. (2023)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#gruber_impact_2023","label":"Gruber et al. (2023)","dataLevel":"Mechanistic"}]} />
 - **Evidence Confidence:** Low
-
 </div>
 </div>
 </div>
@@ -163,9 +260,9 @@ At the integrated FM level, this is distinct from simple suppression: resolution
 
 ### 4.3 Suboptimal Function & Its Effects
 
-Inflammation resolution capacity may weaken when essential fatty acid balance becomes chronically unfavourable for specialized pro-resolving mediator formation.
+Inflammation resolution capacity may weaken when habitual EPA/DHA intake and omega-3/omega-6 dietary balance become chronically unfavourable for specialized pro-resolving mediator formation.
 
-Low omega-3 intake may reduce [BRS3(KC3) — Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance). Excessive omega-6 dominance, low oily-fish consumption, poor dietary fatty-acid diversity, and chronic inflammatory load may limit EPA/DHA substrate availability for resolvin, protectin, and maresin pathways [Serhan & Petasis, 2011].
+Low omega-3 intake may limit EPA/DHA substrate availability for resolvin, protectin, and maresin pathways. Excessive omega-6 dominance, low oily-fish consumption, poor dietary fatty-acid diversity, and chronic inflammatory load may further constrain specialised pro-resolving mediator formation [Serhan & Petasis, 2011].
 
 Oxidative damage to membrane lipids—when [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) is strained—may further compromise the lipid environment required for active resolution rather than prolonged cytokine elevation.
 
@@ -237,9 +334,9 @@ The studies below support inflammation resolution capacity as an integrated FM s
 ## 5. Connected Mechanisms
 
 - [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — membrane long-chain PUFA substrate pools feeding specialized pro-resolving mediator formation
-- [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — fM1-PM1 - NF-kB Signalling Regulation context relevant to this mechanism
-- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — fM1-PM2 - Gut-Derived Inflammatory Signalling context relevant to this mechanism
-- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — fM2-PM5 - Lipid Peroxidation Control context relevant to this mechanism
+- [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — nF-kB Signalling Regulation
+- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — gut-Derived Inflammatory Signalling
+- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — lipid Peroxidation Control
 - [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) — gut endotoxin containment upstream of systemic cytokine network tone
 - [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — gut–immune interface context influencing inflammatory resolution substrate availability
 - [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) — post-prandial glycaemic context conditioning inflammatory cytokine expression
@@ -250,3 +347,5 @@ The studies below support inflammation resolution capacity as an integrated FM s
 - [Kiecolt-Glaser et al. (2011) — A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011)
 - [Song et al. (2023) — A Fatal Blow in Depression](/docs/papers/BRAIN-Diet-References#song_mitochondrial_2023)
 - [Gruber et al. (2023) — Impact of Insulin and Insulin Resistance on Brain Dopamine Signalling and Reward](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
+- [Slavich & Irwin (2014) — A Social Signal Transduction Theory of Depression](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014)
+- [Marsland et al. (2017) — Systemic Inflammation and Resting State Connectivity of the Default Mode Network](/docs/papers/BRAIN-Diet-References#marsland_systemic_2017)

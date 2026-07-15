@@ -497,6 +497,7 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#harris_synaptic_energy_2012">Harris et al., 2012</a> — Demonstrated that synaptic signalling accounts for the largest proportion of neuronal energy expenditure and that sustained neurotransmission depends upon adequate mitochondrial ATP supply during increasing energetic demand.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015">Picard, 2015</a> — Reframed mitochondria as dynamic signalling and energetic organelles that coordinate cellular energetics with neuronal activity, supporting the interpretation of BRS4 as an upstream enabling system preserving BRS1 adaptive performance.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -525,6 +526,7 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Established that psychological and physiological stressors activate inflammatory signalling capable of reshaping central nervous system function through coordinated immune, neuroendocrine and neurochemical pathways. This supports the framework interpretation that chronic inflammatory activation can become a principal upstream constraint on BRS1 performance during sustained physiological demand.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019">Savitz, 2019</a> — Demonstrated that immune activation reshapes neurotransmitter regulation through the kynurenine pathway and broader neuroimmune interactions, influencing both monoaminergic signalling and excitation–inhibition balance. This supports the BRAIN Framework interpretation that maintaining immune regulation preserves the biological environment required for resilient monoaminergic and excitation–inhibition regulation within BRS1.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -554,6 +556,7 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Positioned the brain as the central interpreter and target of stress-mediated adaptive regulation — supporting the framework interpretation that BRS6 coordinates how allostatic load is allocated across integrated biological systems including neurotransmitter regulation within BRS1.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Demonstrated intimate coupling between autonomic regulatory capacity, stress neurobiology and central nervous system function — supporting the interpretation of BRS6 autonomic stability as an upstream enabler of BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -582,6 +585,7 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021">Fanet et al., 2021</a> — Established that essential cofactor chemistry underpins central monoamine synthesis and neurotransmitter-regulatory capacity — supporting the framework interpretation that BRS2 cofactor reserves may become a principal rate-limiting constraint on monoaminergic regulation when one-carbon metabolism is strained.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Demonstrated that B-vitamin-dependent one-carbon metabolism supports brain neurochemical synthesis — supporting the interpretation of BRS2 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -610,6 +614,7 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Demonstrated that gut microbiota can modulate central neurochemical regulation through vagal signalling pathways — supporting the framework interpretation that impaired gut–brain communication may become a principal constraint on neurotransmitter regulation during sustained peripheral perturbation.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Synthesised how microbial metabolite and vagal signalling interact with central nervous system function — supporting the interpretation of BRS5 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
+
 </div>
 </div>
 </div>
@@ -620,6 +625,7 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 
 </div>
 <!-- brs-hub-cross-integration:end -->
+
 
 ## Specific Mechanisms
 
