@@ -78,11 +78,10 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 
 <p>Inflammation is shaped long before it becomes visible. The Key Constraints identify the shared nutritional resources that multiple inflammation-regulating mechanisms depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of inflammatory regulation.</p>
 
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/almonds">Almonds</a> • <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/bell-peppers">Bell Peppers</a> • <a href="/docs/foods/chia-seeds">Chia Seeds</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/cocoa">Cocoa</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/flax-seeds">Flax Seeds</a> • <a href="/docs/foods/green-tea">Green Tea</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/soy">Soy</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/walnuts">Walnuts</a></p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beef">Beef</a> • <a href="/docs/foods/bell-peppers">Bell Peppers</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/cocoa">Cocoa</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/green-tea">Green Tea</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/oranges">Oranges</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/soy">Soy</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a></p>
 
 <ul class="brs-hub-kc-links">
 <li><a href="/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability">BRS3(KC1) — Antioxidant Substrate Sufficiency</a></li>
-<li><a href="/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance">BRS3(KC3) — Essential Fatty Acid Balance</a></li>
 </ul>
 <!-- brs-hub-key-constraints:end -->
 
@@ -262,7 +261,6 @@ Maintains anti-inflammatory signalling tone by regulating cytokine activity, NF-
 **Key constraints:**
 
 - [BRS3(KC1) — Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability)
-- [BRS3(KC3) — Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance)
 
 **Connected mechanisms:**
 
@@ -346,10 +344,6 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 **Primary biological effects:** ↑ resolvins/protectins/maresins; ↑ debris clearance; ↓ unresolved inflammation
 
 **Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: 48hours
-
-**Key constraints:**
-
-- [BRS3(KC3) — Essential Fatty Acid Balance](/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance)
 
 **Connected mechanisms:**
 

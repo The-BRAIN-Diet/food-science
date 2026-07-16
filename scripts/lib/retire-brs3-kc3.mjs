@@ -7,6 +7,9 @@ export const BRS3_KC3_PAGE_SUFFIX = "brs3/kc/brs3-kc3-essential-fatty-acid-balan
 export const KC3_LINK_LINE =
   /^\s*-\s+\[BRS3\(KC3\)[^\]]*\]\(\/docs\/biological-targets\/brs3\/kc\/brs3-kc3-essential-fatty-acid-balance\)\s*$/gm;
 
+export const KC3_LINK_HTML_LINE =
+  /^\s*<li><a href="\/docs\/biological-targets\/brs3\/kc\/brs3-kc3-essential-fatty-acid-balance">BRS3\(KC3\)[^<]*<\/a><\/li>\s*$/gm;
+
 /** Only for PM §4.1.3 KC panels — never apply file-wide. */
 export const KC3_POOL_LINES =
   /^\s*-\s+(EPA|DHA|Arachidonic acid|Omega-3 fatty acids|Omega-6 fatty acids)\s←[^\n]*\n/gm;
@@ -107,6 +110,7 @@ export function transformMdxBody(body, data = {}) {
  * @param {string} content Plain markdown body
  */
 export function transformPlainMarkdown(content) {
-  const next = rewriteIntegrationProse(content.replace(KC3_LINK_LINE, ""));
+  const stripped = content.replace(KC3_LINK_LINE, "").replace(KC3_LINK_HTML_LINE, "");
+  const next = rewriteIntegrationProse(stripped);
   return { content: next, changed: next !== content };
 }

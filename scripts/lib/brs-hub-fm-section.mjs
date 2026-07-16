@@ -5,6 +5,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { isRetiredKc } from "./kc-registry.mjs";
 
 const BRS_BASE = path.join(process.cwd(), "docs/biological-targets");
 
@@ -111,7 +112,9 @@ function buildFmDropdown({ data, content, url }, pms) {
   const title = data.title;
   const summary = String(data.summary || "").trim();
   const effects = extractPrimaryEffects(content);
-  const kcs = Array.isArray(data.key_constraints) ? data.key_constraints : [];
+  const kcs = (Array.isArray(data.key_constraints) ? data.key_constraints : []).filter(
+    (kc) => !isRetiredKc(kc),
+  );
   const connected = extractConnectedMechanisms(content);
   const modulation = buildModulationContext(data);
 
