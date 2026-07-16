@@ -134,7 +134,7 @@ Some biological systems operate across multiple BRSs simultaneously and cannot b
 
 ## Each BRS System features
 
-- **Key Constraints (KCs)** describe shared substrate, precursor, and structural biological pools whose availability constrains the effective operation of multiple primary mechanisms.
+- **Key Constraints (KCs)** describe shared substrate, precursor and structural biological pools that underpin the effective operation of multiple Primary Mechanisms.
 - **Primary Mechanisms (PMs)** describe the core biological mechanisms, processing systems, and regulatory interactions operating within those shared constraints.
 - **Functional Mechanisms (FMs)** represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the principal biological targets of the framework.
 - **Specific Mechanisms (SMs)** are interpretation layers that provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), **SM-Pattern** (e.g. vegan, vegetarian, ketogenic), and **SM-Phenotype** (e.g. hyperarousal, emotional dysregulation, sensory regulation). Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.

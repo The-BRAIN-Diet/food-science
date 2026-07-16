@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-07-14T22:57:06.792Z",
+    "generatedAt": "2026-07-16T20:05:47.097Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
@@ -1040,7 +1040,7 @@
     },
     {
       "sourceNode": "BRS4-FM1-PM3",
-      "sourceTitle": "Creatine / Phosphocreatine Buffer",
+      "sourceTitle": "Creatine–Phosphocreatine Energy Buffering",
       "sourcePath": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer",
       "parentFM": "BRS4(FM1)",
       "parentBRS": "BRS4",
@@ -3504,7 +3504,7 @@
     },
     {
       "sourceNode": "BRS4-FM1-PM3",
-      "sourceTitle": "Creatine / Phosphocreatine Buffer",
+      "sourceTitle": "Creatine–Phosphocreatine Energy Buffering",
       "sourcePath": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer",
       "parentFM": "BRS4(FM1)",
       "parentBRS": "BRS4",
@@ -6421,7 +6421,7 @@
           },
           {
             "id": "BRS4-FM1-PM3",
-            "name": "Creatine / Phosphocreatine Buffer",
+            "name": "Creatine–Phosphocreatine Energy Buffering",
             "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer",
             "relationship_type": "modulates",
             "confidence": "low-medium",
@@ -6465,7 +6465,7 @@
           },
           {
             "id": "BRS4-FM1-PM3",
-            "name": "Creatine / Phosphocreatine Buffer",
+            "name": "Creatine–Phosphocreatine Energy Buffering",
             "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer",
             "relationship_type": "indirect",
             "confidence": "low",

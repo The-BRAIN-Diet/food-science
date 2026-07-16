@@ -473,13 +473,13 @@ export const ENHANCEMENTS = {
   },
   "brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx": {
     translational:
-      "Provides a rapid ATP buffering system supporting high-energy-demand tissues, especially brain and muscle, through creatine–phosphocreatine cycling.",
+      "Provides a rapid ATP buffering system through creatine–phosphocreatine cycling; brain creatine status reflects endogenous synthesis and transport, with exogenous creatine as conditional support under selected conditions.",
     scientific:
-      "Rapid ATP buffering system supporting high-energy-demand tissues, especially brain and muscle.",
+      "Rapid ATP buffering via creatine–phosphocreatine cycling; cerebral pools are synthesis/transport-regulated, not diet-determined by default.",
     bullets: [
       "Buffers rapid ATP demand in brain and high-energy tissues — within BRS4.",
       "Supports cognitive energy availability under acute demand — Supporting BRS6.",
-      "Complements oxidative phosphorylation for burst energy needs — within BRS4.",
+      "Exogenous creatine is conditional optimisation, not a universal dietary requirement — within BRS4.",
     ],
   },
   "brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx": {

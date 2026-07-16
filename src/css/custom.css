@@ -534,8 +534,17 @@
 }
 
 .brs-hub-dietary-guidance-heading {
-  margin: 0 0 0.35rem;
+  margin: 1rem 0 0.35rem;
   font-size: 0.95rem;
+}
+
+.brs-hub-dietary-guidance-section {
+  margin: 1.15rem 0 0.5rem;
+  font-size: 1.05rem;
+}
+
+.brs-hub-dietary-guidance-flow + .brs-hub-dietary-guidance-section {
+  margin-top: 0.35rem;
 }
 
 .brs-hub-dietary-guidance-flow {

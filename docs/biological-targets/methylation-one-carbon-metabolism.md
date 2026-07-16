@@ -74,22 +74,11 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 </div>
 <!-- brs-hub-ta-research:end -->
 
-<!-- brs-hub-key-constraints:start -->
-## Key Constraints (Dietary Bottlenecks)
-
-<p>One-carbon metabolism is shaped long before homocysteine rises. The Key Constraints identify the shared methyl-donor and sulfur-amino-acid pools that remethylation, membrane renewal and glutathione formation all depend upon. Dietary Guidance then builds on these shared requirements by showing how foods, dietary patterns and eating behaviours influence the wider biology of one-carbon regulation.</p>
-
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/beetroot">Beetroot</a> • <a href="/docs/foods/chicken">Chicken</a> • <a href="/docs/foods/chickpeas">Chickpeas</a> • <a href="/docs/foods/clams">Clams</a> • <a href="/docs/foods/cod">Cod</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/kale">Kale</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/liver">Liver</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/mussels">Mussels</a> • <a href="/docs/foods/oysters">Oysters</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/tuna">Tuna</a> • <a href="/docs/foods/turkey">Turkey</a> • <a href="/docs/foods/greek-yogurt">Yogurt</a></p>
-
-<ul class="brs-hub-kc-links">
-<li><a href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">BRS2(KC1) — Methyl Donor Pool</a></li>
-<li><a href="/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool">BRS2(KC2) — Methionine & Transsulfuration Substrate Pool</a></li>
-</ul>
-<!-- brs-hub-key-constraints:end -->
-
 ## Dietary and Lifestyle Levers
 
-<p class="brs-hub-levers-intro">Methyl-group flux is renewed at every meal, not stored indefinitely for later demand. Folate, B12, methionine and choline intake — together with consistent meal rhythm and recovery — determine whether remethylation, membrane synthesis and transsulfuration-linked redox support keep pace with daily turnover. Dietary Guidance shows how specific foods and patterns repeatedly supply the methyl-donor and B-vitamin input one-carbon biology depends upon.</p>
+<p class="brs-hub-levers-intro">Methylation and one-carbon throughput are rebuilt at every meal. Shared methyl-donor and sulphur-amino-acid pools, dietary patterns and lifestyle collectively determine how effectively one-carbon metabolism can support methylation, membrane synthesis and transsulfuration across changing physiological demands.</p>
+
+<p class="brs-hub-levers-intro">The following dietary guidance summarises the principal dietary patterns, shared nutrient pools and representative food sources that support the biological constraints underlying BRS2. The guidance reflects shared biological principles rather than prescriptive recommendations; individual requirements and optimal dietary patterns will vary according to physiology, health status and the wider diet.</p>
 
 <!-- brs-hub-levers:start -->
 <div class="brs-hub-levers">
@@ -104,31 +93,35 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 
 <div class="brs-hub-dietary-strategy">
 <p class="brs-hub-dietary-guidance-flow">Pattern → Nutrients → Biology → Target Foods</p>
+
+<p class="brs-hub-dietary-guidance-section"><strong>Key Constraints of BRS2</strong></p>
+
+<p class="brs-hub-dietary-guidance-heading"><strong>Methylation Substrates — <a href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">KC1: One-Carbon Donor Pool</a></strong></p>
 <ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
 <li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Prioritise folate- and B12-rich whole foods daily</strong> → folate and vitamin B12 → one-carbon metabolism depends on continuous methyl-donor supply through remethylation pathways; when folate or vitamin B12 availability declines, homocysteine accumulates and one-carbon metabolism becomes less efficient.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/nutritional-yeast">Nutritional Yeast</a> • <a href="/docs/foods/fortified-plant-milks">Fortified Plant Milks</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a></span></p>
+<p class="brs-hub-dietary-guidance-main"><strong>Prioritise continuous methyl-donor intake across meals</strong> → folate, vitamin B12, choline and betaine → methyl-group supply is renewed meal by meal rather than stored for later demand, so intermittent or low intake leaves remethylation and SAMe-dependent methylation under-supported.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/beetroot">Beetroot</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/nutritional-yeast">Nutritional Yeast</a>. <span class="brs-hub-dietary-target-label">KC:</span> <a href="/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool">BRS2(KC1)</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a></span></p>
 <p class="brs-hub-dietary-guidance-note"><em>Vitamin B12:</em> Vegan dietary patterns should obtain vitamin B12 from fortified foods and/or supplementation where appropriate.</p>
 </li>
+</ul>
+
+<p class="brs-hub-dietary-guidance-heading"><strong>Sulphur-Amino-Acid Substrates — <a href="/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool">KC2: Methionine &amp; Transsulfuration Substrate Pool</a></strong></p>
+<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
 <li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Favour betaine-containing foods alongside folate-rich foods</strong> → betaine (trimethylglycine) → provides an alternative remethylation pathway that helps maintain methyl-donor availability when folate-dependent remethylation is under greater demand.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/beetroot">Beetroot</a> • <a href="/docs/foods/quinoa">Quinoa</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a></span></p>
+<p class="brs-hub-dietary-guidance-main"><strong>Distribute quality protein across meals</strong> → methionine and sulphur amino acids → methionine-cycle throughput and cysteine for glutathione synthesis depend on regular sulphur-amino-acid intake; sparse or low-quality protein leaves that shared pool constrained.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/tofu">Tofu</a>. <span class="brs-hub-dietary-target-label">KC:</span> <a href="/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool">BRS2(KC2)</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux" class="brs-hub-lever-pm">BRS2-FM1-PM4</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a></span></p>
+</li>
+</ul>
+
+<p class="brs-hub-dietary-guidance-section"><strong>Additional Mechanism-Specific Dietary Levers</strong></p>
+<ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
+<li class="brs-hub-dietary-guidance-item">
+<p class="brs-hub-dietary-guidance-main"><strong>Include phospholipid-rich foods regularly</strong> → phospholipids and phosphatidylcholine precursors → phosphatidylcholine formation and membrane renewal draw on dietary phospholipid supply; low intake constrains membrane lipid renewal.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/salmon-roe">Fish Roe</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/sardines">Sardines</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></p>
 </li>
 <li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include choline-rich foods regularly</strong> → choline and phospholipid precursors → supports one-carbon metabolism while providing substrates for phosphatidylcholine synthesis and healthy membrane renewal.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/salmon-roe">Fish Roe</a> • <a href="/docs/foods/soy">Soy</a> • <a href="/docs/foods/tofu">Tofu</a> • <a href="/docs/foods/tempeh">Tempeh</a> • <a href="/docs/foods/mackerel">Mackerel</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Distribute quality protein across meals</strong> → methionine and sulphur amino acids → maintains methionine-cycle activity while supporting cysteine and glutathione synthesis.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/tofu">Tofu</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux" class="brs-hub-lever-pm">BRS2-FM1-PM4</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Maintain dietary variety across nutrient-dense whole foods</strong> → vitamins B2, B6, B9 and B12, together with magnesium, zinc and selenium → provides the vitamin and mineral cofactors required for efficient remethylation, transsulfuration and one-carbon metabolism.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/nutritional-yeast">Nutritional Yeast</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a></span></p>
-</li>
-<li class="brs-hub-dietary-guidance-item">
-<p class="brs-hub-dietary-guidance-main"><strong>Include phospholipid-rich foods regularly</strong> → phospholipids and phosphatidylcholine precursors → links one-carbon metabolism to phosphatidylcholine synthesis, membrane maintenance and healthy cellular function.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/salmon-roe">Fish Roe</a> • <a href="/docs/foods/mackerel">Mackerel</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/eggs">Eggs</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></p>
+<p class="brs-hub-dietary-guidance-main"><strong>Maintain dietary variety across nutrient-dense whole foods</strong> → vitamins B2 and B6, magnesium, zinc and selenium → remethylation and transsulfuration enzymes need these cofactors; narrow dietary variety leaves enzyme support under-provided.</p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/sardines">Sardines</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/nutritional-yeast">Nutritional Yeast</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a></span></p>
 </li>
 </ul>
 </div>

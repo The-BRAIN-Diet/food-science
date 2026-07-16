@@ -44,4 +44,34 @@ export const HUB_OPTIMISATION_LEVERS = {
       match_pm_ids: ["BRS3-FM2-PM3", "BRS3-FM2-PM6"],
     },
   ],
+  BRS4: [
+    {
+      action:
+        "Consider creatine monohydrate under selected high-demand or low-intake conditions",
+      explanation:
+        "to support phosphocreatine buffering when sleep deprivation, hypoxia, ageing, low dietary creatine intake, or sustained cognitive/physical demand make exogenous creatine more consequential; cerebral responses remain variable and smaller than typical muscle responses.",
+      match_optimisation: [
+        /creatine monohydrate/i,
+        /conditional.*creatine/i,
+        /selected conditions/i,
+      ],
+      match_pm_ids: ["BRS4-FM1-PM3"],
+      fm_note:
+        "Biological rationale: BRS4-FM1-PM3 — endogenous synthesis/transport first; exogenous creatine is conditional optimisation.",
+    },
+    {
+      action: "Choose gentler cooking methods",
+      explanation:
+        "to reduce avoidable oxidative stress placed on mitochondrial protection and membrane integrity.",
+      match_optimisation: [/gentler cooking/i, /gentle cooking/i],
+      match_pm_ids: ["BRS4-FM2-PM5"],
+    },
+    {
+      action: "Boil high-oxalate leafy greens when oxalate load matters",
+      explanation:
+        "to reduce soluble oxalate, improve mineral bioavailability from iron- and magnesium-rich greens, and limit avoidable pressure on mitochondrial cofactor and redox networks.",
+      match_optimisation: [/oxalate/i, /high-oxalate/i],
+      match_pm_ids: ["BRS4-FM2-PM4", "BRS4-FM2-PM5"],
+    },
+  ],
 };

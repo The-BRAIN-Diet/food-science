@@ -1,6 +1,8 @@
 # BRS Hub Page Authoring Standard
 
-Rollup and presentation schema for **BRS1–BRS6 hub pages**. Use **BRS1** (`docs/biological-targets/neurotransmitter-regulation.md`) as the reference implementation for all remaining hub rewrites.
+Rollup and presentation schema for **BRS1–BRS6 hub pages**.
+
+**Dietary and Lifestyle Levers reference:** **BRS2** (`docs/biological-targets/methylation-one-carbon-metabolism.md`) is the canonical implementation. Apply the same KC-integrated Dietary Guidance layout when rewriting other hubs.
 
 ## Purpose
 
@@ -15,18 +17,20 @@ Each BRS hub page should orient readers in under one minute: explain the biologi
 | 1 | Title + functional descriptor | Required |
 | 2 | **Ambition** | Required — manual |
 | 3 | **Therapeutic Area Research** | BRS1–BRS6 ADHD dropdowns — [BRS Hub ADHD TA Dropdown](./brs-hub-ta-adhd-dropdown-schema.md); [BRAIN TA Evidence Integration Standard v1.2](./brain-ta-evidence-integration-standard.md) |
-| 4 | **Key Constraints (Dietary Bottlenecks)** | Required — regenerate with `npm run brs:generate-hub-key-constraints` |
-| 5 | **Dietary and Lifestyle Levers** | Required — **Dietary Guidance**, **Optimisation Levers**, **Lifestyle Priorities** (see [BRS Dietary Guidance Standard](#brs-dietary-guidance-standard-final)) |
-| 6 | **Functional Mechanisms** | Required — regenerate with `npm run brs:update-hub-fms` |
-| 6a | **Cross-BRS Dependencies** | Landmark mechanistic reviews per Cross-BRS dependency (Category B — not in ADHD dropdown) |
-| 7 | **Specific Mechanisms** and downstream navigation (SMs, etc.) | Required |
+| 4 | **Dietary and Lifestyle Levers** | Required — **Dietary Guidance**, **Optimisation Levers**, **Lifestyle Priorities** (see [BRS Dietary Guidance Standard](#brs-dietary-guidance-standard-final)). Shared Key Constraint pools are introduced **inside** Dietary Guidance — not as a standalone hub section. |
+| 5 | **Functional Mechanisms** | Required — regenerate with `npm run brs:update-hub-fms` |
+| 5a | **Cross-BRS Dependencies** | Landmark mechanistic reviews per Cross-BRS dependency (Category B — not in ADHD dropdown) |
+| 6 | **Specific Mechanisms** and downstream navigation (SMs, etc.) | Required |
 
 **Removed from hub pages (do not restore):**
 
+- Standalone **Key Constraints (Dietary Bottlenecks)** section (KC pools fold into Dietary Guidance — see [KC-integrated Dietary Guidance](#kc-integrated-dietary-guidance-canonical))
 - Standalone **Overview** section (content relocated into Ambition or Dietary Guidance Biology)
 - Standalone **Biological Bottlenecks / Constraints** section (content integrated into Dietary Guidance Biology)
 - Standalone **References** section on the hub (TA dropdown carries its own references)
 - Separate **Target Foods** dropdown (target foods now live inside each Dietary Guidance point)
+
+**Migration status:** BRS1–BRS6 are live on the canonical KC-integrated Dietary Guidance layout; do not re-run `brs:generate-hub-key-constraints` for hubs already migrated (generator skips them).
 
 Apply or refresh Therapeutic Area Research markers:
 
@@ -203,7 +207,57 @@ Describe the desired functional state of the Biological Regulatory System — th
 
 ## BRS Dietary Guidance Standard (Final)
 
-Use BRS1 as the reference implementation for all remaining BRS hub pages.
+**Canonical reference:** BRS2 (`methylation-one-carbon-metabolism.md`). All remaining BRS hub Dietary Guidance rewrites must match this layout.
+
+### KC-integrated Dietary Guidance (canonical)
+
+Architectural rule:
+
+- **Key Constraints** define shared substrate / cofactor / biological input pools across several PMs.
+- **Primary Mechanisms** may have additional dietary biology not fully represented by those pools.
+- Hub **Dietary Guidance** integrates **both** — KC-derived guidance first, then distinct PM-level items — in one dropdown.
+- There is **no** standalone hub **Key Constraints (Dietary Bottlenecks)** section on migrated hubs.
+
+#### Required structure inside **Dietary Guidance**
+
+1. Flow line: `Pattern → Nutrients → Biology → Target Foods`
+2. **Key Constraints of BRS{n}** — section heading (`brs-hub-dietary-guidance-section`) introducing the shared-pool block
+3. One substrate subheading per KC (`brs-hub-dietary-guidance-heading`) — e.g. `Methylation Substrates — KC1: …` — each with one consolidated guidance row (or the minimum needed to cover distinct pool biology)
+4. **Additional Mechanism-Specific Dietary Levers** — section heading for dietary biology not already captured by the KC pools
+
+Each guidance row must use **Pattern → Nutrients → Biology** only (no inline `← food` examples). Foods appear solely on the **Target foods** line (about **2–5** representative whole foods). Label **KC:** on shared-pool rows; label **BRS:** with PM refs on all rows.
+
+Heading pattern: `Key Constraints of BRS{n}` → individual KC substrate subheadings → `Additional Mechanism-Specific Dietary Levers`.
+
+#### Section intros (above the dropdowns)
+
+Migrated hubs use **two** short `brs-hub-levers-intro` paragraphs under **Dietary and Lifestyle Levers**. Each has a distinct job — do not repeat the same “problem starts before you notice it” framing in both:
+
+1. **Biology** — the shared biological requirement (Key Constraint pools across PMs) and how Dietary Guidance translates that pool plus distinct PM-level needs.
+2. **Daily regulation** — the positive purpose of everyday behaviour: what meal quality, timing, circadian alignment and recovery determine for resilient system performance.
+
+**Reference:** BRS4 (`mitochondrial-function-bioenergetics.md`).
+
+Do not duplicate paragraph 1’s ontology sentence in paragraph 2. If both would say the same thing, merge only when content truly collapses (e.g. BRS3); prefer the two-job template when Biology and Daily regulation remain distinct.
+
+#### Public-copy rules (required)
+
+Hub Dietary Guidance is **reader-facing practical advice**. Do **not** publish authoring instructions, schema commentary, or deduplication rationale as UI text.
+
+| Allowed on the page | Forbidden on the page |
+|---------------------|------------------------|
+| Pattern → Nutrients → Biology | “Present once here…”, “not as separate rows…” |
+| Target foods + KC/PM labels | “Retained once, without repeating…” |
+| Practical caveats (e.g. vegan B12 note) | “Distinct PM-level food biology not already captured by…” |
+| Short subsection headings (Key Constraints of BRSn / KC substrate / Additional Mechanism-Specific Dietary Levers) | Meta phrases explaining architecture to the reader |
+
+Deduplication is an **authoring rule** (schema/process), not page content:
+
+- Present a shared KC pattern **once**; label the KC; list all relevant PM refs at the end.
+- Do not repeat the same shared-pool biology across near-identical rows.
+- Keep KC-page and PM-page detail on those pages; hub only consolidates dietary action.
+
+Do not re-run `brs:generate-hub-key-constraints` for hubs on this layout — the generator skips them (`KC_INTEGRATED_INTO_DIETARY_GUIDANCE`).
 
 ### Purpose
 
@@ -228,6 +282,8 @@ Follow each guidance point with:
 | **Biology** | A concise explanation of why those nutrients matter for that BRS, expressed at system level rather than PM-level mechanism |
 | **Target foods** | 2–5 representative whole foods that naturally provide those nutrients (linked to Food Profiles) |
 | **BRS** | Relevant PM references |
+
+**Public copy only.** Dietary Guidance body text must be practical advice for readers. Do not surface schema instructions, deduplication notes, “present once / do not repeat” language, or authoring rationale in the published hub panel. Those rules belong in this schema — not in the page.
 
 **Example:**
 
@@ -288,17 +344,20 @@ Use concise notes only where they provide genuine biological clarification rathe
 - Use notes only where meaningful biological differences exist.
 - Keep detailed discussion of EAA pairing, bioavailability and food-specific considerations within the individual Food Profiles rather than the Dietary Guidance.
 
-### Hub HTML implementation (BRS1 reference)
+### Hub HTML implementation (BRS2 reference)
 
 Dietary Guidance is a top-level collapsible dropdown labelled **Dietary Guidance**. Inside the panel:
 
 1. Flow line: `Pattern → Nutrients → Biology → Target Foods`
-2. `<ul class="brs-hub-dietary-guidance-list">` of guidance items
-3. Each `<li class="brs-hub-dietary-guidance-item">` contains:
+2. Section: **Key Constraints of BRS{n}** (`brs-hub-dietary-guidance-section`)
+3. Per-KC substrate heading (`brs-hub-dietary-guidance-heading`) + guidance list
+4. Section: **Additional Mechanism-Specific Dietary Levers** (`brs-hub-dietary-guidance-section`) + guidance list
+5. Each `<li class="brs-hub-dietary-guidance-item">` contains:
    - `<p class="brs-hub-dietary-guidance-main">` — Pattern → Nutrients → Biology
-   - `<p class="brs-hub-dietary-target-foods">` — Target foods (linked) + BRS PM links
+   - `<p class="brs-hub-dietary-target-foods">` — Target foods (linked) + KC label (when applicable) + BRS PM links
+   - Optional `<p class="brs-hub-dietary-guidance-note">` for genuine biological caveats only
 
-CSS classes live in `src/css/custom.css` (`.brs-hub-dietary-guidance-*`).
+CSS classes live in `src/css/custom.css` (`.brs-hub-dietary-guidance-*`, `.brs-hub-dietary-guidance-section`).
 
 **Important:** BRS1–BRS6 Dietary Guidance is **manually authored** inside `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-levers:end -->`. Do **not** run `npm run brs:generate-hub-levers-legacy` on migrated hubs — it is disabled and will refuse to run because the legacy renderer still outputs the obsolete Dietary Strategy / Target Foods layout and would overwrite approved **Dietary Guidance**, **Optimisation Levers**, and **Lifestyle Priorities** content.
 
@@ -577,6 +636,23 @@ Curated **Target Foods** with BRS-specific captions live in `scripts/data/brs-hu
 Separate top-level collapsible **Lifestyle Priorities** dropdown — unchanged by the Dietary Guidance migration. Still applies to all BRS1–BRS6 hub pages.
 
 This is a **BRS-level educational summary** — not a collection of PM annotations. PM pages retain mechanistic lifestyle detail in §4.3; the hub presents integrated behavioural themes.
+
+### Lifestyle vs Dietary Guidance boundary (required)
+
+**Lifestyle Priorities** describe **how people live** — non-dietary behaviours that modulate BRS function.
+
+**Dietary Guidance** (including Key Constraints and Additional Mechanism-Specific Dietary Levers) describes **what and how people eat**.
+
+| Belongs in Lifestyle Priorities | Belongs in Dietary Guidance / Optimisation |
+|--------------------------------|--------------------------------------------|
+| Meal timing / eating rhythm | Food choice, food quality, food processing |
+| Sleep | Nutrients, dietary patterns, food diversity |
+| Stress management | Ultra-processed / emulsifier patterns |
+| Physical activity (where relevant) | Preparation, pairing, matrix preservation |
+| Circadian sleep–wake behaviour | Restrictive vs varied eating patterns |
+| Alcohol as a lifestyle exposure (if retained) | Fermented foods, fibre, polyphenols, etc. |
+
+Do **not** place recommendations whose primary intervention is food choice, food quality, food processing, food diversity, nutrients, or dietary pattern in Lifestyle Priorities. Do not duplicate the same recommendation across Lifestyle Priorities and Dietary Guidance.
 
 ### Deduplication process
 

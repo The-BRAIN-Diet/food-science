@@ -65,6 +65,8 @@ export const CURATED_REFERENCE_DATA_LEVELS = {
   crane_coq10_2001: "Mechanistic",
   pirinen_niacin_2020: "Human Outcome",
   avgerinos_creatine_2018: "Human Outcome",
+  beard_creatine_cns_2010: "Mechanistic",
+  solis_brain_creatine_vegetarians_2014: "Human Mechanistic",
   verlaet_oxidative_2019: "Human Mechanistic",
   chai_effect_2005: "Human Study",
   chaiyarit_mitochondrial_2020: "Mechanistic",

@@ -327,11 +327,11 @@ export const CANONICAL_PM_OVERVIEWS = {
     mission:
       "Enable rapid ATP buffering so high-energy-demand tissues can meet sudden metabolic spikes.",
     translational:
-      "Provides a rapid ATP buffering system through creatine–phosphocreatine cycling (a fast-acting energy reserve that regenerates ATP faster than oxidative phosphorylation alone can manage), supporting high-energy-demand tissues, especially brain and muscle. This buffer complements rather than replaces oxidative phosphorylation, covering the burst-energy gap during sudden demand spikes before slower mitochondrial ATP production can catch up. Dietary creatine and its precursor amino acids influence how large this buffering reserve can become.",
+      "Provides a rapid ATP buffering system through creatine–phosphocreatine cycling, regenerating ATP faster than oxidative phosphorylation alone during sudden demand spikes in brain and muscle. Brain creatine availability reflects endogenous synthesis, cellular transport and, under some conditions, exogenous creatine intake. Dietary or supplemental creatine may increase cerebral creatine or phosphocreatine in selected populations or high-demand states, but responses are smaller and less consistent than in skeletal muscle.",
     bullets: [
       "Buffers rapid ATP demand in brain and high-energy tissues.",
       "Complements oxidative phosphorylation during sudden burst-energy spikes.",
-      "Depends on dietary creatine and precursor amino-acid intake.",
+      "Depends on creatine synthesis, transport, phosphorylation and cellular compartmentalisation; exogenous creatine may provide additional support under selected conditions.",
     ],
   },
   "brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx": {
