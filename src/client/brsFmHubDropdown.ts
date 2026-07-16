@@ -70,6 +70,25 @@ function bindExpandOpenActions(root: ParentNode): void {
   });
 }
 
+function isSystemOptimisationPracticesItem(item: HTMLElement): boolean {
+  const title = item
+    .querySelector<HTMLElement>(':scope > .brs-fm-hub-shell > .brs-fm-hub-summary strong')
+    ?.textContent?.trim();
+  return title === 'System Optimisation Practices';
+}
+
+function openDefaultSopCategory(sopItem: HTMLElement): void {
+  const foodPrep =
+    sopItem.querySelector<HTMLElement>(
+      ':scope [data-brs-sop-category="food_prep"]',
+    ) ??
+    sopItem.querySelector<HTMLElement>(
+      ':scope .brs-hub-sop-categories > .brs-hub-sop-category',
+    );
+  if (!foodPrep) return;
+  setHubCollapsibleOpen(foodPrep, true);
+}
+
 function initBrsFmHubDropdowns(root: ParentNode = document): void {
   root.querySelectorAll<HTMLElement>('[data-brs-fm-hub]:not([data-brs-fm-hub-init])').forEach((item) => {
     item.dataset.brsFmHubInit = 'true';
@@ -89,6 +108,9 @@ function initBrsFmHubDropdowns(root: ParentNode = document): void {
     toggle.addEventListener('click', () => {
       const open = toggle.getAttribute('aria-expanded') !== 'true';
       setHubCollapsibleOpen(item, open);
+      if (open && isSystemOptimisationPracticesItem(item)) {
+        openDefaultSopCategory(item);
+      }
     });
   });
 

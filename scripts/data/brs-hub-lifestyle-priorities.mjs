@@ -205,33 +205,6 @@ export const HUB_LIFESTYLE_PRIORITIES = {
       ],
     },
     {
-      action: "Get morning daylight and limit evening artificial light",
-      explanation:
-        "to strengthen circadian timing, support healthy sleep transitions, and align feeding with the daily light–dark cycle.",
-      match_lifestyle: [
-        /morning daylight/i,
-        /morning and daytime light/i,
-        /evening light/i,
-        /evening artificial light/i,
-        /melatonin/i,
-        /circadian phase/i,
-      ],
-    },
-    {
-      action: "Use slow breathing and recovery routines after stress or exertion",
-      explanation:
-        "to support healthy transitions between activation and recovery and improve long-term autonomic flexibility.",
-      match_lifestyle: [
-        /slow breathing/i,
-        /breathwork/i,
-        /vagal-training/i,
-        /recovery walks/i,
-        /downshifting routines/i,
-        /parasympathetic tone/i,
-        /hrv/i,
-      ],
-    },
-    {
       action: "Support healthy body composition through sustainable movement, sleep, and recovery",
       explanation:
         "to improve insulin sensitivity and reduce adipose-related inflammatory signalling over time.",

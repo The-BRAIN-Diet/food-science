@@ -125,7 +125,7 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
      - **4.1.1 Direct Dietary Levers** — nested `<details>`; primary dietary substance(s) that directly supply or modulate the mechanism; substance ← food bullets per `system/substance-food-mapping-format.md`
      - **4.1.2 Cofactors and Supporting Inputs** — nested `<details>`; from front matter `cofactors`, rendered as **substance ← food** bullets (same format as §4.1.1) when food examples are known. **Only** nutrients that support metabolism, synthesis, recycling, or utilisation of the §4.1.1 primary substance(s). **Must not duplicate** any Direct Dietary Lever substance (e.g. do not list creatine under both §4.1.1 and §4.1.2). Empty §4.1.2 is acceptable when no distinct supporting inputs apply beyond general protein/energy adequacy.
      - **4.1.3 KCs (Key Constraints)** — nested `<details>`; linked KC page(s) **plus** each KC’s Core Nutritional Requirements as **substance ← food** bullets (same format as §4.1.1 Direct Dietary Levers; sourced from the KC page §2 Core Nutritional Requirements, or legacy §2 Shared Biological Pool)
-   - **4.2 Optimisation Levers** — `<details>` dropdown; preparation, pairing, matrix preservation, frequency, and delivery patterns that make dietary inputs act more effectively on this biology
+   - **4.2 System Optimisation Practices** — `<details>` dropdown; **Food Preparation & Delivery ONLY** (label at top of panel). Broader SOP categories are curated on the parent BRS hub.
    - **4.3 Lifestyle Levers** — `<details>` dropdown; non-dietary behaviours (sleep, exercise, stress recovery, circadian routines); primary place for timing narrative when `timing_specific: "Yes"`
 5. Mechanistic Basis — `## 5. Mechanistic Basis`
    - **Canonical structure (Profile A):** see **PM §5 — Canonical four-part narrative** below. **Reference page:** [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
@@ -246,13 +246,13 @@ PM pages should progressively answer:
 
 **Intervention Profile (required, visible):** place `### Intervention Profile` with `**Intervention Dominance:**` from front matter `intervention_dominance` **above** the **4.1**, **4.2**, and **4.3** lever dropdowns. Do not use `<details>` for Intervention Profile.
 
-**Rendering contract:** **4.1 Dietary Levers**, **4.2 Optimisation Levers**, and **4.3 Lifestyle Levers** are top-level `<details>` (or hub-collapsible) dropdowns under `## 4. Levers`, in that order. Inside **4.1 Dietary Levers**, use three nested `<details>` blocks for **4.1.1**, **4.1.2**, and **4.1.3**. Omit any dropdown when that tier has no content (do not use `- None listed` inside empty dropdowns).
+**Rendering contract:** **4.1 Dietary Levers**, **4.2 System Optimisation Practices**, and **4.3 Lifestyle Levers** are top-level `<details>` (or hub-collapsible) dropdowns under `## 4. Levers`, in that order. Inside **4.1 Dietary Levers**, use three nested `<details>` blocks for **4.1.1**, **4.1.2**, and **4.1.3**. Omit any dropdown when that tier has no content (do not use `- None listed` inside empty dropdowns).
 
 **§4.2 guiding question:** How can dietary inputs be selected, prepared, combined, timed, or preserved to act more effectively on this biology?
 
 **§4.2 vs §4.3 boundary:**
 
-| §4.2 Optimisation | §4.3 Lifestyle |
+| §4.2 System Optimisation | §4.3 Lifestyle |
 |---|---|
 | Gentle cooking preserves marine-PUFA matrix | Sleep, exercise, stress recovery |
 | Repeated weekly oily-fish beats bolus dosing | Circadian routines |
@@ -304,9 +304,11 @@ PM pages should progressively answer:
 </details>
 
 <details>
-<summary><strong>4.2 Optimisation Levers</strong></summary>
+<summary><strong>4.2 System Optimisation Practices</strong></summary>
 
-- Preparation, pairing, matrix preservation, frequency, and delivery-pattern bullets
+<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
+
+- Preparation, pairing, matrix preservation, and delivery-pattern bullets
 
 </details>
 
@@ -464,7 +466,7 @@ Implementation: `scripts/validate-mechanism-pages.mjs` and `scripts/lib/mechanis
 - Extended Profile A PMs must include `## 1. Mission & Overview` (or legacy `## 1. Definition` until migrated) with `### Mission` and `### Overview` (~65–75 word paragraph + exactly 3 scannable bullets).
 - Overview paragraph word count target: **65–75 words** (acceptable range **50–90** for authoring review); must pass the **20-second acid test** (see `system/mechanism-page-section-prose.md` **PM §1 — Overview**).
 - Extended Profile A PMs must include `## 2. Primary Biological Effects` immediately after §1.
-- Extended Profile A PMs must include `## 4. Levers` with visible `### Intervention Profile` and `**Intervention Dominance:**` above the dropdowns; **4.1 Dietary Levers**, **4.2 Optimisation Levers** (when authored), and **4.3 Lifestyle Levers** as `<details>` dropdowns in that order; **4.1** must contain nested dropdowns for **4.1.1 Direct Dietary Levers**, **4.1.2 Cofactors and Supporting Inputs**, and **4.1.3 KCs (Key Constraints)** when those tiers have content. **4.1.3** must list each linked KC followed by **substance ← food** pool bullets matching §4.1.1 format (see PM §4 example).
+- Extended Profile A PMs must include `## 4. Levers` with visible `### Intervention Profile` and `**Intervention Dominance:**` above the dropdowns; **4.1 Dietary Levers**, **4.2 System Optimisation Practices** (when authored), and **4.3 Lifestyle Levers** as `<details>` dropdowns in that order; **4.1** must contain nested dropdowns for **4.1.1 Direct Dietary Levers**, **4.1.2 Cofactors and Supporting Inputs**, and **4.1.3 KCs (Key Constraints)** when those tiers have content. **4.1.3** must list each linked KC followed by **substance ← food** pool bullets matching §4.1.1 format (see PM §4 example).
 - `intervention_breakdown` in front matter, when present, must be one of the five allowed spreadsheet values and must not be rendered as a public body section.
 - `overview` must be <=120 words.
 - `functional_mechanism_ownership` must contain exactly one FM (never multiple).

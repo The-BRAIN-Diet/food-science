@@ -18,6 +18,25 @@ function renderSectionIntroBlock(brsId) {
 }
 
 export function patchSectionIntro(content, brsId) {
+  // Migrated hubs already use manually authored two-paragraph intros — do not overwrite.
+  if (
+    /## Dietary and Lifestyle Levers\n\n<p class="brs-hub-levers-intro">[\s\S]*?<p class="brs-hub-levers-intro">/.test(
+      content,
+    )
+  ) {
+    return content;
+  }
+  if (
+    /## Dietary and Lifestyle Levers\n\n<p class="brs-hub-levers-intro">[\s\S]*?<\/p>\n\n<!-- brs-hub-levers:start -->/.test(
+      content,
+    ) &&
+    (content.match(/brs-hub-levers-intro/g) || []).length >= 1
+  ) {
+    // Leave single or multi intro blocks alone once Dietary Guidance architecture is present.
+    if (/<!-- brs-hub-levers:start -->[\s\S]*?<strong>Dietary Guidance<\/strong>/.test(content)) {
+      return content;
+    }
+  }
   const block = renderSectionIntroBlock(brsId);
   const existingRe =
     /## Dietary and Lifestyle Levers\n\n<p class="brs-hub-levers-intro">[\s\S]*?<\/p>\n\n<!-- brs-hub-levers:start -->/;
@@ -51,14 +70,14 @@ export function patchDietaryGuidanceLabel(content) {
 export function patchOptimisationPanel(content, brsId, rootDir) {
   const panelHtml = renderOptimisationLeversPanelHtml(brsId, rootDir);
   const panelRe =
-    /(<strong>Optimisation Levers<\/strong>\s*<\/button>\s*<div class="brs-fm-hub-panel" hidden>\s*\n)([\s\S]*?)(\n\s*<\/div>\s*<\/div>\s*<\/div>\s*\n\n<div class="brs-fm-hub-item" data-brs-fm-hub>[\s\S]*?<strong>Lifestyle Priorities<\/strong>)/;
+    /(<strong>System Optimisation Practices<\/strong>\s*<\/button>\s*<div class="brs-fm-hub-panel" hidden>\s*\n)([\s\S]*?)(\n\s*<\/div>\s*<\/div>\s*<\/div>\s*\n\n<div class="brs-fm-hub-item" data-brs-fm-hub>[\s\S]*?<strong>Lifestyle Priorities<\/strong>)/;
   if (!panelRe.test(content)) {
     return content;
   }
-  return content.replace(panelRe, `$1\n${panelHtml}\n$3`);
+  return content.replace(panelRe, `$1${panelHtml}$3`);
 }
 
-/** Remove lifestyle items moved to Optimisation Levers (BRS3). */
+/** Remove lifestyle items moved to System Optimisation Practices (BRS3). */
 export function dedupeBrs3Lifestyle(content) {
   return content
     .replace(

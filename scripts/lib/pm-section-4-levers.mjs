@@ -1,16 +1,22 @@
 /**
  * PM §4 lever panel transforms — canonical order:
- * 4.1 Dietary → 4.2 Optimisation → 4.3 Lifestyle
+ * 4.1 Dietary → 4.2 System Optimisation Practices → 4.3 Lifestyle
  */
 
 export const PM6_ID = "BRS1-FM3-PM6";
 
 export const PM_LEVER_HEADINGS = {
-  optimisation: "4.2 Optimisation Levers",
+  optimisation: "4.2 System Optimisation Practices",
   lifestyle: "4.3 Lifestyle Levers",
   legacyLifestyle: "4.2 Lifestyle Levers",
   legacyOptimisation: "4.3 Optimisation Levers",
 };
+
+/** PM §4.2 covers Food Preparation & Delivery only; other SOP categories live on the BRS hub. */
+export const PM_SOP_SCOPE_EXPLAINER =
+  '<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>';
+
+export const PM_SOP_SCOPE_CLASS = "brs-pm-sop-scope";
 
 
 function escapeRe(value) {
@@ -95,7 +101,9 @@ export function extractHubPanelBullets(block) {
 }
 
 export function setHubPanelBullets(block, bullets) {
-  const body = bullets.length ? `\n\n${bullets.join("\n")}\n\n` : "\n\n";
+  const body = bullets.length
+    ? `\n\n${PM_SOP_SCOPE_EXPLAINER}\n\n${bullets.join("\n")}\n\n`
+    : `\n\n${PM_SOP_SCOPE_EXPLAINER}\n\n`;
   const panelIdx = block.indexOf(HUB_PANEL_OPEN);
   if (panelIdx === -1) return block;
   const panelEnd = findBalancedDivEnd(block, panelIdx);
@@ -365,6 +373,8 @@ function createOptimisationHubBlock(bullets) {
 <strong>${PM_LEVER_HEADINGS.optimisation}</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
+
+${PM_SOP_SCOPE_EXPLAINER}
 
 ${bullets.join("\n")}
 

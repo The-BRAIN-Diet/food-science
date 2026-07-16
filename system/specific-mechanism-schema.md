@@ -198,7 +198,7 @@ First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
 1. Definition — `## 1. Definition` — **SM-CROSS:** opening paragraph + exactly 3 bullets; biology-first cross-system significance; defer PM links to §6. See `system/mechanism-page-section-prose.md` (**§1 Definition — UX structure**).
 2. Primary Biological Effects — directional summary (same contract as PM §2)
 3. Phenome Connections — same contract as PM §3; empty state when none mapped
-4. Levers — `## 4. Levers` with **4.1 Dietary**, **4.2 Optimisation** (when authored), and **4.3 Lifestyle** dropdowns (same structure as PM §4); cofactors and KCs in **4.1.2** / **4.1.3**
+4. Levers — `## 4. Levers` with **4.1 Dietary**, **4.2 System Optimisation** (when authored), and **4.3 Lifestyle** dropdowns (same structure as PM §4); cofactors and KCs in **4.1.2** / **4.1.3**
 5. Mechanistic Basis — `### Summary` + `<details>`; cross-system biology only — PM links stay in §6.2
 6. BRS Pathways and Connections — `## 6. BRS Pathways and Connections`
    - `### 6.1` BRS Pathways — cross-BRS interpretive chain (`↓` between steps)

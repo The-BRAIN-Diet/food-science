@@ -134,7 +134,7 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Optimisation Levers</strong>
+<strong>System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -144,12 +144,76 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 
 
 
-<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS2 yet.</em></p>
 
 
-
-
-
+<p class="brs-hub-sop-intro">Targeted interventions that may enhance biological system performance beyond foundational dietary guidance and lifestyle priorities. They complement — rather than replace — Key Constraints, Dietary Guidance and Lifestyle Priorities.</p>
+<div class="brs-hub-sop-categories" data-brs-sop-categories>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Food Preparation & Delivery</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Optimising food structure, cooking, bioavailability and nutrient delivery.</p>
+<ul class="brs-hub-lever-list brs-hub-optimisation-list">
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Soak or sprout phytate-rich seeds, legumes and grains when mineral density matters</strong> to improve plant mineral bioavailability that supports one-carbon cofactor chemistry and methyl-cycle throughput.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis" class="brs-hub-lever-pm">BRS2-FM1-PM3</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux" class="brs-hub-lever-pm">BRS2-FM1-PM4</a> <a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Pair fat-soluble compounds with dietary fat</strong> to support absorption of choline-related and membrane lipids that feed phosphatidylcholine formation and one-carbon lipid delivery.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation" class="brs-hub-lever-pm">BRS2-FM3-PM7</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM1</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation" class="brs-hub-lever-pm">BRS2-FM1-PM2</a> <a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux" class="brs-hub-lever-pm">BRS2-FM1-PM4</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prefer gentler cooking and stable fat handling</strong> to limit AGE/ALE and oxidised-lipid load that can add avoidable pressure on glutathione and transsulfuration capacity.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway" class="brs-hub-lever-pm">BRS2-FM2-PM5</a> <a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare cruciferous vegetables to retain myrosinase-linked activity</strong> to support sulforaphane yield relevant to glutathione-network resilience under one-carbon demand.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis" class="brs-hub-lever-pm">BRS2-FM2-PM6</a></span></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="dietary_protocols">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary & Fasting Protocols</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="conditional_supplementation">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Conditional Supplementation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Evidence-informed supplements used under selected physiological or clinical conditions.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="light_circadian">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Light & Circadian Optimisation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Practices that support circadian entrainment and biological timing.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="stress_autonomic">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Stress & Autonomic Regulation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Practices that deliberately influence autonomic function, adaptive stress responses and physiological resilience.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+</div>
 
 
 </div>

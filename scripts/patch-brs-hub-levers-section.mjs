@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Patch BRS hub pages: Dietary and Lifestyle Levers section title + intro;
- * refresh Optimisation Levers panels from curated data.
+ * refresh System Optimisation Practices panels from curated data.
  * @see scripts/data/brs-hub-levers-intro.mjs
  */
 import fs from "node:fs";

@@ -161,7 +161,7 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Optimisation Levers</strong>
+<strong>System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -171,12 +171,80 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 
 
 
-<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS6 yet.</em></p>
 
 
-
-
-
+<p class="brs-hub-sop-intro">Targeted interventions that may enhance biological system performance beyond foundational dietary guidance and lifestyle priorities. They complement — rather than replace — Key Constraints, Dietary Guidance and Lifestyle Priorities.</p>
+<div class="brs-hub-sop-categories" data-brs-sop-categories>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Food Preparation & Delivery</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Optimising food structure, cooking, bioavailability and nutrient delivery.</p>
+<ul class="brs-hub-lever-list brs-hub-optimisation-list">
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Soak or sprout phytate-rich seeds, legumes and grains when mineral density matters</strong> to improve plant magnesium, zinc and related mineral bioavailability that supports stress-recovery and metabolic cofactor chemistry.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Pair iron-containing foods with vitamin C and meal-context enhancers</strong> to improve iron absorption that supports metabolic and neuroendocrine cofactor networks under physiological load.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare omega-3-rich foods gently</strong> to protect PUFA-rich meal matrices that support membrane and inflammatory-resolution context for metabolic–stress regulation.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare fermentable staples carefully when building fibre load</strong> to improve digestibility of fermentable substrates that can support vagal and metabolic recovery signalling without abrupt gut strain.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a></span></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="dietary_protocols">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary & Fasting Protocols</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="conditional_supplementation">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Conditional Supplementation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Evidence-informed supplements used under selected physiological or clinical conditions.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="light_circadian">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Light & Circadian Optimisation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Practices that support circadian entrainment and biological timing.</p>
+<ul class="brs-hub-lever-list brs-hub-optimisation-list">
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Get morning daylight and limit evening artificial light</strong> to strengthen circadian timing, support healthy sleep transitions, and align feeding with the daily light–dark cycle.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment" class="brs-hub-lever-pm">BRS6-FM2-PM5</a></span></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="stress_autonomic">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Stress & Autonomic Regulation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Practices that deliberately influence autonomic function, adaptive stress responses and physiological resilience.</p>
+<ul class="brs-hub-lever-list brs-hub-optimisation-list">
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Use slow breathing and recovery routines after stress or exertion</strong> to support healthy transitions between activation and recovery and improve long-term autonomic flexibility.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a></span></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 
 
 </div>
@@ -195,8 +263,6 @@ Collectively, these findings do not imply that metabolic or neuroendocrine dysre
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Take regular physical activity and, where practical, a short walk after meals</strong> to help reduce blood sugar spikes after eating and support steadier metabolic regulation throughout the day.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics" class="brs-hub-lever-pm">BRS6-FM1-PM1</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a></span></p></li>
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Maintain consistent sleep and wake times</strong> to support healthy cortisol rhythm, lower stress-driven eating pressure, and more stable metabolic recovery.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment" class="brs-hub-lever-pm">BRS6-FM2-PM5</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a></span></p></li>
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Practise stress-management and recovery techniques</strong> to help maintain balanced autonomic activity, healthier appetite regulation, and adaptive stress responses.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation" class="brs-hub-lever-pm">BRS6-FM1-PM2</a> <a href="/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal" class="brs-hub-lever-pm">BRS6-FM1-PM3</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a> <a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm9-stress-induced-appetite-reward-drive-modulation" class="brs-hub-lever-pm">BRS6-FM4-PM9</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Get morning daylight and limit evening artificial light</strong> to strengthen circadian timing, support healthy sleep transitions, and align feeding with the daily light–dark cycle.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation" class="brs-hub-lever-pm">BRS6-FM2-PM4</a> <a href="/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment" class="brs-hub-lever-pm">BRS6-FM2-PM5</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Use slow breathing and recovery routines after stress or exertion</strong> to support healthy transitions between activation and recovery and improve long-term autonomic flexibility.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery" class="brs-hub-lever-pm">BRS6-FM3-PM6</a> <a href="/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation" class="brs-hub-lever-pm">BRS6-FM3-PM7</a></span></p></li>
 <li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Support healthy body composition through sustainable movement, sleep, and recovery</strong> to improve insulin sensitivity and reduce adipose-related inflammatory signalling over time.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling" class="brs-hub-lever-pm">BRS6-FM4-PM8</a></span></p></li>
 </ul>
 

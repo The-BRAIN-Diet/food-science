@@ -7,7 +7,7 @@ import path from "node:path";
 import { CORE_BRS_HUBS, HUB_PAGES } from "./brs-hub-levers.mjs";
 
 export const LEGACY_GENERATOR_DISABLED_MESSAGE =
-  "This generator is disabled for migrated BRS hubs because it outputs the obsolete Dietary Strategy architecture and will overwrite approved Dietary Guidance, Optimisation Levers and Lifestyle Priorities content. Use `npm run brs:patch-hub-levers-section` for safe maintenance.";
+  "This generator is disabled for migrated BRS hubs because it outputs the obsolete Dietary Strategy architecture and will overwrite approved Dietary Guidance, System Optimisation Practices and Lifestyle Priorities content. Use `npm run brs:patch-hub-levers-section` for safe maintenance.";
 
 export const APPROVED_HUB_LEVERS_MAINTENANCE_COMMAND = "npm run brs:patch-hub-levers-section";
 
@@ -41,7 +41,7 @@ export function isMigratedHubLeversContent(content) {
   const block = extractHubLeversBlock(content) || content;
   return (
     /<strong>Dietary Guidance<\/strong>/.test(block) &&
-    /<strong>Optimisation Levers<\/strong>/.test(block) &&
+    /<strong>System Optimisation Practices<\/strong>/.test(block) &&
     /brs-hub-dietary-guidance-/.test(block)
   );
 }
@@ -54,17 +54,24 @@ export function analyzeHubLeversArchitecture(content) {
   const panelTitles = [
     ...block.matchAll(/<strong>([^<]+)<\/strong>\s*<\/button>/g),
   ].map((match) => match[1]);
+  const topLevelPanels = panelTitles.filter((title) =>
+    ["Dietary Guidance", "System Optimisation Practices", "Lifestyle Priorities"].includes(
+      title,
+    ),
+  );
 
   return {
     hasDietaryGuidance: /<strong>Dietary Guidance<\/strong>/.test(block),
     hasDietaryStrategy: /<strong>Dietary Strategy<\/strong>/.test(block),
-    hasOptimisationLevers: /<strong>Optimisation Levers<\/strong>/.test(block),
+    hasOptimisationLevers: /<strong>System Optimisation Practices<\/strong>/.test(block),
     hasLifestylePriorities: /<strong>Lifestyle Priorities<\/strong>/.test(block),
+    hasSopCategories: /brs-hub-sop-categories/.test(block),
     hasDietaryGuidanceFlow: /Pattern → Nutrients → Biology/.test(block),
     hasInlineKcInLevers: /brs-hub-levers-key-constraints/.test(block),
     hasTargetFoodsDropdown: /<strong>Target Foods<\/strong>/.test(block),
-    panelCount: panelTitles.length,
+    panelCount: topLevelPanels.length,
     panelTitles,
+    topLevelPanels,
     guidanceItemCount: (block.match(/class="brs-hub-dietary-guidance-item"/g) || [])
       .length,
   };

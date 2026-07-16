@@ -50,7 +50,7 @@ function assertApprovedArchitecture(content, label) {
   assert.equal(
     arch.hasOptimisationLevers,
     true,
-    `${label}: Optimisation Levers must remain`,
+    `${label}: System Optimisation Practices must remain`,
   );
   assert.equal(
     arch.hasLifestylePriorities,
@@ -60,7 +60,12 @@ function assertApprovedArchitecture(content, label) {
   assert.equal(
     arch.panelCount,
     3,
-    `${label}: three panels must remain`,
+    `${label}: three top-level panels must remain`,
+  );
+  assert.equal(
+    arch.hasSopCategories,
+    true,
+    `${label}: System Optimisation Practices must use five-category architecture`,
   );
   assert.equal(
     arch.hasDietaryGuidanceFlow,
@@ -147,7 +152,7 @@ test("approved maintenance patch is idempotent on migrated fixture", async () =>
   );
 });
 
-test("maintenance patch does not remove Optimisation Levers or reduce panel count", async () => {
+test("maintenance patch does not remove System Optimisation Practices or reduce panel count", async () => {
   const before = await readFile(FIXTURE, "utf8");
   const beforeArch = analyzeHubLeversArchitecture(before);
   const after = patchHubLeversSectionContent(before, "BRS1", ROOT);
@@ -161,7 +166,7 @@ test("maintenance patch does not remove Optimisation Levers or reduce panel coun
 test("guard error includes the approved maintenance command", () => {
   assert.match(LEGACY_GENERATOR_DISABLED_MESSAGE, /patch-hub-levers-section/);
   assert.throws(
-    () => assertHubLeversPatchAllowed("fixture.md", "<!-- brs-hub-levers:start --><strong>Dietary Guidance</strong><strong>Optimisation Levers</strong><p class=\"brs-hub-dietary-guidance-main\"></p><!-- brs-hub-levers:end -->"),
+    () => assertHubLeversPatchAllowed("fixture.md", "<!-- brs-hub-levers:start --><strong>Dietary Guidance</strong><strong>System Optimisation Practices</strong><p class=\"brs-hub-dietary-guidance-main\"></p><!-- brs-hub-levers:end -->"),
     /patch-hub-levers-section/,
   );
 });

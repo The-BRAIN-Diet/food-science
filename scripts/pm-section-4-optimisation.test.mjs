@@ -54,7 +54,7 @@ test("dual panels reorder to optimisation before lifestyle", () => {
 
 ${HUB_ITEM(PM_LEVER_HEADINGS.legacyOptimisation, ["- Gentle cooking preserves fats."])}`;
   const { content } = transformPmSection4Levers(input);
-  const optIndex = content.indexOf("<strong>4.2 Optimisation Levers</strong>");
+  const optIndex = content.indexOf("<strong>4.2 System Optimisation Practices</strong>");
   const lifeIndex = content.indexOf("<strong>4.3 Lifestyle Levers</strong>");
   assert.ok(optIndex >= 0);
   assert.ok(lifeIndex > optIndex);
@@ -84,7 +84,7 @@ test("live PM6 page is canonical after transform", async () => {
   const { content: body } = matter(raw);
   const { content } = transformPmSection4Levers(body, { pmId: PM6_ID });
   assertCanonicalPmSection4(content);
-  assert.match(content, /<strong>4\.2 Optimisation Levers<\/strong>/);
+  assert.match(content, /<strong>4\.2 System Optimisation Practices<\/strong>/);
   assert.doesNotMatch(content, /<strong>4\.3 Lifestyle Levers<\/strong>/);
 });
 
@@ -125,7 +125,7 @@ test("lifestyle-only page creates optimisation panel when needed", () => {
     "- Sleep, stress, and meal irregularity may indirectly worsen gut-side precursor context.",
   ]);
   const { content } = reclassifyLifestyleOptimisationBullets(input);
-  const optIndex = content.indexOf("<strong>4.2 Optimisation Levers</strong>");
+  const optIndex = content.indexOf("<strong>4.2 System Optimisation Practices</strong>");
   const lifeIndex = content.indexOf("<strong>4.3 Lifestyle Levers</strong>");
   assert.ok(optIndex >= 0 && optIndex < lifeIndex);
   assert.match(
@@ -142,7 +142,7 @@ test("enforcePmSection4LeverOrder fixes legacy labels and panel order", () => {
 
 ${HUB_ITEM(PM_LEVER_HEADINGS.legacyOptimisation, ["- Gentle cooking preserves fats."])}`;
   const { content } = enforcePmSection4LeverOrder(input);
-  const optIndex = content.indexOf("<strong>4.2 Optimisation Levers</strong>");
+  const optIndex = content.indexOf("<strong>4.2 System Optimisation Practices</strong>");
   const lifeIndex = content.indexOf("<strong>4.3 Lifestyle Levers</strong>");
   assert.ok(optIndex >= 0 && lifeIndex > optIndex);
   assert.equal(validatePmSection4Contract(content).length, 0);
@@ -173,10 +173,10 @@ ${HUB_ITEM(PM_LEVER_HEADINGS.lifestyle, ["- Sleep regularity supports recovery."
   assert.ok(dietary);
   assert.ok(optimisation);
   assert.ok(optimisation.index > dietary.index + dietary.block.length - 1);
-  assert.doesNotMatch(dietary.block, /<strong>4\.2 Optimisation Levers<\/strong>/);
+  assert.doesNotMatch(dietary.block, /<strong>4\.2 System Optimisation Practices<\/strong>/);
 
   const dietIdx = content.indexOf("<strong>4.1 Dietary Levers</strong>");
-  const optIdx = content.indexOf("<strong>4.2 Optimisation Levers</strong>");
+  const optIdx = content.indexOf("<strong>4.2 System Optimisation Practices</strong>");
   const lifeIdx = content.indexOf("<strong>4.3 Lifestyle Levers</strong>");
   assert.ok(dietIdx < optIdx && optIdx < lifeIdx);
 });

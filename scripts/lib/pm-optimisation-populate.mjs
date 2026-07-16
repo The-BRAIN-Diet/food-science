@@ -1,5 +1,5 @@
 /**
- * Populate PM §4.2 Optimisation Levers from dietary levers, food context, and lifestyle reclassification.
+ * Populate PM §4.2 System Optimisation Practices from dietary levers, food context, and lifestyle reclassification.
  */
 import {
   PM_LEVER_HEADINGS,
