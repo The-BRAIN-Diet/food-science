@@ -162,7 +162,7 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 
 <p class="brs-hub-sop-intro">Targeted interventions that may enhance biological system performance beyond foundational dietary guidance and lifestyle priorities. They complement — rather than replace — Key Constraints, Dietary Guidance and Lifestyle Priorities.</p>
 <div class="brs-hub-sop-categories" data-brs-sop-categories>
-<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep">
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep" data-brs-sop-populated="true">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
@@ -179,6 +179,18 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 </div>
 </div>
 </div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="conditional_supplementation">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Conditional Supplementation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Evidence-informed supplements used under selected physiological or clinical conditions — populated from KC Emerging Biological Supports when present.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
 <div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="dietary_protocols">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
@@ -187,18 +199,6 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 </button>
 <div class="brs-fm-hub-panel" hidden>
 <p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
-<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
-</div>
-</div>
-</div>
-<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="conditional_supplementation">
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Conditional Supplementation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-hub-sop-category-desc">Evidence-informed supplements used under selected physiological or clinical conditions.</p>
 <p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
 </div>
 </div>

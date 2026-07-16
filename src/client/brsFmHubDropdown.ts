@@ -85,8 +85,17 @@ function openDefaultSopCategory(sopItem: HTMLElement): void {
     sopItem.querySelector<HTMLElement>(
       ':scope .brs-hub-sop-categories > .brs-hub-sop-category',
     );
-  if (!foodPrep) return;
-  setHubCollapsibleOpen(foodPrep, true);
+  if (foodPrep) {
+    setHubCollapsibleOpen(foodPrep, true);
+  }
+
+  // Conditional Supplementation expands when KC Emerging Biological Supports (or curated overrides) are present.
+  const conditional = sopItem.querySelector<HTMLElement>(
+    ':scope [data-brs-sop-category="conditional_supplementation"][data-brs-sop-populated="true"]',
+  );
+  if (conditional) {
+    setHubCollapsibleOpen(conditional, true);
+  }
 }
 
 function initBrsFmHubDropdowns(root: ParentNode = document): void {

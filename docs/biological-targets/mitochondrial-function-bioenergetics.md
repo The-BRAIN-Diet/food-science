@@ -160,7 +160,7 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 
 <p class="brs-hub-sop-intro">Targeted interventions that may enhance biological system performance beyond foundational dietary guidance and lifestyle priorities. They complement — rather than replace — Key Constraints, Dietary Guidance and Lifestyle Priorities.</p>
 <div class="brs-hub-sop-categories" data-brs-sop-categories>
-<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep">
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep" data-brs-sop-populated="true">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
@@ -177,7 +177,22 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 </div>
 </div>
 </div>
-<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="dietary_protocols">
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="conditional_supplementation" data-brs-sop-populated="true">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Conditional Supplementation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Evidence-informed supplements used under selected physiological or clinical conditions — populated from KC Emerging Biological Supports when present.</p>
+<ul class="brs-hub-lever-list brs-hub-optimisation-list">
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider Coenzyme Q10 (CoQ10) under selected conditions</strong> CoQ10 is an electron carrier in the mitochondrial inner membrane and can support oxidative phosphorylation efficiency and redox buffering under specific conditions — especially where endogenous synthesis is reduced (e.g. ageing, statin use, or mitochondrial disease contexts). Remains emerging: CoQ10 is synthesised endogenously via the mevalonate pathway and is not an essential dietary nutrient.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency" class="brs-hub-lever-pm">BRS4(KC2)</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider Creatine monohydrate under selected conditions</strong> Exogenous creatine can support phosphocreatine buffering when sleep deprivation, hypoxia, ageing, low dietary creatine intake, or sustained cognitive/physical demand make exogenous creatine more consequential; cerebral responses remain variable and smaller than typical muscle responses. Remains emerging: Brain creatine pools are shaped primarily by endogenous synthesis and transport rather than dietary creatine by default; supplementation is a conditional adjunct for selected high-demand or low-intake contexts, not a shared indispensable dietary requirement for this KC.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency" class="brs-hub-lever-pm">BRS4(KC2)</a></span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer" class="brs-hub-lever-pm">BRS4-FM1-PM3</a></span></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="dietary_protocols" data-brs-sop-populated="true">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
@@ -188,20 +203,6 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 <ul class="brs-hub-lever-list brs-hub-optimisation-list">
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider structured time-restricted eating windows where appropriate</strong> to provide periodic exposure to alternative fuel-utilisation pathways that support metabolic fuel switching.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></p></li>
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider structured ketogenic approaches only in specific clinical contexts</strong> to increase reliance on ketone metabolism and fuel-adaptation pathways where clinically indicated; not a general population recommendation.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a></span></p></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="conditional_supplementation">
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Conditional Supplementation</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-hub-sop-category-desc">Evidence-informed supplements used under selected physiological or clinical conditions.</p>
-<ul class="brs-hub-lever-list brs-hub-optimisation-list">
-<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider creatine monohydrate under selected high-demand or low-intake conditions</strong> to support phosphocreatine buffering when sleep deprivation, hypoxia, ageing, low dietary creatine intake, or sustained cognitive/physical demand make exogenous creatine more consequential; cerebral responses remain variable and smaller than typical muscle responses.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer" class="brs-hub-lever-pm">BRS4-FM1-PM3</a></span></p></li>
 </ul>
 </div>
 </div>

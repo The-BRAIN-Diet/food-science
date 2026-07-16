@@ -396,8 +396,8 @@ The generated block between `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-leve
 | # | Category | Description |
 |---|----------|-------------|
 | 1 | **Food Preparation & Delivery** | Food structure, cooking, bioavailability and nutrient delivery |
-| 2 | **Dietary & Fasting Protocols** | Targeted dietary approaches beyond routine healthy eating |
-| 3 | **Conditional Supplementation** | Evidence-informed supplements under selected conditions |
+| 2 | **Conditional Supplementation** | Evidence-informed supplements under selected conditions — **auto-populated from KC §4 Emerging Biological Supports** when present |
+| 3 | **Dietary & Fasting Protocols** | Targeted dietary approaches beyond routine healthy eating |
 | 4 | **Light & Circadian Optimisation** | Circadian entrainment and biological timing practices |
 | 5 | **Stress & Autonomic Regulation** | Deliberate autonomic and adaptive-stress interventions |
 
@@ -405,7 +405,9 @@ The generated block between `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-leve
 
 - Use **3–4 representative examples** per populated category (fewer is fine when evidence is sparse).
 - Empty categories display **Coming soon** — do not invent placeholder biology.
-- Preserve **Supports:** PM mappings when relocating existing practices.
+- Preserve **Supports:** PM/KC mappings when relocating existing practices.
+- **Conditional Supplementation** is populated directly from each BRS KC page’s `### 4. Emerging Biological Supports` (`####` candidate headings with Why interesting / Why emerging). Curated overrides may still live in `HUB_OPTIMISATION_LEVERS[brs].conditional_supplementation` and are merged/deduped.
+- When Conditional Supplementation has entries, the hub dropdown **auto-expands** alongside Food Preparation & Delivery when System Optimisation Practices is opened.
 
 **Boundary — do not place here:**
 
@@ -420,12 +422,14 @@ Those remain in **Lifestyle Priorities** or **Dietary Guidance**.
 - **FM §4.2 Integrated Functional Narrative** may reference why suboptimal preparation or exposure matters at the integrated biology level.
 - **PM §4.2 System Optimisation Practices** covers **Food Preparation & Delivery ONLY** (labelled at the top of the panel). Broader SOP categories are curated on the hub.
 - **Hub System Optimisation Practices** integrates and deduplicates across PMs into the five standard categories.
+- **KC §4 Emerging Biological Supports** → hub **Conditional Supplementation** (parser: `scripts/lib/kc-emerging-supports.mjs`).
 
 **Source of truth:**
 
 | Layer | Location |
 |-------|----------|
 | **Curated hub practices** | `scripts/data/brs-hub-optimisation-levers.mjs` (`SOP_CATEGORIES` + per-BRS category maps) |
+| **KC emerging supports → Conditional Supplementation** | KC `### 4. Emerging Biological Supports` via `scripts/lib/kc-emerging-supports.mjs` |
 | **PM levers** | §4.2 System Optimisation Practices on PM pages |
 | **FM biology (integrated context)** | FM §4.2 Integrated Functional Narrative |
 | **Practical detail** | Food Profiles (primary home for preparation instructions) |

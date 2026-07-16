@@ -30,15 +30,22 @@ Architectural distinction:
 | PM §7.2 Cofactors | What vitamins, minerals, or supporting compounds does this specific mechanism require? |
 | PM §7.1 Dietary Levers | Substance ← food intervention mapping |
 
-Structure (exact order, numbered headings):
-1. Definition
-2. Constraint Role
-3. Shared Biological Pool
-4. Biological Importance
-5. Connected Mechanisms (#### Functional Mechanisms, #### Primary Mechanisms)
-6. References
+Structure (exact order, numbered headings — Profile A):
+1. Ambition (or Definition on legacy pages)
+2. Core Nutritional Requirements (or Shared Biological Pool)
+3. Evidence Base
+4. Emerging Biological Supports
+5. Connected Mechanisms (`#### Functional Mechanisms`, `#### Primary Mechanisms`)
+6. Key References
 
-Do not include Constraint Stressors / Burdens on KC pages — migrate to linked FM §4.3 Suboptimal Function & Its Effects.
+Follow `system/key-constraint-schema.md` for full Profile A section roles.
+
+### Emerging Biological Supports → hub Conditional Supplementation
+
+- Author candidates under `### 4. Emerging Biological Supports` with `#### Substance` headings plus **Why it is interesting** / **Why it remains emerging**.
+- Each candidate is **auto-populated** into the parent BRS hub **System Optimisation Practices → Conditional Supplementation** panel.
+- When no candidates meet threshold, state explicitly that none are currently prioritised — do not invent trend-list entries.
+- After editing KC §4, run `npm run brs:patch-hub-levers-section` so hubs refresh.
 
 Page header:
 - `### {kc_id} - {name}` above section 1
