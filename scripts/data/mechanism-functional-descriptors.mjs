@@ -51,7 +51,7 @@ export const MECHANISM_FUNCTIONAL_DESCRIPTORS = {
   "brs4/fm1/brs4-fm1-pm2-nad-metabolism.mdx":
     "(Keeping Cellular Energy Chemistry Charged)",
   "brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer.mdx":
-    "(Quick Energy Buffer for Brain & Muscle)",
+    "(Rapid Cellular Energy Buffering in Brain and Muscle)",
   "brs4/fm2/brs4-fm2-pm4-ros-production-and-control.mdx":
     "(Balancing Wear-and-Tear Signals From Energy Use)",
   "brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity.mdx":

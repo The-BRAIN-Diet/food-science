@@ -11,6 +11,16 @@ Build Gate Proviso:
 - Always use semantic entity names (for example, `Intervention Dominance`, `Coverage Timing`, `Evidence Type`).
 - Treat any letter-identifier wording in generated outputs as a validation failure that must be fixed before build.
 
+## BRS hub Dietary Guidance (reader-facing)
+
+Canonical authoring contract: **`system/brs-hub-levers-schema.md`** (BRS Dietary Guidance Standard). **Reference hub:** BRS2 (`methylation-one-carbon-metabolism.md`).
+
+- Hub Dietary Guidance must contain **practical dietary advice only**.
+- Do **not** publish authoring instructions, deduplication notes, or schema commentary in the hub panel (e.g. “present once”, “do not repeat”, “not already captured by KC…”).
+- Deduplication is enforced in the schema; the page shows Pattern → Nutrients → Biology → Target Foods (+ KC/PM labels).
+- **KC-integrated layout (canonical):** no standalone hub Key Constraints section. Inside Dietary Guidance: flow line → **Key Constraints of BRS{n}** → per-KC substrate rows → **Additional Mechanism-Specific Dietary Levers**.
+- Two short intro paragraphs under **Dietary and Lifestyle Levers**: (1) **Biology** — shared pool / Key Constraint requirement; (2) **Daily regulation** — what meal quality, timing and recovery determine. Reference: BRS4.
+
 - Each biological target page must be tagged with the Therapeutic Areas it is involved in.
 - Each biological target page must be tagged with "Biological Target" so that it appears in index.md.
 - Each biological target page must be tagged with the name of the biological target (e.g. Hormonal Response) so we can refer to it from a substance.

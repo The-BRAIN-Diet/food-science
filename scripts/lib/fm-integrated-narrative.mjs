@@ -26,7 +26,7 @@ Cellular bioenergetics emerges from the coordinated interaction of several prima
 - [BRS4-FM1-PM2 — NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism)
   Maintains redox-carrier availability required for mitochondrial energy production and metabolic flux.
 
-- [BRS4-FM1-PM3 — Creatine / Phosphocreatine Buffer](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer)
+- [BRS4-FM1-PM3 — Creatine–Phosphocreatine Energy Buffering](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer)
   Provides rapid ATP buffering during periods of fluctuating or high energy demand.
 
 ### 4.2 Integrated Functional Narrative

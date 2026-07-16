@@ -67,11 +67,15 @@ Hub sections must not restate the BRS title or Overview at the start of Function
 
 ## Key Constraints (Dietary Bottlenecks)
 
+**Canonical hub rendering:** on migrated hubs (BRS1–BRS6), there is **no** standalone Key Constraints section. Shared KC pools are authored inside **Dietary Guidance** — see **`system/brs-hub-levers-schema.md`** (KC-integrated Dietary Guidance).
+
+Legacy / abstract contract notes:
+
 - Lists **native KCs only** — Key Constraints owned by this BRS (`brs{N}/kc/`). Do **not** import cross-BRS KCs from PM §4.1.3 references; cross-system support belongs in **Cross-BRS Dependencies** only.
 - Bullet list in canonical format:
   - `BRSx(KCy) - <KC_NAME>`
 - KCs are requirements/substrates, not intervention prescriptions.
-- Must not include food examples in this section (target foods are generated separately from native KC Shared Biological Pools).
+- Must not include food examples in this section (target foods appear on Dietary Guidance rows and on KC pages).
 
 ## Modulators
 

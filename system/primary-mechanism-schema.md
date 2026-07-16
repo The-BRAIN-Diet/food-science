@@ -122,8 +122,8 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 3. Phenome Connections — `## 3. Phenome Connections` — translational mappings from `phenome_relationships`; canonical disclaimer required; empty state when unmapped
 4. Levers — `## 4. Levers` — **sole public section for dietary and lifestyle implementation** (see **PM §4 — Levers** below)
    - **4.1 Dietary Levers** — outer `<details>` dropdown
-     - **4.1.1 Direct Dietary Levers** — nested `<details>`; substance ← food bullets per `system/substance-food-mapping-format.md`
-     - **4.1.2 Cofactors and Supporting Inputs** — nested `<details>`; from front matter `cofactors`, rendered as **substance ← food** bullets (same format as §4.1.1) when food examples are known
+     - **4.1.1 Direct Dietary Levers** — nested `<details>`; primary dietary substance(s) that directly supply or modulate the mechanism; substance ← food bullets per `system/substance-food-mapping-format.md`
+     - **4.1.2 Cofactors and Supporting Inputs** — nested `<details>`; from front matter `cofactors`, rendered as **substance ← food** bullets (same format as §4.1.1) when food examples are known. **Only** nutrients that support metabolism, synthesis, recycling, or utilisation of the §4.1.1 primary substance(s). **Must not duplicate** any Direct Dietary Lever substance (e.g. do not list creatine under both §4.1.1 and §4.1.2). Empty §4.1.2 is acceptable when no distinct supporting inputs apply beyond general protein/energy adequacy.
      - **4.1.3 KCs (Key Constraints)** — nested `<details>`; linked KC page(s) **plus** each KC’s Core Nutritional Requirements as **substance ← food** bullets (same format as §4.1.1 Direct Dietary Levers; sourced from the KC page §2 Core Nutritional Requirements, or legacy §2 Shared Biological Pool)
    - **4.2 Optimisation Levers** — `<details>` dropdown; preparation, pairing, matrix preservation, frequency, and delivery patterns that make dietary inputs act more effectively on this biology
    - **4.3 Lifestyle Levers** — `<details>` dropdown; non-dietary behaviours (sleep, exercise, stress recovery, circadian routines); primary place for timing narrative when `timing_specific: "Yes"`
@@ -471,6 +471,7 @@ Implementation: `scripts/validate-mechanism-pages.mjs` and `scripts/lib/mechanis
 - `dependencies` must not include PM-to-PM dependencies.
 - `dependencies.kcs[].type` must be only `substrate` or `precursor`.
 - `cofactors` must not include KCs, PMs, foods, or unrelated substances.
+- `cofactors` / §4.1.2 Supporting Inputs must not duplicate §4.1.1 Direct Dietary Lever substances; Supporting Inputs are only nutrients that support metabolism, synthesis, recycling, or utilisation of the primary lever substance(s). Empty Supporting Inputs is allowed.
 - Inputs must be mechanistically justified; no generic food advice entries.
 - Foods/substances must exist in system; unresolved entities may be recorded in optional `missing_entities` authoring metadata but must not be rendered as a PM page section.
 - No scoring formulas or numeric scoring logic allowed.

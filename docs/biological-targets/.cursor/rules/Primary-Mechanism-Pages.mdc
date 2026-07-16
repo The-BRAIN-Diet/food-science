@@ -41,7 +41,8 @@ Field interpretation:
   - Optional BRSX modifiers
   - PMs must not reference other PMs as dependencies
 - Cofactors must be interpreted as:
-  - Cofactors only
+  - Cofactors / supporting inputs only — nutrients that support metabolism, synthesis, recycling, or utilisation of the §4.1.1 Direct Dietary Lever substance(s)
+  - Must not duplicate any Direct Dietary Lever substance under §4.1.2 (empty Supporting Inputs is acceptable)
 - FM ownership must be interpreted as:
   - Exactly one FM ownership
 - Intervention dominance must be interpreted as:
