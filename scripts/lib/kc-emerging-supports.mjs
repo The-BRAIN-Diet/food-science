@@ -86,6 +86,7 @@ export function parseKcEmergingSupports(content, data, filePath, rootDir) {
 
   const kcId = data.kc_id || "";
   const href = fileToHref(filePath, rootDir);
+  // Candidate blocks may sit inside hub dropdowns; keep #### Name as the parse anchor.
   const chunks = body.split(/\n(?=#### )/).filter((chunk) => /^#### /.test(chunk));
 
   /** @type {Array<{ name: string, action: string, explanation: string, kc_id: string, kc_href: string, kc_title: string }>} */
@@ -95,16 +96,24 @@ export function parseKcEmergingSupports(content, data, filePath, rootDir) {
     const nameMatch = chunk.match(/^#### (.+)\n/);
     if (!nameMatch) continue;
     const name = nameMatch[1].trim();
+    // Skip nested #### headings such as "Biological Importance" / supporting titles.
+    if (/^(biological importance|supporting evidence)$/i.test(name)) continue;
 
     const interestingMatch = chunk.match(
-      /\*\*Why it is interesting:\*\*\s*([\s\S]*?)(?=\n\*\*Why it remains emerging:\*\*|\n#### |\s*$)/i,
+      /\*\*Why it is interesting:\*\*\s*([\s\S]*?)(?=\n\*\*Why it remains emerging:\*\*|\n#### |\n<h4|\n<\/div>|\s*$)/i,
     );
     const emergingMatch = chunk.match(
-      /\*\*Why it remains emerging:\*\*\s*([\s\S]*?)(?=\n#### |\s*$)/i,
+      /\*\*Why it remains emerging:\*\*\s*([\s\S]*?)(?=\n#### |\n<h4|\n<\/div>|\s*$)/i,
     );
 
-    const interesting = firstSentence(interestingMatch?.[1] || "");
-    const emerging = firstSentence(emergingMatch?.[1] || "");
+    const stripCitations = (text) =>
+      String(text || "")
+        .replace(/\s*\[[^\]]+\]/g, "")
+        .replace(/\s+/g, " ")
+        .trim();
+
+    const interesting = firstSentence(stripCitations(interestingMatch?.[1] || ""));
+    const emerging = firstSentence(stripCitations(emergingMatch?.[1] || ""));
 
     let explanation = interesting || "May support related capacities under selected conditions.";
     if (emerging) {

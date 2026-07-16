@@ -42,7 +42,9 @@ Follow `system/key-constraint-schema.md` for full Profile A section roles.
 
 ### Emerging Biological Supports → hub Conditional Supplementation
 
-- Author candidates under `### 4. Emerging Biological Supports` with `#### Substance` headings plus **Why it is interesting** / **Why it remains emerging**.
+- Author candidates under `### 4. Emerging Biological Supports` as **hub-collapsible dropdowns** (one per candidate), matching §3 Evidence Base pattern.
+- Inside each dropdown: `#### Substance` plus **Why it is interesting** / **Why it remains emerging** with inline `[Author et al., Year]` citations, then **Supporting Evidence** linked bibliography bullets.
+- §6 Emerging Biological Supports must list only standard bibliography links — no unlinked substance labels.
 - Each candidate is **auto-populated** into the parent BRS hub **System Optimisation Practices → Conditional Supplementation** panel.
 - When no candidates meet threshold, state explicitly that none are currently prioritised — do not invent trend-list entries.
 - After editing KC §4, run `npm run brs:patch-hub-levers-section` so hubs refresh.

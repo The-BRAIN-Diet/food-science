@@ -222,10 +222,14 @@ Use a short visible **Summary** (synthesis and practical advice grounded in §2)
 
 Compounds with credible evidence that they **may** support the KC’s regulatory capacity under specific conditions — **not** core nutritional requirements.
 
-For each candidate (when listed):
+For each candidate (when listed), use a hub-collapsible dropdown (same pattern as §3 Evidence Base resource groups). Inside each dropdown:
 
-- **Why it is interesting** — regulatory capacity supported
-- **Why it remains emerging** — evidence boundary (preclinical, condition-specific, inconsistent supplementation, etc.)
+- `#### Candidate Name` (parse anchor for hub roll-up)
+- **Why it is interesting** — regulatory capacity supported, with inline `[Author et al., Year]` where evidence-backed
+- **Why it remains emerging** — evidence boundary (preclinical, condition-specific, inconsistent supplementation, etc.), with inline citations where evidence-backed
+- **Supporting Evidence** — linked bibliography entries in hub integration format (`<a href="/docs/papers/BRAIN-Diet-References#citation_key">Author et al., Year</a> — …`)
+
+§6 Key References for Emerging Biological Supports must list only standard bibliography links (`[Author et al. (Year) — Topic](/docs/papers/BRAIN-Diet-References#citation_key)`), not unlinked substance labels.
 
 When no candidate meets the threshold, state explicitly that no Emerging Biological Supports are currently prioritised. Do not populate from trend lists.
 
