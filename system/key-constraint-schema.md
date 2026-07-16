@@ -229,6 +229,8 @@ For each candidate (when listed):
 
 When no candidate meets the threshold, state explicitly that no Emerging Biological Supports are currently prioritised. Do not populate from trend lists.
 
+**Hub roll-up:** Each Emerging Biological Support candidate (`####` heading under this section) is auto-populated into the parent BRS hub’s **System Optimisation Practices → Conditional Supplementation** panel (`scripts/lib/kc-emerging-supports.mjs`). Keep candidates source-led and condition-specific; empty KC §4 sections leave Conditional Supplementation as **Coming soon** unless a curated override exists.
+
 ### 5. Connected Mechanisms
 
 List connected PMs and FMs that depend on this KC.

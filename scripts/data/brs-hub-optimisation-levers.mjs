@@ -20,16 +20,16 @@ export const SOP_CATEGORIES = [
       "Optimising food structure, cooking, bioavailability and nutrient delivery.",
   },
   {
+    id: "conditional_supplementation",
+    title: "Conditional Supplementation",
+    description:
+      "Evidence-informed supplements used under selected physiological or clinical conditions — populated from KC Emerging Biological Supports when present.",
+  },
+  {
     id: "dietary_protocols",
     title: "Dietary & Fasting Protocols",
     description:
       "Targeted dietary approaches that modify physiology beyond routine healthy eating.",
-  },
-  {
-    id: "conditional_supplementation",
-    title: "Conditional Supplementation",
-    description:
-      "Evidence-informed supplements used under selected physiological or clinical conditions.",
   },
   {
     id: "light_circadian",
@@ -215,12 +215,13 @@ export const HUB_OPTIMISATION_LEVERS = {
         match_pm_ids: ["BRS4-FM3-PM8", "BRS4-FM3-PM7"],
       },
     ],
+    // Conditional Supplementation is primarily populated from KC §4 Emerging Biological Supports.
+    // Optional curated rows may add PM Supports tags (merged/deduped by substance name).
     conditional_supplementation: [
       {
-        action:
-          "Consider creatine monohydrate under selected high-demand or low-intake conditions",
+        action: "Consider Creatine monohydrate under selected conditions",
         explanation:
-          "to support phosphocreatine buffering when sleep deprivation, hypoxia, ageing, low dietary creatine intake, or sustained cognitive/physical demand make exogenous creatine more consequential; cerebral responses remain variable and smaller than typical muscle responses.",
+          "to support phosphocreatine buffering under selected high-demand or low-intake conditions.",
         match_pm_ids: ["BRS4-FM1-PM3"],
       },
     ],
