@@ -200,14 +200,14 @@ Describes **what happens when the integrated FM loses functional capacity** — 
 
 - Dietary patterns, UPF displacement, meal timing, or food preparation
 - KC stressor lists, pool-depletion narratives, or optimisation strategies
-- PM §4 Dietary / Lifestyle / Optimisation Levers (implementation stays on PMs; BRS hub Dietary Guidance and Optimisation Levers synthesise implementation for readers)
+- PM §4 Dietary / Lifestyle / Optimisation Levers (implementation stays on PMs; BRS hub Dietary Guidance and System Optimisation Practices synthesise implementation for readers)
 
 **Lever routing:**
 
 | Content | Belongs on |
 |---------|------------|
 | Dietary patterns, target foods | PM §4.1; BRS hub **Dietary Guidance** |
-| Food preparation, bioavailability | PM §4.2 Optimisation Levers; Food Profiles; BRS hub **Optimisation Levers** |
+| Food preparation, bioavailability | PM §4.2 System Optimisation Practices; Food Profiles; BRS hub **System Optimisation Practices** |
 | Sleep, timing, activity, stress | PM §4.3 Lifestyle; BRS hub **Lifestyle Priorities** |
 | Biological consequences of lost FM capacity | **FM §4.3 only** |
 

@@ -256,7 +256,7 @@ Before opening 4.1, readers should already understand from §1 Overview:
 
 Within **4.1**, use **Pattern → Nutrients → Biology → Target Foods** (substance ← food bullets per `system/substance-food-mapping-format.md`). Hub Dietary Guidance follows the same frame (`system/brs-hub-levers-schema.md`).
 
-**§4.2 Optimisation** and **§4.3 Lifestyle** build on the same biological framing — they do not re-introduce why the mechanism exists.
+**§4.2 System Optimisation** and **§4.3 Lifestyle** build on the same biological framing — they do not re-introduce why the mechanism exists.
 
 ## PM UX progression
 

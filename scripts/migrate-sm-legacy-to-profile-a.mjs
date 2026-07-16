@@ -115,7 +115,7 @@ function buildLeversSection({ dominance, directDietary, optimisation, cofactors,
     buildHubBlock("4.1 Dietary Levers", dietaryInner),
   ];
   if (optimisation.length) {
-    parts.push("", buildHubBlock("4.2 Optimisation Levers", optimisation.join("\n")));
+    parts.push("", buildHubBlock("4.2 System Optimisation Practices", optimisation.join("\n")));
   }
   parts.push("", buildHubBlock("4.3 Lifestyle Levers", lifestyle));
   return parts.join("\n");

@@ -159,7 +159,7 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Optimisation Levers</strong>
+<strong>System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -169,12 +169,75 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 
 
 
-<p class="brs-hub-optimisation-empty"><em>No optimisation levers are curated for BRS5 yet.</em></p>
 
 
-
-
-
+<p class="brs-hub-sop-intro">Targeted interventions that may enhance biological system performance beyond foundational dietary guidance and lifestyle priorities. They complement — rather than replace — Key Constraints, Dietary Guidance and Lifestyle Priorities.</p>
+<div class="brs-hub-sop-categories" data-brs-sop-categories>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Food Preparation & Delivery</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Optimising food structure, cooking, bioavailability and nutrient delivery.</p>
+<ul class="brs-hub-lever-list brs-hub-optimisation-list">
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare fermentable staples and include traditionally fermented foods where tolerated</strong> to improve digestibility of fermentable substrates and preserve living or minimally heat-killed matrices that support SCFA production, keystone ecology and barrier signalling.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection" class="brs-hub-lever-pm">BRS5-FM2-PM4</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Soak legumes and phytate-rich plant foods thoroughly before cooking</strong> to improve digestibility and mineral bioavailability while keeping fermentable fibre available for microbial metabolism.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support" class="brs-hub-lever-pm">BRS5-FM1-PM3</a> <a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling" class="brs-hub-lever-pm">BRS5-FM2-PM5</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation" class="brs-hub-lever-pm">BRS5-FM3-PM7</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Pair fat-soluble compounds with dietary fat</strong> to support absorption of barrier- and signalling-relevant lipids within mixed meals.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity" class="brs-hub-lever-pm">BRS5-FM1-PM1</a> <a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment" class="brs-hub-lever-pm">BRS5-FM1-PM2</a> <a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability" class="brs-hub-lever-pm">BRS5-FM3-PM8</a></span></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="dietary_protocols">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary & Fasting Protocols</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="conditional_supplementation">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Conditional Supplementation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Evidence-informed supplements used under selected physiological or clinical conditions.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="light_circadian">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Light & Circadian Optimisation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Practices that support circadian entrainment and biological timing.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="stress_autonomic">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Stress & Autonomic Regulation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Practices that deliberately influence autonomic function, adaptive stress responses and physiological resilience.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+</div>
 
 
 </div>

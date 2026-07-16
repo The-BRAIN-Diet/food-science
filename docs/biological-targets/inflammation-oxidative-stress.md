@@ -141,7 +141,7 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Optimisation Levers</strong>
+<strong>System Optimisation Practices</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -151,16 +151,76 @@ Exposure patterns also matter: ultra-processed foods, metals in additives, Weste
 
 
 
+
+
+<p class="brs-hub-sop-intro">Targeted interventions that may enhance biological system performance beyond foundational dietary guidance and lifestyle priorities. They complement — rather than replace — Key Constraints, Dietary Guidance and Lifestyle Priorities.</p>
+<div class="brs-hub-sop-categories" data-brs-sop-categories>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Food Preparation & Delivery</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Optimising food structure, cooking, bioavailability and nutrient delivery.</p>
 <ul class="brs-hub-lever-list brs-hub-optimisation-list">
-<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Choose gentler cooking methods and avoid repeatedly heating unstable oils</strong> to limit lipid oxidation and dietary ROS that can overwhelm antioxidant clearance and lipid peroxidation control.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a></span></p></li>
-<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Limit ultra-processed food exposure</strong> to reduce post-meal inflammatory signalling and avoidable oxidative substrates that amplify immune tone beyond nutrient intake alone.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation" class="brs-hub-lever-pm">BRS3-FM3-PM7</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Choose gentler cooking methods and avoid repeatedly heating unstable oils</strong> to limit lipid oxidation and dietary ROS that can overwhelm antioxidant clearance and lipid peroxidation control.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a> <a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a></span></p></li>
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare antioxidant-rich vegetables to preserve heat-sensitive compounds</strong> to retain vitamin C and polyphenols that support NRF2 activation and sustained ROS clearance rather than losing them to overcooking.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare cruciferous vegetables to retain myrosinase-linked activity</strong> to support sulforaphane yield that feeds NRF2-linked antioxidant defence chemistry.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation" class="brs-hub-lever-pm">BRS3-FM2-PM3</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control" class="brs-hub-lever-pm">BRS3-FM2-PM5</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling" class="brs-hub-lever-pm">BRS3-FM2-PM6</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Soak or sprout phytate-rich seeds and legumes when mineral density matters</strong> to improve plant mineral bioavailability that supports antioxidant-enzyme and inflammatory-resolution cofactor chemistry.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation" class="brs-hub-lever-pm">BRS3-FM1-PM1</a> <a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance" class="brs-hub-lever-pm">BRS3-FM2-PM4</a> <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance" class="brs-hub-lever-pm">BRS3-FM3-PM8</a></span></p></li>
 </ul>
-
-
-
-
-
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="dietary_protocols">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary & Fasting Protocols</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="conditional_supplementation">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Conditional Supplementation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Evidence-informed supplements used under selected physiological or clinical conditions.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="light_circadian">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Light & Circadian Optimisation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Practices that support circadian entrainment and biological timing.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+<div class="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="stress_autonomic">
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Stress & Autonomic Regulation</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-hub-sop-category-desc">Practices that deliberately influence autonomic function, adaptive stress responses and physiological resilience.</p>
+<p class="brs-hub-optimisation-coming-soon"><em>Coming soon</em></p>
+</div>
+</div>
+</div>
+</div>
 
 
 </div>

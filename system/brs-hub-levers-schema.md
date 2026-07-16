@@ -17,7 +17,7 @@ Each BRS hub page should orient readers in under one minute: explain the biologi
 | 1 | Title + functional descriptor | Required |
 | 2 | **Ambition** | Required — manual |
 | 3 | **Therapeutic Area Research** | BRS1–BRS6 ADHD dropdowns — [BRS Hub ADHD TA Dropdown](./brs-hub-ta-adhd-dropdown-schema.md); [BRAIN TA Evidence Integration Standard v1.2](./brain-ta-evidence-integration-standard.md) |
-| 4 | **Dietary and Lifestyle Levers** | Required — **Dietary Guidance**, **Optimisation Levers**, **Lifestyle Priorities** (see [BRS Dietary Guidance Standard](#brs-dietary-guidance-standard-final)). Shared Key Constraint pools are introduced **inside** Dietary Guidance — not as a standalone hub section. |
+| 4 | **Dietary and Lifestyle Levers** | Required — **Dietary Guidance**, **System Optimisation Practices**, **Lifestyle Priorities** (see [BRS Dietary Guidance Standard](#brs-dietary-guidance-standard-final)). Shared Key Constraint pools are introduced **inside** Dietary Guidance — not as a standalone hub section. |
 | 5 | **Functional Mechanisms** | Required — regenerate with `npm run brs:update-hub-fms` |
 | 5a | **Cross-BRS Dependencies** | Landmark mechanistic reviews per Cross-BRS dependency (Category B — not in ADHD dropdown) |
 | 6 | **Specific Mechanisms** and downstream navigation (SMs, etc.) | Required |
@@ -359,7 +359,7 @@ Dietary Guidance is a top-level collapsible dropdown labelled **Dietary Guidance
 
 CSS classes live in `src/css/custom.css` (`.brs-hub-dietary-guidance-*`, `.brs-hub-dietary-guidance-section`).
 
-**Important:** BRS1–BRS6 Dietary Guidance is **manually authored** inside `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-levers:end -->`. Do **not** run `npm run brs:generate-hub-levers-legacy` on migrated hubs — it is disabled and will refuse to run because the legacy renderer still outputs the obsolete Dietary Strategy / Target Foods layout and would overwrite approved **Dietary Guidance**, **Optimisation Levers**, and **Lifestyle Priorities** content.
+**Important:** BRS1–BRS6 Dietary Guidance is **manually authored** inside `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-levers:end -->`. Do **not** run `npm run brs:generate-hub-levers-legacy` on migrated hubs — it is disabled and will refuse to run because the legacy renderer still outputs the obsolete Dietary Strategy / Target Foods layout and would overwrite approved **Dietary Guidance**, **System Optimisation Practices**, and **Lifestyle Priorities** content.
 
 **Approved maintenance command (BRS1–BRS6):**
 
@@ -367,7 +367,7 @@ CSS classes live in `src/css/custom.css` (`.brs-hub-dietary-guidance-*`, `.brs-h
 npm run brs:patch-hub-levers-section
 ```
 
-This command refreshes section intros and Optimisation Levers panels only. It does not replace Dietary Guidance body content.
+This command refreshes section intros and System Optimisation Practices panels only. It does not replace Dietary Guidance body content.
 
 **Regression guard:**
 
@@ -384,44 +384,53 @@ The generated block between `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-leve
 | # | Hub dropdown | PM section | Purpose |
 |---|--------------|------------|---------|
 | 4.1 | **Dietary Guidance** | §4.1 Direct Dietary Levers | What to eat — patterns, nutrients, biology, target foods |
-| 4.2 | **Optimisation Levers** | §4.2 Optimisation Levers | How to prepare, combine, or handle foods and exposures to improve bioavailability, reduce degradation, or limit avoidable biological load |
+| 4.2 | **System Optimisation Practices** | §4.2 System Optimisation Practices | Targeted interventions beyond foundational diet/lifestyle — five nested categories (prep, protocols, supplements, light/circadian, stress/autonomic) |
 | 4.3 | **Lifestyle Priorities** | §4.3 Lifestyle Levers | Behavioural levers (sleep, activity, stress recovery, circadian routines) — not dietary delivery or preparation |
 
-### Optimisation Levers
+### System Optimisation Practices
 
-**Purpose:** Capture intervention strategies that are neither dietary patterns nor lifestyle behaviours — food preparation, bioavailability enhancement, matrix preservation, and exposure reduction (e.g. gentle cooking of marine fats, soaking legumes, reducing plastic nanoparticle exposure where relevant).
+**Purpose:** Targeted interventions that may enhance biological system performance **beyond** foundational dietary guidance and lifestyle priorities. They complement — rather than replace — Key Constraints, Dietary Guidance and Lifestyle Priorities.
 
-**Does not belong here:**
+**Hub architecture:** One outer collapsible labelled **System Optimisation Practices**, containing five nested category dropdowns on every BRS1–BRS6 hub:
 
-- Whole dietary patterns → **Dietary Guidance**
-- Sleep, exercise, stress, circadian behaviour → **Lifestyle Priorities**
-- Step-by-step recipes or full preparation instructions → **Food Profiles / Recipes**
+| # | Category | Description |
+|---|----------|-------------|
+| 1 | **Food Preparation & Delivery** | Food structure, cooking, bioavailability and nutrient delivery |
+| 2 | **Dietary & Fasting Protocols** | Targeted dietary approaches beyond routine healthy eating |
+| 3 | **Conditional Supplementation** | Evidence-informed supplements under selected conditions |
+| 4 | **Light & Circadian Optimisation** | Circadian entrainment and biological timing practices |
+| 5 | **Stress & Autonomic Regulation** | Deliberate autonomic and adaptive-stress interventions |
+
+**Population rules:**
+
+- Use **3–4 representative examples** per populated category (fewer is fine when evidence is sparse).
+- Empty categories display **Coming soon** — do not invent placeholder biology.
+- Preserve **Supports:** PM mappings when relocating existing practices.
+
+**Boundary — do not place here:**
+
+- Routine exercise, physical activity, sleep, general stress management, meal timing
+- Protein distribution, dietary diversity, routine dietary patterns, ordinary food recommendations
+- Step-by-step recipes → **Food Profiles**
+
+Those remain in **Lifestyle Priorities** or **Dietary Guidance**.
 
 **Biological connection:**
 
-- **FM §4.2 Integrated Functional Narrative** may reference why suboptimal preparation or exposure matters at the **integrated biology** level when relevant to emergent capacity.
-- **PM §4.2 Optimisation Levers** states the actionable optimisation strategy at mechanism level.
-- **Hub Optimisation Levers** integrates and deduplicates across PMs for the BRS reader.
-
-**Do not** place preparation instructions or dietary cause narratives in **FM §4.3** — that section describes consequences of lost FM capacity only.
-
-**Hub HTML (BRS1 reference):**
-
-Third collapsible dropdown labelled **Optimisation Levers**, placed immediately after **Dietary Guidance** and before **Lifestyle Priorities**. Structurally parallel to Lifestyle Priorities:
-
-- `<ul class="brs-hub-optimisation-list">`
-- Each item: action + explanation + **Supports:** PM links
+- **FM §4.2 Integrated Functional Narrative** may reference why suboptimal preparation or exposure matters at the integrated biology level.
+- **PM §4.2 System Optimisation Practices** covers **Food Preparation & Delivery ONLY** (labelled at the top of the panel). Broader SOP categories are curated on the hub.
+- **Hub System Optimisation Practices** integrates and deduplicates across PMs into the five standard categories.
 
 **Source of truth:**
 
 | Layer | Location |
 |-------|----------|
-| **Curated hub levers** | `scripts/data/brs-hub-optimisation-levers.mjs` |
-| **PM levers** | §4.2 Optimisation Levers on PM pages |
+| **Curated hub practices** | `scripts/data/brs-hub-optimisation-levers.mjs` (`SOP_CATEGORIES` + per-BRS category maps) |
+| **PM levers** | §4.2 System Optimisation Practices on PM pages |
 | **FM biology (integrated context)** | FM §4.2 Integrated Functional Narrative |
 | **Practical detail** | Food Profiles (primary home for preparation instructions) |
 
-**Example (BRS1):**
+**Example (BRS1 — Food Preparation & Delivery):**
 
 > **Prepare omega-3-rich foods gently and include them regularly** to protect delicate marine fats during cooking and support ongoing brain membrane health over time.
 >
@@ -483,7 +492,7 @@ Practical content removed from the TA dropdown must be **re-homed** per Phase 7.
 1. `KEY_DIETARY_STRATEGY_PROSE` / `KEY_DIETARY_STRATEGY_TARGETS` (legacy — migrate to Dietary Guidance on hub rewrite)
 2. `scripts/data/brs-hub-signature-foods.mjs` (legacy target foods — migrate into Dietary Guidance target-food lines)
 3. `scripts/data/brs-hub-lifestyle-priorities.mjs`
-4. PM §4.2 Optimisation Levers + FM §4.2 integrated biology (not FM §4.3 — consequences only)
+4. PM §4.2 System Optimisation Practices + FM §4.2 integrated biology (not FM §4.3 — consequences only)
 5. PM dietary levers (`substance ← food`)
 6. Food pages (primary home for preparation guidance)
 7. Substance pages (evidence-linked)
@@ -514,15 +523,15 @@ Preparation methods are **modifiers of food interventions**. Examples include bo
 | **Food pages (primary)** | Practical preparation guidance lives on the relevant food page where the intervention is described |
 | **Dietary Guidance (primary)** | General preparation principles that apply across multiple foods (e.g. reducing AGE formation, improving mineral bioavailability, preserving polyphenols) may be summarised in hub Dietary Guidance where biologically relevant |
 | **FM §4.2 (integrated biology only)** | FMs may explain why preparation matters at the **integrated capacity** level when relevant to emergent function — not cooking instructions |
-| **PM §4.2 Optimisation Levers** | Actionable preparation/bioavailability strategies at mechanism level |
-| **Not Lifestyle Priorities** | Cooking, preparation, and bioavailability strategies are **Optimisation Levers** — not behavioural lifestyle levers |
+| **PM §4.2 System Optimisation Practices** | Actionable preparation/bioavailability strategies at mechanism level |
+| **Not Lifestyle Priorities** | Cooking, preparation, and bioavailability strategies are **System Optimisation Practices** — not behavioural lifestyle levers |
 | **Not FM §4.3** | FM §4.3 describes **consequences** of lost FM capacity — not dietary causes or preparation rationale |
 
 **FM §4.2 example (integrated biology — not preparation instructions):**
 
 > Phospholipid-bound omega-3 delivery and membrane enrichment operate as an integrated capacity supporting neuronal signalling competence — distinct from any single transport or incorporation step alone.
 
-Practical cooking guidance remains on food pages; hub **Optimisation Levers** synthesise PM-level strategies.
+Practical cooking guidance remains on food pages; hub **System Optimisation Practices** synthesise PM-level strategies.
 
 ### 2. Intervention hierarchy
 
@@ -537,7 +546,7 @@ Distinguish consistently between **biological architecture** and **intervention 
 - Lifestyle
 - Recipes
 
-Food preparation is **not** an independent intervention category. Preparation modifies food interventions and is therefore treated as a **property of food pages** (with biological context on PM §4.2 Optimisation Levers and hub Optimisation Levers where relevant).
+Food preparation is **not** an independent intervention category. Preparation modifies food interventions and is therefore treated as a **property of food pages** (with biological context on PM §4.2 System Optimisation Practices and hub System Optimisation Practices where relevant).
 
 ### 3. Biological Intervention Ledger
 
@@ -643,7 +652,7 @@ This is a **BRS-level educational summary** — not a collection of PM annotatio
 
 **Dietary Guidance** (including Key Constraints and Additional Mechanism-Specific Dietary Levers) describes **what and how people eat**.
 
-| Belongs in Lifestyle Priorities | Belongs in Dietary Guidance / Optimisation |
+| Belongs in Lifestyle Priorities | Belongs in Dietary Guidance / System Optimisation Practices |
 |--------------------------------|--------------------------------------------|
 | Meal timing / eating rhythm | Food choice, food quality, food processing |
 | Sleep | Nutrients, dietary patterns, food diversity |
