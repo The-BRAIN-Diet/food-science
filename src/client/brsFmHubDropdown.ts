@@ -98,6 +98,20 @@ function openDefaultSopCategory(sopItem: HTMLElement): void {
   }
 }
 
+function openEmergingSupportFromHash(root: ParentNode = document): void {
+  if (typeof window === 'undefined') return;
+  const hash = decodeURIComponent(window.location.hash.replace(/^#/, ''));
+  if (!hash) return;
+
+  const target =
+    root.querySelector<HTMLElement>(`[data-brs-emerging-support="${hash}"]`) ??
+    document.getElementById(hash)?.closest<HTMLElement>('[data-brs-emerging-support]');
+  if (!target) return;
+
+  setHubCollapsibleOpen(target, true);
+  target.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+}
+
 function initBrsFmHubDropdowns(root: ParentNode = document): void {
   root.querySelectorAll<HTMLElement>('[data-brs-fm-hub]:not([data-brs-fm-hub-init])').forEach((item) => {
     item.dataset.brsFmHubInit = 'true';
@@ -125,11 +139,13 @@ function initBrsFmHubDropdowns(root: ParentNode = document): void {
 
   bindGroupOpenActions(root);
   bindExpandOpenActions(root);
+  openEmergingSupportFromHash(root);
 }
 
 export function onRouteDidUpdate(): void {
   if (typeof document === 'undefined') return;
   initBrsFmHubDropdowns();
+  openEmergingSupportFromHash();
 }
 
 if (typeof document !== 'undefined') {

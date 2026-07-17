@@ -35,10 +35,11 @@ function renderPmTags(sourcePms) {
 function renderKcTags(sourceKcs) {
   if (!sourceKcs?.length) return "";
   const tags = sourceKcs
-    .map(
-      (kc) =>
-        `<a href="${kc.href}" class="brs-hub-lever-pm">${escapeHtml(kc.id)}</a>`,
-    )
+    .map((kc) => {
+      const href = kc.anchor ? `${kc.href}#${kc.anchor}` : kc.href;
+      const label = kc.label || kc.id;
+      return `<a href="${href}" class="brs-hub-lever-pm">${escapeHtml(label)}</a>`;
+    })
     .join(" ");
   return ` <span class="brs-hub-lever-pms">${tags}</span>`;
 }
@@ -97,7 +98,15 @@ function mergeConditionalSupplementation(brsId, rootDir, curatedItems) {
     explanation: entry.explanation,
     source_pms: [],
     source_kcs: entry.kc_id
-      ? [{ id: entry.kc_id, href: entry.kc_href, title: entry.kc_title }]
+      ? [
+          {
+            id: entry.kc_id,
+            href: entry.kc_href,
+            anchor: entry.kc_anchor,
+            label: entry.kc_link_label,
+            title: entry.kc_title,
+          },
+        ]
       : [],
     _dedupe: substanceKey(entry.name || entry.action),
   }));
