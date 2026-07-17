@@ -139,7 +139,7 @@ export const MECHANISM_FUNCTIONAL_DESCRIPTORS = {
   "brs4/kc/brs4-kc1-macronutrient-substrate-availability.mdx":
     "(Meal Fuels for Cellular Energy)",
   "brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency.mdx":
-    "(Vitamins & Minerals That Power Mitochondria)",
+    "(Vitamins & Minerals for Mitochondrial Energy Production)",
   "brs5/kc/brs5-kc1-fermentable-fibre-availability.mdx":
     "(Fermentable Fibres That Feed Helpful Gut Bacteria)",
   "brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability.mdx":

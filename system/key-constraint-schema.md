@@ -224,10 +224,13 @@ Compounds with credible evidence that they **may** support the KC’s regulatory
 
 For each candidate (when listed), use a hub-collapsible dropdown (same pattern as §3 Evidence Base resource groups). Inside each dropdown:
 
-- `#### Candidate Name` (parse anchor for hub roll-up)
+- `data-brs-emerging-support="slug"` on the dropdown wrapper (for deep-link auto-expand)
+- `#### Candidate Name {#slug}` (parse anchor for hub roll-up)
 - **Why it is interesting** — regulatory capacity supported, with inline `[Author et al., Year]` where evidence-backed
 - **Why it remains emerging** — evidence boundary (preclinical, condition-specific, inconsistent supplementation, etc.), with inline citations where evidence-backed
 - **Supporting Evidence** — linked bibliography entries in hub integration format (`<a href="/docs/papers/BRAIN-Diet-References#citation_key">Author et al., Year</a> — …`)
+
+Hub **Conditional Supplementation** Supports links use `KC2 — Evidence base — Substance` labels pointing to `{kc-page}#{slug}`.
 
 §6 Key References for Emerging Biological Supports must list only standard bibliography links (`[Author et al. (Year) — Topic](/docs/papers/BRAIN-Diet-References#citation_key)`), not unlinked substance labels.
 

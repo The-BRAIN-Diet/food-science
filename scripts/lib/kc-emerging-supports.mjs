@@ -49,6 +49,38 @@ function fileToHref(filePath, rootDir) {
 }
 
 /**
+ * Stable anchor slug for KC §4 Emerging Biological Support dropdowns / deep links.
+ * @param {string} name
+ */
+export function emergingSupportAnchorSlug(name) {
+  const explicit = String(name || "").match(/\{#([a-z0-9-]+)\}\s*$/i);
+  if (explicit) return explicit[1];
+
+  return String(name || "")
+    .toLowerCase()
+    .replace(/[⁺+]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+/**
+ * @param {string} kcId
+ * @param {string} name
+ */
+export function emergingSupportKcLabel(kcId, name) {
+  const kcShort = String(kcId || "")
+    .replace(/^BRS\d+\(/, "")
+    .replace(/\)$/, "");
+  const cleanName = String(name || "")
+    .replace(/\s*\{#[^}]+\}\s*$/, "")
+    .trim();
+  const parenthetical = cleanName.match(/\(([^)]+)\)\s*$/);
+  const substance = parenthetical?.[1] || cleanName;
+  if (!kcShort) return substance;
+  return `${kcShort} — Evidence base — ${substance}`;
+}
+
+/**
  * @param {string} text
  */
 function firstSentence(text) {
@@ -93,9 +125,11 @@ export function parseKcEmergingSupports(content, data, filePath, rootDir) {
   const entries = [];
 
   for (const chunk of chunks) {
-    const nameMatch = chunk.match(/^#### (.+)\n/);
+    const nameMatch = chunk.match(/^#### (.+?)(?:\s*\{#([a-z0-9-]+)\})?\s*\n/);
     if (!nameMatch) continue;
     const name = nameMatch[1].trim();
+    const explicitAnchor = nameMatch[2] || chunk.match(/data-brs-emerging-support="([a-z0-9-]+)"/)?.[1];
+    const anchor = explicitAnchor || emergingSupportAnchorSlug(name);
     // Skip nested #### headings such as "Biological Importance" / supporting titles.
     if (/^(biological importance|supporting evidence)$/i.test(name)) continue;
 
@@ -124,10 +158,12 @@ export function parseKcEmergingSupports(content, data, filePath, rootDir) {
 
     entries.push({
       name,
-      action: `Consider ${name} under selected conditions`,
+      action: `Consider ${name.replace(/\s*\{#[^}]+\}\s*$/, "")} under selected conditions`,
       explanation,
       kc_id: kcId,
       kc_href: href,
+      kc_anchor: anchor,
+      kc_link_label: emergingSupportKcLabel(kcId, name),
       kc_title: data.title || kcId,
     });
   }
