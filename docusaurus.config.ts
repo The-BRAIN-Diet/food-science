@@ -369,12 +369,20 @@ const config: Config = {
             from: '/docs/biological-targets/brs1/pm/brs1-pm1-tyrosine-tryptophan-precursor-supply',
           },
           {
-            to: '/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation',
+            to: '/docs/phenomes/details/ph003-emotional-regulation',
+            from: '/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation',
+          },
+          {
+            to: '/docs/phenomes/details/ph003-emotional-regulation',
             from: '/docs/biological-targets/brs1/sm/brs1-sm-adhd1-emotional-dysregulation-serotonergic-regulation',
           },
           {
-            to: '/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation',
+            to: '/docs/phenomes/details/ph003-emotional-regulation',
             from: '/docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-serotonergic-regulation',
+          },
+          {
+            to: '/docs/phenomes/details/ph015-stress-reactivity',
+            from: '/docs/biological-targets/brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation',
           },
           {
             to: '/docs/biological-targets/brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk',

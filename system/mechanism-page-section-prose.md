@@ -387,7 +387,7 @@ The **`### Summary`** (or first paragraph of § Mechanistic Basis on **FM** and 
 |-----------|-------------------------|--------------|
 | **FM** | The emergent integrated state | How constituent PMs combine (e.g. methylation capacity from linked one-carbon pathways, not one reaction) |
 | **SM-CROSS** | Why the signal is inherently multi-domain | The cross-system concept (e.g. few systems span neural, immune, gut, and circadian biology — then histamine) |
-| **SM-PHEN / SM-SNP** | Phenotype or variant interpretation at stake | Connected host PM biology (§4); do not duplicate PM §4 structure on SMs unless overlay-specific |
+| **SM-SNP** | Variant interpretation at stake | Connected host PM biology (§4); do not duplicate PM §4 structure on SMs unless overlay-specific |
 
 Expanded FM narrative may use `<details>`; §5.5 (SM-CROSS) remains for cross-BRS **PM links**, not for repeating the Summary implication.
 

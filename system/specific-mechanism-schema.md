@@ -26,7 +26,9 @@ The ontology describes biology. Therapeutic-area framing (e.g. ADHD) belongs on 
 **Specific Mechanisms (SMs)** are interpretation layers: context-specific expressions of stable biological regulation grounded in connected PMs, FMs, and KCs. They use the same PM rendering architecture, with categories:
 
 - **SM-SNP** — variant-sensitive interpretation (e.g. COMT, MTHFR, DAO, PEMT)
-- **SM-PHEN** — phenotype-sensitive interpretation (e.g. emotional dysregulation, hyperarousal, histamine sensitivity, sensory responsiveness, cognitive fatigue)
+- **SM-CROSS** — multi-BRS interpretive concepts that cannot be owned by a single PM/FM
+
+**Retired:** `SM-PHEN` pages are removed. Functional phenotype interpretation lives in the **Phenome Registry** (`src/data/phenome-registry.json` and `docs/phenomes/`) and in PM/FM phenome mappings — not as separate SM-PHEN mechanism pages. Do not create new `SM-PHEN` pages.
 
 ### SM-SNP pages (genotype-sensitive modifiers)
 
@@ -57,44 +59,10 @@ Genotype-sensitive SMs function as modifiers of existing PM/FM biology rather th
 
 Do not duplicate PM definitions in §6.3 or §6.5; link and interpret only.
 
-### SM-PHEN pages (phenome interpretation layer)
+### Retired category: SM-PHEN
 
-`SM-PHEN` pages are **phenotype interpretation layers** hosted on a single BRS. They read stable biology from connected host PMs/FMs/KCs and apply it to a **registry phenome** (`src/data/phenome-registry.json`) — without redefining PM mechanism biology.
+`SM-PHEN` is **not** a valid category. Do not create new SM-PHEN pages. Functional phenotype interpretation is owned by the **Phenome Registry** (`src/data/phenome-registry.json`, `docs/phenomes/`) and by PM/FM phenome mappings. Former BRS1 SM-PHEN pages redirect to registry phenome detail pages.
 
-**Core discipline**
-
-| Layer | Owns |
-|-------|------|
-| **PM** | Mechanism biology (synthesis, transport, signalling pathways, cofactors) |
-| **FM** | Integrated biological states emerging from coordinated PMs |
-| **SM-PHEN** | Phenotype interpretation — how connected host biology may relate to a functional phenome pattern |
-
-**One phenome, many SMs.** The same registry phenome (e.g. **PH003 — Emotional Regulation**) may have **multiple SM-PHEN pages** across different BRS domains (e.g. BRS1 monoaminergic interpretation, a future BRS3 inflammatory interpretation). Each SM owns **one BRS interpretation lens** only. Do not collapse cross-BRS phenome biology into a single SM; use additional host-BRS `SM-PHEN` pages or `SM-CROSS` when the [SM-CROSS test](#sm-cross-test-qualification-gate) applies.
-
-**Required front matter (SM-PHEN)**
-
-```yaml
-interpreted_phenome:
-  id: PH003                    # registry id from phenome-registry.json
-  name: Emotional Regulation   # must match registry name exactly
-interpretation_lens: string    # short BRS-specific lens, e.g. "BRS1 monoaminergic precursor, transport, and signalling context"
-```
-
-`use_case` remains a concise phenotype framing string; `interpreted_phenome` + `interpretation_lens` tie the page to the Phenome Registry.
-
-**§1 Definition** — describe the **phenotype pattern** (emotional reactivity, affective instability, stress responsiveness, sensory overwhelm, etc.), not a neurotransmitter or PM pathway. Therapeutic-area context (e.g. ADHD prevalence of emotional dysregulation) may appear briefly with phenotype-relevant citations; mechanism detail belongs on PM pages.
-
-**§2 Phenome Connections** — link to the registry phenome (`/docs/phenomes/index#<id>`). State that this page is **one interpretation lens** on that phenome. Use a single `<details>` dropdown per interpreted phenome with confidence, evidence level, translational rationale, and key references — **do not** duplicate PM `phenome_relationships` prose or list every connected PM.
-
-**§4 Primary Biological Effects** — directional summary oriented to **phenotype regulation** (reactivity, stability, tolerance, control), not transmitter synthesis pathways.
-
-**§5 Mechanistic Basis** — `### Summary` must open with the **emergent-phenotype framing** (multi-system phenotype, host BRS contributes one component). Use `<details>` for interpretation-layer bullets that **link to connected PMs** in one or two sentences each. **Do not** explain serotonin biology, tryptophan metabolism, LNAA transport, or other PM-owned pathways in detail — those belong on PM1–PM4 (or relevant host PMs).
-
-**§6.3 / §6.4** — bullet lists for host-BRS `connected_pms` / `connected_fms` only.
-
-**§6.5 Connected Mechanisms** — **recommended** when the phenotype is materially influenced by other BRS domains. Brief paragraph-led cross-links to **specific PM pages** on BRS3, BRS5, BRS6, etc. Do not explain those systems in PM depth.
-
-**Reference implementation:** `docs/biological-targets/brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation.mdx`.
 - **SM-CROSS** — cross-system interpretive concepts spanning multiple BRS domains simultaneously, not naturally owned by a single PM or FM
 
 SM-CROSS pages are **not** bounded mechanisms and **not** phenotype pages. They explain **cross-system biological concepts** that influence or connect multiple BRS domains (e.g. histaminergic arousal and neuroimmune crosstalk spanning BRS1, BRS3, BRS5, BRS6).
@@ -104,7 +72,7 @@ SM-CROSS pages are **not** bounded mechanisms and **not** phenotype pages. They 
 A page should use `sm_category: SM-CROSS` **only if both** conditions are met:
 
 1. **Multi-BRS span** — The concept **materially spans ≥ 2 BRS domains** (not a passing mention of another BRS; the interpretive story requires placement across domains).
-2. **No single PM/FM owner** — The concept **cannot be naturally owned by a single PM or FM** (if one PM or FM already defines the biology cleanly, extend that page or use `SM-PHEN` / `SM-SNP` on the host BRS instead).
+2. **No single PM/FM owner** — The concept **cannot be naturally owned by a single PM or FM** (if one PM or FM already defines the biology cleanly, extend that page or use `SM-SNP` on the host BRS instead).
 
 **Pass examples:** histaminergic arousal and neuroimmune crosstalk (BRS1 + BRS3 + BRS5 + BRS6 crossover); future candidates such as endocannabinoid signalling context or stress adaptation / allostatic load when genuinely multi-domain.
 
@@ -114,7 +82,8 @@ A page should use `sm_category: SM-CROSS` **only if both** conditions are met:
 |-----------|--------|
 | Biology fits one PM | That **PM** page (or expand it) |
 | Biology fits one FM’s integrated state | That **FM** page |
-| Single-BRS phenotype or variant pattern | **`SM-PHEN`** or **`SM-SNP`** on the host BRS |
+| Single-BRS variant pattern | **`SM-SNP`** on the host BRS |
+| Functional phenotype interpretation | **Phenome Registry** + PM/FM phenome mappings |
 | Therapeutic-area framing only | **BRS hub** rationale sections |
 
 If only one condition holds (e.g. spans two BRSs but one PM already owns the mechanism), **do not** classify as SM-CROSS.
@@ -123,7 +92,7 @@ SMs must remain mechanistically grounded in connected PMs, FMs, and KCs. They mu
 
 ### Retired category: SM-ADHD
 
-`SM-ADHD` is **not** a valid category. Do not create new SM-ADHD pages. Existing therapeutic-area content should live on BRS hubs or be reclassified as `SM-PHEN` (genuine phenotype) or `SM-CROSS` (multi-BRS interpretive concept).
+`SM-ADHD` is **not** a valid category. Do not create new SM-ADHD pages. Existing therapeutic-area content should live on BRS hubs or be reclassified as `SM-CROSS` (multi-BRS interpretive concept) when appropriate; phenotype framing belongs in the Phenome Registry.
 
 ### BRS-X cross-system layer
 
@@ -135,9 +104,9 @@ Genuinely cross-system biological networks that span multiple BRS domains and ca
 
 ```yaml
 title: string
-sm_id: string                    # e.g. "BRS1(SM-PHEN1)" or "BRS1(SM-CROSS1)"
-sm_category: string               # SM-SNP | SM-PHEN | SM-CROSS
-use_case: string                  # short phenotype / variant / cross-system framing
+sm_id: string                    # e.g. "BRS1(SM-CROSS1)" or "BRS1(SM-SNP1)"
+sm_category: string               # SM-SNP | SM-CROSS
+use_case: string                  # short variant / cross-system framing
 parent_brs: string                # e.g. "BRS1" (host BRS for the page)
 summary: string                   # <=120 words
 connected_pms:
@@ -161,8 +130,6 @@ hide_title: true
 
 Optional PM-compatible fields: `intervention_dominance`, `dose_sensitivity`, `mechanistic_authoring_required`, `key_constraints`, `cofactors`.
 
-**SM-PHEN only:** `interpreted_phenome` (`id`, `name`) and `interpretation_lens` — see [SM-PHEN pages (phenome interpretation layer)](#sm-phen-pages-phenome-interpretation-layer).
-
 SMs do **not** use `parent_fm` or `pm_id` — use `connected_*` lists instead.
 
 ## SM category (required)
@@ -170,8 +137,9 @@ SMs do **not** use `parent_fm` or `pm_id` — use `connected_*` lists instead.
 One of:
 
 - `SM-SNP` — variant-sensitive interpretation
-- `SM-PHEN` — phenotype-sensitive interpretation
 - `SM-CROSS` — cross-system interpretive concepts that pass the [SM-CROSS test](#sm-cross-test-qualification-gate) (≥ 2 BRS domains; no single PM/FM owner)
+
+`SM-PHEN` is retired — use the Phenome Registry instead.
 
 **§3 Intervention Breakdown** in the public body contains **only** the `intervention_breakdown` value (same as PM pages), for example:
 
@@ -211,7 +179,7 @@ First body line: `## <SM_ID> - <title>` (level `##`, not `#` or `###`).
 
 Timing: `timing_specific` in front matter only; discuss timing in Primary Biological Effects, Mechanistic Basis, §4.3 Lifestyle Levers, or Scoreable when relevant.
 
-### Legacy Profile A — `SM-SNP` / `SM-PHEN` (until migrated)
+### Legacy Profile A — `SM-SNP` (until migrated)
 
 1. Definition
 2. Phenome Connections
@@ -229,7 +197,7 @@ Timing: `timing_specific` in front matter only; discuss timing in Primary Biolog
 ### When required
 
 - **`SM-CROSS` (Profile A):** `### 6.2` is **required** when the interpretive concept spans more than one BRS domain.
-- **`SM-SNP` / `SM-PHEN` (legacy):** `### 6.5` is **optional**; use when cross-BRS PM context materially clarifies the interpretation (e.g. COMT cross-talk to BRS1, methylation to BRS3).
+- **`SM-SNP` (legacy):** `### 6.5` is **optional**; use when cross-BRS PM context materially clarifies the interpretation (e.g. COMT cross-talk to BRS1, methylation to BRS3).
 
 ### Relationship to other §6 subsections (SM-CROSS Profile A)
 
@@ -239,7 +207,7 @@ Timing: `timing_specific` in front matter only; discuss timing in Primary Biolog
 | **§6.2 Connected BRS Mechanisms** | **Narrative** cross-domain placement: prose paragraphs (and optional `####` subheads) with **inline markdown links to specific PM pages**. |
 | **§6.3 Connected Primary Mechanisms** | Bullet list of host FMs + connected PMs from front matter. |
 
-### Relationship to other §6 subsections (legacy SM-SNP / SM-PHEN)
+### Relationship to other §6 subsections (legacy SM-SNP)
 
 | Subsection | Purpose |
 |------------|---------|

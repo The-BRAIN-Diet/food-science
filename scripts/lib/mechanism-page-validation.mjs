@@ -47,7 +47,7 @@ const LEGACY_INTERVENTION_BREAKDOWN_HEADING = /^##\s+3\.\s+Intervention Breakdow
 const ANY_INTERVENTION_SECTION_HEADING = /^##\s+\d+\.\s+Intervention (Summary|Breakdown)\s*$/m;
 const LEVERS_SECTION_HEADING = /^##\s+4\.\s+Levers\s*$/m;
 
-export const SM_CATEGORY_VALUES = new Set(["SM-SNP", "SM-PHEN", "SM-CROSS"]);
+export const SM_CATEGORY_VALUES = new Set(["SM-SNP", "SM-CROSS"]);
 
 const TIMING_BODY_HEADING = /^##\s+\d+\.\s+Timing Specific\s*$/m;
 
@@ -1200,7 +1200,7 @@ function validateSmCategoryFrontMatter(data, content, issues, { entityLabel }) {
     pushIssue(
       issues,
       "invalid_sm_category",
-      `${entityLabel}: sm_category must be one of SM-SNP, SM-PHEN, SM-CROSS`,
+      `${entityLabel}: sm_category must be one of SM-SNP, SM-CROSS`,
     );
   }
   const useCase = data.use_case;

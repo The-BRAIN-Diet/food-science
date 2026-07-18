@@ -174,24 +174,6 @@ const UPDATES = {
     heading: "## 1. Definition",
     nextHeading: "## 2. Phenome Connections",
   },
-  "brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation.mdx": {
-    definition: `Helps interpret sensory overwhelm, reactivity, and difficulty maintaining inhibitory control when excitatory–inhibitory balance is under strain. Connected BRS1 mechanisms may support regulatory stability through meal and dietary patterns.
-
-* Frames sensory overwhelm as a pattern linked to excitation–inhibition strain — within BRS1.
-* Connects GABA–glutamate biology to regulatory stability without diagnostic claims — within BRS1.
-* Supports diet-pattern interpretation for inhibitory tone and excitatory clearance — within BRS1.`,
-    heading: "## 1. Definition",
-    nextHeading: "## 2. Phenome Connections",
-  },
-  "brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation.mdx": {
-    definition: `Helps interpret patterns of emotional reactivity, affective instability, and difficulty maintaining emotional control under stress — a major but often underacknowledged dimension of ADHD. Emotional dysregulation is a functional phenotype pattern, not a single neurotransmitter pathway.
-
-* Interprets emotional reactivity as a phenotype spanning multiple monoaminergic pathways — within BRS1.
-* Links serotonergic and noradrenergic biology to affective stability context — within BRS1.
-* Avoids reducing emotional dysregulation to a single neurotransmitter model — within BRS1.`,
-    heading: "## 1. Definition",
-    nextHeading: "## 2. Phenome Connections",
-  },
   "brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk.mdx": {
     definition: `Helps interpret how wakefulness, vigilance, and attentional readiness are influenced by histamine — a brain arousal signal that also responds to immune, gut, and circadian inputs. Understanding this cross-system biology helps read attention and sleep–wake patterns in context.
 

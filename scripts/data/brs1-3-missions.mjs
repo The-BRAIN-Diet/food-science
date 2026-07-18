@@ -26,10 +26,6 @@ export const BRS1_3_MISSIONS = {
     "Interpret how COMT-related genetic variation may change sensitivity to catecholamine clearance and noradrenergic arousal.",
   "brs1/sm/brs1-sm-snp2-apoe4-omega-3-brain-delivery-sensitivity.mdx":
     "Interpret how APOE4 carriage may alter expected brain omega-3 delivery without changing underlying membrane biology.",
-  "brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation.mdx":
-    "Interpret sensory overwhelm and inhibitory-control strain through connected excitation–inhibition biology.",
-  "brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation.mdx":
-    "Interpret emotional reactivity patterns through monoaminergic biology without reducing them to a single transmitter.",
   "brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk.mdx":
     "Interpret wakefulness and attentional readiness through histamine biology spanning neural, immune, gut, and circadian inputs.",
   // BRS2 PMs

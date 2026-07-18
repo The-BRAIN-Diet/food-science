@@ -20,7 +20,7 @@ It is derived from the PM specification and enforces one-to-one FM ownership.
 
 ## Related: Specific Mechanisms (SM)
 
-SM pages reuse this schema’s **Profile A extended** rendering contract (section order, collapsibles, scoreable table, timing front matter). See `system/specific-mechanism-schema.md`. SMs are interpretation layers (`SM-SNP`, `SM-PHEN`, `SM-CROSS`) — not additional PM ontology.
+SM pages reuse this schema’s **Profile A extended** rendering contract (section order, collapsibles, scoreable table, timing front matter). See `system/specific-mechanism-schema.md`. SMs are interpretation layers (`SM-SNP`, `SM-CROSS`) — not additional PM ontology. `SM-PHEN` is retired in favour of the Phenome Registry.
 
 ## Scope
 

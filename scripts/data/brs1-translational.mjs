@@ -212,30 +212,6 @@ export const BRS1_UPDATES = {
       "Supports phospholipid-carrier and choline context when interpreting delivery efficiency — Supporting BRS2.",
     ],
   },
-  "brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation.mdx": {
-    functional_descriptor: "(Sensory Overwhelm & Inhibitory Control Patterns)",
-    translational:
-      "Helps interpret sensory overwhelm, reactivity, and difficulty maintaining inhibitory control when excitatory–inhibitory balance is under strain. Connected BRS1 mechanisms may support regulatory stability through meal and dietary patterns.",
-    scientific:
-      "This SM frames excitatory–inhibitory stability at the phenotype level — linking connected PMs and FMs to sensory regulation patterns without offering a diagnostic label or deterministic outcome.",
-    bullets: [
-      "Frames sensory overwhelm as a pattern linked to excitation–inhibition strain — within BRS1.",
-      "Connects GABA–glutamate biology to regulatory stability without diagnostic claims — within BRS1.",
-      "Supports diet-pattern interpretation for inhibitory tone and excitatory clearance — within BRS1.",
-    ],
-  },
-  "brs1/sm/brs1-sm-phen2-emotional-dysregulation-monoaminergic-interpretation.mdx": {
-    functional_descriptor: "(Reading Emotional Reactivity Through Monoamine Biology)",
-    translational:
-      "Helps interpret patterns of emotional reactivity, affective instability, and difficulty maintaining emotional control under stress — a major but often underacknowledged dimension of ADHD. Emotional dysregulation is a functional phenotype pattern, not a single neurotransmitter pathway.",
-    scientific:
-      "Monoaminergic systems may contribute to this phenotype, but emotional dysregulation is not reducible to one transmitter. BRS1(SM-PHEN2) connects phenotype interpretation to monoaminergic biology on FM1 PMs; detailed mechanism biology belongs on those PM pages. This page does not assert biomarkers, diagnoses, or treatment efficacy.",
-    bullets: [
-      "Interprets emotional reactivity as a phenotype spanning multiple monoaminergic pathways — within BRS1.",
-      "Links serotonergic and noradrenergic biology to affective stability context — within BRS1.",
-      "Avoids reducing emotional dysregulation to a single neurotransmitter model — within BRS1.",
-    ],
-  },
   "brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk.mdx": {
     functional_descriptor: "(Wakefulness, Attention & Immune–Gut Crosstalk)",
     translational:
