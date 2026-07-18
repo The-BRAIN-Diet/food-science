@@ -323,7 +323,7 @@ Mirror ECS/Hormones hub: `docs/biological-targets/brs-x/ecs/endocannabinoid-syst
 | Cortisol PM4 owner | BRS6 (unchanged) |
 | NAD clock refs owner | BRS4 PM2 authoritative; BRS-X FM2-PM4 interpretive |
 | Exercise/stress/caffeine | Modulator paragraph only |
-| ADHD genetics | Hub dropdown / SM-PHEN later |
+| ADHD genetics | Hub dropdown / SM-SNP later |
 
 ---
 

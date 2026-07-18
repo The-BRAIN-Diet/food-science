@@ -13,7 +13,6 @@ import {
   BRS1_FM_PHASE3_SCORES,
   BRS1_SINGLE_PM_FM,
 } from "./data/brs1-phase3-phenome-scores.mjs";
-import { BRS1_SM_PHEN_SCORES } from "./data/brs1-sm-phen-scores.mjs";
 
 const rootDir = process.cwd();
 const brs1Dir = path.join(rootDir, "docs/biological-targets/brs1");
@@ -60,15 +59,7 @@ function applyPmScores(filePath, pmId) {
 }
 
 function applyFmScores(filePath, fmId) {
-  let scores = BRS1_FM_PHASE3_SCORES[fmId];
-  if (!scores && BRS1_SINGLE_PM_FM[fmId]) {
-    const pmId = BRS1_SINGLE_PM_FM[fmId];
-    scores = BRS1_PM_PHASE3_SCORES[pmId]?.map(({ phenome, confidence, evidence_confidence }) => ({
-      phenome,
-      confidence,
-      evidence_confidence,
-    }));
-  }
+  const scores = BRS1_FM_PHASE3_SCORES[fmId] || BRS1_SINGLE_PM_FM[fmId];
   if (!scores) return false;
 
   const raw = fs.readFileSync(filePath, "utf8");
@@ -85,7 +76,7 @@ function applyFmScores(filePath, fmId) {
     if (!score) return row;
     const next = { ...row };
     for (const key of ["confidence", "evidence_confidence"]) {
-      if (next[key] !== score[key]) {
+      if (score[key] != null && next[key] !== score[key]) {
         next[key] = score[key];
         changed = true;
       }
@@ -99,47 +90,8 @@ function applyFmScores(filePath, fmId) {
   return true;
 }
 
-function applySmPhenScores(filePath, smId) {
-  const scores = BRS1_SM_PHEN_SCORES[smId];
-  if (!scores) return false;
-
-  const raw = fs.readFileSync(filePath, "utf8");
-  const { data, content } = matter(raw);
-  let changed = false;
-  const next = { ...data };
-
-  if (next.interpretation_lens !== scores.interpretation_lens) {
-    next.interpretation_lens = scores.interpretation_lens;
-    changed = true;
-  }
-
-  const current = next.interpreted_phenome || {};
-  const target = scores.interpreted_phenome;
-  const merged = { ...current };
-  for (const key of [
-    "id",
-    "name",
-    "relationship_type",
-    "confidence",
-    "evidence_confidence",
-    "rationale",
-    "references",
-  ]) {
-    if (JSON.stringify(merged[key]) !== JSON.stringify(target[key])) {
-      merged[key] = target[key];
-      changed = true;
-    }
-  }
-  next.interpreted_phenome = merged;
-
-  if (!changed) return false;
-  fs.writeFileSync(filePath, matter.stringify(content, next, { lineWidth: 9999 }));
-  return true;
-}
-
 let pmUpdated = 0;
 let fmUpdated = 0;
-let smUpdated = 0;
 
 for (const filePath of walkMdx(brs1Dir)) {
   const { data } = matter(fs.readFileSync(filePath, "utf8"));
@@ -155,19 +107,11 @@ for (const filePath of walkMdx(brs1Dir)) {
       console.log(`  FM ${data.fm_id}`);
     }
   }
-  if (data.sm_id && BRS1_SM_PHEN_SCORES[data.sm_id]) {
-    if (applySmPhenScores(filePath, data.sm_id)) {
-      smUpdated++;
-      console.log(`  SM ${data.sm_id}`);
-    }
-  }
 }
 
-console.log(
-  `\nBRS1 Phase 3 scores: ${pmUpdated} PM(s), ${fmUpdated} FM(s), ${smUpdated} SM-PHEN(s) updated`,
-);
+console.log(`\nBRS1 Phase 3 scores: ${pmUpdated} PM(s), ${fmUpdated} FM(s) updated`);
 
-if (pmUpdated + fmUpdated + smUpdated > 0) {
+if (pmUpdated + fmUpdated > 0) {
   console.log("\nRunning phenome:sync …");
   execSync("node scripts/migrate-phenome-section.mjs --sync", { cwd: rootDir, stdio: "inherit" });
   console.log("Running phenome:index …");

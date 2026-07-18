@@ -84,7 +84,10 @@ Specific Mechanisms are **interpretation layers** — context-specific readings 
 ### SM categories (valid)
 
 - **SM-SNP** — variant-sensitive interpretation (e.g. COMT, MTHFR, DAO, PEMT)
-- **SM-PHEN** — phenotype-sensitive interpretation (e.g. emotional dysregulation, hyperarousal, histamine sensitivity)
+- **SM-SNP** — variant-sensitive interpretation (e.g. COMT, MTHFR, DAO, PEMT)
+- **SM-CROSS** — multi-BRS interpretive concepts that cannot be owned by a single PM/FM
+
+`SM-PHEN` is retired; phenotype interpretation belongs in the Phenome Registry.
 - **SM-CROSS** — cross-system biological concepts that pass the **SM-CROSS test** (≥ 2 BRS domains **and** no natural single PM/FM owner; e.g. histaminergic arousal and neuroimmune crosstalk)
 
 ### Rules

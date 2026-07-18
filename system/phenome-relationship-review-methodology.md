@@ -860,7 +860,7 @@ Reject or leave empty when validation fails — prefer **empty §3** over a weak
 | SM category | Phenome approach |
 |-------------|------------------|
 | **SM-CROSS** (PM-canonical layout) | `phenome_relationships` — same Phase 1 PM workflow; emphasise connected PM phenomes + cross-system ADHD framing |
-| **SM-PHEN** | `interpreted_phenome` + lens narrative — one registry phenome; do not duplicate PM dropdown sets |
+| **Phenome Registry** | Registry phenome detail + PM/FM mappings — do not recreate as SM-PHEN pages |
 | **SM-SNP** | Phenome layer per `specific-mechanism-schema.md`; defer bulk review until PM pilot complete |
 
 SM edges are not yet indexed in `phenome-relationships.generated.json` (PM-only index today). SM front matter is still the authoring source for SM §3.

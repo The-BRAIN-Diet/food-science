@@ -678,7 +678,7 @@ Maintains stress-inflammation and metabolic load allocation by coordinating meta
 
 ## Specific Mechanisms
 
-Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS6 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), **SM-Pattern** (e.g. vegan, vegetarian, ketogenic), and **SM-Phenotype** (e.g. hyperarousal, emotional dysregulation, sensory regulation). Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
+Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS6 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-CROSS** (multi-BRS interpretive concepts), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), and **SM-Pattern** (e.g. vegan, vegetarian, ketogenic). Functional phenotype interpretation is handled via the [Phenome Registry](/docs/phenomes/) rather than SM-PHEN pages. Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
 
 ---
 
