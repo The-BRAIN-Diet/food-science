@@ -11,6 +11,7 @@ tags:
   - Fibre
   - Potassium
   - Polyphenol
+  - Delphinidin
 list_image: /img/foods/aubergine/aubergine_thumb.webp
 nutrition_per_100g:
   kcal: 25
@@ -46,12 +47,12 @@ legacy_main_image: /img/foods/aubergine/aubergine_medium.webp
 ---
 ## Overview
 
-Aubergine (eggplant) provides **anthocyanin** pigments (notably nasunin in the peel) and fibre at low energy density, contributing polyphenol diversity within plant-forward dietary patterns [1]. Carotenoid and polyphenol bioactives from vegetables participate in antioxidant and anti-inflammatory networks relevant to brain health [1].
+Aubergine (eggplant) provides **anthocyanin** pigments (notably nasunin (a [Delphinidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/delphinidin) backbone)) and fibre at low energy density, contributing polyphenol diversity within plant-forward dietary patterns [1]. Carotenoid and polyphenol bioactives from vegetables participate in antioxidant and anti-inflammatory networks relevant to brain health [1].
 
 Within the BRAIN Diet framework, aubergine is a low-calorie vegetable used for fibre and polyphenol variety; food-derived phenolics can shape gut microbiota composition and metabolite profiles that intersect with neurotransmitter biology [2].
 ## Key Nutritional Highlights
 
-- Peel anthocyanins (e.g. nasunin) contribute antioxidant interest at seasoning-to-side-dish portions [1].
+- Peel anthocyanins (e.g. nasunin; Delphinidin backbone) contribute antioxidant interest at seasoning-to-side-dish portions [1].
 - Low energy density with meaningful fibre per 100 g; typical culinary portions are smaller than table values imply.
 - Polyphenol-class vegetable supporting diverse plant-food intake rather than a single-nutrient role [2].
 - Pairs with dietary fat in mixed meals to support absorption of co-ingested fat-soluble phytonutrients [1].

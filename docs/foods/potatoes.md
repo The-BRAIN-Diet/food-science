@@ -11,6 +11,7 @@ tags:
   - Potassium
   - Vitamin B6
   - Vitamin C
+  - Cyanidin
 list_image: /img/foods/potatoes/potatoes_thumb.webp
 nutrition_per_100g:
   iron_mg: 0.73
@@ -39,7 +40,7 @@ legacy_main_image: /img/foods/potatoes/potatoes_medium.webp
 ---
 ## Overview
 
-Potatoes provide complex carbohydrates, potassium, vitamin B6, and vitamin C. Their functional profile changes meaningfully by preparation and variety: cooked-then-cooled potatoes increase resistant starch through retrogradation, while purple potato varieties contribute anthocyanins (including C3G-related compounds) that are relevant to polyphenol-focused dietary patterns.
+Potatoes provide complex carbohydrates, potassium, vitamin B6, and vitamin C. Their functional profile changes meaningfully by preparation and variety: cooked-then-cooled potatoes increase resistant starch through retrogradation, while purple potato varieties contribute anthocyanins (including C3G-related compounds; [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin) backbone) that are relevant to polyphenol-focused dietary patterns.
 
 In practical terms, potatoes can serve both glycaemic stability and polyphenol diversity goals when used intentionally: cooling after cooking supports resistant starch formation and lower post-prandial glycaemic response, and including purple varieties broadens anthocyanin exposure [1][2].
 ## Key Nutritional Highlights
@@ -61,7 +62,7 @@ In practical terms, potatoes can serve both glycaemic stability and polyphenol d
 
 ### Variety-Specific Properties
 
-- Purple potato varieties provide anthocyanins (including C3G-related compounds), adding a polyphenol dimension beyond standard white/yellow potatoes.
+- Purple potato varieties provide anthocyanins (including C3G-related compounds; [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin) backbone), adding a polyphenol dimension beyond standard white/yellow potatoes.
 - Anthocyanin-rich potato inclusion can be used as part of a broader strategy for color-diverse polyphenol intake.
 
 ## Recipes

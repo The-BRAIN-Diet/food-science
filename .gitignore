@@ -26,5 +26,8 @@ manuscript/**/*.docx
 # Temporary artifacts produced during DOCX generation
 .tmp-docx-lib/
 
+# Local food-audit LaunchAgent logs / prompts
+.food-audit-logs/
+
 # Source/original image assets (keep repo lean)
 static/img/foods/originals/

@@ -183,16 +183,6 @@ export const BRS4_PM_PHENOME = {
         "ADHD mitochondrial dysfunction reviews describe substrate-flexibility strain when oxidative phosphorylation is impaired — ketone utilisation is an indirect alternative-fuel pathway node without ADHD ketone-intervention outcomes in the hub set.",
       references: [ref(1, "Öğütlü et al. (2022)", "ogutlu_mitochondrial_2023")],
     }),
-    row({
-      target_phenome: "Metabolic Resilience",
-      relationship_type: "indirect",
-      confidence: "low",
-      evidence_confidence: "low",
-      evidence_level: "mechanistic",
-      rationale:
-        "Capacity to oxidise ketone bodies may contribute to metabolic adaptability when glucose/fat routing is constrained — framework translation from ADHD bioenergetic reviews rather than direct resilience-outcome measurement.",
-      references: [ref(1, "Öğütlü et al. (2022)", "ogutlu_mitochondrial_2023")],
-    }),
   ],
   "brs4-fm3-pm8-metabolic-fuel-switching": [
     row({
@@ -205,16 +195,6 @@ export const BRS4_PM_PHENOME = {
         "Narrative synthesis of ADHD mitochondrial biomarker and oxidative-stress literature supports fuel-switching flexibility as a modifiable bioenergetic context when respiration is compromised — direct ADHD fuel-switching outcome trials remain limited.",
       references: [ref(1, "Öğütlü et al. (2022)", "ogutlu_mitochondrial_2023")],
     }),
-    row({
-      target_phenome: "Energy Stability Under Variable Fuel Conditions",
-      relationship_type: "indirect",
-      confidence: "low",
-      evidence_confidence: "low",
-      evidence_level: "mechanistic",
-      rationale:
-        "Metabolic fuel switching governs steadiness of ATP supply across changing macronutrient availability — indirect phenome mapping from ADHD mitochondrial dysfunction framing without measured variable-fuel outcome studies.",
-      references: [ref(1, "Öğütlü et al. (2022)", "ogutlu_mitochondrial_2023")],
-    }),
   ],
   "brs4-fm4-pm9-mitochondrial-biogenesis": [
     row({
@@ -224,18 +204,6 @@ export const BRS4_PM_PHENOME = {
       evidence_level: "mechanistic",
       rationale:
         "ADHD mitophagy and mitochondrial quality-control reviews link biogenesis/adaptation biology to long-term energetic restoration after repeated metabolic demand — diet and training provide permissive substrate context; direct ADHD biogenesis-outcome trials remain sparse.",
-      references: [
-        ref(1, "Almutairi et al. (2024)", "almutairi_mitophagy_adhd_2024"),
-        ref(2, "Öğütlü et al. (2022)", "ogutlu_mitochondrial_2023"),
-      ],
-    }),
-    row({
-      target_phenome: "Metabolic Resilience",
-      confidence: "low-medium",
-      evidence_confidence: "low-medium",
-      evidence_level: "mechanistic",
-      rationale:
-        "Expanded mitochondrial density and adaptive remodelling may support metabolic resilience when baseline ADHD mitochondrial function is strained — synthesised from ADHD-specific mitochondrial biomarker and mitophagy literature.",
       references: [
         ref(1, "Almutairi et al. (2024)", "almutairi_mitophagy_adhd_2024"),
         ref(2, "Öğütlü et al. (2022)", "ogutlu_mitochondrial_2023"),

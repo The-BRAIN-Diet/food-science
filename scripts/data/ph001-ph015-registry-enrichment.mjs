@@ -257,8 +257,8 @@ export const PH001_PH015_REGISTRY_ENRICHMENT = {
     provenance: {
       frameworkOrigin: "BRAIN",
       developmentNote:
-        "Core Version 1 registry phenome for post-load functional restoration. Related to Stress Resilience (PH006) and Metabolic Resilience (PH007) but targets recovery trajectory rather than buffering or substrate flexibility alone.",
-      relatedPhenomeIds: ["PH006", "PH007"],
+        "Core Version 1 registry phenome for post-load functional restoration. Related to Stress Resilience (PH006) but targets recovery trajectory rather than buffering alone.",
+      relatedPhenomeIds: ["PH006"],
     },
     crossReferences: {
       rdoc_domains: ["Arousal and Regulatory Systems — recovery / homeostatic regulation"],
@@ -363,14 +363,15 @@ export const PH001_PH015_REGISTRY_ENRICHMENT = {
     },
   },
   PH007: {
+    status: "retired",
     evidence_confidence: "low-medium",
     evidence_confidence_note:
-      "Metabolic-flexibility and ketone-body reviews anchor the construct; ketone intervention human evidence supports substrate biology more than broad metabolic-resilience phenome endpoints.",
+      "Metabolic-flexibility and ketone-body reviews remain useful at BRS/integrated-regulation level; PH007 retired as a category error (adaptive capacity ≠ observable phenome).",
     provenance: {
       frameworkOrigin: "BRAIN",
       developmentNote:
-        "Core Version 1 registry phenome for maintaining function under changing metabolic demand. Overlaps conceptually with PH012/PH013 but emphasises systemic adaptive capacity rather than condition-specific energy stability labels.",
-      relatedPhenomeIds: ["PH012", "PH013"],
+        "Retired from the active Phenome Database: category error. Described an integrated biological regulatory capacity under changing metabolic demand (emergent allostatic/adaptive property of coordinated BRS1–6 performance), not an observable functional phenome. Evidence preserved at PM and Cross-BRS / integrated-regulation levels. Do not create a replacement phenome.",
+      relatedPhenomeIds: [],
     },
     crossReferences: {
       rdoc_domains: ["Arousal and Regulatory Systems — metabolic / physiological regulation"],
@@ -650,7 +651,7 @@ export const PH001_PH015_REGISTRY_ENRICHMENT = {
       frameworkOrigin: "BRAIN",
       developmentNote:
         "Core Version 1 registry phenome for energy stability when environmental and physiological conditions change. Near-duplicate review flag with PH013 (RF001) — fuel-substrate specificity reserved for PH013.",
-      relatedPhenomeIds: ["PH013", "PH007"],
+      relatedPhenomeIds: [],
     },
     crossReferences: {
       rdoc_domains: ["Arousal and Regulatory Systems — metabolic regulation"],
@@ -703,7 +704,7 @@ export const PH001_PH015_REGISTRY_ENRICHMENT = {
       frameworkOrigin: "BRAIN",
       developmentNote:
         "Core Version 1 registry phenome for ATP-linked supply when macronutrient/fuel context changes. Paired with PH012 under RF001 near-duplicate review — PH013 retains substrate-specific framing.",
-      relatedPhenomeIds: ["PH012", "PH007"],
+      relatedPhenomeIds: [],
     },
     crossReferences: {
       rdoc_domains: ["Arousal and Regulatory Systems — metabolic / substrate regulation"],

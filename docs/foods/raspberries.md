@@ -11,6 +11,8 @@ tags:
   - Vitamin C
   - Vitamin B9
   - Polyphenol
+  - Cyanidin
+  - Pelargonidin
 list_image: /img/foods/raspberries/raspberries_thumb.webp
 nutrition_per_100g:
   potassium_mg: 150
@@ -35,7 +37,7 @@ legacy_main_image: /img/foods/raspberries/raspberries_medium.webp
 ---
 ## Overview
 
-Raspberries provide polyphenols, fiber, and vitamin C, supporting antioxidant networks and gut health.
+Raspberries provide polyphenols—chiefly [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin)-based anthocyanins with [Pelargonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/pelargonidin) as a secondary backbone—plus fiber and vitamin C, supporting antioxidant networks and gut health.
 
 Within the BRAIN Diet framework, berries are mentioned as polyphenol-rich foods and are part of the Mediterranean diet pattern [1][2].
 ## Key Nutritional Highlights

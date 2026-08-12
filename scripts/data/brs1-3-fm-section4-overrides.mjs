@@ -28,7 +28,7 @@ At the integrated FM level, attention stability and emotional control depend on 
 
   "BRS2(FM1)": `Together, folate/B12 remethylation, betaine-dependent BHMT recycling, SAMe synthesis, and methionine-cycle flux operationalise BRS2(FM1) as a coordinated one-carbon methylation control point.
 
-At the integrated FM level, elevated homocysteine is interpreted as a marker of impaired one-carbon cycling, while dietary patterns supplying methyl donors, sulfur amino acids, and supportive omega-3 context may help support homocysteine modulation and overall methylation capacity [Collaboration, 1998; Tao Huang et al., 2015; Oulhaj et al., 2016].`,
+At the integrated FM level, cycle performance is interpreted as balanced methionine → SAM → SAH → remethylation/transsulfuration routing under changing demand. Homocysteine remains a useful junction readout of impaired one-carbon cycling, while dietary patterns supplying methyl donors and sulfur amino acids within protein/amino-acid balance — plus supportive omega-3 context — may help sustain methylation capacity without treating methionine as a nutrient to maximise [Collaboration, 1998; Chiang et al., 1996; Fanti et al., 2026; Oulhaj et al., 2016].`,
 
   "BRS2(FM2)": `Together, transsulfuration and glutathione synthesis operationalise BRS2(FM2) as a coordinated bridge between one-carbon metabolism and antioxidant defence.
 

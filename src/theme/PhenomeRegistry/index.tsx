@@ -216,9 +216,10 @@ export default function PhenomeRegistry(): React.ReactElement {
         of "phenome" than is used in the wider phenomics literature. Although phenomes may include
         physiological and metabolic characteristics, the purpose of this registry is to catalogue
         human functional outcomes that are meaningful within cognitive, behavioural and mental
-        health contexts. Biological capacities such as ATP production, fuel switching or
-        mitochondrial substrate flexibility remain important, but are represented within the
-        Biological Regulatory Systems rather than as standalone phenomes.
+        health contexts. Biological capacities such as ATP production, fuel switching,
+        mitochondrial substrate flexibility, or adaptive/allostatic metabolic resilience remain
+        important, but are represented as emergent properties of coordinated Biological Regulatory
+        Systems performance rather than as standalone phenomes.
       </p>
       <p>
         The registry is scoped to <strong>neuropsychiatric and neurocognitive health</strong>.

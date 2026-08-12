@@ -11,6 +11,11 @@ tags:
   - Vitamin C
   - Manganese
   - Polyphenol
+  - Cyanidin
+  - Delphinidin
+  - Malvidin
+  - Peonidin
+  - Petunidin
 list_image: /img/foods/blueberries/blueberries_thumb.webp
 nutrition_per_100g:
   kcal: 57
@@ -47,7 +52,7 @@ legacy_main_image: /img/foods/blueberries/blueberries_medium.webp
 ---
 ## Overview
 
-Blueberries are concentrated sources of **anthocyanins** and other berry polyphenols studied for vascular and cognitive endpoints, particularly in aging populations [1]. Human flavonoid interventions link higher dietary flavonoid intake to cognitive gains alongside shifts in serum brain-derived neurotrophic factor (BDNF) [2]. Within the BRAIN Diet, blueberries function as a **polyphenol-class food** that pairs with lifestyle levers—notably **exercise**, which induces hippocampal BDNF through exercise-linked metabolites such as β-hydroxybutyrate [3]—and with omega-3-rich dietary patterns that can also modulate neurotrophin biology [6].
+Blueberries are concentrated sources of **anthocyanins**—principally the [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin), [Delphinidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/delphinidin), [Malvidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/malvidin), [Peonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/peonidin), and [Petunidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/petunidin) backbones—and other berry polyphenols studied for vascular and cognitive endpoints, particularly in aging populations [1]. Human flavonoid interventions link higher dietary flavonoid intake to cognitive gains alongside shifts in serum brain-derived neurotrophic factor (BDNF) [2]. Within the BRAIN Diet, blueberries function as a **polyphenol-class food** that pairs with lifestyle levers—notably **exercise**, which induces hippocampal BDNF through exercise-linked metabolites such as β-hydroxybutyrate [3]—and with omega-3-rich dietary patterns that can also modulate neurotrophin biology [6].
 
 Blueberries also supply **quercetin** and related flavonols. Rodent work shows quercetin can increase mitochondrial biogenesis in brain and muscle and improve exercise tolerance—mechanistic context for nutrition–exercise coupling, though not a direct blueberry-and-BDNF human trial [4]. Polyphenol-rich diets are discussed as supporting endogenous antioxidant networks [5,7], and food-derived phenolics can influence gut microbiota composition and metabolite profiles [8].
 

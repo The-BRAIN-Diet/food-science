@@ -414,9 +414,7 @@
         "frameworkOrigin": "BRAIN",
         "developmentNote": "Core Version 1 registry phenome for mental energy stability across the day. Distinguished from Energy Stability Under Variable Conditions (PH012) and fuel-substrate phenome (PH013) as cognitive energy tone rather than metabolic supply mechanics.",
         "relatedPhenomeIds": [
-          "PH011",
-          "PH012",
-          "PH013"
+          "PH011"
         ]
       },
       "crossReferences": {
@@ -495,10 +493,9 @@
       "evidence_confidence_note": "Recovery biology spans redox, NAD⁺, and metabolic-flexibility reviews; human nutrition evidence is supportive but not recovery-phenome-specific RCTs.",
       "provenance": {
         "frameworkOrigin": "BRAIN",
-        "developmentNote": "Core Version 1 registry phenome for post-load functional restoration. Related to Stress Resilience (PH006) and Metabolic Resilience (PH007) but targets recovery trajectory rather than buffering or substrate flexibility alone.",
+        "developmentNote": "Core Version 1 registry phenome for post-load functional restoration. Related to Stress Resilience (PH006) but targets recovery trajectory rather than buffering or substrate flexibility alone.",
         "relatedPhenomeIds": [
-          "PH006",
-          "PH007"
+          "PH006"
         ]
       },
       "crossReferences": {
@@ -653,16 +650,13 @@
         "TA006",
         "TA007"
       ],
-      "status": "active",
+      "status": "retired",
       "evidence_confidence": "low-medium",
       "evidence_confidence_note": "Metabolic-flexibility and ketone-body reviews anchor the construct; ketone intervention human evidence supports substrate biology more than broad metabolic-resilience phenome endpoints.",
       "provenance": {
         "frameworkOrigin": "BRAIN",
-        "developmentNote": "Core Version 1 registry phenome for maintaining function under changing metabolic demand. Overlaps conceptually with PH012/PH013 but emphasises systemic adaptive capacity rather than condition-specific energy stability labels.",
-        "relatedPhenomeIds": [
-          "PH012",
-          "PH013"
-        ]
+        "developmentNote": "Retired from the active Phenome Database: category error. Described an integrated biological regulatory capacity under changing metabolic demand (emergent allostatic/adaptive property of coordinated BRS1–6 performance), not an observable functional phenome. Evidence preserved at PM and Cross-BRS / integrated-regulation levels. Do not create a replacement phenome.",
+        "relatedPhenomeIds": []
       },
       "crossReferences": {
         "rdoc_domains": [
@@ -1065,10 +1059,7 @@
       "provenance": {
         "frameworkOrigin": "BRAIN",
         "developmentNote": "Core Version 1 registry phenome for energy stability when environmental and physiological conditions change. Near-duplicate review flag with PH013 (RF001) — fuel-substrate specificity reserved for PH013.",
-        "relatedPhenomeIds": [
-          "PH013",
-          "PH007"
-        ]
+        "relatedPhenomeIds": []
       },
       "crossReferences": {
         "rdoc_domains": [
@@ -1146,10 +1137,7 @@
       "provenance": {
         "frameworkOrigin": "BRAIN",
         "developmentNote": "Core Version 1 registry phenome for ATP-linked supply when macronutrient/fuel context changes. Paired with PH012 under RF001 near-duplicate review — PH013 retains substrate-specific framing.",
-        "relatedPhenomeIds": [
-          "PH012",
-          "PH007"
-        ]
+        "relatedPhenomeIds": []
       },
       "crossReferences": {
         "rdoc_domains": [

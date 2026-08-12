@@ -1,23 +1,24 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-07-18T07:24:47.842Z",
+    "generatedAt": "2026-08-06T08:42:06.799Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
     "pmPageCount": 62,
     "pmPagesWithMappings": 62,
-    "relationshipCount": 162,
-    "mappedRelationshipCount": 162
+    "relationshipCount": 157,
+    "mappedRelationshipCount": 157
   },
   "diagnostics": {
     "registryPhenomeCount": 18,
-    "relationshipEdgeCount": 162,
-    "mappedEdgeCount": 162,
+    "relationshipEdgeCount": 157,
+    "mappedEdgeCount": 157,
     "unmappedPhenomeLabels": [],
     "labelsInEdgesNotInRegistry": [],
     "edgesMissingTargetPhenome": 0,
     "edgesWithNullPhenomeId": [],
+    "edgesToNonActivePhenomes": [],
     "duplicateRegistryNames": [],
     "orphanRegistryPhenomes": [],
     "reviewFlags": [
@@ -590,26 +591,26 @@
       "relationshipType": "modulates",
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
-      "evidenceLevel": "observational",
-      "rationale": "Elevated homocysteine linked to cognitive decline and degenerative dementias supports homocysteine as a readout of impaired one-carbon cycle throughput relevant to cognitive clarity context; cofactor combination effects on homocysteine illustrate pattern-based cycle flux rather than single-nutrient leverage. ADHD-specific cognitive-clarity outcomes on cycle flux remain indirect (biology > evidence gap).",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Balanced methionine-cycle flux sets methylation potential (SAM availability relative to SAH-mediated constraint) that supports phospholipid, neurotransmitter and broader methylation chemistry relevant to cognitive clarity. Homocysteine remains a useful junction readout of cycle strain, but the biology scored here is coordinated methionine → SAM → SAH → remethylation/transsulfuration flux rather than homocysteine lowering alone. Direct ADHD cognitive-clarity outcomes on integrated cycle flux remain limited (biology > evidence gap).",
       "references": [
         {
           "index": 1,
-          "label": "Luzzi et al. (2022)",
-          "citationKey": "luzzi_homocysteine_2022",
-          "href": "/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022"
+          "label": "Chiang et al. (1996)",
+          "citationKey": "chiang_s-adenosylmethionine_1996",
+          "href": "/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996"
         },
         {
           "index": 2,
-          "label": "Yu et al. (2020)",
-          "citationKey": "yu_evidence-based_2020",
-          "href": "/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020"
+          "label": "Aragão et al. (2024)",
+          "citationKey": "aragao_revitalising_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024"
         },
         {
           "index": 3,
-          "label": "Collaboration (1998)",
-          "citationKey": "collaboration_lowering_1998",
-          "href": "/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998"
+          "label": "Luzzi et al. (2022)",
+          "citationKey": "luzzi_homocysteine_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022"
         }
       ],
       "targetPhenomeId": "PH011"
@@ -2297,7 +2298,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "observational",
-      "rationale": "Elevated homocysteine reported in paediatric ADHD cohorts and unhealthy dietary patterns linked to lower B vitamins and ADHD burden support cycle throughput strain as translational context for attention-relevant one-carbon metabolism — homocysteine signals multi-step cycle strain, not isolated enzyme failure.",
+      "rationale": "Attention-relevant one-carbon biology depends on coordinated methyl-transfer capacity under daily demand, not only on remethylation of accumulated homocysteine. Cycle flux that keeps methionine adequacy, SAM-dependent methylation and downstream recycling aligned provides translational context for focus stability when dietary methyl-donor and sulfur-amino-acid patterns are strained. Homocysteine and B-vitamin associations in ADHD-relevant cohorts remain supportive readouts of multi-step cycle stress rather than proof that this PM alone determines attention.",
       "references": [
         {
           "index": 1,
@@ -2313,9 +2314,9 @@
         },
         {
           "index": 3,
-          "label": "Tao Huang et al. (2015)",
-          "citationKey": "tao_huang_effect_2015",
-          "href": "/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015"
+          "label": "Chiang et al. (1996)",
+          "citationKey": "chiang_s-adenosylmethionine_1996",
+          "href": "/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996"
         }
       ],
       "targetPhenomeId": "PH001"
@@ -2843,134 +2844,6 @@
         }
       ],
       "targetPhenomeId": "PH014"
-    },
-    {
-      "sourceNode": "BRS4-FM3-PM7",
-      "sourceTitle": "Ketone Utilisation Capacity",
-      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
-      "parentFM": "BRS4(FM3)",
-      "parentBRS": "BRS4",
-      "targetPhenome": "Metabolic Resilience",
-      "relationshipType": "indirect",
-      "confidence": "low",
-      "evidenceConfidence": "low",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Capacity to oxidise ketone bodies may contribute to metabolic adaptability when glucose/fat routing is constrained — framework translation from ADHD bioenergetic reviews rather than direct resilience-outcome measurement.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Öğütlü et al. (2022)",
-          "citationKey": "ogutlu_mitochondrial_2023",
-          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
-        }
-      ],
-      "targetPhenomeId": "PH007"
-    },
-    {
-      "sourceNode": "BRS4-FM3-PM8",
-      "sourceTitle": "Metabolic Fuel Switching",
-      "sourcePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
-      "parentFM": "BRS4(FM3)",
-      "parentBRS": "BRS4",
-      "targetPhenome": "Metabolic Resilience",
-      "relationshipType": "indirect",
-      "confidence": "low",
-      "evidenceConfidence": "low",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Metabolic fuel switching may support maintaining functional stability across changing macronutrient fuel availability — indirect phenome mapping from mitochondrial energy-adaptation framing without directly measured metabolic-resilience outcome studies.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Öğütlü et al. (2022)",
-          "citationKey": "ogutlu_mitochondrial_2023",
-          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
-        }
-      ],
-      "targetPhenomeId": "PH007"
-    },
-    {
-      "sourceNode": "BRS4-FM4-PM9",
-      "sourceTitle": "Mitochondrial Biogenesis",
-      "sourcePath": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis",
-      "parentFM": "BRS4(FM4)",
-      "parentBRS": "BRS4",
-      "targetPhenome": "Metabolic Resilience",
-      "relationshipType": "modulates",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Expanded mitochondrial density and adaptive remodelling may support metabolic resilience when baseline ADHD mitochondrial function is strained — synthesised from ADHD-specific mitochondrial biomarker and mitophagy literature.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Almutairi et al. (2024)",
-          "citationKey": "almutairi_mitophagy_adhd_2024",
-          "href": "/docs/papers/BRAIN-Diet-References#almutairi_mitophagy_adhd_2024"
-        },
-        {
-          "index": 2,
-          "label": "Öğütlü et al. (2022)",
-          "citationKey": "ogutlu_mitochondrial_2023",
-          "href": "/docs/papers/BRAIN-Diet-References#ogutlu_mitochondrial_2023"
-        }
-      ],
-      "targetPhenomeId": "PH007"
-    },
-    {
-      "sourceNode": "BRS6-FM1-PM3",
-      "sourceTitle": "Insulin Sensitivity & Glucose Disposal",
-      "sourcePath": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal",
-      "parentFM": "BRS6(FM1)",
-      "parentBRS": "BRS6",
-      "targetPhenome": "Metabolic Resilience",
-      "relationshipType": "modulates",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
-      "evidenceLevel": "observational",
-      "rationale": "Prevalence of metabolic syndrome and insulin resistance in adult ADHD outpatients positions insulin sensitivity and glucose disposal as metabolic-resilience nodes intersecting ADHD metabolic comorbidity.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Di Girolamo et al. (2022)",
-          "citationKey": "di_girolamo_prevalence_2022",
-          "href": "/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022"
-        },
-        {
-          "index": 2,
-          "label": "Marcelli et al. (2025)",
-          "citationKey": "marcelli_bridging_2025",
-          "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025"
-        }
-      ],
-      "targetPhenomeId": "PH007"
-    },
-    {
-      "sourceNode": "BRS6-FM4-PM8",
-      "sourceTitle": "Metabolic Inflammation & Adipose Stress Signalling",
-      "sourcePath": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling",
-      "parentFM": "BRS6(FM4)",
-      "parentBRS": "BRS6",
-      "targetPhenome": "Metabolic Resilience",
-      "relationshipType": "modulates",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
-      "evidenceLevel": "observational",
-      "rationale": "Metabolic syndrome and insulin resistance in adult ADHD outpatients and narrative review bridging ADHD with metabolic disorders position adipose-stress and metabolic-inflammation signalling as resilience-relevant nodes.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Di Girolamo et al. (2022)",
-          "citationKey": "di_girolamo_prevalence_2022",
-          "href": "/docs/papers/BRAIN-Diet-References#di_girolamo_prevalence_2022"
-        },
-        {
-          "index": 2,
-          "label": "Marcelli et al. (2025)",
-          "citationKey": "marcelli_bridging_2025",
-          "href": "/docs/papers/BRAIN-Diet-References#marcelli_bridging_2025"
-        }
-      ],
-      "targetPhenomeId": "PH007"
     },
     {
       "sourceNode": "BRS-X(ECS-PM1)",
@@ -4585,13 +4458,6 @@
       "BRS-X(Hormones-PM2)",
       "BRS-X(Hormones-PM4)"
     ],
-    "Metabolic Resilience": [
-      "BRS4-FM3-PM7",
-      "BRS4-FM3-PM8",
-      "BRS4-FM4-PM9",
-      "BRS6-FM1-PM3",
-      "BRS6-FM4-PM8"
-    ],
     "Motivation / Drive": [
       "BRS-X(ECS-PM1)",
       "BRS-X(ECS-PM4)",
@@ -4780,13 +4646,6 @@
     "PH014": [
       "BRS-X(Hormones-PM2)",
       "BRS-X(Hormones-PM4)"
-    ],
-    "PH007": [
-      "BRS4-FM3-PM7",
-      "BRS4-FM3-PM8",
-      "BRS4-FM4-PM9",
-      "BRS6-FM1-PM3",
-      "BRS6-FM4-PM8"
     ],
     "PH002": [
       "BRS-X(ECS-PM1)",
@@ -6039,7 +5898,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "observational",
         "overall_confidence": "high",
-        "evidence_summary": "Homocysteine lowering with folate and B12 cofactor combinations and B-vitamin cognitive effects contingent on omega-3 status (VITACOG reanalysis) support a nutrient-network read linking remethylation to cognitive clarity context. Framework translation from one-carbon biochemistry — attached refs establish homocysteine modulation and cognitive-decline interaction more than direct ADHD cognitive-clarity outcomes (biology > evidence gap). Betaine lowers homocysteine acutely and choline supports parallel remethylation and downstream membrane chemistry — an indirect framework translation to cognitive clarity through methyl-donor sufficiency rather than measured cognitive outcomes in ADHD cohorts. SAMe is the principal methyl donor linking methionine metabolism to phospholipid, neurotransmitter, and broader methylation chemistry — making methionine→SAMe flux a system-level bottleneck for cognitive-relevant methylation-dependent processes. Clinical framing of combined SAMe, folate, and B12 reinforces upstream cofactor dependency. Direct ADHD cognitive-clarity outcome trials on SAMe synthesis support remain limited (biology > evidence gap). Elevated homocysteine linked to cognitive decline and degenerative dementias supports homocysteine as a readout of impaired one-carbon cycle throughput relevant to cognitive clarity context; cofactor combination effects on homocysteine illustrate pattern-based cycle flux rather than single-nutrient leverage. ADHD-specific cognitive-clarity outcomes on cycle flux remain indirect (biology > evidence gap).",
+        "evidence_summary": "Homocysteine lowering with folate and B12 cofactor combinations and B-vitamin cognitive effects contingent on omega-3 status (VITACOG reanalysis) support a nutrient-network read linking remethylation to cognitive clarity context. Framework translation from one-carbon biochemistry — attached refs establish homocysteine modulation and cognitive-decline interaction more than direct ADHD cognitive-clarity outcomes (biology > evidence gap). Betaine lowers homocysteine acutely and choline supports parallel remethylation and downstream membrane chemistry — an indirect framework translation to cognitive clarity through methyl-donor sufficiency rather than measured cognitive outcomes in ADHD cohorts. SAMe is the principal methyl donor linking methionine metabolism to phospholipid, neurotransmitter, and broader methylation chemistry — making methionine→SAMe flux a system-level bottleneck for cognitive-relevant methylation-dependent processes. Clinical framing of combined SAMe, folate, and B12 reinforces upstream cofactor dependency. Direct ADHD cognitive-clarity outcome trials on SAMe synthesis support remain limited (biology > evidence gap). Balanced methionine-cycle flux sets methylation potential (SAM availability relative to SAH-mediated constraint) that supports phospholipid, neurotransmitter and broader methylation chemistry relevant to cognitive clarity. Homocysteine remains a useful junction readout of cycle strain, but the biology scored here is coordinated methionine → SAM → SAH → remethylation/transsulfuration flux rather than homocysteine lowering alone. Direct ADHD cognitive-clarity outcomes on integrated cycle flux remain limited (biology > evidence gap).",
         "contributing_pms": [
           {
             "id": "BRS2-FM1-PM1",
@@ -6071,7 +5930,7 @@
             "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux",
             "relationship_type": "modulates",
             "confidence": "low-medium",
-            "evidence_level": "observational"
+            "evidence_level": "mechanistic"
           }
         ]
       },
@@ -6099,7 +5958,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "observational",
         "overall_confidence": "medium",
-        "evidence_summary": "Lower folate and B12 and elevated homocysteine in paediatric ADHD cohorts support remethylation strain as a translational context for attention-relevant one-carbon biology; unhealthy dietary patterns linked to lower B vitamins and ADHD burden reinforce pattern-based interpretation. Biology → Phenome Confidence reflects pathway centrality to methylation-dependent neurodevelopment — not dietary treatment efficacy. Direct ADHD attention-outcome trials on folate/B12 remethylation remain limited (biology > evidence gap). Dietary patterns rich in folate, fibre, and methyl-donor nutrients associated with reduced ADHD symptoms intersect betaine/choline remethylation routes; choline implicated across neurodevelopmental disorders including ADHD. BHMT-mediated homocysteine clearance is established biochemistry — ADHD attention-outcome evidence for betaine supplementation specifically remains sparse (biology > evidence gap). Elevated homocysteine reported in paediatric ADHD cohorts and unhealthy dietary patterns linked to lower B vitamins and ADHD burden support cycle throughput strain as translational context for attention-relevant one-carbon metabolism — homocysteine signals multi-step cycle strain, not isolated enzyme failure.",
+        "evidence_summary": "Lower folate and B12 and elevated homocysteine in paediatric ADHD cohorts support remethylation strain as a translational context for attention-relevant one-carbon biology; unhealthy dietary patterns linked to lower B vitamins and ADHD burden reinforce pattern-based interpretation. Biology → Phenome Confidence reflects pathway centrality to methylation-dependent neurodevelopment — not dietary treatment efficacy. Direct ADHD attention-outcome trials on folate/B12 remethylation remain limited (biology > evidence gap). Dietary patterns rich in folate, fibre, and methyl-donor nutrients associated with reduced ADHD symptoms intersect betaine/choline remethylation routes; choline implicated across neurodevelopmental disorders including ADHD. BHMT-mediated homocysteine clearance is established biochemistry — ADHD attention-outcome evidence for betaine supplementation specifically remains sparse (biology > evidence gap). Attention-relevant one-carbon biology depends on coordinated methyl-transfer capacity under daily demand, not only on remethylation of accumulated homocysteine. Cycle flux that keeps methionine adequacy, SAM-dependent methylation and downstream recycling aligned provides translational context for focus stability when dietary methyl-donor and sulfur-amino-acid patterns are strained. Homocysteine and B-vitamin associations in ADHD-relevant cohorts remain supportive readouts of multi-step cycle stress rather than proof that this PM alone determines attention.",
         "contributing_pms": [
           {
             "id": "BRS2-FM1-PM1",
@@ -6526,32 +6385,6 @@
             "evidence_level": "intervention"
           }
         ]
-      },
-      {
-        "target_phenome": "Metabolic Resilience",
-        "connected_pm_count": 2,
-        "strongest_relationship_type": "indirect",
-        "highest_evidence_level": "mechanistic",
-        "overall_confidence": "low",
-        "evidence_summary": "Capacity to oxidise ketone bodies may contribute to metabolic adaptability when glucose/fat routing is constrained — framework translation from ADHD bioenergetic reviews rather than direct resilience-outcome measurement. Metabolic fuel switching may support maintaining functional stability across changing macronutrient fuel availability — indirect phenome mapping from mitochondrial energy-adaptation framing without directly measured metabolic-resilience outcome studies.",
-        "contributing_pms": [
-          {
-            "id": "BRS4-FM3-PM7",
-            "name": "Ketone Utilisation Capacity",
-            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity",
-            "relationship_type": "indirect",
-            "confidence": "low",
-            "evidence_level": "mechanistic"
-          },
-          {
-            "id": "BRS4-FM3-PM8",
-            "name": "Metabolic Fuel Switching",
-            "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching",
-            "relationship_type": "indirect",
-            "confidence": "low",
-            "evidence_level": "mechanistic"
-          }
-        ]
       }
     ],
     "BRS6(FM1)": [
@@ -6609,24 +6442,6 @@
             "id": "BRS6-FM1-PM2",
             "name": "Glycaemic Variability Regulation",
             "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation",
-            "relationship_type": "modulates",
-            "confidence": "low-medium",
-            "evidence_level": "observational"
-          }
-        ]
-      },
-      {
-        "target_phenome": "Metabolic Resilience",
-        "connected_pm_count": 1,
-        "strongest_relationship_type": "modulates",
-        "highest_evidence_level": "observational",
-        "overall_confidence": "low-medium",
-        "evidence_summary": "Prevalence of metabolic syndrome and insulin resistance in adult ADHD outpatients positions insulin sensitivity and glucose disposal as metabolic-resilience nodes intersecting ADHD metabolic comorbidity.",
-        "contributing_pms": [
-          {
-            "id": "BRS6-FM1-PM3",
-            "name": "Insulin Sensitivity & Glucose Disposal",
-            "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal",
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "observational"
@@ -6872,63 +6687,7 @@
         ]
       }
     ],
-    "BRS4(FM4)": [
-      {
-        "target_phenome": "Metabolic Resilience",
-        "connected_pm_count": 1,
-        "strongest_relationship_type": "modulates",
-        "highest_evidence_level": "mechanistic",
-        "overall_confidence": "low-medium",
-        "evidence_summary": "Expanded mitochondrial density and adaptive remodelling may support metabolic resilience when baseline ADHD mitochondrial function is strained — synthesised from ADHD-specific mitochondrial biomarker and mitophagy literature.",
-        "contributing_pms": [
-          {
-            "id": "BRS4-FM4-PM9",
-            "name": "Mitochondrial Biogenesis",
-            "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis",
-            "relationship_type": "modulates",
-            "confidence": "low-medium",
-            "evidence_level": "mechanistic"
-          }
-        ]
-      },
-      {
-        "target_phenome": "Recovery Capacity",
-        "connected_pm_count": 1,
-        "strongest_relationship_type": "modulates",
-        "highest_evidence_level": "mechanistic",
-        "overall_confidence": "low-medium",
-        "evidence_summary": "ADHD mitophagy and mitochondrial quality-control reviews link biogenesis/adaptation biology to long-term energetic restoration after repeated metabolic demand — diet and training provide permissive substrate context; direct ADHD biogenesis-outcome trials remain sparse.",
-        "contributing_pms": [
-          {
-            "id": "BRS4-FM4-PM9",
-            "name": "Mitochondrial Biogenesis",
-            "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis",
-            "relationship_type": "modulates",
-            "confidence": "low-medium",
-            "evidence_level": "mechanistic"
-          }
-        ]
-      }
-    ],
     "BRS6(FM4)": [
-      {
-        "target_phenome": "Metabolic Resilience",
-        "connected_pm_count": 1,
-        "strongest_relationship_type": "modulates",
-        "highest_evidence_level": "observational",
-        "overall_confidence": "low-medium",
-        "evidence_summary": "Metabolic syndrome and insulin resistance in adult ADHD outpatients and narrative review bridging ADHD with metabolic disorders position adipose-stress and metabolic-inflammation signalling as resilience-relevant nodes.",
-        "contributing_pms": [
-          {
-            "id": "BRS6-FM4-PM8",
-            "name": "Metabolic Inflammation & Adipose Stress Signalling",
-            "href": "/docs/biological-targets/brs6/fm4/brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling",
-            "relationship_type": "modulates",
-            "confidence": "low-medium",
-            "evidence_level": "observational"
-          }
-        ]
-      },
       {
         "target_phenome": "Motivation / Drive",
         "connected_pm_count": 1,
@@ -7105,6 +6864,26 @@
             "id": "BRS4-FM2-PM5",
             "name": "Mitochondrial Protection (Redox Integrity)",
             "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity",
+            "relationship_type": "modulates",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      }
+    ],
+    "BRS4(FM4)": [
+      {
+        "target_phenome": "Recovery Capacity",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "modulates",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "ADHD mitophagy and mitochondrial quality-control reviews link biogenesis/adaptation biology to long-term energetic restoration after repeated metabolic demand — diet and training provide permissive substrate context; direct ADHD biogenesis-outcome trials remain sparse.",
+        "contributing_pms": [
+          {
+            "id": "BRS4-FM4-PM9",
+            "name": "Mitochondrial Biogenesis",
+            "href": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis",
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"

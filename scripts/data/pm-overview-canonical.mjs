@@ -163,13 +163,13 @@ export const CANONICAL_PM_OVERVIEWS = {
   },
   "brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx": {
     mission:
-      "Sustain efficient methionine cycle throughput so homocysteine clearance and SAMe output stay coordinated.",
+      "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
     translational:
-      "Reflects how efficiently the whole methionine cycle runs as an integrated system (rather than any single reaction step), determining homocysteine clearance, SAMe output, and overall methylation capacity together. Effective throughput depends on coordinated substrate and cofactor sufficiency across folate, B12, and betaine-dependent routes rather than any one nutrient in isolation. When cycle flux slows, every downstream methylation-dependent pathway feels the constraint simultaneously.",
+      "Coordinates the methionine cycle as an integrated flux system: methionine availability → SAM synthesis → methyl transfer → SAH → homocysteine → remethylation or transsulfuration, rather than treating any single step as the goal. Methionine is an essential substrate whose adequacy enables SAM generation and downstream routing, while chronic excess is not assumed beneficial. Homocysteine is an important intermediate and practical readout of cycle strain, not the organising objective of this PM. Effective flux therefore depends on methionine adequacy within protein and amino-acid balance, methyl-donor and cofactor coverage, methylation demand, and coordinated routing between remethylation and transsulfuration.",
     bullets: [
-      "Determines homocysteine clearance and SAMe output as an integrated system.",
-      "Depends on coordinated substrate and cofactor sufficiency, not one nutrient alone.",
-      "Sets the pace at which downstream methylation pathways can run.",
+      "Balances methionine availability with SAM-dependent methylation and SAH-mediated constraint.",
+      "Treats homocysteine as a cycle junction and readout, not the biological endpoint.",
+      "Coordinates remethylation and transsulfuration under changing metabolic demand.",
     ],
   },
   "brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx": {

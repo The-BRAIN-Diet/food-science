@@ -344,6 +344,24 @@ export function buildPhenomeRegistryDiagnostics(relationships, registry) {
   /** Labels in edges not in registry (alias for unmapped) */
   const labelsInEdgesNotInRegistry = [...connectedLabels].filter((l) => !byName.has(l)).sort();
 
+  /** @type {Array<{ sourceNode: string, targetPhenome: string, targetPhenomeId: string, status: string }>} */
+  const edgesToNonActivePhenomes = [];
+  for (const row of relationships) {
+    const label = String(row.targetPhenome || "").trim();
+    if (!label) continue;
+    const entry = byName.get(label);
+    if (!entry) continue;
+    const status = entry.status || "active";
+    if (status !== "active") {
+      edgesToNonActivePhenomes.push({
+        sourceNode: String(row.sourceNode || ""),
+        targetPhenome: label,
+        targetPhenomeId: entry.id,
+        status,
+      });
+    }
+  }
+
   return {
     registryPhenomeCount: registry.phenomes.length,
     relationshipEdgeCount: relationships.length,
@@ -352,6 +370,7 @@ export function buildPhenomeRegistryDiagnostics(relationships, registry) {
     labelsInEdgesNotInRegistry,
     edgesMissingTargetPhenome,
     edgesWithNullPhenomeId,
+    edgesToNonActivePhenomes,
     duplicateRegistryNames,
     orphanRegistryPhenomes,
     reviewFlags: registry.reviewFlags || [],
@@ -461,6 +480,13 @@ export function validatePhenomeRegistry(rootDir = process.cwd()) {
     issues.push({
       code: "unmapped_phenome_label",
       message: `Relationship label not in registry (add registry entry or fix PM front matter): "${label}"`,
+    });
+  }
+
+  for (const edge of diagnostics.edgesToNonActivePhenomes || []) {
+    issues.push({
+      code: "edge_to_non_active_phenome",
+      message: `${edge.sourceNode} → "${edge.targetPhenome}" (${edge.targetPhenomeId}) maps to ${edge.status} phenome — remove mapping or restore phenome to active`,
     });
   }
 

@@ -229,22 +229,22 @@ function RelatedPhenomeLinks({
   ids: string[];
   phenomeById: Map<string, PhenomeRegistryEntry>;
 }) {
-  if (!ids.length) return null;
+  const activeIds = ids.filter((id) => {
+    const related = phenomeById.get(id);
+    return related && (related.status || 'active') === 'active';
+  });
+  if (!activeIds.length) return null;
   return (
     <p>
       <strong>Related phenomes:</strong>{' '}
-      {ids.map((id, idx) => {
-        const related = phenomeById.get(id);
+      {activeIds.map((id, idx) => {
+        const related = phenomeById.get(id)!;
         return (
           <span key={id}>
             {idx > 0 ? ', ' : ''}
-            {related ? (
-              <Link to={phenomeDetailDocPath(related.id, related.slug)}>
-                {id} — {related.name}
-              </Link>
-            ) : (
-              id
-            )}
+            <Link to={phenomeDetailDocPath(related.id, related.slug)}>
+              {id} — {related.name}
+            </Link>
           </span>
         );
       })}

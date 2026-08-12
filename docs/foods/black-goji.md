@@ -10,6 +10,7 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
+  - Cyanidin
 list_image: /img/foods/black-goji/black-goji_thumb.webp
 nutrition_per_100g:
   kcal: 52.747095
@@ -36,7 +37,7 @@ legacy_main_image: /img/foods/black-goji/black-goji_medium.webp
 ---
 ## Overview
 
-Black goji (Lycium ruthenicum) berries are **anthocyanin-rich** fruits with exceptionally high pigment density compared with many common berries [1]. Dietary flavonoid and anthocyanin intake has been associated with cognitive endpoints in controlled feeding contexts [2].
+Black goji (Lycium ruthenicum) berries are **anthocyanin-rich** fruits, with C3G-type (cyanidin-based) pigments ([Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin) backbone) and exceptionally high pigment density compared with many common berries [1]. Dietary flavonoid and anthocyanin intake has been associated with cognitive endpoints in controlled feeding contexts [2].
 
 Within the BRAIN Diet framework, black goji is a concentrated polyphenol-class food used in small portions for anthocyanin diversity rather than as a staple calorie source [1,2].
 ## Key Nutritional Highlights

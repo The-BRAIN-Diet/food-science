@@ -384,6 +384,16 @@ const config: Config = {
             to: '/docs/phenomes/details/ph015-stress-reactivity',
             from: '/docs/biological-targets/brs1/sm/brs1-sm-phen1-excitatory-inhibitory-stability-sensory-regulation',
           },
+          // Retired phenomes (category errors / near-duplicates) → registry index
+          { to: '/docs/phenomes', from: '/docs/phenomes/details/ph007-metabolic-resilience' },
+          {
+            to: '/docs/phenomes',
+            from: '/docs/phenomes/details/ph012-energy-stability-under-variable-conditions',
+          },
+          {
+            to: '/docs/phenomes',
+            from: '/docs/phenomes/details/ph013-energy-stability-under-variable-fuel-conditions',
+          },
           {
             to: '/docs/biological-targets/brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk',
             from: '/docs/biological-targets/brs1/sm/brs1-sm-adhd2-histaminergic-arousal-neuroimmune-crosstalk',

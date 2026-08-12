@@ -19,6 +19,8 @@ import SubstanceFoods from '../SubstanceFoods';
 import FoodRecipes from '../FoodRecipes';
 import FoodShoppingList from '../FoodShoppingList';
 import NutritionTable from '../../components/NutritionTable';
+import FoodEffectIcon from '../../components/FoodEffectIcon';
+import FoodEffect from '../../components/FoodEffect';
 import PhenomeBibLinks from '../../components/PhenomeBibLinks';
 import PhenomeScoringKey from '../../components/PhenomeScoringKey';
 import PhenomeRegistry from '../PhenomeRegistry';
@@ -39,6 +41,8 @@ export default {
   FoodSubstances,
   FoodSubstancesFromTable,
   NutritionTable,
+  FoodEffectIcon,
+  FoodEffect,
   TherapeuticAreaMatrix,
   TherapeuticAreaFoodSpreadsheet,
   SubstanceRecipes,

@@ -1,0 +1,38 @@
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 1em;
+  height: 1em;
+  min-width: 1em;
+  min-height: 1em;
+  margin: 0 0.15em 0 0;
+  padding: 0;
+  vertical-align: -0.15em;
+  background: transparent;
+  color: var(--brain-food-effect-fg, currentColor);
+  font-size: 1em;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.svg {
+  display: block;
+  width: 1em;
+  height: 1em;
+  overflow: visible;
+}
+
+.frame {
+  /* Accent on the outline only — no fill, no valence colour. */
+  stroke: var(--brain-food-effect-accent, var(--ifm-color-emphasis-500));
+}
+
+/* Direction is semantic, not valence — accents stay neutral across states. */
+.increase,
+.decrease,
+.preserve,
+.interaction {
+  color: var(--brain-food-effect-fg, currentColor);
+}

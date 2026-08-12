@@ -1,10 +1,10 @@
 ---
 title: Methionine Cycle Flux
 pm_id: BRS2-FM1-PM4
-mission: Sustain efficient methionine cycle throughput so homocysteine clearance and SAMe output stay coordinated.
+mission: 'Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.'
 parent_fm: BRS2(FM1)
 parent_brs: BRS2
-summary: 'Reflects how efficiently the whole methionine cycle runs as an integrated system (rather than any single reaction step), determining homocysteine clearance, SAMe output, and overall methylation capacity together. Effective throughput depends on coordinated substrate and cofactor sufficiency across folate, B12, and betaine-dependent routes rather than any one nutrient in isolation. When cycle flux slows, every downstream methylation-dependent pathway feels the constraint simultaneously.'
+summary: 'Coordinates the methionine cycle as an integrated flux system: methionine availability → SAM synthesis → methyl transfer → SAH → homocysteine → remethylation or transsulfuration. Methionine is an essential substrate whose adequacy enables SAM generation and downstream routing, while chronic excess is not assumed beneficial; dietary framing is methionine adequacy within protein and amino-acid balance rather than maximisation. Homocysteine is an important cycle junction and readout, not the organising biological objective of this PM.'
 key_constraints:
   - BRS2(KC1) - One-Carbon Donor Pool
   - BRS2(KC2) - Methionine & Transsulfuration Substrate Pool
@@ -15,9 +15,13 @@ cofactors:
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
-dose_sensitivity: 'Pattern-based: consistent cofactor coverage'
+dose_sensitivity: 'Pattern-based: methionine adequacy within protein balance + cofactor coverage'
 references:
   - '[Aragão et al. (2024) — Unveiling Its Timeless Significance in Human Physiology and Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)'
+  - '[Chiang et al. (1996) — S-Adenosylmethionine and Methylation](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996)'
+  - '[Fanti et al. (2026) — Methionine-Supplemented Longevity Diet Increases Growth Hormone, GLP-1, and FGF21](/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026)'
+  - '[Parkhitko et al. (2026) — Methionine Restriction and Mimetics to Ameliorate Human Aging and Disease](/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026)'
+  - '[Kumar and Yadav (2017) — The Transsulfuration Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)'
   - '[Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)'
   - '[Yu et al. (2020) — Evidence-based Prevention of Alzheimer''s Disease](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020)'
   - '[Luzzi et al. (2022) — Homocysteine, Cognitive Functions, and Degenerative Dementias](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022)'
@@ -29,28 +33,29 @@ phenome_relationships:
   - target_phenome: Cognitive Clarity
     relationship_type: modulates
     confidence: low-medium
-    evidence_level: observational
+    evidence_level: mechanistic
     evidence_confidence: low-medium
-    rationale: Elevated homocysteine linked to cognitive decline and degenerative dementias supports homocysteine as a readout of impaired one-carbon cycle throughput relevant to cognitive clarity context; cofactor combination effects on homocysteine illustrate pattern-based cycle flux rather than single-nutrient leverage. ADHD-specific cognitive-clarity outcomes on cycle flux remain indirect (biology > evidence gap).
+    rationale: 'Balanced methionine-cycle flux sets methylation potential (SAM availability relative to SAH-mediated constraint) that supports phospholipid, neurotransmitter and broader methylation chemistry relevant to cognitive clarity. Homocysteine remains a useful junction readout of cycle strain, but the biology scored here is coordinated methionine → SAM → SAH → remethylation/transsulfuration flux rather than homocysteine lowering alone. Direct ADHD cognitive-clarity outcomes on integrated cycle flux remain limited (biology > evidence gap).'
     references:
       - index: 1
+        label: Chiang et al. (1996)
+        citation_key: chiang_s-adenosylmethionine_1996
+        href: /docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996
+        data_level: Mechanistic
+      - index: 2
+        label: Aragão et al. (2024)
+        citation_key: aragao_revitalising_2024
+        href: /docs/papers/BRAIN-Diet-References#aragao_revitalising_2024
+      - index: 3
         label: Luzzi et al. (2022)
         citation_key: luzzi_homocysteine_2022
         href: /docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022
-      - index: 2
-        label: Yu et al. (2020)
-        citation_key: yu_evidence-based_2020
-        href: /docs/papers/BRAIN-Diet-References#yu_evidence-based_2020
-      - index: 3
-        label: Collaboration (1998)
-        citation_key: collaboration_lowering_1998
-        href: /docs/papers/BRAIN-Diet-References#collaboration_lowering_1998
   - target_phenome: Focus / Attention Stability
     relationship_type: modulates
     confidence: low-medium
     evidence_level: observational
     evidence_confidence: low-medium
-    rationale: 'Elevated homocysteine reported in paediatric ADHD cohorts and unhealthy dietary patterns linked to lower B vitamins and ADHD burden support cycle throughput strain as translational context for attention-relevant one-carbon metabolism — homocysteine signals multi-step cycle strain, not isolated enzyme failure.'
+    rationale: 'Attention-relevant one-carbon biology depends on coordinated methyl-transfer capacity under daily demand, not only on remethylation of accumulated homocysteine. Cycle flux that keeps methionine adequacy, SAM-dependent methylation and downstream recycling aligned provides translational context for focus stability when dietary methyl-donor and sulfur-amino-acid patterns are strained. Homocysteine and B-vitamin associations in ADHD-relevant cohorts remain supportive readouts of multi-step cycle stress rather than proof that this PM alone determines attention.'
     references:
       - index: 1
         label: Lukovac et al. (2024)
@@ -62,9 +67,10 @@ phenome_relationships:
         href: /docs/papers/BRAIN-Diet-References#wang_dietary_2019
         data_level: Human Study
       - index: 3
-        label: Tao Huang et al. (2015)
-        citation_key: tao_huang_effect_2015
-        href: /docs/papers/BRAIN-Diet-References#tao_huang_effect_2015
+        label: Chiang et al. (1996)
+        citation_key: chiang_s-adenosylmethionine_1996
+        href: /docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996
+        data_level: Mechanistic
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -76,24 +82,25 @@ phenome_relationships:
 
 ## BRS2-FM1-PM4 - Methionine Cycle Flux
 
-(Integrated Methionine Cycle Capacity)
+(Balanced Methionine → SAM → SAH → Homocysteine Routing)
 
 ## 1. Mission & Overview
 
 ### Mission
 
-Sustain efficient methionine cycle throughput so homocysteine clearance and SAMe output stay coordinated.
+Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.
 
 ### Overview
 
-Reflects how efficiently the whole methionine cycle runs as an integrated system (rather than any single reaction step), determining homocysteine clearance, SAMe output, and overall methylation capacity together. Effective throughput depends on coordinated substrate and cofactor sufficiency across folate, B12, and betaine-dependent routes rather than any one nutrient in isolation. When cycle flux slows, every downstream methylation-dependent pathway feels the constraint simultaneously.
+Coordinates the methionine cycle as an integrated flux system: methionine availability → SAM synthesis → methyl transfer → SAH → homocysteine → remethylation or transsulfuration, rather than treating any single step as the goal. Methionine is an essential substrate whose **adequacy** enables SAM generation and downstream routing, while chronic excess is not assumed beneficial. Homocysteine is an important intermediate and practical readout of cycle strain, not the organising objective of this PM. Effective flux therefore depends on methionine adequacy within protein and amino-acid balance, methyl-donor and cofactor coverage, methylation demand, and coordinated routing between remethylation and transsulfuration.
 
-* Determines homocysteine clearance and SAMe output as an integrated system.
-* Depends on coordinated substrate and cofactor sufficiency, not one nutrient alone.
-* Sets the pace at which downstream methylation pathways can run.
+* Balances methionine availability with SAM-dependent methylation and SAH-mediated constraint.
+* Treats homocysteine as a cycle junction and readout, not the biological endpoint.
+* Coordinates remethylation and transsulfuration under changing metabolic demand.
 
 ## 2. Primary Biological Effects
-↑ cycle throughput
+
+↑ coordinated methionine-cycle flux; ↔ methionine adequacy; ↑ methylation potential (SAM relative to SAH)
 
 ## 3. Phenome Connections
 
@@ -207,10 +214,10 @@ be higher when outcome evidence is stronger than the mechanism's contributory ro
 </div>
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Confidence:** Low–Medium
-- **Rationale:** Elevated homocysteine linked to cognitive decline and degenerative dementias supports homocysteine as a readout of impaired one-carbon cycle throughput relevant to cognitive clarity context; cofactor combination effects on homocysteine illustrate pattern-based cycle flux rather than single-nutrient leverage. ADHD-specific cognitive-clarity outcomes on cycle flux remain indirect (biology > evidence gap).
+- **Rationale:** Balanced methionine-cycle flux sets methylation potential (SAM availability relative to SAH-mediated constraint) that supports phospholipid, neurotransmitter and broader methylation chemistry relevant to cognitive clarity. Homocysteine remains a useful junction readout of cycle strain, but the biology scored here is coordinated methionine → SAM → SAH → remethylation/transsulfuration flux rather than homocysteine lowering alone. Direct ADHD cognitive-clarity outcomes on integrated cycle flux remain limited (biology > evidence gap).
 - **Key References:**
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022","label":"Luzzi et al. (2022)"},{"href":"/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020","label":"Yu et al. (2020)"},{"href":"/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998","label":"Collaboration (1998)"}]} />
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996","label":"Chiang et al. (1996)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024","label":"Aragão et al. (2024)"},{"href":"/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022","label":"Luzzi et al. (2022)"}]} />
 - **Evidence Confidence:** Low–Medium
 </div>
 </div>
@@ -230,10 +237,10 @@ be higher when outcome evidence is stronger than the mechanism's contributory ro
 </div>
 <div class="brs-fm-hub-panel" hidden>
 - **Biology → Phenome Confidence:** Low–Medium
-- **Rationale:** Elevated homocysteine reported in paediatric ADHD cohorts and unhealthy dietary patterns linked to lower B vitamins and ADHD burden support cycle throughput strain as translational context for attention-relevant one-carbon metabolism — homocysteine signals multi-step cycle strain, not isolated enzyme failure.
+- **Rationale:** Attention-relevant one-carbon biology depends on coordinated methyl-transfer capacity under daily demand, not only on remethylation of accumulated homocysteine. Cycle flux that keeps methionine adequacy, SAM-dependent methylation and downstream recycling aligned provides translational context for focus stability when dietary methyl-donor and sulfur-amino-acid patterns are strained. Homocysteine and B-vitamin associations in ADHD-relevant cohorts remain supportive readouts of multi-step cycle stress rather than proof that this PM alone determines attention.
 - **Key References:**
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"},{"href":"/docs/papers/BRAIN-Diet-References#wang_dietary_2019","label":"Wang et al. (2019)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#tao_huang_effect_2015","label":"Tao Huang et al. (2015)"}]} />
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#lukovac_serum_2024","label":"Lukovac et al. (2024)"},{"href":"/docs/papers/BRAIN-Diet-References#wang_dietary_2019","label":"Wang et al. (2019)","dataLevel":"Human Study"},{"href":"/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996","label":"Chiang et al. (1996)","dataLevel":"Mechanistic"}]} />
 - **Evidence Confidence:** Low–Medium
 </div>
 </div>
@@ -262,8 +269,8 @@ be higher when outcome evidence is stronger than the mechanism's contributory ro
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Folate
-- mixed methyl-donor meals (folate, B12, choline, betaine, methionine) → one-carbon throughput
+- Methionine ← eggs, fish, poultry *(adequacy within protein/amino-acid balance — not maximisation)*
+- Coordinated methyl-donor meal patterns (folate, B12, choline, betaine alongside methionine) → support cycle flux without treating methionine supply as an open-ended target
 
 </div>
 </div>
@@ -298,7 +305,6 @@ be higher when outcome evidence is stronger than the mechanism's contributory ro
 
 
 
-
 - [BRS2(KC1) - Methyl Donor Pool](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool)
 
 - Folate ← leafy greens, legumes, liver
@@ -308,7 +314,7 @@ be higher when outcome evidence is stronger than the mechanism's contributory ro
 
 - [BRS2(KC2) - Methionine & Transsulfuration Substrate Pool](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool)
 
-- Methionine ← eggs, fish, poultry
+- Methionine ← eggs, fish, poultry *(shared-pool adequacy / balance — not higher intake by default)*
 - Serine ← soy foods, eggs, turkey
 - Glycine ← gelatin-rich cuts, poultry, fish
 - Cysteine ← eggs, chicken, yogurt
@@ -348,7 +354,7 @@ be higher when outcome evidence is stronger than the mechanism's contributory ro
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-- Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate supply for this PM.
+- Sleep and stress context may indirectly affect methylation demand; lifestyle factors are secondary to dietary substrate and cofactor pattern for this PM.
 
 </div>
 </div>
@@ -359,7 +365,7 @@ be higher when outcome evidence is stronger than the mechanism's contributory ro
 
 ### Summary
 
-Effective methylation is not determined by a single enzymatic step but by overall methionine cycle throughput — the integrated flux through remethylation, SAMe production, methyl transfer, and homocysteine re-entry that governs how efficiently the one-carbon system supports downstream biology.
+Methionine-cycle flux is the integrated regulation of methionine availability, SAM-dependent methyl transfer, SAH formation, and the subsequent remethylation-versus-transsulfuration branch point. The biological objective is coordinated flux under changing demand — not homocysteine clearance alone, and not open-ended methionine maximisation.
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
@@ -369,29 +375,33 @@ Effective methylation is not determined by a single enzymatic step but by overal
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
-#### (Cycle throughput as a system property)
+#### (Methionine as a regulated essential substrate)
 
-The methionine cycle integrates homocysteine remethylation, SAMe synthesis, methyl-group transfer, and homocysteine regeneration. Throughput depends on substrate availability, cofactor coverage, and the balance between remethylation and transsulfuration branches rather than any single reaction in isolation → [Aragão et al., 2024]
+Methionine is an essential amino acid and the substrate from which SAM is generated. Adequacy supports cycle entry and downstream methylation chemistry, but methionine biology is not “more substrate = better flux.” Dietary methionine restriction remodels systemic metabolism in experimental models, while moderate methionine within low-amino-acid patterns can preserve favourable metabolic phenotypes — implying a balance window rather than monotonic benefit from higher intake [Parkhitko et al., 2026; Fanti et al., 2026].
 
-#### (Cofactor coverage and flux constraints)
+#### (SAM → methyl transfer → SAH and methylation potential)
 
-Riboflavin (B2), vitamin B6, and vitamin B12 support distinct steps across the cycle — from folate-cycle flavoproteins through transsulfuration chemistry to B12-dependent remethylation. Pattern-based cofactor coverage across meals may support cycle throughput more effectively than isolated single-nutrient boluses → [Aragão et al., 2024]
+SAM donates methyl groups to acceptors; SAH is the immediate product and a potent product inhibitor of SAM-dependent methyltransferases. Methylation potential therefore depends on SAM supply relative to SAH accumulation/clearance, not SAM output alone [Chiang et al., 1996]. This SAM:SAH logic is central to why PM4 owns integrated cycle flux rather than any single remethylation arm.
 
-#### (Homocysteine as a flux readout)
+#### (Homocysteine as a junction and readout)
 
-Plasma homocysteine serves as a practical readout of impaired cycle throughput when remethylation, cofactor coverage, or substrate pools are strained. Elevated homocysteine is reported across neurodevelopmental, cognitive, and degenerative contexts — supporting homocysteine as a translational marker of cycle efficiency rather than a mechanism-specific endpoint → [Yu et al., 2020]; [Luzzi et al., 2022]
+After SAH is hydrolysed, homocysteine sits at the remethylation–transsulfuration branch point. Elevated homocysteine can signal multi-step cycle strain when remethylation, cofactors or substrate pools are constrained [Luzzi et al., 2022; Yu et al., 2020]. For this PM, homocysteine is an intermediate and practical readout — not the organising biological objective (dedicated remethylation biology belongs on PM1/PM2).
+
+#### (Remethylation versus transsulfuration branch decision)
+
+Cycle flux determines whether homocysteine is recycled to methionine or diverted toward cysteine/GSH-linked sulfur-amino-acid metabolism. Transsulfuration pathway detail belongs on [BRS2-FM2-PM5](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway); PM4 owns the integrated decision context that links methionine availability and methylation demand to that branch [Kumar and Yadav, 2017; Aragão et al., 2024].
 
 #### (Boundaries of the mechanism)
 
-This PM governs **integrated methionine cycle throughput** — a system flux node — not individual enzymatic steps.
+This PM governs **integrated methionine-cycle flux and balance** — a system flux node — not individual enzymatic steps.
 
-Folate/B12 remethylation belongs to [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation). BHMT remethylation belongs to [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation). SAMe synthesis belongs to [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). Transsulfuration disposal belongs to [BRS2-FM2-PM5](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway).
+Folate/B12 remethylation belongs to [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation). BHMT remethylation belongs to [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation). SAMe synthesis belongs to [BRS2-FM1-PM3](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis). Transsulfuration belongs to [BRS2-FM2-PM5](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway).
 
-The integrated FM narrative for methylation cycle efficiency belongs on [BRS2(FM1)](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency). This PM represents the throughput node that those sibling PMs compose.
+The integrated FM narrative for methylation cycle efficiency belongs on [BRS2(FM1)](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency). This PM represents the throughput-and-balance node that those sibling PMs compose.
 
 #### (Integration within BRS2)
 
-This PM integrates flux across [BRS2(FM1)](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency), constrained by both [BRS2(KC1)](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool) and [BRS2(KC2)](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool). Cycle throughput connects remethylation arms (PM1, PM2) with SAMe output (PM3) and the transsulfuration branch (FM2-PM5) that competes for homocysteine disposal.
+This PM integrates flux across [BRS2(FM1)](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency), constrained by both [BRS2(KC1)](/docs/biological-targets/brs2/kc/brs2-kc1-one-carbon-donor-pool) and [BRS2(KC2)](/docs/biological-targets/brs2/kc/brs2-kc2-methionine-transsulfuration-substrate-pool). Cycle balance connects remethylation arms (PM1, PM2) with SAMe output (PM3) and the transsulfuration branch (FM2-PM5) that competes for homocysteine routing.
 
 </div>
 </div>
@@ -402,22 +412,22 @@ This PM integrates flux across [BRS2(FM1)](/docs/biological-targets/brs2/fm1/brs
 
 #### Introduction/Summary
 
-Methionine cycle flux is a systems concept rather than a single reaction. The studies below highlight why throughput — not isolated cofactor dosing — matters for interpreting homocysteine and one-carbon metabolism in practice.
+Evidence for this PM spans foundational methylation biochemistry, experimental methionine-balance interventions, and human associations in which homocysteine marks cycle strain. Strong preclinical metabolic evidence does not equal a human methionine-restriction prescription for brain health.
 
 <div class="brs-fm-hub-item" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Homocysteine as a cycle-efficiency marker</strong>
+<strong>Methionine adequacy within balance — not maximisation</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Evidence reviews link elevated homocysteine to cognitive decline and degenerative dementias, supporting homocysteine as a readout of impaired one-carbon cycle throughput rather than a standalone pathology → [Luzzi et al., 2022]; [Yu et al., 2020] For this PM, the key implication is interpretive: homocysteine elevation signals cycle strain across multiple steps, not failure of a single enzyme.
+- **Evidence Level:** preclinical
+- **Rationale:** In aged mice, a predominantly plant-based low-amino-acid longevity diet with moderate methionine supplementation reduced frailty and fat mass while preserving favourable metabolic signalling; too little or too much methionine abolished benefits [Fanti et al., 2026]. The human arm was large-scale epidemiology of plant-leaning patterns, not a methionine intervention trial. MetR reviews similarly show potent experimental metabolic effects while emphasising limited continuous human MetR feasibility [Parkhitko et al., 2026]. For BRAIN, the implication is methionine **adequacy within amino-acid balance**, not deliberate restriction or open-ended high methionine intake.
 - **Key References:**
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020","label":"Yu et al. (2020)"},{"href":"/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022","label":"Luzzi et al. (2022)"}]} />
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026","label":"Fanti et al. (2026)","dataLevel":"Mechanistic"},{"href":"/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026","label":"Parkhitko et al. (2026)","dataLevel":"Mechanistic"}]} />
 
 </div>
 </div>
@@ -427,16 +437,35 @@ Methionine cycle flux is a systems concept rather than a single reaction. The st
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Cofactor combination effects on homocysteine</strong>
+<strong>SAM / SAH methylation potential</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- **Confidence:** medium
+- **Evidence Level:** mechanistic
+- **Rationale:** Foundational biochemistry establishes SAM as the principal methyl donor and SAH as a potent product inhibitor of SAM-dependent methyltransferases, so methylation potential reflects SAM supply relative to SAH-mediated constraint rather than SAM production in isolation [Chiang et al., 1996]. This anchors PM4’s ownership of integrated cycle flux beyond remethylation or SAMe synthesis alone.
+- **Key References:**
+
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996","label":"Chiang et al. (1996)","dataLevel":"Mechanistic"}]} />
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Homocysteine as a cycle-junction readout</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 
 - **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Meta-analytic evidence shows folate lowers homocysteine substantially, with additional benefit when B12 is combined — illustrating that cycle throughput responds to cofactor patterns rather than single-nutrient interventions → [Collaboration, 1998] This supports reading methionine cycle flux as a dietary-pattern property spanning folate, B12, B2, B6, choline, betaine, and methionine coverage → [Aragão et al., 2024]
+- **Evidence Level:** observational
+- **Rationale:** Reviews link elevated homocysteine to cognitive decline contexts and show folate/B12 combinations lower homocysteine — useful as evidence that multi-step cycle coverage affects a practical junction marker [Luzzi et al., 2022; Yu et al., 2020; Collaboration, 1998]. For this PM, the interpretive claim is readout-of-flux, not “homocysteine clearance is the mechanism.”
 - **Key References:**
 
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024","label":"Aragão et al. (2024)"},{"href":"/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998","label":"Collaboration (1998)"}]} />
+<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022","label":"Luzzi et al. (2022)"},{"href":"/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020","label":"Yu et al. (2020)"},{"href":"/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998","label":"Collaboration (1998)"}]} />
 
 </div>
 </div>
@@ -452,7 +481,7 @@ Methionine cycle flux is a systems concept rather than a single reaction. The st
 Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
 
 - [BRS1-FM2-PM5 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) — SAMe-dependent PEMT methylation
-- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — Homocysteine disposal through transsulfuration toward cysteine
+- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — Membrane methylation context downstream of one-carbon flux
 
 ### 6.3 Local BRS Mechanism Relationships
 
@@ -461,6 +490,7 @@ Related Primary Mechanisms within the same Biological Regulatory System that col
 - [BRS2-FM1-PM1 - Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation)
 - [BRS2-FM1-PM2 - Betaine/BHMT Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation)
 - [BRS2-FM1-PM3 - SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis)
+- [BRS2-FM2-PM5 - Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway)
 
 ## 7. Scoreable Inputs & Modulation Signals
 
@@ -474,8 +504,8 @@ Related Primary Mechanisms within the same Biological Regulatory System that col
 
 | Input Category | Example Inputs | PM relevance |
 |---|---|---|
-| Functional Property Potentials | methyl_donor_pattern; sulfur_amino_acid_context; choline_rich_food_matrix | May support methionine cycle flux. |
-| Realised Functional States | consistent_daily_methyl_donor_coverage | May reflect meal-level pathway support. |
+| Functional Property Potentials | methionine_adequacy_context; methyl_donor_pattern; sulfur_amino_acid_balance | May support balanced methionine-cycle flux. |
+| Realised Functional States | consistent_daily_methyl_donor_coverage; protein_amino_acid_balance_pattern | May reflect meal-level pathway support without methionine maximisation. |
 | Preparation Transformations | minimally_processed; whole_food_matrix | May preserve nutrient density for pathway support. |
 
 </div>
@@ -485,6 +515,10 @@ Related Primary Mechanisms within the same Biological Regulatory System that col
 
 ## 8. References
 - [Aragão et al. (2024) — Unveiling Its Timeless Significance in Human Physiology and Health](/docs/papers/BRAIN-Diet-References#aragao_revitalising_2024)
+- [Chiang et al. (1996) — S-Adenosylmethionine and Methylation](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996)
+- [Fanti et al. (2026) — Methionine-Supplemented Longevity Diet Increases Growth Hormone, GLP-1, and FGF21](/docs/papers/BRAIN-Diet-References#fanti_methionine_longevity_diet_2026)
+- [Parkhitko et al. (2026) — Methionine Restriction and Mimetics to Ameliorate Human Aging and Disease](/docs/papers/BRAIN-Diet-References#parkhitko_methionine_restriction_mimetics_2026)
+- [Kumar and Yadav (2017) — The Transsulfuration Pathway](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017)
 - [Collaboration (1998) — Lowering Blood Homocysteine with Folic Acid Based Supplements](/docs/papers/BRAIN-Diet-References#collaboration_lowering_1998)
 - [Yu et al. (2020) — Evidence-based Prevention of Alzheimer's Disease](/docs/papers/BRAIN-Diet-References#yu_evidence-based_2020)
 - [Luzzi et al. (2022) — Homocysteine, Cognitive Functions, and Degenerative Dementias](/docs/papers/BRAIN-Diet-References#luzzi_homocysteine_2022)

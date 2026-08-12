@@ -11,6 +11,8 @@ tags:
   - Vitamin C
   - Vitamin B9
   - Polyphenol
+  - Pelargonidin
+  - Cyanidin
 list_image: /img/foods/strawberries/strawberries_thumb.webp
 nutrition_per_100g:
   kcal: 36
@@ -35,7 +37,7 @@ legacy_main_image: /img/foods/strawberries/strawberries_medium.webp
 ---
 ## Overview
 
-Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant networks and cognitive function.
+Strawberries provide polyphenols—dominated by [Pelargonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/pelargonidin)-based anthocyanins, with [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin) as a secondary backbone—plus vitamin C and fiber, supporting antioxidant networks and cognitive function.
 
 Within the BRAIN Diet framework, berries are mentioned as polyphenol-rich foods and are part of polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) in the Mediterranean diet pattern [1][2].
 ## Key Nutritional Highlights

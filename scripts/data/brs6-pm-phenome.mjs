@@ -83,18 +83,6 @@ export const BRS6_PM_PHENOME = {
   ],
   "brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal": [
     row({
-      target_phenome: "Metabolic Resilience",
-      confidence: "low-medium",
-      evidence_confidence: "low-medium",
-      evidence_level: "observational",
-      rationale:
-        "Prevalence of metabolic syndrome and insulin resistance in adult ADHD outpatients positions insulin sensitivity and glucose disposal as metabolic-resilience nodes intersecting ADHD metabolic comorbidity.",
-      references: [
-        ref(1, "Di Girolamo et al. (2022)", "di_girolamo_prevalence_2022"),
-        ref(2, "Marcelli et al. (2025)", "marcelli_bridging_2025"),
-      ],
-    }),
-    row({
       target_phenome: "Cognitive Energy Stability",
       confidence: "low-medium",
       evidence_confidence: "low-medium",
@@ -201,18 +189,6 @@ export const BRS6_PM_PHENOME = {
     }),
   ],
   "brs6-fm4-pm8-metabolic-inflammation-and-adipose-stress-signalling": [
-    row({
-      target_phenome: "Metabolic Resilience",
-      confidence: "low-medium",
-      evidence_confidence: "low-medium",
-      evidence_level: "observational",
-      rationale:
-        "Metabolic syndrome and insulin resistance in adult ADHD outpatients and narrative review bridging ADHD with metabolic disorders position adipose-stress and metabolic-inflammation signalling as resilience-relevant nodes.",
-      references: [
-        ref(1, "Di Girolamo et al. (2022)", "di_girolamo_prevalence_2022"),
-        ref(2, "Marcelli et al. (2025)", "marcelli_bridging_2025"),
-      ],
-    }),
     row({
       target_phenome: "Recovery Capacity",
       relationship_type: "indirect",

@@ -10,6 +10,8 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
+  - Cyanidin
+  - Peonidin
 list_image: /img/foods/cranberries/cranberries_thumb.webp
 nutrition_per_100g:
   calcium_mg: 0
@@ -34,7 +36,7 @@ legacy_main_image: /img/foods/cranberries/cranberries_medium.webp
 ---
 ## Overview
 
-Cranberries provide **proanthocyanidins (PACs)** and anthocyanins with urinary-tract and polyphenol interest [1]. Berry-class flavonoids have cognitive systematic-review support in aging populations [2].
+Cranberries provide **proanthocyanidins (PACs)** and anthocyanins—mainly [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin) and [Peonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/peonidin) backbones—with urinary-tract and polyphenol interest [1]. Berry-class flavonoids have cognitive systematic-review support in aging populations [2].
 
 Within the BRAIN Diet framework, cranberries are used fresh, frozen, or as low-sugar preparations; juice cocktails with added sugar reduce BRAIN Diet alignment.
 ## Key Nutritional Highlights
