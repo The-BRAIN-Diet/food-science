@@ -1,0 +1,26 @@
+.effect {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.35em 0.45em;
+  max-width: 100%;
+  margin: 0;
+  color: var(--brain-food-effect-fg, var(--ifm-font-color-base));
+  font-size: 1em;
+  line-height: 1.45;
+  vertical-align: baseline;
+}
+
+.label {
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brain-food-effect-label, var(--ifm-color-emphasis-700));
+  white-space: nowrap;
+}
+
+.property {
+  font-weight: 600;
+  color: inherit;
+}

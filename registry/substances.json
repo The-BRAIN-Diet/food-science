@@ -794,5 +794,228 @@
     "title": "Scfas",
     "inchikey": "",
     "list_image": ""
+  },
+  "nitrate": {
+    "path": "bioactive-compounds/nitrate.md",
+    "tags": [
+      "bioactive"
+    ],
+    "title": "Nitrate",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "beta-glucans": {
+    "path": "bioactive-compounds/beta-glucans.md",
+    "tags": [
+      "bioactive"
+    ],
+    "title": "Beta Glucans",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "polysaccharides": {
+    "path": "bioactive-compounds/polysaccharides.md",
+    "tags": [
+      "bioactive"
+    ],
+    "title": "Polysaccharides",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "allicin": {
+    "path": "bioactive-compounds/organosulfur/allicin.md",
+    "tags": [
+      "bioactive"
+    ],
+    "title": "Allicin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "l-dopa": {
+    "path": "bioactive-compounds/alkaloids/l-dopa.md",
+    "tags": [
+      "alkaloid",
+      "bioactive"
+    ],
+    "title": "L Dopa",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "astaxanthin": {
+    "path": "bioactive-compounds/carotenoids/astaxanthin.md",
+    "tags": [
+      "bioactive",
+      "carotenoid"
+    ],
+    "title": "Astaxanthin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "epicatechin": {
+    "path": "bioactive-compounds/polyphenols/flavan-3-ols/epicatechin.md",
+    "tags": [
+      "bioactive",
+      "flavan-3-ol",
+      "polyphenol"
+    ],
+    "title": "Epicatechin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "catechin": {
+    "path": "bioactive-compounds/polyphenols/flavan-3-ols/catechin.md",
+    "tags": [
+      "bioactive",
+      "flavan-3-ol",
+      "polyphenol"
+    ],
+    "title": "Catechin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "oligomeric-procyanidins": {
+    "path": "bioactive-compounds/polyphenols/flavan-3-ols/oligomeric-procyanidins.md",
+    "tags": [
+      "bioactive",
+      "flavan-3-ol",
+      "polyphenol"
+    ],
+    "title": "Oligomeric Procyanidins",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "hesperidin": {
+    "path": "bioactive-compounds/polyphenols/flavanones/hesperidin.md",
+    "tags": [
+      "bioactive",
+      "polyphenol"
+    ],
+    "title": "Hesperidin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "eriocitrin": {
+    "path": "bioactive-compounds/polyphenols/flavanones/eriocitrin.md",
+    "tags": [
+      "bioactive",
+      "polyphenol"
+    ],
+    "title": "Eriocitrin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "pelargonidin": {
+    "path": "bioactive-compounds/polyphenols/anthocyanins/pelargonidin.md",
+    "tags": [
+      "bioactive",
+      "polyphenol"
+    ],
+    "title": "Pelargonidin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "delphinidin": {
+    "path": "bioactive-compounds/polyphenols/anthocyanins/delphinidin.md",
+    "tags": [
+      "bioactive",
+      "polyphenol"
+    ],
+    "title": "Delphinidin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "malvidin": {
+    "path": "bioactive-compounds/polyphenols/anthocyanins/malvidin.md",
+    "tags": [
+      "bioactive",
+      "polyphenol"
+    ],
+    "title": "Malvidin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "petunidin": {
+    "path": "bioactive-compounds/polyphenols/anthocyanins/petunidin.md",
+    "tags": [
+      "bioactive",
+      "polyphenol"
+    ],
+    "title": "Petunidin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "cyanidin": {
+    "path": "bioactive-compounds/polyphenols/anthocyanins/cyanidin.md",
+    "tags": [
+      "bioactive",
+      "polyphenol"
+    ],
+    "title": "Cyanidin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "peonidin": {
+    "path": "bioactive-compounds/polyphenols/anthocyanins/peonidin.md",
+    "tags": [
+      "bioactive",
+      "polyphenol"
+    ],
+    "title": "Peonidin",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "carnosol": {
+    "path": "bioactive-compounds/terpenes/diterpenes/carnosol.md",
+    "tags": [
+      "bioactive",
+      "terpene"
+    ],
+    "title": "Carnosol",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "carnosic-acid": {
+    "path": "bioactive-compounds/terpenes/diterpenes/carnosic-acid.md",
+    "tags": [
+      "bioactive",
+      "terpene"
+    ],
+    "title": "Carnosic Acid",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "arginine": {
+    "path": "nutrients/macronutrients/amino-acids/conditionals/arginine.md",
+    "tags": [
+      "amino-acid",
+      "nonessential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Arginine",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "citrulline": {
+    "path": "nutrients/macronutrients/amino-acids/conditionals/citrulline.md",
+    "tags": [
+      "amino-acid",
+      "nonessential-amino-acid",
+      "nutrient"
+    ],
+    "title": "Citrulline",
+    "inchikey": "",
+    "list_image": ""
+  },
+  "omega-3-in-the-brain-dha-pool": {
+    "path": "nutrients/macronutrients/fatty-acids/pufas/omega-3/omega-3-in-the-brain-dha-pool.md",
+    "tags": [
+      "fatty-acid",
+      "nutrient",
+      "omega-3",
+      "pufa"
+    ],
+    "title": "Omega 3 In The Brain Dha Pool",
+    "inchikey": "",
+    "list_image": ""
   }
 }

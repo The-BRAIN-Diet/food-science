@@ -22,7 +22,7 @@ export const BRS2_PM_PHASE3_SCORES = {
     { phenome: "Emotional Regulation", confidence: "low-medium", evidence_confidence: "low", evidence_level: "mechanistic" },
   ],
   "BRS2-FM1-PM4": [
-    { phenome: "Cognitive Clarity", confidence: "low-medium", evidence_confidence: "low-medium", evidence_level: "observational" },
+    { phenome: "Cognitive Clarity", confidence: "low-medium", evidence_confidence: "low-medium", evidence_level: "mechanistic" },
     { phenome: "Focus / Attention Stability", confidence: "low-medium", evidence_confidence: "low-medium", evidence_level: "observational" },
   ],
   "BRS2-FM2-PM5": [

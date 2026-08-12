@@ -9,6 +9,7 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin B1
+  - Cyanidin
 list_image: /img/foods/rice/rice_thumb.webp
 nutrition_per_100g:
   kcal: 123
@@ -73,7 +74,7 @@ Grain protein remains **lysine-limited**; pairing with legumes improves essentia
 | Jasmine Rice | Low | Low | Higher | Low | Lower | Typically more rapidly digestible than basmati. |
 | Brown Rice | Moderate | Moderate | Lower | Moderate | Higher | Bran retained; provides magnesium, manganese and fibre. |
 | Red Rice | Moderate | Moderate | Lower | High | Higher | Anthocyanins and polyphenols contribute antioxidant capacity. |
-| Black Rice | Moderate | Moderate | Lower | Very High | Higher | Rich source of anthocyanins and antioxidant compounds. |
+| Black Rice | Moderate | Moderate | Lower | Very High | Higher | Rich source of anthocyanins (principally [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin)-based pigments) and antioxidant compounds. |
 | Wild Rice* | Higher | Moderate | Lower | Moderate | Higher | Technically a grass seed rather than true rice. |
 | Fermented Rice Preparations | Variable | Variable | Lower | Variable | Variable | Fermentation may alter digestibility and microbiome interactions. |
 

@@ -46,7 +46,6 @@ export const EMPTY_FM_PHASE3_SCORES = {
   "BRS6(FM1)": [
     { phenome: "Cognitive Energy Stability", confidence: "low-medium", evidence_confidence: "low-medium" },
     { phenome: "Focus / Attention Stability", confidence: "low-medium", evidence_confidence: "low-medium" },
-    { phenome: "Metabolic Resilience", confidence: "low-medium", evidence_confidence: "low-medium" },
   ],
   "BRS6(FM2)": [
     { phenome: "Stress Reactivity", confidence: "low-medium", evidence_confidence: "low-medium" },
@@ -59,7 +58,6 @@ export const EMPTY_FM_PHASE3_SCORES = {
     { phenome: "Stress Resilience", confidence: "low-medium", evidence_confidence: "low-medium" },
   ],
   "BRS6(FM4)": [
-    { phenome: "Metabolic Resilience", confidence: "low-medium", evidence_confidence: "low-medium" },
     { phenome: "Reward Regulation", confidence: "low-medium", evidence_confidence: "low-medium" },
     { phenome: "Motivation / Drive", confidence: "low-medium", evidence_confidence: "low-medium" },
   ],
@@ -195,14 +193,6 @@ export const EMPTY_FM_OUTCOME_SYNTHESIS = {
         fmRef("Zametkin et al. (1990)", "zametkin_cerebral_1990"),
       ],
     },
-    "Metabolic Resilience": {
-      synthesis:
-        "Insulin sensitivity and glucose disposal capacity support longer-term metabolic resilience that keeps energy allocation adaptable under repeated demand. Metabolic comorbidity and bridging reviews support low–medium biological relevance; ADHD-specific metabolic-resilience trials on this FM remain limited.",
-      references: [
-        fmRef("Di Girolamo et al. (2022)", "di_girolamo_prevalence_2022"),
-        fmRef("Marcelli et al. (2025)", "marcelli_bridging_2025"),
-      ],
-    },
   },
 
   "BRS6(FM2)": {
@@ -258,14 +248,6 @@ export const EMPTY_FM_OUTCOME_SYNTHESIS = {
   },
 
   "BRS6(FM4)": {
-    "Metabolic Resilience": {
-      synthesis:
-        "Metabolic inflammation and adipose stress signalling influence how metabolic load is allocated under chronic physiological pressure, shaping longer-term metabolic resilience. Metabolic comorbidity evidence in ADHD-relevant populations supports low–medium biological relevance without anti-inflammatory treatment claims.",
-      references: [
-        fmRef("Di Girolamo et al. (2022)", "di_girolamo_prevalence_2022"),
-        fmRef("Marcelli et al. (2025)", "marcelli_bridging_2025"),
-      ],
-    },
     "Reward Regulation": {
       synthesis:
         "Stress-induced appetite and reward-drive modulation couple metabolic–inflammatory load to reward regulation under stress. Dietary-pattern and cortisol-context evidence supports low–medium biological relevance for reward regulation as an integrated FM outcome.",

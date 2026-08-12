@@ -10,6 +10,8 @@ tags:
   - Vegetarian
   - Vitamin C
   - Polyphenol
+  - Cyanidin
+  - Peonidin
 list_image: /img/foods/cherries/cherries_thumb.webp
 nutrition_per_100g:
   kcal: 63
@@ -45,7 +47,7 @@ legacy_main_image: /img/foods/cherries/cherries_medium.webp
 ---
 ## Overview
 
-Cherries (especially tart varieties) provide **anthocyanins**, **melatonin**, and polyphenols studied in sleep and recovery contexts [1]. Berry-class polyphenols have systematic-review support for cognitive performance endpoints in aging [2].
+Cherries (especially tart varieties) provide **anthocyanins**—principally [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin) and [Peonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/peonidin) backbones—plus **melatonin** and other polyphenols studied in sleep and recovery contexts [1]. Berry-class polyphenols have systematic-review support for cognitive performance endpoints in aging [2].
 
 Within the BRAIN Diet framework, cherries are a polyphenol fruit used fresh, frozen, or as tart juice in targeted portions rather than as a primary calorie source [1,2].
 ## Key Nutritional Highlights

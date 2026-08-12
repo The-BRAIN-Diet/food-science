@@ -2,6 +2,8 @@
 
 Canonical checks follow `system/food-page-schema.md`. Each weekday, audit one batch of food pages grouped by **title first letter**.
 
+**Default runtime: localhost** on your current checkout (e.g. `paul12`). Edits stay on this machine until **you** push to update live.
+
 **Epoch:** 2026-06-24 = Day 1 (**A, B, C**). The cycle repeats every 9 days.
 
 | Cycle day | Letters | ~Pages |
@@ -18,47 +20,49 @@ Canonical checks follow `system/food-page-schema.md`. Each weekday, audit one ba
 
 Letters with no foods (e.g. **I**, **U**, **X**, **Z**) are still in the rotation for a stable calendar.
 
+## Local chron (recommended)
+
+Cursor’s scheduled **Automations run in the cloud** (separate GitHub checkout). That is why the earlier job could fix pages but not get them onto your laptop. Prefer a **macOS LaunchAgent** on this repo:
+
+```bash
+# Install weekdays 12:30 (Mac local time) → this checkout
+npm run food:audit:install-local-cron
+
+# Run the same job once now
+npm run food:audit:local
+
+# Remove the LaunchAgent
+npm run food:audit:uninstall-local-cron
+```
+
+What the local job does:
+
+1. Runs `bash scripts/run-food-audit-today.sh` in **this** working tree  
+2. Logs under `.food-audit-logs/`  
+3. If anything fails: macOS notification + writes `.food-audit-logs/open-in-cursor-prompt.md` for a local Agent fix  
+4. You fix on localhost → commit → push when ready (live updates from here)
+
+**Turn off** the Cursor Cloud Automation named **“Food pages — 3-letter daily audit”** in Agents → Automations so it does not keep running in the cloud.
+
 ## Commands
 
 ```bash
-# Today's batch (from epoch) — preferred
-npm run food:audit:today
+# Smoke-test tooling
+npm run food:audit:smoke
 
-# Wrapper for automations (npm script or direct node fallback)
+# Today's batch
+npm run food:audit:today
 bash scripts/run-food-audit-today.sh
+
+# Local chron entrypoint (same as LaunchAgent)
+npm run food:audit:local
 
 # Full 9-day table + slug lists
 npm run food:audit:schedule
 
 # Force a letter batch
 node scripts/food-page-letter-audit.mjs --letters D,E,F
-
-# Simulate another date
-node scripts/food-page-letter-audit.mjs --date 2026-06-20
 ```
-
-## Cursor Automation / cloud agent environment
-
-Scheduled agents must use the **`The-BRAIN-Diet/food-science`** repo with working directory at the **repository root** (where `package.json` and `docs/foods/` live).
-
-| Issue | Cause | What to do |
-| ----- | ----- | ---------- |
-| `npm run food:audit:today` missing | Branch checked out before audit scripts were merged | Run `bash scripts/run-food-audit-today.sh` or `node scripts/food-page-letter-audit.mjs` |
-| Audit scripts missing entirely | Stale or shallow checkout | Pull latest `paul12` (or target branch); confirm `scripts/food-page-letter-audit.mjs` exists |
-| `git push` fails (HTTPS token / SSH key) | Cloud sandbox has no GitHub credentials | **Commit locally**, report the commit hash in the run summary, and stop — do not retry push |
-| Fixes not visible locally | Agent committed on ephemeral checkout without push | Re-run audit on the letter batch and re-apply fixes, or cherry-pick if hash is available |
-
-**Required committed files for a working automation checkout:**
-
-- `package.json` — `food:audit:today`, `food:audit:schedule`
-- `scripts/food-page-letter-audit.mjs`
-- `scripts/lib/food-page-letter-schedule.mjs`
-- `scripts/lib/food-page-validation.mjs`
-- `system/food-page-audit-schedule.md`
-
-Until these are on the branch the automation checks out, agents should use the **direct node** command or `bash scripts/run-food-audit-today.sh`.
-
-**Push policy for automations:** local commit only when credentials are absent. A human merges or pushes from a credentialed machine.
 
 ## What the audit checks
 
@@ -68,19 +72,10 @@ Until these are on the branch the automation checks out, agents should use the *
 - **References:** every bullet must link to `/docs/papers/BRAIN-Diet-References#citationKey`
 - Essential Amino Acid Profile when protein ≥ 5 g/100 g
 
-## Suggested daily agent prompt (lunch review)
+## Local Agent prompt (when the notification fires)
 
-Use this in a Cursor Automation or manual Agent run:
+> Working directory: this `food-science` checkout on the current branch. Run `bash scripts/run-food-audit-today.sh`. Fix only today’s letter-batch pages to `system/food-page-schema.md` (example: `docs/foods/dark-chocolate.md`). Re-run until OK. Commit/push from this machine when you want live updated — do not use cloud Automations for this job.
 
-> Working directory: `food-science` repo root (`The-BRAIN-Diet/food-science`). Run `bash scripts/run-food-audit-today.sh` (or `npm run food:audit:today`). For each failing page, bring it up to the canonical schema in `system/food-page-schema.md` (use `docs/foods/dark-chocolate.md` as the worked example). Replace placeholder References with bibliography-linked evidence. Do not change unrelated pages outside today's batch. If `git push` fails due to missing credentials, commit locally, note the commit hash, and stop — do not retry push.
+## Cloud Automation (not recommended for this job)
 
-## Cursor Automation (optional)
-
-| Setting | Value |
-| ------- | ----- |
-| **Name** | Food pages — 3-letter daily audit |
-| **Schedule** | Weekdays at 12:30 (your lunch time) |
-| **Repo** | `food-science` |
-| **Prompt** | Same as “Suggested daily agent prompt” above |
-
-Set this up in the **Agents Window** → Automations → scheduled trigger.
+Only use a Cursor scheduled Automation if you intentionally want a **cloud** checkout. That path needs push/PR credentials and will not edit your localhost `paul12` tree. Prefer the LaunchAgent above.

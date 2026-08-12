@@ -376,6 +376,41 @@ Polyphenol:
   permalink: /polyphenol
   description: Plant polyphenols with antioxidant and neuroprotective properties
 
+Anthocyanidin:
+  label: Anthocyanidin
+  permalink: /anthocyanidin
+  description: Anthocyanin aglycone backbone (flavonoid subclass)
+
+Cyanidin:
+  label: Cyanidin
+  permalink: /cyanidin
+  description: Anthocyanidin backbone; common in berries and C3G-type pigments
+
+Delphinidin:
+  label: Delphinidin
+  permalink: /delphinidin
+  description: Anthocyanidin backbone; deep-purple plant pigments (e.g. nasunin)
+
+Malvidin:
+  label: Malvidin
+  permalink: /malvidin
+  description: Anthocyanidin backbone; abundant in blueberries and red/purple grapes
+
+Pelargonidin:
+  label: Pelargonidin
+  permalink: /pelargonidin
+  description: Anthocyanidin backbone; dominant in strawberries
+
+Peonidin:
+  label: Peonidin
+  permalink: /peonidin
+  description: Anthocyanidin backbone; methylated anthocyanins in cherries and berries
+
+Petunidin:
+  label: Petunidin
+  permalink: /petunidin
+  description: Anthocyanidin backbone; blue/purple berry anthocyanins
+
 Polysaccharides:
   label: Polysaccharides
   permalink: /polysaccharides

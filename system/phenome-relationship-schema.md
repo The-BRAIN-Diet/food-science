@@ -307,7 +307,7 @@ Therapeutic areas (`TA001`–`TA007`) tag **where each phenome is clinically rel
 | `name` | Yes | Human-readable label |
 | `slug` | Yes | URL-safe slug |
 | `description` | Yes | Stable TA definition |
-| `status` | Yes | `active` \| `deprecated` |
+| `status` | Yes | `active` \| `retired` \| `deprecated` |
 | `primaryWorkedExample` | No | `true` for `TA001` (ADHD) in v1 |
 
 `meta.primaryTherapeuticAreaId` points to the primary validation TA (`TA001`).
@@ -323,7 +323,7 @@ Therapeutic areas (`TA001`–`TA007`) tag **where each phenome is clinically rel
 | `publicSummary` | Yes | Plain-language summary for public pages |
 | `primaryDomains` | Yes | Tag list (e.g. `energy`, `cognition`) |
 | `therapeuticAreaIds` | Yes | Array of `TA00x` IDs — all active phenomes include `TA001`; add other TAs where the functional domain is clinically relevant |
-| `status` | Yes | `active` \| `deprecated` |
+| `status` | Yes | `active` \| `retired` \| `deprecated` |
 | `evidence_confidence` | No | **Phenome Evidence Confidence** — `low` \| `low-medium` \| `medium` \| `high`; strength of the registry foundational evidence stack for this phenome construct. **Not** PM/FM Biology → Phenome Confidence on mechanism rows |
 | `evidence_confidence_note` | No | Short rationale for the phenome-level Evidence Confidence score |
 | `provenance` | No | BRAIN development origin, optional `developmentNote`, `relatedPhenomeIds` — phased enrichment |

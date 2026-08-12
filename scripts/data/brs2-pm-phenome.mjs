@@ -122,13 +122,13 @@ export const BRS2_PM_PHENOME = {
       target_phenome: "Cognitive Clarity",
       confidence: "low-medium",
       evidence_confidence: "low-medium",
-      evidence_level: "observational",
+      evidence_level: "mechanistic",
       rationale:
-        "Elevated homocysteine linked to cognitive decline and degenerative dementias supports homocysteine as a readout of impaired one-carbon cycle throughput relevant to cognitive clarity context; cofactor combination effects on homocysteine illustrate pattern-based cycle flux rather than single-nutrient leverage. ADHD-specific cognitive-clarity outcomes on cycle flux remain indirect (biology > evidence gap).",
+        "Balanced methionine-cycle flux sets methylation potential (SAM availability relative to SAH-mediated constraint) that supports phospholipid, neurotransmitter and broader methylation chemistry relevant to cognitive clarity. Homocysteine remains a useful junction readout of cycle strain, but the biology scored here is coordinated methionine → SAM → SAH → remethylation/transsulfuration flux rather than homocysteine lowering alone. Direct ADHD cognitive-clarity outcomes on integrated cycle flux remain limited (biology > evidence gap).",
       references: [
-        ref(1, "Luzzi et al. (2022)", "luzzi_homocysteine_2022"),
-        ref(2, "Yu et al. (2020)", "yu_evidence-based_2020"),
-        ref(3, "Collaboration (1998)", "collaboration_lowering_1998"),
+        ref(1, "Chiang et al. (1996)", "chiang_s-adenosylmethionine_1996"),
+        ref(2, "Aragão et al. (2024)", "aragao_revitalising_2024"),
+        ref(3, "Luzzi et al. (2022)", "luzzi_homocysteine_2022"),
       ],
     }),
     row({
@@ -137,11 +137,11 @@ export const BRS2_PM_PHENOME = {
       evidence_confidence: "low-medium",
       evidence_level: "observational",
       rationale:
-        "Elevated homocysteine reported in paediatric ADHD cohorts and unhealthy dietary patterns linked to lower B vitamins and ADHD burden support cycle throughput strain as translational context for attention-relevant one-carbon metabolism — homocysteine signals multi-step cycle strain, not isolated enzyme failure.",
+        "Attention-relevant one-carbon biology depends on coordinated methyl-transfer capacity under daily demand, not only on remethylation of accumulated homocysteine. Cycle flux that keeps methionine adequacy, SAM-dependent methylation and downstream recycling aligned provides translational context for focus stability when dietary methyl-donor and sulfur-amino-acid patterns are strained. Homocysteine and B-vitamin associations in ADHD-relevant cohorts remain supportive readouts of multi-step cycle stress rather than proof that this PM alone determines attention.",
       references: [
         ref(1, "Lukovac et al. (2024)", "lukovac_serum_2024"),
         ref(2, "Wang et al. (2019)", "wang_dietary_2019"),
-        ref(3, "Tao Huang et al. (2015)", "tao_huang_effect_2015"),
+        ref(3, "Chiang et al. (1996)", "chiang_s-adenosylmethionine_1996"),
       ],
     }),
   ],

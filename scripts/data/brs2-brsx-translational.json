@@ -186,13 +186,13 @@
   },
   {
     "path": "brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx",
-    "functional_descriptor": "(Integrated Methionine Cycle Capacity)",
-    "translational": "Reflects how efficiently the whole methionine cycle runs — affecting homocysteine levels, SAMe output, and overall methylation capacity across the system. Effective cycle throughput depends on dietary patterns rather than any single nutrient in isolation.",
-    "scientific": "Integrated throughput of the methionine cycle governing homocysteine clearance, SAMe output, and system-wide methylation capacity — dependent on coordinated substrate and cofactor sufficiency rather than isolated nutrient intake.",
+    "functional_descriptor": "(Balanced Methionine → SAM → SAH → Homocysteine Routing)",
+    "translational": "Coordinates methionine-cycle flux as a balance problem — methionine adequacy, SAM-dependent methylation, SAH-mediated constraint, and remethylation-versus-transsulfuration routing — rather than homocysteine clearance alone. Dietary framing is methionine adequacy within protein/amino-acid balance, not maximisation.",
+    "scientific": "Integrated regulation of methionine → SAM → SAH → homocysteine → remethylation/transsulfuration flux, with methionine adequacy and methylation potential (SAM relative to SAH) as core variables — not homocysteine clearance as the organising objective.",
     "bullets": [
-      "Governs how well homocysteine is cleared and methyl donors are replenished — within BRS2.",
-      "Influences neurotransmitter and membrane methylation capacity downstream — Supporting BRS1.",
-      "Links one-carbon efficiency to mitochondrial and metabolic resilience — Supporting BRS4."
+      "Balances methionine availability with SAM-dependent methylation and SAH-mediated constraint — within BRS2.",
+      "Treats homocysteine as a cycle junction and readout, not the biological endpoint — within BRS2.",
+      "Coordinates remethylation and transsulfuration under changing metabolic demand — Supporting BRS2 redox routing."
     ]
   },
   {

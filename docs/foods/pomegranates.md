@@ -11,6 +11,9 @@ tags:
   - Vitamin C
   - Potassium
   - Polyphenol
+  - Cyanidin
+  - Delphinidin
+  - Pelargonidin
 list_image: /img/foods/pomegranates/pomegranates_thumb.webp
 nutrition_per_100g:
   protein_g: 0
@@ -34,7 +37,7 @@ legacy_main_image: /img/foods/pomegranates/pomegranates_medium.webp
 ---
 ## Overview
 
-Pomegranates provide ellagitannins that gut bacteria convert to urolithin A, supporting mitochondrial resilience, mitophagy, and cognitive function. The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate).
+Pomegranates provide ellagitannins that gut bacteria convert to urolithin A, supporting mitochondrial resilience, mitophagy, and cognitive function. They also contribute anthocyanins built on [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin), [Delphinidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/delphinidin), and [Pelargonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/pelargonidin) backbones. The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate).
 
 Within the BRAIN Diet framework, higher polyphenol intake and microbial diversity increase urolithin A and related metabolites, supporting mitochondrial resilience and mitophagy and improving cognitive endurance [1][2].
 ## Key Nutritional Highlights

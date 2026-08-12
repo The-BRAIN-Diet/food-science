@@ -36,7 +36,7 @@ export const BRS1_3_MISSIONS = {
   "brs2/fm1/brs2-fm1-pm3-same-synthesis.mdx":
     "Convert methionine into SAMe so universal methyl-donation can power brain and body methylation chemistry.",
   "brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx":
-    "Sustain efficient methionine cycle throughput so homocysteine clearance and SAMe output stay coordinated.",
+    "Maintain balanced methionine-cycle flux so methionine availability, SAM-dependent methylation, homocysteine recycling and transsulfuration remain coordinated across changing physiological demand.",
   "brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway.mdx":
     "Divert homocysteine toward cysteine so methylation demand is balanced against sulfur amino-acid and redox needs.",
   "brs2/fm2/brs2-fm2-pm6-glutathione-synthesis.mdx":

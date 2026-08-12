@@ -67,9 +67,9 @@ export const ENHANCEMENTS = {
   },
   "brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux.mdx": {
     translational:
-      "Reflects how efficiently the whole methionine cycle runs — affecting homocysteine levels, SAMe output, and overall methylation capacity across the system. Effective cycle throughput depends on dietary patterns rather than any single nutrient in isolation.",
+      "Coordinates methionine-cycle flux as a balance problem — methionine adequacy, SAM-dependent methylation, SAH-mediated constraint, and remethylation-versus-transsulfuration routing — rather than homocysteine clearance alone. Dietary framing is methionine adequacy within protein/amino-acid balance, not maximisation.",
     scientific:
-      "Integrated throughput of the methionine cycle governing homocysteine clearance, SAMe output, and system-wide methylation capacity — dependent on coordinated substrate and cofactor sufficiency rather than isolated nutrient intake.",
+      "Integrated regulation of methionine → SAM → SAH → homocysteine → remethylation/transsulfuration flux, with methionine adequacy and methylation potential (SAM relative to SAH) as core variables — not homocysteine clearance as the organising objective.",
   },
   "brs2/fm2/brs2-fm2-transsulfuration-redox-coupling.mdx": {
     translational:

@@ -10,6 +10,11 @@ tags:
   - Vegetarian
   - Potassium
   - Polyphenol
+  - Malvidin
+  - Cyanidin
+  - Delphinidin
+  - Peonidin
+  - Petunidin
 list_image: /img/foods/grapes/grapes_thumb.webp
 nutrition_per_100g:
   kcal: 71.939325
@@ -37,7 +42,7 @@ legacy_main_image: /img/foods/grapes/grapes_medium.webp
 ---
 ## Overview
 
-Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-dependent processes and supporting mitochondrial function.
+Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-dependent processes and supporting mitochondrial function. **Red and purple grape varieties** additionally supply anthocyanins built on [Malvidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/malvidin), [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin), [Delphinidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/delphinidin), [Peonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/peonidin), and [Petunidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/petunidin) backbones (green/white grapes contribute little anthocyanin).
 
 Within the BRAIN Diet framework, polyphenols (e.g., resveratrol) activate SIRT1, enhancing NAD⁺-dependent processes, and are found in grapes, blueberries, cranberries, peanuts, and dark chocolate [1][2].
 ## Key Nutritional Highlights

@@ -47,34 +47,34 @@ legacy_main_image: /img/foods/grass-fed-butter/grass-fed-butter_medium.webp
 ---
 ## Overview
 
-Grass-fed butter provides butyrate, CLA (conjugated linoleic acid), vitamins A/D/K2, selenium, and C15:0 pentadecanoic acid, supporting brain and metabolic health. Grass-Fed Butter: Butyrate, Conjugated linoleic acid (CLA; such as rumenic acid), vitamins A/D/K2, selenium, C15:0 pentadecanoic acid.
+Grass-fed butter is a nutrient-dense dairy fat that supplies butyrate, conjugated linoleic acid (CLA), fat-soluble vitamins A and D, vitamin K2 (menaquinones), selenium, and the odd-chain saturated fatty acid C15:0 (pentadecanoic acid). Relative to grain-fed dairy, pasture feeding shifts the fatty-acid profile—including CLA—and can enrich phylloquinone (K1) and MK-4 in butter [1][2].
 
-Within the BRAIN Diet framework, c15:0 (Parmesan and grassfed Butter). Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks [1][2].
+Within the BRAIN Diet framework, grass-fed butter is retained as a compact culinary source of **vitamin K2** and **C15:0**, not excluded on saturated-fat grounds alone. Butter, hard cheeses such as Parmesan, and pasture-raised egg yolks are among the principal Western dietary sources of menaquinones; hard cheeses are especially rich in longer-chain forms [3][4]. Circulating C15:0 tracks dairy-fat intake and has been proposed as a candidate essential odd-chain fatty acid with mitochondrial and cardiometabolic associations [5]. Prefer modest finishing amounts of unprocessed, pasture-raised dairy fats alongside these foods within an otherwise plant-forward, micronutrient-dense pattern.
+
 ## Key Nutritional Highlights
 
-
-- Grass-fed butter provides a different fatty-acid and CLA profile than conventional butter [1]
-- Butyrate-related pathways link saturated dairy fats to colonic metabolic effects in dietary context [2]
-- Grass-fed butter provides butyrate, CLA (conjugated linoleic acid), vitamins A/D/K2, selenium, and C15:0 pentadecanoic acid, supporting brain and metabolic health. [1]
-- Grass-Fed Butter: Butyrate, Conjugated linoleic acid (CLA; such as rumenic acid), vitamins A/D/K2, selenium, C15:0 pentadecanoic acid. [2]
-- C15:0 (Parmesan and grassfed Butter).
-- Instead of excluding them, dietary strategies should focus on unprocessed, nutrient-dense sources such as Parmesan cheese, grass-fed butter, and pasture-raised egg yolks.
+- Pasture- versus grain-fed ruminant fats differ in fatty-acid and CLA profile [1]
+- Pasture-fed milk butter shows higher vitamin K1 and MK-4 than total-mixed-ration butter [2]
+- Butter, cheese, and egg yolk contribute dietary vitamin K2 (menaquinones); hard cheeses are major Western sources of longer-chain MKs [3][4]
+- C15:0 (pentadecanoic acid) is concentrated in dairy fat (including butter and Parmesan); higher circulating C15:0 associates with more favourable cardiometabolic profiles and is under study as a potential essential fatty acid [5]
+- Use culinary portions for flavour and fat-soluble micronutrient delivery—not as a primary cooking oil at high heat
 
 ## Food Context
 
 ### Synergies
 
-- Part of nutrient-dense fat strategy
+- Pairs with [Parmesan cheese](./parmesan-cheese.md) and pasture-raised [egg yolks](./egg-yolks.md) as a vitamin K2 / C15:0 food cluster
+- Part of a nutrient-dense fat strategy alongside olive oil and other unsaturated culinary fats
 
 ### Sourcing
 
-- Choose grass-fed/pasture-raised sources for optimal nutrient profile
-- When consumed in moderation within an anti-inflammatory, micronutrient-rich diet, foods like grass-fed butter provide essential brain nutrients including choline, vitamin K2, butyrate, and fat-soluble vitamins A, D, and E
+- Prefer grass-fed / pasture-raised butter for CLA, vitamin K, and odd-chain fatty-acid enrichment relative to conventional dairy [1][2]
+- When used in moderation within an anti-inflammatory, micronutrient-rich pattern, grass-fed butter contributes vitamin K2, butyrate, and fat-soluble vitamins A and D
 
 ### Preparation
 
-- Use for finishing vegetables, grains, or cooking (with higher smoke point oil to avoid burning)
-- Supports butyrate and K2 intake
+- Best for finishing vegetables, grains, or low-to-moderate heat cooking; pair with a higher smoke-point oil when searing to avoid burning
+- Supports dietary vitamin K2 and C15:0 intake in small culinary amounts
 
 ### Essential Amino Acid Profile
 
@@ -92,6 +92,12 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-[1] Grass-fed butter provides a different fatty-acid and CLA profile than conventional butter. Daley et al. 2010. [A review of nutritional differences between grass-fed and grain-fed beef](/docs/papers/BRAIN-Diet-References#daley_grassfed_2010)
+[1] Pasture- versus grain-fed ruminant fats differ in fatty-acid and CLA profile. Daley et al. 2010. [A review of nutritional differences between grass-fed and grain-fed beef](/docs/papers/BRAIN-Diet-References#daley_grassfed_2010)
 
-[2] Butyrate-related pathways link saturated dairy fats to colonic metabolic effects in dietary context. Rose et al. 2018. [Butyrate enhances mitochondrial function during oxidative stress in cell lines from boys with autism](/docs/papers/BRAIN-Diet-References#rose_butyrate_2018)
+[2] Pasture-fed milk butter shows higher vitamin K1 and MK-4 than total-mixed-ration butter. Zhou et al. 2025. [The effect of bovine diets and stages of lactation on vitamin K content in butter and Cheddar cheese](/docs/papers/BRAIN-Diet-References#zhou_vitamin_k_pasture_butter_2025)
+
+[3] Butter, cheese, and egg yolk contribute dietary vitamin K2 (menaquinones). Schurgers & Vermeer 2000. [Determination of Phylloquinone and Menaquinones in Food](/docs/papers/BRAIN-Diet-References#schurgers_phylloquinone_menaquinones_2000)
+
+[4] Hard cheeses are major Western sources of longer-chain menaquinones. Vermeer et al. 2018. [Menaquinone Content of Cheese](/docs/papers/BRAIN-Diet-References#vermeer_menaquinone_cheese_2018)
+
+[5] C15:0 in dairy fat; circulating levels associate with cardiometabolic benefit and candidate essential-fatty-acid status. Venn-Watson et al. 2020. [Efficacy of dietary odd-chain saturated fatty acid pentadecanoic acid parallels broad associated health benefits in humans: could it be essential?](/docs/papers/BRAIN-Diet-References#venn_watson_c15_2020)
