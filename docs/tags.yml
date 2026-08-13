@@ -381,35 +381,40 @@ Anthocyanidin:
   permalink: /anthocyanidin
   description: Anthocyanin aglycone backbone (flavonoid subclass)
 
+Anthocyanins:
+  label: Anthocyanins
+  permalink: /anthocyanins
+  description: Glycosylated flavonoid pigments; family-level evidence from foods, extracts, or named glycosides
+
 Cyanidin:
   label: Cyanidin
   permalink: /cyanidin
-  description: Anthocyanidin backbone; common in berries and C3G-type pigments
+  description: Anthocyanidin parent compound; commonly present in foods as cyanidin glycosides, particularly C3G
 
 Delphinidin:
   label: Delphinidin
   permalink: /delphinidin
-  description: Anthocyanidin backbone; deep-purple plant pigments (e.g. nasunin)
+  description: Anthocyanidin parent compound; occurs in foods predominantly as glycosylated anthocyanins
 
 Malvidin:
   label: Malvidin
   permalink: /malvidin
-  description: Anthocyanidin backbone; abundant in blueberries and red/purple grapes
+  description: Anthocyanidin parent compound; occurs in foods predominantly as glycosylated derivatives
 
 Pelargonidin:
   label: Pelargonidin
   permalink: /pelargonidin
-  description: Anthocyanidin backbone; dominant in strawberries
+  description: Anthocyanidin parent compound; occurs in foods predominantly as glycosides; dominant strawberry backbone
 
 Peonidin:
   label: Peonidin
   permalink: /peonidin
-  description: Anthocyanidin backbone; methylated anthocyanins in cherries and berries
+  description: Anthocyanidin parent compound; occurs in foods predominantly as methylated anthocyanin glycosides
 
 Petunidin:
   label: Petunidin
   permalink: /petunidin
-  description: Anthocyanidin backbone; blue/purple berry anthocyanins
+  description: Anthocyanidin parent compound; occurs in foods predominantly as glycosylated anthocyanins
 
 Polysaccharides:
   label: Polysaccharides

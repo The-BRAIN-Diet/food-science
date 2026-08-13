@@ -1,8 +1,8 @@
 ---
 id: cyanidin
-title: Cyanidin
+title: Cyanidin (C3G is a major dietary/research form)
 sidebar_label: Cyanidin
-description: Anthocyanidin backbone commonly found in C3G-type anthocyanins; studied for antioxidant and anti-inflammatory biology.
+description: Anthocyanidin parent compound; commonly present in foods as cyanidin glycosides, particularly cyanidin-3-glucoside (C3G).
 tags:
   - Substance
   - Bioactive
@@ -10,17 +10,16 @@ tags:
   - Flavonoid
   - Anthocyanidin
   - Cyanidin
-  - Inflammation
-  - Oxidative Stress
 list_image: /img/icons/bioactive.svg
-mechanisms:
-  Inflammation: Anthocyanidin-linked polyphenol effects support anti-inflammatory signaling associated with vascular and neuroimmune stability.
-  Oxidative Stress: Anthocyanidin-linked antioxidant effects contribute to redox buffering and reduced oxidative damage burden.
 ---
 
 ## Overview
 
-Cyanidin is an anthocyanidin backbone found in many naturally occurring anthocyanins (including C3G-type pigments). Representative food sources include blueberries, cherries, cranberries, raspberries, black goji, purple potatoes, and black rice. Cyanidin-linked polyphenols are positioned as antioxidant and anti-inflammatory supports that help reduce oxidative stress and downstream inflammatory signalling during sustained physiological demand.
+Cyanidin is one of the principal anthocyanidin structures found in dietary anthocyanins. In foods it occurs predominantly as glycosides, including cyanidin-3-glucoside (C3G), rather than as free cyanidin.
+
+C3G is an important naturally occurring glycoside of cyanidin and the form for which much of the substance-specific nutritional research exists. Findings from C3G studies should be attributed to C3G, not generalised to free cyanidin or to all cyanidin glycosides.
+
+Representative food sources in this ontology include blueberries, cherries, tart cherry, cranberries, raspberries, strawberries, pomegranates, grapes, black goji, purple potatoes, and black rice. Those foods contain cyanidin-based anthocyanins; they are not evidence that isolated cyanidin was the studied intervention.
 
 ## Recipes
 
@@ -32,9 +31,8 @@ Cyanidin is an anthocyanidin backbone found in many naturally occurring anthocya
 
 ## Biological Mechanisms and Implications
 
-<SubstanceMatrix tag="Cyanidin" />
+No BRS mapping is assigned to cyanidin as an isolated parent compound. Where evidence concerns cyanidin-3-glucoside (C3G), attribute it to that glycoside. Where evidence concerns berries, grapes, purple foods, or mixed anthocyanin extracts, it is recorded on the [Anthocyanins](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/) family page.
 
 ## References
 
-- Systematic review / high-flavonoid intake evidence linked to cognitive and neurotrophin endpoints in aging (with berry polyphenol context). Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
-- Berry and flavonoid polyphenols discussed as part of antioxidant networks and neuroprotective pathways. Hein & Whyte 2019. [Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
+Class-level citations previously listed here (blueberry interventions; high-flavonoid intake trials) do not study isolated cyanidin and have been moved to the [Anthocyanins](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/) family page.

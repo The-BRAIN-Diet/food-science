@@ -2,7 +2,7 @@
 id: peonidin
 title: Peonidin
 sidebar_label: Peonidin
-description: Anthocyanidin backbone found in methylated anthocyanins across multiple fruits and berries; studied for antioxidant and anti-inflammatory biology.
+description: Anthocyanidin parent compound; occurs in foods predominantly as methylated anthocyanin glycosides, including in cherries, cranberries, and blueberries.
 tags:
   - Substance
   - Bioactive
@@ -10,17 +10,16 @@ tags:
   - Flavonoid
   - Anthocyanidin
   - Peonidin
-  - Inflammation
-  - Oxidative Stress
 list_image: /img/icons/bioactive.svg
-mechanisms:
-  Inflammation: Peonidin-linked polyphenol effects support dampening of inflammatory signalling associated with oxidative stress load.
-  Oxidative Stress: Peonidin-linked antioxidant effects contribute to redox buffering and reduced oxidative damage burden.
 ---
 
 ## Overview
 
-Peonidin is an anthocyanidin backbone found in methylated anthocyanins. Representative food sources include cherries, tart cherry, cranberries, and blueberries. Peonidin-linked polyphenols are positioned as antioxidant and anti-inflammatory supports within dietary patterns that aim to limit oxidative stress-driven physiological strain.
+Peonidin is one of the principal anthocyanidin structures found within dietary anthocyanins and occurs predominantly in foods as glycosylated derivatives rather than as free peonidin.
+
+Representative food sources in this ontology include cherries, tart cherry, cranberries, blueberries, and red/purple grapes. Those foods contain peonidin-based anthocyanins; they are not evidence that isolated peonidin was the studied intervention.
+
+No single glycoside is treated here as a general preferred research form for peonidin.
 
 ## Recipes
 
@@ -32,9 +31,8 @@ Peonidin is an anthocyanidin backbone found in methylated anthocyanins. Represen
 
 ## Biological Mechanisms and Implications
 
-<SubstanceMatrix tag="Peonidin" />
+No BRS mapping is assigned to peonidin as an isolated parent compound. Evidence from cherries, cranberries, berries, or mixed anthocyanin extracts is not treated as a peonidin effect. Class-level evidence is recorded on the [Anthocyanins](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/) family page.
 
 ## References
 
-- Berry / flavonoid evidence discussed in relation to cognitive and neurotrophin endpoints in aging. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
-- Polyphenol antioxidant networks and gut–brain relevance discussed in relation to neurotransmitter-relevant metabolite profiles. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+Class-level citations previously listed here (high-flavonoid intake trials; food-derived bioactives and gut microbiota) do not study isolated peonidin and have been moved to the [Anthocyanins](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/) family page.
