@@ -12,6 +12,7 @@ tags:
   - Inflammation
   - Oxidative Stress
 list_image: /img/icons/bioactive.svg
+excludeFromFolderList: true
 mechanisms:
   Inflammation: Anthocyanin-rich foods and mixed anthocyanin extracts are the usual evidence base for inflammatory-signalling findings in this class. This mapping is at the anthocyanin-family level and does not attribute those findings to isolated cyanidin, delphinidin, malvidin, pelargonidin, peonidin, or petunidin.
   Oxidative Stress: Anthocyanin-rich foods and mixed anthocyanin extracts are the usual evidence base for redox-related findings in this class. This mapping is at the anthocyanin-family level and does not attribute those findings to isolated anthocyanidin parent compounds.

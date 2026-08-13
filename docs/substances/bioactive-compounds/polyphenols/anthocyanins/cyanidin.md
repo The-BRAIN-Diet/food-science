@@ -1,8 +1,8 @@
 ---
 id: cyanidin
-title: Cyanidin (C3G is a major dietary/research form)
+title: Cyanidin and Cyanidin-3-Glucoside (C3G)
 sidebar_label: Cyanidin
-description: Anthocyanidin parent compound; commonly present in foods as cyanidin glycosides, particularly cyanidin-3-glucoside (C3G).
+description: Anthocyanidin parent compound and its common dietary glycoside, cyanidin-3-glucoside (C3G).
 tags:
   - Substance
   - Bioactive
@@ -15,11 +15,11 @@ list_image: /img/icons/bioactive.svg
 
 ## Overview
 
-Cyanidin is one of the principal anthocyanidin structures found in dietary anthocyanins. In foods it occurs predominantly as glycosides, including cyanidin-3-glucoside (C3G), rather than as free cyanidin.
+Cyanidin is an anthocyanidin—the underlying structural form of a family of red, purple and blue plant pigments. In foods, it occurs mainly bound to sugars as cyanidin glycosides, rather than as free cyanidin.
 
-C3G is an important naturally occurring glycoside of cyanidin and the form for which much of the substance-specific nutritional research exists. Findings from C3G studies should be attributed to C3G, not generalised to free cyanidin or to all cyanidin glycosides.
+Cyanidin-3-glucoside (C3G) is one of the most common dietary forms and the subject of much of the substance-specific research. Evidence from C3G studies is therefore identified as C3G evidence and should not automatically be attributed to free cyanidin or every cyanidin glycoside.
 
-Representative food sources in this ontology include blueberries, cherries, tart cherry, cranberries, raspberries, strawberries, pomegranates, grapes, black goji, purple potatoes, and black rice. Those foods contain cyanidin-based anthocyanins; they are not evidence that isolated cyanidin was the studied intervention.
+Foods such as berries, cherries, grapes, pomegranate, black rice and purple potatoes contain cyanidin-based anthocyanins. Their inclusion here indicates the presence of cyanidin glycosides—not that isolated cyanidin itself has been studied.
 
 ## Recipes
 
@@ -31,7 +31,7 @@ Representative food sources in this ontology include blueberries, cherries, tart
 
 ## Biological Mechanisms and Implications
 
-No BRS mapping is assigned to cyanidin as an isolated parent compound. Where evidence concerns cyanidin-3-glucoside (C3G), attribute it to that glycoside. Where evidence concerns berries, grapes, purple foods, or mixed anthocyanin extracts, it is recorded on the [Anthocyanins](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/) family page.
+No BRS mapping is assigned to free cyanidin unless a study genuinely investigates free cyanidin. Evidence from C3G studies is attributed specifically to C3G. Mixed berry, food, or anthocyanin evidence belongs on the [Anthocyanins](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/) family page.
 
 ## References
 
