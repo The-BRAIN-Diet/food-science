@@ -86,6 +86,14 @@ export default function FolderList({ folder }: FolderListProps): React.ReactElem
 
     // Allow individual pages to opt out of the folder landing grid/list.
     if (substance.frontMatter?.excludeFromFolderList) return false;
+
+    const permalinkPath = substance.permalink.replace(/^\/docs\//, '').replace(/\/$/, '');
+
+    // Category index pages use pretty URLs equal to the folder path (no /index).
+    // They describe the folder itself and must not appear as a child card.
+    if (permalinkPath === normalizedFolder) {
+      return false;
+    }
     
     // Get the folder path for this substance (everything up to the filename)
     const substancePath = substance.permalink.substring(0, substance.permalink.lastIndexOf('/'));
@@ -101,6 +109,17 @@ export default function FolderList({ folder }: FolderListProps): React.ReactElem
     // Exclude README.md and index.md files
     const filename = substance.permalink.substring(substance.permalink.lastIndexOf('/') + 1);
     if (filename === 'README' || filename === 'index' || filename === 'README.md' || filename === 'index.md') {
+      return false;
+    }
+
+    // Also exclude a pretty-URL index that is the parent of other docs in this folder
+    // (e.g. Anthocyanins listed as a child of Polyphenols).
+    const isFolderIndex = uniqueSubstances.some((other: Document) => {
+      if (!other.permalink || other.permalink === substance.permalink) return false;
+      const otherPath = other.permalink.replace(/^\/docs\//, '').replace(/\/$/, '');
+      return otherPath.startsWith(`${permalinkPath}/`);
+    });
+    if (isFolderIndex) {
       return false;
     }
     

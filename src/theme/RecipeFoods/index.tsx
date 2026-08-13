@@ -442,9 +442,15 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
 
   const displayNutrientAmount = (raw: number) => (weighted ? raw / recipeServings : raw)
 
+  const isVisibleNutrient = (key: string) => {
+    if (!nutrientTotals.has(key)) return false
+    const v = displayNutrientAmount(nutrientTotals.get(key) || 0)
+    if (weighted && isTraceTotal(key, v)) return false
+    return true
+  }
+
   const formatTotal = (key: string, value: number) => {
     const v = displayNutrientAmount(value)
-    if (weighted && isTraceTotal(key, v)) return "trace"
     const unit = NUTRIENT_LABELS[key]?.unit || ""
     const decimals = key === "kcal" ? 0 : 1
     return `${v.toFixed(decimals)} ${unit}`.trim()
@@ -452,7 +458,6 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
 
   const formatRda = (key: string, value: number) => {
     const v = displayNutrientAmount(value)
-    if (weighted && isTraceTotal(key, v)) return "—"
     if (key === "protein_g") {
       const minTarget = PROTEIN_REF_G_PER_KG * PROTEIN_REFERENCE_BODY_WEIGHT_KG_MIN
       const maxTarget = PROTEIN_REF_G_PER_KG * PROTEIN_REFERENCE_BODY_WEIGHT_KG_MAX
@@ -467,7 +472,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
 
   const nutrientRows = (keys: readonly string[]) =>
     keys
-      .filter((key) => nutrientTotals.has(key))
+      .filter((key) => isVisibleNutrient(key))
       .map((key) => (
         <tr key={key}>
           <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{NUTRIENT_LABELS[key]?.label || key}</td>
@@ -484,6 +489,10 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
   const microRows = nutrientRows(MICRONUTRIENT_KEYS)
   const bioactiveKeys = [...BIOACTIVE_LIPID_KEYS, "omega3_mg"] as const
   const bioactiveRows = nutrientRows(bioactiveKeys)
+  const polyphenolDisplayMg = displayNutrientAmount(polyphenolTotalMg)
+  const polyphenolIsTrace = weighted && polyphenolDisplayMg > 0 && polyphenolDisplayMg < 0.05
+  const showPolyphenolRow =
+    (polyphenolDisplayMg > 0 && !polyphenolIsTrace) || (polyphenolDisplayMg <= 0 && hasQualitativePolyphenol)
 
   return (
     <div className="bok-tag-list">
@@ -517,7 +526,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
         </div>
       </details>
 
-      {(coreRows.length > 0 || microRows.length > 0 || bioactiveRows.length > 0 || polyphenolFoodDocs.length > 0) && (
+      {(coreRows.length > 0 || microRows.length > 0 || bioactiveRows.length > 0 || showPolyphenolRow) && (
         <div style={{marginTop: "1rem"}}>
           <h3 style={{marginBottom: "0.5rem"}}>Recipe nutrition</h3>
           <p style={{fontSize: "0.9em", color: "var(--ifm-color-content-secondary)", marginTop: 0}}>
@@ -525,8 +534,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
               <>
                 Totals are <strong>calculated</strong> from each food’s USDA-linked nutrient panel (per 100 g)
                 on our site, multiplied by the <strong>grams of that food in this recipe</strong>—even small
-                amounts (e.g. a few grams of herbs). Values marked <strong>trace</strong> round to negligible at
-                this scale.
+                amounts (e.g. a few grams of herbs). Negligible totals are omitted.
                 {recipeServings > 1 ? (
                   <> Figures are <strong>per serving</strong> (this recipe serves {recipeServings}).</>
                 ) : null}
@@ -564,7 +572,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
                   </td>
                 </tr>
               )}
-              {CORE_NUTRIENT_KEYS.filter((key) => nutrientTotals.has(key)).map((key) => (
+              {CORE_NUTRIENT_KEYS.filter((key) => isVisibleNutrient(key)).map((key) => (
                 <tr key={key}>
                   <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
                     {key === "protein_g" ? "Protein*" : NUTRIENT_LABELS[key]?.label || key}
@@ -590,7 +598,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
                   </td>
                 </tr>
               )}
-              {MICRONUTRIENT_KEYS.filter((key) => nutrientTotals.has(key)).map((key) => (
+              {MICRONUTRIENT_KEYS.filter((key) => isVisibleNutrient(key)).map((key) => (
                 <tr key={key}>
                   <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{NUTRIENT_LABELS[key]?.label || key}</td>
                   <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
@@ -614,7 +622,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
                   </td>
                 </tr>
               )}
-              {bioactiveKeys.filter((key) => nutrientTotals.has(key)).map((key) => (
+              {bioactiveKeys.filter((key) => isVisibleNutrient(key)).map((key) => (
                 <tr key={key}>
                   <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{NUTRIENT_LABELS[key]?.label || key}</td>
                   <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
@@ -628,21 +636,18 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
                   </td>
                 </tr>
               ))}
+              {showPolyphenolRow && (
               <tr>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>Polyphenols (proxy)</td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{renderFoodList(polyphenolFoodDocs)}</td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                  {(() => {
-                    const pm = displayNutrientAmount(polyphenolTotalMg)
-                    if (pm > 0) {
-                      if (weighted && pm < 0.05) return "trace"
-                      return `${pm.toFixed(1)} mg${hasQualitativePolyphenol ? " + varies" : ""}`
-                    }
-                    return hasQualitativePolyphenol ? "Varies by product / preparation" : "—"
-                  })()}
+                  {polyphenolDisplayMg > 0
+                    ? `${polyphenolDisplayMg.toFixed(1)} mg${hasQualitativePolyphenol ? " + varies" : ""}`
+                    : "Varies by product / preparation"}
                 </td>
                 <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>—</td>
               </tr>
+              )}
             </tbody>
           </table>
           <p style={{fontSize: "0.85em", color: "var(--ifm-color-content-secondary)", marginTop: "0.5rem"}}>
