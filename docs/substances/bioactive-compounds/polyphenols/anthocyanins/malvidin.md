@@ -2,7 +2,7 @@
 id: malvidin
 title: Malvidin
 sidebar_label: Malvidin
-description: Anthocyanidin backbone abundant in many wine grapes and berry anthocyanins; studied for antioxidant and anti-inflammatory biological effects.
+description: Anthocyanidin parent compound; occurs in foods predominantly as glycosylated derivatives, notably in red/purple grapes and blueberries.
 tags:
   - Substance
   - Bioactive
@@ -10,17 +10,16 @@ tags:
   - Flavonoid
   - Anthocyanidin
   - Malvidin
-  - Inflammation
-  - Oxidative Stress
 list_image: /img/icons/bioactive.svg
-mechanisms:
-  Inflammation: Malvidin-linked polyphenol effects support dampening of inflammatory signalling within antioxidant-buffering dietary contexts.
-  Oxidative Stress: Malvidin-linked antioxidant effects contribute to redox buffering and lowered oxidative damage burden.
 ---
 
 ## Overview
 
-Malvidin is an anthocyanidin backbone found in many naturally occurring anthocyanins. Representative food sources in the BRAIN Diet include blueberries and red/purple grape varieties. Malvidin-linked polyphenols are positioned as antioxidant and anti-inflammatory supports that help reduce oxidative stress-driven physiological strain during sustained demand.
+Malvidin is one of the principal anthocyanidin structures found within dietary anthocyanins and occurs predominantly in foods as glycosylated derivatives rather than as free malvidin.
+
+Representative food sources in this ontology include blueberries and red/purple grape varieties. Grape and wine anthocyanins often include malvidin glycosides, but grape, wine, berry, and mixed-anthocyanin studies are not evidence of an isolated-malvidin effect.
+
+No single glycoside is treated here as a general preferred research form for malvidin across foods.
 
 ## Recipes
 
@@ -32,9 +31,8 @@ Malvidin is an anthocyanidin backbone found in many naturally occurring anthocya
 
 ## Biological Mechanisms and Implications
 
-<SubstanceMatrix tag="Malvidin" />
+No BRS mapping is assigned to malvidin as an isolated parent compound. Evidence from grapes, wine, berries, or mixed anthocyanin extracts is not treated as a malvidin effect. Class-level evidence is recorded on the [Anthocyanins](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/) family page.
 
 ## References
 
-- Berry / flavonoid cognitive evidence and neurotrophin-linked reasoning in aging. Hein & Whyte 2019. [Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
-- High-flavonoid intake and serum brain-derived neurotrophic factor (BDNF) linked cognitive evidence. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+Class-level citations previously listed here (blueberry interventions; high-flavonoid intake trials) do not study isolated malvidin and have been moved to the [Anthocyanins](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/) family page.

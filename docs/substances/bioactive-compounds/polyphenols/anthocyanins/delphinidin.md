@@ -2,7 +2,7 @@
 id: delphinidin
 title: Delphinidin
 sidebar_label: Delphinidin
-description: Anthocyanidin backbone associated with delphinidin-rich anthocyanins (e.g., nasunin-like pigments) found in deep-purple plant foods.
+description: Anthocyanidin parent compound; occurs in foods predominantly as glycosylated anthocyanins, including nasunin in aubergine peel.
 tags:
   - Substance
   - Bioactive
@@ -10,17 +10,16 @@ tags:
   - Flavonoid
   - Anthocyanidin
   - Delphinidin
-  - Inflammation
-  - Oxidative Stress
 list_image: /img/icons/bioactive.svg
-mechanisms:
-  Inflammation: Delphinidin-linked polyphenol biology supports reduction of inflammatory signalling that can otherwise impair neurovascular stability.
-  Oxidative Stress: Delphinidin-linked antioxidant effects contribute to redox buffering and lowered oxidative damage burden.
 ---
 
 ## Overview
 
-Delphinidin is an anthocyanidin backbone found in deep-purple plant pigments (including nasunin in aubergine peel). Representative food sources include blueberries, aubergine, and pomegranate. Delphinidin-linked anthocyanins are positioned as antioxidant and anti-inflammatory supports in dietary patterns that sustain brain and vascular resilience.
+Delphinidin is one of the principal anthocyanidin structures found within dietary anthocyanins and occurs predominantly in foods as glycosylated derivatives rather than as free delphinidin.
+
+In aubergine peel, a well-described dietary form is **nasunin**, an acylated delphinidin glycoside. Nasunin is not synonymous with delphinidin, and findings from nasunin or from purple-food interventions should not be attributed to isolated delphinidin. Other foods in this ontology that contain delphinidin-based anthocyanins include blueberries, pomegranates, and red/purple grapes.
+
+No single glycoside is treated here as a general “preferred research form” across all delphinidin-containing foods.
 
 ## Recipes
 
@@ -32,9 +31,8 @@ Delphinidin is an anthocyanidin backbone found in deep-purple plant pigments (in
 
 ## Biological Mechanisms and Implications
 
-<SubstanceMatrix tag="Delphinidin" />
+No BRS mapping is assigned to delphinidin as an isolated parent compound. Evidence from anthocyanin-rich foods, mixed extracts, or named glycosides such as nasunin is not treated as a delphinidin effect. Class-level evidence is recorded on the [Anthocyanins](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/) family page.
 
 ## References
 
-- Systematic review / high-flavonoid intake evidence linked to cognitive and neurotrophin endpoints in aging (with berry and purple-pigment polyphenol context). Hein & Whyte 2019. [Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
-- Polyphenols and antioxidant networks discussed in relation to gut microbiota and neurotransmitter-relevant metabolite profiles. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+Class-level citations previously listed here (blueberry interventions; food-derived bioactives and gut microbiota) do not study isolated delphinidin and have been moved to the [Anthocyanins](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/) family page.
