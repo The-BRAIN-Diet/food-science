@@ -171,6 +171,8 @@ const config: Config = {
           ignorePatterns: [
             '/tags/**',
             '/docs/tags/docs/tags/**',
+            '/brs-cross-framework-dietary-architecture',
+            '/brs-cross-framework-dietary-architecture/',
             ...(includeInternalRecipeWip ? [] : ['/docs/recipes/WIP/**']),
           ],
           filename: 'sitemap.xml',
@@ -195,6 +197,7 @@ const config: Config = {
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         indexPages: true,
+        ignoreFiles: [/brs-cross-framework-dietary-architecture/],
       },
     ],
     [
