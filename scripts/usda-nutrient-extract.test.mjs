@@ -66,11 +66,15 @@ test("SR Legacy almond-style panel outranks abbreviated Foundation", () => {
   assert.ok(scoreCandidate("SR Legacy", sr) > scoreCandidate("Foundation", foundation))
 })
 
-test("extractNutrients does not treat alanine as ALA", () => {
-  const out = extractNutrients({
+test("extractNutrients maps generic PUFA 18:3 as ALA and still ignores alanine", () => {
+  const named = extractNutrients({
     foodNutrients: [nutrient("Alanine", 0.999, "g"), nutrient("PUFA 18:3 n-3 c,c,c", 0.003, "g")],
   })
-  assert.equal(out.ala_mg, 3)
+  assert.equal(named.ala_mg, 3)
+  const generic = extractNutrients({
+    foodNutrients: [nutrient("Alanine", 0.011, "g"), nutrient("PUFA 18:3", 0.009, "g")],
+  })
+  assert.equal(generic.ala_mg, 9)
 })
 
 test("almond editorial substances resolve to table rows", () => {

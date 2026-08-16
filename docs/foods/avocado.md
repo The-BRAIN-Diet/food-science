@@ -12,11 +12,10 @@ tags:
   - Potassium
   - Lutein
   - Beta-Carotene
-  - Carotenoid
 list_image: /img/foods/avocado/avocado_thumb.webp
 nutrition_per_100g:
   caprylic_g: 0.001
-  ala_mg: 100
+  ala_mg: 111
   vitamin_c_mg: 10
   vitamin_b1_mg: 0.067
   vitamin_a_rae_ug: 7
@@ -48,14 +47,14 @@ nutrition_per_100g:
   carbs_g: 8.53
   kcal: 160
   choline_mg: 14.2
-  omega3_mg: 100
+  omega3_mg: 111
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Avocados, raw, all commercial varieties'
   fdc_id: 171705
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-08-15'
+  last_checked: '2026-08-16'
 main_image: /img/foods/avocado/avocado_medium.webp
 legacy_list_image: /img/foods/avocado/avocado_thumb.webp
 legacy_main_image: /img/foods/avocado/avocado_medium.webp
@@ -65,10 +64,11 @@ legacy_main_image: /img/foods/avocado/avocado_medium.webp
 Avocado is a **monounsaturated-fat-rich** fruit providing oleic acid, fibre, potassium, and fat-soluble-friendly delivery of co-ingested carotenoids when eaten with vegetables [1,2]. Dietary fat supports chylomicron packaging of carotenoids and related absorption pathways [1].
 
 Within the BRAIN Diet framework, avocado functions as a whole-food fat source that improves carotenoid bioavailability from salads and vegetable dishes [2], while contributing fibre and potassium at moderate energy density.
+
 ## Key Nutritional Highlights
 
 - Monounsaturated-fat matrix supports carotenoid absorption from co-ingested vegetables [1,2].
-- Fibre and potassium at moderate energy density (~160–200 kcal per 100 g, cultivar-dependent).
+- Fibre (6.7 g) and potassium (485 mg) at moderate energy density (160 kcal per 100 g).
 - Whole-food fat source preferable to refined oils when the goal is meal-matrix micronutrient absorption [2].
 - Typical portions are much smaller than 100 g; nutrient totals scale with serving size.
 ## Food Context

@@ -38,7 +38,7 @@ import {
 import { loadSubstanceLookup, substancePageForLabel } from "./lib/food-truth-reconciliation.mjs"
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const SKIP_SLUGS = new Set(["index", "shopping-list"])
+const SKIP_SLUGS = new Set(["index", "shopping-list", "algal-oil"])
 
 const NUTRIENT_LABELS = Object.fromEntries(
   Object.entries(NUTRIENT_LABEL_META).map(([key, meta]) => [key, meta.label]),

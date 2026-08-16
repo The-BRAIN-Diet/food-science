@@ -24,6 +24,7 @@ import {
   labelsOverlap,
   overviewHeadlineCompounds,
   publicTableRows,
+  rowEvidencesCompound,
   tableBackedLabels,
 } from "./food-truth-levels.mjs"
 
@@ -118,13 +119,14 @@ function editorialMissingFromTables(fm) {
   )
 }
 
-function overviewMissingFromTables(fm, markdownBody = "") {
+export function overviewMissingFromTables(fm, markdownBody = "") {
   const tableLabels = tableBackedLabels(fm)
-  const allLabels = allTableRows(fm).map((row) => row.label)
+  const allRows = allTableRows(fm)
   return overviewHeadlineCompounds(fm, markdownBody).filter((compound) => {
     const inPublic = tableLabels.some((label) => labelsOverlap(compound, label))
-    const inAny = allLabels.some((label) => labelsOverlap(compound, label))
-    return !inPublic && !inAny
+    const inAny = allRows.some((row) => labelsOverlap(compound, row.label))
+    const inRowText = allRows.some((row) => rowEvidencesCompound(row, compound))
+    return !inPublic && !inAny && !inRowText
   })
 }
 

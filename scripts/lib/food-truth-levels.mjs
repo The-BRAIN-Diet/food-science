@@ -465,6 +465,42 @@ export function quantitativeTableRows(fm) {
   return rows
 }
 
+export function authorisedSpecificationRows(fm) {
+  const spec = fm.nutrition_authorised_specifications
+  if (!spec || typeof spec !== "object" || !Array.isArray(spec.rows)) return []
+  const sourceNote = [
+    typeof spec.source_name === "string" ? spec.source_name.trim() : "",
+    typeof spec.source_url === "string" ? spec.source_url.trim() : "",
+    typeof spec.accessed === "string" ? `accessed ${spec.accessed.trim()}` : "",
+  ]
+    .filter(Boolean)
+    .join(" · ")
+  const rows = []
+  for (const row of spec.rows) {
+    if (!row || typeof row !== "object") continue
+    const supports = Array.isArray(row.supports) ? row.supports : []
+    for (const label of supports) {
+      if (typeof label !== "string" || !label.trim()) continue
+      const isEpa = /epa/i.test(label)
+      rows.push({
+        level: "extended",
+        key: `spec_${String(row.formulation || "row")
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, "_")}_${isEpa ? "epa" : "dha"}`,
+        label: label.trim(),
+        value: null,
+        unit: "",
+        amount_display: isEpa ? String(row.epa || "").trim() : String(row.dha || "").trim(),
+        status: "Regulatory minimum specification",
+        source_note: sourceNote,
+        quantitative: false,
+        qualitative: true,
+      })
+    }
+  }
+  return rows
+}
+
 export function supplementaryTableRows(fm) {
   const list = Array.isArray(fm.nutrition_supplementary_sources) ? fm.nutrition_supplementary_sources : []
   return list
@@ -483,6 +519,7 @@ export function supplementaryTableRows(fm) {
         amount_display: display,
         status,
         source_note: sourceNote,
+        notes: typeof s.notes === "string" ? s.notes.trim() : "",
         public_display: typeof s.public_display === "string" ? s.public_display.trim() : undefined,
         quantitative: hasNumeric,
         qualitative: !hasNumeric && (display.length > 0 || status.length > 0),
@@ -490,15 +527,28 @@ export function supplementaryTableRows(fm) {
     })
 }
 
+/** True when a table row evidences a named compound via its label or qualitative text. */
+export function rowEvidencesCompound(row, compound) {
+  if (!row || !compound) return false
+  if (row.label && labelsOverlap(compound, row.label)) return true
+  const blob = [row.amount_display, row.status, row.notes, row.source_note]
+    .filter((part) => typeof part === "string" && part.trim())
+    .join(" ")
+  if (!blob) return false
+  const escaped = String(compound).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+  return new RegExp(`\\b${escaped}\\b`, "i").test(blob)
+}
+
 export function allTableRows(fm) {
-  return [...quantitativeTableRows(fm), ...supplementaryTableRows(fm)]
+  return [...quantitativeTableRows(fm), ...supplementaryTableRows(fm), ...authorisedSpecificationRows(fm)]
 }
 
 /** Rows the public NutritionTable should render. Internal values remain in front matter. */
 export function publicTableRows(fm) {
   const quantitative = quantitativeTableRows(fm).filter((row) => isPublicTableKey(fm, row.key))
   const supplementary = supplementaryTableRows(fm).filter((row) => isPublicSupplementaryRow(fm, row))
-  return [...quantitative, ...supplementary]
+  const authorised = authorisedSpecificationRows(fm)
+  return [...quantitative, ...supplementary, ...authorised]
 }
 
 export function tableBackedLabels(fm) {

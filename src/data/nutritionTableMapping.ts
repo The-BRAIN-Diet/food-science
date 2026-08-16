@@ -361,6 +361,56 @@ export function isPublicSupplementaryRow(
   return typeof row.value === "number" && row.value > 0
 }
 
+export type AuthorisedSpecificationRow = {
+  formulation: string
+  dha: string
+  epa: string
+  interpretation: string
+  supports?: string[]
+}
+
+export type AuthorisedSpecifications = {
+  title?: string
+  caption?: string
+  source_name?: string
+  source_url?: string
+  accessed?: string
+  rows: AuthorisedSpecificationRow[]
+}
+
+export function readAuthorisedSpecifications(
+  fm: Record<string, unknown>,
+): AuthorisedSpecifications | null {
+  const raw = fm.nutrition_authorised_specifications
+  if (!raw || typeof raw !== "object") return null
+  const spec = raw as AuthorisedSpecifications
+  if (!Array.isArray(spec.rows) || spec.rows.length === 0) return null
+  const rows = spec.rows.filter(
+    (row) =>
+      row &&
+      typeof row.formulation === "string" &&
+      typeof row.dha === "string" &&
+      typeof row.epa === "string" &&
+      typeof row.interpretation === "string",
+  )
+  if (!rows.length) return null
+  return {...spec, rows}
+}
+
+/** Labels from authorised-specification rows that may back a Substances card. */
+export function authorisedSpecificationSupportLabels(fm: Record<string, unknown>): string[] {
+  const spec = readAuthorisedSpecifications(fm)
+  if (!spec) return []
+  const labels: string[] = []
+  for (const row of spec.rows) {
+    if (!Array.isArray(row.supports)) continue
+    for (const label of row.supports) {
+      if (typeof label === "string" && label.trim()) labels.push(label.trim())
+    }
+  }
+  return labels
+}
+
 export function resolvePublicDisplayForTag(fm: Record<string, unknown>, tag: string): PublicDisplayStatus {
   const explicit = explicitDisplay(fm, tag)
   if (explicit) return explicit
@@ -384,6 +434,9 @@ export function resolvePublicDisplayForTag(fm: Record<string, unknown>, tag: str
     if (row?.label && substanceLabelsOverlap(tag, row.label) && isPublicSupplementaryRow(fm, row)) {
       return PUBLIC_DISPLAY.TABLE
     }
+  }
+  for (const label of authorisedSpecificationSupportLabels(fm)) {
+    if (substanceLabelsOverlap(tag, label)) return PUBLIC_DISPLAY.TABLE
   }
   return PUBLIC_DISPLAY.SUBSTANCE_ONLY
 }

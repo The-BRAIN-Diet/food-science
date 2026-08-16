@@ -6,6 +6,7 @@ import InChIImage from "../InChIImage"
 import {
   NUTRIENT_ORDER,
   NUTRIENT_LABELS,
+  authorisedSpecificationSupportLabels,
   isPublicSupplementaryRow,
   isPublicTableKey,
   isTraceContribution,
@@ -48,7 +49,7 @@ interface FoodSubstancesFromTableProps {
   details: Record<string, unknown>
 }
 
-function DocItemImage({doc}: {doc: Document}) {
+function DocItemImage({doc, caption}: {doc: Document; caption?: string}) {
   const isSubstance = doc.permalink.includes("/substances/")
   const inchikey = doc.frontMatter.inchikey as string | undefined
   const inchiImage = doc.frontMatter.inchi_image as string | undefined
@@ -57,6 +58,7 @@ function DocItemImage({doc}: {doc: Document}) {
   const ionMatch = ionNotation?.match(/^([A-Za-z]+)(\d*[+-])$/)
   const ionBase = ionMatch?.[1] ?? ionNotation
   const ionCharge = ionMatch?.[2] ?? null
+  const body = caption || (typeof doc.description === "string" ? doc.description : undefined)
 
   return (
     <article key={doc.title} className="margin-vert--lg">
@@ -79,7 +81,7 @@ function DocItemImage({doc}: {doc: Document}) {
           <Link to={doc.permalink}>
             <h3>{doc.title}</h3>
           </Link>
-          {doc.description && <p>{doc.description}</p>}
+          {body && <p>{body}</p>}
         </div>
       </div>
     </article>
@@ -146,6 +148,24 @@ const EXCLUDED_SUBSTANCE_KEYS = new Set([
   "fibre_g",
   "omega3_mg", // aggregate; only show component rows (EPA, DHA, etc.) as substances
 ])
+
+function substanceCardCaption(
+  details: Record<string, unknown>,
+  label: string,
+  doc: Document | null,
+): string | undefined {
+  const map = details.substance_card_captions
+  if (!map || typeof map !== "object" || Array.isArray(map)) return undefined
+  const captions = map as Record<string, unknown>
+  const candidates = [label, doc?.title, doc ? String(doc.title).split("(")[0].trim() : ""]
+  for (const [key, value] of Object.entries(captions)) {
+    if (typeof value !== "string" || !value.trim()) continue
+    if (candidates.some((candidate) => candidate && substanceLabelsOverlap(candidate, key))) {
+      return value.trim()
+    }
+  }
+  return undefined
+}
 
 /**
  * FoodSubstancesFromTable
@@ -272,6 +292,9 @@ export default function FoodSubstancesFromTable({
     if (!isPublicSupplementaryRow(details, sup)) continue
     tableLabels.push(sup.label)
   }
+  for (const label of authorisedSpecificationSupportLabels(details)) {
+    tableLabels.push(label)
+  }
   const labelsInOrder = supplementary
     .filter((sup) => isPublicSupplementaryRow(details, sup))
     .map((sup) => sup.label)
@@ -350,15 +373,17 @@ export default function FoodSubstancesFromTable({
           {merged.length} substance{merged.length !== 1 ? "s" : ""} in this food
         </summary>
         <div style={{marginTop: "1rem"}}>
-          {merged.map(({label, doc}) =>
-            doc ? (
-              <DocItemImage key={doc.permalink} doc={doc} />
+          {merged.map(({label, doc}) => {
+            const caption = substanceCardCaption(details, label, doc)
+            return doc ? (
+              <DocItemImage key={doc.permalink} doc={doc} caption={caption} />
             ) : (
               <div key={label} style={{marginBottom: "0.75rem"}}>
                 <strong>{label}</strong>
+                {caption && <p style={{marginTop: "0.25rem"}}>{caption}</p>}
               </div>
             )
-          )}
+          })}
         </div>
       </details>
     </div>

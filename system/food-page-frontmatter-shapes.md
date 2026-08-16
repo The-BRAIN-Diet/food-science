@@ -145,6 +145,7 @@ nutrition_source:
 | nutrition_source | Required when nutrition_per_100g present | Required |
 | overview_key_compounds | Optional (deterministic trigger for Script B; else bold phrases in Overview) | Optional |
 | nutrition_supplementary_sources | Optional (when missing compound added from literature) | Optional |
+| nutrition_authorised_specifications | Optional (specialist products without a USDA match, e.g. algal oil) | Optional |
 
 ---
 

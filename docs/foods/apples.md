@@ -10,7 +10,6 @@ tags:
   - Vegetarian
   - Vitamin C
   - Quercetin
-  - Polyphenol
 list_image: /img/foods/apples/apples_thumb.webp
 nutrition_per_100g:
   folate_ug: 3
@@ -42,16 +41,16 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.017
   vitamin_b2_mg: 0.026
   protein_g: 0.26
-  ala_mg: 11
+  ala_mg: 9
   vitamin_c_mg: 4.6
-  omega3_mg: 11
+  omega3_mg: 9
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Apples, raw, with skin (Includes foods for USDA''s Food Distribution Program)'
   fdc_id: 171688
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-08-15'
+  last_checked: '2026-08-16'
 main_image: /img/foods/apples/apples_medium.webp
 legacy_list_image: /img/foods/apples/apples_thumb.webp
 legacy_main_image: /img/foods/apples/apples_medium.webp
@@ -74,9 +73,9 @@ Within the BRAIN Diet framework, apples are best used as **whole fruit** rather 
 ## Key Nutritional Highlights
 
 - Intact apple structure blunts postprandial glycemic and insulin responses compared with juice [1].
-- **Pectin** soluble fibre (~3.2 g per 100 g) is embedded in a cell-wall matrix that slows nutrient release [5].
+- **Pectin** is the main soluble-fibre fraction of total fibre (2.4 g per 100 g); USDA SR Legacy does not report pectin separately [5].
 - **Quercetin** and related flavonols make apples a major dietary polyphenol source [3,4].
-- Low energy density (~52 kcal per 100 g) suits whole-fruit snacking within mixed meals.
+- Low energy density (52 kcal per 100 g) suits whole-fruit snacking within mixed meals.
 
 ## Food Context
 
@@ -111,6 +110,6 @@ Within the BRAIN Diet framework, apples are best used as **whole fruit** rather 
 
 [4] Pair with dietary fat within mixed meals when polyphenol absorption is a priority; fat can enhance uptake of some flavonoid classes. Boots & Haenen 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
 
-[5] **Pectin** soluble fibre (~3.2 g per 100 g) is embedded in a cell-wall matrix that slows nutrient release. Holland & Ryden 2020. [Plant Cell Walls: Impact on Nutrient Bioaccessibility and Digestibility](/docs/papers/BRAIN-Diet-References#holland_plant_2020)
+[5] **Pectin** is the main soluble-fibre fraction of total fibre (2.4 g per 100 g); USDA SR Legacy does not report pectin separately. Holland & Ryden 2020. [Plant Cell Walls: Impact on Nutrient Bioaccessibility and Digestibility](/docs/papers/BRAIN-Diet-References#holland_plant_2020)
 
 [6] Include as one component of diverse fruit and prebiotic-fibre intake rather than relying on apples alone. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

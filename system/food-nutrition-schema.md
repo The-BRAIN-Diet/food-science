@@ -94,6 +94,9 @@ The UI splits `nutrition_per_100g` into **sub-tables** for readability:
 2. **Vitamins and minerals** — minerals and vitamins (iron through vitamin K, including phosphorus, manganese, copper, riboflavin, and vitamin E when present).  
 3. **Fatty acids and extended BRAIN-relevant substances** — (a) individual fatty acids **linoleic acid, ALA, EPA, DHA** from `nutrition_per_100g` when present; (b) **`nutrition_supplementary_sources`** (polyphenols, nutrient forms, literature-only analytes, etc.). Uses columns *Compound / class · Amount · Notes*; values marked `*` are explained in **Source notes** below the block. Qualitative rows use `Present — quantity not established` when presence is evidenced but no defensible per-100 g value exists.  
 4. **Optional functional metrics** — optional front matter `nutrition_functional_metrics` (e.g. total polyphenol proxies, antioxidant capacity) when a defensible, cited value or qualitative label exists.
+5. **Representative authorised specifications** — for source-variable specialist products that must not use a USDA proxy (currently algal oil). Front matter `nutrition_authorised_specifications` renders Formulation · DHA · EPA · Interpretation. Values are **regulatory minima**, not measured averages, and must not be inferred from a different oil.
+
+Do **not** invent energy, total fat, or other USDA panel values for a specialist product that has no matching food-composition record.
 
 ---
 

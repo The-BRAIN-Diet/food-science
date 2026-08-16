@@ -18,12 +18,13 @@ import { fileURLToPath } from "node:url"
 import matter from "gray-matter"
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const SKIP_SLUGS = new Set(["index", "shopping-list"])
+const SKIP_SLUGS = new Set(["index", "shopping-list", "algal-oil"])
 
 const NUTRITION_KEYS = [
   "nutrition_per_100g",
   "nutrition_source",
   "nutrition_supplementary_sources",
+  "nutrition_authorised_specifications",
   "nutrition_functional_metrics",
   "protein_profile_note",
   "amino_acid_strengths",
@@ -48,6 +49,9 @@ function buildPayloadFromFrontMatter(data) {
     nutrition_source: data.nutrition_source || {},
   }
   if (data.nutrition_supplementary_sources?.length) payload.nutrition_supplementary_sources = data.nutrition_supplementary_sources
+  if (data.nutrition_authorised_specifications?.rows?.length) {
+    payload.nutrition_authorised_specifications = data.nutrition_authorised_specifications
+  }
   if (data.protein_profile_note != null) payload.protein_profile_note = data.protein_profile_note
   if (data.amino_acid_strengths != null) payload.amino_acid_strengths = data.amino_acid_strengths
   if (data.limiting_amino_acids != null) payload.limiting_amino_acids = data.limiting_amino_acids
