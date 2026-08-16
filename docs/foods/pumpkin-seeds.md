@@ -16,21 +16,50 @@ tags:
   - Polyphenol
 list_image: /img/foods/pumpkin-seeds/pumpkin-seeds_thumb.webp
 nutrition_per_100g:
-  kcal: 600
-  protein_g: 23.33
-  calcium_mg: 0
-  sat_fat_g: 8.33
-  fat_g: 46.67
-  fibre_g: 3.3
-  carbs_g: 13.33
-  iron_mg: 9
+  carbs_g: 10.71
+  kcal: 559
+  vitamin_e_mg: 2.18
+  tryptophan_g: 0.576
+  ala_mg: 120
+  tyrosine_g: 1.093
+  vitamin_c_mg: 1.9
+  folate_ug: 58
+  choline_mg: 63
+  protein_g: 30.23
+  vitamin_a_rae_ug: 1
+  beta_carotene_ug: 9
+  fibre_g: 6
+  iron_mg: 8.82
+  magnesium_mg: 592
+  phosphorus_mg: 1233
+  sodium_mg: 7
+  copper_mg: 1.343
+  manganese_mg: 4.543
+  vitamin_k_ug: 7.3
+  vitamin_b1_mg: 0.273
+  vitamin_b2_mg: 0.153
+  sat_fat_g: 8.659
+  linoleic_g: 20.667
+  lutein_zeaxanthin_ug: 74
+  vitamin_b3_mg: 4.987
+  vitamin_b5_mg: 0.75
+  vitamin_b6_mg: 0.143
+  caproic_g: 0.001
+  capric_g: 0.003
+  sugar_g: 1.4
+  calcium_mg: 46
+  potassium_mg: 809
+  zinc_mg: 7.81
+  selenium_ug: 9.4
+  fat_g: 49.05
+  omega3_mg: 120
 nutrition_source:
   database: USDA FoodData Central
-  food_name: PUMPKIN SEEDS
-  fdc_id: 2027948
-  retrieval_method: API
+  food_name: 'Seeds, pumpkin and squash seed kernels, dried'
+  fdc_id: 170556
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/pumpkin-seeds/pumpkin-seeds_medium.webp
 legacy_list_image: /img/foods/pumpkin-seeds/pumpkin-seeds_thumb.webp
 legacy_main_image: /img/foods/pumpkin-seeds/pumpkin-seeds_medium.webp

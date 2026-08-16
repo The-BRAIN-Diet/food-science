@@ -13,25 +13,57 @@ tags:
   - Polyphenol
 list_image: /img/foods/apples/apples_thumb.webp
 nutrition_per_100g:
-  potassium_mg: 110
-  fat_g: 0
+  folate_ug: 3
+  choline_mg: 3.4
+  carbs_g: 13.81
   kcal: 52
-  calcium_mg: 0
-  iron_mg: 0.23
-  protein_g: 0
-  sat_fat_g: 0
-  fibre_g: 3.2
-  carbs_g: 14.29
+  linoleic_g: 0.043
+  sat_fat_g: 0.028
+  vitamin_e_mg: 0.18
+  fat_g: 0.17
+  lutein_zeaxanthin_ug: 29
+  vitamin_b3_mg: 0.091
+  vitamin_b5_mg: 0.061
+  vitamin_b6_mg: 0.041
+  sugar_g: 10.39
+  calcium_mg: 6
+  potassium_mg: 107
+  zinc_mg: 0.04
+  vitamin_k_ug: 2.2
+  vitamin_a_rae_ug: 3
+  beta_carotene_ug: 27
+  fibre_g: 2.4
+  iron_mg: 0.12
+  magnesium_mg: 5
+  phosphorus_mg: 11
+  sodium_mg: 1
+  copper_mg: 0.027
+  manganese_mg: 0.035
+  vitamin_b1_mg: 0.017
+  vitamin_b2_mg: 0.026
+  protein_g: 0.26
+  ala_mg: 11
+  vitamin_c_mg: 4.6
+  omega3_mg: 11
 nutrition_source:
   database: USDA FoodData Central
-  food_name: APPLES
-  fdc_id: 2058694
-  retrieval_method: API
+  food_name: 'Apples, raw, with skin (Includes foods for USDA''s Food Distribution Program)'
+  fdc_id: 171688
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/apples/apples_medium.webp
 legacy_list_image: /img/foods/apples/apples_thumb.webp
 legacy_main_image: /img/foods/apples/apples_medium.webp
+nutrition_supplementary_sources:
+  - key: quercetin_qual
+    label: Quercetin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
+      reports quercetin glycosides in Apples; a single defensible per-100 g
+      value is not taken from the abbreviated USDA nutrient panel.
 ---
 ## Overview
 

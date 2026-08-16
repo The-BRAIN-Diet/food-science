@@ -18,44 +18,46 @@ tags:
   - Vitamin B6
   - Vitamin B9
   - Choline
-  - Tryptophan
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
 list_image: /img/foods/quinoa/quinoa_thumb.webp
 nutrition_per_100g:
-  kcal: 368
-  protein_g: 14.12
-  fat_g: 6.07
-  carbs_g: 64.16
+  vitamin_a_rae_ug: 1
+  beta_carotene_ug: 8
   fibre_g: 7
-  calcium_mg: 47
   iron_mg: 4.57
   magnesium_mg: 197
+  phosphorus_mg: 457
+  sodium_mg: 5
+  copper_mg: 0.59
+  manganese_mg: 2.033
+  vitamin_b1_mg: 0.36
+  vitamin_b2_mg: 0.318
+  folate_ug: 184
+  sat_fat_g: 0.706
+  dha_mg: 47
+  protein_g: 14.12
+  fat_g: 6.07
+  calcium_mg: 47
   potassium_mg: 563
   zinc_mg: 3.1
   selenium_ug: 8.5
+  vitamin_e_mg: 2.44
+  lutein_zeaxanthin_ug: 163
+  vitamin_b3_mg: 1.52
+  vitamin_b5_mg: 0.772
   vitamin_b6_mg: 0.487
-  folate_ug: 184
   choline_mg: 70.2
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.706
-  epa_mg: 0
-  dha_mg: 47
+  linoleic_g: 2.977
+  carbs_g: 64.16
+  kcal: 368
   ala_mg: 588
   omega3_mg: 635
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Quinoa, uncooked'
   fdc_id: 168874
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/quinoa/quinoa_medium.webp
 legacy_list_image: /img/foods/quinoa/quinoa_thumb.webp
 legacy_main_image: /img/foods/quinoa/quinoa_medium.webp

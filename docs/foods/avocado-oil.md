@@ -9,25 +9,31 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin E
-  - Lutein
   - Carotenoid
 list_image: /img/foods/avocado-oil/avocado-oil_thumb.webp
 nutrition_per_100g:
-  carbs_g: 0
-  sat_fat_g: 13.33
-  fat_g: 93.33
-  kcal: 800
-  protein_g: 0
+  sat_fat_g: 11.56
+  fat_g: 100
+  kcal: 884
+  linoleic_g: 12.53
 nutrition_source:
   database: USDA FoodData Central
-  food_name: AVOCADO OIL
-  fdc_id: 1857558
-  retrieval_method: API
+  food_name: 'Oil, avocado'
+  fdc_id: 173573
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/avocado-oil/avocado-oil_medium.webp
 legacy_list_image: /img/foods/avocado-oil/avocado-oil_thumb.webp
 legacy_main_image: /img/foods/avocado-oil/avocado-oil_medium.webp
+nutrition_supplementary_sources:
+  - key: vitamin_e_qual
+    label: Vitamin E
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Avocado Oil is a recognised α-tocopherol food; the selected USDA SR Legacy
+      record omits vitamin E, so quantity is not established from that panel.
 ---
 ## Overview
 

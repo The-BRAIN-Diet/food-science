@@ -14,36 +14,64 @@ tags:
   - Vitamin D
 list_image: /img/foods/mackerel/mackerel_thumb.webp
 nutrition_per_100g:
-  kcal: 305
-  protein_g: 18.5
-  fat_g: 25.1
-  carbs_g: 0
-  fibre_g: 0
-  calcium_mg: 66
-  iron_mg: 1.4
-  magnesium_mg: 60
-  potassium_mg: 520
-  zinc_mg: 1.1
-  selenium_ug: 73.4
-  vitamin_b6_mg: 0.41
-  folate_ug: 15
-  choline_mg: 101.6
-  vitamin_b12_ug: 0
-  sat_fat_g: 7.148
-  epa_mg: 1619
-  dha_mg: 2965
-  omega3_mg: 4584
+  vitamin_k_ug: 5
+  vitamin_d_ug: 16.1
+  vitamin_a_rae_ug: 50
+  vitamin_e_mg: 1.52
+  choline_mg: 65
+  fat_g: 13.89
+  kcal: 205
+  linoleic_g: 0.219
+  calcium_mg: 12
+  potassium_mg: 314
+  zinc_mg: 0.63
+  vitamin_b3_mg: 9.08
+  vitamin_b5_mg: 0.856
+  vitamin_b6_mg: 0.399
+  protein_g: 18.6
+  iron_mg: 1.63
+  magnesium_mg: 76
+  phosphorus_mg: 217
+  sodium_mg: 90
+  copper_mg: 0.073
+  manganese_mg: 0.015
+  sat_fat_g: 3.257
+  vitamin_c_mg: 0.4
+  vitamin_b1_mg: 0.176
+  vitamin_b2_mg: 0.312
+  folate_ug: 1
+  vitamin_b12_ug: 8.71
+  ala_mg: 1125
+  dha_mg: 1401
+  epa_mg: 898
+  selenium_ug: 44.1
+  omega3_mg: 3424
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Fish, mackerel, salted'
-  fdc_id: 168149
-  retrieval_method: API
+  food_name: 'Fish, mackerel, Atlantic, raw'
+  fdc_id: 175119
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/mackerel/mackerel_medium.webp
 legacy_list_image: /img/foods/mackerel/mackerel_thumb.webp
 legacy_main_image: /img/foods/mackerel/mackerel_medium.webp
+nutrition_supplementary_sources:
+  - key: coq10_qual
+    label: CoQ10
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Food-composition surveys report coenzyme Q10 in Mackerel (e.g. Mattila &
+      Kumpulainen 2001); USDA SR Legacy does not include a CoQ10 field.
+  - key: taurine_qual
+    label: Taurine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Taurine is a characteristic free amino sulfonic acid in Mackerel; USDA SR
+      Legacy does not include a taurine field.
 ---
 ## Overview
 

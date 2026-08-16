@@ -18,31 +18,69 @@ tags:
   - Quercetin
 list_image: /img/foods/soy/soy_thumb.webp
 nutrition_per_100g:
-  kcal: 366
-  protein_g: 51.1
-  fat_g: 3.33
-  carbs_g: 32.9
-  calcium_mg: 338
-  iron_mg: 7.34
-  magnesium_mg: 313
-  potassium_mg: 2480
-  zinc_mg: 4.44
-  selenium_ug: 45.8
-  vitamin_b6_mg: 0.618
-  ala_mg: 2860
-  omega3_mg: 2860
+  vitamin_k_ug: 47
+  vitamin_a_rae_ug: 1
+  carbs_g: 30.16
+  kcal: 446
+  choline_mg: 115.9
+  sugar_g: 7.33
+  beta_carotene_ug: 13
+  tryptophan_g: 0.591
+  ala_mg: 1915
+  tyrosine_g: 1.539
+  protein_g: 36.49
+  sat_fat_g: 2.884
+  vitamin_c_mg: 6
+  vitamin_b1_mg: 0.874
+  vitamin_b2_mg: 0.87
+  folate_ug: 375
+  fibre_g: 9.3
+  iron_mg: 15.7
+  magnesium_mg: 280
+  phosphorus_mg: 704
+  sodium_mg: 2
+  copper_mg: 1.658
+  manganese_mg: 2.517
+  fat_g: 19.94
+  linoleic_g: 9.925
+  calcium_mg: 277
+  potassium_mg: 1797
+  zinc_mg: 4.89
+  vitamin_b3_mg: 1.623
+  vitamin_b5_mg: 0.793
+  vitamin_b6_mg: 0.377
+  vitamin_e_mg: 0.85
+  selenium_ug: 17.8
+  omega3_mg: 1915
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Flour, soy, defatted'
-  fdc_id: 1104705
-  retrieval_method: API
+  food_name: 'Soybeans, mature seeds, raw'
+  fdc_id: 174270
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
 main_image: /img/foods/soy/soy_large.webp
 legacy_list_image: /img/foods/soy/soy_thumb.webp
 legacy_main_image: /img/foods/soy/soy_large.webp
+nutrition_supplementary_sources:
+  - key: quercetin_qual
+    label: Quercetin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
+      reports quercetin glycosides in Soy; a single defensible per-100 g value
+      is not taken from the abbreviated USDA nutrient panel.
+  - key: genistein_qual
+    label: Genistein
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA Database for the Isoflavone Content of Selected Foods lists genistein
+      in Soy; the selected SR Legacy proximate panel does not include
+      isoflavones.
 ---
 ## Overview
 

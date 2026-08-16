@@ -21,31 +21,54 @@ tags:
   - Vitamin B6
   - Vitamin B9
   - Vitamin C
-  - Vitamin K2
   - Vitamin A
   - Lutein
   - Zeaxanthin
   - Beta-Carotene
   - Carotenoid
-  - CoQ10
+  - Vitamin K
 list_image: /img/foods/spinach/spinach_thumb.webp
 nutrition_per_100g:
-  fibre_g: 2.4
-  iron_mg: 3.18
-  folate_ug: 188
-  carbs_g: 3.53
-  fat_g: 0
-  protein_g: 3.53
-  kcal: 24
-  sat_fat_g: 0
-  calcium_mg: 94
+  calcium_mg: 99
+  potassium_mg: 558
+  zinc_mg: 0.53
+  vitamin_b3_mg: 0.724
+  vitamin_b5_mg: 0.065
+  vitamin_b6_mg: 0.195
+  protein_g: 2.86
+  iron_mg: 2.71
+  magnesium_mg: 79
+  phosphorus_mg: 49
+  sodium_mg: 79
+  copper_mg: 0.13
+  manganese_mg: 0.897
+  vitamin_c_mg: 28.1
+  vitamin_b1_mg: 0.078
+  vitamin_b2_mg: 0.189
+  folate_ug: 194
+  ala_mg: 100
+  beta_carotene_ug: 5626
+  fibre_g: 2.2
+  lutein_zeaxanthin_ug: 12198
+  vitamin_e_mg: 2.03
+  choline_mg: 19.3
+  linoleic_g: 0.026
+  sugar_g: 0.42
+  fat_g: 0.39
+  carbs_g: 3.63
+  kcal: 23
+  vitamin_k_ug: 482.9
+  vitamin_a_rae_ug: 469
+  sat_fat_g: 0.063
+  selenium_ug: 1
+  omega3_mg: 100
 nutrition_source:
   database: USDA FoodData Central
-  food_name: SPINACH
-  fdc_id: 1905313
-  retrieval_method: API
+  food_name: 'Spinach, raw'
+  fdc_id: 168462
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/spinach/spinach_medium.webp
 legacy_list_image: /img/foods/spinach/spinach_thumb.webp
 legacy_main_image: /img/foods/spinach/spinach_medium.webp

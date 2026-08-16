@@ -2,7 +2,9 @@
 id: lumpfish-roe
 title: Lumpfish Roe
 sidebar_label: Lumpfish Roe
-description: Salted lumpfish caviar — budget-friendly; high salt; lower omega-3 than salmonid roe
+description: >-
+  Salted lumpfish caviar — budget-friendly; high salt; lower omega-3 than
+  salmonid roe
 tags:
   - Food
   - Lumpfish Roe
@@ -34,7 +36,11 @@ nutrition_per_100g:
   omega3_mg: 600
 nutrition_source:
   database: Literature + branded label scaling
-  food_name: 'Lumpfish caviar, salted (retail; dyed black/red products common). Macros scaled from a representative branded nutrition label (~14 g/serving); fatty acids are mid-range estimates — species-specific assays vary and are often lower than fresh salmonid roe per 100 g.'
+  food_name: >-
+    Lumpfish caviar, salted (retail; dyed black/red products common). Macros
+    scaled from a representative branded nutrition label (~14 g/serving); fatty
+    acids are mid-range estimates — species-specific assays vary and are often
+    lower than fresh salmonid roe per 100 g.
   retrieval_method: Manual curation
   basis: per 100 g product
   last_checked: '2026-03-14'
@@ -42,8 +48,14 @@ nutrition_supplementary_sources:
   - key: sodium_mg_note
     label: Sodium (salted product)
     amount_display: Very high (often thousands of mg per 100 g)
-    notes: Retail lumpfish roe is heavily salted; sodium dominates the risk–benefit trade-off vs fresh roe.
-    source_note: Not shown as a standard NutritionTable row yet; check the label for your brand. Values often exceed ordinary daily sodium targets if eaten in large amounts.
+    notes: >-
+      Retail lumpfish roe is heavily salted; sodium dominates the risk–benefit
+      trade-off vs fresh roe.
+    source_note: >-
+      Not shown as a standard NutritionTable row yet; check the label for your
+      brand. Values often exceed ordinary daily sodium targets if eaten in large
+      amounts.
+    status: Present — quantity not established
 main_image: /img/foods/lumpfish-roe/lumpfish-roe_medium.webp
 legacy_list_image: /img/foods/lumpfish-roe/lumpfish-roe_thumb.webp
 legacy_main_image: /img/foods/lumpfish-roe/lumpfish-roe_medium.webp

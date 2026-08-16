@@ -13,35 +13,52 @@ tags:
   - Iron
 list_image: /img/foods/wheat/wheat_thumb.webp
 nutrition_per_100g:
-  kcal: 250
-  protein_g: 10.2
-  fat_g: 1.53
-  carbs_g: 48.89
-  fibre_g: 4.1
-  calcium_mg: 20
-  iron_mg: 2.76
-  magnesium_mg: 51
-  potassium_mg: 165
-  zinc_mg: 1.1
-  selenium_ug: 28.7
-  vitamin_b6_mg: 0.147
-  folate_ug: 76
-  choline_mg: 9.8
-  vitamin_b12_ug: 0
-  sat_fat_g: 0
-  epa_mg: 0
-  dha_mg: 0
-  omega3_mg: 0
+  fibre_g: 12.2
+  choline_mg: 31.2
+  vitamin_k_ug: 1.9
+  beta_carotene_ug: 5
+  vitamin_e_mg: 1.01
+  lutein_zeaxanthin_ug: 220
+  sugar_g: 0.41
+  sat_fat_g: 0.269
+  caprylic_g: 0.015
+  ala_mg: 450
+  vitamin_b1_mg: 0.383
+  vitamin_b2_mg: 0.115
+  folate_ug: 38
+  protein_g: 12.61
+  iron_mg: 3.19
+  magnesium_mg: 126
+  phosphorus_mg: 288
+  sodium_mg: 2
+  copper_mg: 0.434
+  manganese_mg: 3.985
+  fat_g: 1.54
+  carbs_g: 71.18
+  kcal: 327
+  calcium_mg: 29
+  potassium_mg: 363
+  zinc_mg: 2.65
+  vitamin_b3_mg: 5.464
+  vitamin_b5_mg: 0.954
+  vitamin_b6_mg: 0.3
+  linoleic_g: 0.6
+  selenium_ug: 70.7
+  omega3_mg: 450
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Bagels, wheat'
-  fdc_id: 167533
-  retrieval_method: API
+  food_name: 'Wheat, hard red winter'
+  fdc_id: 168890
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
-amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
+  last_checked: '2026-08-15'
+amino_acid_strengths: >-
+  Relatively higher in methionine than legumes; lysine-limited like other
+  grains.
 limiting_amino_acids: Lysine (typical of grains).
-complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+complementary_pairings: >-
+  Lentils, chickpeas, or other legumes for complete essential amino acid
+  profile.
 main_image: /img/foods/wheat/wheat_medium.webp
 legacy_list_image: /img/foods/wheat/wheat_thumb.webp
 legacy_main_image: /img/foods/wheat/wheat_medium.webp

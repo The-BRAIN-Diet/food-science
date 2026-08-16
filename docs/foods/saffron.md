@@ -2,7 +2,9 @@
 id: saffron
 title: Saffron
 sidebar_label: Saffron
-description: Culinary spice rich in crocin and safranal; gentle preparation preserves colour and aroma
+description: >-
+  Culinary spice rich in crocin and safranal; gentle preparation preserves
+  colour and aroma
 tags:
   - Food
   - Saffron

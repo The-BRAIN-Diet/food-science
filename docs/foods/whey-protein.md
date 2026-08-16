@@ -10,36 +10,53 @@ tags:
   - Leucine
 list_image: /img/foods/whey-protein/whey-protein_thumb.webp
 nutrition_per_100g:
-  kcal: 352
   protein_g: 78.13
-  fat_g: 1.56
-  carbs_g: 6.25
   fibre_g: 3.1
-  calcium_mg: 469
   iron_mg: 1.13
   magnesium_mg: 195
+  phosphorus_mg: 1321
+  sodium_mg: 156
+  copper_mg: 0.049
+  vitamin_b1_mg: 0.609
+  vitamin_b2_mg: 2.017
+  folate_ug: 33
+  vitamin_b12_ug: 2.45
+  sat_fat_g: 0.781
+  caprylic_g: 0.008
+  fat_g: 1.56
+  carbs_g: 6.25
+  kcal: 352
+  calcium_mg: 469
   potassium_mg: 500
   zinc_mg: 6.18
   selenium_ug: 26.7
+  vitamin_b3_mg: 1.136
+  vitamin_b5_mg: 5.516
   vitamin_b6_mg: 0.607
-  folate_ug: 33
   choline_mg: 224
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.781
-  epa_mg: 0
-  dha_mg: 0
-  omega3_mg: 0
+  caproic_g: 0.012
+  capric_g: 0.016
+  linoleic_g: 0.264
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Beverages, Protein powder whey based'
   fdc_id: 173180
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/whey-protein/whey-protein_medium.webp
 legacy_list_image: /img/foods/whey-protein/whey-protein_thumb.webp
 legacy_main_image: /img/foods/whey-protein/whey-protein_medium.webp
+nutrition_supplementary_sources:
+  - key: leucine_qual
+    label: Leucine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Whey Protein is defined by a high leucine fraction of whey protein; the
+      selected USDA protein-powder record reports protein but not individual
+      amino acids.
 ---
 ## Overview
 

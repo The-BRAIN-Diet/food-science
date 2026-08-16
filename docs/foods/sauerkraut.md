@@ -2,7 +2,9 @@
 id: sauerkraut
 title: Sauerkraut
 sidebar_label: Sauerkraut
-description: Lacto-fermented cabbage providing live lactic acid bacteria, organic acids, and postbiotic compounds
+description: >-
+  Lacto-fermented cabbage providing live lactic acid bacteria, organic acids,
+  and postbiotic compounds
 tags:
   - Food
   - Sauerkraut
@@ -11,25 +13,60 @@ tags:
   - Vitamin K2
 list_image: /img/foods/sauerkraut/sauerkraut_thumb.webp
 nutrition_per_100g:
-  kcal: 25
-  fibre_g: 0.8
-  sat_fat_g: 0
-  protein_g: 1.67
-  potassium_mg: 262
-  iron_mg: 0.83
-  calcium_mg: 50
-  fat_g: 0
-  carbs_g: 5.83
+  beta_carotene_ug: 8
+  lutein_zeaxanthin_ug: 295
+  sugar_g: 1.78
+  vitamin_a_rae_ug: 1
+  vitamin_k_ug: 13
+  ala_mg: 30
+  sat_fat_g: 0.034
+  caprylic_g: 0.001
+  fibre_g: 2.9
+  carbs_g: 4.28
+  kcal: 19
+  choline_mg: 10.4
+  vitamin_e_mg: 0.14
+  capric_g: 0.001
+  linoleic_g: 0.034
+  calcium_mg: 30
+  potassium_mg: 170
+  zinc_mg: 0.19
+  fat_g: 0.14
+  vitamin_b3_mg: 0.143
+  vitamin_b5_mg: 0.093
+  vitamin_b6_mg: 0.13
+  vitamin_c_mg: 14.7
+  vitamin_b1_mg: 0.021
+  vitamin_b2_mg: 0.022
+  folate_ug: 24
+  protein_g: 0.91
+  iron_mg: 1.47
+  magnesium_mg: 13
+  phosphorus_mg: 20
+  sodium_mg: 661
+  copper_mg: 0.096
+  manganese_mg: 0.151
+  selenium_ug: 0.6
+  omega3_mg: 30
 nutrition_source:
   database: USDA FoodData Central
-  food_name: SAUERKRAUT
-  fdc_id: 1144785
-  retrieval_method: API
+  food_name: 'Sauerkraut, canned, solids and liquids'
+  fdc_id: 169279
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/sauerkraut/sauerkraut_medium.webp
 legacy_list_image: /img/foods/sauerkraut/sauerkraut_thumb.webp
 legacy_main_image: /img/foods/sauerkraut/sauerkraut_medium.webp
+nutrition_supplementary_sources:
+  - key: vitamin_k2_qual
+    label: Vitamin K2
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Sauerkraut is a documented dietary source of menaquinones (vitamin K2).
+      USDA SR Legacy reports phylloquinone (vitamin K1), not K2, so K2 quantity
+      is not established here.
 ---
 ## Overview
 

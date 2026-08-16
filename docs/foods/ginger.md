@@ -11,33 +11,44 @@ tags:
   - Polyphenol
 list_image: /img/foods/ginger/ginger_thumb.webp
 nutrition_per_100g:
-  kcal: 80
-  protein_g: 1.82
-  fat_g: 0.75
-  carbs_g: 17.77
-  fibre_g: 2
+  sugar_g: 1.7
   calcium_mg: 16
-  iron_mg: 0.6
-  magnesium_mg: 43
   potassium_mg: 415
   zinc_mg: 0.34
-  selenium_ug: 0.7
+  fat_g: 0.75
+  vitamin_e_mg: 0.26
+  vitamin_b3_mg: 0.75
+  vitamin_b5_mg: 0.203
   vitamin_b6_mg: 0.16
+  linoleic_g: 0.12
+  vitamin_c_mg: 5
+  vitamin_b1_mg: 0.025
+  vitamin_b2_mg: 0.034
   folate_ug: 11
+  vitamin_k_ug: 0.1
+  caprylic_g: 0.007
+  iron_mg: 0.6
+  magnesium_mg: 43
+  phosphorus_mg: 34
+  sodium_mg: 13
+  copper_mg: 0.226
+  manganese_mg: 0.229
+  protein_g: 1.82
+  carbs_g: 17.77
+  kcal: 80
   choline_mg: 28.8
-  vitamin_b12_ug: 0
+  fibre_g: 2
   sat_fat_g: 0.203
-  epa_mg: 0
-  dha_mg: 0
   ala_mg: 31
+  selenium_ug: 0.7
   omega3_mg: 31
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Ginger root, raw'
   fdc_id: 169231
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/ginger/ginger_medium.webp
 legacy_list_image: /img/foods/ginger/ginger_thumb.webp
 legacy_main_image: /img/foods/ginger/ginger_medium.webp

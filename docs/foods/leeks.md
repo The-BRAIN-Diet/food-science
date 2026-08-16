@@ -8,25 +8,49 @@ tags:
   - Leeks
   - Vegan
   - Vegetarian
-  - Vitamin K2
+  - Vitamin K
 list_image: /img/foods/leeks/leeks_thumb.webp
 nutrition_per_100g:
-  protein_g: 1.4675
-  fibre_g: 3
-  sugar_g: 3.1485
-  calcium_mg: 51.41
-  iron_mg: 0.761
-  magnesium_mg: 15.68
-  potassium_mg: 319
-  zinc_mg: 0.293
-  vitamin_b6_mg: 0.2083
+  vitamin_a_rae_ug: 83
+  kcal: 61
+  choline_mg: 9.5
+  calcium_mg: 59
+  potassium_mg: 180
+  zinc_mg: 0.12
+  vitamin_b3_mg: 0.4
+  vitamin_b5_mg: 0.14
+  vitamin_b6_mg: 0.233
+  linoleic_g: 0.067
+  fat_g: 0.3
+  sat_fat_g: 0.04
+  vitamin_c_mg: 12
+  vitamin_b1_mg: 0.06
+  vitamin_b2_mg: 0.03
+  folate_ug: 64
+  ala_mg: 74
+  fibre_g: 1.8
+  iron_mg: 2.1
+  magnesium_mg: 28
+  phosphorus_mg: 35
+  sodium_mg: 20
+  copper_mg: 0.12
+  manganese_mg: 0.481
+  protein_g: 1.5
+  selenium_ug: 1
+  carbs_g: 14.15
+  vitamin_e_mg: 0.92
+  sugar_g: 3.9
+  lutein_zeaxanthin_ug: 1900
+  beta_carotene_ug: 1000
+  vitamin_k_ug: 47
+  omega3_mg: 74
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Leeks, bulb and greens, root removed, raw'
-  fdc_id: 2727584
-  retrieval_method: API
+  food_name: 'Leeks, (bulb and lower leaf-portion), raw'
+  fdc_id: 169246
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/leeks/leeks_medium.webp
 legacy_list_image: /img/foods/leeks/leeks_thumb.webp
 legacy_main_image: /img/foods/leeks/leeks_medium.webp

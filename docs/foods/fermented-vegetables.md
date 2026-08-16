@@ -5,7 +5,6 @@ sidebar_label: Fermented Vegetables
 description: General category of fermented vegetable foods
 tags:
   - Food
-  - Fermented Vegetables
   - Vegan
   - Vegetarian
 list_image: /img/foods/fermented-vegetables/fermented-vegetables_thumb.webp

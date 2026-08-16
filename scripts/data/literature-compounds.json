@@ -1,10 +1,12 @@
 {
-  "comment": "Approved secondary-source values per 100 g. Used by enrich-nutrition-from-overview.mjs. Only add entries with credible, attributable values.",
+  "comment": "Approved secondary-source values per 100 g for Script B curated lookup. Only add entries with credible, food-specific attribution. Script B will not apply an entry to a food unless slugs includes that food. Currently contains only the salmon–astaxanthin entry.",
   "astaxanthin": {
     "key": "astaxanthin_mg",
     "label": "Astaxanthin",
     "value": 3.2,
     "unit": "mg",
+    "basis": "per 100 g edible portion",
+    "slugs": ["salmon"],
     "source_note": "Literature estimate for farmed Atlantic salmon; carotenoid content varies by feed and species (e.g. Turujman et al., 1997; USDA does not report astaxanthin)."
   }
 }

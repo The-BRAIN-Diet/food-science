@@ -2,13 +2,14 @@
 id: psyllium-husk
 title: Psyllium Husk
 sidebar_label: Psyllium Husk
-description: Concentrated soluble fibre source for meal-level glycaemic buffering and digestive regularity
+description: >-
+  Concentrated soluble fibre source for meal-level glycaemic buffering and
+  digestive regularity
 tags:
   - Food
   - Psyllium Husk
   - Vegan
   - Vegetarian
-  - Fibre
 list_image: /img/foods/psyllium-husk/psyllium-husk_thumb.webp
 nutrition_per_100g:
   kcal: 200

@@ -19,48 +19,76 @@ tags:
 list_image: /img/foods/beef/beef_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
-  kcal: 250
-  protein_g: 27.1
-  fat_g: 14.93
-  carbs_g: 0
-  fibre_g: 0
-  calcium_mg: 12
-  iron_mg: 2.08
-  magnesium_mg: 14
-  potassium_mg: 136
-  zinc_mg: 3.57
-  selenium_ug: 42.9
-  vitamin_b6_mg: 0.13
-  folate_ug: 9
-  choline_mg: 89.2
-  vitamin_b12_ug: 0
-  sat_fat_g: 6.18
-  epa_mg: 0
-  dha_mg: 0
-  ala_mg: 1951
-  omega3_mg: 1951
+  vitamin_d_ug: 0.1
+  calcium_mg: 15
+  potassium_mg: 295
+  zinc_mg: 4.48
+  fat_g: 15
+  vitamin_b3_mg: 4.649
+  vitamin_b5_mg: 0.549
+  vitamin_b6_mg: 0.346
+  choline_mg: 61.2
+  selenium_ug: 15.8
+  protein_g: 18.59
+  iron_mg: 2.09
+  magnesium_mg: 18
+  phosphorus_mg: 171
+  sodium_mg: 66
+  copper_mg: 0.067
+  manganese_mg: 0.01
+  vitamin_b1_mg: 0.042
+  vitamin_b2_mg: 0.151
+  folate_ug: 6
+  vitamin_b12_ug: 2.17
+  vitamin_k_ug: 1.3
+  ala_mg: 42
+  vitamin_e_mg: 0.17
+  linoleic_g: 0.331
+  vitamin_a_rae_ug: 4
+  sat_fat_g: 5.715
+  dha_mg: 1
+  epa_mg: 2
+  kcal: 215
+  omega3_mg: 45
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Beef, cured, corned beef, canned'
-  fdc_id: 170602
-  retrieval_method: API
+  food_name: >-
+    Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food
+    Distribution Program)
+  fdc_id: 171796
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: creatine_mg
     label: Creatine
     value: 400
     unit: mg
-    notes: Concentrated in muscle; not reported in standard USDA panels for most cuts.
-    source_note: |
-      Approximate creatine content per 100 g cooked beef based on dietary creatine source summaries and compositional surveys (raw beef muscle ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018 and creatine dietary sources reviews).
+    notes: >-
+      Concentrated in muscle; not reported in standard USDA panels for most
+      cuts.
+    source_note: >
+      Approximate creatine content per 100 g cooked beef based on dietary
+      creatine source summaries and compositional surveys (raw beef muscle
+      ~390–445 mg/100 g, with modest cooking losses; see Avgerinos et al. 2018
+      and creatine dietary sources reviews).
   - key: coq10_mg
     label: Coenzyme Q10 (CoQ10)
     value: 2.5
     unit: mg
     notes: Mitochondrial ubiquinone; cut and cooking method alter measured content.
-    source_note: |
-      Approximate CoQ10 content per 100 g beef muscle derived from studies measuring ubiquinone/ubiquinol in beef cuts (~2–3 mg/100 g raw muscle, with partial retention after cooking; see Crane 2001 and subsequent beef CoQ10 compositional analyses).
+    source_note: >
+      Approximate CoQ10 content per 100 g beef muscle derived from studies
+      measuring ubiquinone/ubiquinol in beef cuts (~2–3 mg/100 g raw muscle,
+      with partial retention after cooking; see Crane 2001 and subsequent beef
+      CoQ10 compositional analyses).
+  - key: coq10_qual
+    label: CoQ10
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Food-composition surveys report coenzyme Q10 in Beef (e.g. Mattila &
+      Kumpulainen 2001); USDA SR Legacy does not include a CoQ10 field.
 main_image: /img/foods/beef/beef_medium.webp
 legacy_list_image: /img/foods/beef/beef_thumb.webp
 legacy_main_image: /img/foods/beef/beef_medium.webp

@@ -2,11 +2,11 @@
 id: cocoa
 title: Cocoa
 sidebar_label: Cocoa
-description: Processed cocoa products — flavanol-rich when unsweetened; see cacao powder and dark chocolate for sourcing.
+description: >-
+  Processed cocoa products — flavanol-rich when unsweetened; see cacao powder
+  and dark chocolate for sourcing.
 tags:
   - Food
-  - Cocoa
-  - Cacao
   - Vegan
   - Vegetarian
   - Magnesium
@@ -17,66 +17,94 @@ tags:
   - Catechin
   - Oligomeric Procyanidins
 list_image: /img/foods/cocoa/cocoa_thumb.webp
-amino_acid_strengths: Provides plant protein with notable phenylalanine and leucine; high mineral density per 100 g.
-limiting_amino_acids: Lower in lysine and sulfur amino acids relative to legumes; not a complete protein on its own.
-complementary_pairings: Grains and legumes for balanced essential amino acid profile when used as a meaningful protein contributor.
+amino_acid_strengths: >-
+  Provides plant protein with notable phenylalanine and leucine; high mineral
+  density per 100 g.
+limiting_amino_acids: >-
+  Lower in lysine and sulfur amino acids relative to legumes; not a complete
+  protein on its own.
+complementary_pairings: >-
+  Grains and legumes for balanced essential amino acid profile when used as a
+  meaningful protein contributor.
 nutrition_per_100g:
-  kcal: 228
-  protein_g: 19.6
-  fat_g: 13.7
+  sugar_g: 1.75
+  vitamin_e_mg: 0.1
+  lutein_zeaxanthin_ug: 38
+  vitamin_k_ug: 2.5
   carbs_g: 57.9
+  kcal: 228
   fibre_g: 37
-  calcium_mg: 128
-  iron_mg: 13.9
+  sat_fat_g: 8.07
+  ala_mg: 941
+  iron_mg: 13.86
   magnesium_mg: 499
-  potassium_mg: 1524
-  zinc_mg: 6.8
-  selenium_ug: 14.3
-  vitamin_b6_mg: 0.118
+  phosphorus_mg: 734
+  sodium_mg: 21
+  copper_mg: 3.788
+  manganese_mg: 3.837
+  protein_g: 19.6
+  vitamin_b1_mg: 0.078
+  vitamin_b2_mg: 0.241
   folate_ug: 32
-  choline_mg: 12.1
-  vitamin_b12_ug: 0
-  sat_fat_g: 8.1
-  epa_mg: 0
-  dha_mg: 0
-  ala_mg: 0
-  omega3_mg: 0
+  vitamin_b3_mg: 2.185
+  vitamin_b5_mg: 0.254
+  vitamin_b6_mg: 0.118
+  fat_g: 13.7
+  calcium_mg: 128
+  potassium_mg: 1524
+  zinc_mg: 6.81
+  linoleic_g: 0.44
+  selenium_ug: 14.3
+  choline_mg: 12
+  omega3_mg: 941
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Cocoa, dry powder, unsweetened, processed with alkali'
-  fdc_id: 170569
-  retrieval_method: API
+  food_name: 'Cocoa, dry powder, unsweetened'
+  fdc_id: 169593
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-06-17'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: epicatechin_mg
     label: Epicatechin
     value: 34
     unit: mg
-    notes: Lower than minimally processed cacao powder; roasting and alkalisation reduce monomeric flavanols.
-    source_note: 'Representative Dutch-processed cocoa powder values are substantially below natural cacao powder; flavan-3-ol losses increase with roasting and alkalisation (Paynter et al., 2011).'
+    notes: >-
+      Lower than minimally processed cacao powder; roasting and alkalisation
+      reduce monomeric flavanols.
+    source_note: >-
+      Representative Dutch-processed cocoa powder values are substantially below
+      natural cacao powder; flavan-3-ol losses increase with roasting and
+      alkalisation (Paynter et al., 2011).
   - key: catechin_mg
     label: Catechin
     value: 28
     unit: mg
     notes: Processing can increase (-)-catechin relative to (-)-epicatechin.
-    source_note: 'Alkalised cocoa powders show altered flavan-3-ol stereochemistry versus minimally processed cacao (Paynter et al., 2011).'
+    source_note: >-
+      Alkalised cocoa powders show altered flavan-3-ol stereochemistry versus
+      minimally processed cacao (Paynter et al., 2011).
   - key: oligomeric_procyanidins_mg
     label: Oligomeric Procyanidins
     value: 120
     unit: mg
-    notes: 'Oligomeric fraction varies with cocoa percentage, fermentation, roasting, and alkalisation.'
-    source_note: Processed cocoa retains some procyanidins but generally less than minimally processed cacao powder; values are product-dependent.
+    notes: >-
+      Oligomeric fraction varies with cocoa percentage, fermentation, roasting,
+      and alkalisation.
+    source_note: >-
+      Processed cocoa retains some procyanidins but generally less than
+      minimally processed cacao powder; values are product-dependent.
 nutrition_functional_metrics:
   - key: total_polyphenols_proxy
     label: Total polyphenols (Folin-type)
     amount_display: Varies by product
-    notes: 'Strongly influenced by roasting, alkalisation (Dutch processing), and added sugar in commercial mixes.'
+    notes: >-
+      Strongly influenced by roasting, alkalisation (Dutch processing), and
+      added sugar in commercial mixes.
 main_image: /img/foods/cocoa/cocoa_medium.webp
 legacy_list_image: /img/foods/cocoa/cocoa_thumb.webp
 legacy_main_image: /img/foods/cocoa/cocoa_medium.webp
 ---
-
 ## Overview
 
 **Cocoa** in this framework means processed cocoa ingredients — typically roasted and often alkalised (Dutch-processed) cocoa powder used in baking, hot drinks, and manufactured foods. These products still carry **cocoa flavanols** (**epicatechin**, **catechin**, and **oligomeric procyanidins**) and minerals such as **magnesium** and **iron**, but processing generally lowers flavan-3-ol content compared with minimally processed [`Cacao Powder`](/docs/foods/cacao-powder) [1]. For the highest native polyphenol retention, cacao powder is the preferred unsweetened ingredient; cocoa remains useful where a more processed, alkalised flavour profile is intended.

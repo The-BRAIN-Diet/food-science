@@ -17,27 +17,49 @@ amino_acid_strengths: 'Lysine-rich relative to grains; good plant source of iron
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS 65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'
 nutrition_per_100g:
-  kcal: 350.9328
-  protein_g: 23.56875
-  fat_g: 1.925
-  carbs_g: 62.17125
-  calcium_mg: 61.85
-  iron_mg: 7.158
-  magnesium_mg: 106.7
-  potassium_mg: 948.9
-  zinc_mg: 3.863
+  beta_carotene_ug: 23
+  vitamin_b3_mg: 2.605
+  vitamin_b5_mg: 2.14
+  vitamin_b6_mg: 0.54
+  choline_mg: 96.4
+  sugar_g: 2.03
+  vitamin_e_mg: 0.49
+  fat_g: 1.06
+  vitamin_a_rae_ug: 2
+  sodium_mg: 6
+  vitamin_b1_mg: 0.873
+  vitamin_b2_mg: 0.211
+  folate_ug: 479
+  copper_mg: 0.754
+  manganese_mg: 1.393
+  fibre_g: 10.7
+  iron_mg: 6.51
+  magnesium_mg: 47
+  phosphorus_mg: 281
+  protein_g: 24.63
+  ala_mg: 1029
+  vitamin_c_mg: 4.5
+  sat_fat_g: 0.154
+  linoleic_g: 0.414
+  carbs_g: 63.35
+  kcal: 352
+  calcium_mg: 35
+  potassium_mg: 677
+  zinc_mg: 3.27
+  selenium_ug: 0.1
+  vitamin_k_ug: 5
+  omega3_mg: 1029
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Lentils, dry'
-  fdc_id: 2644283
-  retrieval_method: API
+  food_name: 'Lentils, raw'
+  fdc_id: 172420
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/lentils/lentils_medium.webp
 legacy_list_image: /img/foods/lentils/lentils_thumb.webp
 legacy_main_image: /img/foods/lentils/lentils_medium.webp
 ---
-
 import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview

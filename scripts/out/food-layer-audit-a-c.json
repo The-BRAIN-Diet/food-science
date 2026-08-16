@@ -1,0 +1,1290 @@
+{
+  "generated_at": "2026-08-16T14:15:45.388Z",
+  "read_only": true,
+  "writes_food_pages": false,
+  "writes_substance_pages": false,
+  "writes_ontology_tags": false,
+  "confidence_scope": "audit_finding_only — not added to food-page content or front matter",
+  "model": "Three Sources of Truth: Overview → Database nutrition table → Substances list",
+  "content_boundary_model": "Intrinsic / Mechanism / Strategy (scope, not admission)",
+  "letter_scope": "ABC",
+  "scope_rule": "Displayed food name (sidebar_label || title), first alphabetic character after optional leading 'The'. Filename is not the scope key.",
+  "pages_examined": 51,
+  "pages_excluded_outside_letter_scope": 117,
+  "pages": [
+    {
+      "displayed_name": "Algal Oil",
+      "slug": "algal-oil",
+      "filename": "algal-oil.md",
+      "initial": "A",
+      "finding_count": 0,
+      "overview_compounds": [
+        "docosahexaenoic acid (DHA)"
+      ],
+      "substance_tags": [
+        "EPA",
+        "DHA"
+      ]
+    },
+    {
+      "displayed_name": "Almonds",
+      "slug": "almonds",
+      "filename": "almonds.md",
+      "initial": "A",
+      "finding_count": 0,
+      "overview_compounds": [
+        "vitamin E"
+      ],
+      "substance_tags": [
+        "Linoleic Acid",
+        "Vitamin E",
+        "Vitamin B2",
+        "Magnesium",
+        "Phosphorus",
+        "Manganese",
+        "Copper",
+        "Iron",
+        "Calcium"
+      ]
+    },
+    {
+      "displayed_name": "Amaranth",
+      "slug": "amaranth",
+      "filename": "amaranth.md",
+      "initial": "A",
+      "finding_count": 0,
+      "overview_compounds": [],
+      "substance_tags": [
+        "Magnesium",
+        "Iron"
+      ]
+    },
+    {
+      "displayed_name": "Apples",
+      "slug": "apples",
+      "filename": "apples.md",
+      "initial": "A",
+      "finding_count": 1,
+      "overview_compounds": [
+        "pectin",
+        "quercetin",
+        "vitamin C",
+        "whole fruit"
+      ],
+      "substance_tags": [
+        "Vitamin C",
+        "Quercetin"
+      ]
+    },
+    {
+      "displayed_name": "Asparagus",
+      "slug": "asparagus",
+      "filename": "asparagus.md",
+      "initial": "A",
+      "finding_count": 1,
+      "overview_compounds": [
+        "folate",
+        "fructooligosaccharides"
+      ],
+      "substance_tags": [
+        "Vitamin B9"
+      ]
+    },
+    {
+      "displayed_name": "Aubergine",
+      "slug": "aubergine",
+      "filename": "aubergine.md",
+      "initial": "A",
+      "finding_count": 1,
+      "overview_compounds": [
+        "anthocyanin",
+        "Delphinidin"
+      ],
+      "substance_tags": [
+        "Potassium",
+        "Delphinidin"
+      ]
+    },
+    {
+      "displayed_name": "Avocado",
+      "slug": "avocado",
+      "filename": "avocado.md",
+      "initial": "A",
+      "finding_count": 0,
+      "overview_compounds": [
+        "monounsaturated-fat-rich"
+      ],
+      "substance_tags": [
+        "Vitamin E",
+        "Potassium",
+        "Lutein",
+        "Beta-Carotene"
+      ]
+    },
+    {
+      "displayed_name": "Avocado Oil",
+      "slug": "avocado-oil",
+      "filename": "avocado-oil.md",
+      "initial": "A",
+      "finding_count": 0,
+      "overview_compounds": [
+        "monounsaturated-fat"
+      ],
+      "substance_tags": [
+        "Vitamin E"
+      ]
+    },
+    {
+      "displayed_name": "Bananas",
+      "slug": "bananas",
+      "filename": "bananas.md",
+      "initial": "B",
+      "finding_count": 3,
+      "overview_compounds": [
+        "vitamin B6",
+        "tryptophan",
+        "potassium",
+        "Green",
+        "resistant starch",
+        "polyphenol oxidase (PPO)"
+      ],
+      "substance_tags": [
+        "Vitamin B6",
+        "Potassium"
+      ]
+    },
+    {
+      "displayed_name": "Barley",
+      "slug": "barley",
+      "filename": "barley.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "beta-glucan"
+      ],
+      "substance_tags": [
+        "Beta-glucan",
+        "Magnesium"
+      ]
+    },
+    {
+      "displayed_name": "Beef",
+      "slug": "beef",
+      "filename": "beef.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [],
+      "substance_tags": [
+        "Creatine",
+        "CoQ10",
+        "Vitamin B2",
+        "Vitamin B3",
+        "Vitamin B6",
+        "Vitamin B12",
+        "Iron",
+        "Zinc",
+        "Phosphorus",
+        "Selenium"
+      ]
+    },
+    {
+      "displayed_name": "Beetroot",
+      "slug": "beetroot",
+      "filename": "beetroot.md",
+      "initial": "B",
+      "finding_count": 2,
+      "overview_compounds": [
+        "nitrates",
+        "betalain"
+      ],
+      "substance_tags": [
+        "Nitrate",
+        "Vitamin B9",
+        "Potassium",
+        "Manganese",
+        "Iron",
+        "Magnesium"
+      ]
+    },
+    {
+      "displayed_name": "Bell Peppers",
+      "slug": "bell-peppers",
+      "filename": "bell-peppers.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "vitamin C"
+      ],
+      "substance_tags": [
+        "Vitamin C",
+        "Beta-Carotene",
+        "Lutein"
+      ]
+    },
+    {
+      "displayed_name": "Black Beans",
+      "slug": "black-beans",
+      "filename": "black-beans.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [],
+      "substance_tags": [
+        "Iron",
+        "Vitamin B9",
+        "Vitamin B1",
+        "Vitamin B6",
+        "Magnesium",
+        "Zinc",
+        "Phosphorus",
+        "Potassium",
+        "Manganese",
+        "Copper"
+      ]
+    },
+    {
+      "displayed_name": "Black Goji",
+      "slug": "black-goji",
+      "filename": "black-goji.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "anthocyanin-rich",
+        "Cyanidin"
+      ],
+      "substance_tags": [
+        "Vitamin C",
+        "Cyanidin"
+      ]
+    },
+    {
+      "displayed_name": "Black Pepper",
+      "slug": "black-pepper",
+      "filename": "black-pepper.md",
+      "initial": "B",
+      "finding_count": 2,
+      "overview_compounds": [
+        "piperine",
+        "curcumin",
+        "food synergy"
+      ],
+      "substance_tags": []
+    },
+    {
+      "displayed_name": "Black Tea",
+      "slug": "black-tea",
+      "filename": "black-tea.md",
+      "initial": "B",
+      "finding_count": 2,
+      "overview_compounds": [
+        "theaflavins",
+        "catechins"
+      ],
+      "substance_tags": [
+        "Manganese"
+      ]
+    },
+    {
+      "displayed_name": "Blueberries",
+      "slug": "blueberries",
+      "filename": "blueberries.md",
+      "initial": "B",
+      "finding_count": 2,
+      "overview_compounds": [
+        "anthocyanins",
+        "polyphenol-class food",
+        "exercise",
+        "quercetin",
+        "Cyanidin",
+        "Delphinidin",
+        "Malvidin",
+        "Peonidin",
+        "Petunidin"
+      ],
+      "substance_tags": [
+        "Vitamin C",
+        "Manganese",
+        "Cyanidin",
+        "Delphinidin",
+        "Malvidin",
+        "Peonidin",
+        "Petunidin"
+      ]
+    },
+    {
+      "displayed_name": "Broccoli",
+      "slug": "broccoli",
+      "filename": "broccoli.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "sulforaphane",
+        "folate"
+      ],
+      "substance_tags": [
+        "Vitamin B1",
+        "Vitamin B2",
+        "Vitamin B5",
+        "Vitamin B6",
+        "Vitamin B9",
+        "Vitamin C",
+        "Choline",
+        "Iron",
+        "Magnesium",
+        "Phosphorus",
+        "Potassium",
+        "Manganese",
+        "Zinc",
+        "Sulforaphane",
+        "Vitamin K"
+      ]
+    },
+    {
+      "displayed_name": "Broccoli Sprouts",
+      "slug": "broccoli-sprouts",
+      "filename": "broccoli-sprouts.md",
+      "initial": "B",
+      "finding_count": 1,
+      "overview_compounds": [
+        "glucoraphanin",
+        "myrosinase"
+      ],
+      "substance_tags": [
+        "Vitamin B6",
+        "Vitamin B9",
+        "Vitamin C",
+        "Calcium",
+        "Iron",
+        "Magnesium",
+        "Potassium",
+        "Sulforaphane",
+        "Glucoraphanin"
+      ]
+    },
+    {
+      "displayed_name": "Brussels Sprouts",
+      "slug": "brussels-sprouts",
+      "filename": "brussels-sprouts.md",
+      "initial": "B",
+      "finding_count": 1,
+      "overview_compounds": [
+        "isothiocyanates",
+        "folate"
+      ],
+      "substance_tags": [
+        "Vitamin B9",
+        "Vitamin C"
+      ]
+    },
+    {
+      "displayed_name": "Buckwheat",
+      "slug": "buckwheat",
+      "filename": "buckwheat.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [],
+      "substance_tags": [
+        "Magnesium"
+      ]
+    },
+    {
+      "displayed_name": "Butter",
+      "slug": "butter",
+      "filename": "butter.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "saturated-fat-rich"
+      ],
+      "substance_tags": [
+        "Vitamin A",
+        "Vitamin E",
+        "Vitamin K2"
+      ]
+    },
+    {
+      "displayed_name": "Cabbage",
+      "slug": "cabbage",
+      "filename": "cabbage.md",
+      "initial": "C",
+      "finding_count": 2,
+      "overview_compounds": [
+        "glucosinolates",
+        "vitamin C",
+        "folate",
+        "Lactobacillus"
+      ],
+      "substance_tags": [
+        "Vitamin C",
+        "Vitamin B9"
+      ]
+    },
+    {
+      "displayed_name": "Cacao Nibs (Raw)",
+      "slug": "cacao-nibs-raw",
+      "filename": "cacao-nibs-raw.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "cocoa flavanols"
+      ],
+      "substance_tags": [
+        "Epicatechin",
+        "Catechin",
+        "Oligomeric Procyanidins"
+      ]
+    },
+    {
+      "displayed_name": "Cacao Powder",
+      "slug": "cacao-powder",
+      "filename": "cacao-powder.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "cocoa flavanols",
+        "epicatechin",
+        "catechin",
+        "oligomeric procyanidins",
+        "magnesium",
+        "iron",
+        "zinc",
+        "fibre"
+      ],
+      "substance_tags": [
+        "Epicatechin",
+        "Catechin",
+        "Oligomeric Procyanidins",
+        "Magnesium",
+        "Iron",
+        "Zinc"
+      ]
+    },
+    {
+      "displayed_name": "Capers",
+      "slug": "capers",
+      "filename": "capers.md",
+      "initial": "C",
+      "finding_count": 0,
+      "overview_compounds": [
+        "quercetin"
+      ],
+      "substance_tags": [
+        "Sodium",
+        "Quercetin"
+      ]
+    },
+    {
+      "displayed_name": "Carrots",
+      "slug": "carrots",
+      "filename": "carrots.md",
+      "initial": "C",
+      "finding_count": 0,
+      "overview_compounds": [
+        "beta-carotene"
+      ],
+      "substance_tags": [
+        "Potassium",
+        "Beta-Carotene"
+      ]
+    },
+    {
+      "displayed_name": "Cashews",
+      "slug": "cashews",
+      "filename": "cashews.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "magnesium",
+        "zinc",
+        "phytates"
+      ],
+      "substance_tags": [
+        "Linoleic Acid",
+        "Zinc",
+        "Magnesium",
+        "Phosphorus",
+        "Manganese",
+        "Copper",
+        "Iron"
+      ]
+    },
+    {
+      "displayed_name": "Cauliflower",
+      "slug": "cauliflower",
+      "filename": "cauliflower.md",
+      "initial": "C",
+      "finding_count": 0,
+      "overview_compounds": [
+        "vitamin C",
+        "folate"
+      ],
+      "substance_tags": [
+        "Vitamin C",
+        "Vitamin B9"
+      ]
+    },
+    {
+      "displayed_name": "Chamomile Tea",
+      "slug": "chamomile-tea",
+      "filename": "chamomile-tea.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "apigenin"
+      ],
+      "substance_tags": []
+    },
+    {
+      "displayed_name": "Cheddar Cheese",
+      "slug": "cheddar-cheese",
+      "filename": "cheddar-cheese.md",
+      "initial": "C",
+      "finding_count": 0,
+      "overview_compounds": [
+        "complete protein",
+        "calcium",
+        "vitamin B12",
+        "zinc"
+      ],
+      "substance_tags": [
+        "Calcium",
+        "Vitamin B12",
+        "Zinc",
+        "Selenium",
+        "Tyrosine"
+      ]
+    },
+    {
+      "displayed_name": "Cherries",
+      "slug": "cherries",
+      "filename": "cherries.md",
+      "initial": "C",
+      "finding_count": 2,
+      "overview_compounds": [
+        "anthocyanins",
+        "melatonin",
+        "Cyanidin",
+        "Peonidin"
+      ],
+      "substance_tags": [
+        "Vitamin C",
+        "Cyanidin",
+        "Peonidin"
+      ]
+    },
+    {
+      "displayed_name": "Chia Seeds",
+      "slug": "chia-seeds",
+      "filename": "chia-seeds.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "ALA omega-3",
+        "fibre"
+      ],
+      "substance_tags": [
+        "ALA",
+        "Linoleic Acid",
+        "Calcium",
+        "Magnesium",
+        "Phosphorus",
+        "Manganese"
+      ]
+    },
+    {
+      "displayed_name": "Chicken",
+      "slug": "chicken",
+      "filename": "chicken.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "niacin (vitamin B3)",
+        "zinc",
+        "tryptophan"
+      ],
+      "substance_tags": [
+        "Vitamin B3",
+        "Vitamin B6",
+        "Vitamin B12",
+        "Phosphorus",
+        "Selenium",
+        "Zinc",
+        "Iron"
+      ]
+    },
+    {
+      "displayed_name": "Chickpeas",
+      "slug": "chickpeas",
+      "filename": "chickpeas.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "lysine-rich",
+        "fibre",
+        "folate",
+        "iron",
+        "phytates"
+      ],
+      "substance_tags": [
+        "Vitamin B9",
+        "Vitamin B6",
+        "Vitamin B1",
+        "Magnesium",
+        "Iron",
+        "Zinc",
+        "Phosphorus",
+        "Potassium",
+        "Manganese",
+        "Copper"
+      ]
+    },
+    {
+      "displayed_name": "Chicory Root",
+      "slug": "chicory-root",
+      "filename": "chicory-root.md",
+      "initial": "C",
+      "finding_count": 2,
+      "overview_compounds": [
+        "inulin",
+        "Bifidobacterium"
+      ],
+      "substance_tags": []
+    },
+    {
+      "displayed_name": "Chlorella",
+      "slug": "chlorella",
+      "filename": "chlorella.md",
+      "initial": "C",
+      "finding_count": 0,
+      "overview_compounds": [
+        "microalgae",
+        "vitamin B12"
+      ],
+      "substance_tags": [
+        "Vitamin B12",
+        "Iron"
+      ]
+    },
+    {
+      "displayed_name": "Cilantro",
+      "slug": "cilantro",
+      "filename": "cilantro.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "polyphenols"
+      ],
+      "substance_tags": []
+    },
+    {
+      "displayed_name": "Cinnamon",
+      "slug": "cinnamon",
+      "filename": "cinnamon.md",
+      "initial": "C",
+      "finding_count": 2,
+      "overview_compounds": [
+        "polyphenols",
+        "coumarin"
+      ],
+      "substance_tags": [
+        "Cinnamaldehyde"
+      ]
+    },
+    {
+      "displayed_name": "Clams",
+      "slug": "clams",
+      "filename": "clams.md",
+      "initial": "C",
+      "finding_count": 0,
+      "overview_compounds": [
+        "vitamin B12",
+        "iron",
+        "zinc",
+        "taurine",
+        "nutrient-dense shellfish"
+      ],
+      "substance_tags": [
+        "Taurine",
+        "Vitamin B12",
+        "Iron"
+      ]
+    },
+    {
+      "displayed_name": "Cockles",
+      "slug": "cockles",
+      "filename": "cockles.md",
+      "initial": "C",
+      "finding_count": 0,
+      "overview_compounds": [
+        "vitamin B12",
+        "iron",
+        "zinc",
+        "selenium",
+        "taurine"
+      ],
+      "substance_tags": [
+        "Zinc",
+        "Vitamin B12",
+        "Iron",
+        "Selenium",
+        "EPA",
+        "DHA",
+        "Taurine"
+      ]
+    },
+    {
+      "displayed_name": "Cocoa",
+      "slug": "cocoa",
+      "filename": "cocoa.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "cocoa flavanols",
+        "epicatechin",
+        "catechin",
+        "oligomeric procyanidins",
+        "magnesium",
+        "iron",
+        "unsweetened"
+      ],
+      "substance_tags": [
+        "Magnesium",
+        "Iron",
+        "Zinc",
+        "Epicatechin",
+        "Catechin",
+        "Oligomeric Procyanidins"
+      ]
+    },
+    {
+      "displayed_name": "Coconut Oil",
+      "slug": "coconut-oil",
+      "filename": "coconut-oil.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "saturated-fat-rich",
+        "medium-chain triglycerides (MCTs)"
+      ],
+      "substance_tags": [
+        "MCT",
+        "Caprylic Triglyceride",
+        "Capric Triglyceride",
+        "Caproic Triglyceride"
+      ]
+    },
+    {
+      "displayed_name": "Cod",
+      "slug": "cod",
+      "filename": "cod.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "omega-3 fatty acids",
+        "vitamin B12",
+        "selenium",
+        "lean marine protein"
+      ],
+      "substance_tags": []
+    },
+    {
+      "displayed_name": "Coffee",
+      "slug": "coffee",
+      "filename": "coffee.md",
+      "initial": "C",
+      "finding_count": 2,
+      "overview_compounds": [
+        "caffeine"
+      ],
+      "substance_tags": [
+        "Polyphenols"
+      ]
+    },
+    {
+      "displayed_name": "Cordyceps Mushroom",
+      "slug": "cordyceps-mushroom",
+      "filename": "cordyceps-mushroom.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "polysaccharides",
+        "cordycepin"
+      ],
+      "substance_tags": [
+        "Vitamin B3",
+        "Polysaccharides"
+      ]
+    },
+    {
+      "displayed_name": "Corn",
+      "slug": "corn",
+      "filename": "corn.md",
+      "initial": "C",
+      "finding_count": 0,
+      "overview_compounds": [
+        "lutein",
+        "zeaxanthin"
+      ],
+      "substance_tags": [
+        "Lutein",
+        "Zeaxanthin"
+      ]
+    },
+    {
+      "displayed_name": "Crab",
+      "slug": "crab",
+      "filename": "crab.md",
+      "initial": "C",
+      "finding_count": 0,
+      "overview_compounds": [
+        "complete protein",
+        "zinc",
+        "selenium",
+        "vitamin B12",
+        "lean seafood rotation"
+      ],
+      "substance_tags": [
+        "Zinc",
+        "Selenium",
+        "Vitamin B12"
+      ]
+    },
+    {
+      "displayed_name": "Cranberries",
+      "slug": "cranberries",
+      "filename": "cranberries.md",
+      "initial": "C",
+      "finding_count": 1,
+      "overview_compounds": [
+        "proanthocyanidins (PACs)",
+        "Cyanidin",
+        "Peonidin"
+      ],
+      "substance_tags": [
+        "Vitamin C",
+        "Cyanidin",
+        "Peonidin"
+      ]
+    },
+    {
+      "displayed_name": "Cucumber",
+      "slug": "cucumber",
+      "filename": "cucumber.md",
+      "initial": "C",
+      "finding_count": 0,
+      "overview_compounds": [
+        "water",
+        "vitamin K",
+        "vitamin C"
+      ],
+      "substance_tags": [
+        "Vitamin K"
+      ]
+    }
+  ],
+  "totals_by_class": {
+    "Overview → table gap": 33,
+    "Table → card candidate": 2,
+    "Card → table violation": 0,
+    "Unsupported Overview claim": 0,
+    "Trace-only presence": 0,
+    "Scope error": 3,
+    "Admitted card with missing substance page": 1
+  },
+  "totals_by_confidence": {
+    "high": 3,
+    "medium": 6,
+    "low": 30
+  },
+  "findings": [
+    {
+      "food": "Apples",
+      "slug": "apples",
+      "class": "Overview → table gap",
+      "entity": "pectin",
+      "evidence": "Named in Overview with no supported table row. Apples provide **pectin** (soluble fibre), **quercetin** and related flavonols, and **vitamin C** withi",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Asparagus",
+      "slug": "asparagus",
+      "class": "Overview → table gap",
+      "entity": "fructooligosaccharides",
+      "evidence": "Named in Overview with no supported table row. Asparagus provides **folate** (vitamin B9), **fructooligosaccharides** (FOS), and fibre alongside iron and potassium in a low-calorie vegetable matr",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Aubergine",
+      "slug": "aubergine",
+      "class": "Overview → table gap",
+      "entity": "anthocyanin",
+      "evidence": "Named in Overview with no supported table row. Aubergine (eggplant) provides **anthocyanin** pigments (notably nasunin (a [Delphinidin](/docs/substances/bioactive-compoun",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Bananas",
+      "slug": "bananas",
+      "class": "Overview → table gap",
+      "entity": "tryptophan",
+      "evidence": "Named in Overview (canonical page docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan.md) with no supported table row. Bananas provide **vitamin B6**, **tryptophan**, and **potassium** when ripe, supporting neurotransmitter-related pathways an",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "medium",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Bananas",
+      "slug": "bananas",
+      "class": "Overview → table gap",
+      "entity": "resistant starch",
+      "evidence": "Named in Overview with no supported table row. alance [1]. **Green** bananas are comparatively richer in **resistant starch**, a fermentable fibre supporting gut microbiome diversity (downstream SCFA pro",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Bananas",
+      "slug": "bananas",
+      "class": "Overview → table gap",
+      "entity": "polyphenol oxidase (PPO)",
+      "evidence": "Named in Overview with no supported table row. rebiotic resistant starch. Bananas are relatively high in **polyphenol oxidase (PPO)**; combining them in fresh smoothies with flavan-3-ol sources can markedly redu",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Beetroot",
+      "slug": "beetroot",
+      "class": "Overview → table gap",
+      "entity": "nitrates",
+      "evidence": "Named in Overview with no supported table row. Beetroot provides dietary **nitrates** and **betalain** pigments with interest for vascular and antioxidant biology",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Beetroot",
+      "slug": "beetroot",
+      "class": "Overview → table gap",
+      "entity": "betalain",
+      "evidence": "Named in Overview with no supported table row. Beetroot provides dietary **nitrates** and **betalain** pigments with interest for vascular and antioxidant biology [1]. Folate and m",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Black Pepper",
+      "slug": "black-pepper",
+      "class": "Overview → table gap",
+      "entity": "piperine",
+      "evidence": "Named in Overview with no supported table row. Black pepper provides **piperine**, an alkaloid that markedly increases **curcumin** bioavailability and can enh",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Black Pepper",
+      "slug": "black-pepper",
+      "class": "Scope error",
+      "entity": "curcumin",
+      "evidence": "Overview mentions curcumin in a pairing/synergy context; it is not a constituent of Black Pepper. rovides **piperine**, an alkaloid that markedly increases **curcumin** bioavailability and can enhance absorption of other dietary compounds [1]. It",
+      "proposed_resolution": "Keep pairing advice in Food Context / synergies. Do not add a contains-relationship, table row, or card on this food.",
+      "confidence": "high",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Black Tea",
+      "slug": "black-tea",
+      "class": "Overview → table gap",
+      "entity": "theaflavins",
+      "evidence": "Named in Overview with no supported table row. Black tea provides **theaflavins** and **catechins** (lower than green tea for unoxidised catechins) and caffein",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Black Tea",
+      "slug": "black-tea",
+      "class": "Overview → table gap",
+      "entity": "catechins",
+      "evidence": "Named in Overview with no supported table row. Black tea provides **theaflavins** and **catechins** (lower than green tea for unoxidised catechins) and caffeine in a polyphenol-",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Blueberries",
+      "slug": "blueberries",
+      "class": "Overview → table gap",
+      "entity": "quercetin",
+      "evidence": "Named in Overview (canonical page docs/substances/bioactive-compounds/polyphenols/flavonols/quercetin.md) with no supported table row. odulate neurotrophin biology [6]. Blueberries also supply **quercetin** and related flavonols. Rodent work shows quercetin can increase mitochondrial",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "medium",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Blueberries",
+      "slug": "blueberries",
+      "class": "Table → card candidate",
+      "entity": "anthocyanins",
+      "evidence": "Overview names anthocyanins and a supported table row exists (Anthocyanins (total)), but it is not in the Substances tags.",
+      "proposed_resolution": "Editorial judgement: admit a Substances card if this is a meaningful BRAIN identity compound. Do not auto-admit every table row.",
+      "confidence": "medium",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Broccoli Sprouts",
+      "slug": "broccoli-sprouts",
+      "class": "Overview → table gap",
+      "entity": "myrosinase",
+      "evidence": "Named in Overview with no supported table row. are concentrated sources of **glucoraphanin** and active **myrosinase**, delivering higher sulforaphane potential per gram than mature broccoli when",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Brussels Sprouts",
+      "slug": "brussels-sprouts",
+      "class": "Overview → table gap",
+      "entity": "isothiocyanates",
+      "evidence": "Named in Overview with no supported table row. re cruciferous vegetables providing glucosinolate-derived **isothiocyanates**, **folate**, and fibre at moderate energy density [1]. Crucifer sulfur compou",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cabbage",
+      "slug": "cabbage",
+      "class": "Overview → table gap",
+      "entity": "glucosinolates",
+      "evidence": "Named in Overview with no supported table row. Cabbage is a cruciferous vegetable providing **glucosinolates**, **vitamin C**, **folate**, and fibre at very low energy density [1]. Ferment",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cabbage",
+      "slug": "cabbage",
+      "class": "Scope error",
+      "entity": "Lactobacillus",
+      "evidence": "Overview names Lactobacillus among headline compounds. ergy density [1]. Fermented cabbage (sauerkraut) delivers **Lactobacillus**-rich fermented vegetable matrices supporting gut microbiome diversity as part",
+      "proposed_resolution": "Treat as mechanism/strategy truth in prose if accurate. Do not add a table row, card, or canonical page for a non-constituent.",
+      "confidence": "high",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cacao Nibs (Raw)",
+      "slug": "cacao-nibs-raw",
+      "class": "Overview → table gap",
+      "entity": "cocoa flavanols",
+      "evidence": "Named in Overview with no supported table row. w cacao nibs are minimally processed cacao pieces rich in **cocoa flavanols** (epicatechin, catechin) and fibre, used as a bitter garnish [1]. Flavanol ret",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cacao Powder",
+      "slug": "cacao-powder",
+      "class": "Overview → table gap",
+      "entity": "cocoa flavanols",
+      "evidence": "Named in Overview with no supported table row. tly processed cacao beans. It is a concentrated source of **cocoa flavanols** — especially **epicatechin**, **catechin**, and **oligomeric procyanidins** —",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cashews",
+      "slug": "cashews",
+      "class": "Overview → table gap",
+      "entity": "phytates",
+      "evidence": "Named in Overview with no supported table row. n a tree-nut matrix [1]. Soaking and sprouting can reduce **phytates**, improving mineral bioavailability from nuts and seeds [1]. Within the BRAIN",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Chamomile Tea",
+      "slug": "chamomile-tea",
+      "class": "Overview → table gap",
+      "entity": "apigenin",
+      "evidence": "Named in Overview with no supported table row. Chamomile tea provides **apigenin**, a flavone that binds benzodiazepine-site receptors and is studied for calm a",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cherries",
+      "slug": "cherries",
+      "class": "Overview → table gap",
+      "entity": "anthocyanins",
+      "evidence": "Named in Overview with no supported table row. Cherries (especially tart varieties) provide **anthocyanins**—principally [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/antho",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cherries",
+      "slug": "cherries",
+      "class": "Overview → table gap",
+      "entity": "melatonin",
+      "evidence": "Named in Overview with no supported table row. mpounds/polyphenols/anthocyanins/peonidin) backbones—plus **melatonin** and other polyphenols studied in sleep and recovery contexts [1]. Berry-class",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Chia Seeds",
+      "slug": "chia-seeds",
+      "class": "Table → card candidate",
+      "entity": "ALA omega-3",
+      "evidence": "Overview names ALA omega-3 and a supported table row exists (ALA), but it is not in the Substances tags.",
+      "proposed_resolution": "Editorial judgement: admit a Substances card if this is a meaningful BRAIN identity compound. Do not auto-admit every table row.",
+      "confidence": "medium",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Chicken",
+      "slug": "chicken",
+      "class": "Overview → table gap",
+      "entity": "tryptophan",
+      "evidence": "Named in Overview (canonical page docs/substances/nutrients/macronutrients/amino-acids/essential/tryptophan.md) with no supported table row. * for NAD⁺ synthesis, **zinc**, and amino acids including **tryptophan**, supporting neurotransmitter synthesis and mitochondrial function [1]. Niacin",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "medium",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Chickpeas",
+      "slug": "chickpeas",
+      "class": "Overview → table gap",
+      "entity": "phytates",
+      "evidence": "Named in Overview with no supported table row. iron** in a legume matrix [1]. Soaking and cooking reduce **phytates**, improving mineral bioavailability [1]. Within the BRAIN Diet framework, chic",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Chicory Root",
+      "slug": "chicory-root",
+      "class": "Overview → table gap",
+      "entity": "inulin",
+      "evidence": "Named in Overview with no supported table row. Chicory root is a concentrated source of **inulin**, a fermentable prebiotic fibre supporting **Bifidobacterium** and related tax",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Chicory Root",
+      "slug": "chicory-root",
+      "class": "Scope error",
+      "entity": "Bifidobacterium",
+      "evidence": "Overview names Bifidobacterium among headline compounds. e of **inulin**, a fermentable prebiotic fibre supporting **Bifidobacterium** and related taxa [1]. Prebiotic fibres have been studied for gut–brain axis m",
+      "proposed_resolution": "Treat as mechanism/strategy truth in prose if accurate. Do not add a table row, card, or canonical page for a non-constituent.",
+      "confidence": "high",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cilantro",
+      "slug": "cilantro",
+      "class": "Overview → table gap",
+      "entity": "polyphenols",
+      "evidence": "Named in Overview with no supported table row. Cilantro (coriander leaves) provides **polyphenols** and culinary antioxidants in an herb matrix with very low energy density [1].",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cinnamon",
+      "slug": "cinnamon",
+      "class": "Overview → table gap",
+      "entity": "polyphenols",
+      "evidence": "Named in Overview with no supported table row. Cinnamon provides **polyphenols** (including proanthocyanidins) studied for glycaemic and metabolic endpoints [",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cinnamon",
+      "slug": "cinnamon",
+      "class": "Overview → table gap",
+      "entity": "coumarin",
+      "evidence": "Named in Overview with no supported table row. mic and metabolic endpoints [1]. Cassia cinnamon contains **coumarin** — regular high intake may warrant Ceylon varieties for frequent use. Within t",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cocoa",
+      "slug": "cocoa",
+      "class": "Overview → table gap",
+      "entity": "cocoa flavanols",
+      "evidence": "Named in Overview with no supported table row. rinks, and manufactured foods. These products still carry **cocoa flavanols** (**epicatechin**, **catechin**, and **oligomeric procyanidins**) and minerals",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Coconut Oil",
+      "slug": "coconut-oil",
+      "class": "Overview → table gap",
+      "entity": "medium-chain triglycerides (MCTs)",
+      "evidence": "Named in Overview with no supported table row. Coconut oil is a **saturated-fat-rich** oil high in **medium-chain triglycerides (MCTs)** used for culinary and ketogenic contexts [1]. Saturated fat intake should rem",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cod",
+      "slug": "cod",
+      "class": "Overview → table gap",
+      "entity": "omega-3 fatty acids",
+      "evidence": "Named in Overview with no supported table row. Cod is a lean white fish providing modest amounts of **omega-3 fatty acids**, **vitamin B12**, **selenium**, and other trace minerals, together with highl",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Coffee",
+      "slug": "coffee",
+      "class": "Overview → table gap",
+      "entity": "caffeine",
+      "evidence": "Named in Overview with no supported table row. Coffee provides **caffeine**, a adenosine-receptor antagonist that increases striatal **dopamine D2/D3 rec",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Coffee",
+      "slug": "coffee",
+      "class": "Admitted card with missing substance page",
+      "entity": "Polyphenols",
+      "evidence": "Has a table row (Polyphenols) and is tagged for the Substances list, but no canonical substance page resolves.",
+      "proposed_resolution": "Propose a canonical substance page after confirming the entity is not a synonym of an existing page. Do not silently create the file in this audit.",
+      "confidence": "medium",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cordyceps Mushroom",
+      "slug": "cordyceps-mushroom",
+      "class": "Overview → table gap",
+      "entity": "cordycepin",
+      "evidence": "Named in Overview with no supported table row. eps militaris* cultivars) provide **polysaccharides** and **cordycepin** studied for energy-metabolism and immunomodulatory endpoints [1]. They are us",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Cranberries",
+      "slug": "cranberries",
+      "class": "Overview → table gap",
+      "entity": "proanthocyanidins (PACs)",
+      "evidence": "Named in Overview with no supported table row. Cranberries provide **proanthocyanidins (PACs)** and anthocyanins—mainly [Cyanidin](/docs/substances/bioactive-compounds/polyp",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    }
+  ]
+}

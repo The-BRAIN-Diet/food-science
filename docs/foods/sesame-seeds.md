@@ -11,33 +11,42 @@ tags:
   - Calcium
 list_image: /img/foods/sesame-seeds/sesame-seeds_thumb.webp
 nutrition_per_100g:
-  kcal: 573
+  vitamin_e_mg: 0.25
+  sugar_g: 0.3
+  beta_carotene_ug: 5
+  selenium_ug: 34.4
   protein_g: 17.73
-  fat_g: 49.67
-  carbs_g: 23.45
   fibre_g: 11.8
-  calcium_mg: 975
   iron_mg: 14.55
   magnesium_mg: 351
+  phosphorus_mg: 629
+  sodium_mg: 11
+  copper_mg: 4.082
+  manganese_mg: 2.46
+  ala_mg: 927
+  sat_fat_g: 6.957
+  vitamin_b1_mg: 0.791
+  vitamin_b2_mg: 0.247
+  folate_ug: 97
+  fat_g: 49.67
+  carbs_g: 23.45
+  kcal: 573
+  calcium_mg: 975
   potassium_mg: 468
   zinc_mg: 7.75
-  selenium_ug: 34.4
+  linoleic_g: 21.375
+  vitamin_b3_mg: 4.515
+  vitamin_b5_mg: 0.05
   vitamin_b6_mg: 0.79
-  folate_ug: 97
   choline_mg: 25.6
-  vitamin_b12_ug: 0
-  sat_fat_g: 6.957
-  epa_mg: 0
-  dha_mg: 0
-  ala_mg: 927
   omega3_mg: 927
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seeds, sesame seeds, whole, dried'
   fdc_id: 170150
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
 main_image: /img/foods/sesame-seeds/sesame-seeds_medium.webp

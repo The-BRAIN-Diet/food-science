@@ -1,149 +1,162 @@
-# Nutrition Data Workflow: Scripts A, B, C
+# Nutrition Data Workflow: Scripts A, B, C, repair, and layer reconciliation
 
-This document defines the **three-script architecture** for ingesting, enriching, and applying nutrition data to food pages. The scripts stay separate; the workflow chains them in order.
+This document describes the **code that actually exists**. The scripts stay separate. They are not all chained by `nutrition:pipeline`.
 
----
-
-## 1. Script B: existence and location
-
-**Script B does not currently exist** and must be created.
-
-- **Proposed file path:** `scripts/enrich-nutrition-from-overview.mjs`
-- **Purpose:** Overview-driven compound enrichment (see below).
+Canonical page layers (Three Sources of Truth) are defined in `system/food-page-model.md`. This workflow implements ingestion, curated enrichment, front-matter application, repair, validation, and post-apply layer reporting.
 
 ---
 
-## 2. Script C: location
+## Commands that exist
 
-**Script C does not currently exist** and must be created.
-
-- **Proposed file path:** `scripts/update-food-page-frontmatter.mjs`
-- **Purpose:** Safely update food page front matter from the combined output of A + B.
+| Role | npm command | Script | Writes `.md`? |
+|------|-------------|--------|---------------|
+| **Script A** — core USDA ingestion | `npm run nutrition:fetch` | `scripts/fetch-usda-nutrition.mjs` | No. Writes `scripts/out/<slug>.json` |
+| **Script B** — overview-driven curated lookup | `npm run nutrition:enrich` | `scripts/enrich-nutrition-from-overview.mjs` | No. Writes payload + review queue JSON |
+| **Script C** — apply payload to front matter | `npm run nutrition:apply` | `scripts/update-food-page-frontmatter.mjs` | Yes. Front matter only |
+| **Repair** | `npm run nutrition:repair` | `scripts/repair-food-pages.mjs` | Yes. Body + selected tags/EAA |
+| **Validate** | `npm run nutrition:validate` | `scripts/validate-food-pages.mjs` | No |
+| **Layer reconciliation (report)** | `npm run nutrition:reconcile-layers` | `scripts/reconcile-food-page-layers.mjs` | No. Writes a report under `scripts/out/` |
 
 ---
 
-## 3. Script A — Core nutrition ingestion
+## What `nutrition:pipeline` actually runs
 
+From `package.json`:
+
+```bash
+npm run nutrition:apply -- --all && npm run nutrition:repair
+```
+
+That is **Script C then repair only**.
+
+`nutrition:pipeline` does **not** run Script A (`nutrition:fetch`) and does **not** run Script B (`nutrition:enrich`). Fetch and enrich must be invoked explicitly.
+
+---
+
+## Script A — Core nutrition ingestion
+
+- **Command:** `npm run nutrition:fetch`
 - **Path:** `scripts/fetch-usda-nutrition.mjs`
-- **Source of truth:** Scans `docs/foods/*.md` automatically. No hard-coded food list. New food pages are picked up on the next run.
-- **USDA resolution:** Uses `scripts/usda-map.json` (slug → search query). When present, the mapping overrides the default (slug with dashes replaced by spaces). Add entries to improve USDA matches (e.g. `"turkey": "turkey breast, meat only, roasted"`).
-- **When `USDA_API_KEY` is set:** For each food page, fetch from USDA API; on success write/update payload in `scripts/out/<slug>.json`; on no match write a no-match payload so B/C can still run.
-- **When `USDA_API_KEY` is not set:** For each food page, create or update payload from existing front matter (no fetch). Pipeline still runs end-to-end.
-- **Options:** `--food <slug>` — run only for that slug; `--out-dir <dir>` (default `scripts/out`); `--foods-dir <dir>` (default `docs/foods`).
-- **Responsibilities:** Standard nutrient mapping, provenance, no guessing, no literature search, no overview-driven enrichment. Prints a summary (foods detected, fetched, payloads created/updated, missing USDA match, skipped).
+- **Role:** Import quantitative USDA data. Does **not** infer compounds from Overview prose.
+- **Source of pages:** Scans `docs/foods/*.md`. No hard-coded food list.
+- **USDA resolution:** `scripts/usda-map.json` (slug → search query), else slug with dashes replaced by spaces.
+- **When `USDA_API_KEY` is set:** Fetches USDA FoodData Central; inspects up to eight ranked candidates; keeps the richest mapped panel (`scripts/lib/usda-nutrient-extract.mjs`); writes `scripts/out/<slug>.json`.
+- **When `USDA_API_KEY` is not set:** Builds payload from existing front matter (no fetch).
+- **Options:** `--food <slug>`, `--out-dir <dir>` (default `scripts/out`), `--foods-dir <dir>` (default `docs/foods`).
 
 ---
 
-## 4. How Script B works
+## Script B — Overview-driven enrichment (curated lookup)
+
+- **Command:** `npm run nutrition:enrich`
+- **Path:** `scripts/enrich-nutrition-from-overview.mjs`
+
+**Honest scope:** Script B is a **curated lookup**, not a research or verification pipeline. It does not search the web, does not invent values, and does not treat arbitrary results as compositional evidence.
+
+**Provenance dataset:** `scripts/data/literature-compounds.json`. As of this writing that file contains **only the salmon–astaxanthin entry**. Verified supplementary entries must be curated into this dataset **before** Script B will apply them to a payload.
+
+**Trigger (deterministic):**
+
+1. Preferred: front matter `overview_key_compounds`.
+2. Fallback: `**bold**` phrases in `## Overview`.
+
+**Apply rule:** If a missing Overview compound has a curated dataset entry, Script B may add it to `nutrition_supplementary_sources` on the **payload** (not the `.md` file).
+
+**Review queue:** Unresolved Overview compounds (no table match and no curated dataset entry) are written to `scripts/out/overview-enrichment-review.json`. Each item includes:
+
+- food slug
+- compound candidate
+- triggering Overview text
+- existing table match
+- existing canonical substance match
+- verification status
+- proposed source
+- proposed value, unit, and food basis
+- decision: `verified`, `unsupported`, `ambiguous`, or `requires-review`
+
+Script B must not fill proposed numeric values except from the curated dataset. Human review decides `unsupported` vs a later curated `verified` entry.
 
 **Inputs:**
 
-- With `--all`: `--pages-dir` (default `docs/foods`) and `--payload-dir` (default `scripts/out`). Script B **detects all food pages** from the directory. If a payload does not exist for a page, it **creates one from the page’s front matter** and then enriches it.
-- Single-page: `--page` and `--payload` as before.
+- `--all --pages-dir docs/foods --payload-dir scripts/out`
+- Single page: `--page docs/foods/<slug>.md --payload scripts/out/<slug>.json`
 
-**Enrichment trigger (deterministic):**
-
-1. **Preferred:** If the page front matter has **`overview_key_compounds`** (a list of compound names), use that list. This is the future-proof, explicit source of “key compounds to consider for the table”.
-2. **Fallback:** If `overview_key_compounds` is absent or empty, extract **bold** phrases (`**...**`) from the first section under `## Overview`.
-
-**Logic:**
-
-1. **Read the page** – Parse front matter and body (e.g. with `gray-matter`).
-2. **Get candidate compounds** – From `overview_key_compounds` if present and non-empty; otherwise from bold phrases in the Overview section. Deduplicate by normalized form (lowercase, single space).
-3. **Identify table compounds** – From the payload, build the set of compounds already represented:
-   - Keys from `nutrition_per_100g` mapped to display labels (via shared `NUTRIENT_LABELS` or an in-script copy).
-   - Labels from existing `nutrition_supplementary_sources` (if any).
-4. **Detect missing** – For each candidate, if it is not already in the table set, treat it as “missing”.
-5. **Look up missing compounds** – For each missing compound, consult **approved secondary sources** (e.g. `scripts/data/literature-compounds.json`). No guessing; if no credible value is found, do not emit an entry.
-6. **Deduplication** – Never add an entry whose `key` is already in `nutrition_supplementary_sources` (from the payload or from a previous run), or already added in this run. Each supplementary key appears at most once.
-7. **Output** – Merge into the payload: set `nutrition_supplementary_sources` to the existing list plus any new strict entries; write the payload back to the same file.
-
-**Output shape:** The payload file after B contains:
-
-- `nutrition_per_100g` (from A)
-- `nutrition_source` (from A)
-- `nutrition_supplementary_sources` (from B; array of `{ key, label, value, unit, source_note }`)
+If a payload is missing under `--all`, Script B creates one from the page’s front matter, then looks up curated entries.
 
 ---
 
-## 5. How Script C safely updates front matter
+## Script C — Apply payload to front matter
 
-**Inputs:**
-
-- Path to the food page (e.g. `docs/foods/salmon.md`).
-- **Payload** – Path to the combined JSON file (output of A + B) or stdin. Payload may contain: `nutrition_per_100g`, `nutrition_source`, `nutrition_supplementary_sources`, and optionally `protein_profile_note`, `amino_acid_strengths`, `limiting_amino_acids`, `complementary_pairings`.
-
-**Logic:**
-
-1. **Read the page** – Use `gray-matter` (or equivalent) to parse the file into `{ data: frontMatter, content: body }`.
-2. **Read the payload** – JSON from file or stdin.
-3. **Merge only nutrition-related keys** – Update (or set) only these keys in the front matter:
-   - `nutrition_per_100g`
-   - `nutrition_source`
-   - `nutrition_supplementary_sources`
-   - `protein_profile_note` (if present in payload)
-   - `amino_acid_strengths` (if present in payload)
-   - `limiting_amino_acids` (if present in payload)
-   - `complementary_pairings` (if present in payload)
-   Omit any key not present in the payload (do not delete existing keys unless the payload explicitly sets them to `null` or the spec says “remove if absent”).
-4. **Preserve everything else** – All other front matter keys and the entire body (including imports, headings, components) are left unchanged.
-5. **Serialise and write** – Use the same front-matter library to stringify YAML (with stable, consistent formatting) and rejoin with the body. Preserve line endings (e.g. detect `\n` vs `\r\n` from original file).
-6. **Dry-run** – With `--dry-run`, print the would-be result to stdout and do not write the file.
-7. **Fail safely** – If the page cannot be parsed or the payload is invalid, exit with a non-zero code and do not modify the file.
+- **Command:** `npm run nutrition:apply`
+- **Path:** `scripts/update-food-page-frontmatter.mjs`
+- Merges nutrition-related keys from the payload into food-page front matter.
+- Preserves body and all other front matter keys.
+- Does not fetch USDA and does not enrich from Overview.
 
 ---
 
-## 6. Commands
+## Repair stage
 
-**Full pipeline (all food pages):**
+- **Command:** `npm run nutrition:repair`
+- **Path:** `scripts/repair-food-pages.mjs`
+- Removes downstream-metabolite tags (content-boundary model).
+- Inserts a missing Essential Amino Acid Profile when the protein rule requires it.
+- Swaps `<FoodSubstances />` to `<FoodSubstancesFromTable />` when nutrition data is present.
+- Does not fetch, enrich, or apply USDA payloads.
+
+---
+
+## Post-apply layer reconciliation (report only)
+
+Run **after** Script C (and typically after repair):
+
+```bash
+npm run nutrition:reconcile-layers
+```
+
+This stage **does not silently create** canonical substance pages and **does not** promote trace database rows into the Substances list. It reports:
+
+- Substances cards without table rows
+- important Overview compounds without table rows
+- verified table compounds that may require cards
+- synonym / canonical-ID resolution notes
+- **proposed** missing canonical substance pages
+- trace database rows that must not be auto-promoted
+
+Report path: `scripts/out/food-page-layer-reconciliation.json`.
+
+`npm run nutrition:reconcile-substances` is a **different**, older bulk tool (`scripts/reconcile-food-substance-tables.mjs`). It is not this reporting stage and is not part of `nutrition:pipeline`.
+
+---
+
+## Recommended full run (explicit; not `nutrition:pipeline`)
 
 ```bash
 npm run nutrition:fetch -- --out-dir scripts/out
 npm run nutrition:enrich -- --all --pages-dir docs/foods --payload-dir scripts/out
 npm run nutrition:apply -- --all --pages-dir docs/foods --payload-dir scripts/out
+npm run nutrition:repair
+npm run nutrition:reconcile-layers
+npm run nutrition:validate
 ```
 
-- **Script A** scans `docs/foods`, resolves USDA query from `scripts/usda-map.json` or slug, fetches (when `USDA_API_KEY` set) or builds payload from front matter, writes `scripts/out/<slug>.json` for every food.
-- **Script B** scans `docs/foods`, loads or creates payload per page, enriches (overview_key_compounds / bold phrases → supplementary sources), writes payload back.
-- **Script C** scans `docs/foods`, loads or creates payload per page, merges nutrition keys into front matter (does not overwrite `nutrition_per_100g` with empty when page already has data), writes page back.
-
-**Updating one food** (e.g. salmon):
+One food (e.g. salmon):
 
 ```bash
 npm run nutrition:fetch -- --food salmon --out-dir scripts/out
 npm run nutrition:enrich -- --page docs/foods/salmon.md --payload scripts/out/salmon.json
 npm run nutrition:apply -- --page docs/foods/salmon.md --payload scripts/out/salmon.json
+npm run nutrition:repair
+npm run nutrition:reconcile-layers -- --slug salmon
 ```
 
-NPM scripts (in `package.json`):
-
-- `nutrition:fetch` – Run Script A (with optional args passed through).
-- `nutrition:enrich` – Run Script B (with optional args passed through).
-- `nutrition:apply` – Run Script C (with optional args passed through).
-
 ---
 
-## 7. Standard workflow for new food creation
+## New food pages
 
-When a **new food page** is added (e.g. `docs/foods/mackerel.md`):
+1. Add `docs/foods/<slug>.md` with Overview and front matter.
+2. Optionally add a USDA query override in `scripts/usda-map.json`.
+3. Run Script A, then B, then C, then repair, then layer reconciliation, then validate.
+4. Curate any verified non-USDA compound into `literature-compounds.json` before expecting Script B to apply it.
 
-1. **Create the page** – Add `docs/foods/<slug>.md` with Overview and any front matter. No manual registration is required.
-2. **Optional:** Add a USDA search override in `scripts/usda-map.json` if the slug does not match USDA well (e.g. `"mackerel": "mackerel, Atlantic, raw"`).
-3. **Run the pipeline** – The next run of A, then B, then C will:
-   - **A:** Detect the new page, fetch from USDA (if key set and mapping or slug matches) or create payload from front matter, write `scripts/out/mackerel.json`.
-   - **B:** Load or create payload, enrich from overview_key_compounds or bold phrases, write payload back.
-   - **C:** Load or create payload, merge nutrition keys into the page, write page back.
-
-No manual config updates are required. `docs/foods` is the single source of truth; the pipeline scales to hundreds of foods.
-
----
-
-## 8. Validation and reporting
-
-Each script prints a summary at the end of a run:
-
-- **Script A:** Foods detected, Fetched from USDA, Payloads created, Payloads updated, Missing USDA match (list), Skipped (list). When `USDA_API_KEY` is not set, notes “payloads from front matter only”.
-- **Script B:** Foods detected, Foods processed, Payloads created (from front matter), Payloads enriched, Skipped.
-- **Script C:** Foods detected, Pages updated, Payloads created (from front matter), Skipped.
-
-Skipped and missing-USDA items are listed so the pipeline can be debugged as the food library grows.
+`docs/foods` remains the page inventory; no separate food-list config is required for A/B/C to see a new page.

@@ -4,6 +4,8 @@ import {
   CORE_NUTRIENT_KEYS,
   MICRONUTRIENT_KEYS,
   NUTRIENT_LABELS,
+  isPublicSupplementaryRow,
+  isPublicTableKey,
 } from "@site/src/data/nutritionTableMapping"
 
 type FrontMatter = Record<string, unknown>
@@ -17,9 +19,13 @@ interface SupplementarySource {
   /** Per 100 g numeric amount (primary database style) */
   value?: number
   unit?: string
-  /** When set (e.g. “Varies by product”), overrides value + unit in the Amount column */
+  /** When set (e.g. “Present — quantity not established”), overrides value + unit in the Amount column */
   amount_display?: string
+  /** Explicit qualitative status; rendered when amount_display is absent */
+  status?: string
   source_note: string
+  /** Override public visibility; default qualitative rows are substance-only. */
+  public_display?: "table" | "substance-only" | "internal-only" | "excluded-error"
   /** Short note for the Bioactive Compounds “Notes” column (optional) */
   notes?: string
 }
@@ -63,6 +69,16 @@ const RDA_VALUES: Record<string, number> = {
   vitamin_e_mg: 15,
   vitamin_k_ug: 120,
   copper_mg: 0.9,
+  phosphorus_mg: 700,
+  manganese_mg: 2.3,
+  vitamin_b2_mg: 1.3,
+  vitamin_b1_mg: 1.2,
+  vitamin_b3_mg: 16,
+  vitamin_b5_mg: 5,
+  vitamin_c_mg: 90,
+  vitamin_a_rae_ug: 900,
+  vitamin_d_ug: 20,
+  iodine_ug: 150,
 }
 
 const thStyle: React.CSSProperties = {
@@ -87,11 +103,12 @@ function isValidSupplementary(s: unknown): s is SupplementarySource {
   const hasNumeric =
     typeof o.value === "number" && typeof o.unit === "string" && !Number.isNaN(o.value)
   const hasDisplay = typeof o.amount_display === "string" && o.amount_display.trim().length > 0
+  const hasStatus = typeof o.status === "string" && o.status.trim().length > 0
   return (
     typeof o.key === "string" &&
     typeof o.label === "string" &&
     typeof o.source_note === "string" &&
-    (hasNumeric || hasDisplay)
+    (hasNumeric || hasDisplay || hasStatus)
   )
 }
 
@@ -121,6 +138,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     .filter(isValidSupplementary)
     // Omit numeric zeros from the bioactive table; keep qualitative entries (amount_display).
     .filter((sup) => (typeof sup.value === "number" ? sup.value > 0 : true))
+    .filter((sup) => isPublicSupplementaryRow(details, sup))
 
   const rawFunctional = (details.nutrition_functional_metrics || []) as unknown[]
   const functionalMetrics = rawFunctional
@@ -171,6 +189,9 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
       if (!Object.prototype.hasOwnProperty.call(nutrition, key)) {
         continue
       }
+      if (!isPublicTableKey(details, key)) {
+        continue
+      }
       const raw = nutrition[key]
       const meta = NUTRIENT_LABELS[key] || {label: key, unit: ""}
       const cells = renderRdaCells(key, raw)
@@ -195,6 +216,9 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     if (!Object.prototype.hasOwnProperty.call(nutrition, key)) {
       continue
     }
+    if (!isPublicTableKey(details, key)) {
+      continue
+    }
     const raw = nutrition[key]
     if (raw === undefined || raw === null) continue
     if (typeof raw !== "number") continue
@@ -214,9 +238,11 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     const amountCell =
       typeof sup.amount_display === "string" && sup.amount_display.trim().length > 0
         ? `${sup.amount_display.trim()} *`
-        : typeof sup.value === "number" && sup.unit
-          ? `${roundTo(sup.value, 1)} ${sup.unit} *`
-          : "—"
+        : typeof sup.status === "string" && sup.status.trim().length > 0
+          ? `${sup.status.trim()} *`
+          : typeof sup.value === "number" && sup.unit
+            ? `${roundTo(sup.value, 1)} ${sup.unit} *`
+            : "—"
     const notesCell =
       typeof sup.notes === "string" && sup.notes.trim().length > 0 ? sup.notes.trim() : "—"
     return (
@@ -283,7 +309,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
 
       {microRows.length > 0 && (
         <>
-          <h3>Key micronutrients</h3>
+          <h3>Vitamins and minerals</h3>
           <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
             <thead>
               <tr>
@@ -298,50 +324,42 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
       )}
 
       {hasBioactiveSection && (
-        <details style={{marginTop: "1rem"}}>
-          <summary style={{cursor: "pointer", color: "var(--ifm-color-primary)"}}>
-            <h3 style={{display: "inline", margin: 0}}>Bioactive compounds</h3>
-          </summary>
-          <div style={{marginTop: "0.5rem"}}>
-            <p style={{fontSize: "0.9em", color: "#555", marginTop: 0}}>
-              Values below are often from specialist compositional databases or literature, not the
-              standard USDA panel. Asterisks (*) refer to source notes at the bottom of this section.
-            </p>
-            <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
-              <thead>
-                <tr>
-                  <th style={thStyle}>Compound / class</th>
-                  <th style={thStyle}>Amount per 100 g</th>
-                  <th style={thStyle}>Notes</th>
-                </tr>
-              </thead>
-              <tbody>
-                {bioactiveLipidRows}
-                {supplementaryRows}
-              </tbody>
-            </table>
+        <>
+          <h3>Fatty acids and extended BRAIN-relevant substances</h3>
+          <p style={{fontSize: "0.9em", color: "#555", marginTop: "0.5rem"}}>
+            Individual fatty acids and BRAIN-relevant substances with a defensible
+            quantity or an explicit public-table status. Asterisks (*) refer to
+            source notes below. Unquantified or trace constituents stay in the
+            Substances section unless showing them here prevents a likely
+            misunderstanding.
+          </p>
+          <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
+            <thead>
+              <tr>
+                <th style={thStyle}>Compound / class</th>
+                <th style={thStyle}>Amount per 100 g</th>
+                <th style={thStyle}>Notes</th>
+              </tr>
+            </thead>
+            <tbody>
+              {bioactiveLipidRows}
+              {supplementaryRows}
+            </tbody>
+          </table>
 
-            <p style={{marginTop: "1rem", fontSize: "0.9em", color: "#555"}}>
-              <strong>Note:</strong> Bioactive-compound values vary substantially by cultivar, species,
-              cocoa or oil percentage, processing, and brand formulation. Show quantitative values only
-              where a defensible source exists; otherwise prefer qualitative presence statements or
-              ranges in source notes.
-            </p>
-
-            {hasSupplementary && (
-              <div style={{marginTop: "0.75rem", fontSize: "0.9em", color: "#555"}}>
-                <strong>Source notes (bioactive / supplementary):</strong>
-                <ul style={{marginTop: "0.25rem", marginBottom: 0, paddingLeft: "1.25rem"}}>
-                  {supplementary.map((sup) => (
-                    <li key={sup.key}>
-                      * <strong>{sup.label}:</strong> {sup.source_note}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            )}
-          </div>
-        </details>
+          {hasSupplementary && (
+            <div style={{marginTop: "0.75rem", fontSize: "0.9em", color: "#555"}}>
+              <strong>Source notes (extended / supplementary):</strong>
+              <ul style={{marginTop: "0.25rem", marginBottom: 0, paddingLeft: "1.25rem"}}>
+                {supplementary.map((sup) => (
+                  <li key={sup.key}>
+                    * <strong>{sup.label}:</strong> {sup.source_note}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </>
       )}
 
       {hasFunctionalSection && (

@@ -11,33 +11,46 @@ tags:
   - Vitamin B9
 list_image: /img/foods/asparagus/asparagus_thumb.webp
 nutrition_per_100g:
-  kcal: 20
-  protein_g: 2.2
-  fat_g: 0.12
-  carbs_g: 3.88
-  fibre_g: 2.1
+  sat_fat_g: 0.04
+  vitamin_c_mg: 5.6
+  folate_ug: 52
   ala_mg: 115
-  calcium_mg: 24
+  protein_g: 2.2
+  vitamin_e_mg: 1.13
+  sugar_g: 1.88
+  linoleic_g: 0.04
+  choline_mg: 16
+  sodium_mg: 2
+  carbs_g: 3.88
+  kcal: 20
+  vitamin_a_rae_ug: 38
+  selenium_ug: 2.3
+  beta_carotene_ug: 449
+  copper_mg: 0.189
+  manganese_mg: 0.158
+  fibre_g: 2.1
   iron_mg: 2.14
   magnesium_mg: 14
+  phosphorus_mg: 52
+  vitamin_k_ug: 41.6
+  vitamin_b1_mg: 0.143
+  vitamin_b2_mg: 0.141
+  fat_g: 0.12
+  calcium_mg: 24
   potassium_mg: 202
   zinc_mg: 0.54
-  selenium_ug: 2.3
+  lutein_zeaxanthin_ug: 710
+  vitamin_b3_mg: 0.978
+  vitamin_b5_mg: 0.274
   vitamin_b6_mg: 0.091
-  folate_ug: 52
-  choline_mg: 16
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.04
-  epa_mg: 0
-  dha_mg: 0
   omega3_mg: 115
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Asparagus, raw'
   fdc_id: 168389
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/asparagus/asparagus_medium.webp
 legacy_list_image: /img/foods/asparagus/asparagus_thumb.webp
 legacy_main_image: /img/foods/asparagus/asparagus_medium.webp

@@ -6,7 +6,6 @@ description: Fermented dairy providing probiotics and complete protein
 tags:
   - Food
   - Greek Yogurt
-  - Yogurt
   - Vegetarian
   - Calcium
   - Zinc
@@ -15,32 +14,50 @@ tags:
 list_image: /img/foods/yogurt/yogurt_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
-  kcal: 94.507135
-  protein_g: 8.77888
-  fat_g: 4.394
-  carbs_g: 4.75402
-  sugar_g: 3.2474
-  ala_mg: 639.4
-  calcium_mg: 110.9
-  iron_mg: 0
-  magnesium_mg: 10.7
-  potassium_mg: 146.9
-  zinc_mg: 0.473
-  vitamin_b6_mg: 0.04394
-  sat_fat_g: 2.393
-  omega3_mg: 639.4
+  protein_g: 9
+  magnesium_mg: 11
+  phosphorus_mg: 135
+  sodium_mg: 35
+  copper_mg: 0.017
+  manganese_mg: 0.009
+  vitamin_a_rae_ug: 2
+  beta_carotene_ug: 7
+  vitamin_b1_mg: 0.023
+  vitamin_b2_mg: 0.278
+  folate_ug: 5
+  vitamin_b12_ug: 0.75
+  sugar_g: 4
+  calcium_mg: 100
+  potassium_mg: 141
+  zinc_mg: 0.52
+  selenium_ug: 9.7
+  vitamin_e_mg: 0.01
+  vitamin_b3_mg: 0.208
+  vitamin_b5_mg: 0.331
+  vitamin_b6_mg: 0.063
+  choline_mg: 15.1
+  fat_g: 5
+  caproic_g: 0.051
+  capric_g: 0.264
+  linoleic_g: 0.209
+  carbs_g: 3.98
+  kcal: 97
+  ala_mg: 23
+  dha_mg: 4
+  sat_fat_g: 2.395
+  caprylic_g: 0.086
+  omega3_mg: 27
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Yogurt, Greek, plain, whole milk'
-  fdc_id: 2259794
-  retrieval_method: API
+  fdc_id: 171304
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/yogurt/yogurt_medium.webp
 legacy_list_image: /img/foods/yogurt/yogurt_thumb.webp
 legacy_main_image: /img/foods/yogurt/yogurt_medium.webp
 ---
-
 import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview

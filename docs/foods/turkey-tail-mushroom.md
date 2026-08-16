@@ -2,13 +2,14 @@
 id: turkey-tail-mushroom
 title: Turkey Tail Mushroom
 sidebar_label: Turkey Tail Mushroom
-description: 'Medicinal mushroom rich in polysaccharides, particularly PSK and PSP, supporting immune function'
+description: >-
+  Medicinal mushroom rich in polysaccharides, particularly PSK and PSP,
+  supporting immune function
 tags:
   - Food
   - Turkey Tail Mushroom
   - Vegan
   - Vegetarian
-  - Mushrooms
   - Vitamin B3
   - Polysaccharides
   - Beta-Glucans
@@ -38,6 +39,29 @@ nutrition_source:
 main_image: /img/foods/turkey-tail-mushroom/turkey-tail-mushroom_medium.webp
 legacy_list_image: /img/foods/turkey-tail-mushroom/turkey-tail-mushroom_thumb.webp
 legacy_main_image: /img/foods/turkey-tail-mushroom/turkey-tail-mushroom_medium.webp
+nutrition_supplementary_sources:
+  - key: beta_glucans_qual
+    label: Beta-Glucans
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Turkey Tail Mushroom cell walls contain β-glucans; USDA SR Legacy mushroom
+      records do not quantify β-glucans.
+  - key: polysaccharides_qual
+    label: Polysaccharides
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Turkey Tail Mushroom is characterised by fungal polysaccharides; USDA SR
+      Legacy has no record for this mushroom, so quantity is not established.
+  - key: vitamin_b3_qual
+    label: Vitamin B3
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Turkey Tail Mushroom is grouped with culinary mushrooms as a
+      niacin-containing fungus; USDA SR Legacy has no record for this specialty
+      mushroom, so quantity is not established.
 ---
 ## Overview
 

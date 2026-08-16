@@ -16,57 +16,91 @@ tags:
   - Polyphenol
 list_image: /img/foods/extra-virgin-olive-oil/extra-virgin-olive-oil_thumb.webp
 nutrition_per_100g:
-  protein_g: 0
-  kcal: 800
-  fat_g: 93.33
-  sat_fat_g: 13.33
-  carbs_g: 0
-  vitamin_e_mg: 14.4
-  vitamin_k_ug: 60
+  vitamin_e_mg: 14.35
+  fat_g: 100
+  kcal: 884
+  calcium_mg: 1
+  potassium_mg: 1
+  linoleic_g: 9.762
+  iron_mg: 0.56
+  sodium_mg: 2
+  sat_fat_g: 13.808
+  choline_mg: 0.3
+  vitamin_k_ug: 60.2
 nutrition_source:
   database: USDA FoodData Central
-  food_name: EXTRA VIRGIN OLIVE OIL
-  fdc_id: 1908563
-  retrieval_method: API
+  food_name: 'Oil, olive, salad or cooking'
+  fdc_id: 171413
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: total_olive_phenolics_mg
     label: Total olive polyphenols
     value: 15
     unit: mg
-    notes: “Typical” EVOO band; early-harvest / high-phenolic oils can be several-fold higher.
-    source_note: 'Total phenolics in extra virgin olive oil vary widely by cultivar, harvest stage, and processing. A practical "typical EVOO" range is ~100–250 mg/kg (≈10–25 mg/100 g), while high-phenolic/early-harvest oils can reach ~500–900 mg/kg (≈50–90 mg/100 g). Use this row as a guide, not a precise fixed value for all oils.'
+    notes: >-
+      “Typical” EVOO band; early-harvest / high-phenolic oils can be
+      several-fold higher.
+    source_note: >-
+      Total phenolics in extra virgin olive oil vary widely by cultivar, harvest
+      stage, and processing. A practical "typical EVOO" range is ~100–250 mg/kg
+      (≈10–25 mg/100 g), while high-phenolic/early-harvest oils can reach
+      ~500–900 mg/kg (≈50–90 mg/100 g). Use this row as a guide, not a precise
+      fixed value for all oils.
   - key: hydroxytyrosol_mg
     label: Hydroxytyrosol
     value: 1.4
     unit: mg
-    notes: EFSA claim threshold is expressed as hydroxytyrosol equivalents (derivatives included).
-    source_note: Hydroxytyrosol in EVOO is typically reported in the low mg/kg range and is present largely as derivatives; indicative values across oils are roughly ~7–21 mg/kg (≈0.7–2.1 mg/100 g). The EFSA-authorised claim is based on hydroxytyrosol and its derivatives at ≥250 mg/kg (25 mg/100 g) expressed as hydroxytyrosol equivalents.
+    notes: >-
+      EFSA claim threshold is expressed as hydroxytyrosol equivalents
+      (derivatives included).
+    source_note: >-
+      Hydroxytyrosol in EVOO is typically reported in the low mg/kg range and is
+      present largely as derivatives; indicative values across oils are roughly
+      ~7–21 mg/kg (≈0.7–2.1 mg/100 g). The EFSA-authorised claim is based on
+      hydroxytyrosol and its derivatives at ≥250 mg/kg (25 mg/100 g) expressed
+      as hydroxytyrosol equivalents.
   - key: tyrosol_mg
     label: Tyrosol
     value: 1
     unit: mg
     notes: Often co-varies with hydroxytyrosol derivatives across cultivars.
-    source_note: 'Tyrosol is typically in the low mg/kg range and often co-varies with hydroxytyrosol derivatives; indicative values are roughly ~6–15 mg/kg (≈0.6–1.5 mg/100 g), with substantial variability by cultivar and harvest.'
+    source_note: >-
+      Tyrosol is typically in the low mg/kg range and often co-varies with
+      hydroxytyrosol derivatives; indicative values are roughly ~6–15 mg/kg
+      (≈0.6–1.5 mg/100 g), with substantial variability by cultivar and harvest.
   - key: oleocanthal_mg
     label: Oleocanthal
     value: 7.8
     unit: mg
-    notes: Secoiridoid linked to throat “pungency”; concentrations vary widely by oil.
-    source_note: 'Oleocanthal is a major secoiridoid associated with pungency. In an analysis of 100 EVOO samples, mean oleocanthal concentration was ~77.9 mg/kg (≈7.8 mg/100 g), with wide variability across oils.'
+    notes: >-
+      Secoiridoid linked to throat “pungency”; concentrations vary widely by
+      oil.
+    source_note: >-
+      Oleocanthal is a major secoiridoid associated with pungency. In an
+      analysis of 100 EVOO samples, mean oleocanthal concentration was ~77.9
+      mg/kg (≈7.8 mg/100 g), with wide variability across oils.
   - key: oleacein_mg
     label: Oleacein
     value: 4.2
     unit: mg
     notes: Common secoiridoid in EVOO; correlates with polyphenol-rich chemotypes.
-    source_note: 'Oleacein is commonly abundant in EVOO and varies strongly by cultivar and processing. In an analysis of 100 EVOO samples, mean oleacein concentration was ~41.8 mg/kg (≈4.2 mg/100 g); some oils can be much higher.'
+    source_note: >-
+      Oleacein is commonly abundant in EVOO and varies strongly by cultivar and
+      processing. In an analysis of 100 EVOO samples, mean oleacein
+      concentration was ~41.8 mg/kg (≈4.2 mg/100 g); some oils can be much
+      higher.
   - key: oleuropein_mg
     label: Oleuropein
     value: 5
     unit: mg
     notes: Reporting depends on whether aglycones/derivatives are pooled vs split.
-    source_note: Oleuropein-related secoiridoids dominate the phenolic fraction; reported values depend on whether aglycone/derivatives are quantified separately. Use this as a qualitative guide within the broader phenolic range rather than a universal fixed number.
+    source_note: >-
+      Oleuropein-related secoiridoids dominate the phenolic fraction; reported
+      values depend on whether aglycone/derivatives are quantified separately.
+      Use this as a qualitative guide within the broader phenolic range rather
+      than a universal fixed number.
 polyphenol_profile:
   source: literature_estimates
   typical_range_mg_per_kg: 100-250

@@ -36,7 +36,10 @@ nutrition_per_100g:
   omega3_mg: 3774
 nutrition_source:
   database: USDA FoodData Central (proxy) + literature
-  food_name: 'Trout roe — compositional proxy: Fish, roe, mixed species, raw (FDC 175132); B12 rounded to typical salmonid-roe range until a trout-specific FDC record is adopted.'
+  food_name: >-
+    Trout roe — compositional proxy: Fish, roe, mixed species, raw (FDC 175132);
+    B12 rounded to typical salmonid-roe range until a trout-specific FDC record
+    is adopted.
   fdc_id: 175132
   retrieval_method: API + manual B12 alignment
   basis: per 100 g edible portion
@@ -46,8 +49,20 @@ nutrition_supplementary_sources:
     label: Astaxanthin
     value: 2.5
     unit: mg
-    notes: Present in salmonid roe; farmed trout pigment varies with feed carotenoids.
-    source_note: Order-of-magnitude literature estimate; not on the proxy FDC record; farmed trout roe can be lighter than salmon ikura.
+    notes: >-
+      Present in salmonid roe; farmed trout pigment varies with feed
+      carotenoids.
+    source_note: >-
+      Order-of-magnitude literature estimate; not on the proxy FDC record;
+      farmed trout roe can be lighter than salmon ikura.
+  - key: phosphatidylcholine_qual
+    label: Phosphatidylcholine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Trout Roe is a phospholipid-rich food in which phosphatidylcholine is a
+      major choline form; USDA SR Legacy reports choline, not
+      phosphatidylcholine specifically.
 main_image: /img/foods/trout-roe/trout-roe_medium.webp
 legacy_list_image: /img/foods/trout-roe/trout-roe_thumb.webp
 legacy_main_image: /img/foods/trout-roe/trout-roe_medium.webp

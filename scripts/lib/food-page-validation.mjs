@@ -24,6 +24,7 @@ export const EAA_EXCLUDE_SLUGS = new Set(["saffron", "black-pepper", "cinnamon"]
 export const DOWNSTREAM_METABOLITE_TAGS = new Set([
   "SCFAs", "Butyrate", "Propionate", "Acetate", "Short-chain fatty acids",
   "Short-Chain Fatty Acids (SCFAs)",
+  "Nitric Oxide",
 ])
 
 const CANONICAL_SECTIONS = [

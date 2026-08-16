@@ -8,28 +8,47 @@ tags:
   - Dandelion Greens
   - Vegan
   - Vegetarian
-  - Vitamin K2
+  - Vitamin K
 list_image: /img/foods/dandelion-greens/dandelion-greens_thumb.webp
 nutrition_per_100g:
-  kcal: 23.529215
-  protein_g: 1.4375
-  fat_g: 0.2163
-  carbs_g: 5.1012
-  fibre_g: 1.883
-  calcium_mg: 20.58
-  iron_mg: 0.4436
-  magnesium_mg: 13.78
-  potassium_mg: 277.5
-  zinc_mg: 0.5955
-  vitamin_b6_mg: 0.1118
-  folate_ug: 182.5
+  linoleic_g: 0.261
+  sat_fat_g: 0.17
+  carbs_g: 9.2
+  kcal: 45
+  sugar_g: 0.71
+  lutein_zeaxanthin_ug: 13610
+  vitamin_e_mg: 3.44
+  choline_mg: 35.3
+  vitamin_k_ug: 778.4
+  vitamin_a_rae_ug: 508
+  beta_carotene_ug: 5854
+  vitamin_b3_mg: 0.806
+  vitamin_b5_mg: 0.084
+  vitamin_b6_mg: 0.251
+  calcium_mg: 187
+  potassium_mg: 397
+  zinc_mg: 0.41
+  fat_g: 0.7
+  vitamin_c_mg: 35
+  vitamin_b1_mg: 0.19
+  vitamin_b2_mg: 0.26
+  folate_ug: 27
+  protein_g: 2.7
+  fibre_g: 3.5
+  iron_mg: 3.1
+  magnesium_mg: 36
+  phosphorus_mg: 66
+  sodium_mg: 76
+  copper_mg: 0.171
+  manganese_mg: 0.342
+  selenium_ug: 0.5
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Asparagus, green, raw'
-  fdc_id: 2710823
-  retrieval_method: API
+  food_name: 'Dandelion greens, raw'
+  fdc_id: 169226
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/dandelion-greens/dandelion-greens_medium.webp
 legacy_list_image: /img/foods/dandelion-greens/dandelion-greens_thumb.webp
 legacy_main_image: /img/foods/dandelion-greens/dandelion-greens_medium.webp

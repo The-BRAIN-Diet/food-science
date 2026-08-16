@@ -9,24 +9,45 @@ tags:
   - Omega-3 Fatty Acids
 list_image: /img/foods/cod/cod_thumb.webp
 nutrition_per_100g:
-  kcal: 60.84
-  protein_g: 14.2
-  fat_g: 0.216
-  carbs_g: 0.524
-  calcium_mg: 9.013
-  iron_mg: 0
-  magnesium_mg: 17.88
-  potassium_mg: 192.3
-  zinc_mg: 0.2687
-  selenium_ug: 22.29
-  vitamin_b12_ug: 0.586
+  choline_mg: 65.2
+  vitamin_e_mg: 0.64
+  kcal: 82
+  vitamin_k_ug: 0.1
+  vitamin_a_rae_ug: 12
+  vitamin_d_ug: 0.9
+  iron_mg: 0.38
+  magnesium_mg: 32
+  phosphorus_mg: 203
+  sodium_mg: 54
+  copper_mg: 0.028
+  manganese_mg: 0.015
+  ala_mg: 1077
+  vitamin_c_mg: 1
+  vitamin_b1_mg: 0.076
+  vitamin_b2_mg: 0.065
+  folate_ug: 7
+  vitamin_b12_ug: 0.91
+  protein_g: 17.81
+  sat_fat_g: 0.131
+  dha_mg: 120
+  epa_mg: 64
+  fat_g: 0.67
+  vitamin_b3_mg: 2.063
+  vitamin_b5_mg: 0.153
+  vitamin_b6_mg: 0.245
+  calcium_mg: 16
+  potassium_mg: 413
+  zinc_mg: 0.45
+  linoleic_g: 0.005
+  selenium_ug: 33.1
+  omega3_mg: 1261
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Cod, Pacific or Alaskan, frozen, wild caught'
-  fdc_id: 2747654
-  retrieval_method: API
+  food_name: 'Fish, cod, Atlantic, raw'
+  fdc_id: 171955
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/cod/cod_medium.webp
 legacy_list_image: /img/foods/cod/cod_thumb.webp

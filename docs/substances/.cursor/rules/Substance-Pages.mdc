@@ -5,31 +5,34 @@ globs: *.md
 alwaysApply: false
 ---
 
-- Tag each food page with the substances it contains
-- Tag the page with "Substance" too, so that it appears in index.md.
+Canonical schema: `system/substance-page-schema.md`.  
+**Worked example:** `docs/substances/bioactive-compounds/carotenoids/astaxanthin.md`.  
+References follow the same convention as food pages (`system/food-page-schema.md`).
+
+- Tag each food page with the substances it contains.
+- Tag the page with "Substance" so that it appears in index.md.
 - Tag with "Bioactive", "Metabolite", "Nutrient" and any other substance classifications such as "Mineral", "Vitamin", "Fatty Acid" etc.
-- Tag each page with the name of the biological targets (e.g. Hormonal Response) so we can refer to it from a biological target page.
+- Tag with the **BRS hub tag names** used on biological-target documents (e.g. `Inflammation & Oxidative Stress`) when a mapping is evidenced.
 - Tag with the tags for any foods that contain this substance.
-- In the front matter, list_image: one of /img/icons/substance.svg /img/icons/nutrient.svg /img/icons/metabolite.svg /img/icons/bioactive.svg (this is used as a fallback if InChIKey is not available)
-- In the front matter, inchikey: (optional) The InChIKey for the substance. If provided, the chemical structure image will be fetched from PubChem API. Example: inchikey: MDJHJOXOBXJZLA-UHFFFAOYSA-N
+- In the front matter, `list_image:` one of `/img/icons/substance.svg` `/img/icons/nutrient.svg` `/img/icons/metabolite.svg` `/img/icons/bioactive.svg` (fallback if InChIKey is not available).
+- In the front matter, `inchikey:` (optional). If provided, the chemical structure image will be fetched from PubChem. Example: `inchikey: MDJHJOXOBXJZLA-UHFFFAOYSA-N`.
+- In the front matter, `mechanisms:` explains how the substance interacts with Biological Targets. Keys must match BRS hub tag labels.
 
-- Have a section of front-matter called mechanisms, which explains how the substance interacts with the Biological Targets. Use paper.txt for research. Example:
+## Canonical section order
 
+1. **Overview** — two concise paragraphs (~90–160 words). Identity and food occurrence, then strongest attributed evidence with limitations. Inline numeric citations `[1]`, `[2]`.
+2. **Key Compound Highlights** — 3–6 decision-relevant bullets.
+3. **Dietary Context** — only subsections with substance-specific content (`Food sources`, `Synergies`, `Supplement versus food`).
+4. **Recipes** — `<SubstanceRecipes tag="the substance" />`
+5. **Foods** — `<SubstanceFoods tag="the substance" />`
+6. **References** — food-page canonical format. **No bullet prefix.** Each line:
+
+```text
+[n] {Explanation}. {Author Year}. [{Paper title}](/docs/papers/BRAIN-Diet-References#citationKey)
 ```
-mechanisms:
-  Inflammation: Specialized Pro-Resolving Mediators (SPMs) - resolvins, protectins, maresins terminate inflammation without immunosuppression, downregulate COX-2, inhibit neutrophil infiltration, enhance macrophage clearance, limit glutamate-induced excitotoxicity
-```
 
-The Format of the page should have this structure:
+Do **not** render `<SubstanceMatrix />` or a hand-authored BRS table. BRS tags and `mechanisms:` stay in front matter for a later batch job.
 
-- Overview: A single paragraph description describing the substance, what it is, where it comes from. Keep it brief.
-- Recipes: should be <SubstanceRecipes tag="the substance" /> (this component follows the causality chain: Substance -> Foods -> Recipes, and displays recipes in a collapsible section)
-- Foods: should be <SubstanceFoods tag="the substance" /> (this component displays foods containing the substance in a collapsible section)
-- Biological Mechanisms and Implications: should be: <SubstanceMatrix tag="the substance" />
-- References: A list of findings or scientific principles, with their link to the `/docs/papers/BRAIN-Diet-References#<ref>` that discusses it, from paper.txt in the root directory. Make sure all assertions are backed up by evidence from the paper.txt file . Use references if the paper mentions them.
+Every citation key must exist in `static/bibtex/BRAIN-diet.bib`. Plain-text-only reference lines are invalid.
 
-An example for the references section might look like this:
-
-- A decreased microbial diversity (alpha diversity) has also been reported in ADHD [Prehn-Kristensen et al. 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)
-
-Use the `berberine.md` page as an example.
+Attribute evidence at the level studied (isolated compound vs glycoside vs extract vs food). Do not copy family-level or food-level citations onto an isolated-compound page unless that paper actually studied the compound.

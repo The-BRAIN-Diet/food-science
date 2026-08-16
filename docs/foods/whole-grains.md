@@ -32,9 +32,13 @@ nutrition_source:
   retrieval_method: API
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
-amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
+amino_acid_strengths: >-
+  Relatively higher in methionine than legumes; lysine-limited like other
+  grains.
 limiting_amino_acids: Lysine (typical of grains).
-complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+complementary_pairings: >-
+  Lentils, chickpeas, or other legumes for complete essential amino acid
+  profile.
 main_image: /img/foods/whole-grains/whole-grains_medium.webp
 legacy_list_image: /img/foods/whole-grains/whole-grains_thumb.webp
 legacy_main_image: /img/foods/whole-grains/whole-grains_medium.webp

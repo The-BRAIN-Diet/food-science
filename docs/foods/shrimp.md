@@ -10,21 +10,47 @@ tags:
   - Zinc
 list_image: /img/foods/shrimp/shrimp_thumb.webp
 nutrition_per_100g:
-  fibre_g: 0
-  iron_mg: 0.42
-  calcium_mg: 71
-  protein_g: 11.76
-  carbs_g: 0
-  kcal: 47
-  fat_g: 0
-  sat_fat_g: 0
+  choline_mg: 80.9
+  fat_g: 1.01
+  carbs_g: 0.91
+  kcal: 71
+  vitamin_b3_mg: 1.778
+  vitamin_b5_mg: 0.31
+  vitamin_b6_mg: 0.161
+  calcium_mg: 54
+  potassium_mg: 113
+  zinc_mg: 0.97
+  selenium_ug: 29.6
+  vitamin_e_mg: 1.32
+  vitamin_b1_mg: 0.02
+  vitamin_b2_mg: 0.015
+  folate_ug: 19
+  vitamin_b12_ug: 1.11
+  vitamin_k_ug: 0.3
+  ala_mg: 6
+  vitamin_a_rae_ug: 54
+  vitamin_d_ug: 0.1
+  iron_mg: 0.21
+  magnesium_mg: 22
+  phosphorus_mg: 244
+  sodium_mg: 566
+  copper_mg: 0.182
+  manganese_mg: 0.029
+  protein_g: 13.61
+  linoleic_g: 0.089
+  epa_mg: 68
+  dha_mg: 70
+  sat_fat_g: 0.261
+  omega3_mg: 144
 nutrition_source:
   database: USDA FoodData Central
-  food_name: SHRIMP
-  fdc_id: 1899566
-  retrieval_method: API
+  food_name: >-
+    Crustaceans, shrimp, mixed species, raw (may contain additives to retain
+    moisture)
+  fdc_id: 174210
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/shrimp/shrimp_medium.webp
 legacy_list_image: /img/foods/shrimp/shrimp_thumb.webp

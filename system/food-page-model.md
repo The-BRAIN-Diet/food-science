@@ -10,21 +10,51 @@ Each food page has **three distinct layers**. They must stay aligned but do **no
 
 | Layer | Purpose | Rules |
 |-------|---------|--------|
-| **1. Overview** | Explain why the food matters biologically; identify key active compounds / headline bioactives. | Concise and selective. Not a chemistry dump. Mention only the most important compounds driving biological identity. May mention compounds not yet in the database table. |
-| **2. Database nutrition table** | Provide the **quantitative evidence** layer. | Authoritative numeric layer. Populated from structured databases (USDA FoodData Central, Phenol-Explorer, etc.). If a compound appears here, it **must** appear in the substances list. |
-| **3. Substances list** | Structured list of **meaningful compounds** in the food. | Must **mirror** the database table. Every compound in the nutrition table must appear here. Not an exhaustive inventory. |
+| **1. Overview** | Concise, researched narrative identifying the food’s important nutrients and active compounds. This is the qualitative/headline layer. | Selective. Not a chemistry dump. Mention only the most important compounds driving biological identity. Headline compounds that are not yet in the nutrition table must be flagged for verification; they must not become Substances cards or canonical substance pages until admitted through the table. |
+| **2. Database nutrition table** | Quantitative composition table, primarily from USDA, supplemented by specialist databases or food-specific literature for compounds USDA does not capture. | Authoritative compositional evidence. Supplementary rows may be quantitative or qualitative with food-specific provenance and an asterisk. A table row is **not** a BRS mapping. Mere database detection, especially at trace levels, does not automatically justify a Substances card. |
+| **3. Substances list** | A meaningful structural list that mirrors the validated contents of the Overview and composition table, linking those entities into the canonical substance ontology. | Every Substances card **must** resolve to a supported nutrition-table row. Not every nutrition-table row requires a Substances card. Cards are not a substitute for table inclusion and are not BRS mappings. |
 
 **Summary:**
 
-- **Overview** → defines the key biological identity of the food.
-- **Database table** → quantifies those (and other) compounds.
-- **Substances list** → mirrors the table contents.
+- **Overview** selects what is meaningful.
+- **Database nutrition table** establishes compositional evidence.
+- **Substances list** structurally mirrors the validated, meaningful union.
+- A canonical substance page may be created only after that entity has been validly admitted to the food’s reconciled Substances layer.
+
+These three layers are the **only** “Three Sources of Truth” for food pages. Composition and provenance classes in `system/food-nutrition-schema.md` describe how table values are sourced; they do not rename or replace this model.
 
 ---
 
-## Three Truth-Layer Boundaries
+## Directional reconciliation
 
-Content must respect **three distinct truth layers**. Violating these boundaries causes downstream metabolites and strategy advice to be misrepresented as intrinsic food compounds.
+The governing consistency rule is:
+
+**Overview → quantitative verification → substance inclusion**
+
+More precisely:
+
+1. If a compound appears in the Overview but not the core database, that does **not** automatically justify a new substance page.
+2. Its presence must trigger a wider search of specialist composition databases or food-specific literature (Script B review queue; curated provenance dataset before application).
+3. If verified, it is added to the nutritional table with an asterisk and source beneath the table.
+4. It is then added to the food’s Substances list.
+5. If that admitted substance lacks a canonical substance page, the missing page may then be proposed (not silently created).
+6. Unsupported Overview claims must be removed or appropriately qualified; they must not generate Substances cards or canonical substance pages.
+7. Values must never be copied from a related food (e.g. walnuts → almonds).
+
+**Enforced direction:**
+
+- Every Substances card must resolve to a supported nutrition-table row.
+- Not every nutrition-table row requires a Substances card.
+- Mere database detection, especially at trace levels, does not automatically justify ontology inclusion.
+- Every compound presented as a headline component in the Overview must either resolve to a supported table row or be flagged for verification.
+
+---
+
+## Content-boundary model: Intrinsic / Mechanism / Strategy
+
+This is a **separate** model from the Three Sources of Truth. It determines **where a claim belongs** on or around the page. It does **not** determine whether an entity has passed the food-page admission workflow (Overview → table → Substances).
+
+Violating these boundaries causes downstream metabolites and strategy advice to be misrepresented as intrinsic food compounds.
 
 | Layer | Where it belongs | Where it must NOT appear |
 |-------|------------------|---------------------------|
@@ -69,34 +99,31 @@ Content must respect **three distinct truth layers**. Violating these boundaries
 
 ## Missing Compound Rule
 
-If the **overview** mentions a key compound that is **missing from the database table**, do not leave the inconsistency in place.
+If the **Overview** mentions a headline compound that is **missing from the database table**, do not leave the inconsistency in place, do not invent a number, and do not create a Substances card or canonical substance page from the mention alone.
 
-1. Perform a wider search in appropriate literature or specialised databases.
-2. Find a credible quantitative value or estimate.
-3. Add that compound to the nutrition table (or to the **supplementary sources** block).
-4. Mark that table value with an **asterisk (\*)**.
-5. Show the corresponding **source note** beneath the table.
-6. Ensure that compound also appears in the **substances list**.
+1. Prefer a wider search of the **same food** in USDA (richest mapped panel, not the first abbreviated hit) or another named composition database.
+2. If no USDA value exists, flag the compound for verification (Script B review queue). Do not scrape arbitrary web results into the table.
+3. A verified supplementary value may be applied only after it has been curated into the provenance dataset (`scripts/data/literature-compounds.json`). Then add it to `nutrition_supplementary_sources` with an asterisk and food-specific `source_note`.
+4. If presence is evidenced but quantity is not established, a qualitative row with status `Present — quantity not established` may be curated the same way.
+5. Add the compound to the Substances list **only after** the supported table row exists.
+6. Propose a canonical substance page only after ontology admission; do not silently create pages.
 
-**Example:** If the salmon overview mentions astaxanthin but USDA does not provide it:
+**Example:** If the salmon Overview mentions astaxanthin but USDA does not provide it:
 
-- Search literature / specialist carotenoid source.
-- Add e.g. `astaxanthin: 3.2 mg*` via the supplementary sources mechanism.
-- Include a source note below the table.
-- Include Astaxanthin in the substances list.
+- Search a specialist carotenoid source **for salmon**.
+- Curate the value into the provenance dataset, then apply the supplementary row.
+- Include Astaxanthin in the Substances list only once the table row exists.
 
-The asterisk must visually connect the table entry and the source note below.
-
-**Important:** The database layer remains authoritative; the overview can **trigger evidence expansion**. Values from supplementary sources are still sourced and attributed.
+Do **not** copy a value from a related food (e.g. walnuts → almonds).
 
 ---
 
 ## Relationship Between the Three Layers (Final)
 
 - **Overview** identifies important compounds.
-- **Database table** quantifies them (primary + supplementary with asterisk).
-- **Substances list** mirrors the table contents.
-- **Expansion rule:** overview-only compounds trigger additional evidence search, then get added to the table with source attribution (asterisk + source note).
+- **Database nutrition table** records verified composition (primary USDA panel plus curated supplementary rows with asterisk and source).
+- **Substances list** mirrors the validated, meaningful union: cards only for compounds that already have a supported table row.
+- **Expansion rule:** Overview-only compounds trigger verification, then table admission, then Substances admission — never cards without a row, never invented numbers, never values copied from a related food.
 
 ---
 
@@ -429,7 +456,7 @@ Avoid listing all nine EAAs unless in a detailed table.
 - [ ] Plant foods: use `amino_acid_strengths`, `limiting_amino_acids`, `complementary_pairings` where useful.
 - [ ] **Truth layers:** Only intrinsic food compounds in substances/tags; no downstream metabolites (e.g. SCFAs) as food substances.
 - [ ] **EAA section:** If protein ≥5 g/100 g or commonly used as protein source, page includes Essential Amino Acid Profile subsection with pairing strategy where relevant.
-- [ ] Run `npm run nutrition:validate` to flag missing EAA sections and downstream metabolites in tags.
+- [ ] Run `npm run nutrition:validate` to flag missing EAA sections, downstream metabolites in tags, and food–substance truth-level mismatches (substances missing from tables; unsupported quantitative values; qualitative rows lacking source).
 - [ ] After updating front matter (`nutrition:apply`), run `npm run nutrition:repair` so invalid pages are fixed in batch; do not leave failing pages in place. Use `npm run nutrition:pipeline` to apply then repair in one step.
 
 ---

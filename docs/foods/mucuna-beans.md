@@ -33,6 +33,14 @@ complementary_pairings: 'Rice, oats, barley, or other grains to complete essenti
 main_image: /img/foods/mucuna-beans/mucuna-beans_medium.webp
 legacy_list_image: /img/foods/mucuna-beans/mucuna-beans_thumb.webp
 legacy_main_image: /img/foods/mucuna-beans/mucuna-beans_medium.webp
+nutrition_supplementary_sources:
+  - key: ldopa_qual
+    label: L-DOPA
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Mucuna Beans (Mucuna pruriens) are a documented food source of L-DOPA.
+      USDA SR Legacy has no mucuna record, so quantity is not established here.
 ---
 ## Overview
 

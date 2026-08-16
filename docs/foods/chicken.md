@@ -16,32 +16,45 @@ tags:
 list_image: /img/foods/chicken/chicken_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
-  kcal: 158
-  protein_g: 18.01
-  fat_g: 17.56
-  carbs_g: 4.05
-  fibre_g: 0.3
-  calcium_mg: 16
-  iron_mg: 0.87
-  magnesium_mg: 12
-  potassium_mg: 106
-  zinc_mg: 1.15
-  selenium_ug: 10.8
-  vitamin_b6_mg: 0.15
-  folate_ug: 3
-  vitamin_b12_ug: 0.13
-  sat_fat_g: 3.23
-  epa_mg: 0
-  dha_mg: 0
-  ala_mg: 1037
-  omega3_mg: 1037
+  choline_mg: 59.7
+  selenium_ug: 14.4
+  iron_mg: 0.9
+  magnesium_mg: 20
+  phosphorus_mg: 147
+  sodium_mg: 70
+  copper_mg: 0.048
+  manganese_mg: 0.019
+  vitamin_b1_mg: 0.06
+  vitamin_b2_mg: 0.12
+  folate_ug: 6
+  vitamin_b12_ug: 0.31
+  sat_fat_g: 4.31
+  dha_mg: 30
+  epa_mg: 10
+  protein_g: 18.6
+  fat_g: 15.06
+  kcal: 215
+  calcium_mg: 11
+  potassium_mg: 189
+  zinc_mg: 1.31
+  vitamin_b3_mg: 6.801
+  vitamin_b5_mg: 0.91
+  vitamin_b6_mg: 0.35
+  linoleic_g: 2.88
+  vitamin_d_ug: 0.2
+  vitamin_a_rae_ug: 41
+  ala_mg: 1089
+  vitamin_c_mg: 1.6
+  vitamin_e_mg: 0.3
+  vitamin_k_ug: 1.5
+  omega3_mg: 1129
 nutrition_source:
   database: USDA FoodData Central
-  food_name: Chicken spread
-  fdc_id: 173858
-  retrieval_method: API
+  food_name: 'Chicken, broilers or fryers, meat and skin, raw'
+  fdc_id: 171447
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/chicken/chicken_medium.webp
 legacy_list_image: /img/foods/chicken/chicken_thumb.webp
 legacy_main_image: /img/foods/chicken/chicken_medium.webp

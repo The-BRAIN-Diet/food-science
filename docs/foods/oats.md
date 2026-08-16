@@ -12,62 +12,69 @@ tags:
   - Magnesium
   - Zinc
   - Copper
-  - Selenium
   - Folate
   - Beta-glucan
 list_image: /img/foods/oats/oats_thumb.webp
-amino_acid_strengths: 'Methionine-rich relative to legumes; good source of magnesium, iron, selenium, and folate.'
+amino_acid_strengths: >-
+  Methionine-rich relative to legumes; good source of magnesium, iron, selenium,
+  and folate.
 limiting_amino_acids: Lower in lysine (typical of grains).
 complementary_pairings: 'Lentils, beans, or other legumes to complete essential amino acid profile.'
 nutrition_per_100g:
-  kcal: 378.866123
-  protein_g: 13.49645
-  fat_g: 5.89
-  sat_fat_g: 1.02
-  carbs_g: 68.65755
-  sugar_g: 0.99
-  fibre_g: 10.42
-  calcium_mg: 45.53
-  iron_mg: 4.339
-  magnesium_mg: 126.3
-  potassium_mg: 350.1
-  zinc_mg: 2.744
-  copper_mg: 0.4
-  selenium_ug: 25.35
-  vitamin_b6_mg: 0.1346
-  folate_ug: 32.03
-  choline_mg: 40.4
-  vitamin_e_mg: 0.42
-  vitamin_k_ug: 2.5
-  ala_mg: 1400
-  epa_mg: 0
-  dha_mg: 0
-  omega3_mg: 1400
+  fibre_g: 10.6
+  iron_mg: 4.72
+  magnesium_mg: 177
+  phosphorus_mg: 523
+  sodium_mg: 2
+  copper_mg: 0.626
+  manganese_mg: 4.916
+  protein_g: 16.89
+  sat_fat_g: 1.217
+  vitamin_b1_mg: 0.763
+  vitamin_b2_mg: 0.139
+  folate_ug: 56
+  ala_mg: 881
+  fat_g: 6.9
+  carbs_g: 66.27
+  kcal: 389
+  calcium_mg: 54
+  potassium_mg: 429
+  zinc_mg: 3.97
+  vitamin_b3_mg: 0.961
+  vitamin_b5_mg: 1.349
+  linoleic_g: 2.424
+  vitamin_b6_mg: 0.119
+  omega3_mg: 881
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Oats, whole grain, rolled, old fashioned'
-  fdc_id: 2346396
-  retrieval_method: API
+  food_name: Oats (Includes foods for USDA's Food Distribution Program)
+  fdc_id: 169705
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-22'
-  note: 'Fibre, copper, and total dietary fibre (AOAC) align with Foundation FDC 2346396. Saturated fat, sugars, choline, vitamin E/K, and ALA are complementary SR-style grain values where the Foundation record omits those rows; re-harvest from a single FDC record when convenient.'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: beta_glucan_g
     label: Beta-glucan
     value: 7.52
     unit: g
-    notes: Soluble cereal β-glucan; primary oat fibre fraction linked to lipid and glycaemic endpoints.
-    source_note: 'USDA FoodData Central Foundation food FDC 2346396 (footnote: beta-glucan values corrected in 10/2024 update). Varies by oat type (groats vs rolled vs instant) and processing.'
+    notes: >-
+      Soluble cereal β-glucan; primary oat fibre fraction linked to lipid and
+      glycaemic endpoints.
+    source_note: >-
+      USDA FoodData Central Foundation food FDC 2346396 (footnote: beta-glucan
+      values corrected in 10/2024 update). Varies by oat type (groats vs rolled
+      vs instant) and processing.
 nutrition_functional_metrics:
   - key: total_oat_phenolics_proxy
     label: Total phenolics (grain matrix)
     amount_display: Varies by cultivar and processing
-    notes: Avenanthramides and other oat phenolics are not standard USDA panel rows; qualitative only here.
+    notes: >-
+      Avenanthramides and other oat phenolics are not standard USDA panel rows;
+      qualitative only here.
 main_image: /img/foods/oats/oats_medium.webp
 legacy_list_image: /img/foods/oats/oats_thumb.webp
 legacy_main_image: /img/foods/oats/oats_medium.webp
 ---
-
 import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview

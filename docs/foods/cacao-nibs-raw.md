@@ -2,11 +2,11 @@
 id: cacao-nibs-raw
 title: Cacao Nibs (Raw)
 sidebar_label: Cacao Nibs (Raw)
-description: 'Crunchy minimally processed cacao pieces; flavanols (epicatechin/catechin) and fibre, used as a bitter “spice” topping.'
+description: >-
+  Crunchy minimally processed cacao pieces; flavanols (epicatechin/catechin) and
+  fibre, used as a bitter “spice” topping.
 tags:
   - Food
-  - Cacao
-  - Cocoa
   - Vegan
   - Vegetarian
   - Polyphenol
@@ -36,6 +36,28 @@ main_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_medium.webp
 legacy_list_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_thumb.webp
 legacy_main_image: /img/foods/cacao-nibs-raw/cacao-nibs-raw_medium.webp
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+nutrition_supplementary_sources:
+  - key: epicatechin_qual
+    label: Epicatechin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Cocoa flavanol analyses report epicatechin in Cacao Nibs (Raw); USDA SR
+      Legacy has no cacao-nibs record.
+  - key: catechin_qual
+    label: Catechin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Cocoa flavanol analyses report catechin in Cacao Nibs (Raw); USDA SR
+      Legacy has no cacao-nibs record.
+  - key: opc_qual
+    label: Oligomeric Procyanidins
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Cacao Nibs (Raw) contain oligomeric procyanidins typical of cacao; USDA SR
+      Legacy does not quantify OPCs for this food.
 ---
 ## Overview
 

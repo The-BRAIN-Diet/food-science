@@ -2,7 +2,9 @@
 id: sourdough-bread
 title: Sourdough Bread
 sidebar_label: Sourdough Bread
-description: 'Fermented bread with GABA, improved amino acid bioavailability, and optimized Maillard products'
+description: >-
+  Fermented bread with GABA, improved amino acid bioavailability, and optimized
+  Maillard products
 tags:
   - Food
   - Sourdough Bread
@@ -16,33 +18,45 @@ tags:
   - Manganese
 list_image: /img/foods/sourdough-bread/sourdough-bread_thumb.webp
 nutrition_per_100g:
-  kcal: 272
+  linoleic_g: 0.788
   protein_g: 10.75
-  fat_g: 2.42
-  carbs_g: 51.88
   fibre_g: 2.2
-  ala_mg: 63
-  calcium_mg: 52
   iron_mg: 3.91
   magnesium_mg: 32
+  phosphorus_mg: 105
+  sodium_mg: 602
+  copper_mg: 0.152
+  manganese_mg: 0.577
+  vitamin_b1_mg: 0.71
+  vitamin_b2_mg: 0.427
+  folate_ug: 123
+  vitamin_k_ug: 0.7
+  sat_fat_g: 0.529
+  caprylic_g: 0.001
+  ala_mg: 63
+  fat_g: 2.42
+  carbs_g: 51.88
+  kcal: 272
+  sugar_g: 4.62
+  calcium_mg: 52
   potassium_mg: 117
   zinc_mg: 1.04
   selenium_ug: 28.6
+  vitamin_e_mg: 0.21
+  lutein_zeaxanthin_ug: 45
+  vitamin_b3_mg: 4.817
+  vitamin_b5_mg: 0.455
   vitamin_b6_mg: 0.107
-  folate_ug: 123
   choline_mg: 8
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.529
-  epa_mg: 0
-  dha_mg: 0
+  capric_g: 0.002
   omega3_mg: 63
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Bread, french or vienna (includes sourdough)'
   fdc_id: 172675
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/sourdough-bread/sourdough-bread_medium.webp
 legacy_list_image: /img/foods/sourdough-bread/sourdough-bread_thumb.webp

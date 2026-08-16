@@ -14,21 +14,42 @@ tags:
   - Polyphenol
 list_image: /img/foods/kidney-beans/kidney-beans_thumb.webp
 nutrition_per_100g:
-  protein_g: 25.9
-  fat_g: 1.31
-  fibre_g: 4.3
-  calcium_mg: 98
-  iron_mg: 6.58
-  magnesium_mg: 164
-  potassium_mg: 1490
-  zinc_mg: 3.29
+  carbs_g: 60.01
+  kcal: 333
+  sugar_g: 2.23
+  vitamin_e_mg: 0.22
+  vitamin_k_ug: 19
+  fat_g: 0.83
+  vitamin_b3_mg: 2.06
+  vitamin_b5_mg: 0.78
+  vitamin_b6_mg: 0.397
+  calcium_mg: 143
+  potassium_mg: 1406
+  zinc_mg: 2.79
+  linoleic_g: 0.178
+  protein_g: 23.58
+  vitamin_c_mg: 4.5
+  vitamin_b1_mg: 0.529
+  vitamin_b2_mg: 0.219
+  folate_ug: 394
+  fibre_g: 24.9
+  iron_mg: 8.2
+  magnesium_mg: 140
+  phosphorus_mg: 407
+  sodium_mg: 24
+  copper_mg: 0.958
+  manganese_mg: 1.021
+  sat_fat_g: 0.12
+  ala_mg: 988
+  selenium_ug: 3.2
+  omega3_mg: 988
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Beans, Dry, Dark Red Kidney (0% moisture)'
-  fdc_id: 747440
-  retrieval_method: API
+  food_name: 'Beans, kidney, all types, mature seeds, raw'
+  fdc_id: 175193
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'

@@ -11,31 +11,45 @@ tags:
   - Calcium
 list_image: /img/foods/tahini/tahini_thumb.webp
 nutrition_per_100g:
-  kcal: 592
-  protein_g: 17.4
-  fat_g: 53.01
-  carbs_g: 21.5
-  fibre_g: 4.7
-  calcium_mg: 141
-  iron_mg: 4.42
-  magnesium_mg: 95
-  potassium_mg: 459
-  zinc_mg: 4.62
+  beta_carotene_ug: 40
+  vitamin_e_mg: 0.25
+  sugar_g: 0.49
   selenium_ug: 34.4
-  vitamin_b6_mg: 0.15
+  vitamin_a_rae_ug: 3
+  fat_g: 53.76
+  carbs_g: 21.19
+  kcal: 595
+  calcium_mg: 426
+  potassium_mg: 414
+  zinc_mg: 4.62
+  linoleic_g: 23.133
+  vitamin_b3_mg: 5.45
+  vitamin_b5_mg: 0.693
+  vitamin_b6_mg: 0.149
+  protein_g: 17
+  vitamin_b1_mg: 1.22
+  vitamin_b2_mg: 0.473
   folate_ug: 98
-  vitamin_b12_ug: 0
-  sat_fat_g: 7.423
-  epa_mg: 0
-  dha_mg: 0
-  omega3_mg: 0
+  fibre_g: 9.3
+  iron_mg: 8.95
+  magnesium_mg: 95
+  phosphorus_mg: 732
+  sodium_mg: 115
+  copper_mg: 1.61
+  manganese_mg: 1.456
+  sat_fat_g: 7.529
+  ala_mg: 889
+  choline_mg: 25.8
+  omega3_mg: 889
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Seeds, sesame butter, tahini, type of kernels unspecified'
-  fdc_id: 168604
-  retrieval_method: API
+  food_name: >-
+    Seeds, sesame butter, tahini, from roasted and toasted kernels (most common
+    type)
+  fdc_id: 170189
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/tahini/tahini_medium.webp
 legacy_list_image: /img/foods/tahini/tahini_thumb.webp

@@ -12,26 +12,54 @@ tags:
 list_image: /img/foods/pork/pork_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
-  kcal: 233.442059
-  protein_g: 17.80625
-  fat_g: 17.49
-  carbs_g: 0
-  calcium_mg: 5.857
-  iron_mg: 0.7876
-  magnesium_mg: 19.03
-  potassium_mg: 317.7
-  zinc_mg: 2.226
-  sat_fat_g: 6.283
+  vitamin_d_ug: 0.5
+  vitamin_a_rae_ug: 2
+  vitamin_e_mg: 0.21
+  folate_ug: 1
+  vitamin_b3_mg: 4.58
+  vitamin_b5_mg: 0.723
+  vitamin_b6_mg: 0.472
+  fat_g: 12.58
+  kcal: 198
+  calcium_mg: 18
+  potassium_mg: 356
+  zinc_mg: 1.74
+  capric_g: 0.01
+  linoleic_g: 1.11
+  iron_mg: 0.79
+  magnesium_mg: 21
+  phosphorus_mg: 197
+  sodium_mg: 50
+  copper_mg: 0.056
+  manganese_mg: 0.011
+  vitamin_c_mg: 0.6
+  vitamin_b1_mg: 0.901
+  vitamin_b2_mg: 0.248
+  ala_mg: 1158
+  protein_g: 19.74
+  vitamin_b12_ug: 0.53
+  sat_fat_g: 4.36
+  selenium_ug: 33.2
+  choline_mg: 69.7
+  omega3_mg: 1158
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Pork, ground, raw'
-  fdc_id: 2514745
-  retrieval_method: API
+  food_name: 'Pork, fresh, loin, whole, separable lean and fat, raw'
+  fdc_id: 167818
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/pork/pork_medium.webp
 legacy_list_image: /img/foods/pork/pork_thumb.webp
 legacy_main_image: /img/foods/pork/pork_medium.webp
+nutrition_supplementary_sources:
+  - key: creatine_qual
+    label: Creatine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Creatine occurs in Pork muscle/organ tissue; USDA SR Legacy does not
+      report creatine.
 ---
 ## Overview
 

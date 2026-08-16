@@ -12,21 +12,47 @@ tags:
   - Vitamin C
 list_image: /img/foods/brussels-sprouts/brussels-sprouts_thumb.webp
 nutrition_per_100g:
-  calcium_mg: 24
-  protein_g: 3.53
-  fibre_g: 3.5
-  iron_mg: 0.85
-  fat_g: 0
-  sat_fat_g: 0
-  kcal: 53
-  carbs_g: 9.41
+  fibre_g: 3.8
+  vitamin_a_rae_ug: 38
+  choline_mg: 19.1
+  carbs_g: 8.95
+  kcal: 43
+  sat_fat_g: 0.062
+  caprylic_g: 0.002
+  ala_mg: 98
+  protein_g: 3.38
+  iron_mg: 1.4
+  magnesium_mg: 23
+  phosphorus_mg: 69
+  sodium_mg: 25
+  copper_mg: 0.07
+  manganese_mg: 0.337
+  vitamin_c_mg: 85
+  vitamin_b1_mg: 0.139
+  vitamin_b2_mg: 0.09
+  folate_ug: 61
+  fat_g: 0.3
+  vitamin_b3_mg: 0.745
+  vitamin_b5_mg: 0.309
+  vitamin_b6_mg: 0.219
+  linoleic_g: 0.045
+  calcium_mg: 42
+  potassium_mg: 389
+  zinc_mg: 0.42
+  vitamin_k_ug: 177
+  beta_carotene_ug: 450
+  sugar_g: 2.2
+  vitamin_e_mg: 0.88
+  lutein_zeaxanthin_ug: 1590
+  selenium_ug: 1.6
+  omega3_mg: 98
 nutrition_source:
   database: USDA FoodData Central
-  food_name: BRUSSELS SPROUTS
-  fdc_id: 2135279
-  retrieval_method: API
+  food_name: 'Brussels sprouts, raw'
+  fdc_id: 170383
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/brussels-sprouts/brussels-sprouts_medium.webp
 legacy_list_image: /img/foods/brussels-sprouts/brussels-sprouts_thumb.webp
 legacy_main_image: /img/foods/brussels-sprouts/brussels-sprouts_medium.webp

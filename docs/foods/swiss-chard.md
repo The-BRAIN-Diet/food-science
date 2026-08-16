@@ -11,41 +11,54 @@ tags:
   - Iron
   - Magnesium
   - Vitamin B9
-  - Vitamin K2
   - Vitamin A
   - Carotenoid
   - Lutein
   - Zeaxanthin
   - Beta-Carotene
+  - Vitamin K
 list_image: /img/foods/swiss-chard/swiss-chard_thumb.webp
 nutrition_per_100g:
+  vitamin_a_rae_ug: 306
+  sat_fat_g: 0.03
   kcal: 19
-  protein_g: 1.8
-  fat_g: 0.2
+  linoleic_g: 0.063
+  choline_mg: 18
   carbs_g: 3.74
+  vitamin_k_ug: 830
+  protein_g: 1.8
   fibre_g: 1.6
-  calcium_mg: 51
   iron_mg: 1.8
   magnesium_mg: 81
+  phosphorus_mg: 46
+  sodium_mg: 213
+  copper_mg: 0.179
+  manganese_mg: 0.366
+  ala_mg: 110
+  vitamin_c_mg: 30
+  vitamin_b1_mg: 0.04
+  vitamin_b2_mg: 0.09
+  folate_ug: 14
+  fat_g: 0.2
+  calcium_mg: 51
   potassium_mg: 379
   zinc_mg: 0.36
-  selenium_ug: 0.9
+  vitamin_b3_mg: 0.4
+  vitamin_b5_mg: 0.172
   vitamin_b6_mg: 0.099
-  folate_ug: 14
-  choline_mg: 18
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.03
-  epa_mg: 0
-  dha_mg: 0
-  ala_mg: 110
+  selenium_ug: 0.9
+  beta_carotene_ug: 3647
+  vitamin_e_mg: 1.89
+  sugar_g: 1.1
+  lutein_zeaxanthin_ug: 11000
   omega3_mg: 110
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Chard, swiss, raw'
   fdc_id: 169991
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/swiss-chard/swiss-chard_medium.webp
 legacy_list_image: /img/foods/swiss-chard/swiss-chard_thumb.webp
 legacy_main_image: /img/foods/swiss-chard/swiss-chard_medium.webp

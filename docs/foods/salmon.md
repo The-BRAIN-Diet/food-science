@@ -20,41 +20,61 @@ overview_key_compounds:
   - Astaxanthin
   - Vitamin B12
 nutrition_per_100g:
-  kcal: 203.10632
-  protein_g: 20.31875
-  fat_g: 13.11
-  carbs_g: 0
-  calcium_mg: 9.423
-  iron_mg: 0.2588
-  magnesium_mg: 25.39
-  potassium_mg: 378.2
-  zinc_mg: 0.3394
-  selenium_ug: 22.8
-  vitamin_b12_ug: 5.696
-  sat_fat_g: 2.277
-  ala_mg: 541
-  epa_mg: 318
-  dha_mg: 585
-  omega3_mg: 1444
+  linoleic_g: 0.9
+  kcal: 208
+  vitamin_b3_mg: 8.672
+  vitamin_b5_mg: 1.547
+  vitamin_b6_mg: 0.636
+  calcium_mg: 9
+  potassium_mg: 363
+  zinc_mg: 0.36
+  selenium_ug: 24
+  vitamin_e_mg: 3.55
+  fat_g: 13.42
+  ala_mg: 148
+  sat_fat_g: 3.05
+  dha_mg: 1104
+  epa_mg: 862
+  vitamin_b1_mg: 0.207
+  vitamin_b2_mg: 0.155
+  vitamin_b12_ug: 3.23
+  vitamin_k_ug: 0.5
+  protein_g: 20.42
+  iron_mg: 0.34
+  magnesium_mg: 27
+  phosphorus_mg: 240
+  sodium_mg: 59
+  copper_mg: 0.045
+  manganese_mg: 0.011
+  vitamin_a_rae_ug: 58
+  vitamin_d_ug: 11
+  vitamin_c_mg: 3.9
+  folate_ug: 26
+  choline_mg: 78.5
+  omega3_mg: 2114
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Fish, salmon, Atlantic, farm raised, raw'
-  fdc_id: 2684441
-  retrieval_method: API
+  food_name: 'Fish, salmon, Atlantic, farmed, raw'
+  fdc_id: 175167
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: astaxanthin_mg
     label: Astaxanthin
     value: 3.2
     unit: mg
-    notes: Carotenoid pigment; farmed salmon levels depend strongly on feed astaxanthin formulation.
-    source_note: 'Literature estimate for farmed Atlantic salmon; carotenoid content varies by feed and species (e.g. Turujman et al., 1997; USDA does not report astaxanthin).'
+    notes: >-
+      Carotenoid pigment; farmed salmon levels depend strongly on feed
+      astaxanthin formulation.
+    source_note: >-
+      Literature estimate for farmed Atlantic salmon; carotenoid content varies
+      by feed and species (e.g. Turujman et al., 1997; USDA does not report
+      astaxanthin).
 main_image: /img/foods/salmon/salmon_medium.webp
 legacy_list_image: /img/foods/salmon/salmon_thumb.webp
 legacy_main_image: /img/foods/salmon/salmon_medium.webp
 ---
-
 import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview

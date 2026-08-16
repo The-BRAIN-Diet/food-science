@@ -43,6 +43,22 @@ complementary_pairings: Grains and legumes for balanced essential amino acid pro
 main_image: /img/foods/nutritional-yeast/nutritional-yeast_medium.webp
 legacy_list_image: /img/foods/nutritional-yeast/nutritional-yeast_thumb.webp
 legacy_main_image: /img/foods/nutritional-yeast/nutritional-yeast_medium.webp
+nutrition_supplementary_sources:
+  - key: vitamin_b12_qual
+    label: Vitamin B12
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Nutritional Yeast is tagged for vitamin B12. Fortified products vary by
+      brand; seaweed B12 may include analogues; abbreviated USDA panels may omit
+      cobalamin. True cobalamin quantity is not established here.
+  - key: vitamin_b6_qual
+    label: Vitamin B6
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Nutritional Yeast B-vitamin content is typically from fortification and
+      varies by product; USDA SR Legacy has no nutritional-yeast record.
 ---
 ## Overview
 

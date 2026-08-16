@@ -16,24 +16,69 @@ tags:
   - Pelargonidin
 list_image: /img/foods/pomegranates/pomegranates_thumb.webp
 nutrition_per_100g:
-  protein_g: 0
-  sugar_g: 13.27675
-  calcium_mg: 11.03
-  iron_mg: 0.03088
-  magnesium_mg: 6.863
-  potassium_mg: 165.6
-  zinc_mg: 0.08176
-  folate_ug: 5.871
+  vitamin_e_mg: 0.6
+  choline_mg: 7.6
+  sat_fat_g: 0.12
+  protein_g: 1.67
+  fibre_g: 4
+  iron_mg: 0.3
+  magnesium_mg: 12
+  phosphorus_mg: 36
+  sodium_mg: 3
+  copper_mg: 0.158
+  manganese_mg: 0.119
+  vitamin_c_mg: 10.2
+  vitamin_b1_mg: 0.067
+  vitamin_b2_mg: 0.053
+  folate_ug: 38
+  vitamin_k_ug: 16.4
+  vitamin_b3_mg: 0.293
+  vitamin_b5_mg: 0.377
+  vitamin_b6_mg: 0.075
+  sugar_g: 13.67
+  calcium_mg: 10
+  potassium_mg: 236
+  zinc_mg: 0.35
+  selenium_ug: 0.5
+  fat_g: 1.17
+  carbs_g: 18.7
+  kcal: 83
+  linoleic_g: 0.079
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Juice, pomegranate, from concentrate, shelf-stable'
-  fdc_id: 2727588
-  retrieval_method: API
+  food_name: 'Pomegranates, raw'
+  fdc_id: 169134
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/pomegranates/pomegranates_medium.webp
 legacy_list_image: /img/foods/pomegranates/pomegranates_thumb.webp
 legacy_main_image: /img/foods/pomegranates/pomegranates_medium.webp
+nutrition_supplementary_sources:
+  - key: cyanidin_qual
+    label: Cyanidin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
+      lists cyanidin glycosides in Pomegranates; individual cyanidin mass is not
+      reported in the selected USDA SR Legacy composition record.
+  - key: delphinidin_qual
+    label: Delphinidin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA flavonoid database / Phenol-Explorer list delphinidin glycosides in
+      Pomegranates; per-100 g of the isolated anthocyanidin is not in the
+      selected USDA SR Legacy record.
+  - key: pelargonidin_qual
+    label: Pelargonidin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA flavonoid database / Phenol-Explorer list pelargonidin glycosides in
+      Pomegranates; individual pelargonidin quantity is not in the selected USDA
+      SR Legacy record.
 ---
 ## Overview
 

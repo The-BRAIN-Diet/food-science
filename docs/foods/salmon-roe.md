@@ -37,7 +37,10 @@ nutrition_per_100g:
   omega3_mg: 3774
 nutrition_source:
   database: USDA FoodData Central + literature
-  food_name: 'Salmon roe (ikura) — core panel anchored to Fish, roe, mixed species, raw (FDC 175132); vitamin B12 adjusted to typical salmonid roe (mixed-species FDC under-reports B12).'
+  food_name: >-
+    Salmon roe (ikura) — core panel anchored to Fish, roe, mixed species, raw
+    (FDC 175132); vitamin B12 adjusted to typical salmonid roe (mixed-species
+    FDC under-reports B12).
   fdc_id: 175132
   retrieval_method: API + manual B12 alignment
   basis: per 100 g edible portion
@@ -47,8 +50,20 @@ nutrition_supplementary_sources:
     label: Astaxanthin
     value: 3.2
     unit: mg
-    notes: Carotenoid pigment; stabilises highly unsaturated lipids in the roe matrix.
-    source_note: Literature estimate for farmed Pacific salmon; USDA FDC does not report astaxanthin for this record; content varies by feed and species.
+    notes: >-
+      Carotenoid pigment; stabilises highly unsaturated lipids in the roe
+      matrix.
+    source_note: >-
+      Literature estimate for farmed Pacific salmon; USDA FDC does not report
+      astaxanthin for this record; content varies by feed and species.
+  - key: phosphatidylcholine_qual
+    label: Phosphatidylcholine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Salmon Roe is a phospholipid-rich food in which phosphatidylcholine is a
+      major choline form; USDA SR Legacy reports choline, not
+      phosphatidylcholine specifically.
 main_image: /img/foods/salmon-roe/salmon-roe_medium.webp
 legacy_list_image: /img/foods/salmon-roe/salmon-roe_thumb.webp
 legacy_main_image: /img/foods/salmon-roe/salmon-roe_medium.webp

@@ -18,33 +18,46 @@ tags:
   - Potassium
   - Manganese
   - Copper
-  - Tryptophan
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
 list_image: /img/foods/chickpeas/chickpeas_thumb.webp
 nutrition_per_100g:
-  kcal: 371.99469
-  protein_g: 21.275
-  fat_g: 6.274
-  carbs_g: 60.358
-  calcium_mg: 111.1
-  iron_mg: 5.094
-  magnesium_mg: 134.8
-  potassium_mg: 1074
-  zinc_mg: 3.124
+  beta_carotene_ug: 40
+  vitamin_k_ug: 9
+  sugar_g: 10.7
+  vitamin_e_mg: 0.82
+  vitamin_a_rae_ug: 3
+  choline_mg: 99.3
+  linoleic_g: 2.629
+  calcium_mg: 57
+  potassium_mg: 718
+  zinc_mg: 2.76
+  carbs_g: 62.95
+  kcal: 378
+  copper_mg: 0.656
+  manganese_mg: 4.15
+  fibre_g: 12.2
+  iron_mg: 4.31
+  magnesium_mg: 79
+  phosphorus_mg: 252
+  protein_g: 20.47
+  ala_mg: 882
+  sat_fat_g: 0.603
+  sodium_mg: 24
+  vitamin_c_mg: 4
+  vitamin_b1_mg: 0.477
+  vitamin_b2_mg: 0.212
+  folate_ug: 557
+  fat_g: 6.04
+  vitamin_b3_mg: 1.541
+  vitamin_b5_mg: 1.588
+  vitamin_b6_mg: 0.535
+  omega3_mg: 882
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Chickpeas, (garbanzo beans, bengal gram), dry'
-  fdc_id: 2644282
-  retrieval_method: API
+  food_name: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'
+  fdc_id: 173756
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'

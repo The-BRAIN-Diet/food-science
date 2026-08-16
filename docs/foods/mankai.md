@@ -6,11 +6,9 @@ description: Functional plant food with iron and B12 for vegan nutrient gaps
 tags:
   - Food
   - Mankai
-  - Duckweed
   - Vegan
   - Vegetarian
   - Iron
-  - Vitamin B12
   - ALA
 list_image: /img/foods/mankai/mankai_thumb.webp
 nutrition_per_100g: {}
@@ -18,13 +16,31 @@ nutrition_source:
   database: USDA FoodData Central
   status: no_match
   slug: mankai
-  note: No USDA match; add query to scripts/usda-map.json or run with USDA_API_KEY for fetch.
+  note: >-
+    No USDA match; add query to scripts/usda-map.json or run with USDA_API_KEY
+    for fetch.
 main_image: /img/foods/mankai/mankai_medium.webp
 main_image_source:
-  url: 'https://www.backyardboss.net/look-closely-to-see-worlds-smallest-flower-wolffia-globosa/'
+  url: >-
+    https://www.backyardboss.net/look-closely-to-see-worlds-smallest-flower-wolffia-globosa/
   label: Backyard Boss
 legacy_list_image: /img/foods/mankai/mankai_thumb.webp
 legacy_main_image: /img/foods/mankai/mankai_medium.webp
+nutrition_supplementary_sources:
+  - key: iron_qual
+    label: Iron
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Mankai (Duckweed) (Wolffia) is reported as an iron-containing duckweed in
+      food-specific composition studies; USDA SR Legacy has no mankai record.
+  - key: ala_qual
+    label: ALA
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Mankai (Duckweed) contains alpha-linolenic acid in published duckweed
+      analyses; USDA SR Legacy has no mankai record.
 ---
 ## Overview
 

@@ -14,42 +14,65 @@ tags:
 list_image: /img/icons/ingredients.svg
 main_image: /img/icons/ingredients.svg
 nutrition_per_100g:
-  kcal: 101
-  protein_g: 5.56
-  fat_g: 1.68
-  carbs_g: 24.45
-  fibre_g: 14
-  calcium_mg: 405
-  iron_mg: 17.45
-  magnesium_mg: 160
-  potassium_mg: 609
-  zinc_mg: 1.81
-  vitamin_b6_mg: 0.348
-  folate_ug: 45
-  vitamin_c_mg: 160.1
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.467
-  omega3_mg: 0
+  fat_g: 7.43
+  carbs_g: 63.94
+  kcal: 276
+  calcium_mg: 1890
+  potassium_mg: 814
+  zinc_mg: 6.18
+  vitamin_b3_mg: 4.94
+  capric_g: 0.12
+  linoleic_g: 0.5
+  protein_g: 9.11
+  iron_mg: 123.6
+  magnesium_mg: 220
+  phosphorus_mg: 201
+  sodium_mg: 55
+  copper_mg: 0.86
+  manganese_mg: 7.867
+  vitamin_b1_mg: 0.513
+  vitamin_b2_mg: 0.399
+  sat_fat_g: 2.73
+  caprylic_g: 0.24
+  fibre_g: 37
+  selenium_ug: 4.6
+  vitamin_k_ug: 1714.5
+  beta_carotene_ug: 2264
+  vitamin_e_mg: 7.48
+  sugar_g: 1.71
+  vitamin_b6_mg: 0.55
+  folate_ug: 274
+  vitamin_c_mg: 50
+  vitamin_a_rae_ug: 190
+  lutein_zeaxanthin_ug: 1895
+  choline_mg: 43.6
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Thyme, fresh'
-  fdc_id: 173470
-  retrieval_method: API
+  food_name: 'Spices, thyme, dried'
+  fdc_id: 170938
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-07-11'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: thymol_mg
     label: Thymol
     value: 15
     unit: mg
-    notes: Principal phenolic monoterpene in Thymus vulgaris; concentration varies strongly by cultivar, harvest stage, and fresh vs dried form.
-    source_note: Representative fresh-leaf estimate from published HPLC ranges (~20–190 mg/kg fresh weight across cultivars); distilled essential oils are far more concentrated and are not equivalent to whole herb intake.
+    notes: >-
+      Principal phenolic monoterpene in Thymus vulgaris; concentration varies
+      strongly by cultivar, harvest stage, and fresh vs dried form.
+    source_note: >-
+      Representative fresh-leaf estimate from published HPLC ranges (~20–190
+      mg/kg fresh weight across cultivars); distilled essential oils are far
+      more concentrated and are not equivalent to whole herb intake.
   - key: carvacrol_mg
     label: Carvacrol
     value: 8
     unit: mg
     notes: Thymol isomer and common co-constituent in thyme volatile fractions.
-    source_note: Representative fresh-leaf estimate; carvacrol often co-occurs at lower abundance than thymol in T. vulgaris but can dominate in some chemotypes.
+    source_note: >-
+      Representative fresh-leaf estimate; carvacrol often co-occurs at lower
+      abundance than thymol in T. vulgaris but can dominate in some chemotypes.
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 ---
 ## Overview

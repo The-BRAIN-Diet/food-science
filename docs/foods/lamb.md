@@ -12,25 +12,53 @@ tags:
 list_image: /img/foods/lamb/lamb_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
-  kcal: 241.727079
-  protein_g: 17.4625
-  fat_g: 18.64
-  carbs_g: -0.2508
-  calcium_mg: 6.575
-  iron_mg: 1.643
-  magnesium_mg: 17.48
-  potassium_mg: 272.1
-  zinc_mg: 3.13
+  vitamin_k_ug: 3.6
+  vitamin_d_ug: 0.1
+  fat_g: 23.41
+  kcal: 282
+  vitamin_e_mg: 0.2
+  capric_g: 0.06
+  linoleic_g: 1.36
+  vitamin_b3_mg: 5.96
+  vitamin_b5_mg: 0.65
+  vitamin_b6_mg: 0.13
+  calcium_mg: 16
+  potassium_mg: 222
+  zinc_mg: 3.41
+  protein_g: 16.56
+  iron_mg: 1.55
+  magnesium_mg: 21
+  phosphorus_mg: 157
+  sodium_mg: 59
+  copper_mg: 0.101
+  manganese_mg: 0.019
+  vitamin_b1_mg: 0.11
+  vitamin_b2_mg: 0.21
+  folate_ug: 18
+  vitamin_b12_ug: 2.31
+  sat_fat_g: 10.19
+  ala_mg: 996
+  selenium_ug: 18.8
+  choline_mg: 69.3
+  omega3_mg: 996
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Lamb, ground, raw'
-  fdc_id: 2727570
-  retrieval_method: API
+  fdc_id: 174370
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/lamb/lamb_medium.webp
 legacy_list_image: /img/foods/lamb/lamb_thumb.webp
 legacy_main_image: /img/foods/lamb/lamb_medium.webp
+nutrition_supplementary_sources:
+  - key: creatine_qual
+    label: Creatine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Creatine occurs in Lamb muscle/organ tissue; USDA SR Legacy does not
+      report creatine.
 ---
 ## Overview
 

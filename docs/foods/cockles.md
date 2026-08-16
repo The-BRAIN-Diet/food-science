@@ -16,23 +16,70 @@ tags:
   - Taurine
 list_image: /img/foods/cockles/cockles_thumb.webp
 nutrition_per_100g:
-  kcal: 79
   protein_g: 13.5
+  iron_mg: 16.2
+  vitamin_b1_mg: 0.01
+  vitamin_b2_mg: 0.2
   fat_g: 0.7
   carbs_g: 4.7
+  kcal: 79
   calcium_mg: 30
-  iron_mg: 16.2
+  vitamin_b3_mg: 3.2
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Cockles, raw (Alaska Native)'
   fdc_id: 169803
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/cockles/cockles_medium.webp
 legacy_list_image: /img/foods/cockles/cockles_thumb.webp
 legacy_main_image: /img/foods/cockles/cockles_medium.webp
+nutrition_supplementary_sources:
+  - key: taurine_qual
+    label: Taurine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Taurine is a characteristic free amino sulfonic acid in Cockles; USDA SR
+      Legacy does not include a taurine field.
+  - key: vitamin_b12_qual
+    label: Vitamin B12
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Cockles is tagged for vitamin B12. Fortified products vary by brand;
+      seaweed B12 may include analogues; abbreviated USDA panels may omit
+      cobalamin. True cobalamin quantity is not established here.
+  - key: zinc_qual
+    label: Zinc
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      The USDA SR Legacy Cockles record is an abbreviated Alaska Native panel
+      and omits zinc; quantity is not established from this record.
+  - key: selenium_qual
+    label: Selenium
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      The USDA SR Legacy Cockles record is abbreviated and omits selenium;
+      quantity is not established from this panel.
+  - key: epa_qual
+    label: EPA
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      The USDA SR Legacy Cockles record is abbreviated and omits EPA; quantity
+      is not established from this panel.
+  - key: dha_qual
+    label: DHA
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      The USDA SR Legacy Cockles record is abbreviated and omits DHA; quantity
+      is not established from this panel.
 ---
 ## Overview
 

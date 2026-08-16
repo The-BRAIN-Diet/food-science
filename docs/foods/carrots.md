@@ -12,22 +12,47 @@ tags:
   - Beta-Carotene
 list_image: /img/foods/carrots/carrots_thumb.webp
 nutrition_per_100g:
-  iron_mg: 0.46
-  protein_g: 1.28
-  carbs_g: 8.97
-  kcal: 38
-  calcium_mg: 26
-  fibre_g: 2.6
-  fat_g: 0
-  potassium_mg: 321
-  sat_fat_g: 0
+  sat_fat_g: 0.032
+  linoleic_g: 0.1
+  vitamin_k_ug: 13.2
+  iron_mg: 0.3
+  magnesium_mg: 12
+  phosphorus_mg: 35
+  sodium_mg: 69
+  copper_mg: 0.045
+  manganese_mg: 0.143
+  vitamin_c_mg: 5.9
+  vitamin_b1_mg: 0.066
+  vitamin_b2_mg: 0.058
+  folate_ug: 19
+  protein_g: 0.93
+  selenium_ug: 0.1
+  vitamin_e_mg: 0.66
+  fat_g: 0.24
+  calcium_mg: 33
+  potassium_mg: 320
+  zinc_mg: 0.24
+  vitamin_b3_mg: 0.983
+  vitamin_b5_mg: 0.273
+  vitamin_b6_mg: 0.138
+  choline_mg: 8.8
+  ala_mg: 113
+  beta_carotene_ug: 8285
+  lycopene_ug: 1
+  sugar_g: 4.74
+  carbs_g: 9.58
+  kcal: 41
+  lutein_zeaxanthin_ug: 256
+  vitamin_a_rae_ug: 835
+  fibre_g: 2.8
+  omega3_mg: 113
 nutrition_source:
   database: USDA FoodData Central
-  food_name: CARROTS
-  fdc_id: 2079038
-  retrieval_method: API
+  food_name: 'Carrots, raw'
+  fdc_id: 170393
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/carrots/carrots_medium.webp
 legacy_list_image: /img/foods/carrots/carrots_thumb.webp
 legacy_main_image: /img/foods/carrots/carrots_medium.webp

@@ -14,6 +14,15 @@ import fs from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
 import matter from "gray-matter"
+import {
+  extractNutrients,
+  MIN_STANDARD_PANEL_KEYS,
+  rankFoodCandidates,
+  scoreCandidate,
+} from "./lib/usda-nutrient-extract.mjs"
+import { loadLocalEnv } from "./lib/load-local-env.mjs"
+
+loadLocalEnv()
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const API_KEY = process.env.USDA_API_KEY
@@ -73,72 +82,32 @@ async function usdaFetch(endpoint, params) {
     url.searchParams.set(k, v)
   }
   const res = await fetch(url)
-  if (!res.ok) throw new Error(`USDA request failed ${res.status} ${res.statusText}: ${url}`)
+  if (!res.ok) {
+    const safe = `${BASE_URL}/${endpoint}`
+    throw new Error(`USDA request failed ${res.status} ${res.statusText}: ${safe}`)
+  }
   return res.json()
 }
 
-function rankFoodCandidates(foods) {
-  if (!foods || foods.length === 0) return []
-  const buckets = { Foundation: [], "SR Legacy": [], Branded: [], Survey: [], Other: [] }
-  for (const food of foods) {
-    if (buckets[food.dataType]) buckets[food.dataType].push(food)
-    else buckets.Other.push(food)
-  }
-  return [
-    ...buckets.Foundation,
-    ...buckets["SR Legacy"],
-    ...buckets.Branded,
-    ...buckets.Survey,
-    ...buckets.Other,
-  ]
-}
-
-function extractNutrients(food) {
-  const out = {}
-  const nutrients = food.foodNutrients || []
-  for (const fn of nutrients) {
-    const n = fn.nutrient || fn
-    const name = String(n.name || "").toLowerCase()
-    const unit = String(n.unitName || "").toLowerCase()
-    const amount = fn.amount
-    if (amount == null) continue
-    if (name.startsWith("energy") && unit === "kcal") { out.kcal = amount; continue }
-    if (name === "protein" && unit === "g") { out.protein_g = amount; continue }
-    if (name.startsWith("total lipid") && unit === "g") { out.fat_g = amount; continue }
-    if (name.startsWith("fatty acids, total saturated") && unit === "g") { out.sat_fat_g = amount; continue }
-    if (name.startsWith("carbohydrate, by difference") && unit === "g") { out.carbs_g = amount; continue }
-    if (name.startsWith("sugars, total") && unit === "g") { out.sugar_g = amount; continue }
-    if (name.startsWith("fiber, total dietary") && unit === "g") { out.fibre_g = amount; continue }
-    if (name === "iron, fe" && unit === "mg") { out.iron_mg = amount; continue }
-    if (name === "zinc, zn" && unit === "mg") { out.zinc_mg = amount; continue }
-    if (name === "magnesium, mg" && unit === "mg") { out.magnesium_mg = amount; continue }
-    if (name === "selenium, se" && (unit === "µg" || unit === "mcg")) { out.selenium_ug = amount; continue }
-    if (name === "calcium, ca" && unit === "mg") { out.calcium_mg = amount; continue }
-    if (name === "potassium, k" && unit === "mg") { out.potassium_mg = amount; continue }
-    if (name.startsWith("choline, total") && unit === "mg") { out.choline_mg = amount; continue }
-    if (name === "folate, total" && (unit === "µg" || unit === "mcg")) { out.folate_ug = amount; continue }
-    if (name.startsWith("vitamin b-12") && (unit === "µg" || unit === "mcg")) { out.vitamin_b12_ug = amount; continue }
-    if (name.startsWith("vitamin b-6") && unit === "mg") { out.vitamin_b6_mg = amount; continue }
-    if ((name.includes("epa") || name.includes("20:5 n-3")) && (unit === "g" || unit === "mg")) {
-      out.epa_mg = unit === "g" ? amount * 1000 : amount
-      continue
+async function pickRichestUsdaRecord(candidates) {
+  const MAX_INSPECT = 8
+  let best = null
+  for (const candidate of candidates.slice(0, MAX_INSPECT)) {
+    let full
+    try {
+      full = await usdaFetch(`food/${candidate.fdcId}`, {})
+    } catch (e) {
+      if (String(e).includes("404")) continue
+      throw e
     }
-    if ((name.includes("dha") || name.includes("22:6 n-3")) && (unit === "g" || unit === "mg")) {
-      out.dha_mg = unit === "g" ? amount * 1000 : amount
-      continue
-    }
-    if ((name.includes("ala") || name.includes("18:3 n-3")) && (unit === "g" || unit === "mg")) {
-      out.ala_mg = unit === "g" ? amount * 1000 : amount
-      continue
+    const nutrients = extractNutrients(full)
+    const score = scoreCandidate(candidate.dataType, nutrients)
+    if (score < 0) continue
+    if (!best || score > best.score) {
+      best = { chosen: candidate, full, nutrients, score }
     }
   }
-  const ala = out.ala_mg ?? null
-  const epa = out.epa_mg ?? null
-  const dha = out.dha_mg ?? null
-  if (ala != null || epa != null || dha != null) {
-    out.omega3_mg = [ala, epa, dha].filter((v) => v != null).reduce((a, b) => a + b, 0)
-  }
-  return out
+  return best
 }
 
 function buildPayloadFromUsda(nutrients, chosen) {
@@ -226,26 +195,21 @@ async function main() {
           pageSize: "15",
         })
         const candidates = rankFoodCandidates(search.foods || [])
-        let chosen = null
-        let full = null
-        for (const candidate of candidates) {
-          try {
-            full = await usdaFetch(`food/${candidate.fdcId}`, {})
-            chosen = candidate
-            break
-          } catch (e) {
-            if (String(e).includes("404")) continue
-            throw e
-          }
-        }
-        if (chosen && full) {
-          const nutrients = extractNutrients(full)
+        const picked = await pickRichestUsdaRecord(candidates)
+        if (picked) {
+          const { chosen, nutrients } = picked
           const payload = buildPayloadFromUsda(nutrients, chosen)
           fs.writeFileSync(payloadPath, JSON.stringify(payload, null, 2) + "\n", "utf8")
           stats.fetchedFromUsda++
           if (payloadExisted) stats.payloadsUpdated++
           else stats.payloadsCreated++
-          console.log(`Fetched: ${slug} -> ${chosen.fdcId}`)
+          const abbreviatedNote =
+            picked.score < MIN_STANDARD_PANEL_KEYS
+              ? "; abbreviated panel — USDA default omitted BRAIN-relevant nutrients"
+              : ""
+          console.log(
+            `Fetched: ${slug} -> ${chosen.fdcId} (${chosen.dataType}, score ${picked.score.toFixed(1)}${abbreviatedNote})`,
+          )
         } else {
           const payload = buildNoMatchPayload(slug)
           fs.writeFileSync(payloadPath, JSON.stringify(payload, null, 2) + "\n", "utf8")

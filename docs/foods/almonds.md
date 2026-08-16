@@ -15,23 +15,47 @@ tags:
   - Phosphorus
   - Manganese
   - Copper
+  - Iron
+  - Calcium
 list_image: /img/foods/almonds/almonds_thumb.webp
 nutrition_per_100g:
-  fat_g: 56.67
-  fibre_g: 10
-  calcium_mg: 333
-  protein_g: 23.33
-  kcal: 633
-  carbs_g: 13.33
-  iron_mg: 3.6
-  sat_fat_g: 5
+  choline_mg: 52.1
+  linoleic_g: 12.32
+  protein_g: 21.15
+  fibre_g: 12.5
+  iron_mg: 3.71
+  magnesium_mg: 270
+  phosphorus_mg: 481
+  copper_mg: 1.031
+  manganese_mg: 2.179
+  sat_fat_g: 3.802
+  vitamin_b1_mg: 0.205
+  vitamin_b2_mg: 1.138
+  folate_ug: 44
+  vitamin_b3_mg: 3.618
+  vitamin_b5_mg: 0.471
+  vitamin_b6_mg: 0.137
+  fat_g: 49.93
+  carbs_g: 21.55
+  kcal: 579
+  calcium_mg: 269
+  potassium_mg: 733
+  zinc_mg: 3.12
+  selenium_ug: 4.1
+  vitamin_e_mg: 25.63
+  beta_carotene_ug: 1
+  sodium_mg: 1
+  sugar_g: 4.35
+  lutein_zeaxanthin_ug: 1
+  ala_mg: 3
+  omega3_mg: 3
 nutrition_source:
   database: USDA FoodData Central
-  food_name: ALMONDS
-  fdc_id: 2074342
-  retrieval_method: API
+  food_name: 'Nuts, almonds'
+  fdc_id: 170567
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
 main_image: /img/foods/almonds/almonds_medium.webp
@@ -47,8 +71,8 @@ Within a BRAIN-aligned pattern, almonds work best as a **whole-food fat-and-fibr
 ## Key Nutritional Highlights
 
 - **Vitamin E** supports wider antioxidant-network function alongside other dietary antioxidants [1].
-- Plant protein ~23 g per 100 g; lysine is typically limiting for nuts and seeds [2].
-- Fibre (~10 g) and calcium (~333 mg) per 100 g support micronutrient density on a weight basis (USDA baseline).
+- Plant protein ~21 g per 100 g; lysine is typically limiting for nuts and seeds [2].
+- Fibre (~12.5 g) and calcium (~269 mg) per 100 g support micronutrient density on a weight basis (USDA SR Legacy).
 - Mostly unsaturated fats make almonds a practical whole-food fat source within mixed meals [3].
 - Magnesium, phosphorus, and manganese accompany the fat-and-protein matrix (see nutrition table).
 

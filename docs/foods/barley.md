@@ -11,36 +11,61 @@ tags:
   - Beta-glucan
   - Magnesium
 list_image: /img/foods/barley/barley_thumb.webp
-amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
+amino_acid_strengths: >-
+  Relatively higher in methionine than legumes; lysine-limited like other
+  grains.
 limiting_amino_acids: Lysine (typical of grains).
-complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+complementary_pairings: >-
+  Lentils, chickpeas, or other legumes for complete essential amino acid
+  profile.
 nutrition_per_100g:
-  kcal: 357.191828
-  protein_g: 8.72168
-  fat_g: 2.45
-  carbs_g: 77.39832
-  fibre_g: 12.79
-  calcium_mg: 35.56
-  iron_mg: 3.301
-  magnesium_mg: 88.04
-  potassium_mg: 366.6
-  zinc_mg: 2.144
-  selenium_ug: 13.1
-  vitamin_b6_mg: 0.1995
+  selenium_ug: 37.7
+  sugar_g: 0.8
+  lutein_zeaxanthin_ug: 160
+  vitamin_a_rae_ug: 1
+  beta_carotene_ug: 13
+  vitamin_k_ug: 2.2
+  sat_fat_g: 0.482
+  ala_mg: 486
+  vitamin_b1_mg: 0.646
+  vitamin_b2_mg: 0.285
+  folate_ug: 19
+  fibre_g: 17.3
+  iron_mg: 3.6
+  magnesium_mg: 133
+  phosphorus_mg: 264
+  sodium_mg: 12
+  copper_mg: 0.498
+  manganese_mg: 1.943
+  protein_g: 12.48
+  linoleic_g: 0.999
+  vitamin_b3_mg: 4.604
+  vitamin_b5_mg: 0.282
+  vitamin_b6_mg: 0.318
+  calcium_mg: 33
+  potassium_mg: 452
+  zinc_mg: 2.77
+  vitamin_e_mg: 0.57
+  fat_g: 2.3
+  carbs_g: 73.48
+  kcal: 354
+  omega3_mg: 486
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Flour, barley'
-  fdc_id: 2512376
-  retrieval_method: API
+  food_name: 'Barley, hulled'
+  fdc_id: 170283
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: beta_glucan_g
     label: Beta-glucan
     value: 4
     unit: g
     notes: Soluble cereal β-glucan; barley is among the richest common grain sources.
-    source_note: Representative value for barley flour; beta-glucan content varies by cultivar and processing (e.g. USDA and literature values for barley).
+    source_note: >-
+      Representative value for barley flour; beta-glucan content varies by
+      cultivar and processing (e.g. USDA and literature values for barley).
 main_image: /img/foods/barley/barley_medium.webp
 legacy_list_image: /img/foods/barley/barley_thumb.webp
 legacy_main_image: /img/foods/barley/barley_medium.webp

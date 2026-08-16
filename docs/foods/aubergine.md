@@ -2,48 +2,71 @@
 id: aubergine
 title: Aubergine
 sidebar_label: Aubergine
-description: 'Low-energy vegetable with fibre, potassium, and polyphenols (incl. nasunin in purple skin)'
+description: >-
+  Low-energy vegetable with fibre, potassium, and polyphenols (incl. nasunin in
+  purple skin)
 tags:
   - Food
   - Aubergine
   - Vegan
   - Vegetarian
-  - Fibre
   - Potassium
   - Polyphenol
   - Delphinidin
 list_image: /img/foods/aubergine/aubergine_thumb.webp
 nutrition_per_100g:
-  kcal: 25
-  protein_g: 0.98
-  fat_g: 0.18
+  vitamin_e_mg: 0.3
+  vitamin_b3_mg: 0.649
+  vitamin_c_mg: 2.2
+  vitamin_k_ug: 3.5
+  vitamin_b1_mg: 0.039
+  vitamin_b2_mg: 0.037
+  folate_ug: 22
+  vitamin_a_rae_ug: 1
+  choline_mg: 6.9
+  linoleic_g: 0.063
   sat_fat_g: 0.034
-  carbs_g: 5.88
+  ala_mg: 51
+  lutein_zeaxanthin_ug: 36
   sugar_g: 3.53
-  fibre_g: 3
   calcium_mg: 9
-  iron_mg: 0.23
-  magnesium_mg: 14
   potassium_mg: 229
   zinc_mg: 0.16
-  selenium_ug: 0.3
+  fat_g: 0.18
+  carbs_g: 5.88
+  kcal: 25
+  beta_carotene_ug: 14
+  fibre_g: 3
+  iron_mg: 0.23
+  magnesium_mg: 14
+  phosphorus_mg: 24
+  sodium_mg: 2
   copper_mg: 0.081
-  choline_mg: 6.9
-  folate_ug: 22
-  vitamin_b12_ug: 0
+  manganese_mg: 0.232
+  protein_g: 0.98
+  vitamin_b5_mg: 0.281
   vitamin_b6_mg: 0.084
-  vitamin_e_mg: 0.3
-  vitamin_k_ug: 3.5
+  selenium_ug: 0.3
+  omega3_mg: 51
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Eggplant, raw'
   fdc_id: 169228
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-24'
+  last_checked: '2026-08-15'
 main_image: /img/foods/aubergine/aubergine_medium.webp
 legacy_list_image: /img/foods/aubergine/aubergine_thumb.webp
 legacy_main_image: /img/foods/aubergine/aubergine_medium.webp
+nutrition_supplementary_sources:
+  - key: delphinidin_qual
+    label: Delphinidin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA flavonoid database / Phenol-Explorer list delphinidin glycosides in
+      Aubergine; per-100 g of the isolated anthocyanidin is not in the selected
+      USDA SR Legacy record.
 ---
 ## Overview
 
