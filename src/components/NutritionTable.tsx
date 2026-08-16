@@ -6,6 +6,7 @@ import {
   NUTRIENT_LABELS,
   isPublicSupplementaryRow,
   isPublicTableKey,
+  readAuthorisedSpecifications,
 } from "@site/src/data/nutritionTableMapping"
 
 type FrontMatter = Record<string, unknown>
@@ -53,6 +54,10 @@ interface FunctionalMetric {
 interface NutritionTableProps {
   details: FrontMatter
 }
+
+/** Caption under “Fatty acids and extended BRAIN-relevant substances”. */
+export const EXTENDED_TABLE_CAPTION =
+  "Individual fatty acids and other BRAIN-relevant constituents with a defensible quantity or explicit qualitative status. Asterisks (*) identify supplementary sources below. Unquantified or trace constituents are not automatically admitted to the Substances list."
 
 // Reference daily intakes — see `system/nutrient-reference-values.md`
 const RDA_VALUES: Record<string, number> = {
@@ -146,10 +151,14 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     // Omit numeric zeros from the functional table; keep qualitative entries (amount_display).
     .filter((m) => (typeof m.value === "number" ? m.value > 0 : true))
 
+  const authorised = readAuthorisedSpecifications(details)
+  const hasAuthorisedSpecs = Boolean(authorised?.rows?.length)
+
   const hasAnyNutrition =
     (nutrition && Object.entries(nutrition).some(([_, v]) => typeof v === "number" || v === null)) ||
     supplementary.length > 0 ||
-    functionalMetrics.length > 0
+    functionalMetrics.length > 0 ||
+    hasAuthorisedSpecs
 
   if (!hasAnyNutrition) {
     return null
@@ -278,14 +287,25 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
   const hasBioactiveSection =
     bioactiveLipidRows.length > 0 || supplementaryRows.length > 0
   const hasFunctionalSection = functionalRows.length > 0
+  const hasUsdaCompositionTables =
+    coreRows.length > 0 || microRows.length > 0 || hasBioactiveSection || hasFunctionalSection
 
-  const showBioactiveDisclaimer =
-    hasBioactiveSection || hasFunctionalSection
+  const authorisedProvenance = authorised
+    ? [
+        authorised.source_name,
+        authorised.source_url,
+        authorised.accessed ? `accessed ${authorised.accessed}` : "",
+      ]
+        .filter((part) => typeof part === "string" && part.trim().length > 0)
+        .join(" · ")
+    : ""
 
   return (
     <section className="nutrition-table-block">
-      <h2>Nutrient Tables (per 100 g)</h2>
-      {tableMapsTo && (
+      {hasUsdaCompositionTables && (
+        <h2>Nutrient Tables (per 100 g)</h2>
+      )}
+      {tableMapsTo && hasUsdaCompositionTables && (
         <p style={{fontSize: "0.95em", color: "#555", marginTop: "0.25rem", marginBottom: "0.75rem"}}>
           <strong>Maps to:</strong> {tableMapsTo}
         </p>
@@ -327,11 +347,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
         <>
           <h3>Fatty acids and extended BRAIN-relevant substances</h3>
           <p style={{fontSize: "0.9em", color: "#555", marginTop: "0.5rem"}}>
-            Individual fatty acids and BRAIN-relevant substances with a defensible
-            quantity or an explicit public-table status. Asterisks (*) refer to
-            source notes below. Unquantified or trace constituents stay in the
-            Substances section unless showing them here prevents a likely
-            misunderstanding.
+            {EXTENDED_TABLE_CAPTION}
           </p>
           <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
             <thead>
@@ -388,6 +404,47 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
         </details>
       )}
 
+      {hasAuthorisedSpecs && authorised && (
+        <div style={{marginTop: hasUsdaCompositionTables ? "1.25rem" : 0}}>
+          <h2>{authorised.title || "Representative authorised specifications"}</h2>
+          <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
+            <thead>
+              <tr>
+                <th style={thStyle}>Formulation</th>
+                <th style={thStyle}>DHA</th>
+                <th style={thStyle}>EPA</th>
+                <th style={thStyle}>Interpretation</th>
+              </tr>
+            </thead>
+            <tbody>
+              {authorised.rows.map((row) => (
+                <tr key={row.formulation}>
+                  <td style={tdStyle}>{row.formulation}</td>
+                  <td style={tdStyle}>{row.dha}</td>
+                  <td style={tdStyle}>{row.epa}</td>
+                  <td style={tdStyle}>{row.interpretation}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          {authorised.caption && (
+            <p style={{marginTop: "0.75rem", fontSize: "0.9em", color: "#555"}}>
+              {authorised.caption}
+            </p>
+          )}
+          {authorisedProvenance && (
+            <p style={{marginTop: "0.5rem", fontSize: "0.9em", color: "#555"}}>
+              <strong>
+                Data provenance (regulatory product specifications, not USDA
+                food-composition measurements):
+              </strong>{" "}
+              {authorisedProvenance}
+            </p>
+          )}
+        </div>
+      )}
+
+      {hasUsdaCompositionTables && (
       <div style={{marginTop: "0.75rem", fontSize: "0.9em", color: "#555"}}>
         <div style={{marginBottom: "0.25rem"}}>
           <strong>Reference intakes:</strong> US Dietary Reference Intakes for adults (19–50 years;
@@ -430,6 +487,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
           </div>
         )}
       </div>
+      )}
     </section>
   )
 }

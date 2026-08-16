@@ -137,6 +137,10 @@ function hasNutritionLayer(fm) {
   if (Array.isArray(fm.nutrition_functional_metrics) && fm.nutrition_functional_metrics.length) {
     return true
   }
+  const spec = fm.nutrition_authorised_specifications
+  if (spec && typeof spec === "object" && Array.isArray(spec.rows) && spec.rows.length) {
+    return true
+  }
   return false
 }
 

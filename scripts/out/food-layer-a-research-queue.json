@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-08-16",
+  "scope": "Displayed-name A foods",
+  "status": "open_research_queue — A foods are not a fully reconciled canonical batch until these identity compounds are resolved",
+  "rule": "Overview mentions of credible identity compounds trigger verification. They must not remain unresolved indefinitely, and they must not generate table rows, cards, or substance pages from the mention alone.",
+  "items": [
+    {
+      "food": "Apples",
+      "compound": "pectin",
+      "status": "requires-research",
+      "why": "Credible soluble-fibre identity. USDA SR Legacy reports total fibre 2.4 g/100 g and does not report pectin separately. The previous 3.2 g figure was unsupported for this record.",
+      "needed": "Food-specific pectin assay with unit and analytical basis for raw apple with skin, not copied from another fruit."
+    },
+    {
+      "food": "Asparagus",
+      "compound": "fructooligosaccharides (FOS)",
+      "status": "requires-research",
+      "why": "Credible prebiotic identity alongside folate. USDA SR Legacy reports total fibre 2.1 g/100 g and does not quantify FOS.",
+      "needed": "Food-specific FOS quantity or explicit qualitative status with source; do not invent a row from Overview bolding."
+    },
+    {
+      "food": "Aubergine",
+      "compound": "nasunin",
+      "status": "presence_resolved — remaining quantity/ontology gaps",
+      "class": "Presence resolved — remaining quantity/ontology gap",
+      "not": "Overview → table gap. Presence is already evidenced by the public qualitative row.",
+      "presence": "Resolved. Public table row: Present as glycosides (nasunin) — quantity not established, with Phenol-Explorer / flavonoid literature provenance.",
+      "remaining_gaps": [
+        "No defensible per-100 g quantity or range (USDA SR Legacy does not quantify nasunin).",
+        "No canonical nasunin substance page.",
+        "Ontology admission is incomplete: the Delphinidin card is a parent-aglycone link, not a nasunin card."
+      ],
+      "needed": "Food-specific nasunin quantity or range for purple aubergine peel, if a defensible assay exists. Do not invent a number. Do not create a nasunin substance page from Overview mention alone. Keep the Delphinidin card qualified as parent aglycone present principally as glycosides including nasunin."
+    }
+  ]
+}

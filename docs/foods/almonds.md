@@ -71,7 +71,7 @@ Within a BRAIN-aligned pattern, almonds work best as a **whole-food fat-and-fibr
 ## Key Nutritional Highlights
 
 - **Vitamin E** supports wider antioxidant-network function alongside other dietary antioxidants [1].
-- Plant protein ~21 g per 100 g; lysine is typically limiting for nuts and seeds [2].
+- Plant protein 21.2 g per 100 g; lysine is typically limiting for nuts and seeds [2].
 - Fibre (~12.5 g) and calcium (~269 mg) per 100 g support micronutrient density on a weight basis (USDA SR Legacy).
 - Mostly unsaturated fats make almonds a practical whole-food fat source within mixed meals [3].
 - Magnesium, phosphorus, and manganese accompany the fat-and-protein matrix (see nutrition table).

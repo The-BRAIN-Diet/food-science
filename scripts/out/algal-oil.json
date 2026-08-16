@@ -1,15 +1,41 @@
 {
-  "nutrition_per_100g": {
-    "sat_fat_g": 6.61,
-    "ala_mg": 7450,
-    "omega3_mg": 7450
-  },
+  "nutrition_per_100g": {},
   "nutrition_source": {
-    "database": "USDA FoodData Central",
-    "food_name": "Oil, canola",
-    "fdc_id": 748278,
-    "retrieval_method": "API",
-    "basis": "per 100 g edible portion",
-    "last_checked": "2026-03-14"
+    "database": "EU Union list of novel foods",
+    "status": "no_sr_legacy_match",
+    "retrieval_method": "specialist specification (not USDA)",
+    "basis": "authorised oil composition (g/100 g oil), not supplement serving size",
+    "last_checked": "2026-08-16",
+    "note": "SR Legacy has no algal-oil food. Do not use canola, fish oil, or any other oil as a proxy. Values are regulatory product specifications, not USDA food-composition measurements."
+  },
+  "nutrition_authorised_specifications": {
+    "title": "Representative authorised algal-oil specifications",
+    "caption": "These are regulatory minimum specifications, not averages, measured ranges or guaranteed values for every commercial product.",
+    "source_name": "EU Union list of novel foods, Commission Implementing Regulation (EU) 2017/2470 (consolidated 25 September 2024)",
+    "source_url": "https://eur-lex.europa.eu/eli/reg_impl/2017/2470/2024-09-25/eng",
+    "accessed": "2026-08-16",
+    "rows": [
+      {
+        "formulation": "DHA-rich Schizochytrium oil",
+        "dha": "≥32 g/100 g oil",
+        "epa": "Not specified",
+        "interpretation": "Common DHA-focused specification",
+        "supports": ["DHA"]
+      },
+      {
+        "formulation": "Selected strain-specific DHA-rich oils",
+        "dha": "≥35 g/100 g oil",
+        "epa": "Not specified",
+        "interpretation": "Strain-specific authorised specification",
+        "supports": ["DHA"]
+      },
+      {
+        "formulation": "DHA/EPA-rich Schizochytrium oil",
+        "dha": "≥15 g/100 g oil",
+        "epa": "≥10 g/100 g oil",
+        "interpretation": "Distinct combined formulation",
+        "supports": ["DHA", "EPA"]
+      }
+    ]
   }
 }

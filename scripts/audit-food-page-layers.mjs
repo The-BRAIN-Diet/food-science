@@ -25,6 +25,8 @@ import {
   isTraceContribution,
   labelsOverlap,
   overviewHeadlineCompounds,
+  publicTableRows,
+  rowEvidencesCompound,
   tableBackedLabels,
 } from "./lib/food-truth-levels.mjs"
 import { loadSubstanceLookup, substancePageForLabel } from "./lib/food-truth-reconciliation.mjs"
@@ -39,6 +41,7 @@ export const DISCREPANCY_CLASSES = [
   "Trace-only presence",
   "Scope error",
   "Admitted card with missing substance page",
+  "Presence resolved — remaining quantity/ontology gap",
 ]
 
 const MECHANISM_TOKENS = [
@@ -224,6 +227,7 @@ export function auditFoodPage(fm, content, { substanceLookup = [] } = {}) {
   const overviewText = extractOverviewSection(content)
   const tableLabels = tableBackedLabels(fm)
   const allRows = allTableRows(fm)
+  const publicRows = publicTableRows(fm)
   const editorial = editorialSubstanceTags(fm)
   const headlines = uniqueLabels([
     ...overviewHeadlineCompounds(fm, content),
@@ -285,7 +289,8 @@ export function auditFoodPage(fm, content, { substanceLookup = [] } = {}) {
     if (CATEGORY_TAGS.has(compound) || isFoodIdentityTag(compound, fm)) continue
     const publicMatch = tableMatch(compound, tableLabels)
     const anyMatch = publicMatch || tableMatch(compound, allRows.map((r) => r.label))
-    if (!anyMatch) {
+    const evidencedRows = publicRows.filter((row) => rowEvidencesCompound(row, compound))
+    if (!anyMatch && !evidencedRows.length) {
       const substanceHit = substancePageForLabel(compound, substanceLookup)
       findings.push(
         finding({
@@ -297,6 +302,38 @@ export function auditFoodPage(fm, content, { substanceLookup = [] } = {}) {
           proposed_resolution:
             "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
           confidence: substanceHit ? "medium" : "low",
+        }),
+      )
+      continue
+    }
+    if (evidencedRows.length) {
+      const labelledAsSelf = evidencedRows.some((row) => labelsOverlap(compound, row.label))
+      const admittedAsSelf = editorial.some((tag) => labelsOverlap(tag, compound))
+      if (labelledAsSelf && admittedAsSelf) continue
+      const quantitative = evidencedRows.some(
+        (row) => row.quantitative && typeof row.value === "number" && row.value > 0,
+      )
+      const page = substancePageForLabel(compound, substanceLookup)
+      const rowSummary = evidencedRows
+        .map((row) => row.amount_display || row.status || row.label)
+        .filter(Boolean)
+        .join("; ")
+      const remaining = []
+      if (!quantitative) remaining.push("no defensible quantity or range")
+      if (!page) remaining.push("no canonical substance page")
+      if (!admittedAsSelf) {
+        remaining.push("ontology admission is incomplete (parent/aglycone card is not this glycoside)")
+      }
+      findings.push(
+        finding({
+          slug,
+          displayed_name,
+          cls: "Presence resolved — remaining quantity/ontology gap",
+          entity: compound,
+          evidence: `Presence is already evidenced by a public qualitative table row (${rowSummary}). This is not an Overview → table gap. Remaining: ${remaining.join("; ")}. ${overviewSnippet(overviewText, compound)}`,
+          proposed_resolution:
+            "Keep the qualitative presence row. Do not invent a quantity. Do not create a substance page from the mention alone. If a parent aglycone card is shown, qualify it as glycoside chemistry rather than free aglycone.",
+          confidence: "high",
         }),
       )
     }

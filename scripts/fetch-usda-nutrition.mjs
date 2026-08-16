@@ -32,7 +32,8 @@ const FOODS_DIR_DEFAULT = "docs/foods"
 const OUT_DIR_DEFAULT = "scripts/out"
 const USDA_MAP_PATH = path.join(__dirname, "usda-map.json")
 
-const SKIP_SLUGS = new Set(["index", "shopping-list"])
+// algal-oil is a specialist product: no USDA food exists; never use canola or another oil as a proxy.
+const SKIP_SLUGS = new Set(["index", "shopping-list", "algal-oil"])
 
 function parseArgs() {
   const args = process.argv.slice(2)

@@ -2,7 +2,7 @@
 id: delphinidin
 title: Delphinidin
 sidebar_label: Delphinidin
-description: Anthocyanidin parent compound; occurs in foods predominantly as glycosylated anthocyanins, including nasunin in aubergine peel.
+description: Anthocyanidin parent compound; occurs in foods predominantly as glycosylated anthocyanins.
 tags:
   - Substance
   - Bioactive

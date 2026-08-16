@@ -128,6 +128,8 @@ export function extractNutrients(food) {
       name.includes("18:3 n-3") ||
       name.includes("alpha-linolenic") ||
       name.includes("α-linolenic") ||
+      name === "pufa 18:3" ||
+      name === "18:3" ||
       (/\bala\b/.test(name) && !name.includes("alanine"))
     if (isAla && (unit === "g" || unit === "mg")) {
       out.ala_mg = unit === "g" ? amount * 1000 : amount

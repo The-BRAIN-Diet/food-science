@@ -9,20 +9,21 @@ tags:
   - Vegan
   - Vegetarian
   - Vitamin E
-  - Carotenoid
 list_image: /img/foods/avocado-oil/avocado-oil_thumb.webp
 nutrition_per_100g:
   sat_fat_g: 11.56
   fat_g: 100
   kcal: 884
   linoleic_g: 12.53
+  ala_mg: 957
+  omega3_mg: 957
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Oil, avocado'
   fdc_id: 173573
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-08-15'
+  last_checked: '2026-08-16'
 main_image: /img/foods/avocado-oil/avocado-oil_medium.webp
 legacy_list_image: /img/foods/avocado-oil/avocado-oil_thumb.webp
 legacy_main_image: /img/foods/avocado-oil/avocado-oil_medium.webp
@@ -40,12 +41,13 @@ nutrition_supplementary_sources:
 Avocado oil is a **monounsaturated-fat** culinary oil (chiefly oleic acid) used for cooking and dressings where a neutral-to-mild flavoured MUFA source is desired [1]. Like other unsaturated fats, it supports micelle and chylomicron formation for fat-soluble nutrients consumed in the same meal [2].
 
 Within the BRAIN Diet framework, avocado oil is a practical fat vehicle for carotenoid-rich salads and vegetables; fat quality and food matrix still matter more than isolated oil intake alone [1].
+
 ## Key Nutritional Highlights
 
 - High oleic acid content; monounsaturated fats feature in cardiometabolic dietary guidance [1].
 - Improves carotenoid and fat-soluble nutrient absorption when paired with vegetables [2].
 - Refined oil — prefer whole avocado when fibre and potassium are also targets.
-- Use as a cooking/dressing fat in moderation within overall fat-quality patterns [1].
+- Energy 884 kcal and total fat 100 g per 100 g; use as a cooking/dressing fat in moderation within overall fat-quality patterns [1].
 ## Food Context
 
 ### Synergies

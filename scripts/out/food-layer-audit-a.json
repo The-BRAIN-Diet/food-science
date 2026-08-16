@@ -1,0 +1,188 @@
+{
+  "generated_at": "2026-08-16T17:07:26.506Z",
+  "read_only": true,
+  "writes_food_pages": false,
+  "writes_substance_pages": false,
+  "writes_ontology_tags": false,
+  "confidence_scope": "audit_finding_only — not added to food-page content or front matter",
+  "model": "Three Sources of Truth: Overview → Database nutrition table → Substances list",
+  "content_boundary_model": "Intrinsic / Mechanism / Strategy (scope, not admission)",
+  "letter_scope": "A",
+  "scope_rule": "Displayed food name (sidebar_label || title), first alphabetic character after optional leading 'The'. Filename is not the scope key.",
+  "pages_examined": 8,
+  "pages_excluded_outside_letter_scope": 160,
+  "pages": [
+    {
+      "displayed_name": "Algal Oil",
+      "slug": "algal-oil",
+      "filename": "algal-oil.md",
+      "initial": "A",
+      "finding_count": 0,
+      "overview_compounds": [
+        "DHA",
+        "EPA"
+      ],
+      "substance_tags": [
+        "DHA",
+        "EPA"
+      ]
+    },
+    {
+      "displayed_name": "Almonds",
+      "slug": "almonds",
+      "filename": "almonds.md",
+      "initial": "A",
+      "finding_count": 0,
+      "overview_compounds": [
+        "vitamin E"
+      ],
+      "substance_tags": [
+        "Linoleic Acid",
+        "Vitamin E",
+        "Vitamin B2",
+        "Magnesium",
+        "Phosphorus",
+        "Manganese",
+        "Copper",
+        "Iron",
+        "Calcium"
+      ]
+    },
+    {
+      "displayed_name": "Amaranth",
+      "slug": "amaranth",
+      "filename": "amaranth.md",
+      "initial": "A",
+      "finding_count": 0,
+      "overview_compounds": [
+        "magnesium",
+        "iron"
+      ],
+      "substance_tags": [
+        "Magnesium",
+        "Iron"
+      ]
+    },
+    {
+      "displayed_name": "Apples",
+      "slug": "apples",
+      "filename": "apples.md",
+      "initial": "A",
+      "finding_count": 1,
+      "overview_compounds": [
+        "pectin",
+        "quercetin",
+        "vitamin C",
+        "whole fruit"
+      ],
+      "substance_tags": [
+        "Vitamin C",
+        "Quercetin"
+      ]
+    },
+    {
+      "displayed_name": "Asparagus",
+      "slug": "asparagus",
+      "filename": "asparagus.md",
+      "initial": "A",
+      "finding_count": 1,
+      "overview_compounds": [
+        "folate",
+        "fructooligosaccharides"
+      ],
+      "substance_tags": [
+        "Vitamin B9"
+      ]
+    },
+    {
+      "displayed_name": "Aubergine",
+      "slug": "aubergine",
+      "filename": "aubergine.md",
+      "initial": "A",
+      "finding_count": 1,
+      "overview_compounds": [
+        "nasunin",
+        "Delphinidin"
+      ],
+      "substance_tags": [
+        "Delphinidin"
+      ]
+    },
+    {
+      "displayed_name": "Avocado",
+      "slug": "avocado",
+      "filename": "avocado.md",
+      "initial": "A",
+      "finding_count": 0,
+      "overview_compounds": [
+        "monounsaturated-fat-rich"
+      ],
+      "substance_tags": [
+        "Vitamin E",
+        "Potassium",
+        "Lutein",
+        "Beta-Carotene"
+      ]
+    },
+    {
+      "displayed_name": "Avocado Oil",
+      "slug": "avocado-oil",
+      "filename": "avocado-oil.md",
+      "initial": "A",
+      "finding_count": 0,
+      "overview_compounds": [
+        "monounsaturated-fat"
+      ],
+      "substance_tags": [
+        "Vitamin E"
+      ]
+    }
+  ],
+  "totals_by_class": {
+    "Overview → table gap": 2,
+    "Table → card candidate": 0,
+    "Card → table violation": 0,
+    "Unsupported Overview claim": 0,
+    "Trace-only presence": 0,
+    "Scope error": 0,
+    "Admitted card with missing substance page": 0,
+    "Presence resolved — remaining quantity/ontology gap": 1
+  },
+  "totals_by_confidence": {
+    "high": 1,
+    "medium": 0,
+    "low": 2
+  },
+  "findings": [
+    {
+      "food": "Apples",
+      "slug": "apples",
+      "class": "Overview → table gap",
+      "entity": "pectin",
+      "evidence": "Named in Overview with no supported table row. Apples provide **pectin** (soluble fibre), **quercetin** and related flavonols, and **vitamin C** withi",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Asparagus",
+      "slug": "asparagus",
+      "class": "Overview → table gap",
+      "entity": "fructooligosaccharides",
+      "evidence": "Named in Overview with no supported table row. Asparagus provides **folate** (vitamin B9), **fructooligosaccharides** (FOS), and fibre in a low-calorie vegetable matrix. B-vitamins including fola",
+      "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
+      "confidence": "low",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Aubergine",
+      "slug": "aubergine",
+      "class": "Presence resolved — remaining quantity/ontology gap",
+      "entity": "nasunin",
+      "evidence": "Presence is already evidenced by a public qualitative table row (Present as glycosides (nasunin) — quantity not established). This is not an Overview → table gap. Remaining: no defensible quantity or range; no canonical substance page; ontology admission is incomplete (parent/aglycone card is not this glycoside). rovides anthocyanin pigments in purple peel — principally **nasunin**, an acylated glycoside whose parent aglycone is [Delphinidin](/docs/substance",
+      "proposed_resolution": "Keep the qualitative presence row. Do not invent a quantity. Do not create a substance page from the mention alone. If a parent aglycone card is shown, qualify it as glycoside chemistry rather than free aglycone.",
+      "confidence": "high",
+      "confidence_scope": "audit_finding_only"
+    }
+  ]
+}

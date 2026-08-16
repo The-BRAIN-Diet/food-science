@@ -14,7 +14,6 @@ nutrition_per_100g:
   sat_fat_g: 0.04
   vitamin_c_mg: 5.6
   folate_ug: 52
-  ala_mg: 115
   protein_g: 2.2
   vitamin_e_mg: 1.13
   sugar_g: 1.88
@@ -43,30 +42,30 @@ nutrition_per_100g:
   vitamin_b3_mg: 0.978
   vitamin_b5_mg: 0.274
   vitamin_b6_mg: 0.091
-  omega3_mg: 115
+  ala_mg: 10
+  omega3_mg: 10
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Asparagus, raw'
   fdc_id: 168389
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-08-15'
+  last_checked: '2026-08-16'
 main_image: /img/foods/asparagus/asparagus_medium.webp
 legacy_list_image: /img/foods/asparagus/asparagus_thumb.webp
 legacy_main_image: /img/foods/asparagus/asparagus_medium.webp
 ---
 ## Overview
 
-Asparagus provides **folate** (vitamin B9), **fructooligosaccharides** (FOS), and fibre alongside iron and potassium in a low-calorie vegetable matrix. B-vitamins including folate support one-carbon metabolism, DNA repair, and neurochemical synthesis pathways relevant to brain function [1].
+Asparagus provides **folate** (vitamin B9), **fructooligosaccharides** (FOS), and fibre in a low-calorie vegetable matrix. B-vitamins including folate support one-carbon metabolism, DNA repair, and neurochemical synthesis pathways relevant to brain function [1].
 
 Within the BRAIN Diet framework, asparagus contributes folate and prebiotic-type fibres as part of diverse vegetable intake. Human prebiotic trials report measurable effects on stress-related biology and emotional processing, supporting the value of fermentable fibres within mixed dietary patterns [2,3].
 
 ## Key Nutritional Highlights
 
-- **Folate** (~52 µg per 100 g raw) supports one-carbon and B-vitamin intake relevant to methylation biology [1].
-- **FOS** prebiotic fibre occurs alongside ~2.1 g total fibre per 100 g (USDA baseline) [2,3].
-- Iron (~2.1 mg per 100 g) is relatively useful for a low-calorie vegetable.
-- Very low energy density (~20 kcal per 100 g) allows generous vegetable portions.
+- **Folate** (52 µg per 100 g raw) supports one-carbon and B-vitamin intake relevant to methylation biology [1].
+- **FOS** prebiotic fibre occurs alongside 2.1 g total fibre per 100 g (USDA SR Legacy); FOS itself is not separately quantified in that panel [2,3].
+- Very low energy density (20 kcal per 100 g) allows generous vegetable portions.
 
 ## Food Context
 
@@ -92,7 +91,7 @@ Within the BRAIN Diet framework, asparagus contributes folate and prebiotic-type
 
 ## References
 
-[1] **Folate** (~52 µg per 100 g raw) supports one-carbon and B-vitamin intake relevant to methylation biology. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+[1] **Folate** (52 µg per 100 g raw) supports one-carbon and B-vitamin intake relevant to methylation biology. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
 
 [2] Attention-deficit/hyperactivity disorder (ADHD) is a neurodevelopmental disorder that has become increasingly prevalent worldwide. Schmidt & Cowen 2015. [Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)
 
