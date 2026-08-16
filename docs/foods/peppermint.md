@@ -11,29 +11,39 @@ tags:
   - Polyphenol
 list_image: /img/foods/peppermint/peppermint_thumb.webp
 nutrition_per_100g:
-  kcal: 70
+  sat_fat_g: 0.246
   protein_g: 3.75
-  fat_g: 0.94
-  carbs_g: 14.89
   fibre_g: 8
-  calcium_mg: 243
   iron_mg: 5.08
   magnesium_mg: 80
+  phosphorus_mg: 73
+  sodium_mg: 31
+  copper_mg: 0.329
+  manganese_mg: 1.176
+  vitamin_c_mg: 31.8
+  vitamin_b1_mg: 0.082
+  vitamin_b2_mg: 0.266
+  folate_ug: 114
+  ala_mg: 195
+  linoleic_g: 0.069
+  vitamin_b3_mg: 1.706
+  vitamin_b5_mg: 0.338
+  vitamin_b6_mg: 0.129
+  fat_g: 0.94
+  carbs_g: 14.89
+  kcal: 70
+  calcium_mg: 243
   potassium_mg: 569
   zinc_mg: 1.11
-  vitamin_b6_mg: 0.129
-  folate_ug: 114
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.246
-  ala_mg: 195
+  vitamin_a_rae_ug: 212
   omega3_mg: 195
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Peppermint, fresh'
   fdc_id: 173474
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/peppermint/peppermint_medium.webp
 legacy_list_image: /img/foods/peppermint/peppermint_thumb.webp
 legacy_main_image: /img/foods/peppermint/peppermint_medium.webp

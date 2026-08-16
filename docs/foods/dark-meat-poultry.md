@@ -41,6 +41,14 @@ protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/dark-meat-poultry/dark-meat-poultry_medium.webp
 legacy_list_image: /img/foods/dark-meat-poultry/dark-meat-poultry_thumb.webp
 legacy_main_image: /img/foods/dark-meat-poultry/dark-meat-poultry_medium.webp
+nutrition_supplementary_sources:
+  - key: taurine_qual
+    label: Taurine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Taurine is a characteristic free amino sulfonic acid in Dark-Meat Poultry;
+      USDA SR Legacy does not include a taurine field.
 ---
 ## Overview
 

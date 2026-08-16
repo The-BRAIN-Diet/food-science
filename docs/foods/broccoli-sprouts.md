@@ -2,19 +2,17 @@
 id: broccoli-sprouts
 title: Broccoli Sprouts
 sidebar_label: Broccoli Sprouts
-description: 'Young broccoli sprouts valued for glucoraphanin and sulforaphane potential, vitamin C, and Nrf2-supportive phytochemistry'
+description: >-
+  Young broccoli sprouts valued for glucoraphanin and sulforaphane potential,
+  vitamin C, and Nrf2-supportive phytochemistry
 tags:
   - Food
   - Broccoli Sprouts
   - Vegan
   - Vegetarian
-  - Vitamin A
-  - Vitamin B1
-  - Vitamin B2
   - Vitamin B6
   - Vitamin B9
   - Vitamin C
-  - Vitamin E
   - Calcium
   - Iron
   - Magnesium
@@ -46,10 +44,29 @@ nutrition_functional_metrics:
   - key: glucoraphanin_sulforaphane_potential
     label: Glucoraphanin / sulforaphane potential
     amount_display: Much higher than mature broccoli
-    notes: Broccoli sprouts are mainly prized for glucoraphanin density and downstream sulforaphane formation rather than for calories or macros.
+    notes: >-
+      Broccoli sprouts are mainly prized for glucoraphanin density and
+      downstream sulforaphane formation rather than for calories or macros.
 main_image: /img/foods/broccoli-sprouts/broccoli-sprouts_medium.webp
 legacy_list_image: /img/foods/broccoli-sprouts/broccoli-sprouts_thumb.webp
 legacy_main_image: /img/foods/broccoli-sprouts/broccoli-sprouts_medium.webp
+nutrition_supplementary_sources:
+  - key: sulforaphane_qual
+    label: Sulforaphane
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Sulforaphane is formed from glucoraphanin in Broccoli Sprouts after
+      myrosinase action; USDA SR Legacy does not report sulforaphane. Quantity
+      depends on cultivar and preparation (Houghton 2016).
+  - key: glucoraphanin_qual
+    label: Glucoraphanin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Broccoli Sprouts are a concentrated dietary source of glucoraphanin, the
+      precursor of sulforaphane. USDA SR Legacy has no broccoli-sprout record,
+      so quantity is not established here.
 ---
 ## Overview
 

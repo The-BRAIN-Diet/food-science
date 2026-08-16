@@ -13,24 +13,55 @@ tags:
   - Polyphenol
 list_image: /img/foods/capers/capers_thumb.webp
 nutrition_per_100g:
-  iron_mg: 1.2
-  calcium_mg: 0
-  fat_g: 0
-  sat_fat_g: 0
-  kcal: 27
-  protein_g: 0
-  carbs_g: 6.67
-  fibre_g: 6.7
+  sugar_g: 0.41
+  vitamin_e_mg: 0.88
+  vitamin_a_rae_ug: 7
+  beta_carotene_ug: 83
+  vitamin_k_ug: 24.6
+  fat_g: 0.86
+  carbs_g: 4.89
+  vitamin_b3_mg: 0.652
+  vitamin_b6_mg: 0.023
+  linoleic_g: 0.111
+  vitamin_b1_mg: 0.018
+  vitamin_b2_mg: 0.139
+  sat_fat_g: 0.233
+  protein_g: 2.36
+  folate_ug: 23
+  vitamin_c_mg: 4.3
+  fibre_g: 3.2
+  iron_mg: 1.67
+  magnesium_mg: 33
+  phosphorus_mg: 10
+  copper_mg: 0.374
+  calcium_mg: 40
+  potassium_mg: 40
+  zinc_mg: 0.32
+  kcal: 23
+  sodium_mg: 2348
+  choline_mg: 6.5
+  vitamin_b5_mg: 0.027
+  selenium_ug: 1.2
+  manganese_mg: 0.078
 nutrition_source:
   database: USDA FoodData Central
-  food_name: CAPERS
-  fdc_id: 2412103
-  retrieval_method: API
+  food_name: 'Capers, canned'
+  fdc_id: 172238
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/capers/capers_medium.webp
 legacy_list_image: /img/foods/capers/capers_thumb.webp
 legacy_main_image: /img/foods/capers/capers_medium.webp
+nutrition_supplementary_sources:
+  - key: quercetin_qual
+    label: Quercetin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
+      reports quercetin glycosides in Capers; a single defensible per-100 g
+      value is not taken from the abbreviated USDA nutrient panel.
 ---
 ## Overview
 

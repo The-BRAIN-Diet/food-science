@@ -18,37 +18,51 @@ list_image: /img/foods/eggs/eggs_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   kcal: 143
+  choline_mg: 293.8
+  ala_mg: 36
+  vitamin_b1_mg: 0.04
+  vitamin_b2_mg: 0.457
+  vitamin_b12_ug: 0.89
+  sat_fat_g: 3.126
+  caprylic_g: 0.004
+  dha_mg: 58
+  linoleic_g: 1.531
   protein_g: 12.56
-  fat_g: 9.51
-  carbs_g: 0.72
-  fibre_g: 0
-  ala_mg: 735
-  calcium_mg: 56
   iron_mg: 1.75
   magnesium_mg: 12
+  phosphorus_mg: 198
+  sodium_mg: 142
+  copper_mg: 0.072
+  manganese_mg: 0.028
+  vitamin_a_rae_ug: 160
+  selenium_ug: 30.7
+  vitamin_e_mg: 1.05
+  lutein_zeaxanthin_ug: 503
+  sugar_g: 0.37
+  calcium_mg: 56
   potassium_mg: 138
   zinc_mg: 1.29
-  selenium_ug: 30.7
+  fat_g: 9.51
+  vitamin_b3_mg: 0.075
+  vitamin_b5_mg: 1.533
   vitamin_b6_mg: 0.17
+  capric_g: 0.006
+  carbs_g: 0.72
+  vitamin_d_ug: 2
+  vitamin_k_ug: 0.3
   folate_ug: 47
-  choline_mg: 293.8
-  vitamin_b12_ug: 0
-  sat_fat_g: 3.126
-  epa_mg: 0
-  dha_mg: 58
-  omega3_mg: 793
+  omega3_mg: 94
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Egg, whole, raw, fresh'
   fdc_id: 171287
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/eggs/eggs_medium.webp
 legacy_list_image: /img/foods/eggs/eggs_thumb.webp
 legacy_main_image: /img/foods/eggs/eggs_medium.webp
 ---
-
 import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview

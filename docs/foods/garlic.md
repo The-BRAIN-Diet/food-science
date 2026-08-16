@@ -13,23 +13,59 @@ tags:
   - Allicin
 list_image: /img/foods/garlic/garlic_thumb.webp
 nutrition_per_100g:
-  kcal: 143
-  protein_g: 6.62
-  fat_g: 0.38
-  carbs_g: 28.2
-  fibre_g: 2.7
-  selenium_ug: 9.8
+  vitamin_e_mg: 0.08
+  choline_mg: 23.2
+  lutein_zeaxanthin_ug: 16
+  carbs_g: 33.06
+  kcal: 149
+  beta_carotene_ug: 5
+  vitamin_k_ug: 1.7
+  sugar_g: 1
+  sat_fat_g: 0.089
+  vitamin_c_mg: 31.2
+  vitamin_b1_mg: 0.2
+  vitamin_b2_mg: 0.11
+  folate_ug: 3
+  ala_mg: 132
+  fibre_g: 2.1
+  iron_mg: 1.7
+  magnesium_mg: 25
+  phosphorus_mg: 153
+  sodium_mg: 17
+  copper_mg: 0.299
+  manganese_mg: 1.672
+  protein_g: 6.36
+  calcium_mg: 181
+  potassium_mg: 401
+  zinc_mg: 1.16
+  vitamin_b3_mg: 0.7
+  vitamin_b5_mg: 0.596
+  vitamin_b6_mg: 1.235
+  fat_g: 0.5
+  capric_g: 0.002
+  linoleic_g: 0.229
+  selenium_ug: 14.2
+  omega3_mg: 132
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Garlic, raw'
-  fdc_id: 1104647
-  retrieval_method: API
+  fdc_id: 169230
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/garlic/garlic_medium.webp
 legacy_list_image: /img/foods/garlic/garlic_thumb.webp
 legacy_main_image: /img/foods/garlic/garlic_medium.webp
+nutrition_supplementary_sources:
+  - key: allicin_qual
+    label: Allicin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Allicin is generated from alliin when Garlic is crushed; it is not a
+      stable USDA composition analyte. Presence is preparation-dependent
+      (Borlinghaus et al. 2014).
 ---
 ## Overview
 

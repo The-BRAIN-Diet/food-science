@@ -6,13 +6,9 @@ description: High-protein legume with strong arginine and lysine density
 tags:
   - Food
   - Lupin Beans
-  - Lupins
   - Vegan
   - Vegetarian
-  - Protein
-  - Fibre
   - Arginine
-  - Lysine
   - Folate
   - Magnesium
   - Iron
@@ -20,38 +16,49 @@ tags:
 list_image: /img/foods/lupin-beans/lupin-beans_thumb.webp
 protein_profile_note: Lysine-rich plant protein; relatively lower in methionine and cysteine.
 nutrition_per_100g:
-  kcal: 371
-  protein_g: 36.17
-  fat_g: 9.74
-  sat_fat_g: 1.156
   carbs_g: 40.37
   fibre_g: 18.9
-  calcium_mg: 176
+  protein_g: 36.17
   iron_mg: 4.36
   magnesium_mg: 198
+  phosphorus_mg: 440
+  sodium_mg: 15
+  copper_mg: 1.022
+  manganese_mg: 2.382
+  ala_mg: 1296
+  vitamin_c_mg: 4.8
+  vitamin_b1_mg: 0.64
+  vitamin_b2_mg: 0.22
+  folate_ug: 355
+  sat_fat_g: 1.156
+  fat_g: 9.74
+  calcium_mg: 176
   potassium_mg: 1013
   zinc_mg: 4.75
-  selenium_ug: 8.2
+  vitamin_b3_mg: 2.19
+  vitamin_b5_mg: 0.75
   vitamin_b6_mg: 0.357
-  folate_ug: 355
-  vitamin_b12_ug: 0
-  ala_mg: 1296
+  kcal: 371
+  arginine_g: 3.877
+  linoleic_g: 1.995
+  selenium_ug: 8.2
   omega3_mg: 1296
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Lupins, mature seeds, raw'
   fdc_id: 172423
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine.
-complementary_pairings: 'Pair with grains (rice, oats, barley, wheat) to improve sulfur-amino-acid balance.'
+complementary_pairings: >-
+  Pair with grains (rice, oats, barley, wheat) to improve sulfur-amino-acid
+  balance.
 main_image: /img/foods/lupin-beans/lupin-beans_medium.webp
 legacy_list_image: /img/foods/lupin-beans/lupin-beans_thumb.webp
 legacy_main_image: /img/foods/lupin-beans/lupin-beans_medium.webp
 ---
-
 ## Overview
 
 Lupin beans are protein-dense legumes that provide substantial **arginine**, **lysine**, **folate**, **magnesium**, and **fibre**. Their amino-acid profile is useful in plant-forward dietary patterns where arginine and total protein density are priorities, and where lysine-rich legumes help balance grain-heavy meal patterns.

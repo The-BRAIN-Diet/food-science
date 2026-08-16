@@ -13,42 +13,60 @@ tags:
   - Carnosol
 list_image: /img/foods/rosemary/rosemary_thumb.webp
 nutrition_per_100g:
-  kcal: 131
-  protein_g: 3.31
+  vitamin_b3_mg: 0.912
+  vitamin_b5_mg: 0.804
+  vitamin_b6_mg: 0.336
+  capric_g: 0.019
+  linoleic_g: 0.447
   fat_g: 5.86
   carbs_g: 20.7
-  fibre_g: 14.1
+  kcal: 131
   calcium_mg: 317
-  iron_mg: 6.65
-  magnesium_mg: 91
   potassium_mg: 668
   zinc_mg: 0.93
-  vitamin_b6_mg: 0.336
-  folate_ug: 109
-  vitamin_b12_ug: 0
+  protein_g: 3.31
+  fibre_g: 14.1
+  iron_mg: 6.65
+  magnesium_mg: 91
+  phosphorus_mg: 66
+  sodium_mg: 26
+  copper_mg: 0.301
+  manganese_mg: 0.96
   sat_fat_g: 2.838
+  vitamin_b1_mg: 0.036
+  vitamin_b2_mg: 0.152
+  folate_ug: 109
   ala_mg: 172
+  vitamin_c_mg: 21.8
+  vitamin_a_rae_ug: 146
   omega3_mg: 172
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Rosemary, fresh'
   fdc_id: 173473
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: carnosic_acid_mg
     label: Carnosic acid
     value: 840
     unit: mg
     notes: Major lipophilic antioxidant diterpene in rosemary.
-    source_note: 'Fresh S. rosmarinus foliage in one validated HPLC study ranged about 5638-12173 ug/g fresh weight (~564-1217 mg/100 g); 840 mg/100 g used as a representative midpoint estimate. Concentrations vary by genotype, harvest stage, and extraction/handling conditions.'
+    source_note: >-
+      Fresh S. rosmarinus foliage in one validated HPLC study ranged about
+      5638-12173 ug/g fresh weight (~564-1217 mg/100 g); 840 mg/100 g used as a
+      representative midpoint estimate. Concentrations vary by genotype, harvest
+      stage, and extraction/handling conditions.
   - key: carnosol_mg
     label: Carnosol
     value: 280
     unit: mg
     notes: Oxidation product/related diterpene often co-occurring with carnosic acid.
-    source_note: Same validated HPLC dataset reported carnosol around 1045-4470 ug/g fresh weight (~105-447 mg/100 g); 280 mg/100 g used as a representative midpoint estimate. Values vary strongly with cultivar and processing.
+    source_note: >-
+      Same validated HPLC dataset reported carnosol around 1045-4470 ug/g fresh
+      weight (~105-447 mg/100 g); 280 mg/100 g used as a representative midpoint
+      estimate. Values vary strongly with cultivar and processing.
 main_image: /img/foods/rosemary/rosemary_medium.webp
 legacy_list_image: /img/foods/rosemary/rosemary_thumb.webp
 legacy_main_image: /img/foods/rosemary/rosemary_medium.webp

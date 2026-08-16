@@ -10,33 +10,51 @@ tags:
   - Iron
 list_image: /img/foods/heart/heart_thumb.webp
 nutrition_per_100g:
-  kcal: 28
-  protein_g: 2.52
-  fat_g: 0.62
-  carbs_g: 4.62
-  fibre_g: 2.4
-  calcium_mg: 58
-  iron_mg: 3.13
-  magnesium_mg: 38
-  potassium_mg: 177
-  zinc_mg: 1.15
-  selenium_ug: 0.7
-  vitamin_b6_mg: 0.022
-  folate_ug: 39
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.13
-  ala_mg: 111
-  omega3_mg: 111
+  calcium_mg: 7
+  potassium_mg: 287
+  zinc_mg: 1.7
+  fat_g: 3.94
+  vitamin_b3_mg: 7.53
+  vitamin_b5_mg: 1.79
+  vitamin_b6_mg: 0.279
+  linoleic_g: 0.395
+  protein_g: 17.72
+  iron_mg: 4.31
+  magnesium_mg: 21
+  phosphorus_mg: 212
+  sodium_mg: 98
+  copper_mg: 0.396
+  manganese_mg: 0.035
+  sat_fat_g: 1.383
+  ala_mg: 11
+  lycopene_ug: 17
+  vitamin_c_mg: 2
+  vitamin_b1_mg: 0.238
+  vitamin_b2_mg: 0.906
+  vitamin_b12_ug: 8.55
+  selenium_ug: 21.8
+  vitamin_e_mg: 0.22
+  folate_ug: 3
+  carbs_g: 0.14
+  kcal: 112
+  omega3_mg: 11
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Hearts of palm, canned'
-  fdc_id: 168569
-  retrieval_method: API
+  food_name: 'Beef, variety meats and by-products, heart, raw'
+  fdc_id: 168625
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/heart/heart_medium.webp
 legacy_list_image: /img/foods/heart/heart_thumb.webp
 legacy_main_image: /img/foods/heart/heart_medium.webp
+nutrition_supplementary_sources:
+  - key: coq10_qual
+    label: CoQ10
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: Food-composition surveys report coenzyme Q10 in Heart (e.g. Mattila & Kumpulainen 2001); USDA SR Legacy does not include a CoQ10 field.
+protein_profile_note: Complete essential amino acid profile.
 ---
 ## Overview
 
@@ -70,6 +88,11 @@ Within the BRAIN Diet framework, heart can be used strategically when prioritisi
 ## Recipes
 
 <FoodRecipes tag="Heart" />
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of animal proteins.
+
 
 <NutritionTable details={frontMatter} />
 

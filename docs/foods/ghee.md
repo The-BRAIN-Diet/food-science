@@ -8,29 +8,56 @@ tags:
   - Ghee
   - Vegetarian
   - Vitamin A
-  - Vitamin D
   - Vitamin E
   - Vitamin K2
 list_image: /img/foods/ghee/ghee_thumb.webp
 nutrition_per_100g:
-  kcal: 900
-  protein_g: 0
-  fat_g: 100
-  carbs_g: 0
-  fibre_g: 0
-  calcium_mg: 0
-  iron_mg: 0
-  sat_fat_g: 60
+  vitamin_e_mg: 2.8
+  vitamin_a_rae_ug: 840
+  kcal: 876
+  calcium_mg: 4
+  potassium_mg: 5
+  zinc_mg: 0.01
+  fat_g: 99.48
+  caproic_g: 1.91
+  capric_g: 2.495
+  linoleic_g: 2.247
+  vitamin_b3_mg: 0.003
+  vitamin_b5_mg: 0.01
+  vitamin_b6_mg: 0.001
+  sat_fat_g: 61.924
+  caprylic_g: 1.112
+  vitamin_b1_mg: 0.001
+  vitamin_b2_mg: 0.005
+  vitamin_b12_ug: 0.01
+  ala_mg: 10
+  protein_g: 0.28
+  phosphorus_mg: 3
+  sodium_mg: 2
+  copper_mg: 0.001
+  beta_carotene_ug: 193
+  vitamin_k_ug: 8.6
+  choline_mg: 22.3
+  omega3_mg: 10
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Butter, Clarified butter (ghee)'
-  fdc_id: 171314
-  retrieval_method: API
+  food_name: 'Butter oil, anhydrous'
+  fdc_id: 173412
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/ghee/ghee_medium.webp
 legacy_list_image: /img/foods/ghee/ghee_thumb.webp
 legacy_main_image: /img/foods/ghee/ghee_medium.webp
+nutrition_supplementary_sources:
+  - key: vitamin_k2_qual
+    label: Vitamin K2
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Ghee is a documented dietary source of menaquinones (vitamin K2). USDA SR
+      Legacy reports phylloquinone (vitamin K1), not K2, so K2 quantity is not
+      established here.
 ---
 ## Overview
 

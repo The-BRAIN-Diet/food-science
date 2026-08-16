@@ -2,13 +2,14 @@
 id: lions-mane-mushroom
 title: Lion's Mane Mushroom
 sidebar_label: Lion's Mane Mushroom
-description: Medicinal mushroom with bioactive compounds that may support nerve health and neuroprotective pathways
+description: >-
+  Medicinal mushroom with bioactive compounds that may support nerve health and
+  neuroprotective pathways
 tags:
   - Food
   - Lion's Mane Mushroom
   - Vegan
   - Vegetarian
-  - Mushrooms
   - Vitamin B3
   - Polysaccharides
 list_image: /img/foods/lions-mane-mushroom/lions-mane-mushroom_thumb.webp
@@ -38,6 +39,22 @@ nutrition_source:
 main_image: /img/foods/lions-mane-mushroom/lions-mane-mushroom_medium.webp
 legacy_list_image: /img/foods/lions-mane-mushroom/lions-mane-mushroom_thumb.webp
 legacy_main_image: /img/foods/lions-mane-mushroom/lions-mane-mushroom_medium.webp
+nutrition_supplementary_sources:
+  - key: polysaccharides_qual
+    label: Polysaccharides
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Lion's Mane Mushroom is characterised by fungal polysaccharides; USDA SR
+      Legacy has no record for this mushroom, so quantity is not established.
+  - key: vitamin_b3_qual
+    label: Vitamin B3
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Lion's Mane Mushroom is grouped with culinary mushrooms as a
+      niacin-containing fungus; USDA SR Legacy has no record for this specialty
+      mushroom, so quantity is not established.
 ---
 ## Overview
 

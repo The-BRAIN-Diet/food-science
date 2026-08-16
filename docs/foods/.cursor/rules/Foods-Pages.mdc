@@ -6,7 +6,7 @@ alwaysApply: false
 ---
 
 - Tag each food page with "Food" and the food name (e.g. "Salmon", "Lentils") so it appears in index and recipe lists.
-- Tag with **intrinsic food compounds**: (1) key bioactives from the Overview (editorial, from literature) and (2) compounds present in the nutrition table (analytical, USDA/equivalent). The **Substances** section shows the **union** of these two sources. Use `<FoodSubstancesFromTable details={frontMatter} />` so both editorial (tags) and analytical (nutrition_per_100g, nutrition_supplementary_sources) are merged. Use `<FoodSubstances details={frontMatter} />` only for pages not yet on the nutrition layer.
+- Tag with **intrinsic food compounds** that have (or will immediately receive) a standard or extended nutrition-table row. Use `<FoodSubstancesFromTable details={frontMatter} />` so ontology cards appear only when a matching table row exists. Do not leave a substance as a card without a table row. Use `<FoodSubstances details={frontMatter} />` only for pages not yet on the nutrition layer.
 - **Do not tag with downstream metabolites** (e.g. SCFAs, butyrate, propionate, acetate, serotonin, GABA from precursors). These are mechanism truth—they may be described in prose as outcomes of the food but must not appear as food substances or BRS tags for that food.
 - In the front matter, list_image: /img/icons/ingredients.svg
 - The title of the page should be a tag that exactly matches the title.
@@ -15,10 +15,12 @@ alwaysApply: false
 
 ## Three truth-layer boundaries
 
+This is the separate **Intrinsic / Mechanism / Strategy** content-boundary model. It determines where a claim belongs. It does not determine whether an entity has passed Overview → table → Substances admission.
+
 - **Intrinsic food truth:** Only compounds present in the food may appear in Key Substances, nutrition table, substances list, and tags.
 - **Mechanism truth:** Downstream metabolites and effects (e.g. SCFAs from fibre fermentation) may appear only in Mechanisms, BRS prose, or Overview as outcomes—never as food substances or tags.
 - **Strategy truth:** Pairing and complementarity advice belong only in the EAA profile (Protein pairing strategy) or Preparation Notes/Recipes, not in Overview as substance-like content.
-- **Validation:** Fail or flag if a required EAA section is missing or if downstream metabolites are proposed as food substances. Run `npm run nutrition:validate` to check. After front matter updates, run `npm run nutrition:repair` to enforce corrections at scale (or `npm run nutrition:pipeline` to apply then repair).
+- **Validation:** Fail or flag if a required EAA section is missing or if downstream metabolites are proposed as food substances. Run `npm run nutrition:validate` to check. After front matter updates, run `npm run nutrition:repair` to enforce corrections at scale (or `npm run nutrition:pipeline` to apply then repair). `nutrition:pipeline` does not fetch or enrich.
 
 ## Required EAA section
 
@@ -58,13 +60,13 @@ Implementation notes:
 
 ## Three sources of truth
 
-Each food page has three layers that must stay aligned:
+Each food page has three layers that must stay aligned. These are the canonical **Three Sources of Truth** (`system/food-page-model.md`). Do not rename them as “standard compositional / extended analytical / biological-ontology.”
 
-1. **Overview** – Two concise paragraphs (90–160 words total). Paragraph 1 defines the food by category and nutritional identity and mentions 3–6 intrinsic compounds. Paragraph 2 explains the strongest evidence-backed physiological relevance in balanced, non-exaggerated language, with brief limitations only where needed. Use inline numeric citations [1], [2] and keep the prose editorial, not stitched notes.
-2. **Database nutrition table** – The quantitative layer. Populated from USDA FoodData Central (or other structured DBs). Use `<NutritionTable details={frontMatter} />`. Compounds with value > 0 become **analytical substances**.
-3. **Substances list** – Union of **editorial** (tags from Overview/literature) and **analytical** (nutrition table). Use `<FoodSubstancesFromTable details={frontMatter} />`; it merges both sources. Editorial ensures biologically defining compounds are present; analytical ensures accurate compositional coverage. Neither source alone is sufficient.
+1. **Overview** – Two concise paragraphs (90–160 words total). Paragraph 1 defines the food by category and nutritional identity and mentions 3–6 intrinsic compounds. Paragraph 2 explains the strongest evidence-backed physiological relevance in balanced, non-exaggerated language, with brief limitations only where needed. Use inline numeric citations [1], [2] and keep the prose editorial, not stitched notes. Headline compounds must resolve to a supported table row or be flagged for verification.
+2. **Database nutrition table** – Quantitative composition, primarily USDA / a named database, plus curated supplementary rows for compounds USDA does not capture. Use `<NutritionTable details={frontMatter} />`. Headings: **Core nutrients**, **Vitamins and minerals**, **Fatty acids and extended BRAIN-relevant substances**. Do not invent values from ontology, Overview prose, or a related food. If USDA’s default abbreviated panel omits a recognised nutrient, use a richer USDA record or a curated qualitative supplementary row (`Present — quantity not established`) with a food-specific source.
+3. **Substances list** – Structural ontology list via `<FoodSubstancesFromTable details={frontMatter} />`. Every tagged substance card must have a corresponding supported table row. Not every table row requires a card. Cards are not a substitute for table inclusion and are not BRS mappings.
 
-**Missing compound rule:** If the overview mentions a compound not in the database table, find a credible value (literature or specialist DB), add it via `nutrition_supplementary_sources`, and ensure it appears in the substances list. See `system/food-page-model.md`.
+**Missing compound rule:** If the Overview mentions a compound not in the database table, flag it for verification. Add a USDA/quantitative or curated supplementary row when defensible; then admit it to Substances. Unsupported mentions must be removed or qualified; they must not generate cards or canonical pages. See `system/food-page-model.md` and `system/food-nutrition-schema.md`.
 
 ## Overview specification
 

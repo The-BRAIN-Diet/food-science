@@ -14,19 +14,28 @@ tags:
   - Vegetarian
 list_image: /img/foods/coconut-oil/coconut-oil_thumb.webp
 nutrition_per_100g:
-  sat_fat_g: 92.86
-  kcal: 857
-  fibre_g: 0
-  protein_g: 0
-  carbs_g: 0
-  fat_g: 100
+  vitamin_k_ug: 0.6
+  linoleic_g: 1.676
+  ala_mg: 19
+  sat_fat_g: 82.475
+  caprylic_g: 6.802
+  iron_mg: 0.05
+  fat_g: 99.06
+  vitamin_e_mg: 0.11
+  kcal: 892
+  calcium_mg: 1
+  zinc_mg: 0.02
+  choline_mg: 0.3
+  caproic_g: 0.477
+  capric_g: 5.39
+  omega3_mg: 19
 nutrition_source:
   database: USDA FoodData Central
-  food_name: COCONUT OIL
-  fdc_id: 2431105
-  retrieval_method: API
+  food_name: 'Oil, coconut'
+  fdc_id: 171412
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/coconut-oil/coconut-oil_medium.webp
 legacy_list_image: /img/foods/coconut-oil/coconut-oil_thumb.webp
 legacy_main_image: /img/foods/coconut-oil/coconut-oil_medium.webp

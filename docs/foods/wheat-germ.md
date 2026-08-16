@@ -12,41 +12,58 @@ tags:
   - Vitamin E
 list_image: /img/foods/wheat-germ/wheat-germ_thumb.webp
 nutrition_per_100g:
-  kcal: 857.1
-  protein_g: 0
-  fat_g: 97.1
-  carbs_g: 0
-  fibre_g: 0
-  calcium_mg: 0
-  iron_mg: 0
-  magnesium_mg: 0
-  potassium_mg: 0
-  zinc_mg: 0
-  selenium_ug: 0
-  vitamin_b6_mg: 0
-  folate_ug: 0
-  choline_mg: 19.3
-  vitamin_b12_ug: 0
-  sat_fat_g: 18.6
-  epa_mg: 0
-  dha_mg: 0
-  ala_mg: 0
-  omega3_mg: 6700
-  vitamin_e_mg: 145
-  vitamin_k_ug: 24.3
+  sat_fat_g: 1.665
+  vitamin_b1_mg: 1.882
+  vitamin_b2_mg: 0.499
+  folate_ug: 281
+  ala_mg: 1477
+  protein_g: 23.15
+  fibre_g: 13.2
+  iron_mg: 6.26
+  magnesium_mg: 239
+  phosphorus_mg: 842
+  sodium_mg: 12
+  copper_mg: 0.796
+  manganese_mg: 13.301
+  fat_g: 9.72
+  carbs_g: 51.8
+  kcal: 360
+  calcium_mg: 39
+  potassium_mg: 892
+  zinc_mg: 12.29
+  vitamin_b3_mg: 6.813
+  vitamin_b5_mg: 2.257
+  vitamin_b6_mg: 1.3
+  linoleic_g: 5.287
+  selenium_ug: 79.2
+  omega3_mg: 1477
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Oil, wheat germ'
-  fdc_id: 171014
-  retrieval_method: API
+  food_name: 'Wheat germ, crude'
+  fdc_id: 168892
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
 main_image_source:
   url: 'https://www.hollandandbarrett.com/'
   label: Holland & Barrett
 legacy_list_image: /img/foods/wheat-germ/wheat-germ_thumb.webp
 legacy_main_image: /img/foods/wheat-germ/wheat-germ_medium.webp
+nutrition_supplementary_sources:
+  - key: vitamin_e_qual
+    label: Vitamin E
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: 'Wheat Germ is a recognised α-tocopherol food; the selected USDA SR Legacy record omits vitamin E, so quantity is not established from that panel.'
+  - key: choline_qual
+    label: Choline
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: 'Wheat Germ is a choline-containing food; the selected USDA SR Legacy record omits choline, so quantity is not established from that panel.'
+amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
+limiting_amino_acids: Lysine (typical of grains).
+complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
 ---
 ## Overview
 
@@ -79,6 +96,23 @@ In practical use, nutrient impact depends strongly on form (raw/toasted wheat ge
 ## Recipes
 
 <FoodRecipes tag="Wheat Germ" />
+
+### Essential Amino Acid Profile
+
+Wheat Germ provides a useful plant protein source but is not a complete protein.
+
+Notable amino acids:
+
+- Methionine (relatively higher than in legumes)
+
+Limiting amino acids:
+
+- Lysine (typical of grains)
+
+Protein pairing strategy:
+
+Grains such as wheat germ are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
+
 
 <NutritionTable details={frontMatter} />
 

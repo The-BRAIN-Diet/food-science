@@ -12,32 +12,29 @@ tags:
   - Polyphenol
 list_image: /img/foods/black-tea/black-tea_thumb.webp
 nutrition_per_100g:
-  kcal: 0
-  protein_g: 0
-  fat_g: 0
-  carbs_g: 0
-  fibre_g: 0
-  calcium_mg: 0
-  iron_mg: 0
-  magnesium_mg: 0
-  potassium_mg: 0
-  zinc_mg: 0
-  selenium_ug: 0
-  vitamin_b6_mg: 0
-  folate_ug: 0
-  choline_mg: 0
-  vitamin_b12_ug: 0
-  sat_fat_g: 0
-  epa_mg: 0
-  dha_mg: 0
-  omega3_mg: 0
+  linoleic_g: 0.001
+  choline_mg: 0.4
+  iron_mg: 0.02
+  magnesium_mg: 3
+  phosphorus_mg: 1
+  sodium_mg: 3
+  copper_mg: 0.01
+  manganese_mg: 0.219
+  sat_fat_g: 0.002
+  vitamin_b2_mg: 0.014
+  folate_ug: 5
+  carbs_g: 0.3
+  kcal: 1
+  potassium_mg: 37
+  zinc_mg: 0.02
+  vitamin_b5_mg: 0.011
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Beverages, tea, black, ready to drink'
-  fdc_id: 174144
-  retrieval_method: API
+  food_name: 'Beverages, tea, black, brewed, prepared with tap water'
+  fdc_id: 173227
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/black-tea/black-tea_medium.webp
 legacy_list_image: /img/foods/black-tea/black-tea_thumb.webp
 legacy_main_image: /img/foods/black-tea/black-tea_medium.webp

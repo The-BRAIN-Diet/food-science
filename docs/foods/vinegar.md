@@ -8,28 +8,28 @@ tags:
   - Vinegar
   - Vegan
   - Vegetarian
-  - Condiments
 list_image: /img/foods/vinegar/vinegar_thumb.webp
 nutrition_per_100g:
-  kcal: 88
-  protein_g: 0.49
-  fat_g: 0
-  carbs_g: 17.03
-  ala_mg: 0
-  calcium_mg: 27
-  iron_mg: 0.72
-  magnesium_mg: 12
-  potassium_mg: 112
-  zinc_mg: 0.08
-  sat_fat_g: 0
-  omega3_mg: 0
+  zinc_mg: 0.04
+  copper_mg: 0.008
+  manganese_mg: 0.249
+  magnesium_mg: 5
+  phosphorus_mg: 8
+  carbs_g: 0.93
+  kcal: 21
+  sugar_g: 0.4
+  calcium_mg: 7
+  potassium_mg: 73
+  sodium_mg: 5
+  iron_mg: 0.2
+  selenium_ug: 0.1
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Vinegar, balsamic'
-  fdc_id: 172241
-  retrieval_method: API
+  food_name: 'Vinegar, cider'
+  fdc_id: 173469
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/vinegar/vinegar_medium.webp
 legacy_list_image: /img/foods/vinegar/vinegar_thumb.webp
 legacy_main_image: /img/foods/vinegar/vinegar_medium.webp

@@ -13,36 +13,59 @@ tags:
   - Magnesium
 list_image: /img/foods/seaweed/seaweed_thumb.webp
 nutrition_per_100g:
-  kcal: 306
-  protein_g: 6.21
-  fat_g: 0.3
-  carbs_g: 80.88
-  fibre_g: 7.7
-  calcium_mg: 625
-  iron_mg: 21.4
-  magnesium_mg: 770
-  potassium_mg: 1125
-  zinc_mg: 5.8
-  selenium_ug: 7.4
-  vitamin_b6_mg: 0.303
-  folate_ug: 580
-  choline_mg: 63.3
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.061
-  epa_mg: 87
-  dha_mg: 0
-  omega3_mg: 87
+  vitamin_e_mg: 0.87
+  carbs_g: 9.57
+  sugar_g: 0.6
+  beta_carotene_ug: 70
+  vitamin_k_ug: 66
+  vitamin_a_rae_ug: 6
+  choline_mg: 12.8
+  kcal: 43
+  vitamin_c_mg: 3
+  ala_mg: 122
+  fibre_g: 1.3
+  iron_mg: 2.85
+  magnesium_mg: 121
+  phosphorus_mg: 42
+  sodium_mg: 233
+  copper_mg: 0.13
+  manganese_mg: 0.2
+  protein_g: 1.68
+  sat_fat_g: 0.247
+  vitamin_b1_mg: 0.05
+  vitamin_b2_mg: 0.15
+  folate_ug: 180
+  epa_mg: 4
+  linoleic_g: 0.02
+  fat_g: 0.56
+  vitamin_b3_mg: 0.47
+  vitamin_b5_mg: 0.642
+  vitamin_b6_mg: 0.002
+  calcium_mg: 168
+  potassium_mg: 89
+  zinc_mg: 1.23
+  selenium_ug: 0.7
+  omega3_mg: 126
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Seaweed, agar, dried'
-  fdc_id: 170090
-  retrieval_method: API
+  food_name: 'Seaweed, kelp, raw'
+  fdc_id: 168457
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/seaweed/seaweed_medium.webp
 legacy_list_image: /img/foods/seaweed/seaweed_thumb.webp
 legacy_main_image: /img/foods/seaweed/seaweed_medium.webp
+nutrition_supplementary_sources:
+  - key: iodine_qual
+    label: Iodine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Seaweed is used as a dietary iodine source; iodine is often absent from
+      USDA SR Legacy nutrient panels, so quantity is not established for this
+      page.
 ---
 ## Overview
 

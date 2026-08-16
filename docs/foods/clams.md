@@ -12,35 +12,53 @@ tags:
 list_image: /img/foods/clams/clams_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
-  kcal: 48
-  protein_g: 0.6
-  fat_g: 0.2
-  carbs_g: 10.95
-  fibre_g: 0.4
-  calcium_mg: 8
-  iron_mg: 0.15
-  magnesium_mg: 5
-  potassium_mg: 89
-  zinc_mg: 0.08
-  selenium_ug: 0.4
-  vitamin_b6_mg: 0.061
-  folate_ug: 8
-  vitamin_b12_ug: 0.03
-  sat_fat_g: 0
-  epa_mg: 0
-  dha_mg: 0
-  ala_mg: 11
-  omega3_mg: 11
+  choline_mg: 65
+  linoleic_g: 0.027
+  calcium_mg: 39
+  potassium_mg: 46
+  zinc_mg: 0.51
+  selenium_ug: 30.6
+  vitamin_e_mg: 0.68
+  fat_g: 0.96
+  carbs_g: 3.57
+  kcal: 86
+  vitamin_b3_mg: 0.35
+  vitamin_b5_mg: 0.148
+  vitamin_b6_mg: 0.01
+  vitamin_b1_mg: 0.015
+  vitamin_b2_mg: 0.04
+  folate_ug: 5
+  vitamin_b12_ug: 11.28
+  vitamin_k_ug: 0.2
+  ala_mg: 15
+  sat_fat_g: 0.187
+  dha_mg: 64
+  epa_mg: 43
+  protein_g: 14.67
+  iron_mg: 1.62
+  magnesium_mg: 19
+  phosphorus_mg: 198
+  sodium_mg: 601
+  copper_mg: 0.053
+  manganese_mg: 0.085
+  vitamin_a_rae_ug: 90
+  omega3_mg: 122
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Beverages, Clam and tomato juice, canned'
-  fdc_id: 171882
-  retrieval_method: API
+  food_name: 'Mollusks, clam, mixed species, raw'
+  fdc_id: 174214
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/clams/clams_medium.webp
 legacy_list_image: /img/foods/clams/clams_thumb.webp
 legacy_main_image: /img/foods/clams/clams_medium.webp
+nutrition_supplementary_sources:
+  - key: taurine_qual
+    label: Taurine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: Taurine is a characteristic free amino sulfonic acid in Clams; USDA SR Legacy does not include a taurine field.
 ---
 ## Overview
 
@@ -72,6 +90,11 @@ Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense s
 ## Recipes
 
 <FoodRecipes tag="Clams" />
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of animal proteins.
+
 
 <NutritionTable details={frontMatter} />
 

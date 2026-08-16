@@ -12,35 +12,50 @@ tags:
   - Vitamin B12
   - Selenium
 list_image: /img/foods/turkey/turkey_thumb.webp
-protein_profile_note: Complete essential amino acid profile; notably high in tryptophan (serotonin precursor).
+protein_profile_note: >-
+  Complete essential amino acid profile; notably high in tryptophan (serotonin
+  precursor).
 nutrition_per_100g:
-  kcal: 147
-  protein_g: 30.13
-  fat_g: 2.08
-  carbs_g: 0
-  fibre_g: 0
-  calcium_mg: 9
-  iron_mg: 0.71
-  magnesium_mg: 32
-  potassium_mg: 249
-  zinc_mg: 1.72
-  selenium_ug: 30.2
-  vitamin_b6_mg: 0.807
-  folate_ug: 9
-  choline_mg: 84.4
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.593
-  ala_mg: 1458
-  epa_mg: 4
-  dha_mg: 4
-  omega3_mg: 1466
+  kcal: 115
+  carbs_g: 0.14
+  tryptophan_g: 0.241
+  ala_mg: 5
+  sat_fat_g: 0.459
+  dha_mg: 2
+  linoleic_g: 0.111
+  protein_g: 22.64
+  iron_mg: 0.86
+  magnesium_mg: 27
+  phosphorus_mg: 190
+  sodium_mg: 118
+  copper_mg: 0.079
+  manganese_mg: 0.012
+  vitamin_a_rae_ug: 9
+  vitamin_d_ug: 0.2
+  vitamin_b1_mg: 0.05
+  vitamin_b2_mg: 0.192
+  folate_ug: 7
+  vitamin_b12_ug: 1.24
+  sugar_g: 0.07
+  calcium_mg: 11
+  potassium_mg: 235
+  zinc_mg: 1.84
+  selenium_ug: 22.6
+  vitamin_e_mg: 0.09
+  vitamin_b3_mg: 8.1
+  vitamin_b5_mg: 0.844
+  vitamin_b6_mg: 0.652
+  choline_mg: 60.2
+  capric_g: 0.003
+  fat_g: 1.93
+  omega3_mg: 7
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Turkey, whole, breast, meat only, cooked, roasted'
-  fdc_id: 171496
-  retrieval_method: API
+  food_name: 'Turkey, whole, meat only, raw'
+  fdc_id: 171480
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/turkey/turkey_medium.webp
 legacy_list_image: /img/foods/turkey/turkey_thumb.webp
 legacy_main_image: /img/foods/turkey/turkey_medium.webp

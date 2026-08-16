@@ -2,41 +2,65 @@
 id: maitake-mushroom
 title: Maitake Mushroom
 sidebar_label: Maitake Mushroom
-description: 'Medicinal mushroom rich in beta-glucans, particularly D-fraction, supporting immune function'
+description: >-
+  Medicinal mushroom rich in beta-glucans, particularly D-fraction, supporting
+  immune function
 tags:
   - Food
   - Maitake Mushroom
   - Vegan
   - Vegetarian
-  - Mushrooms
   - Vitamin B3
   - Beta-Glucans
 list_image: /img/foods/maitake-mushroom/maitake-mushroom_thumb.webp
 nutrition_per_100g:
-  kcal: 30.9734625
-  protein_g: 2.203125
-  fat_g: 0.265
-  carbs_g: 6.604375
-  fibre_g: 3.071
-  calcium_mg: 0
-  iron_mg: 0.2089
-  magnesium_mg: 11.04
-  potassium_mg: 260
-  zinc_mg: 0.7629
-  selenium_ug: 3.269
-  vitamin_b6_mg: 0.071
-  ala_mg: 1616
-  omega3_mg: 1616
+  vitamin_b5_mg: 0.27
+  linoleic_g: 0.09
+  sugar_g: 2.07
+  zinc_mg: 0.75
+  vitamin_e_mg: 0.01
+  sat_fat_g: 0.03
+  magnesium_mg: 10
+  phosphorus_mg: 74
+  manganese_mg: 0.059
+  folate_ug: 21
+  ala_mg: 124
+  choline_mg: 51.1
+  protein_g: 1.94
+  fibre_g: 2.7
+  iron_mg: 0.3
+  sodium_mg: 1
+  copper_mg: 0.252
+  vitamin_b1_mg: 0.146
+  vitamin_b2_mg: 0.242
+  vitamin_b3_mg: 6.585
+  selenium_ug: 2.2
+  fat_g: 0.19
+  calcium_mg: 1
+  potassium_mg: 204
+  vitamin_b6_mg: 0.056
+  vitamin_d_ug: 28.1
+  carbs_g: 6.97
+  kcal: 31
+  omega3_mg: 124
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Mushroom, maitake'
-  fdc_id: 2003602
-  retrieval_method: API
+  food_name: 'Mushrooms, maitake, raw'
+  fdc_id: 169403
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/maitake-mushroom/maitake-mushroom_medium.webp
 legacy_list_image: /img/foods/maitake-mushroom/maitake-mushroom_thumb.webp
 legacy_main_image: /img/foods/maitake-mushroom/maitake-mushroom_medium.webp
+nutrition_supplementary_sources:
+  - key: beta_glucans_qual
+    label: Beta-Glucans
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Maitake Mushroom cell walls contain β-glucans; USDA SR Legacy mushroom
+      records do not quantify β-glucans.
 ---
 ## Overview
 

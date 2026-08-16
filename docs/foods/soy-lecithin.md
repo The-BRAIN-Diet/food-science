@@ -12,31 +12,34 @@ tags:
   - Phosphatidylcholine
 list_image: /img/foods/soy-lecithin/soy-lecithin_thumb.webp
 nutrition_per_100g:
-  kcal: 366
-  protein_g: 51.1
-  fat_g: 3.33
-  carbs_g: 32.9
-  calcium_mg: 338
-  iron_mg: 7.34
-  magnesium_mg: 313
-  potassium_mg: 2480
-  zinc_mg: 4.44
-  selenium_ug: 45.8
-  vitamin_b6_mg: 0.618
-  ala_mg: 2860
-  omega3_mg: 2860
+  vitamin_e_mg: 8.18
+  vitamin_k_ug: 183.9
+  sat_fat_g: 15.005
+  fat_g: 100
+  kcal: 763
+  linoleic_g: 40.182
+  choline_mg: 350
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Flour, soy, defatted'
-  fdc_id: 1104705
-  retrieval_method: API
+  food_name: 'Oil, soybean lecithin'
+  fdc_id: 171426
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
 main_image: /img/foods/soy-lecithin/soy-lecithin_medium.webp
 legacy_list_image: /img/foods/soy-lecithin/soy-lecithin_thumb.webp
 legacy_main_image: /img/foods/soy-lecithin/soy-lecithin_medium.webp
+nutrition_supplementary_sources:
+  - key: phosphatidylcholine_qual
+    label: Phosphatidylcholine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Soy Lecithin is a phospholipid-rich food in which phosphatidylcholine is a
+      major choline form; USDA SR Legacy reports choline, not
+      phosphatidylcholine specifically.
 ---
 ## Overview
 

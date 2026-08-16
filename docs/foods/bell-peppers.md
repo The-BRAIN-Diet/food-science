@@ -14,26 +14,46 @@ tags:
   - Carotenoid
 list_image: /img/foods/bell-peppers/bell-peppers_thumb.webp
 nutrition_per_100g:
-  kcal: 19.692148
-  protein_g: 0.715
-  fat_g: 0.1063
-  carbs_g: 4.7781
-  fibre_g: 0.9419
-  calcium_mg: 7.496
-  iron_mg: 0.1861
-  magnesium_mg: 9.004
-  potassium_mg: 163.1
-  zinc_mg: 0.1256
-  selenium_ug: 0
-  vitamin_b6_mg: 0.2468
-  folate_ug: 22.21
+  fibre_g: 2.1
+  folate_ug: 46
+  kcal: 26
+  linoleic_g: 0.1
+  sat_fat_g: 0.059
+  beta_carotene_ug: 1624
+  ala_mg: 26
+  vitamin_c_mg: 127.7
+  choline_mg: 5.6
+  sodium_mg: 4
+  vitamin_a_rae_ug: 157
+  sugar_g: 4.2
+  lutein_zeaxanthin_ug: 51
+  carbs_g: 6.03
+  vitamin_k_ug: 4.9
+  manganese_mg: 0.112
+  vitamin_e_mg: 1.58
+  vitamin_b5_mg: 0.317
+  copper_mg: 0.017
+  iron_mg: 0.43
+  magnesium_mg: 12
+  phosphorus_mg: 26
+  protein_g: 0.99
+  vitamin_b1_mg: 0.054
+  vitamin_b2_mg: 0.085
+  calcium_mg: 7
+  potassium_mg: 211
+  zinc_mg: 0.25
+  selenium_ug: 0.1
+  vitamin_b3_mg: 0.979
+  vitamin_b6_mg: 0.291
+  fat_g: 0.3
+  omega3_mg: 26
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Peppers, bell, green, raw'
-  fdc_id: 2258588
-  retrieval_method: API
+  food_name: 'Peppers, sweet, red, raw'
+  fdc_id: 170108
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/bell-peppers/bell-peppers_medium.webp
 legacy_list_image: /img/foods/bell-peppers/bell-peppers_thumb.webp
 legacy_main_image: /img/foods/bell-peppers/bell-peppers_medium.webp

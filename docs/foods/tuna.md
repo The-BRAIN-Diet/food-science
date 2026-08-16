@@ -14,28 +14,55 @@ tags:
   - Creatine
 list_image: /img/foods/tuna/tuna_thumb.webp
 nutrition_per_100g:
-  kcal: 101.8695
-  protein_g: 24.7
-  fat_g: 0.3875
-  carbs_g: -0.1045
-  calcium_mg: 3.193
-  iron_mg: 0.5914
-  magnesium_mg: 35.48
-  potassium_mg: 420.2
-  zinc_mg: 0.3524
-  selenium_ug: 76.52
-  vitamin_b12_ug: 1.374
+  vitamin_e_mg: 1
+  vitamin_a_rae_ug: 655
+  vitamin_d_ug: 5.7
+  choline_mg: 65
+  fat_g: 4.9
+  kcal: 144
+  calcium_mg: 8
+  potassium_mg: 252
+  zinc_mg: 0.6
+  vitamin_b3_mg: 8.654
+  vitamin_b5_mg: 1.054
+  vitamin_b6_mg: 0.455
+  linoleic_g: 0.053
+  protein_g: 23.33
+  iron_mg: 1.02
+  magnesium_mg: 50
+  phosphorus_mg: 254
+  sodium_mg: 39
+  copper_mg: 0.086
+  manganese_mg: 0.015
+  vitamin_b1_mg: 0.241
+  vitamin_b2_mg: 0.251
+  folate_ug: 2
+  vitamin_b12_ug: 9.43
+  ala_mg: 1411
+  sat_fat_g: 1.257
+  dha_mg: 890
+  epa_mg: 283
+  selenium_ug: 36.5
+  omega3_mg: 2584
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Tuna, ahi or yellowfin, frozen, wild caught'
-  fdc_id: 2747673
-  retrieval_method: API
+  food_name: 'Fish, tuna, fresh, bluefin, raw'
+  fdc_id: 173706
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/tuna/tuna_medium.webp
 legacy_list_image: /img/foods/tuna/tuna_thumb.webp
 legacy_main_image: /img/foods/tuna/tuna_medium.webp
+nutrition_supplementary_sources:
+  - key: creatine_qual
+    label: Creatine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Creatine occurs in Tuna muscle/organ tissue; USDA SR Legacy does not
+      report creatine.
 ---
 ## Overview
 

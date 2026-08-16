@@ -11,28 +11,47 @@ tags:
   - Magnesium
 list_image: /img/foods/buckwheat/buckwheat_thumb.webp
 nutrition_per_100g:
-  kcal: 334.3016028
-  protein_g: 8.88492
-  fat_g: 2.484
-  carbs_g: 75.01808
-  fibre_g: 10.35
-  calcium_mg: 30.55
-  iron_mg: 3.84
-  magnesium_mg: 167.4
-  potassium_mg: 378.1
-  zinc_mg: 1.755
-  selenium_ug: 15.7
-  vitamin_b6_mg: 0.1699
+  fat_g: 3.4
+  carbs_g: 71.5
+  kcal: 343
+  calcium_mg: 18
+  potassium_mg: 460
+  zinc_mg: 2.4
+  vitamin_b3_mg: 7.02
+  vitamin_b5_mg: 1.233
+  vitamin_b6_mg: 0.21
+  capric_g: 0.018
+  linoleic_g: 0.961
+  fibre_g: 10
+  iron_mg: 2.2
+  magnesium_mg: 231
+  phosphorus_mg: 347
+  sodium_mg: 1
+  copper_mg: 1.1
+  manganese_mg: 1.3
+  protein_g: 13.25
+  sat_fat_g: 0.741
+  caprylic_g: 0.035
+  vitamin_b1_mg: 0.101
+  vitamin_b2_mg: 0.425
+  folate_ug: 30
+  ala_mg: 748
+  selenium_ug: 8.3
+  omega3_mg: 748
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Flour, buckwheat'
-  fdc_id: 2512374
-  retrieval_method: API
+  food_name: Buckwheat
+  fdc_id: 170286
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
-amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
+  last_checked: '2026-08-15'
+amino_acid_strengths: >-
+  Relatively higher in methionine than legumes; lysine-limited like other
+  grains.
 limiting_amino_acids: Lysine (typical of grains).
-complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+complementary_pairings: >-
+  Lentils, chickpeas, or other legumes for complete essential amino acid
+  profile.
 main_image: /img/foods/buckwheat/buckwheat_medium.webp
 legacy_list_image: /img/foods/buckwheat/buckwheat_thumb.webp
 legacy_main_image: /img/foods/buckwheat/buckwheat_medium.webp

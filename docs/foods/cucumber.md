@@ -8,25 +8,49 @@ tags:
   - Cucumber
   - Vegan
   - Vegetarian
-  - Vitamin K2
+  - Vitamin K
 list_image: /img/foods/cucumber/cucumber_thumb.webp
 nutrition_per_100g:
-  kcal: 13.934925
-  protein_g: 0.625
-  fat_g: 0.1775
-  carbs_g: 2.9525
-  calcium_mg: 16.34
-  iron_mg: 0
-  magnesium_mg: 10.11
-  potassium_mg: 169.6
-  zinc_mg: 0.204
+  carbs_g: 3.63
+  kcal: 15
+  choline_mg: 6
+  sugar_g: 1.67
+  linoleic_g: 0.028
+  vitamin_a_rae_ug: 5
+  sat_fat_g: 0.037
+  sodium_mg: 2
+  ala_mg: 24
+  calcium_mg: 16
+  potassium_mg: 147
+  zinc_mg: 0.2
+  fat_g: 0.11
+  selenium_ug: 0.3
+  vitamin_e_mg: 0.03
+  lutein_zeaxanthin_ug: 23
+  vitamin_b3_mg: 0.098
+  vitamin_b5_mg: 0.259
+  vitamin_b6_mg: 0.04
+  vitamin_k_ug: 16.4
+  vitamin_c_mg: 2.8
+  vitamin_b1_mg: 0.027
+  vitamin_b2_mg: 0.033
+  folate_ug: 7
+  copper_mg: 0.041
+  manganese_mg: 0.079
+  beta_carotene_ug: 45
+  fibre_g: 0.5
+  iron_mg: 0.28
+  magnesium_mg: 13
+  phosphorus_mg: 24
+  protein_g: 0.65
+  omega3_mg: 24
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Cucumber, with peel, raw'
-  fdc_id: 2346406
-  retrieval_method: API
+  fdc_id: 168409
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/cucumber/cucumber_medium.webp
 legacy_list_image: /img/foods/cucumber/cucumber_thumb.webp
 legacy_main_image: /img/foods/cucumber/cucumber_medium.webp

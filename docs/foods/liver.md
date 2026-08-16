@@ -15,36 +15,64 @@ tags:
   - Creatine
 list_image: /img/foods/liver/liver_thumb.webp
 nutrition_per_100g:
-  kcal: 133
-  protein_g: 16.37
-  fat_g: 4.28
-  carbs_g: 6.32
-  fibre_g: 0
-  calcium_mg: 43
-  iron_mg: 30.53
-  magnesium_mg: 24
-  potassium_mg: 230
-  zinc_mg: 3.07
-  selenium_ug: 68.1
-  vitamin_b6_mg: 0.76
-  folate_ug: 738
-  vitamin_b12_ug: 54
-  sat_fat_g: 1.59
-  epa_mg: 0
-  dha_mg: 0
-  ala_mg: 951
-  omega3_mg: 951
+  vitamin_a_rae_ug: 4968
+  vitamin_c_mg: 1.3
+  ala_mg: 7
+  calcium_mg: 5
+  potassium_mg: 313
+  zinc_mg: 4
+  selenium_ug: 39.7
+  vitamin_e_mg: 0.38
+  vitamin_b3_mg: 13.175
+  vitamin_b5_mg: 7.173
+  vitamin_b6_mg: 1.083
+  fat_g: 3.63
+  linoleic_g: 0.299
+  vitamin_b1_mg: 0.189
+  vitamin_b2_mg: 2.755
+  folate_ug: 290
+  vitamin_b12_ug: 59.3
+  vitamin_k_ug: 3.1
+  beta_carotene_ug: 232
+  protein_g: 20.36
+  iron_mg: 4.9
+  magnesium_mg: 18
+  phosphorus_mg: 387
+  sodium_mg: 69
+  copper_mg: 9.755
+  manganese_mg: 0.31
+  vitamin_d_ug: 1.2
+  carbs_g: 3.89
+  kcal: 135
+  choline_mg: 333.3
+  sat_fat_g: 1.233
+  omega3_mg: 7
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Goose, liver, raw'
-  fdc_id: 172415
-  retrieval_method: API
+  food_name: 'Beef, variety meats and by-products, liver, raw'
+  fdc_id: 169451
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/liver/liver_medium.webp
 legacy_list_image: /img/foods/liver/liver_thumb.webp
 legacy_main_image: /img/foods/liver/liver_medium.webp
+nutrition_supplementary_sources:
+  - key: coq10_qual
+    label: CoQ10
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Food-composition surveys report coenzyme Q10 in Liver (e.g. Mattila &
+      Kumpulainen 2001); USDA SR Legacy does not include a CoQ10 field.
+  - key: creatine_qual
+    label: Creatine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Creatine occurs in Liver muscle/organ tissue; USDA SR Legacy does not
+      report creatine.
 ---
 ## Overview
 

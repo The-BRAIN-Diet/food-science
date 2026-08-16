@@ -2,34 +2,59 @@
 id: bananas
 title: Bananas
 sidebar_label: Bananas
-description: B6 and tryptophan when ripe; resistant starch when green — ripeness changes functional role
+description: >-
+  B6 and tryptophan when ripe; resistant starch when green — ripeness changes
+  functional role
 tags:
   - Food
   - Bananas
   - Vegan
   - Vegetarian
   - Vitamin B6
-  - Tryptophan
   - Potassium
 list_image: /img/foods/bananas/bananas_thumb.webp
 nutrition_per_100g:
-  kcal: 85
-  protein_g: 0.73
-  fat_g: 0.22
-  carbs_g: 20.1
-  fibre_g: 1.7
-  sugar_g: 15.8
-  ala_mg: 0
-  vitamin_b6_mg: 0.234
-  folate_ug: 25
-  omega3_mg: 0
+  sat_fat_g: 0.112
+  vitamin_a_rae_ug: 3
+  choline_mg: 9.8
+  capric_g: 0.001
+  linoleic_g: 0.046
+  carbs_g: 22.84
+  kcal: 89
+  vitamin_k_ug: 0.5
+  vitamin_c_mg: 8.7
+  vitamin_b1_mg: 0.031
+  vitamin_b2_mg: 0.073
+  folate_ug: 20
+  ala_mg: 40
+  beta_carotene_ug: 26
+  fibre_g: 2.6
+  iron_mg: 0.26
+  magnesium_mg: 27
+  phosphorus_mg: 22
+  sodium_mg: 1
+  copper_mg: 0.078
+  manganese_mg: 0.27
+  protein_g: 1.09
+  sugar_g: 12.23
+  calcium_mg: 5
+  potassium_mg: 358
+  zinc_mg: 0.15
+  fat_g: 0.33
+  lutein_zeaxanthin_ug: 22
+  vitamin_b3_mg: 0.665
+  vitamin_b5_mg: 0.334
+  vitamin_b6_mg: 0.367
+  selenium_ug: 1
+  vitamin_e_mg: 0.1
+  omega3_mg: 40
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Bananas, overripe, raw'
-  fdc_id: 1105073
-  retrieval_method: API
+  food_name: 'Bananas, raw'
+  fdc_id: 173944
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/bananas/bananas_medium.webp
 legacy_list_image: /img/foods/bananas/bananas_thumb.webp
 legacy_main_image: /img/foods/bananas/bananas_medium.webp

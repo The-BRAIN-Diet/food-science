@@ -2,7 +2,9 @@
 id: mussels
 title: Mussels
 sidebar_label: Mussels
-description: Nutrient-dense bivalve providing phospholipid-bound omega-3s; accepted by some vegans (ostroveganism)
+description: >-
+  Nutrient-dense bivalve providing phospholipid-bound omega-3s; accepted by some
+  vegans (ostroveganism)
 tags:
   - Food
   - Mussels
@@ -10,44 +12,64 @@ tags:
   - Vitamin B12
   - Iron
   - Selenium
-  - Vitamin D
   - Omega-3 Fatty Acids
   - EPA
   - DHA
   - Phosphatidylcholine
 list_image: /img/foods/mussels/mussels_thumb.webp
 nutrition_per_100g:
-  kcal: 86
-  protein_g: 11.9
-  fat_g: 2.24
-  carbs_g: 3.69
-  fibre_g: 0
+  vitamin_k_ug: 0.1
+  vitamin_a_rae_ug: 48
+  choline_mg: 65
+  vitamin_e_mg: 0.55
+  vitamin_b3_mg: 1.6
+  vitamin_b5_mg: 0.5
+  vitamin_b6_mg: 0.05
   calcium_mg: 26
-  iron_mg: 3.95
-  magnesium_mg: 34
   potassium_mg: 320
   zinc_mg: 1.6
-  selenium_ug: 44.8
-  vitamin_b6_mg: 0.05
-  folate_ug: 42
-  choline_mg: 65
-  vitamin_b12_ug: 0
+  fat_g: 2.24
+  carbs_g: 3.69
+  kcal: 86
+  linoleic_g: 0.018
   sat_fat_g: 0.425
-  epa_mg: 188
-  dha_mg: 253
+  iron_mg: 3.95
+  magnesium_mg: 34
+  phosphorus_mg: 197
+  sodium_mg: 286
+  copper_mg: 0.094
+  manganese_mg: 3.4
+  vitamin_c_mg: 8
+  vitamin_b1_mg: 0.16
+  vitamin_b2_mg: 0.21
+  folate_ug: 42
+  vitamin_b12_ug: 12
   ala_mg: 720
+  dha_mg: 253
+  epa_mg: 188
+  protein_g: 11.9
+  selenium_ug: 44.8
   omega3_mg: 1161
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Mollusks, mussel, blue, raw'
   fdc_id: 174216
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/mussels/mussels_medium.webp
 legacy_list_image: /img/foods/mussels/mussels_thumb.webp
 legacy_main_image: /img/foods/mussels/mussels_medium.webp
+nutrition_supplementary_sources:
+  - key: phosphatidylcholine_qual
+    label: Phosphatidylcholine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Mussels is a phospholipid-rich food in which phosphatidylcholine is a
+      major choline form; USDA SR Legacy reports choline, not
+      phosphatidylcholine specifically.
 ---
 ## Overview
 

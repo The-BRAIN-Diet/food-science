@@ -16,28 +16,38 @@ tags:
   - Manganese
 list_image: /img/foods/chia-seeds/chia-seeds_thumb.webp
 nutrition_per_100g:
-  carbs_g: 42.9
-  sat_fat_g: 3.4
-  kcal: 492.9
-  potassium_mg: 412.9
-  fat_g: 31.1
-  iron_mg: 7.9
-  calcium_mg: 640
-  fibre_g: 35
-  protein_g: 16.8
-  magnesium_mg: 339.6
-  zinc_mg: 4.6
-  selenium_ug: 56.1
-  folate_ug: 49.6
+  protein_g: 16.54
+  fibre_g: 34.4
+  iron_mg: 7.72
+  magnesium_mg: 335
+  phosphorus_mg: 860
+  sodium_mg: 16
+  copper_mg: 0.924
+  manganese_mg: 2.723
+  vitamin_c_mg: 1.6
+  vitamin_b1_mg: 0.62
+  vitamin_b2_mg: 0.17
+  folate_ug: 49
+  ala_mg: 17830
+  linoleic_g: 5.835
+  sat_fat_g: 3.33
+  fat_g: 30.74
+  carbs_g: 42.12
+  kcal: 486
+  potassium_mg: 407
+  zinc_mg: 4.58
+  selenium_ug: 55.2
   vitamin_e_mg: 0.5
-  ala_mg: 18086
+  vitamin_b3_mg: 8.83
+  calcium_mg: 631
+  omega3_mg: 17830
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seeds, chia seeds, dried'
   fdc_id: 170554
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
 main_image: /img/foods/chia-seeds/chia-seeds_medium.webp

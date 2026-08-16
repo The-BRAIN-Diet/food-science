@@ -12,23 +12,46 @@ tags:
   - Vitamin B9
 list_image: /img/foods/cabbage/cabbage_thumb.webp
 nutrition_per_100g:
-  kcal: 27.8695
-  protein_g: 0.96125
-  fat_g: 0.2275
-  carbs_g: 6.38375
-  calcium_mg: 41.84
-  iron_mg: 0.06625
-  magnesium_mg: 13.86
-  potassium_mg: 207.1
-  zinc_mg: 0.2112
-  vitamin_b6_mg: 0.1384
+  fat_g: 0.1
+  carbs_g: 5.8
+  kcal: 25
+  lutein_zeaxanthin_ug: 30
+  vitamin_b3_mg: 0.234
+  vitamin_b5_mg: 0.212
+  vitamin_b6_mg: 0.124
+  choline_mg: 10.7
+  sugar_g: 3.2
+  calcium_mg: 40
+  potassium_mg: 170
+  zinc_mg: 0.18
+  selenium_ug: 0.3
+  vitamin_e_mg: 0.15
+  linoleic_g: 0.017
+  vitamin_c_mg: 36.6
+  vitamin_b1_mg: 0.061
+  vitamin_b2_mg: 0.04
+  vitamin_a_rae_ug: 5
+  beta_carotene_ug: 42
+  protein_g: 1.28
+  fibre_g: 2.5
+  iron_mg: 0.47
+  magnesium_mg: 12
+  phosphorus_mg: 26
+  sodium_mg: 18
+  copper_mg: 0.019
+  manganese_mg: 0.16
+  vitamin_k_ug: 76
+  ala_mg: 42
+  folate_ug: 43
+  sat_fat_g: 0.034
+  omega3_mg: 42
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Cabbage, green, raw'
-  fdc_id: 2346407
-  retrieval_method: API
+  food_name: 'Cabbage, raw'
+  fdc_id: 169975
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/cabbage/cabbage_medium.webp
 legacy_list_image: /img/foods/cabbage/cabbage_thumb.webp
 legacy_main_image: /img/foods/cabbage/cabbage_medium.webp

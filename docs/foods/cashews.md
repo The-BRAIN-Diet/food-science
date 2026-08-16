@@ -17,22 +17,45 @@ tags:
   - Iron
 list_image: /img/foods/cashews/cashews_thumb.webp
 nutrition_per_100g:
-  carbs_g: 29.73
-  kcal: 568
-  fibre_g: 2.7
-  sat_fat_g: 8.11
-  potassium_mg: 622
-  protein_g: 16.22
-  iron_mg: 5.41
-  calcium_mg: 43
-  fat_g: 45.95
+  vitamin_c_mg: 0.5
+  vitamin_b1_mg: 0.423
+  vitamin_b2_mg: 0.058
+  protein_g: 18.22
+  iron_mg: 6.68
+  magnesium_mg: 292
+  phosphorus_mg: 593
+  sodium_mg: 12
+  copper_mg: 2.195
+  manganese_mg: 1.655
+  vitamin_b6_mg: 0.417
+  calcium_mg: 37
+  potassium_mg: 660
+  zinc_mg: 5.78
+  vitamin_b3_mg: 1.062
+  caprylic_g: 0.015
+  fat_g: 43.85
+  carbs_g: 30.19
+  kcal: 553
+  capric_g: 0.015
+  linoleic_g: 7.782
+  sat_fat_g: 7.783
+  fibre_g: 3.3
+  folate_ug: 25
+  vitamin_k_ug: 34.1
+  ala_mg: 837
+  selenium_ug: 19.9
+  vitamin_e_mg: 0.9
+  sugar_g: 5.91
+  lutein_zeaxanthin_ug: 22
+  vitamin_b5_mg: 0.864
+  omega3_mg: 837
 nutrition_source:
   database: USDA FoodData Central
-  food_name: CASHEWS
-  fdc_id: 2404069
-  retrieval_method: API
+  food_name: 'Nuts, cashew nuts, raw'
+  fdc_id: 170162
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
 main_image: /img/foods/cashews/cashews_medium.webp

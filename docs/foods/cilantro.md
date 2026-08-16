@@ -11,32 +11,44 @@ tags:
   - Polyphenol
 list_image: /img/foods/cilantro/cilantro_thumb.webp
 nutrition_per_100g:
-  kcal: 23
+  lutein_zeaxanthin_ug: 865
+  linoleic_g: 0.04
+  copper_mg: 0.225
+  manganese_mg: 0.426
   protein_g: 2.13
-  fat_g: 0.52
+  vitamin_a_rae_ug: 337
+  folate_ug: 62
+  vitamin_b5_mg: 0.57
+  choline_mg: 12.8
   carbs_g: 3.67
-  fibre_g: 2.8
+  kcal: 23
   calcium_mg: 67
-  iron_mg: 1.77
-  magnesium_mg: 26
-  potassium_mg: 521
   zinc_mg: 0.5
   selenium_ug: 0.9
-  vitamin_b6_mg: 0.149
-  folate_ug: 62
-  choline_mg: 12.8
-  vitamin_b12_ug: 0
   sat_fat_g: 0.014
-  epa_mg: 0
-  dha_mg: 0
-  omega3_mg: 0
+  vitamin_c_mg: 27
+  beta_carotene_ug: 3930
+  fibre_g: 2.8
+  iron_mg: 1.77
+  magnesium_mg: 26
+  phosphorus_mg: 48
+  sodium_mg: 46
+  vitamin_b1_mg: 0.067
+  vitamin_b2_mg: 0.162
+  vitamin_b6_mg: 0.149
+  vitamin_b3_mg: 1.114
+  potassium_mg: 521
+  fat_g: 0.52
+  vitamin_k_ug: 310
+  vitamin_e_mg: 2.5
+  sugar_g: 0.87
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Coriander (cilantro) leaves, raw'
   fdc_id: 169997
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/cilantro/cilantro_medium.webp
 legacy_list_image: /img/foods/cilantro/cilantro_thumb.webp
 legacy_main_image: /img/foods/cilantro/cilantro_medium.webp

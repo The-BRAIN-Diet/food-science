@@ -27,6 +27,15 @@ nutrition_source:
 main_image: /img/foods/mct-oil/mct-oil_medium.webp
 legacy_list_image: /img/foods/mct-oil/mct-oil_thumb.webp
 legacy_main_image: /img/foods/mct-oil/mct-oil_medium.webp
+nutrition_supplementary_sources:
+  - key: mct_qual
+    label: MCT
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      MCT Oil is a medium-chain triglyceride source. Individual 6:0/8:0/10:0
+      acids are used when USDA reports them; otherwise presence of the MCT class
+      is recorded without a single summed value.
 ---
 ## Overview
 

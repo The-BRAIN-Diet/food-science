@@ -10,29 +10,50 @@ tags:
   - Vegetarian
 list_image: /img/foods/spelt/spelt_thumb.webp
 nutrition_per_100g:
-  kcal: 340.5831
-  protein_g: 14.475
-  fat_g: 2.543
-  carbs_g: 70.723
-  fibre_g: 9.339
-  calcium_mg: 30.04
-  iron_mg: 3.769
-  magnesium_mg: 123.8
-  potassium_mg: 349.8
-  zinc_mg: 3.591
-  selenium_ug: 9.479
-  vitamin_b6_mg: 0.2355
-  folate_ug: 38.42
+  beta_carotene_ug: 5
+  vitamin_k_ug: 3.6
+  sat_fat_g: 0.406
+  lutein_zeaxanthin_ug: 169
+  fat_g: 2.43
+  carbs_g: 70.19
+  kcal: 338
+  sugar_g: 6.82
+  calcium_mg: 27
+  potassium_mg: 388
+  zinc_mg: 3.28
+  selenium_ug: 11.7
+  vitamin_e_mg: 0.79
+  vitamin_b3_mg: 6.843
+  vitamin_b5_mg: 1.068
+  vitamin_b6_mg: 0.23
+  linoleic_g: 1.193
+  protein_g: 14.57
+  vitamin_b1_mg: 0.364
+  vitamin_b2_mg: 0.113
+  folate_ug: 45
+  fibre_g: 10.7
+  iron_mg: 4.44
+  magnesium_mg: 136
+  phosphorus_mg: 401
+  sodium_mg: 8
+  copper_mg: 0.511
+  manganese_mg: 2.983
+  ala_mg: 534
+  omega3_mg: 534
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Flour, spelt, whole grain'
-  fdc_id: 2003587
-  retrieval_method: API
+  food_name: 'Spelt, uncooked'
+  fdc_id: 169745
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
-amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
+  last_checked: '2026-08-15'
+amino_acid_strengths: >-
+  Relatively higher in methionine than legumes; lysine-limited like other
+  grains.
 limiting_amino_acids: Lysine (typical of grains).
-complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+complementary_pairings: >-
+  Lentils, chickpeas, or other legumes for complete essential amino acid
+  profile.
 main_image: /img/foods/spelt/spelt_medium.webp
 legacy_list_image: /img/foods/spelt/spelt_thumb.webp
 legacy_main_image: /img/foods/spelt/spelt_medium.webp

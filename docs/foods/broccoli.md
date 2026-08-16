@@ -14,7 +14,6 @@ tags:
   - Vitamin B6
   - Vitamin B9
   - Vitamin C
-  - Vitamin K2
   - Choline
   - Iron
   - Magnesium
@@ -22,40 +21,62 @@ tags:
   - Potassium
   - Manganese
   - Zinc
-  - CoQ10
   - Sulforaphane
+  - Vitamin K
 list_image: /img/foods/broccoli/broccoli_thumb.webp
 nutrition_per_100g:
-  kcal: 34
-  protein_g: 2.82
-  fat_g: 0.37
+  linoleic_g: 0.049
+  sat_fat_g: 0.114
+  choline_mg: 18.7
+  sugar_g: 1.7
   carbs_g: 6.64
-  fibre_g: 2.6
-  ala_mg: 104
+  kcal: 34
+  fat_g: 0.37
   calcium_mg: 47
-  iron_mg: 0.73
-  magnesium_mg: 21
   potassium_mg: 316
   zinc_mg: 0.41
   selenium_ug: 2.5
+  vitamin_e_mg: 0.78
+  vitamin_b3_mg: 0.639
+  vitamin_b5_mg: 0.573
   vitamin_b6_mg: 0.175
+  protein_g: 2.82
+  fibre_g: 2.6
+  iron_mg: 0.73
+  magnesium_mg: 21
+  phosphorus_mg: 66
+  sodium_mg: 33
+  copper_mg: 0.049
+  manganese_mg: 0.21
+  vitamin_c_mg: 89.2
+  vitamin_b1_mg: 0.071
+  vitamin_b2_mg: 0.117
+  ala_mg: 104
+  vitamin_k_ug: 101.6
   folate_ug: 63
-  choline_mg: 18.7
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.114
-  epa_mg: 0
-  dha_mg: 0
+  vitamin_a_rae_ug: 31
+  beta_carotene_ug: 361
+  lutein_zeaxanthin_ug: 1403
   omega3_mg: 104
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Broccoli, raw'
   fdc_id: 170379
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/broccoli/broccoli_medium.webp
 legacy_list_image: /img/foods/broccoli/broccoli_thumb.webp
 legacy_main_image: /img/foods/broccoli/broccoli_medium.webp
+nutrition_supplementary_sources:
+  - key: sulforaphane_qual
+    label: Sulforaphane
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Sulforaphane is formed from glucoraphanin in Broccoli after myrosinase
+      action; USDA SR Legacy does not report sulforaphane. Quantity depends on
+      cultivar and preparation (Houghton 2016).
 ---
 ## Overview
 

@@ -2,7 +2,9 @@
 id: green-tea
 title: Green Tea
 sidebar_label: Green Tea
-description: 'Source of EGCG, L-theanine, and polyphenols for cognitive and metabolic support'
+description: >-
+  Source of EGCG, L-theanine, and polyphenols for cognitive and metabolic
+  support
 tags:
   - Food
   - Green Tea
@@ -15,24 +17,38 @@ tags:
   - Polyphenol
 list_image: /img/foods/green-tea/green-tea_thumb.webp
 nutrition_per_100g:
-  carbs_g: 0
-  kcal: 0
-  protein_g: 0
-  fat_g: 0
+  kcal: 1
+  potassium_mg: 8
+  zinc_mg: 0.01
+  vitamin_b3_mg: 0.03
+  vitamin_b6_mg: 0.005
+  protein_g: 0.22
+  iron_mg: 0.02
+  magnesium_mg: 1
+  sodium_mg: 1
+  copper_mg: 0.004
+  manganese_mg: 0.184
+  vitamin_b1_mg: 0.007
+  vitamin_b2_mg: 0.058
 nutrition_source:
   database: USDA FoodData Central
-  food_name: GREEN TEA
-  fdc_id: 2048695
-  retrieval_method: API
+  food_name: 'Beverages, tea, green, brewed, regular'
+  fdc_id: 171917
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: egcg_mg
     label: EGCG
     value: 30
     unit: mg
-    notes: 'Dominant catechin in many green teas; very sensitive to leaf dose, time, and temperature.'
-    source_note: Order-of-magnitude for a typical brewed green tea beverage scaled to per 100 g liquid; cup strength and cultivar dominate variance (USDA brew panels are not a full polyphenol spec).
+    notes: >-
+      Dominant catechin in many green teas; very sensitive to leaf dose, time,
+      and temperature.
+    source_note: >-
+      Order-of-magnitude for a typical brewed green tea beverage scaled to per
+      100 g liquid; cup strength and cultivar dominate variance (USDA brew
+      panels are not a full polyphenol spec).
   - key: l_theanine_mg
     label: L-Theanine
     value: 6

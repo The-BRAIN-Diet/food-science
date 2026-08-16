@@ -12,28 +12,51 @@ tags:
   - Iron
 list_image: /img/foods/amaranth/amaranth_thumb.webp
 nutrition_per_100g:
-  kcal: 377.9609
-  protein_g: 13.2093
-  fat_g: 6.236
-  carbs_g: 68.7787
-  fibre_g: 7.209
-  calcium_mg: 135.2
-  iron_mg: 7.56
-  magnesium_mg: 232.7
-  potassium_mg: 395.8
-  zinc_mg: 3.001
-  selenium_ug: 21.1
-  vitamin_b6_mg: 0.3873
+  choline_mg: 69.8
+  fibre_g: 6.7
+  iron_mg: 7.61
+  magnesium_mg: 248
+  phosphorus_mg: 557
+  sodium_mg: 4
+  copper_mg: 0.525
+  manganese_mg: 3.333
+  protein_g: 13.56
+  beta_carotene_ug: 1
+  vitamin_b1_mg: 0.116
+  vitamin_b2_mg: 0.2
+  folate_ug: 82
+  ala_mg: 799
+  sat_fat_g: 1.459
+  fat_g: 7.02
+  carbs_g: 65.25
+  kcal: 371
+  sugar_g: 1.69
+  calcium_mg: 159
+  potassium_mg: 508
+  zinc_mg: 2.87
+  selenium_ug: 18.7
+  vitamin_e_mg: 1.19
+  lutein_zeaxanthin_ug: 28
+  vitamin_b3_mg: 0.923
+  vitamin_b5_mg: 1.457
+  vitamin_b6_mg: 0.591
+  linoleic_g: 2.736
+  vitamin_c_mg: 4.2
+  omega3_mg: 799
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Flour, amaranth'
-  fdc_id: 2512371
-  retrieval_method: API
+  food_name: 'Amaranth grain, uncooked'
+  fdc_id: 170682
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
-amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
+  last_checked: '2026-08-15'
+amino_acid_strengths: >-
+  Relatively higher in methionine than legumes; lysine-limited like other
+  grains.
 limiting_amino_acids: Lysine (typical of grains).
-complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+complementary_pairings: >-
+  Lentils, chickpeas, or other legumes for complete essential amino acid
+  profile.
 main_image: /img/foods/amaranth/amaranth_medium.webp
 legacy_list_image: /img/foods/amaranth/amaranth_thumb.webp
 legacy_main_image: /img/foods/amaranth/amaranth_medium.webp

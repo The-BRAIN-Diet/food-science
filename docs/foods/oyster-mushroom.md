@@ -2,42 +2,66 @@
 id: oyster-mushroom
 title: Oyster Mushroom
 sidebar_label: Oyster Mushroom
-description: 'Culinary mushroom rich in beta-glucans and B vitamins, supporting immune function'
+description: >-
+  Culinary mushroom rich in beta-glucans and B vitamins, supporting immune
+  function
 tags:
   - Food
   - Oyster Mushroom
   - Vegan
   - Vegetarian
-  - Mushrooms
   - Vitamin B3
   - Beta-Glucans
 list_image: /img/foods/oyster-mushroom/oyster-mushroom_thumb.webp
 nutrition_per_100g:
-  kcal: 33.31965
-  protein_g: 2.89875
-  fat_g: 0.1875
-  carbs_g: 6.94125
-  fibre_g: 2.85
-  calcium_mg: 0
-  iron_mg: 0.6981
-  magnesium_mg: 13.91
-  potassium_mg: 281.6
-  zinc_mg: 0.6843
-  selenium_ug: 1.379
-  vitamin_b6_mg: 0.09888
-  folate_ug: 63.14
-  ala_mg: 989
-  omega3_mg: 989
+  copper_mg: 0.244
+  vitamin_a_rae_ug: 2
+  ala_mg: 239
+  beta_carotene_ug: 29
+  fibre_g: 2.3
+  protein_g: 3.31
+  fat_g: 0.41
+  sugar_g: 1.11
+  iron_mg: 1.33
+  magnesium_mg: 18
+  phosphorus_mg: 120
+  sodium_mg: 18
+  manganese_mg: 0.113
+  vitamin_b1_mg: 0.125
+  calcium_mg: 3
+  potassium_mg: 420
+  zinc_mg: 0.77
+  selenium_ug: 2.6
+  vitamin_b3_mg: 4.956
+  vitamin_b5_mg: 1.294
+  vitamin_b6_mg: 0.11
+  vitamin_b2_mg: 0.349
+  folate_ug: 38
+  choline_mg: 48.7
+  linoleic_g: 0.123
+  carbs_g: 6.09
+  kcal: 33
+  sat_fat_g: 0.062
+  vitamin_d_ug: 0.7
+  omega3_mg: 239
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Mushroom, oyster'
-  fdc_id: 1999627
-  retrieval_method: API
+  food_name: 'Mushrooms, oyster, raw'
+  fdc_id: 168580
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/oyster-mushroom/oyster-mushroom_medium.webp
 legacy_list_image: /img/foods/oyster-mushroom/oyster-mushroom_thumb.webp
 legacy_main_image: /img/foods/oyster-mushroom/oyster-mushroom_medium.webp
+nutrition_supplementary_sources:
+  - key: beta_glucans_qual
+    label: Beta-Glucans
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Oyster Mushroom cell walls contain β-glucans; USDA SR Legacy mushroom
+      records do not quantify β-glucans.
 ---
 ## Overview
 

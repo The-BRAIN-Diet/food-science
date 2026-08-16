@@ -4,6 +4,11 @@
  * and optionally system/food-page-schema.md (--canonical).
  */
 import { runValidation, runCanonicalValidation, FOODS_DIR_DEFAULT } from "./lib/food-page-validation.mjs"
+import {
+  printTruthLevelReport,
+  runTruthLevelValidation,
+  truthLevelHasFailures,
+} from "./lib/food-truth-reconciliation.mjs"
 
 function parseArgs(argv) {
   const canonical = argv.includes("--canonical")
@@ -56,6 +61,12 @@ function main() {
     } else {
       console.log(`OK: All checked pages match canonical structure${slug ? ` (${slug})` : ""}.\n`)
     }
+  }
+
+  const truthReport = runTruthLevelValidation(foodsDir, slug)
+  printTruthLevelReport(truthReport)
+  if (truthLevelHasFailures(truthReport)) {
+    exitCode = 1
   }
 
   if (exitCode === 0) {

@@ -12,33 +12,44 @@ tags:
   - Vitamin B9
 list_image: /img/foods/oranges/oranges_thumb.webp
 nutrition_per_100g:
-  kcal: 246
-  protein_g: 0.3
-  fat_g: 0
-  carbs_g: 66.3
-  fibre_g: 0.7
-  calcium_mg: 38
-  iron_mg: 0.15
-  magnesium_mg: 2
-  potassium_mg: 37
-  zinc_mg: 0.04
-  selenium_ug: 0.6
-  vitamin_b6_mg: 0.019
-  folate_ug: 9
-  choline_mg: 3
-  vitamin_b12_ug: 0
-  sat_fat_g: 0
-  epa_mg: 0
-  dha_mg: 0
-  ala_mg: 16
-  omega3_mg: 16
+  sugar_g: 9.35
+  vitamin_e_mg: 0.18
+  vitamin_a_rae_ug: 11
+  beta_carotene_ug: 71
+  lutein_zeaxanthin_ug: 129
+  vitamin_b6_mg: 0.06
+  linoleic_g: 0.018
+  vitamin_b3_mg: 0.282
+  vitamin_b5_mg: 0.25
+  calcium_mg: 40
+  potassium_mg: 181
+  zinc_mg: 0.07
+  fat_g: 0.12
+  carbs_g: 11.75
+  kcal: 47
+  sat_fat_g: 0.015
+  vitamin_c_mg: 53.2
+  vitamin_b1_mg: 0.087
+  vitamin_b2_mg: 0.04
+  folate_ug: 30
+  ala_mg: 50
+  fibre_g: 2.4
+  iron_mg: 0.1
+  magnesium_mg: 10
+  phosphorus_mg: 14
+  copper_mg: 0.045
+  manganese_mg: 0.025
+  protein_g: 0.94
+  selenium_ug: 0.5
+  choline_mg: 8.4
+  omega3_mg: 50
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Marmalade, orange'
-  fdc_id: 168819
-  retrieval_method: API
+  food_name: 'Oranges, raw, all commercial varieties'
+  fdc_id: 169097
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/oranges/oranges_medium.webp
 legacy_list_image: /img/foods/oranges/oranges_thumb.webp
 legacy_main_image: /img/foods/oranges/oranges_medium.webp

@@ -2,13 +2,14 @@
 id: cordyceps-mushroom
 title: Cordyceps Mushroom
 sidebar_label: Cordyceps Mushroom
-description: 'Medicinal mushroom traditionally used to support energy, endurance, and mitochondrial function'
+description: >-
+  Medicinal mushroom traditionally used to support energy, endurance, and
+  mitochondrial function
 tags:
   - Food
   - Cordyceps Mushroom
   - Vegan
   - Vegetarian
-  - Mushrooms
   - Vitamin B3
   - Polysaccharides
 list_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_thumb.webp
@@ -37,6 +38,22 @@ nutrition_source:
 main_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_medium.webp
 legacy_list_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_thumb.webp
 legacy_main_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_medium.webp
+nutrition_supplementary_sources:
+  - key: polysaccharides_qual
+    label: Polysaccharides
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Cordyceps Mushroom is characterised by fungal polysaccharides; USDA SR
+      Legacy has no record for this mushroom, so quantity is not established.
+  - key: vitamin_b3_qual
+    label: Vitamin B3
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Cordyceps Mushroom is grouped with culinary mushrooms as a
+      niacin-containing fungus; USDA SR Legacy has no record for this specialty
+      mushroom, so quantity is not established.
 ---
 ## Overview
 

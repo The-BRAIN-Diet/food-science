@@ -12,36 +12,60 @@ tags:
   - Cinnamaldehyde
 list_image: /img/foods/cinnamon/cinnamon_thumb.webp
 nutrition_per_100g:
-  kcal: 253
-  protein_g: 7.05
-  fat_g: 5.29
-  carbs_g: 44.38
-  fibre_g: 3.5
-  calcium_mg: 71
-  iron_mg: 2.54
-  magnesium_mg: 11
-  potassium_mg: 74
-  zinc_mg: 0.49
-  selenium_ug: 12.3
-  vitamin_b6_mg: 0.027
-  folate_ug: 56
-  choline_mg: 2.7
-  vitamin_b12_ug: 0
-  sat_fat_g: 0
-  epa_mg: 0
-  dha_mg: 0
-  omega3_mg: 0
+  sugar_g: 2.17
+  vitamin_k_ug: 31.2
+  vitamin_b3_mg: 1.332
+  vitamin_b5_mg: 0.358
+  vitamin_b6_mg: 0.158
+  selenium_ug: 3.1
+  folate_ug: 6
+  beta_carotene_ug: 112
+  vitamin_b1_mg: 0.022
+  iron_mg: 8.32
+  magnesium_mg: 60
+  copper_mg: 0.339
+  manganese_mg: 17.466
+  fibre_g: 53.1
+  choline_mg: 11
+  protein_g: 3.99
+  vitamin_b2_mg: 0.041
+  ala_mg: 11
+  vitamin_a_rae_ug: 15
+  lycopene_ug: 15
+  vitamin_c_mg: 3.8
+  phosphorus_mg: 64
+  sodium_mg: 10
+  sat_fat_g: 0.345
+  calcium_mg: 1002
+  fat_g: 1.24
+  carbs_g: 80.59
+  kcal: 247
+  capric_g: 0.003
+  linoleic_g: 0.044
+  potassium_mg: 431
+  zinc_mg: 1.83
+  lutein_zeaxanthin_ug: 222
+  vitamin_e_mg: 2.32
+  omega3_mg: 11
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Bread, cinnamon'
-  fdc_id: 171849
-  retrieval_method: API
+  food_name: 'Spices, cinnamon, ground'
+  fdc_id: 171320
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/cinnamon/cinnamon_medium.webp
 legacy_list_image: /img/foods/cinnamon/cinnamon_thumb.webp
 legacy_main_image: /img/foods/cinnamon/cinnamon_medium.webp
+nutrition_supplementary_sources:
+  - key: cinnamaldehyde_qual
+    label: Cinnamaldehyde
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Cinnamaldehyde is the defining volatile of Cinnamon bark oil; it is not
+      reported in USDA SR Legacy nutrient panels.
 ---
 ## Overview
 

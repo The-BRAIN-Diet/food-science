@@ -5,7 +5,6 @@ sidebar_label: Lupins
 description: Legume protein source for vegan diets
 tags:
   - Food
-  - Lupins
   - Vegan
   - Vegetarian
 list_image: /img/foods/lupins/lupins_thumb.webp

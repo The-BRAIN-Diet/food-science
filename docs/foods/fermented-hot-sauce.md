@@ -2,12 +2,12 @@
 id: fermented-hot-sauce
 title: Fermented Hot Sauce
 sidebar_label: Fermented Hot Sauce
-description: 'Fermented chilli-based condiment used in small amounts to add heat, acidity, and complexity.'
+description: >-
+  Fermented chilli-based condiment used in small amounts to add heat, acidity,
+  and complexity.
 tags:
   - Food
   - Fermented Hot Sauce
-  - Condiments
-  - Fermented Vegetables
   - Vegan
   - Vegetarian
 list_image: /img/foods/fermented-hot-sauce/fermented-hot-sauce_thumb.webp

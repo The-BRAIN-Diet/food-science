@@ -12,28 +12,57 @@ tags:
   - Quercetin
 list_image: /img/foods/onions/onions_thumb.webp
 nutrition_per_100g:
-  kcal: 44
-  protein_g: 0.94
-  fat_g: 0.1
-  carbs_g: 9.93
-  fibre_g: 2.2
-  sugar_g: 5.76
-  calcium_mg: 17
-  iron_mg: 0.24
-  magnesium_mg: 11.4
-  potassium_mg: 197
+  linoleic_g: 0.013
+  lutein_zeaxanthin_ug: 4
+  vitamin_b3_mg: 0.116
+  vitamin_b5_mg: 0.123
+  vitamin_b6_mg: 0.12
+  choline_mg: 6.1
+  sugar_g: 4.24
+  calcium_mg: 23
+  potassium_mg: 146
   zinc_mg: 0.17
   selenium_ug: 0.5
+  vitamin_e_mg: 0.02
+  fat_g: 0.1
+  carbs_g: 9.34
+  kcal: 40
+  vitamin_c_mg: 7.4
+  vitamin_b1_mg: 0.046
+  vitamin_b2_mg: 0.027
+  folate_ug: 19
+  vitamin_k_ug: 0.4
+  ala_mg: 21
+  sat_fat_g: 0.042
+  protein_g: 1.1
+  fibre_g: 1.7
+  iron_mg: 0.21
+  magnesium_mg: 10
+  phosphorus_mg: 29
+  sodium_mg: 4
+  copper_mg: 0.039
+  manganese_mg: 0.129
+  beta_carotene_ug: 1
+  omega3_mg: 21
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Onions, red, raw'
-  fdc_id: 790577
-  retrieval_method: API
+  food_name: 'Onions, raw'
+  fdc_id: 170000
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/onions/onions_medium.webp
 legacy_list_image: /img/foods/onions/onions_thumb.webp
 legacy_main_image: /img/foods/onions/onions_medium.webp
+nutrition_supplementary_sources:
+  - key: quercetin_qual
+    label: Quercetin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
+      reports quercetin glycosides in Onions; a single defensible per-100 g
+      value is not taken from the abbreviated USDA nutrient panel.
 ---
 ## Overview
 

@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-08-15T09:59:18.805Z",
+  "model": "Three Sources of Truth: Overview → Database nutrition table → Substances list",
+  "writes_pages": false,
+  "creates_substance_pages": false,
+  "pages": [
+    {
+      "slug": "almonds",
+      "cards_without_table_rows": [],
+      "overview_compounds_without_table_rows": [
+        "whole-food fat-and-fibre",
+        "lysine-limited"
+      ],
+      "verified_table_compounds_requiring_cards": [],
+      "synonym_resolution": [
+        {
+          "queried": "Linoleic Acid",
+          "canonical_title": "Linoleic Acid (LA, n-6)",
+          "canonical_file": "docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-6/linoleic-acid.md"
+        },
+        {
+          "queried": "Vitamin E",
+          "canonical_title": "Vitamin E (Tocopherols/Tocotrienols)",
+          "canonical_file": "docs/substances/nutrients/micronutrients/vitamins/vitamin-e.md"
+        },
+        {
+          "queried": "Vitamin B2",
+          "canonical_title": "Vitamin B2 (Riboflavin)",
+          "canonical_file": "docs/substances/nutrients/micronutrients/vitamins/vitamin-b2.md"
+        },
+        {
+          "queried": "Phosphorus",
+          "canonical_title": "Phosphorus (Phosphate)",
+          "canonical_file": "docs/substances/nutrients/micronutrients/minerals/macro/phosphorus.md"
+        }
+      ],
+      "proposed_missing_canonical_pages": [],
+      "trace_database_rows_not_promoted": [],
+      "all_table_row_count": 30,
+      "public_table_row_count": 9
+    }
+  ]
+}

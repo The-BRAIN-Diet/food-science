@@ -6,7 +6,6 @@ description: 'Hard cow’s-milk cheese rich in protein, calcium, and vitamin B12
 tags:
   - Food
   - Cheddar Cheese
-  - Dairy
   - Vegetarian
   - Calcium
   - Vitamin B12
@@ -16,33 +15,51 @@ tags:
 list_image: /img/foods/cheddar-cheese/cheddar-cheese_thumb.webp
 protein_profile_note: Complete essential amino acid profile (animal dairy).
 nutrition_per_100g:
-  kcal: 403
-  protein_g: 22.9
-  fat_g: 33.1
-  sat_fat_g: 18.9
-  carbs_g: 3.1
-  sugar_g: 0.5
-  fibre_g: 0
-  calcium_mg: 721
-  iron_mg: 0.36
-  magnesium_mg: 26.8
-  potassium_mg: 98
+  caproic_g: 0.539
+  capric_g: 0.82
+  linoleic_g: 0.791
+  calcium_mg: 710
+  potassium_mg: 76
   zinc_mg: 3.64
-  selenium_ug: 28.5
+  carbs_g: 3.37
+  kcal: 403
+  caprylic_g: 0.337
+  dha_mg: 1
+  ala_mg: 100
+  protein_g: 22.87
+  phosphorus_mg: 455
   copper_mg: 0.03
-  choline_mg: 16.5
-  folate_ug: 27
-  vitamin_b12_ug: 0.83
-  vitamin_b6_mg: 0.065
+  vitamin_a_rae_ug: 337
+  vitamin_b3_mg: 0.059
+  vitamin_b5_mg: 0.41
+  vitamin_b6_mg: 0.066
+  fat_g: 33.31
+  sugar_g: 0.48
+  selenium_ug: 28.5
   vitamin_e_mg: 0.71
-  vitamin_k_ug: 3
+  sat_fat_g: 18.867
+  vitamin_b1_mg: 0.029
+  vitamin_b2_mg: 0.428
+  folate_ug: 27
+  vitamin_b12_ug: 1.1
+  epa_mg: 10
+  vitamin_k_ug: 2.4
+  tyrosine_g: 1.108
+  beta_carotene_ug: 85
+  manganese_mg: 0.027
+  sodium_mg: 653
+  iron_mg: 0.14
+  magnesium_mg: 27
+  vitamin_d_ug: 0.6
+  choline_mg: 16.5
+  omega3_mg: 111
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Cheese, cheddar'
-  fdc_id: 328637
-  retrieval_method: API
+  food_name: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'
+  fdc_id: 173414
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-25'
+  last_checked: '2026-08-15'
 main_image: /img/foods/cheddar-cheese/cheddar-cheese_medium.webp
 legacy_list_image: /img/foods/cheddar-cheese/cheddar-cheese_thumb.webp
 legacy_main_image: /img/foods/cheddar-cheese/cheddar-cheese_medium.webp

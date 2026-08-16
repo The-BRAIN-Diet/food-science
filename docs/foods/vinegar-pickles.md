@@ -2,7 +2,9 @@
 id: vinegar-pickles
 title: Vinegar Pickles
 sidebar_label: Vinegar Pickles
-description: 'Acid preservation in vinegar brine — acetic acid exposure, shelf stability, and distinct biology from lacto-fermented vegetables'
+description: >-
+  Acid preservation in vinegar brine — acetic acid exposure, shelf stability,
+  and distinct biology from lacto-fermented vegetables
 tags:
   - Food
   - Vinegar Pickles
@@ -11,33 +13,45 @@ tags:
   - Sodium
 list_image: /img/foods/vinegar-pickles/vinegar-pickles_thumb.webp
 nutrition_per_100g:
-  kcal: 12
-  protein_g: 0.5
-  fat_g: 0.3
-  carbs_g: 2.41
-  fibre_g: 1
+  vitamin_e_mg: 0.03
+  lutein_zeaxanthin_ug: 28
+  folate_ug: 8
+  sodium_mg: 809
+  vitamin_a_rae_ug: 6
+  beta_carotene_ug: 53
+  sugar_g: 1.07
   calcium_mg: 57
-  iron_mg: 0.26
-  magnesium_mg: 7
   potassium_mg: 117
   zinc_mg: 0.1
-  selenium_ug: 0
+  vitamin_b3_mg: 0.109
+  vitamin_b5_mg: 0.201
   vitamin_b6_mg: 0.035
-  folate_ug: 8
-  choline_mg: 0
-  vitamin_b12_ug: 0
-  sat_fat_g: 0
-  epa_mg: 0
-  dha_mg: 0
-  omega3_mg: 0
+  linoleic_g: 0.052
+  fat_g: 0.3
+  carbs_g: 2.41
+  protein_g: 0.5
+  fibre_g: 1
+  iron_mg: 0.26
+  magnesium_mg: 7
+  phosphorus_mg: 16
+  vitamin_c_mg: 2.3
+  copper_mg: 0.028
+  manganese_mg: 0.062
+  sat_fat_g: 0.079
+  vitamin_k_ug: 17.3
+  vitamin_b1_mg: 0.045
+  vitamin_b2_mg: 0.057
+  choline_mg: 3.4
+  kcal: 12
+  ala_mg: 21
+  omega3_mg: 21
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Pickles, cucumber, dill or kosher dill'
   fdc_id: 168558
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-06-01'
-  note: Illustrative vinegar-brined product; sodium is high (~809 mg/100 g in this record) and varies by recipe and brand — not shown in standard table fields.
+  last_checked: '2026-08-15'
 main_image: /img/foods/vinegar-pickles/vinegar-pickles_medium.webp
 legacy_list_image: /img/foods/vinegar-pickles/vinegar-pickles_thumb.webp
 legacy_main_image: /img/foods/vinegar-pickles/vinegar-pickles_medium.webp

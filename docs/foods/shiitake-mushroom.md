@@ -2,42 +2,61 @@
 id: shiitake-mushroom
 title: Shiitake Mushroom
 sidebar_label: Shiitake Mushroom
-description: 'Culinary and medicinal mushroom rich in beta-glucans, supporting immune function and providing umami flavor'
+description: >-
+  Culinary and medicinal mushroom rich in beta-glucans, supporting immune
+  function and providing umami flavor
 tags:
   - Food
   - Shiitake Mushroom
   - Vegan
   - Vegetarian
-  - Mushrooms
   - Vitamin B3
   - Beta-Glucans
 list_image: /img/foods/shiitake-mushroom/shiitake-mushroom_thumb.webp
 nutrition_per_100g:
-  kcal: 36.3915875
-  protein_g: 2.414375
-  fat_g: 0.195
-  carbs_g: 8.170625
-  fibre_g: 4.166
-  calcium_mg: 0.7663
-  iron_mg: 0.1443
-  magnesium_mg: 14.06
-  potassium_mg: 243
-  zinc_mg: 0.7641
-  selenium_ug: 1.244
-  vitamin_b6_mg: 0.1593
-  folate_ug: 32.13
-  ala_mg: 787
-  omega3_mg: 787
+  ala_mg: 167
+  sugar_g: 2.38
+  folate_ug: 13
+  vitamin_b3_mg: 3.877
+  vitamin_b5_mg: 1.5
+  vitamin_b6_mg: 0.293
+  potassium_mg: 304
+  zinc_mg: 1.03
+  selenium_ug: 5.7
+  fat_g: 0.49
+  calcium_mg: 2
+  vitamin_b1_mg: 0.015
+  vitamin_b2_mg: 0.217
+  sodium_mg: 9
+  copper_mg: 0.142
+  manganese_mg: 0.23
+  protein_g: 2.24
+  fibre_g: 2.5
+  iron_mg: 0.41
+  magnesium_mg: 20
+  phosphorus_mg: 112
+  carbs_g: 6.79
+  kcal: 34
+  vitamin_d_ug: 0.4
+  omega3_mg: 167
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Mushrooms, shiitake'
-  fdc_id: 1999628
-  retrieval_method: API
+  food_name: 'Mushrooms, shiitake, raw'
+  fdc_id: 169242
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/shiitake-mushroom/shiitake-mushroom_medium.webp
 legacy_list_image: /img/foods/shiitake-mushroom/shiitake-mushroom_thumb.webp
 legacy_main_image: /img/foods/shiitake-mushroom/shiitake-mushroom_medium.webp
+nutrition_supplementary_sources:
+  - key: beta_glucans_qual
+    label: Beta-Glucans
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Shiitake Mushroom cell walls contain β-glucans; USDA SR Legacy mushroom
+      records do not quantify β-glucans.
 ---
 ## Overview
 

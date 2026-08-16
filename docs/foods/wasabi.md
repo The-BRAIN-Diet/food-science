@@ -2,42 +2,46 @@
 id: wasabi
 title: Wasabi
 sidebar_label: Wasabi
-description: Pungent green condiment traditionally served with sushi and other Japanese dishes.
+description: >-
+  Pungent green condiment traditionally served with sushi and other Japanese
+  dishes.
 tags:
   - Food
   - Wasabi
-  - Condiments
   - Vegan
   - Vegetarian
 list_image: /img/foods/wasabi/wasabi_thumb.webp
 nutrition_per_100g:
-  kcal: 292
-  protein_g: 2.23
-  fat_g: 10.9
-  carbs_g: 46.13
-  fibre_g: 6.1
-  ala_mg: 151
-  calcium_mg: 41
-  iron_mg: 0.5
-  magnesium_mg: 21
-  potassium_mg: 182
-  zinc_mg: 0.61
-  selenium_ug: 2.2
-  vitamin_b6_mg: 0.05
-  folate_ug: 10
-  choline_mg: 2.3
-  vitamin_b12_ug: 0
-  sat_fat_g: 2.031
-  epa_mg: 3
-  dha_mg: 1
-  omega3_mg: 155
+  vitamin_b3_mg: 0.743
+  vitamin_b5_mg: 0.203
+  vitamin_b6_mg: 0.274
+  fat_g: 0.63
+  carbs_g: 23.54
+  kcal: 109
+  calcium_mg: 128
+  potassium_mg: 568
+  zinc_mg: 1.62
+  vitamin_c_mg: 41.9
+  vitamin_b1_mg: 0.131
+  vitamin_b2_mg: 0.114
+  folate_ug: 18
+  vitamin_a_rae_ug: 2
+  beta_carotene_ug: 21
+  protein_g: 4.8
+  fibre_g: 7.8
+  iron_mg: 1.03
+  magnesium_mg: 69
+  phosphorus_mg: 80
+  sodium_mg: 17
+  copper_mg: 0.155
+  manganese_mg: 0.391
 nutrition_source:
   database: USDA FoodData Central
-  food_name: Wasabi
-  fdc_id: 171831
-  retrieval_method: API
+  food_name: 'Wasabi, root, raw'
+  fdc_id: 168583
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/wasabi/wasabi_medium.webp
 legacy_list_image: /img/foods/wasabi/wasabi_thumb.webp
 legacy_main_image: /img/foods/wasabi/wasabi_medium.webp

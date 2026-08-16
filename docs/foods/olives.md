@@ -11,18 +11,43 @@ tags:
   - Polyphenol
 list_image: /img/foods/olives/olives_thumb.webp
 nutrition_per_100g:
-  sat_fat_g: 15.82
-  ala_mg: 606.7
-  epa_mg: 0.625
-  dha_mg: 0
-  omega3_mg: 607.325
+  sodium_mg: 735
+  lutein_zeaxanthin_ug: 510
+  vitamin_e_mg: 1.65
+  vitamin_k_ug: 1.4
+  choline_mg: 10.3
+  calcium_mg: 88
+  potassium_mg: 8
+  zinc_mg: 0.22
+  vitamin_b3_mg: 0.037
+  vitamin_b5_mg: 0.015
+  vitamin_b6_mg: 0.009
+  protein_g: 0.84
+  magnesium_mg: 4
+  phosphorus_mg: 3
+  copper_mg: 0.251
+  manganese_mg: 0.02
+  vitamin_c_mg: 0.9
+  vitamin_b1_mg: 0.003
+  ala_mg: 43
+  sat_fat_g: 2.279
+  vitamin_a_rae_ug: 17
+  beta_carotene_ug: 198
+  fibre_g: 1.6
+  iron_mg: 6.28
+  fat_g: 10.9
+  carbs_g: 6.04
+  kcal: 116
+  linoleic_g: 0.629
+  selenium_ug: 0.9
+  omega3_mg: 43
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Oil, olive, extra light'
-  fdc_id: 1750351
-  retrieval_method: API
+  food_name: 'Olives, ripe, canned (small-extra large)'
+  fdc_id: 169094
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/olives/olives_medium.webp
 legacy_list_image: /img/foods/olives/olives_thumb.webp
 legacy_main_image: /img/foods/olives/olives_medium.webp

@@ -13,33 +13,61 @@ tags:
   - Hesperidin
 list_image: /img/foods/lemon/lemon_thumb.webp
 nutrition_per_100g:
-  kcal: 17
-  protein_g: 0.47
-  fat_g: 0.07
-  carbs_g: 5.66
-  fibre_g: 0.7
-  ala_mg: 6
-  calcium_mg: 9
-  iron_mg: 0.06
-  magnesium_mg: 6
-  potassium_mg: 109
-  zinc_mg: 0.23
-  vitamin_b6_mg: 0.037
+  vitamin_e_mg: 0.15
+  lutein_zeaxanthin_ug: 11
+  sugar_g: 2.5
+  beta_carotene_ug: 3
+  vitamin_a_rae_ug: 1
+  choline_mg: 5.1
+  protein_g: 1.1
+  vitamin_c_mg: 53
+  vitamin_b1_mg: 0.04
+  vitamin_b2_mg: 0.02
   folate_ug: 11
-  sat_fat_g: 0.027
-  epa_mg: 0
-  dha_mg: 0
-  omega3_mg: 6
+  fibre_g: 2.8
+  iron_mg: 0.6
+  magnesium_mg: 8
+  phosphorus_mg: 16
+  sodium_mg: 2
+  copper_mg: 0.037
+  manganese_mg: 0.03
+  sat_fat_g: 0.039
+  fat_g: 0.3
+  carbs_g: 9.32
+  kcal: 29
+  calcium_mg: 26
+  potassium_mg: 138
+  zinc_mg: 0.06
+  vitamin_b3_mg: 0.1
+  vitamin_b5_mg: 0.19
+  vitamin_b6_mg: 0.08
+  linoleic_g: 0.063
+  selenium_ug: 0.4
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Lemon juice from concentrate, bottled, REAL LEMON'
-  fdc_id: 167802
-  retrieval_method: API
+  food_name: 'Lemons, raw, without peel'
+  fdc_id: 167746
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/lemon/lemon_medium.webp
 legacy_list_image: /img/foods/lemon/lemon_thumb.webp
 legacy_main_image: /img/foods/lemon/lemon_medium.webp
+nutrition_supplementary_sources:
+  - key: eriocitrin_qual
+    label: Eriocitrin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Lemon flavanones include eriocitrin; USDA SR Legacy does not report
+      individual flavanones.
+  - key: hesperidin_qual
+    label: Hesperidin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Lemon flavanones include hesperidin; USDA SR Legacy does not report
+      individual flavanones.
 ---
 ## Overview
 

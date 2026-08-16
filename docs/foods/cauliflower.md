@@ -12,22 +12,45 @@ tags:
   - Vitamin B9
 list_image: /img/foods/cauliflower/cauliflower_thumb.webp
 nutrition_per_100g:
-  kcal: 24
-  potassium_mg: 188
-  fibre_g: 2.4
-  carbs_g: 4.71
-  sat_fat_g: 0
-  calcium_mg: 24
-  iron_mg: 0.59
-  protein_g: 2.35
-  fat_g: 0
+  carbs_g: 4.97
+  kcal: 25
+  capric_g: 0.018
+  linoleic_g: 0.013
+  sat_fat_g: 0.13
+  ala_mg: 116
+  folate_ug: 57
+  vitamin_k_ug: 15.5
+  protein_g: 1.92
+  fibre_g: 2
+  sugar_g: 1.91
+  lutein_zeaxanthin_ug: 1
+  selenium_ug: 0.6
+  iron_mg: 0.42
+  magnesium_mg: 15
+  phosphorus_mg: 44
+  sodium_mg: 30
+  copper_mg: 0.039
+  manganese_mg: 0.155
+  vitamin_c_mg: 48.2
+  vitamin_b1_mg: 0.05
+  vitamin_b2_mg: 0.06
+  fat_g: 0.28
+  vitamin_e_mg: 0.08
+  calcium_mg: 22
+  potassium_mg: 299
+  zinc_mg: 0.27
+  vitamin_b3_mg: 0.507
+  vitamin_b5_mg: 0.667
+  vitamin_b6_mg: 0.184
+  choline_mg: 44.3
+  omega3_mg: 116
 nutrition_source:
   database: USDA FoodData Central
-  food_name: CAULIFLOWER
-  fdc_id: 2409200
-  retrieval_method: API
+  food_name: 'Cauliflower, raw'
+  fdc_id: 169986
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/cauliflower/cauliflower_medium.webp
 legacy_list_image: /img/foods/cauliflower/cauliflower_thumb.webp
 legacy_main_image: /img/foods/cauliflower/cauliflower_medium.webp

@@ -11,29 +11,48 @@ tags:
   - Potassium
   - Vitamin B6
   - Vitamin C
-  - Cyanidin
 list_image: /img/foods/potatoes/potatoes_thumb.webp
 nutrition_per_100g:
-  iron_mg: 0.73
-  zinc_mg: 0.2
-  magnesium_mg: 16
-  calcium_mg: 14
-  fat_g: 0
-  folate_ug: 16
-  vitamin_b6_mg: 0.135
-  sat_fat_g: 0
-  protein_g: 2.03
-  carbs_g: 17.57
-  kcal: 74
-  fibre_g: 1.4
-  potassium_mg: 419
+  choline_mg: 12.1
+  capric_g: 0.001
+  linoleic_g: 0.032
+  fat_g: 0.09
+  vitamin_e_mg: 0.01
+  calcium_mg: 12
+  vitamin_b2_mg: 0.032
+  beta_carotene_ug: 1
+  magnesium_mg: 23
+  phosphorus_mg: 57
+  manganese_mg: 0.153
+  kcal: 77
+  vitamin_c_mg: 19.7
+  sodium_mg: 6
+  sat_fat_g: 0.025
+  ala_mg: 81
+  vitamin_k_ug: 2
+  folate_ug: 15
+  protein_g: 2.05
+  copper_mg: 0.11
+  fibre_g: 2.1
+  iron_mg: 0.81
+  vitamin_b1_mg: 0.081
+  carbs_g: 17.49
+  lutein_zeaxanthin_ug: 9
+  vitamin_b3_mg: 1.061
+  vitamin_b5_mg: 0.295
+  vitamin_b6_mg: 0.298
+  potassium_mg: 425
+  zinc_mg: 0.3
+  selenium_ug: 0.4
+  sugar_g: 0.82
+  omega3_mg: 81
 nutrition_source:
   database: USDA FoodData Central
-  food_name: POTATOES
-  fdc_id: 522090
-  retrieval_method: API
+  food_name: 'Potatoes, flesh and skin, raw'
+  fdc_id: 170026
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/potatoes/potatoes_medium.webp
 legacy_list_image: /img/foods/potatoes/potatoes_thumb.webp
 legacy_main_image: /img/foods/potatoes/potatoes_medium.webp

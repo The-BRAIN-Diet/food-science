@@ -2,7 +2,7 @@
 
 Consolidated schema for BRAIN Diet food pages. **Worked example:** `docs/foods/dark-chocolate.md`.  
 **Front matter shapes:** `system/food-page-frontmatter-shapes.md`. **Nutrition fields:** `system/food-nutrition-schema.md`.  
-**Three truth layers and EAA rules:** `system/food-page-model.md` (still authoritative for substance/tag boundaries).
+**Three Sources of Truth (page layers) and EAA / content-boundary rules:** `system/food-page-model.md`. **Composition and provenance classes:** `system/food-nutrition-schema.md`.
 
 Validation: `npm run nutrition:validate` (baseline) · `npm run nutrition:validate -- --canonical` (canonical structure gate for migration batches).
 
@@ -10,13 +10,13 @@ Validation: `npm run nutrition:validate` (baseline) · `npm run nutrition:valida
 
 ## Design principle
 
-Food pages use **three sources of truth** that must stay aligned:
+Food pages use the canonical **Three Sources of Truth** from `system/food-page-model.md`:
 
-1. **Overview + Key Nutritional Highlights** — editorial, decision-relevant context (intrinsic compounds only).
-2. **Nutrition table** — quantitative layer (`nutrition_per_100g`, supplementary sources, functional metrics).
-3. **Substances list** — union of editorial tags and analytical table rows via `<FoodSubstancesFromTable />`.
+1. **Overview + Key Nutritional Highlights** — editorial, decision-relevant context (intrinsic compounds only). Headline compounds must resolve to a supported table row or be flagged for verification.
+2. **Database nutrition table** — quantitative composition (`nutrition_per_100g`, supplementary sources, functional metrics). Rendered headings: **Core nutrients**, **Vitamins and minerals**, **Fatty acids and extended BRAIN-relevant substances**.
+3. **Substances list** — ontology cards via `<FoodSubstancesFromTable />` that mirror the validated, meaningful union. Every card must resolve to a supported table row. Not every table row requires a card.
 
-Mechanism outcomes (e.g. SCFAs from fibre fermentation) belong in prose as outcomes, never as food substances or tags.
+Mechanism outcomes (e.g. SCFAs from fibre fermentation) belong in prose as outcomes, never as food substances or tags. That placement rule is the separate **Intrinsic / Mechanism / Strategy** content-boundary model; it does not replace the Three Sources of Truth and does not by itself admit an entity to the Substances list.
 
 ---
 
@@ -130,9 +130,11 @@ See `system/food-page-frontmatter-shapes.md` for full YAML examples.
 
 | Command | Checks |
 |---------|--------|
-| `npm run nutrition:validate` | EAA when required; no downstream-metabolite tags |
+| `npm run nutrition:validate` | EAA when required; no downstream-metabolite tags; directional layer reconciliation (Substances cards missing table rows; unsupported quantitative values; qualitative rows lacking source; Overview headlines flagged for verification) |
 | `npm run nutrition:validate -- --canonical` | Baseline + canonical section order, KNH, components, bibliography-linked references |
 | `npm run nutrition:validate -- --canonical --slug almonds` | Canonical checks for one page only |
+| `npm run nutrition:reconcile-layers` | Post-apply report: cards without rows, Overview compounds without rows, verified table compounds that may need cards, synonym/canonical-ID notes, proposed missing substance pages, unpromoted trace rows |
+| `npm run test:food-truth-levels` | USDA extract ranking + almonds table-backed substance fixtures + three-model documentation tests |
 
 Canonical mode is intended for **migration batches** (e.g. letter A). Full corpus canonical compliance is incremental; baseline mode stays green for unrelated edits.
 
@@ -143,7 +145,9 @@ Canonical mode is intended for **migration batches** (e.g. letter A). Full corpu
 | File | Role |
 |------|------|
 | `docs/foods/.cursor/rules/Foods-Pages.mdc` | Authoring rules for agents |
-| `scripts/lib/food-page-validation.mjs` | Validation implementation |
+| `scripts/lib/food-page-validation.mjs` | EAA and downstream-metabolite validation |
+| `scripts/lib/food-truth-reconciliation.mjs` | Directional page-layer reconciliation (cards → table rows; not every table row → card) |
+| `scripts/lib/usda-nutrient-extract.mjs` | USDA extract + richest-panel ranking |
 | `scripts/repair-food-pages.mjs` | EAA insert, tag cleanup, substances component |
 | `cue/brain/` | Mechanism schemas only (no food CUE yet) |
 

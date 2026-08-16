@@ -15,24 +15,47 @@ tags:
   - Carotenoid
 list_image: /img/foods/avocado/avocado_thumb.webp
 nutrition_per_100g:
-  kcal: 206.0493
-  protein_g: 1.8125
-  fat_g: 20.31
-  carbs_g: 8.3235
-  calcium_mg: 14.46
-  iron_mg: 0.6133
-  magnesium_mg: 32.8
-  potassium_mg: 576.4
-  zinc_mg: 0.4596
-  vitamin_b6_mg: 0.1674
-  folate_ug: 128.7
+  caprylic_g: 0.001
+  ala_mg: 100
+  vitamin_c_mg: 10
+  vitamin_b1_mg: 0.067
+  vitamin_a_rae_ug: 7
+  beta_carotene_ug: 62
+  protein_g: 2
+  fibre_g: 6.7
+  iron_mg: 0.55
+  magnesium_mg: 29
+  phosphorus_mg: 52
+  sodium_mg: 7
+  copper_mg: 0.19
+  manganese_mg: 0.142
+  vitamin_b2_mg: 0.13
+  vitamin_k_ug: 21
+  linoleic_g: 1.674
+  fat_g: 14.66
+  lutein_zeaxanthin_ug: 271
+  vitamin_b3_mg: 1.738
+  vitamin_b5_mg: 1.389
+  vitamin_b6_mg: 0.257
+  selenium_ug: 0.4
+  vitamin_e_mg: 2.07
+  sugar_g: 0.66
+  calcium_mg: 12
+  potassium_mg: 485
+  zinc_mg: 0.64
+  folate_ug: 81
+  sat_fat_g: 2.126
+  carbs_g: 8.53
+  kcal: 160
+  choline_mg: 14.2
+  omega3_mg: 100
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Avocado, Hass, peeled, raw'
-  fdc_id: 2710824
-  retrieval_method: API
+  food_name: 'Avocados, raw, all commercial varieties'
+  fdc_id: 171705
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/avocado/avocado_medium.webp
 legacy_list_image: /img/foods/avocado/avocado_thumb.webp
 legacy_main_image: /img/foods/avocado/avocado_medium.webp

@@ -14,25 +14,65 @@ tags:
   - Peonidin
 list_image: /img/foods/cranberries/cranberries_thumb.webp
 nutrition_per_100g:
-  calcium_mg: 0
-  fibre_g: 5
-  kcal: 350
-  carbs_g: 82.5
-  potassium_mg: 50
-  fat_g: 0
-  iron_mg: 0.25
-  sat_fat_g: 0
-  protein_g: 0
+  kcal: 46
+  choline_mg: 5.5
+  fibre_g: 3.6
+  iron_mg: 0.23
+  protein_g: 0.46
+  copper_mg: 0.056
+  manganese_mg: 0.267
+  phosphorus_mg: 11
+  beta_carotene_ug: 38
+  vitamin_c_mg: 14
+  vitamin_k_ug: 5
+  sat_fat_g: 0.008
+  carbs_g: 11.97
+  sugar_g: 4.27
+  potassium_mg: 80
+  zinc_mg: 0.09
+  vitamin_e_mg: 1.32
+  linoleic_g: 0.033
+  fat_g: 0.13
+  selenium_ug: 0.1
+  calcium_mg: 8
+  lutein_zeaxanthin_ug: 91
+  vitamin_b3_mg: 0.101
+  vitamin_b5_mg: 0.295
+  vitamin_b6_mg: 0.057
+  vitamin_b1_mg: 0.012
+  vitamin_b2_mg: 0.02
+  folate_ug: 1
+  ala_mg: 49
+  vitamin_a_rae_ug: 3
+  sodium_mg: 2
+  magnesium_mg: 6
+  omega3_mg: 49
 nutrition_source:
   database: USDA FoodData Central
-  food_name: CRANBERRIES
-  fdc_id: 2463410
-  retrieval_method: API
+  food_name: 'Cranberries, raw'
+  fdc_id: 171722
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/cranberries/cranberries_medium.webp
 legacy_list_image: /img/foods/cranberries/cranberries_thumb.webp
 legacy_main_image: /img/foods/cranberries/cranberries_medium.webp
+nutrition_supplementary_sources:
+  - key: cyanidin_qual
+    label: Cyanidin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
+      lists cyanidin glycosides in Cranberries; individual cyanidin mass is not
+      reported in the selected USDA SR Legacy composition record.
+  - key: peonidin_qual
+    label: Peonidin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA flavonoid database lists peonidin glycosides in Cranberries;
+      individual peonidin quantity is not in the selected USDA SR Legacy record.
 ---
 ## Overview
 

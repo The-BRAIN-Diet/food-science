@@ -2,7 +2,7 @@
 id: scallops
 title: Scallops
 sidebar_label: Scallops
-description: Lean shellfish rich in creatine, taurine, and vitamin B12
+description: 'Lean shellfish rich in creatine, taurine, and vitamin B12'
 tags:
   - Food
   - Scallops
@@ -18,29 +18,61 @@ overview_key_compounds:
   - Vitamin B12
   - Selenium
 nutrition_per_100g:
-  kcal: 66.3545
-  protein_g: 13.5125
-  fat_g: 0.4933
-  carbs_g: 1.9662
-  calcium_mg: 10.54
-  iron_mg: 0.2133
-  magnesium_mg: 30.63
-  potassium_mg: 244.9
-  zinc_mg: 1.002
-  selenium_ug: 15.74
-  vitamin_b12_ug: 1.285
+  choline_mg: 65
+  dha_mg: 61
+  epa_mg: 42
+  linoleic_g: 0.007
+  ala_mg: 536
+  vitamin_b12_ug: 1.41
+  sat_fat_g: 0.128
+  protein_g: 12.06
+  vitamin_b1_mg: 0.007
+  vitamin_b2_mg: 0.015
+  iron_mg: 0.38
+  magnesium_mg: 22
+  phosphorus_mg: 334
+  sodium_mg: 392
+  copper_mg: 0.023
+  manganese_mg: 0.017
+  vitamin_a_rae_ug: 1
+  vitamin_b3_mg: 0.703
+  vitamin_b5_mg: 0.215
+  vitamin_b6_mg: 0.073
+  calcium_mg: 6
+  potassium_mg: 205
+  zinc_mg: 0.91
+  selenium_ug: 12.8
+  fat_g: 0.49
+  carbs_g: 3.18
+  kcal: 69
+  folate_ug: 16
+  omega3_mg: 639
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Scallops, sea, frozen, wild caught'
-  fdc_id: 2747667
-  retrieval_method: API
+  food_name: 'Mollusks, scallop, mixed species, raw'
+  fdc_id: 174220
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/scallops/scallops_medium.webp
 legacy_list_image: /img/foods/scallops/scallops_thumb.webp
 legacy_main_image: /img/foods/scallops/scallops_medium.webp
+nutrition_supplementary_sources:
+  - key: taurine_qual
+    label: Taurine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Taurine is a characteristic free amino sulfonic acid in Scallops; USDA SR
+      Legacy does not include a taurine field.
+  - key: creatine_qual
+    label: Creatine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Creatine occurs in Scallops muscle/organ tissue; USDA SR Legacy does not
+      report creatine.
 ---
-
 import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview

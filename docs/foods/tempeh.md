@@ -17,46 +17,62 @@ tags:
   - Copper
   - Choline
   - Genistein
-  - Tryptophan
   - Tyrosine
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
 list_image: /img/foods/tempeh/tempeh_thumb.webp
 nutrition_per_100g:
-  kcal: 192
+  vitamin_b12_ug: 0.08
   protein_g: 20.29
-  fat_g: 10.8
+  sat_fat_g: 2.539
   carbs_g: 7.64
-  calcium_mg: 111
+  kcal: 192
+  linoleic_g: 4.052
   iron_mg: 2.7
   magnesium_mg: 81
+  phosphorus_mg: 266
+  sodium_mg: 9
+  copper_mg: 0.56
+  manganese_mg: 1.3
+  vitamin_b1_mg: 0.078
+  vitamin_b2_mg: 0.358
+  folate_ug: 24
+  calcium_mg: 111
   potassium_mg: 412
   zinc_mg: 1.14
-  selenium_ug: 0
+  vitamin_b3_mg: 2.64
+  vitamin_b5_mg: 0.278
   vitamin_b6_mg: 0.215
-  folate_ug: 24
-  vitamin_b12_ug: 0.08
-  sat_fat_g: 2.539
+  fat_g: 10.8
   ala_mg: 960
+  tyrosine_g: 0.664
   omega3_mg: 960
 nutrition_source:
   database: USDA FoodData Central
   food_name: Tempeh
   fdc_id: 174272
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
 main_image: /img/foods/tempeh/tempeh_medium.webp
 legacy_list_image: /img/foods/tempeh/tempeh_thumb.webp
 legacy_main_image: /img/foods/tempeh/tempeh_medium.webp
+nutrition_supplementary_sources:
+  - key: genistein_qual
+    label: Genistein
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA Database for the Isoflavone Content of Selected Foods lists genistein
+      in Tempeh; the selected SR Legacy proximate panel does not include
+      isoflavones.
+  - key: choline_qual
+    label: Choline
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Tempeh is a choline-containing food; the selected USDA SR Legacy record
+      omits choline, so quantity is not established from that panel.
 ---
 ## Overview
 

@@ -43,6 +43,30 @@ nutrition_source:
 main_image: /img/foods/fortified-plant-milks/fortified-plant-milks_medium.webp
 legacy_list_image: /img/foods/fortified-plant-milks/fortified-plant-milks_thumb.webp
 legacy_main_image: /img/foods/fortified-plant-milks/fortified-plant-milks_medium.webp
+nutrition_supplementary_sources:
+  - key: iodine_qual
+    label: Iodine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Fortified Plant Milks is used as a dietary iodine source; iodine is often
+      absent from USDA SR Legacy nutrient panels, so quantity is not established
+      for this page.
+  - key: vitamin_b12_qual
+    label: Vitamin B12
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Fortified Plant Milks supply vitamin B12 only when fortified; USDA SR
+      Legacy has no single representative product, so quantity is not
+      established.
+  - key: vitamin_d_fortified_qual
+    label: Vitamin D
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Fortified Plant Milks supply vitamin D only when fortified; quantity
+      varies by product and is not taken from a single USDA commodity record.
 ---
 ## Overview
 

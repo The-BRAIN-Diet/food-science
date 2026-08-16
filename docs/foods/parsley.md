@@ -8,39 +8,52 @@ tags:
   - Parsley
   - Vegan
   - Vegetarian
-  - Vitamin K2
   - Vitamin C
   - Vitamin B9
   - Polyphenol
+  - Vitamin K
 list_image: /img/foods/parsley/parsley_thumb.webp
 nutrition_per_100g:
-  kcal: 36
-  protein_g: 2.97
-  fat_g: 0.79
   carbs_g: 6.33
-  fibre_g: 3.3
+  choline_mg: 12.8
+  vitamin_e_mg: 0.75
+  kcal: 36
+  vitamin_a_rae_ug: 421
+  vitamin_k_ug: 1640
   calcium_mg: 138
-  iron_mg: 6.2
-  magnesium_mg: 50
   potassium_mg: 554
   zinc_mg: 1.07
-  selenium_ug: 0.1
+  fat_g: 0.79
+  linoleic_g: 0.115
+  vitamin_b3_mg: 1.313
+  vitamin_b5_mg: 0.4
   vitamin_b6_mg: 0.09
-  folate_ug: 152
-  choline_mg: 12.8
-  vitamin_b12_ug: 0
+  protein_g: 2.97
+  fibre_g: 3.3
+  iron_mg: 6.2
+  magnesium_mg: 50
+  phosphorus_mg: 58
+  sodium_mg: 56
+  copper_mg: 0.149
+  manganese_mg: 0.16
   sat_fat_g: 0.132
-  epa_mg: 0
-  dha_mg: 0
   ala_mg: 195
+  vitamin_c_mg: 133
+  vitamin_b1_mg: 0.086
+  vitamin_b2_mg: 0.098
+  folate_ug: 152
+  lutein_zeaxanthin_ug: 5561
+  sugar_g: 0.85
+  beta_carotene_ug: 5054
+  selenium_ug: 0.1
   omega3_mg: 195
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Parsley, fresh'
   fdc_id: 170416
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/parsley/parsley_medium.webp
 legacy_list_image: /img/foods/parsley/parsley_thumb.webp
 legacy_main_image: /img/foods/parsley/parsley_medium.webp

@@ -17,46 +17,81 @@ tags:
   - Polyphenol
 list_image: /img/foods/dark-chocolate/dark-chocolate_thumb.webp
 nutrition_per_100g:
-  iron_mg: 7.89
-  potassium_mg: 571
-  protein_g: 13.16
-  kcal: 526
-  fat_g: 42.11
-  carbs_g: 39.47
-  fibre_g: 10.5
-  sat_fat_g: 15.79
-  calcium_mg: 139
+  vitamin_a_rae_ug: 2
+  fat_g: 42.63
+  carbs_g: 45.9
+  kcal: 598
+  vitamin_e_mg: 0.59
+  lutein_zeaxanthin_ug: 27
+  caproic_g: 0.008
+  capric_g: 0.045
+  linoleic_g: 1.208
+  vitamin_b3_mg: 1.054
+  vitamin_b5_mg: 0.418
+  vitamin_b6_mg: 0.038
+  sugar_g: 23.99
+  calcium_mg: 73
+  potassium_mg: 715
+  zinc_mg: 3.31
+  selenium_ug: 6.8
+  protein_g: 7.79
+  beta_carotene_ug: 19
+  sat_fat_g: 24.489
+  caprylic_g: 0.006
+  vitamin_b1_mg: 0.034
+  vitamin_b2_mg: 0.078
+  vitamin_b12_ug: 0.28
+  ala_mg: 34
+  vitamin_k_ug: 7.3
+  fibre_g: 10.9
+  iron_mg: 11.9
+  magnesium_mg: 228
+  phosphorus_mg: 308
+  sodium_mg: 20
+  copper_mg: 1.766
+  manganese_mg: 1.948
+  omega3_mg: 34
 nutrition_source:
   database: USDA FoodData Central
-  food_name: DARK CHOCOLATE
-  fdc_id: 2460230
-  retrieval_method: API
+  food_name: 'Chocolate, dark, 70-85% cacao solids'
+  fdc_id: 170273
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: epicatechin_mg
     label: Epicatechin
     value: 70.4
     unit: mg
     notes: Often the dominant monomeric cocoa flavanol in dark chocolate.
-    source_note: 'Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0 mg/100 g (mean ~70.4 mg/100 g).'
+    source_note: >-
+      Phenol-Explorer dark-chocolate range for (-)-epicatechin: 32.7–125.0
+      mg/100 g (mean ~70.4 mg/100 g).
   - key: catechin_mg
     label: Catechin
     value: 20.5
     unit: mg
     notes: Present alongside epicatechin; typically lower than epicatechin.
-    source_note: 'Phenol-Explorer dark-chocolate range for (+)-catechin: 10.8–50.0 mg/100 g (mean ~20.5 mg/100 g).'
+    source_note: >-
+      Phenol-Explorer dark-chocolate range for (+)-catechin: 10.8–50.0 mg/100 g
+      (mean ~20.5 mg/100 g).
   - key: oligomeric_procyanidins_mg
     label: Oligomeric Procyanidins
     value: 138.4
     unit: mg
     notes: Oligomeric flavanols; fraction varies with cocoa % and processing.
-    source_note: Proanthocyanidins/procyanidin oligomer fraction in bitter/dark chocolate (40–90% cocoa) reported range ~52.23–224.47 mg/100 g (use as a representative oligomeric procyanidin proxy; values vary strongly with cocoa percentage and processing).
+    source_note: >-
+      Proanthocyanidins/procyanidin oligomer fraction in bitter/dark chocolate
+      (40–90% cocoa) reported range ~52.23–224.47 mg/100 g (use as a
+      representative oligomeric procyanidin proxy; values vary strongly with
+      cocoa percentage and processing).
 nutrition_functional_metrics:
   - key: total_polyphenols_proxy
     label: Total polyphenols (Folin-type)
     amount_display: Varies by product
-    notes: 'Strongly influenced by cocoa percentage, fermentation, roasting, and alkalisation.'
+    notes: >-
+      Strongly influenced by cocoa percentage, fermentation, roasting, and
+      alkalisation.
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/dark-chocolate/dark-chocolate_medium.webp
 legacy_list_image: /img/foods/dark-chocolate/dark-chocolate_thumb.webp

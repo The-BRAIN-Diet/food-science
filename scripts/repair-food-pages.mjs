@@ -29,7 +29,7 @@ const ANIMAL_SLUGS = new Set([
   "milk", "cheese", "greek-yogurt", "butter", "grass-fed-butter", "ghee",
 ])
 const GRAIN_SLUGS = new Set([
-  "barley", "oats", "rice", "wheat", "quinoa", "amaranth", "buckwheat", "spelt", "whole-grains",
+  "barley", "oats", "rice", "wheat", "quinoa", "amaranth", "buckwheat", "spelt", "whole-grains", "wheat-germ",
 ])
 const LEGUME_SLUGS = new Set([
   "lentils", "chickpeas", "black-beans", "kidney-beans", "peas", "lupins", "mucuna-beans", "peanuts",

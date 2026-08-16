@@ -16,34 +16,54 @@ tags:
   - Selenium
 list_image: /img/foods/sardines/sardines_thumb.webp
 nutrition_per_100g:
-  kcal: 902
-  protein_g: 0
-  fat_g: 100
-  carbs_g: 0
-  fibre_g: 0
-  calcium_mg: 0
-  iron_mg: 0
-  magnesium_mg: 0
-  potassium_mg: 0
-  zinc_mg: 0
-  selenium_ug: 0
-  vitamin_b6_mg: 0
-  folate_ug: 0
-  vitamin_b12_ug: 0
-  sat_fat_g: 29.892
-  epa_mg: 10137
-  dha_mg: 10656
-  omega3_mg: 20793
+  vitamin_e_mg: 2.04
+  vitamin_k_ug: 2.6
+  choline_mg: 75
+  vitamin_a_rae_ug: 32
+  folate_ug: 10
+  vitamin_d_ug: 4.8
+  sodium_mg: 307
+  calcium_mg: 382
+  potassium_mg: 397
+  zinc_mg: 1.31
+  fat_g: 11.45
+  kcal: 208
+  linoleic_g: 3.543
+  vitamin_b3_mg: 5.245
+  vitamin_b5_mg: 0.642
+  vitamin_b6_mg: 0.167
+  copper_mg: 0.186
+  manganese_mg: 0.108
+  iron_mg: 2.92
+  magnesium_mg: 39
+  phosphorus_mg: 490
+  protein_g: 24.62
+  vitamin_b1_mg: 0.08
+  vitamin_b2_mg: 0.227
+  sat_fat_g: 1.528
+  vitamin_b12_ug: 8.94
+  dha_mg: 509
+  epa_mg: 473
+  ala_mg: 1489
+  selenium_ug: 52.7
+  omega3_mg: 2471
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Fish oil, sardine'
-  fdc_id: 173578
-  retrieval_method: API
+  food_name: 'Fish, sardine, Atlantic, canned in oil, drained solids with bone'
+  fdc_id: 175139
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/sardines/sardines_medium.webp
 legacy_list_image: /img/foods/sardines/sardines_thumb.webp
 legacy_main_image: /img/foods/sardines/sardines_medium.webp
+nutrition_supplementary_sources:
+  - key: coq10_qual
+    label: CoQ10
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: Food-composition surveys report coenzyme Q10 in Sardines (e.g. Mattila & Kumpulainen 2001); USDA SR Legacy does not include a CoQ10 field.
+protein_profile_note: Complete essential amino acid profile.
 ---
 ## Overview
 
@@ -75,6 +95,11 @@ Within the BRAIN Diet framework, sardines are treated as a **compact, shelf-stab
 ## Recipes
 
 <FoodRecipes tag="Sardines" />
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of animal proteins.
+
 
 <NutritionTable details={frontMatter} />
 

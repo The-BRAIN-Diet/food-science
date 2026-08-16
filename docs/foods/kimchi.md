@@ -11,35 +11,53 @@ tags:
   - Vitamin K2
 list_image: /img/foods/kimchi/kimchi_thumb.webp
 nutrition_per_100g:
-  kcal: 15
-  protein_g: 1.1
   fat_g: 0.5
   carbs_g: 2.4
-  fibre_g: 1.6
+  kcal: 15
+  sugar_g: 1.06
   calcium_mg: 33
-  iron_mg: 2.5
-  magnesium_mg: 14
   potassium_mg: 151
   zinc_mg: 0.22
   selenium_ug: 0.5
+  vitamin_e_mg: 0.11
+  lutein_zeaxanthin_ug: 49
+  vitamin_b3_mg: 1.1
   vitamin_b6_mg: 0.213
-  folate_ug: 52
   choline_mg: 15.5
-  vitamin_b12_ug: 0
+  linoleic_g: 0.104
+  protein_g: 1.1
+  fibre_g: 1.6
+  iron_mg: 2.5
+  magnesium_mg: 14
+  phosphorus_mg: 24
+  sodium_mg: 498
+  copper_mg: 0.024
+  vitamin_a_rae_ug: 5
+  beta_carotene_ug: 55
+  vitamin_b1_mg: 0.01
+  vitamin_b2_mg: 0.21
+  folate_ug: 52
+  vitamin_k_ug: 43.6
   sat_fat_g: 0.067
-  epa_mg: 0
-  dha_mg: 0
-  omega3_mg: 0
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Cabbage, kimchi'
   fdc_id: 170392
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/kimchi/kimchi_medium.webp
 legacy_list_image: /img/foods/kimchi/kimchi_thumb.webp
 legacy_main_image: /img/foods/kimchi/kimchi_medium.webp
+nutrition_supplementary_sources:
+  - key: vitamin_k2_qual
+    label: Vitamin K2
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Kimchi is a documented dietary source of menaquinones (vitamin K2). USDA
+      SR Legacy reports phylloquinone (vitamin K1), not K2, so K2 quantity is
+      not established here.
 ---
 ## Overview
 

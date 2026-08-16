@@ -2,11 +2,11 @@
 id: mushrooms
 title: White/Button Mushroom
 sidebar_label: White/Button Mushroom
-description: 'Agaricus bisporus — canonical entry for white/button, cremini, chestnut (UK), and portobello; niacin and UV-exposed vitamin D'
+description: >-
+  Agaricus bisporus — canonical entry for white/button, cremini, chestnut (UK),
+  and portobello; niacin and UV-exposed vitamin D
 tags:
   - Food
-  - White Button Mushroom
-  - Mushrooms
   - Vegan
   - Vegetarian
   - Vitamin B3
@@ -14,27 +14,44 @@ tags:
   - Selenium
 list_image: /img/foods/mushrooms/mushrooms_thumb.webp
 nutrition_per_100g:
-  kcal: 22
-  protein_g: 3.09
-  fat_g: 0.34
-  carbs_g: 3.26
+  sugar_g: 1.98
+  linoleic_g: 0.16
+  sat_fat_g: 0.05
+  vitamin_b12_ug: 0.04
   fibre_g: 1
+  fat_g: 0.34
   calcium_mg: 3
-  iron_mg: 0.5
-  magnesium_mg: 9
   potassium_mg: 318
   zinc_mg: 0.52
   selenium_ug: 9.3
+  vitamin_e_mg: 0.01
+  vitamin_b3_mg: 3.607
+  vitamin_b5_mg: 1.497
   vitamin_b6_mg: 0.104
+  vitamin_c_mg: 2.1
+  vitamin_b1_mg: 0.081
+  vitamin_b2_mg: 0.402
+  iron_mg: 0.5
+  magnesium_mg: 9
+  phosphorus_mg: 86
+  sodium_mg: 5
+  copper_mg: 0.318
+  manganese_mg: 0.047
+  protein_g: 3.09
   folate_ug: 17
+  ala_mg: 199
+  vitamin_d_ug: 0.2
+  carbs_g: 3.26
+  kcal: 22
+  choline_mg: 17.3
+  omega3_mg: 199
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Mushrooms, white, raw'
   fdc_id: 169251
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-06-01'
-  note: 'White/button stage of Agaricus bisporus; cremini, chestnut (UK), and portobello differ mainly in maturity and water content, not species.'
+  last_checked: '2026-08-15'
 main_image: /img/foods/mushrooms/mushrooms_medium.webp
 legacy_list_image: /img/foods/mushrooms/mushrooms_thumb.webp
 legacy_main_image: /img/foods/mushrooms/mushrooms_medium.webp

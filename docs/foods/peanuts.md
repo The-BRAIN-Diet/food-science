@@ -21,22 +21,41 @@ tags:
   - Polyphenol
 list_image: /img/foods/peanuts/peanuts_thumb.webp
 nutrition_per_100g:
-  kcal: 571
-  iron_mg: 3.57
-  sat_fat_g: 7.14
-  protein_g: 25
-  fat_g: 39.29
-  carbs_g: 32.14
-  calcium_mg: 18
-  potassium_mg: 675
-  fibre_g: 10.7
+  choline_mg: 52.5
+  fibre_g: 8.5
+  sugar_g: 4.72
+  sodium_mg: 18
+  copper_mg: 1.144
+  manganese_mg: 1.934
+  vitamin_b1_mg: 0.64
+  vitamin_b2_mg: 0.135
+  folate_ug: 240
+  ala_mg: 1025
+  sat_fat_g: 6.279
+  iron_mg: 4.58
+  magnesium_mg: 168
+  phosphorus_mg: 376
+  protein_g: 25.8
+  linoleic_g: 15.555
+  calcium_mg: 92
+  potassium_mg: 705
+  zinc_mg: 3.27
+  selenium_ug: 7.2
+  vitamin_e_mg: 8.33
+  vitamin_b3_mg: 12.066
+  vitamin_b5_mg: 1.767
+  vitamin_b6_mg: 0.348
+  fat_g: 49.24
+  carbs_g: 16.13
+  kcal: 567
+  omega3_mg: 1025
 nutrition_source:
   database: USDA FoodData Central
-  food_name: PEANUTS
-  fdc_id: 2655605
-  retrieval_method: API
+  food_name: 'Peanuts, all types, raw'
+  fdc_id: 172430
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'

@@ -11,30 +11,38 @@ tags:
   - Polyphenols
 list_image: /img/foods/coffee/coffee_thumb.webp
 nutrition_per_100g:
-  kcal: 62
-  protein_g: 2.06
-  fat_g: 1.44
-  carbs_g: 10.29
-  fibre_g: 0
-  calcium_mg: 123
-  iron_mg: 0
-  magnesium_mg: 0
-  potassium_mg: 132
-  zinc_mg: 0.37
-  selenium_ug: 0
-  folate_ug: 7
-  vitamin_b12_ug: 0.37
-  sat_fat_g: 0.206
+  protein_g: 0.3
+  iron_mg: 0.02
+  magnesium_mg: 4
+  phosphorus_mg: 3
+  sodium_mg: 1
+  copper_mg: 0.005
+  manganese_mg: 0.032
+  vitamin_b1_mg: 0.02
+  kcal: 2
+  calcium_mg: 2
+  potassium_mg: 50
+  zinc_mg: 0.02
+  vitamin_b3_mg: 0.8
+  carbs_g: 0.17
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'SILK Coffee, soymilk'
-  fdc_id: 175224
-  retrieval_method: API
+  food_name: 'Beverages, coffee, brewed, breakfast blend'
+  fdc_id: 171881
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/coffee/coffee_medium.webp
 legacy_list_image: /img/foods/coffee/coffee_thumb.webp
 legacy_main_image: /img/foods/coffee/coffee_medium.webp
+nutrition_supplementary_sources:
+  - key: polyphenols_qual
+    label: Polyphenols
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Coffee is a dietary source of chlorogenic acids and related polyphenols;
+      USDA SR Legacy does not report total polyphenols for brewed coffee.
 ---
 ## Overview
 

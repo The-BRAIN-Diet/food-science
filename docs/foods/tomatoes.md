@@ -13,26 +13,46 @@ tags:
   - Potassium
 list_image: /img/foods/tomatoes/tomatoes_thumb.webp
 nutrition_per_100g:
-  kcal: 18.95436075
-  protein_g: 0.695625
-  fat_g: 0.425
-  carbs_g: 3.837475
-  fibre_g: 0.9706
-  calcium_mg: 9.963
-  iron_mg: 0.1031
-  magnesium_mg: 8.089
-  potassium_mg: 192.8
-  zinc_mg: 0.08245
-  selenium_ug: 0
-  vitamin_b6_mg: 0.07894
-  folate_ug: 9.994
+  choline_mg: 6.7
+  ala_mg: 27
+  lycopene_ug: 2573
+  vitamin_c_mg: 13.7
+  sugar_g: 2.63
+  carbs_g: 3.89
+  kcal: 18
+  linoleic_g: 0.08
+  vitamin_a_rae_ug: 42
+  sat_fat_g: 0.028
+  calcium_mg: 10
+  potassium_mg: 237
+  zinc_mg: 0.17
+  vitamin_e_mg: 0.54
+  lutein_zeaxanthin_ug: 123
+  vitamin_b3_mg: 0.594
+  vitamin_b5_mg: 0.089
+  vitamin_b6_mg: 0.08
+  fat_g: 0.2
+  vitamin_k_ug: 7.9
+  fibre_g: 1.2
+  iron_mg: 0.27
+  magnesium_mg: 11
+  phosphorus_mg: 24
+  sodium_mg: 5
+  copper_mg: 0.059
+  manganese_mg: 0.114
+  protein_g: 0.88
+  beta_carotene_ug: 449
+  vitamin_b1_mg: 0.037
+  vitamin_b2_mg: 0.019
+  folate_ug: 15
+  omega3_mg: 27
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Tomato, roma'
-  fdc_id: 1999634
-  retrieval_method: API
+  food_name: 'Tomatoes, red, ripe, raw, year round average'
+  fdc_id: 170457
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/tomatoes/tomatoes_medium.webp
 legacy_list_image: /img/foods/tomatoes/tomatoes_thumb.webp
 legacy_main_image: /img/foods/tomatoes/tomatoes_medium.webp

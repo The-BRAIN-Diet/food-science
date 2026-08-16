@@ -6,6 +6,10 @@ import InChIImage from "../InChIImage"
 import {
   NUTRIENT_ORDER,
   NUTRIENT_LABELS,
+  isPublicSupplementaryRow,
+  isPublicTableKey,
+  isTraceContribution,
+  substanceLabelsOverlap,
 } from "@site/src/data/nutritionTableMapping"
 
 /**
@@ -36,6 +40,7 @@ interface SupplementarySource {
   value?: number
   unit?: string
   amount_display?: string
+  status?: string
   source_note: string
 }
 
@@ -104,6 +109,19 @@ const CATEGORY_TAGS = new Set([
   "Vegetarian",
   "Recipe",
   "Area",
+  "Pufa",
+  "Protein",
+  "Fibre",
+  "Condiments",
+  "Dairy",
+  "Yogurt",
+  "Mushrooms",
+  "Cacao",
+  "Cocoa",
+  "Fermented Vegetables",
+  "Duckweed",
+  "Lupins",
+  "White Button Mushroom",
 ])
 
 // Conceptual "category" substance docs that should not appear as
@@ -132,13 +150,9 @@ const EXCLUDED_SUBSTANCE_KEYS = new Set([
 /**
  * FoodSubstancesFromTable
  *
- * Displays the union of two substance sources:
- * 1. Editorial: substances identified in the Overview (frontMatter tags), from
- *    established scientific literature about the food.
- * 2. Analytical: substances derived from the nutrition table (USDA or equivalent).
- *
- * Neither source alone is sufficient. Editorial ensures biologically defining
- * compounds are present; analytical ensures accurate compositional coverage.
+ * Substances list for the canonical Three Sources of Truth: cards that already
+ * have a supported nutrition-table row. Editorial tags without a row are omitted.
+ * Not every table row becomes a card. Cards are not BRS mappings.
  */
 export default function FoodSubstancesFromTable({
   details,
@@ -166,7 +180,8 @@ export default function FoodSubstancesFromTable({
           typeof s.value === "number" && typeof s.unit === "string" && !Number.isNaN(s.value)
         const hasDisplay =
           typeof s.amount_display === "string" && s.amount_display.trim().length > 0
-        return hasNumeric || hasDisplay
+        const hasStatus = typeof s.status === "string" && s.status.trim().length > 0
+        return hasNumeric || hasDisplay || hasStatus
       })
     : []
 
@@ -235,14 +250,7 @@ export default function FoodSubstancesFromTable({
     ).values()
   ).filter((doc: Document) => {
     const substanceName = getSubstanceName(doc.title)
-    // Respect the "trace" suppression if present.
-    const contributionLevels =
-      (details.contribution_levels as Record<string, string> | undefined) || {}
-    const level =
-      contributionLevels[substanceName] ??
-      contributionLevels[doc.title] ??
-      "Contextual / minor contributor"
-    return level !== "Presence only (trace)"
+    return !isTraceContribution(details, substanceName) && !isTraceContribution(details, doc.title)
   })
   editorialDocs.sort((a: Document, b: Document) => {
     const orderCompare = (a.order ?? 0) - (b.order ?? 0)
@@ -251,24 +259,41 @@ export default function FoodSubstancesFromTable({
   })
 
   // 2) Analytical: compounds from nutrition table (USDA / compositional data)
-  const labelsInOrder: string[] = []
+  const tableLabels: string[] = []
   for (const key of NUTRIENT_ORDER) {
     if (EXCLUDED_SUBSTANCE_KEYS.has(key)) continue
+    if (!isPublicTableKey(details, key)) continue
     const value = nutrition[key]
     if (value != null && typeof value === "number" && value > 0) {
-      const label = NUTRIENT_LABELS[key]?.label ?? key
-      labelsInOrder.push(label)
+      tableLabels.push(NUTRIENT_LABELS[key]?.label ?? key)
     }
   }
   for (const sup of supplementary) {
-    labelsInOrder.push(sup.label)
+    if (!isPublicSupplementaryRow(details, sup)) continue
+    tableLabels.push(sup.label)
   }
+  const labelsInOrder = supplementary
+    .filter((sup) => isPublicSupplementaryRow(details, sup))
+    .map((sup) => sup.label)
+  const resolveSubstanceDoc = (label: string): Document | undefined => {
+    const exact = substanceNameMap.get(label)
+    if (exact) return exact
+    for (const [key, doc] of substanceNameMap) {
+      if (substanceLabelsOverlap(label, key)) return doc
+    }
+    return undefined
+  }
+
   const analyticalResolved = labelsInOrder.map((label) => ({
     label,
-    doc: substanceNameMap.get(label) ?? null,
+    doc: resolveSubstanceDoc(label) ?? null,
   }))
 
-  // 3) Union: editorial first, then analytical (skip if already present by doc or label)
+  const rowBacked = (label: string): boolean =>
+    tableLabels.some((tableLabel) => substanceLabelsOverlap(label, tableLabel))
+
+  // Union: editorial tags that already have a table row, then public supplementary
+  // analytes not already listed. Not every table row becomes a card.
   const seenPermalinks = new Set<string>()
   const seenLabels = new Set<string>()
   type Entry = { label: string; doc: Document | null }
@@ -276,6 +301,7 @@ export default function FoodSubstancesFromTable({
   for (const doc of editorialDocs) {
     const baseTitle = getSubstanceName(doc.title)
     if (EXCLUDED_SUBSTANCE_TITLES.has(baseTitle)) continue
+    if (!rowBacked(baseTitle) && !rowBacked(doc.title)) continue
     seenPermalinks.add(doc.permalink)
     seenLabels.add(baseTitle)
     merged.push({ label: baseTitle || doc.title, doc })
@@ -307,7 +333,8 @@ export default function FoodSubstancesFromTable({
   return (
     <div className="bok-tag-list">
       <p style={{fontSize: "0.9em", color: "var(--ifm-color-content-secondary)"}}>
-        Substances in this food: editorial (Overview / literature) plus analytical (nutrition table).
+        Substances admitted through a supported nutrition-table row. Not every
+        table row appears here. Cards are not BRS mappings.
       </p>
       <details open>
         <summary

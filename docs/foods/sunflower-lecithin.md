@@ -27,6 +27,23 @@ nutrition_source:
 main_image: /img/foods/sunflower-lecithin/sunflower-lecithin_medium.webp
 legacy_list_image: /img/foods/sunflower-lecithin/sunflower-lecithin_thumb.webp
 legacy_main_image: /img/foods/sunflower-lecithin/sunflower-lecithin_medium.webp
+nutrition_supplementary_sources:
+  - key: phosphatidylcholine_qual
+    label: Phosphatidylcholine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Sunflower Lecithin is a phospholipid-rich food in which
+      phosphatidylcholine is a major choline form; USDA SR Legacy reports
+      choline, not phosphatidylcholine specifically.
+  - key: choline_qual
+    label: Choline
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Sunflower Lecithin is a choline-containing food; the selected USDA SR
+      Legacy record omits choline, so quantity is not established from that
+      panel.
 ---
 ## Overview
 

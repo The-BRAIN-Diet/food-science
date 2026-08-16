@@ -2,7 +2,9 @@
 id: early-harvest-olive-oil
 title: Olive Oil (Early Harvest)
 sidebar_label: Olive Oil (Early Harvest)
-description: 'Premium extra virgin olive oil with enhanced CoQ10, oleuropein, and polyphenol content from early harvest timing'
+description: >-
+  Premium extra virgin olive oil with enhanced CoQ10, oleuropein, and polyphenol
+  content from early harvest timing
 tags:
   - Food
   - Olive Oil (Early Harvest)
@@ -17,21 +19,72 @@ tags:
   - Polyphenol
 list_image: /img/foods/early-harvest-olive-oil/early-harvest-olive-oil_thumb.webp
 nutrition_per_100g:
-  sat_fat_g: 15.82
-  ala_mg: 606.7
-  epa_mg: 0.625
-  dha_mg: 0
-  omega3_mg: 607.325
+  vitamin_e_mg: 14.35
+  fat_g: 100
+  kcal: 884
+  calcium_mg: 1
+  potassium_mg: 1
+  linoleic_g: 9.762
+  iron_mg: 0.56
+  sodium_mg: 2
+  sat_fat_g: 13.808
+  choline_mg: 0.3
+  vitamin_k_ug: 60.2
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Oil, olive, extra light'
-  fdc_id: 1750351
-  retrieval_method: API
+  food_name: 'Oil, olive, salad or cooking'
+  fdc_id: 171413
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/early-harvest-olive-oil/early-harvest-olive-oil_medium.webp
 legacy_list_image: /img/foods/early-harvest-olive-oil/early-harvest-olive-oil_thumb.webp
 legacy_main_image: /img/foods/early-harvest-olive-oil/early-harvest-olive-oil_medium.webp
+nutrition_supplementary_sources:
+  - key: hydroxytyrosol_qual
+    label: Hydroxytyrosol
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Olive-oil phenol composition includes hydroxytyrosol in Olive Oil (Early
+      Harvest); USDA SR Legacy olive-oil records do not report individual
+      phenols.
+  - key: tyrosol_qual
+    label: Tyrosol
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Olive-oil phenol composition includes tyrosol in Olive Oil (Early
+      Harvest); USDA SR Legacy does not report individual phenols.
+  - key: oleuropein_qual
+    label: Oleuropein
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Olive Oil (Early Harvest) retains oleuropein-related secoiridoids typical
+      of early-harvest fruit; USDA SR Legacy does not report oleuropein.
+  - key: oleocanthal_qual
+    label: Oleocanthal
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Olive Oil (Early Harvest) is a documented source of oleocanthal; USDA SR
+      Legacy does not report this phenol.
+  - key: oleacein_qual
+    label: Oleacein
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Olive Oil (Early Harvest) is a documented source of oleacein; USDA SR
+      Legacy does not report this phenol.
+  - key: coq10_qual
+    label: CoQ10
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Food-composition surveys report coenzyme Q10 in Olive Oil (Early Harvest)
+      (e.g. Mattila & Kumpulainen 2001); USDA SR Legacy does not include a CoQ10
+      field.
 ---
 ## Overview
 

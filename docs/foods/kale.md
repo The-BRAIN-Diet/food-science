@@ -21,40 +21,67 @@ tags:
   - Vitamin B6
   - Vitamin B9
   - Vitamin C
-  - Vitamin K2
   - Vitamin A
   - Quercetin
   - Carotenoid
   - Lutein
   - Zeaxanthin
   - Beta-Carotene
+  - Vitamin K
 list_image: /img/foods/kale/kale_thumb.webp
 nutrition_per_100g:
-  kcal: 35
+  sat_fat_g: 0.178
+  vitamin_a_rae_ug: 241
+  beta_carotene_ug: 2873
+  vitamin_k_ug: 389.6
+  ala_mg: 147
   protein_g: 2.92
+  vitamin_c_mg: 93.4
+  vitamin_b1_mg: 0.113
+  vitamin_b2_mg: 0.347
+  folate_ug: 62
+  fibre_g: 4.1
+  iron_mg: 1.6
+  magnesium_mg: 33
+  phosphorus_mg: 55
+  sodium_mg: 53
+  copper_mg: 0.053
+  manganese_mg: 0.92
+  linoleic_g: 0.291
   fat_g: 1.49
   carbs_g: 4.42
-  fibre_g: 4.1
-  sugar_g: 0.8
-  ala_mg: 0
+  kcal: 35
+  vitamin_e_mg: 0.66
+  sugar_g: 0.99
   calcium_mg: 254
-  iron_mg: 1.6
-  magnesium_mg: 32.7
   potassium_mg: 348
   zinc_mg: 0.39
+  lutein_zeaxanthin_ug: 6261
+  vitamin_b3_mg: 1.18
+  vitamin_b5_mg: 0.37
   vitamin_b6_mg: 0.147
-  folate_ug: 62
-  omega3_mg: 0
+  choline_mg: 0.5
+  selenium_ug: 0.9
+  omega3_mg: 147
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Kale, raw'
-  fdc_id: 323505
-  retrieval_method: API
+  fdc_id: 168421
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/kale/kale_medium.webp
 legacy_list_image: /img/foods/kale/kale_thumb.webp
 legacy_main_image: /img/foods/kale/kale_medium.webp
+nutrition_supplementary_sources:
+  - key: quercetin_qual
+    label: Quercetin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
+      reports quercetin glycosides in Kale; a single defensible per-100 g value
+      is not taken from the abbreviated USDA nutrient panel.
 ---
 ## Overview
 

@@ -1,10 +1,14 @@
 #!/usr/bin/env node
 /**
- * Script B — Overview-driven compound enrichment
+ * Script B — Overview-driven compound enrichment (curated lookup)
  *
- * Reads a food page and its payload (from Script A). Detects compounds
- * that should appear in the table but are missing; looks them up in
- * approved secondary sources and adds nutrition_supplementary_sources.
+ * Reads a food page and its payload (from Script A). Detects headline Overview
+ * compounds missing from the table. Applies a supplementary row only when the
+ * compound is already curated in scripts/data/literature-compounds.json for
+ * that food slug. Does not invent values or treat arbitrary web results as
+ * compositional evidence.
+ *
+ * Unresolved candidates are written to scripts/out/overview-enrichment-review.json.
  *
  * Enrichment trigger (deterministic order):
  *   1. If front matter has overview_key_compounds (list of names), use that.
@@ -22,31 +26,23 @@ import fs from "node:fs"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
 import matter from "gray-matter"
+import {
+  NUTRIENT_LABELS as NUTRIENT_LABEL_META,
+  SUBSTANCE_LABEL_ALIASES,
+  extractOverviewSection,
+  labelsOverlap,
+  normaliseLabel,
+  overviewHeadlineCompounds,
+  tableBackedLabels,
+} from "./lib/food-truth-levels.mjs"
+import { loadSubstanceLookup, substancePageForLabel } from "./lib/food-truth-reconciliation.mjs"
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const SKIP_SLUGS = new Set(["index", "shopping-list"])
 
-// Labels for core table keys (must stay in sync with nutritionTableMapping.ts / schema)
-const NUTRIENT_LABELS = {
-  kcal: "Energy",
-  protein_g: "Protein",
-  fat_g: "Total fat",
-  sat_fat_g: "Saturated fat",
-  carbs_g: "Carbohydrates",
-  iron_mg: "Iron",
-  zinc_mg: "Zinc",
-  magnesium_mg: "Magnesium",
-  selenium_ug: "Selenium",
-  calcium_mg: "Calcium",
-  potassium_mg: "Potassium",
-  choline_mg: "Choline",
-  folate_ug: "Folate",
-  vitamin_b12_ug: "Vitamin B12",
-  vitamin_b6_mg: "Vitamin B6",
-  omega3_mg: "Total omega-3",
-  epa_mg: "EPA",
-  dha_mg: "DHA",
-}
+const NUTRIENT_LABELS = Object.fromEntries(
+  Object.entries(NUTRIENT_LABEL_META).map(([key, meta]) => [key, meta.label]),
+)
 
 function getFoodSlugs(pagesDir) {
   const abs = path.resolve(process.cwd(), pagesDir)
@@ -91,26 +87,12 @@ function parseArgs() {
   return out
 }
 
-/**
- * Extract the first paragraph/section under ## Overview (up to next ## or end).
- */
-function extractOverviewText(mdContent) {
-  const match = mdContent.match(/(?:^|\n)##\s+Overview\s*\n([\s\S]*?)(?=\n##\s|$)/i)
-  return match ? match[1].trim() : ""
-}
-
-/**
- * Extract **bold** phrases from text; return normalized identifiers (lowercase, single space).
- */
-function extractBoldPhrases(text) {
-  const boldRegex = /\*\*([^*]+)\*\*/g
-  const set = new Set()
-  let m
-  while ((m = boldRegex.exec(text)) !== null) {
-    const normalized = m[1].trim().toLowerCase().replace(/\s+/g, " ")
-    if (normalized.length > 0) set.add(normalized)
-  }
-  return [...set]
+function addLabelAndAliases(set, label) {
+  const normalised = normaliseLabel(label)
+  if (!normalised) return
+  set.add(normalised)
+  const aliases = SUBSTANCE_LABEL_ALIASES[normalised] || []
+  for (const alias of aliases) set.add(normaliseLabel(alias))
 }
 
 /**
@@ -118,59 +100,101 @@ function extractBoldPhrases(text) {
  */
 function buildTableLabelSet(nutritionPer100g, supplementarySources) {
   const set = new Set()
-  for (const label of Object.values(NUTRIENT_LABELS)) {
-    if (label) set.add(label.trim().toLowerCase())
-  }
   if (nutritionPer100g && typeof nutritionPer100g === "object") {
     for (const key of Object.keys(nutritionPer100g)) {
-      const label = NUTRIENT_LABELS[key] || key
-      set.add(String(label).trim().toLowerCase())
+      addLabelAndAliases(set, NUTRIENT_LABELS[key] || key)
     }
   }
   if (Array.isArray(supplementarySources)) {
     for (const s of supplementarySources) {
-      if (s && typeof s.label === "string") set.add(s.label.trim().toLowerCase())
+      if (s && typeof s.label === "string") addLabelAndAliases(set, s.label)
     }
   }
   return set
 }
 
 /**
- * Map a compound name (from overview_key_compounds or bold phrase) to a literature-compounds key.
- */
-function phraseToCompoundId(phrase, literatureKeys) {
-  const n = phrase.trim().toLowerCase().replace(/\s+/g, " ")
-  if (literatureKeys.has(n)) return n
-  const withoutSpaces = n.replace(/\s/g, "")
-  if (literatureKeys.has(withoutSpaces)) return withoutSpaces
-  return null
-}
-
-/**
- * Get the list of compound names to consider for enrichment.
- * Prefer front matter overview_key_compounds; fall back to bold phrases in ## Overview.
- * Returns a deduplicated array of normalized strings (lowercase, single space).
- */
+ * Headline Overview compounds for enrichment.
 function getCandidateCompounds(pagePath) {
   const pageAbs = path.resolve(process.cwd(), pagePath)
   const raw = fs.readFileSync(pageAbs, "utf8")
   const parsed = matter(raw)
-
-  const fromFrontMatter = parsed.data?.overview_key_compounds
-  if (Array.isArray(fromFrontMatter) && fromFrontMatter.length > 0) {
-    const seen = new Set()
-    return fromFrontMatter.filter((item) => {
-      const s = String(item).trim()
-      if (!s) return false
-      const normalized = s.toLowerCase().replace(/\s+/g, " ")
-      if (seen.has(normalized)) return false
-      seen.add(normalized)
-      return true
-    })
+  return {
+    compounds: overviewHeadlineCompounds(parsed.data, parsed.content),
+    overviewText: extractOverviewSection(parsed.content),
+    slug: String(parsed.data.id || path.basename(pagePath, ".md")),
+    fm: parsed.data,
   }
+}
 
-  const overviewText = extractOverviewText(parsed.content)
-  return extractBoldPhrases(overviewText)
+function loadLiteratureDataset() {
+  const literaturePath = path.join(__dirname, "data", "literature-compounds.json")
+  const literature = {}
+  if (!fs.existsSync(literaturePath)) return literature
+  try {
+    const raw = JSON.parse(fs.readFileSync(literaturePath, "utf8"))
+    for (const [k, v] of Object.entries(raw)) {
+      if (k === "comment" || !v || typeof v !== "object") continue
+      if (!v.key || !v.label || typeof v.source_note !== "string") continue
+      literature[k] = v
+    }
+  } catch (_) {}
+  return literature
+}
+
+function literatureEntryForPhrase(phrase, literature, slug) {
+  const n = phrase.trim().toLowerCase().replace(/\s+/g, " ")
+  const withoutSpaces = n.replace(/\s/g, "")
+  for (const [id, entry] of Object.entries(literature)) {
+    const idNorm = id.toLowerCase().replace(/\s+/g, " ")
+    if (idNorm !== n && id.replace(/\s/g, "") !== withoutSpaces && !labelsOverlap(phrase, entry.label)) {
+      continue
+    }
+    const slugs = Array.isArray(entry.slugs) ? entry.slugs : []
+    if (!slugs.includes(slug)) continue
+    const hasNumeric = typeof entry.value === "number" && entry.unit
+    if (!hasNumeric && !entry.amount_display && !entry.status) continue
+    return { id, entry }
+  }
+  return null
+}
+
+function isAmbiguousPhrase(phrase) {
+  const words = phrase.trim().split(/\s+/)
+  if (words.length >= 5) return true
+  const lower = phrase.toLowerCase()
+  return (
+    lower.includes("support") ||
+    lower.includes("function") ||
+    lower.includes("network") ||
+    lower.includes("pattern") ||
+    lower.includes("option")
+  )
+}
+
+function buildReviewItem({
+  slug,
+  compound,
+  overviewText,
+  tableMatch,
+  substanceMatch,
+  decision,
+  verificationStatus,
+  proposed,
+}) {
+  return {
+    food_slug: slug,
+    compound_candidate: compound,
+    triggering_overview_text: overviewText.slice(0, 500),
+    existing_table_match: tableMatch,
+    existing_canonical_substance_match: substanceMatch,
+    verification_status: verificationStatus,
+    proposed_source: proposed?.source_note ?? null,
+    proposed_value: proposed?.value ?? null,
+    proposed_unit: proposed?.unit ?? null,
+    food_basis: proposed?.basis ?? "per 100 g edible portion",
+    decision,
+  }
 }
 
 /**
@@ -189,7 +213,8 @@ function isStrictSupplementary(entry) {
     typeof entry.value === "number" && typeof entry.unit === "string" && !Number.isNaN(entry.value)
   const hasDisplay =
     typeof entry.amount_display === "string" && entry.amount_display.trim().length > 0
-  return hasNumeric || hasDisplay
+  const hasStatus = typeof entry.status === "string" && entry.status.trim().length > 0
+  return hasNumeric || hasDisplay || hasStatus
 }
 
 function runOne(pagePath, payloadPath, options = {}) {
@@ -198,7 +223,7 @@ function runOne(pagePath, payloadPath, options = {}) {
   const payloadAbs = path.resolve(process.cwd(), payloadPath)
 
   if (!fs.existsSync(pageAbs)) {
-    if (createPayloadIfMissing) return { skipped: true, reason: "page not found" }
+    if (createPayloadIfMissing) return { skipped: true, reason: "page not found", reviewItems: [] }
     console.error(`Page not found: ${pageAbs}`)
     process.exit(1)
   }
@@ -213,7 +238,10 @@ function runOne(pagePath, payloadPath, options = {}) {
     fs.writeFileSync(payloadAbs, JSON.stringify(payload, null, 2) + "\n", "utf8")
   }
 
-  const candidatePhrases = getCandidateCompounds(pagePath)
+  const candidateInfo = getCandidateCompounds(pagePath)
+  const candidatePhrases = candidateInfo.compounds
+  const slug = candidateInfo.slug
+  const overviewText = candidateInfo.overviewText
 
   let payload
   try {
@@ -229,39 +257,70 @@ function runOne(pagePath, payloadPath, options = {}) {
     : []
 
   const tableLabelSet = buildTableLabelSet(nutritionPer100g, existingSupplementary)
-
-  const literaturePath = path.join(__dirname, "data", "literature-compounds.json")
-  let literature = {}
-  if (fs.existsSync(literaturePath)) {
-    try {
-      const raw = JSON.parse(fs.readFileSync(literaturePath, "utf8"))
-      for (const [k, v] of Object.entries(raw)) {
-        if (k !== "comment" && v && typeof v === "object" && v.key && v.label && typeof v.value === "number" && v.unit && v.source_note) {
-          literature[k] = v
-        }
-      }
-    } catch (_) {}
-  }
-  const literatureKeys = new Set(Object.keys(literature))
-
+  const tableLabels = tableBackedLabels({
+    ...candidateInfo.fm,
+    nutrition_per_100g: nutritionPer100g,
+    nutrition_supplementary_sources: existingSupplementary,
+  })
+  const literature = loadLiteratureDataset()
+  const substanceLookup = loadSubstanceLookup()
   const existingByKey = new Map(existingSupplementary.map((s) => [s.key, s]))
   const toAdd = []
+  const reviewItems = []
 
   for (const phrase of candidatePhrases) {
     const normalizedPhrase = phrase.trim().toLowerCase().replace(/\s+/g, " ")
-    if (tableLabelSet.has(normalizedPhrase)) continue
-    const compoundId = phraseToCompoundId(phrase, literatureKeys)
-    if (!compoundId || !literature[compoundId]) continue
-    const entry = literature[compoundId]
-    if (existingByKey.has(entry.key)) continue
-    toAdd.push({
-      key: entry.key,
-      label: entry.label,
-      value: entry.value,
-      unit: entry.unit,
-      source_note: entry.source_note,
-    })
-    existingByKey.set(entry.key, entry)
+    const tableMatch =
+      tableLabels.find((label) => labelsOverlap(phrase, label)) ||
+      (tableLabelSet.has(normalizedPhrase) ? phrase : null)
+    const substanceHit = substancePageForLabel(phrase, substanceLookup)
+    const substanceMatch = substanceHit ? substanceHit.file : null
+
+    if (tableMatch) {
+      continue
+    }
+
+    const curated = literatureEntryForPhrase(phrase, literature, slug)
+    if (curated && !existingByKey.has(curated.entry.key)) {
+      const entry = curated.entry
+      toAdd.push({
+        key: entry.key,
+        label: entry.label,
+        value: entry.value,
+        unit: entry.unit,
+        amount_display: entry.amount_display,
+        status: entry.status,
+        source_note: entry.source_note,
+      })
+      existingByKey.set(entry.key, entry)
+      reviewItems.push(
+        buildReviewItem({
+          slug,
+          compound: phrase,
+          overviewText,
+          tableMatch: null,
+          substanceMatch,
+          decision: "verified",
+          verificationStatus: "curated in literature-compounds.json for this food",
+          proposed: entry,
+        }),
+      )
+      continue
+    }
+
+    const decision = isAmbiguousPhrase(phrase) ? "ambiguous" : "requires-review"
+    reviewItems.push(
+      buildReviewItem({
+        slug,
+        compound: phrase,
+        overviewText,
+        tableMatch: null,
+        substanceMatch,
+        decision,
+        verificationStatus: "not in curated provenance dataset; not applied",
+        proposed: null,
+      }),
+    )
   }
 
   const mergedSupplementary = [...existingSupplementary]
@@ -277,7 +336,22 @@ function runOne(pagePath, payloadPath, options = {}) {
 
   fs.writeFileSync(payloadAbs, JSON.stringify(payload, null, 2) + "\n", "utf8")
   if (!options?.quiet) console.log(`Updated payload: ${payloadPath}`)
-  return { skipped: false }
+  return { skipped: false, reviewItems, applied: toAdd.length }
+}
+
+function writeReviewQueue(items, payloadDir) {
+  const outDir = path.resolve(process.cwd(), payloadDir || "scripts/out")
+  fs.mkdirSync(outDir, { recursive: true })
+  const outPath = path.join(outDir, "overview-enrichment-review.json")
+  const payload = {
+    generated_at: new Date().toISOString(),
+    note: "Script B review queue. Verified rows were already in literature-compounds.json for that food. Do not treat this file as compositional evidence. Curate verified entries into the provenance dataset before applying them.",
+    literature_dataset: "scripts/data/literature-compounds.json",
+    literature_dataset_entries: Object.keys(loadLiteratureDataset()),
+    items,
+  }
+  fs.writeFileSync(outPath, JSON.stringify(payload, null, 2) + "\n", "utf8")
+  console.log(`Review queue: ${path.relative(process.cwd(), outPath)} (${items.length} item(s))`)
 }
 
 function runAll(pagesDir, payloadDir) {
@@ -289,6 +363,7 @@ function runAll(pagesDir, payloadDir) {
   }
   const slugs = getFoodSlugs(pagesDir)
   const stats = { foodsProcessed: 0, payloadsCreated: 0, payloadsEnriched: 0, skipped: [] }
+  const reviewItems = []
   for (const slug of slugs) {
     const pagePath = path.join(pagesDir, `${slug}.md`)
     const payloadPath = path.join(payloadDir, `${slug}.json`)
@@ -301,12 +376,15 @@ function runAll(pagesDir, payloadDir) {
     stats.foodsProcessed++
     if (!payloadExisted) stats.payloadsCreated++
     stats.payloadsEnriched++
+    if (Array.isArray(result.reviewItems)) reviewItems.push(...result.reviewItems)
   }
+  writeReviewQueue(reviewItems, payloadDir)
   console.log("\n--- Nutrition pipeline summary (Script B) ---")
   console.log("Foods detected:", slugs.length)
   console.log("Foods processed:", stats.foodsProcessed)
   console.log("Payloads created (from front matter):", stats.payloadsCreated)
   console.log("Payloads enriched:", stats.payloadsEnriched)
+  console.log("Review-queue items:", reviewItems.length)
   console.log("Skipped:", stats.skipped.length)
   if (stats.skipped.length) stats.skipped.forEach((s) => console.log("  ", s))
 }
@@ -326,7 +404,8 @@ async function main() {
     console.error("   or: node enrich-nutrition-from-overview.mjs --all --pages-dir <dir> --payload-dir <dir>")
     process.exit(1)
   }
-  runOne(args.page, args.payload)
+  const result = runOne(args.page, args.payload)
+  writeReviewQueue(result.reviewItems || [], path.dirname(args.payload))
 }
 
 main().catch((err) => {

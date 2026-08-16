@@ -11,31 +11,45 @@ tags:
   - Iron
 list_image: /img/foods/spirulina/spirulina_thumb.webp
 nutrition_per_100g:
-  kcal: 26
-  protein_g: 5.92
-  fat_g: 0.39
-  carbs_g: 2.42
-  fibre_g: 0.4
-  calcium_mg: 12
-  iron_mg: 2.79
-  magnesium_mg: 19
-  potassium_mg: 127
-  zinc_mg: 0.2
-  selenium_ug: 0.7
-  vitamin_b6_mg: 0.034
-  folate_ug: 9
-  choline_mg: 6.5
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.135
-  ala_mg: 465
-  omega3_mg: 465
+  beta_carotene_ug: 342
+  vitamin_k_ug: 25.5
+  sugar_g: 3.1
+  carbs_g: 23.9
+  vitamin_e_mg: 5
+  kcal: 290
+  choline_mg: 66
+  fat_g: 7.72
+  calcium_mg: 120
+  potassium_mg: 1363
+  zinc_mg: 2
+  vitamin_b3_mg: 12.82
+  vitamin_b5_mg: 3.48
+  vitamin_b6_mg: 0.364
+  linoleic_g: 1.254
+  protein_g: 57.47
+  fibre_g: 3.6
+  iron_mg: 28.5
+  magnesium_mg: 195
+  phosphorus_mg: 118
+  sodium_mg: 1048
+  copper_mg: 6.1
+  manganese_mg: 1.9
+  vitamin_c_mg: 10.1
+  vitamin_b1_mg: 2.38
+  vitamin_b2_mg: 3.67
+  folate_ug: 94
+  ala_mg: 4515
+  sat_fat_g: 2.65
+  vitamin_a_rae_ug: 29
+  selenium_ug: 7.2
+  omega3_mg: 4515
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Seaweed, spirulina, raw'
-  fdc_id: 170091
-  retrieval_method: API
+  food_name: 'Seaweed, spirulina, dried'
+  fdc_id: 170495
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/spirulina/spirulina_medium.webp
 legacy_list_image: /img/foods/spirulina/spirulina_thumb.webp

@@ -15,30 +15,44 @@ tags:
   - Thiamine
 list_image: /img/foods/flax-seeds/flax-seeds_thumb.webp
 nutrition_per_100g:
-  iron_mg: 5.9
-  kcal: 550
-  fat_g: 43
-  sat_fat_g: 3.8
-  fibre_g: 28
-  calcium_mg: 263
-  potassium_mg: 837
-  magnesium_mg: 404
-  zinc_mg: 4.5
-  selenium_ug: 26
-  folate_ug: 90
-  choline_mg: 81
-  vitamin_e_mg: 0.3
-  vitamin_k_ug: 4.4
-  carbs_g: 30
-  protein_g: 19
-  ala_mg: 23500
+  lutein_zeaxanthin_ug: 651
+  vitamin_b3_mg: 3.08
+  vitamin_b5_mg: 0.985
+  vitamin_b6_mg: 0.473
+  calcium_mg: 255
+  potassium_mg: 813
+  zinc_mg: 4.34
+  selenium_ug: 25.4
+  vitamin_e_mg: 0.31
+  fat_g: 42.16
+  linoleic_g: 5.903
+  fibre_g: 27.3
+  iron_mg: 5.73
+  magnesium_mg: 392
+  phosphorus_mg: 642
+  sodium_mg: 30
+  copper_mg: 1.22
+  manganese_mg: 2.482
+  vitamin_c_mg: 0.6
+  vitamin_b1_mg: 1.644
+  vitamin_b2_mg: 0.161
+  folate_ug: 87
+  vitamin_k_ug: 4.3
+  ala_mg: 925
+  protein_g: 18.29
+  sugar_g: 1.55
+  carbs_g: 28.88
+  kcal: 534
+  choline_mg: 78.7
+  sat_fat_g: 3.663
+  omega3_mg: 925
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seeds, flaxseed'
   fdc_id: 169414
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
 main_image: /img/foods/flax-seeds/flax-seeds_medium.webp

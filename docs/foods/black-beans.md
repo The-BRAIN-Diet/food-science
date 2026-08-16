@@ -18,33 +18,45 @@ tags:
   - Potassium
   - Manganese
   - Copper
-  - Tryptophan
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
   - Polyphenol
 list_image: /img/foods/black-beans/black-beans_thumb.webp
 nutrition_per_100g:
-  fat_g: 0
-  iron_mg: 1.11
-  calcium_mg: 31
-  carbs_g: 15.38
-  sat_fat_g: 0
-  protein_g: 5.38
-  kcal: 85
-  fibre_g: 3.8
+  fibre_g: 15.5
+  carbs_g: 62.36
+  kcal: 341
+  sugar_g: 2.12
+  vitamin_e_mg: 0.21
+  choline_mg: 66.4
+  vitamin_k_ug: 5.6
+  protein_g: 21.6
+  ala_mg: 905
+  vitamin_b1_mg: 0.9
+  vitamin_b2_mg: 0.193
+  folate_ug: 444
+  iron_mg: 5.02
+  magnesium_mg: 171
+  phosphorus_mg: 352
+  sodium_mg: 5
+  copper_mg: 0.841
+  manganese_mg: 1.06
+  sat_fat_g: 0.366
+  fat_g: 1.42
+  calcium_mg: 123
+  potassium_mg: 1483
+  zinc_mg: 3.65
+  vitamin_b3_mg: 1.955
+  vitamin_b5_mg: 0.899
+  vitamin_b6_mg: 0.286
+  linoleic_g: 0.332
+  selenium_ug: 3.2
+  omega3_mg: 905
 nutrition_source:
   database: USDA FoodData Central
-  food_name: BLACK BEANS
-  fdc_id: 2075490
-  retrieval_method: API
+  food_name: 'Beans, black, mature seeds, raw'
+  fdc_id: 173734
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 amino_acid_strengths: Lysine-rich relative to grains.
 limiting_amino_acids: Lower in methionine and cysteine (DIAAS ~65–70).
 complementary_pairings: 'Rice, oats, barley, or other grains to complete essential amino acid profile.'

@@ -13,38 +13,54 @@ tags:
   - Genistein
 list_image: /img/foods/edamame/edamame_thumb.webp
 nutrition_per_100g:
-  kcal: 121
-  protein_g: 11.91
-  fat_g: 5.2
-  carbs_g: 8.91
-  fibre_g: 5.2
-  ala_mg: 446
-  calcium_mg: 63
-  iron_mg: 2.27
-  magnesium_mg: 64
-  potassium_mg: 436
-  zinc_mg: 1.37
-  selenium_ug: 0.8
-  vitamin_b6_mg: 0.1
-  folate_ug: 311
-  choline_mg: 56.3
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.62
-  epa_mg: 3
-  dha_mg: 0
-  omega3_mg: 449
+  vitamin_c_mg: 9.7
+  vitamin_b1_mg: 0.15
+  vitamin_b2_mg: 0.265
+  folate_ug: 303
+  vitamin_k_ug: 31.4
+  fibre_g: 4.8
+  vitamin_e_mg: 0.72
+  vitamin_b3_mg: 0.925
+  vitamin_b5_mg: 0.535
+  vitamin_b6_mg: 0.135
+  fat_g: 4.73
+  calcium_mg: 60
+  potassium_mg: 482
+  zinc_mg: 1.32
+  iron_mg: 2.11
+  magnesium_mg: 61
+  phosphorus_mg: 161
+  sodium_mg: 6
+  copper_mg: 0.324
+  manganese_mg: 1.01
+  ala_mg: 421
+  protein_g: 11.22
+  carbs_g: 7.61
+  kcal: 109
+  sugar_g: 2.48
+  choline_mg: 56
+  omega3_mg: 421
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Edamame, frozen, prepared'
-  fdc_id: 168411
-  retrieval_method: API
+  food_name: 'Edamame, frozen, unprepared'
+  fdc_id: 168410
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
 main_image: /img/foods/edamame/edamame_medium.webp
 legacy_list_image: /img/foods/edamame/edamame_thumb.webp
 legacy_main_image: /img/foods/edamame/edamame_medium.webp
+nutrition_supplementary_sources:
+  - key: genistein_qual
+    label: Genistein
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA Database for the Isoflavone Content of Selected Foods lists genistein
+      in Edamame; the selected SR Legacy proximate panel does not include
+      isoflavones.
 ---
 ## Overview
 

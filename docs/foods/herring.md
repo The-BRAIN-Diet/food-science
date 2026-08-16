@@ -12,34 +12,50 @@ tags:
   - Vitamin D
 list_image: /img/foods/herring/herring_thumb.webp
 nutrition_per_100g:
-  kcal: 902
-  protein_g: 0
-  fat_g: 100
-  carbs_g: 0
-  fibre_g: 0
-  calcium_mg: 0
-  iron_mg: 0
-  magnesium_mg: 0
-  potassium_mg: 0
-  zinc_mg: 0
-  selenium_ug: 0
-  vitamin_b6_mg: 0
-  folate_ug: 0
-  vitamin_b12_ug: 0
-  sat_fat_g: 21.29
-  epa_mg: 6273
-  dha_mg: 4206
-  omega3_mg: 10479
+  vitamin_k_ug: 0.1
+  vitamin_e_mg: 1.07
+  vitamin_d_ug: 4.2
+  vitamin_a_rae_ug: 28
+  choline_mg: 65
+  protein_g: 17.96
+  iron_mg: 1.1
+  magnesium_mg: 32
+  phosphorus_mg: 236
+  sodium_mg: 90
+  copper_mg: 0.092
+  manganese_mg: 0.035
+  ala_mg: 1086
+  dha_mg: 862
+  epa_mg: 709
+  sat_fat_g: 2.04
+  vitamin_c_mg: 0.7
+  vitamin_b1_mg: 0.092
+  vitamin_b2_mg: 0.233
+  folate_ug: 10
+  vitamin_b12_ug: 13.67
+  fat_g: 9.04
+  kcal: 158
+  vitamin_b3_mg: 3.217
+  vitamin_b5_mg: 0.645
+  vitamin_b6_mg: 0.302
+  calcium_mg: 57
+  potassium_mg: 327
+  zinc_mg: 0.99
+  capric_g: 0.005
+  linoleic_g: 0.13
+  selenium_ug: 36.5
+  omega3_mg: 2657
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Fish oil, herring'
-  fdc_id: 172340
-  retrieval_method: API
+  food_name: 'Fish, herring, Atlantic, raw'
+  fdc_id: 175116
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/herring/herring_medium.webp
 legacy_list_image: /img/foods/herring/herring_thumb.webp
 legacy_main_image: /img/foods/herring/herring_medium.webp
+protein_profile_note: Complete essential amino acid profile.
 ---
 ## Overview
 
@@ -70,6 +86,11 @@ Within the BRAIN Diet framework, herring is treated as one of the **rotational o
 ## Recipes
 
 <FoodRecipes tag="Herring" />
+
+### Essential Amino Acid Profile
+
+This food provides a complete essential amino acid profile typical of animal proteins.
+
 
 <NutritionTable details={frontMatter} />
 

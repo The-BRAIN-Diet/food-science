@@ -11,39 +11,58 @@ tags:
   - Beta-carotene
   - Potassium
   - Vitamin C
-  - Fibre
 list_image: /img/foods/sweet-potatoes/sweet-potatoes_thumb.webp
 nutrition_per_100g:
-  kcal: 86
-  protein_g: 1.6
-  fat_g: 0.1
-  sat_fat_g: 0
-  carbs_g: 20.1
-  sugar_g: 4.2
   fibre_g: 3
+  vitamin_a_rae_ug: 709
+  ala_mg: 77
+  sat_fat_g: 0.018
+  sugar_g: 4.18
+  carbs_g: 20.12
+  kcal: 86
+  choline_mg: 12.3
+  linoleic_g: 0.013
+  vitamin_c_mg: 2.4
+  beta_carotene_ug: 8509
+  sodium_mg: 55
+  folate_ug: 11
+  selenium_ug: 0.6
+  fat_g: 0.05
   calcium_mg: 30
-  iron_mg: 0.6
-  magnesium_mg: 25
   potassium_mg: 337
   zinc_mg: 0.3
-  copper_mg: 0.15
-  selenium_ug: 0.6
-  folate_ug: 11
-  vitamin_b6_mg: 0.2
-  vitamin_e_mg: 0.3
+  vitamin_e_mg: 0.26
+  vitamin_b3_mg: 0.557
+  vitamin_b5_mg: 0.8
+  vitamin_b6_mg: 0.209
+  vitamin_k_ug: 1.8
+  iron_mg: 0.61
+  magnesium_mg: 25
+  phosphorus_mg: 47
+  copper_mg: 0.151
+  manganese_mg: 0.258
+  vitamin_b1_mg: 0.078
+  vitamin_b2_mg: 0.061
+  protein_g: 1.57
+  omega3_mg: 77
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Sweet potato, raw'
-  retrieval_method: API + manual curation
+  food_name: >-
+    Sweet potato, raw, unprepared (Includes foods for USDA's Food Distribution
+    Program)
+  fdc_id: 168482
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-23'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: beta_carotene_ug
     label: Beta-carotene
     value: 8500
     unit: µg
     notes: Orange-fleshed varieties are typically richest in carotenoids.
-    source_note: Typical USDA-reported beta-carotene order-of-magnitude for raw orange sweet potato; values vary by cultivar and storage.
+    source_note: >-
+      Typical USDA-reported beta-carotene order-of-magnitude for raw orange
+      sweet potato; values vary by cultivar and storage.
 main_image: /img/foods/sweet-potatoes/sweet-potatoes_medium.webp
 legacy_list_image: /img/foods/sweet-potatoes/sweet-potatoes_thumb.webp
 legacy_main_image: /img/foods/sweet-potatoes/sweet-potatoes_medium.webp

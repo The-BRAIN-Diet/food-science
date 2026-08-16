@@ -11,38 +11,56 @@ tags:
   - Vitamin K2
 list_image: /img/foods/natto/natto_thumb.webp
 nutrition_per_100g:
+  sugar_g: 4.89
+  vitamin_e_mg: 0.01
+  choline_mg: 57
+  vitamin_k_ug: 23.1
+  carbs_g: 12.68
   kcal: 211
   protein_g: 19.4
-  fat_g: 11
-  carbs_g: 12.68
+  sat_fat_g: 1.591
   fibre_g: 5.4
-  calcium_mg: 217
   iron_mg: 8.6
   magnesium_mg: 115
+  phosphorus_mg: 174
+  sodium_mg: 7
+  copper_mg: 0.667
+  manganese_mg: 1.528
+  vitamin_c_mg: 13
+  vitamin_b1_mg: 0.16
+  vitamin_b2_mg: 0.19
+  folate_ug: 8
+  ala_mg: 798
+  fat_g: 11
+  calcium_mg: 217
   potassium_mg: 729
   zinc_mg: 3.03
-  selenium_ug: 8.8
+  linoleic_g: 5.476
+  vitamin_b5_mg: 0.215
   vitamin_b6_mg: 0.13
-  folate_ug: 8
-  choline_mg: 57
-  vitamin_b12_ug: 0
-  sat_fat_g: 1.591
-  epa_mg: 0
-  dha_mg: 0
-  ala_mg: 798
+  selenium_ug: 8.8
   omega3_mg: 798
 nutrition_source:
   database: USDA FoodData Central
   food_name: Natto
   fdc_id: 172443
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
 main_image: /img/foods/natto/natto_medium.webp
 legacy_list_image: /img/foods/natto/natto_thumb.webp
 legacy_main_image: /img/foods/natto/natto_medium.webp
+nutrition_supplementary_sources:
+  - key: vitamin_k2_qual
+    label: Vitamin K2
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Natto is a documented dietary source of menaquinones (vitamin K2). USDA SR
+      Legacy reports phylloquinone (vitamin K1), not K2, so K2 quantity is not
+      established here.
 ---
 ## Overview
 

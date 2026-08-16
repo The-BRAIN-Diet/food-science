@@ -18,45 +18,62 @@ tags:
   - Copper
   - Selenium
   - Genistein
-  - Tryptophan
   - Tyrosine
-  - Lysine
-  - Methionine
-  - Phenylalanine
-  - Threonine
-  - Valine
-  - Leucine
-  - Isoleucine
-  - Histidine
 list_image: /img/foods/tofu/tofu_thumb.webp
 nutrition_per_100g:
+  iron_mg: 2.66
+  fibre_g: 2.3
+  carbs_g: 2.78
   kcal: 144
   protein_g: 17.27
-  fat_g: 8.72
-  carbs_g: 2.78
-  fibre_g: 2.3
-  calcium_mg: 683
-  iron_mg: 2.66
+  ala_mg: 773
+  tyrosine_g: 0.701
   magnesium_mg: 58
+  phosphorus_mg: 190
+  vitamin_c_mg: 0.2
+  vitamin_b1_mg: 0.158
+  vitamin_b2_mg: 0.102
+  folate_ug: 29
+  sat_fat_g: 1.261
+  sodium_mg: 14
+  copper_mg: 0.378
+  manganese_mg: 1.181
+  calcium_mg: 683
+  fat_g: 8.72
   potassium_mg: 237
   zinc_mg: 1.57
-  selenium_ug: 17.4
+  vitamin_b3_mg: 0.381
+  vitamin_b5_mg: 0.133
   vitamin_b6_mg: 0.092
-  folate_ug: 29
-  vitamin_b12_ug: 0
-  sat_fat_g: 1.261
-  ala_mg: 773
+  linoleic_g: 4.339
+  selenium_ug: 17.4
   omega3_mg: 773
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Tofu, raw, firm, prepared with calcium sulfate'
   fdc_id: 172475
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/tofu/tofu_medium.webp
 legacy_list_image: /img/foods/tofu/tofu_thumb.webp
 legacy_main_image: /img/foods/tofu/tofu_medium.webp
+nutrition_supplementary_sources:
+  - key: genistein_qual
+    label: Genistein
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA Database for the Isoflavone Content of Selected Foods lists genistein
+      in Tofu; the selected SR Legacy proximate panel does not include
+      isoflavones.
+  - key: choline_qual
+    label: Choline
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Tofu is a choline-containing food; the selected USDA SR Legacy record
+      omits choline, so quantity is not established from that panel.
 ---
 ## Overview
 

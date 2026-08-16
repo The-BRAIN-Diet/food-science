@@ -34,6 +34,22 @@ nutrition_source:
 main_image: /img/foods/black-goji/black-goji_medium.webp
 legacy_list_image: /img/foods/black-goji/black-goji_thumb.webp
 legacy_main_image: /img/foods/black-goji/black-goji_medium.webp
+nutrition_supplementary_sources:
+  - key: cyanidin_qual
+    label: Cyanidin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
+      lists cyanidin glycosides in Black Goji; individual cyanidin mass is not
+      reported in the selected USDA SR Legacy composition record.
+  - key: vitamin_c_qual
+    label: Vitamin C
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Black Goji contain ascorbate in food-specific analyses; USDA SR Legacy has
+      no record for this food.
 ---
 ## Overview
 

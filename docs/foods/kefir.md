@@ -11,33 +11,48 @@ tags:
 list_image: /img/foods/kefir/kefir_thumb.webp
 protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
-  kcal: 43
   protein_g: 3.79
-  fat_g: 1.02
-  carbs_g: 4.77
-  fibre_g: 0
   ala_mg: 6
-  calcium_mg: 130
   iron_mg: 0.04
   magnesium_mg: 12
+  phosphorus_mg: 105
+  sodium_mg: 40
+  copper_mg: 0.009
+  manganese_mg: 0.005
+  vitamin_a_rae_ug: 171
+  vitamin_d_ug: 1
+  vitamin_c_mg: 0.2
+  vitamin_b1_mg: 0.03
+  vitamin_b2_mg: 0.135
+  folate_ug: 13
+  vitamin_b12_ug: 0.29
+  vitamin_k_ug: 0.1
+  sat_fat_g: 0.658
+  caprylic_g: 0.008
+  linoleic_g: 0.029
+  sugar_g: 4.61
+  calcium_mg: 130
   potassium_mg: 164
   zinc_mg: 0.46
   selenium_ug: 3.6
+  vitamin_e_mg: 0.02
+  vitamin_b3_mg: 0.15
+  vitamin_b5_mg: 0.385
   vitamin_b6_mg: 0.058
-  folate_ug: 13
   choline_mg: 15.2
-  vitamin_b12_ug: 0
-  sat_fat_g: 0.658
-  epa_mg: 0
-  dha_mg: 0
+  caproic_g: 0.018
+  capric_g: 0.021
+  fat_g: 1.02
+  carbs_g: 4.77
+  kcal: 43
   omega3_mg: 6
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Kefir, lowfat, plain, LIFEWAY'
   fdc_id: 170904
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 main_image: /img/foods/kefir/kefir_medium.webp
 legacy_list_image: /img/foods/kefir/kefir_thumb.webp
 legacy_main_image: /img/foods/kefir/kefir_medium.webp

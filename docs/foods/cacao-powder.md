@@ -2,12 +2,12 @@
 id: cacao-powder
 title: Cacao Powder
 sidebar_label: Cacao Powder
-description: Minimally processed cacao powder with higher native flavanol retention relative to more processed cocoa products.
+description: >-
+  Minimally processed cacao powder with higher native flavanol retention
+  relative to more processed cocoa products.
 tags:
   - Food
   - Cacao Powder
-  - Cacao
-  - Cocoa
   - Vegan
   - Vegetarian
   - Polyphenol
@@ -18,66 +18,97 @@ tags:
   - Iron
   - Zinc
 list_image: /img/foods/cacao-powder/cacao-powder_thumb.webp
-amino_acid_strengths: Provides plant protein with notable phenylalanine and leucine; high mineral density per 100 g.
-limiting_amino_acids: Lower in lysine and sulfur amino acids relative to legumes; not a complete protein on its own.
-complementary_pairings: Grains and legumes for balanced essential amino acid profile when used as a meaningful protein contributor.
+amino_acid_strengths: >-
+  Provides plant protein with notable phenylalanine and leucine; high mineral
+  density per 100 g.
+limiting_amino_acids: >-
+  Lower in lysine and sulfur amino acids relative to legumes; not a complete
+  protein on its own.
+complementary_pairings: >-
+  Grains and legumes for balanced essential amino acid profile when used as a
+  meaningful protein contributor.
 nutrition_per_100g:
+  sugar_g: 1.75
+  vitamin_e_mg: 0.1
+  lutein_zeaxanthin_ug: 38
+  vitamin_k_ug: 2.5
+  carbs_g: 57.9
   kcal: 228
-  protein_g: 20
-  fat_g: 14
-  carbs_g: 58
-  fibre_g: 33
-  calcium_mg: 128
-  iron_mg: 13.9
+  fibre_g: 37
+  sat_fat_g: 8.07
+  ala_mg: 941
+  iron_mg: 13.86
   magnesium_mg: 499
-  potassium_mg: 1524
-  zinc_mg: 6.8
-  selenium_ug: 14.3
-  vitamin_b6_mg: 0.118
+  phosphorus_mg: 734
+  sodium_mg: 21
+  copper_mg: 3.788
+  manganese_mg: 3.837
+  protein_g: 19.6
+  vitamin_b1_mg: 0.078
+  vitamin_b2_mg: 0.241
   folate_ug: 32
-  choline_mg: 12.1
-  vitamin_b12_ug: 0
-  sat_fat_g: 8.1
-  epa_mg: 0
-  dha_mg: 0
-  ala_mg: 0
-  omega3_mg: 0
+  vitamin_b3_mg: 2.185
+  vitamin_b5_mg: 0.254
+  vitamin_b6_mg: 0.118
+  fat_g: 13.7
+  calcium_mg: 128
+  potassium_mg: 1524
+  zinc_mg: 6.81
+  linoleic_g: 0.44
+  selenium_ug: 14.3
+  choline_mg: 12
+  omega3_mg: 941
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Cocoa, dry powder, unsweetened'
   fdc_id: 169593
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-06-17'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: epicatechin_mg
     label: Epicatechin
     value: 196
     unit: mg
-    notes: Dominant monomeric flavanol in minimally processed cacao powder; much lower in Dutch-processed cocoa.
-    source_note: 'Phenol-Explorer natural cocoa powder range for (-)-epicatechin: ~52–340 mg/100 g (mean ~196 mg/100 g); values fall sharply with roasting and alkalisation.'
+    notes: >-
+      Dominant monomeric flavanol in minimally processed cacao powder; much
+      lower in Dutch-processed cocoa.
+    source_note: >-
+      Phenol-Explorer natural cocoa powder range for (-)-epicatechin: ~52–340
+      mg/100 g (mean ~196 mg/100 g); values fall sharply with roasting and
+      alkalisation.
   - key: catechin_mg
     label: Catechin
     value: 51
     unit: mg
-    notes: Present alongside epicatechin; processing can shift stereochemistry and relative abundance.
-    source_note: 'Phenol-Explorer cocoa powder range for (+)-catechin: ~10–92 mg/100 g (mean ~51 mg/100 g); roasting and Dutch processing alter flavan-3-ol profiles.'
+    notes: >-
+      Present alongside epicatechin; processing can shift stereochemistry and
+      relative abundance.
+    source_note: >-
+      Phenol-Explorer cocoa powder range for (+)-catechin: ~10–92 mg/100 g (mean
+      ~51 mg/100 g); roasting and Dutch processing alter flavan-3-ol profiles.
   - key: oligomeric_procyanidins_mg
     label: Oligomeric Procyanidins
     value: 344
     unit: mg
-    notes: 'Oligomeric flavanols; fraction varies with fermentation, roasting, and alkalisation.'
-    source_note: Proanthocyanidin oligomer fraction in natural cocoa powder reported ~52–636 mg/100 g (mean ~344 mg/100 g); strongly product- and process-dependent.
+    notes: >-
+      Oligomeric flavanols; fraction varies with fermentation, roasting, and
+      alkalisation.
+    source_note: >-
+      Proanthocyanidin oligomer fraction in natural cocoa powder reported
+      ~52–636 mg/100 g (mean ~344 mg/100 g); strongly product- and
+      process-dependent.
 nutrition_functional_metrics:
   - key: total_polyphenols_proxy
     label: Total polyphenols (Folin-type)
     amount_display: Varies by product
-    notes: 'Minimally processed, non-alkalised powders retain more flavanols than Dutch-processed cocoa; heat during roasting reduces monomeric epicatechin.'
+    notes: >-
+      Minimally processed, non-alkalised powders retain more flavanols than
+      Dutch-processed cocoa; heat during roasting reduces monomeric epicatechin.
 main_image: /img/foods/cacao-powder/cacao-powder_medium.webp
 legacy_list_image: /img/foods/cacao-powder/cacao-powder_thumb.webp
 legacy_main_image: /img/foods/cacao-powder/cacao-powder_medium.webp
 ---
-
 ## Overview
 
 Cacao powder is the minimally processed end of the cacao-to-chocolate chain: unsweetened powder from fermented, dried, and cold-pressed or lightly processed cacao beans. It is a concentrated source of **cocoa flavanols** — especially **epicatechin**, **catechin**, and **oligomeric procyanidins** — together with **magnesium**, **iron**, **zinc**, and **fibre**. Roasting and Dutch (alkali) processing substantially reduce flavan-3-ol content and alter stereochemistry, so minimally processed cacao powder generally retains a higher native polyphenol profile than heavily processed cocoa powders [1].

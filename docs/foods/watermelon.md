@@ -2,38 +2,74 @@
 id: watermelon
 title: Watermelon
 sidebar_label: Watermelon
-description: Hydrating fruit contributing citrulline within an arginine-nitric oxide network context
+description: >-
+  Hydrating fruit contributing citrulline within an arginine-nitric oxide
+  network context
 tags:
   - Food
   - Watermelon
   - Citrulline
   - Arginine
-  - Nitric Oxide
   - Potassium
   - Vitamin C
   - Lycopene
 list_image: /img/foods/watermelon/watermelon_thumb.webp
 nutrition_per_100g:
-  kcal: 30
   protein_g: 0.61
+  fibre_g: 0.4
+  iron_mg: 0.24
+  magnesium_mg: 10
+  phosphorus_mg: 11
+  copper_mg: 0.042
+  manganese_mg: 0.038
+  vitamin_a_rae_ug: 28
+  beta_carotene_ug: 303
+  lycopene_ug: 4532
+  vitamin_c_mg: 8.1
+  vitamin_b1_mg: 0.033
+  vitamin_b2_mg: 0.021
+  folate_ug: 3
+  vitamin_k_ug: 0.1
+  lutein_zeaxanthin_ug: 8
+  vitamin_b3_mg: 0.178
+  vitamin_b5_mg: 0.221
+  vitamin_b6_mg: 0.045
+  sugar_g: 6.2
+  calcium_mg: 7
+  zinc_mg: 0.1
+  selenium_ug: 0.4
+  vitamin_e_mg: 0.05
   fat_g: 0.15
   carbs_g: 7.55
-  fibre_g: 0.4
+  kcal: 30
+  choline_mg: 4.1
+  capric_g: 0.001
+  linoleic_g: 0.05
+  sat_fat_g: 0.016
   potassium_mg: 112
-  magnesium_mg: 10
-  vitamin_b6_mg: 0.045
-  folate_ug: 3
+  sodium_mg: 1
+  ala_mg: 17
+  arginine_g: 0.059
+  omega3_mg: 17
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Watermelon, raw'
-  retrieval_method: Manual curation
+  fdc_id: 167765
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-06-25'
+  last_checked: '2026-08-15'
 main_image: /img/foods/watermelon/watermelon_medium.webp
 legacy_list_image: /img/foods/watermelon/watermelon_thumb.webp
 legacy_main_image: /img/foods/watermelon/watermelon_medium.webp
+nutrition_supplementary_sources:
+  - key: citrulline_qual
+    label: Citrulline
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Watermelon flesh and rind are documented dietary sources of L-citrulline;
+      USDA SR Legacy does not report citrulline.
 ---
-
 ## Overview
 
 Watermelon is a high-water fruit that provides modest amounts of potassium, vitamin C, and carotenoid-rich red pigment compounds, and is one of the recognizable food sources of citrulline.

@@ -2,47 +2,60 @@
 id: rice
 title: Rice
 sidebar_label: Rice
-description: 'Staple grain — variant, milling, pigmentation, cooking/cooling, and fermentation drive fibre, RS, glycaemia, and polyphenols'
+description: >-
+  Staple grain — variant, milling, pigmentation, cooking/cooling, and
+  fermentation drive fibre, RS, glycaemia, and polyphenols
 tags:
   - Food
   - Rice
   - Vegan
   - Vegetarian
   - Vitamin B1
-  - Cyanidin
 list_image: /img/foods/rice/rice_thumb.webp
 nutrition_per_100g:
-  kcal: 123
-  protein_g: 2.43
-  fat_g: 1.11
-  carbs_g: 25.8
-  fibre_g: 1
-  calcium_mg: 5
-  iron_mg: 0.4
-  magnesium_mg: 39
-  potassium_mg: 80
-  zinc_mg: 0.63
-  selenium_ug: 5
-  vitamin_b6_mg: 0.052
-  folate_ug: 5
-  choline_mg: 7.2
-  vitamin_b12_ug: 0
-  sat_fat_g: 0
-  epa_mg: 0
-  dha_mg: 0
-  omega3_mg: 0
+  sugar_g: 0.12
+  vitamin_e_mg: 0.11
+  vitamin_k_ug: 0.1
+  sat_fat_g: 0.18
+  protein_g: 7.13
+  fibre_g: 1.3
+  iron_mg: 0.8
+  magnesium_mg: 25
+  phosphorus_mg: 115
+  sodium_mg: 5
+  copper_mg: 0.22
+  manganese_mg: 1.088
+  vitamin_b1_mg: 0.07
+  vitamin_b2_mg: 0.049
+  folate_ug: 8
+  ala_mg: 413
+  fat_g: 0.66
+  carbs_g: 79.95
+  kcal: 365
+  vitamin_b3_mg: 1.6
+  vitamin_b5_mg: 1.014
+  vitamin_b6_mg: 0.164
+  calcium_mg: 28
+  potassium_mg: 115
+  zinc_mg: 1.09
+  linoleic_g: 0.146
+  selenium_ug: 15.1
+  choline_mg: 5.8
+  omega3_mg: 413
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Rice, brown, cooked, no added fat'
-  table_maps_to: 'Brown rice, cooked, no added fat (reference variant for this table)'
-  fdc_id: 2708414
-  retrieval_method: API
+  food_name: 'Rice, white, long-grain, regular, raw, unenriched'
+  fdc_id: 169756
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-06-01'
-  note: 'Other variants (white, red, black, cooled white, fermented) differ — see comparison table above.'
-amino_acid_strengths: Relatively higher in methionine than legumes; lysine-limited like other grains.
+  last_checked: '2026-08-15'
+amino_acid_strengths: >-
+  Relatively higher in methionine than legumes; lysine-limited like other
+  grains.
 limiting_amino_acids: Lysine (typical of grains).
-complementary_pairings: 'Lentils, chickpeas, or other legumes for complete essential amino acid profile.'
+complementary_pairings: >-
+  Lentils, chickpeas, or other legumes for complete essential amino acid
+  profile.
 main_image: /img/foods/rice/rice_medium.webp
 legacy_list_image: /img/foods/rice/rice_thumb.webp
 legacy_main_image: /img/foods/rice/rice_medium.webp

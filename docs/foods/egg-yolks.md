@@ -17,26 +17,63 @@ tags:
   - Vitamin K2
 list_image: /img/foods/egg-yolks/egg-yolks_thumb.webp
 nutrition_per_100g:
-  kcal: 296
-  protein_g: 15.6
-  fat_g: 25.1
-  carbs_g: 0.59
-  calcium_mg: 119
-  iron_mg: 4.13
-  magnesium_mg: 11.2
-  potassium_mg: 102
-  zinc_mg: 2.93
+  vitamin_e_mg: 2.58
+  sugar_g: 0.56
+  lutein_zeaxanthin_ug: 1094
+  vitamin_b5_mg: 2.99
+  ala_mg: 836
+  manganese_mg: 0.055
+  beta_carotene_ug: 88
+  vitamin_k_ug: 0.7
+  vitamin_b3_mg: 0.024
+  calcium_mg: 129
+  potassium_mg: 109
+  zinc_mg: 2.3
+  selenium_ug: 56
+  fat_g: 26.54
+  vitamin_b6_mg: 0.35
+  protein_g: 15.86
+  iron_mg: 2.73
+  magnesium_mg: 5
+  phosphorus_mg: 390
+  sodium_mg: 48
+  copper_mg: 0.077
+  vitamin_b1_mg: 0.176
+  vitamin_b2_mg: 0.528
+  vitamin_b12_ug: 1.95
+  choline_mg: 820.2
+  carbs_g: 3.59
+  kcal: 322
+  sat_fat_g: 9.551
+  vitamin_a_rae_ug: 381
+  vitamin_d_ug: 5.4
+  capric_g: 0.009
+  linoleic_g: 3.538
+  folate_ug: 146
+  caprylic_g: 0.009
+  dha_mg: 114
+  epa_mg: 11
+  omega3_mg: 961
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Egg, yolk, raw, frozen, pasteurized'
-  fdc_id: 329596
-  retrieval_method: API
+  food_name: 'Egg, yolk, raw, fresh'
+  fdc_id: 172184
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 protein_profile_note: Complete essential amino acid profile.
 main_image: /img/foods/egg-yolks/egg-yolks_medium.webp
 legacy_list_image: /img/foods/egg-yolks/egg-yolks_thumb.webp
 legacy_main_image: /img/foods/egg-yolks/egg-yolks_medium.webp
+nutrition_supplementary_sources:
+  - key: vitamin_k2_qual
+    label: Vitamin K2
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Egg Yolks is a documented dietary source of menaquinones (vitamin K2).
+      USDA SR Legacy reports phylloquinone (vitamin K1), not K2, so K2 quantity
+      is not established here.
 ---
 ## Overview
 

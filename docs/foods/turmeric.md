@@ -12,40 +12,57 @@ tags:
   - Polyphenol
 list_image: /img/foods/turmeric/turmeric_thumb.webp
 nutrition_per_100g:
-  kcal: 312
-  protein_g: 9.68
+  sugar_g: 3.21
+  vitamin_k_ug: 13.4
   fat_g: 3.25
   carbs_g: 67.14
-  fibre_g: 22.7
-  ala_mg: 330
+  kcal: 312
+  vitamin_b3_mg: 1.35
+  vitamin_b5_mg: 0.542
   calcium_mg: 168
-  iron_mg: 55
-  magnesium_mg: 208
   potassium_mg: 2080
   zinc_mg: 4.5
   selenium_ug: 6.2
-  vitamin_b6_mg: 0.107
+  capric_g: 0.848
+  linoleic_g: 0.672
+  protein_g: 9.68
+  fibre_g: 22.7
+  iron_mg: 55
+  magnesium_mg: 208
+  phosphorus_mg: 299
+  sodium_mg: 27
+  copper_mg: 1.3
+  manganese_mg: 19.8
+  vitamin_c_mg: 0.7
+  vitamin_b1_mg: 0.058
+  vitamin_b2_mg: 0.15
   folate_ug: 20
-  choline_mg: 49.2
-  vitamin_b12_ug: 0
+  ala_mg: 330
   sat_fat_g: 1.838
-  epa_mg: 0
-  dha_mg: 0
+  caprylic_g: 0.003
+  vitamin_e_mg: 4.43
+  vitamin_b6_mg: 0.107
+  choline_mg: 49.2
   omega3_mg: 330
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Spices, turmeric, ground'
   fdc_id: 172231
-  retrieval_method: API
+  retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+  last_checked: '2026-08-15'
 nutrition_supplementary_sources:
   - key: curcumin_mg
     label: Curcumin
     value: 3500
     unit: mg
-    notes: Curcuminoids are often ~2–6% of turmeric powder; piperine + fat improves absorption.
-    source_note: Representative mid-range for ground turmeric spice as a percent of powder mass; extracts and curry blends differ. Standard USDA panels do not resolve curcuminoids separately.
+    notes: >-
+      Curcuminoids are often ~2–6% of turmeric powder; piperine + fat improves
+      absorption.
+    source_note: >-
+      Representative mid-range for ground turmeric spice as a percent of powder
+      mass; extracts and curry blends differ. Standard USDA panels do not
+      resolve curcuminoids separately.
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/turmeric/turmeric_medium.webp
 legacy_list_image: /img/foods/turmeric/turmeric_thumb.webp
