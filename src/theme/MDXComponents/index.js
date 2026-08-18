@@ -11,6 +11,7 @@ import SubstanceMatrix from '../SubstanceMatrix';
 import RecipeMatrix from '../RecipeMatrix';
 import RecipeFoods from '../RecipeFoods';
 import RecipeNutrition from '../RecipeNutrition';
+import RecipeCalculationDefault from '../RecipeCalculationDefault';
 import FoodSubstances from '../FoodSubstances';
 import FoodSubstancesFromTable from '../FoodSubstancesFromTable';
 import TherapeuticAreaMatrix from '../TherapeuticAreaMatrix';
@@ -40,6 +41,7 @@ export default {
   RecipeMatrix,
   RecipeFoods,
   RecipeNutrition,
+  RecipeCalculationDefault,
   FoodSubstances,
   FoodSubstancesFromTable,
   NutritionTable,

@@ -124,7 +124,6 @@ nutrition_assumptions:
     The recipe declares one serving. At the calculated energy this is a very large
     single plate; see the editorial note below.
 ---
-
 <img src="/img/recipes/sweet%20potatoe%20and%20curry%20n%20coconut%20creamed%20corn.png" alt="Creamed Corn on Roasted Sweet Potato" width="480" />
 
 ## Overview
@@ -143,6 +142,8 @@ This dish illustrates a core BRAIN Diet principle: preparation and food structur
 
 **To serve:**
 - 150 g broccoli, steamed (ideally cut ~30 minutes before cooking)
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -184,10 +185,6 @@ The sticky syrup that may appear is primarily composed of these natural sugars, 
 5. Roast at ~190 °C
 6. Collect syrup just before the end
 
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />

@@ -115,13 +115,13 @@ recipe_ingredients:
     calculation_weight_g: null
     included_in_default: false
     excluded_reason: water contributes no energy or nutrients
+nutrition_default_combination: "Nutrition calculation uses rosemary as the herb."
 nutrition_assumptions:
   - Sodium excludes salt added to taste.
   - >-
     Gelatin and minerals extracted from the bones and cartilage during a 3–4 hour
     simmer are not captured by a meat-only composition record.
 ---
-
 <img src="/img/recipes/turkey-wing-stew.jpg" alt="Turkey wing stew in a bowl" width="480" />
 
 ## Overview
@@ -141,6 +141,8 @@ This deeply nourishing stew is made from **slow-cooked turkey wings**, releasing
 - 1 tsp (5 ml) **thyme** or **rosemary**
 - Salt and pepper to taste
 - Water to cover (~1.5 L)
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -168,11 +170,6 @@ Every ingredient has a weighed composition record, but the recipe does not say h
 
 > Note: glycine and gelatin extracted from bone and cartilage depend on simmer time and are not captured by a meat-only composition record.
 
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />
-

@@ -107,7 +107,6 @@ recipe_ingredients:
 nutrition_assumptions:
   - Kefir rather than yogurt is the calculated default.
 ---
-
 <img src="/img/recipes/matcha-mito-smoothie.jpg" alt="Matcha mitochondria smoothie" width="480" />
 
 ## Overview
@@ -124,6 +123,8 @@ This energising smoothie combines matcha catechins with magnesium-rich pumpkin s
 - 200 ml (13.3 tbsp) kefir or yogurt
 - ½ cup ice
 - Optional: ½ tsp maca powder
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -143,10 +144,6 @@ An earlier untraced line of ~350 kcal and 14 g protein has been withdrawn rather
 - **Chia seeds** provide ALA omega-3 and fibre.
 - **Spinach and matcha** contribute polyphenols and antioxidants studied for various cellular effects.
 
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />

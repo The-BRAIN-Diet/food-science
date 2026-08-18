@@ -97,6 +97,7 @@ recipe_ingredients:
     included_in_default: false
     optional: true
     excluded_reason: optional finishing ingredients
+nutrition_default_combination: "Nutrition calculation uses ground turmeric."
 nutrition_assumptions:
   - Sodium excludes salt added to taste and assumes water rather than stock.
   - >-
@@ -104,7 +105,6 @@ nutrition_assumptions:
     original nutrition line of ~400 kcal per serving matches the calculated whole
     recipe halved.
 ---
-
 <img src="/img/recipes/turmeric-lentil-dahl.jpg" alt="Turmeric lentil dahl in a bowl" width="480" />
 
 ## Overview
@@ -122,6 +122,8 @@ This warming dahl combines turmeric (curcumin), ginger, high-fibre lentils, and 
 - 1 cup (240 ml) spinach
 - Salt & pepper to taste
 - Optional: lemon juice, coriander
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -145,10 +147,6 @@ This warming dahl combines turmeric (curcumin), ginger, high-fibre lentils, and 
 - **Lentils** provide high fibre that feeds gut bacteria; fibre fermentation produces SCFAs associated with gut health.
 - **Spinach** supplies folate, a B vitamin involved in one-carbon metabolism.
 
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />

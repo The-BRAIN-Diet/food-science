@@ -137,7 +137,6 @@ nutrition_assumptions:
     Clams are the calculated shellfish. Cockles and mussels differ; mussels in
     particular are lower in sodium than clams.
 ---
-
 <img src="/img/recipes/pasta_colour_contrast_only.jpg" alt="Linguine con le Cozze Mantecate" width="480" />
 
 ## Overview
@@ -172,6 +171,8 @@ The result is a meal combining stable energy supply, micronutrient density, and 
 - Black pepper
 
 **Salted water for pasta**
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -213,10 +214,6 @@ This dish targets multiple regulatory domains:
 
 The recipe demonstrates how traditional culinary techniques can be used to construct a metabolically stable, micronutrient-dense meal without relying on heavy dairy or processed ingredients.
 
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />

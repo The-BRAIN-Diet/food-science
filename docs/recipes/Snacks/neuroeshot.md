@@ -62,7 +62,6 @@ nutrition_assumptions:
     Energy and macronutrients use raw mixed-species roe; a cured commercial ikura
     differs mainly in salt rather than in energy.
 ---
-
 <img src="/img/recipes/neuroeshot/neuroeshot_medium.webp" alt="Neuroeshot with roe and lemon" width="480" />
 
 ## Overview
@@ -75,12 +74,18 @@ A quick savory shot built from roe, lemon, and fermented hot sauce. It is design
 - 7.5 ml (1 1/2 tsp) **lemon juice**
 - 0.6-1.2 ml (1-2 dashes) **fermented hot sauce** (Tabasco-style)
 
+<RecipeCalculationDefault details={frontMatter} />
+
 ## Method
 
 1. Add roe to a small shot glass or spoon.
 2. Top with lemon juice.
 3. Add 1-2 dashes of fermented hot sauce.
 4. Serve immediately.
+
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
 
 ## Extra Guidance
 
@@ -94,14 +99,6 @@ A quick savory shot built from roe, lemon, and fermented hot sauce. It is design
 - **Roe** contributes EPA/DHA and choline in a compact serving.
 - **Lemon juice and hot sauce** improve palatability and can make small roe portions easier to include consistently.
 
-## Nutrition
-
-<RecipeNutrition details={frontMatter} />
-
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />

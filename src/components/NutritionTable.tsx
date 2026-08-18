@@ -1,4 +1,5 @@
 import React from "react"
+import {ADULT_REFERENCE_INTAKE} from "@site/src/utils/nutrientReference.mjs"
 import {
   BIOACTIVE_LIPID_KEYS,
   CORE_NUTRIENT_KEYS,
@@ -59,32 +60,14 @@ interface NutritionTableProps {
 export const EXTENDED_TABLE_CAPTION =
   "Individual fatty acids and other BRAIN-relevant constituents with a defensible quantity or explicit qualitative status. Asterisks (*) identify supplementary sources below. Unquantified or trace constituents are not automatically admitted to the Substances list."
 
-// Reference daily intakes — see `system/nutrient-reference-values.md`
-const RDA_VALUES: Record<string, number> = {
-  iron_mg: 18,
-  zinc_mg: 11,
-  magnesium_mg: 420,
-  selenium_ug: 55,
-  calcium_mg: 1000,
-  potassium_mg: 3400,
-  choline_mg: 550,
-  folate_ug: 400,
-  vitamin_b12_ug: 2.4,
-  vitamin_b6_mg: 1.7,
-  vitamin_e_mg: 15,
-  vitamin_k_ug: 120,
-  copper_mg: 0.9,
-  phosphorus_mg: 700,
-  manganese_mg: 2.3,
-  vitamin_b2_mg: 1.3,
-  vitamin_b1_mg: 1.2,
-  vitamin_b3_mg: 16,
-  vitamin_b5_mg: 5,
-  vitamin_c_mg: 90,
-  vitamin_a_rae_ug: 900,
-  vitamin_d_ug: 20,
-  iodine_ug: 150,
-}
+/**
+ * Reference daily intakes come from the canonical set in
+ * `src/utils/nutrientReference.mjs`, documented in
+ * `system/nutrient-reference-values.md`. Food pages and recipe pages must not
+ * keep separate copies: a second table drifts, and the two then disagree about
+ * the same nutrient for the same reader.
+ */
+const RDA_VALUES: Record<string, number> = ADULT_REFERENCE_INTAKE
 
 const thStyle: React.CSSProperties = {
   textAlign: "left",

@@ -24,10 +24,11 @@ The Format of the page should have this structure:
 - Ingredients: a list of ingredients and amounts.
 - Method: a numbered list of steps.
 - Extra Guidance (optional): Any other notes for how or when to take it.
+- Ingredients: a list of ingredients and amounts, followed by <RecipeCalculationDefault details={frontMatter} /> which names the combination calculated where the recipe offers a choice.
 - Nutrition: should be <RecipeNutrition details={frontMatter} />, optionally followed by prose that adds something the table does not carry. Never hand-typed nutrient figures.
 - Brain Health Notes: some notes about why it is particularly helpful for your brain.
-- Foods/Substances: should be <RecipeFoods details={frontMatter} /> (displays foods with hyperlinked substances for each food)
-- Biological Target Matrix: should be <RecipeMatrix details={frontMatter} />
+- Explore the foods and substances: should be <RecipeFoods details={frontMatter} /> (collapsed; displays foods with hyperlinked substances for each food). It goes **last**.
+- No Biological Target Matrix section until that recipe's mapping passes canonical BRS validation.
 
 Use the `Ginger Yogurt & Blueberry Bowl.md` page as an example.
 

@@ -127,13 +127,13 @@ recipe_ingredients:
     included_in_default: false
     optional: true
     excluded_reason: optional addition
+nutrition_default_combination: "Nutrition calculation uses spinach as the leafy green."
 nutrition_assumptions:
   - Sodium excludes salt added to taste.
   - >-
     The recipe declares no serving count; the quantities describe a single bowl,
     so one serving is used. See the editorial list.
 ---
-
 <img src="/img/recipes/mitochondrial-power-bowl.jpg" alt="Mitochondrial Power Bowl" width="480" />
 
 ## Overview
@@ -154,6 +154,8 @@ A vibrant, nutrient-dense bowl combining nitrate-rich leafy greens and beets wit
 - Salt and pepper to taste
 - Optional: 1 tbsp hemp seeds for additional omega-3
 
+<RecipeCalculationDefault details={frontMatter} />
+
 ## Method
 
 1. Prepare quinoa according to package instructions and allow to cool to room temperature.
@@ -165,13 +167,6 @@ A vibrant, nutrient-dense bowl combining nitrate-rich leafy greens and beets wit
 7. Garnish with fresh parsley and optional hemp seeds.
 8. Serve immediately for optimal nutrient retention.
 
-## Extra Guidance
-
-- **Timing**: Best enjoyed as a lunch or light dinner to support daytime energy without evening digestive burden.
-- **Preparation**: For maximum nitrate bioavailability, consume leafy greens raw or lightly steamed. Boiling can reduce oxalate content but may diminish some polyphenols.
-- **Variations**: Substitute or add other nitrate-rich vegetables like celery, radishes, or beet greens. Swap blueberries for other polyphenol-rich berries (strawberries, raspberries) as available.
-- **Protein boost**: Add grilled chicken, salmon, or tempeh for additional complete protein and mitochondrial cofactors.
-
 ## Nutrition
 
 <RecipeNutrition details={frontMatter} />
@@ -179,6 +174,13 @@ A vibrant, nutrient-dense bowl combining nitrate-rich leafy greens and beets wit
 The fat is mostly monounsaturated, from the olive oil and walnuts. This is higher than the earlier untraced estimate of ~520 kcal. Two tablespoons of olive oil (239 kcal) and a quarter cup of walnuts (191 kcal) account for most of the difference; halving either brings the bowl closer to that figure.
 
 Polyphenol content is not quantified here. The berries, early harvest olive oil, leafy greens and nuts all contribute, but the composition records used do not carry defensible polyphenol values.
+
+## Extra Guidance
+
+- **Timing**: Best enjoyed as a lunch or light dinner to support daytime energy without evening digestive burden.
+- **Preparation**: For maximum nitrate bioavailability, consume leafy greens raw or lightly steamed. Boiling can reduce oxalate content but may diminish some polyphenols.
+- **Variations**: Substitute or add other nitrate-rich vegetables like celery, radishes, or beet greens. Swap blueberries for other polyphenol-rich berries (strawberries, raspberries) as available.
+- **Protein boost**: Add grilled chicken, salmon, or tempeh for additional complete protein and mitochondrial cofactors.
 
 ## Brain Health Notes
 
@@ -189,11 +191,6 @@ Polyphenol content is not quantified here. The berries, early harvest olive oil,
 - **Walnuts and optional hemp seeds** provide ALA omega-3, a fatty acid important for brain structure.
 - **Olive oil, seeds, lemon, and greens** contribute vitamin E, vitamin C, and polyphenols — nutrients associated with antioxidant defence.
 
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />
-

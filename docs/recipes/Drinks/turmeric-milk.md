@@ -68,12 +68,12 @@ recipe_ingredients:
     included_in_default: false
     optional: true
     excluded_reason: optional ingredient, no stated quantity
+nutrition_default_combination: "Nutrition calculation uses whole dairy milk."
 nutrition_assumptions:
   - >-
     Black pepper is listed as optional in the recipe, so the default total is milk
     plus turmeric. Adding ½ tsp black pepper contributes about 3 kcal.
 ---
-
 <img src="/img/recipes/Turmeric_Milk.jpg" alt="Turmeric Milk" width="480" />
 
 ## Overview
@@ -89,6 +89,8 @@ Turmeric milk combines turmeric (curcumin) with milk or plant-based milk. Curcum
 - ½ tsp ground cinnamon (optional)
 - Pinch of ground ginger (optional)
 
+<RecipeCalculationDefault details={frontMatter} />
+
 ## Method
 
 1. Heat the milk in a small saucepan over medium heat until warm (do not boil).
@@ -99,22 +101,16 @@ Turmeric milk combines turmeric (curcumin) with milk or plant-based milk. Curcum
 6. Strain through a fine mesh sieve if needed to remove any clumps.
 7. Serve warm.
 
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
+
 ## Brain Health Notes
 
 - **Turmeric** contains curcumin, a polyphenol studied for anti-inflammatory and antioxidant effects.
 - **Milk or plant-based milk** provides fat that can improve curcumin absorption, since curcumin is fat-soluble.
 - **Black pepper** contains piperine, which is associated with enhanced curcumin bioavailability.
 
-## Nutrition
-
-<RecipeNutrition details={frontMatter} />
-
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />
-
-

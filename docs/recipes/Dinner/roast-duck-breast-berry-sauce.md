@@ -98,7 +98,6 @@ recipe_ingredients:
     included_in_default: false
     excluded_reason: added to taste, so it is not part of an exact sodium total
 ---
-
 # Roast Duck Breast with Berry Sauce
 
 <img src="/img/recipes/duck%20with%20saffron%20potatoes%20and%20aubergine.jpeg" alt="Roast duck breast with berry sauce, saffron potatoes and aubergine" width="480" />
@@ -131,6 +130,8 @@ It works particularly well when served with simple roasted vegetables or potatoe
 - 1–2 tbsp extra-virgin olive oil
 
 ---
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -173,6 +174,10 @@ Use sparingly — this is an aromatic finish rather than a sauce.
 
 ---
 
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
+
 ## Serving Suggestions
 
 Serve with:
@@ -191,10 +196,6 @@ These sides absorb the duck juices and complement the berry sauce's acidity whil
 - The sauce should remain loose rather than syrupy.
 - A light drizzle of saffron oil enhances aroma without overpowering the duck.
 
-## Nutrition
-
-<RecipeNutrition details={frontMatter} />
-
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />

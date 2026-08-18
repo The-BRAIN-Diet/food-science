@@ -269,7 +269,7 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
             e.currentTarget.style.textDecoration = "none"
           }}
         >
-          {relatedFoods.length} food{relatedFoods.length !== 1 ? "s" : ""} in this recipe
+          Show {relatedFoods.length} food{relatedFoods.length !== 1 ? "s" : ""} and their substances
         </summary>
         <div style={{ marginTop: "1rem" }}>
           {relatedFoods.map((food: Document) => (

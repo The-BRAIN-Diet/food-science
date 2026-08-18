@@ -137,13 +137,14 @@ nutrition_assumptions:
     The ingredient list states 1 tbsp cacao nibs while the method states
     0.5–1 tsp per bowl. The ingredient list is used; the two need reconciling.
 ---
-
 <img src="/img/recipes/Salmon-pistachio-cacoa-nibs.jpg" alt="ECS-Tone Salmon Bowl" width="480" />
 
 ## Overview
+
 A Mediterranean-style bowl combining salmon, avocado, pistachio, raw cacao nibs, and pomegranates. These ingredients provide omega-3 fats, polyphenols, fibre, and a favourable omega-6:omega-3 ratio. Lemon and fresh greens add brightness, fibre, and micronutrients.
 
 ## Ingredients (2 servings)
+
 - 120–150 g (4.2–5.3 oz) **wild salmon** (baked or lightly pan-seared)
 - 150 g (1 medium) **ripe avocado**, sliced
 - 40–50 g (approx 1/3 cup) **pistachios** (raw or dry-roasted, unsalted)
@@ -155,6 +156,8 @@ A Mediterranean-style bowl combining salmon, avocado, pistachio, raw cacao nibs,
 - 24 ml (about 1 1/2 tbsp) **lemon juice** (from 1/2 lemon)
 - 10 g (approx 2 tbsp) fresh **mint or basil leaves** (optional)
 - 1 g (approx 1/4 tsp) **fine sea salt** (to taste)
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -178,14 +181,15 @@ A Mediterranean-style bowl combining salmon, avocado, pistachio, raw cacao nibs,
    Drizzle early harvest olive oil, add lemon juice, season lightly with salt.  
    Finish with mint or basil leaves (if using).
 
-## Extra Guidance
-- Serve at **room temperature**.  
-- Do not add sweet dressings — **cacao functions as a bitter spice, not dessert**.  
-- Sprinkle cacao nibs **just before serving** to preserve snap and aromatic bitterness.
-
 ## Nutrition
 
 <RecipeNutrition details={frontMatter} />
+
+## Extra Guidance
+
+- Serve at **room temperature**.  
+- Do not add sweet dressings — **cacao functions as a bitter spice, not dessert**.  
+- Sprinkle cacao nibs **just before serving** to preserve snap and aromatic bitterness.
 
 ## Brain Health Notes
 
@@ -201,8 +205,6 @@ This bowl works with either wild-caught or responsibly farm-raised salmon. Aim f
 
 The U.S. Food and Drug Administration (FDA) and Environmental Protection Agency (EPA) jointly publish [guidance on fish mercury levels](https://www.fda.gov/food/environmental-contaminants-food/technical-information-development-fdaepa-advice-about-eating-fish-those-who-might-become-or-are). They categorize fish into "Best Choices", "Good Choices", and "Choices to Avoid" based on average mercury concentrations and safe weekly intake levels. Salmon is repeatedly in the "Best Choices" category because it consistently has low mercury relative to the reference dose used to set safety advice (≤0.15 µg/g).
 
-## Foods/Substances
-<RecipeFoods details={frontMatter} />
+## Explore the foods and substances
 
-## Biological Target Matrix
-<RecipeMatrix details={frontMatter} />
+<RecipeFoods details={frontMatter} />

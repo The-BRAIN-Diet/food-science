@@ -86,7 +86,6 @@ recipe_ingredients:
 nutrition_assumptions:
   - Sodium excludes salt added to taste. Most of it comes from the bread.
 ---
-
 <img src="/img/recipes/beetroot%20n%20salmon.jpg" alt="Salmon & Grated Beetroot Toast with Lemon" width="480" />
 
 ## Overview
@@ -106,6 +105,8 @@ A fast, brain-forward open sandwich: **omega-3 rich salmon + nitrate/polyphenol 
 - 1 tsp (5 ml) capers *or* chopped dill/parsley
 - 1 tsp Dijon mustard (mix into beetroot)
 - A few rocket/arugula leaves
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -140,10 +141,6 @@ Both wild-caught and responsibly farm-raised salmon can be good options. Where p
 
 The U.S. Food and Drug Administration (FDA) and Environmental Protection Agency (EPA) jointly publish [guidance on fish mercury levels](https://www.fda.gov/food/environmental-contaminants-food/technical-information-development-fdaepa-advice-about-eating-fish-those-who-might-become-or-are). They categorize fish into "Best Choices", "Good Choices", and "Choices to Avoid" based on average mercury concentrations and safe weekly intake levels. Salmon is repeatedly in the "Best Choices" category because it consistently has low mercury relative to the reference dose used to set safety advice (≤0.15 µg/g).
 
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />

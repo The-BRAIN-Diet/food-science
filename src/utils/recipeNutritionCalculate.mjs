@@ -7,12 +7,27 @@
  */
 
 import {resolveCompositionSnapshot} from "../data/recipeCompositionSnapshots.mjs"
+import {
+  ADULT_REFERENCE_INTAKE,
+  percentOfReference,
+  referenceBasis,
+} from "./nutrientReference.mjs"
+
+export {ADULT_REFERENCE_INTAKE}
 
 export const PENDING_NUTRITION_MESSAGE =
   "Detailed nutrition calculation pending ingredient-weight reconciliation."
 
-/** Fraction of adult reference intake at which a micronutrient is material for the public table. */
-export const MATERIAL_RI_FRACTION = 0.05
+/**
+ * Fraction of the intake target at which a vitamin or mineral earns a place in
+ * the public *Key vitamins and minerals* panel. Everything below it is still
+ * calculated, still returned, and still available to daily aggregation; it is
+ * simply not claimed as a headline of this meal.
+ */
+export const KEY_MICRONUTRIENT_FRACTION = 0.15
+
+/** Ceiling on the public panel, so a long valid list cannot become a wall of rows. */
+export const MAX_KEY_MICRONUTRIENTS = 8
 
 /**
  * A food is a public nutrient *contributor* only when it supplies at least this
@@ -21,32 +36,8 @@ export const MATERIAL_RI_FRACTION = 0.05
  */
 export const MATERIAL_CONTRIBUTOR_FRACTION = 0.1
 
-/** Adult reference intakes — `system/nutrient-reference-values.md` plus NutritionTable extras. */
-export const ADULT_REFERENCE_INTAKE = {
-  iron_mg: 18,
-  zinc_mg: 11,
-  magnesium_mg: 420,
-  selenium_ug: 55,
-  calcium_mg: 1000,
-  potassium_mg: 3400,
-  choline_mg: 550,
-  folate_ug: 400,
-  vitamin_b12_ug: 2.4,
-  vitamin_b6_mg: 1.7,
-  vitamin_e_mg: 15,
-  vitamin_k_ug: 120,
-  copper_mg: 0.9,
-  phosphorus_mg: 700,
-  manganese_mg: 2.3,
-  vitamin_b2_mg: 1.3,
-  vitamin_b1_mg: 1.2,
-  vitamin_b3_mg: 16,
-  vitamin_b5_mg: 5,
-  vitamin_c_mg: 90,
-  vitamin_a_rae_ug: 900,
-  vitamin_d_ug: 20,
-  iodine_ug: 150,
-}
+/** Leading contributors named per summary row. The full arithmetic stays in `byFood`. */
+export const PUBLIC_CONTRIBUTORS_PER_ROW = 2
 
 /** Visible meal summary, in public display order. */
 export const PUBLIC_CORE_KEYS = [
@@ -393,15 +384,82 @@ export function calculateRecipeNutrition(frontMatter, foodDocs) {
 }
 
 export function percentReferenceIntake(key, perServingAmount) {
-  const ref = ADULT_REFERENCE_INTAKE[key]
-  if (!ref || !isNumericNutrient(perServingAmount)) return null
-  return (perServingAmount / ref) * 100
+  return percentOfReference(key, perServingAmount)
 }
 
-export function isMaterialMicronutrient(key, perServingAmount) {
-  const pct = percentReferenceIntake(key, perServingAmount)
+/** Eligible for the public key panel on its own proportion, before ranking or capping. */
+export function isKeyMicronutrient(key, perServingAmount) {
+  const pct = percentOfReference(key, perServingAmount)
   if (pct == null) return false
-  return pct >= MATERIAL_RI_FRACTION * 100
+  return pct >= KEY_MICRONUTRIENT_FRACTION * 100
+}
+
+/**
+ * Vitamins and minerals for the public panel: everything at or above the
+ * threshold, plus any editorially promoted key, ranked by proportion of target
+ * and capped. Promotions are pinned ahead of the ranking because they are there
+ * to say something the proportion does not.
+ *
+ * @returns {{key: string, amount: number, pct: number, basis: string, promoted?: string}[]}
+ */
+export function selectKeyMicronutrients(result, frontMatter) {
+  if (!result || result.status !== "calculated") return []
+  const unresolved = result.unresolved || {}
+  const promotions = new Map()
+  for (const row of frontMatter?.nutrition_key_micronutrients || []) {
+    if (row?.key) promotions.set(row.key, row.reason || "editorial exception")
+  }
+
+  const candidates = []
+  for (const key of PUBLIC_MICRONUTRIENT_KEYS) {
+    if (unresolved[key]) continue
+    const amount = result.perServing[key]
+    if (!isNumericNutrient(amount) || amount <= 0) continue
+    const pct = percentOfReference(key, amount)
+    if (pct == null) continue
+    const promoted = promotions.get(key)
+    if (!promoted && pct < KEY_MICRONUTRIENT_FRACTION * 100) continue
+    candidates.push({key, amount, pct, basis: referenceBasis(key), promoted})
+  }
+
+  candidates.sort((a, b) => {
+    if (Boolean(a.promoted) !== Boolean(b.promoted)) return a.promoted ? -1 : 1
+    return b.pct - a.pct
+  })
+  return candidates.slice(0, MAX_KEY_MICRONUTRIENTS)
+}
+
+/**
+ * The ingredient combination the default calculation used, for recipes that
+ * offer a choice. A reader should not have to open Calculation details to learn
+ * which version of the recipe the figures describe.
+ */
+export function defaultCombination(frontMatter) {
+  const stated = frontMatter?.nutrition_default_combination
+  if (typeof stated === "string" && stated.trim()) return stated.trim()
+  const {ingredients} = normalizeRecipeIngredients(frontMatter)
+  const notes = ingredients
+    .filter(isDefaultIncluded)
+    .map((ing) => ing.formulation_note)
+    .filter((note) => typeof note === "string" && /\bdefault\b/i.test(note))
+  return notes.length ? notes.join(". ") : null
+}
+
+/**
+ * Every calculated nutrient with its proportion and reference basis, whether or
+ * not it reaches the public panel. This is the complete set for validation and
+ * for daily aggregation across meals, where small contributions still count.
+ */
+export function completeNutrientDataset(result) {
+  if (!result || result.status !== "calculated") return []
+  return Object.entries(result.perServing)
+    .filter(([, amount]) => isNumericNutrient(amount))
+    .map(([key, amount]) => ({
+      key,
+      amount,
+      pct: percentOfReference(key, amount),
+      basis: referenceBasis(key),
+    }))
 }
 
 /** ALA / EPA / DHA shown when the per-serving amount is at least 50 mg. */
@@ -414,7 +472,11 @@ export function isMaterialBrainCompound(key, perServingAmount) {
   return false
 }
 
-export function materialContributors(key, byFood, rowTotal) {
+/**
+ * Foods materially behind a nutrient, largest first. `limit` trims the public
+ * list to the leading contributors; pass `Infinity` for the full arithmetic.
+ */
+export function materialContributors(key, byFood, rowTotal, limit = PUBLIC_CONTRIBUTORS_PER_ROW) {
   const row = byFood?.[key]
   if (!row) return []
   const total = isNumericNutrient(rowTotal) && rowTotal > 0 ? rowTotal : Object.values(row).reduce((s, v) => s + v, 0)
@@ -422,10 +484,11 @@ export function materialContributors(key, byFood, rowTotal) {
   return Object.entries(row)
     .filter(([, amount]) => amount / total >= MATERIAL_CONTRIBUTOR_FRACTION)
     .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
     .map(([name]) => name)
 }
 
-export function selectPublicRows(result) {
+export function selectPublicRows(result, frontMatter) {
   if (!result || result.status !== "calculated") return []
   const unresolved = result.unresolved || {}
   const rows = []
@@ -437,11 +500,8 @@ export function selectPublicRows(result) {
     if (!isNumericNutrient(result.perServing[key])) continue
     rows.push({ key, group: "core", amount: result.perServing[key] })
   }
-  for (const key of PUBLIC_MICRONUTRIENT_KEYS) {
-    if (unresolved[key]) continue
-    const amount = result.perServing[key]
-    if (!isMaterialMicronutrient(key, amount)) continue
-    rows.push({ key, group: "micronutrient", amount })
+  for (const row of selectKeyMicronutrients(result, frontMatter)) {
+    rows.push({ ...row, group: "micronutrient" })
   }
   for (const key of PUBLIC_BRAIN_KEYS) {
     const amount = result.perServing[key]

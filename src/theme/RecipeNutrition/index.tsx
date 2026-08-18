@@ -2,13 +2,17 @@ import React from "react"
 import {usePluginData} from "@docusaurus/useGlobalData"
 import {NUTRIENT_LABELS} from "@site/src/data/nutritionTableMapping"
 import {
-  ADULT_REFERENCE_INTAKE,
   PENDING_NUTRITION_MESSAGE,
   calculateRecipeNutrition,
   materialContributors,
-  percentReferenceIntake,
   selectPublicRows,
 } from "@site/src/utils/recipeNutritionCalculate.mjs"
+import {exceedsUpperLimit, referenceFor} from "@site/src/utils/nutrientReference.mjs"
+import {
+  conciseCompositionRecord,
+  formatAmount,
+  formatPercent,
+} from "@site/src/utils/nutrientDisplay.mjs"
 
 interface Tag {
   label: string
@@ -30,6 +34,32 @@ interface RecipeNutritionProps {
   details: Record<string, unknown>
 }
 
+/**
+ * Shape of a `calculateRecipeNutrition` result. The calculator is plain
+ * JavaScript so that Node test scripts and the site can share one
+ * implementation; this declares the contract the component relies on.
+ */
+interface CalculatedNutrition {
+  status: "pending" | "calculated"
+  pendingReason?: string
+  servings: number
+  perServing: Record<string, number>
+  byFood: Record<string, Record<string, number>>
+  audit: {food: string; display?: string; weight_g: number; composition_basis?: string; conversion_source?: string}[]
+  exclusions?: {display: string; reason: string}[]
+  assumptions?: string[]
+}
+
+interface PublicRow {
+  key: string
+  group: "core" | "micronutrient" | "brain"
+  amount: number | null
+  label?: string
+  unresolvedReason?: string
+  pct?: number
+  basis?: string
+}
+
 const NUTRIENT_UNIT: Record<string, string> = {
   kcal: "kcal",
   protein_g: "g",
@@ -41,6 +71,8 @@ const NUTRIENT_UNIT: Record<string, string> = {
   sodium_mg: "mg",
 }
 
+const BASIS_SUFFIX: Record<string, string> = {rda: "RDA", ai: "AI"}
+
 const TABLE: React.CSSProperties = {width: "100%", borderCollapse: "collapse"}
 const TH_LEFT: React.CSSProperties = {textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}
 const TH_RIGHT: React.CSSProperties = {textAlign: "right", padding: "8px", borderBottom: "2px solid #ccc"}
@@ -50,6 +82,20 @@ const DETAILS: React.CSSProperties = {marginTop: "0.75rem"}
 const SUMMARY: React.CSSProperties = {cursor: "pointer", color: "var(--ifm-color-primary)"}
 const NOTE: React.CSSProperties = {fontSize: "0.85em", color: "var(--ifm-color-content-secondary)"}
 
+function unitFor(key: string): string {
+  return NUTRIENT_LABELS[key]?.unit || NUTRIENT_UNIT[key] || (key.endsWith("_ug") ? "µg" : "mg")
+}
+
+function labelFor(key: string, fallback?: string): string {
+  return fallback || NUTRIENT_LABELS[key]?.label || key
+}
+
+/** Conversions worth stating. "Recipe-stated grams" tells the reader nothing. */
+function isInformativeConversion(source: string | null | undefined): boolean {
+  if (!source) return false
+  return !/^recipe[- ]stated/i.test(source.trim()) && source.trim() !== "recipe_nutrition.grams"
+}
+
 /**
  * RecipeNutrition component
  *
@@ -57,6 +103,9 @@ const NOTE: React.CSSProperties = {fontSize: "0.85em", color: "var(--ifm-color-c
  * must not restate these numbers: a hand-typed second copy drifts from the
  * calculation, which is how a page came to show two different carbohydrate and
  * fat totals at once.
+ *
+ * Values are rounded for display only. `perServing` keeps full precision for
+ * validation and for aggregation across a day.
  */
 export default function RecipeNutrition({details}: RecipeNutritionProps): React.ReactElement {
   const allTags = usePluginData("category-listing") as TagToDocMap
@@ -74,7 +123,7 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
     ).values(),
   )
 
-  const nutrition = calculateRecipeNutrition(details, foods)
+  const nutrition = calculateRecipeNutrition(details, foods) as unknown as CalculatedNutrition
 
   if (nutrition.status !== "calculated") {
     return (
@@ -87,7 +136,7 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
     )
   }
 
-  const publicRows = selectPublicRows(nutrition)
+  const publicRows = selectPublicRows(nutrition, details) as PublicRow[]
   const summaryRows = publicRows.filter((row) => row.group === "core")
   const micronutrientRows = publicRows.filter((row) => row.group === "micronutrient")
   const bioactiveRows = publicRows.filter((row) => row.group === "brain")
@@ -96,6 +145,18 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
     .map((row) => ({key: row.key, reason: row.unresolvedReason as string}))
   const exclusions = nutrition.exclusions || []
   const assumptions = nutrition.assumptions || []
+
+  /** Material qualifications on a headline number belong beside it, not three clicks away. */
+  const summaryCaveats = assumptions.filter((item) => /^sodium\b/i.test(item))
+  const deferredAssumptions = assumptions.filter((item) => !summaryCaveats.includes(item))
+
+  const cautions = micronutrientRows
+    .filter((row) => exceedsUpperLimit(row.key, row.amount))
+    .map((row) => ({
+      key: row.key,
+      ul: referenceFor(row.key)?.ul as number,
+    }))
+
   const provenanceRows = summaryRows
     .filter((row) => row.amount != null)
     .map((row) => ({
@@ -104,18 +165,17 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
     }))
     .filter((row) => row.contributors.length > 0)
 
-  const formatAmount = (key: string, amount: number) => {
-    const unit = NUTRIENT_LABELS[key]?.unit || NUTRIENT_UNIT[key] || (key.endsWith("_mg") ? "mg" : "")
-    const decimals = key === "kcal" ? 0 : amount >= 10 ? 1 : 2
-    return `${amount.toFixed(decimals)} ${unit}`.trim()
-  }
+  const conversions = (nutrition.audit || [])
+    .filter((row) => isInformativeConversion(row.conversion_source))
+    .map((row) => `${row.display || row.food}: ${row.conversion_source}`)
 
-  const formatPct = (key: string, amount: number) => {
-    if (!(key in ADULT_REFERENCE_INTAKE)) return "—"
-    const pct = percentReferenceIntake(key, amount)
-    if (pct == null) return "—"
-    return `${pct.toFixed(0)}%`
-  }
+  const recordNotes = (nutrition.audit || [])
+    .map((row) => ({
+      display: row.display || row.food,
+      note: conciseCompositionRecord(row.composition_basis).note,
+    }))
+    .filter((row) => row.note)
+    .map((row) => `${row.display}: ${row.note}`)
 
   return (
     <div>
@@ -130,27 +190,35 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
           <tr>
             <th style={TH_LEFT}>Nutrient</th>
             <th style={TH_RIGHT}>Per serving</th>
-            <th style={TH_RIGHT}>Reference intake</th>
           </tr>
         </thead>
         <tbody>
           {summaryRows.map((row) => (
             <tr key={row.key}>
-              <td style={TD_LEFT}>{row.label || NUTRIENT_LABELS[row.key]?.label || row.key}</td>
+              <td style={TD_LEFT}>{labelFor(row.key, row.label)}</td>
               <td style={TD_RIGHT}>
-                {row.amount == null ? "Not established" : formatAmount(row.key, row.amount)}
+                {row.amount == null ? "Not established" : formatAmount(row.amount, unitFor(row.key))}
               </td>
-              <td style={TD_RIGHT}>{row.amount == null ? "—" : formatPct(row.key, row.amount)}</td>
             </tr>
           ))}
         </tbody>
       </table>
 
+      {summaryCaveats.length > 0 && (
+        <p style={{...NOTE, marginTop: "0.4rem", marginBottom: 0}}>
+          {summaryCaveats.map((item) => (
+            <span key={item} style={{display: "block"}}>
+              {item}
+            </span>
+          ))}
+        </p>
+      )}
+
       {unresolvedNotes.length > 0 && (
         <p style={{fontSize: "0.8em", color: "var(--ifm-color-content-secondary)", marginTop: "0.4rem"}}>
           {unresolvedNotes.map((note) => (
             <span key={note.key} style={{display: "block"}}>
-              {NUTRIENT_LABELS[note.key]?.label || note.key}: {note.reason}
+              {labelFor(note.key)}: {note.reason}
             </span>
           ))}
         </p>
@@ -160,28 +228,46 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
         <summary style={SUMMARY}>Key vitamins and minerals</summary>
         {micronutrientRows.length === 0 ? (
           <p style={NOTE}>
-            No micronutrient reaches 5% of the adult reference intake in one serving from the records
-            used here.
+            No vitamin or mineral reaches 15% of its adult reference intake in one serving. Smaller
+            amounts are still calculated and still count towards a daily total.
           </p>
         ) : (
-          <table style={{...TABLE, marginTop: "0.5rem"}}>
-            <thead>
-              <tr>
-                <th style={TH_LEFT}>Nutrient</th>
-                <th style={TH_RIGHT}>Per serving</th>
-                <th style={TH_RIGHT}>Reference intake</th>
-              </tr>
-            </thead>
-            <tbody>
-              {micronutrientRows.map((row) => (
-                <tr key={row.key}>
-                  <td style={TD_LEFT}>{NUTRIENT_LABELS[row.key]?.label || row.key}</td>
-                  <td style={TD_RIGHT}>{formatAmount(row.key, row.amount)}</td>
-                  <td style={TD_RIGHT}>{formatPct(row.key, row.amount)}</td>
+          <>
+            <table style={{...TABLE, marginTop: "0.5rem"}}>
+              <thead>
+                <tr>
+                  <th style={TH_LEFT}>Nutrient</th>
+                  <th style={TH_RIGHT}>Per serving</th>
+                  <th style={TH_RIGHT}>Reference intake</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {micronutrientRows.map((row) => (
+                  <tr key={row.key}>
+                    <td style={TD_LEFT}>{labelFor(row.key)}</td>
+                    <td style={TD_RIGHT}>{formatAmount(row.amount, unitFor(row.key))}</td>
+                    <td style={TD_RIGHT}>
+                      {formatPercent(row.pct)}
+                      {BASIS_SUFFIX[row.basis] ? ` ${BASIS_SUFFIX[row.basis]}` : ""}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <p style={{...NOTE, marginTop: "0.5rem", marginBottom: 0}}>
+              Vitamins and minerals supplying at least 15% of an adult reference intake, up to eight.
+              RDA is a recommended dietary allowance; AI is an adequate intake, used where the
+              evidence does not support an RDA. Nutrients below the threshold are still calculated
+              and still count towards a daily total.
+            </p>
+            {cautions.map((caution) => (
+              <p key={caution.key} style={{...NOTE, marginTop: "0.4rem", marginBottom: 0}}>
+                {labelFor(caution.key)} in one serving is above the tolerable upper intake level of{" "}
+                {formatAmount(caution.ul, unitFor(caution.key))}, which is a safety boundary rather
+                than a target.
+              </p>
+            ))}
+          </>
         )}
       </details>
 
@@ -193,22 +279,28 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
             reported only as presence, traces or ranges are not summed into a number.
           </p>
         ) : (
-          <table style={{...TABLE, marginTop: "0.5rem"}}>
-            <thead>
-              <tr>
-                <th style={TH_LEFT}>Compound</th>
-                <th style={TH_RIGHT}>Per serving</th>
-              </tr>
-            </thead>
-            <tbody>
-              {bioactiveRows.map((row) => (
-                <tr key={row.key}>
-                  <td style={TD_LEFT}>{row.label || NUTRIENT_LABELS[row.key]?.label || row.key}</td>
-                  <td style={TD_RIGHT}>{formatAmount(row.key, row.amount)}</td>
+          <>
+            <table style={{...TABLE, marginTop: "0.5rem"}}>
+              <thead>
+                <tr>
+                  <th style={TH_LEFT}>Compound</th>
+                  <th style={TH_RIGHT}>Per serving</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {bioactiveRows.map((row) => (
+                  <tr key={row.key}>
+                    <td style={TD_LEFT}>{labelFor(row.key, row.label)}</td>
+                    <td style={TD_RIGHT}>{formatAmount(row.amount, unitFor(row.key))}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+            <p style={{...NOTE, marginTop: "0.5rem", marginBottom: 0}}>
+              These compounds have no recognised intake target, so an amount is given without a
+              percentage.
+            </p>
+          </>
         )}
       </details>
 
@@ -218,23 +310,16 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
           <thead>
             <tr>
               <th style={TH_LEFT}>Ingredient</th>
-              <th style={TH_RIGHT}>Calculation weight</th>
-              <th style={TH_LEFT}>Composition source</th>
+              <th style={TH_RIGHT}>Weight used</th>
+              <th style={TH_LEFT}>Composition record</th>
             </tr>
           </thead>
           <tbody>
             {nutrition.audit.map((row) => (
               <tr key={`${row.food}-${row.weight_g}`}>
                 <td style={TD_LEFT}>{row.display || row.food}</td>
-                <td style={TD_RIGHT}>{row.weight_g.toFixed(1)} g</td>
-                <td style={TD_LEFT}>
-                  {row.composition_basis}
-                  {row.conversion_source ? (
-                    <span style={{display: "block", color: "var(--ifm-color-content-secondary)"}}>
-                      {row.conversion_source}
-                    </span>
-                  ) : null}
-                </td>
+                <td style={TD_RIGHT}>{formatAmount(row.weight_g, "g")}</td>
+                <td style={TD_LEFT}>{conciseCompositionRecord(row.composition_basis).record}</td>
               </tr>
             ))}
           </tbody>
@@ -243,31 +328,39 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
         {provenanceRows.length > 0 && (
           <>
             <p style={{...NOTE, marginTop: "0.75rem", marginBottom: "0.25rem"}}>
-              Where each summary value comes from (foods supplying at least 10% of that row):
+              Mainly from:
             </p>
             <ul style={{fontSize: "0.85em", marginBottom: 0}}>
               {provenanceRows.map((row) => (
                 <li key={row.key}>
-                  <strong>{NUTRIENT_LABELS[row.key]?.label || row.key}</strong>:{" "}
-                  {row.contributors.join(", ")}
+                  <strong>{labelFor(row.key)}</strong>: {row.contributors.join(", ")}
                 </li>
               ))}
             </ul>
           </>
         )}
 
-        {(exclusions.length > 0 || assumptions.length > 0) && (
+        {(conversions.length > 0 ||
+          recordNotes.length > 0 ||
+          exclusions.length > 0 ||
+          deferredAssumptions.length > 0) && (
           <>
             <p style={{...NOTE, marginTop: "0.75rem", marginBottom: "0.25rem"}}>
-              Exclusions and assumptions:
+              Assumptions and exclusions:
             </p>
             <ul style={{fontSize: "0.85em", marginBottom: 0}}>
+              {conversions.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+              {recordNotes.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
               {exclusions.map((item) => (
                 <li key={item.display}>
                   {item.display} — {item.reason}
                 </li>
               ))}
-              {assumptions.map((item) => (
+              {deferredAssumptions.map((item) => (
                 <li key={item}>{item}</li>
               ))}
             </ul>

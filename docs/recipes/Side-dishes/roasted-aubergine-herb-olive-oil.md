@@ -86,7 +86,6 @@ nutrition_assumptions:
     Aubergine is calculated at its raw weight; roasting removes water but does not
     add or remove nutrients.
 ---
-
 <img src="/img/recipes/Roasted-eggplant.webp" alt="Roasted aubergine with herb olive oil and balsamic drizzle" width="480" />
 
 ## Overview
@@ -114,6 +113,8 @@ A small drizzle of balsamic vinegar at serving sharpens the dish and balances th
 - small drizzle good balsamic vinegar
 
 ---
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -149,6 +150,10 @@ Transfer to a plate and drizzle lightly with balsamic vinegar just before servin
 
 ---
 
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
+
 ## Serving Suggestions
 
 Serve alongside roasted meats, poultry, or grain-based dishes.
@@ -173,14 +178,6 @@ Pairs especially well with:
 - **Rosemary and thyme** are rich in polyphenols and terpene compounds that have been studied for antioxidant and anti-inflammatory effects.
 - **Extra-virgin olive oil** contributes monounsaturated fats and phenolic compounds associated with cardiometabolic and brain health.
 
-## Nutrition
-
-<RecipeNutrition details={frontMatter} />
-
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />

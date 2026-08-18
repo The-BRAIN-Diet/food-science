@@ -73,7 +73,6 @@ nutrition_assumptions:
     roasting fat in practice; the full stated amount is counted, which overstates
     fat and energy somewhat.
 ---
-
 # Saffron Roast Potatoes
 
 <img src="/img/recipes/htc-crunchy-roast-potatoes-with-saffron.webp" alt="Saffron roast potatoes" width="480" />
@@ -111,6 +110,8 @@ Together, these elements illustrate how even traditional starch-based sides can 
 
 ---
 
+<RecipeCalculationDefault details={frontMatter} />
+
 ## Method
 
 ### 1. Prepare the potatoes
@@ -144,6 +145,10 @@ Together, these elements illustrate how even traditional starch-based sides can 
 
 ---
 
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
+
 ## Serving Suggestions
 
 Serve alongside roasted meats, poultry, or vegetable mains.
@@ -162,10 +167,6 @@ Pairs especially well with:
 - Blooming saffron first ensures even colour and flavour.
 - Keeping the saffron oil simple preserves the bright golden tone.
 
-## Nutrition
-
-<RecipeNutrition details={frontMatter} />
-
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
