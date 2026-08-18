@@ -11,6 +11,92 @@ tags:
   - Raspberries
   - Saffron
   - Extra Virgin Olive Oil
+servings: 2
+nutrition_pending_reason: >-
+  The recipe states "1 large duck breast (serves 2)" without a weight, and duck
+  breasts range from roughly 250 g to 450 g. Duck is also the largest contributor
+  here, so no per-serving total is published until a weight is declared. The
+  butter, balsamic and finishing oil quantities are likewise open-ended.
+recipe_ingredients:
+  - display: 1 large duck breast
+    food_slug: null
+    quantity: null
+    unit: null
+    calculation_weight_g: null
+    included_in_default: true
+    preparation_state: cooked, roasted
+    composition_ref: duck-meat-roasted
+    composition_basis: >-
+      USDA SR Legacy FDC 172411 (Duck, domesticated, meat only, cooked, roasted).
+      There is no Duck food page; the Duck Fat page carries a duck liver record.
+    conversion_source: UNRESOLVED — the recipe states no weight
+  - display: 150 g blueberries
+    food_slug: blueberries
+    quantity: 150
+    unit: g
+    calculation_weight_g: 150
+    included_in_default: true
+    preparation_state: raw
+    composition_basis: named food-page record (Blueberries, raw; FDC 171711)
+    conversion_source: recipe-stated grams
+  - display: 80 g raspberries
+    food_slug: raspberries
+    quantity: 80
+    unit: g
+    calculation_weight_g: 80
+    included_in_default: true
+    preparation_state: raw
+    composition_basis: named food-page record (Raspberries, raw; FDC 167755)
+    conversion_source: recipe-stated grams
+  - display: 1–2 tsp balsamic vinegar
+    food_slug: null
+    quantity: 1.5
+    unit: tsp
+    calculation_weight_g: 7.5
+    included_in_default: true
+    composition_ref: balsamic-vinegar
+    composition_basis: USDA SR Legacy FDC 172241 (Vinegar, balsamic); no food page
+    conversion_source: midpoint 1.5 tsp at 5 g per teaspoon, as for cider vinegar (FDC 173469)
+  - display: 1–2 tbsp extra-virgin olive oil, for the saffron oil
+    food_slug: extra-virgin-olive-oil
+    quantity: 1.5
+    unit: tbsp
+    calculation_weight_g: 20.3
+    included_in_default: true
+    composition_basis: named food-page record (Oil, olive, salad or cooking; FDC 171413)
+    conversion_source: midpoint 1.5 tbsp at 13.5 g per tablespoon
+  - display: pinch saffron threads
+    food_slug: saffron
+    quantity: 0.175
+    unit: g
+    calculation_weight_g: 0.175
+    included_in_default: true
+    preparation_state: dry
+    composition_basis: named food-page record (Spices, saffron; FDC 170934)
+    conversion_source: >-
+      Half of the ~0.35 g the Saffron Roast Potatoes page records for the whole
+      meal.
+  - display: small knob of butter
+    food_slug: butter
+    calculation_weight_g: null
+    included_in_default: false
+    excluded_reason: no stated quantity; 10 g would add about 72 kcal
+  - display: 2 tbsp (30 ml) water or light stock
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    excluded_reason: water is the default and contributes no energy or nutrients
+  - display: pinch cinnamon or crushed juniper (optional)
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    optional: true
+    excluded_reason: optional, no stated quantity
+  - display: salt and black pepper
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    excluded_reason: added to taste, so it is not part of an exact sodium total
 ---
 
 # Roast Duck Breast with Berry Sauce
@@ -104,3 +190,7 @@ These sides absorb the duck juices and complement the berry sauce's acidity whil
 - Duck benefits from resting; slicing too early will release juices.
 - The sauce should remain loose rather than syrupy.
 - A light drizzle of saffron oil enhances aroma without overpowering the duck.
+
+## Foods/Substances
+
+<RecipeFoods details={frontMatter} />

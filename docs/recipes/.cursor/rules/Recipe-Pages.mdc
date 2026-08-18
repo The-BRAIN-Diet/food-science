@@ -36,40 +36,56 @@ Use the `Ginger Yogurt & Blueberry Bowl.md` page as an example.
 All ingredient lines in `## Ingredients` must include **both**:
 
 1. **Metric value** (`g`, `mg`, `µg`, `ml`, `l`)  
-2. **Cooking equivalent** (e.g. `tsp`, `tbsp`, `cup`, `oz`) in parentheses
+2. **Cooking equivalent** (e.g. `tsp`, `tbsp`, `cup`, `oz`) in parentheses when the culinary measure is not already grams
 
-Examples:
+The prose list must match unique `display` strings in `recipe_ingredients`. Do not maintain two independent ingredient truths.
 
-- `10 ml (2 tsp) extra virgin olive oil`
-- `120 g (4.2 oz) cooked quinoa`
-- `2 tbsp (30 ml) tomato purée`
+## Recipe nutrition (required rule)
 
-Rules:
+**Never render a quantitative recipe nutrition table unless every default-included ingredient has both** an unambiguous food-composition record **and** a resolved edible quantity in grams (`calculation_weight_g`) with a recorded conversion source.
 
-- Keep both units on the **same ingredient line**.
-- Use `mg` / `µg` where relevant for very small quantities.
-- If an ingredient is difficult to convert precisely (e.g. herbs by volume), use a clear approximation label such as `(approx)`.
-- Preserve culinary usability: readers should be able to cook from spoons/cups while retaining metric precision.
+If those conditions are not met, the Foods/Substances block shows only:
 
-## Portion-weighted recipe nutrition (recommended)
+> Detailed nutrition calculation pending ingredient-weight reconciliation.
 
-For accurate **Aggregated Recipe Nutrition** (not the legacy “sum of three 100 g panels”), add optional front matter:
+Do **not** sum 100 g of each tagged food. See `system/recipe-ingredient-schema.md`.
+
+Also required:
+
+- A non-gram `unit` needs a `conversion_source` naming a USDA `food_portion` row, concordant FDC Branded serving declarations, a declared drained weight, or an explicit midpoint of a range the recipe states. Never equate millilitres with grams.
+- Use `composition_ref` into `src/data/recipeCompositionSnapshots.mjs` when the ingredient has no food page, or when the food page records a different preparation state (uncooked quinoa for a cooked-quinoa line, raw corn for drained canned corn, lemon flesh for lemon juice).
+- Every `included_in_default: false` line needs an `excluded_reason`. Salt added to taste is excluded and disclosed as `excluding salt added to taste`.
+- A nutrient the sources cannot establish goes in `nutrition_unresolved` and renders as *Not established*, never as a number or a zero.
+- If the recipe declares no serving count and one cannot be read from its own text, set `servings_unresolved: true`. The calculator follows declared servings; it never decides them.
+
+The public block is a visible meal summary (Energy, Protein, Carbohydrate, Sugars, Fibre, Total fat, Saturated fat, Sodium) plus three collapsed sections: Key vitamins and minerals, Bioactive compounds, Calculation details.
+
+## Biological Target Matrix (required rule)
+
+**Never render a generated Biological Target Matrix** unless the recipe front matter sets `recipe_matrix_validated: true` after canonical BRS review.
+
+If that flag is absent or false, show only:
+
+> Biological Target Matrix pending canonical BRS validation.
+
+Do not leave a tag-walked table public merely because it is labelled estimated or automatically generated. Do not set `recipe_matrix_validated` during routine recipe edits. See `system/recipe-matrix-schema-proposal.md`.
+
+Canonical front matter:
 
 ```yaml
-recipe_nutrition:
-  servings: 1
-  ingredients:
-    - food: Milk          # must match the food page title or a food tag label
-      grams: 244
-    - food: Turmeric
-      grams: 2.6
+servings: 1
+recipe_ingredients:
+  - display: 150 g full-fat Greek yogurt
+    food_slug: greek-yogurt
+    quantity: 150
+    unit: g
+    calculation_weight_g: 150
+    included_in_default: true
+    composition_basis: named food-page record
+    conversion_source: recipe-stated edible grams
 ```
 
-- **grams**: total grams of that ingredient **for the whole recipe** (derive from ingredient lines, including `~X g (approx)` where present).
-- **servings**: when &gt; 1, displayed nutrient amounts and % RDA are **per serving**.
-- Nutrients below reporting thresholds show as **trace** in the table.
-
-If `recipe_nutrition` is omitted, the recipe page falls back to the legacy tag-sum (clearly labelled in the UI).
+Legacy `recipe_nutrition` with explicit `food` + `grams` is still calculated. It is not a 100 g fallback.
 
 ## Copy/Paste Recipe Template (canonical)
 
@@ -111,7 +127,7 @@ _Replace with a single paragraph describing what the recipe is and why it is del
 
 ## Nutrition
 
-_Replace with text estimates or a markdown table._
+_Replace with the calculated per-serving figures. Do not leave an untraced estimate that disagrees with the Recipe nutrition table._
 
 ## Brain Health Notes
 

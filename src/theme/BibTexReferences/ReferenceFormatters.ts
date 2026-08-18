@@ -180,7 +180,19 @@ function formatHarvard(entry: BibEntry): string {
         return `${authors} ${year}, '${title}', in <em>${booktitle}</em>, ${location}${publisher}${pagePart}.`;
     }
 
-    return `${authors} ${year}, '${title}'.`;
+    const source = (
+        entryTags.howpublished ||
+        entryTags.institution ||
+        entryTags.publisher ||
+        ''
+    ).trim();
+    const reportNumber = (entryTags.number || '').trim();
+    const sourcePart = source
+        ? `, ${source}${reportNumber ? `, ${reportNumber}` : ''}`
+        : reportNumber
+          ? `, ${reportNumber}`
+          : '';
+    return `${authors} ${year}, '${title}'${sourcePart}.`;
 }
 
 function formatAuthors(authorString: string, style: ReferenceStyle): string {

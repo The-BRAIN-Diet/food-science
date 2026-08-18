@@ -18,6 +18,11 @@ tags:
   - Neurochemical Balance
   - Insulin Response
 list_image: /img/recipes/sourdough drink.jpg
+nutrition_pending_reason: >-
+  The nutrition of this drink is not the sum of its ingredients. The bread solids
+  are strained out and discarded, most of the added sugar is consumed during
+  fermentation, and the finished yield varies between 1.5 and 2 litres. Publishing
+  an ingredient sum would overstate energy and carbohydrate several-fold.
 ---
 
 <img src="/img/recipes/sourdough drink.jpg" alt="Sourdough soda drink" width="480" />

@@ -10,6 +10,68 @@ tags:
   - Potatoes
   - Roast
   - Saffron
+servings: 4
+recipe_ingredients:
+  - display: 1.2–1.5 kg floury potatoes
+    food_slug: potatoes
+    quantity: 1350
+    unit: g
+    calculation_weight_g: 1350
+    included_in_default: true
+    preparation_state: raw
+    composition_basis: named food-page record (Potatoes, flesh and skin, raw; FDC 170026)
+    conversion_source: midpoint of the stated 1.2–1.5 kg
+  - display: 3–4 tbsp roasting fat (olive oil)
+    food_slug: extra-virgin-olive-oil
+    quantity: 3.5
+    unit: tbsp
+    calculation_weight_g: 47.3
+    included_in_default: true
+    composition_basis: named food-page record (Oil, olive, salad or cooking; FDC 171413)
+    conversion_source: >-
+      Midpoint 3.5 tbsp at USDA SR Legacy FDC 171413 food_portion 1 tablespoon =
+      13.5 g.
+    formulation_note: >-
+      The recipe allows duck fat instead. Duck fat is not calculated here: it is
+      about 10% more energy-dense and much higher in saturated fat, and the Duck
+      Fat food page currently carries a duck liver record.
+  - display: 2–3 tbsp extra-virgin olive oil, for the saffron finishing oil
+    food_slug: extra-virgin-olive-oil
+    quantity: 2.5
+    unit: tbsp
+    calculation_weight_g: 33.8
+    included_in_default: true
+    composition_basis: named food-page record (Oil, olive, salad or cooking; FDC 171413)
+    conversion_source: midpoint 2.5 tbsp at 13.5 g per tablespoon
+  - display: generous pinch saffron threads (~0.35 g)
+    food_slug: saffron
+    quantity: 0.35
+    unit: g
+    calculation_weight_g: 0.35
+    included_in_default: true
+    preparation_state: dry
+    composition_basis: named food-page record (Spices, saffron; FDC 170934)
+    conversion_source: >-
+      The page's own proviso states approximately 0.35 g of saffron is used across
+      the meal.
+  - display: salt (boiling water, roasting, finishing oil)
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    excluded_reason: >-
+      salting is to taste and the amount absorbed from the boiling water is not
+      established, so it is not part of an exact sodium total
+  - display: 1 tsp warm water for blooming the saffron
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    excluded_reason: water contributes no energy or nutrients
+nutrition_assumptions:
+  - Sodium excludes salt added to taste and salt absorbed during parboiling.
+  - >-
+    Olive oil is the calculated roasting fat. Potatoes absorb only part of the
+    roasting fat in practice; the full stated amount is counted, which overstates
+    fat and energy somewhat.
 ---
 
 # Saffron Roast Potatoes
@@ -99,3 +161,7 @@ Pairs especially well with:
 - Floury potatoes give the best texture.
 - Blooming saffron first ensures even colour and flavour.
 - Keeping the saffron oil simple preserves the bright golden tone.
+
+## Foods/Substances
+
+<RecipeFoods details={frontMatter} />

@@ -15,16 +15,63 @@ tags:
   - Inflammation
   - Oxidative Stress
 list_image: /img/recipes/Turmeric_Milk.jpg
-# Grams ≈ 1 cup milk + 1 tsp turmeric + ½ tsp black pepper (optional line items omitted).
-recipe_nutrition:
-  servings: 1
-  ingredients:
-    - food: Milk
-      grams: 244
-    - food: Turmeric
-      grams: 2.6
-    - food: Black Pepper
-      grams: 1.1
+servings: 1
+recipe_ingredients:
+  - display: 1 cup (244 g) whole milk
+    food_slug: milk
+    quantity: 1
+    unit: cup
+    calculation_weight_g: 244
+    included_in_default: true
+    composition_basis: named food-page record (Milk, whole, 3.25% milkfat; FDC 171265)
+    conversion_source: "USDA SR Legacy FDC 171265 food_portion: 1 cup = 244 g"
+    formulation_note: >-
+      The recipe allows dairy or plant-based milk. Whole dairy milk is the
+      calculated default; plant milks differ substantially in energy, protein and
+      fortification.
+  - display: 1 tsp (3 g) ground turmeric
+    food_slug: turmeric
+    quantity: 1
+    unit: tsp
+    calculation_weight_g: 3
+    included_in_default: true
+    preparation_state: dry
+    composition_basis: named food-page record (Spices, turmeric, ground; FDC 172231)
+    conversion_source: >-
+      USDA SR Legacy FDC 172231 food_portion: 1 tsp = 3 g. The previous entry used
+      2.6 g, which is the cinnamon teaspoon weight.
+  - display: ½ tsp black pepper (optional, for enhanced absorption)
+    food_slug: black-pepper
+    quantity: 0.5
+    unit: tsp
+    calculation_weight_g: 1.15
+    included_in_default: false
+    optional: true
+    conversion_source: "USDA SR Legacy FDC 170931 food_portion: 1 tsp, ground = 2.3 g; ½ tsp = 1.15 g"
+    excluded_reason: >-
+      the recipe marks black pepper optional, so it is not in the default total
+  - display: 1 tsp honey or maple syrup (optional)
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    optional: true
+    excluded_reason: optional sweetener
+  - display: ½ tsp ground cinnamon (optional)
+    food_slug: cinnamon
+    calculation_weight_g: null
+    included_in_default: false
+    optional: true
+    excluded_reason: optional ingredient
+  - display: pinch of ground ginger (optional)
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    optional: true
+    excluded_reason: optional ingredient, no stated quantity
+nutrition_assumptions:
+  - >-
+    Black pepper is listed as optional in the recipe, so the default total is milk
+    plus turmeric. Adding ½ tsp black pepper contributes about 3 kcal.
 ---
 
 <img src="/img/recipes/Turmeric_Milk.jpg" alt="Turmeric Milk" width="480" />

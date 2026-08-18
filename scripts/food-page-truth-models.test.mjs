@@ -670,6 +670,36 @@ test("A-food reference annotations no longer carry mismatched bibliography summa
   assert.doesNotMatch(avocado, /Neurological, neurodegenerative, and psychiatric disorders represent a serious burden/)
 })
 
+test("salmon-roe keeps raw USDA sodium distinct from commercial cured ikura", () => {
+  const raw = readDoc("docs/foods/salmon-roe.md")
+  const { data: fm, content } = matter(raw)
+  const overview = content.split("## Overview")[1]?.split("## ")[0] ?? ""
+  const commercial = (fm.nutrition_supplementary_sources || []).find((row) =>
+    /commercial cured ikura/i.test(String(row.label)),
+  )
+
+  assert.equal(fm.nutrition_per_100g.sodium_mg, 91)
+  assert.equal(String(fm.nutrition_source.fdc_id), "175132")
+  assert.match(String(fm.nutrition_source.food_name), /Fish, roe, mixed species, raw/)
+  assert.match(String(fm.nutrition_source.food_name), /not\s+commercial cured ikura/)
+  assert.equal(fm.public_display?.sodium_mg, "table")
+  assert.equal(fm.tags.includes("Sodium"), false)
+  assert.ok(commercial)
+  assert.match(String(commercial.amount_display), /Varies by cure and product; check label/)
+  assert.doesNotMatch(String(commercial.amount_display), /1,?167|140 mg/)
+  assert.match(String(commercial.source_note), /Intershell/)
+  assert.match(String(commercial.source_note), /140 mg sodium per 12 g/)
+  assert.match(String(commercial.source_note), /2\.5% brine/)
+  assert.doesNotMatch(String(commercial.source_note), /310 mg/)
+  assert.doesNotMatch(overview, /91 mg|1,?167|140 mg|310 mg|FDC 175132/)
+  assert.match(overview, /small portions useful in preparations such as the Neuroshot/)
+  assert.match(content.split("## Key Nutritional Highlights")[1]?.split("## ")[0] ?? "", /phospholipid-bound/)
+  assert.match(content, /liu_higher_2014/)
+  assert.match(content, /patrick_role_2019/)
+  assert.match(content.split("## Key Nutritional Highlights")[1]?.split("## ")[0] ?? "", /\[1,2\]/)
+  assert.doesNotMatch(content.split("## Key Nutritional Highlights")[1]?.split("## ")[0] ?? "", /1\.9-fold|piglets|13C/)
+})
+
 const A_FOOD_INDEX_DESCRIPTIONS = {
   "algal-oil": "Vegetarian source of preformed DHA from cultivated microalgae",
   almonds: "Nutrient-dense nut providing vitamin E, magnesium, fibre and unsaturated fats",

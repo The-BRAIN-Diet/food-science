@@ -113,6 +113,7 @@ export function extractNutrients(food) {
       out.lutein_zeaxanthin_ug = amount
       continue
     }
+    // USDA 6:0 / 8:0 / 10:0 are fatty acids (free/total SFA), not named triglycerides.
     if ((name === "sfa 8:0" || name === "8:0") && unit === "g") { out.caprylic_g = amount; continue }
     if ((name === "sfa 10:0" || name === "10:0") && unit === "g") { out.capric_g = amount; continue }
     if ((name === "sfa 6:0" || name === "6:0") && unit === "g") { out.caproic_g = amount; continue }
@@ -157,6 +158,9 @@ export function extractNutrients(food) {
   const epa = out.epa_mg ?? null
   const dha = out.dha_mg ?? null
   if (ala != null || epa != null || dha != null) {
+    // Internal rollup of the acids that were actually mapped. Omits DPA and any
+    // unidentified n-3. Do not treat this as an independent public “Total omega-3”
+    // row alongside ALA/EPA/DHA.
     out.omega3_mg = [ala, epa, dha].filter((v) => v != null).reduce((a, b) => a + b, 0)
   }
   return out
