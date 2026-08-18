@@ -107,9 +107,11 @@ All values are per declared serving, and `<RecipeNutrition />` is the only place
 
 **Visible meal summary**, in this order: Energy, Protein, Carbohydrate, Sugars, Fibre, Total fat, Saturated fat, Sodium.
 
-**Collapsed — Key vitamins and minerals.** A vitamin or mineral is eligible at **≥15% of its reference intake** for the actual serving, and at most **eight** are shown, ranked by proportion of target. Everything below the threshold or past the cap stays in `perServing` and in `completeNutrientDataset()`; the threshold governs prominence, never the data. Several meals each contributing a little still add up over a day.
+**Collapsed — Key vitamins and minerals.** A vitamin or mineral is eligible when its coverage **displays as 15% or more** of its reference intake for the actual serving, and at most **eight** are shown, ranked by proportion of target. Everything below the threshold or past the cap stays in `perServing` and in `completeNutrientDataset()`; the threshold governs prominence, never the data. Several meals each contributing a little still add up over a day.
 
-A nutrient below 15% may be promoted through `nutrition_key_micronutrients: [{key, reason}]` when it is central to the recipe's nutritional identity. Promotions are pinned ahead of the ranking and still count against the cap. Do not promote ordinary background composition because it happens to be valid and non-zero.
+Eligibility is tested against the rounded whole-number percentage the page prints, not the raw one, so a serving shown as `15%` is never withheld for being 14.86% underneath. Ranking then uses the unrounded percentage, so two rows both printed as `32%` still appear in their true order. This is a **public-display admission rule** deciding which rows a page highlights. It is not a statement about intake adequacy and not a regulatory nutrient-content threshold; a claim of that kind would need its own unrounded arithmetic and its own defined basis.
+
+A nutrient below the threshold may be promoted through `nutrition_key_micronutrients: [{key, reason}]` when it is central to the recipe's nutritional identity. Promotions are pinned ahead of the ranking and still count against the cap. Do not promote ordinary background composition because it happens to be valid and non-zero.
 
 Percentages are labelled for what they are — `% RDA` or `% AI` — per `system/nutrient-reference-values.md`. Sodium stays in the visible summary, is not governed by the eight-row cap, and carries no percentage because it has no target to reach. Bioactives without an RDA or AI are never run through the 15% rule; they belong in Bioactive compounds under their own admission rules.
 

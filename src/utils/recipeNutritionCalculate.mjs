@@ -7,6 +7,7 @@
  */
 
 import {resolveCompositionSnapshot} from "../data/recipeCompositionSnapshots.mjs"
+import {displayPercent} from "./nutrientDisplay.mjs"
 import {
   ADULT_REFERENCE_INTAKE,
   percentOfReference,
@@ -19,12 +20,20 @@ export const PENDING_NUTRITION_MESSAGE =
   "Detailed nutrition calculation pending ingredient-weight reconciliation."
 
 /**
- * Fraction of the intake target at which a vitamin or mineral earns a place in
- * the public *Key vitamins and minerals* panel. Everything below it is still
- * calculated, still returned, and still available to daily aggregation; it is
+ * Percentage of the intake target at which a vitamin or mineral earns a place in
+ * the public *Key vitamins and minerals* panel.
+ *
+ * This is a presentation rule for deciding which rows a page highlights. It is
+ * not an intake recommendation, a nutrient-content claim, or any regulatory
+ * threshold; those are governed elsewhere and would need their own unrounded
+ * arithmetic. Everything below the threshold is still calculated, still returned
+ * by `completeNutrientDataset`, and still counts towards a daily total. It is
  * simply not claimed as a headline of this meal.
+ *
+ * The test is applied to the rounded percentage the reader sees, not the raw
+ * one, so the panel never withholds a row that the page would print as 15%.
  */
-export const KEY_MICRONUTRIENT_FRACTION = 0.15
+export const KEY_MICRONUTRIENT_DISPLAY_PERCENT = 15
 
 /** Ceiling on the public panel, so a long valid list cannot become a wall of rows. */
 export const MAX_KEY_MICRONUTRIENTS = 8
@@ -387,18 +396,34 @@ export function percentReferenceIntake(key, perServingAmount) {
   return percentOfReference(key, perServingAmount)
 }
 
-/** Eligible for the public key panel on its own proportion, before ranking or capping. */
-export function isKeyMicronutrient(key, perServingAmount) {
-  const pct = percentOfReference(key, perServingAmount)
-  if (pct == null) return false
-  return pct >= KEY_MICRONUTRIENT_FRACTION * 100
+/**
+ * The admission rule itself, on a percentage. Kept separate from the nutrient
+ * lookup so the boundary can be tested at exact values: reconstructing an amount
+ * from a target and dividing back does not return the percentage you started
+ * with, and 14.5% round-trips to 14.499999999999998 for most targets.
+ */
+export function meetsKeyMicronutrientThreshold(pct) {
+  const shown = displayPercent(pct)
+  return shown != null && shown >= KEY_MICRONUTRIENT_DISPLAY_PERCENT
 }
 
 /**
- * Vitamins and minerals for the public panel: everything at or above the
- * threshold, plus any editorially promoted key, ranked by proportion of target
- * and capped. Promotions are pinned ahead of the ranking because they are there
- * to say something the proportion does not.
+ * Eligible for the public key panel on its own proportion, before ranking or
+ * capping. Judged on the displayed percentage, so a serving printed as 15% is
+ * never excluded for being 14.86% underneath.
+ */
+export function isKeyMicronutrient(key, perServingAmount) {
+  return meetsKeyMicronutrientThreshold(percentOfReference(key, perServingAmount))
+}
+
+/**
+ * Vitamins and minerals for the public panel: everything whose displayed
+ * percentage reaches the threshold, plus any editorially promoted key, ranked by
+ * proportion of target and capped. Promotions are pinned ahead of the ranking
+ * because they are there to say something the proportion does not.
+ *
+ * Admission uses the rounded percentage; ranking uses the unrounded one, so two
+ * rows both printed as 32% still appear in their true order.
  *
  * @returns {{key: string, amount: number, pct: number, basis: string, promoted?: string}[]}
  */
@@ -418,7 +443,7 @@ export function selectKeyMicronutrients(result, frontMatter) {
     const pct = percentOfReference(key, amount)
     if (pct == null) continue
     const promoted = promotions.get(key)
-    if (!promoted && pct < KEY_MICRONUTRIENT_FRACTION * 100) continue
+    if (!promoted && !meetsKeyMicronutrientThreshold(pct)) continue
     candidates.push({key, amount, pct, basis: referenceBasis(key), promoted})
   }
 

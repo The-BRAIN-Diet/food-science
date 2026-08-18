@@ -67,11 +67,22 @@ export function formatAmount(amount, unit) {
   return `${rounded.toFixed(decimals)}${unit ? ` ${unit}` : ""}`
 }
 
+/**
+ * The whole-number percentage a reader actually sees. Anything deciding what to
+ * show a reader should ask this rather than rounding independently, so a value
+ * cannot be admitted on one rounding and printed on another.
+ */
+export function displayPercent(pct) {
+  if (typeof pct !== "number" || !Number.isFinite(pct)) return null
+  return Math.round(pct)
+}
+
 /** Percentages read as coverage, so a sub-1% figure is stated as such rather than as 0%. */
 export function formatPercent(pct) {
-  if (typeof pct !== "number" || !Number.isFinite(pct)) return "—"
+  const rounded = displayPercent(pct)
+  if (rounded == null) return "—"
   if (pct > 0 && pct < 1) return "<1%"
-  return `${Math.round(pct)}%`
+  return `${rounded}%`
 }
 
 /**

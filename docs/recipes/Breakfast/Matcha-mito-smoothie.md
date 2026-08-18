@@ -23,11 +23,6 @@ tags:
   - Greek Yogurt
 list_image: /img/recipes/matcha-mito-smoothie.jpg
 servings: 1
-nutrition_pending_reason: >-
-  Matcha is powdered whole green tea leaf. The Green Tea food page records brewed
-  tea, and the only matcha entries in FoodData Central are label panels rounded to
-  zero energy and zero protein. There is no composition record that can be used
-  without treating missing values as zero, so no total is published.
 recipe_ingredients:
   - display: 1 cup (30 g) spinach
     food_slug: spinach
@@ -51,15 +46,20 @@ recipe_ingredients:
     food_slug: null
     quantity: 1
     unit: tsp
-    calculation_weight_g: 2
-    included_in_default: true
+    calculation_weight_g: null
+    included_in_default: false
     preparation_state: dry powder
     composition_basis: >-
       UNRESOLVED. No composition record exists for matcha as powdered whole leaf.
-      Brewed green tea is a different food and must not stand in for it.
+      FoodData Central holds only brewed and ready-to-drink green tea beverages,
+      which are a different food and must not stand in for it.
     conversion_source: >-
       USDA FDC Branded records for matcha powder concordantly declare 1 tsp = 2 g
       (e.g. 2410354, 2308440, 2429064, 2112809).
+    excluded_reason: >-
+      no composition record exists for powdered whole leaf, so it is left out of
+      the total rather than counted as zero; at 2 g it would add only a few
+      kilocalories, but it is the drink's main source of catechins and caffeine
   - display: 1 tbsp (12 g) chia seeds
     food_slug: chia-seeds
     quantity: 1
@@ -106,6 +106,11 @@ recipe_ingredients:
     excluded_reason: optional addition
 nutrition_assumptions:
   - Kefir rather than yogurt is the calculated default.
+  - >-
+    Matcha is excluded from the figures. It is powdered whole green tea leaf, and
+    the only records available are brewed tea beverages and label panels rounded
+    to zero, so it is left out rather than counted as zero. The catechins and
+    caffeine it contributes are therefore not represented in this table.
 ---
 <img src="/img/recipes/matcha-mito-smoothie.jpg" alt="Matcha mitochondria smoothie" width="480" />
 

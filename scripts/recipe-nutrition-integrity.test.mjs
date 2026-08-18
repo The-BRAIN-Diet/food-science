@@ -5,7 +5,7 @@ import {test} from "node:test"
 import {fileURLToPath} from "node:url"
 import matter from "gray-matter"
 import {
-  KEY_MICRONUTRIENT_FRACTION,
+  KEY_MICRONUTRIENT_DISPLAY_PERCENT,
   MAX_KEY_MICRONUTRIENTS,
   PENDING_NUTRITION_MESSAGE,
   PUBLIC_CONTRIBUTORS_PER_ROW,
@@ -16,7 +16,9 @@ import {
   completeNutrientDataset,
   defaultCombination,
   isDefaultIncluded,
+  isKeyMicronutrient,
   materialContributors,
+  meetsKeyMicronutrientThreshold,
   normalizeRecipeIngredients,
   resolveFoodDoc,
   scaleNutrient,
@@ -32,6 +34,7 @@ import {
 } from "../src/utils/nutrientReference.mjs"
 import {
   conciseCompositionRecord,
+  displayPercent,
   formatAmount,
   formatPercent,
   roundForDisplay,
@@ -478,8 +481,8 @@ test("key vitamins and minerals are selective, ranked and capped", () => {
     for (const row of key) {
       if (row.promoted) continue
       assert.ok(
-        row.pct >= KEY_MICRONUTRIENT_FRACTION * 100,
-        `${row.key} at ${row.pct.toFixed(0)}% is below the 15% threshold`,
+        displayPercent(row.pct) >= KEY_MICRONUTRIENT_DISPLAY_PERCENT,
+        `${row.key} at ${formatPercent(row.pct)} is below the threshold`,
       )
     }
     const pcts = key.filter((r) => !r.promoted).map((r) => r.pct)
@@ -488,6 +491,73 @@ test("key vitamins and minerals are selective, ranked and capped", () => {
 
   const skilletResult = calculateRecipeNutrition(skillet.data, foodDocs)
   assert.equal(selectKeyMicronutrients(skilletResult, skillet.data).length, MAX_KEY_MICRONUTRIENTS)
+})
+
+test("admission is decided on the percentage the reader sees", () => {
+  // The rule is a display admission rule: a row printed as 15% is admitted, and
+  // one printed as 14% is not. It says nothing about intake adequacy and is not
+  // a regulatory content threshold, which would need the unrounded value.
+  assert.equal(meetsKeyMicronutrientThreshold(14.49), false, "prints as 14%")
+  assert.equal(meetsKeyMicronutrientThreshold(14.5), true, "prints as 15%")
+  assert.equal(meetsKeyMicronutrientThreshold(14.86), true, "prints as 15%")
+  assert.equal(meetsKeyMicronutrientThreshold(15.0), true, "prints as 15%")
+
+  for (const pct of [14.49, 14.5, 14.86, 15.0]) {
+    assert.equal(
+      meetsKeyMicronutrientThreshold(pct),
+      formatPercent(pct) === `${KEY_MICRONUTRIENT_DISPLAY_PERCENT}%`,
+      `admission at ${pct} must agree with what the page prints`,
+    )
+  }
+
+  assert.equal(meetsKeyMicronutrientThreshold(null), false)
+  assert.equal(meetsKeyMicronutrientThreshold(undefined), false)
+  assert.equal(meetsKeyMicronutrientThreshold(Number.NaN), false)
+
+  // Whatever the arithmetic produces, admission and display cannot disagree.
+  for (const recipe of [bowl, skillet]) {
+    const result = calculateRecipeNutrition(recipe.data, foodDocs)
+    for (const key of PUBLIC_MICRONUTRIENT_KEYS) {
+      const amount = result.perServing[key]
+      if (typeof amount !== "number" || !Number.isFinite(amount)) continue
+      const shown = displayPercent(percentOfReference(key, amount))
+      if (shown == null) continue
+      assert.equal(
+        isKeyMicronutrient(key, amount),
+        shown >= KEY_MICRONUTRIENT_DISPLAY_PERCENT,
+        `${recipe.path}: ${key} prints as ${shown}% but is judged otherwise`,
+      )
+    }
+  }
+
+  // The bowl's corrected B6 is the case that prompted the rule: 14.86% raw,
+  // printed as 15%, and now admitted rather than silently withheld.
+  const bowlResult = calculateRecipeNutrition(bowl.data, foodDocs)
+  const b6 = percentOfReference("vitamin_b6_mg", bowlResult.perServing.vitamin_b6_mg)
+  assert.ok(b6 > 14.8 && b6 < 15, "B6 sits just under the raw threshold")
+  assert.equal(formatPercent(b6), "15%")
+  assert.equal(isKeyMicronutrient("vitamin_b6_mg", bowlResult.perServing.vitamin_b6_mg), true)
+})
+
+test("ranking uses the unrounded percentage", () => {
+  const result = calculateRecipeNutrition(skillet.data, foodDocs)
+  const rows = selectKeyMicronutrients(result, skillet.data).filter((r) => !r.promoted)
+  const raw = rows.map((r) => r.pct)
+  assert.deepEqual(raw, [...raw].sort((a, b) => b - a), "rows are ordered by the true proportion")
+
+  // Two rows can print the same percentage; their order must still be truthful.
+  const bowlRows = selectKeyMicronutrients(
+    calculateRecipeNutrition(bowl.data, foodDocs),
+    bowl.data,
+  )
+  const copper = bowlRows.find((r) => r.key === "copper_mg")
+  const selenium = bowlRows.find((r) => r.key === "selenium_ug")
+  assert.equal(formatPercent(copper.pct), formatPercent(selenium.pct), "both print as 32%")
+  assert.ok(copper.pct > selenium.pct, "copper is genuinely higher")
+  assert.ok(
+    bowlRows.indexOf(copper) < bowlRows.indexOf(selenium),
+    "the tie on screen is broken by the unrounded value, not by key order",
+  )
 })
 
 test("completeNutrientDataset is NDC-ready: complete, unrounded and honestly labelled", () => {
@@ -541,18 +611,22 @@ test("completeNutrientDataset is NDC-ready: complete, unrounded and honestly lab
 })
 
 test("an editorial exception can promote a nutrient below the threshold", () => {
-  const result = calculateRecipeNutrition(skillet.data, foodDocs)
-  const promotedKey = "vitamin_d_ug"
-  assert.ok(percentOfReference(promotedKey, result.perServing[promotedKey]) < 15)
+  const result = calculateRecipeNutrition(bowl.data, foodDocs)
+  const promotedKey = "vitamin_k_ug"
+  assert.equal(
+    isKeyMicronutrient(promotedKey, result.perServing[promotedKey]),
+    false,
+    "the promoted nutrient must be one the rule genuinely excludes",
+  )
 
   const withException = {
-    ...skillet.data,
-    nutrition_key_micronutrients: [{key: promotedKey, reason: "characterises the egg base"}],
+    ...bowl.data,
+    nutrition_key_micronutrients: [{key: promotedKey, reason: "relevant to the ginger base"}],
   }
   const rows = selectKeyMicronutrients(result, withException)
   const promoted = rows.find((r) => r.key === promotedKey)
   assert.ok(promoted, "the promoted nutrient appears")
-  assert.equal(promoted.reason ?? promoted.promoted, "characterises the egg base")
+  assert.equal(promoted.reason ?? promoted.promoted, "relevant to the ginger base")
   assert.equal(rows.length, MAX_KEY_MICRONUTRIENTS, "promotion does not lift the cap")
 })
 
