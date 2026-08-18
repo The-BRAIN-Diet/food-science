@@ -54,6 +54,14 @@ const SNAPSHOTS = {
     note: "Canned whole-kernel sweetcorn, drained solids. Regular pack; sodium varies with brand and rinsing.",
   },
   "duck-meat-roasted": {fdc_id: "172411", note: "Duck meat only, roasted. Skin excluded."},
+  "duck-breast-meat-skin-roasted": {
+    fdc_id: "171510",
+    note: "White Pekin duck breast, meat and skin, boneless, roasted. Analysed after roasting, so the fat that renders into the pan is already gone from this record.",
+  },
+  "duck-breast-meat-only-cooked": {
+    fdc_id: "171511",
+    note: "White Pekin duck breast, meat only, boneless, cooked without skin. Use where the skin is left on the plate.",
+  },
   "turkey-wing-roasted": {
     fdc_id: "171527",
     note: "Turkey wing meat only, roasted, with added solution — sodium reflects an enhanced product.",

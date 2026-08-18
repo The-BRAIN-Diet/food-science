@@ -132,7 +132,6 @@ nutrition_assumptions:
     "Mixed seeds" is calculated as the recipe's own stated 9 g split equally
     between chia, flax and pumpkin, not as one tablespoon of each seed.
 ---
-
 <img src="/img/recipes/blueberry%20and%20yogurt%20bowl.jpg" alt="Ginger yogurt bowl" width="480" />
 
 ## Overview
@@ -149,6 +148,8 @@ This polyphenol-rich breakfast bowl combines ginger, blueberry polyphenols, omeg
 - ½ tsp (3.5 g) raw honey
 - Optional: cinnamon
 
+<RecipeCalculationDefault details={frontMatter} />
+
 ## Method
 
 1. Mix yogurt + ginger.
@@ -156,15 +157,15 @@ This polyphenol-rich breakfast bowl combines ginger, blueberry polyphenols, omeg
 3. Drizzle honey.
 4. Serve.
 
-## Extra Guidance
-
-Nuts and seeds are energy-dense; the default topping is 9 g mixed seeds plus 7.3 g walnuts. Optional cinnamon is excluded from the default nutrition calculation. 1 tsp honey is an optional variation; the default uses ½ tsp.
-
 ## Nutrition
 
 <RecipeNutrition details={frontMatter} />
 
 These values replace an earlier untraced line of ~350 kcal and 18 g protein.
+
+## Extra Guidance
+
+Nuts and seeds are energy-dense; the default topping is 9 g mixed seeds plus 7.3 g walnuts. Optional cinnamon is excluded from the default nutrition calculation. 1 tsp honey is an optional variation; the default uses ½ tsp.
 
 ## Brain Health Notes
 
@@ -173,10 +174,6 @@ These values replace an earlier untraced line of ~350 kcal and 18 g protein.
 - **Seeds** provide ALA omega-3 and magnesium, nutrients important for brain structure and function.
 - **Yogurt** provides probiotics and postbiotic compounds associated with gut health.
 
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />

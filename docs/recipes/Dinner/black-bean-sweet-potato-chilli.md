@@ -190,7 +190,6 @@ nutrition_assumptions:
     Four servings is used because the page's original nutrition note stated "based
     on 4 servings"; the ingredient heading says 4–6.
 ---
-
 <img src="/img/recipes/black-bean-sweet-potato-chilli.jpg" alt="Black Bean & Sweet Potato Vegetable Chilli" width="480" />
 
 ## Overview
@@ -230,6 +229,8 @@ A hearty bean and vegetable chilli built around black beans, sweet potato, and m
 - Plain yoghurt or plant yoghurt
 - Cooked quinoa or brown rice
 
+<RecipeCalculationDefault details={frontMatter} />
+
 ## Method
 
 1. Heat olive oil in a large saucepan over medium heat. Add onion and cook until softened, about 3–5 minutes.
@@ -241,17 +242,17 @@ A hearty bean and vegetable chilli built around black beans, sweet potato, and m
 
 Serve warm with optional yoghurt, herbs, lime, or whole grains.
 
-## Extra Guidance
-
-- Refrigerates well for up to 3 days.
-- Freezes successfully for future meals.
-- Flavour deepens after resting, making it ideal for batch preparation.
-
 ## Nutrition
 
 <RecipeNutrition details={frontMatter} />
 
 These are figures for the chilli alone. Grains, yoghurt and other accompaniments add energy and carbohydrate that they do not include. Sodium depends heavily on the canned beans and stock used; low-sodium beans are assumed here.
+
+## Extra Guidance
+
+- Refrigerates well for up to 3 days.
+- Freezes successfully for future meals.
+- Flavour deepens after resting, making it ideal for batch preparation.
 
 ## Brain Health Notes
 
@@ -261,10 +262,6 @@ These are figures for the chilli alone. Grains, yoghurt and other accompaniments
 - **Extra virgin olive oil** contributes monounsaturated fats and polyphenols associated with cardiovascular and brain health.
 - **Whole grains** (quinoa or brown rice) provide slow-digesting carbohydrates and fibre.
 
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />

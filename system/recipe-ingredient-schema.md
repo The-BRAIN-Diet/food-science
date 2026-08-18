@@ -107,13 +107,39 @@ All values are per declared serving, and `<RecipeNutrition />` is the only place
 
 **Visible meal summary**, in this order: Energy, Protein, Carbohydrate, Sugars, Fibre, Total fat, Saturated fat, Sodium.
 
-**Collapsed — Key vitamins and minerals.** Only micronutrients reaching ≥5% of the site adult reference intake for the actual serving. Not every detected trace.
+**Collapsed — Key vitamins and minerals.** A vitamin or mineral is eligible when its coverage **displays as 15% or more** of its reference intake for the actual serving, and at most **eight** are shown, ranked by proportion of target. Everything below the threshold or past the cap stays in `perServing` and in `completeNutrientDataset()`; the threshold governs prominence, never the data. Several meals each contributing a little still add up over a day.
+
+Eligibility is tested against the rounded whole-number percentage the page prints, not the raw one, so a serving shown as `15%` is never withheld for being 14.86% underneath. Ranking then uses the unrounded percentage, so two rows both printed as `32%` still appear in their true order. This is a **public-display admission rule** deciding which rows a page highlights. It is not a statement about intake adequacy and not a regulatory nutrient-content threshold; a claim of that kind would need its own unrounded arithmetic and its own defined basis.
+
+A nutrient below the threshold may be promoted through `nutrition_key_micronutrients: [{key, reason}]` when it is central to the recipe's nutritional identity. Promotions are pinned ahead of the ranking and still count against the cap. Do not promote ordinary background composition because it happens to be valid and non-zero.
+
+Percentages are labelled for what they are — `% RDA` or `% AI` — per `system/nutrient-reference-values.md`. Sodium stays in the visible summary, is not governed by the eight-row cap, and carries no percentage because it has no target to reach. Bioactives without an RDA or AI are never run through the 15% rule; they belong in Bioactive compounds under their own admission rules.
 
 **Collapsed — Bioactive compounds.** ALA, EPA or DHA at ≥50 mg per serving, and other defensible quantitative values. Do **not** also show “Total omega-3” when those component acids are already listed, and do not construct an omega-3 total by summing unconfirmed fields. Presence-only, range and proxy values are not aggregated into numbers.
 
-**Collapsed — Calculation details.** Ingredient, calculation weight, composition source, contribution provenance, exclusions and assumptions.
+**Collapsed — Calculation details.** Three columns only: Ingredient | Weight used | Composition record. The record is a short name such as `USDA FDC 171711 — Blueberries, raw`; never repeat "named food-page record" on every row, and never put a conversion explanation in that cell. Conversions, defaults, ranges, record choices, exclusions and editorial decisions go in the **Assumptions and exclusions** list beneath the table. Complete machine-readable provenance stays in `audit` and `byFood`.
+
+Beneath that, **Mainly from** names only the leading one or two foods per summary nutrient. The full contributor arithmetic is available via `materialContributors(key, byFood, total, Infinity)`.
 
 Do not restore a default “Foods in recipe” contributor column. Do not expose internal provenance classes as public headings.
+
+### Display rounding
+
+Public values are rounded once, at display, by unit and magnitude — never before summing. `perServing` and `recipeTotals` keep full precision for validation and daily aggregation. Rules live in `src/utils/nutrientDisplay.mjs`:
+
+| Unit | Rule |
+|---|---|
+| kcal | nearest 10 at or above 100, otherwise nearest 1 |
+| g | nearest 1 at or above 10, 1 decimal from 1–10, 2 decimals below 1 |
+| mg | nearest 10 at or above 100, nearest 1 from 10–100, 1 decimal from 1–10, 2 decimals below 1 |
+| µg | nearest 10 at or above 100, nearest 1 from 10–100, 1 decimal below 10 |
+| % | nearest 1, shown as `<1%` below 1 |
+
+### Material qualifications
+
+Where sodium excludes salt, stock, sauce or seasoning added to taste, the note sits immediately beneath the visible summary, not only inside Calculation details. Any `nutrition_assumptions` entry beginning "Sodium" is lifted there automatically.
+
+Where a recipe offers alternatives, `nutrition_default_combination` names the combination calculated, rendered by `<RecipeCalculationDefault />` directly under the ingredient list. Falling back on `formulation_note` text is supported but a written sentence reads better. A reader should never have to open a dropdown to learn which version of the recipe was calculated.
 
 ## Contributor materiality
 
@@ -130,10 +156,22 @@ Trace analytical values may still enter the numeric total. They must not clutter
 
 Servings are an editorial declaration. The calculator divides by the declared `servings` value; it must not infer or correct serving count from prepared mass or energy.
 
+## Page order
+
+1. Overview
+2. Ingredients, followed by `<RecipeCalculationDefault />`
+3. Method
+4. Nutrition — `<RecipeNutrition />`: visible summary, then the Key vitamins and minerals, Bioactive compounds and Calculation details dropdowns
+5. Remaining recipe prose (Extra Guidance, Notes, Serving Suggestions)
+6. Brain Health Notes
+7. Explore the foods and substances — `<RecipeFoods />`, collapsed, last on the page
+
 ## Foods/Substances vs calculation
 
-Linked foods and Substance cards are a separate representation from the gram-scaled table. Presence in the recipe does not put 100 g of that food into totals.
+Linked foods and Substance cards are a separate representation from the gram-scaled table. Presence in the recipe does not put 100 g of that food into totals. The section is collapsed and placed last: eleven food cards and their full substance lists must not stand between the reader and the recipe's nutrition.
 
 ## Biological Target Matrix
 
-`<RecipeMatrix />` is suppressed unless `recipe_matrix_validated: true`. Proposal for a validated recipe-matrix schema: `system/recipe-matrix-schema-proposal.md`. Do not treat a tag-walked table as canonical BRS mapping.
+No recipe has passed canonical BRS validation, so no recipe page carries a matrix section. An empty or unvalidated matrix is worse than none, and a heading with a pending message under it is still an exposed section.
+
+`<RecipeMatrix />` and its `recipe_matrix_validated` gate remain in the codebase for when validation happens; add the section back to a page only once that recipe's mapping is validated. Proposal for the schema: `system/recipe-matrix-schema-proposal.md`. Do not treat a tag-walked table as canonical BRS mapping.

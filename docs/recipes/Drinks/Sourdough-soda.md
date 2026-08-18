@@ -24,7 +24,6 @@ nutrition_pending_reason: >-
   fermentation, and the finished yield varies between 1.5 and 2 litres. Publishing
   an ingredient sum would overstate energy and carbohydrate several-fold.
 ---
-
 <img src="/img/recipes/sourdough drink.jpg" alt="Sourdough soda drink" width="480" />
 
 ## Overview
@@ -40,6 +39,8 @@ A refreshing, lightly sparkling kvass-style drink made from toasted stale sourdo
 - 1 cinnamon stick (or ½ tsp ground cinnamon)
 - *Optional but helpful:* 1 tbsp active sourdough starter
 - *Optional flavour extras:* strip of lemon peel; a few cloves; thin slice of fresh ginger
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -67,6 +68,10 @@ A refreshing, lightly sparkling kvass-style drink made from toasted stale sourdo
 8. **Chill and serve**  
    Move bottles to the fridge to slow fermentation. Open carefully (over the sink the first time), pour into a glass, and enjoy chilled.
 
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
+
 ## Extra Guidance
 
 - Best consumed within **3–4 days** for optimal flavour and low alcohol (typically well under 1% if timings are modest).
@@ -76,14 +81,6 @@ A refreshing, lightly sparkling kvass-style drink made from toasted stale sourdo
 - **UPF profile:** 100% non-UPF; uses simple ingredients and fermentation rather than additives.
 - **Use case:** As a low-sugar, low-alcohol alternative to soft drinks in the evening, or as a gentle digestive drink with meals.
 
-## Nutrition
-
-<RecipeNutrition details={frontMatter} />
-
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />

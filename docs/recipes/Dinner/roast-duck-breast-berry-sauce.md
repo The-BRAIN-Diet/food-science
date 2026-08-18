@@ -12,24 +12,39 @@ tags:
   - Saffron
   - Extra Virgin Olive Oil
 servings: 2
-nutrition_pending_reason: >-
-  The recipe states "1 large duck breast (serves 2)" without a weight, and duck
-  breasts range from roughly 250 g to 450 g. Duck is also the largest contributor
-  here, so no per-serving total is published until a weight is declared. The
-  butter, balsamic and finishing oil quantities are likewise open-ended.
+nutrition_assumptions:
+  - >-
+    Duck is calculated from the cooked portion actually served: 150 g per serving,
+    300 g in total, eaten with its crisped skin. That needs about 615 g of raw
+    skin-on breast, since roughly half the raw weight is fat that renders into the
+    pan and is discarded rather than eaten.
+  - A knob of butter is taken as 10 g, and unsalted.
+  - Sodium shown excludes salt and pepper added to taste.
+  - Balsamic vinegar and the finishing olive oil are calculated at the midpoint of their stated ranges.
 recipe_ingredients:
-  - display: 1 large duck breast
+  - display: 2 skin-on duck breasts (about 615 g raw), yielding about 300 g cooked
     food_slug: null
-    quantity: null
-    unit: null
-    calculation_weight_g: null
+    quantity: 615
+    unit: g
+    calculation_weight_g: 300
     included_in_default: true
-    preparation_state: cooked, roasted
+    preparation_state: cooked, roasted, with retained skin
     composition_ref: duck-meat-roasted
     composition_basis: >-
       USDA SR Legacy FDC 172411 (Duck, domesticated, meat only, cooked, roasted).
       There is no Duck food page; the Duck Fat page carries a duck liver record.
-    conversion_source: UNRESOLVED — the recipe states no weight
+      At 201 kcal and 11.2 g fat per 100 g this record is far richer than skinless
+      breast (FDC 171511, 140 kcal), and it sits within 1 kcal and 0.4 g fat of the
+      breast-with-skin record (FDC 171510, 202 kcal), so it represents a portion
+      eaten with its crisped skin. FDC 171510 reports no zinc, B12 or B6, so the
+      more complete record is used rather than leaving three nutrients unknown.
+    conversion_source: >-
+      Calculated from the cooked portion served: 150 g per serving, 300 g for two.
+      Worked back to raw on protein, which rendering does not remove: 300 g cooked
+      duck meat at 23.48 g protein per 100 g (FDC 172411) holds 70.4 g protein, and
+      raw duck meat and skin carries 11.49 g per 100 g (FDC 172408), so about 615 g
+      raw is needed — two breasts of roughly 300 g. The implied yield is close to
+      50%, because a duck breast's fat cap renders away in the pan.
   - display: 150 g blueberries
     food_slug: blueberries
     quantity: 150
@@ -76,11 +91,17 @@ recipe_ingredients:
     conversion_source: >-
       Half of the ~0.35 g the Saffron Roast Potatoes page records for the whole
       meal.
-  - display: small knob of butter
+  - display: small knob of butter (10 g)
     food_slug: butter
-    calculation_weight_g: null
-    included_in_default: false
-    excluded_reason: no stated quantity; 10 g would add about 72 kcal
+    quantity: 10
+    unit: g
+    calculation_weight_g: 10
+    included_in_default: true
+    composition_basis: named food-page record (Butter, without salt; FDC 173410)
+    conversion_source: >-
+      A knob is not a measure, so 10 g is declared as the recipe's default for the
+      sauce. The record is unsalted butter; salted butter would add about 80 mg
+      sodium.
   - display: 2 tbsp (30 ml) water or light stock
     food_slug: null
     calculation_weight_g: null
@@ -98,7 +119,6 @@ recipe_ingredients:
     included_in_default: false
     excluded_reason: added to taste, so it is not part of an exact sodium total
 ---
-
 # Roast Duck Breast with Berry Sauce
 
 <img src="/img/recipes/duck%20with%20saffron%20potatoes%20and%20aubergine.jpeg" alt="Roast duck breast with berry sauce, saffron potatoes and aubergine" width="480" />
@@ -114,7 +134,7 @@ It works particularly well when served with simple roasted vegetables or potatoe
 ## Ingredients (serves 2)
 
 ### Duck
-- 1 large duck breast (serves 2)
+- 2 skin-on duck breasts, about 615 g raw in total (roughly 300 g each), yielding about 300 g of cooked duck
 - salt
 
 ### Berry sauce
@@ -122,7 +142,7 @@ It works particularly well when served with simple roasted vegetables or potatoe
 - 80 g (2.8 oz) raspberries
 - 2 tbsp (30 ml) water or light stock
 - 1–2 tsp balsamic vinegar
-- small knob of butter
+- small knob of butter (about 10 g)
 - pinch cinnamon or crushed juniper (optional)
 - salt and black pepper
 
@@ -131,6 +151,8 @@ It works particularly well when served with simple roasted vegetables or potatoe
 - 1–2 tbsp extra-virgin olive oil
 
 ---
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -164,7 +186,7 @@ Do not over-reduce — the sauce should remain bright and lightly textured.
 ---
 
 ### 4. Assemble
-1. Slice the duck breast.
+1. Slice the duck breasts.
 2. Spoon the berry sauce neatly onto the plate.
 3. Arrange duck slices beside the sauce.
 4. Drizzle a small amount of saffron-infused olive oil lightly over the duck just before serving.
@@ -172,6 +194,10 @@ Do not over-reduce — the sauce should remain bright and lightly textured.
 Use sparingly — this is an aromatic finish rather than a sauce.
 
 ---
+
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
 
 ## Serving Suggestions
 
@@ -191,10 +217,6 @@ These sides absorb the duck juices and complement the berry sauce's acidity whil
 - The sauce should remain loose rather than syrupy.
 - A light drizzle of saffron oil enhances aroma without overpowering the duck.
 
-## Nutrition
-
-<RecipeNutrition details={frontMatter} />
-
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />

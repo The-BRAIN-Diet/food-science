@@ -108,6 +108,7 @@ recipe_ingredients:
     included_in_default: false
     optional: true
     excluded_reason: optional garnish
+nutrition_default_combination: "Nutrition calculation uses cooked quinoa as the grain."
 nutrition_assumptions:
   - >-
     Sodium comes almost entirely from the canned olives. No salt is added in the
@@ -116,7 +117,6 @@ nutrition_assumptions:
     The recipe declares no serving count; the quantities describe a single salad,
     so one serving is used. See the editorial list.
 ---
-
 <img src="/img/recipes/rocket-lentil-midday-salad.jpg" alt="Rocket lentil midday salad" width="480" />
 
 ## Overview
@@ -134,6 +134,8 @@ This polyphenol-rich midday salad combines quinoa or lentils with vegetables, he
 - 1 tbsp (15 ml) early harvest olive oil
 - Lemon juice
 - Optional: basil, herbs
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -156,10 +158,6 @@ The cooked-lentil option gives slightly more protein and fibre for slightly less
 - **Early harvest olive oil** contains phenolic compounds associated with antioxidant activity.
 - **Vegetables and olive oil** contribute polyphenols studied for various cellular effects.
 
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />

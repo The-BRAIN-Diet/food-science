@@ -5,15 +5,40 @@ import {test} from "node:test"
 import {fileURLToPath} from "node:url"
 import matter from "gray-matter"
 import {
+  KEY_MICRONUTRIENT_DISPLAY_PERCENT,
+  MAX_KEY_MICRONUTRIENTS,
   PENDING_NUTRITION_MESSAGE,
+  PUBLIC_CONTRIBUTORS_PER_ROW,
+  PUBLIC_CORE_KEYS,
+  PUBLIC_MICRONUTRIENT_KEYS,
   calculateRecipeNutrition,
   canCalculateDefault,
+  completeNutrientDataset,
+  defaultCombination,
   isDefaultIncluded,
+  isKeyMicronutrient,
+  materialContributors,
+  meetsKeyMicronutrientThreshold,
   normalizeRecipeIngredients,
   resolveFoodDoc,
   scaleNutrient,
+  selectKeyMicronutrients,
   selectPublicRows,
 } from "../src/utils/recipeNutritionCalculate.mjs"
+import {
+  NUTRIENT_REFERENCES,
+  exceedsUpperLimit,
+  percentOfReference,
+  referenceBasis,
+  referenceBasisLabel,
+} from "../src/utils/nutrientReference.mjs"
+import {
+  conciseCompositionRecord,
+  displayPercent,
+  formatAmount,
+  formatPercent,
+  roundForDisplay,
+} from "../src/utils/nutrientDisplay.mjs"
 import {
   PENDING_MATRIX_MESSAGE,
   isRecipeMatrixValidated,
@@ -422,6 +447,399 @@ test("each recipe publishes its per-serving figures in exactly one place", () =>
     const section = raw.split(/^## /m).find((part) => part.startsWith("Nutrition"))
     assert.ok(section, `${file} needs a "## Nutrition" heading`)
     assert.match(section, /<RecipeNutrition details=\{frontMatter\} \/>/, file)
+  }
+})
+
+const skillet = loadRecipe("Breakfast/savoury-greens-egg-breakfast-skillet.md")
+
+test("public values are rounded by unit, and only for display", () => {
+  assert.equal(roundForDisplay(426.773, "kcal"), 430)
+  assert.equal(roundForDisplay(23.989, "g"), 24)
+  assert.equal(roundForDisplay(216.172, "mg"), 220)
+  assert.equal(roundForDisplay(7.324, "g"), 7.3)
+  assert.equal(roundForDisplay(0.784, "g"), 0.78)
+  assert.equal(roundForDisplay(6.503, "mg"), 6.5)
+  assert.equal(roundForDisplay(44.56, "µg"), 45)
+  assert.equal(roundForDisplay(351.04, "µg"), 350)
+  assert.equal(roundForDisplay(23.4, "kcal"), 23, "small energy values keep unit precision")
+
+  assert.equal(formatAmount(426.773, "kcal"), "430 kcal")
+  assert.equal(formatAmount(23.989, "g"), "24 g")
+  assert.equal(formatPercent(0.4), "<1%", "sub-1% coverage is not shown as 0%")
+
+  // Full precision survives in the calculated result; rounding is a display step.
+  const result = calculateRecipeNutrition(skillet.data, foodDocs)
+  assert.ok(result.perServing.kcal % 1 !== 0, "per-serving energy keeps its fraction")
+  assert.ok(Math.abs(result.perServing.kcal - 426.77) < 0.1)
+})
+
+test("key vitamins and minerals are selective, ranked and capped", () => {
+  for (const recipe of [bowl, skillet]) {
+    const result = calculateRecipeNutrition(recipe.data, foodDocs)
+    const key = selectKeyMicronutrients(result, recipe.data)
+    assert.ok(key.length <= MAX_KEY_MICRONUTRIENTS, `${recipe.path} exceeds the row cap`)
+    for (const row of key) {
+      if (row.promoted) continue
+      assert.ok(
+        displayPercent(row.pct) >= KEY_MICRONUTRIENT_DISPLAY_PERCENT,
+        `${row.key} at ${formatPercent(row.pct)} is below the threshold`,
+      )
+    }
+    const pcts = key.filter((r) => !r.promoted).map((r) => r.pct)
+    assert.deepEqual(pcts, [...pcts].sort((a, b) => b - a), "rows are ranked by proportion")
+  }
+
+  const skilletResult = calculateRecipeNutrition(skillet.data, foodDocs)
+  assert.equal(selectKeyMicronutrients(skilletResult, skillet.data).length, MAX_KEY_MICRONUTRIENTS)
+})
+
+test("admission is decided on the percentage the reader sees", () => {
+  // The rule is a display admission rule: a row printed as 15% is admitted, and
+  // one printed as 14% is not. It says nothing about intake adequacy and is not
+  // a regulatory content threshold, which would need the unrounded value.
+  assert.equal(meetsKeyMicronutrientThreshold(14.49), false, "prints as 14%")
+  assert.equal(meetsKeyMicronutrientThreshold(14.5), true, "prints as 15%")
+  assert.equal(meetsKeyMicronutrientThreshold(14.86), true, "prints as 15%")
+  assert.equal(meetsKeyMicronutrientThreshold(15.0), true, "prints as 15%")
+
+  for (const pct of [14.49, 14.5, 14.86, 15.0]) {
+    assert.equal(
+      meetsKeyMicronutrientThreshold(pct),
+      formatPercent(pct) === `${KEY_MICRONUTRIENT_DISPLAY_PERCENT}%`,
+      `admission at ${pct} must agree with what the page prints`,
+    )
+  }
+
+  assert.equal(meetsKeyMicronutrientThreshold(null), false)
+  assert.equal(meetsKeyMicronutrientThreshold(undefined), false)
+  assert.equal(meetsKeyMicronutrientThreshold(Number.NaN), false)
+
+  // Whatever the arithmetic produces, admission and display cannot disagree.
+  for (const recipe of [bowl, skillet]) {
+    const result = calculateRecipeNutrition(recipe.data, foodDocs)
+    for (const key of PUBLIC_MICRONUTRIENT_KEYS) {
+      const amount = result.perServing[key]
+      if (typeof amount !== "number" || !Number.isFinite(amount)) continue
+      const shown = displayPercent(percentOfReference(key, amount))
+      if (shown == null) continue
+      assert.equal(
+        isKeyMicronutrient(key, amount),
+        shown >= KEY_MICRONUTRIENT_DISPLAY_PERCENT,
+        `${recipe.path}: ${key} prints as ${shown}% but is judged otherwise`,
+      )
+    }
+  }
+
+  // The bowl's corrected B6 is the case that prompted the rule: 14.86% raw,
+  // printed as 15%, and now admitted rather than silently withheld.
+  const bowlResult = calculateRecipeNutrition(bowl.data, foodDocs)
+  const b6 = percentOfReference("vitamin_b6_mg", bowlResult.perServing.vitamin_b6_mg)
+  assert.ok(b6 > 14.8 && b6 < 15, "B6 sits just under the raw threshold")
+  assert.equal(formatPercent(b6), "15%")
+  assert.equal(isKeyMicronutrient("vitamin_b6_mg", bowlResult.perServing.vitamin_b6_mg), true)
+})
+
+test("ranking uses the unrounded percentage", () => {
+  const result = calculateRecipeNutrition(skillet.data, foodDocs)
+  const rows = selectKeyMicronutrients(result, skillet.data).filter((r) => !r.promoted)
+  const raw = rows.map((r) => r.pct)
+  assert.deepEqual(raw, [...raw].sort((a, b) => b - a), "rows are ordered by the true proportion")
+
+  // Two rows can print the same percentage; their order must still be truthful.
+  const bowlRows = selectKeyMicronutrients(
+    calculateRecipeNutrition(bowl.data, foodDocs),
+    bowl.data,
+  )
+  const copper = bowlRows.find((r) => r.key === "copper_mg")
+  const selenium = bowlRows.find((r) => r.key === "selenium_ug")
+  assert.equal(formatPercent(copper.pct), formatPercent(selenium.pct), "both print as 32%")
+  assert.ok(copper.pct > selenium.pct, "copper is genuinely higher")
+  assert.ok(
+    bowlRows.indexOf(copper) < bowlRows.indexOf(selenium),
+    "the tie on screen is broken by the unrounded value, not by key order",
+  )
+})
+
+test("completeNutrientDataset is NDC-ready: complete, unrounded and honestly labelled", () => {
+  const result = calculateRecipeNutrition(skillet.data, foodDocs)
+  const shown = new Set(selectKeyMicronutrients(result, skillet.data).map((r) => r.key))
+  const dataset = completeNutrientDataset(result)
+  const byKey = new Map(dataset.map((row) => [row.key, row]))
+
+  // 1. Public display thresholds do not remove anything from the dataset.
+  const hidden = PUBLIC_MICRONUTRIENT_KEYS.filter(
+    (key) => !shown.has(key) && typeof result.perServing[key] === "number",
+  )
+  assert.ok(hidden.length > 0, "this recipe should have micronutrients held back from the panel")
+  for (const key of hidden) {
+    assert.ok(byKey.has(key), `${key} must remain available for daily aggregation`)
+  }
+  for (const [key, amount] of Object.entries(result.perServing)) {
+    if (typeof amount !== "number" || !Number.isFinite(amount)) continue
+    assert.ok(byKey.has(key), `${key} is calculated but missing from the complete dataset`)
+  }
+
+  // 2. The reference basis travels with the value.
+  assert.equal(byKey.get("vitamin_k_ug").basis, "ai")
+  assert.equal(byKey.get("iron_mg").basis, "rda")
+
+  // 3. No-target compounds get an amount and no invented coverage.
+  const ala = byKey.get("ala_mg")
+  assert.ok(ala && ala.amount > 0)
+  assert.equal(ala.pct, null, "a compound with no target must not be given a percentage")
+  assert.equal(byKey.get("sodium_mg").pct, null, "sodium has a guideline, not a target")
+
+  // 4. A nutrient the sources cannot establish stays absent, never zero.
+  const neuroshot = loadRecipe("Snacks/neuroeshot.md")
+  const shotResult = calculateRecipeNutrition(neuroshot.data, foodDocs)
+  assert.ok(shotResult.unresolved.sodium_mg, "neuroshot sodium is unresolved")
+  const shotRows = selectPublicRows(shotResult, neuroshot.data)
+  assert.equal(shotRows.find((r) => r.key === "sodium_mg").amount, null)
+
+  // 5. Public rounding never writes back to the stored value.
+  const storedEnergy = byKey.get("kcal").amount
+  assert.equal(storedEnergy, result.perServing.kcal)
+  assert.equal(formatAmount(storedEnergy, "kcal"), "430 kcal")
+  assert.equal(byKey.get("kcal").amount, storedEnergy, "display did not mutate the dataset")
+  for (const key of hidden) {
+    assert.equal(byKey.get(key).amount, result.perServing[key], `${key} keeps full precision`)
+  }
+
+  const doc = fs.readFileSync(path.join(ROOT, "system/nutrient-reference-values.md"), "utf8")
+  assert.match(doc, /NDC-ready infrastructure/)
+  assert.match(doc, /No NDC component exists in this repository yet/)
+})
+
+test("an editorial exception can promote a nutrient below the threshold", () => {
+  const result = calculateRecipeNutrition(bowl.data, foodDocs)
+  const promotedKey = "vitamin_k_ug"
+  assert.equal(
+    isKeyMicronutrient(promotedKey, result.perServing[promotedKey]),
+    false,
+    "the promoted nutrient must be one the rule genuinely excludes",
+  )
+
+  const withException = {
+    ...bowl.data,
+    nutrition_key_micronutrients: [{key: promotedKey, reason: "relevant to the ginger base"}],
+  }
+  const rows = selectKeyMicronutrients(result, withException)
+  const promoted = rows.find((r) => r.key === promotedKey)
+  assert.ok(promoted, "the promoted nutrient appears")
+  assert.equal(promoted.reason ?? promoted.promoted, "relevant to the ginger base")
+  assert.equal(rows.length, MAX_KEY_MICRONUTRIENTS, "promotion does not lift the cap")
+})
+
+test("reference values describe the 19–50 adult population the site declares", () => {
+  // Both were inherited from older age bands: 1.7 mg B6 is the 51+ male RDA and
+  // 20 µg vitamin D is the 71+ RDA.
+  assert.equal(NUTRIENT_REFERENCES.vitamin_b6_mg.target, 1.3)
+  assert.equal(NUTRIENT_REFERENCES.vitamin_b6_mg.basis, "rda")
+  assert.equal(NUTRIENT_REFERENCES.vitamin_d_ug.target, 15)
+  assert.equal(NUTRIENT_REFERENCES.vitamin_d_ug.basis, "rda")
+
+  const doc = fs.readFileSync(path.join(ROOT, "system/nutrient-reference-values.md"), "utf8")
+  assert.match(doc, /`vitamin_b6_mg` \| 1\.3 \| mg/)
+  assert.match(doc, /`vitamin_d_ug` \| 15 \| µg/)
+  assert.doesNotMatch(doc, /Values under review/)
+
+  // Food pages and recipe pages must read one table, not two that can drift.
+  const foodTable = fs.readFileSync(path.join(ROOT, "src/components/NutritionTable.tsx"), "utf8")
+  assert.match(foodTable, /ADULT_REFERENCE_INTAKE/)
+  assert.doesNotMatch(foodTable, /vitamin_b6_mg: 1\.7/)
+  assert.doesNotMatch(foodTable, /const RDA_VALUES: Record<string, number> = \{\n/)
+  assert.equal(
+    fs.existsSync(path.join(ROOT, "src/utils/recipeNutritionWeighted.ts")),
+    false,
+    "the stale third copy of the reference table is gone",
+  )
+})
+
+test("the reference recipes display the recalculated rows", () => {
+  const cases = [
+    {
+      recipe: bowl,
+      summary: ["290 kcal", "17 g", "23 g", "17 g", "4.3 g", "16 g", "4.5 g", "55 mg"],
+      keys: [
+        "vitamin_b12_ug",
+        "phosphorus_mg",
+        "vitamin_b2_mg",
+        "manganese_mg",
+        "copper_mg",
+        "selenium_ug",
+        "calcium_mg",
+        "magnesium_mg",
+      ],
+      pcts: [47, 46, 36, 35, 32, 32, 19, 17],
+    },
+    {
+      recipe: skillet,
+      summary: ["430 kcal", "24 g", "37 g", "5.9 g", "7.3 g", "22 g", "4.8 g", "220 mg"],
+      keys: [
+        "vitamin_k_ug",
+        "vitamin_b2_mg",
+        "copper_mg",
+        "selenium_ug",
+        "phosphorus_mg",
+        "manganese_mg",
+        "folate_ug",
+        "choline_mg",
+      ],
+      pcts: [293, 89, 86, 81, 75, 70, 66, 65],
+    },
+  ]
+
+  const unitOf = {
+    kcal: "kcal",
+    protein_g: "g",
+    carbs_g: "g",
+    sugar_g: "g",
+    fibre_g: "g",
+    fat_g: "g",
+    sat_fat_g: "g",
+    sodium_mg: "mg",
+  }
+
+  for (const {recipe, summary, keys, pcts} of cases) {
+    const result = calculateRecipeNutrition(recipe.data, foodDocs)
+    assert.deepEqual(
+      PUBLIC_CORE_KEYS.map((key) => formatAmount(result.perServing[key], unitOf[key])),
+      summary,
+      `${recipe.path} summary`,
+    )
+    const rows = selectKeyMicronutrients(result, recipe.data)
+    assert.deepEqual(rows.map((r) => r.key), keys, `${recipe.path} key micronutrients`)
+    assert.deepEqual(rows.map((r) => Math.round(r.pct)), pcts, `${recipe.path} percentages`)
+  }
+
+  // The corrected B6 lifts the bowl to 14.9%, still short of admission, and the
+  // skillet to 52.6%, which qualifies but ranks below the eight rows shown.
+  const bowlResult = calculateRecipeNutrition(bowl.data, foodDocs)
+  const skilletResult = calculateRecipeNutrition(skillet.data, foodDocs)
+  assert.ok(percentOfReference("vitamin_b6_mg", bowlResult.perServing.vitamin_b6_mg) < 15)
+  assert.ok(percentOfReference("vitamin_b6_mg", skilletResult.perServing.vitamin_b6_mg) > 15)
+  assert.equal(
+    selectKeyMicronutrients(skilletResult, skillet.data).some((r) => r.key === "vitamin_b6_mg"),
+    false,
+    "an eligible nutrient outside the top eight is held back by the cap, not by the threshold",
+  )
+})
+
+test("reference percentages name the right basis and are never invented", () => {
+  assert.equal(referenceBasis("iron_mg"), "rda")
+  assert.equal(referenceBasisLabel("iron_mg"), "% RDA")
+  for (const key of ["vitamin_k_ug", "manganese_mg", "vitamin_b5_mg", "potassium_mg", "choline_mg"]) {
+    assert.equal(referenceBasis(key), "ai", `${key} has an Adequate Intake, not an RDA`)
+    assert.equal(referenceBasisLabel(key), "% AI")
+  }
+
+  // Sodium has a risk-reduction guideline, not a target to reach.
+  assert.equal(referenceBasis("sodium_mg"), "guideline")
+  assert.equal(percentOfReference("sodium_mg", 500), null)
+
+  // Bioactives have no recognised target, so no percentage may be manufactured.
+  for (const key of ["ala_mg", "dha_mg", "epa_mg"]) {
+    assert.equal(percentOfReference(key, 500), null, `${key} must not be given a percentage`)
+    assert.equal(referenceBasisLabel(key), null)
+  }
+})
+
+test("upper limits are a boundary, and supplement-only limits never flag a food", () => {
+  assert.equal(exceedsUpperLimit("zinc_mg", 45), true, "total-intake limits apply")
+  assert.equal(exceedsUpperLimit("zinc_mg", 12), false)
+  assert.equal(
+    exceedsUpperLimit("magnesium_mg", 900),
+    false,
+    "the magnesium limit covers supplements, not food",
+  )
+  assert.equal(exceedsUpperLimit("folate_ug", 5000), false, "the folate limit covers folic acid")
+  assert.equal(exceedsUpperLimit("vitamin_a_rae_ug", 9000), false, "preformed retinol only")
+})
+
+test("calculation details name a concise composition record", () => {
+  assert.deepEqual(
+    conciseCompositionRecord("named food-page record (Blueberries, raw; FDC 171711)"),
+    {record: "USDA FDC 171711 — Blueberries, raw", note: null},
+  )
+  const quinoa = conciseCompositionRecord(
+    "USDA SR Legacy FDC 168917 (Quinoa, cooked). The Quinoa food page records uncooked grain.",
+  )
+  assert.equal(quinoa.record, "USDA FDC 168917 — Quinoa, cooked")
+  assert.match(quinoa.note, /uncooked grain/)
+
+  const ui = fs.readFileSync(path.join(ROOT, "src/theme/RecipeNutrition/index.tsx"), "utf8")
+  assert.match(ui, /Composition record/)
+  assert.match(ui, /Weight used/)
+  assert.match(ui, /Assumptions and exclusions/)
+  assert.doesNotMatch(ui, /Composition source/, "the verbose column header is gone")
+})
+
+test("the contributor summary names only the leading foods", () => {
+  const result = calculateRecipeNutrition(skillet.data, foodDocs)
+  assert.equal(PUBLIC_CONTRIBUTORS_PER_ROW, 2)
+  for (const key of ["kcal", "protein_g", "fibre_g"]) {
+    const shown = materialContributors(key, result.byFood, result.perServing[key])
+    assert.ok(shown.length <= PUBLIC_CONTRIBUTORS_PER_ROW, `${key} lists too many contributors`)
+  }
+  const full = materialContributors("fibre_g", result.byFood, result.perServing.fibre_g, Infinity)
+  assert.ok(full.length >= 3, "the complete arithmetic is still reachable")
+})
+
+test("the calculated default combination is stated with the ingredients", () => {
+  assert.equal(
+    defaultCombination(skillet.data),
+    "Nutrition calculation uses spinach and quinoa as the default combination.",
+  )
+  assert.equal(defaultCombination(bowl.data), null, "a recipe without choices says nothing")
+
+  for (const {file, raw, data} of recipePages()) {
+    if (!defaultCombination(data)) continue
+    assert.match(
+      raw,
+      /<RecipeCalculationDefault details=\{frontMatter\} \/>/,
+      `${file} offers a choice but never names the calculated default`,
+    )
+  }
+})
+
+test("a sodium exclusion sits beside the summary, not only in the dropdown", () => {
+  const ui = fs.readFileSync(path.join(ROOT, "src/theme/RecipeNutrition/index.tsx"), "utf8")
+  assert.match(ui, /summaryCaveats/)
+  assert.match(ui, /\/\^sodium\\b\/i/, "sodium assumptions are lifted out of the deferred list")
+  const result = calculateRecipeNutrition(skillet.data, foodDocs)
+  assert.ok(
+    (result.assumptions || []).some((a) => /^sodium/i.test(a)),
+    "the skillet declares a sodium exclusion to surface",
+  )
+})
+
+test("recipe pages follow the canonical order and expose no unvalidated matrix", () => {
+  for (const {file, raw} of recipePages()) {
+    const headings = raw
+      .split("\n")
+      .filter((line) => /^## /.test(line))
+      .map((line) => line.replace(/^## /, "").trim())
+
+    const index = (re) => headings.findIndex((h) => re.test(h))
+    const ingredients = index(/^Ingredients/i)
+    const method = index(/^Method$/i)
+    const nutrition = index(/^Nutrition/i)
+    const explore = index(/^Explore the foods and substances$/i)
+
+    assert.ok(ingredients >= 0 && method > ingredients, `${file}: Method must follow Ingredients`)
+    assert.ok(nutrition > method, `${file}: Nutrition must follow Method`)
+    assert.equal(explore, headings.length - 1, `${file}: foods section must come last`)
+
+    const brain = index(/^Brain Health Notes$/i)
+    if (brain >= 0) assert.ok(brain < explore && brain > nutrition, `${file}: Brain notes misplaced`)
+
+    assert.equal(index(/^Foods\/Substances$/i), -1, `${file} still uses the old foods heading`)
+    assert.equal(
+      index(/^Biological Target Matrix$/i),
+      -1,
+      `${file} exposes a matrix section that has not passed validation`,
+    )
+    assert.doesNotMatch(raw, /<RecipeMatrix/, `${file} still renders an unvalidated matrix`)
   }
 })
 

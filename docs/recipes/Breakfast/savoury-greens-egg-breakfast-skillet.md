@@ -122,11 +122,12 @@ recipe_ingredients:
     included_in_default: false
     optional: true
     excluded_reason: optional, no stated quantity
+nutrition_default_combination: >-
+  Nutrition calculation uses spinach and quinoa as the default combination.
 nutrition_assumptions:
   - Sodium excludes salt added to taste.
   - Spinach and cooked quinoa are the calculated defaults where the recipe offers a choice.
 ---
-
 <img src="/img/recipes/savoury-greens-egg-skillet.jpg" alt="Savoury Greens & Egg Breakfast Skillet" width="480" />
 
 ## Overview
@@ -159,7 +160,9 @@ A warm, savoury breakfast built around eggs, greens, and whole-food carbohydrate
 
 **Optional**
 - Slices of avocado  
-- Small side of sauerkraut or kimchi  
+- Small side of sauerkraut or kimchi
+
+<RecipeCalculationDefault details={frontMatter} />
 
 ## Method
 
@@ -169,17 +172,17 @@ A warm, savoury breakfast built around eggs, greens, and whole-food carbohydrate
 4. Add the spinach or kale and cook until just wilted.  
 5. Push the vegetables to one side of the pan and crack in the eggs. Cook to your preference (fried, basted, or gently scrambled alongside the vegetables).  
 6. Warm the cooked quinoa or buckwheat in a separate pan or microwave, then place in a bowl as the base.  
-7. Top the grain base with the vegetable and egg mixture. Add avocado slices and sauerkraut or kimchi if using, then serve immediately.  
+7. Top the grain base with the vegetable and egg mixture. Add avocado slices and sauerkraut or kimchi if using, then serve immediately.
+
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
 
 ## Extra Guidance
 
 - Cooking the grains in advance makes this a very fast weekday breakfast.  
 - You can swap spinach for kale or other leafy greens depending on what you have.  
-- Keep heat moderate to avoid over-browning the eggs and vegetables.  
-
-## Nutrition
-
-<RecipeNutrition details={frontMatter} />
+- Keep heat moderate to avoid over-browning the eggs and vegetables.
 
 ## Brain Health Notes
 
@@ -187,13 +190,8 @@ A warm, savoury breakfast built around eggs, greens, and whole-food carbohydrate
 - **Leafy greens** (spinach or kale) supply folate, magnesium, and carotenoids studied for roles in brain and vascular health.  
 - **Quinoa or buckwheat** provide slow-digesting carbohydrates and fibre, which can help support steadier morning glucose patterns compared with refined grains.  
 - **Extra virgin olive oil** contributes monounsaturated fats and polyphenols associated with cardiovascular and brain health.  
-- **Fermented sides** such as sauerkraut or kimchi add probiotics and postbiotic compounds that complement a fibre-rich diet for gut support.  
+- **Fermented sides** such as sauerkraut or kimchi add probiotics and postbiotic compounds that complement a fibre-rich diet for gut support.
 
-## Foods/Substances
+## Explore the foods and substances
 
 <RecipeFoods details={frontMatter} />
-
-## Biological Target Matrix
-
-<RecipeMatrix details={frontMatter} />
-
