@@ -105,6 +105,10 @@ Turmeric milk combines turmeric (curcumin) with milk or plant-based milk. Curcum
 - **Milk or plant-based milk** provides fat that can improve curcumin absorption, since curcumin is fat-soluble.
 - **Black pepper** contains piperine, which is associated with enhanced curcumin bioavailability.
 
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
+
 ## Foods/Substances
 
 <RecipeFoods details={frontMatter} />

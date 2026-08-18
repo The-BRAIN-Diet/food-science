@@ -115,18 +115,11 @@ A fast, brain-forward open sandwich: **omega-3 rich salmon + nitrate/polyphenol 
 4. **Top & press:** Pile the lemony beetroot on top. Press gently so it holds together.
 5. **Finish:** Extra lemon squeeze if you like it brighter.
 
-## Nutrition (per serving)
+## Nutrition
 
-> Calculated from: 40 g bread, 90 g cooked salmon, 60 g beetroot, 15 ml lemon juice. The olive oil is optional and is not included; adding 5 ml raises energy to about 363 kcal.
+<RecipeNutrition details={frontMatter} />
 
-- **Energy:** **323 kcal**
-- **Protein:** **25 g**
-- **Carbohydrates:** **28 g**
-- **Fat:** **12 g**
-- **Fibre:** **2.6 g**
-- **Sodium:** **343 mg**, mostly from the bread, excluding salt added to taste
-
-EPA and DHA depend strongly on whether the salmon is wild or farmed; farmed Atlantic salmon is used here.
+The olive oil is optional and is not included; adding 5 ml raises energy by about 40 kcal. Most of the sodium comes from the bread. EPA and DHA depend strongly on whether the salmon is wild or farmed; farmed Atlantic salmon is used here.
 
 ### Key micronutrient highlights (why it's "BRAIN")
 - **DHA/EPA (salmon):** Provides omega-3 fats important for brain structure and signaling.

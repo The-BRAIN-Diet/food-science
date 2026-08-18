@@ -177,18 +177,9 @@ A warm, savoury breakfast built around eggs, greens, and whole-food carbohydrate
 - You can swap spinach for kale or other leafy greens depending on what you have.  
 - Keep heat moderate to avoid over-browning the eggs and vegetables.  
 
-## Nutrition (per serving)
+## Nutrition
 
-> Calculated from: 2 eggs, 120 g cooked quinoa, 100 g mushrooms, 70 g spinach, 80 g cherry tomatoes, 10 ml extra virgin olive oil, 1 garlic clove, ½ tsp smoked paprika.
-
-- **Energy:** 427 kcal
-- **Protein:** 24 g
-- **Carbohydrates:** 32 g
-- **Fat:** 24 g
-- **Fibre:** 7.3 g
-- **Sodium:** 216 mg, excluding salt added to taste
-
-Avocado, sauerkraut and kimchi are optional and are not in these totals. Full values are in the Recipe nutrition table below.
+<RecipeNutrition details={frontMatter} />
 
 ## Brain Health Notes
 

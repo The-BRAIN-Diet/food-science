@@ -101,7 +101,8 @@ nutrition_assumptions:
   - Sodium excludes salt added to taste and assumes water rather than stock.
   - >-
     The recipe declares no serving count. Two servings is used because the page's
-    own nutrition line (~400 kcal) matches the calculated whole recipe halved.
+    original nutrition line of ~400 kcal per serving matches the calculated whole
+    recipe halved.
 ---
 
 <img src="/img/recipes/turmeric-lentil-dahl.jpg" alt="Turmeric lentil dahl in a bowl" width="480" />
@@ -135,7 +136,7 @@ This warming dahl combines turmeric (curcumin), ginger, high-fibre lentils, and 
 
 ## Nutrition
 
-Per serving, from two servings: **411 kcal · 24 g protein · 11 g fibre · 63 g carbohydrate · 8 g fat**. Sodium is only 20 mg before salt is added to taste. Full values, including the high folate and magnesium contributions from the lentils, are in the Recipe nutrition table below.
+<RecipeNutrition details={frontMatter} />
 
 ## Brain Health Notes
 

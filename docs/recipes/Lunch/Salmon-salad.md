@@ -185,7 +185,7 @@ A Mediterranean-style bowl combining salmon, avocado, pistachio, raw cacao nibs,
 
 ## Nutrition
 
-Nutrition for this recipe is shown in the dynamic **Recipe nutrition** table below (`<RecipeFoods />`), calculated from ingredient grams and linked food panels. This avoids duplicated or conflicting table maths on the page.
+<RecipeNutrition details={frontMatter} />
 
 ## Brain Health Notes
 

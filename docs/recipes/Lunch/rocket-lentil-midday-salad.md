@@ -143,9 +143,11 @@ This polyphenol-rich midday salad combines quinoa or lentils with vegetables, he
 4. Drizzle with early harvest olive oil + lemon.
 5. Toss lightly.
 
-## Nutrition (per serving)
+## Nutrition
 
-**456 kcal · 8 g protein · 33 g carbohydrate · 35 g fat · 9.9 g fibre · 268 mg sodium.** Calculated as one salad using the cooked-quinoa option; the cooked-lentil option gives slightly more protein and fibre for slightly less energy. Almost all the sodium comes from the canned olives.
+<RecipeNutrition details={frontMatter} />
+
+The cooked-lentil option gives slightly more protein and fibre for slightly less energy than the cooked quinoa calculated here. Almost all the sodium comes from the canned olives.
 
 ## Brain Health Notes
 

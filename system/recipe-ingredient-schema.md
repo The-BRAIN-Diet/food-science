@@ -101,7 +101,9 @@ Rules:
 
 ## Public table
 
-All values are per declared serving.
+All values are per declared serving, and `<RecipeNutrition />` is the only place they appear. Recipe prose must not restate them: a hand-typed second copy drifts, which is how a page came to publish 32 g and 36.8 g of carbohydrate at the same time. Prose may still cite a withdrawn estimate, an optional-ingredient delta or an alternative serving split, since none of those is what the table publishes.
+
+`<RecipeFoods />` lists linked foods and their substances. It calculates nothing.
 
 **Visible meal summary**, in this order: Energy, Protein, Carbohydrate, Sugars, Fibre, Total fat, Saturated fat, Sodium.
 

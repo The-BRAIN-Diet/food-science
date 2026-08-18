@@ -155,22 +155,13 @@ Melt butter in a pan over medium-low heat. Add drained corn and cook 3–4 minut
 ### Assembly
 Split the roasted potato, spoon the creamed corn on top, finish with olive oil, and serve with broccoli.
 
-## Nutritional information
+## Nutrition
 
-Whole plate as written, including the coconut milk, broccoli and olive oil, from about 950 g of prepared ingredients:
-
-- **Energy:** 1234 kcal
-- **Protein:** 27.6 g
-- **Carbohydrate:** 121 g
-  - Sugars: 28 g, primarily intrinsic
-  - Fibre: 20.3 g
-- **Fat:** 78.6 g
-  - Saturated fat: 48.7 g, mainly coconut milk and butter
-- **Sodium:** 1051 mg, excluding salt added to taste
+<RecipeNutrition details={frontMatter} />
 
 ### Serving size
 
-The recipe declares one serving, and the table above is shown on that basis. An earlier estimate of 880–910 kcal understated the plate by about a third, largely because the coconut milk was not counted; the saturated fat figure of 26–28 g understated it by roughly half.
+The recipe declares one serving, so the table above is the whole plate as written — about 950 g of prepared ingredients, including the coconut milk, broccoli and olive oil. An earlier estimate of 880–910 kcal understated it by about a third, largely because the coconut milk was not counted; the saturated fat figure of 26–28 g understated it by roughly half.
 
 Split as two servings the plate gives **617 kcal, 13.8 g protein, 10.1 g fibre, 24.3 g saturated fat and 526 mg sodium** each. At one serving the saturated fat alone is more than double a typical adult daily reference of 20 g. Declaring this as two servings, or reducing the butter and coconut milk, is the recommended change; that is an editorial decision and has not been made automatically.
 

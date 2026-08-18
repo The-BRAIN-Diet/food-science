@@ -131,7 +131,9 @@ This energising smoothie combines matcha catechins with magnesium-rich pumpkin s
 
 ## Nutrition
 
-Not yet published. Every ingredient except the matcha has a weighed composition record, but matcha is powdered whole tea leaf and no usable composition record exists for it — brewed green tea is a different food. An earlier untraced line of ~350 kcal · 14 g protein has been withdrawn rather than reused.
+<RecipeNutrition details={frontMatter} />
+
+An earlier untraced line of ~350 kcal and 14 g protein has been withdrawn rather than reused.
 
 ## Brain Health Notes
 

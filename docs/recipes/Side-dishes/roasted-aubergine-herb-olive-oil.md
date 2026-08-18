@@ -173,6 +173,10 @@ Pairs especially well with:
 - **Rosemary and thyme** are rich in polyphenols and terpene compounds that have been studied for antioxidant and anti-inflammatory effects.
 - **Extra-virgin olive oil** contributes monounsaturated fats and phenolic compounds associated with cardiometabolic and brain health.
 
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
+
 ## Foods/Substances
 
 <RecipeFoods details={frontMatter} />

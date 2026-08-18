@@ -24,7 +24,7 @@ The Format of the page should have this structure:
 - Ingredients: a list of ingredients and amounts.
 - Method: a numbered list of steps.
 - Extra Guidance (optional): Any other notes for how or when to take it.
-- Nutrition: calories, etc.
+- Nutrition: should be <RecipeNutrition details={frontMatter} />, optionally followed by prose that adds something the table does not carry. Never hand-typed nutrient figures.
 - Brain Health Notes: some notes about why it is particularly helpful for your brain.
 - Foods/Substances: should be <RecipeFoods details={frontMatter} /> (displays foods with hyperlinked substances for each food)
 - Biological Target Matrix: should be <RecipeMatrix details={frontMatter} />
@@ -44,7 +44,7 @@ The prose list must match unique `display` strings in `recipe_ingredients`. Do n
 
 **Never render a quantitative recipe nutrition table unless every default-included ingredient has both** an unambiguous food-composition record **and** a resolved edible quantity in grams (`calculation_weight_g`) with a recorded conversion source.
 
-If those conditions are not met, the Foods/Substances block shows only:
+If those conditions are not met, the Nutrition block shows only:
 
 > Detailed nutrition calculation pending ingredient-weight reconciliation.
 
@@ -59,6 +59,8 @@ Also required:
 - If the recipe declares no serving count and one cannot be read from its own text, set `servings_unresolved: true`. The calculator follows declared servings; it never decides them.
 
 The public block is a visible meal summary (Energy, Protein, Carbohydrate, Sugars, Fibre, Total fat, Saturated fat, Sodium) plus three collapsed sections: Key vitamins and minerals, Bioactive compounds, Calculation details.
+
+`<RecipeNutrition />` renders it, under the page's `## Nutrition` heading, and is the only place the recipe publishes per-serving figures. Prose must not restate them; a second hand-typed copy drifts from the calculation. Prose may cite a withdrawn estimate, an optional-ingredient delta or an alternative serving split, because none of those is what the table publishes.
 
 ## Biological Target Matrix (required rule)
 
@@ -127,7 +129,9 @@ _Replace with a single paragraph describing what the recipe is and why it is del
 
 ## Nutrition
 
-_Replace with the calculated per-serving figures. Do not leave an untraced estimate that disagrees with the Recipe nutrition table._
+<RecipeNutrition details={frontMatter} />
+
+_Optional prose for what the table cannot carry: a withdrawn estimate, an optional-ingredient delta, an alternative serving split. Never repeat the figures themselves._
 
 ## Brain Health Notes
 

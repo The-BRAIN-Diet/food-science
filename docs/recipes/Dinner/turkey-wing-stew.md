@@ -162,9 +162,9 @@ This deeply nourishing stew is made from **slow-cooked turkey wings**, releasing
 
 ## Nutrition
 
-Not yet published per serving. Every ingredient has a weighed composition record, but the recipe does not say how many people it serves, and a stew built on two turkey wings could reasonably be two, three or four portions. The whole pot calculates to roughly **1000 kcal and 115 g protein**; a declared serving count is needed before a per-serving table is shown.
+<RecipeNutrition details={frontMatter} />
 
-An earlier untraced line gave ~450 kcal · 35 g protein per serving, which corresponds to neither two nor three servings of the calculated pot.
+Every ingredient has a weighed composition record, but the recipe does not say how many people it serves, and a stew built on two turkey wings could reasonably be two, three or four portions. An earlier untraced line gave ~450 kcal and 35 g protein per serving, which corresponds to no plausible division of the calculated pot.
 
 > Note: glycine and gelatin extracted from bone and cartilage depend on simmer time and are not captured by a meat-only composition record.
 

@@ -172,18 +172,11 @@ A vibrant, nutrient-dense bowl combining nitrate-rich leafy greens and beets wit
 - **Variations**: Substitute or add other nitrate-rich vegetables like celery, radishes, or beet greens. Swap blueberries for other polyphenol-rich berries (strawberries, raspberries) as available.
 - **Protein boost**: Add grilled chicken, salmon, or tempeh for additional complete protein and mitochondrial cofactors.
 
-## Nutrition (per serving)
+## Nutrition
 
-> Calculated as one bowl, using spinach as the leafy green and cooked quinoa at 185 g.
+<RecipeNutrition details={frontMatter} />
 
-- **Energy**: 842 kcal
-- **Protein**: 21 g
-- **Fat**: 58 g, mostly monounsaturated from the olive oil and walnuts
-- **Carbohydrates**: 68 g
-- **Fibre**: 13 g
-- **Sodium**: 133 mg, excluding salt added to taste
-
-This is higher than the earlier untraced estimate of ~520 kcal. Two tablespoons of olive oil (239 kcal) and a quarter cup of walnuts (191 kcal) account for most of the difference; halving either brings the bowl closer to that figure.
+The fat is mostly monounsaturated, from the olive oil and walnuts. This is higher than the earlier untraced estimate of ~520 kcal. Two tablespoons of olive oil (239 kcal) and a quarter cup of walnuts (191 kcal) account for most of the difference; halving either brings the bowl closer to that figure.
 
 Polyphenol content is not quantified here. The berries, early harvest olive oil, leafy greens and nuts all contribute, but the composition records used do not carry defensible polyphenol values.
 
