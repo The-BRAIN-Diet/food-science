@@ -51,6 +51,10 @@ nutrition_per_100g:
   copper_mg: 1.766
   manganese_mg: 1.948
   omega3_mg: 34
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 34
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Chocolate, dark, 70-85% cacao solids'

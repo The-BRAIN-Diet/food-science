@@ -16,7 +16,6 @@ list_image: /img/foods/oyster-mushroom/oyster-mushroom_thumb.webp
 nutrition_per_100g:
   copper_mg: 0.244
   vitamin_a_rae_ug: 2
-  ala_mg: 239
   beta_carotene_ug: 29
   fibre_g: 2.3
   protein_g: 3.31
@@ -43,7 +42,6 @@ nutrition_per_100g:
   kcal: 33
   sat_fat_g: 0.062
   vitamin_d_ug: 0.7
-  omega3_mg: 239
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Mushrooms, oyster, raw'

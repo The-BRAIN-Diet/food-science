@@ -22,7 +22,6 @@ nutrition_per_100g:
   sugar_g: 0.41
   sat_fat_g: 0.269
   caprylic_g: 0.015
-  ala_mg: 450
   vitamin_b1_mg: 0.383
   vitamin_b2_mg: 0.115
   folate_ug: 38
@@ -44,7 +43,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.3
   linoleic_g: 0.6
   selenium_ug: 70.7
-  omega3_mg: 450
+  pufa_18_3_unresolved_mg: 27
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Wheat, hard red winter'

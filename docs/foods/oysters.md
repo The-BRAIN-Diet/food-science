@@ -30,7 +30,6 @@ nutrition_per_100g:
   folate_ug: 7
   vitamin_b12_ug: 8.75
   vitamin_k_ug: 1
-  ala_mg: 271
   sat_fat_g: 0.474
   dha_mg: 136
   epa_mg: 177
@@ -49,7 +48,18 @@ nutrition_per_100g:
   carbs_g: 2.72
   kcal: 51
   potassium_mg: 156
-  omega3_mg: 584
+  omega3_mg: 323
+  pufa_18_3_unresolved_mg: 84
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 136
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 177
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 10
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Mollusks, oyster, eastern, wild, raw'

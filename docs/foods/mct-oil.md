@@ -15,8 +15,6 @@ tags:
 list_image: /img/foods/mct-oil/mct-oil_thumb.webp
 nutrition_per_100g:
   sat_fat_g: 6.61
-  ala_mg: 7450
-  omega3_mg: 7450
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Oil, canola'

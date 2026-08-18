@@ -26,7 +26,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.031
   vitamin_b2_mg: 0.073
   folate_ug: 20
-  ala_mg: 40
   beta_carotene_ug: 26
   fibre_g: 2.6
   iron_mg: 0.26
@@ -47,7 +46,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.367
   selenium_ug: 1
   vitamin_e_mg: 0.1
-  omega3_mg: 40
+  pufa_18_3_unresolved_mg: 27
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Bananas, raw'

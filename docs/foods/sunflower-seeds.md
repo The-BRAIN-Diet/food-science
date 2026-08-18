@@ -21,7 +21,6 @@ nutrition_per_100g:
   beta_carotene_ug: 30
   vitamin_b1_mg: 1.48
   vitamin_b2_mg: 0.355
-  ala_mg: 1117
   sat_fat_g: 4.455
   epa_mg: 14
   protein_g: 20.78
@@ -49,7 +48,12 @@ nutrition_per_100g:
   carbs_g: 20
   kcal: 584
   choline_mg: 55.1
-  omega3_mg: 1131
+  omega3_mg: 14
+  pufa_18_3_unresolved_mg: 60
+omega3_components:
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 14
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seeds, sunflower seed kernels, dried'

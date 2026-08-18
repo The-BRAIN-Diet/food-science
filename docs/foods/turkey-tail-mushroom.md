@@ -27,8 +27,6 @@ nutrition_per_100g:
   zinc_mg: 0.4978
   selenium_ug: 0.38
   vitamin_b6_mg: 0.1054
-  ala_mg: 671
-  omega3_mg: 671
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Mushroom, beech'

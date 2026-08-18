@@ -19,7 +19,6 @@ nutrition_per_100g:
   vitamin_a_rae_ug: 5
   sat_fat_g: 0.037
   sodium_mg: 2
-  ala_mg: 24
   calcium_mg: 16
   potassium_mg: 147
   zinc_mg: 0.2
@@ -43,7 +42,7 @@ nutrition_per_100g:
   magnesium_mg: 13
   phosphorus_mg: 24
   protein_g: 0.65
-  omega3_mg: 24
+  pufa_18_3_unresolved_mg: 5
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Cucumber, with peel, raw'

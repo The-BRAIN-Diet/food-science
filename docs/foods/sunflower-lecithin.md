@@ -13,10 +13,8 @@ tags:
 list_image: /img/foods/sunflower-lecithin/sunflower-lecithin_thumb.webp
 nutrition_per_100g:
   sat_fat_g: 8.991
-  ala_mg: 162.8
   epa_mg: 2.375
   dha_mg: 0
-  omega3_mg: 165.175
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Oil, sunflower'

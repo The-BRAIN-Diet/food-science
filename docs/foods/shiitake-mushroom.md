@@ -14,7 +14,6 @@ tags:
   - Beta-Glucans
 list_image: /img/foods/shiitake-mushroom/shiitake-mushroom_thumb.webp
 nutrition_per_100g:
-  ala_mg: 167
   sugar_g: 2.38
   folate_ug: 13
   vitamin_b3_mg: 3.877
@@ -38,7 +37,6 @@ nutrition_per_100g:
   carbs_g: 6.79
   kcal: 34
   vitamin_d_ug: 0.4
-  omega3_mg: 167
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Mushrooms, shiitake, raw'

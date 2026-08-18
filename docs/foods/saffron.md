@@ -31,7 +31,12 @@ nutrition_per_100g:
   sat_fat_g: 1.586
   epa_mg: 0
   dha_mg: 0
-  omega3_mg: 0
+  omega3_mg: 6
+  pufa_18_3_unresolved_mg: 1242
+omega3_components:
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 6
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Spices, saffron'

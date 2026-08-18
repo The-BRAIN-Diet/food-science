@@ -26,7 +26,6 @@ nutrition_per_100g:
   sugar_g: 7.33
   beta_carotene_ug: 13
   tryptophan_g: 0.591
-  ala_mg: 1915
   tyrosine_g: 1.539
   protein_g: 36.49
   sat_fat_g: 2.884
@@ -51,7 +50,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.377
   vitamin_e_mg: 0.85
   selenium_ug: 17.8
-  omega3_mg: 1915
+  pufa_18_3_unresolved_mg: 1330
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Soybeans, mature seeds, raw'

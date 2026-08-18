@@ -16,7 +16,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 1.882
   vitamin_b2_mg: 0.499
   folate_ug: 281
-  ala_mg: 1477
   protein_g: 23.15
   fibre_g: 13.2
   iron_mg: 6.26
@@ -36,7 +35,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 1.3
   linoleic_g: 5.287
   selenium_ug: 79.2
-  omega3_mg: 1477
+  pufa_18_3_unresolved_mg: 723
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Wheat germ, crude'

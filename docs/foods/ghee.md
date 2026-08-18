@@ -30,7 +30,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.001
   vitamin_b2_mg: 0.005
   vitamin_b12_ug: 0.01
-  ala_mg: 10
   protein_g: 0.28
   phosphorus_mg: 3
   sodium_mg: 2
@@ -38,7 +37,7 @@ nutrition_per_100g:
   beta_carotene_ug: 193
   vitamin_k_ug: 8.6
   choline_mg: 22.3
-  omega3_mg: 10
+  pufa_18_3_unresolved_mg: 1447
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Butter oil, anhydrous'

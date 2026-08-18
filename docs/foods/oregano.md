@@ -16,7 +16,7 @@ nutrition_per_100g:
   fat_g: 4.28
   carbs_g: 68.92
   fibre_g: 42.5
-  ala_mg: 500
+  ala_mg: 621
   calcium_mg: 1597
   iron_mg: 36.8
   magnesium_mg: 270
@@ -30,7 +30,11 @@ nutrition_per_100g:
   sat_fat_g: 1.551
   epa_mg: 0
   dha_mg: 0
-  omega3_mg: 500
+  omega3_mg: 621
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 621
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Spices, oregano, dried'

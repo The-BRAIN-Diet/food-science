@@ -39,6 +39,10 @@ nutrition_per_100g:
   vitamin_e_mg: 0.22
   folate_ug: 98
   omega3_mg: 7
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 7
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Beef, variety meats and by-products, kidneys, raw'

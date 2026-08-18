@@ -51,7 +51,20 @@ nutrition_per_100g:
   vitamin_d_ug: 2
   vitamin_k_ug: 0.3
   folate_ug: 47
-  omega3_mg: 94
+  omega3_mg: 102
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 58
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 7
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 36
+  - nutrient: n3_20_3_mg
+    identity: 20:3 n-3
+    amount_mg: 1
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Egg, whole, raw, fresh'

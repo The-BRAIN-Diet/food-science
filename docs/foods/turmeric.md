@@ -37,13 +37,17 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.058
   vitamin_b2_mg: 0.15
   folate_ug: 20
-  ala_mg: 330
+  ala_mg: 3
   sat_fat_g: 1.838
   caprylic_g: 0.003
   vitamin_e_mg: 4.43
   vitamin_b6_mg: 0.107
   choline_mg: 49.2
-  omega3_mg: 330
+  omega3_mg: 3
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 3
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Spices, turmeric, ground'

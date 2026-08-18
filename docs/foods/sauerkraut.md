@@ -18,7 +18,6 @@ nutrition_per_100g:
   sugar_g: 1.78
   vitamin_a_rae_ug: 1
   vitamin_k_ug: 13
-  ala_mg: 30
   sat_fat_g: 0.034
   caprylic_g: 0.001
   fibre_g: 2.9
@@ -47,7 +46,7 @@ nutrition_per_100g:
   copper_mg: 0.096
   manganese_mg: 0.151
   selenium_ug: 0.6
-  omega3_mg: 30
+  pufa_18_3_unresolved_mg: 33
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Sauerkraut, canned, solids and liquids'

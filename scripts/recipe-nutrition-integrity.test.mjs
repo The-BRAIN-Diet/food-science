@@ -5,8 +5,11 @@ import {test} from "node:test"
 import {fileURLToPath} from "node:url"
 import matter from "gray-matter"
 import {
+  ALL_CALC_KEYS,
   KEY_MICRONUTRIENT_DISPLAY_PERCENT,
   MAX_KEY_MICRONUTRIENTS,
+  PUBLIC_BRAIN_KEYS,
+  UNRESOLVED_FATTY_ACID_KEYS,
   PENDING_NUTRITION_MESSAGE,
   PUBLIC_CONTRIBUTORS_PER_ROW,
   PUBLIC_CORE_KEYS,
@@ -43,6 +46,7 @@ import {
   PENDING_MATRIX_MESSAGE,
   isRecipeMatrixValidated,
 } from "../src/utils/recipeMatrixGate.mjs"
+import {NUTRIENT_LABELS} from "./lib/food-truth-levels.mjs"
 import {RECIPE_COMPOSITION_SNAPSHOTS} from "../src/data/recipeCompositionSnapshots.mjs"
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
@@ -491,6 +495,152 @@ test("key vitamins and minerals are selective, ranked and capped", () => {
 
   const skilletResult = calculateRecipeNutrition(skillet.data, foodDocs)
   assert.equal(selectKeyMicronutrients(skilletResult, skillet.data).length, MAX_KEY_MICRONUTRIENTS)
+})
+
+test("salmon roe publishes EPA and DHA but no alanine dressed as ALA", () => {
+  const roe = foodDocs.find((doc) => doc.title === "Salmon Roe")
+  assert.ok(roe, "the salmon roe food page is loaded")
+  const panel = roe.frontMatter.nutrition_per_100g
+
+  // USDA FDC 175132 holds 1.428 g alanine per 100 g. That number was stored as
+  // ala_mg and published as an omega-3 larger than the food's own DHA.
+  assert.equal(panel.ala_mg, undefined, "ALA is unreported, not restated from alanine")
+  assert.notEqual(panel.ala_mg, 1428)
+  assert.equal(panel.epa_mg, 983)
+  assert.equal(panel.dha_mg, 1363)
+
+  // The total is EPA, DHA and the record's DPA — every component named, and each
+  // one carrying an n-3 isomer in its own source field.
+  const components = roe.frontMatter.omega3_components
+  assert.deepEqual(
+    components.map((c) => c.nutrient).sort(),
+    ["dha_mg", "dpa_mg", "epa_mg"],
+    "the total states which verified components were summed",
+  )
+  for (const component of components) {
+    assert.match(component.identity, /n-3/, `${component.nutrient} names its isomer`)
+  }
+  assert.equal(
+    panel.omega3_mg,
+    components.reduce((sum, c) => sum + c.amount_mg, 0),
+    "the rollup is its components and carries no phantom ALA",
+  )
+  assert.ok(panel.omega3_mg < 3774, "the pre-repair total included 1428 mg of alanine")
+
+  const neuroshot = loadRecipe("Snacks/neuroeshot.md")
+  const result = calculateRecipeNutrition(neuroshot.data, foodDocs)
+  assert.equal(result.status, "calculated")
+
+  const bioactives = selectPublicRows(result, neuroshot.data).filter((row) => row.group === "brain")
+  const keys = bioactives.map((row) => row.key)
+  assert.ok(!keys.includes("ala_mg"), "no ALA row is published for this recipe")
+  assert.ok(keys.includes("epa_mg") && keys.includes("dha_mg"))
+
+  assert.ok(Math.abs(result.perServing.epa_mg - 147.45) < 0.01)
+  assert.ok(Math.abs(result.perServing.dha_mg - 204.45) < 0.01)
+
+  // The 15 g serving would have carried about 214 mg of alanine as ALA.
+  assert.ok(
+    !(result.perServing.ala_mg > 100),
+    "no serving-scaled alanine survives anywhere in the total",
+  )
+})
+
+test("flax and walnuts lost their alanine-sized ALA; chia's real value survived", () => {
+  const panel = (title) => {
+    const doc = foodDocs.find((d) => d.title === title)
+    assert.ok(doc, `${title} is loaded`)
+    return {values: doc.frontMatter.nutrition_per_100g, components: doc.frontMatter.omega3_components}
+  }
+
+  /*
+   * Flax and walnuts are the foods a reader would expect to be highest in ALA,
+   * which is what made their corruption hard to see: 925 mg and 696 mg look
+   * unremarkable for a seed and a nut. Both were the record's alanine. Neither
+   * record states an 18:3 isomer, so neither page may claim ALA at all.
+   */
+  const flax = panel("Flax Seeds")
+  assert.equal(flax.values.ala_mg, undefined, "flax reports no ALA")
+  assert.notEqual(flax.values.ala_mg, 925, "the 925 mg figure was alanine")
+  assert.equal(flax.values.omega3_mg, undefined, "no n-3 total derives from a suppressed value")
+  assert.equal(flax.values.pufa_18_3_unresolved_mg, 22813, "the record's 18:3 is kept, unresolved")
+
+  const walnuts = panel("Walnuts")
+  assert.equal(walnuts.values.ala_mg, undefined, "walnuts report no ALA")
+  assert.notEqual(walnuts.values.ala_mg, 696, "the 696 mg figure was alanine")
+  assert.equal(walnuts.values.omega3_mg, undefined)
+  assert.equal(walnuts.values.pufa_18_3_unresolved_mg, 9080)
+
+  // Chia's record states 18:3 n-3 outright, so the value is real and stays.
+  const chia = panel("Chia Seeds")
+  assert.equal(chia.values.ala_mg, 17830, "an explicitly identified ALA survives the repair")
+  assert.deepEqual(chia.components.map((c) => c.nutrient), ["ala_mg"])
+  assert.equal(chia.values.omega3_mg, 17830)
+})
+
+test("an unqualified 18:3 stays chemically unresolved and reaches nothing", () => {
+  // The value is retained for provenance, never promoted. Being absent from the
+  // calculation keys and the label table is what stops it becoming an n-3.
+  assert.ok(UNRESOLVED_FATTY_ACID_KEYS.includes("pufa_18_3_unresolved_mg"))
+  for (const key of UNRESOLVED_FATTY_ACID_KEYS) {
+    assert.ok(!ALL_CALC_KEYS.includes(key), `${key} is not calculated`)
+    assert.ok(!PUBLIC_BRAIN_KEYS.includes(key), `${key} is not published as a fatty acid`)
+    assert.equal(NUTRIENT_LABELS[key], undefined, `${key} has no reader-facing label`)
+  }
+
+  const carriers = foodDocs.filter(
+    (doc) => typeof doc.frontMatter.nutrition_per_100g?.pufa_18_3_unresolved_mg === "number",
+  )
+  assert.ok(carriers.length > 0, "the repair retained unresolved values rather than deleting them")
+  for (const doc of carriers) {
+    const values = doc.frontMatter.nutrition_per_100g
+    assert.equal(values.ala_mg, undefined, `${doc.title} cannot hold ALA and an unresolved 18:3`)
+    for (const component of doc.frontMatter.omega3_components || []) {
+      assert.ok(
+        !UNRESOLVED_FATTY_ACID_KEYS.includes(component.nutrient),
+        `${doc.title} summed an unresolved fatty acid into its n-3 total`,
+      )
+    }
+  }
+})
+
+test("every published omega-3 total names the components it was summed from", () => {
+  for (const doc of foodDocs) {
+    const values = doc.frontMatter.nutrition_per_100g || {}
+    const components = doc.frontMatter.omega3_components
+    const total = values.omega3_mg
+
+    if (typeof total !== "number") {
+      assert.equal(components, undefined, `${doc.title} lists components with no total`)
+      continue
+    }
+
+    assert.ok(Array.isArray(components) && components.length, `${doc.title} states no components`)
+    assert.notEqual(total, 0, `${doc.title} stores a zero total; an unmeasured nutrient is unknown`)
+
+    const sum = components.reduce((acc, c) => acc + c.amount_mg, 0)
+    assert.ok(Math.abs(sum - total) < 0.5, `${doc.title} total ${total} is not its components ${sum}`)
+    for (const component of components) {
+      assert.match(component.identity, /n-3/, `${doc.title}: ${component.nutrient} names no isomer`)
+    }
+    if (typeof values.ala_mg === "number") {
+      assert.ok(
+        components.some((c) => c.nutrient === "ala_mg"),
+        `${doc.title} publishes ALA outside its own total`,
+      )
+    }
+  }
+})
+
+test("the public label states the fatty acid, not the bare acronym", () => {
+  // "ALA" alone is what let an amino acid pass for an omega-3 in the first place.
+  assert.equal(NUTRIENT_LABELS.ala_mg.label, "ALA (18:3 n-3)")
+  assert.equal(NUTRIENT_LABELS.epa_mg.label, "EPA")
+  assert.equal(NUTRIENT_LABELS.dha_mg.label, "DHA")
+
+  // The site and the scripts keep separate label tables; they must not disagree.
+  const tsx = fs.readFileSync(path.join(ROOT, "src/data/nutritionTableMapping.ts"), "utf8")
+  assert.match(tsx, /ala_mg: \{label: "ALA \(18:3 n-3\)"/)
 })
 
 test("admission is decided on the percentage the reader sees", () => {

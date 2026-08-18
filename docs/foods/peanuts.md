@@ -30,7 +30,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.64
   vitamin_b2_mg: 0.135
   folate_ug: 240
-  ala_mg: 1025
   sat_fat_g: 6.279
   iron_mg: 4.58
   magnesium_mg: 168
@@ -48,7 +47,7 @@ nutrition_per_100g:
   fat_g: 49.24
   carbs_g: 16.13
   kcal: 567
-  omega3_mg: 1025
+  pufa_18_3_unresolved_mg: 3
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Peanuts, all types, raw'

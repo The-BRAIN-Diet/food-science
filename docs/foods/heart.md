@@ -38,6 +38,10 @@ nutrition_per_100g:
   carbs_g: 0.14
   kcal: 112
   omega3_mg: 11
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 11
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Beef, variety meats and by-products, heart, raw'

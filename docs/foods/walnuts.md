@@ -23,7 +23,6 @@ nutrition_per_100g:
   choline_mg: 39.2
   carbs_g: 13.71
   kcal: 654
-  ala_mg: 696
   sat_fat_g: 6.126
   sugar_g: 2.61
   lutein_zeaxanthin_ug: 9
@@ -49,7 +48,7 @@ nutrition_per_100g:
   potassium_mg: 441
   zinc_mg: 3.09
   fat_g: 65.21
-  omega3_mg: 696
+  pufa_18_3_unresolved_mg: 9080
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Nuts, walnuts, english'

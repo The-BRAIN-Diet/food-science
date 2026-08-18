@@ -28,7 +28,6 @@ nutrition_per_100g:
   selenium_ug: 3.7
   fat_g: 3.25
   choline_mg: 14.3
-  ala_mg: 107
   sugar_g: 5.05
   carbs_g: 4.8
   kcal: 61
@@ -54,7 +53,7 @@ nutrition_per_100g:
   potassium_mg: 132
   zinc_mg: 0.37
   vitamin_e_mg: 0.07
-  omega3_mg: 107
+  pufa_18_3_unresolved_mg: 75
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Milk, whole, 3.25% milkfat, with added vitamin D'

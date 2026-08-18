@@ -32,6 +32,10 @@ nutrition_per_100g:
   epa_mg: 0
   dha_mg: 0
   omega3_mg: 152
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 152
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Spices, pepper, black'

@@ -44,9 +44,16 @@ nutrition_per_100g:
   vitamin_b12_ug: 8.94
   dha_mg: 509
   epa_mg: 473
-  ala_mg: 1489
   selenium_ug: 52.7
-  omega3_mg: 2471
+  omega3_mg: 982
+  pufa_18_3_unresolved_mg: 498
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 509
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 473
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Fish, sardine, Atlantic, canned in oil, drained solids with bone'

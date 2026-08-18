@@ -36,7 +36,6 @@ nutrition_per_100g:
   vitamin_b5_mg: 0.273
   vitamin_b6_mg: 0.138
   choline_mg: 8.8
-  ala_mg: 113
   beta_carotene_ug: 8285
   lycopene_ug: 1
   sugar_g: 4.74
@@ -45,7 +44,7 @@ nutrition_per_100g:
   lutein_zeaxanthin_ug: 256
   vitamin_a_rae_ug: 835
   fibre_g: 2.8
-  omega3_mg: 113
+  pufa_18_3_unresolved_mg: 2
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Carrots, raw'

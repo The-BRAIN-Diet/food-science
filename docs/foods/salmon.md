@@ -51,7 +51,20 @@ nutrition_per_100g:
   vitamin_c_mg: 3.9
   folate_ug: 26
   choline_mg: 78.5
-  omega3_mg: 2114
+  omega3_mg: 2507
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 1104
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 862
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 393
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 148
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Fish, salmon, Atlantic, farmed, raw'

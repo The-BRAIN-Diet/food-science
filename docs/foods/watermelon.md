@@ -48,9 +48,7 @@ nutrition_per_100g:
   sat_fat_g: 0.016
   potassium_mg: 112
   sodium_mg: 1
-  ala_mg: 17
   arginine_g: 0.059
-  omega3_mg: 17
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Watermelon, raw'

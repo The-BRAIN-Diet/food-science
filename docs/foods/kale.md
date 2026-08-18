@@ -34,7 +34,6 @@ nutrition_per_100g:
   vitamin_a_rae_ug: 241
   beta_carotene_ug: 2873
   vitamin_k_ug: 389.6
-  ala_mg: 147
   protein_g: 2.92
   vitamin_c_mg: 93.4
   vitamin_b1_mg: 0.113
@@ -62,7 +61,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.147
   choline_mg: 0.5
   selenium_ug: 0.9
-  omega3_mg: 147
+  pufa_18_3_unresolved_mg: 378
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Kale, raw'

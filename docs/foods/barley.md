@@ -26,7 +26,6 @@ nutrition_per_100g:
   beta_carotene_ug: 13
   vitamin_k_ug: 2.2
   sat_fat_g: 0.482
-  ala_mg: 486
   vitamin_b1_mg: 0.646
   vitamin_b2_mg: 0.285
   folate_ug: 19
@@ -49,7 +48,7 @@ nutrition_per_100g:
   fat_g: 2.3
   carbs_g: 73.48
   kcal: 354
-  omega3_mg: 486
+  pufa_18_3_unresolved_mg: 110
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Barley, hulled'

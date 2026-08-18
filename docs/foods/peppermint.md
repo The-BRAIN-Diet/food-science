@@ -24,7 +24,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.082
   vitamin_b2_mg: 0.266
   folate_ug: 114
-  ala_mg: 195
   linoleic_g: 0.069
   vitamin_b3_mg: 1.706
   vitamin_b5_mg: 0.338
@@ -36,7 +35,7 @@ nutrition_per_100g:
   potassium_mg: 569
   zinc_mg: 1.11
   vitamin_a_rae_ug: 212
-  omega3_mg: 195
+  pufa_18_3_unresolved_mg: 435
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Peppermint, fresh'

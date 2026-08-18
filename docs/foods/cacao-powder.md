@@ -36,7 +36,6 @@ nutrition_per_100g:
   kcal: 228
   fibre_g: 37
   sat_fat_g: 8.07
-  ala_mg: 941
   iron_mg: 13.86
   magnesium_mg: 499
   phosphorus_mg: 734
@@ -57,7 +56,6 @@ nutrition_per_100g:
   linoleic_g: 0.44
   selenium_ug: 14.3
   choline_mg: 12
-  omega3_mg: 941
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Cocoa, dry powder, unsweetened'

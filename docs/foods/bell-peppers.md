@@ -20,7 +20,6 @@ nutrition_per_100g:
   linoleic_g: 0.1
   sat_fat_g: 0.059
   beta_carotene_ug: 1624
-  ala_mg: 26
   vitamin_c_mg: 127.7
   choline_mg: 5.6
   sodium_mg: 4
@@ -46,7 +45,7 @@ nutrition_per_100g:
   vitamin_b3_mg: 0.979
   vitamin_b6_mg: 0.291
   fat_g: 0.3
-  omega3_mg: 26
+  pufa_18_3_unresolved_mg: 56
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Peppers, sweet, red, raw'

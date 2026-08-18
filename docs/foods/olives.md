@@ -29,7 +29,6 @@ nutrition_per_100g:
   manganese_mg: 0.02
   vitamin_c_mg: 0.9
   vitamin_b1_mg: 0.003
-  ala_mg: 43
   sat_fat_g: 2.279
   vitamin_a_rae_ug: 17
   beta_carotene_ug: 198
@@ -40,7 +39,6 @@ nutrition_per_100g:
   kcal: 116
   linoleic_g: 0.629
   selenium_ug: 0.9
-  omega3_mg: 43
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Olives, ripe, canned (small-extra large)'

@@ -25,6 +25,51 @@ function isOleicName(name) {
   )
 }
 
+/**
+ * USDA nutrient ids whose names state the n-3 isomer explicitly, mapped to the
+ * key each one is stored under. Nothing outside this set is an omega-3.
+ */
+export const EXPLICIT_N3_IDS = {
+  1404: "ala_mg", // PUFA 18:3 n-3 c,c,c (ALA)
+  1278: "epa_mg", // PUFA 20:5 n-3 (EPA)
+  1280: "dpa_mg", // PUFA 22:5 n-3 (DPA)
+  1272: "dha_mg", // PUFA 22:6 n-3 (DHA)
+  1405: "n3_20_3_mg", // PUFA 20:3 n-3
+  1407: "n3_20_4_mg", // PUFA 20:4 n-3
+}
+
+/** The compound each key names, carried alongside every published total. */
+export const N3_IDENTITY = {
+  ala_mg: "18:3 n-3 (ALA)",
+  epa_mg: "20:5 n-3 (EPA)",
+  dpa_mg: "22:5 n-3 (DPA)",
+  dha_mg: "22:6 n-3 (DHA)",
+  n3_20_3_mg: "20:3 n-3",
+  n3_20_4_mg: "20:4 n-3",
+}
+
+/** An 18:3 with no stated isomer. Never ALA, never part of an n-3 total. */
+export const UNRESOLVED_18_3_ID = 1270
+
+/** Name fallback for sources that supply no nutrient id, held to the same rule. */
+function explicitN3ByName(name) {
+  if (/18:3\s*\(?\s*n-?\s*3/.test(name) || name.includes("alpha-linolenic") || name.includes("α-linolenic"))
+    return "ala_mg"
+  if (/20:5\s*n-?\s*3/.test(name) || name.includes("(epa)") || name.includes("eicosapentaenoic"))
+    return "epa_mg"
+  if (/22:6\s*n-?\s*3/.test(name) || name.includes("(dha)") || name.includes("docosahexaenoic"))
+    return "dha_mg"
+  if (/22:5\s*n-?\s*3/.test(name) || name.includes("(dpa)") || name.includes("docosapentaenoic"))
+    return "dpa_mg"
+  if (/20:3\s*n-?\s*3/.test(name)) return "n3_20_3_mg"
+  if (/20:4\s*n-?\s*3/.test(name)) return "n3_20_4_mg"
+  return null
+}
+
+function isUnqualified183(name) {
+  return name.includes("18:3") && !/n-?\s*[36]/.test(name) && !name.includes("linolenic")
+}
+
 export function extractNutrients(food) {
   const out = {}
   const nutrients = food.foodNutrients || []
@@ -134,34 +179,63 @@ export function extractNutrients(food) {
       if (out.oleic_g == null || name.includes("n-9")) out.oleic_g = grams
       continue
     }
-    if ((name.includes("epa") || name.includes("20:5 n-3")) && (unit === "g" || unit === "mg")) {
-      out.epa_mg = unit === "g" ? amount * 1000 : amount
-      continue
-    }
-    if ((name.includes("dha") || name.includes("22:6 n-3")) && (unit === "g" || unit === "mg")) {
-      out.dha_mg = unit === "g" ? amount * 1000 : amount
-      continue
-    }
-    const isAla =
-      name.includes("18:3 n-3") ||
-      name.includes("alpha-linolenic") ||
-      name.includes("α-linolenic") ||
-      name === "pufa 18:3" ||
-      name === "18:3" ||
-      (/\bala\b/.test(name) && !name.includes("alanine"))
-    if (isAla && (unit === "g" || unit === "mg")) {
-      out.ala_mg = unit === "g" ? amount * 1000 : amount
-      continue
+    /*
+     * Omega-3 identity is decided by the source's own nutrient identifier where
+     * one is present, because a name can be misread and an identifier cannot.
+     * Only the ids in EXPLICIT_N3_IDS state an n-3 isomer.
+     *
+     * Anything containing "alanine" is disqualified before any name test runs.
+     * Alanine is an amino acid sharing three letters with ALA, and roe records
+     * carry over a gram of it per 100 g — enough to be published as an omega-3
+     * larger than the food's own DHA. The same guard excludes phenylalanine,
+     * which was being published as ALA on the mushroom pages.
+     *
+     * An acronym alone is never sufficient, and neither is a bare "18:3": that
+     * carbon count gives chain length and double bonds but not the isomer, and
+     * 18:3 n-6 is gamma-linolenic acid. Where a source does not identify the
+     * n-3 or alpha form, the value is kept as chemically unresolved rather than
+     * promoted to ALA.
+     */
+    if (name.includes("alanine")) continue
+    if (unit === "g" || unit === "mg") {
+      const mg = unit === "g" ? amount * 1000 : amount
+      const byId = EXPLICIT_N3_IDS[n.id]
+      if (byId) {
+        out[byId] = mg
+        continue
+      }
+      if (n.id == null) {
+        const named = explicitN3ByName(name)
+        if (named) {
+          out[named] = mg
+          continue
+        }
+      }
+      if (n.id === UNRESOLVED_18_3_ID || (n.id == null && isUnqualified183(name))) {
+        out.pufa_18_3_unresolved_mg = mg
+        continue
+      }
     }
   }
-  const ala = out.ala_mg ?? null
-  const epa = out.epa_mg ?? null
-  const dha = out.dha_mg ?? null
-  if (ala != null || epa != null || dha != null) {
-    // Internal rollup of the acids that were actually mapped. Omits DPA and any
-    // unidentified n-3. Do not treat this as an independent public “Total omega-3”
-    // row alongside ALA/EPA/DHA.
-    out.omega3_mg = [ala, epa, dha].filter((v) => v != null).reduce((a, b) => a + b, 0)
+
+  /*
+   * Total omega-3 is the sum of the n-3 acids this record explicitly identified,
+   * and it records which ones. A total whose parts cannot be named is not a
+   * measurement, and where nothing n-3 was identified the total is omitted
+   * rather than written as zero: unmeasured is unknown, not absent.
+   */
+  // Records commonly report the same 18:3 under both the generic and the n-3
+  // identifier. Once the isomer is established there is nothing left unresolved.
+  if (out.ala_mg != null) delete out.pufa_18_3_unresolved_mg
+
+  const components = []
+  for (const [key, identity] of Object.entries(N3_IDENTITY)) {
+    const value = out[key]
+    if (typeof value === "number" && value > 0) components.push({nutrient: key, identity, amount_mg: value})
+  }
+  if (components.length) {
+    out.omega3_mg = components.reduce((sum, c) => sum + c.amount_mg, 0)
+    out.omega3_components = components
   }
   return out
 }

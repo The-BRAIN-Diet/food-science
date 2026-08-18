@@ -37,10 +37,9 @@ nutrition_per_100g:
   folate_ug: 18
   vitamin_b12_ug: 2.31
   sat_fat_g: 10.19
-  ala_mg: 996
   selenium_ug: 18.8
   choline_mg: 69.3
-  omega3_mg: 996
+  pufa_18_3_unresolved_mg: 420
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Lamb, ground, raw'

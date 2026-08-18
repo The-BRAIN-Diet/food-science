@@ -48,7 +48,17 @@ nutrition_per_100g:
   choline_mg: 60.2
   capric_g: 0.003
   fat_g: 1.93
-  omega3_mg: 7
+  omega3_mg: 10
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 2
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 3
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 5
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Turkey, whole, meat only, raw'

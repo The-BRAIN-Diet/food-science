@@ -50,6 +50,10 @@ nutrition_per_100g:
   choline_mg: 8
   capric_g: 0.002
   omega3_mg: 63
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 63
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Bread, french or vienna (includes sourdough)'

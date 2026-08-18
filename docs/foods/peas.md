@@ -24,7 +24,6 @@ nutrition_per_100g:
   sodium_mg: 5
   copper_mg: 0.176
   manganese_mg: 0.41
-  ala_mg: 240
   vitamin_c_mg: 40
   vitamin_b1_mg: 0.266
   vitamin_b2_mg: 0.132
@@ -44,7 +43,7 @@ nutrition_per_100g:
   beta_carotene_ug: 449
   vitamin_k_ug: 24.8
   selenium_ug: 1.8
-  omega3_mg: 240
+  pufa_18_3_unresolved_mg: 35
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Peas, green, raw'

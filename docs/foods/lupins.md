@@ -24,8 +24,7 @@ nutrition_per_100g:
   folate_ug: 355
   vitamin_b12_ug: 0
   sat_fat_g: 1.156
-  ala_mg: 1296
-  omega3_mg: 1296
+  pufa_18_3_unresolved_mg: 446
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Lupins, mature seeds, raw'

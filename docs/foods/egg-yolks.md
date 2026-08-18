@@ -21,7 +21,6 @@ nutrition_per_100g:
   sugar_g: 0.56
   lutein_zeaxanthin_ug: 1094
   vitamin_b5_mg: 2.99
-  ala_mg: 836
   manganese_mg: 0.055
   beta_carotene_ug: 88
   vitamin_k_ug: 0.7
@@ -53,7 +52,15 @@ nutrition_per_100g:
   caprylic_g: 0.009
   dha_mg: 114
   epa_mg: 11
-  omega3_mg: 961
+  omega3_mg: 125
+  pufa_18_3_unresolved_mg: 103
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 114
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 11
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Egg, yolk, raw, fresh'

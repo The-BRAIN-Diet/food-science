@@ -43,8 +43,7 @@ nutrition_per_100g:
   vitamin_b2_mg: 0.057
   choline_mg: 3.4
   kcal: 12
-  ala_mg: 21
-  omega3_mg: 21
+  pufa_18_3_unresolved_mg: 70
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Pickles, cucumber, dill or kosher dill'

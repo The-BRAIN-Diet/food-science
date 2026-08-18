@@ -46,7 +46,6 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.159
   linoleic_g: 0.004
   protein_g: 5.81
-  ala_mg: 651
   fibre_g: 0.3
   iron_mg: 1.8
   magnesium_mg: 2
@@ -61,7 +60,12 @@ nutrition_per_100g:
   vitamin_b2_mg: 0.446
   folate_ug: 146
   selenium_ug: 0.7
-  omega3_mg: 731
+  omega3_mg: 80
+  pufa_18_3_unresolved_mg: 1
+omega3_components:
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 80
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seaweed, laver, raw'

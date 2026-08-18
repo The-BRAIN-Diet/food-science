@@ -25,7 +25,7 @@ nutrition_per_100g:
   kcal: 403
   caprylic_g: 0.337
   dha_mg: 1
-  ala_mg: 100
+  ala_mg: 108
   protein_g: 22.87
   phosphorus_mg: 455
   copper_mg: 0.03
@@ -52,7 +52,23 @@ nutrition_per_100g:
   magnesium_mg: 27
   vitamin_d_ug: 0.6
   choline_mg: 16.5
-  omega3_mg: 111
+  omega3_mg: 137
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 1
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 10
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 17
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 108
+  - nutrient: n3_20_3_mg
+    identity: 20:3 n-3
+    amount_mg: 1
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Cheese, cheddar (Includes foods for USDA''s Food Distribution Program)'

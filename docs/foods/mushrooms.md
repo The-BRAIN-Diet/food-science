@@ -39,12 +39,10 @@ nutrition_per_100g:
   manganese_mg: 0.047
   protein_g: 3.09
   folate_ug: 17
-  ala_mg: 199
   vitamin_d_ug: 0.2
   carbs_g: 3.26
   kcal: 22
   choline_mg: 17.3
-  omega3_mg: 199
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Mushrooms, white, raw'

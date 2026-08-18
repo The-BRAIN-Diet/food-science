@@ -17,7 +17,7 @@ nutrition_per_100g:
   magnesium_mg: 2
   beta_carotene_ug: 158
   linoleic_g: 2.166
-  ala_mg: 29
+  ala_mg: 315
   vitamin_b1_mg: 0.005
   folate_ug: 3
   vitamin_b6_mg: 0.003
@@ -45,7 +45,11 @@ nutrition_per_100g:
   copper_mg: 0.016
   manganese_mg: 0.004
   selenium_ug: 1
-  omega3_mg: 29
+  omega3_mg: 315
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 315
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Butter, without salt'

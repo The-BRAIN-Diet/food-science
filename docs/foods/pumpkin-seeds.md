@@ -53,6 +53,10 @@ nutrition_per_100g:
   selenium_ug: 9.4
   fat_g: 49.05
   omega3_mg: 120
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 120
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seeds, pumpkin and squash seed kernels, dried'

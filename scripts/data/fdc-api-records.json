@@ -1,0 +1,39 @@
+{
+  "748278": {
+    "description": "Oil, canola",
+    "dataType": "Foundation",
+    "nutrients": {
+      "1404": 7450
+    },
+    "amino": {}
+  },
+  "1750349": {
+    "description": "Oil, sunflower",
+    "dataType": "Foundation",
+    "nutrients": {
+      "1272": 0,
+      "1278": 2.375,
+      "1280": 0,
+      "1321": 0.125,
+      "1404": 162.8,
+      "1405": 0.125
+    },
+    "amino": {}
+  },
+  "1999626": {
+    "description": "Mushroom, lion's mane",
+    "dataType": "Foundation",
+    "nutrients": {},
+    "amino": {
+      "phenylalanine": 703
+    }
+  },
+  "2003603": {
+    "description": "Mushroom, beech",
+    "dataType": "Foundation",
+    "nutrients": {},
+    "amino": {
+      "phenylalanine": 671
+    }
+  }
+}

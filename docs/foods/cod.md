@@ -21,7 +21,6 @@ nutrition_per_100g:
   sodium_mg: 54
   copper_mg: 0.028
   manganese_mg: 0.015
-  ala_mg: 1077
   vitamin_c_mg: 1
   vitamin_b1_mg: 0.076
   vitamin_b2_mg: 0.065
@@ -40,7 +39,18 @@ nutrition_per_100g:
   zinc_mg: 0.45
   linoleic_g: 0.005
   selenium_ug: 33.1
-  omega3_mg: 1261
+  omega3_mg: 194
+  pufa_18_3_unresolved_mg: 1
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 120
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 64
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 10
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Fish, cod, Atlantic, raw'

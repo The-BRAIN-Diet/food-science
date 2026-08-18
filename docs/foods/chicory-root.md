@@ -28,8 +28,7 @@ nutrition_per_100g:
   sat_fat_g: 0.073
   epa_mg: 0
   dha_mg: 0
-  ala_mg: 41
-  omega3_mg: 41
+  pufa_18_3_unresolved_mg: 19
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Chicory greens, raw'

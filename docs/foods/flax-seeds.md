@@ -38,14 +38,13 @@ nutrition_per_100g:
   vitamin_b2_mg: 0.161
   folate_ug: 87
   vitamin_k_ug: 4.3
-  ala_mg: 925
   protein_g: 18.29
   sugar_g: 1.55
   carbs_g: 28.88
   kcal: 534
   choline_mg: 78.7
   sat_fat_g: 3.663
-  omega3_mg: 925
+  pufa_18_3_unresolved_mg: 22813
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seeds, flaxseed'

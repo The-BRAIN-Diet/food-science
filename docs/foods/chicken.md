@@ -43,11 +43,21 @@ nutrition_per_100g:
   linoleic_g: 2.88
   vitamin_d_ug: 0.2
   vitamin_a_rae_ug: 41
-  ala_mg: 1089
   vitamin_c_mg: 1.6
   vitamin_e_mg: 0.3
   vitamin_k_ug: 1.5
-  omega3_mg: 1129
+  omega3_mg: 50
+  pufa_18_3_unresolved_mg: 140
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 30
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 10
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 10
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Chicken, broilers or fryers, meat and skin, raw'

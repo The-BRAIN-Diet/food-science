@@ -32,7 +32,6 @@ nutrition_per_100g:
   magnesium_mg: 44
   phosphorus_mg: 694
   caprylic_g: 0.26
-  ala_mg: 1048
   tyrosine_g: 1.995
   protein_g: 35.75
   carbs_g: 3.22
@@ -47,7 +46,7 @@ nutrition_per_100g:
   capric_g: 0.648
   linoleic_g: 0.272
   selenium_ug: 22.5
-  omega3_mg: 1048
+  pufa_18_3_unresolved_mg: 297
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Cheese, parmesan, hard'

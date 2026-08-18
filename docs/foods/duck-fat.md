@@ -26,8 +26,6 @@ nutrition_per_100g:
   sat_fat_g: 1.44
   epa_mg: 0
   dha_mg: 0
-  ala_mg: 1088
-  omega3_mg: 1088
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Duck, domesticated, liver, raw'

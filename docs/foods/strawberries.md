@@ -21,7 +21,6 @@ nutrition_per_100g:
   lutein_zeaxanthin_ug: 26
   vitamin_b5_mg: 0.125
   vitamin_e_mg: 0.29
-  ala_mg: 33
   vitamin_b6_mg: 0.047
   zinc_mg: 0.14
   selenium_ug: 0.4
@@ -47,7 +46,7 @@ nutrition_per_100g:
   sat_fat_g: 0.015
   iron_mg: 0.41
   vitamin_a_rae_ug: 1
-  omega3_mg: 33
+  pufa_18_3_unresolved_mg: 65
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Strawberries, raw'

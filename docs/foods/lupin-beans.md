@@ -25,7 +25,6 @@ nutrition_per_100g:
   sodium_mg: 15
   copper_mg: 1.022
   manganese_mg: 2.382
-  ala_mg: 1296
   vitamin_c_mg: 4.8
   vitamin_b1_mg: 0.64
   vitamin_b2_mg: 0.22
@@ -42,7 +41,7 @@ nutrition_per_100g:
   arginine_g: 3.877
   linoleic_g: 1.995
   selenium_ug: 8.2
-  omega3_mg: 1296
+  pufa_18_3_unresolved_mg: 446
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Lupins, mature seeds, raw'
