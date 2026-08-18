@@ -16,28 +16,126 @@ tags:
   - Chia Seeds
   - Omega-3 Fatty Acids
 list_image: /img/recipes/Salmon-pistachio-cacoa-nibs.jpg
-# Portion-weighted aggregate in <RecipeFoods/> (grams = whole recipe as written; UI shows per serving when servings > 1).
-recipe_nutrition:
-  servings: 2
-  ingredients:
-    - food: Salmon
-      grams: 135
-    - food: Avocado
-      grams: 150
-    - food: Pistachios
-      grams: 45
-    - food: Spinach
-      grams: 30
-    - food: Cacao Nibs (Raw)
-      grams: 15
-    - food: Pomegranates
-      grams: 50
-    - food: Olive Oil (Early Harvest)
-      grams: 22
-    - food: Chia Seeds
-      grams: 5
-    - food: Lemon
-      grams: 24
+servings: 2
+recipe_ingredients:
+  - display: 120–150 g wild salmon, baked or lightly pan-seared
+    food_slug: salmon
+    quantity: 135
+    unit: g
+    calculation_weight_g: 135
+    included_in_default: true
+    preparation_state: cooked
+    composition_ref: salmon-wild-cooked
+    composition_basis: >-
+      USDA SR Legacy FDC 171998 (Fish, salmon, Atlantic, wild, cooked, dry heat).
+      The Salmon food page carries a farmed *raw* record; this recipe states wild
+      and baked, and farmed and wild salmon differ materially in fat and EPA/DHA.
+    conversion_source: midpoint of the stated 120–150 g, taken as the cooked portion
+  - display: 150 g (1 medium) ripe avocado, sliced
+    food_slug: avocado
+    quantity: 150
+    unit: g
+    calculation_weight_g: 150
+    included_in_default: true
+    preparation_state: raw
+    composition_basis: named food-page record (Avocados, raw; FDC 171705)
+    conversion_source: recipe-stated edible grams
+  - display: 40–50 g pistachios, unsalted
+    food_slug: pistachios
+    quantity: 45
+    unit: g
+    calculation_weight_g: 45
+    included_in_default: true
+    preparation_state: raw
+    composition_basis: named food-page record (Nuts, pistachio nuts, raw; FDC 170184)
+    conversion_source: midpoint of the stated 40–50 g
+  - display: 30 g (1 cup) baby spinach
+    food_slug: spinach
+    quantity: 1
+    unit: cup
+    calculation_weight_g: 30
+    included_in_default: true
+    preparation_state: raw
+    composition_basis: named food-page record (Spinach, raw; FDC 168462)
+    conversion_source: "USDA SR Legacy FDC 168462 food_portion: 1 cup = 30 g"
+  - display: 1 tbsp (10 g) raw cacao nibs
+    food_slug: cacao-nibs-raw
+    quantity: 1
+    unit: tbsp
+    calculation_weight_g: 10
+    included_in_default: true
+    preparation_state: raw
+    composition_basis: >-
+      Cacao Nibs (Raw) food page. That panel is a summary estimate rather than a
+      named USDA record.
+    conversion_source: >-
+      USDA FDC Branded 2607422 (Navitas organic cacao nibs) declares 3 tbsp = 30 g,
+      so 1 tbsp = 10 g. The former entry treated 15 ml as 15 g.
+  - display: 50 g pomegranate arils
+    food_slug: pomegranates
+    quantity: 50
+    unit: g
+    calculation_weight_g: 50
+    included_in_default: true
+    preparation_state: raw
+    composition_basis: named food-page record (Pomegranates, raw; FDC 169134)
+    conversion_source: recipe-stated edible grams
+  - display: 15–30 ml (1–2 tbsp) early harvest olive oil
+    food_slug: early-harvest-olive-oil
+    quantity: 22.5
+    unit: ml
+    calculation_weight_g: 20.3
+    included_in_default: true
+    composition_basis: named food-page record (Oil, olive, salad or cooking; FDC 171413)
+    conversion_source: >-
+      USDA SR Legacy FDC 171413 food_portion: 1 tablespoon = 13.5 g, i.e. 0.9 g/ml.
+      Midpoint 22.5 ml = 20.3 g. The former entry treated 22 ml as 22 g.
+  - display: 1 tsp (4 g) chia seeds
+    food_slug: chia-seeds
+    quantity: 1
+    unit: tsp
+    calculation_weight_g: 4
+    included_in_default: true
+    preparation_state: dry
+    composition_basis: named food-page record (Seeds, chia seeds, dried; FDC 170554)
+    conversion_source: >-
+      USDA FDC Branded records for chia seed concordantly declare 1 tbsp = 12 g
+      (e.g. 2408849, 2096271, 2434856), so 1 tsp = 4 g. SR Legacy 170554 has no
+      spoon measure. The former entry treated 5 ml as 5 g.
+  - display: 24 ml (about 1½ tbsp) lemon juice
+    food_slug: null
+    quantity: 24
+    unit: ml
+    calculation_weight_g: 24.8
+    included_in_default: true
+    preparation_state: raw
+    composition_ref: lemon-juice-raw
+    composition_basis: >-
+      USDA SR Legacy FDC 167747 (Lemon juice, raw). The Lemon food page records
+      lemon flesh without peel, which is not lemon juice.
+    conversion_source: >-
+      USDA SR Legacy FDC 167747 food_portion: 1 cup = 244 g, i.e. 1.031 g/ml;
+      24 ml = 24.8 g.
+  - display: 10 g fresh mint or basil leaves (optional)
+    food_slug: null
+    quantity: 10
+    unit: g
+    calculation_weight_g: null
+    included_in_default: false
+    optional: true
+    excluded_reason: optional garnish
+  - display: 1 g fine sea salt, to taste
+    food_slug: null
+    quantity: null
+    unit: null
+    calculation_weight_g: null
+    included_in_default: false
+    excluded_reason: added to taste, so it is not part of an exact sodium total
+nutrition_assumptions:
+  - Sodium excludes salt added to taste.
+  - >-
+    The ingredient list states 1 tbsp cacao nibs while the method states
+    0.5–1 tsp per bowl. The ingredient list is used; the two need reconciling.
 ---
 
 <img src="/img/recipes/Salmon-pistachio-cacoa-nibs.jpg" alt="ECS-Tone Salmon Bowl" width="480" />

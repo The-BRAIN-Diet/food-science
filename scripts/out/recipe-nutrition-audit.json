@@ -1,0 +1,1341 @@
+{
+  "generated": "2026-08-18",
+  "note": "Post-fix: 100 g-per-linked-food fallback is disabled. Unvalidated RecipeMatrix output is suppressed. No recipe publishes either proxy.",
+  "currently_publishing_invalid_proxy_totals": 0,
+  "currently_publishing_unvalidated_matrices": 0,
+  "counts": {
+    "calculation valid": 14,
+    "missing food-composition record": 1,
+    "ingredients quantified but not structurally mapped": 2,
+    "unresolved household-measure conversion": 1
+  },
+  "inventory": {
+    "recipes_with_recipefoods": 18,
+    "recipes_pending_nutrition": 4,
+    "recipes_calculation_valid": 14,
+    "recipes_with_recipematrix": 16,
+    "recipes_matrix_validated": 0,
+    "implausible_serving_flags": [
+      "docs/recipes/Dinner/creamed-corn-roasted-sweet-potato.md"
+    ],
+    "coconut_milk_gap": [
+      "docs/recipes/Dinner/creamed-corn-roasted-sweet-potato.md"
+    ],
+    "unresolved_material_fats": [
+      {
+        "file": "docs/recipes/Breakfast/Ginger Yogurt & Blueberry Bowl.md",
+        "lines": [
+          "½ tsp (3.5 g) raw honey"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/black-bean-sweet-potato-chilli.md",
+        "lines": [
+          "*Protein & sauce**"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/creamed-corn-roasted-sweet-potato.md",
+        "lines": [
+          "150 ml full-fat curried coconut milk (or 150 ml coconut milk + 1 tsp curry powder)"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/roast-duck-breast-berry-sauce.md",
+        "lines": [
+          "small knob of butter"
+        ]
+      },
+      {
+        "file": "docs/recipes/Drinks/Sourdough-soda.md",
+        "lines": [
+          "50–70 g sugar or honey (fuel for fermentation; most is consumed)"
+        ]
+      },
+      {
+        "file": "docs/recipes/Drinks/turmeric-milk.md",
+        "lines": [
+          "1 tsp honey or maple syrup (optional, for sweetness)"
+        ]
+      },
+      {
+        "file": "docs/recipes/Side-dishes/Saffron-roast-potatoes.md",
+        "lines": [
+          "*(duck fat for richness, or olive oil for a lighter version)*",
+          "2–3 tbsp extra-virgin olive oil"
+        ]
+      },
+      {
+        "file": "docs/recipes/Side-dishes/roasted-aubergine-herb-olive-oil.md",
+        "lines": [
+          "30 ml (2 tbsp) olive oil (for initial roasting)"
+        ]
+      }
+    ],
+    "legacy_brs_tags": [
+      {
+        "file": "docs/recipes/Breakfast/Ginger Yogurt & Blueberry Bowl.md",
+        "tags": [
+          "Inflammation",
+          "Neurochemical Balance",
+          "Oxidative Stress",
+          "Gut Microbiome"
+        ]
+      },
+      {
+        "file": "docs/recipes/Breakfast/Matcha-mito-smoothie.md",
+        "tags": [
+          "Mitochondrial Support",
+          "Oxidative Stress",
+          "Neurochemical Balance",
+          "Gut Microbiome",
+          "Methylation"
+        ]
+      },
+      {
+        "file": "docs/recipes/Breakfast/savoury-greens-egg-breakfast-skillet.md",
+        "tags": [
+          "Gut Microbiome",
+          "Neurochemical Balance",
+          "Methylation",
+          "Mitochondrial Support",
+          "Oxidative Stress",
+          "Insulin Response"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/Lentil dahl.md",
+        "tags": [
+          "Inflammation",
+          "Gut Microbiome",
+          "Methylation",
+          "Neurochemical Balance",
+          "Oxidative Stress"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/black-bean-sweet-potato-chilli.md",
+        "tags": [
+          "Gut Microbiome",
+          "Methylation",
+          "Neurochemical Balance",
+          "Mitochondrial Support",
+          "Oxidative Stress",
+          "Insulin Response",
+          "Stress Response"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/creamed-corn-roasted-sweet-potato.md",
+        "tags": [
+          "Insulin Response",
+          "Oxidative Stress",
+          "Gut Microbiome"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/linguine-cockles-mantecate.md",
+        "tags": [
+          "Neurochemical Balance",
+          "Mitochondrial Support",
+          "Inflammation",
+          "Gut Microbiome",
+          "Insulin Response"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/turkey-wing-stew.md",
+        "tags": [
+          "Neurochemical Balance",
+          "Gut Microbiome",
+          "Methylation",
+          "Stress Response"
+        ]
+      },
+      {
+        "file": "docs/recipes/Drinks/Sourdough-soda.md",
+        "tags": [
+          "Gut Microbiome",
+          "Neurochemical Balance",
+          "Insulin Response"
+        ]
+      },
+      {
+        "file": "docs/recipes/Drinks/turmeric-milk.md",
+        "tags": [
+          "Inflammation",
+          "Oxidative Stress"
+        ]
+      },
+      {
+        "file": "docs/recipes/Lunch/mitochondrial-power-bowl.md",
+        "tags": [
+          "Mitochondrial Support",
+          "Oxidative Stress",
+          "Neurochemical Balance",
+          "Gut Microbiome",
+          "Methylation"
+        ]
+      },
+      {
+        "file": "docs/recipes/Lunch/rocket-lentil-midday-salad.md",
+        "tags": [
+          "Circadian Rhythm",
+          "Gut Microbiome",
+          "Neurochemical Balance",
+          "Methylation",
+          "Insulin Response",
+          "Oxidative Stress",
+          "Stress Response"
+        ]
+      },
+      {
+        "file": "docs/recipes/Side-dishes/roasted-aubergine-herb-olive-oil.md",
+        "tags": [
+          "Gut Microbiome",
+          "Inflammation",
+          "Oxidative Stress",
+          "Insulin Response"
+        ]
+      }
+    ],
+    "triglyceride_named_row_risk_under_old_ui": [
+      {
+        "file": "docs/recipes/Breakfast/Ginger Yogurt & Blueberry Bowl.md",
+        "foods": [
+          "Cinnamon",
+          "Ginger",
+          "Greek Yogurt",
+          "Pumpkin Seeds"
+        ]
+      },
+      {
+        "file": "docs/recipes/Breakfast/Matcha-mito-smoothie.md",
+        "foods": [
+          "Bananas",
+          "Greek Yogurt",
+          "Kefir",
+          "Pumpkin Seeds"
+        ]
+      },
+      {
+        "file": "docs/recipes/Breakfast/savoury-greens-egg-breakfast-skillet.md",
+        "foods": [
+          "Avocado",
+          "Buckwheat",
+          "Eggs",
+          "Garlic",
+          "Sauerkraut"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/Lentil dahl.md",
+        "foods": [
+          "Coconut Oil",
+          "Ginger",
+          "Turmeric"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/black-bean-sweet-potato-chilli.md",
+        "foods": [
+          "Garlic",
+          "Greek Yogurt"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/creamed-corn-roasted-sweet-potato.md",
+        "foods": [
+          "Butter",
+          "Corn",
+          "Parmesan Cheese"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/linguine-cockles-mantecate.md",
+        "foods": [
+          "Butter",
+          "Egg Yolks",
+          "Garlic",
+          "Parmesan Cheese"
+        ]
+      },
+      {
+        "file": "docs/recipes/Dinner/turkey-wing-stew.md",
+        "foods": [
+          "Garlic",
+          "Rosemary",
+          "Turkey",
+          "Turmeric"
+        ]
+      },
+      {
+        "file": "docs/recipes/Drinks/turmeric-milk.md",
+        "foods": [
+          "Milk",
+          "Turmeric"
+        ]
+      },
+      {
+        "file": "docs/recipes/Lunch/Salmon-beetroot-toast-lemon.md",
+        "foods": [
+          "Sourdough Bread"
+        ]
+      },
+      {
+        "file": "docs/recipes/Lunch/Salmon-salad.md",
+        "foods": [
+          "Avocado",
+          "Pistachios"
+        ]
+      },
+      {
+        "file": "docs/recipes/Lunch/mitochondrial-power-bowl.md",
+        "foods": [
+          "Pumpkin Seeds"
+        ]
+      },
+      {
+        "file": "docs/recipes/Lunch/rocket-lentil-midday-salad.md",
+        "foods": [
+          "Avocado"
+        ]
+      },
+      {
+        "file": "docs/recipes/Side-dishes/Saffron-roast-potatoes.md",
+        "foods": [
+          "Potatoes"
+        ]
+      },
+      {
+        "file": "docs/recipes/Side-dishes/roasted-aubergine-herb-olive-oil.md",
+        "foods": [
+          "Rosemary"
+        ]
+      }
+    ]
+  },
+  "chemical_form": {
+    "mapping_now": "Caprylic/Capric/Caproic acid (C8:0/C10:0/C6:0)",
+    "usda_source": "SR Legacy SFA 6:0 / 8:0 / 10:0 (fatty acids, not triglycerides)",
+    "food_pages_with_c6_c8_c10_keys": [
+      "docs/foods/avocado.md",
+      "docs/foods/bananas.md",
+      "docs/foods/brussels-sprouts.md",
+      "docs/foods/buckwheat.md",
+      "docs/foods/butter.md",
+      "docs/foods/cashews.md",
+      "docs/foods/cauliflower.md",
+      "docs/foods/cheddar-cheese.md",
+      "docs/foods/cinnamon.md",
+      "docs/foods/coconut-oil.md",
+      "docs/foods/corn.md",
+      "docs/foods/dark-chocolate.md",
+      "docs/foods/egg-yolks.md",
+      "docs/foods/eggs.md",
+      "docs/foods/garlic.md",
+      "docs/foods/ghee.md",
+      "docs/foods/ginger.md",
+      "docs/foods/grass-fed-butter.md",
+      "docs/foods/greek-yogurt.md",
+      "docs/foods/herring.md",
+      "docs/foods/kefir.md",
+      "docs/foods/lamb.md",
+      "docs/foods/milk.md",
+      "docs/foods/parmesan-cheese.md",
+      "docs/foods/pistachios.md",
+      "docs/foods/pork.md",
+      "docs/foods/potatoes.md",
+      "docs/foods/pumpkin-seeds.md",
+      "docs/foods/rosemary.md",
+      "docs/foods/sauerkraut.md",
+      "docs/foods/sourdough-bread.md",
+      "docs/foods/thyme.md",
+      "docs/foods/turkey.md",
+      "docs/foods/turmeric.md",
+      "docs/foods/watermelon.md",
+      "docs/foods/wheat.md",
+      "docs/foods/whey-protein.md"
+    ],
+    "food_pages_still_tagged_as_triglycerides": [
+      {
+        "file": "docs/foods/coconut-oil.md",
+        "tags": [
+          "Caprylic Triglyceride",
+          "Capric Triglyceride",
+          "Caproic Triglyceride"
+        ]
+      },
+      {
+        "file": "docs/foods/mct-oil.md",
+        "tags": [
+          "Caprylic Triglyceride",
+          "Capric Triglyceride",
+          "Caproic Triglyceride"
+        ]
+      }
+    ]
+  },
+  "recipes": [
+    {
+      "file": "docs/recipes/Breakfast/Ginger Yogurt & Blueberry Bowl.md",
+      "id": "ginger-yogurt-blueberry-bowl",
+      "title": "Ginger Yogurt and Blueberries",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 1,
+      "stated_mass_g_plus_ml_as_g": 248,
+      "implausible_serving_flag": false,
+      "kcal": 294.31375,
+      "blockers": [],
+      "linked_foods": [
+        "Greek Yogurt",
+        "Blueberries",
+        "Chia Seeds",
+        "Flax Seeds",
+        "Pumpkin Seeds",
+        "Walnuts",
+        "Ginger",
+        "Cinnamon"
+      ],
+      "unresolved_material_ingredient_lines": [
+        "½ tsp (3.5 g) raw honey"
+      ],
+      "missing_seasoning_lines": [],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [
+        "Inflammation",
+        "Neurochemical Balance",
+        "Oxidative Stress",
+        "Gut Microbiome"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Cinnamon",
+        "Ginger",
+        "Greek Yogurt",
+        "Pumpkin Seeds"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": {
+        "calculated_kcal": 294.31375,
+        "editorial_kcal": {
+          "low": 294,
+          "high": 294,
+          "raw": "294 kcal"
+        },
+        "delta_vs_editorial_mid": 0.3137500000000273
+      }
+    },
+    {
+      "file": "docs/recipes/Breakfast/Matcha-mito-smoothie.md",
+      "id": "matcha-mito-smoothie",
+      "title": "Matcha Mitochondria Smoothie",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "missing food-composition record",
+      "servings_declared": 1,
+      "stated_mass_g_plus_ml_as_g": 475,
+      "implausible_serving_flag": false,
+      "kcal": null,
+      "blockers": [
+        "1 tsp (2 g) matcha powder:missing_composition"
+      ],
+      "linked_foods": [
+        "Spinach",
+        "Bananas",
+        "Green Tea",
+        "Chia Seeds",
+        "Pumpkin Seeds",
+        "Kefir",
+        "Greek Yogurt"
+      ],
+      "unresolved_material_ingredient_lines": [],
+      "missing_seasoning_lines": [],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [
+        "Mitochondrial Support",
+        "Oxidative Stress",
+        "Neurochemical Balance",
+        "Gut Microbiome",
+        "Methylation"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Bananas",
+        "Greek Yogurt",
+        "Kefir",
+        "Pumpkin Seeds"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": {
+        "calculated_kcal": null,
+        "editorial_kcal": {
+          "low": 350,
+          "high": 350,
+          "raw": "~350 kcal"
+        },
+        "public_generated_table": "suppressed"
+      }
+    },
+    {
+      "file": "docs/recipes/Breakfast/savoury-greens-egg-breakfast-skillet.md",
+      "id": "savoury-greens-egg-breakfast-skillet",
+      "title": "Savoury Greens & Egg Breakfast Skillet",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 1,
+      "stated_mass_g_plus_ml_as_g": 510,
+      "implausible_serving_flag": false,
+      "kcal": 426.77299999999997,
+      "blockers": [],
+      "linked_foods": [
+        "Eggs",
+        "Spinach",
+        "Kale",
+        "Tomatoes",
+        "Garlic",
+        "Quinoa",
+        "Buckwheat",
+        "Extra Virgin Olive Oil",
+        "Avocado",
+        "Sauerkraut",
+        "Kimchi"
+      ],
+      "unresolved_material_ingredient_lines": [],
+      "missing_seasoning_lines": [
+        "Pinch sea salt",
+        "Pinch black pepper",
+        "½ tsp smoked paprika"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [
+        "Gut Microbiome",
+        "Neurochemical Balance",
+        "Methylation",
+        "Mitochondrial Support",
+        "Oxidative Stress",
+        "Insulin Response"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Avocado",
+        "Buckwheat",
+        "Eggs",
+        "Garlic",
+        "Sauerkraut"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": {
+        "calculated_kcal": 426.77299999999997,
+        "editorial_kcal": {
+          "low": 427,
+          "high": 427,
+          "raw": " 427 kcal"
+        },
+        "delta_vs_editorial_mid": -0.2270000000000323
+      }
+    },
+    {
+      "file": "docs/recipes/Dinner/black-bean-sweet-potato-chilli.md",
+      "id": "black-bean-sweet-potato-chilli",
+      "title": "Black Bean & Sweet Potato Vegetable Chilli",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 4,
+      "stated_mass_g_plus_ml_as_g": 770,
+      "implausible_serving_flag": false,
+      "kcal": 245.79225,
+      "blockers": [],
+      "linked_foods": [
+        "Black Beans",
+        "Sweet Potatoes",
+        "Carrots",
+        "Bell Peppers",
+        "Onions",
+        "Garlic",
+        "Tomatoes",
+        "Extra Virgin Olive Oil",
+        "Cilantro",
+        "Quinoa",
+        "Rice",
+        "Greek Yogurt"
+      ],
+      "unresolved_material_ingredient_lines": [
+        "*Protein & sauce**"
+      ],
+      "missing_seasoning_lines": [
+        "1 red bell pepper, diced",
+        "1 tbsp (15 ml) smoked paprika",
+        "1 tbsp (15 ml) ground cumin",
+        "Salt and black pepper, to taste"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [
+        "Gut Microbiome",
+        "Methylation",
+        "Neurochemical Balance",
+        "Mitochondrial Support",
+        "Oxidative Stress",
+        "Insulin Response",
+        "Stress Response"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Garlic",
+        "Greek Yogurt"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": {
+        "calculated_kcal": 245.79225,
+        "editorial_kcal": {
+          "low": 246,
+          "high": 246,
+          "raw": " 246 kcal"
+        },
+        "delta_vs_editorial_mid": -0.20775000000000432
+      }
+    },
+    {
+      "file": "docs/recipes/Dinner/creamed-corn-roasted-sweet-potato.md",
+      "id": "creamed-corn-roasted-sweet-potato",
+      "title": "Creamed Corn on Roasted Sweet Potato",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 1,
+      "stated_mass_g_plus_ml_as_g": 1110,
+      "implausible_serving_flag": true,
+      "kcal": 1234.041,
+      "blockers": [],
+      "linked_foods": [
+        "Sweet Potatoes",
+        "Corn",
+        "Broccoli",
+        "Butter",
+        "Parmesan Cheese",
+        "Olive Oil"
+      ],
+      "unresolved_material_ingredient_lines": [
+        "150 ml full-fat curried coconut milk (or 150 ml coconut milk + 1 tsp curry powder)"
+      ],
+      "missing_seasoning_lines": [
+        "150 ml full-fat curried coconut milk (or 150 ml coconut milk + 1 tsp curry powder)",
+        "Salt and black pepper"
+      ],
+      "coconut_milk_without_food_page": true,
+      "coconut_oil_not_used_as_coconut_milk": true,
+      "evoo_stated_olive_oil_tagged": true,
+      "legacy_brs_or_modulator_tags": [
+        "Insulin Response",
+        "Oxidative Stress",
+        "Gut Microbiome"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Butter",
+        "Corn",
+        "Parmesan Cheese"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": {
+        "calculated_kcal": 1234.041,
+        "editorial_kcal": {
+          "low": 880,
+          "high": 910,
+          "raw": " 880–910 kcal"
+        },
+        "delta_vs_editorial_mid": 339.04099999999994
+      }
+    },
+    {
+      "file": "docs/recipes/Dinner/Lentil dahl.md",
+      "id": "turmeric-lentil-dahl",
+      "title": "Turmeric Lentil Dahl",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 2,
+      "stated_mass_g_plus_ml_as_g": 985,
+      "implausible_serving_flag": false,
+      "kcal": 411.44350000000003,
+      "blockers": [],
+      "linked_foods": [
+        "Lentils",
+        "Turmeric",
+        "Ginger",
+        "Coconut Oil",
+        "Spinach",
+        "Lemon",
+        "Cilantro"
+      ],
+      "unresolved_material_ingredient_lines": [],
+      "missing_seasoning_lines": [
+        "1 tsp (5 ml) cumin",
+        "Salt & pepper to taste"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [
+        "Inflammation",
+        "Gut Microbiome",
+        "Methylation",
+        "Neurochemical Balance",
+        "Oxidative Stress"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Coconut Oil",
+        "Ginger",
+        "Turmeric"
+      ],
+      "triglyceride_tags_on_linked_foods": [
+        {
+          "title": "Coconut Oil",
+          "tags": [
+            "Caprylic Triglyceride",
+            "Capric Triglyceride",
+            "Caproic Triglyceride"
+          ]
+        }
+      ],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": {
+        "calculated_kcal": 411.44350000000003,
+        "editorial_kcal": {
+          "low": 411,
+          "high": 411,
+          "raw": "411 kcal"
+        },
+        "delta_vs_editorial_mid": 0.44350000000002865
+      }
+    },
+    {
+      "file": "docs/recipes/Dinner/linguine-cockles-mantecate.md",
+      "id": "linguine-cockles-mantecate",
+      "title": "Linguine alle vongole mantecate (Linguine with cockles in a silky emulsified sauce)",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 2,
+      "stated_mass_g_plus_ml_as_g": 510,
+      "implausible_serving_flag": false,
+      "kcal": 1007.1170000000001,
+      "blockers": [],
+      "linked_foods": [
+        "Cockles",
+        "Clams",
+        "Mussels",
+        "Parmesan Cheese",
+        "Extra Virgin Olive Oil",
+        "Garlic",
+        "Onions",
+        "Egg Yolks",
+        "Parsley",
+        "Lemon",
+        "Butter"
+      ],
+      "unresolved_material_ingredient_lines": [],
+      "missing_seasoning_lines": [
+        "Black pepper"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [
+        "Neurochemical Balance",
+        "Mitochondrial Support",
+        "Inflammation",
+        "Gut Microbiome",
+        "Insulin Response"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Butter",
+        "Egg Yolks",
+        "Garlic",
+        "Parmesan Cheese"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": {
+        "calculated_kcal": 1007.1170000000001,
+        "editorial_kcal": {
+          "low": 700,
+          "high": 760,
+          "raw": " 700–760 kcal"
+        },
+        "delta_vs_editorial_mid": 277.1170000000001
+      }
+    },
+    {
+      "file": "docs/recipes/Dinner/roast-duck-breast-berry-sauce.md",
+      "id": "roast-duck-breast-berry-sauce",
+      "title": "Roast Duck Breast with Berry Sauce",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": false,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "ingredients quantified but not structurally mapped",
+      "servings_declared": 2,
+      "stated_mass_g_plus_ml_as_g": 260,
+      "implausible_serving_flag": false,
+      "kcal": null,
+      "blockers": [
+        "1 large duck breast:unresolved_weight"
+      ],
+      "linked_foods": [
+        "Blueberries",
+        "Raspberries",
+        "Saffron",
+        "Extra Virgin Olive Oil"
+      ],
+      "unresolved_material_ingredient_lines": [
+        "small knob of butter"
+      ],
+      "missing_seasoning_lines": [
+        "salt",
+        "pinch cinnamon or crushed juniper (optional)",
+        "salt and black pepper"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": false,
+      "fatty_acid_keys_on_linked_foods": [],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": false,
+      "editorial_vs_generated": null
+    },
+    {
+      "file": "docs/recipes/Dinner/turkey-wing-stew.md",
+      "id": "turkey-wing-stew",
+      "title": "Turkey Wing Stew",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "ingredients quantified but not structurally mapped",
+      "servings_declared": 1,
+      "stated_mass_g_plus_ml_as_g": 35,
+      "implausible_serving_flag": false,
+      "kcal": null,
+      "blockers": [
+        "undeclared_servings"
+      ],
+      "linked_foods": [
+        "Turkey",
+        "Onions",
+        "Carrots",
+        "Garlic",
+        "Vinegar",
+        "Olive Oil",
+        "Turmeric",
+        "Rosemary"
+      ],
+      "unresolved_material_ingredient_lines": [],
+      "missing_seasoning_lines": [
+        "Salt and pepper to taste"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [
+        "Neurochemical Balance",
+        "Gut Microbiome",
+        "Methylation",
+        "Stress Response"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Garlic",
+        "Rosemary",
+        "Turkey",
+        "Turmeric"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": {
+        "calculated_kcal": null,
+        "editorial_kcal": {
+          "low": 1000,
+          "high": 1000,
+          "raw": "1000 kcal"
+        },
+        "public_generated_table": "suppressed"
+      }
+    },
+    {
+      "file": "docs/recipes/Drinks/Sourdough-soda.md",
+      "id": "sourdough-soda",
+      "title": "Sourdough Soda (Fermented Cinnamon & Raisin Drink)",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": false,
+      "hasLegacy": false,
+      "status": "unresolved household-measure conversion",
+      "servings_declared": 1,
+      "stated_mass_g_plus_ml_as_g": 320,
+      "implausible_serving_flag": false,
+      "kcal": null,
+      "blockers": [
+        "no_structured_ingredients"
+      ],
+      "linked_foods": [],
+      "unresolved_material_ingredient_lines": [
+        "50–70 g sugar or honey (fuel for fermentation; most is consumed)"
+      ],
+      "missing_seasoning_lines": [
+        "1 cinnamon stick (or ½ tsp ground cinnamon)",
+        "*Optional flavour extras:* strip of lemon peel; a few cloves; thin slice of fresh ginger"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [
+        "Gut Microbiome",
+        "Neurochemical Balance",
+        "Insulin Response"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": false,
+      "editorial_vs_generated": null
+    },
+    {
+      "file": "docs/recipes/Drinks/turmeric-milk.md",
+      "id": "turmeric-milk",
+      "title": "Turmeric Milk",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 1,
+      "stated_mass_g_plus_ml_as_g": 5,
+      "implausible_serving_flag": false,
+      "kcal": 158.2,
+      "blockers": [],
+      "linked_foods": [
+        "Turmeric",
+        "Milk",
+        "Black Pepper"
+      ],
+      "unresolved_material_ingredient_lines": [
+        "1 tsp honey or maple syrup (optional, for sweetness)"
+      ],
+      "missing_seasoning_lines": [
+        "½ tsp ground cinnamon (optional)",
+        "Pinch of ground ginger (optional)"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [
+        "Inflammation",
+        "Oxidative Stress"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Milk",
+        "Turmeric"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": null
+    },
+    {
+      "file": "docs/recipes/Lunch/mitochondrial-power-bowl.md",
+      "id": "mitochondrial-power-bowl",
+      "title": "Mitochondrial Power Bowl",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 1,
+      "stated_mass_g_plus_ml_as_g": 105,
+      "implausible_serving_flag": false,
+      "kcal": 841.8269999999999,
+      "blockers": [],
+      "linked_foods": [
+        "Spinach",
+        "Beetroot",
+        "Quinoa",
+        "Walnuts",
+        "Pumpkin Seeds",
+        "Blueberries",
+        "Olive Oil (Early Harvest)",
+        "Parsley"
+      ],
+      "unresolved_material_ingredient_lines": [],
+      "missing_seasoning_lines": [
+        "Salt and pepper to taste"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [
+        "Mitochondrial Support",
+        "Oxidative Stress",
+        "Neurochemical Balance",
+        "Gut Microbiome",
+        "Methylation"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Pumpkin Seeds"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": {
+        "calculated_kcal": 841.8269999999999,
+        "editorial_kcal": {
+          "low": 842,
+          "high": 842,
+          "raw": " 842 kcal"
+        },
+        "delta_vs_editorial_mid": -0.1730000000001155
+      }
+    },
+    {
+      "file": "docs/recipes/Lunch/rocket-lentil-midday-salad.md",
+      "id": "rocket-lentil-midday-salad",
+      "title": "Rocket Lentil Avocado Midday Salad (Gut-Supporting)",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 1,
+      "stated_mass_g_plus_ml_as_g": 270,
+      "implausible_serving_flag": false,
+      "kcal": 455.4680000000001,
+      "blockers": [],
+      "linked_foods": [
+        "Olives",
+        "Walnuts",
+        "Avocado",
+        "Tomatoes",
+        "Quinoa",
+        "Lentils",
+        "Olive Oil (Early Harvest)",
+        "Lemon"
+      ],
+      "unresolved_material_ingredient_lines": [],
+      "missing_seasoning_lines": [],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [
+        "Circadian Rhythm",
+        "Gut Microbiome",
+        "Neurochemical Balance",
+        "Methylation",
+        "Insulin Response",
+        "Oxidative Stress",
+        "Stress Response"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Avocado"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": {
+        "calculated_kcal": 455.4680000000001,
+        "editorial_kcal": {
+          "low": 456,
+          "high": 456,
+          "raw": "456 kcal"
+        },
+        "delta_vs_editorial_mid": -0.5319999999999254
+      }
+    },
+    {
+      "file": "docs/recipes/Lunch/Salmon-beetroot-toast-lemon.md",
+      "id": "salmon-beetroot-toast-lemon",
+      "title": "Salmon & Grated Beetroot Toast (with Lemon)",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 1,
+      "stated_mass_g_plus_ml_as_g": 215,
+      "implausible_serving_flag": false,
+      "kcal": 323.41,
+      "blockers": [],
+      "linked_foods": [
+        "Salmon",
+        "Beetroot",
+        "Lemon",
+        "Olive Oil",
+        "Sourdough Bread"
+      ],
+      "unresolved_material_ingredient_lines": [],
+      "missing_seasoning_lines": [
+        "Salt + black pepper: to taste"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": true,
+      "legacy_brs_or_modulator_tags": [],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Sourdough Bread"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": {
+        "calculated_kcal": 323.41,
+        "editorial_kcal": {
+          "low": 363,
+          "high": 363,
+          "raw": " 363 kcal"
+        },
+        "delta_vs_editorial_mid": -39.589999999999975
+      }
+    },
+    {
+      "file": "docs/recipes/Lunch/Salmon-salad.md",
+      "id": "ecs-tone-salmon-pistachio-bowl",
+      "title": "Salmon Bowl-pistachio-cacao-nibs",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 2,
+      "stated_mass_g_plus_ml_as_g": 515,
+      "implausible_serving_flag": false,
+      "kcal": 525.224,
+      "blockers": [],
+      "linked_foods": [
+        "Salmon",
+        "Avocado",
+        "Pistachios",
+        "Cacao Nibs (Raw)",
+        "Spinach",
+        "Pomegranates",
+        "Olive Oil (Early Harvest)",
+        "Chia Seeds"
+      ],
+      "unresolved_material_ingredient_lines": [],
+      "missing_seasoning_lines": [
+        "1 g (approx 1/4 tsp) **fine sea salt** (to taste)"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Avocado",
+        "Pistachios"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": null
+    },
+    {
+      "file": "docs/recipes/Side-dishes/roasted-aubergine-herb-olive-oil.md",
+      "id": "roasted-aubergine-herb-olive-oil",
+      "title": "Roasted Aubergine with Herb Olive Oil",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 4,
+      "stated_mass_g_plus_ml_as_g": 527,
+      "implausible_serving_flag": false,
+      "kcal": 163.07299999999998,
+      "blockers": [],
+      "linked_foods": [
+        "Aubergine",
+        "Rosemary",
+        "Extra Virgin Olive Oil"
+      ],
+      "unresolved_material_ingredient_lines": [
+        "30 ml (2 tbsp) olive oil (for initial roasting)"
+      ],
+      "missing_seasoning_lines": [
+        "salt",
+        "pinch salt"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [
+        "Gut Microbiome",
+        "Inflammation",
+        "Oxidative Stress",
+        "Insulin Response"
+      ],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [
+        "Rosemary"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": null
+    },
+    {
+      "file": "docs/recipes/Side-dishes/Saffron-roast-potatoes.md",
+      "id": "saffron-roast-potatoes",
+      "title": "Saffron Roast Potatoes",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": false,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 4,
+      "stated_mass_g_plus_ml_as_g": 5,
+      "implausible_serving_flag": false,
+      "kcal": 439.37725,
+      "blockers": [],
+      "linked_foods": [
+        "Potatoes",
+        "Saffron"
+      ],
+      "unresolved_material_ingredient_lines": [
+        "*(duck fat for richness, or olive oil for a lighter version)*",
+        "2–3 tbsp extra-virgin olive oil"
+      ],
+      "missing_seasoning_lines": [
+        "salt",
+        "pinch salt (optional)"
+      ],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": false,
+      "fatty_acid_keys_on_linked_foods": [
+        "Potatoes"
+      ],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": true,
+      "editorial_vs_generated": null
+    },
+    {
+      "file": "docs/recipes/Snacks/neuroeshot.md",
+      "id": "neuroeshot-roe",
+      "title": "Neuroeshot (Roe, Lemon, Hot Sauce)",
+      "hasRecipeFoods": true,
+      "hasRecipeMatrix": true,
+      "matrix_validated": false,
+      "matrix_public": "pending canonical BRS validation",
+      "hasCanonical": true,
+      "hasLegacy": false,
+      "status": "calculation valid",
+      "servings_declared": 1,
+      "stated_mass_g_plus_ml_as_g": 24,
+      "implausible_serving_flag": false,
+      "kcal": 23.252,
+      "blockers": [],
+      "linked_foods": [
+        "Salmon Roe",
+        "Lemon",
+        "Fermented Hot Sauce"
+      ],
+      "unresolved_material_ingredient_lines": [],
+      "missing_seasoning_lines": [],
+      "coconut_milk_without_food_page": false,
+      "coconut_oil_not_used_as_coconut_milk": false,
+      "evoo_stated_olive_oil_tagged": false,
+      "legacy_brs_or_modulator_tags": [],
+      "canonical_brs_tags": [],
+      "matrix_would_have_been_tag_walk": true,
+      "fatty_acid_keys_on_linked_foods": [],
+      "triglyceride_tags_on_linked_foods": [],
+      "would_have_shown_triglyceride_named_rows_under_old_calculator": false,
+      "editorial_vs_generated": null
+    }
+  ]
+}

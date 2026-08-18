@@ -3,6 +3,10 @@ import {usePluginData} from "@docusaurus/useGlobalData"
 import {useLocation} from "@docusaurus/router"
 import Link from "@docusaurus/Link"
 import {BRS_MODULATOR_TAGS} from "../biologicalTargetsConfig"
+import {
+  PENDING_MATRIX_MESSAGE,
+  isRecipeMatrixValidated,
+} from "@site/src/utils/recipeMatrixGate.mjs"
 
 /**
  * Tag structure from Docusaurus
@@ -97,6 +101,10 @@ export default function RecipeMatrix({details}: RecipeMatrixProps): React.ReactE
 
   if (!currentDetails) {
     return <div>Error: Recipe details (frontMatter) is required</div>
+  }
+
+  if (!isRecipeMatrixValidated(currentDetails)) {
+    return <p>{PENDING_MATRIX_MESSAGE}</p>
   }
 
   // Extract tags from frontMatter

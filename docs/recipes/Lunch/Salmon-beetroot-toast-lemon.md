@@ -17,6 +17,74 @@ tags:
   - Omega-3 Fatty Acids
   - Nitrate
   - high protein
+servings: 1
+recipe_ingredients:
+  - display: 1 slice (40 g) wholegrain or sourdough bread
+    food_slug: sourdough-bread
+    quantity: 40
+    unit: g
+    calculation_weight_g: 40
+    included_in_default: true
+    composition_basis: named food-page record (Bread, french or vienna, includes sourdough; FDC 172675)
+    conversion_source: recipe-stated edible grams
+    formulation_note: bread sodium varies widely between bakery and packaged loaves
+  - display: 90 g cooked salmon (or canned, drained)
+    food_slug: salmon
+    quantity: 90
+    unit: g
+    calculation_weight_g: 90
+    included_in_default: true
+    preparation_state: cooked
+    composition_ref: salmon-farmed-cooked
+    composition_basis: >-
+      USDA SR Legacy FDC 175168 (Fish, salmon, Atlantic, farmed, cooked, dry heat).
+      Same species and farming as the Salmon food page, corrected from raw to the
+      cooked state the recipe specifies.
+    conversion_source: recipe-stated cooked grams
+  - display: 60 g grated beetroot
+    food_slug: beetroot
+    quantity: 60
+    unit: g
+    calculation_weight_g: 60
+    included_in_default: true
+    preparation_state: raw
+    composition_basis: named food-page record (Beets, raw; FDC 169145)
+    conversion_source: recipe-stated edible grams
+  - display: 15 ml (1 tbsp) lemon juice
+    food_slug: null
+    quantity: 15
+    unit: ml
+    calculation_weight_g: 15.5
+    included_in_default: true
+    preparation_state: raw
+    composition_ref: lemon-juice-raw
+    composition_basis: USDA SR Legacy FDC 167747 (Lemon juice, raw)
+    conversion_source: >-
+      USDA SR Legacy FDC 167747 food_portion: 1 cup = 244 g, i.e. 1.031 g/ml;
+      15 ml = 15.5 g.
+  - display: 5 ml (1 tsp) extra virgin olive oil (optional)
+    food_slug: extra-virgin-olive-oil
+    quantity: 5
+    unit: ml
+    calculation_weight_g: null
+    included_in_default: false
+    optional: true
+    excluded_reason: >-
+      the recipe marks the oil optional; adding 5 ml (4.5 g by USDA SR Legacy
+      FDC 171413) contributes about 40 kcal
+  - display: salt and black pepper, to taste
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    excluded_reason: added to taste, so it is not part of an exact sodium total
+  - display: "optional upgrades: capers, dill or parsley, Dijon mustard, rocket leaves"
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    optional: true
+    excluded_reason: optional upgrades
+nutrition_assumptions:
+  - Sodium excludes salt added to taste. Most of it comes from the bread.
 ---
 
 <img src="/img/recipes/beetroot%20n%20salmon.jpg" alt="Salmon & Grated Beetroot Toast with Lemon" width="480" />
@@ -47,16 +115,18 @@ A fast, brain-forward open sandwich: **omega-3 rich salmon + nitrate/polyphenol 
 4. **Top & press:** Pile the lemony beetroot on top. Press gently so it holds together.
 5. **Finish:** Extra lemon squeeze if you like it brighter.
 
-## Nutrition (estimated, per serving)
+## Nutrition (per serving)
 
-> Based on: 40 g bread, 90 g cooked salmon, 60 g beetroot, **15 ml lemon juice**, 5 ml EVOO.
+> Calculated from: 40 g bread, 90 g cooked salmon, 60 g beetroot, 15 ml lemon juice. The olive oil is optional and is not included; adding 5 ml raises energy to about 363 kcal.
 
-- **Calories:** ~**395 kcal**
-- **Protein:** ~**25 g**
-- **Carbohydrates:** ~**33 g**
-- **Fat:** ~**18 g**
-- **Fiber:** ~**5 g**
-- **Omega-3 (EPA+DHA):** ~**1.8–2.4 g** *(depends on salmon type)*
+- **Energy:** **323 kcal**
+- **Protein:** **25 g**
+- **Carbohydrates:** **28 g**
+- **Fat:** **12 g**
+- **Fibre:** **2.6 g**
+- **Sodium:** **343 mg**, mostly from the bread, excluding salt added to taste
+
+EPA and DHA depend strongly on whether the salmon is wild or farmed; farmed Atlantic salmon is used here.
 
 ### Key micronutrient highlights (why it's "BRAIN")
 - **DHA/EPA (salmon):** Provides omega-3 fats important for brain structure and signaling.

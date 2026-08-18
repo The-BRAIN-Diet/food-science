@@ -2,19 +2,15 @@ import React from "react"
 import {usePluginData} from "@docusaurus/useGlobalData"
 import Link from "@docusaurus/Link"
 import styles from "../TagList/styles.module.css"
+import {NUTRIENT_LABELS} from "@site/src/data/nutritionTableMapping"
 import {
-  BIOACTIVE_LIPID_KEYS,
-  CORE_NUTRIENT_KEYS,
-  MICRONUTRIENT_KEYS,
-  NUTRIENT_LABELS,
-} from "@site/src/data/nutritionTableMapping"
-import {
-  computeWeightedNutrients,
-  foodsContributingToNutrient,
-  isTraceTotal,
-  nutrientContribution,
-  type RecipeNutritionBlock,
-} from "@site/src/utils/recipeNutritionWeighted"
+  ADULT_REFERENCE_INTAKE,
+  PENDING_NUTRITION_MESSAGE,
+  calculateRecipeNutrition,
+  materialContributors,
+  percentReferenceIntake,
+  selectPublicRows,
+} from "@site/src/utils/recipeNutritionCalculate.mjs"
 
 /**
  * Tag structure from Docusaurus
@@ -48,46 +44,25 @@ interface RecipeFoodsProps {
   details: Record<string, unknown>
 }
 
-type NutritionValues = Record<string, number | null | undefined>
-
-interface SupplementarySource {
-  key?: string
-  label?: string
-  value?: number
-  unit?: string
-  amount_display?: string
+const NUTRIENT_UNIT: Record<string, string> = {
+  kcal: "kcal",
+  protein_g: "g",
+  fat_g: "g",
+  sat_fat_g: "g",
+  carbs_g: "g",
+  sugar_g: "g",
+  fibre_g: "g",
+  sodium_mg: "mg",
 }
 
-interface FunctionalMetric {
-  key?: string
-  label?: string
-  value?: number
-  unit?: string
-  amount_display?: string
-}
-
-// Reference intakes aligned with NutritionTable.
-const RDA_VALUES: Record<string, number> = {
-  iron_mg: 18,
-  zinc_mg: 11,
-  magnesium_mg: 420,
-  selenium_ug: 55,
-  calcium_mg: 1000,
-  potassium_mg: 3400,
-  choline_mg: 550,
-  folate_ug: 400,
-  vitamin_b12_ug: 2.4,
-  vitamin_b6_mg: 1.7,
-  vitamin_e_mg: 15,
-  vitamin_k_ug: 120,
-  copper_mg: 0.9,
-}
-// Protein reference model:
-// - Single coefficient (median/central target): 1.2 g/kg/day
-// - Body-weight range only: 50-100 kg
-const PROTEIN_REF_G_PER_KG = 1.2
-const PROTEIN_REFERENCE_BODY_WEIGHT_KG_MIN = 50
-const PROTEIN_REFERENCE_BODY_WEIGHT_KG_MAX = 100
+const TABLE: React.CSSProperties = {width: "100%", borderCollapse: "collapse"}
+const TH_LEFT: React.CSSProperties = {textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}
+const TH_RIGHT: React.CSSProperties = {textAlign: "right", padding: "8px", borderBottom: "2px solid #ccc"}
+const TD_LEFT: React.CSSProperties = {padding: "8px", borderBottom: "1px solid #eee"}
+const TD_RIGHT: React.CSSProperties = {padding: "8px", borderBottom: "1px solid #eee", textAlign: "right"}
+const DETAILS: React.CSSProperties = {marginTop: "0.75rem"}
+const SUMMARY: React.CSSProperties = {cursor: "pointer", color: "var(--ifm-color-primary)"}
+const NOTE: React.CSSProperties = {fontSize: "0.85em", color: "var(--ifm-color-content-secondary)"}
 
 function DocItemImage({
   doc,
@@ -299,200 +274,36 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
     )
   }
 
-  const POLYPHENOL_RE = /polyphenol|flavan|catechin|anthocyan|curcumin|oleuropein|oleocanthal|oleacein|hydroxytyrosol|tyrosol/i
+  const nutrition = calculateRecipeNutrition(details, uniqueFoods)
+  const publicRows = nutrition.status === "calculated" ? selectPublicRows(nutrition) : []
+  const summaryRows = publicRows.filter((row) => row.group === "core")
+  const micronutrientRows = publicRows.filter((row) => row.group === "micronutrient")
+  const bioactiveRows = publicRows.filter((row) => row.group === "brain")
+  const unresolvedNotes = summaryRows
+    .filter((row) => row.amount == null && row.unresolvedReason)
+    .map((row) => ({key: row.key, reason: row.unresolvedReason as string}))
+  const exclusions = nutrition.exclusions || []
+  const assumptions = nutrition.assumptions || []
+  const provenanceRows = summaryRows
+    .filter((row) => row.amount != null)
+    .map((row) => ({
+      key: row.key,
+      contributors: materialContributors(row.key, nutrition.byFood, row.amount as number),
+    }))
+    .filter((row) => row.contributors.length > 0)
 
-  const recipeNutrition = details.recipe_nutrition as RecipeNutritionBlock | undefined
-  const recipeServings =
-    typeof recipeNutrition?.servings === "number" && recipeNutrition.servings > 0
-      ? recipeNutrition.servings
-      : 1
-  let weighted = recipeNutrition
-    ? computeWeightedNutrients(recipeNutrition, uniqueFoods)
-    : null
-  if (weighted && weighted.totals.size === 0) {
-    weighted = null
+  const formatAmount = (key: string, amount: number) => {
+    const unit = NUTRIENT_LABELS[key]?.unit || NUTRIENT_UNIT[key] || (key.endsWith("_mg") ? "mg" : "")
+    const decimals = key === "kcal" ? 0 : amount >= 10 ? 1 : 2
+    return `${amount.toFixed(decimals)} ${unit}`.trim()
   }
 
-  let polyphenolTotalMg = 0
-  const polyphenolFoods: Document[] = []
-  let hasQualitativePolyphenol = false
-
-  const nutrientTotals = new Map<string, number>()
-  const nutrientFoods = new Map<string, Document[]>()
-
-  const resolveFoodDocByLabel = (label: string): Document | undefined => {
-    const t = label.trim().toLowerCase()
-    return uniqueFoods.find(
-      (f) =>
-        f.title.toLowerCase() === t ||
-        f.title.toLowerCase().startsWith(t + " ") ||
-        f.tags.some((tag) => tag.label.toLowerCase() === t)
-    )
+  const formatPct = (key: string, amount: number) => {
+    if (!(key in ADULT_REFERENCE_INTAKE)) return "—"
+    const pct = percentReferenceIntake(key, amount)
+    if (pct == null) return "—"
+    return `${pct.toFixed(0)}%`
   }
-
-  if (weighted && recipeNutrition) {
-    weighted.totals.forEach((v, k) => nutrientTotals.set(k, v))
-    nutrientTotals.forEach((_, key) => {
-      const titles = foodsContributingToNutrient(key, weighted.byFood, nutrientTotals.get(key))
-      const docs = titles
-        .map((title) => uniqueFoods.find((d) => d.title === title))
-        .filter((d): d is Document => Boolean(d))
-      nutrientFoods.set(key, docs)
-    })
-
-    for (const ing of recipeNutrition.ingredients) {
-      const food = resolveFoodDocByLabel(ing.food)
-      if (!food) continue
-      const fm = food.frontMatter || {}
-      const nutrition = (fm.nutrition_per_100g || {}) as NutritionValues
-      const grams = ing.grams
-      const supplementary = Array.isArray(fm.nutrition_supplementary_sources)
-        ? (fm.nutrition_supplementary_sources as SupplementarySource[])
-        : []
-      supplementary.forEach((s) => {
-        const text = `${s.key || ""} ${s.label || ""}`
-        if (!POLYPHENOL_RE.test(text)) return
-        if (typeof s.value === "number") {
-          const unit = (s.unit || "").toLowerCase()
-          const base = unit === "mg" ? s.value : unit === "g" ? s.value * 1000 : 0
-          polyphenolTotalMg += nutrientContribution(base, grams)
-        } else if (typeof s.amount_display === "string" && s.amount_display.trim().length > 0) {
-          hasQualitativePolyphenol = true
-        }
-        polyphenolFoods.push(food)
-      })
-
-      const metrics = Array.isArray(fm.nutrition_functional_metrics)
-        ? (fm.nutrition_functional_metrics as FunctionalMetric[])
-        : []
-      metrics.forEach((m) => {
-        const text = `${m.key || ""} ${m.label || ""}`
-        if (!POLYPHENOL_RE.test(text)) return
-        if (typeof m.value === "number") {
-          const unit = (m.unit || "").toLowerCase()
-          const base = unit === "mg" ? m.value : unit === "g" ? m.value * 1000 : 0
-          polyphenolTotalMg += nutrientContribution(base, grams)
-        } else if (typeof m.amount_display === "string" && m.amount_display.trim().length > 0) {
-          hasQualitativePolyphenol = true
-        }
-        polyphenolFoods.push(food)
-      })
-    }
-  } else {
-    relatedFoods.forEach((food: Document) => {
-      const fm = food.frontMatter || {}
-      const nutrition = (fm.nutrition_per_100g || {}) as NutritionValues
-      for (const key of [...CORE_NUTRIENT_KEYS, ...MICRONUTRIENT_KEYS, ...BIOACTIVE_LIPID_KEYS, "omega3_mg"]) {
-        const value = nutrition[key]
-        // Only list foods that contribute a positive amount to the nutrient row.
-        // This avoids showing ingredients with null/zero analytical values (e.g. coconut oil for carbohydrates).
-        if (typeof value !== "number" || value <= 0) continue
-        nutrientTotals.set(key, (nutrientTotals.get(key) || 0) + value)
-        nutrientFoods.set(key, [...(nutrientFoods.get(key) || []), food])
-      }
-
-      const supplementary = Array.isArray(fm.nutrition_supplementary_sources)
-        ? (fm.nutrition_supplementary_sources as SupplementarySource[])
-        : []
-      supplementary.forEach((s) => {
-        const text = `${s.key || ""} ${s.label || ""}`
-        if (!POLYPHENOL_RE.test(text)) return
-        if (typeof s.value === "number") {
-          const unit = (s.unit || "").toLowerCase()
-          if (unit === "mg") polyphenolTotalMg += s.value
-          if (unit === "g") polyphenolTotalMg += s.value * 1000
-        } else if (typeof s.amount_display === "string" && s.amount_display.trim().length > 0) {
-          hasQualitativePolyphenol = true
-        }
-        polyphenolFoods.push(food)
-      })
-
-      const metrics = Array.isArray(fm.nutrition_functional_metrics)
-        ? (fm.nutrition_functional_metrics as FunctionalMetric[])
-        : []
-      metrics.forEach((m) => {
-        const text = `${m.key || ""} ${m.label || ""}`
-        if (!POLYPHENOL_RE.test(text)) return
-        if (typeof m.value === "number") {
-          const unit = (m.unit || "").toLowerCase()
-          if (unit === "mg") polyphenolTotalMg += m.value
-          if (unit === "g") polyphenolTotalMg += m.value * 1000
-        } else if (typeof m.amount_display === "string" && m.amount_display.trim().length > 0) {
-          hasQualitativePolyphenol = true
-        }
-        polyphenolFoods.push(food)
-      })
-    })
-  }
-
-  const uniqueByPermalink = (docs: Document[]) =>
-    Array.from(new Map(docs.map((d) => [d.permalink, d])).values())
-  const polyphenolFoodDocs = uniqueByPermalink(polyphenolFoods)
-
-  const renderFoodList = (docs: Document[]) => {
-    const unique = uniqueByPermalink(docs)
-    if (unique.length === 0) return "—"
-    return unique.map((d, i) => (
-      <span key={d.permalink}>
-        <Link to={d.permalink}>{d.title}</Link>
-        {i < unique.length - 1 ? ", " : ""}
-      </span>
-    ))
-  }
-
-  const displayNutrientAmount = (raw: number) => (weighted ? raw / recipeServings : raw)
-
-  const isVisibleNutrient = (key: string) => {
-    if (!nutrientTotals.has(key)) return false
-    const v = displayNutrientAmount(nutrientTotals.get(key) || 0)
-    if (weighted && isTraceTotal(key, v)) return false
-    return true
-  }
-
-  const formatTotal = (key: string, value: number) => {
-    const v = displayNutrientAmount(value)
-    const unit = NUTRIENT_LABELS[key]?.unit || ""
-    const decimals = key === "kcal" ? 0 : 1
-    return `${v.toFixed(decimals)} ${unit}`.trim()
-  }
-
-  const formatRda = (key: string, value: number) => {
-    const v = displayNutrientAmount(value)
-    if (key === "protein_g") {
-      const minTarget = PROTEIN_REF_G_PER_KG * PROTEIN_REFERENCE_BODY_WEIGHT_KG_MIN
-      const maxTarget = PROTEIN_REF_G_PER_KG * PROTEIN_REFERENCE_BODY_WEIGHT_KG_MAX
-      const highPct = (v / minTarget) * 100
-      const lowPct = (v / maxTarget) * 100
-      return `${lowPct.toFixed(1)}-${highPct.toFixed(1)}%*`
-    }
-    const rda = RDA_VALUES[key]
-    if (!rda || rda <= 0) return "—"
-    return `${((v / rda) * 100).toFixed(1)}%`
-  }
-
-  const nutrientRows = (keys: readonly string[]) =>
-    keys
-      .filter((key) => isVisibleNutrient(key))
-      .map((key) => (
-        <tr key={key}>
-          <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{NUTRIENT_LABELS[key]?.label || key}</td>
-          <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-            {renderFoodList(nutrientFoods.get(key) || [])}
-          </td>
-          <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-            {formatTotal(key, nutrientTotals.get(key) || 0)}
-          </td>
-        </tr>
-      ))
-
-  const coreRows = nutrientRows(CORE_NUTRIENT_KEYS)
-  const microRows = nutrientRows(MICRONUTRIENT_KEYS)
-  const bioactiveKeys = [...BIOACTIVE_LIPID_KEYS, "omega3_mg"] as const
-  const bioactiveRows = nutrientRows(bioactiveKeys)
-  const polyphenolDisplayMg = displayNutrientAmount(polyphenolTotalMg)
-  const polyphenolIsTrace = weighted && polyphenolDisplayMg > 0 && polyphenolDisplayMg < 0.05
-  const showPolyphenolRow =
-    (polyphenolDisplayMg > 0 && !polyphenolIsTrace) || (polyphenolDisplayMg <= 0 && hasQualitativePolyphenol)
 
   return (
     <div className="bok-tag-list">
@@ -526,139 +337,174 @@ export default function RecipeFoods({details}: RecipeFoodsProps): React.ReactEle
         </div>
       </details>
 
-      {(coreRows.length > 0 || microRows.length > 0 || bioactiveRows.length > 0 || showPolyphenolRow) && (
-        <div style={{marginTop: "1rem"}}>
-          <h3 style={{marginBottom: "0.5rem"}}>Recipe nutrition</h3>
-          <p style={{fontSize: "0.9em", color: "var(--ifm-color-content-secondary)", marginTop: 0}}>
-            {weighted ? (
-              <>
-                Totals are <strong>calculated</strong> from each food’s USDA-linked nutrient panel (per 100 g)
-                on our site, multiplied by the <strong>grams of that food in this recipe</strong>—even small
-                amounts (e.g. a few grams of herbs). Negligible totals are omitted.
-                {recipeServings > 1 ? (
-                  <> Figures are <strong>per serving</strong> (this recipe serves {recipeServings}).</>
-                ) : null}
-              </>
-            ) : (
-              <>
-                Figures are still <strong>calculated from USDA-based nutrient data</strong> on each food page (per
-                100 g). For this recipe we have not yet added ingredient weights, so the table{" "}
-                <strong>adds one full “100 g” slice of each linked food</strong>, not the grams actually used
-                (which would misrepresent small amounts like herbs, spices, or oil). When portion sizes are
-                added for the recipe, the same panels are multiplied by the real amounts—so the maths can be
-                precise for every ingredient.
-              </>
+      <div style={{marginTop: "1rem"}}>
+        <h3 style={{marginBottom: "0.5rem"}}>Recipe nutrition</h3>
+        {nutrition.status !== "calculated" ? (
+          <>
+            <p style={{marginBottom: nutrition.pendingReason ? "0.25rem" : undefined}}>
+              {PENDING_NUTRITION_MESSAGE}
+            </p>
+            {nutrition.pendingReason ? <p style={NOTE}>{nutrition.pendingReason}</p> : null}
+          </>
+        ) : (
+          <>
+            <p style={{fontSize: "0.9em", color: "var(--ifm-color-content-secondary)", marginTop: 0}}>
+              Per serving{nutrition.servings > 1 ? `, recipe serves ${nutrition.servings}` : ""}. Each
+              included ingredient is scaled from a named per-100 g composition record by edible grams.
+              Optional ingredients are excluded. Missing analytical values are not treated as zero.
+            </p>
+
+            <table style={TABLE}>
+              <thead>
+                <tr>
+                  <th style={TH_LEFT}>Nutrient</th>
+                  <th style={TH_RIGHT}>Per serving</th>
+                  <th style={TH_RIGHT}>Reference intake</th>
+                </tr>
+              </thead>
+              <tbody>
+                {summaryRows.map((row) => (
+                  <tr key={row.key}>
+                    <td style={TD_LEFT}>{row.label || NUTRIENT_LABELS[row.key]?.label || row.key}</td>
+                    <td style={TD_RIGHT}>
+                      {row.amount == null ? "Not established" : formatAmount(row.key, row.amount)}
+                    </td>
+                    <td style={TD_RIGHT}>{row.amount == null ? "—" : formatPct(row.key, row.amount)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+
+            {unresolvedNotes.length > 0 && (
+              <p style={{fontSize: "0.8em", color: "var(--ifm-color-content-secondary)", marginTop: "0.4rem"}}>
+                {unresolvedNotes.map((note) => (
+                  <span key={note.key} style={{display: "block"}}>
+                    {NUTRIENT_LABELS[note.key]?.label || note.key}: {note.reason}
+                  </span>
+                ))}
+              </p>
             )}
-          </p>
-          <table style={{width: "100%", borderCollapse: "collapse"}}>
-            <thead>
-              <tr>
-                <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Nutrient / class</th>
-                <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Foods in recipe</th>
-                <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>
-                  {weighted ? "Total (scaled to recipe)" : "Total (100 g per linked food)"}
-                </th>
-                <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>% RDA aggregate</th>
-              </tr>
-            </thead>
-            <tbody>
-              {coreRows.length > 0 && (
-                <tr>
-                  <td
-                    colSpan={4}
-                    style={{padding: "8px", borderBottom: "1px solid #ddd", fontWeight: 600, background: "rgba(0,0,0,0.02)"}}
-                  >
-                    Core nutrition
-                  </td>
-                </tr>
+
+            <details style={DETAILS}>
+              <summary style={SUMMARY}>Key vitamins and minerals</summary>
+              {micronutrientRows.length === 0 ? (
+                <p style={NOTE}>
+                  No micronutrient reaches 5% of the adult reference intake in one serving from the
+                  records used here.
+                </p>
+              ) : (
+                <table style={{...TABLE, marginTop: "0.5rem"}}>
+                  <thead>
+                    <tr>
+                      <th style={TH_LEFT}>Nutrient</th>
+                      <th style={TH_RIGHT}>Per serving</th>
+                      <th style={TH_RIGHT}>Reference intake</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {micronutrientRows.map((row) => (
+                      <tr key={row.key}>
+                        <td style={TD_LEFT}>{NUTRIENT_LABELS[row.key]?.label || row.key}</td>
+                        <td style={TD_RIGHT}>{formatAmount(row.key, row.amount)}</td>
+                        <td style={TD_RIGHT}>{formatPct(row.key, row.amount)}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               )}
-              {CORE_NUTRIENT_KEYS.filter((key) => isVisibleNutrient(key)).map((key) => (
-                <tr key={key}>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                    {key === "protein_g" ? "Protein*" : NUTRIENT_LABELS[key]?.label || key}
-                  </td>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                    {renderFoodList(nutrientFoods.get(key) || [])}
-                  </td>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                    {formatTotal(key, nutrientTotals.get(key) || 0)}
-                  </td>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                    {formatRda(key, nutrientTotals.get(key) || 0)}
-                  </td>
-                </tr>
-              ))}
-              {microRows.length > 0 && (
-                <tr>
-                  <td
-                    colSpan={4}
-                    style={{padding: "8px", borderBottom: "1px solid #ddd", fontWeight: 600, background: "rgba(0,0,0,0.02)"}}
-                  >
-                    Key micronutrients
-                  </td>
-                </tr>
+            </details>
+
+            <details style={DETAILS}>
+              <summary style={SUMMARY}>Bioactive compounds</summary>
+              {bioactiveRows.length === 0 ? (
+                <p style={NOTE}>
+                  No bioactive compound has a defensible quantitative value for this serving. Values
+                  reported only as presence, traces or ranges are not summed into a number.
+                </p>
+              ) : (
+                <table style={{...TABLE, marginTop: "0.5rem"}}>
+                  <thead>
+                    <tr>
+                      <th style={TH_LEFT}>Compound</th>
+                      <th style={TH_RIGHT}>Per serving</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {bioactiveRows.map((row) => (
+                      <tr key={row.key}>
+                        <td style={TD_LEFT}>{row.label || NUTRIENT_LABELS[row.key]?.label || row.key}</td>
+                        <td style={TD_RIGHT}>{formatAmount(row.key, row.amount)}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               )}
-              {MICRONUTRIENT_KEYS.filter((key) => isVisibleNutrient(key)).map((key) => (
-                <tr key={key}>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{NUTRIENT_LABELS[key]?.label || key}</td>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                    {renderFoodList(nutrientFoods.get(key) || [])}
-                  </td>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                    {formatTotal(key, nutrientTotals.get(key) || 0)}
-                  </td>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                    {formatRda(key, nutrientTotals.get(key) || 0)}
-                  </td>
-                </tr>
-              ))}
-              {bioactiveRows.length > 0 && (
-                <tr>
-                  <td
-                    colSpan={4}
-                    style={{padding: "8px", borderBottom: "1px solid #ddd", fontWeight: 600, background: "rgba(0,0,0,0.02)"}}
-                  >
-                    Bioactive compounds
-                  </td>
-                </tr>
+            </details>
+
+            <details style={DETAILS}>
+              <summary style={SUMMARY}>Calculation details</summary>
+              <table style={{...TABLE, marginTop: "0.5rem", fontSize: "0.85em"}}>
+                <thead>
+                  <tr>
+                    <th style={TH_LEFT}>Ingredient</th>
+                    <th style={TH_RIGHT}>Calculation weight</th>
+                    <th style={TH_LEFT}>Composition source</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {nutrition.audit.map((row) => (
+                    <tr key={`${row.food}-${row.weight_g}`}>
+                      <td style={TD_LEFT}>{row.display || row.food}</td>
+                      <td style={TD_RIGHT}>{row.weight_g.toFixed(1)} g</td>
+                      <td style={TD_LEFT}>
+                        {row.composition_basis}
+                        {row.conversion_source ? (
+                          <span style={{display: "block", color: "var(--ifm-color-content-secondary)"}}>
+                            {row.conversion_source}
+                          </span>
+                        ) : null}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+
+              {provenanceRows.length > 0 && (
+                <>
+                  <p style={{...NOTE, marginTop: "0.75rem", marginBottom: "0.25rem"}}>
+                    Where each summary value comes from (foods supplying at least 10% of that row):
+                  </p>
+                  <ul style={{fontSize: "0.85em", marginBottom: 0}}>
+                    {provenanceRows.map((row) => (
+                      <li key={row.key}>
+                        <strong>{NUTRIENT_LABELS[row.key]?.label || row.key}</strong>: {row.contributors.join(", ")}
+                      </li>
+                    ))}
+                  </ul>
+                </>
               )}
-              {bioactiveKeys.filter((key) => isVisibleNutrient(key)).map((key) => (
-                <tr key={key}>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{NUTRIENT_LABELS[key]?.label || key}</td>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                    {renderFoodList(nutrientFoods.get(key) || [])}
-                  </td>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                    {formatTotal(key, nutrientTotals.get(key) || 0)}
-                  </td>
-                  <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                    {formatRda(key, nutrientTotals.get(key) || 0)}
-                  </td>
-                </tr>
-              ))}
-              {showPolyphenolRow && (
-              <tr>
-                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>Polyphenols (proxy)</td>
-                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>{renderFoodList(polyphenolFoodDocs)}</td>
-                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>
-                  {polyphenolDisplayMg > 0
-                    ? `${polyphenolDisplayMg.toFixed(1)} mg${hasQualitativePolyphenol ? " + varies" : ""}`
-                    : "Varies by product / preparation"}
-                </td>
-                <td style={{padding: "8px", borderBottom: "1px solid #eee"}}>—</td>
-              </tr>
+
+              {(exclusions.length > 0 || assumptions.length > 0) && (
+                <>
+                  <p style={{...NOTE, marginTop: "0.75rem", marginBottom: "0.25rem"}}>
+                    Exclusions and assumptions:
+                  </p>
+                  <ul style={{fontSize: "0.85em", marginBottom: 0}}>
+                    {exclusions.map((item) => (
+                      <li key={item.display}>
+                        {item.display} — {item.reason}
+                      </li>
+                    ))}
+                    {assumptions.map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </>
               )}
-            </tbody>
-          </table>
-          <p style={{fontSize: "0.85em", color: "var(--ifm-color-content-secondary)", marginTop: "0.5rem"}}>
-            Aggregate %RDA uses adult reference intakes and the summed food-level values shown above.
-          </p>
-          <p style={{fontSize: "0.85em", color: "var(--ifm-color-content-secondary)", marginTop: "0.35rem"}}>
-            * Protein is shown as a range, benchmarked to {PROTEIN_REF_G_PER_KG} g/kg/day using a{" "}
-            {PROTEIN_REFERENCE_BODY_WEIGHT_KG_MIN}-{PROTEIN_REFERENCE_BODY_WEIGHT_KG_MAX} kg reference adult range.
-          </p>
-        </div>
-      )}
+            </details>
+          </>
+        )}
+      </div>
     </div>
   )
 }

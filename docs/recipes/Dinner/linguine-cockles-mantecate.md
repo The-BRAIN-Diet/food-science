@@ -24,6 +24,118 @@ tags:
   - Inflammation
   - Gut Microbiome
   - Insulin Response
+servings: 2
+recipe_ingredients:
+  - display: 300 g whole-wheat linguine (dry)
+    food_slug: null
+    quantity: 300
+    unit: g
+    calculation_weight_g: 300
+    included_in_default: true
+    preparation_state: dry
+    composition_ref: pasta-wholewheat-dry
+    composition_basis: USDA SR Legacy FDC 169738 (Pasta, whole-wheat, dry)
+    conversion_source: recipe-stated dry weight as purchased
+  - display: 1 kg clams in shell, yielding ~150 g meat
+    food_slug: clams
+    quantity: 1000
+    unit: g
+    calculation_weight_g: 149.8
+    included_in_default: true
+    preparation_state: raw, shelled
+    composition_basis: >-
+      named food-page record (Mollusks, clam, mixed species, raw; FDC 174214).
+      The recipe offers cockles, mussels or clams as equals; clams are used because
+      the Cockles page has only a partial panel and USDA records no cockle shell
+      yield.
+    conversion_source: >-
+      USDA SR Legacy FDC 174214 food_portion: 1 lb with shell yields 68 g after
+      shell removal, i.e. 15.0%; 1 kg yields 149.8 g.
+  - display: 1 small onion, finely chopped
+    food_slug: onions
+    quantity: 1
+    unit: small
+    calculation_weight_g: 70
+    included_in_default: true
+    preparation_state: raw
+    composition_basis: named food-page record (Onions, raw; FDC 170000)
+    conversion_source: "USDA SR Legacy FDC 170000 food_portion: 1 small = 70 g"
+  - display: 2 garlic cloves, thinly sliced
+    food_slug: garlic
+    quantity: 2
+    unit: clove
+    calculation_weight_g: 6
+    included_in_default: true
+    preparation_state: raw
+    composition_basis: named food-page record (Garlic, raw; FDC 169230)
+    conversion_source: "USDA SR Legacy FDC 169230 food_portion: 1 clove = 3 g"
+  - display: 4 tbsp (60 ml) extra-virgin olive oil
+    food_slug: extra-virgin-olive-oil
+    quantity: 60
+    unit: ml
+    calculation_weight_g: 54
+    included_in_default: true
+    composition_basis: named food-page record (Oil, olive, salad or cooking; FDC 171413)
+    conversion_source: "USDA SR Legacy FDC 171413 food_portion: 1 tablespoon = 13.5 g"
+  - display: 120 ml dry white wine
+    food_slug: null
+    quantity: 120
+    unit: ml
+    calculation_weight_g: 119.3
+    included_in_default: true
+    composition_ref: white-wine-table
+    composition_basis: USDA SR Legacy FDC 174837 (Alcoholic beverage, wine, table, white)
+    conversion_source: >-
+      USDA SR Legacy FDC 174837 food_portion: 1 fl oz = 29.4 g, i.e. 0.994 g/ml;
+      120 ml = 119.3 g.
+    formulation_note: >-
+      The wine is simmered, so part of its alcohol and therefore part of its
+      energy is lost. The full record is used, which slightly overstates energy.
+  - display: 2 egg yolks
+    food_slug: egg-yolks
+    quantity: 2
+    unit: large
+    calculation_weight_g: 34
+    included_in_default: true
+    preparation_state: raw
+    composition_basis: named food-page record (Egg, yolk, raw, fresh; FDC 172184)
+    conversion_source: "USDA SR Legacy FDC 172184 food_portion: 1 large = 17 g; 2 large = 34 g"
+  - display: 25–30 g finely grated parmesan
+    food_slug: parmesan-cheese
+    quantity: 27.5
+    unit: g
+    calculation_weight_g: 27.5
+    included_in_default: true
+    composition_basis: named food-page record (Cheese, parmesan, hard; FDC 170848)
+    conversion_source: midpoint of the stated 25–30 g
+  - display: 1 small knob butter (optional)
+    food_slug: butter
+    calculation_weight_g: null
+    included_in_default: false
+    optional: true
+    excluded_reason: the recipe marks it optional and states no quantity
+  - display: parsley, finely chopped
+    food_slug: parsley
+    calculation_weight_g: null
+    included_in_default: false
+    excluded_reason: no stated quantity
+  - display: zest of half a lemon, black pepper
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    excluded_reason: no stated quantity; both contribute negligible energy
+  - display: salted water for the pasta
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    excluded_reason: >-
+      salting is to taste and the absorbed amount is not established, so it is not
+      part of an exact sodium total
+nutrition_assumptions:
+  - Sodium excludes salt added to the pasta water.
+  - >-
+    Clams are the calculated shellfish. Cockles and mussels differ; mussels in
+    particular are lower in sodium than clams.
 ---
 
 <img src="/img/recipes/pasta_colour_contrast_only.jpg" alt="Linguine con le Cozze Mantecate" width="480" />
@@ -81,22 +193,26 @@ Transfer the cooked linguine directly into the sauce with a splash of pasta wate
 ### 6. Finish with yolk emulsion
 In a separate bowl, whisk egg yolks with parmesan. Slowly add 3–5 tablespoons of hot pasta water while whisking continuously. This tempers the yolks, loosening the mixture and preventing scrambling when added to the pasta. Remove pasta pan from heat and immediately add the yolk mixture, tossing continuously to form a glossy sauce. Add cockle meat and optional butter, then finish with parsley, lemon zest, and black pepper. Add more water from the boiled pasta to increase the sauce. Serve immediately.
 
-## Nutritional Estimate (per serving)
+## Nutrition (per serving)
 
-- **Energy:** approximately 700–760 kcal
-- **Protein:** ~30 g
-- **Carbohydrate:** ~70–75 g
-- **Fibre:** ~10–12 g
-- **Fat:** ~30–35 g
+> Calculated from two servings, using clams as the shellfish and 150 g of dry whole-wheat linguine per person.
+
+- **Energy:** 1007 kcal
+- **Protein:** 40 g
+- **Carbohydrate:** 120 g
+- **Fibre:** 14.5 g
+- **Fat:** 40 g
+- **Sodium:** 634 mg, excluding salt added to the pasta water
+
+This is a substantially larger plate than the earlier untraced estimate of 700–760 kcal suggested. The two largest contributors are the dry pasta and the four tablespoons of olive oil; halving either brings the plate close to that earlier figure.
 
 ### Micronutrient highlights
 - Very high vitamin B12
 - High iron and zinc
 - Significant selenium
 - Meaningful choline from egg yolk
-- Marine taurine intake estimated 300–450 mg per serving
 
-Values vary with cockle yield and pasta brand.
+Marine taurine is not quantified in the composition records used here. Values vary with shellfish yield and pasta brand.
 
 ## BRAIN Diet Summary
 
