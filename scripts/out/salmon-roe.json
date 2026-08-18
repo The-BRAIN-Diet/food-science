@@ -9,6 +9,7 @@
     "iron_mg": 0.6,
     "magnesium_mg": 20,
     "potassium_mg": 221,
+    "sodium_mg": 91,
     "zinc_mg": 1,
     "selenium_ug": 40.3,
     "vitamin_b6_mg": 0.16,
@@ -27,6 +28,7 @@
     "fdc_id": 175132,
     "retrieval_method": "API",
     "basis": "per 100 g edible portion",
-    "last_checked": "2026-03-14"
+    "last_checked": "2026-08-18",
+    "note": "Raw mixed-species roe, not commercial cured ikura. USDA sodium is not a packaged-ikura value."
   }
 }
