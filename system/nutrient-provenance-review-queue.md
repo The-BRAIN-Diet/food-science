@@ -8,9 +8,11 @@ Opened by the ALA/omega-3 repair. Rules are in `system/food-nutrition-schema.md`
 
 ---
 
-### A. Substituted source records
+### A. Substituted source records — escalated to full-panel withdrawal
 
 The record cited on the page describes a **different food**. Retrieval succeeded, so the values are real — they belong to another organism. Applying them would republish the same error under a better citation.
+
+These began as ALA failures and turned out to be provenance failures for the whole panel: if the record is the wrong food, every value taken from it is the wrong food's, not merely the omega-3 one. All five pages had their **entire quantitative panel withdrawn**. `mct-oil` has since been resolved against a manufacturer specification and publishes energy and fat again; the other four carry qualitative presence only. All are tracked in `system/specialist-composition-review-queue.md`, which also records the completed source search. The table below documents what the ALA repair found; it is not the current state of those pages.
 
 | Page | Cites | Record actually describes | Withdrawn | What the value was |
 | --- | --- | --- | --- | --- |
@@ -53,6 +55,8 @@ This is the largest group and includes the foods a reader would most expect to s
 They are **not** errors. Flaxseed's 22.8 g/100 g is almost certainly alpha-linolenic acid, and a later record stating the isomer will very likely confirm it. But "almost certainly" is an inference from the food's reputation, not a measurement of the sample, and this repair exists because inference was previously allowed to fill a chemical identity.
 
 Resolution is a source that states the isomer — a Foundation Foods record, or a named analytical panel — not a decision about which isomer is likely.
+
+**Walnuts and flaxseed are prioritised** for an authoritative supplementary source, because they are the two foods a reader is most likely to consult for ALA and the two whose values are most likely to be confirmed. Tracked in `system/specialist-composition-review-queue.md`.
 
 ---
 

@@ -1,0 +1,289 @@
+{
+  "discontinuedDate": "",
+  "foodComponents": [],
+  "foodAttributes": [],
+  "foodPortions": [],
+  "fdcId": 2543941,
+  "description": "MCT PREMIUM C8 & C10 100% PURE OIL",
+  "publicationDate": "5/25/2023",
+  "foodNutrients": [
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1258,
+        "number": "606",
+        "name": "Fatty acids, total saturated",
+        "rank": 9700,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 31630281,
+      "amount": 100
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "rank": 1110,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 31630277,
+      "amount": 0
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "rank": 5800,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 31630279,
+      "amount": 0
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "rank": 300,
+        "unitName": "kcal"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 31630278,
+      "amount": 833
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "rank": 800,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 31630276,
+      "amount": 100
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "rank": 600,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 31630275,
+      "amount": 0
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1257,
+        "number": "605",
+        "name": "Fatty acids, total trans",
+        "rank": 15400,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 31630280,
+      "amount": 0
+    }
+  ],
+  "dataType": "Branded",
+  "foodClass": "Branded",
+  "shortDescription": "",
+  "modifiedDate": "5/5/2021",
+  "availableDate": "5/5/2021",
+  "brandOwner": "Field Crafts, Inc.",
+  "brandName": "FBOMB",
+  "dataSource": "LI",
+  "brandedFoodCategory": "Cookies & Biscuits",
+  "gtinUpc": "687965437074",
+  "householdServingFullText": "1 PACKET",
+  "ingredients": "MCT OIL (60% C8, 40% C10).",
+  "marketCountry": "United States",
+  "servingSize": 30,
+  "servingSizeUnit": "MLT",
+  "packageWeight": "1.0 fl oz/29.6 mL",
+  "notaSignificantSourceOf": "NOT A SIGNIFICANT SOURCE OF VITAMIN D, CALCIUM, IRON AND POTASSIUM",
+  "foodUpdateLog": [
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 2543941,
+      "description": "MCT PREMIUM C8 & C10 100% PURE OIL",
+      "publicationDate": "5/25/2023",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "shortDescription": "",
+      "modifiedDate": "5/5/2021",
+      "availableDate": "5/5/2021",
+      "brandOwner": "Field Crafts, Inc.",
+      "brandName": "FBOMB",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Cookies & Biscuits",
+      "gtinUpc": "687965437074",
+      "householdServingFullText": "1 PACKET",
+      "ingredients": "MCT OIL (60% C8, 40% C10).",
+      "marketCountry": "United States",
+      "servingSize": 30,
+      "servingSizeUnit": "MLT",
+      "packageWeight": "1.0 fl oz/29.6 mL",
+      "notaSignificantSourceOf": "NOT A SIGNIFICANT SOURCE OF VITAMIN D, CALCIUM, IRON AND POTASSIUM"
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 2248896,
+      "description": "MCT PREMIUM C8 & C10 100% PURE OIL",
+      "publicationDate": "4/1/2022",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "shortDescription": "",
+      "modifiedDate": "5/5/2021",
+      "availableDate": "5/5/2021",
+      "brandOwner": "Field Crafts, Inc.",
+      "brandName": "FBOMB",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Cookies & Biscuits",
+      "gtinUpc": "687965437074",
+      "householdServingFullText": "1 PACKET",
+      "ingredients": "MCT OIL (60% C8, 40% C10).",
+      "marketCountry": "United States",
+      "servingSize": 30,
+      "servingSizeUnit": "ml",
+      "packageWeight": "1.0 fl oz/29.6 mL",
+      "notaSignificantSourceOf": "NOT A SIGNIFICANT SOURCE OF VITAMIN D, CALCIUM, IRON AND POTASSIUM"
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 1959477,
+      "description": "MCT PREMIUM C8 & C10 100% PURE OIL",
+      "publicationDate": "7/29/2021",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "modifiedDate": "5/5/2021",
+      "availableDate": "5/5/2021",
+      "brandOwner": "Field Crafts, Inc.",
+      "brandName": "FBOMB",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Cookies & Biscuits",
+      "gtinUpc": "687965437074",
+      "householdServingFullText": "1 PACKET",
+      "ingredients": "MCT OIL (60% C8, 40% C10).",
+      "marketCountry": "United States",
+      "servingSize": 30,
+      "servingSizeUnit": "ml",
+      "packageWeight": "1.0 fl oz/29.6 mL",
+      "notaSignificantSourceOf": "NOT A SIGNIFICANT SOURCE OF VITAMIN D, CALCIUM, IRON AND POTASSIUM"
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 1842907,
+      "description": "MCT PREMIUM C8 & C10 100% PURE OIL",
+      "publicationDate": "6/25/2021",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "modifiedDate": "5/5/2021",
+      "availableDate": "5/5/2021",
+      "brandOwner": "Field Crafts, Inc.",
+      "brandName": "FBOMB",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Cookies & Biscuits",
+      "gtinUpc": "687965437074",
+      "householdServingFullText": "1 PACKET",
+      "ingredients": "MCT OIL (60% C8, 40% C10).",
+      "marketCountry": "United States",
+      "servingSize": 30,
+      "servingSizeUnit": "ml",
+      "packageWeight": "29.6 mL",
+      "notaSignificantSourceOf": "NOT A SIGNIFICANT SOURCE OF VITAMIN D, CALCIUM, IRON AND POTASSIUM"
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 1818141,
+      "description": "MCT PREMIUM C8 & C10 100% PURE OIL",
+      "publicationDate": "6/17/2021",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "modifiedDate": "3/18/2019",
+      "availableDate": "3/18/2019",
+      "brandOwner": "Field Crafts, Inc.",
+      "brandName": "FBOMB",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Specialty Formula Supplements",
+      "gtinUpc": "687965437074",
+      "householdServingFullText": "1 PACKET",
+      "ingredients": "MCT OIL (60% C8, 40% C10).",
+      "marketCountry": "United States",
+      "servingSize": 30,
+      "servingSizeUnit": "ml",
+      "packageWeight": "29.6 mL",
+      "notaSignificantSourceOf": "NOT A SIGNIFICANT SOURCE OF VITAMIN D, CALCIUM, IRON AND POTASSIUM"
+    }
+  ],
+  "labelNutrients": {
+    "fat": {
+      "value": 30
+    },
+    "saturatedFat": {
+      "value": 30
+    },
+    "transFat": {
+      "value": 0
+    },
+    "sodium": {
+      "value": 0
+    },
+    "carbohydrates": {
+      "value": 0
+    },
+    "protein": {
+      "value": 0
+    },
+    "calories": {
+      "value": 250
+    }
+  }
+}

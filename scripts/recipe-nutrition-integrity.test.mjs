@@ -632,6 +632,122 @@ test("every published omega-3 total names the components it was summed from", ()
   }
 })
 
+test("a withdrawn composition panel publishes nothing quantitative", () => {
+  const withdrawn = foodDocs.filter((doc) => doc.frontMatter.composition_status === "withdrawn")
+
+  /*
+   * The four pages for which the completed source search found nothing usable.
+   * `mct-oil` was the fifth and has since been resolved against a manufacturer
+   * specification, so it is deliberately absent.
+   */
+  const stillWithdrawn = ["sunflower-lecithin", "reishi-mushroom", "turkey-tail-mushroom", "cordyceps-mushroom"]
+  for (const slug of stillWithdrawn) {
+    assert.ok(
+      withdrawn.some((doc) => doc.frontMatter.id === slug),
+      `${slug} has a substituted record and no replacement source, so it must stay withdrawn`,
+    )
+  }
+
+  for (const doc of withdrawn) {
+    const values = doc.frontMatter.nutrition_per_100g || {}
+    assert.equal(
+      Object.keys(values).length,
+      0,
+      `${doc.title} still publishes a panel derived from another food`,
+    )
+    assert.equal(
+      doc.frontMatter.nutrition_source,
+      undefined,
+      `${doc.title} still cites the record its values came from`,
+    )
+    assert.equal(doc.frontMatter.omega3_components, undefined)
+
+    // The record that was withdrawn is named, so the failure stays legible.
+    const record = doc.frontMatter.composition_withdrawn
+    assert.ok(record?.withdrawn_record, `${doc.title} does not name the record it withdrew`)
+    assert.ok(record?.reason, `${doc.title} does not say why`)
+    assert.ok(record?.queue, `${doc.title} is not pointed at a review queue`)
+
+    // What survives is qualitative only. A number here would be a value from the
+    // discredited record returning by another door.
+    for (const row of doc.frontMatter.nutrition_supplementary_sources || []) {
+      assert.equal(
+        typeof row.value,
+        "undefined",
+        `${doc.title}: ${row.key} carries a quantity with no established source`,
+      )
+      assert.match(String(row.amount_display), /not established/i)
+    }
+  }
+})
+
+test("a restored panel cannot cite the record that was withdrawn from it", () => {
+  /*
+   * Records proven to describe a different food than the page they were on.
+   * A page may leave the withdrawal queue only on a new source, so re-citing one
+   * of these would silently reinstate the substitution.
+   */
+  const substituted = {
+    "mct-oil": 748278, // Oil, canola
+    "sunflower-lecithin": 1750349, // Oil, sunflower
+    "reishi-mushroom": 2003603, // Mushroom, beech
+    "turkey-tail-mushroom": 2003603,
+    "cordyceps-mushroom": 2003603,
+  }
+
+  for (const [slug, bannedId] of Object.entries(substituted)) {
+    const doc = foodDocs.find((d) => d.frontMatter.id === slug)
+    assert.ok(doc, `${slug} is missing`)
+    const cited = doc.frontMatter.nutrition_source?.fdc_id
+    if (cited === undefined) continue
+    assert.notEqual(Number(cited), bannedId, `${slug} cites the record withdrawn from it`)
+  }
+
+  // A page that publishes again must say where the replacement came from.
+  const mct = foodDocs.find((d) => d.frontMatter.id === "mct-oil")
+  if (Object.keys(mct.frontMatter.nutrition_per_100g || {}).length) {
+    const source = mct.frontMatter.nutrition_source
+    assert.ok(source?.fdc_id, "mct-oil publishes values without naming a record")
+    assert.ok(source?.basis, "mct-oil publishes values without stating a basis")
+    assert.ok(source?.limitations, "mct-oil publishes label-derived values without stating limitations")
+  }
+})
+
+test("recipes cannot consume a withdrawn record", () => {
+  const withdrawn = foodDocs.filter((doc) => doc.frontMatter.composition_status === "withdrawn")
+  const slugs = new Set(withdrawn.map((doc) => doc.frontMatter.id))
+
+  // No recipe reaches one today.
+  for (const file of walkMd(RECIPES_DIR)) {
+    const data = matter(fs.readFileSync(file, "utf8")).data
+    for (const ing of data.recipe_ingredients || []) {
+      const slug = ing.food_slug || ing.food
+      assert.ok(
+        !slugs.has(String(slug)),
+        `${path.basename(file)} names ${slug}, whose composition is withdrawn`,
+      )
+    }
+  }
+
+  // And one that tried could not calculate. The panel is refused at resolution,
+  // so the ingredient is unresolved and the recipe says so rather than
+  // silently costing a meal at zero.
+  const target = withdrawn[0].frontMatter.id
+  const result = calculateRecipeNutrition(
+    {
+      servings: 1,
+      recipe_ingredients: [{food_slug: target, display: "test", quantity_g: 100}],
+    },
+    foodDocs,
+  )
+  assert.equal(result.status, "pending", "a withdrawn record cannot produce a calculated recipe")
+  assert.ok(
+    result.blockers.some((b) => b.startsWith(`${target}:`)),
+    `the blocker names ${target}: ${result.blockers.join(", ")}`,
+  )
+  assert.ok(!(result.perServing?.kcal > 0), "no energy is drawn from a withdrawn panel")
+})
+
 test("the public label states the fatty acid, not the bare acronym", () => {
   // "ALA" alone is what let an amino acid pass for an omega-3 in the first place.
   assert.equal(NUTRIENT_LABELS.ala_mg.label, "ALA (18:3 n-3)")

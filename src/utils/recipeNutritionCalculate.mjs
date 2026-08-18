@@ -150,6 +150,19 @@ export function resolveFoodDoc(slugOrTitle, foodDocs) {
   )
 }
 
+/**
+ * A food page whose composition panel has been withdrawn because the record it
+ * was built from describes a different food.
+ *
+ * Refusing it here rather than at display time matters: an ingredient pointing
+ * at such a page becomes unresolved, and the recipe says so, instead of quietly
+ * calculating a meal from a beech mushroom or a bottle of canola oil. Recipes
+ * must not be able to reach these panels by any route.
+ */
+export function isCompositionWithdrawn(doc) {
+  return doc?.frontMatter?.composition_status === "withdrawn"
+}
+
 function compositionPanel(ingredient, foodDocs) {
   if (ingredient.nutrition_per_100g && typeof ingredient.nutrition_per_100g === "object") {
     return {
@@ -173,6 +186,7 @@ function compositionPanel(ingredient, foodDocs) {
   }
   const slug = ingredient.food_slug || ingredient.food
   const doc = resolveFoodDoc(slug, foodDocs)
+  if (isCompositionWithdrawn(doc)) return null
   const panel = doc?.frontMatter?.nutrition_per_100g
   if (!doc || !panel || typeof panel !== "object") return null
   return {
