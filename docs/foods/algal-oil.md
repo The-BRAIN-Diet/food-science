@@ -2,7 +2,7 @@
 id: algal-oil
 title: Algal Oil
 sidebar_label: Algal Oil
-description: Vegetarian DHA source from cultivated microalgae; EPA only in some formulations
+description: Vegetarian source of preformed DHA from cultivated microalgae
 tags:
   - Food
   - Vegan
@@ -59,23 +59,23 @@ legacy_list_image: /img/foods/algal-oil/algal-oil_thumb.webp
 ---
 ## Overview
 
-Algal oil is a vegetarian source of the long-chain omega-3 DHA, produced from cultivated microalgae. Most commonly available algal oils are designed primarily to provide DHA, while their EPA content is often absent or comparatively low. Separate formulations supplying both EPA and DHA are also available, so the product label is needed to determine the actual amount provided [1,2].
+Algal oil is a vegetarian source of the long-chain omega-3 DHA, produced from cultivated microalgae. Most commonly available algal oils are designed primarily to provide DHA, while their EPA content is often absent or comparatively low. Separate formulations supplying both EPA and DHA are also available, so the product label is needed to determine the actual amount provided [1,3].
 
-Within the BRAIN Diet, algal oil provides an alternative to fish-derived omega-3 oils, particularly where direct DHA intake is required within a vegetarian or vegan dietary pattern.
+Within the BRAIN Diet, algal oil provides an alternative to fish-derived omega-3 oils, particularly where direct DHA intake is required within a vegetarian or vegan dietary pattern. Algal-oil DHA is absorbed similarly to DHA from cooked salmon [2].
 
 ## Key Nutritional Highlights
 
-- **DHA** is the principal long-chain omega-3 in typical authorised algal oils (≥32 g or ≥35 g/100 g oil in DHA-rich specifications) [1].
-- **EPA** is formulation-specific: it is not specified in those DHA-rich oils, and is authorised separately in combined EPA/DHA oils (≥10 g EPA and ≥15 g DHA/100 g oil) [1].
-- Actual intake must be taken from the product label, because composition and serving size vary [1,2].
-- Best used as a measured vegetarian or vegan supplement, not as a high-heat culinary oil.
+- **DHA** is the principal long-chain omega-3 in typical authorised algal oils [1].
+- **EPA** is formulation-specific and is not assumed to be present in DHA-focused oils [1].
+- Algal-oil DHA is absorbed similarly to DHA from cooked salmon [2].
+- Read the product label for actual DHA and EPA; use as a measured supplement, not a high-heat cooking oil [1,3].
 
 ## Food Context
 
 ### Sourcing
 
-- Distinguish **DHA-rich** oils from **combined EPA/DHA** oils; read DHA and EPA milligrams on the label [1,2].
-- Algal oil is a vegetarian omega-3 supplement source; available products cover a wide range of doses and forms [2].
+- Distinguish **DHA-rich** oils from **combined EPA/DHA** oils; read DHA and EPA milligrams on the label [1,3].
+- Algal oil is a vegetarian omega-3 supplement source; available products cover a wide range of doses and forms [3].
 
 ### Preparation
 
@@ -96,6 +96,8 @@ DHA is the principal identity constituent of typical authorised algal oils and i
 
 ## References
 
-[1] Authorised algal-oil specifications distinguish DHA-rich Schizochytrium oils from a separate combined EPA/DHA formulation; the listed figures are regulatory minima, not product averages. European Commission 2024. [Commission Implementing Regulation (EU) 2017/2470 establishing the Union list of novel foods](/docs/papers/BRAIN-Diet-References#eu_2017_2470_union_list)
+[1] European Commission (2024). [Commission Implementing Regulation (EU) 2017/2470 establishing the Union list of novel foods](/docs/papers/BRAIN-Diet-References#eu_2017_2470_union_list). Authorised algal-oil specifications distinguish DHA-rich Schizochytrium oils from a separate combined EPA/DHA formulation; the listed figures are regulatory minima, not product averages.
 
-[2] Algal oil is a vegetarian omega-3 supplement source from algae; supplements provide a wide range of doses and forms, so intake must be taken from the product label. NIH 2022. [Omega-3 Fatty Acids: Fact Sheet for Consumers](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_consumer)
+[2] Arterburn et al. (2008). [Algal-oil capsules and cooked salmon: nutritionally equivalent sources of docosahexaenoic acid](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008). Randomized comparison of algal-oil capsules with cooked salmon found similar DHA bioavailability; the intervention was capsules, not culinary oil.
+
+[3] NIH (2022). [Omega-3 Fatty Acids: Fact Sheet for Consumers](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_consumer). Consumer fact sheet listing algal oil as a vegetarian omega-3 source; commercial products vary in dose and form.

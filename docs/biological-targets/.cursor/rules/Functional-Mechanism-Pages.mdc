@@ -31,8 +31,8 @@ Synthesis contract (required):
 - **Definition (§1):** integrated regulatory state; do not paste full PM definitions.
 - **Primary Biological Effects (§2):** short ↑ / ↓ **emergent FM outcomes** only — not PM delivery/incorporation language.
 - **Phenome Connections (§3):** render each outcome as a `<details>` dropdown (same pattern as PM §3); summary shows outcome name; inside: Confidence, Synthesis, Key References. Author via `functional_outcome_context` after Phase 3 approval (convergence across §4 sources — not a PM roll-up).
-- **Mechanistic Basis (§4):** `### 4.1 Core Primary Mechanisms`, `### 4.2 Integrated Functional Narrative`, `### 4.3 Suboptimal Function & Its Effects` (required on all FMs), and `### 4.4 Evidence Highlights` (required on canonical full-template FMs). All four subsections are **primary phenome review sources** per `system/phenome-relationship-review-methodology.md`.
-- **Canonical (no KCs):** `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx`
+- **Mechanistic Basis (§4):** opening sentence; **Supporting Key Constraint Pools** immediately after that sentence and before `### 4.1` when constituent PMs have KC mappings (PM → KC union; omit the section when none apply); then `### 4.1 Core Primary Mechanisms`, `### 4.2 Integrated Functional Narrative`, `### 4.3 Suboptimal Function & Its Effects` (required on all FMs), and `### 4.4 Evidence Highlights` (required on canonical full-template FMs). All four numbered subsections remain **primary phenome review sources** per `system/phenome-relationship-review-methodology.md`. Do **not** place the pool listing in §4.3. Do **not** restore `### 4.2 Supporting Biological Pools (Key Constraints)`.
+- **Canonical (no mapped KCs):** `docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity.mdx` — omit the pool listing entirely
 - **Canonical (with KCs + failure modes):** `docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx`
 - **§5 Connected Mechanisms** — roll up from constituent PM `§6.2 Connected BRS Mechanisms`; each bullet: `[ID — Name](href) — one-sentence connection` (canonical: BRS1-FM3). Do not list BRS hub pages without PM/FM links.
 - **Deduplication:** if detail exists on a PM page, do not repeat it on the FM page — only describe how PMs combine into the FM state.
@@ -41,7 +41,7 @@ Synthesis contract (required):
 
 Structure:
 - Canonical outline: **Definition → Primary Biological Effects → Phenome Connections → Mechanistic Basis (§4.1–4.4) → Connected Mechanisms → References** (`## 5.` / `## 6.`).
-- `mechanisms_covered` and `key_constraints` stay in **front matter** for tooling; PM links render in §4.1 only — no duplicate index lists or public KC pool subsection.
+- `mechanisms_covered` stays in **front matter** for tooling; PM links render in §4.1. The public KC pool listing is **derived from constituent PM `key_constraints`**, not an independently maintained FM→KC map. Do not list every parent-BRS KC or infer KCs from §4.3 prose.
 - `timing_specific` (`Yes` | `No`) is **required in front matter**; do **not** add a standalone `## N. Timing Specific` body section.
 - Where timing materially alters FM interpretation, discuss it in **Primary Biological Effects** or **Mechanistic Basis** — not Lifestyle/Scoreable sections on FM pages.
 - The in-body title line must use markdown `##` (not `#` or `###`).

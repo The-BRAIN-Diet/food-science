@@ -127,25 +127,39 @@ nutrition_source:
 - **limiting_amino_acids**: Single string; e.g. lower in methionine and cysteine.
 - **complementary_pairings**: Single string; e.g. rice, oats, or other grains.
 - **nutrition_supplementary_sources**: Same structure as animal when used.
+- **substance_card_captions**: Optional food-specific qualifier on a rendered Substances card (e.g. parent aglycone vs glycoside). Do not put that wording on the generic Substance page.
+
+---
+
+## Specialist / formulated product (e.g. algal oil)
+
+Standard animal and plant shapes above use a populated `nutrition_per_100g` panel. Variable or formulated specialist products with no legitimate USDA match use **authorised/specification-based composition** instead (`nutrition_authorised_specifications`). See `docs/foods/algal-oil.md`.
+
+- Do **not** invent a USDA-shaped panel from canola or another substitute food.
+- An empty `nutrition_per_100g: {}` may remain if a component currently reads that key. It is an **implementation compatibility field**, not the compositional source and not the canonical requirement.
+- Every rendered Substance card must still resolve to a rendered row in the specification (or other valid representation) the page actually uses.
 
 ---
 
 ## Required vs optional
 
-| Field | Animal | Plant |
-|-------|--------|--------|
-| id, title, sidebar_label, description | Required | Required |
-| tags | Required (Food + name + table-driven substances) | Required |
-| list_image | Required | Required |
-| protein_profile_note | Optional but recommended | — |
-| amino_acid_strengths | — | Optional but recommended |
-| limiting_amino_acids | — | Optional but recommended |
-| complementary_pairings | — | Optional but recommended |
-| nutrition_per_100g | Required for nutrition-layer pages | Required |
-| nutrition_source | Required when nutrition_per_100g present | Required |
-| overview_key_compounds | Optional (deterministic trigger for Script B; else bold phrases in Overview) | Optional |
-| nutrition_supplementary_sources | Optional (when missing compound added from literature) | Optional |
-| nutrition_authorised_specifications | Optional (specialist products without a USDA match, e.g. algal oil) | Optional |
+A food page must provide **at least one** valid compositional representation: populated `nutrition_per_100g` (standard database composition); `nutrition_authorised_specifications` (variable or formulated specialist products); or an explicitly supported qualitative `nutrition_supplementary_sources` block where defensible quantities are unavailable. A populated USDA-shaped `nutrition_per_100g` block is **not** universally required. The YAML `description` field is the Foods Index identity line; see **Food-index descriptions** in `system/food-page-model.md`.
+
+| Field | Animal | Plant | Specialist |
+|-------|--------|--------|------------|
+| id, title, sidebar_label, description | Required | Required | Required |
+| tags | Required (Food + name + table-driven substances) | Required | Required |
+| list_image | Required | Required | Required |
+| protein_profile_note | Optional but recommended | — | — |
+| amino_acid_strengths | — | Optional but recommended | — |
+| limiting_amino_acids | — | Optional but recommended | — |
+| complementary_pairings | — | Optional but recommended | — |
+| nutrition_per_100g | One of the valid representations when using a USDA/database panel. Empty `{}` is compatibility only, not the compositional source. | Same | Not required as a populated panel; empty `{}` may remain for component compatibility |
+| nutrition_source | Required when using standard database composition | Required when using standard database composition | Required when a specialist source note is present (no FDC id) |
+| overview_key_compounds | Optional (deterministic trigger for Script B; else bold phrases in Overview) | Optional | Optional |
+| nutrition_supplementary_sources | Optional extension of a USDA panel; or one of the valid representations when only supported qualitative composition is available | Same | Optional |
+| nutrition_authorised_specifications | Optional | Optional | One of the valid representations for variable/formulated products without a USDA match |
+| substance_card_captions | Optional (food-specific card qualifier, e.g. parent aglycone vs glycoside) | Optional | Optional |
 
 ---
 

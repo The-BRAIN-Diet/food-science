@@ -2,7 +2,7 @@
 id: asparagus
 title: Asparagus
 sidebar_label: Asparagus
-description: FOS prebiotic fiber and folate source
+description: Folate-rich vegetable providing fibre and modest inulin-type fructans
 tags:
   - Food
   - Asparagus
@@ -54,30 +54,44 @@ nutrition_source:
 main_image: /img/foods/asparagus/asparagus_medium.webp
 legacy_list_image: /img/foods/asparagus/asparagus_thumb.webp
 legacy_main_image: /img/foods/asparagus/asparagus_medium.webp
+nutrition_supplementary_sources:
+  - key: inulin_type_fructans_qual
+    label: Inulin-type fructans
+    status: Present — quantity not established
+    amount_display: Present in edible spear; fresh-weight quantity not established for this page.
+    public_display: table
+    notes: Do not use root concentrations as spear values.
+    source_note: >-
+      Goñi et al. 2024 quantified inulin at about 1.48–1.52 g/100 g dry weight in
+      edible spear versus 14.92 g/100 g dry weight in root; DP3/DP4
+      oligosaccharides were quantified in root only. Redondo-Cuenca et al. 2023
+      reported the same pattern (1.30 vs 16.18 g inulin/100 g dry matter). USDA
+      SR Legacy (Asparagus, raw; FDC 168389) reports total fibre 2.1 g/100 g and
+      does not quantify FOS. This row records spear presence, not a converted
+      fresh-weight USDA value. Do not use root concentrations as spear values.
 ---
 ## Overview
 
-Asparagus provides **folate** (vitamin B9), **fructooligosaccharides** (FOS), and fibre in a low-calorie vegetable matrix. B-vitamins including folate support one-carbon metabolism, DNA repair, and neurochemical synthesis pathways relevant to brain function [1].
+Asparagus is a low-calorie vegetable providing **folate** and fibre. Edible spears also contain modest amounts of **inulin-type fructans**, although considerably less than asparagus root; evidence from root extracts should therefore not be treated as the composition of the vegetable as eaten [1,2].
 
-Within the BRAIN Diet framework, asparagus contributes folate and prebiotic-type fibres as part of diverse vegetable intake. Human prebiotic trials report measurable effects on stress-related biology and emotional processing, supporting the value of fermentable fibres within mixed dietary patterns [2,3].
+Within the BRAIN Diet framework, asparagus contributes folate and fermentable plant fibre as part of varied vegetable intake.
 
 ## Key Nutritional Highlights
 
-- **Folate** (52 µg per 100 g raw) supports one-carbon and B-vitamin intake relevant to methylation biology [1].
-- **FOS** prebiotic fibre occurs alongside 2.1 g total fibre per 100 g (USDA SR Legacy); FOS itself is not separately quantified in that panel [2,3].
-- Very low energy density (20 kcal per 100 g) allows generous vegetable portions.
+- **Folate**-rich low-energy vegetable.
+- Edible spears contain modest **inulin-type fructans**; root extracts are not the vegetable as eaten [1,2].
+- A fresh-weight fructan quantity is not established for this page [1,2].
 
 ## Food Context
 
-### Synergies
+### Sourcing
 
-- Include with other allium-family and prebiotic-rich vegetables (onions, leeks, garlic) as part of a diverse fermentable-fibre strategy [3].
-- Pair within meals that already supply other B-vitamins (B6, B12) to support broader one-carbon and neurotransmitter pathways [1].
+- Distinguish edible spears from root-derived fructan extracts and spear by-products. Root values must not be attributed to the spear [1,2].
 
 ### Preparation
 
-- Can be consumed lightly cooked or raw; gentle cooking preserves folate relative to prolonged high-heat methods.
-- Trim woody stem bases; steam, roast, or sauté rather than boiling away water-soluble vitamins when possible.
+- Trim woody stem bases. Steam, roast, or sauté rather than boiling when folate retention is a priority; the 52 µg per 100 g figure is for raw USDA spears.
+- Can be consumed lightly cooked or raw.
 
 ## Recipes
 
@@ -91,8 +105,6 @@ Within the BRAIN Diet framework, asparagus contributes folate and prebiotic-type
 
 ## References
 
-[1] **Folate** (52 µg per 100 g raw) supports one-carbon and B-vitamin intake relevant to methylation biology. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+[1] Goñi et al. (2024). [Composition and Functional Properties of the Edible Spear and By-Products from Asparagus officinalis L. and Their Potential Prebiotic Effect](/docs/papers/BRAIN-Diet-References#goni_asparagus_spear_2024). Edible-spear inulin was about 1.48–1.52 g/100 g dry weight versus 14.92 g/100 g dry weight in root; DP3/DP4 oligosaccharides were quantified in root only.
 
-[2] Attention-deficit/hyperactivity disorder (ADHD) is a neurodevelopmental disorder that has become increasingly prevalent worldwide. Schmidt & Cowen 2015. [Prebiotic intake reduces the waking cortisol response and alters emotional bias in healthy volunteers](/docs/papers/BRAIN-Diet-References#schmidt_prebiotic_2015)
-
-[3] Include with other allium-family and prebiotic-rich vegetables (onions, leeks, garlic) as part of a diverse fermentable-fibre strategy. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+[2] Redondo-Cuenca et al. (2023). [Nutritional composition of green asparagus (Asparagus officinalis L.), edible part and by-products, and assessment of their effect on the growth of human gut-associated bacteria](/docs/papers/BRAIN-Diet-References#redondo_cuenca_asparagus_2023). Confirms the same spear-versus-root pattern: inulin 1.30 g/100 g dry matter in edible spear versus 16.18 g/100 g in root, with DP3/DP4 oligosaccharides in root only.

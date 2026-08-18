@@ -10,18 +10,59 @@ Each food page has **three distinct layers**. They must stay aligned but do **no
 
 | Layer | Purpose | Rules |
 |-------|---------|--------|
-| **1. Overview** | Concise, researched narrative identifying the food’s important nutrients and active compounds. This is the qualitative/headline layer. | Selective. Not a chemistry dump. Mention only the most important compounds driving biological identity. Headline compounds that are not yet in the nutrition table must be flagged for verification; they must not become Substances cards or canonical substance pages until admitted through the table. |
-| **2. Database nutrition table** | Quantitative composition table, primarily from USDA, supplemented by specialist databases or food-specific literature for compounds USDA does not capture. | Authoritative compositional evidence. Supplementary rows may be quantitative or qualitative with food-specific provenance and an asterisk. A table row is **not** a BRS mapping. Mere database detection, especially at trace levels, does not automatically justify a Substances card. |
-| **3. Substances list** | A meaningful structural list that mirrors the validated contents of the Overview and composition table, linking those entities into the canonical substance ontology. | Every Substances card **must** resolve to a supported nutrition-table row. Not every nutrition-table row requires a Substances card. Cards are not a substitute for table inclusion and are not BRS mappings. |
+| **1. Overview** | Concise, researched narrative of what is distinctive about the food — characteristic substances and chemical forms, distinctive composition, matrix or preparation, formulation, antinutrients/bioavailability, or practical culinary role. Do not repeat generic nutrient biology. Recipe usefulness is a sufficient reason for the page to exist. Follow the **Overview editorial standard** below. | Selective. Not a chemistry dump. Mention macros or micronutrients only when they materially characterise the food, with values consistent with the rendered table. Headline identity compounds that are not yet in the **rendered** nutrition table must be flagged for verification or placed on the research queue; they must not become Substances cards or canonical substance pages until admitted through the rendered table. Pairings, comparisons, generic mechanisms, and downstream outcomes are not identity constituents. Culinary-support foods may be described neutrally without manufactured physiological importance. |
+| **2. Database nutrition table** | The **rendered** composition table from whichever valid representation the page uses: standard `nutrition_per_100g`, authorised/specification rows, and/or explicit qualitative supplementary rows. | Authoritative compositional evidence for what the reader can see. A populated USDA-shaped `nutrition_per_100g` block is not universally required. An empty `nutrition_per_100g: {}` is compatibility only and is not the compositional source. Rows may be quantitative or explicit qualitative, with food-specific provenance. A table row is **not** a BRS mapping. Mere database detection, especially at trace levels, does not automatically justify a Substances card. Hidden/internal records do **not** satisfy card admission. Every rendered Substance card must resolve to a rendered row in the representation actually used. |
+| **3. Substances list** | The **rendered** structural list that mirrors the validated, meaningful union of Overview identity and the rendered table, linking those entities into the canonical substance ontology. | Every rendered Substances card **must** resolve to a corresponding **rendered** quantitative or explicit qualitative table row. Not every nutrition-table row requires a Substances card. Cards are not a substitute for table inclusion and are not BRS mappings. |
 
 **Summary:**
 
-- **Overview** selects what is meaningful.
+- **Overview** selects what is meaningful and distinctive about *this food*.
 - **Database nutrition table** establishes compositional evidence.
 - **Substances list** structurally mirrors the validated, meaningful union.
 - A canonical substance page may be created only after that entity has been validly admitted to the food’s reconciled Substances layer.
+- General substance biology belongs on Substance pages and, where relevant, the future Food BRS Matrix — not as repeated generic biology on every food that contains the nutrient.
 
-These three layers are the **only** “Three Sources of Truth” for food pages. Composition and provenance classes in `system/food-nutrition-schema.md` describe how table values are sourced; they do not rename or replace this model.
+These three **rendered** layers are the **only** “Three Sources of Truth” for food pages. Composition and provenance classes in `system/food-nutrition-schema.md` describe how table values are sourced; the Intrinsic / Mechanism / Strategy model describes where a claim belongs. Neither of those models may be labelled the Three Sources of Truth, and neither replaces this page-layer model.
+
+---
+
+## Overview editorial standard
+
+**Food Overviews communicate food identity, distinctive characteristics and practical interpretation in plain language. They synthesise evidence rather than reproducing nutrient tables, trial reports or reconciliation notes. Quantitative composition belongs in tables; study detail belongs in evidence annotations; general mechanisms belong on Substance pages or in the Food BRS Matrix.**
+
+This is the canonical Overview rule. `system/food-page-schema.md` and food-page Cursor rules point here; they must not restate it at length.
+
+An Overview should answer three questions without requiring the reader to interpret units, biomarkers, trial designs or nutritional biochemistry:
+
+1. What is this food?
+2. What genuinely distinguishes it nutritionally, chemically or structurally?
+3. How does it fit practically within a BRAIN-aligned dietary pattern?
+
+Usually use two short paragraphs: food identity and distinctive composition, then concise evidence-based interpretation and practical role. Aim for about 60–110 words where the food warrants it. Simple culinary-support foods may be shorter. Do not lengthen a page to meet a template. Word count is editorial guidance, not a validation gate.
+
+Do not put in the Overview by default: per-100 g quantities already shown in the table; trial doses or intervention durations; detailed comparators; long outcome lists; dry-weight versus fresh-weight calculations; study methods or reconciliation history; repeated generic nutrient mechanisms; reference-by-reference narration; or internal qualifications that can be one plain sentence. Include a number only when it is necessary to distinguish formulations, edible parts, serving instructions or prevent a material misunderstanding.
+
+Synthesise multiple studies into one accurate conclusion. Keep scope and causality accurate: the food itself, a constituent rather than the whole food, a preparation method, a substitution, or a root, extract, supplement or formulation that is not equivalent to the food normally eaten. Do not turn those distinctions into a methods paragraph.
+
+Pairing *how-to* belongs in the Essential Amino Acid Profile or Food Context. Overview may include one plain-language protein-quality interpretation when that is part of practical dietary role.
+
+**Calibration example (Almonds).** Subsequent letter batches should match this register, not the length or citation count:
+
+> Almonds are a nutrient-dense source of **vitamin E**, magnesium, fibre, unsaturated fats and plant protein. Human feeding studies suggest that substituting almonds for refined snack foods can improve blood-lipid and post-meal glucose responses while supporting satiety [1–3].
+>
+> Within a BRAIN-aligned pattern, almonds are a practical whole-food snack or meal component. Their protein is relatively low in lysine, so almonds should contribute to a varied protein pattern rather than be treated as a complete protein source [4].
+
+---
+
+## Food-index descriptions
+
+**Food-index descriptions provide stable, plain-language food identity. They do not summarise studies, mechanisms, evidence disputes or reconciliation decisions.**
+
+This is the canonical index-description rule. The Foods Index renders each food’s YAML `description` field. Do not add a second index field. `system/food-page-schema.md` and food-page Cursor rules point here; they must not restate it at length.
+
+An index description should identify the food in one short phrase, name only its most characteristic nutritional features, remain understandable to a general reader, and normally fit on one line. A genuinely distinctive compositional feature may appear; study findings, outcome claims, trial language, methodological qualifications, reconciliation history, and USDA or source caveats belong on the food page.
+
+Index links use site-relative documentation paths. Localhost URLs are acceptable only as resolved preview output; they must not be stored as absolute source links.
 
 ---
 
@@ -29,24 +70,27 @@ These three layers are the **only** “Three Sources of Truth” for food pages.
 
 The governing consistency rule is:
 
-**Overview → quantitative verification → substance inclusion**
+**Overview → compositional verification → substance inclusion**
 
 More precisely:
 
-1. If a compound appears in the Overview but not the core database, that does **not** automatically justify a new substance page.
-2. Its presence must trigger a wider search of specialist composition databases or food-specific literature (Script B review queue; curated provenance dataset before application).
-3. If verified, it is added to the nutritional table with an asterisk and source beneath the table.
-4. It is then added to the food’s Substances list.
-5. If that admitted substance lacks a canonical substance page, the missing page may then be proposed (not silently created).
-6. Unsupported Overview claims must be removed or appropriately qualified; they must not generate Substances cards or canonical substance pages.
-7. Values must never be copied from a related food (e.g. walnuts → almonds).
+1. If an **identity** compound appears in the Overview but not the rendered table, that does **not** automatically justify a new substance page or an invented row.
+2. Its presence must trigger compositional verification of **this food** (USDA richest mapped panel, specialist databases, or food-specific literature). Do not copy a related food.
+3. If verified with a defensible quantity, add it to the **rendered** nutritional table (asterisk and source for supplementary rows).
+4. If presence is evidenced but a comparable per-100 g quantity is unavailable, a qualitative rendered row with explicit status and food-specific provenance may establish presence. Lack of a per-100 g number does not automatically prevent later ontology admission.
+5. After a rendered table row exists, the compound may be **considered** for the Substances list. Admission is editorial: compositional presence alone is insufficient. Decide whether the food–substance relationship merits ontology admission **before** treating a missing canonical page as a blocker.
+6. If an admitted substance lacks a canonical substance page, create or propose that page as a **deliberate ontology task**. Reconciliation scripts must **not** automatically create Substance pages, but a merited card must not be declined solely because the page does not yet exist.
+7. Unsupported Overview quantities must be removed. Credible but unresolved identity constituents enter an explicit research queue; they must not generate invented rows or cards.
+8. Values must never be copied from a related, substitute, or superficially similar food (e.g. walnuts → almonds; canola → algal oil).
 
 **Enforced direction:**
 
-- Every Substances card must resolve to a supported nutrition-table row.
-- Not every nutrition-table row requires a Substances card.
+- Every rendered Substances card must resolve to a corresponding rendered quantitative or explicit qualitative table row.
+- A hidden/internal composition record does not satisfy that requirement.
+- Not every nutrition-table row requires a Substances card. Ordinary background nutrients should generally remain table-only. Internal records may be retained for provenance and future use without appearing publicly.
 - Mere database detection, especially at trace levels, does not automatically justify ontology inclusion.
-- Every compound presented as a headline component in the Overview must either resolve to a supported table row or be flagged for verification.
+- Cards represent selective food-identity or BRAIN-relevant constituents, not a chemistry dump.
+- Every compound presented as a headline **identity** constituent in the Overview must either resolve to a rendered table row or be placed on the research queue with a precise state (not a generic Overview → table gap when a qualitative row already evidences presence).
 
 ---
 
@@ -75,6 +119,8 @@ Violating these boundaries causes downstream metabolites and strategy advice to 
 
 3. **Pairing and complementarity**  
    Amino acid pairing, “pair with X”, and complementarity advice belong in the **Essential Amino Acid Profile** (pairing strategy) or **Food Context** (Synergies, Serving) / Recipes, not in the Overview as if they were intrinsic substances.
+
+**Food BRS Matrix (deferred):** Mechanistic content must not be deleted from food pages before a Food BRS Matrix destination is defined. That schema will be designed after A-food reconciliation. Do not treat this note as a Matrix specification.
 
 **Validation:** Generation or edits must fail or be flagged if:
 - A downstream metabolite (e.g. SCFAs, butyrate, propionate, acetate, serotonin, GABA from precursors) is proposed as a food substance or tag for that food.
@@ -118,12 +164,88 @@ Do **not** copy a value from a related food (e.g. walnuts → almonds).
 
 ---
 
+## Visible-layer consistency
+
+The Three Sources of Truth are **rendered** layers.
+
+- Every rendered Substance card requires a corresponding **rendered** quantitative or explicit qualitative table row.
+- A hidden or internal composition record (`internal-only`, untagged micronutrient/bioactive stored for algorithms) does **not** satisfy that requirement.
+- Not every rendered table row requires a Substance card.
+- Internal records may be retained for provenance and future use without appearing publicly.
+- Ordinary background nutrients should generally remain table-only.
+
+## Substance admission
+
+Compositional presence alone is insufficient for a Substance card. Cards represent selective food-identity or BRAIN-relevant constituents, not a chemistry dump.
+
+- Trace detection does not automatically admit a card.
+- A missing canonical Substance page may be proposed only after the food–substance relationship is verified **and** editorially admitted.
+- Reconciliation scripts (`nutrition:reconcile-layers`, `audit-food-page-layers`) must **not** automatically create Substance pages.
+
+## Overview identity constituents
+
+Important identity constituents named in the Overview trigger compositional verification. Verified constituents enter the **rendered** table before the Substances list.
+
+- Unsupported quantities must be removed.
+- Credible but unresolved identity constituents enter an explicit research queue; they do not generate invented rows or cards.
+- Numerical Overview and Key Nutritional Highlights statements must match the rendered table and its displayed rounding.
+- Mention fibre, protein, fat, carbohydrate, vitamins, and minerals in Overview only when they materially characterise the food. Do not repeat their general biology; the rendered table already establishes ordinary composition.
+- Not every chemical noun in an Overview is an identity constituent. Pairings, comparisons, generic mechanisms, and downstream outcomes must be classified separately (Intrinsic / Mechanism / Strategy). Distinctive matrix, preparation, formulation, or culinary role may be named in Overview without becoming a recipe.
+
+## Qualitative evidence
+
+A supported qualitative table row can establish **presence** when a defensible comparable quantity is unavailable.
+
+- Lack of a per-100 g quantity does not automatically prevent later ontology admission or creation of a Substance page.
+- The row must include explicit status and food-specific provenance.
+- A supported qualitative row must **not** continue to be reported as an Overview → table gap.
+
+## Chemical-form precision
+
+Parent compounds, aglycones, glycosides, and derivatives must not be treated as interchangeable.
+
+- A parent-aglycone card may be used only when the **food-specific** card caption (`substance_card_captions`) and table notes state the actual form present.
+- Food-specific wording must not be inserted into the generic Substance page description where it would incorrectly propagate to other foods.
+- Example: aubergine may link to Delphinidin only as the parent aglycone of glycosides including nasunin; it must not imply the presence of free delphinidin.
+
+## Variable and formulated products
+
+Do not assign values from a substitute or superficially similar USDA food.
+
+- When a food category varies by species, strain, or formulation, represent source-specific specifications rather than inventing a universal average.
+- Distinct formulations must be visibly distinguished.
+- Product-label dosage must not be presented as universal per-100 g composition.
+- Example: DHA-rich algal oils and combined EPA/DHA algal oils are separate formulations; EPA must not be represented as universal to algal oil. Do not use canola or another oil as a USDA proxy.
+
+## Research-queue states
+
+Letter and enrichment queues must label remaining work precisely. Distinguish:
+
+| State | Meaning |
+|-------|---------|
+| Presence unresolved | Named as an identity constituent; no rendered quantitative or qualitative row yet. This is the only state that is an Overview → table gap. |
+| Presence resolved, quantity unresolved | A supported qualitative row (or authorised specification) evidences presence; no defensible comparable quantity/range. |
+| Quantity resolved, ontology admission unresolved | A rendered row exists; editorial judgement has not yet admitted a card. |
+| Parent/derivative mapping unresolved | The food contains a glycoside or derivative; a parent-aglycone link is used or proposed, and the actual form is not yet fully mapped. |
+| Canonical Substance page absent | The food–substance relationship is admitted (or proposed) but no canonical page exists. Propose the page; do not auto-create it. |
+| Scope or formulation ambiguity | The named entity is a pairing, mechanism, class term, or formulation-specific constituent, not a universal intrinsic of the food. |
+
+A supported qualitative row must not continue to appear as an Overview → table gap. Example: aubergine nasunin presence is resolved by `Present as glycosides (nasunin)`; remaining work is quantity/ontology, not a missing table row.
+
+These letter-audit reconciliation states are a **different enum** from Script B’s evidence-verification decisions (`verified` / `unsupported` / `ambiguous` / `requires-review`). The two enums describe different stages and remain separate for now. They should eventually have an explicit mapping; they do not need to become one enum.
+
+Letter-audit **editorial records** (role, meaningful reference count, evidence type, distinctive story or inclusion reason, missing research, material destined for a Substance page or future BRS Matrix, recommended depth) are a **third** schema. They do not replace Script B or reconciliation states, do not change reference rendering, and must not be pre-filled as a way to begin the next letter batch. See `system/food-page-letter-audit-schema.md`.
+
+Citation correctness (exact-key BibTeX join) and citation relevance (does this paper evidence *this food*) are separate checks.
+
+---
+
 ## Relationship Between the Three Layers (Final)
 
-- **Overview** identifies important compounds.
-- **Database nutrition table** records verified composition (primary USDA panel plus curated supplementary rows with asterisk and source).
-- **Substances list** mirrors the validated, meaningful union: cards only for compounds that already have a supported table row.
-- **Expansion rule:** Overview-only compounds trigger verification, then table admission, then Substances admission — never cards without a row, never invented numbers, never values copied from a related food.
+- **Overview** identifies what is distinctive about the food (characteristic substances, composition, matrix/preparation, or honest culinary-support role — not every chemical noun, and not generic nutrient biology).
+- **Database nutrition table** records verified **rendered** composition from at least one valid representation: a populated `nutrition_per_100g` panel, authorised/specification rows, and/or supported qualitative supplementary rows. A populated USDA-shaped `nutrition_per_100g` block is not the universal requirement.
+- **Substances list** mirrors the validated, meaningful union: cards only for compounds that already have a **rendered** table row.
+- **Expansion rule:** Overview-only identity compounds trigger verification, then table admission, then editorial Substances admission — never cards without a rendered row, never invented numbers, never values copied from a related or substitute food.
 
 ---
 
@@ -131,9 +253,15 @@ Do **not** copy a value from a related food (e.g. walnuts → almonds).
 
 Add `## Key Nutritional Highlights` immediately after `## Overview` on food pages.
 
-Purpose:
-- Provide a fast, decision-relevant summary of the food's key nutritional characteristics.
-- Include both major advantages and relevant constraints in neutral scientific language.
+Highlights are concise, selective public takeaways — not an evidence table and not a fourth Source of Truth. They must not inherit trial-log detail removed from Overviews. Almonds is the calibration example.
+
+Keep a Highlight when it communicates a distinctive nutritional characteristic; an important food-specific finding in plain language; a practical preparation or substitution point; or a material qualification needed to prevent misunderstanding.
+
+Do not put in Highlights: intervention doses and durations; detailed comparator descriptions; lists of related biomarkers; study methods; or composition figures already clear in the nutrition table, unless the figure is genuinely useful to interpretation.
+
+When a Highlight does cite a quantity, it must match the **rendered** nutrition table and its displayed rounding (almonds table: protein 21.2 g, fibre 12.5 g, calcium 269 mg). Those figures belong in the table; almonds Highlights do not repeat them.
+
+**Reference annotations** may append a concise food-relevant finding to the Author (Year) and linked-title core: study population or design, food dose, duration, comparator, principal outcome, analytical or preparation finding, or an important scope limitation. Do not lead with dietary advice. Do not duplicate that trial detail in Overview or Highlights. Annotations must describe only the exact cited paper and continue to resolve through the bounded exact-key BibTeX resolver.
 
 Formatting:
 - 3-6 bullets only.
@@ -155,10 +283,12 @@ Do NOT include:
 - comparisons to obviously inferior baselines (e.g., "better than refined grains"),
 - general macronutrient statements that add no differentiation (e.g., "provides carbohydrates"),
 - properties common to essentially all foods in the category (e.g., "low in saturated fat" for most plant foods),
-- preparation or processing effects (these belong in Food Context / Preparation).
+- recipe method dumps (detailed preparation belongs in Food Context). Culinary-support pages may note culinary role.
 
 Every bullet should be answerable as:
 - "What is uniquely or meaningfully characteristic about this food in the context of the BRAIN Diet?"
+
+Culinary-support foods may answer that with culinary role. Do not invent a neurological or mechanistic bullet to fill the list.
 
 ### Processing vs Food Identity Rule
 
@@ -167,12 +297,14 @@ Do not conflate intrinsic food properties with processing effects.
 - Intrinsic properties (nutrients, amino acids, micronutrients) belong in:
   - Overview
   - Key Nutritional Highlights
-- Processing-related effects belong in:
+- Detailed processing method belongs in:
   - Food Context
   - Preparation
 
 Highlights may include neutral phrasing such as:
 - "Nutritional profile depends on processing method."
+
+Preparation that *is* the food’s distinctive chemistry may be summarised in Highlights; the method stays in Food Context.
 
 Avoid implying a whole food is harmful based only on specific processed forms.
 
@@ -448,10 +580,11 @@ Avoid listing all nine EAAs unless in a detailed table.
 
 ## Implementation Checklist
 
-- [ ] Overview is concise and selective; key bioactives only.
-- [ ] Database nutrition table is populated from structured sources; no invented values.
-- [ ] Every compound in the table appears in the substances list.
-- [ ] Overview-mentioned compounds missing from the table trigger evidence search and are added with asterisk + source note.
+- [ ] Overview is concise and selective; identity constituents only; numbers in Overview/Highlights match rendered-table rounding. Culinary-support pages may stay short and must not manufacture biological importance.
+- [ ] Database nutrition table is populated from structured, food-specific sources; no invented values; no substitute USDA foods.
+- [ ] Every **rendered** Substances card has a corresponding **rendered** quantitative or explicit qualitative table row. A hidden/internal record does not count.
+- [ ] Not every table row requires a Substances card. Ordinary background nutrients generally remain table-only.
+- [ ] Overview-mentioned identity compounds missing from the rendered table trigger verification or an explicit research-queue state; they are not invented into rows or cards.
 - [ ] Animal foods: no full amino-acid dump; use `protein_profile_note` by default.
 - [ ] Plant foods: use `amino_acid_strengths`, `limiting_amino_acids`, `complementary_pairings` where useful.
 - [ ] **Truth layers:** Only intrinsic food compounds in substances/tags; no downstream metabolites (e.g. SCFAs) as food substances.
@@ -483,16 +616,20 @@ Food pages list references as markdown links to the global bibliography: `/docs/
 2. **The entry must appear on the rendered page.** The BRAIN-Diet-References page deduplicates entries by DOI, URL, or title+year+author. If another entry has the same DOI or URL, only one is shown (the one with higher “metadata score”); the visible entry’s anchor is its citation key. So a key in the .bib is necessary but not sufficient—the entry you link to must be the one that survives deduplication.
 3. **When adding a new BibTeX entry** that a food page will link to: ensure no other entry in the .bib shares the same DOI or URL, or your entry may be omitted from the page and the fragment link will not resolve. After adding, verify the reference appears on the references page and that the food-page link scrolls to it.
 
-**Reference line rule (required):**
-- Each entry in a food-page `## References` section starts with **`[n]`** (no bullet), then in order: **(1) explanation**, **(2) author and year**, **(3) linked paper title** — see `docs/foods/salmon-roe.md`.
-- Format: `[n] {Explanation sentence}. {Author Year}. [{Paper title}](/docs/papers/BRAIN-Diet-References#citationKey)`
+**Reference line rule:**
+- Bibliographic core: **`[n] Author(s) (Year). [linked title](#citationKey)`**.
+- Food pages may append a concise food-specific finding or trial highlight because study detail is normally omitted from the Overview.
+- Format: `[n] Author(s) (Year). [{Paper title}](/docs/papers/BRAIN-Diet-References#citationKey). Food-relevant finding.`
 - Plain-text citation lines without a bibliography link are not allowed.
-- If a claim has no bibliography anchor yet, add the BibTeX entry first, then link to that anchor from the reference line.
+- Join only by exact citation key and bounded BibTeX entry. Never borrow a neighbouring abstract.
+
+**Editorial quality (not presentation):** minimum two **relevant** references; prefer direct food, human food, characteristic-substance, preparation, or food-specific review evidence; composition-table quantities do not need papers; generic mechanism / supplement / neighbouring-food evidence is not direct food evidence. Citation correctness and citation relevance are separate. See `system/food-page-schema.md` and `system/food-page-letter-audit-schema.md`.
 
 ---
 
 ## References
 
 - Nutrition field definitions: `system/food-nutrition-schema.md`
+- Letter-audit editorial records: `system/food-page-letter-audit-schema.md`
 - Reference intakes: `system/nutrient-reference-values.md`
 - Recipe and food page structure: docs recipe and food cursor rules.

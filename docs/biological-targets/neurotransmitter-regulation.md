@@ -31,7 +31,7 @@ Maintain continuous, balanced neurotransmitter signalling across monoaminergic, 
 <!-- brs-hub-ta-research:start -->
 <div class="brs-hub-ta-research">
 
-<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-item" data-brs-fm-hub data-brs-hub-hash="adhd-evidence-and-connected-brs1-mechanisms">
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
@@ -52,13 +52,13 @@ In ADHD, neurobiology spans multiple transmitter systems rather than a single de
 
 Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic executive modulation, serotonergic emotional regulation, cholinergic substrate support, neuronal DHA incorporation, and GABA–glutamate balance each represent diet-actionable entry points within BRS1. Emotional dysregulation—frequently co-occurring with ADHD symptom patterns—may further intersect monoaminergic biology without reducing the phenotype to a single transmitter.
 
-### ADHD evidence and connected BRS1 mechanisms
+### ADHD evidence and connected BRS1 mechanisms {#adhd-evidence-and-connected-brs1-mechanisms}
 
 | Evidence | Citation | Connected mechanisms |
 | --- | --- | --- |
 | Dopaminergic dysfunction in ADHD does not support a simple global hypo-dopaminergic model; alterations vary by subtype, stage, and brain region | [MacDonald et al., 2024](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024) | [BRS1(FM1)](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function), [BRS1-FM1-PM3](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation) |
 | Meal-level amino-acid sufficiency may support catecholaminergic and serotonergic precursor pools relevant to ADHD attention pathways | [Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019) | [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
-| Tyrosine availability explored in attention-deficit contexts | [Reimherr & Ward, 1987](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987) | [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
+| A small open trial of L-tyrosine in 12 adults produced an initial response that disappeared as tolerance developed; it does not support sustained L-tyrosine supplementation for ADHD. | [Reimherr et al., 1987](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987) | [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
 | Role of serotonin in ADHD | [Oades, 2010](/docs/papers/BRAIN-Diet-References#oades_role_2010) | [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation), [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
 | Serotonin deficit susceptibility in ADHD | [Banerjee and Nandagopal, 2015](/docs/papers/BRAIN-Diet-References#banerjee_does_2015) | [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation), [PH003 — Emotional Regulation](/docs/phenomes/details/ph003-emotional-regulation) |
 | Emotion dysregulation in attention deficit hyperactivity disorder | [Shaw et al., 2014](/docs/papers/BRAIN-Diet-References#shaw_emotion_2014) | [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation), [PH003 — Emotional Regulation](/docs/phenomes/details/ph003-emotional-regulation) |

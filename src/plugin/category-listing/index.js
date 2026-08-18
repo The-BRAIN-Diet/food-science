@@ -1,3 +1,5 @@
+const siteRelativePermalink = require('../../utils/siteRelativePermalink');
+
 module.exports = async function myPlugin(context, options) {
   // ...
   return {
@@ -21,9 +23,10 @@ module.exports = async function myPlugin(context, options) {
           tagNames.forEach(tn => {
             const collection = tagToDocMap[tn] ?? [];
 
+            const permalink = siteRelativePermalink(doc.permalink);
             const shortForm = {
               title: doc.title,
-              permalink: doc.permalink,
+              permalink,
               description: doc.description,
               order: doc.sidebarPosition ?? 0,
               tags: doc.tags,
@@ -31,7 +34,7 @@ module.exports = async function myPlugin(context, options) {
             }
 
             // Check if this document is already in the collection (deduplicate by permalink)
-            const exists = collection.some(existing => existing.permalink === doc.permalink);
+            const exists = collection.some(existing => existing.permalink === permalink);
             if (!exists) {
               collection.push(shortForm);
             }

@@ -1,0 +1,9 @@
+{
+  "status": "schema_ready",
+  "do_not_begin_letter_batch": true,
+  "do_not_bulk_rewrite_pages": true,
+  "preserves_reference_display": true,
+  "schema": "system/food-page-letter-audit-schema.md",
+  "notes": "Empty until a human letter pass writes records. Schema updates must not pre-fill the next batch.",
+  "records": []
+}

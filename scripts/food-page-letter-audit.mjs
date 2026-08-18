@@ -3,11 +3,14 @@
  * Run canonical food-page validation for today's 3-letter batch (or --letters override).
  *
  * Usage:
+ *   node scripts/food-page-letter-audit.mjs --schema
  *   node scripts/food-page-letter-audit.mjs
  *   node scripts/food-page-letter-audit.mjs --schedule
  *   node scripts/food-page-letter-audit.mjs --letters A,B,C
  *   node scripts/food-page-letter-audit.mjs --date 2026-06-17
  */
+import fs from "node:fs"
+import path from "node:path"
 import {
   SCHEDULE_EPOCH,
   buildRotationTable,
@@ -18,12 +21,23 @@ import {
   titleForSlug,
 } from "./lib/food-page-letter-schedule.mjs"
 import { runCanonicalValidation, runValidation } from "./lib/food-page-validation.mjs"
+import {
+  loadFoodCitationRelevanceQueue,
+  relevanceQueueForSlugs,
+  formatRelevanceQueueForAudit,
+} from "./lib/food-citation-relevance-queue.mjs"
+import {
+  EDITORIAL_AUDIT_RECORDS_REL,
+  formatEditorialSchemaSummary,
+  RELEVANCE_QUEUE_TO_EVIDENCE_TYPE,
+} from "./lib/food-page-letter-audit-schema.mjs"
 
 function parseArgs(argv) {
-  const out = { schedule: false, letters: null, date: null, foodsDir: "docs/foods" }
+  const out = { schedule: false, schema: false, letters: null, date: null, foodsDir: "docs/foods" }
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i]
     if (a === "--schedule") out.schedule = true
+    else if (a === "--schema") out.schema = true
     else if (a === "--letters" && argv[i + 1]) out.letters = argv[++i].split(",").map((s) => s.trim().toUpperCase())
     else if (a === "--date" && argv[i + 1]) out.date = argv[++i]
     else if (a === "--foods-dir" && argv[i + 1]) out.foodsDir = argv[++i]
@@ -47,8 +61,36 @@ function auditSlugs(foodsDir, slugs) {
   return { canonicalFailures, baselineMissingEaa }
 }
 
+function loadFilledEditorialRecords(root = process.cwd()) {
+  const abs = path.join(root, EDITORIAL_AUDIT_RECORDS_REL)
+  if (!fs.existsSync(abs)) return { records: [], missing: true }
+  const data = JSON.parse(fs.readFileSync(abs, "utf8"))
+  return { ...data, records: Array.isArray(data.records) ? data.records : [], missing: false }
+}
+
+function formatFilledEditorialRecords(slugs, store) {
+  const set = new Set(slugs)
+  const filled = (store.records || []).filter((row) => row.filled && set.has(row.slug))
+  if (!filled.length) return ""
+  const lines = ["Filled editorial records (read-only this pass; do not bulk-rewrite pages):", ""]
+  for (const row of filled) {
+    lines.push(
+      `  ${row.slug}: role=${row.role} depth=${row.recommended_depth} meaningful_refs=${row.meaningful_reference_count}`,
+    )
+  }
+  lines.push("")
+  return lines.join("\n")
+}
+
 function main() {
-  const { schedule, letters, date, foodsDir } = parseArgs(process.argv.slice(2))
+  const { schedule, schema, letters, date, foodsDir } = parseArgs(process.argv.slice(2))
+
+  if (schema) {
+    console.log(formatEditorialSchemaSummary())
+    console.log("")
+    console.log("This flag does not rewrite food pages and does not begin a letter batch.")
+    return
+  }
 
   if (schedule) {
     console.log(formatScheduleSummary(SCHEDULE_EPOCH))
@@ -68,6 +110,8 @@ function main() {
   console.log(`\n--- Food page letter audit (${dateLabel}) ---\n`)
   console.log(`Epoch: ${SCHEDULE_EPOCH} | Cycle day ${dayIndex + 1}/9 | Letters: ${batchLetters.join(", ")}`)
   console.log(`Pages in batch: ${slugs.length}\n`)
+  console.log(formatEditorialSchemaSummary())
+  console.log("Canonical validation only. Editorial records stay unfilled unless a letter pass wrote them. Do not begin the next letter batch from this run.\n")
 
   if (slugs.length === 0) {
     console.log("No food pages match these letters.")
@@ -78,6 +122,24 @@ function main() {
     console.log(`- ${titleForSlug(foodsDir, slug)} (${slug})`)
   }
   console.log("")
+
+  const relevanceQueue = loadFoodCitationRelevanceQueue()
+  if (!relevanceQueue.missing) {
+    const queued = relevanceQueueForSlugs(slugs, relevanceQueue)
+    const block = formatRelevanceQueueForAudit(queued)
+    if (block) {
+      console.log(block)
+      const mapped = [...new Set(queued.map((item) => RELEVANCE_QUEUE_TO_EVIDENCE_TYPE[item.class]).filter(Boolean))]
+      if (mapped.length) {
+        console.log(`Mapped evidence types (relevance only; not join errors): ${mapped.join(", ")}`)
+        console.log("")
+      }
+    }
+  }
+
+  const editorialStore = loadFilledEditorialRecords()
+  const filledBlock = formatFilledEditorialRecords(slugs, editorialStore)
+  if (filledBlock) console.log(filledBlock)
 
   const { canonicalFailures, baselineMissingEaa } = auditSlugs(foodsDir, slugs)
 

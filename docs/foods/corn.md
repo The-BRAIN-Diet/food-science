@@ -92,7 +92,7 @@ Within the BRAIN Diet framework, corn is a whole-grain/starchy vegetable contrib
 
 ## References
 
-[1] A previous systematic review revealed that lutein intake leads to improved cognitive function among older adults. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+[1] Narrative review of lutein and zeaxanthin in visual and cognitive function across the lifespan. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
 
 [2] A previous systematic review revealed that lutein intake leads to improved cognitive function among older adults. Yagi & Nouchi 2021. [Lutein Has a Positive Impact on Brain Health in Healthy Older Adults: A Systematic Review of Randomized Controlled Trials and Cohort Studies](/docs/papers/BRAIN-Diet-References#yagi_lutein_2021)
 
@@ -100,6 +100,6 @@ Within the BRAIN Diet framework, corn is a whole-grain/starchy vegetable contrib
 
 [4] Reports selective accumulation of lutein in neural tissues and relevance to brain carotenoid status. Vishwanathan & Kuchan 2014. [Lutein is the predominant carotenoid in infant brain](/docs/papers/BRAIN-Diet-References#vishwanathan_lutein_2014)
 
-[5] Neurological, neurodegenerative, and psychiatric disorders represent a serious burden because of their increasing prevalence, risk of disability, and the lack of effective causal/disease-modifying treatments. Kindel & Lee 2010. [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
+[5] The mechanism of the formation and secretion of chylomicrons. Kindel et al. 2010. [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
 
-[6] Neurological, neurodegenerative, and psychiatric disorders represent a serious burden because of their increasing prevalence, risk of disability, and the lack of effective causal/disease-modifying treatments. Brown & Ferruzzi 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+[6] Reports on carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection. Brown et al. 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)

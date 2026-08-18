@@ -2,9 +2,7 @@
 id: aubergine
 title: Aubergine
 sidebar_label: Aubergine
-description: >-
-  Low-energy vegetable with fibre, potassium, and polyphenols (incl. nasunin in
-  purple skin)
+description: Fibre-containing vegetable with chlorogenic acid and nasunin in its purple skin
 tags:
   - Food
   - Aubergine
@@ -64,37 +62,52 @@ nutrition_supplementary_sources:
     notes: >-
       Parent aglycone; present principally as glycosides including nasunin.
     source_note: >-
-      Phenol-Explorer / flavonoid literature describe nasunin
-      (delphinidin-3-(p-coumaroylrutinoside)-5-glucoside) in purple aubergine
-      peel. USDA SR Legacy does not quantify nasunin or free delphinidin. The
-      Delphinidin card is a parent/aglycone ontology link, not a claim that
-      free delphinidin is the principal pigment.
+      Noda et al. 2000 isolated nasunin
+      (delphinidin-3-(p-coumaroylrutinoside)-5-glucoside) as purple crystals
+      from eggplant peels. USDA SR Legacy does not quantify nasunin or free
+      delphinidin. The Delphinidin card is a parent/aglycone ontology link, not
+      a claim that free delphinidin is the principal pigment. Nasunin is an
+      anthocyanin glycoside, not a fat-soluble carotenoid.
+  - key: chlorogenic_acid_qual
+    label: Chlorogenic Acid
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    public_display: table
+    notes: >-
+      Major phenolic of the flesh, including white cultivars without nasunin.
+    source_note: >-
+      Plazas et al. 2013 identify chlorogenic acid (5-O-caffeoylquinic acid) as
+      typically 80–95% of hydroxycinnamic acids in eggplant flesh. USDA SR
+      Legacy (Eggplant, raw; FDC 169228) does not quantify chlorogenic acid.
+      Cultivar and cooking ranges are too wide for a single per-100 g USDA-style
+      number. This row records presence, not a Substances card.
 substance_card_captions:
   Delphinidin: Parent aglycone; present principally as glycosides including nasunin.
 ---
 ## Overview
 
-Aubergine (eggplant) provides anthocyanin pigments in purple peel — principally **nasunin**, an acylated glycoside whose parent aglycone is [Delphinidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/delphinidin) — and fibre at low energy density [1]. Nasunin is not interchangeable with free delphinidin; the food contains glycosides, not the isolated anthocyanidin.
+Aubergine (eggplant) is a low-calorie vegetable with two distinct polyphenol identities. Purple peel contains **nasunin**, an anthocyanin whose parent aglycone is [Delphinidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/delphinidin) [1]. The flesh — including white cultivars without purple pigment — is rich in **chlorogenic acid** [2].
 
-Within the BRAIN Diet framework, aubergine is a low-calorie vegetable used for fibre and polyphenol variety; food-derived phenolics can shape gut microbiota composition and metabolite profiles that intersect with neurotransmitter biology [2].
+Within the BRAIN Diet, aubergine adds fibre and polyphenol variety. Cultivar and cooking change how much chlorogenic acid is retained [3]. Nasunin is a peel pigment, not a fat-soluble carotenoid, and is not interchangeable with free delphinidin.
 
 ## Key Nutritional Highlights
 
-- Peel pigment is **nasunin** (a delphinidin glycoside), not free delphinidin; quantity is not in the USDA SR Legacy panel [1].
-- Low energy density (25 kcal per 100 g) with fibre 3.0 g per 100 g; typical culinary portions are smaller than table values imply.
-- Polyphenol-class vegetable supporting diverse plant-food intake rather than a single-nutrient role [2].
-- Pairs with dietary fat in mixed meals to support absorption of co-ingested fat-soluble phytonutrients [1].
+- Flesh is rich in **chlorogenic acid**, including white cultivars without purple peel [2].
+- Purple peel contains **nasunin**, a delphinidin glycoside, not free delphinidin [1].
+- Cooking and cultivar change how much chlorogenic acid is retained [3].
+- Low-energy vegetable; typical culinary portions are smaller than table values imply.
+
 ## Food Context
 
 ### Synergies
 
-- Roasting or grilling with a modest amount of olive oil supports flavour and fat-soluble compound extraction from the skin; avoid excessive early oil if you want a less greasy texture.
-- Pair with other vegetables and legumes for fibre diversity and gut microbial support.
+- Roasting or grilling with a modest amount of olive oil is ordinary culinary practice for flavour and texture. Nasunin is an anthocyanin, not a fat-soluble carotenoid, and dietary fat is not cited here as improving nasunin extraction or absorption.
 
 ### Preparation
 
-- Salting or resting sliced aubergine is optional; modern cultivars are often less bitter than older types.
-- Cooking softens flesh and reduces oxalic acid concern for most diets; nutrient panels here are for raw flesh as in USDA reference data.
+- Salting or resting sliced aubergine is optional; modern cultivars are often less bitter than older types. Pre-processing (cutting, blanching, salting) can reduce measured antioxidant capacity, more so in some purple fruit [3].
+- Wet cooking (steaming, boiling, pressure cooking) can increase chlorogenic acid extractability; hot-air and sun-drying can almost deplete it. White and purple cultivars do not retain chlorogenic acid equally [3].
+- Nutrient panels here are for raw flesh as in USDA reference data.
 
 ## Recipes
 
@@ -108,6 +121,8 @@ Within the BRAIN Diet framework, aubergine is a low-calorie vegetable used for f
 
 ## References
 
-[1] Peel pigment is **nasunin** (a delphinidin glycoside), not free delphinidin; quantity is not in the USDA SR Legacy panel. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+[1] Noda et al. (2000). [Antioxidant activity of nasunin, an anthocyanin in eggplant peels](/docs/papers/BRAIN-Diet-References#noda_nasunin_2000). Isolated nasunin (delphinidin-3-(p-coumaroylrutinoside)-5-glucoside) from eggplant peels; this is a peel anthocyanin glycoside, not a USDA per-100 g quantity and not lutein/zeaxanthin chemistry.
 
-[2] Polyphenol-class vegetable supporting diverse plant-food intake rather than a single-nutrient role. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+[2] Plazas et al. (2013). [Breeding for Chlorogenic Acid Content in Eggplant: Interest and Prospects](/docs/papers/BRAIN-Diet-References#plazas_eggplant_cga_2013). Chlorogenic acid (5-O-caffeoylquinic acid) is typically 80–95% of hydroxycinnamic acids in eggplant flesh, including cultivars without purple-peel nasunin; not a USDA per-100 g quantity.
+
+[3] Zaro et al. (2015). [Chlorogenic acid retention in white and purple eggplant after processing and cooking](/docs/papers/BRAIN-Diet-References#zaro_eggplant_cga_cooking_2015). White Cloud Nine and purple Lucia fruit differed in pulp chlorogenic acid; wet cooking increased extractability, while hot-air and sun-drying almost depleted it.

@@ -98,4 +98,4 @@ Within the BRAIN Diet framework, carrots are a carotenoid vegetable best used wi
 
 [3] Carotenoids implicated in neuroprotective antioxidant networks. Brown & Ferruzzi 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
 
-[4] A previous systematic review revealed that lutein intake leads to improved cognitive function among older adults. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+[4] Narrative review of lutein and zeaxanthin in visual and cognitive function across the lifespan. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)

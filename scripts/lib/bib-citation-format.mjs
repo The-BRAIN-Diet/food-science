@@ -1,6 +1,7 @@
 /**
- * Build canonical food-page reference lines from BRAIN-diet.bib metadata.
- * Canonical format (salmon-roe): `[n] {Explanation}. {Author Year}. [{Paper title}](/docs/papers/BRAIN-Diet-References#key)`
+ * Bibliographic core (project-wide): `[n] Author(s) (Year). [title](#key)`
+ * Food-page extension: optional food-relevant finding after the linked title.
+ * Previous food-page order (explanation first) remains valid for unmigrated letters.
  */
 import fs from "node:fs"
 import path from "node:path"
@@ -12,9 +13,13 @@ const BIB_PATH = path.join(__dirname, "../../static/bibtex/BRAIN-diet.bib")
 export const CANONICAL_REF_LINE_RE =
   /^\[(\d+)\]\s+\[([^\]]+)\]\(\/docs\/papers\/BRAIN-Diet-References#([a-z0-9_-]+)\)\s*$/
 
-/** Legacy single-link format or canonical explained format (explanation · author · linked title). */
+/** Previous food-page order: explanation · author year · linked title. */
 export const CANONICAL_EXPLAINED_REF_LINE_RE =
   /^\[(\d+)\]\s+(.+?)\.\s+(.+?\d{4})\.\s+\[([^\]]+)\]\(\/docs\/papers\/BRAIN-Diet-References#([a-z0-9_-]+)\)\s*$/
+
+/** Food-page extension: `[n] Author(s) (Year). [title](#key). Optional finding.` */
+export const FOOD_REFERENCE_LINE_RE =
+  /^\[(\d+)\]\s+(.+?)\s+\((\d{4})\)\.\s+\[([^\]]+)\]\(\/docs\/papers\/BRAIN-Diet-References#([a-z0-9_-]+)\)(?:\.\s+(.+))?\s*$/
 
 let bibIndexCache = null
 
@@ -71,18 +76,17 @@ export function loadBibIndex(bibPath = BIB_PATH) {
   if (bibIndexCache && bibPath === BIB_PATH) return bibIndexCache
   const bib = fs.readFileSync(path.resolve(bibPath), "utf8")
   const index = new Map()
-  const entryRe = /@\w+\{([^,]+),/g
+  const starts = []
+  const startRe = /@\w+\{[^,]+,/g
   let m
-  while ((m = entryRe.exec(bib)) !== null) {
-    const key = m[1]
-    const rest = bib.slice(m.index + 1)
-    const nextEntry = rest.search(/\n@\w+\{/)
-    const chunk =
-      nextEntry >= 0
-        ? bib.slice(m.index, m.index + 1 + nextEntry)
-        : bib.slice(m.index, m.index + 8000)
+  while ((m = startRe.exec(bib)) !== null) starts.push({ index: m.index, key: m[0].replace(/^@\w+\{/, "").replace(/,$/, "") })
+  for (let i = 0; i < starts.length; i++) {
+    // Slice only to the next @type{key, so a missing abstract cannot pick up a later entry's abstract=.
+    const start = starts[i].index
+    const end = i + 1 < starts.length ? starts[i + 1].index : bib.length
+    const chunk = bib.slice(start, end)
     const parsed = parseBibEntry(chunk)
-    if (parsed) index.set(key, { ...parsed, key })
+    if (parsed) index.set(starts[i].key, { ...parsed, key: starts[i].key })
   }
   if (bibPath === BIB_PATH) bibIndexCache = index
   return index
@@ -95,6 +99,39 @@ function mdxSafeLinkTitle(title) {
     .replace(/\\textless/g, "")
     .replace(/\\textgreater/g, "")
     .replace(/\{([^{}]*)\}/g, "$1")
+}
+
+export function formatAuthorYearParen(authorLabel) {
+  const trimmed = String(authorLabel || "").trim()
+  const already = trimmed.match(/^(.*)\s+\((\d{4})\)$/)
+  if (already) return `${keepAuthorPeriod(already[1])} (${already[2]})`
+  const m = trimmed.match(/^(.*?)(?:\s+(\d{4}))$/)
+  if (!m) return trimmed
+  return `${keepAuthorPeriod(m[1])} (${m[2]})`
+}
+
+function keepAuthorPeriod(name) {
+  const trimmed = name.trim()
+  if (/\bet al\.$/i.test(trimmed)) return trimmed
+  return trimmed.replace(/\.$/, "")
+}
+
+export function formatFoodReferenceLine(
+  n,
+  key,
+  annotation = null,
+  titleOverride = null,
+  bibIndex = loadBibIndex(),
+) {
+  const meta = bibIndex.get(key)
+  const authorYear = formatAuthorYearParen(meta?.authorLabel ?? String(key).replace(/_/g, " "))
+  const title = mdxSafeLinkTitle(titleOverride ?? meta?.title ?? key.replace(/_/g, " "))
+  const link = `[${title}](/docs/papers/BRAIN-Diet-References#${key})`
+  const core = `[${n}] ${authorYear}. ${link}`
+  if (!annotation) return core
+  const note = String(annotation).trim().replace(/\.$/, "")
+  if (!note) return core
+  return `${core}. ${note}.`
 }
 
 export function formatSalmonRoeRefLine(n, key, titleOverride = null, explanation = null, bibIndex = loadBibIndex()) {
@@ -116,22 +153,36 @@ export function formatCanonicalRefLine(n, key, bibIndex = loadBibIndex()) {
   return formatSalmonRoeRefLine(n, key, null, bibIndex)
 }
 
+export function isFoodReferenceLine(line) {
+  const trimmed = line.trim().replace(/^-\s+/, "")
+  return FOOD_REFERENCE_LINE_RE.test(trimmed)
+}
+
 export function isExplainedReferenceLine(line) {
   const trimmed = line.trim().replace(/^-\s+/, "")
-  return CANONICAL_EXPLAINED_REF_LINE_RE.test(trimmed)
+  return FOOD_REFERENCE_LINE_RE.test(trimmed) || CANONICAL_EXPLAINED_REF_LINE_RE.test(trimmed)
 }
 
 export function isCanonicalReferenceLine(line) {
   return isExplainedReferenceLine(line)
 }
 
-/** Citation numbers referenced in a prose fragment, e.g. [1], [1,2], [1][2]. */
+/** Citation numbers referenced in a prose fragment, e.g. [1], [1,2], [1][2], [1–3]. */
 export function citationNumbersInFragment(fragment) {
   const nums = new Set()
   const re = /\[([^\]]+)\]/g
   let m
   while ((m = re.exec(fragment)) !== null) {
     for (const part of m[1].split(/,\s*/)) {
+      const range = part.trim().match(/^(\d+)\s*[–-]\s*(\d+)$/)
+      if (range) {
+        const start = Number.parseInt(range[1], 10)
+        const end = Number.parseInt(range[2], 10)
+        if (!Number.isNaN(start) && !Number.isNaN(end) && end >= start) {
+          for (let n = start; n <= end; n++) nums.add(n)
+        }
+        continue
+      }
       const n = Number.parseInt(part.trim(), 10)
       if (!Number.isNaN(n)) nums.add(n)
     }
@@ -141,7 +192,7 @@ export function citationNumbersInFragment(fragment) {
 
 function stripInlineCitations(text) {
   return text
-    .replace(/\[[\d,\s]+\](?:\[[\d,\s]+\])*/g, "")
+    .replace(/\[[\d,\s–-]+\](?:\[[\d,\s–-]+\])*/g, "")
     .replace(/\s+\./g, ".")
     .replace(/\s+/g, " ")
     .trim()
@@ -200,8 +251,9 @@ export function extractCitationExplanationsFromBody(bodyBeforeRefs) {
 }
 
 export function fallbackReferenceExplanation(meta, titleOverride = null) {
-  if (meta?.abstract) {
-    let first = meta.abstract
+  const abstract = typeof meta?.abstract === "string" ? meta.abstract.trim() : ""
+  if (abstract) {
+    let first = abstract
       .replace(/\{\\textless\}p\{\\textgreater\}/gi, "")
       .replace(/\{\\textless\}\/?p\{\\textgreater\}/gi, "")
       .split(/(?<=[.!?])\s+/)[0]
@@ -216,6 +268,10 @@ export function fallbackReferenceExplanation(meta, titleOverride = null) {
   const cleaned = title.replace(/\.$/, "").trim()
   if (/^(A|An|The)\s/i.test(cleaned)) {
     return cleaned.charAt(0).toUpperCase() + cleaned.slice(1)
+  }
+  const firstWord = cleaned.split(/\s+/)[0] || ""
+  if (/^[A-Z]{2,}/.test(firstWord)) {
+    return cleaned
   }
   return `Reports on ${cleaned.charAt(0).toLowerCase()}${cleaned.slice(1)}`
 }
@@ -240,7 +296,20 @@ export function isBrokenReferenceLine(line) {
 export function parseReferenceLine(line) {
   const trimmed = line.trim().replace(/^-\s+/, "")
 
-  let m = trimmed.match(CANONICAL_EXPLAINED_REF_LINE_RE)
+  let m = trimmed.match(FOOD_REFERENCE_LINE_RE)
+  if (m) {
+    return {
+      n: Number(m[1]),
+      key: m[5],
+      titleOverride: m[4],
+      explanation: m[6] ? m[6].replace(/\.$/, "").trim() : undefined,
+      authorLabel: `${m[2].trim()} (${m[3]})`,
+      canonical: true,
+      foodExtension: true,
+    }
+  }
+
+  m = trimmed.match(CANONICAL_EXPLAINED_REF_LINE_RE)
   if (m) {
     return {
       n: Number(m[1]),
@@ -424,23 +493,29 @@ export function rebuildReferencesSectionFromBody(referencesBody, bibIndex = load
     .filter(Boolean)
     .filter((l) => !/^##\s/.test(l))
 
-  const parsed = lines.map(parseReferenceLine).filter(Boolean)
-  if (!parsed.length) return null
-
-  const refLines = parsed.map((entry, i) => {
-    if (entry.explanation && isExplainedReferenceLine(lines[i])) {
-      return lines[i].replace(/^-\s+/, "")
+  const parsedLines = lines.map((line) => ({ line, entry: parseReferenceLine(line) }))
+  const refLines = []
+  let seq = 1
+  for (const { line, entry } of parsedLines) {
+    if (!entry) continue
+    const n = entry.n ?? seq++
+    if (entry.explanation && isExplainedReferenceLine(line)) {
+      refLines.push(line.replace(/^-\s+/, ""))
+      continue
     }
-    const explanation =
-      fallbackReferenceExplanation(bibIndex.get(entry.key), entry.titleOverride)
-    return formatSalmonRoeRefLine(
-      i + 1,
-      entry.key,
-      entry.titleOverride,
-      explanation,
-      bibIndex,
+    const explanation = fallbackReferenceExplanation(bibIndex.get(entry.key), entry.titleOverride)
+    refLines.push(
+      formatSalmonRoeRefLine(
+        n,
+        entry.key,
+        entry.titleOverride,
+        explanation,
+        bibIndex,
+      ),
     )
-  })
+  }
+
+  if (!refLines.length) return null
 
   return `## References\n\n${refLines.join("\n\n")}\n`
 }

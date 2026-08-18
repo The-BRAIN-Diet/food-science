@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T17:07:26.506Z",
+  "generated_at": "2026-08-16T19:05:44.964Z",
   "read_only": true,
   "writes_food_pages": false,
   "writes_substance_pages": false,
@@ -72,8 +72,7 @@
       "overview_compounds": [
         "pectin",
         "quercetin",
-        "vitamin C",
-        "whole fruit"
+        "vitamin C"
       ],
       "substance_tags": [
         "Vitamin C",
@@ -88,7 +87,7 @@
       "finding_count": 1,
       "overview_compounds": [
         "folate",
-        "fructooligosaccharides"
+        "Fructooligosaccharides"
       ],
       "substance_tags": [
         "Vitamin B9"
@@ -115,9 +114,10 @@
       "initial": "A",
       "finding_count": 0,
       "overview_compounds": [
-        "monounsaturated-fat-rich"
+        "oleic acid"
       ],
       "substance_tags": [
+        "Oleic Acid",
         "Vitamin E",
         "Potassium",
         "Lutein",
@@ -131,9 +131,10 @@
       "initial": "A",
       "finding_count": 0,
       "overview_compounds": [
-        "monounsaturated-fat"
+        "oleic acid"
       ],
       "substance_tags": [
+        "Oleic Acid",
         "Vitamin E"
       ]
     }
@@ -168,8 +169,8 @@
       "food": "Asparagus",
       "slug": "asparagus",
       "class": "Overview → table gap",
-      "entity": "fructooligosaccharides",
-      "evidence": "Named in Overview with no supported table row. Asparagus provides **folate** (vitamin B9), **fructooligosaccharides** (FOS), and fibre in a low-calorie vegetable matrix. B-vitamins including fola",
+      "entity": "Fructooligosaccharides",
+      "evidence": "Named in Overview with no supported table row. (vitamin B9) and fibre in a low-calorie vegetable matrix. **Fructooligosaccharides** (FOS) are often attributed to asparagus, but a food-specific analytical quant",
       "proposed_resolution": "Verify in USDA or food-specific literature for this food only. If supported, add a quantitative or qualitative table row with provenance, then consider a card. Do not copy a related food. Do not create a card or page from the mention alone.",
       "confidence": "low",
       "confidence_scope": "audit_finding_only"

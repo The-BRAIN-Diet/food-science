@@ -13,6 +13,18 @@ function isLinoleicName(name) {
   return name.includes("n-6 c,c") || name.includes("18:2 n-6") || name === "pufa 18:2"
 }
 
+/** Prefer cis n-9 oleic; never trans 18:1. */
+function isOleicName(name) {
+  if (!name.includes("18:1")) return false
+  if (name.includes("trans") || /\b18:1 t\b/.test(name)) return false
+  return (
+    name.includes("n-9") ||
+    name.includes("oleic") ||
+    name === "mufa 18:1" ||
+    name === "18:1"
+  )
+}
+
 export function extractNutrients(food) {
   const out = {}
   const nutrients = food.foodNutrients || []
@@ -114,6 +126,11 @@ export function extractNutrients(food) {
     if (isLinoleicName(name) && (unit === "g" || unit === "mg")) {
       const grams = unit === "mg" ? amount / 1000 : amount
       if (out.linoleic_g == null || name.includes("n-6")) out.linoleic_g = grams
+      continue
+    }
+    if (isOleicName(name) && (unit === "g" || unit === "mg")) {
+      const grams = unit === "mg" ? amount / 1000 : amount
+      if (out.oleic_g == null || name.includes("n-9")) out.oleic_g = grams
       continue
     }
     if ((name.includes("epa") || name.includes("20:5 n-3")) && (unit === "g" || unit === "mg")) {

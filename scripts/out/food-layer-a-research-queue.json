@@ -1,22 +1,36 @@
 {
   "generated_at": "2026-08-16",
   "scope": "Displayed-name A foods",
-  "status": "open_research_queue — A foods are not a fully reconciled canonical batch until these identity compounds are resolved",
+  "status": "open_research_queue — Overview → table presence is resolved for remaining A-food identity compounds; quantity and ontology admission are still open",
   "rule": "Overview mentions of credible identity compounds trigger verification. They must not remain unresolved indefinitely, and they must not generate table rows, cards, or substance pages from the mention alone.",
   "items": [
     {
       "food": "Apples",
       "compound": "pectin",
-      "status": "requires-research",
-      "why": "Credible soluble-fibre identity. USDA SR Legacy reports total fibre 2.4 g/100 g and does not report pectin separately. The previous 3.2 g figure was unsupported for this record.",
-      "needed": "Food-specific pectin assay with unit and analytical basis for raw apple with skin, not copied from another fruit."
+      "status": "presence_resolved — remaining quantity/ontology gaps",
+      "class": "Presence resolved — remaining quantity/ontology gap",
+      "not": "Overview → table gap. Presence is already evidenced by the public qualitative row.",
+      "presence": "Resolved. Public table row: Present — quantity not established, with Liu et al. 2023 (13 apple cultivars; alcohol-insoluble, water-soluble and chelating-soluble pectin fractions, including peel and flesh). USDA SR Legacy reports total fibre 2.4 g/100 g and does not quantify pectin.",
+      "remaining_gaps": [
+        "No defensible USDA-style per-100 g pectin quantity for SR Legacy Apples, raw, with skin (FDC 171688). Cultivar and extraction-fraction yields vary, and those methods are not AOAC dietary fibre.",
+        "No canonical pectin substance page.",
+        "No Substances card: the compound is table-only, not tagged."
+      ],
+      "needed": "Keep the qualitative presence row. Do not restore the unsupported 3.2 g figure. Do not convert extracted-fraction yields into a USDA-style number. Do not create a pectin substance page from Overview mention alone."
     },
     {
       "food": "Asparagus",
-      "compound": "fructooligosaccharides (FOS)",
-      "status": "requires-research",
-      "why": "Credible prebiotic identity alongside folate. USDA SR Legacy reports total fibre 2.1 g/100 g and does not quantify FOS.",
-      "needed": "Food-specific FOS quantity or explicit qualitative status with source; do not invent a row from Overview bolding."
+      "compound": "inulin-type fructans / FOS",
+      "status": "presence_resolved — remaining quantity/ontology gaps",
+      "class": "Presence resolved — remaining quantity/ontology gap",
+      "not": "Overview → table gap. Presence of inulin-type fructans in edible spear is already evidenced by the public qualitative row.",
+      "presence": "Resolved for inulin-type fructans in edible spear. Public table row: Present — quantity not established, with Goñi et al. 2024 and Redondo-Cuenca et al. 2023 as food-specific sources. Inulin was about 1.3–1.5 g/100 g dry weight in edible spear versus about 15–16 g/100 g dry weight in root. DP3/DP4 oligosaccharides were quantified in root only.",
+      "remaining_gaps": [
+        "No defensible fresh-weight USDA-comparable FOS or inulin quantity for SR Legacy Asparagus, raw (FDC 168389). That panel reports total fibre 2.1 g/100 g only.",
+        "Short-chain FOS (DP3/DP4) are not established in the edible spear represented by the USDA table.",
+        "No canonical inulin or FOS substance page, and no Substances card is admitted from this row."
+      ],
+      "needed": "Do not convert dry-weight spear inulin into a USDA-style fresh-weight FOS number. Do not treat root-extract or by-product fructan papers as spear composition. Do not create a FOS substance page from Overview mention alone."
     },
     {
       "food": "Aubergine",
@@ -24,13 +38,27 @@
       "status": "presence_resolved — remaining quantity/ontology gaps",
       "class": "Presence resolved — remaining quantity/ontology gap",
       "not": "Overview → table gap. Presence is already evidenced by the public qualitative row.",
-      "presence": "Resolved. Public table row: Present as glycosides (nasunin) — quantity not established, with Phenol-Explorer / flavonoid literature provenance.",
+      "presence": "Resolved. Public table row: Present as glycosides (nasunin) — quantity not established, with Noda et al. 2000 eggplant-peel isolation as the food-specific source.",
       "remaining_gaps": [
         "No defensible per-100 g quantity or range (USDA SR Legacy does not quantify nasunin).",
         "No canonical nasunin substance page.",
         "Ontology admission is incomplete: the Delphinidin card is a parent-aglycone link, not a nasunin card."
       ],
       "needed": "Food-specific nasunin quantity or range for purple aubergine peel, if a defensible assay exists. Do not invent a number. Do not create a nasunin substance page from Overview mention alone. Keep the Delphinidin card qualified as parent aglycone present principally as glycosides including nasunin."
+    },
+    {
+      "food": "Aubergine",
+      "compound": "chlorogenic acid",
+      "status": "presence_resolved — remaining quantity/ontology gaps",
+      "class": "Presence resolved — remaining quantity/ontology gap",
+      "not": "Overview → table gap. Presence is already evidenced by the public qualitative row.",
+      "presence": "Resolved. Public table row: Present — quantity not established, with Plazas et al. 2013 (flesh identity; typically 80–95% of hydroxycinnamic acids) and Zaro et al. 2015 (cultivar and cooking effects). Chlorogenic acid is the major phenolic of the flesh, including white cultivars without nasunin.",
+      "remaining_gaps": [
+        "No defensible per-100 g USDA-style quantity. Cultivar and cooking ranges are wide.",
+        "No canonical chlorogenic acid substance page.",
+        "No Substances card: the compound is table-only, not tagged."
+      ],
+      "needed": "Keep the qualitative presence row. Do not invent a number. Do not create a chlorogenic acid substance page from Overview mention alone. Do not tag Chlorogenic Acid until a canonical page exists and editorial admission is deliberate."
     }
   ]
 }

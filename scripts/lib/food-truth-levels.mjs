@@ -117,6 +117,7 @@ export const MICRONUTRIENT_KEYS = [
 ]
 
 export const BIOACTIVE_LIPID_KEYS = [
+  "oleic_g",
   "linoleic_g",
   "ala_mg",
   "epa_mg",
@@ -226,6 +227,7 @@ export const NUTRIENT_LABELS = {
   ala_mg: { label: "ALA", unit: "mg" },
   epa_mg: { label: "EPA", unit: "mg" },
   dha_mg: { label: "DHA", unit: "mg" },
+  oleic_g: { label: "Oleic Acid", unit: "g" },
   linoleic_g: { label: "Linoleic Acid", unit: "g" },
   lycopene_ug: { label: "Lycopene", unit: "µg" },
   beta_carotene_ug: { label: "Beta-Carotene", unit: "µg" },
@@ -263,6 +265,9 @@ export const SUBSTANCE_LABEL_ALIASES = {
   ascorbate: ["Vitamin C", "Ascorbate"],
   "vitamin a": ["Vitamin A", "Vitamin A (Retinol/Carotenoids)"],
   "vitamin d": ["Vitamin D"],
+  "oleic acid": ["Oleic Acid", "Oleic Acid (OA, n-9)", "Oleic Acid (n-9)"],
+  "oleic acid (oa, n-9)": ["Oleic Acid", "Oleic Acid (OA, n-9)"],
+  "oleic acid (n-9)": ["Oleic Acid", "Oleic Acid (OA, n-9)"],
   "linoleic acid": ["Linoleic Acid", "Linoleic Acid (LA, n-6)", "Linoleic Acid (n-6)"],
   "linoleic acid (la, n-6)": ["Linoleic Acid", "Linoleic Acid (LA, n-6)"],
   "linoleic acid (n-6)": ["Linoleic Acid", "Linoleic Acid (LA, n-6)"],

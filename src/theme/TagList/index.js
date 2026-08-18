@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import { useLocation } from '@docusaurus/router';
 import styles from './styles.module.css'
 import InChIImage from '../InChIImage';
+import siteRelativePermalink from '../../utils/siteRelativePermalink';
 
 function DocItemImage({ doc }) {
   const isSubstance = doc.permalink && doc.permalink.includes("/substances/");
@@ -49,7 +50,7 @@ function DocItemImage({ doc }) {
           )}
         </div>
         <div className={styles.right}>
-          <Link to={doc.permalink}>
+          <Link to={siteRelativePermalink(doc.permalink)}>
             <h3>{doc.title}</h3>
           </Link>
           {doc.description && <p>{doc.description}</p>}

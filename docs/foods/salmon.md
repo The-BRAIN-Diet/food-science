@@ -122,4 +122,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 [1] Regular inclusion of salmon and other oily fish helps reach evidence-based omega-3 intakes that are associated with cardiometabolic and cognitive benefits in many populations. McNamara & Carlson 2006. [Omega-3 fatty acids and neuropsychiatric function](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
 
-[2] \textlessp\textgreaterThe development of sarcopenia in the elderly is associated with many potential factors and/or processes that impair the renovation and maintenance of skeletal muscle mass and strength as ageing progresses. Stonehouse & Conlon 2013. [DHA supplementation and cognitive outcomes in adults](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013)
+[2] DHA supplementation improved both memory and reaction time in healthy young adults: a randomized controlled trial. Stonehouse et al. 2013. [DHA supplementation and cognitive outcomes in adults](/docs/papers/BRAIN-Diet-References#stonehouse_dha_2013)

@@ -331,6 +331,11 @@ Nutrient:
   permalink: /nutrient
   description: Essential nutrients for brain health
 
+Oleic Acid:
+  label: Oleic Acid
+  permalink: /oleic-acid
+  description: Principal dietary monounsaturated fatty acid (18:1 n-9); not synonymous with MUFA or omega-9
+
 Omega-3 Fatty Acids:
   label: Omega-3 Fatty Acids
   permalink: /omega-3

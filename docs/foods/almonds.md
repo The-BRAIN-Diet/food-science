@@ -2,7 +2,7 @@
 id: almonds
 title: Almonds
 sidebar_label: Almonds
-description: 'Vitamin E, plant protein, and healthy fats'
+description: Nutrient-dense nut providing vitamin E, magnesium, fibre and unsaturated fats
 tags:
   - Food
   - Almonds
@@ -57,36 +57,34 @@ nutrition_source:
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
 limiting_amino_acids: Lysine (typical of nuts and seeds).
-complementary_pairings: Legumes or grains for complete essential amino acid profile.
+complementary_pairings: Legumes for lysine complementarity; grains are themselves typically lysine-limited.
 main_image: /img/foods/almonds/almonds_medium.webp
 legacy_list_image: /img/foods/almonds/almonds_thumb.webp
 legacy_main_image: /img/foods/almonds/almonds_medium.webp
 ---
 ## Overview
 
-Almonds are a nutrient-dense nut that contribute **vitamin E**, magnesium, fibre, and mostly unsaturated fats alongside plant protein. Their vitamin E can support wider antioxidant “network” function (working in concert with other dietary antioxidants rather than in isolation) [1].
+Almonds are a nutrient-dense source of **vitamin E**, magnesium, fibre, unsaturated fats and plant protein. Human feeding studies suggest that substituting almonds for refined snack foods can improve blood-lipid and post-meal glucose responses while supporting satiety [1–3].
 
-Within a BRAIN-aligned pattern, almonds work best as a **whole-food fat-and-fibre** option that can displace more refined, low-satiety snacks; observational literature often groups nuts with favourable long-term health associations compared with several animal-protein sources [3]. Almond protein is typically **lysine-limited**, so pairing with legumes or grains improves essential amino-acid coverage across the day [2].
+Within a BRAIN-aligned pattern, almonds are a practical whole-food snack or meal component. Their protein is relatively low in lysine, so almonds should contribute to a varied protein pattern rather than be treated as a complete protein source [4].
 
 ## Key Nutritional Highlights
 
-- **Vitamin E** supports wider antioxidant-network function alongside other dietary antioxidants [1].
-- Plant protein 21.2 g per 100 g; lysine is typically limiting for nuts and seeds [2].
-- Fibre (~12.5 g) and calcium (~269 mg) per 100 g support micronutrient density on a weight basis (USDA SR Legacy).
-- Mostly unsaturated fats make almonds a practical whole-food fat source within mixed meals [3].
-- Magnesium, phosphorus, and manganese accompany the fat-and-protein matrix (see nutrition table).
+- Rich in **vitamin E**, magnesium, fibre and unsaturated fats.
+- Substituting almonds for refined snacks may support healthier blood-lipid and post-meal glucose responses [1–3].
+- A practical whole-food snack that can support satiety [3].
+- Almond protein is relatively low in lysine; include varied protein sources, particularly legumes [4].
 
 ## Food Context
 
 ### Synergies
 
-- Soak or sprout to reduce phytates and improve mineral bioavailability.
-- Pair with legumes or grains for essential amino-acid complementarity [2].
+- Pair with legumes for lysine complementarity; grains are typically lysine-limited and are not a lysine rescue for almonds [4].
 
 ### Preparation
 
 - Prefer plain whole or slivered almonds over heavily salted or sugar-coated products.
-- Vitamin E acts within broader antioxidant networks with vitamin C, CoQ10, and polyphenols [1].
+- Soaking can remain an optional texture or tolerability preference. Direct almond research does not support soaking as a mineral-bioavailability strategy: phytate changes were small (−12% to +10%) and mineral concentrations often fell, especially in chopped nuts [5]. Soaking also did not improve gastrointestinal tolerance [6].
 
 ### Essential Amino Acid Profile
 
@@ -94,7 +92,7 @@ Almonds provide plant protein but are not a complete protein; lysine is typicall
 
 Protein pairing strategy:
 
-Pair with legumes or grains to complete essential amino acid coverage.
+Pair with legumes to improve lysine coverage. Grains are typically lysine-limited as well and should not be treated as the lysine complement to almonds.
 
 ## Recipes
 
@@ -108,8 +106,14 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-[1] Vitamin E acts within broader antioxidant networks with vitamin C, CoQ10, and polyphenols. Packer & Podda 1997. [Vitamin E and the Metabolic Antioxidant Network](/docs/papers/BRAIN-Diet-References#packer_vitamin_1997)
+[1] Jung et al. (2018). [The effect of almonds on vitamin E status and cardiovascular risk factors in Korean adults: a randomized clinical trial](/docs/papers/BRAIN-Diet-References#jung_almonds_vitamin_e_2018). Randomized trial in overweight/obese Korean adults: 56 g almonds/day increased plasma α-tocopherol and lowered total, LDL and non-HDL cholesterol versus an isocaloric cookie.
 
-[2] Pair with legumes or grains for essential amino-acid complementarity. Mariotti & Gardner 2019. [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+[2] Berryman et al. (2015). [Effects of Daily Almond Consumption on Cardiometabolic Risk and Abdominal Adiposity in Healthy Adults With Elevated LDL-Cholesterol: A Randomized Controlled Trial](/docs/papers/BRAIN-Diet-References#berryman_almonds_2015). Controlled-feeding crossover in adults with elevated LDL-C: 1.5 oz almonds/day substituted for an isocaloric muffin lowered LDL-C, non-HDL-C and abdominal fat.
 
-[3] Mostly unsaturated fats make almonds a practical whole-food fat source within mixed meals. Sun & Liu 2019. [Association of Major Dietary Protein Sources with All-cause and Cause-specific Mortality: The Women’s Health Initiative (FS03-08-19)](/docs/papers/BRAIN-Diet-References#sun_association_2019)
+[3] Tan & Mattes (2013). [Appetitive, dietary and health effects of almonds consumed with meals or as snacks: a randomized, controlled trial](/docs/papers/BRAIN-Diet-References#tan_almonds_2013). Randomized trial: 43 g almonds/day with meals or as snacks lowered post-meal glucose; snack intake reduced hunger, and body weight did not increase over four weeks.
+
+[4] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Review of vegetarian protein and amino acids: nut and seed proteins are typically lysine-limited, as are cereal proteins; legumes are the lysine-rich plant complement.
+
+[5] Kumari et al. (2020). [Does ‘activating’ nuts affect nutrient bioavailability?](/docs/papers/BRAIN-Diet-References#kumari_activating_nuts_2020). Soaking whole and chopped almonds changed phytate by only −12% to +10%, lowered mineral concentrations especially in chopped nuts, and did not improve phytate:mineral molar ratios.
+
+[6] Taylor et al. (2018). [The effects of ‘activating’ almonds on consumer acceptance and gastrointestinal tolerance](/docs/papers/BRAIN-Diet-References#taylor_activating_almonds_2018). 30 g/day soaked almonds did not improve gastrointestinal tolerance or acceptance; whole soaked almonds had higher phytate than unsoaked (563 vs 531 mg/100 g).
