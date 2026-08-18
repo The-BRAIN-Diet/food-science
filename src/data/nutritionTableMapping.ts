@@ -5,8 +5,8 @@
  *
  * Layout groups (see NutritionTable):
  * - Core nutrients
- * - Vitamins and minerals
- * - Fatty acids and extended BRAIN-relevant substances
+ * - Key vitamins and minerals
+ * - Bioactive compounds
  *
  * Public tables do not dump every stored key. Internal nutrition_per_100g
  * values remain available for algorithms even when hidden from the page.
@@ -23,7 +23,7 @@ export const CORE_NUTRIENT_KEYS: readonly string[] = [
   "fibre_g",
 ]
 
-/** Vitamins and minerals — second sub-table */
+/** Key vitamins and minerals — second sub-table */
 export const MICRONUTRIENT_KEYS: readonly string[] = [
   "iron_mg",
   "zinc_mg",
@@ -51,7 +51,11 @@ export const MICRONUTRIENT_KEYS: readonly string[] = [
   "vitamin_k_ug",
 ]
 
-/** Individual fatty acids, carotenoids, amino acids, and other extended analytes */
+/**
+ * Bioactive compounds — third sub-table. Individual fatty acids, carotenoids and
+ * amino acids render here only when explicitly identified and publicly admitted;
+ * the full panel stays in `nutrition_per_100g` for recipe calculation either way.
+ */
 export const BIOACTIVE_LIPID_KEYS: readonly string[] = [
   "oleic_g",
   "linoleic_g",

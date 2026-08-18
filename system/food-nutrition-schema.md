@@ -137,11 +137,11 @@ Keep the classes distinct. Do not convert ontology presence into invented compos
 
 ## Rendering groups (`NutritionTable`)
 
-The UI splits `nutrition_per_100g` into **sub-tables** for readability:
+The UI splits `nutrition_per_100g` into **sub-tables** for readability. The public group labels are **Core nutrients**, **Key vitamins and minerals** and **Bioactive compounds**, matching the recipe nutrition panel (`src/theme/RecipeNutrition`) so a reader moving between a food page and a recipe meets the same category names:
 
 1. **Core nutrients** — energy, protein, fat (total + saturated), carbohydrates, sugars, fibre.  
-2. **Vitamins and minerals** — minerals and vitamins (iron through vitamin K, including phosphorus, manganese, copper, riboflavin, and vitamin E when present).  
-3. **Fatty acids and extended BRAIN-relevant substances** — (a) individual fatty acids **oleic acid, linoleic acid, ALA, EPA, DHA** from `nutrition_per_100g` when present and public; (b) **`nutrition_supplementary_sources`** (polyphenols, nutrient forms, literature-only analytes, etc.). Uses columns *Compound / class · Amount · Notes*; values marked `*` are explained in **Source notes** below the block. Qualitative rows use `Present — quantity not established` when presence is evidenced but no defensible per-100 g value exists.  
+2. **Key vitamins and minerals** — minerals and vitamins (iron through vitamin K, including phosphorus, manganese, copper, riboflavin, and vitamin E when present).  
+3. **Bioactive compounds** — (a) individual fatty acids **oleic acid, linoleic acid, ALA, EPA, DHA** from `nutrition_per_100g` when explicitly identified and publicly admitted; (b) **`nutrition_supplementary_sources`** (polyphenols, nutrient forms, literature-only analytes, etc.). Uses columns *Compound / class · Amount · Notes*; values marked `*` are explained in **Source notes** below the block. Qualitative rows use `Present — quantity not established` when presence is evidenced but no defensible per-100 g value exists. The complete fatty-acid panel stays in `nutrition_per_100g` for recipe calculation whether or not a given acid is publicly admitted here.  
 4. **Optional functional metrics** — optional front matter `nutrition_functional_metrics` (e.g. total polyphenol proxies, antioxidant capacity) when a defensible, cited value or qualitative label exists.
 5. **Representative authorised specifications** — for source-variable specialist products that must not use a USDA proxy (currently algal oil). Front matter `nutrition_authorised_specifications` renders Formulation · DHA · EPA · Interpretation. Values are **regulatory minima**, not measured averages, not product-label doses, and must not be inferred from a different oil. Distinct formulations must be visibly distinguished (example: DHA-rich algal oils vs combined EPA/DHA algal oils; EPA is formulation-specific).
 
