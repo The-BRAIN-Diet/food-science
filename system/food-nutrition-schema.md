@@ -80,7 +80,8 @@ Ninety-six food pages once published an amino acid as an omega‑3, because `ala
 - **Alanine, beta-alanine and phenylalanine are amino acids.** They may never populate `ala_mg`, whatever the resemblance in name.
 - **An unqualified `18:3` is not ALA.** A carbon count states chain length and double bonds, not which isomer; 18:3 n-6 is gamma-linolenic acid, a different compound with different biology. Store it as `pufa_18_3_unresolved_mg`.
 - **Identity comes from the source's nutrient identifier where one exists**, not from name matching. In USDA FoodData Central the only identifiers stating an n-3 isomer are `1404` (18:3 n-3, ALA), `1278` (20:5 n-3, EPA), `1280` (22:5 n-3, DPA), `1272` (22:6 n-3, DHA), `1405` (20:3 n-3) and `1407` (20:4 n-3). Identifier `1270` is the unqualified 18:3. Identifiers `2018`, `2023`, `2024` and `2025` name a cis form without an n-position and are **not** explicit n-3.
-- **Missing means unreported.** Where a source does not identify the isomer, the field is omitted. It is never written as zero, and never approximated from a related food.
+- **Missing means unreported.** Where a source does not identify the isomer, the field is omitted. It is never written as zero, and never approximated from a related food. A reported zero from an unqualified field is treated the same way: an unanalysed nutrient is unknown, not absent.
+- **Stable source identifiers survive extraction and calculation.** The record id (`nutrition_source.fdc_id`), the basis, and the nutrient identity that decided each n-3 key must remain attached to the value wherever it travels — into `omega3_components`, into a recipe's `audit` rows, and into any payload under `scripts/out/`. A value that arrives somewhere without the identifier that justified it can no longer be checked, and an unverifiable number is what the repair had to remove 137 times.
 
 **Three different quantities, never conflated:**
 
@@ -88,7 +89,9 @@ Ninety-six food pages once published an amino acid as an omega‑3, because `ala
 | --- | --- |
 | An individual n-3 fatty acid | One named compound: `ala_mg`, `epa_mg`, `dha_mg` |
 | EPA + DHA | The long-chain pair, the subject of most intake research |
-| Total omega‑3 (`omega3_mg`) | Every n-3 acid the source explicitly identified, which may include DPA and other acids the site does not publish individually |
+| Total explicitly identified omega‑3 (`omega3_mg`) | Every n-3 acid the source explicitly identified, which may include DPA and other acids the site does not publish individually |
+
+**EPA + DHA must never be labelled total omega‑3.** The pair is a smaller quantity that omits ALA, DPA and any other n-3 the record reported, so presenting it as the total understates the food while claiming completeness. Where a page or recipe shows the pair, it shows them as the named acids they are. Where it publishes a total, `omega3_components` must list everything included and the total must equal their sum — which is also why the pair cannot masquerade as one: a total that names only EPA and DHA while the panel carries ALA fails validation.
 
 **`omega3_components` is required wherever `omega3_mg` is published.** It is a sibling of `nutrition_per_100g` and names each summed component:
 
@@ -105,6 +108,35 @@ omega3_components:
 A total must equal the sum of its components, every component must name an n-3 isomer, and a total assembled only from zeros is omitted rather than published. A total whose parts cannot be named is not a measurement.
 
 `pufa_18_3_unresolved_mg` appears in no display list and in no calculation. It exists so the source value is not lost, and is never rendered, labelled ALA, or summed into an n-3 total. A page carrying a resolved `ala_mg` does not also carry it.
+
+---
+
+### Exact-food source matching
+
+A composition record may be used only where it describes **the same food**. Matching is on every axis, not just the name:
+
+| Axis | A mismatch looks like |
+| --- | --- |
+| Food or product | Canola oil cited for MCT oil |
+| Species | Beech mushroom cited for reishi or turkey tail |
+| Edible material | Sunflower oil cited for sunflower lecithin |
+| Preparation state | Raw cited for cooked, or whole cited for drained |
+| Formulation | One brand's declared ratio presented as the class average |
+
+**A related food is never a source.** Nothing may be carried across because the two foods are adjacent, because one is derived from the other, or because a panel would otherwise be empty. An empty panel is an honest statement about what is known; a neighbour's panel is a false one, and it is indistinguishable from a real measurement once published.
+
+**A wrong record invalidates the whole derived panel.** If the record describes a different food, then its energy, its minerals and its protein are that other food's too. The nutrient that exposed the mismatch is not the extent of the damage, so withdrawal takes everything derived from the record rather than the single value that gave it away. This is enforced by `scripts/lib/composition-provenance.mjs`, which holds the canonical list of records already proven substituted; the validator, the repair script and the regression tests all read that one list.
+
+A withdrawn page:
+
+- sets `composition_status: withdrawn` and a `composition_withdrawn` block naming the record, the axis that failed (`identity_failure`), the reason, and the review queue tracking it;
+- publishes no `nutrition_per_100g` values and no `nutrition_source`;
+- keeps only qualitative rows, each with its own separately established source;
+- may not re-cite the withdrawn record. A page leaves the queue on a new source, never on a re-reading of the old one.
+
+**Recipes must not be able to reach an invalid record.** Refusal happens where composition is resolved, not where it is displayed, so an ingredient pointing at a withdrawn page becomes unresolved and the recipe reports it. See `system/recipe-ingredient-schema.md` for the propagation rules.
+
+Search procedure before concluding that no record exists — including which databases and specification types may be used instead — is in `system/nutrition-workflow.md`.
 
 ---
 

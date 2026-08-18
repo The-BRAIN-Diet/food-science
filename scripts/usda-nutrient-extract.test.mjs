@@ -192,6 +192,53 @@ test("phenylalanine cannot become ALA", () => {
   assert.equal(mushroom.omega3_mg, undefined, "a record with no n-3 publishes no total")
 })
 
+test("beta-alanine cannot become ALA", () => {
+  /*
+   * The guard is on the substring, so every amino acid ending in "alanine" is
+   * disqualified before any name test runs. Beta-alanine is the third of them
+   * and the one most likely to appear in a supplement-style panel.
+   */
+  const panel = extractNutrients({
+    foodNutrients: [
+      nutrient("Beta-alanine", 1.2, "g"),
+      nutrient("Alanine", 0.9, "g"),
+      nutrient("Phenylalanine", 0.7, "g"),
+    ],
+  })
+
+  assert.equal(panel.ala_mg, undefined, "no amino acid resolves to ALA")
+  assert.equal(panel.omega3_mg, undefined)
+  assert.equal(panel.pufa_18_3_unresolved_mg, undefined, "nor to an unresolved fatty acid")
+})
+
+test("a reported zero is not a measurement of absence", () => {
+  /*
+   * Nutritional yeast stored `ala_mg: 0` from an unqualified 18:3 of zero. A
+   * nutrient the analysis never established is unknown, not absent, and a total
+   * assembled from nothing is omitted rather than published as 0.
+   */
+  const zeroed = extractNutrients({
+    foodNutrients: [
+      {nutrient: {id: 1270, name: "PUFA 18:3", unitName: "g"}, amount: 0},
+      {nutrient: {id: 1404, name: "PUFA 18:3 n-3 c,c,c (ALA)", unitName: "g"}, amount: 0},
+      nutrient("Protein", 45.5, "g"),
+    ],
+  })
+
+  assert.equal(zeroed.omega3_mg, undefined, "a zero total is not published")
+  assert.equal(zeroed.omega3_components, undefined)
+  assert.equal(zeroed.protein_g, 45.5, "the rest of the panel is unaffected")
+})
+
+test("a nutrient the record never reported is absent, not zero", () => {
+  const sparse = extractNutrients({foodNutrients: [nutrient("Protein", 2.18, "g")]})
+
+  for (const key of ["ala_mg", "epa_mg", "dha_mg", "omega3_mg", "pufa_18_3_unresolved_mg"]) {
+    assert.equal(sparse[key], undefined, `${key} must be absent rather than zero`)
+    assert.ok(!Object.prototype.hasOwnProperty.call(sparse, key), `${key} must not be written at all`)
+  }
+})
+
 test("almond editorial substances resolve to table rows", () => {
   const fm = {
     title: "Almonds",

@@ -58,6 +58,8 @@ Resolution is a source that states the isomer — a Foundation Foods record, or 
 
 **Walnuts and flaxseed are prioritised** for an authoritative supplementary source, because they are the two foods a reader is most likely to consult for ALA and the two whose values are most likely to be confirmed. Tracked in `system/specialist-composition-review-queue.md`.
 
+Until then both pages carry an `ALA` Substances card with no supported table row, and `npm run nutrition:validate` reports them under *Substances cards missing a supported nutrition-table row*. That is the intended visible state: the card is what the page claims, and the missing row is the claim it can no longer evidence. It is resolved by a source that states the isomer, or by a supported qualitative row — not by removing the card, and not by restoring the suppressed number.
+
 ---
 
 ### D. Related pattern, not yet actioned

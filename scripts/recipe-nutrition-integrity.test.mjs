@@ -47,6 +47,7 @@ import {
   isRecipeMatrixValidated,
 } from "../src/utils/recipeMatrixGate.mjs"
 import {NUTRIENT_LABELS} from "./lib/food-truth-levels.mjs"
+import {SUBSTITUTED_RECORDS, checkExactFoodMatch} from "./lib/composition-provenance.mjs"
 import {RECIPE_COMPOSITION_SNAPSHOTS} from "../src/data/recipeCompositionSnapshots.mjs"
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
@@ -683,24 +684,22 @@ test("a withdrawn composition panel publishes nothing quantitative", () => {
 
 test("a restored panel cannot cite the record that was withdrawn from it", () => {
   /*
-   * Records proven to describe a different food than the page they were on.
-   * A page may leave the withdrawal queue only on a new source, so re-citing one
-   * of these would silently reinstate the substitution.
+   * The banned list lives in `scripts/lib/composition-provenance.mjs` so the
+   * validator and this test cannot disagree about which records are barred.
+   * A page may leave the withdrawal queue only on a new source, so re-citing
+   * one of these would silently reinstate the substitution.
    */
-  const substituted = {
-    "mct-oil": 748278, // Oil, canola
-    "sunflower-lecithin": 1750349, // Oil, sunflower
-    "reishi-mushroom": 2003603, // Mushroom, beech
-    "turkey-tail-mushroom": 2003603,
-    "cordyceps-mushroom": 2003603,
-  }
-
-  for (const [slug, bannedId] of Object.entries(substituted)) {
+  for (const [slug, record] of Object.entries(SUBSTITUTED_RECORDS)) {
     const doc = foodDocs.find((d) => d.frontMatter.id === slug)
     assert.ok(doc, `${slug} is missing`)
+    assert.deepEqual(
+      checkExactFoodMatch(doc.frontMatter, slug),
+      [],
+      `${slug} fails exact-food validation`,
+    )
     const cited = doc.frontMatter.nutrition_source?.fdc_id
     if (cited === undefined) continue
-    assert.notEqual(Number(cited), bannedId, `${slug} cites the record withdrawn from it`)
+    assert.notEqual(Number(cited), record.fdc_id, `${slug} cites the record withdrawn from it`)
   }
 
   // A page that publishes again must say where the replacement came from.
@@ -710,6 +709,21 @@ test("a restored panel cannot cite the record that was withdrawn from it", () =>
     assert.ok(source?.fdc_id, "mct-oil publishes values without naming a record")
     assert.ok(source?.basis, "mct-oil publishes values without stating a basis")
     assert.ok(source?.limitations, "mct-oil publishes label-derived values without stating limitations")
+  }
+})
+
+test("a withdrawal takes the ontology claims the record was the only support for", () => {
+  /*
+   * The three mushroom pages tagged Vitamin B3 on the strength of the beech
+   * mushroom record alone. Withdrawing a panel and leaving its tags behind
+   * keeps the claim in the ontology after its evidence has gone.
+   */
+  for (const slug of ["reishi-mushroom", "turkey-tail-mushroom", "cordyceps-mushroom"]) {
+    const doc = foodDocs.find((d) => d.frontMatter.id === slug)
+    assert.ok(
+      !(doc.frontMatter.tags || []).includes("Vitamin B3"),
+      `${slug} still tags a nutrient whose only source was the withdrawn record`,
+    )
   }
 })
 
@@ -749,14 +763,15 @@ test("recipes cannot consume a withdrawn record", () => {
 })
 
 test("the public label states the fatty acid, not the bare acronym", () => {
-  // "ALA" alone is what let an amino acid pass for an omega-3 in the first place.
-  assert.equal(NUTRIENT_LABELS.ala_mg.label, "ALA (18:3 n-3)")
+  // "ALA" alone is what let an amino acid pass for an omega-3 in the first
+  // place, so the public label spells the compound out and states the isomer.
+  assert.equal(NUTRIENT_LABELS.ala_mg.label, "Alpha-linolenic acid (ALA; 18:3 n-3)")
   assert.equal(NUTRIENT_LABELS.epa_mg.label, "EPA")
   assert.equal(NUTRIENT_LABELS.dha_mg.label, "DHA")
 
   // The site and the scripts keep separate label tables; they must not disagree.
   const tsx = fs.readFileSync(path.join(ROOT, "src/data/nutritionTableMapping.ts"), "utf8")
-  assert.match(tsx, /ala_mg: \{label: "ALA \(18:3 n-3\)"/)
+  assert.match(tsx, /ala_mg: \{label: "Alpha-linolenic acid \(ALA; 18:3 n-3\)"/)
 })
 
 test("admission is decided on the percentage the reader sees", () => {

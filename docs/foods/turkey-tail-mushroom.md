@@ -10,7 +10,6 @@ tags:
   - Turkey Tail Mushroom
   - Vegan
   - Vegetarian
-  - Vitamin B3
   - Polysaccharides
   - Beta-Glucans
 list_image: /img/foods/turkey-tail-mushroom/turkey-tail-mushroom_thumb.webp

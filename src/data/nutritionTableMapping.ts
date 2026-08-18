@@ -120,7 +120,7 @@ export const NUTRIENT_LABELS: Record<string, {label: string; unit: string}> = {
   iodine_ug: {label: "Iodine", unit: "µg"},
 
   omega3_mg: {label: "Total omega-3", unit: "mg"},
-  ala_mg: {label: "ALA (18:3 n-3)", unit: "mg"},
+  ala_mg: {label: "Alpha-linolenic acid (ALA; 18:3 n-3)", unit: "mg"},
   epa_mg: {label: "EPA", unit: "mg"},
   dha_mg: {label: "DHA", unit: "mg"},
   oleic_g: {label: "Oleic Acid", unit: "g"},
@@ -167,6 +167,7 @@ export const SUBSTANCE_LABEL_ALIASES: Record<string, string[]> = {
   "vitamin e": ["Vitamin E", "Vitamin E (Tocopherols/Tocotrienols)"],
   "vitamin e (tocopherols/tocotrienols)": ["Vitamin E"],
   ala: ["ALA", "Alpha-Linolenic Acid"],
+  "alpha-linolenic acid": ["ALA", "Alpha-Linolenic Acid"],
   "lutein + zeaxanthin": ["Lutein", "Zeaxanthin", "Lutein + zeaxanthin"],
   lutein: ["Lutein", "Lutein + zeaxanthin"],
   zeaxanthin: ["Zeaxanthin", "Lutein + zeaxanthin"],

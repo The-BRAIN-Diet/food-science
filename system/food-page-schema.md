@@ -2,7 +2,7 @@
 
 Consolidated schema for BRAIN Diet food pages. **Worked example:** `docs/foods/dark-chocolate.md`.  
 **Front matter shapes:** `system/food-page-frontmatter-shapes.md`. **Nutrition fields:** `system/food-nutrition-schema.md`.  
-**Three Sources of Truth (page layers) and EAA / content-boundary rules:** `system/food-page-model.md`. **Composition and provenance classes:** `system/food-nutrition-schema.md`.
+**Three Sources of Truth (page layers) and EAA / content-boundary rules:** `system/food-page-model.md`. **Composition and provenance classes, nutrient identity, omega-3 rules and exact-food source matching:** `system/food-nutrition-schema.md`. **Source search and fallback source classes:** `system/nutrition-workflow.md`.
 
 Validation: `npm run nutrition:validate` (baseline) · `npm run nutrition:validate -- --canonical` (canonical structure gate for migration batches).
 

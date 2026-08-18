@@ -10,7 +10,6 @@ tags:
   - Reishi Mushroom
   - Vegan
   - Vegetarian
-  - Vitamin B3
   - Polysaccharides
 list_image: /img/foods/reishi-mushroom/reishi-mushroom_thumb.webp
 composition_status: withdrawn

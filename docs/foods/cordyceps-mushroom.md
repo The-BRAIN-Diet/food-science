@@ -10,7 +10,6 @@ tags:
   - Cordyceps Mushroom
   - Vegan
   - Vegetarian
-  - Vitamin B3
   - Polysaccharides
 list_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_thumb.webp
 composition_status: withdrawn

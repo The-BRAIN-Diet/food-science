@@ -46,8 +46,31 @@ That is **Script C then repair only**.
 - **USDA resolution:** `scripts/usda-map.json` (slug → search query), else slug with dashes replaced by spaces.
 - **When `USDA_API_KEY` is set:** Fetches USDA FoodData Central; inspects up to eight ranked candidates; keeps the richest mapped panel (`scripts/lib/usda-nutrient-extract.mjs`); writes `scripts/out/<slug>.json`.
 - **When `USDA_API_KEY` is not set:** Builds payload from existing front matter (no fetch).
-- **Do not use a substitute food.** If SR Legacy has no matching record, do not copy canola, another oil, or a related species. Skip specialist products (currently `algal-oil`) and represent source-specific authorised specifications instead of inventing a universal average.
+- **Do not use a substitute food.** If SR Legacy has no matching record, do not copy canola, another oil, or a related species. Skip specialist products (currently `algal-oil`) and represent source-specific authorised specifications instead of inventing a universal average. Exact-food matching rules and the canonical list of already-withdrawn records are in `system/food-nutrition-schema.md`.
 - **Options:** `--food <slug>`, `--out-dir <dir>` (default `scripts/out`), `--foods-dir <dir>` (default `docs/foods`).
+
+### Before recording "absent from USDA"
+
+A failed search is not an absence, and the difference matters: an absence justifies moving to another source class, whereas a failed search justifies only trying again. Complete all of the following first.
+
+1. **Search every FDC data type** — Foundation, SR Legacy, Branded and Survey (FNDDS). A specialist product frequently exists only as Branded.
+2. **Search the names the record might carry** — common name, scientific name, accepted synonyms, the processed form, and the preparation state. Reishi is *Ganoderma lucidum*; MCT oil may be indexed by its declared ingredient rather than the product name.
+3. **Retain what you found and why you rejected it.** Candidate ids and rejection reasons are kept with the search, so the next person does not repeat it and can challenge a rejection. Helper scripts: `scripts/fdc-synonym-search.mjs` and `scripts/fdc-inspect-records.mjs`; cached candidates under `scripts/data/fdc-candidates/`.
+4. **Distinguish a failure from an absence.** A rate-limited, unauthenticated or errored search is recorded as incomplete and retried. Only a completed search across data types and synonyms may be recorded as "no exact record exists".
+
+### When no exact USDA record exists
+
+Use the first class that can describe **this** food, and say which was used:
+
+| Order | Source class | Example |
+| --- | --- | --- |
+| 1 | Another authoritative national composition database | McCance & Widdowson, CIQUAL, FSANZ |
+| 2 | Regulatory or authorised specifications | EU Union List of Novel Foods for algal oil |
+| 3 | Exact-food analytical literature | A published analysis of the same species and preparation |
+| 4 | A named formulation specification or product label | A single-ingredient manufacturer declaration, with its rounding and brand-specificity stated |
+| 5 | Supported qualitative presence | `Present — quantity not established`, with a food-specific source |
+
+Never infer a value from a related food at any level of this list. Where the class carries limits — label rounding, one brand's ratio, a regulatory minimum rather than a measured average — record them in `nutrition_source.limitations` so the reader is not given more precision than exists. Outstanding cases are tracked in `system/specialist-composition-review-queue.md` and `system/nutrient-provenance-review-queue.md`.
 
 ---
 
@@ -146,6 +169,14 @@ A supported qualitative row must not be classified as an Overview → table gap.
 Report path: `scripts/out/food-page-layer-reconciliation.json`.
 
 `npm run nutrition:reconcile-substances` is a **different**, older bulk tool (`scripts/reconcile-food-substance-tables.mjs`). It is not this reporting stage and is not part of `nutrition:pipeline`.
+
+---
+
+## Validation
+
+`npm run nutrition:validate` runs the EAA and downstream-tag checks, then composition provenance (`scripts/lib/composition-provenance.mjs`), then layer reconciliation. The provenance stage fails the build when a page re-cites a record already proven to describe a different food, when a withdrawn page still publishes anything quantitative or still names its old source, or when an omega-3 total cannot name its components, does not equal their sum, includes an unresolved 18:3, or is stored as zero.
+
+`npm run test:nutrition` runs the nutrition test suites and then this validator in one command: `test:food-truth-levels`, `test:composition-provenance`, `test:recipe-nutrition`, `nutrition:validate`.
 
 ---
 

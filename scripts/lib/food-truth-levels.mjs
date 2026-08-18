@@ -224,7 +224,7 @@ export const NUTRIENT_LABELS = {
   sodium_mg: { label: "Sodium", unit: "mg" },
   iodine_ug: { label: "Iodine", unit: "µg" },
   omega3_mg: { label: "Total omega-3", unit: "mg" },
-  ala_mg: { label: "ALA (18:3 n-3)", unit: "mg" },
+  ala_mg: { label: "Alpha-linolenic acid (ALA; 18:3 n-3)", unit: "mg" },
   epa_mg: { label: "EPA", unit: "mg" },
   dha_mg: { label: "DHA", unit: "mg" },
   oleic_g: { label: "Oleic Acid", unit: "g" },
