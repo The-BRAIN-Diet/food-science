@@ -44,7 +44,7 @@ Each BRS hub ADHD dropdown follows this order:
 |---|-------------------------------------|---------|
 | 1 | `### Introduction` | Integrated BRS regulatory capacities; no citations |
 | 2 | `### ADHD translational biological context` | Prose summary of **ADHD-only** evidence with inline citations; closing translational paragraph |
-| 3 | `### ADHD evidence and connected BRSn mechanisms` | Three-column table: Evidence \| Citation \| Connected mechanisms |
+| 3 | `### ADHD evidence and connected BRSn mechanisms` | Three-column table: Evidence \| Citation \| Connected mechanisms. Deep links to this heading (and other headings inside the dropdown) must auto-expand ancestor hub panels — see `src/client/brsFmHubDropdown.ts`. |
 | 4 | `### Current evidence limitations` | Gaps table; citation column may read **Future evidence integration** |
 | 5 | `### Framework expansion` | Pending SM pages, cross-BRS routing notes — flag only |
 

@@ -164,10 +164,10 @@ Blueberries also supply **quercetin** and related flavonols. Rodent work shows q
 
 [4] Rodent work shows quercetin can increase mitochondrial biogenesis in brain and muscle and improve exercise tolerance—mechanistic context for nutrition–exercise coupling, though not a direct blueberry-and-BDNF human trial. Davis & Murphy 2009. [Quercetin increases brain and muscle mitochondrial biogenesis and exercise tolerance](/docs/papers/BRAIN-Diet-References#davis_quercetin_2009)
 
-[5] \textlessp\textgreaterQuercetin is one of a broad group of natural polyphenolic flavonoid substances that are being investigated for their widespread health benefits. Boots & Haenen 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+[5] Reports on health effects of quercetin: From antioxidant to nutraceutical. Boots et al. 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
 
 [6] —and with omega-3-rich dietary patterns that can also modulate neurotrophin biology. Ziaei & Mohammadi 2024. [A systematic review and meta-analysis of the omega-3 fatty acids effects on brain-derived neurotrophic factor (BDNF)](/docs/papers/BRAIN-Diet-References#ziaei_systematic_2024)
 
-[7] \textlessp\textgreaterThis study aims to investigate dietary and nutritional biochemistry profiles of attention-deficit/hyperactivity disorder (ADHD) and to explore their potential relationship by path analysis. Vertuani & Angusti 2004. [The Antioxidants and Pro-Antioxidants Network: An Overview](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
+[7] The Antioxidants and Pro-Antioxidants Network: An Overview. Vertuani et al. 2004. [The Antioxidants and Pro-Antioxidants Network: An Overview](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
 
 [8] and food-derived phenolics can influence gut microbiota composition and metabolite profiles. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)

@@ -29,7 +29,7 @@ So: **body** = human-written sections + human-written component tags + script-in
 
 - **Location:** Between the first `---` and second `---` in `docs/foods/beef.md`.
 - **Source:** Mix of:
-  - **Handwritten:** `id`, `title`, `sidebar_label`, `description`, `tags`, `list_image`, and any human-only fields.
+  - **Handwritten:** `id`, `title`, `sidebar_label`, `description` (Foods Index identity line; see Food-index descriptions in `system/food-page-model.md`), `tags`, `list_image`, and any human-only fields.
   - **Pipeline (Script C):** `nutrition_per_100g`, `nutrition_source`, `nutrition_supplementary_sources`, `nutrition_functional_metrics`, `protein_profile_note`, `amino_acid_strengths`, `limiting_amino_acids`, `complementary_pairings` are **written by** `scripts/update-food-page-frontmatter.mjs` from the payload JSON. Script C **only** merges these keys from payload into front matter; it does not touch the body.
 - **Payload origin:** Payload JSON in `scripts/out/beef.json` is produced by:
   - **Script A** (`fetch-usda-nutrition.mjs`): when `USDA_API_KEY` is set, fetches USDA and writes/updates payload; when not set, builds payload from existing front matter. Script A does **not** write the .md file.

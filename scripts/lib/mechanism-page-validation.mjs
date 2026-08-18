@@ -21,6 +21,9 @@ import {
   PM_SECTION_6_2_TITLE,
   PM_SECTION_6_3_TITLE,
 } from "./pm-relationship-sections.mjs";
+import {
+  validateFmSupportingKcPools,
+} from "./fm-supporting-kc-pools.mjs";
 
 export const TIMING_SPECIFIC_VALUES = new Set(["Yes", "No"]);
 
@@ -737,7 +740,7 @@ function validateFmSynthesisContract(content, sections, issues, { entityLabel, d
     pushIssue(
       issues,
       "fm_forbidden_kc_subsection",
-      `${entityLabel}: remove ### 4.2 Supporting Biological Pools (Key Constraints); KC context belongs in front matter and §4.3 Suboptimal Function & Its Effects`,
+      `${entityLabel}: do not use ### 4.2 Supporting Biological Pools (Key Constraints); render Supporting Key Constraint Pools after the §4 opening paragraph and before ### 4.1, derived from constituent PM → KC mappings`,
     );
   }
 
@@ -940,6 +943,7 @@ function validateFmPage(filePath, { rootDir }) {
   validateContiguousNumbering(sections, issues, { entityLabel });
   validateEvidenceHighlightsPlacement(content, sections, issues, { entityLabel });
   validateFmSynthesisContract(content, sections, issues, { entityLabel, data });
+  validateFmSupportingKcPools(filePath, issues, { rootDir });
 
   const numbered = sections.filter((s) => s.type === "major" && s.level <= 7);
   if (numbered.length >= 3) {

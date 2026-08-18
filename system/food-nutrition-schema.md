@@ -2,19 +2,27 @@
 
 This document defines the **canonical nutrition data schema** for all BRAIN Diet food pages.
 
-Nutrition data on food pages is the **single source of truth** used by downstream systems (recipes, BRS scoring, contribution levels).
+Nutrition data on food pages is the **composition store** used by downstream systems (recipes, BRS scoring, contribution levels). That store is **not** the “Three Sources of Truth.” The Three Sources of Truth are the rendered page layers in `system/food-page-model.md` (Overview, Database nutrition table, Substances list).
 
 ---
 
-## Block Name
+## Compositional representation (one-of)
 
-All food pages MUST define a nutrition block in front matter named:
+A food page must provide **at least one valid rendered compositional representation**. A populated USDA-shaped `nutrition_per_100g` block is **not** universally required.
 
-```yaml
-nutrition_per_100g: {}
-```
+Valid representations (one or more):
 
-This block stores nutrient quantities **per 100 g edible portion** of the food (or per 100 g edible, drained portion where relevant).
+| Representation | When to use | Front matter |
+|----------------|-------------|--------------|
+| **Standard database composition** | Named USDA or equivalent per-100 g panel for this food | Populated `nutrition_per_100g` + `nutrition_source` |
+| **Authorised / specification-based composition** | Variable or formulated specialist products with no legitimate USDA match | `nutrition_authorised_specifications` (source-specific minima or formulation rows) |
+| **Supported qualitative composition** | Presence is evidenced but a defensible comparable quantity is unavailable | `nutrition_supplementary_sources` with explicit status and food-specific `source_note` |
+
+An empty `nutrition_per_100g: {}` object may remain as an **implementation compatibility field** if a component currently reads that key. It must **not** be described as the compositional source or as the canonical requirement. Do not invent USDA values to fill it.
+
+Every rendered Substance card must still resolve to a **rendered row** in whichever valid representation the page uses.
+
+When standard database composition **is** used, nutrient quantities are stored **per 100 g edible portion** (or per 100 g edible, drained portion where relevant) under `nutrition_per_100g`.
 
 ---
 
@@ -51,13 +59,14 @@ Units are **fixed by field name**:
 - **vitamin_e_mg** – mg vitamin E as α-tocopherol per 100 g  
 - **vitamin_k_ug** – µg vitamin K (phylloquinone) per 100 g  
 
+- **oleic_g** – g oleic acid (18:1 n-9) per 100 g. Stored when a named USDA or specialist panel reports it. Remains **internal** unless tagged or `public_display.oleic_g: table`. A public oleic row is not an automatic Substances card.  
 - **linoleic_g** – g linoleic acid (18:2 n-6 cis,cis) per 100 g  
 - **ala_mg** – mg ALA per 100 g  
 - **epa_mg** – mg EPA per 100 g  
 - **dha_mg** – mg DHA per 100 g  
 - **omega3_mg** – mg total long‑chain + ALA omega‑3 per 100 g (aggregate; not a substance card)
 
-These fields form the **primary compositional panel** stored in `nutrition_per_100g`. Do **not** invent a value because a substance page, Overview sentence, or related food mentions the compound. Future schema extensions MUST be documented here before use.
+These fields form the **standard database compositional panel** when that representation is used, stored in `nutrition_per_100g`. Do **not** invent a value because a substance page, Overview sentence, or related food mentions the compound. Future schema extensions MUST be documented here before use. Specialist pages that use authorised specifications instead must not populate this panel from a substitute food.
 
 ---
 
@@ -75,12 +84,14 @@ Keep the classes distinct. Do not convert ontology presence into invented compos
 
 **Reconciliation (directional):**
 
-- Every Substances card must resolve to a supported nutrition-table row.
-- Not every nutrition-table row requires a Substances card.
-- Mere database detection, especially at trace levels, does not automatically justify ontology inclusion.
-- Every headline Overview compound must resolve to a supported table row or be flagged for verification.
-- Unsupported Overview compounds must be removed or qualified; they must not generate cards or canonical pages.
-- Values must never be copied from a related food.
+- Every **rendered** Substances card must resolve to a corresponding **rendered** quantitative or explicit qualitative table row. A hidden/internal record does not satisfy this.
+- Not every nutrition-table row requires a Substances card. Ordinary background nutrients should generally remain table-only.
+- Compositional presence alone is insufficient for a card. Trace detection does not automatically admit a card.
+- Every headline Overview **identity** compound must resolve to a rendered table row or enter an explicit research-queue state.
+- A supported qualitative row establishes presence and is **not** an Overview → table gap.
+- Unsupported Overview quantities must be removed; they must not generate cards or canonical pages.
+- Values must never be copied from a related, substitute, or superficially similar food.
+- Reconciliation scripts must not automatically create Substance pages.
 
 **Worked example:** `docs/foods/almonds.md` (USDA SR Legacy FDC 170567). Fetch prefers the **richest mapped panel** among Foundation / SR Legacy / Branded candidates (`scripts/lib/usda-nutrient-extract.mjs`), so an abbreviated branded or Foundation hit cannot drop magnesium, phosphorus, manganese, copper, riboflavin, vitamin E, or linoleic acid when a fuller USDA record supplies them.
 
@@ -92,11 +103,13 @@ The UI splits `nutrition_per_100g` into **sub-tables** for readability:
 
 1. **Core nutrients** — energy, protein, fat (total + saturated), carbohydrates, sugars, fibre.  
 2. **Vitamins and minerals** — minerals and vitamins (iron through vitamin K, including phosphorus, manganese, copper, riboflavin, and vitamin E when present).  
-3. **Fatty acids and extended BRAIN-relevant substances** — (a) individual fatty acids **linoleic acid, ALA, EPA, DHA** from `nutrition_per_100g` when present; (b) **`nutrition_supplementary_sources`** (polyphenols, nutrient forms, literature-only analytes, etc.). Uses columns *Compound / class · Amount · Notes*; values marked `*` are explained in **Source notes** below the block. Qualitative rows use `Present — quantity not established` when presence is evidenced but no defensible per-100 g value exists.  
+3. **Fatty acids and extended BRAIN-relevant substances** — (a) individual fatty acids **oleic acid, linoleic acid, ALA, EPA, DHA** from `nutrition_per_100g` when present and public; (b) **`nutrition_supplementary_sources`** (polyphenols, nutrient forms, literature-only analytes, etc.). Uses columns *Compound / class · Amount · Notes*; values marked `*` are explained in **Source notes** below the block. Qualitative rows use `Present — quantity not established` when presence is evidenced but no defensible per-100 g value exists.  
 4. **Optional functional metrics** — optional front matter `nutrition_functional_metrics` (e.g. total polyphenol proxies, antioxidant capacity) when a defensible, cited value or qualitative label exists.
-5. **Representative authorised specifications** — for source-variable specialist products that must not use a USDA proxy (currently algal oil). Front matter `nutrition_authorised_specifications` renders Formulation · DHA · EPA · Interpretation. Values are **regulatory minima**, not measured averages, and must not be inferred from a different oil.
+5. **Representative authorised specifications** — for source-variable specialist products that must not use a USDA proxy (currently algal oil). Front matter `nutrition_authorised_specifications` renders Formulation · DHA · EPA · Interpretation. Values are **regulatory minima**, not measured averages, not product-label doses, and must not be inferred from a different oil. Distinct formulations must be visibly distinguished (example: DHA-rich algal oils vs combined EPA/DHA algal oils; EPA is formulation-specific).
 
-Do **not** invent energy, total fat, or other USDA panel values for a specialist product that has no matching food-composition record.
+Do **not** invent energy, total fat, or other USDA panel values for a specialist product that has no matching food-composition record. Do not present capsule or serving-label milligrams as universal per-100 g composition.
+
+Untagged micronutrients and bioactives in `nutrition_per_100g` remain **internal** unless admitted to public display. Internal records may be retained for provenance and algorithms without appearing on the rendered table or satisfying a Substances card.
 
 ---
 
@@ -136,6 +149,10 @@ nutrition_supplementary_sources:
 
 **Rendering:** The extended sub-table shows compound, amount (with `*` for traceable supplementary rows), and optional `notes`. A disclaimer paragraph appears when extended or functional sections are present.
 
+Parent compounds, aglycones, glycosides, and derivatives are not interchangeable. Table `notes` (and food-specific `substance_card_captions`) must state the actual form present. Do not put food-specific form wording into the generic Substance page description.
+
+A qualitative row with explicit status and food-specific `source_note` can establish presence when a defensible comparable quantity is unavailable. Lack of a per-100 g quantity does not automatically prevent later ontology admission.
+
 ---
 
 ## Optional functional metrics
@@ -174,9 +191,10 @@ Named analytes in `nutrition_supplementary_sources` are table rows. They become 
   - `scripts/usda-map.json` may pin the search query (e.g. almonds → `Nuts, almonds`).  
 
 - **No invented values**  
-  - Values MUST come directly from a documented data source.  
-  - Do **not** back‑calculate, estimate, or infer values from ontology tags, overview prose, or a related food.  
-  - If a recognised substance lacks a defensible quantity, keep it as an extended qualitative row (`Present — quantity not established`) with a food-specific `source_note` — do not invent a number.
+  - Values MUST come directly from a documented data source for **this food**.  
+  - Do **not** back‑calculate, estimate, or infer values from ontology tags, overview prose, a related food, or a substitute USDA record (e.g. canola for algal oil).  
+  - If a recognised substance lacks a defensible quantity, keep it as an extended qualitative row (`Present — quantity not established`, or an authorised-specification minimum) with a food-specific `source_note` — do not invent a number.  
+  - Product-label dosage is not universal per-100 g composition.
 
 - **Omit when not relevant**  
   - If a nutrient is not nutritionally relevant for the food (e.g. **fibre** and **sugar** in plain fish), **omit the field entirely** from `nutrition_per_100g`.  
@@ -236,15 +254,16 @@ nutrition_source:
 
 ## Canonical Source for Downstream Systems
 
-- Food‑level `nutrition_per_100g` is the **only** nutrition store used by:
+- Food‑level composition is stored in whichever valid representation the page uses (`nutrition_per_100g`, `nutrition_authorised_specifications`, and/or supported qualitative `nutrition_supplementary_sources`). Downstream systems that currently read only `nutrition_per_100g` must treat an empty object as “no USDA panel,” not as a measured zero panel.
   - recipe‑level nutrition calculations  
   - contribution level classification  
   - BRS and therapeutic‑area scoring
-- Any future changes to nutrient values MUST be made here; other layers should consume, not redefine, this data.
+- Any future changes to nutrient values MUST be made in the representation the page uses; other layers should consume, not redefine, this data.
+- This composition store is not a second “Three Sources of Truth.”
 
 ---
 
 ## Three Sources of Truth (canonical page layers)
 
-How the nutrition block relates to the **Overview** and **Substances list** is defined in `system/food-page-model.md`. Those three layers — Overview, Database nutrition table, Substances list — are the canonical Three Sources of Truth. The composition and provenance classes above do not replace them. Every Substances card requires a matching supported table row; not every table row requires a card.
+How the nutrition block relates to the **Overview** and **Substances list** is defined in `system/food-page-model.md`. Those three **rendered** layers — Overview, Database nutrition table, Substances list — are the canonical Three Sources of Truth. The composition and provenance classes above do not replace them and must not be labelled the Three Sources of Truth. Every rendered Substances card requires a matching **rendered** table row in whichever valid compositional representation the page uses; a hidden/internal record does not count; not every table row requires a card.
 

@@ -2,7 +2,7 @@
 id: apples
 title: Apples
 sidebar_label: Apples
-description: 'Pectin fiber, quercetin, and food matrix effects on insulin response'
+description: Whole fruit providing fibre, pectin, vitamin C and quercetin
 tags:
   - Food
   - Apples
@@ -63,31 +63,40 @@ nutrition_supplementary_sources:
       USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
       reports quercetin glycosides in Apples; a single defensible per-100 g
       value is not taken from the abbreviated USDA nutrient panel.
+  - key: pectin_qual
+    label: Pectin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    public_display: table
+    notes: >-
+      Soluble cell-wall polysaccharide; cultivar and extraction method vary.
+    source_note: >-
+      Liu et al. 2023 isolated pectin from 13 apple cultivars (peel, flesh and
+      core) as alcohol-insoluble, water-soluble and chelating-soluble fractions.
+      Yields and structure varied widely by cultivar. USDA SR Legacy (Apples,
+      raw, with skin; FDC 171688) reports total fibre 2.4 g/100 g and does not
+      quantify pectin. Extracted-fraction yields are not converted into a
+      USDA-style per-100 g number for this record.
 ---
 ## Overview
 
-Apples provide **pectin** (soluble fibre), **quercetin** and related flavonols, and **vitamin C** within an intact plant cell-wall matrix. Classic work shows that apple juice induces a substantially greater postprandial insulin response and lower satiety than either purée or the intact fruit, underscoring how food structure modulates metabolic responses [1].
+Apples provide **pectin**, **quercetin** and **vitamin C** in an intact fruit structure. Whole fruit is more filling and produces a smaller post-meal insulin response than apple juice [1].
 
-Within the BRAIN Diet framework, apples are best used as **whole fruit** rather than juice or heavily processed forms. Attenuated glycemic excursions from intact matrices may support more stable post-meal metabolic signalling relevant to cognitive energy availability [1,2]. Quercetin is among the most common dietary flavonols, with apples a major food source [3,4].
+Within the BRAIN Diet, apples are best eaten as whole fruit rather than juice. Leave the skin on when tolerated; much of the flavonol content is in the peel [3].
 
 ## Key Nutritional Highlights
 
-- Intact apple structure blunts postprandial glycemic and insulin responses compared with juice [1].
-- **Pectin** is the main soluble-fibre fraction of total fibre (2.4 g per 100 g); USDA SR Legacy does not report pectin separately [5].
-- **Quercetin** and related flavonols make apples a major dietary polyphenol source [3,4].
-- Low energy density (52 kcal per 100 g) suits whole-fruit snacking within mixed meals.
+- Whole fruit is more filling and blunts the post-meal insulin response compared with juice [1].
+- **Pectin** is present; USDA reports total fibre and does not quantify pectin [5].
+- **Quercetin** and related flavonols are concentrated in the peel [3].
+- Best eaten as whole fruit with the skin when tolerated.
 
 ## Food Context
-
-### Synergies
-
-- Pair with dietary fat within mixed meals when polyphenol absorption is a priority; fat can enhance uptake of some flavonoid classes [4].
-- Include as one component of diverse fruit and prebiotic-fibre intake rather than relying on apples alone [6].
 
 ### Preparation
 
 - Prefer whole fresh apples to preserve food-matrix benefits and blunt glycemic response [1].
-- Avoid juicing or heavy processing that removes fibre and disrupts cell-wall structure [1,5].
+- Avoid juicing or heavy processing that removes fibre and disrupts cell-wall structure [1].
 - Leave skin on when tolerated; much of the flavonol content concentrates in peel tissue [3].
 
 ## Recipes
@@ -102,14 +111,8 @@ Within the BRAIN Diet framework, apples are best used as **whole fruit** rather 
 
 ## References
 
-[1] Prefer whole fresh apples to preserve food-matrix benefits and blunt glycemic response. Haber & Heaton 1977. [DEPLETION AND DISRUPTION OF DIETARY FIBRE](/docs/papers/BRAIN-Diet-References#haber_depletion_1977)
+[1] Haber & Heaton (1977). [DEPLETION AND DISRUPTION OF DIETARY FIBRE](/docs/papers/BRAIN-Diet-References#haber_depletion_1977). In healthy adults, intact apple produced greater satiety and a smaller insulin response than apple juice; puree was intermediate.
 
-[2] Phytates are a type of organophosphorus compound produced in terrestrial ecosystems by plants. Gruber & Hanssen 2023. [Impact of insulin and insulin resistance on brain dopamine signalling and reward processing – An underexplored mechanism in the pathophysiology of depression?](/docs/papers/BRAIN-Diet-References#gruber_impact_2023)
+[3] Neveu & Perez-Jimenez (2010). [Phenol-Explorer: an online comprehensive database on polyphenol contents in foods](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010). Phenol-Explorer reports quercetin and related flavonols in apples, with higher values in peel than in flesh.
 
-[3] Leave skin on when tolerated; much of the flavonol content concentrates in peel tissue. Neveu & Perez-Jimenez 2010. [Phenol-Explorer: an online comprehensive database on polyphenol contents in foods](/docs/papers/BRAIN-Diet-References#neveu_phenol-explorer_2010)
-
-[4] Pair with dietary fat within mixed meals when polyphenol absorption is a priority; fat can enhance uptake of some flavonoid classes. Boots & Haenen 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
-
-[5] **Pectin** is the main soluble-fibre fraction of total fibre (2.4 g per 100 g); USDA SR Legacy does not report pectin separately. Holland & Ryden 2020. [Plant Cell Walls: Impact on Nutrient Bioaccessibility and Digestibility](/docs/papers/BRAIN-Diet-References#holland_plant_2020)
-
-[6] Include as one component of diverse fruit and prebiotic-fibre intake rather than relying on apples alone. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+[5] Liu et al. (2023). [A wide diversity exists in pectin structure from thirteen apple cultivars](/docs/papers/BRAIN-Diet-References#liu_apple_pectin_2023). Isolated pectin from 13 apple cultivars as alcohol-insoluble, water-soluble and chelating-soluble fractions; yields varied by cultivar and are not a USDA per-100 g pectin quantity, nor the 2.4 g total fibre on this page.

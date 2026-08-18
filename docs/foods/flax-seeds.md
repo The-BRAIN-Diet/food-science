@@ -102,6 +102,6 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-[1] Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder with high heterogeneity that can affect individuals of any age. NIH 2025. [Omega-3 conversion constraints and practical intake context](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
+[1] Reports on omega-3 Fatty Acids: Fact Sheet for Health Professionals. NIH 2025. [Omega-3 conversion constraints and practical intake context](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
 
 [2] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

@@ -87,7 +87,7 @@ Within the BRAIN Diet framework, saffron belongs with **concentrated herbs and s
 
 [2] \textlessp\textgreaterAnxiety, stress, and low mood are closely related and may contribute to depressive symptoms. Jackson & Forster 2021. [Saffron extract supplementation, mood, and psychosocial stress response in healthy adults (RCT)](/docs/papers/BRAIN-Diet-References#jackson_effects_2021)
 
-[3] Background:Calcium from different dairy sources might affect blood lipids and fecal fat excretion differently because of differences in the food matrix and nutritional composition. Chauhan & Tiwari 2024. [Comparative review of saffron for depression — neurotransmitter, anti-inflammatory, and neuroprotective mechanisms](/docs/papers/BRAIN-Diet-References#chauhan_saffron_2024)
+[3] Reports on exploring the Potential of Saffron as a Therapeutic Agent in Depression Treatment: A Comparative Review. Chauhan et al. 2024. [Comparative review of saffron for depression — neurotransmitter, anti-inflammatory, and neuroprotective mechanisms](/docs/papers/BRAIN-Diet-References#chauhan_saffron_2024)
 
 [4] Pilot ADHD trial data exist for saffron stigma at medicinal doses—not culinary pinches. Baziar & Aqamolaei 2019. [*Crocus sativus* vs methylphenidate in children with ADHD — randomized double-blind pilot (medicinal dosing)](/docs/papers/BRAIN-Diet-References#baziar_crocus_2019)
 

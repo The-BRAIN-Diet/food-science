@@ -115,9 +115,9 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 [3] Report recommending the Digestible Indispensable Amino Acid Score (DIAAS) as the preferred method for evaluating dietary protein quality, replacing PDCAAS, and detailing methodology and implications for human nutrition. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 
-[4] \textlessp\textgreaterThe global increase in demand for meat leads to substantial quantities of by-products, including edible offal from both wild and domesticated animals raised for diversified consumption products within an agricultural framework. Nicastro & Ross 2015. [Garlic and onions: their cancer prevention properties](/docs/papers/BRAIN-Diet-References#nicastro_garlic_onions_2015)
+[4] Reports on garlic and onions: their cancer prevention properties. Nicastro et al. 2015. [Garlic and onions: their cancer prevention properties](/docs/papers/BRAIN-Diet-References#nicastro_garlic_onions_2015)
 
-[5] \textlessp\textgreaterThe global increase in demand for meat leads to substantial quantities of by-products, including edible offal from both wild and domesticated animals raised for diversified consumption products within an agricultural framework. Rose & Whiteman 2005. [Bioactive S-alk(en)yl cysteine sulfoxide metabolites in Allium](/docs/papers/BRAIN-Diet-References#rose_allium_sulfoxides_2005)
+[5] Reports on bioactive S-alk(en)yl cysteine sulfoxide metabolites in the genus Allium. Rose et al. 2005. [Bioactive S-alk(en)yl cysteine sulfoxide metabolites in Allium](/docs/papers/BRAIN-Diet-References#rose_allium_sulfoxides_2005)
 
 [6] Use **herbs rich in polyphenols** (rosemary, thyme, oregano) in rubs and marinades; these traditional seasonings can help limit lipid oxidation during cooking while adding antioxidant compounds to the meal. Ahn & Grün 2007. [Effects of plant extracts on lipid oxidation and colour of cooked ground beef](/docs/papers/BRAIN-Diet-References#ahn_plant_extracts_beef_2007)
 

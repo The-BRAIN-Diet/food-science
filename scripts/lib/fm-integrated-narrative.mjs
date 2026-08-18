@@ -11,6 +11,11 @@ import {
   insertFailureModesInSection4,
 } from "./fm-failure-modes.mjs";
 import { FM_NARRATIVE_42_OVERRIDES } from "../data/brs1-3-fm-section4-overrides.mjs";
+import {
+  buildSupportingKcPoolMarkdown,
+  deriveFmKcUnion,
+  insertSupportingKcPoolListing,
+} from "./fm-supporting-kc-pools.mjs";
 
 /** Full §4 overrides for FMs that need custom 4.1 structure beyond PM bullets. */
 const FM_OVERRIDES = {
@@ -155,22 +160,26 @@ function resolveNarrative42(fmData, pms, kcs, legacy) {
 }
 
 export function buildIntegratedMechanisticBasis(fmData, oldSection4, rootDir, kcStressorMap = {}) {
+  const derived = deriveFmKcUnion(fmData, rootDir)
+  const listing = buildSupportingKcPoolMarkdown(derived.kcs)
+
   if (FM_OVERRIDES[fmData.fm_id]) {
     const evidence = extractEvidenceHighlightsBlock(oldSection4);
     const failure = buildFailureModesSection(fmData, kcStressorMap);
-    const base = FM_OVERRIDES[fmData.fm_id];
+    const base = insertSupportingKcPoolListing(`${FM_OVERRIDES[fmData.fm_id]}\n`, listing);
     return insertFailureModesInSection4(base, failure, evidence);
   }
 
   const pms = fmData.mechanisms_covered || [];
-  const kcs = fmData.key_constraints || [];
+  const kcs = derived.kcs;
   const evidence = extractEvidenceHighlightsBlock(oldSection4);
   const legacy = extractLegacyNarrative(oldSection4);
   const failure = buildFailureModesSection(fmData, kcStressorMap);
+  const listingBlock = listing ? `\n\n${listing}` : "";
 
   const core = `## 4. Mechanistic Basis (Integrated FM Narrative)
 
-${fmOpeningLine(fmData, pms.length)}
+${fmOpeningLine(fmData, pms.length)}${listingBlock}
 
 ### 4.1 Core Primary Mechanisms
 

@@ -479,6 +479,17 @@
     "inchikey": "",
     "list_image": ""
   },
+  "oleic-acid": {
+    "path": "nutrients/macronutrients/fatty-acids/mufas/oleic-acid.md",
+    "tags": [
+      "fatty-acid",
+      "mufa",
+      "nutrient"
+    ],
+    "title": "Oleic Acid",
+    "inchikey": "ZQPPMHVWECSIRJ-KTKRTIGZSA-N",
+    "list_image": ""
+  },
   "arachidonic-acid": {
     "path": "nutrients/macronutrients/fatty-acids/pufas/omega-6/arachidonic-acid.md",
     "tags": [

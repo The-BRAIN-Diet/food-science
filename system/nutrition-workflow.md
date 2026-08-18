@@ -2,7 +2,11 @@
 
 This document describes the **code that actually exists**. The scripts stay separate. They are not all chained by `nutrition:pipeline`.
 
-Canonical page layers (Three Sources of Truth) are defined in `system/food-page-model.md`. This workflow implements ingestion, curated enrichment, front-matter application, repair, validation, and post-apply layer reporting.
+Canonical page layers (Three Sources of Truth) are defined in `system/food-page-model.md`. This workflow implements ingestion, curated enrichment, front-matter application, repair, validation, and post-apply layer reporting. Composition/provenance classes and Intrinsic / Mechanism / Strategy are separate models.
+
+A food page must provide a **rendered compositional representation**, not necessarily a populated USDA-shaped `nutrition_per_100g` block. Valid representations are: populated `nutrition_per_100g` (standard database composition); `nutrition_authorised_specifications` (variable or formulated specialist products); or an explicitly supported qualitative `nutrition_supplementary_sources` block. An empty `nutrition_per_100g: {}` may remain as an implementation compatibility field; it is not the compositional source or the canonical requirement.
+
+Reconciliation scripts report; they **must not** automatically create Substance pages, invent rows, copy substitute USDA foods, or promote trace/internal records into rendered cards. Every rendered Substance card must still resolve to a rendered row in whichever valid representation the page uses.
 
 ---
 
@@ -42,6 +46,7 @@ That is **Script C then repair only**.
 - **USDA resolution:** `scripts/usda-map.json` (slug → search query), else slug with dashes replaced by spaces.
 - **When `USDA_API_KEY` is set:** Fetches USDA FoodData Central; inspects up to eight ranked candidates; keeps the richest mapped panel (`scripts/lib/usda-nutrient-extract.mjs`); writes `scripts/out/<slug>.json`.
 - **When `USDA_API_KEY` is not set:** Builds payload from existing front matter (no fetch).
+- **Do not use a substitute food.** If SR Legacy has no matching record, do not copy canola, another oil, or a related species. Skip specialist products (currently `algal-oil`) and represent source-specific authorised specifications instead of inventing a universal average.
 - **Options:** `--food <slug>`, `--out-dir <dir>` (default `scripts/out`), `--foods-dir <dir>` (default `docs/foods`).
 
 ---
@@ -62,7 +67,7 @@ That is **Script C then repair only**.
 
 **Apply rule:** If a missing Overview compound has a curated dataset entry, Script B may add it to `nutrition_supplementary_sources` on the **payload** (not the `.md` file).
 
-**Review queue:** Unresolved Overview compounds (no table match and no curated dataset entry) are written to `scripts/out/overview-enrichment-review.json`. Each item includes:
+**Review queue:** Unresolved Overview **identity** compounds (no rendered table match and no curated dataset entry) are written to `scripts/out/overview-enrichment-review.json`. Each item includes:
 
 - food slug
 - compound candidate
@@ -74,7 +79,20 @@ That is **Script C then repair only**.
 - proposed value, unit, and food basis
 - decision: `verified`, `unsupported`, `ambiguous`, or `requires-review`
 
-Script B must not fill proposed numeric values except from the curated dataset. Human review decides `unsupported` vs a later curated `verified` entry.
+Letter-scope remaining work is also recorded in `scripts/out/food-layer-a-research-queue.json` using the research-queue states in `system/food-page-model.md` (presence unresolved; presence resolved but quantity unresolved; quantity resolved but ontology admission unresolved; parent/derivative mapping unresolved; canonical Substance page absent; scope or formulation ambiguity). A supported qualitative row is **not** an Overview → table gap.
+
+**Two workflow enums remain separate.** They describe different stages and must not be collapsed into one enum:
+
+| Stage | What it records | Values |
+|-------|-----------------|--------|
+| **Script B** | Evidence-verification decision for an Overview compound against the curated dataset | `verified`, `unsupported`, `ambiguous`, `requires-review` |
+| **Letter audit** | Reconciliation state for remaining food–substance work | Presence unresolved; Presence resolved, quantity unresolved; Quantity resolved, ontology admission unresolved; Parent/derivative mapping unresolved; Canonical Substance page absent; Scope or formulation ambiguity |
+
+They should eventually have an explicit mapping. They do not need to become one enum now.
+
+Letter-audit **editorial records** (role, evidence type, recommended depth, and related fields) are a third schema in `system/food-page-letter-audit-schema.md`. They do not replace the two enums above, do not change reference rendering, and must not be pre-filled to begin the next letter batch. Citation correctness and citation relevance remain separate checks.
+
+Script B must not fill proposed numeric values except from the curated dataset. Human review decides `unsupported` vs a later curated `verified` entry. Do not invent rows or cards from Overview mentions.
 
 **Inputs:**
 
@@ -116,12 +134,14 @@ npm run nutrition:reconcile-layers
 
 This stage **does not silently create** canonical substance pages and **does not** promote trace database rows into the Substances list. It reports:
 
-- Substances cards without table rows
-- important Overview compounds without table rows
-- verified table compounds that may require cards
+- Substances cards without **rendered** table rows
+- important Overview **identity** compounds without rendered table rows
+- verified table compounds that may require cards (editorial; not auto-admitted)
 - synonym / canonical-ID resolution notes
 - **proposed** missing canonical substance pages
-- trace database rows that must not be auto-promoted
+- trace or internal database rows that must not be auto-promoted
+
+A supported qualitative row must not be classified as an Overview → table gap. Use `node scripts/audit-food-page-layers.mjs` for letter-scope classification into the research-queue states in `system/food-page-model.md`.
 
 Report path: `scripts/out/food-page-layer-reconciliation.json`.
 

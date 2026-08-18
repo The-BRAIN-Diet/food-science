@@ -2,12 +2,13 @@
 id: avocado
 title: Avocado
 sidebar_label: Avocado
-description: 'MUFA-rich fruit with vitamin E, lutein, and glutathione'
+description: Fibre-rich fruit with mostly monounsaturated fat, vitamin E and carotenoids
 tags:
   - Food
   - Avocado
   - Vegan
   - Vegetarian
+  - Oleic Acid
   - Vitamin E
   - Potassium
   - Lutein
@@ -31,6 +32,7 @@ nutrition_per_100g:
   vitamin_b2_mg: 0.13
   vitamin_k_ug: 21
   linoleic_g: 1.674
+  oleic_g: 9.066
   fat_g: 14.66
   lutein_zeaxanthin_ug: 271
   vitamin_b3_mg: 1.738
@@ -55,28 +57,30 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-16'
+public_display:
+  oleic_g: table
 main_image: /img/foods/avocado/avocado_medium.webp
 legacy_list_image: /img/foods/avocado/avocado_thumb.webp
 legacy_main_image: /img/foods/avocado/avocado_medium.webp
 ---
 ## Overview
 
-Avocado is a **monounsaturated-fat-rich** fruit providing oleic acid, fibre, potassium, and fat-soluble-friendly delivery of co-ingested carotenoids when eaten with vegetables [1,2]. Dietary fat supports chylomicron packaging of carotenoids and related absorption pathways [1].
+Avocado is a monounsaturated-fat-rich fruit providing **oleic acid**, fibre and potassium. Its fat helps the body absorb carotenoids from vegetables eaten in the same meal [1].
 
-Within the BRAIN Diet framework, avocado functions as a whole-food fat source that improves carotenoid bioavailability from salads and vegetable dishes [2], while contributing fibre and potassium at moderate energy density.
+Within the BRAIN Diet, avocado is a whole-food fat source for salads and mixed dishes, contributing fibre and potassium at moderate energy density.
 
 ## Key Nutritional Highlights
 
-- Monounsaturated-fat matrix supports carotenoid absorption from co-ingested vegetables [1,2].
-- Fibre (6.7 g) and potassium (485 mg) at moderate energy density (160 kcal per 100 g).
-- Whole-food fat source preferable to refined oils when the goal is meal-matrix micronutrient absorption [2].
+- **Oleic acid** is the main fat in the edible flesh.
+- Adding avocado to salad or salsa helps the body absorb carotenoids from those vegetables [1].
+- Also contributes fibre and potassium at moderate energy density.
 - Typical portions are much smaller than 100 g; nutrient totals scale with serving size.
+
 ## Food Context
 
 ### Synergies
 
-- Pair with carotenoid-rich vegetables for enhanced absorption: chylomicron formation and secretion ([Kindel et al., 2010](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)); higher salad carotenoid bioavailability with higher-fat than fat-reduced dressings ([Brown et al., 2004](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)).
-- Vitamin D (fat-soluble) bioavailability and fortification vehicles (including nonfat beverages) ([Tangpricha et al., 2003](/docs/papers/BRAIN-Diet-References#tangpricha_fortification_2003)).
+- Pair with carotenoid-rich vegetables: avocado fruit (and avocado oil in the companion trial) enhanced carotenoid absorption from salsa and salad [1].
 
 ### Preparation
 
@@ -95,8 +99,4 @@ Within the BRAIN Diet framework, avocado functions as a whole-food fat source th
 
 ## References
 
-[1] Dietary fat supports chylomicron packaging of carotenoids and related absorption pathways. Kindel & Lee 2010. [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
-
-[2] Whole-food fat source preferable to refined oils when the goal is meal-matrix micronutrient absorption. Brown & Ferruzzi 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
-
-[3] Neurological, neurodegenerative, and psychiatric disorders represent a serious burden because of their increasing prevalence, risk of disability, and the lack of effective causal/disease-modifying treatments. Tangpricha & Koutkia 2003. [Fortification of orange juice with vitamin D: a novel approach for enhancing vitamin D nutritional health](/docs/papers/BRAIN-Diet-References#tangpricha_fortification_2003)
+[1] Unlu et al. (2005). [Carotenoid Absorption from Salad and Salsa by Humans Is Enhanced by the Addition of Avocado or Avocado Oil](/docs/papers/BRAIN-Diet-References#unlu_carotenoid_2005). Adding avocado fruit or avocado oil to salsa or salad increased human absorption of lycopene, α-carotene, β-carotene and lutein versus the same meals without avocado lipid.

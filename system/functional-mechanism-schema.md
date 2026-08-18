@@ -219,12 +219,17 @@ Section **4. Mechanistic Basis (Integrated FM Narrative)** (`## 4.`) is the trai
 
 Section **4.** must include:
 
+- An opening sentence, then — when the FM’s constituent PMs have KC mappings — **Supporting Key Constraint Pools** (unnumbered; immediately after the opening sentence and before §4.1)
 - **`### 4.1 Core Primary Mechanisms`** — linked PM bullets with one contribution line each
 - **`### 4.2 Integrated Functional Narrative`** — per [§4.2 contract](#42-integrated-functional-narrative) above. **Type A (multi-PM):** how PMs combine + Functional Rationale. **Type B (single-PM anchor):** broader system state + Functional Rationale — see `system/single-pm-fm-rule.md`; do not use “Together,”
 - **`### 4.3 Suboptimal Function & Its Effects`** — per [§4.3 contract](#43-suboptimal-function--its-effects) above (required on all FM pages)
 - **`### 4.4 Evidence Highlights`** *(optional on non-canonical FMs; required on canonical full-template FMs)* — FM-level **mechanism-qualifying** evidence (rolls up child PM §5.1 entries after phenome content is stripped). **Same dropdown structure as PM §3** — each finding uses **Confidence**, **Evidence Level**, **Rationale**, **Key References** with per-study `dataLevel`. **Do not** include ADHD/phenome/outcome science here — that belongs in FM §3 `functional_outcome_context`. Populate via `npm run mechanisms:populate-fm-evidence -- --force` after child PM §5.1 is authored.
 
-`key_constraints` remain in **front matter** for ontology traversal and §4.2 shared-dependency synthesis — **not** for KC stressor rollups in §4.3.
+The displayed Key Constraint list is **derived from PM → KC mappings**: the union of `key_constraints` on constituent PMs, deduplicated by KC id. Do **not** list every KC of the parent BRS, maintain an independent FM→KC map, infer KCs from prose, or invent/rename KCs. FM front matter `key_constraints` may cache that union for ontology traversal; it is not an independent mapping. FMs whose PMs have no KC mappings render **no** empty pool section.
+
+Each rendered pool entry links the canonical KC page, names the PM(s) in this FM that rely on it, and adds one concise role sentence from the KC page (Constraint Role or summary). Restore via `node scripts/restore-fm-supporting-kc-pools.mjs`.
+
+`key_constraints` in front matter are **not** for KC stressor rollups in §4.3. Section **4.3** retains the narrative of what happens when these pools become inadequate; it is not the listing’s home.
 
 Within §4:
 
@@ -235,11 +240,12 @@ Within §4:
 
 **Use this structure (canonical full template):**
 
-1. Opening line (optional) introducing the integrated narrative
-2. **`### 4.1 Core Primary Mechanisms`** — linked PM list with contribution lines
-3. **`### 4.2 Integrated Functional Narrative`** — integration + Functional Rationale
-4. **`### 4.3 Suboptimal Function & Its Effects`** — capacity-loss consequences (not causes)
-5. **`### 4.4 Evidence Highlights`** — FM-level mechanism-qualifying evidence (canonical template)
+1. Opening line introducing the integrated narrative
+2. **Supporting Key Constraint Pools** *(omit entirely when no constituent PM maps a KC)* — PM-derived union; not a numbered 4.x subsection
+3. **`### 4.1 Core Primary Mechanisms`** — linked PM list with contribution lines
+4. **`### 4.2 Integrated Functional Narrative`** — integration + Functional Rationale
+5. **`### 4.3 Suboptimal Function & Its Effects`** — capacity-loss consequences (not causes); may still discuss these pools narratively
+6. **`### 4.4 Evidence Highlights`** — FM-level mechanism-qualifying evidence (canonical template)
 
 **Canonical examples:**
 
@@ -424,9 +430,9 @@ Numbered sections must stay contiguous. Optional `### 5.5 Evidence Highlights` n
 5. **Connected Mechanisms** — `## 5. Connected Mechanisms` — roll up from constituent PM connected-mechanisms sections; each bullet links a specific PM or FM page and includes a **one-sentence connection** after an em dash describing how that mechanism relates to this FM (see **BRS1(FM3)** canonical)
 6. **References** — `## 6. References` — `Author et al. (Year) — Topic` with bibliography links per **`system/brs-citation-reference-standard.md`**
 
-**Not on FM pages:** standalone `Primary Mechanisms (PMs)` or `KCs` index sections (PM/KC links live in §4.1/§4.2), `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, legacy `BRS Links` heading, or PM-level cofactor/dietary lever rollups — those belong on **PM pages** (§7–§9).
+**Not on FM pages:** standalone `Primary Mechanisms (PMs)` or `KCs` index sections (PM links live in §4.1; KC pools render as the unnumbered Supporting Key Constraint Pools block before §4.1), `Dietary Levers`, `Lifestyle Levers`, `Scoreable Inputs & Modulation Signals`, `Underlying Mechanisms and Requirements`, legacy `BRS Links` heading, or PM-level cofactor/dietary lever rollups — those belong on **PM pages** (§7–§9).
 
-`mechanisms_covered` and `key_constraints` remain in **front matter** for ontology traversal and §4.2 synthesis; PM links render in §4.1.
+`mechanisms_covered` remains in **front matter** for ontology traversal. `key_constraints` on the FM may cache the PM-derived union; the displayed list is always derived from constituent PM mappings. PM links render in §4.1.
 
 `timing_specific` (`Yes` | `No`) lives in **front matter only** for ontology traversal, filtering, and scoring — not as a public `## N. Timing Specific` section.
 
@@ -466,7 +472,9 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - Each Connected Mechanisms bullet must use: `[ID — Name](href) — one-sentence biological connection to this FM`. Do not list BRS hub pages without a specific PM/FM link and connection sentence.
 - `## 6. References` is required when references exist in front matter.
 - §4 must include `### 4.1 Core Primary Mechanisms`, `### 4.2 Integrated Functional Narrative`, `### 4.3 Suboptimal Function & Its Effects`, and `### 4.4 Evidence Highlights` (see `system/fm-schema-rollout-sequence.md`).
-- FM pages must **not** include `### 4.2 Supporting Biological Pools (Key Constraints)` — KC context belongs in front matter and §4.2 synthesis only.
+- When constituent PMs declare `key_constraints`, §4 must render **Supporting Key Constraint Pools** immediately after the opening paragraph and before `### 4.1`. The list is the PM → KC union (exact citation keys / KC ids; no array-position join; no neighbour fallback). Each entry must resolve to a canonical KC page. Duplicate KCs cannot render. FMs with no mapped KCs must not render an empty section.
+- A KC linked in §4.3 but absent from the PM-derived union fails validation (`fm_kc_43_not_in_pm_union`) and is recorded in `scripts/out/fm-kc-pool-reconciliation.json`. Do not silently infer it onto the list. A PM whose §4.1.3 body lists KCs without front-matter `key_constraints` is a mapping gap (`fm_pm_kc_mapping_gap`), not a source of inferred KCs.
+- FM pages must **not** include `### 4.2 Supporting Biological Pools (Key Constraints)` — that numbered slot is **Integrated Functional Narrative**. The restored pool listing is unnumbered and sits before §4.1.
 - FM pages must **not** include standalone `## N. Primary Mechanisms (PMs)` or `## N. KCs` sections — PM links belong in §4.1.
 - Claims in Mechanistic Basis and §4.1 must stay mechanistic / interpretive (`may`, `supports`, `associated with`) unless evidence supports stronger wording.
 - Where `scoring_interpretation` or similar content exists in YAML or tooling, it must not include formulas, equations, or numeric scoring logic.

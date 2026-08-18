@@ -20,10 +20,15 @@ const required = [
   "docs/foods",
   "scripts/food-page-letter-audit.mjs",
   "scripts/lib/food-page-letter-schedule.mjs",
+  "scripts/lib/food-citation-relevance-queue.mjs",
+  "scripts/data/food-citation-relevance-queue.json",
   "scripts/lib/food-page-validation.mjs",
   "scripts/run-food-audit-today.sh",
   "scripts/food-audit-try-deliver.sh",
+  "scripts/lib/food-page-letter-audit-schema.mjs",
+  "scripts/data/food-editorial-audit-records.json",
   "system/food-page-schema.md",
+  "system/food-page-letter-audit-schema.md",
   "system/food-page-audit-schedule.md",
   "docs/foods/dark-chocolate.md",
 ];
@@ -75,6 +80,7 @@ function run(cmd, args, label) {
 }
 
 run("node", ["scripts/food-page-letter-audit.mjs", "--schedule"], "node --schedule");
+run("node", ["scripts/food-page-letter-audit.mjs", "--schema"], "node --schema");
 run("npm", ["run", "food:audit:today"], "npm run food:audit:today");
 run("bash", ["scripts/run-food-audit-today.sh"], "bash scripts/run-food-audit-today.sh");
 

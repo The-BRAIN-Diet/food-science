@@ -1,0 +1,601 @@
+{
+  "generated_at": "2026-08-16T19:42:29.886Z",
+  "dry_run": false,
+  "derivation": "PM → KC union per FM",
+  "fms": [
+    {
+      "fm_id": "BRS-X(ECS-FM1)",
+      "file": "docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-fm1-endocannabinoidome-signalling-capacity-and-neuromodulatory-regulation.mdx",
+      "derived_kcs": [
+        "BRS-X(ECS-KC1)"
+      ],
+      "rendered_kcs": [
+        "BRS-X(ECS-KC1)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS-X(ECS-KC1)"
+      ],
+      "section_4_3_kcs": [
+        "BRS-X(ECS-KC1)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS-X(Hormones-FM1)",
+      "file": "docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation.mdx",
+      "derived_kcs": [
+        "BRS5(KC1)"
+      ],
+      "rendered_kcs": [
+        "BRS5(KC1)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS5(KC1)"
+      ],
+      "section_4_3_kcs": [
+        "BRS5(KC1)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS1(FM1)",
+      "file": "docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function.mdx",
+      "derived_kcs": [
+        "BRS1(KC1)"
+      ],
+      "rendered_kcs": [
+        "BRS1(KC1)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS1(KC1)"
+      ],
+      "section_4_3_kcs": [],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS1(FM2)",
+      "file": "docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function.mdx",
+      "derived_kcs": [
+        "BRS2(KC1)"
+      ],
+      "rendered_kcs": [
+        "BRS2(KC1)"
+      ],
+      "fm_front_matter_kcs": [],
+      "section_4_3_kcs": [],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": true,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS1(FM3)",
+      "file": "docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx",
+      "derived_kcs": [
+        "BRS2(KC1)"
+      ],
+      "rendered_kcs": [
+        "BRS2(KC1)"
+      ],
+      "fm_front_matter_kcs": [],
+      "section_4_3_kcs": [],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": true,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS1(FM4)",
+      "file": "docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation.mdx",
+      "derived_kcs": [
+        "BRS1(KC1)"
+      ],
+      "rendered_kcs": [
+        "BRS1(KC1)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS1(KC1)"
+      ],
+      "section_4_3_kcs": [
+        "BRS1(KC1)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS2(FM1)",
+      "file": "docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency.mdx",
+      "derived_kcs": [
+        "BRS2(KC1)",
+        "BRS2(KC2)"
+      ],
+      "rendered_kcs": [
+        "BRS2(KC1)",
+        "BRS2(KC2)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS2(KC1)",
+        "BRS2(KC2)"
+      ],
+      "section_4_3_kcs": [
+        "BRS2(KC1)",
+        "BRS2(KC2)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS2(FM2)",
+      "file": "docs/biological-targets/brs2/fm2/brs2-fm2-transsulfuration-redox-coupling.mdx",
+      "derived_kcs": [
+        "BRS2(KC2)"
+      ],
+      "rendered_kcs": [
+        "BRS2(KC2)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS2(KC2)"
+      ],
+      "section_4_3_kcs": [
+        "BRS2(KC2)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS2(FM3)",
+      "file": "docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling.mdx",
+      "derived_kcs": [
+        "BRS2(KC1)",
+        "BRS2(KC2)"
+      ],
+      "rendered_kcs": [
+        "BRS2(KC1)",
+        "BRS2(KC2)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS2(KC1)",
+        "BRS2(KC2)"
+      ],
+      "section_4_3_kcs": [
+        "BRS2(KC1)",
+        "BRS2(KC2)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS3(FM1)",
+      "file": "docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone.mdx",
+      "derived_kcs": [
+        "BRS3(KC1)"
+      ],
+      "rendered_kcs": [
+        "BRS3(KC1)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS3(KC1)"
+      ],
+      "section_4_3_kcs": [
+        "BRS3(KC1)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS3(FM2)",
+      "file": "docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity.mdx",
+      "derived_kcs": [
+        "BRS3(KC1)"
+      ],
+      "rendered_kcs": [
+        "BRS3(KC1)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS3(KC1)"
+      ],
+      "section_4_3_kcs": [],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS3(FM3)",
+      "file": "docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity.mdx",
+      "derived_kcs": [],
+      "rendered_kcs": [],
+      "fm_front_matter_kcs": [],
+      "section_4_3_kcs": [],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS4(FM1)",
+      "file": "docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics.mdx",
+      "derived_kcs": [
+        "BRS4(KC1)",
+        "BRS4(KC2)"
+      ],
+      "rendered_kcs": [
+        "BRS4(KC1)",
+        "BRS4(KC2)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS4(KC1)",
+        "BRS4(KC2)"
+      ],
+      "section_4_3_kcs": [
+        "BRS4(KC1)",
+        "BRS4(KC2)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS4(FM2)",
+      "file": "docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability.mdx",
+      "derived_kcs": [
+        "BRS4(KC2)"
+      ],
+      "rendered_kcs": [
+        "BRS4(KC2)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS4(KC2)"
+      ],
+      "section_4_3_kcs": [
+        "BRS4(KC2)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS4(FM3)",
+      "file": "docs/biological-targets/brs4/fm3/brs4-fm3-substrate-utilisation-flexibility.mdx",
+      "derived_kcs": [
+        "BRS4(KC1)",
+        "BRS4(KC2)"
+      ],
+      "rendered_kcs": [
+        "BRS4(KC1)",
+        "BRS4(KC2)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS4(KC1)",
+        "BRS4(KC2)"
+      ],
+      "section_4_3_kcs": [
+        "BRS4(KC1)",
+        "BRS4(KC2)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS4(FM4)",
+      "file": "docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation.mdx",
+      "derived_kcs": [
+        "BRS4(KC1)",
+        "BRS4(KC2)"
+      ],
+      "rendered_kcs": [
+        "BRS4(KC1)",
+        "BRS4(KC2)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS4(KC1)",
+        "BRS4(KC2)"
+      ],
+      "section_4_3_kcs": [
+        "BRS4(KC1)",
+        "BRS4(KC2)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS5(FM1)",
+      "file": "docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx",
+      "derived_kcs": [
+        "BRS5(KC1)",
+        "BRS5(KC3)",
+        "BRS5(KC2)"
+      ],
+      "rendered_kcs": [
+        "BRS5(KC1)",
+        "BRS5(KC3)",
+        "BRS5(KC2)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS5(KC1)",
+        "BRS5(KC3)"
+      ],
+      "section_4_3_kcs": [
+        "BRS5(KC1)",
+        "BRS5(KC3)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": true,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS5(FM2)",
+      "file": "docs/biological-targets/brs5/fm2/brs5-fm2-microbial-metabolite-signalling-capacity.mdx",
+      "derived_kcs": [
+        "BRS5(KC1)",
+        "BRS5(KC2)"
+      ],
+      "rendered_kcs": [
+        "BRS5(KC1)",
+        "BRS5(KC2)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS5(KC1)",
+        "BRS5(KC2)"
+      ],
+      "section_4_3_kcs": [
+        "BRS5(KC1)",
+        "BRS5(KC2)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS5(FM3)",
+      "file": "docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling.mdx",
+      "derived_kcs": [
+        "BRS5(KC1)",
+        "BRS5(KC3)"
+      ],
+      "rendered_kcs": [
+        "BRS5(KC1)",
+        "BRS5(KC3)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS5(KC1)"
+      ],
+      "section_4_3_kcs": [
+        "BRS5(KC1)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": true,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS6(FM1)",
+      "file": "docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability.mdx",
+      "derived_kcs": [
+        "BRS6(KC1)"
+      ],
+      "rendered_kcs": [
+        "BRS6(KC1)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS6(KC1)"
+      ],
+      "section_4_3_kcs": [
+        "BRS6(KC1)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS6(FM2)",
+      "file": "docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation.mdx",
+      "derived_kcs": [
+        "BRS6(KC1)",
+        "BRS6(KC2)"
+      ],
+      "rendered_kcs": [
+        "BRS6(KC1)",
+        "BRS6(KC2)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS6(KC1)",
+        "BRS6(KC2)"
+      ],
+      "section_4_3_kcs": [
+        "BRS6(KC1)",
+        "BRS6(KC2)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS6(FM3)",
+      "file": "docs/biological-targets/brs6/fm3/brs6-fm3-autonomic-balance-and-vagal-recovery-capacity.mdx",
+      "derived_kcs": [
+        "BRS6(KC2)"
+      ],
+      "rendered_kcs": [
+        "BRS6(KC2)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS6(KC2)"
+      ],
+      "section_4_3_kcs": [
+        "BRS6(KC2)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    },
+    {
+      "fm_id": "BRS6(FM4)",
+      "file": "docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation.mdx",
+      "derived_kcs": [
+        "BRS6(KC1)"
+      ],
+      "rendered_kcs": [
+        "BRS6(KC1)"
+      ],
+      "fm_front_matter_kcs": [
+        "BRS6(KC1)"
+      ],
+      "section_4_3_kcs": [
+        "BRS6(KC1)"
+      ],
+      "written": false,
+      "discrepancies": {
+        "cited_in_4_3_missing_from_union": [],
+        "front_matter_not_equal_to_union": false,
+        "unresolved_hrefs": [],
+        "pms_missing_canonical_mapping": [],
+        "missing_pm_pages": []
+      },
+      "issues": []
+    }
+  ],
+  "fms_with_no_mapped_kcs": [
+    "BRS3(FM3)"
+  ]
+}

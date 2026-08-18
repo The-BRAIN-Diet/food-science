@@ -119,6 +119,6 @@ Whole blended lemon recipes can be surprisingly palatable and functionally usefu
 
 ## References
 
-[1] Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder with high heterogeneity that can affect individuals of any age. Entezari & Maracy 2016. [Effect of garlic and lemon juice mixture on lipid profile and cardiovascular risk factors in moderate hyperlipidaemia](/docs/papers/BRAIN-Diet-References#entezari_garlic_lemon_hyperlipidaemia_2016)
+[1] Reports on effect of Garlic and Lemon Juice Mixture on Lipid Profile and Some Cardiovascular Risk Factors in People 30--60 Years Old with Moderate Hyperlipidaemia: A Randomized Clinical Trial. Entezari & Maracy 2016. [Effect of garlic and lemon juice mixture on lipid profile and cardiovascular risk factors in moderate hyperlipidaemia](/docs/papers/BRAIN-Diet-References#entezari_garlic_lemon_hyperlipidaemia_2016)
 
 [2] Citrus flavanones (e.g. **eriocitrin**, **hesperidin**) are part of lemon’s bioactive identity; exposure depends strongly on whether peel/pith are included. Gimenez-Bastida & Avila-Galvez 2021. [Comparative human pharmacokinetics of citrus flavanones eriocitrin and hesperidin](/docs/papers/BRAIN-Diet-References#gimenez-bastida_eriocitrin_hesperidin_pk_2021)

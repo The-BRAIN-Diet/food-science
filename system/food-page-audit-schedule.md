@@ -62,15 +62,28 @@ npm run food:audit:schedule
 
 # Force a letter batch
 node scripts/food-page-letter-audit.mjs --letters D,E,F
+
+# Editorial record schema (does not rewrite pages or start a batch)
+node scripts/food-page-letter-audit.mjs --schema
 ```
 
 ## What the audit checks
 
+Canonical structure (`system/food-page-schema.md`):
+
 - Canonical section order (Overview → Key Nutritional Highlights → Food Context → Recipes → Substances → References)
 - 3–6 Key Nutritional Highlights bullets
 - Required components (`<FoodRecipes />`, `<NutritionTable />`, `<FoodSubstancesFromTable />`)
-- **References:** every bullet must link to `/docs/papers/BRAIN-Diet-References#citationKey`
+- **References display:** bibliographic core is `[n] Author(s) (Year). [title](#citationKey)`; food pages may append a concise food-specific finding. Do not replace that core.
 - Essential Amino Acid Profile when protein ≥ 5 g/100 g
+
+Editorial records (`system/food-page-letter-audit-schema.md`) are a **separate** letter-audit output:
+
+- `role`, `meaningful_reference_count`, `evidence_types`, distinctive story or inclusion reason, missing research, material destined for a Substance page or future BRS Matrix, `recommended_depth`
+- Citation correctness and citation relevance are separate
+- The citation relevance queue is attached when present; do not replace those citations in a mechanical pass
+- Schema updates and canonical validation **do not** fill records or begin the next letter batch
+- Dump the schema: `node scripts/food-page-letter-audit.mjs --schema`
 
 ## Local Agent prompt (when the notification fires)
 
