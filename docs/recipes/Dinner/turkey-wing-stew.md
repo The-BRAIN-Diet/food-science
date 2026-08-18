@@ -19,7 +19,7 @@ tags:
   - Turmeric
   - Rosemary
 list_image: /img/recipes/turkey-wing-stew.jpg
-servings_unresolved: true
+servings: 3
 recipe_ingredients:
   - display: 2 large turkey wings (around 1 kg), yielding ~438 g meat
     food_slug: null
@@ -115,12 +115,35 @@ recipe_ingredients:
     calculation_weight_g: null
     included_in_default: false
     excluded_reason: water contributes no energy or nutrients
+  - display: leafy greens (optional, to serve)
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    optional: true
+    excluded_reason: an optional accompaniment with no stated quantity
+  - display: fermented vegetables (optional, to serve)
+    food_slug: null
+    calculation_weight_g: null
+    included_in_default: false
+    optional: true
+    excluded_reason: an optional accompaniment with no stated quantity
 nutrition_default_combination: "Nutrition calculation uses rosemary as the herb."
 nutrition_assumptions:
+  - >-
+    The pot is taken as three servings; the recipe does not state a number, and a
+    stew built on two turkey wings could reasonably be divided differently.
   - Sodium excludes salt added to taste.
   - >-
-    Gelatin and minerals extracted from the bones and cartilage during a 3–4 hour
-    simmer are not captured by a meat-only composition record.
+    These figures are calculated from composition records, not measured from the
+    finished stew. The model covers the turkey meat returned to the pot and the
+    stated oil, but a 3–4 hour simmer also draws fat, gelatin and other solids
+    from the bones, cartilage and skin into the broth, and a meat-only record
+    cannot quantify them. The energy actually eaten is therefore likely to be
+    somewhat higher than shown. No adjustment is applied, because none can be
+    made without a measured final yield or an analysis of the finished dish.
+  - >-
+    Optional leafy greens and fermented vegetables served alongside are excluded,
+    as is salt added to taste.
 ---
 <img src="/img/recipes/turkey-wing-stew.jpg" alt="Turkey wing stew in a bowl" width="480" />
 
@@ -166,7 +189,7 @@ This deeply nourishing stew is made from **slow-cooked turkey wings**, releasing
 
 <RecipeNutrition details={frontMatter} />
 
-Every ingredient has a weighed composition record, but the recipe does not say how many people it serves, and a stew built on two turkey wings could reasonably be two, three or four portions. An earlier untraced line gave ~450 kcal and 35 g protein per serving, which corresponds to no plausible division of the calculated pot.
+The pot is divided into three servings. The recipe does not state a number, so this is an editorial decision rather than something the ingredients determine; an earlier untraced line of ~450 kcal and 35 g protein per serving corresponds to no plausible division of the calculated pot and has been withdrawn.
 
 > Note: glycine and gelatin extracted from bone and cartilage depend on simmer time and are not captured by a meat-only composition record.
 
