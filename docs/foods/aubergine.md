@@ -42,8 +42,7 @@ nutrition_per_100g:
   vitamin_b5_mg: 0.281
   vitamin_b6_mg: 0.084
   selenium_ug: 0.3
-  ala_mg: 13
-  omega3_mg: 13
+  pufa_18_3_unresolved_mg: 13
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Eggplant, raw'

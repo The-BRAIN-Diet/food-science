@@ -47,6 +47,10 @@ nutrition_per_100g:
   lutein_zeaxanthin_ug: 222
   vitamin_e_mg: 2.32
   omega3_mg: 11
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 11
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Spices, cinnamon, ground'

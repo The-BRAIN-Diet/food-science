@@ -29,6 +29,10 @@ nutrition_per_100g:
   epa_mg: 0
   dha_mg: 0
   omega3_mg: 6
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 6
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Lemon juice from concentrate, bottled, REAL LEMON'

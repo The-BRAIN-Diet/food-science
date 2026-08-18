@@ -40,9 +40,8 @@ nutrition_per_100g:
   copper_mg: 0.958
   manganese_mg: 1.021
   sat_fat_g: 0.12
-  ala_mg: 988
   selenium_ug: 3.2
-  omega3_mg: 988
+  pufa_18_3_unresolved_mg: 279
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Beans, kidney, all types, mature seeds, raw'

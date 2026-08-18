@@ -13,28 +13,19 @@ tags:
   - Vitamin B3
   - Polysaccharides
 list_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_thumb.webp
-nutrition_per_100g:
-  kcal: 32.995442
-  protein_g: 2.18
-  fat_g: 0.4494
-  carbs_g: 6.7593
-  fibre_g: 3.139
-  calcium_mg: 0.4325
-  iron_mg: 0.7388
-  magnesium_mg: 10.49
-  potassium_mg: 375.9
-  zinc_mg: 0.4978
-  selenium_ug: 0.38
-  vitamin_b6_mg: 0.1054
-  ala_mg: 671
-  omega3_mg: 671
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Mushroom, beech'
-  fdc_id: 2003603
-  retrieval_method: API
-  basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+composition_status: withdrawn
+composition_withdrawn:
+  withdrawn_record: USDA FDC 2003603, 'Mushroom, beech'
+  identity_failure: species
+  reason: >-
+    The entire quantitative panel — energy, macronutrients, minerals and vitamin
+    B6 — was taken from a record for beech mushroom (Hypsizygus tessellatus),
+    the same record used on the reishi and turkey tail pages. Cordyceps is an
+    entomopathogenic fungus, and the material sold is usually cultivated
+    Cordyceps militaris stroma or a mycelial preparation, neither of which is a
+    culinary mushroom. No value here was ever a measurement of cordyceps.
+  queue: system/specialist-composition-review-queue.md
+  withdrawn_on: '2026-08-18'
 main_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_medium.webp
 legacy_list_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_thumb.webp
 legacy_main_image: /img/foods/cordyceps-mushroom/cordyceps-mushroom_medium.webp
@@ -46,14 +37,6 @@ nutrition_supplementary_sources:
     source_note: >-
       Cordyceps Mushroom is characterised by fungal polysaccharides; USDA SR
       Legacy has no record for this mushroom, so quantity is not established.
-  - key: vitamin_b3_qual
-    label: Vitamin B3
-    status: Present — quantity not established
-    amount_display: Present — quantity not established
-    source_note: >-
-      Cordyceps Mushroom is grouped with culinary mushrooms as a
-      niacin-containing fungus; USDA SR Legacy has no record for this specialty
-      mushroom, so quantity is not established.
 ---
 ## Overview
 

@@ -41,9 +41,8 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.017
   vitamin_b2_mg: 0.026
   protein_g: 0.26
-  ala_mg: 9
   vitamin_c_mg: 4.6
-  omega3_mg: 9
+  pufa_18_3_unresolved_mg: 9
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Apples, raw, with skin (Includes foods for USDA''s Food Distribution Program)'

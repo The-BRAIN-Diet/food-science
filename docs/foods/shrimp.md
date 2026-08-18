@@ -41,7 +41,20 @@ nutrition_per_100g:
   epa_mg: 68
   dha_mg: 70
   sat_fat_g: 0.261
-  omega3_mg: 144
+  omega3_mg: 150
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 70
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 68
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 6
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 6
 nutrition_source:
   database: USDA FoodData Central
   food_name: >-

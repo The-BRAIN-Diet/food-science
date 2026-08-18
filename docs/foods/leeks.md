@@ -27,7 +27,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.06
   vitamin_b2_mg: 0.03
   folate_ug: 64
-  ala_mg: 74
   fibre_g: 1.8
   iron_mg: 2.1
   magnesium_mg: 28
@@ -43,7 +42,7 @@ nutrition_per_100g:
   lutein_zeaxanthin_ug: 1900
   beta_carotene_ug: 1000
   vitamin_k_ug: 47
-  omega3_mg: 74
+  pufa_18_3_unresolved_mg: 99
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Leeks, (bulb and lower leaf-portion), raw'

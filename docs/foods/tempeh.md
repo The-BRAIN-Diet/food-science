@@ -42,9 +42,8 @@ nutrition_per_100g:
   vitamin_b5_mg: 0.278
   vitamin_b6_mg: 0.215
   fat_g: 10.8
-  ala_mg: 960
   tyrosine_g: 0.664
-  omega3_mg: 960
+  pufa_18_3_unresolved_mg: 248
 nutrition_source:
   database: USDA FoodData Central
   food_name: Tempeh

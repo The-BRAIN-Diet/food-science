@@ -17,7 +17,7 @@ nutrition_per_100g:
   capric_g: 0.018
   linoleic_g: 0.013
   sat_fat_g: 0.13
-  ala_mg: 116
+  ala_mg: 15
   folate_ug: 57
   vitamin_k_ug: 15.5
   protein_g: 1.92
@@ -43,7 +43,11 @@ nutrition_per_100g:
   vitamin_b5_mg: 0.667
   vitamin_b6_mg: 0.184
   choline_mg: 44.3
-  omega3_mg: 116
+  omega3_mg: 15
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 15
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Cauliflower, raw'

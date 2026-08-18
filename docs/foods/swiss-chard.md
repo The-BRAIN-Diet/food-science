@@ -34,7 +34,6 @@ nutrition_per_100g:
   sodium_mg: 213
   copper_mg: 0.179
   manganese_mg: 0.366
-  ala_mg: 110
   vitamin_c_mg: 30
   vitamin_b1_mg: 0.04
   vitamin_b2_mg: 0.09
@@ -51,7 +50,7 @@ nutrition_per_100g:
   vitamin_e_mg: 1.89
   sugar_g: 1.1
   lutein_zeaxanthin_ug: 11000
-  omega3_mg: 110
+  pufa_18_3_unresolved_mg: 7
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Chard, swiss, raw'

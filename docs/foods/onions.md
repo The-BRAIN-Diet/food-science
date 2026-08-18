@@ -32,7 +32,6 @@ nutrition_per_100g:
   vitamin_b2_mg: 0.027
   folate_ug: 19
   vitamin_k_ug: 0.4
-  ala_mg: 21
   sat_fat_g: 0.042
   protein_g: 1.1
   fibre_g: 1.7
@@ -43,7 +42,7 @@ nutrition_per_100g:
   copper_mg: 0.039
   manganese_mg: 0.129
   beta_carotene_ug: 1
-  omega3_mg: 21
+  pufa_18_3_unresolved_mg: 4
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Onions, raw'

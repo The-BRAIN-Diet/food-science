@@ -40,7 +40,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.037
   vitamin_b2_mg: 0.041
   folate_ug: 6
-  ala_mg: 31
   fibre_g: 2.4
   iron_mg: 0.28
   magnesium_mg: 6
@@ -50,7 +49,7 @@ nutrition_per_100g:
   vitamin_a_rae_ug: 3
   beta_carotene_ug: 32
   protein_g: 0.74
-  omega3_mg: 31
+  pufa_18_3_unresolved_mg: 58
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Blueberries, raw'

@@ -39,9 +39,8 @@ nutrition_per_100g:
   choline_mg: 28.8
   fibre_g: 2
   sat_fat_g: 0.203
-  ala_mg: 31
   selenium_ug: 0.7
-  omega3_mg: 31
+  pufa_18_3_unresolved_mg: 34
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Ginger root, raw'

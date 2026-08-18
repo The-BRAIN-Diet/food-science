@@ -56,9 +56,9 @@ interface NutritionTableProps {
   details: FrontMatter
 }
 
-/** Caption under “Fatty acids and extended BRAIN-relevant substances”. */
-export const EXTENDED_TABLE_CAPTION =
-  "Individual fatty acids and other BRAIN-relevant constituents with a defensible quantity or explicit qualitative status. Asterisks (*) identify supplementary sources below. Unquantified or trace constituents are not automatically admitted to the Substances list."
+/** Caption under “Bioactive compounds”. */
+export const BIOACTIVE_TABLE_CAPTION =
+  "Explicitly identified compounds, including individual fatty acids, with a defensible quantity or an explicit qualitative status. Asterisks (*) identify supplementary sources below. Unquantified or trace constituents are not automatically admitted to the Substances list."
 
 /**
  * Reference daily intakes come from the canonical set in
@@ -312,7 +312,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
 
       {microRows.length > 0 && (
         <>
-          <h3>Vitamins and minerals</h3>
+          <h3>Key vitamins and minerals</h3>
           <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
             <thead>
               <tr>
@@ -328,9 +328,9 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
 
       {hasBioactiveSection && (
         <>
-          <h3>Fatty acids and extended BRAIN-relevant substances</h3>
+          <h3>Bioactive compounds</h3>
           <p style={{fontSize: "0.9em", color: "#555", marginTop: "0.5rem"}}>
-            {EXTENDED_TABLE_CAPTION}
+            {BIOACTIVE_TABLE_CAPTION}
           </p>
           <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
             <thead>
@@ -348,7 +348,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
 
           {hasSupplementary && (
             <div style={{marginTop: "0.75rem", fontSize: "0.9em", color: "#555"}}>
-              <strong>Source notes (extended / supplementary):</strong>
+              <strong>Source notes (supplementary):</strong>
               <ul style={{marginTop: "0.25rem", marginBottom: 0, paddingLeft: "1.25rem"}}>
                 {supplementary.map((sup) => (
                   <li key={sup.key}>

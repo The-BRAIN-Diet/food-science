@@ -41,11 +41,21 @@ nutrition_per_100g:
   vitamin_b2_mg: 0.312
   folate_ug: 1
   vitamin_b12_ug: 8.71
-  ala_mg: 1125
   dha_mg: 1401
   epa_mg: 898
   selenium_ug: 44.1
-  omega3_mg: 3424
+  omega3_mg: 2511
+  pufa_18_3_unresolved_mg: 159
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 1401
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 898
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 212
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Fish, mackerel, Atlantic, raw'

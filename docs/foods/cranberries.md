@@ -42,11 +42,10 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.012
   vitamin_b2_mg: 0.02
   folate_ug: 1
-  ala_mg: 49
   vitamin_a_rae_ug: 3
   sodium_mg: 2
   magnesium_mg: 6
-  omega3_mg: 49
+  pufa_18_3_unresolved_mg: 22
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Cranberries, raw'

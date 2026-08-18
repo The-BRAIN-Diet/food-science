@@ -37,7 +37,6 @@ nutrition_per_100g:
   copper_mg: 0.149
   manganese_mg: 0.16
   sat_fat_g: 0.132
-  ala_mg: 195
   vitamin_c_mg: 133
   vitamin_b1_mg: 0.086
   vitamin_b2_mg: 0.098
@@ -46,7 +45,7 @@ nutrition_per_100g:
   sugar_g: 0.85
   beta_carotene_ug: 5054
   selenium_ug: 0.1
-  omega3_mg: 195
+  pufa_18_3_unresolved_mg: 8
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Parsley, fresh'

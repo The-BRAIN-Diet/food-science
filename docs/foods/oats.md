@@ -33,7 +33,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.763
   vitamin_b2_mg: 0.139
   folate_ug: 56
-  ala_mg: 881
   fat_g: 6.9
   carbs_g: 66.27
   kcal: 389
@@ -44,7 +43,7 @@ nutrition_per_100g:
   vitamin_b5_mg: 1.349
   linoleic_g: 2.424
   vitamin_b6_mg: 0.119
-  omega3_mg: 881
+  pufa_18_3_unresolved_mg: 111
 nutrition_source:
   database: USDA FoodData Central
   food_name: Oats (Includes foods for USDA's Food Distribution Program)

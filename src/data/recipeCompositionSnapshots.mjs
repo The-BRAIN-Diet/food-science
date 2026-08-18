@@ -130,7 +130,14 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "capric_g": 0.02,
       "oleic_g": 0.004,
       "selenium_ug": 0.1,
-      "omega3_mg": 9
+      "omega3_mg": 9,
+      "omega3_components": [
+        {
+          "nutrient": "ala_mg",
+          "identity": "18:3 n-3 (ALA)",
+          "amount_mg": 9
+        }
+      ]
     }
   },
   "vegetable-broth": {
@@ -186,7 +193,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "choline_mg": 17.6,
       "oleic_g": 0.031,
       "linoleic_g": 0.082,
-      "ala_mg": 4,
+      "pufa_18_3_unresolved_mg": 4,
       "vitamin_k_ug": 3.4,
       "sat_fat_g": 0.029,
       "vitamin_a_rae_ug": 26,
@@ -218,8 +225,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "leucine_g": 0.046,
       "lysine_g": 0.048,
       "arginine_g": 0.032,
-      "vitamin_b6_mg": 0.126,
-      "omega3_mg": 4
+      "vitamin_b6_mg": 0.126
     }
   },
   "white-wine-table": {
@@ -268,7 +274,6 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "calcium_mg": 13,
       "oleic_g": 0.168,
       "linoleic_g": 0.538,
-      "ala_mg": 36,
       "lutein_zeaxanthin_ug": 94,
       "vitamin_b3_mg": 3.126,
       "vitamin_b5_mg": 0.268,
@@ -297,8 +302,16 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "methionine_g": 0.097,
       "tyrosine_g": 0.156,
       "glycine_g": 0.217,
+      "ala_mg": 36,
       "choline_mg": 6.5,
-      "omega3_mg": 36
+      "omega3_mg": 36,
+      "omega3_components": [
+        {
+          "nutrient": "ala_mg",
+          "identity": "18:3 n-3 (ALA)",
+          "amount_mg": 36
+        }
+      ]
     }
   },
   "pasta-wholewheat-dry": {
@@ -336,7 +349,14 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "zinc_mg": 2.97,
       "selenium_ug": 77.6,
       "vitamin_e_mg": 0.46,
-      "omega3_mg": 70
+      "omega3_mg": 70,
+      "omega3_components": [
+        {
+          "nutrient": "ala_mg",
+          "identity": "18:3 n-3 (ALA)",
+          "amount_mg": 70
+        }
+      ]
     }
   },
   "quinoa-cooked": {
@@ -382,8 +402,15 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "choline_mg": 23,
       "oleic_g": 0.465,
       "linoleic_g": 0.974,
-      "ala_mg": 85,
-      "omega3_mg": 100
+      "pufa_18_3_unresolved_mg": 85,
+      "omega3_mg": 15,
+      "omega3_components": [
+        {
+          "nutrient": "dha_mg",
+          "identity": "22:6 n-3 (DHA)",
+          "amount_mg": 15
+        }
+      ]
     }
   },
   "buckwheat-cooked": {
@@ -413,7 +440,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "capric_g": 0.003,
       "oleic_g": 0.179,
       "linoleic_g": 0.174,
-      "ala_mg": 14,
+      "pufa_18_3_unresolved_mg": 14,
       "protein_g": 3.38,
       "vitamin_b1_mg": 0.04,
       "vitamin_b2_mg": 0.039,
@@ -431,8 +458,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "glycine_g": 0.263,
       "caprylic_g": 0.006,
       "choline_mg": 20.1,
-      "selenium_ug": 2.2,
-      "omega3_mg": 14
+      "selenium_ug": 2.2
     }
   },
   "lentils-cooked": {
@@ -478,9 +504,8 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "arginine_g": 0.697,
       "oleic_g": 0.061,
       "linoleic_g": 0.137,
-      "ala_mg": 37,
-      "selenium_ug": 2.8,
-      "omega3_mg": 37
+      "pufa_18_3_unresolved_mg": 37,
+      "selenium_ug": 2.8
     }
   },
   "black-beans-canned-low-sodium": {
@@ -526,8 +551,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "arginine_g": 0.331,
       "oleic_g": 0.025,
       "linoleic_g": 0.068,
-      "ala_mg": 57,
-      "omega3_mg": 57
+      "pufa_18_3_unresolved_mg": 57
     }
   },
   "celery-raw": {
@@ -626,7 +650,14 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "methionine_g": 0.018,
       "tyrosine_g": 0.032,
       "glycine_g": 0.046,
-      "omega3_mg": 61
+      "omega3_mg": 61,
+      "omega3_components": [
+        {
+          "nutrient": "ala_mg",
+          "identity": "18:3 n-3 (ALA)",
+          "amount_mg": 61
+        }
+      ]
     }
   },
   "cumin-seed": {
@@ -658,7 +689,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "capric_g": 0.018,
       "oleic_g": 13.618,
       "linoleic_g": 3.103,
-      "ala_mg": 176,
+      "pufa_18_3_unresolved_mg": 176,
       "selenium_ug": 5.2,
       "beta_carotene_ug": 762,
       "vitamin_k_ug": 5.4,
@@ -668,8 +699,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "vitamin_a_rae_ug": 64,
       "choline_mg": 24.7,
       "folate_ug": 10,
-      "vitamin_b6_mg": 0.435,
-      "omega3_mg": 176
+      "vitamin_b6_mg": 0.435
     }
   },
   "paprika": {
@@ -715,11 +745,18 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "vitamin_b6_mg": 2.141,
       "oleic_g": 1.603,
       "linoleic_g": 7.314,
-      "ala_mg": 453,
       "carbs_g": 53.99,
       "kcal": 282,
+      "ala_mg": 453,
       "sat_fat_g": 2.14,
-      "omega3_mg": 453
+      "omega3_mg": 453,
+      "omega3_components": [
+        {
+          "nutrient": "ala_mg",
+          "identity": "18:3 n-3 (ALA)",
+          "amount_mg": 453
+        }
+      ]
     }
   },
   "coriander-seed": {
@@ -765,7 +802,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "sugar_g": 2.76,
       "vitamin_k_ug": 99.8,
       "choline_mg": 64.2,
-      "ala_mg": 268,
+      "ala_mg": 255,
       "sat_fat_g": 1.648,
       "caprylic_g": 0.013,
       "fibre_g": 53.2,
@@ -802,7 +839,14 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "leucine_g": 0.89,
       "lysine_g": 0.7,
       "arginine_g": 0.89,
-      "omega3_mg": 268
+      "omega3_mg": 255,
+      "omega3_components": [
+        {
+          "nutrient": "ala_mg",
+          "identity": "18:3 n-3 (ALA)",
+          "amount_mg": 255
+        }
+      ]
     }
   },
   "raisins-dark-seedless": {
@@ -842,7 +886,14 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "vitamin_e_mg": 0.12,
       "vitamin_b3_mg": 0.766,
       "vitamin_b6_mg": 0.174,
-      "omega3_mg": 14
+      "omega3_mg": 14,
+      "omega3_components": [
+        {
+          "nutrient": "ala_mg",
+          "identity": "18:3 n-3 (ALA)",
+          "amount_mg": 14
+        }
+      ]
     }
   },
   "arugula-raw": {
@@ -855,7 +906,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "sat_fat_g": 0.086,
       "oleic_g": 0.046,
       "linoleic_g": 0.13,
-      "ala_mg": 170,
+      "pufa_18_3_unresolved_mg": 170,
       "sugar_g": 2.05,
       "carbs_g": 3.65,
       "vitamin_e_mg": 0.43,
@@ -884,8 +935,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "selenium_ug": 0.3,
       "choline_mg": 15.3,
       "kcal": 25,
-      "vitamin_a_rae_ug": 119,
-      "omega3_mg": 170
+      "vitamin_a_rae_ug": 119
     }
   },
   "salmon-wild-cooked": {
@@ -914,6 +964,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "sat_fat_g": 1.257,
       "dha_mg": 1429,
       "epa_mg": 411,
+      "dpa_mg": 368,
       "fat_g": 8.13,
       "kcal": 182,
       "calcium_mg": 15,
@@ -927,9 +978,26 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "arginine_g": 1.522,
       "oleic_g": 1.732,
       "linoleic_g": 0.22,
-      "ala_mg": 378,
+      "pufa_18_3_unresolved_mg": 378,
       "selenium_ug": 46.8,
-      "omega3_mg": 2218
+      "omega3_mg": 2208,
+      "omega3_components": [
+        {
+          "nutrient": "epa_mg",
+          "identity": "20:5 n-3 (EPA)",
+          "amount_mg": 411
+        },
+        {
+          "nutrient": "dpa_mg",
+          "identity": "22:5 n-3 (DPA)",
+          "amount_mg": 368
+        },
+        {
+          "nutrient": "dha_mg",
+          "identity": "22:6 n-3 (DHA)",
+          "amount_mg": 1429
+        }
+      ]
     }
   },
   "salmon-farmed-cooked": {
@@ -943,13 +1011,14 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "choline_mg": 90.5,
       "vitamin_e_mg": 1.14,
       "capric_g": 0.005,
+      "dpa_mg": 170,
       "vitamin_a_rae_ug": 69,
       "vitamin_d_ug": 13.1,
       "vitamin_k_ug": 0.1,
       "sat_fat_g": 2.397,
       "oleic_g": 2.046,
       "linoleic_g": 0.666,
-      "ala_mg": 113,
+      "pufa_18_3_unresolved_mg": 113,
       "vitamin_b3_mg": 8.045,
       "vitamin_b5_mg": 1.475,
       "vitamin_b6_mg": 0.647,
@@ -979,7 +1048,24 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "manganese_mg": 0.016,
       "selenium_ug": 41.4,
       "kcal": 206,
-      "omega3_mg": 2260
+      "omega3_mg": 2317,
+      "omega3_components": [
+        {
+          "nutrient": "epa_mg",
+          "identity": "20:5 n-3 (EPA)",
+          "amount_mg": 690
+        },
+        {
+          "nutrient": "dpa_mg",
+          "identity": "22:5 n-3 (DPA)",
+          "amount_mg": 170
+        },
+        {
+          "nutrient": "dha_mg",
+          "identity": "22:6 n-3 (DHA)",
+          "amount_mg": 1457
+        }
+      ]
     }
   },
   "sweetcorn-canned-drained": {
@@ -1029,7 +1115,14 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "selenium_ug": 0.6,
       "magnesium_mg": 13,
       "phosphorus_mg": 46,
-      "omega3_mg": 18
+      "omega3_mg": 18,
+      "omega3_components": [
+        {
+          "nutrient": "ala_mg",
+          "identity": "18:3 n-3 (ALA)",
+          "amount_mg": 18
+        }
+      ]
     }
   },
   "duck-meat-roasted": {
@@ -1042,7 +1135,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "choline_mg": 65,
       "oleic_g": 3.369,
       "linoleic_g": 1.341,
-      "ala_mg": 146,
+      "pufa_18_3_unresolved_mg": 146,
       "vitamin_d_ug": 0.1,
       "vitamin_a_rae_ug": 23,
       "sat_fat_g": 3.951,
@@ -1074,8 +1167,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "folate_ug": 10,
       "vitamin_b12_ug": 0.4,
       "vitamin_e_mg": 0.7,
-      "vitamin_k_ug": 3.8,
-      "omega3_mg": 146
+      "vitamin_k_ug": 3.8
     }
   },
   "duck-breast-meat-skin-roasted": {
@@ -1104,8 +1196,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "arginine_g": 1.548,
       "oleic_g": 4.939,
       "linoleic_g": 1.496,
-      "ala_mg": 70,
-      "omega3_mg": 70
+      "pufa_18_3_unresolved_mg": 70
     }
   },
   "duck-breast-meat-only-cooked": {
@@ -1125,7 +1216,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "arginine_g": 1.744,
       "oleic_g": 0.792,
       "linoleic_g": 0.302,
-      "ala_mg": 12,
+      "pufa_18_3_unresolved_mg": 12,
       "iron_mg": 4.49,
       "sodium_mg": 105,
       "vitamin_c_mg": 3.2,
@@ -1134,8 +1225,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "tyrosine_g": 1.042,
       "glycine_g": 1.532,
       "sat_fat_g": 0.578,
-      "protein_g": 27.6,
-      "omega3_mg": 12
+      "protein_g": 27.6
     }
   },
   "turkey-wing-roasted": {
@@ -1162,7 +1252,6 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "capric_g": 0.004,
       "oleic_g": 0.556,
       "linoleic_g": 0.426,
-      "ala_mg": 20,
       "tryptophan_g": 0.287,
       "methionine_g": 0.705,
       "tyrosine_g": 0.801,
@@ -1170,6 +1259,8 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "sat_fat_g": 0.593,
       "dha_mg": 4,
       "epa_mg": 4,
+      "dpa_mg": 5,
+      "ala_mg": 20,
       "protein_g": 26.97,
       "iron_mg": 0.55,
       "magnesium_mg": 30,
@@ -1183,7 +1274,29 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "vitamin_b2_mg": 0.208,
       "folate_ug": 9,
       "vitamin_b12_ug": 1.7,
-      "omega3_mg": 28
+      "omega3_mg": 33,
+      "omega3_components": [
+        {
+          "nutrient": "ala_mg",
+          "identity": "18:3 n-3 (ALA)",
+          "amount_mg": 20
+        },
+        {
+          "nutrient": "epa_mg",
+          "identity": "20:5 n-3 (EPA)",
+          "amount_mg": 4
+        },
+        {
+          "nutrient": "dpa_mg",
+          "identity": "22:5 n-3 (DPA)",
+          "amount_mg": 5
+        },
+        {
+          "nutrient": "dha_mg",
+          "identity": "22:6 n-3 (DHA)",
+          "amount_mg": 4
+        }
+      ]
     }
   },
   "beets-cooked": {
@@ -1225,14 +1338,13 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "arginine_g": 0.044,
       "oleic_g": 0.035,
       "linoleic_g": 0.058,
-      "ala_mg": 5,
+      "pufa_18_3_unresolved_mg": 5,
       "fibre_g": 2,
       "beta_carotene_ug": 21,
       "vitamin_k_ug": 0.2,
       "sugar_g": 7.96,
       "vitamin_e_mg": 0.04,
-      "selenium_ug": 0.7,
-      "omega3_mg": 5
+      "selenium_ug": 0.7
     }
   },
   "thyme-fresh": {
@@ -1268,13 +1380,12 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "capric_g": 0.021,
       "oleic_g": 0.081,
       "linoleic_g": 0.085,
-      "ala_mg": 447,
+      "pufa_18_3_unresolved_mg": 447,
       "vitamin_b3_mg": 1.824,
       "vitamin_b5_mg": 0.409,
       "vitamin_b6_mg": 0.348,
       "vitamin_a_rae_ug": 238,
-      "beta_carotene_ug": 2851,
-      "omega3_mg": 447
+      "beta_carotene_ug": 2851
     }
   },
   "balsamic-vinegar": {
@@ -1346,7 +1457,14 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "potassium_mg": 1320,
       "zinc_mg": 3.64,
       "selenium_ug": 55.8,
-      "omega3_mg": 223
+      "omega3_mg": 223,
+      "omega3_components": [
+        {
+          "nutrient": "ala_mg",
+          "identity": "18:3 n-3 (ALA)",
+          "amount_mg": 223
+        }
+      ]
     }
   },
   "salt-table": {
@@ -1382,7 +1500,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "zinc_mg": 0.16,
       "oleic_g": 0.058,
       "linoleic_g": 0.398,
-      "ala_mg": 3,
+      "pufa_18_3_unresolved_mg": 3,
       "vitamin_b3_mg": 0.178,
       "vitamin_b5_mg": 0.11,
       "vitamin_b6_mg": 0.154,
@@ -1412,8 +1530,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
       "selenium_ug": 0.5,
       "sugar_g": 0.13,
       "vitamin_e_mg": 0.01,
-      "lutein_zeaxanthin_ug": 10,
-      "omega3_mg": 3
+      "lutein_zeaxanthin_ug": 10
     }
   }
 }

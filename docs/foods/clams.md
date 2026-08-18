@@ -42,7 +42,20 @@ nutrition_per_100g:
   copper_mg: 0.053
   manganese_mg: 0.085
   vitamin_a_rae_ug: 90
-  omega3_mg: 122
+  omega3_mg: 129
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 64
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 43
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 7
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 15
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Mollusks, clam, mixed species, raw'

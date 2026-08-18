@@ -29,6 +29,10 @@ nutrition_per_100g:
   caproic_g: 0.477
   capric_g: 5.39
   omega3_mg: 19
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 19
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Oil, coconut'

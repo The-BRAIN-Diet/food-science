@@ -22,7 +22,6 @@ nutrition_per_100g:
   choline_mg: 12.8
   kcal: 43
   vitamin_c_mg: 3
-  ala_mg: 122
   fibre_g: 1.3
   iron_mg: 2.85
   magnesium_mg: 121
@@ -45,7 +44,12 @@ nutrition_per_100g:
   potassium_mg: 89
   zinc_mg: 1.23
   selenium_ug: 0.7
-  omega3_mg: 126
+  omega3_mg: 4
+  pufa_18_3_unresolved_mg: 4
+omega3_components:
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 4
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seaweed, kelp, raw'

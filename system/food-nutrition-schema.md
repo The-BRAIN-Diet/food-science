@@ -61,12 +61,50 @@ Units are **fixed by field name**:
 
 - **oleic_g** – g oleic acid (18:1 n-9) per 100 g. Stored when a named USDA or specialist panel reports it. Remains **internal** unless tagged or `public_display.oleic_g: table`. A public oleic row is not an automatic Substances card.  
 - **linoleic_g** – g linoleic acid (18:2 n-6 cis,cis) per 100 g  
-- **ala_mg** – mg ALA per 100 g  
-- **epa_mg** – mg EPA per 100 g  
-- **dha_mg** – mg DHA per 100 g  
-- **omega3_mg** – mg total long‑chain + ALA omega‑3 per 100 g (aggregate; not a substance card)
+- **ala_mg** – mg alpha-linolenic acid, **18:3 n-3**, per 100 g  
+- **epa_mg** – mg eicosapentaenoic acid, **20:5 n-3**, per 100 g  
+- **dha_mg** – mg docosahexaenoic acid, **22:6 n-3**, per 100 g  
+- **omega3_mg** – mg total omega‑3 per 100 g (aggregate; not a substance card). Requires `omega3_components`.  
+- **pufa_18_3_unresolved_mg** – mg of an 18:3 the source reported **without stating the isomer**. Internal only.
 
 These fields form the **standard database compositional panel** when that representation is used, stored in `nutrition_per_100g`. Do **not** invent a value because a substance page, Overview sentence, or related food mentions the compound. Future schema extensions MUST be documented here before use. Specialist pages that use authorised specifications instead must not populate this panel from a substitute food.
+
+---
+
+### Omega‑3 identity rules
+
+Ninety-six food pages once published an amino acid as an omega‑3, because `ala_mg` had been filled from any field whose name resembled "ALA". These rules exist so that cannot recur.
+
+**ALA is alpha-linolenic acid, 18:3 n-3, and nothing else.**
+
+- **Alanine, beta-alanine and phenylalanine are amino acids.** They may never populate `ala_mg`, whatever the resemblance in name.
+- **An unqualified `18:3` is not ALA.** A carbon count states chain length and double bonds, not which isomer; 18:3 n-6 is gamma-linolenic acid, a different compound with different biology. Store it as `pufa_18_3_unresolved_mg`.
+- **Identity comes from the source's nutrient identifier where one exists**, not from name matching. In USDA FoodData Central the only identifiers stating an n-3 isomer are `1404` (18:3 n-3, ALA), `1278` (20:5 n-3, EPA), `1280` (22:5 n-3, DPA), `1272` (22:6 n-3, DHA), `1405` (20:3 n-3) and `1407` (20:4 n-3). Identifier `1270` is the unqualified 18:3. Identifiers `2018`, `2023`, `2024` and `2025` name a cis form without an n-position and are **not** explicit n-3.
+- **Missing means unreported.** Where a source does not identify the isomer, the field is omitted. It is never written as zero, and never approximated from a related food.
+
+**Three different quantities, never conflated:**
+
+| Quantity | Meaning |
+| --- | --- |
+| An individual n-3 fatty acid | One named compound: `ala_mg`, `epa_mg`, `dha_mg` |
+| EPA + DHA | The long-chain pair, the subject of most intake research |
+| Total omega‑3 (`omega3_mg`) | Every n-3 acid the source explicitly identified, which may include DPA and other acids the site does not publish individually |
+
+**`omega3_components` is required wherever `omega3_mg` is published.** It is a sibling of `nutrition_per_100g` and names each summed component:
+
+```yaml
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 1363
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 983
+```
+
+A total must equal the sum of its components, every component must name an n-3 isomer, and a total assembled only from zeros is omitted rather than published. A total whose parts cannot be named is not a measurement.
+
+`pufa_18_3_unresolved_mg` appears in no display list and in no calculation. It exists so the source value is not lost, and is never rendered, labelled ALA, or summed into an n-3 total. A page carrying a resolved `ala_mg` does not also carry it.
 
 ---
 
@@ -99,11 +137,11 @@ Keep the classes distinct. Do not convert ontology presence into invented compos
 
 ## Rendering groups (`NutritionTable`)
 
-The UI splits `nutrition_per_100g` into **sub-tables** for readability:
+The UI splits `nutrition_per_100g` into **sub-tables** for readability. The public group labels are **Core nutrients**, **Key vitamins and minerals** and **Bioactive compounds**, matching the recipe nutrition panel (`src/theme/RecipeNutrition`) so a reader moving between a food page and a recipe meets the same category names:
 
 1. **Core nutrients** — energy, protein, fat (total + saturated), carbohydrates, sugars, fibre.  
-2. **Vitamins and minerals** — minerals and vitamins (iron through vitamin K, including phosphorus, manganese, copper, riboflavin, and vitamin E when present).  
-3. **Fatty acids and extended BRAIN-relevant substances** — (a) individual fatty acids **oleic acid, linoleic acid, ALA, EPA, DHA** from `nutrition_per_100g` when present and public; (b) **`nutrition_supplementary_sources`** (polyphenols, nutrient forms, literature-only analytes, etc.). Uses columns *Compound / class · Amount · Notes*; values marked `*` are explained in **Source notes** below the block. Qualitative rows use `Present — quantity not established` when presence is evidenced but no defensible per-100 g value exists.  
+2. **Key vitamins and minerals** — minerals and vitamins (iron through vitamin K, including phosphorus, manganese, copper, riboflavin, and vitamin E when present).  
+3. **Bioactive compounds** — (a) individual fatty acids **oleic acid, linoleic acid, ALA, EPA, DHA** from `nutrition_per_100g` when explicitly identified and publicly admitted; (b) **`nutrition_supplementary_sources`** (polyphenols, nutrient forms, literature-only analytes, etc.). Uses columns *Compound / class · Amount · Notes*; values marked `*` are explained in **Source notes** below the block. Qualitative rows use `Present — quantity not established` when presence is evidenced but no defensible per-100 g value exists. The complete fatty-acid panel stays in `nutrition_per_100g` for recipe calculation whether or not a given acid is publicly admitted here.  
 4. **Optional functional metrics** — optional front matter `nutrition_functional_metrics` (e.g. total polyphenol proxies, antioxidant capacity) when a defensible, cited value or qualitative label exists.
 5. **Representative authorised specifications** — for source-variable specialist products that must not use a USDA proxy (currently algal oil). Front matter `nutrition_authorised_specifications` renders Formulation · DHA · EPA · Interpretation. Values are **regulatory minima**, not measured averages, not product-label doses, and must not be inferred from a different oil. Distinct formulations must be visibly distinguished (example: DHA-rich algal oils vs combined EPA/DHA algal oils; EPA is formulation-specific).
 

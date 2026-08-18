@@ -26,7 +26,6 @@ nutrition_per_100g:
   carbs_g: 2.78
   kcal: 144
   protein_g: 17.27
-  ala_mg: 773
   tyrosine_g: 0.701
   magnesium_mg: 58
   phosphorus_mg: 190
@@ -47,7 +46,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.092
   linoleic_g: 4.339
   selenium_ug: 17.4
-  omega3_mg: 773
+  pufa_18_3_unresolved_mg: 582
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Tofu, raw, firm, prepared with calcium sulfate'

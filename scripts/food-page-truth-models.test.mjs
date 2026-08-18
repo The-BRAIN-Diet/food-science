@@ -99,7 +99,7 @@ test("generated summaries cannot label provenance classes as Three Sources of Tr
   }, /must not be labelled the Three Sources of Truth/)
 })
 
-test("extended-table caption does not admit unquantified traces to Substances without a table row", () => {
+test("bioactive-compounds caption does not admit unquantified traces to Substances without a table row", () => {
   const table = readDoc("src/components/NutritionTable.tsx")
   const substances = readDoc("src/theme/FoodSubstancesFromTable/index.tsx")
   const renderedExplanatory = `${table}\n${substances}`
@@ -122,9 +122,37 @@ test("extended-table caption does not admit unquantified traces to Substances wi
   )
   assert.match(
     table,
-    /Individual fatty acids and other BRAIN-relevant constituents with a defensible quantity or explicit qualitative status/,
+    /Explicitly identified compounds, including individual fatty acids, with a defensible quantity or an explicit qualitative status/,
   )
   assert.match(table, /Asterisks \(\*\) identify supplementary sources below/)
+})
+
+test("public nutrition grouping is Core nutrients / Key vitamins and minerals / Bioactive compounds", () => {
+  const table = readDoc("src/components/NutritionTable.tsx")
+  const headings = [...table.matchAll(/<h3>([^<]+)<\/h3>/g)].map((m) => m[1].trim())
+
+  assert.deepEqual(headings, [
+    "Core nutrients",
+    "Key vitamins and minerals",
+    "Bioactive compounds",
+  ])
+})
+
+test("the superseded extended-substances label is gone from code and canonical documentation", () => {
+  const superseded = /Fatty acids and extended BRAIN-relevant substances/i
+  const sources = [
+    "src/components/NutritionTable.tsx",
+    "src/data/nutritionTableMapping.ts",
+    "scripts/lib/food-truth-levels.mjs",
+    "system/food-nutrition-schema.md",
+    "system/food-page-schema.md",
+    "system/food-page-build-architecture.md",
+    "docs/foods/.cursor/rules/Foods-Pages.mdc",
+  ]
+
+  for (const file of sources) {
+    assert.doesNotMatch(readDoc(file), superseded, `${file} still uses the superseded label`)
+  }
 })
 
 test("almonds Overview is the A-food calibration example and does not recommend grains as a lysine complement", () => {

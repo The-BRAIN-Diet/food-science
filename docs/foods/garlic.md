@@ -26,7 +26,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.2
   vitamin_b2_mg: 0.11
   folate_ug: 3
-  ala_mg: 132
   fibre_g: 2.1
   iron_mg: 1.7
   magnesium_mg: 25
@@ -45,7 +44,7 @@ nutrition_per_100g:
   capric_g: 0.002
   linoleic_g: 0.229
   selenium_ug: 14.2
-  omega3_mg: 132
+  pufa_18_3_unresolved_mg: 20
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Garlic, raw'

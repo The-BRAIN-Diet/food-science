@@ -43,13 +43,12 @@ nutrition_per_100g:
   sodium_mg: 78
   copper_mg: 0.075
   manganese_mg: 0.329
-  ala_mg: 60
   vitamin_e_mg: 0.04
   sugar_g: 6.76
   beta_carotene_ug: 20
   vitamin_k_ug: 0.2
   selenium_ug: 0.7
-  omega3_mg: 60
+  pufa_18_3_unresolved_mg: 5
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Beets, raw'

@@ -22,7 +22,7 @@ nutrition_per_100g:
   dha_mg: 61
   epa_mg: 42
   linoleic_g: 0.007
-  ala_mg: 536
+  ala_mg: 3
   vitamin_b12_ug: 1.41
   sat_fat_g: 0.128
   protein_g: 12.06
@@ -46,7 +46,20 @@ nutrition_per_100g:
   carbs_g: 3.18
   kcal: 69
   folate_ug: 16
-  omega3_mg: 639
+  omega3_mg: 109
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 61
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 42
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 3
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 3
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Mollusks, scallop, mixed species, raw'

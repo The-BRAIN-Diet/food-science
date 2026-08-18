@@ -28,7 +28,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.07
   vitamin_b2_mg: 0.049
   folate_ug: 8
-  ala_mg: 413
   fat_g: 0.66
   carbs_g: 79.95
   kcal: 365
@@ -41,7 +40,7 @@ nutrition_per_100g:
   linoleic_g: 0.146
   selenium_ug: 15.1
   choline_mg: 5.8
-  omega3_mg: 413
+  pufa_18_3_unresolved_mg: 31
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Rice, white, long-grain, regular, raw, unenriched'

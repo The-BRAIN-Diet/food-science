@@ -32,8 +32,6 @@ nutrition_per_100g:
   sat_fat_g: 1.5
   epa_mg: 220
   dha_mg: 280
-  ala_mg: 100
-  omega3_mg: 600
 nutrition_source:
   database: Literature + branded label scaling
   food_name: >-

@@ -31,7 +31,6 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.049
   fat_g: 0.2
   vitamin_k_ug: 2.1
-  ala_mg: 590
   vitamin_c_mg: 7
   vitamin_b1_mg: 0.027
   vitamin_b2_mg: 0.033
@@ -44,7 +43,7 @@ nutrition_per_100g:
   copper_mg: 0.06
   manganese_mg: 0.07
   beta_carotene_ug: 38
-  omega3_mg: 590
+  pufa_18_3_unresolved_mg: 26
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Cherries, sweet, raw'

@@ -46,7 +46,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.078
   vitamin_b2_mg: 0.189
   folate_ug: 194
-  ala_mg: 100
   beta_carotene_ug: 5626
   fibre_g: 2.2
   lutein_zeaxanthin_ug: 12198
@@ -61,7 +60,7 @@ nutrition_per_100g:
   vitamin_a_rae_ug: 469
   sat_fat_g: 0.063
   selenium_ug: 1
-  omega3_mg: 100
+  pufa_18_3_unresolved_mg: 138
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Spinach, raw'

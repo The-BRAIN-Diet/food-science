@@ -42,13 +42,12 @@ nutrition_per_100g:
   fibre_g: 3.3
   folate_ug: 25
   vitamin_k_ug: 34.1
-  ala_mg: 837
   selenium_ug: 19.9
   vitamin_e_mg: 0.9
   sugar_g: 5.91
   lutein_zeaxanthin_ug: 22
   vitamin_b5_mg: 0.864
-  omega3_mg: 837
+  pufa_18_3_unresolved_mg: 62
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Nuts, cashew nuts, raw'

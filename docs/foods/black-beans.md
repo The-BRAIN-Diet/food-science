@@ -29,7 +29,6 @@ nutrition_per_100g:
   choline_mg: 66.4
   vitamin_k_ug: 5.6
   protein_g: 21.6
-  ala_mg: 905
   vitamin_b1_mg: 0.9
   vitamin_b2_mg: 0.193
   folate_ug: 444
@@ -49,7 +48,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.286
   linoleic_g: 0.332
   selenium_ug: 3.2
-  omega3_mg: 905
+  pufa_18_3_unresolved_mg: 278
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Beans, black, mature seeds, raw'

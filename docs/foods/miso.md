@@ -13,7 +13,6 @@ list_image: /img/foods/miso/miso_thumb.webp
 nutrition_per_100g:
   beta_carotene_ug: 52
   vitamin_e_mg: 0.01
-  ala_mg: 500
   sugar_g: 6.2
   choline_mg: 72.2
   vitamin_a_rae_ug: 4
@@ -42,7 +41,7 @@ nutrition_per_100g:
   zinc_mg: 2.56
   selenium_ug: 7
   fat_g: 6.01
-  omega3_mg: 500
+  pufa_18_3_unresolved_mg: 405
 nutrition_source:
   database: USDA FoodData Central
   food_name: Miso

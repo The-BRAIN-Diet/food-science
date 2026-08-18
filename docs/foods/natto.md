@@ -30,7 +30,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.16
   vitamin_b2_mg: 0.19
   folate_ug: 8
-  ala_mg: 798
   fat_g: 11
   calcium_mg: 217
   potassium_mg: 729
@@ -39,7 +38,7 @@ nutrition_per_100g:
   vitamin_b5_mg: 0.215
   vitamin_b6_mg: 0.13
   selenium_ug: 8.8
-  omega3_mg: 798
+  pufa_18_3_unresolved_mg: 734
 nutrition_source:
   database: USDA FoodData Central
   food_name: Natto

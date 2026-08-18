@@ -38,12 +38,21 @@ nutrition_per_100g:
   vitamin_b2_mg: 0.251
   folate_ug: 2
   vitamin_b12_ug: 9.43
-  ala_mg: 1411
   sat_fat_g: 1.257
   dha_mg: 890
   epa_mg: 283
   selenium_ug: 36.5
-  omega3_mg: 2584
+  omega3_mg: 1298
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 890
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 283
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 125
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Fish, tuna, fresh, bluefin, raw'

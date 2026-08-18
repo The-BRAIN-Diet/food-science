@@ -38,8 +38,12 @@ nutrition_per_100g:
   sodium_mg: 8
   copper_mg: 0.511
   manganese_mg: 2.983
-  ala_mg: 534
-  omega3_mg: 534
+  ala_mg: 65
+  omega3_mg: 65
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 65
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Spelt, uncooked'

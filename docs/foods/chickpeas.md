@@ -39,7 +39,6 @@ nutrition_per_100g:
   magnesium_mg: 79
   phosphorus_mg: 252
   protein_g: 20.47
-  ala_mg: 882
   sat_fat_g: 0.603
   sodium_mg: 24
   vitamin_c_mg: 4
@@ -50,7 +49,7 @@ nutrition_per_100g:
   vitamin_b3_mg: 1.541
   vitamin_b5_mg: 1.588
   vitamin_b6_mg: 0.535
-  omega3_mg: 882
+  pufa_18_3_unresolved_mg: 102
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Chickpeas (garbanzo beans, bengal gram), mature seeds, raw'

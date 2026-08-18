@@ -33,13 +33,11 @@ nutrition_per_100g:
   sodium_mg: 6
   copper_mg: 0.324
   manganese_mg: 1.01
-  ala_mg: 421
   protein_g: 11.22
   carbs_g: 7.61
   kcal: 109
   sugar_g: 2.48
   choline_mg: 56
-  omega3_mg: 421
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Edamame, frozen, unprepared'

@@ -38,9 +38,8 @@ nutrition_per_100g:
   copper_mg: 1.61
   manganese_mg: 1.456
   sat_fat_g: 7.529
-  ala_mg: 889
   choline_mg: 25.8
-  omega3_mg: 889
+  pufa_18_3_unresolved_mg: 407
 nutrition_source:
   database: USDA FoodData Central
   food_name: >-

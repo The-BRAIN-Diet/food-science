@@ -45,7 +45,14 @@ nutrition_per_100g:
   fat_g: 1.02
   carbs_g: 4.77
   kcal: 43
-  omega3_mg: 6
+  omega3_mg: 7
+omega3_components:
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 1
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 6
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Kefir, lowfat, plain, LIFEWAY'

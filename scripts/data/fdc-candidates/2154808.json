@@ -1,0 +1,448 @@
+{
+  "discontinuedDate": "",
+  "foodComponents": [],
+  "foodAttributes": [
+    {
+      "id": 2377872,
+      "value": 9,
+      "name": "Added Package Weight"
+    }
+  ],
+  "foodPortions": [],
+  "fdcId": 2154808,
+  "description": "COCOTROPIC WILD SUPERFOOD ELIXIR REISHI MUSHROOM EXTRACT POWDER",
+  "publicationDate": "10/28/2021",
+  "foodNutrients": [
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "rank": 300,
+        "unitName": "kcal"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 26515295,
+      "amount": 286
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1079,
+        "number": "291",
+        "name": "Fiber, total dietary",
+        "rank": 1200,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 26515297,
+      "amount": 42.9
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "rank": 5300,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 75,
+        "code": "LCCD",
+        "description": "Calculated from a daily value percentage per serving size measure"
+      },
+      "id": 26515298,
+      "amount": 286
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 2000,
+        "number": "269",
+        "name": "Total Sugars",
+        "rank": 1510,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 26515296,
+      "amount": 0
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1095,
+        "number": "309",
+        "name": "Zinc, Zn",
+        "rank": 5900,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 75,
+        "code": "LCCD",
+        "description": "Calculated from a daily value percentage per serving size measure"
+      },
+      "id": 26515301,
+      "amount": 8.57
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "rank": 5800,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 75,
+        "code": "LCCD",
+        "description": "Calculated from a daily value percentage per serving size measure"
+      },
+      "id": 26515300,
+      "amount": 0
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "rank": 800,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 26515293,
+      "amount": 14.29
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1101,
+        "number": "315",
+        "name": "Manganese, Mn",
+        "rank": 6100,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 75,
+        "code": "LCCD",
+        "description": "Calculated from a daily value percentage per serving size measure"
+      },
+      "id": 26515303,
+      "amount": 4
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "rank": 600,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 26515292,
+      "amount": 28.57
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1258,
+        "number": "606",
+        "name": "Fatty acids, total saturated",
+        "rank": 9700,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 26515308,
+      "amount": 7.14
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1257,
+        "number": "605",
+        "name": "Fatty acids, total trans",
+        "rank": 15400,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 26515307,
+      "amount": 0
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1253,
+        "number": "601",
+        "name": "Cholesterol",
+        "rank": 15700,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 75,
+        "code": "LCCD",
+        "description": "Calculated from a daily value percentage per serving size measure"
+      },
+      "id": 26515306,
+      "amount": 0
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "rank": 1110,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 26515294,
+      "amount": 71.43
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1162,
+        "number": "401",
+        "name": "Vitamin C, total ascorbic acid",
+        "rank": 6300,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 75,
+        "code": "LCCD",
+        "description": "Calculated from a daily value percentage per serving size measure"
+      },
+      "id": 26515305,
+      "amount": 0
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1104,
+        "number": "318",
+        "name": "Vitamin A, IU",
+        "rank": 7500,
+        "unitName": "IU"
+      },
+      "foodNutrientDerivation": {
+        "id": 75,
+        "code": "LCCD",
+        "description": "Calculated from a daily value percentage per serving size measure"
+      },
+      "id": 26515304,
+      "amount": 0
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "rank": 5400,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 75,
+        "code": "LCCD",
+        "description": "Calculated from a daily value percentage per serving size measure"
+      },
+      "id": 26515299,
+      "amount": 15.43
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1098,
+        "number": "312",
+        "name": "Copper, Cu",
+        "rank": 6000,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 75,
+        "code": "LCCD",
+        "description": "Calculated from a daily value percentage per serving size measure"
+      },
+      "id": 26515302,
+      "amount": 4.286
+    }
+  ],
+  "dataType": "Branded",
+  "foodClass": "Branded",
+  "modifiedDate": "4/27/2021",
+  "availableDate": "4/27/2021",
+  "brandOwner": "Wild Foods Brand LLC ",
+  "brandName": "WILD FOODS",
+  "dataSource": "LI",
+  "brandedFoodCategory": "Powdered Drinks",
+  "gtinUpc": "853539008845",
+  "householdServingFullText": "1 Tbsp",
+  "ingredients": "ORGANIC COCOA POWDER, ORGANIC REISHI EXTRACT, ORGANIC RAW MACA, ORGANIC CHAGA EXTRACT, ORGANIC TURMERIC POWDER",
+  "marketCountry": "United States",
+  "servingSize": 7,
+  "servingSizeUnit": "g",
+  "packageWeight": "16 oz/456 g",
+  "foodUpdateLog": [
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 2154808,
+      "description": "COCOTROPIC WILD SUPERFOOD ELIXIR REISHI MUSHROOM EXTRACT POWDER",
+      "publicationDate": "10/28/2021",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "modifiedDate": "4/27/2021",
+      "availableDate": "4/27/2021",
+      "brandOwner": "Wild Foods Brand LLC ",
+      "brandName": "WILD FOODS",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Powdered Drinks",
+      "gtinUpc": "853539008845",
+      "householdServingFullText": "1 Tbsp",
+      "ingredients": "ORGANIC COCOA POWDER, ORGANIC REISHI EXTRACT, ORGANIC RAW MACA, ORGANIC CHAGA EXTRACT, ORGANIC TURMERIC POWDER",
+      "marketCountry": "United States",
+      "servingSize": 7,
+      "servingSizeUnit": "g",
+      "packageWeight": "16 oz/456 g"
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 1716791,
+      "description": "COCOTROPIC WILD SUPERFOOD ELIXIR REISHI MUSHROOM EXTRACT POWDER",
+      "publicationDate": "3/19/2021",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "modifiedDate": "4/8/2020",
+      "availableDate": "4/8/2020",
+      "brandOwner": "Wild Foods Brand LLC ",
+      "brandName": "WILD FOODS",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Powdered Drinks",
+      "gtinUpc": "853539008845",
+      "householdServingFullText": "1 Tbsp",
+      "ingredients": "ORGANIC COCOA POWDER, ORGANIC REISHI EXTRACT, ORGANIC RAW MACA, ORGANIC CHAGA EXTRACT, ORGANIC TURMERIC POWDER",
+      "marketCountry": "United States",
+      "servingSize": 7,
+      "servingSizeUnit": "g"
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 1424511,
+      "description": "COCOTROPIC WILD SUPERFOOD ELIXIR REISHI MUSHROOM EXTRACT POWDER",
+      "publicationDate": "2/26/2021",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "modifiedDate": "4/8/2020",
+      "availableDate": "4/8/2020",
+      "brandOwner": "Wild Foods Brand LLC ",
+      "brandName": "WILD FOODS",
+      "subbrandName": "",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Powdered Drinks",
+      "gtinUpc": "853539008845",
+      "householdServingFullText": "1 Tbsp",
+      "ingredients": "ORGANIC COCOA POWDER, ORGANIC REISHI EXTRACT, ORGANIC RAW MACA, ORGANIC CHAGA EXTRACT, ORGANIC TURMERIC POWDER",
+      "marketCountry": "United States",
+      "servingSize": 7,
+      "servingSizeUnit": "g",
+      "packageWeight": "",
+      "notaSignificantSourceOf": ""
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 1133786,
+      "description": "COCOTROPIC WILD SUPERFOOD ELIXIR REISHI MUSHROOM EXTRACT POWDER",
+      "publicationDate": "11/13/2020",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "modifiedDate": "4/8/2020",
+      "availableDate": "4/8/2020",
+      "brandOwner": "Wild Foods Brand LLC ",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Powdered Drinks",
+      "gtinUpc": "853539008845",
+      "householdServingFullText": "1 Tbsp",
+      "ingredients": "ORGANIC COCOA POWDER, ORGANIC REISHI EXTRACT, ORGANIC RAW MACA, ORGANIC CHAGA EXTRACT, ORGANIC TURMERIC POWDER",
+      "marketCountry": "United States",
+      "servingSize": 7,
+      "servingSizeUnit": "g"
+    }
+  ],
+  "labelNutrients": {
+    "fat": {
+      "value": 1
+    },
+    "saturatedFat": {
+      "value": 0.5
+    },
+    "transFat": {
+      "value": 0
+    },
+    "cholesterol": {
+      "value": 0
+    },
+    "sodium": {
+      "value": 0
+    },
+    "carbohydrates": {
+      "value": 5
+    },
+    "fiber": {
+      "value": 3
+    },
+    "sugars": {
+      "value": 0
+    },
+    "protein": {
+      "value": 2
+    },
+    "calcium": {
+      "value": 20
+    },
+    "iron": {
+      "value": 1.08
+    },
+    "calories": {
+      "value": 20
+    }
+  }
+}

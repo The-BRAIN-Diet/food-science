@@ -34,7 +34,6 @@ nutrition_per_100g:
   vitamin_k_ug: 14.6
   manganese_mg: 0.071
   vitamin_a_rae_ug: 3
-  ala_mg: 22
   fibre_g: 0.9
   iron_mg: 0.36
   magnesium_mg: 7
@@ -49,7 +48,7 @@ nutrition_per_100g:
   sat_fat_g: 0.054
   vitamin_c_mg: 3.2
   beta_carotene_ug: 39
-  omega3_mg: 22
+  pufa_18_3_unresolved_mg: 11
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Grapes, red or green (European type, such as Thompson seedless), raw'

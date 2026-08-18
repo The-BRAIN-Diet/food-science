@@ -47,6 +47,13 @@ nutrition_per_100g:
   sat_fat_g: 2.395
   caprylic_g: 0.086
   omega3_mg: 27
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 4
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 23
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Yogurt, Greek, plain, whole milk'

@@ -27,8 +27,6 @@ nutrition_per_100g:
   selenium_ug: 1.773
   vitamin_b6_mg: 0.0655
   folate_ug: 29.58
-  ala_mg: 703
-  omega3_mg: 703
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Mushroom, lion''s mane'

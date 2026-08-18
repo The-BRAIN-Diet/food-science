@@ -41,10 +41,8 @@ nutrition_per_100g:
   copper_mg: 0.019
   manganese_mg: 0.16
   vitamin_k_ug: 76
-  ala_mg: 42
   folate_ug: 43
   sat_fat_g: 0.034
-  omega3_mg: 42
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Cabbage, raw'

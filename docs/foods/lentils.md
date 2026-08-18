@@ -37,7 +37,6 @@ nutrition_per_100g:
   magnesium_mg: 47
   phosphorus_mg: 281
   protein_g: 24.63
-  ala_mg: 1029
   vitamin_c_mg: 4.5
   sat_fat_g: 0.154
   linoleic_g: 0.414
@@ -48,7 +47,7 @@ nutrition_per_100g:
   zinc_mg: 3.27
   selenium_ug: 0.1
   vitamin_k_ug: 5
-  omega3_mg: 1029
+  pufa_18_3_unresolved_mg: 112
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Lentils, raw'

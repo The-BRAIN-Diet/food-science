@@ -24,7 +24,6 @@ nutrition_per_100g:
   phosphorus_mg: 74
   manganese_mg: 0.059
   folate_ug: 21
-  ala_mg: 124
   choline_mg: 51.1
   protein_g: 1.94
   fibre_g: 2.7
@@ -42,7 +41,6 @@ nutrition_per_100g:
   vitamin_d_ug: 28.1
   carbs_g: 6.97
   kcal: 31
-  omega3_mg: 124
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Mushrooms, maitake, raw'

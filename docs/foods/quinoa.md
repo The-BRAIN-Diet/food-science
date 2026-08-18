@@ -49,8 +49,12 @@ nutrition_per_100g:
   linoleic_g: 2.977
   carbs_g: 64.16
   kcal: 368
-  ala_mg: 588
-  omega3_mg: 635
+  omega3_mg: 47
+  pufa_18_3_unresolved_mg: 260
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 47
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Quinoa, uncooked'

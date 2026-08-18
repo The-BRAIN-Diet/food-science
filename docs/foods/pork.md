@@ -35,13 +35,12 @@ nutrition_per_100g:
   vitamin_c_mg: 0.6
   vitamin_b1_mg: 0.901
   vitamin_b2_mg: 0.248
-  ala_mg: 1158
   protein_g: 19.74
   vitamin_b12_ug: 0.53
   sat_fat_g: 4.36
   selenium_ug: 33.2
   choline_mg: 69.7
-  omega3_mg: 1158
+  pufa_18_3_unresolved_mg: 90
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Pork, fresh, loin, whole, separable lean and fat, raw'

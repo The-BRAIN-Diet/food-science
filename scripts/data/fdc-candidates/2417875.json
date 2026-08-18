@@ -1,0 +1,469 @@
+{
+  "discontinuedDate": "",
+  "foodComponents": [],
+  "foodAttributes": [
+    {
+      "id": 2736926,
+      "value": 4,
+      "name": "Nutrient Updated"
+    },
+    {
+      "id": 2736927,
+      "value": 6,
+      "name": "Nutrient Removed"
+    }
+  ],
+  "foodPortions": [],
+  "fdcId": 2417875,
+  "description": "SUNFLOWER LECITHIN PURE POWDER",
+  "publicationDate": "12/22/2022",
+  "foodNutrients": [
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1008,
+        "number": "208",
+        "name": "Energy",
+        "rank": 300,
+        "unitName": "kcal"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 29814496,
+      "amount": 800
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1089,
+        "number": "303",
+        "name": "Iron, Fe",
+        "rank": 5400,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 29814498,
+      "amount": 3
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1293,
+        "number": "646",
+        "name": "Fatty acids, total polyunsaturated",
+        "rank": 12900,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 29814503,
+      "amount": 25
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1258,
+        "number": "606",
+        "name": "Fatty acids, total saturated",
+        "rank": 9700,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 29814502,
+      "amount": 10
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1004,
+        "number": "204",
+        "name": "Total lipid (fat)",
+        "rank": 800,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 29814494,
+      "amount": 50
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1091,
+        "number": "305",
+        "name": "Phosphorus, P",
+        "rank": 5600,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 29814499,
+      "amount": 2700
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1087,
+        "number": "301",
+        "name": "Calcium, Ca",
+        "rank": 5300,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 29814497,
+      "amount": 250
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1005,
+        "number": "205",
+        "name": "Carbohydrate, by difference",
+        "rank": 1110,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 73,
+        "code": "LCSL",
+        "description": "Calculated from a less than value per serving size measure"
+      },
+      "id": 29814495,
+      "amount": 10
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1003,
+        "number": "203",
+        "name": "Protein",
+        "rank": 600,
+        "unitName": "g"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 29814493,
+      "amount": 0
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1093,
+        "number": "307",
+        "name": "Sodium, Na",
+        "rank": 5800,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 75,
+        "code": "LCCD",
+        "description": "Calculated from a daily value percentage per serving size measure"
+      },
+      "id": 29814501,
+      "amount": 0
+    },
+    {
+      "type": "FoodNutrient",
+      "nutrient": {
+        "id": 1092,
+        "number": "306",
+        "name": "Potassium, K",
+        "rank": 5700,
+        "unitName": "mg"
+      },
+      "foodNutrientDerivation": {
+        "id": 70,
+        "code": "LCCS",
+        "description": "Calculated from value per serving size measure"
+      },
+      "id": 29814500,
+      "amount": 800
+    }
+  ],
+  "dataType": "Branded",
+  "foodClass": "Branded",
+  "shortDescription": "",
+  "modifiedDate": "10/28/2022",
+  "availableDate": "10/28/2022",
+  "brandOwner": "Now Health Group Inc.",
+  "brandName": "NOW",
+  "dataSource": "LI",
+  "brandedFoodCategory": "Vitamins",
+  "gtinUpc": "733739023148",
+  "householdServingFullText": "1 1/3 tbsp",
+  "ingredients": "SUNFLOWER LECITHIN POWDER.",
+  "marketCountry": "United States",
+  "servingSize": 10,
+  "servingSizeUnit": "g",
+  "packageWeight": "1 LB/454 g",
+  "notaSignificantSourceOf": "Not a significant source of trans fat, cholesterol, dietaryfiber, total sugars, added sugars, and vitamin D.",
+  "foodUpdateLog": [
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 2417875,
+      "description": "SUNFLOWER LECITHIN PURE POWDER",
+      "publicationDate": "12/22/2022",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "shortDescription": "",
+      "modifiedDate": "10/28/2022",
+      "availableDate": "10/28/2022",
+      "brandOwner": "Now Health Group Inc.",
+      "brandName": "NOW",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Vitamins",
+      "gtinUpc": "733739023148",
+      "householdServingFullText": "1 1/3 tbsp",
+      "ingredients": "SUNFLOWER LECITHIN POWDER.",
+      "marketCountry": "United States",
+      "servingSize": 10,
+      "servingSizeUnit": "g",
+      "packageWeight": "1 LB/454 g",
+      "notaSignificantSourceOf": "Not a significant source of trans fat, cholesterol, dietaryfiber, total sugars, added sugars, and vitamin D."
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 2378477,
+      "description": "SUNFLOWER LECITHIN PURE POWDER",
+      "publicationDate": "12/7/2022",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "shortDescription": "",
+      "modifiedDate": "10/28/2022",
+      "availableDate": "10/28/2022",
+      "brandOwner": "Now Health Group Inc.",
+      "brandName": "NOW",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Vitamins",
+      "gtinUpc": "733739023148",
+      "householdServingFullText": "1 1/3 tbsp",
+      "ingredients": "SUNFLOWER LECITHIN POWDER.",
+      "marketCountry": "United States",
+      "servingSize": 10,
+      "servingSizeUnit": "g",
+      "packageWeight": "1 LB/454 g",
+      "notaSignificantSourceOf": "Not a significant source of trans fat, cholesterol, dietaryfiber, total sugars, added sugars, and vitamin D."
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 2365673,
+      "description": "SUNFLOWER LECITHIN PURE POWDER",
+      "publicationDate": "12/7/2022",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "shortDescription": "",
+      "modifiedDate": "9/23/2022",
+      "availableDate": "9/23/2022",
+      "brandOwner": "Now Health Group Inc.",
+      "brandName": "NOW",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Vitamins",
+      "gtinUpc": "733739023148",
+      "householdServingFullText": "1 1/3 tbsp",
+      "ingredients": "SUNFLOWER LECITHIN POWDER.",
+      "marketCountry": "United States",
+      "servingSize": 10,
+      "servingSizeUnit": "g",
+      "packageWeight": "1 LB/454 g",
+      "notaSignificantSourceOf": "Not a significant source of trans fat, cholesterol, dietaryfiber, total sugars, added sugars, and vitamin D."
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 2323904,
+      "description": "SUNFLOWER LECITHIN ESSENTIAL NUTRIENT PURE POWDER",
+      "publicationDate": "6/21/2022",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "shortDescription": "",
+      "modifiedDate": "5/21/2021",
+      "availableDate": "5/21/2021",
+      "brandOwner": "Now Health Group Inc.",
+      "brandName": "NOW",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Chocolate",
+      "gtinUpc": "733739023148",
+      "householdServingFullText": "1 1/3 tbsp",
+      "ingredients": "SUNFLOWER LECITHIN POWDER.",
+      "marketCountry": "United States",
+      "servingSize": 10,
+      "servingSizeUnit": "g",
+      "packageWeight": "1 lbs/454 g",
+      "notaSignificantSourceOf": "Not a significant source of trans fat, cholesterol, dietary fiber, total sugars, added sugars, and vitamin D."
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 2295482,
+      "description": "SUNFLOWER LECITHIN PURE POWDER",
+      "publicationDate": "5/23/2022",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "shortDescription": "",
+      "modifiedDate": "4/21/2022",
+      "availableDate": "4/21/2022",
+      "brandOwner": "Now Health Group Inc.",
+      "brandName": "NOW",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Vitamins",
+      "gtinUpc": "733739023148",
+      "householdServingFullText": "1 1/3 tbsp",
+      "ingredients": "SUNFLOWER LECITHIN POWDER.",
+      "marketCountry": "United States",
+      "servingSize": 10,
+      "servingSizeUnit": "g",
+      "packageWeight": "1 LB/454 g",
+      "notaSignificantSourceOf": "Not a significant source of trans fat, cholesterol, dietaryfiber, total sugars, added sugars, and vitamin D."
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 1917226,
+      "description": "SUNFLOWER LECITHIN ESSENTIAL NUTRIENT PURE POWDER",
+      "publicationDate": "7/29/2021",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "modifiedDate": "5/21/2021",
+      "availableDate": "5/21/2021",
+      "brandOwner": "Now Health Group Inc.",
+      "brandName": "NOW",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Chocolate",
+      "gtinUpc": "733739023148",
+      "householdServingFullText": "1 1/3 tbsp",
+      "ingredients": "SUNFLOWER LECITHIN POWDER.",
+      "marketCountry": "United States",
+      "servingSize": 10,
+      "servingSizeUnit": "g",
+      "packageWeight": "1 lbs/454 g",
+      "notaSignificantSourceOf": "Not a significant source of trans fat, cholesterol, dietary fiber, total sugars, added sugars, and vitamin D."
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 1840398,
+      "description": "SUNFLOWER LECITHIN ESSENTIAL NUTRIENT PURE POWDER",
+      "publicationDate": "6/25/2021",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "modifiedDate": "5/21/2021",
+      "availableDate": "5/21/2021",
+      "brandOwner": "Now Health Group Inc.",
+      "brandName": "NOW",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Chocolate",
+      "gtinUpc": "733739023148",
+      "householdServingFullText": "1 1/3 tbsp",
+      "ingredients": "SUNFLOWER LECITHIN POWDER.",
+      "marketCountry": "United States",
+      "servingSize": 10,
+      "servingSizeUnit": "g",
+      "packageWeight": "454 g",
+      "notaSignificantSourceOf": "Not a significant source of trans fat, cholesterol, dietary fiber, total sugars, added sugars, and vitamin D."
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 1606257,
+      "description": "SUNFLOWER LECITHIN PURE POWDER",
+      "publicationDate": "3/19/2021",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "modifiedDate": "1/22/2021",
+      "availableDate": "1/22/2021",
+      "brandOwner": "Now Health Group Inc.",
+      "brandName": "NOW",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Vitamins",
+      "gtinUpc": "733739023148",
+      "householdServingFullText": "1 1/3 tbsp",
+      "ingredients": "SUNFLOWER LECITHIN POWDER.",
+      "marketCountry": "United States",
+      "servingSize": 10,
+      "servingSizeUnit": "g",
+      "notaSignificantSourceOf": "Not a significant source of trans fat, cholesterol, dietary fiber, total sugars, added sugars, and vitamin D."
+    },
+    {
+      "discontinuedDate": "",
+      "foodAttributes": [],
+      "fdcId": 1314140,
+      "description": "SUNFLOWER LECITHIN PURE POWDER",
+      "publicationDate": "2/26/2021",
+      "dataType": "Branded",
+      "foodClass": "Branded",
+      "modifiedDate": "1/22/2021",
+      "availableDate": "1/22/2021",
+      "brandOwner": "Now Health Group Inc.",
+      "brandName": "NOW",
+      "subbrandName": "",
+      "dataSource": "LI",
+      "brandedFoodCategory": "Vitamins",
+      "gtinUpc": "733739023148",
+      "householdServingFullText": "1 1/3 tbsp",
+      "ingredients": "SUNFLOWER LECITHIN POWDER.",
+      "marketCountry": "United States",
+      "servingSize": 10,
+      "servingSizeUnit": "g",
+      "packageWeight": "",
+      "notaSignificantSourceOf": "Not a significant source of trans fat, cholesterol, dietary fiber, total sugars, added sugars, and vitamin D."
+    }
+  ],
+  "labelNutrients": {
+    "fat": {
+      "value": 5
+    },
+    "saturatedFat": {
+      "value": 1
+    },
+    "sodium": {
+      "value": 0
+    },
+    "carbohydrates": {
+      "value": 1
+    },
+    "protein": {
+      "value": 0
+    },
+    "calcium": {
+      "value": 25
+    },
+    "iron": {
+      "value": 0.3
+    },
+    "potassium": {
+      "value": 80
+    },
+    "calories": {
+      "value": 80
+    }
+  }
+}

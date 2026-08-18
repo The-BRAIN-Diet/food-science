@@ -23,7 +23,6 @@ nutrition_per_100g:
   sodium_mg: 11
   copper_mg: 4.082
   manganese_mg: 2.46
-  ala_mg: 927
   sat_fat_g: 6.957
   vitamin_b1_mg: 0.791
   vitamin_b2_mg: 0.247
@@ -39,7 +38,7 @@ nutrition_per_100g:
   vitamin_b5_mg: 0.05
   vitamin_b6_mg: 0.79
   choline_mg: 25.6
-  omega3_mg: 927
+  pufa_18_3_unresolved_mg: 376
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seeds, sesame seeds, whole, dried'

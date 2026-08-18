@@ -66,15 +66,130 @@ test("SR Legacy almond-style panel outranks abbreviated Foundation", () => {
   assert.ok(scoreCandidate("SR Legacy", sr) > scoreCandidate("Foundation", foundation))
 })
 
-test("extractNutrients maps generic PUFA 18:3 as ALA and still ignores alanine", () => {
+test("ALA requires an explicit n-3 identity and can never come from alanine", () => {
   const named = extractNutrients({
     foodNutrients: [nutrient("Alanine", 0.999, "g"), nutrient("PUFA 18:3 n-3 c,c,c", 0.003, "g")],
   })
-  assert.equal(named.ala_mg, 3)
+  assert.equal(named.ala_mg, 3, "the n-3 form is the only thing that may fill this field")
+
+  // A bare 18:3 states a carbon count, not an isomer: 18:3 n-6 is gamma-linolenic
+  // acid. An unqualified value is left unreported rather than published as ALA.
   const generic = extractNutrients({
     foodNutrients: [nutrient("Alanine", 0.011, "g"), nutrient("PUFA 18:3", 0.009, "g")],
   })
-  assert.equal(generic.ala_mg, 9)
+  assert.equal(generic.ala_mg, undefined)
+  assert.equal(generic.omega3_mg, undefined, "an absent ALA is not a zero to roll up")
+
+  assert.equal(extractNutrients({foodNutrients: [nutrient("18:3 n-6 c,c,c", 0.5, "g")]}).ala_mg, undefined)
+
+  // Alanine is an amino acid. Nothing about its name may reach this field, and
+  // the same guard covers beta-alanine and phenylalanine.
+  for (const name of ["Alanine", "Beta-alanine", "Phenylalanine", "ALA"]) {
+    const out = extractNutrients({foodNutrients: [nutrient(name, 1.428, "g")]})
+    assert.equal(out.ala_mg, undefined, `${name} must never resolve to ALA`)
+  }
+})
+
+test("roe FDC 175132 reports EPA and DHA but no ALA", () => {
+  /*
+   * The real shape of Fish, roe, mixed species, raw. Alanine is 1.428 g per
+   * 100 g, which at a 15 g serving is about 214 mg — this was published as ALA,
+   * an omega-3 figure larger than the food's DHA. The record's only 18:3 entry
+   * is unqualified and negligible.
+   */
+  const roe = extractNutrients({
+    foodNutrients: [
+      nutrient("Alanine", 1.428, "g"),
+      nutrient("Phenylalanine", 1.092, "g"),
+      nutrient("PUFA 18:2", 0.029, "g"),
+      nutrient("PUFA 18:3", 0.006, "g"),
+      nutrient("PUFA 20:5 n-3 (EPA)", 0.983, "g"),
+      nutrient("PUFA 22:6 n-3 (DHA)", 1.363, "g"),
+    ],
+  })
+
+  assert.equal(roe.ala_mg, undefined, "alanine and an unqualified 18:3 leave ALA unreported")
+  assert.equal(roe.epa_mg, 983)
+  assert.equal(roe.dha_mg, 1363)
+  assert.equal(roe.omega3_mg, 2346, "the rollup is EPA plus DHA only")
+  assert.equal(roe.pufa_18_3_unresolved_mg, 6, "the unqualified 18:3 is kept, unresolved")
+  assert.deepEqual(
+    roe.omega3_components.map((c) => c.nutrient),
+    ["epa_mg", "dha_mg"],
+    "the total names its components and the unresolved 18:3 is not among them",
+  )
+
+  const serving = 15 / 100
+  assert.ok(
+    Math.abs(1.428 * 1000 * serving - 214) < 1,
+    "the discredited figure was alanine scaled to the serving",
+  )
+  assert.ok(Math.abs(roe.epa_mg * serving - 147.45) < 0.01)
+  assert.ok(Math.abs(roe.dha_mg * serving - 204.45) < 0.01)
+})
+
+test("omega-3 identity is decided by the source's nutrient identifier", () => {
+  const byId = (id, name, amount) => ({nutrient: {id, name, unitName: "g"}, amount})
+
+  /*
+   * The identifier is authoritative, because a name can be misread and an
+   * identifier cannot. 2018 (PUFA 18:3 c) and 2023 (PUFA 20:5c) name a cis form
+   * without an n-position, so neither is an explicit n-3 however familiar the
+   * carbon count looks.
+   */
+  const out = extractNutrients({
+    foodNutrients: [
+      byId(1404, "PUFA 18:3 n-3 c,c,c (ALA)", 0.148),
+      byId(1278, "PUFA 20:5 n-3 (EPA)", 0.862),
+      byId(1280, "PUFA 22:5 n-3 (DPA)", 0.393),
+      byId(1272, "PUFA 22:6 n-3 (DHA)", 1.104),
+      byId(2018, "PUFA 18:3 c", 0.148),
+      byId(2023, "PUFA 20:5c", 0.862),
+    ],
+  })
+
+  assert.equal(out.ala_mg, 148)
+  assert.equal(out.dpa_mg, 393, "DPA is an n-3 the total must include")
+  assert.equal(out.omega3_mg, 148 + 862 + 393 + 1104, "the total is every identified n-3")
+  assert.equal(out.pufa_18_3_unresolved_mg, undefined, "a resolved 18:3 leaves nothing unresolved")
+
+  for (const component of out.omega3_components) {
+    assert.match(component.identity, /n-3/, `${component.nutrient} states its isomer`)
+  }
+  assert.equal(
+    out.omega3_components.reduce((sum, c) => sum + c.amount_mg, 0),
+    out.omega3_mg,
+    "the total is exactly its named components",
+  )
+})
+
+test("an unqualified 18:3 is retained but never resolved", () => {
+  // Flaxseed's SR Legacy record. 22.8 g is almost certainly alpha-linolenic
+  // acid, but the record does not say so, and the site does not decide isomers
+  // on a food's reputation.
+  const flax = extractNutrients({
+    foodNutrients: [{nutrient: {id: 1270, name: "PUFA 18:3", unitName: "g"}, amount: 22.813}],
+  })
+
+  assert.equal(flax.ala_mg, undefined, "an unstated isomer is not ALA")
+  assert.equal(flax.pufa_18_3_unresolved_mg, 22813, "the measurement is kept")
+  assert.equal(flax.omega3_mg, undefined, "and contributes to no n-3 total")
+  assert.equal(flax.omega3_components, undefined)
+})
+
+test("phenylalanine cannot become ALA", () => {
+  /*
+   * FDC 2003603, Mushroom, beech: its phenylalanine of 0.671 g was published as
+   * "ALA 671 mg" on three medicinal mushroom pages. The record reports no fatty
+   * acid at all.
+   */
+  const mushroom = extractNutrients({
+    foodNutrients: [nutrient("Phenylalanine", 0.671, "g"), nutrient("Protein", 2.18, "g")],
+  })
+
+  assert.equal(mushroom.ala_mg, undefined)
+  assert.notEqual(mushroom.omega3_mg, 671)
+  assert.equal(mushroom.omega3_mg, undefined, "a record with no n-3 publishes no total")
 })
 
 test("almond editorial substances resolve to table rows", () => {

@@ -28,7 +28,6 @@ nutrition_per_100g:
   vitamin_c_mg: 19.7
   sodium_mg: 6
   sat_fat_g: 0.025
-  ala_mg: 81
   vitamin_k_ug: 2
   folate_ug: 15
   protein_g: 2.05
@@ -45,7 +44,7 @@ nutrition_per_100g:
   zinc_mg: 0.3
   selenium_ug: 0.4
   sugar_g: 0.82
-  omega3_mg: 81
+  pufa_18_3_unresolved_mg: 10
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Potatoes, flesh and skin, raw'

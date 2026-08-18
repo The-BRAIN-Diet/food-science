@@ -27,7 +27,6 @@ nutrition_per_100g:
   vitamin_e_mg: 2.86
   lutein_zeaxanthin_ug: 2903
   sat_fat_g: 5.907
-  ala_mg: 973
   fibre_g: 10.6
   protein_g: 20.16
   vitamin_a_rae_ug: 26
@@ -43,7 +42,7 @@ nutrition_per_100g:
   phosphorus_mg: 490
   vitamin_b1_mg: 0.87
   vitamin_b2_mg: 0.16
-  omega3_mg: 973
+  pufa_18_3_unresolved_mg: 289
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Nuts, pistachio nuts, raw'

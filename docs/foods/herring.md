@@ -24,7 +24,6 @@ nutrition_per_100g:
   sodium_mg: 90
   copper_mg: 0.092
   manganese_mg: 0.035
-  ala_mg: 1086
   dha_mg: 862
   epa_mg: 709
   sat_fat_g: 2.04
@@ -44,7 +43,18 @@ nutrition_per_100g:
   capric_g: 0.005
   linoleic_g: 0.13
   selenium_ug: 36.5
-  omega3_mg: 2657
+  omega3_mg: 1626
+  pufa_18_3_unresolved_mg: 103
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 862
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 709
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 55
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Fish, herring, Atlantic, raw'

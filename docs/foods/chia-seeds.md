@@ -41,6 +41,10 @@ nutrition_per_100g:
   vitamin_b3_mg: 8.83
   calcium_mg: 631
   omega3_mg: 17830
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 17830
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seeds, chia seeds, dried'

@@ -5,8 +5,8 @@
  *
  * Layout groups (see NutritionTable):
  * - Core nutrients
- * - Vitamins and minerals
- * - Fatty acids and extended BRAIN-relevant substances
+ * - Key vitamins and minerals
+ * - Bioactive compounds
  *
  * Public tables do not dump every stored key. Internal nutrition_per_100g
  * values remain available for algorithms even when hidden from the page.
@@ -23,7 +23,7 @@ export const CORE_NUTRIENT_KEYS: readonly string[] = [
   "fibre_g",
 ]
 
-/** Vitamins and minerals — second sub-table */
+/** Key vitamins and minerals — second sub-table */
 export const MICRONUTRIENT_KEYS: readonly string[] = [
   "iron_mg",
   "zinc_mg",
@@ -51,7 +51,11 @@ export const MICRONUTRIENT_KEYS: readonly string[] = [
   "vitamin_k_ug",
 ]
 
-/** Individual fatty acids, carotenoids, amino acids, and other extended analytes */
+/**
+ * Bioactive compounds — third sub-table. Individual fatty acids, carotenoids and
+ * amino acids render here only when explicitly identified and publicly admitted;
+ * the full panel stays in `nutrition_per_100g` for recipe calculation either way.
+ */
 export const BIOACTIVE_LIPID_KEYS: readonly string[] = [
   "oleic_g",
   "linoleic_g",
@@ -116,7 +120,7 @@ export const NUTRIENT_LABELS: Record<string, {label: string; unit: string}> = {
   iodine_ug: {label: "Iodine", unit: "µg"},
 
   omega3_mg: {label: "Total omega-3", unit: "mg"},
-  ala_mg: {label: "ALA", unit: "mg"},
+  ala_mg: {label: "ALA (18:3 n-3)", unit: "mg"},
   epa_mg: {label: "EPA", unit: "mg"},
   dha_mg: {label: "DHA", unit: "mg"},
   oleic_g: {label: "Oleic Acid", unit: "g"},

@@ -32,7 +32,6 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.087
   vitamin_b2_mg: 0.04
   folate_ug: 30
-  ala_mg: 50
   fibre_g: 2.4
   iron_mg: 0.1
   magnesium_mg: 10
@@ -42,7 +41,7 @@ nutrition_per_100g:
   protein_g: 0.94
   selenium_ug: 0.5
   choline_mg: 8.4
-  omega3_mg: 50
+  pufa_18_3_unresolved_mg: 7
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Oranges, raw, all commercial varieties'

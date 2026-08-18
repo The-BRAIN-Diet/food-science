@@ -51,13 +51,12 @@ nutrition_per_100g:
   vitamin_c_mg: 89.2
   vitamin_b1_mg: 0.071
   vitamin_b2_mg: 0.117
-  ala_mg: 104
   vitamin_k_ug: 101.6
   folate_ug: 63
   vitamin_a_rae_ug: 31
   beta_carotene_ug: 361
   lutein_zeaxanthin_ug: 1403
-  omega3_mg: 104
+  pufa_18_3_unresolved_mg: 63
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Broccoli, raw'

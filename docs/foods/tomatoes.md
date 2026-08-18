@@ -14,7 +14,6 @@ tags:
 list_image: /img/foods/tomatoes/tomatoes_thumb.webp
 nutrition_per_100g:
   choline_mg: 6.7
-  ala_mg: 27
   lycopene_ug: 2573
   vitamin_c_mg: 13.7
   sugar_g: 2.63
@@ -45,7 +44,7 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.037
   vitamin_b2_mg: 0.019
   folate_ug: 15
-  omega3_mg: 27
+  pufa_18_3_unresolved_mg: 3
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Tomatoes, red, ripe, raw, year round average'

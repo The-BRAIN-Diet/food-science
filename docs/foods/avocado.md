@@ -50,6 +50,10 @@ nutrition_per_100g:
   kcal: 160
   choline_mg: 14.2
   omega3_mg: 111
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 111
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Avocados, raw, all commercial varieties'

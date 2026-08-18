@@ -11,19 +11,21 @@ tags:
   - Choline
   - Phosphatidylcholine
 list_image: /img/foods/sunflower-lecithin/sunflower-lecithin_thumb.webp
-nutrition_per_100g:
-  sat_fat_g: 8.991
-  ala_mg: 162.8
-  epa_mg: 2.375
-  dha_mg: 0
-  omega3_mg: 165.175
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Oil, sunflower'
-  fdc_id: 1750349
-  retrieval_method: API
-  basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+composition_status: withdrawn
+composition_withdrawn:
+  withdrawn_record: USDA FDC 1750349, 'Oil, sunflower'
+  identity_failure: edible material and processing state
+  reason: >-
+    The panel was taken from a record for sunflower oil. Lecithin is the
+    phospholipid fraction separated during oil refining, and the two are close
+    to complementary: the oil is the triglyceride stream from which the
+    phospholipids have been removed. Using the oil's panel therefore
+    misdescribes precisely the component the page exists to document. The
+    withdrawn values include saturated fat 8.991 g, EPA 2.375 mg and DHA 0 mg,
+    all of them properties of the oil. Composition is not carried across from
+    the parent seed or its oil.
+  queue: system/specialist-composition-review-queue.md
+  withdrawn_on: '2026-08-18'
 main_image: /img/foods/sunflower-lecithin/sunflower-lecithin_medium.webp
 legacy_list_image: /img/foods/sunflower-lecithin/sunflower-lecithin_thumb.webp
 legacy_main_image: /img/foods/sunflower-lecithin/sunflower-lecithin_medium.webp
@@ -33,17 +35,19 @@ nutrition_supplementary_sources:
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      Sunflower Lecithin is a phospholipid-rich food in which
-      phosphatidylcholine is a major choline form; USDA SR Legacy reports
-      choline, not phosphatidylcholine specifically.
+      Sunflower lecithin is by definition a phospholipid fraction, and
+      phosphatidylcholine is one of its defining constituents. Presence follows
+      from what the product is, not from a composition record. No analytical
+      source for this material has been established, so no quantity is given.
   - key: choline_qual
     label: Choline
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      Sunflower Lecithin is a choline-containing food; the selected USDA SR
-      Legacy record omits choline, so quantity is not established from that
-      panel.
+      Choline is present as the head group of phosphatidylcholine, so its
+      presence follows from the phospholipid identity of the product. Quantity
+      varies with the lecithin's phospholipid content and is not established
+      here; a manufacturer specification for a named product would settle it.
 ---
 ## Overview
 

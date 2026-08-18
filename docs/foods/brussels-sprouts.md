@@ -19,7 +19,6 @@ nutrition_per_100g:
   kcal: 43
   sat_fat_g: 0.062
   caprylic_g: 0.002
-  ala_mg: 98
   protein_g: 3.38
   iron_mg: 1.4
   magnesium_mg: 23
@@ -45,7 +44,7 @@ nutrition_per_100g:
   vitamin_e_mg: 0.88
   lutein_zeaxanthin_ug: 1590
   selenium_ug: 1.6
-  omega3_mg: 98
+  pufa_18_3_unresolved_mg: 99
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Brussels sprouts, raw'

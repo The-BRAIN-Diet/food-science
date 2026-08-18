@@ -15,7 +15,7 @@ nutrition_per_100g:
   fat_g: 23.77
   carbs_g: 6.31
   fibre_g: 0
-  ala_mg: 650
+  ala_mg: 205
   calcium_mg: 125
   iron_mg: 1.24
   magnesium_mg: 15
@@ -29,7 +29,23 @@ nutrition_per_100g:
   sat_fat_g: 7.389
   epa_mg: 3
   dha_mg: 6
-  omega3_mg: 659
+  omega3_mg: 239
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 6
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 3
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 14
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 205
+  - nutrient: n3_20_3_mg
+    identity: 20:3 n-3
+    amount_mg: 11
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Bologna, meat and poultry'

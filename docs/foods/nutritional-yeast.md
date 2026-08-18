@@ -17,7 +17,6 @@ nutrition_per_100g:
   fat_g: 0.9
   carbs_g: 20.42
   fibre_g: 6.5
-  ala_mg: 0
   calcium_mg: 67
   iron_mg: 4.04
   magnesium_mg: 180
@@ -31,7 +30,6 @@ nutrition_per_100g:
   sat_fat_g: 0
   epa_mg: 0
   dha_mg: 0
-  omega3_mg: 0
 nutrition_source:
   database: USDA FoodData Central
   food_name: Yeast extract spread

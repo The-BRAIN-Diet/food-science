@@ -26,8 +26,7 @@ nutrition_per_100g:
   folate_ug: 29
   vitamin_b12_ug: 0
   sat_fat_g: 1.157
-  ala_mg: 334
-  omega3_mg: 334
+  pufa_18_3_unresolved_mg: 534
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Tofu, salted and fermented (fuyu)'

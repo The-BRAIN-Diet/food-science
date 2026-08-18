@@ -36,10 +36,9 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.036
   vitamin_b2_mg: 0.152
   folate_ug: 109
-  ala_mg: 172
   vitamin_c_mg: 21.8
   vitamin_a_rae_ug: 146
-  omega3_mg: 172
+  pufa_18_3_unresolved_mg: 414
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Rosemary, fresh'

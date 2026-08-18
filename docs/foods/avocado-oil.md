@@ -17,8 +17,7 @@ nutrition_per_100g:
   kcal: 884
   linoleic_g: 12.53
   oleic_g: 67.889
-  ala_mg: 957
-  omega3_mg: 957
+  pufa_18_3_unresolved_mg: 957
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Oil, avocado'

@@ -31,7 +31,7 @@ nutrition_per_100g:
   zinc_mg: 0.46
   vitamin_b5_mg: 0.717
   vitamin_b6_mg: 0.093
-  ala_mg: 295
+  ala_mg: 14
   sat_fat_g: 0.325
   linoleic_g: 0.468
   vitamin_k_ug: 0.3
@@ -45,7 +45,11 @@ nutrition_per_100g:
   capric_g: 0.003
   vitamin_c_mg: 6.8
   selenium_ug: 0.6
-  omega3_mg: 295
+  omega3_mg: 14
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 14
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Corn, sweet, yellow, raw'

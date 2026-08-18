@@ -43,6 +43,10 @@ nutrition_per_100g:
   linoleic_g: 2.736
   vitamin_c_mg: 4.2
   omega3_mg: 42
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA)
+    amount_mg: 42
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Amaranth grain, uncooked'

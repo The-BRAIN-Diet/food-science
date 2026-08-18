@@ -86,12 +86,37 @@ export const PUBLIC_MICRONUTRIENT_KEYS = [
   "iodine_ug",
 ]
 
+/**
+ * The individual n-3 fatty acids, each a named compound rather than a category.
+ *
+ * `ala_mg` is alpha-linolenic acid, 18:3 n-3, and only that. It is not alanine,
+ * not phenylalanine, and not an unqualified 18:3: a bare carbon count states
+ * chain length and double bonds but not which isomer, and 18:3 n-6 is
+ * gamma-linolenic acid, a different compound with different biology. A source
+ * that does not name the n-3 or alpha form has not measured ALA, and the value
+ * stays unreported rather than becoming a number of unknown identity.
+ */
 export const PUBLIC_BRAIN_KEYS = ["ala_mg", "epa_mg", "dha_mg"]
 
-/** Internal USDA ALA+EPA+DHA rollup. Never shown beside the component acids. */
+/**
+ * Total omega-3: the sum of the n-3 fatty acids a source explicitly identified,
+ * which may include DPA and other n-3 acids the site does not publish
+ * individually. It is a different quantity from EPA + DHA, and from any single
+ * acid, so it is never shown beside its own components. Food pages carrying this
+ * total must also carry `omega3_components` naming what was summed; a total
+ * whose parts cannot be named is not a measurement.
+ */
 export const OMEGA3_SUM_KEY = "omega3_mg"
 
-const ALL_CALC_KEYS = [
+/**
+ * Fatty acids a source reported without resolving their identity. These are
+ * kept on food pages so the underlying record is not lost, and are deliberately
+ * absent from every calculation and every display list: an unresolved 18:3
+ * cannot be added to an n-3 total or labelled ALA.
+ */
+export const UNRESOLVED_FATTY_ACID_KEYS = ["pufa_18_3_unresolved_mg"]
+
+export const ALL_CALC_KEYS = [
   ...PUBLIC_CORE_KEYS,
   ...PUBLIC_MICRONUTRIENT_KEYS,
   ...PUBLIC_BRAIN_KEYS,
@@ -125,6 +150,19 @@ export function resolveFoodDoc(slugOrTitle, foodDocs) {
   )
 }
 
+/**
+ * A food page whose composition panel has been withdrawn because the record it
+ * was built from describes a different food.
+ *
+ * Refusing it here rather than at display time matters: an ingredient pointing
+ * at such a page becomes unresolved, and the recipe says so, instead of quietly
+ * calculating a meal from a beech mushroom or a bottle of canola oil. Recipes
+ * must not be able to reach these panels by any route.
+ */
+export function isCompositionWithdrawn(doc) {
+  return doc?.frontMatter?.composition_status === "withdrawn"
+}
+
 function compositionPanel(ingredient, foodDocs) {
   if (ingredient.nutrition_per_100g && typeof ingredient.nutrition_per_100g === "object") {
     return {
@@ -148,6 +186,7 @@ function compositionPanel(ingredient, foodDocs) {
   }
   const slug = ingredient.food_slug || ingredient.food
   const doc = resolveFoodDoc(slug, foodDocs)
+  if (isCompositionWithdrawn(doc)) return null
   const panel = doc?.frontMatter?.nutrition_per_100g
   if (!doc || !panel || typeof panel !== "object") return null
   return {

@@ -44,12 +44,22 @@ nutrition_per_100g:
   vitamin_b2_mg: 0.21
   folate_ug: 42
   vitamin_b12_ug: 12
-  ala_mg: 720
   dha_mg: 253
   epa_mg: 188
   protein_g: 11.9
   selenium_ug: 44.8
-  omega3_mg: 1161
+  omega3_mg: 463
+  pufa_18_3_unresolved_mg: 20
+omega3_components:
+  - nutrient: dha_mg
+    identity: 22:6 n-3 (DHA)
+    amount_mg: 253
+  - nutrient: epa_mg
+    identity: 20:5 n-3 (EPA)
+    amount_mg: 188
+  - nutrient: dpa_mg
+    identity: 22:5 n-3 (DPA)
+    amount_mg: 22
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Mollusks, mussel, blue, raw'

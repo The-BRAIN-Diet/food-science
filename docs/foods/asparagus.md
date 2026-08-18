@@ -42,8 +42,7 @@ nutrition_per_100g:
   vitamin_b3_mg: 0.978
   vitamin_b5_mg: 0.274
   vitamin_b6_mg: 0.091
-  ala_mg: 10
-  omega3_mg: 10
+  pufa_18_3_unresolved_mg: 10
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Asparagus, raw'

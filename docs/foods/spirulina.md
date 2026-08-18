@@ -38,11 +38,10 @@ nutrition_per_100g:
   vitamin_b1_mg: 2.38
   vitamin_b2_mg: 3.67
   folate_ug: 94
-  ala_mg: 4515
   sat_fat_g: 2.65
   vitamin_a_rae_ug: 29
   selenium_ug: 7.2
-  omega3_mg: 4515
+  pufa_18_3_unresolved_mg: 823
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seaweed, spirulina, dried'

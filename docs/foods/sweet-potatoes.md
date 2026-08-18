@@ -15,7 +15,6 @@ list_image: /img/foods/sweet-potatoes/sweet-potatoes_thumb.webp
 nutrition_per_100g:
   fibre_g: 3
   vitamin_a_rae_ug: 709
-  ala_mg: 77
   sat_fat_g: 0.018
   sugar_g: 4.18
   carbs_g: 20.12
@@ -44,7 +43,7 @@ nutrition_per_100g:
   vitamin_b1_mg: 0.078
   vitamin_b2_mg: 0.061
   protein_g: 1.57
-  omega3_mg: 77
+  pufa_18_3_unresolved_mg: 1
 nutrition_source:
   database: USDA FoodData Central
   food_name: >-
