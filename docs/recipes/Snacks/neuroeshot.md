@@ -94,9 +94,11 @@ A quick savory shot built from roe, lemon, and fermented hot sauce. It is design
 - **Roe** contributes EPA/DHA and choline in a compact serving.
 - **Lemon juice and hot sauce** improve palatability and can make small roe portions easier to include consistently.
 
-## Foods/Substances
+## Nutrition
 
-> Nutrition: Weighted nutrition is calculated from ingredient grams in `recipe_nutrition`.
+<RecipeNutrition details={frontMatter} />
+
+## Foods/Substances
 
 <RecipeFoods details={frontMatter} />
 

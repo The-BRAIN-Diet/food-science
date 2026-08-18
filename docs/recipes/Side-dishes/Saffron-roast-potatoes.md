@@ -162,6 +162,10 @@ Pairs especially well with:
 - Blooming saffron first ensures even colour and flavour.
 - Keeping the saffron oil simple preserves the bright golden tone.
 
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
+
 ## Foods/Substances
 
 <RecipeFoods details={frontMatter} />

@@ -162,7 +162,9 @@ Nuts and seeds are energy-dense; the default topping is 9 g mixed seeds plus 7.3
 
 ## Nutrition
 
-Approximately **294 kcal** and **17 g protein** per serving, with 4.3 g fibre and 55 mg sodium. This replaces an earlier untraced line of ~350 kcal · 18 g protein. Full per-serving values, including micronutrients, are in the Recipe nutrition table below.
+<RecipeNutrition details={frontMatter} />
+
+These values replace an earlier untraced line of ~350 kcal and 18 g protein.
 
 ## Brain Health Notes
 

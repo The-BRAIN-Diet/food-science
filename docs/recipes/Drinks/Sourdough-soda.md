@@ -76,6 +76,10 @@ A refreshing, lightly sparkling kvass-style drink made from toasted stale sourdo
 - **UPF profile:** 100% non-UPF; uses simple ingredients and fermentation rather than additives.
 - **Use case:** As a low-sugar, low-alcohol alternative to soft drinks in the evening, or as a gentle digestive drink with meals.
 
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
+
 ## Foods/Substances
 
 <RecipeFoods details={frontMatter} />

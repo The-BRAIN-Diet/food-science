@@ -363,7 +363,7 @@ test("public rows are grouped into summary, micronutrient and bioactive sections
   assert.ok(groups.has("micronutrient"))
   const summaryKeys = rows.filter((r) => r.group === "core").map((r) => r.key)
   assert.deepEqual(summaryKeys.slice(0, 3), ["kcal", "protein_g", "carbs_g"])
-  const ui = fs.readFileSync(path.join(ROOT, "src/theme/RecipeFoods/index.tsx"), "utf8")
+  const ui = fs.readFileSync(path.join(ROOT, "src/theme/RecipeNutrition/index.tsx"), "utf8")
   assert.match(ui, /Key vitamins and minerals/)
   assert.match(ui, /Bioactive compounds/)
   assert.match(ui, /Calculation details/)
@@ -400,6 +400,50 @@ test("no recipe is matrix-validated in this integrity pass", () => {
   for (const file of walkMd(RECIPES_DIR)) {
     const {data} = matter(fs.readFileSync(file, "utf8"))
     assert.notEqual(data.recipe_matrix_validated, true, file)
+  }
+})
+
+/** Recipe pages, excluding the category index stubs that carry no ingredients. */
+function recipePages() {
+  return walkMd(RECIPES_DIR)
+    .map((file) => ({file, raw: fs.readFileSync(file, "utf8")}))
+    .filter(({raw}) => raw.includes("<RecipeFoods"))
+    .map((entry) => ({...entry, ...matter(entry.raw)}))
+}
+
+test("each recipe publishes its per-serving figures in exactly one place", () => {
+  const foods = fs.readFileSync(path.join(ROOT, "src/theme/RecipeFoods/index.tsx"), "utf8")
+  assert.doesNotMatch(foods, /calculateRecipeNutrition/, "RecipeFoods must not also render nutrition")
+  assert.doesNotMatch(foods, /Recipe nutrition/)
+
+  for (const {file, raw} of recipePages()) {
+    const calls = raw.match(/<RecipeNutrition\b/g) || []
+    assert.equal(calls.length, 1, `${file} should call RecipeNutrition exactly once`)
+    const section = raw.split(/^## /m).find((part) => part.startsWith("Nutrition"))
+    assert.ok(section, `${file} needs a "## Nutrition" heading`)
+    assert.match(section, /<RecipeNutrition details=\{frontMatter\} \/>/, file)
+  }
+})
+
+test("recipe prose does not restate the calculated summary table", () => {
+  for (const {file, raw, content, data} of recipePages()) {
+    assert.doesNotMatch(
+      content,
+      /^\s*[-*]\s*\*\*(Energy|Protein|Carbohydrates?|Fat|Fibre|Sodium)[:*]/m,
+      `${file} hand-types a nutrient summary list that will drift from the table`,
+    )
+
+    const result = calculateRecipeNutrition(data, foodDocs)
+    if (result.status !== "calculated") continue
+
+    // The published energy figure must appear once, from the component. Prose may
+    // still cite withdrawn estimates or alternative serving splits, which differ.
+    const published = Math.round(result.perServing.kcal)
+    assert.doesNotMatch(
+      content,
+      new RegExp(`\\b${published}\\s*kcal`),
+      `${file} repeats the published ${published} kcal in prose`,
+    )
   }
 })
 

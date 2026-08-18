@@ -193,24 +193,11 @@ Transfer the cooked linguine directly into the sauce with a splash of pasta wate
 ### 6. Finish with yolk emulsion
 In a separate bowl, whisk egg yolks with parmesan. Slowly add 3–5 tablespoons of hot pasta water while whisking continuously. This tempers the yolks, loosening the mixture and preventing scrambling when added to the pasta. Remove pasta pan from heat and immediately add the yolk mixture, tossing continuously to form a glossy sauce. Add cockle meat and optional butter, then finish with parsley, lemon zest, and black pepper. Add more water from the boiled pasta to increase the sauce. Serve immediately.
 
-## Nutrition (per serving)
+## Nutrition
 
-> Calculated from two servings, using clams as the shellfish and 150 g of dry whole-wheat linguine per person.
-
-- **Energy:** 1007 kcal
-- **Protein:** 40 g
-- **Carbohydrate:** 120 g
-- **Fibre:** 14.5 g
-- **Fat:** 40 g
-- **Sodium:** 634 mg, excluding salt added to the pasta water
+<RecipeNutrition details={frontMatter} />
 
 This is a substantially larger plate than the earlier untraced estimate of 700–760 kcal suggested. The two largest contributors are the dry pasta and the four tablespoons of olive oil; halving either brings the plate close to that earlier figure.
-
-### Micronutrient highlights
-- Very high vitamin B12
-- High iron and zinc
-- Significant selenium
-- Meaningful choline from egg yolk
 
 Marine taurine is not quantified in the composition records used here. Values vary with shellfish yield and pasta brand.
 

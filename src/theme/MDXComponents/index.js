@@ -10,6 +10,7 @@ import FoodMatrix from '../FoodMatrix';
 import SubstanceMatrix from '../SubstanceMatrix';
 import RecipeMatrix from '../RecipeMatrix';
 import RecipeFoods from '../RecipeFoods';
+import RecipeNutrition from '../RecipeNutrition';
 import FoodSubstances from '../FoodSubstances';
 import FoodSubstancesFromTable from '../FoodSubstancesFromTable';
 import TherapeuticAreaMatrix from '../TherapeuticAreaMatrix';
@@ -38,6 +39,7 @@ export default {
   SubstanceMatrix,
   RecipeMatrix,
   RecipeFoods,
+  RecipeNutrition,
   FoodSubstances,
   FoodSubstancesFromTable,
   NutritionTable,

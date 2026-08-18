@@ -191,6 +191,10 @@ These sides absorb the duck juices and complement the berry sauce's acidity whil
 - The sauce should remain loose rather than syrupy.
 - A light drizzle of saffron oil enhances aroma without overpowering the duck.
 
+## Nutrition
+
+<RecipeNutrition details={frontMatter} />
+
 ## Foods/Substances
 
 <RecipeFoods details={frontMatter} />

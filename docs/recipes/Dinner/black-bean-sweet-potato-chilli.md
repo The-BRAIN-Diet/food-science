@@ -187,8 +187,8 @@ recipe_ingredients:
 nutrition_assumptions:
   - Sodium excludes salt added to taste.
   - >-
-    Four servings is used because the page's own nutrition note states "based on
-    4 servings"; the ingredient heading says 4–6.
+    Four servings is used because the page's original nutrition note stated "based
+    on 4 servings"; the ingredient heading says 4–6.
 ---
 
 <img src="/img/recipes/black-bean-sweet-potato-chilli.jpg" alt="Black Bean & Sweet Potato Vegetable Chilli" width="480" />
@@ -247,18 +247,11 @@ Serve warm with optional yoghurt, herbs, lime, or whole grains.
 - Freezes successfully for future meals.
 - Flavour deepens after resting, making it ideal for batch preparation.
 
-## Nutrition (per serving)
+## Nutrition
 
-> Calculated from 4 servings of the chilli itself. Grains, yoghurt and other accompaniments are not included.
+<RecipeNutrition details={frontMatter} />
 
-- **Energy:** 246 kcal
-- **Protein:** 9.8 g — black beans provide most of the plant protein
-- **Carbohydrates:** 36 g
-- **Fat:** 8.2 g
-- **Fibre:** 12.4 g
-- **Sodium:** 379 mg, excluding salt added to taste
-
-Sodium depends heavily on the canned beans and stock used; low-sodium beans are assumed here. Serving this with cooked quinoa or brown rice adds roughly 200 kcal per portion.
+These are figures for the chilli alone. Grains, yoghurt and other accompaniments add energy and carbohydrate that they do not include. Sodium depends heavily on the canned beans and stock used; low-sodium beans are assumed here.
 
 ## Brain Health Notes
 
