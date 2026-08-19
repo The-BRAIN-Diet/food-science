@@ -7,6 +7,7 @@ tags:
   - Area
 sidebar_position: 1
 list_image: /img/icons/training.svg
+hide_table_of_contents: true
 ---
 
 # The Food Composition Interpretation Register (FCIR)
@@ -20,6 +21,17 @@ Nuts and seeds are central to the BRAIN Diet. They provide fibre, protein, miner
 <div className="fcir-register fcir-register-preview">
 <p className="fcir-preview-label">Example row — <a href="#fcir-001">FCIR-001</a></p>
 <table className="fcir-table fcir-table-preview">
+<colgroup>
+<col className="fcir-col-id" />
+<col className="fcir-col-food" />
+<col className="fcir-col-issue" />
+<col className="fcir-col-unii" />
+<col className="fcir-col-ids" />
+<col className="fcir-col-problem" />
+<col className="fcir-col-decision" />
+<col className="fcir-col-evidence" />
+<col className="fcir-col-status" />
+</colgroup>
 <thead>
 <tr>
 <th className="fcir-col-id">Case ID</th>
@@ -88,6 +100,17 @@ This work is being developed with input from our team, including **Larry Callaha
 
 <div className="fcir-register">
 <table className="fcir-table">
+<colgroup>
+<col className="fcir-col-id" />
+<col className="fcir-col-food" />
+<col className="fcir-col-issue" />
+<col className="fcir-col-unii" />
+<col className="fcir-col-ids" />
+<col className="fcir-col-problem" />
+<col className="fcir-col-decision" />
+<col className="fcir-col-evidence" />
+<col className="fcir-col-status" />
+</colgroup>
 <thead>
 <tr>
 <th className="fcir-col-id">Case ID</th>
