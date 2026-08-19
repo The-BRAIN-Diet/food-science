@@ -1,5 +1,7 @@
 ---
 id: natto
+fcir_cases:
+  - FCIR-018
 title: Natto
 sidebar_label: Natto
 description: Fermented soybeans with unique Bacillus subtilis and vitamin K2
@@ -38,7 +40,14 @@ nutrition_per_100g:
   vitamin_b5_mg: 0.215
   vitamin_b6_mg: 0.13
   selenium_ug: 8.8
-  pufa_18_3_unresolved_mg: 734
+  ala_mg: 734
+  omega3_mg: 734
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA; USDA 1270 interpreted)
+    amount_mg: 734
+public_display:
+  ala_mg: internal-only
 nutrition_source:
   database: USDA FoodData Central
   food_name: Natto
@@ -46,12 +55,22 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+  limitations: Unqualified 18:3 on this record is documented in FCIR-018.
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
 main_image: /img/foods/natto/natto_medium.webp
 legacy_list_image: /img/foods/natto/natto_thumb.webp
 legacy_main_image: /img/foods/natto/natto_medium.webp
 nutrition_supplementary_sources:
+  - key: ala_interpreted
+    label: Alpha-linolenic acid (ALA; 18:3 n-3)
+    value: 0.734
+    unit: g
+    notes: USDA 18:3 quantity; isomer from USDA soybean oil nutrient 1404
+    public_display: table
+    exclude_from_recipe_sum: true
+    fcir_case: FCIR-018
+    source_note: This value uses a documented composition interpretation. See FCIR-018.
   - key: vitamin_k2_qual
     label: Vitamin K2
     status: Present — quantity not established

@@ -1,5 +1,7 @@
 ---
 id: chia-seeds
+fcir_cases:
+  - FCIR-020
 title: Chia Seeds
 sidebar_label: Chia Seeds
 description: 'ALA omega-3, fiber, and minerals'

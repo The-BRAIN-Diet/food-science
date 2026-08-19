@@ -9,6 +9,10 @@ import {
   runTruthLevelValidation,
   truthLevelHasFailures,
 } from "./lib/food-truth-reconciliation.mjs"
+import {
+  printProvenanceReport,
+  runProvenanceValidation,
+} from "./lib/composition-provenance.mjs"
 
 function parseArgs(argv) {
   const canonical = argv.includes("--canonical")
@@ -61,6 +65,12 @@ function main() {
     } else {
       console.log(`OK: All checked pages match canonical structure${slug ? ` (${slug})` : ""}.\n`)
     }
+  }
+
+  const provenanceFailures = runProvenanceValidation(foodsDir, slug)
+  printProvenanceReport(provenanceFailures)
+  if (provenanceFailures.length) {
+    exitCode = 1
   }
 
   const truthReport = runTruthLevelValidation(foodsDir, slug)

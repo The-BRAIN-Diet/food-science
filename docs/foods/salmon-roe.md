@@ -1,5 +1,7 @@
 ---
 id: salmon-roe
+fcir_cases:
+  - FCIR-009
 title: Salmon Roe
 sidebar_label: Salmon Roe
 description: Premium salmon (ikura) eggs — phospholipid-bound EPA/DHA and choline

@@ -164,17 +164,27 @@ test("omega-3 identity is decided by the source's nutrient identifier", () => {
 })
 
 test("an unqualified 18:3 is retained but never resolved", () => {
-  // Flaxseed's SR Legacy record. 22.8 g is almost certainly alpha-linolenic
-  // acid, but the record does not say so, and the site does not decide isomers
-  // on a food's reputation.
+  // Flaxseed's SR Legacy record. USDA reports 22.813 g under nutrient 1270.
+  // Extraction does not decide isomers. Combined provenance on the flax page
+  // is a later, documented food-level interpretation, not this function.
   const flax = extractNutrients({
+    description: "Seeds, flaxseed",
     foodNutrients: [{nutrient: {id: 1270, name: "PUFA 18:3", unitName: "g"}, amount: 22.813}],
   })
 
   assert.equal(flax.ala_mg, undefined, "an unstated isomer is not ALA")
-  assert.equal(flax.pufa_18_3_unresolved_mg, 22813, "the measurement is kept")
+  assert.equal(flax.pufa_18_3_unresolved_mg, 22813, "the reported value is kept")
   assert.equal(flax.omega3_mg, undefined, "and contributes to no n-3 total")
   assert.equal(flax.omega3_components, undefined)
+
+  // Hemp's generic 18:3 would be ALA + GLA. The extractor has no food-name
+  // exception that could inherit flax's page-level interpretation.
+  const hemp = extractNutrients({
+    description: "Seeds, hemp seed, hulled",
+    foodNutrients: [{nutrient: {id: 1270, name: "PUFA 18:3", unitName: "g"}, amount: 20.17}],
+  })
+  assert.equal(hemp.ala_mg, undefined, "hemp cannot inherit flax's 1270 interpretation")
+  assert.equal(hemp.pufa_18_3_unresolved_mg, 20170)
 })
 
 test("phenylalanine cannot become ALA", () => {
@@ -190,6 +200,53 @@ test("phenylalanine cannot become ALA", () => {
   assert.equal(mushroom.ala_mg, undefined)
   assert.notEqual(mushroom.omega3_mg, 671)
   assert.equal(mushroom.omega3_mg, undefined, "a record with no n-3 publishes no total")
+})
+
+test("beta-alanine cannot become ALA", () => {
+  /*
+   * The guard is on the substring, so every amino acid ending in "alanine" is
+   * disqualified before any name test runs. Beta-alanine is the third of them
+   * and the one most likely to appear in a supplement-style panel.
+   */
+  const panel = extractNutrients({
+    foodNutrients: [
+      nutrient("Beta-alanine", 1.2, "g"),
+      nutrient("Alanine", 0.9, "g"),
+      nutrient("Phenylalanine", 0.7, "g"),
+    ],
+  })
+
+  assert.equal(panel.ala_mg, undefined, "no amino acid resolves to ALA")
+  assert.equal(panel.omega3_mg, undefined)
+  assert.equal(panel.pufa_18_3_unresolved_mg, undefined, "nor to an unresolved fatty acid")
+})
+
+test("a reported zero is not a measurement of absence", () => {
+  /*
+   * Nutritional yeast stored `ala_mg: 0` from an unqualified 18:3 of zero. A
+   * nutrient the analysis never established is unknown, not absent, and a total
+   * assembled from nothing is omitted rather than published as 0.
+   */
+  const zeroed = extractNutrients({
+    foodNutrients: [
+      {nutrient: {id: 1270, name: "PUFA 18:3", unitName: "g"}, amount: 0},
+      {nutrient: {id: 1404, name: "PUFA 18:3 n-3 c,c,c (ALA)", unitName: "g"}, amount: 0},
+      nutrient("Protein", 45.5, "g"),
+    ],
+  })
+
+  assert.equal(zeroed.omega3_mg, undefined, "a zero total is not published")
+  assert.equal(zeroed.omega3_components, undefined)
+  assert.equal(zeroed.protein_g, 45.5, "the rest of the panel is unaffected")
+})
+
+test("a nutrient the record never reported is absent, not zero", () => {
+  const sparse = extractNutrients({foodNutrients: [nutrient("Protein", 2.18, "g")]})
+
+  for (const key of ["ala_mg", "epa_mg", "dha_mg", "omega3_mg", "pufa_18_3_unresolved_mg"]) {
+    assert.equal(sparse[key], undefined, `${key} must be absent rather than zero`)
+    assert.ok(!Object.prototype.hasOwnProperty.call(sparse, key), `${key} must not be written at all`)
+  }
 })
 
 test("almond editorial substances resolve to table rows", () => {

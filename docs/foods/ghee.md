@@ -1,5 +1,7 @@
 ---
 id: ghee
+fcir_cases:
+  - FCIR-006
 title: Ghee
 sidebar_label: Ghee
 description: Heat-stable clarified butter with butyrate and fat-soluble vitamins

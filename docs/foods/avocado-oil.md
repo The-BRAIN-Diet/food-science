@@ -1,5 +1,7 @@
 ---
 id: avocado-oil
+fcir_cases:
+  - FCIR-008
 title: Avocado Oil
 sidebar_label: Avocado Oil
 description: Monounsaturated culinary oil dominated by oleic acid

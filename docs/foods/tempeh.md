@@ -1,5 +1,7 @@
 ---
 id: tempeh
+fcir_cases:
+  - FCIR-018
 title: Tempeh
 sidebar_label: Tempeh
 description: Fermented soy providing probiotics and enhanced nutrient bioavailability
@@ -43,7 +45,14 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.215
   fat_g: 10.8
   tyrosine_g: 0.664
-  pufa_18_3_unresolved_mg: 248
+  ala_mg: 248
+  omega3_mg: 248
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA; USDA 1270 interpreted)
+    amount_mg: 248
+public_display:
+  ala_mg: internal-only
 nutrition_source:
   database: USDA FoodData Central
   food_name: Tempeh
@@ -51,12 +60,22 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+  limitations: Unqualified 18:3 on this record is documented in FCIR-018.
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
 main_image: /img/foods/tempeh/tempeh_medium.webp
 legacy_list_image: /img/foods/tempeh/tempeh_thumb.webp
 legacy_main_image: /img/foods/tempeh/tempeh_medium.webp
 nutrition_supplementary_sources:
+  - key: ala_interpreted
+    label: Alpha-linolenic acid (ALA; 18:3 n-3)
+    value: 0.248
+    unit: g
+    notes: USDA 18:3 quantity; isomer from USDA soybean oil nutrient 1404
+    public_display: table
+    exclude_from_recipe_sum: true
+    fcir_case: FCIR-018
+    source_note: This value uses a documented composition interpretation. See FCIR-018.
   - key: genistein_qual
     label: Genistein
     status: Present — quantity not established

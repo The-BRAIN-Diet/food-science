@@ -1,5 +1,7 @@
 ---
 id: walnuts
+fcir_cases:
+  - FCIR-004
 title: Walnuts
 sidebar_label: Walnuts
 description: 'ALA omega-3, polyphenols, and ellagitannins for urolithin A production'
@@ -48,7 +50,14 @@ nutrition_per_100g:
   potassium_mg: 441
   zinc_mg: 3.09
   fat_g: 65.21
-  pufa_18_3_unresolved_mg: 9080
+  ala_mg: 9080
+  omega3_mg: 9080
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA; USDA 1270 interpreted)
+    amount_mg: 9080
+public_display:
+  ala_mg: internal-only
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Nuts, walnuts, english'
@@ -56,7 +65,17 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+  limitations: Unqualified 18:3 on this record is documented in FCIR-004.
 nutrition_supplementary_sources:
+  - key: ala_interpreted
+    label: Alpha-linolenic acid (ALA; 18:3 n-3)
+    value: 9.08
+    unit: g
+    notes: USDA 18:3 quantity; isomer from walnut-specific literature
+    public_display: table
+    exclude_from_recipe_sum: true
+    fcir_case: FCIR-004
+    source_note: This value uses a documented composition interpretation. See FCIR-004.
   - key: walnut_polyphenols_proxy
     label: Ellagitannins / total polyphenols
     amount_display: High among tree nuts (varies by batch)
@@ -131,3 +150,4 @@ Pair with legumes or grains to complete essential amino acid coverage.
 ## References
 
 [1] The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate). Zelicha & Kloting 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+

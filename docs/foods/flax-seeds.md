@@ -1,5 +1,7 @@
 ---
 id: flax-seeds
+fcir_cases:
+  - FCIR-003
 title: Flax Seeds
 sidebar_label: Flax Seeds
 description: ALA omega-3 and soluble fiber source
@@ -44,7 +46,14 @@ nutrition_per_100g:
   kcal: 534
   choline_mg: 78.7
   sat_fat_g: 3.663
-  pufa_18_3_unresolved_mg: 22813
+  ala_mg: 22813
+  omega3_mg: 22813
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA; USDA 1270 interpreted)
+    amount_mg: 22813
+public_display:
+  ala_mg: internal-only
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seeds, flaxseed'
@@ -52,6 +61,17 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+  limitations: Unqualified 18:3 on this record is documented in FCIR-003.
+nutrition_supplementary_sources:
+  - key: ala_interpreted
+    label: Alpha-linolenic acid (ALA; 18:3 n-3)
+    value: 22.8
+    unit: g
+    notes: USDA 18:3 quantity; isomer from flax-specific literature
+    public_display: table
+    exclude_from_recipe_sum: true
+    fcir_case: FCIR-003
+    source_note: This value uses a documented composition interpretation. See FCIR-003.
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
 main_image: /img/foods/flax-seeds/flax-seeds_medium.webp
@@ -104,3 +124,4 @@ Pair with legumes or grains to complete essential amino acid coverage.
 [1] Reports on omega-3 Fatty Acids: Fact Sheet for Health Professionals. NIH 2025. [Omega-3 conversion constraints and practical intake context](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
 
 [2] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+

@@ -45,7 +45,7 @@ interface CalculatedNutrition {
   servings: number
   perServing: Record<string, number>
   byFood: Record<string, Record<string, number>>
-  audit: {food: string; display?: string; weight_g: number; composition_basis?: string; conversion_source?: string}[]
+  audit: {food: string; food_slug?: string | null; display?: string; weight_g: number; composition_basis?: string; conversion_source?: string}[]
   exclusions?: {display: string; reason: string}[]
   assumptions?: string[]
 }
@@ -178,7 +178,7 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
     .map((row) => `${row.display}: ${row.note}`)
 
   return (
-    <div>
+    <div className="recipe-nutrition-block" id="recipe-nutrition">
       <p style={{fontSize: "0.9em", color: "var(--ifm-color-content-secondary)", marginTop: 0}}>
         Per serving{nutrition.servings > 1 ? `, recipe serves ${nutrition.servings}` : ""}. Each
         included ingredient is scaled from a named per-100 g composition record by edible grams.
@@ -194,7 +194,7 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
         </thead>
         <tbody>
           {summaryRows.map((row) => (
-            <tr key={row.key}>
+            <tr key={row.key} id={`nutrition-row-${row.key}`} className="nutrition-row-target">
               <td style={TD_LEFT}>{labelFor(row.key, row.label)}</td>
               <td style={TD_RIGHT}>
                 {row.amount == null ? "Not established" : formatAmount(row.amount, unitFor(row.key))}
@@ -243,7 +243,7 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
               </thead>
               <tbody>
                 {micronutrientRows.map((row) => (
-                  <tr key={row.key}>
+                  <tr key={row.key} id={`nutrition-row-${row.key}`} className="nutrition-row-target">
                     <td style={TD_LEFT}>{labelFor(row.key)}</td>
                     <td style={TD_RIGHT}>{formatAmount(row.amount, unitFor(row.key))}</td>
                     <td style={TD_RIGHT}>
@@ -289,7 +289,7 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
               </thead>
               <tbody>
                 {bioactiveRows.map((row) => (
-                  <tr key={row.key}>
+                  <tr key={row.key} id={`nutrition-row-${row.key}`} className="nutrition-row-target">
                     <td style={TD_LEFT}>{labelFor(row.key, row.label)}</td>
                     <td style={TD_RIGHT}>{formatAmount(row.amount, unitFor(row.key))}</td>
                   </tr>
@@ -316,7 +316,14 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
           </thead>
           <tbody>
             {nutrition.audit.map((row) => (
-              <tr key={`${row.food}-${row.weight_g}`}>
+              <tr
+                key={`${row.food}-${row.weight_g}`}
+                id={`nutrition-ingredient-${String(row.food_slug || row.food)
+                  .toLowerCase()
+                  .replace(/[^a-z0-9]+/g, "-")
+                  .replace(/^-|-$/g, "")}`}
+                className="nutrition-row-target"
+              >
                 <td style={TD_LEFT}>{row.display || row.food}</td>
                 <td style={TD_RIGHT}>{formatAmount(row.weight_g, "g")}</td>
                 <td style={TD_LEFT}>{conciseCompositionRecord(row.composition_basis).record}</td>
@@ -332,7 +339,7 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
             </p>
             <ul style={{fontSize: "0.85em", marginBottom: 0}}>
               {provenanceRows.map((row) => (
-                <li key={row.key}>
+                <li key={row.key} id={`nutrition-note-${row.key}`} className="nutrition-row-target">
                   <strong>{labelFor(row.key)}</strong>: {row.contributors.join(", ")}
                 </li>
               ))}

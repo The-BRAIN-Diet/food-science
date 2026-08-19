@@ -36,6 +36,7 @@ import path from "node:path"
 import readline from "node:readline"
 import {fileURLToPath} from "node:url"
 import matter from "gray-matter"
+import {SUBSTITUTED_RECORDS as CANONICAL_SUBSTITUTED_RECORDS} from "./lib/composition-provenance.mjs"
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const BASE = path.join(ROOT, "scripts/data/usda-sr-legacy/FoodData_Central_sr_legacy_food_csv_2018-04")
@@ -69,14 +70,16 @@ const TOLERANCE = 0.02
  * these, but applying the record would publish canola oil's ALA on the MCT oil
  * page and a beech mushroom's composition on three medicinal mushroom pages.
  * A neighbouring food is not a source, so nothing is carried across.
+ *
+ * The list itself is canonical in `scripts/lib/composition-provenance.mjs`,
+ * where the validator also reads it.
  */
-const SUBSTITUTED_RECORDS = {
-  "mct-oil.md": "cites FDC 748278, Oil, canola — a different food",
-  "sunflower-lecithin.md": "cites FDC 1750349, Oil, sunflower — a different food",
-  "cordyceps-mushroom.md": "cites FDC 2003603, Mushroom, beech — a different species",
-  "reishi-mushroom.md": "cites FDC 2003603, Mushroom, beech — a different species",
-  "turkey-tail-mushroom.md": "cites FDC 2003603, Mushroom, beech — a different species",
-}
+const SUBSTITUTED_RECORDS = Object.fromEntries(
+  Object.entries(CANONICAL_SUBSTITUTED_RECORDS).map(([slug, record]) => [
+    `${slug}.md`,
+    `cites FDC ${record.fdc_id}, ${record.describes} — a different ${record.identity_failure}`,
+  ]),
+)
 
 function splitCsvLine(line) {
   const out = []

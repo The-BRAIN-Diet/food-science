@@ -1040,6 +1040,44 @@
   margin-top: 0.75rem;
 }
 
+/* Deep-link targets for the Food Composition Interpretation Register */
+.nutrition-row-target,
+.nutrition-table-block h2[id],
+.nutrition-table-block h3,
+.recipe-nutrition-block,
+.fcir-register [id] {
+  scroll-margin-top: calc(var(--ifm-navbar-height, 80px) + 12px);
+}
+
+.fcir-register {
+  overflow-x: auto;
+  margin: 1rem 0 1.5rem;
+}
+
+.fcir-register table {
+  font-size: 0.88rem;
+  min-width: 72rem;
+}
+
+.fcir-register th,
+.fcir-register td {
+  vertical-align: top;
+}
+
+.fcir-register .fcir-label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.fcir-case {
+  margin: 2rem 0 2.5rem;
+}
+
+.fcir-case h3 {
+  scroll-margin-top: calc(var(--ifm-navbar-height, 80px) + 12px);
+}
+
 /* Unified spacing for MDX "block" components (recipes/substances/tag lists, etc.) */
 .bok-tag-list {
   margin-top: 0.75rem;

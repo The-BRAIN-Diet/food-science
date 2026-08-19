@@ -1,5 +1,7 @@
 ---
 id: turkey-tail-mushroom
+fcir_cases:
+  - FCIR-015
 title: Turkey Tail Mushroom
 sidebar_label: Turkey Tail Mushroom
 description: >-
@@ -10,7 +12,6 @@ tags:
   - Turkey Tail Mushroom
   - Vegan
   - Vegetarian
-  - Vitamin B3
   - Polysaccharides
   - Beta-Glucans
 list_image: /img/foods/turkey-tail-mushroom/turkey-tail-mushroom_thumb.webp

@@ -9,6 +9,7 @@ import {
   isPublicTableKey,
   readAuthorisedSpecifications,
 } from "@site/src/data/nutritionTableMapping"
+import {foodPageNote, fcirHref} from "@site/src/data/fcirRegister"
 
 type FrontMatter = Record<string, unknown>
 
@@ -83,6 +84,28 @@ const tdStyle: React.CSSProperties = {
 function roundTo(value: number, decimals: number): number {
   const factor = Math.pow(10, decimals)
   return Math.round((value + Number.EPSILON) * factor) / factor
+}
+
+const FCIR_ID_RE = /(FCIR-\d{3})/g
+
+function linkifyFcirIds(text: string): React.ReactNode {
+  const parts = String(text || "").split(FCIR_ID_RE)
+  return parts.map((part, index) => {
+    if (/^FCIR-\d{3}$/.test(part)) {
+      return (
+        <a key={`${part}-${index}`} href={fcirHref(part)}>
+          {part}
+        </a>
+      )
+    }
+    return part
+  })
+}
+
+function listedFcirCases(details: FrontMatter): string[] {
+  const raw = details.fcir_cases
+  if (!Array.isArray(raw)) return []
+  return raw.map((value) => String(value || "").trim()).filter((value) => /^FCIR-\d{3}$/.test(value))
 }
 
 function isValidSupplementary(s: unknown): s is SupplementarySource {
@@ -191,7 +214,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
         continue
       }
       out.push(
-        <tr key={key}>
+        <tr key={key} id={`nutrition-row-${key}`} className="nutrition-row-target">
           <td style={tdStyle}>{meta.label}</td>
           {cells}
         </tr>
@@ -218,7 +241,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     if (raw <= 0) continue
     const meta = NUTRIENT_LABELS[key] || {label: key, unit: ""}
     bioactiveLipidRows.push(
-      <tr key={key}>
+      <tr key={key} id={`nutrition-row-${key}`} className="nutrition-row-target">
         <td style={tdStyle}>{meta.label}</td>
         <td style={tdStyle}>{`${roundTo(raw, 1)} ${meta.unit}`.trim()}</td>
         <td style={tdStyle}>—</td>
@@ -238,7 +261,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     const notesCell =
       typeof sup.notes === "string" && sup.notes.trim().length > 0 ? sup.notes.trim() : "—"
     return (
-      <tr key={sup.key}>
+      <tr key={sup.key} id={`nutrition-row-${sup.key}`} className="nutrition-row-target">
         <td style={tdStyle}>{sup.label}</td>
         <td style={tdStyle}>{amountCell}</td>
         <td style={tdStyle}>{notesCell}</td>
@@ -258,7 +281,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     const notesCell =
       typeof m.notes === "string" && m.notes.trim().length > 0 ? m.notes.trim() : "—"
     return (
-      <tr key={m.key}>
+      <tr key={m.key} id={`nutrition-row-${m.key}`} className="nutrition-row-target">
         <td style={tdStyle}>{m.label}</td>
         <td style={tdStyle}>{scoreCell}</td>
         <td style={tdStyle}>{notesCell}</td>
@@ -266,6 +289,14 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     )
   })
 
+  const fcirIds = listedFcirCases(details)
+  const fcirIdsInSourceNotes = new Set<string>()
+  for (const sup of supplementary) {
+    for (const match of String(sup.source_note || "").matchAll(/FCIR-\d{3}/g)) {
+      fcirIdsInSourceNotes.add(match[0])
+    }
+  }
+  const fcirFooterIds = fcirIds.filter((id) => !fcirIdsInSourceNotes.has(id))
   const hasSupplementary = supplementary.length > 0
   const hasBioactiveSection =
     bioactiveLipidRows.length > 0 || supplementaryRows.length > 0
@@ -286,7 +317,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
   return (
     <section className="nutrition-table-block">
       {hasUsdaCompositionTables && (
-        <h2>Nutrient Tables (per 100 g)</h2>
+        <h2 id="nutrition-tables">Nutrient Tables (per 100 g)</h2>
       )}
       {tableMapsTo && hasUsdaCompositionTables && (
         <p style={{fontSize: "0.95em", color: "#555", marginTop: "0.25rem", marginBottom: "0.75rem"}}>
@@ -351,8 +382,8 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
               <strong>Source notes (supplementary):</strong>
               <ul style={{marginTop: "0.25rem", marginBottom: 0, paddingLeft: "1.25rem"}}>
                 {supplementary.map((sup) => (
-                  <li key={sup.key}>
-                    * <strong>{sup.label}:</strong> {sup.source_note}
+                  <li key={sup.key} id={`nutrition-note-${sup.key}`} className="nutrition-row-target">
+                    * <strong>{sup.label}:</strong> {linkifyFcirIds(sup.source_note)}
                   </li>
                 ))}
               </ul>
@@ -389,7 +420,9 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
 
       {hasAuthorisedSpecs && authorised && (
         <div style={{marginTop: hasUsdaCompositionTables ? "1.25rem" : 0}}>
-          <h2>{authorised.title || "Representative authorised specifications"}</h2>
+          <h2 id="nutrition-authorised-specifications">
+            {authorised.title || "Representative authorised specifications"}
+          </h2>
           <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
             <thead>
               <tr>
@@ -401,7 +434,14 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
             </thead>
             <tbody>
               {authorised.rows.map((row) => (
-                <tr key={row.formulation}>
+                <tr
+                  key={row.formulation}
+                  id={`nutrition-row-authorised-${row.formulation
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]+/g, "-")
+                    .replace(/^-|-$/g, "")}`}
+                  className="nutrition-row-target"
+                >
                   <td style={tdStyle}>{row.formulation}</td>
                   <td style={tdStyle}>{row.dha}</td>
                   <td style={tdStyle}>{row.epa}</td>
@@ -470,6 +510,15 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
           </div>
         )}
       </div>
+      )}
+      {fcirFooterIds.length > 0 && (
+        <div className="fcir-food-notes" style={{marginTop: "0.75rem", fontSize: "0.9em", color: "#555"}}>
+          {fcirFooterIds.map((id) => (
+            <p key={id} style={{margin: "0.25rem 0"}}>
+              {linkifyFcirIds(foodPageNote(id))}
+            </p>
+          ))}
+        </div>
       )}
     </section>
   )

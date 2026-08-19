@@ -12,6 +12,8 @@ tags:
 
 **Printable shopping list:** see the [Foods Shopping List](/docs/foods/shopping-list) for an alphabetised table you can print.
 
+**Composition interpretations:** see the [Food Composition Interpretation Register (FCIR)](/docs/dietary-foundations/nutrient-effects/food-composition-interpretation-register) for how 18:3, ALA and related source questions are currently treated on food and recipe pages.
+
 This page lists all foods mentioned in the BRAIN Diet paper.
 
 <TagList tag="Food" filter="foods" />

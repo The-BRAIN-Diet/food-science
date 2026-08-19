@@ -95,9 +95,36 @@ Rules:
 - Use edible grams.
 - Do not sum qualitative presence, traces, ranges, or formulation-specific text.
 - Missing keys are **not reported**, not zero. Explicit `0` in the source is zero.
-- Never copy a related food’s panel (coconut milk is not coconut oil).
-- Retain audit rows: food, source value, weight, conversion.
+- Never copy a related food’s panel (coconut milk is not coconut oil). Exact-food matching is defined in `system/food-nutrition-schema.md`.
+- Retain audit rows: food, source value, weight, conversion. The record identifier travels with the value; a contribution that cannot name the record behind it cannot be checked.
 - USDA `6:0` / `8:0` / `10:0` map to caproic / caprylic / capric **acids**, not triglycerides.
+
+### Propagation from corrected food data
+
+Recipes hold no second copy of composition. They consume the canonical food page, so an upstream correction is only complete once the recipe layer has been regenerated from it — displayed per-serving values, `completeNutrientDataset()`, omega-3 totals and contributor summaries alike.
+
+- **Regenerate; do not patch.** A recipe result edited by hand to match a corrected food is a third source of truth that will drift from both. If a published number looks wrong, fix the food page or the calculation and re-run.
+- **An invalid composition record suppresses the calculations that depend on it.** Where an ingredient's food page carries `composition_status: withdrawn`, the panel is refused at resolution rather than at display, so the ingredient becomes unresolved and the recipe renders its pending message. It is never costed at zero.
+- The exception is a valid **recipe-specific snapshot** (`composition_ref`): an explicitly chosen record for that preparation state. A snapshot is a named record in its own right, not a way around a withdrawal, and must satisfy the same exact-food rules.
+- Omega-3 follows the identity rules in `system/food-nutrition-schema.md`. Component acids are shown as themselves; EPA + DHA is never labelled total omega-3; an unresolved 18:3 enters no total.
+
+### Serving and yield integrity
+
+Five different weights are routinely confused, and only two of them are ever the basis of a calculation:
+
+| Weight | What it is |
+| --- | --- |
+| Raw purchase weight | What was bought, including material never eaten |
+| Edible weight | What remains after inedible material is removed — the basis of a per-100 g panel |
+| Cooked yield | What the edible portion weighs after cooking, water having been lost or absorbed |
+| Consumed portion | What reaches the plate after anything is drained, strained or discarded |
+| Discarded material | Rendered fat, poaching liquid, strained solids, bones, shells, brine, fermentation losses |
+
+`calculation_weight_g` is edible grams for the state the panel describes. Where the recipe's state differs from the panel's, either use a snapshot for the correct state or record the conversion and its source; do not silently treat one as the other.
+
+**Discarded material must not be counted.** Rendered fat poured off, solids strained out, bones simmered and removed, and losses during fermentation contribute nothing to the eaten portion. Retaining them requires a defensible retention or yield model with a named source — not an assumption that everything in the pan ends up in the bowl.
+
+**Protein as an editorial design check.** A substantial main may aim at roughly **35–40 g protein per serving**. This is a check on whether the recipe is designed as a main, applied when writing the recipe. It is not a universal requirement, not a threshold any recipe must meet, and never a reason to adjust a calculated value, a serving count or an ingredient weight to land inside it. Servings remain an editorial declaration that the calculator divides by; it must not infer or correct a serving count from prepared mass or energy.
 
 ## Public table
 
@@ -154,7 +181,7 @@ Trace analytical values may still enter the numeric total. They must not clutter
 
 % reference intake uses `system/nutrient-reference-values.md` (and the matching NutritionTable extras) applied to the **per-serving** amount. Do not compute % from 100 g food panels. Do not present protein as a body-weight pseudo-RDA range.
 
-Servings are an editorial declaration. The calculator divides by the declared `servings` value; it must not infer or correct serving count from prepared mass or energy.
+Serving counts and yields are governed under *Serving and yield integrity* above.
 
 ## Page order
 

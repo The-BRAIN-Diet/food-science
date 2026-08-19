@@ -202,7 +202,7 @@ A supported qualitative table row can establish **presence** when a defensible c
 
 ## Chemical-form precision
 
-Parent compounds, aglycones, glycosides, and derivatives must not be treated as interchangeable.
+Parent compounds, aglycones, glycosides, and derivatives must not be treated as interchangeable. Nutrient identity — which acid `ala_mg` may hold, what an unqualified 18:3 means, and how an omega-3 total must account for itself — is defined once in `system/food-nutrition-schema.md`.
 
 - A parent-aglycone card may be used only when the **food-specific** card caption (`substance_card_captions`) and table notes state the actual form present.
 - Food-specific wording must not be inserted into the generic Substance page description where it would incorrectly propagate to other foods.
@@ -216,6 +216,8 @@ Do not assign values from a substitute or superficially similar USDA food.
 - Distinct formulations must be visibly distinguished.
 - Product-label dosage must not be presented as universal per-100 g composition.
 - Example: DHA-rich algal oils and combined EPA/DHA algal oils are separate formulations; EPA must not be represented as universal to algal oil. Do not use canola or another oil as a USDA proxy.
+
+Exact-food matching, the consequences of citing the wrong record, and the search required before concluding no record exists are defined in `system/food-nutrition-schema.md` and `system/nutrition-workflow.md`.
 
 ## Research-queue states
 

@@ -4,7 +4,7 @@ Pages whose quantitative panel has been **withdrawn** because it was derived fro
 
 A page leaves this queue only when a source is found whose **species, edible material and processing state all match**. A shared parent ingredient or food category is never sufficient. Until then the page carries qualitative presence only.
 
-Rules: `system/food-nutrition-schema.md`. Nutrient-level identity failures: `system/nutrient-provenance-review-queue.md`.
+Rules: `system/food-nutrition-schema.md`. Nutrient-level identity failures: `system/nutrient-provenance-review-queue.md`. Public ledger: `docs/dietary-foundations/nutrient-effects/food-composition-interpretation-register.md`.
 
 ---
 
@@ -140,17 +140,34 @@ The contrast with the withdrawn record is the point: canola gave this page 6.61 
 
 A 40 g per 100 g spread in fat is real product variation between de-oiled and liquid lecithin, not measurement noise, and the page does not declare which form it documents. Choosing one brand would publish a number that is wrong for readers holding the other. None reports choline, which is the page's reason for existing. Qualitative presence is retained; a form must be decided before any panel is published.
 
+Analytical literature now confirms that the form problem is real at the phospholipid level, and not an artefact of label rounding. Cabezas et al. 2012 (`cabezas_sunflower_lecithin_2012`) measured both states of the same material by quantitative ³¹P NMR:
+
+| Form | Phospholipid | Phosphatidylcholine |
+| --- | --- | --- |
+| Native sunflower lecithin | 43.1 g/100 g, with 33.4 g oil and 23.5 g other compounds | 16.2 g/100 g of product |
+| De-oiled control | 62.8 g/100 g | 36.7 mol% of total phospholipid |
+
+De-oiling strips the triglyceride and concentrates what remains, so phosphatidylcholine per 100 g of product moves with the form while its share of the phospholipid fraction barely does — about 38 per cent by mass in the native lecithin against 36.7 mol per cent in the de-oiled. Those two shares are not measured on the same basis and are not interchangeable, and the mol percentage cannot be converted to grams per 100 g without the molar masses of each phospholipid species, which the chapter does not give. **No per-100 g phosphatidylcholine value is published from this.** It is one industrial batch from one Argentine producer, which would not carry a generic panel even if the bases agreed.
+
+Penci et al. 2010 (`penci_lecithin_hydrolysis_2010`) is exact-food and peer-reviewed, and characterises sunflower lecithin's phospholipid fatty-acid profile and initial acidity by capillary GC. It is worth recording as independent evidence that lecithin has a lipid identity of its own — the point on which the sunflower oil record was withdrawn — but it reports no per-100 g panel and no choline, so it establishes nothing this page can publish.
+
+What would close this: a named product specification that declares its form and its choline content, or a composition study reporting choline per 100 g for a stated form. Both sources above leave choline untouched.
+
 **`reishi-mushroom`, `turkey-tail-mushroom`, `cordyceps-mushroom`** — no defensible quantitative source exists in any of the five FoodData Central data types or in the four national databases. The only single-ingredient records are supplement labels whose declared values are arithmetically impossible. Qualitative presence only. The next step is analytical literature, which must name the species, the fruiting body or mycelium, and the drying method.
 
 ---
 
 ## Related entries
 
-### `walnuts` — authoritative supplementary source wanted
+### `walnuts` — resolved by combined provenance
 
-Walnuts hold 9080 mg of 18:3 under `pufa_18_3_unresolved_mg`. The USDA record (FDC 170187) reports it under nutrient 1270, an unqualified 18:3 that does not state the isomer, so the site does not publish it as ALA on that record's authority alone.
+Left this queue. Public ALA is 9.08 g per 100 g*, USDA SR Legacy FDC 170187 nutrient 1270 interpreted as 18:3 n-3 by Kafkas et al. 2017 and Yoshinaga-Kiriake et al. 2022. Foundation FDC 2346394 still has no 1404. Detail: `system/seed-fatty-acid-evidence.md` and `system/food-nutrition-schema.md`.
 
-This is a labelling limitation, not a doubt about the walnut. The value is scientifically very likely to be predominantly alpha-linolenic acid, and walnuts are among the foods for which that matters most to a reader. Queued for an authoritative supplementary source — a Foundation Foods record, CoFID, or a named analytical panel — that identifies the isomer explicitly. Flaxseed at 22813 mg is in the same position.
+Kafkas et al. is published in a SCIRP title and is internally inconsistent on total phenol (349 mg GAE/100 g extract in the abstract against 3490 in the text). It is cited for fatty acid identity only.
+
+### `flax-seeds` — resolved by combined provenance
+
+Left this queue. Public ALA is 22.8 g per 100 g*, USDA SR Legacy FDC 169414 nutrient 1270 interpreted as 18:3 n-3. Detail: `system/seed-fatty-acid-evidence.md` and `system/food-nutrition-schema.md`.
 
 ### `nutritional-yeast` — product form mismatch
 
