@@ -13,6 +13,10 @@ import {
   loadFcirRegister,
   renderGeneratedFcirMarkdown,
   validateFcirRegister,
+  PINNED_GSRS_SUBSTANCES,
+  PINNED_REJECTED_GSRS_SUBSTANCES,
+  GSRS_UNII_URL_PREFIX,
+  GSRS_SEARCH_RULE,
 } from "./lib/fcir-register.mjs"
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
@@ -47,8 +51,12 @@ test("the FCIR is one continuous register table, each case ID once, with row anc
   const generated = extractGeneratedBlock(page)
   assert.ok(generated, "missing generated FCIR block")
   assert.equal((generated.match(/<table className="fcir-table">/g) || []).length, 1)
+  assert.match(generated, /<table className="fcir-table fcir-table-preview">/)
+  assert.equal((generated.match(/id="fcir-001"/g) || []).length, 1)
   assert.doesNotMatch(generated, /## Case records/)
   assert.doesNotMatch(generated, /### FCIR-\d{3}/)
+  const mainTable = generated.match(/<table className="fcir-table">[\s\S]*?<\/table>/)
+  assert.ok(mainTable, "missing main register table")
   const seen = new Set()
   for (const entry of register.cases) {
     assert.match(entry.id, /^FCIR-\d{3}$/, entry.id)
@@ -58,7 +66,11 @@ test("the FCIR is one continuous register table, each case ID once, with row anc
     const rowId = new RegExp(`<tr id="${entry.anchor}" className="fcir-row">`)
     assert.match(generated, rowId, `${entry.id} missing table-row anchor`)
     assert.equal((generated.match(rowId) || []).length, 1, `${entry.id} row anchor must appear once`)
-    assert.equal((generated.match(new RegExp(`<strong>${entry.id}</strong>`, "g")) || []).length, 1, `${entry.id} must appear once as the row identifier`)
+    assert.equal(
+      (mainTable[0].match(new RegExp(`<strong>${entry.id}</strong>`, "g")) || []).length,
+      1,
+      `${entry.id} must appear once as the row identifier`,
+    )
   }
 })
 
@@ -105,6 +117,11 @@ test("every FCIR case has typed identity identifiers and rejected IDs are not ac
   const page = fs.readFileSync(path.join(ROOT, register.public_doc), "utf8")
   assert.match(page, /workflow identifier/)
   assert.match(page, /Not established/)
+  assert.match(page, /## Why identity matters/)
+  assert.match(page, /## How to read a case/)
+  assert.match(page, /## Provenance/)
+  assert.match(page, /In eventual clinical trials, the BRAIN Diet needs to exercise precision nutrition/)
+  assert.match(page, /fcir-table-preview/)
   for (const entry of register.cases) {
     const identity = entry.identity
     assert.ok(identity, `${entry.id} missing identity`)
@@ -223,6 +240,108 @@ test("under-review cases keep unresolved 18:3 out of named ALA and identified om
       }
     }
   }
+})
+
+test("verified GSRS/UNII mappings stay pinned and are not Not established", () => {
+  const register = loadFcirRegister(ROOT)
+  const page = fs.readFileSync(path.join(ROOT, register.public_doc), "utf8")
+  const generated = extractGeneratedBlock(page)
+  assert.match(generated, /<th>Substance\/UNII<\/th>/)
+  assert.equal(PINNED_GSRS_SUBSTANCES.length, 7)
+  const placements = [
+    ["FCIR-001", "OF5P57N2ZX", "Alanine"],
+    ["FCIR-001", "0RBV727H71", "Alpha-linolenic acid"],
+    ["FCIR-002", "0RBV727H71", "Alpha-linolenic acid"],
+    ["FCIR-002", "78YC2MAX4O", "GLA/gamolenic acid"],
+    ["FCIR-003", "0RBV727H71", "Alpha-linolenic acid"],
+    ["FCIR-004", "0RBV727H71", "Alpha-linolenic acid"],
+    ["FCIR-005", "0RBV727H71", "Alpha-linolenic acid"],
+    ["FCIR-005", "78YC2MAX4O", "GLA/gamolenic acid"],
+    ["FCIR-007", "0RBV727H71", "Alpha-linolenic acid"],
+    ["FCIR-009", "AAN7QOV9EA", "EPA/icosapent"],
+    ["FCIR-009", "ZAD9OKH9JC", "DHA/doconexent"],
+    ["FCIR-010", "AAN7QOV9EA", "EPA/icosapent"],
+    ["FCIR-010", "ZAD9OKH9JC", "DHA/doconexent"],
+    ["FCIR-010", "NS3OZT14QT", "DPA/clupanodonic acid"],
+    ["FCIR-010", "2K2DJ01BB7", "PUFA 20:4 n‑3 / bishomostearidonic acid"],
+    ["FCIR-016", "GZ8VF4M2J8", "Cordycepin"],
+    ["FCIR-016", "K72T3FS567", "Adenosine"],
+    ["FCIR-018", "0RBV727H71", "Alpha-linolenic acid"],
+    ["FCIR-020", "0RBV727H71", "Alpha-linolenic acid"],
+  ]
+  for (const [caseId, unii, display] of placements) {
+    const entry = caseById(caseId, register)
+    const mappings = entry.identity.gsrs_mappings || []
+    const hit = mappings.find((item) => item.unii === unii)
+    assert.ok(hit, `${caseId} lost verified UNII ${unii}`)
+    assert.notEqual(hit.unii, undefined)
+    assert.notEqual(String(entry.identity.substance_identifier), "Not established", caseId)
+    assert.equal(hit.href, `${GSRS_UNII_URL_PREFIX}${unii}`, caseId)
+    const row = generated.match(new RegExp(`<tr id="${entry.anchor}"[\\s\\S]*?</tr>`))
+    assert.ok(row, `${caseId} missing row`)
+    assert.match(row[0], new RegExp(display.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))
+    assert.match(row[0], new RegExp(unii))
+    assert.match(row[0], new RegExp(GSRS_UNII_URL_PREFIX.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + unii))
+  }
+  const fcir001 = generated.match(/<tr id="fcir-001"[\s\S]*?<\/tr>/)[0]
+  assert.match(fcir001, /Alanine\/<a href="https:\/\/precision\.fda\.gov\/uniisearch\/srs\/unii\/OF5P57N2ZX">OF5P57N2ZX<\/a>/)
+  assert.match(fcir001, /Alpha-linolenic acid\/<a href="https:\/\/precision\.fda\.gov\/uniisearch\/srs\/unii\/0RBV727H71">0RBV727H71<\/a>/)
+  assert.match(fcir001, /Beta-alanine\/<a href="https:\/\/precision\.fda\.gov\/uniisearch\/srs\/unii\/11P2JDE17B">11P2JDE17B<\/a>/)
+  assert.match(fcir001, /Phenylalanine\/<a href="https:\/\/precision\.fda\.gov\/uniisearch\/srs\/unii\/47E5O17Y3R">47E5O17Y3R<\/a>/)
+  const fcir001Entry = caseById("FCIR-001", register)
+  for (const rejected of PINNED_REJECTED_GSRS_SUBSTANCES) {
+    const hit = (fcir001Entry.identity.gsrs_mappings || []).find((item) => item.unii === rejected.unii)
+    assert.ok(hit, `FCIR-001 lost rejected UNII ${rejected.unii}`)
+    assert.equal(hit.role, "Rejected identity", rejected.display_name)
+    assert.equal(hit.preferred_name, rejected.preferred_name)
+    assert.match(fcir001, new RegExp(rejected.unii))
+  }
+  const fcir002 = generated.match(/<tr id="fcir-002"[\s\S]*?<\/tr>/)[0]
+  assert.match(fcir002, /unresolvable from the source field; neither UNII is assignable/)
+  const fcir016 = generated.match(/<tr id="fcir-016"[\s\S]*?<\/tr>/)[0]
+  assert.match(fcir016, /does not establish presence in an undeclared Cordyceps product/)
+  for (const pinned of PINNED_GSRS_SUBSTANCES) {
+    const catalogHit = Object.values(register.gsrs_catalog).find((item) => item.unii === pinned.unii)
+    assert.ok(catalogHit, `catalog missing ${pinned.unii}`)
+    assert.equal(catalogHit.preferred_name, pinned.preferred_name)
+  }
+})
+
+test("GSRS mappings use chemical identity rather than FDC nutrient numbers", () => {
+  const register = loadFcirRegister(ROOT)
+  const page = fs.readFileSync(path.join(ROOT, register.public_doc), "utf8")
+  assert.equal(register.editorial.gsrs_search_rule, GSRS_SEARCH_RULE)
+  assert.match(page, /GSRS searches operate on canonical substance identity, structure, CAS number and synonyms/)
+  assert.match(page, /FDC numbers belong only in the composition-source field/)
+  const fcir010 = caseById("FCIR-010", register)
+  const mappings = fcir010.identity.gsrs_mappings || []
+  const n3_20_3 = mappings.find((item) => /20:3 n/.test(item.display_name || ""))
+  const n3_20_4 = mappings.find((item) => /20:4 n/.test(item.display_name || ""))
+  const dpa = mappings.find((item) => item.unii === "NS3OZT14QT")
+  assert.ok(n3_20_3, "FCIR-010 must name PUFA 20:3 n-3 by its USDA chemical identity")
+  assert.doesNotMatch(n3_20_3.display_name, /USDA nutrient 1405|FDC nutrient/)
+  assert.equal(n3_20_3.unii, undefined, "1405 is 20:3 n-3 and must not inherit the 22:5 n-3 UNII")
+  assert.equal(n3_20_3.role, "No public GSRS match located")
+  assert.match(n3_20_3.note, /17046-59-2/)
+  assert.doesNotMatch(n3_20_3.note || "", /No public GSRS match located merely because/)
+  assert.ok(n3_20_4, "FCIR-010 must name PUFA 20:4 n-3 by its USDA chemical identity")
+  assert.equal(n3_20_4.unii, "2K2DJ01BB7")
+  assert.equal(n3_20_4.preferred_name, "BISHOMOSTEARIDONIC ACID")
+  assert.notEqual(n3_20_4.unii, "NS3OZT14QT")
+  assert.notEqual(n3_20_4.unii, "7S686LQT6T")
+  assert.match(n3_20_4.note, /Osbond acid, 7S686LQT6T/)
+  assert.ok(dpa, "FCIR-010 must keep 22:5 n-3 on clupanodonic acid")
+  assert.equal(dpa.preferred_name, "CLUPANODONIC ACID")
+  const nutrients = identityGroup(fcir010.identity, "fdc_nutrient_id")
+  assert.equal(nutrients.active.find((item) => item.id === "1405")?.label, "PUFA 20:3 n‑3")
+  assert.equal(nutrients.active.find((item) => item.id === "1407")?.label, "PUFA 20:4 n‑3")
+  assert.equal(nutrients.active.find((item) => item.id === "1280")?.label, "PUFA 22:5 n‑3 (DPA)")
+  const row = page.match(/<tr id="fcir-010"[\s\S]*?<\/tr>/)[0]
+  assert.match(row, /2K2DJ01BB7/)
+  assert.doesNotMatch(row, /USDA nutrient 1405/)
+  assert.doesNotMatch(row, /USDA nutrient 1407/)
+  const eta = Object.values(register.gsrs_catalog).find((item) => item.unii === "2K2DJ01BB7")
+  assert.equal(eta.preferred_name, "BISHOMOSTEARIDONIC ACID")
 })
 
 test("food pages do not reproduce FCIR calculations in source notes", () => {

@@ -1056,10 +1056,19 @@
   margin: 1rem 0 1.5rem;
 }
 
+.fcir-preview-label {
+  font-weight: 700;
+  margin: 0 0 0.4rem;
+}
+
+.fcir-register-preview {
+  margin-top: 0.35rem;
+}
+
 .fcir-register table,
 .fcir-register .fcir-table {
   font-size: 0.88rem;
-  min-width: 110rem;
+  min-width: 124rem;
   width: max-content;
   border-collapse: collapse;
 }
@@ -1074,8 +1083,21 @@
   white-space: nowrap;
 }
 
+.fcir-register .fcir-col-unii {
+  min-width: 16rem;
+}
+
 .fcir-register .fcir-col-ids {
   min-width: 22rem;
+}
+
+.fcir-gsrs-role {
+  display: block;
+  font-weight: 700;
+}
+
+.fcir-gsrs-preferred {
+  color: var(--ifm-color-emphasis-700);
 }
 
 .fcir-register tr:target {

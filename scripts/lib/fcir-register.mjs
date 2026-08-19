@@ -9,6 +9,31 @@ export const FCIR_JSON_PATH = REGISTER_JSON
 export const GENERATED_START = "<!-- fcir-generated:start -->"
 export const GENERATED_END = "<!-- fcir-generated:end -->"
 export const NOT_ESTABLISHED = "Not established"
+export const GSRS_UNII_URL_PREFIX = "https://precision.fda.gov/uniisearch/srs/unii/"
+export const GSRS_SEARCH_RULE =
+  "GSRS searches operate on canonical substance identity, structure, CAS number and synonyms—not FDC nutrient numbers. FDC numbers belong only in the composition-source field."
+export const PINNED_REJECTED_GSRS_SUBSTANCES = [
+  {display_name: "Alanine", unii: "OF5P57N2ZX", preferred_name: "ALANINE"},
+  {display_name: "Beta-alanine", unii: "11P2JDE17B", preferred_name: ".BETA.-ALANINE"},
+  {display_name: "Phenylalanine", unii: "47E5O17Y3R", preferred_name: "PHENYLALANINE"},
+]
+export const PINNED_GSRS_SUBSTANCES = [
+  {display_name: "Alanine", unii: "OF5P57N2ZX", preferred_name: "ALANINE"},
+  {display_name: "Alpha-linolenic acid", unii: "0RBV727H71", preferred_name: "LINOLENIC ACID"},
+  {display_name: "GLA/gamolenic acid", unii: "78YC2MAX4O", preferred_name: "GAMOLENIC ACID"},
+  {display_name: "EPA/icosapent", unii: "AAN7QOV9EA", preferred_name: "ICOSAPENT"},
+  {display_name: "DHA/doconexent", unii: "ZAD9OKH9JC", preferred_name: "DOCONEXENT"},
+  {display_name: "Cordycepin", unii: "GZ8VF4M2J8", preferred_name: "CORDYCEPIN"},
+  {display_name: "Adenosine", unii: "K72T3FS567", preferred_name: "ADENOSINE"},
+]
+export const GSRS_ROLES = [
+  "Verified identity",
+  "Identity considered",
+  "Rejected identity",
+  "Unresolvable source field",
+  "Not applicable—broad class",
+  "No public GSRS match located",
+]
 
 export function loadFcirRegister(root = ROOT) {
   const file = path.join(root, "src/data/fcir-register.json")
@@ -60,6 +85,14 @@ function overlap(left, right) {
   return right.filter((id) => set.has(id))
 }
 
+function gsrsMappings(entry) {
+  return Array.isArray(entry?.identity?.gsrs_mappings) ? entry.identity.gsrs_mappings : []
+}
+
+function officialGsrsHref(unii) {
+  return `${GSRS_UNII_URL_PREFIX}${unii}`
+}
+
 function requiredString(value, label, caseId, errors) {
   const text = String(value ?? "").trim()
   if (!text) errors.push(`${caseId}: ${label} is blank; use "${NOT_ESTABLISHED}" rather than omitting it`)
@@ -90,7 +123,10 @@ function hasNutrientOrSubstanceIdentifier(identity) {
     dois.supporting.length > 0 &&
     chemical !== NOT_ESTABLISHED &&
     /alpha-linolenic|γ-linolenic|gamma-linolenic|\bALA\b|\bEPA\b|\bDHA\b|\bGLA\b/i.test(chemical)
-  return namedNutrient || (substance && substance !== NOT_ESTABLISHED) || namedByLiterature
+  const namedByGsrs = gsrsMappings({identity}).some(
+    (item) => item.role === "Verified identity" && item.unii,
+  )
+  return namedNutrient || (substance && substance !== NOT_ESTABLISHED) || namedByLiterature || namedByGsrs
 }
 
 export function validateFcirRegister(register = loadFcirRegister()) {
@@ -113,9 +149,28 @@ export function validateFcirRegister(register = loadFcirRegister()) {
     requiredString(identity.scientific_species, "scientific species", id, errors)
     requiredString(identity.material_form, "food material or product form", id, errors)
     requiredString(identity.canonical_chemical_name, "canonical chemical name", id, errors)
-    requiredString(identity.substance_identifier, "GSRS/UNII or other verified substance identifier", id, errors)
     requiredString(identity.identity_at_issue, "identity at issue", id, errors)
     requiredString(identity.food_material, "food/material identity", id, errors)
+    const mappings = gsrsMappings(entry)
+    if (!mappings.length) errors.push(`${id}: GSRS/UNII mappings are missing`)
+    if (String(identity.substance_identifier || "").trim() === NOT_ESTABLISHED) {
+      errors.push(`${id}: GSRS/UNII must not use "${NOT_ESTABLISHED}"`)
+    }
+    for (const mapping of mappings) {
+      if (!GSRS_ROLES.includes(mapping.role)) {
+        errors.push(`${id}: unknown GSRS role ${mapping.role}`)
+      }
+      const display = String(mapping.display_name || "").trim()
+      if (/^(USDA|FDC) nutrient(?: ID)?\s*\d+/i.test(display)) {
+        errors.push(`${id}: GSRS identity must be the canonical substance name, not an FDC nutrient number`)
+      }
+      if (mapping.unii) {
+        if (mapping.href !== officialGsrsHref(mapping.unii)) {
+          errors.push(`${id}: ${mapping.unii} must use the official GSRS UNII URL`)
+        }
+        if (!mapping.preferred_name) errors.push(`${id}: ${mapping.unii} is missing the GSRS preferred name`)
+      }
+    }
 
     for (const key of ["fdc_food_id", "fdc_nutrient_id", "doi_or_database"]) {
       const group = identityGroup(identity, key)
@@ -151,6 +206,26 @@ export function validateFcirRegister(register = loadFcirRegister()) {
           errors.push(`${id}: chemically ambiguous nutrient must name the nutrient/substance identifier or explicitly state that it remains unresolved`)
         }
       }
+    }
+  }
+
+  const catalog = register.gsrs_catalog || {}
+  const searchRule = String(register.editorial?.gsrs_search_rule || "").trim()
+  if (searchRule !== GSRS_SEARCH_RULE) {
+    errors.push("editorial.gsrs_search_rule must state that GSRS searches use chemical identity, not FDC numbers")
+  }
+  const precisionNote = String(register.editorial?.precision_nutrition_note || "").trim()
+  if (!/precision nutrition/i.test(precisionNote) || !/clinical trials/i.test(precisionNote)) {
+    errors.push("editorial.precision_nutrition_note must explain identity tracking for eventual clinical trials")
+  }
+  for (const pinned of PINNED_GSRS_SUBSTANCES) {
+    const record = Object.values(catalog).find((item) => item.unii === pinned.unii)
+    if (!record) {
+      errors.push(`GSRS catalog is missing pinned UNII ${pinned.unii} (${pinned.preferred_name})`)
+      continue
+    }
+    if (record.preferred_name !== pinned.preferred_name) {
+      errors.push(`${pinned.unii} preferred name drifted from ${pinned.preferred_name}`)
     }
   }
   return errors
@@ -243,7 +318,6 @@ export function renderIdentityCell(entry) {
   ]
   const substanceLines = [
     `Canonical chemical name — ${inlineMdToHtml(identity.canonical_chemical_name || NOT_ESTABLISHED)}`,
-    `GSRS/UNII or other verified substance identifier — ${inlineMdToHtml(identity.substance_identifier || NOT_ESTABLISHED)}`,
   ]
   const food = identityGroup(identity, "fdc_food_id")
   const nutrient = identityGroup(identity, "fdc_nutrient_id")
@@ -284,18 +358,120 @@ function renderDecisionCell(entry) {
   return parts.join("")
 }
 
-function renderRegisterRow(entry) {
+function renderSubstanceUniiCell(entry) {
+  const mappings = gsrsMappings(entry)
+  if (!mappings.length) return escapeHtml("No public GSRS match located")
+  return mappings
+    .map((item) => {
+      const role = `<span className="fcir-gsrs-role">${escapeHtml(item.role)}</span>`
+      let body
+      if (item.unii) {
+        const href = item.href || officialGsrsHref(item.unii)
+        body = `${escapeHtml(item.display_name)}/<a href="${escapeAttr(href)}">${escapeHtml(item.unii)}</a>`
+        if (item.preferred_name && item.preferred_name !== item.display_name) {
+          body += ` <span className="fcir-gsrs-preferred">(${escapeHtml(item.preferred_name)})</span>`
+        }
+      } else if (item.role === "Unresolvable source field") {
+        body = escapeHtml(item.note || "Generic 18:3 — unresolvable from the source field; neither UNII is assignable.")
+      } else if (item.role === "Not applicable—broad class") {
+        body = `${escapeHtml(item.display_name)} — ${escapeHtml("Not applicable—broad class")}`
+      } else {
+        body = `${escapeHtml(item.display_name || "")} — ${escapeHtml("No public GSRS match located")}`
+      }
+      const note =
+        item.unii && item.note ? `<span className="fcir-id-line">${inlineMdToHtml(item.note)}</span>` : ""
+      const extra =
+        !item.unii && item.note && item.role !== "Unresolvable source field"
+          ? `<span className="fcir-id-line">${inlineMdToHtml(item.note)}</span>`
+          : ""
+      return `<div className="fcir-id-block">${role}<span className="fcir-id-line">${body}</span>${note}${extra}</div>`
+    })
+    .join("")
+}
+
+const FCIR_TABLE_HEADERS = [
+  "Case ID",
+  "Food/material",
+  "Identity at issue",
+  "Substance/UNII",
+  "Identity/source IDs",
+  "Problem",
+  "Decision and public treatment",
+  "Evidence",
+  "Status",
+]
+
+function renderTableHeader() {
+  const cells = FCIR_TABLE_HEADERS.map((header) => `<th>${header}</th>`).join("\n")
+  return `<thead>
+<tr>
+${cells}
+</tr>
+</thead>`
+}
+
+function renderRegisterRow(entry, options = {}) {
   const identity = entry.identity || {}
-  return `<tr id="${escapeAttr(entry.anchor)}" className="fcir-row">
+  const anchor = options.anchor || entry.anchor
+  const idAttr = options.omitAnchor ? "" : ` id="${escapeAttr(anchor)}"`
+  return `<tr${idAttr} className="fcir-row">
 <td className="fcir-col-id"><strong>${escapeHtml(entry.id)}</strong></td>
 <td>${inlineMdToHtml(entry.food_or_scope)}</td>
 <td>${inlineMdToHtml(identity.identity_at_issue || "")}</td>
+<td className="fcir-col-unii">${renderSubstanceUniiCell(entry)}</td>
 <td className="fcir-col-ids">${renderIdentityCell(entry)}</td>
 <td>${inlineMdToHtml(entry.problem)}</td>
 <td>${renderDecisionCell(entry)}</td>
 <td><span className="fcir-label">Source</span>${inlineMdToHtml(entry.source_public)}</td>
 <td><strong>${escapeHtml(entry.status)}</strong></td>
 </tr>`
+}
+
+function renderPreviewTable(register) {
+  const entry = (register.cases || []).find((item) => item.id === "FCIR-001")
+  if (!entry) return ""
+  return `<div className="fcir-register fcir-register-preview">
+<p className="fcir-preview-label">Example row — <a href="#fcir-001">FCIR-001</a></p>
+<table className="fcir-table fcir-table-preview">
+${renderTableHeader()}
+<tbody>
+${renderRegisterRow(entry, {omitAnchor: true})}
+</tbody>
+</table>
+</div>`
+}
+
+function renderReadingGuide(register) {
+  const note = String(register.editorial?.precision_nutrition_note || "").trim()
+  const searchRule = String(register.editorial?.gsrs_search_rule || GSRS_SEARCH_RULE).trim()
+  return `${renderPreviewTable(register)}
+
+### What we track
+
+${note}
+
+## How to read a case
+
+### Case ID
+
+The **Case ID** (FCIR‑NNN) is a workflow identifier. It is not a scientific identity.
+
+### Decision, action and source
+
+**Decision** is what we concluded. **Action** is what the public pages and calculations now do. **Source** is the records and papers used, not a later paraphrase. The table is the canonical record.
+
+### Missing and rejected identifiers
+
+Unavailable food and source identifiers are **Not established** — never blank, never inferred. A rejected identifier is never treated as active provenance. GSRS/UNII is never **Not established**: use **No public GSRS match located** or **Not applicable—broad class**. ${searchRule}
+
+### Food and recipe links
+
+Links go to the published composition or recipe row. Food pages carry only a short pointer here.
+
+## Provenance
+
+This work is being developed with input from our team, including **Larry Callahan, an experienced former FDA chemist who led work on ISO 11238, the international substance-identification standard that helped underpin the Global Substance Registration System**. His scientific provenance lead on this register is **pending formal acceptance**.
+`
 }
 
 function renderTechnicalNotes(register) {
@@ -312,7 +488,7 @@ function renderTechnicalNotes(register) {
   return `
 ### Technical notes
 
-These notes add calculation or extended reasoning. The table remains the canonical record.
+These notes add calculation detail for selected cases.
 
 ${blocks}
 `
@@ -325,6 +501,8 @@ function renderIdentifierLegend(register) {
     .map((item) => `- **${item.key}** — ${item.meaning}`)
     .join("\n")
   return `
+### Identifier keys
+
 ${items}
 `
 }
@@ -341,22 +519,12 @@ export function renderGeneratedFcirMarkdown(register = loadFcirRegister()) {
   const editorial = register.editorial || {}
   return `${GENERATED_START}
 
+${renderReadingGuide(register)}
 ## Register
 ${renderIdentifierLegend(register)}
 <div className="fcir-register">
 <table className="fcir-table">
-<thead>
-<tr>
-<th>Case ID</th>
-<th>Food/material</th>
-<th>Identity at issue</th>
-<th>Identity/source IDs</th>
-<th>Problem</th>
-<th>Decision and public treatment</th>
-<th>Evidence</th>
-<th>Status</th>
-</tr>
-</thead>
+${renderTableHeader()}
 <tbody>
 ${rows}
 </tbody>

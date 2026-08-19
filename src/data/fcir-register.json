@@ -6,7 +6,9 @@
     "scientific_provenance_lead": "pending formal acceptance by Larry Callahan",
     "review_cycle": "every material source change and at least annually",
     "last_substantive_review": "August 2026",
-    "project_scope": "This register is a BRAIN Diet project. It is not an FDA or USDA project."
+    "project_scope": "This register is a BRAIN Diet project. It is not an FDA or USDA project.",
+    "gsrs_search_rule": "GSRS searches operate on canonical substance identity, structure, CAS number and synonyms—not FDC nutrient numbers. FDC numbers belong only in the composition-source field.",
+    "precision_nutrition_note": "We track food or material, chemical substance, and composition source as separate identities. **Substance/UNII** is the molecular identity. **Identity/source IDs** record which FDC food and nutrient fields, species, forms and papers were accepted or rejected. Mixing those layers is how an amino acid was published as an omega‑3, and how unqualified 18:3 can be treated as ALA. In eventual clinical trials, the BRAIN Diet needs to exercise precision nutrition: intake and outcome claims must rest on named compounds and documented sources, not on look-alike abbreviations or underspecified database fields."
   },
   "status_meanings": {
     "Resolved": "sufficient evidence supports the current public treatment.",
@@ -42,7 +44,7 @@
         "scientific_species": "Not established",
         "material_form": "Not established",
         "canonical_chemical_name": "Alpha-linolenic acid (ALA; 18:3 n‑3), distinguished from alanine, beta-alanine and phenylalanine",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Alanine/OF5P57N2ZX; Alpha-linolenic acid/0RBV727H71; Beta-alanine/11P2JDE17B; Phenylalanine/47E5O17Y3R",
         "fdc_food_id": {
           "active": [],
           "supporting": [],
@@ -77,7 +79,40 @@
           ],
           "supporting": [],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Alanine",
+            "preferred_name": "ALANINE",
+            "unii": "OF5P57N2ZX",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/OF5P57N2ZX",
+            "role": "Rejected identity",
+            "note": "amino acid previously mapped onto the ALA field"
+          },
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Verified identity"
+          },
+          {
+            "display_name": "Beta-alanine",
+            "preferred_name": ".BETA.-ALANINE",
+            "unii": "11P2JDE17B",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/11P2JDE17B",
+            "role": "Rejected identity",
+            "note": "named with alanine as an excluded amino acid"
+          },
+          {
+            "display_name": "Phenylalanine",
+            "preferred_name": "PHENYLALANINE",
+            "unii": "47E5O17Y3R",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/47E5O17Y3R",
+            "role": "Rejected identity",
+            "note": "named with alanine as an excluded amino acid"
+          }
+        ]
       }
     },
     {
@@ -103,7 +138,7 @@
         "scientific_species": "Not established",
         "material_form": "Not established",
         "canonical_chemical_name": "18:3 remains unresolved until the isomer is named",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Alpha-linolenic acid/0RBV727H71; GLA/gamolenic acid/78YC2MAX4O; Generic 18:3 — unresolvable from the source field; neither UNII is assignable.",
         "fdc_food_id": {
           "active": [],
           "supporting": [],
@@ -142,7 +177,30 @@
             }
           ],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Verified identity",
+            "note": "verified isomer identity; not assignable from a generic 18:3 field"
+          },
+          {
+            "display_name": "GLA/gamolenic acid",
+            "preferred_name": "GAMOLENIC ACID",
+            "unii": "78YC2MAX4O",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/78YC2MAX4O",
+            "role": "Verified identity",
+            "note": "verified isomer identity; not assignable from a generic 18:3 field"
+          },
+          {
+            "display_name": "Generic 18:3",
+            "role": "Unresolvable source field",
+            "note": "Generic 18:3 — unresolvable from the source field; neither UNII is assignable."
+          }
+        ]
       }
     },
     {
@@ -178,7 +236,7 @@
         "scientific_species": "Not established",
         "material_form": "Whole flax seeds (quantity). Ground flax is a different material and is used only for isomer identity.",
         "canonical_chemical_name": "Alpha-linolenic acid (ALA; 18:3 n‑3)",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Alpha-linolenic acid/0RBV727H71; USDA nutrient 1270 is unresolvable by itself; the ALA UNII is attached to the supported interpretation.",
         "fdc_food_id": {
           "active": [
             {
@@ -240,7 +298,22 @@
             }
           ],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Verified identity",
+            "note": "The UNII applies to the resulting supported interpretation, not to USDA nutrient 1270 by itself."
+          },
+          {
+            "display_name": "Generic 18:3",
+            "role": "Unresolvable source field",
+            "note": "USDA nutrient 1270 is unresolvable by itself; the ALA UNII is attached to the supported interpretation."
+          }
+        ]
       }
     },
     {
@@ -284,7 +357,7 @@
         "scientific_species": "*Juglans regia*",
         "material_form": "English walnut kernel",
         "canonical_chemical_name": "Alpha-linolenic acid (ALA; 18:3 n‑3)",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Alpha-linolenic acid/0RBV727H71; USDA nutrient 1270 is unresolvable by itself; the ALA UNII is attached to the supported interpretation.",
         "fdc_food_id": {
           "active": [
             {
@@ -339,7 +412,22 @@
             }
           ],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Verified identity",
+            "note": "The UNII applies to the resulting supported interpretation, not to USDA nutrient 1270 by itself."
+          },
+          {
+            "display_name": "Generic 18:3",
+            "role": "Unresolvable source field",
+            "note": "USDA nutrient 1270 is unresolvable by itself; the ALA UNII is attached to the supported interpretation."
+          }
+        ]
       }
     },
     {
@@ -365,7 +453,7 @@
         "scientific_species": "Not established",
         "material_form": "Hemp seeds / hemp seed oil (reference; exact commercial form Not established)",
         "canonical_chemical_name": "18:3 n‑3 (ALA) and 18:3 n‑6 (GLA) must be identified separately; generic 18:3 remains unresolved",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Alpha-linolenic acid/0RBV727H71; GLA/gamolenic acid/78YC2MAX4O; Hemp 18:3 is a mixture; a generic 18:3 field cannot receive either UNII.",
         "fdc_food_id": {
           "active": [],
           "supporting": [],
@@ -396,7 +484,28 @@
             }
           ],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Verified identity"
+          },
+          {
+            "display_name": "GLA/gamolenic acid",
+            "preferred_name": "GAMOLENIC ACID",
+            "unii": "78YC2MAX4O",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/78YC2MAX4O",
+            "role": "Verified identity"
+          },
+          {
+            "display_name": "Generic 18:3",
+            "role": "Unresolvable source field",
+            "note": "Hemp 18:3 is a mixture; a generic 18:3 field cannot receive either UNII."
+          }
+        ]
       }
     },
     {
@@ -424,7 +533,7 @@
         "scientific_species": "Not established",
         "material_form": "Ghee",
         "canonical_chemical_name": "18:3 remains unresolved; not published as ALA",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Generic 18:3 — unresolvable from the source field; neither UNII is assignable.; Alpha-linolenic acid/0RBV727H71",
         "fdc_food_id": {
           "active": [
             {
@@ -469,7 +578,22 @@
           "active": [],
           "supporting": [],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Generic 18:3",
+            "role": "Unresolvable source field",
+            "note": "Generic 18:3 — unresolvable from the source field; neither UNII is assignable."
+          },
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Identity considered",
+            "note": "not assigned from this ghee record"
+          }
+        ]
       }
     },
     {
@@ -499,7 +623,7 @@
         "scientific_species": "Not established",
         "material_form": "Mature raw soybeans; not oil, flour, lecithin, tofu, natto, miso or tempeh",
         "canonical_chemical_name": "Alpha-linolenic acid (ALA; 18:3 n‑3)",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Alpha-linolenic acid/0RBV727H71; USDA nutrient 1270 is unresolvable by itself; the ALA UNII is attached to the supported interpretation.",
         "fdc_food_id": {
           "active": [
             {
@@ -550,7 +674,22 @@
           "active": [],
           "supporting": [],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Verified identity",
+            "note": "The UNII applies to the resulting supported interpretation, not to USDA nutrient 1270 by itself."
+          },
+          {
+            "display_name": "Generic 18:3",
+            "role": "Unresolvable source field",
+            "note": "USDA nutrient 1270 is unresolvable by itself; the ALA UNII is attached to the supported interpretation."
+          }
+        ]
       }
     },
     {
@@ -578,7 +717,7 @@
         "scientific_species": "Not established",
         "material_form": "Avocado oil; not avocado fruit",
         "canonical_chemical_name": "18:3 remains unresolved; not published as ALA",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Generic 18:3 — unresolvable from the source field; neither UNII is assignable.; Alpha-linolenic acid/0RBV727H71; GLA/gamolenic acid/78YC2MAX4O",
         "fdc_food_id": {
           "active": [
             {
@@ -638,7 +777,30 @@
               "note": "wording “linolenic (C18:3)” rejected for isomer resolution"
             }
           ]
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Generic 18:3",
+            "role": "Unresolvable source field",
+            "note": "Generic 18:3 — unresolvable from the source field; neither UNII is assignable."
+          },
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Identity considered",
+            "note": "not assigned; “linolenic (C18:3)” does not resolve n‑3 versus n‑6"
+          },
+          {
+            "display_name": "GLA/gamolenic acid",
+            "preferred_name": "GAMOLENIC ACID",
+            "unii": "78YC2MAX4O",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/78YC2MAX4O",
+            "role": "Identity considered",
+            "note": "not assigned; “linolenic (C18:3)” does not resolve n‑3 versus n‑6"
+          }
+        ]
       }
     },
     {
@@ -672,7 +834,7 @@
         "scientific_species": "Mixed species (FDC description); a single species is Not established",
         "material_form": "Raw mixed-species fish roe; Neuroeshot scales 15 g of that record",
         "canonical_chemical_name": "EPA (20:5 n‑3) and DHA (22:6 n‑3); ALA suppressed; leftover unqualified 18:3 unpublished",
-        "substance_identifier": "Not established",
+        "substance_identifier": "EPA/icosapent/AAN7QOV9EA; DHA/doconexent/ZAD9OKH9JC; Alanine/OF5P57N2ZX; Leftover 6 mg of unqualified 18:3 remains unpublished; no UNII is assignable.",
         "fdc_food_id": {
           "active": [
             {
@@ -722,7 +884,36 @@
           "active": [],
           "supporting": [],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "EPA/icosapent",
+            "preferred_name": "ICOSAPENT",
+            "unii": "AAN7QOV9EA",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/AAN7QOV9EA",
+            "role": "Verified identity"
+          },
+          {
+            "display_name": "DHA/doconexent",
+            "preferred_name": "DOCONEXENT",
+            "unii": "ZAD9OKH9JC",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/ZAD9OKH9JC",
+            "role": "Verified identity"
+          },
+          {
+            "display_name": "Alanine",
+            "preferred_name": "ALANINE",
+            "unii": "OF5P57N2ZX",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/OF5P57N2ZX",
+            "role": "Rejected identity",
+            "note": "previously stored as ALA"
+          },
+          {
+            "display_name": "Generic 18:3",
+            "role": "Unresolvable source field",
+            "note": "Leftover 6 mg of unqualified 18:3 remains unpublished; no UNII is assignable."
+          }
+        ]
       }
     },
     {
@@ -748,7 +939,7 @@
         "scientific_species": "Not established",
         "material_form": "Not established",
         "canonical_chemical_name": "Total explicitly identified omega‑3, distinct from the named pair EPA + DHA",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Alpha-linolenic acid/0RBV727H71; EPA/icosapent/AAN7QOV9EA; DHA/doconexent/ZAD9OKH9JC; DPA/clupanodonic acid/NS3OZT14QT; Generic 18:3 — unresolvable from the source field; neither UNII is assignable.; Alanine/OF5P57N2ZX; PUFA 20:3 n‑3 / (11Z,14Z,17Z)-eicosatrienoic acid — No public GSRS match located; PUFA 20:4 n‑3 / bishomostearidonic acid/2K2DJ01BB7; Total omega‑3 — Not applicable—broad class",
         "fdc_food_id": {
           "active": [],
           "supporting": [],
@@ -769,7 +960,7 @@
             {
               "type": "FDC nutrient ID",
               "id": "1280",
-              "label": "22:5 n‑3, DPA"
+              "label": "PUFA 22:5 n‑3 (DPA)"
             },
             {
               "type": "FDC nutrient ID",
@@ -779,12 +970,12 @@
             {
               "type": "FDC nutrient ID",
               "id": "1405",
-              "label": "20:3 n‑3"
+              "label": "PUFA 20:3 n‑3"
             },
             {
               "type": "FDC nutrient ID",
               "id": "1407",
-              "label": "20:4 n‑3"
+              "label": "PUFA 20:4 n‑3"
             }
           ],
           "supporting": [],
@@ -813,7 +1004,69 @@
           ],
           "supporting": [],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Verified identity"
+          },
+          {
+            "display_name": "EPA/icosapent",
+            "preferred_name": "ICOSAPENT",
+            "unii": "AAN7QOV9EA",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/AAN7QOV9EA",
+            "role": "Verified identity"
+          },
+          {
+            "display_name": "DHA/doconexent",
+            "preferred_name": "DOCONEXENT",
+            "unii": "ZAD9OKH9JC",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/ZAD9OKH9JC",
+            "role": "Verified identity"
+          },
+          {
+            "display_name": "DPA/clupanodonic acid",
+            "preferred_name": "CLUPANODONIC ACID",
+            "unii": "NS3OZT14QT",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/NS3OZT14QT",
+            "role": "Identity considered",
+            "note": "USDA complete nutrient name is PUFA 22:5 n‑3 (DPA). GSRS preferred name is clupanodonic acid; official synonyms include 22:5 N-3, C22:5 (N-3), DPA and docosapentaenoic acid. Mapped from that chemical identity, not from an FDC nutrient number."
+          },
+          {
+            "display_name": "Generic 18:3",
+            "role": "Unresolvable source field",
+            "note": "Generic 18:3 — unresolvable from the source field; neither UNII is assignable."
+          },
+          {
+            "display_name": "Alanine",
+            "preferred_name": "ALANINE",
+            "unii": "OF5P57N2ZX",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/OF5P57N2ZX",
+            "role": "Rejected identity",
+            "note": "amino acids never enter identified omega‑3 totals"
+          },
+          {
+            "display_name": "PUFA 20:3 n‑3 / (11Z,14Z,17Z)-eicosatrienoic acid",
+            "role": "No public GSRS match located",
+            "note": "USDA complete nutrient name is PUFA 20:3 n‑3, not 22:5 n‑3. GSRS was searched by that chemical identity, CAS 17046-59-2, structure and synonyms. No public match located. Mead acid (JQS194YH3X) is 20:3 n‑9 and DGLA/daleuton (FC398RK06S) is 20:3 n‑6; neither is this isomer. Clupanodonic acid (NS3OZT14QT) is 22:5 n‑3 and is not assigned here."
+          },
+          {
+            "display_name": "PUFA 20:4 n‑3 / bishomostearidonic acid",
+            "preferred_name": "BISHOMOSTEARIDONIC ACID",
+            "unii": "2K2DJ01BB7",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/2K2DJ01BB7",
+            "role": "Identity considered",
+            "note": "USDA complete nutrient name is PUFA 20:4 n‑3. GSRS preferred name is bishomostearidonic acid; official synonyms include C20:4 (N-3) and ETA. This is not 22:5 n‑3 (clupanodonic acid, NS3OZT14QT) and not 22:5 n‑6 (Osbond acid, 7S686LQT6T)."
+          },
+          {
+            "display_name": "Total omega‑3",
+            "role": "Not applicable—broad class",
+            "note": "A total is not a single molecular identity."
+          }
+        ]
       }
     },
     {
@@ -842,7 +1095,7 @@
         "scientific_species": "Not established",
         "material_form": "Sunflower lecithin; native, de-oiled or fractionated form Not established",
         "canonical_chemical_name": "Phosphatidylcholine and choline (presence-only until a named specification is declared)",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Phosphatidylcholine — Not applicable—broad class; Choline/N91BDP6H0X",
         "fdc_food_id": {
           "active": [],
           "supporting": [],
@@ -874,7 +1127,22 @@
             }
           ],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Phosphatidylcholine",
+            "role": "Not applicable—broad class",
+            "note": "A phospholipid class, not a single molecular identity. Soybean phosphatidylcholine UNIIs are not used for sunflower lecithin."
+          },
+          {
+            "display_name": "Choline",
+            "preferred_name": "CHOLINE",
+            "unii": "N91BDP6H0X",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/N91BDP6H0X",
+            "role": "Identity considered",
+            "note": "presence-only until a named specification is declared; derived PC-bound choline must not be called assayed total choline"
+          }
+        ]
       }
     },
     {
@@ -902,7 +1170,7 @@
         "scientific_species": "Not established",
         "material_form": "MCT Premium C8 & C10, declared 60% C8 / 40% C10",
         "canonical_chemical_name": "Medium-chain triglycerides, predominantly 8:0 and 10:0; energy and total fat from the named specification",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Medium-chain triglycerides/C9H2L21V7U; Caprylic acid/OBL58JN025; Capric acid/4G9EDB6V73; Alpha-linolenic acid/0RBV727H71",
         "fdc_food_id": {
           "active": [
             {
@@ -939,7 +1207,41 @@
             }
           ],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Medium-chain triglycerides",
+            "preferred_name": "MEDIUM-CHAIN TRIGLYCERIDES",
+            "unii": "C9H2L21V7U",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/C9H2L21V7U",
+            "role": "Identity considered",
+            "note": "class identifier; the page uses a named C8/C10 specification, not a universal MCT oil"
+          },
+          {
+            "display_name": "Caprylic acid",
+            "preferred_name": "CAPRYLIC ACID",
+            "unii": "OBL58JN025",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/OBL58JN025",
+            "role": "Identity considered",
+            "note": "declared C8 in the named specification; individual milligrams are not published as a universal MCT oil"
+          },
+          {
+            "display_name": "Capric acid",
+            "preferred_name": "CAPRIC ACID",
+            "unii": "4G9EDB6V73",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/4G9EDB6V73",
+            "role": "Identity considered",
+            "note": "declared C10 in the named specification; individual milligrams are not published as a universal MCT oil"
+          },
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Rejected identity",
+            "note": "canola ALA withdrawn with FDC 748278"
+          }
+        ]
       }
     },
     {
@@ -967,7 +1269,7 @@
         "scientific_species": "Not established",
         "material_form": "Authorised algal-oil product specifications; DHA-rich and DHA/EPA oils are distinct formulations",
         "canonical_chemical_name": "Docosahexaenoic acid (DHA); eicosapentaenoic acid (EPA) only where the combined formulation specifies it",
-        "substance_identifier": "Not established",
+        "substance_identifier": "DHA/doconexent/ZAD9OKH9JC; EPA/icosapent/AAN7QOV9EA",
         "fdc_food_id": {
           "active": [],
           "supporting": [],
@@ -1006,7 +1308,25 @@
             }
           ],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "DHA/doconexent",
+            "preferred_name": "DOCONEXENT",
+            "unii": "ZAD9OKH9JC",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/ZAD9OKH9JC",
+            "role": "Verified identity",
+            "note": "DHA leads the authorised algal-oil specifications"
+          },
+          {
+            "display_name": "EPA/icosapent",
+            "preferred_name": "ICOSAPENT",
+            "unii": "AAN7QOV9EA",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/AAN7QOV9EA",
+            "role": "Identity considered",
+            "note": "shown only where the combined DHA/EPA formulation specifies it"
+          }
+        ]
       }
     },
     {
@@ -1035,7 +1355,7 @@
         "scientific_species": "*Ganoderma lucidum*",
         "material_form": "Fruiting body, mycelium, powder and extract are distinct; the declared material for this page is Not established",
         "canonical_chemical_name": "Fungal polysaccharides (qualitative until exact-species, exact-material evidence is attached)",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Fungal polysaccharides — Not applicable—broad class",
         "fdc_food_id": {
           "active": [],
           "supporting": [],
@@ -1064,7 +1384,14 @@
               "label": "replacement must be *Ganoderma* analytical literature with material and dry/fresh basis stated"
             }
           ]
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Fungal polysaccharides",
+            "role": "Not applicable—broad class",
+            "note": "No single molecular identity exists."
+          }
+        ]
       }
     },
     {
@@ -1093,7 +1420,7 @@
         "scientific_species": "*Trametes versicolor*",
         "material_form": "Woody bracket fungus; fruiting body, mycelium and extract are distinct. A culinary per-100 g edible-portion panel would misdescribe it even if the species matched.",
         "canonical_chemical_name": "Beta-glucans and polysaccharides (qualitative)",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Beta-glucans — Not applicable—broad class; Fungal polysaccharides — Not applicable—broad class",
         "fdc_food_id": {
           "active": [],
           "supporting": [],
@@ -1122,7 +1449,19 @@
               "label": "replacement must be exact-species analytical literature distinguishing fruiting body, mycelium and extract"
             }
           ]
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Beta-glucans",
+            "role": "Not applicable—broad class",
+            "note": "No single molecular identity exists."
+          },
+          {
+            "display_name": "Fungal polysaccharides",
+            "role": "Not applicable—broad class",
+            "note": "No single molecular identity exists."
+          }
+        ]
       }
     },
     {
@@ -1151,7 +1490,7 @@
         "scientific_species": "Not established for the commercial product; *Cordyceps militaris* is a candidate form, not a verified source match",
         "material_form": "Stroma or cultured mycelium; declared species and material Not established",
         "canonical_chemical_name": "Fungal polysaccharides (qualitative). Cordycepin and adenosine are considered separately and are Not established as published quantities.",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Cordycepin/GZ8VF4M2J8; Adenosine/K72T3FS567; Fungal polysaccharides — Not applicable—broad class",
         "fdc_food_id": {
           "active": [],
           "supporting": [],
@@ -1180,7 +1519,30 @@
               "label": "replacement requires named species and named fruiting-body, mycelium or product analysis"
             }
           ]
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Cordycepin",
+            "preferred_name": "CORDYCEPIN",
+            "unii": "GZ8VF4M2J8",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/GZ8VF4M2J8",
+            "role": "Identity considered",
+            "note": "Identity considered; food presence/quantity not yet established. Assigning the chemical identity does not establish presence in an undeclared Cordyceps product."
+          },
+          {
+            "display_name": "Adenosine",
+            "preferred_name": "ADENOSINE",
+            "unii": "K72T3FS567",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/K72T3FS567",
+            "role": "Identity considered",
+            "note": "Identity considered; food presence/quantity not yet established. Assigning the chemical identity does not establish presence in an undeclared Cordyceps product."
+          },
+          {
+            "display_name": "Fungal polysaccharides",
+            "role": "Not applicable—broad class",
+            "note": "No single molecular identity exists."
+          }
+        ]
       }
     },
     {
@@ -1206,7 +1568,7 @@
         "scientific_species": "Not established",
         "material_form": "Match food or product, species, edible material, preparation state and formulation",
         "canonical_chemical_name": "Not established",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Related-food substitution rule — Not applicable—broad class",
         "fdc_food_id": {
           "active": [],
           "supporting": [],
@@ -1243,7 +1605,14 @@
           "active": [],
           "supporting": [],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Related-food substitution rule",
+            "role": "Not applicable—broad class",
+            "note": "This case is an identity-matching rule, not a single substance."
+          }
+        ]
       }
     },
     {
@@ -1276,7 +1645,7 @@
         "scientific_species": "Not established",
         "material_form": "Tofu; natto; miso; tempeh — each its own food, not soybean oil",
         "canonical_chemical_name": "Alpha-linolenic acid (ALA; 18:3 n‑3)",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Alpha-linolenic acid/0RBV727H71; Each food’s USDA 1270 field is unresolvable by itself; the ALA UNII is attached to the supported interpretation.",
         "fdc_food_id": {
           "active": [
             {
@@ -1342,7 +1711,22 @@
           "active": [],
           "supporting": [],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Verified identity",
+            "note": "The UNII applies to the resulting supported interpretation, not to USDA nutrient 1270 by itself."
+          },
+          {
+            "display_name": "Generic 18:3",
+            "role": "Unresolvable source field",
+            "note": "Each food’s USDA 1270 field is unresolvable by itself; the ALA UNII is attached to the supported interpretation."
+          }
+        ]
       }
     },
     {
@@ -1370,7 +1754,7 @@
         "scientific_species": "Not established",
         "material_form": "Dried spirulina (*Seaweed, spirulina, dried* as named by the FDC record)",
         "canonical_chemical_name": "18:3 remains unresolved; not published as ALA or as GLA, because this record does not name the isomer",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Generic 18:3 — unresolvable from the source field; neither UNII is assignable.; GLA/gamolenic acid/78YC2MAX4O; Alpha-linolenic acid/0RBV727H71",
         "fdc_food_id": {
           "active": [
             {
@@ -1413,7 +1797,30 @@
           "active": [],
           "supporting": [],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Generic 18:3",
+            "role": "Unresolvable source field",
+            "note": "Generic 18:3 — unresolvable from the source field; neither UNII is assignable."
+          },
+          {
+            "display_name": "GLA/gamolenic acid",
+            "preferred_name": "GAMOLENIC ACID",
+            "unii": "78YC2MAX4O",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/78YC2MAX4O",
+            "role": "Identity considered",
+            "note": "cyanobacterial 18:3 is predominantly GLA, but this record does not name the isomer so GLA is not published"
+          },
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Rejected identity",
+            "note": "treating 823 mg as ALA would invert the omega family"
+          }
+        ]
       }
     },
     {
@@ -1456,7 +1863,7 @@
         "scientific_species": "Not established",
         "material_form": "Dried chia seeds",
         "canonical_chemical_name": "Alpha-linolenic acid (ALA; 18:3 n‑3)",
-        "substance_identifier": "Not established",
+        "substance_identifier": "Alpha-linolenic acid/0RBV727H71",
         "fdc_food_id": {
           "active": [
             {
@@ -1486,7 +1893,17 @@
           "active": [],
           "supporting": [],
           "rejected": []
-        }
+        },
+        "gsrs_mappings": [
+          {
+            "display_name": "Alpha-linolenic acid",
+            "preferred_name": "LINOLENIC ACID",
+            "unii": "0RBV727H71",
+            "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71",
+            "role": "Verified identity",
+            "note": "USDA nutrient 1404 already names 18:3 n‑3; no overlay is required."
+          }
+        ]
       }
     }
   ],
@@ -1509,11 +1926,110 @@
     },
     {
       "key": "GSRS/UNII or another stable substance identifier",
-      "meaning": "used only where available and verified."
+      "meaning": "official GSRS preferred name and UNII, linked at https://precision.fda.gov/uniisearch/srs/unii/[UNII]. Unavailable verified matches are No public GSRS match located. Broad classes are Not applicable—broad class. Not established is not used for GSRS/UNII."
     },
     {
       "key": "DOI",
       "meaning": "identifies supporting analytical literature. It is evidence provenance rather than substance identity."
     }
-  ]
+  ],
+  "gsrs_catalog": {
+    "alanine": {
+      "display_name": "Alanine",
+      "preferred_name": "ALANINE",
+      "unii": "OF5P57N2ZX",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/OF5P57N2ZX"
+    },
+    "ala": {
+      "display_name": "Alpha-linolenic acid",
+      "preferred_name": "LINOLENIC ACID",
+      "unii": "0RBV727H71",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/0RBV727H71"
+    },
+    "gla": {
+      "display_name": "GLA/gamolenic acid",
+      "preferred_name": "GAMOLENIC ACID",
+      "unii": "78YC2MAX4O",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/78YC2MAX4O"
+    },
+    "epa": {
+      "display_name": "EPA/icosapent",
+      "preferred_name": "ICOSAPENT",
+      "unii": "AAN7QOV9EA",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/AAN7QOV9EA"
+    },
+    "dha": {
+      "display_name": "DHA/doconexent",
+      "preferred_name": "DOCONEXENT",
+      "unii": "ZAD9OKH9JC",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/ZAD9OKH9JC"
+    },
+    "cordycepin": {
+      "display_name": "Cordycepin",
+      "preferred_name": "CORDYCEPIN",
+      "unii": "GZ8VF4M2J8",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/GZ8VF4M2J8"
+    },
+    "adenosine": {
+      "display_name": "Adenosine",
+      "preferred_name": "ADENOSINE",
+      "unii": "K72T3FS567",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/K72T3FS567"
+    },
+    "beta_alanine": {
+      "display_name": "Beta-alanine",
+      "preferred_name": ".BETA.-ALANINE",
+      "unii": "11P2JDE17B",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/11P2JDE17B"
+    },
+    "phenylalanine": {
+      "display_name": "Phenylalanine",
+      "preferred_name": "PHENYLALANINE",
+      "unii": "47E5O17Y3R",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/47E5O17Y3R"
+    },
+    "choline": {
+      "display_name": "Choline",
+      "preferred_name": "CHOLINE",
+      "unii": "N91BDP6H0X",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/N91BDP6H0X"
+    },
+    "caprylic": {
+      "display_name": "Caprylic acid",
+      "preferred_name": "CAPRYLIC ACID",
+      "unii": "OBL58JN025",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/OBL58JN025"
+    },
+    "capric": {
+      "display_name": "Capric acid",
+      "preferred_name": "CAPRIC ACID",
+      "unii": "4G9EDB6V73",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/4G9EDB6V73"
+    },
+    "dpa_n3": {
+      "display_name": "DPA/clupanodonic acid",
+      "preferred_name": "CLUPANODONIC ACID",
+      "unii": "NS3OZT14QT",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/NS3OZT14QT"
+    },
+    "eta_n3": {
+      "display_name": "PUFA 20:4 n‑3 / bishomostearidonic acid",
+      "preferred_name": "BISHOMOSTEARIDONIC ACID",
+      "unii": "2K2DJ01BB7",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/2K2DJ01BB7"
+    },
+    "osbond": {
+      "display_name": "Osbond acid",
+      "preferred_name": "OSBOND ACID",
+      "unii": "7S686LQT6T",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/7S686LQT6T"
+    },
+    "mct": {
+      "display_name": "Medium-chain triglycerides",
+      "preferred_name": "MEDIUM-CHAIN TRIGLYCERIDES",
+      "unii": "C9H2L21V7U",
+      "href": "https://precision.fda.gov/uniisearch/srs/unii/C9H2L21V7U"
+    }
+  },
+  "gsrs_unii_url_template": "https://precision.fda.gov/uniisearch/srs/unii/{unii}"
 }
