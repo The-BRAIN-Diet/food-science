@@ -74,6 +74,14 @@ test("the FCIR is one continuous register table, each case ID once, with row anc
   }
 })
 
+test("FCIR table columns shrink to content instead of a forced minimum width", () => {
+  const css = fs.readFileSync(path.join(ROOT, "src/css/custom.css"), "utf8")
+  assert.doesNotMatch(css, /min-width:\s*124rem/)
+  assert.match(css, /width:\s*auto/)
+  assert.match(css, /\.fcir-col-status/)
+  assert.match(css, /width:\s*1%/)
+})
+
 function markdownHrefs(text) {
   return [...String(text || "").matchAll(/\]\(([^)]+)\)/g)].map((match) => match[1])
 }
@@ -246,7 +254,7 @@ test("verified GSRS/UNII mappings stay pinned and are not Not established", () =
   const register = loadFcirRegister(ROOT)
   const page = fs.readFileSync(path.join(ROOT, register.public_doc), "utf8")
   const generated = extractGeneratedBlock(page)
-  assert.match(generated, /<th>Substance\/UNII<\/th>/)
+  assert.match(generated, /<th className="fcir-col-unii">Substance\/UNII<\/th>/)
   assert.equal(PINNED_GSRS_SUBSTANCES.length, 7)
   const placements = [
     ["FCIR-001", "OF5P57N2ZX", "Alanine"],

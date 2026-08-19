@@ -389,20 +389,20 @@ function renderSubstanceUniiCell(entry) {
     .join("")
 }
 
-const FCIR_TABLE_HEADERS = [
-  "Case ID",
-  "Food/material",
-  "Identity at issue",
-  "Substance/UNII",
-  "Identity/source IDs",
-  "Problem",
-  "Decision and public treatment",
-  "Evidence",
-  "Status",
+const FCIR_TABLE_COLUMNS = [
+  {header: "Case ID", className: "fcir-col-id"},
+  {header: "Food/material", className: "fcir-col-food"},
+  {header: "Identity at issue", className: "fcir-col-issue"},
+  {header: "Substance/UNII", className: "fcir-col-unii"},
+  {header: "Identity/source IDs", className: "fcir-col-ids"},
+  {header: "Problem", className: "fcir-col-problem"},
+  {header: "Decision and public treatment", className: "fcir-col-decision"},
+  {header: "Evidence", className: "fcir-col-evidence"},
+  {header: "Status", className: "fcir-col-status"},
 ]
 
 function renderTableHeader() {
-  const cells = FCIR_TABLE_HEADERS.map((header) => `<th>${header}</th>`).join("\n")
+  const cells = FCIR_TABLE_COLUMNS.map((col) => `<th className="${col.className}">${col.header}</th>`).join("\n")
   return `<thead>
 <tr>
 ${cells}
@@ -416,14 +416,14 @@ function renderRegisterRow(entry, options = {}) {
   const idAttr = options.omitAnchor ? "" : ` id="${escapeAttr(anchor)}"`
   return `<tr${idAttr} className="fcir-row">
 <td className="fcir-col-id"><strong>${escapeHtml(entry.id)}</strong></td>
-<td>${inlineMdToHtml(entry.food_or_scope)}</td>
-<td>${inlineMdToHtml(identity.identity_at_issue || "")}</td>
+<td className="fcir-col-food">${inlineMdToHtml(entry.food_or_scope)}</td>
+<td className="fcir-col-issue">${inlineMdToHtml(identity.identity_at_issue || "")}</td>
 <td className="fcir-col-unii">${renderSubstanceUniiCell(entry)}</td>
 <td className="fcir-col-ids">${renderIdentityCell(entry)}</td>
-<td>${inlineMdToHtml(entry.problem)}</td>
-<td>${renderDecisionCell(entry)}</td>
-<td><span className="fcir-label">Source</span>${inlineMdToHtml(entry.source_public)}</td>
-<td><strong>${escapeHtml(entry.status)}</strong></td>
+<td className="fcir-col-problem">${inlineMdToHtml(entry.problem)}</td>
+<td className="fcir-col-decision">${renderDecisionCell(entry)}</td>
+<td className="fcir-col-evidence"><span className="fcir-label">Source</span>${inlineMdToHtml(entry.source_public)}</td>
+<td className="fcir-col-status"><strong>${escapeHtml(entry.status)}</strong></td>
 </tr>`
 }
 
