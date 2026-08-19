@@ -32,7 +32,53 @@
       "interpretation_public": "**Decision:** Alanine, beta-alanine and phenylalanine are amino acids and are excluded categorically from ALA and lipid resolution. **Action:** ALA now requires explicit alpha-linolenic or 18:3 n‑3 identity. Affected food and recipe values are regenerated from corrected source fields.",
       "food_slugs": [],
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": false,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "identified",
+      "identity": {
+        "food_material": "Site-wide ALA mapping rule; not a named food",
+        "identity_at_issue": "Alanine vs alpha-linolenic acid (ALA)",
+        "scientific_species": "Not established",
+        "material_form": "Not established",
+        "canonical_chemical_name": "Alpha-linolenic acid (ALA; 18:3 n‑3), distinguished from alanine, beta-alanine and phenylalanine",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        },
+        "fdc_nutrient_id": {
+          "active": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1404",
+              "label": "18:3 n‑3, ALA",
+              "note": "required identity for named ALA"
+            }
+          ],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "amino-acid fields",
+              "label": "alanine / beta-alanine / phenylalanine",
+              "note": "amino-acid fields are not fatty acids and must not populate ALA"
+            }
+          ]
+        },
+        "doi_or_database": {
+          "active": [
+            {
+              "type": "Database record",
+              "id": "repository nutrient-identity audit",
+              "label": "extraction and recipe regression fixtures"
+            }
+          ],
+          "supporting": [],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-002",
@@ -47,7 +93,57 @@
       "interpretation_public": "**Decision:** Generic 18:3 remains unresolved and cannot enter ALA or identified omega‑3 totals. **Action:** Extraction stores USDA nutrient 1270 as unresolved 18:3 and never writes ALA from it. Exact-food analytical evidence may later provide a documented isomer interpretation on a named food page.",
       "food_slugs": [],
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": false,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "unresolved",
+      "identity": {
+        "food_material": "Generic 18:3 fatty-acid records",
+        "identity_at_issue": "Unqualified 18:3 vs ALA (18:3 n‑3) vs GLA (18:3 n‑6)",
+        "scientific_species": "Not established",
+        "material_form": "Not established",
+        "canonical_chemical_name": "18:3 remains unresolved until the isomer is named",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        },
+        "fdc_nutrient_id": {
+          "active": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1270",
+              "label": "unqualified 18:3",
+              "note": "stored as unresolved 18:3; never written as ALA"
+            }
+          ],
+          "supporting": [],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [
+            {
+              "type": "DOI",
+              "id": "10.3390/molecules27103171",
+              "label": "Golimowski et al. 2022",
+              "href": "https://doi.org/10.3390/molecules27103171",
+              "paper_href": "/docs/papers/BRAIN-Diet-References#golimowski_hemp_oil_2022",
+              "note": "hemp oil reports 18:3 n‑3 and 18:3 n‑6 in adjacent rows"
+            },
+            {
+              "type": "DOI",
+              "id": "10.3390/separations8040051",
+              "label": "Goldschmidt and Byrdwell 2021",
+              "href": "https://doi.org/10.3390/separations8040051",
+              "paper_href": "/docs/papers/BRAIN-Diet-References#goldschmidt_conjugated_18_3_2021",
+              "note": "a bare 18:3 field is chemically underspecified"
+            }
+          ],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-003",
@@ -60,7 +156,9 @@
       "source_public": "Quantity: [FDC 169414](https://fdc.nal.usda.gov/food-details/169414/nutrients), *Seeds, flaxseed*, nutrient 1270 = 22,813 mg/100 g. Identity: [FDC 2262075](https://fdc.nal.usda.gov/food-details/2262075/nutrients), *Flaxseed, ground*, nutrient 1404 = 19.42 g/100 g, ALA 57.2% of fatty acids against 57.1% in 169414. Identity (literature): [Ribeiro et al. 2013](/docs/papers/BRAIN-Diet-References#ribeiro_flax_fatty_acids_2013) names alpha-linolenic acid in whole flax seeds; [Gómez-Cortés et al. 2016](/docs/papers/BRAIN-Diet-References#gomez_cortes_linseed_ala_isomers_2016) runs authentic n‑3 and n‑6 standards on linseed oil and finds only a trace of 18:3 n‑6.",
       "food_or_scope": "[Flax seeds](/docs/foods/flax-seeds#nutrition-row-ala_interpreted)",
       "interpretation_public": "**Decision:** Publish **22.8 g alpha-linolenic acid per 100 g** as a combined-provenance interpretation, not as a single ALA assay. **Action:** The asterisked [ALA row](/docs/foods/flax-seeds#nutrition-row-ala_interpreted) and [source note](/docs/foods/flax-seeds#nutrition-note-ala_interpreted) carry the figure; recipes consume 22,813 mg/100 g internally without duplicating the gram row.",
-      "food_slugs": ["flax-seeds"],
+      "food_slugs": [
+        "flax-seeds"
+      ],
       "public_row": "ala_interpreted",
       "recipes": [
         {
@@ -69,7 +167,81 @@
         }
       ],
       "excludes_unresolved_18_3_from_named_ala": false,
-      "excludes_unresolved_18_3_from_identified_omega3": false
+      "excludes_unresolved_18_3_from_identified_omega3": false,
+      "publishes_resolved_quantity": true,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "identified",
+      "technical_notes": "The published 22.8 g is 22,813 mg/100 g from FDC 169414 nutrient 1270, interpreted as ALA. FDC 2262075 nutrient 1404 (19.42 g/100 g, ground flax) is isomer-identity evidence, not a replacement quantity: that record is ground seed with a different fat content. ALA is 57.2% of fatty acids in 2262075 against 57.1% in 169414. Do not convert an oil percentage into grams of seed.",
+      "identity": {
+        "food_material": "Whole flax seeds",
+        "identity_at_issue": "Unqualified 18:3 on the whole-seed record vs named ALA",
+        "scientific_species": "Not established",
+        "material_form": "Whole flax seeds (quantity). Ground flax is a different material and is used only for isomer identity.",
+        "canonical_chemical_name": "Alpha-linolenic acid (ALA; 18:3 n‑3)",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [
+            {
+              "type": "FDC food ID",
+              "id": "169414",
+              "label": "*Seeds, flaxseed*",
+              "href": "https://fdc.nal.usda.gov/food-details/169414/nutrients",
+              "note": "quantity record"
+            }
+          ],
+          "supporting": [
+            {
+              "type": "FDC food ID",
+              "id": "2262075",
+              "label": "*Flaxseed, ground*",
+              "href": "https://fdc.nal.usda.gov/food-details/2262075/nutrients",
+              "note": "isomer identity via nutrient 1404; not the published quantity"
+            }
+          ],
+          "rejected": []
+        },
+        "fdc_nutrient_id": {
+          "active": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1270",
+              "label": "unqualified 18:3",
+              "note": "22,813 mg/100 g quantity on FDC 169414"
+            }
+          ],
+          "supporting": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1404",
+              "label": "18:3 n‑3, ALA",
+              "note": "19.42 g/100 g on ground flax FDC 2262075, used for identity not quantity"
+            }
+          ],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [
+            {
+              "type": "DOI",
+              "id": "10.1016/j.foodres.2013.01.061",
+              "label": "Ribeiro et al. 2013",
+              "href": "https://doi.org/10.1016/j.foodres.2013.01.061",
+              "paper_href": "/docs/papers/BRAIN-Diet-References#ribeiro_flax_fatty_acids_2013",
+              "note": "names alpha-linolenic acid in whole flax seeds"
+            },
+            {
+              "type": "DOI",
+              "id": "10.1016/j.foodchem.2016.01.023",
+              "label": "Gómez-Cortés et al. 2016",
+              "href": "https://doi.org/10.1016/j.foodchem.2016.01.023",
+              "paper_href": "/docs/papers/BRAIN-Diet-References#gomez_cortes_linseed_ala_isomers_2016",
+              "note": "authentic n‑3 and n‑6 standards on linseed oil; only a trace of 18:3 n‑6"
+            }
+          ],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-004",
@@ -82,7 +254,9 @@
       "source_public": "Quantity: [FDC 170187](https://fdc.nal.usda.gov/food-details/170187/nutrients), *Nuts, walnuts, english*, nutrient 1270 = 9,080 mg/100 g. Identity: [Kafkas et al. 2017](/docs/papers/BRAIN-Diet-References#kafkas_walnut_fatty_acids_2017) names alpha-linolenic acid across ten *Juglans regia* cultivars (9.50–13.26% of fatty acids) against a 37-component FAME standard; [Yoshinaga-Kiriake et al. 2022](/docs/papers/BRAIN-Diet-References#yoshinaga_kiriake_walnut_oil_2022) names α-linolenic acid (C18:3n3) against the same standard, which carries n‑3 and n‑6 as distinct components. Rejected for identity: [FDC 2346394](https://fdc.nal.usda.gov/food-details/2346394/nutrients) (fatty-acid totals only; no nutrient 1404).",
       "food_or_scope": "[Walnuts](/docs/foods/walnuts#nutrition-row-ala_interpreted)",
       "interpretation_public": "**Decision:** Walnut-specific GC studies identify the 18:3 as ALA; USDA supplies the whole-kernel quantity. **Action:** Publish **9.08 g ALA per 100 g*** on the [ALA row](/docs/foods/walnuts#nutrition-row-ala_interpreted). Do not treat Foundation FDC 2346394 as identity (no nutrient 1404) and do not derive the gram figure from oil × fraction arithmetic.",
-      "food_slugs": ["walnuts"],
+      "food_slugs": [
+        "walnuts"
+      ],
       "public_row": "ala_interpreted",
       "recipes": [
         {
@@ -99,7 +273,74 @@
         }
       ],
       "excludes_unresolved_18_3_from_named_ala": false,
-      "excludes_unresolved_18_3_from_identified_omega3": false
+      "excludes_unresolved_18_3_from_identified_omega3": false,
+      "publishes_resolved_quantity": true,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "identified",
+      "technical_notes": "USDA FDC 170187 nutrient 1270 supplies the whole-kernel quantity (9,080 mg/100 g). Named GC studies identify that 18:3 as ALA. Do not wait on Foundation nutrient 1404 (absent from FDC 2346394) and do not substitute milligrams derived from oil × fraction arithmetic for USDA’s kernel quantity.",
+      "identity": {
+        "food_material": "English walnut kernel",
+        "identity_at_issue": "Unqualified 18:3 vs named ALA on walnut kernel",
+        "scientific_species": "*Juglans regia*",
+        "material_form": "English walnut kernel",
+        "canonical_chemical_name": "Alpha-linolenic acid (ALA; 18:3 n‑3)",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [
+            {
+              "type": "FDC food ID",
+              "id": "170187",
+              "label": "*Nuts, walnuts, english*",
+              "href": "https://fdc.nal.usda.gov/food-details/170187/nutrients",
+              "note": "quantity record"
+            }
+          ],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "FDC food ID",
+              "id": "2346394",
+              "label": "Foundation walnut record",
+              "href": "https://fdc.nal.usda.gov/food-details/2346394/nutrients",
+              "note": "fatty-acid totals only; no nutrient 1404; rejected for identity"
+            }
+          ]
+        },
+        "fdc_nutrient_id": {
+          "active": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1270",
+              "label": "unqualified 18:3",
+              "note": "9,080 mg/100 g quantity on FDC 170187"
+            }
+          ],
+          "supporting": [],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [
+            {
+              "type": "DOI",
+              "id": "10.4236/fns.2017.812079",
+              "label": "Kafkas et al. 2017",
+              "href": "https://doi.org/10.4236/fns.2017.812079",
+              "paper_href": "/docs/papers/BRAIN-Diet-References#kafkas_walnut_fatty_acids_2017",
+              "note": "names alpha-linolenic acid across ten *Juglans regia* cultivars against a 37-component FAME standard"
+            },
+            {
+              "type": "DOI",
+              "id": "10.5650/jos.ess22015",
+              "label": "Yoshinaga-Kiriake et al. 2022",
+              "href": "https://doi.org/10.5650/jos.ess22015",
+              "paper_href": "/docs/papers/BRAIN-Diet-References#yoshinaga_kiriake_walnut_oil_2022",
+              "note": "names α-linolenic acid (C18:3n3); the standard carries n‑3 and n‑6 as distinct components"
+            }
+          ],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-005",
@@ -114,7 +355,49 @@
       "interpretation_public": "**Decision:** Hemp 18:3 is a mixture, not a synonym for ALA. **Action:** Require separately identified ALA and GLA values. Never apply the flax interpretation to hemp.",
       "food_slugs": [],
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": false,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "unresolved",
+      "identity": {
+        "food_material": "Hemp seeds (reference case; no hemp food page yet)",
+        "identity_at_issue": "Hemp 18:3 as a mixture of ALA and GLA, not a synonym for ALA",
+        "scientific_species": "Not established",
+        "material_form": "Hemp seeds / hemp seed oil (reference; exact commercial form Not established)",
+        "canonical_chemical_name": "18:3 n‑3 (ALA) and 18:3 n‑6 (GLA) must be identified separately; generic 18:3 remains unresolved",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        },
+        "fdc_nutrient_id": {
+          "active": [],
+          "supporting": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "18:3 n‑3 and 18:3 n‑6",
+              "label": "adjacent named rows in Golimowski et al. 2022",
+              "note": "generic USDA 1270 is not sufficient"
+            }
+          ],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [
+            {
+              "type": "DOI",
+              "id": "10.3390/molecules27103171",
+              "label": "Golimowski et al. 2022",
+              "href": "https://doi.org/10.3390/molecules27103171",
+              "paper_href": "/docs/papers/BRAIN-Diet-References#golimowski_hemp_oil_2022",
+              "note": "Finola and other cultivars report 18:3 n‑3 and 18:3 n‑6 in adjacent rows"
+            }
+          ],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-006",
@@ -127,9 +410,67 @@
       "source_public": "[USDA SR Legacy FDC 173412](https://fdc.nal.usda.gov/food-details/173412/nutrients) nutrient 1270 only; contrast [butter FDC 173430](https://fdc.nal.usda.gov/food-details/173430/nutrients), which reports nutrient 1404 (0.315 g ALA) beside a larger unqualified 1270 figure.",
       "food_or_scope": "[Ghee](/docs/foods/ghee#nutrition-tables)",
       "interpretation_public": "**Decision:** Ruminant 18:3 is not a single isomer. **Action:** Do not publish ALA or include 1,447 mg in identified omega‑3. The milligrams stay internal and unpublished.",
-      "food_slugs": ["ghee"],
+      "food_slugs": [
+        "ghee"
+      ],
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": false,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "unresolved",
+      "identity": {
+        "food_material": "Ghee",
+        "identity_at_issue": "Ruminant unqualified 18:3 vs named ALA",
+        "scientific_species": "Not established",
+        "material_form": "Ghee",
+        "canonical_chemical_name": "18:3 remains unresolved; not published as ALA",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [
+            {
+              "type": "FDC food ID",
+              "id": "173412",
+              "label": "USDA SR Legacy ghee record",
+              "href": "https://fdc.nal.usda.gov/food-details/173412/nutrients",
+              "note": "nutrient 1270 only; not used as named ALA"
+            }
+          ],
+          "supporting": [
+            {
+              "type": "FDC food ID",
+              "id": "173430",
+              "label": "butter",
+              "href": "https://fdc.nal.usda.gov/food-details/173430/nutrients",
+              "note": "contrast only: reports nutrient 1404 beside a larger unqualified 1270 figure; not transferred onto ghee"
+            }
+          ],
+          "rejected": []
+        },
+        "fdc_nutrient_id": {
+          "active": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1270",
+              "label": "unqualified 18:3",
+              "note": "1,447 mg remains internal and unpublished"
+            }
+          ],
+          "supporting": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1404",
+              "label": "18:3 n‑3, ALA",
+              "note": "present on butter FDC 173430; Not established on the ghee record"
+            }
+          ],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-007",
@@ -142,10 +483,75 @@
       "source_public": "Quantity: [FDC 174270](https://fdc.nal.usda.gov/food-details/174270/nutrients), *Soybeans, mature seeds, raw*, nutrient 1270 = 1,330 mg (6.7% of 19.94 g fat). Identity: [FDC 171411](https://fdc.nal.usda.gov/food-details/171411/nutrients), *Oil, soybean, salad or cooking*, nutrient 1404 = 6.789 g/100 g and nutrient 1321 (GLA) = 0. The oil’s ALA share is 6.8% of fat — USDA agreeing with itself on proportion, not a transferred quantity.",
       "food_or_scope": "[Soy](/docs/foods/soy#nutrition-row-ala_interpreted)",
       "interpretation_public": "**Decision:** Resolve the exact food form first. Oil fatty-acid percentages cannot be transferred as oil grams onto whole soy. **Action:** For mature raw soybeans, publish **1.33 g ALA per 100 g*** from this seed record’s 18:3 milligrams, with isomer identity from USDA soybean oil nutrient 1404. The oil’s 6.789 g/100 g is not copied onto the seed page.",
-      "food_slugs": ["soy"],
+      "food_slugs": [
+        "soy"
+      ],
       "public_row": "ala_interpreted",
       "excludes_unresolved_18_3_from_named_ala": false,
-      "excludes_unresolved_18_3_from_identified_omega3": false
+      "excludes_unresolved_18_3_from_identified_omega3": false,
+      "publishes_resolved_quantity": true,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "identified",
+      "technical_notes": "Mature raw soybeans (FDC 174270) supply 1,330 mg unqualified 18:3 per 100 g (6.7% of 19.94 g fat). Soybean oil (FDC 171411) nutrient 1404 = 6.789 g/100 g and nutrient 1321 (GLA) = 0; the oil’s ALA share is 6.8% of fat. That is USDA agreeing with itself on proportion, not a transferred oil quantity. Do not copy 6.789 g/100 g onto soy, tofu, natto, miso or tempeh.",
+      "identity": {
+        "food_material": "Mature raw soybeans",
+        "identity_at_issue": "Whole-bean 18:3 quantity vs soybean-oil grams; isomer identity of 18:3",
+        "scientific_species": "Not established",
+        "material_form": "Mature raw soybeans; not oil, flour, lecithin, tofu, natto, miso or tempeh",
+        "canonical_chemical_name": "Alpha-linolenic acid (ALA; 18:3 n‑3)",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [
+            {
+              "type": "FDC food ID",
+              "id": "174270",
+              "label": "*Soybeans, mature seeds, raw*",
+              "href": "https://fdc.nal.usda.gov/food-details/174270/nutrients",
+              "note": "quantity record"
+            }
+          ],
+          "supporting": [
+            {
+              "type": "FDC food ID",
+              "id": "171411",
+              "label": "*Oil, soybean, salad or cooking*",
+              "href": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+              "note": "isomer identity only; oil grams are not copied onto the seed"
+            }
+          ],
+          "rejected": []
+        },
+        "fdc_nutrient_id": {
+          "active": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1270",
+              "label": "unqualified 18:3",
+              "note": "1,330 mg/100 g on FDC 174270"
+            }
+          ],
+          "supporting": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1404",
+              "label": "18:3 n‑3, ALA",
+              "note": "6.789 g/100 g on soybean oil; identity, not transferred quantity"
+            },
+            {
+              "type": "FDC nutrient ID",
+              "id": "1321",
+              "label": "GLA",
+              "note": "0 on soybean oil FDC 171411"
+            }
+          ],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-008",
@@ -158,9 +564,82 @@
       "source_public": "Quantity: [FDC 173573](https://fdc.nal.usda.gov/food-details/173573/nutrients), *Oil, avocado*, nutrient 1270. Identity attempted: [Fernandes et al. 2018](/docs/papers/BRAIN-Diet-References#fernandes_avocado_oil_2018) — wording rejected for isomer resolution. Not transferred: avocado fruit [FDC 171705](https://fdc.nal.usda.gov/food-details/171705/nutrients) nutrient 1404 = 0.111 g and 1321 = 0.015 g.",
       "food_or_scope": "[Avocado oil](/docs/foods/avocado-oil#nutrition-tables)",
       "interpretation_public": "**Decision:** “Linolenic (C18:3)” does not identify n‑3 versus n‑6. **Action:** Retain unresolved 18:3; do not publish ALA. Avocado fruit is a different food and is not used as a proxy quantity.",
-      "food_slugs": ["avocado-oil"],
+      "food_slugs": [
+        "avocado-oil"
+      ],
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": false,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "unresolved",
+      "identity": {
+        "food_material": "Avocado oil",
+        "identity_at_issue": "“Linolenic (C18:3)” vs n‑3 ALA vs n‑6 GLA; oil vs fruit",
+        "scientific_species": "Not established",
+        "material_form": "Avocado oil; not avocado fruit",
+        "canonical_chemical_name": "18:3 remains unresolved; not published as ALA",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [
+            {
+              "type": "FDC food ID",
+              "id": "173573",
+              "label": "*Oil, avocado*",
+              "href": "https://fdc.nal.usda.gov/food-details/173573/nutrients",
+              "note": "quantity record for unresolved 18:3"
+            }
+          ],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "FDC food ID",
+              "id": "171705",
+              "label": "avocado fruit",
+              "href": "https://fdc.nal.usda.gov/food-details/171705/nutrients",
+              "note": "different food; 1404/1321 quantities are not transferred onto the oil"
+            }
+          ]
+        },
+        "fdc_nutrient_id": {
+          "active": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1270",
+              "label": "unqualified 18:3",
+              "note": "957 mg remains unresolved"
+            }
+          ],
+          "supporting": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1404",
+              "label": "18:3 n‑3, ALA",
+              "note": "0.111 g on avocado fruit FDC 171705; not used for the oil"
+            },
+            {
+              "type": "FDC nutrient ID",
+              "id": "1321",
+              "label": "GLA",
+              "note": "0.015 g on avocado fruit FDC 171705; not used for the oil"
+            }
+          ],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "DOI",
+              "id": "10.3989/gya.0110181",
+              "label": "Fernandes et al. 2018",
+              "href": "https://doi.org/10.3989/gya.0110181",
+              "paper_href": "/docs/papers/BRAIN-Diet-References#fernandes_avocado_oil_2018",
+              "note": "wording “linolenic (C18:3)” rejected for isomer resolution"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "FCIR-009",
@@ -173,7 +652,9 @@
       "source_public": "[FDC 175132](https://fdc.nal.usda.gov/food-details/175132/nutrients), *Fish, roe, mixed species, raw*: nutrient 1278 (EPA), 1272 (DHA). Unqualified 18:3 nutrient 1270 = 6 mg, unpublished. Recipe: [Neuroeshot](/docs/recipes/Snacks/neuroeshot-roe#recipe-nutrition) scales 15 g of that record.",
       "food_or_scope": "[Salmon roe](/docs/foods/salmon-roe#nutrition-row-epa_mg) and [Neuroeshot](/docs/recipes/Snacks/neuroeshot-roe#nutrition-row-epa_mg)",
       "interpretation_public": "**Decision:** ALA is suppressed. EPA and DHA remain because their identities and quantities are explicit. **Action:** Identified omega‑3 totals include only verified n‑3 components. The leftover 6 mg of unqualified 18:3 stays unpublished.",
-      "food_slugs": ["salmon-roe"],
+      "food_slugs": [
+        "salmon-roe"
+      ],
       "recipes": [
         {
           "title": "Neuroeshot",
@@ -181,7 +662,68 @@
         }
       ],
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": true,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "identified",
+      "identity": {
+        "food_material": "Raw mixed-species fish roe used on the salmon roe page and in Neuroeshot",
+        "identity_at_issue": "Alanine mis-stored as ALA; EPA and DHA remain named n‑3 acids",
+        "scientific_species": "Mixed species (FDC description); a single species is Not established",
+        "material_form": "Raw mixed-species fish roe; Neuroeshot scales 15 g of that record",
+        "canonical_chemical_name": "EPA (20:5 n‑3) and DHA (22:6 n‑3); ALA suppressed; leftover unqualified 18:3 unpublished",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [
+            {
+              "type": "FDC food ID",
+              "id": "175132",
+              "label": "*Fish, roe, mixed species, raw*",
+              "href": "https://fdc.nal.usda.gov/food-details/175132/nutrients",
+              "note": "composition record for the food page and recipe"
+            }
+          ],
+          "supporting": [],
+          "rejected": []
+        },
+        "fdc_nutrient_id": {
+          "active": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1278",
+              "label": "EPA, 20:5 n‑3",
+              "note": "983 mg/100 g"
+            },
+            {
+              "type": "FDC nutrient ID",
+              "id": "1272",
+              "label": "DHA, 22:6 n‑3",
+              "note": "1,363 mg/100 g"
+            }
+          ],
+          "supporting": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1270",
+              "label": "unqualified 18:3",
+              "note": "6 mg unpublished"
+            }
+          ],
+          "rejected": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "alanine / amino-acid field",
+              "label": "alanine",
+              "note": "previously stored as ALA; 214.2 mg of false omega‑3 in the recipe"
+            }
+          ]
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-010",
@@ -196,7 +738,83 @@
       "interpretation_public": "**Decision:** Distinguish individual fatty acids, **EPA + DHA**, and **total explicitly identified omega‑3**. **Action:** Every published total must name its components and equal their sum. Unresolved 18:3 never enters the total.",
       "food_slugs": [],
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": false,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "identified",
+      "identity": {
+        "food_material": "Total omega‑3 (site-wide identity rule)",
+        "identity_at_issue": "“Total omega‑3” vs EPA + DHA vs unresolved 18:3 vs amino acids",
+        "scientific_species": "Not established",
+        "material_form": "Not established",
+        "canonical_chemical_name": "Total explicitly identified omega‑3, distinct from the named pair EPA + DHA",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        },
+        "fdc_nutrient_id": {
+          "active": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1404",
+              "label": "18:3 n‑3, ALA"
+            },
+            {
+              "type": "FDC nutrient ID",
+              "id": "1278",
+              "label": "20:5 n‑3, EPA"
+            },
+            {
+              "type": "FDC nutrient ID",
+              "id": "1280",
+              "label": "22:5 n‑3, DPA"
+            },
+            {
+              "type": "FDC nutrient ID",
+              "id": "1272",
+              "label": "22:6 n‑3, DHA"
+            },
+            {
+              "type": "FDC nutrient ID",
+              "id": "1405",
+              "label": "20:3 n‑3"
+            },
+            {
+              "type": "FDC nutrient ID",
+              "id": "1407",
+              "label": "20:4 n‑3"
+            }
+          ],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1270",
+              "label": "unqualified 18:3",
+              "note": "never enters an identified omega‑3 total"
+            },
+            {
+              "type": "FDC nutrient ID",
+              "id": "amino-acid fields",
+              "label": "alanine and related amino acids",
+              "note": "never enter an identified omega‑3 total"
+            }
+          ]
+        },
+        "doi_or_database": {
+          "active": [
+            {
+              "type": "Database record",
+              "id": "food-page omega3_components lists",
+              "label": "recipe calculation audit: identified omega‑3 is summed only from named n‑3 components"
+            }
+          ],
+          "supporting": [],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-011",
@@ -209,10 +827,55 @@
       "source_public": "Withdrawn: [FDC 1750349](https://fdc.nal.usda.gov/food-details/1750349/nutrients), *Oil, sunflower* (including its ALA, EPA and DHA). Retained as lecithin-identity evidence, not as a quantity: [Penci et al. 2010](/docs/papers/BRAIN-Diet-References#penci_lecithin_hydrolysis_2010).",
       "food_or_scope": "[Sunflower lecithin](/docs/foods/sunflower-lecithin#nutrition-row-phosphatidylcholine_qual)",
       "interpretation_public": "**Decision:** Lecithin is the phospholipid fraction, not the oil. **Action:** Keep the page qualitative until the documented form is declared. Phosphatidylcholine and choline are presence-only. Derived PC-bound choline must not be called directly assayed total choline.",
-      "food_slugs": ["sunflower-lecithin"],
+      "food_slugs": [
+        "sunflower-lecithin"
+      ],
       "public_row": "phosphatidylcholine_qual",
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": false,
+      "chemically_ambiguous_nutrient": false,
+      "nutrient_identity_state": "not_applicable",
+      "identity": {
+        "food_material": "Sunflower lecithin",
+        "identity_at_issue": "Lecithin (phospholipid fraction) vs sunflower oil; native vs de-oiled vs fractionated lecithin",
+        "scientific_species": "Not established",
+        "material_form": "Sunflower lecithin; native, de-oiled or fractionated form Not established",
+        "canonical_chemical_name": "Phosphatidylcholine and choline (presence-only until a named specification is declared)",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "FDC food ID",
+              "id": "1750349",
+              "label": "*Oil, sunflower*",
+              "href": "https://fdc.nal.usda.gov/food-details/1750349/nutrients",
+              "note": "triglyceride stream after phospholipids have been removed, including its ALA, EPA and DHA"
+            }
+          ]
+        },
+        "fdc_nutrient_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [
+            {
+              "type": "DOI",
+              "id": "10.1016/j.foodchem.2009.10.025",
+              "label": "Penci et al. 2010",
+              "href": "https://doi.org/10.1016/j.foodchem.2009.10.025",
+              "paper_href": "/docs/papers/BRAIN-Diet-References#penci_lecithin_hydrolysis_2010",
+              "note": "lecithin-identity evidence, not a quantity"
+            }
+          ],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-012",
@@ -225,9 +888,59 @@
       "source_public": "Current: [FDC 2543941](https://fdc.nal.usda.gov/food-details/2543941/nutrients), MCT Premium C8 & C10, declared 60% C8 / 40% C10; 833 kcal and 100 g fat per 100 g. Withdrawn: [FDC 748278](https://fdc.nal.usda.gov/food-details/748278/nutrients), *Oil, canola* (saturated fat 6.61 g; ALA 7,450 mg). Class definition: Australia New Zealand Food Standards Code, medium-chain triglycerides as triacylglycerols predominantly 8:0 and 10:0.",
       "food_or_scope": "[MCT oil](/docs/foods/mct-oil#nutrition-row-kcal)",
       "interpretation_public": "**Decision:** Canola composition is withdrawn. **Action:** Use a named MCT formulation stating energy and total fat, with formulation limitations. Individual C8/C10 milligrams are not published as if they were a universal MCT oil.",
-      "food_slugs": ["mct-oil"],
+      "food_slugs": [
+        "mct-oil"
+      ],
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": true,
+      "chemically_ambiguous_nutrient": false,
+      "nutrient_identity_state": "not_applicable",
+      "identity": {
+        "food_material": "Named MCT Premium C8 & C10 formulation",
+        "identity_at_issue": "Formulated C8/C10 MCT oil vs canola long-chain seed oil",
+        "scientific_species": "Not established",
+        "material_form": "MCT Premium C8 & C10, declared 60% C8 / 40% C10",
+        "canonical_chemical_name": "Medium-chain triglycerides, predominantly 8:0 and 10:0; energy and total fat from the named specification",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [
+            {
+              "type": "FDC food ID",
+              "id": "2543941",
+              "label": "MCT Premium C8 & C10",
+              "href": "https://fdc.nal.usda.gov/food-details/2543941/nutrients",
+              "note": "833 kcal and 100 g fat per 100 g"
+            }
+          ],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "FDC food ID",
+              "id": "748278",
+              "label": "*Oil, canola*",
+              "href": "https://fdc.nal.usda.gov/food-details/748278/nutrients",
+              "note": "saturated fat 6.61 g; ALA 7,450 mg; chemically different oil"
+            }
+          ]
+        },
+        "fdc_nutrient_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [
+            {
+              "type": "Database record",
+              "id": "Australia New Zealand Food Standards Code",
+              "label": "medium-chain triglycerides as triacylglycerols predominantly 8:0 and 10:0"
+            }
+          ],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-013",
@@ -240,9 +953,61 @@
       "source_public": "[Commission Implementing Regulation (EU) 2017/2470](/docs/papers/BRAIN-Diet-References#eu_2017_2470_union_list) (consolidated 25 September 2024). [NIH omega‑3 consumer fact sheet](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_consumer). Absorption context: [Arterburn et al. 2008](/docs/papers/BRAIN-Diet-References#arterburn_algal_2008).",
       "food_or_scope": "[Algal oil](/docs/foods/algal-oil#nutrition-authorised-specifications)",
       "interpretation_public": "**Decision:** Use authorised product specifications and label-dose context, not a substitute oil. **Action:** DHA leads the page; EPA is formulation-specific and not assumed universally present.",
-      "food_slugs": ["algal-oil"],
+      "food_slugs": [
+        "algal-oil"
+      ],
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": false
+      "excludes_unresolved_18_3_from_identified_omega3": false,
+      "publishes_resolved_quantity": true,
+      "chemically_ambiguous_nutrient": false,
+      "nutrient_identity_state": "identified",
+      "identity": {
+        "food_material": "Authorised algal-oil formulations",
+        "identity_at_issue": "DHA-rich vs combined DHA/EPA authorised oils; no USDA algal-oil food",
+        "scientific_species": "Not established",
+        "material_form": "Authorised algal-oil product specifications; DHA-rich and DHA/EPA oils are distinct formulations",
+        "canonical_chemical_name": "Docosahexaenoic acid (DHA); eicosapentaenoic acid (EPA) only where the combined formulation specifies it",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        },
+        "fdc_nutrient_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [
+            {
+              "type": "Database record",
+              "id": "Commission Implementing Regulation (EU) 2017/2470",
+              "label": "Union list of novel foods, consolidated 25 September 2024",
+              "href": "/docs/papers/BRAIN-Diet-References#eu_2017_2470_union_list",
+              "paper_href": "/docs/papers/BRAIN-Diet-References#eu_2017_2470_union_list"
+            }
+          ],
+          "supporting": [
+            {
+              "type": "Database record",
+              "id": "NIH omega‑3 consumer fact sheet",
+              "label": "label-dose and vegetarian algal-oil context",
+              "href": "/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_consumer",
+              "paper_href": "/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_consumer"
+            },
+            {
+              "type": "DOI",
+              "id": "10.1016/j.jada.2008.04.020",
+              "label": "Arterburn et al. 2008",
+              "href": "https://doi.org/10.1016/j.jada.2008.04.020",
+              "paper_href": "/docs/papers/BRAIN-Diet-References#arterburn_algal_2008",
+              "note": "absorption context; intervention was capsules, not culinary oil"
+            }
+          ],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-014",
@@ -253,12 +1018,54 @@
       "decision": "Beech mushroom is a different species from *Ganoderma lucidum*. No value taken from that record was a measurement of reishi.",
       "action": "Withdraw the complete beech-derived panel. Keep polysaccharides qualitative until exact-species, exact-material evidence is attached.",
       "source_public": "Withdrawn: [FDC 2003603](https://fdc.nal.usda.gov/food-details/2003603/nutrients), *Mushroom, beech*. USDA SR Legacy has no reishi record. Replacement must be *Ganoderma* analytical literature with material and dry/fresh basis stated.",
-      "food_or_scope": "[Reishi mushroom](/docs/foods/reishi-mushroom#nutrition-row-polysaccharides_qual)",
+      "food_or_scope": "[Reishi mushroom](/docs/foods/reishi-mushroom#nutrition-row-polysaccharides_qual): *Ganoderma lucidum*; declared material Not established",
       "interpretation_public": "**Decision:** A mismatch invalidates the entire derived panel. **Action:** Withdraw the beech-derived panel. Restore only exact-species, exact-material analytical rows. Polysaccharides remain qualitative.",
-      "food_slugs": ["reishi-mushroom"],
+      "food_slugs": [
+        "reishi-mushroom"
+      ],
       "public_row": "polysaccharides_qual",
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": false,
+      "chemically_ambiguous_nutrient": false,
+      "nutrient_identity_state": "not_applicable",
+      "identity": {
+        "food_material": "*Ganoderma lucidum* (reishi); declared material Not established",
+        "identity_at_issue": "Reishi vs beech mushroom; fruiting body, mycelium, powder and extract are compositionally distinct",
+        "scientific_species": "*Ganoderma lucidum*",
+        "material_form": "Fruiting body, mycelium, powder and extract are distinct; the declared material for this page is Not established",
+        "canonical_chemical_name": "Fungal polysaccharides (qualitative until exact-species, exact-material evidence is attached)",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "FDC food ID",
+              "id": "2003603",
+              "label": "*Mushroom, beech*",
+              "href": "https://fdc.nal.usda.gov/food-details/2003603/nutrients",
+              "note": "identifies beech mushroom rather than Reishi (*Ganoderma lucidum*); USDA SR Legacy has no reishi record"
+            }
+          ]
+        },
+        "fdc_nutrient_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "DOI",
+              "id": "Not established",
+              "label": "replacement must be *Ganoderma* analytical literature with material and dry/fresh basis stated"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "FCIR-015",
@@ -269,12 +1076,54 @@
       "decision": "*Trametes versicolor* is not beech mushroom. A culinary edible-portion panel would also misdescribe a woody bracket fungus.",
       "action": "Withdraw the substituted panel. Keep beta-glucans and polysaccharides qualitative.",
       "source_public": "Withdrawn: [FDC 2003603](https://fdc.nal.usda.gov/food-details/2003603/nutrients), *Mushroom, beech*. Replacement must be exact-species analytical literature distinguishing fruiting body, mycelium and extract.",
-      "food_or_scope": "[Turkey tail mushroom](/docs/foods/turkey-tail-mushroom#nutrition-row-beta_glucans_qual)",
+      "food_or_scope": "[Turkey tail mushroom](/docs/foods/turkey-tail-mushroom#nutrition-row-beta_glucans_qual): *Trametes versicolor*; declared material Not established",
       "interpretation_public": "**Decision:** *Trametes versicolor* is not beech mushroom, and a culinary per-100 g panel would misdescribe a woody bracket fungus even if the species matched. **Action:** Withdraw the substituted panel. Beta-glucans and polysaccharides remain qualitative.",
-      "food_slugs": ["turkey-tail-mushroom"],
+      "food_slugs": [
+        "turkey-tail-mushroom"
+      ],
       "public_row": "beta_glucans_qual",
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": false,
+      "chemically_ambiguous_nutrient": false,
+      "nutrient_identity_state": "not_applicable",
+      "identity": {
+        "food_material": "*Trametes versicolor* (turkey tail); declared material Not established",
+        "identity_at_issue": "Turkey tail vs beech mushroom; woody bracket fungus vs culinary edible portion",
+        "scientific_species": "*Trametes versicolor*",
+        "material_form": "Woody bracket fungus; fruiting body, mycelium and extract are distinct. A culinary per-100 g edible-portion panel would misdescribe it even if the species matched.",
+        "canonical_chemical_name": "Beta-glucans and polysaccharides (qualitative)",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "FDC food ID",
+              "id": "2003603",
+              "label": "*Mushroom, beech*",
+              "href": "https://fdc.nal.usda.gov/food-details/2003603/nutrients",
+              "note": "identifies beech mushroom rather than turkey tail (*Trametes versicolor*)"
+            }
+          ]
+        },
+        "fdc_nutrient_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "DOI",
+              "id": "Not established",
+              "label": "replacement must be exact-species analytical literature distinguishing fruiting body, mycelium and extract"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "FCIR-016",
@@ -285,12 +1134,54 @@
       "decision": "The beech record cannot establish Cordyceps. Commercial products may be *C. militaris* stroma or cultured mycelium.",
       "action": "Keep quantitative composition withdrawn. Keep polysaccharides qualitative until species and material are declared and matched.",
       "source_public": "Withdrawn: [FDC 2003603](https://fdc.nal.usda.gov/food-details/2003603/nutrients), *Mushroom, beech*. Replacement requires named species and named fruiting-body, mycelium or product analysis.",
-      "food_or_scope": "[Cordyceps](/docs/foods/cordyceps-mushroom#nutrition-row-polysaccharides_qual)",
+      "food_or_scope": "[Cordyceps](/docs/foods/cordyceps-mushroom#nutrition-row-polysaccharides_qual): *Cordyceps militaris* stroma or declared cultured mycelium; commercial product Not established",
       "interpretation_public": "**Decision:** Keep quantitative composition withdrawn until species and material are declared. **Action:** Polysaccharides remain qualitative. Do not reuse the beech panel.",
-      "food_slugs": ["cordyceps-mushroom"],
+      "food_slugs": [
+        "cordyceps-mushroom"
+      ],
       "public_row": "polysaccharides_qual",
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": false,
+      "chemically_ambiguous_nutrient": false,
+      "nutrient_identity_state": "not_applicable",
+      "identity": {
+        "food_material": "*Cordyceps militaris* stroma or declared cultured mycelium; the commercial product on the page is Not established",
+        "identity_at_issue": "Polysaccharides; cordycepin; adenosine considered separately",
+        "scientific_species": "Not established for the commercial product; *Cordyceps militaris* is a candidate form, not a verified source match",
+        "material_form": "Stroma or cultured mycelium; declared species and material Not established",
+        "canonical_chemical_name": "Fungal polysaccharides (qualitative). Cordycepin and adenosine are considered separately and are Not established as published quantities.",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "FDC food ID",
+              "id": "2003603",
+              "label": "*Mushroom, beech*",
+              "href": "https://fdc.nal.usda.gov/food-details/2003603/nutrients",
+              "note": "identifies beech mushroom rather than Cordyceps; replacement pending"
+            }
+          ]
+        },
+        "fdc_nutrient_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "DOI",
+              "id": "Not established",
+              "label": "replacement requires named species and named fruiting-body, mycelium or product analysis"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "FCIR-017",
@@ -305,7 +1196,55 @@
       "interpretation_public": "**Decision:** A source must match food or product, species, edible material, preparation state and formulation. **Action:** A mismatch invalidates the entire derived panel, not only the nutrient that exposed it.",
       "food_slugs": [],
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": false,
+      "chemically_ambiguous_nutrient": false,
+      "nutrient_identity_state": "not_applicable",
+      "identity": {
+        "food_material": "Related-food substitution rule",
+        "identity_at_issue": "Authoritative identifier describing a related ingredient rather than the food on the page",
+        "scientific_species": "Not established",
+        "material_form": "Match food or product, species, edible material, preparation state and formulation",
+        "canonical_chemical_name": "Not established",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": [
+            {
+              "type": "FDC food ID",
+              "id": "748278",
+              "label": "*Oil, canola*",
+              "href": "https://fdc.nal.usda.gov/food-details/748278/nutrients",
+              "note": "worked example: MCT oil, FCIR-012"
+            },
+            {
+              "type": "FDC food ID",
+              "id": "1750349",
+              "label": "*Oil, sunflower*",
+              "href": "https://fdc.nal.usda.gov/food-details/1750349/nutrients",
+              "note": "worked example: sunflower lecithin, FCIR-011"
+            },
+            {
+              "type": "FDC food ID",
+              "id": "2003603",
+              "label": "*Mushroom, beech*",
+              "href": "https://fdc.nal.usda.gov/food-details/2003603/nutrients",
+              "note": "worked example: reishi, turkey tail and cordyceps, FCIR-014–FCIR-016"
+            }
+          ]
+        },
+        "fdc_nutrient_id": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-018",
@@ -318,10 +1257,93 @@
       "source_public": "Tofu [FDC 172475](https://fdc.nal.usda.gov/food-details/172475/nutrients) 582 mg; natto [FDC 172443](https://fdc.nal.usda.gov/food-details/172443/nutrients) 734 mg; miso [FDC 172442](https://fdc.nal.usda.gov/food-details/172442/nutrients) 405 mg; tempeh [FDC 174272](https://fdc.nal.usda.gov/food-details/174272/nutrients) 248 mg — all nutrient 1270. Identity: soybean oil [FDC 171411](https://fdc.nal.usda.gov/food-details/171411/nutrients) nutrient 1404.",
       "food_or_scope": "[Tofu](/docs/foods/tofu#nutrition-row-ala_interpreted), [natto](/docs/foods/natto#nutrition-row-ala_interpreted), [miso](/docs/foods/miso#nutrition-row-ala_interpreted), [tempeh](/docs/foods/tempeh#nutrition-row-ala_interpreted)",
       "interpretation_public": "**Decision:** Same isomer identity as soy oil nutrient 1404; quantity remains each food’s own 1270 milligrams. **Action:** Publish asterisked ALA rows: tofu 0.582 g, natto 0.734 g, miso 0.405 g, tempeh 0.248 g per 100 g. Tempeh’s fat share does not match the oil’s ~6.8% and that difference is left standing.",
-      "food_slugs": ["tofu", "natto", "miso", "tempeh"],
+      "food_slugs": [
+        "tofu",
+        "natto",
+        "miso",
+        "tempeh"
+      ],
       "public_row": "ala_interpreted",
       "excludes_unresolved_18_3_from_named_ala": false,
-      "excludes_unresolved_18_3_from_identified_omega3": false
+      "excludes_unresolved_18_3_from_identified_omega3": false,
+      "publishes_resolved_quantity": true,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "identified",
+      "technical_notes": "Each food keeps its own USDA 1270 milligrams: tofu 582 mg, natto 734 mg, miso 405 mg, tempeh 248 mg per 100 g. Isomer identity is soybean oil FDC 171411 nutrient 1404, not oil grams. Tempeh’s fat share (~2.3% vs ~6.8% in the oil) is left standing; it is not “corrected” toward the oil.",
+      "identity": {
+        "food_material": "Tofu, natto, miso and tempeh as four named foods",
+        "identity_at_issue": "Each food’s unqualified 18:3 vs soybean-oil grams; isomer identity of 18:3",
+        "scientific_species": "Not established",
+        "material_form": "Tofu; natto; miso; tempeh — each its own food, not soybean oil",
+        "canonical_chemical_name": "Alpha-linolenic acid (ALA; 18:3 n‑3)",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [
+            {
+              "type": "FDC food ID",
+              "id": "172475",
+              "label": "tofu",
+              "href": "https://fdc.nal.usda.gov/food-details/172475/nutrients",
+              "note": "582 mg unqualified 18:3 / 100 g"
+            },
+            {
+              "type": "FDC food ID",
+              "id": "172443",
+              "label": "natto",
+              "href": "https://fdc.nal.usda.gov/food-details/172443/nutrients",
+              "note": "734 mg unqualified 18:3 / 100 g"
+            },
+            {
+              "type": "FDC food ID",
+              "id": "172442",
+              "label": "miso",
+              "href": "https://fdc.nal.usda.gov/food-details/172442/nutrients",
+              "note": "405 mg unqualified 18:3 / 100 g"
+            },
+            {
+              "type": "FDC food ID",
+              "id": "174272",
+              "label": "tempeh",
+              "href": "https://fdc.nal.usda.gov/food-details/174272/nutrients",
+              "note": "248 mg unqualified 18:3 / 100 g"
+            }
+          ],
+          "supporting": [
+            {
+              "type": "FDC food ID",
+              "id": "171411",
+              "label": "*Oil, soybean, salad or cooking*",
+              "href": "https://fdc.nal.usda.gov/food-details/171411/nutrients",
+              "note": "isomer identity via nutrient 1404; oil grams are not copied"
+            }
+          ],
+          "rejected": []
+        },
+        "fdc_nutrient_id": {
+          "active": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1270",
+              "label": "unqualified 18:3",
+              "note": "quantity on each food record"
+            }
+          ],
+          "supporting": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1404",
+              "label": "18:3 n‑3, ALA",
+              "note": "soybean oil identity, not transferred oil grams"
+            }
+          ],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-019",
@@ -334,9 +1356,65 @@
       "source_public": "[FDC 170495](https://fdc.nal.usda.gov/food-details/170495/nutrients), *Seaweed, spirulina, dried*, nutrient 1270 = 823 mg; no 1404 or 1321. Page limitations note records the inverse-flax reading.",
       "food_or_scope": "[Spirulina](/docs/foods/spirulina#nutrition-tables)",
       "interpretation_public": "**Decision:** Do not interpret spirulina 18:3 as ALA. **Action:** Leave the milligrams unresolved and unpublished. Do not publish them as GLA either, because this record does not name the isomer.",
-      "food_slugs": ["spirulina"],
+      "food_slugs": [
+        "spirulina"
+      ],
       "excludes_unresolved_18_3_from_named_ala": true,
-      "excludes_unresolved_18_3_from_identified_omega3": true
+      "excludes_unresolved_18_3_from_identified_omega3": true,
+      "publishes_resolved_quantity": false,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "unresolved",
+      "identity": {
+        "food_material": "Dried spirulina",
+        "identity_at_issue": "Cyanobacterial unqualified 18:3 vs ALA; inverse of the flax case",
+        "scientific_species": "Not established",
+        "material_form": "Dried spirulina (*Seaweed, spirulina, dried* as named by the FDC record)",
+        "canonical_chemical_name": "18:3 remains unresolved; not published as ALA or as GLA, because this record does not name the isomer",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [
+            {
+              "type": "FDC food ID",
+              "id": "170495",
+              "label": "*Seaweed, spirulina, dried*",
+              "href": "https://fdc.nal.usda.gov/food-details/170495/nutrients",
+              "note": "823 mg unqualified 18:3; no 1404 or 1321"
+            }
+          ],
+          "supporting": [],
+          "rejected": []
+        },
+        "fdc_nutrient_id": {
+          "active": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1270",
+              "label": "unqualified 18:3",
+              "note": "823 mg; left unresolved and unpublished"
+            }
+          ],
+          "supporting": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1404",
+              "label": "18:3 n‑3, ALA",
+              "note": "Not established on this record"
+            },
+            {
+              "type": "FDC nutrient ID",
+              "id": "1321",
+              "label": "GLA",
+              "note": "Not established on this record"
+            }
+          ],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        }
+      }
     },
     {
       "id": "FCIR-020",
@@ -349,7 +1427,9 @@
       "source_public": "[FDC 170554](https://fdc.nal.usda.gov/food-details/170554/nutrients), *Seeds, chia seeds, dried*, nutrient 1404.",
       "food_or_scope": "[Chia seeds](/docs/foods/chia-seeds#nutrition-row-ala_mg)",
       "interpretation_public": "**Decision:** This record already names 18:3 n‑3. **Action:** Publish ALA from USDA nutrient 1404 at 17,830 mg/100 g. No combined-provenance overlay is required.",
-      "food_slugs": ["chia-seeds"],
+      "food_slugs": [
+        "chia-seeds"
+      ],
       "public_row": "ala_mg",
       "recipes": [
         {
@@ -366,7 +1446,74 @@
         }
       ],
       "excludes_unresolved_18_3_from_named_ala": false,
-      "excludes_unresolved_18_3_from_identified_omega3": false
+      "excludes_unresolved_18_3_from_identified_omega3": false,
+      "publishes_resolved_quantity": true,
+      "chemically_ambiguous_nutrient": true,
+      "nutrient_identity_state": "identified",
+      "identity": {
+        "food_material": "Dried chia seeds",
+        "identity_at_issue": "Whether chia 18:3 is already named as 18:3 n‑3 on the USDA record",
+        "scientific_species": "Not established",
+        "material_form": "Dried chia seeds",
+        "canonical_chemical_name": "Alpha-linolenic acid (ALA; 18:3 n‑3)",
+        "substance_identifier": "Not established",
+        "fdc_food_id": {
+          "active": [
+            {
+              "type": "FDC food ID",
+              "id": "170554",
+              "label": "*Seeds, chia seeds, dried*",
+              "href": "https://fdc.nal.usda.gov/food-details/170554/nutrients",
+              "note": "composition record already names 18:3 n‑3"
+            }
+          ],
+          "supporting": [],
+          "rejected": []
+        },
+        "fdc_nutrient_id": {
+          "active": [
+            {
+              "type": "FDC nutrient ID",
+              "id": "1404",
+              "label": "18:3 n‑3, ALA",
+              "note": "17,830 mg/100 g; no combined-provenance overlay"
+            }
+          ],
+          "supporting": [],
+          "rejected": []
+        },
+        "doi_or_database": {
+          "active": [],
+          "supporting": [],
+          "rejected": []
+        }
+      }
+    }
+  ],
+  "identifier_types": [
+    {
+      "key": "FDC food ID",
+      "meaning": "identifies the composition record."
+    },
+    {
+      "key": "FDC nutrient ID",
+      "meaning": "identifies the nutrient or analytical field."
+    },
+    {
+      "key": "Scientific species name",
+      "meaning": "identifies the organism."
+    },
+    {
+      "key": "Material/form",
+      "meaning": "fruiting body, stroma, mycelium, extract, seed, oil, or other named material."
+    },
+    {
+      "key": "GSRS/UNII or another stable substance identifier",
+      "meaning": "used only where available and verified."
+    },
+    {
+      "key": "DOI",
+      "meaning": "identifies supporting analytical literature. It is evidence provenance rather than substance identity."
     }
   ]
 }

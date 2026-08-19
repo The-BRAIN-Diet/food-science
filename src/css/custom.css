@@ -1051,23 +1051,63 @@
 
 .fcir-register {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
   margin: 1rem 0 1.5rem;
 }
 
-.fcir-register table {
+.fcir-register table,
+.fcir-register .fcir-table {
   font-size: 0.88rem;
-  min-width: 72rem;
+  min-width: 110rem;
+  width: max-content;
+  border-collapse: collapse;
 }
 
 .fcir-register th,
 .fcir-register td {
   vertical-align: top;
+  white-space: normal;
+}
+
+.fcir-register .fcir-col-id {
+  white-space: nowrap;
+}
+
+.fcir-register .fcir-col-ids {
+  min-width: 22rem;
+}
+
+.fcir-register tr:target {
+  background: var(--ifm-color-emphasis-200);
+  outline: 2px solid var(--ifm-color-primary);
 }
 
 .fcir-register .fcir-label {
   display: block;
   font-weight: 700;
-  margin-bottom: 0.25rem;
+  margin: 0.35rem 0 0.15rem;
+}
+
+.fcir-register .fcir-label:first-child {
+  margin-top: 0;
+}
+
+.fcir-id-block {
+  margin: 0 0 0.55rem;
+}
+
+.fcir-id-block:last-child {
+  margin-bottom: 0;
+}
+
+.fcir-id-line {
+  display: block;
+  margin-top: 0.15rem;
+}
+
+.fcir-tech-note {
+  margin: 0.75rem 0;
 }
 
 .fcir-case {

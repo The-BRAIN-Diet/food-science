@@ -73,7 +73,7 @@ These fields form the **standard database compositional panel** when that repres
 
 ### Omega‑3 identity rules
 
-Ninety-six food pages once published an amino acid as an omega‑3, because `ala_mg` had been filled from any field whose name resembled "ALA". These rules exist so that cannot recur. Public cases are recorded in `docs/dietary-foundations/nutrient-effects/food-composition-interpretation-register.md`, generated from the canonical dataset `src/data/fcir-register.json`. Food pages link to the relevant case only; they do not reproduce the calculation.
+Ninety-six food pages once published an amino acid as an omega‑3, because `ala_mg` had been filled from any field whose name resembled "ALA". These rules exist so that cannot recur. Public cases are recorded in `docs/dietary-foundations/nutrient-effects/food-composition-interpretation-register.md`, generated from the canonical dataset `src/data/fcir-register.json`. The Case ID is a workflow identifier only; each case also records typed food, substance and source identifiers. Food pages link to the relevant case only; they do not reproduce the calculation.
 
 **ALA is alpha-linolenic acid, 18:3 n-3, and nothing else.**
 
