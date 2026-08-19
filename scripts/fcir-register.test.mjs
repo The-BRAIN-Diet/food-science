@@ -74,12 +74,37 @@ test("the FCIR is one continuous register table, each case ID once, with row anc
   }
 })
 
-test("FCIR table columns shrink to content instead of a forced minimum width", () => {
+test("the FCIR page uses a page-specific full-width layout, not a global container change", () => {
+  const register = loadFcirRegister(ROOT)
+  const page = matter(fs.readFileSync(path.join(ROOT, register.public_doc), "utf8"))
+  const css = fs.readFileSync(path.join(ROOT, "src/css/custom.css"), "utf8")
+  const layout = fs.readFileSync(path.join(ROOT, "src/theme/DocRoot/Layout/index.tsx"), "utf8")
+  const rootBlock = css.match(/:root \{[\s\S]*?\n\}/)?.[0] || ""
+  assert.equal(page.data.hide_table_of_contents, true)
+  assert.match(layout, /fcir-dashboard-page/)
+  assert.match(layout, /food-composition-interpretation-register/)
+  assert.match(css, /html\[class\*="docs-doc-id-"\]\[class\*="food-composition-interpretation-register"\]/)
+  assert.match(css, /\.fcir-dashboard-page \.theme-doc-sidebar-container/)
+  assert.match(css, /html\[class\*="docs-doc-id-"\]\[class\*="food-composition-interpretation-register"\] main/)
+  assert.match(css, /html\[class\*="docs-doc-id-"\]\[class\*="food-composition-interpretation-register"\] main \.container/)
+  assert.doesNotMatch(rootBlock, /--ifm-container-width/)
+  assert.doesNotMatch(css, /\.navbar\s*\{[^}]*display:\s*none/)
+  assert.doesNotMatch(css, /(?:^|\n)\.theme-doc-sidebar-container \{/)
+})
+
+test("FCIR table columns use the public pixel widths", () => {
   const css = fs.readFileSync(path.join(ROOT, "src/css/custom.css"), "utf8")
   assert.doesNotMatch(css, /min-width:\s*124rem/)
-  assert.match(css, /width:\s*auto/)
-  assert.match(css, /\.fcir-col-status/)
-  assert.match(css, /width:\s*1%/)
+  assert.match(css, /table-layout:\s*fixed/)
+  assert.match(css, /\.fcir-col-id \{\s*width: 90px;/)
+  assert.match(css, /\.fcir-col-food \{\s*width: 180px;/)
+  assert.match(css, /\.fcir-col-issue \{\s*width: 220px;/)
+  assert.match(css, /\.fcir-col-unii \{\s*width: 260px;/)
+  assert.match(css, /\.fcir-col-ids \{\s*width: 350px;/)
+  assert.match(css, /\.fcir-col-problem \{\s*width: 240px;/)
+  assert.match(css, /\.fcir-col-decision \{\s*width: 340px;/)
+  assert.match(css, /\.fcir-col-evidence \{\s*width: 320px;/)
+  assert.match(css, /\.fcir-col-status \{\s*width: 100px;/)
 })
 
 function markdownHrefs(text) {

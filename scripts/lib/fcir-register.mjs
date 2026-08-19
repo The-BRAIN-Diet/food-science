@@ -402,8 +402,12 @@ const FCIR_TABLE_COLUMNS = [
 ]
 
 function renderTableHeader() {
+  const cols = FCIR_TABLE_COLUMNS.map((col) => `<col className="${col.className}" />`).join("\n")
   const cells = FCIR_TABLE_COLUMNS.map((col) => `<th className="${col.className}">${col.header}</th>`).join("\n")
-  return `<thead>
+  return `<colgroup>
+${cols}
+</colgroup>
+<thead>
 <tr>
 ${cells}
 </tr>

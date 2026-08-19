@@ -1049,6 +1049,47 @@
   scroll-margin-top: calc(var(--ifm-navbar-height, 80px) + 12px);
 }
 
+/*
+ * FCIR dashboard layout — this page only.
+ * Docusaurus puts docs-doc-id-…/food-composition-interpretation-register on <html>.
+ * Keep the global navbar. Hide the docs sidebar and Infima container cap.
+ * Do not change :root --ifm-container-width; other docs stay at the readable measure.
+ */
+html[class*="docs-doc-id-"][class*="food-composition-interpretation-register"] .theme-doc-sidebar-container,
+.fcir-dashboard-page .theme-doc-sidebar-container {
+  display: none;
+}
+
+html[class*="docs-doc-id-"][class*="food-composition-interpretation-register"] .theme-doc-toc-desktop,
+html[class*="docs-doc-id-"][class*="food-composition-interpretation-register"] .theme-doc-toc-mobile,
+.fcir-dashboard-page .theme-doc-toc-desktop,
+.fcir-dashboard-page .theme-doc-toc-mobile {
+  display: none;
+}
+
+html[class*="docs-doc-id-"][class*="food-composition-interpretation-register"] main,
+.fcir-dashboard-page main {
+  max-width: 100% !important;
+}
+
+html[class*="docs-doc-id-"][class*="food-composition-interpretation-register"] main .container,
+.fcir-dashboard-page main .container {
+  max-width: none;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+html[class*="docs-doc-id-"][class*="food-composition-interpretation-register"] main .container > .row > .col,
+.fcir-dashboard-page main .container > .row > .col {
+  max-width: 100% !important;
+  flex: 0 0 100%;
+}
+
+.fcir-dashboard-page {
+  display: contents;
+}
+
 .fcir-register {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -1069,40 +1110,55 @@
 .fcir-register table,
 .fcir-register .fcir-table {
   font-size: 0.88rem;
-  width: auto;
-  min-width: 0;
-  table-layout: auto;
+  width: 2100px;
+  min-width: 2100px;
+  table-layout: fixed;
   border-collapse: collapse;
 }
 
 .fcir-register th,
 .fcir-register td {
+  box-sizing: border-box;
   vertical-align: top;
   white-space: normal;
   overflow-wrap: break-word;
   word-break: break-word;
-  max-width: 11.5rem;
 }
 
-.fcir-register .fcir-col-id,
-.fcir-register .fcir-col-status {
-  width: 1%;
-  max-width: none;
-  white-space: nowrap;
-  overflow-wrap: normal;
-  word-break: normal;
+.fcir-register .fcir-col-id {
+  width: 90px;
 }
 
-.fcir-register .fcir-col-food,
+.fcir-register .fcir-col-food {
+  width: 180px;
+}
+
 .fcir-register .fcir-col-issue {
-  max-width: 9.5rem;
+  width: 220px;
 }
 
-.fcir-register .fcir-col-unii,
-.fcir-register .fcir-col-ids,
-.fcir-register .fcir-col-decision,
+.fcir-register .fcir-col-unii {
+  width: 260px;
+}
+
+.fcir-register .fcir-col-ids {
+  width: 350px;
+}
+
+.fcir-register .fcir-col-problem {
+  width: 240px;
+}
+
+.fcir-register .fcir-col-decision {
+  width: 340px;
+}
+
 .fcir-register .fcir-col-evidence {
-  max-width: 13rem;
+  width: 320px;
+}
+
+.fcir-register .fcir-col-status {
+  width: 100px;
 }
 
 .fcir-gsrs-role {
