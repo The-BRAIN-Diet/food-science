@@ -31,7 +31,8 @@ More pages of relevance will come on line continually.
 ### Nutrient Effects
 
 - [Whole Grains &amp; Glycaemic Stability](/docs/dietary-foundations/nutrient-effects/whole-grains-glycaemic-stability)
-- Dietary Fat &amp; Metabolic Signalling *(coming soon)*
+- [Dietary Fat &amp; Metabolic Signalling](/docs/dietary-foundations/nutrient-effects/dietary-fat-metabolic-signalling)
+- [The Food Composition Interpretation Register (FCIR)](/docs/dietary-foundations/nutrient-effects/food-composition-interpretation-register)
 
 ## Purpose of the Dietary Foundations Section
 

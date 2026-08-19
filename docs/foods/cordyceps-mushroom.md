@@ -1,5 +1,7 @@
 ---
 id: cordyceps-mushroom
+fcir_cases:
+  - FCIR-016
 title: Cordyceps Mushroom
 sidebar_label: Cordyceps Mushroom
 description: >-

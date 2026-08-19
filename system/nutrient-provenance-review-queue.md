@@ -4,7 +4,7 @@ Pages whose published values were withdrawn because their identity or their prov
 
 A page leaves this queue when a **named analytical record for that food** supplies the value, with the source's own nutrient identifier stating the compound. It does not leave by approximation, by a neighbouring food, or by a plausible literature range.
 
-Opened by the ALA/omega-3 repair. Rules are in `system/food-nutrition-schema.md`.
+Opened by the ALA/omega-3 repair. Rules are in `system/food-nutrition-schema.md`. Public ledger of the same cases: `docs/dietary-foundations/nutrient-effects/food-composition-interpretation-register.md`.
 
 ---
 
@@ -38,27 +38,47 @@ Resolution needs a species-specific analysis of *Cyclopterus lumpus* roe, or a n
 
 ---
 
-### C. Chemically unresolved 18:3 — 83 pages
+### C. Chemically unresolved 18:3
 
-These pages hold a real, measured 18:3 value under `pufa_18_3_unresolved_mg`, because their record reports USDA nutrient 1270, an 18:3 with **no isomer stated**. The value is retained internally and published nowhere.
+These pages hold a real, USDA-reported 18:3 value under `pufa_18_3_unresolved_mg`, because their record reports USDA nutrient 1270, an 18:3 with **no isomer stated**. The value is retained internally and published nowhere.
 
-This is the largest group and includes the foods a reader would most expect to see ALA on:
+This is not a bulk 1270 → ALA promotion. Combined provenance is food-specific. Extraction never writes `ala_mg` from 1270.
 
-| Page | Unresolved 18:3 (mg/100 g) |
-| --- | --- |
-| `flax-seeds` | 22813 |
-| `walnuts` | 9080 |
-| `ghee` | 1447 |
-| `soy` | 1330 |
-| `avocado-oil` | 957 |
+**Left this group by combined provenance**
 
-They are **not** errors. Flaxseed's 22.8 g/100 g is almost certainly alpha-linolenic acid, and a later record stating the isomer will very likely confirm it. But "almost certainly" is an inference from the food's reputation, not a measurement of the sample, and this repair exists because inference was previously allowed to fill a chemical identity.
+| Page | Published ALA* | Quantity (1270) | Identity |
+| --- | --- | --- | --- |
+| `flax-seeds` | 22.8 g | FDC 169414, 22,813 mg | Foundation FDC 2262075 nutrient 1404 plus Ribeiro 2013 / Gómez-Cortés 2016 |
+| `walnuts` | 9.08 g | FDC 170187, 9,080 mg | Kafkas 2017; Yoshinaga-Kiriake 2022. Foundation 2346394 has no 1404 |
+| `soy` | 1.33 g | FDC 174270, 1,330 mg | Soybean oil FDC 171411 nutrient 1404 (GLA 1321 = 0) |
+| `natto` | 0.734 g | FDC 172443, 734 mg | Same oil record |
+| `tofu` | 0.582 g | FDC 172475, 582 mg | Same oil record |
+| `miso` | 0.405 g | FDC 172442, 405 mg | Same oil record |
+| `tempeh` | 0.248 g | FDC 174272, 248 mg | Same oil record; fat share is ~2.3%, not ~6.8% |
 
-Resolution is a source that states the isomer — a Foundation Foods record, or a named analytical panel — not a decision about which isomer is likely.
+**Must not be closed as ALA**
 
-**Walnuts and flaxseed are prioritised** for an authoritative supplementary source, because they are the two foods a reader is most likely to consult for ALA and the two whose values are most likely to be confirmed. Tracked in `system/specialist-composition-review-queue.md`.
+| Page | Unresolved 18:3 (mg/100 g) | Why |
+| --- | --- | --- |
+| `spirulina` | 823 | Inverse flax case: cyanobacterial 18:3 is GLA, not ALA. FDC 170495 has no 1404 or 1321. Not published as GLA either. |
+| `avocado-oil` | 957 | Fernandes 2018 says "linolenic (C18:3)". Avocado fruit FDC 171705 carries both 1404 (0.111 g) and 1321 (0.015 g). |
+| `ghee` | 1447 | Ruminant 18:3. Butter on this site already publishes ALA from 1404 (0.315 g) while the same butter record's 1270 is 1.18 g. Ghee FDC 173412 has 1270 only. |
+| `lamb`, `milk`, `parmesan-cheese` | 420 / 75 / 297 | Foundation cheeses report both 1404 and 1321. Dairy 18:3 is not a single isomer. |
+| `fermented-hot-sauce`, `fermented-vegetables` | 534 | Cite fuyu tofu (FDC 174280). Wrong food for the page; 18:3 is not closed on a substituted panel. |
+| `sunflower-seeds` | 60 | Foundation dry-roasted kernels report both 1404 (0.059 g) and 1321 (0.002 g). |
 
-**Identity for both is now established** by analytical literature — Ribeiro et al. 2013 for flaxseed and Kafkas et al. 2017 for walnuts — and each page carries a qualitative `ala_identity_qual` row citing it, which also gives the `ALA` Substances card the supported row it had been missing. The quantity is still unresolved: both papers report percentages of total fatty acids in regional cultivars, not milligrams per 100 g, so `pufa_18_3_unresolved_mg` stands. Detail and the remaining options are in `system/specialist-composition-review-queue.md`.
+**Still unresolved — no exact-food 1404 and no accepted identity paper**
+
+A Foundation search of the 25 foods ≥200 mg unresolved 18:3 found no exact-food nutrient 1404 hits that could close the rest. SR Legacy records for those pages also lack 1404. Highest remaining include saffron (1242), sage (1230), wheat-germ (723), kale (378), sesame-seeds (376), tahini (407), lupins (446), pistachios (289). Marine pages already publish EPA/DHA; their leftover 18:3 stays unresolved. Detail: `system/seed-fatty-acid-evidence.md`.
+
+Resolution remains a named 1404 (or equivalent) for that food, or a documented combined-provenance interpretation under `system/food-nutrition-schema.md`.
+
+**Eleven candidate papers were then assessed one at a time** against a written acceptance rule, and the results are registered in `system/seed-fatty-acid-evidence.md` with rejections included. Four bear on this section:
+
+- **Flaxseed is resolved.** Combined provenance on `docs/foods/flax-seeds.md`: 22.8 g ALA* from SR Legacy 169414 nutrient 1270, interpreted as 18:3 n-3. Foundation **FDC 2262075**, *Flaxseed, ground*, reports nutrient **1404** at 19.42 g/100 g from eight analytical samples, with ALA 57.2 per cent of total fatty acids against 57.1 per cent in SR Legacy 169414. That is USDA agreeing with itself on the proportion. The Foundation quantity is not published, because it is ground seed at a different fat content.
+- **Walnuts are resolved by the same rule.** Identity from Kafkas plus Yoshinaga-Kiriake et al. 2022; quantity is this SR Legacy 9,080 mg, not Yoshinaga-Kiriake's derived 7,068 mg. Foundation **FDC 2346394** still has no 1404.
+- **One overstatement was corrected.** The flax page and its bibliography entry claimed Ribeiro found no gamma-linolenic acid among the acids present. Ribeiro did not measure 18:3 n-6 and states nothing about its absence. The evidence that flax carries little is Gómez-Cortés et al. 2016, which ran authentic n-3 and n-6 standards and found GLA at 0.02 g/100 g of methyl esters — together with measurable geometric isomers of ALA itself, so flax 18:3 is overwhelmingly but not exclusively alpha-linolenic acid.
+- **Two of the candidates failed the rule**, which is why it is written down. Dogan & Akgül 2005 carries "18:3 n-3" only as background in its introduction while its own results and tables say bare `C18:3`, on a packed column that could not have separated the isomers with no standard named. Poggetti et al. 2018 never resolves the isomer anywhere across 189 walnut accessions, and is retained only as an oil-content denominator. Fernandes et al. 2018 fails the same naming test for avocado oil.
 
 ---
 

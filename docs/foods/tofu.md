@@ -1,5 +1,7 @@
 ---
 id: tofu
+fcir_cases:
+  - FCIR-018
 title: Tofu
 sidebar_label: Tofu
 description: Soy-based protein source with isoflavones and choline
@@ -46,7 +48,14 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.092
   linoleic_g: 4.339
   selenium_ug: 17.4
-  pufa_18_3_unresolved_mg: 582
+  ala_mg: 582
+  omega3_mg: 582
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA; USDA 1270 interpreted)
+    amount_mg: 582
+public_display:
+  ala_mg: internal-only
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Tofu, raw, firm, prepared with calcium sulfate'
@@ -54,10 +63,20 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+  limitations: Unqualified 18:3 on this record is documented in FCIR-018.
 main_image: /img/foods/tofu/tofu_medium.webp
 legacy_list_image: /img/foods/tofu/tofu_thumb.webp
 legacy_main_image: /img/foods/tofu/tofu_medium.webp
 nutrition_supplementary_sources:
+  - key: ala_interpreted
+    label: Alpha-linolenic acid (ALA; 18:3 n-3)
+    value: 0.582
+    unit: g
+    notes: USDA 18:3 quantity; isomer from USDA soybean oil nutrient 1404
+    public_display: table
+    exclude_from_recipe_sum: true
+    fcir_case: FCIR-018
+    source_note: This value uses a documented composition interpretation. See FCIR-018.
   - key: genistein_qual
     label: Genistein
     status: Present — quantity not established

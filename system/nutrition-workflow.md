@@ -72,6 +72,8 @@ Use the first class that can describe **this** food, and say which was used:
 
 Never infer a value from a related food at any level of this list. Where the class carries limits — label rounding, one brand's ratio, a regulatory minimum rather than a measured average — record them in `nutrition_source.limitations` so the reader is not given more precision than exists. Outstanding cases are tracked in `system/specialist-composition-review-queue.md` and `system/nutrient-provenance-review-queue.md`.
 
+**Class 3 needs reading, not citing.** A paper on the right food may still fail to establish what it is being cited for, and the failure modes recur: an isomer named in the introduction but not in the results; a percentage with no denominator published anywhere in the paper; a basis of *per cent of methyl esters* silently read as *per cent of oil*; author lists and journal titles that Crossref has corrupted. Verify the claim against the paper's own text and record what it does **not** establish alongside what it does. Assessments already made, with their rejections, are in `system/seed-fatty-acid-evidence.md`; the identity and derivation rules they follow are in `system/food-nutrition-schema.md`.
+
 ---
 
 ## Script B — Overview-driven enrichment (curated lookup)

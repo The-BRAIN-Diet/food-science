@@ -1,5 +1,7 @@
 ---
 id: reishi-mushroom
+fcir_cases:
+  - FCIR-014
 title: Reishi Mushroom
 sidebar_label: Reishi Mushroom
 description: >-

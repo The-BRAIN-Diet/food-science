@@ -49,6 +49,8 @@ import {
 import {NUTRIENT_LABELS} from "./lib/food-truth-levels.mjs"
 import {SUBSTITUTED_RECORDS, checkExactFoodMatch} from "./lib/composition-provenance.mjs"
 import {RECIPE_COMPOSITION_SNAPSHOTS} from "../src/data/recipeCompositionSnapshots.mjs"
+import {extractNutrients} from "./lib/usda-nutrient-extract.mjs"
+import {reconcileFoodPage} from "./lib/food-truth-reconciliation.mjs"
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
 const FOODS_DIR = path.join(ROOT, "docs/foods")
@@ -142,6 +144,22 @@ test("composite mixed seeds are 3 g each, not one full portion per seed", () => 
   const chiaPer100 = foodDocs.find((d) => d.frontMatter.id === "chia-seeds").frontMatter.nutrition_per_100g.kcal
   assert.ok(Math.abs(chiaKcal - chiaPer100 * 0.03) < 1e-9)
   assert.ok(chiaKcal < chiaPer100 * 0.5)
+  const flaxAla = seedRows.find((r) => r.food === "Flax Seeds").contributions.ala_mg
+  assert.ok(Math.abs(flaxAla - 22813 * 0.03) < 1e-6, "recipes consume flax's interpreted ALA")
+  const flaxRow = seedRows.find((r) => r.food === "Flax Seeds")
+  assert.equal(
+    (flaxRow.supplementaryNumeric || []).length,
+    0,
+    "the asterisked 22.8 g row must not be summed on top of ala_mg",
+  )
+  const walnutRow = result.audit.find((row) => row.food === "Walnuts")
+  assert.ok(walnutRow)
+  assert.ok(Math.abs(walnutRow.contributions.ala_mg - 9080 * 0.073125) < 1e-6, "recipes consume walnut's interpreted ALA")
+  assert.equal(
+    (walnutRow.supplementaryNumeric || []).length,
+    0,
+    "the asterisked 9.08 g row must not be summed on top of ala_mg",
+  )
 })
 
 test("missing nutrient data is not treated as analytical zero", () => {
@@ -557,20 +575,23 @@ test("flax and walnuts lost their alanine-sized ALA; chia's real value survived"
   /*
    * Flax and walnuts are the foods a reader would expect to be highest in ALA,
    * which is what made their corruption hard to see: 925 mg and 696 mg look
-   * unremarkable for a seed and a nut. Both were the record's alanine. Neither
-   * record states an 18:3 isomer, so neither page may claim ALA at all.
+   * unremarkable for a seed and a nut. Both were the record's alanine.
+   * Flax later received a combined-provenance ALA from the record's 18:3, not
+   * from that amino acid. Walnuts follow the same pattern.
    */
   const flax = panel("Flax Seeds")
-  assert.equal(flax.values.ala_mg, undefined, "flax reports no ALA")
+  assert.equal(flax.values.ala_mg, 22813, "flax ALA is USDA's 18:3 quantity, interpreted")
   assert.notEqual(flax.values.ala_mg, 925, "the 925 mg figure was alanine")
-  assert.equal(flax.values.omega3_mg, undefined, "no n-3 total derives from a suppressed value")
-  assert.equal(flax.values.pufa_18_3_unresolved_mg, 22813, "the record's 18:3 is kept, unresolved")
+  assert.equal(flax.values.pufa_18_3_unresolved_mg, undefined, "the 18:3 is no longer unresolved")
+  assert.equal(flax.values.omega3_mg, 22813)
+  assert.deepEqual(flax.components.map((c) => c.nutrient), ["ala_mg"])
 
   const walnuts = panel("Walnuts")
-  assert.equal(walnuts.values.ala_mg, undefined, "walnuts report no ALA")
+  assert.equal(walnuts.values.ala_mg, 9080, "walnut ALA is USDA's 18:3 quantity, interpreted")
   assert.notEqual(walnuts.values.ala_mg, 696, "the 696 mg figure was alanine")
-  assert.equal(walnuts.values.omega3_mg, undefined)
-  assert.equal(walnuts.values.pufa_18_3_unresolved_mg, 9080)
+  assert.equal(walnuts.values.pufa_18_3_unresolved_mg, undefined)
+  assert.equal(walnuts.values.omega3_mg, 9080)
+  assert.deepEqual(walnuts.components.map((c) => c.nutrient), ["ala_mg"])
 
   // Chia's record states 18:3 n-3 outright, so the value is real and stays.
   const chia = panel("Chia Seeds")
@@ -579,42 +600,144 @@ test("flax and walnuts lost their alanine-sized ALA; chia's real value survived"
   assert.equal(chia.values.omega3_mg, 17830)
 })
 
-test("literature resolves the flax and walnut isomer without inventing a quantity", () => {
-  /*
-   * Neither USDA record carries an explicit 18:3 n-3 field, so the isomer comes
-   * from analytical literature instead. Identity and quantity are separable:
-   * the papers report percentages of total fatty acids in regional cultivars,
-   * which cannot become milligrams of the food USDA sampled without multiplying
-   * one source's ratio by another's fat figure.
-   */
-  const cases = [
-    {title: "Flax Seeds", slug: "flax-seeds", unresolved: 22813, key: "ribeiro_flax_fatty_acids_2013"},
-    {title: "Walnuts", slug: "walnuts", unresolved: 9080, key: "kafkas_walnut_fatty_acids_2017"},
+test("flax publishes USDA 18:3 as ALA under combined provenance", () => {
+  const doc = foodDocs.find((d) => d.title === "Flax Seeds")
+  const page = fs.readFileSync(path.join(ROOT, "docs/foods/flax-seeds.md"), "utf8")
+  const fm = doc.frontMatter
+  const row = (fm.nutrition_supplementary_sources || []).find((r) => r.key === "ala_interpreted")
+
+  assert.ok(row, "flax states no combined-provenance ALA row")
+  assert.equal(row.label, "Alpha-linolenic acid (ALA; 18:3 n-3)")
+  assert.equal(row.value, 22.8)
+  assert.equal(row.unit, "g")
+  assert.equal(row.source_note, "This value uses a documented composition interpretation. See FCIR-003.")
+  assert.equal(row.fcir_case, "FCIR-003")
+  assert.equal(row.exclude_from_recipe_sum, true)
+  assert.equal(row.public_display, "table")
+  assert.equal(fm.public_display?.ala_mg, "internal-only", "the mg panel value must not render twice")
+
+  assert.equal(fm.nutrition_per_100g.ala_mg, 22813)
+  assert.equal(fm.nutrition_per_100g.omega3_mg, 22813)
+  assert.match(fm.omega3_components[0].identity, /n-3/)
+  assert.match(fm.omega3_components[0].identity, /interpreted/)
+  assert.match(String(fm.nutrition_source.limitations), /FCIR-003/)
+  assert.deepEqual(fm.fcir_cases, ["FCIR-003"])
+})
+
+test("flax ALA is a food-level interpretation of USDA 1270, not an extractor promotion", () => {
+  const extractor = fs.readFileSync(path.join(ROOT, "scripts/lib/usda-nutrient-extract.mjs"), "utf8")
+  assert.doesNotMatch(extractor, /flax|hemp|walnut/i, "extraction has no food-name 1270 exception")
+
+  const extracted = extractNutrients({
+    description: "Seeds, flaxseed",
+    foodNutrients: [{nutrient: {id: 1270, name: "PUFA 18:3", unitName: "g"}, amount: 22.813}],
+  })
+  assert.equal(extracted.ala_mg, undefined, "nutrient 1270 remains generically unresolved in the extractor")
+  assert.equal(extracted.pufa_18_3_unresolved_mg, 22813)
+
+  const hempExtracted = extractNutrients({
+    description: "Seeds, hemp seed, hulled",
+    foodNutrients: [{nutrient: {id: 1270, name: "PUFA 18:3", unitName: "g"}, amount: 20.17}],
+  })
+  assert.equal(hempExtracted.ala_mg, undefined, "hemp cannot inherit flax's page-level interpretation")
+  assert.equal(
+    fs.existsSync(path.join(FOODS_DIR, "hemp-seeds.md")) || fs.existsSync(path.join(FOODS_DIR, "hemp.md")),
+    false,
+    "there is no hemp page that could copy the flax exception",
+  )
+
+  const flaxDoc = foodDocs.find((d) => d.frontMatter.id === "flax-seeds")
+  const flaxFm = flaxDoc.frontMatter
+  const isomerRow = (flaxFm.nutrition_supplementary_sources || []).find((r) => r.key === "ala_interpreted")
+  assert.ok(isomerRow, "flax publishes 22.8 g ALA only because supplementary provenance identifies the isomer")
+  assert.equal(isomerRow.value, 22.8)
+  assert.equal(isomerRow.public_display, "table")
+  assert.equal(isomerRow.source_note, "This value uses a documented composition interpretation. See FCIR-003.")
+  assert.equal(flaxFm.public_display?.ala_mg, "internal-only")
+  assert.ok((flaxFm.tags || []).includes("ALA"))
+
+  const intact = reconcileFoodPage(flaxFm, {substanceLookup: [], markdownBody: ""})
+  assert.equal(
+    intact.substancesMissingFromTables.some((tag) => /ALA|alpha-linolenic/i.test(tag)),
+    false,
+    "with the isomer source present, the ALA card reconciles",
+  )
+
+  const withoutIsomer = structuredClone(flaxFm)
+  withoutIsomer.nutrition_supplementary_sources = (withoutIsomer.nutrition_supplementary_sources || []).filter(
+    (r) => r.key !== "ala_interpreted",
+  )
+  const broken = reconcileFoodPage(withoutIsomer, {substanceLookup: [], markdownBody: ""})
+  assert.ok(
+    broken.substancesMissingFromTables.some((tag) => /ALA|alpha-linolenic/i.test(tag)),
+    "removing the supporting isomer source makes the ALA card fail reconciliation",
+  )
+
+  const bowlResult = calculateRecipeNutrition(bowl.data, foodDocs)
+  const flaxAudit = bowlResult.audit.find((row) => row.food === "Flax Seeds")
+  assert.ok(Math.abs(flaxAudit.contributions.ala_mg - 22813 * 0.03) < 1e-6, "recipes receive 22,813 mg/100 g internally")
+  assert.equal(
+    (flaxAudit.supplementaryNumeric || []).length,
+    0,
+    "the public 22.8 g row is not duplicated on top of ala_mg",
+  )
+})
+
+test("walnut publishes USDA 18:3 as ALA under combined provenance", () => {
+  const doc = foodDocs.find((d) => d.title === "Walnuts")
+  const page = fs.readFileSync(path.join(ROOT, "docs/foods/walnuts.md"), "utf8")
+  const fm = doc.frontMatter
+  const row = (fm.nutrition_supplementary_sources || []).find((r) => r.key === "ala_interpreted")
+
+  assert.ok(row, "walnuts states no combined-provenance ALA row")
+  assert.equal(row.label, "Alpha-linolenic acid (ALA; 18:3 n-3)")
+  assert.equal(row.value, 9.08)
+  assert.equal(row.unit, "g")
+  assert.equal(row.source_note, "This value uses a documented composition interpretation. See FCIR-004.")
+  assert.equal(row.fcir_case, "FCIR-004")
+  assert.equal(row.exclude_from_recipe_sum, true)
+  assert.equal(row.public_display, "table")
+  assert.equal(fm.public_display?.ala_mg, "internal-only")
+  assert.equal(fm.nutrition_per_100g.ala_mg, 9080)
+  assert.equal(fm.nutrition_per_100g.omega3_mg, 9080)
+  assert.match(fm.omega3_components[0].identity, /interpreted/)
+  assert.deepEqual(fm.fcir_cases, ["FCIR-004"])
+})
+
+test("soy cluster publishes USDA 18:3 as ALA from soybean-oil 1404, not the oil quantity", () => {
+  const expected = [
+    {title: "Soy", ala: 1330, display: 1.33, fdc: "174270"},
+    {title: "Tofu", ala: 582, display: 0.582, fdc: "172475"},
+    {title: "Natto", ala: 734, display: 0.734, fdc: "172443"},
+    {title: "Miso", ala: 405, display: 0.405, fdc: "172442"},
+    {title: "Tempeh", ala: 248, display: 0.248, fdc: "174272"},
   ]
-
-  const bib = fs.readFileSync(path.join(ROOT, "static/bibtex/BRAIN-diet.bib"), "utf8")
-
-  for (const {title, slug, unresolved, key} of cases) {
-    const doc = foodDocs.find((d) => d.title === title)
-    const page = fs.readFileSync(path.join(ROOT, "docs/foods", `${slug}.md`), "utf8")
-    const row = (doc.frontMatter.nutrition_supplementary_sources || []).find(
-      (r) => r.key === "ala_identity_qual",
-    )
-
-    assert.ok(row, `${title} states no ALA identity row`)
-    assert.equal(row.label, "Alpha-linolenic acid (ALA; 18:3 n-3)")
-    assert.equal(row.value, undefined, `${title} publishes an ALA quantity no source measured`)
-    assert.match(row.status, /not established/i)
-
-    // The quantity stays where the measurement actually is.
-    assert.equal(doc.frontMatter.nutrition_per_100g.ala_mg, undefined)
-    assert.equal(doc.frontMatter.nutrition_per_100g.pufa_18_3_unresolved_mg, unresolved)
-    assert.equal(doc.frontMatter.nutrition_per_100g.omega3_mg, undefined)
-
-    // The page names the paper, and the paper resolves in the bibliography.
-    assert.match(page, new RegExp(`BRAIN-Diet-References#${key}`), `${title} cites no paper`)
-    assert.match(bib, new RegExp(`@article\\{${key},`), `${key} is missing from the bibliography`)
+  for (const row of expected) {
+    const doc = foodDocs.find((d) => d.title === row.title)
+    assert.ok(doc, row.title)
+    const fm = doc.frontMatter
+    const supp = (fm.nutrition_supplementary_sources || []).find((r) => r.key === "ala_interpreted")
+    assert.ok(supp, `${row.title} states no combined-provenance ALA row`)
+    assert.equal(supp.value, row.display, row.title)
+    assert.equal(supp.unit, "g")
+    assert.equal(supp.source_note, `This value uses a documented composition interpretation. See ${row.title === "Soy" ? "FCIR-007" : "FCIR-018"}.`)
+    assert.equal(supp.exclude_from_recipe_sum, true)
+    assert.equal(fm.nutrition_per_100g.ala_mg, row.ala, row.title)
+    assert.equal(fm.nutrition_per_100g.pufa_18_3_unresolved_mg, undefined, row.title)
+    assert.equal(fm.public_display?.ala_mg, "internal-only", row.title)
+    assert.equal(String(fm.nutrition_source.fdc_id), row.fdc, row.title)
+    assert.notEqual(fm.nutrition_per_100g.ala_mg, 6789, `${row.title} must not inherit soybean-oil milligrams`)
   }
+})
+
+test("spirulina 18:3 is not promoted to ALA", () => {
+  const doc = foodDocs.find((d) => d.title === "Spirulina")
+  const fm = doc.frontMatter
+  assert.equal(fm.nutrition_per_100g.ala_mg, undefined)
+  assert.equal(fm.nutrition_per_100g.pufa_18_3_unresolved_mg, 823)
+  assert.deepEqual(fm.fcir_cases, ["FCIR-019"])
+  assert.match(String(fm.nutrition_source.limitations), /FCIR-019/)
+  assert.equal(fm.nutrition_source.fdc_id, 170495)
 })
 
 test("an unqualified 18:3 stays chemically unresolved and reaches nothing", () => {

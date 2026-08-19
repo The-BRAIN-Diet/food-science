@@ -1,5 +1,7 @@
 ---
 id: flax-seeds
+fcir_cases:
+  - FCIR-003
 title: Flax Seeds
 sidebar_label: Flax Seeds
 description: ALA omega-3 and soluble fiber source
@@ -44,7 +46,14 @@ nutrition_per_100g:
   kcal: 534
   choline_mg: 78.7
   sat_fat_g: 3.663
-  pufa_18_3_unresolved_mg: 22813
+  ala_mg: 22813
+  omega3_mg: 22813
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA; USDA 1270 interpreted)
+    amount_mg: 22813
+public_display:
+  ala_mg: internal-only
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Seeds, flaxseed'
@@ -52,24 +61,17 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+  limitations: Unqualified 18:3 on this record is documented in FCIR-003.
 nutrition_supplementary_sources:
-  - key: ala_identity_qual
+  - key: ala_interpreted
     label: Alpha-linolenic acid (ALA; 18:3 n-3)
-    status: Present — quantity not established
-    amount_display: Present — quantity not established
-    source_note: >-
-      Identity established, quantity not. USDA SR Legacy (FDC 169414) measures
-      22,813 mg of 18:3 per 100 g from seven data points but records it under
-      the unqualified nutrient 1270, which states chain length and double bonds
-      without naming the isomer; the record carries no explicit 18:3 n-3 field.
-      Ribeiro et al. (2013) resolve the identity: across 78 yellow and brown
-      flax seed samples, GC–MS against authentic primary standards identified
-      the 18:3 as alpha-linolenic acid, at 47.1–48.7% of total fatty acids in
-      whole seeds, with no gamma-linolenic (18:3 n-6) among the acids found.
-      Those percentages describe Brazilian cultivars relative to total fatty
-      acids, so they are not converted to a per-100 g figure here and USDA's
-      22,813 mg remains recorded as chemically unresolved 18:3. An explicit
-      18:3 n-3 measurement of this food would settle the quantity.
+    value: 22.8
+    unit: g
+    notes: USDA 18:3 quantity; isomer from flax-specific literature
+    public_display: table
+    exclude_from_recipe_sum: true
+    fcir_case: FCIR-003
+    source_note: This value uses a documented composition interpretation. See FCIR-003.
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
 main_image: /img/foods/flax-seeds/flax-seeds_medium.webp
@@ -123,4 +125,3 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 [2] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
 
-[3] Gas chromatography–mass spectrometry across 78 flax seed samples identified the seed's 18:3 as alpha-linolenic acid at 47.1–48.7% of total fatty acids, establishing the isomer that the USDA record leaves unqualified. Ribeiro et al. 2013. [Prediction of linolenic and linoleic fatty acids content in flax seeds and flax seeds flours through the use of infrared reflectance spectroscopy and multivariate calibration](/docs/papers/BRAIN-Diet-References#ribeiro_flax_fatty_acids_2013)

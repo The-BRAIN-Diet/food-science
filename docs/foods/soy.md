@@ -1,5 +1,7 @@
 ---
 id: soy
+fcir_cases:
+  - FCIR-007
 title: Soy
 sidebar_label: Soy
 description: Complete plant protein with isoflavones (genistein) and choline
@@ -50,7 +52,14 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.377
   vitamin_e_mg: 0.85
   selenium_ug: 17.8
-  pufa_18_3_unresolved_mg: 1330
+  ala_mg: 1330
+  omega3_mg: 1330
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA; USDA 1270 interpreted)
+    amount_mg: 1330
+public_display:
+  ala_mg: internal-only
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Soybeans, mature seeds, raw'
@@ -58,12 +67,22 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+  limitations: Unqualified 18:3 on this record is documented in FCIR-007.
 amino_acid_strengths: Relatively complete plant protein; good lysine and leucine.
 complementary_pairings: Grains or other legumes for variety and balance.
 main_image: /img/foods/soy/soy_large.webp
 legacy_list_image: /img/foods/soy/soy_thumb.webp
 legacy_main_image: /img/foods/soy/soy_large.webp
 nutrition_supplementary_sources:
+  - key: ala_interpreted
+    label: Alpha-linolenic acid (ALA; 18:3 n-3)
+    value: 1.33
+    unit: g
+    notes: USDA 18:3 quantity; isomer from USDA soybean oil nutrient 1404
+    public_display: table
+    exclude_from_recipe_sum: true
+    fcir_case: FCIR-007
+    source_note: This value uses a documented composition interpretation. See FCIR-007.
   - key: quercetin_qual
     label: Quercetin
     status: Present — quantity not established

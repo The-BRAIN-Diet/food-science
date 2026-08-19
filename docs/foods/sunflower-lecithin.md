@@ -1,5 +1,7 @@
 ---
 id: sunflower-lecithin
+fcir_cases:
+  - FCIR-011
 title: Sunflower Lecithin
 sidebar_label: Sunflower Lecithin
 description: Choline source alternative to soy lecithin

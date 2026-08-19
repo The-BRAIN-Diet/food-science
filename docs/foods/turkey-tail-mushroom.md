@@ -1,5 +1,7 @@
 ---
 id: turkey-tail-mushroom
+fcir_cases:
+  - FCIR-015
 title: Turkey Tail Mushroom
 sidebar_label: Turkey Tail Mushroom
 description: >-

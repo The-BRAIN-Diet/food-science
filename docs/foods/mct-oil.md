@@ -1,5 +1,7 @@
 ---
 id: mct-oil
+fcir_cases:
+  - FCIR-012
 title: MCT Oil
 sidebar_label: MCT Oil
 description: Concentrated medium-chain triglycerides for brain energy

@@ -1,5 +1,7 @@
 ---
 id: spirulina
+fcir_cases:
+  - FCIR-019
 title: Spirulina
 sidebar_label: Spirulina
 description: Algae with pseudovitamin B12 (inactive) but other beneficial compounds
@@ -49,6 +51,7 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+  limitations: Unqualified 18:3 on this record is not published as ALA. See FCIR-019.
 complementary_pairings: Grains and legumes for balanced essential amino acid profile.
 main_image: /img/foods/spirulina/spirulina_medium.webp
 legacy_list_image: /img/foods/spirulina/spirulina_thumb.webp

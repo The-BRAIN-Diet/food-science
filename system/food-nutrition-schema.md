@@ -73,12 +73,12 @@ These fields form the **standard database compositional panel** when that repres
 
 ### Omega‑3 identity rules
 
-Ninety-six food pages once published an amino acid as an omega‑3, because `ala_mg` had been filled from any field whose name resembled "ALA". These rules exist so that cannot recur.
+Ninety-six food pages once published an amino acid as an omega‑3, because `ala_mg` had been filled from any field whose name resembled "ALA". These rules exist so that cannot recur. Public cases are recorded in `docs/dietary-foundations/nutrient-effects/food-composition-interpretation-register.md`, generated from the canonical dataset `src/data/fcir-register.json`. Food pages link to the relevant case only; they do not reproduce the calculation.
 
 **ALA is alpha-linolenic acid, 18:3 n-3, and nothing else.**
 
 - **Alanine, beta-alanine and phenylalanine are amino acids.** They may never populate `ala_mg`, whatever the resemblance in name.
-- **An unqualified `18:3` is not ALA.** A carbon count states chain length and double bonds, not which isomer; 18:3 n-6 is gamma-linolenic acid, a different compound with different biology. Store it as `pufa_18_3_unresolved_mg`.
+- **An unqualified `18:3` is not ALA.** A carbon count states chain length and double bonds, not which isomer; 18:3 n-6 is gamma-linolenic acid, a different compound with different biology. Extraction stores it as `pufa_18_3_unresolved_mg` and never writes `ala_mg` from USDA nutrient 1270. A later, food-specific combined-provenance decision on the page may interpret that stored quantity as ALA under the literature rule below; extraction itself does not.
 - **Identity comes from the source's nutrient identifier where one exists**, not from name matching. In USDA FoodData Central the only identifiers stating an n-3 isomer are `1404` (18:3 n-3, ALA), `1278` (20:5 n-3, EPA), `1280` (22:5 n-3, DPA), `1272` (22:6 n-3, DHA), `1405` (20:3 n-3) and `1407` (20:4 n-3). Identifier `1270` is the unqualified 18:3. Identifiers `2018`, `2023`, `2024` and `2025` name a cis form without an n-position and are **not** explicit n-3.
 - **Missing means unreported.** Where a source does not identify the isomer, the field is omitted. It is never written as zero, and never approximated from a related food. A reported zero from an unqualified field is treated the same way: an unanalysed nutrient is unknown, not absent.
 - **Stable source identifiers survive extraction and calculation.** The record id (`nutrition_source.fdc_id`), the basis, and the nutrient identity that decided each n-3 key must remain attached to the value wherever it travels — into `omega3_components`, into a recipe's `audit` rows, and into any payload under `scripts/out/`. A value that arrives somewhere without the identifier that justified it can no longer be checked, and an unverifiable number is what the repair had to remove 137 times.
@@ -108,6 +108,37 @@ omega3_components:
 A total must equal the sum of its components, every component must name an n-3 isomer, and a total assembled only from zeros is omitted rather than published. A total whose parts cannot be named is not a measurement.
 
 `pufa_18_3_unresolved_mg` appears in no display list and in no calculation. It exists so the source value is not lost, and is never rendered, labelled ALA, or summed into an n-3 total. A page carrying a resolved `ala_mg` does not also carry it.
+
+#### Resolving an unresolved 18:3 from literature
+
+Analytical literature may supply the **chemical form** that a composition record leaves unqualified. It rarely supplies the quantity, and the two must not be confused.
+
+A paper resolves the isomer only where it explicitly writes *alpha-linolenic acid*, *α-linolenic acid*, *ALA*, *18:3 n-3* or the equivalent structure, and the same test applies to gamma-linolenic acid. "Linolenic acid" alone does not resolve it; bare `18:3` does not resolve it. Two further conditions, both learned from papers that failed them: the accepted wording must describe **what the authors measured**, not appear only as background in an introduction; and the instrument and named reference standards must have been capable of separating the isomers. Assessed papers are registered in `system/seed-fatty-acid-evidence.md`, rejections included.
+
+Where the form is established this way, the page records **two-source provenance** — the record that supplies the quantity and the paper that supplies the identity — and says plainly which did which.
+
+**Combined provenance may publish USDA's 18:3 quantity as ALA** only for a named food, and only when all of the following hold:
+
+1. The USDA record is exact-food (same species, edible material, and preparation class).
+2. Flax-specific (or walnut-specific, etc.) analytical literature, or another USDA record of that species, **explicitly** identifies the predominant 18:3 as 18:3 n-3. The hemp/Ribes proof case in `system/seed-fatty-acid-evidence.md` forbids treating this as a general 1270 → ALA promotion: a seed that carries both ALA and GLA cannot be resolved this way.
+3. The published milligram figure is **the USDA-reported 18:3 quantity**, not an oil-percentage × ALA-fraction product, and not a quantity imported from a different preparation (ground vs whole, oil vs seed). SR Legacy values can be analytical, calculated, imputed, or literature-derived; write "USDA reports N mg" unless nutrient-level FDC metadata names the derivation type as an analytical measurement.
+4. The page does **not** describe the result as a single directly measured ALA value. The public row is asterisked, names both sources, and states which supplied quantity and which supplied identity.
+5. `ala_mg` then replaces `pufa_18_3_unresolved_mg` so recipes consume the interpreted value; `omega3_components` names the interpretation.
+
+Worked example: `docs/foods/flax-seeds.md` publishes 22.8 g ALA from SR Legacy FDC 169414 nutrient 1270 (22,813 mg of unqualified 18:3) interpreted as 18:3 n-3 by flax-specific GC studies and by USDA Foundation FDC 2262075 (ground flaxseed, nutrient 1404). Foundation 19.42 g is **not** the published quantity — it is a different preparation at a different fat content, used only for isomer identity and for the 57% fatty-acid share.
+
+Further worked examples of the same rule, not a general 1270 → ALA promotion:
+
+- `docs/foods/walnuts.md` — 9.08 g from SR Legacy FDC 170187 nutrient 1270, interpreted by Kafkas et al. 2017 and Yoshinaga-Kiriake et al. 2022. Foundation FDC 2346394 has no 1404.
+- `docs/foods/soy.md` (and tofu, tempeh, natto, miso) — each page's own SR Legacy 1270 milligrams, interpreted by USDA soybean oil FDC 171411 nutrient 1404 (6.789 g/100 g oil; nutrient 1321 GLA = 0). The oil quantity is **not** published on the seed or fermented-soy pages. Soy, tofu, natto and miso 18:3 is ~6.7% of that record's fat, matching the oil; tempeh is ~2.3% and that difference is left standing.
+
+The hemp/Ribes/spirulina cases remain the forbid: a food whose 18:3 is GLA, or both isomers, cannot take this route. Avocado oil cannot either — avocado fruit SR Legacy reports both 1404 (0.111 g ALA) and 1321 (0.015 g GLA), so the oil's unqualified 1270 is not a single isomer.
+
+**A ratio is not a quantity.** A percentage of total fatty acids becomes a per-100 g amount only against an oil or fat content, and only where both terms were measured **on the same samples**:
+
+> ALA per 100 g = fat g per 100 g × ALA fraction of the fat
+
+Any value so produced is **derived** and is labelled as such wherever it appears. Taking one source's ratio and another's fat content manufactures a figure that neither reported, and is prohibited under exact-food source matching below, **including as a way to replace a USDA-reported whole-seed 18:3 quantity**. Combined provenance uses USDA's milligrams; the oil × fraction arithmetic is corroborative only. Note also that per cent of total fatty acids, per cent of methyl esters, per cent of oil and grams per 100 g of oil are four different bases; fatty acyl chains are roughly 95–96 per cent of triacylglycerol mass, so the first three are not interchangeable. Do not present 55% of fatty acids as 55 g per 100 g whole seed.
 
 ---
 

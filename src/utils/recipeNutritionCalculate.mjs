@@ -376,6 +376,7 @@ export function calculateRecipeNutrition(frontMatter, foodDocs) {
       if (/present|trace|range|varies|formulation|order-of-magnitude|approx|estimat/i.test(note)) {
         continue
       }
+      if (row.exclude_from_recipe_sum === true) continue
       const unit = String(row.unit || "").toLowerCase()
       let per100 = row.value
       if (unit === "g") per100 = row.value * 1000

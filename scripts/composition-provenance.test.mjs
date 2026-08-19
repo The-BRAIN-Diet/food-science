@@ -163,8 +163,8 @@ test("each rule has one canonical home and the others point at it", () => {
   assert.match(nutrition, /Alanine, beta-alanine and phenylalanine are amino acids/)
   assert.match(nutrition, /Stable source identifiers survive extraction and calculation/)
   assert.match(nutrition, /EPA \+ DHA must never be labelled total omega‑3/)
-  assert.match(nutrition, /### Exact-food source matching/)
-  assert.match(nutrition, /A wrong record invalidates the whole derived panel/)
+  assert.match(nutrition, /Combined provenance may publish USDA's 18:3 quantity as ALA/)
+  assert.match(nutrition, /Do not present 55% of fatty acids as 55 g per 100 g whole seed/)
 
   // Source search and the fallback classes.
   assert.match(workflow, /Before recording "absent from USDA"/)

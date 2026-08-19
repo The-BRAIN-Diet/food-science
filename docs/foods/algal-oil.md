@@ -1,5 +1,7 @@
 ---
 id: algal-oil
+fcir_cases:
+  - FCIR-013
 title: Algal Oil
 sidebar_label: Algal Oil
 description: Vegetarian source of preformed DHA from cultivated microalgae

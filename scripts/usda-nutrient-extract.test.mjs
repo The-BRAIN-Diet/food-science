@@ -164,17 +164,27 @@ test("omega-3 identity is decided by the source's nutrient identifier", () => {
 })
 
 test("an unqualified 18:3 is retained but never resolved", () => {
-  // Flaxseed's SR Legacy record. 22.8 g is almost certainly alpha-linolenic
-  // acid, but the record does not say so, and the site does not decide isomers
-  // on a food's reputation.
+  // Flaxseed's SR Legacy record. USDA reports 22.813 g under nutrient 1270.
+  // Extraction does not decide isomers. Combined provenance on the flax page
+  // is a later, documented food-level interpretation, not this function.
   const flax = extractNutrients({
+    description: "Seeds, flaxseed",
     foodNutrients: [{nutrient: {id: 1270, name: "PUFA 18:3", unitName: "g"}, amount: 22.813}],
   })
 
   assert.equal(flax.ala_mg, undefined, "an unstated isomer is not ALA")
-  assert.equal(flax.pufa_18_3_unresolved_mg, 22813, "the measurement is kept")
+  assert.equal(flax.pufa_18_3_unresolved_mg, 22813, "the reported value is kept")
   assert.equal(flax.omega3_mg, undefined, "and contributes to no n-3 total")
   assert.equal(flax.omega3_components, undefined)
+
+  // Hemp's generic 18:3 would be ALA + GLA. The extractor has no food-name
+  // exception that could inherit flax's page-level interpretation.
+  const hemp = extractNutrients({
+    description: "Seeds, hemp seed, hulled",
+    foodNutrients: [{nutrient: {id: 1270, name: "PUFA 18:3", unitName: "g"}, amount: 20.17}],
+  })
+  assert.equal(hemp.ala_mg, undefined, "hemp cannot inherit flax's 1270 interpretation")
+  assert.equal(hemp.pufa_18_3_unresolved_mg, 20170)
 })
 
 test("phenylalanine cannot become ALA", () => {

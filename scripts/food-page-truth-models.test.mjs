@@ -127,6 +127,39 @@ test("bioactive-compounds caption does not admit unquantified traces to Substanc
   assert.match(table, /Asterisks \(\*\) identify supplementary sources below/)
 })
 
+test("nutrition and recipe rows are addressable for the FCIR register", () => {
+  const table = readDoc("src/components/NutritionTable.tsx")
+  const recipe = readDoc("src/theme/RecipeNutrition/index.tsx")
+  const register = readDoc(
+    "docs/dietary-foundations/nutrient-effects/food-composition-interpretation-register.md",
+  )
+
+  assert.match(table, /id=\{`nutrition-row-\$\{key\}`\}/)
+  assert.match(table, /id=\{`nutrition-row-\$\{sup.key\}`\}/)
+  assert.match(table, /id=\{`nutrition-note-\$\{sup.key\}`\}/)
+  assert.match(table, /id="nutrition-tables"/)
+  assert.match(table, /id="nutrition-authorised-specifications"/)
+
+  assert.match(recipe, /id=\{`nutrition-row-\$\{row.key\}`\}/)
+  assert.match(recipe, /nutrition-ingredient-/)
+  assert.match(recipe, /id="recipe-nutrition"/)
+
+  assert.match(register, /# The Food Composition Interpretation Register \(FCIR\)/)
+  assert.match(register, /\*\*Decision:\*\*/)
+  assert.match(register, /\*\*Action:\*\*/)
+  assert.match(register, /\*\*Source:\*\*/)
+  assert.match(register, /\| Decision \| Action \| Source \|/)
+  assert.match(register, /FCIR-001/)
+  assert.match(register, /FCIR-017/)
+  assert.match(register, /FCIR-020/)
+  assert.match(register, /\/docs\/foods\/flax-seeds#nutrition-row-ala_interpreted/)
+  assert.match(register, /\/docs\/foods\/walnuts#nutrition-row-ala_interpreted/)
+  assert.match(register, /\/docs\/recipes\/Breakfast\/ginger-yogurt-blueberry-bowl#nutrition-row-ala_mg/)
+  assert.match(register, /\/docs\/recipes\/Snacks\/neuroeshot-roe#nutrition-row-epa_mg/)
+  assert.match(register, /Larry Callahan/)
+  assert.match(register, /ISO 11238/)
+})
+
 test("public nutrition grouping is Core nutrients / Key vitamins and minerals / Bioactive compounds", () => {
   const table = readDoc("src/components/NutritionTable.tsx")
   const headings = [...table.matchAll(/<h3>([^<]+)<\/h3>/g)].map((m) => m[1].trim())

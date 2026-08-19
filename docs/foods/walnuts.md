@@ -1,5 +1,7 @@
 ---
 id: walnuts
+fcir_cases:
+  - FCIR-004
 title: Walnuts
 sidebar_label: Walnuts
 description: 'ALA omega-3, polyphenols, and ellagitannins for urolithin A production'
@@ -48,7 +50,14 @@ nutrition_per_100g:
   potassium_mg: 441
   zinc_mg: 3.09
   fat_g: 65.21
-  pufa_18_3_unresolved_mg: 9080
+  ala_mg: 9080
+  omega3_mg: 9080
+omega3_components:
+  - nutrient: ala_mg
+    identity: 18:3 n-3 (ALA; USDA 1270 interpreted)
+    amount_mg: 9080
+public_display:
+  ala_mg: internal-only
 nutrition_source:
   database: USDA FoodData Central
   food_name: 'Nuts, walnuts, english'
@@ -56,24 +65,17 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+  limitations: Unqualified 18:3 on this record is documented in FCIR-004.
 nutrition_supplementary_sources:
-  - key: ala_identity_qual
+  - key: ala_interpreted
     label: Alpha-linolenic acid (ALA; 18:3 n-3)
-    status: Present — quantity not established
-    amount_display: Present — quantity not established
-    source_note: >-
-      Identity established, quantity not. USDA SR Legacy (FDC 170187) measures
-      9,080 mg of 18:3 per 100 g from seven data points but records it under the
-      unqualified nutrient 1270, which states chain length and double bonds
-      without naming the isomer; the record carries no explicit 18:3 n-3 field.
-      Kafkas et al. (2017) resolve the identity: across ten Juglans regia
-      cultivars, GC-FID against a 37-component FAME standard identified the 18:3
-      as alpha-linolenic acid, at 9.50–13.26% of total fatty acids, a range the
-      independent cultivar surveys they review corroborate. Those percentages
-      describe Turkish cultivars relative to total fatty acids, so they are not
-      converted to a per-100 g figure here and USDA's 9,080 mg remains recorded
-      as chemically unresolved 18:3. An explicit 18:3 n-3 measurement of this
-      food would settle the quantity.
+    value: 9.08
+    unit: g
+    notes: USDA 18:3 quantity; isomer from walnut-specific literature
+    public_display: table
+    exclude_from_recipe_sum: true
+    fcir_case: FCIR-004
+    source_note: This value uses a documented composition interpretation. See FCIR-004.
   - key: walnut_polyphenols_proxy
     label: Ellagitannins / total polyphenols
     amount_display: High among tree nuts (varies by batch)
@@ -149,4 +151,3 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 [1] The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate). Zelicha & Kloting 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
 
-[2] Gas chromatography across ten *Juglans regia* cultivars identified walnut's 18:3 as alpha-linolenic acid at 9.50–13.26% of total fatty acids, establishing the isomer that the USDA record leaves unqualified. Kafkas et al. 2017. [Fatty acid, total phenol and tocopherol profiles of some walnut cultivars: a comparative study](/docs/papers/BRAIN-Diet-References#kafkas_walnut_fatty_acids_2017)
