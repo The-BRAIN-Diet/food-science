@@ -58,7 +58,7 @@ Resolution is a source that states the isomer — a Foundation Foods record, or 
 
 **Walnuts and flaxseed are prioritised** for an authoritative supplementary source, because they are the two foods a reader is most likely to consult for ALA and the two whose values are most likely to be confirmed. Tracked in `system/specialist-composition-review-queue.md`.
 
-Until then both pages carry an `ALA` Substances card with no supported table row, and `npm run nutrition:validate` reports them under *Substances cards missing a supported nutrition-table row*. That is the intended visible state: the card is what the page claims, and the missing row is the claim it can no longer evidence. It is resolved by a source that states the isomer, or by a supported qualitative row — not by removing the card, and not by restoring the suppressed number.
+**Identity for both is now established** by analytical literature — Ribeiro et al. 2013 for flaxseed and Kafkas et al. 2017 for walnuts — and each page carries a qualitative `ala_identity_qual` row citing it, which also gives the `ALA` Substances card the supported row it had been missing. The quantity is still unresolved: both papers report percentages of total fatty acids in regional cultivars, not milligrams per 100 g, so `pufa_18_3_unresolved_mg` stands. Detail and the remaining options are in `system/specialist-composition-review-queue.md`.
 
 ---
 

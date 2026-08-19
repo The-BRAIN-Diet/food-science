@@ -52,6 +52,24 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+nutrition_supplementary_sources:
+  - key: ala_identity_qual
+    label: Alpha-linolenic acid (ALA; 18:3 n-3)
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Identity established, quantity not. USDA SR Legacy (FDC 169414) measures
+      22,813 mg of 18:3 per 100 g from seven data points but records it under
+      the unqualified nutrient 1270, which states chain length and double bonds
+      without naming the isomer; the record carries no explicit 18:3 n-3 field.
+      Ribeiro et al. (2013) resolve the identity: across 78 yellow and brown
+      flax seed samples, GC–MS against authentic primary standards identified
+      the 18:3 as alpha-linolenic acid, at 47.1–48.7% of total fatty acids in
+      whole seeds, with no gamma-linolenic (18:3 n-6) among the acids found.
+      Those percentages describe Brazilian cultivars relative to total fatty
+      acids, so they are not converted to a per-100 g figure here and USDA's
+      22,813 mg remains recorded as chemically unresolved 18:3. An explicit
+      18:3 n-3 measurement of this food would settle the quantity.
 limiting_amino_acids: Lysine (typical of nuts and seeds).
 complementary_pairings: Legumes or grains for complete essential amino acid profile.
 main_image: /img/foods/flax-seeds/flax-seeds_medium.webp
@@ -104,3 +122,5 @@ Pair with legumes or grains to complete essential amino acid coverage.
 [1] Reports on omega-3 Fatty Acids: Fact Sheet for Health Professionals. NIH 2025. [Omega-3 conversion constraints and practical intake context](/docs/papers/BRAIN-Diet-References#nih_omega3_factsheet_2025)
 
 [2] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+
+[3] Gas chromatography–mass spectrometry across 78 flax seed samples identified the seed's 18:3 as alpha-linolenic acid at 47.1–48.7% of total fatty acids, establishing the isomer that the USDA record leaves unqualified. Ribeiro et al. 2013. [Prediction of linolenic and linoleic fatty acids content in flax seeds and flax seeds flours through the use of infrared reflectance spectroscopy and multivariate calibration](/docs/papers/BRAIN-Diet-References#ribeiro_flax_fatty_acids_2013)

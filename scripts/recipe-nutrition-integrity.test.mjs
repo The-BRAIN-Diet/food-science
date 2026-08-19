@@ -579,6 +579,44 @@ test("flax and walnuts lost their alanine-sized ALA; chia's real value survived"
   assert.equal(chia.values.omega3_mg, 17830)
 })
 
+test("literature resolves the flax and walnut isomer without inventing a quantity", () => {
+  /*
+   * Neither USDA record carries an explicit 18:3 n-3 field, so the isomer comes
+   * from analytical literature instead. Identity and quantity are separable:
+   * the papers report percentages of total fatty acids in regional cultivars,
+   * which cannot become milligrams of the food USDA sampled without multiplying
+   * one source's ratio by another's fat figure.
+   */
+  const cases = [
+    {title: "Flax Seeds", slug: "flax-seeds", unresolved: 22813, key: "ribeiro_flax_fatty_acids_2013"},
+    {title: "Walnuts", slug: "walnuts", unresolved: 9080, key: "kafkas_walnut_fatty_acids_2017"},
+  ]
+
+  const bib = fs.readFileSync(path.join(ROOT, "static/bibtex/BRAIN-diet.bib"), "utf8")
+
+  for (const {title, slug, unresolved, key} of cases) {
+    const doc = foodDocs.find((d) => d.title === title)
+    const page = fs.readFileSync(path.join(ROOT, "docs/foods", `${slug}.md`), "utf8")
+    const row = (doc.frontMatter.nutrition_supplementary_sources || []).find(
+      (r) => r.key === "ala_identity_qual",
+    )
+
+    assert.ok(row, `${title} states no ALA identity row`)
+    assert.equal(row.label, "Alpha-linolenic acid (ALA; 18:3 n-3)")
+    assert.equal(row.value, undefined, `${title} publishes an ALA quantity no source measured`)
+    assert.match(row.status, /not established/i)
+
+    // The quantity stays where the measurement actually is.
+    assert.equal(doc.frontMatter.nutrition_per_100g.ala_mg, undefined)
+    assert.equal(doc.frontMatter.nutrition_per_100g.pufa_18_3_unresolved_mg, unresolved)
+    assert.equal(doc.frontMatter.nutrition_per_100g.omega3_mg, undefined)
+
+    // The page names the paper, and the paper resolves in the bibliography.
+    assert.match(page, new RegExp(`BRAIN-Diet-References#${key}`), `${title} cites no paper`)
+    assert.match(bib, new RegExp(`@article\\{${key},`), `${key} is missing from the bibliography`)
+  }
+})
+
 test("an unqualified 18:3 stays chemically unresolved and reaches nothing", () => {
   // The value is retained for provenance, never promoted. Being absent from the
   // calculation keys and the label table is what stops it becoming an n-3.

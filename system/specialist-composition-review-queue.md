@@ -146,11 +146,22 @@ A 40 g per 100 g spread in fat is real product variation between de-oiled and li
 
 ## Related entries
 
-### `walnuts` — authoritative supplementary source wanted
+### `walnuts` and `flax-seeds` — isomer identified, quantity still unresolved
 
-Walnuts hold 9080 mg of 18:3 under `pufa_18_3_unresolved_mg`. The USDA record (FDC 170187) reports it under nutrient 1270, an unqualified 18:3 that does not state the isomer, so the site does not publish it as ALA on that record's authority alone.
+Walnuts hold 9080 mg of 18:3 under `pufa_18_3_unresolved_mg`, flaxseed 22813 mg. Both USDA records (FDC 170187, FDC 169414) report the value under nutrient 1270, an unqualified 18:3 that does not state the isomer, and neither record carries a 1404 field at all — although 1,967 other SR Legacy foods do, so this is a gap in these two records rather than in the dataset.
 
-This is a labelling limitation, not a doubt about the walnut. The value is scientifically very likely to be predominantly alpha-linolenic acid, and walnuts are among the foods for which that matters most to a reader. Queued for an authoritative supplementary source — a Foundation Foods record, CoFID, or a named analytical panel — that identifies the isomer explicitly. Flaxseed at 22813 mg is in the same position.
+**Identity is now established by analytical literature**, and each page carries a qualitative `ala_identity_qual` row citing it:
+
+| Page | Source | Finding |
+| --- | --- | --- |
+| `flax-seeds` | Ribeiro et al. 2013 (`ribeiro_flax_fatty_acids_2013`) | GC–MS against authentic standards across 78 samples identifies the 18:3 as alpha-linolenic acid, 47.1–48.7% of total fatty acids in whole seeds; no 18:3 n-6 found |
+| `walnuts` | Kafkas et al. 2017 (`kafkas_walnut_fatty_acids_2017`) | GC-FID against a 37-component FAME standard across ten *Juglans regia* cultivars identifies the 18:3 as alpha-linolenic acid, 9.50–13.26% of total fatty acids |
+
+**Quantity remains unresolved.** Both papers report percentages of total fatty acids in regional cultivars, not milligrams per 100 g of the food USDA sampled. Multiplying one source's ratio by another's fat figure would manufacture a number neither measured, so `pufa_18_3_unresolved_mg` stands and no `ala_mg` is published.
+
+What would close this: an explicit 18:3 n-3 measurement of the food — a Foundation Foods record, CoFID, or an analytical panel reporting per 100 g. A policy decision to attribute USDA's own 18:3 quantity to ALA on the strength of the identity above would also close it, but that is a cross-source attribution and has not been taken.
+
+Kafkas et al. is published in a SCIRP title and is internally inconsistent on total phenol (349 mg GAE/100 g extract in the abstract against 3490 in the text). It is cited for fatty acid identity only, which the independent cultivar surveys it reviews corroborate. A replacement from a stronger venue would be worth taking.
 
 ### `nutritional-yeast` — product form mismatch
 
