@@ -145,10 +145,10 @@ test("nutrition and recipe rows are addressable for the FCIR register", () => {
   assert.match(recipe, /id="recipe-nutrition"/)
 
   assert.match(register, /# The Food Composition Interpretation Register \(FCIR\)/)
-  assert.match(register, /\*\*Decision:\*\*/)
-  assert.match(register, /\*\*Action:\*\*/)
-  assert.match(register, /\*\*Source:\*\*/)
-  assert.match(register, /\| Decision \| Action \| Source \|/)
+  assert.match(register, /fcir-label">Decision/)
+  assert.match(register, /fcir-label">Action/)
+  assert.match(register, /fcir-label">Source/)
+  assert.match(register, /<table className="fcir-table">/)
   assert.match(register, /FCIR-001/)
   assert.match(register, /FCIR-017/)
   assert.match(register, /FCIR-020/)
@@ -156,7 +156,7 @@ test("nutrition and recipe rows are addressable for the FCIR register", () => {
   assert.match(register, /\/docs\/foods\/walnuts#nutrition-row-ala_interpreted/)
   assert.match(register, /\/docs\/recipes\/Breakfast\/ginger-yogurt-blueberry-bowl#nutrition-row-ala_mg/)
   assert.match(register, /\/docs\/recipes\/Snacks\/neuroeshot-roe#nutrition-row-epa_mg/)
-  assert.match(register, /Larry Callahan/)
+  assert.match(register, /Larry Callahan, an experienced former FDA chemist/)
   assert.match(register, /ISO 11238/)
 })
 

@@ -25,6 +25,15 @@ export type FcirIdGroup = {
   rejected: FcirTypedId[]
 }
 
+export type FcirGsrsMapping = {
+  display_name: string
+  preferred_name?: string
+  unii?: string
+  href?: string
+  role: string
+  note?: string
+}
+
 export type FcirIdentity = {
   food_material: string
   identity_at_issue: string
@@ -32,6 +41,7 @@ export type FcirIdentity = {
   material_form: string
   canonical_chemical_name: string
   substance_identifier: string
+  gsrs_mappings?: FcirGsrsMapping[]
   fdc_food_id: FcirIdGroup
   fdc_nutrient_id: FcirIdGroup
   doi_or_database: FcirIdGroup
@@ -72,6 +82,8 @@ export type FcirRegister = {
   }
   status_meanings: Record<string, string>
   identifier_types?: {key: string; meaning: string}[]
+  gsrs_catalog?: Record<string, {display_name: string; preferred_name: string; unii: string; href: string}>
+  gsrs_unii_url_template?: string
   cases: FcirCase[]
 }
 
