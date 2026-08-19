@@ -9,8 +9,10 @@ import {
   extractGeneratedBlock,
   foodPageNote,
   foodSlugsByCase,
+  identityGroup,
   loadFcirRegister,
   renderGeneratedFcirMarkdown,
+  validateFcirRegister,
 } from "./lib/fcir-register.mjs"
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..")
@@ -39,30 +41,105 @@ test("the public FCIR page is generated from the canonical case dataset", () => 
   assert.equal(register.editorial.scientific_provenance_lead, "pending formal acceptance by Larry Callahan")
 })
 
-test("every FCIR case has a stable #fcir-nnn anchor", () => {
+test("the FCIR is one continuous register table, each case ID once, with row anchors", () => {
   const register = loadFcirRegister(ROOT)
   const page = fs.readFileSync(path.join(ROOT, register.public_doc), "utf8")
+  const generated = extractGeneratedBlock(page)
+  assert.ok(generated, "missing generated FCIR block")
+  assert.equal((generated.match(/<table className="fcir-table">/g) || []).length, 1)
+  assert.doesNotMatch(generated, /## Case records/)
+  assert.doesNotMatch(generated, /### FCIR-\d{3}/)
   const seen = new Set()
   for (const entry of register.cases) {
     assert.match(entry.id, /^FCIR-\d{3}$/, entry.id)
     assert.equal(entry.anchor, entry.id.toLowerCase(), entry.id)
-    assert.equal(seen.has(entry.anchor), false, `duplicate anchor ${entry.anchor}`)
-    seen.add(entry.anchor)
-    assert.match(page, new RegExp(`\\{#${entry.anchor}\\}`), entry.id)
-    assert.ok(entry.decision && entry.action && entry.source_public && entry.status, entry.id)
+    assert.equal(seen.has(entry.id), false, `duplicate case ID ${entry.id}`)
+    seen.add(entry.id)
+    const rowId = new RegExp(`<tr id="${entry.anchor}" className="fcir-row">`)
+    assert.match(generated, rowId, `${entry.id} missing table-row anchor`)
+    assert.equal((generated.match(rowId) || []).length, 1, `${entry.id} row anchor must appear once`)
+    assert.equal((generated.match(new RegExp(`<strong>${entry.id}</strong>`, "g")) || []).length, 1, `${entry.id} must appear once as the row identifier`)
   }
 })
 
-test("public register status, decision and source match the canonical dataset", () => {
+function markdownHrefs(text) {
+  return [...String(text || "").matchAll(/\]\(([^)]+)\)/g)].map((match) => match[1])
+}
+
+function plainText(text) {
+  return String(text || "")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/(^|[\s(])\*([^*\n]+)\*(?=[\s).,;:]|$)/g, "$1$2")
+    .replace(/`([^`]+)`/g, "$1")
+}
+
+test("public register status, decision, evidence, food and recipe links are preserved", () => {
   const register = loadFcirRegister(ROOT)
   const page = fs.readFileSync(path.join(ROOT, register.public_doc), "utf8")
+  const generated = extractGeneratedBlock(page)
   for (const entry of register.cases) {
-    assert.match(page, new RegExp(entry.id.replaceAll("-", "\\-")))
-    assert.match(page, new RegExp(entry.status.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")))
-    for (const snippet of [entry.decision.slice(0, 40), entry.source_public.slice(0, 40)]) {
-      const needle = snippet.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
-      assert.match(page, new RegExp(needle), `${entry.id} drifted from ${snippet}`)
+    const rowMatch = generated.match(new RegExp(`<tr id="${entry.anchor}"[\\s\\S]*?</tr>`))
+    assert.ok(rowMatch, `${entry.id} missing table row`)
+    const rowText = rowMatch[0].replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/\s+/g, " ")
+    assert.match(rowText, new RegExp(entry.status.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")), entry.id)
+    const decisionNeedle = plainText(entry.decision).slice(0, 60).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+    assert.match(rowText, new RegExp(decisionNeedle), `${entry.id} lost its decision`)
+    const actionNeedle = plainText(entry.action).slice(0, 60).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+    assert.match(rowText, new RegExp(actionNeedle), `${entry.id} lost its action`)
+    for (const href of [
+      ...markdownHrefs(entry.source_public),
+      ...markdownHrefs(entry.food_or_scope),
+      ...(entry.recipes || []).map((recipe) => recipe.href),
+    ]) {
+      const escaped = href.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")
+      assert.match(rowMatch[0], new RegExp(escaped), `${entry.id} lost ${href}`)
     }
+  }
+})
+
+test("every FCIR case has typed identity identifiers and rejected IDs are not active provenance", () => {
+  const register = loadFcirRegister(ROOT)
+  const errors = validateFcirRegister(register)
+  assert.deepEqual(errors, [])
+  const page = fs.readFileSync(path.join(ROOT, register.public_doc), "utf8")
+  assert.match(page, /workflow identifier/)
+  assert.match(page, /Not established/)
+  for (const entry of register.cases) {
+    const identity = entry.identity
+    assert.ok(identity, `${entry.id} missing identity`)
+    for (const field of [
+      "scientific_species",
+      "material_form",
+      "canonical_chemical_name",
+      "substance_identifier",
+      "identity_at_issue",
+      "food_material",
+    ]) {
+      assert.equal(String(identity[field] || "").trim() === "", false, `${entry.id} ${field} is blank`)
+    }
+    for (const key of ["fdc_food_id", "fdc_nutrient_id", "doi_or_database"]) {
+      const group = identityGroup(identity, key)
+      const active = new Set(group.active.map((item) => String(item.id)))
+      for (const item of group.rejected) {
+        assert.equal(active.has(String(item.id)), false, `${entry.id} lists rejected ${item.id} as active ${key}`)
+      }
+    }
+  }
+  for (const id of ["FCIR-014", "FCIR-015", "FCIR-016"]) {
+    const entry = caseById(id, register)
+    const foods = identityGroup(entry.identity, "fdc_food_id")
+    assert.equal(foods.active.length, 0, `${id} must not treat FDC 2003603 as active`)
+    assert.equal(
+      foods.rejected.some((item) => item.id === "2003603"),
+      true,
+      `${id} must show FDC 2003603 as a rejected source record`,
+    )
+    const row = page.match(new RegExp(`<tr id="${entry.anchor}"[\\s\\S]*?</tr>`))
+    assert.ok(row, `${id} missing table row`)
+    assert.match(row[0], /Rejected identifiers/)
+    assert.match(row[0], /FDC 2003603/)
+    assert.doesNotMatch(row[0], /Active: FDC food ID — <a[^>]*>FDC 2003603/)
   }
 })
 

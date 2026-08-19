@@ -10,6 +10,33 @@ export type FcirStatus =
   | "Reference case"
   | "Resolved for named specification"
 
+export type FcirTypedId = {
+  type: string
+  id: string
+  label?: string
+  href?: string
+  paper_href?: string
+  note?: string
+}
+
+export type FcirIdGroup = {
+  active: FcirTypedId[]
+  supporting: FcirTypedId[]
+  rejected: FcirTypedId[]
+}
+
+export type FcirIdentity = {
+  food_material: string
+  identity_at_issue: string
+  scientific_species: string
+  material_form: string
+  canonical_chemical_name: string
+  substance_identifier: string
+  fdc_food_id: FcirIdGroup
+  fdc_nutrient_id: FcirIdGroup
+  doi_or_database: FcirIdGroup
+}
+
 export type FcirCase = {
   id: string
   anchor: string
@@ -24,6 +51,11 @@ export type FcirCase = {
   food_slugs: string[]
   public_row?: string
   recipes?: {title: string; href: string}[]
+  publishes_resolved_quantity: boolean
+  chemically_ambiguous_nutrient: boolean
+  nutrient_identity_state: "identified" | "unresolved" | "not_applicable"
+  identity: FcirIdentity
+  technical_notes?: string
   excludes_unresolved_18_3_from_named_ala: boolean
   excludes_unresolved_18_3_from_identified_omega3: boolean
 }
@@ -39,6 +71,7 @@ export type FcirRegister = {
     project_scope: string
   }
   status_meanings: Record<string, string>
+  identifier_types?: {key: string; meaning: string}[]
   cases: FcirCase[]
 }
 
