@@ -15,6 +15,6 @@ list_image: /img/icons/training.svg
 ## Related Pages
 
 - [The Food Composition Interpretation Register (FCIR)](/docs/dietary-foundations/nutrient-effects/food-composition-interpretation-register)
-- [Omega-3 in the brain](/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/omega-3-in-the-brain-dha-pool)
+- [Omega-3 Fatty Acids](/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3)
 - [Extra Virgin Olive Oil](/docs/foods/extra-virgin-olive-oil)
 

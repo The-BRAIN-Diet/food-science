@@ -242,4 +242,5 @@ Recipes using this interpretation: [Ginger Yogurt and Blueberries](/docs/recipes
 
 - [Dietary Fat and Metabolic Signalling](/docs/dietary-foundations/nutrient-effects/dietary-fat-metabolic-signalling)
 - [Foods Index](/docs/foods)
-- [Omega-3 in the brain](/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/omega-3-in-the-brain-dha-pool)
+- [ALA (Alpha-Linolenic Acid)](/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3/ala-alpha-linolenic-acid)
+- [Omega-3 Fatty Acids](/docs/substances/nutrients/macronutrients/fatty-acids/pufas/omega-3)
