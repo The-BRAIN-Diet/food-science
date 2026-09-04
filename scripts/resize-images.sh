@@ -7,6 +7,7 @@ ROOT_DIR="$(dirname "$SCRIPT_DIR")"
 
 INPUT_DIR="$ROOT_DIR/static/img/foods/originals"
 OUTPUT_DIR="$ROOT_DIR/static/img/foods"
+BACKUP_DIR="$ROOT_DIR/static/img/foods/OrigOld"
 FOODS_DIR="$ROOT_DIR/docs/foods"
 
 # Originals must be named exactly like the food page id (slug): e.g. spinach.png, cheddar-cheese.png
@@ -32,10 +33,11 @@ QUALITY_THUMB=78
 QUALITY_MEDIUM=80
 QUALITY_LARGE=82
 
-mkdir -p "$OUTPUT_DIR"
+mkdir -p "$OUTPUT_DIR" "$BACKUP_DIR"
 
 echo "INPUT_DIR=$INPUT_DIR"
 echo "OUTPUT_DIR=$OUTPUT_DIR"
+echo "BACKUP_DIR=$BACKUP_DIR"
 
 for img in "$INPUT_DIR"/*; do
   [ -f "$img" ] || continue
@@ -128,6 +130,8 @@ for img in "$INPUT_DIR"/*; do
   fi
 
   echo "Processed: $img -> $OUTPUT_DIR/$slug"
+  mv "$img" "$BACKUP_DIR/$filename"
+  echo "Backed up original to $BACKUP_DIR/$filename"
 done
 
 echo "All images processed."

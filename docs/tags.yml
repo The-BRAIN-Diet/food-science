@@ -607,6 +607,11 @@ Amaranth:
   permalink: /amaranth
   description: Ancient grain with complete protein
 
+Anchovies:
+  label: Anchovies
+  permalink: /anchovies
+  description: Small oily fish, typically canned and drained, providing EPA, DHA and niacin
+
 Apples:
   label: Apples
   permalink: /apples
@@ -1212,6 +1217,11 @@ Quinoa:
   permalink: /quinoa
   description: Pseudocereal with complete protein
 
+Radicchio:
+  label: Radicchio
+  permalink: /radicchio
+  description: Bitter red chicory leaf providing lutein and vitamin K
+
 Raspberries:
   label: Raspberries
   permalink: /raspberries
@@ -1226,6 +1236,11 @@ Rice:
   label: Rice
   permalink: /rice
   description: Grain providing carbohydrates
+
+Romaine Lettuce:
+  label: Romaine Lettuce
+  permalink: /romaine-lettuce
+  description: Crisp salad lettuce providing vitamin K, folate and carotenoids
 
 Rosemary:
   label: Rosemary
@@ -1406,6 +1421,11 @@ Wasabi:
   label: Wasabi
   permalink: /wasabi
   description: Pungent green condiment traditionally served with sushi
+
+Watercress:
+  label: Watercress
+  permalink: /watercress
+  description: Peppery brassica salad leaf providing vitamin C, vitamin K and carotenoids
 
 Wheat Germ:
   label: Wheat Germ

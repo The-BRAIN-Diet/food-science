@@ -317,8 +317,8 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
           <tbody>
             {nutrition.audit.map((row) => (
               <tr
-                key={`${row.food}-${row.weight_g}`}
-                id={`nutrition-ingredient-${String(row.food_slug || row.food)
+                key={`${row.display || row.food}-${row.weight_g}`}
+                id={`nutrition-ingredient-${String(row.display || row.food_slug || row.food)
                   .toLowerCase()
                   .replace(/[^a-z0-9]+/g, "-")
                   .replace(/^-|-$/g, "")}`}

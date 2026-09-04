@@ -69,6 +69,26 @@ const SNAPSHOTS = {
   "beets-cooked": {fdc_id: "169146", note: "Boiled and drained."},
   "thyme-fresh": {fdc_id: "173470", note: "Fresh thyme leaves."},
   "balsamic-vinegar": {fdc_id: "172241", note: "No Balsamic Vinegar food page."},
+  "lettuce-romaine-raw": {
+    fdc_id: "169247",
+    note: "Romaine/cos lettuce snapshot; recipes with a food page should use romaine-lettuce. Not a mixed-leaf or iceberg substitute.",
+  },
+  "watercress-raw": {
+    fdc_id: "170068",
+    note: "Watercress snapshot; recipes with a food page should use watercress.",
+  },
+  "radicchio-raw": {
+    fdc_id: "168564",
+    note: "Radicchio snapshot; recipes with a food page should use radicchio. Not chicory greens or witloof.",
+  },
+  "anchovy-canned-oil-drained": {
+    fdc_id: "174183",
+    note: "European anchovy, canned in oil, drained solids snapshot; recipes with a food page should use anchovies.",
+  },
+  "mayonnaise-regular": {
+    fdc_id: "171009",
+    note: "Regular mayonnaise; no food page. Brand fat and sodium vary. Not aioli.",
+  },
   "ginger-ground": {fdc_id: "170926", note: "Dried ground ginger, not fresh root."},
   "salt-table": {fdc_id: "173468", note: "Only for recipes that state an exact salt weight."},
   "tabasco-pepper-sauce": {
