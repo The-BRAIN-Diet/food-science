@@ -2,7 +2,7 @@
 id: black-tea
 title: Black Tea
 sidebar_label: Black Tea
-description: Polyphenols and potential NAD+ support
+description: Brewed tea providing theaflavins and catechins in a low-energy drink
 tags:
   - Food
   - Black Tea
@@ -38,29 +38,39 @@ nutrition_source:
 main_image: /img/foods/black-tea/black-tea_medium.webp
 legacy_list_image: /img/foods/black-tea/black-tea_thumb.webp
 legacy_main_image: /img/foods/black-tea/black-tea_medium.webp
+nutrition_supplementary_sources:
+  - key: theaflavins_qual
+    label: Theaflavins
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Black tea is formed by oxidation of leaf catechins to theaflavins. A
+      comparable theaflavin quantity is not established here.
+  - key: catechins_qual
+    label: Catechins
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Brewed black tea retains some unoxidised catechins, typically at lower
+      levels than green tea. A comparable catechin quantity is not established
+      here.
 ---
 ## Overview
 
-Black tea provides **theaflavins** and **catechins** (lower than green tea for unoxidised catechins) and caffeine in a polyphenol-rich beverage matrix [1]. High-polyphenol dietary patterns, including tea polyphenols, have been studied for metabolic and cognitive endpoints [2].
+Black tea is a low-energy drink whose distinctive polyphenols are **theaflavins** formed by leaf oxidation, with remaining **catechins**, usually at lower levels than green tea [1]. Unsweetened cups add flavour without much energy.
 
-Within the BRAIN Diet framework, black tea is a flavonoid beverage best used without excess sugar; timing may matter for caffeine-sensitive individuals [1]. Polyphenol-rich drinks can reduce non-heme iron absorption if taken with iron-rich plant meals.
-## Key Nutritional Highlights
+Within a BRAIN-aligned pattern it is a flavonoid beverage. Taken with meals it can reduce non-heme iron absorption.
 
-- Theaflavin/catechin-class polyphenols; oxidation level differs from green tea [1].
-- High-polyphenol Mediterranean-style patterns associate with metabolic benefits in trials [2].
-- Contains caffeine; separate from iron-rich plant meals if optimising non-heme iron absorption.
-- Low energy when unsweetened; flavonoid yield varies by brew time and leaf grade.
 ## Food Context
 
 ### Synergies
 
 - Can reduce non-heme iron absorption if taken with meals
-- Part of diverse beverage strategy
 
 ### Preparation
 
 - Space ≥1 hour from iron-rich meals or add lemon
-- Supports polyphenol intake
+- Caffeine content varies with leaf and brew time
 
 ## Recipes
 

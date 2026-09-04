@@ -70,7 +70,7 @@ export const EMPTY_FM_OUTCOME_SYNTHESIS = {
       synthesis:
         "Integrated antioxidant defence — NRF2 activation, ROS clearance balance, lipid-peroxidation control, and network recycling — supports redox conditions that help preserve cognitive clarity under oxidative load. Convergent human and mechanistic oxidative-stress evidence in ADHD-relevant cohorts supports biological relevance within BRAIN; this is not a claim that antioxidants treat cognitive symptoms.",
       references: [
-        fmRef("Verlaet et al. (2018)", "verlaet_rationale_2018", "Human Study"),
+        fmRef("Verlaet et al. (2018)", "verlaet_rationale_2018", "Mechanistic"),
         fmRef("Verlaet et al. (2019)", "verlaet_oxidative_2019", "Human Mechanistic"),
         fmRef("Houghton et al. (2016)", "houghton_sulforaphane_2016", "Human Outcome"),
         fmRef("Kurhan and Alp (2021)", "kurhan_dynamic_2021", "Human Mechanistic"),
@@ -81,7 +81,7 @@ export const EMPTY_FM_OUTCOME_SYNTHESIS = {
         "Coordinated ROS generation–clearance balance, lipid peroxidation control, and NRF2-linked antioxidant capacity help limit oxidative interference with attention-relevant signalling chemistry. Paediatric oxidative-stress markers and nutrient–redox framing support modifiable biological context for focus stability without single-nutrient treatment claims.",
       references: [
         fmRef("Bulut et al. (2007)", "bulut_malondialdehyde_2007", "Human Mechanistic"),
-        fmRef("Verlaet et al. (2018)", "verlaet_rationale_2018", "Human Study"),
+        fmRef("Verlaet et al. (2018)", "verlaet_rationale_2018", "Mechanistic"),
         fmRef("Miniksar et al. (2023)", "miniksar_effect_2023", "Human Mechanistic"),
       ],
     },

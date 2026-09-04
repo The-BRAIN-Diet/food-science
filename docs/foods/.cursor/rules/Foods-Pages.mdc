@@ -70,7 +70,7 @@ Each food page has three layers that must stay aligned. These are the canonical 
 
 ## Overview specification
 
-Follow the **Overview editorial standard** in `system/food-page-model.md`. Almonds is the calibration example. Recommended depth (`short` / `standard` / `extended` in `system/food-page-letter-audit-schema.md`) still governs how much distinctive story a page may carry.
+Follow the **Overview editorial standard** in `system/food-page-model.md`. Section responsibilities (what Overview, tables, Other Nutritional Highlights, Food Context, EAA, Substance cards and References are for) are in `system/food-page-schema.md`. Almonds is the Overview calibration example. Recommended depth (`short` / `standard` / `extended` in `system/food-page-letter-audit-schema.md`) still governs how much distinctive story a page may carry.
 
 Mention macros or micronutrients when they materially characterise the food, using values consistent with the rendered table. Do not repeat their general biology.
 
@@ -99,6 +99,7 @@ The Overview must not:
 - present supplement, substance-class, or neighbouring-food evidence as direct evidence for the food
 - list long mechanistic chains or speculative pathways
 - mention downstream microbial metabolites as if they are present in the food (e.g. SCFAs from fibre)
+- narrate USDA coverage, database limitations, reconciliation status, or registry work (see **Public editorial prose versus composition administration** in `system/food-page-schema.md`)
 
 Detailed sourcing, pairing how-to, and recipe method belong in Food Context / Recipes. Overview may name a distinctive matrix or culinary role.
 
@@ -106,53 +107,11 @@ Detailed sourcing, pairing how-to, and recipe method belong in Food Context / Re
 
 The YAML `description` field is the Foods Index card. Follow **Food-index descriptions** in `system/food-page-model.md`. Do not add a second index field.
 
-## Key Nutritional Highlights specification
+## Other Nutritional Highlights
 
-Add `## Key Nutritional Highlights` immediately after `## Overview`. Follow the Highlights layer in `system/food-page-model.md`. Almonds is the calibration example. Highlights are takeaways, not an evidence table.
+Optional residual section. Follow **Section editorial responsibilities** in `system/food-page-schema.md`. Do not reproduce that rule here.
 
-- Use 3-6 bullet points only.
-- Keep each bullet to one sentence or short clause.
-- Include both notable benefits and relevant constraints where useful.
-- Use neutral, scientific wording (no "strengths/weaknesses" or "pros/cons" labels).
-- Avoid vague filler language; prefer food-specific, decision-relevant points.
-- Do not inherit trial-log detail removed from Overviews.
-- Repetition is allowed only when function differs:
-  - Highlights = brief summary
-  - later sections = expanded explanation/context/mechanism/preparation
-- Do not list all amino acids in Highlights. If protein quality is relevant, summarize briefly (e.g. "complete protein with high digestibility" or "lysine-limited; complements legumes").
-
-### Specificity Rule
-
-Only include points that are distinctive to the specific food.
-
-Do NOT include:
-- generic statements that apply to most foods in the same category,
-- comparisons to obviously inferior baselines (e.g. "better than refined grains"),
-- general macronutrient statements that do not differentiate the food (e.g. "provides carbohydrates"),
-- properties common to essentially all foods in the category (e.g. "low in saturated fat" for most plant foods),
-- recipe method dumps (detailed preparation belongs in Food Context). Culinary-support pages may note culinary role.
-- trial doses, durations, detailed comparators, or study methods (belong in the reference annotation)
-
-Each bullet should be answerable as:
-- "What is uniquely or meaningfully characteristic about this food in the BRAIN Diet context?"
-
-Culinary-support foods may answer that with culinary role. Do not invent a neurological narrative.
-
-### Processing vs Food Identity Rule
-
-Do not conflate intrinsic food properties with processing effects.
-
-- Intrinsic properties (nutrients, amino acids, micronutrients) belong in:
-  - Overview
-  - Key Nutritional Highlights
-- Processing-related effects belong in:
-  - Food Context
-  - Preparation
-
-Highlights may include a neutral line like:
-- "Nutritional profile depends on processing method."
-
-Avoid statements that imply the whole food is harmful based only on specific processed forms.
+The canonical heading is `## Other Nutritional Highlights`. The superseded headings `Key Nutritional Highlights` and `Nutritional Highlights` must not be used as the canonical heading. Existing pages may still carry a superseded heading until that letter is rewritten. Omit the section when it has nothing additional to contribute.
 
 ## Amino acid / EAA logic
 
@@ -164,24 +123,13 @@ Avoid statements that imply the whole food is harmful based only on specific pro
 Section order reflects BRAIN framework: context before data.
 
 1. **Overview** – Follow the Overview specification above. Short culinary-support pages may be one paragraph; standard/extended pages typically two. Inline numeric citations [1], [2]. Optionally add one line noting **protein profile** where relevant.
-2. **Key Nutritional Highlights** – 3-6 concise bullets summarizing the most decision-relevant properties with neutral wording (benefits and constraints), following the rule above.
-3. **Food Context** – Framework and practical context immediately after Highlights.
-   - Use at most three subsections: **Sourcing**, **Synergies**, **Preparation**.
-   - **Only include a subsection if it contains meaningful, evidence-backed content for that food.** Do not show placeholder text, generic filler, or empty/null sections.
-   - Before omitting a subsection, first check whether there is a credible food-specific point that can be made from:
-     - established nutritional science
-     - preparation science
-     - food matrix / bioavailability literature
-     - practical dietary context
-   - **Sourcing**: show only if there is a meaningful distinction such as grass-fed vs grain-fed, wild vs farmed, organic vs conventional, minimally processed vs processed, or contamination/quality differences. If no such distinction is relevant or evidence-backed, omit Sourcing entirely.
-   - **Preparation**: show only if handling or cooking method meaningfully changes nutrient retention, bioavailability, oxidation/AGE formation, microbial safety, food structure/digestibility, or practical use in the diet. Keep this section focused on process, not meal composition. If nothing meaningful can be said, omit Preparation entirely.
-   - **Synergies**: often the most relevant subsection, because food interactions shape bioavailability or physiological effect (e.g. vitamin C with non‑heme iron, fat with carotenoids, grains with legumes for amino acid complementarity, herbs/spices reducing oxidative products in cooked foods). However, **omit Synergies** if no meaningful, food‑relevant interaction can be identified. Do not invent generic or weak pairings just to fill the section.
-   - General rule: a shorter Food Context with only one or two strong subsections is better than three weak ones. **Quality over completeness**—every visible subsection should add genuine scientific or practical value.
-4. **Essential Amino Acid Profile** – When required (protein ≥5 g/100 g or commonly protein source). Keep brief and functional; avoid full amino-acid dumps.
+2. **Other Nutritional Highlights** – Optional residual section. Follow `system/food-page-schema.md`. Omit when nothing additional remains after the tables and Food Context.
+3. **Food Context** – Framework and practical context. Sourcing, Synergies and Preparation each have one detailed home; see `system/food-page-schema.md`. Omit empty subsections. Quality over completeness.
+4. **Essential Amino Acid Profile** – When required (protein ≥5 g/100 g or commonly protein source). Keep brief and functional; avoid full amino-acid dumps. This is the sole detailed home for protein completeness and pairing.
 5. **Nutrition (per 100 g)** – `<NutritionTable details={frontMatter} />`. Renders **sub-tables**: Core nutrients, Key vitamins and minerals, Bioactive compounds (publicly admitted individual fatty acids from `nutrition_per_100g` + `nutrition_supplementary_sources`), and optional **Functional metrics** (`nutrition_functional_metrics`). Source notes for supplementary (`*`) rows appear below the block. Component renders when `nutrition_per_100g` has entries, or supplementary sources, or functional metrics are present.
 6. **Substances** – `<FoodSubstancesFromTable details={frontMatter} />` when using the nutrition layer; otherwise `<FoodSubstances details={frontMatter} />`
 7. **Recipes** – `<FoodRecipes tag="food tag" />`
-8. **References** – Local, page-level reference list for that food, containing only real citations that support claims on the page. Use Vancouver-style numeric citations [1], [2] in Overview/Food Context/Highlights as needed, and list the full clickable references here (ideally also present in `docs/papers/BRAIN-Diet-References`).
+8. **References** – Local, page-level reference list for that food, containing only real citations that support claims on the page. Use Vancouver-style numeric citations [1], [2] in Overview, Food Context, and Other Nutritional Highlights as needed, and list the full clickable references here (ideally also present in `docs/papers/BRAIN-Diet-References`).
 
 ## References and connection to BibTeX
 

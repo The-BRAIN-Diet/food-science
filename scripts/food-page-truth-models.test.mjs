@@ -21,6 +21,7 @@ import {
 import { reconcileFoodPage } from "./lib/food-truth-reconciliation.mjs"
 import { isFoodReferenceLine } from "./lib/bib-citation-format.mjs"
 import { auditFoodPage } from "./audit-food-page-layers.mjs"
+import { FOOD_PAGE_ROLES } from "./lib/food-page-letter-audit-schema.mjs"
 
 const ROOT = path.resolve(process.cwd())
 
@@ -232,6 +233,21 @@ test("almonds Highlights are takeaways and the SR Legacy table keeps the calibra
   assert.match(refs, /43 g almonds\/day/)
 })
 
+test("banana Overview and Ripeness carry starch and PPO facts without a Highlights dump", () => {
+  const raw = readDoc("docs/foods/bananas.md")
+  const {content} = matter(raw)
+  assert.doesNotMatch(content, /## (?:Key Nutritional Highlights|Other Nutritional Highlights|Nutritional Highlights)/)
+  const overview = content.split("## Overview")[1]?.split("## ")[0] ?? ""
+  assert.match(overview, /resistant starch/)
+  assert.match(overview, /polyphenol oxidase/i)
+  assert.doesNotMatch(overview, /typical portion|table basis|100 g|USDA row/i)
+  assert.doesNotMatch(overview, /ripe fruit/)
+  const ripeness = content.split("### Ripeness")[1]?.split("### ")[0] ?? ""
+  assert.match(ripeness, /Characteristic composition/)
+  assert.match(ripeness, /Practical interpretation/)
+  assert.doesNotMatch(ripeness, /Primary role|Bifidobacterium|butyrate|serotonin|tryptophan/i)
+})
+
 test("nutrition-workflow documents existing commands and does not claim pipeline fetches", () => {
   const workflow = readDoc("system/nutrition-workflow.md")
   assert.match(workflow, /npm run nutrition:fetch/)
@@ -432,7 +448,7 @@ test("A-food calibration rules are documented in canonical rule files", () => {
   assert.match(pageModel, /## Food-index descriptions/)
   assert.doesNotMatch(pageModel, /Every compound in the table appears in the substances list/)
 
-  assert.match(schema, /Key Nutritional Highlights is a summary attached to Overview, not a fourth source of truth/)
+  assert.match(schema, /optional residual section, not a fourth Source of Truth/)
   assert.match(schema, /Does not create Substance pages/)
   assert.match(schema, /only by the exact citation key/)
   assert.match(schema, /never\*\* borrow another entry/)
@@ -837,8 +853,32 @@ test("food-page editorial guidance and letter-audit schema are documented withou
   assert.match(pageModel, /They synthesise evidence rather than reproducing nutrient tables, trial reports or reconciliation notes/)
   assert.match(pageModel, /Quantitative composition belongs in tables/)
   assert.match(pageModel, /Calibration example \(Almonds\)/)
-  assert.match(pageModel, /not an evidence table and not a fourth Source of Truth/)
-  assert.match(pageModel, /must not inherit trial-log detail removed from Overviews/)
+  assert.match(schema, /optional residual section/)
+  assert.match(schema, /not a fourth Source of Truth/)
+  assert.match(schema, /Every substantive detail must have \*\*one primary home\*\*/)
+  assert.match(schema, /summary-to-detail progression/)
+  assert.match(schema, /The canonical Highlights heading is \*\*Other Nutritional Highlights\*\*/)
+  assert.match(schema, /superseded headings `Key Nutritional Highlights` and `Nutritional Highlights`/)
+  assert.match(schema, /Do not require a minimum number of bullets/)
+  assert.match(schema, /typical portion, serving weight, or 100 g table-interpretation notes/)
+  assert.match(schema, /Dietary-pattern or frequency advice is not Preparation/)
+  assert.match(pageModel, /Section editorial responsibilities/)
+  assert.match(pageModel, /system\/food-page-schema\.md/)
+  assert.match(foodsRule, /Section editorial responsibilities/)
+  assert.match(schema, /Public editorial prose versus composition administration/)
+  assert.match(schema, /Their omissions are not food characteristics/)
+  assert.match(letter, /Public editorial prose versus composition administration/)
+  assert.match(letter, /Section editorial responsibilities/)
+  assert.match(foodsRule, /Public editorial prose versus composition administration/)
+  assert.match(pageModel, /Public editorial prose versus composition administration/)
+  assert.doesNotMatch(letter, /Their omissions are not food characteristics/)
+  assert.doesNotMatch(foodsRule, /Their omissions are not food characteristics/)
+  assert.doesNotMatch(schema, /portion context/)
+  assert.doesNotMatch(schema, /genuinely useful to interpretation/)
+  assert.doesNotMatch(schema, /worked example \(dark chocolate\)/)
+  assert.doesNotMatch(schema, /3–6 bullets/)
+  assert.doesNotMatch(pageModel, /## Key Nutritional Highlights Layer/)
+  assert.doesNotMatch(foodsRule, /Use 3-6 bullet points only/)
   assert.match(schema, /Overview editorial standard/)
   assert.match(schema, /system\/food-page-model\.md/)
   assert.match(foodsRule, /Overview editorial standard/)
@@ -860,7 +900,34 @@ test("food-page editorial guidance and letter-audit schema are documented withou
   assert.match(letter, /Do \*\*not\*\* begin the next letter batch/)
   assert.match(foodsRule, /Bibliographic core/)
   assert.match(schedule, /do not\*\* fill records or begin the next letter batch/)
-  assert.equal(records.do_not_begin_letter_batch, true)
-  assert.deepEqual(records.records, [])
+  assert.equal(records.status, "letter_b_filled")
+  assert.equal(records.do_not_begin_letter_batch, false)
+  assert.ok(records.records.length > 0)
+  assert.ok(records.records.every((row) => row.letter === "B" && row.filled === true))
+  assert.ok(records.records.every((row) => FOOD_PAGE_ROLES.includes(row.role)))
+})
+
+test("canonical Highlights heading is Other Nutritional Highlights and superseded names stay non-canonical", async () => {
+  const { HIGHLIGHTS_HEADING_CANONICAL, HIGHLIGHTS_HEADING_SUPERSEDED, runCanonicalValidation } = await import(
+    "./lib/food-page-validation.mjs"
+  )
+  const schema = readDoc("system/food-page-schema.md")
+  const validation = readDoc("scripts/lib/food-page-validation.mjs")
+  const architecture = readDoc("system/food-page-build-architecture.md")
+
+  assert.equal(HIGHLIGHTS_HEADING_CANONICAL, "Other Nutritional Highlights")
+  assert.deepEqual([...HIGHLIGHTS_HEADING_SUPERSEDED], ["Key Nutritional Highlights", "Nutritional Highlights"])
+  assert.match(schema, /## Other Nutritional Highlights/)
+  assert.match(architecture, /## Other Nutritional Highlights/)
+  assert.doesNotMatch(validation, /expected 3–6 bullets/)
+  assert.doesNotMatch(validation, /Missing section: ## Other Nutritional Highlights/)
+  assert.match(validation, /HIGHLIGHTS_HEADING_CANONICAL = "Other Nutritional Highlights"/)
+  const almonds = runCanonicalValidation("docs/foods", "almonds")
+  const knhBulletFail = almonds.some((row) => row.issues.some((issue) => /3–6 bullets/.test(issue)))
+  const missingOther = almonds.some((row) =>
+    row.issues.some((issue) => issue.includes("Missing section: ## Other Nutritional Highlights")),
+  )
+  assert.equal(knhBulletFail, false)
+  assert.equal(missingOther, false)
 })
 

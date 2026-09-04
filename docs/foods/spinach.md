@@ -76,12 +76,12 @@ legacy_main_image: /img/foods/spinach/spinach_medium.webp
 
 Spinach is a nutrient-dense leafy green vegetable providing folate, magnesium, iron, potassium, carotenoids (including lutein and zeaxanthin), nitrate compounds, fibre, and a range of polyphenolic phytochemicals. Within the BRAIN Diet framework, spinach is valued as a high-coverage food supporting multiple Biological Regulatory Systems, including methylation (folate), neurotransmitter regulation (iron and magnesium), mitochondrial and metabolic function (magnesium, nitrate, and antioxidant compounds), and oxidative-stress resilience through its diverse phytonutrient content.
 
-Spinach is also one of the richest dietary sources of oxalate. While most individuals tolerate normal dietary oxalate exposure without difficulty, boiling spinach can substantially reduce soluble oxalate content, potentially improving mineral bioavailability and reducing oxalate load for those with a history of calcium oxalate kidney stones or other oxalate-related sensitivities. For most healthy individuals, the nutritional benefits of spinach are likely to outweigh concerns regarding oxalate content [1][2].
+Spinach is also one of the richest dietary sources of oxalate. While most individuals tolerate normal dietary oxalate exposure without difficulty, boiling reduces soluble oxalate far more than steaming and can improve mineral bioavailability, which matters most for people with a history of calcium oxalate kidney stones or other oxalate-related sensitivities. For most healthy individuals, the nutritional benefits of spinach are likely to outweigh concerns regarding oxalate content [1][2].
 ## Key Nutritional Highlights
 
 
 - Reports on iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [1]
-- Reports on effect of Different Cooking Methods on Vegetable Oxalate Content [2]
+- Boiling reduced soluble oxalate by 30–87% and was more effective than steaming (5–53%) [2]
 - Reports on mitochondrial Dysfunction and Kidney Stone Disease [3]
 
 ## Food Context
@@ -93,8 +93,8 @@ Spinach is also one of the richest dietary sources of oxalate. While most indivi
 
 ### Preparation
 
-- Boiling spinach can reduce oxalate load, improving mineral bioavailability [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
-- Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability; boiling helps mitigate this
+- Boiling markedly reduced soluble oxalate content by 30–87% and was more effective than steaming (5–53%) across the vegetables tested, which included spinach [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#chai_effect_2005). Soluble oxalate lost during boiling or steaming was recovered in the cooking water (approximately 100%), so discard that water when the aim is to lower oxalate load. Baking, used only for potatoes in the same study, produced no oxalate loss.
+- Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability; boiling helps mitigate this by leaching soluble oxalate into the discarded cooking water
 - Oxalate negatively affects mitochondrial function and changes redox status in monocytes [Chaiyarit and Thongboonkerd 2020](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020). Experimental studies have shown that oxalate can influence mitochondrial and redox biology at the cellular level, although the relevance of these findings to typical dietary intakes remains uncertain.
 
 ## Recipes
@@ -109,7 +109,7 @@ Spinach is also one of the richest dietary sources of oxalate. While most indivi
 
 ## References
 
-[1] Boiling spinach, kale, and other greens can reduce oxalate load, improving mineral bioavailability. Chai & Liebman 2005. [Effect of Different Cooking Methods on Vegetable Oxalate Content](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
+[1] Boiling markedly reduced soluble oxalate content by 30–87% and was more effective than steaming (5–53%); oxalate lost in cooking was recovered in the cooking water (approximately 100%). Chai & Liebman 2005. [Effect of Different Cooking Methods on Vegetable Oxalate Content](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
 
 [2] Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability. Chaiyarit & Thongboonkerd 2020. [Mitochondrial Dysfunction and Kidney Stone Disease](/docs/papers/BRAIN-Diet-References#chaiyarit_mitochondrial_2020)
 

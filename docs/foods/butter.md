@@ -2,7 +2,7 @@
 id: butter
 title: Butter
 sidebar_label: Butter
-description: See grass-fed butter for detailed information
+description: Dairy fat providing vitamin A and culinary saturated fat
 tags:
   - Food
   - Butter
@@ -66,31 +66,26 @@ nutrition_supplementary_sources:
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      Butter is a documented dietary source of menaquinones (vitamin K2). USDA
-      SR Legacy reports phylloquinone (vitamin K1), not K2, so K2 quantity is
-      not established here.
+      Butter is a documented dietary source of menaquinones (vitamin K2). A
+      comparable K2 quantity is not established here.
 ---
 ## Overview
 
-Butter is a **saturated-fat-rich** dairy fat used for culinary flavour and fat-soluble vitamin delivery (vitamins A, D, E, K when present) [1]. Saturated fat intake is recommended within upper limits in cardiometabolic dietary guidance [1].
+Butter is a saturated-fat-rich dairy fat used in small amounts for flavour and for fat-soluble vitamins, including **vitamin A** [1]. It is energy-dense, so portions stay small.
 
-Within the BRAIN Diet framework, butter is a strategic fat for small-portion use; overall dietary pattern quality and plant-food volume matter more than isolated saturated fat sources [2].
-## Key Nutritional Highlights
+Within a BRAIN-aligned pattern it is a culinary fat, not a staple. Overall diet quality matters more than any one saturated-fat source [2].
 
-- Saturated fat source; keep within guideline limits for SFA intake [1].
-- Fat-soluble vitamin vehicle in whole-dairy matrix.
-- Prefer culinary amounts; not a primary BRAIN Diet staple fat.
-- Plant-forward patterns with limited animal saturated fat align with sustainable healthy diet frameworks [2].
 ## Food Context
 
 ### Sourcing
 
-- See [Grass-Fed Butter](./grass-fed-butter.md) for detailed information
-- Grass-fed varieties provide additional bioactives like CLA and C15:0
+- Use ordinary butter in culinary amounts; it is a flavour fat, not a staple oil.
+- See [Grass-Fed Butter](./grass-fed-butter.md) for pasture-fed composition and how it differs from conventional butter.
 
 ### Preparation
 
-- Provides fat-soluble vitamins A, D, E, K2 (varies by source)
+- Use small amounts for cooking, baking, or finishing.
+- It carries fat-soluble vitamins in a dairy-fat matrix; it is not a vitamin supplement.
 
 ## Recipes
 

@@ -29,7 +29,7 @@ A food may be included because it is:
 
 Food pages use the canonical **Three Sources of Truth** from `system/food-page-model.md`. These are the **rendered** layers:
 
-1. **Overview** — editorial identity narrative (intrinsic identity constituents only). Key Nutritional Highlights is a summary attached to Overview, not a fourth source of truth. Headline identity compounds must resolve to a rendered table row or enter an explicit research-queue state. Numerical Highlights must match rendered-table rounding.
+1. **Overview** — editorial identity narrative (intrinsic identity constituents only). **Other Nutritional Highlights** is an optional residual section, not a fourth Source of Truth and not a second Overview. Headline identity compounds must resolve to a rendered table row or enter an explicit research-queue state. Numerical statements in Overview or Other Nutritional Highlights must match rendered-table rounding.
 2. **Database nutrition table** — the **rendered** composition table from at least one valid representation: populated `nutrition_per_100g` (standard database composition); `nutrition_authorised_specifications` (variable or formulated specialist products); and/or supported qualitative `nutrition_supplementary_sources`. An empty `nutrition_per_100g: {}` is implementation compatibility only and is not the compositional source. Hidden/internal records do not count as table admission. Rendered headings: **Core nutrients**, **Key vitamins and minerals**, **Bioactive compounds**, plus specialist specification tables when used.
 3. **Substances list** — ontology cards via `<FoodSubstancesFromTable />` that mirror the validated, meaningful union. Every **rendered** card must resolve to a corresponding **rendered** quantitative or explicit qualitative table row. Not every table row requires a card.
 
@@ -48,76 +48,235 @@ Order matches `dark-chocolate.md` — context before data, recipes before the nu
 | # | Section | Heading / component | Required |
 |---|---------|---------------------|----------|
 | 1 | Overview | `## Overview` | Yes |
-| 2 | Key Nutritional Highlights | `## Key Nutritional Highlights` | Yes (canonical) |
+| 2 | Other Nutritional Highlights | `## Other Nutritional Highlights` | No — omit when nothing additional |
 | 3 | Food Context | `## Food Context` | Yes (canonical) |
 | 4 | Recipes | `## Recipes` + `<FoodRecipes />` | Yes (canonical) |
 | 5 | Nutrition | `<NutritionTable details={frontMatter} />` | When nutrition layer present |
 | 6 | Substances | `## Substances` + `<FoodSubstancesFromTable />` | When nutrition layer present |
 | 7 | References | `## References` | Yes (canonical) |
 
-**Food Context** uses only subsections with meaningful, food-specific content. Standard subsections (include when relevant):
+The canonical Highlights heading is **Other Nutritional Highlights**. The superseded headings `Key Nutritional Highlights` and `Nutritional Highlights` must not be used as the canonical heading. Existing food pages may still carry a superseded heading until that letter is rewritten; that is a migration state, not a second section.
 
-- `### Sourcing`
-- `### Synergies`
-- `### Preparation`
+When Other Nutritional Highlights is present, it sits immediately after Overview and before Food Context. There is no minimum bullet count.
 
-Additional food-specific subsections are allowed (e.g. `### Ripeness`, `### Polyphenol oxidase (PPO) and smoothie pairing`) when evidence-backed.
+**Food Context** uses only subsections with meaningful, food-specific content. Standard subsections (include when relevant): `### Sourcing`, `### Synergies`, `### Preparation`. Additional food-specific subsections are allowed (e.g. `### Ripeness`) when evidence-backed.
 
 **Essential Amino Acid Profile** — when required (protein ≥ 5 g/100 g or protein-source slug), place as `### Essential Amino Acid Profile` **inside Food Context** (before Recipes). See EAA rules in `food-page-model.md`.
 
 ---
 
+## Section editorial responsibilities
+
+This is the canonical home for food-page editorial structure: what each section is for, and how duplication is prevented. `system/food-page-model.md` keeps the Three Sources of Truth, the Overview editorial standard (Almonds calibration), EAA logic, and directional reconciliation. Cursor rules, the letter-audit schema, workflow notes, and build architecture **link here** rather than restating these responsibilities.
+
+### Core non-duplication rule
+
+Every substantive detail must have **one primary home** on the page.
+
+The only permitted overlap is the Overview: because it must function as an overview, it may briefly name or synthesise the food’s defining characteristics even when their detailed treatment appears later.
+
+This must be summary-to-detail progression:
+
+- the Overview may name the defining point;
+- one later section may explain it;
+- other sections must not repeat it again.
+
+Do not repeat the same claim, qualification, comparison, recommendation or reference annotation across multiple detailed sections.
+
+Overview-level synthesis is not considered improper duplication, but detailed repetition is.
+
+### Public editorial prose versus composition administration
+
+This is the canonical home for the public/internal split. Cursor rules, the letter-audit schema, the page model, and workflow notes **link here**; they must not restate the phrase list or the disposition table.
+
+USDA FoodData Central, SR Legacy, and other composition databases establish or support composition **internally**. Their omissions are not food characteristics. They must not be presented as Nutritional Highlights, Overview content, Food Context, or preparation advice.
+
+Public food prose describes the food. It does not explain the limitations of a composition database, a reconciliation pass, or a registry.
+
+**Public page** (Overview, Other Nutritional Highlights, Food Context including Sourcing, Synergies and Preparation, Essential Amino Acid Profile, and other reader-facing explanatory prose):
+
+- what characterises the food;
+- supported nutritional identity;
+- meaningful variation;
+- practical food selection;
+- preparation;
+- meal use;
+- appropriately qualified evidence.
+
+**Internal data and audit layers** (structured `nutrition_source` fields, table `source_note`s that document a displayed value, bibliography titles, specialist queues, editorial records, FCIR, and other audit files):
+
+- which database was searched;
+- absent fields;
+- unresolved quantities;
+- candidate records;
+- rejected records;
+- source mismatch;
+- reconciliation state;
+- ontology status;
+- decisions requiring later research.
+
+A missing database quantity is handled internally. It is not turned into a public bullet.
+
+Do not write any of the following into public editorial prose (this list is illustrative, not a permission to hide the same idea in other words):
+
+- USDA, FoodData Central, FDC, SR Legacy;
+- database, database record, source record, panel, as commentary on coverage;
+- USDA does not quantify / not quantified by USDA;
+- quantity is not established / comparable quantity is not established / not reported;
+- unavailable in the record / absent from the database / composition database does not capture;
+- retained qualitatively / public row / internal-only / supplementary row;
+- research queue / ontology admission / reconciliation / provenance limitation.
+
+**Disposition of each database-limitation sentence** — choose one; do not leave the sentence in public prose:
+
+1. **Supported food fact** — rewrite as a clear food fact without discussing the database.
+2. **Useful but unresolved claim** — record it once in the appropriate internal research queue, with the exact missing evidence and next action. Remove it from public prose until it can be communicated usefully.
+3. **Already represented elsewhere** — delete the duplicate.
+4. **Not important to readers** — delete it. Do not create a registry item merely because a database lacks a value.
+
+Do not expand the FCIR or another registry for routine missing nutrient quantities. FCIR is for genuine identity or interpretation problems, not every absent database field.
+
+**Quantitative gaps:** do not automatically write “quantity not established” on the public page. Find an appropriate food-specific source where the quantity materially matters; retain a supported qualitative identity only when that identity itself is useful to readers; otherwise omit the public claim; keep the unresolved quantitative task internally. Do not invent a value, borrow from a related food, or imply absence from a missing field.
+
+This rule does **not** remove legitimate source attribution from underlying data, front matter, source notes, bibliography titles, or internal audit files. Do not alter a correct numerical value merely because its source is USDA.
+
+---
+
 ## Overview
 
-Editorial register, length and what must not appear in Overview prose are defined in the **Overview editorial standard** in `system/food-page-model.md`. Almonds is the calibration example. Length follows recommended page depth (`short` / `standard` / `extended` in `system/food-page-letter-audit-schema.md`), which still governs how much distinctive story a page may carry; it does not authorise dumping tables or trial reports into Overview.
+The Overview should give the reader a concise picture of:
 
-- Mention macros or micronutrients when they **materially characterise** the food, using values consistent with the rendered table. Do not repeat their general biology.
-- Prioritise: characteristic substances and chemical forms; distinctive composition; direct matrix effects; preparation or processing; formulation variability; antinutrients and bioavailability; practical dietary or culinary role.
+- what the food is;
+- what genuinely distinguishes it, if anything;
+- why it is included in a BRAIN-aligned dietary pattern;
+- the most important practical interpretation.
+
+It may briefly name a small number of defining nutrients, substances, food-matrix properties or processing distinctions.
+
+It must not become:
+
+- a nutrient-table transcription;
+- a list of all benefits;
+- a trial summary;
+- a preparation checklist;
+- a sourcing guide;
+- an amino-acid analysis;
+- a generic biological-mechanism narrative.
+
+Plain-language register, length and the Almonds calibration remain in the **Overview editorial standard** in `system/food-page-model.md`. Length follows recommended page depth (`short` / `standard` / `extended` in `system/food-page-letter-audit-schema.md`); depth does not authorise dumping tables or trial reports into Overview.
+
 - Headline identity compounds still follow Overview → rendered table → editorial Substance admission. Not every chemical noun is an identity constituent.
 - Do not manufacture biological importance. Culinary-support foods may be described as a meal base, binder, or culinary-support ingredient.
 - General substance biology belongs on Substance pages and, where relevant, the future Food BRS Matrix.
 - Inline numeric citations `[1]`, `[2]` when claims need evidence. Synthesise studies; do not narrate them one by one.
-- **Must not:** nutrient table dumps; invented quantities; values copied from a substitute food; downstream metabolites as if present in the food; presenting supplement, substance-class, or neighbouring-food evidence as direct evidence for the food.
-- Detailed sourcing, pairing how-to, and recipe method remain in Food Context / Recipes. Overview may name a distinctive matrix or culinary role without becoming a recipe.
+- **Must not:** invented quantities; values copied from a substitute food; downstream metabolites as if present in the food; presenting supplement, substance-class, or neighbouring-food evidence as direct evidence for the food; composition-administration language (see **Public editorial prose versus composition administration**).
 
 ---
 
-## Key Nutritional Highlights
+## Nutrition tables
 
-Immediately after Overview. **3–6 bullets**, one sentence or short clause each.
+The canonical home for:
 
-Register and what must not appear are defined in the **Key Nutritional Highlights Layer** in `system/food-page-model.md`. Highlights are not a fourth Source of Truth. Almonds is the calibration example.
+- quantitative composition;
+- units and per-100 g values;
+- macronutrients;
+- vitamins and minerals;
+- publicly admitted bioactive compounds;
+- composition provenance and source notes.
 
-Purpose: fast, decision-relevant takeaways — not a repeat of the nutrition table and not a trial log. When a bullet cites a quantity, it **must** match the rendered table and its displayed rounding.
-
-**Include when useful:**
-
-- Distinctive bioactives or food-specific findings in plain language (with `[n]` citations).
-- Relevant constraints (e.g. heavy metals, conversion limits, portion context).
-- A per-100 g figure only when it is genuinely useful to interpretation (see dark-chocolate worked example).
-
-**Do not include:**
-
-- Generic category filler (“provides carbohydrates”, “low in saturated fat” for most plants).
-- Full amino-acid lists.
-- Trial doses, durations, detailed comparators, biomarker lists, or study methods (those belong in the reference annotation).
-- Recipe method dumps (belong in Food Context / Preparation). Culinary-support pages may note culinary role. Preparation that *is* the food’s distinctive chemistry may be summarised in one bullet.
+Do not restate ordinary table rows in Other Nutritional Highlights.
 
 ---
 
-## Key Nutritional Highlights — worked example (dark chocolate)
+## Other Nutritional Highlights
 
-```markdown
-- Fibre and iron support micronutrient density per 100 g ingredient (fibre ~10.5 g; iron ~7.9 mg).
-```
+**Other** means nutritional information that:
 
-This line means **per 100 g**, dark chocolate is relatively fibre- and iron-dense (values from `nutrition_per_100g` / USDA).
+1. is useful to understanding the food;
+2. is not already adequately communicated by the nutrition tables;
+3. does not belong in Sourcing, Synergies, Preparation, the Essential Amino Acid Profile, Substance cards or References.
+
+It is an **optional residual section** — not a second Overview, a prose version of the nutrition table, a nutrition-table caption, or a dumping ground for material removed elsewhere. It is not a fourth Source of Truth.
+
+Omit the section when it has nothing additional to contribute. Do not require a minimum number of bullets. Do not invent bullets to fill a template.
+
+Use only for additional nutritional interpretation that has no better home elsewhere, for example:
+
+- a meaningful bioavailability distinction not evident from the table;
+- a nutritionally important limitation or absence that characterises the food (not a missing database field);
+- concise interpretation needed to prevent a table value being misunderstood.
+
+Do not include:
+
+- ordinary nutrient quantities, or a second list of the food’s defining nutrients;
+- typical portion, serving weight, or 100 g table-interpretation notes (“table basis”, “typical portions are one medium fruit”, “not 100 g”);
+- composition-administration language; see **Public editorial prose versus composition administration** above;
+- sourcing or product-selection advice;
+- food pairings;
+- cooking instructions;
+- protein completeness or limiting amino acids;
+- generic biological mechanisms;
+- trial protocols or numerical outcomes;
+- material already explained in another detailed section.
+
+When a bullet cites a quantity, it **must** match the rendered table and its displayed rounding. Those figures still belong in the table; do not add a bullet whose only job is to interpret the table.
+
+Existing pages that still use `## Key Nutritional Highlights` are a migration state. Do not treat that heading as canonical, and do not bulk-rewrite those pages from this schema update.
 
 ---
 
 ## Food Context
 
-Practical framework: sourcing, synergies, preparation. Quality over completeness — omit empty subsections.
+Practical framework. Quality over completeness — omit empty subsections.
+
+### Sourcing
+
+The sole detailed home for:
+
+- product and ingredient selection;
+- minimally processed versus processed forms;
+- cultivar, species, cut, edible part or formulation;
+- production-system distinctions;
+- purchasing considerations.
+
+### Synergies
+
+The sole detailed home for:
+
+- meal pairings;
+- complementary foods;
+- effects of one meal component on another;
+- food combinations affecting absorption, stability or dietary balance.
+
+### Preparation
+
+The sole detailed home for:
+
+- cooking and handling;
+- temperature and processing effects;
+- soaking, fermenting, cooling, crushing or blending;
+- reduction or formation of preparation-related compounds.
+
+Dietary-pattern or frequency advice is not Preparation.
+
+---
+
+## Essential Amino Acid Profile
+
+When required, this is the sole detailed home for:
+
+- complete or incomplete protein;
+- limiting amino acids;
+- digestibility and protein quality;
+- complementary protein pairing.
+
+Do not repeat these points in Other Nutritional Highlights.
+
+---
+
+## Substance cards
+
+The canonical navigational representation of editorially admitted food substances. Their presence does not require the Overview or Other Nutritional Highlights to enumerate every card.
 
 ---
 
@@ -141,7 +300,7 @@ These examples guide research. They do not pre-authorise claims or Substance car
 
 Format: `[n] Author(s) (Year). [{Paper title}](/docs/papers/BRAIN-Diet-References#citationKey). Food-relevant finding or trial highlight.`
 
-The annotation is optional. When present it may state a direct food finding, trial dose/design and principal result, analytical finding, preparation finding, or a necessary scope limitation. Do not lead with dietary advice. State what the source found; practical guidance belongs in Overview, Highlights or Preparation.
+The annotation is optional. When present it may state a direct food finding, trial dose/design and principal result, analytical finding, preparation finding, or a necessary scope limitation. Do not lead with dietary advice. State what the source found; practical guidance belongs in Overview, Food Context, or Other Nutritional Highlights when that is the residual home. Study design, dose, duration, comparators, numerical outcomes and evidential limitations belong here, not in Overview or Other Nutritional Highlights.
 
 Do not: use abstracts from neighbouring BibTeX entries; describe a generic mechanism as direct food evidence; infer a food quantity from total fibre or another parent measure; make the annotation broader than the paper; retain a reference merely because it was previously present.
 
@@ -186,7 +345,7 @@ See `system/food-page-frontmatter-shapes.md` for full YAML examples.
 | Command | Checks |
 |---------|--------|
 | `npm run nutrition:validate` | EAA when required; no downstream-metabolite tags; directional layer reconciliation (Substances cards missing **rendered** table rows; unsupported quantitative values; qualitative rows lacking source; Overview identity headlines flagged for verification) |
-| `npm run nutrition:validate -- --canonical` | Baseline + canonical section order, KNH, components, bibliography-linked references |
+| `npm run nutrition:validate -- --canonical` | Baseline + canonical section order, optional Other Nutritional Highlights, components, bibliography-linked references |
 | `npm run nutrition:validate -- --canonical --slug almonds` | Canonical checks for one page only |
 | `npm run nutrition:reconcile-layers` | Post-apply **report only**: cards without rows, Overview compounds without rows, verified table compounds that may need cards, synonym/canonical-ID notes, **proposed** missing substance pages, unpromoted trace rows. Does not create Substance pages. |
 | `node scripts/audit-food-page-layers.mjs --letters A` | Letter-scope audit. A supported qualitative row is **not** an Overview → table gap; remaining work uses precise research-queue states. |

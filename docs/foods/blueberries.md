@@ -2,7 +2,7 @@
 id: blueberries
 title: Blueberries
 sidebar_label: Blueberries
-description: Polyphenol-rich berries supporting cognitive function and antioxidant networks
+description: Berries providing anthocyanins, vitamin C and fibre
 tags:
   - Food
   - Blueberries
@@ -16,6 +16,7 @@ tags:
   - Malvidin
   - Peonidin
   - Petunidin
+  - Quercetin
 list_image: /img/foods/blueberries/blueberries_thumb.webp
 nutrition_per_100g:
   potassium_mg: 77
@@ -67,46 +68,49 @@ nutrition_supplementary_sources:
       exceed cultivated.
     source_note: >-
       Order-of-magnitude for highbush blueberries per 100 g fruit; ripeness and
-      cultivar strongly shift anthocyanin totals (USDA does not standard-report
-      anthocyanins).
+      cultivar strongly shift anthocyanin totals.
   - key: cyanidin_qual
     label: Cyanidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
-      lists cyanidin glycosides in Blueberries; individual cyanidin mass is not
-      reported in the selected USDA SR Legacy composition record.
+      Blueberry flavonoid composition surveys list cyanidin glycosides in the
+      fruit; individual cyanidin mass is not established here.
   - key: delphinidin_qual
     label: Delphinidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database / Phenol-Explorer list delphinidin glycosides in
-      Blueberries; per-100 g of the isolated anthocyanidin is not in the
-      selected USDA SR Legacy record.
+      Blueberry flavonoid composition surveys list delphinidin glycosides in the
+      fruit; per-100 g of the isolated anthocyanidin is not established here.
   - key: malvidin_qual
     label: Malvidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database lists malvidin glycosides in Blueberries;
-      individual malvidin quantity is not in the selected USDA SR Legacy record.
+      Blueberry flavonoid composition surveys list malvidin glycosides in the
+      fruit; individual malvidin quantity is not established here.
   - key: peonidin_qual
     label: Peonidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database lists peonidin glycosides in Blueberries;
-      individual peonidin quantity is not in the selected USDA SR Legacy record.
+      Blueberry flavonoid composition surveys list peonidin glycosides in the
+      fruit; individual peonidin quantity is not established here.
   - key: petunidin_qual
     label: Petunidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA flavonoid database lists petunidin glycosides in Blueberries;
-      individual petunidin quantity is not in the selected USDA SR Legacy
-      record.
+      Blueberry flavonoid composition surveys list petunidin glycosides in the
+      fruit; individual petunidin quantity is not established here.
+  - key: quercetin_qual
+    label: Quercetin
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Blueberry flavonoid composition surveys report quercetin glycosides in the
+      fruit; a single defensible per-100 g value is not established here.
 nutrition_functional_metrics:
   - key: total_polyphenols_berries
     label: Total polyphenols (Folin proxy)
@@ -118,17 +122,9 @@ legacy_main_image: /img/foods/blueberries/blueberries_medium.webp
 ---
 ## Overview
 
-Blueberries are concentrated sources of **anthocyanins**—principally the [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin), [Delphinidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/delphinidin), [Malvidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/malvidin), [Peonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/peonidin), and [Petunidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/petunidin) backbones—and other berry polyphenols studied for vascular and cognitive endpoints, particularly in aging populations [1]. Human flavonoid interventions link higher dietary flavonoid intake to cognitive gains alongside shifts in serum brain-derived neurotrophic factor (BDNF) [2]. Within the BRAIN Diet, blueberries function as a **polyphenol-class food** that pairs with lifestyle levers—notably **exercise**, which induces hippocampal BDNF through exercise-linked metabolites such as β-hydroxybutyrate [3]—and with omega-3-rich dietary patterns that can also modulate neurotrophin biology [6].
+Blueberries provide **anthocyanins**—chiefly cyanidin, delphinidin, malvidin, peonidin and petunidin glycosides—together with **quercetin**, **vitamin C** and fibre [1]. Human blueberry studies have examined cognitive performance with age [1].
 
-Blueberries also supply **quercetin** and related flavonols. Rodent work shows quercetin can increase mitochondrial biogenesis in brain and muscle and improve exercise tolerance—mechanistic context for nutrition–exercise coupling, though not a direct blueberry-and-BDNF human trial [4]. Polyphenol-rich diets are discussed as supporting endogenous antioxidant networks [5,7], and food-derived phenolics can influence gut microbiota composition and metabolite profiles [8].
-
-## Key Nutritional Highlights
-
-- Anthocyanin-rich pigment matrix; cultivar and ripeness strongly affect polyphenol totals (see nutrition table).
-- Low energy density (~57 kcal per 100 g) with modest fibre (~2.9 g per 100 g).
-- Provides vitamin C and manganese alongside polyphenols (USDA baseline).
-- Systematic review evidence links blueberry interventions to cognitive performance outcomes in aging, with proposed neurotrophin and vascular mechanisms [1].
-- Flavonoid-class human trials report serum BDNF changes correlated with cognitive benefits [2].
+Within a BRAIN-aligned pattern they are an everyday berry, not a stand-alone intervention. Fresh or frozen whole fruit keeps fibre that juice does not.
 
 ## Food Context
 
@@ -141,7 +137,6 @@ Blueberries also supply **quercetin** and related flavonols. Rodent work shows q
 ### Preparation
 
 - Prefer fresh or frozen whole berries to limit polyphenol losses from prolonged heat processing and to retain fibre relative to juice-only patterns.
-- Quercetin and related flavonols contribute to blueberry antioxidant activity within broader polyphenol networks [5,7].
 
 ## Recipes
 

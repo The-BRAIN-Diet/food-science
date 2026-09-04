@@ -74,31 +74,24 @@ nutrition_supplementary_sources:
     amount_display: Present — quantity not established
     source_note: >-
       Sulforaphane is formed from glucoraphanin in Broccoli after myrosinase
-      action; USDA SR Legacy does not report sulforaphane. Quantity depends on
-      cultivar and preparation (Houghton 2016).
+      action. Quantity depends on cultivar and preparation (Houghton 2016).
 ---
 ## Overview
 
-Broccoli is a cruciferous vegetable providing **sulforaphane** precursors (glucoraphanin), **folate**, and sulfur compounds supporting glutathione-linked antioxidant networks [1]. Isothiocyanates from crucifers activate Nrf2-associated cytoprotective gene programmes [1].
+Broccoli is a cruciferous vegetable providing **sulforaphane** precursors (glucoraphanin), **folate**, and **vitamin C** at low energy density [1]. Light cooking or chewing-dependent myrosinase activity affects sulforaphane yield.
 
-Within the BRAIN Diet framework, broccoli contributes folate and crucifer phytonutrients at low energy density; light cooking or chewing-dependent myrosinase activity affects sulforaphane yield [2].
-## Key Nutritional Highlights
+Within a BRAIN-aligned pattern, broccoli contributes folate, vitamin C and crucifer phytonutrients as an ordinary vegetable, not as a sulforaphane supplement.
 
-- Glucoraphanin → sulforaphane pathway; Nrf2-activating isothiocyanate interest [1].
-- Folate and vitamin C at low energy density (~34 kcal per 100 g raw) [2].
-- Sulfur-containing vegetable supporting glutathione precursor intake [1].
-- Chewing/light cooking preserves myrosinase-dependent sulforaphane formation.
 ## Food Context
 
 ### Synergies
 
-- Pair with fat for fat-soluble vitamin absorption
+- Include a little dietary fat with broccoli to improve absorption of carotenoids and vitamin K.
 
 ### Preparation
 
 - Light cooking or raw consumption preserves sulforaphane formation
 - Chewing activates myrosinase enzyme to convert glucoraphanin to sulforaphane
-- Sulforaphane activates Nrf2 and has higher bioavailability than other polyphenol supplements
 
 ## Recipes
 

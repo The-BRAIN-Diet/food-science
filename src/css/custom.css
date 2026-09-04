@@ -1129,6 +1129,14 @@ html[class*="docs-doc-id-"][class*="food-composition-interpretation-register"] m
   width: 90px;
 }
 
+.fcir-register .fcir-col-problem {
+  width: 240px;
+}
+
+.fcir-register .fcir-col-decision {
+  width: 340px;
+}
+
 .fcir-register .fcir-col-food {
   width: 180px;
 }
@@ -1143,14 +1151,6 @@ html[class*="docs-doc-id-"][class*="food-composition-interpretation-register"] m
 
 .fcir-register .fcir-col-ids {
   width: 350px;
-}
-
-.fcir-register .fcir-col-problem {
-  width: 240px;
-}
-
-.fcir-register .fcir-col-decision {
-  width: 340px;
 }
 
 .fcir-register .fcir-col-evidence {

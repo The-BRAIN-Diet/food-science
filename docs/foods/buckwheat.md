@@ -61,13 +61,6 @@ Buckwheat is a gluten-free pseudograin that provides complex carbohydrates, fibr
 
 As with other grain-type plant proteins, buckwheat is better framed as **lysine-limited but complementary**, rather than "complete" in isolation [1,2]. In the BRAIN Diet framework, combining buckwheat with legumes across meals is a practical way to improve essential amino-acid balance while maintaining a fibre- and mineral-rich dietary pattern [1,2].
 
-## Key Nutritional Highlights
-
-- Naturally gluten-free pseudograin; lysine-limited plant protein pairs with legumes [1,2].
-- Rich in flavonoids (e.g. rutin) within antioxidant dietary patterns.
-- Fibre (~10 g per 100 g flour) supports fermentable-fibre intake [2].
-- Higher methionine than legumes; combine with lentils/chickpeas for amino-acid balance [1,2].
-
 ## Food Context
 
 ### Synergies

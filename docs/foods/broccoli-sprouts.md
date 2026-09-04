@@ -57,28 +57,30 @@ nutrition_supplementary_sources:
     amount_display: Present — quantity not established
     source_note: >-
       Sulforaphane is formed from glucoraphanin in Broccoli Sprouts after
-      myrosinase action; USDA SR Legacy does not report sulforaphane. Quantity
-      depends on cultivar and preparation (Houghton 2016).
+      myrosinase action. Quantity depends on cultivar and preparation
+      (Houghton 2016).
   - key: glucoraphanin_qual
     label: Glucoraphanin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
       Broccoli Sprouts are a concentrated dietary source of glucoraphanin, the
-      precursor of sulforaphane. USDA SR Legacy has no broccoli-sprout record,
-      so quantity is not established here.
+      precursor of sulforaphane. A comparable quantity is not established here.
+  - key: myrosinase_qual
+    label: Myrosinase
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Fresh broccoli sprouts retain active myrosinase, which converts
+      glucoraphanin to sulforaphane. Quantity is not established; activity
+      depends on freshness and heat (Houghton 2016).
 ---
 ## Overview
 
 Broccoli sprouts are concentrated sources of **glucoraphanin** and active **myrosinase**, delivering higher sulforaphane potential per gram than mature broccoli when handled appropriately [1]. They are used as a functional crucifer garnish or short-grown sprout food.
 
 Within the BRAIN Diet framework, sprouts are a sulforaphane-focused ingredient with meaningful food-safety considerations (fresh sprout handling); typical portions are small [1].
-## Key Nutritional Highlights
 
-- Among the densest practical glucoraphanin sources for sulforaphane delivery [1].
-- Requires active myrosinase (fresh chewing or careful preparation) for ITC conversion [1].
-- Typical servings are tablespoons, not 100 g portions.
-- Fresh sprout food-safety handling matters for immunocompromised individuals.
 ## Food Context
 
 ### Synergies

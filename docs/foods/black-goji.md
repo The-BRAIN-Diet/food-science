@@ -2,77 +2,61 @@
 id: black-goji
 title: Black Goji
 sidebar_label: Black Goji
-description: C3G anthocyanins for heavy metal chelation and neuroprotection
+description: Lycium ruthenicum berries characterised by dense anthocyanin pigments
 tags:
   - Food
   - Black Goji
   - Vegan
   - Vegetarian
-  - Vitamin C
   - Polyphenol
   - Cyanidin
 list_image: /img/foods/black-goji/black-goji_thumb.webp
-nutrition_per_100g:
-  kcal: 52.747095
-  protein_g: 0.578125
-  fat_g: 0.2825
-  carbs_g: 13.455575
-  fibre_g: 1.346
-  sugar_g: 7.964
-  calcium_mg: 4.031
-  iron_mg: 0
-  magnesium_mg: 6.615
-  potassium_mg: 186.3
-  zinc_mg: 0.04518
-nutrition_source:
-  database: USDA FoodData Central
-  food_name: 'Plum, black, with skin, raw'
-  fdc_id: 2710837
-  retrieval_method: API
-  basis: per 100 g edible portion
-  last_checked: '2026-03-14'
+composition_status: withdrawn
+composition_withdrawn:
+  withdrawn_record: USDA FDC 2710837, 'Plum, black, with skin, raw'
+  identity_failure: species
+  reason: >-
+    The entire quantitative panel — energy, macronutrients, fibre, sugars and
+    minerals — was taken from a record for black plum, a different fruit from
+    Lycium ruthenicum. A related dark-skinned fruit is not a source. No value
+    here was a measurement of black goji, so none is retained.
+  queue: system/specialist-composition-review-queue.md
+  withdrawn_on: '2026-08-19'
 main_image: /img/foods/black-goji/black-goji_medium.webp
 legacy_list_image: /img/foods/black-goji/black-goji_thumb.webp
 legacy_main_image: /img/foods/black-goji/black-goji_medium.webp
 nutrition_supplementary_sources:
+  - key: anthocyanins_qual
+    label: Anthocyanins
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Black goji (Lycium ruthenicum) is characterised by dense anthocyanin
+      pigmentation. A comparable quantity is not established here.
   - key: cyanidin_qual
     label: Cyanidin
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      USDA Database for the Flavonoid Content of Selected Foods (Release 3.3)
-      lists cyanidin glycosides in Black Goji; individual cyanidin mass is not
-      reported in the selected USDA SR Legacy composition record.
-  - key: vitamin_c_qual
-    label: Vitamin C
-    status: Present — quantity not established
-    amount_display: Present — quantity not established
-    source_note: >-
-      Black Goji contain ascorbate in food-specific analyses; USDA SR Legacy has
-      no record for this food.
+      Black goji (Lycium ruthenicum) is characterised by anthocyanin pigments
+      with a cyanidin glycoside backbone. A comparable quantity is not
+      established here.
 ---
 ## Overview
 
-Black goji (Lycium ruthenicum) berries are **anthocyanin-rich** fruits, with C3G-type (cyanidin-based) pigments ([Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin) backbone) and exceptionally high pigment density compared with many common berries [1]. Dietary flavonoid and anthocyanin intake has been associated with cognitive endpoints in controlled feeding contexts [2].
+Black goji (*Lycium ruthenicum*) is a small berry used in tiny portions for its dense **anthocyanin** pigments, including **cyanidin** glycosides, rather than as a staple calorie source [1].
 
-Within the BRAIN Diet framework, black goji is a concentrated polyphenol-class food used in small portions for anthocyanin diversity rather than as a staple calorie source [1,2].
-## Key Nutritional Highlights
+Within a BRAIN-aligned pattern it is one berry among others. It does not replace everyday fruit.
 
-- Anthocyanin-dense berry; pigment content strongly exceeds many common cultivated berries [1].
-- High-flavonoid dietary patterns link to cognitive improvements in human trials [2].
-- Low typical serving sizes; nutrient and polyphenol intake scales with portion.
-- Part of diverse berry/polyphenol strategy rather than a single-source reliance [2].
 ## Food Context
 
-### Synergies
+### Sourcing
 
-- Part of diverse polyphenol intake
-- Pair with other C3G-rich foods
+- Use berries labelled *Lycium ruthenicum*; do not treat black plum or common goji as the same food.
 
 ### Preparation
 
-- Can be consumed dried or fresh
-- Supports detoxification pathways
+- Typically dried or infused; serving sizes stay small.
 
 ## Recipes
 
@@ -86,6 +70,4 @@ Within the BRAIN Diet framework, black goji is a concentrated polyphenol-class f
 
 ## References
 
-[1] Anthocyanin-dense berry; pigment content strongly exceeds many common cultivated berries. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
-
-[2] High-flavonoid dietary patterns link to cognitive improvements in human trials. Boots & Haenen 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
+[1] High-flavonoid dietary patterns, including berries, have been studied for cognitive endpoints. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)

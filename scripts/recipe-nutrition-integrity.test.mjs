@@ -798,11 +798,17 @@ test("a withdrawn composition panel publishes nothing quantitative", () => {
   const withdrawn = foodDocs.filter((doc) => doc.frontMatter.composition_status === "withdrawn")
 
   /*
-   * The four pages for which the completed source search found nothing usable.
-   * `mct-oil` was the fifth and has since been resolved against a manufacturer
+   * Pages for which the completed source search found nothing usable.
+   * `mct-oil` was withdrawn and has since been resolved against a manufacturer
    * specification, so it is deliberately absent.
    */
-  const stillWithdrawn = ["sunflower-lecithin", "reishi-mushroom", "turkey-tail-mushroom", "cordyceps-mushroom"]
+  const stillWithdrawn = [
+    "sunflower-lecithin",
+    "reishi-mushroom",
+    "turkey-tail-mushroom",
+    "cordyceps-mushroom",
+    "black-goji",
+  ]
   for (const slug of stillWithdrawn) {
     assert.ok(
       withdrawn.some((doc) => doc.frontMatter.id === slug),

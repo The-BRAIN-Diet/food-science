@@ -14,12 +14,18 @@ export default function Home(): ReactNode {
         <section className={styles.prefaceSection}>
           <div className="container">
             <div className={styles.prefaceContent}>
-              <h2>A BRAIN Health Framework and Diet</h2>
+              <h2>The BRAIN Framework and The BRAIN Diet</h2>
               <p>
-              The BRAIN Diet is a systems-based nutrition framework designed to support brain health by addressing key biological processes such as neurotransmitter balance, mitochondrial function, inflammation, and the gut–brain axis. Developed in the context of research on ADHD, neurodevelopmental disorders, neurodegeneracy, and neurodivergence, it focuses on supporting core cognitive and emotional functions relevant to everybody.
+                The BRAIN Framework (Bio Regulation Algorithm & Integrated Neuronutrition) is a systems-based framework for brain health that maps how interconnected biological regulatory systems influence cognitive, emotional and behavioural function. It integrates evidence across nutrition and lifestyle, including neurotransmitter regulation, mitochondrial bioenergetics, inflammation and oxidative stress, the gut-brain axis, and metabolic and neuroendocrine regulation.
               </p>
               <p>
-              Individual responses to dietary and lifestyle interventions vary, and no specific outcomes can be guaranteed. The BRAIN Diet does not claim to deliver predetermined clinical effects; rather, its development is informed by an evolving body of research, and its impact will be evaluated empirically through observation and appropriately designed clinical studies.
+                Developed initially with a focus on ADHD, the BRAIN Framework investigates how these interacting biological systems may contribute to the heterogeneity, resilience and functional outcomes associated with ADHD and neurodivergence.
+              </p>
+              <p>
+                The BRAIN Diet is the nutritional application of the BRAIN Framework, translating this biological architecture into evidence-informed dietary strategies, foods, nutrients, meal composition, timing and preparation. ADHD provides the framework's first defined research and application context, while many of the biological processes it maps are relevant across wider brain health.
+              </p>
+              <p>
+                Individual responses to nutrition and lifestyle interventions vary, and no specific outcomes can be guaranteed. The BRAIN Framework and BRAIN Diet do not claim predetermined clinical effects. Their development is informed by an evolving body of research, with hypotheses and interventions intended to be evaluated empirically through observation and appropriately designed clinical studies.
               </p>
             </div>
           </div>
