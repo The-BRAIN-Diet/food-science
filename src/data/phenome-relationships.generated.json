@@ -1,19 +1,19 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-08-06T08:42:06.799Z",
+    "generatedAt": "2026-08-31T14:41:22.831Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
     "pmPageCount": 62,
     "pmPagesWithMappings": 62,
-    "relationshipCount": 157,
-    "mappedRelationshipCount": 157
+    "relationshipCount": 156,
+    "mappedRelationshipCount": 156
   },
   "diagnostics": {
     "registryPhenomeCount": 18,
-    "relationshipEdgeCount": 157,
-    "mappedEdgeCount": 157,
+    "relationshipEdgeCount": 156,
+    "mappedEdgeCount": 156,
     "unmappedPhenomeLabels": [],
     "labelsInEdgesNotInRegistry": [],
     "edgesMissingTargetPhenome": 0,
@@ -716,7 +716,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Dietary antioxidant treatment in ADHD has been linked to oxidative-stress and immune readout shifts — Nrf2-linked endogenous induction may support cognitive clarity context when cofactors are sufficient.",
+      "rationale": "A narrative review frames a rationale for dietary antioxidant treatment of ADHD via immune, epigenetic and oxidative-stress hypotheses — Nrf2-linked endogenous induction may support cognitive clarity context when cofactors are sufficient.",
       "references": [
         {
           "index": 1,
@@ -1798,28 +1798,6 @@
       "targetPhenomeId": "PH003"
     },
     {
-      "sourceNode": "BRS3-FM3-PM7",
-      "sourceTitle": "Cytokine Network Modulation",
-      "sourcePath": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation",
-      "parentFM": "BRS3(FM3)",
-      "parentBRS": "BRS3",
-      "targetPhenome": "Emotional Regulation",
-      "relationshipType": "modulates",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Immune dysfunction, elevated IgE, and allergy patterns represent overlapping clinical links in ADHD populations relevant to cytokine-network tone.",
-      "references": [
-        {
-          "index": 1,
-          "label": "Wesselink et al. (2019)",
-          "citationKey": "wesselink_feeding_2019",
-          "href": "/docs/papers/BRAIN-Diet-References#wesselink_feeding_2019"
-        }
-      ],
-      "targetPhenomeId": "PH003"
-    },
-    {
       "sourceNode": "BRS3-FM3-PM8",
       "sourceTitle": "Eicosanoid / SPM Balance",
       "sourcePath": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance",
@@ -2444,7 +2422,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Elevated oxidative stress indices and lipid-peroxidation markers in adult ADHD cohorts may modulate attention-relevant redox burden when generation exceeds clearance.",
+      "rationale": "Elevated oxidative stress indices and lipid-peroxidation markers in adult and paediatric ADHD cohorts may modulate attention-relevant redox burden when generation exceeds clearance.",
       "references": [
         {
           "index": 1,
@@ -2494,7 +2472,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "ROS-driven glial activation and pro-inflammatory cytokine release may intersect ADHD pathogenesis framing; omega-3 interventions reshape resolution-phase cytokine responses.",
+      "rationale": "Youth ADHD cohort work reported higher hs-CRP and IL-6 with lower TNF-α, BDNF and bedtime cortisol — a mixed peripheral immune–neuroendocrine pattern rather than uniform pro-inflammatory cytokine elevation; omega-3 interventions reshape resolution-phase cytokine responses.",
       "references": [
         {
           "index": 1,
@@ -4416,7 +4394,6 @@
       "BRS3-FM2-PM4",
       "BRS3-FM2-PM5",
       "BRS3-FM2-PM6",
-      "BRS3-FM3-PM7",
       "BRS3-FM3-PM8",
       "BRS5-FM1-PM1",
       "BRS5-FM2-PM5",
@@ -4605,7 +4582,6 @@
       "BRS3-FM2-PM4",
       "BRS3-FM2-PM5",
       "BRS3-FM2-PM6",
-      "BRS3-FM3-PM7",
       "BRS3-FM3-PM8",
       "BRS5-FM1-PM1",
       "BRS5-FM2-PM5",
@@ -5310,20 +5286,12 @@
       },
       {
         "target_phenome": "Emotional Regulation",
-        "connected_pm_count": 2,
+        "connected_pm_count": 1,
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
-        "overall_confidence": "medium",
-        "evidence_summary": "Immune dysfunction, elevated IgE, and allergy patterns represent overlapping clinical links in ADHD populations relevant to cytokine-network tone. Omega-3-derived resolution biology may modulate affective inflammatory context when EPA/DHA substrate and omega-6:omega-3 balance are adequate over habitual intake.",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Omega-3-derived resolution biology may modulate affective inflammatory context when EPA/DHA substrate and omega-6:omega-3 balance are adequate over habitual intake.",
         "contributing_pms": [
-          {
-            "id": "BRS3-FM3-PM7",
-            "name": "Cytokine Network Modulation",
-            "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation",
-            "relationship_type": "modulates",
-            "confidence": "low-medium",
-            "evidence_level": "mechanistic"
-          },
           {
             "id": "BRS3-FM3-PM8",
             "name": "Eicosanoid / SPM Balance",
@@ -5340,7 +5308,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "medium",
-        "evidence_summary": "ROS-driven glial activation and pro-inflammatory cytokine release may intersect ADHD pathogenesis framing; omega-3 interventions reshape resolution-phase cytokine responses. Resolution-phase lipid mediator balance may intersect attention-relevant inflammatory tone; direct ADHD SPM outcome evidence remains limited.",
+        "evidence_summary": "Youth ADHD cohort work reported higher hs-CRP and IL-6 with lower TNF-α, BDNF and bedtime cortisol — a mixed peripheral immune–neuroendocrine pattern rather than uniform pro-inflammatory cytokine elevation; omega-3 interventions reshape resolution-phase cytokine responses. Resolution-phase lipid mediator balance may intersect attention-relevant inflammatory tone; direct ADHD SPM outcome evidence remains limited.",
         "contributing_pms": [
           {
             "id": "BRS3-FM3-PM7",
@@ -6032,7 +6000,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "medium",
-        "evidence_summary": "Dietary antioxidant treatment in ADHD has been linked to oxidative-stress and immune readout shifts — Nrf2-linked endogenous induction may support cognitive clarity context when cofactors are sufficient. Thiol/disulfide shifts and DNA oxidation markers in ADHD adults support state-sensitive redox interpretation relevant to cognitive clarity without diagnostic claims. Elevated malondialdehyde in adult ADHD and carotenoid-linked neural membrane protection may support cognitive clarity context through modifiable lipid-phase oxidative damage. Synergistic antioxidant network regeneration may support cognitive clarity context in ADHD oxidative-load framing better than isolated megadose antioxidants.",
+        "evidence_summary": "A narrative review frames a rationale for dietary antioxidant treatment of ADHD via immune, epigenetic and oxidative-stress hypotheses — Nrf2-linked endogenous induction may support cognitive clarity context when cofactors are sufficient. Thiol/disulfide shifts and DNA oxidation markers in ADHD adults support state-sensitive redox interpretation relevant to cognitive clarity without diagnostic claims. Elevated malondialdehyde in adult ADHD and carotenoid-linked neural membrane protection may support cognitive clarity context through modifiable lipid-phase oxidative damage. Synergistic antioxidant network regeneration may support cognitive clarity context in ADHD oxidative-load framing better than isolated megadose antioxidants.",
         "contributing_pms": [
           {
             "id": "BRS3-FM2-PM3",
@@ -6108,7 +6076,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "medium",
-        "evidence_summary": "Endogenous antioxidant induction and mineral cofactor sufficiency may modulate attention-relevant oxidative burden in ADHD contexts; repeated dietary pattern matters more than bolus sulforaphane dosing. Elevated oxidative stress indices and lipid-peroxidation markers in adult ADHD cohorts may modulate attention-relevant redox burden when generation exceeds clearance. Lipid-peroxidation burden tracks oxidative load in ADHD cohorts; food-state antioxidant coverage may modulate membrane protection relevant to sustained attention contexts.",
+        "evidence_summary": "Endogenous antioxidant induction and mineral cofactor sufficiency may modulate attention-relevant oxidative burden in ADHD contexts; repeated dietary pattern matters more than bolus sulforaphane dosing. Elevated oxidative stress indices and lipid-peroxidation markers in adult and paediatric ADHD cohorts may modulate attention-relevant redox burden when generation exceeds clearance. Lipid-peroxidation burden tracks oxidative load in ADHD cohorts; food-state antioxidant coverage may modulate membrane protection relevant to sustained attention contexts.",
         "contributing_pms": [
           {
             "id": "BRS3-FM2-PM3",

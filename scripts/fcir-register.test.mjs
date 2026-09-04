@@ -97,14 +97,30 @@ test("FCIR table columns use the public pixel widths", () => {
   assert.doesNotMatch(css, /min-width:\s*124rem/)
   assert.match(css, /table-layout:\s*fixed/)
   assert.match(css, /\.fcir-col-id \{\s*width: 90px;/)
+  assert.match(css, /\.fcir-col-problem \{\s*width: 240px;/)
+  assert.match(css, /\.fcir-col-decision \{\s*width: 340px;/)
   assert.match(css, /\.fcir-col-food \{\s*width: 180px;/)
   assert.match(css, /\.fcir-col-issue \{\s*width: 220px;/)
   assert.match(css, /\.fcir-col-unii \{\s*width: 260px;/)
   assert.match(css, /\.fcir-col-ids \{\s*width: 350px;/)
-  assert.match(css, /\.fcir-col-problem \{\s*width: 240px;/)
-  assert.match(css, /\.fcir-col-decision \{\s*width: 340px;/)
   assert.match(css, /\.fcir-col-evidence \{\s*width: 320px;/)
   assert.match(css, /\.fcir-col-status \{\s*width: 100px;/)
+})
+
+test("FCIR table leads with problem then decision and action", () => {
+  const register = loadFcirRegister(ROOT)
+  const generated = extractGeneratedBlock(fs.readFileSync(path.join(ROOT, register.public_doc), "utf8"))
+  const header = generated.match(/<thead>[\s\S]*?<\/thead>/)?.[0] || ""
+  assert.match(
+    header,
+    /fcir-col-id">Case ID<\/th>\s*<th className="fcir-col-problem">Problem<\/th>\s*<th className="fcir-col-decision">Decision and action<\/th>\s*<th className="fcir-col-food">Food\/material<\/th>/,
+  )
+  assert.doesNotMatch(generated, /Decision and public treatment/)
+  const previewRow = generated.match(/<table className="fcir-table fcir-table-preview">[\s\S]*?<tr className="fcir-row">[\s\S]*?<\/tr>/)?.[0] || ""
+  assert.match(
+    previewRow,
+    /fcir-col-id">[\s\S]*?fcir-col-problem">[\s\S]*?fcir-col-decision">[\s\S]*?fcir-col-food">/,
+  )
 })
 
 function markdownHrefs(text) {

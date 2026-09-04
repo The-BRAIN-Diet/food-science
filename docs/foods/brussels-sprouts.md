@@ -2,7 +2,7 @@
 id: brussels-sprouts
 title: Brussels Sprouts
 sidebar_label: Brussels Sprouts
-description: Sulfur compounds for glutathione synthesis
+description: Cruciferous vegetable providing glucosinolate-derived isothiocyanates, folate and vitamin C
 tags:
   - Food
   - Brussels Sprouts
@@ -55,29 +55,30 @@ nutrition_source:
 main_image: /img/foods/brussels-sprouts/brussels-sprouts_medium.webp
 legacy_list_image: /img/foods/brussels-sprouts/brussels-sprouts_thumb.webp
 legacy_main_image: /img/foods/brussels-sprouts/brussels-sprouts_medium.webp
+nutrition_supplementary_sources:
+  - key: isothiocyanates_qual
+    label: Isothiocyanates
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Brussels sprouts form isothiocyanates from glucosinolates after myrosinase
+      action. Quantity is not established here (Houghton 2016).
 ---
 ## Overview
 
-Brussels sprouts are cruciferous vegetables providing glucosinolate-derived **isothiocyanates**, **folate**, and fibre at moderate energy density [1]. Crucifer sulfur compounds support glutathione-linked antioxidant strategies [1].
+Brussels sprouts are a cruciferous vegetable providing glucosinolate-derived **isothiocyanates**, **folate**, **vitamin C** and fibre at modest energy [1,2].
 
-Within the BRAIN Diet framework, Brussels sprouts contribute folate and crucifer diversity; folate supports methylation and neurochemical synthesis pathways [2].
-## Key Nutritional Highlights
+Within a BRAIN-aligned pattern they add crucifer diversity. Light cooking or chewing affects isothiocyanate yield.
 
-- Crucifer isothiocyanate / Nrf2 pathway interest similar to broccoli [1].
-- Folate and fibre at ~43 kcal per 100 g; supports one-carbon nutrient intake [2].
-- Sulfur-containing vegetable within glutathione precursor strategies [1].
-- Roasting acceptable; excessive charring increases heat-derived compounds.
 ## Food Context
 
 ### Synergies
 
-- Part of diverse cruciferous vegetable intake; dietary diversity (≥30 plant foods per week) supports microbial richness and resilience
-- Pair with other sulfur-containing vegetables for synergistic effects
+- Include among other cruciferous vegetables for glucosinolate diversity.
 
 ### Preparation
 
-- Light cooking or raw consumption may preserve compounds; gentle cooking preserves nutrients
-- Supports glutathione synthesis; glutathione (GSH) is one of the body's major antioxidants
+- Light cooking or raw consumption may preserve isothiocyanate formation; roast gently rather than charring heavily
 
 ## Recipes
 

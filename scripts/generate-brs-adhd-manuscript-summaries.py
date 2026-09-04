@@ -190,7 +190,7 @@ SECTIONS = [
             "BRS1 itself; methyl-donor and tetrahydrobiopterin-dependent "
             "cofactor chemistry from BRS2 (Fanet et al., 2021); inflammatory "
             "and kynurenine-mediated reshaping of the neurochemical environment "
-            "from BRS3 (Savitz, 2019; Slavich & Irwin, 2014); mitochondrial "
+            "from BRS3 (Savitz, 2020; Slavich & Irwin, 2014); mitochondrial "
             "bioenergetic supply that sets the energetic ceiling for sustained "
             "synaptic activity from BRS4 (Harris et al., 2012; Picard et al., "
             "2018); gut-derived vagal and metabolite signalling from BRS5; "
@@ -239,7 +239,7 @@ SECTIONS = [
             ],
             "systems_integration": [
                 "Fanet, H., Capuron, L., Castanon, N., Calon, F., & Vancassel, S. (2021). Tetrahydrobiopterin (BH4) pathway: From metabolism to neuropsychiatry. Current Neuropharmacology, 19(5), 591–609. https://doi.org/10.2174/1570159X18666200729103529",
-                "Savitz, J. (2019). The kynurenine pathway: A finger in every pie. Molecular Psychiatry, 25(1), 131–147. https://doi.org/10.1038/s41380-019-0414-4",
+                "Savitz, J. (2020). The kynurenine pathway: A finger in every pie. Molecular Psychiatry, 25(1), 131–147. https://doi.org/10.1038/s41380-019-0414-4",
                 "Slavich, G. M., & Irwin, M. R. (2014). From stress to inflammation and major depressive disorder: A social signal transduction theory of depression. Psychological Bulletin, 140(3), 774–815. https://doi.org/10.1037/a0035302",
                 "Harris, J. J., Jolivet, R., & Attwell, D. (2012). Synaptic energy use and supply. Neuron, 75(5), 762–777. https://doi.org/10.1016/j.neuron.2012.08.019",
                 "Picard, M., McEwen, B. S., Epel, E. S., & Sandi, C. (2018). An energetic view of stress: Focus on mitochondria. Frontiers in Neuroendocrinology, 49, 72–85. https://doi.org/10.1016/j.yfrne.2018.01.001",
@@ -393,30 +393,28 @@ SECTIONS = [
             "translational exemplar for BRS3 — not because the disorder is "
             "reducible to inflammation, but because it demonstrates how "
             "immune–redox dysregulation constrains the wider adaptive network. "
-            "Landmark ADHD cohort work links neuroimmune activation to the "
-            "disorder. Chang et al. (2020), studying children and adolescents "
-            "with ADHD in Taiwan, reported associations between elevated reactive "
-            "oxygen species, astrocyte and microglial activation, and "
-            "pro-inflammatory cytokines including IL-6, IL-1β and TNF-α — "
-            "published in Brain, Behavior, and Immunity. This study anchors "
-            "neuroimmune inflammatory activation as reproducible ADHD-associated "
-            "biology rather than a speculative comorbidity.\n\n"
+            "Landmark ADHD cohort work links immune–redox and neuroendocrine "
+            "markers to the disorder without implying a uniform inflammatory "
+            "signature. Chang et al. (2020), studying children and adolescents "
+            "with ADHD in Taiwan, reported higher hs-CRP and IL-6 together with "
+            "lower TNF-α, BDNF and bedtime salivary cortisol — published in "
+            "Brain, Behavior, and Immunity. This mixed marker pattern indicates "
+            "altered immune–neuroendocrine context in that cohort, not ROS, "
+            "astrocyte or microglial activation, and not a uniform "
+            "pro-inflammatory cytokine profile.\n\n"
             "Independent evidence confirms elevated net oxidative burden across "
             "life stages. Bulut et al. (2007) reported significantly higher "
             "malondialdehyde — a lipid peroxidation marker — in adults with "
             "ADHD versus healthy controls. Kurhan & Alp (2021) found shifted "
-            "thiol/disulfide homeostasis toward oxidation and elevated urinary "
+            "thiol/disulfide homeostasis toward oxidation and elevated leukocyte "
             "8-OHdG in adult ADHD, while Miniksar et al. (2023) reported higher "
-            "oxidative stress indices — convergent evidence that antioxidant "
-            "defence and ROS clearance are under strain rather than simply "
-            "deficient. Gut-immune overlap further supports architectural "
-            "breadth: reduced microbiome alpha diversity in paediatric ADHD "
-            "(Prehn-Kristensen et al., 2018) links peripheral ecological "
-            "disturbance to the inflammatory tone BRS3 must contain. Wesselink "
-            "et al. (2019) report immune dysfunction and elevated IgE patterns "
-            "overlapping with ADHD contexts — reinforcing that inflammatory "
-            "regulation spans gut-derived, allergic and neuroimmune domains "
-            "rather than a single cytokine pathway.\n\n"
+            "oxidative stress indices in children and adolescents with ADHD — "
+            "convergent evidence that antioxidant defence and ROS clearance are "
+            "under strain rather than simply deficient. Gut-immune overlap "
+            "further supports architectural breadth: reduced microbiome alpha "
+            "diversity in paediatric ADHD (Prehn-Kristensen et al., 2018) links "
+            "peripheral ecological disturbance to the inflammatory tone BRS3 "
+            "must contain.\n\n"
             "ADHD is therefore not interpreted as an inflammatory disorder "
             "alone. Rather, elevated immune activation and oxidative burden "
             "represent upstream constraints on the biological environment "
@@ -424,9 +422,9 @@ SECTIONS = [
             "Dietary antioxidant and anti-inflammatory inputs acquire "
             "translational significance only when interpreted through this "
             "integrated immune–redox architecture — not as isolated corrections "
-            "of single biomarkers. Verlaet et al. (2018) provide additional "
-            "translational logic by framing dietary antioxidant treatment of ADHD "
-            "through immune, epigenetic and oxidative-stress regulation — "
+            "of single biomarkers. Verlaet et al. (2018), in a narrative review, "
+            "frame a rationale for dietary antioxidant treatment of ADHD "
+            "through immune, epigenetic and oxidative-stress hypotheses — "
             "supporting the architectural view that inflammatory and redox biology "
             "are modifiable system-level contexts rather than downstream "
             "consequences of neurotransmitter dysfunction alone."
@@ -436,7 +434,7 @@ SECTIONS = [
             "systems operate. Chronic inflammatory activation propagates through "
             "neuroimmune pathways — including kynurenine metabolism — that "
             "directly reshape monoaminergic signalling and excitation–inhibition "
-            "balance in BRS1 (Savitz, 2019). Gut-derived immune spillover from "
+            "balance in BRS1 (Savitz, 2020). Gut-derived immune spillover from "
             "impaired barrier containment (BRS5) amplifies systemic inflammatory "
             "tone (O'Mahony et al., 2015), while stress-mediated load allocation "
             "(BRS6) activates inflammatory signalling through coordinated "
@@ -450,7 +448,7 @@ SECTIONS = [
             "strain surfacing in neurotransmission or bioenergetics often "
             "originates in immune tone and redox burden that never fully "
             "resolved. Landmark architectural evidence supports this "
-            "organisation: Savitz (2019) positions kynurenine metabolism as a "
+            "organisation: Savitz (2020) positions kynurenine metabolism as a "
             "convergent neuroimmune interface reshaping monoaminergic biology, "
             "while Slavich & Irwin (2014) formalise stress-to-inflammation "
             "signalling as a systems-level constraint on adaptive performance."
@@ -471,15 +469,14 @@ SECTIONS = [
         "references": {
             "adhd_landmark": [
                 "Chang, J. P.-C., Mondelli, V., Satyanarayanan, S. K., et al. (2020). Cortisol, inflammatory biomarkers and neurotrophins in children and adolescents with ADHD in Taiwan. Brain, Behavior, and Immunity, 88, 105–113. https://doi.org/10.1016/j.bbi.2020.05.017",
-                "Bulut, M., et al. (2007). Evaluation of malondialdehyde levels in adult ADHD. Psychiatry and Clinical Psychopharmacology, 17(2), 89–94. https://doi.org/10.1080/14751740701595421",
-                "Kurhan, S., & Alp, H. H. (2021). Dynamic thiol/disulfide homeostasis and 8-OHdG in adult ADHD. Psychiatry and Clinical Psychopharmacology, 31(4), 394–400. https://doi.org/10.5152/pcp.2021.21078",
-                "Miniksar, O. P., et al. (2023). Effect of oxidative stress on adult ADHD. Clinical Psychopharmacology and Neuroscience, 21(1), 58–64. https://doi.org/10.9758/cpn.2023.21.1.58",
+                "Bulut, M., Selek, S., Gergerlioglu, H. S., Savas, H. A., Yilmaz, H. R., Yuce, M., & Ekici, G. (2007). Malondialdehyde levels in adult attention-deficit hyperactivity disorder. Journal of Psychiatry & Neuroscience, 32(6), 435–438. PMID 18043768. https://www.jpn.ca/content/32/6/435",
+                "Kurhan, F., & Alp, H. H. (2021). Dynamic thiol/disulfide homeostasis and oxidative DNA damage in adult attention deficit hyperactivity disorder. Clinical Psychopharmacology and Neuroscience, 19(4), 731–738. https://doi.org/10.9758/cpn.2021.19.4.731",
+                "Miniksar, D. Y., Cansız, M. A., Göçmen, A. Y., Kılıç, M., & Miniksar, Ö. H. (2023). The effect of drug use, body mass index and blood pressure on oxidative stress levels in children and adolescents with attention deficit and hyperactivity disorder. Clinical Psychopharmacology and Neuroscience, 21(1), 88–98. https://doi.org/10.9758/cpn.2023.21.1.88",
                 "Prehn-Kristensen, A., et al. (2018). Reduced microbiome alpha diversity in pediatric ADHD. PLOS ONE, 13(7), e0200728. https://doi.org/10.1371/journal.pone.0200728",
                 "Verlaet, A. A. J., et al. (2018). Rationale for dietary antioxidant treatment of ADHD. Nutrients, 10(4), 405. https://doi.org/10.3390/nu10040405",
-                "Wesselink, E., et al. (2019). Feeding immunity: Physiological and behavioral responses to food allergy in ADHD. Nutrients, 11(10), 2351. https://doi.org/10.3390/nu11102351",
             ],
             "systems_integration": [
-                "Savitz, J. (2019). The kynurenine pathway: A finger in every pie. Molecular Psychiatry, 25(1), 131–147. https://doi.org/10.1038/s41380-019-0414-4",
+                "Savitz, J. (2020). The kynurenine pathway: A finger in every pie. Molecular Psychiatry, 25(1), 131–147. https://doi.org/10.1038/s41380-019-0414-4",
                 "Slavich, G. M., & Irwin, M. R. (2014). From stress to inflammation and major depressive disorder: A social signal transduction theory of depression. Psychological Bulletin, 140(3), 774–815. https://doi.org/10.1037/a0035302",
                 "O'Mahony, S. M., Clarke, G., Borre, Y. E., Dinan, T. G., & Cryan, J. F. (2015). Serotonin, tryptophan metabolism and the brain-gut-microbiome axis. Behavioural Brain Research, 277, 32–48. https://doi.org/10.1016/j.bbr.2014.07.027",
             ],

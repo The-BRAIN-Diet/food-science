@@ -32,6 +32,7 @@ export const SUBSTITUTED_RECORDS = {
     describes: "Mushroom, beech",
     identity_failure: "species",
   },
+  "black-goji": {fdc_id: 2710837, describes: "Plum, black, with skin, raw", identity_failure: "species"},
 }
 
 /** An 18:3 whose isomer the source never stated. Never ALA, never in a total. */

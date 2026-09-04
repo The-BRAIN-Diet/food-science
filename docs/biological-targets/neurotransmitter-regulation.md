@@ -22,7 +22,7 @@ hide_title: true
 
 ## Ambition
 
-Maintain continuous, balanced neurotransmitter signalling across monoaminergic, cholinergic, membrane-lipid, and GABA–glutamate systems so the brain sustains attention, arousal, motivation, emotional regulation, and behavioural control without drifting into depletion, imbalance, or excitation–inhibition mismatch.
+Maintain continuous, balanced neurotransmitter signalling across monoaminergic, cholinergic and GABA–glutamate systems, supported by membrane-lipid integrity, so the brain sustains attention, arousal, motivation, emotional regulation and behavioural control without drifting into depletion, broader signalling imbalance or excitation–inhibition mismatch.
 
 ## Therapeutic Area Research
 
@@ -587,7 +587,7 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Established that psychological and physiological stressors activate inflammatory signalling capable of reshaping central nervous system function through coordinated immune, neuroendocrine and neurochemical pathways. This supports the framework interpretation that chronic inflammatory activation can become a principal upstream constraint on BRS1 performance during sustained physiological demand.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019">Savitz, 2019</a> — Demonstrated that immune activation reshapes neurotransmitter regulation through the kynurenine pathway and broader neuroimmune interactions, influencing both monoaminergic signalling and excitation–inhibition balance. This supports the BRAIN Framework interpretation that maintaining immune regulation preserves the biological environment required for resilient monoaminergic and excitation–inhibition regulation within BRS1.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019">Savitz, 2020</a> — Demonstrated that immune activation reshapes neurotransmitter regulation through the kynurenine pathway and broader neuroimmune interactions, influencing both monoaminergic signalling and excitation–inhibition balance. This supports the BRAIN Framework interpretation that maintaining immune regulation preserves the biological environment required for resilient monoaminergic and excitation–inhibition regulation within BRS1.</p></li>
 </ul>
 
 </div>

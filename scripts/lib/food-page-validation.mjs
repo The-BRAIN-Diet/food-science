@@ -27,14 +27,33 @@ export const DOWNSTREAM_METABOLITE_TAGS = new Set([
   "Nitric Oxide",
 ])
 
+export const HIGHLIGHTS_HEADING_CANONICAL = "Other Nutritional Highlights"
+export const HIGHLIGHTS_HEADING_SUPERSEDED = Object.freeze([
+  "Key Nutritional Highlights",
+  "Nutritional Highlights",
+])
+
+const HIGHLIGHTS_HEADING_RES = [
+  /^##\s+Other Nutritional Highlights\s*$/m,
+  /^##\s+Key Nutritional Highlights\s*$/m,
+  /^##\s+Nutritional Highlights\s*$/m,
+]
+
 const CANONICAL_SECTIONS = [
   { id: "overview", re: /^##\s+Overview\s*$/m },
-  { id: "knh", re: /^##\s+Key Nutritional Highlights\s*$/m },
   { id: "foodContext", re: /^##\s+Food Context\s*$/m },
   { id: "recipes", re: /^##\s+Recipes\s*$/m },
   { id: "substances", re: /^##\s+Substances\s*$/m },
   { id: "references", re: /^##\s+References\s*$/m },
 ]
+
+function highlightsSectionIndex(content) {
+  for (const re of HIGHLIGHTS_HEADING_RES) {
+    const pos = sectionIndex(content, re)
+    if (pos !== -1) return pos
+  }
+  return -1
+}
 
 const BIB_LINK_RE = /\/docs\/papers\/BRAIN-Diet-References#[a-z0-9_-]+/i
 
@@ -86,16 +105,6 @@ function extractSection(content, startRe, endRes) {
     }
   }
   return slice.slice(0, end)
-}
-
-function countKnHBullets(knhSection) {
-  if (!knhSection) return 0
-  const lines = knhSection.split("\n")
-  let count = 0
-  for (const line of lines) {
-    if (/^-\s+/.test(line)) count += 1
-  }
-  return count
 }
 
 function referencesMissingBibLinks(referencesSection) {
@@ -155,7 +164,6 @@ export function runCanonicalValidation(foodsDir = FOODS_DIR_DEFAULT, slugFilter 
 
   const sectionLabels = {
     overview: "Overview",
-    knh: "Key Nutritional Highlights",
     foodContext: "Food Context",
     recipes: "Recipes",
     substances: "Substances",
@@ -177,9 +185,10 @@ export function runCanonicalValidation(foodsDir = FOODS_DIR_DEFAULT, slugFilter 
       }
     }
 
+    const highlightsPos = highlightsSectionIndex(content)
+
     const orderPairs = [
-      ["overview", "knh"],
-      ["knh", "foodContext"],
+      ["overview", "foodContext"],
       ["foodContext", "recipes"],
       ["recipes", "substances"],
       ["substances", "references"],
@@ -190,10 +199,13 @@ export function runCanonicalValidation(foodsDir = FOODS_DIR_DEFAULT, slugFilter 
       }
     }
 
-    const knhSection = extractSection(content, /^##\s+Key Nutritional Highlights\s*$/m, [/^##\s+/m])
-    const knhCount = countKnHBullets(knhSection)
-    if (positions.knh !== -1 && (knhCount < 3 || knhCount > 6)) {
-      issues.push(`Key Nutritional Highlights: expected 3–6 bullets, found ${knhCount}`)
+    if (highlightsPos !== -1) {
+      if (positions.overview !== -1 && positions.overview >= highlightsPos) {
+        issues.push(`Section order: ## Overview must appear before ## ${HIGHLIGHTS_HEADING_CANONICAL}`)
+      }
+      if (positions.foodContext !== -1 && highlightsPos >= positions.foodContext) {
+        issues.push(`Section order: ## ${HIGHLIGHTS_HEADING_CANONICAL} must appear before ## Food Context`)
+      }
     }
 
     if (!/<FoodRecipes\s/.test(content)) {

@@ -201,7 +201,7 @@ Describe the desired functional state of the Biological Regulatory System — th
 
 ### Example (BRS1)
 
-> Maintain continuous, balanced neurotransmitter signalling across monoaminergic, cholinergic, membrane-lipid, and GABA–glutamate systems so the brain sustains attention, arousal, motivation, emotional regulation, and behavioural control without drifting into depletion, imbalance, or excitation–inhibition mismatch.
+> Maintain continuous, balanced neurotransmitter signalling across monoaminergic, cholinergic and GABA–glutamate systems, supported by membrane-lipid integrity, so the brain sustains attention, arousal, motivation, emotional regulation and behavioural control without drifting into depletion, broader signalling imbalance or excitation–inhibition mismatch.
 
 ---
 

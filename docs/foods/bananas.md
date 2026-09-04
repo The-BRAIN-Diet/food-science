@@ -2,9 +2,7 @@
 id: bananas
 title: Bananas
 sidebar_label: Bananas
-description: >-
-  B6 and tryptophan when ripe; resistant starch when green — ripeness changes
-  functional role
+description: Fruit providing vitamin B6 and potassium; starch profile changes with ripeness
 tags:
   - Food
   - Bananas
@@ -60,35 +58,28 @@ legacy_main_image: /img/foods/bananas/bananas_medium.webp
 ---
 ## Overview
 
-Bananas provide **vitamin B6**, **tryptophan**, and **potassium** when ripe, supporting neurotransmitter-related pathways and electrolyte balance [1]. **Green** bananas are comparatively richer in **resistant starch**, a fermentable fibre supporting gut microbiome diversity (downstream SCFA production is a fermentation outcome, not an intrinsic banana nutrient).
+Bananas provide **vitamin B6** and **potassium**, but ripeness is their most useful nutritional distinction. Greener bananas retain more fermentable **resistant starch**; as the fruit ripens, much of this starch is converted into sugars, producing a softer and sweeter fruit.
 
-Within the BRAIN Diet framework, ripeness is the primary functional selector: ripe fruit for B6/tryptophan patterns; green fruit for prebiotic resistant starch. Bananas are relatively high in **polyphenol oxidase (PPO)**; combining them in fresh smoothies with flavan-3-ol sources can markedly reduce polyphenol bioavailability [1].
-## Key Nutritional Highlights
+Bananas also have relatively high **polyphenol oxidase (PPO)** activity. In blended drinks, this can substantially reduce the availability of flavan-3-ols from ingredients such as cocoa or certain berries. Where preserving these compounds is the priority, choose a lower-PPO fruit instead [1].
 
-- Ripeness shifts role: ripe = B6/tryptophan; green = resistant starch prebiotic fibre.
-- High PPO activity can reduce flavan-3-ol uptake when blended with polyphenol-rich ingredients [1].
-- Potassium and moderate carbohydrate content; table values reflect riper fruit.
-- Typical portions are one medium fruit (~100–120 g), not 100 g table servings alone.
 ## Food Context
 
 ### Ripeness
 
-| Stage | Primary role |
-|-------|----------------|
-| **Ripe** | B6 and tryptophan for serotonin-related pathways; potassium for electrolyte balance |
-| **Green / unripe** | Resistant starch as prebiotic fibre; supports Bifidobacterium, Akkermansia, butyrate production, and gut barrier function |
+| Stage | Characteristic composition | Practical interpretation |
+|-------|----------------------------|--------------------------|
+| **Ripe** | Less resistant starch and more free sugars | Softer and sweeter; suitable for eating directly or adding sweetness to meals |
+| **Green / unripe** | More resistant starch and less free sugar | Firmer and less sweet; provides more fermentable resistant starch |
 
 ### Synergies
 
-- Part of diverse fruit intake (ripe) and prebiotic fibre strategy (green)
-- Pair ripe bananas with tryptophan-rich proteins for serotonin synthesis; moderate carbs can increase Trp:LNAA ratio (timing midday or evening for calming effect)
-- Combine green-banana resistant starch with other prebiotic fibres (e.g. inulin from chicory/onions, GOS from legumes, pectin from apples, cooled potatoes) for broader microbiome support
+- Use ripe fruit when sweetness and softness are wanted; use greener fruit when more resistant starch is wanted.
+- For flavan-3-ol-rich drinks, prefer a lower-PPO base than banana [1].
 
 ### Preparation
 
-- **Ripe:** eat when yellow with brown speckling for higher B6 and tryptophan availability
-- **Green / unripe:** consume while still firm and green for resistant starch; cooking can further increase resistant starch content in some preparations
-- Resistant starch from green bananas and cooled potatoes supports gut microbiome diversity and butyrate production
+- **Ripe:** eat when yellow with brown speckling, or mash into meals for sweetness.
+- **Green / unripe:** use while still firm and green when more resistant starch is wanted.
 
 ### Polyphenol oxidase (PPO) and smoothie pairing
 

@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * Batch migrate food pages toward canonical schema (system/food-page-schema.md).
- * - Inserts ## Key Nutritional Highlights (3–6 bullets) from Overview when missing or under-filled.
+ * - Does not invent Other Nutritional Highlights; that section is optional.
+ * - Existing superseded `Key Nutritional Highlights` headings are left in place until a letter rewrite.
  * - Rebuilds ## References from bibliography-linked citations only.
  * - Adds fallback references when none exist in the document.
  * - Adds Essential Amino Acid Profile blocks where required.
@@ -126,7 +127,7 @@ function injectInlineCitations(content, refCount) {
     content = content.slice(0, overview.start) + `## Overview\n\n${body}\n` + content.slice(overview.end)
   }
 
-  const knh = extractSection(content, /^##\s+Key Nutritional Highlights\s*$/m)
+  const knh = extractSection(content, /^##\s+(?:Other Nutritional Highlights|Key Nutritional Highlights|Nutritional Highlights)\s*$/m)
   if (knh) {
     let n = 1
     const newBody = knh.body
@@ -140,7 +141,8 @@ function injectInlineCitations(content, refCount) {
         return line
       })
       .join("\n")
-    content = content.slice(0, knh.start) + `## Key Nutritional Highlights\n\n${newBody}\n` + content.slice(knh.end)
+    const headingLine = knh.full.split("\n")[0] || "## Other Nutritional Highlights"
+    content = content.slice(0, knh.start) + `${headingLine}\n\n${newBody}\n` + content.slice(knh.end)
   }
 
   return content
@@ -250,10 +252,6 @@ function migratePage(slug, foodsDir, bibIndex) {
   let content = stripOrphanBeforeReferences(initialContent)
   const title = fm.title || slug.replace(/-/g, " ")
 
-  const overview = extractSection(content, /^##\s+Overview\s*$/m)
-  const knh = extractSection(content, /^##\s+Key Nutritional Highlights\s*$/m)
-
-  let knhCount = knh ? countKnHBullets(knh.body) : 0
   let bibRefs = extractBibRefs(content)
   if (bibRefs.length === 0 && ALL_FALLBACK_REFS[slug]) {
     bibRefs = ALL_FALLBACK_REFS[slug]
@@ -262,25 +260,6 @@ function migratePage(slug, foodsDir, bibIndex) {
     bibRefs = extractBibRefs(content)
   }
   bibRefs = refsWithText(bibRefs, slug, bibIndex)
-
-  if (!knh || knhCount < 3 || knhCount > 6) {
-    let bullets = bibRefs.length ? deriveKnHBulletsFromRefs(bibRefs) : []
-    if (bullets.length < 3) {
-      const extra = deriveKnHBullets(overview?.body || "").filter(
-        (b) => !bullets.some((existing) => existing.includes(b.slice(2, 50))),
-      )
-      bullets = [...bullets, ...extra].slice(0, 6)
-    }
-    while (bullets.length < 3 && overview?.body) {
-      bullets.push(deriveKnHBullets(overview.body)[0] || `- See overview for context.`)
-    }
-    const knhSection = `## Key Nutritional Highlights\n\n${bullets.join("\n")}\n`
-    if (knh) {
-      content = content.slice(0, knh.start) + knhSection + content.slice(knh.end)
-    } else if (overview) {
-      content = content.slice(0, overview.end) + `\n\n${knhSection}` + content.slice(overview.end)
-    }
-  }
 
   const refsBefore = extractSection(content, /^##\s+References\s*$/m, [])
   const refsAlreadyCanonical =

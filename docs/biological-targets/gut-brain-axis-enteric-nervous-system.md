@@ -70,7 +70,7 @@ Collectively, these findings do not imply that gut dysbiosis is universal in ADH
 ### Framework expansion
 
 - **BRS5(SM-Lifestage) — pending:** early-life probiotic modulation windows synthesised in [Pärtty et al., 2015](/docs/papers/BRAIN-Diet-References#partty_possible_2015); dedicated SM-Lifestage pages not yet published.
-- **Cross-BRS shared evidence:** reduced microbiome alpha diversity ([Prehn-Kristensen et al., 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)) is routed here for ecological-turnover interpretation and is also represented on [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress); immune–allergy overlap in ADHD ([Wesselink et al., 2019](/docs/papers/BRAIN-Diet-References#wesselink_feeding_2019)) is represented on BRS3.
+- **Cross-BRS shared evidence:** reduced microbiome alpha diversity ([Prehn-Kristensen et al., 2018](/docs/papers/BRAIN-Diet-References#prehn-kristensen_reduced_2018)) is routed here for ecological-turnover interpretation and is also represented on [BRS3 — Inflammation & Oxidative Stress](/docs/biological-targets/inflammation-oxidative-stress).
 
 </div>
 </div>

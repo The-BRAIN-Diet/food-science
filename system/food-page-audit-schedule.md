@@ -71,8 +71,8 @@ node scripts/food-page-letter-audit.mjs --schema
 
 Canonical structure (`system/food-page-schema.md`):
 
-- Canonical section order (Overview → Key Nutritional Highlights → Food Context → Recipes → Substances → References)
-- 3–6 Key Nutritional Highlights bullets
+- Canonical section order (Overview → optional Other Nutritional Highlights → Food Context → Recipes → Substances → References)
+- Other Nutritional Highlights is optional; no minimum bullet count. Existing pages may still use the superseded `Key Nutritional Highlights` heading until rewritten.
 - Required components (`<FoodRecipes />`, `<NutritionTable />`, `<FoodSubstancesFromTable />`)
 - **References display:** bibliographic core is `[n] Author(s) (Year). [title](#citationKey)`; food pages may append a concise food-specific finding. Do not replace that core.
 - Essential Amino Acid Profile when protein ≥ 5 g/100 g

@@ -3,9 +3,10 @@
  * add-rank-highlights.mjs
  *
  * Scans nutrition_per_100g across food pages by category and, when justified,
- * injects a single rank-style bullet into `## Key Nutritional Highlights`.
+ * injects a single rank-style bullet into `## Other Nutritional Highlights`
+ * (or a superseded `## Key Nutritional Highlights` heading still on the page).
  *
- * Editorial rules (Rank Claim Rule for Key Nutritional Highlights):
+ * Editorial rules (Rank Claim Rule for Other Nutritional Highlights):
  * - Only add a rank bullet when it is genuinely distinctive and useful.
  * - Do NOT add a rank bullet merely because a food is numerically highest.
  *
@@ -38,7 +39,7 @@
  *
  * Safe to re-run: before inserting, the script removes any existing auto-generated
  * "Highest/Joint-highest ... among BRAIN Diet ... pages (per 100 g)." bullets
- * from the Key Nutritional Highlights section for that page.
+ * from the Other Nutritional Highlights section for that page (or a superseded heading).
  */
 
 import fs from "node:fs"
@@ -228,12 +229,24 @@ function chooseBestRankForSlug(category, slug, slugs, slugToNut) {
   return best
 }
 
+function findHighlightsMarker(raw) {
+  for (const marker of [
+    "## Other Nutritional Highlights",
+    "## Key Nutritional Highlights",
+    "## Nutritional Highlights",
+  ]) {
+    const idx = raw.indexOf(marker)
+    if (idx !== -1) return { marker, idx }
+  }
+  return null
+}
+
 function updateHighlightsForSlug(slug, category, best) {
   const filePath = path.join(FOODS_DIR, `${slug}.md`)
   const raw = fs.readFileSync(filePath, "utf8")
-  const marker = "## Key Nutritional Highlights"
-  const idx = raw.indexOf(marker)
-  if (idx === -1) return false
+  const found = findHighlightsMarker(raw)
+  if (!found) return false
+  const { marker, idx } = found
 
   const nextHeadingIdx = raw.indexOf("\n## ", idx + marker.length)
   const sectionEnd = nextHeadingIdx === -1 ? raw.length : nextHeadingIdx

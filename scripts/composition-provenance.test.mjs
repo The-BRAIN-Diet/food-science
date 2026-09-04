@@ -2,7 +2,7 @@
  * Exact-food source matching and omega-3 identity.
  *
  * The rules under test are in `system/food-nutrition-schema.md`. They exist
- * because 99 pages published an amino acid as an omega-3 and five published
+ * because 99 pages published an amino acid as an omega-3 and several published
  * another food's entire panel; these assertions are what stops either
  * returning quietly.
  */
@@ -32,6 +32,15 @@ test("a record proven to describe a related food cannot be cited again", () => {
 
   // The same id on a page it genuinely describes is not a fault.
   assert.deepEqual(checkExactFoodMatch({nutrition_source: {fdc_id: 748278}}, "rapeseed-oil"), [])
+
+  const goji = checkExactFoodMatch(
+    {nutrition_source: {fdc_id: 2710837, database: "USDA FoodData Central"}},
+    "black-goji",
+  )
+  assert.ok(
+    goji.some((i) => /2710837.*Plum, black.*substituted/.test(i)),
+    `re-citing black plum on the black goji page must fail: ${goji.join("; ")}`,
+  )
 })
 
 test("every substituted record names the food it actually describes", () => {

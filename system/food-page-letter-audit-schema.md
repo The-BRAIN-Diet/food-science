@@ -107,7 +107,7 @@ Examples **guide research**; they do not pre-authorise claims or Substance cards
 
 ## Guardrails for letter passes
 
-- Preserve Overview → rendered table → editorial Substance admission. Overview register follows the Overview editorial standard in `system/food-page-model.md`; do not restate that rule here.
+- Preserve Overview → rendered table → editorial Substance admission. Overview register follows the Overview editorial standard in `system/food-page-model.md`. Other Nutritional Highlights, Sourcing, Synergies, Preparation, EAA, and the public/internal split follow **Section editorial responsibilities** and **Public editorial prose versus composition administration** in `system/food-page-schema.md`.
 - Ordinary or trace presence does not automatically justify a card.
 - Do not create Substance pages during the audit.
 - Do not remove mechanisms until their destination is recorded in `destined_for_substance_or_brs_matrix`.
@@ -126,5 +126,5 @@ Examples **guide research**; they do not pre-authorise claims or Substance cards
 
 - Schema dump: `node scripts/food-page-letter-audit.mjs --schema`
 - Filled records (when a letter pass exists): `scripts/data/food-editorial-audit-records.json`
-- Until a letter pass writes records, that file stays empty (`records: []`).
+- Letter **B** is filled. Other letters stay unfilled until their pass. Schema updates must not pre-fill the next batch.
 - Canonical validation (`npm run food:audit:today`) does **not** require filled editorial records and does **not** fail pages for recommended depth.

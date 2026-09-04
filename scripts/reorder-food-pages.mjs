@@ -2,7 +2,8 @@
 /**
  * Reorder food pages to the canonical order requested:
  * 1) Overview
- * 2) Food Context (Synergies, Sourcing, Preparation)
+ * 2) Other Nutritional Highlights (optional residual section; existing pages may
+ *    still use the superseded Key Nutritional Highlights heading)
  * 3) Recipes
  * 4) Nutrient Tables (via <NutritionTable .../>)
  * 5) Substances
@@ -79,8 +80,16 @@ function pickSection(sections, title) {
   const idx = sections.findIndex((s) => headingKey(s.heading) === key)
   if (idx === -1) return { section: null, rest: sections }
   const section = sections[idx]
-  const rest = sections.slice(0, idx).concat(sections.slice(idx + 1))
+  const rest = sections.filter((_, i) => i !== idx)
   return { section, rest }
+}
+
+function pickHighlights(sections) {
+  for (const title of ["Other Nutritional Highlights", "Key Nutritional Highlights", "Nutritional Highlights"]) {
+    const found = pickSection(sections, title)
+    if (found.section) return found
+  }
+  return { section: null, rest: sections }
 }
 
 function reorderFoodContextSection(sectionContent) {
@@ -154,7 +163,7 @@ for (const file of FOOD_FILES) {
   let rest = sections
   const pre = pickSection(rest, "__preamble__"); rest = pre.rest
   const overview = pickSection(rest, "Overview"); rest = overview.rest
-  const highlights = pickSection(rest, "Key Nutritional Highlights"); rest = highlights.rest
+  const highlights = pickHighlights(rest); rest = highlights.rest
   const foodContext = pickSection(rest, "Food Context"); rest = foodContext.rest
   const recipes = pickSection(rest, "Recipes"); rest = recipes.rest
   const substances = pickSection(rest, "Substances"); rest = substances.rest

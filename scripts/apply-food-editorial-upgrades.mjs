@@ -55,13 +55,13 @@ function applyUpgrade(slug, foodsDir) {
   let content = initial
 
   const overviewSection = `## Overview\n\n${upgrade.overview.trim()}\n`
-  const knhSection = `## Key Nutritional Highlights\n\n${upgrade.knh.map((b) => `- ${b}`).join("\n")}\n`
+  const knhSection = `## Other Nutritional Highlights\n\n${upgrade.knh.map((b) => `- ${b}`).join("\n")}\n`
 
-  const afterOverview = replaceSection(content, /^##\s+Overview\s*$/m, overviewSection, [/^##\s+Key Nutritional Highlights\s*$/m, /^##\s+Food Context\s*$/m])
+  const afterOverview = replaceSection(content, /^##\s+Overview\s*$/m, overviewSection, [/^##\s+(?:Other Nutritional Highlights|Key Nutritional Highlights)\s*$/m, /^##\s+Food Context\s*$/m])
   if (!afterOverview) return { changed: false }
   content = afterOverview
 
-  const afterKnH = replaceSection(content, /^##\s+Key Nutritional Highlights\s*$/m, knhSection, [/^##\s+Food Context\s*$/m, /^##\s+Recipes\s*$/m])
+  const afterKnH = replaceSection(content, /^##\s+(?:Other Nutritional Highlights|Key Nutritional Highlights)\s*$/m, knhSection, [/^##\s+Food Context\s*$/m, /^##\s+Recipes\s*$/m])
   if (!afterKnH) return { changed: false }
   content = afterKnH
 

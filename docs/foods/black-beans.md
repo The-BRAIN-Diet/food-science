@@ -65,14 +65,7 @@ legacy_main_image: /img/foods/black-beans/black-beans_medium.webp
 ---
 ## Overview
 
-Black beans provide plant protein, polyphenols, and prebiotic fibre. Soaking and cooking under optimal conditions (about 60°C and pH 6.0) can substantially reduce phytate and improve mineral bioavailability [1]. Black beans are polyphenol-rich legumes that support gut health within diverse plant-forward dietary patterns [2].
-
-## Key Nutritional Highlights
-
-- Lysine-rich plant protein (~5.4 g per 100 g) with methionine/cysteine as limiting amino acids; pair with grains for complementarity [2].
-- Polyphenol- and fibre-containing legume supporting prebiotic intake and gut microbiome diversity.
-- Non-heme iron source where vitamin C co-ingestion can markedly improve absorption [3].
-- Soaking and sprouting reduce phytates and can improve zinc and iron bioavailability [1].
+Black beans provide **lysine**-rich plant protein, polyphenols, and prebiotic fibre. Soaking and cooking change phytate and mineral availability [1]. They are polyphenol-rich legumes within diverse plant-forward dietary patterns [2].
 
 ## Food Context
 
@@ -80,7 +73,6 @@ Black beans provide plant protein, polyphenols, and prebiotic fibre. Soaking and
 
 - Pair with grains for complete amino acid profile; grain–legume complementarity improves essential amino-acid coverage.
 - Pair with vitamin C-rich foods to enhance non-heme iron absorption [3].
-- Soaking and sprouting reduce phytates in legumes and grains, improving mineral bioavailability [1].
 
 ### Preparation
 

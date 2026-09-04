@@ -78,8 +78,8 @@ nutrition_supplementary_sources:
     value: 400
     unit: mg
     notes: >-
-      Concentrated in muscle; not reported in standard USDA panels for most
-      cuts.
+      Concentrated in muscle; not reported in ordinary beef composition tables
+      for most cuts.
     source_note: >
       Approximate creatine content per 100 g cooked beef based on dietary
       creatine source summaries and compositional surveys (raw beef muscle
@@ -100,55 +100,46 @@ nutrition_supplementary_sources:
     status: Present — quantity not established
     amount_display: Present — quantity not established
     source_note: >-
-      Food-composition surveys report coenzyme Q10 in Beef (e.g. Mattila &
-      Kumpulainen 2001); USDA SR Legacy does not include a CoQ10 field.
+      Food-composition surveys report coenzyme Q10 in beef (e.g. Mattila &
+      Kumpulainen 2001).
 main_image: /img/foods/beef/beef_medium.webp
 legacy_list_image: /img/foods/beef/beef_thumb.webp
 legacy_main_image: /img/foods/beef/beef_medium.webp
 ---
 ## Overview
 
-Beef is a nutrient-dense red meat providing several compounds relevant to brain and metabolic health, including creatine [1], coenzyme Q10 (CoQ10) [2], vitamin B12, zinc, and highly bioavailable heme iron [3]. These nutrients contribute to mitochondrial energy metabolism, oxygen transport, and neurotransmitter synthesis. Compared with non-heme iron from plant foods, heme iron from animal sources is absorbed more efficiently, making beef a useful contributor to iron status in some dietary patterns [3].
+Beef is a nutrient-dense red meat providing **creatine**, **CoQ10**, **vitamin B12**, **zinc** and highly bioavailable **heme iron** [1–3]. Its iron is generally absorbed more readily than non-heme iron from plant foods, making beef a useful contributor where iron status is a dietary priority [3].
 
-Within the BRAIN Diet framework, beef may be used strategically for nutrient density, particularly where iron, vitamin B12, creatine, and CoQ10 are priorities. At the same time, overall dietary pattern still matters, including processing level, cooking method, total intake, and the balance between plant and animal foods [5,6].
-
-## Key Nutritional Highlights
-
-- Provides a complete, highly digestible protein source [4].
-- Rich in bioavailable heme iron, zinc, and vitamin B12 compared with many plant foods [3].
-- Contributes creatine and CoQ10 relevant to cellular energy metabolism [1,2].
-- Contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains [6].
-- Processed versions (e.g. cured, smoked, deli-style) are associated with less favorable health outcomes [5].
+Within a BRAIN-aligned pattern, beef can be used selectively for this combination of nutrients, within the overall balance of plant and animal foods [5,6].
 
 ## Food Context
+
+### Sourcing
+
+- Prefer **minimally processed cuts of beef** over processed meat products such as cured or smoked meats [5].
+- **Grass-fed beef** may provide modestly higher omega-3 fatty acids and antioxidant compounds than grain-fed beef, although both remain rich sources of protein, iron, and zinc [7].
+- **Organ meats** such as liver and heart contain substantially higher concentrations of some micronutrients and CoQ10 than standard muscle cuts [2].
+
+### Synergies
+
+- Pair beef with **vitamin C–rich foods** such as peppers, citrus, or leafy greens to support iron absorption from mixed meals [3].
+- Combine cooked beef with **polyphenol-rich herbs and spices** such as rosemary, thyme, oregano, or garlic, which may help reduce oxidative products generated during cooking [8].
+- Serve beef alongside **fibrous plant foods** such as legumes, greens, or whole grains to improve dietary balance and increase phytochemical diversity across the meal [6].
+
+### Preparation
+
+- Prefer **moderate-temperature cooking methods** such as braising, stewing, or sous-vide, which can reduce formation of heat-related compounds compared with intense charring [8].
+- Avoid frequent **high-temperature charring or heavy browning**, which increases formation of heterocyclic amines and advanced glycation end products during cooking [8,9].
+
+### Essential Amino Acid Profile
+
+Beef provides a complete essential amino acid profile with high digestibility and bioavailability [4].
 
 ## Recipes
 
 <FoodRecipes tag="Beef" />
 
 <NutritionTable details={frontMatter} />
-
-## Sourcing
-
-- Prefer **minimally processed cuts of beef** over processed meat products such as cured or smoked meats [5].
-- **Grass-fed beef** may provide modestly higher omega-3 fatty acids and antioxidant compounds than grain-fed beef, although both remain rich sources of protein, iron, and zinc [7].
-- **Organ meats** such as liver and heart contain substantially higher concentrations of some micronutrients and CoQ10 than standard muscle cuts [2].
-
-## Synergies
-
-- Pair beef with **vitamin C–rich foods** such as peppers, citrus, or leafy greens to support iron absorption from mixed meals [3].
-- Combine cooked beef with **polyphenol-rich herbs and spices** such as rosemary, thyme, oregano, or garlic, which may help reduce oxidative products generated during cooking [8].
-- Serve beef alongside **fibrous plant foods** such as legumes, greens, or whole grains to improve dietary balance and increase phytochemical diversity across the meal [6].
-
-## Preparation
-
-- Prefer **moderate-temperature cooking methods** such as braising, stewing, or sous-vide, which can reduce formation of heat-related compounds compared with intense charring [8].
-- Avoid frequent **high-temperature charring or heavy browning**, which increases formation of heterocyclic amines and advanced glycation end products during cooking [8,9].
-- Use beef as a **strategic nutrient-dense food**, rather than as the dominant calorie source of the overall diet, especially in dietary patterns that aim to remain plant-forward [6,10].
-
-### Essential Amino Acid Profile
-
-Beef provides a complete essential amino acid profile with high digestibility and bioavailability [4].
 
 ## Substances
 

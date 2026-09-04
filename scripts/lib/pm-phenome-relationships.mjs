@@ -129,7 +129,7 @@ export const BRS3_PM_PHENOME = {
       target_phenome: "Cognitive Clarity",
       confidence: "low-medium",
       rationale:
-        "Dietary antioxidant treatment in ADHD has been linked to oxidative-stress and immune readout shifts — Nrf2-linked endogenous induction may support cognitive clarity context when cofactors are sufficient.",
+        "A narrative review frames a rationale for dietary antioxidant treatment of ADHD via immune, epigenetic and oxidative-stress hypotheses — Nrf2-linked endogenous induction may support cognitive clarity context when cofactors are sufficient.",
       references: [
         ref(1, "Verlaet et al. (2018)", "verlaet_rationale_2018"),
         ref(2, "Houghton et al. (2016)", "houghton_sulforaphane_2016"),
@@ -155,7 +155,7 @@ export const BRS3_PM_PHENOME = {
       target_phenome: "Focus / Attention Stability",
       confidence: "low-medium",
       rationale:
-        "Elevated oxidative stress indices and lipid-peroxidation markers in adult ADHD cohorts may modulate attention-relevant redox burden when generation exceeds clearance.",
+        "Elevated oxidative stress indices and lipid-peroxidation markers in adult and paediatric ADHD cohorts may modulate attention-relevant redox burden when generation exceeds clearance.",
       references: [
         ref(1, "Bulut et al. (2007)", "bulut_malondialdehyde_2007"),
         ref(2, "Miniksar et al. (2023)", "miniksar_effect_2023"),
@@ -239,18 +239,11 @@ export const BRS3_PM_PHENOME = {
       target_phenome: "Focus / Attention Stability",
       confidence: "low-medium",
       rationale:
-        "ROS-driven glial activation and pro-inflammatory cytokine release may intersect ADHD pathogenesis framing; omega-3 interventions reshape resolution-phase cytokine responses.",
+        "Youth ADHD cohort work reported higher hs-CRP and IL-6 with lower TNF-α, BDNF and bedtime cortisol — a mixed peripheral immune–neuroendocrine pattern rather than uniform pro-inflammatory cytokine elevation; omega-3 interventions reshape resolution-phase cytokine responses.",
       references: [
         ref(1, "Chang et al. (2020)", "chang_cortisol_2020"),
         ref(2, "Ferguson et al. (2014)", "ferguson_omega3_2014"),
       ],
-    }),
-    row({
-      target_phenome: "Emotional Regulation",
-      confidence: "low-medium",
-      rationale:
-        "Immune dysfunction, elevated IgE, and allergy patterns represent overlapping clinical links in ADHD populations relevant to cytokine-network tone.",
-      references: [ref(1, "Wesselink et al. (2019)", "wesselink_feeding_2019")],
     }),
     row({
       target_phenome: "Cognitive Clarity",

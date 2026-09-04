@@ -60,7 +60,7 @@ Pairing *how-to* belongs in the Essential Amino Acid Profile or Food Context. Ov
 
 This is the canonical index-description rule. The Foods Index renders each food’s YAML `description` field. Do not add a second index field. `system/food-page-schema.md` and food-page Cursor rules point here; they must not restate it at length.
 
-An index description should identify the food in one short phrase, name only its most characteristic nutritional features, remain understandable to a general reader, and normally fit on one line. A genuinely distinctive compositional feature may appear; study findings, outcome claims, trial language, methodological qualifications, reconciliation history, and USDA or source caveats belong on the food page.
+An index description should identify the food in one short phrase, name only its most characteristic nutritional features, remain understandable to a general reader, and normally fit on one line. A genuinely distinctive compositional feature may appear. Study findings, outcome claims, trial language, methodological qualifications, and reconciliation history do not belong on the index card. USDA coverage and other composition-administration notes follow **Public editorial prose versus composition administration** in `system/food-page-schema.md`; they are not public editorial content.
 
 Index links use site-relative documentation paths. Localhost URLs are acceptable only as resolved preview output; they must not be stored as absolute source links.
 
@@ -188,7 +188,7 @@ Important identity constituents named in the Overview trigger compositional veri
 
 - Unsupported quantities must be removed.
 - Credible but unresolved identity constituents enter an explicit research queue; they do not generate invented rows or cards.
-- Numerical Overview and Key Nutritional Highlights statements must match the rendered table and its displayed rounding.
+- Numerical Overview and Other Nutritional Highlights statements must match the **rendered** nutrition table and its displayed rounding.
 - Mention fibre, protein, fat, carbohydrate, vitamins, and minerals in Overview only when they materially characterise the food. Do not repeat their general biology; the rendered table already establishes ordinary composition.
 - Not every chemical noun in an Overview is an identity constituent. Pairings, comparisons, generic mechanisms, and downstream outcomes must be classified separately (Intrinsic / Mechanism / Strategy). Distinctive matrix, preparation, formulation, or culinary role may be named in Overview without becoming a recipe.
 
@@ -251,64 +251,13 @@ Citation correctness (exact-key BibTeX join) and citation relevance (does this p
 
 ---
 
-## Key Nutritional Highlights Layer
+## Other Nutritional Highlights
 
-Add `## Key Nutritional Highlights` immediately after `## Overview` on food pages.
+Body heading and residual-section rules are defined in **Section editorial responsibilities** in `system/food-page-schema.md`. Do not restate that rule here.
 
-Highlights are concise, selective public takeaways — not an evidence table and not a fourth Source of Truth. They must not inherit trial-log detail removed from Overviews. Almonds is the calibration example.
+The canonical heading is `## Other Nutritional Highlights`. The superseded headings `Key Nutritional Highlights` and `Nutritional Highlights` must not be used as the canonical heading. Existing food pages may still carry a superseded heading until that letter is rewritten.
 
-Keep a Highlight when it communicates a distinctive nutritional characteristic; an important food-specific finding in plain language; a practical preparation or substitution point; or a material qualification needed to prevent misunderstanding.
-
-Do not put in Highlights: intervention doses and durations; detailed comparator descriptions; lists of related biomarkers; study methods; or composition figures already clear in the nutrition table, unless the figure is genuinely useful to interpretation.
-
-When a Highlight does cite a quantity, it must match the **rendered** nutrition table and its displayed rounding (almonds table: protein 21.2 g, fibre 12.5 g, calcium 269 mg). Those figures belong in the table; almonds Highlights do not repeat them.
-
-**Reference annotations** may append a concise food-relevant finding to the Author (Year) and linked-title core: study population or design, food dose, duration, comparator, principal outcome, analytical or preparation finding, or an important scope limitation. Do not lead with dietary advice. Do not duplicate that trial detail in Overview or Highlights. Annotations must describe only the exact cited paper and continue to resolve through the bounded exact-key BibTeX resolver.
-
-Formatting:
-- 3-6 bullets only.
-- One sentence or short clause per bullet.
-- No value-judgement labels such as "Strengths/Weaknesses" or "Pros/Cons".
-
-Repetition policy:
-- Allowed only when function changes:
-  - Highlights = summary
-  - later sections (Food Context/EAA/etc.) = expanded explanation
-- Do not repeat the same sentence at the same level of detail across multiple sections.
-
-### Key Nutritional Highlights – Specificity Rule
-
-Only include points that are meaningfully characteristic of the specific food.
-
-Do NOT include:
-- generic statements that apply to most foods in the same category,
-- comparisons to obviously inferior baselines (e.g., "better than refined grains"),
-- general macronutrient statements that add no differentiation (e.g., "provides carbohydrates"),
-- properties common to essentially all foods in the category (e.g., "low in saturated fat" for most plant foods),
-- recipe method dumps (detailed preparation belongs in Food Context). Culinary-support pages may note culinary role.
-
-Every bullet should be answerable as:
-- "What is uniquely or meaningfully characteristic about this food in the context of the BRAIN Diet?"
-
-Culinary-support foods may answer that with culinary role. Do not invent a neurological or mechanistic bullet to fill the list.
-
-### Processing vs Food Identity Rule
-
-Do not conflate intrinsic food properties with processing effects.
-
-- Intrinsic properties (nutrients, amino acids, micronutrients) belong in:
-  - Overview
-  - Key Nutritional Highlights
-- Detailed processing method belongs in:
-  - Food Context
-  - Preparation
-
-Highlights may include neutral phrasing such as:
-- "Nutritional profile depends on processing method."
-
-Preparation that *is* the food’s distinctive chemistry may be summarised in Highlights; the method stays in Food Context.
-
-Avoid implying a whole food is harmful based only on specific processed forms.
+Other Nutritional Highlights is optional. It is not a fourth Source of Truth. Almonds remains the **Overview** calibration example, not a Highlights bullet template.
 
 ---
 
@@ -582,7 +531,7 @@ Avoid listing all nine EAAs unless in a detailed table.
 
 ## Implementation Checklist
 
-- [ ] Overview is concise and selective; identity constituents only; numbers in Overview/Highlights match rendered-table rounding. Culinary-support pages may stay short and must not manufacture biological importance.
+- [ ] Overview is concise and selective; identity constituents only; numbers in Overview/Other Nutritional Highlights match rendered-table rounding. Culinary-support pages may stay short and must not manufacture biological importance.
 - [ ] Database nutrition table is populated from structured, food-specific sources; no invented values; no substitute USDA foods.
 - [ ] Every **rendered** Substances card has a corresponding **rendered** quantitative or explicit qualitative table row. A hidden/internal record does not count.
 - [ ] Not every table row requires a Substances card. Ordinary background nutrients generally remain table-only.
@@ -601,7 +550,7 @@ Avoid listing all nine EAAs unless in a detailed table.
 See **`system/food-page-schema.md`** for the consolidated schema (dark-chocolate reference page). Section order:
 
 1. **Overview**
-2. **Key Nutritional Highlights**
+2. **Other Nutritional Highlights** — optional; see `system/food-page-schema.md`
 3. **Food Context** (optional `### Essential Amino Acid Profile` inside when required)
 4. **Recipes** — `<FoodRecipes />`
 5. **Nutrition** — `<NutritionTable details={frontMatter} />`

@@ -16,6 +16,7 @@ Rules: `system/food-nutrition-schema.md`. Nutrient-level identity failures: `sys
 | `reishi-mushroom` | FDC 2003603, *Mushroom, beech* | Species | Full 12-value panel: energy, protein, fat, carbohydrate, fibre, calcium, iron, magnesium, potassium, zinc, selenium, vitamin B6; ALA 671 mg |
 | `turkey-tail-mushroom` | FDC 2003603, *Mushroom, beech* | Species | The same 12-value panel; ALA 671 mg |
 | `cordyceps-mushroom` | FDC 2003603, *Mushroom, beech* | Species | The same 12-value panel; ALA 671 mg |
+| `black-goji` | FDC 2710837, *Plum, black, with skin, raw* | Species | Energy, protein, fat, carbohydrate, fibre, sugar, calcium, iron, magnesium, potassium, zinc from a black plum, not *Lycium ruthenicum* |
 
 Three medicinal mushroom pages published one beech mushroom's composition as though it were three different species. Their own supplementary notes said "USDA SR Legacy has no record for this mushroom" while the panel above them displayed one for another fungus.
 
@@ -28,6 +29,7 @@ Retained, because presence follows from what the product **is** rather than from
 - `sunflower-lecithin` — phosphatidylcholine, choline
 - `reishi`, `cordyceps` — fungal polysaccharides
 - `turkey-tail` — beta-glucans, polysaccharides
+- `black-goji` — anthocyanins, cyanidin
 
 Removed: the `vitamin_b3_qual` row on all three mushroom pages. It asserted presence because the species is "grouped with culinary mushrooms as a niacin-containing fungus" — an inference from food category, which is the same reasoning that produced the substitution in the first place.
 

@@ -18,11 +18,9 @@ mechanisms:
   Oxidative Stress: Anthocyanin-rich foods and mixed anthocyanin extracts are the usual evidence base for redox-related findings in this class. This mapping is at the anthocyanin-family level and does not attribute those findings to isolated anthocyanidin parent compounds.
 ---
 
-Anthocyanins are glycosylated flavonoid pigments derived from anthocyanidin parent structures including cyanidin, delphinidin, malvidin, pelargonidin, peonidin and petunidin. In foods, these compounds occur predominantly as glycosides rather than as free anthocyanidins. Much of the human evidence therefore relates to anthocyanin-rich foods, mixed anthocyanin extracts or specific glycosides rather than to isolated anthocyanidin parent compounds. Evidence throughout this section should be interpreted and attributed at the level actually studied.
-
-<FolderList folder="substances/bioactive-compounds/polyphenols/anthocyanins" />
-
 ## Overview
+
+Anthocyanins are glycosylated flavonoid pigments derived from anthocyanidin parent structures including cyanidin, delphinidin, malvidin, pelargonidin, peonidin and petunidin. In foods, these compounds occur predominantly as glycosides rather than as free anthocyanidins. Much of the human evidence therefore relates to anthocyanin-rich foods, mixed anthocyanin extracts or specific glycosides rather than to isolated anthocyanidin parent compounds. Evidence throughout this section should be interpreted and attributed at the level actually studied.
 
 The six entries below are the canonical **anthocyanidin** parent structures used as ontology entities. They name the chemical backbone, not a claim that isolated aglycones were the intervention in dietary studies.
 
@@ -34,6 +32,8 @@ The six entries below are the canonical **anthocyanidin** parent structures used
 - **Whole food** — attribute the finding to the food or to an anthocyanin-rich food intervention (for example a blueberry trial).
 
 Class-level human evidence from berries, cherries, grapes, purple plant foods, and anthocyanin-rich extracts belongs on this family page. Individual anthocyanidin pages record chemical identity, typical dietary glycoside forms, and food occurrence.
+
+<FolderList folder="substances/bioactive-compounds/polyphenols/anthocyanins" />
 
 ## Recipes
 

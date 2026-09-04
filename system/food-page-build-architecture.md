@@ -54,8 +54,8 @@ These influence **how** content is written or repaired; they do not generate the
 
 | Section | What creates it | Type |
 |--------|------------------|------|
-| **Overview** | Markdown body: `## Overview` + two concise paragraphs. Rendered as MDX. | Handwritten in the page. |
-| **Key Nutritional Highlights** | Markdown body: `## Key Nutritional Highlights` + 3-6 concise bullets. Fast summary layer (benefits + relevant constraints) in neutral language. | Handwritten in the page. |
+| **Overview** | Markdown body: `## Overview` + concise paragraphs. Rendered as MDX. Editorial responsibilities: `system/food-page-schema.md`. | Handwritten in the page. |
+| **Other Nutritional Highlights** | Markdown body: `## Other Nutritional Highlights` when residual interpretation has no better home. Optional. Canonical heading, residual-section rules, and public/internal prose split: `system/food-page-schema.md`. Existing pages may still use the superseded `Key Nutritional Highlights` heading. | Handwritten in the page. |
 | **Essential Amino Acid Profile** | Markdown body: `### Essential Amino Acid Profile` + paragraph. For beef this text was **inserted by** `repair-food-pages.mjs` (animal template). | Inserted by script (repair); content is template + slug category. |
 | **Nutritional Table (per 100 g)** | Body contains `<NutritionTable details={frontMatter} />`. **Component:** `src/components/NutritionTable.tsx`. Reads `nutrition_per_100g`, `nutrition_source`, `nutrition_supplementary_sources`, optional `nutrition_functional_metrics`; splits the panel into **Core nutrients**, **Key vitamins and minerals**, **Bioactive compounds** (publicly admitted individual fatty acids such as linoleic / ALA / EPA / DHA from `nutrition_per_100g` + supplementary rows, including qualitative `Present — quantity not established`), and optional **Functional metrics**; uses `src/data/nutritionTableMapping.ts` for keys and labels; renders provenance and supplementary source notes. If no nutrition data, returns `null`. | Rendered by component from front matter; block placement in body by one-time script (and/or handwritten). |
 | **Recipes** | Body: `## Recipes` + `<FoodRecipes tag="Beef" />`. **Component:** `src/theme/FoodRecipes/index.tsx`. Uses plugin data `category-listing`; finds docs tagged with the given tag (e.g. "Beef"); renders list. | Handwritten heading + component; component renders from tag index. |
@@ -64,7 +64,7 @@ These influence **how** content is written or repaired; they do not generate the
 | **Biological Target Matrix** | Body: `## Biological Target Matrix` + `<FoodMatrix tag="Beef" />`. **Component:** `src/theme/FoodMatrix/index.tsx`. Uses tag to find food’s substance tags, then builds Food → Substances → Biological Targets → Therapeutic Areas table from plugin data. | Handwritten heading + component; component renders from tags and plugin data. |
 | **References** | Body: `## References` + bullet list. Links point to `docs/papers/BRAIN-Diet-References#citationKey`. Entries must exist in `static/bibtex/BRAIN-diet.bib` and survive page deduplication (by DOI/URL) to appear; see Foods-Pages.mdc “References and connection to BibTeX”. | Handwritten in the page. |
 
-So: **Overview, Key Nutritional Highlights, Food Context, References** = handwritten. **EAA** = script-inserted (repair) or handwritten. **Nutrition table** = component from front matter. **Substances** = component from front matter (table-driven). **Recipes** and **Biological Target Matrix** = components from tag/doc index.
+So: **Overview, Other Nutritional Highlights (optional), Food Context, References** = handwritten. **EAA** = script-inserted (repair) or handwritten. **Nutrition table** = component from front matter. **Substances** = component from front matter (table-driven). **Recipes** and **Biological Target Matrix** = components from tag/doc index.
 
 ---
 
@@ -130,7 +130,7 @@ These files define **writing** and **structure** rules and **automatic repairs**
 As implemented in the body of a standard food page (e.g. beef.md) and as specified in Foods-Pages.mdc and `system/food-page-model.md`:
 
 1. **Overview** (`## Overview` + prose)
-2. **Key Nutritional Highlights** (`## Key Nutritional Highlights` + 3-6 concise bullets)
+2. **Other Nutritional Highlights** (`## Other Nutritional Highlights` when present; optional residual section — `system/food-page-schema.md`)
 3. **Food Context** (`## Food Context` + optional `### Sourcing`, `### Synergies`, `### Preparation`; framework/practical context)
 4. **Essential Amino Acid Profile** (`### Essential Amino Acid Profile` + prose; required when protein ≥5 g/100 g or commonly protein source—enforced by repair)
 5. **Nutrition (per 100 g)** (`<NutritionTable details={frontMatter} />`)

@@ -64,7 +64,7 @@ nutrition_supplementary_sources:
     notes: Soluble cereal β-glucan; barley is among the richest common grain sources.
     source_note: >-
       Representative value for barley flour; beta-glucan content varies by
-      cultivar and processing (e.g. USDA and literature values for barley).
+      cultivar and processing.
 main_image: /img/foods/barley/barley_medium.webp
 legacy_list_image: /img/foods/barley/barley_thumb.webp
 legacy_main_image: /img/foods/barley/barley_medium.webp
@@ -73,25 +73,17 @@ legacy_main_image: /img/foods/barley/barley_medium.webp
 
 Barley is a whole grain valued for **beta-glucan** soluble fibre and sustained energy release. Barley is among the richest common grain sources of cereal beta-glucan, which supports fermentable-fibre intake and glycaemic regulation in mixed-meal contexts [1]. Beta-glucan is an intrinsic barley component (also present in oats and some mushrooms), distinct from downstream fermentation products such as SCFAs.
 
-Within the BRAIN Diet framework, barley contributes plant protein that is relatively higher in methionine but **lysine-limited** like other grains; pairing with legumes improves essential amino-acid balance [2,3]. Soaking before cooking can reduce phytate and support mineral bioavailability from cereal staples [4].
-
-## Key Nutritional Highlights
-
-- Highest fibre among BRAIN Diet grain and pseudograin pages (per 100 g; fibre ~12.8 g).
-- Rich source of beta-glucan, the viscous cereal fibre most strongly associated with barley's metabolic effects [1].
-- Grain protein is lysine-limited (~8.7 g protein per 100 g), so amino-acid balance improves when paired with legumes [2,3].
-- Soaking before cooking can reduce phytates and improve mineral bioavailability [4].
+Within the BRAIN Diet framework, barley contributes plant protein that is relatively higher in methionine but **lysine-limited** like other grains; pairing with legumes improves essential amino-acid balance [2,3].
 
 ## Food Context
 
 ### Synergies
 
-- Part of whole grain diversity strategy
+- Include among other whole grains rather than relying on barley alone.
 
 ### Preparation
 
 - Soak before cooking to reduce phytates and improve mineral bioavailability [4].
-- Beta-glucan in barley supports gut microbiome health (mechanisms include fermentation to SCFAs such as butyrate; improved gut barrier).
 
 ### Essential Amino Acid Profile
 

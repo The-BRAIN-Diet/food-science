@@ -59,26 +59,20 @@ legacy_main_image: /img/foods/bell-peppers/bell-peppers_medium.webp
 ---
 ## Overview
 
-Bell peppers provide **vitamin C**, carotenoids (including capsanthin and related pigments), and low energy density [1]. Co-consuming vegetables with a small amount of dietary fat improves carotenoid absorption via chylomicron packaging [2].
+Bell peppers provide **vitamin C**, carotenoids (including capsanthin and related pigments), and low energy density. Colour (red, yellow, orange) tracks the carotenoid mix. A little dietary fat with the meal improves carotenoid absorption [2].
 
-Within the BRAIN Diet framework, peppers are a vitamin C–rich vegetable supporting non-heme iron absorption in mixed meals and contributing carotenoid diversity [1,2].
-## Key Nutritional Highlights
+Within a BRAIN-aligned pattern they are a vitamin C–rich vegetable for mixed meals, contributing carotenoid diversity and supporting non-heme iron absorption.
 
-- Very high vitamin C per 100 g among common vegetables; supports non-heme iron absorption in mixed meals [1].
-- Carotenoid pigments with improved bioavailability when paired with dietary fat [2].
-- Low energy density; colour (red/yellow/orange) tracks carotenoid profile.
-- Useful culinary pairing with legumes, grains, and iron-containing plant foods [1].
 ## Food Context
 
 ### Synergies
 
 - Pair with iron-rich plant meals to enhance absorption
-- Part of food synergy strategy
+- Include a little dietary fat with carotenoid-rich peppers to improve absorption [2].
 
 ### Preparation
 
-- Can be consumed raw or cooked
-- Supports iron sufficiency
+- Can be consumed raw or cooked.
 
 ## Recipes
 
@@ -92,6 +86,6 @@ Within the BRAIN Diet framework, peppers are a vitamin C–rich vegetable suppor
 
 ## References
 
-[1] Useful culinary pairing with legumes, grains, and iron-containing plant foods. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+[1] Labelled generic context: lutein and zeaxanthin in visual and cognitive function, not a bell-pepper iron-pairing trial. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
 
 [2] Carotenoid pigments with improved bioavailability when paired with dietary fat. Brown & Ferruzzi 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)

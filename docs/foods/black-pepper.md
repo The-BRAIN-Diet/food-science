@@ -2,7 +2,7 @@
 id: black-pepper
 title: Black Pepper
 sidebar_label: Black Pepper
-description: Piperine enhances curcumin absorption by up to 2000%
+description: Culinary pepper whose piperine characterises the spice
 tags:
   - Food
   - Black Pepper
@@ -27,10 +27,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.291
   folate_ug: 17
   choline_mg: 11.3
-  vitamin_b12_ug: 0
   ala_mg: 152
-  epa_mg: 0
-  dha_mg: 0
   omega3_mg: 152
 omega3_components:
   - nutrient: ala_mg
@@ -46,29 +43,30 @@ nutrition_source:
 main_image: /img/foods/black-pepper/black-pepper_medium.webp
 legacy_list_image: /img/foods/black-pepper/black-pepper_thumb.webp
 legacy_main_image: /img/foods/black-pepper/black-pepper_medium.webp
+nutrition_supplementary_sources:
+  - key: piperine_qual
+    label: Piperine
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
+    source_note: >-
+      Black pepper (Piper nigrum) is the culinary source of piperine. A
+      comparable piperine quantity is not established here (Shoba et al. 1998).
 ---
 ## Overview
 
-Black pepper provides **piperine**, an alkaloid that markedly increases **curcumin** bioavailability and can enhance absorption of other dietary compounds [1]. It is used as a culinary spice at gram-scale portions rather than as a bulk food.
+Black pepper is a culinary spice characterised by **piperine**. It is used in small amounts as a flavouring, not as a bulk food [1].
 
-Within the BRAIN Diet framework, black pepper is primarily a **food synergy** ingredient — especially paired with turmeric — where small amounts improve polyphenol delivery [1].
-## Key Nutritional Highlights
+Within a BRAIN-aligned pattern it remains a flavouring. Pairing with turmeric belongs in meal assembly, not as a constituent of the pepper itself [1].
 
-- Piperine increases curcumin bioavailability in humans [1].
-- Spice-use portions; USDA per-100 g protein values are not meaningful for typical intake.
-- Synergy ingredient for turmeric-containing meals and polyphenol-rich dishes [1].
-- Store as whole peppercorns when possible; grind fresh to preserve volatile compounds.
 ## Food Context
 
 ### Synergies
 
-- Pair with turmeric for maximum curcumin absorption
-- Part of food synergy strategy
+- Culinary pairing with turmeric can increase curcumin absorption; curcumin is not present in black pepper [1].
 
 ### Preparation
 
-- Can be used in culinary amounts
-- Supports curcumin bioavailability
+- Use in culinary amounts; grind peppercorns shortly before serving.
 
 ## Recipes
 
