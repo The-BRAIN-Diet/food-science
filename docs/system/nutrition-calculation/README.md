@@ -22,9 +22,17 @@ There is **no** 100 g-per-linked-food fallback. Explanatory copy must not legiti
 
 ## Formula
 
+Every quantitative key on an ingredient’s current composition panel is scaled at that ingredient’s edible weight, not only a frozen core-key list. Unresolved fatty-acid identities are still excluded.
+
 `contribution = per-100 g value × calculation_weight_g ÷ 100`
 
-`per serving = sum(contributions) ÷ servings`
+`recipe total = sum(contributions)` across default-included ingredients
+
+`per serving = recipe total ÷ servings`
+
+`per 100 g finished = recipe total × 100 ÷ preparedWeightG` where `preparedWeightG` is the sum of default `calculation_weight_g`
+
+When a food-page panel changes, the recipe vector is recomputed from those panels, percentages are taken from the new per-serving amounts, and the Key vitamins and minerals list is reranked. The previous top eight is not preserved.
 
 Missing analytical keys are not reported (not zero). Qualitative, range, and formulation-specific values are not summed. Optional ingredients (`included_in_default: false`) are excluded from the default total.
 

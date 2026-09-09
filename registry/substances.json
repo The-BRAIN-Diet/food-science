@@ -1017,6 +1017,26 @@
     "inchikey": "",
     "list_image": ""
   },
+  "sesamin": {
+    "path": "bioactive-compounds/lignans/sesamin.md",
+    "tags": [
+      "bioactive",
+      "lignan"
+    ],
+    "title": "Sesamin",
+    "inchikey": "PEYUIKBAABKQKQ-AFHBHXEDSA-N",
+    "list_image": ""
+  },
+  "sesamolin": {
+    "path": "bioactive-compounds/lignans/sesamolin.md",
+    "tags": [
+      "bioactive",
+      "lignan"
+    ],
+    "title": "Sesamolin",
+    "inchikey": "KKQPCBFFGZPSTH-YHKCTAFMSA-N",
+    "list_image": ""
+  },
   "omega-3-in-the-brain-dha-pool": {
     "path": "nutrients/macronutrients/fatty-acids/pufas/omega-3/omega-3-in-the-brain-dha-pool.md",
     "tags": [

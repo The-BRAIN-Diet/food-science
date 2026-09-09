@@ -17,6 +17,7 @@ import {
   calculateRecipeNutrition,
   canCalculateDefault,
   completeNutrientDataset,
+  nutrientKeysFromPanel,
   defaultCombination,
   isDefaultIncluded,
   isKeyMicronutrient,
@@ -514,6 +515,102 @@ test("key vitamins and minerals are selective, ranked and capped", () => {
 
   const skilletResult = calculateRecipeNutrition(skillet.data, foodDocs)
   assert.equal(selectKeyMicronutrients(skilletResult, skillet.data).length, MAX_KEY_MICRONUTRIENTS)
+})
+
+test("a completed ingredient panel recomputes the recipe vector and reranks the public list", () => {
+  /*
+   * Sequence that must hold: new food-page panel → whole-recipe sum at edible
+   * grams → per serving and per 100 g finished → percentages → ranked display.
+   * Copper on tahini is the test case: completing an incomplete sesame paste
+   * profile must be allowed to enter or move within the Caesar's top eight.
+   * The previous headline rows are not a stored panel.
+   */
+  const caesar = loadRecipe("Lunch/mixed-leaf-tahini-caesar-salad.md")
+  const tahini = foodDocs.find((doc) => doc.frontMatter.id === "tahini")
+  assert.ok(tahini, "tahini food page is loaded")
+  const panel = tahini.frontMatter.nutrition_per_100g
+  assert.equal(panel.copper_mg, 1.61)
+  assert.ok(nutrientKeysFromPanel(panel).has("copper_mg"))
+  assert.ok(nutrientKeysFromPanel(panel).has("oleic_g"))
+  assert.ok(nutrientKeysFromPanel(panel).has("linoleic_g"))
+  assert.equal(nutrientKeysFromPanel(panel).has("pufa_18_3_unresolved_mg"), false)
+
+  const live = calculateRecipeNutrition(caesar.data, foodDocs)
+  assert.equal(live.status, "calculated")
+  const tahiniRow = live.audit.find((row) => row.food_slug === "tahini")
+  assert.ok(tahiniRow)
+  assert.equal(tahiniRow.weight_g, 30)
+
+  for (const [key, value] of Object.entries(panel)) {
+    if (typeof value !== "number" || !Number.isFinite(value)) continue
+    if (UNRESOLVED_FATTY_ACID_KEYS.includes(key)) {
+      assert.equal(tahiniRow.contributions[key], undefined, `${key} must not be summed`)
+      continue
+    }
+    assert.ok(
+      Math.abs(tahiniRow.contributions[key] - (value * 30) / 100) < 1e-9,
+      `${key} must roll into the Caesar at 30 g`,
+    )
+  }
+
+  assert.ok(live.preparedWeightG > 30)
+  assert.ok(Math.abs(live.perServing.copper_mg - live.recipeTotals.copper_mg / live.servings) < 1e-12)
+  assert.ok(
+    Math.abs(live.per100g.copper_mg - (live.recipeTotals.copper_mg * 100) / live.preparedWeightG) <
+      1e-12,
+  )
+  assert.ok(
+    Math.abs(live.perServing.oleic_g - live.recipeTotals.oleic_g / live.servings) < 1e-12,
+    "oleic from the completed tahini panel is in the recipe vector",
+  )
+
+  const liveRows = selectKeyMicronutrients(live, caesar.data)
+  const liveKeys = liveRows.map((row) => row.key)
+  const liveCopper = liveRows.find((row) => row.key === "copper_mg")
+  assert.ok(liveCopper, "copper from complete tahini must enter the ranked list")
+  assert.ok(liveCopper.pct > 15)
+
+  const withoutCopperDocs = foodDocs.map((doc) => {
+    if (doc.frontMatter.id !== "tahini") return doc
+    const nutrition_per_100g = {...doc.frontMatter.nutrition_per_100g}
+    delete nutrition_per_100g.copper_mg
+    return {...doc, frontMatter: {...doc.frontMatter, nutrition_per_100g}}
+  })
+  const incomplete = calculateRecipeNutrition(caesar.data, withoutCopperDocs)
+  const incompleteTahini = incomplete.audit.find((row) => row.food_slug === "tahini")
+  assert.equal(incompleteTahini.contributions.copper_mg, undefined)
+  assert.ok(incomplete.perServing.copper_mg < live.perServing.copper_mg)
+  const incompleteRows = selectKeyMicronutrients(incomplete, caesar.data)
+  const incompleteCopper = incompleteRows.find((row) => row.key === "copper_mg")
+  assert.ok(
+    liveCopper.pct > (incompleteCopper?.pct ?? 0),
+    "completing tahini's copper must raise the recipe percentage",
+  )
+
+  const seleniumBoostDocs = foodDocs.map((doc) => {
+    if (doc.frontMatter.id !== "tahini") return doc
+    return {
+      ...doc,
+      frontMatter: {
+        ...doc.frontMatter,
+        nutrition_per_100g: {
+          ...doc.frontMatter.nutrition_per_100g,
+          selenium_ug: 800,
+        },
+      },
+    }
+  })
+  const boosted = calculateRecipeNutrition(caesar.data, seleniumBoostDocs)
+  const boostedRows = selectKeyMicronutrients(boosted, caesar.data)
+  const boostedKeys = boostedRows.map((row) => row.key)
+  assert.ok(boostedKeys.includes("selenium_ug"), "a newly significant nutrient must enter the list")
+  assert.notDeepEqual(
+    boostedKeys,
+    liveKeys,
+    "the previous top eight is not preserved once the vector changes",
+  )
+  const displaced = liveKeys.filter((key) => !boostedKeys.includes(key))
+  assert.ok(displaced.length > 0, "a former headline row must give way when a new nutrient ranks higher")
 })
 
 test("salmon roe publishes EPA and DHA but no alanine dressed as ALA", () => {

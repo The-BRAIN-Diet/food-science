@@ -60,7 +60,7 @@
     "nutrition:validate": "node scripts/validate-food-pages.mjs",
     "nutrition:reconcile-layers": "node scripts/reconcile-food-page-layers.mjs",
     "nutrition:reconcile-substances": "node scripts/reconcile-food-substance-tables.mjs",
-    "test:food-truth-levels": "node --test scripts/usda-nutrient-extract.test.mjs scripts/food-page-truth-models.test.mjs scripts/food-page-public-prose.test.mjs scripts/bib-citation-format.test.mjs scripts/bib-neighbour-borrow.test.mjs scripts/food-page-letter-audit-schema.test.mjs",
+    "test:food-truth-levels": "node --test scripts/usda-nutrient-extract.test.mjs scripts/food-page-truth-models.test.mjs scripts/food-page-public-prose.test.mjs scripts/bib-citation-format.test.mjs scripts/bib-neighbour-borrow.test.mjs scripts/food-page-letter-audit-schema.test.mjs scripts/food-nutrition-display-architecture.test.mjs",
     "test:recipe-nutrition": "node --test scripts/recipe-nutrition-integrity.test.mjs",
     "test:composition-provenance": "node --test scripts/composition-provenance.test.mjs",
     "test:fcir": "node --test scripts/fcir-register.test.mjs",

@@ -1285,7 +1285,7 @@ Seaweed:
 Sesame Seeds:
   label: Sesame Seeds
   permalink: /sesame-seeds
-  description: Seeds rich in calcium and lignans
+  description: Whole sesame seed with unsaturated fat, minerals and lignans
 
 Shiitake Mushroom:
   label: Shiitake Mushroom
@@ -1350,7 +1350,7 @@ Swiss Chard:
 Tahini:
   label: Tahini
   permalink: /tahini
-  description: Sesame seed paste
+  description: Ground sesame-seed paste; composition depends on hull and roast
 
 Tart Cherry:
   label: Tart Cherry
@@ -1467,6 +1467,36 @@ Astaxanthin:
   label: Astaxanthin
   permalink: /astaxanthin
   description: Xanthophyll carotenoid in salmon and related marine foods; BRS3 redox and BRS4 mitochondrial membrane support
+
+Lignan:
+  label: Lignan
+  permalink: /lignan
+  description: Plant phenolic dimers, including the characteristic sesame lignans
+
+Sesamin:
+  label: Sesamin
+  permalink: /sesamin
+  description: Principal sesame lignan; preliminary cardiometabolic trials and incomplete translation
+
+Sesamolin:
+  label: Sesamolin
+  permalink: /sesamolin
+  description: Sesame lignan with almost entirely preclinical evidence
+
+Inflammation & Oxidative Stress:
+  label: Inflammation & Oxidative Stress
+  permalink: /inflammation-oxidative-stress
+  description: BRS3 hub — inflammatory signalling and oxidative balance
+
+Gut-Brain Axis & Enteric Nervous System:
+  label: Gut-Brain Axis & Enteric Nervous System
+  permalink: /gut-brain-axis-enteric-nervous-system
+  description: BRS5 hub — gut barrier, microbial signalling and enteric pathways
+
+Metabolic & Neuroendocrine Regulation:
+  label: Metabolic & Neuroendocrine Regulation
+  permalink: /metabolic-neuroendocrine-regulation
+  description: BRS6 hub — metabolic flexibility and neuroendocrine regulation
 
 # Additional substance category tags
 Pufa:

@@ -5,12 +5,16 @@
  *
  * Layout groups (see NutritionTable):
  * - Core nutrients
- * - Key vitamins and minerals
+ * - Key vitamins and minerals (derived from composition + reference intake)
+ * - Advanced Nutrition (remaining quantitative vitamins/minerals)
  * - Bioactive compounds
  *
- * Public tables do not dump every stored key. Internal nutrition_per_100g
- * values remain available for algorithms even when hidden from the page.
+ * Tags do not whitelist the vitamin/mineral table. They remain taxonomy and
+ * editorial Substance relationships. public_display is the exception override.
  */
+
+import {meetsKeyMicronutrientThreshold} from "../utils/recipeNutritionCalculate.mjs"
+import {percentOfReference} from "../utils/nutrientReference.mjs"
 
 /** Macronutrients + sugars + fibre — first sub-table */
 export const CORE_NUTRIENT_KEYS: readonly string[] = [
@@ -23,7 +27,7 @@ export const CORE_NUTRIENT_KEYS: readonly string[] = [
   "fibre_g",
 ]
 
-/** Key vitamins and minerals — second sub-table */
+/** Vitamins and minerals eligible for Key or Advanced Nutrition tables */
 export const MICRONUTRIENT_KEYS: readonly string[] = [
   "iron_mg",
   "zinc_mg",
@@ -267,6 +271,28 @@ const EXCLUDED_ERROR_BY_SLUG: Record<string, readonly string[]> = {
   watermelon: ["Nitric Oxide"],
 }
 
+function panelAmount(fm: Record<string, unknown>, key: string): number | null {
+  const nutrition = fm.nutrition_per_100g
+  if (!nutrition || typeof nutrition !== "object") return null
+  const value = (nutrition as Record<string, unknown>)[key]
+  return typeof value === "number" && Number.isFinite(value) && value > 0 ? value : null
+}
+
+/**
+ * A vitamin or mineral earns the public *Key vitamins and minerals* table when
+ * its per-100 g amount displays as 15% or more of the adult reference intake.
+ * Tags are not consulted. public_display: table can force a row into Key.
+ */
+export function isKeyFoodMicronutrient(fm: Record<string, unknown>, key: string): boolean {
+  if (!(MICRONUTRIENT_KEYS as readonly string[]).includes(key)) return false
+  const label = NUTRIENT_LABELS[key]?.label ?? key
+  const explicit = explicitDisplay(fm, key) || explicitDisplay(fm, label)
+  if (explicit === PUBLIC_DISPLAY.TABLE) return true
+  if (explicit && explicit !== PUBLIC_DISPLAY.TABLE) return false
+  if (!isPublicTableKey(fm, key)) return false
+  return meetsKeyMicronutrientThreshold(percentOfReference(key, panelAmount(fm, key)))
+}
+
 function tagLabels(fm: Record<string, unknown>): string[] {
   const tags = Array.isArray(fm.tags) ? fm.tags : []
   return tags
@@ -325,10 +351,10 @@ export function resolvePublicDisplayForKey(fm: Record<string, unknown>, key: str
   if (isTraceContribution(fm, label)) return PUBLIC_DISPLAY.SUBSTANCE_ONLY
 
   const tagged = tagLabels(fm).some((tag) => substanceLabelsOverlap(tag, label))
-  if (
-    (MICRONUTRIENT_KEYS as readonly string[]).includes(key) ||
-    (BIOACTIVE_LIPID_KEYS as readonly string[]).includes(key)
-  ) {
+  if ((MICRONUTRIENT_KEYS as readonly string[]).includes(key)) {
+    return panelAmount(fm, key) != null ? PUBLIC_DISPLAY.TABLE : PUBLIC_DISPLAY.INTERNAL_ONLY
+  }
+  if ((BIOACTIVE_LIPID_KEYS as readonly string[]).includes(key)) {
     return tagged ? PUBLIC_DISPLAY.TABLE : PUBLIC_DISPLAY.INTERNAL_ONLY
   }
   return tagged ? PUBLIC_DISPLAY.SUBSTANCE_ONLY : PUBLIC_DISPLAY.INTERNAL_ONLY
