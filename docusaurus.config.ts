@@ -116,6 +116,16 @@ const config: Config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'google-site-verification',
+        content: 'VG8eq93a7of2xnX5-rBTvCRlRPuVcXWf-ksJ5Mh0U-o',
+      },
+    },
+  ],
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
