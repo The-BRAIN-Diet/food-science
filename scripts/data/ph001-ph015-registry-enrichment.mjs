@@ -521,7 +521,7 @@ export const PH001_PH015_REGISTRY_ENRICHMENT = {
         paper(
           "Ferguson et al. (2014)",
           "ferguson_omega3_2014",
-          "Omega-3 PUFA modulates inflammatory biology intersecting mood/reward pathways.",
+          "High-dose EPA+DHA (3.6 g/day) reduced fever and showed a pattern of lower inflammatory markers after experimental endotoxemia in healthy adults. Does not measure mood, reward, or reinforcement.",
         ),
         paper(
           "Jackson et al. (2021)",

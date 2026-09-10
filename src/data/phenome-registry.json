@@ -864,7 +864,7 @@
             "label": "Ferguson et al. (2014)",
             "citation_key": "ferguson_omega3_2014",
             "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
-            "note": "Omega-3 PUFA modulates inflammatory biology intersecting mood/reward pathways."
+            "note": "High-dose EPA+DHA (3.6 g/day) reduced fever and showed a pattern of lower inflammatory markers after experimental endotoxemia in healthy adults. Does not measure mood, reward, or reinforcement."
           },
           {
             "label": "Jackson et al. (2021)",
@@ -1521,7 +1521,7 @@
             "label": "Ferguson et al. (2014)",
             "citation_key": "ferguson_omega3_2014",
             "href": "/docs/papers/BRAIN-Diet-References#ferguson_omega3_2014",
-            "note": "Omega-3 PUFA modulates inflammatory and resolution-phase biology intersecting mood pathways."
+            "note": "High-dose EPA+DHA (3.6 g/day) reduced fever and showed a pattern of lower inflammatory markers after experimental endotoxemia in healthy adults. Does not measure mood or anhedonia."
           }
         ]
       }
