@@ -169,7 +169,7 @@ Do **not** copy a value from a related food (e.g. walnuts → almonds).
 The Three Sources of Truth are **rendered** layers.
 
 - Every rendered Substance card requires a corresponding **rendered** quantitative or explicit qualitative table row.
-- A hidden or internal composition record (`internal-only`, untagged micronutrient/bioactive stored for algorithms) does **not** satisfy that requirement.
+- A hidden or internal composition record (`internal-only`, or a bioactive stored for algorithms that is not publicly admitted) does **not** satisfy that requirement. An untagged vitamin or mineral with a sourced `nutrition_per_100g` quantity is a rendered table row (Key or Advanced Nutrition) and **does** satisfy it. Tags are not a nutrition-table whitelist.
 - Not every rendered table row requires a Substance card.
 - Internal records may be retained for provenance and future use without appearing publicly.
 - Ordinary background nutrients should generally remain table-only.

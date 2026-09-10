@@ -30,10 +30,25 @@ A food may be included because it is:
 Food pages use the canonical **Three Sources of Truth** from `system/food-page-model.md`. These are the **rendered** layers:
 
 1. **Overview** — editorial identity narrative (intrinsic identity constituents only). **Other Nutritional Highlights** is an optional residual section, not a fourth Source of Truth and not a second Overview. Headline identity compounds must resolve to a rendered table row or enter an explicit research-queue state. Numerical statements in Overview or Other Nutritional Highlights must match rendered-table rounding.
-2. **Database nutrition table** — the **rendered** composition table from at least one valid representation: populated `nutrition_per_100g` (standard database composition); `nutrition_authorised_specifications` (variable or formulated specialist products); and/or supported qualitative `nutrition_supplementary_sources`. An empty `nutrition_per_100g: {}` is implementation compatibility only and is not the compositional source. Hidden/internal records do not count as table admission. Rendered headings: **Core nutrients**, **Key vitamins and minerals**, **Bioactive compounds**, plus specialist specification tables when used.
-3. **Substances list** — ontology cards via `<FoodSubstancesFromTable />` that mirror the validated, meaningful union. Every **rendered** card must resolve to a corresponding **rendered** quantitative or explicit qualitative table row. Not every table row requires a card.
+2. **Database nutrition table** — the **rendered** composition table from at least one valid representation: populated `nutrition_per_100g` (standard database composition); `nutrition_authorised_specifications` (variable or formulated specialist products); and/or supported qualitative `nutrition_supplementary_sources`. An empty `nutrition_per_100g: {}` is implementation compatibility only and is not the compositional source. Hidden/internal records do not count as table admission. Rendered headings: **Core nutrients**, **Key vitamins and minerals**, **Bioactive compounds**, plus specialist specification tables when used. Significant vitamin/mineral rows are derived from `nutrition_per_100g` and the adult reference-intake rule; remaining quantitative micros sit in collapsed **Advanced Nutrition**. Tags do not whitelist the vitamin/mineral table.
+3. **Substances list** — ontology cards via `<FoodSubstancesFromTable />` that mirror the validated, meaningful union. Every **rendered** card must resolve to a corresponding **rendered** quantitative or explicit qualitative table row (Key, Advanced Nutrition, bioactive, or specification). Not every table row requires a card. Do not add a Substance relationship merely to make a nutrient appear in the table.
 
-Composition/provenance classes and Intrinsic / Mechanism / Strategy remain separate models and must not be called the Three Sources of Truth.
+Composition/provenance classes, Intrinsic / Mechanism / Strategy, and the A/B/C/D distinction below remain separate models and must not be called the Three Sources of Truth.
+
+### A/B/C/D — composition, ontology, evidence, presentation
+
+No one field may silently substitute for another. Future BRS ↔ mechanism ↔ Substance ↔ Food/Recipe relationships will be explicit typed links; this pass only stops tags from deciding quantitative nutrition presentation.
+
+| Layer | Question | Authoritative home |
+|-------|----------|--------------------|
+| **A Composition** | What is quantitatively present? | `nutrition_per_100g` (plus supplementary / authorised specification rows). The only quantitative nutrition dataset. |
+| **B Ontology** | Which scientific relationships are intentional? | Editorial Substance relationships (today: selected `tags` for cards / joins). Separate from composition. A nutrient may appear in the table without a Substance card. |
+| **C Evidence** | What is discussed and supported? | Overview, Highlights, Food Context, References. |
+| **D Presentation** | What does the user see? | Derived from A using the established significance / reference-intake rules, plus rare `public_display` overrides. **Tags must not determine D for vitamins and minerals.** |
+
+`tags` may still support lightweight taxonomy, navigation, recipe↔food joins, existing Substance-card behaviour, filtering, and SEO. They are not authoritative quantitative nutrition data.
+
+`public_display` remains the explicit exception mechanism where a valid presentation override is required. Do not introduce `nutrition_public_keys` as a second whitelist.
 
 Mechanism outcomes (e.g. SCFAs from fibre fermentation) belong in prose as outcomes, never as food substances or tags. Pairing compounds, microbial outcomes, and downstream metabolites must not be represented as intrinsic food content. That placement rule is the separate **Intrinsic / Mechanism / Strategy** content-boundary model; it does not replace the Three Sources of Truth and does not by itself admit an entity to the Substances list.
 
@@ -278,6 +293,8 @@ Do not repeat these points in Other Nutritional Highlights.
 
 The canonical navigational representation of editorially admitted food substances. Their presence does not require the Overview or Other Nutritional Highlights to enumerate every card.
 
+A Significant composition row without an intentional Substance relationship is a table row only. Significant composition plus an intentional relationship is a table row and a card. Do not add tags merely to populate the vitamin/mineral table.
+
 ---
 
 ## Page depth
@@ -334,7 +351,7 @@ Invalid forms: bullet prefixes (`- [1] …`), author/year inside the link only, 
 
 Required for all food pages: `id`, `title`, `sidebar_label`, `description`, `tags` (includes `Food` + food name), `list_image`. The `description` field is the Foods Index identity line; see **Food-index descriptions** in `system/food-page-model.md`.
 
-Nutrition layer (when present): at least one valid compositional representation — populated `nutrition_per_100g` + `nutrition_source`; **or** `nutrition_authorised_specifications`; **or** supported qualitative `nutrition_supplementary_sources`. Optional: `nutrition_functional_metrics`, `substance_card_captions`, `protein_profile_note`, `amino_acid_strengths`, `limiting_amino_acids`, `complementary_pairings`. An empty `nutrition_per_100g: {}` may exist for component compatibility; it is not the compositional source. Internal keys may be stored without public display.
+Nutrition layer (when present): at least one valid compositional representation — populated `nutrition_per_100g` + `nutrition_source`; **or** `nutrition_authorised_specifications`; **or** supported qualitative `nutrition_supplementary_sources`. Optional: `nutrition_functional_metrics`, `substance_card_captions`, `protein_profile_note`, `amino_acid_strengths`, `limiting_amino_acids`, `complementary_pairings`. An empty `nutrition_per_100g: {}` may exist for component compatibility; it is not the compositional source. `nutrition_per_100g` is the canonical quantitative composition source. Significant vitamin/mineral table rows are derived from that panel; do not tag nutrients in order for them to appear. `public_display` is the explicit presentation override. Internal keys may still be stored without public display (bioactives not yet admitted; unresolved fatty-acid keys).
 
 See `system/food-page-frontmatter-shapes.md` for full YAML examples.
 

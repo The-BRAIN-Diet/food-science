@@ -1,6 +1,14 @@
 # Food Page Front Matter Shapes
 
-Canonical YAML structure for BRAIN Diet food pages under the three-sources-of-truth model. See `system/food-page-model.md` for layer rules.
+Canonical YAML structure for BRAIN Diet food pages under the three-sources-of-truth model. See `system/food-page-model.md` for layer rules and `system/food-page-schema.md` for the A/B/C/D distinction (composition / ontology / evidence / presentation).
+
+**Authoring contract (all future Foods):**
+
+- `nutrition_per_100g` is the canonical quantitative composition source. Do not add a second nutrition dataset.
+- Significant vitamin/mineral table rows are derived from that panel and the adult reference-intake rule (≥15% displayed % RI per 100 g → Key vitamins and minerals; other quantitative micros → Advanced Nutrition).
+- **Do not tag nutrients in order for them to appear in the nutrition table.** Tags are not a whitelist.
+- Tags remain useful for taxonomy, navigation, recipe↔food joins, and intentional Substance cards. An intentional Substance relationship is separate from composition: a nutrient may appear in the table without a card.
+- `public_display` is the explicit presentation override when one is required.
 
 ---
 
@@ -69,7 +77,7 @@ nutrition_supplementary_sources:
 
 **Notes for animal foods**
 
-- **tags**: Food, food name, and substances that appear in the nutrition table (and that have substance pages / BRS relevance). Do **not** list all essential amino acids (no Tryptophan, Lysine, etc. unless mechanistically notable).
+- **tags**: Food, food name, and **intentional** Substance relationships (compounds that should receive a card / join, and that already have or will immediately receive a rendered table row). Do **not** tag ordinary vitamins or minerals merely so they appear in the table — composition does that. Do **not** list all essential amino acids (no Tryptophan, Lysine, etc. unless mechanistically notable).
 - **protein_profile_note**: Single string; e.g. `Complete essential amino acid profile.`
 - **overview_key_compounds**: Optional list of compound names (e.g. EPA, DHA, Astaxanthin). Used by Script B as the deterministic enrichment trigger; if absent, Script B falls back to **bold** phrases in the Overview section.
 - **nutrition_supplementary_sources**: Omit if not needed. Each entry needs `key`, `label`, `source_note`, plus either `value`+`unit` or qualitative `amount_display` / `status` (canonical: `Present — quantity not established`). Optional: `notes`. See `system/food-nutrition-schema.md`.
@@ -122,7 +130,7 @@ nutrition_source:
 
 **Notes for plant foods**
 
-- **tags**: Food, food name, diet tags (Vegan/Vegetarian if applicable), and substances that appear in the nutrition table. Do **not** list every amino acid.
+- **tags**: Food, food name, diet tags (Vegan/Vegetarian if applicable), and **intentional** Substance relationships. Do **not** tag nutrients merely so they appear in the table. Do **not** list every amino acid.
 - **amino_acid_strengths**: Single string; e.g. lysine-rich, notable minerals.
 - **limiting_amino_acids**: Single string; e.g. lower in methionine and cysteine.
 - **complementary_pairings**: Single string; e.g. rice, oats, or other grains.

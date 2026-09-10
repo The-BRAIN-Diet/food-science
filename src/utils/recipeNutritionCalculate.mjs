@@ -123,6 +123,21 @@ export const ALL_CALC_KEYS = [
   OMEGA3_SUM_KEY,
 ]
 
+/**
+ * Known public keys plus every quantitative key on a food panel. A completed
+ * profile (copper, oleic acid, a newly mapped mineral) must enter the recipe
+ * vector at edible weight; a fixed key list would silently drop it.
+ */
+export function nutrientKeysFromPanel(panel) {
+  const keys = new Set(ALL_CALC_KEYS)
+  if (!panel || typeof panel !== "object") return keys
+  for (const [key, value] of Object.entries(panel)) {
+    if (UNRESOLVED_FATTY_ACID_KEYS.includes(key)) continue
+    if (isNumericNutrient(value)) keys.add(key)
+  }
+  return keys
+}
+
 function isFinitePositive(n) {
   return typeof n === "number" && Number.isFinite(n) && n > 0
 }
@@ -280,6 +295,8 @@ export function canCalculateDefault(ingredients, foodDocs) {
  *   servings: number,
  *   recipeTotals: Record<string, number>,
  *   perServing: Record<string, number>,
+ *   per100g: Record<string, number>,
+ *   preparedWeightG: number,
  *   notReported: Record<string, string[]>,
  *   audit: object[],
  *   blockers: string[],
@@ -326,6 +343,8 @@ export function calculateRecipeNutrition(frontMatter, foodDocs) {
       servings,
       recipeTotals: {},
       perServing: {},
+      per100g: {},
+      preparedWeightG: 0,
       notReported: {},
       audit: [],
       exclusions,
@@ -349,12 +368,14 @@ export function calculateRecipeNutrition(frontMatter, foodDocs) {
     const contributions = {}
     const missing = []
 
-    for (const key of ALL_CALC_KEYS) {
+    for (const key of nutrientKeysFromPanel(panel)) {
       const scaled = scaleNutrient(panel[key], weight)
       if (scaled.status === "not_reported") {
-        missing.push(key)
-        if (!notReported[key]) notReported[key] = []
-        notReported[key].push(foodTitle)
+        if (ALL_CALC_KEYS.includes(key)) {
+          missing.push(key)
+          if (!notReported[key]) notReported[key] = []
+          notReported[key].push(foodTitle)
+        }
         continue
       }
       if (scaled.status !== "numeric") continue
@@ -411,9 +432,12 @@ export function calculateRecipeNutrition(frontMatter, foodDocs) {
     })
   }
 
+  const preparedWeightG = defaults.reduce((sum, ing) => sum + ing.calculation_weight_g, 0)
   const perServing = {}
+  const per100g = {}
   for (const [key, total] of Object.entries(recipeTotals)) {
     perServing[key] = total / servings
+    if (preparedWeightG > 0) per100g[key] = (total * 100) / preparedWeightG
   }
 
   return {
@@ -421,6 +445,8 @@ export function calculateRecipeNutrition(frontMatter, foodDocs) {
     servings,
     recipeTotals,
     perServing,
+    per100g,
+    preparedWeightG,
     notReported,
     byFood,
     audit,
@@ -457,13 +483,16 @@ export function isKeyMicronutrient(key, perServingAmount) {
 }
 
 /**
- * Vitamins and minerals for the public panel: everything whose displayed
- * percentage reaches the threshold, plus any editorially promoted key, ranked by
- * proportion of target and capped. Promotions are pinned ahead of the ranking
- * because they are there to say something the proportion does not.
+ * Vitamins and minerals for the public panel, always taken from the current
+ * `perServing` vector. There is no stored top-eight: a newly completed or
+ * increased nutrient (copper on tahini, for example) re-enters, moves, or
+ * displaces another row when its proportion of target changes.
  *
- * Admission uses the rounded percentage; ranking uses the unrounded one, so two
- * rows both printed as 32% still appear in their true order.
+ * Eligible keys are those with a reference-intake percentage on the live
+ * vector, plus any editorially promoted key. Admission uses the rounded
+ * percentage; ranking uses the unrounded one, so two rows both printed as 32%
+ * still appear in their true order. Promotions are pinned ahead of the ranking
+ * because they are there to say something the proportion does not.
  *
  * @returns {{key: string, amount: number, pct: number, basis: string, promoted?: string}[]}
  */
@@ -475,13 +504,19 @@ export function selectKeyMicronutrients(result, frontMatter) {
     if (row?.key) promotions.set(row.key, row.reason || "editorial exception")
   }
 
+  const keys = new Set(PUBLIC_MICRONUTRIENT_KEYS)
+  for (const key of Object.keys(result.perServing || {})) {
+    if (percentOfReference(key, result.perServing[key]) != null) keys.add(key)
+  }
+  for (const key of promotions.keys()) keys.add(key)
+
   const candidates = []
-  for (const key of PUBLIC_MICRONUTRIENT_KEYS) {
+  for (const key of keys) {
     if (unresolved[key]) continue
     const amount = result.perServing[key]
     if (!isNumericNutrient(amount) || amount <= 0) continue
     const pct = percentOfReference(key, amount)
-    if (pct == null) continue
+    if (pct == null && !promotions.has(key)) continue
     const promoted = promotions.get(key)
     if (!promoted && !meetsKeyMicronutrientThreshold(pct)) continue
     candidates.push({key, amount, pct, basis: referenceBasis(key), promoted})
@@ -489,7 +524,7 @@ export function selectKeyMicronutrients(result, frontMatter) {
 
   candidates.sort((a, b) => {
     if (Boolean(a.promoted) !== Boolean(b.promoted)) return a.promoted ? -1 : 1
-    return b.pct - a.pct
+    return (b.pct ?? 0) - (a.pct ?? 0)
   })
   return candidates.slice(0, MAX_KEY_MICRONUTRIENTS)
 }

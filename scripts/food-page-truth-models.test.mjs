@@ -170,6 +170,8 @@ test("public nutrition grouping is Core nutrients / Key vitamins and minerals / 
     "Key vitamins and minerals",
     "Bioactive compounds",
   ])
+  assert.match(table, /<summary[^>]*>\s*Advanced Nutrition\s*<\/summary>/)
+  assert.doesNotMatch(table, /<h3>Advanced Nutrition<\/h3>/)
 })
 
 test("the superseded extended-substances label is gone from code and canonical documentation", () => {

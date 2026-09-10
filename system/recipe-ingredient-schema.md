@@ -134,7 +134,9 @@ All values are per declared serving, and `<RecipeNutrition />` is the only place
 
 **Visible meal summary**, in this order: Energy, Protein, Carbohydrate, Sugars, Fibre, Total fat, Saturated fat, Sodium.
 
-**Collapsed — Key vitamins and minerals.** A vitamin or mineral is eligible when its coverage **displays as 15% or more** of its reference intake for the actual serving, and at most **eight** are shown, ranked by proportion of target. Everything below the threshold or past the cap stays in `perServing` and in `completeNutrientDataset()`; the threshold governs prominence, never the data. Several meals each contributing a little still add up over a day.
+**Collapsed — Key vitamins and minerals.** Regenerated from the current recipe vector, never from a stored previous top eight. Sequence: new ingredient panel → whole-recipe sum at edible grams → per-serving (and, where a finished-mass basis is needed, per 100 g of prepared recipe) → percentages → rank and cap. A newly completed or increased nutrient, such as copper from tahini, must be allowed to enter or move within the list and to displace a former headline row.
+
+A vitamin or mineral is eligible when its coverage **displays as 15% or more** of its reference intake for the actual serving, and at most **eight** are shown, ranked by proportion of target. Everything below the threshold or past the cap stays in `perServing` and in `completeNutrientDataset()`; the threshold governs prominence, never the data. Several meals each contributing a little still add up over a day.
 
 Eligibility is tested against the rounded whole-number percentage the page prints, not the raw one, so a serving shown as `15%` is never withheld for being 14.86% underneath. Ranking then uses the unrounded percentage, so two rows both printed as `32%` still appear in their true order. This is a **public-display admission rule** deciding which rows a page highlights. It is not a statement about intake adequacy and not a regulatory nutrient-content threshold; a claim of that kind would need its own unrounded arithmetic and its own defined basis.
 
@@ -152,7 +154,7 @@ Do not restore a default “Foods in recipe” contributor column. Do not expose
 
 ### Display rounding
 
-Public values are rounded once, at display, by unit and magnitude — never before summing. `perServing` and `recipeTotals` keep full precision for validation and daily aggregation. Rules live in `src/utils/nutrientDisplay.mjs`:
+Public values are rounded once, at display, by unit and magnitude — never before summing. `recipeTotals`, `perServing` and `per100g` keep full precision for validation and daily aggregation. The public table uses the per-serving basis. `per100g` is the same whole-recipe vector scaled to 100 g of prepared default ingredients (`preparedWeightG`); it is not a second public table and is not the basis for the 15% admission rule. Rules live in `src/utils/nutrientDisplay.mjs`:
 
 | Unit | Rule |
 |---|---|

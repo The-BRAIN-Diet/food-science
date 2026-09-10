@@ -5,6 +5,7 @@ import {
   CORE_NUTRIENT_KEYS,
   MICRONUTRIENT_KEYS,
   NUTRIENT_LABELS,
+  isKeyFoodMicronutrient,
   isPublicSupplementaryRow,
   isPublicTableKey,
   readAuthorisedSpecifications,
@@ -57,7 +58,13 @@ interface NutritionTableProps {
   details: FrontMatter
 }
 
-/** Caption under “Bioactive compounds”. */
+/** Caption under “Key vitamins and minerals”. */
+export const KEY_VITAMIN_TABLE_CAPTION =
+  "Vitamins and minerals supplying at least 15% of an adult reference intake per 100 g, derived from the composition panel. Tags do not decide which rows appear."
+
+export const ADVANCED_NUTRITION_CAPTION =
+  "Other quantitative vitamins and minerals from the same composition panel. They remain available for Substance cards and later scoring; they are not headline nutrients of this food."
+
 export const BIOACTIVE_TABLE_CAPTION =
   "Explicitly identified compounds, including individual fatty acids, with a defensible quantity or an explicit qualitative status. Asterisks (*) identify supplementary sources below. Unquantified or trace constituents are not automatically admitted to the Substances list."
 
@@ -224,7 +231,12 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
   }
 
   const coreRows = renderKeyRows(CORE_NUTRIENT_KEYS)
-  const microRows = renderKeyRows(MICRONUTRIENT_KEYS)
+  const microRows = renderKeyRows(MICRONUTRIENT_KEYS.filter((key) => isKeyFoodMicronutrient(details, key)))
+  const advancedMicroRows = renderKeyRows(
+    MICRONUTRIENT_KEYS.filter(
+      (key) => isPublicTableKey(details, key) && !isKeyFoodMicronutrient(details, key),
+    ),
+  )
 
   const bioactiveLipidRows: React.ReactNode[] = []
   for (const key of BIOACTIVE_LIPID_KEYS) {
@@ -302,7 +314,11 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     bioactiveLipidRows.length > 0 || supplementaryRows.length > 0
   const hasFunctionalSection = functionalRows.length > 0
   const hasUsdaCompositionTables =
-    coreRows.length > 0 || microRows.length > 0 || hasBioactiveSection || hasFunctionalSection
+    coreRows.length > 0 ||
+    microRows.length > 0 ||
+    advancedMicroRows.length > 0 ||
+    hasBioactiveSection ||
+    hasFunctionalSection
 
   const authorisedProvenance = authorised
     ? [
@@ -344,6 +360,9 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
       {microRows.length > 0 && (
         <>
           <h3>Key vitamins and minerals</h3>
+          <p style={{fontSize: "0.9em", color: "#555", marginTop: "0.5rem"}}>
+            {KEY_VITAMIN_TABLE_CAPTION}
+          </p>
           <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
             <thead>
               <tr>
@@ -355,6 +374,27 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
             <tbody>{microRows}</tbody>
           </table>
         </>
+      )}
+
+      {advancedMicroRows.length > 0 && (
+        <details style={{marginTop: "0.75rem"}}>
+          <summary style={{cursor: "pointer", color: "var(--ifm-color-primary)"}}>
+            Advanced Nutrition
+          </summary>
+          <p style={{fontSize: "0.9em", color: "#555", marginTop: "0.5rem"}}>
+            {ADVANCED_NUTRITION_CAPTION}
+          </p>
+          <table style={{width: "100%", borderCollapse: "collapse", marginTop: "0.5rem"}}>
+            <thead>
+              <tr>
+                <th style={thStyle}>Nutrient</th>
+                <th style={thStyle}>Amount per 100 g</th>
+                <th style={thStyle}>% RDA per 100 g</th>
+              </tr>
+            </thead>
+            <tbody>{advancedMicroRows}</tbody>
+          </table>
+        </details>
       )}
 
       {hasBioactiveSection && (

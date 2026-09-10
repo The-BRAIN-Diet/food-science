@@ -79,7 +79,12 @@ nutrition_supplementary_sources:
 
 Broccoli sprouts are concentrated sources of **glucoraphanin** and active **myrosinase**, delivering higher sulforaphane potential per gram than mature broccoli when handled appropriately [1]. They are used as a functional crucifer garnish or short-grown sprout food.
 
-Within the BRAIN Diet framework, sprouts are a sulforaphane-focused ingredient with meaningful food-safety considerations (fresh sprout handling); typical portions are small [1].
+Within the BRAIN Diet framework, sprouts are a sulforaphane-focused ingredient with meaningful food-safety considerations (fresh sprout handling); typical portions are small [1]. A quantified broccoli-sprout beverage increased urinary elimination markers for benzene and acrolein, but not crotonaldehyde [2]. That finding does not show reduced pollutant accumulation, prevention of pollution-related disease, or a substitute for lowering exposure.
+
+## Other Nutritional Highlights
+
+- The human evidence used a manufactured, dose-quantified sprout beverage, not kitchen-prepared fresh sprouts [2].
+- Broccoli sprouts are not a general detox treatment [2].
 
 ## Food Context
 
@@ -121,3 +126,5 @@ Within the BRAIN Diet framework, sprouts are a sulforaphane-focused ingredient w
 ## References
 
 [1] Among the densest practical glucoraphanin sources for sulforaphane delivery. Houghton & Fassett 2016. [Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
+
+[2] Egner et al. (2014). [Rapid and Sustainable Detoxication of Airborne Pollutants by Broccoli Sprout Beverage: Results of a Randomized Clinical Trial in China](/docs/papers/BRAIN-Diet-References#egner_broccoli_sprout_beverage_2014). Twelve-week randomised trial of a quantified broccoli-sprout beverage (600 µmol glucoraphanin and 40 µmol sulforaphane daily): urinary mercapturic-acid markers rose for benzene and acrolein, not crotonaldehyde. Manufactured beverage, not blended fresh sprouts.

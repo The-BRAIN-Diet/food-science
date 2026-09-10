@@ -8,7 +8,9 @@ tags:
   - Nutrient
   - Vitamin
   - Vitamin K
-list_image: /img/icons/nutrient.svg
+list_image: /img/inchi/MBWXNTAXLNYFJB-NKFFZRIASA-N.png
+inchikey: MBWXNTAXLNYFJB-NKFFZRIASA-N
+inchi_image: /img/inchi/MBWXNTAXLNYFJB-NKFFZRIASA-N.png
 ---
 
 ## Overview

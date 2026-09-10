@@ -44,6 +44,8 @@ interface CalculatedNutrition {
   pendingReason?: string
   servings: number
   perServing: Record<string, number>
+  per100g: Record<string, number>
+  preparedWeightG: number
   byFood: Record<string, Record<string, number>>
   audit: {food: string; food_slug?: string | null; display?: string; weight_g: number; composition_basis?: string; conversion_source?: string}[]
   exclusions?: {display: string; reason: string}[]

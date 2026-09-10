@@ -2,7 +2,14 @@
  * Shared mapping and label helpers for food nutrition tables.
  * Used by NutritionTable / FoodSubstancesFromTable (via nutritionTableMapping.ts)
  * and by build-time validation of the Three Sources of Truth (page layers).
+ *
+ * Key vitamin/mineral rows are derived from nutrition_per_100g + reference
+ * intake. Tags are not a nutrition-table whitelist. public_display is the
+ * explicit override. Keep in sync with src/data/nutritionTableMapping.ts.
  */
+
+import {meetsKeyMicronutrientThreshold} from "../../src/utils/recipeNutritionCalculate.mjs"
+import {percentOfReference} from "../../src/utils/nutrientReference.mjs"
 
 export const CATEGORY_TAGS = new Set([
   "Substance",
@@ -392,10 +399,29 @@ export function resolvePublicDisplayForKey(fm, key) {
   if (isTraceContribution(fm, label)) return PUBLIC_DISPLAY.SUBSTANCE_ONLY
 
   const tagged = editorialSubstanceTags(fm).some((tag) => labelsOverlap(tag, label))
-  if (MICRONUTRIENT_KEYS.includes(key) || BIOACTIVE_LIPID_KEYS.includes(key)) {
+  if (MICRONUTRIENT_KEYS.includes(key)) {
+    const nutrition = fm.nutrition_per_100g && typeof fm.nutrition_per_100g === "object" ? fm.nutrition_per_100g : {}
+    const amount = nutrition[key]
+    return typeof amount === "number" && Number.isFinite(amount) && amount > 0
+      ? PUBLIC_DISPLAY.TABLE
+      : PUBLIC_DISPLAY.INTERNAL_ONLY
+  }
+  if (BIOACTIVE_LIPID_KEYS.includes(key)) {
     return tagged ? PUBLIC_DISPLAY.TABLE : PUBLIC_DISPLAY.INTERNAL_ONLY
   }
   return tagged ? PUBLIC_DISPLAY.SUBSTANCE_ONLY : PUBLIC_DISPLAY.INTERNAL_ONLY
+}
+
+export function isKeyFoodMicronutrient(fm, key) {
+  if (!MICRONUTRIENT_KEYS.includes(key)) return false
+  const label = NUTRIENT_LABELS[key]?.label || key
+  const explicit = explicitPublicDisplay(fm, key) || explicitPublicDisplay(fm, label)
+  if (explicit === PUBLIC_DISPLAY.TABLE) return true
+  if (explicit && explicit !== PUBLIC_DISPLAY.TABLE) return false
+  if (!isPublicTableKey(fm, key)) return false
+  const nutrition = fm.nutrition_per_100g && typeof fm.nutrition_per_100g === "object" ? fm.nutrition_per_100g : {}
+  const amount = nutrition[key]
+  return meetsKeyMicronutrientThreshold(percentOfReference(key, amount))
 }
 
 export function resolvePublicDisplayForSupplementary(fm, row) {
