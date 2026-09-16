@@ -1488,6 +1488,21 @@ Inflammation & Oxidative Stress:
   permalink: /inflammation-oxidative-stress
   description: BRS3 hub — inflammatory signalling and oxidative balance
 
+Neurotransmitter Regulation:
+  label: Neurotransmitter Regulation
+  permalink: /neurotransmitter-regulation
+  description: BRS1 hub — neurotransmitter synthesis, signalling and balance
+
+Methylation & One-Carbon Metabolism:
+  label: Methylation & One-Carbon Metabolism
+  permalink: /methylation-one-carbon-metabolism
+  description: BRS2 hub — one-carbon metabolism and methylation-related pathways
+
+Mitochondrial Function & Bioenergetics:
+  label: Mitochondrial Function & Bioenergetics
+  permalink: /mitochondrial-function-bioenergetics
+  description: BRS4 hub — mitochondrial function and cellular energy
+
 Gut-Brain Axis & Enteric Nervous System:
   label: Gut-Brain Axis & Enteric Nervous System
   permalink: /gut-brain-axis-enteric-nervous-system

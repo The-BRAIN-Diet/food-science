@@ -1331,7 +1331,16 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
   font-weight: 500;
 }
 
-#advanced-nutrition-panel .docusaurus-mermaid-container {
+#advanced-nutrition-panel .docusaurus-mermaid-container,
+#therapeutic-area-research-panel .docusaurus-mermaid-container,
+#advanced-nutrition-panel .accessible-mermaid,
+#therapeutic-area-research-panel .accessible-mermaid {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.markdown-table-scroll,
+.accessible-mermaid {
   overflow-x: auto;
   max-width: 100%;
 }

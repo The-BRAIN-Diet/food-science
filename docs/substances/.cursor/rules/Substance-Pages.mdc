@@ -6,7 +6,7 @@ alwaysApply: false
 ---
 
 Canonical schema: `system/substance-page-schema.md`.  
-**Worked example:** `docs/substances/bioactive-compounds/carotenoids/astaxanthin.md`.  
+**Worked examples:** `docs/substances/bioactive-compounds/carotenoids/astaxanthin.md` (Highlights) and `docs/substances/nutrients/micronutrients/minerals/trace/copper.md` (Highlights + Advanced Nutrition + Therapeutic Area Research).  
 References follow the same convention as food pages (`system/food-page-schema.md`).
 
 - Tag each food page with the substances it contains.
@@ -25,13 +25,14 @@ References follow the same convention as food pages (`system/food-page-schema.md
 3. **Dietary Context** — only subsections with substance-specific content (`Food sources`, `Synergies`, `Supplement versus food`).
 4. **Recipes** — `<SubstanceRecipes tag="the substance" />`
 5. **Foods** — `<SubstanceFoods tag="the substance" />`
-6. **References** — food-page canonical format. **No bullet prefix.** Each line:
+6. **Biological Regulatory Systems** — compact BRS table (one row per mapped hub, cited into the Highlights top five). Deeper biology goes in `<AdvancedNutrition>`; condition-specific evidence goes in `<TherapeuticAreaResearch>`. Headings inside those slots must be HTML so they stay out of the Highlights TOC.
+7. **References** — food-page canonical format, top five when the evidence base allows it. **No bullet prefix.** Each line:
 
 ```text
 [n] {Explanation}. {Author Year}. [{Paper title}](/docs/papers/BRAIN-Diet-References#citationKey)
 ```
 
-Do **not** render `<SubstanceMatrix />` or a hand-authored BRS table. BRS tags and `mechanisms:` stay in front matter for a later batch job.
+`<SubstanceMatrix />` may be used only when BRS hub tags resolve. Do not leave an empty-state message on a substance with mapped biology.
 
 Every citation key must exist in `static/bibtex/BRAIN-diet.bib`. Plain-text-only reference lines are invalid.
 

@@ -94,7 +94,14 @@
   max-width: 100%;
 }
 
-.advancedPanel :global(.docusaurus-mermaid-container) {
+.advancedPanel :global(.docusaurus-mermaid-container),
+.advancedPanel :global(.accessible-mermaid) {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.advancedPanel :global(.markdown-table-scroll),
+.advancedPanel :global(div:has(> table)) {
   overflow-x: auto;
   max-width: 100%;
 }

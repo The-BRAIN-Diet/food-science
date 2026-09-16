@@ -28,7 +28,8 @@ import PhenomeScoringKey from '../../components/PhenomeScoringKey';
 import PhenomeRegistry from '../PhenomeRegistry';
 import PhenomeDetail from '../PhenomeRegistry/PhenomeDetail';
 import FrameworkReviewRegister from '../../components/ReviewCorrections/PublicRegister';
-import AdvancedNutrition from '../../components/AdvancedNutrition';
+import AdvancedNutrition, {TherapeuticAreaResearch} from '../../components/AdvancedNutrition';
+import AccessibleMermaid from '../../components/AccessibleMermaid';
 import Mermaid from '@theme/Mermaid';
 
 export default {
@@ -62,5 +63,7 @@ export default {
   PhenomeDetail,
   FrameworkReviewRegister,
   AdvancedNutrition,
+  TherapeuticAreaResearch,
+  AccessibleMermaid,
   Mermaid,
 };

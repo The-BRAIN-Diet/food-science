@@ -43,7 +43,9 @@ const localOnlyDocExclude = [
   '**/training/**',
   '**/dietary-foundations/framework-review-and-corrections.mdx',
 ];
+const unpublishedDocExclude = ['**/therapeutic-areas/**'];
 const docsExclude = [
+  ...unpublishedDocExclude,
   ...(includeWipRecipes ? [] : wipDocExclude),
   ...(includeInternalDocs ? [] : localOnlyDocExclude),
 ];
@@ -54,7 +56,11 @@ const localOnlySitemapIgnore = [
   '/docs/dietary-foundations/framework-review-and-corrections',
   '/docs/dietary-foundations/framework-review-and-corrections/',
 ];
+const unpublishedSitemapIgnore = [
+  '/docs/therapeutic-areas/**',
+];
 const sitemapIgnore = [
+  ...unpublishedSitemapIgnore,
   ...(includeWipRecipes ? [] : wipSitemapIgnore),
   ...(includeInternalDocs ? [] : localOnlySitemapIgnore),
 ];
@@ -318,6 +324,7 @@ const config: Config = {
         indexPages: true,
         ignoreFiles: [
           /brs-cross-framework-dietary-architecture/,
+          /docs\/therapeutic-areas/,
           ...(!includeInternalDocs
             ? [/docs\/training/, /framework-review-and-corrections/]
             : []),
