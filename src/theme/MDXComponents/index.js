@@ -27,6 +27,9 @@ import PhenomeBibLinks from '../../components/PhenomeBibLinks';
 import PhenomeScoringKey from '../../components/PhenomeScoringKey';
 import PhenomeRegistry from '../PhenomeRegistry';
 import PhenomeDetail from '../PhenomeRegistry/PhenomeDetail';
+import FrameworkReviewRegister from '../../components/ReviewCorrections/PublicRegister';
+import AdvancedNutrition from '../../components/AdvancedNutrition';
+import Mermaid from '@theme/Mermaid';
 
 export default {
   ...MDXComponents,
@@ -57,4 +60,7 @@ export default {
   PhenomeScoringKey,
   PhenomeRegistry,
   PhenomeDetail,
+  FrameworkReviewRegister,
+  AdvancedNutrition,
+  Mermaid,
 };

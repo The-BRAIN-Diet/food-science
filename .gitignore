@@ -36,3 +36,14 @@ scripts/data/usda-sr-legacy/
 # Source/original image assets (keep repo lean)
 static/img/foods/originals/
 static/img/foods/OrigOld/
+
+# Local-only Training and QA (not published; requires INCLUDE_INTERNAL_DOCS=true)
+/docs/training
+docs/training/**
+docs/dietary-foundations/framework-review-and-corrections.mdx
+/system/framework-qc
+system/framework-qc/
+src/data/framework-qc-public.generated.json
+scripts/out/framework-qc/
+.private-migration-backup/
+

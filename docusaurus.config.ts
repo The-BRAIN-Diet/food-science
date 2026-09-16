@@ -1,13 +1,91 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import fs from 'node:fs';
+import path from 'node:path';
 
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+function loadEnvLocal() {
+  const candidates = [path.join(process.cwd(), '.env.local'), path.join(__dirname, '.env.local')];
+  for (const envPath of candidates) {
+    if (!fs.existsSync(envPath)) continue;
+    for (const raw of fs.readFileSync(envPath, 'utf8').split(/\r?\n/)) {
+      const line = raw.trim();
+      if (!line || line.startsWith('#')) continue;
+      const eq = line.indexOf('=');
+      if (eq < 1) continue;
+      const key = line.slice(0, eq).trim();
+      let value = line.slice(eq + 1).trim();
+      if (
+        (value.startsWith('"') && value.endsWith('"')) ||
+        (value.startsWith("'") && value.endsWith("'"))
+      ) {
+        value = value.slice(1, -1);
+      }
+      if (process.env[key] === undefined) process.env[key] = value;
+    }
+    return;
+  }
+}
 
-/** WIP recipes: included in dev (`npm start`); omitted from production builds (thebraindiet.org). */
-const includeInternalRecipeWip =
-  process.env.NODE_ENV !== 'production' ||
-  process.env.INCLUDE_INTERNAL_DOCS === 'true';
+if (process.env.NODE_ENV !== 'production') {
+  loadEnvLocal();
+}
+
+/** Local Training + QA Registry. Never implied by NODE_ENV; requires INCLUDE_INTERNAL_DOCS=true. */
+const includeInternalDocs = process.env.INCLUDE_INTERNAL_DOCS === 'true';
+
+/** WIP recipes: included in dev (`npm start`); omitted from production unless internal docs are on. */
+const includeWipRecipes =
+  process.env.NODE_ENV !== 'production' || includeInternalDocs;
+
+const wipDocExclude = ['**/recipes/WIP/**'];
+const localOnlyDocExclude = [
+  '**/training/**',
+  '**/dietary-foundations/framework-review-and-corrections.mdx',
+];
+const docsExclude = [
+  ...(includeWipRecipes ? [] : wipDocExclude),
+  ...(includeInternalDocs ? [] : localOnlyDocExclude),
+];
+
+const wipSitemapIgnore = ['/docs/recipes/WIP/**'];
+const localOnlySitemapIgnore = [
+  '/docs/training/**',
+  '/docs/dietary-foundations/framework-review-and-corrections',
+  '/docs/dietary-foundations/framework-review-and-corrections/',
+];
+const sitemapIgnore = [
+  ...(includeWipRecipes ? [] : wipSitemapIgnore),
+  ...(includeInternalDocs ? [] : localOnlySitemapIgnore),
+];
+
+const generatedQcPath = path.resolve(
+  __dirname,
+  'src/data/framework-qc-public.generated.json',
+);
+const fallbackQcPath = path.resolve(
+  __dirname,
+  'src/data/framework-qc-public.fallback.json',
+);
+
+function localInternalDocsPlugin() {
+  return {
+    name: 'local-internal-docs',
+    configureWebpack() {
+      const useGenerated =
+        includeInternalDocs && fs.existsSync(generatedQcPath);
+      if (!useGenerated) return {};
+      return {
+        resolve: {
+          alias: {
+            [fallbackQcPath]: generatedQcPath,
+          },
+        },
+      };
+    },
+  };
+}
+
 
 const brsOverviewDocIds = new Set([
   'biological-targets/neurotransmitter-regulation',
@@ -42,20 +120,23 @@ function isHiddenSidebarItem(item: any): boolean {
     'interventions',
     'partners',
     'symptoms',
-    'training',
     'system',
     'CONTRIBUTION-LEVEL-SYSTEM',
+    ...(includeInternalDocs
+      ? []
+      : ['training', 'dietary-foundations/framework-review-and-corrections']),
   ];
   const hiddenLabels = [
     'Therapeutic Areas',
     'Interventions',
     'Partners',
     'Symptoms',
-    'Training',
     'System',
     'Contribution Level System',
     'Functional metrics',
+    ...(includeInternalDocs ? [] : ['Training']),
   ];
+
 
   const docId =
     (item.type === 'doc' && item.id) ||
@@ -96,14 +177,41 @@ function removeHiddenSidebarItems(items: any[]): any[] {
   });
 }
 
+function flattenPapersCategory(items: any[]): any[] {
+  return items.flatMap((item) => {
+    if (item.type === 'category') {
+      const label = String(item.label || '')
+      const linkId = typeof item.link?.id === 'string' ? item.link.id : ''
+      const isPapers =
+        label.toLowerCase() === 'papers' || linkId.startsWith('papers/')
+      if (isPapers) {
+        return [
+          {
+            type: 'doc',
+            id: 'papers/BRAIN-Diet-References',
+            label: 'Papers',
+          },
+        ]
+      }
+      return [{ ...item, items: flattenPapersCategory(item.items ?? []) }]
+    }
+    return [item]
+  })
+}
+
 function customizeDocsSidebar(items: any[]): any[] {
-  return removeHiddenSidebarItems(removeDuplicateBrsOverviewDocs(items));
+  return flattenPapersCategory(
+    removeHiddenSidebarItems(removeDuplicateBrsOverviewDocs(items)),
+  )
 }
 
 const config: Config = {
   title: 'The BRAIN Diet',
   tagline: 'Bio Regulation Algorithm and Integrated Neuronutrition',
   favicon: 'site-icon/white.svg',
+  customFields: {
+    includeInternalDocs,
+  },
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -163,7 +271,7 @@ const config: Config = {
             const sidebarItems = await args.defaultSidebarItemsGenerator(args);
             return customizeDocsSidebar(sidebarItems);
           },
-          exclude: includeInternalRecipeWip ? [] : ['**/recipes/WIP/**'],
+          exclude: docsExclude,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -183,7 +291,7 @@ const config: Config = {
             '/docs/tags/docs/tags/**',
             '/brs-cross-framework-dietary-architecture',
             '/brs-cross-framework-dietary-architecture/',
-            ...(includeInternalRecipeWip ? [] : ['/docs/recipes/WIP/**']),
+            ...(sitemapIgnore),
           ],
           filename: 'sitemap.xml',
         },
@@ -191,6 +299,7 @@ const config: Config = {
     ],
   ],
   "plugins": [
+    localInternalDocsPlugin,
     './src/plugin/category-listing',
     [
       './src/plugin/bibtex-loader',
@@ -207,7 +316,12 @@ const config: Config = {
       require.resolve('@easyops-cn/docusaurus-search-local'),
       {
         indexPages: true,
-        ignoreFiles: [/brs-cross-framework-dietary-architecture/],
+        ignoreFiles: [
+          /brs-cross-framework-dietary-architecture/,
+          ...(!includeInternalDocs
+            ? [/docs\/training/, /framework-review-and-corrections/]
+            : []),
+        ],
       },
     ],
     [

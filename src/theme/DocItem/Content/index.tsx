@@ -6,6 +6,8 @@ import Heading from "@theme/Heading"
 import MDXContent from "@theme/MDXContent"
 import InChIImage from "@theme/InChIImage"
 import type {Props} from "@theme/DocItem/Content"
+import DocUtilityBar from "@site/src/components/ReviewCorrections/DocUtilityBar"
+import {AdvancedNutritionProvider} from "@site/src/components/AdvancedNutrition"
 
 function useSyntheticTitle(): string | null {
   const {metadata, frontMatter, contentTitle} = useDoc()
@@ -110,11 +112,13 @@ export default function DocItemContent({children}: Props): ReactNode {
 
   return (
     <div className={clsx(ThemeClassNames.docs.docMarkdown, "markdown")}>
-      {syntheticTitle && (
-        <header>
-          <Heading as="h1">{syntheticTitle}</Heading>
-        </header>
-      )}
+      <AdvancedNutritionProvider>
+      <DocUtilityBar>
+        {syntheticTitle && (
+          <header>
+            <Heading as="h1">{syntheticTitle}</Heading>
+          </header>
+        )}
 
       {(isFoodDoc || (isSubstanceDoc && !ionNotation)) && resolvedMainImage && (
         <div className="food-page-hero-wrap">
@@ -183,7 +187,9 @@ export default function DocItemContent({children}: Props): ReactNode {
         </p>
       )}
 
-      <MDXContent>{children}</MDXContent>
+        <MDXContent>{children}</MDXContent>
+      </DocUtilityBar>
+      </AdvancedNutritionProvider>
     </div>
   )
 }
