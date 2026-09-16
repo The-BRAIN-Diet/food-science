@@ -64,3 +64,17 @@ Zinc is an essential trace mineral that plays numerous critical roles in brain f
 - Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability [GREINER and KONIETZNY 1999](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
 - Synergy with magnesium and omega-3s reported; other studies have shown magnesium to be effective with both zinc and omega-3 and omega-6 [Huss, Völp, and Stauss-Grabo 2010](/docs/papers/BRAIN-Diet-References#huss_supplementation_2010)
 - Vegetarians in their 80s had higher odds of cognitive impairment compared to omnivores, likely due to deficiencies in B12, EPA/DHA, and zinc [Jigeer et al. 2025](/docs/papers/BRAIN-Diet-References#jigeer_vegetarian_2025)
+
+<AdvancedNutrition>
+
+### Zinc within the copper-to-zinc ratio {#zinc-within-the-copper-to-zinc-ratio}
+
+Reports of a higher copper-to-zinc ratio in some ADHD populations do not necessarily indicate elevated copper. The ratio may instead reflect lower zinc availability, inflammatory redistribution, differences in dietary intake or absorption, or combined changes in both minerals. Zinc status should therefore be interpreted directly and contextually rather than inferred from the ratio alone.
+
+Zinc participates in synaptic signalling, antioxidant defence, metallothionein function and numerous enzyme systems, but lower concentrations observed at group level do not establish a zinc-deficient ADHD subtype. Whether a verified zinc inadequacy contributes to symptoms—and whether its correction improves a defined outcome—requires individual assessment and intervention evidence.
+
+See [Copper–zinc balance: a contextual constraint, not a biochemical type](/docs/substances/nutrients/micronutrients/minerals/trace/copper?advanced=1#copper-zinc-balance) for the complete cross-system cascade and evidence assessment.
+
+Walsh’s biochemical-individuality model helped popularise copper–zinc interpretations in behavioural disorders, but its proposed biotypes have not been validated as ADHD subtypes; see the [advanced copper discussion](/docs/substances/nutrients/micronutrients/minerals/trace/copper?advanced=1#walsh-biochemical-biotypes) for the evidence and limitations.
+
+</AdvancedNutrition>

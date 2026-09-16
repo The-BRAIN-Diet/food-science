@@ -331,7 +331,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
     : ""
 
   return (
-    <section className="nutrition-table-block">
+    <section className="nutrition-table-block" id="nutritional-highlights">
       {hasUsdaCompositionTables && (
         <h2 id="nutrition-tables">Nutrient Tables (per 100 g)</h2>
       )}
@@ -377,7 +377,7 @@ export default function NutritionTable({details}: NutritionTableProps): React.Re
       )}
 
       {advancedMicroRows.length > 0 && (
-        <details style={{marginTop: "0.75rem"}}>
+        <details id="advanced-nutrition" style={{marginTop: "0.75rem"}}>
           <summary style={{cursor: "pointer", color: "var(--ifm-color-primary)"}}>
             Advanced Nutrition
           </summary>

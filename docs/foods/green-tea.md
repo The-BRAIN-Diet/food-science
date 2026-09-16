@@ -88,6 +88,7 @@ Within the BRAIN Diet framework, green tea is best used as a **polyphenol bevera
 
 - Steep at lower temperatures (roughly 70–80 °C) to preserve catechins and limit bitter tannin extraction.
 - Unsweetened brews fit best within polyphenol-forward dietary patterns; cup strength varies widely by leaf type and steep time.
+- Adding milk to black tea did not impair catechin bioavailability in a 12-person crossover; green-tea catechins were also rapidly absorbed. This trial did not test milk with green tea [3].
 
 ## Recipes
 
@@ -104,3 +105,5 @@ Within the BRAIN Diet framework, green tea is best used as a **polyphenol bevera
 [1] In Green Mediterranean Diet trials, added green-tea polyphenols contributed to greater visceral adiposity reduction than a standard Mediterranean diet alone. Zelicha et al. 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
 
 [2] Brain MRI follow-up in DIRECT PLUS linked the green-Mediterranean pattern to attenuated brain atrophy, with glycemic control contributing to the neuroprotective signal. Pachter et al. 2024. [Glycemic control contributes to the neuroprotective effects of Mediterranean and green-Mediterranean diets on brain age: the DIRECT PLUS brain-magnetic resonance imaging randomized controlled trial](/docs/papers/BRAIN-Diet-References#pachter_glycemic_2024)
+
+[3] Randomised crossover (n = 12): green-tea and black-tea catechins rose rapidly in blood; adding 100 ml semi-skimmed milk to 600 ml black tea did not significantly change catechin AUC versus black tea alone. Milk was not tested with green tea. van het Hof et al. 1998. [Bioavailability of catechins from tea: the effect of milk](/docs/papers/BRAIN-Diet-References#van_het_hof_catechins_milk_1998)

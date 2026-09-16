@@ -71,6 +71,7 @@ Within a BRAIN-aligned pattern it is a flavonoid beverage. Taken with meals it c
 
 - Space ≥1 hour from iron-rich meals or add lemon
 - Caffeine content varies with leaf and brew time
+- Adding 100 ml semi-skimmed milk to 600 ml black tea did not significantly change blood catechin levels versus black tea alone [3]
 
 ## Recipes
 
@@ -87,3 +88,5 @@ Within a BRAIN-aligned pattern it is a flavonoid beverage. Taken with meals it c
 [1] Theaflavin/catechin-class polyphenols; oxidation level differs from green tea. Zelicha & Kloting 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
 
 [2] High-polyphenol Mediterranean-style patterns associate with metabolic benefits in trials. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+
+[3] Randomised crossover (n = 12): adding 100 ml semi-skimmed milk to 600 ml black tea did not significantly change blood catechin AUC versus black tea alone. van het Hof et al. 1998. [Bioavailability of catechins from tea: the effect of milk](/docs/papers/BRAIN-Diet-References#van_het_hof_catechins_milk_1998)

@@ -1,0 +1,10 @@
+{
+  "label": "Papers",
+  "position": 10,
+  "link": {
+    "type": "doc",
+    "id": "papers/BRAIN-Diet-References"
+  },
+  "collapsed": true,
+  "collapsible": true
+}
