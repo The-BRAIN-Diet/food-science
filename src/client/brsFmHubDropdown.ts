@@ -256,7 +256,7 @@ function openHubTargetFromHash(
   scrollHashTargetIntoView(resolveScrollTarget(target, hash));
 }
 
-function initBrsFmHubDropdowns(root: ParentNode = document): void {
+export function initBrsFmHubDropdowns(root: ParentNode = document): void {
   root.querySelectorAll<HTMLElement>('[data-brs-fm-hub]:not([data-brs-fm-hub-init])').forEach((item) => {
     item.dataset.brsFmHubInit = 'true';
 

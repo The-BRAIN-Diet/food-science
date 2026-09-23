@@ -94,7 +94,10 @@ to any phenome attached to that PM.
 ```yaml
 scientific_findings:
   - id: SF-PM8-1                      # SF-<PM>-<n>, unique within the page
-    finding_statement: >-             # required — the assessable proposition
+    finding_label: >-                 # required — human-readable title (Level 1–2 default)
+    finding_summary: >-               # recommended — plain-language opening (self-contained)
+    finding_interpretation: >-        # optional — practitioner “What this means” / boundary
+    finding_statement: >-             # required — the assessable proposition (Level 3 audit)
     finding_discriminator: >-         # conditional — only when siblings could be confused
     synthesised_evidence_confidence: not-yet-scored   # only authorised value
     synthesis: >-                     # required — what the evidence supports together

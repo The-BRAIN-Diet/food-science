@@ -1382,45 +1382,72 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
   overflow-x: auto;
   max-width: 100%;
 }
-/* ── Canonical Scientific Finding (PM §5.1) ─────────────────────────────── */
+/* ── Canonical Scientific Finding (PM §4.1 / §5) ───────────────────────── */
 
 .brain-sf {
-  margin: 0.6rem 0;
+  margin: 0.75rem 0;
 }
 
-.brain-sf-shell {
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: 6px;
-  background: var(--ifm-background-surface-color);
+.brain-sf-lead {
+  margin: 0 0 0.65rem;
+  line-height: 1.55;
 }
 
-.brain-sf-summary {
-  cursor: pointer;
-  padding: 0.6rem 0.8rem;
-  font-weight: 600;
-  line-height: 1.4;
-  list-style: none;
+.brain-sf-interpretation {
+  margin: 0 0 0.65rem;
+  padding: 0.55rem 0.65rem;
+  border-left: 3px solid var(--ifm-color-primary);
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 0 var(--ifm-global-radius) var(--ifm-global-radius) 0;
 }
 
-.brain-sf-summary::-webkit-details-marker {
-  display: none;
+.brain-sf-interpretation-label {
+  margin: 0 0 0.25rem;
+  font-size: 0.92rem;
 }
 
-.brain-sf-summary::before {
-  content: "▸";
-  display: inline-block;
-  margin-right: 0.5rem;
-  color: var(--ifm-color-emphasis-600);
-  transition: transform 0.15s ease;
+.brain-sf-interpretation-body {
+  margin: 0;
+  line-height: 1.5;
 }
 
-.brain-sf-shell[open] > .brain-sf-summary::before {
-  transform: rotate(90deg);
+.brain-sf-confidence-compact {
+  margin: 0 0 0.55rem;
+  font-size: 0.92rem;
+  color: var(--ifm-color-emphasis-700);
 }
 
-.brain-sf-body {
-  padding: 0 0.85rem 0.8rem 1.6rem;
-  border-top: 1px solid var(--ifm-color-emphasis-200);
+.brain-sf-disclosure {
+  margin-top: 0.35rem;
+}
+
+.brain-sf-disclosure .brs-fm-hub-shell {
+  padding-bottom: 0.35rem;
+}
+
+.brain-sf-isa-disclosure {
+  margin: 0.15rem 0 0.35rem;
+}
+
+.brain-sf-isa-disclosure .brs-fm-hub-shell {
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.brain-sf-isa-disclosure .brs-fm-hub-panel {
+  margin-left: 0.35rem;
+  padding-left: 0.55rem;
+}
+
+.brain-sf-audit-id {
+  margin: 0 0 0.55rem;
+  font-size: 0.88rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.brain-sf-audit-id code {
+  font-size: 0.85rem;
 }
 
 .brain-sf-field {
