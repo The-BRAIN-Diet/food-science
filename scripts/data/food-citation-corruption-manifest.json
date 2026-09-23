@@ -1,0 +1,4035 @@
+{
+  "generated_at": "2026-09-18T11:47:04.717Z",
+  "commits": {
+    "ee03197": "ee03197",
+    "e0f9d46": "e0f9d46",
+    "ca8ae4e": "ca8ae4e"
+  },
+  "population": 169,
+  "failure_counts": {
+    "requires-editorial-review": 139,
+    "unchanged-but-unverified": 26,
+    "renamed-or-removed": 2,
+    "scientifically-verified": 2
+  },
+  "identical_highlights": [
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "heart, kidney, liver: nutrient-dense source of complete protein plus highly bioavailable vitamins and minerals.",
+      "slugs": [
+        "heart",
+        "kidney",
+        "liver"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "heart, kidney, liver: typically richer than standard muscle meat in vitamin b12 and other micronutrients.",
+      "slugs": [
+        "heart",
+        "kidney",
+        "liver"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "heart, kidney, lamb, liver, pork, turkey: contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.",
+      "slugs": [
+        "heart",
+        "kidney",
+        "lamb",
+        "liver",
+        "pork",
+        "turkey"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "heart, kidney, liver: nutrient concentrations can be very high, so portion size and frequency are useful practical levers.",
+      "slugs": [
+        "heart",
+        "kidney",
+        "liver"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "heart, kidney, liver: processing and cooking method still matter for overall dietary context.",
+      "slugs": [
+        "heart",
+        "kidney",
+        "liver"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "herring, mackerel, mussels, salmon, sardines, shrimp, tuna: provides complete, highly digestible protein.",
+      "slugs": [
+        "herring",
+        "mackerel",
+        "mussels",
+        "salmon",
+        "sardines",
+        "shrimp",
+        "tuna"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "herring, mackerel, mussels, salmon, sardines, shrimp, tuna: commonly contributes selenium, iodine, and vitamin b12, though levels vary by species.",
+      "slugs": [
+        "herring",
+        "mackerel",
+        "mussels",
+        "salmon",
+        "sardines",
+        "shrimp",
+        "tuna"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "herring, mackerel, mussels, salmon, sardines, shrimp, tuna: epa/dha content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.",
+      "slugs": [
+        "herring",
+        "mackerel",
+        "mussels",
+        "salmon",
+        "sardines",
+        "shrimp",
+        "tuna"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "herring, mackerel, mussels, salmon, sardines, shrimp, tuna: often lower in saturated fat than many fatty red-meat patterns when minimally processed.",
+      "slugs": [
+        "herring",
+        "mackerel",
+        "mussels",
+        "salmon",
+        "sardines",
+        "shrimp",
+        "tuna"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "herring, mackerel, mussels, salmon, sardines, shrimp, tuna: nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).",
+      "slugs": [
+        "herring",
+        "mackerel",
+        "mussels",
+        "salmon",
+        "sardines",
+        "shrimp",
+        "tuna"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "lamb, pork, turkey: provides a complete, highly digestible protein source.",
+      "slugs": [
+        "lamb",
+        "pork",
+        "turkey"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "file": "docs/foods/algal-oil.md",
+      "slug": "algal-oil",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/almonds.md",
+      "slug": "almonds",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/amaranth.md",
+      "slug": "amaranth",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/apples.md",
+      "slug": "apples",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/asparagus.md",
+      "slug": "asparagus",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/aubergine.md",
+      "slug": "aubergine",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/avocado-oil.md",
+      "slug": "avocado-oil",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/avocado.md",
+      "slug": "avocado",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "kindel_mechanism_2010",
+        "brown_carotenoid_2004",
+        "tangpricha_fortification_2003"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/bananas.md",
+      "slug": "bananas",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/barley.md",
+      "slug": "barley",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/beef.md",
+      "slug": "beef",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/beetroot.md",
+      "slug": "beetroot",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/bell-peppers.md",
+      "slug": "bell-peppers",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/black-beans.md",
+      "slug": "black-beans",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "hallberg_iron_1989",
+        "greiner_phytate_1999"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "References",
+          "text": "ee03197 added hallberg_iron_1989",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "hallberg_iron_1989"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/black-goji.md",
+      "slug": "black-goji",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/black-pepper.md",
+      "slug": "black-pepper",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/black-tea.md",
+      "slug": "black-tea",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/blueberries.md",
+      "slug": "blueberries",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/broccoli-sprouts.md",
+      "slug": "broccoli-sprouts",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/broccoli.md",
+      "slug": "broccoli",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/brussels-sprouts.md",
+      "slug": "brussels-sprouts",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/buckwheat.md",
+      "slug": "buckwheat",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/butter.md",
+      "slug": "butter",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cabbage.md",
+      "slug": "cabbage",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cacao-nibs-raw.md",
+      "slug": "cacao-nibs-raw",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cacao-powder.md",
+      "slug": "cacao-powder",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/capers.md",
+      "slug": "capers",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/carrots.md",
+      "slug": "carrots",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "fielding_increases_2005",
+        "kindel_mechanism_2010",
+        "brown_carotenoid_2004",
+        "johnson_role_2014"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "References",
+          "text": "ee03197 added kindel_mechanism_2010",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "kindel_mechanism_2010"
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added brown_carotenoid_2004",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "brown_carotenoid_2004"
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added johnson_role_2014",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "johnson_role_2014"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cashews.md",
+      "slug": "cashews",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cauliflower.md",
+      "slug": "cauliflower",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/chamomile-tea.md",
+      "slug": "chamomile-tea",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cheddar-cheese.md",
+      "slug": "cheddar-cheese",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cherries.md",
+      "slug": "cherries",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/chia-seeds.md",
+      "slug": "chia-seeds",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/chicken.md",
+      "slug": "chicken",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "pirinen_niacin_2020"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/chickpeas.md",
+      "slug": "chickpeas",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "greiner_phytate_1999"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/chicory-root.md",
+      "slug": "chicory-root",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/chlorella.md",
+      "slug": "chlorella",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cilantro.md",
+      "slug": "cilantro",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cinnamon.md",
+      "slug": "cinnamon",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/clams.md",
+      "slug": "clams",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "pawlak_vitamin_2013"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cockles.md",
+      "slug": "cockles",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cocoa.md",
+      "slug": "cocoa",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/coconut-oil.md",
+      "slug": "coconut-oil",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cod.md",
+      "slug": "cod",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/coffee.md",
+      "slug": "coffee",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cooled-potatoes.md",
+      "slug": "cooled-potatoes",
+      "commits": [
+        "ee03197"
+      ],
+      "exists": false,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": false,
+      "status": "renamed-or-removed",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cordyceps-mushroom.md",
+      "slug": "cordyceps-mushroom",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/corn.md",
+      "slug": "corn",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/crab.md",
+      "slug": "crab",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cranberries.md",
+      "slug": "cranberries",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/cucumber.md",
+      "slug": "cucumber",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/dandelion-greens.md",
+      "slug": "dandelion-greens",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/dark-chocolate.md",
+      "slug": "dark-chocolate",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/dark-meat-poultry.md",
+      "slug": "dark-meat-poultry",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/duck-fat.md",
+      "slug": "duck-fat",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/early-harvest-olive-oil.md",
+      "slug": "early-harvest-olive-oil",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/edamame.md",
+      "slug": "edamame",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/egg-yolks.md",
+      "slug": "egg-yolks",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "scientifically-verified",
+      "mechanically_repaired": true,
+      "scientifically_verified": true
+    },
+    {
+      "file": "docs/foods/eggs.md",
+      "slug": "eggs",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "soerensen_effect_2014",
+        "garani_endocannabinoid_2021",
+        "derbyshire_role_2023"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "scientifically-verified",
+      "mechanically_repaired": true,
+      "scientifically_verified": true
+    },
+    {
+      "file": "docs/foods/extra-virgin-olive-oil.md",
+      "slug": "extra-virgin-olive-oil",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/fermented-hot-sauce.md",
+      "slug": "fermented-hot-sauce",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/fermented-vegetables.md",
+      "slug": "fermented-vegetables",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/flax-seeds.md",
+      "slug": "flax-seeds",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/fortified-plant-milks.md",
+      "slug": "fortified-plant-milks",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/garlic.md",
+      "slug": "garlic",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/ghee.md",
+      "slug": "ghee",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/ginger.md",
+      "slug": "ginger",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/grapes.md",
+      "slug": "grapes",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/grass-fed-butter.md",
+      "slug": "grass-fed-butter",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/greek-yogurt.md",
+      "slug": "greek-yogurt",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/green-tea.md",
+      "slug": "green-tea",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "zelicha_effect_2022",
+        "pachter_glycemic_2024"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "References",
+          "text": "ee03197 added zelicha_effect_2022",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "zelicha_effect_2022"
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added pachter_glycemic_2024",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "pachter_glycemic_2024"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/heart.md",
+      "slug": "heart",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/herring.md",
+      "slug": "herring",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/jerusalem-artichokes.md",
+      "slug": "jerusalem-artichokes",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/kale.md",
+      "slug": "kale",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "chai_effect_2005",
+        "hallberg_iron_1989"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added chai_effect_2005",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "chai_effect_2005"
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added hallberg_iron_1989",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "hallberg_iron_1989"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/kefir.md",
+      "slug": "kefir",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/kidney-beans.md",
+      "slug": "kidney-beans",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "greiner_phytate_1999"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/kidney.md",
+      "slug": "kidney",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/kimchi.md",
+      "slug": "kimchi",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/kombucha.md",
+      "slug": "kombucha",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/lamb.md",
+      "slug": "lamb",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/leeks.md",
+      "slug": "leeks",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/lemon-balm-tea.md",
+      "slug": "lemon-balm-tea",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/lemon.md",
+      "slug": "lemon",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/lentils.md",
+      "slug": "lentils",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "hallberg_iron_1989",
+        "greiner_phytate_1999"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added hallberg_iron_1989",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "hallberg_iron_1989"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/lions-mane-mushroom.md",
+      "slug": "lions-mane-mushroom",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/liver.md",
+      "slug": "liver",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/lumpfish-roe.md",
+      "slug": "lumpfish-roe",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/lupin-beans.md",
+      "slug": "lupin-beans",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/lupins.md",
+      "slug": "lupins",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/mackerel.md",
+      "slug": "mackerel",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/maitake-mushroom.md",
+      "slug": "maitake-mushroom",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/mankai.md",
+      "slug": "mankai",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/mct-oil.md",
+      "slug": "mct-oil",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/milk.md",
+      "slug": "milk",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/miso.md",
+      "slug": "miso",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/mucuna-beans.md",
+      "slug": "mucuna-beans",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/mushrooms.md",
+      "slug": "mushrooms",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "pirinen_niacin_2020"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/mussels.md",
+      "slug": "mussels",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/natto.md",
+      "slug": "natto",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/nori.md",
+      "slug": "nori",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/nutritional-yeast.md",
+      "slug": "nutritional-yeast",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/oats.md",
+      "slug": "oats",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "sean_davies_oatmeal_2018"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "References",
+          "text": "ee03197 added sean_davies_oatmeal_2018",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "sean_davies_oatmeal_2018"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/olive-oil.md",
+      "slug": "olive-oil",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/olives.md",
+      "slug": "olives",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/onions.md",
+      "slug": "onions",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/oranges.md",
+      "slug": "oranges",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/oregano.md",
+      "slug": "oregano",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/oyster-mushroom.md",
+      "slug": "oyster-mushroom",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/oysters.md",
+      "slug": "oysters",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/parmesan-cheese.md",
+      "slug": "parmesan-cheese",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "soerensen_effect_2014"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added soerensen_effect_2014",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "soerensen_effect_2014"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/parsley.md",
+      "slug": "parsley",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/peanuts.md",
+      "slug": "peanuts",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/peas.md",
+      "slug": "peas",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "dhir_thiamine_2019"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/peppermint.md",
+      "slug": "peppermint",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/pistachios.md",
+      "slug": "pistachios",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/pomegranates.md",
+      "slug": "pomegranates",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "zelicha_effect_2022",
+        "andreux_mitophagy_2019",
+        "singh_direct_2022"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added zelicha_effect_2022",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "zelicha_effect_2022"
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added singh_direct_2022",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "singh_direct_2022"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/pork.md",
+      "slug": "pork",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "dhir_thiamine_2019"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/potatoes.md",
+      "slug": "potatoes",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/psyllium-husk.md",
+      "slug": "psyllium-husk",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/pumpkin-seeds.md",
+      "slug": "pumpkin-seeds",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "greiner_phytate_1999"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/quinoa.md",
+      "slug": "quinoa",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/raspberries.md",
+      "slug": "raspberries",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/reishi-mushroom.md",
+      "slug": "reishi-mushroom",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/rice.md",
+      "slug": "rice",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/rosemary.md",
+      "slug": "rosemary",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/saffron.md",
+      "slug": "saffron",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/sage.md",
+      "slug": "sage",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/salmon-roe.md",
+      "slug": "salmon-roe",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "patrick_role_2019",
+        "liu_higher_2014"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "References",
+          "text": "ee03197 added liu_higher_2014",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "liu_higher_2014"
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added patrick_role_2019",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "patrick_role_2019"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/salmon.md",
+      "slug": "salmon",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "mcnamara_role_2006",
+        "stonehouse_dha_2013"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "References",
+          "text": "ee03197 added mcnamara_role_2006",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "mcnamara_role_2006"
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added stonehouse_dha_2013",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "stonehouse_dha_2013"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/sardines.md",
+      "slug": "sardines",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/sauerkraut.md",
+      "slug": "sauerkraut",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/scallops.md",
+      "slug": "scallops",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/seaweed.md",
+      "slug": "seaweed",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/sesame-seeds.md",
+      "slug": "sesame-seeds",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "kindel_mechanism_2010",
+        "brown_carotenoid_2004"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "References",
+          "text": "ee03197 added brown_carotenoid_2004",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "brown_carotenoid_2004"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/shiitake-mushroom.md",
+      "slug": "shiitake-mushroom",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/shrimp.md",
+      "slug": "shrimp",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/sourdough-bread.md",
+      "slug": "sourdough-bread",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/soy-lecithin.md",
+      "slug": "soy-lecithin",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/soy.md",
+      "slug": "soy",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "gibellini_kennedy_2010"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/spelt.md",
+      "slug": "spelt",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/spinach.md",
+      "slug": "spinach",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "chai_effect_2005",
+        "hallberg_role_1989",
+        "chaiyarit_mitochondrial_2020",
+        "hallberg_iron_1989"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added chai_effect_2005",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "chai_effect_2005"
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added chaiyarit_mitochondrial_2020",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "chaiyarit_mitochondrial_2020"
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added hallberg_iron_1989",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "hallberg_iron_1989"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/spirulina.md",
+      "slug": "spirulina",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/strawberries.md",
+      "slug": "strawberries",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/sunflower-lecithin.md",
+      "slug": "sunflower-lecithin",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/sunflower-seeds.md",
+      "slug": "sunflower-seeds",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "dhir_thiamine_2019"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/sweet-potatoes.md",
+      "slug": "sweet-potatoes",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/swiss-chard.md",
+      "slug": "swiss-chard",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/tahini.md",
+      "slug": "tahini",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/tart-cherry.md",
+      "slug": "tart-cherry",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/tempeh.md",
+      "slug": "tempeh",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "leblanc_b-group_2011"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "References",
+          "text": "ee03197 added leblanc_b-group_2011",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "leblanc_b-group_2011"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/tofu.md",
+      "slug": "tofu",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/tomatoes.md",
+      "slug": "tomatoes",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "fielding_increases_2005",
+        "hallberg_iron_1989",
+        "kindel_mechanism_2010",
+        "brown_carotenoid_2004"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added fielding_increases_2005",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "fielding_increases_2005"
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added hallberg_iron_1989",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "hallberg_iron_1989"
+        },
+        {
+          "section": "References",
+          "text": "ee03197 added brown_carotenoid_2004",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "brown_carotenoid_2004"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/trout-roe.md",
+      "slug": "trout-roe",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "unchanged-but-unverified",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/tuna.md",
+      "slug": "tuna",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "pirinen_niacin_2020"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/turkey-tail-mushroom.md",
+      "slug": "turkey-tail-mushroom",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/turkey.md",
+      "slug": "turkey",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "pirinen_niacin_2020"
+      ],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/turmeric.md",
+      "slug": "turmeric",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/vinegar-pickles.md",
+      "slug": "vinegar-pickles",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "Key Nutritional Highlights",
+          "text": "(removed after ca8ae4e)",
+          "failure": "legitimate-and-retained",
+          "citations": ""
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/vinegar.md",
+      "slug": "vinegar",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/walnuts.md",
+      "slug": "walnuts",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [
+        "zelicha_effect_2022"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [
+        {
+          "section": "References",
+          "text": "ee03197 added zelicha_effect_2022",
+          "failure": "uncertain-and-requiring-editorial-review",
+          "citations": "zelicha_effect_2022"
+        }
+      ],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/wasabi.md",
+      "slug": "wasabi",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/watermelon.md",
+      "slug": "watermelon",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/wheat-germ.md",
+      "slug": "wheat-germ",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/wheat.md",
+      "slug": "wheat",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/whey-protein.md",
+      "slug": "whey-protein",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": true,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/whole-grains.md",
+      "slug": "whole-grains",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "exists": true,
+      "added_keys_ee03197": [],
+      "pre_ca8_had_highlights": true,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": true,
+      "status": "requires-editorial-review",
+      "mechanically_repaired": true,
+      "scientifically_verified": false
+    },
+    {
+      "file": "docs/foods/yogurt.md",
+      "slug": "yogurt",
+      "commits": [
+        "ee03197"
+      ],
+      "exists": false,
+      "added_keys_ee03197": [
+        "leblanc_b-group_2011"
+      ],
+      "pre_ca8_had_highlights": false,
+      "ca8_created_highlights": false,
+      "overview_dump_at_ca8": false,
+      "findings": [],
+      "scan_hard": [],
+      "scan_warnings": [],
+      "e0_rewrote_refs": false,
+      "status": "renamed-or-removed",
+      "mechanically_repaired": false,
+      "scientifically_verified": false
+    }
+  ],
+  "framing": "Mechanical remediation and recurrence prevention completed; scientific evidence validation ongoing.",
+  "status_counts": {
+    "requires-editorial-review": 139,
+    "unchanged-but-unverified": 26,
+    "renamed-or-removed": 2,
+    "scientifically-verified": 2
+  }
+}

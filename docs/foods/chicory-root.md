@@ -45,12 +45,14 @@ legacy_main_image: /img/foods/chicory-root/chicory-root_medium.webp
 Chicory root is a concentrated source of **inulin**, a fermentable prebiotic fibre supporting **Bifidobacterium** and related taxa [1]. Prebiotic fibres have been studied for gut–brain axis markers including cortisol response [2].
 
 Within the BRAIN Diet framework, chicory root (and inulin ingredients) support fermentable-fibre diversity; typical use is as roasted drink or inulin additive rather than whole-root bulk intake [1,2].
+
 ## Key Nutritional Highlights
 
 - High inulin content — fermentable prebiotic fibre [1].
 - Prebiotic intake studied for cortisol and emotional-bias endpoints [2].
 - Roasted chicory beverage is caffeine-free coffee substitute.
 - Introduce gradually to limit fermentative GI discomfort.
+
 ## Food Context
 
 ### Synergies

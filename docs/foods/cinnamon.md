@@ -75,13 +75,15 @@ nutrition_supplementary_sources:
 
 Cinnamon provides **polyphenols** (including proanthocyanidins) studied for glycaemic and metabolic endpoints [1]. Cassia cinnamon contains **coumarin** — regular high intake may warrant Ceylon varieties for frequent use.
 
-Within the BRAIN Diet framework, cinnamon is a spice used in 1–3 g/day culinary or therapeutic contexts rather than as a bulk food [1].
+Within the BRAIN Diet framework, cinnamon is a spice used in 1–3 g/day culinary or therapeutic contexts rather than as a bulk food
+
 ## Key Nutritional Highlights
 
 - Polyphenol-rich spice with glycaemic-control research interest [1].
 - Typical doses are 1–3 g/day; not 100 g USDA portions.
 - Cassia vs Ceylon matters for coumarin exposure with frequent use.
 - Pair with carbohydrate-containing meals in glycaemic-management patterns [1].
+
 ## Food Context
 
 ### Synergies

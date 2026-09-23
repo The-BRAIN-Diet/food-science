@@ -47,13 +47,10 @@ nutrition_supplementary_sources:
 Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, supporting neurotransmitter synthesis.
 
 The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: mucuna beans for natural LDOPA [1].
+
 ## Key Nutritional Highlights
 
-
-- Reports on neurotransmitters Regulation and Food Intake: The Role of Dietary Sources in Neurotransmission [1]
-- Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, supporting neurotransmitter synthesis. [1]
 - The implementation of the BRAIN diet must go beyond a standard nutrient density focus, it's about choosing foods for their specific bioactive potential: mucuna beans for natural LDOPA.
-- Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, supporting neurotransmitter synthesis.
 
 ## Food Context
 

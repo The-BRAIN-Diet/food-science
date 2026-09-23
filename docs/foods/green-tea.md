@@ -68,7 +68,7 @@ legacy_main_image: /img/foods/green-tea/green-tea_medium.webp
 
 Green tea provides **catechins** (especially EGCG), **L-theanine**, and other polyphenols in a low-calorie brewed beverage. These intrinsic compounds support antioxidant defenses and are widely studied for cognitive and metabolic relevance, alongside small amounts of **manganese**, **fluoride**, and **potassium** from the leaf and brew matrix.
 
-Within the BRAIN Diet framework, green tea is best used as a **polyphenol beverage** rather than a calorie or protein source. In Green Mediterranean Diet trials, added green-tea polyphenols contributed to greater visceral adiposity reduction than a standard Mediterranean diet alone [1], and the same trial programme linked the green-Mediterranean pattern to attenuated brain atrophy with glycemic control as part of the neuroprotective signal [2].
+Within the BRAIN Diet framework, green tea is best used as a **polyphenol beverage** rather than a calorie or protein source. In Green Mediterranean Diet trials, added green-tea polyphenols contributed to greater visceral adiposity reduction than a standard Mediterranean diet alone [1], and the same trial programme linked the green-Mediterranean pattern to attenuated brain atrophy with glycemic control as part of the neuroprotective signal
 
 ## Key Nutritional Highlights
 

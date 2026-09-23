@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-08-31T14:41:22.831Z",
+    "generatedAt": "2026-09-23T07:07:10.663Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
@@ -130,19 +130,25 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "GABA is the principal inhibitory neurotransmitter; altered central GABA receptor expression is implicated in anxiety pathogenesis in gut–brain and dietary neurotransmitter reviews. GABA synthesis capacity is the mechanism boundary — not probiotic or pharmacologic GABAergic treatment claims.",
+      "rationale": "Framework-supplied and insufficiently evidenced. No study measures GABA against worry, rumination or perseverative thought as functions; the available literature measures anxiety-disorder severity instead, which is a diagnostic label spanning somatic arousal and avoidance rather than this phenome's named capacity. The nearest in-boundary human evidence is high-dose B6 reducing self-reported anxiety, which only partially informs this phenome, and PLP serves over 140 enzymes so B6 is not a GABA-specific manipulation. Abolishing GAD65 in mice alters anxiety-like behaviour in a sex-dependent way rather than uniformly increasing it. Previous reliance on altered GABA receptor expression has been removed: receptor signalling is outside this PM boundary.",
       "references": [
         {
           "index": 1,
-          "label": "Briguglio et al. (2018)",
-          "citationKey": "briguglio_dietary_2018",
-          "href": "/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018"
+          "label": "Field et al. (2022)",
+          "citationKey": "field_high-dose_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#field_high-dose_2022"
         },
         {
           "index": 2,
-          "label": "Edden et al. (2012)",
-          "citationKey": "edden_reduced_2012",
-          "href": "/docs/papers/BRAIN-Diet-References#edden_reduced_2012"
+          "label": "Ulrich et al. (2023)",
+          "citationKey": "ulrich_sex_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ulrich_sex_2023"
+        },
+        {
+          "index": 3,
+          "label": "Briguglio et al. (2018)",
+          "citationKey": "briguglio_dietary_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#briguglio_dietary_2018"
         }
       ],
       "targetPhenomeId": "PH016"
@@ -1648,16 +1654,28 @@
       "confidence": "medium",
       "evidenceConfidence": "medium",
       "evidenceLevel": "intervention",
-      "rationale": "Mousain-Bosc et al. (2006) reported improvement of neurobehavioral disorders in children supplemented with magnesium–vitamin B6; GABA synthesis capacity (glutamate decarboxylase, PLP/B6 context) is the mechanism boundary—combined Mg+B6 supplementation prevents isolating GABA synthesis from cofactor co-intervention.",
+      "rationale": "Triangulated. The enzymatic arm is well established: glutamate decarboxylase requires pyridoxal-5-phosphate, and high-dose vitamin B6 reduces self-reported anxiety and strengthens an inhibitory sensory assay in healthy adults. Human evidence also links the anterior cingulate GABA pool to impulsivity and aggression. What is missing is the joining step: no study connects GABA synthesis capacity itself to emotional regulation in humans, and GABA concentration cannot stand in for synthesis rate. Mousain-Bosc et al. (2006) is retained as connected evidence only - it combined magnesium with B6 and measured neither GABA, GAD, PLP nor synthesis flux, so it cannot isolate this mechanism.",
       "references": [
         {
           "index": 1,
-          "label": "Mousain-Bosc et al. (2006)",
-          "citationKey": "m_mousain-bosc_1_improvement_2006",
-          "href": "/docs/papers/BRAIN-Diet-References#m_mousain-bosc_1_improvement_2006"
+          "label": "Field et al. (2022)",
+          "citationKey": "field_high-dose_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#field_high-dose_2022"
         },
         {
           "index": 2,
+          "label": "Ende et al. (2016)",
+          "citationKey": "ende_impulsivity_2016",
+          "href": "/docs/papers/BRAIN-Diet-References#ende_impulsivity_2016"
+        },
+        {
+          "index": 3,
+          "label": "Martin & Rimvall (1993)",
+          "citationKey": "martin_regulation_1993",
+          "href": "/docs/papers/BRAIN-Diet-References#martin_regulation_1993"
+        },
+        {
+          "index": 4,
           "label": "Edden et al. (2012)",
           "citationKey": "edden_reduced_2012",
           "href": "/docs/papers/BRAIN-Diet-References#edden_reduced_2012"
@@ -3658,13 +3676,31 @@
       "confidence": "high",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "GABA synthesis capacity is a principal biological contributor to inhibitory calming neurophysiology — converting glutamate to GABA directly governs calm, control, and resistance to overstimulation within this PM boundary. Cataldo et al. (2024) establishes PLP-dependent glutamate decarboxylase biochemistry; Evidence Confidence is low because attached refs do not directly measure sleep or calming outcomes on this row — not because the biological relationship is weak.",
+      "rationale": "Framework-supplied, and contradicted at the level the evidence actually measures. GABA synthesis is a principal contributor to inhibitory calming neurophysiology within this PM boundary, but the direction assumed by that framing is not supported: across three independent polysomnography-verified primary insomnia samples, cortical GABA concentration was lower in one, 12% higher in another - where the authors read elevation as an adaptive allostatic response to chronic hyperarousal - and unchanged in a third that explicitly did not replicate earlier reports. No human study measures GAD activity, PLP status or synthesis flux against any sleep outcome. Receptor-level hypnotics and oral GABA supplementation lie outside this PM boundary.",
       "references": [
         {
           "index": 1,
-          "label": "Cataldo et al. (2024)",
-          "citationKey": "cataldo_comprehensive_2024",
-          "href": "/docs/papers/BRAIN-Diet-References#cataldo_comprehensive_2024"
+          "label": "Martin & Rimvall (1993)",
+          "citationKey": "martin_regulation_1993",
+          "href": "/docs/papers/BRAIN-Diet-References#martin_regulation_1993"
+        },
+        {
+          "index": 2,
+          "label": "Winkelman et al. (2008)",
+          "citationKey": "winkelman_reduced_2008",
+          "href": "/docs/papers/BRAIN-Diet-References#winkelman_reduced_2008"
+        },
+        {
+          "index": 3,
+          "label": "Morgan et al. (2012)",
+          "citationKey": "morgan_cortical_2012",
+          "href": "/docs/papers/BRAIN-Diet-References#morgan_cortical_2012"
+        },
+        {
+          "index": 4,
+          "label": "Spiegelhalder et al. (2016)",
+          "citationKey": "spiegelhalder_magnetic_2016",
+          "href": "/docs/papers/BRAIN-Diet-References#spiegelhalder_magnetic_2016"
         }
       ],
       "targetPhenomeId": "PH008"
@@ -3746,13 +3782,19 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Inhibitory GABAergic tone may indirectly support social approach by limiting hyperarousal and overstimulation that drive withdrawal; direct social-engagement outcome evidence on GABA synthesis capacity remains limited in attached refs.",
+      "rationale": "Framework-supplied and insufficiently evidenced, with a directional contradiction that must stay visible. The proposition has been that inhibitory tone limits the hyperarousal driving social withdrawal. The only evidence that manipulates GABA synthesis and measures social behaviour points the other way: GAD65 knock-out mice of both sexes showed a higher preference for social interaction partners, heightened in males. Rodent social preference is in any case not equivalent to human social engagement capacity, and no human study relates GABA synthesis to social function. Edden et al. (2012) was removed from this row because it measures GABA concentration in ADHD and is silent on social outcomes.",
       "references": [
         {
           "index": 1,
-          "label": "Edden et al. (2012)",
-          "citationKey": "edden_reduced_2012",
-          "href": "/docs/papers/BRAIN-Diet-References#edden_reduced_2012"
+          "label": "Ulrich et al. (2023)",
+          "citationKey": "ulrich_sex_2023",
+          "href": "/docs/papers/BRAIN-Diet-References#ulrich_sex_2023"
+        },
+        {
+          "index": 2,
+          "label": "Martin & Rimvall (1993)",
+          "citationKey": "martin_regulation_1993",
+          "href": "/docs/papers/BRAIN-Diet-References#martin_regulation_1993"
         }
       ],
       "targetPhenomeId": "PH018"
@@ -4926,7 +4968,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "GABA is the principal inhibitory neurotransmitter; altered central GABA receptor expression is implicated in anxiety pathogenesis in gut–brain and dietary neurotransmitter reviews. GABA synthesis capacity is the mechanism boundary — not probiotic or pharmacologic GABAergic treatment claims.",
+        "evidence_summary": "Framework-supplied and insufficiently evidenced. No study measures GABA against worry, rumination or perseverative thought as functions; the available literature measures anxiety-disorder severity instead, which is a diagnostic label spanning somatic arousal and avoidance rather than this phenome's named capacity. The nearest in-boundary human evidence is high-dose B6 reducing self-reported anxiety, which only partially informs this phenome, and PLP serves over 140 enzymes so B6 is not a GABA-specific manipulation. Abolishing GAD65 in mice alters anxiety-like behaviour in a sex-dependent way rather than uniformly increasing it. Previous reliance on altered GABA receptor expression has been removed: receptor signalling is outside this PM boundary.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM8",
@@ -4962,7 +5004,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "intervention",
         "overall_confidence": "high",
-        "evidence_summary": "Mousain-Bosc et al. (2006) reported improvement of neurobehavioral disorders in children supplemented with magnesium–vitamin B6; GABA synthesis capacity (glutamate decarboxylase, PLP/B6 context) is the mechanism boundary—combined Mg+B6 supplementation prevents isolating GABA synthesis from cofactor co-intervention. Matched GABAergic–glutamatergic excitation–inhibition balance is a major contributory determinant of emotional control and reactivity; substantial E/I imbalance would be expected to impair Emotional Regulation as a direct biological consequence. Edden et al. (2012) and Puts et al. (2020) report reduced GABA in ADHD cohorts; Evidence Confidence is low because biomarkers do not measure emotional-regulation scales directly on this row.",
+        "evidence_summary": "Triangulated. The enzymatic arm is well established: glutamate decarboxylase requires pyridoxal-5-phosphate, and high-dose vitamin B6 reduces self-reported anxiety and strengthens an inhibitory sensory assay in healthy adults. Human evidence also links the anterior cingulate GABA pool to impulsivity and aggression. What is missing is the joining step: no study connects GABA synthesis capacity itself to emotional regulation in humans, and GABA concentration cannot stand in for synthesis rate. Mousain-Bosc et al. (2006) is retained as connected evidence only - it combined magnesium with B6 and measured neither GABA, GAD, PLP nor synthesis flux, so it cannot isolate this mechanism. Matched GABAergic–glutamatergic excitation–inhibition balance is a major contributory determinant of emotional control and reactivity; substantial E/I imbalance would be expected to impair Emotional Regulation as a direct biological consequence. Edden et al. (2012) and Puts et al. (2020) report reduced GABA in ADHD cohorts; Evidence Confidence is low because biomarkers do not measure emotional-regulation scales directly on this row.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM8",
@@ -5032,7 +5074,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "high",
-        "evidence_summary": "GABA synthesis capacity is a principal biological contributor to inhibitory calming neurophysiology — converting glutamate to GABA directly governs calm, control, and resistance to overstimulation within this PM boundary. Cataldo et al. (2024) establishes PLP-dependent glutamate decarboxylase biochemistry; Evidence Confidence is low because attached refs do not directly measure sleep or calming outcomes on this row — not because the biological relationship is weak.",
+        "evidence_summary": "Framework-supplied, and contradicted at the level the evidence actually measures. GABA synthesis is a principal contributor to inhibitory calming neurophysiology within this PM boundary, but the direction assumed by that framing is not supported: across three independent polysomnography-verified primary insomnia samples, cortical GABA concentration was lower in one, 12% higher in another - where the authors read elevation as an adaptive allostatic response to chronic hyperarousal - and unchanged in a third that explicitly did not replicate earlier reports. No human study measures GAD activity, PLP status or synthesis flux against any sleep outcome. Receptor-level hypnotics and oral GABA supplementation lie outside this PM boundary.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM8",
@@ -5050,7 +5092,7 @@
         "strongest_relationship_type": "indirect",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low",
-        "evidence_summary": "Inhibitory GABAergic tone may indirectly support social approach by limiting hyperarousal and overstimulation that drive withdrawal; direct social-engagement outcome evidence on GABA synthesis capacity remains limited in attached refs.",
+        "evidence_summary": "Framework-supplied and insufficiently evidenced, with a directional contradiction that must stay visible. The proposition has been that inhibitory tone limits the hyperarousal driving social withdrawal. The only evidence that manipulates GABA synthesis and measures social behaviour points the other way: GAD65 knock-out mice of both sexes showed a higher preference for social interaction partners, heightened in males. Rodent social preference is in any case not equivalent to human social engagement capacity, and no human study relates GABA synthesis to social function. Edden et al. (2012) was removed from this row because it measures GABA concentration in ADHD and is silent on social outcomes.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM8",

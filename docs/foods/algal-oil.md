@@ -69,7 +69,6 @@ Within the BRAIN Diet, algal oil provides an alternative to fish-derived omega-3
 
 - **DHA** is the principal long-chain omega-3 in typical authorised algal oils [1].
 - **EPA** is formulation-specific and is not assumed to be present in DHA-focused oils [1].
-- Algal-oil DHA is absorbed similarly to DHA from cooked salmon [2].
 - Read the product label for actual DHA and EPA; use as a measured supplement, not a high-heat cooking oil [1,3].
 
 ## Food Context

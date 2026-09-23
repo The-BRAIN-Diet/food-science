@@ -119,7 +119,7 @@ export default function SubstanceMatrix({tag}: SubstanceMatrixProps): React.Reac
   const uniqueTargets = Array.from(new Map(biologicalTargets.map((doc) => [doc.permalink, doc])).values())
 
   if (uniqueTargets.length === 0) {
-    return <div>No biological targets found for substance: {tag}</div>
+    return null
   }
 
   // Step 3: For each biological target, find therapeutic areas and extract mechanism
@@ -175,13 +175,21 @@ export default function SubstanceMatrix({tag}: SubstanceMatrixProps): React.Reac
     return a.target.title.localeCompare(b.target.title)
   })
 
+  if (tableData.length === 0) {
+    return null
+  }
+
+  const showTherapeuticColumn = tableData.some((row) => row.therapeuticAreas.length > 0)
+
   return (
     <div className="substance-matrix">
       <table style={{width: "100%", borderCollapse: "collapse"}}>
         <thead>
           <tr>
             <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Biological Target</th>
-            <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Therapeutic Areas</th>
+            {showTherapeuticColumn ? (
+              <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Therapeutic Areas</th>
+            ) : null}
             <th style={{textAlign: "left", padding: "8px", borderBottom: "2px solid #ccc"}}>Mechanism of Action</th>
           </tr>
         </thead>
@@ -192,22 +200,24 @@ export default function SubstanceMatrix({tag}: SubstanceMatrixProps): React.Reac
                 <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
                   <Link to={row.target.permalink}>{row.target.title}</Link>
                 </td>
-                <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
-                  {row.therapeuticAreas.length > 0 ? (
-                    <div>
-                      {row.therapeuticAreas.map((area: Document, i: number) => {
-                        return (
-                          <span key={i}>
-                            <Link to={area.permalink}>{area.title}</Link>
-                            {i < row.therapeuticAreas.length - 1 && ", "}
-                          </span>
-                        )
-                      })}
-                    </div>
-                  ) : (
-                    <span style={{color: "#999"}}>—</span>
-                  )}
-                </td>
+                {showTherapeuticColumn ? (
+                  <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
+                    {row.therapeuticAreas.length > 0 ? (
+                      <div>
+                        {row.therapeuticAreas.map((area: Document, i: number) => {
+                          return (
+                            <span key={i}>
+                              <Link to={area.permalink}>{area.title}</Link>
+                              {i < row.therapeuticAreas.length - 1 && ", "}
+                            </span>
+                          )
+                        })}
+                      </div>
+                    ) : (
+                      <span style={{color: "#999"}}>—</span>
+                    )}
+                  </td>
+                ) : null}
                 <td style={{padding: "8px", borderBottom: "1px solid #eee", verticalAlign: "top"}}>
                   {row.mechanism ? <span>{row.mechanism}</span> : <span style={{color: "#999"}}>—</span>}
                 </td>

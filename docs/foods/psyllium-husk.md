@@ -33,7 +33,7 @@ legacy_main_image: /img/foods/psyllium-husk/psyllium-husk_medium.webp
 
 Psyllium husk is a concentrated, fibre-dominant food ingredient derived from Plantago seed husks and used primarily for its high soluble fibre content. Its nutritional identity is defined by very high **dietary fibre** with minimal fat and protein contribution, making it a functional matrix additive rather than a standalone energy source.
 
-Within the BRAIN Diet framework, psyllium is most useful as a meal-structure tool to increase viscous fibre load and support slower post-prandial glucose appearance when added to otherwise low-fibre meals. It is best interpreted as a dose-sensitive adjunct food ingredient that supports glycaemic buffering and digestive regularity rather than as a replacement for whole-food fibre diversity [1].
+Within the BRAIN Diet framework, psyllium is most useful as a meal-structure tool to increase viscous fibre load and support slower post-prandial glucose appearance when added to otherwise low-fibre meals. It is best interpreted as a dose-sensitive adjunct food ingredient that supports glycaemic buffering and digestive regularity rather than as a replacement for whole-food fibre diversity
 
 ## Key Nutritional Highlights
 

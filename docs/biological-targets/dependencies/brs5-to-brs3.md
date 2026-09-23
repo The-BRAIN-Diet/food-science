@@ -8,23 +8,32 @@ hide_title: true
 
 # BRS5 → BRS3 — Gut–Immune Drivers of Inflammatory Tone
 
-This page explains the **systems-level biological dependency** between BRS5 and BRS3. It is informed by literature, integrated BRS architecture, allostatic context, expert interpretation, and mechanistic evidence from PM pages — but it does **not** duplicate the canonical PM relationship graph.
+Gut barrier and microbial immune signalling can change inflammatory and redox tone in [BRS3](/docs/biological-targets/inflammation-oxidative-stress).
 
-For explicit PM-to-PM relationships, see **§6.2 Cross-BRS Mechanism Relationships** on individual Primary Mechanism pages.
+## Dependency
 
-## Biological Contribution
+[BRS5](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) can present microbial products and barrier leakage to host immune sensing. That input may raise cytokine and oxidative load owned by BRS3. Gut tryptophan metabolism can also feed kynurenine-related chemistry that later reaches [BRS1](/docs/biological-targets/neurotransmitter-regulation) as a mediated path.
 
-Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut barrier and microbial immune containment that enables BRS3 to sustain proportionate inflammatory tone under prolonged physiological demand.
+## Principal Routes
 
-## Systems Significance
+<div className="markdown-table-scroll">
 
-By preserving these gut–immune interface capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that gut-derived immune signalling progressively amplifies systemic inflammatory burden within BRS3 as peripheral load accumulates. Maintaining BRS5 therefore complements direct immune-modulatory biology within BRS3 by preserving barrier containment rather than substituting for inflammatory regulation itself.
+| Route | Contribution to BRS3 | Relationship |
+| --- | --- | --- |
+| Barrier/microbial immune sensing | Can increase systemic inflammatory signalling | Conditional |
+| Gut tryptophan / microbial metabolite traffic | Can alter precursor and neuroimmune metabolite supply | Conditional; downstream BRS1 effects are mediated |
 
-## Integrated Regulatory Capacity
+</div>
 
-Together, the Functional Mechanisms within BRS5 maintain gut barrier integrity, microbial ecological stability and gut-derived immune signalling containment required to limit inappropriate inflammatory spillover during prolonged physiological demand. Rather than acting through a single barrier mechanism, these integrated capacities collectively regulate how peripheral immune signals shape inflammatory tone within BRS3.
+## Network Interpretation
+
+This page is about inflammatory load, not neurotransmitter synthesis. Stress-driven inflammation remains [BRS6 → BRS3](/docs/biological-targets/dependencies/brs6-to-brs3) and should not be counted as a BRS5 product.
+
+## Boundary and Evidence Status
+
+Barrier-to-inflammation biology is plausible, but the currently attached reviews do not demonstrate a quantitative gut-barrier lesion driving BRS3 in humans. O'Mahony et al. primarily review serotonin and tryptophan along the microbiome–gut–brain axis. Slavich and Irwin review stress-to-inflammation, which is a BRS6 route. The named dependency is retained as a framework interpretation pending stronger gut-immune evidence.
 
 ## Supporting Evidence
 
-- [O'Mahony et al., 2015](/docs/papers/BRAIN-Diet-References#omahony_serotonin_2015) — Synthesised microbiota–gut–brain communication pathways linking gut ecology to peripheral and central inflammatory biology — supporting the framework interpretation that BRS5 gut–immune signalling shapes BRS3 inflammatory tone.
-- [Slavich & Irwin, 2014](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014) — Established stress-to-inflammation signalling as a systems-level pathway reshaping immune and neuroendocrine biology — supporting the interpretation that gut–immune perturbation can propagate inflammatory burden across BRS3 and connected systems.
+- [O'Mahony et al., 2015](/docs/papers/BRAIN-Diet-References#omahony_serotonin_2015) — Reviews microbiota, tryptophan metabolism and serotonin along the gut–brain axis; it is not a barrier-integrity trial.
+- [Slavich and Irwin, 2014](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014) — Reviews stress as an inflammatory signal; assigned here only as a caution that inflammatory load may originate in BRS6 rather than BRS5.

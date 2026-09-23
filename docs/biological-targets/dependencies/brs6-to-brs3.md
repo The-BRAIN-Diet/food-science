@@ -8,29 +8,33 @@ hide_title: true
 
 # BRS6 → BRS3 — Stress Signalling Interactions with Inflammatory Load
 
-This page explains the **systems-level biological dependency** between BRS6 and BRS3. It is informed by literature, integrated BRS architecture, allostatic context, expert interpretation, and mechanistic evidence from PM pages — but it does **not** duplicate the canonical PM relationship graph.
+Neuroendocrine and autonomic stress signalling from [BRS6](/docs/biological-targets/metabolic-neuroendocrine-stress) can raise inflammatory and redox load in [BRS3](/docs/biological-targets/inflammation-oxidative-stress).
 
-For explicit PM-to-PM relationships, see **§6.2 Cross-BRS Mechanism Relationships** on individual Primary Mechanism pages.
+## Dependency
 
-## Biological Contribution
+HPA-axis mediators, autonomic imbalance and metabolic stress can activate immune signalling. BRS3 then determines cytokine tone, oxidative burden and resolution. This is a stress-to-inflammation bridge, not an immune-system substitute for BRS6.
 
-Collectively, the Functional Mechanisms within BRS6 maintain adaptive stress–metabolic load allocation that enables BRS3 to sustain immune and redox regulation under prolonged physiological demand.
+## Principal Routes
 
-## Systems Significance
+<div className="markdown-table-scroll">
 
-By preserving neuroendocrine and autonomic regulatory capacity, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. This reduces the likelihood that chronic stress activation progressively constrains immune regulation within BRS3 as allostatic load accumulates. Maintaining BRS6 therefore complements direct immune-modulatory biology within BRS3 by preserving systemic stress containment rather than substituting for inflammatory regulation itself.
+| Route | Contribution to BRS3 | Relationship |
+| --- | --- | --- |
+| HPA / glucocorticoid signalling | Can increase inflammatory and oxidative mediators | Direct |
+| Autonomic imbalance | Can favour sympathetic-linked inflammatory tone | Conditional |
 
-## Integrated Regulatory Capacity
+</div>
 
-Together, the Functional Mechanisms within BRS6 maintain HPA-axis rhythm, autonomic balance and metabolic load allocation required to regulate how stress mediators interact with inflammatory and oxidative biology during prolonged physiological demand. Rather than acting through a single stress hormone, these integrated capacities collectively shape the systemic conditions within which BRS3 sustains proportionate immune and redox regulation.
+## Network Interpretation
+
+Gut-origin immune signals belong on [BRS5 → BRS3](/docs/biological-targets/dependencies/brs5-to-brs3). Transmitter consequences of inflammatory load belong on [BRS3 → BRS1](/docs/biological-targets/dependencies/brs3-to-brs1) as `BRS6 → BRS3 → BRS1`.
+
+## Boundary and Evidence Status
+
+Stress–inflammation coupling is supported by systems reviews. A single omega-3 trial in stressed adults does not validate the full dependency or an ADHD treatment. Cytokine biology remains owned by [BRS3-FM3-PM7](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation).
 
 ## Supporting Evidence
 
-- [McEwen, 2006](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006) — Described bidirectional interactions between stress mediators, immune-inflammatory processes and cumulative regulatory burden — supporting the framework interpretation that BRS6 stress biology shapes BRS3 inflammatory load.
-- [Slavich & Irwin, 2014](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014) — Operationalised social and psychological stress as inflammatory signals reshaping neuroimmune biology — supporting the BRS6 → BRS3 pathway as a principal stress-to-inflammation bridge within the integrated BRS network.
-
-## Translational Examples
-
-Worked examples illustrating how the framework interprets interventions through this dependency. These do not claim experimental validation of every intermediate step.
-
-- [Kiecolt-Glaser et al., 2011](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011) — Worked translational example: omega-3 supplementation reduced inflammatory cytokines (including IL-6) alongside anxiety symptoms in stressed adults. The principal inflammatory biology is measured and owned by BRS3-FM3-PM7; this dependency interprets how metabolic and neuroendocrine context (BRS6) may condition such inflammatory outcomes — without claiming this single study validates every intermediate step in the BRS6 → BRS3 pathway. Primary biology: [BRS3-FM3-PM7 — Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation).
+- [Slavich and Irwin, 2014](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014) — Reviews social and psychological stress as inflammatory signals reshaping neuroimmune biology.
+- [McEwen, 2006](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006) — Reviews bidirectional interactions between stress mediators and immune-inflammatory processes.
+- [Kiecolt-Glaser et al., 2011](/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011) — Trial in stressed adults: omega-3 reduced selected inflammatory cytokines alongside anxiety symptoms. This is a translational example, not proof of the BRS6 → BRS3 cascade.

@@ -51,6 +51,11 @@ Berberine:
   permalink: /berberine
   description: Polyphenolic alkaloid
 
+BH4:
+  label: BH4
+  permalink: /bh4
+  description: Tetrahydrobiopterin; endogenous cofactor for aromatic-amino-acid hydroxylases and nitric-oxide synthases
+
 Beta-Glucans:
   label: Beta-Glucans
   permalink: /beta-glucans
@@ -141,6 +146,16 @@ Endocannabinoid System:
   permalink: /endocannabinoid-system
   description: Endocannabinoid system modulation
 
+Endogenous Cofactor:
+  label: Endogenous Cofactor
+  permalink: /endogenous-cofactor
+  description: Endogenously synthesised metabolic cofactors that are not dietary vitamins
+
+Endogenous Redox Compound:
+  label: Endogenous Redox Compound
+  permalink: /endogenous-redox-compound
+  description: Endogenously synthesised redox compounds whose availability is nutritionally and therapeutically relevant
+
 Essential Amino Acid:
   label: Essential Amino Acid
   permalink: /essential-amino-acid
@@ -190,6 +205,16 @@ Glycine:
   label: Glycine
   permalink: /glycine
   description: Nonessential amino acid; inhibitory neurotransmitter; supports sleep, gut barrier repair, and glutathione production
+
+GSH:
+  label: GSH
+  permalink: /gsh
+  description: Reduced glutathione; endogenous tripeptide redox buffer
+
+Glutathione:
+  label: Glutathione
+  permalink: /glutathione
+  description: Endogenous γ-glutamyl-cysteinyl-glycine tripeptide; GSH/GSSG redox resource pool
 
 Gut Microbiome:
   label: Gut Microbiome
@@ -451,6 +476,11 @@ Selenium:
   permalink: /selenium
   description: Essential trace mineral
 
+Sapropterin:
+  label: Sapropterin
+  permalink: /sapropterin
+  description: Pharmaceutical tetrahydrobiopterin (sapropterin dihydrochloride)
+
 Sodium:
   label: Sodium
   permalink: /sodium
@@ -465,6 +495,11 @@ Taurine:
   label: Taurine
   permalink: /taurine
   description: Amino acid derivative
+
+Tetrahydrobiopterin:
+  label: Tetrahydrobiopterin
+  permalink: /tetrahydrobiopterin
+  description: Endogenous BH4 cofactor for monoamine synthesis and nitric-oxide synthases
 
 Terpene:
   label: Terpene
@@ -1232,6 +1267,11 @@ Reishi Mushroom:
   permalink: /reishi-mushroom
   description: Medicinal mushroom supporting vitality and stress modulation
 
+Reduced Glutathione:
+  label: Reduced Glutathione
+  permalink: /reduced-glutathione
+  description: Reduced form of glutathione (GSH); not a synonym for oxidised glutathione (GSSG)
+
 Rice:
   label: Rice
   permalink: /rice
@@ -1487,6 +1527,21 @@ Inflammation & Oxidative Stress:
   label: Inflammation & Oxidative Stress
   permalink: /inflammation-oxidative-stress
   description: BRS3 hub — inflammatory signalling and oxidative balance
+
+Neurotransmitter Regulation:
+  label: Neurotransmitter Regulation
+  permalink: /neurotransmitter-regulation
+  description: BRS1 hub — neurotransmitter synthesis, signalling and balance
+
+Methylation & One-Carbon Metabolism:
+  label: Methylation & One-Carbon Metabolism
+  permalink: /methylation-one-carbon-metabolism
+  description: BRS2 hub — one-carbon metabolism and methylation-related pathways
+
+Mitochondrial Function & Bioenergetics:
+  label: Mitochondrial Function & Bioenergetics
+  permalink: /mitochondrial-function-bioenergetics
+  description: BRS4 hub — mitochondrial function and cellular energy
 
 Gut-Brain Axis & Enteric Nervous System:
   label: Gut-Brain Axis & Enteric Nervous System

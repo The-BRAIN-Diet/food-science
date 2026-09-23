@@ -67,16 +67,7 @@ nutrition_supplementary_sources:
 
 Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur compounds that support gut microbiome, antioxidant defenses, and glutathione synthesis. Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples).
 
-Within the BRAIN Diet framework, inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier. Quercetin is abundant in capers, apples, onions, berries, kale and soybeans [1][2].
-## Key Nutritional Highlights
-
-
-- Onions supply organosulfur compounds and quercetin glycosides with antioxidant relevance [1]
-- Quercetin from alliums is studied for anti-inflammatory and cardiovascular mechanisms [2]
-- Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur compounds that support gut microbiome, antioxidant defenses, and glutathione synthesis. [1]
-- Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples). [2]
-- Inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier.
-- Quercetin is abundant in capers, apples, onions, berries, kale and soybeans.
+Within the BRAIN Diet framework, inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier. Quercetin is abundant in capers, apples, onions, berries, kale and soybeans.
 
 ## Food Context
 

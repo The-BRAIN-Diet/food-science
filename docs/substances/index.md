@@ -118,6 +118,14 @@ PUFAs include **Omega-3** and **Omega-6** fatty acids.
 
 <TagList tag="Choline & Methylation" filter="substances" />
 
+### Endogenous Cofactors
+
+<TagList tag="Endogenous Cofactor" filter="substances" />
+
+### Endogenous Redox Compounds
+
+<TagList tag="Endogenous Redox Compound" filter="substances" />
+
 ---
 
 ## Microbial Metabolites (Postbiotic Layer)

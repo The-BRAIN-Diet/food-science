@@ -20,6 +20,14 @@ import {
   loadPhenomeRegistry,
   phenomeDetailUrlForName,
 } from "./phenome-registry.mjs";
+import {
+  findingsById,
+  hasScientificFindings,
+  renderRelationshipFindingsLine,
+  renderRelationshipPrimaryFindings,
+  splitRelationshipFindings,
+} from "./scientific-findings.mjs";
+import { pmSectionNumbers } from "./pm-section-layout.mjs";
 
 const PROJECT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 
@@ -94,7 +102,7 @@ review.
 </div>
 <div class="phenome-scoring-key-section">
 <p class="phenome-scoring-key-heading">
-<strong>2. Biology → Phenome Confidence</strong> (Primary Mechanism page §3 rows)
+<strong>2. Biology → Phenome Confidence</strong> (Primary Mechanism phenome rows)
 </p>
 <p class="phenome-scoring-key-body">
 <strong>Question:</strong> If this PM/FM biology were substantially impaired in
@@ -125,7 +133,7 @@ belongs in Evidence Confidence, not here.
 </div>
 <div class="phenome-scoring-key-section">
 <p class="phenome-scoring-key-heading">
-<strong>3. Evidence Confidence</strong> (Primary Mechanism page §3 rows)
+<strong>3. Evidence Confidence</strong> (Primary Mechanism phenome rows)
 </p>
 <p class="phenome-scoring-key-body">
 <strong>Question:</strong> How convincing are the <strong>attached Key References</strong>
@@ -651,12 +659,15 @@ export function renderSmPhenPhenomeSectionBody(data, { sectionNum = 2 } = {}) {
   return lines.join("\n").trimEnd();
 }
 
-export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 3 } = {}) {
+export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 3, findingData = null } = {}) {
   const lines = [`## ${sectionNum}. ${PM_PHENOME_SECTION_TITLE}`, "", PHENOME_DISCLAIMER, "", PHENOME_SCORING_KEY_MARKUP];
   if (!relationships.length) {
     lines.push(PHENOME_EMPTY_MESSAGE);
     return lines.join("\n");
   }
+
+  const byId =
+    findingData && hasScientificFindings(findingData) ? findingsById(findingData) : null;
 
   for (const rel of relationships) {
     const target = rel.target_phenome;
@@ -665,10 +676,21 @@ export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 3 
       `- **${PHENOME_BIOLOGY_CONFIDENCE_LABEL}:** ${formatOutcomeConfidence(rel.confidence)}`,
       `- **Rationale:** ${rel.rationale}`,
     ];
-    if (Array.isArray(rel.references) && rel.references.length > 0) {
-      panelLines.push(...renderPhenomeReferencesBlock(rel.references));
+    if (byId) {
+      const { crossRef } = splitRelationshipFindings(rel, byId);
+      const primaryBlock = renderRelationshipPrimaryFindings(rel, findingData);
+      const crossRefLine = renderRelationshipFindingsLine(rel, byId, { ids: crossRef });
+      if (primaryBlock) panelLines.push(primaryBlock);
+      if (crossRefLine) panelLines.push(crossRefLine);
+      // Provenance comes through the canonical Findings above and in §4.1, so the
+      // Key References block and the legacy Evidence Confidence line are not
+      // rendered here. Both remain in front matter.
+    } else {
+      if (Array.isArray(rel.references) && rel.references.length > 0) {
+        panelLines.push(...renderPhenomeReferencesBlock(rel.references));
+      }
+      panelLines.push(renderEvidenceConfidenceLine(rel, rel.references || []));
     }
-    panelLines.push(renderEvidenceConfidenceLine(rel, rel.references || []));
     lines.push(
       renderHubCollapsible(
         `${target} — ${type}`,
@@ -721,21 +743,23 @@ export function renderFmPhenomeSectionBody(outcomes = []) {
 
 export function validatePhenomeSectionBody(content, issues, { entityLabel, kind }) {
   if (kind === "pm") {
+    // Phenome Connections is §5 in the canonical PM order and §3 in the legacy one.
+    const { phenome: sectionNum, layout } = pmSectionNumbers(content);
     const heading = new RegExp(
-      `^##\\s+3\\.\\s+${PM_PHENOME_SECTION_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
+      `^##\\s+${sectionNum}\\.\\s+${PM_PHENOME_SECTION_TITLE.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\s*$`,
       "m",
     );
     if (!heading.test(content)) {
       issues.push({
         code: "missing_phenome_section",
-        message: `${entityLabel}: published body must include "## 3. ${PM_PHENOME_SECTION_TITLE}" after Primary Biological Effects`,
+        message: `${entityLabel}: published body must include "## ${sectionNum}. ${PM_PHENOME_SECTION_TITLE}" (${layout} PM section order)`,
       });
       return;
     }
     if (!content.includes(PHENOME_DISCLAIMER)) {
       issues.push({
         code: "missing_phenome_disclaimer",
-        message: `${entityLabel}: §3 must include the canonical phenome disclaimer`,
+        message: `${entityLabel}: §${sectionNum} must include the canonical phenome disclaimer`,
       });
     }
     return;

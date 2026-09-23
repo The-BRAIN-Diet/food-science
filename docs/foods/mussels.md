@@ -85,7 +85,7 @@ nutrition_supplementary_sources:
 
 Mussels are bivalve shellfish that provide substantial amounts of **vitamin B12**, **iron**, **zinc**, **selenium**, and long-chain omega-3 fatty acids. Compared with many terrestrial foods, mussels are particularly dense in B12 and bioavailable iron and zinc, nutrients that support red blood cell formation, myelination, and enzymatic antioxidant systems [1]. They also contribute marine omega-3 fatty acids in a different culinary format to finfish, adding trace minerals and beneficial lipids in relatively small portions.
 
-Within the BRAIN Diet framework, mussels serve as a rotational shellfish option that complements other dietary sources of B12 and iron. They are especially useful in dietary patterns where red meat intake is moderated but adequate intake of these micronutrients is still required [1]. As with all shellfish, sourcing and preparation are important—safe harvesting areas, proper storage, and thorough cooking reduce microbiological risk while preserving the nutrient density of the food [2].
+Within the BRAIN Diet framework, mussels serve as a rotational shellfish option that complements other dietary sources of B12 and iron. They are especially useful in dietary patterns where red meat intake is moderated but adequate intake of these micronutrients is still required [1]. As with all shellfish, sourcing and preparation are important—safe harvesting areas, proper storage, and thorough cooking reduce microbiological risk while preserving the nutrient density of the food
 
 ## Key Nutritional Highlights
 

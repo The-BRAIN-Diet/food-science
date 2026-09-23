@@ -1,6 +1,11 @@
 /**
  * BRS Dependency pages — systems-level interpretation (not PM relationship catalogues).
- * @see system/brs-hub-levers-schema.md § BRS Dependency pages
+ * Canonical page schema: system/cross-brs-dependency-page-schema.md
+ * Exemplar: docs/biological-targets/dependencies/brs2-to-brs1.md
+ *
+ * Regenerating overwrites docs/biological-targets/dependencies/*.md.
+ * Populate opening, dependency, routes, network_interpretation, boundary_and_evidence
+ * and optional extra_markdown before running npm run brs:generate-dependency-pages.
  */
 import { BRS_CROSS_INTEGRATION_EVIDENCE } from "../data/brs-cross-integration-evidence.mjs";
 
@@ -8,8 +13,8 @@ const INTEGRATION_DISPLAY_TITLES = {
   "BRS4->BRS1": "Bioenergetic Support for Neurotransmission",
   "BRS3->BRS1": "Inflammatory Modulation of Neurotransmitter Systems",
   "BRS6->BRS1": "Stress-Axis and Autonomic Shaping of Neurotransmission",
-  "BRS2->BRS1": "One-Carbon and BH4 Support for Monoamine Biology",
-  "BRS5->BRS1": "Gut–Vagal Modulation of Neurochemical Signalling",
+  "BRS2->BRS1": "One-Carbon Support for Neurotransmitter Regulation",
+  "BRS5->BRS1": "Gut–Vagal Modulation of Neurotransmitter Regulation",
   "BRS2->BRS3": "One-Carbon to Redox Coupling",
   "BRS5->BRS3": "Gut–Immune Drivers of Inflammatory Tone",
   "BRS5->BRS4": "Gut-Metabolic Inputs to Mitochondrial Energetics",
@@ -99,10 +104,17 @@ ${items}
 `;
 }
 
-/** @param {{ id: string, title: string, biological_contribution?: string, systems_significance?: string, integrated_regulatory_capacity?: string }} integration */
+/** @param {{ id: string, title: string, opening?: string, dependency?: string, routes?: Array<{route: string, contribution: string, relationship: string}>, network_interpretation?: string, boundary_note?: string, boundary_and_evidence?: string, extra_markdown?: string }} integration */
 export function renderDependencyPageMarkdown(integration) {
   const displayTitle = getDependencyDisplayTitle(integration);
   const [sourceBrs, destBrs] = integration.id.split("->");
+  const routes = Array.isArray(integration.routes) ? integration.routes : [];
+  const routeTable =
+    routes.length > 0
+      ? `| Route | Contribution to the receiving BRS | Relationship |
+| --- | --- | --- |
+${routes.map((row) => `| ${row.route} | ${row.contribution} | ${row.relationship} |`).join("\n")}`
+      : "";
 
   return `---
 title: ${displayTitle}
@@ -114,26 +126,30 @@ hide_title: true
 
 # ${displayTitle}
 
-This page explains the **systems-level biological dependency** between ${sourceBrs} and ${destBrs}. It is informed by literature, integrated BRS architecture, allostatic context, expert interpretation, and mechanistic evidence from PM pages — but it does **not** duplicate the canonical PM relationship graph.
+${integration.opening || ""}
 
-For explicit PM-to-PM relationships, see **§6.2 Cross-BRS Mechanism Relationships** on individual Primary Mechanism pages.
+## Dependency
 
-## Biological Contribution
+${integration.dependency || ""}
 
-${integration.biological_contribution || integration.summary || ""}
+## Principal Routes
 
-## Systems Significance
+<div className="markdown-table-scroll">
 
-${integration.systems_significance || ""}
+${routeTable}
 
-## Integrated Regulatory Capacity
+</div>
 
-${integration.integrated_regulatory_capacity || ""}
+## Network Interpretation
+
+${integration.network_interpretation || ""}
+${integration.boundary_note ? `\n${integration.boundary_note}\n` : ""}
+## Boundary and Evidence Status
+
+${integration.boundary_and_evidence || ""}
 
 ${renderSupportingEvidence(integration)}
-${renderTranslationalExamples(integration)}
-${renderIllustrativeMechanisms(integration)}
-`.trimEnd();
+${integration.extra_markdown ? `\n${integration.extra_markdown.trim()}\n` : ""}`.trimEnd();
 }
 
 export function listAllIntegrations() {

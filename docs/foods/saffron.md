@@ -52,7 +52,7 @@ legacy_main_image: /img/foods/saffron/saffron_medium.webp
 
 Saffron is the dried stigma of *Crocus sativus*, prized as a culinary spice for its golden colour, honeyed aroma, and distinctive flavour. Its defining phytochemistry includes **crocin** (a carotenoid pigment), **safranal** (a volatile aroma compound), and related crocus constituents that reviews link to neurotransmitter, anti-inflammatory, and antioxidant pathways [1,3].
 
-Within the BRAIN Diet framework, saffron belongs with **concentrated herbs and spices**—used in threads or pinches steeped in warm liquid or fat, not as a bulk staple or daily supplement. Clinical literature on mood, stress, and ADHD has largely tested **standardized extracts or stigma at fixed medicinal doses**; those trials inform the biology but do not map directly to recipe-level pinches [1–4]. Gentle blooming and limiting prolonged high heat help preserve volatile and pigment fractions in cooking [5].
+Within the BRAIN Diet framework, saffron belongs with **concentrated herbs and spices**—used in threads or pinches steeped in warm liquid or fat, not as a bulk staple or daily supplement. Clinical literature on mood, stress, and ADHD has largely tested **standardized extracts or stigma at fixed medicinal doses**; those trials inform the biology but do not map directly to recipe-level pinches [1–4]. Gentle blooming and limiting prolonged high heat help preserve volatile and pigment fractions in cooking
 
 ## Key Nutritional Highlights
 
@@ -90,9 +90,9 @@ Within the BRAIN Diet framework, saffron belongs with **concentrated herbs and s
 
 [1] Systematic review evidence synthesizes antidepressant mechanisms—including serotonin-related pathways—and clinical signals for *C. sativus* extracts in depression research. Lopresti & Drummond 2014. [Saffron (*Crocus sativus*) for depression — systematic review of clinical studies and antidepressant mechanisms](/docs/papers/BRAIN-Diet-References#lopresti_saffron_2014)
 
-[2] \textlessp\textgreaterAnxiety, stress, and low mood are closely related and may contribute to depressive symptoms. Jackson & Forster 2021. [Saffron extract supplementation, mood, and psychosocial stress response in healthy adults (RCT)](/docs/papers/BRAIN-Diet-References#jackson_effects_2021)
+[2] Jackson & Forster 2021. [Saffron extract supplementation, mood, and psychosocial stress response in healthy adults (RCT)](/docs/papers/BRAIN-Diet-References#jackson_effects_2021)
 
-[3] Reports on exploring the Potential of Saffron as a Therapeutic Agent in Depression Treatment: A Comparative Review. Chauhan et al. 2024. [Comparative review of saffron for depression — neurotransmitter, anti-inflammatory, and neuroprotective mechanisms](/docs/papers/BRAIN-Diet-References#chauhan_saffron_2024)
+[3] Exploring the Potential of Saffron as a Therapeutic Agent in Depression Treatment: A Comparative Review. Chauhan et al. 2024. [Comparative review of saffron for depression — neurotransmitter, anti-inflammatory, and neuroprotective mechanisms](/docs/papers/BRAIN-Diet-References#chauhan_saffron_2024)
 
 [4] Pilot ADHD trial data exist for saffron stigma at medicinal doses—not culinary pinches. Baziar & Aqamolaei 2019. [*Crocus sativus* vs methylphenidate in children with ADHD — randomized double-blind pilot (medicinal dosing)](/docs/papers/BRAIN-Diet-References#baziar_crocus_2019)
 

@@ -79,14 +79,11 @@ nutrition_supplementary_sources:
 
 Strawberries provide polyphenols—dominated by [Pelargonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/pelargonidin)-based anthocyanins, with [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin) as a secondary backbone—plus vitamin C and fiber, supporting antioxidant networks and cognitive function.
 
-Within the BRAIN Diet framework, berries are mentioned as polyphenol-rich foods and are part of polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) in the Mediterranean diet pattern [1][2].
+Within the BRAIN Diet framework, berries are mentioned as polyphenol-rich foods and are part of polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) in the Mediterranean diet pattern.
+
 ## Key Nutritional Highlights
 
-
-- Berry consumption is associated with cognitive benefits in aging populations [1]
-- Strawberry polyphenols contribute to high-flavonoid dietary patterns linked to cognitive endpoints [2]
 - Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant networks and cognitive function. [1]
-- Berries are mentioned as polyphenol-rich foods and are part of polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) in the Mediterranean diet pattern. [2]
 - Strawberries provide polyphenols, vitamin C, and fiber, supporting antioxidant networks and cognitive function.
 
 ## Food Context

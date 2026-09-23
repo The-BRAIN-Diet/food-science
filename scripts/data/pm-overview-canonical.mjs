@@ -93,13 +93,13 @@ export const CANONICAL_PM_OVERVIEWS = {
   },
   "brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity.mdx": {
     mission:
-      "Enable sufficient GABA synthesis capacity so inhibitory tone can counter excitatory drive when needed.",
+      "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
     translational:
-      "Governs conversion of glutamate into GABA (gamma-aminobutyric acid, the brain's principal inhibitory neurotransmitter) through the cofactor-dependent enzyme glutamate decarboxylase. This mechanism determines synthesis capacity from available glutamate specifically — distinct from glutamate clearance or excitotoxic modulation covered elsewhere. Adequate GABA output strengthens calming, inhibitory signalling and supports resistance to sensory overstimulation, particularly when dietary cofactor and amino-acid context are sufficient.",
+      "Governs conversion of glutamate into GABA (gamma-aminobutyric acid, the brain's principal inhibitory neurotransmitter) through the cofactor-dependent enzyme glutamate decarboxylase. This mechanism determines synthesis capacity from available glutamate specifically — distinct from GABA concentration, degradation, transport and receptor signalling, and distinct from glutamate clearance or excitotoxic modulation covered elsewhere. Cofactor sufficiency principally governs reserve rather than basal synthesis. Whether ordinary dietary variation changes human brain GABA synthesis has not been demonstrated; see §4.1 for what the evidence establishes and what it does not.",
     bullets: [
       "Converts glutamate into GABA via the cofactor-dependent enzyme GAD.",
-      "Governs synthesis capacity distinct from clearance or excitotoxic modulation.",
-      "Strengthens inhibitory tone and resistance to sensory overstimulation.",
+      "Governs synthesis capacity — not GABA concentration, clearance or receptor signalling.",
+      "Cofactor availability principally governs reserve rather than basal synthesis.",
     ],
   },
   "brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling.mdx": {

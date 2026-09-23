@@ -64,7 +64,7 @@ nutrition_supplementary_sources:
 
 Pork is a widely consumed animal food that is particularly notable for **thiamine (vitamin B1)**, **zinc**, and creatine, alongside other B vitamins and minerals. Thiamine is required for mitochondrial carbohydrate metabolism and ATP production, while zinc supports synaptic signalling and antioxidant enzyme systems [1]. Creatine contributes to phosphocreatine buffering and ATP recycling in excitable tissues [2].
 
-Within the BRAIN Diet framework, pork is best treated as a rotational animal-food option used for targeted micronutrients rather than as a default centrepiece at every meal. Choosing minimally processed cuts and using gentler cooking methods helps preserve thiamine and reduces formation of heat-derived compounds, while still capturing the nutrient-density advantages of the food [1].
+Within the BRAIN Diet framework, pork is best treated as a rotational animal-food option used for targeted micronutrients rather than as a default centrepiece at every meal. Choosing minimally processed cuts and using gentler cooking methods helps preserve thiamine and reduces formation of heat-derived compounds, while still capturing the nutrient-density advantages of the food
 
 ## Key Nutritional Highlights
 

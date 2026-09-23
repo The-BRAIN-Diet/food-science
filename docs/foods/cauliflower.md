@@ -63,13 +63,15 @@ legacy_main_image: /img/foods/cauliflower/cauliflower_medium.webp
 
 Cauliflower is a cruciferous vegetable providing glucosinolate-derived compounds, **vitamin C**, **folate**, and fibre at very low energy density [1]. Crucifer isothiocyanates activate Nrf2-linked antioxidant gene networks [1].
 
-Within the BRAIN Diet framework, cauliflower is a low-calorie crucifer substitute in diverse vegetable patterns; folate supports methylation-related pathways [2].
+Within the BRAIN Diet framework, cauliflower is a low-calorie crucifer substitute in diverse vegetable patterns; folate supports methylation-related pathways
+
 ## Key Nutritional Highlights
 
 - Crucifer isothiocyanate / Nrf2 interest at very low energy density [1].
 - Vitamin C and folate per 100 g; useful in low-carb vegetable diversity [2].
 - Milder flavour than broccoli; still requires glucosinolate → ITC conversion for sulforaphane-class effects [1].
 - Roasting acceptable; avoid heavy charring of any crucifer.
+
 ## Food Context
 
 ### Synergies

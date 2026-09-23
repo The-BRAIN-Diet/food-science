@@ -97,7 +97,6 @@ Within the BRAIN Diet framework, heart can be used strategically when prioritisi
 
 This food provides a complete essential amino acid profile typical of animal proteins.
 
-
 <NutritionTable details={frontMatter} />
 
 ## Substances

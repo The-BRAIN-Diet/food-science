@@ -6,7 +6,8 @@
 import fs from "node:fs"
 import path from "node:path"
 import matter from "gray-matter"
-import { isExplainedReferenceLine } from "./bib-citation-format.mjs"
+import { isExplainedReferenceLine, loadBibIndex } from "./bib-citation-format.mjs"
+import { scanFoodCitationIntegrity, collectIdenticalHighlightWarnings } from "./food-citation-integrity.mjs"
 
 export const PROTEIN_THRESHOLD_G = 5
 export const FOODS_DIR_DEFAULT = "docs/foods"
@@ -273,4 +274,30 @@ export function runValidation(foodsDir = FOODS_DIR_DEFAULT) {
   }
 
   return { missingEaa, downstreamInTags }
+}
+
+/**
+ * Hard citation-integrity failures (generator signatures). Does not rewrite pages.
+ * Semantic relevance of a correctly joined key is a warning, not a hard fail.
+ */
+export function runCitationIntegrityValidation(foodsDir = FOODS_DIR_DEFAULT, slugFilter = null) {
+  const dirAbs = path.resolve(process.cwd(), foodsDir)
+  const slugs = getFoodSlugs(foodsDir).filter((s) => !slugFilter || s === slugFilter)
+  const bibIndex = loadBibIndex()
+  const hard = []
+  const warnings = []
+  const pages = []
+
+  for (const slug of slugs) {
+    const filePath = path.join(dirAbs, `${slug}.md`)
+    if (!fs.existsSync(filePath)) continue
+    const raw = fs.readFileSync(filePath, "utf8")
+    pages.push({ slug, markdown: raw })
+    const scan = scanFoodCitationIntegrity(raw, { slug, bibIndex })
+    if (scan.hard.length) hard.push({ slug, issues: scan.hard })
+    if (scan.warnings.length) warnings.push({ slug, issues: scan.warnings })
+  }
+
+  const identical = collectIdenticalHighlightWarnings(pages)
+  return { hard, warnings, identical }
 }

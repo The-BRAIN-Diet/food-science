@@ -40,6 +40,44 @@
   --brain-food-effect-label: var(--ifm-color-emphasis-600);
 }
 
+/*
+ * EvidenceConfidenceIndicator tokens.
+ *
+ * Declared per theme rather than inside the blocks above so a nested
+ * `data-theme` container can preview either theme on one page.
+ *
+ * `--brain-evidence-indicator-bg` (the component surface) and
+ * `--brain-evidence-inactive` (an unreached marker) are two separate neutral
+ * layers. Keep them clearly apart in luminance or the four-position structure
+ * stops reading.
+ */
+/* The four semantic colours are shared, not per-theme, so a given confidence
+   level renders the identical colour on a light page and a dark page. */
+:root {
+  --brain-evidence-very-low: #f05252;
+  --brain-evidence-low: #f5c518;
+  --brain-evidence-moderate: #f97316;
+  --brain-evidence-high: #4ade80;
+}
+
+/* Only the neutral surfaces and text shift between themes. */
+:root,
+[data-theme='light'] {
+  --brain-evidence-indicator-bg: #e4e6e9;
+  --brain-evidence-indicator-border: rgba(0, 0, 0, 0.12);
+  --brain-evidence-indicator-text: #1c1e21;
+  --brain-evidence-inactive: #9099a1;
+  --brain-evidence-marker-ring: rgba(0, 0, 0, 0.22);
+}
+
+[data-theme='dark'] {
+  --brain-evidence-indicator-bg: #2b2e33;
+  --brain-evidence-indicator-border: rgba(255, 255, 255, 0.1);
+  --brain-evidence-indicator-text: #ebedf0;
+  --brain-evidence-inactive: #656c74;
+  --brain-evidence-marker-ring: rgba(0, 0, 0, 0.35);
+}
+
 /* Six-BRS grid on Biological Regulatory Systems overview */
 .brs-overview-intro h2 {
   font-size: var(--ifm-h2-font-size);
@@ -1331,7 +1369,143 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
   font-weight: 500;
 }
 
-#advanced-nutrition-panel .docusaurus-mermaid-container {
+#advanced-nutrition-panel .docusaurus-mermaid-container,
+#therapeutic-area-research-panel .docusaurus-mermaid-container,
+#advanced-nutrition-panel .accessible-mermaid,
+#therapeutic-area-research-panel .accessible-mermaid {
   overflow-x: auto;
   max-width: 100%;
+}
+
+.markdown-table-scroll,
+.accessible-mermaid {
+  overflow-x: auto;
+  max-width: 100%;
+}
+/* ── Canonical Scientific Finding (PM §5.1) ─────────────────────────────── */
+
+.brain-sf {
+  margin: 0.6rem 0;
+}
+
+.brain-sf-shell {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  background: var(--ifm-background-surface-color);
+}
+
+.brain-sf-summary {
+  cursor: pointer;
+  padding: 0.6rem 0.8rem;
+  font-weight: 600;
+  line-height: 1.4;
+  list-style: none;
+}
+
+.brain-sf-summary::-webkit-details-marker {
+  display: none;
+}
+
+.brain-sf-summary::before {
+  content: "▸";
+  display: inline-block;
+  margin-right: 0.5rem;
+  color: var(--ifm-color-emphasis-600);
+  transition: transform 0.15s ease;
+}
+
+.brain-sf-shell[open] > .brain-sf-summary::before {
+  transform: rotate(90deg);
+}
+
+.brain-sf-body {
+  padding: 0 0.85rem 0.8rem 1.6rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.brain-sf-field {
+  margin: 0.65rem 0 0;
+  font-size: 0.95rem;
+}
+
+.brain-sf-field--label {
+  margin-bottom: 0.15rem;
+}
+
+.brain-sf-sec {
+  font-variant: small-caps;
+  letter-spacing: 0.02em;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.brain-sf-data-level {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.88rem;
+}
+
+.brain-sf-evidence,
+.brain-sf-connected,
+.brain-sf-dependency {
+  margin: 0.2rem 0 0 1.1rem;
+  padding: 0;
+  font-size: 0.93rem;
+}
+
+.brain-sf-evidence > li,
+.brain-sf-connected > li,
+.brain-sf-dependency > li {
+  margin: 0.4rem 0;
+}
+
+.brain-sf-evidence-label {
+  font-weight: 600;
+}
+
+.brain-sf-isa-shell > summary {
+  cursor: pointer;
+}
+
+.brain-sf-evidence-ref {
+  margin-top: 0.15rem;
+  font-size: 0.88rem;
+}
+
+.brain-sf-isa {
+  display: grid;
+  grid-template-columns: minmax(8.5rem, max-content) 1fr;
+  gap: 0.3rem 0.9rem;
+  margin: 0.5rem 0 0.6rem 0.9rem;
+  padding-left: 0.7rem;
+  border-left: 2px solid var(--ifm-color-emphasis-200);
+  font-size: 0.9rem;
+}
+
+.brain-sf-isa dt {
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.brain-sf-isa dd {
+  margin: 0;
+}
+
+.brain-sf-connected-why {
+  margin-top: 0.15rem;
+}
+
+.brain-sf-informs {
+  margin: 0.8rem 0 0;
+  padding-top: 0.5rem;
+  border-top: 1px dashed var(--ifm-color-emphasis-200);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .brain-sf-isa {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+  .brain-sf-isa dd {
+    margin-bottom: 0.35rem;
+  }
 }

@@ -6,6 +6,7 @@
 
 # Generated files
 .docusaurus
+.docusaurus-build
 .cache-loader
 
 # Misc
@@ -47,3 +48,4 @@ src/data/framework-qc-public.generated.json
 scripts/out/framework-qc/
 .private-migration-backup/
 
+static/img/recipes/originals/

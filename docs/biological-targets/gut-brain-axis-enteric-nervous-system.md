@@ -24,6 +24,10 @@ hide_title: true
 
 Maintain a resilient gut–brain interface — barrier selective, microbial ecology supportive, and gut-to-brain communication proportionate — so the brain receives stable microbial and neural signals without chronic immune activation or inflammatory spillover.
 
+## Rationale for inclusion as a distinct BRS
+
+The gut–brain interface was defined as a distinct BRS because it coordinates barrier selectivity, microbial metabolite signalling and gut–vagal / enteric neural traffic as a peripheral-to-central communication layer. These interconnected processes can change immune exposure, precursor and short-chain fatty-acid availability, and autonomic-linked transmitter tone. BRS5 is therefore represented as a conditional interface system: its signals may reach BRS1, BRS3, BRS4 or BRS6 directly or through mediated routes, but they do not replace host enzymatic regulation. It is not presented as a universal microbiome explanation for brain-related conditions, but as a coherent, diet-responsive gut–brain system with biologically traceable, often context-dependent dependencies across the wider regulatory network.
+
 ## Therapeutic Area Research
 
 <p class="brs-hub-ta-research-intro">ADHD is the first fully mapped therapeutic area within the BRAIN Framework, providing a proof of concept for an adaptive biological architecture linking nutrition, biology and function. The same framework is designed to expand across additional therapeutic areas through the shared <a href="/docs/phenomes/">Phenome Registry</a>.</p>
@@ -455,38 +459,38 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <ul class="brs-fm-hub-group-title-list">
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
-  <span class="brs-fm-hub-group-title-text">(BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="0" aria-label="Open: (BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling">
+  <span class="brs-fm-hub-group-title-text">(BRS5 → BRS1) Gut–Vagal Modulation of Neurotransmitter Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs5-to-brs1" aria-label="Open: (BRS5 → BRS1) Gut–Vagal Modulation of Neurotransmitter Regulation">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="1" aria-label="Open: (BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs5-to-brs3" aria-label="Open: (BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="2" aria-label="Open: (BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs5-to-brs4" aria-label="Open: (BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="3" aria-label="Open: (BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs5-to-brs6" aria-label="Open: (BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
 </ul>
@@ -497,14 +501,14 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="0">
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
-<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS5 → BRS1) Gut–Vagal Modulation of Neurotransmitter Regulation">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
-<strong class="brs-fm-hub-title">(BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling">
+<strong class="brs-fm-hub-title">(BRS5 → BRS1) Gut–Vagal Modulation of Neurotransmitter Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs5-to-brs1" aria-label="Open (BRS5 → BRS1) Gut–Vagal Modulation of Neurotransmitter Regulation">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -519,6 +523,7 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Synthesised how microbial metabolite and vagal signalling interact with central nervous system function — supporting the interpretation of BRS5 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
 
+
 </div>
 </div>
 </div>
@@ -530,10 +535,10 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs5-to-brs3" aria-label="Open (BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -548,6 +553,7 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Established stress-to-inflammation signalling as a systems-level pathway reshaping immune and neuroendocrine biology — supporting the interpretation that gut–immune perturbation can propagate inflammatory burden across BRS3 and connected systems.</p></li>
 </ul>
 
+
 </div>
 </div>
 </div>
@@ -559,10 +565,10 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs5-to-brs4" aria-label="Open (BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -577,6 +583,7 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Synthesised microbial metabolite signalling intersecting metabolic and neuroendocrine adaptive regulation — supporting the interpretation of BRS5 as an upstream enabler of BRS4 bioenergetic performance.</p></li>
 </ul>
 
+
 </div>
 </div>
 </div>
@@ -588,10 +595,10 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs5-to-brs6" aria-label="Open (BRS5 → BRS6) Gut–Vagal Influence on Stress-Axis Regulation">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -605,6 +612,7 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Demonstrated that gut microbiota modulate HPA-axis stress responses via vagal pathways — supporting the framework interpretation that BRS5 gut–vagal signalling shapes BRS6 stress-axis responsiveness.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Linked autonomic regulatory capacity to stress neurobiology and central nervous system function — supporting the interpretation of vagal–neuroendocrine integration as a BRS5 → BRS6 enabling pathway.</p></li>
 </ul>
+
 
 </div>
 </div>

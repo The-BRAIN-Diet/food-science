@@ -77,17 +77,8 @@ nutrition_supplementary_sources:
 
 Clams are bivalve shellfish providing complete protein together with notable amounts of **vitamin B12**, **iron**, **zinc**, and **taurine**. Among shellfish, clams and mussels are often highlighted for their taurine content, which contributes to bile acid conjugation, membrane stabilisation, and antioxidant defence in experimental and clinical contexts [1]. Their B12 and iron content support methylation pathways, homocysteine recycling, and oxygen transport, all of which are relevant to neurological and cardiovascular health [2].
 
-Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense shellfish** that complements both plant and animal sources of B12 and iron. Because portions are typically modest and eaten intermittently, clams are best viewed as a periodic micronutrient booster rather than a daily protein anchor [1,2]. As with other shellfish, water quality, harvesting practices, and preparation determine safety; sourcing from monitored waters and cooking thoroughly helps reduce microbiological and contaminant risk [2].
+Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense shellfish** that complements both plant and animal sources of B12 and iron. Because portions are typically modest and eaten intermittently, clams are best viewed as a periodic micronutrient booster rather than a daily protein anchor [1,2]. As with other shellfish, water quality, harvesting practices, and preparation determine safety; sourcing from monitored waters and cooking thoroughly helps reduce microbiological and contaminant risk
 
-
-
-## Key Nutritional Highlights
-
-- Clams are bivalve shellfish providing complete protein together with notable amounts of **vitamin B12**, **iron**, **zinc**, and **taurine**.
-- Among shellfish, clams and mussels are often highlighted for their taurine content, which contributes to bile acid conjugation, membrane stabilisation, and antioxidant defence in experimental and clinical contexts [1].
-- Their B12 and iron content support methylation pathways, homocysteine recycling, and oxygen transport, all of which are relevant to neurological and cardiovascular health [2].
-- Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense shellfish** that complements both plant and animal sources of B12 and iron.
-- Because portions are typically modest and eaten intermittently, clams are best viewed as a periodic micronutrient booster rather than a daily protein anchor [1,2].
 ## Food Context
 
 ### Sourcing
@@ -107,7 +98,6 @@ Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense s
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
-
 
 <NutritionTable details={frontMatter} />
 

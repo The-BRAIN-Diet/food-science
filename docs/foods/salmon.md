@@ -92,7 +92,7 @@ import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview
 
-Salmon is an oily fish providing long-chain omega-3 fatty acids **EPA** and **DHA**, **vitamin B12**, **selenium**, the carotenoid **astaxanthin**, and high-quality protein. These intrinsic compounds support membrane phospholipid structure, mitochondrial function, and antioxidant capacity in neural and vascular tissues [1,2]. Regular inclusion of salmon and other oily fish helps reach evidence-based omega-3 intakes that are associated with cardiometabolic and cognitive benefits in many populations [1].
+Salmon is an oily fish providing long-chain omega-3 fatty acids **EPA** and **DHA**, **vitamin B12**, **selenium**, the carotenoid **astaxanthin**, and high-quality protein. These intrinsic compounds support membrane phospholipid structure, mitochondrial function, and antioxidant capacity in neural and vascular tissues [1,2]. Regular inclusion of salmon and other oily fish helps reach evidence-based omega-3 intakes that are associated with cardiometabolic and cognitive benefits in many populations
 
 ## Key Nutritional Highlights
 

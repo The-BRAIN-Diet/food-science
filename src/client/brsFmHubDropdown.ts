@@ -32,7 +32,7 @@ function focusGroupChild(groupItem: HTMLElement, childIndex: number): void {
 }
 
 function bindGroupOpenActions(root: ParentNode): void {
-  root.querySelectorAll<HTMLButtonElement>('[data-brs-hub-focus-child]:not([data-brs-hub-focus-init])').forEach((button) => {
+  root.querySelectorAll<HTMLButtonElement>('button[data-brs-hub-focus-child]:not([data-brs-hub-focus-init])').forEach((button) => {
     button.dataset.brsHubFocusInit = 'true';
     button.addEventListener('click', (event) => {
       event.preventDefault();
@@ -50,7 +50,7 @@ function bindGroupOpenActions(root: ParentNode): void {
 }
 
 function bindExpandOpenActions(root: ParentNode): void {
-  root.querySelectorAll<HTMLButtonElement>('.brs-fm-hub-open--action:not([data-brs-hub-open-init])').forEach((button) => {
+  root.querySelectorAll<HTMLButtonElement>('button.brs-fm-hub-open--action:not([data-brs-hub-open-init])').forEach((button) => {
     button.dataset.brsHubOpenInit = 'true';
     button.addEventListener('click', (event) => {
       event.preventDefault();

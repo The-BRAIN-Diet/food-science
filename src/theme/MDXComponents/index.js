@@ -25,10 +25,13 @@ import FoodEffectIcon from '../../components/FoodEffectIcon';
 import FoodEffect from '../../components/FoodEffect';
 import PhenomeBibLinks from '../../components/PhenomeBibLinks';
 import PhenomeScoringKey from '../../components/PhenomeScoringKey';
+import ScientificFinding from '../../components/ScientificFinding';
+import EvidenceConfidenceIndicator from '../../components/EvidenceConfidenceIndicator';
 import PhenomeRegistry from '../PhenomeRegistry';
 import PhenomeDetail from '../PhenomeRegistry/PhenomeDetail';
 import FrameworkReviewRegister from '../../components/ReviewCorrections/PublicRegister';
-import AdvancedNutrition from '../../components/AdvancedNutrition';
+import AdvancedNutrition, {TherapeuticAreaResearch} from '../../components/AdvancedNutrition';
+import AccessibleMermaid from '../../components/AccessibleMermaid';
 import Mermaid from '@theme/Mermaid';
 
 export default {
@@ -58,9 +61,13 @@ export default {
   FoodShoppingList,
   PhenomeBibLinks,
   PhenomeScoringKey,
+  ScientificFinding,
+  EvidenceConfidenceIndicator,
   PhenomeRegistry,
   PhenomeDetail,
   FrameworkReviewRegister,
   AdvancedNutrition,
+  TherapeuticAreaResearch,
+  AccessibleMermaid,
   Mermaid,
 };

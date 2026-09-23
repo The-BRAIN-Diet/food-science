@@ -111,7 +111,7 @@ ${openControl}
 
 /**
  * Parent dropdown listing child item titles; children hold nested hub collapsibles.
- * @param {Array<string|{ title: string, openHref?: string, openLabel?: string, openAriaLabel?: string, focusChildIndex?: number }>} titleItems — titles with optional Open link (FM) or expand action (Cross-BRS)
+ * @param {Array<string|{ title: string, openHref?: string, openLabel?: string, openAriaLabel?: string, focusChildIndex?: number }>} titleItems — titles with optional Open link (FM pages or Cross-BRS dependency pages)
  * @param {string} childrenHtml
  */
 export function renderHubNestedGroup(titleItems, childrenHtml) {

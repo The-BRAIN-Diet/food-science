@@ -18,6 +18,7 @@ import {
   normalizeEvidenceConfig,
   renderEvidenceHighlightsSection,
 } from "./lib/evidence-highlights-render.mjs";
+import { hasScientificFindings } from "./lib/scientific-findings.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -133,6 +134,15 @@ function main() {
     const { data, content } = matter(raw);
     const pmId = data.pm_id;
     const config = resolveEvidenceConfig(evidenceMap, { pmId, filePath });
+
+    // PMs migrated to the canonical Scientific Finding model own their §5.1 via
+    // front matter. The legacy seed must never overwrite an adjudicated Finding,
+    // including under --force.
+    if (hasScientificFindings(data)) {
+      skipped++;
+      console.log(`skip (Scientific Findings own §5.1 — use npm run findings:sync): ${pmId}`);
+      continue;
+    }
 
     if (!config) {
       skipped++;

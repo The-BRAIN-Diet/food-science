@@ -45,13 +45,15 @@ legacy_main_image: /img/foods/chamomile-tea/chamomile-tea_medium.webp
 
 Chamomile tea provides **apigenin**, a flavone that binds benzodiazepine-site receptors and is studied for calm and sleep-supportive effects [1]. It is a caffeine-free herbal infusion used in evening wind-down patterns.
 
-Within the BRAIN Diet framework, chamomile is a herbal polyphenol beverage used for relaxation context rather than micronutrient density [1].
+Within the BRAIN Diet framework, chamomile is a herbal polyphenol beverage used for relaxation context rather than micronutrient density
+
 ## Key Nutritional Highlights
 
 - Apigenin-rich herbal infusion with GABAergic receptor-binding interest [1].
 - Caffeine-free evening beverage option.
 - Polyphenol yield varies with steep time and flower quality.
 - Culinary/tea doses differ from concentrated extract trials [1].
+
 ## Food Context
 
 ### Synergies

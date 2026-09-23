@@ -97,16 +97,7 @@ nutrition_supplementary_sources:
 
 Tofu is a soy-based food providing complete plant protein, isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. Tofu is listed as a source for iron, choline, tryptophan, and tyrosine.
 
-Within the BRAIN Diet framework, high-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis. Tofu is often calcium-fortified, making it valuable for plant-based diets [1][2].
-## Key Nutritional Highlights
-
-
-- Tofu supplies soy isoflavones such as genistein studied for neuroinflammatory and metabolic pathways [1]
-- Tofu contributes non-heme iron and calcium when fortified; meal pairing affects mineral absorption [2]
-- Tofu is a soy-based food providing complete plant protein, isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. [1]
-- Tofu is listed as a source for iron, choline, tryptophan, and tyrosine. [2]
-- High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis.
-- Tofu is often calcium-fortified, making it valuable for plant-based diets.
+Within the BRAIN Diet framework, high-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis. Tofu is often calcium-fortified, making it valuable for plant-based diets.
 
 ## Food Context
 
@@ -147,4 +138,4 @@ Notable amino acids:
 
 [1] Tofu supplies soy isoflavones such as genistein studied for neuroinflammatory and metabolic pathways. Fuloria et al. 2022. [Genistein: A Potential Natural Lead Molecule for New Drug Design and Development for Treating Memory Impairment](/docs/papers/BRAIN-Diet-References#fuloria_genistein_2022)
 
-[2] Tofu contributes non-heme iron and calcium when fortified; meal pairing affects mineral absorption. Hallberg et al. 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+[2] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.

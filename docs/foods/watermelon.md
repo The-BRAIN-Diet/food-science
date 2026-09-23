@@ -114,6 +114,6 @@ Watermelon is included because it contributes to a connected biological network 
 
 ## References
 
-[1] Systematic review of randomized controlled trials assessing the effects of creatine supplementation on cognitive function in healthy individuals, reporting improvements primarily in short-term memory and intelligence/reasoning. Avgerinos & Spyrou 2018. [Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
+[1] Avgerinos et al. (2018). [Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
 
-[2] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Dietary protein and amino acids in vegetarian diets: Current issues and practical recommendations](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+[2] Mariotti & Gardner (2019). [Dietary protein and amino acids in vegetarian diets: Current issues and practical recommendations](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

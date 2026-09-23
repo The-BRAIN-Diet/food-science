@@ -8,23 +8,32 @@ hide_title: true
 
 # BRS6 → BRS4 — Neuroendocrine Control of Bioenergetic Recovery
 
-This page explains the **systems-level biological dependency** between BRS6 and BRS4. It is informed by literature, integrated BRS architecture, allostatic context, expert interpretation, and mechanistic evidence from PM pages — but it does **not** duplicate the canonical PM relationship graph.
+Glucocorticoid signalling and glucose handling from [BRS6](/docs/biological-targets/metabolic-neuroendocrine-stress) can constrain mitochondrial capacity in [BRS4](/docs/biological-targets/mitochondrial-function-bioenergetics).
 
-For explicit PM-to-PM relationships, see **§6.2 Cross-BRS Mechanism Relationships** on individual Primary Mechanism pages.
+## Dependency
 
-## Biological Contribution
+BRS6 allocates cortisol rhythm, autonomic tone and glycaemic supply. Those mediators reach mitochondria as substrate, glucocorticoid signalling and redox pressure. BRS4 then determines whether ATP generation and recovery keep pace.
 
-Collectively, the Functional Mechanisms within BRS6 maintain adaptive neuroendocrine and glycaemic stability that enables BRS4 to sustain mitochondrial bioenergetic capacity under prolonged physiological demand.
+## Principal Routes
 
-## Systems Significance
+<div className="markdown-table-scroll">
 
-By preserving these stress–metabolic regulatory capacities, BRS6 functions as the principal gateway through which neuroendocrine and metabolic resources are allocated across the integrated Biological Regulatory System network. This reduces the likelihood that chronic stress-mediated metabolic dysregulation progressively compromises mitochondrial function within BRS4 as allostatic load accumulates. Maintaining BRS6 therefore complements substrate and cofactor biology within BRS4 by preserving systemic energetic stability rather than substituting for mitochondrial regulation itself.
+| Route | Contribution to BRS4 | Relationship |
+| --- | --- | --- |
+| Glucocorticoid signalling | Can induce mitochondrial allostatic load | Direct |
+| Glucose / insulin instability | Alters mitochondrial fuel supply and glucotoxicity risk | Direct |
 
-## Integrated Regulatory Capacity
+</div>
 
-Together, the Functional Mechanisms within BRS6 maintain glycaemic–insulin stability, HPA-axis rhythm and stress–metabolic load allocation required to sustain mitochondrial energetic recovery during prolonged physiological demand. Rather than acting through glucocorticoids alone, these integrated capacities collectively coordinate how whole-body stress biology shapes bioenergetic reserve and recovery within BRS4.
+## Network Interpretation
+
+This is a primary stress-to-energy bridge. Downstream inflammatory and transmitter effects may continue as `BRS6 → BRS4 → BRS3 → BRS1` (see [BRS6 → BRS1](/docs/biological-targets/dependencies/brs6-to-brs1#cascade-6)). Gut metabolites are not part of this page.
+
+## Boundary and Evidence Status
+
+Mitochondrial allostatic load is a reviewed mechanistic model, not a demonstrated ADHD pathway. The dependency does not establish that changing cortisol or meal pattern restores mitochondrial function or clinical outcomes.
 
 ## Supporting Evidence
 
-- [Picard et al., 2014](/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014) — Proposed mitochondrial allostatic load as the subcellular mechanism through which glucocorticoids, glucose imbalance and chronic stress damage bioenergetic capacity — supporting the BRS6 ↔ BRS4 adaptive bridge within the framework.
-- [McEwen, 2006](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006) — Established allostasis and allostatic load as frameworks for cumulative biological wear under stress-mediated metabolic allocation — supporting the interpretation that BRS6 coordinates systemic load that constrains BRS4 recovery capacity.
+- [Picard, Juster and McEwen, 2014](/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014) — Proposes mitochondrial allostatic load as a route by which glucocorticoids, glucose imbalance and chronic stress damage bioenergetic capacity.
+- [McEwen, 2006](/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006) — Reviews protective and damaging effects of stress mediators, including metabolic allocation under sustained demand.

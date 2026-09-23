@@ -8,23 +8,32 @@ hide_title: true
 
 # BRS5 → BRS6 — Gut–Vagal Influence on Stress-Axis Regulation
 
-This page explains the **systems-level biological dependency** between BRS5 and BRS6. It is informed by literature, integrated BRS architecture, allostatic context, expert interpretation, and mechanistic evidence from PM pages — but it does **not** duplicate the canonical PM relationship graph.
+Vagal and microbial signals from [BRS5](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) can modify HPA-axis and autonomic regulation in [BRS6](/docs/biological-targets/metabolic-neuroendocrine-stress).
 
-For explicit PM-to-PM relationships, see **§6.2 Cross-BRS Mechanism Relationships** on individual Primary Mechanism pages.
+## Dependency
 
-## Biological Contribution
+Gut afferent traffic, especially vagal signalling, can change stress-axis responsiveness and autonomic tone. BRS6 remains the owner of cortisol rhythm and metabolic allocation; BRS5 supplies a peripheral modulatory input.
 
-Collectively, the Functional Mechanisms within BRS5 maintain adaptive gut–vagal neuromodulation and microbial signalling that enables BRS6 to sustain stress-axis responsiveness under prolonged physiological demand.
+## Principal Routes
 
-## Systems Significance
+<div className="markdown-table-scroll">
 
-By preserving these gut–brain interface capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that impaired vagal or microbial signalling progressively disrupts autonomic and HPA-axis regulation within BRS6 as peripheral load accumulates. Maintaining BRS5 therefore complements neuroendocrine biology within BRS6 by preserving gut-derived modulatory input rather than substituting for stress-axis regulation itself.
+| Route | Contribution to BRS6 | Relationship |
+| --- | --- | --- |
+| [Vagal/ENS signalling](/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation) | Can alter HPA-axis and autonomic responses | Conditional; key evidence is preclinical |
+| Autonomic coupling (HRV-related) | Associates vagal tone with stress neurobiology | Conditional; not gut-specific by itself |
 
-## Integrated Regulatory Capacity
+</div>
 
-Together, the Functional Mechanisms within BRS5 maintain gut barrier integrity, microbial metabolite signalling and gut–vagal neuromodulation required to regulate autonomic tone and stress-axis responsiveness during prolonged physiological demand. Rather than acting through a single microbial pathway, these integrated capacities collectively shape how peripheral signals influence neuroendocrine recovery capacity within BRS6.
+## Network Interpretation
+
+This is a peripheral-to-stress-axis route. It should not be collapsed into BRS5 → BRS1. Transmitter effects, if any, remain `BRS5 → BRS6 → BRS1` or other mediated paths.
+
+## Boundary and Evidence Status
+
+Bravo et al. show vagus-dependent HPA-related effects in mice. Thayer et al. meta-analyse heart-rate variability and neuroimaging; that supports autonomic–brain coupling, not a demonstrated gut intervention on BRS6. The dependency is retained as conditional.
 
 ## Supporting Evidence
 
-- [Bravo et al., 2011](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011) — Demonstrated that gut microbiota modulate HPA-axis stress responses via vagal pathways — supporting the framework interpretation that BRS5 gut–vagal signalling shapes BRS6 stress-axis responsiveness.
-- [Thayer et al., 2012](/docs/papers/BRAIN-Diet-References#thayer_2012_22178086) — Linked autonomic regulatory capacity to stress neurobiology and central nervous system function — supporting the interpretation of vagal–neuroendocrine integration as a BRS5 → BRS6 enabling pathway.
+- [Bravo et al., 2011](/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011) — Mouse study in which gut bacteria modulated stress-related central signalling via the vagus nerve.
+- [Thayer et al., 2012](/docs/papers/BRAIN-Diet-References#thayer_2012_22178086) — Meta-analysis linking heart-rate variability to neuroimaging markers of stress and health; not a gut-metabolite trial.

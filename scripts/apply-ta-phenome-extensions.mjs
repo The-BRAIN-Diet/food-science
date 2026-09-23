@@ -21,6 +21,7 @@ import {
   renderFmOutcomeContextSectionBody,
   FM_OUTCOME_CONTEXT_MAX,
 } from "./lib/phenome-relationships.mjs";
+import { findingsById } from "./lib/scientific-findings.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dryRun = process.argv.includes("--dry-run");
@@ -84,7 +85,10 @@ for (const filePath of walkMdx(path.join(root, "docs/biological-targets"))) {
     );
     if (changed) {
       const nextData = { ...data, phenome_relationships: relationships };
-      const phenomeBlock = renderPmPhenomeSectionBody(relationships, { sectionNum: 3 });
+      const phenomeBlock = renderPmPhenomeSectionBody(relationships, {
+        sectionNum: 3,
+        findingData: data,
+      });
       let nextContent = content.replace(PM_PHENOME_SECTION, `${phenomeBlock.trimEnd()}\n\n`);
       const merged = mergePageReferencesWithPhenome(nextData, nextContent, "pm");
       const rebuilt = matter.stringify(merged.content, merged.data, { lineWidth: 9999 });

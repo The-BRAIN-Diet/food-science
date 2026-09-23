@@ -64,16 +64,7 @@ nutrition_supplementary_sources:
 
 Maitake mushroom (Grifola frondosa), also known as "hen of the woods," is a medicinal mushroom valued for its immune-supporting properties. It is particularly rich in beta-glucans, with the D-fraction being a well-studied extract that has shown immune-modulating effects in research. Maitake contains polysaccharides that may support immune cell function and help modulate inflammatory responses.
 
-Within the BRAIN Diet framework, the mushroom is also valued for its culinary properties, with a rich, earthy flavor and meaty texture. Maitake may support blood sugar regulation and metabolic health through its bioactive compounds [1][2].
-## Key Nutritional Highlights
-
-
-- Maitake supplies beta-glucans and fungal polysaccharides with immune-modulating research interest [1]
-- Beta-glucans from fungi and yeast modulate innate immune signalling pathways [2]
-- Maitake mushroom (Grifola frondosa), also known as "hen of the woods," is a medicinal mushroom valued for its immune-supporting properties. [1]
-- It is particularly rich in beta-glucans, with the D-fraction being a well-studied extract that has shown immune-modulating effects in research. [2]
-- Maitake contains polysaccharides that may support immune cell function and help modulate inflammatory responses.
-- The mushroom is also valued for its culinary properties, with a rich, earthy flavor and meaty texture.
+Within the BRAIN Diet framework, the mushroom is also valued for its culinary properties, with a rich, earthy flavor and meaty texture. Maitake may support blood sugar regulation and metabolic health through its bioactive compounds.
 
 ## Food Context
 

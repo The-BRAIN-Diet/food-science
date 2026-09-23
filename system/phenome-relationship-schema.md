@@ -115,7 +115,7 @@ When running a formal review, empty §3 is valid until Phase 3 approves a candid
 | Bibliography readiness | Phase 0 — `npm run bib:validate` |
 | PM candidate phenome hypotheses | Phase 1 — mechanism depth, plausibility; **no final confidence** |
 | FM candidate functional outcomes | Phase 2 — integrated-state review; **no final confidence** |
-| Biology → phenome validation + evidence level | Phase 3 — dedicated literature review per phenome |
+| Biology → phenome validation + evidence level | Phase 3 — proposition-first validation per candidate relationship (not PM-wide Finding discovery) |
 | Registry validation | Phase 4 — audit tooling, duplication review |
 
 **Assignment rule (v1):** Mechanism → **ADHD-relevant** registry phenome only. Secondary therapeutic-area literature may support plausibility but must not create mappings without ADHD-relevant justification.

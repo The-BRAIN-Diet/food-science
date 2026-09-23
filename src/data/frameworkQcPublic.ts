@@ -46,6 +46,7 @@ export const frameworkQcPublic = publicDataset as PublicQcDataset
 
 export const REVIEW_QUERY_PARAM = "review"
 export const ADVANCED_QUERY_PARAM = "advanced"
+export const THERAPEUTIC_QUERY_PARAM = "therapeutic"
 
 export const UNREVIEWED_STATUS_COPY = "Evidence review status: Unreviewed."
 export const UNREVIEWED_CORRECTIONS_COPY =

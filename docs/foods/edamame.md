@@ -64,15 +64,7 @@ nutrition_supplementary_sources:
 
 Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, plus complete plant protein and isoflavones.
 
-Within the BRAIN Diet framework, nicotinamide Mononucleotide (NMN) is a direct NAD⁺ intermediate in salvage pathway found in edamame, broccoli, cucumber, and avocado [1][2].
-## Key Nutritional Highlights
-
-
-- Edamame supplies soy isoflavones such as genistein studied for metabolic and neuroinflammatory pathways [1]
-- Young soybeans provide complete plant protein with favourable digestibility for a legume [2]
-- Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, plus complete plant protein and isoflavones. [1]
-- Nicotinamide Mononucleotide (NMN) is a direct NAD⁺ intermediate in salvage pathway found in edamame, broccoli, cucumber, and avocado. [2]
-- Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, plus complete plant protein and isoflavones.
+Within the BRAIN Diet framework, nicotinamide Mononucleotide (NMN) is a direct NAD⁺ intermediate in salvage pathway found in edamame, broccoli, cucumber, and avocado.
 
 ## Food Context
 

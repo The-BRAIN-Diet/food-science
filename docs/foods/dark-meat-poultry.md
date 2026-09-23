@@ -70,15 +70,7 @@ nutrition_supplementary_sources:
 
 Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling.
 
-Within the BRAIN Diet framework, taurine food sources include scallops, clams, dark-meat poultry, and mackerel [1][2].
-## Key Nutritional Highlights
-
-
-- Dark-meat poultry is a practical dietary source of taurine alongside seafood and other animal proteins [1]
-- Poultry provides highly digestible complete protein with strong amino-acid bioavailability [2]
-- Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling. [1]
-- Taurine food sources include scallops, clams, dark-meat poultry, and mackerel. [2]
-- Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling.
+Within the BRAIN Diet framework, taurine food sources include scallops, clams, dark-meat poultry, and mackerel.
 
 ## Food Context
 

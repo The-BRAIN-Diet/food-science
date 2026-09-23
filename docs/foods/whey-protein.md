@@ -62,15 +62,7 @@ nutrition_supplementary_sources:
 
 Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function.
 
-Within the BRAIN Diet framework, whey protein isolate has DIAAS 118–122 with no limiting amino acids, high leucine content, and supports BDNF and neurotransmitter synthesis [1][2].
-## Key Nutritional Highlights
-
-
-- Whey protein isolate scores among the highest DIAAS values for essential amino-acid quality [1]
-- Leucine-rich whey protein acutely stimulates muscle protein synthesis via mTOR signalling [2]
-- Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function. [1]
-- Whey protein isolate has DIAAS 118–122 with no limiting amino acids, high leucine content, and supports BDNF and neurotransmitter synthesis. [2]
-- Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function.
+Within the BRAIN Diet framework, whey protein isolate has DIAAS 118–122 with no limiting amino acids, high leucine content, and supports BDNF and neurotransmitter synthesis.
 
 ## Food Context
 

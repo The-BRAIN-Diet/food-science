@@ -51,9 +51,9 @@ These pages are designed to support understanding rather than prescribe strict r
 
 ## Relationship to Therapeutic Areas
 
-The site includes therapeutic-area pages that group foods according to observational evidence and emerging research suggesting potential relevance to particular health contexts. These groupings are not intended as medical treatment protocols, but as structured ways of organising dietary information.
+Therapeutic-area pages that group foods by condition are not currently published. When they return, they will organise observational evidence and emerging research by health context. Those groupings are not medical treatment protocols.
 
-Future observational work and clinical studies may explore these associations in greater depth. The Dietary Foundations pages provide the physiological context that helps explain why specific foods appear in those therapeutic categories.
+The Dietary Foundations pages provide the physiological context for food choices on this site.
 
 ---
 

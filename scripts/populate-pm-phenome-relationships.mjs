@@ -20,6 +20,7 @@ import {
   mergePageReferencesWithPhenome,
   renderPmPhenomeSectionBody,
 } from "./lib/phenome-relationships.mjs";
+import { findingsById } from "./lib/scientific-findings.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -92,7 +93,10 @@ function main() {
     }
 
     const nextData = { ...data, phenome_relationships: relationships };
-    const phenomeBlock = renderPmPhenomeSectionBody(relationships, { sectionNum: 3 });
+    const phenomeBlock = renderPmPhenomeSectionBody(relationships, {
+      sectionNum: 3,
+      findingData: data,
+    });
     let nextContent = replacePhenomeSection(content, phenomeBlock);
     const merged = mergePageReferencesWithPhenome(nextData, nextContent, "pm");
     const rebuilt = matter.stringify(merged.content, merged.data, { lineWidth: 9999 });

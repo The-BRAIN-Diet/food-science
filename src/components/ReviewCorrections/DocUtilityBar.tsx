@@ -6,13 +6,14 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext"
 import {
   ADVANCED_QUERY_PARAM,
   REVIEW_QUERY_PARAM,
+  THERAPEUTIC_QUERY_PARAM,
   findPublicPageRecord,
   openPublicIssueCount,
   showsNutritionContentTabs,
   showsPageUtilityBar,
   isNutritionContentPermalink,
 } from "@site/src/data/frameworkQcPublic"
-import {useAdvancedNutritionSlot} from "@site/src/components/AdvancedNutrition"
+import {usePageContentTabs} from "@site/src/components/AdvancedNutrition"
 import PageReviewPanel from "./PageReviewPanel"
 import styles from "./styles.module.css"
 
@@ -22,7 +23,16 @@ function extraPageIds(frontMatter: Record<string, unknown>): string[] {
     .filter((value): value is string => typeof value === "string" && value.length > 0)
 }
 
-type ContentTab = "highlights" | "advanced" | "review"
+type ContentTab = "highlights" | "advanced" | "therapeutic" | "review"
+
+const THERAPEUTIC_HASH_IDS = new Set([
+  "walsh-biochemical-biotypes",
+  "copper-therapeutic-areas",
+  "bh4-therapeutic-areas",
+  "glutathione-therapeutic-areas",
+  "therapeutic-area-research",
+  "therapeutic-area-research-references",
+])
 
 export default function DocUtilityBar({
   children,
@@ -57,16 +67,25 @@ export default function DocUtilityBar({
   const showBar = showContentTabs || showReviewTab
   const openCount = openPublicIssueCount(page)
   const params = new URLSearchParams(location.search)
-  const advancedSlot = useAdvancedNutritionSlot()
-  const setUseTabPanel = advancedSlot?.setUseTabPanel
-  const hasAdvanced = Boolean(advancedSlot?.content)
+  const contentSlots = usePageContentTabs()
+  const setUseTabPanel = contentSlots?.setUseTabPanel
+  const hasAdvanced = Boolean(contentSlots?.panels.advanced)
+  const hasTherapeutic = Boolean(contentSlots?.panels.therapeutic)
+  const hashId = location.hash.replace(/^#/, "")
   const reviewOpen = showReviewTab && params.get(REVIEW_QUERY_PARAM) === "1"
+  const therapeuticHash = Boolean(hashId) && THERAPEUTIC_HASH_IDS.has(hashId)
+  const therapeuticOpen =
+    showContentTabs &&
+    hasTherapeutic &&
+    !reviewOpen &&
+    (params.get(THERAPEUTIC_QUERY_PARAM) === "1" || therapeuticHash)
   const advancedOpen =
     showContentTabs &&
     hasAdvanced &&
     !reviewOpen &&
+    !therapeuticOpen &&
     params.get(ADVANCED_QUERY_PARAM) === "1"
-  const highlightsOpen = !reviewOpen && !advancedOpen
+  const highlightsOpen = !reviewOpen && !advancedOpen && !therapeuticOpen
   const qcLabel =
     openCount > 0 ? `Review & Corrections (${openCount})` : "Review & Corrections"
 
@@ -79,23 +98,41 @@ export default function DocUtilityBar({
     const nextParams = new URLSearchParams(location.search)
     nextParams.delete(REVIEW_QUERY_PARAM)
     nextParams.delete(ADVANCED_QUERY_PARAM)
+    nextParams.delete(THERAPEUTIC_QUERY_PARAM)
     if (tab === "review") nextParams.set(REVIEW_QUERY_PARAM, "1")
     if (tab === "advanced") nextParams.set(ADVANCED_QUERY_PARAM, "1")
+    if (tab === "therapeutic") nextParams.set(THERAPEUTIC_QUERY_PARAM, "1")
     const search = nextParams.toString()
+    const keepHash = tab === "advanced" || tab === "therapeutic"
     history.push({
       pathname: location.pathname,
       search: search ? `?${search}` : "",
-      hash: tab === "advanced" ? location.hash : "",
+      hash: keepHash ? location.hash : "",
     })
   }
 
   useEffect(() => {
-    if (!hasAdvanced || advancedOpen || reviewOpen) return
+    if (reviewOpen) return
     const id = location.hash.replace(/^#/, "")
     if (!id) return
+    if (THERAPEUTIC_HASH_IDS.has(id)) {
+      if (!hasTherapeutic || therapeuticOpen) return
+      const nextParams = new URLSearchParams(location.search)
+      nextParams.delete(REVIEW_QUERY_PARAM)
+      nextParams.delete(ADVANCED_QUERY_PARAM)
+      nextParams.set(THERAPEUTIC_QUERY_PARAM, "1")
+      history.replace({
+        pathname: location.pathname,
+        search: `?${nextParams.toString()}`,
+        hash: location.hash,
+      })
+      return
+    }
+    if (!hasAdvanced || advancedOpen || therapeuticOpen) return
     if (!document.getElementById(id)) {
       const nextParams = new URLSearchParams(location.search)
       nextParams.delete(REVIEW_QUERY_PARAM)
+      nextParams.delete(THERAPEUTIC_QUERY_PARAM)
       nextParams.set(ADVANCED_QUERY_PARAM, "1")
       history.replace({
         pathname: location.pathname,
@@ -103,7 +140,17 @@ export default function DocUtilityBar({
         hash: location.hash,
       })
     }
-  }, [hasAdvanced, advancedOpen, reviewOpen, location.hash, location.pathname, location.search, history])
+  }, [
+    hasAdvanced,
+    hasTherapeutic,
+    advancedOpen,
+    therapeuticOpen,
+    reviewOpen,
+    location.hash,
+    location.pathname,
+    location.search,
+    history,
+  ])
 
   useEffect(() => {
     if (reviewOpen) {
@@ -115,14 +162,19 @@ export default function DocUtilityBar({
       window.addEventListener("keydown", onKey)
       return () => window.removeEventListener("keydown", onKey)
     }
-    if (!advancedOpen) return
+    const panelId = therapeuticOpen
+      ? "therapeutic-area-research-panel"
+      : advancedOpen
+        ? "advanced-nutrition-panel"
+        : null
+    if (!panelId) return
     const id = location.hash.replace(/^#/, "")
     const target = id ? document.getElementById(id) : null
     if (target) {
       target.scrollIntoView({block: "start"})
     } else {
       const heading = document.querySelector<HTMLElement>(
-        "#advanced-nutrition-panel h2, #advanced-nutrition-panel h3",
+        `#${panelId} h2, #${panelId} h3`,
       )
       heading?.focus()
     }
@@ -131,13 +183,14 @@ export default function DocUtilityBar({
     }
     window.addEventListener("keydown", onKey)
     return () => window.removeEventListener("keydown", onKey)
-  }, [reviewOpen, advancedOpen, location.hash])
+  }, [reviewOpen, advancedOpen, therapeuticOpen, location.hash])
 
   const tabIds = [
     ...(showContentTabs
       ? [
           "nutritional-highlights-tab",
           ...(hasAdvanced ? ["advanced-nutrition-tab"] : []),
+          ...(hasTherapeutic ? ["therapeutic-area-research-tab"] : []),
         ]
       : []),
     ...(showReviewTab ? ["review-corrections-tab"] : []),
@@ -209,6 +262,37 @@ export default function DocUtilityBar({
                 Not yet activated
               </span>
             )}
+            <button
+              type="button"
+              id="therapeutic-area-research-tab"
+              className={clsx(
+                styles.tab,
+                therapeuticOpen && styles.tabSelected,
+                !hasTherapeutic && styles.tabDisabled,
+              )}
+              role="tab"
+              aria-selected={therapeuticOpen}
+              aria-disabled={!hasTherapeutic}
+              aria-controls={hasTherapeutic ? "therapeutic-area-research-panel" : undefined}
+              aria-describedby={
+                hasTherapeutic ? undefined : "therapeutic-area-research-tab-status"
+              }
+              tabIndex={hasTherapeutic ? (therapeuticOpen ? 0 : -1) : -1}
+              onClick={(event) => {
+                if (!hasTherapeutic) {
+                  event.preventDefault()
+                  return
+                }
+                setContentTab("therapeutic")
+              }}
+            >
+              Therapeutic Area Research
+            </button>
+            {hasTherapeutic ? null : (
+              <span id="therapeutic-area-research-tab-status" className={styles.srOnly}>
+                Not yet activated
+              </span>
+            )}
           </div>
         ) : (
           <div />
@@ -230,20 +314,30 @@ export default function DocUtilityBar({
           </div>
         ) : null}
       </div>
-      <div className={clsx((reviewOpen || advancedOpen) && styles.hiddenMain)}>
+      <div className={clsx((reviewOpen || advancedOpen || therapeuticOpen) && styles.hiddenMain)}>
         {children}
       </div>
       {reviewOpen ? (
         <PageReviewPanel page={page} panelId="review-corrections-panel" />
       ) : null}
-      {advancedOpen && advancedSlot?.content ? (
+      {advancedOpen && contentSlots?.panels.advanced ? (
         <div
           id="advanced-nutrition-panel"
           className={styles.advancedPanel}
           role="tabpanel"
           aria-labelledby="advanced-nutrition-tab"
         >
-          {advancedSlot.content}
+          {contentSlots.panels.advanced}
+        </div>
+      ) : null}
+      {therapeuticOpen && contentSlots?.panels.therapeutic ? (
+        <div
+          id="therapeutic-area-research-panel"
+          className={styles.advancedPanel}
+          role="tabpanel"
+          aria-labelledby="therapeutic-area-research-tab"
+        >
+          {contentSlots.panels.therapeutic}
         </div>
       ) : null}
     </>

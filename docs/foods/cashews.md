@@ -63,15 +63,17 @@ legacy_main_image: /img/foods/cashews/cashews_medium.webp
 ---
 ## Overview
 
-Cashews provide plant protein, **magnesium**, **zinc**, and unsaturated fats in a tree-nut matrix [1]. Soaking and sprouting can reduce **phytates**, improving mineral bioavailability from nuts and seeds [1].
+Cashews provide plant protein, **magnesium**, **zinc**, and unsaturated fats in a tree-nut matrix. Soaking and sprouting can reduce **phytates**, improving mineral bioavailability from nuts and seeds.
 
 Within the BRAIN Diet framework, cashews are a lysine-limited plant protein source paired with legumes or grains for amino-acid complementarity.
+
 ## Key Nutritional Highlights
 
 - Magnesium and zinc in a tree-nut matrix; typical portions are 30–40 g, not 100 g.
 - Lysine-limited plant protein; pair with legumes for amino-acid balance.
-- Soaking/sprouting reduces phytates and can improve mineral bioavailability [1].
+- Soaking/sprouting reduces phytates and can improve mineral bioavailability.
 - Unsaturated fat source; energy-dense — portion control matters.
+
 ## Food Context
 
 ### Synergies
@@ -103,5 +105,3 @@ Pair with legumes or grains to complete essential amino acid coverage.
 <FoodSubstancesFromTable details={frontMatter} />
 
 ## References
-
-[1] Soaking/sprouting reduces phytates and can improve mineral bioavailability. Greiner & Konietzny 1999. [Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)

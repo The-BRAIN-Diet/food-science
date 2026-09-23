@@ -26,6 +26,10 @@ hide_title: true
 
 Maintain efficient mitochondrial energy production, fuel flexibility, and organelle resilience so the brain sustains cognitive performance, adapts to varying metabolic demands, and recovers from oxidative and energetic strain without accumulating bioenergetic debt.
 
+## Rationale for inclusion as a distinct BRS
+
+Mitochondrial bioenergetics was defined as a distinct BRS because it coordinates cellular ATP generation, redox-stable organelle function, substrate-utilisation flexibility and adaptive capacity expansion. Synaptic signalling and recovery are energetically expensive; electron-transport function, fuel handling and mitochondrial resilience jointly determine whether those costs can be met. BRS4 is therefore represented as an energetic enabling system: constraints in ATP supply or organelle recovery can limit neurotransmitter work and amplify oxidative load, while stress and glucose instability can reach mitochondria from BRS6. It is not presented as a universal energy-deficit explanation for brain-related conditions, but as a coherent, diet-responsive bioenergetic system with biologically traceable dependencies across the wider regulatory network.
+
 ## Therapeutic Area Research
 
 <p class="brs-hub-ta-research-intro">ADHD is the first fully mapped therapeutic area within the BRAIN Framework, providing a proof of concept for an adaptive biological architecture linking nutrition, biology and function. The same framework is designed to expand across additional therapeutic areas through the shared <a href="/docs/phenomes/">Phenome Registry</a>.</p>
@@ -502,28 +506,28 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS4 → BRS1) Bioenergetic Support for Neurotransmission</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="0" aria-label="Open: (BRS4 → BRS1) Bioenergetic Support for Neurotransmission">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs4-to-brs1" aria-label="Open: (BRS4 → BRS1) Bioenergetic Support for Neurotransmission">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="1" aria-label="Open: (BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs5-to-brs4" aria-label="Open: (BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="2" aria-label="Open: (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs6-to-brs4" aria-label="Open: (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
 </ul>
@@ -538,10 +542,10 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS4 → BRS1) Bioenergetic Support for Neurotransmission</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS4 → BRS1) Bioenergetic Support for Neurotransmission">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs4-to-brs1" aria-label="Open (BRS4 → BRS1) Bioenergetic Support for Neurotransmission">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -556,6 +560,7 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015">Picard, 2015</a> — Reframed mitochondria as dynamic signalling and energetic organelles that coordinate cellular energetics with neuronal activity, supporting the interpretation of BRS4 as an upstream enabling system preserving BRS1 adaptive performance.</p></li>
 </ul>
 
+
 </div>
 </div>
 </div>
@@ -567,10 +572,10 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs5-to-brs4" aria-label="Open (BRS5 → BRS4) Gut-Metabolic Inputs to Mitochondrial Energetics">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -585,6 +590,7 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Synthesised microbial metabolite signalling intersecting metabolic and neuroendocrine adaptive regulation — supporting the interpretation of BRS5 as an upstream enabler of BRS4 bioenergetic performance.</p></li>
 </ul>
 
+
 </div>
 </div>
 </div>
@@ -596,10 +602,10 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs6-to-brs4" aria-label="Open (BRS6 → BRS4) Neuroendocrine Control of Bioenergetic Recovery">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -613,6 +619,7 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014">Picard et al., 2014</a> — Proposed mitochondrial allostatic load as the subcellular mechanism through which glucocorticoids, glucose imbalance and chronic stress damage bioenergetic capacity — supporting the BRS6 ↔ BRS4 adaptive bridge within the framework.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#mcewen_stress_mediators_2006">McEwen, 2006</a> — Established allostasis and allostatic load as frameworks for cumulative biological wear under stress-mediated metabolic allocation — supporting the interpretation that BRS6 coordinates systemic load that constrains BRS4 recovery capacity.</p></li>
 </ul>
+
 
 </div>
 </div>

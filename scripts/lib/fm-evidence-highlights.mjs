@@ -12,6 +12,7 @@ import {
   blocksToEvidenceEntries,
 } from "./evidence-highlights-render.mjs";
 import { FM_EVIDENCE_HIGHLIGHTS } from "../data/fm-evidence-highlights.mjs";
+import { hasScientificFindings, rollUpFindings } from "./scientific-findings.mjs";
 
 export const FM_EVIDENCE_PLACEHOLDER_RE = /Expand with FM-level evidence during review/;
 
@@ -38,6 +39,27 @@ function repoPath(rootDir, href) {
   return path.join(rootDir, "docs/biological-targets", `${rel}.mdx`);
 }
 
+/**
+ * PMs carrying the canonical Scientific Finding model roll up from front matter
+ * (the durable source) rather than by parsing the generated body, so a
+ * corrected or retracted Finding cannot survive at FM level.
+ */
+function pmFindingEntries(data) {
+  if (!hasScientificFindings(data)) return null;
+  return rollUpFindings(data.scientific_findings).map((finding) => ({
+    // Compact reference — the canonical record stays on the PM page at §4.1.
+    title: `${finding.id} — ${finding.finding_label || finding.finding_statement}`,
+    sec: finding.synthesised_evidence_confidence,
+    rationale: finding.synthesis,
+    references: (finding.evidence_considered || []).map((item) => ({
+      label: item.label,
+      citation_key: item.citation_key,
+      href: item.href,
+      data_level: item.data_level,
+    })),
+  }));
+}
+
 function collectPmEvidenceEntries(rootDir, pms, pmCount) {
   const perPm = pmCount === 1 ? 3 : 2;
   const max = pmCount === 1 ? 3 : 4;
@@ -47,7 +69,8 @@ function collectPmEvidenceEntries(rootDir, pms, pmCount) {
     if (!filePath || !fs.existsSync(filePath)) continue;
     const { data, content } = matter(fs.readFileSync(filePath, "utf8"));
     const refKeys = parseReferenceNoteKeys(data.references);
-    for (const entry of extractPmEvidenceEntries(content, refKeys).slice(0, perPm)) {
+    const pmEntries = pmFindingEntries(data) || extractPmEvidenceEntries(content, refKeys);
+    for (const entry of pmEntries.slice(0, perPm)) {
       if (out.length >= max) return out;
       out.push(entry);
     }

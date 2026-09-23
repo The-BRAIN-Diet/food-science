@@ -23,8 +23,10 @@ const root = process.cwd();
 function parseArgs() {
   const args = process.argv.slice(2);
   const brsIdx = args.indexOf("--brs");
+  const fmIdx = args.indexOf("--fm");
   return {
     brs: brsIdx === -1 ? null : args[brsIdx + 1]?.toUpperCase(),
+    fm: fmIdx === -1 ? null : args[fmIdx + 1]?.toUpperCase(),
     dryRun: args.includes("--dry-run"),
     force: args.includes("--force"),
     placeholderOnly: args.includes("--placeholder-only"),
@@ -39,13 +41,17 @@ function fmMatchesBrs(data, brs) {
 }
 
 function main() {
-  const { brs, dryRun, force, placeholderOnly } = parseArgs();
+  const { brs, fm, dryRun, force, placeholderOnly } = parseArgs();
   let files = listMechanismMdxFiles(root, "fm");
   if (brs) {
     files = files.filter((f) => {
       const { data } = readMechanismPage(f);
       return fmMatchesBrs(data, brs);
     });
+  }
+  // Re-roll a single FM without disturbing its siblings.
+  if (fm) {
+    files = files.filter((f) => String(readMechanismPage(f).data.fm_id || "").toUpperCase() === fm);
   }
 
   let updated = 0;

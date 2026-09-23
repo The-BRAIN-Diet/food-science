@@ -51,15 +51,7 @@ legacy_main_image: /img/foods/oregano/oregano_medium.webp
 
 Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals.
 
-Within the BRAIN Diet framework, overgrowth suppression (SIBO, Candida, Pathobionts) strategies include polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger) [1][2].
-## Key Nutritional Highlights
-
-
-- Culinary herb polyphenols including oregano contribute antioxidant and antimicrobial bioactivity [1]
-- Herbs and spices are concentrated sources of polyphenol bioactives in Mediterranean-style diets [2]
-- Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals. [1]
-- Overgrowth suppression (SIBO, Candida, Pathobionts) strategies include polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger). [2]
-- Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals.
+Within the BRAIN Diet framework, overgrowth suppression (SIBO, Candida, Pathobionts) strategies include polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger).
 
 ## Food Context
 

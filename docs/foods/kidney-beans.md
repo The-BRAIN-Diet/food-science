@@ -60,13 +60,10 @@ legacy_main_image: /img/foods/kidney-beans/kidney-beans_medium.webp
 
 Kidney beans provide plant protein, polyphenols, and prebiotic fiber, supporting gut health and neurotransmitter synthesis. Kidney beans have a DIAAS score of 60-65, indicating they are methionine-limited and should be paired with grains for complete amino acid profile.
 
-Within the BRAIN Diet framework, kidney beans are polyphenol-rich and support gut health through prebiotic fiber and polyphenol effects on the microbiome [1].
+Within the BRAIN Diet framework, kidney beans are polyphenol-rich and support gut health through prebiotic fiber and polyphenol effects on the microbiome .
+
 ## Key Nutritional Highlights
 
-
-- Reports on purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa) [1]
-- Kidney beans provide plant protein, polyphenols, and prebiotic fiber, supporting gut health and neurotransmitter synthesis. [1]
-- Kidney beans have a DIAAS score of 60-65, indicating they are methionine-limited and should be paired with grains for complete amino acid profile.
 - Kidney beans are polyphenol-rich and support gut health through prebiotic fiber and polyphenol effects on the microbiome.
 
 ## Food Context
@@ -106,4 +103,3 @@ Kidney Beans are rich in lysine but relatively low in sulfur-containing amino ac
 
 ## References
 
-[1] Soaking and sprouting reduces phytates in legumes/grains, improving non-heme iron and zinc bioavailability. Greiner & Konietzny 1999. [Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)

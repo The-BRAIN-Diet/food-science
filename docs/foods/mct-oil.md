@@ -72,15 +72,7 @@ nutrition_supplementary_sources:
 
 MCT oil is concentrated medium-chain triglycerides (C6, C8, C10) providing rapid energy for the brain and supporting ketone production. It contains caprylic triglyceride (C8), capric triglyceride (C10), and caproic triglyceride (C6).
 
-Within the BRAIN Diet framework, coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, and supports ketone production [1][2].
-## Key Nutritional Highlights
-
-
-- Medium-chain triglycerides are rapidly oxidised and studied in ketogenic and metabolic contexts [1]
-- Ketogenic substrates including MCTs influence brain energy metabolism in clinical research [2]
-- MCT oil is concentrated medium-chain triglycerides (C6, C8, C10) providing rapid energy for the brain and supporting ketone production. [1]
-- It contains caprylic triglyceride (C8), capric triglyceride (C10), and caproic triglyceride (C6). [2]
-- Coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, and supports ketone production.
+Within the BRAIN Diet framework, coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, and supports ketone production.
 
 ## Food Context
 

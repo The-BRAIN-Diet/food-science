@@ -43,15 +43,7 @@ legacy_main_image: /img/foods/fermented-hot-sauce/fermented-hot-sauce_medium.web
 
 Fermented hot sauce is made by fermenting chilli peppers (often with garlic, salt, and sometimes other vegetables) before blending into a pourable sauce.
 
-Within the BRAIN Diet framework, as with other fermented vegetable products, the fermentation step produces organic acids and flavour compounds; many versions are unpasteurised and used in small amounts as a condiment on otherwise whole-food meals [1][2].
-## Key Nutritional Highlights
-
-
-- Fermented foods can modulate gut–brain signalling through microbiota and metabolite pathways [1]
-- Fermentation-derived products contribute organic acids and microbial metabolites alongside capsaicin-rich matrices [2]
-- Fermented hot sauce is made by fermenting chilli peppers (often with garlic, salt, and sometimes other vegetables) before blending into a pourable sauce. [1]
-- As with other fermented vegetable products, the fermentation step produces organic acids and flavour compounds; many versions are unpasteurised and used in small amounts as a condiment on otherwise whole-food meals. [2]
-- Fermented hot sauce is made by fermenting chilli peppers (often with garlic, salt, and sometimes other vegetables) before blending into a pourable sauce.
+Within the BRAIN Diet framework, as with other fermented vegetable products, the fermentation step produces organic acids and flavour compounds; many versions are unpasteurised and used in small amounts as a condiment on otherwise whole-food meals.
 
 ## Food Context
 

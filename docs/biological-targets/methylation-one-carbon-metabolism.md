@@ -20,11 +20,15 @@ hide_title: true
 
 ## BRS2 - Methylation & One-Carbon Metabolism
 
-(Gene Regulation, Membrane Integrity & Neurochemical Support)
+(Gene Regulation, Redox Coupling and Membrane Synthesis)
 
 ## Ambition
 
 Maintain efficient one-carbon metabolism so the brain can sustain methylation capacity, membrane phospholipid renewal, neurotransmitter-relevant chemistry, glutathione formation, and adaptive epigenetic regulation without accumulating homocysteine or depleting methyl-donor reserves.
+
+## Rationale for inclusion as a distinct BRS
+
+One-carbon metabolism was defined as a distinct BRS because it coordinates a shared, nutritionally sensitive biochemical infrastructure linking folate- and methionine-cycle activity with SAMe-dependent methyl-group transfer, homocysteine remethylation, transsulfuration-linked glutathione synthesis, and phosphatidylcholine production. These interconnected processes contribute to methylation-dependent regulation, redox defence, and neural membrane maintenance. BRS2 is therefore represented primarily as an upstream enabling system: constraints within its substrate and cofactor pools can propagate into neurotransmitter regulation, inflammatory–redox biology, and membrane integrity. It is not presented as a universal methylation-based explanation for brain-related conditions, but as a coherent, diet-responsive system with biologically traceable dependencies across the wider regulatory network.
 
 ## Therapeutic Area Research
 
@@ -435,20 +439,20 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 <ul class="brs-fm-hub-group-title-list">
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
-  <span class="brs-fm-hub-group-title-text">(BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="0" aria-label="Open: (BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology">
+  <span class="brs-fm-hub-group-title-text">(BRS2 → BRS1) One-Carbon Support for Neurotransmitter Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs2-to-brs1" aria-label="Open: (BRS2 → BRS1) One-Carbon Support for Neurotransmitter Regulation">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS2 → BRS3) One-Carbon to Redox Coupling</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="1" aria-label="Open: (BRS2 → BRS3) One-Carbon to Redox Coupling">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs2-to-brs3" aria-label="Open: (BRS2 → BRS3) One-Carbon to Redox Coupling">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
 </ul>
@@ -459,14 +463,14 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 <div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="0">
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
-<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS2 → BRS1) One-Carbon Support for Neurotransmitter Regulation">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
-<strong class="brs-fm-hub-title">(BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology">
+<strong class="brs-fm-hub-title">(BRS2 → BRS1) One-Carbon Support for Neurotransmitter Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs2-to-brs1" aria-label="Open (BRS2 → BRS1) One-Carbon Support for Neurotransmitter Regulation">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -477,9 +481,10 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 <p>Together, the Functional Mechanisms within BRS2 maintain methylation cycle efficiency, transsulfuration-linked redox coupling and methylation–membrane integrity required to sustain methyl-donor reserves, cofactor chemistry and membrane-related neurochemical support during prolonged physiological demand. Rather than acting through a single biosynthetic step, these integrated capacities collectively preserve the cofactor and methylation context required for stable neurotransmitter regulation within BRS1.</p>
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021">Fanet et al., 2021</a> — Established that essential cofactor chemistry underpins central monoamine synthesis and neurotransmitter-regulatory capacity — supporting the framework interpretation that BRS2 cofactor reserves may become a principal rate-limiting constraint on monoaminergic regulation when one-carbon metabolism is strained.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Demonstrated that B-vitamin-dependent one-carbon metabolism supports brain neurochemical synthesis — supporting the interpretation of BRS2 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996">Chiang et al., 1996</a> — Reviews S-adenosylmethionine as the principal cellular methyl donor and its roles in transmethylation pathways.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Reviews B-vitamin involvement in one-carbon metabolism and brain function; it does not establish a clinical BRS2 → BRS1 effect.</p></li>
 </ul>
+
 
 </div>
 </div>
@@ -492,10 +497,10 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS2 → BRS3) One-Carbon to Redox Coupling</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS2 → BRS3) One-Carbon to Redox Coupling">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs2-to-brs3" aria-label="Open (BRS2 → BRS3) One-Carbon to Redox Coupling">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -509,6 +514,7 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017">Kumar et al., 2017</a> — Described transsulfuration flux from homocysteine to cysteine and glutathione — supporting the framework interpretation that BRS2 substrate routing enables BRS3 redox defence capacity.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996">Chiang et al., 1996</a> — Established one-carbon flux allocation as a determinant of downstream transsulfuration and cellular redox chemistry — supporting the interpretation of BRS2 as an upstream enabling system for BRS3 antioxidant resilience.</p></li>
 </ul>
+
 
 </div>
 </div>
@@ -527,3 +533,7 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 Specific Mechanisms (SMs) are interpretation layers — context-specific readings of stable BRS2 biology grounded in connected PMs, FMs, and KCs. They provide additional biological context for applying the BRAIN Framework. Current SM categories include **SM-SNP** (genetic variation), **SM-CROSS** (multi-BRS interpretive concepts), **SM-Male** and **SM-Female** (sex-specific biology), **SM-Lifestage** (e.g. childhood, pregnancy, older adulthood), and **SM-Pattern** (e.g. vegan, vegetarian, ketogenic). Functional phenotype interpretation is handled via the [Phenome Registry](/docs/phenomes/) rather than SM-PHEN pages. Individual SMs may be combined to create richer biological profiles and support future precision-nutrition applications.
 
 - [BRS2(SM-SNP1) — Genetic Modifiers of One-Carbon Metabolism](/docs/biological-targets/brs2/sm/brs2-sm-snp1-snp-sensitive-methylation-efficiency)
+
+## Future development {#future-development}
+
+One-carbon metabolism also contributes to nucleotide synthesis and the maintenance of DNA synthesis and repair. These functions are biologically relevant to cellular renewal and genomic stability but are not represented by dedicated Primary Mechanisms within Version 1.0. Their relationship with the existing BRS2 architecture and connected phenomic domains will be evaluated in a future framework revision.

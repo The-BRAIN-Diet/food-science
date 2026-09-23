@@ -3,7 +3,7 @@
  * Validates food pages against system/food-page-model.md (baseline)
  * and optionally system/food-page-schema.md (--canonical).
  */
-import { runValidation, runCanonicalValidation, FOODS_DIR_DEFAULT } from "./lib/food-page-validation.mjs"
+import { runValidation, runCanonicalValidation, runCitationIntegrityValidation, FOODS_DIR_DEFAULT } from "./lib/food-page-validation.mjs"
 import {
   printTruthLevelReport,
   runTruthLevelValidation,
@@ -77,6 +77,39 @@ function main() {
   printTruthLevelReport(truthReport)
   if (truthLevelHasFailures(truthReport)) {
     exitCode = 1
+  }
+
+  const citation = runCitationIntegrityValidation(foodsDir, slug)
+  console.log("--- Food-page citation integrity (flags; does not rewrite) ---\n")
+  if (citation.hard.length) {
+    exitCode = 1
+    console.log(`FAIL: ${citation.hard.length} page(s) still carry generator signatures:`)
+    for (const { slug: s, issues } of citation.hard) {
+      console.log(`  ${s}.md:`)
+      for (const issue of issues) {
+        console.log(`    - ${issue.id} (${issue.where}): ${issue.excerpt}`)
+      }
+    }
+    console.log("")
+  } else {
+    console.log("OK: No Reports-on Highlights, abstract boilerplate, LaTeX debris, or split citations.\n")
+  }
+  if (citation.warnings.length) {
+    console.log(`WARN: ${citation.warnings.length} page(s) need editorial relevance review:`)
+    for (const { slug: s, issues } of citation.warnings.slice(0, 25)) {
+      console.log(`  ${s}.md: ${issues.map((i) => i.id).join(", ")}`)
+    }
+    if (citation.warnings.length > 25) {
+      console.log(`  … ${citation.warnings.length - 25} more`)
+    }
+    console.log("")
+  }
+  if (citation.identical.length) {
+    console.log(`WARN: ${citation.identical.length} identical Highlights bullet(s) repeated across foods.`)
+    for (const hit of citation.identical.slice(0, 10)) {
+      console.log(`  ${hit.excerpt}`)
+    }
+    console.log("")
   }
 
   if (exitCode === 0) {

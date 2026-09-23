@@ -169,14 +169,14 @@ When cacao powder contributes meaningfully to protein intake in a meal, pair wit
 
 ## References
 
-[1] If used in baked or heated recipes, expect flavour and bioactive profile to shift with temperature and process. Payne & Hurst 2011. [Impact of fermentation, drying, roasting and Dutch processing on flavan-3-ol stereochemistry in cacao beans and cocoa ingredients](/docs/papers/BRAIN-Diet-References#paynter_flavan3ol_cocoa_processing_2011)
+[1] Payne et al. (2011). [Impact of fermentation, drying, roasting and Dutch processing on flavan-3-ol stereochemistry in cacao beans and cocoa ingredients](/docs/papers/BRAIN-Diet-References#paynter_flavan3ol_cocoa_processing_2011). If used in baked or heated recipes, expect flavour and bioactive profile to shift with temperature and process.
 
-[2] Mechanistic and clinical work links cocoa flavanol intake — particularly epicatechin — to vascular function endpoints. Schroeter & Heiss 2006. [(-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
+[2] Schroeter et al. (2006). [(-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006). Mechanistic and clinical work links cocoa flavanol intake — particularly epicatechin — to vascular function endpoints.
 
-[3] High-flavonoid dietary patterns have been associated with cognitive improvements in controlled feeding studies. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+[3] Neshatdoust et al. (2016). [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016). High-flavonoid dietary patterns have been associated with cognitive improvements in controlled feeding studies.
 
-[4] Introduction Contamination of cocoa containing products, such as dark chocolate, with heavy metals including lead, cadmium and arsenic has been reported in the US. Hands & Anderson 2024. [A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
+[4] Hands et al. (2024). [A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
 
-[5] Select low-Cd/Pb origins with published contaminant testing where available; Latin American origins often show higher cadmium than West African beans, mainly reflecting soil geology. Godebo & Stoner 2024. [Occurrence of heavy metals coupled with elevated levels of essential elements in chocolates: Health risk assessment](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024)
+[5] Godebo et al. (2024). [Occurrence of heavy metals coupled with elevated levels of essential elements in chocolates: Health risk assessment](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024). Select low-Cd/Pb origins with published contaminant testing where available; Latin American origins often show higher cadmium than West African beans, mainly reflecting soil geology.
 
-[6] Pair with calcium- and zinc-containing foods as part of a broader strategy that may help reduce cadmium uptake over time. Zhai & Narbad 2015. [Dietary Strategies for the Treatment of Cadmium and Lead Toxicity](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)
+[6] Zhai et al. (2015). [Dietary Strategies for the Treatment of Cadmium and Lead Toxicity](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015). Pair with calcium- and zinc-containing foods as part of a broader strategy that may help reduce cadmium uptake over time.

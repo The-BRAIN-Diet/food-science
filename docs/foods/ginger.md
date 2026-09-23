@@ -56,15 +56,11 @@ legacy_main_image: /img/foods/ginger/ginger_medium.webp
 
 Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects, and prokinetic properties helpful for SIBO management.
 
-Within the BRAIN Diet framework, ginger supports gut-brain axis support and anti-inflammatory effects at 1–2 g/day fresh or powdered root, and many members of the Zingiberaceae family (which includes ginger, turmeric, and galangal) have pleiotropic effects overlapping between metabolic regulation and neurocognitive outcomes [1][2].
+Within the BRAIN Diet framework, ginger supports gut-brain axis support and anti-inflammatory effects at 1–2 g/day fresh or powdered root, and many members of the Zingiberaceae family (which includes ginger, turmeric, and galangal) have pleiotropic effects overlapping between metabolic regulation and neurocognitive outcomes.
+
 ## Key Nutritional Highlights
 
-
-- Culinary herbs and spices including ginger contribute bioactive polyphenols with anti-inflammatory relevance [1]
-- Plant-derived bioactives influence gut microbiota composition linked to gut–brain axis pathways [2]
-- Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects, and prokinetic properties helpful for SIBO management. [1]
 - Ginger supports gut-brain axis support and anti-inflammatory effects at 1–2 g/day fresh or powdered root, and many members of the Zingiberaceae family (which includes ginger, turmeric, and galangal) have pleiotropic effects overlapping b… [2]
-- Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects, and prokinetic properties helpful for SIBO management.
 
 ## Food Context
 

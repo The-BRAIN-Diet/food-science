@@ -58,15 +58,7 @@ legacy_main_image: /img/foods/leeks/leeks_medium.webp
 
 Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity.
 
-Within the BRAIN Diet framework, fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus, and are part of the allium family with prebiotic benefits [1][2].
-## Key Nutritional Highlights
-
-
-- Allium vegetables including leeks supply organosulfur compounds and prebiotic fructans [1]
-- Fermentable fibres from alliums support beneficial gut microbiota taxa [2]
-- Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity. [1]
-- Fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus, and are part of the allium family with prebiotic benefits. [2]
-- Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity.
+Within the BRAIN Diet framework, fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus, and are part of the allium family with prebiotic benefits.
 
 ## Food Context
 

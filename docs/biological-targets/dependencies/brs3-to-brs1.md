@@ -8,23 +8,33 @@ hide_title: true
 
 # BRS3 → BRS1 — Inflammatory Modulation of Neurotransmitter Systems
 
-This page explains the **systems-level biological dependency** between BRS3 and BRS1. It is informed by literature, integrated BRS architecture, allostatic context, expert interpretation, and mechanistic evidence from PM pages — but it does **not** duplicate the canonical PM relationship graph.
+Inflammatory and redox conditions maintained in [BRS3](/docs/biological-targets/inflammation-oxidative-stress) can alter transmitter synthesis, kynurenine routing and receptor environments in [BRS1](/docs/biological-targets/neurotransmitter-regulation).
 
-For explicit PM-to-PM relationships, see **§6.2 Cross-BRS Mechanism Relationships** on individual Primary Mechanism pages.
+## Dependency
 
-## Biological Contribution
+BRS3 sets immune and oxidative operating conditions that can divert tryptophan into the kynurenine pathway, change cytokine tone and modify the redox setting of synapses. Those conditions can constrain monoaminergic signalling and excitation–inhibition balance without replacing BRS1 enzymatic regulation.
 
-Collectively, the Functional Mechanisms within BRS3 maintain the adaptive inflammatory and redox resilience required to preserve an immune environment that supports resilient neurotransmitter regulation within BRS1 during prolonged physiological demand.
+## Principal Routes
 
-## Systems Significance
+<div className="markdown-table-scroll">
 
-By preserving these immune-regulatory capacities, BRS3 functions as an upstream enabling system, reducing the likelihood that inflammatory and oxidative burden progressively constrain neurotransmitter regulation within BRS1 as allostatic load accumulates. Maintaining BRS3 therefore complements neurotransmitter precursor and cofactor biology by preserving the biological environment within which resilient neurotransmitter regulation can be sustained, rather than substituting for neurotransmitter regulation itself.
+| Route | Contribution to BRS1 | Relationship |
+| --- | --- | --- |
+| Kynurenine-pathway routing of tryptophan | Competes with serotonin synthesis and generates neuroactive kynurenine metabolites | Direct but context-dependent |
+| Cytokine and redox environment | Alters receptor, membrane and signalling conditions | Direct |
+| Stress-to-inflammation signalling | Can raise inflammatory load that then reaches BRS1 | Mediated through BRS6 (`BRS6 → BRS3 → BRS1`) |
 
-## Integrated Regulatory Capacity
+</div>
 
-Together, the Functional Mechanisms within BRS3 maintain proportionate inflammatory signalling, antioxidant defence, oxidative resilience and active inflammation resolution required to preserve immune and redox stability during prolonged physiological demand. Rather than acting through a single inflammatory pathway, these integrated capacities collectively regulate how immune and oxidative load influences the biological environment within which BRS1 sustains neurotransmitter regulation.
+## Network Interpretation
+
+BRS3 is not a neurotransmitter system. Immune activation can reach BRS1 directly through kynurenine and cytokine biology, or indirectly after [BRS6](/docs/biological-targets/metabolic-neuroendocrine-stress) stress signalling increases inflammatory load. Glutathione-centred redox support from [BRS2 → BRS3](/docs/biological-targets/dependencies/brs2-to-brs3) may further condition this environment.
+
+## Boundary and Evidence Status
+
+Kynurenine-pathway chemistry under immune activation is established. The BRS3 → BRS1 dependency is a framework reading of that chemistry. It does not establish that lowering inflammation restores neurotransmitter function or treats ADHD.
 
 ## Supporting Evidence
 
-- [Slavich & Irwin, 2014](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014) — Established that psychological and physiological stressors activate inflammatory signalling capable of reshaping central nervous system function through coordinated immune, neuroendocrine and neurochemical pathways. This supports the framework interpretation that chronic inflammatory activation can become a principal upstream constraint on BRS1 performance during sustained physiological demand.
-- [Savitz, 2020](/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019) — Demonstrated that immune activation reshapes neurotransmitter regulation through the kynurenine pathway and broader neuroimmune interactions, influencing both monoaminergic signalling and excitation–inhibition balance. This supports the BRAIN Framework interpretation that maintaining immune regulation preserves the biological environment required for resilient monoaminergic and excitation–inhibition regulation within BRS1.
+- [Savitz, 2020](/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019) — Reviews how immune activation reshapes neurotransmitter regulation through the kynurenine pathway and related neuroimmune interactions.
+- [Slavich and Irwin, 2014](/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014) — Reviews stress-to-inflammation signalling capable of reshaping central nervous system function; this supports a mediated BRS6 → BRS3 contribution rather than a BRS3-only origin.

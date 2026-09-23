@@ -75,9 +75,9 @@ nutrition_supplementary_sources:
 ---
 ## Overview
 
-Tuna is a lean fish providing **omega-3 fatty acids** (primarily EPA and DHA), **vitamin B3 (niacin)**, **selenium**, and highly digestible protein. These intrinsic nutrients support neuronal membrane composition, mitochondrial energy metabolism, and antioxidant enzyme systems [1]. Compared with oily fish such as salmon or mackerel, tuna is lower in total fat but still contributes marine omega-3s and micronutrients in relatively low-calorie portions.
+Tuna is a lean fish providing **omega-3 fatty acids** (primarily EPA and DHA), **vitamin B3 (niacin)**, **selenium**, and highly digestible protein. Marine long-chain omega-3s are a constituent of tuna flesh; reviews of those fatty acids in brain development and function provide constituent-level context rather than a tuna feeding trial [1]. Compared with oily fish such as salmon or mackerel, tuna is lower in total fat but still contributes marine omega-3s and micronutrients in relatively low-calorie portions.
 
-Within the BRAIN Diet framework, tuna is used as one component of a broader fish rotation rather than the sole marine protein source. Niacin-rich foods such as tuna contribute to NAD⁺-dependent metabolic pathways, while selenium participates in glutathione peroxidase and other antioxidant enzymes [1,2]. Because larger tuna species can accumulate higher levels of mercury, emphasis is placed on choosing lower-trophic species and moderating frequency within an overall pattern that includes smaller oily fish like sardines and herring [3].
+Within the BRAIN Diet framework, tuna is used as one component of a broader fish rotation rather than the sole marine protein source. Niacin-rich foods such as tuna contribute to NAD⁺-dependent metabolic pathways, while selenium participates in glutathione peroxidase and other antioxidant enzymes. Because larger tuna species can accumulate higher levels of mercury, emphasis is placed on choosing lower-trophic species and moderating frequency within an overall pattern that includes smaller oily fish like sardines and herring.
 
 ## Key Nutritional Highlights
 
@@ -116,8 +116,4 @@ This food provides a **complete essential amino acid profile** typical of animal
 
 ## References
 
-[1] These intrinsic nutrients support neuronal membrane composition, mitochondrial energy metabolism, and antioxidant enzyme systems. McNamara & Carlson 2006. [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006)
-
-[2] Niacin-rich foods such as tuna contribute to NAD⁺-dependent metabolic pathways. Pirinen & Auranen 2020. [Niacin and NAD⁺ metabolism in health and disease](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
-
-[3] Because larger tuna species can accumulate higher levels of mercury, emphasis is placed on choosing lower-trophic species and moderating frequency within an overall pattern that includes smaller oily fish like sardines and herring. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+[1] McNamara & Carlson (2006). [Omega-3 fatty acids in brain development, function, and psychopathology](/docs/papers/BRAIN-Diet-References#mcnamara_role_2006). Constituent-level review of long-chain omega-3 fatty acids in brain development and function; not a tuna feeding trial.

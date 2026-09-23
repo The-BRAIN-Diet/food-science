@@ -66,13 +66,10 @@ legacy_main_image: /img/foods/peanuts/peanuts_medium.webp
 
 Peanuts provide niacin (B3) for NAD+ synthesis, resveratrol (polyphenol), and plant protein supporting mitochondrial function and antioxidant networks. Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains.
 
-Within the BRAIN Diet framework, niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health [1].
+Within the BRAIN Diet framework, niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health .
+
 ## Key Nutritional Highlights
 
-
-- Reports on niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy [1]
-- Peanuts provide niacin (B3) for NAD+ synthesis, resveratrol (polyphenol), and plant protein supporting mitochondrial function and antioxidant networks. [1]
-- Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains.
 - Niacin-rich foods (e.g., salmon, chicken breast, turkey, peanuts, and mushrooms) support NAD+ availability, glutathione synthesis, and mitochondrial health.
 
 ## Food Context
@@ -115,4 +112,3 @@ Peanuts are rich in lysine but relatively low in sulfur-containing amino acids. 
 
 ## References
 
-[1] Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains. Pirinen & Auranen 2020. [Niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)

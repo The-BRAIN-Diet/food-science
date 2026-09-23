@@ -1,0 +1,3251 @@
+{
+  "generated_at": "2026-09-18T11:47:02.235Z",
+  "framing": "Mechanical remediation and recurrence prevention completed; scientific evidence validation ongoing.",
+  "substantive_prose_rewrites": [
+    {
+      "slug": "cabbage",
+      "file": "docs/foods/cabbage.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Cabbage is a cruciferous vegetable providing glucosinolates, vitamin C, folate, and fibre at very low energy density . Fermented cabbage (sauerkraut) delivers Lactobacillus-rich fermented vegetable matrices supporting gu"
+    },
+    {
+      "slug": "cacao-nibs-raw",
+      "file": "docs/foods/cacao-nibs-raw.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Raw cacao nibs are minimally processed cacao pieces rich in cocoa flavanols (epicatechin, catechin) and fibre, used as a bitter garnish . Flavanol retention is generally higher in minimally processed cacao than heavily a"
+    },
+    {
+      "slug": "carrots",
+      "file": "docs/foods/carrots.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [
+        "Carotenoids participate in antioxidant and neuroprotective dietary patterns ."
+      ],
+      "current_excerpt": "Carrots provide beta-carotene and other carotenoids at low energy density; carotenoid bioaccessibility from raw vegetables is limited and improved by cooking and co-ingested fat . Carotenoids such as lutein and zeaxanthi"
+    },
+    {
+      "slug": "cashews",
+      "file": "docs/foods/cashews.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Cashews provide plant protein, magnesium, zinc, and unsaturated fats in a tree-nut matrix. Soaking and sprouting can reduce phytates, improving mineral bioavailability from nuts and seeds. Within the BRAIN Diet framework"
+    },
+    {
+      "slug": "cauliflower",
+      "file": "docs/foods/cauliflower.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Cauliflower is a cruciferous vegetable providing glucosinolate-derived compounds, vitamin C, folate, and fibre at very low energy density . Crucifer isothiocyanates activate Nrf2-linked antioxidant gene networks . Within"
+    },
+    {
+      "slug": "chamomile-tea",
+      "file": "docs/foods/chamomile-tea.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Chamomile tea provides apigenin, a flavone that binds benzodiazepine-site receptors and is studied for calm and sleep-supportive effects . It is a caffeine-free herbal infusion used in evening wind-down patterns. Within "
+    },
+    {
+      "slug": "cheddar-cheese",
+      "file": "docs/foods/cheddar-cheese.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Cheddar cheese provides complete protein, calcium, vitamin B12, and zinc in a fermented dairy matrix . Fermented dairy foods contribute live and postbiotic bacterial metabolites relevant to gut microbiota patterns . With"
+    },
+    {
+      "slug": "chicken",
+      "file": "docs/foods/chicken.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Chicken provides niacin (vitamin B3) for NAD⁺ synthesis, zinc, and amino acids including tryptophan, supporting neurotransmitter synthesis and mitochondrial function. Niacin feeds NAD⁺ salvage pathways relevant to ATP pr"
+    },
+    {
+      "slug": "chickpeas",
+      "file": "docs/foods/chickpeas.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Chickpeas provide lysine-rich plant protein, fibre, folate, and iron in a legume matrix. Soaking and cooking reduce phytates, improving mineral bioavailability. Within the BRAIN Diet framework, chickpeas are methionine-l"
+    },
+    {
+      "slug": "chlorella",
+      "file": "docs/foods/chlorella.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Chlorella is a microalgae providing protein, chlorophyll, and bioavailable vitamin B12 (true cobalamin forms in validated preparations) unlike many spirulina products . It is used in supplement-scale portions for micronu"
+    },
+    {
+      "slug": "cinnamon",
+      "file": "docs/foods/cinnamon.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Cinnamon provides polyphenols (including proanthocyanidins) studied for glycaemic and metabolic endpoints . Cassia cinnamon contains coumarin — regular high intake may warrant Ceylon varieties for frequent use. Within th"
+    },
+    {
+      "slug": "clams",
+      "file": "docs/foods/clams.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Clams are bivalve shellfish providing complete protein together with notable amounts of vitamin B12, iron, zinc, and taurine. Among shellfish, clams and mussels are often highlighted for their taurine content, which cont"
+    },
+    {
+      "slug": "coconut-oil",
+      "file": "docs/foods/coconut-oil.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Coconut oil is a saturated-fat-rich oil high in medium-chain triglycerides (MCTs) used for culinary and ketogenic contexts . Saturated fat intake should remain within dietary upper limits . Within the BRAIN Diet framewor"
+    },
+    {
+      "slug": "cordyceps-mushroom",
+      "file": "docs/foods/cordyceps-mushroom.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Cordyceps mushrooms (including Cordyceps militaris cultivars) provide polysaccharides and cordycepin studied for energy-metabolism and immunomodulatory endpoints . They are used as a functional mushroom in extract or cul"
+    },
+    {
+      "slug": "dandelion-greens",
+      "file": "docs/foods/dandelion-greens.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health. Within the BRAIN Diet framework, they are part of a diverse leafy green intake strategy that supports gut microbiome diversity"
+    },
+    {
+      "slug": "dark-meat-poultry",
+      "file": "docs/foods/dark-meat-poultry.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling. Within the BRAIN Diet framework, taurine food sources include scallops, clams, dark-me"
+    },
+    {
+      "slug": "edamame",
+      "file": "docs/foods/edamame.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, plus complete plant protein and isoflavones. Within the BRAIN Diet framework, nicotinamide Mononucleotide (NMN) is a direct"
+    },
+    {
+      "slug": "egg-yolks",
+      "file": "docs/foods/egg-yolks.md",
+      "head_highlights": 4,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health. Within the BRAIN Diet framework, acety"
+    },
+    {
+      "slug": "eggs",
+      "file": "docs/foods/eggs.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [
+        "Protein profile: Complete essential amino acid profile .",
+        "Food Context Synergies - Pair with vegetables for carotenoid absorption (dietary fat enhances absorption of fat-soluble vitamins) Sourcing - Consider pasture-raised for higher omeg",
+        "Stable-isotope work reports roughly ~51% true ileal protein digestion and amino acid absorption for raw egg protein versus ~91% for cooked egg protein — heat strongly influences di",
+        "- A post-exercise trial (~30 g protein from five eggs) found boiled eggs raised peak essential amino acid concentrations more than raw eggs, but myofibrillar protein synthesis rate"
+      ],
+      "current_excerpt": "Eggs are a nutrient-dense source of complete protein, choline, B vitamins, and phospholipids. The yolk concentrates highly bioavailable lutein and zeaxanthin (xanthophyll carotenoids relevant to retinal and neural antiox"
+    },
+    {
+      "slug": "fermented-hot-sauce",
+      "file": "docs/foods/fermented-hot-sauce.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Fermented hot sauce is made by fermenting chilli peppers (often with garlic, salt, and sometimes other vegetables) before blending into a pourable sauce. Within the BRAIN Diet framework, as with other fermented vegetable"
+    },
+    {
+      "slug": "fortified-plant-milks",
+      "file": "docs/foods/fortified-plant-milks.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like B12, vitamin D, and sometimes iodine, helping close vegan nutrient gaps. Within the BRAIN Diet framework, targets foods providing essential "
+    },
+    {
+      "slug": "garlic",
+      "file": "docs/foods/garlic.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Garlic provides allicin (when crushed), sulfur compounds for glutathione synthesis, and prebiotic fiber supporting gut health and antioxidant defenses. Sulphur-containing vegetables that provide glutathione precursors (e"
+    },
+    {
+      "slug": "ghee",
+      "file": "docs/foods/ghee.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking. Within the BRAIN Diet framework, ghee provides butyrate, vitamins A/D/E/K2, is heat-stable, an"
+    },
+    {
+      "slug": "ginger",
+      "file": "docs/foods/ginger.md",
+      "head_highlights": 5,
+      "current_highlights": 1,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects, and prokinetic properties helpful for SIBO management. Within the BRAIN Diet framework, ginger supports gut-brain axis support and anti-in"
+    },
+    {
+      "slug": "grapes",
+      "file": "docs/foods/grapes.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-dependent processes and supporting mitochondrial function. Red and purple grape varieties additionally supply anthocyanins built on [Malvidin]"
+    },
+    {
+      "slug": "green-tea",
+      "file": "docs/foods/green-tea.md",
+      "head_highlights": 5,
+      "current_highlights": 5,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Green tea provides catechins (especially EGCG), L-theanine, and other polyphenols in a low-calorie brewed beverage. These intrinsic compounds support antioxidant defenses and are widely studied for cognitive and metaboli"
+    },
+    {
+      "slug": "herring",
+      "file": "docs/foods/herring.md",
+      "head_highlights": 5,
+      "current_highlights": 5,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Herring is a small oily fish providing high levels of long-chain omega-3 fatty acids EPA and DHA, vitamin D, trace minerals such as selenium, and highly bioavailable protein. These intrinsic nutrients contribute to neuro"
+    },
+    {
+      "slug": "jerusalem-artichokes",
+      "file": "docs/foods/jerusalem-artichokes.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth. Within the BRAIN Diet framework, jerusalem artichokes have the highest inulin con"
+    },
+    {
+      "slug": "kale",
+      "file": "docs/foods/kale.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Kale is a nutrient-dense leafy green providing iron, magnesium, zinc, quercetin, and carotenoids. The BRAIN diet specifically targets leafy green vegetables i.e. kale and spinach that are rich in iron, magnesium, and zin"
+    },
+    {
+      "slug": "kefir",
+      "file": "docs/foods/kefir.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Kefir is fermented milk providing diverse probiotics, including potential GABA-producing strains, and postbiotic compounds. Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic pe"
+    },
+    {
+      "slug": "kidney",
+      "file": "docs/foods/kidney.md",
+      "head_highlights": 5,
+      "current_highlights": 5,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Kidney is an organ meat that can contribute concentrated micronutrients (notably B vitamins and minerals), and is often used as part of a broader “offal rotation” rather than a daily staple. Reviews of edible offal highl"
+    },
+    {
+      "slug": "kimchi",
+      "file": "docs/foods/kimchi.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance. Within the BRAIN Diet framework, fermented f"
+    },
+    {
+      "slug": "kombucha",
+      "file": "docs/foods/kombucha.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Kombucha is fermented tea providing live probiotics, postbiotic compounds, and organic acids, supporting gut-brain axis communication. Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, kefir, m"
+    },
+    {
+      "slug": "leeks",
+      "file": "docs/foods/leeks.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity. Within the BRAIN Diet framework, fructooligosaccharides (FOS) are found in onions, garlic, leeks, a"
+    },
+    {
+      "slug": "lemon-balm-tea",
+      "file": "docs/foods/lemon-balm-tea.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Lemon balm tea is an herbal infusion that supports sleep and calm, often used in evening routines for ADHD sleep dysregulation. Within the BRAIN Diet framework, herbal teas such as chamomile for apigenin, lemon balm tea,"
+    },
+    {
+      "slug": "lentils",
+      "file": "docs/foods/lentils.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [
+        "Soaking, sprouting, and pairing with vitamin C–rich foods improves mineral bioavailability from lentil-based meals ."
+      ],
+      "current_excerpt": "Lentils are a staple legume providing plant protein, slowly digested carbohydrates, and substantial amounts of fibre, iron, zinc, magnesium, and folate. As a dry seed, they are nutrient-dense and shelf-stable, and when c"
+    },
+    {
+      "slug": "lions-mane-mushroom",
+      "file": "docs/foods/lions-mane-mushroom.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Lion's Mane mushroom (Hericium erinaceus) is a medicinal mushroom traditionally used in East Asian medicine. It contains bioactive compounds including hericenones and erinacines, which have been studied for their potenti"
+    },
+    {
+      "slug": "lupins",
+      "file": "docs/foods/lupins.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Lupins are legumes providing plant protein and fiber, part of diverse protein sources for vegan BRAIN Diet approaches. Within the BRAIN Diet framework, protein sources include legumes, fermented soy, lupins, Mankai, seed"
+    },
+    {
+      "slug": "mackerel",
+      "file": "docs/foods/mackerel.md",
+      "head_highlights": 5,
+      "current_highlights": 5,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Mackerel is an oily fish providing complete high-quality protein together with very high levels of long-chain omega-3 fatty acids EPA and DHA, as well as vitamin B12, selenium, and other trace minerals. These intrinsic c"
+    },
+    {
+      "slug": "maitake-mushroom",
+      "file": "docs/foods/maitake-mushroom.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Maitake mushroom (Grifola frondosa), also known as \"hen of the woods,\" is a medicinal mushroom valued for its immune-supporting properties. It is particularly rich in beta-glucans, with the D-fraction being a well-studie"
+    },
+    {
+      "slug": "mct-oil",
+      "file": "docs/foods/mct-oil.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "MCT oil is concentrated medium-chain triglycerides (C6, C8, C10) providing rapid energy for the brain and supporting ketone production. It contains caprylic triglyceride (C8), capric triglyceride (C10), and caproic trigl"
+    },
+    {
+      "slug": "milk",
+      "file": "docs/foods/milk.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (NAD+ precursor), and calcium, supporting mitochondrial function and bone health. Milk (skim) has a DIAAS score of 118, indicating balanced E"
+    },
+    {
+      "slug": "miso",
+      "file": "docs/foods/miso.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication. Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, k"
+    },
+    {
+      "slug": "mushrooms",
+      "file": "docs/foods/mushrooms.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "White/button mushroom (Agaricus bisporus) is the BRAIN Diet’s canonical generic entry for this species. The same fungus is sold under several market names that reflect maturity and cap colour, not a different species: Wh"
+    },
+    {
+      "slug": "mussels",
+      "file": "docs/foods/mussels.md",
+      "head_highlights": 5,
+      "current_highlights": 5,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Mussels are bivalve shellfish that provide substantial amounts of vitamin B12, iron, zinc, selenium, and long-chain omega-3 fatty acids. Compared with many terrestrial foods, mussels are particularly dense in B12 and bio"
+    },
+    {
+      "slug": "natto",
+      "file": "docs/foods/natto.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability. Within the BRAIN Diet framework, natto is fermented soybeans with unique Bacillus subtilis and"
+    },
+    {
+      "slug": "nori",
+      "file": "docs/foods/nori.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Nori is a red seaweed (Porphyra species) commonly used in sushi and Japanese cuisine. It is a primary dietary source of iodine, an essential trace mineral critical for thyroid function and brain development. Nori also pr"
+    },
+    {
+      "slug": "nutritional-yeast",
+      "file": "docs/foods/nutritional-yeast.md",
+      "head_highlights": 5,
+      "current_highlights": 1,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotinamide riboside (NAD+ precursor), helping close vegan nutrient gaps. Within the BRAIN Diet framework, fortified nutritional yeast (B12, B6) h"
+    },
+    {
+      "slug": "olive-oil",
+      "file": "docs/foods/olive-oil.md",
+      "head_highlights": 5,
+      "current_highlights": 1,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Regular olive oil (refined or blended) has significantly lower bioactive polyphenol content compared to extra virgin olive oil (EVOO). Olive oil's brain benefits come from polyphenols, not fatty acids. Regular olive oil "
+    },
+    {
+      "slug": "olives",
+      "file": "docs/foods/olives.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health. Within the BRAIN Diet framework, sources of MUFA include extra-virgin olive oil, avocado, olives, and nuts. Food Con"
+    },
+    {
+      "slug": "onions",
+      "file": "docs/foods/onions.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur compounds that support gut microbiome, antioxidant defenses, and glutathione synthesis. Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes"
+    },
+    {
+      "slug": "oranges",
+      "file": "docs/foods/oranges.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Oranges provide high vitamin C content that enhances non-heme iron absorption when paired with iron-rich plant foods. Within the BRAIN Diet framework, pairing plant-based iron sources with citrus enhances iron absorption"
+    },
+    {
+      "slug": "oregano",
+      "file": "docs/foods/oregano.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals. Within the BRAIN Diet framework, overgrowth suppression (SIBO, Candida, Pathobionts) "
+    },
+    {
+      "slug": "oyster-mushroom",
+      "file": "docs/foods/oyster-mushroom.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Oyster mushroom (Pleurotus ostreatus) is a popular culinary mushroom valued for its mild flavor, meaty texture, and nutritional benefits. It is rich in beta-glucans, polysaccharides that support immune function, and prov"
+    },
+    {
+      "slug": "oysters",
+      "file": "docs/foods/oysters.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Oysters are bivalve shellfish that provide high levels of zinc, vitamin B12, iron, and selenium, as well as modest amounts of omega-3 fatty acids. Among commonly eaten foods, oysters are notable for their zinc density, s"
+    },
+    {
+      "slug": "parmesan-cheese",
+      "file": "docs/foods/parmesan-cheese.md",
+      "head_highlights": 4,
+      "current_highlights": 0,
+      "removed_sentence_starts": [
+        "Pair with complementary protein sources (e.g.",
+        "grains and legumes) for a balanced essential amino acid profile."
+      ],
+      "current_excerpt": "Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 pentadecanoic acid, glutamate, high protein, and calcium. Evidence suggests hard cheeses with high calcium do not raise serum LDL levels, support"
+    },
+    {
+      "slug": "parsley",
+      "file": "docs/foods/parsley.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health. Within the BRAIN Diet framework, the strategy of simply adding parsley "
+    },
+    {
+      "slug": "peppermint",
+      "file": "docs/foods/peppermint.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Peppermint provides compounds that support mental clarity and alertness, useful for ADHD focus support. Within the BRAIN Diet framework, peppermint supports mental clarity and alertness and can be consumed as herbal tea "
+    },
+    {
+      "slug": "pistachios",
+      "file": "docs/foods/pistachios.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Pistachios provide CoQ10 (plant source), healthy fats, and protein, supporting mitochondrial function and antioxidant defenses. Coenzyme Q10 (CoQ10): Organ meats (heart, liver), oily fish (sardines, mackerel), beef, Spin"
+    },
+    {
+      "slug": "pomegranates",
+      "file": "docs/foods/pomegranates.md",
+      "head_highlights": 3,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Pomegranates provide ellagitannins that gut bacteria convert to urolithin A, supporting mitochondrial resilience, mitophagy, and cognitive function. They also contribute anthocyanins built on [Cyanidin](/docs/substances/"
+    },
+    {
+      "slug": "pork",
+      "file": "docs/foods/pork.md",
+      "head_highlights": 5,
+      "current_highlights": 5,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Pork is a widely consumed animal food that is particularly notable for thiamine (vitamin B1), zinc, and creatine, alongside other B vitamins and minerals. Thiamine is required for mitochondrial carbohydrate metabolism an"
+    },
+    {
+      "slug": "potatoes",
+      "file": "docs/foods/potatoes.md",
+      "head_highlights": 5,
+      "current_highlights": 2,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Potatoes provide complex carbohydrates, potassium, vitamin B6, and vitamin C. Their functional profile changes meaningfully by preparation and variety: cooked-then-cooled potatoes increase resistant starch through retrog"
+    },
+    {
+      "slug": "psyllium-husk",
+      "file": "docs/foods/psyllium-husk.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Psyllium husk is a concentrated, fibre-dominant food ingredient derived from Plantago seed husks and used primarily for its high soluble fibre content. Its nutritional identity is defined by very high dietary fibre with "
+    },
+    {
+      "slug": "quinoa",
+      "file": "docs/foods/quinoa.md",
+      "head_highlights": 6,
+      "current_highlights": 6,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Quinoa is a nutrient-dense pseudograin that provides complex carbohydrates, fibre, and a substantial plant-protein contribution, alongside magnesium, iron, zinc, folate, and choline . It is naturally gluten-free and can "
+    },
+    {
+      "slug": "raspberries",
+      "file": "docs/foods/raspberries.md",
+      "head_highlights": 5,
+      "current_highlights": 2,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Raspberries provide polyphenols—chiefly [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin)-based anthocyanins with [Pelargonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyan"
+    },
+    {
+      "slug": "reishi-mushroom",
+      "file": "docs/foods/reishi-mushroom.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Reishi mushroom (Ganoderma lucidum), known in China as Ling Zhi, is a medicinal mushroom with a long-standing reputation as a tonic for vitality. Unlike stimulants such as caffeine, Reishi works quietly and cumulatively,"
+    },
+    {
+      "slug": "rice",
+      "file": "docs/foods/rice.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Rice is a globally used staple carbohydrate. Within the BRAIN Diet, variant and processing often matter more than the word “rice” on a label: degree of milling, pigmentation (white, red, black), cultivar (e.g. basmati vs"
+    },
+    {
+      "slug": "saffron",
+      "file": "docs/foods/saffron.md",
+      "head_highlights": 6,
+      "current_highlights": 6,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Saffron is the dried stigma of Crocus sativus, prized as a culinary spice for its golden colour, honeyed aroma, and distinctive flavour. Its defining phytochemistry includes crocin (a carotenoid pigment), safranal (a vol"
+    },
+    {
+      "slug": "salmon",
+      "file": "docs/foods/salmon.md",
+      "head_highlights": 5,
+      "current_highlights": 5,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Salmon is an oily fish providing long-chain omega-3 fatty acids EPA and DHA, vitamin B12, selenium, the carotenoid astaxanthin, and high-quality protein. These intrinsic compounds support membrane phospholipid structure,"
+    },
+    {
+      "slug": "sardines",
+      "file": "docs/foods/sardines.md",
+      "head_highlights": 6,
+      "current_highlights": 6,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Sardines are small oily fish eaten whole, providing long-chain omega-3 fatty acids EPA and DHA, vitamin B12, selenium, calcium from the softened bones, and highly digestible protein. Because canned sardines typically inc"
+    },
+    {
+      "slug": "sauerkraut",
+      "file": "docs/foods/sauerkraut.md",
+      "head_highlights": 5,
+      "current_highlights": 5,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Sauerkraut is finely shredded raw cabbage preserved by lactic acid fermentation — the same broad pickling process used for traditional kimchi and lacto-fermented cucumbers. Airborne lactic acid bacteria on cabbage leaves"
+    },
+    {
+      "slug": "seaweed",
+      "file": "docs/foods/seaweed.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health. Within the BRAIN Diet framework, seaweed can be added to soups, stews, or salads and provides "
+    },
+    {
+      "slug": "shiitake-mushroom",
+      "file": "docs/foods/shiitake-mushroom.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Shiitake mushroom (Lentinula edodes) is both a popular culinary mushroom and a valued medicinal food. It is rich in beta-glucans, polysaccharides that support immune function, and provides a rich umami flavor to dishes. "
+    },
+    {
+      "slug": "soy-lecithin",
+      "file": "docs/foods/soy-lecithin.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery. Within the BRAIN Diet framework, precision sourcing of functional plant foods such as M"
+    },
+    {
+      "slug": "spelt",
+      "file": "docs/foods/spelt.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Spelt is an ancient wheat variety providing high asparagine and fiber, making it ideal for sourdough bread with optimized Maillard reaction products (MRPs). Within the BRAIN Diet framework, whole Spelt Flour has high asp"
+    },
+    {
+      "slug": "spinach",
+      "file": "docs/foods/spinach.md",
+      "head_highlights": 3,
+      "current_highlights": 0,
+      "removed_sentence_starts": [
+        "Experimental studies have shown that oxalate can influence mitochondrial and redox biology at the cellular level, although the relevance of these findings to typical dietary intake"
+      ],
+      "current_excerpt": "Spinach is a nutrient-dense leafy green vegetable providing folate, magnesium, iron, potassium, carotenoids (including lutein and zeaxanthin), nitrate compounds, fibre, and a range of polyphenolic phytochemicals. Within "
+    },
+    {
+      "slug": "strawberries",
+      "file": "docs/foods/strawberries.md",
+      "head_highlights": 5,
+      "current_highlights": 2,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Strawberries provide polyphenols—dominated by [Pelargonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/pelargonidin)-based anthocyanins, with [Cyanidin](/docs/substances/bioactive-compounds/polyphenol"
+    },
+    {
+      "slug": "sunflower-lecithin",
+      "file": "docs/foods/sunflower-lecithin.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering a soy-free alternative for those avoiding soy. Within the BRAIN Diet framework, vegans should ensure adequate choline intake (e.g., soy or s"
+    },
+    {
+      "slug": "sweet-potatoes",
+      "file": "docs/foods/sweet-potatoes.md",
+      "head_highlights": 4,
+      "current_highlights": 4,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Sweet potatoes are starchy roots that combine slow-digesting carbohydrate with meaningful fibre, potassium, and carotenoid density. Orange-fleshed varieties are especially relevant for beta-carotene, while also contribut"
+    },
+    {
+      "slug": "swiss-chard",
+      "file": "docs/foods/swiss-chard.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, and carotenoids. Similar to other leafy greens like kale and spinach, it supports neurotransmitter synthesis and antioxidant function. The BR"
+    },
+    {
+      "slug": "tofu",
+      "file": "docs/foods/tofu.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Tofu is a soy-based food providing complete plant protein, isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. Tofu is listed as a source for iron, choline, tryptophan, and ty"
+    },
+    {
+      "slug": "tomatoes",
+      "file": "docs/foods/tomatoes.md",
+      "head_highlights": 4,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Tomatoes provide lycopene (carotenoid), vitamin C, and demonstrate food matrix effects where cooking and fat pairing enhance carotenoid absorption. The bioaccessibility of carotenoids in vegetables is remarkably low—lyco"
+    },
+    {
+      "slug": "tuna",
+      "file": "docs/foods/tuna.md",
+      "head_highlights": 6,
+      "current_highlights": 6,
+      "removed_sentence_starts": [
+        "These intrinsic nutrients support neuronal membrane composition, mitochondrial energy metabolism, and antioxidant enzyme systems ."
+      ],
+      "current_excerpt": "Tuna is a lean fish providing omega-3 fatty acids (primarily EPA and DHA), vitamin B3 (niacin), selenium, and highly digestible protein. Marine long-chain omega-3s are a constituent of tuna flesh; reviews of those fatty "
+    },
+    {
+      "slug": "turkey-tail-mushroom",
+      "file": "docs/foods/turkey-tail-mushroom.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Turkey Tail mushroom (Trametes versicolor) is a common medicinal mushroom found worldwide, recognized by its colorful, banded appearance resembling a turkey's tail. It is particularly rich in polysaccharides, including p"
+    },
+    {
+      "slug": "turkey",
+      "file": "docs/foods/turkey.md",
+      "head_highlights": 6,
+      "current_highlights": 6,
+      "removed_sentence_starts": [
+        "Timing and meal composition matter: carbohydrate co-consumption can influence amino-acid competition at transporters (Trp:LNAA ratio), and gentler cooking helps limit heat-derived "
+      ],
+      "current_excerpt": "Turkey provides amino acids including tryptophan (a serotonin precursor) together with niacin (vitamin B3), supporting mood-related pathways and mitochondrial energy production. Tryptophan can also be routed through the "
+    },
+    {
+      "slug": "turmeric",
+      "file": "docs/foods/turmeric.md",
+      "head_highlights": 6,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Turmeric is the whole spice (dried and ground root of the Curcuma longa plant) that contains many bioactive compounds, including curcumin (the most well-known polyphenol), demethoxycurcumin, bisdemethoxycurcumin, turmero"
+    },
+    {
+      "slug": "vinegar-pickles",
+      "file": "docs/foods/vinegar-pickles.md",
+      "head_highlights": 4,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Vinegar pickles are plant foods preserved by acidification in a vinegar-based brine rather than by extended lacto-fermentation. The BRAIN Diet treats them as a distinct category from [Fermented Vegetables](./fermented-ve"
+    },
+    {
+      "slug": "vinegar",
+      "file": "docs/foods/vinegar.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity. Within the BRAIN Diet framework, glucose regulation strategies include lo"
+    },
+    {
+      "slug": "wasabi",
+      "file": "docs/foods/wasabi.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Wasabi is a pungent green condiment traditionally made from the grated rhizome of the Wasabia japonica plant, although many commercial products outside Japan use horseradish, mustard, and colourings instead. In the BRAIN"
+    },
+    {
+      "slug": "whey-protein",
+      "file": "docs/foods/whey-protein.md",
+      "head_highlights": 5,
+      "current_highlights": 0,
+      "removed_sentence_starts": [],
+      "current_excerpt": "Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function. Within the BRAIN Diet framework, whey protein isolate has DIAA"
+    }
+  ],
+  "highlights_emptied_or_shortened": [
+    {
+      "slug": "clams",
+      "file": "docs/foods/clams.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Clams are bivalve shellfish providing complete protein together with notable amounts of **vitamin B12**, **iron**, **zinc**, and **taurine**.",
+        "Among shellfish, clams and mussels are often highlighted for their taurine content, which contributes to bile acid conjugation, membrane stabilisation, and antioxidant defence in experimental and clinical contexts [1].",
+        "Their B12 and iron content support methylation pathways, homocysteine recycling, and oxygen transport, all of which are relevant to neurological and cardiovascular health [2].",
+        "Within the BRAIN Diet framework, clams serve as an occasional **nutrient-dense shellfish** that complements both plant and animal sources of B12 and iron.",
+        "Because portions are typically modest and eaten intermittently, clams are best viewed as a periodic micronutrient booster rather than a daily protein anchor [1,2]."
+      ]
+    },
+    {
+      "slug": "dandelion-greens",
+      "file": "docs/foods/dandelion-greens.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Bitter greens and chicory-family plants supply fermentable fibre that supports gut microbiota composition [1]",
+        "Leafy plant foods contribute carotenoids and antioxidant phytonutrients relevant to neuroprotection [2]",
+        "Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health. [1]",
+        "They are part of a diverse leafy green intake strategy that supports gut microbiome diversity. [2]",
+        "Dandelion greens are bitter leafy greens providing prebiotic fiber and supporting gut health."
+      ]
+    },
+    {
+      "slug": "dark-meat-poultry",
+      "file": "docs/foods/dark-meat-poultry.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Dark-meat poultry is a practical dietary source of taurine alongside seafood and other animal proteins [1]",
+        "Poultry provides highly digestible complete protein with strong amino-acid bioavailability [2]",
+        "Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling. [1]",
+        "Taurine food sources include scallops, clams, dark-meat poultry, and mackerel. [2]",
+        "Dark-meat poultry (thighs, legs) provides higher taurine content than white meat, supporting neurotransmission and calcium signaling."
+      ]
+    },
+    {
+      "slug": "duck-fat",
+      "file": "docs/foods/duck-fat.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Monounsaturated-rich animal fats such as duck fat fit within MUFA-forward dietary patterns [1]",
+        "Dietary fat quality affects chylomicron formation and absorption of fat-soluble micronutrients [2]",
+        "Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures. [1]",
+        "Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures. [2]",
+        "Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures."
+      ]
+    },
+    {
+      "slug": "early-harvest-olive-oil",
+      "file": "docs/foods/early-harvest-olive-oil.md",
+      "before": 4,
+      "after": 2,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on neurotransmitters Regulation and Food Intake: The Role of Dietary Sources in Neurotransmission [1]",
+        "Early harvest extra virgin olive oil is a precision food in the BRAIN Diet, harvested from olives picked earlier in the season when they contain significantly higher concentrations of bioactive compounds. [1]"
+      ]
+    },
+    {
+      "slug": "edamame",
+      "file": "docs/foods/edamame.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Edamame supplies soy isoflavones such as genistein studied for metabolic and neuroinflammatory pathways [1]",
+        "Young soybeans provide complete plant protein with favourable digestibility for a legume [2]",
+        "Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, plus complete plant protein and isoflavones. [1]",
+        "Nicotinamide Mononucleotide (NMN) is a direct NAD⁺ intermediate in salvage pathway found in edamame, broccoli, cucumber, and avocado. [2]",
+        "Edamame (young soybeans) provides nicotinamide mononucleotide (NMN), a direct NAD+ intermediate, plus complete plant protein and isoflavones."
+      ]
+    },
+    {
+      "slug": "egg-yolks",
+      "file": "docs/foods/egg-yolks.md",
+      "before": 4,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on effect of Domestic Cooking Methods on Egg Yolk Xanthophylls [1]",
+        "Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health. [1]",
+        "Acetylcholine and choline food sources include egg yolks, fish roe, soy, wheat germ, and liver.",
+        "Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health."
+      ]
+    },
+    {
+      "slug": "eggs",
+      "file": "docs/foods/eggs.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": true,
+      "dropped_bullets": [
+        "Reports on effect of dairy calcium from cheese and milk on fecal fat excretion, blood lipids, and appetite in young men$^\\textrm{1}$$^\\textrm{2}$$^\\textrm{3}$ [1]",
+        "Reports on endocannabinoid system in psychotic and mood disorders, a review of human studies [2]",
+        "Reports on the Role of Choline in Neurodevelopmental Disorders—A Narrative Review Focusing on ASC, ADHD and Dyslexia [3]",
+        "Reports on digestibility of cooked and raw egg protein in humans as assessed by stable isotope techniques [4]",
+        "Reports on raw Eggs To Support Postexercise Recovery in Healthy Young Men: Did Rocky Get It Right or Wrong? [5]",
+        "Reports on effect of Domestic Cooking Methods on Egg Yolk Xanthophylls [6]"
+      ]
+    },
+    {
+      "slug": "extra-virgin-olive-oil",
+      "file": "docs/foods/extra-virgin-olive-oil.md",
+      "before": 4,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": true,
+      "dropped_bullets": [
+        "Reports on monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies [1]",
+        "Reports on increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil [2]",
+        "Reports on scientific Opinion on the substantiation of health claims related to polyphenols in olive oil and protection of LDL particles from oxidative damage pursuant to Article 13(1) of Regulation (EC) No 1924/2006 [3]",
+        "Reports on characterization of phenolic compounds and their contribution to sensory properties of olive oil [4]"
+      ]
+    },
+    {
+      "slug": "fermented-hot-sauce",
+      "file": "docs/foods/fermented-hot-sauce.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Fermented foods can modulate gut–brain signalling through microbiota and metabolite pathways [1]",
+        "Fermentation-derived products contribute organic acids and microbial metabolites alongside capsaicin-rich matrices [2]",
+        "Fermented hot sauce is made by fermenting chilli peppers (often with garlic, salt, and sometimes other vegetables) before blending into a pourable sauce. [1]",
+        "As with other fermented vegetable products, the fermentation step produces organic acids and flavour compounds; many versions are unpasteurised and used in small amounts as a condiment on otherwise whole-food meals. [2]",
+        "Fermented hot sauce is made by fermenting chilli peppers (often with garlic, salt, and sometimes other vegetables) before blending into a pourable sauce."
+      ]
+    },
+    {
+      "slug": "fermented-vegetables",
+      "file": "docs/foods/fermented-vegetables.md",
+      "before": 4,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on b-Group vitamin production by lactic acid bacteria - current knowledge and potential applications: Vitamin production by LAB [1]",
+        "Fermented vegetables provide live probiotics, postbiotic compounds, and enhanced nutrient bioavailability, supporting gut-brain axis communication. [1]",
+        "Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.",
+        "Fermentation goes further: lactic acid bacteria acidify the medium, activating microbial and endogenous phytases, while also increasing B-vitamin levels."
+      ]
+    },
+    {
+      "slug": "fortified-plant-milks",
+      "file": "docs/foods/fortified-plant-milks.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Fortified plant milks can help close calcium and iron gaps when paired appropriately within mixed meals [1]",
+        "B-vitamin fortification in plant beverages supports one-carbon and neurochemical pathways in vegan patterns [2]",
+        "Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like B12, vitamin D, and sometimes iodine, helping close vegan nutrient gaps. [1]",
+        "Targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts), B12 (fortified plant milks, nutritional yeast). [2]",
+        "Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like B12, vitamin D, and sometimes iodine, helping close vegan nutrient gaps."
+      ]
+    },
+    {
+      "slug": "garlic",
+      "file": "docs/foods/garlic.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on effect of Garlic and Lemon Juice Mixture on Lipid Profile and Some Cardiovascular Risk Factors in People 30--60 Years Old with Moderate Hyperlipidaemia: A Randomized Clinical Trial [1]",
+        "Reports on allicin: chemistry and biological properties [2]",
+        "Garlic provides allicin (when crushed), sulfur compounds for glutathione synthesis, and prebiotic fiber supporting gut health and antioxidant defenses. [1]",
+        "Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health. [2]",
+        "Garlic is part of the allium family with prebiotic benefits."
+      ]
+    },
+    {
+      "slug": "ghee",
+      "file": "docs/foods/ghee.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Grass-fed dairy fats differ in fatty-acid profile from conventional dairy, including CLA content [1]",
+        "Short-chain fatty acids from saturated fats and fermentation support colonic and metabolic health context [2]",
+        "Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking. [1]",
+        "Ghee provides butyrate, vitamins A/D/E/K2, is heat-stable, and low in lactose/casein, making it suitable for high-heat cooking and Ayurvedic dishes. [2]",
+        "Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking."
+      ]
+    },
+    {
+      "slug": "ginger",
+      "file": "docs/foods/ginger.md",
+      "before": 5,
+      "after": 1,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Culinary herbs and spices including ginger contribute bioactive polyphenols with anti-inflammatory relevance [1]",
+        "Plant-derived bioactives influence gut microbiota composition linked to gut–brain axis pathways [2]",
+        "Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects, and prokinetic properties helpful for SIBO management. [1]",
+        "Ginger provides gingerols with gut-brain axis support, anti-inflammatory effects, and prokinetic properties helpful for SIBO management."
+      ]
+    },
+    {
+      "slug": "grapes",
+      "file": "docs/foods/grapes.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Polyphenol-rich fruit patterns are associated with cognitive endpoints in flavonoid intervention trials [1]",
+        "Grape polyphenols such as resveratrol are studied for antioxidant and nutraceutical mechanisms [2]",
+        "Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-dependent processes and supporting mitochondrial function. [1]",
+        "Polyphenols (e.g., resveratrol) activate SIRT1, enhancing NAD⁺-dependent processes, and are found in grapes, blueberries, cranberries, peanuts, and dark chocolate. [2]",
+        "Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-dependent processes and supporting mitochondrial function."
+      ]
+    },
+    {
+      "slug": "grass-fed-butter",
+      "file": "docs/foods/grass-fed-butter.md",
+      "before": 5,
+      "after": 3,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Pasture- versus grain-fed ruminant fats differ in fatty-acid and CLA profile [1]",
+        "Pasture-fed milk butter shows higher vitamin K1 and MK-4 than total-mixed-ration butter [2]"
+      ]
+    },
+    {
+      "slug": "greek-yogurt",
+      "file": "docs/foods/greek-yogurt.md",
+      "before": 5,
+      "after": 1,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on b-Group vitamin production by lactic acid bacteria - current knowledge and potential applications: Vitamin production by LAB [1]",
+        "Greek yogurt is fermented dairy providing live probiotics, complete protein, **calcium**, and B vitamins, supporting gut–brain axis communication. [1]",
+        "Key contributions include calcium, protein, and zinc.",
+        "Pair with berries or nuts for polyphenol synergy."
+      ]
+    },
+    {
+      "slug": "jerusalem-artichokes",
+      "file": "docs/foods/jerusalem-artichokes.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Jerusalem artichokes are among the richest dietary sources of inulin-type prebiotic fibre [1]",
+        "Prebiotic fermentable fibre intake modulates gut microbiota and stress-related biomarkers [2]",
+        "Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth. [1]",
+        "Jerusalem artichokes have the highest inulin content, and inulin supports ↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier. [2]",
+        "Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth."
+      ]
+    },
+    {
+      "slug": "kale",
+      "file": "docs/foods/kale.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [1]",
+        "Reports on effect of Different Cooking Methods on Vegetable Oxalate Content [2]",
+        "Kale is a nutrient-dense leafy green providing iron, magnesium, zinc, quercetin, and carotenoids. [1]",
+        "The BRAIN diet specifically targets leafy green vegetables i.e. [2]",
+        "kale and spinach that are rich in iron, magnesium, and zinc, though this can introduce high dietary oxalate.",
+        "Boiling kale can reduce oxalate load, improving mineral bioavailability."
+      ]
+    },
+    {
+      "slug": "kefir",
+      "file": "docs/foods/kefir.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Kefir provides live microbes and fermentation metabolites within diverse fermented-food strategies [1]",
+        "Fermented-food interventions increase microbiome diversity and immune-related outcomes in trials [2]",
+        "Kefir is fermented milk providing diverse probiotics, including potential GABA-producing strains, and postbiotic compounds. [1]",
+        "Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]",
+        "Kefir: Fermented milk drink, diverse probiotic strains.",
+        "Levilactobacillus brevis is active in L."
+      ]
+    },
+    {
+      "slug": "kidney-beans",
+      "file": "docs/foods/kidney-beans.md",
+      "before": 4,
+      "after": 1,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa) [1]",
+        "Kidney beans provide plant protein, polyphenols, and prebiotic fiber, supporting gut health and neurotransmitter synthesis. [1]",
+        "Kidney beans have a DIAAS score of 60-65, indicating they are methionine-limited and should be paired with grains for complete amino acid profile."
+      ]
+    },
+    {
+      "slug": "kimchi",
+      "file": "docs/foods/kimchi.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Kimchi and lacto-fermented vegetables deliver live lactic acid bacteria and organic acids [1]",
+        "Fermented vegetables contribute postbiotic metabolites relevant to gut–brain axis modulation [2]",
+        "Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance. [1]",
+        "Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]",
+        "Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance."
+      ]
+    },
+    {
+      "slug": "kombucha",
+      "file": "docs/foods/kombucha.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Kombucha fermentation produces organic acids and polyphenols in a tea-based matrix [1]",
+        "Tea polyphenols combined with fermentation metabolites may influence gut microbiota composition [2]",
+        "Kombucha is fermented tea providing live probiotics, postbiotic compounds, and organic acids, supporting gut-brain axis communication. [1]",
+        "Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]",
+        "Kombucha is fermented tea providing live probiotics, postbiotic compounds, and organic acids, supporting gut-brain axis communication."
+      ]
+    },
+    {
+      "slug": "leeks",
+      "file": "docs/foods/leeks.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Allium vegetables including leeks supply organosulfur compounds and prebiotic fructans [1]",
+        "Fermentable fibres from alliums support beneficial gut microbiota taxa [2]",
+        "Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity. [1]",
+        "Fructooligosaccharides (FOS) are found in onions, garlic, leeks, and asparagus, and are part of the allium family with prebiotic benefits. [2]",
+        "Leeks are allium vegetables providing fructooligosaccharides (FOS) prebiotic fiber, supporting gut microbiome diversity."
+      ]
+    },
+    {
+      "slug": "lemon-balm-tea",
+      "file": "docs/foods/lemon-balm-tea.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Melissa officinalis (lemon balm) is studied for calm and cognitive effects in herbal trials [1]",
+        "Herbal teas contribute polyphenol bioactives with neuromodulatory relevance [2]",
+        "Lemon balm tea is an herbal infusion that supports sleep and calm, often used in evening routines for ADHD sleep dysregulation. [1]",
+        "Herbal teas such as chamomile for apigenin, lemon balm tea, and tart cherry juice are recommended for evening wind-down and sleep prep. [2]",
+        "Lemon balm tea is an herbal infusion that supports sleep and calm, often used in evening routines for ADHD sleep dysregulation."
+      ]
+    },
+    {
+      "slug": "lentils",
+      "file": "docs/foods/lentils.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [1]",
+        "Reports on purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa) [2]",
+        "Lentils are a staple legume providing plant protein, slowly digested carbohydrates, and substantial amounts of **fibre**, **iron**, **zinc**, **magnesium**, and **folate**. [1]",
+        "As a dry seed, they are nutrient-dense and shelf-stable, and when cooked they contribute both energy and micronutrients that support one‑carbon metabolism, red blood cell formation, and neurometabolic processes [1].",
+        "Their fibre and prebiotic galacto‑oligosaccharides (GOS) also support gut microbial diversity and short‑chain fatty acid production, which indirectly influences metabolic and brain health [2].",
+        "Within the BRAIN Diet framework, lentils are treated as a core plant protein and fibre source that pairs well with grains to round out amino acid profiles. [2]"
+      ]
+    },
+    {
+      "slug": "lions-mane-mushroom",
+      "file": "docs/foods/lions-mane-mushroom.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Mushrooms including lion's mane supply beta-glucans and fungal polysaccharides studied for immune and gut effects [1]",
+        "Dietary bioactives from fungi may interact with gut microbiota composition [2]",
+        "Lion's Mane mushroom (Hericium erinaceus) is a medicinal mushroom traditionally used in East Asian medicine. [1]",
+        "It contains bioactive compounds including hericenones and erinacines, which have been studied for their potential effects on nerve growth factor (NGF) pathways and neuroprotective mechanisms. [2]",
+        "While preclinical research suggests potential benefits for nerve health and neuroprotective pathways, clinical evidence for cognitive improvements in humans remains limited and requires further investigation.",
+        "Lion's Mane is also valued for its culinary properties and contains polysaccharides that may support immune function."
+      ]
+    },
+    {
+      "slug": "lupins",
+      "file": "docs/foods/lupins.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Lupin provides high plant-protein density with favourable essential amino-acid coverage for a legume [1]",
+        "Legume-rich plant-forward patterns support nutrient density within Mediterranean-style diets [2]",
+        "Lupins are legumes providing plant protein and fiber, part of diverse protein sources for vegan BRAIN Diet approaches. [1]",
+        "Protein sources include legumes, fermented soy, lupins, Mankai, seeds, whole grains, and functional yeasts. [2]",
+        "Lupins are legumes providing plant protein and fiber, part of diverse protein sources for vegan BRAIN Diet approaches."
+      ]
+    },
+    {
+      "slug": "maitake-mushroom",
+      "file": "docs/foods/maitake-mushroom.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Maitake supplies beta-glucans and fungal polysaccharides with immune-modulating research interest [1]",
+        "Beta-glucans from fungi and yeast modulate innate immune signalling pathways [2]",
+        "Maitake mushroom (Grifola frondosa), also known as \"hen of the woods,\" is a medicinal mushroom valued for its immune-supporting properties. [1]",
+        "It is particularly rich in beta-glucans, with the D-fraction being a well-studied extract that has shown immune-modulating effects in research. [2]",
+        "Maitake contains polysaccharides that may support immune cell function and help modulate inflammatory responses.",
+        "The mushroom is also valued for its culinary properties, with a rich, earthy flavor and meaty texture."
+      ]
+    },
+    {
+      "slug": "mankai",
+      "file": "docs/foods/mankai.md",
+      "before": 4,
+      "after": 1,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on protein bioavailability of Wolffia globosa duckweed, a novel aquatic plant – A randomized controlled trial [1]",
+        "Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavailable iron and true vitamin B12, helping close vegan nutrient gaps. [1]",
+        "Mankai (Wolffia globosa, duckweed) is a functional plant food providing bioavailable iron and true vitamin B12, helping close vegan nutrient gaps."
+      ]
+    },
+    {
+      "slug": "mct-oil",
+      "file": "docs/foods/mct-oil.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Medium-chain triglycerides are rapidly oxidised and studied in ketogenic and metabolic contexts [1]",
+        "Ketogenic substrates including MCTs influence brain energy metabolism in clinical research [2]",
+        "MCT oil is concentrated medium-chain triglycerides (C6, C8, C10) providing rapid energy for the brain and supporting ketone production. [1]",
+        "It contains caprylic triglyceride (C8), capric triglyceride (C10), and caproic triglyceride (C6). [2]",
+        "Coconut Oil / MCT Oil provides MCTs (C8, C10), rapid energy for brain, and supports ketone production."
+      ]
+    },
+    {
+      "slug": "milk",
+      "file": "docs/foods/milk.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Milk provides highly digestible complete protein with strong DIAAS scores [1]",
+        "Dairy contributes B vitamins relevant to one-carbon metabolism and brain function [2]",
+        "Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (NAD+ precursor), and calcium, supporting mitochondrial function and bone health. [1]",
+        "Milk (skim) has a DIAAS score of 118, indicating balanced EAA profile and supports myelination. [2]",
+        "Nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread).",
+        "Fortified plant milks and dairy milk can help meet calcium (and sometimes iodine, depending on fortification and local practices) targets."
+      ]
+    },
+    {
+      "slug": "miso",
+      "file": "docs/foods/miso.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Fermented soy products such as miso modulate gut–brain signalling through microbiota pathways [1]",
+        "Traditional fermented soy pastes deliver live microbes and fermentation-derived metabolites [2]",
+        "Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication. [1]",
+        "Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]",
+        "Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication."
+      ]
+    },
+    {
+      "slug": "mucuna-beans",
+      "file": "docs/foods/mucuna-beans.md",
+      "before": 4,
+      "after": 1,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on neurotransmitters Regulation and Food Intake: The Role of Dietary Sources in Neurotransmission [1]",
+        "Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, supporting neurotransmitter synthesis. [1]",
+        "Mucuna beans provide natural L-DOPA (levodopa), a direct precursor to dopamine, supporting neurotransmitter synthesis."
+      ]
+    },
+    {
+      "slug": "mushrooms",
+      "file": "docs/foods/mushrooms.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines [1]",
+        "Reports on niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy [2]",
+        "**White/button mushroom** (*Agaricus bisporus*) is the BRAIN Diet’s **canonical generic entry** for this species. [1]",
+        "The same fungus is sold under several market names that reflect **maturity and cap colour**, not a different species: ``` White / Button Mushroom ↓ Cremini Mushroom ↓ Chestnut Mushroom (UK) ↓ Portobello Mushroom ``` Use this page when a … [2]",
+        "bisporus* is a low-calorie food with useful **niacin (vitamin B3)** for NAD⁺ synthesis and mitochondrial support.",
+        "**UV-exposed** white/button mushrooms can provide **vitamin D₂ (ergocalciferol)**; ordinary supermarket specimens are often low in vitamin D unless labelled or treated for UV exposure [Starck et al."
+      ]
+    },
+    {
+      "slug": "natto",
+      "file": "docs/foods/natto.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Natto fermentation by Bacillus subtilis produces unique peptides and microbial metabolites [1]",
+        "Fermented soybeans retain isoflavones studied for metabolic and inflammatory pathways [2]",
+        "Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability. [1]",
+        "Natto is fermented soybeans with unique Bacillus subtilis and is part of the fermented foods strategy. [2]",
+        "Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability."
+      ]
+    },
+    {
+      "slug": "nori",
+      "file": "docs/foods/nori.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Seaweed foods may contribute variable vitamin B12 compounds; nori should not be relied on as a sole B12 source [1]",
+        "Marine algae and seaweed are primary iodine sources critical for thyroid and brain development [2]",
+        "Nori is a red seaweed (Porphyra species) commonly used in sushi and Japanese cuisine. [1]",
+        "It is a primary dietary source of iodine, an essential trace mineral critical for thyroid function and brain development. [2]",
+        "Nori also provides supporting amounts of folate (B9) and non-heme iron, along with contextual contributions of magnesium, vitamin K, and carotenoids.",
+        "While nori may contain variable amounts of vitamin B12 depending on species and processing, it should not be relied upon as a sole B12 source."
+      ]
+    },
+    {
+      "slug": "nutritional-yeast",
+      "file": "docs/foods/nutritional-yeast.md",
+      "before": 5,
+      "after": 1,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Fortified nutritional yeast helps close vitamin B12 gaps in vegan dietary patterns [1]",
+        "B-vitamin–rich yeast products support NAD⁺ and one-carbon cofactor availability [2]",
+        "Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotinamide riboside (NAD+ precursor), helping close vegan nutrient gaps. [1]",
+        "Nutritional yeast, especially fortified varieties, provides B12, B6, and nicotinamide riboside (NAD+ precursor), helping close vegan nutrient gaps."
+      ]
+    },
+    {
+      "slug": "olive-oil",
+      "file": "docs/foods/olive-oil.md",
+      "before": 5,
+      "after": 1,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Extra-virgin olive oil polyphenols contribute cardiovascular and anti-inflammatory effects beyond fatty acids alone [1]",
+        "Olive oil polyphenols at sufficient dose are associated with LDL oxidation protection in regulatory reviews [2]",
+        "Regular olive oil (refined or blended) has significantly lower bioactive polyphenol content compared to extra virgin olive oil (EVOO). [1]",
+        "For brain health benefits, extra virgin olive oil, particularly early harvest EVOO, is strongly recommended due to its much higher concentration of bioactive polyphenols."
+      ]
+    },
+    {
+      "slug": "olives",
+      "file": "docs/foods/olives.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Olives and olive oil provide monounsaturated fats and polyphenols within Mediterranean dietary patterns [1]",
+        "Olive oil phenolics influence intestinal inflammation and antioxidant status [2]",
+        "Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health. [1]",
+        "Sources of MUFA include extra-virgin olive oil, avocado, olives, and nuts. [2]",
+        "Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health."
+      ]
+    },
+    {
+      "slug": "onions",
+      "file": "docs/foods/onions.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Onions supply organosulfur compounds and quercetin glycosides with antioxidant relevance [1]",
+        "Quercetin from alliums is studied for anti-inflammatory and cardiovascular mechanisms [2]",
+        "Onions provide inulin (prebiotic fiber), quercetin (polyphenol), and sulfur compounds that support gut microbiome, antioxidant defenses, and glutathione synthesis. [1]",
+        "Prebiotic Fibres: Inulin (chicory, onions), GOS (legumes), resistant starch (cooled potatoes, green bananas), pectin (apples). [2]",
+        "Inulin (chicory, onions) supports Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier.",
+        "Quercetin is abundant in capers, apples, onions, berries, kale and soybeans."
+      ]
+    },
+    {
+      "slug": "oranges",
+      "file": "docs/foods/oranges.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Flavanone-rich orange juice interventions are associated with cognitive performance endpoints [1]",
+        "Vitamin C from citrus enhances non-heme iron absorption when paired with plant iron sources [2]",
+        "Oranges provide high vitamin C content that enhances non-heme iron absorption when paired with iron-rich plant foods. [1]",
+        "Pairing plant-based iron sources with citrus enhances iron absorption, and eating beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) improves iron bioavailability. [2]",
+        "Oranges provide high vitamin C content that enhances non-heme iron absorption when paired with iron-rich plant foods."
+      ]
+    },
+    {
+      "slug": "oregano",
+      "file": "docs/foods/oregano.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Culinary herb polyphenols including oregano contribute antioxidant and antimicrobial bioactivity [1]",
+        "Herbs and spices are concentrated sources of polyphenol bioactives in Mediterranean-style diets [2]",
+        "Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals. [1]",
+        "Overgrowth suppression (SIBO, Candida, Pathobionts) strategies include polyphenol antimicrobials (berberine, oregano, green tea); short-term low-FODMAP when needed; prokinetic foods (ginger). [2]",
+        "Oregano provides polyphenol antimicrobial compounds that can help suppress SIBO and pathobionts without harming beneficial commensals."
+      ]
+    },
+    {
+      "slug": "oyster-mushroom",
+      "file": "docs/foods/oyster-mushroom.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Oyster mushrooms supply beta-glucans and B vitamins including niacin within low-calorie matrices [1]",
+        "Niacin supports NAD⁺-dependent mitochondrial and neurochemical metabolism [2]",
+        "Oyster mushroom (Pleurotus ostreatus) is a popular culinary mushroom valued for its mild flavor, meaty texture, and nutritional benefits. [1]",
+        "It is rich in beta-glucans, polysaccharides that support immune function, and provides B vitamins including niacin (B3), which supports NAD+ synthesis and mitochondrial function. [2]",
+        "Oyster mushrooms are widely cultivated and used in cooking, offering a versatile plant-based protein source.",
+        "The mushroom contains lovastatin, a compound that has been studied for its potential cardiovascular benefits, and its beta-glucan content contributes to immune-modulating properties similar to other medicinal mushrooms."
+      ]
+    },
+    {
+      "slug": "parmesan-cheese",
+      "file": "docs/foods/parmesan-cheese.md",
+      "before": 4,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on effect of dairy calcium from cheese and milk on fecal fat excretion, blood lipids, and appetite in young men$^\\textrm{1}$$^\\textrm{2}$$^\\textrm{3}$ [1]",
+        "Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 pentadecanoic acid, glutamate, high protein, and calcium. [1]",
+        "Evidence suggests hard cheeses with high calcium do not raise serum LDL levels, supporting their use in moderation within nutrient-dense dietary patterns [Soerensen et al.",
+        "2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)."
+      ]
+    },
+    {
+      "slug": "parsley",
+      "file": "docs/foods/parsley.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Parsley and Apiaceae herbs provide polyphenols and vitamin K in culinary doses [1]",
+        "Herb polyphenols may influence gut microbiota composition as part of diverse plant intake [2]",
+        "Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health. [1]",
+        "The strategy of simply adding parsley when cooking food has seen significant reductions in harmful COPs (Cholesterol Oxidation Products). [2]",
+        "Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health."
+      ]
+    },
+    {
+      "slug": "peanuts",
+      "file": "docs/foods/peanuts.md",
+      "before": 4,
+      "after": 1,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy [1]",
+        "Peanuts provide niacin (B3) for NAD+ synthesis, resveratrol (polyphenol), and plant protein supporting mitochondrial function and antioxidant networks. [1]",
+        "Niacin (Vitamin B₃): Directly converted to NAD+ via salvage pathway; food sources include chicken, turkey, tuna, salmon, mushrooms, peanuts, whole grains."
+      ]
+    },
+    {
+      "slug": "peas",
+      "file": "docs/foods/peas.md",
+      "before": 5,
+      "after": 1,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on neurological, Psychiatric, and Biochemical Aspects of Thiamine Deficiency in Children and Adults [1]",
+        "Peas provide plant protein, prebiotic fiber, and thiamine (B1), supporting gut health, neurotransmitter synthesis, and mitochondrial function. [1]",
+        "Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils.",
+        "Thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production."
+      ]
+    },
+    {
+      "slug": "peppermint",
+      "file": "docs/foods/peppermint.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Peppermint and menthol-containing herbs are studied for alertness and digestive comfort [1]",
+        "Culinary herb interventions show acute cognitive and mood effects in controlled trials [2]",
+        "Peppermint provides compounds that support mental clarity and alertness, useful for ADHD focus support. [1]",
+        "Peppermint supports mental clarity and alertness and can be consumed as herbal tea or essential oil inhalation. [2]",
+        "Peppermint provides compounds that support mental clarity and alertness, useful for ADHD focus support."
+      ]
+    },
+    {
+      "slug": "pistachios",
+      "file": "docs/foods/pistachios.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on efficacy and Safety of Coenzyme Q10 Supplementation in Neonates, Infants and Children: An Overview [1]",
+        "Reports on vitamin E and the Metabolic Antioxidant Network [2]",
+        "Pistachios provide CoQ10 (plant source), healthy fats, and protein, supporting mitochondrial function and antioxidant defenses. [1]",
+        "Coenzyme Q10 (CoQ10): Organ meats (heart, liver), oily fish (sardines, mackerel), beef, Spinach, broccoli, pistachios, olive oil (lower amounts). [2]",
+        "CoQ10 supports mitochondrial electron transport and antioxidant protection for neurons."
+      ]
+    },
+    {
+      "slug": "pomegranates",
+      "file": "docs/foods/pomegranates.md",
+      "before": 3,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": true,
+      "dropped_bullets": [
+        "Reports on the effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial [1]",
+        "Reports on the mitophagy activator urolithin A is safe and induces a molecular signature of improved mitochondrial and cellular health in humans [2]",
+        "Reports on direct supplementation with Urolithin A overcomes limitations of dietary exposure and gut microbiome variability in healthy adults to achieve consistent levels across the population [3]"
+      ]
+    },
+    {
+      "slug": "potatoes",
+      "file": "docs/foods/potatoes.md",
+      "before": 5,
+      "after": 2,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Cooled potatoes provide resistant starch that supports beneficial gut microbiota fermentation [1]",
+        "Resistant starch fermentation produces short-chain fatty acids relevant to gut–brain signalling [2]",
+        "Potatoes provide complex carbohydrates, potassium, vitamin B6, and vitamin C. [1]"
+      ]
+    },
+    {
+      "slug": "raspberries",
+      "file": "docs/foods/raspberries.md",
+      "before": 5,
+      "after": 2,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Berry polyphenol interventions show cognitive benefits in systematic review contexts [1]",
+        "High-flavonoid fruit intake is linked to cognitive improvements and BDNF-related endpoints [2]",
+        "Berries are mentioned as polyphenol-rich foods and are part of the Mediterranean diet pattern. [2]"
+      ]
+    },
+    {
+      "slug": "reishi-mushroom",
+      "file": "docs/foods/reishi-mushroom.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reishi supplies fungal polysaccharides studied for immune-modulating properties [1]",
+        "Mushroom polyphenols and triterpenes contribute antioxidant nutraceutical mechanisms [2]",
+        "Reishi mushroom (Ganoderma lucidum), known in China as Ling Zhi, is a medicinal mushroom with a long-standing reputation as a tonic for vitality. [1]",
+        "Unlike stimulants such as caffeine, Reishi works quietly and cumulatively, supporting the foundations of energy, resilience, and emotional steadiness. [2]",
+        "Modern research links these effects largely to its polysaccharides, alongside other bioactive compounds that help modulate stress and immune balance—key influences on long-term vitality.",
+        "Traditionally reserved for emperors and scholars, Reishi is valued not for quick stimulation but for its ability to restore depleted reserves and support recovery and balance."
+      ]
+    },
+    {
+      "slug": "rice",
+      "file": "docs/foods/rice.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation [1]",
+        "Reports on dietary Protein and Amino Acids in Vegetarian Diets—A Review [2]",
+        "Rice is a globally used staple carbohydrate. [1]",
+        "Within the BRAIN Diet, **variant and processing often matter more than the word “rice” on a label**: degree of milling, pigmentation (white, red, black), cultivar (e.g. [2]",
+        "basmati vs jasmine), **cooking and cooling**, fermentation, and meal context (protein, fat, fibre, acidity) shape fibre, resistant starch (RS), glycaemic impact, and polyphenol exposure.",
+        "**Cooking and cooling** can create larger biological differences than minor distinctions between many white-rice cultivars."
+      ]
+    },
+    {
+      "slug": "sage",
+      "file": "docs/foods/sage.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Salvia officinalis (sage) extracts improve attention and memory in acute human trials [1]",
+        "Sage polyphenols modulate cholinergic and mood-related endpoints in controlled studies [2]",
+        "Sage provides compounds that support memory and cognitive enhancement, with therapeutic benefits demonstrated at 200–400 mg/day extract or through regular culinary doses. [1]",
+        "Sage provides compounds that support memory and cognitive enhancement, with therapeutic benefits demonstrated at 200–400 mg/day extract or through regular culinary doses. [2]",
+        "Sage provides compounds that support memory and cognitive enhancement, with therapeutic benefits demonstrated at 200–400 mg/day extract or through regular culinary doses."
+      ]
+    },
+    {
+      "slug": "seaweed",
+      "file": "docs/foods/seaweed.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Seaweed is a primary dietary iodine source supporting thyroid hormone synthesis [1]",
+        "Marine algae contribute variable B12 analogues and should be interpreted cautiously for cobalamin status [2]",
+        "Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health. [1]",
+        "Seaweed can be added to soups, stews, or salads and provides trace amounts of creatine (e.g., nori) and taurine. [2]",
+        "Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health."
+      ]
+    },
+    {
+      "slug": "shiitake-mushroom",
+      "file": "docs/foods/shiitake-mushroom.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Shiitake provides lentinan beta-glucans and B vitamins within a low-calorie mushroom matrix [1]",
+        "Mushroom consumption is associated with favourable dietary quality and micronutrient intake [2]",
+        "Shiitake mushroom (Lentinula edodes) is both a popular culinary mushroom and a valued medicinal food. [1]",
+        "It is rich in beta-glucans, polysaccharides that support immune function, and provides a rich umami flavor to dishes. [2]",
+        "Shiitake contains eritadenine, a compound that may support cardiovascular health, and is a good source of B vitamins including niacin (B3), which supports NAD+ synthesis and mitochondrial function.",
+        "The mushroom also contains lentinan, a beta-glucan that has been studied for its immune-modulating properties."
+      ]
+    },
+    {
+      "slug": "soy-lecithin",
+      "file": "docs/foods/soy-lecithin.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Soy lecithin is a concentrated dietary phosphatidylcholine source supporting choline intake [1]",
+        "Choline adequacy supports acetylcholine synthesis and membrane phospholipid turnover [2]",
+        "Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery. [1]",
+        "Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended. [2]",
+        "Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery."
+      ]
+    },
+    {
+      "slug": "spelt",
+      "file": "docs/foods/spelt.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Whole grains including spelt contain phytates that affect mineral bioavailability [1]",
+        "Ancient and whole grains contribute fibre and plant protein within balanced dietary patterns [2]",
+        "Spelt is an ancient wheat variety providing high asparagine and fiber, making it ideal for sourdough bread with optimized Maillard reaction products (MRPs). [1]",
+        "Whole Spelt Flour has high asparagine + fibre; substrate for Maillard; better MRPs than white flour - ↑ Melanoidin precursors; ↑ antioxidant MRPs. [2]",
+        "Spelt is an ancient wheat variety providing high asparagine and fiber, making it ideal for sourdough bread with optimized Maillard reaction products (MRPs)."
+      ]
+    },
+    {
+      "slug": "spinach",
+      "file": "docs/foods/spinach.md",
+      "before": 3,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [1]",
+        "Boiling reduced soluble oxalate by 30–87% and was more effective than steaming (5–53%) [2]",
+        "Reports on mitochondrial Dysfunction and Kidney Stone Disease [3]"
+      ]
+    },
+    {
+      "slug": "spirulina",
+      "file": "docs/foods/spirulina.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on characterization and Bioavailability of Vitamin B12-Compounds from Edible Algae [1]",
+        "Spirulina is a microalgae providing protein, antioxidants, and phycocyanin, but contains pseudovitamin B12 analogues that are inactive in humans. [1]",
+        "Spirulina has DIAAS 75-83, is methionine and lysine-limited, and contains some bioactive peptides.",
+        "By contrast, spirulina is dominated by pseudovitamin B12 analogues, which are inactive in humans and therefore unsuitable as a primary B12 source.",
+        "Nonetheless, both algae provide antioxidant and amino acid support."
+      ]
+    },
+    {
+      "slug": "strawberries",
+      "file": "docs/foods/strawberries.md",
+      "before": 5,
+      "after": 2,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Berry consumption is associated with cognitive benefits in aging populations [1]",
+        "Strawberry polyphenols contribute to high-flavonoid dietary patterns linked to cognitive endpoints [2]",
+        "Berries are mentioned as polyphenol-rich foods and are part of polyphenol-rich patterns (berries, olives/olive oil, herbs/spices) in the Mediterranean diet pattern. [2]"
+      ]
+    },
+    {
+      "slug": "sunflower-lecithin",
+      "file": "docs/foods/sunflower-lecithin.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Sunflower lecithin provides phosphatidylcholine for choline intake in plant-based diets [1]",
+        "Adequate choline supports neurotransmitter synthesis and membrane integrity [2]",
+        "Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering a soy-free alternative for those avoiding soy. [1]",
+        "Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery. [2]",
+        "Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering a soy-free alternative for those avoiding soy."
+      ]
+    },
+    {
+      "slug": "swiss-chard",
+      "file": "docs/foods/swiss-chard.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Leafy greens supply folate and B vitamins supporting one-carbon and neurochemical metabolism [1]",
+        "Green leafy vegetables contribute lutein and carotenoids relevant to neuroprotection [2]",
+        "Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, and carotenoids. [1]",
+        "Similar to other leafy greens like kale and spinach, it supports neurotransmitter synthesis and antioxidant function. [2]",
+        "The BRAIN diet specifically targets leafy green vegetables such as kale and spinach that are rich in iron, magnesium, and zinc, and Swiss chard fits within this category."
+      ]
+    },
+    {
+      "slug": "tempeh",
+      "file": "docs/foods/tempeh.md",
+      "before": 5,
+      "after": 1,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on b-Group vitamin production by lactic acid bacteria - current knowledge and potential applications: Vitamin production by LAB [1]",
+        "Tempeh is fermented soy providing live probiotics, enhanced nutrient bioavailability, and isoflavones, supporting gut health and neurotransmitter synthesis. [1]",
+        "Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha, tempeh provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.",
+        "Tempeh: Fermented soybeans, high in protein and probiotics."
+      ]
+    },
+    {
+      "slug": "tofu",
+      "file": "docs/foods/tofu.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Tofu supplies soy isoflavones such as genistein studied for neuroinflammatory and metabolic pathways [1]",
+        "Tofu contributes non-heme iron and calcium when fortified; meal pairing affects mineral absorption [2]",
+        "Tofu is a soy-based food providing complete plant protein, isoflavones (genistein), and choline, supporting neurotransmitter synthesis and neuroprotection. [1]",
+        "Tofu is listed as a source for iron, choline, tryptophan, and tyrosine. [2]",
+        "High-tyrosine protein (eggs, tofu, turkey) for morning meals to support dopamine synthesis.",
+        "Tofu is often calcium-fortified, making it valuable for plant-based diets."
+      ]
+    },
+    {
+      "slug": "tomatoes",
+      "file": "docs/foods/tomatoes.md",
+      "before": 4,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": true,
+      "dropped_bullets": [
+        "Reports on increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil [1]",
+        "Reports on iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [2]",
+        "Reports on the mechanism of the formation and secretion of chylomicrons [3]",
+        "Reports on carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection [4]"
+      ]
+    },
+    {
+      "slug": "turkey-tail-mushroom",
+      "file": "docs/foods/turkey-tail-mushroom.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Turkey tail provides polysaccharopeptides studied for immune-modulating effects [1]",
+        "Fungal beta-glucans modulate innate immune and gut-associated signalling [2]",
+        "Turkey Tail mushroom (Trametes versicolor) is a common medicinal mushroom found worldwide, recognized by its colorful, banded appearance resembling a turkey's tail. [1]",
+        "It is particularly rich in polysaccharides, including polysaccharide-K (PSK) and polysaccharide-peptide (PSP), which have been extensively studied for their immune-modulating properties. [2]",
+        "Turkey Tail supports gut microbiome diversity and may help modulate immune responses.",
+        "It is one of the most researched medicinal mushrooms for immune support and is commonly consumed as a tea, extract, or supplement."
+      ]
+    },
+    {
+      "slug": "turmeric",
+      "file": "docs/foods/turmeric.md",
+      "before": 6,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Curcumin from turmeric is studied for anti-inflammatory and neuroprotective mechanisms [1]",
+        "Piperine markedly increases curcumin bioavailability when turmeric is paired with black pepper [2]",
+        "Turmeric is the whole spice (dried and ground root of the Curcuma longa plant) that contains many bioactive compounds, including curcumin (the most well-known polyphenol), demethoxycurcumin, bisdemethoxycurcumin, turmerones (fat-soluble … [1]",
+        "Only 2–6% of turmeric powder is curcumin. [2]",
+        "Curcumin is responsible for most of turmeric's anti-inflammatory and neuroprotective effects.",
+        "Absorption is enhanced by pairing with black pepper (piperine) and fat."
+      ]
+    },
+    {
+      "slug": "vinegar-pickles",
+      "file": "docs/foods/vinegar-pickles.md",
+      "before": 4,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": true,
+      "dropped_bullets": [
+        "Reports on vinegar improves insulin sensitivity to a high-carbohydrate meal in subjects with insulin resistance or type 2 diabetes [1]",
+        "Reports on the Nutritional and Antioxidant Potential of Artisanal and Industrial Apple Vinegars and Their Ability to Inhibit Key Enzymes Related to Type 2 Diabetes In Vitro [2]",
+        "Reports on gut-microbiota-targeted diets modulate human immune status [3]",
+        "Reports on disrupted gut harmony in attention-deficit/hyperactivity disorder: Dysbiosis and decreased short-chain fatty acids [4]"
+      ]
+    },
+    {
+      "slug": "vinegar",
+      "file": "docs/foods/vinegar.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Vinegar with meals improves post-prandial glycaemia and insulin sensitivity in human trials [1]",
+        "Meal composition and glycaemic load modulate cognitive energy availability [2]",
+        "Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity. [1]",
+        "Glucose regulation strategies include low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, and meal sequencing (veg → protein → carb). [2]",
+        "Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity."
+      ]
+    },
+    {
+      "slug": "walnuts",
+      "file": "docs/foods/walnuts.md",
+      "before": 4,
+      "after": 1,
+      "emptied": false,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Reports on the effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial [1]",
+        "Walnuts provide plant-based omega-3 (ALA), polyphenols, and ellagitannins that can be converted to urolithin A by gut bacteria, supporting mitochondrial health and cognitive function. [1]",
+        "The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate)."
+      ]
+    },
+    {
+      "slug": "wasabi",
+      "file": "docs/foods/wasabi.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Isothiocyanates from cruciferous and related plants activate Nrf2-linked antioxidant pathways [1]",
+        "Sulfur-containing plant compounds contribute polyphenol and antioxidant bioactivity [2]",
+        "Wasabi is a pungent green condiment traditionally made from the grated rhizome of the Wasabia japonica plant, although many commercial products outside Japan use horseradish, mustard, and colourings instead. [1]",
+        "In the BRAIN Diet context, it is used sparingly as a condiment alongside seafood and rice dishes, adding heat and volatile aromatics without substantially altering macronutrient balance. [2]",
+        "Wasabi is a pungent green condiment traditionally made from the grated rhizome of the Wasabia japonica plant, although many commercial products outside Japan use horseradish, mustard, and colourings instead."
+      ]
+    },
+    {
+      "slug": "whey-protein",
+      "file": "docs/foods/whey-protein.md",
+      "before": 5,
+      "after": 0,
+      "emptied": true,
+      "dropped_were_generator_debris": false,
+      "dropped_bullets": [
+        "Whey protein isolate scores among the highest DIAAS values for essential amino-acid quality [1]",
+        "Leucine-rich whey protein acutely stimulates muscle protein synthesis via mTOR signalling [2]",
+        "Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function. [1]",
+        "Whey protein isolate has DIAAS 118–122 with no limiting amino acids, high leucine content, and supports BDNF and neurotransmitter synthesis. [2]",
+        "Whey protein provides high-quality complete protein (DIAAS 118-122) and nicotinamide riboside, an efficient NAD+ precursor supporting mitochondrial function."
+      ]
+    }
+  ],
+  "labelled_or_core_retentions": [
+    {
+      "slug": "avocado-oil",
+      "key": "flores_avocado_oil_2019",
+      "n": 3,
+      "title": "Avocado Oil: Characteristics, Properties, and Applications",
+      "adjacent_claim": "### Preparation - Smoke point and heat stability depend on refining and product quality; extra-virgin avocado oil should not be assumed to have a higher smoke point than extra-virgin olive oil [1,3].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "barley",
+      "key": "massimino_fermentable_1998",
+      "n": 1,
+      "title": "Fermentable Dietary Fiber Increases GLP-1 Secretion and Improves Glucose Homeostasis Despite Increased Intestinal Glucose Transport Capacity in Healthy Dogs",
+      "adjacent_claim": "Barley is among the richest common grain sources of cereal beta-glucan, which supports fermentable-fibre intake and glycaemic regulation in mixed-meal contexts [1].",
+      "annotation": "Rich source of beta-glucan, the viscous cereal fibre most strongly associated with barley's metabolic effects",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "barley",
+      "key": "fao_diaas_2013",
+      "n": 2,
+      "title": "Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation",
+      "adjacent_claim": "Within the BRAIN Diet framework, barley contributes plant protein that is relatively higher in methionine but **lysine-limited** like other grains; pairing with legumes improves essential amino-acid balance [2,3].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "barley",
+      "key": "mariotti_dietary_2019",
+      "n": 3,
+      "title": "Dietary Protein and Amino Acids in Vegetarian Diets—A Review",
+      "adjacent_claim": "Within the BRAIN Diet framework, barley contributes plant protein that is relatively higher in methionine but **lysine-limited** like other grains; pairing with legumes improves essential amino-acid balance [2,3].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "beef",
+      "key": "avgerinos_creatine_2018",
+      "n": 1,
+      "title": "Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials",
+      "adjacent_claim": "## Overview Beef is a nutrient-dense red meat providing **creatine**, **CoQ10**, **vitamin B12**, **zinc** and highly bioavailable **heme iron** [1–3].",
+      "annotation": "Creatine-supplementation trials; constituent-level creatine context, not a beef feeding trial",
+      "evidence_route": "constituent",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "beef",
+      "key": "crane_coq10_2001",
+      "n": 2,
+      "title": "Biochemical functions of coenzyme Q\\textsubscript{10}",
+      "adjacent_claim": "- **Organ meats** such as liver and heart contain substantially higher concentrations of some micronutrients and CoQ10 than standard muscle cuts [2].",
+      "annotation": "Mechanistic CoQ10 biochemistry; not a beef feeding trial",
+      "evidence_route": "explicitly-not-direct-food",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "beef",
+      "key": "beard_iron_2003",
+      "n": 3,
+      "title": "Iron Deficiency Alters Brain Development and Functioning",
+      "adjacent_claim": "## Overview Beef is a nutrient-dense red meat providing **creatine**, **CoQ10**, **vitamin B12**, **zinc** and highly bioavailable **heme iron** [1–3].",
+      "annotation": "Iron-deficiency and brain function; constituent-level iron context, not a beef feeding trial",
+      "evidence_route": "constituent",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "beef",
+      "key": "bouvard_meat_2015",
+      "n": 5,
+      "title": "Carcinogenicity of consumption of red and processed meat",
+      "adjacent_claim": "Within a BRAIN-aligned pattern, beef can be used selectively for this combination of nutrients, within the overall balance of plant and animal foods [5,6].",
+      "annotation": "Food-group evidence on red and processed meat; not a trial of this specific cut",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "beef",
+      "key": "willett_eatlancet_2019",
+      "n": 6,
+      "title": "Food in the Anthropocene: the EAT--Lancet Commission on healthy diets from sustainable food systems",
+      "adjacent_claim": "Within a BRAIN-aligned pattern, beef can be used selectively for this combination of nutrients, within the overall balance of plant and animal foods [5,6].",
+      "annotation": "Dietary-pattern evidence; not a beef feeding trial",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "beef",
+      "key": "cross_hca_2010",
+      "n": 9,
+      "title": "A prospective study of red and processed meat intake in relation to cancer risk",
+      "adjacent_claim": "- Avoid frequent **high-temperature charring or heavy browning**, which increases formation of heterocyclic amines and advanced glycation end products during cooking [8,9].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "beef",
+      "key": "satija_plantforward_2016",
+      "n": 10,
+      "title": "Healthful and unhealthful plant-based diets and the risk of coronary heart disease in US adults",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "beef",
+      "key": "norton_leucine_2006",
+      "n": 11,
+      "title": "Leucine regulates translation initiation of protein synthesis in skeletal muscle after exercise",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "beef",
+      "key": "fernstrom_lnna_2013",
+      "n": 12,
+      "title": "Large neutral amino acids: dietary effects on brain neurochemistry and function",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "bell-peppers",
+      "key": "johnson_role_2014",
+      "n": 1,
+      "title": "Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan",
+      "adjacent_claim": "References-only annotation: Labelled generic context: lutein and zeaxanthin in visual and cognitive function, not a bell-pepper iron-pairing trial",
+      "annotation": "Labelled generic context: lutein and zeaxanthin in visual and cognitive function, not a bell-pepper iron-pairing trial",
+      "evidence_route": "explicitly-not-direct-food",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "black-beans",
+      "key": "hallberg_iron_1989",
+      "n": 3,
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "adjacent_claim": "- Pair with vitamin C-rich foods to enhance non-heme iron absorption [3].",
+      "annotation": "Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "blueberries",
+      "key": "davis_quercetin_2009",
+      "n": 4,
+      "title": "Quercetin increases brain and muscle mitochondrial biogenesis and exercise tolerance",
+      "adjacent_claim": "References-only annotation: Rodent work shows quercetin can increase mitochondrial biogenesis in brain and muscle and improve exercise tolerance—mechanistic context for nutrition–exercise coupling, though not a direct blueberry-and-BDNF human trial",
+      "annotation": "Rodent work shows quercetin can increase mitochondrial biogenesis in brain and muscle and improve exercise tolerance—mechanistic context for nutrition–exercise coupling, though not a direct blueberry-and-BDNF human trial",
+      "evidence_route": "mechanistic",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "buckwheat",
+      "key": "fao_diaas_2013",
+      "n": 1,
+      "title": "Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation",
+      "adjacent_claim": "As with other grain-type plant proteins, buckwheat is better framed as **lysine-limited but complementary**, rather than \"complete\" in isolation [1,2].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "cacao-powder",
+      "key": "hands_multi-year_2024",
+      "n": 4,
+      "title": "A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA",
+      "adjacent_claim": "Vascular and neurocognitive research on cocoa flavanols supports mechanistic relevance through endothelial function pathways [2,3], while product sourcing and portion control remain important because heavy-metal variability is common across cocoa supply chains [4,5].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "carrots",
+      "key": "kindel_mechanism_2010",
+      "n": 1,
+      "title": "The mechanism of the formation and secretion of chylomicrons",
+      "adjacent_claim": "- Pair with olive oil, avocado, or other fats in salads and cooked dishes [1,2].",
+      "annotation": "Mechanistic context for fat-stimulated chylomicron formation; not a carrot feeding trial",
+      "evidence_route": "mechanistic",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "carrots",
+      "key": "brown_carotenoid_2004",
+      "n": 2,
+      "title": "Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection",
+      "adjacent_claim": "## Overview Carrots provide **beta-carotene** and other carotenoids at low energy density; carotenoid bioaccessibility from raw vegetables is limited and improved by cooking and co-ingested fat [2].",
+      "annotation": "Meal-pairing evidence: fat in salad dressings increased carotenoid bioavailability; not a carrot-only trial",
+      "evidence_route": "explicitly-not-direct-food",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "carrots",
+      "key": "johnson_role_2014",
+      "n": 3,
+      "title": "Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan",
+      "adjacent_claim": "Carotenoids such as lutein and zeaxanthin are discussed in visual and cognitive research at the constituent level rather than as carrot-feeding evidence [3].",
+      "annotation": "Constituent-level lutein and zeaxanthin review; not a carrot feeding trial",
+      "evidence_route": "constituent",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "chicken",
+      "key": "fernstrom_lnna_2013",
+      "n": 1,
+      "title": "Large neutral amino acids: dietary effects on brain neurochemistry and function",
+      "adjacent_claim": "Large-neutral-amino-acid balance in mixed meals affects tryptophan brain uptake; this is meal-pattern evidence, not a chicken feeding trial [1].",
+      "annotation": "Meal-pattern evidence: large-neutral-amino-acid balance affects tryptophan uptake into the brain; not a chicken feeding trial",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "cocoa",
+      "key": "hands_multi-year_2024",
+      "n": 4,
+      "title": "A multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA",
+      "adjacent_claim": "Vascular and neurocognitive research on cocoa flavanols supports mechanistic relevance [2,3], while product choice (processing, sugar, origin) shapes both flavanol delivery and contaminant exposure [4,5].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "corn",
+      "key": "johnson_role_2014",
+      "n": 1,
+      "title": "Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan",
+      "adjacent_claim": "## Overview Corn provides **lutein** and **zeaxanthin** carotenoids relevant to macular and cognitive dietary patterns [1,2].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "corn",
+      "key": "yagi_lutein_2021",
+      "n": 2,
+      "title": "Lutein Has a Positive Impact on Brain Health in Healthy Older Adults: A Systematic Review of Randomized Controlled Trials and Cohort Studies",
+      "adjacent_claim": "## Overview Corn provides **lutein** and **zeaxanthin** carotenoids relevant to macular and cognitive dietary patterns [1,2].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "corn",
+      "key": "vishwanathan_lutein_2014",
+      "n": 4,
+      "title": "Lutein is the predominant carotenoid in infant brain",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "extra-virgin-olive-oil",
+      "key": "schwingshackl_monounsaturated_2014",
+      "n": 1,
+      "title": "Monounsaturated fatty acids, olive oil and health status: a systematic review and meta-analysis of cohort studies",
+      "adjacent_claim": "While its basic macronutrient profile looks simple, phenolics such as oleuropein aglycone, oleocanthal, oleacein, and hydroxytyrosol derivatives give EVOO a distinctive antioxidant and anti-inflammatory signature compared with refined seed oils [1,2].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "extra-virgin-olive-oil",
+      "key": "fielding_increases_2005",
+      "n": 2,
+      "title": "Increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil",
+      "adjacent_claim": "While its basic macronutrient profile looks simple, phenolics such as oleuropein aglycone, oleocanthal, oleacein, and hydroxytyrosol derivatives give EVOO a distinctive antioxidant and anti-inflammatory signature compared with refined seed oils [1,2].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "flax-seeds",
+      "key": "nih_omega3_factsheet_2025",
+      "n": 1,
+      "title": "Omega-3 Fatty Acids: Fact Sheet for Health Professionals",
+      "adjacent_claim": "References-only annotation: Constituent-level fact sheet on ALA conversion limits; not a flax-seed feeding trial",
+      "annotation": "Constituent-level fact sheet on ALA conversion limits; not a flax-seed feeding trial",
+      "evidence_route": "constituent",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "flax-seeds",
+      "key": "mariotti_dietary_2019",
+      "n": 2,
+      "title": "Dietary Protein and Amino Acids in Vegetarian Diets—A Review",
+      "adjacent_claim": "References-only annotation: Plant-protein dietary-pattern evidence for limiting amino acids and complementarity; not a flax-seed trial",
+      "annotation": "Plant-protein dietary-pattern evidence for limiting amino acids and complementarity; not a flax-seed trial",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "garlic",
+      "key": "entezari_garlic_lemon_hyperlipidaemia_2016",
+      "n": 1,
+      "title": "Effect of Garlic and Lemon Juice Mixture on Lipid Profile and Some Cardiovascular Risk Factors in People 30--60 Years Old with Moderate Hyperlipidaemia: A Randomized Clinical Trial",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "garlic",
+      "key": "borlinghaus_allicin_chemistry_2014",
+      "n": 2,
+      "title": "Allicin: chemistry and biological properties",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "kale",
+      "key": "hallberg_iron_1989",
+      "n": 2,
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "adjacent_claim": "1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989) - Part of diverse leafy green strategy - Practical pairings: carrots + tahini, kale + avocado, berries + yogurt/nuts ### Preparation - Boiling reduces oxalates and improves mineral bioavailability [Chai and Liebman 2005](/docs/papers/BRAIN-Diet-References#cha",
+      "annotation": "Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "lamb",
+      "key": "fao_diaas_2013",
+      "n": 3,
+      "title": "Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation",
+      "adjacent_claim": "It fits best when paired with vegetables, legumes, and whole grains to keep the overall pattern plant-forward, while choosing minimally processed cuts and gentler cooking methods to avoid excessive charring and heat-derived compounds [1,3].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "lentils",
+      "key": "hallberg_iron_1989",
+      "n": 1,
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "adjacent_claim": "Pairing with vitamin C–rich foods improves non-haem iron absorption in mixed meals; that is mixed-meal evidence, not a lentil-feeding trial [1].",
+      "annotation": "Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "liver",
+      "key": "crane_coq10_2001",
+      "n": 2,
+      "title": "Biochemical functions of coenzyme Q\\textsubscript{10}",
+      "adjacent_claim": "Because liver is also a concentrated source of preformed vitamin A, portion size and frequency matter; gentle cooking and thoughtful sourcing help balance nutrient density with practical tolerability [1,2].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "lupin-beans",
+      "key": "fao_diaas_2013",
+      "n": 1,
+      "title": "Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "lupin-beans",
+      "key": "mariotti_dietary_2019",
+      "n": 2,
+      "title": "Dietary Protein and Amino Acids in Vegetarian Diets—A Review",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "oats",
+      "key": "fao_diaas_2013",
+      "n": 1,
+      "title": "Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "oats",
+      "key": "mariotti_dietary_2019",
+      "n": 2,
+      "title": "Dietary Protein and Amino Acids in Vegetarian Diets—A Review",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "oats",
+      "key": "sean_davies_oatmeal_2018",
+      "n": 3,
+      "title": "Oatmeal Effect on N-acyl-phosphatidylethanolamines",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "oranges",
+      "key": "hallberg_iron_1989",
+      "n": 2,
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "adjacent_claim": "References-only annotation: Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food",
+      "annotation": "Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "oyster-mushroom",
+      "key": "starck_mushrooms_2024",
+      "n": 1,
+      "title": "Mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines",
+      "adjacent_claim": "References-only annotation: Food-group mushroom vitamin D evidence; not an oyster-mushroom feeding trial",
+      "annotation": "Food-group mushroom vitamin D evidence; not an oyster-mushroom feeding trial",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "pumpkin-seeds",
+      "key": "mariotti_dietary_2019",
+      "n": 1,
+      "title": "Dietary Protein and Amino Acids in Vegetarian Diets—A Review",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "quinoa",
+      "key": "fao_diaas_2013",
+      "n": 1,
+      "title": "Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation",
+      "adjacent_claim": "lentils, chickpeas, beans) to improve overall essential amino-acid balance at meal/day level [1,2].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "rice",
+      "key": "fao_diaas_2013",
+      "n": 1,
+      "title": "Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation",
+      "adjacent_claim": "Grain protein remains **lysine-limited**; pairing with legumes improves essential amino acid balance [1,2].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "rice",
+      "key": "mariotti_dietary_2019",
+      "n": 2,
+      "title": "Dietary Protein and Amino Acids in Vegetarian Diets—A Review",
+      "adjacent_claim": "Grain protein remains **lysine-limited**; pairing with legumes improves essential amino acid balance [1,2].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "salmon-roe",
+      "key": "patrick_role_2019",
+      "n": 2,
+      "title": "Role of phosphatidylcholine‐DHA in preventing APOE4‐associated Alzheimer's disease",
+      "adjacent_claim": "## Overview Salmon roe provides **DHA** and **EPA** within a phospholipid-rich matrix [1,2], alongside **choline**, **vitamin B12** and high-quality protein.",
+      "annotation": "Review: phosphatidylcholine-DHA can be converted to lysophosphatidylcholine-DHA, which uses MFSD2A transport into the brain more efficiently than triglyceride-bound or unesterified DHA. Mechanistic context for roe's phospholipid DHA, not a salmon-roe feeding study",
+      "evidence_route": "mechanistic",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "salmon-roe",
+      "key": "shallcross_salmon_caviar_2022",
+      "n": 3,
+      "title": "Salmon Roe Caviar",
+      "adjacent_claim": "Keep the roe cold and avoid prolonged soaking, which can impair texture [3].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "sesame-seeds",
+      "key": "hallberg_iron_1989",
+      "n": 6,
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "adjacent_claim": "Phytate in the seed matrix reduces mineral bioavailability [6].",
+      "annotation": "Human iron-absorption series: phytate inhibits non-haem iron absorption in a dose-dependent way; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a sesame trial",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "sesame-seeds",
+      "key": "brown_carotenoid_2004",
+      "n": 7,
+      "title": "Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection",
+      "adjacent_claim": "- Dietary fat in the seed can help absorb carotenoids from vegetables eaten with it; the clinical demonstration used salad dressings, not sesame specifically [7].",
+      "annotation": "Human salad study of co-ingested dietary fat and carotenoid absorption. General lipid-phase mechanism; not a sesame-seed trial",
+      "evidence_route": "explicitly-not-direct-food",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "sesame-seeds",
+      "key": "mcdonald_american_gut_2018",
+      "n": 8,
+      "title": "American Gut: an Open Platform for Citizen Science Microbiome Research",
+      "adjacent_claim": "“Thirty plants per week” is a practical target from observational microbiome work, not a proven biological threshold or an RCT-derived prescription [8].",
+      "annotation": "Observational citizen-science cohort: self-reported intake of more than 30 plant types per week, versus 10 or fewer, associated with greater representation of putative fermenters. Not a randomised trial and not a proven threshold",
+      "evidence_route": "explicitly-not-direct-food",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "spinach",
+      "key": "chaiyarit_mitochondrial_2020",
+      "n": 2,
+      "title": "Mitochondrial Dysfunction and Kidney Stone Disease",
+      "adjacent_claim": "- Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability; boiling helps mitigate this by leaching soluble oxalate into the discarded cooking water - Oxalate can influence mitochondrial and redox biology in experimental cell models; this is mechanistic context rather than spinach",
+      "annotation": "Oxalate can influence mitochondrial and redox biology in experimental cell models; this is mechanistic context rather than spinach-feeding evidence",
+      "evidence_route": "mechanistic",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "spinach",
+      "key": "hallberg_iron_1989",
+      "n": 3,
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "adjacent_claim": "1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989) - Pair with fat (olive oil, avocado) for carotenoid absorption ### Preparation - Boiling markedly reduced soluble oxalate content by 30–87% and was more effective than steaming (5–53%) across the vegetables tested, which included spinach [Chai and Liebman 200",
+      "annotation": "Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "sunflower-seeds",
+      "key": "derbyshire_role_2023",
+      "n": 2,
+      "title": "The Role of Choline in Neurodevelopmental Disorders—A Narrative Review Focusing on ASC, ADHD and Dyslexia",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "tahini",
+      "key": "brown_carotenoid_2004",
+      "n": 2,
+      "title": "Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection",
+      "adjacent_claim": "The lipid phase can support carotenoid absorption from vegetables in the same meal; that mechanism comes from salad-dressing research, not a tahini trial [2].",
+      "annotation": "Human salad study showing higher carotenoid bioavailability with full-fat than fat-reduced dressings. General dietary-fat mechanism; not a tahini-specific clinical trial",
+      "evidence_route": "explicitly-not-direct-food",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "tahini",
+      "key": "hallberg_iron_1989",
+      "n": 5,
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "adjacent_claim": "Phytate remains after grinding [5].",
+      "annotation": "Human iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a tahini trial",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "tahini",
+      "key": "mcdonald_american_gut_2018",
+      "n": 7,
+      "title": "American Gut: an Open Platform for Citizen Science Microbiome Research",
+      "adjacent_claim": "“Thirty plants per week” is a practical observational target, not a proven threshold [7].",
+      "annotation": "Observational citizen-science cohort: self-reported intake of more than 30 plant types per week, versus 10 or fewer, associated with greater representation of putative fermenters. Not a randomised trial and not a proven threshold",
+      "evidence_route": "explicitly-not-direct-food",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "tofu",
+      "key": "hallberg_iron_1989",
+      "n": 2,
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "adjacent_claim": "References-only annotation: Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food",
+      "annotation": "Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "tuna",
+      "key": "mcnamara_role_2006",
+      "n": 1,
+      "title": "Role of omega-3 fatty acids in brain development and function: Potential implications for the pathogenesis and prevention of psychopathology",
+      "adjacent_claim": "Marine long-chain omega-3s are a constituent of tuna flesh; reviews of those fatty acids in brain development and function provide constituent-level context rather than a tuna feeding trial [1].",
+      "annotation": "Constituent-level review of long-chain omega-3 fatty acids in brain development and function; not a tuna feeding trial",
+      "evidence_route": "constituent",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "turkey",
+      "key": "fernstrom_lnna_2013",
+      "n": 1,
+      "title": "Large neutral amino acids: dietary effects on brain neurochemistry and function",
+      "adjacent_claim": "Carbohydrate co-consumption can influence amino-acid competition at transporters (Trp:LNAA ratio); this is meal-pattern evidence, not a turkey feeding trial [1].",
+      "annotation": "Meal-pattern evidence: large-neutral-amino-acid balance affects tryptophan uptake into the brain; not a turkey feeding trial",
+      "evidence_route": "food-group-or-dietary-pattern",
+      "bibliographic_core_only": false
+    },
+    {
+      "slug": "watermelon",
+      "key": "avgerinos_creatine_2018",
+      "n": 1,
+      "title": "Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "watermelon",
+      "key": "mariotti_dietary_2019",
+      "n": 2,
+      "title": "Dietary Protein and Amino Acids in Vegetarian Diets—A Review",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "wheat-germ",
+      "key": "derbyshire_role_2023",
+      "n": 1,
+      "title": "The Role of Choline in Neurodevelopmental Disorders—A Narrative Review Focusing on ASC, ADHD and Dyslexia",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "wheat-germ",
+      "key": "packer_vitamin_1997",
+      "n": 2,
+      "title": "Vitamin E and the Metabolic Antioxidant Network",
+      "adjacent_claim": "Listed in References with no adjacent inline claim",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "wheat",
+      "key": "fao_diaas_2013",
+      "n": 1,
+      "title": "Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation",
+      "adjacent_claim": "From a protein perspective, wheat is best understood as a grain protein that is typically lysine-limited rather than complete on its own [1,2].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "whole-grains",
+      "key": "fao_diaas_2013",
+      "n": 1,
+      "title": "Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation",
+      "adjacent_claim": "Protein quality remains grain-typical (lysine-limited), so amino-acid balance still improves when paired with legumes [1,2].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    },
+    {
+      "slug": "whole-grains",
+      "key": "mariotti_dietary_2019",
+      "n": 2,
+      "title": "Dietary Protein and Amino Acids in Vegetarian Diets—A Review",
+      "adjacent_claim": "Protein quality remains grain-typical (lysine-limited), so amino-acid balance still improves when paired with legumes [1,2].",
+      "annotation": "",
+      "evidence_route": "bibliographic-core-only",
+      "bibliographic_core_only": true
+    }
+  ],
+  "evidence_level_moves": [
+    {
+      "slug": "beef",
+      "key": "avgerinos_creatine_2018",
+      "title": "Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "constituent",
+      "adjacent_claim": "## Overview Beef is a nutrient-dense red meat providing **creatine**, **CoQ10**, **vitamin B12**, **zinc** and highly bioavailable **heme iron** [1–3]."
+    },
+    {
+      "slug": "beef",
+      "key": "crane_coq10_2001",
+      "title": "Biochemical functions of coenzyme Q\\textsubscript{10}",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "explicitly-not-direct-food",
+      "adjacent_claim": "- **Organ meats** such as liver and heart contain substantially higher concentrations of some micronutrients and CoQ10 than standard muscle cuts [2]."
+    },
+    {
+      "slug": "beef",
+      "key": "beard_iron_2003",
+      "title": "Iron Deficiency Alters Brain Development and Functioning",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "constituent",
+      "adjacent_claim": "## Overview Beef is a nutrient-dense red meat providing **creatine**, **CoQ10**, **vitamin B12**, **zinc** and highly bioavailable **heme iron** [1–3]."
+    },
+    {
+      "slug": "beef",
+      "key": "bouvard_meat_2015",
+      "title": "Carcinogenicity of consumption of red and processed meat",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "food-group-or-dietary-pattern",
+      "adjacent_claim": "Within a BRAIN-aligned pattern, beef can be used selectively for this combination of nutrients, within the overall balance of plant and animal foods [5,6]."
+    },
+    {
+      "slug": "beef",
+      "key": "willett_eatlancet_2019",
+      "title": "Food in the Anthropocene: the EAT--Lancet Commission on healthy diets from sustainable food systems",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "food-group-or-dietary-pattern",
+      "adjacent_claim": "Within a BRAIN-aligned pattern, beef can be used selectively for this combination of nutrients, within the overall balance of plant and animal foods [5,6]."
+    },
+    {
+      "slug": "black-beans",
+      "key": "hallberg_iron_1989",
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "food-group-or-dietary-pattern",
+      "adjacent_claim": "- Pair with vitamin C-rich foods to enhance non-heme iron absorption [3]."
+    },
+    {
+      "slug": "carrots",
+      "key": "kindel_mechanism_2010",
+      "title": "The mechanism of the formation and secretion of chylomicrons",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "mechanistic",
+      "adjacent_claim": "- Pair with olive oil, avocado, or other fats in salads and cooked dishes [1,2]."
+    },
+    {
+      "slug": "carrots",
+      "key": "brown_carotenoid_2004",
+      "title": "Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "explicitly-not-direct-food",
+      "adjacent_claim": "## Overview Carrots provide **beta-carotene** and other carotenoids at low energy density; carotenoid bioaccessibility from raw vegetables is limited and improved by cooking and co-ingested fat [2]."
+    },
+    {
+      "slug": "carrots",
+      "key": "johnson_role_2014",
+      "title": "Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "constituent",
+      "adjacent_claim": "Carotenoids such as lutein and zeaxanthin are discussed in visual and cognitive research at the constituent level rather than as carrot-feeding evidence [3]."
+    },
+    {
+      "slug": "chicken",
+      "key": "fernstrom_lnna_2013",
+      "title": "Large neutral amino acids: dietary effects on brain neurochemistry and function",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "food-group-or-dietary-pattern",
+      "adjacent_claim": "Large-neutral-amino-acid balance in mixed meals affects tryptophan brain uptake; this is meal-pattern evidence, not a chicken feeding trial [1]."
+    },
+    {
+      "slug": "flax-seeds",
+      "key": "nih_omega3_factsheet_2025",
+      "title": "Omega-3 Fatty Acids: Fact Sheet for Health Professionals",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "constituent",
+      "adjacent_claim": "References-only annotation: Constituent-level fact sheet on ALA conversion limits; not a flax-seed feeding trial"
+    },
+    {
+      "slug": "flax-seeds",
+      "key": "mariotti_dietary_2019",
+      "title": "Dietary Protein and Amino Acids in Vegetarian Diets—A Review",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "food-group-or-dietary-pattern",
+      "adjacent_claim": "References-only annotation: Plant-protein dietary-pattern evidence for limiting amino acids and complementarity; not a flax-seed trial"
+    },
+    {
+      "slug": "kale",
+      "key": "hallberg_iron_1989",
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "food-group-or-dietary-pattern",
+      "adjacent_claim": "1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989) - Part of diverse leafy green strategy - Practical pairings: carrots + tahini, kale + avocado, berries + yogurt/nuts ### Preparation - Boiling reduces oxalates and improves mineral bioavailability [Chai and Liebman 2005"
+    },
+    {
+      "slug": "lentils",
+      "key": "hallberg_iron_1989",
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "food-group-or-dietary-pattern",
+      "adjacent_claim": "Pairing with vitamin C–rich foods improves non-haem iron absorption in mixed meals; that is mixed-meal evidence, not a lentil-feeding trial [1]."
+    },
+    {
+      "slug": "oranges",
+      "key": "hallberg_iron_1989",
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "food-group-or-dietary-pattern",
+      "adjacent_claim": "References-only annotation: Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food"
+    },
+    {
+      "slug": "oyster-mushroom",
+      "key": "starck_mushrooms_2024",
+      "title": "Mushrooms: a food-based solution to vitamin D deficiency to include in dietary guidelines",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "food-group-or-dietary-pattern",
+      "adjacent_claim": "References-only annotation: Food-group mushroom vitamin D evidence; not an oyster-mushroom feeding trial"
+    },
+    {
+      "slug": "spinach",
+      "key": "chaiyarit_mitochondrial_2020",
+      "title": "Mitochondrial Dysfunction and Kidney Stone Disease",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "mechanistic",
+      "adjacent_claim": "- Oxalate binds to minerals and forms insoluble compounds, significantly reducing bioavailability; boiling helps mitigate this by leaching soluble oxalate into the discarded cooking water - Oxalate can influence mitochondrial and redox biology in experimental cell models; this is"
+    },
+    {
+      "slug": "spinach",
+      "key": "hallberg_iron_1989",
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "food-group-or-dietary-pattern",
+      "adjacent_claim": "1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989) - Pair with fat (olive oil, avocado) for carotenoid absorption ### Preparation - Boiling markedly reduced soluble oxalate content by 30–87% and was more effective than steaming (5–53%) across the vegetables tested, whic"
+    },
+    {
+      "slug": "tofu",
+      "key": "hallberg_iron_1989",
+      "title": "Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "food-group-or-dietary-pattern",
+      "adjacent_claim": "References-only annotation: Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food"
+    },
+    {
+      "slug": "tuna",
+      "key": "mcnamara_role_2006",
+      "title": "Role of omega-3 fatty acids in brain development and function: Potential implications for the pathogenesis and prevention of psychopathology",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "constituent",
+      "adjacent_claim": "Marine long-chain omega-3s are a constituent of tuna flesh; reviews of those fatty acids in brain development and function provide constituent-level context rather than a tuna feeding trial [1]."
+    },
+    {
+      "slug": "turkey",
+      "key": "fernstrom_lnna_2013",
+      "title": "Large neutral amino acids: dietary effects on brain neurochemistry and function",
+      "from": "presented as adjacent food support (unlabelled)",
+      "to": "food-group-or-dietary-pattern",
+      "adjacent_claim": "Carbohydrate co-consumption can influence amino-acid competition at transporters (Trp:LNAA ratio); this is meal-pattern evidence, not a turkey feeding trial [1]."
+    }
+  ],
+  "unchanged_but_unverified": [
+    {
+      "slug": "almonds",
+      "file": "docs/foods/almonds.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "jung_almonds_vitamin_e_2018",
+        "berryman_almonds_2015",
+        "tan_almonds_2013",
+        "mariotti_dietary_2019",
+        "kumari_activating_nuts_2020",
+        "taylor_activating_almonds_2018"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "amaranth",
+      "file": "docs/foods/amaranth.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "amare_amaranth_2015",
+        "jan_amaranth_quinoa_2023",
+        "hejazi_amaranth_malting_2016"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "apples",
+      "file": "docs/foods/apples.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "haber_depletion_1977",
+        "neveu_phenol-explorer_2010",
+        "liu_apple_pectin_2023"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "asparagus",
+      "file": "docs/foods/asparagus.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "goni_asparagus_spear_2024",
+        "redondo_cuenca_asparagus_2023"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "aubergine",
+      "file": "docs/foods/aubergine.md",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "noda_nasunin_2000",
+        "plazas_eggplant_cga_2013",
+        "zaro_eggplant_cga_cooking_2015"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "avocado",
+      "file": "docs/foods/avocado.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "unlu_carotenoid_2005"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "bananas",
+      "file": "docs/foods/bananas.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "ottaviani_polyphenol_oxidase_flavan_2023"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "beetroot",
+      "file": "docs/foods/beetroot.md",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "schroeter_epicatechin_flavanol_cocoa_vascular_2006",
+        "kennedy_b_2016"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "bell-peppers",
+      "file": "docs/foods/bell-peppers.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "johnson_role_2014",
+        "brown_carotenoid_2004"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "black-goji",
+      "file": "docs/foods/black-goji.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "neshatdoust_high-flavonoid_2016"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "black-pepper",
+      "file": "docs/foods/black-pepper.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "shoba_influence_1998"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "black-tea",
+      "file": "docs/foods/black-tea.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "zelicha_effect_2022",
+        "neshatdoust_high-flavonoid_2016",
+        "van_het_hof_catechins_milk_1998"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "broccoli-sprouts",
+      "file": "docs/foods/broccoli-sprouts.md",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "houghton_sulforaphane_2016",
+        "egner_broccoli_sprout_beverage_2014"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "broccoli",
+      "file": "docs/foods/broccoli.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "houghton_sulforaphane_2016",
+        "kennedy_b_2016"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "brussels-sprouts",
+      "file": "docs/foods/brussels-sprouts.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "houghton_sulforaphane_2016",
+        "kennedy_b_2016"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "butter",
+      "file": "docs/foods/butter.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "li_saturated_2015",
+        "willett_eatlancet_2019"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "cod",
+      "file": "docs/foods/cod.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "mcnamara_role_2006",
+        "fao_diaas_2013"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "dark-chocolate",
+      "file": "docs/foods/dark-chocolate.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "neshatdoust_high-flavonoid_2016",
+        "schroeter_epicatechin_flavanol_cocoa_vascular_2006",
+        "hands_multi-year_2024",
+        "godebo_occurrence_2024",
+        "zhai_dietary_2015"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "lumpfish-roe",
+      "file": "docs/foods/lumpfish-roe.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "patrick_role_2019"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "rosemary",
+      "file": "docs/foods/rosemary.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "aruoma_antioxidant_pro-oxidant_rosemary_1992",
+        "paloukopoulou_validated_carnosic_carnosol_rosemary_2022",
+        "johnson_carnosol_anti-cancer_2011"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "scallops",
+      "file": "docs/foods/scallops.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "fao_diaas_2013",
+        "wojcik_potential_2010",
+        "avgerinos_creatine_2018"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "sesame-seeds",
+      "file": "docs/foods/sesame-seeds.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "elleuch_sesame_2007",
+        "andargie_sesame_lignans_2021",
+        "wu_sesame_2009",
+        "mariotti_dietary_2019",
+        "adatia_sesame_allergy_2017",
+        "hallberg_iron_1989",
+        "brown_carotenoid_2004",
+        "mcdonald_american_gut_2018"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "sourdough-bread",
+      "file": "docs/foods/sourdough-bread.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "ribet_nutritional_2023",
+        "gil_cardoso_consumption_2021",
+        "alkay_exploring_2024",
+        "ganzle_proteolysis_2008",
+        "gobbetti_how_2014",
+        "coda_use_2010"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "soy",
+      "file": "docs/foods/soy.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "fuloria_genistein_2022",
+        "fao_diaas_2013"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "tahini",
+      "file": "docs/foods/tahini.md",
+      "commits": [
+        "ee03197",
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "andargie_sesame_lignans_2021",
+        "brown_carotenoid_2004",
+        "adatia_sesame_allergy_2017",
+        "elleuch_sesame_2007",
+        "hallberg_iron_1989",
+        "mariotti_dietary_2019",
+        "mcdonald_american_gut_2018"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    },
+    {
+      "slug": "trout-roe",
+      "file": "docs/foods/trout-roe.md",
+      "commits": [
+        "e0f9d46",
+        "ca8ae4e"
+      ],
+      "remaining_refs": [
+        "patrick_role_2019",
+        "liu_higher_2014"
+      ],
+      "note": "In the three-commit union and identical to current HEAD. Claim–source relationships were not checked in this pass."
+    }
+  ],
+  "identical_highlight_groups": [
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "heart, kidney, liver: nutrient-dense source of complete protein plus highly bioavailable vitamins and minerals.",
+      "slugs": [
+        "heart",
+        "kidney",
+        "liver"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "heart, kidney, liver: typically richer than standard muscle meat in vitamin b12 and other micronutrients.",
+      "slugs": [
+        "heart",
+        "kidney",
+        "liver"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "heart, kidney, lamb, liver, pork, turkey: contains no dietary fibre, so meals are usually more balanced with vegetables, legumes, or whole grains.",
+      "slugs": [
+        "heart",
+        "kidney",
+        "lamb",
+        "liver",
+        "pork",
+        "turkey"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "heart, kidney, liver: nutrient concentrations can be very high, so portion size and frequency are useful practical levers.",
+      "slugs": [
+        "heart",
+        "kidney",
+        "liver"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "heart, kidney, liver: processing and cooking method still matter for overall dietary context.",
+      "slugs": [
+        "heart",
+        "kidney",
+        "liver"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "herring, mackerel, mussels, salmon, sardines, shrimp, tuna: provides complete, highly digestible protein.",
+      "slugs": [
+        "herring",
+        "mackerel",
+        "mussels",
+        "salmon",
+        "sardines",
+        "shrimp",
+        "tuna"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "herring, mackerel, mussels, salmon, sardines, shrimp, tuna: commonly contributes selenium, iodine, and vitamin b12, though levels vary by species.",
+      "slugs": [
+        "herring",
+        "mackerel",
+        "mussels",
+        "salmon",
+        "sardines",
+        "shrimp",
+        "tuna"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "herring, mackerel, mussels, salmon, sardines, shrimp, tuna: epa/dha content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.",
+      "slugs": [
+        "herring",
+        "mackerel",
+        "mussels",
+        "salmon",
+        "sardines",
+        "shrimp",
+        "tuna"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "herring, mackerel, mussels, salmon, sardines, shrimp, tuna: often lower in saturated fat than many fatty red-meat patterns when minimally processed.",
+      "slugs": [
+        "herring",
+        "mackerel",
+        "mussels",
+        "salmon",
+        "sardines",
+        "shrimp",
+        "tuna"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "herring, mackerel, mussels, salmon, sardines, shrimp, tuna: nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).",
+      "slugs": [
+        "herring",
+        "mackerel",
+        "mussels",
+        "salmon",
+        "sardines",
+        "shrimp",
+        "tuna"
+      ]
+    },
+    {
+      "id": "identical-generic-highlights",
+      "where": "Highlights",
+      "excerpt": "lamb, pork, turkey: provides a complete, highly digestible protein source.",
+      "slugs": [
+        "lamb",
+        "pork",
+        "turkey"
+      ]
+    }
+  ],
+  "status_counts": {
+    "requires-editorial-review": 135,
+    "unchanged-but-unverified": 26,
+    "renamed-or-removed": 2,
+    "mechanically-repaired": 4,
+    "scientifically-verified": 2
+  },
+  "queue_tier_counts": {
+    "1": 37,
+    "2": 255,
+    "3": 66,
+    "4": 12
+  },
+  "queue_items": 370
+}

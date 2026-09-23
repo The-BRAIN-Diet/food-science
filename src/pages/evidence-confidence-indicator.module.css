@@ -1,0 +1,115 @@
+.lede {
+  max-width: 60rem;
+}
+
+.panelGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2.5rem;
+}
+
+/*
+ * The panels carry `data-theme`, which re-scopes the --brain-evidence-* tokens
+ * from custom.css. Only the simulated page background and text colour are set
+ * here, so the preview uses the real tokens rather than a copy of them.
+ */
+.panelLight,
+.panelDark {
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.panelLight {
+  background: #ffffff;
+  color: #1c1e21;
+}
+
+.panelDark {
+  background: #1b1b1d;
+  color: #ebedf0;
+}
+
+.panelTitle {
+  margin: 0 0 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.7;
+  color: inherit;
+}
+
+.stack,
+.stackGrayscale,
+.geometryStack {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.stackGrayscale {
+  filter: grayscale(1);
+}
+
+.stackRow {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.stackNote {
+  font-size: 0.8rem;
+  opacity: 0.75;
+  color: inherit;
+}
+
+/* Demo-only overrides of the component's segment geometry. */
+.proportionCompact {
+  --brain-evidence-segment-width: 0.875rem;
+  --brain-evidence-segment-height: 0.625rem;
+}
+
+.proportionWide {
+  --brain-evidence-segment-width: 1.5rem;
+  --brain-evidence-segment-height: 0.5rem;
+}
+
+.proportionLabel {
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  opacity: 0.7;
+  color: inherit;
+}
+
+.proportionGroup + .proportionGroup {
+  margin-top: 1.25rem;
+}
+
+.contextParagraph {
+  margin-bottom: 1.25rem;
+  color: inherit;
+}
+
+.contextTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  color: inherit;
+}
+
+.contextTable th,
+.contextTable td {
+  padding: 0.5rem 0.65rem;
+  text-align: left;
+  border-bottom: 1px solid currentColor;
+  /* currentColor at full strength is too heavy for a rule. */
+  border-bottom-color: color-mix(in srgb, currentColor 20%, transparent);
+}
+
+.usageBlock {
+  max-width: 60rem;
+}

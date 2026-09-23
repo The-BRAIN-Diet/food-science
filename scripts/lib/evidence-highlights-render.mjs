@@ -24,14 +24,23 @@ export function renderEvidenceReferencesBlock(references = []) {
  * @param {string} entry.title — `<details>` summary label
  * @param {string} entry.confidence — low | low-medium | medium | high
  * @param {string} entry.evidence_level — mechanistic | observational | intervention | clinical
+ * @param {string} [entry.sec] — Scientific Finding roll-ups carry Synthesised
+ *   Evidence Confidence instead of the legacy confidence pair; no legacy value
+ *   is invented for them.
  * @param {string} entry.rationale
  * @param {object[]} entry.references — phenome reference shape
  */
 export function renderEvidenceEntryDropdown(entry) {
+  const confidenceLines = entry.sec
+    ? [
+        `- **Synthesised Evidence Confidence:** ${
+          String(entry.sec) === "not-yet-scored" ? "Not yet scored" : entry.sec
+        }`,
+      ]
+    : [`- **Confidence:** ${entry.confidence}`, `- **Evidence Level:** ${entry.evidence_level}`];
   const panelLines = [
-    `- **Confidence:** ${entry.confidence}`,
-    `- **Evidence Level:** ${entry.evidence_level}`,
-    `- **Rationale:** ${dedupeAdjacentCitationBrackets(String(entry.rationale).trim())}`,
+    ...confidenceLines,
+    `- **${entry.sec ? "Synthesis" : "Rationale"}:** ${dedupeAdjacentCitationBrackets(String(entry.rationale).trim())}`,
     ...renderEvidenceReferencesBlock(entry.references || []),
   ];
   return `${renderHubCollapsible(entry.title, panelLines.join("\n"))}\n`;

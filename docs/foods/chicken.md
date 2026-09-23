@@ -71,15 +71,17 @@ legacy_main_image: /img/foods/chicken/chicken_medium.webp
 ---
 ## Overview
 
-Chicken provides **niacin (vitamin B3)** for NAD⁺ synthesis, **zinc**, and amino acids including **tryptophan**, supporting neurotransmitter synthesis and mitochondrial function [1]. Niacin feeds NAD⁺ salvage pathways relevant to ATP production and cognitive energy metabolism [1].
+Chicken provides **niacin (vitamin B3)** for NAD⁺ synthesis, **zinc**, and amino acids including **tryptophan**, supporting neurotransmitter synthesis and mitochondrial function. Niacin feeds NAD⁺ salvage pathways relevant to ATP production and cognitive energy metabolism.
 
-Within the BRAIN Diet framework, chicken is a flexible protein base; large neutral amino acid balance affects tryptophan brain uptake in mixed meals [2]. Pair with fibre- and polyphenol-rich plants; gentler cooking preserves B vitamins [1,2].
+Within the BRAIN Diet framework, chicken is a flexible protein base. Large-neutral-amino-acid balance in mixed meals affects tryptophan brain uptake; this is meal-pattern evidence, not a chicken feeding trial [1]. Pair with fibre- and polyphenol-rich plants; gentler cooking helps preserve B vitamins.
+
 ## Key Nutritional Highlights
 
-- Complete, highly digestible animal protein with niacin and zinc [1].
-- Tryptophan source; LNAA competition affects serotonin-pathway routing [2].
+- Complete, highly digestible animal protein with niacin and zinc.
+- Tryptophan source; LNAA competition in mixed meals affects serotonin-pathway routing (meal-pattern evidence) [1].
 - Lower heme-iron density than red meat; lower saturated fat when skin limited.
 - Processing level matters: minimally processed cuts differ from cured/deli products.
+
 ## Food Context
 
 ### Synergies
@@ -109,6 +111,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-[1] Complete, highly digestible animal protein with niacin and zinc. Pirinen & Auranen 2020. [Niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
-
-[2] Tryptophan source; LNAA competition affects serotonin-pathway routing. Fernstrom et al. 2013. [Large neutral amino acids: dietary effects on brain neurochemistry and function](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+[1] Fernstrom et al. (2013). [Large neutral amino acids: dietary effects on brain neurochemistry and function](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013). Meal-pattern evidence: large-neutral-amino-acid balance affects tryptophan uptake into the brain; not a chicken feeding trial.

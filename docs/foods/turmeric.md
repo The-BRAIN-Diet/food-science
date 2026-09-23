@@ -76,16 +76,7 @@ legacy_main_image: /img/foods/turmeric/turmeric_medium.webp
 
 Turmeric is the whole spice (dried and ground root of the Curcuma longa plant) that contains many bioactive compounds, including curcumin (the most well-known polyphenol), demethoxycurcumin, bisdemethoxycurcumin, turmerones (fat-soluble compounds), and essential oils. Only 2–6% of turmeric powder is curcumin. Curcumin is responsible for most of turmeric's anti-inflammatory and neuroprotective effects.
 
-Within the BRAIN Diet framework, absorption is enhanced by pairing with black pepper (piperine) and fat. Therapeutic doses typically use 500–1000 mg/day curcumin with piperine [1][2].
-## Key Nutritional Highlights
-
-
-- Curcumin from turmeric is studied for anti-inflammatory and neuroprotective mechanisms [1]
-- Piperine markedly increases curcumin bioavailability when turmeric is paired with black pepper [2]
-- Turmeric is the whole spice (dried and ground root of the Curcuma longa plant) that contains many bioactive compounds, including curcumin (the most well-known polyphenol), demethoxycurcumin, bisdemethoxycurcumin, turmerones (fat-soluble … [1]
-- Only 2–6% of turmeric powder is curcumin. [2]
-- Curcumin is responsible for most of turmeric's anti-inflammatory and neuroprotective effects.
-- Absorption is enhanced by pairing with black pepper (piperine) and fat.
+Within the BRAIN Diet framework, absorption is enhanced by pairing with black pepper (piperine) and fat. Therapeutic doses typically use 500–1000 mg/day curcumin with piperine.
 
 ## Food Context
 

@@ -48,15 +48,7 @@ legacy_main_image: /img/foods/lemon-balm-tea/lemon-balm-tea_medium.webp
 
 Lemon balm tea is an herbal infusion that supports sleep and calm, often used in evening routines for ADHD sleep dysregulation.
 
-Within the BRAIN Diet framework, herbal teas such as chamomile for apigenin, lemon balm tea, and tart cherry juice are recommended for evening wind-down and sleep prep [1][2].
-## Key Nutritional Highlights
-
-
-- Melissa officinalis (lemon balm) is studied for calm and cognitive effects in herbal trials [1]
-- Herbal teas contribute polyphenol bioactives with neuromodulatory relevance [2]
-- Lemon balm tea is an herbal infusion that supports sleep and calm, often used in evening routines for ADHD sleep dysregulation. [1]
-- Herbal teas such as chamomile for apigenin, lemon balm tea, and tart cherry juice are recommended for evening wind-down and sleep prep. [2]
-- Lemon balm tea is an herbal infusion that supports sleep and calm, often used in evening routines for ADHD sleep dysregulation.
+Within the BRAIN Diet framework, herbal teas such as chamomile for apigenin, lemon balm tea, and tart cherry juice are recommended for evening wind-down and sleep prep.
 
 ## Food Context
 

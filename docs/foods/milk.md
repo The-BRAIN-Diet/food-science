@@ -69,16 +69,7 @@ legacy_main_image: /img/foods/milk/milk_medium.webp
 
 Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (NAD+ precursor), and calcium, supporting mitochondrial function and bone health. Milk (skim) has a DIAAS score of 118, indicating balanced EAA profile and supports myelination.
 
-Within the BRAIN Diet framework, nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread). Fortified plant milks and dairy milk can help meet calcium (and sometimes iodine, depending on fortification and local practices) targets [1][2].
-## Key Nutritional Highlights
-
-
-- Milk provides highly digestible complete protein with strong DIAAS scores [1]
-- Dairy contributes B vitamins relevant to one-carbon metabolism and brain function [2]
-- Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (NAD+ precursor), and calcium, supporting mitochondrial function and bone health. [1]
-- Milk (skim) has a DIAAS score of 118, indicating balanced EAA profile and supports myelination. [2]
-- Nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread).
-- Fortified plant milks and dairy milk can help meet calcium (and sometimes iodine, depending on fortification and local practices) targets.
+Within the BRAIN Diet framework, nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread). Fortified plant milks and dairy milk can help meet calcium (and sometimes iodine, depending on fortification and local practices) targets.
 
 ## Food Context
 

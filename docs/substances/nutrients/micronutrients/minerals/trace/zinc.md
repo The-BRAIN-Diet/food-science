@@ -9,18 +9,18 @@ tags:
   - Mineral
   - Trace Mineral
   - Zinc
-  - Methylation
-  - Neurochemical Balance
-  - Inflammation
-  - Oxidative Stress
+  - Methylation & One-Carbon Metabolism
+  - Neurotransmitter Regulation
+  - Inflammation & Oxidative Stress
+  - Gut-Brain Axis & Enteric Nervous System
 ion_notation: Zn2+
 list_image: /img/minerals/zinc-wikimedia.jpg
 main_image: /img/minerals/zinc-wikimedia.jpg
 mechanisms:
-  Methylation: 'Deficiencies in vitamins and minerals essential for methylation, such as folate, vitamin B12, and zinc, are correlated to ADHD symptoms; supplementing these micronutrients has shown potential in supporting methylation and reducing symptom severity'
-  Neurochemical Balance: 'Important for DNA synthesis, cell division, and neurotransmitter regulation, particularly in modulating dopamine—a key neurotransmitter implicated in ADHD; acts as an allosteric modulator of the GABA receptor; supports glutamate regulation'
-  Inflammation: Supports immune signaling; gut barrier integrity disrupted by nutrient deficiencies including zinc
-  Oxidative Stress: Essential mineral that serves as a cofactor for antioxidant enzymes; works synergistically with other antioxidants; heavy metals are detoxified by metallothionein (MT) metal carrier proteins that must bind with zinc and copper
+  Methylation & One-Carbon Metabolism: 'Zinc is among the micronutrients that support methylation-related enzyme systems alongside folate and vitamin B12; insufficiency is one of several nutritional constraints that may co-occur with attentional symptoms, not a methylation diagnosis.'
+  Neurotransmitter Regulation: 'Cofactor for enzymes involved in DNA synthesis, cell division and neurotransmitter regulation; allosteric modulator of GABA receptors; supports glutamate regulation and dopaminergic signalling.'
+  Inflammation & Oxidative Stress: 'Cofactor for antioxidant enzymes; metallothionein proteins bind zinc and copper; immune signalling depends in part on adequate zinc.'
+  Gut-Brain Axis & Enteric Nervous System: 'Zinc supports epithelial barrier integrity; phytate-rich meals reduce absorption, while soaking, sprouting and fermentation can improve availability from plant foods.'
 ---
 
 ## Overview
@@ -67,14 +67,14 @@ Zinc is an essential trace mineral that plays numerous critical roles in brain f
 
 <AdvancedNutrition>
 
-### Zinc within the copper-to-zinc ratio {#zinc-within-the-copper-to-zinc-ratio}
+<h2 id="zinc-within-the-copper-to-zinc-ratio" tabIndex={-1}>Zinc within the copper-to-zinc ratio</h2>
 
 Reports of a higher copper-to-zinc ratio in some ADHD populations do not necessarily indicate elevated copper. The ratio may instead reflect lower zinc availability, inflammatory redistribution, differences in dietary intake or absorption, or combined changes in both minerals. Zinc status should therefore be interpreted directly and contextually rather than inferred from the ratio alone.
 
 Zinc participates in synaptic signalling, antioxidant defence, metallothionein function and numerous enzyme systems, but lower concentrations observed at group level do not establish a zinc-deficient ADHD subtype. Whether a verified zinc inadequacy contributes to symptoms—and whether its correction improves a defined outcome—requires individual assessment and intervention evidence.
 
-See [Copper–zinc balance: a contextual constraint, not a biochemical type](/docs/substances/nutrients/micronutrients/minerals/trace/copper?advanced=1#copper-zinc-balance) for the complete cross-system cascade and evidence assessment.
+See [Copper–zinc regulation as a biological constraint](/docs/substances/nutrients/micronutrients/minerals/trace/copper?advanced=1#copper-zinc-balance) for the complete cross-system cascade and evidence assessment.
 
-Walsh’s biochemical-individuality model helped popularise copper–zinc interpretations in behavioural disorders, but its proposed biotypes have not been validated as ADHD subtypes; see the [advanced copper discussion](/docs/substances/nutrients/micronutrients/minerals/trace/copper?advanced=1#walsh-biochemical-biotypes) for the evidence and limitations.
+Walsh’s biochemical-individuality model helped popularise copper–zinc interpretations in behavioural disorders, but its proposed biotypes have not been validated as ADHD subtypes; see the [copper Therapeutic Area Research discussion](/docs/substances/nutrients/micronutrients/minerals/trace/copper?therapeutic=1#walsh-biochemical-biotypes) for the evidence and limitations.
 
 </AdvancedNutrition>

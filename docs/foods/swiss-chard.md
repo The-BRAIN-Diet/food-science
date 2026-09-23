@@ -66,15 +66,7 @@ legacy_main_image: /img/foods/swiss-chard/swiss-chard_medium.webp
 
 Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, and carotenoids. Similar to other leafy greens like kale and spinach, it supports neurotransmitter synthesis and antioxidant function.
 
-The BRAIN diet specifically targets leafy green vegetables such as kale and spinach that are rich in iron, magnesium, and zinc, and Swiss chard fits within this category [1][2].
-## Key Nutritional Highlights
-
-
-- Leafy greens supply folate and B vitamins supporting one-carbon and neurochemical metabolism [1]
-- Green leafy vegetables contribute lutein and carotenoids relevant to neuroprotection [2]
-- Swiss chard is a nutrient-dense leafy green providing iron, magnesium, folate, and carotenoids. [1]
-- Similar to other leafy greens like kale and spinach, it supports neurotransmitter synthesis and antioxidant function. [2]
-- The BRAIN diet specifically targets leafy green vegetables such as kale and spinach that are rich in iron, magnesium, and zinc, and Swiss chard fits within this category.
+The BRAIN diet specifically targets leafy green vegetables such as kale and spinach that are rich in iron, magnesium, and zinc, and Swiss chard fits within this category.
 
 ## Food Context
 

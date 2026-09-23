@@ -65,12 +65,14 @@ legacy_main_image: /img/foods/chia-seeds/chia-seeds_medium.webp
 Chia seeds provide **ALA omega-3**, **fibre**, and plant protein in a hydrophilic seed matrix [1]. They are lysine-limited like most nuts/seeds and pair with legumes for amino-acid balance [2].
 
 Within the BRAIN Diet framework, chia is a fibre and ALA source used in puddings, yogurts, and baked goods; hydration forms a gel that slows gastric emptying.
+
 ## Key Nutritional Highlights
 
 - ALA omega-3 and very high fibre per 100 g; typical portions are 1–2 tablespoons [1].
 - Lysine-limited plant protein; pair with legumes [2].
 - Gel formation when soaked; useful soluble-fibre addition.
 - Energy-dense; 100 g table values exceed normal serving sizes.
+
 ## Food Context
 
 ### Synergies

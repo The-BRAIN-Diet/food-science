@@ -1,0 +1,18 @@
+---
+description: Canonical structure for Cross-BRS dependency pages
+globs:
+  - "docs/biological-targets/dependencies/**/*.md"
+  - "docs/biological-targets/dependencies/**/*.mdx"
+  - "system/cross-brs-dependency-page-schema.md"
+  - "scripts/lib/brs-dependency-pages.mjs"
+  - "scripts/generate-brs-dependency-pages.mjs"
+alwaysApply: false
+---
+
+Follow **`system/cross-brs-dependency-page-schema.md`**. Exemplar: `docs/biological-targets/dependencies/brs2-to-brs1.md`.
+
+A Cross-BRS dependency page documents the specific biological capacity, signal, substrate, condition or constraint transmitted between two systems. It must not repeat the full purpose, Functional Mechanisms or general regulatory role of either BRS. Source and receiving systems should be identified briefly and linked to their canonical hub pages.
+
+Required sections: opening sentence; **Dependency**; **Principal Routes** table; **Network Interpretation**; **Boundary and Evidence Status**; **Supporting Evidence**.
+
+Do not restore Biological Contribution / Systems Significance / Integrated Regulatory Capacity boilerplate. Do not treat BH4 as a BRS2 resource. Do not invent principal routes from future-development biology that has no current PM.

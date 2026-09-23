@@ -80,4 +80,4 @@ Within the BRAIN Diet, it can help absorb carotenoids from salads and salsa [2].
 
 [2] Unlu et al. (2005). [Carotenoid Absorption from Salad and Salsa by Humans Is Enhanced by the Addition of Avocado or Avocado Oil](/docs/papers/BRAIN-Diet-References#unlu_carotenoid_2005). Avocado oil (and avocado fruit) added to salad increased human absorption of α-carotene, β-carotene and lutein versus salad without avocado lipid.
 
-[3] Flores et al. (2019). [Avocado Oil: Characteristics, Properties, and Applications](/docs/papers/BRAIN-Diet-References#flores_avocado_oil_2019). Review of avocado-oil composition and applications; thermal stability is similar to olive oil, so smoke point is not treated as universally higher.
+[3] Flores et al. (2019). [Avocado Oil: Characteristics, Properties, and Applications](/docs/papers/BRAIN-Diet-References#flores_avocado_oil_2019)

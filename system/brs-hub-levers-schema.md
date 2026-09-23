@@ -8,6 +8,12 @@ Rollup and presentation schema for **BRS1–BRS6 hub pages**.
 
 Each BRS hub page should orient readers in under one minute: explain the biological objective, translate system requirements into practical dietary guidance, and guide readers into Functional Modules — without duplicating PM-level biology, Food Profiles, or Recipes.
 
+**PM Evidence traceability (future Lever build):** Dietary-facing labels must use the same
+four-field atomic currency as PM Evidence (`system/dietary-input-traceability-contract.md`).
+Default presentation stays compact; full Input / Type / Role / Evidence Source is exposed
+on interaction. Evidence links resolve to the PM canonical References section — no
+separate Lever bibliography.
+
 ---
 
 ## Hub page structure (BRS1–BRS6)
@@ -29,6 +35,7 @@ Each BRS hub page should orient readers in under one minute: explain the biologi
 - Standalone **Biological Bottlenecks / Constraints** section (content integrated into Dietary Guidance Biology)
 - Standalone **References** section on the hub (TA dropdown carries its own references)
 - Separate **Target Foods** dropdown (target foods now live inside each Dietary Guidance point)
+- Standalone **Modulators** and **Functional Outputs** sections (legacy leftover from the April 2026 ontology template; circadian, sleep, activity and meal-timing content now lives in Dietary and Lifestyle Levers, and observable system-state patterns belong in Ambition / Phenomes rather than uncited hub bullets)
 
 **Migration status:** BRS1–BRS6 are live on the canonical KC-integrated Dietary Guidance layout; do not re-run `brs:generate-hub-key-constraints` for hubs already migrated (generator skips them).
 
@@ -50,68 +57,44 @@ Source of truth: `scripts/data/brs-cross-integration-evidence.json` (also consum
 
 ## Cross-BRS Dependencies
 
-Cross-BRS dependencies explain **how the Functional Mechanisms within one Biological Regulatory System collectively preserve the adaptive performance of another during sustained physiological demand.** Category B evidence — not ADHD intervention studies. Rendered as collapsible notes on each hub page.
+**Canonical dependency pages:** `system/cross-brs-dependency-page-schema.md`. Exemplar: `docs/biological-targets/dependencies/brs2-to-brs1.md`.
+
+A Cross-BRS dependency page documents the specific biological capacity, signal, substrate, condition or constraint transmitted between two systems. It must not repeat the full purpose, Functional Mechanisms or general regulatory role of either BRS. Source and receiving systems should be identified briefly and linked to their canonical hub pages.
+
+Hub Cross-BRS Dependencies are **short pointers** (Category B evidence — not ADHD intervention studies) with an Open link to the dependency page. They must not paste Biological Contribution / Systems Significance / Integrated Regulatory Capacity boilerplate that restates the source BRS.
 
 **Canonical graph rule:** PM §6.2 **Cross-BRS Mechanism Relationships** are the single canonical home for explicit PM-to-PM biological relationships. Hub Cross-BRS Dependencies provide **systems-level interpretation** on the hub — they must **not** duplicate PM relationship lists (no **Declared PM Relationships** panels).
 
 **PM relationships are not the BRS dependency.** PM §6.2 declarations provide mechanistic evidence supporting the dependency, but a BRS dependency is a systems-level biological interpretation informed by literature, physiology, integrated BRS architecture, and expert interpretation.
 
-### Core principle
+### What each dependency page must answer
 
-Every Cross-BRS relationship answers:
+- what capacity, substrate, signal or condition crosses the boundary;
+- how it reaches or constrains the receiving BRS;
+- whether the route is direct, mediated or conditional;
+- what evidence supports it;
+- where interpretation remains uncertain.
 
-> **How do the Functional Mechanisms within this Biological Regulatory System collectively preserve the adaptive performance of another Biological Regulatory System?**
+Do not reproduce generic source-BRS or receiving-BRS purpose statements, and do not list all Functional Mechanisms of either system.
 
-Derive the biological story from the **contributing BRS architecture** (its FMs). Literature validates the conclusion; it does not lead the narrative. The **Biological Regulatory System** is always the unit of explanation.
+### Hub panel
 
-### Hub panel structure (required)
+Each hub collapsible should show the named dependency, an Open link, and at most a one-sentence pointer plus evidence citations. Do not regenerate hub panels from the retired three-paragraph template.
 
-Each relationship in `scripts/data/brs-cross-integration-evidence.json` uses system-level fields. Each hub collapsible uses these layers:
+Hub renderer: `scripts/lib/brs-hub-cross-integration.mjs`. Regenerating hubs currently still reads legacy JSON fields; do not use `npm run brs:generate-hub-cross-integration` to restore boilerplate until that renderer is updated.
 
-| # | Field / layer | Section title | Question |
-|---|---------------|---------------|----------|
-| 1 | `biological_contribution` | **Biological Contribution** | What does this BRS snapshot collectively contribute? |
-| 2 | `systems_significance` | **Systems Significance** | Why does preserving this capacity matter for the downstream BRS? |
-| 3 | `integrated_regulatory_capacity` | **Integrated Regulatory Capacity** | What integrated regulatory capacities produce this cross-BRS relationship? |
-| 4 | `evidence[]` | **Supporting Evidence** | Which landmark reviews validate the systems interpretation? |
-| — | `translational_examples[]` (optional) | **Translational Examples** | Worked intervention examples — not proof of every intermediate step |
+**Do not render Declared PM Relationships on hub pages.**
 
-**Panel order (required):** Biological Contribution → Systems Significance → Integrated Regulatory Capacity → **Supporting Evidence** → Translational Examples (if any).
+#### Supporting Evidence
 
-**Do not render Declared PM Relationships on hub pages.** PM §6.2 on Primary Mechanism pages is the canonical PM-to-PM graph.
-
-Hub renderer: `scripts/lib/brs-hub-cross-integration.mjs`. Regenerate hubs: `npm run brs:generate-hub-cross-integration`.
-
-#### 1. Biological Contribution
-
-One concise sentence. Emergent contribution of the **whole BRS**, not individual PMs. Frame **adaptive capacity** (ability to regulate appropriately under demand).
-
-*Collectively, the Functional Mechanisms within [source BRS] maintain the adaptive [capacity] that enables [destination BRS] to [preserve function] under prolonged physiological demand.*
-
-#### 2. Systems Significance
-
-Explain **adaptive systems significance** — upstream enabling role, principal biological constraints under allostatic load, complement vs substitute. This is the primary section for **allostatic framing** (see below). Include:
-
-- Demand-preservation clause (*reducing the likelihood that… become the principal biological constraint(s)…*)
-- Upstream enabling system (or principal gateway for BRS6)
-- Complement clause (*preserving the biological environment within which resilient [function] can be sustained*)
-
-#### 3. Integrated Regulatory Capacity
-
-FM-derived integrated capacities at **BRS level only**. Open with *Together, the Functional Mechanisms within…* Close with *Rather than acting through a single pathway…*
-
-Do **not** introduce PM detail (vesicle mobilisation, enzymes, receptor subtypes).
-
-#### 4. Supporting Evidence
-
-1–3 landmark systems-biology papers. Each `supports` field validates the framework interpretation at BRS level — not a bibliographic synopsis. No dietary prescriptions.
+1–3 landmark papers. Each `supports` field must state only what the source demonstrates or reviews.
 
 ### Positioning allostasis across the BRS network
 
 Do **not** present allostasis as synonymous solely with BRS6.
 
 - **BRS6** is the principal **gateway** for introducing allostatic theory (HPA-axis, autonomic regulation, glycaemic control, stress–metabolic load allocation).
-- **Canonical implementation:** `(BRS6 → BRS1)` Cross-BRS **Integrated Regulatory Capacity** — how allostasis is implemented biologically across the integrated network.
+- **Canonical implementation:** `(BRS6 → BRS1)` dependency page, including Cascade 6 — how stress allocation can reach BRS1 directly and through BRS4/BRS3.
 - **Allostasis** is a property of the **entire BRS network**, not a single system.
 
 The six BRSs collectively determine adaptive capacity (`brs_adaptive_resilience_roles` in the integration library):
@@ -129,8 +112,8 @@ Allostatic load emerges when one or more adaptive capacities become constrained 
 
 Therefore:
 
-- Introduce allostatic **theory** primarily within **(BRS6 → BRS1) Cross-BRS Dependencies** (Systems Significance + Integrated Regulatory Capacity).
-- Explain other Cross-BRS dependencies in terms of **preserving adaptive capacity and biological resilience**.
+- Introduce allostatic **theory** primarily on the **(BRS6 → BRS1)** dependency page, including Cascade 6.
+- Explain other Cross-BRS dependencies by naming the capacity, substrate, signal or condition that crosses the boundary.
 - Avoid describing every BRS as *"an allostatic system."*
 - Present the six BRSs as the **integrated adaptive network** through which allostatic regulation is achieved.
 
@@ -141,7 +124,7 @@ Distinguish:
 
 ### Allostasis reference tiers
 
-Foundational citations live in `allostasis_reference_tiers` within `scripts/data/brs-cross-integration-evidence.json`. Use in **(BRS6 → BRS1) Cross-BRS** Systems Significance and Supporting Evidence; brief pointer only in manuscript introduction.
+Foundational citations live in `allostasis_reference_tiers` within `scripts/data/brs-cross-integration-evidence.json`. Use on the **(BRS6 → BRS1)** dependency page where the named stress-allocation sequence is discussed.
 
 | Tier | Papers | Role |
 |------|--------|------|
@@ -151,35 +134,25 @@ Foundational citations live in `allostasis_reference_tiers` within `scripts/data
 
 \*Pending bibliography entry — add to `static/bibtex/BRAIN-diet.bib` before citing on published pages.
 
-### Worked example (BRS4 → BRS1)
+### Worked examples
 
-**Biological Contribution**
+Do not copy the retired three-paragraph hub template. Canonical pages:
 
-> Collectively, the Functional Mechanisms within BRS4 maintain the adaptive bioenergetic reserve that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.
-
-**Systems Significance**
-
-> By preserving these bioenergetic capacities, BRS4 reduces the likelihood that energetic limitation becomes the principal rate-limiting constraint on neurotransmitter regulation within BRS1 as allostatic load increases. BRS4 is not itself a neurotransmitter system. Instead, it functions as an upstream enabling system that preserves the bioenergetic conditions required for resilient neurotransmitter regulation. Maintaining BRS4 therefore complements neurotransmitter precursor and cofactor biology by preserving adaptive bioenergetic capacity rather than substituting for neurotransmitter regulation itself.
-
-**Integrated Regulatory Capacity**
-
-> Together, the Functional Mechanisms within BRS4 maintain energetic reserve, metabolic flexibility, oxidative resilience and adaptive mitochondrial capacity required to sustain neurotransmission during prolonged cognitive, metabolic and physiological demand. Rather than acting through a single pathway, these integrated capacities collectively preserve neuronal energy availability and reduce the likelihood that sustained physiological demand degrades neurotransmitter regulation within BRS1.
-
-**Supporting Evidence** — Harris et al. (2012); Picard (2015).
-
-### Worked example (BRS3 → BRS1)
-
-Canonical template — see integration library `BRS3->BRS1`.
+- `docs/biological-targets/dependencies/brs2-to-brs1.md`
+- `docs/biological-targets/dependencies/brs4-to-brs1.md`
+- `docs/biological-targets/dependencies/brs6-to-brs1.md`
 
 ### Anti-patterns
 
 | Do not write | Write instead |
 |--------------|---------------|
-| One dense paragraph mixing all four questions | Four labelled sections |
-| "Mitochondria supply ATP for synapses" | BRS-level integrated capacities |
-| PM molecular detail in Integrated Regulatory Capacity | FM-derived BRS capacities only |
-| Every BRS labelled "allostatic" | Adaptive capacity / resilience; BRS6 as gateway |
-| Dietary targets in Supporting Evidence | Biological validation only |
+| Secondary BRS hub on a dependency page | Named routes that cross the boundary |
+| Generic source-BRS purpose restated | One-sentence link to the hub |
+| BH4 as a BRS2 resource | BH4 substance page; BRS1/BRS3 relationships |
+| Future-development biology as a current route | Flag until a PM exists |
+| Clinical benefit inferred from a pathway | Boundary and evidence status |
+| Every BRS labelled "allostatic" | Named mediators; BRS6 as gateway |
+| Dietary targets in Supporting Evidence | What the cited source actually shows |
 
 ### Display titles
 
@@ -202,6 +175,27 @@ Describe the desired functional state of the Biological Regulatory System — th
 ### Example (BRS1)
 
 > Maintain continuous, balanced neurotransmitter signalling across monoaminergic, cholinergic and GABA–glutamate systems, supported by membrane-lipid integrity, so the brain sustains attention, arousal, motivation, emotional regulation and behavioural control without drifting into depletion, broader signalling imbalance or excitation–inhibition mismatch.
+
+---
+
+## Rationale for inclusion as a distinct BRS
+
+**Placement:** immediately after **Ambition**, before Therapeutic Area Research.
+
+One short paragraph explaining why this biology is treated as a distinct Biological Regulatory System. Answers: *Why is this a separate system rather than a chapter inside another BRS?*
+
+Do **not** use “ringfenced” or other internal development language on public hub pages.
+
+### Authoring rules
+
+- Name the shared infrastructure the system coordinates (molecules, pathways, operating conditions).
+- State the system’s role in the network (for example primary signalling, upstream enabling, environmental constraint, energetic enabling, conditional interface, stress-allocation gateway, or cross-system overlay).
+- Distinguish established biology from framework interpretation.
+- Do **not** present the BRS as a universal explanation for brain-related conditions.
+- Do **not** list every Functional Mechanism merely because it belongs to the system.
+- Keep to one paragraph. Link to FM, PM and Cross-BRS pages for detail.
+
+**Canonical example:** BRS2 (`methylation-one-carbon-metabolism.md`).
 
 ---
 
@@ -310,6 +304,9 @@ The BRS hub should now follow this learning pathway:
 
 **Ambition**
 → what the system is trying to achieve.
+
+**Rationale for inclusion as a distinct BRS**
+→ why this biology is treated as a separate system.
 
 **Dietary Guidance**
 → Pattern → Nutrients → Biology

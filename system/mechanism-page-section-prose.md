@@ -66,6 +66,11 @@ After front matter, each mechanism page opens with:
 
 ## PM Mechanistic Basis — canonical structure
 
+Mechanistic Basis is the **starting boundary** for bounded evidence assessment, not
+an immutable one. If adjudication materially changes what the PM can claim, flag a
+PM-scope consequence and review Mission, Overview, and Mechanistic Basis together
+(`system/primary-mechanism-schema.md` § **PM scope consistency (evidence assessment)**).
+
 **Reference:** [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
 
 ```
@@ -354,9 +359,13 @@ After reading §1 only, a non-specialist should understand what the mechanism do
 
 **§4 UX:** `### Summary` stays **outside** `<details>`; the four-part `####` narrative goes **inside** one `<details>` block. `### 4.1 Evidence Highlights` follows the dropdown as a subsection of `## 4.`, not inside it.
 
-## PM §4.1 — Evidence Highlights
+## PM §4.1 — Scientific Findings
 
-**Placement:** `### 4.1 Evidence Highlights` at the end of `## 4. Mechanistic Basis` (Profile A), or `### 2.1` at the end of `## 2.` (Profile B). Not inside the mechanism `<details>` block.
+**Governance:** `system/scientific-finding-schema.md` § Bounded assessment — the
+ontology proposes the question; evidence gets to challenge it. Define proposition
+→ assess relevant evidence → adjudicate → stop.
+
+**Placement:** `### 4.1 Scientific Findings` (or legacy `Evidence Highlights`) at the end of `## 4. Mechanistic Basis` (Profile A), or `### 2.1` at the end of `## 2.` (Profile B). Not inside the mechanism `<details>` block.
 
 | Do | Avoid |
 |----|--------|
@@ -375,7 +384,7 @@ After reading §1 only, a non-specialist should understand what the mechanism do
 |---------|------|-----|--------|
 | **§1 Mission & Overview (PM)** | Biological ambition + brief orientation (~65–75 words) + 3 scannable bullets | Mechanism biology dump; foods; parent-FM architecture; title paraphrase |
 | **§5 Summary + blocks** | How it happens | Restating §1; food lists; evidence-trial recap |
-| **§4.1 Evidence Highlights** | How we know (mechanism-qualifying findings with citations) | Re-explaining LAT1, NF-κB, Nrf2, etc.; **phenome/outcome science** (belongs in §3) |
+| **§4.1 Scientific Findings** | How we know — proposition-bound Findings with citations | Re-explaining LAT1, NF-κB, Nrf2, etc.; **phenome/outcome science** unless it tests a defined relationship proposition (otherwise §3 or Connected / Supportive Evidence) |
 
 Optional **`#### (Cross-BRS relevance of …)`** inside the mechanism dropdown when a PM's foods span multiple BRS domains (reference: BRS1 PM1 protein foods).
 

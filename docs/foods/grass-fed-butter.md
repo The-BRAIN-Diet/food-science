@@ -79,8 +79,6 @@ Within the BRAIN Diet framework, grass-fed butter is retained as a compact culin
 
 ## Key Nutritional Highlights
 
-- Pasture- versus grain-fed ruminant fats differ in fatty-acid and CLA profile [1]
-- Pasture-fed milk butter shows higher vitamin K1 and MK-4 than total-mixed-ration butter [2]
 - Butter, cheese, and egg yolk contribute dietary vitamin K2 (menaquinones); hard cheeses are major Western sources of longer-chain MKs [3][4]
 - C15:0 (pentadecanoic acid) is concentrated in dairy fat (including butter and Parmesan); higher circulating C15:0 associates with more favourable cardiometabolic profiles and is under study as a potential essential fatty acid [5]
 - Use culinary portions for flavour and fat-soluble micronutrient delivery—not as a primary cooking oil at high heat

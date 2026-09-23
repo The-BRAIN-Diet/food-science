@@ -54,15 +54,7 @@ legacy_main_image: /img/foods/olives/olives_medium.webp
 
 Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health.
 
-Within the BRAIN Diet framework, sources of MUFA include extra-virgin olive oil, avocado, olives, and nuts [1][2].
-## Key Nutritional Highlights
-
-
-- Olives and olive oil provide monounsaturated fats and polyphenols within Mediterranean dietary patterns [1]
-- Olive oil phenolics influence intestinal inflammation and antioxidant status [2]
-- Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health. [1]
-- Sources of MUFA include extra-virgin olive oil, avocado, olives, and nuts. [2]
-- Olives provide monounsaturated fats (MUFA) and polyphenols, supporting cardiovascular and brain health.
+Within the BRAIN Diet framework, sources of MUFA include extra-virgin olive oil, avocado, olives, and nuts.
 
 ## Food Context
 

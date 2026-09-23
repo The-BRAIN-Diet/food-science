@@ -64,15 +64,7 @@ nutrition_supplementary_sources:
 
 Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking.
 
-Within the BRAIN Diet framework, ghee provides butyrate, vitamins A/D/E/K2, is heat-stable, and low in lactose/casein, making it suitable for high-heat cooking and Ayurvedic dishes [1][2].
-## Key Nutritional Highlights
-
-
-- Grass-fed dairy fats differ in fatty-acid profile from conventional dairy, including CLA content [1]
-- Short-chain fatty acids from saturated fats and fermentation support colonic and metabolic health context [2]
-- Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking. [1]
-- Ghee provides butyrate, vitamins A/D/E/K2, is heat-stable, and low in lactose/casein, making it suitable for high-heat cooking and Ayurvedic dishes. [2]
-- Ghee is clarified butter providing butyrate, vitamins A/D/E/K2, and heat stability, making it suitable for high-heat cooking.
+Within the BRAIN Diet framework, ghee provides butyrate, vitamins A/D/E/K2, is heat-stable, and low in lactose/casein, making it suitable for high-heat cooking and Ayurvedic dishes.
 
 ## Food Context
 
