@@ -1,18 +1,12 @@
-import React from "react"
+import React, { useEffect, useRef } from "react"
+import { initBrsFmHubDropdowns } from "../client/brsFmHubDropdown"
 
 /**
- * Canonical Scientific Finding renderer.
+ * Canonical Scientific Finding renderer — audience-layered presentation.
  *
- * Structure is fixed by the BRAIN evidence model:
- *   Finding Statement → Finding Discriminator [conditional] → Synthesised Evidence
- *   Confidence → Synthesis → Synthesis Limitations → Evidence Considered
- *   (→ Individual Study Assessment) → Connected / Supportive Evidence →
- *   Evidence Dependency.
- *
- * A Finding is authored once in PM front matter and may be referenced by 0..n
- * phenome relationships. `informs` is derived at sync time from those
- * references so reuse is visible without the Finding or its evidence being
- * duplicated.
+ * Outer disclosure matches PM §4 Mechanistic Basis hub blocks (green chevron,
+ * brs-fm-hub-summary title). Inner "Explore the evidence" and study rows use
+ * the same hub disclosure pattern.
  */
 
 export type EvidenceSource = "repository-inherited" | "bounded-external-search"
@@ -31,7 +25,6 @@ export type EvidenceConsideredItem = {
   href?: string
   citation_key?: string
   data_level?: string
-  /** Collapsed one-line contribution — must preserve direction. */
   directional_finding: string
   evidence_source: EvidenceSource
   assessment?: IndividualStudyAssessment
@@ -47,9 +40,11 @@ export type ConnectedSupportiveItem = {
 
 export type ScientificFindingData = {
   id: string
+  finding_label?: string
   finding_statement: string
+  finding_summary?: string
+  finding_interpretation?: string
   finding_discriminator?: string
-  /** Only "not-yet-scored" is currently authorised. Never inferred here. */
   synthesised_evidence_confidence: string
   synthesis: string
   synthesis_limitations: string
@@ -64,12 +59,12 @@ const EVIDENCE_SOURCE_LABELS: Record<string, string> = {
   "bounded-external-search": "Bounded external search",
 }
 
-/**
- * Renders the already-determined confidence state. This must never derive or
- * infer a confidence level from the evidence beneath it.
- */
 function formatSec(value: string): string {
   return String(value || "").trim() === "not-yet-scored" ? "Not yet scored" : String(value)
+}
+
+function readerTitle(finding: ScientificFindingData): string {
+  return String(finding.finding_label || "").trim() || finding.id
 }
 
 function Citation({
@@ -126,125 +121,195 @@ function Assessment({
   )
 }
 
+function HubDisclosure({
+  label,
+  children,
+  className = "",
+}: {
+  label: React.ReactNode
+  children: React.ReactNode
+  className?: string
+}): React.JSX.Element {
+  return (
+    <div className={`brs-fm-hub-item brain-sf-disclosure ${className}`.trim()} data-brs-fm-hub>
+      <div className="brs-fm-hub-shell">
+        <button type="button" className="brs-fm-hub-summary" aria-expanded="false">
+          <span className="brs-fm-hub-chevron" aria-hidden="true" />
+          <strong>{label}</strong>
+        </button>
+        <div className="brs-fm-hub-panel" hidden>
+          {children}
+        </div>
+      </div>
+    </div>
+  )
+}
+
 export default function ScientificFinding({
   finding,
 }: {
   finding: ScientificFindingData
 }): React.JSX.Element {
+  const rootRef = useRef<HTMLElement>(null)
   const connected = finding.connected_supportive_evidence || []
   const dependency = finding.evidence_dependency || []
   const informs = finding.informs || []
+  const title = readerTitle(finding)
+  const anchor = finding.id.toLowerCase()
+  const summary = String(finding.finding_summary || "").trim()
+  const interpretation = String(finding.finding_interpretation || "").trim()
+
+  useEffect(() => {
+    if (rootRef.current) {
+      initBrsFmHubDropdowns(rootRef.current)
+    }
+  }, [finding.id])
 
   return (
-    // The anchor id is owned by the generated markdown heading above this
-    // component, so it is registered for link checking and not duplicated here.
-    <section className="brain-sf" aria-label={`Scientific Finding ${finding.id}`}>
-      <details className="brain-sf-shell">
-        <summary className="brain-sf-summary">
-          <span className="brain-sf-statement">{finding.finding_statement}</span>
-        </summary>
+    <section
+      ref={rootRef}
+      className="brain-sf"
+      id={anchor}
+      aria-label={title}
+    >
+      <div className="brs-fm-hub-item brain-sf-finding" data-brs-fm-hub>
+        <div className="brs-fm-hub-shell">
+          <button type="button" className="brs-fm-hub-summary" aria-expanded="false">
+            <span className="brs-fm-hub-chevron" aria-hidden="true" />
+            <strong>{title}</strong>
+          </button>
+          <div className="brs-fm-hub-panel" hidden>
+            {summary ? <p className="brain-sf-lead">{summary}</p> : null}
 
-        <div className="brain-sf-body">
-          {finding.finding_discriminator ? (
-            <p className="brain-sf-field">
-              <strong>Finding Discriminator:</strong> {finding.finding_discriminator}
+            {interpretation ? (
+              <div className="brain-sf-interpretation">
+                <p className="brain-sf-interpretation-label">
+                  <strong>What this means</strong>
+                </p>
+                <p className="brain-sf-interpretation-body">{interpretation}</p>
+              </div>
+            ) : null}
+
+            <p className="brain-sf-confidence-compact">
+              <strong>Evidence confidence:</strong>{" "}
+              <span className="brain-sf-sec">{formatSec(finding.synthesised_evidence_confidence)}</span>
             </p>
-          ) : null}
 
-          <p className="brain-sf-field">
-            <strong>Synthesised Evidence Confidence:</strong>{" "}
-            <span className="brain-sf-sec">{formatSec(finding.synthesised_evidence_confidence)}</span>
-          </p>
-
-          <p className="brain-sf-field">
-            <strong>Synthesis:</strong> {finding.synthesis}
-          </p>
-
-          <p className="brain-sf-field">
-            <strong>Synthesis Limitations:</strong> {finding.synthesis_limitations}
-          </p>
-
-          <p className="brain-sf-field brain-sf-field--label">
-            <strong>Evidence Considered:</strong>
-          </p>
-          <ul className="brain-sf-evidence">
-            {finding.evidence_considered.map((item) => {
-              const reference = (
-                <Citation label={item.label} href={item.href} dataLevel={item.data_level} />
-              )
-              return (
-                <li key={`${finding.id}:${item.citation_key || item.label}`}>
-                  {item.assessment ? (
-                    <details className="brain-sf-isa-shell">
-                      <summary>
-                        <span className="brain-sf-evidence-label">{item.label}</span>
-                        <span className="brain-sf-evidence-finding"> — {item.directional_finding}</span>
-                      </summary>
-                      <Assessment
-                        assessment={item.assessment}
-                        source={item.evidence_source}
-                        reference={reference}
-                      />
-                    </details>
-                  ) : (
-                    <>
-                      <span className="brain-sf-evidence-label">{item.label}</span>
-                      <span className="brain-sf-evidence-finding"> — {item.directional_finding}</span>
-                      <div className="brain-sf-evidence-ref">{reference}</div>
-                    </>
-                  )}
-                </li>
-              )
-            })}
-          </ul>
-
-          {connected.length > 0 ? (
-            <>
-              <p className="brain-sf-field brain-sf-field--label">
-                <strong>Connected / Supportive Evidence:</strong>
+            <HubDisclosure label="Explore the evidence">
+              <p className="brain-sf-audit-id">
+                <strong>Finding ID:</strong> <code>{finding.id}</code>
               </p>
-              <ul className="brain-sf-connected">
-                {connected.map((item) => (
-                  <li key={`${finding.id}:cse:${item.label}`}>
+
+              <p className="brain-sf-field">
+                <strong>Finding Statement:</strong> {finding.finding_statement}
+              </p>
+
+              {finding.finding_discriminator ? (
+                <p className="brain-sf-field">
+                  <strong>Finding Discriminator:</strong> {finding.finding_discriminator}
+                </p>
+              ) : null}
+
+              <p className="brain-sf-field">
+                <strong>Synthesised Evidence Confidence:</strong>{" "}
+                <span className="brain-sf-sec">{formatSec(finding.synthesised_evidence_confidence)}</span>
+              </p>
+
+              <p className="brain-sf-field">
+                <strong>Synthesis:</strong> {finding.synthesis}
+              </p>
+
+              <p className="brain-sf-field">
+                <strong>Synthesis Limitations:</strong> {finding.synthesis_limitations}
+              </p>
+
+              <p className="brain-sf-field brain-sf-field--label">
+                <strong>Evidence Considered:</strong>
+              </p>
+              <ul className="brain-sf-evidence">
+                {finding.evidence_considered.map((item) => {
+                  const reference = (
                     <Citation label={item.label} href={item.href} dataLevel={item.data_level} />
-                    <div className="brain-sf-connected-why">
-                      <em>Why relevant:</em> {item.why_relevant}
-                    </div>
-                    <div className="brain-sf-connected-why">
-                      <em>Why excluded from the primary synthesis:</em> {item.why_excluded}
-                    </div>
-                  </li>
-                ))}
+                  )
+                  return (
+                    <li key={`${finding.id}:${item.citation_key || item.label}`}>
+                      {item.assessment ? (
+                        <HubDisclosure
+                          className="brain-sf-isa-disclosure"
+                          label={
+                            <>
+                              <span className="brain-sf-evidence-label">{item.label}</span>
+                              <span className="brain-sf-evidence-finding"> — {item.directional_finding}</span>
+                            </>
+                          }
+                        >
+                          <Assessment
+                            assessment={item.assessment}
+                            source={item.evidence_source}
+                            reference={reference}
+                          />
+                        </HubDisclosure>
+                      ) : (
+                        <>
+                          <span className="brain-sf-evidence-label">{item.label}</span>
+                          <span className="brain-sf-evidence-finding"> — {item.directional_finding}</span>
+                          <div className="brain-sf-evidence-ref">{reference}</div>
+                        </>
+                      )}
+                    </li>
+                  )
+                })}
               </ul>
-            </>
-          ) : null}
 
-          {dependency.length > 0 ? (
-            <>
-              <p className="brain-sf-field brain-sf-field--label">
-                <strong>Evidence Dependency:</strong>
-              </p>
-              <ul className="brain-sf-dependency">
-                {dependency.map((note) => (
-                  <li key={`${finding.id}:dep:${note.slice(0, 40)}`}>{note}</li>
-                ))}
-              </ul>
-            </>
-          ) : null}
+              {connected.length > 0 ? (
+                <>
+                  <p className="brain-sf-field brain-sf-field--label">
+                    <strong>Connected / Supportive Evidence:</strong>
+                  </p>
+                  <ul className="brain-sf-connected">
+                    {connected.map((item) => (
+                      <li key={`${finding.id}:cse:${item.label}`}>
+                        <Citation label={item.label} href={item.href} dataLevel={item.data_level} />
+                        <div className="brain-sf-connected-why">
+                          <em>Why relevant:</em> {item.why_relevant}
+                        </div>
+                        <div className="brain-sf-connected-why">
+                          <em>Why excluded from the primary synthesis:</em> {item.why_excluded}
+                        </div>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
 
-          {informs.length > 0 ? (
-            <p className="brain-sf-informs">
-              <strong>Informs:</strong>{" "}
-              {informs.map((entry, index) => (
-                <React.Fragment key={`${finding.id}:informs:${entry.phenome}`}>
-                  {index > 0 ? "; " : ""}
-                  {entry.href ? <a href={entry.href}>{entry.phenome}</a> : entry.phenome}
-                </React.Fragment>
-              ))}
-            </p>
-          ) : null}
+              {dependency.length > 0 ? (
+                <>
+                  <p className="brain-sf-field brain-sf-field--label">
+                    <strong>Evidence Dependency:</strong>
+                  </p>
+                  <ul className="brain-sf-dependency">
+                    {dependency.map((note) => (
+                      <li key={`${finding.id}:dep:${note.slice(0, 40)}`}>{note}</li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
+
+              {informs.length > 0 ? (
+                <p className="brain-sf-informs">
+                  <strong>Informs:</strong>{" "}
+                  {informs.map((entry, index) => (
+                    <React.Fragment key={`${finding.id}:informs:${entry.phenome}`}>
+                      {index > 0 ? "; " : ""}
+                      {entry.href ? <a href={entry.href}>{entry.phenome}</a> : entry.phenome}
+                    </React.Fragment>
+                  ))}
+                </p>
+              ) : null}
+            </HubDisclosure>
+          </div>
         </div>
-      </details>
+      </div>
     </section>
   )
 }

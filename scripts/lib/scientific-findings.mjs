@@ -349,18 +349,16 @@ function jsonProp(value) {
   return JSON.stringify(value).replace(/</g, "\\u003c");
 }
 
+function readerFindingTitle(finding) {
+  return String(finding?.finding_label || "").trim() || String(finding?.id || "").trim();
+}
+
 function renderFindingBlocks(findings, informs) {
   return findings.flatMap((finding) => {
     const payload = { ...finding };
     const informedBy = informs.get(String(finding.id));
     if (informedBy?.length) payload.informs = informedBy;
-    const anchor = String(finding.id).toLowerCase();
-    return [
-      `##### Finding ${finding.id} {#${anchor}}`,
-      "",
-      `<ScientificFinding finding={${jsonProp(payload)}} />`,
-      "",
-    ];
+    return [`<ScientificFinding finding={${jsonProp(payload)}} />`, ""];
   });
 }
 

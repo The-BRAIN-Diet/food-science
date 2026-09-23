@@ -136,3 +136,20 @@ interpretive Finding).
 
 **Atomic projection rule (global requirement):** `system/dietary-input-traceability-contract.md`
 §4 **KC → PM atomic projection**. Do not solve mechanical roll-up in PM8 pass.
+
+### CC-PM8-07 — Dietary Lever reconciliation (required next pass)
+
+**Status:** open — exposed by PM8 live-page / UX review. **Not started in UX Pass 1.**
+
+PM Evidence has established atomic dietary relationships for glutamate, PLP, vitamin B6,
+and zinc (bounded PDXK context) in `dietary_input_traceability`.
+
+**Workflow required:**
+
+```
+PM Evidence → Atomic Dietary Requirements → Dietary Lever Reconciliation
+```
+
+§3 Dietary Levers (chickpea/lentil/yogurt rows, B6+protein pattern, legacy KC projection)
+remain **unreconciled legacy content**. They are **not validated** by the completed PM
+Evidence work and must not be read as adjudicated levers until the dedicated pass runs.

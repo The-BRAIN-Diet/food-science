@@ -231,6 +231,7 @@ test("a study may be primary evidence in several Findings when the reuse is decl
 test("§5 renders primary relationship Findings and cross-references mechanistic context", () => {
   const { data, content } = readPm8();
   const byId = findingsById(data);
+  const section4 = content.slice(content.indexOf("### 4.1 Scientific Findings"), content.indexOf("## 5. Phenome Connections"));
   const section5 = content.slice(content.indexOf("## 5. Phenome Connections"), content.indexOf("## 6. "));
   for (const rel of data.phenome_relationships) {
     for (const id of rel.scientific_findings) {
@@ -250,9 +251,11 @@ test("§5 renders primary relationship Findings and cross-references mechanistic
   });
   assert.ok(crossLine.includes("[SF-PM8-1](#sf-pm8-1)"));
   assert.ok(content.includes(crossLine));
-  assert.ok(section5.includes("##### Finding SF-PM8-5"));
-  assert.ok(section5.includes("##### Finding SF-PM8-8"));
-  assert.ok(!section5.includes("##### Finding SF-PM8-1"));
+  assert.ok(section5.includes('"finding_label":"ADHD GABA levels vary by age and brain region"'));
+  assert.ok(section5.includes('"finding_label":"High-dose vitamin B6 reduced anxiety — without measuring GABA"'));
+  assert.ok(!section4.includes("##### Finding SF-PM8-"));
+  assert.ok(!section4.includes("##### Vitamin B6 supports"));
+  assert.ok(section4.includes('<ScientificFinding finding={{"id":"SF-PM8-1"'));
   const panels = section5.slice(section5.indexOf("brs-fm-hub-item"));
   assert.ok(!/\*\*Key References:\*\*/.test(panels));
   assert.ok(!/\*\*Evidence Confidence:\*\*/.test(panels));
