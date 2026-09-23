@@ -65,16 +65,7 @@ Rice is a globally used staple carbohydrate. Within the BRAIN Diet, **variant an
 
 **Cooking and cooling** can create larger biological differences than minor distinctions between many white-rice cultivars. **Red and black rice** contribute more meaningfully to antioxidant and polyphenol exposure than small cultivar differences among polished whites.
 
-Grain protein remains **lysine-limited**; pairing with legumes improves essential amino acid balance [1,2]. Nutrient tables below map to **brown rice, cooked** as the reference variant; see the comparison table for how other types differ [1][2].
-## Key Nutritional Highlights
-
-
-- Reports on dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation [1]
-- Reports on dietary Protein and Amino Acids in Vegetarian Diets—A Review [2]
-- Rice is a globally used staple carbohydrate. [1]
-- Within the BRAIN Diet, **variant and processing often matter more than the word “rice” on a label**: degree of milling, pigmentation (white, red, black), cultivar (e.g. [2]
-- basmati vs jasmine), **cooking and cooling**, fermentation, and meal context (protein, fat, fibre, acidity) shape fibre, resistant starch (RS), glycaemic impact, and polyphenol exposure.
-- **Cooking and cooling** can create larger biological differences than minor distinctions between many white-rice cultivars.
+Grain protein remains **lysine-limited**; pairing with legumes improves essential amino acid balance [1,2]. Nutrient tables below map to **brown rice, cooked** as the reference variant; see the comparison table for how other types differ.
 
 ## Rice Variants and Biologically Relevant Characteristics
 
@@ -142,6 +133,6 @@ Grains such as rice are relatively higher in methionine but lysine-limited. Comb
 
 ## References
 
-[1] Report recommending the Digestible Indispensable Amino Acid Score (DIAAS) as the preferred method for evaluating dietary protein quality, replacing PDCAAS, and detailing methodology and implications for human nutrition. FAO 2013. [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+[1] FAO (2013). [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 
-[2] \textlessp\textgreaterWhile animal products are rich in protein, the adequacy of dietary protein intake from vegetarian/vegan diets has long been controversial. Mariotti & Gardner 2019. [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+[2] Mariotti & Gardner (2019). [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)

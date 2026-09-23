@@ -75,15 +75,7 @@ nutrition_supplementary_sources:
 
 Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health.
 
-Within the BRAIN Diet framework, seaweed can be added to soups, stews, or salads and provides trace amounts of creatine (e.g., nori) and taurine [1][2].
-## Key Nutritional Highlights
-
-
-- Seaweed is a primary dietary iodine source supporting thyroid hormone synthesis [1]
-- Marine algae contribute variable B12 analogues and should be interpreted cautiously for cobalamin status [2]
-- Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health. [1]
-- Seaweed can be added to soups, stews, or salads and provides trace amounts of creatine (e.g., nori) and taurine. [2]
-- Seaweed provides iodine, EPA (in red algae), glycolipids, magnesium, and fiber, supporting thyroid function and brain health.
+Within the BRAIN Diet framework, seaweed can be added to soups, stews, or salads and provides trace amounts of creatine (e.g., nori) and taurine.
 
 ## Food Context
 

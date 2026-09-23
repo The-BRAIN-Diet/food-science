@@ -8,23 +8,32 @@ hide_title: true
 
 # BRS4 → BRS1 — Bioenergetic Support for Neurotransmission
 
-This page explains the **systems-level biological dependency** between BRS4 and BRS1. It is informed by literature, integrated BRS architecture, allostatic context, expert interpretation, and mechanistic evidence from PM pages — but it does **not** duplicate the canonical PM relationship graph.
+Mitochondrial ATP supply and related energetic signalling constrain synaptic and neurotransmitter work in [BRS1](/docs/biological-targets/neurotransmitter-regulation).
 
-For explicit PM-to-PM relationships, see **§6.2 Cross-BRS Mechanism Relationships** on individual Primary Mechanism pages.
+## Dependency
 
-## Biological Contribution
+[BRS4](/docs/biological-targets/mitochondrial-function-bioenergetics) maintains neuronal energy availability through mitochondrial ATP generation and activity-coupled bioenergetic signalling. Synaptic transmission is energetically expensive; insufficient ATP supply can limit the conditions under which BRS1 sustains signalling.
 
-Collectively, the Functional Mechanisms within BRS4 maintain the adaptive bioenergetic reserve that enables BRS1 to sustain neurotransmitter regulation under prolonged physiological demand.
+## Principal Routes
 
-## Systems Significance
+<div className="markdown-table-scroll">
 
-By preserving these bioenergetic capacities, BRS4 reduces the likelihood that energetic limitation becomes the principal rate-limiting constraint on neurotransmitter regulation within BRS1 as allostatic load accumulates. BRS4 is not itself a neurotransmitter system. Instead, it functions as an upstream enabling system that preserves the bioenergetic conditions required for resilient neurotransmitter regulation. Maintaining BRS4 therefore complements neurotransmitter precursor and cofactor biology by preserving adaptive bioenergetic capacity rather than substituting for neurotransmitter regulation itself.
+| Route | Contribution to BRS1 | Relationship |
+| --- | --- | --- |
+| Mitochondrial ATP supply for synaptic signalling | Enables the energy cost of neurotransmission | Direct |
+| Mitochondrial signalling and redox coupling | Shapes the intracellular environment of synapses | Conditional |
 
-## Integrated Regulatory Capacity
+</div>
 
-Together, the Functional Mechanisms within BRS4 maintain energetic reserve, metabolic flexibility, oxidative resilience and adaptive mitochondrial capacity required to sustain neurotransmission during prolonged cognitive, metabolic and physiological demand. Rather than acting through a single pathway, these integrated capacities collectively preserve neuronal energy availability and reduce the likelihood that sustained physiological demand degrades neurotransmitter regulation within BRS1.
+## Network Interpretation
+
+This is a resource constraint rather than a transmitter-synthesis pathway. BRS4 does not specify which neurotransmitter is released; it sets whether signalling can be energetically sustained. Chronic stress and glucose dysregulation may reach BRS4 through [BRS6](/docs/biological-targets/metabolic-neuroendocrine-stress) ([BRS6 → BRS4](/docs/biological-targets/dependencies/brs6-to-brs4)), so some BRS1 energetic strain is mediated rather than native to BRS4 alone.
+
+## Boundary and Evidence Status
+
+Synaptic energy dependence is established neurophysiology. Treating BRS4 as an upstream constraint on BRS1 is a framework interpretation. The relationship does not establish that raising mitochondrial nutrients improves neurotransmitter function or ADHD outcomes.
 
 ## Supporting Evidence
 
-- [Harris et al., 2012](/docs/papers/BRAIN-Diet-References#harris_synaptic_energy_2012) — Demonstrated that synaptic signalling accounts for the largest proportion of neuronal energy expenditure and that sustained neurotransmission depends upon adequate mitochondrial ATP supply during increasing energetic demand.
-- [Picard, 2015](/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015) — Reframed mitochondria as dynamic signalling and energetic organelles that coordinate cellular energetics with neuronal activity, supporting the interpretation of BRS4 as an upstream enabling system preserving BRS1 adaptive performance.
+- [Harris et al., 2012](/docs/papers/BRAIN-Diet-References#harris_synaptic_energy_2012) — Reviews synaptic energy use and supply, showing that signalling accounts for a large share of neuronal ATP demand.
+- [Picard, 2015](/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015) — Reviews mitochondria as signalling and energetic organelles coordinating cellular energetics with neuronal activity.

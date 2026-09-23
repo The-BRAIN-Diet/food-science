@@ -143,13 +143,13 @@ export const BRS1_UPDATES = {
   "brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity.mdx": {
     functional_descriptor: "(Building the Brain's Main Inhibitory Signal)",
     translational:
-      "Supports inhibitory tone by helping the brain convert glutamate into GABA (gamma-aminobutyric acid, the principal inhibitory neurotransmitter). Adequate GABA synthesis capacity helps maintain calm, control, and resistance to overstimulation.",
+      "Concerns how the brain converts glutamate into GABA (gamma-aminobutyric acid, the principal inhibitory neurotransmitter), and the vitamin B6-derived cofactor that conversion requires. Whether ordinary dietary variation changes this capacity in humans has not been demonstrated.",
     scientific:
       "Glutamate decarboxylase (GAD) converts glutamate to GABA in a cofactor-dependent reaction. This PM governs synthesis capacity from available glutamate — not glutamate clearance (PM9) or excitotoxic modulation (PM10).",
     bullets: [
-      "Converts glutamate to GABA to strengthen inhibitory calming signals — within BRS1.",
-      "Supports resistance to overstimulation and sensory overload — within BRS1.",
-      "Depends on cofactor and amino-acid context from broader dietary patterns — within BRS1.",
+      "Converts glutamate to GABA through the cofactor-dependent enzyme GAD — within BRS1.",
+      "Governs synthesis capacity, not GABA concentration or receptor signalling — within BRS1.",
+      "Depends on glutamate substrate and PLP cofactor availability — within BRS1.",
     ],
   },
   "brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling.mdx": {

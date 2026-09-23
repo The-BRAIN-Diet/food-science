@@ -61,15 +61,7 @@ legacy_main_image: /img/foods/parsley/parsley_medium.webp
 
 Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health.
 
-Within the BRAIN Diet framework, the strategy of simply adding parsley when cooking food has seen significant reductions in harmful COPs (Cholesterol Oxidation Products) [1][2].
-## Key Nutritional Highlights
-
-
-- Parsley and Apiaceae herbs provide polyphenols and vitamin K in culinary doses [1]
-- Herb polyphenols may influence gut microbiota composition as part of diverse plant intake [2]
-- Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health. [1]
-- The strategy of simply adding parsley when cooking food has seen significant reductions in harmful COPs (Cholesterol Oxidation Products). [2]
-- Parsley, when added during cooking, significantly reduces harmful Cholesterol Oxidation Products (COPs), supporting cardiovascular and brain health.
+Within the BRAIN Diet framework, the strategy of simply adding parsley when cooking food has seen significant reductions in harmful COPs (Cholesterol Oxidation Products).
 
 ## Food Context
 

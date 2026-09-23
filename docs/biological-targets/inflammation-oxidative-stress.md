@@ -24,6 +24,10 @@ hide_title: true
 
 Maintain proportionate immune signalling, responsive antioxidant defence, and active inflammation resolution so the brain operates within a redox and immune environment that supports function rather than chronically constraining it.
 
+## Rationale for inclusion as a distinct BRS
+
+Inflammatory and oxidative regulation was defined as a distinct BRS because it coordinates immune signalling tone, antioxidant defence and active resolution of inflammation as a shared operating environment for other systems. Cytokine networks, reactive-oxygen handling and resolution chemistry can divert tryptophan into kynurenine metabolism, alter receptor and membrane conditions, and impose redox load on mitochondria and synapses. BRS3 is therefore represented as an environmental constraint system: its state can modify neurotransmitter regulation and bioenergetic recovery without itself being a transmitter or energy pathway. It is not presented as a universal inflammatory explanation for brain-related conditions, but as a coherent, diet-responsive immune–redox system with biologically traceable dependencies across the wider regulatory network.
+
 ## Therapeutic Area Research
 
 <p class="brs-hub-ta-research-intro">ADHD is the first fully mapped therapeutic area within the BRAIN Framework, providing a proof of concept for an adaptive biological architecture linking nutrition, biology and function. The same framework is designed to expand across additional therapeutic areas through the shared <a href="/docs/phenomes/">Phenome Registry</a>.</p>
@@ -441,28 +445,28 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="0" aria-label="Open: (BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs3-to-brs1" aria-label="Open: (BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="1" aria-label="Open: (BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs5-to-brs3" aria-label="Open: (BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="2" aria-label="Open: (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs6-to-brs3" aria-label="Open: (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
 </ul>
@@ -477,10 +481,10 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs3-to-brs1" aria-label="Open (BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -495,6 +499,7 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019">Savitz, 2020</a> — Demonstrated that immune activation reshapes neurotransmitter regulation through the kynurenine pathway and broader neuroimmune interactions, influencing both monoaminergic signalling and excitation–inhibition balance. This supports the BRAIN Framework interpretation that maintaining immune regulation preserves the biological environment required for resilient monoaminergic and excitation–inhibition regulation within BRS1.</p></li>
 </ul>
 
+
 </div>
 </div>
 </div>
@@ -506,10 +511,10 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs5-to-brs3" aria-label="Open (BRS5 → BRS3) Gut–Immune Drivers of Inflammatory Tone">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -524,6 +529,7 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#slavich_stress_inflammation_2014">Slavich &amp; Irwin, 2014</a> — Established stress-to-inflammation signalling as a systems-level pathway reshaping immune and neuroendocrine biology — supporting the interpretation that gut–immune perturbation can propagate inflammatory burden across BRS3 and connected systems.</p></li>
 </ul>
 
+
 </div>
 </div>
 </div>
@@ -535,10 +541,10 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs6-to-brs3" aria-label="Open (BRS6 → BRS3) Stress Signalling Interactions with Inflammatory Load">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -556,6 +562,7 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 <ul class="brs-hub-integration-evidence-list">
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kiecolt-glaser_omega-3_2011">Kiecolt-Glaser et al., 2011</a> — Worked translational example: omega-3 supplementation reduced inflammatory cytokines (including IL-6) alongside anxiety symptoms in stressed adults. The principal inflammatory biology is measured and owned by BRS3-FM3-PM7; this dependency interprets how metabolic and neuroendocrine context (BRS6) may condition such inflammatory outcomes — without claiming this single study validates every intermediate step in the BRS6 → BRS3 pathway. Primary biology: <a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation">BRS3-FM3-PM7 — Cytokine Network Modulation</a>.</p></li>
 </ul>
+
 </div>
 </div>
 </div>

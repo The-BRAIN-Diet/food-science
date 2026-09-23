@@ -76,7 +76,7 @@ protein_profile_note: Complete essential amino acid profile.
 
 Sardines are small oily fish eaten whole, providing long-chain omega-3 fatty acids **EPA** and **DHA**, **vitamin B12**, **selenium**, **calcium** from the softened bones, and highly digestible protein. Because canned sardines typically include the skeleton, they contribute meaningfully to both marine omega-3 intake and calcium alongside B12 and other micronutrients [1]. These intrinsic nutrients support neuronal membrane structure, mitochondrial bioenergetics, and red blood cell formation.
 
-Within the BRAIN Diet framework, sardines are treated as a **compact, shelf-stable oily fish** that can be used when fresh fish is less practical. Regular intake of oily fish rich in EPA and DHA is associated with reduced cardiovascular risk and may support aspects of cognitive and mood outcomes [1,2]. Compared with larger predatory fish, sardines sit low in the marine food chain and generally accumulate less mercury, which supports their use as a frequent marine omega-3 source in many dietary patterns [3].
+Within the BRAIN Diet framework, sardines are treated as a **compact, shelf-stable oily fish** that can be used when fresh fish is less practical. Regular intake of oily fish rich in EPA and DHA is associated with reduced cardiovascular risk and may support aspects of cognitive and mood outcomes [1,2]. Compared with larger predatory fish, sardines sit low in the marine food chain and generally accumulate less mercury, which supports their use as a frequent marine omega-3 source in many dietary patterns
 
 ## Key Nutritional Highlights
 
@@ -106,7 +106,6 @@ Within the BRAIN Diet framework, sardines are treated as a **compact, shelf-stab
 ### Essential Amino Acid Profile
 
 This food provides a complete essential amino acid profile typical of animal proteins.
-
 
 <NutritionTable details={frontMatter} />
 

@@ -108,18 +108,14 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-[1] Heme iron from animal foods is absorbed more efficiently than non-heme iron from plant foods, helping support iron status where requirements are higher or intake is marginal. Beard et al. 2003. [Iron deficiency and neural functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
+[1] Beard et al. (2003). [Iron deficiency and neural functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003). Heme iron from animal foods is absorbed more efficiently than non-heme iron from plant foods, helping support iron status where requirements are higher or intake is marginal.
 
-[2] Creatine contributes to ATP buffering and rapid energy availability in excitable tissues, with organ meats and red meats among the richer dietary sources. Avgerinos & Spyrou 2018. [Creatine supplementation and cognitive performance](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018)
+[2] Avgerinos et al. (2018). [Creatine supplementation and cognitive performance](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018). Creatine contributes to ATP buffering and rapid energy availability in excitable tissues, with organ meats and red meats among the richer dietary sources.
 
-[3] Report recommending the Digestible Indispensable Amino Acid Score (DIAAS) as the preferred method for evaluating dietary protein quality, replacing PDCAAS, and detailing methodology and implications for human nutrition. FAO 2013. [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+[3] FAO (2013). [Dietary protein quality evaluation in human nutrition (DIAAS report)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 
-[4] Reports on garlic and onions: their cancer prevention properties. Nicastro et al. 2015. [Garlic and onions: their cancer prevention properties](/docs/papers/BRAIN-Diet-References#nicastro_garlic_onions_2015)
+[4] Ahn et al. (2007). [Effects of plant extracts on lipid oxidation and colour of cooked ground beef](/docs/papers/BRAIN-Diet-References#ahn_plant_extracts_beef_2007). Use **herbs rich in polyphenols** (rosemary, thyme, oregano) in rubs and marinades; these traditional seasonings can help limit lipid oxidation during cooking while adding antioxidant compounds to the meal.
 
-[5] Reports on bioactive S-alk(en)yl cysteine sulfoxide metabolites in the genus Allium. Rose et al. 2005. [Bioactive S-alk(en)yl cysteine sulfoxide metabolites in Allium](/docs/papers/BRAIN-Diet-References#rose_allium_sulfoxides_2005)
+[5] Gibson et al. (2006). [Improving the bioavailability of nutrients in plant foods at the household level](/docs/papers/BRAIN-Diet-References#gibson_improving_bioavailability_2006). Combine lamb with **legumes** (lentils, chickpeas) in Mediterranean-style dishes so lamb supplies highly bioavailable iron, zinc, and B12 while legumes contribute fibre and plant polyphenols for cardiometabolic balance.
 
-[6] Use **herbs rich in polyphenols** (rosemary, thyme, oregano) in rubs and marinades; these traditional seasonings can help limit lipid oxidation during cooking while adding antioxidant compounds to the meal. Ahn & Grün 2007. [Effects of plant extracts on lipid oxidation and colour of cooked ground beef](/docs/papers/BRAIN-Diet-References#ahn_plant_extracts_beef_2007)
-
-[7] Combine lamb with **legumes** (lentils, chickpeas) in Mediterranean-style dishes so lamb supplies highly bioavailable iron, zinc, and B12 while legumes contribute fibre and plant polyphenols for cardiometabolic balance. Gibson & Perlas 2006. [Improving the bioavailability of nutrients in plant foods at the household level](/docs/papers/BRAIN-Diet-References#gibson_improving_bioavailability_2006)
-
-[8] Include **acidic ingredients** such as tomatoes, lemon, or yogurt-based marinades to support tenderisation, improve palatability, and shift overall meal composition toward a more plant-forward pattern. Toldrá et al. 2010. [Handbook of Meat Processing](/docs/papers/BRAIN-Diet-References#toldra_meat_processing_2010)
+[6] Toldrá et al. (2010). [Handbook of Meat Processing](/docs/papers/BRAIN-Diet-References#toldra_meat_processing_2010). Include **acidic ingredients** such as tomatoes, lemon, or yogurt-based marinades to support tenderisation, improve palatability, and shift overall meal composition toward a more plant-forward pattern.

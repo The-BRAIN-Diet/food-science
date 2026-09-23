@@ -79,14 +79,7 @@ Acidification extends shelf-life by creating an environment unfavourable to most
 
 ### Texture and flavour changes
 
-Acid and salt alter **cell structure and water activity**, producing the characteristic crisp-tart profile of vinegar-brined products. Heat processing, brine strength, and storage time further change texture (softening) and perceived acidity. These are culinary and matrix effects rather than neuroactive endpoints in themselves, but they influence how pickles are used — typically as **condiments or small sides**, not bulk vegetable servings [1][2].
-## Key Nutritional Highlights
-
-
-- Reports on vinegar improves insulin sensitivity to a high-carbohydrate meal in subjects with insulin resistance or type 2 diabetes [1]
-- Reports on the Nutritional and Antioxidant Potential of Artisanal and Industrial Apple Vinegars and Their Ability to Inhibit Key Enzymes Related to Type 2 Diabetes In Vitro [2]
-- Reports on gut-microbiota-targeted diets modulate human immune status [3]
-- Reports on disrupted gut harmony in attention-deficit/hyperactivity disorder: Dysbiosis and decreased short-chain fatty acids [4]
+Acid and salt alter **cell structure and water activity**, producing the characteristic crisp-tart profile of vinegar-brined products. Heat processing, brine strength, and storage time further change texture (softening) and perceived acidity. These are culinary and matrix effects rather than neuroactive endpoints in themselves, but they influence how pickles are used — typically as **condiments or small sides**, not bulk vegetable servings.
 
 ## Potential Biological Relevance
 
@@ -98,7 +91,7 @@ Vinegar pickles deliver acetic acid **within the food matrix and brine**, so por
 
 ### Reduced fermentation-derived metabolites compared with fermented vegetables
 
-Lacto-fermented vegetables can contribute **live microbes, organic acids, and downstream gut-derived metabolites** (including short-chain fatty acids such as butyrate and acetate produced from fibre fermentation in the colon) that are central to the BRAIN Diet’s fermented-food strategy [Wastyk et al. 2021](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021). ADHD cohort work has linked lower faecal SCFA levels, including acetate, with altered microbial profiles [Steckler et al. 2024](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024).
+Lacto-fermented vegetables can contribute **live microbes, organic acids, and downstream gut-derived metabolites** (including short-chain fatty acids such as butyrate and acetate produced from fibre fermentation in the colon) that are central to the BRAIN Diet’s fermented-food strategy. Wastyk et al. 2021 is fermented-food dietary-pattern evidence, not a vinegar-pickle trial [Wastyk et al. 2021](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021).
 
 **Vinegar pickles should not be substituted for fermented vegetables** when the goal is probiotic exposure, GABA-associated fermentation pathways, or broad fermentation-derived postbiotic support. They may still contribute **dietary acetic acid** at the meal, but not the same live-culture or extended fermentation metabolite profile as sauerkraut, kimchi, or kefir.
 
@@ -140,10 +133,8 @@ Acidification and reduced pH can **slow oxidative degradation** of some plant co
 
 ## References
 
-[1] Vinegar improves insulin sensitivity to a high-carbohydrate meal. Johnston & Kim 2004. [Vinegar improves insulin sensitivity to a high-carbohydrate meal in subjects with insulin resistance or type 2 diabetes.](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010)
+[1] Johnston et al. (2004). [Vinegar improves insulin sensitivity to a high-carbohydrate meal in subjects with insulin resistance or type 2 diabetes.](/docs/papers/BRAIN-Diet-References#johnston_2004_14694010). Vinegar improves insulin sensitivity to a high-carbohydrate meal.
 
-[2] Apple vinegar polyphenols, antioxidant activity, and in vitro α-glucosidase/α-amylase inhibition. Ousaaid & Laaroussi 2022. [The Nutritional and Antioxidant Potential of Artisanal and Industrial Apple Vinegars and Their Ability to Inhibit Key Enzymes Related to Type 2 Diabetes In Vitro](/docs/papers/BRAIN-Diet-References#ousaaid_nutritional_2022)
+[2] Ousaaid et al. (2022). [The Nutritional and Antioxidant Potential of Artisanal and Industrial Apple Vinegars and Their Ability to Inhibit Key Enzymes Related to Type 2 Diabetes In Vitro](/docs/papers/BRAIN-Diet-References#ousaaid_nutritional_2022). Apple vinegar polyphenols, antioxidant activity, and in vitro α-glucosidase/α-amylase inhibition.
 
-[3] Gut microbiota–targeted diets and fermented-food context. Wastyk & Fragiadakis 2021. [Gut-microbiota-targeted diets modulate human immune status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021)
-
-[4] Reduced SCFA levels in ADHD cohorts. Steckler & Magzal 2024. [Disrupted gut harmony in attention-deficit/hyperactivity disorder: Dysbiosis and decreased short-chain fatty acids](/docs/papers/BRAIN-Diet-References#steckler_disrupted_2024)
+[3] Wastyk et al. (2021). [Gut-microbiota-targeted diets modulate human immune status](/docs/papers/BRAIN-Diet-References#wastyk_gut-microbiota-targeted_2021). Gut microbiota–targeted diets and fermented-food context.

@@ -321,19 +321,30 @@ The annotation is optional. When present it may state a direct food finding, tri
 
 Do not: use abstracts from neighbouring BibTeX entries; describe a generic mechanism as direct food evidence; infer a food quantity from total fibre or another parent measure; make the annotation broader than the paper; retain a reference merely because it was previously present.
 
+**References do not generate claims.** Bibliography titles and abstract openings are not editorial summaries. Do not write Highlights, Overview sentences, or reference annotations from a title, first abstract sentence, or keyword match. Automated matching may identify candidates for review; it must not publish or attach them.
+
+An inline citation may remain adjacent to a food claim only when it supports that claim through one of these routes, and the prose must stay at that level:
+
+1. **Direct food evidence** for that food.
+2. **Constituent-level evidence** at a relevant biological and quantitative level, explicitly framed as constituent evidence rather than direct food evidence.
+3. **Food-group or dietary-pattern evidence**, explicitly labelled at that level.
+4. **Mechanistic context**, explicitly described as mechanism rather than proof of a food-level health effect.
+
+Keyword overlap, a shared nutrient, or a broadly related biological topic is not sufficient. A citation that supports only part of a sentence must not be used to imply support for the whole compound claim — split or narrow the sentence.
+
 Join only by the exact citation key. Numbering, anchors and bibliography links stay on that key.
 
 Unmigrated later-letter pages may still use the previous explanation-first order until that letter is rewritten. That is a migration state, not a second reference system.
 
 **Editorial quality (rules, not presentation):**
 
-- Minimum **two relevant** references per food page. This is a quality floor, not a reason to lengthen the page or to pad weak citations.
+- Do not pad references or Highlights to a quota. Empty or shorter evidence sections are preferable to false precision. Two relevant references is an editorial aspiration, not a generator or validation requirement.
 - Prefer, in order: (1) direct food/formulation analysis; (2) direct human evidence involving the food; (3) evidence about a characteristic substance or matrix confirmed in that food; (4) food-specific preparation evidence; (5) a high-quality food-specific review.
 - Composition databases establish ordinary nutrient content. Fibre, protein, fat, carbohydrate, vitamin, and mineral quantities shown in the table do not require separate papers.
-- Generic mechanism papers cannot satisfy the minimum unless they are explicitly labelled as context and genuinely needed. Never present supplement, substance-class, or neighbouring-food evidence as direct evidence for the food.
-- Flag weak evidence rather than padding references.
+- Generic mechanism papers cannot stand in for food evidence unless they are explicitly labelled as mechanistic context and genuinely needed. Never present supplement, substance-class, or neighbouring-food evidence as direct evidence for the food.
+- Flag weak evidence rather than padding references. Leave a claim uncited rather than attaching a keyword-matched paper.
 
-**Join rule:** Every food-page annotation is joined to BibTeX **only by the exact citation key** in `/docs/papers/BRAIN-Diet-References#key`. Resolution must not use array position, neighbouring entries, or fallback order. If that key has no `abstract`, use a restrained title-derived placeholder or an accurate same-page citation sentence **without changing the bibliographic core**. It must **never** borrow another entry’s abstract. Missing abstracts produce no invented abstract-derived summary.
+**Join rule:** Every food-page annotation is joined to BibTeX **only by the exact citation key** in `/docs/papers/BRAIN-Diet-References#key`. Resolution must not use array position, neighbouring entries, or fallback order. If that key has no reviewed food-relevant finding, omit the annotation or use an accurate same-page citation sentence **without changing the bibliographic core**. It must **never** borrow another entry’s abstract, copy the paper title as “Reports on …”, or use the opening abstract sentence as a summary. Missing abstracts produce no invented summary.
 
 **Citation correctness and citation relevance are separate checks.** A correctly joined key can still be scientifically irrelevant (`system/food-page-letter-audit-schema.md`).
 

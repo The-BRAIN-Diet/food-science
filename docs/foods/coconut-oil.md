@@ -48,13 +48,15 @@ legacy_main_image: /img/foods/coconut-oil/coconut-oil_medium.webp
 
 Coconut oil is a **saturated-fat-rich** oil high in **medium-chain triglycerides (MCTs)** used for culinary and ketogenic contexts [1]. Saturated fat intake should remain within dietary upper limits [1].
 
-Within the BRAIN Diet framework, coconut oil is an occasional culinary fat; evidence for brain-specific benefit beyond energy metabolism is limited — overall fat quality and plant-food volume matter more [2].
+Within the BRAIN Diet framework, coconut oil is an occasional culinary fat; evidence for brain-specific benefit beyond energy metabolism is limited — overall fat quality and plant-food volume matter more
+
 ## Key Nutritional Highlights
 
 - High in saturated fat and MCTs (C8/C10 fractions vary by product) [1].
 - MCTs provide rapidly oxidised fatty acids; ketogenic contexts only.
 - Not a preferred default cooking fat vs olive/avocado oils for cardiometabolic patterns [2].
 - Energy-dense; typical use is tablespoons, not 100 g.
+
 ## Food Context
 
 ### Synergies

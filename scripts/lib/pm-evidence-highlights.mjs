@@ -178,21 +178,12 @@ export const BRS1_PM_EVIDENCE = {
     ],
     referenceNoteKeys: [{ citation_key: "mamiya_precision_2021", label: "Mamiya et al. (2021)" }],
   },
-  "brs1-fm4-pm8-gaba-synthesis-capacity": {
-    intro:
-      "GABA synthesis from glutamate is well established. The studies below highlight enzymatic and cofactor dependencies that refine how synthesis capacity is interpreted in practice.",
-    blocks: [
-      {
-        heading: "Magnesium and neuronal excitability",
-        body: "Magnesium modulates NMDA receptor activity and broader excitability context within which GABA synthesis capacity matters [Cataldo et al., 2024].",
-      },
-      {
-        heading: "PLP-dependent glutamate decarboxylase context",
-        body: "GABA synthesis from glutamate depends on glutamate decarboxylase and pyridoxal-5′-phosphate (active B6) as a coenzyme — linking repeated B6 coverage and protein-derived glutamate substrate to inhibitory synthesis capacity [Cataldo et al., 2024].",
-      },
-    ],
-    referenceNoteKeys: [{ citation_key: "cataldo_comprehensive_2024", label: "Cataldo et al. (2024)" }],
-  },
+  // BRS1-FM4-PM8 is migrated to the canonical Scientific Finding model: its §5.1
+  // is generated from `scientific_findings` front matter by
+  // `npm run findings:sync`. The former seed here attributed magnesium/NMDA and
+  // human PLP-dependent GAD biochemistry to Cataldo et al. (2024), a
+  // Levilactobacillus brevis study that supports neither claim; it was retracted
+  // during PM8 adjudication and must not be reintroduced.
   "brs1-fm4-pm9-glutamate-clearance-and-recycling": {
     intro:
       "Glutamate clearance and recycling biology is well established. The studies below highlight uptake, recycling, and excitability context that refine how excitatory control is interpreted within BRS1(FM4).",

@@ -8,6 +8,7 @@ import path from "node:path";
 import { HAS_DROPDOWN_RE } from "./hub-collapsible.mjs";
 import matter from "gray-matter";
 import { isLegacyFoodToSubstanceLine } from "./substance-food-mapping.mjs";
+import { expectedPmCoreOrder, pmSectionNumbers } from "./pm-section-layout.mjs";
 import {
   FM_PHENOME_CONNECTIONS_SECTION_TITLE,
   PM_PHENOME_SECTION_TITLE,
@@ -48,7 +49,8 @@ export const INTERVENTION_DOMINANCE_VALUES = new Set([
 const INTERVENTION_SUMMARY_HEADING = /^##\s+3\.\s+Intervention Summary\s*$/m;
 const LEGACY_INTERVENTION_BREAKDOWN_HEADING = /^##\s+3\.\s+Intervention Breakdown\s*$/m;
 const ANY_INTERVENTION_SECTION_HEADING = /^##\s+\d+\.\s+Intervention (Summary|Breakdown)\s*$/m;
-const LEVERS_SECTION_HEADING = /^##\s+4\.\s+Levers\s*$/m;
+// Levers is §3 in the canonical PM order and §4 in the legacy one.
+const LEVERS_SECTION_HEADING = /^##\s+[34]\.\s+Levers\s*$/m;
 
 export const SM_CATEGORY_VALUES = new Set(["SM-SNP", "SM-CROSS"]);
 
@@ -461,7 +463,7 @@ function validateInterventionBreakdown(data, content, issues, { entityLabel, req
       pushIssue(
         issues,
         "missing_intervention_section",
-        `${entityLabel}: published body must include "## 4. Levers" with ### Intervention Profile`,
+        `${entityLabel}: published body must include a "## N. Levers" section with ### Intervention Profile`,
       );
     }
   } else if (fmValue && !INTERVENTION_BREAKDOWN_VALUES.has(String(fmValue).trim())) {
@@ -1029,10 +1031,11 @@ function validatePmHarmonisedSections(content, issues, { entityLabel }) {
   const byLevel = new Map(major.map((s) => [s.level, s.title]));
   const connectedTitle = pmConnectedSectionTitle();
 
-  if (byLevel.has(4)) {
-    const t4 = String(byLevel.get(4));
-    if (t4 !== "Levers") {
-      pushIssue(issues, "pm_section4", `${entityLabel}: §4 must be Levers`);
+  const layout = pmSectionNumbers(content);
+  if (byLevel.has(layout.levers)) {
+    const leversTitle = String(byLevel.get(layout.levers));
+    if (leversTitle !== "Levers") {
+      pushIssue(issues, "pm_section4", `${entityLabel}: §${layout.levers} must be Levers`);
     }
   }
   if (byLevel.has(6)) {
@@ -1157,14 +1160,26 @@ function validatePmExtendedProfile(data, content, issues, { entityLabel }) {
     if (titles[1] !== PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE) {
       pushIssue(issues, "overlay_section_order", `${entityLabel}: §2 must be ${PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE}`);
     }
-    if (titles[2] !== PM_PHENOME_SECTION_TITLE) {
-      pushIssue(issues, "overlay_section_order", `${entityLabel}: §3 must be ${PM_PHENOME_SECTION_TITLE}`);
-    }
-    if (titles[3] !== "Levers") {
-      pushIssue(issues, "overlay_section_order", `${entityLabel}: §4 must be Levers`);
-    }
-    if (!titles[4]?.startsWith("Mechanistic Basis")) {
-      pushIssue(issues, "overlay_section_order", `${entityLabel}: §5 must be Mechanistic Basis in extended profile`);
+    // §3–§5 order depends on the page layout: canonical is
+    // Levers → Mechanistic Basis → Phenome Connections; legacy is
+    // Phenome Connections → Levers → Mechanistic Basis.
+    const { layout } = pmSectionNumbers(content);
+    const expected = expectedPmCoreOrder(layout, {
+      phenomeTitle: PM_PHENOME_SECTION_TITLE,
+      primaryEffectsTitle: PRIMARY_BIOLOGICAL_EFFECTS_SECTION_TITLE,
+    });
+    for (const index of [2, 3, 4]) {
+      const want = expected[index];
+      const got = titles[index];
+      if (!got || !want) continue;
+      const ok = want === "Mechanistic Basis" ? got.startsWith(want) : got === want;
+      if (!ok) {
+        pushIssue(
+          issues,
+          "overlay_section_order",
+          `${entityLabel}: §${index + 1} must be ${want} in the ${layout} PM section order`,
+        );
+      }
     }
   }
 }

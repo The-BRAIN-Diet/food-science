@@ -75,6 +75,7 @@ Within the BRAIN Diet framework, capers are a high-quercetin seasoning supportin
 - Low energy density (~27 kcal per 100 g); practical intake is seasoning-scale.
 - Flavonoid-rich dietary patterns link to cognitive improvements in human trials [2].
 - Rinse high-sodium pickled capers; buying jars preserved in extra virgin olive oil is an even better strategy; use as a polyphenol booster in Mediterranean-style dishes.
+
 ## Food Context
 
 ### Synergies

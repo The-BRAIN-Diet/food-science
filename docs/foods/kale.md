@@ -86,23 +86,14 @@ nutrition_supplementary_sources:
 
 Kale is a nutrient-dense leafy green providing iron, magnesium, zinc, quercetin, and carotenoids. The BRAIN diet specifically targets leafy green vegetables i.e. kale and spinach that are rich in iron, magnesium, and zinc, though this can introduce high dietary oxalate.
 
-Within the BRAIN Diet framework, boiling kale can reduce oxalate load, improving mineral bioavailability. Kale is abundant in quercetin, a flavonoid polyphenol with antioxidant and anti-inflammatory properties [1][2].
-## Key Nutritional Highlights
-
-
-- Reports on iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [1]
-- Reports on effect of Different Cooking Methods on Vegetable Oxalate Content [2]
-- Kale is a nutrient-dense leafy green providing iron, magnesium, zinc, quercetin, and carotenoids. [1]
-- The BRAIN diet specifically targets leafy green vegetables i.e. [2]
-- kale and spinach that are rich in iron, magnesium, and zinc, though this can introduce high dietary oxalate.
-- Boiling kale can reduce oxalate load, improving mineral bioavailability.
+Within the BRAIN Diet framework, boiling kale can reduce oxalate load, improving mineral bioavailability. Kale is abundant in quercetin, a flavonoid polyphenol with antioxidant and anti-inflammatory properties.
 
 ## Food Context
 
 ### Synergies
 
 - Pair with fat (avocado, olive oil) for carotenoid absorption; co-consuming a small amount of unsaturated fat improves micelle formation and chylomicron packaging
-- Pair with vitamin C sources to enhance iron absorption, with studies showing up to a fourfold increase when consumed together [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+- Pair with vitamin C sources to enhance iron absorption, with studies showing up to a fourfold increase when consumed together — mixed-meal iron-absorption evidence, not a trial of this food [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
 - Part of diverse leafy green strategy
 - Practical pairings: carrots + tahini, kale + avocado, berries + yogurt/nuts
 
@@ -124,4 +115,4 @@ Within the BRAIN Diet framework, boiling kale can reduce oxalate load, improving
 
 [1] Boiling spinach, kale, and other greens can reduce oxalate load, improving mineral bioavailability. Chai & Liebman 2005. [Effect of Different Cooking Methods on Vegetable Oxalate Content](/docs/papers/BRAIN-Diet-References#chai_effect_2005)
 
-[2] Vitamin C significantly improves non-heme iron absorption by reducing ferric to ferrous iron, with studies showing up to a fourfold increase when consumed together. Hallberg & Brune 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+[2] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.

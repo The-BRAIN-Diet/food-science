@@ -29,15 +29,7 @@ legacy_main_image: /img/foods/kombucha/kombucha_medium.webp
 
 Kombucha is fermented tea providing live probiotics, postbiotic compounds, and organic acids, supporting gut-brain axis communication.
 
-Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling [1][2].
-## Key Nutritional Highlights
-
-
-- Kombucha fermentation produces organic acids and polyphenols in a tea-based matrix [1]
-- Tea polyphenols combined with fermentation metabolites may influence gut microbiota composition [2]
-- Kombucha is fermented tea providing live probiotics, postbiotic compounds, and organic acids, supporting gut-brain axis communication. [1]
-- Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]
-- Kombucha is fermented tea providing live probiotics, postbiotic compounds, and organic acids, supporting gut-brain axis communication.
+Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
 ## Food Context
 

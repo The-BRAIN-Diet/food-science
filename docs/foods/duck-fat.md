@@ -41,14 +41,6 @@ legacy_main_image: /img/foods/duck-fat/duck-fat_medium.webp
 ## Overview
 
 Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures.
-## Key Nutritional Highlights
-
-
-- Monounsaturated-rich animal fats such as duck fat fit within MUFA-forward dietary patterns [1]
-- Dietary fat quality affects chylomicron formation and absorption of fat-soluble micronutrients [2]
-- Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures. [1]
-- Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures. [2]
-- Duck fat provides oleic acid (MUFA), selenium, and palmitoleic acid (anti-inflammatory MUFA), making it suitable for roasting vegetables and pan cooking at higher temperatures.
 
 ## Food Context
 

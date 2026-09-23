@@ -110,6 +110,6 @@ Pair with legumes or grains to complete essential amino acid coverage.
 
 ## References
 
-[1] Abstract Enriching brain DHA is believed to be beneficial for the prevention and treatment of several neurological diseases, including Alzheimer’s disease. Dhir & Tarasenko 2019. [Thiamine physiology and neuro-metabolic relevance](/docs/papers/BRAIN-Diet-References#dhir_neurological_2019)
+[1] Dhir et al. (2019). [Thiamine physiology and neuro-metabolic relevance](/docs/papers/BRAIN-Diet-References#dhir_neurological_2019). Abstract Enriching brain DHA is believed to be beneficial for the prevention and treatment of several neurological diseases, including Alzheimer’s disease.
 
-[2] \textlessp\textgreaterNeurodevelopmental disorders appear to be rising in prevalence, according to the recent Global Burden of Disease Study. Derbyshire & Maes 2023. [Choline as a practical nutrient target in dietary patterns](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+[2] Derbyshire & Maes (2023). [Choline as a practical nutrient target in dietary patterns](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)

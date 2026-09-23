@@ -55,15 +55,7 @@ nutrition_supplementary_sources:
 
 Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering a soy-free alternative for those avoiding soy.
 
-Within the BRAIN Diet framework, vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery [1][2].
-## Key Nutritional Highlights
-
-
-- Sunflower lecithin provides phosphatidylcholine for choline intake in plant-based diets [1]
-- Adequate choline supports neurotransmitter synthesis and membrane integrity [2]
-- Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering a soy-free alternative for those avoiding soy. [1]
-- Vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery. [2]
-- Sunflower lecithin provides choline for phosphatidylcholine synthesis, offering a soy-free alternative for those avoiding soy.
+Within the BRAIN Diet framework, vegans should ensure adequate choline intake (e.g., soy or sunflower lecithin, soy foods, quinoa, broccoli) to support phosphatidylcholine synthesis and downstream LPC-DHA transport for brain delivery.
 
 ## Food Context
 

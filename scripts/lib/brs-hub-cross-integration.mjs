@@ -6,6 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { getIntegrationsForBrs, getHubCrossBrsSummary } from "../data/brs-cross-integration-evidence.mjs";
+import { dependencyPageHref } from "./brs-dependency-pages.mjs";
 import { HUB_PAGES } from "./brs-hub-levers.mjs";
 import { HUB_COLLAPSIBLE_ATTR, renderHubNestedGroup } from "./hub-collapsible.mjs";
 
@@ -34,8 +35,8 @@ const INTEGRATION_DISPLAY_TITLES = {
   "BRS4->BRS1": "Bioenergetic Support for Neurotransmission",
   "BRS3->BRS1": "Inflammatory Modulation of Neurotransmitter Systems",
   "BRS6->BRS1": "Stress-Axis and Autonomic Shaping of Neurotransmission",
-  "BRS2->BRS1": "One-Carbon and BH4 Support for Monoamine Biology",
-  "BRS5->BRS1": "Gut–Vagal Modulation of Neurochemical Signalling",
+  "BRS2->BRS1": "One-Carbon Support for Neurotransmitter Regulation",
+  "BRS5->BRS1": "Gut–Vagal Modulation of Neurotransmitter Regulation",
   "BRS2->BRS3": "One-Carbon to Redox Coupling",
   "BRS5->BRS3": "Gut–Immune Drivers of Inflammatory Tone",
   "BRS5->BRS4": "Gut-Metabolic Inputs to Mitochondrial Energetics",
@@ -95,13 +96,22 @@ ${items}
 </ul>`;
 }
 
+function renderCascade6Section(integration) {
+  if (integration.id !== "BRS6->BRS1") return "";
+  const href = `${dependencyPageHref(integration.id)}#cascade-6`;
+  return `<h4 class="brs-hub-integration-section-title">Cascade 6</h4>
+<p><a href="${href}">Cascade 6 — BRS6 → BRS4/BRS3 → BRS1</a> maps this dependency through mitochondrial and immune-redox intermediates, with ADHD-hub sources and the diet, optimisation and lifestyle levers on the connected Primary Mechanism pages.</p>`;
+}
+
 function renderIntegrationCollapsible(integration, childIndex) {
   const displayTitle = getIntegrationDisplayTitle(integration);
+  const openHref = dependencyPageHref(integration.id);
   const sections = INTEGRATION_SECTIONS.map(({ key, title }) =>
     renderIntegrationSection(title, integrationSectionText(integration, key)),
   ).join("\n");
   const evidenceItems = integration.evidence.map(renderEvidenceItem).join("\n");
   const translational = renderTranslationalExamples(integration);
+  const cascade = renderCascade6Section(integration);
   return `<div class="brs-fm-hub-item" ${HUB_COLLAPSIBLE_ATTR} data-brs-fm-hub-group-index="${childIndex}">
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
@@ -109,10 +119,10 @@ function renderIntegrationCollapsible(integration, childIndex) {
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">${escapeHtml(displayTitle)}</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open ${escapeHtml(displayTitle)}">
+<a class="brs-fm-hub-open" href="${openHref}" aria-label="Open ${escapeHtml(displayTitle)}">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 ${sections}
@@ -121,6 +131,7 @@ ${sections}
 ${evidenceItems}
 </ul>
 ${translational}
+${cascade}
 </div>
 </div>
 </div>`;
@@ -141,6 +152,7 @@ export function renderHubCrossIntegrationHtml(brsId) {
     const title = getIntegrationDisplayTitle(integration);
     return {
       title,
+      openHref: dependencyPageHref(integration.id),
       openLabel: "Open →",
       openAriaLabel: `Open: ${title}`,
     };

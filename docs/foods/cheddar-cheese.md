@@ -84,13 +84,15 @@ legacy_main_image: /img/foods/cheddar-cheese/cheddar-cheese_medium.webp
 
 Cheddar cheese provides **complete protein**, **calcium**, **vitamin B12**, and **zinc** in a fermented dairy matrix [1]. Fermented dairy foods contribute live and postbiotic bacterial metabolites relevant to gut microbiota patterns [2].
 
-Within the BRAIN Diet framework, cheddar is a nutrient-dense dairy protein used in modest portions; saturated fat and sodium content warrant portion awareness [1].
+Within the BRAIN Diet framework, cheddar is a nutrient-dense dairy protein used in modest portions; saturated fat and sodium content warrant portion awareness
+
 ## Key Nutritional Highlights
 
 - Complete animal protein with calcium and vitamin B12 [1].
 - Fermented dairy matrix with microbiota-modulating interest [2].
 - Energy-dense; typical portions are 30–40 g, not 100 g.
 - Aged varieties are lower lactose; sodium varies by product.
+
 ## Food Context
 
 ### Synergies

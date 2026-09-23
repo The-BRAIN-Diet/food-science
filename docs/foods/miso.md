@@ -79,15 +79,7 @@ nutrition_supplementary_sources:
 
 Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication.
 
-Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling [1][2].
-## Key Nutritional Highlights
-
-
-- Fermented soy products such as miso modulate gut–brain signalling through microbiota pathways [1]
-- Traditional fermented soy pastes deliver live microbes and fermentation-derived metabolites [2]
-- Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication. [1]
-- Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]
-- Miso is a fermented soybean paste providing live probiotics, postbiotic compounds, and umami flavor, supporting gut-brain axis communication.
+Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
 ## Food Context
 

@@ -16,7 +16,7 @@ export const BRS1_3_MISSIONS = {
   "brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance.mdx":
     "Keep excitatory glutamate and inhibitory GABA signalling matched so neural networks operate with stability.",
   "brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity.mdx":
-    "Build adequate GABA synthesis capacity so inhibitory tone can counter excitatory drive when needed.",
+    "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
   "brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling.mdx":
     "Clear and recycle glutamate efficiently so excitatory load does not overwhelm neural circuits.",
   "brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation.mdx":

@@ -82,22 +82,13 @@ import NutritionTable from "@site/src/components/NutritionTable";
 
 Eggs are a nutrient-dense source of complete protein, **choline**, B vitamins, and phospholipids. The yolk concentrates highly bioavailable **lutein** and **zeaxanthin** (xanthophyll carotenoids relevant to retinal and neural antioxidant context), alongside **selenium** and **zinc**. Pasture-raised eggs can provide more vitamin E and omega-3s. Eggs support neurotransmitter synthesis and membrane health.
 
-**Protein profile:** Complete essential amino acid profile [1][2].
-## Key Nutritional Highlights
-
-
-- Reports on effect of dairy calcium from cheese and milk on fecal fat excretion, blood lipids, and appetite in young men$^\textrm{1}$$^\textrm{2}$$^\textrm{3}$ [1]
-- Reports on endocannabinoid system in psychotic and mood disorders, a review of human studies [2]
-- Reports on the Role of Choline in Neurodevelopmental Disorders—A Narrative Review Focusing on ASC, ADHD and Dyslexia [3]
-- Reports on digestibility of cooked and raw egg protein in humans as assessed by stable isotope techniques [4]
-- Reports on raw Eggs To Support Postexercise Recovery in Healthy Young Men: Did Rocky Get It Right or Wrong? [5]
-- Reports on effect of Domestic Cooking Methods on Egg Yolk Xanthophylls [6]
+**Protein profile:** Complete essential amino acid profile.
 
 ## Food Context
 
 ### Synergies
 
-- Pair with vegetables for carotenoid absorption (dietary fat enhances absorption of fat-soluble vitamins)
+- Pair cooked eggs with carotenoid-rich vegetables such as [spinach](/docs/foods/spinach), tomatoes and carrots; yolk phospholipids help absorb the vegetables’ carotenoids [4].
 
 ### Sourcing
 
@@ -105,12 +96,9 @@ Eggs are a nutrient-dense source of complete protein, **choline**, B vitamins, a
 
 ### Preparation
 
-- **Cook eggs for protein utilization.** Stable-isotope work reports roughly ~51% true ileal protein digestion and amino acid absorption for raw egg protein versus ~91% for cooked egg protein — heat strongly influences digestibility and postprandial amino acid availability [4].
-- A post-exercise trial (~30 g protein from five eggs) found boiled eggs raised peak essential amino acid concentrations more than raw eggs, but myofibrillar protein synthesis rates did not differ between raw and boiled groups [5].
-- **Yolk xanthophylls and cooking.** Egg yolk is a rich source of bioavailable lutein and zeaxanthin. Domestic boiling, frying, and microwaving alter yolk xanthophyll profiles: total losses range from **6% to 18%**, with higher **Z-isomer** content in cooked yolks and the largest reductions in all-E-lutein (about 22.5% after boiling) [6]. Cooking still leaves most yolk xanthophylls present; very high-heat or prolonged frying should be weighed against AGE formation and fat oxidation.
-- Gentle cooking limits advanced glycation end products (AGEs) when heat is controlled; avoid routine raw egg consumption (lower protein assimilation and salmonella risk).
-- Regular choline intake supports ongoing acetylcholine synthesis; important for structural membrane health.
-- Eggs provide phosphatidylethanolamine (PE), which can convert to phosphatidylcholine (PC) or N-acyl phosphatidylethanolamines (NAPEs) for endocannabinoid system support [2].
+- **Cook eggs for protein utilization.** True ileal digestion and amino-acid absorption of egg protein is about **51% when raw and about 91% when cooked** — cooking markedly improves how much of the protein is available [1]. Routine raw eggs also carry a salmonella risk.
+- After resistance exercise, boiled eggs raised peak essential amino-acid concentrations more than raw eggs (~30 g protein from five eggs), but myofibrillar protein synthesis rates did not differ between groups [2].
+- **Yolk xanthophylls and cooking.** Boiling, frying and microwaving reduce total yolk lutein and zeaxanthin by about **6–18%**, with the largest loss in all-E-lutein after boiling (~22.5%). Most xanthophylls remain after ordinary cooking; very high-heat or prolonged frying should be weighed against AGE formation and fat oxidation [3].
 
 ### Essential Amino Acid Profile
 
@@ -128,14 +116,10 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 ## References
 
-[1] Background:Calcium from different dairy sources might affect blood lipids and fecal fat excretion differently because of differences in the food matrix and nutritional composition. Soerensen & Thorning 2014. [Effect of cheese and dairy fat on LDL](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)
+[1] Evenepoel et al. (1998). [Digestibility of cooked and raw egg protein in humans as assessed by stable isotope techniques](/docs/papers/BRAIN-Diet-References#evenepoel_digestibility_1998). Cooked egg protein showed ~91% true ileal digestion and amino-acid absorption versus ~51% for raw egg protein.
 
-[2] Eggs provide phosphatidylethanolamine (PE), which can convert to phosphatidylcholine (PC) or N-acyl phosphatidylethanolamines (NAPEs) for endocannabinoid system support. Garani & Watts 2021. [Endocannabinoid-related phospholipids (NAPEs)](/docs/papers/BRAIN-Diet-References#garani_endocannabinoid_2021)
+[2] Fuchs et al. (2022). [Raw vs boiled eggs after resistance exercise](/docs/papers/BRAIN-Diet-References#fuchs_raw_eggs_2022). Post-exercise trial (~30 g protein from five eggs): boiled eggs raised peak essential amino-acid concentrations more than raw eggs; myofibrillar protein synthesis rates did not differ.
 
-[3] \textlessp\textgreaterNeurodevelopmental disorders appear to be rising in prevalence, according to the recent Global Burden of Disease Study. Derbyshire & Maes 2023. [Role of choline in brain health](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023)
+[3] Nimalaratne et al. (2012). [Domestic cooking methods and egg yolk xanthophylls](/docs/papers/BRAIN-Diet-References#nimalaratne_cooking_2012). Boiling, frying and microwaving reduced total yolk xanthophylls by 6–18%, with higher Z-isomer content after cooking and the largest all-E-lutein loss after boiling.
 
-[4] **Cook eggs for protein utilization.** Stable-isotope work reports roughly ~51% true ileal protein digestion and amino acid absorption for raw egg protein versus ~91% for cooked egg protein — heat strongly influences digestibility and postprandial amino acid availability. Evenepoel & Geypens 1998. [Digestibility of cooked and raw egg protein](/docs/papers/BRAIN-Diet-References#evenepoel_digestibility_1998)
-
-[5] A post-exercise trial (~30 g protein from five eggs) found boiled eggs raised peak essential amino acid concentrations more than raw eggs, but myofibrillar protein synthesis rates did not differ between raw and boiled groups. Fuchs & Hermans 2022. [Raw vs boiled eggs after resistance exercise (Rocky study)](/docs/papers/BRAIN-Diet-References#fuchs_raw_eggs_2022)
-
-[6] **Yolk xanthophylls and cooking.** Egg yolk is a rich source of bioavailable lutein and zeaxanthin. Domestic boiling, frying, and microwaving alter yolk xanthophyll profiles: total losses range from **6% to 18%**, with higher **Z-isomer** content in cooked yolks and the largest reductions in all-E-lutein (about 22.5% after boiling). Cooking still leaves most yolk xanthophylls present; very high-heat or prolonged frying should be weighed against AGE formation and fat oxidation. Nimalaratne & Lopes-Lutz 2012. [Domestic cooking methods and egg yolk xanthophylls](/docs/papers/BRAIN-Diet-References#nimalaratne_cooking_2012)
+[4] Kim et al. (2015). [Effects of egg consumption on carotenoid absorption from co-consumed, raw vegetables](/docs/papers/BRAIN-Diet-References#kim_egg_carotenoid_2015). Randomized crossover in 16 healthy young men: the same raw salad (100 g tomatoes, 62 g carrots, 70 g baby spinach, 25 g romaine, 5 g Chinese wolfberry; all with 3 g canola oil) plus 150 g scrambled whole eggs (~3 eggs) increased TRL carotenoid AUC versus no egg — lutein and zeaxanthin 4- to 5-fold; α-carotene, β-carotene and lycopene 3- to 8-fold. The ~1.5-egg meal did not significantly raise total carotenoid AUC versus control. The authors cite yolk phospholipids as well as total yolk lipid as promoters of intestinal micellarization; the trial did not isolate phospholipids from triglycerides, and arugula was not tested.

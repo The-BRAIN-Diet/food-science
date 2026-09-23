@@ -7,6 +7,8 @@ globs:
   - "docs/biological-targets/**/kc/**/*.md"
   - "docs/biological-targets/**/sm/**/*.mdx"
   - "docs/biological-targets/**/sm/**/*.md"
+  - "docs/biological-targets/dependencies/**/*.md"
+  - "docs/biological-targets/dependencies/**/*.mdx"
 alwaysApply: true
 ---
 
@@ -34,6 +36,10 @@ Routing logic:
 - If the file path contains `/sm/`:
   - Apply:
     `system/specific-mechanism-schema.md`
+
+- If the file path matches `docs/biological-targets/dependencies/`:
+  - Apply:
+    `system/cross-brs-dependency-page-schema.md`
 
 Section body prose (all PM / FM / SM / KC pages):
 - Follow `system/mechanism-page-section-prose.md` — sections must not restate title, entity ID, BRS name/number, or Definition; each section follows only its schema role.

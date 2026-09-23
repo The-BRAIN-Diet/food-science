@@ -1,7 +1,7 @@
 import React, { useId, useState } from 'react';
 
 /**
- * Collapsible confidence-score legend — Phenome Registry detail pages and PM/FM §3.
+ * Collapsible confidence-score legend — Phenome Registry detail pages and PM/FM phenome sections.
  */
 export default function PhenomeScoringKey({
   defaultExpanded = false,
@@ -56,7 +56,7 @@ export default function PhenomeScoringKey({
 
             <div className="phenome-scoring-key-section">
               <p className="phenome-scoring-key-heading">
-                <strong>2. Biology → Phenome Confidence</strong> (Primary Mechanism page §3 rows)
+                <strong>2. Biology → Phenome Confidence</strong> (Primary Mechanism phenome rows)
               </p>
               <p className="phenome-scoring-key-body">
                 <strong>Question:</strong> If this PM/FM biology were substantially impaired in
@@ -99,7 +99,7 @@ export default function PhenomeScoringKey({
 
             <div className="phenome-scoring-key-section">
               <p className="phenome-scoring-key-heading">
-                <strong>3. Evidence Confidence</strong> (Primary Mechanism page §3 rows)
+                <strong>3. Evidence Confidence</strong> (Primary Mechanism phenome rows)
               </p>
               <p className="phenome-scoring-key-body">
                 <strong>Question:</strong> How convincing are the <strong>attached Key References</strong>{' '}

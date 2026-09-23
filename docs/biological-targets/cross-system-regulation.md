@@ -35,6 +35,10 @@ Biological Regulatory Systems (BRSs) describe the primary domains of biological 
 
 **BRS-X** systems capture these cross-system regulatory networks. They function as higher-order signalling architectures that influence multiple BRSs concurrently and provide important integration layers within the wider framework.
 
+## Rationale for inclusion as a distinct BRS
+
+BRS-X systems were defined as a separate regulatory class because some signalling architectures — notably the endocannabinoid system and hormone signalling — operate across several primary BRSs at once and cannot be located inside a single domain without distortion. They can modify neurotransmission, inflammation, metabolism, mitochondrial function and gut–brain communication concurrently. BRS-X is therefore represented as a cross-system overlay, not as a seventh primary BRS and not as a substitute for BRS1–BRS6. It is not presented as a universal hormonal or endocannabinoid explanation for brain-related conditions, but as a coherent set of diet- and life-stage-responsive networks with biologically traceable dependencies across the wider framework.
+
 ## BRS-X Systems
 
 ### [BRS-X(ECS) — Endocannabinoid System](/docs/biological-targets/brs-x/ecs/brs-x-ecs)

@@ -102,15 +102,7 @@ nutrition_supplementary_sources:
 
 Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-dependent processes and supporting mitochondrial function. **Red and purple grape varieties** additionally supply anthocyanins built on [Malvidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/malvidin), [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin), [Delphinidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/delphinidin), [Peonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/peonidin), and [Petunidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/petunidin) backbones (green/white grapes contribute little anthocyanin).
 
-Within the BRAIN Diet framework, polyphenols (e.g., resveratrol) activate SIRT1, enhancing NAD⁺-dependent processes, and are found in grapes, blueberries, cranberries, peanuts, and dark chocolate [1][2].
-## Key Nutritional Highlights
-
-
-- Polyphenol-rich fruit patterns are associated with cognitive endpoints in flavonoid intervention trials [1]
-- Grape polyphenols such as resveratrol are studied for antioxidant and nutraceutical mechanisms [2]
-- Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-dependent processes and supporting mitochondrial function. [1]
-- Polyphenols (e.g., resveratrol) activate SIRT1, enhancing NAD⁺-dependent processes, and are found in grapes, blueberries, cranberries, peanuts, and dark chocolate. [2]
-- Grapes provide resveratrol, a polyphenol that activates SIRT1, enhancing NAD+-dependent processes and supporting mitochondrial function.
+Within the BRAIN Diet framework, polyphenols (e.g., resveratrol) activate SIRT1, enhancing NAD⁺-dependent processes, and are found in grapes, blueberries, cranberries, peanuts, and dark chocolate.
 
 ## Food Context
 

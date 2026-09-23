@@ -70,7 +70,7 @@ legacy_main_image: /img/foods/quinoa/quinoa_medium.webp
 
 Quinoa is a nutrient-dense pseudograin that provides complex carbohydrates, fibre, and a substantial plant-protein contribution, alongside magnesium, iron, zinc, folate, and choline [2]. It is naturally gluten-free and can be a useful grain alternative for people who avoid wheat-based staples.
 
-Quinoa seeds naturally contain bitter saponins in the outer coating, so rinsing before cooking improves taste and palatability; many modern commercial products are pre-washed, but a brief rinse is still practical in home cooking [3]. Within the BRAIN Diet framework, quinoa works well as a rotating whole-grain/pseudograin option that supports mineral intake, fibre intake, and overall diet diversity [2].
+Quinoa seeds naturally contain bitter saponins in the outer coating, so rinsing before cooking improves taste and palatability; many modern commercial products are pre-washed, but a brief rinse is still practical in home cooking [3]. Within the BRAIN Diet framework, quinoa works well as a rotating whole-grain/pseudograin option that supports mineral intake, fibre intake, and overall diet diversity
 
 ## Key Nutritional Highlights
 
@@ -116,6 +116,6 @@ Combine quinoa with legumes (e.g. lentils, chickpeas, beans) to support a more r
 
 ## References
 
-[1] Report recommending the Digestible Indispensable Amino Acid Score (DIAAS) as the preferred method for evaluating dietary protein quality, replacing PDCAAS, and detailing methodology and implications for human nutrition. FAO 2013. [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
+[1] FAO (2013). [Protein quality evaluation framework (DIAAS)](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 
-[2] Within the BRAIN Diet framework, quinoa works well as a rotating whole-grain/pseudograin option that supports mineral intake, fibre intake, and overall diet diversity. Mariotti & Gardner 2019. [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+[2] Mariotti & Gardner (2019). [Plant-protein adequacy, limiting amino acids, and practical complementarity](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Within the BRAIN Diet framework, quinoa works well as a rotating whole-grain/pseudograin option that supports mineral intake, fibre intake, and overall diet diversity.

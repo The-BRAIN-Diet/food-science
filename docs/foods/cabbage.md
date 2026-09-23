@@ -58,7 +58,7 @@ legacy_main_image: /img/foods/cabbage/cabbage_medium.webp
 
 Cabbage is a cruciferous vegetable providing **glucosinolates**, **vitamin C**, **folate**, and fibre at very low energy density [1]. Fermented cabbage (sauerkraut) delivers **Lactobacillus**-rich fermented vegetable matrices supporting gut microbiome diversity as part of fermented-food patterns [2].
 
-Within the BRAIN Diet framework, cabbage is useful fresh or fermented: fresh for crucifer phytonutrients and vitamin C; fermented for probiotic-adjacent dietary patterns where food-derived bioactives modulate gut microbiota [2].
+Within the BRAIN Diet framework, cabbage is useful fresh or fermented: fresh for crucifer phytonutrients and vitamin C; fermented for probiotic-adjacent dietary patterns where food-derived bioactives modulate gut microbiota
 
 ## Key Nutritional Highlights
 
@@ -66,6 +66,7 @@ Within the BRAIN Diet framework, cabbage is useful fresh or fermented: fresh for
 - Very low energy density (~25 kcal per 100 g) with vitamin C and fibre.
 - Fermented forms (sauerkraut) support fermented-vegetable diversity for gut microbiota modulation [2].
 - Raw, lightly cooked, or fermented preparations preserve different bioactive fractions.
+
 ## Food Context
 
 ### Synergies

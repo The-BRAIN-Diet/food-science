@@ -68,16 +68,7 @@ legacy_main_image: /img/foods/kefir/kefir_medium.webp
 
 Kefir is fermented milk providing diverse probiotics, including potential GABA-producing strains, and postbiotic compounds. Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. Kefir: Fermented milk drink, diverse probiotic strains.
 
-Within the BRAIN Diet framework, levilactobacillus brevis is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles, and can produce GABA [1][2].
-## Key Nutritional Highlights
-
-
-- Kefir provides live microbes and fermentation metabolites within diverse fermented-food strategies [1]
-- Fermented-food interventions increase microbiome diversity and immune-related outcomes in trials [2]
-- Kefir is fermented milk providing diverse probiotics, including potential GABA-producing strains, and postbiotic compounds. [1]
-- Fermented Foods: Sauerkraut, kimchi, kefir, miso, kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]
-- Kefir: Fermented milk drink, diverse probiotic strains.
-- Levilactobacillus brevis is active in L.
+Within the BRAIN Diet framework, levilactobacillus brevis is active in L. brevis strains isolated from fermented foods, such as kimchi, kefir, and pickles, and can produce GABA.
 
 ## Food Context
 

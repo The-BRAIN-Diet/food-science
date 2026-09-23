@@ -76,12 +76,14 @@ nutrition_supplementary_sources:
 Cherries (especially tart varieties) provide **anthocyanins**—principally [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin) and [Peonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/peonidin) backbones—plus **melatonin** and other polyphenols studied in sleep and recovery contexts [1]. Berry-class polyphenols have systematic-review support for cognitive performance endpoints in aging [2].
 
 Within the BRAIN Diet framework, cherries are a polyphenol fruit used fresh, frozen, or as tart juice in targeted portions rather than as a primary calorie source [1,2].
+
 ## Key Nutritional Highlights
 
 - Anthocyanin-rich stone fruit; tart varieties noted for melatonin interest [1].
 - Berry polyphenol cognitive evidence from systematic reviews [2].
 - Frozen whole cherries preserve polyphenols better than juice-only patterns.
 - Low energy density fresh; juice concentrates sugar — portion accordingly.
+
 ## Food Context
 
 ### Synergies

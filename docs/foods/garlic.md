@@ -70,15 +70,7 @@ nutrition_supplementary_sources:
 
 Garlic provides allicin (when crushed), sulfur compounds for glutathione synthesis, and prebiotic fiber supporting gut health and antioxidant defenses. Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health.
 
-Within the BRAIN Diet framework, garlic is part of the allium family with prebiotic benefits [1][2].
-## Key Nutritional Highlights
-
-
-- Reports on effect of Garlic and Lemon Juice Mixture on Lipid Profile and Some Cardiovascular Risk Factors in People 30--60 Years Old with Moderate Hyperlipidaemia: A Randomized Clinical Trial [1]
-- Reports on allicin: chemistry and biological properties [2]
-- Garlic provides allicin (when crushed), sulfur compounds for glutathione synthesis, and prebiotic fiber supporting gut health and antioxidant defenses. [1]
-- Sulphur-containing vegetables that provide glutathione precursors (e.g., broccoli, Brussels sprouts, garlic, onions) support NAD+ availability, glutathione synthesis, and mitochondrial health. [2]
-- Garlic is part of the allium family with prebiotic benefits.
+Within the BRAIN Diet framework, garlic is part of the allium family with prebiotic benefits.
 
 ## Food Context
 
@@ -109,6 +101,6 @@ Garlic contribute plant protein. Pair with complementary protein sources (e.g. g
 
 ## References
 
-[1] Reports on effect of Garlic and Lemon Juice Mixture on Lipid Profile and Some Cardiovascular Risk Factors in People 30--60 Years Old with Moderate Hyperlipidaemia: A Randomized Clinical Trial. Entezari & Maracy 2016. [Effect of garlic and lemon juice mixture on lipid profile and cardiovascular risk factors in moderate hyperlipidaemia](/docs/papers/BRAIN-Diet-References#entezari_garlic_lemon_hyperlipidaemia_2016)
+[1] Entezari & Maracy 2016. [Effect of garlic and lemon juice mixture on lipid profile and cardiovascular risk factors in moderate hyperlipidaemia](/docs/papers/BRAIN-Diet-References#entezari_garlic_lemon_hyperlipidaemia_2016). Randomized trial of a garlic-and-lemon juice mixture in moderate hyperlipidaemia; mixed-food intervention, not garlic alone.
 
-[2] Reports on allicin: chemistry and biological properties. Borlinghaus et al. 2014. [Allicin chemistry and biological properties review](/docs/papers/BRAIN-Diet-References#borlinghaus_allicin_chemistry_2014)
+[2] Borlinghaus et al. 2014. [Allicin chemistry and biological properties review](/docs/papers/BRAIN-Diet-References#borlinghaus_allicin_chemistry_2014). Constituent-level review of allicin chemistry, not a garlic-food feeding trial.

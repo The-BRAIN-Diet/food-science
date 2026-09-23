@@ -25,6 +25,8 @@ import FoodEffectIcon from '../../components/FoodEffectIcon';
 import FoodEffect from '../../components/FoodEffect';
 import PhenomeBibLinks from '../../components/PhenomeBibLinks';
 import PhenomeScoringKey from '../../components/PhenomeScoringKey';
+import ScientificFinding from '../../components/ScientificFinding';
+import EvidenceConfidenceIndicator from '../../components/EvidenceConfidenceIndicator';
 import PhenomeRegistry from '../PhenomeRegistry';
 import PhenomeDetail from '../PhenomeRegistry/PhenomeDetail';
 import FrameworkReviewRegister from '../../components/ReviewCorrections/PublicRegister';
@@ -59,6 +61,8 @@ export default {
   FoodShoppingList,
   PhenomeBibLinks,
   PhenomeScoringKey,
+  ScientificFinding,
+  EvidenceConfidenceIndicator,
   PhenomeRegistry,
   PhenomeDetail,
   FrameworkReviewRegister,

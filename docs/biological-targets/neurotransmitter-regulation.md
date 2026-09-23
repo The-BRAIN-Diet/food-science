@@ -24,6 +24,10 @@ hide_title: true
 
 Maintain continuous, balanced neurotransmitter signalling across monoaminergic, cholinergic and GABA–glutamate systems, supported by membrane-lipid integrity, so the brain sustains attention, arousal, motivation, emotional regulation and behavioural control without drifting into depletion, broader signalling imbalance or excitation–inhibition mismatch.
 
+## Rationale for inclusion as a distinct BRS
+
+Neurotransmitter regulation was defined as a distinct BRS because it coordinates the brain’s chemical-communication infrastructure: monoaminergic signalling, cholinergic function, GABA–glutamate balance, and the membrane-lipid environment in which receptors and transporters operate. These interconnected processes jointly determine attention, arousal, motivation, emotional regulation and behavioural control. BRS1 is therefore represented as the primary signalling system of the framework: other BRSs can constrain it through precursor supply, cofactors, energy, redox tone or stress allocation, but they do not replace transmitter-specific enzymatic and receptor regulation. It is not presented as a single-neurotransmitter explanation for brain-related conditions, but as a coherent, diet-responsive signalling architecture with biologically traceable dependencies across the wider regulatory network.
+
 ## Therapeutic Area Research
 
 <p class="brs-hub-ta-research-intro">ADHD is the first fully mapped therapeutic area within the BRAIN Framework, providing a proof of concept for an adaptive biological architecture linking nutrition, biology and function. The same framework is designed to expand across additional therapeutic areas through the shared <a href="/docs/phenomes/">Phenome Registry</a>.</p>
@@ -489,46 +493,46 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS4 → BRS1) Bioenergetic Support for Neurotransmission</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="0" aria-label="Open: (BRS4 → BRS1) Bioenergetic Support for Neurotransmission">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs4-to-brs1" aria-label="Open: (BRS4 → BRS1) Bioenergetic Support for Neurotransmission">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="1" aria-label="Open: (BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs3-to-brs1" aria-label="Open: (BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">(BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="2" aria-label="Open: (BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission">
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs6-to-brs1" aria-label="Open: (BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
-  <span class="brs-fm-hub-group-title-text">(BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="3" aria-label="Open: (BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology">
+  <span class="brs-fm-hub-group-title-text">(BRS2 → BRS1) One-Carbon Support for Neurotransmitter Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs2-to-brs1" aria-label="Open: (BRS2 → BRS1) One-Carbon Support for Neurotransmitter Regulation">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
-  <span class="brs-fm-hub-group-title-text">(BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling</span>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action brs-fm-hub-group-open" data-brs-hub-focus-child="4" aria-label="Open: (BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling">
+  <span class="brs-fm-hub-group-title-text">(BRS5 → BRS1) Gut–Vagal Modulation of Neurotransmitter Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/dependencies/brs5-to-brs1" aria-label="Open: (BRS5 → BRS1) Gut–Vagal Modulation of Neurotransmitter Regulation">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
   </div>
 </li>
 </ul>
@@ -543,10 +547,10 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS4 → BRS1) Bioenergetic Support for Neurotransmission</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS4 → BRS1) Bioenergetic Support for Neurotransmission">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs4-to-brs1" aria-label="Open (BRS4 → BRS1) Bioenergetic Support for Neurotransmission">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -561,6 +565,7 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#picard_mitochondrial_synapses_2015">Picard, 2015</a> — Reframed mitochondria as dynamic signalling and energetic organelles that coordinate cellular energetics with neuronal activity, supporting the interpretation of BRS4 as an upstream enabling system preserving BRS1 adaptive performance.</p></li>
 </ul>
 
+
 </div>
 </div>
 </div>
@@ -572,10 +577,10 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs3-to-brs1" aria-label="Open (BRS3 → BRS1) Inflammatory Modulation of Neurotransmitter Systems">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -590,6 +595,7 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#savitz_kynurenine_2019">Savitz, 2020</a> — Demonstrated that immune activation reshapes neurotransmitter regulation through the kynurenine pathway and broader neuroimmune interactions, influencing both monoaminergic signalling and excitation–inhibition balance. This supports the BRAIN Framework interpretation that maintaining immune regulation preserves the biological environment required for resilient monoaminergic and excitation–inhibition regulation within BRS1.</p></li>
 </ul>
 
+
 </div>
 </div>
 </div>
@@ -601,10 +607,10 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
 <strong class="brs-fm-hub-title">(BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission">
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs6-to-brs1" aria-label="Open (BRS6 → BRS1) Stress-Axis and Autonomic Shaping of Neurotransmission">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -620,6 +626,8 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#thayer_2012_22178086">Thayer et al., 2012</a> — Demonstrated intimate coupling between autonomic regulatory capacity, stress neurobiology and central nervous system function — supporting the interpretation of BRS6 autonomic stability as an upstream enabler of BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
 
+<h4 class="brs-hub-integration-section-title">Cascade 6</h4>
+<p><a href="/docs/biological-targets/dependencies/brs6-to-brs1#cascade-6">Cascade 6 — BRS6 → BRS4/BRS3 → BRS1</a> maps this dependency through mitochondrial and immune-redox intermediates, with ADHD-hub sources and the diet, optimisation and lifestyle levers on the connected Primary Mechanism pages.</p>
 </div>
 </div>
 </div>
@@ -627,14 +635,14 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="3">
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
-<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS2 → BRS1) One-Carbon Support for Neurotransmitter Regulation">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
-<strong class="brs-fm-hub-title">(BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS2 → BRS1) One-Carbon and BH4 Support for Monoamine Biology">
+<strong class="brs-fm-hub-title">(BRS2 → BRS1) One-Carbon Support for Neurotransmitter Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs2-to-brs1" aria-label="Open (BRS2 → BRS1) One-Carbon Support for Neurotransmitter Regulation">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -645,9 +653,10 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <p>Together, the Functional Mechanisms within BRS2 maintain methylation cycle efficiency, transsulfuration-linked redox coupling and methylation–membrane integrity required to sustain methyl-donor reserves, cofactor chemistry and membrane-related neurochemical support during prolonged physiological demand. Rather than acting through a single biosynthetic step, these integrated capacities collectively preserve the cofactor and methylation context required for stable neurotransmitter regulation within BRS1.</p>
 <h4 class="brs-hub-integration-section-title">Supporting Evidence</h4>
 <ul class="brs-hub-integration-evidence-list">
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021">Fanet et al., 2021</a> — Established that essential cofactor chemistry underpins central monoamine synthesis and neurotransmitter-regulatory capacity — supporting the framework interpretation that BRS2 cofactor reserves may become a principal rate-limiting constraint on monoaminergic regulation when one-carbon metabolism is strained.</p></li>
-<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Demonstrated that B-vitamin-dependent one-carbon metabolism supports brain neurochemical synthesis — supporting the interpretation of BRS2 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996">Chiang et al., 1996</a> — Reviews S-adenosylmethionine as the principal cellular methyl donor and its roles in transmethylation pathways.</p></li>
+<li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#kennedy_b_2016">Kennedy, 2016</a> — Reviews B-vitamin involvement in one-carbon metabolism and brain function; it does not establish a clinical BRS2 → BRS1 effect.</p></li>
 </ul>
+
 
 </div>
 </div>
@@ -656,14 +665,14 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <div class="brs-fm-hub-item" data-brs-fm-hub data-brs-fm-hub-group-index="4">
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-summary-row">
-<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand (BRS5 → BRS1) Gut–Vagal Modulation of Neurotransmitter Regulation">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
 </button>
-<strong class="brs-fm-hub-title">(BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling</strong>
-<button type="button" class="brs-fm-hub-open brs-fm-hub-open--action" aria-label="Open (BRS5 → BRS1) Gut–Vagal Modulation of Neurochemical Signalling">
+<strong class="brs-fm-hub-title">(BRS5 → BRS1) Gut–Vagal Modulation of Neurotransmitter Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/dependencies/brs5-to-brs1" aria-label="Open (BRS5 → BRS1) Gut–Vagal Modulation of Neurotransmitter Regulation">
 <span class="brs-fm-hub-open-label">Open →</span>
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
-</button>
+</a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
 <h4 class="brs-hub-integration-section-title">Biological Contribution</h4>
@@ -677,6 +686,7 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#bravo_ingestion_2011">Bravo et al., 2011</a> — Demonstrated that gut microbiota can modulate central neurochemical regulation through vagal signalling pathways — supporting the framework interpretation that impaired gut–brain communication may become a principal constraint on neurotransmitter regulation during sustained peripheral perturbation.</p></li>
 <li class="brs-hub-integration-evidence-item"><p><a href="/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020">Jaggar et al., 2020</a> — Synthesised how microbial metabolite and vagal signalling interact with central nervous system function — supporting the interpretation of BRS5 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.</p></li>
 </ul>
+
 
 </div>
 </div>

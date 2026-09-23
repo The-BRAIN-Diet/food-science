@@ -70,16 +70,7 @@ nutrition_supplementary_sources:
 ---
 ## Overview
 
-Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 pentadecanoic acid, glutamate, high protein, and calcium. Evidence suggests hard cheeses with high calcium do not raise serum LDL levels, supporting their use in moderation within nutrient-dense dietary patterns [Soerensen et al.
-
-Within the BRAIN Diet framework, 2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014) [1].
-## Key Nutritional Highlights
-
-
-- Reports on effect of dairy calcium from cheese and milk on fecal fat excretion, blood lipids, and appetite in young men$^\textrm{1}$$^\textrm{2}$$^\textrm{3}$ [1]
-- Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 pentadecanoic acid, glutamate, high protein, and calcium. [1]
-- Evidence suggests hard cheeses with high calcium do not raise serum LDL levels, supporting their use in moderation within nutrient-dense dietary patterns [Soerensen et al.
-- 2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014).
+Parmesan cheese provides CLA (conjugated linoleic acid), vitamin K2, C15:0 pentadecanoic acid, glutamate, high protein, and calcium. Evidence suggests hard cheeses with high calcium do not raise serum LDL levels, supporting their use in moderation within nutrient-dense dietary patterns [Soerensen et al. 2014](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014).
 
 ## Food Context
 
@@ -99,7 +90,7 @@ Within the BRAIN Diet framework, 2014](/docs/papers/BRAIN-Diet-References#soeren
 
 ### Essential Amino Acid Profile
 
-Parmesan Cheese contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
+This food provides a complete essential amino acid profile typical of animal proteins.
 
 ## Recipes
 
@@ -113,4 +104,4 @@ Parmesan Cheese contribute plant protein. Pair with complementary protein source
 
 ## References
 
-[1] Studies have shown that hard cheeses with high calcium do not raise serum LDL levels. Soerensen & Thorning 2014. [Effect of dairy calcium from cheese and milk on fecal fat excretion, blood lipids, and appetite in young men$^\textrm{1}$$^\textrm{2}$$^\textrm{3}$](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)
+[1] Studies have shown that hard cheeses with high calcium do not raise serum LDL levels. Soerensen & Thorning 2014. [Effect of dairy calcium from cheese and milk on fecal fat excretion, blood lipids, and appetite in young men](/docs/papers/BRAIN-Diet-References#soerensen_effect_2014)

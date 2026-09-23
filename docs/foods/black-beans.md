@@ -107,8 +107,8 @@ Black Beans are rich in lysine but relatively low in sulfur-containing amino aci
 
 ## References
 
-[1] Soaking and sprouting reduce phytates and can improve zinc and iron bioavailability. Greiner & Konietzny 1999. [Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
+[1] Soaking and cooking can reduce myo-inositol phosphates that limit mineral absorption in black beans; this paper measured phytate reduction in black beans (Phaseolus vulgaris). Greiner & Konietzny 1999. [Improving enzymatic reduction of myo-inositol phosphates with inhibitory effects on mineral absorption in black beans](/docs/papers/BRAIN-Diet-References#greiner_improving_1999)
 
 [2] Black beans are polyphenol-rich legumes that support gut health within diverse plant-forward dietary patterns. Mariotti & Gardner 2019. [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
 
-[3] Pair with vitamin C-rich foods to enhance non-heme iron absorption. Hallberg & Brune 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+[3] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.

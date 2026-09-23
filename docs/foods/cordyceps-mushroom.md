@@ -43,13 +43,15 @@ nutrition_supplementary_sources:
 
 Cordyceps mushrooms (including *Cordyceps militaris* cultivars) provide **polysaccharides** and **cordycepin** studied for energy-metabolism and immunomodulatory endpoints [1]. They are used as a functional mushroom in extract or culinary forms.
 
-Within the BRAIN Diet framework, cordyceps is a medicinal-mushroom adjunct; evidence in humans is emerging and doses are often extract-based rather than whole-food 100 g portions [1].
+Within the BRAIN Diet framework, cordyceps is a medicinal-mushroom adjunct; evidence in humans is emerging and doses are often extract-based rather than whole-food 100 g portions
+
 ## Key Nutritional Highlights
 
 - Cordycepin and polysaccharide bioactives in functional mushroom matrices [1].
 - Traditional use for vitality/endurance; human RCT evidence still limited.
 - Extract vs whole-mushroom doses differ materially from USDA 100 g tables.
 - Source cultivation method (*militaris* vs *sinensis*) affects compound profile.
+
 ## Food Context
 
 ### Sourcing

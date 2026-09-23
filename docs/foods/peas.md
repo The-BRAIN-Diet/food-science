@@ -62,14 +62,10 @@ legacy_main_image: /img/foods/peas/peas_medium.webp
 
 Peas provide plant protein, prebiotic fiber, and thiamine (B1), supporting gut health, neurotransmitter synthesis, and mitochondrial function. Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils.
 
-Within the BRAIN Diet framework, thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production. Peas are part of the legume family with prebiotic benefits [1].
+Within the BRAIN Diet framework, thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production. Peas are part of the legume family with prebiotic benefits .
+
 ## Key Nutritional Highlights
 
-
-- Reports on neurological, Psychiatric, and Biochemical Aspects of Thiamine Deficiency in Children and Adults [1]
-- Peas provide plant protein, prebiotic fiber, and thiamine (B1), supporting gut health, neurotransmitter synthesis, and mitochondrial function. [1]
-- Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils.
-- Thiamine is essential for mitochondrial glucose metabolism in the brain leading to ATP production.
 - Peas are part of the legume family with prebiotic benefits.
 
 ## Food Context
@@ -112,4 +108,3 @@ Peas are rich in lysine but relatively low in sulfur-containing amino acids. Com
 
 ## References
 
-[1] Thiamine (B1): Pork, sunflower seeds, salmon, peas, rice, lentils; essential for mitochondrial glucose metabolism in the brain leading to ATP production. Dhir & Tarasenko 2019. [Neurological, Psychiatric, and Biochemical Aspects of Thiamine Deficiency in Children and Adults](/docs/papers/BRAIN-Diet-References#dhir_neurological_2019)

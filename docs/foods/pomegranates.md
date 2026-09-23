@@ -84,13 +84,7 @@ nutrition_supplementary_sources:
 
 Pomegranates provide ellagitannins that gut bacteria convert to urolithin A, supporting mitochondrial resilience, mitophagy, and cognitive function. They also contribute anthocyanins built on [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin), [Delphinidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/delphinidin), and [Pelargonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/pelargonidin) backbones. The Green Mediterranean Diet study showed greater visceral adipose tissue loss that tracked with higher total plasma polyphenols and with the microbiome-derived markers urolithin A (via ellagitannins: walnuts/pomegranate).
 
-Within the BRAIN Diet framework, higher polyphenol intake and microbial diversity increase urolithin A and related metabolites, supporting mitochondrial resilience and mitophagy and improving cognitive endurance [1][2].
-## Key Nutritional Highlights
-
-
-- Reports on the effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial [1]
-- Reports on the mitophagy activator urolithin A is safe and induces a molecular signature of improved mitochondrial and cellular health in humans [2]
-- Reports on direct supplementation with Urolithin A overcomes limitations of dietary exposure and gut microbiome variability in healthy adults to achieve consistent levels across the population [3]
+Within the BRAIN Diet framework, higher polyphenol intake and microbial diversity increase urolithin A and related metabolites, supporting mitochondrial resilience and mitophagy and improving cognitive endurance.
 
 ## Food Context
 

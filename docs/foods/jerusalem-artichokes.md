@@ -44,15 +44,7 @@ legacy_main_image: /img/foods/jerusalem-artichokes/jerusalem-artichokes_medium.w
 
 Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth.
 
-Within the BRAIN Diet framework, jerusalem artichokes have the highest inulin content, and inulin supports ↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier [1][2].
-## Key Nutritional Highlights
-
-
-- Jerusalem artichokes are among the richest dietary sources of inulin-type prebiotic fibre [1]
-- Prebiotic fermentable fibre intake modulates gut microbiota and stress-related biomarkers [2]
-- Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth. [1]
-- Jerusalem artichokes have the highest inulin content, and inulin supports ↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier. [2]
-- Jerusalem artichokes (sunchokes) provide the highest inulin content among common foods, supporting Bifidobacterium and Akkermansia growth.
+Within the BRAIN Diet framework, jerusalem artichokes have the highest inulin content, and inulin supports ↑ Bifidobacterium, Akkermansia; ↑ butyrate production; improved gut barrier.
 
 ## Food Context
 

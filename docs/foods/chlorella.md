@@ -38,13 +38,15 @@ legacy_main_image: /img/foods/chlorella/chlorella_medium.webp
 
 Chlorella is a **microalgae** providing protein, chlorophyll, and bioavailable **vitamin B12** (true cobalamin forms in validated preparations) unlike many spirulina products [1]. It is used in supplement-scale portions for micronutrient and protein density.
 
-Within the BRAIN Diet framework, chlorella can help close B12 gaps in plant-forward patterns when a validated algae source is used [1].
+Within the BRAIN Diet framework, chlorella can help close B12 gaps in plant-forward patterns when a validated algae source is used
+
 ## Key Nutritional Highlights
 
 - Microalgae protein with validated true B12 in some preparations [1].
 - Very high table protein per 100 g; typical use is supplement grams/day.
 - Source quality matters for B12 form (cobalamin vs analogues).
 - Introduce gradually; GI tolerance varies.
+
 ## Food Context
 
 ### Synergies

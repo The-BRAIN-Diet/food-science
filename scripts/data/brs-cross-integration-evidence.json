@@ -75,15 +75,15 @@
       "integrated_regulatory_capacity": "Together, the Functional Mechanisms within BRS2 maintain methylation cycle efficiency, transsulfuration-linked redox coupling and methylation–membrane integrity required to sustain methyl-donor reserves, cofactor chemistry and membrane-related neurochemical support during prolonged physiological demand. Rather than acting through a single biosynthetic step, these integrated capacities collectively preserve the cofactor and methylation context required for stable neurotransmitter regulation within BRS1.",
       "evidence": [
         {
-          "citation": "Fanet et al. (2021)",
-          "citation_key": "fanet_tetrahydrobioterin_2021",
-          "supports": "Established that essential cofactor chemistry underpins central monoamine synthesis and neurotransmitter-regulatory capacity — supporting the framework interpretation that BRS2 cofactor reserves may become a principal rate-limiting constraint on monoaminergic regulation when one-carbon metabolism is strained.",
-          "reference": "Fanet, H., Capuron, L., Castanon, N., Calon, F., & Vancassel, S. (2021). Tetrahydrobiopterin (BH4) pathway: From metabolism to neuropsychiatry. Current Neuropharmacology, 19(5), 591–609. https://doi.org/10.2174/1570159X18666200729103529"
+          "citation": "Chiang et al. (1996)",
+          "citation_key": "chiang_s-adenosylmethionine_1996",
+          "supports": "Reviews S-adenosylmethionine as the principal cellular methyl donor and its roles in transmethylation pathways.",
+          "reference": "Chiang, P. K., Gordon, R. K., Tal, J., Zeng, G. C., Doctor, B. P., Pardhasaradhi, K., & McCann, P. P. (1996). S-Adenosylmethionine and methylation. FASEB Journal, 10(5), 471–480."
         },
         {
           "citation": "Kennedy (2016)",
           "citation_key": "kennedy_b_2016",
-          "supports": "Demonstrated that B-vitamin-dependent one-carbon metabolism supports brain neurochemical synthesis — supporting the interpretation of BRS2 as an upstream enabling system preserving BRS1 adaptive performance during sustained physiological demand.",
+          "supports": "Reviews B-vitamin involvement in one-carbon metabolism and brain function, supporting nutritional sufficiency without establishing a direct clinical BRS2 → BRS1 effect.",
           "reference": "Kennedy, D. O. (2016). B vitamins and the brain: Mechanisms, dose and efficacy—A review. Nutrients, 8(2), 68. https://doi.org/10.3390/nu8020068"
         }
       ]

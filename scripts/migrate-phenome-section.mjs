@@ -96,7 +96,10 @@ function buildPhenomeBlock(kind, data, sectionNum) {
   if (kind === "sm" && data.sm_category === "SM-PHEN" && data.interpreted_phenome?.confidence) {
     return renderSmPhenPhenomeSectionBody(data, { sectionNum });
   }
-  return renderPmPhenomeSectionBody(data.phenome_relationships || [], { sectionNum });
+  return renderPmPhenomeSectionBody(data.phenome_relationships || [], {
+    sectionNum,
+    findingData: data,
+  });
 }
 
 function shouldSkipSmPhenomeSync(data) {

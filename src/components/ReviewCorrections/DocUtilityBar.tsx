@@ -28,6 +28,8 @@ type ContentTab = "highlights" | "advanced" | "therapeutic" | "review"
 const THERAPEUTIC_HASH_IDS = new Set([
   "walsh-biochemical-biotypes",
   "copper-therapeutic-areas",
+  "bh4-therapeutic-areas",
+  "glutathione-therapeutic-areas",
   "therapeutic-area-research",
   "therapeutic-area-research-references",
 ])

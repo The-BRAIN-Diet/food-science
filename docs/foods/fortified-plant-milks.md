@@ -71,15 +71,7 @@ nutrition_supplementary_sources:
 
 Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like B12, vitamin D, and sometimes iodine, helping close vegan nutrient gaps.
 
-Within the BRAIN Diet framework, targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts), B12 (fortified plant milks, nutritional yeast) [1][2].
-## Key Nutritional Highlights
-
-
-- Fortified plant milks can help close calcium and iron gaps when paired appropriately within mixed meals [1]
-- B-vitamin fortification in plant beverages supports one-carbon and neurochemical pathways in vegan patterns [2]
-- Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like B12, vitamin D, and sometimes iodine, helping close vegan nutrient gaps. [1]
-- Targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts), B12 (fortified plant milks, nutritional yeast). [2]
-- Fortified plant milks (soy, almond, oat, etc.) provide essential nutrients like B12, vitamin D, and sometimes iodine, helping close vegan nutrient gaps.
+Within the BRAIN Diet framework, targets foods providing essential brain supporting vitamins: D (UV-exposed mushrooms; fortified plant milks/yogurts), B12 (fortified plant milks, nutritional yeast).
 
 ## Food Context
 

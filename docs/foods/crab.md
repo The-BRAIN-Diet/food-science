@@ -84,8 +84,8 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 [1] Complete, highly digestible protein at moderate energy density (~69 kcal per 100 g). FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
 
-[2] Reports on zinc as Allosteric Ion Channel Modulator: Ionotropic Receptors as Metalloproteins. Peralta & Huidobro-Toro 2016. [Zinc as Allosteric Ion Channel Modulator: Ionotropic Receptors as Metalloproteins](/docs/papers/BRAIN-Diet-References#peralta_zinc_2016)
+[2] Zinc as Allosteric Ion Channel Modulator: Ionotropic Receptors as Metalloproteins. Peralta & Huidobro-Toro 2016. [Zinc as Allosteric Ion Channel Modulator: Ionotropic Receptors as Metalloproteins](/docs/papers/BRAIN-Diet-References#peralta_zinc_2016)
 
-[3] selenium contributes to selenoprotein-based antioxidant defence. Mocchegiani & Malavolta 2019. [Role of Zinc and Selenium in Oxidative Stress and Immunosenescence: Implications for Healthy Aging and Longevity](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
+[3] Selenium contributes to selenoprotein-based antioxidant defence. Mocchegiani & Malavolta 2019. [Role of Zinc and Selenium in Oxidative Stress and Immunosenescence: Implications for Healthy Aging and Longevity](/docs/papers/BRAIN-Diet-References#mocchegiani_role_2019)
 
-[4] and B12 supports one-carbon metabolism and neurological maintenance. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+[4] And B12 supports one-carbon metabolism and neurological maintenance. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)

@@ -8,23 +8,30 @@ hide_title: true
 
 # BRS5 → BRS4 — Gut-Metabolic Inputs to Mitochondrial Energetics
 
-This page explains the **systems-level biological dependency** between BRS5 and BRS4. It is informed by literature, integrated BRS architecture, allostatic context, expert interpretation, and mechanistic evidence from PM pages — but it does **not** duplicate the canonical PM relationship graph.
+Selected gut-derived metabolites may influence cellular energy handling in [BRS4](/docs/biological-targets/mitochondrial-function-bioenergetics), but current page-level evidence is thin.
 
-For explicit PM-to-PM relationships, see **§6.2 Cross-BRS Mechanism Relationships** on individual Primary Mechanism pages.
+## Dependency
 
-## Biological Contribution
+[BRS5](/docs/biological-targets/gut-brain-axis-enteric-nervous-system) can supply short-chain fatty acids and other microbial metabolites that peripheral tissues use as fuels or signalling molecules. Those inputs may condition mitochondrial substrate availability. Glucocorticoid and glucose effects on mitochondria belong to [BRS6 → BRS4](/docs/biological-targets/dependencies/brs6-to-brs4), not to this route.
 
-Collectively, the Functional Mechanisms within BRS5 maintain adaptive microbial metabolite signalling capacity that enables BRS4 to sustain bioenergetic reserve under prolonged physiological demand.
+## Principal Routes
 
-## Systems Significance
+<div className="markdown-table-scroll">
 
-By preserving these gut-derived metabolic signalling capacities, BRS5 functions as an upstream enabling system, reducing the likelihood that impaired microbial metabolite availability progressively constrains mitochondrial bioenergetic capacity within BRS4 as systemic metabolic load accumulates. Maintaining BRS5 therefore complements substrate and cofactor biology within BRS4 by preserving gut-derived energetic support rather than substituting for mitochondrial regulation itself.
+| Route | Contribution to BRS4 | Relationship |
+| --- | --- | --- |
+| [SCFA production and signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) | Potential fuel and signalling input to cellular energy metabolism | Conditional |
 
-## Integrated Regulatory Capacity
+</div>
 
-Together, the Functional Mechanisms within BRS5 maintain fermentable-fibre-driven microbial ecology, short-chain fatty acid signalling and gut-derived metabolic inputs required to support cellular energy handling during prolonged physiological demand. Rather than acting through a single metabolite, these integrated capacities collectively influence how peripheral metabolic signals shape bioenergetic reserve within BRS4.
+## Network Interpretation
+
+Do not treat Picard’s mitochondrial allostatic-load account as BRS5 evidence. That work concerns glucocorticoid and glucose load from BRS6. A genuine BRS5 → BRS4 claim requires metabolite-to-mitochondria evidence, not stress-to-mitochondria evidence reused from another dependency.
+
+## Boundary and Evidence Status
+
+**Flagged for review.** The previous citation set did not establish this named dependency: Picard et al. 2014 supports BRS6 → BRS4; Jaggar et al. 2020 is a gut–brain review, not a mitochondrial bioenergetics trial. The page is retained as a conditional SCFA/metabolite hypothesis until stronger human or mechanistic sources are attached. It should not be read as an evidenced energetic treatment pathway.
 
 ## Supporting Evidence
 
-- [Picard et al., 2014](/docs/papers/BRAIN-Diet-References#picard_mitochondrial_allostatic_load_2014) — Linked mitochondrial energy metabolism, glucose handling and stress-related pathophysiology — supporting the framework interpretation that metabolic and neuroendocrine load shapes bioenergetic capacity within BRS4.
-- [Jaggar et al., 2020](/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020) — Synthesised microbial metabolite signalling intersecting metabolic and neuroendocrine adaptive regulation — supporting the interpretation of BRS5 as an upstream enabler of BRS4 bioenergetic performance.
+- [Jaggar et al., 2020](/docs/papers/BRAIN-Diet-References#jaggar_sex_microbiota_gut_brain_axis_2020) — Reviews microbial metabolite signalling in gut–brain biology; it does not demonstrate that those metabolites restore mitochondrial reserve.

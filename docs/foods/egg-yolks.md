@@ -86,20 +86,13 @@ nutrition_supplementary_sources:
 
 Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health.
 
-Within the BRAIN Diet framework, acetylcholine and choline food sources include egg yolks, fish roe, soy, wheat germ, and liver [1].
-## Key Nutritional Highlights
-
-
-- Reports on effect of Domestic Cooking Methods on Egg Yolk Xanthophylls [1]
-- Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health. [1]
-- Acetylcholine and choline food sources include egg yolks, fish roe, soy, wheat germ, and liver.
-- Egg yolks provide choline (acetylcholine precursor), lutein/zeaxanthin (carotenoids), and fat-soluble vitamins (A, D, E, K2), supporting neurotransmitter synthesis and brain health.
+Within the BRAIN Diet framework, acetylcholine and choline food sources include egg yolks, fish roe, soy, wheat germ, and liver.
 
 ## Food Context
 
 ### Synergies
 
-- Pair with carotenoid-rich vegetables for enhanced absorption
+- Pair with carotenoid-rich vegetables; yolk phospholipids help absorb the vegetables’ carotenoids [2].
 
 ### Sourcing
 
@@ -108,7 +101,7 @@ Within the BRAIN Diet framework, acetylcholine and choline food sources include 
 ### Preparation
 
 - Yolk **lutein** and **zeaxanthin** are highly bioavailable xanthophylls. Boiling, frying, and microwaving change isomer profiles and reduce total yolk xanthophyll content by about **6–18%** (all-E-lutein most affected in boiled yolk); cooked yolks show more Z-isomers [1].
-- Gentle cooking preserves choline and limits excessive heat damage; pair with vegetables or oils that support carotenoid absorption in mixed meals.
+- Gentle cooking preserves choline and limits excessive heat damage.
 
 ### Essential Amino Acid Profile
 
@@ -127,3 +120,5 @@ This food provides a complete essential amino acid profile typical of animal pro
 ## References
 
 [1] Yolk **lutein** and **zeaxanthin** are highly bioavailable xanthophylls. Boiling, frying, and microwaving change isomer profiles and reduce total yolk xanthophyll content by about **6–18%** (all-E-lutein most affected in boiled yolk); cooked yolks show more Z-isomers. Nimalaratne & Lopes-Lutz 2012. [Domestic cooking methods and egg yolk xanthophylls](/docs/papers/BRAIN-Diet-References#nimalaratne_cooking_2012)
+
+[2] Kim et al. (2015). [Effects of egg consumption on carotenoid absorption from co-consumed, raw vegetables](/docs/papers/BRAIN-Diet-References#kim_egg_carotenoid_2015). Randomized crossover in 16 healthy young men: 150 g scrambled whole eggs (~3 eggs) with a raw mixed salad increased TRL carotenoid AUC versus no egg (lutein and zeaxanthin 4- to 5-fold; α-carotene, β-carotene and lycopene 3- to 8-fold). The authors discuss yolk phospholipids as well as total yolk lipid as promoters of micellarization; the trial used whole eggs and did not isolate phospholipids from triglycerides.

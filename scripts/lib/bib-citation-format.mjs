@@ -250,30 +250,13 @@ export function extractCitationExplanationsFromBody(bodyBeforeRefs) {
   return byNum
 }
 
-export function fallbackReferenceExplanation(meta, titleOverride = null) {
-  const abstract = typeof meta?.abstract === "string" ? meta.abstract.trim() : ""
-  if (abstract) {
-    let first = abstract
-      .replace(/\{\\textless\}p\{\\textgreater\}/gi, "")
-      .replace(/\{\\textless\}\/?p\{\\textgreater\}/gi, "")
-      .split(/(?<=[.!?])\s+/)[0]
-      ?.trim()
-    first = first?.replace(/^Abstract\s+/i, "")
-    if (first && first.length >= 40 && first.length <= 320) {
-      return first.replace(/\.$/, "")
-    }
-  }
-  const title = titleOverride ?? meta?.title
-  if (!title) return "Evidence cited on this page for this food."
-  const cleaned = title.replace(/\.$/, "").trim()
-  if (/^(A|An|The)\s/i.test(cleaned)) {
-    return cleaned.charAt(0).toUpperCase() + cleaned.slice(1)
-  }
-  const firstWord = cleaned.split(/\s+/)[0] || ""
-  if (/^[A-Z]{2,}/.test(firstWord)) {
-    return cleaned
-  }
-  return `Reports on ${cleaned.charAt(0).toLowerCase()}${cleaned.slice(1)}`
+/**
+ * Do not invent editorial claims from bibliography titles or abstracts.
+ * A missing annotation is correct; generators must not fill it.
+ * @returns {null}
+ */
+export function fallbackReferenceExplanation(_meta, _titleOverride = null) {
+  return null
 }
 
 export function isStubReferenceLine(line) {
@@ -435,9 +418,7 @@ export function needsReferenceFormatFix(referencesBody) {
 }
 
 export function rebuildReferencesSection(refKeys, bibIndex = loadBibIndex()) {
-  const lines = refKeys.map((key, i) =>
-    formatSalmonRoeRefLine(i + 1, key, null, fallbackReferenceExplanation(bibIndex.get(key)), bibIndex),
-  )
+  const lines = refKeys.map((key, i) => formatFoodReferenceLine(i + 1, key, null, null, bibIndex))
   return `## References\n\n${lines.join("\n\n")}\n`
 }
 
@@ -462,19 +443,8 @@ export function rebuildExplainedReferencesSection(content, referencesBody, bibIn
       refLines.push(line.replace(/^-\s+/, ""))
       continue
     }
-    const explanation =
-      entry.explanation ??
-      explanations.get(n) ??
-      fallbackReferenceExplanation(bibIndex.get(entry.key), entry.titleOverride)
-    refLines.push(
-      formatSalmonRoeRefLine(
-        n,
-        entry.key,
-        entry.titleOverride,
-        explanation,
-        bibIndex,
-      ),
-    )
+    const explanation = entry.explanation ?? explanations.get(n) ?? null
+    refLines.push(formatFoodReferenceLine(n, entry.key, explanation, entry.titleOverride, bibIndex))
   }
 
   if (!refLines.length) return null
@@ -503,16 +473,8 @@ export function rebuildReferencesSectionFromBody(referencesBody, bibIndex = load
       refLines.push(line.replace(/^-\s+/, ""))
       continue
     }
-    const explanation = fallbackReferenceExplanation(bibIndex.get(entry.key), entry.titleOverride)
-    refLines.push(
-      formatSalmonRoeRefLine(
-        n,
-        entry.key,
-        entry.titleOverride,
-        explanation,
-        bibIndex,
-      ),
-    )
+    const explanation = entry.explanation ?? null
+    refLines.push(formatFoodReferenceLine(n, entry.key, explanation, entry.titleOverride, bibIndex))
   }
 
   if (!refLines.length) return null

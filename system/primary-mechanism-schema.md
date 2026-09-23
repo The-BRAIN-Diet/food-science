@@ -123,7 +123,7 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 4. Levers — `## 4. Levers` — **sole public section for dietary and lifestyle implementation** (see **PM §4 — Levers** below)
    - **4.1 Dietary Levers** — outer `<details>` dropdown
      - **4.1.1 Direct Dietary Levers** — nested `<details>`; primary dietary substance(s) that directly supply or modulate the mechanism; substance ← food bullets per `system/substance-food-mapping-format.md`
-     - **4.1.2 Cofactors and Supporting Inputs** — nested `<details>`; from front matter `cofactors`, rendered as **substance ← food** bullets (same format as §4.1.1) when food examples are known. **Only** nutrients that support metabolism, synthesis, recycling, or utilisation of the §4.1.1 primary substance(s). **Must not duplicate** any Direct Dietary Lever substance (e.g. do not list creatine under both §4.1.1 and §4.1.2). Empty §4.1.2 is acceptable when no distinct supporting inputs apply beyond general protein/energy adequacy.
+     - **4.1.2 Cofactors and Supporting Inputs** — nested `<details>`; from front matter `cofactors`, rendered as **substance ← food** bullets (same format as §4.1.1) when food examples are known. **Only** nutrients that support metabolism, synthesis, recycling, or utilisation of the §4.1.1 primary substance(s). **Presentation rule:** do not list the same substance in both §4.1.1 and §4.1.2 when it serves the **same biological role in the same presentation context** (e.g. do not list creatine under both tiers as the same primary lever). This governs reader-facing tier assignment, not downstream traceability deduplication — the same dietary input may legitimately recur across cofactors, KCs, and other PMs when roles or contexts differ (`system/dietary-input-traceability-contract.md`). Empty §4.1.2 is acceptable when no distinct supporting inputs apply beyond general protein/energy adequacy.
      - **4.1.3 KCs (Key Constraints)** — nested `<details>`; linked KC page(s) **plus** each KC’s Core Nutritional Requirements as **substance ← food** bullets (same format as §4.1.1 Direct Dietary Levers; sourced from the KC page §2 Core Nutritional Requirements, or legacy §2 Shared Biological Pool)
    - **4.2 System Optimisation Practices** — `<details>` dropdown; **Food Preparation & Delivery ONLY** (label at top of panel). Broader SOP categories are curated on the parent BRS hub.
    - **4.3 Lifestyle Levers** — `<details>` dropdown; non-dietary behaviours (sleep, exercise, stress recovery, circadian routines); primary place for timing narrative when `timing_specific: "Yes"`
@@ -191,6 +191,40 @@ Three **profiles** are allowed; pick one per PM and keep numbering contiguous (n
 Authoring detail: `system/mechanism-page-section-prose.md` (**PM §1**, **PM translational writing**, **Technical language policy**, **PM UX progression**).
 
 **Canonical PM example:** [BRS5-FM1-PM3 — Keystone Taxa Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support).
+
+### PM scope consistency (evidence assessment)
+
+**Authoritative rule.** A PM is represented at three levels:
+
+| Level | Section | Role |
+|-------|---------|------|
+| **Mission** | `### Mission` (§1) | Highest-level purpose — what biological capability this PM maintains or supports |
+| **Overview** | `### Overview` (§1) | Concise definition and scope — why the mechanism matters in ~20 seconds |
+| **Mechanistic Basis** | §4 Mechanistic Basis (+ §4.1 Scientific Findings where present) | Detailed biological propositions that support that scope |
+
+**Mechanistic Basis is a testable boundary, not an immutable one.** Bounded evidence assessment begins from propositions defined in the existing Mechanistic Basis (see `system/scientific-finding-schema.md` § Bounded assessment). Evidence may establish that the supported **scope, definition, boundary, or interpretation** of the Primary Mechanism must change.
+
+**When adjudication materially changes what the PM can reasonably claim:**
+
+1. **Flag a PM-scope consequence** — record in `system/mechanism-change-control-queue.md`; do not silently rewrite Mission or Overview.
+2. **Review all three levels together** — Mission, Overview, and Mechanistic Basis as one consistency set.
+3. **Make only necessary changes** — where evidence requires it, not where a Finding merely adds detail or nuance.
+
+**Do not flag or rewrite Mission or Overview** when adjudication only sharpens mechanistic detail, adds a study, or qualifies a proposition within the existing PM boundary. Flag only where evidence changes **what the PM itself can reasonably claim**.
+
+**This does not weaken proposition-first bounded assessment.** The workflow remains:
+
+```
+existing Mechanistic Basis → define propositions → assess relevant evidence → adjudicate → STOP
+```
+
+Then, **only if** adjudication materially challenges PM scope:
+
+```
+→ flag PM-scope consequence → review Mission + Overview + Mechanistic Basis together → necessary changes only
+```
+
+Evidence can therefore challenge the ontology without turning assessment into open-ended research.
 
 ### PM authoring standards (framework-wide)
 
@@ -387,9 +421,14 @@ Mechanistic Basis must remain **evidence-anchored**, not assertion-only. Follow 
 
 **Reference page:** [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
 
-### PM §5.1 — Evidence Highlights
+### PM §4.1 / §5.1 — Scientific Findings (replaces Evidence Highlights)
 
-**Purpose:** Curated, insight-driven findings that show **why the mechanism matters in practice** — not a second Mechanistic Basis and not a literature review.
+Pages with `scientific_findings` front matter use **Scientific Findings** at
+`§4.1` (canonical layout) or `§5.1` (legacy layout). Governance:
+`system/scientific-finding-schema.md` § Bounded assessment — define proposition
+→ assess relevant evidence → adjudicate → stop; not search-first Finding discovery.
+
+**Purpose (legacy Evidence Highlights):** Curated, insight-driven findings that show **why the mechanism matters in practice** — not a second Mechanistic Basis and not a literature review.
 
 **Placement:** `### 5.1 Evidence Highlights` as a **subsection of §5** (after the mechanism `<details>`, not inside it). Order within `## 5.`: `### Summary` → mechanism `<details>` → `### 5.1 Evidence Highlights` → then `## 6. BRS Pathways and Connections`. Profile B: `### 2.1 Evidence Highlights` at the end of `## 2. Mechanistic Basis`.
 
@@ -409,7 +448,7 @@ Profile B compact PMs keep cofactors under `## 3. Underlying Mechanisms and Requ
 
 **Exclude (low priority):** findings that only repeat §5 textbook biology; small redundant mechanistic papers; studies that merely mention the pathway without changing how to read the PM; **phenome/outcome science** (ADHD, attention, emotional dysregulation, condition-specific biomarkers, intervention outcomes in clinical populations) — those belong in **§3 Phenome Connections** only.
 
-**Phenome boundary (non-negotiable):** §5.1 and FM §4.4 must **not** duplicate §3. Do not populate evidence highlights from BRS hub ADHD dropdown tables; those rows feed phenome review (`system/phenome-relationship-review-methodology.md`), not mechanism evidence maps (`scripts/lib/pm-evidence-highlights.mjs`).
+**Phenome boundary (non-negotiable):** Scientific Findings / §5.1 Evidence Highlights and FM §4.4 must **not** duplicate §3 Phenome Connections. Phenome/outcome science belongs in Findings that test a **defined PM → Phenome relationship proposition**, or in Connected / Supportive Evidence — not as open-ended mechanism review. Do not populate from BRS hub ADHD dropdown tables; those rows feed phenome review (`system/phenome-relationship-review-methodology.md`), not mechanism evidence maps (`scripts/lib/pm-evidence-highlights.mjs`).
 
 **UX:** `#### Introduction/Summary` (visible) → one or more **phenome-aligned evidence `<details>` dropdowns** per curated finding (same field set as §3 Phenome Connections). Reference: [BRS-X(ECS-PM2)](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling), [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
 
@@ -473,7 +512,7 @@ Implementation: `scripts/validate-mechanism-pages.mjs` and `scripts/lib/mechanis
 - `dependencies` must not include PM-to-PM dependencies.
 - `dependencies.kcs[].type` must be only `substrate` or `precursor`.
 - `cofactors` must not include KCs, PMs, foods, or unrelated substances.
-- `cofactors` / §4.1.2 Supporting Inputs must not duplicate §4.1.1 Direct Dietary Lever substances; Supporting Inputs are only nutrients that support metabolism, synthesis, recycling, or utilisation of the primary lever substance(s). Empty Supporting Inputs is allowed.
+- `cofactors` / §4.1.2 Supporting Inputs follow the §4.1 presentation rule above (same substance, same role, same context — not both tiers). Supporting Inputs are only nutrients that support metabolism, synthesis, recycling, or utilisation of the primary lever substance(s). A cofactor name alone is insufficient for traceability — preserve biological role and evidence source during PM evidence work (`system/dietary-input-traceability-contract.md`). Empty Supporting Inputs is allowed.
 - Inputs must be mechanistically justified; no generic food advice entries.
 - Foods/substances must exist in system; unresolved entities may be recorded in optional `missing_entities` authoring metadata but must not be rendered as a PM page section.
 - No scoring formulas or numeric scoring logic allowed.

@@ -70,15 +70,14 @@ legacy_main_image: /img/foods/sweet-potatoes/sweet-potatoes_medium.webp
 
 Sweet potatoes are starchy roots that combine slow-digesting carbohydrate with meaningful fibre, potassium, and carotenoid density. Orange-fleshed varieties are especially relevant for **beta-carotene**, while also contributing vitamin C and vitamin B6 in whole-food form.
 
-Within the BRAIN Diet framework, sweet potatoes are best used as a whole-food carbohydrate base that can be roasted, steamed, or cooled/reheated depending on meal context. Their nutrient profile differs from white potatoes primarily through carotenoid concentration and generally higher intrinsic sweetness, while still supporting fibre-first meal construction [1][2].
-## Key Nutritional Highlights
+Within the BRAIN Diet framework, sweet potatoes are best used as a whole-food carbohydrate base that can be roasted, steamed, or cooled/reheated depending on meal context. Their nutrient profile differs from white potatoes primarily through carotenoid concentration and generally higher intrinsic sweetness, while still supporting fibre-first meal construction.
 
+## Key Nutritional Highlights
 
 - Provides fibre and potassium in a low-fat root-vegetable matrix. [1]
 - Orange-fleshed varieties add substantial beta-carotene contribution. [2]
 - Works well as a slower carbohydrate base when paired with protein, fibre, and fats.
 - Sweetness and texture are strongly variety- and cooking-method dependent.
-
 
 ## Food Context
 

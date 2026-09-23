@@ -49,12 +49,14 @@ nutrition_supplementary_sources:
 Coffee provides **caffeine**, a adenosine-receptor antagonist that increases striatal **dopamine D2/D3 receptor availability** and acute alertness [1]. Coffee polyphenols contribute to dietary flavonoid intake [2].
 
 Within the BRAIN Diet framework, coffee is a polyphenol beverage used morning-to-midday; caffeine timing affects sleep — stop ~8 hours before bed if sensitive [1]. Avoid taking with iron-rich plant meals if optimising non-heme iron absorption.
+
 ## Key Nutritional Highlights
 
 - Caffeine modulates dopamine receptor availability and alertness [1].
 - Chlorogenic-acid polyphenols add flavonoid intake [2].
 - Timing matters for sleep; individual caffeine metabolism varies.
 - Unsweetened brews only; polyphenol–iron absorption competition with meals.
+
 ## Food Context
 
 ### Preparation

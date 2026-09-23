@@ -57,15 +57,7 @@ legacy_main_image: /img/foods/oranges/oranges_medium.webp
 
 Oranges provide high vitamin C content that enhances non-heme iron absorption when paired with iron-rich plant foods.
 
-Within the BRAIN Diet framework, pairing plant-based iron sources with citrus enhances iron absorption, and eating beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) improves iron bioavailability [1][2].
-## Key Nutritional Highlights
-
-
-- Flavanone-rich orange juice interventions are associated with cognitive performance endpoints [1]
-- Vitamin C from citrus enhances non-heme iron absorption when paired with plant iron sources [2]
-- Oranges provide high vitamin C content that enhances non-heme iron absorption when paired with iron-rich plant foods. [1]
-- Pairing plant-based iron sources with citrus enhances iron absorption, and eating beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) improves iron bioavailability. [2]
-- Oranges provide high vitamin C content that enhances non-heme iron absorption when paired with iron-rich plant foods.
+Within the BRAIN Diet framework, pairing plant-based iron sources with citrus enhances iron absorption, and eating beans with vitamin C-rich foods (e.g., tomatoes, peppers, citrus) improves iron bioavailability.
 
 ## Food Context
 
@@ -93,4 +85,4 @@ Within the BRAIN Diet framework, pairing plant-based iron sources with citrus en
 
 [1] Flavanone-rich orange juice interventions are associated with cognitive performance endpoints. Kean et al. 2015. [The effects of flavanone-rich citrus juice on cognitive function and cerebral blood flow: an acute and chronic randomized controlled trial in healthy older adults](/docs/papers/BRAIN-Diet-References#kean_flavanone-rich_orange_juice_cognition_2015)
 
-[2] Vitamin C from citrus enhances non-heme iron absorption when paired with plant iron sources. Hallberg et al. 1989. [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+[2] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.

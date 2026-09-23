@@ -78,14 +78,11 @@ nutrition_supplementary_sources:
 
 Raspberries provide polyphenols—chiefly [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin)-based anthocyanins with [Pelargonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/pelargonidin) as a secondary backbone—plus fiber and vitamin C, supporting antioxidant networks and gut health.
 
-Within the BRAIN Diet framework, berries are mentioned as polyphenol-rich foods and are part of the Mediterranean diet pattern [1][2].
+Within the BRAIN Diet framework, berries are mentioned as polyphenol-rich foods and are part of the Mediterranean diet pattern.
+
 ## Key Nutritional Highlights
 
-
-- Berry polyphenol interventions show cognitive benefits in systematic review contexts [1]
-- High-flavonoid fruit intake is linked to cognitive improvements and BDNF-related endpoints [2]
 - Raspberries provide polyphenols, fiber, and vitamin C, supporting antioxidant networks and gut health. [1]
-- Berries are mentioned as polyphenol-rich foods and are part of the Mediterranean diet pattern. [2]
 - Raspberries provide polyphenols, fiber, and vitamin C, supporting antioxidant networks and gut health.
 
 ## Food Context

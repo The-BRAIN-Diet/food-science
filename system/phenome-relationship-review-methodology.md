@@ -78,7 +78,7 @@ Phase 4 — Audit & quality control             → validate registry output (no
 | **0** | Bibliography consolidation | — |
 | **1** | PM mechanism review → candidate phenome hypotheses | **No** |
 | **2** | FM §4.2 + §4.3 authoring → candidate functional outcomes from Functional Rationale | **No** |
-| **3** | Dedicated biology → phenome literature review per candidate phenome | **Yes** (confidence + evidence_level) |
+| **3** | Proposition-first biology → phenome validation per candidate relationship | **Yes** (confidence + evidence_level) |
 | **4** | Reference, confidence, registry, and duplication checks | Validates only |
 
 Functional convergence (Phase 2) is a **system-design validation layer**, not a confidence multiplier.
@@ -135,7 +135,12 @@ Draft **candidate** rows: `target_phenome` / `outcome_name`, `relationship_type`
 
 **Question:** How strong is the **biological relationship** between this PM/FM and this phenome — and what evidence types support it?
 
-Conduct a **dedicated literature review** — not restricted to references already on PM or FM pages. For each candidate, search mechanism/FM terms + phenome terms + ADHD evidence + wider neuroscience + human physiology + clinical pharmacology where appropriate.
+For each **candidate relationship**, validate the stated biology → phenome
+proposition: attached references first, then targeted search only where the
+proposition cannot be adjudicated from the corpus already in hand. Search
+mechanism/FM terms + phenome terms + ADHD evidence where needed to answer that
+specific proposition — not to enumerate PM-wide Scientific Findings. Process:
+`system/scientific-finding-schema.md` § Bounded assessment.
 
 **Output:** Phenome-specific evidence summary, phenome-specific references, **Biology → Phenome Confidence**, **Evidence Level** (separate fields), and retain / downgrade / upgrade / remove decision per mapping.
 
@@ -172,7 +177,7 @@ The pipeline above operationalises three distinct review questions. Phases 1–2
 | **PM evidence** | 1 | What phenomes could this mechanism plausibly influence? | PM Definition, Primary Biological Effects, Mechanistic Basis, Evidence Highlights, levers, KCs, references |
 | **FM evidence** | 2 | Which phenomes emerge from the integrated FM state? | PM convergence, FM §4.1–4.4, FM §3 synthesis context |
 | **Phenome hypothesis** | 1 + 2 | Which registry phenomes are candidates? | Registry definitions, PM+FM convergence, failure-mode language |
-| **Phenome outcome evidence** | 3 | How strong is the biology → phenome link; what evidence types support it? | Targeted literature search, ADHD + neuroscience literature, Evidence Hierarchy |
+| **Phenome outcome evidence** | 3 | How strong is the biology → phenome link; what evidence types support it? | Proposition-first validation per candidate row; targeted search only where the row cannot be adjudicated from attached evidence |
 | **Registry integrity** | 4 | Are published mappings consistent and valid? | Audit tooling, bibliography, duplicate mapping review |
 
 **Previous methodology (v1–v2) was incomplete** because it treated FM pages primarily as integrative roll-ups of child PM mappings and assigned confidence during Phase 1–2. FM pages now contain a mature evidence and synthesis architecture and must be treated as a **first-class phenome evidence source**. Confidence assignment belongs in **Phase 3 only**.
@@ -730,9 +735,12 @@ npm run phenome:validate
 
 ### Purpose
 
-Validate each candidate phenome using a **dedicated biology → phenome literature review**.
-
-**Independently validate or reject** phenome hypotheses from Phase 1–2. This review must **not** be restricted to references already present on PM or FM pages.
+Validate each **candidate relationship proposition** — independently confirm or
+reject phenome hypotheses from Phase 1–2. Attached references are the starting
+corpus; search beyond them only when a defined proposition cannot be adjudicated
+from what is already in hand. Phase 3 assigns Biology → Phenome Confidence and
+Evidence Level; it does **not** authorise open-ended PM-wide Scientific Finding
+discovery (see `system/scientific-finding-schema.md` § Bounded assessment).
 
 This phase implements [pipeline step 4](#step-4--biology--phenome-validation--phase-3) and the [Evidence Hierarchy](phenome-relationship-schema.md#phenome-registry-evidence-hierarchy). **Biology → Phenome Confidence, Evidence Confidence, and Evidence Level are assigned here as separate fields.**
 
@@ -754,14 +762,16 @@ For each candidate phenome row, apply the stack in order ([schema](phenome-relat
 
 **After mechanism validation and phenome validation, how strongly does this PM/FM biology relate to the proposed phenome — and how convincing is the evidence for that relationship?**
 
-### Targeted literature search (per candidate)
+### Targeted search (per candidate — gap follow-up only)
 
-For each candidate phenome, perform a targeted search combining:
+When attached evidence cannot adjudicate the relationship proposition, search
+only what is needed to answer that proposition:
 
-- mechanism / FM terms
-- phenome outcome terms
-- ADHD terms where available
-- adjacent clinical or cognitive evidence where ADHD evidence is limited
+- mechanism / FM terms + phenome outcome terms (+ ADHD terms where available)
+
+Adjacent evidence that does not answer the stated proposition is out of scope
+for Phase 3; it may belong in Connected / Supportive Evidence during a bounded
+Scientific Finding pass, not as new relationship rows or open-ended Finding sets.
 
 ### Review sources
 
@@ -771,7 +781,7 @@ For each candidate phenome, perform a targeted search combining:
 | Parent BRS pages | System framing; cross-mechanism phenome context |
 | Connected BRS pages (from PM/FM §6) | Adjacent biology and phenome bridges |
 | `static/bibtex/BRAIN-diet.bib` | ADHD-prioritised wider literature |
-| **External literature search** | Outcome evidence not yet on PM/FM pages |
+| **External literature search** | Gap follow-up only — when attached refs cannot adjudicate the relationship proposition |
 | Food pages (`docs/foods/`) | Dietary outcome and intervention evidence |
 | Substance pages (`docs/substances/`) | Nutrient/bioactive outcome evidence |
 | Therapeutic-area literature | ADHD-scoped reinforcement only |
@@ -797,6 +807,7 @@ For each candidate phenome, perform a targeted search combining:
 | Is inferential translation labelled? | Principle 2 |
 | When Biology > Evidence, is the gap disclosed in rationale/synthesis? | [Evidence–biology gap disclosure](phenome-relationship-schema.md#evidencebiology-gap-disclosure-rationale-standard) |
 | Should upstream PMs have no mapping? | Principle 4 |
+| Does adjudication materially challenge PM scope (Mission / Overview / Mechanistic Basis)? | `system/primary-mechanism-schema.md` § **PM scope consistency (evidence assessment)** — flag in `system/mechanism-change-control-queue.md`; tri-level review before production changes |
 
 ### Phase 3 goals
 
@@ -806,11 +817,11 @@ For each candidate phenome, perform a targeted search combining:
 - Upgrade confidence where human outcome evidence supports the phenome link
 - Downgrade or remove mappings where outcome search finds weak, contradictory, or non-ADHD-scoped evidence
 
-**B. Discover additional candidates**
+**B. Discover additional candidates (relationship rows only)**
 
-- Identify registry phenomes supported by food/substance/BRS evidence not yet represented on the PM/FM page
-- Route discoveries back to Phase 1 (PM) or Phase 2 (FM) for candidate registration — then re-run Phase 3
-- Do not add mappings from Phase 3 alone without PM or FM anchoring
+- Identify registry phenomes plausibly touched by evidence found while validating an existing candidate — not by PM-wide literature sweep
+- Route new **relationship** candidates back to Phase 1 (PM) or Phase 2 (FM); do not add mappings from Phase 3 alone
+- Do not use Phase 3 to build or expand a PM's Scientific Finding set
 
 ### Phase 3 output
 

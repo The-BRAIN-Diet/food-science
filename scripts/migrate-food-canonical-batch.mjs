@@ -4,7 +4,9 @@
  * - Does not invent Other Nutritional Highlights; that section is optional.
  * - Existing superseded `Key Nutritional Highlights` headings are left in place until a letter rewrite.
  * - Rebuilds ## References from bibliography-linked citations only.
- * - Adds fallback references when none exist in the document.
+ * - Adds fallback references only from the reviewed mapping in
+ *   scripts/data/food-canonical-refs*.mjs — never from titles or abstracts.
+ * - Does not invent Highlights or attach inline citations from reference lists.
  * - Adds Essential Amino Acid Profile blocks where required.
  * - Removes orphan/corrupt lines before ## References.
  *
@@ -25,7 +27,7 @@ import {
 } from "./lib/food-page-validation.mjs"
 import { FOOD_CANONICAL_FALLBACK_REFS } from "./data/food-canonical-refs.mjs"
 import { FOOD_CANONICAL_REFS_REMAINING54 } from "./data/food-canonical-refs-remaining54.mjs"
-import { formatSalmonRoeRefLine, loadBibIndex, isExplainedReferenceLine } from "./lib/bib-citation-format.mjs"
+import { formatFoodReferenceLine, loadBibIndex, isExplainedReferenceLine } from "./lib/bib-citation-format.mjs"
 
 const ALL_FALLBACK_REFS = { ...FOOD_CANONICAL_FALLBACK_REFS, ...FOOD_CANONICAL_REFS_REMAINING54 }
 
@@ -37,6 +39,9 @@ const PLACEHOLDER_REF_RE = /^these references link to the brain diet bibliograph
 const ANIMAL_SLUGS = new Set([
   "beef", "chicken", "pork", "lamb", "turkey", "cod", "crab", "clams", "cockles",
   "salmon", "tuna", "mackerel", "shrimp", "mussels", "oysters",
+  "eggs", "egg-yolks", "liver", "heart", "kidney",
+  "parmesan-cheese", "cheddar-cheese", "milk", "greek-yogurt", "yogurt",
+  "butter", "grass-fed-butter", "ghee",
 ])
 const COCOA_SLUGS = new Set(["cacao-nibs-raw", "cacao-powder", "cocoa", "dark-chocolate"])
 
@@ -84,7 +89,7 @@ function extractBibRefs(text) {
 }
 
 function formatRefLine(n, key, _label, text, bibIndex) {
-  return formatSalmonRoeRefLine(n, key, null, text, bibIndex)
+  return formatFoodReferenceLine(n, key, text, null, bibIndex)
 }
 
 function buildReferencesSection(refs, bibIndex) {
@@ -92,111 +97,13 @@ function buildReferencesSection(refs, bibIndex) {
   return `## References\n\n${lines.join("\n\n")}\n`
 }
 
-function ensureTwoParagraphOverview(overviewBody) {
-  const trimmed = overviewBody.trim()
-  const paras = trimmed.split(/\n\n+/).filter(Boolean)
-  if (paras.length >= 2) return trimmed
-
-  const sentences = trimmed.split(/(?<=[.!?])\s+/).filter((s) => s.length > 20)
-  if (sentences.length < 2) return trimmed
-
-  const mid = Math.max(1, Math.ceil(sentences.length / 2))
-  const p1 = sentences.slice(0, mid).join(" ")
-  let p2 = sentences.slice(mid).join(" ")
-  if (!/BRAIN Diet|Within the/i.test(p2)) {
-    p2 = `Within the BRAIN Diet framework, ${p2.charAt(0).toLowerCase()}${p2.slice(1)}`
-  }
-  return `${p1}\n\n${p2}`
-}
-
-function injectInlineCitations(content, refCount) {
-  if (!refCount) return content
-
-  let overview = extractSection(content, /^##\s+Overview\s*$/m)
-  if (overview) {
-    let body = ensureTwoParagraphOverview(overview.body)
-    const paras = body.split(/\n\n+/)
-    if (paras.length >= 2) {
-      const last = paras[paras.length - 1]
-      if (!/\[\d+\]/.test(last)) {
-        const cites = Array.from({ length: Math.min(refCount, 2) }, (_, i) => `[${i + 1}]`).join("")
-        paras[paras.length - 1] = `${last.replace(/\.$/, "")} ${cites}.`
-      }
-      body = paras.join("\n\n")
-    }
-    content = content.slice(0, overview.start) + `## Overview\n\n${body}\n` + content.slice(overview.end)
-  }
-
-  const knh = extractSection(content, /^##\s+(?:Other Nutritional Highlights|Key Nutritional Highlights|Nutritional Highlights)\s*$/m)
-  if (knh) {
-    let n = 1
-    const newBody = knh.body
-      .split("\n")
-      .map((line) => {
-        if (/^-\s/.test(line) && n <= refCount && !/\[\d+\]/.test(line)) {
-          const updated = `${line.trimEnd()} [${n}]`
-          n += 1
-          return updated
-        }
-        return line
-      })
-      .join("\n")
-    const headingLine = knh.full.split("\n")[0] || "## Other Nutritional Highlights"
-    content = content.slice(0, knh.start) + `${headingLine}\n\n${newBody}\n` + content.slice(knh.end)
-  }
-
-  return content
-}
-
-function refsWithText(bibRefs, slug, bibIndex) {
+function refsWithText(bibRefs, slug) {
   return bibRefs.map((r) => {
     if (r.text) return r
     const fallback = ALL_FALLBACK_REFS[slug]?.find((f) => f.key === r.key)
     if (fallback?.text) return { ...r, text: fallback.text }
-    const meta = bibIndex.get(r.key)
-    const title = meta?.title ?? r.label ?? r.key.replace(/_/g, " ")
-    return { ...r, text: `Reports on ${title.charAt(0).toLowerCase()}${title.slice(1)}` }
+    return { ...r, text: null }
   })
-}
-
-function deriveKnHBulletsFromRefs(refs) {
-  return refs.slice(0, 6).map((r, i) => {
-    let s = r.text.replace(/\.$/, "")
-    if (s.length > 220) s = `${s.slice(0, 217)}…`
-    return `- ${s} [${i + 1}]`
-  })
-}
-
-function deriveKnHBullets(overviewBody) {
-  let text = overviewBody.trim()
-  text = text.replace(/^\|.+\|$/gm, "")
-  text = text.replace(/\|[-:]+\|/g, "")
-  const sentences = text
-    .split(/(?<=[.!?])\s+/)
-    .map((s) => s.trim())
-    .filter((s) => s.length > 25 && !/^#/.test(s) && !/^\|/.test(s))
-
-  let bullets = [...new Set(sentences)].slice(0, 5)
-  if (bullets.length < 3 && sentences.length > 0) {
-    while (bullets.length < 3) bullets.push(sentences[bullets.length % sentences.length])
-  }
-  if (bullets.length < 3) {
-    const chunks = text.split(/\n+/).map((c) => c.trim()).filter((c) => c.length > 20)
-    for (const c of chunks) {
-      if (bullets.length >= 3) break
-      if (!bullets.includes(c)) bullets.push(c)
-    }
-  }
-
-  return bullets.slice(0, 6).map((s) => {
-    s = s.replace(/\s+/g, " ")
-    if (s.length > 240) s = `${s.slice(0, 237)}…`
-    return `- ${s}`
-  })
-}
-
-function countKnHBullets(knhBody) {
-  return knhBody.split("\n").filter((l) => /^-\s+/.test(l)).length
 }
 
 function getEaaBlock(slug, title) {
@@ -259,7 +166,7 @@ function migratePage(slug, foodsDir, bibIndex) {
   if (bibRefs.length === 0) {
     bibRefs = extractBibRefs(content)
   }
-  bibRefs = refsWithText(bibRefs, slug, bibIndex)
+  bibRefs = refsWithText(bibRefs, slug)
 
   const refsBefore = extractSection(content, /^##\s+References\s*$/m, [])
   const refsAlreadyCanonical =
@@ -278,8 +185,6 @@ function migratePage(slug, foodsDir, bibIndex) {
       content = `${content.trimEnd()}\n\n${newRefsSection}`
     }
   }
-
-  content = injectInlineCitations(content, bibRefs.length)
 
   if (requiresEaaSection(slug, fm.nutrition_per_100g || {}) && !hasEaaSection(content)) {
     const eaaBlock = getEaaBlock(slug, title)

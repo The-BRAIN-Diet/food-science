@@ -74,15 +74,14 @@ legacy_main_image: /img/foods/shrimp/shrimp_medium.webp
 Shrimp are shellfish that provide **selenium**, **iodine**, **vitamin B12**, and other trace minerals, together with highly digestible protein. These nutrients support neurotransmitter synthesis, antioxidant enzyme systems, and thyroid function within a broader seafood rotation [1].
 
 Within the BRAIN Diet framework, as with other shellfish, sourcing and preparation influence both safety and sustainability, so shrimp are best used as one component of a varied marine protein pattern rather than a sole staple [2].
-## Key Nutritional Highlights
 
+## Key Nutritional Highlights
 
 - Provides complete, highly digestible protein. [1]
 - Commonly contributes selenium, iodine, and vitamin B12, though levels vary by species. [2]
 - EPA/DHA content is highly species-dependent; oily fish are usually higher than lean fish or shellfish.
 - Often lower in saturated fat than many fatty red-meat patterns when minimally processed.
 - Nutritional profile and risk context depend on processing method (fresh vs salted/smoked/cured).
-
 
 ## Food Context
 

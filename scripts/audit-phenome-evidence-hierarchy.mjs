@@ -28,6 +28,7 @@ import {
   renderFmOutcomeContextSectionBody,
   renderPmPhenomeSectionBody,
 } from "./lib/phenome-relationships.mjs";
+import { findingsById } from "./lib/scientific-findings.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -148,7 +149,10 @@ function applyPmFixes(filePath, audit) {
   if (!changed) return { changed: false, path: filePath };
 
   const nextData = { ...data, phenome_relationships: nextRelationships };
-  const phenomeBlock = renderPmPhenomeSectionBody(nextRelationships, { sectionNum: 3 });
+  const phenomeBlock = renderPmPhenomeSectionBody(nextRelationships, {
+    sectionNum: 3,
+    findingData: data,
+  });
   let nextContent = replaceSection(content, PM_PHENOME_SECTION, phenomeBlock);
   const merged = mergePageReferencesWithPhenome(nextData, nextContent, "pm");
   fs.writeFileSync(filePath, matter.stringify(merged.content, merged.data, { lineWidth: 9999 }), "utf8");

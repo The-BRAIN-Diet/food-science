@@ -43,9 +43,15 @@ export const BRS1_PM_PHASE3_SCORES = {
     { phenome: "Emotional Regulation", confidence: "medium", evidence_confidence: "low", evidence_level: "mechanistic" },
     { phenome: "Stress Reactivity", confidence: "low-medium", evidence_confidence: "low", evidence_level: "mechanistic" },
   ],
+  // PM8 carries four live phenome relationships. All four are listed with their
+  // current legacy values so re-running the phase-3 migration is a no-op and
+  // cannot drop PH016 / PH018. Legacy values are unchanged by PM8 adjudication;
+  // see the PM8 record for where they are no longer scientifically adequate.
   "BRS1-FM4-PM8": [
     { phenome: "Emotional Regulation", confidence: "medium", evidence_confidence: "medium", evidence_level: "intervention" },
     { phenome: "Sleep / Calming Tone", confidence: "high", evidence_confidence: "low", evidence_level: "mechanistic" },
+    { phenome: "Apprehensive Worry / Perseverative Thought", confidence: "low-medium", evidence_confidence: "low-medium", evidence_level: "mechanistic" },
+    { phenome: "Social Engagement Capacity", confidence: "low", evidence_confidence: "low", evidence_level: "mechanistic" },
   ],
   "BRS1-FM4-PM9": [
     { phenome: "Focus / Attention Stability", confidence: "low-medium", evidence_confidence: "low-medium", evidence_level: "mechanistic" },

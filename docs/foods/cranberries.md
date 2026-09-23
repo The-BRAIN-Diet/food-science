@@ -78,12 +78,14 @@ nutrition_supplementary_sources:
 Cranberries provide **proanthocyanidins (PACs)** and anthocyanins—mainly [Cyanidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/cyanidin) and [Peonidin](/docs/substances/bioactive-compounds/polyphenols/anthocyanins/peonidin) backbones—with urinary-tract and polyphenol interest [1]. Berry-class flavonoids have cognitive systematic-review support in aging populations [2].
 
 Within the BRAIN Diet framework, cranberries are used fresh, frozen, or as low-sugar preparations; juice cocktails with added sugar reduce BRAIN Diet alignment.
+
 ## Key Nutritional Highlights
 
 - PAC-rich berry with urinary-tract polyphenol interest [1].
 - Berry flavonoid cognitive evidence from systematic reviews [2].
 - Very tart fresh — low-sugar preparations preferred.
 - Dried sweetened cranberries are dessert-tier, not polyphenol staples.
+
 ## Food Context
 
 ### Synergies

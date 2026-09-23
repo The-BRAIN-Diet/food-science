@@ -38,15 +38,7 @@ legacy_main_image: /img/foods/vinegar/vinegar_medium.webp
 
 Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity.
 
-Within the BRAIN Diet framework, glucose regulation strategies include low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, and meal sequencing (veg → protein → carb) [1][2].
-## Key Nutritional Highlights
-
-
-- Vinegar with meals improves post-prandial glycaemia and insulin sensitivity in human trials [1]
-- Meal composition and glycaemic load modulate cognitive energy availability [2]
-- Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity. [1]
-- Glucose regulation strategies include low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, and meal sequencing (veg → protein → carb). [2]
-- Vinegar, particularly apple cider vinegar, supports glucose regulation and can be used in bean soaking to optimize pH for phytase enzyme activity.
+Within the BRAIN Diet framework, glucose regulation strategies include low-GI carbs, vinegar, berberine, cinnamon, protein + fibre pairing, and meal sequencing (veg → protein → carb).
 
 ## Food Context
 

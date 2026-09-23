@@ -84,15 +84,7 @@ nutrition_supplementary_sources:
 
 Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability.
 
-Within the BRAIN Diet framework, natto is fermented soybeans with unique Bacillus subtilis and is part of the fermented foods strategy [1][2].
-## Key Nutritional Highlights
-
-
-- Natto fermentation by Bacillus subtilis produces unique peptides and microbial metabolites [1]
-- Fermented soybeans retain isoflavones studied for metabolic and inflammatory pathways [2]
-- Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability. [1]
-- Natto is fermented soybeans with unique Bacillus subtilis and is part of the fermented foods strategy. [2]
-- Natto is fermented soybeans providing unique Bacillus subtilis probiotics, vitamin K2, and enhanced nutrient bioavailability.
+Within the BRAIN Diet framework, natto is fermented soybeans with unique Bacillus subtilis and is part of the fermented foods strategy.
 
 ## Food Context
 

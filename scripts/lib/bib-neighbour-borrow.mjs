@@ -216,7 +216,7 @@ export function scanNeighbourBorrowedAnnotations({
         if (!owner) continue
 
         const newAnnotation = resolveExactKeyAnnotation(entry || { key }, newIndex)
-        if (normAnnotation(currentRaw) === normAnnotation(newAnnotation)) continue
+        if (newAnnotation && normAnnotation(currentRaw) === normAnnotation(newAnnotation)) continue
 
         hits.push({
           section: sectionFor(root, filePath),

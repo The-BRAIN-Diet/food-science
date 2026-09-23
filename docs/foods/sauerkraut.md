@@ -71,7 +71,7 @@ nutrition_supplementary_sources:
 
 Sauerkraut is finely shredded raw cabbage preserved by **lactic acid fermentation** — the same broad pickling process used for traditional kimchi and lacto-fermented cucumbers. Airborne lactic acid bacteria on cabbage leaves acidify the shredded vegetable with salt, producing a distinctive sour flavour, extended shelf life, and a matrix of live microbes and fermentation metabolites when unpasteurized [1][2].
 
-Within the BRAIN Diet framework, sauerkraut belongs to the fermented-vegetable pattern supporting gut–brain axis modulation: live lactic acid bacteria, organic acids, and postbiotic peptides that may influence vagal and enteric nervous system signalling alongside broader microbiome diversity [1][2].
+Within the BRAIN Diet framework, sauerkraut belongs to the fermented-vegetable pattern supporting gut–brain axis modulation: live lactic acid bacteria, organic acids, and postbiotic peptides that may influence vagal and enteric nervous system signalling alongside broader microbiome diversity.
 
 ## Key Nutritional Highlights
 

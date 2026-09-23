@@ -63,25 +63,16 @@ import NutritionTable from "@site/src/components/NutritionTable";
 
 ## Overview
 
-Lentils are a staple legume providing plant protein, slowly digested carbohydrates, and substantial amounts of **fibre**, **iron**, **zinc**, **magnesium**, and **folate**. As a dry seed, they are nutrient-dense and shelf-stable, and when cooked they contribute both energy and micronutrients that support one‑carbon metabolism, red blood cell formation, and neurometabolic processes [1]. Their fibre and prebiotic galacto‑oligosaccharides (GOS) also support gut microbial diversity and short‑chain fatty acid production, which indirectly influences metabolic and brain health [2].
+Lentils are a staple legume providing plant protein, slowly digested carbohydrates, and substantial amounts of **fibre**, **iron**, **zinc**, **magnesium**, and **folate**. As a dry seed, they are nutrient-dense and shelf-stable, and when cooked they contribute both energy and micronutrients that support one‑carbon metabolism, red blood cell formation, and neurometabolic processes. Their fibre and prebiotic galacto‑oligosaccharides (GOS) also support gut microbial diversity and short‑chain fatty acid production, which indirectly influences metabolic and brain health.
 
-Within the BRAIN Diet framework, lentils are treated as a core plant protein and fibre source that pairs well with grains to round out amino acid profiles. They are particularly useful in patterns that limit or exclude animal products, helping to cover non‑heme iron and zinc requirements when prepared and combined appropriately [1]. Soaking, sprouting, and pairing with vitamin C–rich foods improves mineral bioavailability from lentil-based meals [1,2].
-## Key Nutritional Highlights
-
-
-- Reports on iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate [1]
-- Reports on purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa) [2]
-- Lentils are a staple legume providing plant protein, slowly digested carbohydrates, and substantial amounts of **fibre**, **iron**, **zinc**, **magnesium**, and **folate**. [1]
-- As a dry seed, they are nutrient-dense and shelf-stable, and when cooked they contribute both energy and micronutrients that support one‑carbon metabolism, red blood cell formation, and neurometabolic processes [1].
-- Their fibre and prebiotic galacto‑oligosaccharides (GOS) also support gut microbial diversity and short‑chain fatty acid production, which indirectly influences metabolic and brain health [2].
-- Within the BRAIN Diet framework, lentils are treated as a core plant protein and fibre source that pairs well with grains to round out amino acid profiles. [2]
+Within the BRAIN Diet framework, lentils are treated as a core plant protein and fibre source that pairs well with grains to round out amino acid profiles. They are particularly useful in patterns that limit or exclude animal products, helping to cover non‑heme iron and zinc requirements when prepared and combined appropriately. Soaking and sprouting reduce phytates in legumes. Pairing with vitamin C–rich foods improves non-haem iron absorption in mixed meals; that is mixed-meal evidence, not a lentil-feeding trial [1].
 
 ## Food Context
 
 ### Synergies
 
 - Pair with grains for complete amino acid profile; grain-legume complementarity improves essential amino-acid coverage
-- Pair with vitamin C sources to enhance iron absorption, with studies showing up to a fourfold increase when consumed together [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+- Pair with vitamin C sources to enhance iron absorption; Hallberg 1989 is mixed-meal iron-absorption evidence, not a lentil trial [Hallberg et al. 1989](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
 
 ### Preparation
 
@@ -116,6 +107,4 @@ Lentils are rich in lysine but relatively low in sulfur-containing amino acids. 
 
 ## References
 
-[1] They are particularly useful in patterns that limit or exclude animal products, helping to cover non‑heme iron and zinc requirements when prepared and combined appropriately. Greiner & Konietzny 1999. [Phytate reduction in cereals and legumes and effects on mineral bioavailability](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)
-
-[2] Their fibre and prebiotic galacto‑oligosaccharides (GOS) also support gut microbial diversity and short‑chain fatty acid production, which indirectly influences metabolic and brain health. Hallberg & Brune 1989. [Vitamin C and non‑heme iron absorption in human studies](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989)
+[1] Hallberg et al. (1989). [Vitamin C and non‑heme iron absorption in human studies](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.

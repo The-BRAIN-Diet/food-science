@@ -15,6 +15,7 @@ import { auditAllPmPages, auditAllSmPages } from "./lib/pm-mechanistic-basis.mjs
 import { validateAllMechanismPages } from "./lib/mechanism-page-validation.mjs";
 import { validatePhenomeRelationshipIndexFresh } from "./lib/phenome-relationship-index.mjs";
 import { validatePhenomeRegistry } from "./lib/phenome-registry.mjs";
+import { checkScientificFindings } from "./lib/scientific-findings-gate.mjs";
 
 const skipCue = process.argv.includes("--skip-cue");
 
@@ -149,6 +150,19 @@ function main() {
   } else {
     failed = true;
     console.log(`  Phenome relationship index: FAILED — ${phenomeIndex.message}`);
+  }
+
+  const findingsGate = checkScientificFindings(process.cwd());
+  if (findingsGate.ok) {
+    console.log(
+      `  Scientific Findings (§4.1 fresh + model valid): passed (${findingsGate.checked} PM page(s))`,
+    );
+  } else {
+    failed = true;
+    console.log(`  Scientific Findings: FAILED (${findingsGate.issues.length})`);
+    for (const issue of findingsGate.issues) {
+      console.log(`    - [${issue.code}] ${issue.message}`);
+    }
   }
 
   if (!skipCue) {

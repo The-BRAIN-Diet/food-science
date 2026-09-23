@@ -66,12 +66,14 @@ legacy_main_image: /img/foods/corn/corn_medium.webp
 Corn provides **lutein** and **zeaxanthin** carotenoids relevant to macular and cognitive dietary patterns [1,2]. Carotenoid absorption improves with co-ingested dietary fat [3].
 
 Within the BRAIN Diet framework, corn is a whole-grain/starchy vegetable contributing carotenoid diversity; sweet corn and maize products differ in sugar and processing [1,2,3].
+
 ## Key Nutritional Highlights
 
 - Lutein and zeaxanthin source; cognitive and visual dietary interest [1,2].
 - Carotenoid absorption improved with dietary fat at the same meal [3].
 - Whole kernel and polenta forms retain more fibre than refined corn products.
 - Choose minimally processed forms; pairing with beans completes amino-acid profile.
+
 ## Food Context
 
 ### Synergies
@@ -96,14 +98,14 @@ Within the BRAIN Diet framework, corn is a whole-grain/starchy vegetable contrib
 
 ## References
 
-[1] Narrative review of lutein and zeaxanthin in visual and cognitive function across the lifespan. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+[1] Johnson et al. (2014). [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
 
-[2] A previous systematic review revealed that lutein intake leads to improved cognitive function among older adults. Yagi & Nouchi 2021. [Lutein Has a Positive Impact on Brain Health in Healthy Older Adults: A Systematic Review of Randomized Controlled Trials and Cohort Studies](/docs/papers/BRAIN-Diet-References#yagi_lutein_2021)
+[2] Yagi et al. (2021). [Lutein Has a Positive Impact on Brain Health in Healthy Older Adults: A Systematic Review of Randomized Controlled Trials and Cohort Studies](/docs/papers/BRAIN-Diet-References#yagi_lutein_2021)
 
-[3] Carotenoid absorption improves with co-ingested dietary fat. Lieblein-Boff & Johnson 2015. [The effects of lutein and zeaxanthin on cognitive function: a systematic review](/docs/papers/BRAIN-Diet-References#lieblein-boff_cognitive_2015)
+[3] Lieblein-Boff et al. (2015). [The effects of lutein and zeaxanthin on cognitive function: a systematic review](/docs/papers/BRAIN-Diet-References#lieblein-boff_cognitive_2015). Carotenoid absorption improves with co-ingested dietary fat.
 
-[4] Reports selective accumulation of lutein in neural tissues and relevance to brain carotenoid status. Vishwanathan & Kuchan 2014. [Lutein is the predominant carotenoid in infant brain](/docs/papers/BRAIN-Diet-References#vishwanathan_lutein_2014)
+[4] Vishwanathan et al. (2014). [Lutein is the predominant carotenoid in infant brain](/docs/papers/BRAIN-Diet-References#vishwanathan_lutein_2014)
 
-[5] The mechanism of the formation and secretion of chylomicrons. Kindel et al. 2010. [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
+[5] Kindel et al. (2010). [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010). The mechanism of the formation and secretion of chylomicrons.
 
-[6] Reports on carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection. Brown et al. 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+[6] Brown et al. (2004). [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004). Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection.

@@ -2,7 +2,7 @@
 /**
  * Mechanical repair: rewrite citation annotations that currently reproduce a
  * neighbouring BibTeX abstract. Each line is resolved from its exact citation
- * key and bounded BibTeX entry (own abstract, else title-derived placeholder).
+ * key and bounded BibTeX entry. If there is no reviewed finding, omit the annotation.
  *
  * Does not edit Overview / Highlights / Food Context prose.
  *
@@ -11,7 +11,7 @@
 import fs from "node:fs"
 import path from "node:path"
 import {
-  formatSalmonRoeRefLine,
+  formatFoodReferenceLine,
   parseReferenceLine,
   fallbackReferenceExplanation,
 } from "./lib/bib-citation-format.mjs"
@@ -23,7 +23,7 @@ function repairLine(line, newIndex) {
   const entry = parseReferenceLine(line)
   if (!entry?.key || entry.n == null) return null
   const explanation = fallbackReferenceExplanation(newIndex.get(entry.key), null)
-  return formatSalmonRoeRefLine(entry.n, entry.key, entry.titleOverride, explanation, newIndex)
+  return formatFoodReferenceLine(entry.n, entry.key, explanation, entry.titleOverride, newIndex)
 }
 
 const { hits, newIndex } = scanNeighbourBorrowedAnnotations({ root: ROOT, writeReport: false })

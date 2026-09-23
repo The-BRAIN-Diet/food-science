@@ -74,7 +74,7 @@ legacy_main_image: /img/foods/turkey/turkey_medium.webp
 
 Turkey provides amino acids including **tryptophan** (a serotonin precursor) together with **niacin (vitamin B3)**, supporting mood-related pathways and mitochondrial energy production. Tryptophan can also be routed through the kynurenine pathway toward NAD⁺ synthesis, while niacin supports NAD⁺ availability via the salvage pathway. Turkey is also commonly used as a higher-tyrosine animal food in breakfast contexts to support catecholamine neurotransmitter synthesis.
 
-Within the BRAIN Diet framework, turkey can be used as a pragmatic way to support niacin intake and amino-acid availability while keeping meals plant-forward via vegetable- and legume-based sides. Timing and meal composition matter: carbohydrate co-consumption can influence amino-acid competition at transporters (Trp:LNAA ratio), and gentler cooking helps limit heat-derived compounds while maintaining palatability [1,2].
+Within the BRAIN Diet framework, turkey can be used as a pragmatic way to support niacin intake and amino-acid availability while keeping meals plant-forward via vegetable- and legume-based sides. Carbohydrate co-consumption can influence amino-acid competition at transporters (Trp:LNAA ratio); this is meal-pattern evidence, not a turkey feeding trial [1]. Gentler cooking helps limit heat-derived compounds while maintaining palatability.
 
 ## Key Nutritional Highlights
 
@@ -117,6 +117,4 @@ Notable amino acids:
 
 ## References
 
-[1] Abstract The aim of this study was to investigate the possible interaction of mitochondrial dysfunction and inflammatory cytokines in the risk of anxiety and depression. Pirinen & Auranen 2020. [Niacin and NAD⁺ metabolism in health and disease](/docs/papers/BRAIN-Diet-References#pirinen_niacin_2020)
-
-[2] Review of how dietary patterns and plasma ratios of large neutral amino acids (e.g., tyrosine, phenylalanine, tryptophan) influence their transport into the brain and downstream neurotransmitter synthesis. Fernstrom et al. 2013. [Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+[1] Fernstrom et al. (2013). [Large neutral amino acids and brain neurochemistry](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013). Meal-pattern evidence: large-neutral-amino-acid balance affects tryptophan uptake into the brain; not a turkey feeding trial.

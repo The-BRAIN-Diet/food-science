@@ -66,15 +66,17 @@ legacy_main_image: /img/foods/chickpeas/chickpeas_medium.webp
 ---
 ## Overview
 
-Chickpeas provide **lysine-rich** plant protein, **fibre**, **folate**, and **iron** in a legume matrix [1]. Soaking and cooking reduce **phytates**, improving mineral bioavailability [1].
+Chickpeas provide **lysine-rich** plant protein, **fibre**, **folate**, and **iron** in a legume matrix. Soaking and cooking reduce **phytates**, improving mineral bioavailability.
 
 Within the BRAIN Diet framework, chickpeas are methionine-limited and pair with grains for complete essential amino-acid coverage.
+
 ## Key Nutritional Highlights
 
-- Lysine-rich legume protein; methionine/cysteine limiting (DIAAS ~65–70) [1].
+- Lysine-rich legume protein; methionine/cysteine limiting (DIAAS ~65–70).
 - Fibre and folate at moderate energy density.
-- Soaking/cooking reduces phytates and improves iron/zinc bioavailability [1].
+- Soaking/cooking reduces phytates and improves iron/zinc bioavailability.
 - Pair with vitamin C-rich foods to enhance non-heme iron absorption.
+
 ## Food Context
 
 ### Synergies
@@ -115,5 +117,3 @@ Chickpeas are rich in lysine but relatively low in sulfur-containing amino acids
 <FoodSubstancesFromTable details={frontMatter} />
 
 ## References
-
-[1] Lysine-rich legume protein; methionine/cysteine limiting (DIAAS ~65–70). Greiner & Konietzny 1999. [Purification and characterization of a phytate-degrading enzyme from germinated oat (Avena sativa)](/docs/papers/BRAIN-Diet-References#greiner_phytate_1999)

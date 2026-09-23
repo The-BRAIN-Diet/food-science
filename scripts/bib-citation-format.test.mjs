@@ -45,9 +45,11 @@ test("BibTeX lookup is by exact citation key and does not borrow a neighbour abs
   assert.match(second.abstract, /Phytates are a type of organophosphorus/)
 
   const fallback = fallbackReferenceExplanation(first)
-  assert.doesNotMatch(fallback, /Phytates/)
-  assert.doesNotMatch(fallback, /organophosphorus/)
-  assert.match(fallback, /insulin signalling/i)
+  assert.equal(fallback, null)
+  assert.doesNotMatch(String(fallback ?? ""), /Phytates/)
+  assert.doesNotMatch(String(fallback ?? ""), /organophosphorus/)
+  assert.doesNotMatch(String(fallback ?? ""), /insulin signalling/i)
+  assert.doesNotMatch(String(fallback ?? ""), /^Reports on /i)
 })
 
 test("missing abstract does not borrow text when the next @ entry is concatenated without a blank line", () => {
@@ -69,8 +71,9 @@ test("missing abstract does not borrow text when the next @ entry is concatenate
   assert.ok(loud)
   assert.equal(silent.abstract == null || silent.abstract.trim() === "", true)
   assert.match(loud.abstract, /Attention-deficit/)
-  assert.doesNotMatch(fallbackReferenceExplanation(silent), /Attention-deficit/)
-  assert.doesNotMatch(fallbackReferenceExplanation(silent), /ADHD/)
+  assert.equal(fallbackReferenceExplanation(silent), null)
+  assert.doesNotMatch(String(fallbackReferenceExplanation(silent) ?? ""), /Attention-deficit/)
+  assert.doesNotMatch(String(fallbackReferenceExplanation(silent) ?? ""), /ADHD/)
 })
 
 test("rebuildExplainedReferencesSection joins summaries by citation key not array position", () => {
@@ -126,9 +129,9 @@ test("missing abstract does not take the first abstract several entries later in
   const silent = index.get("gruber_like_2023")
   assert.equal(silent.abstract == null || silent.abstract.trim() === "", true)
   const fallback = fallbackReferenceExplanation(silent)
-  assert.doesNotMatch(fallback, /Phytates are a type of organophosphorus/)
-  assert.doesNotMatch(fallback, /terrestrial ecosystems/)
-  assert.match(fallback, /insulin/i)
+  assert.equal(fallback, null)
+  assert.doesNotMatch(String(fallback ?? ""), /Phytates are a type of organophosphorus/)
+  assert.doesNotMatch(String(fallback ?? ""), /terrestrial ecosystems/)
 })
 
 test("formatSalmonRoeRefLine never substitutes a missing key with a neighbouring entry", () => {
@@ -146,7 +149,7 @@ test("formatSalmonRoeRefLine never substitutes a missing key with a neighbouring
   assert.doesNotMatch(line, /real_key_2018/)
 })
 
-test("title-derived fallback keeps leading acronyms instead of inventing a neighbour abstract", () => {
+test("fallback does not invent editorial claims from titles or abstracts", () => {
   const bibPath = writeTempBib(`@article{dha_key_2013,
   title = {{DHA} supplementation improved both memory and reaction time in healthy young adults: a randomized controlled trial},
   year = {2013},
@@ -155,8 +158,9 @@ test("title-derived fallback keeps leading acronyms instead of inventing a neigh
 `)
   const index = loadBibIndex(bibPath)
   const fallback = fallbackReferenceExplanation(index.get("dha_key_2013"))
-  assert.doesNotMatch(fallback, /^Reports on dHA/)
-  assert.match(fallback, /^DHA supplementation/)
+  assert.equal(fallback, null)
+  assert.doesNotMatch(String(fallback ?? ""), /^Reports on dHA/)
+  assert.doesNotMatch(String(fallback ?? ""), /^DHA supplementation/)
 })
 
 test("citation number extraction understands comma lists and inclusive ranges", () => {

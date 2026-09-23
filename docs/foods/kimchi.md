@@ -63,15 +63,7 @@ nutrition_supplementary_sources:
 
 Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance.
 
-Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling [1][2].
-## Key Nutritional Highlights
-
-
-- Kimchi and lacto-fermented vegetables deliver live lactic acid bacteria and organic acids [1]
-- Fermented vegetables contribute postbiotic metabolites relevant to gut–brain axis modulation [2]
-- Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance. [1]
-- Fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling. [2]
-- Kimchi is a Korean fermented vegetable dish that provides live probiotics, GABA, and postbiotic compounds supporting gut-brain axis communication and neurotransmitter balance.
+Within the BRAIN Diet framework, fermented foods such as sauerkraut, kimchi, kefir, miso, and kombucha provide live microbes + postbiotic peptides; improved SCFA pools; vagal signaling.
 
 ## Food Context
 

@@ -58,12 +58,14 @@ legacy_main_image: /img/foods/cilantro/cilantro_medium.webp
 Cilantro (coriander leaves) provides **polyphenols** and culinary antioxidants in an herb matrix with very low energy density [1]. Food-derived phenolics from herbs and vegetables modulate gut microbiota and neurotransmitter-related pathways [2].
 
 Within the BRAIN Diet framework, cilantro is a flavour and polyphenol herb used fresh as a garnish rather than for bulk nutrient intake [1,2].
+
 ## Key Nutritional Highlights
 
 - Fresh herb polyphenols at negligible calorie contribution [1].
 - Culinary garnish increasing phytochemical diversity [2].
 - Fat-soluble flavour compounds released in oily dressings.
 - Genetic taste variation (soapiness) affects palatability, not nutrient profile.
+
 ## Food Context
 
 ### Synergies

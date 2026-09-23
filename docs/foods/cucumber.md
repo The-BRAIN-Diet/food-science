@@ -59,12 +59,14 @@ legacy_main_image: /img/foods/cucumber/cucumber_medium.webp
 Cucumber provides **water**, **vitamin K**, modest **vitamin C**, and very low energy density [1]. As a hydrating vegetable, it supports volume and phytochemical diversity within plant-forward patterns [2].
 
 Within the BRAIN Diet framework, cucumber is a low-calorie hydration vegetable; peel-on varieties add fibre and polyphenols.
+
 ## Key Nutritional Highlights
 
 - Very high water content; low energy (~15 kcal per 100 g).
 - Vitamin K in whole-cucumber preparations with peel [1].
 - Supports meal volume and hydration in plant-forward patterns [2].
 - Pair with fat-containing dressings when co-ingesting fat-soluble nutrients from salads.
+
 ## Food Context
 
 ### Synergies

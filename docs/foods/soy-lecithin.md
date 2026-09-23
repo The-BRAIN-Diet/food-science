@@ -45,15 +45,7 @@ nutrition_supplementary_sources:
 
 Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery.
 
-Within the BRAIN Diet framework, precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended [1][2].
-## Key Nutritional Highlights
-
-
-- Soy lecithin is a concentrated dietary phosphatidylcholine source supporting choline intake [1]
-- Choline adequacy supports acetylcholine synthesis and membrane phospholipid turnover [2]
-- Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery. [1]
-- Precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended. [2]
-- Soy lecithin is a concentrated source of choline, supporting phosphatidylcholine synthesis and LPC-DHA transport for brain delivery.
+Within the BRAIN Diet framework, precision sourcing of functional plant foods such as Mankai duckweed (iron, B12), soy/soy lecithin (choline), and fortified nutritional yeast (B12, B6) is recommended.
 
 ## Food Context
 

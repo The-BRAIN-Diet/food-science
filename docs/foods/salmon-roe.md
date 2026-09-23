@@ -156,4 +156,4 @@ This food provides a complete essential amino acid profile typical of animal pro
 
 [2] Patrick (2019). [Role of phosphatidylcholine-DHA in preventing APOE4-associated Alzheimer's disease](/docs/papers/BRAIN-Diet-References#patrick_role_2019). Review: phosphatidylcholine-DHA can be converted to lysophosphatidylcholine-DHA, which uses MFSD2A transport into the brain more efficiently than triglyceride-bound or unesterified DHA. Mechanistic context for roe's phospholipid DHA, not a salmon-roe feeding study.
 
-[3] Shallcross (2022). [Salmon Roe Caviar](/docs/papers/BRAIN-Diet-References#shallcross_salmon_caviar_2022). University of Alaska Fairbanks Cooperative Extension method: additional brining increases saltiness; rinse well with clean cold water after curing. Does not quantify a percentage sodium reduction.
+[3] Shallcross et al. (2022). [Salmon Roe Caviar](/docs/papers/BRAIN-Diet-References#shallcross_salmon_caviar_2022)

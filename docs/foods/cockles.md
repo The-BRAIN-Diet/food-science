@@ -86,12 +86,14 @@ nutrition_supplementary_sources:
 Cockles are small bivalve shellfish providing **vitamin B12**, **iron**, **zinc**, **selenium**, and **taurine** in a low-fat marine protein matrix [1,2]. Shellfish contribute complete highly digestible protein [3].
 
 Within the BRAIN Diet framework, cockles are a sustainable shellfish option used for B12, iron, and marine taurine density; brief steaming preserves the natural liquor minerals [1,2].
+
 ## Key Nutritional Highlights
 
 - Very high vitamin B12 and iron per 100 g; bivalve nutrient density [1].
 - Marine taurine source; phospholipid-bound omega-3 in shellfish matrices [2].
 - Complete animal protein (DIAAS context) [3].
 - Low mercury compared with many large predatory fish; purge and steam briefly.
+
 ## Food Context
 
 ### Synergies

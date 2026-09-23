@@ -58,15 +58,17 @@ legacy_main_image: /img/foods/carrots/carrots_medium.webp
 ---
 ## Overview
 
-Carrots provide **beta-carotene** and other carotenoids at low energy density; carotenoid bioaccessibility from raw vegetables is limited and improved by cooking and co-ingested fat [1,2]. Carotenoids participate in antioxidant and neuroprotective dietary patterns [3].
+Carrots provide **beta-carotene** and other carotenoids at low energy density; carotenoid bioaccessibility from raw vegetables is limited and improved by cooking and co-ingested fat [2]. Carotenoids such as lutein and zeaxanthin are discussed in visual and cognitive research at the constituent level rather than as carrot-feeding evidence [3].
 
-Within the BRAIN Diet framework, carrots are a carotenoid vegetable best used with a small amount of unsaturated fat in mixed meals to support absorption [2].
+Within the BRAIN Diet framework, carrots are a carotenoid vegetable best used with a small amount of unsaturated fat in mixed meals to support absorption.
+
 ## Key Nutritional Highlights
 
-- Beta-carotene-rich root vegetable; bioaccessibility increases with cooking and fat co-ingestion [1,2].
-- Carotenoids implicated in neuroprotective antioxidant networks [3].
+- Beta-carotene-rich root vegetable; bioaccessibility increases with cooking and fat co-ingestion [2].
+- Lutein and zeaxanthin have constituent-level visual and cognitive literature; that is not a carrot trial [3].
 - Low energy density with meaningful fibre per 100 g.
-- Pair with olive oil, avocado, or other fats in salads and cooked dishes [2].
+- Pair with olive oil, avocado, or other fats in salads and cooked dishes [1,2].
+
 ## Food Context
 
 ### Synergies
@@ -91,10 +93,8 @@ Within the BRAIN Diet framework, carrots are a carotenoid vegetable best used wi
 
 ## References
 
-[1] Lycopene is the main carotenoid in tomatoes and it has been hypothesised to be responsible for reducing the risk of some cancers and heart disease. Fielding & Rowley 2005. [Increases in plasma lycopene concentration after consumption of tomatoes cooked with olive oil](/docs/papers/BRAIN-Diet-References#fielding_increases_2005)
+[1] Kindel et al. (2010). [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010). Mechanistic context for fat-stimulated chylomicron formation; not a carrot feeding trial.
 
-[2] Pair with olive oil, avocado, or other fats in salads and cooked dishes. Kindel & Lee 2010. [The mechanism of the formation and secretion of chylomicrons](/docs/papers/BRAIN-Diet-References#kindel_mechanism_2010)
+[2] Brown et al. (2004). [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004). Meal-pairing evidence: fat in salad dressings increased carotenoid bioavailability; not a carrot-only trial.
 
-[3] Carotenoids implicated in neuroprotective antioxidant networks. Brown & Ferruzzi 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
-
-[4] Narrative review of lutein and zeaxanthin in visual and cognitive function across the lifespan. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
+[3] Johnson et al. (2014). [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014). Constituent-level lutein and zeaxanthin review; not a carrot feeding trial.

@@ -8,23 +8,33 @@ hide_title: true
 
 # BRS2 → BRS3 — One-Carbon to Redox Coupling
 
-This page explains the **systems-level biological dependency** between BRS2 and BRS3. It is informed by literature, integrated BRS architecture, allostatic context, expert interpretation, and mechanistic evidence from PM pages — but it does **not** duplicate the canonical PM relationship graph.
+One-carbon transsulfuration supplies cysteine that [BRS3](/docs/biological-targets/inflammation-oxidative-stress) uses in glutathione-centred redox defence.
 
-For explicit PM-to-PM relationships, see **§6.2 Cross-BRS Mechanism Relationships** on individual Primary Mechanism pages.
+## Dependency
 
-## Biological Contribution
+[BRS2](/docs/biological-targets/methylation-one-carbon-metabolism) can divert homocysteine through [transsulfuration](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway) toward cysteine. That cysteine is a substrate for [glutathione synthesis](/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis). The resulting [glutathione](/docs/substances/bioactive-compounds/glutathione) pool is used in BRS3 peroxide reduction, electrophile conjugation and related thiol chemistry.
 
-Collectively, the Functional Mechanisms within BRS2 maintain adaptive one-carbon metabolic flux and transsulfuration coupling that enables BRS3 to sustain antioxidant defence and redox resilience under prolonged physiological demand.
+## Principal Routes
 
-## Systems Significance
+<div className="markdown-table-scroll">
 
-By preserving these methyl-donor and transsulfuration capacities, BRS2 functions as an upstream enabling system, reducing the likelihood that constrained one-carbon flux progressively limits glutathione-centred redox defence within BRS3 as metabolic demand intensifies. Maintaining BRS2 therefore complements direct antioxidant substrate biology within BRS3 by preserving biosynthetic capacity rather than substituting for inflammatory and oxidative regulation itself.
+| Route | Contribution to BRS3 | Relationship |
+| --- | --- | --- |
+| Transsulfuration (CBS/CTH) | Provides cysteine from homocysteine | Direct |
+| Glutathione synthesis from cysteine | Supplies GSH for glutathione-dependent redox enzymes | Direct |
 
-## Integrated Regulatory Capacity
+</div>
 
-Together, the Functional Mechanisms within BRS2 maintain methylation cycle efficiency and transsulfuration-linked substrate routing required to sustain cysteine and glutathione precursor availability during prolonged physiological demand. Rather than acting through a single enzymatic step, these integrated capacities collectively connect one-carbon metabolism to redox defence capacity within BRS3.
+## Network Interpretation
+
+This is a substrate-routing dependency, not an immune-regulation pathway. Methyl-cycle flux can compete with transsulfuration, so one-carbon allocation can constrain glutathione precursor supply. The same glutathione pool later conditions [BRS1](/docs/biological-targets/neurotransmitter-regulation) only as a mediated `BRS2 → BRS3 → BRS1` route, not as a BRS2 monoamine-synthesis output.
+
+## Boundary and Evidence Status
+
+Transsulfuration and glutathione synthesis are established biochemistry. Substrate availability does not guarantee increased GSH or improved inflammatory outcomes. The dependency does not establish a clinical redox treatment.
 
 ## Supporting Evidence
 
-- [Kumar et al., 2017](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017) — Described transsulfuration flux from homocysteine to cysteine and glutathione — supporting the framework interpretation that BRS2 substrate routing enables BRS3 redox defence capacity.
-- [Chiang et al., 1996](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996) — Established one-carbon flux allocation as a determinant of downstream transsulfuration and cellular redox chemistry — supporting the interpretation of BRS2 as an upstream enabling system for BRS3 antioxidant resilience.
+- [Kumar et al., 2017](/docs/papers/BRAIN-Diet-References#kumar_transsulfuration_2017) — Reviews transsulfuration from homocysteine to cysteine and onward glutathione-related chemistry.
+- [Chiang et al., 1996](/docs/papers/BRAIN-Diet-References#chiang_s-adenosylmethionine_1996) — Reviews SAMe-dependent methylation and the allocation of one-carbon flux that can feed transsulfuration.
+- [Lu, 2013](/docs/papers/BRAIN-Diet-References#lu_glutathione_synthesis_2013) — Reviews glutathione synthesis and cysteine as a frequent constraint on that pathway.
