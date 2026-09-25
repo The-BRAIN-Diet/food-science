@@ -89,7 +89,7 @@ function buildModulationContext(data) {
   return parts.length ? parts.join(" · ") : "";
 }
 
-import { renderHubNestedGroup, HUB_COLLAPSIBLE_ATTR } from "./hub-collapsible.mjs";
+import { renderHubNestedGroup, renderHubMechanismIndex, HUB_COLLAPSIBLE_ATTR } from "./hub-collapsible.mjs";
 
 export { renderHubCollapsible as buildHubCollapsibleBlock } from "./hub-collapsible.mjs";
 
@@ -162,14 +162,68 @@ function buildFmDropdown({ data, content, url }, pms) {
   return block;
 }
 
-function buildFmGroupWrapper(fmBlocks, fmEntries) {
-  const titleItems = fmEntries.map(({ fmId, title, url }) => ({
+function fmTitleItems(fmEntries) {
+  return fmEntries.map(({ fmId, title, url }) => ({
     title: `${fmId} — ${title}`,
     openHref: url,
     openLabel: "Open FM →",
     openAriaLabel: `Open FM: ${fmId} — ${title}`,
   }));
-  return `${renderHubNestedGroup(titleItems, fmBlocks)}\n\n`;
+}
+
+function collectFmEntries(fmFilePaths) {
+  return fmFilePaths.map((filePath) => {
+    const { data, content } = matter(fs.readFileSync(filePath, "utf8"));
+    return {
+      data,
+      content,
+      url: fmUrlFromPath(filePath),
+      fmId: data.fm_id,
+      title: data.title,
+    };
+  });
+}
+
+function buildFmGroupWrapper(fmBlocks, fmEntries) {
+  return `${renderHubNestedGroup(fmTitleItems(fmEntries), fmBlocks)}\n\n`;
+}
+
+export const ALL_MECHANISMS_MARKERS = {
+  start: "<!-- brs-hub-all-mechanisms:start -->",
+  end: "<!-- brs-hub-all-mechanisms:end -->",
+};
+
+/** Full copy of the Functional Mechanisms dropdown for the hub title area. */
+export function buildAllMechanismsIndex(fmFilePaths, brsId) {
+  const fmEntries = collectFmEntries(fmFilePaths);
+  if (!fmEntries.length || !brsId) return "";
+  const heading = `All Mechanisms of ${brsId}`;
+  const fmBlocks = fmEntries
+    .map((entry) =>
+      buildFmDropdown(
+        entry,
+        Array.isArray(entry.data.mechanisms_covered) ? entry.data.mechanisms_covered : [],
+      ),
+    )
+    .join("");
+  return `${ALL_MECHANISMS_MARKERS.start}
+${renderHubMechanismIndex(fmTitleItems(fmEntries), heading, fmBlocks)}
+${ALL_MECHANISMS_MARKERS.end}`;
+}
+
+export function upsertAllMechanismsIndex(content, block) {
+  const marked =
+    /<!-- brs-hub-all-mechanisms:start -->\n?[\s\S]*?<!-- brs-hub-all-mechanisms:end -->\n*/;
+  const padded = `${String(block || "").trim()}\n\n`;
+  if (!padded.trim()) {
+    return content.replace(marked, "");
+  }
+  if (marked.test(content)) {
+    return content.replace(marked, padded);
+  }
+  const insertRe = /(## BRS[^\n]*\n\n(?:\([^()\n]+\)\n\n)?)(## )/;
+  if (!insertRe.test(content)) return content;
+  return content.replace(insertRe, `$1${padded}$2`);
 }
 
 export function buildFunctionalMechanismsSection(fmFilePaths, brsId) {
@@ -179,12 +233,10 @@ export function buildFunctionalMechanismsSection(fmFilePaths, brsId) {
   const fmBlocks = [];
   const fmEntries = [];
 
-  for (const filePath of fmFilePaths) {
-    const { data, content } = matter(fs.readFileSync(filePath, "utf8"));
-    const url = fmUrlFromPath(filePath);
-    const pms = Array.isArray(data.mechanisms_covered) ? data.mechanisms_covered : [];
-    fmBlocks.push(buildFmDropdown({ data, content, url }, pms));
-    fmEntries.push({ fmId: data.fm_id, title: data.title, url });
+  for (const entry of collectFmEntries(fmFilePaths)) {
+    const pms = Array.isArray(entry.data.mechanisms_covered) ? entry.data.mechanisms_covered : [];
+    fmBlocks.push(buildFmDropdown(entry, pms));
+    fmEntries.push({ fmId: entry.fmId, title: entry.title, url: entry.url });
   }
 
   if (fmBlocks.length) {

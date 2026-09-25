@@ -15,9 +15,12 @@ import {
 } from "./food-context-index.mjs";
 import { isSubstanceFoodBullet } from "./substance-food-mapping.mjs";
 
-const DIETARY_HEADING = "4.1 Dietary Levers";
-const DIRECT_HEADING = "4.1.1 Direct Dietary Levers";
-const KC_HEADING = "4.1.3 KCs (Key Constraints)";
+const DIETARY_HEADING = "4.1 Dietary Requirements";
+const DIRECT_HEADING = "4.1.1 Direct and/or Derived Dietary Requirements";
+const KC_HEADING = "4.1.3 Key Constraints";
+const DIETARY_HEADING_LEGACY = "4.1 Dietary Levers";
+const DIRECT_HEADING_LEGACY = "4.1.1 Direct Dietary Levers";
+const KC_HEADING_LEGACY = "4.1.3 KCs (Key Constraints)";
 
 const PATTERN_LEVER_RE =
   /\b(cooking|patterning|pairing|distribution|exposure|matrix|timing|handling|preparation|fermentation|heating|charring|frequency|delivery|bolus|roasting|frying|processed|gentle|stable|complementary|distributed|repeated)\b/i;
@@ -127,7 +130,7 @@ function extractSectionBullets(content, heading) {
 
 function collectDietaryFoodTokens(content) {
   const tokens = new Set();
-  for (const heading of [DIRECT_HEADING, KC_HEADING]) {
+  for (const heading of [DIRECT_HEADING, DIRECT_HEADING_LEGACY, KC_HEADING, KC_HEADING_LEGACY]) {
     for (const bullet of extractSectionBullets(content, heading)) {
       if (!bullet.startsWith("-")) continue;
       const line = bullet.replace(/^- /, "");
@@ -151,7 +154,10 @@ function collectDietaryFoodTokens(content) {
 
 function collectPatternLeverBullets(content) {
   const bullets = [];
-  for (const line of extractSectionBullets(content, DIRECT_HEADING)) {
+  for (const line of [
+    ...extractSectionBullets(content, DIRECT_HEADING),
+    ...extractSectionBullets(content, DIRECT_HEADING_LEGACY),
+  ]) {
     const trimmed = line.replace(/^- /, "").trim();
     const m = trimmed.match(/^(.+?)\s*←\s*(.+)$/);
     if (!m) continue;
@@ -249,7 +255,9 @@ ${bullets.join("\n")}
 }
 
 function insertAfterDietary(content, block) {
-  const dietary = extractHubItemBlock(content, DIETARY_HEADING);
+  const dietary =
+    extractHubItemBlock(content, DIETARY_HEADING) ||
+    extractHubItemBlock(content, DIETARY_HEADING_LEGACY);
   if (!dietary) {
     const leversIdx = content.indexOf("## 4. Levers");
     const insertAt = leversIdx >= 0 ? leversIdx : content.length;

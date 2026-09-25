@@ -22,7 +22,7 @@ export const BRS5_PM_EVIDENCE = {
       },
       {
         heading: "Pattern-based barrier support",
-        body: "Barrier maintenance depends on sustained fermentable-fibre exposure, barrier-supportive nutrients, and butyrate-supportive ecology rather than isolated barrier interventions [Mohammad and Thiemermann, 2021]; [Silva et al., 2020].",
+        body: "Barrier maintenance reflects fermentable-fibre provision, butyrate-related ecology, and PM-specific epithelial requirements rather than one aggregate barrier-nutrient pool [Mohammad and Thiemermann, 2021]; [Silva et al., 2020].",
       },
     ],
     referenceNoteKeys: [

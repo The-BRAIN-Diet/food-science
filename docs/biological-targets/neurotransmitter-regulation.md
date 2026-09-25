@@ -20,6 +20,222 @@ hide_title: true
 
 (Neurotransmitter Signalling & Chemical Communication)
 
+<!-- brs-hub-all-mechanisms:start -->
+<div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand All Mechanisms of BRS1">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<div class="brs-fm-hub-group-summary-body">
+<p class="brs-fm-hub-group-heading">All Mechanisms of BRS1</p>
+<ul class="brs-fm-hub-group-title-list">
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS1(FM1) — Monoaminergic Function</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function" aria-label="Open FM: BRS1(FM1) — Monoaminergic Function">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS1(FM2) — Cholinergic Function</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function" aria-label="Open FM: BRS1(FM2) — Cholinergic Function">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS1(FM3) — Membrane Composition, Fluidity &amp; Structural Lipid Integrity</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration" aria-label="Open FM: BRS1(FM3) — Membrane Composition, Fluidity &amp; Structural Lipid Integrity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS1(FM4) — GABA–Glutamate Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation" aria-label="Open FM: BRS1(FM4) — GABA–Glutamate Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+</ul>
+</div>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS1(FM1) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS1(FM1) — Monoaminergic Function</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function" aria-label="Open FM: BRS1(FM1) — Monoaminergic Function">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation">BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation">BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation">BRS1-FM1-PM3 — Noradrenergic Signalling</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation">BRS1-FM1-PM4 — Serotonergic Signalling Regulation</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains monoaminergic signalling capacity by coordinating amino-acid precursor availability, LNAA transport balance, and noradrenergic-serotonergic regulation.
+
+**FM page:** [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function)
+
+**Primary biological effects:** ↑ precursor availability; ↑ tyrosine/tryptophan support; improved monoaminergic brain-delivery context
+
+**Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Meal–Daily
+
+**Key constraints:**
+
+- [BRS1(KC1) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
+
+**Connected mechanisms:**
+
+- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — methylation Cycle Efficiency
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS1(FM2) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS1(FM2) — Cholinergic Function</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function" aria-label="Open FM: BRS1(FM2) — Cholinergic Function">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support">BRS1-FM2-PM5 — Acetylcholine Synthesis Support</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains cholinergic signalling capacity to support attention, working memory, and learning-focused cognitive precision.
+
+**FM page:** [BRS1(FM2) — Cholinergic Function](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function)
+
+**Primary biological effects:** ↑ choline availability; ↑ acetylcholine synthesis support; ↑ cholinergic signalling context
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Meal–Daily
+
+**Connected mechanisms:**
+
+- [BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — amino-Acid Availability & Prioritisation
+- [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — lAT1 Competitive Transport Modulation
+- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — methylation Cycle Efficiency
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS1(FM3) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS1(FM3) — Membrane Composition, Fluidity & Structural Lipid Integrity</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration" aria-label="Open FM: BRS1(FM3) — Membrane Composition, Fluidity & Structural Lipid Integrity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation">BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains neuronal membrane DHA integration and phospholipid-mediated omega-3 delivery to support stable signalling and membrane integrity.
+
+**FM page:** [BRS1(FM3) — Membrane Composition, Fluidity & Structural Lipid Integrity](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration)
+
+**Primary biological effects:** ↑ membrane fluidity context; ↑ structural lipid integrity; ↑ neuronal signalling competence
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily–Weekly
+
+**Connected mechanisms:**
+
+- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — amino-Acid Availability & Prioritisation
+- [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — lAT1 Competitive Transport Modulation
+- [BRS1-FM2-PM5 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) — acetylcholine Synthesis Support
+- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — membrane PUFA protection downstream of incorporated DHA
+- [BRS3-FM3-PM8 — Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — eicosanoid and specialised pro-resolving mediator balance downstream
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS1(FM4) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS1(FM4) — GABA–Glutamate Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation" aria-label="Open FM: BRS1(FM4) — GABA–Glutamate Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance">BRS1-FM4-PM7 — GABA–Glutamate Neurotransmission Balance</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity">BRS1-FM4-PM8 — GABA Synthesis Capacity</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling">BRS1-FM4-PM9 — Glutamate Clearance & Recycling</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation">BRS1-FM4-PM10 — Excitotoxicity Modulation</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and GABAergic inhibition to support neural stability.
+
+**FM page:** [BRS1(FM4) — GABA–Glutamate Regulation](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation)
+
+**Primary biological effects:** ↑ inhibitory tone support; ↑ GABA synthesis support; ↑ glutamate control; ↑ excitation–inhibition balance
+
+**Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Daily
+
+**Key constraints:**
+
+- [BRS1(KC1) — Amino Acid Quality & Competitive Balance](/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance)
+
+**Connected mechanisms:**
+
+- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — amino-Acid Availability & Prioritisation
+- [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — Inflammatory Tone Regulation
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Mitochondrial Bioenergetic Support
+- [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Glycaemic Stability
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- brs-hub-all-mechanisms:end -->
+
 ## Ambition
 
 Maintain continuous, balanced neurotransmitter signalling across monoaminergic, cholinergic and GABA–glutamate systems, supported by membrane-lipid integrity, so the brain sustains attention, arousal, motivation, emotional regulation and behavioural control without drifting into depletion, broader signalling imbalance or excitation–inhibition mismatch.
@@ -347,7 +563,7 @@ Maintains monoaminergic signalling capacity by coordinating amino-acid precursor
 
 **Connected mechanisms:**
 
-- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — bRS2(FM1) — Methylation Cycle Efficiency context relevant to this mechanism
+- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — methylation Cycle Efficiency
 
 </div>
 </div>
@@ -381,9 +597,9 @@ Maintains cholinergic signalling capacity to support attention, working memory, 
 
 **Connected mechanisms:**
 
-- [BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — fM1-PM1 - Amino-Acid Availability & Prioritisation context relevant to this mechanism
-- [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — fM1-PM2 - LAT1 Competitive Transport Modulation context relevant to this mechanism
-- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — bRS2(FM1) — Methylation Cycle Efficiency context relevant to this mechanism
+- [BRS1-FM1-PM1 - Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — amino-Acid Availability & Prioritisation
+- [BRS1-FM1-PM2 - LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — lAT1 Competitive Transport Modulation
+- [BRS2(FM1) — Methylation Cycle Efficiency](/docs/biological-targets/brs2/fm1/brs2-fm1-methylation-cycle-efficiency) — methylation Cycle Efficiency
 
 </div>
 </div>
@@ -417,11 +633,11 @@ Maintains neuronal membrane DHA integration and phospholipid-mediated omega-3 de
 
 **Connected mechanisms:**
 
-- [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — fM1-PM1 context relevant to this mechanism
-- [BRS1-FM1-PM2](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — fM1-PM2 context relevant to this mechanism
-- [BRS1-FM2-PM5 - Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) — phospholipid context is listed in section 7.2
-- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — membrane PUFA protection once DHA is incorporated
-- [BRS3-FM3-PM8 - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — downstream lipid-mediator context from membrane fatty-acid pools
+- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — amino-Acid Availability & Prioritisation
+- [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — lAT1 Competitive Transport Modulation
+- [BRS1-FM2-PM5 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) — acetylcholine Synthesis Support
+- [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — membrane PUFA protection downstream of incorporated DHA
+- [BRS3-FM3-PM8 — Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — eicosanoid and specialised pro-resolving mediator balance downstream
 
 </div>
 </div>
@@ -462,7 +678,7 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 
 **Connected mechanisms:**
 
-- [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — provides meal-level amino-acid substrate context for glutamate precursor pools
+- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — amino-Acid Availability & Prioritisation
 - [BRS3-FM1-PM1 — NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — Inflammatory Tone Regulation
 - [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — Mitochondrial Bioenergetic Support
 - [BRS6-FM1-PM1 — Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — Glycaemic Stability
@@ -471,12 +687,13 @@ Maintains excitatory-inhibitory balance by coordinating glutamatergic drive and 
 </div>
 </div>
 
+
 </div>
 </div>
 </div>
 </div>
 
-<!-- brs-hub-cross-integration:start -->
+
 ## Cross-BRS Dependencies
 
 <p>Neurotransmitter regulation depends upon the coordinated performance of multiple Biological Regulatory Systems rather than a single isolated pathway. Cross-BRS Dependencies describe these systems-level relationships, explaining how upstream adaptive biology shapes the biological environment within which resilient neurotransmitter regulation can be maintained during changing physiological demands.</p>

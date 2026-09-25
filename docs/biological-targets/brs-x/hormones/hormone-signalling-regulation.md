@@ -23,6 +23,29 @@ hide_title: true
 
 (Reproductive & Metabolic Hormone Integration)
 
+<!-- brs-hub-all-mechanisms:start -->
+<div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<div class="brs-fm-hub-group-summary-body">
+<p class="brs-fm-hub-group-heading">All Mechanisms of BRS-X-HORMONES</p>
+<ul class="brs-fm-hub-group-title-list">
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS-X(Hormones-FM1) — Reproductive Hormone Balance &amp; Neurocognitive Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation" aria-label="Open FM: BRS-X(Hormones-FM1) — Reproductive Hormone Balance &amp; Neurocognitive Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- brs-hub-all-mechanisms:end -->
+
 ## Ambition
 
 Maintain coordinated hormonal signalling so the brain can support cognition, emotional regulation, metabolism, and adaptive physiological responses across the lifespan.
@@ -155,10 +178,10 @@ Maintains reproductive hormone balance and neurocognitive regulation by coordina
 
 **Connected mechanisms:**
 
-- [BRS1(FM1)](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — bRS1(FM1) context relevant to this mechanism
-- [BRS5-FM2-PM5 — SCFA Production & Signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — fM2-PM5 — SCFA Production & Signalling context relevant to this mechanism
-- [BRS5(FM1)](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — bRS5(FM1) context relevant to this mechanism
-- [BRS6(FM1)](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) — bRS6(FM1) context relevant to this mechanism
+- [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — monoaminergic Function
+- [BRS5-FM2-PM5 — SCFA Production & Signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — sCFA Production & Signalling
+- [BRS5(FM1) — Gut Barrier Integrity & Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — gut Barrier Integrity & Immune Interface
+- [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) — Direct oestrogen neural signalling
 
 </div>
 </div>

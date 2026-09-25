@@ -48,7 +48,7 @@ function pmFindingEntries(data) {
   if (!hasScientificFindings(data)) return null;
   return rollUpFindings(data.scientific_findings).map((finding) => ({
     // Compact reference — the canonical record stays on the PM page at §4.1.
-    title: `${finding.id} — ${finding.finding_label || finding.finding_statement}`,
+    title: String(finding.finding_label || finding.finding_statement || finding.id).trim(),
     sec: finding.synthesised_evidence_confidence,
     rationale: finding.synthesis,
     references: (finding.evidence_considered || []).map((item) => ({
@@ -63,16 +63,26 @@ function pmFindingEntries(data) {
 function collectPmEvidenceEntries(rootDir, pms, pmCount) {
   const perPm = pmCount === 1 ? 3 : 2;
   const max = pmCount === 1 ? 3 : 4;
-  const out = [];
+  const candidates = [];
   for (const pm of pms) {
     const filePath = repoPath(rootDir, pm.href);
     if (!filePath || !fs.existsSync(filePath)) continue;
     const { data, content } = matter(fs.readFileSync(filePath, "utf8"));
     const refKeys = parseReferenceNoteKeys(data.references);
     const pmEntries = pmFindingEntries(data) || extractPmEvidenceEntries(content, refKeys);
-    for (const entry of pmEntries.slice(0, perPm)) {
-      if (out.length >= max) return out;
+    candidates.push(pmEntries.slice(0, perPm));
+  }
+
+  // Represent each child PM once before using a second entry from any sibling.
+  // Otherwise an early declaration-order PM can exhaust the FM cap and make an
+  // explicitly selected later-PM Finding invisible.
+  const out = [];
+  for (let entryIndex = 0; entryIndex < perPm; entryIndex++) {
+    for (const entries of candidates) {
+      const entry = entries[entryIndex];
+      if (!entry) continue;
       out.push(entry);
+      if (out.length >= max) return out;
     }
   }
   return out;

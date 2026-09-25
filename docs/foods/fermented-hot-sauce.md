@@ -12,29 +12,41 @@ tags:
   - Vegetarian
 list_image: /img/foods/fermented-hot-sauce/fermented-hot-sauce_thumb.webp
 nutrition_per_100g:
-  kcal: 116
-  protein_g: 8.92
-  fat_g: 8
-  carbs_g: 4.38
-  calcium_mg: 46
-  iron_mg: 1.98
-  magnesium_mg: 52
-  potassium_mg: 75
-  zinc_mg: 1.56
-  selenium_ug: 17.3
-  vitamin_b6_mg: 0.091
-  folate_ug: 29
-  vitamin_b12_ug: 0
-  sat_fat_g: 1.157
-  pufa_18_3_unresolved_mg: 534
+  kcal: 12
+  protein_g: 1.29
+  fat_g: 0.76
+  sat_fat_g: 0.106
+  carbs_g: 0.8
+  sugar_g: 0.13
+  fibre_g: 0.6
+  calcium_mg: 12
+  iron_mg: 1.16
+  magnesium_mg: 12
+  phosphorus_mg: 23
+  potassium_mg: 128
+  sodium_mg: 633
+  zinc_mg: 0.16
+  selenium_ug: 0.5
+  copper_mg: 0.075
+  manganese_mg: 0.107
+  vitamin_a_rae_ug: 82
+  vitamin_b1_mg: 0.032
+  vitamin_b2_mg: 0.084
+  vitamin_b6_mg: 0.154
+  vitamin_c_mg: 4.5
+  vitamin_e_mg: 0.01
+  vitamin_k_ug: 0.2
+  folate_ug: 1
+  oleic_g: 0.058
+  linoleic_g: 0.398
+  pufa_18_3_unresolved_mg: 3
 nutrition_source:
   database: USDA FoodData Central
-  food_name: 'Tofu, salted and fermented (fuyu)'
-  fdc_id: 174280
-  retrieval_method: API
+  food_name: 'Sauce, ready-to-serve, pepper, TABASCO'
+  fdc_id: 174528
+  retrieval_method: USDA SR Legacy composition record
   basis: per 100 g edible portion
-  last_checked: '2026-03-14'
-complementary_pairings: Grains and legumes for balanced essential amino acid profile.
+  last_checked: '2026-09-25'
 main_image: /img/foods/fermented-hot-sauce/fermented-hot-sauce_medium.webp
 legacy_list_image: /img/foods/fermented-hot-sauce/fermented-hot-sauce_thumb.webp
 legacy_main_image: /img/foods/fermented-hot-sauce/fermented-hot-sauce_medium.webp
@@ -43,7 +55,7 @@ legacy_main_image: /img/foods/fermented-hot-sauce/fermented-hot-sauce_medium.web
 
 Fermented hot sauce is made by fermenting chilli peppers (often with garlic, salt, and sometimes other vegetables) before blending into a pourable sauce.
 
-Within the BRAIN Diet framework, as with other fermented vegetable products, the fermentation step produces organic acids and flavour compounds; many versions are unpasteurised and used in small amounts as a condiment on otherwise whole-food meals.
+Fermentation develops acidity and flavour, but finished products vary and may be pasteurised. At the dash-sized quantities used as a condiment, fermented hot sauce should be treated as a flavouring rather than a probiotic intervention.
 
 ## Food Context
 
@@ -58,10 +70,6 @@ Within the BRAIN Diet framework, as with other fermented vegetable products, the
 ### Preparation
 
 - Typically produced by fermenting chopped chillies with salt (and sometimes garlic and other aromatics) at room temperature for several days to weeks.
-
-### Essential Amino Acid Profile
-
-Fermented Hot Sauce contribute plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.
 
 ## Recipes
 

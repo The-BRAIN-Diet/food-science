@@ -31,12 +31,19 @@ export const SEC_VALUES = new Set([SEC_NOT_YET_SCORED]);
 
 export const EVIDENCE_SOURCES = new Set(["repository-inherited", "bounded-external-search"]);
 
-export const FINDING_ID_PATTERN = /^SF-[A-Z0-9]+(?:-[A-Z0-9]+)*-\d+$/;
+/** Headline PM Finding ids: PM8-F1, PM12-F3, … */
+export const FINDING_HEADLINE_ID_PATTERN = /^PM\d+-F\d+$/;
+/** Interpretive constraints (no F sequence): PM8-IC1, … */
+export const FINDING_INTERPRETIVE_ID_PATTERN = /^PM\d+-IC\d+$/;
 
-/** Default presentation: mechanistic Findings render under §4.1. */
+export const FINDING_ID_PATTERN = /^(PM\d+-F\d+|PM\d+-IC\d+)$/;
+
+/** Default presentation: headline mechanistic Findings render under §4.1. */
 export const FINDING_PRESENTATION_MECHANISTIC = "mechanistic-basis";
 /** Relationship Findings render in full under their primary Phenome Connection. */
 export const FINDING_PRESENTATION_PHENOME = "phenome-relationship";
+/** Evidence-interpretation constraints — not headline PM Findings; no F number. */
+export const FINDING_PRESENTATION_INTERPRETIVE = "interpretive-constraint";
 
 const ISA_FIELDS = [
   "study",
@@ -75,6 +82,10 @@ export function isMechanisticFinding(finding) {
   return findingPresentation(finding) === FINDING_PRESENTATION_MECHANISTIC;
 }
 
+export function isInterpretiveConstraintFinding(finding) {
+  return findingPresentation(finding) === FINDING_PRESENTATION_INTERPRETIVE;
+}
+
 export function isPrimaryPhenomeFinding(finding, targetPhenome) {
   return (
     findingPresentation(finding) === FINDING_PRESENTATION_PHENOME &&
@@ -85,6 +96,18 @@ export function isPrimaryPhenomeFinding(finding, targetPhenome) {
 /** Findings whose primary presentation is §4.1 Mechanistic Basis. */
 export function mechanisticFindings(data) {
   return (data?.scientific_findings || []).filter(isMechanisticFinding);
+}
+
+/** Headline mechanistic Findings eligible for reader-facing §4.1 rendering. */
+export function headlineMechanisticFindings(data) {
+  return mechanisticFindings(data).filter((finding) =>
+    FINDING_HEADLINE_ID_PATTERN.test(String(finding?.id || "")),
+  );
+}
+
+/** Interpretive constraints render only at the inference they constrain. */
+export function interpretiveConstraintFindings(data) {
+  return (data?.scientific_findings || []).filter(isInterpretiveConstraintFinding);
 }
 
 /**
@@ -140,7 +163,7 @@ export function validateScientificFindings(data, issues = [], { entityLabel = "p
       push(
         issues,
         "finding_id_format",
-        `${entityLabel}: Finding id "${id}" must look like SF-<PM>-<n> (e.g. SF-PM8-1)`,
+        `${entityLabel}: Finding id "${id}" must look like PM<n>-F<n> or PM<n>-IC<n>`,
       );
     }
     if (seenIds.has(id)) {
@@ -148,6 +171,14 @@ export function validateScientificFindings(data, issues = [], { entityLabel = "p
       continue;
     }
     seenIds.add(id);
+
+    if (finding?.fm_rollup !== undefined && typeof finding.fm_rollup !== "boolean") {
+      push(
+        issues,
+        "finding_fm_rollup_value",
+        `${entityLabel}: ${id} fm_rollup must be boolean when present`,
+      );
+    }
 
     for (const field of ["finding_statement", "synthesis", "synthesis_limitations"]) {
       if (!String(finding?.[field] || "").trim()) {
@@ -227,12 +258,13 @@ export function validateScientificFindings(data, issues = [], { entityLabel = "p
     const presentation = findingPresentation(finding);
     if (
       presentation !== FINDING_PRESENTATION_MECHANISTIC &&
-      presentation !== FINDING_PRESENTATION_PHENOME
+      presentation !== FINDING_PRESENTATION_PHENOME &&
+      presentation !== FINDING_PRESENTATION_INTERPRETIVE
     ) {
       push(
         issues,
         "finding_presentation_value",
-        `${entityLabel}: ${id} presentation must be "${FINDING_PRESENTATION_MECHANISTIC}" or "${FINDING_PRESENTATION_PHENOME}"`,
+        `${entityLabel}: ${id} presentation must be "${FINDING_PRESENTATION_MECHANISTIC}", "${FINDING_PRESENTATION_PHENOME}" or "${FINDING_PRESENTATION_INTERPRETIVE}"`,
       );
     }
     if (presentation === FINDING_PRESENTATION_PHENOME && !String(finding?.primary_phenome || "").trim()) {
@@ -310,10 +342,15 @@ export function splitRelationshipFindings(rel, byId) {
   return { primary, crossRef };
 }
 
+function readerFindingTitle(finding) {
+  return String(finding?.finding_label || "").trim() || String(finding?.id || "").trim();
+}
+
 /**
  * Compact Finding references for cross-linked mechanistic or secondary phenome
- * Findings. The canonical full record lives under §4.1 or the primary Phenome
- * Connection panel.
+ * Findings (legacy / optional). Scientific Findings PMs do not render these in §5
+ * by default — mechanistic context lives in §4.1; interpretive constraints are
+ * reflected in Rationale with numbered citations.
  */
 export function renderRelationshipFindingsLine(rel, byId, { ids = null } = {}) {
   const refIds = ids ?? rel?.scientific_findings ?? [];
@@ -323,9 +360,8 @@ export function renderRelationshipFindingsLine(rel, byId, { ids = null } = {}) {
       const key = String(id);
       const finding = byId.get(key);
       if (!finding) return null;
-      const label = String(finding.finding_label || "").trim();
       const anchor = key.toLowerCase();
-      return `  - [${key}](#${anchor})${label ? ` — ${label}` : ""}`;
+      return `  - [${readerFindingTitle(finding)}](#${anchor})`;
     })
     .filter(Boolean);
   if (!items.length) return null;
@@ -337,20 +373,18 @@ export function renderRelationshipFindingsLine(rel, byId, { ids = null } = {}) {
  *
  * Selection is explicit via `fm_rollup: true`, not declaration order, so a
  * governing interpretive constraint cannot be dropped by where it happens to
- * sit in the list. Falls back to declaration order when nothing is flagged.
+ * sit in the list. No declaration-order fallback is permitted: an empty
+ * selection is safer than silently treating the first authored Findings as
+ * FM-level evidence.
  */
 export function rollUpFindings(findings = []) {
-  const flagged = findings.filter((finding) => finding?.fm_rollup === true);
-  return flagged.length ? flagged : findings;
+  const eligible = (findings || []).filter((finding) => !isInterpretiveConstraintFinding(finding));
+  return eligible.filter((finding) => finding?.fm_rollup === true);
 }
 
 /** Serialise a Finding as a JSX expression payload (escape `<` for MDX). */
 function jsonProp(value) {
   return JSON.stringify(value).replace(/</g, "\\u003c");
-}
-
-function readerFindingTitle(finding) {
-  return String(finding?.finding_label || "").trim() || String(finding?.id || "").trim();
 }
 
 function renderFindingBlocks(findings, informs) {
@@ -374,12 +408,13 @@ export function renderRelationshipPrimaryFindings(rel, data, { informs = null } 
 }
 
 /**
- * Renders the PM §4.1 Scientific Findings subsection for mechanistic Findings
- * only. Relationship Findings render in full under their primary Phenome
- * Connection; they remain in front matter and keep their canonical ids.
+ * Renders the PM §4.1 Scientific Findings subsection for headline mechanistic
+ * Findings only. Relationship Findings render in full under their primary
+ * Phenome Connection; interpretive constraints render at the inference they
+ * constrain.
  */
 export function renderScientificFindingsSection(data, { sectionNum = 5, subNum = 1, intro } = {}) {
-  const findings = mechanisticFindings(data);
+  const findings = headlineMechanisticFindings(data);
   if (!findings.length) return "";
   const informs = findingInformsIndex(data);
 

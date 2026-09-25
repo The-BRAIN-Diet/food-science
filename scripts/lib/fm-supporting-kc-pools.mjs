@@ -11,6 +11,8 @@ import path from "node:path"
 import matter from "gray-matter"
 import { buildKcPoolIndex } from "./kc-pool-index.mjs"
 import { isRetiredKc } from "./kc-registry.mjs"
+import { renderKcPresentation } from "./kc-presentation.mjs"
+import { extractHubItemBlock } from "./pm-section-4-levers.mjs"
 
 function readMechanismPage(filePath) {
   const raw = fs.readFileSync(filePath, "utf8")
@@ -130,8 +132,14 @@ function readPmPage(rootDir, pm) {
 }
 
 function pmBodyKcIds(content) {
+  const hubBlock =
+    extractHubItemBlock(content, "4.1.3 Key Constraints")?.block ||
+    extractHubItemBlock(content, "3.1.3 Key Constraints")?.block ||
+    extractHubItemBlock(content, "4.1.3 KCs (Key Constraints)")?.block ||
+    extractHubItemBlock(content, "3.1.3 KCs (Key Constraints)")?.block
+  if (hubBlock) return extractKcIdsFromText(hubBlock)
   const block = content.match(
-    /<summary><strong>4\.1\.3 KCs \(Key Constraints\)<\/strong><\/summary>[\s\S]*?<\/details>/i,
+    /<summary><strong>4\.1\.3 (?:Key Constraints|KCs \(Key Constraints\))<\/strong><\/summary>[\s\S]*?<\/details>/i,
   )
   return extractKcIdsFromText(block ? block[0] : "")
 }
@@ -179,12 +187,16 @@ function formatReliedUpon(pms) {
 /** Restored markdown listing (git-era bullets + Relied upon by). Empty union → "". */
 export function buildSupportingKcPoolMarkdown(kcs) {
   if (!kcs?.length) return ""
-  const bullets = kcs.map((kc) => {
-    const title = kc.href ? `[${kc.id} — ${kc.name}](${kc.href})` : `${kc.id} — ${kc.name}`
+  const groups = kcs.map((kc) => {
     const relied = formatReliedUpon(kc.pms || [])
-    return `- ${title}\n  Relied upon by: ${relied}\n  ${kc.role}`
+    return renderKcPresentation({
+      id: kc.id,
+      name: kc.name,
+      href: kc.href,
+      body: `- **Relied upon by:** ${relied}\n- ${kc.role}`,
+    })
   })
-  return `${KC_POOL_HEADING}\n\n${bullets.join("\n\n")}`
+  return `${KC_POOL_HEADING}\n\n${groups.join("\n\n")}`
 }
 
 export function extractSupportingKcPoolBlock(content) {
@@ -195,15 +207,7 @@ export function extractSupportingKcPoolBlock(content) {
 }
 
 export function parseRenderedKcPoolIds(block) {
-  if (!block) return []
-  const ids = []
-  const seen = new Set()
-  for (const m of block.matchAll(/^\s*-\s+\[(BRS(?:\d+|-X)\([^)]*KC\d+\))/gm)) {
-    if (seen.has(m[1])) continue
-    seen.add(m[1])
-    ids.push(m[1])
-  }
-  return ids
+  return extractKcIdsFromText(block)
 }
 
 export function stripSupportingKcPoolListing(content) {

@@ -5,6 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
 import { isRetiredKc } from "./kc-registry.mjs";
+import { renderKcPresentation } from "./kc-presentation.mjs";
 
 const POOL_HEADINGS = [
   "### 2. Core Nutritional Requirements",
@@ -121,20 +122,20 @@ export function resolveKcRefs(keyConstraints, index) {
   return refs;
 }
 
-/** PM §4.1.3 body: KC link(s) plus substance ← food lines (same format as §4.1.1). */
+/** PM §4.1.3 body: one titled KC panel per mapping; panel body contains pool details only. */
 export function renderPmKcLeverBlock(kcRefs) {
   if (!kcRefs.length) return "";
 
-  const blocks = [];
-  for (const kc of kcRefs) {
-    const lines = [`- [${kc.kcId} - ${kc.label}](${kc.href})`, ""];
-    if (kc.pool.length) {
-      for (const member of kc.pool) lines.push(`- ${member}`);
-    } else {
-      lines.push("- See linked KC page for pool members.");
-    }
-    blocks.push(lines.join("\n"));
-  }
-
-  return blocks.join("\n\n");
+  return kcRefs
+    .map((kc) =>
+      renderKcPresentation({
+        id: kc.kcId,
+        name: kc.label,
+        href: kc.href,
+        body: kc.pool.length
+          ? kc.pool.map((member) => `- ${member}`).join("\n")
+          : "- See KC page for constraint details.",
+      }),
+    )
+    .join("\n\n");
 }

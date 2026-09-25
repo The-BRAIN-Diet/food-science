@@ -32,7 +32,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.16
   folate_ug: 80
   choline_mg: 335.4
-  vitamin_b12_ug: 19
+  vitamin_b12_ug: 10
   sat_fat_g: 1.456
   epa_mg: 983
   dha_mg: 1363
@@ -49,13 +49,12 @@ omega3_components:
     identity: 22:5 n-3 (DPA)
     amount_mg: 82
 nutrition_source:
-  database: USDA FoodData Central + literature
+  database: USDA FoodData Central
   food_name: >-
     Fish, roe, mixed species, raw (FDC 175132) — raw mixed-species roe, not
-    commercial cured ikura; vitamin B12 adjusted to typical salmonid roe
-    (mixed-species FDC under-reports B12).
+    commercial cured ikura.
   fdc_id: 175132
-  retrieval_method: API + manual B12 alignment
+  retrieval_method: USDA SR Legacy composition record
   basis: per 100 g edible portion
   last_checked: '2026-08-18'
   note: >-
@@ -66,14 +65,16 @@ public_display:
 nutrition_supplementary_sources:
   - key: astaxanthin_mg
     label: Astaxanthin
-    value: 3.2
-    unit: mg
+    status: Present — quantity not established
+    amount_display: Present — quantity not established
     notes: >-
-      Carotenoid pigment; stabilises highly unsaturated lipids in the roe
-      matrix.
+      Salmonid carotenoid pigment; the amount varies with species, feed and
+      product.
     source_note: >-
-      Literature estimate for farmed Pacific salmon; USDA FDC does not report
-      astaxanthin for this record; content varies by feed and species.
+      Astaxanthin is established as a constituent of salmon and salmon roe in
+      the canonical Astaxanthin evidence record. USDA FDC 175132 does not
+      quantify it, and no product-relevant analysis establishes an amount for
+      the commercial roe used in this recipe.
   - key: phosphatidylcholine_qual
     label: Phosphatidylcholine
     status: Present — quantity not established
@@ -107,13 +108,13 @@ legacy_main_image: /img/foods/salmon-roe/salmon-roe_medium.webp
 ---
 ## Overview
 
-Salmon roe provides **DHA** and **EPA** within a phospholipid-rich matrix [1,2], alongside **choline**, **vitamin B12** and high-quality protein. This unusually concentrated combination makes small portions useful in preparations such as the Neuroshot. Most commercial ikura is cured in brine, however, so sodium varies considerably by product and should be checked on the label.
+Salmon roe provides **DHA** and **EPA** within a phospholipid-rich matrix [1,2], alongside **choline**, **vitamin B12**, **astaxanthin** and high-quality protein. This unusually concentrated combination makes small portions useful in preparations such as Neuroeshot. Most commercial ikura is cured in brine, however, so sodium varies considerably by product and should be checked on the label.
 
 ## Key Nutritional Highlights
 
-- Very high **choline** and **vitamin B12** per 100 g compared with most whole foods.
-- Roe **DHA** is phospholipid-bound rather than triglyceride-only; that form is used more efficiently for brain DHA accretion than triglyceride DHA [1,2].
-- **Astaxanthin** (carotenoid) is present in salmonid tissues and contributes to lipid stability in the natural matrix.
+- High **choline** and **vitamin B12** density in the named raw mixed-species roe composition record.
+- Roe is a phospholipid-rich marine matrix. The cited mechanistic studies concern phospholipid-form DHA, but FDC 175132 does not quantify what fraction of this roe's EPA or DHA is bound within particular lipid classes [1,2].
+- **Astaxanthin** (carotenoid) is present, but its amount in a particular commercial product is not established without product-relevant analysis.
 - Most commercial **ikura** is brine-cured; sodium is formulation-specific and should be read from the product label.
 - **Freshness and cold chain** matter: oxidation risk rises with poor storage even if the matrix is phospholipid-bound.
 

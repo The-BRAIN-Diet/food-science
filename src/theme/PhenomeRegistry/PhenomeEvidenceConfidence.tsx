@@ -31,8 +31,8 @@ export default function PhenomeEvidenceConfidence({
       {variant !== 'inline' ? (
         <p className={styles.evidenceConfidenceDisclaimer}>
           Registry-level score for this phenome&apos;s foundational evidence stack (construct,
-          biology→phenome, and nutrition→biology layers). Independent of Biology → Phenome Confidence
-          and Evidence Confidence on individual mechanism pages.
+          biology→phenome, and nutrition→biology layers). Independent of Biology → Phenome
+          Relationship Strength and Evidence Confidence on individual mechanism pages.
         </p>
       ) : null}
       {evidenceConfidenceNote ? (

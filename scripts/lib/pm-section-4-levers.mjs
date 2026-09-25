@@ -452,10 +452,18 @@ function renameLegacyLeverHeadings(content) {
   return { content: out, changed };
 }
 
-const DIETARY_HEADING = "4.1 Dietary Levers";
+const DIETARY_HEADINGS = ["4.1 Dietary Requirements", "4.1 Dietary Levers"];
+
+function dietaryParentBlock(content) {
+  for (const heading of DIETARY_HEADINGS) {
+    const found = extractHubItemBlock(content, heading);
+    if (found) return found;
+  }
+  return null;
+}
 
 function isOptimisationNestedInDietary(content) {
-  const dietary = extractHubItemBlock(content, DIETARY_HEADING);
+  const dietary = dietaryParentBlock(content);
   const optimisation = extractHubItemBlock(content, PM_LEVER_HEADINGS.optimisation);
   if (!dietary || !optimisation) return false;
   const dietaryEnd = dietary.index + dietary.block.length;
@@ -474,7 +482,7 @@ export function hoistOptimisationToTopLevel(content) {
     .trimEnd();
 
   let out = content.replace(dietary.block, cleanedDietaryBlock);
-  const dietaryAfter = extractHubItemBlock(out, DIETARY_HEADING);
+  const dietaryAfter = dietaryParentBlock(out);
   if (!dietaryAfter) return { content, changed: false };
 
   const insertAt = dietaryAfter.index + dietaryAfter.block.length;

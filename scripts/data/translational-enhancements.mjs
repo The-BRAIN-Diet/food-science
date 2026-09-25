@@ -713,17 +713,6 @@ export const ENHANCEMENTS = {
       "Enables downstream mitochondrial-relevant metabolite generation — Supporting BRS4.",
     ],
   },
-  "brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency.mdx": {
-    translational:
-      "Helps ensure availability of nutrients that support epithelial maintenance, mucosal immunity, and barrier resilience at the gut lining.",
-    scientific:
-      "Availability of nutrients that support epithelial maintenance, mucosal immunity, and barrier resilience.",
-    bullets: [
-      "Constrains tight-junction integrity when barrier-supportive nutrients are insufficient — within BRS5.",
-      "Supports mucosal immunity and epithelial maintenance — within BRS5.",
-      "Underpins gut barrier mechanisms across BRS5(FM1) — within BRS5.",
-    ],
-  },
   "brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability.mdx": {
     translational:
       "Supports integrated regulation of glucose appearance, glycaemic stability, and insulin-supported glucose disposal across the post-prandial period — influencing metabolic continuity, reactive neuroendocrine demand, and cognitive energy availability.",

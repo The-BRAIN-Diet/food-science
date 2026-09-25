@@ -1,8 +1,9 @@
 /** Retired Key Constraints — excluded from hub rollups, PM §4.1.3, and public pages. */
-export const RETIRED_KC_IDS = new Set(["BRS3(KC3)"]);
+export const RETIRED_KC_IDS = new Set(["BRS3(KC3)", "BRS5(KC3)"]);
 
 export const RETIRED_KC_HREFS = new Set([
   "/docs/biological-targets/brs3/kc/brs3-kc3-essential-fatty-acid-balance",
+  "/docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency",
 ]);
 
 export function isRetiredKc({ id, href } = {}) {

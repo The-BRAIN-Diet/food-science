@@ -93,7 +93,7 @@ const SNAPSHOTS = {
   "salt-table": {fdc_id: "173468", note: "Only for recipes that state an exact salt weight."},
   "tabasco-pepper-sauce": {
     fdc_id: "174528",
-    note: "Tabasco-style fermented pepper sauce. The Fermented Hot Sauce food page currently carries a fermented-tofu record and must not be used for composition.",
+    note: "Tabasco-style fermented pepper sauce snapshot for recipes that do not use the canonical Fermented Hot Sauce food page.",
   },
 }
 

@@ -144,8 +144,6 @@ export const MECHANISM_FUNCTIONAL_DESCRIPTORS = {
     "(Fermentable Fibres That Feed Helpful Gut Bacteria)",
   "brs5/kc/brs5-kc2-polyphenol-and-plant-diversity-input-availability.mdx":
     "(Polyphenol-Rich Plants & Dietary Diversity)",
-  "brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency.mdx":
-    "(Nutrients That Support the Gut Lining)",
   "brs6/kc/brs6-kc1-glucose-energy-substrate-availability.mdx":
     "(Steady Meal Energy Without Blood-Sugar Chaos)",
   "brs6/kc/brs6-kc2-stress-response-micronutrient-and-lipid-sufficiency.mdx":

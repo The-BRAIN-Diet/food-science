@@ -662,6 +662,35 @@ test("salmon roe publishes EPA and DHA but no alanine dressed as ALA", () => {
   )
 })
 
+test("Neuroeshot inherits corrected B12, promotes choline and projects qualitative astaxanthin", () => {
+  const salmonRoe = foodDocs.find((doc) => doc.frontMatter.id === "salmon-roe")
+  const troutRoe = foodDocs.find((doc) => doc.frontMatter.id === "trout-roe")
+  assert.equal(salmonRoe.frontMatter.nutrition_per_100g.vitamin_b12_ug, 10)
+  assert.equal(troutRoe.frontMatter.nutrition_per_100g.vitamin_b12_ug, 10)
+  assert.equal(String(salmonRoe.frontMatter.nutrition_source.fdc_id), "175132")
+  assert.doesNotMatch(String(salmonRoe.frontMatter.nutrition_source.food_name), /adjusted|under-reports/i)
+
+  const recipe = loadRecipe("Snacks/neuroeshot.md")
+  const result = calculateRecipeNutrition(recipe.data, foodDocs)
+  const rows = selectPublicRows(result, recipe.data)
+  assert.ok(Math.abs(result.perServing.vitamin_b12_ug - 1.5) < 0.01)
+
+  const choline = rows.find((row) => row.key === "choline_mg")
+  assert.ok(choline)
+  assert.match(choline.promoted, /useful contribution/i)
+  assert.ok(choline.pct > 9 && choline.pct < 10)
+
+  const astaxanthin = rows.find((row) => row.label === "Astaxanthin")
+  assert.ok(astaxanthin)
+  assert.equal(astaxanthin.amount, null)
+  assert.equal(astaxanthin.amountDisplay, "Present — quantity not established")
+  assert.equal(result.perServing.astaxanthin_mg, undefined)
+
+  const ui = fs.readFileSync(path.join(ROOT, "src/theme/RecipeNutrition/index.tsx"), "utf8")
+  assert.match(ui, /substanceFor/)
+  assert.match(ui, /Present — quantity not established/)
+})
+
 test("flax and walnuts lost their alanine-sized ALA; chia's real value survived", () => {
   const panel = (title) => {
     const doc = foodDocs.find((d) => d.title === title)

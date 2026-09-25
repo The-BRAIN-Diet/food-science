@@ -227,7 +227,11 @@ Section **4.** must include:
 
 The displayed Key Constraint list is **derived from PM → KC mappings**: the union of `key_constraints` on constituent PMs, deduplicated by KC id. Do **not** list every KC of the parent BRS, maintain an independent FM→KC map, infer KCs from prose, or invent/rename KCs. FM front matter `key_constraints` may cache that union for ontology traversal; it is not an independent mapping. FMs whose PMs have no KC mappings render **no** empty pool section.
 
-Each rendered pool entry links the canonical KC page, names the PM(s) in this FM that rely on it, and adds one concise role sentence from the KC page (Constraint Role or summary). Restore via `node scripts/restore-fm-supporting-kc-pools.mjs`.
+Each rendered pool uses one title-first, non-collapsible nested panel per KC. The title itself reads
+`(Key Constraint) (KCn) — Name` and is the canonical KC-page link; the always-visible panel
+body contains only bullets naming the PM(s) that rely on it and one concise role
+sentence from the KC page (Constraint Role or summary). KC identity/page links must
+not render as bullets. Restore via `node scripts/restore-fm-supporting-kc-pools.mjs`.
 
 `key_constraints` in front matter are **not** for KC stressor rollups in §4.3. Section **4.3** retains the narrative of what happens when these pools become inadequate; it is not the listing’s home.
 
@@ -472,7 +476,7 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - Each Connected Mechanisms bullet must use: `[ID — Name](href) — one-sentence biological connection to this FM`. Do not list BRS hub pages without a specific PM/FM link and connection sentence.
 - `## 6. References` is required when references exist in front matter.
 - §4 must include `### 4.1 Core Primary Mechanisms`, `### 4.2 Integrated Functional Narrative`, `### 4.3 Suboptimal Function & Its Effects`, and `### 4.4 Evidence Highlights` (see `system/fm-schema-rollout-sequence.md`).
-- When constituent PMs declare `key_constraints`, §4 must render **Supporting Key Constraint Pools** immediately after the opening paragraph and before `### 4.1`. The list is the PM → KC union (exact citation keys / KC ids; no array-position join; no neighbour fallback). Each entry must resolve to a canonical KC page. Duplicate KCs cannot render. FMs with no mapped KCs must not render an empty section.
+- When constituent PMs declare `key_constraints`, §4 must render **Supporting Key Constraint Pools** immediately after the opening paragraph and before `### 4.1`. The list is the PM → KC union (exact citation keys / KC ids; no array-position join; no neighbour fallback). Each KC uses a title-first non-collapsible panel whose title is the canonical KC link, with always-visible constraint details only in its body; KC links must not render as bullets, and no disclosure arrow or separate `Open KC` control is permitted. Each entry must resolve to a canonical KC page. Duplicate KCs cannot render. FMs with no mapped KCs must not render an empty section.
 - A KC linked in §4.3 but absent from the PM-derived union fails validation (`fm_kc_43_not_in_pm_union`) and is recorded in `scripts/out/fm-kc-pool-reconciliation.json`. Do not silently infer it onto the list. A PM whose §4.1.3 body lists KCs without front-matter `key_constraints` is a mapping gap (`fm_pm_kc_mapping_gap`), not a source of inferred KCs.
 - FM pages must **not** include `### 4.2 Supporting Biological Pools (Key Constraints)` — that numbered slot is **Integrated Functional Narrative**. The restored pool listing is unnumbered and sits before §4.1.
 - FM pages must **not** include standalone `## N. Primary Mechanisms (PMs)` or `## N. KCs` sections — PM links belong in §4.1.

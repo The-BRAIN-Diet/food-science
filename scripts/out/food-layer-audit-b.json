@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-08-19T13:37:30.229Z",
+  "read_only": true,
+  "writes_food_pages": false,
+  "writes_substance_pages": false,
+  "writes_ontology_tags": false,
+  "confidence_scope": "audit_finding_only — not added to food-page content or front matter",
+  "model": "Three Sources of Truth: Overview → Database nutrition table → Substances list",
+  "content_boundary_model": "Intrinsic / Mechanism / Strategy (scope, not admission)",
+  "letter_scope": "B",
+  "scope_rule": "Displayed food name (sidebar_label || title), first alphabetic character after optional leading 'The'. Filename is not the scope key.",
+  "pages_examined": 15,
+  "pages_excluded_outside_letter_scope": 153,
+  "pages": [
+    {
+      "displayed_name": "Bananas",
+      "slug": "bananas",
+      "filename": "bananas.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "vitamin B6",
+        "potassium"
+      ],
+      "substance_tags": [
+        "Vitamin B6",
+        "Potassium"
+      ]
+    },
+    {
+      "displayed_name": "Barley",
+      "slug": "barley",
+      "filename": "barley.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "beta-glucan"
+      ],
+      "substance_tags": [
+        "Beta-glucan",
+        "Magnesium"
+      ]
+    },
+    {
+      "displayed_name": "Beef",
+      "slug": "beef",
+      "filename": "beef.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "creatine",
+        "CoQ10"
+      ],
+      "substance_tags": [
+        "Creatine",
+        "CoQ10",
+        "Vitamin B2",
+        "Vitamin B3",
+        "Vitamin B6",
+        "Vitamin B12",
+        "Iron",
+        "Zinc",
+        "Phosphorus",
+        "Selenium"
+      ]
+    },
+    {
+      "displayed_name": "Beetroot",
+      "slug": "beetroot",
+      "filename": "beetroot.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "nitrate",
+        "betalain",
+        "folate"
+      ],
+      "substance_tags": [
+        "Nitrate",
+        "Vitamin B9",
+        "Potassium",
+        "Manganese",
+        "Iron",
+        "Magnesium"
+      ]
+    },
+    {
+      "displayed_name": "Bell Peppers",
+      "slug": "bell-peppers",
+      "filename": "bell-peppers.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "vitamin C"
+      ],
+      "substance_tags": [
+        "Vitamin C",
+        "Beta-Carotene",
+        "Lutein"
+      ]
+    },
+    {
+      "displayed_name": "Black Beans",
+      "slug": "black-beans",
+      "filename": "black-beans.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [],
+      "substance_tags": [
+        "Iron",
+        "Vitamin B9",
+        "Vitamin B1",
+        "Vitamin B6",
+        "Magnesium",
+        "Zinc",
+        "Phosphorus",
+        "Potassium",
+        "Manganese",
+        "Copper"
+      ]
+    },
+    {
+      "displayed_name": "Black Goji",
+      "slug": "black-goji",
+      "filename": "black-goji.md",
+      "initial": "B",
+      "finding_count": 1,
+      "overview_compounds": [
+        "anthocyanin",
+        "cyanidin"
+      ],
+      "substance_tags": [
+        "Cyanidin"
+      ]
+    },
+    {
+      "displayed_name": "Black Pepper",
+      "slug": "black-pepper",
+      "filename": "black-pepper.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "piperine"
+      ],
+      "substance_tags": []
+    },
+    {
+      "displayed_name": "Black Tea",
+      "slug": "black-tea",
+      "filename": "black-tea.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "theaflavins",
+        "catechins"
+      ],
+      "substance_tags": [
+        "Manganese"
+      ]
+    },
+    {
+      "displayed_name": "Blueberries",
+      "slug": "blueberries",
+      "filename": "blueberries.md",
+      "initial": "B",
+      "finding_count": 2,
+      "overview_compounds": [
+        "anthocyanins",
+        "quercetin",
+        "vitamin C"
+      ],
+      "substance_tags": [
+        "Vitamin C",
+        "Manganese",
+        "Cyanidin",
+        "Delphinidin",
+        "Malvidin",
+        "Peonidin",
+        "Petunidin",
+        "Quercetin"
+      ]
+    },
+    {
+      "displayed_name": "Broccoli",
+      "slug": "broccoli",
+      "filename": "broccoli.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "sulforaphane",
+        "folate"
+      ],
+      "substance_tags": [
+        "Vitamin B1",
+        "Vitamin B2",
+        "Vitamin B5",
+        "Vitamin B6",
+        "Vitamin B9",
+        "Vitamin C",
+        "Choline",
+        "Iron",
+        "Magnesium",
+        "Phosphorus",
+        "Potassium",
+        "Manganese",
+        "Zinc",
+        "Sulforaphane",
+        "Vitamin K"
+      ]
+    },
+    {
+      "displayed_name": "Broccoli Sprouts",
+      "slug": "broccoli-sprouts",
+      "filename": "broccoli-sprouts.md",
+      "initial": "B",
+      "finding_count": 1,
+      "overview_compounds": [
+        "glucoraphanin",
+        "myrosinase"
+      ],
+      "substance_tags": [
+        "Vitamin B6",
+        "Vitamin B9",
+        "Vitamin C",
+        "Calcium",
+        "Iron",
+        "Magnesium",
+        "Potassium",
+        "Sulforaphane",
+        "Glucoraphanin"
+      ]
+    },
+    {
+      "displayed_name": "Brussels Sprouts",
+      "slug": "brussels-sprouts",
+      "filename": "brussels-sprouts.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "isothiocyanates",
+        "folate",
+        "vitamin C"
+      ],
+      "substance_tags": [
+        "Vitamin B9",
+        "Vitamin C"
+      ]
+    },
+    {
+      "displayed_name": "Buckwheat",
+      "slug": "buckwheat",
+      "filename": "buckwheat.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [],
+      "substance_tags": [
+        "Magnesium"
+      ]
+    },
+    {
+      "displayed_name": "Butter",
+      "slug": "butter",
+      "filename": "butter.md",
+      "initial": "B",
+      "finding_count": 0,
+      "overview_compounds": [
+        "vitamin A"
+      ],
+      "substance_tags": [
+        "Vitamin A",
+        "Vitamin E",
+        "Vitamin K2"
+      ]
+    }
+  ],
+  "totals_by_class": {
+    "Overview → table gap": 0,
+    "Table → card candidate": 1,
+    "Card → table violation": 0,
+    "Unsupported Overview claim": 0,
+    "Trace-only presence": 0,
+    "Scope error": 0,
+    "Admitted card with missing substance page": 0,
+    "Presence resolved — remaining quantity/ontology gap": 3
+  },
+  "totals_by_confidence": {
+    "high": 3,
+    "medium": 1,
+    "low": 0
+  },
+  "findings": [
+    {
+      "food": "Black Goji",
+      "slug": "black-goji",
+      "class": "Presence resolved — remaining quantity/ontology gap",
+      "entity": "anthocyanin",
+      "evidence": "Presence is already evidenced by a public qualitative table row (Present — quantity not established). This is not an Overview → table gap. Remaining: no defensible quantity or range; no canonical substance page; ontology admission is incomplete (parent/aglycone card is not this glycoside). um*) is a small berry used in tiny portions for its dense **anthocyanin** pigments, including **cyanidin** glycosides, rather than as a staple calorie",
+      "proposed_resolution": "Keep the qualitative presence row. Do not invent a quantity. Do not create a substance page from the mention alone. If a parent aglycone card is shown, qualify it as glycoside chemistry rather than free aglycone.",
+      "confidence": "high",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Blueberries",
+      "slug": "blueberries",
+      "class": "Presence resolved — remaining quantity/ontology gap",
+      "entity": "anthocyanins",
+      "evidence": "Presence is already evidenced by a public qualitative table row (Anthocyanins (total)). This is not an Overview → table gap. Remaining: no canonical substance page; ontology admission is incomplete (parent/aglycone card is not this glycoside). Blueberries provide **anthocyanins**—chiefly cyanidin, delphinidin, malvidin, peonidin and petunidin glycosides—to",
+      "proposed_resolution": "Keep the qualitative presence row. Do not invent a quantity. Do not create a substance page from the mention alone. If a parent aglycone card is shown, qualify it as glycoside chemistry rather than free aglycone.",
+      "confidence": "high",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Blueberries",
+      "slug": "blueberries",
+      "class": "Table → card candidate",
+      "entity": "anthocyanins",
+      "evidence": "Overview names anthocyanins and a supported table row exists (Anthocyanins (total)), but it is not in the Substances tags.",
+      "proposed_resolution": "Editorial judgement: admit a Substances card if this is a meaningful BRAIN identity compound. Do not auto-admit every table row.",
+      "confidence": "medium",
+      "confidence_scope": "audit_finding_only"
+    },
+    {
+      "food": "Broccoli Sprouts",
+      "slug": "broccoli-sprouts",
+      "class": "Presence resolved — remaining quantity/ontology gap",
+      "entity": "myrosinase",
+      "evidence": "Presence is already evidenced by a public qualitative table row (Present — quantity not established). This is not an Overview → table gap. Remaining: no defensible quantity or range; no canonical substance page; ontology admission is incomplete (parent/aglycone card is not this glycoside). are concentrated sources of **glucoraphanin** and active **myrosinase**, delivering higher sulforaphane potential per gram than mature broccoli when",
+      "proposed_resolution": "Keep the qualitative presence row. Do not invent a quantity. Do not create a substance page from the mention alone. If a parent aglycone card is shown, qualify it as glycoside chemistry rather than free aglycone.",
+      "confidence": "high",
+      "confidence_scope": "audit_finding_only"
+    }
+  ]
+}

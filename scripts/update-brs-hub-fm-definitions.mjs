@@ -7,9 +7,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import {
+  buildAllMechanismsIndex,
   buildFunctionalMechanismsSection,
   listFmFilesForBrs,
   listFmFilesForBrsX,
+  upsertAllMechanismsIndex,
 } from "./lib/brs-hub-fm-section.mjs";
 
 const BRS_BASE = path.join(process.cwd(), "docs/biological-targets");
@@ -98,8 +100,9 @@ for (const hub of HUB_CONFIGS) {
   const hubPath = path.join(BRS_BASE, hub.file);
   const fmPaths = hub.fmPaths();
   const section = buildFunctionalMechanismsSection(fmPaths, hub.brsId);
+  const index = buildAllMechanismsIndex(fmPaths, hub.brsId);
   let content = fs.readFileSync(hubPath, "utf8");
-  const next = hub.replace(content, section);
+  const next = upsertAllMechanismsIndex(hub.replace(content, section), index);
   if (next === content) {
     console.warn(`No change: ${hub.file}`);
     continue;

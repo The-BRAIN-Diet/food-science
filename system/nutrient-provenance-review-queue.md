@@ -64,8 +64,12 @@ This is not a bulk 1270 → ALA promotion. Combined provenance is food-specific.
 | `avocado-oil` | 957 | Fernandes 2018 says "linolenic (C18:3)". Avocado fruit FDC 171705 carries both 1404 (0.111 g) and 1321 (0.015 g). |
 | `ghee` | 1447 | Ruminant 18:3. Butter on this site already publishes ALA from 1404 (0.315 g) while the same butter record's 1270 is 1.18 g. Ghee FDC 173412 has 1270 only. |
 | `lamb`, `milk`, `parmesan-cheese` | 420 / 75 / 297 | Foundation cheeses report both 1404 and 1321. Dairy 18:3 is not a single isomer. |
-| `fermented-hot-sauce`, `fermented-vegetables` | 534 | Cite fuyu tofu (FDC 174280). Wrong food for the page; 18:3 is not closed on a substituted panel. |
+| `fermented-vegetables` | 534 | Cites fuyu tofu (FDC 174280). Wrong food for the page; 18:3 is not closed on a substituted panel. |
 | `sunflower-seeds` | 60 | Foundation dry-roasted kernels report both 1404 (0.059 g) and 1321 (0.002 g). |
+
+Resolved 2026-09-25: `fermented-hot-sauce` now uses exact-product-class FDC 174528
+(`Sauce, ready-to-serve, pepper, TABASCO`); its unqualified 18:3 remains
+chemically unresolved at 3 mg/100 g and is not published as ALA.
 
 **Still unresolved — no exact-food 1404 and no accepted identity paper**
 

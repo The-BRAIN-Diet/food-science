@@ -380,7 +380,7 @@ The generated block between `<!-- brs-hub-levers:start -->` / `<!-- brs-hub-leve
 
 | # | Hub dropdown | PM section | Purpose |
 |---|--------------|------------|---------|
-| 4.1 | **Dietary Guidance** | §4.1 Direct Dietary Levers | What to eat — patterns, nutrients, biology, target foods |
+| 4.1 | **Dietary Guidance** | PM **§3.1.1 Direct and/or Derived Dietary Requirements** (legacy extractors still parse §4.1.1 Direct Dietary Levers) | What to eat — patterns, nutrients, biology, target foods |
 | 4.2 | **System Optimisation Practices** | §4.2 System Optimisation Practices | Targeted interventions beyond foundational diet/lifestyle — five nested categories (prep, protocols, supplements, light/circadian, stress/autonomic) |
 | 4.3 | **Lifestyle Priorities** | §4.3 Lifestyle Levers | Behavioural levers (sleep, activity, stress recovery, circadian routines) — not dietary delivery or preparation |
 
@@ -781,7 +781,7 @@ Edit in `scripts/lib/brs-hub-levers.mjs`, then regenerate.
 | BRS2 | Key constraints across this system are those with adequate methyl-donor intake; or folate-, choline-, and betaine-rich whole-food patterns. |
 | BRS3 | Key constraints across this system are those with antioxidant substrate availability; or balanced omega-3 and omega-6 fatty-acid intake. |
 | BRS4 | Key constraints across this system are those with reliable macronutrient fuel delivery; or B-vitamin, iron, and magnesium cofactor sufficiency. |
-| BRS5 | Key constraints across this system are those with fermentable fibre and resistant-starch intake; or broad plant-diversity and barrier-supportive nutrients. |
+| BRS5 | Key constraints across this system are those with fermentable fibre and resistant-starch intake; or broad plant-diversity and polyphenol inputs. |
 | BRS6 | Key constraints across this system are those with stable meal-derived energy substrates; or stress-response micronutrient and lipid sufficiency. |
 
 ### `KEY_DIETARY_STRATEGY_TARGETS` (seed items)
@@ -792,21 +792,38 @@ Edit in `scripts/lib/brs-hub-levers.mjs`, then regenerate.
 | BRS2 | Methyl-donor-rich meals · folate- and B12-containing foods · choline and betaine sources · distributed one-carbon protein |
 | BRS3 | Anti-inflammatory whole-food patterns · antioxidant-rich vegetables and fruits · omega-3/omega-6 balance · polyphenol-diverse intake |
 | BRS4 | Balanced macronutrient fuel delivery · mitochondrial cofactor-rich foods · sustained energy-substrate meals |
-| BRS5 | Fermentable-fibre intake · plant-diversity patterns · polyphenol-rich foods · barrier-supportive nutrient pairing |
+| BRS5 | Fermentable-fibre intake · plant-diversity patterns · polyphenol-rich foods |
 | BRS6 | Glycaemic stabilisation · mixed macronutrient meal matrices · consistent meal timing · lower ultra-processed load |
 
 PM pattern prose is appended when not semantically redundant.
 
 ## Extraction rules
 
-1. Parse PM §**4.1.1 Direct Dietary Levers** only (not cofactor-only §4.1.2 lists).
-2. Parse PM §**4.1.3 KCs (Key Constraints)** — KC links; enrich foods from KC pages and connected PM dietary lines.
-3. Primary food format: `substance ← food, food, food`
-4. Secondary: prose bullets with `such as …` / `including …` food lists (common on BRS6 meal-timing PMs).
-5. Pattern prose: §4.1.1 bullets without extractable food tokens roll into `dietary_strategy_targets`.
-6. Normalize aliases (`EVOO` → extra-virgin olive oil, `oily fish` → salmon, sardines, mackerel, `fish roe` → signature star).
-7. Lifestyle: PM §**4.3** remains authoritative on PM pages; hub **Lifestyle Priorities** are integrated from `scripts/data/brs-hub-lifestyle-priorities.mjs` with PM provenance matched at generation time.
-8. Hub registry includes **nutrient_dense_stars** only; assign via `SIGNATURE_FOODS` and `categorizeFood()`.
+1. For atom-owned canonical PMs, consume §**3.1.1** through
+   `dietary_lever_presentations` → `dietary_lever_atoms` →
+   `dietary_input_traceability`. Preserve the source `atom_id` and its five-atom
+   relationship provenance through aggregation. Do not reconstruct Input Type,
+   Biological Role, Evidence Source or Limitation from rendered bullet text.
+2. Do not extract cofactor/substrate-only §3.1.2 rows as Dietary Guidance merely
+   because the same input is dietary-facing.
+3. Parse PM §**3.1.3 Key Constraints** (or the legacy §4.1.3 / §3.1.3 KCs heading)
+   as KC-specific relationships. KC identity or input reuse must not inherit
+   Direct/Derived metadata.
+4. Untouched legacy PMs may use the former §4.1.1 / §3.1.1 Direct Dietary Levers
+   prose parser as a compatibility fallback only. Once recomputed, a PM must use
+   atomic extraction and must not retain a parallel prose-owned scientific record.
+5. Legacy primary food format: `substance ← food, food, food`.
+6. Legacy secondary format: prose bullets with `such as …` / `including …` food
+   lists (common on BRS6 meal-timing PMs).
+7. Pattern prose from legacy bullets without extractable food tokens rolls into
+   `dietary_strategy_targets`.
+8. Normalize aliases (`EVOO` → extra-virgin olive oil, `oily fish` → salmon,
+   sardines, mackerel, `fish roe` → signature star).
+9. Lifestyle: PM §**4.3** remains authoritative on PM pages; hub **Lifestyle
+   Priorities** are integrated from `scripts/data/brs-hub-lifestyle-priorities.mjs`
+   with PM provenance matched at generation time.
+10. Hub registry includes **nutrient_dense_stars** only; assign via
+    `SIGNATURE_FOODS` and `categorizeFood()`.
 
 ## Core BRS hub page map
 

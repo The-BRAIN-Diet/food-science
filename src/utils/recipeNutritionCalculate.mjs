@@ -146,6 +146,30 @@ function isNumericNutrient(v) {
   return typeof v === "number" && Number.isFinite(v)
 }
 
+function normaliseCompoundLabel(value) {
+  return String(value || "")
+    .toLowerCase()
+    .replace(/[–—]/g, "-")
+    .replace(/\s+/g, " ")
+    .trim()
+}
+
+/**
+ * Supplementary compounds project from a food into a recipe only when the food
+ * has explicitly admitted the canonical substance through a matching tag.
+ * This keeps formulation notes (for example commercial-product sodium) out of
+ * the recipe's Bioactive compounds list.
+ */
+function isSubstanceBackedSupplementaryRow(foodDoc, row) {
+  if (!foodDoc || !row?.label || !row?.source_note) return false
+  const target = normaliseCompoundLabel(row.label)
+  const tags = Array.isArray(foodDoc.frontMatter?.tags) ? foodDoc.frontMatter.tags : []
+  return tags.some((tag) => {
+    const label = typeof tag === "string" ? tag : tag?.label
+    return normaliseCompoundLabel(label) === target
+  })
+}
+
 function permalinkSlug(permalink) {
   if (!permalink) return ""
   const parts = String(permalink).split("/").filter(Boolean)
@@ -359,6 +383,7 @@ export function calculateRecipeNutrition(frontMatter, foodDocs) {
   const notReported = {}
   const byFood = {}
   const audit = []
+  const recipeSubstances = new Map()
 
   for (const ing of defaults) {
     const weight = ing.calculation_weight_g
@@ -391,8 +416,24 @@ export function calculateRecipeNutrition(frontMatter, foodDocs) {
         ? comp.foodDoc.frontMatter.nutrition_supplementary_sources
         : []
     const supplementaryNumeric = []
+    const supplementaryQualitative = []
     for (const row of supplementary) {
-      if (typeof row?.value !== "number" || !Number.isFinite(row.value)) continue
+      const isSubstanceBacked = isSubstanceBackedSupplementaryRow(comp.foodDoc, row)
+      if (typeof row?.value !== "number" || !Number.isFinite(row.value)) {
+        const amountDisplay = row?.amount_display || row?.status
+        if (isSubstanceBacked && typeof amountDisplay === "string" && amountDisplay.trim()) {
+          const entry = {
+            key: row.key,
+            label: row.label,
+            amount: null,
+            amountDisplay: amountDisplay.trim(),
+            sourceFood: foodTitle,
+          }
+          supplementaryQualitative.push(entry)
+          if (!recipeSubstances.has(row.key)) recipeSubstances.set(row.key, entry)
+        }
+        continue
+      }
       const note = `${row.status || ""} ${row.amount_display || ""} ${row.notes || ""} ${row.source_note || ""}`
       if (/present|trace|range|varies|formulation|order-of-magnitude|approx|estimat/i.test(note)) {
         continue
@@ -414,6 +455,16 @@ export function calculateRecipeNutrition(frontMatter, foodDocs) {
         label: row.label || row.key,
         value: scaled.value,
       })
+      if (isSubstanceBacked) {
+        const current = recipeSubstances.get(key)
+        recipeSubstances.set(key, {
+          key,
+          label: row.label || row.key,
+          amount: (current?.amount || 0) + scaled.value,
+          amountDisplay: null,
+          sourceFood: foodTitle,
+        })
+      }
       recipeTotals[key] = (recipeTotals[key] || 0) + scaled.value
       if (!byFood[key]) byFood[key] = {}
       byFood[key][foodTitle] = (byFood[key][foodTitle] || 0) + scaled.value
@@ -428,6 +479,7 @@ export function calculateRecipeNutrition(frontMatter, foodDocs) {
       composition_basis: comp.source,
       contributions,
       supplementaryNumeric,
+      supplementaryQualitative,
       not_reported_keys: missing,
     })
   }
@@ -453,6 +505,10 @@ export function calculateRecipeNutrition(frontMatter, foodDocs) {
     exclusions,
     assumptions,
     unresolved,
+    recipeSubstances: [...recipeSubstances.values()].map((row) => ({
+      ...row,
+      amount: isNumericNutrient(row.amount) ? row.amount / servings : null,
+    })),
     blockers: [],
     source,
   }
@@ -624,6 +680,11 @@ export function selectPublicRows(result, frontMatter) {
     const amount = result.perServing[key]
     if (!isMaterialBrainCompound(key, amount)) continue
     rows.push({ key, group: "brain", amount, label: "Anthocyanins" })
+  }
+  const existingKeys = new Set(rows.map((row) => row.key))
+  for (const substance of result.recipeSubstances || []) {
+    if (existingKeys.has(substance.key)) continue
+    rows.push({...substance, group: "brain"})
   }
   return rows
 }

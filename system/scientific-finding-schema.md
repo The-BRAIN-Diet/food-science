@@ -39,6 +39,82 @@ evidence belongs in Connected / Supportive Evidence unless it directly answers a
 listed unanswered proposition. Do not expand into adjacent literature simply
 because it exists.
 
+## PM scope triangulation (headline Finding promotion)
+
+Scientific validity is **necessary but not sufficient** for headline Primary
+Mechanism Finding status.
+
+Before promoting candidate evidence to a headline PM Finding (`PMn-Fm`), test:
+
+1. **Mission** — Does it directly address the PM Mission?
+2. **Overview** — Does it materially establish, refine, or challenge the PM Overview?
+3. **Mechanism capacity** — Does it establish a biological requirement, determinant,
+   capacity, or important mechanism-level constraint represented by this PM?
+4. **Interpretive role** — Is its primary purpose instead to interpret another
+   evidence type (e.g. concentration versus flux)?
+5. **Scope drift** — Would promoting it cause the PM to drift into adjacent biology,
+   measurement methodology, or general literature review?
+
+If (4) or (5) apply without sufficient support from (1)–(3), **do not** promote to a
+headline PM Finding. Represent it as Connected / Supportive / Interpretive Evidence.
+If evidence genuinely shows Mission or Overview are too narrow or wrong, **raise Change
+Control** — do not silently widen the PM.
+
+This is **not** a dietary filter: non-dietary biology may qualify when it materially
+establishes the mechanism in Mission + Overview.
+
+**Worked precedent:** BRS1-FM4-PM8 — concentration-versus-synthesis is scientifically
+valid but demoted to `PM8-IC1` (`interpretive-constraint`) because it constrains how
+other evidence is read, not GAD-dependent synthesis capacity itself. It does **not**
+render in §4.1 or as a Finding card in §5. Its scientific consequences belong in the
+relevant Phenome **Rationale**, with numbered citations to the underlying studies
+(Mason, Manor), not to the IC id.
+
+**Presentation vs ownership:** Relationship Findings may be shown as supporting
+evidence in §5. Interpretive constraints govern interpretation; they are not supporting
+Findings. **Evidence ownership does not imply presentation.**
+
+**PM8 §5 Phenome Connections — frozen (production exemplar):** Panel hierarchy
+(strength → evidence confidence → Rationale → Supporting evidence), Rationale role,
+primary-phenome-only Supporting Evidence, IC synthesis via Rationale + `{{cite:}}` (not
+reader-facing IC cards), and numbered PM references are **accepted**. Change only via
+concrete defect or Change Control — not opportunistic optimisation.
+
+```
+MISSION + OVERVIEW
+        ↓
+BOUNDED PM BIOLOGICAL AMBITION
+        ↓
+CANDIDATE FINDING
+        ↓
+Does it materially establish / refine / challenge this PM?
+        ↓
+YES → PMn-Fm headline Finding
+NO, but scientifically useful → Supporting / Connected / Interpretive Evidence
+PM scope itself challenged → Change Control
+```
+
+## Finding identity and numbering
+
+Headline Primary Mechanism Finding ids use **`[PM ID]-F[n]`** (example: `PM8-F1`).
+
+Interpretive constraints use **`[PM ID]-IC[n]`** and **do not** consume F sequence
+numbers (example: `PM8-IC1`).
+
+Connected / Supportive Evidence does not receive Finding ids.
+
+While a PM is being established (pre-freeze), F numbers follow **canonical Finding
+presentation order** on the page. Once a PM is formally frozen and ids have external
+dependencies, **do not renumber** stable ids because presentation order, inserts, or
+UI layout changed.
+
+Finding ids are canonical for structured data, anchors, cross-references, and audit
+machinery. They **must not** render as reader-facing headings or labels — use
+`finding_label` in public copy.
+
+Legacy `SF-PM8-n` ids on PM8 were migrated to `PM8-Fn` / `PM8-IC1` when the production
+contract was established.
+
 **Depth is proportional.** Individual Study Assessment fields are complete when
 present, but full extraction is required only where needed to adjudicate the
 proposition — not by default on every study. Pilot 1 depth was appropriate to
@@ -47,6 +123,17 @@ architecture stress-testing; it is not the default depth for every PM.
 Phase 3 phenome review (`system/phenome-relationship-review-methodology.md`)
 validates Biology → Phenome Confidence for candidate relationships. It does **not**
 authorise open-ended PM-wide Scientific Finding discovery.
+
+Biology → Phenome Relationship Strength describes the proposed functional
+dependency. It is conceptually separate from Synthesised Evidence Confidence,
+which describes how strongly the assessed evidence supports a Scientific
+Finding. Neither value may be inferred from the other.
+
+**Biochemical requirement is not dietary modulation.** Establishing that a
+substrate, ion, cofactor, enzyme or metabolite is required for a reaction does
+not establish that ordinary dietary intake controls that reaction, that greater
+intake increases flux, or that an intervention changes a phenome or clinical
+outcome. Preserve those as separate propositions and claim levels.
 
 ## Dietary input traceability (PM evidence)
 
@@ -66,15 +153,28 @@ Record downstream representation gaps in `system/mechanism-change-control-queue.
 | Layer | Location | Status |
 |-------|----------|--------|
 | Findings | `scientific_findings` in PM front matter | **durable source** |
+| §4.1 Introduction/Summary | `scientific_findings_intro` in PM front matter | **durable source** — reader-facing biology for this PM (requirements, boundaries); not evidence-system or page-architecture prose |
 | Dietary-input atoms | `dietary_input_traceability` in PM front matter (when populated) | **durable source** — see dietary-input-traceability-contract.md |
 | Finding → phenome links | `scientific_findings: [id]` on each `phenome_relationships` entry | **durable source** |
-| PM §5.1 body | generated by `npm run findings:sync` | generated |
-| PM §3 body | generated by `npm run phenome:sync` | generated |
+| PM Mechanistic Basis Finding subsection | generated by `npm run findings:sync` at canonical §4.1 or legacy §5.1 | generated |
+| PM Phenome Connections body | generated by `npm run phenome:sync` at canonical §5 or legacy §3 | generated |
 | FM §4.4 roll-up | generated by `scripts/populate-fm-evidence-highlights.mjs` from PM front matter | generated |
 | References | `static/bibtex/BRAIN-diet.bib` | **durable source** |
 
-Never hand-edit a generated section. `npm run findings:check` fails if §5.1 has
-drifted from front matter.
+Never hand-edit a generated section. `npm run findings:check` fails if either
+the Mechanistic Basis Finding subsection or the Phenome Connections body on a
+Findings-owned PM has drifted from front matter.
+
+For pages using the canonical PM order, the same generated layers are §4.1
+Scientific Findings and §5 Phenome Connections. Untouched pages may retain the
+legacy §5.1 / §3 positions; shared layout detection controls placement.
+
+Phenome freshness for Findings-owned pages is enforced by `npm run
+findings:check`. To repair a stale page, regenerate only the target file (`npm
+run phenome:sync -- --file <path> --pm-only`) and inspect the target-scoped
+change. Relationship Findings render fully only in their declared
+`primary_phenome`; other relationships reference the same Finding id and must
+not inline a duplicate evidence body.
 
 ## Cardinality
 
@@ -93,8 +193,11 @@ to any phenome attached to that PM.
 
 ```yaml
 scientific_findings:
-  - id: SF-PM8-1                      # SF-<PM>-<n>, unique within the page
+  - id: PM8-F1                        # PMn-Fm headline; PMn-ICk interpretive — unique on page
     finding_label: >-                 # required — human-readable title (Level 1–2 default)
+    presentation: mechanistic-basis   # mechanistic-basis | phenome-relationship | interpretive-constraint
+    primary_phenome: Emotional Regulation # required only for phenome-relationship presentation
+    fm_rollup: true                   # explicit FM §4.4 selection; omit/false means no roll-up
     finding_summary: >-               # recommended — plain-language opening (self-contained)
     finding_interpretation: >-        # optional — practitioner “What this means” / boundary
     finding_statement: >-             # required — the assessable proposition (Level 3 audit)
@@ -126,7 +229,11 @@ scientific_findings:
 
 ## Rules enforced by `validateScientificFindings`
 
-- Finding ids are unique and match `SF-<PM>-<n>`.
+- Finding ids are unique and match `PMn-Fm` (headline) or `PMn-ICk` (interpretive constraint).
+- Headline mechanistic Findings use `presentation: mechanistic-basis`; interpretive
+  constraints use `presentation: interpretive-constraint` (not headline Findings; render
+  at the point of inference they constrain — typically the referencing Phenome Connection
+  in §5, not automatically in §4.1).
 - `finding_statement`, `synthesis` and `synthesis_limitations` are present.
 - `synthesised_evidence_confidence` is `not-yet-scored`. There is no authorised
   mapping from legacy confidence values, and the confidence indicator must
@@ -139,10 +246,19 @@ scientific_findings:
 - A study may be primary Evidence Considered in more than one Finding when it
   bears on more than one proposition; reuse must be declared under Evidence
   Dependency so it cannot read as independent replication.
-
-## Legacy metadata
-
+- FM evidence selection is explicit: only non-interpretive Findings carrying
+  `fm_rollup: true` may enter FM §4.4. There is no declaration-order or
+  “first two Findings” fallback.
 `confidence`, `evidence_confidence`, `evidence_level` and `relationship_type` on
+## PM numbered references (presentation)
+
+Scientific references on PM pages prefer **numbered square-bracket citations** linked
+to the canonical `## 8. References` section (anchors `pm-ref-n`). Numbers are derived
+from the front matter `references` array order — not hand-typed in durable prose.
+Use `{{cite:citation_key,citation_key}}` in `phenome_relationships[].rationale`; sync
+resolves keys to display numbers. The same `citation_key` always maps to the same
+number on a given PM page.
+
 phenome relationships are **legacy** values on a different scale from
 Synthesised Evidence Confidence. Findings do not read, rescore or replace them.
 Where adjudication shows a legacy value is no longer adequate, record it in

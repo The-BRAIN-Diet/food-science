@@ -13,14 +13,9 @@ import {
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export const PROTECTED_POOL_LINES = {
-  BRS5_KC3_OMEGA3: "- Omega-3 fatty acids ← oily fish, algae, eggs",
   BRS1_SNP2_DHA: "- DHA ← salmon, sardines, omega-3 eggs",
 };
 
-const BRS5_KC3_FIXTURE = path.join(
-  __dirname,
-  "fixtures/retire-brs3-kc3-brs5-kc3-pool.fixture.mdx",
-);
 const BRS1_SNP2_FIXTURE = path.join(
   __dirname,
   "fixtures/retire-brs3-kc3-brs1-sm-snp2-pool.fixture.mdx",
@@ -34,14 +29,6 @@ function assertLinePresent(content, line, label) {
   );
 }
 
-test("BRS5(KC3) fixture keeps omega-3 pool line after MDX retirement transform", async () => {
-  const raw = await readFile(BRS5_KC3_FIXTURE, "utf8");
-  const { data, content } = matter(raw);
-  const { body } = transformMdxBody(content, { ...data });
-  assert.match(body, /Omega-3 fatty acids ← oily fish, algae, eggs/);
-  assert.doesNotMatch(body, /BRS3\(KC3\)/);
-});
-
 test("BRS1(SM-SNP2) fixture keeps DHA pool line after MDX retirement transform", async () => {
   const raw = await readFile(BRS1_SNP2_FIXTURE, "utf8");
   const { data, content } = matter(raw);
@@ -51,20 +38,16 @@ test("BRS1(SM-SNP2) fixture keeps DHA pool line after MDX retirement transform",
 });
 
 test("plain markdown transform does not strip protected substance←food pool lines", async () => {
-  const brs5 = await readFile(BRS5_KC3_FIXTURE, "utf8");
   const brs1 = await readFile(BRS1_SNP2_FIXTURE, "utf8");
-  const { content: brs5Body } = matter(brs5);
   const { content: brs1Body } = matter(brs1);
 
-  const brs5Result = transformPlainMarkdown(brs5Body);
   const brs1Result = transformPlainMarkdown(brs1Body);
 
-  assert.match(brs5Result.content, /Omega-3 fatty acids ← oily fish, algae, eggs/);
   assert.match(brs1Result.content, /DHA ← salmon, sardines, omega-3 eggs/);
 });
 
 test("stripKc3HubPanel413 does not touch arbitrary Shared Biological Pool sections", () => {
-  const poolOnly = `### 2. Shared Biological Pool\n\n${PROTECTED_POOL_LINES.BRS5_KC3_OMEGA3}\n`;
+  const poolOnly = "### 2. Shared Biological Pool\n\n- Example nutrient ← example food\n";
   assert.equal(stripKc3HubPanel413(poolOnly), poolOnly);
 });
 
@@ -89,17 +72,6 @@ test("§4.1.3 KC panel still strips BRS3(KC3) pool bullets when scoped", () => {
   assert.doesNotMatch(next, /BRS3\(KC3\)/);
   assert.doesNotMatch(next, /Omega-3 fatty acids ←/);
   assert.doesNotMatch(next, /DHA ← salmon, trout, algae/);
-});
-
-test("live BRS5(KC3) page retains protected omega-3 pool line", async () => {
-  const brs5 = await readFile(
-    path.join(
-      __dirname,
-      "../docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency.mdx",
-    ),
-    "utf8",
-  );
-  assertLinePresent(brs5, PROTECTED_POOL_LINES.BRS5_KC3_OMEGA3, "live BRS5(KC3)");
 });
 
 test("live BRS1(SM-SNP2) page retains protected DHA pool line", async () => {

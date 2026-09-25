@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-16T19:42:29.886Z",
-  "dry_run": false,
+  "generated_at": "2026-09-25T17:41:56.039Z",
+  "dry_run": true,
   "derivation": "PM → KC union per FM",
   "fms": [
     {
@@ -408,21 +408,17 @@
       "file": "docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface.mdx",
       "derived_kcs": [
         "BRS5(KC1)",
-        "BRS5(KC3)",
         "BRS5(KC2)"
       ],
       "rendered_kcs": [
         "BRS5(KC1)",
-        "BRS5(KC3)",
         "BRS5(KC2)"
       ],
       "fm_front_matter_kcs": [
-        "BRS5(KC1)",
-        "BRS5(KC3)"
+        "BRS5(KC1)"
       ],
       "section_4_3_kcs": [
-        "BRS5(KC1)",
-        "BRS5(KC3)"
+        "BRS5(KC1)"
       ],
       "written": false,
       "discrepancies": {
@@ -467,12 +463,10 @@
       "fm_id": "BRS5(FM3)",
       "file": "docs/biological-targets/brs5/fm3/brs5-fm3-gut-vagal-neuromodulation-and-ens-signalling.mdx",
       "derived_kcs": [
-        "BRS5(KC1)",
-        "BRS5(KC3)"
+        "BRS5(KC1)"
       ],
       "rendered_kcs": [
-        "BRS5(KC1)",
-        "BRS5(KC3)"
+        "BRS5(KC1)"
       ],
       "fm_front_matter_kcs": [
         "BRS5(KC1)"
@@ -483,7 +477,7 @@
       "written": false,
       "discrepancies": {
         "cited_in_4_3_missing_from_union": [],
-        "front_matter_not_equal_to_union": true,
+        "front_matter_not_equal_to_union": false,
         "unresolved_hrefs": [],
         "pms_missing_canonical_mapping": [],
         "missing_pm_pages": []

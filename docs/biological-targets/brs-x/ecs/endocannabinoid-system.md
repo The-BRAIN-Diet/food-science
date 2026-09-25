@@ -21,6 +21,29 @@ hide_title: true
 
 (Lipid-Mediated Neuromodulation & Stress Buffering)
 
+<!-- brs-hub-all-mechanisms:start -->
+<div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<div class="brs-fm-hub-group-summary-body">
+<p class="brs-fm-hub-group-heading">All Mechanisms of BRS-X-ECS</p>
+<ul class="brs-fm-hub-group-title-list">
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS-X(ECS-FM1) — Endocannabinoidome Signalling Capacity &amp; Neuromodulatory Regulation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-fm1-endocannabinoidome-signalling-capacity-and-neuromodulatory-regulation" aria-label="Open FM: BRS-X(ECS-FM1) — Endocannabinoidome Signalling Capacity &amp; Neuromodulatory Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<!-- brs-hub-all-mechanisms:end -->
+
 ## Ambition
 
 Maintain balanced endocannabinoid signalling so the brain can regulate neural homeostasis, stress adaptation, appetite, and neuroimmune communication across changing physiological demands.
@@ -152,9 +175,9 @@ Maintains endocannabinoidome signalling capacity by coordinating precursor avail
 
 **Connected mechanisms:**
 
-- [BRS1-FM3-PM6](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — fM3-PM6 context relevant to this mechanism
-- [BRS1(FM1)](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — bRS1(FM1) context relevant to this mechanism
-- [BRS6(FM2)](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation) — bRS6(FM2) context relevant to this mechanism
+- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — Classical NAPE → NAE biosynthesis from phospholipids
+- [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — monoaminergic Function
+- [BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation) — This PM integrates stress modulation, inflammation buffering, and glutamatergic regulation context — not isolated CB1/CB2 receptor biology. NAPE biosynthesis
 
 </div>
 </div>

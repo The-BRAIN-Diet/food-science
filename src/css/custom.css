@@ -94,6 +94,51 @@
   margin: 0 0 1rem 0;
 }
 
+.brs-overview-title-cards {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 0.35rem;
+  margin: 0 0 0.75rem 0;
+}
+
+.brs-overview-title-card-wrap {
+  display: block;
+  margin: 0;
+  width: 100%;
+  max-height: 4.25rem;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #000;
+  line-height: 0;
+}
+
+.brs-overview-title-card {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 4.25rem;
+  margin: 0;
+  object-fit: cover;
+  object-position: left top;
+}
+
+@media (max-width: 720px) {
+  .brs-overview-title-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.3rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+
+  .brs-overview-title-card-wrap {
+    flex: 0 0 42%;
+    min-width: 7.5rem;
+    max-width: 9.5rem;
+  }
+}
+
 .brs-overview-thumbnail-link,
 .brs-overview-x-thumbnail-link {
   line-height: 0;
@@ -101,6 +146,7 @@
 }
 
 .brs-overview-thumbnail-link:hover .brs-pm-thumbnail,
+.brs-overview-thumbnail-link:hover .brs-overview-title-card,
 .brs-overview-x-thumbnail-link:hover .brs-pm-thumbnail {
   opacity: 0.92;
 }
@@ -393,6 +439,27 @@
 
 .brs-fm-hub-group-toggle {
   margin-top: 0.15rem;
+}
+
+.brs-fm-hub-group-summary-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.brs-fm-hub-group-heading {
+  margin: 0.1rem 0 0.45rem;
+  font-weight: 650;
+  font-size: 0.98rem;
+  line-height: 1.35;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.brs-fm-hub-mechanism-index {
+  margin: 0.75rem 0 1.25rem;
+}
+
+.brs-fm-hub-mechanism-index .brs-fm-hub-group-summary-row {
+  padding: 0.15rem 0.15rem 0.25rem;
 }
 
 .brs-fm-hub-group-title-list {
@@ -726,6 +793,69 @@
   color: var(--ifm-color-emphasis-800);
 }
 
+.brs-pm-sop-derived {
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.brs-pm-sop-derived-intro {
+  margin: 0 0 0.85rem;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.brs-pm-sop-derived-item {
+  margin: 0 0 1rem;
+  padding: 0.75rem 0.85rem;
+  border-radius: 6px;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.brs-pm-sop-derived-headline,
+.brs-pm-sop-derived-authorship,
+.brs-pm-sop-derived-row {
+  margin: 0 0 0.55rem;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.brs-pm-sop-derived-k {
+  font-weight: 600;
+}
+
+.brs-pm-sop-derived-limitation {
+  color: var(--ifm-color-emphasis-800);
+}
+
+.brs-pm-sop-derived-references {
+  margin: 0.35rem 0 0;
+  padding-left: 1.25rem;
+  font-size: 0.88rem;
+}
+
+.brs-hub-optimisation-qualified-block {
+  margin-top: 0.65rem;
+  padding-top: 0.55rem;
+  border-top: 1px dashed var(--ifm-color-emphasis-300);
+}
+
+.brs-hub-optimisation-qualified,
+.brs-hub-optimisation-qualified-context,
+.brs-hub-optimisation-qualified-evidence,
+.brs-hub-optimisation-qualified-limitation,
+.brs-hub-optimisation-qualified-citations {
+  margin: 0 0 0.35rem;
+  font-size: 0.86rem;
+  line-height: 1.4;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.brs-hub-optimisation-qualified-label {
+  font-weight: 600;
+}
+
 .brs-hub-sop-categories {
   display: flex;
   flex-direction: column;
@@ -858,6 +988,83 @@
 
 .brs-fm-hub-panel[hidden] {
   display: none !important;
+}
+
+/* §3 dietary lever — compact label + evidence disclosure (PM8 exemplar) */
+.brs-dietary-lever-item {
+  list-style: inherit;
+}
+
+.brs-dietary-lever-trigger {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: var(--ifm-link-color);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.15em;
+  cursor: pointer;
+}
+
+.brs-dietary-lever-trigger:hover,
+.brs-dietary-lever-trigger:focus-visible {
+  text-decoration-style: solid;
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+.brs-dietary-lever-foods {
+  color: inherit;
+}
+
+.brs-dietary-lever-qualifier {
+  margin-left: 0.35rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.88em;
+}
+
+.brs-dietary-lever-detail {
+  margin: 0.5rem 0 0.75rem 0.75rem;
+  padding: 0.65rem 0.85rem;
+  max-width: 36rem;
+  border-left: 3px solid var(--ifm-color-primary);
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.brs-dietary-lever-detail[hidden] {
+  display: none !important;
+}
+
+.brs-dietary-lever-detail-inner p {
+  margin: 0.35rem 0;
+}
+
+.brs-dietary-lever-detail-title {
+  font-weight: 600;
+  margin-bottom: 0.5rem !important;
+}
+
+.brs-dietary-lever-detail-k {
+  display: inline;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.brs-dietary-lever-detail-evidence a {
+  font-weight: 600;
+}
+
+.brs-dietary-lever-detail-references a {
+  white-space: normal;
 }
 
 /* Medium hero on individual BRS hub pages */

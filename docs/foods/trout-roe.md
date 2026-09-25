@@ -28,7 +28,7 @@ nutrition_per_100g:
   vitamin_b6_mg: 0.16
   folate_ug: 80
   choline_mg: 335.4
-  vitamin_b12_ug: 17
+  vitamin_b12_ug: 10
   sat_fat_g: 1.456
   epa_mg: 983
   dha_mg: 1363
@@ -45,13 +45,11 @@ omega3_components:
     identity: 22:5 n-3 (DPA)
     amount_mg: 82
 nutrition_source:
-  database: USDA FoodData Central (proxy) + literature
+  database: USDA FoodData Central (proxy)
   food_name: >-
-    Trout roe — compositional proxy: Fish, roe, mixed species, raw (FDC 175132);
-    B12 rounded to typical salmonid-roe range until a trout-specific FDC record
-    is adopted.
+    Trout roe — compositional proxy: Fish, roe, mixed species, raw (FDC 175132).
   fdc_id: 175132
-  retrieval_method: API + manual B12 alignment
+  retrieval_method: USDA SR Legacy composition record
   basis: per 100 g edible portion
   last_checked: '2026-03-14'
 nutrition_supplementary_sources:

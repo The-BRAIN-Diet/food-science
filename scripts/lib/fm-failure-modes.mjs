@@ -17,11 +17,11 @@ export const FM_FAILURE_OVERRIDES = {
   ...FM_FAILURE_43_OVERRIDES,
   "BRS5(FM1)": `### 4.3 Suboptimal Function & Its Effects
 
-Gut barrier integrity may weaken when fermentable substrate availability declines, barrier-supportive nutrient sufficiency is inadequate, keystone taxa support is reduced, or endotoxin containment becomes compromised.
+Gut barrier integrity may weaken when fermentable substrate availability declines, epithelial maintenance is impaired, keystone taxa support is reduced, or endotoxin containment becomes compromised.
 
 Low-fibre and low-plant-diversity dietary patterns may reduce [BRS5(KC1) — Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability), limiting microbial fermentation and short-chain fatty acid generation. Ultra-processed diets may further displace fermentable whole-food substrates, while repeated low intake of resistant starch and soluble fibre classes may reduce the consistency of microbial substrate delivery.
 
-Low zinc, omega-3, and vitamin-A-supportive dietary patterns may strain [BRS5(KC3) — Barrier-Supportive Nutrient Sufficiency](/docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency), while chronic alcohol, emulsifier-heavy, or ultra-processed exposures and inflammatory burden may increase barrier vulnerability.
+Vitamin A or zinc insufficiency and glutamine depletion during catabolic stress may strain epithelial maintenance represented by [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity), while chronic alcohol, emulsifier-heavy, or ultra-processed exposures and inflammatory burden may increase barrier vulnerability. Omega-3 evidence remains a modulation context rather than a shared nutritional bottleneck.
 
 These pressures may impair [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity), weaken [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment), and reduce the ecological support described by [BRS5-FM1-PM3 — Keystone Taxa Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support). At the FM level, this may shift the system toward weaker epithelial containment, increased immune activation, and greater gut-derived inflammatory signalling.`,
 };
@@ -84,13 +84,6 @@ export const KC_STRESSOR_ARCHIVE = {
     "repetitive ultra-processed food patterns with narrow botanical exposure",
     "lack of herbs, spices, legumes, and whole grains",
     "ecological monotony reducing microbial redundancy",
-  ],
-  "BRS5(KC3)": [
-    "low zinc, omega-3, and vitamin-A-supportive dietary patterns",
-    "inadequate protein quality or quantity where barrier repair is under strain",
-    "chronic alcohol, emulsifier-heavy, or ultra-processed exposures",
-    "inflammatory burden increasing barrier vulnerability",
-    "persistent low-fibre intake reducing synergy with microbial barrier support",
   ],
   "BRS6(KC1)": [
     "refined high-glycaemic carbohydrate loads without buffering macronutrients",

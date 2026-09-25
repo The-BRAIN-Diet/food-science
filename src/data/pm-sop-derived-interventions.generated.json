@@ -1,0 +1,38 @@
+{
+  "byPmId": {
+    "BRS1-FM4-PM8": [
+      {
+        "intervention_id": "structured-ketogenic-approaches",
+        "author_brs_id": "BRS4",
+        "category_id": "dietary_protocols",
+        "category_title": "Dietary & Fasting Protocols",
+        "author_hub_href": "/docs/biological-targets/mitochondrial-function-bioenergetics",
+        "action": "Consider structured ketogenic approaches only in specific clinical contexts",
+        "explanation": "to increase reliance on ketone metabolism and fuel-adaptation pathways where clinically indicated; not a general population recommendation.",
+        "presentation_role": "upstream_metabolic_intervention",
+        "is_direct_dietary_lever": false,
+        "context": "Downstream cross-BRS relationship through altered ketone/substrate metabolism and carbon contribution to GABA formation.",
+        "evidence": {
+          "status": "candidate",
+          "level": "preclinical-mechanistic",
+          "limitation": "No demonstrated human GAD-activity or GABA synthesis-flux effect; human concentration evidence is inconsistent.",
+          "references": [
+            {
+              "citation_key": "erecinska_regulation_1996",
+              "label": "Erecińska et al. 1996 — Regulation of GABA level in rat brain synaptosomes: fluxes through enzymes of the GABA shunt and effects of glutamate, calcium, and ketone bodies",
+              "href": "/docs/papers/BRAIN-Diet-References#erecinska_regulation_1996"
+            },
+            {
+              "citation_key": "zhang_decreased_carbon_2015",
+              "label": "Zhang et al. 2015 — Decreased carbon shunting from glucose toward oxidative metabolism in diet-induced ketotic rat brain",
+              "href": "/docs/papers/BRAIN-Diet-References#zhang_decreased_carbon_2015"
+            }
+          ]
+        },
+        "target_pm_id": "BRS1-FM4-PM8",
+        "target_pm_href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
+      }
+    ]
+  },
+  "generated_at": "2026-09-24T20:08:32.311Z"
+}

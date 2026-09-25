@@ -1769,7 +1769,7 @@ export const RECIPE_COMPOSITION_SNAPSHOTS = {
     "description": "Sauce, ready-to-serve, pepper, TABASCO",
     "database": "USDA FoodData Central SR Legacy (April 2018)",
     "basis": "per 100 g edible portion",
-    "note": "Tabasco-style fermented pepper sauce. The Fermented Hot Sauce food page currently carries a fermented-tofu record and must not be used for composition.",
+    "note": "Tabasco-style fermented pepper sauce snapshot for recipes that do not use the canonical Fermented Hot Sauce food page.",
     "nutrition_per_100g": {
       "fat_g": 0.76,
       "carbs_g": 0.8,
