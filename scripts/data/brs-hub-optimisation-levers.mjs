@@ -5,7 +5,25 @@
  * @see system/brs-hub-levers-schema.md
  */
 
-/** @typedef {{ action: string, explanation: string, match_optimisation?: RegExp[], match_pm_ids?: string[], fm_note?: string }} OptimisationLeverDef */
+/**
+ * @typedef {{
+ *   id?: string,
+ *   action: string,
+ *   explanation: string,
+ *   match_optimisation?: RegExp[],
+ *   match_pm_ids?: string[],
+ *   relationships?: Array<{
+ *     target_pm_id: string,
+ *     context?: string,
+ *     evidence?: {
+ *       status?: string,
+ *       level?: string,
+ *       citation_keys?: string[],
+ *       limitation?: string,
+ *     },
+ *   }>,
+ *   fm_note?: string,
+ * }} OptimisationLeverDef */
 
 /** @typedef {'food_prep' | 'dietary_protocols' | 'conditional_supplementation' | 'light_circadian' | 'stress_autonomic'} SopCategoryId */
 
@@ -209,10 +227,27 @@ export const HUB_OPTIMISATION_LEVERS = {
         match_pm_ids: ["BRS4-FM3-PM8"],
       },
       {
+        id: "structured-ketogenic-approaches",
         action: "Consider structured ketogenic approaches only in specific clinical contexts",
         explanation:
           "to increase reliance on ketone metabolism and fuel-adaptation pathways where clinically indicated; not a general population recommendation.",
         match_pm_ids: ["BRS4-FM3-PM8", "BRS4-FM3-PM7"],
+        relationships: [
+          { target_pm_id: "BRS4-FM3-PM7" },
+          { target_pm_id: "BRS4-FM3-PM8" },
+          {
+            target_pm_id: "BRS1-FM4-PM8",
+            context:
+              "Downstream cross-BRS relationship through altered ketone/substrate metabolism and carbon contribution to GABA formation.",
+            evidence: {
+              status: "candidate",
+              level: "preclinical-mechanistic",
+              citation_keys: ["erecinska_regulation_1996", "zhang_decreased_carbon_2015"],
+              limitation:
+                "No demonstrated human GAD-activity or GABA synthesis-flux effect; human concentration evidence is inconsistent.",
+            },
+          },
+        ],
       },
     ],
     // Conditional Supplementation is primarily populated from KC §4 Emerging Biological Supports.

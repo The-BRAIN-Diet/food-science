@@ -15,13 +15,13 @@ Applies to **PM**, **FM**, **SM**, and **KC** pages under `docs/biological-targe
 
 **Sections should never begin by restating the title or definition.**
 
-Each section must follow **only** the schema role for that section (Definition, Primary Biological Effects, Phenome Connections, Mechanistic Basis, Dietary Levers, Connected Mechanisms, etc.). Do not open a section with boilerplate that repeats what the heading or a prior section already established.
+Each section must follow **only** the schema role for that section (Definition, Primary Biological Effects, Phenome Connections, Mechanistic Basis, Dietary Requirements, Connected Mechanisms, etc.). Do not open a section with boilerplate that repeats what the heading or a prior section already established.
 
 ### Do not use as section openers
 
 - Restating the page title or entity ID (e.g. `BRS1(SM-CROSS1) is…`, `BRS6-FM2-PM5 describes…`)
 - Restating the **BRS name or number** (e.g. `BRS1 — Neurotransmitter Regulation…`, `Within BRS2…`) when the page is already scoped to that BRS
-- Paraphrasing the **Definition** section at the start of Primary Biological Effects, Mechanistic Basis, Dietary Levers, or §5.5
+- Paraphrasing the **Definition** section at the start of Primary Biological Effects, Mechanistic Basis, Dietary Requirements, or §5.5
 - Generic filler (`This section covers…`, `The following describes…`)
 
 ### Allowed
@@ -61,7 +61,7 @@ After front matter, each mechanism page opens with:
 | **Primary Biological Effects (§2)** | Directional ↑/↓ summary only |
 | **Mechanistic Basis (PM)** | **Summary → primary mechanism → boundaries → integration** (see below); link PMs/KCs/citations; do not re-define the entity |
 | **Intervention Summary (PM §3)** | Intervention Profile + lever tiers with evidence tags — not mechanism definition |
-| **Dietary / Lifestyle Levers** | Pattern → Nutrients → Biology → Target Foods — only after §1 establishes why the mechanism matters |
+| **Dietary Requirements / Lifestyle Levers** | Pattern → Nutrients → Biology → Target Foods — only after §1 establishes why the mechanism matters |
 | **§5.5 Connected Mechanisms** | Cross-domain placement prose + PM links — not a second Definition |
 
 ## PM Mechanistic Basis — canonical structure
@@ -249,19 +249,19 @@ Examples:
 
 Source: `scripts/data/mechanism-functional-descriptors.mjs`; `npm run mechanisms:apply-functional-descriptors`.
 
-## PM §4 — Dietary levers framing
+## PM §3 — Dietary Requirements framing
 
-**§4.1 Dietary Levers** must never be the first place that explains why foods matter.
+**§3.1 Dietary Requirements** must never be the first place that explains why foods matter.
 
-Before opening 4.1, readers should already understand from §1 Overview:
+Before opening 3.1, readers should already understand from §1 Overview:
 
 - the biological function;
 - the regulatory purpose;
 - the mechanism being supported.
 
-Within **4.1**, use **Pattern → Nutrients → Biology → Target Foods** (substance ← food bullets per `system/substance-food-mapping-format.md`). Hub Dietary Guidance follows the same frame (`system/brs-hub-levers-schema.md`).
+Within **3.1**, distinguish Direct vs Derived dietary relationships, then the biochemical cofactor/substrate inventory, then Key Constraints. Use **Pattern → Nutrients → Biology → Target Foods** (substance ← food bullets per `system/substance-food-mapping-format.md`) only where food mapping is evidence-supported. Hub Dietary Guidance follows the same frame (`system/brs-hub-levers-schema.md`). Untouched PMs may still use the former Dietary Levers headings.
 
-**§4.2 System Optimisation** and **§4.3 Lifestyle** build on the same biological framing — they do not re-introduce why the mechanism exists.
+**§3.2 System Optimisation** and **§3.3 Lifestyle** build on the same biological framing — they do not re-introduce why the mechanism exists.
 
 ## PM UX progression
 
@@ -269,9 +269,9 @@ PM pages should progressively answer:
 
 1. **What** is this mechanism? — title + functional descriptor
 2. **Why** does it matter? — Mission + Overview (paragraph + bullets)
-3. **How** can diet and lifestyle support it? — §4
-4. **What** foods are most relevant? — §4.1.1–4.1.3
-5. **What** evidence supports these relationships? — §3; §5; §5.1
+3. **How** can diet and lifestyle support it? — §3 (legacy §4)
+4. **What** dietary relationships apply? — §3.1.1–3.1.3
+5. **What** evidence supports these relationships? — §4; §4.1; §5
 
 **Avoid:** repetitive introductions; repeating the PM title in Mission or Overview; specialist concepts before glossing; isolated molecules, biomarkers, or microbial species when a **biological capacity** frame is clearer.
 

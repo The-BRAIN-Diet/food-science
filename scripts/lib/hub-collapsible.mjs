@@ -143,6 +143,43 @@ ${childrenHtml}
 </div>`;
 }
 
+/**
+ * Copy of the Functional Mechanisms parent dropdown with an in-box heading.
+ * @param {Array<string|{ title: string, openHref?: string, openLabel?: string, openAriaLabel?: string, focusChildIndex?: number }>} titleItems
+ * @param {string} heading
+ * @param {string} childrenHtml
+ */
+export function renderHubMechanismIndex(titleItems, heading, childrenHtml = "") {
+  const items = Array.isArray(titleItems) ? titleItems : [];
+  const listItems = items.map((item, index) => renderGroupTitleItem(item, index)).join("\n");
+  const title = String(heading || "").trim();
+  const children = String(childrenHtml || "").trim();
+  const headingHtml = title
+    ? `<p class="brs-fm-hub-group-heading">${escapeHtmlText(title)}</p>\n`
+    : "";
+
+  return `<div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index" ${HUB_COLLAPSIBLE_ATTR}>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand ${escapeHtmlAttr(title || "all mechanisms")}">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<div class="brs-fm-hub-group-summary-body">
+${headingHtml}<ul class="brs-fm-hub-group-title-list">
+${listItems}
+</ul>
+</div>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
+${children}
+</div>
+</div>
+</div>
+</div>`;
+}
+
 /** Find innermost <details> blocks (body contains no nested <details>). */
 function findInnermostDetailsBlocks(content) {
   const openRe = /<details>\s*\n<summary><strong>([^<]+)<\/strong><\/summary>\s*\n/g;

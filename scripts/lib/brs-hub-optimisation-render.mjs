@@ -12,6 +12,7 @@ import {
 } from "../data/brs-hub-optimisation-levers.mjs";
 import { listPmMdxFiles, parsePmMeta } from "./brs-hub-levers.mjs";
 import { collectEmergingSupportsForBrs } from "./kc-emerging-supports.mjs";
+import { resolveLeverItem } from "./hub-optimisation-interventions.mjs";
 
 function escapeHtml(text) {
   return String(text || "").replace(/</g, "&lt;");
@@ -44,13 +45,59 @@ function renderKcTags(sourceKcs) {
   return ` <span class="brs-hub-lever-pms">${tags}</span>`;
 }
 
+function renderQualifiedRelationship(rel) {
+  const parts = [];
+  const pmLink = rel.target_pm
+    ? `<a href="${rel.target_pm.href}" class="brs-hub-lever-pm">${escapeHtml(rel.target_pm_id)}</a>`
+    : escapeHtml(rel.target_pm_id);
+  parts.push(
+    `<p class="brs-hub-optimisation-qualified"><span class="brs-hub-optimisation-qualified-label">Cross-BRS relationship:</span> ${pmLink}</p>`,
+  );
+  if (rel.context) {
+    parts.push(
+      `<p class="brs-hub-optimisation-qualified-context"><span class="brs-hub-optimisation-qualified-label">Context:</span> ${escapeHtml(rel.context)}</p>`,
+    );
+  }
+  if (rel.evidence) {
+    const meta = [rel.evidence.status, rel.evidence.level].filter(Boolean).join(" · ");
+    if (meta) {
+      parts.push(
+        `<p class="brs-hub-optimisation-qualified-evidence"><span class="brs-hub-optimisation-qualified-label">Evidence:</span> ${escapeHtml(meta)}</p>`,
+      );
+    }
+    if (rel.evidence.limitation) {
+      parts.push(
+        `<p class="brs-hub-optimisation-qualified-limitation"><span class="brs-hub-optimisation-qualified-label">Limitation:</span> ${escapeHtml(rel.evidence.limitation)}</p>`,
+      );
+    }
+    if (rel.evidence.citation_keys?.length) {
+      const cites = rel.evidence.citation_keys
+        .map(
+          (key) =>
+            `<a href="/docs/papers/BRAIN-Diet-References#${escapeHtml(key)}" class="brs-hub-lever-pm">${escapeHtml(key)}</a>`,
+        )
+        .join(" ");
+      parts.push(
+        `<p class="brs-hub-optimisation-qualified-citations"><span class="brs-hub-optimisation-qualified-label">Citations:</span> ${cites}</p>`,
+      );
+    }
+  }
+  return parts.join("");
+}
+
 function renderOptimisationItem(item) {
   const body = `<p class="brs-hub-optimisation-text"><strong>${escapeHtml(item.action)}</strong> ${escapeHtml(item.explanation)}</p>`;
   const supportTags = `${renderKcTags(item.source_kcs)}${renderPmTags(item.source_pms)}`;
   const supports = supportTags.trim()
     ? `<p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span>${supportTags}</p>`
     : "";
-  return `<li class="brs-hub-optimisation-lever">${body}${supports}</li>`;
+  const qualified = (item.qualified_relationships || [])
+    .map(renderQualifiedRelationship)
+    .join("");
+  const qualifiedBlock = qualified
+    ? `<div class="brs-hub-optimisation-qualified-block">${qualified}</div>`
+    : "";
+  return `<li class="brs-hub-optimisation-lever">${body}${supports}${qualifiedBlock}</li>`;
 }
 
 function buildPmIndex(rootDir) {
@@ -68,14 +115,7 @@ function buildPmIndex(rootDir) {
  * @param {Map<string, { id: string, href: string }>} pmIndex
  */
 function resolveItems(curated, pmIndex) {
-  return (curated || []).map((lever) => ({
-    action: lever.action,
-    explanation: lever.explanation,
-    source_pms: (lever.match_pm_ids || [])
-      .map((id) => pmIndex.get(id))
-      .filter(Boolean),
-    source_kcs: [],
-  }));
+  return (curated || []).map((lever) => resolveLeverItem(lever, pmIndex));
 }
 
 function substanceKey(actionOrName) {
@@ -136,6 +176,10 @@ function mergeConditionalSupplementation(brsId, rootDir, curatedItems) {
         source_kcs: [
           ...existing.source_kcs,
           ...item.source_kcs.filter((kc) => !kcIds.has(kc.id)),
+        ],
+        qualified_relationships: [
+          ...(existing.qualified_relationships || []),
+          ...(item.qualified_relationships || []),
         ],
       });
     } else {

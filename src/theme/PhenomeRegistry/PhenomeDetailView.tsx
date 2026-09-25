@@ -203,8 +203,8 @@ function PhenomeEvidenceBlock({
       <h3>Foundational Evidence</h3>
       <p className={styles.evidenceSectionIntro}>
         Registry-level <strong>Phenome Evidence Confidence</strong> (below) is independent of
-        Biology → Phenome Confidence and Evidence Confidence on individual mechanism pages. Use the
-        scoring guide for definitions of all three scores.
+        Biology → Phenome Relationship Strength and Evidence Confidence on individual mechanism
+        pages. Use the scoring guide for definitions of all three scores.
       </p>
       <PhenomeScoringKey defaultExpanded />
       <PhenomeEvidenceConfidence

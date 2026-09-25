@@ -22,6 +22,229 @@ hide_title: true
 
 (Cellular Energy, Mitochondrial Resilience & Fuel Flexibility)
 
+<!-- brs-hub-all-mechanisms:start -->
+<div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand All Mechanisms of BRS4">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<div class="brs-fm-hub-group-summary-body">
+<p class="brs-fm-hub-group-heading">All Mechanisms of BRS4</p>
+<ul class="brs-fm-hub-group-title-list">
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS4(FM1) — Cellular Bioenergetics</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics" aria-label="Open FM: BRS4(FM1) — Cellular Bioenergetics">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS4(FM2) — Mitochondrial Resilience &amp; Redox Stability</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability" aria-label="Open FM: BRS4(FM2) — Mitochondrial Resilience &amp; Redox Stability">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS4(FM3) — Substrate Utilisation Flexibility</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs4/fm3/brs4-fm3-substrate-utilisation-flexibility" aria-label="Open FM: BRS4(FM3) — Substrate Utilisation Flexibility">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS4(FM4) — Mitochondrial Capacity Expansion &amp; Adaptation</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation" aria-label="Open FM: BRS4(FM4) — Mitochondrial Capacity Expansion &amp; Adaptation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+</ul>
+</div>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS4(FM1) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS4(FM1) — Cellular Bioenergetics</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics" aria-label="Open FM: BRS4(FM1) — Cellular Bioenergetics">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function">BRS4-FM1-PM1 — Electron Transport Chain Function</a></li>
+  <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism">BRS4-FM1-PM2 — NAD⁺ Metabolism</a></li>
+  <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer">BRS4-FM1-PM3 — Creatine–Phosphocreatine Energy Buffering</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains cellular bioenergetic capacity through mitochondrial ATP production, electron transport efficiency, NAD+-linked redox metabolism, and high-demand energy buffering.
+
+**FM page:** [BRS4(FM1) — Cellular Bioenergetics](/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics)
+
+**Primary biological effects:** ↑ ATP availability; ↑ cellular energy output
+
+**Modulation context:** Intervention: Food-State Leaning · Timing-specific: Yes · Coverage: Daily
+
+**Key constraints:**
+
+- [BRS4(KC1) — Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability)
+- [BRS4(KC2) — Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS2-FM1-PM4 - Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) — One-carbon and methylation-related metabolism intersect with redox handling; methionine-cycle flux
+- [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — biological connection relevant to this mechanism
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS4(FM2) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS4(FM2) — Mitochondrial Resilience & Redox Stability</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability" aria-label="Open FM: BRS4(FM2) — Mitochondrial Resilience & Redox Stability">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control">BRS4-FM2-PM4 — ROS Production and Control</a></li>
+  <li><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity">BRS4-FM2-PM5 — Mitochondrial Protection (Redox Integrity)</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains mitochondrial resilience and redox stability by protecting membrane integrity and limiting oxidative damage under metabolic strain.
+
+**FM page:** [BRS4(FM2) — Mitochondrial Resilience & Redox Stability](/docs/biological-targets/brs4/fm2/brs4-fm2-mitochondrial-resilience-and-redox-stability)
+
+**Primary biological effects:** ↑ mitochondrial resilience; ↓ oxidative burden
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Key constraints:**
+
+- [BRS4(KC2) — Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) — rOS Generation vs Clearance Balance
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS4(FM3) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS4(FM3) — Substrate Utilisation Flexibility</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs4/fm3/brs4-fm3-substrate-utilisation-flexibility" aria-label="Open FM: BRS4(FM3) — Substrate Utilisation Flexibility">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport">BRS4-FM3-PM6 — Carnitine-Mediated Fat Transport</a></li>
+  <li><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity">BRS4-FM3-PM7 — Ketone Utilisation Capacity</a></li>
+  <li><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching">BRS4-FM3-PM8 — Metabolic Fuel Switching</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains substrate utilisation flexibility by enabling efficient transitions between glucose, fatty-acid, ketone, and mixed-fuel metabolism.
+
+**FM page:** [BRS4(FM3) — Substrate Utilisation Flexibility](/docs/biological-targets/brs4/fm3/brs4-fm3-substrate-utilisation-flexibility)
+
+**Primary biological effects:** ↑ fatty-acid oxidation flexibility; ↑ ketone utilisation capacity; ↑ metabolic fuel switching; ↑ metabolic adaptability
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Key constraints:**
+
+- [BRS4(KC1) — Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability)
+- [BRS4(KC2) — Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
+- [BRS4-FM1-PM2 - NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism) — nAD⁺ Metabolism
+- [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — biological connection relevant to this mechanism
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS4(FM4) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS4(FM4) — Mitochondrial Capacity Expansion & Adaptation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation" aria-label="Open FM: BRS4(FM4) — Mitochondrial Capacity Expansion & Adaptation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis">BRS4-FM4-PM9 — Mitochondrial Biogenesis</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains mitochondrial capacity expansion and adaptation through biogenesis and density remodeling with permissive substrate and cofactor support.
+
+**FM page:** [BRS4(FM4) — Mitochondrial Capacity Expansion & Adaptation](/docs/biological-targets/brs4/fm4/brs4-fm4-mitochondrial-capacity-expansion-and-adaptation)
+
+**Primary biological effects:** ↑ mitochondrial density; ↑ long-term energy capacity; ↑ adaptive energetic reserve
+
+**Modulation context:** Intervention: Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Weekly
+
+**Key constraints:**
+
+- [BRS4(KC1) — Macronutrient Substrate Availability](/docs/biological-targets/brs4/kc/brs4-kc1-macronutrient-substrate-availability)
+- [BRS4(KC2) — Mitochondrial Cofactor Sufficiency](/docs/biological-targets/brs4/kc/brs4-kc2-mitochondrial-cofactor-sufficiency)
+
+**Connected mechanisms:**
+
+- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
+- [BRS4-FM1-PM3 - Creatine–Phosphocreatine Energy Buffering](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer) — creatine–phosphocreatine energy buffering
+- [BRS4-FM3-PM8 - Metabolic Fuel Switching](/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching) — metabolic Fuel Switching
+- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — glucose Appearance Kinetics
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- brs-hub-all-mechanisms:end -->
+
 ## Ambition
 
 Maintain efficient mitochondrial energy production, fuel flexibility, and organelle resilience so the brain sustains cognitive performance, adapts to varying metabolic demands, and recovers from oxidative and energetic strain without accumulating bioenergetic debt.
@@ -206,7 +429,7 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 <p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
 <ul class="brs-hub-lever-list brs-hub-optimisation-list">
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider structured time-restricted eating windows where appropriate</strong> to provide periodic exposure to alternative fuel-utilisation pathways that support metabolic fuel switching.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></p></li>
-<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider structured ketogenic approaches only in specific clinical contexts</strong> to increase reliance on ketone metabolism and fuel-adaptation pathways where clinically indicated; not a general population recommendation.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider structured ketogenic approaches only in specific clinical contexts</strong> to increase reliance on ketone metabolism and fuel-adaptation pathways where clinically indicated; not a general population recommendation.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></p><div class="brs-hub-optimisation-qualified-block"><p class="brs-hub-optimisation-qualified"><span class="brs-hub-optimisation-qualified-label">Cross-BRS relationship:</span> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM8</a></p><p class="brs-hub-optimisation-qualified-context"><span class="brs-hub-optimisation-qualified-label">Context:</span> Downstream cross-BRS relationship through altered ketone/substrate metabolism and carbon contribution to GABA formation.</p><p class="brs-hub-optimisation-qualified-evidence"><span class="brs-hub-optimisation-qualified-label">Evidence:</span> candidate · preclinical-mechanistic</p><p class="brs-hub-optimisation-qualified-limitation"><span class="brs-hub-optimisation-qualified-label">Limitation:</span> No demonstrated human GAD-activity or GABA synthesis-flux effect; human concentration evidence is inconsistent.</p><p class="brs-hub-optimisation-qualified-citations"><span class="brs-hub-optimisation-qualified-label">Citations:</span> <a href="/docs/papers/BRAIN-Diet-References#erecinska_regulation_1996" class="brs-hub-lever-pm">erecinska_regulation_1996</a> <a href="/docs/papers/BRAIN-Diet-References#zhang_decreased_carbon_2015" class="brs-hub-lever-pm">zhang_decreased_carbon_2015</a></p></div></li>
 </ul>
 </div>
 </div>
@@ -353,7 +576,7 @@ Maintains cellular bioenergetic capacity through mitochondrial ATP production, e
 
 **Connected mechanisms:**
 
-- [BRS2-FM1-PM4 - Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) — fM1-PM4 - Methionine Cycle Flux context relevant to this mechanism
+- [BRS2-FM1-PM4 - Methionine Cycle Flux](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) — One-carbon and methylation-related metabolism intersect with redox handling; methionine-cycle flux
 - [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — biological connection relevant to this mechanism
 
 </div>
@@ -393,7 +616,7 @@ Maintains mitochondrial resilience and redox stability by protecting membrane in
 
 **Connected mechanisms:**
 
-- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) — fM2-PM4 - ROS Generation vs Clearance Balance context relevant to this mechanism
+- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) — rOS Generation vs Clearance Balance
 
 </div>
 </div>
@@ -434,8 +657,8 @@ Maintains substrate utilisation flexibility by enabling efficient transitions be
 
 **Connected mechanisms:**
 
-- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — fM1-PM1 - Electron Transport Chain Function context relevant to this mechanism
-- [BRS4-FM1-PM2 - NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism) — fM1-PM2 - NAD⁺ Metabolism context relevant to this mechanism
+- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
+- [BRS4-FM1-PM2 - NAD⁺ Metabolism](/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism) — nAD⁺ Metabolism
 - [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — biological connection relevant to this mechanism
 
 </div>
@@ -475,21 +698,22 @@ Maintains mitochondrial capacity expansion and adaptation through biogenesis and
 
 **Connected mechanisms:**
 
-- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — fM1-PM1 - Electron Transport Chain Function context relevant to this mechanism
-- [BRS4-FM1-PM3 - Creatine–Phosphocreatine Energy Buffering](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer) — fM1-PM3 - Creatine–phosphocreatine energy buffering context relevant to this mechanism
-- [BRS4-FM3-PM8 - Metabolic Fuel Switching](/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching) — fM3-PM8 - Metabolic Fuel Switching context relevant to this mechanism
-- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — fM1-PM1 - Glucose Appearance Kinetics context relevant to this mechanism
+- [BRS4-FM1-PM1 - Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
+- [BRS4-FM1-PM3 - Creatine–Phosphocreatine Energy Buffering](/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer) — creatine–phosphocreatine energy buffering
+- [BRS4-FM3-PM8 - Metabolic Fuel Switching](/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching) — metabolic Fuel Switching
+- [BRS6-FM1-PM1 - Glucose Appearance Kinetics](/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics) — glucose Appearance Kinetics
 
 </div>
 </div>
 </div>
 
+
 </div>
 </div>
 </div>
 </div>
 
-<!-- brs-hub-cross-integration:start -->
+
 ## Cross-BRS Dependencies
 
 <p>Bioenergetic reserve is seldom measured directly; its erosion is often recognised first through attention lapses, cognitive stamina or neurotransmitter instability. Mitochondrial capacity, substrate flexibility and oxidative resilience set the energetic ceiling beneath which every other regulatory system must operate. When that reserve thins, downstream signalling and recovery falter even when neurotransmitter pathways appear biochemically intact.</p>

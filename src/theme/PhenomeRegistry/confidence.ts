@@ -20,5 +20,5 @@ export function formatMechanismConfidenceMeta(
 ): string {
   const biology = formatPhenomeEvidenceConfidence(biologyConfidence) ?? 'Not scored';
   const evidence = formatPhenomeEvidenceConfidence(evidenceConfidence) ?? 'Not scored';
-  return `${relationshipType} · Biology → Phenome: ${biology} · Evidence: ${evidence}`;
+  return `${relationshipType} · Relationship Strength: ${biology} · Evidence: ${evidence}`;
 }

@@ -15,61 +15,58 @@ sidebar_position: 5
 
 The BRAIN Framework was developed from research into ADHD, depression, anxiety, cognitive decline, and other brain-related disorders. Across these conditions, studies have repeatedly identified associations within six broad biological domains: neurotransmitter regulation, methylation, inflammation and oxidative stress, bioenergetics, gut–brain signalling, and metabolic regulation.
 
-<div class="brs-overview-thumbnails">
-  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/neurotransmitter-regulation">
-    <p class="brs-pm-thumbnail-wrap">
+<div class="brs-overview-title-cards">
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/neurotransmitter-regulation" aria-label="Open BRS1 — Neurotransmitter Regulation">
+    <p class="brs-overview-title-card-wrap">
       <img
-        src="/img/biological-targets/brs1-portrait-thumbnail.png"
+        src="/img/biological-targets/brs1-title-card.png"
         alt="BRS1 — Neurotransmitter Regulation"
-        class="brs-pm-thumbnail"
+        class="brs-overview-title-card"
       />
     </p>
   </a>
-  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/methylation-one-carbon-metabolism">
-    <p class="brs-pm-thumbnail-wrap">
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/methylation-one-carbon-metabolism" aria-label="Open BRS2 — Methylation & One-Carbon Metabolism">
+    <p class="brs-overview-title-card-wrap">
       <img
-        src="/img/biological-targets/brs2-portrait-thumbnail.png"
+        src="/img/biological-targets/brs2-title-card.png"
         alt="BRS2 — Methylation & One-Carbon Metabolism"
-        class="brs-pm-thumbnail"
+        class="brs-overview-title-card"
       />
     </p>
   </a>
-  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/inflammation-oxidative-stress">
-    <p class="brs-pm-thumbnail-wrap">
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/inflammation-oxidative-stress" aria-label="Open BRS3 — Inflammation & Oxidative Stress">
+    <p class="brs-overview-title-card-wrap">
       <img
-        src="/img/biological-targets/brs3-portrait-thumbnail.png"
+        src="/img/biological-targets/brs3-title-card.png"
         alt="BRS3 — Inflammation & Oxidative Stress"
-        class="brs-pm-thumbnail"
+        class="brs-overview-title-card"
       />
     </p>
   </a>
-</div>
-
-<div class="brs-overview-thumbnails">
-  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/mitochondrial-function-bioenergetics">
-    <p class="brs-pm-thumbnail-wrap">
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/mitochondrial-function-bioenergetics" aria-label="Open BRS4 — Mitochondrial Function & Bioenergetics">
+    <p class="brs-overview-title-card-wrap">
       <img
-        src="/img/biological-targets/brs4-portrait-thumbnail.png"
+        src="/img/biological-targets/brs4-title-card.png"
         alt="BRS4 — Mitochondrial Function & Bioenergetics"
-        class="brs-pm-thumbnail"
+        class="brs-overview-title-card"
       />
     </p>
   </a>
-  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/gut-brain-axis-enteric-nervous-system">
-    <p class="brs-pm-thumbnail-wrap">
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/gut-brain-axis-enteric-nervous-system" aria-label="Open BRS5 — Gut–Brain Axis & Enteric Nervous System">
+    <p class="brs-overview-title-card-wrap">
       <img
-        src="/img/biological-targets/brs5-portrait-thumbnail.png"
+        src="/img/biological-targets/brs5-title-card.png"
         alt="BRS5 — Gut–Brain Axis & Enteric Nervous System"
-        class="brs-pm-thumbnail"
+        class="brs-overview-title-card"
       />
     </p>
   </a>
-  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/metabolic-neuroendocrine-stress">
-    <p class="brs-pm-thumbnail-wrap">
+  <a class="brs-overview-thumbnail-link" href="/docs/biological-targets/metabolic-neuroendocrine-stress" aria-label="Open BRS6 — Metabolic & Neuroendocrine Regulation">
+    <p class="brs-overview-title-card-wrap">
       <img
-        src="/img/biological-targets/brs6-portrait-thumbnail.png"
+        src="/img/biological-targets/brs6-title-card.png"
         alt="BRS6 — Metabolic & Neuroendocrine Regulation"
-        class="brs-pm-thumbnail"
+        class="brs-overview-title-card"
       />
     </p>
   </a>

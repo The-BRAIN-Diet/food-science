@@ -60,6 +60,9 @@ interface PublicRow {
   unresolvedReason?: string
   pct?: number
   basis?: string
+  promoted?: string
+  amountDisplay?: string
+  sourceFood?: string
 }
 
 const NUTRIENT_UNIT: Record<string, string> = {
@@ -124,6 +127,21 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
         .map((doc: Document) => [doc.permalink, doc]),
     ).values(),
   )
+  const substances = Array.from(
+    new Map(
+      allDocs
+        .filter((doc: Document) => doc.permalink.includes("/substances/"))
+        .map((doc: Document) => [doc.permalink, doc]),
+    ).values(),
+  )
+  const substanceFor = (label: string): Document | undefined => {
+    const target = label.toLowerCase().trim()
+    return substances.find((doc) => {
+      const title = doc.title.split("(")[0].trim().toLowerCase()
+      const sidebar = String(doc.frontMatter.sidebar_label || "").toLowerCase().trim()
+      return title === target || sidebar === target
+    })
+  }
 
   const nutrition = calculateRecipeNutrition(details, foods) as unknown as CalculatedNutrition
 
@@ -246,7 +264,14 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
               <tbody>
                 {micronutrientRows.map((row) => (
                   <tr key={row.key} id={`nutrition-row-${row.key}`} className="nutrition-row-target">
-                    <td style={TD_LEFT}>{labelFor(row.key)}</td>
+                    <td style={TD_LEFT}>
+                      {labelFor(row.key)}
+                      {row.promoted ? (
+                        <span style={{...NOTE, display: "block"}}>
+                          Featured below the general 15% threshold: {row.promoted}
+                        </span>
+                      ) : null}
+                    </td>
                     <td style={TD_RIGHT}>{formatAmount(row.amount, unitFor(row.key))}</td>
                     <td style={TD_RIGHT}>
                       {formatPercent(row.pct)}
@@ -257,10 +282,12 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
               </tbody>
             </table>
             <p style={{...NOTE, marginTop: "0.5rem", marginBottom: 0}}>
-              Vitamins and minerals supplying at least 15% of an adult reference intake, up to eight.
-              RDA is a recommended dietary allowance; AI is an adequate intake, used where the
-              evidence does not support an RDA. Nutrients below the threshold are still calculated
-              and still count towards a daily total.
+              Vitamins and minerals supplying at least 15% of an adult reference intake, plus
+              explicitly featured design-relevant nutrients, up to eight. RDA is a recommended
+              dietary allowance; AI is an adequate intake, used where the evidence does not support
+              an RDA. Nutrients below the threshold are still calculated and still count towards a
+              daily total; a featured row is not a claim that the serving supplies a complete daily
+              dose.
             </p>
             {cautions.map((caution) => (
               <p key={caution.key} style={{...NOTE, marginTop: "0.4rem", marginBottom: 0}}>
@@ -292,15 +319,28 @@ export default function RecipeNutrition({details}: RecipeNutritionProps): React.
               <tbody>
                 {bioactiveRows.map((row) => (
                   <tr key={row.key} id={`nutrition-row-${row.key}`} className="nutrition-row-target">
-                    <td style={TD_LEFT}>{labelFor(row.key, row.label)}</td>
-                    <td style={TD_RIGHT}>{formatAmount(row.amount, unitFor(row.key))}</td>
+                    <td style={TD_LEFT}>
+                      {substanceFor(labelFor(row.key, row.label)) ? (
+                        <a href={substanceFor(labelFor(row.key, row.label))?.permalink}>
+                          {labelFor(row.key, row.label)}
+                        </a>
+                      ) : (
+                        labelFor(row.key, row.label)
+                      )}
+                    </td>
+                    <td style={TD_RIGHT}>
+                      {row.amount == null
+                        ? row.amountDisplay || "Present — quantity not established"
+                        : formatAmount(row.amount, unitFor(row.key))}
+                    </td>
                   </tr>
                 ))}
               </tbody>
             </table>
             <p style={{...NOTE, marginTop: "0.5rem", marginBottom: 0}}>
-              These compounds have no recognised intake target, so an amount is given without a
-              percentage.
+              These compounds have no recognised intake target, so quantified amounts are shown
+              without a percentage. A presence-only entry is carried from a supported food
+              relationship and is not converted into an invented serving amount.
             </p>
           </>
         )}

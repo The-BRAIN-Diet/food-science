@@ -20,6 +20,183 @@ hide_title: true
 
 (Immune Signalling, Antioxidant Defence & Inflammatory Control)
 
+<!-- brs-hub-all-mechanisms:start -->
+<div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand All Mechanisms of BRS3">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<div class="brs-fm-hub-group-summary-body">
+<p class="brs-fm-hub-group-heading">All Mechanisms of BRS3</p>
+<ul class="brs-fm-hub-group-title-list">
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS3(FM1) — Anti-Inflammatory Signalling Tone</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone" aria-label="Open FM: BRS3(FM1) — Anti-Inflammatory Signalling Tone">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS3(FM2) — Antioxidant Defense Capacity</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity" aria-label="Open FM: BRS3(FM2) — Antioxidant Defense Capacity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+  <li class="brs-fm-hub-group-title-item">
+  <div class="brs-fm-hub-group-title-row">
+  <span class="brs-fm-hub-group-title-text">BRS3(FM3) — Inflammation Resolution Capacity</span>
+<a class="brs-fm-hub-open brs-fm-hub-group-open" href="/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity" aria-label="Open FM: BRS3(FM3) — Inflammation Resolution Capacity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+  </div>
+</li>
+</ul>
+</div>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS3(FM1) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS3(FM1) — Anti-Inflammatory Signalling Tone</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone" aria-label="Open FM: BRS3(FM1) — Anti-Inflammatory Signalling Tone">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation">BRS3-FM1-PM1 — NF-kB Signalling Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling">BRS3-FM1-PM2 — Gut-Derived Inflammatory Signalling</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains anti-inflammatory signalling tone by regulating cytokine activity, NF-κB-linked inflammatory drive, and gut-derived immune inputs.
+
+**FM page:** [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone)
+
+**Primary biological effects:** ↓ NF-kB tone; ↓ pro-inflammatory cytokines; ↑ immune signalling balance
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Key constraints:**
+
+- [BRS3(KC1) — Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability)
+
+**Connected mechanisms:**
+
+- [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — nrf2-ARE Antioxidant Activation
+- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) — rOS Generation vs Clearance Balance
+- [BRS3-FM3-PM7 - Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) — cytokine Network Modulation
+- [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — gut Barrier / Tight Junction Integrity
+- [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — Upstream NF-κB transcriptional control
+- [BRS6-FM1-PM2 — Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — Insulin Sensitivity & Glucose Disposal
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS3(FM2) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS3(FM2) — Antioxidant Defense Capacity</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity" aria-label="Open FM: BRS3(FM2) — Antioxidant Defense Capacity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation">BRS3-FM2-PM3 — Nrf2-ARE Antioxidant Activation</a></li>
+  <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance">BRS3-FM2-PM4 — ROS Generation vs Clearance Balance</a></li>
+  <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control">BRS3-FM2-PM5 — Lipid Peroxidation Control</a></li>
+  <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling">BRS3-FM2-PM6 — Antioxidant Network Recycling</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains antioxidant defense capacity by coordinating endogenous and dietary protection against redox overload and lipid peroxidation.
+
+**FM page:** [BRS3(FM2) — Antioxidant Defense Capacity](/docs/biological-targets/brs3/fm2/brs3-fm2-antioxidant-defense-capacity)
+
+**Primary biological effects:** ↑ antioxidant enzyme induction; ↑ ROS buffering; ↓ oxidative damage
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: Daily
+
+**Key constraints:**
+
+- [BRS3(KC1) — Antioxidant Substrate Availability](/docs/biological-targets/brs3/kc/brs3-kc1-antioxidant-substrate-availability)
+
+**Connected mechanisms:**
+
+- [BRS3-FM3-PM8 - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — eicosanoid / SPM Balance
+- [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone) — anti-Inflammatory Signalling Tone
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
+- [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — biological connection relevant to this mechanism
+
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS3(FM3) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS3(FM3) — Inflammation Resolution Capacity</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity" aria-label="Open FM: BRS3(FM3) — Inflammation Resolution Capacity">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation">BRS3-FM3-PM7 — Cytokine Network Modulation</a></li>
+  <li><a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance">BRS3-FM3-PM8 — Eicosanoid / SPM Balance</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains inflammation-resolution capacity through pro-resolving lipid mediator pathways that actively terminate inflammatory responses.
+
+**FM page:** [BRS3(FM3) — Inflammation Resolution Capacity](/docs/biological-targets/brs3/fm3/brs3-fm3-inflammation-resolution-capacity)
+
+**Primary biological effects:** ↑ resolvins/protectins/maresins; ↑ debris clearance; ↓ unresolved inflammation
+
+**Modulation context:** Intervention: Food-State Dominant · Timing-specific: Yes · Coverage: 48hours
+
+**Connected mechanisms:**
+
+- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — membrane long-chain PUFA substrate pools feeding specialized pro-resolving mediator formation
+- [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — nF-kB Signalling Regulation
+- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — gut-Derived Inflammatory Signalling
+- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — lipid Peroxidation Control
+- [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) — gut endotoxin containment upstream of systemic cytokine network tone
+- [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — gut–immune interface context influencing inflammatory resolution substrate availability
+- [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) — post-prandial glycaemic context conditioning inflammatory cytokine expression
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- brs-hub-all-mechanisms:end -->
+
 ## Ambition
 
 Maintain proportionate immune signalling, responsive antioxidant defence, and active inflammation resolution so the brain operates within a redox and immune environment that supports function rather than chronically constraining it.
@@ -328,11 +505,11 @@ Maintains anti-inflammatory signalling tone by regulating cytokine activity, NF-
 
 **Connected mechanisms:**
 
-- [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — fM2-PM3 - Nrf2-ARE Antioxidant Activation context relevant to this mechanism
-- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) — fM2-PM4 - ROS Generation vs Clearance Balance context relevant to this mechanism
-- [BRS3-FM3-PM7 - Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) — fM3-PM7 - Cytokine Network Modulation context relevant to this mechanism
-- [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — Gut Barrier / Tight Junction Integrity
-- [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — bRS5(FM1) — Gut Barrier Integrity and Immune Interface context relevant to this mechanism
+- [BRS3-FM2-PM3 - Nrf2-ARE Antioxidant Activation](/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation) — nrf2-ARE Antioxidant Activation
+- [BRS3-FM2-PM4 - ROS Generation vs Clearance Balance](/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance) — rOS Generation vs Clearance Balance
+- [BRS3-FM3-PM7 - Cytokine Network Modulation](/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation) — cytokine Network Modulation
+- [BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity](/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity) — gut Barrier / Tight Junction Integrity
+- [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — Upstream NF-κB transcriptional control
 - [BRS6-FM1-PM2 — Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — Insulin Sensitivity & Glucose Disposal
 
 </div>
@@ -374,8 +551,9 @@ Maintains antioxidant defense capacity by coordinating endogenous and dietary pr
 
 **Connected mechanisms:**
 
-- [BRS3-FM3-PM8 - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — fM3-PM8 - Eicosanoid / SPM Balance context relevant to this mechanism
-- [BRS4-FM1-PM1](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — fM1-PM1 context relevant to this mechanism
+- [BRS3-FM3-PM8 - Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — eicosanoid / SPM Balance
+- [BRS3(FM1) — Anti-Inflammatory Signalling Tone](/docs/biological-targets/brs3/fm1/brs3-fm1-anti-inflammatory-signalling-tone) — anti-Inflammatory Signalling Tone
+- [BRS4-FM1-PM1 — Electron Transport Chain Function](/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function) — electron Transport Chain Function
 - [BRS4-FM2-PM4 — ROS Production and Control](/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control) — biological connection relevant to this mechanism
 
 </div>
@@ -412,9 +590,9 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 **Connected mechanisms:**
 
 - [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — membrane long-chain PUFA substrate pools feeding specialized pro-resolving mediator formation
-- [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — fM1-PM1 - NF-kB Signalling Regulation context relevant to this mechanism
-- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — fM1-PM2 - Gut-Derived Inflammatory Signalling context relevant to this mechanism
-- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — fM2-PM5 - Lipid Peroxidation Control context relevant to this mechanism
+- [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — nF-kB Signalling Regulation
+- [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — gut-Derived Inflammatory Signalling
+- [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — lipid Peroxidation Control
 - [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) — gut endotoxin containment upstream of systemic cytokine network tone
 - [BRS5(FM1) — Gut Barrier Integrity and Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — gut–immune interface context influencing inflammatory resolution substrate availability
 - [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) — post-prandial glycaemic context conditioning inflammatory cytokine expression
@@ -423,12 +601,13 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 </div>
 </div>
 
+
 </div>
 </div>
 </div>
 </div>
 
-<!-- brs-hub-cross-integration:start -->
+
 ## Cross-BRS Dependencies
 
 <p>Inflammatory and oxidative load never remains confined to immune biology. Cytokine tone, lipid peroxidation and impaired resolution reshape receptor environments, mitochondrial efficiency and neurotransmitter turnover — altering the conditions under which attention, mood and behavioural control are sustained. Strain that surfaces in connected regulatory biology often originates here, in immune tone and redox burden that never fully resolved.</p>

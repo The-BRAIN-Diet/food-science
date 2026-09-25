@@ -2,17 +2,202 @@
 title: Gut Barrier / Tight Junction Integrity
 pm_id: BRS5-FM1-PM1
 mission: Maintain epithelial tight junction integrity and selective permeability at the gut lining.
-summary: 'The gut lining acts as a selective gate between the gut lumen and the body. Tight junctions (seals between epithelial cells) control paracellular passage — what moves between cells rather than through them. When junctions weaken, the physical barrier loses selectivity and inappropriate leakage may increase. Epithelial repair nutrients and regular fermentable fibre help maintain junction and mucus integrity over time.'
+summary: 'The gut lining acts as a selective gate between the gut lumen and the body. Tight junctions (seals between epithelial cells) control paracellular passage — what moves between cells rather than through them. When junctions weaken, the physical barrier loses selectivity and inappropriate leakage may increase. PM1 has independently adjudicated butyrate/fibre, retinoid, zinc, and glutamine relationships; these do not form one shared barrier-nutrient pool, and omega-3 evidence remains modulation rather than a Dietary Requirement.'
 parent_fm: BRS5(FM1)
 parent_brs: BRS5
 key_constraints:
   - BRS5(KC1) - Fermentable Fibre Availability
-  - BRS5(KC3) - Barrier-Supportive Nutrient Sufficiency
-cofactors:
-  - zinc
-  - vitamin A
-  - omega-3
-  - butyrate support
+cofactors: []
+dietary_input_traceability:
+  - atom_id: PM1-DIT-1
+    input: Butyrate
+    input_type: substrate
+    biological_role: Microbially produced short-chain fatty acid that serves as a colonocyte energy substrate and directly promotes intestinal tight-junction assembly.
+    evidence_source:
+      finding_ids:
+        - PM1-F2
+      citation_keys:
+        - peng_butyrate_2009
+        - silva_role_2020
+  - atom_id: PM1-DIT-2
+    input: Fermentable dietary fibre
+    input_type: substrate provision
+    biological_role: 'Provides fermentable carbohydrate to gut microbes for short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier effects.'
+    evidence_source:
+      finding_ids:
+        - PM1-F2
+      citation_keys:
+        - silva_role_2020
+  - atom_id: PM1-DIT-3
+    input: Retinoic acid
+    input_type: biochemical requirement
+    biological_role: Active vitamin A metabolite that regulates intestinal epithelial differentiation and tight-junction protein expression.
+    evidence_source:
+      citation_keys:
+        - cantorna_vitamin_2019
+  - atom_id: PM1-DIT-4
+    input: Vitamin A
+    input_type: precursor
+    biological_role: Provides dietary retinoids and provitamin A precursors that support formation of retinoic acid for epithelial differentiation and barrier maintenance.
+    evidence_source:
+      citation_keys:
+        - cantorna_vitamin_2019
+  - atom_id: PM1-DIT-5
+    input: Zinc
+    input_type: biochemical requirement
+    biological_role: Required cellular mineral for maintenance of occludin and claudin-3 expression and intestinal tight-junction integrity.
+    evidence_source:
+      citation_keys:
+        - miyoshi_cellular_2016
+  - atom_id: PM1-DIT-6
+    input: Glutamine
+    input_type: substrate
+    biological_role: 'Enterocyte metabolic substrate supporting epithelial proliferation, repair, and tight-junction protein maintenance.'
+    evidence_source:
+      citation_keys:
+        - rao_role_2012
+        - abbasi_systematic_2024
+  - atom_id: PM1-DIT-7
+    input: Inulin-type fructans and galacto-oligosaccharides
+    input_type: nutrient/compound class
+    biological_role: 'Microbiota-accessible oligosaccharide substrates that undergo colonic fermentation and can contribute short-chain-fatty-acid provision upstream of butyrate-sensitive epithelial barrier biology.'
+    evidence_source:
+      finding_ids:
+        - PM1-F2
+      citation_keys:
+        - van_trijp_intraintestinal_2024
+        - silva_role_2020
+    evidence_limitation: 'The direct human fermentation study was small and acute and tested FOS/GOS under controlled conditions; it did not measure tight-junction outcomes or establish that ordinary food portions predictably alter PM1.'
+  - atom_id: PM1-DIT-8
+    input: Pectin
+    input_type: nutrient/compound class
+    biological_role: 'Fermentable plant polysaccharide that can supply microbial substrate for short-chain-fatty-acid production upstream of epithelial barrier effects.'
+    evidence_source:
+      finding_ids:
+        - PM1-F2
+      citation_keys:
+        - pascale_potential_2022
+        - silva_role_2020
+    evidence_limitation: 'Pectin evidence is dominated by in-vitro fermentation with human microbiota, commonly yields more acetate than butyrate, and does not directly demonstrate a PM1 tight-junction effect. It must not be broadened to all soluble fibre.'
+  - atom_id: PM1-DIT-9
+    input: Resistant starch
+    input_type: nutrient/compound class
+    biological_role: 'Microbiota-accessible starch that can increase colonic short-chain-fatty-acid, including butyrate, production upstream of epithelial barrier biology.'
+    evidence_source:
+      finding_ids:
+        - PM1-F2
+      citation_keys:
+        - sobh_tolerability_2022
+        - silva_role_2020
+    evidence_limitation: 'Human responses vary by resistant-starch type, dose and baseline microbiota; increased faecal SCFAs do not directly establish epithelial exposure, a tight-junction outcome or a universal intake threshold.'
+dietary_lever_atoms:
+  - atom_id: PM1-DIT-1
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Butyrate is a Direct metabolic-substrate relationship because it acts at the intestinal epithelium to support tight-junction assembly and barrier integrity.
+    evidence_limitation: 'Direct evidence includes a Caco-2 monolayer model and broader mechanistic synthesis; it does not establish that oral butyrate is required, that ordinary intake predictably changes epithelial exposure, or a human intake threshold for PM1.'
+  - atom_id: PM1-DIT-2
+    requirement_classification: derived
+    derived_target: Butyrate
+    derived_target_atom_id: PM1-DIT-1
+    relationship_layer: dietary-requirement
+    dietary_addressability: indirect/resource
+    claim_ceiling: dietary-provision
+    permitted_wording: Fermentable dietary fibre is a Derived substrate-provision relationship because microbial fermentation can produce butyrate upstream of epithelial tight-junction effects.
+    evidence_limitation: 'Production depends on fibre structure, dose and microbial ecology. Evidence for specific fibres must not be generalised to all fibre, and this relationship does not establish a universal intake threshold or response.'
+  - atom_id: PM1-DIT-3
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: Retinoic acid is a Direct biochemical requirement for epithelial differentiation and tight-junction regulation within PM1.
+    evidence_limitation: 'Evidence is dominated by cell, animal, deficiency-context, and mechanistic studies; it does not establish retinoic acid as an oral lever or show benefit from increasing intake in vitamin-A-sufficient people.'
+  - atom_id: PM1-DIT-4
+    requirement_classification: derived
+    derived_target: Retinoic acid
+    derived_target_atom_id: PM1-DIT-3
+    relationship_layer: dietary-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: dietary-provision
+    permitted_wording: Vitamin A is a Derived precursor relationship because dietary vitamin A supplies retinoids and provitamin precursors used to form retinoic acid.
+    evidence_limitation: 'Conversion and response depend on vitamin A form, status, absorption, and host context; supplementation evidence is not a general dose-response claim for PM1.'
+  - atom_id: PM1-DIT-5
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: direct
+    claim_ceiling: biological-dependency
+    permitted_wording: Zinc is a Direct biochemical requirement for maintenance of intestinal epithelial tight-junction proteins and barrier integrity.
+    evidence_limitation: 'Direct requirement evidence is principally cellular and animal, with human supplementation evidence concentrated in deficiency or disease contexts; higher intake is not established to improve PM1 in zinc-sufficient people.'
+  - atom_id: PM1-DIT-6
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: 'Glutamine is a Direct enterocyte substrate supporting epithelial metabolism, repair, and tight-junction maintenance.'
+    evidence_limitation: 'Glutamine is supplied substantially from endogenous and systemic pools and becomes conditionally indispensable under stress; adult supplementation trials show no overall permeability benefit, so dietary protein or glutamine provision is not established as a general PM1 lever.'
+  - atom_id: PM1-DIT-7
+    relationship_layer: kc-relevance
+    claim_ceiling: biological-dependency
+  - atom_id: PM1-DIT-8
+    relationship_layer: kc-relevance
+    claim_ceiling: biological-dependency
+  - atom_id: PM1-DIT-9
+    relationship_layer: kc-relevance
+    claim_ceiling: biological-dependency
+dietary_lever_presentations:
+  - atom_id: PM1-DIT-1
+    label: Butyrate
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-2
+    label: Fermentable dietary fibre
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-3
+    label: Retinoic acid
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-4
+    label: Vitamin A
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-5
+    label: Zinc
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-6
+    label: Glutamine
+    presentation_section: 3.1.1
+  - atom_id: PM1-DIT-1
+    label: Butyrate
+    presentation_section: 3.1.2
+  - atom_id: PM1-DIT-6
+    label: Glutamine
+    presentation_section: 3.1.2
+pm_kc_relationships:
+  - relationship_id: BRS5-FM1-PM1-KCR-1
+    kc_id: BRS5(KC1)
+    pm_biological_role: 'PM1 depends on microbial access to fermentable carbohydrate substrates because short-chain-fatty-acid production, including butyrate provision, lies upstream of epithelial tight-junction support.'
+    evidence_source:
+      finding_ids:
+        - PM1-F2
+      citation_keys:
+        - peng_butyrate_2009
+        - silva_role_2020
+    evidence_limitation: 'The KC context identifies an upstream resource dependency; it does not show that every KC constituent affects PM1 equally or establish a dose-response in humans.'
+    constituent_relationships:
+      - relationship_id: BRS5-FM1-PM1-KCI-1
+        pm_atom_id: PM1-DIT-7
+        label: Inulin-type fructans and galacto-oligosaccharides
+        kc_membership_status: canonical-reviewed
+        kc_atom_id: BRS5-KC1-KIT-1
+      - relationship_id: BRS5-FM1-PM1-KCI-2
+        pm_atom_id: PM1-DIT-8
+        label: Pectin
+        kc_membership_status: canonical-reviewed
+        kc_atom_id: BRS5-KC1-KIT-2
+      - relationship_id: BRS5-FM1-PM1-KCI-3
+        pm_atom_id: PM1-DIT-9
+        label: Resistant starch
+        kc_membership_status: canonical-reviewed
+        kc_atom_id: BRS5-KC1-KIT-3
 intervention_dominance: Diet-Dominant
 intervention_breakdown: Food-State Dominant
 timing_specific: 'Yes'
@@ -21,6 +206,16 @@ references:
   - '[Khailova et al. (2017) — Lactobacillus Rhamnosus GG Treatment Improves Intestinal Permeability and Modulates Inflammatory Response and](/docs/papers/BRAIN-Diet-References#khailova_lactobacillus_2017)'
   - '[Silva et al. (2020) — Role of Short-Chain Fatty Acids from Gut Microbiota in Gut-Brain Communication](/docs/papers/BRAIN-Diet-References#silva_role_2020)'
   - '[Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children with Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)'
+  - '[Chanez-Paredes and Turner (2023) — Paracellular Permeability and Tight Junction Regulation](/docs/papers/BRAIN-Diet-References#chanez_paredes_paracellular_2023)'
+  - '[Peng et al. (2009) — Butyrate and Tight-Junction Assembly](/docs/papers/BRAIN-Diet-References#peng_butyrate_2009)'
+  - '[Özyurt et al. (2018) — Zonulin, Hyperactivity and Social Function](/docs/papers/BRAIN-Diet-References#ozyurt_increased_2018)'
+  - '[Cantorna et al. (2019) — Vitamin A, Epithelial Barrier Function and Mucosal Homeostasis](/docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019)'
+  - '[Miyoshi et al. (2016) — Cellular Zinc and Intestinal Tight-Junction Maintenance](/docs/papers/BRAIN-Diet-References#miyoshi_cellular_2016)'
+  - '[Rao and Samak (2012) — Glutamine Protection of Intestinal Tight Junctions](/docs/papers/BRAIN-Diet-References#rao_role_2012)'
+  - '[Abbasi et al. (2024) — Glutamine Supplementation and Gut Permeability Meta-analysis](/docs/papers/BRAIN-Diet-References#abbasi_systematic_2024)'
+  - '[van Trijp et al. (2024) — Human FOS/GOS Intestinal Fermentation and SCFA Fate](/docs/papers/BRAIN-Diet-References#van_trijp_intraintestinal_2024)'
+  - '[Pascale et al. (2022) — Pectin Fermentation by Human Gut Microbiota](/docs/papers/BRAIN-Diet-References#pascale_potential_2022)'
+  - '[Sobh et al. (2022) — Resistant Starch Tolerability and SCFA Production](/docs/papers/BRAIN-Diet-References#sobh_tolerability_2022)'
 hide_title: true
 phenome_relationships:
   - target_phenome: Focus / Attention Stability
@@ -28,9 +223,16 @@ phenome_relationships:
     confidence: low-medium
     evidence_level: observational
     evidence_confidence: low-medium
-    rationale: Compositional gut microbiota differences in treatment-naïve children with ADHD — including beneficial taxa guild shifts — intersect gut-barrier integrity as a upstream determinant of gut–brain immune signalling relevant to attention biology.
+    rationale: 'Serum zonulin was associated with hyperactivity scores in one small cross-sectional ADHD study {{cite:ozyurt_increased_2018}}, but serum zonulin is an indirect barrier marker and the design cannot establish that tight-junction integrity causes attention instability. The attached microbiota-composition study did not measure permeability or tight junctions {{cite:jiang_gut_2018}}. The PM → Phenome relationship therefore remains indirect and observational.'
+    scientific_findings:
+      - PM1-F3
     references:
       - index: 1
+        label: Özyurt et al. (2018)
+        citation_key: ozyurt_increased_2018
+        href: /docs/papers/BRAIN-Diet-References#ozyurt_increased_2018
+        data_level: Human Study
+      - index: 2
         label: Jiang et al. (2018)
         citation_key: jiang_gut_2018
         href: /docs/papers/BRAIN-Diet-References#jiang_gut_2018
@@ -40,13 +242,107 @@ phenome_relationships:
     confidence: low
     evidence_level: observational
     evidence_confidence: low
-    rationale: Gut-barrier compromise may modulate gut–brain signalling tone intersecting affective regulation in neurodevelopmental contexts — indirect framing from ADHD microbiota compositional work without direct emotional-outcome trials on barrier biology.
+    rationale: 'The attached ADHD microbiota study did not measure intestinal permeability, tight-junction function or emotional-regulation outcomes {{cite:jiang_gut_2018}}. No direct evidence in the bounded assessment established that this PM modulates Emotional Regulation, so this remains a framework-level hypothesis with a direct-evidence gap.'
+    scientific_findings:
+      - PM1-F4
     references:
       - index: 1
         label: Jiang et al. (2018)
         citation_key: jiang_gut_2018
         href: /docs/papers/BRAIN-Diet-References#jiang_gut_2018
         data_level: Human Study
+scientific_findings_intro: 'Intestinal tight junctions define selective paracellular permeability. Butyrate can promote junction assembly in epithelial models, but evidence for food-level, dose-responsive control in humans is limited. The LGG evidence is a pneumonia mouse intervention and should not be generalised to fermented foods.'
+scientific_findings:
+  - id: PM1-F1
+    finding_label: Tight junctions govern selective paracellular permeability
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: Intestinal epithelial tight junctions form regulated pore and leak pathways that determine selective paracellular passage.
+    finding_interpretation: This supports the PM boundary around epithelial gate function. Downstream microbial-product containment and systemic inflammation remain outside it.
+    finding_statement: 'Intestinal tight-junction structure and regulation determine selective paracellular permeability, while epithelial injury can create a distinct unrestricted permeability pathway.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'An authoritative mechanistic review distinguishes tight-junction-dependent pore and leak pathways from unrestricted flux caused by epithelial damage. In a mouse pneumonia model, increased permeability and claudin-2 were attenuated by oral LGG, providing intervention evidence that barrier permeability and junction-associated biology can move together under pathological conditions.'
+    synthesis_limitations: 'The review establishes mechanism rather than dietary responsiveness. The LGG experiment was performed in young mice with experimental Pseudomonas pneumonia, not in healthy humans, and does not establish a generic fermented-food effect.'
+    evidence_considered:
+      - label: Chanez-Paredes and Turner (2023)
+        citation_key: chanez_paredes_paracellular_2023
+        href: /docs/papers/BRAIN-Diet-References#chanez_paredes_paracellular_2023
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: Tight junctions define size- and charge-selective pore and leak pathways; epithelial damage produces a separate unrestricted pathway.
+      - label: Khailova et al. (2017)
+        citation_key: khailova_lactobacillus_2017
+        href: /docs/papers/BRAIN-Diet-References#khailova_lactobacillus_2017
+        data_level: Animal Data
+        evidence_source: repository-inherited
+        directional_finding: Oral LGG attenuated pneumonia-induced intestinal permeability and claudin-2 elevation and supported mucin expression in mice.
+  - id: PM1-F2
+    finding_label: Butyrate can support epithelial tight-junction assembly
+    presentation: mechanistic-basis
+    fm_rollup: true
+    finding_summary: 'Microbial fermentation products, especially butyrate, can act directly on epithelial barrier biology.'
+    finding_interpretation: 'This supports a Direct butyrate relationship and a Derived fermentable-fibre provision relationship, with microbiota and fibre-specific limitations.'
+    finding_statement: 'Butyrate can function as an epithelial metabolic substrate and promote intestinal tight-junction assembly, while fermentable dietary fibre lies upstream as microbial substrate provision for short-chain-fatty-acid production.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'In Caco-2 monolayers, physiological butyrate increased transepithelial resistance, reduced inulin permeability and accelerated tight-junction assembly alongside AMPK activation. A broader review links microbial fermentation of dietary substrates to short-chain-fatty-acid production and intestinal barrier effects.'
+    synthesis_limitations: 'The direct assembly experiment is an immortalised epithelial-cell model. Fibre-to-butyrate conversion varies by fibre structure and microbial ecology, and neither source establishes a universal human intake threshold, a generic effect of all fibre, or oral butyrate as necessary treatment.'
+    evidence_considered:
+      - label: Peng et al. (2009)
+        citation_key: peng_butyrate_2009
+        href: /docs/papers/BRAIN-Diet-References#peng_butyrate_2009
+        data_level: Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: 'Butyrate increased barrier resistance, reduced inulin permeability and accelerated tight-junction assembly in Caco-2 monolayers.'
+      - label: Silva et al. (2020)
+        citation_key: silva_role_2020
+        href: /docs/papers/BRAIN-Diet-References#silva_role_2020
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: The review links microbial fermentation-derived short-chain fatty acids with epithelial barrier and gut-brain communication mechanisms.
+  - id: PM1-F3
+    finding_label: 'Barrier markers and attention-related symptoms are associated, not causal'
+    presentation: phenome-relationship
+    primary_phenome: Focus / Attention Stability
+    finding_summary: 'One small cross-sectional ADHD study linked serum zonulin with hyperactivity, but it did not establish a causal tight-junction-to-attention pathway.'
+    finding_interpretation: The evidence is compatible with the proposed relationship but is too indirect to show that changing PM1 changes attention stability.
+    finding_statement: Current human evidence provides only indirect observational support for a relationship between intestinal barrier biology and attention-related symptoms.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'In children with ADHD, serum zonulin was independently associated with hyperactivity and social-function scores. A separate microbiota study found lower Faecalibacterium abundance associated with parent-rated ADHD symptoms, but it did not measure barrier function. Together these studies support hypothesis generation, not a PM1-specific causal relationship.'
+    synthesis_limitations: 'Both studies are small and cross-sectional. Serum zonulin is an indirect permeability marker; neither study manipulated or directly quantified tight-junction integrity, and neither demonstrates that PM1 changes attention outcomes.'
+    evidence_considered:
+      - label: Özyurt et al. (2018)
+        citation_key: ozyurt_increased_2018
+        href: /docs/papers/BRAIN-Diet-References#ozyurt_increased_2018
+        data_level: Human Study
+        evidence_source: bounded-external-search
+        directional_finding: Higher serum zonulin was independently associated with greater hyperactivity and social impairment in children with ADHD.
+      - label: Jiang et al. (2018)
+        citation_key: jiang_gut_2018
+        href: /docs/papers/BRAIN-Diet-References#jiang_gut_2018
+        data_level: Human Study
+        evidence_source: repository-inherited
+        directional_finding: 'Lower Faecalibacterium abundance was associated with parent-rated ADHD symptoms, but permeability and tight-junction function were not measured.'
+    evidence_dependency:
+      - The two studies address different proxies and cannot be treated as independent replications of a PM1 → attention relationship.
+  - id: PM1-F4
+    finding_label: Direct evidence for an Emotional Regulation relationship is absent
+    presentation: phenome-relationship
+    primary_phenome: Emotional Regulation
+    finding_summary: The attached human study does not measure PM1 or emotional regulation.
+    finding_interpretation: Emotional Regulation remains a framework-level hypothesis rather than an evidence-established PM1 relationship.
+    finding_statement: The bounded evidence assessment does not establish that gut tight-junction integrity modulates Emotional Regulation.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Jiang et al. measured faecal microbiota composition and parent-rated ADHD symptoms. It did not measure intestinal permeability, tight-junction function or emotional-regulation outcomes, so it cannot directly support the current PM1 → Emotional Regulation proposition.'
+    synthesis_limitations: 'This is an evidence-gap adjudication, not evidence that no biological relationship exists. Targeted barrier measures and emotional-regulation outcomes would be needed to test the proposition.'
+    evidence_considered:
+      - label: Jiang et al. (2018)
+        citation_key: jiang_gut_2018
+        href: /docs/papers/BRAIN-Diet-References#jiang_gut_2018
+        data_level: Human Study
+        evidence_source: repository-inherited
+        directional_finding: The study reported microbiota-composition associations with ADHD symptoms but did not measure either PM1 or emotional regulation.
+    evidence_dependency:
+      - Jiang et al. is also assessed in PM1-F3 because the same attached study was previously used for both Phenome relationships; that reuse is not independent evidence.
 ---
 <p class="brs-pm-thumbnail-wrap">
   <img
@@ -68,106 +364,189 @@ Maintain epithelial tight junction integrity and selective permeability at the g
 
 ### Overview
 
-The gut lining acts as a selective gate between the gut lumen and the body. Tight junctions (seals between epithelial cells) control paracellular passage — what moves between cells rather than through them. When junctions weaken, the physical barrier loses selectivity and inappropriate leakage may increase. Epithelial repair nutrients and regular fermentable fibre help maintain junction and mucus integrity over time.
+The gut lining acts as a selective gate between the gut lumen and the body. Tight junctions (seals between epithelial cells) control paracellular passage — what moves between cells rather than through them. When junctions weaken, the physical barrier loses selectivity and inappropriate leakage may increase. Its independently adjudicated requirements include butyrate/fibre provision, retinoid signalling, cellular zinc, and glutamine substrate biology; these relationships do not form one shared nutrient pool.
 
 * Maintains tight junction proteins and epithelial repair capacity at the gut lining.
 * Preserves selective control over paracellular passage between the gut lumen and the body.
-* Highlights zinc, vitamin A, omega-3 and fermentable fibre as epithelial maintenance inputs.
+* Separates direct epithelial mechanisms from upstream microbial provision, downstream containment and unsupported food-level generalisations.
 
 ## 2. Primary Biological Effects
 ↑ tight-junction strength; ↓ permeability
 
-## 3. Phenome Connections
+## 3. Levers
 
-These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how directly this mechanism's biology would be expected to affect the phenome within BRAIN architecture — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.
+### Intervention Profile
+
+**Intervention Dominance:** Diet-Dominant
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1 Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.1 Direct and/or Derived Dietary Requirements</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Butyrate
+- Fermentable dietary fibre
+- Retinoic acid
+- Vitamin A
+- Zinc
+- Glutamine
+
+</div>
+</div>
+</div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.2 Cofactors and Substrates</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+- Butyrate
+- Glutamine
+
+</div>
+</div>
+</div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.1.3 Key Constraints</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+<div class="brs-fm-hub-item brs-kc-presentation" data-kc-id="BRS5(KC1)">
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability">(Key Constraint) (KC1) — Fermentable Fibre Sufficiency</a></strong>
+</div>
+<div class="brs-fm-hub-panel">
+- Inulin-type fructans and galacto-oligosaccharides
+- Pectin
+- Resistant starch
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>3.2 System Optimisation Practices</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
+
+- Lower alcohol and ultra-processed food exposure may reduce barrier strain.
+- Daily pattern consistency matters more than intermittent “gut reset” attempts.
+- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Mackerel — Preparation](/docs/foods/mackerel#preparation).
+- Prepare fermentable staples and include traditionally fermented foods where tolerated — see [Lentils — Preparation](/docs/foods/lentils#preparation).
+- Pair fat-soluble compounds with dietary fat to support absorption — see [Sweet Potatoes — Synergies](/docs/foods/sweet-potatoes#synergies).
+
+</div>
+</div>
+</div>
+
+
+
+
+
+## 4. Mechanistic Basis
+
+### Summary
+
+BRS5-FM1-PM1 owns the epithelial tight-junction gate and its selective paracellular permeability. Tight-junction-dependent pore and leak pathways are distinct from unrestricted permeability caused by epithelial injury [Chanez-Paredes and Turner, 2023]. Butyrate can directly support junction assembly in an epithelial model, while fermentable dietary fibre lies upstream of microbial short-chain-fatty-acid production [Peng et al., 2009; Silva et al., 2020]. Retinoid signalling, cellular zinc, and glutamine substrate biology carry separate epithelial relationships and limitations [Cantorna et al., 2019; Miyoshi et al., 2016; Rao and Samak, 2012; Abbasi et al., 2024].
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Epithelial gate and selective permeability</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+
+#### (The physical gate)
+
+This PM owns the host epithelial barrier — tight junction proteins, mucus support, and epithelial repair that keep the gut lining a selective gate. The biological question is whether paracellular passage is appropriately controlled, not how much endotoxin or immune activation follows once exposure rises.
+
+#### (Dietary support logic)
+
+Microbially produced butyrate can act at the epithelium as a metabolic substrate, while fermentable dietary fibre is an upstream microbial substrate-provision relationship. Retinoic acid supports epithelial differentiation and tight-junction regulation, with vitamin A as its dietary precursor relationship [Cantorna et al., 2019]. Cellular zinc is required for occludin and claudin-3 maintenance [Miyoshi et al., 2016], and glutamine is an enterocyte substrate whose dietary addressability is condition-dependent [Rao and Samak, 2012; Abbasi et al., 2024]. Omega-3 evidence supports modulation, not a PM1 Dietary Requirement, and generic protein provision is not inferred from glutamine biology.
+
+#### (Integration)
+
+When selective permeability weakens, luminal contents may cross more readily — [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) owns containment of inflammatory microbial products once exposure rises; [BRS5-FM1-PM3 — Keystone Taxa Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support) supports microbial ecology that reduces barrier strain.
+
+</div>
+</div>
+</div>
+
+
+
+### 4.1 Scientific Findings
+
+#### Introduction/Summary
+
+Intestinal tight junctions define selective paracellular permeability. Butyrate can promote junction assembly in epithelial models, but evidence for food-level, dose-responsive control in humans is limited. The LGG evidence is a pneumonia mouse intervention and should not be generalised to fermented foods.
+
+<ScientificFinding finding={{"id":"PM1-F1","finding_label":"Tight junctions govern selective paracellular permeability","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Intestinal epithelial tight junctions form regulated pore and leak pathways that determine selective paracellular passage.","finding_interpretation":"This supports the PM boundary around epithelial gate function. Downstream microbial-product containment and systemic inflammation remain outside it.","finding_statement":"Intestinal tight-junction structure and regulation determine selective paracellular permeability, while epithelial injury can create a distinct unrestricted permeability pathway.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"An authoritative mechanistic review distinguishes tight-junction-dependent pore and leak pathways from unrestricted flux caused by epithelial damage. In a mouse pneumonia model, increased permeability and claudin-2 were attenuated by oral LGG, providing intervention evidence that barrier permeability and junction-associated biology can move together under pathological conditions.","synthesis_limitations":"The review establishes mechanism rather than dietary responsiveness. The LGG experiment was performed in young mice with experimental Pseudomonas pneumonia, not in healthy humans, and does not establish a generic fermented-food effect.","evidence_considered":[{"label":"Chanez-Paredes and Turner (2023)","citation_key":"chanez_paredes_paracellular_2023","href":"/docs/papers/BRAIN-Diet-References#chanez_paredes_paracellular_2023","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Tight junctions define size- and charge-selective pore and leak pathways; epithelial damage produces a separate unrestricted pathway."},{"label":"Khailova et al. (2017)","citation_key":"khailova_lactobacillus_2017","href":"/docs/papers/BRAIN-Diet-References#khailova_lactobacillus_2017","data_level":"Animal Data","evidence_source":"repository-inherited","directional_finding":"Oral LGG attenuated pneumonia-induced intestinal permeability and claudin-2 elevation and supported mucin expression in mice."}]}} />
+
+<ScientificFinding finding={{"id":"PM1-F2","finding_label":"Butyrate can support epithelial tight-junction assembly","presentation":"mechanistic-basis","fm_rollup":true,"finding_summary":"Microbial fermentation products, especially butyrate, can act directly on epithelial barrier biology.","finding_interpretation":"This supports a Direct butyrate relationship and a Derived fermentable-fibre provision relationship, with microbiota and fibre-specific limitations.","finding_statement":"Butyrate can function as an epithelial metabolic substrate and promote intestinal tight-junction assembly, while fermentable dietary fibre lies upstream as microbial substrate provision for short-chain-fatty-acid production.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"In Caco-2 monolayers, physiological butyrate increased transepithelial resistance, reduced inulin permeability and accelerated tight-junction assembly alongside AMPK activation. A broader review links microbial fermentation of dietary substrates to short-chain-fatty-acid production and intestinal barrier effects.","synthesis_limitations":"The direct assembly experiment is an immortalised epithelial-cell model. Fibre-to-butyrate conversion varies by fibre structure and microbial ecology, and neither source establishes a universal human intake threshold, a generic effect of all fibre, or oral butyrate as necessary treatment.","evidence_considered":[{"label":"Peng et al. (2009)","citation_key":"peng_butyrate_2009","href":"/docs/papers/BRAIN-Diet-References#peng_butyrate_2009","data_level":"Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Butyrate increased barrier resistance, reduced inulin permeability and accelerated tight-junction assembly in Caco-2 monolayers."},{"label":"Silva et al. (2020)","citation_key":"silva_role_2020","href":"/docs/papers/BRAIN-Diet-References#silva_role_2020","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"The review links microbial fermentation-derived short-chain fatty acids with epithelial barrier and gut-brain communication mechanisms."}]}} />
+
+## 5. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
 
 <div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <button type="button" class="brs-fm-hub-summary" aria-expanded="false">
 <span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>How confidence scores differ</strong>
+<strong>How these ratings work</strong>
 </button>
 <div class="brs-fm-hub-panel" hidden>
 <div class="phenome-scoring-key">
 <p class="phenome-scoring-key-intro">
-These are <strong>three independent scores</strong>. They are not combined or averaged.
-A phenome can have <strong>Medium</strong> registry evidence while individual mechanism
-rows show different Biology → Phenome and Evidence scores.
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
 </p>
 <div class="phenome-scoring-key-section">
 <p class="phenome-scoring-key-heading">
-<strong>1. Phenome Evidence Confidence</strong> (Phenome Registry only)
+<strong>Biology → Phenome Relationship Strength</strong>
 </p>
 <p class="phenome-scoring-key-body">
-<strong>Question:</strong> How convincing is the foundational evidence that this
-phenome is a valid, well-defined functional construct — and that diet-relevant
-biology can plausibly connect to it?
-</p>
-<p class="phenome-scoring-key-body">
-<strong>Not</strong> a roll-up of Biology → Phenome Confidence or Evidence
-Confidence from Primary Mechanism page rows. Those are scored per mechanism; this
-score is assigned once per phenome at registry level.
-</p>
-<p class="phenome-scoring-key-body">
-<strong>Derived from</strong> foundational landmark evidence organised in up to
-three layers: construct validation, biology→phenome linkage, and nutrition→biology
-modulation. Each layer may include one or many landmark papers depending on registry
-review.
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
 </p>
 </div>
 <div class="phenome-scoring-key-section">
 <p class="phenome-scoring-key-heading">
-<strong>2. Biology → Phenome Confidence</strong> (Primary Mechanism phenome rows)
+<strong>Evidence Confidence</strong>
 </p>
 <p class="phenome-scoring-key-body">
-<strong>Question:</strong> If this PM/FM biology were substantially impaired in
-isolation, how directly would that phenome be expected to suffer — within BRAIN
-architecture?
-</p>
-<p class="phenome-scoring-key-body">
-<strong>How it is derived:</strong> Reviewers read the PM/FM <em>definition and
-biological function first</em> — initially <em>ignoring</em> attached references and
-whether dietary intervention studies exist. References are reviewed only when scoring
-Evidence Confidence (below).
-</p>
-<p class="phenome-scoring-key-body">
-<strong>Score levels</strong> (the value shown on each row as <em>Biology → Phenome Confidence</em>):
-</p>
-<ul class="phenome-scoring-key-sublist">
-<li><strong>High</strong> — primary biological determinant (e.g. noradrenergic signalling → attention; GABA synthesis → calming tone)</li>
-<li><strong>Medium</strong> — major contributory determinant, not the sole driver</li>
-<li><strong>Low–Medium</strong> — established but indirect, modulatory, or one integrative step removed</li>
-<li><strong>Low</strong> — distal, conditional, or weak biological coupling</li>
-</ul>
-<p class="phenome-scoring-key-body">
-<strong>“Not dietary treatment efficacy”</strong> means this score does not ask
-whether a diet or supplement <em>treats</em> the phenome. It asks whether the
-<em>biology itself</em> is architecturally relevant. Limited dietary RCT evidence
-belongs in Evidence Confidence, not here.
-</p>
-</div>
-<div class="phenome-scoring-key-section">
-<p class="phenome-scoring-key-heading">
-<strong>3. Evidence Confidence</strong> (Primary Mechanism phenome rows)
-</p>
-<p class="phenome-scoring-key-body">
-<strong>Question:</strong> How convincing are the <strong>attached Key References</strong>
-on that specific row that this biology actually relates to this phenome?
-</p>
-<p class="phenome-scoring-key-body">
-<strong>How it is derived:</strong> Assigned <em>after</em> Biology → Phenome
-Confidence, by reviewing only the references on that PM/FM row. Judges whether refs
-support the <em>relationship</em> — not just mechanism or phenome in isolation.
-</p>
-<ul class="phenome-scoring-key-sublist">
-<li><strong>High</strong> — strong convergent human evidence directly linking mechanism biology to phenome variation</li>
-<li><strong>Medium</strong> — multiple human lines supporting the relationship; may include one bridge study with an inferential step</li>
-<li><strong>Low–Medium</strong> — convergent translational stack without direct mechanism↔phenome measurement on the row</li>
-<li><strong>Low</strong> — mechanistic or preclinical only; mechanism and phenome supported separately but not bridged</li>
-</ul>
-<p class="phenome-scoring-key-body">
-Often equal to or <em>lower than</em> Biology → Phenome Confidence. Can occasionally
-be higher when outcome evidence is stronger than the mechanism's contributory role.
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
 </p>
 </div>
 </div>
@@ -188,12 +567,13 @@ be higher when outcome evidence is stronger than the mechanism's contributory ro
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-- **Biology → Phenome Confidence:** Low–Medium
-- **Rationale:** Compositional gut microbiota differences in treatment-naïve children with ADHD — including beneficial taxa guild shifts — intersect gut-barrier integrity as a upstream determinant of gut–brain immune signalling relevant to attention biology.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#jiang_gut_2018","label":"Jiang et al. (2018)","dataLevel":"Human Study"}]} />
+- **Biology → Phenome Relationship Strength:** Low–Medium
 - **Evidence Confidence:** Low–Medium
+- **Rationale:** Serum zonulin was associated with hyperactivity scores in one small cross-sectional ADHD study  [6](#pm-ref-6), but serum zonulin is an indirect barrier marker and the design cannot establish that tight-junction integrity causes attention instability. The attached microbiota-composition study did not measure permeability or tight junctions  [3](#pm-ref-3). The PM → Phenome relationship therefore remains indirect and observational.
+
+**Supporting evidence**
+
+<ScientificFinding finding={{"id":"PM1-F3","finding_label":"Barrier markers and attention-related symptoms are associated, not causal","presentation":"phenome-relationship","primary_phenome":"Focus / Attention Stability","finding_summary":"One small cross-sectional ADHD study linked serum zonulin with hyperactivity, but it did not establish a causal tight-junction-to-attention pathway.","finding_interpretation":"The evidence is compatible with the proposed relationship but is too indirect to show that changing PM1 changes attention stability.","finding_statement":"Current human evidence provides only indirect observational support for a relationship between intestinal barrier biology and attention-related symptoms.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"In children with ADHD, serum zonulin was independently associated with hyperactivity and social-function scores. A separate microbiota study found lower Faecalibacterium abundance associated with parent-rated ADHD symptoms, but it did not measure barrier function. Together these studies support hypothesis generation, not a PM1-specific causal relationship.","synthesis_limitations":"Both studies are small and cross-sectional. Serum zonulin is an indirect permeability marker; neither study manipulated or directly quantified tight-junction integrity, and neither demonstrates that PM1 changes attention outcomes.","evidence_considered":[{"label":"Özyurt et al. (2018)","citation_key":"ozyurt_increased_2018","href":"/docs/papers/BRAIN-Diet-References#ozyurt_increased_2018","data_level":"Human Study","evidence_source":"bounded-external-search","directional_finding":"Higher serum zonulin was independently associated with greater hyperactivity and social impairment in children with ADHD."},{"label":"Jiang et al. (2018)","citation_key":"jiang_gut_2018","href":"/docs/papers/BRAIN-Diet-References#jiang_gut_2018","data_level":"Human Study","evidence_source":"repository-inherited","directional_finding":"Lower Faecalibacterium abundance was associated with parent-rated ADHD symptoms, but permeability and tight-junction function were not measured."}],"evidence_dependency":["The two studies address different proxies and cannot be treated as independent replications of a PM1 → attention relationship."],"informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
 </div>
 </div>
 </div>
@@ -211,210 +591,13 @@ be higher when outcome evidence is stronger than the mechanism's contributory ro
 </a>
 </div>
 <div class="brs-fm-hub-panel" hidden>
-- **Biology → Phenome Confidence:** Low
-- **Rationale:** Gut-barrier compromise may modulate gut–brain signalling tone intersecting affective regulation in neurodevelopmental contexts — indirect framing from ADHD microbiota compositional work without direct emotional-outcome trials on barrier biology.
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#jiang_gut_2018","label":"Jiang et al. (2018)","dataLevel":"Human Study"}]} />
+- **Biology → Phenome Relationship Strength:** Low
 - **Evidence Confidence:** Low
-</div>
-</div>
-</div>
+- **Rationale:** The attached ADHD microbiota study did not measure intestinal permeability, tight-junction function or emotional-regulation outcomes  [3](#pm-ref-3). No direct evidence in the bounded assessment established that this PM modulates Emotional Regulation, so this remains a framework-level hypothesis with a direct-evidence gap.
 
-## 4. Levers
+**Supporting evidence**
 
-### Intervention Profile
-
-**Intervention Dominance:** Diet-Dominant
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1 Dietary Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.1 Direct Dietary Levers</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- Prebiotic fibres and fermented foods ← butyrate-supportive pattern
-- Zinc-rich foods ← seafood, meat, legumes, seeds
-- Omega-3-rich foods ← oily fish
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.2 Cofactors and Supporting Inputs</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- butyrate support
-- omega-3
-- vitamin A
-- zinc
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.1.3 KCs (Key Constraints)</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-
-
-- [BRS5(KC1) - Fermentable Fibre Sufficiency](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability)
-
-- Inulin/GOS ← onions, chicory, legumes
-- Pectin/soluble fibre ← oats, apples, flax seeds
-- Resistant starch ← cooled potatoes, cooled rice, green bananas
-
-- [BRS5(KC3) - Barrier-Supportive Nutrient Sufficiency](/docs/biological-targets/brs5/kc/brs5-kc3-barrier-supportive-nutrient-sufficiency)
-
-- Omega-3 fatty acids ← oily fish, algae, eggs
-- Vitamin A precursors and retinol ← eggs, liver, orange vegetables
-- Zinc ← seafood, meat, legumes, seeds
-- Glutamine-supportive amino-acid pool ← fish, eggs, poultry, legumes
-</div>
-</div>
-</div>
-
-</div>
-</div>
-</div>
-
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>4.2 System Optimisation Practices</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
-
-- Lower alcohol and ultra-processed food exposure may reduce barrier strain.
-- Daily pattern consistency matters more than intermittent “gut reset” attempts.
-- Gentle cooking of marine-fat sources helps limit oxidative degradation of PUFA-rich meal matrices — see [Salmon — Preparation](/docs/foods/salmon#preparation), [Mackerel — Preparation](/docs/foods/mackerel#preparation).
-- Prepare fermentable staples and include traditionally fermented foods where tolerated — see [Lentils — Preparation](/docs/foods/lentils#preparation).
-- Pair fat-soluble compounds with dietary fat to support absorption — see [Sweet Potatoes — Synergies](/docs/foods/sweet-potatoes#synergies).
-
-</div>
-</div>
-</div>
-
-
-
-
-
-## 5. Mechanistic Basis
-
-### Summary
-
-BRS5-FM1-PM1 links fermentable-fibre support, barrier-supportive nutrients, and butyrate-related ecology to maintenance of tight junction integrity and selective epithelial permeability [Khailova et al., 2017; Silva et al., 2020].
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Epithelial gate and selective permeability</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-#### (The physical gate)
-
-This PM owns the host epithelial barrier — tight junction proteins, mucus support, and epithelial repair that keep the gut lining a selective gate. The biological question is whether paracellular passage is appropriately controlled, not how much endotoxin or immune activation follows once exposure rises.
-
-#### (Dietary support logic)
-
-Prebiotic fibres and fermented-food patterns help support butyrate-related epithelial context, while zinc, vitamin A, omega-3, and adequate protein quality provide nutrient support for junction maintenance and mucus integrity.
-
-#### (Integration)
-
-When selective permeability weakens, luminal contents may cross more readily — [BRS5-FM1-PM2 — LPS / Endotoxin Containment](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment) owns containment of inflammatory microbial products once exposure rises; [BRS5-FM1-PM3 — Keystone Taxa Support](/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support) supports microbial ecology that reduces barrier strain.
-
-</div>
-</div>
-</div>
-
-
-
-### 5.1 Evidence Highlights
-
-#### Introduction/Summary
-
-Epithelial tight-junction and selective permeability biology is well established. The studies below highlight dietary-pattern and microbial-metabolite findings that refine how epithelial gate maintenance is interpreted in practice — not endotoxin containment (see [BRS5-FM1-PM2](/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment)).
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Probiotic support for intestinal permeability</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Lactobacillus rhamnosus GG improved intestinal permeability and modulated local inflammatory response in clinical contexts relevant to epithelial barrier maintenance [Khailova et al., 2017].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#khailova_lactobacillus_2017","label":"Khailova et al. (2017)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>SCFAs and gut-barrier communication</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Short-chain fatty acids from microbial fermentation support intestinal barrier integrity and gut–brain communication context — linking fermentable-fibre ecology to intestinal barrier support [Silva et al., 2020].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#silva_role_2020","label":"Silva et al. (2020)"}]} />
-
-</div>
-</div>
-</div>
-
-<div class="brs-fm-hub-item" data-brs-fm-hub>
-<div class="brs-fm-hub-shell">
-<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
-<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
-<strong>Pattern-based barrier support</strong>
-</button>
-<div class="brs-fm-hub-panel" hidden>
-
-- **Confidence:** low-medium
-- **Evidence Level:** mechanistic
-- **Rationale:** Barrier maintenance depends on sustained fermentable-fibre exposure, barrier-supportive nutrients, and butyrate-supportive ecology rather than isolated barrier interventions [Khailova et al., 2017]; [Silva et al., 2020].
-- **Key References:**
-
-<PhenomeBibLinks items={[{"href":"/docs/papers/BRAIN-Diet-References#khailova_lactobacillus_2017","label":"Khailova et al. (2017)"},{"href":"/docs/papers/BRAIN-Diet-References#silva_role_2020","label":"Silva et al. (2020)"}]} />
-
+<ScientificFinding finding={{"id":"PM1-F4","finding_label":"Direct evidence for an Emotional Regulation relationship is absent","presentation":"phenome-relationship","primary_phenome":"Emotional Regulation","finding_summary":"The attached human study does not measure PM1 or emotional regulation.","finding_interpretation":"Emotional Regulation remains a framework-level hypothesis rather than an evidence-established PM1 relationship.","finding_statement":"The bounded evidence assessment does not establish that gut tight-junction integrity modulates Emotional Regulation.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Jiang et al. measured faecal microbiota composition and parent-rated ADHD symptoms. It did not measure intestinal permeability, tight-junction function or emotional-regulation outcomes, so it cannot directly support the current PM1 → Emotional Regulation proposition.","synthesis_limitations":"This is an evidence-gap adjudication, not evidence that no biological relationship exists. Targeted barrier measures and emotional-regulation outcomes would be needed to test the proposition.","evidence_considered":[{"label":"Jiang et al. (2018)","citation_key":"jiang_gut_2018","href":"/docs/papers/BRAIN-Diet-References#jiang_gut_2018","data_level":"Human Study","evidence_source":"repository-inherited","directional_finding":"The study reported microbiota-composition associations with ADHD symptoms but did not measure either PM1 or emotional regulation."}],"evidence_dependency":["Jiang et al. is also assessed in PM1-F3 because the same attached study was previously used for both Phenome relationships; that reuse is not independent evidence."],"informs":[{"phenome":"Emotional Regulation","href":"/docs/phenomes/details/ph003-emotional-regulation"}]}} />
 </div>
 </div>
 </div>
@@ -461,8 +644,18 @@ This PM is scoreable through barrier-support and permeability-protection signals
 </div>
 </div>
 
-
 ## 8. References
-- [Khailova et al. (2017) — Lactobacillus Rhamnosus GG Treatment Improves Intestinal Permeability and Modulates Inflammatory Response and](/docs/papers/BRAIN-Diet-References#khailova_lactobacillus_2017)
-- [Silva et al. (2020) — Role of Short-Chain Fatty Acids from Gut Microbiota in Gut-Brain Communication](/docs/papers/BRAIN-Diet-References#silva_role_2020)
-- [Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children with Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)
+
+- <span id="pm-ref-1">[1]</span> [Khailova et al. (2017) — Lactobacillus Rhamnosus GG Treatment Improves Intestinal Permeability and Modulates Inflammatory Response and](/docs/papers/BRAIN-Diet-References#khailova_lactobacillus_2017)
+- <span id="pm-ref-2">[2]</span> [Silva et al. (2020) — Role of Short-Chain Fatty Acids from Gut Microbiota in Gut-Brain Communication](/docs/papers/BRAIN-Diet-References#silva_role_2020)
+- <span id="pm-ref-3">[3]</span> [Jiang et al. (2018) — Gut Microbiota Profiles in Treatment-naïve Children with Attention Deficit Hyperactivity Disorder](/docs/papers/BRAIN-Diet-References#jiang_gut_2018)
+- <span id="pm-ref-4">[4]</span> [Chanez-Paredes and Turner (2023) — Paracellular Permeability and Tight Junction Regulation](/docs/papers/BRAIN-Diet-References#chanez_paredes_paracellular_2023)
+- <span id="pm-ref-5">[5]</span> [Peng et al. (2009) — Butyrate and Tight-Junction Assembly](/docs/papers/BRAIN-Diet-References#peng_butyrate_2009)
+- <span id="pm-ref-6">[6]</span> [Özyurt et al. (2018) — Zonulin, Hyperactivity and Social Function](/docs/papers/BRAIN-Diet-References#ozyurt_increased_2018)
+- <span id="pm-ref-7">[7]</span> [Cantorna et al. (2019) — Vitamin A, Epithelial Barrier Function and Mucosal Homeostasis](/docs/papers/BRAIN-Diet-References#cantorna_vitamin_2019)
+- <span id="pm-ref-8">[8]</span> [Miyoshi et al. (2016) — Cellular Zinc and Intestinal Tight-Junction Maintenance](/docs/papers/BRAIN-Diet-References#miyoshi_cellular_2016)
+- <span id="pm-ref-9">[9]</span> [Rao and Samak (2012) — Glutamine Protection of Intestinal Tight Junctions](/docs/papers/BRAIN-Diet-References#rao_role_2012)
+- <span id="pm-ref-10">[10]</span> [Abbasi et al. (2024) — Glutamine Supplementation and Gut Permeability Meta-analysis](/docs/papers/BRAIN-Diet-References#abbasi_systematic_2024)
+- <span id="pm-ref-11">[11]</span> [van Trijp et al. (2024) — Human FOS/GOS Intestinal Fermentation and SCFA Fate](/docs/papers/BRAIN-Diet-References#van_trijp_intraintestinal_2024)
+- <span id="pm-ref-12">[12]</span> [Pascale et al. (2022) — Pectin Fermentation by Human Gut Microbiota](/docs/papers/BRAIN-Diet-References#pascale_potential_2022)
+- <span id="pm-ref-13">[13]</span> [Sobh et al. (2022) — Resistant Starch Tolerability and SCFA Production](/docs/papers/BRAIN-Diet-References#sobh_tolerability_2022)

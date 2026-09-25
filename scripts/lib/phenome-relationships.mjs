@@ -23,10 +23,12 @@ import {
 import {
   findingsById,
   hasScientificFindings,
-  renderRelationshipFindingsLine,
   renderRelationshipPrimaryFindings,
-  splitRelationshipFindings,
 } from "./scientific-findings.mjs";
+import {
+  buildPmReferenceKeyIndex,
+  expandPmCitationMarkers,
+} from "./pm-reference-index.mjs";
 import { pmSectionNumbers } from "./pm-section-layout.mjs";
 
 const PROJECT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
@@ -67,99 +69,39 @@ export const PHENOME_EVIDENCE_LEVELS = new Set([
   "clinical",
 ]);
 
-export const PHENOME_BIOLOGY_CONFIDENCE_LABEL = "Biology → Phenome Confidence";
+export const PHENOME_BIOLOGY_CONFIDENCE_LABEL = "Biology → Phenome Relationship Strength";
 
 export const PHENOME_EVIDENCE_LEVEL_LABEL = "Evidence Level";
 
 export const PHENOME_EVIDENCE_CONFIDENCE_LABEL = "Evidence Confidence";
 
+export const PHENOME_SCORING_KEY_TITLE = "How these ratings work";
+
 const PHENOME_SCORING_KEY_PANEL_BODY = `<div class="phenome-scoring-key">
 <p class="phenome-scoring-key-intro">
-These are <strong>three independent scores</strong>. They are not combined or averaged.
-A phenome can have <strong>Medium</strong> registry evidence while individual mechanism
-rows show different Biology → Phenome and Evidence scores.
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
 </p>
 <div class="phenome-scoring-key-section">
 <p class="phenome-scoring-key-heading">
-<strong>1. Phenome Evidence Confidence</strong> (Phenome Registry only)
+<strong>Biology → Phenome Relationship Strength</strong>
 </p>
 <p class="phenome-scoring-key-body">
-<strong>Question:</strong> How convincing is the foundational evidence that this
-phenome is a valid, well-defined functional construct — and that diet-relevant
-biology can plausibly connect to it?
-</p>
-<p class="phenome-scoring-key-body">
-<strong>Not</strong> a roll-up of Biology → Phenome Confidence or Evidence
-Confidence from Primary Mechanism page rows. Those are scored per mechanism; this
-score is assigned once per phenome at registry level.
-</p>
-<p class="phenome-scoring-key-body">
-<strong>Derived from</strong> foundational landmark evidence organised in up to
-three layers: construct validation, biology→phenome linkage, and nutrition→biology
-modulation. Each layer may include one or many landmark papers depending on registry
-review.
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
 </p>
 </div>
 <div class="phenome-scoring-key-section">
 <p class="phenome-scoring-key-heading">
-<strong>2. Biology → Phenome Confidence</strong> (Primary Mechanism phenome rows)
+<strong>Evidence Confidence</strong>
 </p>
 <p class="phenome-scoring-key-body">
-<strong>Question:</strong> If this PM/FM biology were substantially impaired in
-isolation, how directly would that phenome be expected to suffer — within BRAIN
-architecture?
-</p>
-<p class="phenome-scoring-key-body">
-<strong>How it is derived:</strong> Reviewers read the PM/FM <em>definition and
-biological function first</em> — initially <em>ignoring</em> attached references and
-whether dietary intervention studies exist. References are reviewed only when scoring
-Evidence Confidence (below).
-</p>
-<p class="phenome-scoring-key-body">
-<strong>Score levels</strong> (the value shown on each row as <em>Biology → Phenome Confidence</em>):
-</p>
-<ul class="phenome-scoring-key-sublist">
-<li><strong>High</strong> — primary biological determinant (e.g. noradrenergic signalling → attention; GABA synthesis → calming tone)</li>
-<li><strong>Medium</strong> — major contributory determinant, not the sole driver</li>
-<li><strong>Low–Medium</strong> — established but indirect, modulatory, or one integrative step removed</li>
-<li><strong>Low</strong> — distal, conditional, or weak biological coupling</li>
-</ul>
-<p class="phenome-scoring-key-body">
-<strong>“Not dietary treatment efficacy”</strong> means this score does not ask
-whether a diet or supplement <em>treats</em> the phenome. It asks whether the
-<em>biology itself</em> is architecturally relevant. Limited dietary RCT evidence
-belongs in Evidence Confidence, not here.
-</p>
-</div>
-<div class="phenome-scoring-key-section">
-<p class="phenome-scoring-key-heading">
-<strong>3. Evidence Confidence</strong> (Primary Mechanism phenome rows)
-</p>
-<p class="phenome-scoring-key-body">
-<strong>Question:</strong> How convincing are the <strong>attached Key References</strong>
-on that specific row that this biology actually relates to this phenome?
-</p>
-<p class="phenome-scoring-key-body">
-<strong>How it is derived:</strong> Assigned <em>after</em> Biology → Phenome
-Confidence, by reviewing only the references on that PM/FM row. Judges whether refs
-support the <em>relationship</em> — not just mechanism or phenome in isolation.
-</p>
-<ul class="phenome-scoring-key-sublist">
-<li><strong>High</strong> — strong convergent human evidence directly linking mechanism biology to phenome variation</li>
-<li><strong>Medium</strong> — multiple human lines supporting the relationship; may include one bridge study with an inferential step</li>
-<li><strong>Low–Medium</strong> — convergent translational stack without direct mechanism↔phenome measurement on the row</li>
-<li><strong>Low</strong> — mechanistic or preclinical only; mechanism and phenome supported separately but not bridged</li>
-</ul>
-<p class="phenome-scoring-key-body">
-Often equal to or <em>lower than</em> Biology → Phenome Confidence. Can occasionally
-be higher when outcome evidence is stronger than the mechanism's contributory role.
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
 </p>
 </div>
 </div>`;
 
 /** Static hub collapsible — MDX does not reliably render the React PhenomeScoringKey component. */
 export function renderPhenomeScoringKeyHub() {
-  return renderHubCollapsible("How confidence scores differ", PHENOME_SCORING_KEY_PANEL_BODY).replace(
+  return renderHubCollapsible(PHENOME_SCORING_KEY_TITLE, PHENOME_SCORING_KEY_PANEL_BODY).replace(
     '<div class="brs-fm-hub-item"',
     '<div class="brs-fm-hub-item phenome-scoring-key-hub"',
   );
@@ -168,7 +110,7 @@ export function renderPhenomeScoringKeyHub() {
 export const PHENOME_SCORING_KEY_MARKUP = `${renderPhenomeScoringKeyHub()}\n`;
 
 export const PHENOME_DISCLAIMER =
-  "These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework. Biology → Phenome Confidence reflects how directly this mechanism's biology would be expected to affect the phenome within BRAIN architecture — not dietary treatment efficacy. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row.";
+  "These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.";
 
 export const PHENOME_EMPTY_MESSAGE =
   "No direct functional outcome relationship currently mapped.";
@@ -190,7 +132,7 @@ export const FM_OUTCOME_CONTEXT_SECTION_TITLE = FM_PHENOME_CONNECTIONS_SECTION_T
 export const FM_PHENOME_SECTION_TITLE = FM_PHENOME_CONNECTIONS_SECTION_TITLE;
 
 export const FM_OUTCOME_CONTEXT_DISCLAIMER =
-  "These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. Biology → Phenome Confidence reflects biological relevance to each outcome — not proof that diet or lifestyle alone will improve it. Evidence Confidence (below Key References) reflects how convincing the attached evidence is for the Biology → Phenome relationship on that row. FM confidence uplift: FM confidence may exceed that of any individual child PM only where multiple PMs converge on the same phenome and the integrated FM biology provides additional biological rationale (biological uplift) beyond the individual mechanisms.";
+  "These outcomes describe translational contexts for the FM as an integrated biological capacity. They are not single-mechanism treatment claims. FM confidence uplift: FM confidence may exceed that of any individual child PM only where multiple PMs converge on the same phenome and the integrated FM biology provides additional biological rationale (biological uplift) beyond the individual mechanisms.";
 
 export const FM_OUTCOME_CONTEXT_EMPTY_MESSAGE =
   "No functional outcome context currently mapped.";
@@ -304,6 +246,13 @@ export function formatOutcomeConfidence(confidence) {
 
 function renderEvidenceConfidenceLine(row, references = []) {
   return `- **${PHENOME_EVIDENCE_CONFIDENCE_LABEL}:** ${formatOutcomeConfidence(resolveEvidenceConfidence(row, references))}`;
+}
+
+function renderRelationshipRatingLines(row, references = []) {
+  return [
+    `- **${PHENOME_BIOLOGY_CONFIDENCE_LABEL}:** ${formatOutcomeConfidence(row.confidence)}`,
+    renderEvidenceConfidenceLine(row, references),
+  ];
 }
 
 function validatePhenomeReference(ref, issues, { entityLabel, index, refIndex }) {
@@ -643,13 +592,12 @@ export function renderSmPhenPhenomeSectionBody(data, { sectionNum = 2 } = {}) {
 
   const type = ip.relationship_type || "modulates";
   const panelLines = [
-    `- **${PHENOME_BIOLOGY_CONFIDENCE_LABEL}:** ${formatOutcomeConfidence(ip.confidence)}`,
+    ...renderRelationshipRatingLines(ip, ip.references || []),
     `- **Rationale:** ${String(ip.rationale || "").trim()}`,
   ];
   if (Array.isArray(ip.references) && ip.references.length > 0) {
     panelLines.push(...renderPhenomeReferencesBlock(ip.references));
   }
-  panelLines.push(renderEvidenceConfidenceLine(ip, ip.references || []));
   const summary = `${ip.name} — ${type}${hostBrs ? ` (${hostBrs} lens)` : ""}`;
   lines.push(
     renderHubCollapsible(summary, panelLines.join("\n"), phenomeCollapsibleOptions(ip.name)),
@@ -666,30 +614,31 @@ export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 3,
     return lines.join("\n");
   }
 
-  const byId =
-    findingData && hasScientificFindings(findingData) ? findingsById(findingData) : null;
+  const usesFindings =
+    findingData && hasScientificFindings(findingData);
+  const refKeyIndex = usesFindings
+    ? buildPmReferenceKeyIndex(findingData.references || [])
+    : null;
 
   for (const rel of relationships) {
     const target = rel.target_phenome;
     const type = rel.relationship_type;
+    const rationaleText = refKeyIndex
+      ? expandPmCitationMarkers(rel.rationale, refKeyIndex)
+      : String(rel.rationale || "").trim();
     const panelLines = [
-      `- **${PHENOME_BIOLOGY_CONFIDENCE_LABEL}:** ${formatOutcomeConfidence(rel.confidence)}`,
-      `- **Rationale:** ${rel.rationale}`,
+      ...renderRelationshipRatingLines(rel, rel.references || []),
+      `- **Rationale:** ${rationaleText}`,
     ];
-    if (byId) {
-      const { crossRef } = splitRelationshipFindings(rel, byId);
+    if (usesFindings) {
       const primaryBlock = renderRelationshipPrimaryFindings(rel, findingData);
-      const crossRefLine = renderRelationshipFindingsLine(rel, byId, { ids: crossRef });
-      if (primaryBlock) panelLines.push(primaryBlock);
-      if (crossRefLine) panelLines.push(crossRefLine);
-      // Provenance comes through the canonical Findings above and in §4.1, so the
-      // Key References block and the legacy Evidence Confidence line are not
-      // rendered here. Both remain in front matter.
-    } else {
-      if (Array.isArray(rel.references) && rel.references.length > 0) {
-        panelLines.push(...renderPhenomeReferencesBlock(rel.references));
+      if (primaryBlock) {
+        panelLines.push("", "**Supporting evidence**", "", primaryBlock);
       }
-      panelLines.push(renderEvidenceConfidenceLine(rel, rel.references || []));
+      // Mechanistic Findings live in §4.1; interpretive constraints are folded into
+      // Rationale with numbered citations. Key References remain in front matter only.
+    } else if (Array.isArray(rel.references) && rel.references.length > 0) {
+      panelLines.push(...renderPhenomeReferencesBlock(rel.references));
     }
     lines.push(
       renderHubCollapsible(
@@ -720,13 +669,12 @@ export function renderFmOutcomeContextSectionBody(outcomes = [], { sectionNum = 
   for (const row of outcomes) {
     const target = row.outcome_name;
     const panelLines = [
-      `- **${PHENOME_BIOLOGY_CONFIDENCE_LABEL}:** ${formatOutcomeConfidence(row.confidence)}`,
+      ...renderRelationshipRatingLines(row, row.references || []),
       `- **Synthesis:** ${String(row.synthesis).trim()}`,
     ];
     if (Array.isArray(row.references) && row.references.length > 0) {
       panelLines.push(...renderPhenomeReferencesBlock(row.references));
     }
-    panelLines.push(renderEvidenceConfidenceLine(row, row.references || []));
     lines.push(
       renderHubCollapsible(target, panelLines.join("\n"), phenomeCollapsibleOptions(target)),
     );

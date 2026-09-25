@@ -14,7 +14,11 @@ This schema defines the canonical data contract and authoring contract for Key C
 
 ## KC Definition
 
-A Key Constraint (KC) is a **shared substrate, precursor, or structural biological pool** whose availability can **constrain multiple biologically distinct Primary Mechanisms (PMs) simultaneously** within a Biological Regulation System (BRS).
+A Key Constraint (KC) is an **identifiable nutritionally constrained resource
+pool or bottleneck** whose availability can **constrain multiple biologically
+distinct Primary Mechanisms (PMs)** within a Biological Regulation System (BRS).
+It is not a container for nutrients that merely support the same biological
+outcome.
 
 KCs describe:
 
@@ -31,22 +35,22 @@ Before creating or retaining a KC, apply:
 
 If it is primarily a direct input to a specific PM, FM, or narrow PM group, **do not** represent it as a KC. Retain it within:
 
-- PM **§4.1 Direct Dietary Levers** and **§4.1.2 Cofactors**
+- PM **§3.1.1 Direct and/or Derived Dietary Requirements** and **§3.1.2 Cofactors and Substrates** (legacy pages may still use Dietary Levers / Direct Dietary Levers / Cofactors and Supporting Inputs)
 - **BRS Dietary Guidance** on hub pages
 - relevant **FM** summaries and **Cross-BRS Dependencies**
 
-Importance alone does not justify KC status. Do not rename a PM dietary lever as a “pool.”
+Importance alone does not justify KC status. A substance is not a KC merely because it is a substrate, cofactor, nutritionally required, food-supplied, upstream of a PM, or part of a larger pathway. Do not rename a PM-specific dietary requirement as a “pool.”
 
 ### Architectural boundary
 
 | Layer | Role |
 |---|---|
 | **KC** | Shared substrate, precursor or cofactor dependency spanning multiple distinct mechanisms **within one BRS** |
-| **PM Dietary Lever** | Nutrient, compound, food or dietary strategy that directly influences a particular mechanism |
+| **PM Dietary Requirement** | Nutrient, compound, food or dietary strategy attributable to a particular PM as a Direct or Derived requirement, or as a PM-specific substrate/cofactor |
 | **BRS Dietary Guidance** | Broader practical dietary synthesis across the system |
 | **Cross-BRS Dependency** | How one regulatory system supports or constrains another |
 
-Do not blur these layers.
+Do not blur these layers. KC membership does not own or replace a PM-specific Direct/Derived Dietary Requirement or a PM-specific substrate/cofactor relationship. The same substance may carry both edges where scientifically appropriate — for example, methionine as a PM3 MAT substrate and methionine as a KC2 shared resource pool.
 
 ### Cross-BRS rule (required)
 
@@ -55,7 +59,7 @@ Do not blur these layers.
 - A KC belongs exclusively to the BRS that owns the shared biological resource.
 - Hub **Key Constraints (Dietary Bottlenecks)** lists **native KCs only** for that BRS.
 - If BRS1 depends on BRS2 or BRS3 biology, represent that only in **Cross-BRS Dependencies** — not by importing BRS2(KC1) or retired BRS3(KC3) into the BRS1 KC block.
-- PM §4.1.3 may still link cross-BRS KCs where a PM genuinely draws on an external pool; that does **not** roll up to foreign hub KC sections.
+- PM §3.1.3 (legacy §4.1.3) may still link cross-BRS KCs where a PM genuinely draws on an external pool; that does **not** roll up to foreign hub KC sections.
 
 **Native biology → native Key Constraints. Cross-system biology → Cross-BRS Dependencies.**
 
@@ -77,13 +81,145 @@ KCs should NOT describe:
 | Layer | Answers |
 |---|---|
 | KC | What shared biological resource pool do multiple PMs depend upon? |
-| PM Cofactors (§7.2) | What vitamins, minerals, or supporting compounds are required by this specific mechanism? |
+| PM Cofactors and Substrates (§3.1.2) | What biochemical cofactors and substrates does this specific mechanism require? |
 
 This distinction avoids duplication between KC pages and PM cofactor sections.
 
 KCs answer:
 
 > What shared biological resource pool do multiple PMs depend upon?
+
+---
+
+## Canonical ownership and evidence governance
+
+The owner of a scientific relationship adjudicates its canonical membership and
+evidence:
+
+- **The KC page owns the KC:** its resource-pool/bottleneck definition, evidence
+  that the constraint exists, constituent membership, each constituent's role
+  within the KC, and changes to that membership.
+- **The PM owns Input→PM and PM↔KC relevance:** whether any dietary input or
+  resource has an evidence-supported relationship to that PM, whether it is also
+  associated with a KC, and the PM-specific role, evidence, and limitation.
+
+These are separate propositions. **KC membership ≠ PM relevance. PM relevance ≠
+KC membership. KC membership ≠ an independent PM Dietary Requirement.**
+Neither proposition establishes the other, and neither review is a prerequisite
+for the other. Relationships may connect through canonical IDs after independent
+adjudication; ownership and evidence do not propagate.
+
+### KC-owned constituent evidence
+
+Every constituent retained by a completed canonical KC evidence review must have
+one KC-owned five-atom record:
+
+```yaml
+kc_evidence_review_status: canonical
+kc_input_traceability:
+  - atom_id: BRSX-KC1-KIT-1
+    input: Evidence-supported input
+    input_type: substrate
+    biological_role: Role within the constrained KC resource pool
+    evidence_source:
+      citation_keys: [supporting_source]
+    evidence_limitation: Boundary needed to avoid broadening the claim
+kc_constituent_presentations:
+  - atom_id: BRSX-KC1-KIT-1
+    section: core-nutritional-requirements
+```
+
+The atoms remain:
+
+1. Input
+2. Input Type
+3. Biological Role
+4. Evidence Source
+5. Limitation — when required
+
+`biological_role` must describe the input's role in the KC resource
+pool/bottleneck. Evidence must support constituent membership at that level.
+Existing inputs are not grandfathered: a canonical KC review must independently
+retain, modify, or remove every constituent. Until reviewed, legacy pages remain
+explicitly unreviewed; they must not claim `kc_evidence_review_status: canonical`.
+
+`kc_constituent_presentations` projects the atom by ID. It may control placement
+but must not restate or override Input, Input Type, Biological Role, Evidence
+Source, or Limitation in a parallel Markdown-owned scientific record.
+
+### Food examples are a separate proposition
+
+`Resistant starch ← cooled potatoes` contains two claims:
+
+1. resistant starch contributes to the KC pool; and
+2. cooled potatoes provide resistant starch.
+
+KC evidence must establish the first claim. The second belongs to the existing
+Food→Substance/Input composition architecture and cannot substitute for KC
+membership evidence. Representative foods may be displayed only as a projection
+of separately supported composition data.
+
+### Independent PM adjudication and KC connection
+
+A PM Dietary Requirements review independently adjudicates Input→PM relationships,
+including inputs listed by a legacy or reviewed KC. Supported PM science is stored
+as a PM-owned five-atom `dietary_input_traceability` record. KC review is not a
+gate and PM content must not be populated from KC-owned evidence.
+
+After independent adjudication, §3.1.3 may connect the PM atom to KC context:
+
+- `pm_atom_id` is required and resolves the PM-owned scientific relationship;
+- `kc_atom_id` is optional and may be added only when KC membership has separately
+  reached `canonical-reviewed`;
+- `legacy-unreviewed` preserves the legacy KC label and raises a KC
+  Change-Control Flag without delaying the PM decision; and
+- `challenged` records that PM evidence does not settle the KC membership
+  proposition.
+
+The PM must not redefine KC-level Biological Role, KC evidence, or KC membership.
+The KC must not redefine or remove the PM-owned atom. Displaying an input under KC
+context on a PM means the **Input→PM relationship is PM-owned**; it does not
+establish KC membership or automatically establish a §3.1.1 Direct/Derived
+classification. Conversely, KC membership does not justify projecting the input
+into every PM linked to the KC.
+
+Where the same input independently qualifies as a §3.1.1 Dietary Requirement,
+represent that as a distinct PM-owned relationship with its own provenance.
+Do not infer it from KC membership.
+
+### KC change control
+
+When a PM review suggests an invalid KC, a questionable constituent, a possible
+new constituent, or a possible new KC, record a **KC Change-Control Flag**. Do not
+modify canonical KC membership during the PM review. The KC-owned evidence review
+must adjudicate:
+
+- constituent: “Is this input genuinely part of this constrained resource pool?”;
+- KC: “Is this an identifiable bottleneck rather than nutrients supporting the
+  same outcome?”; or
+- new KC: “Does this independently constrained resource affect multiple distinct
+  mechanisms?”
+
+Cross-PM relevance alone does not establish a KC. The structured flag vocabulary
+and lifecycle are defined in `system/mechanism-change-control-queue.md`; validators
+enforce it through `kc_change_control_flags`.
+
+### Retirement
+
+If canonical review finds a KC invalid or redundant:
+
+1. add its ID and route to the retired KC registry;
+2. remove the live KC page and KC identity/membership projections;
+3. do not automatically migrate its constituents or create a replacement KC;
+4. independently adjudicate former constituents against relevant PMs or other
+   architecture layers; and
+5. preserve every independently valid PM-owned relationship and its provenance;
+   and
+6. preserve historical retirement notes without leaving live KC dependencies.
+
+Retired KCs must not appear in `key_constraints`, `pm_kc_relationships`, hubs, or
+other live projections. Validators enforce this against
+`scripts/lib/kc-registry.mjs`.
 
 ---
 
@@ -166,6 +302,10 @@ Purpose:
 
 - identify established dietary requirements, indispensable substrates, and required cofactors shared across multiple PMs
 - anchor the KC in real biological resources without turning the KC into a PM
+
+Each displayed resource must project a KC-owned `kc_input_traceability` atom after
+the KC has completed canonical evidence review. The compact reader display may
+remain concise; the atom is the scientific record.
 
 Inclusion threshold (all must apply):
 
@@ -339,13 +479,11 @@ Shared Biological Pool items should be:
 - structurally relevant
 - semantically aligned with the KC
 
-The presence of an input in this section does NOT require:
-
-- a dedicated citation beside the bullet
-- an intervention-level evidence claim
-- direct therapeutic proof
-
-The KC references collectively support the biological rationale for the listed substrate/support class.
+The compact bullet does not require an inline citation, intervention claim, or
+therapeutic proof. It **does** require proposition-specific Evidence Source in its
+KC-owned atom. General references may support the KC definition, but collective
+page-level references do not by themselves establish each constituent's
+membership.
 
 ### Avoid Overmechanising KCs
 
@@ -502,12 +640,12 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 - If a required substance or food entity is unresolved, flag: `Missing system entity: [name]`
 - Every `references[].citation_key` must resolve to `static/bibtex/BRAIN-diet.bib` before publish.
 - If missing, flag: `Missing bibliography entry`
-- Do not attach per-bullet citations in section 2 (Shared Biological Pool); flag citation explosion if present.
+- Do not require inline citations on compact section 2 bullets; require each bullet to project a KC-owned atom with proposition-specific evidence after canonical review.
 - KC references must align with KC Evidence Layer Rules (necessity/sufficiency), not PM/FM intervention evidence types.
 
 ## Deprecated (Do Not Use on New KC Pages)
 
-- `biological_role` (use `ambition` + `biological_importance`)
+- page-level `biological_role` (use `ambition` + `biological_importance`; this does not deprecate the required per-atom `biological_role`)
 - `Supporting Substances/Interventions` as a separate intervention-citation section
 - `Dietary Substrates/Precursors` as a standalone section heading
 - `Supporting Inputs/Substrates` (use `Shared Biological Pool`)
@@ -522,7 +660,10 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 
 ## KC audit notes (2026-03)
 
-**Retired:** `BRS3(KC3) — Essential Fatty Acid Balance` — duplicated EPA/DHA and omega-3/omega-6 guidance already owned by BRS1-FM3-PM6, BRS3-FM2-PM5, BRS3-FM3-PM7/PM8, and BRS Dietary Guidance. Retained as PM Dietary Levers and Cross-BRS dependencies only.
+**Retired:**
+
+- `BRS3(KC3) — Essential Fatty Acid Balance` — duplicated EPA/DHA and omega-3/omega-6 guidance already owned by BRS1-FM3-PM6, BRS3-FM2-PM5, BRS3-FM3-PM7/PM8, and BRS Dietary Guidance. Retained as PM Dietary Levers and Cross-BRS dependencies only.
+- `BRS5(KC3) — Barrier-Supportive Nutrient Sufficiency` — grouped omega-3, vitamin A, zinc, and glutamine by a shared outcome label rather than one identifiable limiting substrate, precursor, cofactor, or structural pool. Its former constituents must be adjudicated independently against the relevant PM; supported PM1 relationships remain PM-specific atoms, while modulation or broader dietary guidance must not be promoted back into a replacement KC.
 
 **Retain (passes shared-pool test):**
 
@@ -533,7 +674,6 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 | BRS3(KC1) | Antioxidant precursor pool shared across NF-κB, NRF2, ROS balance, lipid peroxidation, and network recycling PMs |
 | BRS4(KC1), BRS4(KC2) | Macronutrient fuel and mitochondrial cofactor pools shared across ETC, NAD⁺, biogenesis, and substrate-switching PMs |
 | BRS5(KC1), BRS5(KC2) | Fermentable-fibre and polyphenol/plant-diversity inputs shared across barrier, SCFA, keystone-taxa, and gut–brain PMs |
-| BRS5(KC3) | Barrier-supportive nutrient pool (zinc, vitamin A, glutamine context) shared across multiple BRS5(FM1) PMs — distinct from single-nutrient PM levers |
 | BRS6(KC1), BRS6(KC2) | Glucose substrate and stress-response micronutrient pools shared across glycaemic, HPA, and metabolic PMs |
 
 **Review if expanded (borderline):**

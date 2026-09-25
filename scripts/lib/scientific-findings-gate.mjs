@@ -16,9 +16,11 @@ import {
   SCIENTIFIC_FINDINGS_SECTION_TITLE,
   validateScientificFindings,
 } from "./scientific-findings.mjs";
+import { renderPmPhenomeSectionBody } from "./phenome-relationships.mjs";
+import { pmSectionNumbers } from "./pm-section-layout.mjs";
 
-export const FINDINGS_INTRO =
-  "Each Scientific Finding below states a mechanistic proposition — glutamate-to-GABA conversion and cofactor dependence, PLP formation, and the governing constraint that GABA concentration does not measure synthesis rate — together with the synthesis across that evidence, what limits it, and every study considered. Findings are authored once and referenced from Phenome Connections where they supply interpretive context. Relationship evidence for specific phenomes appears in full under §5.";
+/** Fallback when a PM omits `scientific_findings_intro` — author reader-facing biology per PM. */
+export const FINDINGS_INTRO = "";
 
 /** Heading forms the generator owns. */
 export const FINDINGS_SUBSECTION_HEADING =
@@ -73,6 +75,18 @@ export function checkScientificFindings(rootDir) {
       issues.push({
         code: "stale_findings_section",
         message: `${label}: §${expected.sectionNum}.1 ${SCIENTIFIC_FINDINGS_SECTION_TITLE} is stale — run npm run findings:sync`,
+      });
+    }
+
+    const { phenome } = pmSectionNumbers(content);
+    const expectedPhenome = renderPmPhenomeSectionBody(data.phenome_relationships || [], {
+      sectionNum: phenome,
+      findingData: data,
+    });
+    if (!content.includes(expectedPhenome)) {
+      issues.push({
+        code: "stale_findings_phenome_section",
+        message: `${label}: §${phenome} Phenome Connections is stale — run npm run phenome:sync -- --file ${path.relative(rootDir, filePath)} --pm-only`,
       });
     }
   }

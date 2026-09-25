@@ -8,6 +8,8 @@ import InChIImage from "@theme/InChIImage"
 import type {Props} from "@theme/DocItem/Content"
 import DocUtilityBar from "@site/src/components/ReviewCorrections/DocUtilityBar"
 import {AdvancedNutritionProvider} from "@site/src/components/AdvancedNutrition"
+import PmDietaryLeverEnhancer from "@site/src/components/PmDietaryLeverEnhancer"
+import PmSystemOptimisationEnhancer from "@site/src/components/PmSystemOptimisationEnhancer"
 
 function useSyntheticTitle(): string | null {
   const {metadata, frontMatter, contentTitle} = useDoc()
@@ -189,6 +191,8 @@ export default function DocItemContent({children}: Props): ReactNode {
 
         <MDXContent>{children}</MDXContent>
       </DocUtilityBar>
+        <PmDietaryLeverEnhancer frontMatter={frontMatter as Record<string, unknown>} />
+        <PmSystemOptimisationEnhancer frontMatter={frontMatter as Record<string, unknown>} />
       </AdvancedNutritionProvider>
     </div>
   )

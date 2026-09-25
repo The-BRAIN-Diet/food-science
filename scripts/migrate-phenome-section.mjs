@@ -20,6 +20,11 @@ import {
   renderSmPhenPhenomeSectionBody,
 } from "./lib/phenome-relationships.mjs";
 import { assertAllFmsHaveEvidenceHighlights } from "./lib/fm-schema-gate.mjs";
+import {
+  renderNumberedPmReferencesSection,
+  replacePmReferencesSection,
+} from "./lib/pm-reference-index.mjs";
+import { hasScientificFindings } from "./lib/scientific-findings.mjs";
 
 const rootDir = process.cwd();
 
@@ -116,6 +121,14 @@ function inferKindFromArgv(fileArg) {
   return "pm";
 }
 
+function syncPmNumberedReferences(body, data) {
+  if (!Array.isArray(data.references) || !data.references.length) return body;
+  if (!hasScientificFindings(data)) return body;
+  const block = renderNumberedPmReferencesSection(data.references);
+  const next = replacePmReferencesSection(body, block);
+  return next ?? body;
+}
+
 function syncPhenomeSection(filePath, kind) {
   const { data, content } = readMechanismPage(filePath);
   const section = findPhenomeSection(content);
@@ -130,6 +143,9 @@ function syncPhenomeSection(filePath, kind) {
   const merged = mergePageReferencesWithPhenome(data, body, kind);
   body = merged.content;
   const outData = merged.data;
+  if (kind === "pm") {
+    body = syncPmNumberedReferences(body, outData);
+  }
   if (body === content && !merged.changed && !backfillChanged) {
     return { skipped: true, reason: "unchanged" };
   }

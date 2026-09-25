@@ -4,7 +4,7 @@ Canonical public format for substrate/substance linkage to foods on:
 
 | Page kind | Section |
 |---|---|
-| PM | `## N. Dietary Levers` — `### N.1 Direct Dietary Levers` |
+| PM | `## N. Levers` → **N.1 Dietary Requirements** → **N.1.1 Direct and/or Derived Dietary Requirements** (legacy pages may still use Dietary Levers / Direct Dietary Levers) |
 | SM | `## N. Dietary Levers` — inside `<details><summary><strong>Diet</strong></summary>` |
 
 KC pages use `### 2. Shared Biological Pool` with the same `Resource ← food examples` bullet convention.

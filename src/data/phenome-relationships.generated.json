@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-09-23T07:07:10.663Z",
+    "generatedAt": "2026-09-25T17:42:25.833Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
@@ -130,7 +130,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Framework-supplied and insufficiently evidenced. No study measures GABA against worry, rumination or perseverative thought as functions; the available literature measures anxiety-disorder severity instead, which is a diagnostic label spanning somatic arousal and avoidance rather than this phenome's named capacity. The nearest in-boundary human evidence is high-dose B6 reducing self-reported anxiety, which only partially informs this phenome, and PLP serves over 140 enzymes so B6 is not a GABA-specific manipulation. Abolishing GAD65 in mice alters anxiety-like behaviour in a sex-dependent way rather than uniformly increasing it. Previous reliance on altered GABA receptor expression has been removed: receptor signalling is outside this PM boundary.",
+      "rationale": "GABAergic inhibition is relevant to anxiety-related processes, providing a plausible biological connection to Apprehensive Worry. The closest human trial found that high-dose vitamin B6 reduced self-reported anxiety and strengthened an inhibitory visual assay, but it measured neither GABA nor GABA synthesis {{cite:field_high-dose_2022}}. No study here directly assessed worry, rumination or perseverative thought, while GAD65-deficient mice show sex-dependent rather than uniform anxiety-like changes {{cite:ulrich_sex_2023}}.",
       "references": [
         {
           "index": 1,
@@ -570,7 +570,7 @@
       "confidence": "medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "SAMe is the principal methyl donor linking methionine metabolism to phospholipid, neurotransmitter, and broader methylation chemistry — making methionine→SAMe flux a system-level bottleneck for cognitive-relevant methylation-dependent processes. Clinical framing of combined SAMe, folate, and B12 reinforces upstream cofactor dependency. Direct ADHD cognitive-clarity outcome trials on SAMe synthesis support remain limited (biology > evidence gap).",
+      "rationale": "SAMe supplies methyl groups used by many downstream pathways relevant to neural function, but this is an inferred downstream bridge rather than evidence that MAT-dependent SAMe synthesis itself modulates Cognitive Clarity. The attached methylation review establishes SAMe's donor role, not a cognitive outcome or endogenous synthesis-flux effect {{cite:chiang_s-adenosylmethionine_1996}}. Circulating SAMe or SAM:SAH measurements cannot isolate MAT synthesis from utilisation and clearance {{cite:corrillero_bravo_analysis_2022}}. Direct relationship evidence remains a gap.",
       "references": [
         {
           "index": 1,
@@ -580,9 +580,9 @@
         },
         {
           "index": 2,
-          "label": "Cicero and Minervino (2022)",
-          "citationKey": "cicero_combined_2022",
-          "href": "/docs/papers/BRAIN-Diet-References#cicero_combined_2022"
+          "label": "Corrillero Bravo et al. (2022)",
+          "citationKey": "corrillero_bravo_analysis_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#corrillero_bravo_analysis_2022"
         }
       ],
       "targetPhenomeId": "PH011"
@@ -1654,7 +1654,7 @@
       "confidence": "medium",
       "evidenceConfidence": "medium",
       "evidenceLevel": "intervention",
-      "rationale": "Triangulated. The enzymatic arm is well established: glutamate decarboxylase requires pyridoxal-5-phosphate, and high-dose vitamin B6 reduces self-reported anxiety and strengthens an inhibitory sensory assay in healthy adults. Human evidence also links the anterior cingulate GABA pool to impulsivity and aggression. What is missing is the joining step: no study connects GABA synthesis capacity itself to emotional regulation in humans, and GABA concentration cannot stand in for synthesis rate. Mousain-Bosc et al. (2006) is retained as connected evidence only - it combined magnesium with B6 and measured neither GABA, GAD, PLP nor synthesis flux, so it cannot isolate this mechanism.",
+      "rationale": "GABA contributes to inhibitory neural processes involved in behavioural and emotional regulation. Human studies link GABA concentrations in relevant brain regions with impulsivity and aggression {{cite:ende_impulsivity_2016}}, supporting the relevance of GABA biology to Emotional Regulation. However, these studies measure GABA concentration rather than synthesis rate {{cite:mason_decrease_2001,manor_rate_1996}}, and direct human evidence connecting GABA synthesis capacity itself with Emotional Regulation is currently lacking.",
       "references": [
         {
           "index": 1,
@@ -1694,13 +1694,19 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "SAMe-dependent methylation intersects neurotransmitter and broader methylation chemistry relevant to affective regulation framing — an indirect framework translation from methyl-donor pool availability rather than direct emotional-regulation outcome measurement in ADHD populations.",
+      "rationale": "SAMe-dependent methylation is biologically relevant to downstream neurotransmitter and membrane chemistry, but the attached mood-disorder review concerns exogenous SAMe and combined folate/B12 treatment rather than endogenous MAT activity or SAMe synthesis flux {{cite:cicero_combined_2022}}. It therefore does not directly demonstrate that this PM modulates Emotional Regulation; the relationship remains an indirect framework bridge with a direct-evidence gap.",
       "references": [
         {
           "index": 1,
           "label": "Cicero and Minervino (2022)",
           "citationKey": "cicero_combined_2022",
           "href": "/docs/papers/BRAIN-Diet-References#cicero_combined_2022"
+        },
+        {
+          "index": 2,
+          "label": "Corrillero Bravo et al. (2022)",
+          "citationKey": "corrillero_bravo_analysis_2022",
+          "href": "/docs/papers/BRAIN-Diet-References#corrillero_bravo_analysis_2022"
         }
       ],
       "targetPhenomeId": "PH003"
@@ -1854,7 +1860,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "observational",
-      "rationale": "Gut-barrier compromise may modulate gut–brain signalling tone intersecting affective regulation in neurodevelopmental contexts — indirect framing from ADHD microbiota compositional work without direct emotional-outcome trials on barrier biology.",
+      "rationale": "The attached ADHD microbiota study did not measure intestinal permeability, tight-junction function or emotional-regulation outcomes {{cite:jiang_gut_2018}}. No direct evidence in the bounded assessment established that this PM modulates Emotional Regulation, so this remains a framework-level hypothesis with a direct-evidence gap.",
       "references": [
         {
           "index": 1,
@@ -2590,10 +2596,16 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "observational",
-      "rationale": "Compositional gut microbiota differences in treatment-naïve children with ADHD — including beneficial taxa guild shifts — intersect gut-barrier integrity as a upstream determinant of gut–brain immune signalling relevant to attention biology.",
+      "rationale": "Serum zonulin was associated with hyperactivity scores in one small cross-sectional ADHD study {{cite:ozyurt_increased_2018}}, but serum zonulin is an indirect barrier marker and the design cannot establish that tight-junction integrity causes attention instability. The attached microbiota-composition study did not measure permeability or tight junctions {{cite:jiang_gut_2018}}. The PM → Phenome relationship therefore remains indirect and observational.",
       "references": [
         {
           "index": 1,
+          "label": "Özyurt et al. (2018)",
+          "citationKey": "ozyurt_increased_2018",
+          "href": "/docs/papers/BRAIN-Diet-References#ozyurt_increased_2018"
+        },
+        {
+          "index": 2,
           "label": "Jiang et al. (2018)",
           "citationKey": "jiang_gut_2018",
           "href": "/docs/papers/BRAIN-Diet-References#jiang_gut_2018"
@@ -3676,7 +3688,7 @@
       "confidence": "high",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Framework-supplied, and contradicted at the level the evidence actually measures. GABA synthesis is a principal contributor to inhibitory calming neurophysiology within this PM boundary, but the direction assumed by that framing is not supported: across three independent polysomnography-verified primary insomnia samples, cortical GABA concentration was lower in one, 12% higher in another - where the authors read elevation as an adaptive allostatic response to chronic hyperarousal - and unchanged in a third that explicitly did not replicate earlier reports. No human study measures GAD activity, PLP status or synthesis flux against any sleep outcome. Receptor-level hypnotics and oral GABA supplementation lie outside this PM boundary.",
+      "rationale": "GABAergic inhibition supports calming neurophysiology relevant to sleep and arousal balance. In adults with polysomnography-verified primary insomnia, brain GABA concentration has been compared with good sleepers in three independent samples, reporting lower, higher, and null group differences {{cite:winkelman_reduced_2008,morgan_cortical_2012,spiegelhalder_magnetic_2016}}. However, the human findings are inconsistent, and these studies measure GABA concentration rather than GABA synthesis capacity.",
       "references": [
         {
           "index": 1,
@@ -3782,7 +3794,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Framework-supplied and insufficiently evidenced, with a directional contradiction that must stay visible. The proposition has been that inhibitory tone limits the hyperarousal driving social withdrawal. The only evidence that manipulates GABA synthesis and measures social behaviour points the other way: GAD65 knock-out mice of both sexes showed a higher preference for social interaction partners, heightened in males. Rodent social preference is in any case not equivalent to human social engagement capacity, and no human study relates GABA synthesis to social function. Edden et al. (2012) was removed from this row because it measures GABA concentration in ADHD and is silent on social outcomes.",
+      "rationale": "GABAergic regulation may influence Social Engagement indirectly through processes such as arousal and threat processing. In mice, lifelong loss of GAD65 increased preference for social interaction partners in both sexes {{cite:ulrich_sex_2023}}, opposite to a simple expectation that reduced GABA synthesis would reduce social approach. There is no human evidence linking GABA synthesis capacity to social engagement, and rodent partner preference is not equivalent to human social capacity.",
       "references": [
         {
           "index": 1,
@@ -4968,7 +4980,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "Framework-supplied and insufficiently evidenced. No study measures GABA against worry, rumination or perseverative thought as functions; the available literature measures anxiety-disorder severity instead, which is a diagnostic label spanning somatic arousal and avoidance rather than this phenome's named capacity. The nearest in-boundary human evidence is high-dose B6 reducing self-reported anxiety, which only partially informs this phenome, and PLP serves over 140 enzymes so B6 is not a GABA-specific manipulation. Abolishing GAD65 in mice alters anxiety-like behaviour in a sex-dependent way rather than uniformly increasing it. Previous reliance on altered GABA receptor expression has been removed: receptor signalling is outside this PM boundary.",
+        "evidence_summary": "GABAergic inhibition is relevant to anxiety-related processes, providing a plausible biological connection to Apprehensive Worry. The closest human trial found that high-dose vitamin B6 reduced self-reported anxiety and strengthened an inhibitory visual assay, but it measured neither GABA nor GABA synthesis {{cite:field_high-dose_2022}}. No study here directly assessed worry, rumination or perseverative thought, while GAD65-deficient mice show sex-dependent rather than uniform anxiety-like changes {{cite:ulrich_sex_2023}}.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM8",
@@ -5004,7 +5016,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "intervention",
         "overall_confidence": "high",
-        "evidence_summary": "Triangulated. The enzymatic arm is well established: glutamate decarboxylase requires pyridoxal-5-phosphate, and high-dose vitamin B6 reduces self-reported anxiety and strengthens an inhibitory sensory assay in healthy adults. Human evidence also links the anterior cingulate GABA pool to impulsivity and aggression. What is missing is the joining step: no study connects GABA synthesis capacity itself to emotional regulation in humans, and GABA concentration cannot stand in for synthesis rate. Mousain-Bosc et al. (2006) is retained as connected evidence only - it combined magnesium with B6 and measured neither GABA, GAD, PLP nor synthesis flux, so it cannot isolate this mechanism. Matched GABAergic–glutamatergic excitation–inhibition balance is a major contributory determinant of emotional control and reactivity; substantial E/I imbalance would be expected to impair Emotional Regulation as a direct biological consequence. Edden et al. (2012) and Puts et al. (2020) report reduced GABA in ADHD cohorts; Evidence Confidence is low because biomarkers do not measure emotional-regulation scales directly on this row.",
+        "evidence_summary": "GABA contributes to inhibitory neural processes involved in behavioural and emotional regulation. Human studies link GABA concentrations in relevant brain regions with impulsivity and aggression {{cite:ende_impulsivity_2016}}, supporting the relevance of GABA biology to Emotional Regulation. However, these studies measure GABA concentration rather than synthesis rate {{cite:mason_decrease_2001,manor_rate_1996}}, and direct human evidence connecting GABA synthesis capacity itself with Emotional Regulation is currently lacking. Matched GABAergic–glutamatergic excitation–inhibition balance is a major contributory determinant of emotional control and reactivity; substantial E/I imbalance would be expected to impair Emotional Regulation as a direct biological consequence. Edden et al. (2012) and Puts et al. (2020) report reduced GABA in ADHD cohorts; Evidence Confidence is low because biomarkers do not measure emotional-regulation scales directly on this row.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM8",
@@ -5074,7 +5086,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "high",
-        "evidence_summary": "Framework-supplied, and contradicted at the level the evidence actually measures. GABA synthesis is a principal contributor to inhibitory calming neurophysiology within this PM boundary, but the direction assumed by that framing is not supported: across three independent polysomnography-verified primary insomnia samples, cortical GABA concentration was lower in one, 12% higher in another - where the authors read elevation as an adaptive allostatic response to chronic hyperarousal - and unchanged in a third that explicitly did not replicate earlier reports. No human study measures GAD activity, PLP status or synthesis flux against any sleep outcome. Receptor-level hypnotics and oral GABA supplementation lie outside this PM boundary.",
+        "evidence_summary": "GABAergic inhibition supports calming neurophysiology relevant to sleep and arousal balance. In adults with polysomnography-verified primary insomnia, brain GABA concentration has been compared with good sleepers in three independent samples, reporting lower, higher, and null group differences {{cite:winkelman_reduced_2008,morgan_cortical_2012,spiegelhalder_magnetic_2016}}. However, the human findings are inconsistent, and these studies measure GABA concentration rather than GABA synthesis capacity.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM8",
@@ -5092,7 +5104,7 @@
         "strongest_relationship_type": "indirect",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low",
-        "evidence_summary": "Framework-supplied and insufficiently evidenced, with a directional contradiction that must stay visible. The proposition has been that inhibitory tone limits the hyperarousal driving social withdrawal. The only evidence that manipulates GABA synthesis and measures social behaviour points the other way: GAD65 knock-out mice of both sexes showed a higher preference for social interaction partners, heightened in males. Rodent social preference is in any case not equivalent to human social engagement capacity, and no human study relates GABA synthesis to social function. Edden et al. (2012) was removed from this row because it measures GABA concentration in ADHD and is silent on social outcomes.",
+        "evidence_summary": "GABAergic regulation may influence Social Engagement indirectly through processes such as arousal and threat processing. In mice, lifelong loss of GAD65 increased preference for social interaction partners in both sexes {{cite:ulrich_sex_2023}}, opposite to a simple expectation that reduced GABA synthesis would reduce social approach. There is no human evidence linking GABA synthesis capacity to social engagement, and rodent partner preference is not equivalent to human social capacity.",
         "contributing_pms": [
           {
             "id": "BRS1-FM4-PM8",
@@ -5908,7 +5920,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "observational",
         "overall_confidence": "high",
-        "evidence_summary": "Homocysteine lowering with folate and B12 cofactor combinations and B-vitamin cognitive effects contingent on omega-3 status (VITACOG reanalysis) support a nutrient-network read linking remethylation to cognitive clarity context. Framework translation from one-carbon biochemistry — attached refs establish homocysteine modulation and cognitive-decline interaction more than direct ADHD cognitive-clarity outcomes (biology > evidence gap). Betaine lowers homocysteine acutely and choline supports parallel remethylation and downstream membrane chemistry — an indirect framework translation to cognitive clarity through methyl-donor sufficiency rather than measured cognitive outcomes in ADHD cohorts. SAMe is the principal methyl donor linking methionine metabolism to phospholipid, neurotransmitter, and broader methylation chemistry — making methionine→SAMe flux a system-level bottleneck for cognitive-relevant methylation-dependent processes. Clinical framing of combined SAMe, folate, and B12 reinforces upstream cofactor dependency. Direct ADHD cognitive-clarity outcome trials on SAMe synthesis support remain limited (biology > evidence gap). Balanced methionine-cycle flux sets methylation potential (SAM availability relative to SAH-mediated constraint) that supports phospholipid, neurotransmitter and broader methylation chemistry relevant to cognitive clarity. Homocysteine remains a useful junction readout of cycle strain, but the biology scored here is coordinated methionine → SAM → SAH → remethylation/transsulfuration flux rather than homocysteine lowering alone. Direct ADHD cognitive-clarity outcomes on integrated cycle flux remain limited (biology > evidence gap).",
+        "evidence_summary": "Homocysteine lowering with folate and B12 cofactor combinations and B-vitamin cognitive effects contingent on omega-3 status (VITACOG reanalysis) support a nutrient-network read linking remethylation to cognitive clarity context. Framework translation from one-carbon biochemistry — attached refs establish homocysteine modulation and cognitive-decline interaction more than direct ADHD cognitive-clarity outcomes (biology > evidence gap). Betaine lowers homocysteine acutely and choline supports parallel remethylation and downstream membrane chemistry — an indirect framework translation to cognitive clarity through methyl-donor sufficiency rather than measured cognitive outcomes in ADHD cohorts. SAMe supplies methyl groups used by many downstream pathways relevant to neural function, but this is an inferred downstream bridge rather than evidence that MAT-dependent SAMe synthesis itself modulates Cognitive Clarity. The attached methylation review establishes SAMe's donor role, not a cognitive outcome or endogenous synthesis-flux effect {{cite:chiang_s-adenosylmethionine_1996}}. Circulating SAMe or SAM:SAH measurements cannot isolate MAT synthesis from utilisation and clearance {{cite:corrillero_bravo_analysis_2022}}. Direct relationship evidence remains a gap. Balanced methionine-cycle flux sets methylation potential (SAM availability relative to SAH-mediated constraint) that supports phospholipid, neurotransmitter and broader methylation chemistry relevant to cognitive clarity. Homocysteine remains a useful junction readout of cycle strain, but the biology scored here is coordinated methionine → SAM → SAH → remethylation/transsulfuration flux rather than homocysteine lowering alone. Direct ADHD cognitive-clarity outcomes on integrated cycle flux remain limited (biology > evidence gap).",
         "contributing_pms": [
           {
             "id": "BRS2-FM1-PM1",
@@ -5950,7 +5962,7 @@
         "strongest_relationship_type": "indirect",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "low-medium",
-        "evidence_summary": "SAMe-dependent methylation intersects neurotransmitter and broader methylation chemistry relevant to affective regulation framing — an indirect framework translation from methyl-donor pool availability rather than direct emotional-regulation outcome measurement in ADHD populations.",
+        "evidence_summary": "SAMe-dependent methylation is biologically relevant to downstream neurotransmitter and membrane chemistry, but the attached mood-disorder review concerns exogenous SAMe and combined folate/B12 treatment rather than endogenous MAT activity or SAMe synthesis flux {{cite:cicero_combined_2022}}. It therefore does not directly demonstrate that this PM modulates Emotional Regulation; the relationship remains an indirect framework bridge with a direct-evidence gap.",
         "contributing_pms": [
           {
             "id": "BRS2-FM1-PM3",
@@ -6466,7 +6478,7 @@
         "strongest_relationship_type": "indirect",
         "highest_evidence_level": "observational",
         "overall_confidence": "low",
-        "evidence_summary": "Gut-barrier compromise may modulate gut–brain signalling tone intersecting affective regulation in neurodevelopmental contexts — indirect framing from ADHD microbiota compositional work without direct emotional-outcome trials on barrier biology.",
+        "evidence_summary": "The attached ADHD microbiota study did not measure intestinal permeability, tight-junction function or emotional-regulation outcomes {{cite:jiang_gut_2018}}. No direct evidence in the bounded assessment established that this PM modulates Emotional Regulation, so this remains a framework-level hypothesis with a direct-evidence gap.",
         "contributing_pms": [
           {
             "id": "BRS5-FM1-PM1",
@@ -6484,7 +6496,7 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "observational",
         "overall_confidence": "medium",
-        "evidence_summary": "Compositional gut microbiota differences in treatment-naïve children with ADHD — including beneficial taxa guild shifts — intersect gut-barrier integrity as a upstream determinant of gut–brain immune signalling relevant to attention biology. ADHD gut microbiota compositional differences implicate altered gut–immune interface function — LPS/endotoxin containment is the mechanism boundary for limiting gut-derived inflammatory load reaching systemic circulation, not cytokine phenotypes (BRS3). Reduced microbial alpha diversity in paediatric ADHD, compositional shifts in treatment-naïve cohorts, and open-label Bifidobacterium supplementation with symptom change converge on ecological keystone support as attention-relevant gut–brain context.",
+        "evidence_summary": "Serum zonulin was associated with hyperactivity scores in one small cross-sectional ADHD study {{cite:ozyurt_increased_2018}}, but serum zonulin is an indirect barrier marker and the design cannot establish that tight-junction integrity causes attention instability. The attached microbiota-composition study did not measure permeability or tight junctions {{cite:jiang_gut_2018}}. The PM → Phenome relationship therefore remains indirect and observational. ADHD gut microbiota compositional differences implicate altered gut–immune interface function — LPS/endotoxin containment is the mechanism boundary for limiting gut-derived inflammatory load reaching systemic circulation, not cytokine phenotypes (BRS3). Reduced microbial alpha diversity in paediatric ADHD, compositional shifts in treatment-naïve cohorts, and open-label Bifidobacterium supplementation with symptom change converge on ecological keystone support as attention-relevant gut–brain context.",
         "contributing_pms": [
           {
             "id": "BRS5-FM1-PM1",

@@ -20,7 +20,8 @@ import {
   mergePageReferencesWithPhenome,
   renderPmPhenomeSectionBody,
 } from "./lib/phenome-relationships.mjs";
-import { findingsById } from "./lib/scientific-findings.mjs";
+import { hasScientificFindings } from "./lib/scientific-findings.mjs";
+import { pmSectionNumbers } from "./lib/pm-section-layout.mjs";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -40,13 +41,15 @@ function pmMatchesBrs(data, brs) {
   return id.startsWith(brs) || String(data.parent_brs || "").startsWith(brs);
 }
 
-const PHENOME_SECTION = /^## 3\. Phenome Connections[\s\S]*?(?=\n## 4\. )/m;
-
-function replacePhenomeSection(content, phenomeBlock) {
-  if (PHENOME_SECTION.test(content)) {
-    return content.replace(PHENOME_SECTION, `${phenomeBlock.trimEnd()}\n\n`);
+function replacePhenomeSection(content, phenomeBlock, sectionNum) {
+  const phenomeSection = new RegExp(
+    `^## ${sectionNum}\\. Phenome Connections[\\s\\S]*?(?=\\n## ${sectionNum + 1}\\. )`,
+    "m",
+  );
+  if (phenomeSection.test(content)) {
+    return content.replace(phenomeSection, `${phenomeBlock.trimEnd()}\n\n`);
   }
-  throw new Error("Missing ## 3. Phenome Connections section");
+  throw new Error(`Missing ## ${sectionNum}. Phenome Connections section`);
 }
 
 function main() {
@@ -74,6 +77,16 @@ function main() {
     const raw = fs.readFileSync(filePath, "utf8");
     const { data, content } = matter(raw);
     const rel = path.relative(root, filePath);
+
+    // Canonical Findings-owned PMs author relationships and Finding references
+    // together in front matter. A legacy curated-map run must never replace that
+    // adjudicated source, including under --force.
+    if (hasScientificFindings(data)) {
+      skipped++;
+      console.log(`skip (Scientific Findings own phenome relationships): ${data.pm_id}`);
+      continue;
+    }
+
     const relationships = resolvePmPhenomeConfig(phenomeMap, { pmId: data.pm_id, filePath });
 
     if (!relationships?.length) {
@@ -92,12 +105,13 @@ function main() {
       continue;
     }
 
+    const { phenome } = pmSectionNumbers(content);
     const nextData = { ...data, phenome_relationships: relationships };
     const phenomeBlock = renderPmPhenomeSectionBody(relationships, {
-      sectionNum: 3,
+      sectionNum: phenome,
       findingData: data,
     });
-    let nextContent = replacePhenomeSection(content, phenomeBlock);
+    let nextContent = replacePhenomeSection(content, phenomeBlock, phenome);
     const merged = mergePageReferencesWithPhenome(nextData, nextContent, "pm");
     const rebuilt = matter.stringify(merged.content, merged.data, { lineWidth: 9999 });
 

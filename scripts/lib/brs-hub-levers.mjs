@@ -9,6 +9,12 @@ import { assertHubLeversPatchAllowed } from "./brs-hub-migrated-guard.mjs";
 import { HUB_SIGNATURE_FOODS } from "../data/brs-hub-signature-foods.mjs";
 import { buildIntegratedLifestylePriorities } from "./brs-hub-lifestyle-merge.mjs";
 import { isNativeKcForBrs, isRetiredKc } from "./kc-registry.mjs";
+import { extractHubItemBlock } from "./pm-section-4-levers.mjs";
+import {
+  firstMatchingPanel,
+  PM_DIETARY_DIRECT_PANEL_TITLES,
+  PM_DIETARY_KC_PANEL_TITLES,
+} from "./pm-section-layout.mjs";
 
 export const DIETARY_CATEGORIES = [
   { id: "nutrient_dense_stars", label: "Target Foods" },
@@ -300,7 +306,6 @@ export const KEY_DIETARY_STRATEGY_TARGETS = {
     "plant-diversity patterns",
     "polyphenol-rich foods",
     "fermented-food patterns where tolerated",
-    "barrier-supportive nutrient pairing",
   ],
   BRS6: [
     "Glycaemic stabilisation",
@@ -333,7 +338,7 @@ export const KEY_DIETARY_STRATEGY_PROSE = {
   BRS4:
     "Build meals around dependable macronutrient fuel from protein, whole grains, legumes, and starchy vegetables, treating B-vitamin, iron, and magnesium cofactors as the enabling layer that helps omega-3s, polyphenols, and amino-acid substrates support mitochondrial work. Combine plant-forward patterns with nutrient-dense animal foods — seafood, eggs, fermented dairy (cheese and kefir), lean meats, and occasional offal — for creatine, carnitine, CoQ10-relevant context, taurine, and complete protein; creatine-rich examples include beef, lamb, pork, salmon, tuna, cod, and scallops, while plant-only patterns may lack meaningful dietary creatine unless supplemented. Quality extra virgin olive oil — especially early-harvest oils with higher polyphenol and CoQ10-relevant content — plus oily fish, beef, broccoli, spinach, and pistachios add further electron-transport and redox support. Support glutathione-linked antioxidant networks and polyphenol diversity through varied plants rather than high-dose isolated supplements. Include fermentable fibre from oats, barley, and legumes where tolerated to connect gut-derived butyrate biology to brain energy metabolism alongside BRS5 context.",
   BRS5:
-    "Eat a wide variety of plant foods daily — vegetables, fruits, legumes, whole grains, nuts, and seeds — to support microbial diversity, competitive ecological turnover, and polyphenol-linked biotransformation rather than isolated superfood fixes. Include fermented foods where tolerated — kefir, plain yogurt, and fermented vegetables — alongside fermentable fibre from oats, barley, lentils, and cooled potatoes and rice to sustain short-chain fatty acid output relevant to barrier integrity and gut–brain signalling. Combine omega-3-rich seafood, eggs, and barrier-supportive whole foods with minimally processed meal patterns that limit ultra-processed load, excess alcohol, and chronic barrier strain from low plant diversity. Support neurotransmitter-precursor context through protein-rich whole foods combined with fibre-supported microbial metabolism rather than isolated amino-acid emphasis — repeated dietary pattern quality matters more than short probiotic bursts.",
+    "Eat a wide variety of plant foods daily — vegetables, fruits, legumes, whole grains, nuts, and seeds — to support microbial diversity, competitive ecological turnover, and polyphenol-linked biotransformation rather than isolated superfood fixes. Include fermented foods where tolerated — kefir, plain yogurt, and fermented vegetables — alongside fermentable fibre from oats, barley, lentils, and cooled potatoes and rice to sustain short-chain fatty acid output relevant to barrier integrity and gut–brain signalling. Combine nutrient-dense whole foods with minimally processed meal patterns that limit ultra-processed load, excess alcohol, and chronic barrier strain from low plant diversity. Support neurotransmitter-precursor context through protein-rich whole foods combined with fibre-supported microbial metabolism rather than isolated amino-acid emphasis — repeated dietary pattern quality matters more than short probiotic bursts.",
   BRS6:
     "Prioritise stable meal composition, consistent meal timing, and minimally processed foods that support sustained energy availability and metabolic flexibility. Build meals that combine protein, fibre-rich carbohydrates, and healthy fats; include protein-rich breakfasts where appropriate, polyphenol-rich plant foods, and omega-3-containing seafoods. Favour dietary patterns that minimise blood sugar swings and unnecessary inflammatory burden.",
   "BRS-X(ECS)":
@@ -753,6 +758,28 @@ export function parseKcPanel(raw) {
       href: linkMatch[2].trim(),
     });
   }
+
+  const nestedRe =
+    /<strong class="brs-fm-hub-title">\(Key Constraint\) \(([^)]+)\) — ([^<]+)<\/strong>\s*<a class="brs-fm-hub-open" href="([^"]+)"/g;
+  for (const match of raw.matchAll(nestedRe)) {
+    const href = match[3].trim();
+    if (kcs.some((kc) => kc.href === href)) continue;
+    kcs.push({
+      label: `(${match[1].trim()}) — ${match[2].trim()}`,
+      href,
+    });
+  }
+
+  const linkedTitleRe =
+    /<strong class="brs-fm-hub-title"><a class="brs-kc-title-link" href="([^"]+)"[^>]*>\(Key Constraint\) \(([^)]+)\) — ([^<]+)<\/a><\/strong>/g;
+  for (const match of raw.matchAll(linkedTitleRe)) {
+    const href = match[1].trim();
+    if (kcs.some((kc) => kc.href === href)) continue;
+    kcs.push({
+      label: `(${match[2].trim()}) — ${match[3].trim()}`,
+      href,
+    });
+  }
   return kcs;
 }
 
@@ -944,8 +971,14 @@ export function collapseKeyConstraintsRollup(enrichedKcs, brsId) {
 
 export function extractPmLevers(content, filePath) {
   const { id, href } = parsePmMeta(content, filePath);
-  const dietaryRaw = extractHubPanel(content, "4.1.1 Direct Dietary Levers");
-  const kcRaw = extractHubPanel(content, "4.1.3 KCs (Key Constraints)");
+  const dietaryRaw = firstMatchingPanel(content, PM_DIETARY_DIRECT_PANEL_TITLES, [
+    extractHubPanel,
+    (source, title) => extractHubItemBlock(source, title)?.block,
+  ]);
+  const kcRaw = firstMatchingPanel(content, PM_DIETARY_KC_PANEL_TITLES, [
+    (source, title) => extractHubItemBlock(source, title)?.block,
+    extractHubPanel,
+  ]);
   const lifestyleRaw = extractHubPanel(content, "4.3 Lifestyle Levers");
 
   const foods = [];

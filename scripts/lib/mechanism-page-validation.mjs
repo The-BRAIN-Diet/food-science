@@ -8,7 +8,16 @@ import path from "node:path";
 import { HAS_DROPDOWN_RE } from "./hub-collapsible.mjs";
 import matter from "gray-matter";
 import { isLegacyFoodToSubstanceLine } from "./substance-food-mapping.mjs";
-import { expectedPmCoreOrder, pmSectionNumbers } from "./pm-section-layout.mjs";
+import {
+  expectedPmCoreOrder,
+  isCofactorsSubstratesTitle,
+  isDietaryRequirementsParentTitle,
+  isDirectDerivedDietaryTitle,
+  isKeyConstraintsDietaryTitle,
+  PM_DIETARY_REQUIREMENTS_HEADINGS,
+  PM_DIETARY_REQUIREMENTS_LEGACY_HEADINGS,
+  pmSectionNumbers,
+} from "./pm-section-layout.mjs";
 import {
   FM_PHENOME_CONNECTIONS_SECTION_TITLE,
   PM_PHENOME_SECTION_TITLE,
@@ -18,6 +27,7 @@ import {
   validatePhenomeSectionBody,
   validateSinglePmFmOutcomeAlignment,
 } from "./phenome-relationships.mjs";
+import { validateDietaryLeverAtoms } from "./dietary-lever-atoms.mjs";
 import {
   PM_SECTION_6_2_TITLE,
   PM_SECTION_6_3_TITLE,
@@ -25,6 +35,11 @@ import {
 import {
   validateFmSupportingKcPools,
 } from "./fm-supporting-kc-pools.mjs";
+import {
+  buildCanonicalKcIndex,
+  validateKcOwnedEvidence,
+  validatePmKcGovernance,
+} from "./kc-evidence-governance.mjs";
 
 export const TIMING_SPECIFIC_VALUES = new Set(["Yes", "No"]);
 
@@ -138,17 +153,17 @@ function validateSubstanceFoodMappingSections(content, issues, { entityLabel, ki
     return;
   }
 
-  const dietary = extractSectionBody(content, /## \d+\. Dietary Levers/, /\n## \d+\. /);
+  const dietary = extractSectionBody(content, /## \d+\. Dietary (?:Requirements|Levers)/, /\n## \d+\. /);
   if (!dietary) return;
   if (/Food sources \(examples\)/i.test(dietary)) {
     pushIssue(
       issues,
       "nested_food_sources_collapsible",
-      `${entityLabel}: Dietary Levers must not use nested Food sources (examples); use substance ← food in Direct Dietary Levers`,
+      `${entityLabel}: Dietary Requirements must not use nested Food sources (examples); use substance ← food in Direct and/or Derived Dietary Requirements`,
     );
   }
   const directSection = dietary.match(
-    /### \d+\.1 Direct Dietary Levers\s*\n([\s\S]*?)(?=\n### |\n## |$)/,
+    /### \d+\.1 (?:Direct and\/or Derived Dietary Requirements|Direct Dietary Levers)\s*\n([\s\S]*?)(?=\n### |\n## |$)/,
   )?.[1];
   const dietDetail = dietary.match(
     /<summary><strong>Diet<\/strong><\/summary>\s*\n([\s\S]*?)\n<\/details>/,
@@ -320,6 +335,41 @@ function extractLeversSectionBody(content) {
   const next = after.slice(1).search(NEXT_INTEGER_SECTION_HEADING);
   const end = next === -1 ? content.length : start + 1 + next;
   return { block: content.slice(start, end) };
+}
+
+export function validatePmDietaryRequirementHeadings(
+  content,
+  issues = [],
+  { entityLabel = "PM" } = {},
+) {
+  const parentMatch = String(content).match(
+    /(?:<strong>|^###\s+)([34])\.1\s+(Dietary Requirements|Dietary Levers)(?:<\/strong>|$)/m,
+  );
+  if (!parentMatch) return issues;
+
+  const major = parentMatch[1];
+  const parentTitle = parentMatch[2];
+  if (parentTitle === PM_DIETARY_REQUIREMENTS_LEGACY_HEADINGS.parent) {
+    return issues;
+  }
+
+  const required = [
+    [`${major}.1.1`, PM_DIETARY_REQUIREMENTS_HEADINGS.directDerived],
+    [`${major}.1.2`, PM_DIETARY_REQUIREMENTS_HEADINGS.cofactorsSubstrates],
+    [`${major}.1.3`, PM_DIETARY_REQUIREMENTS_HEADINGS.keyConstraints],
+  ];
+  for (const [number, title] of required) {
+    const escaped = `${number} ${title}`.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const heading = new RegExp(`(?:<strong>|^###\\s+)${escaped}(?:<\\/strong>|$)`, "m");
+    if (!heading.test(content)) {
+      pushIssue(
+        issues,
+        "pm_dietary_requirements_headings",
+        `${entityLabel}: §${number} must be ${title}`,
+      );
+    }
+  }
+  return issues;
 }
 
 function validateInterventionProfileInLevers(leversBlock, issues, { entityLabel, dominance }) {
@@ -1018,7 +1068,9 @@ function getConnectedMechanismsBlock(content) {
 }
 
 function getDietaryLeversBlock(content) {
-  const dietary = parseNumberedSections(content).find((s) => s.title.startsWith("Dietary Levers"));
+  const dietary = parseNumberedSections(content).find((s) =>
+    isDietaryRequirementsParentTitle(s.title),
+  );
   if (!dietary) return null;
   const blockStart = content.indexOf(dietary.line);
   const after = content.slice(blockStart);
@@ -1090,7 +1142,10 @@ function validatePmHarmonisedSections(content, issues, { entityLabel }) {
   }
 
   const leversExtracted = extractLeversSectionBody(content);
-  if (leversExtracted) return;
+  if (leversExtracted) {
+    validatePmDietaryRequirementHeadings(leversExtracted.block, issues, { entityLabel });
+    return;
+  }
 
   const dietaryBlock = getDietaryLeversBlock(content);
   if (!dietaryBlock) return;
@@ -1099,28 +1154,30 @@ function validatePmHarmonisedSections(content, issues, { entityLabel }) {
     minor: parseInt(m[2], 10),
     title: m[3].trim(),
   }));
-  const dietaryLevel = parseNumberedSections(content).find((s) => s.title.startsWith("Dietary Levers"))?.level;
+  const dietaryLevel = parseNumberedSections(content).find((s) =>
+    isDietaryRequirementsParentTitle(s.title),
+  )?.level;
   if (!dietaryLevel) return;
   const dietSubs = subs.filter((s) => s.major === dietaryLevel);
-  if (dietSubs.length >= 1 && !/Direct Dietary Levers/i.test(dietSubs[0]?.title || "")) {
+  if (dietSubs.length >= 1 && !isDirectDerivedDietaryTitle(dietSubs[0]?.title || "")) {
     pushIssue(
       issues,
       "pm_dietary_subsections",
-      `${entityLabel}: §${dietaryLevel}.1 must be Direct Dietary Levers`,
+      `${entityLabel}: §${dietaryLevel}.1 must be ${PM_DIETARY_REQUIREMENTS_HEADINGS.directDerived} (legacy: ${PM_DIETARY_REQUIREMENTS_LEGACY_HEADINGS.directDerived})`,
     );
   }
-  if (dietSubs.length >= 2 && !/Cofactors and Supporting Inputs/i.test(dietSubs[1]?.title || "")) {
+  if (dietSubs.length >= 2 && !isCofactorsSubstratesTitle(dietSubs[1]?.title || "")) {
     pushIssue(
       issues,
       "pm_dietary_subsections",
-      `${entityLabel}: §${dietaryLevel}.2 must be Cofactors and Supporting Inputs`,
+      `${entityLabel}: §${dietaryLevel}.2 must be ${PM_DIETARY_REQUIREMENTS_HEADINGS.cofactorsSubstrates} (legacy: ${PM_DIETARY_REQUIREMENTS_LEGACY_HEADINGS.cofactorsSubstrates})`,
     );
   }
-  if (dietSubs.length >= 3 && !/KCs/i.test(dietSubs[2]?.title || "")) {
+  if (dietSubs.length >= 3 && !isKeyConstraintsDietaryTitle(dietSubs[2]?.title || "")) {
     pushIssue(
       issues,
       "pm_dietary_subsections",
-      `${entityLabel}: §${dietaryLevel}.3 must be KCs (Key Constraints)`,
+      `${entityLabel}: §${dietaryLevel}.3 must be ${PM_DIETARY_REQUIREMENTS_HEADINGS.keyConstraints}`,
     );
   }
 }
@@ -1287,7 +1344,7 @@ function validateUnderlyingCofactorsBeforeKcs(content, issues, { entityLabel, ex
   }
 }
 
-function validatePmPage(filePath) {
+function validatePmPage(filePath, { canonicalKcIndex = null } = {}) {
   const { data, content } = readMechanismPage(filePath);
   const entityLabel = data.pm_id || path.basename(filePath);
   const issues = [];
@@ -1299,6 +1356,10 @@ function validatePmPage(filePath) {
   validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "pm" });
   validatePmPhenomeFrontMatter(data, issues, { entityLabel });
   validatePhenomeSectionBody(content, issues, { entityLabel, kind: "pm" });
+  if (data.dietary_input_traceability?.length || data.dietary_lever_atoms?.length) {
+    validateDietaryLeverAtoms(data, issues, { entityLabel });
+  }
+  validatePmKcGovernance(data, issues, { entityLabel, canonicalKcIndex });
   validatePmExtendedProfile(data, content, issues, { entityLabel });
   if (pmUsesExtendedProfile(data, content)) {
     validatePmHarmonisedSections(content, issues, { entityLabel, parentBrs: data.parent_brs });
@@ -1314,6 +1375,7 @@ function validateKcPage(filePath) {
   validateNoPublicSpreadsheetMentions(content, issues, { entityLabel });
   validateNoGenericReferenceLabels(content, issues, { entityLabel });
   validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "kc" });
+  validateKcOwnedEvidence(data, issues, { entityLabel });
 
   if (/### 6\. Constraint Stressors \/ Burdens/m.test(content)) {
     pushIssue(
@@ -1449,8 +1511,14 @@ export function migrateAllTimingSections(rootDir = process.cwd(), opts = {}) {
 
 export function validateAllMechanismPages(rootDir = process.cwd()) {
   const fm = listMechanismMdxFiles(rootDir, "fm").map((f) => validateFmPage(f, { rootDir }));
-  const pm = listMechanismMdxFiles(rootDir, "pm").map(validatePmPage);
-  const kc = listMechanismMdxFiles(rootDir, "kc").map(validateKcPage);
+  const kcFiles = listMechanismMdxFiles(rootDir, "kc");
+  const canonicalKcIndex = buildCanonicalKcIndex(
+    kcFiles.map((filePath) => readMechanismPage(filePath).data),
+  );
+  const pm = listMechanismMdxFiles(rootDir, "pm").map((filePath) =>
+    validatePmPage(filePath, { canonicalKcIndex }),
+  );
+  const kc = kcFiles.map(validateKcPage);
   const sm = listMechanismMdxFiles(rootDir, "sm").map(validateSmPage);
   return { fm, pm, kc, sm, all: [...fm, ...pm, ...kc, ...sm] };
 }

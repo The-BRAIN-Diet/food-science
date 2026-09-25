@@ -1,5 +1,6 @@
 /**
- * Canonical substance ← food mappings for PM §4.1.2 Cofactors and Supporting Inputs.
+ * Canonical substance ← food mappings for PM §3.1.2 Cofactors and Substrates
+ * (legacy §4.1.2 Cofactors and Supporting Inputs still accepted).
  * @see system/substance-food-mapping-format.md
  */
 import fs from "node:fs";
@@ -10,6 +11,12 @@ import {
   collectSubstanceFoodMap,
   isSubstanceFoodBullet,
 } from "./substance-food-mapping.mjs";
+import { extractHubItemBlock } from "./pm-section-4-levers.mjs";
+import {
+  PM_DIETARY_COFACTOR_PANEL_TITLES,
+  PM_DIETARY_DIRECT_PANEL_TITLES,
+  PM_DIETARY_KC_PANEL_TITLES,
+} from "./pm-section-layout.mjs";
 
 /** Normalized lookup key → canonical display label */
 export const COFACTOR_CANONICAL_LABELS = {
@@ -98,6 +105,21 @@ function extractBulletBlock(content, headingPattern) {
   return content.match(re)?.[1] || "";
 }
 
+function escapeHeading(title) {
+  return String(title).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function extractDietaryPanelBlocks(content, titles) {
+  const blocks = [];
+  for (const title of titles) {
+    const escaped = escapeHeading(title);
+    blocks.push(extractHubItemBlock(content, title)?.block || "");
+    blocks.push(extractBulletBlock(content, `<strong>${escaped}</strong>`));
+    blocks.push(extractBulletBlock(content, `<summary><strong>${escaped}</strong></summary>`));
+  }
+  return blocks.filter(Boolean);
+}
+
 export function buildCofactorFoodIndex(docsRoot) {
   const biologicalTargets = path.join(docsRoot, "biological-targets");
   /** @type {Map<string, Set<string>>} */
@@ -106,11 +128,9 @@ export function buildCofactorFoodIndex(docsRoot) {
   for (const filePath of walkMdxFiles(biologicalTargets)) {
     const content = fs.readFileSync(filePath, "utf8");
     const blocks = [
-      extractBulletBlock(content, "<strong>4\\.1\\.1 Direct Dietary Levers</strong>"),
-      extractBulletBlock(content, "<strong>4\\.1\\.2 Cofactors and Supporting Inputs</strong>"),
-      extractBulletBlock(content, "<strong>4\\.1\\.3 KCs \\(Key Constraints\\)</strong>"),
-      extractBulletBlock(content, "<summary><strong>4\\.1\\.1 Direct Dietary Levers</strong></summary>"),
-      extractBulletBlock(content, "<summary><strong>4\\.1\\.3 KCs \\(Key Constraints\\)</strong></summary>"),
+      ...extractDietaryPanelBlocks(content, PM_DIETARY_DIRECT_PANEL_TITLES),
+      ...extractDietaryPanelBlocks(content, PM_DIETARY_COFACTOR_PANEL_TITLES),
+      ...extractDietaryPanelBlocks(content, PM_DIETARY_KC_PANEL_TITLES),
     ];
     for (const block of blocks) {
       if (!block) continue;
@@ -128,10 +148,8 @@ export function buildCofactorFoodIndex(docsRoot) {
 
 export function buildLocalCofactorMap(content) {
   const blocks = [
-    extractBulletBlock(content, "<strong>4\\.1\\.1 Direct Dietary Levers</strong>"),
-    extractBulletBlock(content, "<strong>4\\.1\\.3 KCs \\(Key Constraints\\)</strong>"),
-    extractBulletBlock(content, "<summary><strong>4\\.1\\.1 Direct Dietary Levers</strong></summary>"),
-    extractBulletBlock(content, "<summary><strong>4\\.1\\.3 KCs \\(Key Constraints\\)</strong></summary>"),
+    ...extractDietaryPanelBlocks(content, PM_DIETARY_DIRECT_PANEL_TITLES),
+    ...extractDietaryPanelBlocks(content, PM_DIETARY_KC_PANEL_TITLES),
   ];
   /** @type {Map<string, Set<string>>} */
   const local = new Map();

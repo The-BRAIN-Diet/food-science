@@ -1,0 +1,14 @@
+---
+description: BRS dietary-guidance rollup — two standing qualifications for training and hub synthesis
+alwaysApply: true
+---
+
+# PM → BRS dietary-guidance rollup
+
+Training for this translation lives in local-only `docs/training/` and is loaded only when `INCLUDE_INTERNAL_DOCS=true`. Do not commit Training modules or generated QA output. Do not duplicate mechanistic evidence onto training or hub pages.
+
+When implementing or applying the module, retain both qualifications:
+
+1. **Mechanism-led, not PM-only origin.** The rollup normally begins with PMs, but not every evidence relationship must originate from a PM. Preserve independently supported Matrix, Pattern, Temporal and System Optimisation evidence at FM or BRS level where assigning it to a PM would overstate mechanistic specificity.
+
+2. **Deduplication is not a dietary requirement.** A Substance appearing across several PMs becomes one consolidated resource relationship. It enters BRS dietary guidance only where an evidence-supported dietary intervention or adequacy concern exists. Repeated mechanistic participation is not itself a reason to recommend that Substance.
