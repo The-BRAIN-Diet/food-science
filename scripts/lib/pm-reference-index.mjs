@@ -39,7 +39,7 @@ export function formatPmCitationCluster(citationKeys, keyIndex) {
   if (!nums.length) return "";
   if (nums.length === 1) {
     const n = nums[0];
-    return `[${n}](#${pmReferenceAnchorId(n)})`;
+    return `[[${n}]](#${pmReferenceAnchorId(n)})`;
   }
   return `[${nums.map((n) => `[${n}](#${pmReferenceAnchorId(n)})`).join(", ")}]`;
 }

@@ -521,7 +521,7 @@ test("PM reference numbers are stable by citation_key", () => {
     expandPmCitationMarkers("rate{{cite:mason_decrease_2001,manor_rate_1996}}.", index),
     "rate [[6](#pm-ref-6), [19](#pm-ref-19)].",
   );
-  assert.equal(formatPmCitationCluster(["mason_decrease_2001"], index), "[6](#pm-ref-6)");
+  assert.equal(formatPmCitationCluster(["mason_decrease_2001"], index), "[[6]](#pm-ref-6)");
   assert.ok(content.includes('id="pm-ref-6"'));
   assert.ok(content.includes("mason_decrease_2001"));
 });
