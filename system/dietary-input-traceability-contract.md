@@ -470,6 +470,15 @@ must not duplicate PM ownership or subsection fields. These relationships remain
 owned by the scientific-evidence layer and are not candidates for removal by the
 later Dietary Levers pass.
 
+For these relationships, write the **Biological Role** at the level directly
+measured by the cited evidence, then state separately any established biological
+relevance to the PM. Do not turn improved absorption or another proximal effect
+into demonstrated delivery to a tissue pool or modification of the PM. Write the
+**Limitation** as one concise sentence wherever possible: identify the nearest
+important boundary rather than listing every unmeasured mechanism and outcome.
+Use plain scientific language; avoid governance phrases such as “does not
+authorise”.
+
 Validated when present (`validateDietaryLeverAtoms` in `scripts/lib/dietary-lever-atoms.mjs`).
 Untouched legacy PMs without these fields are not failures. Once a PM is newly
 authored or recomputed under canonical §3.1, all admitted dietary relationship

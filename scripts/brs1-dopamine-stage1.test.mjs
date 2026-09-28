@@ -138,9 +138,19 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   assert.match(content, /No scoreable inputs are activated in Stage 2A/);
   assert.match(content, /ADHD does not show one uniform dopamine abnormality/);
   assert.match(content, /Pair non-haem iron-containing meals with an ascorbic-acid source/);
-  assert.match(content, /Use validated dephytinisation for high-phytate cereal matrices/);
+  assert.match(
+    content,
+    /Use validated phytate-reducing preparation methods for high-phytate cereals/,
+  );
   assert.match(content, /Acute voluntary cardiovascular exercise/);
   assert.match(content, /Avoid acute total sleep deprivation/);
+  assert.ok(
+    [...data.system_optimisation_practices, ...data.lifestyle_priorities].every(
+      (relationship) =>
+        relationship.evidence_limitation.split(/[.!?](?:\s|$)/).filter(Boolean).length <= 1 &&
+        !/does not authorise/i.test(relationship.evidence_limitation),
+    ),
+  );
   assert.doesNotMatch(content, /uniform dopamine-deficiency disorder/i);
 });
 

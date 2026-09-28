@@ -143,7 +143,7 @@ Reader disclosures render Evidence Source as linked PM reference numbers such as
 The bounded external search added two System Optimisation Practices:
 
 1. Pair non-haem iron-containing meals with an ascorbic-acid source.
-2. Use validated dephytinisation for high-phytate cereal matrices.
+2. Use validated phytate-reducing preparation methods for high-phytate cereals.
 
 Both are capped at dietary provision of the provisional iron cofactor candidate.
 They do not claim dopamine modulation. A third vitamin B6 cooking practice was
