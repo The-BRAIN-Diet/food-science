@@ -2,7 +2,8 @@
 id: milk
 title: Milk
 sidebar_label: Milk
-description: 'Complete protein, nicotinamide riboside, and calcium'
+description: Dairy drink providing complete protein and calcium
+eaa_profile_applicable: true
 tags:
   - Food
   - Milk
@@ -18,7 +19,7 @@ tags:
   - Vitamin B12
   - Vitamin D
 list_image: /img/foods/milk/milk_thumb.webp
-protein_profile_note: Complete essential amino acid profile. /img/icons/ingredients.svg
+protein_profile_note: Complete essential amino acid profile.
 nutrition_per_100g:
   vitamin_a_rae_ug: 46
   caprylic_g: 0.075
@@ -67,25 +68,15 @@ legacy_main_image: /img/foods/milk/milk_medium.webp
 ---
 ## Overview
 
-Milk provides complete high-quality protein (DIAAS 118), nicotinamide riboside (NAD+ precursor), and calcium, supporting mitochondrial function and bone health. Milk (skim) has a DIAAS score of 118, indicating balanced EAA profile and supports myelination.
+Milk provides protein, calcium, phosphorus, riboflavin and vitamin B12. A typical glass makes it a practical protein contributor despite the table's per-100 g protein value.
 
-Within the BRAIN Diet framework, nicotinamide Riboside: Efficient NAD⁺ precursor with neuroprotective potential - Dairy milk, whey protein, yeast-containing foods (e.g., sourdough bread). Fortified plant milks and dairy milk can help meet calcium (and sometimes iodine, depending on fortification and local practices) targets.
+Within a BRAIN-aligned pattern, dairy milk is one option for protein and calcium; suitability depends on tolerance, preference and the nutritional profile of alternatives.
 
 ## Food Context
 
-### Synergies
+### Essential Amino Acid Profile
 
-- Part of diverse protein strategy
-
-### Sourcing
-
-- Choose quality sources when possible
-
-### Preparation
-
-- Supports NAD+ availability through nicotinamide riboside
-- Consider tolerance and preferences
-- Fortified plant milks and dairy milk can help meet calcium targets
+Milk protein provides all essential amino acids and is used as a high-quality reference protein. Its relevance is practical at ordinary drink portions, not merely because of a per-100 g threshold [1].
 
 ## Recipes
 
@@ -99,6 +90,4 @@ Within the BRAIN Diet framework, nicotinamide Riboside: Efficient NAD⁺ precurs
 
 ## References
 
-[1] Milk provides highly digestible complete protein with strong DIAAS scores. FAO 2013. [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-
-[2] Dairy contributes B vitamins relevant to one-carbon metabolism and brain function. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+[1] FAO (2013). [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013). Protein-quality framework and reference data supporting milk protein as a complete, highly digestible protein source.

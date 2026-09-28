@@ -158,6 +158,7 @@ A food page must provide **at least one** valid compositional representation: po
 | id, title, sidebar_label, description | Required | Required | Required |
 | tags | Required (Food + name + table-driven substances) | Required | Required |
 | list_image | Required | Required | Required |
+| eaa_profile_applicable | Optional explicit adjudication; `true` only for a meaningful protein/EAA source in normal use | Same | Same |
 | protein_profile_note | Optional but recommended | — | — |
 | amino_acid_strengths | — | Optional but recommended | — |
 | limiting_amino_acids | — | Optional but recommended | — |

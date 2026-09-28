@@ -5,13 +5,13 @@ description: Meet the team behind The BRAIN Diet
 
 # Editorial Team
 
-The BRAIN Diet scientific paper has been vetted and contributed to by a team of dedicated nutritionists and scientists. An abridged paper is currently under peer review.
+The BRAIN Framework is supported by a multidisciplinary editorial and advisory team. Team members contribute in different capacities to the development of the framework, its public knowledge architecture, and peer-reviewed submissions based on the framework and condition-specific or therapeutic-area exemplars.
 
 ## A public body of knowledge
 
 The scientific advisory team were called upon to comment on and edit the first draft of The BRAIN Diet. This team includes globally renowned experts in biology, chemistry, nutrition, neurochemistry, and psychology. These volunteers committed many hours of teleconferences and many more hours of their spare time to navigate and contribute to the original manuscript, which runs to over 100 pages and cites more than 500 scientific references. They have selflessly dedicated their time to help create a diet that ringfences the key science that could underwrite better outcomes for many brain‑related challenges and disorders such as ADHD, Alzheimer's disease, bipolar disorder, and cognitive decline across the lifespan.
 
-In honouring this commitment, The BRAIN Diet Limited has published this reference system as an open, free‑access resource under a Creative Commons license and we will continue to do so for the foreseeable future.
+The BRAIN Diet Company Ltd makes substantial components of the framework and its supporting knowledge architecture publicly accessible to support education, scrutiny and continued scientific development. Access to particular professional education, training or specialist materials may differ.
 
 ## Team Members
 

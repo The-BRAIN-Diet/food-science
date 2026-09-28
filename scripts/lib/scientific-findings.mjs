@@ -226,6 +226,16 @@ export function validateScientificFindings(data, issues = [], { entityLabel = "p
             `${entityLabel}: ${id} → ${label} data_level "${item.data_level}" is not an allowed value`,
           );
         }
+        if (
+          Object.prototype.hasOwnProperty.call(item || {}, "exposure_context") &&
+          !String(item?.exposure_context || "").trim()
+        ) {
+          push(
+            issues,
+            "evidence_exposure_context",
+            `${entityLabel}: ${id} → ${label} exposure_context must be non-empty when present`,
+          );
+        }
         if (item?.assessment) {
           for (const field of ISA_FIELDS) {
             if (!String(item.assessment?.[field] || "").trim()) {

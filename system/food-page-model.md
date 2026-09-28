@@ -130,7 +130,7 @@ Violating these boundaries causes downstream metabolites and strategy advice to 
 
 ## Required Essential Amino Acid Section
 
-**When required:** Include the **"Essential Amino Acid Profile"** subsection when a food contains **≥5 g protein per 100 g** or is **commonly used as a protein source** (e.g. meats, fish, eggs, dairy, soy foods, legumes, seeds, nuts, high-protein grains such as oats, barley, quinoa).
+**When required:** Include the **"Essential Amino Acid Profile"** subsection only when the food has been verified as a meaningful protein/EAA source in normal dietary use (e.g. meats, fish, eggs, protein-rich dairy, soy foods, legumes, seeds, nuts and protein-contributing grains). A value of ≥5 g protein per 100 g triggers review but does not by itself make the section applicable.
 
 **Enforcement:** Any food page that meets this rule **must** include the Essential Amino Acid Profile subsection. Omission is a validation failure.
 
@@ -139,7 +139,7 @@ Violating these boundaries causes downstream metabolites and strategy advice to 
 - Include **Notable amino acids** and/or **Limiting amino acids** where relevant.
 - Put **pairing and complementarity advice** in this section (Protein pairing strategy), not in the Overview.
 
-**Validation:** Fail or flag generation if a page meeting the protein threshold does not contain an "Essential Amino Acid Profile" (or equivalent) subsection.
+**Validation:** Fail or flag generation if a verified protein-source page lacks the subsection, or if a page explicitly adjudicated `eaa_profile_applicable: false` still publishes one.
 
 ---
 
@@ -317,7 +317,7 @@ Notable plant highlights are allowed when specific amino acids are unusually str
 
 #### Purpose
 
-Food pages must include a subsection explaining the **Essential Amino Acid (EAA) profile** of the food. This allows readers to understand:
+Food pages include an **Essential Amino Acid (EAA) profile** only when the food is a meaningful protein source in normal dietary use. When applicable, this allows readers to understand:
 
 - protein completeness
 - limiting amino acids
@@ -330,7 +330,13 @@ This section improves the educational value of the site and supports mechanistic
 
 ### Rule – When the EAA Profile Section Is Required
 
-Include the **"Essential Amino Acid Profile"** subsection when a food contains **≥5 g protein per 100 g** or is **commonly used as a protein source**.
+Include the **"Essential Amino Acid Profile"** subsection only after verifying that the food is a reasonable source of protein and EAAs in normal dietary use.
+
+- Treat **≥5 g protein per 100 g as a review trigger, not an automatic inclusion rule**.
+- Consider customary serving size, dietary role, amount normally consumed, protein quality and whether protein is a practical reason to select the food.
+- Use front matter `eaa_profile_applicable: true` or `false` for an explicit editorial adjudication when the per-100 g trigger is ambiguous or misleading.
+- If not applicable, omit the subsection completely. Do not add a paragraph explaining that the food is not a protein source.
+- Research before deciding, but do not invent amino-acid strengths, limitations or pairings to fill the template.
 
 **Include:**
 
@@ -350,6 +356,7 @@ Include the **"Essential Amino Acid Profile"** subsection when a food contains *
 - leafy vegetables
 - oils
 - herbs/spices
+- concentrated cocoa and chocolate products eaten in small portions
 
 ---
 
@@ -539,9 +546,9 @@ Avoid listing all nine EAAs unless in a detailed table.
 - [ ] Animal foods: no full amino-acid dump; use `protein_profile_note` by default.
 - [ ] Plant foods: use `amino_acid_strengths`, `limiting_amino_acids`, `complementary_pairings` where useful.
 - [ ] **Truth layers:** Only intrinsic food compounds in substances/tags; no downstream metabolites (e.g. SCFAs) as food substances.
-- [ ] **EAA section:** If protein ≥5 g/100 g or commonly used as protein source, page includes Essential Amino Acid Profile subsection with pairing strategy where relevant.
+- [ ] **EAA section:** Per-100 g protein has triggered review; include the subsection only when normal serving size and dietary role make the food a meaningful protein/EAA source. Omit it completely when inapplicable.
 - [ ] Run `npm run nutrition:validate` to flag missing EAA sections, downstream metabolites in tags, and food–substance truth-level mismatches (substances missing from tables; unsupported quantitative values; qualitative rows lacking source).
-- [ ] After updating front matter (`nutrition:apply`), run `npm run nutrition:repair` so invalid pages are fixed in batch; do not leave failing pages in place. Use `npm run nutrition:pipeline` to apply then repair in one step.
+- [ ] After updating front matter (`nutrition:apply`), run `npm run nutrition:repair` for mechanical tag/component repairs and `npm run nutrition:validate` for EAA editorial gaps. Repair does not manufacture EAA prose.
 
 ---
 

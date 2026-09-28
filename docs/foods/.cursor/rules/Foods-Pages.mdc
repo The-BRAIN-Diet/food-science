@@ -21,15 +21,16 @@ This is the separate **Intrinsic / Mechanism / Strategy** content-boundary model
 - **Intrinsic food truth:** Only compounds present in the food may appear in Key Substances, nutrition table, substances list, and tags.
 - **Mechanism truth:** Downstream metabolites and effects (e.g. SCFAs from fibre fermentation) may appear only in Mechanisms, BRS prose, or Overview as outcomes—never as food substances or tags.
 - **Strategy truth:** Pairing and complementarity advice belong only in the EAA profile (Protein pairing strategy) or Preparation Notes/Recipes, not in Overview as substance-like content.
-- **Validation:** Fail or flag if a required EAA section is missing or if downstream metabolites are proposed as food substances. Run `npm run nutrition:validate` to check. After front matter updates, run `npm run nutrition:repair` to enforce corrections at scale (or `npm run nutrition:pipeline` to apply then repair). `nutrition:pipeline` does not fetch or enrich.
+- **Validation:** Fail or flag if a verified protein-source page lacks EAA content, an explicitly inapplicable page carries EAA filler, or downstream metabolites are proposed as food substances. Run `npm run nutrition:validate` to check. After front matter updates, run `npm run nutrition:repair` for mechanical corrections; EAA prose still requires editorial research. `nutrition:pipeline` does not fetch or enrich.
 
 ## Required EAA section
 
-- Include an **Essential Amino Acid Profile** section **only when**:
-  - **Protein >= 5 g per 100 g**, OR
-  - The food is **commonly used as a meaningful protein source** (e.g. grains/legumes/nuts/seeds/animal foods in typical dietary context).
+- Include an **Essential Amino Acid Profile** section only after verifying that the food is commonly used as a meaningful protein/EAA source in normal dietary context.
+- Treat **protein >= 5 g per 100 g as a research trigger, not an automatic inclusion rule**. Check customary serving size, dietary role, amount normally consumed and protein quality.
+- Use `eaa_profile_applicable: true` or `false` for an explicit adjudication when the per-100 g value is ambiguous or misleading.
 
-- Foods with **negligible protein** (e.g. oils, fruits, low-protein vegetables) **must not** include an EAA section.
+- Foods with negligible practical protein contribution—including oils, fruits, low-protein vegetables, concentrated cocoa/chocolate products eaten in small portions, and dried herbs/spices—must not include an EAA section even if their per-100 g panel crosses the screening threshold.
+- When EAA is not applicable, omit the section entirely. Do not add “not a protein source” or “not applicable” filler.
 
 ### Boundary examples (explicit)
 Include EAA:
@@ -125,8 +126,8 @@ Section order reflects BRAIN framework: context before data.
 
 1. **Overview** – Follow the Overview specification above. Short culinary-support pages may be one paragraph; standard/extended pages typically two. Inline numeric citations [1], [2]. Optionally add one line noting **protein profile** where relevant.
 2. **Other Nutritional Highlights** – Optional residual section. Follow `system/food-page-schema.md`. Omit when nothing additional remains after the tables and Food Context.
-3. **Food Context** – Framework and practical context. Sourcing, Synergies and Preparation each have one detailed home; see `system/food-page-schema.md`. Omit empty subsections. Quality over completeness.
-4. **Essential Amino Acid Profile** – When required (protein ≥5 g/100 g or commonly protein source). Keep brief and functional; avoid full amino-acid dumps. This is the sole detailed home for protein completeness and pairing.
+3. **Food Context** – Framework and practical context. Sourcing, Synergies and Preparation each have one detailed home; see `system/food-page-schema.md`. Research plausible food-specific content, then omit headings without interesting, scientifically supported reader value. Never add generic template filler.
+4. **Essential Amino Acid Profile** – Only when verified as a meaningful protein/EAA source in normal dietary use. Keep brief and functional; avoid full amino-acid dumps. This is the sole detailed home for protein completeness and pairing.
 5. **Nutrition (per 100 g)** – `<NutritionTable details={frontMatter} />`. Renders **sub-tables**: Core nutrients, Key vitamins and minerals (composition + ≥15% adult RI per 100 g), collapsed Advanced Nutrition (other quantitative micros), Bioactive compounds (publicly admitted individual fatty acids from `nutrition_per_100g` + `nutrition_supplementary_sources`), and optional **Functional metrics** (`nutrition_functional_metrics`). Source notes for supplementary (`*`) rows appear below the block. Component renders when `nutrition_per_100g` has entries, or supplementary sources, or functional metrics are present. Do not tag nutrients to force table rows.
 6. **Substances** – `<FoodSubstancesFromTable details={frontMatter} />` when using the nutrition layer; otherwise `<FoodSubstances details={frontMatter} />`
 7. **Recipes** – `<FoodRecipes tag="food tag" />`

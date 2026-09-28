@@ -11,13 +11,6 @@ tags:
   - Beta-glucan
   - Magnesium
 list_image: /img/foods/barley/barley_thumb.webp
-amino_acid_strengths: >-
-  Relatively higher in methionine than legumes; lysine-limited like other
-  grains.
-limiting_amino_acids: Lysine (typical of grains).
-complementary_pairings: >-
-  Lentils, chickpeas, or other legumes for complete essential amino acid
-  profile.
 nutrition_per_100g:
   selenium_ug: 37.7
   sugar_g: 0.8
@@ -71,9 +64,9 @@ legacy_main_image: /img/foods/barley/barley_medium.webp
 ---
 ## Overview
 
-Barley is a whole grain valued for **beta-glucan** soluble fibre and sustained energy release. Barley is among the richest common grain sources of cereal beta-glucan, which supports fermentable-fibre intake and glycaemic regulation in mixed-meal contexts [1]. Beta-glucan is an intrinsic barley component (also present in oats and some mushrooms), distinct from downstream fermentation products such as SCFAs.
+Barley is a whole grain valued for **beta-glucan** soluble fibre. It is among the richer common grain sources of cereal beta-glucan. Beta-glucan is an intrinsic barley component (also present in oats), distinct from downstream fermentation products such as SCFAs.
 
-Within the BRAIN Diet framework, barley contributes plant protein that is relatively higher in methionine but **lysine-limited** like other grains; pairing with legumes improves essential amino-acid balance [2,3].
+Within the BRAIN Diet framework, barley contributes plant protein within a varied diet. Combining grains and legumes is a practical dietary-pattern strategy for broadening essential amino-acid intake [1].
 
 ## Food Context
 
@@ -81,25 +74,9 @@ Within the BRAIN Diet framework, barley contributes plant protein that is relati
 
 - Include among other whole grains rather than relying on barley alone.
 
-### Preparation
-
-- Soak before cooking to reduce phytates and improve mineral bioavailability [4].
-
 ### Essential Amino Acid Profile
 
-Barley provides a useful plant protein source but is not a complete protein.
-
-Notable amino acids:
-
-- Methionine (relatively higher than in legumes)
-
-Limiting amino acids:
-
-- Lysine (typical of grains)
-
-Protein pairing strategy:
-
-Grains such as barley are relatively higher in methionine but lysine-limited. Combining barley with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
+Barley contributes plant protein, but its amino-acid profile and digestibility should not be inferred from a generic grain citation. Across a varied plant-based diet, combining grains with legumes can broaden essential amino-acid intake [1].
 
 ## Recipes
 
@@ -113,10 +90,4 @@ Grains such as barley are relatively higher in methionine but lysine-limited. Co
 
 ## References
 
-[1] Massimino et al. (1998). [Fermentable Dietary Fiber Increases GLP-1 Secretion and Improves Glucose Homeostasis Despite Increased Intestinal Glucose Transport Capacity in Healthy Dogs](/docs/papers/BRAIN-Diet-References#massimino_fermentable_1998). Rich source of beta-glucan, the viscous cereal fibre most strongly associated with barley's metabolic effects.
-
-[2] FAO (2013). [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-
-[3] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
-
-[4] Gibson et al. (2006). [Improving the bioavailability of nutrients in plant foods at the household level](/docs/papers/BRAIN-Diet-References#gibson_improving_bioavailability_2006). Soak before cooking to reduce phytates and improve mineral bioavailability.
+[1] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Dietary-pattern evidence for obtaining adequate amino acids from varied plant-protein sources; not a barley composition study.

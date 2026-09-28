@@ -26,7 +26,7 @@ function parseArgs(argv) {
 
 function main() {
   const { canonical, foodsDir, slug } = parseArgs(process.argv.slice(2))
-  const { missingEaa, downstreamInTags } = runValidation(foodsDir)
+  const { missingEaa, inapplicableEaa, downstreamInTags } = runValidation(foodsDir)
 
   let exitCode = 0
   console.log("\n--- Food page validation (system/food-page-model.md) ---\n")
@@ -37,7 +37,16 @@ function main() {
     missingEaa.forEach(({ slug: s, protein_g }) => console.log(`  - ${s}.md (protein_g: ${protein_g ?? "n/a"})`))
     console.log("")
   } else {
-    console.log("OK: All pages meeting protein threshold have EAA section.\n")
+    console.log("OK: All verified protein-source pages have an EAA section.\n")
+  }
+
+  if (inapplicableEaa.length) {
+    exitCode = 1
+    console.log("FAIL: EAA section present where explicitly adjudicated not applicable:")
+    inapplicableEaa.forEach(({ slug: s, protein_g }) => console.log(`  - ${s}.md (protein_g: ${protein_g ?? "n/a"})`))
+    console.log("")
+  } else {
+    console.log("OK: No explicitly inapplicable page carries EAA filler.\n")
   }
 
   if (downstreamInTags.length) {

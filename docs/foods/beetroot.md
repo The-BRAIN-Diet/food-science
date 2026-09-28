@@ -75,7 +75,7 @@ nutrition_supplementary_sources:
 ---
 ## Overview
 
-Beetroot is a root vegetable characterised by naturally occurring **nitrate** and red-violet **betalain** pigments, with useful **folate**. Nitrate and pigment levels vary with cultivar, growing conditions and preparation.
+Beetroot is a root vegetable characterised by naturally occurring **nitrate** and red-violet **betalain** pigments, with useful **folate** [1]. Nitrate and pigment levels vary with cultivar, growing conditions and preparation [1].
 
 Within a BRAIN-aligned pattern it is included as an ordinary vegetable for this combination of pigments, nitrate and folate, not as a nitrate supplement.
 
@@ -85,7 +85,7 @@ Use beetroot as a whole vegetable rather than treating it as equivalent to a con
 
 ### Preparation
 
-- Raw and lightly cooked preparations generally retain more nitrate than prolonged high-temperature cooking.
+- Preparation can change nitrate and pigment content; published values vary substantially among cultivars and products [1].
 - Roasting is useful for flavour; it does not turn beetroot into a nitrate extract.
 
 ## Recipes
@@ -100,6 +100,4 @@ Use beetroot as a whole vegetable rather than treating it as equivalent to a con
 
 ## References
 
-[1] Labelled generic context: flavanol-rich cocoa and vascular function in humans, not beetroot nitrate evidence. Schroeter & Heiss 2006. [(-)-Epicatechin mediates beneficial effects of flavanol-rich cocoa on vascular function in humans](/docs/papers/BRAIN-Diet-References#schroeter_epicatechin_flavanol_cocoa_vascular_2006)
-
-[2] Labelled generic context: B-vitamin review, not beetroot composition evidence. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+[1] Milton-Laskibar et al. (2021). [Current Knowledge on Beetroot Bioactive Compounds: Role of Nitrate and Betalains in Health and Disease](/docs/papers/BRAIN-Diet-References#milton_laskibar_beetroot_2021). Beetroot-specific review describing nitrate and betalains as major bioactive constituents and documenting substantial variation with variety and processing.

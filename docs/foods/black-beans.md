@@ -65,7 +65,7 @@ legacy_main_image: /img/foods/black-beans/black-beans_medium.webp
 ---
 ## Overview
 
-Black beans provide **lysine**-rich plant protein, polyphenols, and prebiotic fibre. Soaking and cooking change phytate and mineral availability [1]. They are polyphenol-rich legumes within diverse plant-forward dietary patterns [2].
+Black beans provide plant protein and fibre. Soaking and cooking change phytate content [1].
 
 ## Food Context
 
@@ -76,8 +76,8 @@ Black beans provide **lysine**-rich plant protein, polyphenols, and prebiotic fi
 
 ### Preparation
 
-- Soak at about 60°C (warm water) with pH ~6.0 (lemon/vinegar) for optimal phytate reduction; endogenous phytase activity peaks near these conditions [1].
-- Soak 12–24 hours, then cook thoroughly to reduce phytates and improve mineral bioavailability.
+- In the cited controlled processing study, endogenous phytase performed best near 60°C and pH 6.0; this is not equivalent to a validated household lemon-or-vinegar recipe [1].
+- Cook beans thoroughly after soaking.
 
 ### Essential Amino Acid Profile
 
@@ -109,6 +109,6 @@ Black Beans are rich in lysine but relatively low in sulfur-containing amino aci
 
 [1] Soaking and cooking can reduce myo-inositol phosphates that limit mineral absorption in black beans; this paper measured phytate reduction in black beans (Phaseolus vulgaris). Greiner & Konietzny 1999. [Improving enzymatic reduction of myo-inositol phosphates with inhibitory effects on mineral absorption in black beans](/docs/papers/BRAIN-Diet-References#greiner_improving_1999)
 
-[2] Black beans are polyphenol-rich legumes that support gut health within diverse plant-forward dietary patterns. Mariotti & Gardner 2019. [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019)
+[2] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Dietary-pattern evidence for complementary plant-protein sources; not evidence for black-bean polyphenol content or a black-bean feeding trial.
 
 [3] Hallberg et al. (1989). [Iron absorption in man: ascorbic acid and dose-dependent inhibition by phytate](/docs/papers/BRAIN-Diet-References#hallberg_iron_1989). Human mixed-meal iron-absorption series: phytate inhibits non-haem iron absorption; ascorbic acid can counteract that inhibition. Mixed-meal evidence, not a trial of this food.

@@ -210,6 +210,7 @@ scientific_findings:
         citation_key: martin_regulation_1993
         href: /docs/papers/BRAIN-Diet-References#martin_regulation_1993
         data_level: Mechanistic       # see phenome-relationship-schema.md
+        exposure_context: isolated-substance # optional, extensible; preserve what was tested
         evidence_source: bounded-external-search   # or repository-inherited
         directional_finding: >-       # required — collapsed line, direction preserved
         assessment:                   # Individual Study Assessment
@@ -240,6 +241,11 @@ scientific_findings:
   receive a determined state rather than infer one.
 - Every study has a `directional_finding` and a valid `evidence_source`.
 - `data_level` comes from the shared reference vocabulary.
+- `exposure_context`, when present, is a non-empty description of what was tested
+  (`whole-food`, `dietary`, `isolated-substance`, `standardised-extract`,
+  `supplemental-formulation`, `combination-formulation`, or a more precise value).
+  It belongs to the evidence relationship, not the intrinsic entity, and the
+  vocabulary remains extensible rather than a closed enum.
 - An Individual Study Assessment, when present, is complete.
 - Connected / Supportive Evidence states both why relevant and why excluded.
 - Every `scientific_findings` id on a relationship resolves to a declared Finding.

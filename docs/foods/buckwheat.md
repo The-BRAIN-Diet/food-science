@@ -44,28 +44,21 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
-amino_acid_strengths: >-
-  Relatively higher in methionine than legumes; lysine-limited like other
-  grains.
-limiting_amino_acids: Lysine (typical of grains).
-complementary_pairings: >-
-  Lentils, chickpeas, or other legumes for complete essential amino acid
-  profile.
 main_image: /img/foods/buckwheat/buckwheat_medium.webp
 legacy_list_image: /img/foods/buckwheat/buckwheat_thumb.webp
 legacy_main_image: /img/foods/buckwheat/buckwheat_medium.webp
 ---
 ## Overview
 
-Buckwheat is a gluten-free pseudograin that provides complex carbohydrates, fibre, and useful plant protein, together with minerals such as magnesium, iron, zinc, and selenium [2]. Compared with many refined grain products, it can improve micronutrient density and fibre intake while broadening whole-grain diversity.
+Buckwheat is a gluten-free pseudograin that provides carbohydrates, fibre and plant protein, together with minerals such as magnesium and iron. Compared with refined grain products, it can broaden pseudograin variety.
 
-As with other grain-type plant proteins, buckwheat is better framed as **lysine-limited but complementary**, rather than "complete" in isolation [1,2]. In the BRAIN Diet framework, combining buckwheat with legumes across meals is a practical way to improve essential amino-acid balance while maintaining a fibre- and mineral-rich dietary pattern [1,2].
+In the BRAIN Diet framework, buckwheat can be combined with varied plant-protein sources across meals. The generic protein-quality sources previously attached to this page did not establish a buckwheat-specific limiting amino acid.
 
 ## Food Context
 
 ### Synergies
 
-- Pair buckwheat with legumes (e.g. lentils, chickpeas, beans) to improve overall essential amino-acid balance at meal/day level [1,2].
+- Pair buckwheat with legumes, vegetables or other protein foods for meal variety.
 
 ### Preparation
 
@@ -74,19 +67,7 @@ As with other grain-type plant proteins, buckwheat is better framed as **lysine-
 
 ### Essential Amino Acid Profile
 
-Buckwheat provides a useful plant protein source but is not a complete protein.
-
-Notable amino acids:
-
-- Methionine (relatively higher than in legumes)
-
-Limiting amino acids:
-
-- Lysine (typical of grains)
-
-Protein pairing strategy:
-
-Grains such as buckwheat are relatively higher in methionine but lysine-limited. Combining with legumes (e.g. lentils, chickpeas) creates a more balanced essential amino acid profile.
+Buckwheat contributes plant protein. A buckwheat-specific amino-acid analysis is required before naming a limiting amino acid or assigning a protein-quality score; generic grain guidance is not sufficient.
 
 ## Recipes
 
@@ -100,6 +81,4 @@ Grains such as buckwheat are relatively higher in methionine but lysine-limited.
 
 ## References
 
-[1] FAO (2013). [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013)
-
-[2] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Fibre (~10 g per 100 g flour) supports fermentable-fibre intake.
+[1] Mariotti & Gardner (2019). [Dietary Protein and Amino Acids in Vegetarian Diets—A Review](/docs/papers/BRAIN-Diet-References#mariotti_dietary_2019). Dietary-pattern context for varied plant-protein intake; not a buckwheat composition or digestibility study.

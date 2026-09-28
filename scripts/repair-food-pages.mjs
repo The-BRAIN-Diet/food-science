@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 /**
  * Batch repair of food pages failing validation (system/food-page-model.md).
- * - Adds missing Essential Amino Acid Profile sections (template by food category).
+ * - Reports missing Essential Amino Acid Profile sections for editorial research.
+ *   It does not publish generic EAA template prose.
  * - Removes downstream metabolite tags (SCFAs, butyrate, propionate, acetate).
  * - Ensures FoodSubstancesFromTable when nutrition_per_100g is populated.
  * Re-runs validation after repair and reports before/after/remaining.
@@ -13,8 +14,6 @@ import matter from "gray-matter"
 import {
   runValidation,
   getFoodSlugs,
-  requiresEaaSection,
-  hasEaaSection,
   DOWNSTREAM_METABOLITE_TAGS,
   FOODS_DIR_DEFAULT,
 } from "./lib/food-page-validation.mjs"
@@ -165,7 +164,6 @@ function main() {
   const before = runValidation(foodsDir)
   const totalMissingEaa = before.missingEaa.length
   const totalDownstream = before.downstreamInTags.length
-  const missingEaaSet = new Set(before.missingEaa.map(({ slug }) => slug))
   const downstreamTagsBySlug = new Map(before.downstreamInTags.map(({ slug, tags }) => [slug, tags]))
 
   let repairedEaa = 0
@@ -195,19 +193,8 @@ function main() {
       }
     }
 
-    // Repair: add EAA section if required and missing
-    if (missingEaaSet.has(slug) && !hasEaaSection(content)) {
-      const category = getEaaCategory(slug)
-      const title = fm.title || slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
-      const eaaBlock = getEaaBlock(category, title)
-      const insertIdx = findEaaInsertIndex(content)
-      if (insertIdx !== -1) {
-        Object.assign(newFm, getEaaFrontMatterUpdates(category))
-        newContent =
-          content.slice(0, insertIdx) + "\n\n" + eaaBlock + "\n\n" + content.slice(insertIdx).replace(/^\n\n/, "\n")
-        didEaa = true
-      }
-    }
+    // Missing EAA content requires food-specific editorial research. Do not
+    // manufacture amino-acid strengths, limitations, or pairings here.
 
     // Repair: FoodSubstances -> FoodSubstancesFromTable when nutrition exists
     const hasNutrition = nutrition && typeof nutrition === "object" && Object.keys(nutrition).length > 0
@@ -232,7 +219,7 @@ function main() {
   console.log(`  Missing EAA section: ${totalMissingEaa}`)
   console.log(`  Downstream metabolite tags: ${totalDownstream} pages\n`)
   console.log("Repairs applied:")
-  console.log(`  EAA sections added: ${repairedEaa}`)
+  console.log(`  EAA sections added: ${repairedEaa} (automatic insertion disabled; research required)`)
   console.log(`  Downstream tags removed: ${repairedTags} pages`)
   console.log(`  FoodSubstances → FoodSubstancesFromTable: ${repairedSubstances} pages\n`)
   console.log("After repair:")

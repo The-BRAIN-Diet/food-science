@@ -25,6 +25,7 @@ export type EvidenceConsideredItem = {
   href?: string
   citation_key?: string
   data_level?: string
+  exposure_context?: string
   directional_finding: string
   evidence_source: EvidenceSource
   assessment?: IndividualStudyAssessment
@@ -34,6 +35,7 @@ export type ConnectedSupportiveItem = {
   label: string
   href?: string
   data_level?: string
+  exposure_context?: string
   why_relevant: string
   why_excluded: string
 }
@@ -71,10 +73,12 @@ function Citation({
   label,
   href,
   dataLevel,
+  exposureContext,
 }: {
   label: string
   href?: string
   dataLevel?: string
+  exposureContext?: string
 }): React.JSX.Element {
   return (
     <>
@@ -86,6 +90,9 @@ function Citation({
         <span>{label}</span>
       )}
       {dataLevel ? <span className="brain-sf-data-level"> — {dataLevel}</span> : null}
+      {exposureContext ? (
+        <span className="brain-sf-exposure-context"> — Exposure: {exposureContext}</span>
+      ) : null}
     </>
   )
 }
@@ -229,7 +236,12 @@ export default function ScientificFinding({
               <ul className="brain-sf-evidence">
                 {finding.evidence_considered.map((item) => {
                   const reference = (
-                    <Citation label={item.label} href={item.href} dataLevel={item.data_level} />
+                    <Citation
+                      label={item.label}
+                      href={item.href}
+                      dataLevel={item.data_level}
+                      exposureContext={item.exposure_context}
+                    />
                   )
                   return (
                     <li key={`${finding.id}:${item.citation_key || item.label}`}>
@@ -269,7 +281,12 @@ export default function ScientificFinding({
                   <ul className="brain-sf-connected">
                     {connected.map((item) => (
                       <li key={`${finding.id}:cse:${item.label}`}>
-                        <Citation label={item.label} href={item.href} dataLevel={item.data_level} />
+                        <Citation
+                          label={item.label}
+                          href={item.href}
+                          dataLevel={item.data_level}
+                          exposureContext={item.exposure_context}
+                        />
                         <div className="brain-sf-connected-why">
                           <em>Why relevant:</em> {item.why_relevant}
                         </div>

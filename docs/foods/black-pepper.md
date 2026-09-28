@@ -54,15 +54,15 @@ nutrition_supplementary_sources:
 ---
 ## Overview
 
-Black pepper is a culinary spice characterised by **piperine**. It is used in small amounts as a flavouring, not as a bulk food [1].
+Black pepper is a culinary spice characterised by **piperine**. It is used in small amounts as a flavouring, not as a bulk food.
 
-Within a BRAIN-aligned pattern it remains a flavouring. Pairing with turmeric belongs in meal assembly, not as a constituent of the pepper itself [1].
+Within a BRAIN-aligned pattern it remains a flavouring. Piperine–curcumin pharmacokinetic evidence used isolated compounds at specified doses and should not be read as proof that ordinary seasoning produces the same effect [1].
 
 ## Food Context
 
 ### Synergies
 
-- Culinary pairing with turmeric can increase curcumin absorption; curcumin is not present in black pepper [1].
+- Black pepper and turmeric are often used together, but the cited piperine study tested a defined constituent dose rather than an ordinary culinary pairing [1].
 
 ### Preparation
 
@@ -80,4 +80,4 @@ Within a BRAIN-aligned pattern it remains a flavouring. Pairing with turmeric be
 
 ## References
 
-[1] Piperine increases curcumin bioavailability in humans. Shoba & Joy 1998. [Influence of Piperine on the Pharmacokinetics of Curcumin in Animals and Human Volunteers](/docs/papers/BRAIN-Diet-References#shoba_influence_1998)
+[1] Shoba et al. (1998). [Influence of Piperine on the Pharmacokinetics of Curcumin in Animals and Human Volunteers](/docs/papers/BRAIN-Diet-References#shoba_influence_1998). Constituent-dose pharmacokinetic evidence for piperine with curcumin; not a trial of culinary black pepper and turmeric.

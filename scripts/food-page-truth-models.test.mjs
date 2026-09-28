@@ -22,6 +22,7 @@ import { reconcileFoodPage } from "./lib/food-truth-reconciliation.mjs"
 import { isFoodReferenceLine } from "./lib/bib-citation-format.mjs"
 import { auditFoodPage } from "./audit-food-page-layers.mjs"
 import { FOOD_PAGE_ROLES } from "./lib/food-page-letter-audit-schema.mjs"
+import { requiresEaaSection } from "./lib/food-page-validation.mjs"
 
 const ROOT = path.resolve(process.cwd())
 
@@ -54,6 +55,21 @@ test("documentation names all three models distinctly", () => {
     nutrition,
     /must not\*\* be labelled the .Three Sources of Truth/,
   )
+})
+
+test("EAA applicability follows dietary protein role, not per-100 g threshold alone", () => {
+  assert.equal(requiresEaaSection("dark-chocolate", { protein_g: 7.79 }), false)
+  assert.equal(
+    requiresEaaSection("dark-chocolate", { protein_g: 7.79 }, { eaa_profile_applicable: false }),
+    false,
+  )
+  assert.equal(requiresEaaSection("lentils", { protein_g: 24.63 }), true)
+
+  const darkChocolate = readDoc("docs/foods/dark-chocolate.md")
+  const { data, content } = matter(darkChocolate)
+  assert.equal(data.eaa_profile_applicable, false)
+  assert.doesNotMatch(content, /^### Essential Amino Acid Profile$/m)
+  assert.doesNotMatch(content, /^### (Synergies|Preparation)$/m)
 })
 
 test("page model does not rename Three Sources of Truth as provenance classes", () => {

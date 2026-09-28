@@ -71,9 +71,9 @@ nutrition_supplementary_sources:
 ---
 ## Overview
 
-Butter is a saturated-fat-rich dairy fat used in small amounts for flavour and for fat-soluble vitamins, including **vitamin A** [1]. It is energy-dense, so portions stay small.
+Butter is a saturated-fat-rich dairy fat used in small amounts for flavour. The representative composition table includes **vitamin A**, and food-composition analyses also report menaquinones in butter [1]. It is energy-dense, so portions stay small.
 
-Within a BRAIN-aligned pattern it is a culinary fat, not a staple. Overall diet quality matters more than any one saturated-fat source [2].
+Within a BRAIN-aligned pattern it is a culinary fat, not a staple.
 
 ## Food Context
 
@@ -99,6 +99,4 @@ Within a BRAIN-aligned pattern it is a culinary fat, not a staple. Overall diet 
 
 ## References
 
-[1] Saturated fat source; keep within guideline limits for SFA intake. Li & Hruby 2015. [Saturated Fats Compared With Unsaturated Fats and Sources of Carbohydrates in Relation to Risk of Coronary Heart Disease](/docs/papers/BRAIN-Diet-References#li_saturated_2015)
-
-[2] Plant-forward patterns with limited animal saturated fat align with sustainable healthy diet frameworks. Willett & Rockstr\"om 2019. [Food in the Anthropocene: the EAT--Lancet Commission on healthy diets from sustainable food systems](/docs/papers/BRAIN-Diet-References#willett_eatlancet_2019)
+[1] Schurgers & Vermeer (2000). [Determination of Phylloquinone and Menaquinones in Food](/docs/papers/BRAIN-Diet-References#schurgers_phylloquinone_menaquinones_2000). Food-composition analysis reporting vitamin K forms, including menaquinones, in butter and other foods.

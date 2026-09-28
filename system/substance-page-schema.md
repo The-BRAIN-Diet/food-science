@@ -9,33 +9,27 @@ Food pages remain under `system/food-page-schema.md`. Substance pages follow the
 
 ## Design principle
 
-Substance pages record **chemical identity**, **dietary occurrence**, and **evidence attributed at the level studied** (isolated compound, glycoside, extract, or food). Do not treat a food trial as a substance trial, or a family-level finding as an isolated-compound finding.
+Substance pages record **chemical identity**, **dietary origin**, and **evidence attributed at the level studied** (isolated compound, glycoside, extract, food, standardised extract, supplemental formulation, or combination formulation). Do not treat a food trial as a substance trial, or a family-level finding as an isolated-compound finding.
 
-The default public view is **Nutritional Highlights**. Longer biological research belongs in **Advanced Nutrition**. Condition-specific evidence belongs in **Therapeutic Area Research**. Those two panels must not leak headings into the Highlights table of contents.
+The default public view is **Nutritional Highlights**. Longer biological research belongs in **Advanced Nutrition**. Condition-specific evidence belongs in **Therapeutic Area Research**. Those two panels must not leak headings into the Highlights table of contents or duplicate the default view.
 
 ---
 
 ## Body section order (canonical, Nutritional Highlights)
 
-Order matches `astaxanthin.md` — identity and evidence before lists. Copper follows the same Highlights order, then adds BRS rows and a top-five reference set:
+Order matches `astaxanthin.md` — identity, dietary origin and evidence qualification before generated lists:
 
 | # | Section | Heading / component | Required |
 |---|---------|---------------------|----------|
 | 1 | Overview | `## Overview` | Yes |
-| 2 | Key Compound Highlights | `## Key Compound Highlights` | Yes (canonical) |
-| 3 | Dietary Context | `## Dietary Context` | Yes (canonical) |
+| 2 | Dietary Origin | `## Dietary Origin` | Yes |
+| 3 | Research Spotlights & Evidence Checks | `## Research Spotlights & Evidence Checks` | Optional |
 | 4 | Recipes | `## Recipes` + `<SubstanceRecipes tag="…" />` | Yes |
 | 5 | Foods | `## Foods` + `<SubstanceFoods tag="…" />` | Yes |
 | 6 | Biological Regulatory Systems | `## Biological Regulatory Systems` + compact BRS table | Yes when a mapping is evidenced |
 | 7 | References | `## References` | Yes (canonical); top five preferred when the evidence base allows it |
 
-**Dietary Context** uses only subsections with meaningful, substance-specific content. Standard subsections (include when relevant):
-
-- `### Food sources`
-- `### Synergies`
-- `### Supplement versus food`
-
-Omit empty subsections. Quality over completeness.
+`Key Compound Highlights` is no longer a canonical standalone section. Useful material belongs in Overview, Dietary Origin, a Research Spotlight or Evidence Check, or the appropriate advanced evidence view.
 
 When there is **no attributed research** for the isolated substance, keep Overview / Recipes / Foods, do not invent bibliography rows, and do not add a BRS mapping note as a substitute table.
 
@@ -72,11 +66,55 @@ Rules:
 
 ---
 
-## Key Compound Highlights
+## Dietary Origin
 
-Immediately after Overview. **3–6 bullets**, one sentence or short clause each.
+Explain how dietary exposure relates to the substance. This is relationship-aware and conditional, not a fixed checklist. Include only relationships supported for the substance:
 
-Purpose: fast, decision-relevant summary — not a dump of front-matter `mechanisms:` copy.
+- **Direct food occurrence:** `Food → contains → Substance`
+- **Dietary precursor:** `Food/input → provides precursor → formation → Substance`
+- **Microbial formation:** `Dietary substrate → microbial conversion/fermentation → Substance`
+- **Endogenous formation**
+- **Bioavailability or food-matrix context**
+- **Direct supplemental or concentrated exposure**
+
+Direct occurrence and precursor/support relationships are different edges. A food that supplies ellagitannins for microbial Urolithin A production does not contain Urolithin A. A fermentable-fibre food does not contain Butyrate merely because fermentation may produce it.
+
+Where canonical PM/KC dietary-requirement atoms and validated Food-to-input
+relationships exist, Dietary Origin may render them with
+`<DietaryOriginProjection target="…" pmId="…" />`. The component is a
+presentation of those records: nodes are entities, edges are relationships,
+clicks navigate available entities, and hover/disclosure exposes the evidence
+and limitations carried by each edge. It must not infer Food relationships from
+tags or prose, and evidence for one edge must not be inherited by another.
+
+Food front matter may declare a non-containment edge in `substance_relationships`:
+
+```yaml
+substance_relationships:
+  - substance: Urolithin A
+    relationship: dietary-precursor
+    input: Ellagitannins / ellagic acid
+    process: Microbial conversion
+    citation_keys:
+      - citation_key
+```
+
+`relationship` is an extensible relationship label, not a closed ontology. Current presentation recognises `dietary-precursor`, `microbial-formation`, `endogenous-formation`, `bioavailability-context`, and `direct-supplemental-exposure`. Do not use `contains` for downstream formation unless direct occurrence is independently evidenced.
+
+---
+
+## Research Spotlights & Evidence Checks
+
+Optional presentations of existing evidence:
+
+- **Research Spotlight** — a noteworthy study or synthesis.
+- **Evidence Check** — examination of a common, important, uncertain or potentially misleading proposition.
+
+Prefer question headings where natural. Use `<EvidencePresentation>` with `kind="spotlight"` or `kind="check"`, an `exposureContext`, a concise summary, and expandable evidence. These are presentations, not independent evidence records. Where canonical finding atoms exist, project from them rather than copying them into a parallel schema.
+
+**Exposure Context belongs to an evidence relationship, not to the intrinsic substance.** Initial descriptive values include `whole-food`, `dietary`, `isolated-substance`, `standardised-extract`, `supplemental-formulation`, and `combination-formulation`; this is not a frozen taxonomy. Preserve the actual exposure tested whenever evidence is projected elsewhere.
+
+Food occurrence does not make an isolated or concentrated intervention a food effect. A whole-food intervention does not attribute its outcome to one constituent. A combination intervention is not isolated-substance evidence unless its design supports that attribution.
 
 ---
 
@@ -84,11 +122,28 @@ Purpose: fast, decision-relevant summary — not a dump of front-matter `mechani
 
 Highlights carries the **compact** BRS matrix: one row per mapped Biological Regulatory System, with a short mapping clause and citation numbers into the Highlights reference set.
 
+The canonical relationship direction is:
+
+`Substance → evidence-qualified PM / KC relationship → BRS`
+
+Prefer canonical PM Dietary Requirement relationships where available. Do not create an independent Substance→BRS claim merely from a tag.
+
 - Tag the page with the **BRS hub tag names** used on biological-target documents (`Neurotransmitter Regulation`, `Inflammation & Oxidative Stress`, `Gut-Brain Axis & Enteric Nervous System`, `Metabolic & Neuroendocrine Regulation`, `Methylation & One-Carbon Metabolism`, `Mitochondrial Function & Bioenergetics`).
 - Put matching copy in front-matter `mechanisms:` using those exact keys.
-- Prefer a hand-authored markdown table on Highlights when the mapping is evidenced and cited, as on copper. `<SubstanceMatrix />` may be used only when those hub tags resolve; do not leave an empty-state message on a substance that has mapped biology.
+- Prefer a hand-authored markdown table on Highlights when the mapping is evidenced and cited, as on copper. `<SubstanceMatrix />` is a legacy/fallback renderer for unmigrated pages and may be used only when current hub tags resolve; it is not the future source of truth.
 - Do not assign a BRS mapping without bibliography-backed evidence.
 - Longer mechanistic narrative, diagrams and measurement caveats go in **Advanced Nutrition** as overspill of this table, not as a second Highlights section.
+
+---
+
+## Food / Substance evidence boundary
+
+1. Do not infer a Substance effect from a whole-food outcome merely because the Food contains that Substance.
+2. Do not infer that eating a Food reproduces an isolated-Substance intervention merely because the Food contains that Substance.
+3. Composition evidence, bioavailability evidence, intervention evidence and clinical/outcome evidence are distinct relationships.
+4. Translation between Food exposure and isolated/concentrated Substance exposure requires evidence or must remain explicitly inferential.
+
+The relationship-aware Foods presentation may show direct occurrence and precursor/support edges together, but must label the edge. Existing tag-only matches remain a migration fallback and must be identified as such rather than silently strengthening the relationship.
 
 ---
 
@@ -119,21 +174,23 @@ Distinguish association, mechanism and intervention in every row. Do not treat o
 
 ## References
 
-Same contract as food pages (`system/food-page-schema.md`) for the Highlights `## References` block:
+Same canonical bibliographic core as food pages (`system/food-page-schema.md`) for the Highlights `## References` block:
 
-- One entry per citation — **no bullet prefix**. Each entry starts with **`[n]`** (same number used inline).
-- Each entry has **three parts in order**:
-  1. **Explanation** — one sentence on why this paper supports a claim on *this* substance page.
-  2. **Author and year** — plain text (e.g. `Ma et al. 2022`, `Scheiber, Mercer and Dringen 2014`).
-  3. **Paper title** — linked to `/docs/papers/BRAIN-Diet-References#citationKey` (title only in the link text).
+- Cite in body as `[1]`, `[2]`, `[1,2]`, or `[3–5]`.
+- One entry per citation — **no bullet prefix**. Each entry starts with **`[n]`**.
+- Each entry has three parts:
+  1. **Author and year** — plain text (`Ma et al. (2022).`).
+  2. **Full paper title** — linked to `/docs/papers/BRAIN-Diet-References#citationKey`.
+  3. **One concise explanation** of why the source matters on this Substance page.
 - Citation keys must exist in `static/bibtex/BRAIN-diet.bib`.
 - Plain-text-only lines without a bibliography link are invalid.
 - Highlights should use a **top five** where the evidence base allows it. Further biological papers go to Advanced Nutrition; condition-specific papers go to Therapeutic Area Research. Panel-local lists may use author-year links.
+- Research Spotlights and Evidence Checks cite this same list. Do not create a second bibliography.
 
 **Canonical short example (`docs/substances/bioactive-compounds/carotenoids/astaxanthin.md`):**
 
 ```markdown
-[2] Meta-analysis of 12 randomised trials (380 participants): astaxanthin supplementation reduced blood malondialdehyde versus placebo; effects on CRP and TNF-α were not significant. Ma et al. 2022. [Astaxanthin supplementation mildly reduced oxidative stress and inflammation biomarkers](/docs/papers/BRAIN-Diet-References#ma_astaxanthin_oxidative_2022)
+[2] Ma et al. (2022). [Astaxanthin supplementation mildly reduced oxidative stress and inflammation biomarkers](/docs/papers/BRAIN-Diet-References#ma_astaxanthin_oxidative_2022). Meta-analysis of supplemental astaxanthin trials supporting the oxidative-stress biomarker Spotlight while showing less certain inflammatory-marker effects.
 ```
 
 ---
@@ -144,3 +201,8 @@ Same contract as food pages (`system/food-page-schema.md`) for the Highlights `#
 - `list_image` / `inchikey` / `inchi_image` as in the substance cursor rule.
 - `mechanisms:` keys must match BRS hub tag labels used on biological-target pages.
 - Do not use legacy labels (`Neurochemical Balance`, `Inflammation`, `Oxidative Stress`, `Methylation`) as BRS tags; those do not resolve to hub documents.
+- `exposureContext` is carried by each `<EvidencePresentation>` relationship, not by Substance front matter.
+
+## Validation
+
+Run `npm run substance:validate` for the migrated calibration pages and inverse Food safeguards. Run `npm run test:substance-schema` for regression coverage. The wider Substance library remains on legacy/fallback behaviour until explicitly migrated.

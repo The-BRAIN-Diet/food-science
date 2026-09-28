@@ -66,9 +66,9 @@ nutrition_supplementary_sources:
 ---
 ## Overview
 
-Brussels sprouts are a cruciferous vegetable providing glucosinolate-derived **isothiocyanates**, **folate**, **vitamin C** and fibre at modest energy [1,2].
+Brussels sprouts are a cruciferous vegetable providing **folate**, **vitamin C** and fibre at modest energy. Like other crucifers, their glucosinolates can form isothiocyanates through myrosinase-dependent reactions; the cited source is general crucifer mechanism evidence, not a Brussels-sprout composition study [1].
 
-Within a BRAIN-aligned pattern they add crucifer diversity. Light cooking or chewing affects isothiocyanate yield.
+Within a BRAIN-aligned pattern they add crucifer diversity.
 
 ## Food Context
 
@@ -78,7 +78,7 @@ Within a BRAIN-aligned pattern they add crucifer diversity. Light cooking or che
 
 ### Preparation
 
-- Light cooking or raw consumption may preserve isothiocyanate formation; roast gently rather than charring heavily
+- Cook to the texture you prefer; a Brussels-sprout-specific preparation comparison is not established here.
 
 ## Recipes
 
@@ -92,6 +92,4 @@ Within a BRAIN-aligned pattern they add crucifer diversity. Light cooking or che
 
 ## References
 
-[1] Crucifer isothiocyanate / Nrf2 pathway interest similar to broccoli. Houghton & Fassett 2016. [Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
-
-[2] Folate and fibre at ~43 kcal per 100 g; supports one-carbon nutrient intake. Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+[1] Houghton et al. (2016). [Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016). Mechanistic context for glucosinolate-derived isothiocyanates in crucifers; not direct Brussels-sprout evidence.

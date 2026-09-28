@@ -74,9 +74,9 @@ The canonical Highlights heading is **Other Nutritional Highlights**. The supers
 
 When Other Nutritional Highlights is present, it sits immediately after Overview and before Food Context. There is no minimum bullet count.
 
-**Food Context** uses only subsections with meaningful, food-specific content. Standard subsections (include when relevant): `### Sourcing`, `### Synergies`, `### Preparation`. Additional food-specific subsections are allowed (e.g. `### Ripeness`) when evidence-backed.
+**Food Context** uses only subsections with meaningful, food-specific content. Standard subsections (include only when relevant): `### Sourcing`, `### Synergies`, `### Preparation`. Additional food-specific subsections are allowed (e.g. `### Ripeness`) when evidence-backed. Research a plausible subsection before omitting it, but do not publish generic handling advice, obvious pairings, empty headings, “not applicable” prose, or other template filler. A page may have `## Food Context` with only one strong subsection.
 
-**Essential Amino Acid Profile** — when required (protein ≥ 5 g/100 g or protein-source slug), place as `### Essential Amino Acid Profile` **inside Food Context** (before Recipes). See EAA rules in `food-page-model.md`.
+**Essential Amino Acid Profile** — include only after verifying that the food is a meaningful protein/EAA source in normal dietary use. Per-100 g protein is a research trigger, not sufficient evidence by itself; typical serving size, dietary role, protein quality and amount consumed determine applicability. Use `eaa_profile_applicable: true` for an explicit positive adjudication and `false` where a high per-100 g value is misleading (for example concentrated cocoa, dried herbs or spices). If not applicable, omit the subsection entirely—do not publish an explanation of why it is absent. Place an applicable subsection inside Food Context before Recipes. See EAA rules in `food-page-model.md`.
 
 ---
 
@@ -242,7 +242,7 @@ Existing pages that still use `## Key Nutritional Highlights` are a migration st
 
 ## Food Context
 
-Practical framework. Quality over completeness — omit empty subsections.
+Practical framework. Quality over completeness — research plausible food-specific content, then omit any subsection that has no interesting, scientifically supported reader value. Never fill a standard heading merely because it appears in the canonical example.
 
 ### Sourcing
 
@@ -278,7 +278,9 @@ Dietary-pattern or frequency advice is not Preparation.
 
 ## Essential Amino Acid Profile
 
-When required, this is the sole detailed home for:
+Include this subsection only when the food has been verified as a meaningful protein/EAA source in normal dietary use. A per-100 g protein value alone does not establish applicability when customary portions are small or the food's dietary role is not protein provision. If the subsection is not applicable, omit it rather than publishing “not a protein source” filler.
+
+When applicable, this is the sole detailed home for:
 
 - complete or incomplete protein;
 - limiting amino acids;
@@ -393,7 +395,7 @@ Canonical mode is intended for **migration batches** (e.g. letter A). Full corpu
 | `scripts/lib/food-page-validation.mjs` | EAA and downstream-metabolite validation |
 | `scripts/lib/food-truth-reconciliation.mjs` | Directional page-layer reconciliation (cards → table rows; not every table row → card) |
 | `scripts/lib/usda-nutrient-extract.mjs` | USDA extract + richest-panel ranking |
-| `scripts/repair-food-pages.mjs` | EAA insert, tag cleanup, substances component |
+| `scripts/repair-food-pages.mjs` | Reports EAA editorial gaps; performs tag cleanup and substances-component repair without authoring filler |
 | `cue/brain/` | Mechanism schemas only (no food CUE yet) |
 
 Future: optional `cue/brain/food.cue` for front-matter typing; body structure remains JS-validated.
