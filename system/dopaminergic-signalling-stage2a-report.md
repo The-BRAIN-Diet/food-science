@@ -132,16 +132,19 @@ The shared contract also accepts `system_optimisation_practices` and
 `lifestyle_priorities`. Each record uses the same five atoms, resolves its
 Scientific Finding and PM-bibliography citations, and derives §3.2 or §3.3
 placement from the containing collection. These PM-owned relationships are not
-provisional dietary candidates. No unsupported dopamine optimisation or
-lifestyle record was added.
+provisional dietary candidates. System Optimisation records also carry one of
+the five hub-aligned category identifiers as relationship metadata; PM pages
+render nested dropdowns only for categories with substantive records.
 
 Reader disclosures render Evidence Source as linked PM reference numbers such as
 `[1]`; citation keys, Finding ids and atom ids remain internal.
 
 ## Evidence-qualified §3.2 and §3.3 relationships
 
-The bounded external search added two System Optimisation Practices:
+The bounded external search added four System Optimisation Practices in two
+populated categories:
 
+**Food Preparation & Delivery**
 1. Pair non-haem iron-containing meals with an ascorbic-acid source.
 2. Use validated phytate-reducing preparation methods for high-phytate cereals.
 
@@ -150,6 +153,15 @@ They do not claim dopamine modulation. A third vitamin B6 cooking practice was
 rejected because the available small meal-retention study did not provide a
 strong enough evidence base for durable PM ownership.
 
+**Dietary & Fasting Protocols**
+1. Short-term selective dietary-fat restriction under controlled conditions.
+2. Short-term very-low-calorie dieting in adults with obesity.
+
+Both are population-specific mechanistic relationships based on regional D2/D3
+receptor binding potential. They are not general weight-loss recommendations,
+and the imaging measure does not uniquely distinguish receptor regulation from
+endogenous dopamine occupancy.
+
 The search also added two Lifestyle Priorities:
 
 1. Acute voluntary cardiovascular exercise, supported by a small human PET
@@ -157,9 +169,20 @@ The search also added two Lifestyle Priorities:
 2. Avoid acute total sleep deprivation, supported by a within-person human PET
    experiment measuring ventral-striatal D2/D3 receptor availability.
 
-Stress-management and circadian-regularity candidates were not promoted because
-the assessed evidence was observational, heterogeneous or did not test a
-practice-to-dopamine relationship.
+No PM3 dropdown is rendered for the other three optimisation categories:
+
+- **Conditional Supplementation:** acute calcitriol altered
+  amphetamine-stimulated dopamine imaging in vitamin-D-sufficient adults, but
+  active calcitriol is a prescription hormone challenge rather than a qualified
+  supplement practice; iron PET supplementation evidence was not available as
+  a completed published result.
+- **Light & Circadian Optimisation:** seasonal and sunlight associations were
+  observational, while controlled light-therapy imaging measured serotonin
+  rather than dopamine.
+- **Stress & Autonomic Regulation:** a very small Yoga Nidra PET study measured
+  ventral-striatal dopamine release in expert practitioners but did not test
+  stress recovery or autonomic regulation; stress-provocation studies do not
+  establish an optimisation practice.
 
 ## GABA evidence-placement repair
 

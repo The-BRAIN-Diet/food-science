@@ -86,30 +86,58 @@ dietary_lever_presentations:
     presentation_section: 3.1.1
 system_optimisation_practices:
   - atom_id: PM3-SOP-1
+    optimisation_category: food_prep
     input: Pair non-haem iron-containing meals with an ascorbic-acid source
     presentation_label: Pair non-haem iron-containing meals with an ascorbic-acid source
     input_type: food preparation/delivery practice
-    biological_role: 'Ascorbic acid can counter phytate- and polyphenol-related inhibition and improve non-haem iron absorption at the meal level. Iron is a required cofactor for tyrosine hydroxylase.'
+    biological_role: Ascorbic acid can counter phytate- and polyphenol-related inhibition and improve non-haem iron absorption at the meal level. Iron is a required cofactor for tyrosine hydroxylase.
     evidence_source:
       finding_ids:
         - PM3-F8
       citation_keys:
         - siegenberg_ascorbic_1991
-    evidence_limitation: 'Evidence supports improved non-haem iron absorption at the meal level; it does not establish improved iron status or any change in dopamine biology or function.'
+    evidence_limitation: Evidence supports improved non-haem iron absorption at the meal level; it does not establish improved iron status or any change in dopamine biology or function.
     claim_ceiling: dietary-provision
   - atom_id: PM3-SOP-2
+    optimisation_category: food_prep
     input: Use validated phytate-reducing preparation methods for high-phytate cereals
     presentation_label: Use validated phytate-reducing preparation methods for high-phytate cereals
     input_type: food preparation/delivery practice
-    biological_role: 'Phytase treatment can reduce phytate inhibition and improve non-haem iron absorption from some cereal matrices. Iron is a required cofactor for tyrosine hydroxylase.'
+    biological_role: Phytase treatment can reduce phytate inhibition and improve non-haem iron absorption from some cereal matrices. Iron is a required cofactor for tyrosine hydroxylase.
     evidence_source:
       finding_ids:
         - PM3-F8
       citation_keys:
         - hurrell_phytic_2003
         - chondrou_phytic_2024
-    evidence_limitation: 'Improved absorption was matrix-dependent and did not consistently translate into better long-term iron status; no dopamine-related outcome was measured.'
+    evidence_limitation: Improved absorption was matrix-dependent and did not consistently translate into better long-term iron status; no dopamine-related outcome was measured.
     claim_ceiling: dietary-provision
+  - atom_id: PM3-SOP-3
+    optimisation_category: dietary_protocols
+    input: Short-term selective dietary-fat restriction under controlled conditions
+    presentation_label: Short-term selective dietary-fat restriction under controlled conditions
+    input_type: targeted dietary protocol
+    biological_role: Five days of selective isocaloric fat restriction reduced striatal D2/D3 receptor binding potential and food-cue activity in adults with obesity; selective carbohydrate restriction did not produce the same change.
+    evidence_source:
+      finding_ids:
+        - PM3-F11
+      citation_keys:
+        - darcey_dietary_fat_2023
+    evidence_limitation: Evidence comes from 17 adults with obesity in a short inpatient experiment; reduced binding potential does not by itself distinguish receptor change from greater endogenous dopamine occupancy.
+    claim_ceiling: acute-human-mechanistic
+  - atom_id: PM3-SOP-4
+    optimisation_category: dietary_protocols
+    input: Short-term very-low-calorie dieting in adults with obesity
+    presentation_label: Short-term very-low-calorie dieting in adults with obesity
+    input_type: targeted dietary protocol
+    biological_role: 'About ten days of very-low-calorie dieting reduced substantia-nigra D2/D3 receptor binding potential in women with obesity, and regional changes tracked reductions in leptin.'
+    evidence_source:
+      finding_ids:
+        - PM3-F11
+      citation_keys:
+        - dunn_caloric_restriction_2017
+    evidence_limitation: The uncontrolled study involved 15 women with obesity and cannot establish whether the imaging change reflects altered receptor availability or endogenous dopamine occupancy.
+    claim_ceiling: acute-human-mechanistic
 lifestyle_priorities:
   - atom_id: PM3-LP-1
     input: Acute voluntary cardiovascular exercise
@@ -121,7 +149,7 @@ lifestyle_priorities:
         - PM3-F9
       citation_keys:
         - ando_dopamine_exercise_2024
-    evidence_limitation: 'Evidence is limited to a small acute study in healthy adults; the dopamine–performance association was correlational and does not establish chronic or clinical benefit.'
+    evidence_limitation: Evidence is limited to a small acute study in healthy adults; the dopamine–performance association was correlational and does not establish chronic or clinical benefit.
     claim_ceiling: acute-human-mechanistic
   - atom_id: PM3-LP-2
     input: Avoid acute total sleep deprivation
@@ -133,7 +161,7 @@ lifestyle_priorities:
         - PM3-F10
       citation_keys:
         - volkow_sleep_deprivation_2012
-    evidence_limitation: 'Evidence concerns acute total sleep deprivation in a small healthy sample and does not establish effects of habitual sleep patterns.'
+    evidence_limitation: Evidence concerns acute total sleep deprivation in a small healthy sample and does not establish effects of habitual sleep patterns.
     claim_ceiling: acute-human-mechanistic
 candidate_cross_brs_relationships:
   - target_brs: BRS2
@@ -515,6 +543,44 @@ scientific_findings:
           evidence_summary: Provides direct human evidence that acute sleep state constrains a specific dopamine-receptor measure.
           limitations: 'Small healthy sample, one night of total deprivation, pharmacological probe and no chronic or clinical outcome.'
     presentation: mechanistic-basis
+  - id: PM3-F11
+    finding_label: Short restrictive dietary protocols alter dopamine receptor binding in obesity
+    finding_summary: Two small human PET studies found lower regional D2/D3 receptor binding potential after short restrictive dietary protocols in adults with obesity. The imaging changes are compatible with altered endogenous dopamine occupancy but do not uniquely identify that mechanism.
+    finding_interpretation: 'This supports two tightly bounded Dietary & Fasting Protocol relationships for adults with obesity, not general reduced-fat or very-low-calorie diet recommendations.'
+    finding_statement: Short-term selective fat restriction and very-low-calorie dieting can alter regional D2/D3 receptor binding potential in adults with obesity under controlled research conditions.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'In a randomized inpatient crossover study, five days of selective isocaloric fat restriction reduced striatal D2/D3 binding potential and food-cue activity, whereas selective carbohydrate restriction did not. In a separate before-and-after study, about ten days of very-low-calorie dieting reduced substantia-nigra D2/D3 binding potential in women with obesity, with regional changes tracking leptin reduction.'
+    synthesis_limitations: 'Both studies were short and population-specific. D2/D3 binding potential reflects receptor availability and competition from endogenous dopamine, so the imaging result cannot by itself distinguish receptor regulation from altered dopamine occupancy.'
+    evidence_considered:
+      - label: Darcey et al. (2023)
+        citation_key: darcey_dietary_fat_2023
+        href: /docs/papers/BRAIN-Diet-References#darcey_dietary_fat_2023
+        data_level: Human Mechanistic
+        exposure_context: five-day selective isocaloric dietary-fat or carbohydrate restriction
+        evidence_source: bounded-external-search
+        directional_finding: Selective fat restriction reduced striatal D2/D3 receptor binding potential and food-cue activity; selective carbohydrate restriction did not.
+        assessment:
+          study: 'Randomized inpatient crossover study using [18F]fallypride PET and food-cue functional MRI.'
+          population: Seventeen adults with obesity.
+          result: 'D2/D3 binding potential decreased in bilateral striatal clusters after the reduced-fat diet, with no significant change after carbohydrate restriction.'
+          effect_magnitude: Significant cluster-level reductions in left putamen and right caudate/putamen; no general clinical effect estimate.
+          evidence_summary: 'Directly supports a short, controlled dietary-protocol relationship with a specified dopamine imaging measure.'
+          limitations: 'Small obesity-specific sample, five-day exposure and no ability to separate receptor regulation from endogenous dopamine occupancy.'
+      - label: Dunn et al. (2017)
+        citation_key: dunn_caloric_restriction_2017
+        href: /docs/papers/BRAIN-Diet-References#dunn_caloric_restriction_2017
+        data_level: Human Mechanistic
+        exposure_context: approximately ten days of very-low-calorie dieting
+        evidence_source: bounded-external-search
+        directional_finding: 'Very-low-calorie dieting reduced substantia-nigra D2/D3 receptor binding potential, and regional binding changes were associated with reduced leptin.'
+        assessment:
+          study: 'Before-and-after [18F]fallypride PET study with metabolic and neuroendocrine measurements.'
+          population: Fifteen women with obesity.
+          result: 'Substantia-nigra D2/D3 binding potential decreased significantly, with nonsignificant trends in other regions; leptin change predicted regional binding change.'
+          effect_magnitude: Approximately 3 kg mean weight loss; leptin–binding-potential associations were significant across assessed regions.
+          evidence_summary: Supports a short-term calorie-restriction relationship with a regional dopamine imaging measure.
+          limitations: 'Uncontrolled, small female sample and no ability to separate receptor regulation from endogenous dopamine occupancy.'
+    presentation: mechanistic-basis
 references:
   - '[Fanet et al. (2021) — Tetrahydrobiopterin and Monoamine Synthesis](/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021)'
   - '[Beard et al. (2003) — Iron and Dopamine Biology](/docs/papers/BRAIN-Diet-References#beard_iron_2003)'
@@ -532,6 +598,8 @@ references:
   - '[Chondrou et al. (2024) — Dephytinisation and Trace-Element Bioavailability](/docs/papers/BRAIN-Diet-References#chondrou_phytic_2024)'
   - '[Ando et al. (2024) — Acute Exercise, Dopamine Release and Reaction Time](/docs/papers/BRAIN-Diet-References#ando_dopamine_exercise_2024)'
   - '[Volkow et al. (2012) — Sleep Deprivation and Ventral-Striatal D2/D3 Receptors](/docs/papers/BRAIN-Diet-References#volkow_sleep_deprivation_2012)'
+  - '[Darcey et al. (2023) — Dietary Fat Restriction and Striatal D2/D3 Binding](/docs/papers/BRAIN-Diet-References#darcey_dietary_fat_2023)'
+  - '[Dunn et al. (2017) — Caloric Restriction and Dopamine Receptor Availability](/docs/papers/BRAIN-Diet-References#dunn_caloric_restriction_2017)'
 hide_title: true
 ---
 
@@ -597,10 +665,40 @@ No PM-specific Key Constraint membership is established. Precursor competition r
 <details>
 <summary><strong>3.2 System Optimisation Practices</strong></summary>
 
-These practices optimise provision of the provisional iron cofactor candidate. They do not demonstrate increased brain dopamine.
+Only categories with a substantive evidence-qualified intervention are shown.
 
-* Pair non-haem iron-containing meals with an ascorbic-acid source
-* Use validated phytate-reducing preparation methods for high-phytate cereals
+<div className="brs-hub-sop-categories" data-brs-sop-categories>
+<div className="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="food_prep" data-brs-sop-populated="true">
+<div className="brs-fm-hub-shell">
+<button type="button" className="brs-fm-hub-summary" aria-expanded="false">
+<span className="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Food Preparation &amp; Delivery</strong>
+</button>
+<div className="brs-fm-hub-panel" hidden>
+<p className="brs-hub-sop-category-desc">These practices improve meal-level delivery of the provisional iron cofactor candidate. They do not demonstrate a change in dopamine biology.</p>
+<ul>
+<li>Pair non-haem iron-containing meals with an ascorbic-acid source</li>
+<li>Use validated phytate-reducing preparation methods for high-phytate cereals</li>
+</ul>
+</div>
+</div>
+</div>
+<div className="brs-fm-hub-item brs-hub-sop-category" data-brs-fm-hub data-brs-sop-category="dietary_protocols" data-brs-sop-populated="true">
+<div className="brs-fm-hub-shell">
+<button type="button" className="brs-fm-hub-summary" aria-expanded="false">
+<span className="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>Dietary &amp; Fasting Protocols</strong>
+</button>
+<div className="brs-fm-hub-panel" hidden>
+<p className="brs-hub-sop-category-desc">Short controlled studies in adults with obesity show protocol-specific changes in D2/D3 receptor binding potential. These are mechanistic findings, not general weight-loss recommendations.</p>
+<ul>
+<li>Short-term selective dietary-fat restriction under controlled conditions</li>
+<li>Short-term very-low-calorie dieting in adults with obesity</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 
 </details>
 
@@ -668,6 +766,8 @@ Dopaminergic regulation is a multi-stage control system, not a single concentrat
 <ScientificFinding finding={{"id":"PM3-F9","finding_label":"Acute voluntary exercise releases dorsal-striatal dopamine","finding_summary":"In healthy adults, voluntary mild-to-moderate cycling elicited endogenous dopamine release in dorsal striatum, and the PET signal correlated with faster Go/No-Go reaction time. Peripheral muscle stimulation without voluntary central command did not reproduce the behavioural effect.","finding_interpretation":"This supports an acute state-dependent exercise relationship, not a chronic exercise prescription, clinical treatment claim or global “more dopamine” model.","finding_statement":"Acute voluntary cardiovascular exercise can elicit dorsal-striatal dopamine release in healthy adults, with the measured release associated with faster reaction time.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A human PET experiment measured endogenous dopamine release during mild-to-moderate cycling and related it to Go/No-Go performance. Additional electrical-muscle-stimulation experiments suggested that voluntary central command, rather than peripheral movement alone, was important for the reaction-time effect.","synthesis_limitations":"The PET experiment was acute and small, and the dopamine-performance association was correlational. It does not establish mediation, chronic adaptation, optimal exercise dosing, ADHD benefit or clinical efficacy.","evidence_considered":[{"label":"Ando et al. (2024)","citation_key":"ando_dopamine_exercise_2024","href":"/docs/papers/BRAIN-Diet-References#ando_dopamine_exercise_2024","data_level":"Human Mechanistic","exposure_context":"acute voluntary mild-to-moderate cardiovascular exercise","evidence_source":"bounded-external-search","directional_finding":"Voluntary cycling elicited endogenous dopamine release in caudate and putamen, and greater release was associated with faster Go/No-Go reaction time.","assessment":{"study":"Human PET exercise experiment with two additional electrical-muscle-stimulation experiments.","population":"Sixteen healthy adults in the PET experiment; 18 and 22 healthy adults in the supporting stimulation experiments.","result":"Dorsal-striatal dopamine release occurred during voluntary exercise and correlated with reaction-time improvement; peripheral stimulation alone did not produce the same behavioural effect.","effect_magnitude":"Study-specific PET and reaction-time associations; no clinical effect estimate.","evidence_summary":"Provides direct acute human mechanistic evidence for an exercise–dopamine relationship.","limitations":"Small healthy samples, acute exposure, correlational mediation evidence and no chronic, clinical or dietary comparison."}}],"presentation":"mechanistic-basis"}} />
 
 <ScientificFinding finding={{"id":"PM3-F10","finding_label":"Acute sleep deprivation downregulates ventral-striatal D2/D3 availability","finding_summary":"In healthy adults, one night of total sleep deprivation reduced ventral-striatal D2/D3 receptor availability and was associated with lower alertness and greater sleepiness. The methylphenidate comparison supported receptor downregulation rather than increased dopamine release.","finding_interpretation":"This identifies an acute sleep-state constraint on receptor signalling; it is not evidence that ordinary sleep extension increases dopamine or improves a clinical condition.","finding_statement":"One night of total sleep deprivation reduces ventral-striatal D2/D3 receptor availability in healthy adults and is associated with reduced alertness.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Within-person PET scans after rested sleep and one night of total sleep deprivation showed lower ventral-striatal D2/D3 receptor availability during deprivation. Methylphenidate-induced dopamine increases did not differ by sleep state, supporting receptor downregulation rather than a deprivation-induced rise in dopamine release.","synthesis_limitations":"The experiment was acute, involved a small healthy sample and used receptor availability as an imaging construct. It does not establish effects of normal sleep variation, a sleep intervention, chronic outcomes or clinical benefit.","evidence_considered":[{"label":"Volkow et al. (2012)","citation_key":"volkow_sleep_deprivation_2012","href":"/docs/papers/BRAIN-Diet-References#volkow_sleep_deprivation_2012","data_level":"Human Mechanistic","exposure_context":"one night of total sleep deprivation versus rested sleep","evidence_source":"bounded-external-search","directional_finding":"Sleep deprivation reduced ventral-striatal D2/D3 receptor availability, associated with lower alertness and greater sleepiness, without increasing the methylphenidate-evoked dopamine response.","assessment":{"study":"Within-person [11C]raclopride PET study after rested sleep and total sleep deprivation, each under placebo and methylphenidate conditions.","population":"Twenty healthy adults.","result":"Ventral-striatal receptor availability decreased after deprivation and tracked reduced alertness; pharmacological comparison supported receptor downregulation.","effect_magnitude":"Region-specific PET change and behavioural associations; no general clinical effect estimate.","evidence_summary":"Provides direct human evidence that acute sleep state constrains a specific dopamine-receptor measure.","limitations":"Small healthy sample, one night of total deprivation, pharmacological probe and no chronic or clinical outcome."}}],"presentation":"mechanistic-basis"}} />
+
+<ScientificFinding finding={{"id":"PM3-F11","finding_label":"Short restrictive dietary protocols alter dopamine receptor binding in obesity","finding_summary":"Two small human PET studies found lower regional D2/D3 receptor binding potential after short restrictive dietary protocols in adults with obesity. The imaging changes are compatible with altered endogenous dopamine occupancy but do not uniquely identify that mechanism.","finding_interpretation":"This supports two tightly bounded Dietary & Fasting Protocol relationships for adults with obesity, not general reduced-fat or very-low-calorie diet recommendations.","finding_statement":"Short-term selective fat restriction and very-low-calorie dieting can alter regional D2/D3 receptor binding potential in adults with obesity under controlled research conditions.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"In a randomized inpatient crossover study, five days of selective isocaloric fat restriction reduced striatal D2/D3 binding potential and food-cue activity, whereas selective carbohydrate restriction did not. In a separate before-and-after study, about ten days of very-low-calorie dieting reduced substantia-nigra D2/D3 binding potential in women with obesity, with regional changes tracking leptin reduction.","synthesis_limitations":"Both studies were short and population-specific. D2/D3 binding potential reflects receptor availability and competition from endogenous dopamine, so the imaging result cannot by itself distinguish receptor regulation from altered dopamine occupancy.","evidence_considered":[{"label":"Darcey et al. (2023)","citation_key":"darcey_dietary_fat_2023","href":"/docs/papers/BRAIN-Diet-References#darcey_dietary_fat_2023","data_level":"Human Mechanistic","exposure_context":"five-day selective isocaloric dietary-fat or carbohydrate restriction","evidence_source":"bounded-external-search","directional_finding":"Selective fat restriction reduced striatal D2/D3 receptor binding potential and food-cue activity; selective carbohydrate restriction did not.","assessment":{"study":"Randomized inpatient crossover study using [18F]fallypride PET and food-cue functional MRI.","population":"Seventeen adults with obesity.","result":"D2/D3 binding potential decreased in bilateral striatal clusters after the reduced-fat diet, with no significant change after carbohydrate restriction.","effect_magnitude":"Significant cluster-level reductions in left putamen and right caudate/putamen; no general clinical effect estimate.","evidence_summary":"Directly supports a short, controlled dietary-protocol relationship with a specified dopamine imaging measure.","limitations":"Small obesity-specific sample, five-day exposure and no ability to separate receptor regulation from endogenous dopamine occupancy."}},{"label":"Dunn et al. (2017)","citation_key":"dunn_caloric_restriction_2017","href":"/docs/papers/BRAIN-Diet-References#dunn_caloric_restriction_2017","data_level":"Human Mechanistic","exposure_context":"approximately ten days of very-low-calorie dieting","evidence_source":"bounded-external-search","directional_finding":"Very-low-calorie dieting reduced substantia-nigra D2/D3 receptor binding potential, and regional binding changes were associated with reduced leptin.","assessment":{"study":"Before-and-after [18F]fallypride PET study with metabolic and neuroendocrine measurements.","population":"Fifteen women with obesity.","result":"Substantia-nigra D2/D3 binding potential decreased significantly, with nonsignificant trends in other regions; leptin change predicted regional binding change.","effect_magnitude":"Approximately 3 kg mean weight loss; leptin–binding-potential associations were significant across assessed regions.","evidence_summary":"Supports a short-term calorie-restriction relationship with a regional dopamine imaging measure.","limitations":"Uncontrolled, small female sample and no ability to separate receptor regulation from endogenous dopamine occupancy."}}],"presentation":"mechanistic-basis"}} />
 
 ## 5. Phenome Connections
 

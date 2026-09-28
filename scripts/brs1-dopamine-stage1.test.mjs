@@ -76,7 +76,7 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   assert.equal(data.mechanistic_authoring_required, false);
   assert.equal(data.dietary_addressability, "not-established");
   assert.equal(data.claim_ceiling, "biological-dependency");
-  assert.equal(data.scientific_findings.length, 10);
+  assert.equal(data.scientific_findings.length, 11);
   assert.deepEqual(
     data.scientific_findings.map((finding) => finding.id),
     [
@@ -90,6 +90,7 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
       "PM3-F8",
       "PM3-F9",
       "PM3-F10",
+      "PM3-F11",
     ],
   );
   assert.ok(data.phenome_relationships.length >= 3);
@@ -117,7 +118,13 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   );
   assert.deepEqual(
     data.system_optimisation_practices.map((relationship) => relationship.atom_id),
-    ["PM3-SOP-1", "PM3-SOP-2"],
+    ["PM3-SOP-1", "PM3-SOP-2", "PM3-SOP-3", "PM3-SOP-4"],
+  );
+  assert.deepEqual(
+    [...new Set(data.system_optimisation_practices.map(
+      (relationship) => relationship.optimisation_category,
+    ))],
+    ["food_prep", "dietary_protocols"],
   );
   assert.deepEqual(
     data.lifestyle_priorities.map((relationship) => relationship.atom_id),
@@ -137,6 +144,20 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   assert.match(content, /### 4\.1 Scientific Findings/);
   assert.match(content, /No scoreable inputs are activated in Stage 2A/);
   assert.match(content, /ADHD does not show one uniform dopamine abnormality/);
+  assert.equal(
+    (content.match(/data-brs-sop-category=/g) || []).length,
+    new Set(
+      data.system_optimisation_practices.map(
+        (relationship) => relationship.optimisation_category,
+      ),
+    ).size,
+    "PM §3.2 must render only categories with substantive records",
+  );
+  assert.match(content, /data-brs-sop-category="food_prep"/);
+  assert.match(content, /data-brs-sop-category="dietary_protocols"/);
+  assert.doesNotMatch(content, /data-brs-sop-category="conditional_supplementation"/);
+  assert.doesNotMatch(content, /data-brs-sop-category="light_circadian"/);
+  assert.doesNotMatch(content, /data-brs-sop-category="stress_autonomic"/);
   assert.match(content, /Pair non-haem iron-containing meals with an ascorbic-acid source/);
   assert.match(
     content,
@@ -144,6 +165,8 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   );
   assert.match(content, /Acute voluntary cardiovascular exercise/);
   assert.match(content, /Avoid acute total sleep deprivation/);
+  assert.match(content, /Short-term selective dietary-fat restriction under controlled conditions/);
+  assert.match(content, /Short-term very-low-calorie dieting in adults with obesity/);
   assert.ok(
     [...data.system_optimisation_practices, ...data.lifestyle_priorities].every(
       (relationship) =>

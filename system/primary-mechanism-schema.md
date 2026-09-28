@@ -169,7 +169,7 @@ while migration is in progress. On a canonical PM, read references to §4 Levers
      - **3.1.1 Direct and/or Derived Dietary Requirements** — PM-attributable dietary requirements, with Direct and Derived relationships distinguished.
      - **3.1.2 Cofactors and Substrates** — the actual biochemical cofactors and substrates required by the PM mechanism.
      - **3.1.3 Key Constraints** — shared nutritionally constrained resource pools or bottlenecks satisfying the KC schema.
-   - **3.2 System Optimisation Practices** — `<details>` dropdown; **Food Preparation & Delivery ONLY**. Broader SOP categories are curated on the parent BRS hub.
+   - **3.2 System Optimisation Practices** — outer `<details>` dropdown containing only evidence-populated nested category dropdowns: **Food Preparation & Delivery**, **Conditional Supplementation**, **Dietary & Fasting Protocols**, **Light & Circadian Optimisation**, and **Stress & Autonomic Regulation**. Do not render empty categories on PM pages; the parent BRS hub retains the complete five-category frame and its “Coming soon” states.
    - **3.3 Lifestyle Levers** — `<details>` dropdown; non-dietary behaviours; primary place for timing narrative when `timing_specific: "Yes"`
 4. Mechanistic Basis — `## 4. Mechanistic Basis` (legacy §5)
    - **Canonical structure (Profile A):** see **PM Mechanistic Basis — Canonical four-part narrative** below. **Reference page:** [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
@@ -519,9 +519,17 @@ Dietary Levers pass.
 <details>
 <summary><strong>3.2 System Optimisation Practices</strong></summary>
 
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
+Render a nested dropdown only for each category with at least one
+evidence-qualified `system_optimisation_practices` record:
 
-- Preparation, pairing, matrix preservation, and delivery-pattern bullets
+- Food Preparation & Delivery
+- Conditional Supplementation
+- Dietary & Fasting Protocols
+- Light & Circadian Optimisation
+- Stress & Autonomic Regulation
+
+Every record carries `optimisation_category` as relationship metadata. Category
+membership is not a sixth evidence atom.
 
 </details>
 

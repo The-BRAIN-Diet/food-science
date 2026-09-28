@@ -470,6 +470,13 @@ must not duplicate PM ownership or subsection fields. These relationships remain
 owned by the scientific-evidence layer and are not candidates for removal by the
 later Dietary Levers pass.
 
+Each `system_optimisation_practices` record also requires
+`optimisation_category` with one of the hub-aligned values: `food_prep`,
+`conditional_supplementation`, `dietary_protocols`, `light_circadian`, or
+`stress_autonomic`. This is relationship metadata used for nested presentation
+and hub roll-up; it is not an additional evidence atom. PM pages render only
+categories containing at least one substantive, evidence-qualified relationship.
+
 For these relationships, write the **Biological Role** at the level directly
 measured by the cited evidence, then state separately any established biological
 relevance to the PM. Do not turn improved absorption or another proximal effect

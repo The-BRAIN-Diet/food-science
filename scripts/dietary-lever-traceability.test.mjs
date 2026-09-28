@@ -3,7 +3,10 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import { INPUT_TYPES } from "./lib/dietary-input-traceability.mjs";
+import {
+  INPUT_TYPES,
+  SYSTEM_OPTIMISATION_CATEGORIES,
+} from "./lib/dietary-input-traceability.mjs";
 import {
   REQUIREMENT_CLASSIFICATION,
   dietaryRequirementRemainsWithoutModulationEvidence,
@@ -75,6 +78,11 @@ test("PM lever references render only canonical linked square-bracket numbers", 
   assert.match(source, />\[\$\{number\}\]<\/a>/);
   assert.doesNotMatch(source, /\[\$\{number\}\]\s+\$\{escapeHtml\(label\)\}/);
   assert.doesNotMatch(source, /finding_ids|citation_keys|atom_id/);
+  assert.doesNotMatch(
+    source,
+    /brs-dietary-lever-detail-title/,
+    "the trigger label must not be repeated as a second panel title before Input",
+  );
 });
 
 test("System Optimisation Practices and Lifestyle Priorities use the shared five-atom contract", () => {
@@ -86,6 +94,7 @@ test("System Optimisation Practices and Lifestyle Priorities use the shared five
     system_optimisation_practices: [
       {
         atom_id: "PMX-SOP-1",
+        optimisation_category: "food_prep",
         input: "Gentle steaming",
         input_type: "food preparation/delivery practice",
         biological_role: "Preserves the evidence-supported input during preparation",
@@ -139,6 +148,26 @@ test("System Optimisation Practices and Lifestyle Priorities use the shared five
     validateDietaryLeverAtoms(invalid, invalidIssues, { entityLabel: `missing-${field}` });
     assert.ok(invalidIssues.length > 0, `${field} must be required`);
   }
+
+  assert.deepEqual(
+    [...SYSTEM_OPTIMISATION_CATEGORIES],
+    [
+      "food_prep",
+      "conditional_supplementation",
+      "dietary_protocols",
+      "light_circadian",
+      "stress_autonomic",
+    ],
+  );
+  const missingCategory = structuredClone(fixture);
+  delete missingCategory.system_optimisation_practices[0].optimisation_category;
+  const missingCategoryIssues = [];
+  validateDietaryLeverAtoms(missingCategory, missingCategoryIssues, {
+    entityLabel: "missing-optimisation-category",
+  });
+  assert.ok(
+    missingCategoryIssues.some((issue) => issue.code === "pm_sop_missing_category"),
+  );
 });
 
 test("input types permit evidence-supported dietary granularity without a new atom", () => {

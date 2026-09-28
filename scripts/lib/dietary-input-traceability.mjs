@@ -5,6 +5,7 @@
 
 import { findingsById, hasScientificFindings } from "./scientific-findings.mjs";
 import { buildPmReferenceKeyIndex, citationKeyFromPmReferenceLine } from "./pm-reference-index.mjs";
+import { SOP_CATEGORIES } from "../data/brs-hub-optimisation-levers.mjs";
 
 /** Recommended Input Types. Extensible when evidence requires a more precise type. */
 export const INPUT_TYPES = new Set([
@@ -150,9 +151,14 @@ export const PM_NON_DIETARY_LEVER_COLLECTIONS = [
   },
 ];
 
+export const SYSTEM_OPTIMISATION_CATEGORIES = new Set(
+  SOP_CATEGORIES.map((category) => category.id),
+);
+
 /**
  * Validate PM-owned §3.2/§3.3 evidence relationships against the same five atoms.
- * The containing collection determines lever class and destination subsection.
+ * The containing collection determines lever class and destination subsection;
+ * System Optimisation category is relationship metadata, not a sixth atom.
  */
 export function validatePmNonDietaryLeverEvidence(data, issues, { entityLabel }) {
   const findingIds = hasScientificFindings(data)
@@ -166,6 +172,24 @@ export function validatePmNonDietaryLeverEvidence(data, issues, { entityLabel })
     const seenIds = new Set();
     for (const [i, row] of rows.entries()) {
       const label = `${entityLabel}: ${collection.field}[${i}]`;
+      if (collection.field === "system_optimisation_practices") {
+        const category = String(row?.optimisation_category || "").trim();
+        if (!category) {
+          push(
+            issues,
+            "pm_sop_missing_category",
+            `${label} requires optimisation_category`,
+          );
+        } else if (!SYSTEM_OPTIMISATION_CATEGORIES.has(category)) {
+          push(
+            issues,
+            "pm_sop_invalid_category",
+            `${label} optimisation_category must be one of ${[
+              ...SYSTEM_OPTIMISATION_CATEGORIES,
+            ].join(", ")}`,
+          );
+        }
+      }
       if (!row?.atom_id?.trim()) {
         push(issues, "pm_lever_missing_atom_id", `${label} requires atom_id`);
       } else if (seenIds.has(String(row.atom_id))) {

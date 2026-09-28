@@ -417,8 +417,8 @@ Those remain in **Lifestyle Priorities** or **Dietary Guidance**.
 **Biological connection:**
 
 - **FM §4.2 Integrated Functional Narrative** may reference why suboptimal preparation or exposure matters at the integrated biology level.
-- **PM §4.2 System Optimisation Practices** covers **Food Preparation & Delivery ONLY** (labelled at the top of the panel). Broader SOP categories are curated on the hub.
-- **Hub System Optimisation Practices** integrates and deduplicates across PMs into the five standard categories.
+- **PM §3.2 System Optimisation Practices** may hold evidence-qualified relationships in any of the five standard categories. PM pages render only populated nested category dropdowns.
+- **Hub System Optimisation Practices** integrates and deduplicates PM relationships, KC Emerging Biological Supports and curated cross-PM practices into the complete five-category frame. Empty hub categories retain “Coming soon”.
 - **KC §4 Emerging Biological Supports** → hub **Conditional Supplementation** (parser: `scripts/lib/kc-emerging-supports.mjs`).
 
 **Source of truth:**
@@ -427,7 +427,7 @@ Those remain in **Lifestyle Priorities** or **Dietary Guidance**.
 |-------|----------|
 | **Curated hub practices** | `scripts/data/brs-hub-optimisation-levers.mjs` (`SOP_CATEGORIES` + per-BRS category maps) |
 | **KC emerging supports → Conditional Supplementation** | KC `### 4. Emerging Biological Supports` via `scripts/lib/kc-emerging-supports.mjs` |
-| **PM levers** | §4.2 System Optimisation Practices on PM pages |
+| **PM levers** | `system_optimisation_practices` evidence records and §3.2 System Optimisation Practices on PM pages |
 | **FM biology (integrated context)** | FM §4.2 Integrated Functional Narrative |
 | **Practical detail** | Food Profiles (primary home for preparation instructions) |
 
