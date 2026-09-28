@@ -84,7 +84,7 @@ const UPDATES = {
     heading: "## 1. Definition",
     nextHeading: "## 2. Primary Biological Effects",
   },
-  "brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation.mdx": {
+  "brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx": {
     definition: `Supports alertness, focus, and executive control through norepinephrine — a key signal for attention and arousal. Stable noradrenergic signalling helps the brain maintain appropriate vigilance and cognitive engagement.
 
 * Supports alertness and attention through norepinephrine signalling pathways — within BRS1.
@@ -93,7 +93,7 @@ const UPDATES = {
     heading: "## 1. Definition",
     nextHeading: "## 2. Primary Biological Effects",
   },
-  "brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation.mdx": {
+  "brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx": {
     definition: `Helps support emotional regulation, stress resilience, and behavioural control through serotonin-related brain signalling. Stable serotonergic activity contributes to mood stability, inhibition, and sleep-compatible neurochemistry.
 
 * Supports emotional regulation and stress resilience through serotonin-related signalling — within BRS1.
@@ -102,7 +102,7 @@ const UPDATES = {
     heading: "## 1. Definition",
     nextHeading: "## 2. Primary Biological Effects",
   },
-  "brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support.mdx": {
+  "brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx": {
     definition: `Supports attention, working memory, and cognitive precision by helping the brain convert dietary choline into acetylcholine. Choline-rich foods provide the substrate for a signalling system central to learning and focus.
 
 * Converts dietary choline into acetylcholine for learning and focus — within BRS1.
@@ -111,7 +111,7 @@ const UPDATES = {
     heading: "## 1. Definition",
     nextHeading: "## 2. Primary Biological Effects",
   },
-  "brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation.mdx": {
+  "brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx": {
     definition: `Helps supply the brain with DHA and integrate it into neuronal membranes over time, supporting membrane flexibility and the structural environment in which neural signalling occurs. Habitual omega-3 intake and phospholipid-carrier form matter more than isolated high-dose episodes.
 
 * Supplies DHA to neuronal membranes supporting flexible, signal-ready brain structure — within BRS1.
@@ -120,7 +120,7 @@ const UPDATES = {
     heading: "## 1. Definition",
     nextHeading: "## 2. Primary Biological Effects",
   },
-  "brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance.mdx": {
+  "brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance.mdx": {
     definition: `Helps maintain the balance between brain excitation and inhibition — a foundation for attention, emotional control, and stable reactivity. When inhibitory and excitatory signalling are well matched, neural networks operate with greater stability.
 
 * Balances excitatory glutamate and inhibitory GABA tone for network stability — within BRS1.
@@ -129,7 +129,7 @@ const UPDATES = {
     heading: "## 1. Definition",
     nextHeading: "## 2. Primary Biological Effects",
   },
-  "brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity.mdx": {
+  "brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx": {
     definition: `Supports inhibitory tone by helping the brain convert glutamate into GABA — the principal inhibitory neurotransmitter. Adequate GABA synthesis capacity helps maintain calm, control, and resistance to overstimulation.
 
 * Converts glutamate to GABA to strengthen inhibitory calming signals — within BRS1.
@@ -138,7 +138,7 @@ const UPDATES = {
     heading: "## 1. Definition",
     nextHeading: "## 2. Primary Biological Effects",
   },
-  "brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling.mdx": {
+  "brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx": {
     definition: `Helps protect neural circuits from excessive excitatory drive by clearing and recycling glutamate. Effective glutamate control supports stable signalling and reduces risk of excitatory overload.
 
 * Clears and recycles glutamate to prevent excitatory build-up — within BRS1.
@@ -147,7 +147,7 @@ const UPDATES = {
     heading: "## 1. Definition",
     nextHeading: "## 2. Primary Biological Effects",
   },
-  "brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation.mdx": {
+  "brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx": {
     definition: `Helps protect the brain from excessive excitatory stress when glutamatergic drive becomes too strong. Modulating excitotoxic pressure supports neural stability and cognitive regulation over time.
 
 * Helps limit neural stress risk when glutamatergic drive becomes excessive — within BRS1.

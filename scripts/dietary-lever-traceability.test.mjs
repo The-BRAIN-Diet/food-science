@@ -21,9 +21,9 @@ import {
 import { buildDietaryLeverDisclosureMap, dietaryLeverBulletKey } from "./lib/dietary-lever-disclosure.mjs";
 import { RETIRED_KC_HREFS, RETIRED_KC_IDS } from "./lib/kc-registry.mjs";
 
-const PM8 = path.join(
+const PM9 = path.join(
   process.cwd(),
-  "docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity.mdx",
+  "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
 );
 const PM3 = path.join(
   process.cwd(),
@@ -43,7 +43,7 @@ const DOC_ITEM_CONTENT = path.join(
 );
 
 function readPm8() {
-  return matter(fs.readFileSync(PM8, "utf8"));
+  return matter(fs.readFileSync(PM9, "utf8"));
 }
 
 function readPm3() {
@@ -160,10 +160,10 @@ test("BRS5 KC1 and PM1 expose independent five-atom constituent relationships", 
   }
 });
 
-test("PM8 lever atoms resolve four-field currency from PM evidence", () => {
+test("PM9 lever atoms resolve four-field currency from PM evidence", () => {
   const { data } = readPm8();
   const issues = [];
-  validateDietaryLeverAtoms(data, issues, { entityLabel: "BRS1-FM4-PM8" });
+  validateDietaryLeverAtoms(data, issues, { entityLabel: "BRS1-FM4-PM9" });
   assert.deepEqual(issues, []);
   const resolved = resolveAllLeverAtoms(data);
   assert.equal(resolved.length, 3);
@@ -174,20 +174,20 @@ test("PM8 lever atoms resolve four-field currency from PM evidence", () => {
     assert.ok(atom.evidence_source?.finding_ids?.length || atom.evidence_source?.citation_keys?.length);
     assert.ok(atom.reference_numbers.length, `${atom.input} should map to PM reference numbers`);
   }
-  const glutamate = resolveLeverAtom(data, { atom_id: "PM8-DIT-1" });
+  const glutamate = resolveLeverAtom(data, { atom_id: "PM9-DIT-1" });
   assert.equal(glutamate.relationship_layer, "biochemical-requirement");
   assert.equal(glutamate.requirement_classification, null);
-  const plp = resolveLeverAtom(data, { atom_id: "PM8-DIT-2" });
+  const plp = resolveLeverAtom(data, { atom_id: "PM9-DIT-2" });
   assert.equal(plp.requirement_classification, "direct");
   assert.equal(plp.dietary_addressability, "not-established");
-  const b6 = resolveLeverAtom(data, { atom_id: "PM8-DIT-3" });
+  const b6 = resolveLeverAtom(data, { atom_id: "PM9-DIT-3" });
   assert.equal(b6.input_type, "cofactor precursor");
   assert.equal(b6.requirement_classification, "derived");
   assert.equal(b6.derived_target, "PLP");
-  assert.equal(b6.derived_target_atom_id, "PM8-DIT-2");
+  assert.equal(b6.derived_target_atom_id, "PM9-DIT-2");
   assert.equal(b6.claim_ceiling, "dietary-provision");
   assert.ok(b6.reference_numbers.includes(2));
-  assert.ok(b6.evidence_source.finding_ids.includes("PM8-F2"));
+  assert.ok(b6.evidence_source.finding_ids.includes("PM9-F2"));
 });
 
 test("multi-role reappearance preserves distinct atoms", () => {
@@ -212,14 +212,14 @@ test("KC identity cannot create PM science without an independently adjudicated 
   );
   assert.equal(
     pmKcConstituentRelationshipIsAdjudicated(
-      { pm_atom_id: "PM8-DIT-1", kc_atom_id: "BRS1-KC1-KIT-1" },
+      { pm_atom_id: "PM9-DIT-1", kc_atom_id: "BRS1-KC1-KIT-1" },
       data.dietary_input_traceability,
     ),
     true,
   );
 });
 
-test("§3 reflects adjudicated PM8 dietary relationships without food mappings", () => {
+test("§3 reflects adjudicated PM9 dietary relationships without food mappings", () => {
   const { data, content } = readPm8();
   const section3 = content.slice(
     content.indexOf("3.1 Dietary Requirements"),
@@ -237,10 +237,10 @@ test("§3 reflects adjudicated PM8 dietary relationships without food mappings",
   assert.ok(!content.includes("Protein matrix ← yogurt, kefir"));
   assert.ok(!content.includes("PM Evidence qualification"));
   assert.ok(!content.includes("Conflict flag"));
-  assert.ok(!content.includes("PM8-DIT-"));
+  assert.ok(!content.includes("PM9-DIT-"));
   assert.equal(data.cofactors?.[0], "Pyridoxal-5′-phosphate (PLP)");
   const issues = [];
-  validateDietaryLeverAtoms(data, issues, { entityLabel: "BRS1-FM4-PM8" });
+  validateDietaryLeverAtoms(data, issues, { entityLabel: "BRS1-FM4-PM9" });
   assert.deepEqual(issues, []);
   const map = buildDietaryLeverDisclosureMap(data);
   assert.equal(map.size, 5);
@@ -280,7 +280,7 @@ test("§3 reflects adjudicated PM8 dietary relationships without food mappings",
     b6.evidenceReferences.map((ref) => ref.number),
     [1, 2, 3, 4],
   );
-  assert.ok(b6.evidenceReferences.every((ref) => ref.label && !ref.label.includes("PM8-")));
+  assert.ok(b6.evidenceReferences.every((ref) => ref.label && !ref.label.includes("PM9-")));
   assert.equal("dietaryRelationship" in b6, false);
   assert.equal(
     b6.evidenceLimitation,
@@ -289,7 +289,7 @@ test("§3 reflects adjudicated PM8 dietary relationships without food mappings",
   assert.ok(data.dietary_lever_atoms.every((r) => r.evidence_limitation));
 });
 
-test("PM3 uses the PM8 atom and disclosure contract for dietary requirements", () => {
+test("PM3 uses the PM9 atom and disclosure contract for dietary requirements", () => {
   const { data } = readPm3();
   const issues = [];
   validateDietaryLeverAtoms(data, issues, { entityLabel: "BRS2-FM1-PM3" });

@@ -31,6 +31,7 @@ import EvidenceConfidenceIndicator from '../../components/EvidenceConfidenceIndi
 import EvidencePresentation from '../../components/EvidencePresentation';
 import PhenomeRegistry from '../PhenomeRegistry';
 import PhenomeDetail from '../PhenomeRegistry/PhenomeDetail';
+import TherapeuticAreaDetail from '../TherapeuticAreaDetail';
 import FrameworkReviewRegister from '../../components/ReviewCorrections/PublicRegister';
 import AdvancedNutrition, {TherapeuticAreaResearch} from '../../components/AdvancedNutrition';
 import AccessibleMermaid from '../../components/AccessibleMermaid';
@@ -69,6 +70,7 @@ export default {
   EvidencePresentation,
   PhenomeRegistry,
   PhenomeDetail,
+  TherapeuticAreaDetail,
   FrameworkReviewRegister,
   AdvancedNutrition,
   TherapeuticAreaResearch,

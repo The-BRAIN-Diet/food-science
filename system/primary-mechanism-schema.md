@@ -86,6 +86,14 @@ references:
 missing_entities:                    # optional
   foods: [string]
   substances: [string]
+evidence_status: string              # optional authoring state; e.g. stage-1-structural
+mechanistic_authoring_required: bool # optional; true while full evidence authoring is pending
+dietary_addressability: string       # optional; use not-established when actionability is unassessed
+claim_ceiling: string                # optional; biological-dependency prevents intervention uplift
+candidate_cross_brs_relationships:   # optional, authoring metadata only
+  - target_brs: string
+    relationship_scope: string
+    status: evidence-pending
 phenome_relationships:               # optional; authoritative translational mappings
   - target_phenome: string
     relationship_type: supports | disrupts | modulates | indirect
@@ -98,6 +106,26 @@ phenome_relationships:               # optional; authoritative translational map
         citation_key: string
         href: string
 ```
+
+## Evidence-ready structural state
+
+A newly created PM may be integrated before its dedicated evidence assessment
+only when all of the following hold:
+
+- `evidence_status: stage-1-structural`;
+- `mechanistic_authoring_required: true`;
+- unassessed dietary actionability is recorded as
+  `dietary_addressability: not-established`;
+- the public claim ceiling does not exceed `biological-dependency`;
+- `phenome_relationships`, references, Findings, dietary lever atoms and
+  scoreable inputs remain empty or omitted until supported;
+- possible cross-BRS dependencies use
+  `candidate_cross_brs_relationships` with `status: evidence-pending`.
+
+Candidate relationships are authoring metadata. They must not enter a public
+mechanical roll-up, confidence uplift, dietary output or Phenome projection.
+Placeholders must be labelled as pending and must not read as established
+findings.
 
 ## Timing Specific (required ontology metadata; not a default public body section)
 
@@ -517,7 +545,7 @@ PM pages should progressively answer:
 ↓
 [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation)
 ↓
-[BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation)
+[BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation)
 ```
 
 ### Profile B — Compact PM (retired for PM pages)
@@ -690,4 +718,3 @@ page has `mechanistic_authoring_required: true` in front matter.
 - Column P -> `functional_mechanism_ownership`
 
 An entity must not appear in more than one of these roles with conflicting meaning.
-

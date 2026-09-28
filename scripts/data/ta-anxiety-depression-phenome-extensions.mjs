@@ -37,7 +37,7 @@ function row({
 
 /** @type {Record<string, import('../lib/phenome-relationships.mjs').PhenomeRelationshipRow[]>} */
 export const TA_PM_PHENOME_EXTENSIONS = {
-  "BRS1-FM1-PM4": [
+  "BRS1-FM1-PM5": [
     row({
       target_phenome: "Apprehensive Worry / Perseverative Thought",
       relationship_type: "supports",
@@ -75,7 +75,7 @@ export const TA_PM_PHENOME_EXTENSIONS = {
       evidence_confidence: "low",
     }),
   ],
-  "BRS1-FM1-PM3": [
+  "BRS1-FM1-PM4": [
     row({
       target_phenome: "Pleasure & Interest Capacity",
       relationship_type: "modulates",
@@ -90,7 +90,7 @@ export const TA_PM_PHENOME_EXTENSIONS = {
       evidence_confidence: "low",
     }),
   ],
-  "BRS1-FM4-PM8": [
+  "BRS1-FM4-PM9": [
     row({
       target_phenome: "Apprehensive Worry / Perseverative Thought",
       relationship_type: "modulates",

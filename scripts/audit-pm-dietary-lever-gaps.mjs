@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
- * Audit legacy §3 Dietary Levers against dietary_lever_atoms (PM8 exemplar).
- * Usage: node scripts/audit-pm-dietary-lever-gaps.mjs --pm BRS1-FM4-PM8
+ * Audit legacy §3 Dietary Levers against dietary_lever_atoms (PM9 exemplar).
+ * Usage: node scripts/audit-pm-dietary-lever-gaps.mjs --pm BRS1-FM4-PM9
  */
 
 import fs from "node:fs";
@@ -11,7 +11,7 @@ import { listMechanismMdxFiles, readMechanismPage } from "./lib/mechanism-page-v
 import { auditLegacyLeverGaps, resolveAllLeverAtoms } from "./lib/dietary-lever-atoms.mjs";
 
 const root = process.cwd();
-const pmArg = process.argv.includes("--pm") ? process.argv[process.argv.indexOf("--pm") + 1] : "BRS1-FM4-PM8";
+const pmArg = process.argv.includes("--pm") ? process.argv[process.argv.indexOf("--pm") + 1] : "BRS1-FM4-PM9";
 
 for (const filePath of listMechanismMdxFiles(root, "pm")) {
   const { data, content } = readMechanismPage(filePath);

@@ -1,0 +1,221 @@
+.wrap {
+  --ta-border: var(--ifm-color-emphasis-300);
+}
+
+.status {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9rem;
+}
+
+.tableWrap {
+  margin: 1rem 0 1.5rem;
+  overflow-x: auto;
+}
+
+.tableWrap table {
+  min-width: 880px;
+}
+
+.meta,
+.source {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.84rem;
+  margin-top: 0.35rem;
+}
+
+.badge {
+  border: 1px solid var(--ta-border);
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 0.78rem;
+  margin-bottom: 0.5rem;
+  padding: 0.12rem 0.5rem;
+}
+
+.compactList {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.cardGrid {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin: 1rem 0 1.5rem;
+}
+
+.card,
+.cascade,
+.pmPanel {
+  border: 1px solid var(--ta-border);
+  border-radius: var(--ifm-card-border-radius);
+  padding: 1rem;
+}
+
+.card h3,
+.cascade h3,
+.pmPanel h2 {
+  margin-top: 0;
+}
+
+.pmPanel {
+  margin-top: 2rem;
+}
+
+.tabBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 1.25rem 0 0;
+  overflow-x: auto;
+}
+
+.tab {
+  appearance: none;
+  background: var(--ifm-background-surface-color, #fff);
+  border: 1px solid var(--ta-border);
+  color: var(--ifm-color-emphasis-700);
+  cursor: pointer;
+  flex-shrink: 0;
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.3;
+  padding: 0.45rem 0.75rem;
+  white-space: nowrap;
+}
+
+.tabBar .tab + .tab {
+  border-left: 0;
+}
+
+.tabSelected {
+  appearance: none;
+  background: var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-primary);
+  color: var(--ifm-color-white, #fff);
+  cursor: pointer;
+  flex-shrink: 0;
+  font: inherit;
+  font-size: 0.88rem;
+  font-weight: 700;
+  line-height: 1.3;
+  padding: 0.45rem 0.75rem;
+  white-space: nowrap;
+}
+
+.tabPanel {
+  border: 1px solid var(--ta-border);
+  border-top: 0;
+  flex: 1;
+  margin-bottom: 2rem;
+  min-width: 0;
+  padding: 1rem 1.1rem 1.5rem;
+}
+
+.tabLayout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.contents {
+  border: 1px solid var(--ta-border);
+  border-right: 0;
+  border-top: 0;
+  flex: 0 0 220px;
+  max-width: 100%;
+  padding: 0.85rem 0.75rem 1rem;
+}
+
+.contentsLabel {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+.contentsList {
+  font-size: 0.86rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contentsList li + li {
+  margin-top: 0.35rem;
+}
+
+.studyList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.studyCard {
+  border: 1px solid var(--ta-border);
+  border-radius: var(--ifm-card-border-radius);
+  padding: 0.85rem 1rem;
+}
+
+.studyTitle {
+  font-size: 1.05rem;
+  margin: 0 0 0.45rem;
+}
+
+.studySummary {
+  margin: 0 0 0.5rem;
+}
+
+.studyMeta {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.88rem;
+  margin: 0 0 0.35rem;
+}
+
+.studyLimit {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.84rem;
+  font-style: italic;
+  margin: 0 0 0.35rem;
+}
+
+.studyOpen {
+  margin: 0.25rem 0 0;
+}
+
+@media (max-width: 996px) {
+  .tabLayout {
+    flex-direction: column;
+  }
+
+  .contents {
+    border-right: 1px solid var(--ta-border);
+    flex: 1 1 auto;
+  }
+
+  .tabPanel {
+    border-top: 1px solid var(--ta-border);
+  }
+}
+
+.compactTable {
+  min-width: 640px;
+}
+
+.statusList {
+  margin: 0.5rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.reservedTab {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.empty {
+  color: var(--ifm-color-emphasis-600);
+  font-style: italic;
+}

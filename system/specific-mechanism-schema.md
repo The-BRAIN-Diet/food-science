@@ -233,7 +233,7 @@ Do **not** use hub-only labels (e.g. “BRS3 crossover”) without at least one 
 
 #### Neural Arousal & Attention Context
 
-<Paragraph.> Maps to [BRS1-FM1-PM3 — …](/docs/biological-targets/brs1/fm1/…).
+<Paragraph.> Maps to [BRS1-FM1-PM4 — …](/docs/biological-targets/brs1/fm1/…).
 ```
 
 Reference implementation: `docs/biological-targets/brs1/sm/brs1-sm-cross1-histaminergic-arousal-neuroimmune-crosstalk.mdx`.

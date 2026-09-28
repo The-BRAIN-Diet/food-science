@@ -46,6 +46,7 @@ docs/dietary-foundations/framework-review-and-corrections.mdx
 system/framework-qc/
 src/data/framework-qc-public.generated.json
 scripts/out/framework-qc/
+scripts/out/therapeutic-area-evidence-scan.json
 .private-migration-backup/
 
 static/img/recipes/originals/

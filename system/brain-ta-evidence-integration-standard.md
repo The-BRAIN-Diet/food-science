@@ -1,8 +1,8 @@
 # BRAIN Therapeutic Area (TA) Evidence Integration Standard
 
-**Version:** 1.3  
-**Status:** Active  
-**Primary worked example:** ADHD (`TA001`) — BRS hub Therapeutic Area Research dropdowns  
+**Version:** 1.3
+**Status:** Active
+**Primary worked example:** ADHD (`TA001`) — BRS hub Therapeutic Area Research dropdowns
 
 **Related documents:**
 
@@ -16,6 +16,7 @@
 | [BRS ADHD Manuscript Summary Schema](./brs-adhd-manuscript-summary-schema.md) | Miguel manuscript BRS summaries — BRS justification, FM-level landmarks, allostasis gateway |
 | [Primary Mechanism Schema](./primary-mechanism-schema.md) | PM page structure and evidence placement |
 | [Functional Mechanism Schema](./functional-mechanism-schema.md) | FM page structure |
+| [Therapeutic Area Page Schema](./therapeutic-area-page-schema.md) | Dedicated TA page data, provenance, evidence vocabulary and renderer contract |
 
 **Reference implementation (ADHD / BRS4):** [`docs/biological-targets/mitochondrial-function-bioenergetics.md`](../docs/biological-targets/mitochondrial-function-bioenergetics.md)
 
@@ -115,6 +116,11 @@ Record findings in an audit note or manuscript summary section before proceeding
 ## Phase 2 — Literature expansion
 
 A **fresh literature search is mandatory** for every TA revision — even when the page appears current.
+
+**Internal V1 migration exception:** the initial TA001–TA003 architecture migration is
+repository-first. It may inventory and render already reviewed repository evidence
+without a fresh search, provided pages remain unpublished, unresolved claims are
+flagged, and targeted literature work is recorded as a publication prerequisite.
 
 **Search for:**
 
@@ -420,6 +426,11 @@ If yes: relocate or refactor before marking the BRS hub revision complete.
 ## Phase 8 — Therapeutic Area rewrite
 
 The TA surface follows the **canonical content structure** below. Headings may vary by surface; content requirements do not.
+
+Dedicated pages additionally follow the seven-section contract in
+[Therapeutic Area Page Schema](./therapeutic-area-page-schema.md), which organises
+condition synthesis across all BRSs while preserving the requirements below for each
+populated BRS section.
 
 ### 1. Introduction
 

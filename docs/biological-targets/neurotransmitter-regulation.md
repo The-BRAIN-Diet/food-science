@@ -38,6 +38,13 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation">BRS1-FM1-PM1 — Amino-Acid Availability &amp; Prioritisation</a></li>
+    <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation">BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation</a></li>
+    <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation">BRS1-FM1-PM3 — Dopaminergic Signalling Regulation</a></li>
+    <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation">BRS1-FM1-PM4 — Noradrenergic Signalling</a></li>
+    <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation">BRS1-FM1-PM5 — Serotonergic Signalling Regulation</a></li>
+  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -47,6 +54,9 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support">BRS1-FM2-PM6 — Acetylcholine Synthesis Support</a></li>
+  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -56,6 +66,9 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation">BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation</a></li>
+  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -65,6 +78,12 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance">BRS1-FM4-PM8 — GABA–Glutamate Neurotransmission Balance</a></li>
+    <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity">BRS1-FM4-PM9 — GABA Synthesis Capacity</a></li>
+    <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling">BRS1-FM4-PM10 — Glutamate Clearance &amp; Recycling</a></li>
+    <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation">BRS1-FM4-PM11 — Excitotoxicity Modulation</a></li>
+  </ul>
 </li>
 </ul>
 </div>
@@ -88,12 +107,13 @@ hide_title: true
 <ul class="brs-fm-hub-pm-list">
   <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation">BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation</a></li>
   <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation">BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation</a></li>
-  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation">BRS1-FM1-PM3 — Noradrenergic Signalling</a></li>
-  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation">BRS1-FM1-PM4 — Serotonergic Signalling Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation">BRS1-FM1-PM3 — Dopaminergic Signalling Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation">BRS1-FM1-PM4 — Noradrenergic Signalling</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation">BRS1-FM1-PM5 — Serotonergic Signalling Regulation</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Maintains monoaminergic signalling capacity by coordinating amino-acid precursor availability, LNAA transport balance, and noradrenergic-serotonergic regulation.
+Maintains monoaminergic signalling capacity by coordinating amino-acid precursor availability, LNAA transport balance, and dopaminergic, noradrenergic and serotonergic regulation.
 
 **FM page:** [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function)
 
@@ -127,7 +147,7 @@ Maintains monoaminergic signalling capacity by coordinating amino-acid precursor
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-  <li><a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support">BRS1-FM2-PM5 — Acetylcholine Synthesis Support</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support">BRS1-FM2-PM6 — Acetylcholine Synthesis Support</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -163,7 +183,7 @@ Maintains cholinergic signalling capacity to support attention, working memory, 
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-  <li><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation">BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation">BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -179,7 +199,7 @@ Maintains neuronal membrane DHA integration and phospholipid-mediated omega-3 de
 
 - [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — amino-Acid Availability & Prioritisation
 - [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — lAT1 Competitive Transport Modulation
-- [BRS1-FM2-PM5 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) — acetylcholine Synthesis Support
+- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — acetylcholine Synthesis Support
 - [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — membrane PUFA protection downstream of incorporated DHA
 - [BRS3-FM3-PM8 — Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — eicosanoid and specialised pro-resolving mediator balance downstream
 
@@ -201,10 +221,10 @@ Maintains neuronal membrane DHA integration and phospholipid-mediated omega-3 de
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance">BRS1-FM4-PM7 — GABA–Glutamate Neurotransmission Balance</a></li>
-  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity">BRS1-FM4-PM8 — GABA Synthesis Capacity</a></li>
-  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling">BRS1-FM4-PM9 — Glutamate Clearance & Recycling</a></li>
-  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation">BRS1-FM4-PM10 — Excitotoxicity Modulation</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance">BRS1-FM4-PM8 — GABA–Glutamate Neurotransmission Balance</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity">BRS1-FM4-PM9 — GABA Synthesis Capacity</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling">BRS1-FM4-PM10 — Glutamate Clearance & Recycling</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation">BRS1-FM4-PM11 — Excitotoxicity Modulation</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -276,20 +296,20 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 
 | Evidence | Citation | Connected mechanisms |
 | --- | --- | --- |
-| Dopaminergic dysfunction in ADHD does not support a simple global hypo-dopaminergic model; alterations vary by subtype, stage, and brain region | [MacDonald et al., 2024](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024) | [BRS1(FM1)](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function), [BRS1-FM1-PM3](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation) |
+| Dopaminergic dysfunction in ADHD does not support a simple global hypo-dopaminergic model; alterations vary by subtype, stage, and brain region | [MacDonald et al., 2024](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024) | [BRS1(FM1)](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function), [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation) |
 | Meal-level amino-acid sufficiency may support catecholaminergic and serotonergic precursor pools relevant to ADHD attention pathways | [Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019) | [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
 | A small open trial of L-tyrosine in 12 adults produced an initial response that disappeared as tolerance developed; it does not support sustained L-tyrosine supplementation for ADHD. | [Reimherr et al., 1987](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987) | [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
-| Role of serotonin in ADHD | [Oades, 2010](/docs/papers/BRAIN-Diet-References#oades_role_2010) | [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation), [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
-| Serotonin deficit susceptibility in ADHD | [Banerjee and Nandagopal, 2015](/docs/papers/BRAIN-Diet-References#banerjee_does_2015) | [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation), [PH003 — Emotional Regulation](/docs/phenomes/details/ph003-emotional-regulation) |
-| Emotion dysregulation in attention deficit hyperactivity disorder | [Shaw et al., 2014](/docs/papers/BRAIN-Diet-References#shaw_emotion_2014) | [BRS1-FM1-PM4](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation), [PH003 — Emotional Regulation](/docs/phenomes/details/ph003-emotional-regulation) |
-| Low choline intakes and altered choline status in neurodevelopmental subgroups relevant to attention and learning | [Derbyshire et al., 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) | [BRS1(FM2)](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function), [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) |
-| Decreased muscarinic acetylcholine receptor binding in neurodevelopmental contexts | [Johansson et al., 2013](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS1(FM2)](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function), [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) |
-| Focus on omega-3 polyunsaturated fatty acids and ADHD | [Pei-Chen Chang, 2021](/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021) | [BRS1(FM3)](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration), [BRS1-FM3-PM6](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) |
-| PUFA, magnesium, and zinc supplementation studied in children seeking medical attention for behavioural symptoms | [Huss et al., 2010](/docs/papers/BRAIN-Diet-References#huss_supplementation_2010) | [BRS1(FM3)](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration), [BRS1-FM3-PM6](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) |
-| Low glutamate in critical brain areas correlates with low Barkley attention scale scores | [Maltezos et al., 2014](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM7](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance) |
-| Reduced GABA concentration in attention-deficit/hyperactivity disorder | [Edden et al., 2012](/docs/papers/BRAIN-Diet-References#edden_reduced_2012) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM7](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance) |
-| Reduced striatal GABA in unmedicated children with ADHD | [Puts et al., 2020](/docs/papers/BRAIN-Diet-References#puts_reduced_2020) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM7](/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance), [PH015 — Stress Reactivity](/docs/phenomes/details/ph015-stress-reactivity) |
-| Neural excitation and inhibition balance framing | [Mamiya et al., 2021](/docs/papers/BRAIN-Diet-References#mamiya_precision_2021) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM10](/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation) |
+| Role of serotonin in ADHD | [Oades, 2010](/docs/papers/BRAIN-Diet-References#oades_role_2010) | [BRS1-FM1-PM5](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation), [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) |
+| Serotonin deficit susceptibility in ADHD | [Banerjee and Nandagopal, 2015](/docs/papers/BRAIN-Diet-References#banerjee_does_2015) | [BRS1-FM1-PM5](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation), [PH003 — Emotional Regulation](/docs/phenomes/details/ph003-emotional-regulation) |
+| Emotion dysregulation in attention deficit hyperactivity disorder | [Shaw et al., 2014](/docs/papers/BRAIN-Diet-References#shaw_emotion_2014) | [BRS1-FM1-PM5](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation), [PH003 — Emotional Regulation](/docs/phenomes/details/ph003-emotional-regulation) |
+| Low choline intakes and altered choline status in neurodevelopmental subgroups relevant to attention and learning | [Derbyshire et al., 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) | [BRS1(FM2)](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function), [BRS1-FM2-PM6](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) |
+| Decreased muscarinic acetylcholine receptor binding in neurodevelopmental contexts | [Johansson et al., 2013](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS1(FM2)](/docs/biological-targets/brs1/fm2/brs1-fm2-cholinergic-function), [BRS1-FM2-PM6](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) |
+| Focus on omega-3 polyunsaturated fatty acids and ADHD | [Pei-Chen Chang, 2021](/docs/papers/BRAIN-Diet-References#pei-chen_chang_personalised_2021) | [BRS1(FM3)](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration), [BRS1-FM3-PM7](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) |
+| PUFA, magnesium, and zinc supplementation studied in children seeking medical attention for behavioural symptoms | [Huss et al., 2010](/docs/papers/BRAIN-Diet-References#huss_supplementation_2010) | [BRS1(FM3)](/docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration), [BRS1-FM3-PM7](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) |
+| Low glutamate in critical brain areas correlates with low Barkley attention scale scores | [Maltezos et al., 2014](/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM8](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance) |
+| Reduced GABA concentration in attention-deficit/hyperactivity disorder | [Edden et al., 2012](/docs/papers/BRAIN-Diet-References#edden_reduced_2012) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM8](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance) |
+| Reduced striatal GABA in unmedicated children with ADHD | [Puts et al., 2020](/docs/papers/BRAIN-Diet-References#puts_reduced_2020) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM8](/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance), [PH015 — Stress Reactivity](/docs/phenomes/details/ph015-stress-reactivity) |
+| Neural excitation and inhibition balance framing | [Mamiya et al., 2021](/docs/papers/BRAIN-Diet-References#mamiya_precision_2021) | [BRS1(FM4)](/docs/biological-targets/brs1/fm4/brs1-fm4-excitatory-inhibitory-balance-gaba-glutamate-regulation), [BRS1-FM4-PM11](/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation) |
 
 </div>
 </div>
@@ -324,11 +344,11 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 <ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
 <li class="brs-hub-dietary-guidance-item">
 <p class="brs-hub-dietary-guidance-main"><strong>Distribute high-quality protein across the day</strong> → tryptophan, phenylalanine and tyrosine → the brain cannot store neurotransmitter precursors and therefore depends on a continuous meal-level supply to maintain monoaminergic synthesis.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/tofu">Tofu</a>. <span class="brs-hub-dietary-target-label">KC:</span> <a href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">BRS1(KC1)</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation" class="brs-hub-lever-pm">BRS1-FM1-PM1</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM2</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM3</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation" class="brs-hub-lever-pm">BRS1-FM1-PM4</a></span></p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/tofu">Tofu</a>. <span class="brs-hub-dietary-target-label">KC:</span> <a href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">BRS1(KC1)</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation" class="brs-hub-lever-pm">BRS1-FM1-PM1</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM2</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM4</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation" class="brs-hub-lever-pm">BRS1-FM1-PM5</a></span></p>
 </li>
 <li class="brs-hub-dietary-guidance-item">
 <p class="brs-hub-dietary-guidance-main"><strong>Eat a variety of protein sources rather than relying on a single food</strong> → complementary indispensable amino-acid profiles → single-source reliance can leave the shared precursor pool incomplete; combining protein sources across meals covers the indispensable set.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/tofu">Tofu</a> • <a href="/docs/foods/tempeh">Tempeh</a>. <span class="brs-hub-dietary-target-label">KC:</span> <a href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">BRS1(KC1)</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation" class="brs-hub-lever-pm">BRS1-FM1-PM1</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM8</a></span></p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/quinoa">Quinoa</a> • <a href="/docs/foods/tofu">Tofu</a> • <a href="/docs/foods/tempeh">Tempeh</a>. <span class="brs-hub-dietary-target-label">KC:</span> <a href="/docs/biological-targets/brs1/kc/brs1-kc1-amino-acid-quality-and-competitive-balance">BRS1(KC1)</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation" class="brs-hub-lever-pm">BRS1-FM1-PM1</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM9</a></span></p>
 <p class="brs-hub-dietary-guidance-note"><em>Protein quality:</em> Plant protein sources may be combined across meals to provide complementary indispensable amino-acid profiles — see relevant Food Profiles for EAA pairing guidance where applicable.</p>
 </li>
 </ul>
@@ -337,25 +357,25 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 <ul class="brs-hub-dietary-strategy-list brs-hub-dietary-guidance-list">
 <li class="brs-hub-dietary-guidance-item">
 <p class="brs-hub-dietary-guidance-main"><strong>Maintain regular meal timing and circadian-aligned eating</strong> → amino-acid precursors and meal-level competitive transport context → steady supply of neurotransmitter building blocks across the day supports monoaminergic, cholinergic and excitatory–inhibitory signalling; irregular meal spacing leaves precursor availability and LAT1 competition poorly timed relative to demand.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/chicken">Chicken</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation" class="brs-hub-lever-pm">BRS1-FM1-PM1</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM2</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM3</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation" class="brs-hub-lever-pm">BRS1-FM1-PM4</a> <a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support" class="brs-hub-lever-pm">BRS1-FM2-PM5</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation" class="brs-hub-lever-pm">BRS1-FM4-PM10</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance" class="brs-hub-lever-pm">BRS1-FM4-PM7</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM8</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling" class="brs-hub-lever-pm">BRS1-FM4-PM9</a></span></p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a> • <a href="/docs/foods/lentils">Lentils</a> • <a href="/docs/foods/chicken">Chicken</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation" class="brs-hub-lever-pm">BRS1-FM1-PM1</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM2</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM4</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation" class="brs-hub-lever-pm">BRS1-FM1-PM5</a> <a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support" class="brs-hub-lever-pm">BRS1-FM2-PM6</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation" class="brs-hub-lever-pm">BRS1-FM4-PM11</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance" class="brs-hub-lever-pm">BRS1-FM4-PM8</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM9</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling" class="brs-hub-lever-pm">BRS1-FM4-PM10</a></span></p>
 </li>
 <li class="brs-hub-dietary-guidance-item">
 <p class="brs-hub-dietary-guidance-main"><strong>Include choline-rich foods regularly</strong> → choline and phospholipids → acetylcholine production and neuronal membrane structure draw on dietary choline supply; low intake constrains cholinergic substrate availability.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/soy">Soy</a> • <a href="/docs/foods/tofu">Tofu</a> • <a href="/docs/foods/tempeh">Tempeh</a> • <a href="/docs/foods/edamame">Edamame</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support" class="brs-hub-lever-pm">BRS1-FM2-PM5</a> <a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation" class="brs-hub-lever-pm">BRS1-FM3-PM6</a></span></p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/soy">Soy</a> • <a href="/docs/foods/tofu">Tofu</a> • <a href="/docs/foods/tempeh">Tempeh</a> • <a href="/docs/foods/edamame">Edamame</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support" class="brs-hub-lever-pm">BRS1-FM2-PM6</a> <a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation" class="brs-hub-lever-pm">BRS1-FM3-PM7</a></span></p>
 </li>
 <li class="brs-hub-dietary-guidance-item">
 <p class="brs-hub-dietary-guidance-main"><strong>Include omega-3-rich foods regularly</strong> → DHA, EPA and membrane-supportive phospholipids → neuronal membrane composition and receptor environments depend on long-chain omega-3 supply; low intake constrains membrane fluidity and signalling efficiency.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/salmon-roe">Fish Roe</a> • <a href="/docs/foods/algal-oil">Algae</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/flax-seeds">Flax Seeds</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation" class="brs-hub-lever-pm">BRS1-FM3-PM6</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation" class="brs-hub-lever-pm">BRS1-FM4-PM10</a></span></p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/salmon">Salmon</a> • <a href="/docs/foods/salmon-roe">Fish Roe</a> • <a href="/docs/foods/algal-oil">Algae</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/flax-seeds">Flax Seeds</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation" class="brs-hub-lever-pm">BRS1-FM3-PM7</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation" class="brs-hub-lever-pm">BRS1-FM4-PM11</a></span></p>
 <p class="brs-hub-dietary-guidance-note"><em>Omega-3:</em> Marine foods and microalgae provide preformed DHA and EPA. Walnuts and flax provide ALA, which requires endogenous conversion with variable efficiency.</p>
 </li>
 <li class="brs-hub-dietary-guidance-item">
 <p class="brs-hub-dietary-guidance-main"><strong>Maintain dietary variety across nutrient-dense whole foods</strong> → vitamins B6, B9 and B12, iron, zinc and magnesium → neurotransmitter synthesis, conversion and regulation need these cofactors; narrow dietary variety leaves enzyme support under-provided.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/nutritional-yeast">Nutritional Yeast</a> • <a href="/docs/foods/fortified-plant-milks">Fortified Plant Milks</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance" class="brs-hub-lever-pm">BRS1-FM4-PM7</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM8</a></span></p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/pumpkin-seeds">Pumpkin Seeds</a> • <a href="/docs/foods/eggs">Eggs</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/nutritional-yeast">Nutritional Yeast</a> • <a href="/docs/foods/fortified-plant-milks">Fortified Plant Milks</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance" class="brs-hub-lever-pm">BRS1-FM4-PM8</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM9</a></span></p>
 <p class="brs-hub-dietary-guidance-note"><em>Vitamin B12:</em> Vegan dietary patterns should obtain vitamin B12 from fortified foods and/or supplementation where appropriate.</p>
 </li>
 <li class="brs-hub-dietary-guidance-item">
 <p class="brs-hub-dietary-guidance-main"><strong>Include polyphenol-rich plant foods and healthy fats</strong> → polyphenols and monounsaturated fats → supports glutamate clearance, GABA synthesis capacity and healthier excitatory–inhibitory regulation when plant and fat variety is narrow.</p>
-<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/extra-virgin-olive-oil">Extra Virgin Olive Oil</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM8</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling" class="brs-hub-lever-pm">BRS1-FM4-PM9</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation" class="brs-hub-lever-pm">BRS1-FM4-PM10</a></span></p>
+<p class="brs-hub-dietary-target-foods"><strong>Target foods:</strong> <a href="/docs/foods/blueberries">Blueberries</a> • <a href="/docs/foods/extra-virgin-olive-oil">Extra Virgin Olive Oil</a> • <a href="/docs/foods/walnuts">Walnuts</a> • <a href="/docs/foods/spinach">Spinach</a> • <a href="/docs/foods/greek-yogurt">Greek Yogurt</a>. <span class="brs-hub-dietary-target-label">BRS:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM9</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling" class="brs-hub-lever-pm">BRS1-FM4-PM10</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation" class="brs-hub-lever-pm">BRS1-FM4-PM11</a></span></p>
 </li>
 </ul>
 </div>
@@ -391,10 +411,10 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 <div class="brs-fm-hub-panel" hidden>
 <p class="brs-hub-sop-category-desc">Optimising food structure, cooking, bioavailability and nutrient delivery.</p>
 <ul class="brs-hub-lever-list brs-hub-optimisation-list">
-<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare omega-3-rich foods gently and include them regularly</strong> to protect delicate marine fats during cooking and support ongoing brain membrane health over time.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation" class="brs-hub-lever-pm">BRS1-FM3-PM6</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance" class="brs-hub-lever-pm">BRS1-FM4-PM7</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation" class="brs-hub-lever-pm">BRS1-FM4-PM10</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM3</a></span></p></li>
-<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prefer gentler cooking and stable fat handling</strong> to limit avoidable AGE/ALE and oxidised-lipid load that can degrade amino-acid usability and add exogenous oxidative pressure on signalling biology.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM2</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling" class="brs-hub-lever-pm">BRS1-FM4-PM9</a></span></p></li>
-<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Soak or sprout phytate-rich seeds and legumes when mineral density matters</strong> to improve plant zinc and mineral bioavailability that supports neurotransmission cofactor chemistry.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance" class="brs-hub-lever-pm">BRS1-FM4-PM7</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM8</a> <a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support" class="brs-hub-lever-pm">BRS1-FM2-PM5</a></span></p></li>
-<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Pair iron-containing foods with vitamin C and meal-context enhancers</strong> to improve iron absorption for catecholamine-related cofactor biology.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM3</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prepare omega-3-rich foods gently and include them regularly</strong> to protect delicate marine fats during cooking and support ongoing brain membrane health over time.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation" class="brs-hub-lever-pm">BRS1-FM3-PM7</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance" class="brs-hub-lever-pm">BRS1-FM4-PM8</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation" class="brs-hub-lever-pm">BRS1-FM4-PM11</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM4</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Prefer gentler cooking and stable fat handling</strong> to limit avoidable AGE/ALE and oxidised-lipid load that can degrade amino-acid usability and add exogenous oxidative pressure on signalling biology.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM2</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling" class="brs-hub-lever-pm">BRS1-FM4-PM10</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Soak or sprout phytate-rich seeds and legumes when mineral density matters</strong> to improve plant zinc and mineral bioavailability that supports neurotransmission cofactor chemistry.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance" class="brs-hub-lever-pm">BRS1-FM4-PM8</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM9</a> <a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support" class="brs-hub-lever-pm">BRS1-FM2-PM6</a></span></p></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Pair iron-containing foods with vitamin C and meal-context enhancers</strong> to improve iron absorption for catecholamine-related cofactor biology.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM4</a></span></p></li>
 </ul>
 </div>
 </div>
@@ -463,9 +483,9 @@ Meal-level amino-acid sufficiency, LAT1 competitive transport, noradrenergic exe
 <div class="brs-fm-hub-panel" hidden>
 
 <ul class="brs-hub-lever-list brs-hub-lifestyle-list">
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Prioritise sufficient, consistent sleep</strong> to support balanced neurotransmitter regulation, cognitive performance, and physiological recovery.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation" class="brs-hub-lever-pm">BRS1-FM1-PM4</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Practise regular stress-management techniques</strong> to help maintain healthy stress recovery, balanced autonomic activity, and adaptive neurochemical signalling.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM2</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM3</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation" class="brs-hub-lever-pm">BRS1-FM1-PM4</a> <a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support" class="brs-hub-lever-pm">BRS1-FM2-PM5</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation" class="brs-hub-lever-pm">BRS1-FM4-PM10</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance" class="brs-hub-lever-pm">BRS1-FM4-PM7</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM8</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling" class="brs-hub-lever-pm">BRS1-FM4-PM9</a></span></p></li>
-<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Engage in regular physical activity</strong> to support healthy neurotransmitter function, metabolic regulation, and long-term brain resilience.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM2</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM3</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation" class="brs-hub-lever-pm">BRS1-FM1-PM4</a> <a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support" class="brs-hub-lever-pm">BRS1-FM2-PM5</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation" class="brs-hub-lever-pm">BRS1-FM4-PM10</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance" class="brs-hub-lever-pm">BRS1-FM4-PM7</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM8</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling" class="brs-hub-lever-pm">BRS1-FM4-PM9</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Prioritise sufficient, consistent sleep</strong> to support balanced neurotransmitter regulation, cognitive performance, and physiological recovery.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation" class="brs-hub-lever-pm">BRS1-FM1-PM5</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Practise regular stress-management techniques</strong> to help maintain healthy stress recovery, balanced autonomic activity, and adaptive neurochemical signalling.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM2</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM4</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation" class="brs-hub-lever-pm">BRS1-FM1-PM5</a> <a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support" class="brs-hub-lever-pm">BRS1-FM2-PM6</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation" class="brs-hub-lever-pm">BRS1-FM4-PM11</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance" class="brs-hub-lever-pm">BRS1-FM4-PM8</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM9</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling" class="brs-hub-lever-pm">BRS1-FM4-PM10</a></span></p></li>
+<li class="brs-hub-lifestyle-priority"><p class="brs-hub-lifestyle-text"><strong>Engage in regular physical activity</strong> to support healthy neurotransmitter function, metabolic regulation, and long-term brain resilience.</p><p class="brs-hub-lifestyle-supports"><span class="brs-hub-lifestyle-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM2</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation" class="brs-hub-lever-pm">BRS1-FM1-PM4</a> <a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation" class="brs-hub-lever-pm">BRS1-FM1-PM5</a> <a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support" class="brs-hub-lever-pm">BRS1-FM2-PM6</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation" class="brs-hub-lever-pm">BRS1-FM4-PM11</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance" class="brs-hub-lever-pm">BRS1-FM4-PM8</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM9</a> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling" class="brs-hub-lever-pm">BRS1-FM4-PM10</a></span></p></li>
 </ul>
 
 </div>
@@ -544,12 +564,13 @@ Monoaminergic, cholinergic, membrane-lipid, and GABA–glutamate mechanisms join
 <ul class="brs-fm-hub-pm-list">
   <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation">BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation</a></li>
   <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation">BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation</a></li>
-  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation">BRS1-FM1-PM3 — Noradrenergic Signalling</a></li>
-  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation">BRS1-FM1-PM4 — Serotonergic Signalling Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation">BRS1-FM1-PM3 — Dopaminergic Signalling Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation">BRS1-FM1-PM4 — Noradrenergic Signalling</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation">BRS1-FM1-PM5 — Serotonergic Signalling Regulation</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
-Maintains monoaminergic signalling capacity by coordinating amino-acid precursor availability, LNAA transport balance, and noradrenergic-serotonergic regulation.
+Maintains monoaminergic signalling capacity by coordinating amino-acid precursor availability, LNAA transport balance, and dopaminergic, noradrenergic and serotonergic regulation.
 
 **FM page:** [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function)
 
@@ -583,7 +604,7 @@ Maintains monoaminergic signalling capacity by coordinating amino-acid precursor
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-  <li><a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support">BRS1-FM2-PM5 — Acetylcholine Synthesis Support</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support">BRS1-FM2-PM6 — Acetylcholine Synthesis Support</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -619,7 +640,7 @@ Maintains cholinergic signalling capacity to support attention, working memory, 
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-  <li><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation">BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation">BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -635,7 +656,7 @@ Maintains neuronal membrane DHA integration and phospholipid-mediated omega-3 de
 
 - [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) — amino-Acid Availability & Prioritisation
 - [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) — lAT1 Competitive Transport Modulation
-- [BRS1-FM2-PM5 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) — acetylcholine Synthesis Support
+- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — acetylcholine Synthesis Support
 - [BRS3-FM2-PM5 — Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — membrane PUFA protection downstream of incorporated DHA
 - [BRS3-FM3-PM8 — Eicosanoid / SPM Balance](/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance) — eicosanoid and specialised pro-resolving mediator balance downstream
 
@@ -657,10 +678,10 @@ Maintains neuronal membrane DHA integration and phospholipid-mediated omega-3 de
 </div>
 
 <ul class="brs-fm-hub-pm-list">
-  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance">BRS1-FM4-PM7 — GABA–Glutamate Neurotransmission Balance</a></li>
-  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity">BRS1-FM4-PM8 — GABA Synthesis Capacity</a></li>
-  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling">BRS1-FM4-PM9 — Glutamate Clearance & Recycling</a></li>
-  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation">BRS1-FM4-PM10 — Excitotoxicity Modulation</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance">BRS1-FM4-PM8 — GABA–Glutamate Neurotransmission Balance</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity">BRS1-FM4-PM9 — GABA Synthesis Capacity</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling">BRS1-FM4-PM10 — Glutamate Clearance & Recycling</a></li>
+  <li><a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation">BRS1-FM4-PM11 — Excitotoxicity Modulation</a></li>
 </ul>
 <div class="brs-fm-hub-panel" hidden>
 
@@ -929,4 +950,3 @@ Specific Mechanisms (SMs) are interpretation layers — context-specific reading
 
 - [BRS1(SM-SNP1) — COMT Catecholamine Clearance Sensitivity](/docs/biological-targets/brs1/sm/brs1-sm-snp1-comt-catecholamine-clearance-sensitivity)
 - [BRS1(SM-SNP2) — APOE4 Omega-3 Brain Delivery Sensitivity](/docs/biological-targets/brs1/sm/brs1-sm-snp2-apoe4-omega-3-brain-delivery-sensitivity)
-

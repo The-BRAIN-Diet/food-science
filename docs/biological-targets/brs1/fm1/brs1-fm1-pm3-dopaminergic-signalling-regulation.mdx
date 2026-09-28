@@ -1,0 +1,663 @@
+---
+title: Dopaminergic Signalling Regulation
+pm_id: BRS1-FM1-PM3
+mission: 'Maintain appropriately regulated dopamine synthesis, storage, release, receptor signalling, reuptake and metabolism across changing functional demand.'
+parent_fm: BRS1(FM1)
+parent_brs: BRS1
+summary: 'Covers the regulated dopaminergic sequence from neuronal synthesis capacity through vesicular handling, activity-dependent release, receptor-mediated signalling, transporter-mediated reuptake and metabolism. Dopamine effects are region-, receptor-, baseline- and task-dependent: concentration, synthesis capacity, release, receptor availability and transporter binding are not interchangeable measures, and neither low nor high signalling is uniformly beneficial. The evidence supports roles in cognitive control, flexibility, reward learning and effort allocation, while dietary modification and clinical benefit remain separate, incompletely supported propositions.'
+cofactors:
+  - Iron
+  - Tetrahydrobiopterin (BH4)
+  - Pyridoxal-5′-phosphate (PLP)
+intervention_dominance: Diet-Supported
+intervention_breakdown: Food-State Leaning
+timing_specific: 'No'
+dose_sensitivity: 'No intake-response range established; dopamine effects are baseline-, region- and task-dependent'
+dietary_addressability: not-established
+claim_ceiling: biological-dependency
+mechanistic_authoring_required: false
+evidence_status: stage-2a-scientific-evidence
+scientific_findings_intro: 'Dopaminergic regulation is a multi-stage control system, not a single concentration variable. The findings below separate synthesis requirements, receptor and transporter biology, pharmacological target engagement and functional outcomes. They establish biological relevance and important constraints; they do not establish that increasing dietary precursors raises brain dopamine or improves a clinical condition.'
+dietary_input_traceability:
+  - atom_id: PM3-DIT-1
+    input: Iron
+    input_type: cofactor
+    biological_role: Cofactor required by tyrosine hydroxylase during catecholamine synthesis
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - beard_iron_2003
+        - erikson_iron_2000
+  - atom_id: PM3-DIT-2
+    input: Pyridoxal-5′-phosphate (PLP)
+    input_type: cofactor
+    biological_role: Cofactor for aromatic L-amino-acid decarboxylase conversion of L-DOPA to dopamine
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - fanet_tetrahydrobioterin_2021
+  - atom_id: PM3-DIT-3
+    input: Vitamin B6
+    input_type: cofactor precursor
+    biological_role: Provides dietary B6 vitamers that are converted to PLP
+    evidence_source:
+      finding_ids:
+        - PM3-F1
+      citation_keys:
+        - fanet_tetrahydrobioterin_2021
+dietary_lever_atoms:
+  - atom_id: PM3-DIT-1
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: 'Candidate for Dietary Levers review: iron is a biochemical cofactor for tyrosine hydroxylase. This does not establish that additional iron increases brain dopamine when iron status is adequate.'
+    evidence_limitation: Human intake-to-dopamine responsiveness and clinical benefit were not established; the direct dopamine-metabolite evidence assessed here is preclinical deficiency evidence.
+  - atom_id: PM3-DIT-2
+    requirement_classification: direct
+    relationship_layer: dietary-requirement
+    dietary_addressability: not-established
+    claim_ceiling: biological-dependency
+    permitted_wording: 'Candidate for Dietary Levers review: PLP is the biochemical cofactor for aromatic L-amino-acid decarboxylase. This is not evidence for dietary PLP supplementation or increased dopamine synthesis.'
+    evidence_limitation: 'The reaction requirement is established, but ordinary dietary variation, target-population insufficiency and human brain responsiveness were not adjudicated.'
+  - atom_id: PM3-DIT-3
+    requirement_classification: derived
+    derived_target: Pyridoxal-5′-phosphate (PLP)
+    derived_target_atom_id: PM3-DIT-2
+    relationship_layer: dietary-requirement
+    dietary_addressability: precursor-mediated
+    claim_ceiling: dietary-provision
+    permitted_wording: 'Candidate for Dietary Levers review: vitamin B6 provides precursors for PLP formation. This does not establish that increasing B6 intake increases dopamine synthesis or improves cognition or ADHD.'
+    evidence_limitation: 'Dietary provision is biologically relevant, but no intake-response evidence linking B6 to human brain dopamine or clinical outcomes was established in this pass.'
+dietary_lever_presentations:
+  - atom_id: PM3-DIT-1
+    label: Iron — candidate pending Dietary Levers review
+    presentation_section: 3.1.1
+  - atom_id: PM3-DIT-2
+    label: Pyridoxal-5′-phosphate (PLP) — candidate pending Dietary Levers review
+    presentation_section: 3.1.1
+  - atom_id: PM3-DIT-3
+    label: Vitamin B6 — candidate pending Dietary Levers review
+    presentation_section: 3.1.1
+candidate_cross_brs_relationships:
+  - target_brs: BRS2
+    relationship_scope: One-carbon metabolism and SAM-dependent COMT activity
+    status: constrained-dependency
+  - target_brs: BRS3
+    relationship_scope: 'Catecholamine oxidation, oxidative burden and antioxidant handling'
+    status: constrained-dependency
+  - target_brs: BRS4
+    relationship_scope: 'Energetic requirements for synthesis, vesicular handling and neuronal signalling'
+    status: constrained-dependency
+  - target_brs: BRS6
+    relationship_scope: 'Metabolic, stress-related and circadian modulation of dopaminergic function'
+    status: constrained-dependency
+phenome_relationships:
+  - target_phenome: Focus / Attention Stability
+    relationship_type: modulates
+    confidence: high
+    evidence_level: mechanistic
+    rationale: 'Dopamine contributes to working memory and cognitive control, but the relationship is nonlinear and depends on baseline state and whether prefrontal stability or striatal updating is required {{cite:cools_inverted-u_2011}}. ADHD imaging findings are heterogeneous across dopamine processes, regions and medication histories rather than showing a uniform dopamine deficit {{cite:macdonald_dopamine_2024,fusar-poli_striatal_2012}}.'
+    scientific_findings:
+      - PM3-F2
+      - PM3-F6
+    references:
+      - index: 1
+        label: Cools & D'Esposito (2011)
+        citation_key: cools_inverted-u_2011
+        href: /docs/papers/BRAIN-Diet-References#cools_inverted-u_2011
+        data_level: Human Mechanistic
+      - index: 2
+        label: MacDonald et al. (2024)
+        citation_key: macdonald_dopamine_2024
+        href: /docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024
+        data_level: Mechanistic
+      - index: 3
+        label: Fusar-Poli et al. (2012)
+        citation_key: fusar-poli_striatal_2012
+        href: /docs/papers/BRAIN-Diet-References#fusar-poli_striatal_2012
+        data_level: Human Mechanistic
+    evidence_confidence: medium
+  - target_phenome: Motivation / Drive
+    relationship_type: modulates
+    confidence: high
+    evidence_level: mechanistic
+    rationale: 'Striatal dopamine synthesis capacity and controlled dopaminergic manipulation alter willingness to expend cognitive effort by changing benefit-versus-cost weighting, supporting a direct relationship with effort allocation rather than a general “reward chemical” account {{cite:westbrook_dopamine_2020}}.'
+    scientific_findings:
+      - PM3-F3
+    references:
+      - index: 1
+        label: Westbrook et al. (2020)
+        citation_key: westbrook_dopamine_2020
+        href: /docs/papers/BRAIN-Diet-References#westbrook_dopamine_2020
+        data_level: Human Mechanistic
+    evidence_confidence: medium
+  - target_phenome: Cognitive Energy Stability
+    relationship_type: indirect
+    confidence: low-medium
+    evidence_level: mechanistic
+    rationale: 'Dopamine can influence willingness to sustain cognitive effort, but the strongest assessed human study measured effort choice rather than fatigue or performance decline over time {{cite:westbrook_dopamine_2020}}. Cognitive energy remains a multi-system outcome, and a dopamine-specific fatigue claim is unresolved.'
+    scientific_findings:
+      - PM3-F3
+    references:
+      - index: 1
+        label: Westbrook et al. (2020)
+        citation_key: westbrook_dopamine_2020
+        href: /docs/papers/BRAIN-Diet-References#westbrook_dopamine_2020
+        data_level: Human Mechanistic
+    evidence_confidence: low-medium
+scientific_findings:
+  - id: PM3-F1
+    finding_label: Dopamine synthesis requires distinct substrate and cofactor steps
+    finding_summary: 'Dopamine synthesis proceeds through tyrosine hydroxylase and aromatic L-amino-acid decarboxylase. Iron and tetrahydrobiopterin support the hydroxylase step, while pyridoxal-5′-phosphate supports decarboxylation. These biochemical requirements do not show that extra intake increases dopamine in an adequately nourished human brain.'
+    finding_interpretation: 'This finding supports three candidate cofactor atoms for later dietary review, not a dopamine-boosting recommendation.'
+    fm_rollup: true
+    finding_statement: 'Neuronal dopamine synthesis depends on separable tyrosine-hydroxylase and aromatic L-amino-acid-decarboxylase reactions with iron, tetrahydrobiopterin and pyridoxal-5′-phosphate requirements; cofactor requirement is not evidence of intake responsiveness.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Biochemical reviews identify tetrahydrobiopterin and iron as requirements for aromatic amino-acid hydroxylation and pyridoxal-5′-phosphate as a catecholamine-synthesis cofactor. Experimental iron deficiency alters striatal and nucleus-accumbens dopamine metabolites in rats, supporting biological sensitivity under deficiency. Together this establishes pathway dependence, not ordinary-diet control of human brain dopamine.'
+    synthesis_limitations: 'The most direct deficiency evidence is preclinical, and the reviewed sources do not establish common inadequacy in a defined clinical population, responsiveness when baseline status is adequate, or functional benefit mediated by dopamine.'
+    evidence_considered:
+      - label: Fanet et al. (2021)
+        citation_key: fanet_tetrahydrobioterin_2021
+        href: /docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021
+        data_level: Mechanistic
+        evidence_source: repository-inherited
+        directional_finding: 'BH4, iron and vitamin-derived cofactors are required across catecholamine synthesis reactions.'
+        assessment:
+          study: Narrative biochemical review of tetrahydrobiopterin and monoamine synthesis pathways.
+          population: Mixed mechanistic literature; not a defined dietary intervention population.
+          result: Identified BH4 and associated cofactors as necessary for aromatic amino-acid hydroxylation and monoamine synthesis.
+          effect_magnitude: No pooled intake-response effect estimate.
+          evidence_summary: Supports reaction-level requirements and pathway boundaries.
+          limitations: Does not establish that increasing dietary intake modifies human brain dopamine or improves function.
+      - label: Erikson et al. (2000)
+        citation_key: erikson_iron_2000
+        href: /docs/papers/BRAIN-Diet-References#erikson_iron_2000
+        data_level: Animal Data
+        exposure_context: dietary iron deficiency
+        evidence_source: repository-inherited
+        directional_finding: Increasing severity of iron deficiency altered locomotor activity and dopamine metabolites in rat striatum and nucleus accumbens.
+        assessment:
+          study: Controlled rat dietary iron-deficiency experiment with regional dopamine-metabolite and locomotor outcomes.
+          population: Laboratory rats under graded iron deficiency.
+          result: 'Iron deficiency changed regional dopamine-metabolite profiles and locomotor activity, with severity-dependent effects.'
+          effect_magnitude: Directional severity-response; no human-equivalent effect estimate.
+          evidence_summary: Supports dopamine-system sensitivity to marked iron deficiency.
+          limitations: Animal deficiency model; metabolite concentrations do not directly measure synthesis flux or predict human clinical benefit.
+    connected_supportive_evidence:
+      - label: Beard et al. (2003)
+        citation_key: beard_iron_2003
+        href: /docs/papers/BRAIN-Diet-References#beard_iron_2003
+        data_level: Animal Data
+        why_relevant: Reviews iron-dependent dopamine biology and behavioural consequences of deficiency.
+        why_excluded: Review-level and predominantly preclinical; it does not add a human intake-to-dopamine estimate.
+    presentation: mechanistic-basis
+  - id: PM3-F2
+    finding_label: Dopamine supports cognitive control nonlinearly
+    finding_summary: 'Human pharmacology and patient studies show that dopamine effects on working memory and control depend on baseline state, brain region and task. Both insufficient and excessive stimulation can impair performance.'
+    finding_interpretation: Dopamine is not a single directional cognitive-performance variable; “more dopamine” is not a valid general recommendation.
+    fm_rollup: true
+    finding_statement: 'Dopaminergic modulation of working memory and cognitive control follows baseline-, region- and process-dependent nonlinear relationships rather than a uniformly beneficial direction.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'The reviewed human evidence supports an inverted-U framework in which prefrontal stability and striatal flexibility can respond differently to dopaminergic manipulation. Baseline dopamine, receptor context, region and cognitive demand explain why the same manipulation may improve one process or participant while impairing another.'
+    synthesis_limitations: 'The synthesis integrates pharmacological studies, Parkinson disease withdrawal studies and preclinical evidence. Drug effects may include non-dopaminergic actions and do not establish nutritional modifiability.'
+    evidence_considered:
+      - label: Cools & D'Esposito (2011)
+        citation_key: cools_inverted-u_2011
+        href: /docs/papers/BRAIN-Diet-References#cools_inverted-u_2011
+        data_level: Human Mechanistic
+        exposure_context: pharmacological dopaminergic manipulation and medication withdrawal
+        evidence_source: bounded-external-search
+        directional_finding: 'Dopaminergic effects on working memory and cognitive control varied with baseline dopamine, brain region and stability-versus-flexibility demand, consistent with an inverted-U relationship.'
+        assessment:
+          study: 'Mechanistic review of experimental animals, healthy-human pharmacology and Parkinson disease medication-withdrawal studies.'
+          population: 'Healthy adults and people with Parkinson disease, with supporting animal evidence.'
+          result: Both low and high dopaminergic stimulation could impair cognition; effects differed between prefrontal stability and striatal flexibility.
+          effect_magnitude: No pooled effect estimate; direction depended on baseline and task.
+          evidence_summary: Directly rejects a unitary more-is-better dopamine model for cognition.
+          limitations: Heterogeneous paradigms and pharmacological exposures; not a dietary intervention synthesis.
+    presentation: mechanistic-basis
+  - id: PM3-F3
+    finding_label: Striatal dopamine influences willingness to expend cognitive effort
+    finding_summary: 'In healthy adults, higher striatal dopamine synthesis capacity predicted greater willingness to choose demanding cognitive work, while methylphenidate and sulpiride shifted benefit-versus-cost weighting most in people with lower synthesis capacity.'
+    finding_interpretation: 'This supports effort allocation and motivation, not a claim that dopamine simply increases energy or that diet reproduces medication effects.'
+    fm_rollup: true
+    finding_statement: Striatal dopamine synthesis capacity and controlled dopaminergic manipulation influence cognitive-effort choice by altering benefit-versus-cost weighting.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'PET-derived synthesis capacity and a placebo-controlled pharmacology design converged on a baseline-dependent role for dopamine in cognitive motivation. Higher synthesis capacity increased benefit weighting on placebo, and drug effects were larger at lower baseline capacity.'
+    synthesis_limitations: 'A modest healthy-adult sample and an effort-choice task do not establish sustained performance, fatigue resistance, clinical benefit or dietary modification. Methylphenidate also affects noradrenaline.'
+    evidence_considered:
+      - label: Westbrook et al. (2020)
+        citation_key: westbrook_dopamine_2020
+        href: /docs/papers/BRAIN-Diet-References#westbrook_dopamine_2020
+        data_level: Human Mechanistic
+        exposure_context: 'methylphenidate, sulpiride and placebo'
+        evidence_source: bounded-external-search
+        directional_finding: Higher striatal dopamine synthesis capacity and dopaminergic drugs increased willingness to expend cognitive effort by strengthening benefit relative to cost weighting.
+        assessment:
+          study: Within-participant pharmacological study combined with PET measurement of striatal dopamine synthesis capacity and computational modelling of effort choices.
+          population: Fifty healthy adults; complete model estimates were available for a smaller subset depending on analysis.
+          result: 'Baseline synthesis capacity predicted cognitive motivation, and methylphenidate and sulpiride increased motivation most at lower baseline capacity.'
+          effect_magnitude: Reported model coefficients and baseline interactions; no general clinical effect size.
+          evidence_summary: Provides human mechanistic evidence linking a measured dopamine process to cognitive-effort allocation.
+          limitations: 'Healthy sample, acute drugs, modest size, choice rather than endurance; methylphenidate is not dopamine-selective.'
+    presentation: mechanistic-basis
+  - id: PM3-F4
+    finding_label: D2-receptor signalling contributes to cognitive flexibility
+    finding_summary: 'Human pharmacological evidence supports a role for D2-receptor signalling in set shifting, while broader evidence shows that dopamine effects vary by task, baseline state and frontostriatal locus.'
+    finding_interpretation: Flexibility and stability can move in opposite directions; receptor engagement is not equivalent to a global dopamine concentration change.
+    finding_statement: 'Dopamine, including D2-receptor signalling, contributes to cognitive flexibility and set shifting in a task- and baseline-dependent manner.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A human agonist-antagonist pretreatment experiment provided receptor-specific evidence that D2 signalling contributes to flexibility, while a broader review situated this within frontostriatal and clinical evidence. The combined result supports a functional role without implying uniform enhancement.'
+    synthesis_limitations: 'Acute pharmacology in healthy volunteers and mixed human/animal review evidence do not quantify everyday dopamine function, nutritional modification or clinical treatment effects.'
+    evidence_considered:
+      - label: van der Schaaf et al. (2012)
+        citation_key: van_der_schaaf_human_2012
+        href: /docs/papers/BRAIN-Diet-References#van_der_schaaf_human_2012
+        data_level: Human Mechanistic
+        exposure_context: bromocriptine with sulpiride pretreatment
+        evidence_source: bounded-external-search
+        directional_finding: 'The effect of a dopamine agonist on cognitive flexibility was abolished by D2-antagonist pretreatment, supporting D2-receptor involvement.'
+        assessment:
+          study: Double pharmacological challenge study of task switching in healthy young adults.
+          population: Healthy young adult volunteers.
+          result: Bromocriptine changed flexibility performance and sulpiride pretreatment blocked the effect.
+          effect_magnitude: Task-specific drug interaction; no general cognitive enhancement estimate.
+          evidence_summary: Strengthens receptor-specific attribution for human cognitive flexibility.
+          limitations: 'Acute pharmacology, limited sample, and no dietary or clinical outcome.'
+      - label: Klanker et al. (2013)
+        citation_key: klanker_dopaminergic_2013
+        href: /docs/papers/BRAIN-Diet-References#klanker_dopaminergic_2013
+        data_level: Mixed
+        evidence_source: bounded-external-search
+        directional_finding: 'Human and animal evidence linked striatal dopamine to reversal learning and set shifting, with direction contingent on receptor, baseline state and task.'
+        assessment:
+          study: 'Narrative review of pharmacological, genetic, patient and animal studies of cognitive flexibility.'
+          population: 'Healthy humans, clinical groups and experimental animals.'
+          result: Supported dopamine involvement but not a single direction across flexibility paradigms.
+          effect_magnitude: No pooled effect estimate.
+          evidence_summary: Provides scope and heterogeneity context around the receptor-specific experiment.
+          limitations: Mixed models and designs; review predates newer evidence and does not establish dietary modification.
+    presentation: mechanistic-basis
+  - id: PM3-F5
+    finding_label: Aging affects dopamine targets differently
+    finding_summary: 'Across 95 imaging studies, healthy aging was associated with lower dopamine receptor and transporter measures, while synthesis capacity was not significantly lower.'
+    finding_interpretation: Age-related change is process-specific; receptor or transporter decline must not be restated as global dopamine depletion.
+    finding_statement: Healthy aging is associated with declines in dopamine receptor and transporter availability but not a significant pooled decline in dopamine synthesis capacity.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'The meta-analysis separated receptors, transporters and synthesis measures across PET and SPECT studies. Moderate-to-large negative age associations were found for receptors and transporters, with larger effects for D1-like than D2-like receptors, while synthesis capacity was spared on average.'
+    synthesis_limitations: 'Cross-sectional imaging cannot establish within-person decline or causal cognitive effects. Ligands and regions varied, and availability measures are not dopamine concentration.'
+    evidence_considered:
+      - label: Karrer et al. (2017)
+        citation_key: karrer_reduced_2017
+        href: /docs/papers/BRAIN-Diet-References#karrer_reduced_2017
+        data_level: Human Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: Age was negatively associated with dopamine receptors and transporters but not significantly with synthesis capacity.
+        assessment:
+          study: Meta-analysis of cross-sectional PET and SPECT studies of distinct dopamine targets.
+          population: 'Ninety-five studies comprising 2,611 healthy adults.'
+          result: Receptor and transporter measures declined by target-specific amounts with age; synthesis capacity did not show a significant pooled age effect.
+          effect_magnitude: Average age reductions across assessed dopamine targets ranged from 3.7% to 14.0% per decade.
+          evidence_summary: Directly establishes process-specific age variation and rejects a global decline formulation.
+          limitations: 'Cross-sectional studies, heterogeneous ligands and regions, and no direct mediation test for cognitive decline.'
+    presentation: mechanistic-basis
+  - id: PM3-F6
+    finding_label: ADHD does not show one uniform dopamine abnormality
+    finding_summary: 'Dopamine biology is relevant to ADHD, but imaging and mechanistic findings differ by dopamine process, brain region, developmental stage, medication exposure and study method. The evidence does not support ADHD as a uniform global dopamine-deficiency disorder.'
+    finding_interpretation: Medication target engagement supports dopamine relevance but cannot identify a universal baseline lesion or establish nutritional modifiability.
+    therapeutic_area_ids:
+      - TA001
+    finding_statement: 'ADHD-related dopamine findings are heterogeneous across synthesis, release, receptors and transporter measures and do not establish a uniform global dopamine deficit.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A recent broad evaluation found hypo-, hyper- and null findings across human and animal evidence. A transporter meta-analysis found an average group difference but large heterogeneity and a strong relationship with prior psychostimulant exposure. Together these support dopamine as one relevant regulatory domain while making medication history, region, age and measured process essential to interpretation.'
+    synthesis_limitations: 'Small samples, different tracers and diagnostic groups, medication confounding and cross-sectional designs limit causal interpretation. Transporter binding, synthesis capacity, receptor availability and extracellular release are not interchangeable.'
+    evidence_considered:
+      - label: MacDonald et al. (2024)
+        citation_key: macdonald_dopamine_2024
+        href: /docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024
+        data_level: Mixed
+        evidence_source: repository-inherited
+        directional_finding: 'Human and animal findings did not consistently support a generalized hypodopaminergic ADHD state; results varied by process, region, task and population.'
+        assessment:
+          study: Critical review of the dopamine hypothesis across human studies and animal models.
+          population: 'Children and adults with ADHD, healthy comparison groups and ADHD-relevant animal models.'
+          result: 'Reported lower, higher and null dopamine-related findings and concluded that a simple global deficiency model is not supported.'
+          effect_magnitude: No pooled global effect estimate because dopamine processes and methods were heterogeneous.
+          evidence_summary: Supports dopamine relevance while constraining the direction and universality of the ADHD interpretation.
+          limitations: Broad narrative synthesis across heterogeneous methods; many studies were small or medication-confounded.
+      - label: Fusar-Poli et al. (2012)
+        citation_key: fusar-poli_striatal_2012
+        href: /docs/papers/BRAIN-Diet-References#fusar-poli_striatal_2012
+        data_level: Human Mechanistic
+        evidence_source: bounded-external-search
+        directional_finding: 'Striatal dopamine-transporter density was 14% higher on average in ADHD, but heterogeneity was large and medication exposure materially moderated the result.'
+        assessment:
+          study: Meta-analysis of nine PET and SPECT studies of striatal dopamine-transporter binding.
+          population: 169 participants with ADHD and 173 matched controls.
+          result: 'Average transporter density was higher in ADHD, but studies were significantly heterogeneous and medication exposure explained important variation.'
+          effect_magnitude: Approximately 14% higher mean striatal transporter density in the ADHD group.
+          evidence_summary: Shows a process-specific group difference while demonstrating why medication history cannot be ignored.
+          limitations: 'Small number of imaging studies, heterogeneous tracers and designs, and transporter binding is not dopamine concentration or release.'
+    presentation: mechanistic-basis
+  - id: PM3-F7
+    finding_label: L-tyrosine did not provide sustained ADHD benefit
+    finding_summary: A small open trial in adults with attention deficit disorder reported an initial response to L-tyrosine that disappeared as tolerance developed.
+    finding_interpretation: 'The study does not establish sustained clinical benefit, dopamine target engagement, or a food-based treatment claim.'
+    therapeutic_area_ids:
+      - TA001
+    finding_statement: Open-label L-tyrosine supplementation did not produce a sustained ADHD benefit and did not demonstrate modification of brain dopamine biology.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'The trial is retained as non-supportive clinical evidence at the boundary between precursor provision and PM3 signalling. An initial symptom response was not sustained, and no dopamine process was measured.'
+    synthesis_limitations: 'Very small, uncontrolled, older study with no placebo group, no dopamine biomarker and limited diagnostic comparability to current ADHD definitions.'
+    evidence_considered:
+      - label: Reimherr & Ward (1987)
+        citation_key: f_w_reimherr_open_1987
+        href: /docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987
+        data_level: Human Outcome
+        exposure_context: isolated L-tyrosine supplement
+        evidence_source: repository-inherited
+        directional_finding: An initial symptom response in some adults disappeared during continued treatment as tolerance developed.
+        assessment:
+          study: Open-label L-tyrosine trial without placebo control.
+          population: Twelve adults diagnosed with attention deficit disorder.
+          result: Initial response was not sustained during continued supplementation.
+          effect_magnitude: Small uncontrolled sample; no robust comparative effect estimate.
+          evidence_summary: Does not support sustained L-tyrosine treatment efficacy and provides no evidence of dopamine target engagement.
+          limitations: 'Open label, n=12, older diagnostic framework, no dopamine measurement, and tolerance confounds interpretation.'
+    presentation: mechanistic-basis
+references:
+  - '[Fanet et al. (2021) — Tetrahydrobiopterin and Monoamine Synthesis](/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021)'
+  - '[Beard et al. (2003) — Iron and Dopamine Biology](/docs/papers/BRAIN-Diet-References#beard_iron_2003)'
+  - '[Erikson et al. (2000) — Iron Deficiency, Dopamine Metabolites and Activity](/docs/papers/BRAIN-Diet-References#erikson_iron_2000)'
+  - '[Cools & D''Esposito (2011) — Inverted-U Dopamine Actions on Cognitive Control](/docs/papers/BRAIN-Diet-References#cools_inverted-u_2011)'
+  - '[Westbrook et al. (2020) — Dopamine and Cognitive Effort](/docs/papers/BRAIN-Diet-References#westbrook_dopamine_2020)'
+  - '[Klanker et al. (2013) — Dopaminergic Control of Cognitive Flexibility](/docs/papers/BRAIN-Diet-References#klanker_dopaminergic_2013)'
+  - '[van der Schaaf et al. (2012) — D2 Signalling and Cognitive Flexibility](/docs/papers/BRAIN-Diet-References#van_der_schaaf_human_2012)'
+  - '[Karrer et al. (2017) — Dopamine Targets in Normal Aging](/docs/papers/BRAIN-Diet-References#karrer_reduced_2017)'
+  - '[MacDonald et al. (2024) — Evaluation of the Dopamine Hypothesis for ADHD](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024)'
+  - '[Fusar-Poli et al. (2012) — Striatal Dopamine Transporter Alterations in ADHD](/docs/papers/BRAIN-Diet-References#fusar-poli_striatal_2012)'
+  - '[Reimherr & Ward (1987) — Open Trial of L-Tyrosine in Attention Deficit Disorder](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987)'
+hide_title: true
+---
+
+<p class="brs-pm-thumbnail-wrap">
+  <img
+    src="/img/biological-targets/brs1-portrait-thumbnail.png"
+    alt="BRS1 — Neurotransmitter Regulation"
+    class="brs-pm-thumbnail"
+  />
+</p>
+
+## BRS1-FM1-PM3 - Dopaminergic Signalling Regulation
+
+(Dopamine synthesis, signalling, reuptake and metabolism)
+
+## 1. Mission & Overview
+
+### Mission
+
+Maintain appropriately regulated dopamine synthesis, storage, release, receptor signalling, reuptake and metabolism across changing functional demand.
+
+### Overview
+
+Covers the regulated dopaminergic sequence from neuronal synthesis capacity through vesicular handling, activity-dependent release, receptor-mediated signalling, transporter-mediated reuptake and metabolism. Dopamine effects are region-, receptor-, baseline- and task-dependent: concentration, synthesis capacity, release, receptor availability and transporter binding are not interchangeable measures, and neither low nor high signalling is uniformly beneficial.
+
+* Begins at neuronal dopamine synthesis capacity and extends through signalling and clearance.
+* Supports cognitive control, flexibility, reward learning and effort allocation through distinct circuits and dopamine processes.
+* Keeps precursor availability, medication target engagement, nutritional modification and clinical benefit as separate claims.
+
+## 2. Primary Biological Effects
+
+Tyrosine hydroxylation and L-DOPA conversion → neuronal dopamine synthesis capacity → vesicular storage and activity-dependent release → receptor-mediated signalling → dopamine-transporter-mediated reuptake → MAO- and COMT-related metabolism.
+
+## 3. Levers
+
+### Intervention Profile
+
+**Intervention Dominance:** Diet-Supported
+
+Dietary addressability remains unestablished. The entries below are Stage 2A candidate atoms for the later Dietary Levers review; they identify biochemical requirements but are not recommendations, doses, timing rules or scoreable inputs.
+
+<details>
+<summary><strong>3.1 Dietary Requirements</strong></summary>
+
+### 3.1.1 Direct and/or Derived Dietary Requirements
+
+* **Iron — candidate:** direct tyrosine-hydroxylase cofactor requirement. Deficiency can alter dopamine-related biology, but additional intake has not been shown to increase human brain dopamine when status is adequate [1–3](#pm-ref-1).
+* **Pyridoxal-5′-phosphate (PLP) — candidate:** direct cofactor for aromatic L-amino-acid decarboxylase. This reaction requirement does not establish dietary PLP supplementation [1](#pm-ref-1).
+* **Vitamin B6 — candidate:** derived requirement because dietary B6 vitamers provide precursors for PLP formation. Human brain dopamine responsiveness and clinical benefit are not established [1](#pm-ref-1).
+
+All three candidates retain finding and citation provenance in front matter and require the separate Dietary Levers pass before canonical lever status.
+
+### 3.1.2 Cofactors and Substrates
+
+Tyrosine hydroxylation requires tetrahydrobiopterin and iron; L-DOPA decarboxylation requires PLP. Tyrosine pool sufficiency belongs to PM1 and competitive brain transport belongs to PM2. Tetrahydrobiopterin is an endogenous cofactor requirement, not a dietary-BH4 recommendation.
+
+### 3.1.3 Key Constraints
+
+No PM-specific Key Constraint membership is established. Precursor competition remains governed by BRS1(KC1) through PM1 and PM2 and is not duplicated here.
+
+</details>
+
+<details>
+<summary><strong>3.2 System Optimisation Practices</strong></summary>
+
+No evidence-qualified Food Preparation &amp; Delivery practice is published for this PM.
+
+</details>
+
+<details>
+<summary><strong>3.3 Lifestyle Levers</strong></summary>
+
+No evidence-qualified lifestyle lever is published for this PM.
+
+</details>
+
+## 4. Mechanistic Basis
+
+### Summary
+
+This PM begins after precursor availability and blood–brain barrier transport. It regulates a sequence of synthesis, vesicular handling, release, receptor signalling, transporter-mediated reuptake and enzymatic metabolism. Each stage can vary independently, so no single dopamine measure represents the whole mechanism.
+
+<details>
+<summary><strong>Dopaminergic signalling regulation — process, boundaries and integration</strong></summary>
+
+#### (Synthesis, storage and activity-dependent release)
+
+Tyrosine hydroxylase converts tyrosine to L-DOPA using tetrahydrobiopterin and iron; aromatic L-amino-acid decarboxylase then forms dopamine using PLP [1–3](#pm-ref-1). Dopamine is packaged into vesicles and released in activity-dependent tonic and phasic patterns [9](#pm-ref-9). Substrate or cofactor dependence establishes reaction biology, not that additional dietary provision increases synthesis, release or function.
+
+#### (Receptors, transporter-mediated reuptake and metabolism)
+
+D1-like and D2-like receptor families have different distributions and circuit effects [4,6,7](#pm-ref-4). Dopamine-transporter activity controls extracellular signal duration in transporter-rich regions, while COMT and monoamine oxidases contribute to metabolism with region-dependent importance [9,10](#pm-ref-9). Receptor availability, transporter binding, synthesis capacity, extracellular release and metabolite concentration are different constructs and must not be used interchangeably [8–10](#pm-ref-8).
+
+#### (Boundaries of the mechanism)
+
+[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation) covers systemic amino-acid availability and prioritisation. [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation) covers competitive transport into the brain. This PM begins with dopaminergic synthesis capacity and extends through signalling, reuptake and metabolism. [BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation) covers noradrenergic signalling downstream of catecholamine synthesis.
+
+Dietary tyrosine availability must not be equated with increased brain dopamine or improved ADHD symptoms. Pharmacological evidence may establish the relevance of dopaminergic signalling to ADHD, but it cannot establish that a dietary intervention modifies that signalling or improves outcomes.
+
+#### (Integration and evidence boundary)
+
+Dopaminergic effects on cognition and behaviour are nonlinear, region-specific and state-dependent [4–7](#pm-ref-4). Prefrontal stability and striatal flexibility can respond differently to the same manipulation, and medication exposure can alter transporter measurements [4,10](#pm-ref-4). BRS2 methyl-donor availability, BRS3 redox handling, BRS4 synaptic energy supply and BRS6 metabolic, stress and circadian context remain constrained dependencies: they may shape this PM but do not become dopamine findings or dietary levers without relationship-specific evidence.
+
+</details>
+
+### 4.1 Scientific Findings
+
+#### Introduction/Summary
+
+Dopaminergic regulation is a multi-stage control system, not a single concentration variable. The findings below separate synthesis requirements, receptor and transporter biology, pharmacological target engagement and functional outcomes. They establish biological relevance and important constraints; they do not establish that increasing dietary precursors raises brain dopamine or improves a clinical condition.
+
+<ScientificFinding finding={{"id":"PM3-F1","finding_label":"Dopamine synthesis requires distinct substrate and cofactor steps","finding_summary":"Dopamine synthesis proceeds through tyrosine hydroxylase and aromatic L-amino-acid decarboxylase. Iron and tetrahydrobiopterin support the hydroxylase step, while pyridoxal-5′-phosphate supports decarboxylation. These biochemical requirements do not show that extra intake increases dopamine in an adequately nourished human brain.","finding_interpretation":"This finding supports three candidate cofactor atoms for later dietary review, not a dopamine-boosting recommendation.","fm_rollup":true,"finding_statement":"Neuronal dopamine synthesis depends on separable tyrosine-hydroxylase and aromatic L-amino-acid-decarboxylase reactions with iron, tetrahydrobiopterin and pyridoxal-5′-phosphate requirements; cofactor requirement is not evidence of intake responsiveness.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Biochemical reviews identify tetrahydrobiopterin and iron as requirements for aromatic amino-acid hydroxylation and pyridoxal-5′-phosphate as a catecholamine-synthesis cofactor. Experimental iron deficiency alters striatal and nucleus-accumbens dopamine metabolites in rats, supporting biological sensitivity under deficiency. Together this establishes pathway dependence, not ordinary-diet control of human brain dopamine.","synthesis_limitations":"The most direct deficiency evidence is preclinical, and the reviewed sources do not establish common inadequacy in a defined clinical population, responsiveness when baseline status is adequate, or functional benefit mediated by dopamine.","evidence_considered":[{"label":"Fanet et al. (2021)","citation_key":"fanet_tetrahydrobioterin_2021","href":"/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021","data_level":"Mechanistic","evidence_source":"repository-inherited","directional_finding":"BH4, iron and vitamin-derived cofactors are required across catecholamine synthesis reactions.","assessment":{"study":"Narrative biochemical review of tetrahydrobiopterin and monoamine synthesis pathways.","population":"Mixed mechanistic literature; not a defined dietary intervention population.","result":"Identified BH4 and associated cofactors as necessary for aromatic amino-acid hydroxylation and monoamine synthesis.","effect_magnitude":"No pooled intake-response effect estimate.","evidence_summary":"Supports reaction-level requirements and pathway boundaries.","limitations":"Does not establish that increasing dietary intake modifies human brain dopamine or improves function."}},{"label":"Erikson et al. (2000)","citation_key":"erikson_iron_2000","href":"/docs/papers/BRAIN-Diet-References#erikson_iron_2000","data_level":"Animal Data","exposure_context":"dietary iron deficiency","evidence_source":"repository-inherited","directional_finding":"Increasing severity of iron deficiency altered locomotor activity and dopamine metabolites in rat striatum and nucleus accumbens.","assessment":{"study":"Controlled rat dietary iron-deficiency experiment with regional dopamine-metabolite and locomotor outcomes.","population":"Laboratory rats under graded iron deficiency.","result":"Iron deficiency changed regional dopamine-metabolite profiles and locomotor activity, with severity-dependent effects.","effect_magnitude":"Directional severity-response; no human-equivalent effect estimate.","evidence_summary":"Supports dopamine-system sensitivity to marked iron deficiency.","limitations":"Animal deficiency model; metabolite concentrations do not directly measure synthesis flux or predict human clinical benefit."}}],"connected_supportive_evidence":[{"label":"Beard et al. (2003)","citation_key":"beard_iron_2003","href":"/docs/papers/BRAIN-Diet-References#beard_iron_2003","data_level":"Animal Data","why_relevant":"Reviews iron-dependent dopamine biology and behavioural consequences of deficiency.","why_excluded":"Review-level and predominantly preclinical; it does not add a human intake-to-dopamine estimate."}],"presentation":"mechanistic-basis"}} />
+
+<ScientificFinding finding={{"id":"PM3-F2","finding_label":"Dopamine supports cognitive control nonlinearly","finding_summary":"Human pharmacology and patient studies show that dopamine effects on working memory and control depend on baseline state, brain region and task. Both insufficient and excessive stimulation can impair performance.","finding_interpretation":"Dopamine is not a single directional cognitive-performance variable; “more dopamine” is not a valid general recommendation.","fm_rollup":true,"finding_statement":"Dopaminergic modulation of working memory and cognitive control follows baseline-, region- and process-dependent nonlinear relationships rather than a uniformly beneficial direction.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The reviewed human evidence supports an inverted-U framework in which prefrontal stability and striatal flexibility can respond differently to dopaminergic manipulation. Baseline dopamine, receptor context, region and cognitive demand explain why the same manipulation may improve one process or participant while impairing another.","synthesis_limitations":"The synthesis integrates pharmacological studies, Parkinson disease withdrawal studies and preclinical evidence. Drug effects may include non-dopaminergic actions and do not establish nutritional modifiability.","evidence_considered":[{"label":"Cools & D'Esposito (2011)","citation_key":"cools_inverted-u_2011","href":"/docs/papers/BRAIN-Diet-References#cools_inverted-u_2011","data_level":"Human Mechanistic","exposure_context":"pharmacological dopaminergic manipulation and medication withdrawal","evidence_source":"bounded-external-search","directional_finding":"Dopaminergic effects on working memory and cognitive control varied with baseline dopamine, brain region and stability-versus-flexibility demand, consistent with an inverted-U relationship.","assessment":{"study":"Mechanistic review of experimental animals, healthy-human pharmacology and Parkinson disease medication-withdrawal studies.","population":"Healthy adults and people with Parkinson disease, with supporting animal evidence.","result":"Both low and high dopaminergic stimulation could impair cognition; effects differed between prefrontal stability and striatal flexibility.","effect_magnitude":"No pooled effect estimate; direction depended on baseline and task.","evidence_summary":"Directly rejects a unitary more-is-better dopamine model for cognition.","limitations":"Heterogeneous paradigms and pharmacological exposures; not a dietary intervention synthesis."}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
+
+<ScientificFinding finding={{"id":"PM3-F3","finding_label":"Striatal dopamine influences willingness to expend cognitive effort","finding_summary":"In healthy adults, higher striatal dopamine synthesis capacity predicted greater willingness to choose demanding cognitive work, while methylphenidate and sulpiride shifted benefit-versus-cost weighting most in people with lower synthesis capacity.","finding_interpretation":"This supports effort allocation and motivation, not a claim that dopamine simply increases energy or that diet reproduces medication effects.","fm_rollup":true,"finding_statement":"Striatal dopamine synthesis capacity and controlled dopaminergic manipulation influence cognitive-effort choice by altering benefit-versus-cost weighting.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"PET-derived synthesis capacity and a placebo-controlled pharmacology design converged on a baseline-dependent role for dopamine in cognitive motivation. Higher synthesis capacity increased benefit weighting on placebo, and drug effects were larger at lower baseline capacity.","synthesis_limitations":"A modest healthy-adult sample and an effort-choice task do not establish sustained performance, fatigue resistance, clinical benefit or dietary modification. Methylphenidate also affects noradrenaline.","evidence_considered":[{"label":"Westbrook et al. (2020)","citation_key":"westbrook_dopamine_2020","href":"/docs/papers/BRAIN-Diet-References#westbrook_dopamine_2020","data_level":"Human Mechanistic","exposure_context":"methylphenidate, sulpiride and placebo","evidence_source":"bounded-external-search","directional_finding":"Higher striatal dopamine synthesis capacity and dopaminergic drugs increased willingness to expend cognitive effort by strengthening benefit relative to cost weighting.","assessment":{"study":"Within-participant pharmacological study combined with PET measurement of striatal dopamine synthesis capacity and computational modelling of effort choices.","population":"Fifty healthy adults; complete model estimates were available for a smaller subset depending on analysis.","result":"Baseline synthesis capacity predicted cognitive motivation, and methylphenidate and sulpiride increased motivation most at lower baseline capacity.","effect_magnitude":"Reported model coefficients and baseline interactions; no general clinical effect size.","evidence_summary":"Provides human mechanistic evidence linking a measured dopamine process to cognitive-effort allocation.","limitations":"Healthy sample, acute drugs, modest size, choice rather than endurance; methylphenidate is not dopamine-selective."}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Motivation / Drive","href":"/docs/phenomes/details/ph002-motivation-drive"},{"phenome":"Cognitive Energy Stability","href":"/docs/phenomes/details/ph004-cognitive-energy-stability"}]}} />
+
+<ScientificFinding finding={{"id":"PM3-F4","finding_label":"D2-receptor signalling contributes to cognitive flexibility","finding_summary":"Human pharmacological evidence supports a role for D2-receptor signalling in set shifting, while broader evidence shows that dopamine effects vary by task, baseline state and frontostriatal locus.","finding_interpretation":"Flexibility and stability can move in opposite directions; receptor engagement is not equivalent to a global dopamine concentration change.","finding_statement":"Dopamine, including D2-receptor signalling, contributes to cognitive flexibility and set shifting in a task- and baseline-dependent manner.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A human agonist-antagonist pretreatment experiment provided receptor-specific evidence that D2 signalling contributes to flexibility, while a broader review situated this within frontostriatal and clinical evidence. The combined result supports a functional role without implying uniform enhancement.","synthesis_limitations":"Acute pharmacology in healthy volunteers and mixed human/animal review evidence do not quantify everyday dopamine function, nutritional modification or clinical treatment effects.","evidence_considered":[{"label":"van der Schaaf et al. (2012)","citation_key":"van_der_schaaf_human_2012","href":"/docs/papers/BRAIN-Diet-References#van_der_schaaf_human_2012","data_level":"Human Mechanistic","exposure_context":"bromocriptine with sulpiride pretreatment","evidence_source":"bounded-external-search","directional_finding":"The effect of a dopamine agonist on cognitive flexibility was abolished by D2-antagonist pretreatment, supporting D2-receptor involvement.","assessment":{"study":"Double pharmacological challenge study of task switching in healthy young adults.","population":"Healthy young adult volunteers.","result":"Bromocriptine changed flexibility performance and sulpiride pretreatment blocked the effect.","effect_magnitude":"Task-specific drug interaction; no general cognitive enhancement estimate.","evidence_summary":"Strengthens receptor-specific attribution for human cognitive flexibility.","limitations":"Acute pharmacology, limited sample, and no dietary or clinical outcome."}},{"label":"Klanker et al. (2013)","citation_key":"klanker_dopaminergic_2013","href":"/docs/papers/BRAIN-Diet-References#klanker_dopaminergic_2013","data_level":"Mixed","evidence_source":"bounded-external-search","directional_finding":"Human and animal evidence linked striatal dopamine to reversal learning and set shifting, with direction contingent on receptor, baseline state and task.","assessment":{"study":"Narrative review of pharmacological, genetic, patient and animal studies of cognitive flexibility.","population":"Healthy humans, clinical groups and experimental animals.","result":"Supported dopamine involvement but not a single direction across flexibility paradigms.","effect_magnitude":"No pooled effect estimate.","evidence_summary":"Provides scope and heterogeneity context around the receptor-specific experiment.","limitations":"Mixed models and designs; review predates newer evidence and does not establish dietary modification."}}],"presentation":"mechanistic-basis"}} />
+
+<ScientificFinding finding={{"id":"PM3-F5","finding_label":"Aging affects dopamine targets differently","finding_summary":"Across 95 imaging studies, healthy aging was associated with lower dopamine receptor and transporter measures, while synthesis capacity was not significantly lower.","finding_interpretation":"Age-related change is process-specific; receptor or transporter decline must not be restated as global dopamine depletion.","finding_statement":"Healthy aging is associated with declines in dopamine receptor and transporter availability but not a significant pooled decline in dopamine synthesis capacity.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The meta-analysis separated receptors, transporters and synthesis measures across PET and SPECT studies. Moderate-to-large negative age associations were found for receptors and transporters, with larger effects for D1-like than D2-like receptors, while synthesis capacity was spared on average.","synthesis_limitations":"Cross-sectional imaging cannot establish within-person decline or causal cognitive effects. Ligands and regions varied, and availability measures are not dopamine concentration.","evidence_considered":[{"label":"Karrer et al. (2017)","citation_key":"karrer_reduced_2017","href":"/docs/papers/BRAIN-Diet-References#karrer_reduced_2017","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Age was negatively associated with dopamine receptors and transporters but not significantly with synthesis capacity.","assessment":{"study":"Meta-analysis of cross-sectional PET and SPECT studies of distinct dopamine targets.","population":"Ninety-five studies comprising 2,611 healthy adults.","result":"Receptor and transporter measures declined by target-specific amounts with age; synthesis capacity did not show a significant pooled age effect.","effect_magnitude":"Average age reductions across assessed dopamine targets ranged from 3.7% to 14.0% per decade.","evidence_summary":"Directly establishes process-specific age variation and rejects a global decline formulation.","limitations":"Cross-sectional studies, heterogeneous ligands and regions, and no direct mediation test for cognitive decline."}}],"presentation":"mechanistic-basis"}} />
+
+<ScientificFinding finding={{"id":"PM3-F6","finding_label":"ADHD does not show one uniform dopamine abnormality","finding_summary":"Dopamine biology is relevant to ADHD, but imaging and mechanistic findings differ by dopamine process, brain region, developmental stage, medication exposure and study method. The evidence does not support ADHD as a uniform global dopamine-deficiency disorder.","finding_interpretation":"Medication target engagement supports dopamine relevance but cannot identify a universal baseline lesion or establish nutritional modifiability.","therapeutic_area_ids":["TA001"],"finding_statement":"ADHD-related dopamine findings are heterogeneous across synthesis, release, receptors and transporter measures and do not establish a uniform global dopamine deficit.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A recent broad evaluation found hypo-, hyper- and null findings across human and animal evidence. A transporter meta-analysis found an average group difference but large heterogeneity and a strong relationship with prior psychostimulant exposure. Together these support dopamine as one relevant regulatory domain while making medication history, region, age and measured process essential to interpretation.","synthesis_limitations":"Small samples, different tracers and diagnostic groups, medication confounding and cross-sectional designs limit causal interpretation. Transporter binding, synthesis capacity, receptor availability and extracellular release are not interchangeable.","evidence_considered":[{"label":"MacDonald et al. (2024)","citation_key":"macdonald_dopamine_2024","href":"/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024","data_level":"Mixed","evidence_source":"repository-inherited","directional_finding":"Human and animal findings did not consistently support a generalized hypodopaminergic ADHD state; results varied by process, region, task and population.","assessment":{"study":"Critical review of the dopamine hypothesis across human studies and animal models.","population":"Children and adults with ADHD, healthy comparison groups and ADHD-relevant animal models.","result":"Reported lower, higher and null dopamine-related findings and concluded that a simple global deficiency model is not supported.","effect_magnitude":"No pooled global effect estimate because dopamine processes and methods were heterogeneous.","evidence_summary":"Supports dopamine relevance while constraining the direction and universality of the ADHD interpretation.","limitations":"Broad narrative synthesis across heterogeneous methods; many studies were small or medication-confounded."}},{"label":"Fusar-Poli et al. (2012)","citation_key":"fusar-poli_striatal_2012","href":"/docs/papers/BRAIN-Diet-References#fusar-poli_striatal_2012","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Striatal dopamine-transporter density was 14% higher on average in ADHD, but heterogeneity was large and medication exposure materially moderated the result.","assessment":{"study":"Meta-analysis of nine PET and SPECT studies of striatal dopamine-transporter binding.","population":"169 participants with ADHD and 173 matched controls.","result":"Average transporter density was higher in ADHD, but studies were significantly heterogeneous and medication exposure explained important variation.","effect_magnitude":"Approximately 14% higher mean striatal transporter density in the ADHD group.","evidence_summary":"Shows a process-specific group difference while demonstrating why medication history cannot be ignored.","limitations":"Small number of imaging studies, heterogeneous tracers and designs, and transporter binding is not dopamine concentration or release."}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
+
+<ScientificFinding finding={{"id":"PM3-F7","finding_label":"L-tyrosine did not provide sustained ADHD benefit","finding_summary":"A small open trial in adults with attention deficit disorder reported an initial response to L-tyrosine that disappeared as tolerance developed.","finding_interpretation":"The study does not establish sustained clinical benefit, dopamine target engagement, or a food-based treatment claim.","therapeutic_area_ids":["TA001"],"finding_statement":"Open-label L-tyrosine supplementation did not produce a sustained ADHD benefit and did not demonstrate modification of brain dopamine biology.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The trial is retained as non-supportive clinical evidence at the boundary between precursor provision and PM3 signalling. An initial symptom response was not sustained, and no dopamine process was measured.","synthesis_limitations":"Very small, uncontrolled, older study with no placebo group, no dopamine biomarker and limited diagnostic comparability to current ADHD definitions.","evidence_considered":[{"label":"Reimherr & Ward (1987)","citation_key":"f_w_reimherr_open_1987","href":"/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987","data_level":"Human Outcome","exposure_context":"isolated L-tyrosine supplement","evidence_source":"repository-inherited","directional_finding":"An initial symptom response in some adults disappeared during continued treatment as tolerance developed.","assessment":{"study":"Open-label L-tyrosine trial without placebo control.","population":"Twelve adults diagnosed with attention deficit disorder.","result":"Initial response was not sustained during continued supplementation.","effect_magnitude":"Small uncontrolled sample; no robust comparative effect estimate.","evidence_summary":"Does not support sustained L-tyrosine treatment efficacy and provides no evidence of dopamine target engagement.","limitations":"Open label, n=12, older diagnostic framework, no dopamine measurement, and tolerance confounds interpretation."}}],"presentation":"mechanistic-basis"}} />
+
+## 5. Phenome Connections
+
+These mappings are translational relationships, not single-mechanism outcome claims. Phenomes are emergent functional patterns supported by multiple interacting PMs across the BRAIN Framework.
+
+<div class="brs-fm-hub-item phenome-scoring-key-hub" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<button type="button" class="brs-fm-hub-summary" aria-expanded="false">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+<strong>How these ratings work</strong>
+</button>
+<div class="brs-fm-hub-panel" hidden>
+<div class="phenome-scoring-key">
+<p class="phenome-scoring-key-intro">
+Each Phenome relationship has <strong>two independent ratings</strong>. They are not combined or averaged.
+</p>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Biology → Phenome Relationship Strength</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How direct and important is this biological mechanism expected to be to the Phenome within the BRAIN model?</em>
+</p>
+</div>
+<div class="phenome-scoring-key-section">
+<p class="phenome-scoring-key-heading">
+<strong>Evidence Confidence</strong>
+</p>
+<p class="phenome-scoring-key-body">
+<em>How strongly does the adjudicated evidence support this particular biology → Phenome relationship?</em>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Focus / Attention Stability — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Focus / Attention Stability — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph001-focus-attention-stability" aria-label="Open page: Focus / Attention Stability — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** High
+- **Evidence Confidence:** Medium
+- **Rationale:** Dopamine contributes to working memory and cognitive control, but the relationship is nonlinear and depends on baseline state and whether prefrontal stability or striatal updating is required  [[4]](#pm-ref-4). ADHD imaging findings are heterogeneous across dopamine processes, regions and medication histories rather than showing a uniform dopamine deficit  [[9](#pm-ref-9), [10](#pm-ref-10)].
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Motivation / Drive — modulates">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Motivation / Drive — modulates</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph002-motivation-drive" aria-label="Open page: Motivation / Drive — modulates">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** High
+- **Evidence Confidence:** Medium
+- **Rationale:** Striatal dopamine synthesis capacity and controlled dopaminergic manipulation alter willingness to expend cognitive effort by changing benefit-versus-cost weighting, supporting a direct relationship with effort allocation rather than a general “reward chemical” account  [[5]](#pm-ref-5).
+</div>
+</div>
+</div>
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand Cognitive Energy Stability — indirect">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">Cognitive Energy Stability — indirect</strong>
+<a class="brs-fm-hub-open" href="/docs/phenomes/details/ph004-cognitive-energy-stability" aria-label="Open page: Cognitive Energy Stability — indirect">
+<span class="brs-fm-hub-open-label">Open Page →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+- **Biology → Phenome Relationship Strength:** Low–Medium
+- **Evidence Confidence:** Low–Medium
+- **Rationale:** Dopamine can influence willingness to sustain cognitive effort, but the strongest assessed human study measured effort choice rather than fatigue or performance decline over time  [[5]](#pm-ref-5). Cognitive energy remains a multi-system outcome, and a dopamine-specific fatigue claim is unresolved.
+</div>
+</div>
+</div>
+
+## 6. BRS Pathways and Connections
+
+### 6.1 BRS Pathways
+
+
+[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
+↓
+[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
+↓
+[BRS1-FM1-PM3 — Dopaminergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation)
+↓
+[BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation)
+
+[BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
+↓
+[BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
+↓
+[BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
+
+### 6.2 Cross-BRS Mechanism Relationships
+
+Primary Mechanisms in other Biological Regulatory Systems that directly interact with, constrain or support this mechanism.
+
+- **BRS2 constrained dependency:** SAM availability is relevant to COMT chemistry, but this pass did not establish that ordinary one-carbon variation controls regional dopamine clearance or clinical outcomes. COMT genotype-specific interpretation remains on the COMT Specific Mechanism.
+- **BRS3 constrained dependency:** dopamine oxidation and cofactor recycling create redox interactions, but antioxidant exposure was not shown here to modify human dopaminergic signalling.
+- **BRS4 constrained dependency:** synthesis, vesicular cycling and signalling require cellular energy, but no dopamine-specific energy intervention was established.
+- **BRS6 constrained dependency:** insulin, stress and circadian state can influence dopamine-related circuits, but end-to-end human mediation and dietary responsiveness remain unresolved.
+
+### 6.3 Local BRS Mechanism Relationships
+
+Related Primary Mechanisms within the same Biological Regulatory System that collectively support the integrated biological function.
+
+- [BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation)
+- [BRS1-FM1-PM2 — LAT1 Competitive Transport Modulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation)
+- [BRS1-FM1-PM4 — Noradrenergic Signalling](/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation)
+- [BRS1-FM1-PM5 — Serotonergic Signalling Regulation](/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation)
+
+## 7. Scoreable Inputs & Modulation Signals
+
+No scoreable inputs are activated in Stage 2A. Candidate cofactor atoms in §3 require the separate Dietary Levers review before they can be retained, revised, merged, relocated or rejected for scoring.
+
+| Input Category | Stage 2A status | PM3 treatment |
+|---|---|---|
+| Functional Property Potentials | None activated | Candidate biochemical requirements are not scoreable properties. |
+| Realised Functional States | None activated | No food, meal or recipe state was adjudicated. |
+| Preparation Transformations | None activated | No preparation relationship was assessed. |
+
+## 8. References
+
+- <span id="pm-ref-1">[1]</span> [Fanet et al. (2021) — Tetrahydrobiopterin and Monoamine Synthesis](/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021)
+- <span id="pm-ref-2">[2]</span> [Beard et al. (2003) — Iron and Dopamine Biology](/docs/papers/BRAIN-Diet-References#beard_iron_2003)
+- <span id="pm-ref-3">[3]</span> [Erikson et al. (2000) — Iron Deficiency, Dopamine Metabolites and Activity](/docs/papers/BRAIN-Diet-References#erikson_iron_2000)
+- <span id="pm-ref-4">[4]</span> [Cools & D'Esposito (2011) — Inverted-U Dopamine Actions on Cognitive Control](/docs/papers/BRAIN-Diet-References#cools_inverted-u_2011)
+- <span id="pm-ref-5">[5]</span> [Westbrook et al. (2020) — Dopamine and Cognitive Effort](/docs/papers/BRAIN-Diet-References#westbrook_dopamine_2020)
+- <span id="pm-ref-6">[6]</span> [Klanker et al. (2013) — Dopaminergic Control of Cognitive Flexibility](/docs/papers/BRAIN-Diet-References#klanker_dopaminergic_2013)
+- <span id="pm-ref-7">[7]</span> [van der Schaaf et al. (2012) — D2 Signalling and Cognitive Flexibility](/docs/papers/BRAIN-Diet-References#van_der_schaaf_human_2012)
+- <span id="pm-ref-8">[8]</span> [Karrer et al. (2017) — Dopamine Targets in Normal Aging](/docs/papers/BRAIN-Diet-References#karrer_reduced_2017)
+- <span id="pm-ref-9">[9]</span> [MacDonald et al. (2024) — Evaluation of the Dopamine Hypothesis for ADHD](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024)
+- <span id="pm-ref-10">[10]</span> [Fusar-Poli et al. (2012) — Striatal Dopamine Transporter Alterations in ADHD](/docs/papers/BRAIN-Diet-References#fusar-poli_striatal_2012)
+- <span id="pm-ref-11">[11]</span> [Reimherr & Ward (1987) — Open Trial of L-Tyrosine in Attention Deficit Disorder](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987)

@@ -40,6 +40,12 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation">BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation</a></li>
+    <li><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation">BRS2-FM1-PM2 — Betaine/BHMT Remethylation</a></li>
+    <li><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis">BRS2-FM1-PM3 — SAMe Synthesis</a></li>
+    <li><a href="/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux">BRS2-FM1-PM4 — Methionine Cycle Flux</a></li>
+  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -49,6 +55,10 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway">BRS2-FM2-PM5 — Transsulfuration Pathway</a></li>
+    <li><a href="/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis">BRS2-FM2-PM6 — Glutathione Synthesis</a></li>
+  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -58,6 +68,9 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation">BRS2-FM3-PM7 — Phosphatidylcholine Formation</a></li>
+  </ul>
 </li>
 </ul>
 </div>
@@ -101,8 +114,8 @@ Maintains one-carbon cycle efficiency by coordinating homocysteine recycling, SA
 
 **Connected mechanisms:**
 
-- [BRS1-FM2-PM5 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) — SAMe-dependent PEMT methylation
-- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — neuronal Membrane DHA Incorporation
+- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — SAMe-dependent PEMT methylation
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — neuronal Membrane DHA Incorporation
 - [BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway) — transsulfuration Pathway
 - [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) — phosphatidylcholine Formation
 - [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling) — methylation–Membrane Coupling
@@ -187,7 +200,7 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 
 **Connected mechanisms:**
 
-- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — neuronal Membrane DHA Incorporation
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — neuronal Membrane DHA Incorporation
 - [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) — Upstream homocysteine remethylation, methionine flux,
 - [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) — sAMe Synthesis
 
@@ -247,7 +260,7 @@ Taken together, current evidence suggests that one-carbon metabolism may represe
 | Unhealthy dietary pattern linked to lower B12, folate, and B6 and to ADHD in case–control path analysis | [Wang et al., 2019](/docs/papers/BRAIN-Diet-References#wang_dietary_2019) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM4](/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux) |
 | Dietary patterns rich in fibre, folate, and omega-3 fatty acids associated with reduced ADHD symptoms | [Millichap and Yee, 2012](/docs/papers/BRAIN-Diet-References#millichap_diet_2012) | [BRS2-FM1-PM1](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation), [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) |
 | Choline implicated across neurodevelopmental disorders including ADHD, linking remethylation and phosphatidylcholine pathways | [Derbyshire and Maes, 2023](/docs/papers/BRAIN-Diet-References#derbyshire_role_2023) | [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS2-FM3-PM7](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) |
-| Decreased muscarinic acetylcholine receptor binding reported in boys with ADHD, supporting cholinergic involvement in aetiology | [Johansson et al., 2013](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS1-FM2-PM5](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) |
+| Decreased muscarinic acetylcholine receptor binding reported in boys with ADHD, supporting cholinergic involvement in aetiology | [Johansson et al., 2013](/docs/papers/BRAIN-Diet-References#johansson_decreased_2013) | [BRS2-FM1-PM2](/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation), [BRS1-FM2-PM6](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) |
 
 </div>
 </div>
@@ -502,8 +515,8 @@ Maintains one-carbon cycle efficiency by coordinating homocysteine recycling, SA
 
 **Connected mechanisms:**
 
-- [BRS1-FM2-PM5 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support) — SAMe-dependent PEMT methylation
-- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — neuronal Membrane DHA Incorporation
+- [BRS1-FM2-PM6 — Acetylcholine Synthesis Support](/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support) — SAMe-dependent PEMT methylation
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — neuronal Membrane DHA Incorporation
 - [BRS2-FM2-PM5 — Transsulfuration Pathway](/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway) — transsulfuration Pathway
 - [BRS2-FM3-PM7 — Phosphatidylcholine Formation](/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation) — phosphatidylcholine Formation
 - [BRS2(FM3) — Methylation–Membrane Coupling](/docs/biological-targets/brs2/fm3/brs2-fm3-methylation-membrane-coupling) — methylation–Membrane Coupling
@@ -588,7 +601,7 @@ Maintains methylation-membrane coupling by linking methyl-donor capacity to phos
 
 **Connected mechanisms:**
 
-- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — neuronal Membrane DHA Incorporation
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — neuronal Membrane DHA Incorporation
 - [BRS2-FM1-PM1 — Folate/B12-Dependent Homocysteine Remethylation](/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation) — Upstream homocysteine remethylation, methionine flux,
 - [BRS2-FM1-PM3 — SAMe Synthesis](/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis) — sAMe Synthesis
 

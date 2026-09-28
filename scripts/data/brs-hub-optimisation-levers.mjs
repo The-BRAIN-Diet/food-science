@@ -73,29 +73,29 @@ export const HUB_OPTIMISATION_LEVERS = {
         explanation:
           "to protect delicate marine fats during cooking and support ongoing brain membrane health over time.",
         match_pm_ids: [
-          "BRS1-FM3-PM6",
-          "BRS1-FM4-PM7",
-          "BRS1-FM4-PM10",
-          "BRS1-FM1-PM3",
+          "BRS1-FM3-PM7",
+          "BRS1-FM4-PM8",
+          "BRS1-FM4-PM11",
+          "BRS1-FM1-PM4",
         ],
       },
       {
         action: "Prefer gentler cooking and stable fat handling",
         explanation:
           "to limit avoidable AGE/ALE and oxidised-lipid load that can degrade amino-acid usability and add exogenous oxidative pressure on signalling biology.",
-        match_pm_ids: ["BRS1-FM1-PM2", "BRS1-FM4-PM9"],
+        match_pm_ids: ["BRS1-FM1-PM2", "BRS1-FM4-PM10"],
       },
       {
         action: "Soak or sprout phytate-rich seeds and legumes when mineral density matters",
         explanation:
           "to improve plant zinc and mineral bioavailability that supports neurotransmission cofactor chemistry.",
-        match_pm_ids: ["BRS1-FM4-PM7", "BRS1-FM4-PM8", "BRS1-FM2-PM5"],
+        match_pm_ids: ["BRS1-FM4-PM8", "BRS1-FM4-PM9", "BRS1-FM2-PM6"],
       },
       {
         action: "Pair iron-containing foods with vitamin C and meal-context enhancers",
         explanation:
           "to improve iron absorption for catecholamine-related cofactor biology.",
-        match_pm_ids: ["BRS1-FM1-PM3"],
+        match_pm_ids: ["BRS1-FM1-PM4"],
       },
     ],
     dietary_protocols: [],
@@ -236,7 +236,7 @@ export const HUB_OPTIMISATION_LEVERS = {
           { target_pm_id: "BRS4-FM3-PM7" },
           { target_pm_id: "BRS4-FM3-PM8" },
           {
-            target_pm_id: "BRS1-FM4-PM8",
+            target_pm_id: "BRS1-FM4-PM9",
             context:
               "Downstream cross-BRS relationship through altered ketone/substrate metabolism and carbon contribution to GABA formation.",
             evidence: {

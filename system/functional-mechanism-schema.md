@@ -31,7 +31,7 @@ When `mechanisms_covered` has **exactly one** PM, apply the **Single-PM FM (1:1)
 
 Functional Mechanisms (FMs) represent integrated biological states that emerge from the coordinated activity of related Primary Mechanisms (PMs). They describe the functional capacities, desired states or regulatory conditions that arise from underlying biological processes and serve as the **principal navigational and teaching layer** of the framework.
 
-Architecture: **BRS → FM → PM**. FM pages live at `docs/biological-targets/brs{N}/fm{M}/`; child PMs share the same folder. PM identifiers use **BRS-wide incremental numbering** (`BRS{N}-FM{M}-PM{k}` where `k` is unique within the BRS, assigned in FM order — e.g. `BRS1-FM1-PM1`, `BRS1-FM1-PM3`, `BRS1-FM1-PM2`, … `BRS1-FM4-PM10`).
+Architecture: **BRS → FM → PM**. FM pages live at `docs/biological-targets/brs{N}/fm{M}/`; child PMs share the same folder. PM identifiers use **BRS-wide incremental numbering** (`BRS{N}-FM{M}-PM{k}` where `k` is unique within the BRS, assigned in FM order — e.g. `BRS1-FM1-PM1`, `BRS1-FM1-PM4`, `BRS1-FM1-PM2`, … `BRS1-FM4-PM11`).
 
 See also `system/brain-diet-ontology-rules.md` §1.2 and §1.4.
 
@@ -187,7 +187,7 @@ Explains **how child PMs work together as an integrated biological system** — 
 
 Describes **what happens when the integrated FM loses functional capacity** — not what caused the dysfunction.
 
-> **Ask:** “What biology and human function become constrained when this integrated functional capacity is no longer maintained?”  
+> **Ask:** “What biology and human function become constrained when this integrated functional capacity is no longer maintained?”
 > **Not:** “What caused this dysfunction?”
 
 **Structure:**
@@ -495,4 +495,3 @@ Implementation: `scripts/validate-mechanism-pages.mjs` (shared rules in `scripts
 - Avoid supplement-level dose framing unless explicitly justified in evidence.
 - Always contextualize dose with bioavailability where relevant.
 - The trimmed FM page body does not include a Mechanism Summary Table; keep dose-adjacent fields in front matter or ingestion metadata unless the contract is extended.
-

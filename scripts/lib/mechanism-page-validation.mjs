@@ -632,16 +632,22 @@ export function parseNumberedSections(content) {
 function validateContiguousNumbering(sections, issues, { entityLabel }) {
   const major = sections.filter((s) => s.type === "major");
   if (major.length === 0) return;
-  for (let i = 0; i < major.length; i++) {
-    const expected = i + 1;
-    if (major[i].level !== expected) {
+  let expected = 1;
+  for (const section of major) {
+    const skipsOptionalPmScoreableSection =
+      expected === 7 &&
+      section.level === 8 &&
+      /^References$/i.test(section.title);
+    if (skipsOptionalPmScoreableSection) expected = 8;
+    if (section.level !== expected) {
       pushIssue(
         issues,
         "section_number_gap",
-        `${entityLabel}: expected "## ${expected}. …" but found "${major[i].line}" (integer sections must be contiguous)`,
+        `${entityLabel}: expected "## ${expected}. …" but found "${section.line}" (integer sections must be contiguous; PM §7 Scoreable Inputs may be omitted before §8 References)`,
       );
       return;
     }
+    expected++;
   }
 }
 

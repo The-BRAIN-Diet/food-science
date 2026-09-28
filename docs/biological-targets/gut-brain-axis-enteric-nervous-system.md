@@ -38,6 +38,11 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity">BRS5-FM1-PM1 — Gut Barrier / Tight Junction Integrity</a></li>
+    <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment">BRS5-FM1-PM2 — LPS / Endotoxin Containment</a></li>
+    <li><a href="/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support">BRS5-FM1-PM3 — Keystone Taxa Support</a></li>
+  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -47,6 +52,11 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection">BRS5-FM2-PM4 — Microbial Ecological Turnover &amp; Competitive Selection</a></li>
+    <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling">BRS5-FM2-PM5 — SCFA Production &amp; Signalling</a></li>
+    <li><a href="/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation">BRS5-FM2-PM6 — Polyphenol Biotransformation &amp; Mitochondrial-Relevant Metabolite Generation</a></li>
+  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -56,6 +66,10 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation">BRS5-FM3-PM7 — Vagal / ENS Signalling Modulation</a></li>
+    <li><a href="/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability">BRS5-FM3-PM8 — Neurotransmitter Precursor Biotransformation &amp; Availability</a></li>
+  </ul>
 </li>
 </ul>
 </div>
@@ -180,7 +194,7 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 
 **Connected mechanisms:**
 
-- [BRS1-FM3-PM6 - Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — biological connection relevant to this mechanism
+- [BRS1-FM3-PM7 - Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — biological connection relevant to this mechanism
 - [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — biological connection relevant to this mechanism
 
 </div>
@@ -589,7 +603,7 @@ Maintains gut-vagal and enteric neuromodulation capacity through microbial, barr
 
 **Connected mechanisms:**
 
-- [BRS1-FM3-PM6 - Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — biological connection relevant to this mechanism
+- [BRS1-FM3-PM7 - Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — biological connection relevant to this mechanism
 - [BRS6-FM1-PM2 - Glycaemic Variability Regulation](/docs/biological-targets/brs6/fm1/brs6-fm1-pm2-glycaemic-variability-regulation) — biological connection relevant to this mechanism
 
 </div>

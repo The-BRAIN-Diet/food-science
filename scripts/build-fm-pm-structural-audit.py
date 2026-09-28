@@ -100,14 +100,14 @@ FM_JUDGMENTS: dict[str, dict] = {
         "fm_operationalised": "Partly",
         "integrated_state": "Yes",
         "integrated_pm": "No",
-        "notes": "Four-step supply chain: substrate → LAT1 transport → distinct monoamine signalling arms. PM3/PM4 are testable signalling nodes but interpret best with upstream PM1–PM2 context.",
+        "notes": "Supply-and-signalling architecture: substrate → LAT1 transport → distinct dopaminergic, noradrenergic and serotonergic signalling scopes. PM3–PM5 are signalling nodes but interpret best with upstream PM1–PM2 context; PM3 remains evidence-pending.",
     },
     "BRS1(FM2)": {
         "config": "E",
         "pm_isolated": "Yes",
         "fm_operationalised": "Partly",
         "integrated_state": "Partly",
-        "integrated_pm": "BRS1-FM2-PM5 — Acetylcholine Synthesis Support",
+        "integrated_pm": "BRS1-FM2-PM6 — Acetylcholine Synthesis Support",
         "notes": "Single PM covers essentially the whole FM proposition (ACh synthesis). FM title is broader cholinergic function than this one conversion step.",
     },
     "BRS1(FM3)": {
@@ -115,7 +115,7 @@ FM_JUDGMENTS: dict[str, dict] = {
         "pm_isolated": "Yes",
         "fm_operationalised": "Partly",
         "integrated_state": "Partly",
-        "integrated_pm": "BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation",
+        "integrated_pm": "BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation",
         "notes": "FM names membrane composition/fluidity; sole PM is DHA incorporation — structural lipid scope wider than one PM.",
     },
     "BRS1(FM4)": {
@@ -123,7 +123,7 @@ FM_JUDGMENTS: dict[str, dict] = {
         "pm_isolated": "Partly",
         "fm_operationalised": "Partly",
         "integrated_state": "Yes",
-        "integrated_pm": "BRS1-FM4-PM7 — GABA–Glutamate Neurotransmission Balance",
+        "integrated_pm": "BRS1-FM4-PM8 — GABA–Glutamate Neurotransmission Balance",
         "notes": "Decomposed synthesis/clearance/excitotoxicity nodes plus PM7 as emergent E/I balance state overlapping FM mission.",
     },
     "BRS2(FM1)": {
@@ -266,7 +266,7 @@ FM_JUDGMENTS: dict[str, dict] = {
 
 
 PM_JUDGMENTS: dict[str, dict] = {
-    "BRS1-FM4-PM7": {
+    "BRS1-FM4-PM8": {
         "effects": "Net excitatory–inhibitory balance between glutamate and GABA signalling.",
         "isolatable": "Partly",
         "measurable": "Partly",
@@ -335,7 +335,7 @@ REL_JUDGMENTS: dict[str, dict] = {
         "gap": "Transport competition, receptor-level signalling, and pathway-specific conversion.",
         "direct_fm": "Partly",
         "why": "Protein adequacy trials rarely isolate FM-level monoaminergic function without transport/signalling confounds.",
-        "caution": "Do not treat amino-acid intake studies as full FM efficacy without PM2–PM4 context.",
+        "caution": "Do not treat amino-acid intake studies as full FM efficacy without PM2–PM5 context.",
     },
     "BRS1-FM1-PM2": {
         "character": "sequential stage",
@@ -345,7 +345,7 @@ REL_JUDGMENTS: dict[str, dict] = {
         "why": "LAT1 manipulation is mechanistically direct for PM2; FM outcome needs signalling PMs.",
         "caution": "Carbohydrate:protein ratio evidence maps to PM2, not whole monoaminergic FM.",
     },
-    "BRS1-FM1-PM3": {
+    "BRS1-FM1-PM4": {
         "character": "component",
         "contribute": "Noradrenergic arousal/executive modulation arm.",
         "gap": "Serotonin arm, precursor supply, LAT1 context.",
@@ -353,7 +353,7 @@ REL_JUDGMENTS: dict[str, dict] = {
         "why": "Catecholamine-focused evidence is direct for PM3; FM integrates dual monoamine axes.",
         "caution": "Avoid inferring complete monoaminergic FM from NA-only endpoints.",
     },
-    "BRS1-FM1-PM4": {
+    "BRS1-FM1-PM5": {
         "character": "component",
         "contribute": "Serotonergic regulation arm.",
         "gap": "Precursor transport and NA arm.",
@@ -361,15 +361,15 @@ REL_JUDGMENTS: dict[str, dict] = {
         "why": "5-HT pathway evidence is PM-direct; FM requires coordinated multi-PM interpretation.",
         "caution": "Tryptophan manipulation ≠ full monoaminergic FM without PM1–PM2.",
     },
-    "BRS1-FM4-PM7": {
+    "BRS1-FM4-PM8": {
         "character": "integrator",
         "contribute": "Emergent E/I balance state across glutamate and GABA arms.",
         "gap": "Does not alone specify synthesis, clearance, or excitotoxic buffering mechanisms.",
         "direct_fm": "Partly",
         "why": "Human GABA/glutamate balance markers are closer to FM mission than sibling atomic PMs.",
-        "caution": "PM7 evidence may be best FM-facing; still distinguish from dietary lever claims on PM8.",
+        "caution": "PM8 evidence may be best FM-facing; still distinguish from dietary lever claims on PM9.",
     },
-    "BRS1-FM4-PM8": {
+    "BRS1-FM4-PM9": {
         "character": "component",
         "contribute": "GAD-dependent GABA synthesis capacity from glutamate.",
         "gap": "Net E/I balance, clearance, excitotoxicity integration.",
@@ -633,7 +633,7 @@ def write_summary(fms: list[dict], pms: list[dict]) -> None:
     lines = [
         "# FM–PM Structural Audit Summary (BRS1–BRS6)",
         "",
-        "Analysis-only pass over current repository front matter (21 FMs, 51 PMs). No ontology or page edits.",
+        f"Analysis-only pass over current repository front matter ({len(fms)} FMs, {len(pms)} PMs). No ontology or page edits.",
         "",
         "## Counts by BRS",
         "",
@@ -657,7 +657,7 @@ def write_summary(fms: list[dict], pms: list[dict]) -> None:
         "- **A (Decomposed):** BRS4(FM1) Cellular Bioenergetics — ETC, NAD⁺, creatine buffer as separable modules.",
         "- **B (Pathway/network):** BRS2(FM1) Methylation Cycle Efficiency; BRS6(FM1) glycaemic cascade (appearance → variability → disposal).",
         "- **C (Parallel contributors):** BRS3(FM1) anti-inflammatory tone; BRS6(FM4) metabolic inflammation vs stress-appetite axes.",
-        "- **D (Integrative/emergent):** BRS1(FM4) with PM7 as E/I balance; BRS4(FM3) PM8 fuel switching integrator.",
+        "- **D (Integrative/emergent):** BRS1(FM4) with PM8 as E/I balance; BRS4(FM3) PM8 fuel switching integrator.",
         "- **E (Near-equivalent / single-PM FMs):** BRS1(FM2), BRS1(FM3), BRS2(FM3), BRS4(FM4).",
         "- **MIXED:** BRS1(FM1), BRS1(FM4), BRS3(FM2), BRS3(FM3), BRS4(FM3), BRS5(FM1), BRS5(FM2), BRS6(FM2).",
         "",
@@ -668,7 +668,7 @@ def write_summary(fms: list[dict], pms: list[dict]) -> None:
         "## Structural anomalies (flagged, not fixed)",
         "",
         f"- **Single-PM FMs ({len(single_pm)}):** " + "; ".join(single_pm) + ".",
-        "- **PM duplicates or encodes FM-level state:** BRS1-FM4-PM7 (E/I balance); BRS2-FM1-PM4 (cycle flux); BRS4-FM3-PM8 (fuel switching); BRS3-FM2-PM4 (net ROS balance).",
+        "- **PM duplicates or encodes FM-level state:** BRS1-FM4-PM8 (E/I balance); BRS2-FM1-PM4 (cycle flux); BRS4-FM3-PM8 (fuel switching); BRS3-FM2-PM4 (net ROS balance).",
         "- **FM mission vs PM emphasis mismatch:** BRS3(FM3) resolution-capacity FM vs BRS3-FM3-PM7 cytokine modulation focus.",
         "- **FM broader than sole PM:** BRS1(FM2–FM3), BRS2(FM3), BRS4(FM4) titles exceed single-PM scope.",
         "- **Sibling-dependent interpretation clusters:** BRS1(FM1), BRS1(FM4), BRS2(FM1), BRS4(FM3), BRS6(FM1).",

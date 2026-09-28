@@ -1,0 +1,411 @@
+{
+  "meta": {
+    "version": 1,
+    "status": "internal-v1",
+    "schema": "system/therapeutic-area-page-schema.md"
+  },
+  "pages": [
+    {
+      "taId": "TA001",
+      "status": "internal-review-hub-migration",
+      "overview": "ADHD is a heterogeneous neurodevelopmental condition expressed through differing combinations of attentional instability, impulsivity, hyperactivity, emotional dysregulation, motivation, sleep and stress-related difficulties. This page evaluates biological and dietary evidence across regulatory systems; it does not assume that every mechanism is abnormal in every individual, or that a biomarker association identifies a treatment target.",
+      "purpose": "V1 assembles reviewed repository evidence and makes direct, extrapolated and mechanistically inferred claims distinguishable. It is an evidence map, not individual medical advice.",
+      "featuredPhenomeIds": [
+        "PH001",
+        "PH002",
+        "PH003",
+        "PH004",
+        "PH006",
+        "PH008",
+        "PH011",
+        "PH015"
+      ],
+      "brsSections": [
+        {
+          "brsId": "BRS1",
+          "title": "Neurotransmitter Regulation",
+          "relevance": "Multiple transmitter systems contribute to attention, arousal, motivation and behavioural control; no single-transmitter account explains ADHD.",
+          "claimIds": [
+            "EC000119",
+            "EC000120",
+            "EC000121",
+            "EC000122",
+            "EC000123",
+            "EC000124",
+            "EC000125",
+            "EC000126",
+            "EC000127",
+            "EC000128",
+            "EC000129",
+            "EC000130",
+            "EC000131",
+            "EC000132"
+          ],
+          "addressability": "Protein and amino-acid exposure, membrane lipids and cofactor sufficiency are biologically relevant, but precursor provision does not itself demonstrate brain target engagement or symptom benefit.",
+          "limitations": "Age-, region- and method-dependent findings conflict. Supplement trials cannot be converted into food claims."
+        },
+        {
+          "brsId": "BRS2",
+          "title": "Methylation & One-Carbon Metabolism",
+          "relevance": "One-carbon metabolism supports methylation, membrane synthesis and transsulfuration, with observational ADHD evidence for selected biomarkers and variants.",
+          "claimIds": [
+            "EC000133",
+            "EC000134",
+            "EC000135",
+            "EC000136",
+            "EC000137",
+            "EC000138",
+            "EC000139"
+          ],
+          "addressability": "Folate, B12, choline and related substrates are diet-sensitive, but correcting insufficiency and treating ADHD are different claims.",
+          "limitations": "Associations are heterogeneous and do not show that methyl donors improve ADHD outcomes."
+        },
+        {
+          "brsId": "BRS3",
+          "title": "Inflammation & Oxidative Stress",
+          "relevance": "ADHD cohorts show mixed inflammatory and oxidative-marker patterns, with limited intervention evidence.",
+          "claimIds": [
+            "EC000140",
+            "EC000141",
+            "EC000142",
+            "EC000143",
+            "EC000144",
+            "EC000145",
+            "EC000146",
+            "EC000147",
+            "EC000148"
+          ],
+          "addressability": "Dietary patterns, sleep, activity and specific supplements can influence redox and immune biology; the accepted V1 intervention is supplement-specific.",
+          "limitations": "No uniform inflammatory subtype is established. The small extract trial requires replication."
+        },
+        {
+          "brsId": "BRS4",
+          "title": "Mitochondrial Function & Bioenergetics",
+          "relevance": "Bioenergetic evidence includes ex vivo mitochondrial differences and one older nutrient intervention, without implying universal mitochondrial dysfunction.",
+          "claimIds": [
+            "EC000149",
+            "EC000150",
+            "EC000151",
+            "EC000152",
+            "EC000153"
+          ],
+          "addressability": "Energy substrate handling and mitochondrial cofactor availability are modifiable in principle; direct ADHD target-engagement evidence remains sparse.",
+          "limitations": "Cell models do not establish in-vivo prevalence. Behavioural benefit does not prove mitochondrial mediation."
+        },
+        {
+          "brsId": "BRS5",
+          "title": "Gut–Brain Axis & Enteric Nervous System",
+          "relevance": "Microbial ecology and gut–brain signalling are associated with ADHD, but taxa directions and causal interpretation remain unsettled.",
+          "claimIds": [
+            "EC000154",
+            "EC000155",
+            "EC000156",
+            "EC000157",
+            "EC000158",
+            "EC000159",
+            "EC000160"
+          ],
+          "addressability": "Dietary fibre, fermented-food matrices and probiotic exposures are distinct interventions and must remain distinct.",
+          "limitations": "Most evidence is observational; the probiotic study was open label and cannot establish efficacy."
+        },
+        {
+          "brsId": "BRS6",
+          "title": "Metabolic & Neuroendocrine Regulation",
+          "relevance": "Stress-axis timing, autonomic regulation and metabolic context may shape ADHD expression and functional load.",
+          "claimIds": [
+            "EC000161",
+            "EC000162",
+            "EC000163",
+            "EC000164",
+            "EC000165",
+            "EC000166",
+            "EC000167",
+            "EC000168"
+          ],
+          "addressability": "Sleep timing, activity, meal timing and metabolic health may influence this system, but direct ADHD trials with mechanism measures are limited.",
+          "limitations": "Cortisol findings are method- and timing-sensitive and do not define all individuals with ADHD."
+        }
+      ],
+      "cascades": [
+        {
+          "title": "Stress-axis load → inflammatory signalling → neurotransmitter regulation",
+          "steps": [
+            "BRS6 cortisol timing differences: directly observed at group level",
+            "BRS6-to-BRS3 immune coupling: biologically supported, condition-specific end-to-end chain not demonstrated",
+            "BRS3 effects on BRS1 signalling: mechanistically plausible; ADHD symptom mediation remains inferred"
+          ]
+        },
+        {
+          "title": "Gut ecology → immune/metabolite signalling → cognitive and emotional function",
+          "steps": [
+            "BRS5 microbial differences: directly observed in ADHD cohorts",
+            "Barrier, SCFA and vagal consequences: incompletely measured in the same cohorts",
+            "Phenome effects: inferred unless a study measured both mechanism and function"
+          ]
+        },
+        {
+          "title": "Mitochondrial constraint → cognitive energy stability",
+          "steps": [
+            "ADHD-derived cell-model differences: directly observed ex vivo",
+            "In-vivo cognitive energy constraint: inferred",
+            "Carnitine-related functional improvement: observed in one trial; mitochondrial mediation not demonstrated"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "level": "supplement",
+          "label": "L-tyrosine",
+          "claimIds": [
+            "EC000121"
+          ],
+          "boundary": "Initial response was not sustained; no food-protein treatment claim."
+        },
+        {
+          "level": "supplement",
+          "label": "Pycnogenol",
+          "claimIds": [
+            "EC000148"
+          ],
+          "boundary": "Small extract trial; limited replication."
+        },
+        {
+          "level": "supplement",
+          "label": "Carnitine",
+          "claimIds": [
+            "EC000149"
+          ],
+          "boundary": "One controlled trial; not an established ADHD treatment."
+        },
+        {
+          "level": "supplement",
+          "label": "Bifidobacterium bifidum",
+          "claimIds": [
+            "EC000158"
+          ],
+          "boundary": "Open-label strain-specific evidence."
+        }
+      ],
+      "majorGaps": [
+        "Human dietary intervention studies directly measuring mechanism endpoints in ADHD remain sparse on several BRS hubs.",
+        "Cross-BRS cascade steps remain partly inferred until end-to-end mediation is tested in ADHD cohorts.",
+        "Dietary and lifestyle evidence is reserved for a later pass and is not yet migrated to the dedicated tab."
+      ],
+      "researchPriorities": [
+        "Pre-specify biological subgroups rather than assuming one ADHD mechanism profile.",
+        "Pair symptom and Phenome outcomes with validated target-engagement measures.",
+        "Test whether cortisol timing, redox markers, mitochondrial function or microbial metabolites predict response.",
+        "Use exposure-faithful trials that distinguish dietary patterns, foods and supplements."
+      ]
+    },
+    {
+      "taId": "TA002",
+      "status": "internal-evidence-map",
+      "overview": "Anxiety disorders are heterogeneous conditions spanning apprehensive worry, hyperarousal, avoidance, panic and social-functional effects. V1 maps repository evidence without assuming that immune, neurotransmitter or gut–brain mechanisms are altered in every individual.",
+      "purpose": "This intentionally incomplete map separates anxiety-disorder evidence from anxiety outcomes in non-clinical populations and from animal plausibility.",
+      "featuredPhenomeIds": [
+        "PH003",
+        "PH006",
+        "PH008",
+        "PH015",
+        "PH016",
+        "PH018"
+      ],
+      "brsSections": [
+        {
+          "brsId": "BRS1",
+          "title": "Neurotransmitter Regulation",
+          "relevance": "Serotonergic and inhibitory signalling are plausible contributors to worry and emotional regulation, but current V1 intervention evidence is indirect.",
+          "claimIds": [
+            "EC000012"
+          ],
+          "addressability": "The recovered saffron evidence concerns an extract in adults with low mood, not culinary saffron or established anxiety treatment.",
+          "limitations": "Population and mechanism are extrapolated; target engagement was not demonstrated."
+        },
+        {
+          "brsId": "BRS3",
+          "title": "Inflammation & Oxidative Stress",
+          "relevance": "Immune signalling may interact with anxiety expression and stress physiology.",
+          "claimIds": [
+            "EC000011"
+          ],
+          "addressability": "Omega-3 supplementation changed inflammatory markers and anxiety symptoms in stressed students.",
+          "limitations": "Participants did not have diagnosed anxiety disorders; PH016 mapping requires an inferential step."
+        },
+        {
+          "brsId": "BRS5",
+          "title": "Gut–Brain Axis & Enteric Nervous System",
+          "relevance": "Vagal and microbial signalling provide a plausible gut–brain route.",
+          "claimIds": [
+            "EC000013"
+          ],
+          "addressability": "The recovered exposure was a specific probiotic in mice.",
+          "limitations": "No human anxiety-treatment claim is supported by this record."
+        }
+      ],
+      "cascades": [
+        {
+          "title": "Stress and immune signalling → perseverative thought",
+          "steps": [
+            "Anxiety change with cytokine change: observed in stressed students",
+            "Translation to diagnosed anxiety disorders: extrapolated",
+            "Translation specifically to PH016 worry/perseveration: inferred"
+          ]
+        },
+        {
+          "title": "Gut-derived signalling → vagal/GABA pathways → anxiety behaviour",
+          "steps": [
+            "Vagal and receptor effects: observed in mice",
+            "Human target engagement: not established",
+            "Clinical anxiety benefit: not established"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "level": "supplement",
+          "label": "Omega-3",
+          "claimIds": [
+            "EC000011"
+          ],
+          "boundary": "Non-clinical stressed population; not established GAD treatment."
+        },
+        {
+          "level": "supplement",
+          "label": "Saffron extract",
+          "claimIds": [
+            "EC000012"
+          ],
+          "boundary": "Low-mood population; cannot be converted to a culinary-food claim."
+        },
+        {
+          "level": "supplement",
+          "label": "Lactobacillus rhamnosus",
+          "claimIds": [
+            "EC000013"
+          ],
+          "boundary": "Preclinical plausibility only."
+        }
+      ],
+      "majorGaps": [
+        "Direct disorder-specific dietary trials",
+        "BRS2, BRS4 and BRS6 condition-specific synthesis",
+        "Validated PH016 outcome measurement",
+        "Replication with target engagement"
+      ],
+      "researchPriorities": [
+        "Separate GAD, social anxiety, panic and transdiagnostic worry cohorts.",
+        "Measure PH016 directly rather than substituting broad anxiety scores.",
+        "Test immune and autonomic target engagement alongside function.",
+        "Prioritise direct human trials before expanding weak mechanistic routes."
+      ]
+    },
+    {
+      "taId": "TA003",
+      "status": "internal-evidence-map",
+      "overview": "Depressive disorders are heterogeneous in affective, motivational, cognitive, sleep, metabolic and inflammatory expression. V1 does not reduce depression to monoamines or assume that every mapped biological system is abnormal in every person.",
+      "purpose": "This evidence map preserves direct dietary-pattern and lifestyle trials while showing where mechanism attribution remains uncertain.",
+      "featuredPhenomeIds": [
+        "PH002",
+        "PH003",
+        "PH004",
+        "PH006",
+        "PH009",
+        "PH011",
+        "PH017",
+        "PH018"
+      ],
+      "brsSections": [
+        {
+          "brsId": "BRS1",
+          "title": "Neurotransmitter Regulation",
+          "relevance": "Reward, interest, motivation and emotional regulation intersect monoaminergic biology, but symptom change does not prove a serotonergic mechanism.",
+          "claimIds": [
+            "EC000014",
+            "EC000015"
+          ],
+          "addressability": "Recovered evidence concerns standardised saffron extracts, not culinary exposure.",
+          "limitations": "Small adjunctive evidence base and no demonstrated neurotransmitter target engagement."
+        },
+        {
+          "brsId": "BRS3",
+          "title": "Inflammation & Oxidative Stress",
+          "relevance": "Inflammatory regulation is a candidate subgroup mechanism rather than a universal depression account.",
+          "claimIds": [
+            "EC000018"
+          ],
+          "addressability": "Omega-3 immune effects are modifiable, but the accepted record is not a depression trial.",
+          "limitations": "Mechanistic extrapolation only in this V1 registry."
+        },
+        {
+          "brsId": "BRS6",
+          "title": "Metabolic & Neuroendocrine Regulation",
+          "relevance": "Diet quality, activity, sleep and metabolic regulation may jointly influence depressive symptoms.",
+          "claimIds": [
+            "EC000016",
+            "EC000017"
+          ],
+          "addressability": "A dietary pattern and a multi-component lifestyle programme have direct symptom evidence.",
+          "limitations": "Pattern-level trials cannot identify one active nutrient, food, lifestyle component or BRS mediator."
+        }
+      ],
+      "cascades": [
+        {
+          "title": "Dietary pattern → multi-system regulation → depressive symptoms",
+          "steps": [
+            "Dietary-pattern symptom improvement: directly observed",
+            "Specific BRS target engagement: not isolated",
+            "Single-food or nutrient attribution: unsupported"
+          ]
+        },
+        {
+          "title": "Inflammatory regulation → reward and interest capacity",
+          "steps": [
+            "Immune modulation is biologically plausible",
+            "Direct mediation of PH017 in the recovered studies: not demonstrated",
+            "Subgroup prediction: testable but unconfirmed"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "level": "dietary-pattern",
+          "label": "Modified Mediterranean-style dietary support",
+          "claimIds": [
+            "EC000016"
+          ],
+          "boundary": "Pattern-level adjunctive evidence; do not assign efficacy to every included food."
+        },
+        {
+          "level": "physical-activity",
+          "label": "Multi-component lifestyle programme",
+          "claimIds": [
+            "EC000017"
+          ],
+          "boundary": "Diet, activity and sleep effects were not isolated."
+        },
+        {
+          "level": "supplement",
+          "label": "Saffron extract",
+          "claimIds": [
+            "EC000014",
+            "EC000015"
+          ],
+          "boundary": "Extract-dose evidence is not a culinary saffron claim."
+        }
+      ],
+      "majorGaps": [
+        "BRS2, BRS4 and BRS5 direct condition evidence in the curated V1",
+        "Mechanism-targeted dietary trials",
+        "Anhedonia-specific PH017 outcomes",
+        "Biomarker-defined inflammatory or metabolic subgroups"
+      ],
+      "researchPriorities": [
+        "Stratify anhedonic, inflammatory, metabolic and sleep-disrupted presentations.",
+        "Pair depressive symptom scales with PH017 pleasure/interest outcomes.",
+        "Measure target engagement in dietary-pattern trials.",
+        "Disaggregate diet, physical activity, sleep and stress-regulation components where feasible."
+      ]
+    }
+  ]
+}

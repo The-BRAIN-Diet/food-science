@@ -38,6 +38,10 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation">BRS3-FM1-PM1 — NF-kB Signalling Regulation</a></li>
+    <li><a href="/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling">BRS3-FM1-PM2 — Gut-Derived Inflammatory Signalling</a></li>
+  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -47,6 +51,12 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation">BRS3-FM2-PM3 — Nrf2-ARE Antioxidant Activation</a></li>
+    <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance">BRS3-FM2-PM4 — ROS Generation vs Clearance Balance</a></li>
+    <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control">BRS3-FM2-PM5 — Lipid Peroxidation Control</a></li>
+    <li><a href="/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling">BRS3-FM2-PM6 — Antioxidant Network Recycling</a></li>
+  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -56,6 +66,10 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation">BRS3-FM3-PM7 — Cytokine Network Modulation</a></li>
+    <li><a href="/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance">BRS3-FM3-PM8 — Eicosanoid / SPM Balance</a></li>
+  </ul>
 </li>
 </ul>
 </div>
@@ -180,7 +194,7 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 
 **Connected mechanisms:**
 
-- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — membrane long-chain PUFA substrate pools feeding specialized pro-resolving mediator formation
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — membrane long-chain PUFA substrate pools feeding specialized pro-resolving mediator formation
 - [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — nF-kB Signalling Regulation
 - [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — gut-Derived Inflammatory Signalling
 - [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — lipid Peroxidation Control
@@ -589,7 +603,7 @@ Maintains inflammation-resolution capacity through pro-resolving lipid mediator 
 
 **Connected mechanisms:**
 
-- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — membrane long-chain PUFA substrate pools feeding specialized pro-resolving mediator formation
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — membrane long-chain PUFA substrate pools feeding specialized pro-resolving mediator formation
 - [BRS3-FM1-PM1 - NF-kB Signalling Regulation](/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation) — nF-kB Signalling Regulation
 - [BRS3-FM1-PM2 - Gut-Derived Inflammatory Signalling](/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling) — gut-Derived Inflammatory Signalling
 - [BRS3-FM2-PM5 - Lipid Peroxidation Control](/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control) — lipid Peroxidation Control

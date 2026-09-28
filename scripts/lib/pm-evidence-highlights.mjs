@@ -67,7 +67,7 @@ export const BRS1_PM_EVIDENCE = {
       { citation_key: "fernstrom_lnna_2013", label: "Fernstrom (2013)" },
     ],
   },
-  "brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation": {
+  "brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation": {
     intro:
       "Noradrenergic synthesis and signalling biology is well established. The studies below highlight cofactor and enzymatic dependencies that refine how noradrenergic substrate context is interpreted — not functional outcome claims.",
     blocks: [
@@ -85,7 +85,7 @@ export const BRS1_PM_EVIDENCE = {
       { citation_key: "fernstrom_lnna_2013", label: "Fernstrom (2013)" },
     ],
   },
-  "brs1-fm1-pm4-serotonergic-signalling-regulation": {
+  "brs1-fm1-pm5-serotonergic-signalling-regulation": {
     intro:
       "Serotonergic synthesis and signalling biology is well established. The studies below highlight transport, dietary-modulation, and regulatory-context findings that refine how serotonergic substrate and signalling capacity is interpreted across populations — not disorder-specific treatment outcome claims.",
     blocks: [
@@ -112,7 +112,7 @@ export const BRS1_PM_EVIDENCE = {
       { citation_key: "banerjee_does_2015", label: "Banerjee and Nandagopal (2015)" },
     ],
   },
-  "brs1-fm2-pm5-acetylcholine-synthesis-support": {
+  "brs1-fm2-pm6-acetylcholine-synthesis-support": {
     intro:
       "The choline–acetylcholine substrate pathway is well established. The studies below highlight intake and food-matrix findings that refine how cholinergic substrate support is interpreted in practice.",
     blocks: [
@@ -134,7 +134,7 @@ export const BRS1_PM_EVIDENCE = {
       { citation_key: "briguglio_dietary_2018", label: "Briguglio et al. (2018)" },
     ],
   },
-  "brs1-fm3-pm6-neuronal-membrane-dha-incorporation": {
+  "brs1-fm3-pm7-neuronal-membrane-dha-incorporation": {
     intro:
       "The role of DHA in neuronal membrane biology is well established. The studies below do not restate membrane biochemistry; they highlight **PC/LPC transport**, delivery-form efficacy, membrane structural context, and sourcing considerations that refine how incorporation is interpreted in practice.",
     blocks: [
@@ -167,7 +167,7 @@ export const BRS1_PM_EVIDENCE = {
       { citation_key: "mcnamara_role_2006", label: "McNamara & Carlson (2006)" },
     ],
   },
-  "brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance": {
+  "brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance": {
     intro:
       "Excitatory–inhibitory balance biology is well established. The studies below highlight network-level E/I framing that refines how this integrative PM is interpreted — not condition-specific biomarker claims.",
     blocks: [
@@ -178,13 +178,13 @@ export const BRS1_PM_EVIDENCE = {
     ],
     referenceNoteKeys: [{ citation_key: "mamiya_precision_2021", label: "Mamiya et al. (2021)" }],
   },
-  // BRS1-FM4-PM8 is migrated to the canonical Scientific Finding model: its §5.1
+  // BRS1-FM4-PM9 is migrated to the canonical Scientific Finding model: its §5.1
   // is generated from `scientific_findings` front matter by
   // `npm run findings:sync`. The former seed here attributed magnesium/NMDA and
   // human PLP-dependent GAD biochemistry to Cataldo et al. (2024), a
   // Levilactobacillus brevis study that supports neither claim; it was retracted
-  // during PM8 adjudication and must not be reintroduced.
-  "brs1-fm4-pm9-glutamate-clearance-and-recycling": {
+  // during PM9 adjudication (historical ticket CC-PM8) and must not be reintroduced.
+  "brs1-fm4-pm10-glutamate-clearance-and-recycling": {
     intro:
       "Glutamate clearance and recycling biology is well established. The studies below highlight uptake, recycling, and excitability context that refine how excitatory control is interpreted within BRS1(FM4).",
     blocks: [
@@ -202,7 +202,7 @@ export const BRS1_PM_EVIDENCE = {
       { citation_key: "chai_pleiotropic_2025", label: "Chai (2025)" },
     ],
   },
-  "brs1-fm4-pm10-excitotoxicity-modulation": {
+  "brs1-fm4-pm11-excitotoxicity-modulation": {
     intro:
       "Excitotoxic stress biology is well established. The studies below highlight neural E/I balance framing and magnesium-related excitotoxic protection that refine how excitatory overload modulation is interpreted in practice.",
     blocks: [

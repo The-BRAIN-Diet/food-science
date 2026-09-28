@@ -42,7 +42,7 @@ const MECH = {
     opening:
       "Integrated control of excitatory–inhibitory tone through GABA–glutamate balance and excitotoxicity modulation.",
     clauses:
-      "PM6 governs GABA–Glutamate Neurotransmission Balance. PM7 governs GABA Synthesis Capacity. PM8 governs Glutamate Clearance & Recycling. PM9 governs Excitotoxicity Modulation.",
+      "PM8 governs GABA–Glutamate Neurotransmission Balance. PM9 governs GABA Synthesis Capacity. PM10 governs Glutamate Clearance & Recycling. PM11 governs Excitotoxicity Modulation.",
     together:
       "Together, these PMs operationalise BRS1(FM4) as coordinated excitatory–inhibitory balance regulation.",
   },

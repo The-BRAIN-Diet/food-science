@@ -5,21 +5,21 @@ export const BRS1_3_MISSIONS = {
     "Ensure meal-level protein supply delivers the amino-acid foundation neurotransmitter pathways depend on.",
   "brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation.mdx":
     "Shape blood–brain barrier transport so key neurotransmitter precursors reach the brain favourably after meals.",
-  "brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation.mdx":
+  "brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx":
     "Support noradrenergic alertness and executive control so attention and arousal stay appropriately engaged.",
-  "brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation.mdx":
+  "brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx":
     "Support serotonergic signalling so mood stability, inhibition, and behavioural regulation remain well grounded.",
-  "brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support.mdx":
+  "brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx":
     "Convert dietary choline into acetylcholine so learning, working memory, and attention-focused signalling stay supplied.",
-  "brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation.mdx":
+  "brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx":
     "Deliver and integrate DHA into neuronal membranes so the brain maintains a flexible, signal-ready lipid foundation.",
-  "brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance.mdx":
+  "brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance.mdx":
     "Keep excitatory glutamate and inhibitory GABA signalling matched so neural networks operate with stability.",
-  "brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity.mdx":
+  "brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx":
     "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
-  "brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling.mdx":
+  "brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx":
     "Clear and recycle glutamate efficiently so excitatory load does not overwhelm neural circuits.",
-  "brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation.mdx":
+  "brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx":
     "Limit excitotoxic pressure when glutamatergic drive is excessive so neural stability is protected over time.",
   // BRS1 SMs
   "brs1/sm/brs1-sm-snp1-comt-catecholamine-clearance-sensitivity.mdx":

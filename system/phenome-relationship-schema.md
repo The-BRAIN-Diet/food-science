@@ -139,7 +139,7 @@ Authoritative source for PM pages. Graph-database ready.
 
 ```yaml
 phenome_relationships:
-  - source_node: "BRS1-FM1-PM3"           # optional; defaults to pm_id
+  - source_node: "BRS1-FM1-PM4"           # optional; defaults to pm_id
     target_phenome: "Motivation"
     relationship_type: supports           # supports | disrupts | modulates | indirect
     confidence: medium                    # Biology → Phenome Confidence: low | medium | high | low-medium
@@ -482,7 +482,7 @@ That four-step structure **is translational biology** — not keyword matching a
 | **Framework translation** (Principle 2) | Genuinely inferential or distal jumps (e.g. membrane integration → Cognitive Clarity) — label explicitly |
 | **Speculative / weak coupling** | Distal chain with little established biology — prefer empty §3 or **low** biology confidence |
 
-**Worked example — BRS1-FM1-PM4 Serotonergic Signalling → Emotional Regulation**
+**Worked example — BRS1-FM1-PM5 Serotonergic Signalling → Emotional Regulation**
 
 | Review step | References (illustrative) | What it validates |
 |-------------|---------------------------|-------------------|
@@ -515,7 +515,7 @@ Biology → Phenome Confidence is calibrated from **functional biological depend
 
 Attached references must **never reduce** Biology → Phenome Confidence when the biological relationship itself is fundamental. Weak or mechanistic-only refs may still justify **low** Evidence Confidence — that is a separate dimension.
 
-**Worked example — BRS1-FM4-PM8 GABA Synthesis Capacity → Sleep / Calming Tone**
+**Worked example — BRS1-FM4-PM9 GABA Synthesis Capacity → Sleep / Calming Tone**
 
 | Step | Input | Assignment |
 |------|-------|------------|

@@ -49,7 +49,7 @@ export const BRS1_UPDATES = {
     translational:
       "Helps the brain maintain stable neural activity by balancing excitatory glutamate signalling and inhibitory GABA signalling (the principal excitatory–inhibitory pair). Good excitation–inhibition balance supports focus, emotional control, and resistance to sensory overwhelm.",
     scientific:
-      "Integrated regulation of GABA–glutamate balance (PM7), GABA synthesis capacity (PM8), glutamate clearance (PM9), and excitotoxic modulation (PM10) supports inhibitory tone and neural stability.",
+      "Integrated regulation of GABA–glutamate balance (PM8), GABA synthesis capacity (PM9), glutamate clearance (PM10), and excitotoxic modulation (PM11) supports inhibitory tone and neural stability.",
     bullets: [
       "Supports inhibitory tone through GABA-related pathways — within BRS1.",
       "Helps manage excitatory glutamate load and neural overstimulation — within BRS1.",
@@ -73,14 +73,14 @@ export const BRS1_UPDATES = {
     translational:
       "Influences which amino acids reach the brain after a meal by shaping competitive transport at the blood–brain barrier (via the LAT1 transporter). Meal composition can shift whether tyrosine, tryptophan, and other precursors are favourably or unfavourably presented for brain entry.",
     scientific:
-      "Large neutral amino acids compete for LAT1 transporter entry at the blood-brain barrier. This PM governs transport bias from meal-level macronutrient structure — not whether the overall amino-acid pool is sufficient (PM1) or downstream signalling (PM3/PM4).",
+      "Large neutral amino acids compete for LAT1 transporter entry at the blood-brain barrier. This PM governs transport bias from meal-level macronutrient structure — not whether the overall amino-acid pool is sufficient (PM1) or downstream signalling (PM3–PM5).",
     bullets: [
       "Shapes which aromatic amino acids compete for brain entry after meals — within BRS1.",
       "Influences tyrosine and tryptophan delivery bias relevant to monoamine pathways — within BRS1.",
       "Links carbohydrate–protein meal structure to blood–brain barrier transport context — Supporting BRS6.",
     ],
   },
-  "brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation.mdx": {
+  "brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx": {
     functional_descriptor: "(Attention & Executive Modulation)",
     translational:
       "Supports alertness, focus, and executive control through noradrenaline (norepinephrine) — a key monoamine signal for attention and arousal. Stable noradrenergic signalling helps the brain maintain appropriate vigilance and cognitive engagement.",
@@ -92,7 +92,7 @@ export const BRS1_UPDATES = {
       "Operates downstream of precursor availability and LAT1 transport represented in sibling PMs — within BRS1.",
     ],
   },
-  "brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation.mdx": {
+  "brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx": {
     functional_descriptor: "(Pathways for Mood & Behavioural Control)",
     translational:
       "Helps support emotional regulation, stress resilience, and behavioural control through serotonin-related brain signalling (a key monoamine for mood and inhibition). Stable serotonergic activity contributes to mood stability, inhibition, and sleep-compatible neurochemistry.",
@@ -104,7 +104,7 @@ export const BRS1_UPDATES = {
       "Intersects sleep-compatible neurochemistry and broader monoaminergic balance — within BRS1.",
     ],
   },
-  "brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support.mdx": {
+  "brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx": {
     functional_descriptor: "(Choline supported neurotransmission for learning and focus)",
     translational:
       "Supports attention, working memory, and cognitive precision by helping the brain convert dietary choline into acetylcholine (the principal cholinergic neurotransmitter). Choline-rich foods provide the substrate for a signalling system central to learning and focus.",
@@ -116,7 +116,7 @@ export const BRS1_UPDATES = {
       "Draws on choline and phospholipid substrates that intersect membrane chemistry — Supporting BRS2.",
     ],
   },
-  "brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation.mdx": {
+  "brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx": {
     functional_descriptor: "(Getting Omega-3 DHA Into Brain Membranes)",
     translational:
       "Helps supply the brain with DHA (docosahexaenoic acid) and integrate it into neuronal membranes over time, supporting membrane flexibility and the structural environment in which neural signalling occurs. Habitual omega-3 intake and phospholipid-carrier form matter more than isolated high-dose episodes.",
@@ -128,7 +128,7 @@ export const BRS1_UPDATES = {
       "Links dietary fat patterns to the membrane environment of neurotransmitter signalling — within BRS1.",
     ],
   },
-  "brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance.mdx": {
+  "brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance.mdx": {
     functional_descriptor: "(Excitation–Inhibition Balance for Neural Stability)",
     translational:
       "Helps maintain the balance between brain excitation (glutamate) and inhibition (GABA) — a foundation for attention, emotional control, and stable reactivity. When inhibitory and excitatory signalling are well matched, neural networks operate with greater stability.",
@@ -140,7 +140,7 @@ export const BRS1_UPDATES = {
       "Provides the regulatory foundation for sibling synthesis and clearance PMs — within BRS1.",
     ],
   },
-  "brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity.mdx": {
+  "brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx": {
     functional_descriptor: "(Building the Brain's Main Inhibitory Signal)",
     translational:
       "Concerns how the brain converts glutamate into GABA (gamma-aminobutyric acid, the principal inhibitory neurotransmitter), and the vitamin B6-derived cofactor that conversion requires. Whether ordinary dietary variation changes this capacity in humans has not been demonstrated.",
@@ -152,19 +152,19 @@ export const BRS1_UPDATES = {
       "Depends on glutamate substrate and PLP cofactor availability — within BRS1.",
     ],
   },
-  "brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling.mdx": {
+  "brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx": {
     functional_descriptor: "(Controlling Excitatory Load in Neural Circuits)",
     translational:
       "Helps protect neural circuits from excessive excitatory drive by clearing and recycling glutamate (the brain's main excitatory neurotransmitter). Effective glutamate control supports stable signalling and reduces risk of excitatory overload.",
     scientific:
-      "Glutamate uptake, recycling, and buffering processes control extracellular glutamate accumulation. This PM represents clearance and buffering — not synthesis balance (PM7) or GABA conversion (PM8).",
+      "Glutamate uptake, recycling, and buffering processes control extracellular glutamate accumulation. This PM represents clearance and buffering — not integrative balance (PM8) or GABA conversion (PM9).",
     bullets: [
       "Clears and recycles glutamate to prevent excitatory build-up — within BRS1.",
       "Protects neural circuits from sustained excitatory drive — within BRS1.",
       "Supports stable signalling downstream of excitation–inhibition balance — within BRS1.",
     ],
   },
-  "brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation.mdx": {
+  "brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx": {
     functional_descriptor: "(Protecting Circuits from Excessive Excitatory Stress)",
     translational:
       "Helps protect the brain from excessive excitatory stress when glutamatergic drive becomes too strong (excitotoxic pressure). Modulating this burden supports neural stability and cognitive regulation over time.",
@@ -205,7 +205,7 @@ export const BRS1_UPDATES = {
     translational:
       "Helps explain why omega-3 supplementation and brain DHA delivery may appear less effective in some people carrying the APOE4 variant (a common lipid-transport genotype). Genotype-sensitive reading prevents over-interpreting uniform trial results.",
     scientific:
-      "APOE4 carriage may reduce brain DHA uptake relative to non-carriers, altering interpretation of dietary omega-3 delivery within stable BRS1-FM3-PM6 membrane-incorporation biology — not as a deterministic cognitive outcome predictor.",
+      "APOE4 carriage may reduce brain DHA uptake relative to non-carriers, altering interpretation of dietary omega-3 delivery within stable BRS1-FM3-PM7 membrane-incorporation biology — not as a deterministic cognitive outcome predictor.",
     bullets: [
       "Explains why brain DHA enrichment may differ between APOE4 carriers and non-carriers — within BRS1.",
       "Prevents over-reading uniform omega-3 trial results in mixed-genotype groups — within BRS1.",

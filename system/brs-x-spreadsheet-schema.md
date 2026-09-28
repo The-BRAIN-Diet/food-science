@@ -237,12 +237,12 @@ Use these as **starting proposals**. ChatGPT may refine descriptions and evidenc
 
 | mechanism_id | mechanism_name | fm_ownership | underlying_mechanisms (KCs) | connected_mechanisms (BRS1–6 examples) |
 |--------------|----------------|--------------|-------------------------------|----------------------------------------|
-| `BRS-X(ECS-PM1)` | Endocannabinoid Tone Regulation | `BRS-X(ECS-FM1)` | `BRS-X(ECS-KC1)`; `BRS-X(ECS-KC2)` | `BRS1-FM2-PM5 — Acetylcholine Synthesis Support`; `BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation` |
-| `BRS-X(ECS-PM2)` | NAPE → NAE Biosynthesis from Dietary Phospholipids | `BRS-X(ECS-FM1)` | `BRS-X(ECS-KC1)` | `BRS1-FM2-PM5 — Acetylcholine Synthesis Support`; `BRS2-FM3-PM7 — Phosphatidylcholine Formation` |
-| `BRS-X(ECS-PM3)` | Omega-3-Derived N-Acylethanolamine Production | `BRS-X(ECS-FM1)` | `BRS-X(ECS-KC2)`; `BRS-X(ECS-KC3)` | `BRS3-FM3-PM8 — Eicosanoid / SPM Balance`; `BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation` |
+| `BRS-X(ECS-PM1)` | Endocannabinoid Tone Regulation | `BRS-X(ECS-FM1)` | `BRS-X(ECS-KC1)`; `BRS-X(ECS-KC2)` | `BRS1-FM2-PM6 — Acetylcholine Synthesis Support`; `BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation` |
+| `BRS-X(ECS-PM2)` | NAPE → NAE Biosynthesis from Dietary Phospholipids | `BRS-X(ECS-FM1)` | `BRS-X(ECS-KC1)` | `BRS1-FM2-PM6 — Acetylcholine Synthesis Support`; `BRS2-FM3-PM7 — Phosphatidylcholine Formation` |
+| `BRS-X(ECS-PM3)` | Omega-3-Derived N-Acylethanolamine Production | `BRS-X(ECS-FM1)` | `BRS-X(ECS-KC2)`; `BRS-X(ECS-KC3)` | `BRS3-FM3-PM8 — Eicosanoid / SPM Balance`; `BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation` |
 | `BRS-X(ECS-PM4)` | FAAH-Mediated Endocannabinoid Degradation Modulation | `BRS-X(ECS-FM1)` | — | `BRS3-FM1-PM1 — NF-κB Signalling Regulation` (genistein cross-link only if evidence-backed) |
 | `BRS-X(ECS-PM5)` | OEA / PEA Satiety Signalling | `BRS-X(ECS-FM3)` | `BRS-X(ECS-KC1)` | `BRS6-FM4-PM9 — Stress-Induced Appetite / Reward Drive Modulation` |
-| `BRS-X(ECS-PM6)` | ECS–Dopamine Motivation Coupling | `BRS-X(ECS-FM2)` | — | `BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation`; `BRS1-FM1-PM3 — Noradrenergic Signalling` |
+| `BRS-X(ECS-PM6)` | ECS–Dopamine Motivation Coupling | `BRS-X(ECS-FM2)` | — | `BRS1-FM1-PM1 — Amino-Acid Availability & Prioritisation`; `BRS1-FM1-PM4 — Noradrenergic Signalling` |
 | `BRS-X(ECS-PM7)` | Vagal–ECS Stress Buffering | `BRS-X(ECS-FM2)` | — | `BRS5-FM3-PM7 — Vagal–ENS Signalling Modulation`; `BRS6-FM3-PM7 — Vagal Tone / HRV Regulation` |
 | `BRS-X(ECS-PM8)` | Stress-Linked Reward Appetite Modulation | `BRS-X(ECS-FM3)` | — | `BRS6-FM4-PM9 — Stress-Induced Appetite / Reward Drive Modulation` |
 

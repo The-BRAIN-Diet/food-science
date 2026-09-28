@@ -31,9 +31,9 @@ export const SEC_VALUES = new Set([SEC_NOT_YET_SCORED]);
 
 export const EVIDENCE_SOURCES = new Set(["repository-inherited", "bounded-external-search"]);
 
-/** Headline PM Finding ids: PM8-F1, PM12-F3, … */
+/** Headline PM Finding ids: PM9-F1, PM12-F3, … */
 export const FINDING_HEADLINE_ID_PATTERN = /^PM\d+-F\d+$/;
-/** Interpretive constraints (no F sequence): PM8-IC1, … */
+/** Interpretive constraints (no F sequence): PM9-IC1, … */
 export const FINDING_INTERPRETIVE_ID_PATTERN = /^PM\d+-IC\d+$/;
 
 export const FINDING_ID_PATTERN = /^(PM\d+-F\d+|PM\d+-IC\d+)$/;
@@ -152,6 +152,9 @@ export function validateScientificFindings(data, issues = [], { entityLabel = "p
   // does, every Finding involved must declare the reuse under Evidence
   // Dependency so it cannot be read as independent replication.
   const primaryStudyOwners = new Map();
+  const therapeuticAreaIds = new Set(
+    (registry().therapeuticAreas || []).map((entry) => String(entry.id || "").trim()),
+  );
 
   for (const finding of findings) {
     const id = String(finding?.id || "").trim();
@@ -178,6 +181,26 @@ export function validateScientificFindings(data, issues = [], { entityLabel = "p
         "finding_fm_rollup_value",
         `${entityLabel}: ${id} fm_rollup must be boolean when present`,
       );
+    }
+
+    if (finding?.therapeutic_area_ids !== undefined) {
+      if (!Array.isArray(finding.therapeutic_area_ids)) {
+        push(
+          issues,
+          "finding_therapeutic_area_ids_not_array",
+          `${entityLabel}: ${id} therapeutic_area_ids must be a list when present`,
+        );
+      } else {
+        for (const taId of finding.therapeutic_area_ids) {
+          if (!therapeuticAreaIds.has(String(taId))) {
+            push(
+              issues,
+              "finding_unknown_therapeutic_area",
+              `${entityLabel}: ${id} references unknown Therapeutic Area ${taId}`,
+            );
+          }
+        }
+      }
     }
 
     for (const field of ["finding_statement", "synthesis", "synthesis_limitations"]) {

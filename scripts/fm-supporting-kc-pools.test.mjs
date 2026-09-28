@@ -136,14 +136,14 @@ Cycle efficiency may weaken when [BRS2(KC1) — One-Carbon Donor Pool](/docs/bio
 `,
     "docs/biological-targets/brs1/fm3/brs1-fm3-pm6-membrane.mdx": `---
 title: Membrane
-pm_id: BRS1-FM3-PM6
+pm_id: BRS1-FM3-PM7
 ---
 `,
     "docs/biological-targets/brs1/fm3/brs1-fm3-membrane.mdx": `---
 title: Membrane Composition
 fm_id: BRS1(FM3)
 mechanisms_covered:
-  - id: BRS1-FM3-PM6
+  - id: BRS1-FM3-PM7
     name: Membrane
     href: /docs/biological-targets/brs1/fm3/brs1-fm3-pm6-membrane
 ---
@@ -153,7 +153,7 @@ Membrane composition represents a framework-relevant biological state anchored p
 
 ### 4.1 Core Primary Mechanisms
 
-- [BRS1-FM3-PM6 — Membrane](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-membrane)
+- [BRS1-FM3-PM7 — Membrane](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-membrane)
 
 ### 4.2 Integrated Functional Narrative
 

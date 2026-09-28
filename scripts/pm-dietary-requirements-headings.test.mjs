@@ -12,9 +12,9 @@ import {
 } from "./lib/pm-section-layout.mjs";
 import { validatePmDietaryRequirementHeadings } from "./lib/mechanism-page-validation.mjs";
 
-const PM8 = path.join(
+const PM9 = path.join(
   process.cwd(),
-  "docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity.mdx",
+  "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
 );
 const PM3 = path.join(
   process.cwd(),
@@ -108,8 +108,8 @@ test("PM3 uses the canonical §3.1 Dietary Requirements headings", () => {
   assert.deepEqual(issues, []);
 });
 
-test("PM8 uses the canonical §3.1 Dietary Requirements headings", () => {
-  const content = fs.readFileSync(PM8, "utf8");
+test("PM9 uses the canonical §3.1 Dietary Requirements headings", () => {
+  const content = fs.readFileSync(PM9, "utf8");
   assert.ok(content.includes("3.1 Dietary Requirements"));
   assert.ok(content.includes("3.1.1 Direct and/or Derived Dietary Requirements"));
   assert.ok(content.includes("3.1.2 Cofactors and Substrates"));
@@ -117,6 +117,6 @@ test("PM8 uses the canonical §3.1 Dietary Requirements headings", () => {
   assert.ok(!content.includes("3.1 Dietary Levers"));
   assert.ok(!content.includes("Cofactors and Supporting Inputs"));
   const issues = [];
-  validatePmDietaryRequirementHeadings(content, issues, { entityLabel: path.basename(PM8) });
+  validatePmDietaryRequirementHeadings(content, issues, { entityLabel: path.basename(PM9) });
   assert.deepEqual(issues, []);
 });
