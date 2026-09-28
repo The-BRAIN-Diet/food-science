@@ -311,7 +311,7 @@ that increasing intake increases mechanism activity.
 reader-facing §3.1 dietary relationship must be an atomic projection governed by
 `system/dietary-input-traceability-contract.md`. Every entry must resolve by
 `atom_id` to the canonical `Input | Input Type | Biological Role | Evidence Source
-| Limitation (conditional)` record. Do not author an independent Markdown list
+| Limitation` record. Do not author an independent Markdown list
 that carries scientific relationship data separately from the atoms.
 
 `dietary_lever_presentations` controls placement only. It does not own Input Type,
@@ -433,7 +433,7 @@ Not every PM must contain every level. Food composition and Food → Substance m
 remain owned by the Food architecture.
 
 The five-atom evidence structure remains `Input | Input Type | Biological Role |
-Evidence Source | Limitation (conditional)`. Direct/Derived classification does not
+Evidence Source | Limitation`. Direct/Derived classification does not
 replace Input Type. See `system/dietary-input-traceability-contract.md` for evidence
 admissibility, limitations, claim ceilings, responsiveness and adjudication.
 
@@ -463,6 +463,13 @@ PM pages should progressively answer:
 **Rendering contract:** **3.1 Dietary Requirements**, **3.2 System Optimisation Practices**, and **3.3 Lifestyle Levers** are top-level `<details>` (or hub-collapsible) dropdowns under canonical `## 3. Levers`, in that order. Inside **3.1 Dietary Requirements**, use three nested blocks titled exactly **3.1.1 Direct and/or Derived Dietary Requirements**, **3.1.2 Cofactors and Substrates**, and **3.1.3 Key Constraints**. Untouched PMs may retain the former Dietary Levers / Direct Dietary Levers / Cofactors and Supporting Inputs / KCs headings until recomputed; shared readers and validators must accept both.
 
 **§3.2 guiding question:** How can dietary inputs be selected, prepared, combined, timed, or preserved to act more effectively on this biology?
+
+Evidence-qualified §3.2 practices use `system_optimisation_practices`; evidence-qualified
+§3.3 priorities use `lifestyle_priorities`. Each relationship carries the same five
+atoms as §3.1. PM ownership is implicit in the containing PM, and the collection name
+determines the destination subsection. These PM scientific-evidence relationships are
+not provisional dietary candidates and must not be removed or overwritten by a later
+Dietary Levers pass.
 
 **§3.2 vs §3.3 boundary:**
 

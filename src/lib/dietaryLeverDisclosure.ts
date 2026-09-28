@@ -61,6 +61,10 @@ type PresentationRow = {
   presentation_section?: string;
 };
 
+type NonDietaryLeverRow = TraceRow & {
+  presentation_label?: string;
+};
+
 function buildPmReferenceKeyIndex(references: string[] = []): Map<string, EvidenceReference> {
   const index = new Map<string, EvidenceReference>();
   for (const line of references) {
@@ -175,7 +179,7 @@ export function buildDietaryLeverDisclosureMap(
     const leverRow = leverRows.find((r) => String(r.atom_id) === atomId);
     if (!base?.input) continue;
 
-    const limitation = leverRow?.evidence_limitation || "";
+    const limitation = base.evidence_limitation || leverRow?.evidence_limitation || "";
 
     const key = dietaryLeverBulletKey(
       String(pres.label || base.input),
@@ -203,6 +207,29 @@ export function buildDietaryLeverDisclosureMap(
       ),
       presentationSection: String(pres.presentation_section || "").trim(),
     });
+  }
+
+  for (const [field, section] of [
+    ["system_optimisation_practices", "3.2"],
+    ["lifestyle_priorities", "3.3"],
+  ] as const) {
+    const rows = (frontMatter[field] || []) as NonDietaryLeverRow[];
+    for (const row of rows) {
+      const label = String(row.presentation_label || row.input || "").trim();
+      if (!label) continue;
+      map.set(dietaryLeverBulletKey(label, "", section), {
+        title: String(row.input || ""),
+        inputType: formatInputTypeLabel(String(row.input_type || "")),
+        biologicalRole: String(row.biological_role || ""),
+        evidenceLimitation: String(row.evidence_limitation || "").trim(),
+        evidenceReferences: evidenceSourceReferences(
+          references,
+          row.evidence_source?.citation_keys || [],
+        ),
+        compactQualifier: "",
+        presentationSection: section,
+      });
+    }
   }
 
   const pmTraceById = new Map(

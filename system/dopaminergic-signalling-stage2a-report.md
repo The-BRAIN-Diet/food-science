@@ -98,6 +98,24 @@ citation provenance and report material changes. Tyrosine is not duplicated as
 a PM3 atom because amino-acid availability and LAT1 competition are owned by
 PM1 and PM2.
 
+## Five-atom lever architecture amendment
+
+The three dopamine candidates now carry the complete PM-owned evidence record:
+Input, Input Type, Biological Role, Evidence Source and Limitation. Iron and PLP
+remain Direct relationships; vitamin B6 remains Derived and points to the Direct
+PLP atom. Direct/Derived, Derived Target, addressability and claim ceiling remain
+relationship metadata rather than additional atoms.
+
+The shared contract also accepts `system_optimisation_practices` and
+`lifestyle_priorities`. Each record uses the same five atoms, resolves its
+Scientific Finding and PM-bibliography citations, and derives §3.2 or §3.3
+placement from the containing collection. These PM-owned relationships are not
+provisional dietary candidates. No unsupported dopamine optimisation or
+lifestyle record was added.
+
+Reader disclosures render Evidence Source as linked PM reference numbers such as
+`[1]`; citation keys, Finding ids and atom ids remain internal.
+
 ## GABA evidence-placement repair
 
 No edit was required. After branch renumbering, GABA Synthesis Capacity is
@@ -113,20 +131,20 @@ Passed:
 - `npm run findings:check`
 - `npm run test:scientific-findings` — 25 tests
 - `npm run test:brs1-dopamine-stage1` — 5 tests; command name retained for branch compatibility
-- `npm run test:dietary-lever-traceability` — 13 tests
+- `npm run test:dietary-lever-traceability` — 16 tests
 - `npm run test:pm-dietary-requirements-headings` — 6 tests
 - `npm run phenome:validate` — 159/159 relationship edges mapped
 - `npm run bib:validate` — all cited keys resolved
 - PM contract, PM Mechanistic Basis, Phenome index/mapping and Scientific
   Findings portions of `npm run mechanisms:validate`
 - IDE lint diagnostics for the edited PM, validator and tests
+- `npm run build` — production build passed
 
 Existing baseline failure not changed:
 
 - `npm run mechanisms:validate` still exits non-zero for four pre-existing
   Specific Mechanism §6.2/§6.3 heading-contract failures. PM validation and all
   Stage 2A-specific gates pass.
-- `npm run build` compiled the client and server successfully, then exited
-  non-zero on pre-existing production broken links from PM pages to the
-  internal-only Therapeutic Area routes. No PM3 or new bibliography link was
-  reported in the broken-link output.
+- `npm run typecheck` still exits non-zero on pre-existing repository-wide
+  React/Docusaurus typing and DOM-iterability errors; no edited file has an IDE
+  lint diagnostic.

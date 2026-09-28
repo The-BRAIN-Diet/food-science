@@ -1,5 +1,5 @@
 /**
- * PM Evidence layer — four-field dietary input atoms.
+ * PM Evidence layer — canonical five-atom lever evidence relationships.
  * @see system/dietary-input-traceability-contract.md
  */
 
@@ -24,6 +24,8 @@ export const INPUT_TYPES = new Set([
   "dietary pattern",
   "preparation characteristic",
   "defined dietary exposure",
+  "food preparation/delivery practice",
+  "lifestyle practice",
 ]);
 
 /** Catch-all labels that must not be used as Input Type. */
@@ -91,6 +93,9 @@ export function validateDietaryInputTraceability(data, issues, { entityLabel }) 
     if (!row?.biological_role?.trim()) {
       push(issues, "dit_missing_biological_role", `${label} requires biological_role`);
     }
+    if (!row?.evidence_limitation?.trim()) {
+      push(issues, "dit_missing_limitation", `${label} requires evidence_limitation`);
+    }
     const es = row?.evidence_source;
     if (!es || typeof es !== "object") {
       push(issues, "dit_missing_evidence_source", `${label} requires evidence_source`);
@@ -98,8 +103,14 @@ export function validateDietaryInputTraceability(data, issues, { entityLabel }) 
     }
     const fids = es.finding_ids || [];
     const ckeys = es.citation_keys || [];
-    if (!fids.length && !ckeys.length && !(es.pathway_resources || []).length) {
-      push(issues, "dit_empty_evidence_source", `${label} evidence_source must cite findings or citation_keys`);
+    if (findingIds && !fids.length) {
+      push(issues, "dit_missing_finding_source", `${label} evidence_source must cite a Scientific Finding`);
+    }
+    if (findingIds && !ckeys.length) {
+      push(issues, "dit_missing_bibliography_source", `${label} evidence_source must cite a PM bibliography entry`);
+    }
+    if (!findingIds && !fids.length && !ckeys.length && !(es.pathway_resources || []).length) {
+      push(issues, "dit_empty_evidence_source", `${label} evidence_source must cite findings and citation_keys`);
     }
     if (findingIds) {
       for (const id of fids) {
@@ -123,6 +134,89 @@ export function validateDietaryInputTraceability(data, issues, { entityLabel }) 
       push(issues, "dit_true_duplicate", `${label} duplicates the same input+type+role tuple`);
     }
     seenTuples.add(tuple);
+  }
+}
+
+export const PM_NON_DIETARY_LEVER_COLLECTIONS = [
+  {
+    field: "system_optimisation_practices",
+    label: "System Optimisation Practice",
+    section: "3.2",
+  },
+  {
+    field: "lifestyle_priorities",
+    label: "Lifestyle Priority",
+    section: "3.3",
+  },
+];
+
+/**
+ * Validate PM-owned §3.2/§3.3 evidence relationships against the same five atoms.
+ * The containing collection determines lever class and destination subsection.
+ */
+export function validatePmNonDietaryLeverEvidence(data, issues, { entityLabel }) {
+  const findingIds = hasScientificFindings(data)
+    ? new Set((data.scientific_findings || []).map((finding) => String(finding.id)))
+    : null;
+  const refKeys = buildPmReferenceKeyIndex(data.references || []);
+
+  for (const collection of PM_NON_DIETARY_LEVER_COLLECTIONS) {
+    const rows = data?.[collection.field];
+    if (!rows?.length) continue;
+    const seenIds = new Set();
+    for (const [i, row] of rows.entries()) {
+      const label = `${entityLabel}: ${collection.field}[${i}]`;
+      if (!row?.atom_id?.trim()) {
+        push(issues, "pm_lever_missing_atom_id", `${label} requires atom_id`);
+      } else if (seenIds.has(String(row.atom_id))) {
+        push(issues, "pm_lever_duplicate_atom_id", `${label} duplicates atom_id ${row.atom_id}`);
+      } else {
+        seenIds.add(String(row.atom_id));
+      }
+      if (!row?.input?.trim()) push(issues, "pm_lever_missing_input", `${label} requires input`);
+      if (!row?.input_type?.trim()) {
+        push(issues, "pm_lever_missing_input_type", `${label} requires input_type`);
+      } else {
+        const inputType = String(row.input_type).trim().toLowerCase();
+        if (FORBIDDEN_INPUT_TYPES.has(inputType)) {
+          push(issues, "pm_lever_forbidden_input_type", `${label} input_type must state the actual lever type`);
+        }
+      }
+      if (!row?.biological_role?.trim()) {
+        push(issues, "pm_lever_missing_biological_role", `${label} requires biological_role`);
+      }
+      if (!row?.evidence_limitation?.trim()) {
+        push(issues, "pm_lever_missing_limitation", `${label} requires evidence_limitation`);
+      }
+
+      const source = row?.evidence_source;
+      if (!source || typeof source !== "object") {
+        push(issues, "pm_lever_missing_evidence_source", `${label} requires evidence_source`);
+        continue;
+      }
+      const fids = source.finding_ids || [];
+      const citationKeys = source.citation_keys || [];
+      if (!fids.length) {
+        push(issues, "pm_lever_missing_finding_source", `${label} must cite a Scientific Finding`);
+      }
+      if (!citationKeys.length) {
+        push(issues, "pm_lever_missing_bibliography_source", `${label} must cite a PM bibliography entry`);
+      }
+      for (const findingId of fids) {
+        if (findingIds && !findingIds.has(String(findingId))) {
+          push(issues, "pm_lever_unknown_finding", `${label} references unknown Finding ${findingId}`);
+        }
+      }
+      for (const citationKey of citationKeys) {
+        if (!refKeys.has(String(citationKey))) {
+          push(
+            issues,
+            "pm_lever_unknown_citation_key",
+            `${label} citation_key ${citationKey} is not in the PM bibliography`,
+          );
+        }
+      }
+    }
   }
 }
 

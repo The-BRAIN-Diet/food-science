@@ -8,6 +8,7 @@ import {
   indexTraceabilityAtoms,
   traceabilityAtomKey,
   validateDietaryInputTraceability,
+  validatePmNonDietaryLeverEvidence,
   evidenceSourceReferenceNumbers,
 } from "./dietary-input-traceability.mjs";
 import { findDietaryRequirementsSectionStart } from "./pm-section-layout.mjs";
@@ -67,6 +68,7 @@ export function resolveLeverAtom(data, leverRow) {
     input_type: base.input_type,
     biological_role: base.biological_role,
     evidence_source: base.evidence_source,
+    evidence_limitation: base.evidence_limitation,
     dietary_addressability: leverRow?.dietary_addressability ?? null,
     claim_ceiling: leverRow?.claim_ceiling ?? "biological-dependency",
     requirement_classification: leverRow?.requirement_classification ?? null,
@@ -141,6 +143,7 @@ export function pmKcConstituentRelationshipIsAdjudicated(
 
 export function validateDietaryLeverAtoms(data, issues, { entityLabel }) {
   validateDietaryInputTraceability(data, issues, { entityLabel });
+  validatePmNonDietaryLeverEvidence(data, issues, { entityLabel });
   const levers = data?.dietary_lever_atoms;
   if (!levers?.length) return;
   const trace = indexTraceabilityAtoms(data?.dietary_input_traceability || []);
@@ -149,7 +152,7 @@ export function validateDietaryLeverAtoms(data, issues, { entityLabel }) {
   for (const [i, row] of levers.entries()) {
     const label = `${prefix}[${i}]`;
     if (!row?.atom_id && !(row?.input && row?.biological_role)) {
-      push(issues, "dla_missing_link", `${label} must reference atom_id or full four-field atom`);
+      push(issues, "dla_missing_link", `${label} must reference atom_id or a complete five-atom relationship`);
       continue;
     }
     const resolved = resolveLeverAtom(data, row);
@@ -226,7 +229,7 @@ export function validateDietaryLeverAtoms(data, issues, { entityLabel }) {
       const targetLever = targetAtom
         ? levers.find((r) => String(r.atom_id) === String(targetAtom.atom_id))
         : null;
-      if (targetLever?.requirement_classification && targetLever.requirement_classification !== "direct") {
+      if (!targetLever || targetLever.requirement_classification !== "direct") {
         push(
           issues,
           "dla_derived_target_not_direct",

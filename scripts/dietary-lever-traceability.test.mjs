@@ -41,6 +41,10 @@ const DOC_ITEM_CONTENT = path.join(
   process.cwd(),
   "src/theme/DocItem/Content/index.tsx",
 );
+const PM_LEVER_ENHANCER = path.join(
+  process.cwd(),
+  "src/components/PmDietaryLeverEnhancer.tsx",
+);
 
 function readPm8() {
   return matter(fs.readFileSync(PM9, "utf8"));
@@ -64,6 +68,77 @@ test("PM reader mounts the atomic Dietary Requirement projection enhancer", () =
     source,
     /<PmDietaryLeverEnhancer\s+frontMatter=\{frontMatter as Record<string, unknown>\}\s*\/>/,
   );
+});
+
+test("PM lever references render only canonical linked square-bracket numbers", () => {
+  const source = fs.readFileSync(PM_LEVER_ENHANCER, "utf8");
+  assert.match(source, />\[\$\{number\}\]<\/a>/);
+  assert.doesNotMatch(source, /\[\$\{number\}\]\s+\$\{escapeHtml\(label\)\}/);
+  assert.doesNotMatch(source, /finding_ids|citation_keys|atom_id/);
+});
+
+test("System Optimisation Practices and Lifestyle Priorities use the shared five-atom contract", () => {
+  const fixture = {
+    references: [
+      "[Example et al. (2026)](/docs/papers/BRAIN-Diet-References#example_2026)",
+    ],
+    scientific_findings: [{ id: "PMX-F1" }],
+    system_optimisation_practices: [
+      {
+        atom_id: "PMX-SOP-1",
+        input: "Gentle steaming",
+        input_type: "food preparation/delivery practice",
+        biological_role: "Preserves the evidence-supported input during preparation",
+        evidence_source: {
+          finding_ids: ["PMX-F1"],
+          citation_keys: ["example_2026"],
+        },
+        evidence_limitation: "No comparative clinical outcome was established.",
+      },
+    ],
+    lifestyle_priorities: [
+      {
+        atom_id: "PMX-LP-1",
+        input: "Regular physical activity",
+        input_type: "lifestyle practice",
+        biological_role: "Supports the PM process represented by the linked Finding",
+        evidence_source: {
+          finding_ids: ["PMX-F1"],
+          citation_keys: ["example_2026"],
+        },
+        evidence_limitation: "The Finding does not establish an optimal programme.",
+      },
+    ],
+  };
+  const issues = [];
+  validateDietaryLeverAtoms(fixture, issues, { entityLabel: "PMX" });
+  assert.deepEqual(issues, []);
+
+  const disclosures = buildDietaryLeverDisclosureMap(fixture);
+  assert.equal(
+    disclosures.get(dietaryLeverBulletKey("Gentle steaming", "", "3.2"))
+      ?.evidenceReferences[0]?.number,
+    1,
+  );
+  assert.equal(
+    disclosures.get(dietaryLeverBulletKey("Regular physical activity", "", "3.3"))
+      ?.evidenceReferences[0]?.number,
+    1,
+  );
+
+  for (const field of [
+    "input",
+    "input_type",
+    "biological_role",
+    "evidence_source",
+    "evidence_limitation",
+  ]) {
+    const invalid = structuredClone(fixture);
+    delete invalid.system_optimisation_practices[0][field];
+    const invalidIssues = [];
+    validateDietaryLeverAtoms(invalid, invalidIssues, { entityLabel: `missing-${field}` });
+    assert.ok(invalidIssues.length > 0, `${field} must be required`);
+  }
 });
 
 test("input types permit evidence-supported dietary granularity without a new atom", () => {
@@ -160,7 +235,7 @@ test("BRS5 KC1 and PM1 expose independent five-atom constituent relationships", 
   }
 });
 
-test("PM9 lever atoms resolve four-field currency from PM evidence", () => {
+test("PM9 lever atoms resolve five-atom currency from PM evidence", () => {
   const { data } = readPm8();
   const issues = [];
   validateDietaryLeverAtoms(data, issues, { entityLabel: "BRS1-FM4-PM9" });
@@ -172,6 +247,7 @@ test("PM9 lever atoms resolve four-field currency from PM evidence", () => {
     assert.ok(atom.input_type);
     assert.ok(atom.biological_role);
     assert.ok(atom.evidence_source?.finding_ids?.length || atom.evidence_source?.citation_keys?.length);
+    assert.ok(atom.evidence_limitation);
     assert.ok(atom.reference_numbers.length, `${atom.input} should map to PM reference numbers`);
   }
   const glutamate = resolveLeverAtom(data, { atom_id: "PM9-DIT-1" });
@@ -199,6 +275,35 @@ test("multi-role reappearance preserves distinct atoms", () => {
     data.dietary_input_traceability.find((r) => r.input === "Vitamin B6").biological_role,
     data.dietary_input_traceability.find((r) => r.input.startsWith("Pyridoxal")).biological_role,
   );
+});
+
+test("dietary candidates require all five atoms, resolvable evidence, and a Direct derived target", () => {
+  const { data } = readPm8();
+
+  const missingLimitation = structuredClone(data);
+  delete missingLimitation.dietary_input_traceability[0].evidence_limitation;
+  const limitationIssues = [];
+  validateDietaryLeverAtoms(missingLimitation, limitationIssues, { entityLabel: "missing-limit" });
+  assert.ok(limitationIssues.some((issue) => issue.code === "dit_missing_limitation"));
+
+  const missingFinding = structuredClone(data);
+  missingFinding.dietary_input_traceability[0].evidence_source.finding_ids = [];
+  const findingIssues = [];
+  validateDietaryLeverAtoms(missingFinding, findingIssues, { entityLabel: "missing-finding" });
+  assert.ok(findingIssues.some((issue) => issue.code === "dit_missing_finding_source"));
+
+  const missingCitation = structuredClone(data);
+  missingCitation.dietary_input_traceability[0].evidence_source.citation_keys = [];
+  const citationIssues = [];
+  validateDietaryLeverAtoms(missingCitation, citationIssues, { entityLabel: "missing-citation" });
+  assert.ok(citationIssues.some((issue) => issue.code === "dit_missing_bibliography_source"));
+
+  const nonDirectTarget = structuredClone(data);
+  nonDirectTarget.dietary_lever_atoms.find((row) => row.atom_id === "PM9-DIT-2")
+    .requirement_classification = "derived";
+  const targetIssues = [];
+  validateDietaryLeverAtoms(nonDirectTarget, targetIssues, { entityLabel: "non-direct-target" });
+  assert.ok(targetIssues.some((issue) => issue.code === "dla_derived_target_not_direct"));
 });
 
 test("KC identity cannot create PM science without an independently adjudicated PM atom", () => {
@@ -405,6 +510,7 @@ test("requirement_classification is optional metadata and does not replace input
         input_type: "substrate",
         biological_role: "substrate for MAT-dependent SAMe synthesis",
         evidence_source: { pathway_resources: ["example"] },
+        evidence_limitation: "Example limitation",
       },
       {
         atom_id: "TEST-DIT-2",
@@ -412,6 +518,7 @@ test("requirement_classification is optional metadata and does not replace input
         input_type: "substrate provision",
         biological_role: "provides dietary methionine required as substrate for MAT",
         evidence_source: { pathway_resources: ["example"] },
+        evidence_limitation: "Example limitation",
       },
     ],
     dietary_lever_atoms: [
@@ -451,6 +558,7 @@ test("one atom renders relationship-specific qualifiers without Direct/Derived l
         input_type: "substrate",
         biological_role: "Substrate for MAT-dependent synthesis of SAMe",
         evidence_source: { pathway_resources: ["example"] },
+        evidence_limitation: "Example limitation",
       },
       {
         atom_id: "EX-DIT-2",
@@ -458,6 +566,7 @@ test("one atom renders relationship-specific qualifiers without Direct/Derived l
         input_type: "substrate provision",
         biological_role: "Provides dietary methionine required as substrate for MAT-dependent SAMe synthesis",
         evidence_source: { pathway_resources: ["example"] },
+        evidence_limitation: "Example limitation",
       },
     ],
     dietary_lever_atoms: [
@@ -546,6 +655,7 @@ test("safeguards keep Dietary Requirements independent of KC, substrate inventor
         input_type: "substrate",
         biological_role: "Biochemical substrate for MAT-dependent SAMe formation",
         evidence_source: { pathway_resources: ["example"] },
+        evidence_limitation: "Example limitation",
       },
     ],
     dietary_lever_atoms: [
@@ -571,6 +681,7 @@ test("safeguards keep Dietary Requirements independent of KC, substrate inventor
         input_type: "supporting input",
         biological_role: "unclear",
         evidence_source: { pathway_resources: ["example"] },
+        evidence_limitation: "Example limitation",
       },
     ],
   };
@@ -586,6 +697,7 @@ test("safeguards keep Dietary Requirements independent of KC, substrate inventor
         input_type: "substrate",
         biological_role: "Provides methionine",
         evidence_source: { pathway_resources: ["example"] },
+        evidence_limitation: "Example limitation",
       },
     ],
     dietary_lever_atoms: [

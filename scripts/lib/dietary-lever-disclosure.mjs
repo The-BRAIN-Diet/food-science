@@ -75,7 +75,7 @@ export function buildDietaryLeverDisclosureMap(data) {
     );
     const resolved = resolveLeverAtom(data, leverRow || { atom_id: pres.atom_id });
     if (!resolved) continue;
-    const limitation = leverRow?.evidence_limitation || "";
+    const limitation = resolved.evidence_limitation || leverRow?.evidence_limitation || "";
     const key = dietaryLeverBulletKey(
       pres.label || resolved.input,
       pres.foods,
@@ -95,6 +95,25 @@ export function buildDietaryLeverDisclosureMap(data) {
       ),
       presentationSection: String(pres.presentation_section || "").trim(),
     });
+  }
+
+  for (const [field, section] of [
+    ["system_optimisation_practices", "3.2"],
+    ["lifestyle_priorities", "3.3"],
+  ]) {
+    for (const row of data?.[field] || []) {
+      const label = String(row?.presentation_label || row?.input || "").trim();
+      if (!label) continue;
+      map.set(dietaryLeverBulletKey(label, "", section), {
+        title: String(row.input),
+        inputType: formatInputTypeLabel(row.input_type),
+        biologicalRole: String(row.biological_role || "").trim(),
+        evidenceLimitation: String(row.evidence_limitation || "").trim(),
+        evidenceReferences: evidenceSourceReferences(data, row.evidence_source),
+        compactQualifier: "",
+        presentationSection: section,
+      });
+    }
   }
 
   const traceById = new Map(
