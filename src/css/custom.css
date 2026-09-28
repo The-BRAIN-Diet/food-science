@@ -105,7 +105,6 @@
   display: block;
   margin: 0;
   width: 100%;
-  max-height: 4.25rem;
   overflow: hidden;
   border-radius: 4px;
   background: #000;
@@ -116,10 +115,7 @@
   display: block;
   width: 100%;
   height: auto;
-  max-height: 4.25rem;
   margin: 0;
-  object-fit: cover;
-  object-position: left top;
 }
 
 @media (max-width: 720px) {
@@ -1461,6 +1457,34 @@ html[class*="docs-doc-id-"][class*="food-composition-interpretation-register"] m
   margin-top: 0.75rem;
   margin-bottom: 1.5rem;
 }
+
+.substance-food-relationship {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.65rem;
+  align-items: baseline;
+  margin: 0.45rem 0 0;
+  font-size: 0.9rem;
+}
+
+.substance-food-relationship__label {
+  padding: 0.1rem 0.45rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 999px;
+  color: var(--ifm-color-emphasis-800);
+  font-weight: 600;
+}
+
+.substance-food-relationship__path,
+.substance-food-relationship__description {
+  color: var(--ifm-color-emphasis-700);
+}
+
+.substance-food-relationship__description {
+  margin: 0.3rem 0 0;
+  font-size: 0.88rem;
+}
+
 /* Food images in markdown body (not the DocItem hero — that uses .food-page-hero) */
 img[src*="/img/foods/"]:not(.food-page-hero) {
   max-height: 800px;
@@ -1589,6 +1613,166 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
   overflow-x: auto;
   max-width: 100%;
 }
+/* ── Dietary-origin ontology projection ────────────────────────────────── */
+
+.dietary-origin-projection {
+  margin: 1rem 0 1.5rem;
+}
+
+.dietary-origin-projection__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 0.9rem;
+}
+
+.dietary-origin-pathway {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0.85rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 0.55rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.dietary-origin-pathway__foods {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.dietary-origin-pathway__food-edge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dietary-origin-node {
+  display: block;
+  width: 100%;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--ifm-color-emphasis-400);
+  border-radius: 0.4rem;
+  text-align: center;
+  font-weight: 650;
+}
+
+.dietary-origin-node--food {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.dietary-origin-node--substrate {
+  border-color: var(--ifm-color-primary);
+  background: color-mix(in srgb, var(--ifm-color-primary) 10%, transparent);
+}
+
+.dietary-origin-node--target {
+  border-color: var(--ifm-color-success-dark);
+  background: color-mix(in srgb, var(--ifm-color-success) 12%, transparent);
+}
+
+.dietary-origin-edge {
+  display: block;
+  padding: 0.35rem 0.25rem;
+  color: var(--ifm-color-emphasis-700);
+  text-align: center;
+  font-size: 0.86rem;
+  font-weight: 600;
+  cursor: help;
+}
+
+.dietary-origin-pathway__evidence {
+  margin-top: 0.75rem;
+  font-size: 0.88rem;
+}
+
+.dietary-origin-pathway__evidence > summary {
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.dietary-origin-pathway__evidence dl {
+  display: grid;
+  grid-template-columns: minmax(7rem, max-content) 1fr;
+  gap: 0.35rem 0.65rem;
+  margin: 0.75rem 0;
+}
+
+.dietary-origin-pathway__evidence dt {
+  font-weight: 650;
+}
+
+.dietary-origin-pathway__evidence dd {
+  margin: 0;
+}
+
+.dietary-origin-pathway__evidence h4 {
+  margin: 0.8rem 0 0.35rem;
+  font-size: 0.92rem;
+}
+
+.dietary-origin-pathway__evidence ul {
+  margin-bottom: 0;
+  padding-left: 1.1rem;
+}
+
+@media (max-width: 600px) {
+  .dietary-origin-pathway__evidence dl {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+
+  .dietary-origin-pathway__evidence dd {
+    margin-bottom: 0.35rem;
+  }
+}
+
+/* ── Evidence presentations (Substance/Food reader layer) ──────────────── */
+
+.evidence-presentation {
+  margin: 1rem 0 1.25rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 4px solid var(--ifm-color-primary);
+  border-radius: 0.5rem;
+  background: var(--ifm-background-surface-color);
+}
+
+.evidence-presentation--check {
+  border-left-color: var(--ifm-color-warning-dark);
+}
+
+.evidence-presentation__meta {
+  margin: 0 0 0.35rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.88rem;
+}
+
+.evidence-presentation__title {
+  margin: 0 0 0.5rem;
+  font-size: 1.08rem;
+}
+
+.evidence-presentation__summary > :last-child,
+.evidence-presentation__body > :last-child {
+  margin-bottom: 0;
+}
+
+.evidence-presentation__details {
+  margin-top: 0.75rem;
+}
+
+.evidence-presentation__details > summary {
+  color: var(--ifm-color-primary);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.evidence-presentation__body {
+  margin-top: 0.65rem;
+}
+
 /* ── Canonical Scientific Finding (PM §4.1 / §5) ───────────────────────── */
 
 .brain-sf {
@@ -1672,7 +1856,8 @@ img[src*="/img/foods/"]:not(.food-page-hero) {
   color: var(--ifm-color-emphasis-700);
 }
 
-.brain-sf-data-level {
+.brain-sf-data-level,
+.brain-sf-exposure-context {
   color: var(--ifm-color-emphasis-700);
   font-size: 0.88rem;
 }

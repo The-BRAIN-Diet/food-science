@@ -57,21 +57,16 @@ nutrition_supplementary_sources:
 ---
 ## Overview
 
-Black tea is a low-energy drink whose distinctive polyphenols are **theaflavins** formed by leaf oxidation, with remaining **catechins**, usually at lower levels than green tea [1]. Unsweetened cups add flavour without much energy.
+Black tea is a low-energy drink whose distinctive polyphenols include **theaflavins** formed during oxidation, alongside remaining **catechins** [1]. Unsweetened cups add flavour without much energy.
 
-Within a BRAIN-aligned pattern it is a flavonoid beverage. Taken with meals it can reduce non-heme iron absorption.
+Within a BRAIN-aligned pattern it is a flavonoid beverage.
 
 ## Food Context
 
-### Synergies
-
-- Can reduce non-heme iron absorption if taken with meals
-
 ### Preparation
 
-- Space ≥1 hour from iron-rich meals or add lemon
-- Caffeine content varies with leaf and brew time
-- Adding 100 ml semi-skimmed milk to 600 ml black tea did not significantly change blood catechin levels versus black tea alone [3]
+- Brew strength and time affect the resulting drink.
+- Adding 100 ml semi-skimmed milk to 600 ml black tea did not significantly change blood catechin levels versus black tea alone in a small crossover study [2].
 
 ## Recipes
 
@@ -85,8 +80,6 @@ Within a BRAIN-aligned pattern it is a flavonoid beverage. Taken with meals it c
 
 ## References
 
-[1] Theaflavin/catechin-class polyphenols; oxidation level differs from green tea. Zelicha & Kloting 2022. [The effect of high-polyphenol Mediterranean diet on visceral adiposity: the DIRECT PLUS randomized controlled trial](/docs/papers/BRAIN-Diet-References#zelicha_effect_2022)
+[1] Li et al. (2013). [Black tea: chemical analysis and stability](/docs/papers/BRAIN-Diet-References#li_black_tea_2013). Black-tea-specific review describing the major theaflavins, their formation from catechins and the stability of these compounds.
 
-[2] High-polyphenol Mediterranean-style patterns associate with metabolic benefits in trials. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
-
-[3] Randomised crossover (n = 12): adding 100 ml semi-skimmed milk to 600 ml black tea did not significantly change blood catechin AUC versus black tea alone. van het Hof et al. 1998. [Bioavailability of catechins from tea: the effect of milk](/docs/papers/BRAIN-Diet-References#van_het_hof_catechins_milk_1998)
+[2] van het Hof et al. (1998). [Bioavailability of catechins from tea: the effect of milk](/docs/papers/BRAIN-Diet-References#van_het_hof_catechins_milk_1998). Randomised crossover in 12 adults: adding 100 ml semi-skimmed milk to 600 ml black tea did not significantly change blood catechin exposure versus black tea alone.

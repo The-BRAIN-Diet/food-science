@@ -61,14 +61,11 @@ nutrition_source:
 nutrition_supplementary_sources:
   - key: anthocyanins_mg
     label: Anthocyanins (total)
-    value: 150
-    unit: mg
-    notes: >-
-      Primary pigment class behind blueberry colour; wild/lowbush types can
-      exceed cultivated.
+    status: Present — quantity varies by cultivar
+    amount_display: Present — quantity varies by cultivar
     source_note: >-
-      Order-of-magnitude for highbush blueberries per 100 g fruit; ripeness and
-      cultivar strongly shift anthocyanin totals.
+      Highbush blueberry analyses identify multiple anthocyanin glycosides, with
+      totals varying substantially by cultivar (Lee et al. 2016).
   - key: cyanidin_qual
     label: Cyanidin
     status: Present — quantity not established
@@ -122,21 +119,15 @@ legacy_main_image: /img/foods/blueberries/blueberries_medium.webp
 ---
 ## Overview
 
-Blueberries provide **anthocyanins**—chiefly cyanidin, delphinidin, malvidin, peonidin and petunidin glycosides—together with **quercetin**, **vitamin C** and fibre [1]. Human blueberry studies have examined cognitive performance with age [1].
+Blueberries provide **anthocyanins** built from cyanidin, delphinidin, malvidin, peonidin and petunidin glycosides, together with **vitamin C** and fibre [1]. Human blueberry studies have examined cognitive performance with age [2].
 
 Within a BRAIN-aligned pattern they are an everyday berry, not a stand-alone intervention. Fresh or frozen whole fruit keeps fibre that juice does not.
 
 ## Food Context
 
-### Synergies
-
-- Pair with regular aerobic exercise as part of a BDNF-supporting lifestyle pattern; exercise itself upregulates BDNF through defined molecular pathways [3].
-- Combine with omega-3-rich foods (fatty fish, walnuts) within mixed meals; omega-3 fatty acids have meta-analytic evidence for effects on BDNF [6].
-- Include as one component of diverse plant-food intake rather than relying on a single berry source; phenolic bioactives from varied plant foods can shape gut microbiota responses [8].
-
 ### Preparation
 
-- Prefer fresh or frozen whole berries to limit polyphenol losses from prolonged heat processing and to retain fibre relative to juice-only patterns.
+- Prefer whole berries when retaining the fruit's fibre is the aim.
 
 ## Recipes
 
@@ -150,18 +141,6 @@ Within a BRAIN-aligned pattern they are an everyday berry, not a stand-alone int
 
 ## References
 
-[1] Systematic review evidence links blueberry interventions to cognitive performance outcomes in aging, with proposed neurotrophin and vascular mechanisms. Hein & Whyte 2019. [Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age](/docs/papers/BRAIN-Diet-References#hein_systematic_2019)
+[1] Lee et al. (2016). [Compositions and Contents Anthocyanins in Blueberry (Vaccinium corymbosum L.) Varieties](/docs/papers/BRAIN-Diet-References#lee_blueberry_anthocyanins_2016). HPLC–MS analysis identified glycosides of cyanidin, delphinidin, malvidin, peonidin and petunidin in highbush blueberries, with marked cultivar variation.
 
-[2] Flavonoid-class human trials report serum BDNF changes correlated with cognitive benefits. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
-
-[3] Which induces hippocampal BDNF through exercise-linked metabolites such as β-hydroxybutyrate. Sleiman & Henry 2016. [Exercise promotes the expression of brain derived neurotrophic factor (BDNF) through the action of the ketone body β-hydroxybutyrate](/docs/papers/BRAIN-Diet-References#sleiman_exercise_2016)
-
-[4] Rodent work shows quercetin can increase mitochondrial biogenesis in brain and muscle and improve exercise tolerance—mechanistic context for nutrition–exercise coupling, though not a direct blueberry-and-BDNF human trial. Davis & Murphy 2009. [Quercetin increases brain and muscle mitochondrial biogenesis and exercise tolerance](/docs/papers/BRAIN-Diet-References#davis_quercetin_2009)
-
-[5] Health effects of quercetin: From antioxidant to nutraceutical. Boots et al. 2008. [Health effects of quercetin: From antioxidant to nutraceutical](/docs/papers/BRAIN-Diet-References#boots_health_2008)
-
-[6] —and with omega-3-rich dietary patterns that can also modulate neurotrophin biology. Ziaei & Mohammadi 2024. [A systematic review and meta-analysis of the omega-3 fatty acids effects on brain-derived neurotrophic factor (BDNF)](/docs/papers/BRAIN-Diet-References#ziaei_systematic_2024)
-
-[7] The Antioxidants and Pro-Antioxidants Network: An Overview. Vertuani et al. 2004. [The Antioxidants and Pro-Antioxidants Network: An Overview](/docs/papers/BRAIN-Diet-References#vertuani_antioxidants_2004)
-
-[8] And food-derived phenolics can influence gut microbiota composition and metabolite profiles. Yeo et al. 2023. [Influence of food-derived bioactives on gut microbiota compositions and their metabolites by focusing on neurotransmitters](/docs/papers/BRAIN-Diet-References#yeo_influence_2023)
+[2] Hein et al. (2019). [Systematic Review of the Effects of Blueberry on Cognitive Performance as We Age](/docs/papers/BRAIN-Diet-References#hein_systematic_2019). Systematic review of blueberry interventions and cognitive performance in aging; findings varied by study design and outcome.

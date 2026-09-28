@@ -52,13 +52,28 @@ nutrition_source:
   retrieval_method: SR Legacy bulk (April 2018)
   basis: per 100 g edible portion
   last_checked: '2026-08-15'
+nutrition_supplementary_sources:
+  - key: resistant_starch_qual
+    label: Resistant starch
+    status: Present — quantity depends on ripeness and cultivar
+    amount_display: Present — quantity depends on ripeness and cultivar
+    source_note: >-
+      Direct analyses of Cavendish and plantain bananas found resistant starch
+      declined during ripening (Gao et al. 2016).
+  - key: polyphenol_oxidase_qual
+    label: Polyphenol oxidase (PPO)
+    status: Present — activity depends on fruit and handling
+    amount_display: Present — activity depends on fruit and handling
+    source_note: >-
+      A controlled banana-smoothie study identified banana PPO activity as the
+      relevant preparation property (Ottaviani et al. 2023).
 main_image: /img/foods/bananas/bananas_medium.webp
 legacy_list_image: /img/foods/bananas/bananas_thumb.webp
 legacy_main_image: /img/foods/bananas/bananas_medium.webp
 ---
 ## Overview
 
-Bananas provide **vitamin B6** and **potassium**, but ripeness is their most useful nutritional distinction. Greener bananas retain more fermentable **resistant starch**; as the fruit ripens, much of this starch is converted into sugars, producing a softer and sweeter fruit.
+Bananas provide **vitamin B6** and **potassium**, but ripeness is their most useful nutritional distinction. Greener bananas retain more fermentable **resistant starch**; resistant starch declines as the fruit ripens and sugars accumulate [2].
 
 Bananas also have relatively high **polyphenol oxidase (PPO)** activity. In blended drinks, this can substantially reduce the availability of flavan-3-ols from ingredients such as cocoa or certain berries. Where preserving these compounds is the priority, choose a lower-PPO fruit instead [1].
 
@@ -85,7 +100,7 @@ Bananas also have relatively high **polyphenol oxidase (PPO)** activity. In blen
 
 Bananas are relatively **high in polyphenol oxidase (PPO)**. In a controlled crossover study, a flavan-3-ol-containing **banana-based smoothie** produced peak plasma flavan-3-ol metabolite concentrations about **84% lower** than capsule control, whereas a **low-PPO mixed-berry smoothie** did not [1]. Co-ingesting flavan-3-ols with a high-PPO banana drink **without prior blender contact** still reduced plasma levels, suggesting post-ingestion PPO activity (for example in the stomach) can degrade polyphenols after swallowing [1].
 
-**Practical implication:** combining banana with other **high-PPO fruits or vegetables** in freshly blended smoothies may **greatly reduce uptake** of flavan-3-ols and likely other dietary polyphenol bioactives. PPO activity varies widely across fruits, vegetables, and plant products [1]. For polyphenol-focused intake (berries, cocoa, tea extracts, and similar), consider low-PPO smoothie bases, separate timing, or minimal pre-intake mixing/contact with high-PPO ingredients.
+**Practical implication:** when a smoothie is intended to deliver flavan-3-ols, use a low-PPO base rather than banana. The study did not establish the same effect for every polyphenol class or every way of eating banana [1].
 
 ## Recipes
 
@@ -99,4 +114,6 @@ Bananas are relatively **high in polyphenol oxidase (PPO)**. In a controlled cro
 
 ## References
 
-[1] PPO activity varies widely across fruits, vegetables, and plant products. Ottaviani & Ensunsa 2023. [Impact of polyphenol oxidase on the bioavailability of flavan-3-ols in fruit smoothies: a controlled, single blinded, cross-over study](/docs/papers/BRAIN-Diet-References#ottaviani_polyphenol_oxidase_flavan_2023)
+[1] Ottaviani et al. (2023). [Impact of polyphenol oxidase on the bioavailability of flavan-3-ols in fruit smoothies: a controlled, single blinded, cross-over study](/docs/papers/BRAIN-Diet-References#ottaviani_polyphenol_oxidase_flavan_2023). In a controlled crossover study, a banana-based high-PPO smoothie substantially reduced flavan-3-ol bioavailability relative to capsule control; the result is specific to the tested smoothie and flavan-3-ols.
+
+[2] Gao et al. (2016). [Analysis of resistant starch degradation in postharvest ripening of two banana cultivars: Focus on starch structure and amylases](/docs/papers/BRAIN-Diet-References#gao_banana_resistant_starch_2016). Resistant starch, non-resistant starch and total starch declined during ripening in the Cavendish and plantain cultivars tested.

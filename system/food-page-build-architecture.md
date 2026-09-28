@@ -15,7 +15,7 @@ Factual trace of how a food page is built from source to rendered output, using 
 **Beef.md body (conceptually):**
 
 - `## Overview` + one paragraph → **handwritten** (or edited by a human).
-- `### Essential Amino Acid Profile` + one paragraph → **inserted by script** `repair-food-pages.mjs` (batch repair) when the page met the EAA rule and was missing the section; template chosen by slug category (beef → animal).
+- `### Essential Amino Acid Profile` + researched food-specific prose → **handwritten when applicable**. Earlier repair passes inserted template text; current repair no longer authors EAA prose because applicability and content require editorial verification.
 - `<NutritionTable details={frontMatter} />` → **inserted by one-time script** `scripts/add-nutrition-table-block.js` (before the repair run, so beef already had it; repair does not add/remove this).
 - `## Recipes` + `<FoodRecipes tag="Beef" />` → **handwritten** (heading + component usage).
 - `## Substances` + `<FoodSubstancesFromTable details={frontMatter} />` → **handwritten** (heading); component choice was later switched from `FoodSubstances` to `FoodSubstancesFromTable` by **repair-food-pages.mjs** when the page had `nutrition_per_100g` populated.
@@ -56,7 +56,7 @@ These influence **how** content is written or repaired; they do not generate the
 |--------|------------------|------|
 | **Overview** | Markdown body: `## Overview` + concise paragraphs. Rendered as MDX. Editorial responsibilities: `system/food-page-schema.md`. | Handwritten in the page. |
 | **Other Nutritional Highlights** | Markdown body: `## Other Nutritional Highlights` when residual interpretation has no better home. Optional. Canonical heading, residual-section rules, and public/internal prose split: `system/food-page-schema.md`. Existing pages may still use the superseded `Key Nutritional Highlights` heading. | Handwritten in the page. |
-| **Essential Amino Acid Profile** | Markdown body: `### Essential Amino Acid Profile` + paragraph. For beef this text was **inserted by** `repair-food-pages.mjs` (animal template). | Inserted by script (repair); content is template + slug category. |
+| **Essential Amino Acid Profile** | Markdown body: `### Essential Amino Acid Profile` + researched food-specific prose, only when the food is a meaningful protein/EAA source in normal use. Per-100 g protein is a review trigger, not an automatic gate. | Handwritten after editorial verification; historical template text may remain pending review. |
 | **Nutritional Table (per 100 g)** | Body contains `<NutritionTable details={frontMatter} />`. **Component:** `src/components/NutritionTable.tsx`. Reads `nutrition_per_100g`, `nutrition_source`, `nutrition_supplementary_sources`, optional `nutrition_functional_metrics`; splits the panel into **Core nutrients**, **Key vitamins and minerals** (composition + ≥15% adult RI; tags are not a whitelist), collapsed **Advanced Nutrition** (other quantitative micros; not a fourth `<h3>`), **Bioactive compounds** (publicly admitted individual fatty acids such as linoleic / ALA / EPA / DHA from `nutrition_per_100g` + supplementary rows, including qualitative `Present — quantity not established`), and optional **Functional metrics**; uses `src/data/nutritionTableMapping.ts` for keys and labels; renders provenance and supplementary source notes. If no nutrition data, returns `null`. | Rendered by component from front matter; block placement in body by one-time script (and/or handwritten). |
 | **Recipes** | Body: `## Recipes` + `<FoodRecipes tag="Beef" />`. **Component:** `src/theme/FoodRecipes/index.tsx`. Uses plugin data `category-listing`; finds docs tagged with the given tag (e.g. "Beef"); renders list. | Handwritten heading + component; component renders from tag index. |
 | **Substances** | Body: `## Substances` + `<FoodSubstancesFromTable details={frontMatter} />`. **Component:** `src/theme/FoodSubstancesFromTable/index.tsx`. Shows ontology cards only for compounds that already have a standard or extended table row; editorial tags without a row are omitted. Resolves labels via `nutritionTableMapping.ts` aliases. Cards are not BRS mappings. | Rendered by component from front matter (table-backed); heading + component usage in body handwritten (or repair swapped component name). |
@@ -75,8 +75,8 @@ So: **Overview, Other Nutritional Highlights (optional), Food Context, Reference
 | **fetch-usda-nutrition.mjs** | `nutrition:fetch` | **No** | Writes/updates **payload JSON** in `scripts/out/<slug>.json` only. With API key: USDA fetch → payload. Without: payload from existing front matter. Does not touch `docs/foods/*.md`. |
 | **enrich-nutrition-from-overview.mjs** | `nutrition:enrich` | **No** | Reads page + payload; may add `nutrition_supplementary_sources` to **payload**; writes payload only. Does not touch front matter or body. |
 | **update-food-page-frontmatter.mjs** | `nutrition:apply` | **Yes** | **Front matter only.** Reads payload, merges `NUTRITION_KEYS` (nutrition_per_100g, nutrition_source, nutrition_supplementary_sources, nutrition_functional_metrics, protein_profile_note, amino_acid_strengths, limiting_amino_acids, complementary_pairings) into the page’s front matter; **preserves body and all other front matter**. Does not insert/remove sections or change tags by name. |
-| **repair-food-pages.mjs** | `nutrition:repair` | **Yes** | **Body + front matter.** (1) **Tags:** Removes downstream-metabolite tags (e.g. SCFAs, Butyrate) from front matter. (2) **Body:** If EAA required and missing, inserts `### Essential Amino Acid Profile` + template text before `<NutritionTable` or `## Recipes`, and merges in EAA-related front matter (e.g. protein_profile_note for animal). (3) **Body:** Replaces `<FoodSubstances details={frontMatter} />` with `<FoodSubstancesFromTable details={frontMatter} />` when page has nutrition data. Does not run fetch/enrich/apply. |
-| **validate-food-pages.mjs** | `nutrition:validate` | **No** | Read-only. Runs checks (EAA required when protein ≥5 g/100 g or slug in protein-source list; no downstream metabolite tags; food–substance truth-level reconciliation); exits 1 if failures. Does not change any file. |
+| **repair-food-pages.mjs** | `nutrition:repair` | **Yes** | **Body + front matter.** (1) **Tags:** Removes downstream-metabolite tags (e.g. SCFAs, Butyrate) from front matter. (2) **EAA:** Reports missing applicable sections but does not author generic template prose. (3) **Body:** Replaces `<FoodSubstances details={frontMatter} />` with `<FoodSubstancesFromTable details={frontMatter} />` when page has nutrition data. Does not run fetch/enrich/apply. |
+| **validate-food-pages.mjs** | `nutrition:validate` | **No** | Read-only. Runs checks (EAA on verified protein-source pages, explicit `eaa_profile_applicable` adjudications, no downstream-metabolite tags, and food–substance truth-level reconciliation); exits 1 if failures. Does not change any file. |
 
 **One-time / ad hoc:**
 
@@ -86,9 +86,9 @@ So: **Overview, Other Nutritional Highlights (optional), Food Context, Reference
 
 - **Front matter (nutrition keys):** Set/updated only by **nutrition:apply** (Script C) from payload.
 - **Payload:** Built by **nutrition:fetch** (Script A) and **nutrition:enrich** (Script B); scripts do not write .md.
-- **Body (section insertion, component swap):** Modified by **nutrition:repair** (and historically by add-nutrition-table-block.js).
+- **Body (component swap):** Modified by **nutrition:repair**; EAA insertion is historical and is no longer automatic.
 - **Tags:** Modified by **nutrition:repair** (removal of downstream metabolite tags only).
-- **Section order:** Not defined by any script; order is whatever is in the .md body (and repair only inserts EAA in one place).
+- **Section order:** Not defined by any script; order is whatever is in the .md body.
 
 ---
 
@@ -113,13 +113,13 @@ So: **one layout for all docs**; food pages are just MDX docs that use these com
 
 ## 5. Rules / specs (exact files)
 
-- **system/food-page-model.md** – Canonical **Three Sources of Truth** (Overview, Database nutrition table, Substances list); separate **Intrinsic / Mechanism / Strategy** content-boundary model; required EAA section; missing-compound rule; directional reconciliation. Referenced by repair and validation logic.
-- **docs/foods/.cursor/rules/Foods-Pages.mdc** – Cursor rule for `docs/foods/*.md`: tagging (Food + food name; only intrinsic compounds with table rows; no downstream metabolites), three page layers, required EAA section, page structure (order, components), validation/repair commands. Defines section order and component usage.
+- **system/food-page-model.md** – Canonical **Three Sources of Truth** (Overview, Database nutrition table, Substances list); separate **Intrinsic / Mechanism / Strategy** content-boundary model; verified EAA applicability; missing-compound rule; directional reconciliation. Referenced by repair and validation logic.
+- **docs/foods/.cursor/rules/Foods-Pages.mdc** – Cursor rule for `docs/foods/*.md`: tagging (Food + food name; only intrinsic compounds with table rows; no downstream metabolites), three page layers, verified EAA applicability, page structure (order, components), validation/repair commands. Defines section order and component usage.
 - **system/food-nutrition-schema.md** – Nutrition field schema, **composition and provenance classes** (not the Three Sources of Truth), rendering groups, qualitative status, richest-panel USDA fetch.
-- **scripts/lib/food-page-validation.mjs** – Implements validation rules (EAA required when protein ≥5 g or slug in list; no downstream metabolite tags); used by `validate-food-pages.mjs` and `repair-food-pages.mjs`.
+- **scripts/lib/food-page-validation.mjs** – Implements validation rules (curated protein-source role plus explicit `eaa_profile_applicable` override; per-100 g protein is not sufficient by itself; no downstream metabolite tags); used by `validate-food-pages.mjs` and `repair-food-pages.mjs`.
 - **scripts/lib/food-truth-reconciliation.mjs** – Build-time directional reconciliation: every Substances card must resolve to a supported table row; quantitative rows need value/unit/source; qualitative rows need status and food-specific source; Overview headlines without rows are flagged. Not every table row requires a card.
 - **scripts/lib/usda-nutrient-extract.mjs** – Shared USDA mapping and richest-panel scoring so abbreviated Foundation/branded records cannot drop BRAIN-relevant nutrients.
-- **scripts/repair-food-pages.mjs** – Encodes EAA templates by slug category (animal/grain/legume/nut_seed/soy/other_plant), insert position (before `<NutritionTable` or `## Recipes`), and tag removal set; no separate “section order” config—order comes from the body.
+- **scripts/repair-food-pages.mjs** – Reports missing applicable EAA sections without publishing filler, and applies mechanical tag/component repairs; no separate “section order” config—order comes from the body.
 
 These files define **writing** and **structure** rules and **automatic repairs**; they do not render the page. Section order in practice is defined by the order of headings and components in the .md body and by the Foods-Pages.mdc “Page structure” list.
 
@@ -132,7 +132,7 @@ As implemented in the body of a standard food page (e.g. beef.md) and as specifi
 1. **Overview** (`## Overview` + prose)
 2. **Other Nutritional Highlights** (`## Other Nutritional Highlights` when present; optional residual section — `system/food-page-schema.md`)
 3. **Food Context** (`## Food Context` + optional `### Sourcing`, `### Synergies`, `### Preparation`; framework/practical context)
-4. **Essential Amino Acid Profile** (`### Essential Amino Acid Profile` + prose; required when protein ≥5 g/100 g or commonly protein source—enforced by repair)
+4. **Essential Amino Acid Profile** (`### Essential Amino Acid Profile` + prose; only when verified as meaningful in normal dietary use; omitted otherwise)
 5. **Nutrition (per 100 g)** (`<NutritionTable details={frontMatter} />`)
 6. **Substances** (`## Substances` + `<FoodSubstancesFromTable details={frontMatter} />` or `<FoodSubstances ... />`)
 7. **Recipes** (`## Recipes` + `<FoodRecipes tag="..." />`)
@@ -147,7 +147,7 @@ This order is **not** generated by a single template; it is the order of heading
 
 - **From markdown body (literal text/headings):**
   - `## Overview` and the one paragraph under it (creatine, CoQ10, heme iron, DIAAS, dopamine, etc.).
-  - `### Essential Amino Acid Profile` and the one sentence (“This food provides a complete…”)—this block was **inserted by repair-food-pages.mjs** using the animal template.
+  - `### Essential Amino Acid Profile` and its prose. The current content must be editorially verified; repair no longer inserts or refreshes it automatically.
   - `## Substances`, `## Recipes`, `## Biological Target Matrix`, `## References` and all bullet text under Food Context and References.
   - The exact tags `<NutritionTable details={frontMatter} />`, `<FoodRecipes tag="Beef" />`, `<FoodSubstancesFromTable details={frontMatter} />`, `<FoodMatrix tag="Beef" />` (FoodSubstancesFromTable was set by repair because beef has nutrition_per_100g).
 

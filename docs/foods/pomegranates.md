@@ -15,6 +15,15 @@ tags:
   - Delphinidin
   - Pelargonidin
 list_image: /img/foods/pomegranates/pomegranates_thumb.webp
+substance_relationships:
+  - substance: Urolithin A
+    relationship: dietary-precursor
+    input: Ellagitannins / ellagic acid
+    process: Microbial conversion
+    description: Pomegranate supplies ellagitannin precursors; microbiome-dependent conversion may produce Urolithin A. The fruit is not represented as containing Urolithin A.
+    citation_keys:
+      - zelicha_effect_2022
+      - singh_direct_2022
 nutrition_per_100g:
   vitamin_e_mg: 0.6
   choline_mg: 7.6

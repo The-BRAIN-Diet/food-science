@@ -9,7 +9,6 @@ tags:
   - Vegan
   - Vegetarian
   - Polyphenol
-  - Cyanidin
 list_image: /img/foods/black-goji/black-goji_thumb.webp
 composition_status: withdrawn
 composition_withdrawn:
@@ -33,18 +32,10 @@ nutrition_supplementary_sources:
     source_note: >-
       Black goji (Lycium ruthenicum) is characterised by dense anthocyanin
       pigmentation. A comparable quantity is not established here.
-  - key: cyanidin_qual
-    label: Cyanidin
-    status: Present — quantity not established
-    amount_display: Present — quantity not established
-    source_note: >-
-      Black goji (Lycium ruthenicum) is characterised by anthocyanin pigments
-      with a cyanidin glycoside backbone. A comparable quantity is not
-      established here.
 ---
 ## Overview
 
-Black goji (*Lycium ruthenicum*) is a small berry used in tiny portions for its dense **anthocyanin** pigments, including **cyanidin** glycosides, rather than as a staple calorie source [1].
+Black goji (*Lycium ruthenicum*) is a small berry characterised by dense **anthocyanins**. Analyses of fruit from multiple Chinese regions found a shared anthocyanin pattern but substantial variation in individual and total concentrations [1].
 
 Within a BRAIN-aligned pattern it is one berry among others. It does not replace everyday fruit.
 
@@ -70,4 +61,4 @@ Within a BRAIN-aligned pattern it is one berry among others. It does not replace
 
 ## References
 
-[1] High-flavonoid dietary patterns, including berries, have been studied for cognitive endpoints. Neshatdoust & Saunders 2016. [High-flavonoid intake induces cognitive improvements linked to changes in serum brain-derived neurotrophic factor: Two randomised, controlled trials](/docs/papers/BRAIN-Diet-References#neshatdoust_high-flavonoid_2016)
+[1] Wang et al. (2018). [Comparison and multivariate statistical analysis of anthocyanin composition in Lycium ruthenicum Murray from different regions to trace geographical origins: The case of China](/docs/papers/BRAIN-Diet-References#wang_lycium_anthocyanins_2018). HPLC analysis of 45 *L. ruthenicum* samples found a consistent anthocyanin pattern with region-dependent concentrations.

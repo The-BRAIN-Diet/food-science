@@ -9,18 +9,31 @@ import matter from "gray-matter"
 import { isExplainedReferenceLine, loadBibIndex } from "./bib-citation-format.mjs"
 import { scanFoodCitationIntegrity, collectIdenticalHighlightWarnings } from "./food-citation-integrity.mjs"
 
+/** Screening threshold only; normal dietary protein role determines applicability. */
 export const PROTEIN_THRESHOLD_G = 5
 export const FOODS_DIR_DEFAULT = "docs/foods"
 export const SKIP_SLUGS = new Set(["index", "shopping-list"])
 
 export const PROTEIN_SOURCE_SLUGS = new Set([
-  "oats", "barley", "quinoa", "lentils", "chickpeas", "black-beans", "kidney-beans",
-  "tofu", "tempeh", "edamame", "soy", "peas", "peanuts", "almonds", "pumpkin-seeds",
-  "chia-seeds", "flax-seeds", "sunflower-seeds", "whey-protein", "nutritional-yeast",
+  "anchovies", "beef", "chicken", "pork", "lamb", "turkey", "dark-meat-poultry",
+  "eggs", "egg-yolks", "salmon", "tuna", "cod", "mackerel", "herring", "sardines",
+  "shrimp", "crab", "scallops", "clams", "mussels", "oysters", "cockles",
+  "salmon-roe", "trout-roe", "lumpfish-roe", "liver", "kidney", "heart",
+  "milk", "cheddar-cheese", "parmesan-cheese", "greek-yogurt", "whey-protein",
+  "oats", "barley", "quinoa", "amaranth", "buckwheat", "rice", "wheat", "spelt",
+  "whole-grains", "wheat-germ", "sourdough-bread",
+  "lentils", "chickpeas", "black-beans", "kidney-beans", "lupin-beans", "lupins",
+  "mucuna-beans", "tofu", "tempeh", "edamame", "soy", "natto", "miso", "peas",
+  "peanuts", "almonds", "cashews", "walnuts", "pistachios", "pumpkin-seeds",
+  "chia-seeds", "flax-seeds", "sunflower-seeds", "sesame-seeds", "tahini",
+  "chlorella", "spirulina", "nutritional-yeast",
 ])
 
 /** Spices/herbs: USDA protein per 100 g is not meaningful for typical pinches. */
-export const EAA_EXCLUDE_SLUGS = new Set(["saffron", "black-pepper", "cinnamon"])
+export const EAA_EXCLUDE_SLUGS = new Set([
+  "saffron", "black-pepper", "cinnamon",
+  "cacao-nibs-raw", "cacao-powder", "cocoa", "dark-chocolate",
+])
 
 export const DOWNSTREAM_METABOLITE_TAGS = new Set([
   "SCFAs", "Butyrate", "Propionate", "Acetate", "Short-chain fatty acids",
@@ -69,10 +82,10 @@ export function getFoodSlugs(foodsDir) {
     .sort()
 }
 
-export function requiresEaaSection(slug, nutrition) {
+export function requiresEaaSection(slug, nutrition, frontMatter = {}) {
+  if (frontMatter?.eaa_profile_applicable === true) return true
+  if (frontMatter?.eaa_profile_applicable === false) return false
   if (EAA_EXCLUDE_SLUGS.has(slug)) return false
-  const protein = nutrition?.protein_g
-  if (typeof protein === "number" && protein >= PROTEIN_THRESHOLD_G) return true
   return PROTEIN_SOURCE_SLUGS.has(slug)
 }
 
@@ -237,8 +250,12 @@ export function runCanonicalValidation(foodsDir = FOODS_DIR_DEFAULT, slugFilter 
       issues.push(refIssue)
     }
 
-    if (requiresEaaSection(slug, fm.nutrition_per_100g || {}) && !hasEaaSection(content)) {
+    const eaaRequired = requiresEaaSection(slug, fm.nutrition_per_100g || {}, fm)
+    if (eaaRequired && !hasEaaSection(content)) {
       issues.push("Missing ### Essential Amino Acid Profile (required for this food)")
+    }
+    if (fm.eaa_profile_applicable === false && hasEaaSection(content)) {
+      issues.push("Essential Amino Acid Profile is present despite eaa_profile_applicable: false")
     }
 
     if (issues.length) {
@@ -256,6 +273,7 @@ export function runValidation(foodsDir = FOODS_DIR_DEFAULT) {
   const dirAbs = path.resolve(process.cwd(), foodsDir)
   const slugs = getFoodSlugs(foodsDir)
   const missingEaa = []
+  const inapplicableEaa = []
   const downstreamInTags = []
 
   for (const slug of slugs) {
@@ -266,14 +284,18 @@ export function runValidation(foodsDir = FOODS_DIR_DEFAULT) {
     const nutrition = fm.nutrition_per_100g || {}
     const tags = fm.tags || []
 
-    if (requiresEaaSection(slug, nutrition) && !hasEaaSection(content)) {
+    const eaaRequired = requiresEaaSection(slug, nutrition, fm)
+    if (eaaRequired && !hasEaaSection(content)) {
       missingEaa.push({ slug, protein_g: nutrition.protein_g })
+    }
+    if (fm.eaa_profile_applicable === false && hasEaaSection(content)) {
+      inapplicableEaa.push({ slug, protein_g: nutrition.protein_g })
     }
     const bad = hasDownstreamMetaboliteTags(tags)
     if (bad.length) downstreamInTags.push({ slug, tags: bad })
   }
 
-  return { missingEaa, downstreamInTags }
+  return { missingEaa, inapplicableEaa, downstreamInTags }
 }
 
 /**

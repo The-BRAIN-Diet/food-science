@@ -91,49 +91,44 @@ nutrition_supplementary_sources:
     unit: mg
     notes: Mitochondrial ubiquinone; cut and cooking method alter measured content.
     source_note: >
-      Approximate CoQ10 content per 100 g beef muscle derived from studies
-      measuring ubiquinone/ubiquinol in beef cuts (~2–3 mg/100 g raw muscle,
-      with partial retention after cooking; see Crane 2001 and subsequent beef
-      CoQ10 compositional analyses).
+      Representative value within the measured range for beef muscle reported
+      by Mattila & Kumpulainen (2001); cut strongly affects the result.
   - key: coq10_qual
     label: CoQ10
-    status: Present — quantity not established
-    amount_display: Present — quantity not established
+    status: Present — quantity varies by cut
+    amount_display: Present — quantity varies by cut
     source_note: >-
-      Food-composition surveys report coenzyme Q10 in beef (e.g. Mattila &
-      Kumpulainen 2001).
+      HPLC food-composition analysis measured CoQ10 in beef muscle and organs
+      (Mattila & Kumpulainen 2001).
 main_image: /img/foods/beef/beef_medium.webp
 legacy_list_image: /img/foods/beef/beef_thumb.webp
 legacy_main_image: /img/foods/beef/beef_medium.webp
 ---
 ## Overview
 
-Beef is a nutrient-dense red meat providing **creatine**, **CoQ10**, **vitamin B12**, **zinc** and highly bioavailable **heme iron** [1–3]. Its iron is generally absorbed more readily than non-heme iron from plant foods, making beef a useful contributor where iron status is a dietary priority [3].
+Beef is a red meat providing **creatine**, **CoQ10**, **vitamin B12**, **zinc** and iron. Direct food-composition analysis confirms that CoQ10 content varies by tissue and cut [3]. The table describes the composition of the representative cut.
 
-Within a BRAIN-aligned pattern, beef can be used selectively for this combination of nutrients, within the overall balance of plant and animal foods [5,6].
+Within a BRAIN-aligned pattern, beef can be used selectively within the overall balance of plant and animal foods.
 
 ## Food Context
 
 ### Sourcing
 
-- Prefer **minimally processed cuts of beef** over processed meat products such as cured or smoked meats [5].
-- **Grass-fed beef** may provide modestly higher omega-3 fatty acids and antioxidant compounds than grain-fed beef, although both remain rich sources of protein, iron, and zinc [7].
-- **Organ meats** such as liver and heart contain substantially higher concentrations of some micronutrients and CoQ10 than standard muscle cuts [2].
+- Prefer **minimally processed cuts of beef** over processed meat products such as cured or smoked meats.
+- **Grass-fed beef** may provide modestly higher omega-3 fatty acids and some antioxidant compounds than grain-fed beef, although the magnitude varies [1].
 
 ### Synergies
 
-- Pair beef with **vitamin C–rich foods** such as peppers, citrus, or leafy greens to support iron absorption from mixed meals [3].
-- Combine cooked beef with **polyphenol-rich herbs and spices** such as rosemary, thyme, oregano, or garlic, which may help reduce oxidative products generated during cooking [8].
-- Serve beef alongside **fibrous plant foods** such as legumes, greens, or whole grains to improve dietary balance and increase phytochemical diversity across the meal [6].
+- Combine ground beef with suitable herb or plant extracts where flavour permits; direct cooked-beef experiments show that some extracts can reduce lipid oxidation, but results are formulation-specific [2].
+- Serve beef alongside **fibrous plant foods** such as legumes, greens, or whole grains to increase meal variety.
 
 ### Preparation
 
-- Prefer **moderate-temperature cooking methods** such as braising, stewing, or sous-vide, which can reduce formation of heat-related compounds compared with intense charring [8].
-- Avoid frequent **high-temperature charring or heavy browning**, which increases formation of heterocyclic amines and advanced glycation end products during cooking [8,9].
+- Cook to a safe internal temperature and avoid unnecessary burning or heavy charring.
 
 ### Essential Amino Acid Profile
 
-Beef provides a complete essential amino acid profile with high digestibility and bioavailability [4].
+Beef provides the essential amino acids expected from an animal muscle protein.
 
 ## Recipes
 
@@ -147,26 +142,8 @@ Beef provides a complete essential amino acid profile with high digestibility an
 
 ## References
 
-[1] Avgerinos et al. (2018). [Effects of creatine supplementation on cognitive function of healthy individuals: A systematic review of randomized controlled trials](/docs/papers/BRAIN-Diet-References#avgerinos_creatine_2018). Creatine-supplementation trials; constituent-level creatine context, not a beef feeding trial.
+[1] Daley et al. (2010). [A review of nutritional differences between grass-fed and grain-fed beef](/docs/papers/BRAIN-Diet-References#daley_grassfed_2010). Review of measured compositional differences between grass-fed and grain-fed beef.
 
-[2] Crane et al. (2001). [Biochemical functions of coenzyme Q10](/docs/papers/BRAIN-Diet-References#crane_coq10_2001). Mechanistic CoQ10 biochemistry; not a beef feeding trial.
+[2] Ahn et al. (2007). [Effects of plant extracts on lipid oxidation and colour of cooked ground beef](/docs/papers/BRAIN-Diet-References#ahn_plant_extracts_beef_2007). Direct cooked-ground-beef experiment; effects depended on the plant extract and formulation tested.
 
-[3] Beard et al. (2003). [Iron Deficiency Alters Brain Development and Functioning](/docs/papers/BRAIN-Diet-References#beard_iron_2003). Iron-deficiency and brain function; constituent-level iron context, not a beef feeding trial.
-
-[4] FAO (2013). [Dietary Protein Quality Evaluation in Human Nutrition: Report of an FAO Expert Consultation](/docs/papers/BRAIN-Diet-References#fao_diaas_2013). Protein-quality methodology (DIAAS); not beef-specific feeding evidence.
-
-[5] Bouvard et al. (2015). [Carcinogenicity of consumption of red and processed meat](/docs/papers/BRAIN-Diet-References#bouvard_meat_2015). Food-group evidence on red and processed meat; not a trial of this specific cut.
-
-[6] Willett et al. (2019). [Food in the Anthropocene: the EAT--Lancet Commission on healthy diets from sustainable food systems](/docs/papers/BRAIN-Diet-References#willett_eatlancet_2019). Dietary-pattern evidence; not a beef feeding trial.
-
-[7] Daley et al. (2010). [A review of nutritional differences between grass-fed and grain-fed beef](/docs/papers/BRAIN-Diet-References#daley_grassfed_2010). **Grass-fed beef** may provide modestly higher omega-3 fatty acids and antioxidant compounds than grain-fed beef, although both remain rich sources of protein, iron, and zinc.
-
-[8] Uribarri et al. (2010). [Advanced glycation end products in foods and a practical guide to their reduction in the diet](/docs/papers/BRAIN-Diet-References#uribarri_age_2010). Combine cooked beef with **polyphenol-rich herbs and spices** such as rosemary, thyme, oregano, or garlic, which may help reduce oxidative products generated during cooking.
-
-[9] Cross et al. (2007). [A prospective study of red and processed meat intake in relation to cancer risk](/docs/papers/BRAIN-Diet-References#cross_hca_2010)
-
-[10] Satija et al. (2017). [Healthful and unhealthful plant-based diets and the risk of coronary heart disease in US adults](/docs/papers/BRAIN-Diet-References#satija_plantforward_2016)
-
-[11] Norton & Layman (2006). [Leucine regulates translation initiation of protein synthesis in skeletal muscle after exercise](/docs/papers/BRAIN-Diet-References#norton_leucine_2006)
-
-[12] Fernstrom et al. (2013). [Large neutral amino acids: dietary effects on brain neurochemistry and function](/docs/papers/BRAIN-Diet-References#fernstrom_lnna_2013)
+[3] Mattila & Kumpulainen (2001). [Coenzymes Q9 and Q10: Contents in Foods and Dietary Intake](/docs/papers/BRAIN-Diet-References#mattila_coq_foods_2001). HPLC food-composition analysis measured CoQ10 in beef and other foods; beef values varied by tissue and cut.

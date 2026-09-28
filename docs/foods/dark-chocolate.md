@@ -3,6 +3,7 @@ id: dark-chocolate
 title: Dark Chocolate
 sidebar_label: Dark Chocolate
 description: Cocoa flavanols for cognitive support; heavy metal considerations
+eaa_profile_applicable: false
 tags:
   - Food
   - Dark Chocolate
@@ -103,37 +104,16 @@ legacy_main_image: /img/foods/dark-chocolate/dark-chocolate_medium.webp
 ---
 ## Overview
 
-Dark chocolate (typically >=70% cocoa) is a concentrated source of cocoa polyphenols, particularly flavanols, including epicatechin, catechin, and oligomeric procyanidins. These compounds have been studied for roles in vascular and neurocognitive function, with mechanistic evidence highlighting endothelial nitric oxide pathways as a key component of vascular regulation.
+Dark chocolate (typically >=70% cocoa) is a concentrated source of cocoa polyphenols, particularly flavanols, including epicatechin, catechin, and oligomeric procyanidins. Human and mechanistic studies have examined flavonoid-related cognitive and vascular endpoints [1,2].
 
-Within the BRAIN Diet framework, dark chocolate is best positioned as a functional ingredient rather than a daily staple. Polyphenol content varies widely with cocoa percentage and processing, so practical use focuses on product selection, portion control, and overall dietary context.
-
-## Key Nutritional Highlights
-
-- Concentrated cocoa flavanols, with evidence linking high flavonoid intake to cognitive improvements [1].
-- Mechanistic endpoints in vascular biology implicate endothelial nitric-oxide related pathways as part of flavonoid-associated vascular regulation [2].
-- Fibre and iron support micronutrient density per 100 g ingredient (fibre ~10.5 g; iron ~7.9 mg).
-- Heavy-metal variability across products means sourcing and cocoa % selection matter for regular intake [3].
+Within the BRAIN Diet framework, dark chocolate is best positioned as a functional ingredient rather than a daily staple. Polyphenol and heavy-metal content vary among products and origins, making product selection more informative than generic cocoa-percentage rules alone [3,4].
 
 ## Food Context
 
-### Synergies
-
-- Pair with calcium- and zinc-containing foods as part of a broader dietary strategy that may help reduce cadmium uptake/burden over time [5].
-
 ### Sourcing
 
-- Choose 70%+ cocoa for higher flavanol content
-- Consider higher-milk/lower-cocoa formulations to reduce heavy metal absorption
-- Select low-Cd/Pb origins with strong post-harvest controls
+- Prefer products with credible batch or brand testing for cadmium and lead; cocoa percentage alone does not establish contaminant content [3].
 - Cacao from many Latin American origins (e.g. Peru/Ecuador, parts of Central/South America) tends to show higher cadmium concentrations than West African origins (e.g. Ghana/Ivory Coast), and this pattern is mainly geogenic (soil geology background) rather than a simple marker of farm quality [4].
-
-### Preparation
-
-- Store in a cool, dry place and protect from heat/light to help preserve cocoa flavanol quality over time
-
-### Essential Amino Acid Profile
-
-Dark chocolate is not used as a primary protein food, so essential amino-acid contribution is not a practical reason to include it. Its relevance in this framework is polyphenol content and mineral density rather than protein quality.
 
 ## Recipes
 
@@ -154,5 +134,3 @@ Dark chocolate is not used as a primary protein food, so essential amino-acid co
 [3] Heavy-metal variability across products means sourcing and cocoa % selection matter for regular intake. Hands & Anderson 2024. [Multi-year heavy metal analysis of 72 dark chocolate and cocoa products in the USA](/docs/papers/BRAIN-Diet-References#hands_multi-year_2024)
 
 [4] Cacao from many Latin American origins (e.g. Peru/Ecuador, parts of Central/South America) tends to show higher cadmium concentrations than West African origins (e.g. Ghana/Ivory Coast), and this pattern is mainly geogenic (soil geology background) rather than a simple marker of farm quality. Godebo & Stoner 2024. [Occurrence of heavy metals in chocolates and health risk assessment (origin and geogenic context)](/docs/papers/BRAIN-Diet-References#godebo_occurrence_2024)
-
-[5] Pair with calcium- and zinc-containing foods as part of a broader dietary strategy that may help reduce cadmium uptake/burden over time. Zhai & Narbad 2015. [Dietary strategies for cadmium and lead toxicity, including roles of essential minerals (e.g. calcium and zinc)](/docs/papers/BRAIN-Diet-References#zhai_dietary_2015)

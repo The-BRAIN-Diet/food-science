@@ -75,7 +75,7 @@ Canonical structure (`system/food-page-schema.md`):
 - Other Nutritional Highlights is optional; no minimum bullet count. Existing pages may still use the superseded `Key Nutritional Highlights` heading until rewritten.
 - Required components (`<FoodRecipes />`, `<NutritionTable />`, `<FoodSubstancesFromTable />`)
 - **References display:** bibliographic core is `[n] Author(s) (Year). [title](#citationKey)`; food pages may append a concise food-specific finding. Do not replace that core.
-- Essential Amino Acid Profile when protein ≥ 5 g/100 g
+- Essential Amino Acid Profile only when verified as meaningful in normal dietary use; ≥5 g protein/100 g is a review trigger, not automatic inclusion
 
 Editorial records (`system/food-page-letter-audit-schema.md`) are a **separate** letter-audit output:
 

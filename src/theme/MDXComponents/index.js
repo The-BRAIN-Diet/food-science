@@ -18,6 +18,7 @@ import TherapeuticAreaMatrix from '../TherapeuticAreaMatrix';
 import TherapeuticAreaFoodSpreadsheet from '../TherapeuticAreaFoodSpreadsheet';
 import SubstanceRecipes from '../SubstanceRecipes';
 import SubstanceFoods from '../SubstanceFoods';
+import DietaryOriginProjection from '../DietaryOriginProjection';
 import FoodRecipes from '../FoodRecipes';
 import FoodShoppingList from '../FoodShoppingList';
 import NutritionTable from '../../components/NutritionTable';
@@ -27,6 +28,7 @@ import PhenomeBibLinks from '../../components/PhenomeBibLinks';
 import PhenomeScoringKey from '../../components/PhenomeScoringKey';
 import ScientificFinding from '../../components/ScientificFinding';
 import EvidenceConfidenceIndicator from '../../components/EvidenceConfidenceIndicator';
+import EvidencePresentation from '../../components/EvidencePresentation';
 import PhenomeRegistry from '../PhenomeRegistry';
 import PhenomeDetail from '../PhenomeRegistry/PhenomeDetail';
 import FrameworkReviewRegister from '../../components/ReviewCorrections/PublicRegister';
@@ -57,12 +59,14 @@ export default {
   TherapeuticAreaFoodSpreadsheet,
   SubstanceRecipes,
   SubstanceFoods,
+  DietaryOriginProjection,
   FoodRecipes,
   FoodShoppingList,
   PhenomeBibLinks,
   PhenomeScoringKey,
   ScientificFinding,
   EvidenceConfidenceIndicator,
+  EvidencePresentation,
   PhenomeRegistry,
   PhenomeDetail,
   FrameworkReviewRegister,

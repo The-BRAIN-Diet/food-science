@@ -7,7 +7,7 @@
  * - Adds fallback references only from the reviewed mapping in
  *   scripts/data/food-canonical-refs*.mjs — never from titles or abstracts.
  * - Does not invent Highlights or attach inline citations from reference lists.
- * - Adds Essential Amino Acid Profile blocks where required.
+ * - Leaves Essential Amino Acid Profile authorship to food-specific editorial research.
  * - Removes orphan/corrupt lines before ## References.
  *
  * Usage:
@@ -21,8 +21,6 @@ import matter from "gray-matter"
 import { slugsForLetters } from "./lib/food-page-letter-schedule.mjs"
 import {
   runCanonicalValidation,
-  requiresEaaSection,
-  hasEaaSection,
   FOODS_DIR_DEFAULT,
 } from "./lib/food-page-validation.mjs"
 import { FOOD_CANONICAL_FALLBACK_REFS } from "./data/food-canonical-refs.mjs"
@@ -36,15 +34,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const BIB_KEY_RE = /\/docs\/papers\/BRAIN-Diet-References#([a-z0-9_-]+)/gi
 const BIB_LINK_RE = /\[([^\]]+)\]\(\/docs\/papers\/BRAIN-Diet-References#([a-z0-9_-]+)\)/gi
 const PLACEHOLDER_REF_RE = /^these references link to the brain diet bibliography/i
-const ANIMAL_SLUGS = new Set([
-  "beef", "chicken", "pork", "lamb", "turkey", "cod", "crab", "clams", "cockles",
-  "salmon", "tuna", "mackerel", "shrimp", "mussels", "oysters",
-  "eggs", "egg-yolks", "liver", "heart", "kidney",
-  "parmesan-cheese", "cheddar-cheese", "milk", "greek-yogurt", "yogurt",
-  "butter", "grass-fed-butter", "ghee",
-])
-const COCOA_SLUGS = new Set(["cacao-nibs-raw", "cacao-powder", "cocoa", "dark-chocolate"])
-
 function parseArgs(argv) {
   const lettersArg = argv.find((a) => a.startsWith("--letters="))?.split("=")[1]
     ?? (argv.includes("--letters") ? argv[argv.indexOf("--letters") + 1] : null)
@@ -106,37 +95,6 @@ function refsWithText(bibRefs, slug) {
   })
 }
 
-function getEaaBlock(slug, title) {
-  if (COCOA_SLUGS.has(slug)) {
-    return `### Essential Amino Acid Profile
-
-${title} is not used as a primary protein food in this framework; typical servings are too small for essential amino-acid contribution to be the main reason to include it. Relevance here is polyphenol content and mineral density rather than protein quality.`
-  }
-  if (ANIMAL_SLUGS.has(slug)) {
-    return `### Essential Amino Acid Profile
-
-This food provides a complete essential amino acid profile typical of animal proteins.`
-  }
-  const name = title || "This food"
-  return `### Essential Amino Acid Profile
-
-${name} contributes plant protein. Pair with complementary protein sources (e.g. grains and legumes) for a balanced essential amino acid profile.`
-}
-
-function findEaaInsertIndex(content) {
-  const prep = content.search(/\n### Preparation\s*$/m)
-  if (prep !== -1) {
-    const after = content.indexOf("\n", prep + 1)
-    const nextH3 = content.slice(after).search(/\n### /)
-    if (nextH3 !== -1) return after + nextH3
-  }
-  const recipes = content.indexOf("\n\n## Recipes")
-  if (recipes !== -1) return recipes
-  const table = content.indexOf("\n\n<NutritionTable")
-  if (table !== -1) return table
-  return -1
-}
-
 function stripOrphanBeforeReferences(content) {
   const refsIdx = content.search(/^##\s+References\s*$/m)
   if (refsIdx === -1) return content
@@ -186,17 +144,6 @@ function migratePage(slug, foodsDir, bibIndex) {
     }
   }
 
-  if (requiresEaaSection(slug, fm.nutrition_per_100g || {}) && !hasEaaSection(content)) {
-    const eaaBlock = getEaaBlock(slug, title)
-    const insertIdx = findEaaInsertIndex(content)
-    if (insertIdx !== -1) {
-      content = `${content.slice(0, insertIdx)}\n\n${eaaBlock}\n${content.slice(insertIdx)}`
-    }
-  }
-
-  if (COCOA_SLUGS.has(slug) && !fm.complementary_pairings) {
-    fm.complementary_pairings = "Grains and legumes for balanced essential amino acid profile."
-  }
   const initialContentNormalized = initialContent.trimEnd() + "\n"
 
   return {

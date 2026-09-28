@@ -2,7 +2,7 @@
 id: bell-peppers
 title: Bell Peppers
 sidebar_label: Bell Peppers
-description: High vitamin C for iron absorption and norepinephrine support
+description: Vitamin C-rich peppers providing carotenoid pigments
 tags:
   - Food
   - Bell Peppers
@@ -59,7 +59,7 @@ legacy_main_image: /img/foods/bell-peppers/bell-peppers_medium.webp
 ---
 ## Overview
 
-Bell peppers provide **vitamin C**, carotenoids (including capsanthin and related pigments), and low energy density. Colour (red, yellow, orange) tracks the carotenoid mix. A little dietary fat with the meal improves carotenoid absorption [2].
+Bell peppers provide **vitamin C**, carotenoids and low energy density. Colour (red, yellow, orange) tracks the carotenoid mix. A little dietary fat with the meal can improve carotenoid absorption in mixed salads [1].
 
 Within a BRAIN-aligned pattern they are a vitamin C–rich vegetable for mixed meals, contributing carotenoid diversity and supporting non-heme iron absorption.
 
@@ -68,7 +68,7 @@ Within a BRAIN-aligned pattern they are a vitamin C–rich vegetable for mixed m
 ### Synergies
 
 - Pair with iron-rich plant meals to enhance absorption
-- Include a little dietary fat with carotenoid-rich peppers to improve absorption [2].
+- Include a little dietary fat with carotenoid-rich peppers; this is mixed-salad evidence, not a bell-pepper-specific trial [1].
 
 ### Preparation
 
@@ -86,6 +86,4 @@ Within a BRAIN-aligned pattern they are a vitamin C–rich vegetable for mixed m
 
 ## References
 
-[1] Labelled generic context: lutein and zeaxanthin in visual and cognitive function, not a bell-pepper iron-pairing trial. Johnson et al. 2014. [Role of lutein and zeaxanthin in visual and cognitive function throughout the lifespan](/docs/papers/BRAIN-Diet-References#johnson_role_2014)
-
-[2] Carotenoid pigments with improved bioavailability when paired with dietary fat. Brown & Ferruzzi 2004. [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004)
+[1] Brown et al. (2004). [Carotenoid bioavailability is higher from salads ingested with full-fat than with fat-reduced salad dressings as measured with electrochemical detection](/docs/papers/BRAIN-Diet-References#brown_carotenoid_2004). Mixed-salad meal evidence for dietary fat increasing carotenoid bioavailability; not a bell-pepper-specific trial.

@@ -307,6 +307,7 @@ const config: Config = {
   "plugins": [
     localInternalDocsPlugin,
     './src/plugin/category-listing',
+    './src/plugin/ontology-projection',
     [
       './src/plugin/bibtex-loader',
       {

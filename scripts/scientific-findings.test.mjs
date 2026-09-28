@@ -187,6 +187,20 @@ test("PM8 Scientific Findings satisfy the canonical model", () => {
   );
 });
 
+test("Scientific Finding evidence relationships preserve non-empty exposure context", () => {
+  const { data } = readPm8();
+  const fixture = structuredClone(data);
+  const evidence = fixture.scientific_findings[0].evidence_considered[0];
+
+  evidence.exposure_context = "";
+  const invalid = validateScientificFindings(fixture, [], { entityLabel: "FIXTURE" });
+  assert.ok(invalid.some((issue) => issue.code === "evidence_exposure_context"));
+
+  evidence.exposure_context = "combination-formulation";
+  const valid = validateScientificFindings(fixture, [], { entityLabel: "FIXTURE" });
+  assert.equal(valid.some((issue) => issue.code === "evidence_exposure_context"), false);
+});
+
 test("Synthesised Evidence Confidence remains unscored", () => {
   const { data } = readPm8();
   for (const finding of data.scientific_findings) {

@@ -7,6 +7,17 @@ const DOCS_DIR = path.join(ROOT, "docs")
 const SUBSTANCES_DIR = path.join(DOCS_DIR, "substances")
 const BIO_TARGETS_DIR = path.join(DOCS_DIR, "biological-targets")
 
+const LEGACY_BRS_LABELS = new Set([
+  "Neurochemical Balance",
+  "Inflammation",
+  "Oxidative Stress",
+  "Methylation",
+  "Mitochondrial Support",
+  "Gut Microbiome",
+  "Insulin Response",
+  "Stress Response",
+])
+
 function listMarkdownFilesRecursive(dir) {
   const out = []
   const entries = fs.readdirSync(dir, { withFileTypes: true })
@@ -108,10 +119,9 @@ function main() {
     const missingTags = brsMechanisms.filter((k) => !tags.has(k))
     const extraMechanisms = brsMechanisms.filter((k) => !brsTags.includes(k))
 
-    // Also catch legacy/incorrect mechanism keys that look like BRS labels
-    const legacyMechanismKeys = [...mechanismKeys].filter((k) =>
-      /&/.test(k) || /oxidative stress/i.test(k) && k !== "Oxidative Stress"
-    )
+    // Catch only the retired short labels. Current canonical hub names contain
+    // ampersands and must not be classified as legacy.
+    const legacyMechanismKeys = [...mechanismKeys].filter((k) => LEGACY_BRS_LABELS.has(k))
 
     const any = []
     if (missingMechanisms.length) {

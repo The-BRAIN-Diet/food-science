@@ -78,7 +78,7 @@ nutrition_supplementary_sources:
 ---
 ## Overview
 
-Broccoli is a cruciferous vegetable providing **sulforaphane** precursors (glucoraphanin), **folate**, and **vitamin C** at low energy density [1]. Light cooking or chewing-dependent myrosinase activity affects sulforaphane yield.
+Broccoli is a cruciferous vegetable providing **sulforaphane** precursors (glucoraphanin), **folate**, and **vitamin C** at low energy density. Myrosinase-dependent conversion of glucoraphanin affects sulforaphane formation [1].
 
 Within a BRAIN-aligned pattern, broccoli contributes folate, vitamin C and crucifer phytonutrients as an ordinary vegetable, not as a sulforaphane supplement.
 
@@ -86,7 +86,7 @@ Within a BRAIN-aligned pattern, broccoli contributes folate, vitamin C and cruci
 
 ### Synergies
 
-- Include a little dietary fat with broccoli to improve absorption of carotenoids and vitamin K.
+- Include broccoli with a varied meal rather than treating it as a sulforaphane dose.
 
 ### Preparation
 
@@ -105,6 +105,4 @@ Within a BRAIN-aligned pattern, broccoli contributes folate, vitamin C and cruci
 
 ## References
 
-[1] Sulfur-containing vegetable supporting glutathione precursor intake. Houghton & Fassett 2016. [Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016)
-
-[2] Folate and vitamin C at low energy density (~34 kcal per 100 g raw). Kennedy et al. 2016. [B Vitamins and the Brain: Mechanisms, Dose and Efficacy—A Review](/docs/papers/BRAIN-Diet-References#kennedy_b_2016)
+[1] Houghton et al. (2016). [Sulforaphane and Other Nutrigenomic Nrf2 Activators: Can the Clinician’s Expectation Be Matched by the Reality?](/docs/papers/BRAIN-Diet-References#houghton_sulforaphane_2016). Constituent-level review of broccoli-derived sulforaphane and glucoraphanin–myrosinase conversion; not a broccoli feeding trial.
