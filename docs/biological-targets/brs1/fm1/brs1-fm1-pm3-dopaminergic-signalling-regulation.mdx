@@ -84,6 +84,57 @@ dietary_lever_presentations:
   - atom_id: PM3-DIT-3
     label: Vitamin B6 — candidate pending Dietary Levers review
     presentation_section: 3.1.1
+system_optimisation_practices:
+  - atom_id: PM3-SOP-1
+    input: Pair non-haem iron-containing meals with an ascorbic-acid source
+    presentation_label: Pair non-haem iron-containing meals with an ascorbic-acid source
+    input_type: food preparation/delivery practice
+    biological_role: 'Ascorbic acid can counter meal-level phytate and polyphenol inhibition of non-haem iron absorption, supporting delivery of iron for the tyrosine-hydroxylase cofactor pool.'
+    evidence_source:
+      finding_ids:
+        - PM3-F8
+      citation_keys:
+        - siegenberg_ascorbic_1991
+    evidence_limitation: 'The controlled meal study measured iron absorption, not iron status, brain dopamine synthesis, release, signalling or a functional outcome; it does not authorise a dose or a dopamine-enhancement claim.'
+    claim_ceiling: dietary-provision
+  - atom_id: PM3-SOP-2
+    input: Use validated dephytinisation for high-phytate cereal matrices
+    presentation_label: Use validated dephytinisation for high-phytate cereal matrices
+    input_type: food preparation/delivery practice
+    biological_role: 'Phytase treatment can reduce phytate inhibition and increase meal-level non-haem iron absorption from some cereal matrices, supporting delivery of iron for the tyrosine-hydroxylase cofactor pool.'
+    evidence_source:
+      finding_ids:
+        - PM3-F8
+      citation_keys:
+        - hurrell_phytic_2003
+        - chondrou_phytic_2024
+    evidence_limitation: 'Effects were matrix-dependent, did not consistently extend to long-term iron status, and did not measure brain dopamine; this does not establish one universal preparation method, dose or clinical benefit.'
+    claim_ceiling: dietary-provision
+lifestyle_priorities:
+  - atom_id: PM3-LP-1
+    input: Acute voluntary cardiovascular exercise
+    presentation_label: Acute voluntary cardiovascular exercise
+    input_type: lifestyle practice
+    biological_role: 'In a small human PET experiment, voluntary mild-to-moderate cycling elicited dorsal-striatal dopamine release that correlated with faster Go/No-Go reaction time.'
+    evidence_source:
+      finding_ids:
+        - PM3-F9
+      citation_keys:
+        - ando_dopamine_exercise_2024
+    evidence_limitation: 'This was an acute experiment in a small healthy sample; correlation does not establish dopamine mediation, a chronic programme, an optimal exercise prescription, ADHD benefit or that more dopamine is better.'
+    claim_ceiling: acute-human-mechanistic
+  - atom_id: PM3-LP-2
+    input: Avoid acute total sleep deprivation
+    presentation_label: Avoid acute total sleep deprivation
+    input_type: lifestyle practice
+    biological_role: One night of total sleep deprivation reduced ventral-striatal D2/D3 receptor availability in healthy adults and was associated with lower alertness and greater sleepiness.
+    evidence_source:
+      finding_ids:
+        - PM3-F10
+      citation_keys:
+        - volkow_sleep_deprivation_2012
+    evidence_limitation: 'The study tested acute total sleep deprivation in a small healthy sample; it does not establish effects of ordinary sleep variation, sleep regularity interventions, chronic outcomes or clinical benefit.'
+    claim_ceiling: acute-human-mechanistic
 candidate_cross_brs_relationships:
   - target_brs: BRS2
     relationship_scope: One-carbon metabolism and SAM-dependent COMT activity
@@ -371,6 +422,99 @@ scientific_findings:
           evidence_summary: Does not support sustained L-tyrosine treatment efficacy and provides no evidence of dopamine target engagement.
           limitations: 'Open label, n=12, older diagnostic framework, no dopamine measurement, and tolerance confounds interpretation.'
     presentation: mechanistic-basis
+  - id: PM3-F8
+    finding_label: Meal preparation can change delivery of provisional dopamine cofactors
+    finding_summary: Human absorption studies show that ascorbic-acid pairing and phytate degradation can increase non-haem iron absorption from selected meals. This supports iron-delivery practices only; neither study measured brain dopamine.
+    finding_interpretation: 'Preparation and pairing can optimise delivery of the provisional iron candidate without showing that the practice increases dopamine synthesis, signalling or cognition.'
+    finding_statement: 'Ascorbic-acid pairing and validated phytate degradation can increase meal-level non-haem iron absorption in matrix-dependent human studies, but no direct dopamine effect has been demonstrated.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A controlled meal study found that ascorbic acid countered dose-dependent phytate and polyphenol inhibition of non-haem iron absorption. A separate human radioiron study found that complete phytate degradation increased iron absorption from several water-prepared cereal porridges, with smaller or absent effects in some matrices. A later review of 42 human interventions found that most dephytinisation and phytase studies improved short-term iron or zinc bioavailability while identifying limited long-term evidence.'
+    synthesis_limitations: 'These studies measured gastrointestinal mineral absorption or bioavailability, not human brain iron delivery, dopamine synthesis, dopamine release or functional benefit. Results depend on meal matrix and baseline status, and no dopamine-specific dose or preparation prescription is established.'
+    evidence_considered:
+      - label: Siegenberg et al. (1991)
+        citation_key: siegenberg_ascorbic_1991
+        href: /docs/papers/BRAIN-Diet-References#siegenberg_ascorbic_1991
+        data_level: Human Mechanistic
+        exposure_context: ascorbic acid added to phytate- or tannin-containing test meals
+        evidence_source: bounded-external-search
+        directional_finding: Ascorbic acid prevented dose-dependent inhibition of non-haem iron absorption by phytate and polyphenols under the tested meal conditions.
+        assessment:
+          study: Controlled human test-meal iron-absorption study.
+          population: 199 adult participants across the meal experiments.
+          result: Iron absorption fell as phytate or tannic acid increased; ascorbic acid countered this inhibition in a context- and dose-dependent manner.
+          effect_magnitude: Thirty milligrams of ascorbic acid overcame inhibition from the tested maize-bran phytate exposure; higher tannic-acid exposure required more ascorbic acid under the experimental conditions.
+          evidence_summary: Supports same-meal ascorbic-acid pairing as an iron-delivery practice.
+          limitations: 'Test-meal absorption rather than long-term iron status; no brain, dopamine or functional endpoint.'
+      - label: Hurrell et al. (2003)
+        citation_key: hurrell_phytic_2003
+        href: /docs/papers/BRAIN-Diet-References#hurrell_phytic_2003
+        data_level: Human Mechanistic
+        exposure_context: phytase-dephytinised cereal porridges
+        evidence_source: bounded-external-search
+        directional_finding: 'Complete phytate degradation increased iron absorption from several water-prepared cereal porridges, but effects varied by matrix and were reduced or absent with milk and high-tannin sorghum.'
+        assessment:
+          study: Controlled human radioiron-absorption experiments across nine cereal porridges.
+          population: 78 adults distributed across the test-meal comparisons.
+          result: 'Dephytinisation increased absorption from rice, oat, maize, wheat and wheat-soy porridges prepared with water, with matrix-specific exceptions.'
+          effect_magnitude: 'For example, wheat-porridge absorption rose from 0.99% to 11.54%; effects ranged from absent to approximately twelve-fold across matrices.'
+          evidence_summary: Supports validated phytate reduction as a matrix-dependent iron-delivery practice.
+          limitations: 'Short-term absorption experiments in adults; infant-style test matrices, no long-term status outcome and no brain or dopamine endpoint.'
+    connected_supportive_evidence:
+      - label: Chondrou et al. (2024)
+        citation_key: chondrou_phytic_2024
+        href: /docs/papers/BRAIN-Diet-References#chondrou_phytic_2024
+        data_level: Human Mechanistic
+        why_relevant: Narrative review of 42 human interventions found that most dephytinisation and phytase studies improved iron or zinc bioavailability.
+        why_excluded: Review-level support with heterogeneous matrices and limited long-term status evidence; it adds no dopamine endpoint.
+    presentation: mechanistic-basis
+  - id: PM3-F9
+    finding_label: Acute voluntary exercise releases dorsal-striatal dopamine
+    finding_summary: 'In healthy adults, voluntary mild-to-moderate cycling elicited endogenous dopamine release in dorsal striatum, and the PET signal correlated with faster Go/No-Go reaction time. Peripheral muscle stimulation without voluntary central command did not reproduce the behavioural effect.'
+    finding_interpretation: 'This supports an acute state-dependent exercise relationship, not a chronic exercise prescription, clinical treatment claim or global “more dopamine” model.'
+    finding_statement: 'Acute voluntary cardiovascular exercise can elicit dorsal-striatal dopamine release in healthy adults, with the measured release associated with faster reaction time.'
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'A human PET experiment measured endogenous dopamine release during mild-to-moderate cycling and related it to Go/No-Go performance. Additional electrical-muscle-stimulation experiments suggested that voluntary central command, rather than peripheral movement alone, was important for the reaction-time effect.'
+    synthesis_limitations: 'The PET experiment was acute and small, and the dopamine-performance association was correlational. It does not establish mediation, chronic adaptation, optimal exercise dosing, ADHD benefit or clinical efficacy.'
+    evidence_considered:
+      - label: Ando et al. (2024)
+        citation_key: ando_dopamine_exercise_2024
+        href: /docs/papers/BRAIN-Diet-References#ando_dopamine_exercise_2024
+        data_level: Human Mechanistic
+        exposure_context: acute voluntary mild-to-moderate cardiovascular exercise
+        evidence_source: bounded-external-search
+        directional_finding: 'Voluntary cycling elicited endogenous dopamine release in caudate and putamen, and greater release was associated with faster Go/No-Go reaction time.'
+        assessment:
+          study: Human PET exercise experiment with two additional electrical-muscle-stimulation experiments.
+          population: Sixteen healthy adults in the PET experiment; 18 and 22 healthy adults in the supporting stimulation experiments.
+          result: Dorsal-striatal dopamine release occurred during voluntary exercise and correlated with reaction-time improvement; peripheral stimulation alone did not produce the same behavioural effect.
+          effect_magnitude: Study-specific PET and reaction-time associations; no clinical effect estimate.
+          evidence_summary: Provides direct acute human mechanistic evidence for an exercise–dopamine relationship.
+          limitations: 'Small healthy samples, acute exposure, correlational mediation evidence and no chronic, clinical or dietary comparison.'
+    presentation: mechanistic-basis
+  - id: PM3-F10
+    finding_label: Acute sleep deprivation downregulates ventral-striatal D2/D3 availability
+    finding_summary: 'In healthy adults, one night of total sleep deprivation reduced ventral-striatal D2/D3 receptor availability and was associated with lower alertness and greater sleepiness. The methylphenidate comparison supported receptor downregulation rather than increased dopamine release.'
+    finding_interpretation: This identifies an acute sleep-state constraint on receptor signalling; it is not evidence that ordinary sleep extension increases dopamine or improves a clinical condition.
+    finding_statement: One night of total sleep deprivation reduces ventral-striatal D2/D3 receptor availability in healthy adults and is associated with reduced alertness.
+    synthesised_evidence_confidence: not-yet-scored
+    synthesis: 'Within-person PET scans after rested sleep and one night of total sleep deprivation showed lower ventral-striatal D2/D3 receptor availability during deprivation. Methylphenidate-induced dopamine increases did not differ by sleep state, supporting receptor downregulation rather than a deprivation-induced rise in dopamine release.'
+    synthesis_limitations: 'The experiment was acute, involved a small healthy sample and used receptor availability as an imaging construct. It does not establish effects of normal sleep variation, a sleep intervention, chronic outcomes or clinical benefit.'
+    evidence_considered:
+      - label: Volkow et al. (2012)
+        citation_key: volkow_sleep_deprivation_2012
+        href: /docs/papers/BRAIN-Diet-References#volkow_sleep_deprivation_2012
+        data_level: Human Mechanistic
+        exposure_context: one night of total sleep deprivation versus rested sleep
+        evidence_source: bounded-external-search
+        directional_finding: 'Sleep deprivation reduced ventral-striatal D2/D3 receptor availability, associated with lower alertness and greater sleepiness, without increasing the methylphenidate-evoked dopamine response.'
+        assessment:
+          study: 'Within-person [11C]raclopride PET study after rested sleep and total sleep deprivation, each under placebo and methylphenidate conditions.'
+          population: Twenty healthy adults.
+          result: Ventral-striatal receptor availability decreased after deprivation and tracked reduced alertness; pharmacological comparison supported receptor downregulation.
+          effect_magnitude: Region-specific PET change and behavioural associations; no general clinical effect estimate.
+          evidence_summary: Provides direct human evidence that acute sleep state constrains a specific dopamine-receptor measure.
+          limitations: 'Small healthy sample, one night of total deprivation, pharmacological probe and no chronic or clinical outcome.'
+    presentation: mechanistic-basis
 references:
   - '[Fanet et al. (2021) — Tetrahydrobiopterin and Monoamine Synthesis](/docs/papers/BRAIN-Diet-References#fanet_tetrahydrobioterin_2021)'
   - '[Beard et al. (2003) — Iron and Dopamine Biology](/docs/papers/BRAIN-Diet-References#beard_iron_2003)'
@@ -383,6 +527,11 @@ references:
   - '[MacDonald et al. (2024) — Evaluation of the Dopamine Hypothesis for ADHD](/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024)'
   - '[Fusar-Poli et al. (2012) — Striatal Dopamine Transporter Alterations in ADHD](/docs/papers/BRAIN-Diet-References#fusar-poli_striatal_2012)'
   - '[Reimherr & Ward (1987) — Open Trial of L-Tyrosine in Attention Deficit Disorder](/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987)'
+  - '[Siegenberg et al. (1991) — Ascorbic Acid and Non-Haem Iron Absorption](/docs/papers/BRAIN-Diet-References#siegenberg_ascorbic_1991)'
+  - '[Hurrell et al. (2003) — Phytate Degradation and Cereal Iron Absorption](/docs/papers/BRAIN-Diet-References#hurrell_phytic_2003)'
+  - '[Chondrou et al. (2024) — Dephytinisation and Trace-Element Bioavailability](/docs/papers/BRAIN-Diet-References#chondrou_phytic_2024)'
+  - '[Ando et al. (2024) — Acute Exercise, Dopamine Release and Reaction Time](/docs/papers/BRAIN-Diet-References#ando_dopamine_exercise_2024)'
+  - '[Volkow et al. (2012) — Sleep Deprivation and Ventral-Striatal D2/D3 Receptors](/docs/papers/BRAIN-Diet-References#volkow_sleep_deprivation_2012)'
 hide_title: true
 ---
 
@@ -448,14 +597,20 @@ No PM-specific Key Constraint membership is established. Precursor competition r
 <details>
 <summary><strong>3.2 System Optimisation Practices</strong></summary>
 
-No evidence-qualified Food Preparation &amp; Delivery practice is published for this PM.
+These practices optimise provision of the provisional iron cofactor candidate. They do not demonstrate increased brain dopamine.
+
+* Pair non-haem iron-containing meals with an ascorbic-acid source
+* Use validated dephytinisation for high-phytate cereal matrices
 
 </details>
 
 <details>
 <summary><strong>3.3 Lifestyle Levers</strong></summary>
 
-No evidence-qualified lifestyle lever is published for this PM.
+These priorities are bounded to the measured acute human dopamine processes; they are not doses, chronic programmes or clinical recommendations.
+
+* Acute voluntary cardiovascular exercise
+* Avoid acute total sleep deprivation
 
 </details>
 
@@ -507,6 +662,12 @@ Dopaminergic regulation is a multi-stage control system, not a single concentrat
 <ScientificFinding finding={{"id":"PM3-F6","finding_label":"ADHD does not show one uniform dopamine abnormality","finding_summary":"Dopamine biology is relevant to ADHD, but imaging and mechanistic findings differ by dopamine process, brain region, developmental stage, medication exposure and study method. The evidence does not support ADHD as a uniform global dopamine-deficiency disorder.","finding_interpretation":"Medication target engagement supports dopamine relevance but cannot identify a universal baseline lesion or establish nutritional modifiability.","therapeutic_area_ids":["TA001"],"finding_statement":"ADHD-related dopamine findings are heterogeneous across synthesis, release, receptors and transporter measures and do not establish a uniform global dopamine deficit.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A recent broad evaluation found hypo-, hyper- and null findings across human and animal evidence. A transporter meta-analysis found an average group difference but large heterogeneity and a strong relationship with prior psychostimulant exposure. Together these support dopamine as one relevant regulatory domain while making medication history, region, age and measured process essential to interpretation.","synthesis_limitations":"Small samples, different tracers and diagnostic groups, medication confounding and cross-sectional designs limit causal interpretation. Transporter binding, synthesis capacity, receptor availability and extracellular release are not interchangeable.","evidence_considered":[{"label":"MacDonald et al. (2024)","citation_key":"macdonald_dopamine_2024","href":"/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024","data_level":"Mixed","evidence_source":"repository-inherited","directional_finding":"Human and animal findings did not consistently support a generalized hypodopaminergic ADHD state; results varied by process, region, task and population.","assessment":{"study":"Critical review of the dopamine hypothesis across human studies and animal models.","population":"Children and adults with ADHD, healthy comparison groups and ADHD-relevant animal models.","result":"Reported lower, higher and null dopamine-related findings and concluded that a simple global deficiency model is not supported.","effect_magnitude":"No pooled global effect estimate because dopamine processes and methods were heterogeneous.","evidence_summary":"Supports dopamine relevance while constraining the direction and universality of the ADHD interpretation.","limitations":"Broad narrative synthesis across heterogeneous methods; many studies were small or medication-confounded."}},{"label":"Fusar-Poli et al. (2012)","citation_key":"fusar-poli_striatal_2012","href":"/docs/papers/BRAIN-Diet-References#fusar-poli_striatal_2012","data_level":"Human Mechanistic","evidence_source":"bounded-external-search","directional_finding":"Striatal dopamine-transporter density was 14% higher on average in ADHD, but heterogeneity was large and medication exposure materially moderated the result.","assessment":{"study":"Meta-analysis of nine PET and SPECT studies of striatal dopamine-transporter binding.","population":"169 participants with ADHD and 173 matched controls.","result":"Average transporter density was higher in ADHD, but studies were significantly heterogeneous and medication exposure explained important variation.","effect_magnitude":"Approximately 14% higher mean striatal transporter density in the ADHD group.","evidence_summary":"Shows a process-specific group difference while demonstrating why medication history cannot be ignored.","limitations":"Small number of imaging studies, heterogeneous tracers and designs, and transporter binding is not dopamine concentration or release."}}],"presentation":"mechanistic-basis","informs":[{"phenome":"Focus / Attention Stability","href":"/docs/phenomes/details/ph001-focus-attention-stability"}]}} />
 
 <ScientificFinding finding={{"id":"PM3-F7","finding_label":"L-tyrosine did not provide sustained ADHD benefit","finding_summary":"A small open trial in adults with attention deficit disorder reported an initial response to L-tyrosine that disappeared as tolerance developed.","finding_interpretation":"The study does not establish sustained clinical benefit, dopamine target engagement, or a food-based treatment claim.","therapeutic_area_ids":["TA001"],"finding_statement":"Open-label L-tyrosine supplementation did not produce a sustained ADHD benefit and did not demonstrate modification of brain dopamine biology.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"The trial is retained as non-supportive clinical evidence at the boundary between precursor provision and PM3 signalling. An initial symptom response was not sustained, and no dopamine process was measured.","synthesis_limitations":"Very small, uncontrolled, older study with no placebo group, no dopamine biomarker and limited diagnostic comparability to current ADHD definitions.","evidence_considered":[{"label":"Reimherr & Ward (1987)","citation_key":"f_w_reimherr_open_1987","href":"/docs/papers/BRAIN-Diet-References#f_w_reimherr_open_1987","data_level":"Human Outcome","exposure_context":"isolated L-tyrosine supplement","evidence_source":"repository-inherited","directional_finding":"An initial symptom response in some adults disappeared during continued treatment as tolerance developed.","assessment":{"study":"Open-label L-tyrosine trial without placebo control.","population":"Twelve adults diagnosed with attention deficit disorder.","result":"Initial response was not sustained during continued supplementation.","effect_magnitude":"Small uncontrolled sample; no robust comparative effect estimate.","evidence_summary":"Does not support sustained L-tyrosine treatment efficacy and provides no evidence of dopamine target engagement.","limitations":"Open label, n=12, older diagnostic framework, no dopamine measurement, and tolerance confounds interpretation."}}],"presentation":"mechanistic-basis"}} />
+
+<ScientificFinding finding={{"id":"PM3-F8","finding_label":"Meal preparation can change delivery of provisional dopamine cofactors","finding_summary":"Human absorption studies show that ascorbic-acid pairing and phytate degradation can increase non-haem iron absorption from selected meals. This supports iron-delivery practices only; neither study measured brain dopamine.","finding_interpretation":"Preparation and pairing can optimise delivery of the provisional iron candidate without showing that the practice increases dopamine synthesis, signalling or cognition.","finding_statement":"Ascorbic-acid pairing and validated phytate degradation can increase meal-level non-haem iron absorption in matrix-dependent human studies, but no direct dopamine effect has been demonstrated.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A controlled meal study found that ascorbic acid countered dose-dependent phytate and polyphenol inhibition of non-haem iron absorption. A separate human radioiron study found that complete phytate degradation increased iron absorption from several water-prepared cereal porridges, with smaller or absent effects in some matrices. A later review of 42 human interventions found that most dephytinisation and phytase studies improved short-term iron or zinc bioavailability while identifying limited long-term evidence.","synthesis_limitations":"These studies measured gastrointestinal mineral absorption or bioavailability, not human brain iron delivery, dopamine synthesis, dopamine release or functional benefit. Results depend on meal matrix and baseline status, and no dopamine-specific dose or preparation prescription is established.","evidence_considered":[{"label":"Siegenberg et al. (1991)","citation_key":"siegenberg_ascorbic_1991","href":"/docs/papers/BRAIN-Diet-References#siegenberg_ascorbic_1991","data_level":"Human Mechanistic","exposure_context":"ascorbic acid added to phytate- or tannin-containing test meals","evidence_source":"bounded-external-search","directional_finding":"Ascorbic acid prevented dose-dependent inhibition of non-haem iron absorption by phytate and polyphenols under the tested meal conditions.","assessment":{"study":"Controlled human test-meal iron-absorption study.","population":"199 adult participants across the meal experiments.","result":"Iron absorption fell as phytate or tannic acid increased; ascorbic acid countered this inhibition in a context- and dose-dependent manner.","effect_magnitude":"Thirty milligrams of ascorbic acid overcame inhibition from the tested maize-bran phytate exposure; higher tannic-acid exposure required more ascorbic acid under the experimental conditions.","evidence_summary":"Supports same-meal ascorbic-acid pairing as an iron-delivery practice.","limitations":"Test-meal absorption rather than long-term iron status; no brain, dopamine or functional endpoint."}},{"label":"Hurrell et al. (2003)","citation_key":"hurrell_phytic_2003","href":"/docs/papers/BRAIN-Diet-References#hurrell_phytic_2003","data_level":"Human Mechanistic","exposure_context":"phytase-dephytinised cereal porridges","evidence_source":"bounded-external-search","directional_finding":"Complete phytate degradation increased iron absorption from several water-prepared cereal porridges, but effects varied by matrix and were reduced or absent with milk and high-tannin sorghum.","assessment":{"study":"Controlled human radioiron-absorption experiments across nine cereal porridges.","population":"78 adults distributed across the test-meal comparisons.","result":"Dephytinisation increased absorption from rice, oat, maize, wheat and wheat-soy porridges prepared with water, with matrix-specific exceptions.","effect_magnitude":"For example, wheat-porridge absorption rose from 0.99% to 11.54%; effects ranged from absent to approximately twelve-fold across matrices.","evidence_summary":"Supports validated phytate reduction as a matrix-dependent iron-delivery practice.","limitations":"Short-term absorption experiments in adults; infant-style test matrices, no long-term status outcome and no brain or dopamine endpoint."}}],"connected_supportive_evidence":[{"label":"Chondrou et al. (2024)","citation_key":"chondrou_phytic_2024","href":"/docs/papers/BRAIN-Diet-References#chondrou_phytic_2024","data_level":"Human Mechanistic","why_relevant":"Narrative review of 42 human interventions found that most dephytinisation and phytase studies improved iron or zinc bioavailability.","why_excluded":"Review-level support with heterogeneous matrices and limited long-term status evidence; it adds no dopamine endpoint."}],"presentation":"mechanistic-basis"}} />
+
+<ScientificFinding finding={{"id":"PM3-F9","finding_label":"Acute voluntary exercise releases dorsal-striatal dopamine","finding_summary":"In healthy adults, voluntary mild-to-moderate cycling elicited endogenous dopamine release in dorsal striatum, and the PET signal correlated with faster Go/No-Go reaction time. Peripheral muscle stimulation without voluntary central command did not reproduce the behavioural effect.","finding_interpretation":"This supports an acute state-dependent exercise relationship, not a chronic exercise prescription, clinical treatment claim or global “more dopamine” model.","finding_statement":"Acute voluntary cardiovascular exercise can elicit dorsal-striatal dopamine release in healthy adults, with the measured release associated with faster reaction time.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"A human PET experiment measured endogenous dopamine release during mild-to-moderate cycling and related it to Go/No-Go performance. Additional electrical-muscle-stimulation experiments suggested that voluntary central command, rather than peripheral movement alone, was important for the reaction-time effect.","synthesis_limitations":"The PET experiment was acute and small, and the dopamine-performance association was correlational. It does not establish mediation, chronic adaptation, optimal exercise dosing, ADHD benefit or clinical efficacy.","evidence_considered":[{"label":"Ando et al. (2024)","citation_key":"ando_dopamine_exercise_2024","href":"/docs/papers/BRAIN-Diet-References#ando_dopamine_exercise_2024","data_level":"Human Mechanistic","exposure_context":"acute voluntary mild-to-moderate cardiovascular exercise","evidence_source":"bounded-external-search","directional_finding":"Voluntary cycling elicited endogenous dopamine release in caudate and putamen, and greater release was associated with faster Go/No-Go reaction time.","assessment":{"study":"Human PET exercise experiment with two additional electrical-muscle-stimulation experiments.","population":"Sixteen healthy adults in the PET experiment; 18 and 22 healthy adults in the supporting stimulation experiments.","result":"Dorsal-striatal dopamine release occurred during voluntary exercise and correlated with reaction-time improvement; peripheral stimulation alone did not produce the same behavioural effect.","effect_magnitude":"Study-specific PET and reaction-time associations; no clinical effect estimate.","evidence_summary":"Provides direct acute human mechanistic evidence for an exercise–dopamine relationship.","limitations":"Small healthy samples, acute exposure, correlational mediation evidence and no chronic, clinical or dietary comparison."}}],"presentation":"mechanistic-basis"}} />
+
+<ScientificFinding finding={{"id":"PM3-F10","finding_label":"Acute sleep deprivation downregulates ventral-striatal D2/D3 availability","finding_summary":"In healthy adults, one night of total sleep deprivation reduced ventral-striatal D2/D3 receptor availability and was associated with lower alertness and greater sleepiness. The methylphenidate comparison supported receptor downregulation rather than increased dopamine release.","finding_interpretation":"This identifies an acute sleep-state constraint on receptor signalling; it is not evidence that ordinary sleep extension increases dopamine or improves a clinical condition.","finding_statement":"One night of total sleep deprivation reduces ventral-striatal D2/D3 receptor availability in healthy adults and is associated with reduced alertness.","synthesised_evidence_confidence":"not-yet-scored","synthesis":"Within-person PET scans after rested sleep and one night of total sleep deprivation showed lower ventral-striatal D2/D3 receptor availability during deprivation. Methylphenidate-induced dopamine increases did not differ by sleep state, supporting receptor downregulation rather than a deprivation-induced rise in dopamine release.","synthesis_limitations":"The experiment was acute, involved a small healthy sample and used receptor availability as an imaging construct. It does not establish effects of normal sleep variation, a sleep intervention, chronic outcomes or clinical benefit.","evidence_considered":[{"label":"Volkow et al. (2012)","citation_key":"volkow_sleep_deprivation_2012","href":"/docs/papers/BRAIN-Diet-References#volkow_sleep_deprivation_2012","data_level":"Human Mechanistic","exposure_context":"one night of total sleep deprivation versus rested sleep","evidence_source":"bounded-external-search","directional_finding":"Sleep deprivation reduced ventral-striatal D2/D3 receptor availability, associated with lower alertness and greater sleepiness, without increasing the methylphenidate-evoked dopamine response.","assessment":{"study":"Within-person [11C]raclopride PET study after rested sleep and total sleep deprivation, each under placebo and methylphenidate conditions.","population":"Twenty healthy adults.","result":"Ventral-striatal receptor availability decreased after deprivation and tracked reduced alertness; pharmacological comparison supported receptor downregulation.","effect_magnitude":"Region-specific PET change and behavioural associations; no general clinical effect estimate.","evidence_summary":"Provides direct human evidence that acute sleep state constrains a specific dopamine-receptor measure.","limitations":"Small healthy sample, one night of total deprivation, pharmacological probe and no chronic or clinical outcome."}}],"presentation":"mechanistic-basis"}} />
 
 ## 5. Phenome Connections
 

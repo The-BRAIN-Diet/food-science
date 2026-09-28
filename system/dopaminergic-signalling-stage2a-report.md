@@ -11,7 +11,9 @@ Integrity. The branch-verified target is BRS1-FM1-PM3.
 Repository-reviewed evidence was used first. Bounded external follow-up was
 limited to propositions that the repository corpus could not adjudicate:
 nonlinear cognitive control, cognitive effort, flexibility, healthy aging and
-ADHD transporter heterogeneity.
+ADHD transporter heterogeneity. A subsequent bounded lever search assessed
+food preparation and delivery practices for the provisional cofactor candidates
+and direct human evidence for dopamine-related lifestyle relationships.
 
 ## Supported claims
 
@@ -32,6 +34,12 @@ ADHD transporter heterogeneity.
 - Dopamine biology is relevant to ADHD, but ADHD evidence is heterogeneous
   across process, region, age, method and medication history. A uniform global
   dopamine-deficiency account is not supported.
+- Controlled human meal studies support ascorbic-acid pairing and validated
+  dephytinisation as matrix-dependent ways to improve non-haem iron absorption.
+- Acute human PET evidence supports voluntary cardiovascular exercise as a
+  state-dependent stimulus for dorsal-striatal dopamine release.
+- One night of total sleep deprivation reduces ventral-striatal D2/D3 receptor
+  availability and alertness in healthy adults.
 
 ## Constrained claims
 
@@ -46,6 +54,11 @@ ADHD transporter heterogeneity.
 - BRS2 methyl-donor availability, BRS3 redox handling, BRS4 bioenergetics and
   BRS6 metabolic/stress/circadian context remain constrained dependencies,
   not PM3 roll-ups or dietary claims.
+- The two food-preparation relationships optimise provision of the provisional
+  iron cofactor candidate only. They do not establish brain iron delivery,
+  increased dopamine synthesis or functional benefit.
+- Exercise and sleep-deprivation findings are acute human mechanistic evidence,
+  not chronic programmes, dose prescriptions or clinical recommendations.
 
 ## Rejected claims
 
@@ -57,6 +70,11 @@ ADHD transporter heterogeneity.
   response disappeared and no dopamine process was measured.
 - Pharmacological dopamine manipulation can be translated directly into a
   food, nutrient or supplement recommendation.
+- Vitamin B6 cooking-retention evidence was too limited to establish a PM3
+  System Optimisation Practice.
+- Stress-management and circadian-regularity practices were not added because
+  the bounded evidence did not directly show that those interventions modify a
+  PM3 dopamine process.
 
 ## Unresolved claims
 
@@ -65,6 +83,10 @@ ADHD transporter heterogeneity.
 - Direct human dietary modification of dopamine synthesis, release, receptor
   signalling, transporter activity or metabolism remains insufficiently
   demonstrated.
+- Whether meal-level iron-absorption improvements change longer-term iron
+  status or any human brain dopamine process remains unresolved.
+- Whether repeated exercise or ordinary sleep improvement causes durable
+  dopamine adaptation or clinical benefit remains unresolved.
 - Depression- and anxiety-specific dopamine findings were not strong enough in
   this bounded pass to receive TA003 or TA002 tags.
 - End-to-end mediation from the BRS2, BRS3, BRS4 or BRS6 dependencies to a PM3
@@ -116,6 +138,29 @@ lifestyle record was added.
 Reader disclosures render Evidence Source as linked PM reference numbers such as
 `[1]`; citation keys, Finding ids and atom ids remain internal.
 
+## Evidence-qualified §3.2 and §3.3 relationships
+
+The bounded external search added two System Optimisation Practices:
+
+1. Pair non-haem iron-containing meals with an ascorbic-acid source.
+2. Use validated dephytinisation for high-phytate cereal matrices.
+
+Both are capped at dietary provision of the provisional iron cofactor candidate.
+They do not claim dopamine modulation. A third vitamin B6 cooking practice was
+rejected because the available small meal-retention study did not provide a
+strong enough evidence base for durable PM ownership.
+
+The search also added two Lifestyle Priorities:
+
+1. Acute voluntary cardiovascular exercise, supported by a small human PET
+   experiment measuring dorsal-striatal dopamine release.
+2. Avoid acute total sleep deprivation, supported by a within-person human PET
+   experiment measuring ventral-striatal D2/D3 receptor availability.
+
+Stress-management and circadian-regularity candidates were not promoted because
+the assessed evidence was observational, heterogeneous or did not test a
+practice-to-dopamine relationship.
+
 ## GABA evidence-placement repair
 
 No edit was required. After branch renumbering, GABA Synthesis Capacity is
@@ -139,6 +184,9 @@ Passed:
   Findings portions of `npm run mechanisms:validate`
 - IDE lint diagnostics for the edited PM, validator and tests
 - `npm run build` — production build passed
+
+The §3.2/§3.3 lever-search amendment was subsequently revalidated against the
+same gates.
 
 Existing baseline failure not changed:
 
