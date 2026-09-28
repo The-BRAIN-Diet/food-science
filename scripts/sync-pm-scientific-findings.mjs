@@ -8,7 +8,7 @@
  *
  * Usage:
  *   node scripts/sync-pm-scientific-findings.mjs
- *   node scripts/sync-pm-scientific-findings.mjs --pm BRS1-FM4-PM8
+ *   node scripts/sync-pm-scientific-findings.mjs --pm BRS1-FM4-PM9
  *   node scripts/sync-pm-scientific-findings.mjs --check
  */
 

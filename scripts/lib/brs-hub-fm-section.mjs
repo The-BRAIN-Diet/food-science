@@ -162,12 +162,18 @@ function buildFmDropdown({ data, content, url }, pms) {
   return block;
 }
 
-function fmTitleItems(fmEntries) {
-  return fmEntries.map(({ fmId, title, url }) => ({
+function fmTitleItems(fmEntries, { includeMechanisms = false } = {}) {
+  return fmEntries.map(({ fmId, title, url, data }) => ({
     title: `${fmId} — ${title}`,
     openHref: url,
     openLabel: "Open FM →",
     openAriaLabel: `Open FM: ${fmId} — ${title}`,
+    childItems: includeMechanisms
+      ? (Array.isArray(data?.mechanisms_covered) ? data.mechanisms_covered : []).map((pm) => ({
+          title: `${pm.id} — ${pm.name}`,
+          href: pm.href,
+        }))
+      : undefined,
   }));
 }
 
@@ -207,7 +213,11 @@ export function buildAllMechanismsIndex(fmFilePaths, brsId) {
     )
     .join("");
   return `${ALL_MECHANISMS_MARKERS.start}
-${renderHubMechanismIndex(fmTitleItems(fmEntries), heading, fmBlocks)}
+${renderHubMechanismIndex(
+  fmTitleItems(fmEntries, { includeMechanisms: true }),
+  heading,
+  fmBlocks,
+)}
 ${ALL_MECHANISMS_MARKERS.end}`;
 }
 

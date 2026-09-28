@@ -1,19 +1,19 @@
 {
   "meta": {
     "version": 2,
-    "generatedAt": "2026-09-25T17:42:25.833Z",
+    "generatedAt": "2026-09-28T17:47:23.619Z",
     "source": "docs/biological-targets/**/*pm*.mdx",
     "registrySource": "src/data/phenome-registry.json",
     "registryVersion": 4,
-    "pmPageCount": 62,
-    "pmPagesWithMappings": 62,
-    "relationshipCount": 156,
-    "mappedRelationshipCount": 156
+    "pmPageCount": 63,
+    "pmPagesWithMappings": 63,
+    "relationshipCount": 159,
+    "mappedRelationshipCount": 159
   },
   "diagnostics": {
     "registryPhenomeCount": 18,
-    "relationshipEdgeCount": 156,
-    "mappedEdgeCount": 156,
+    "relationshipEdgeCount": 159,
+    "mappedEdgeCount": 159,
     "unmappedPhenomeLabels": [],
     "labelsInEdgesNotInRegistry": [],
     "edgesMissingTargetPhenome": 0,
@@ -92,9 +92,9 @@
   },
   "relationships": [
     {
-      "sourceNode": "BRS1-FM1-PM4",
+      "sourceNode": "BRS1-FM1-PM5",
       "sourceTitle": "Serotonergic Signalling Regulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Apprehensive Worry / Perseverative Thought",
@@ -120,9 +120,9 @@
       "targetPhenomeId": "PH016"
     },
     {
-      "sourceNode": "BRS1-FM4-PM8",
+      "sourceNode": "BRS1-FM4-PM9",
       "sourceTitle": "GABA Synthesis Capacity",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity",
+      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity",
       "parentFM": "BRS1(FM4)",
       "parentBRS": "BRS1",
       "targetPhenome": "Apprehensive Worry / Perseverative Thought",
@@ -414,9 +414,9 @@
       "targetPhenomeId": "PH011"
     },
     {
-      "sourceNode": "BRS1-FM2-PM5",
+      "sourceNode": "BRS1-FM2-PM6",
       "sourceTitle": "Acetylcholine Synthesis Support",
-      "sourcePath": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support",
+      "sourcePath": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support",
       "parentFM": "BRS1(FM2)",
       "parentBRS": "BRS1",
       "targetPhenome": "Cognitive Clarity",
@@ -442,9 +442,9 @@
       "targetPhenomeId": "PH011"
     },
     {
-      "sourceNode": "BRS1-FM3-PM6",
+      "sourceNode": "BRS1-FM3-PM7",
       "sourceTitle": "Neuronal Membrane DHA Incorporation",
-      "sourcePath": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+      "sourcePath": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation",
       "parentFM": "BRS1(FM3)",
       "parentBRS": "BRS1",
       "targetPhenome": "Cognitive Clarity",
@@ -476,9 +476,9 @@
       "targetPhenomeId": "PH011"
     },
     {
-      "sourceNode": "BRS1-FM4-PM9",
+      "sourceNode": "BRS1-FM4-PM10",
       "sourceTitle": "Glutamate Clearance & Recycling",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling",
+      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling",
       "parentFM": "BRS1(FM4)",
       "parentBRS": "BRS1",
       "targetPhenome": "Cognitive Clarity",
@@ -996,6 +996,28 @@
       "targetPhenomeId": "PH004"
     },
     {
+      "sourceNode": "BRS1-FM1-PM3",
+      "sourceTitle": "Dopaminergic Signalling Regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation",
+      "parentFM": "BRS1(FM1)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Cognitive Energy Stability",
+      "relationshipType": "indirect",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Dopamine can influence willingness to sustain cognitive effort, but the strongest assessed human study measured effort choice rather than fatigue or performance decline over time {{cite:westbrook_dopamine_2020}}. Cognitive energy remains a multi-system outcome, and a dopamine-specific fatigue claim is unresolved.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Westbrook et al. (2020)",
+          "citationKey": "westbrook_dopamine_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#westbrook_dopamine_2020"
+        }
+      ],
+      "targetPhenomeId": "PH004"
+    },
+    {
       "sourceNode": "BRS4-FM1-PM1",
       "sourceTitle": "Electron Transport Chain Function",
       "sourcePath": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function",
@@ -1490,7 +1512,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Dietary tryptophan and broader indispensable amino-acid coverage may influence serotonergic precursor availability relevant to emotional regulation in ADHD; serotonin signalling and conversion belong on BRS1-FM1-PM4.",
+      "rationale": "Dietary tryptophan and broader indispensable amino-acid coverage may influence serotonergic precursor availability relevant to emotional regulation in ADHD; serotonin signalling and conversion belong on BRS1-FM1-PM5.",
       "references": [
         {
           "index": 1,
@@ -1524,7 +1546,7 @@
       "confidence": "low",
       "evidenceConfidence": "low",
       "evidenceLevel": "mechanistic",
-      "rationale": "Carbohydrate–protein meal structure can increase plasma tryptophan relative to competing LNAAs, biasing serotonergic precursor presentation relevant to emotional regulation in ADHD; serotonin signalling belongs on BRS1-FM1-PM4.",
+      "rationale": "Carbohydrate–protein meal structure can increase plasma tryptophan relative to competing LNAAs, biasing serotonergic precursor presentation relevant to emotional regulation in ADHD; serotonin signalling belongs on BRS1-FM1-PM5.",
       "references": [
         {
           "index": 1,
@@ -1548,9 +1570,9 @@
       "targetPhenomeId": "PH003"
     },
     {
-      "sourceNode": "BRS1-FM1-PM4",
+      "sourceNode": "BRS1-FM1-PM5",
       "sourceTitle": "Serotonergic Signalling Regulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Emotional Regulation",
@@ -1588,9 +1610,9 @@
       "targetPhenomeId": "PH003"
     },
     {
-      "sourceNode": "BRS1-FM3-PM6",
+      "sourceNode": "BRS1-FM3-PM7",
       "sourceTitle": "Neuronal Membrane DHA Incorporation",
-      "sourcePath": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+      "sourcePath": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation",
       "parentFM": "BRS1(FM3)",
       "parentBRS": "BRS1",
       "targetPhenome": "Emotional Regulation",
@@ -1616,9 +1638,9 @@
       "targetPhenomeId": "PH003"
     },
     {
-      "sourceNode": "BRS1-FM4-PM7",
+      "sourceNode": "BRS1-FM4-PM8",
       "sourceTitle": "GABA–Glutamate Neurotransmission Balance",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance",
+      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
       "parentFM": "BRS1(FM4)",
       "parentBRS": "BRS1",
       "targetPhenome": "Emotional Regulation",
@@ -1644,9 +1666,9 @@
       "targetPhenomeId": "PH003"
     },
     {
-      "sourceNode": "BRS1-FM4-PM8",
+      "sourceNode": "BRS1-FM4-PM9",
       "sourceTitle": "GABA Synthesis Capacity",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity",
+      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity",
       "parentFM": "BRS1(FM4)",
       "parentBRS": "BRS1",
       "targetPhenome": "Emotional Regulation",
@@ -2000,7 +2022,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Meal-level amino-acid sufficiency and coverage of neurotransmitter-relevant substrates (including tyrosine and tryptophan) may support the precursor pool underlying catecholaminergic and serotonergic attention pathways relevant to ADHD; competitive LAT1 transport and downstream signalling are handled by sibling PMs (PM2–PM4), not substrate availability alone.",
+      "rationale": "Meal-level amino-acid sufficiency and coverage of neurotransmitter-relevant substrates (including tyrosine and tryptophan) may support the precursor pool underlying catecholaminergic and serotonergic attention pathways relevant to ADHD; competitive LAT1 transport and downstream signalling are handled by sibling PMs (PM2–PM5), not substrate availability alone.",
       "references": [
         {
           "index": 1,
@@ -2034,7 +2056,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Meal-level LNAA competition at LAT1 shapes tyrosine and tryptophan brain-entry bias relevant to catecholaminergic and serotonergic attention pathways in ADHD; transport modulation cannot substitute for substrate sufficiency (PM1) or downstream signalling (PM3/PM4).",
+      "rationale": "Meal-level LNAA competition at LAT1 shapes tyrosine and tryptophan brain-entry bias relevant to catecholaminergic and serotonergic attention pathways in ADHD; transport modulation cannot substitute for substrate sufficiency (PM1) or downstream signalling (PM3–PM5).",
       "references": [
         {
           "index": 1,
@@ -2059,8 +2081,42 @@
     },
     {
       "sourceNode": "BRS1-FM1-PM3",
+      "sourceTitle": "Dopaminergic Signalling Regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation",
+      "parentFM": "BRS1(FM1)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "high",
+      "evidenceConfidence": "medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Dopamine contributes to working memory and cognitive control, but the relationship is nonlinear and depends on baseline state and whether prefrontal stability or striatal updating is required {{cite:cools_inverted-u_2011}}. ADHD imaging findings are heterogeneous across dopamine processes, regions and medication histories rather than showing a uniform dopamine deficit {{cite:macdonald_dopamine_2024,fusar-poli_striatal_2012}}.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Cools & D'Esposito (2011)",
+          "citationKey": "cools_inverted-u_2011",
+          "href": "/docs/papers/BRAIN-Diet-References#cools_inverted-u_2011"
+        },
+        {
+          "index": 2,
+          "label": "MacDonald et al. (2024)",
+          "citationKey": "macdonald_dopamine_2024",
+          "href": "/docs/papers/BRAIN-Diet-References#macdonald_dopamine_2024"
+        },
+        {
+          "index": 3,
+          "label": "Fusar-Poli et al. (2012)",
+          "citationKey": "fusar-poli_striatal_2012",
+          "href": "/docs/papers/BRAIN-Diet-References#fusar-poli_striatal_2012"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS1-FM1-PM4",
       "sourceTitle": "Noradrenergic Signalling",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Focus / Attention Stability",
@@ -2092,9 +2148,9 @@
       "targetPhenomeId": "PH001"
     },
     {
-      "sourceNode": "BRS1-FM2-PM5",
+      "sourceNode": "BRS1-FM2-PM6",
       "sourceTitle": "Acetylcholine Synthesis Support",
-      "sourcePath": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support",
+      "sourcePath": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support",
       "parentFM": "BRS1(FM2)",
       "parentBRS": "BRS1",
       "targetPhenome": "Focus / Attention Stability",
@@ -2120,9 +2176,9 @@
       "targetPhenomeId": "PH001"
     },
     {
-      "sourceNode": "BRS1-FM3-PM6",
+      "sourceNode": "BRS1-FM3-PM7",
       "sourceTitle": "Neuronal Membrane DHA Incorporation",
-      "sourcePath": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+      "sourcePath": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation",
       "parentFM": "BRS1(FM3)",
       "parentBRS": "BRS1",
       "targetPhenome": "Focus / Attention Stability",
@@ -2154,9 +2210,37 @@
       "targetPhenomeId": "PH001"
     },
     {
-      "sourceNode": "BRS1-FM4-PM7",
+      "sourceNode": "BRS1-FM4-PM10",
+      "sourceTitle": "Glutamate Clearance & Recycling",
+      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling",
+      "parentFM": "BRS1(FM4)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Focus / Attention Stability",
+      "relationshipType": "modulates",
+      "confidence": "low-medium",
+      "evidenceConfidence": "low-medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Maltezos et al. (2014) linked glutamate in critical brain areas to Barkley attention scale scores in adults with ADHD; glutamate clearance and recycling constrain excitatory load relevant to attention contexts—transport and uptake biochemistry belong on this PM, not integrative E/I balance (PM8).",
+      "references": [
+        {
+          "index": 1,
+          "label": "Maltezos et al. (2014)",
+          "citationKey": "maltezos_glutamateglutamine_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014"
+        },
+        {
+          "index": 2,
+          "label": "Zhou and Danbolt (2014)",
+          "citationKey": "zhou_glutamate_2014",
+          "href": "/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014"
+        }
+      ],
+      "targetPhenomeId": "PH001"
+    },
+    {
+      "sourceNode": "BRS1-FM4-PM8",
       "sourceTitle": "GABA–Glutamate Neurotransmission Balance",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance",
+      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
       "parentFM": "BRS1(FM4)",
       "parentBRS": "BRS1",
       "targetPhenome": "Focus / Attention Stability",
@@ -2164,7 +2248,7 @@
       "confidence": "high",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "observational",
-      "rationale": "Excitatory–inhibitory balance between glutamate and GABA is a core biological determinant of attentional stability in ADHD — supported by reduced GABA biomarker studies in ADHD cohorts (Edden et al., 2012; Puts et al., 2020) and glutamate– attention associations (Maltezos et al., 2014). This PM integrates E/I tone; synthesis and clearance are handled on PM8–PM9.",
+      "rationale": "Excitatory–inhibitory balance between glutamate and GABA is a core biological determinant of attentional stability in ADHD — supported by reduced GABA biomarker studies in ADHD cohorts (Edden et al., 2012; Puts et al., 2020) and glutamate– attention associations (Maltezos et al., 2014). This PM integrates E/I tone; synthesis and clearance are handled on PM9–PM10.",
       "references": [
         {
           "index": 1,
@@ -2183,34 +2267,6 @@
           "label": "Maltezos et al. (2014)",
           "citationKey": "maltezos_glutamateglutamine_2014",
           "href": "/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014"
-        }
-      ],
-      "targetPhenomeId": "PH001"
-    },
-    {
-      "sourceNode": "BRS1-FM4-PM9",
-      "sourceTitle": "Glutamate Clearance & Recycling",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling",
-      "parentFM": "BRS1(FM4)",
-      "parentBRS": "BRS1",
-      "targetPhenome": "Focus / Attention Stability",
-      "relationshipType": "modulates",
-      "confidence": "low-medium",
-      "evidenceConfidence": "low-medium",
-      "evidenceLevel": "mechanistic",
-      "rationale": "Maltezos et al. (2014) linked glutamate in critical brain areas to Barkley attention scale scores in adults with ADHD; glutamate clearance and recycling constrain excitatory load relevant to attention contexts—transport and uptake biochemistry belong on this PM, not integrative E/I balance (PM7).",
-      "references": [
-        {
-          "index": 1,
-          "label": "Maltezos et al. (2014)",
-          "citationKey": "maltezos_glutamateglutamine_2014",
-          "href": "/docs/papers/BRAIN-Diet-References#maltezos_glutamateglutamine_2014"
-        },
-        {
-          "index": 2,
-          "label": "Zhou and Danbolt (2014)",
-          "citationKey": "zhou_glutamate_2014",
-          "href": "/docs/papers/BRAIN-Diet-References#zhou_glutamate_2014"
         }
       ],
       "targetPhenomeId": "PH001"
@@ -2970,7 +3026,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Dietary tyrosine availability contributes to catecholamine precursor supply relevant to motivation and drive in ADHD populations; this PM governs amino-acid pool sufficiency only, not dopaminergic signalling or reward regulation (PM3/PM4).",
+      "rationale": "Dietary tyrosine availability contributes to catecholamine precursor supply relevant to motivation and drive in ADHD populations; this PM governs amino-acid pool sufficiency only, not dopaminergic, noradrenergic or serotonergic signalling or reward regulation (PM3–PM5).",
       "references": [
         {
           "index": 1,
@@ -3004,7 +3060,7 @@
       "confidence": "low-medium",
       "evidenceConfidence": "low-medium",
       "evidenceLevel": "mechanistic",
-      "rationale": "Protein-forward meal patterns can bias tyrosine relative to competing LNAAs at the blood–brain barrier, supporting catecholamine-relevant precursor presentation for motivation and drive contexts in ADHD; signalling outcomes belong on PM3/PM4.",
+      "rationale": "Protein-forward meal patterns can bias tyrosine relative to competing LNAAs at the blood–brain barrier, supporting catecholamine-relevant precursor presentation for motivation and drive contexts in ADHD; signalling outcomes belong on PM3–PM5.",
       "references": [
         {
           "index": 1,
@@ -3029,8 +3085,30 @@
     },
     {
       "sourceNode": "BRS1-FM1-PM3",
+      "sourceTitle": "Dopaminergic Signalling Regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation",
+      "parentFM": "BRS1(FM1)",
+      "parentBRS": "BRS1",
+      "targetPhenome": "Motivation / Drive",
+      "relationshipType": "modulates",
+      "confidence": "high",
+      "evidenceConfidence": "medium",
+      "evidenceLevel": "mechanistic",
+      "rationale": "Striatal dopamine synthesis capacity and controlled dopaminergic manipulation alter willingness to expend cognitive effort by changing benefit-versus-cost weighting, supporting a direct relationship with effort allocation rather than a general “reward chemical” account {{cite:westbrook_dopamine_2020}}.",
+      "references": [
+        {
+          "index": 1,
+          "label": "Westbrook et al. (2020)",
+          "citationKey": "westbrook_dopamine_2020",
+          "href": "/docs/papers/BRAIN-Diet-References#westbrook_dopamine_2020"
+        }
+      ],
+      "targetPhenomeId": "PH002"
+    },
+    {
+      "sourceNode": "BRS1-FM1-PM4",
       "sourceTitle": "Noradrenergic Signalling",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Motivation / Drive",
@@ -3134,9 +3212,9 @@
       "targetPhenomeId": "PH002"
     },
     {
-      "sourceNode": "BRS1-FM1-PM3",
+      "sourceNode": "BRS1-FM1-PM4",
       "sourceTitle": "Noradrenergic Signalling",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Pleasure & Interest Capacity",
@@ -3162,9 +3240,9 @@
       "targetPhenomeId": "PH017"
     },
     {
-      "sourceNode": "BRS1-FM1-PM4",
+      "sourceNode": "BRS1-FM1-PM5",
       "sourceTitle": "Serotonergic Signalling Regulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Pleasure & Interest Capacity",
@@ -3284,9 +3362,9 @@
       "targetPhenomeId": "PH005"
     },
     {
-      "sourceNode": "BRS1-FM4-PM10",
+      "sourceNode": "BRS1-FM4-PM11",
       "sourceTitle": "Excitotoxicity Modulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation",
       "parentFM": "BRS1(FM4)",
       "parentBRS": "BRS1",
       "targetPhenome": "Recovery Capacity",
@@ -3578,9 +3656,9 @@
       "targetPhenomeId": "PH009"
     },
     {
-      "sourceNode": "BRS1-FM1-PM4",
+      "sourceNode": "BRS1-FM1-PM5",
       "sourceTitle": "Serotonergic Signalling Regulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Reward Regulation",
@@ -3656,9 +3734,9 @@
       "targetPhenomeId": "PH008"
     },
     {
-      "sourceNode": "BRS1-FM1-PM4",
+      "sourceNode": "BRS1-FM1-PM5",
       "sourceTitle": "Serotonergic Signalling Regulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Sleep / Calming Tone",
@@ -3678,9 +3756,9 @@
       "targetPhenomeId": "PH008"
     },
     {
-      "sourceNode": "BRS1-FM4-PM8",
+      "sourceNode": "BRS1-FM4-PM9",
       "sourceTitle": "GABA Synthesis Capacity",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity",
+      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity",
       "parentFM": "BRS1(FM4)",
       "parentBRS": "BRS1",
       "targetPhenome": "Sleep / Calming Tone",
@@ -3762,9 +3840,9 @@
       "targetPhenomeId": "PH008"
     },
     {
-      "sourceNode": "BRS1-FM1-PM4",
+      "sourceNode": "BRS1-FM1-PM5",
       "sourceTitle": "Serotonergic Signalling Regulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Social Engagement Capacity",
@@ -3784,9 +3862,9 @@
       "targetPhenomeId": "PH018"
     },
     {
-      "sourceNode": "BRS1-FM4-PM8",
+      "sourceNode": "BRS1-FM4-PM9",
       "sourceTitle": "GABA Synthesis Capacity",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity",
+      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity",
       "parentFM": "BRS1(FM4)",
       "parentBRS": "BRS1",
       "targetPhenome": "Social Engagement Capacity",
@@ -3856,9 +3934,9 @@
       "targetPhenomeId": "PH015"
     },
     {
-      "sourceNode": "BRS1-FM4-PM10",
+      "sourceNode": "BRS1-FM4-PM11",
       "sourceTitle": "Excitotoxicity Modulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation",
       "parentFM": "BRS1(FM4)",
       "parentBRS": "BRS1",
       "targetPhenome": "Stress Reactivity",
@@ -3884,9 +3962,9 @@
       "targetPhenomeId": "PH015"
     },
     {
-      "sourceNode": "BRS1-FM4-PM7",
+      "sourceNode": "BRS1-FM4-PM8",
       "sourceTitle": "GABA–Glutamate Neurotransmission Balance",
-      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance",
+      "sourcePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
       "parentFM": "BRS1(FM4)",
       "parentBRS": "BRS1",
       "targetPhenome": "Stress Reactivity",
@@ -4176,9 +4254,9 @@
       "targetPhenomeId": "PH006"
     },
     {
-      "sourceNode": "BRS1-FM1-PM4",
+      "sourceNode": "BRS1-FM1-PM5",
       "sourceTitle": "Serotonergic Signalling Regulation",
-      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+      "sourcePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
       "parentFM": "BRS1(FM1)",
       "parentBRS": "BRS1",
       "targetPhenome": "Stress Resilience",
@@ -4378,8 +4456,8 @@
   ],
   "byPhenome": {
     "Apprehensive Worry / Perseverative Thought": [
-      "BRS1-FM1-PM4",
-      "BRS1-FM4-PM8",
+      "BRS1-FM1-PM5",
+      "BRS1-FM4-PM9",
       "BRS3-FM1-PM1",
       "BRS3-FM1-PM2",
       "BRS3-FM3-PM7",
@@ -4392,9 +4470,9 @@
       "BRS-X(ECS-PM2)",
       "BRS-X(Hormones-PM1)",
       "BRS-X(Hormones-PM2)",
-      "BRS1-FM2-PM5",
-      "BRS1-FM3-PM6",
-      "BRS1-FM4-PM9",
+      "BRS1-FM2-PM6",
+      "BRS1-FM3-PM7",
+      "BRS1-FM4-PM10",
       "BRS2-FM1-PM1",
       "BRS2-FM1-PM2",
       "BRS2-FM1-PM3",
@@ -4415,6 +4493,7 @@
       "BRS-X(Hormones-PM4)",
       "BRS-X(Hormones-PM5)",
       "BRS-X(Hormones-PM6)",
+      "BRS1-FM1-PM3",
       "BRS4-FM1-PM1",
       "BRS4-FM1-PM2",
       "BRS4-FM1-PM3",
@@ -4438,10 +4517,10 @@
       "BRS-X(Hormones-PM6)",
       "BRS1-FM1-PM1",
       "BRS1-FM1-PM2",
-      "BRS1-FM1-PM4",
-      "BRS1-FM3-PM6",
-      "BRS1-FM4-PM7",
+      "BRS1-FM1-PM5",
+      "BRS1-FM3-PM7",
       "BRS1-FM4-PM8",
+      "BRS1-FM4-PM9",
       "BRS2-FM1-PM3",
       "BRS3-FM1-PM1",
       "BRS3-FM1-PM2",
@@ -4459,10 +4538,11 @@
       "BRS1-FM1-PM1",
       "BRS1-FM1-PM2",
       "BRS1-FM1-PM3",
-      "BRS1-FM2-PM5",
-      "BRS1-FM3-PM6",
-      "BRS1-FM4-PM7",
-      "BRS1-FM4-PM9",
+      "BRS1-FM1-PM4",
+      "BRS1-FM2-PM6",
+      "BRS1-FM3-PM7",
+      "BRS1-FM4-PM10",
+      "BRS1-FM4-PM8",
       "BRS2-FM1-PM1",
       "BRS2-FM1-PM2",
       "BRS2-FM1-PM4",
@@ -4497,20 +4577,21 @@
       "BRS1-FM1-PM1",
       "BRS1-FM1-PM2",
       "BRS1-FM1-PM3",
+      "BRS1-FM1-PM4",
       "BRS5-FM1-PM3",
       "BRS5-FM3-PM8",
       "BRS6-FM4-PM9"
     ],
     "Pleasure & Interest Capacity": [
-      "BRS1-FM1-PM3",
       "BRS1-FM1-PM4",
+      "BRS1-FM1-PM5",
       "BRS3-FM1-PM1",
       "BRS3-FM3-PM7",
       "BRS3-FM3-PM8"
     ],
     "Recovery Capacity": [
       "BRS-X(ECS-PM5)",
-      "BRS1-FM4-PM10",
+      "BRS1-FM4-PM11",
       "BRS2-FM2-PM5",
       "BRS2-FM2-PM6",
       "BRS4-FM1-PM2",
@@ -4524,25 +4605,25 @@
     ],
     "Reward Regulation": [
       "BRS-X(ECS-PM4)",
-      "BRS1-FM1-PM4",
+      "BRS1-FM1-PM5",
       "BRS6-FM4-PM9"
     ],
     "Sleep / Calming Tone": [
       "BRS-X(Hormones-PM3)",
-      "BRS1-FM1-PM4",
-      "BRS1-FM4-PM8",
+      "BRS1-FM1-PM5",
+      "BRS1-FM4-PM9",
       "BRS6-FM2-PM5",
       "BRS6-FM3-PM7"
     ],
     "Social Engagement Capacity": [
-      "BRS1-FM1-PM4",
-      "BRS1-FM4-PM8",
+      "BRS1-FM1-PM5",
+      "BRS1-FM4-PM9",
       "BRS3-FM1-PM2"
     ],
     "Stress Reactivity": [
       "BRS-X(Hormones-PM3)",
-      "BRS1-FM4-PM10",
-      "BRS1-FM4-PM7",
+      "BRS1-FM4-PM11",
+      "BRS1-FM4-PM8",
       "BRS2-FM2-PM5",
       "BRS4-FM2-PM4",
       "BRS5-FM1-PM2",
@@ -4554,7 +4635,7 @@
       "BRS-X(ECS-PM2)",
       "BRS-X(ECS-PM3)",
       "BRS-X(ECS-PM5)",
-      "BRS1-FM1-PM4",
+      "BRS1-FM1-PM5",
       "BRS2-FM2-PM6",
       "BRS3-FM2-PM3",
       "BRS3-FM2-PM6",
@@ -4566,8 +4647,8 @@
   },
   "byPhenomeId": {
     "PH016": [
-      "BRS1-FM1-PM4",
-      "BRS1-FM4-PM8",
+      "BRS1-FM1-PM5",
+      "BRS1-FM4-PM9",
       "BRS3-FM1-PM1",
       "BRS3-FM1-PM2",
       "BRS3-FM3-PM7",
@@ -4580,9 +4661,9 @@
       "BRS-X(ECS-PM2)",
       "BRS-X(Hormones-PM1)",
       "BRS-X(Hormones-PM2)",
-      "BRS1-FM2-PM5",
-      "BRS1-FM3-PM6",
-      "BRS1-FM4-PM9",
+      "BRS1-FM2-PM6",
+      "BRS1-FM3-PM7",
+      "BRS1-FM4-PM10",
       "BRS2-FM1-PM1",
       "BRS2-FM1-PM2",
       "BRS2-FM1-PM3",
@@ -4603,6 +4684,7 @@
       "BRS-X(Hormones-PM4)",
       "BRS-X(Hormones-PM5)",
       "BRS-X(Hormones-PM6)",
+      "BRS1-FM1-PM3",
       "BRS4-FM1-PM1",
       "BRS4-FM1-PM2",
       "BRS4-FM1-PM3",
@@ -4626,10 +4708,10 @@
       "BRS-X(Hormones-PM6)",
       "BRS1-FM1-PM1",
       "BRS1-FM1-PM2",
-      "BRS1-FM1-PM4",
-      "BRS1-FM3-PM6",
-      "BRS1-FM4-PM7",
+      "BRS1-FM1-PM5",
+      "BRS1-FM3-PM7",
       "BRS1-FM4-PM8",
+      "BRS1-FM4-PM9",
       "BRS2-FM1-PM3",
       "BRS3-FM1-PM1",
       "BRS3-FM1-PM2",
@@ -4647,10 +4729,11 @@
       "BRS1-FM1-PM1",
       "BRS1-FM1-PM2",
       "BRS1-FM1-PM3",
-      "BRS1-FM2-PM5",
-      "BRS1-FM3-PM6",
-      "BRS1-FM4-PM7",
-      "BRS1-FM4-PM9",
+      "BRS1-FM1-PM4",
+      "BRS1-FM2-PM6",
+      "BRS1-FM3-PM7",
+      "BRS1-FM4-PM10",
+      "BRS1-FM4-PM8",
       "BRS2-FM1-PM1",
       "BRS2-FM1-PM2",
       "BRS2-FM1-PM4",
@@ -4685,20 +4768,21 @@
       "BRS1-FM1-PM1",
       "BRS1-FM1-PM2",
       "BRS1-FM1-PM3",
+      "BRS1-FM1-PM4",
       "BRS5-FM1-PM3",
       "BRS5-FM3-PM8",
       "BRS6-FM4-PM9"
     ],
     "PH017": [
-      "BRS1-FM1-PM3",
       "BRS1-FM1-PM4",
+      "BRS1-FM1-PM5",
       "BRS3-FM1-PM1",
       "BRS3-FM3-PM7",
       "BRS3-FM3-PM8"
     ],
     "PH005": [
       "BRS-X(ECS-PM5)",
-      "BRS1-FM4-PM10",
+      "BRS1-FM4-PM11",
       "BRS2-FM2-PM5",
       "BRS2-FM2-PM6",
       "BRS4-FM1-PM2",
@@ -4712,25 +4796,25 @@
     ],
     "PH009": [
       "BRS-X(ECS-PM4)",
-      "BRS1-FM1-PM4",
+      "BRS1-FM1-PM5",
       "BRS6-FM4-PM9"
     ],
     "PH008": [
       "BRS-X(Hormones-PM3)",
-      "BRS1-FM1-PM4",
-      "BRS1-FM4-PM8",
+      "BRS1-FM1-PM5",
+      "BRS1-FM4-PM9",
       "BRS6-FM2-PM5",
       "BRS6-FM3-PM7"
     ],
     "PH018": [
-      "BRS1-FM1-PM4",
-      "BRS1-FM4-PM8",
+      "BRS1-FM1-PM5",
+      "BRS1-FM4-PM9",
       "BRS3-FM1-PM2"
     ],
     "PH015": [
       "BRS-X(Hormones-PM3)",
-      "BRS1-FM4-PM10",
-      "BRS1-FM4-PM7",
+      "BRS1-FM4-PM11",
+      "BRS1-FM4-PM8",
       "BRS2-FM2-PM5",
       "BRS4-FM2-PM4",
       "BRS5-FM1-PM2",
@@ -4742,7 +4826,7 @@
       "BRS-X(ECS-PM2)",
       "BRS-X(ECS-PM3)",
       "BRS-X(ECS-PM5)",
-      "BRS1-FM1-PM4",
+      "BRS1-FM1-PM5",
       "BRS2-FM2-PM6",
       "BRS3-FM2-PM3",
       "BRS3-FM2-PM6",
@@ -4763,10 +4847,28 @@
         "evidence_summary": "Serotonergic signalling intersects negative-valence and cognitive-control circuits implicated in sustained worry and rumination across anxiety and depressive spectra; Briguglio et al. (2018) summarises dietary serotonin biology relevant to neuropsychiatric mood and anxiety contexts. Marsland et al. (2017) links systemic inflammation to default-mode connectivity patterns associated with perseverative thought — translational framing only, not dietary treatment efficacy.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM1-PM4",
+            "id": "BRS1-FM1-PM5",
             "name": "Serotonergic Signalling Regulation",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
             "relationship_type": "supports",
+            "confidence": "low-medium",
+            "evidence_level": "mechanistic"
+          }
+        ]
+      },
+      {
+        "target_phenome": "Cognitive Energy Stability",
+        "connected_pm_count": 1,
+        "strongest_relationship_type": "indirect",
+        "highest_evidence_level": "mechanistic",
+        "overall_confidence": "low-medium",
+        "evidence_summary": "Dopamine can influence willingness to sustain cognitive effort, but the strongest assessed human study measured effort choice rather than fatigue or performance decline over time {{cite:westbrook_dopamine_2020}}. Cognitive energy remains a multi-system outcome, and a dopamine-specific fatigue claim is unresolved.",
+        "contributing_pms": [
+          {
+            "id": "BRS1-FM1-PM3",
+            "name": "Dopaminergic Signalling Regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation",
+            "relationship_type": "indirect",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
           }
@@ -4778,12 +4880,12 @@
         "strongest_relationship_type": "supports",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "high",
-        "evidence_summary": "Serotonergic signalling is a core biological substrate for emotional regulation, impulse control, and affective stability in ADHD and related neuropsychiatric conditions — supported by ADHD-focused serotonin literature and human mechanistic emotion-regulation studies. Tryptophan availability and cofactor context modulates upstream supply; this scores biological relevance, not dietary treatment efficacy. Dietary tryptophan and broader indispensable amino-acid coverage may influence serotonergic precursor availability relevant to emotional regulation in ADHD; serotonin signalling and conversion belong on BRS1-FM1-PM4. Carbohydrate–protein meal structure can increase plasma tryptophan relative to competing LNAAs, biasing serotonergic precursor presentation relevant to emotional regulation in ADHD; serotonin signalling belongs on BRS1-FM1-PM4.",
+        "evidence_summary": "Serotonergic signalling is a core biological substrate for emotional regulation, impulse control, and affective stability in ADHD and related neuropsychiatric conditions — supported by ADHD-focused serotonin literature and human mechanistic emotion-regulation studies. Tryptophan availability and cofactor context modulates upstream supply; this scores biological relevance, not dietary treatment efficacy. Dietary tryptophan and broader indispensable amino-acid coverage may influence serotonergic precursor availability relevant to emotional regulation in ADHD; serotonin signalling and conversion belong on BRS1-FM1-PM5. Carbohydrate–protein meal structure can increase plasma tryptophan relative to competing LNAAs, biasing serotonergic precursor presentation relevant to emotional regulation in ADHD; serotonin signalling belongs on BRS1-FM1-PM5.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM1-PM4",
+            "id": "BRS1-FM1-PM5",
             "name": "Serotonergic Signalling Regulation",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
             "relationship_type": "supports",
             "confidence": "high",
             "evidence_level": "mechanistic"
@@ -4808,12 +4910,20 @@
       },
       {
         "target_phenome": "Focus / Attention Stability",
-        "connected_pm_count": 3,
+        "connected_pm_count": 4,
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "high",
-        "evidence_summary": "Meal-level amino-acid sufficiency and coverage of neurotransmitter-relevant substrates (including tyrosine and tryptophan) may support the precursor pool underlying catecholaminergic and serotonergic attention pathways relevant to ADHD; competitive LAT1 transport and downstream signalling are handled by sibling PMs (PM2–PM4), not substrate availability alone. Meal-level LNAA competition at LAT1 shapes tyrosine and tryptophan brain-entry bias relevant to catecholaminergic and serotonergic attention pathways in ADHD; transport modulation cannot substitute for substrate sufficiency (PM1) or downstream signalling (PM3/PM4). Noradrenergic signalling is a core biological determinant of attentional regulation, arousal, and executive control in ADHD — supported by locus coeruleus biology, neuropharmacology, and clinical stimulant pharmacology. Dietary tyrosine, iron, and B6 cofactor context modulates upstream substrate supply; this scores biological relevance within BRAIN, not dietary treatment efficacy.",
+        "evidence_summary": "Dopamine contributes to working memory and cognitive control, but the relationship is nonlinear and depends on baseline state and whether prefrontal stability or striatal updating is required {{cite:cools_inverted-u_2011}}. ADHD imaging findings are heterogeneous across dopamine processes, regions and medication histories rather than showing a uniform dopamine deficit {{cite:macdonald_dopamine_2024,fusar-poli_striatal_2012}}. Meal-level amino-acid sufficiency and coverage of neurotransmitter-relevant substrates (including tyrosine and tryptophan) may support the precursor pool underlying catecholaminergic and serotonergic attention pathways relevant to ADHD; competitive LAT1 transport and downstream signalling are handled by sibling PMs (PM2–PM5), not substrate availability alone. Meal-level LNAA competition at LAT1 shapes tyrosine and tryptophan brain-entry bias relevant to catecholaminergic and serotonergic attention pathways in ADHD; transport modulation cannot substitute for substrate sufficiency (PM1) or downstream signalling (PM3–PM5). Noradrenergic signalling is a core biological determinant of attentional regulation, arousal, and executive control in ADHD — supported by locus coeruleus biology, neuropharmacology, and clinical stimulant pharmacology. Dietary tyrosine, iron, and B6 cofactor context modulates upstream substrate supply; this scores biological relevance within BRAIN, not dietary treatment efficacy.",
         "contributing_pms": [
+          {
+            "id": "BRS1-FM1-PM3",
+            "name": "Dopaminergic Signalling Regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation",
+            "relationship_type": "modulates",
+            "confidence": "high",
+            "evidence_level": "mechanistic"
+          },
           {
             "id": "BRS1-FM1-PM1",
             "name": "Amino-Acid Availability & Prioritisation",
@@ -4831,9 +4941,9 @@
             "evidence_level": "mechanistic"
           },
           {
-            "id": "BRS1-FM1-PM3",
+            "id": "BRS1-FM1-PM4",
             "name": "Noradrenergic Signalling",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation",
             "relationship_type": "modulates",
             "confidence": "high",
             "evidence_level": "mechanistic"
@@ -4842,12 +4952,20 @@
       },
       {
         "target_phenome": "Motivation / Drive",
-        "connected_pm_count": 3,
+        "connected_pm_count": 4,
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "mechanistic",
         "overall_confidence": "high",
-        "evidence_summary": "Dietary tyrosine availability contributes to catecholamine precursor supply relevant to motivation and drive in ADHD populations; this PM governs amino-acid pool sufficiency only, not dopaminergic signalling or reward regulation (PM3/PM4). Protein-forward meal patterns can bias tyrosine relative to competing LNAAs at the blood–brain barrier, supporting catecholamine-relevant precursor presentation for motivation and drive contexts in ADHD; signalling outcomes belong on PM3/PM4. Noradrenergic signalling modulates arousal and effort-related monoaminergic tone relevant to motivation contexts in ADHD, but dopaminergic reward circuitry is the primary biological driver of Motivation / Drive. Upstream dietary cofactor and precursor context may influence this PM without implying pharmacologic equivalence. Evidence Confidence is low-medium because attached refs do not directly measure motivation outcomes on this PM.",
+        "evidence_summary": "Striatal dopamine synthesis capacity and controlled dopaminergic manipulation alter willingness to expend cognitive effort by changing benefit-versus-cost weighting, supporting a direct relationship with effort allocation rather than a general “reward chemical” account {{cite:westbrook_dopamine_2020}}. Dietary tyrosine availability contributes to catecholamine precursor supply relevant to motivation and drive in ADHD populations; this PM governs amino-acid pool sufficiency only, not dopaminergic, noradrenergic or serotonergic signalling or reward regulation (PM3–PM5). Protein-forward meal patterns can bias tyrosine relative to competing LNAAs at the blood–brain barrier, supporting catecholamine-relevant precursor presentation for motivation and drive contexts in ADHD; signalling outcomes belong on PM3–PM5. Noradrenergic signalling modulates arousal and effort-related monoaminergic tone relevant to motivation contexts in ADHD, but dopaminergic reward circuitry is the primary biological driver of Motivation / Drive. Upstream dietary cofactor and precursor context may influence this PM without implying pharmacologic equivalence. Evidence Confidence is low-medium because attached refs do not directly measure motivation outcomes on this PM.",
         "contributing_pms": [
+          {
+            "id": "BRS1-FM1-PM3",
+            "name": "Dopaminergic Signalling Regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation",
+            "relationship_type": "modulates",
+            "confidence": "high",
+            "evidence_level": "mechanistic"
+          },
           {
             "id": "BRS1-FM1-PM1",
             "name": "Amino-Acid Availability & Prioritisation",
@@ -4865,9 +4983,9 @@
             "evidence_level": "mechanistic"
           },
           {
-            "id": "BRS1-FM1-PM3",
+            "id": "BRS1-FM1-PM4",
             "name": "Noradrenergic Signalling",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation",
             "relationship_type": "modulates",
             "confidence": "medium",
             "evidence_level": "mechanistic"
@@ -4883,17 +5001,17 @@
         "evidence_summary": "Serotonin pathways intersect positive-valence and reward-related mood biology; saffron RCT evidence reports improved subclinical depressive symptoms and social-relationship quality alongside anxiety reduction in adults with low mood — mechanism boundary remains serotonergic signalling support, not saffron as a PM intervention. Noradrenergic and broader catecholaminergic signalling intersect reward anticipation and incentive motivation components of pleasure/interest capacity in RDoC Positive Valence framing; Gruber et al. (2023) reviews insulin–dopamine reward disruption in depression as adjacent translational context for monoaminergic supply.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM1-PM4",
+            "id": "BRS1-FM1-PM5",
             "name": "Serotonergic Signalling Regulation",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "intervention"
           },
           {
-            "id": "BRS1-FM1-PM3",
+            "id": "BRS1-FM1-PM4",
             "name": "Noradrenergic Signalling",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation",
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
@@ -4909,9 +5027,9 @@
         "evidence_summary": "Serotonergic pathways interact with dopaminergic reward circuits and may influence reward responsiveness and behavioural inhibition in ADHD-relevant contexts; Tang et al. (2025) and Faraone et al. (2025) establish nutritional and ADHD-focused serotonin biology rather than direct reward-outcome measurement.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM1-PM4",
+            "id": "BRS1-FM1-PM5",
             "name": "Serotonergic Signalling Regulation",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
             "relationship_type": "modulates",
             "confidence": "low",
             "evidence_level": "mechanistic"
@@ -4927,9 +5045,9 @@
         "evidence_summary": "Serotonergic signalling is a major contributory determinant of sleep–wake and calming neurochemistry; substantial serotonergic dysfunction would be expected to affect Sleep / Calming Tone as a biological consequence. Fernstrom (2013) establishes pathway biology; Evidence Confidence is low because attached refs do not directly measure sleep outcomes on this PM.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM1-PM4",
+            "id": "BRS1-FM1-PM5",
             "name": "Serotonergic Signalling Regulation",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
             "relationship_type": "supports",
             "confidence": "medium",
             "evidence_level": "mechanistic"
@@ -4945,9 +5063,9 @@
         "evidence_summary": "Serotonergic tone modulates affiliative and social-affective behaviour in translational framing; Jackson et al. (2021) reported improved social relationships with saffron supplementation in subclinical mood/anxiety contexts — attached evidence is intervention-level, not direct serotonergic social-outcome measurement on this PM.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM1-PM4",
+            "id": "BRS1-FM1-PM5",
             "name": "Serotonergic Signalling Regulation",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
             "relationship_type": "modulates",
             "confidence": "low",
             "evidence_level": "intervention"
@@ -4963,9 +5081,9 @@
         "evidence_summary": "Serotonergic signalling interacts with stress-response systems, emotional processing, and HPA-axis regulation relevant to ADHD stress contexts; Tang et al. (2025) and Faraone et al. (2025) establish nutritional and ADHD-focused serotonin biology rather than direct stress-resilience outcome measurement on this PM.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM1-PM4",
+            "id": "BRS1-FM1-PM5",
             "name": "Serotonergic Signalling Regulation",
-            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation",
+            "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation",
             "relationship_type": "supports",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
@@ -4983,9 +5101,9 @@
         "evidence_summary": "GABAergic inhibition is relevant to anxiety-related processes, providing a plausible biological connection to Apprehensive Worry. The closest human trial found that high-dose vitamin B6 reduced self-reported anxiety and strengthened an inhibitory visual assay, but it measured neither GABA nor GABA synthesis {{cite:field_high-dose_2022}}. No study here directly assessed worry, rumination or perseverative thought, while GAD65-deficient mice show sex-dependent rather than uniform anxiety-like changes {{cite:ulrich_sex_2023}}.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM4-PM8",
+            "id": "BRS1-FM4-PM9",
             "name": "GABA Synthesis Capacity",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity",
+            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity",
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
@@ -5001,9 +5119,9 @@
         "evidence_summary": "Framework translation: efficient glutamate uptake and recycling may support stable synaptic signalling context relevant to cognitive clarity; Zhou and Danbolt (2014) establishes clearance biochemistry without direct cognitive clarity outcome measurement in ADHD cohorts.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM4-PM9",
+            "id": "BRS1-FM4-PM10",
             "name": "Glutamate Clearance & Recycling",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling",
+            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling",
             "relationship_type": "modulates",
             "confidence": "low",
             "evidence_level": "mechanistic"
@@ -5019,17 +5137,17 @@
         "evidence_summary": "GABA contributes to inhibitory neural processes involved in behavioural and emotional regulation. Human studies link GABA concentrations in relevant brain regions with impulsivity and aggression {{cite:ende_impulsivity_2016}}, supporting the relevance of GABA biology to Emotional Regulation. However, these studies measure GABA concentration rather than synthesis rate {{cite:mason_decrease_2001,manor_rate_1996}}, and direct human evidence connecting GABA synthesis capacity itself with Emotional Regulation is currently lacking. Matched GABAergic–glutamatergic excitation–inhibition balance is a major contributory determinant of emotional control and reactivity; substantial E/I imbalance would be expected to impair Emotional Regulation as a direct biological consequence. Edden et al. (2012) and Puts et al. (2020) report reduced GABA in ADHD cohorts; Evidence Confidence is low because biomarkers do not measure emotional-regulation scales directly on this row.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM4-PM8",
+            "id": "BRS1-FM4-PM9",
             "name": "GABA Synthesis Capacity",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity",
+            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity",
             "relationship_type": "modulates",
             "confidence": "medium",
             "evidence_level": "intervention"
           },
           {
-            "id": "BRS1-FM4-PM7",
+            "id": "BRS1-FM4-PM8",
             "name": "GABA–Glutamate Neurotransmission Balance",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance",
+            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
             "relationship_type": "modulates",
             "confidence": "medium",
             "evidence_level": "mechanistic"
@@ -5042,20 +5160,20 @@
         "strongest_relationship_type": "modulates",
         "highest_evidence_level": "observational",
         "overall_confidence": "high",
-        "evidence_summary": "Maltezos et al. (2014) linked glutamate in critical brain areas to Barkley attention scale scores in adults with ADHD; glutamate clearance and recycling constrain excitatory load relevant to attention contexts—transport and uptake biochemistry belong on this PM, not integrative E/I balance (PM7). Excitatory–inhibitory balance between glutamate and GABA is a core biological determinant of attentional stability in ADHD — supported by reduced GABA biomarker studies in ADHD cohorts (Edden et al., 2012; Puts et al., 2020) and glutamate– attention associations (Maltezos et al., 2014). This PM integrates E/I tone; synthesis and clearance are handled on PM8–PM9.",
+        "evidence_summary": "Maltezos et al. (2014) linked glutamate in critical brain areas to Barkley attention scale scores in adults with ADHD; glutamate clearance and recycling constrain excitatory load relevant to attention contexts—transport and uptake biochemistry belong on this PM, not integrative E/I balance (PM8). Excitatory–inhibitory balance between glutamate and GABA is a core biological determinant of attentional stability in ADHD — supported by reduced GABA biomarker studies in ADHD cohorts (Edden et al., 2012; Puts et al., 2020) and glutamate– attention associations (Maltezos et al., 2014). This PM integrates E/I tone; synthesis and clearance are handled on PM9–PM10.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM4-PM9",
+            "id": "BRS1-FM4-PM10",
             "name": "Glutamate Clearance & Recycling",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling",
+            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling",
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
           },
           {
-            "id": "BRS1-FM4-PM7",
+            "id": "BRS1-FM4-PM8",
             "name": "GABA–Glutamate Neurotransmission Balance",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance",
+            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
             "relationship_type": "modulates",
             "confidence": "high",
             "evidence_level": "observational"
@@ -5071,9 +5189,9 @@
         "evidence_summary": "Framework translation: limiting chronic excitotoxic signalling burden may support neural recovery context under sustained excitatory load; evidence on this PM is preclinical and mechanistic rather than human recovery outcome data.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM4-PM10",
+            "id": "BRS1-FM4-PM11",
             "name": "Excitotoxicity Modulation",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation",
+            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation",
             "relationship_type": "modulates",
             "confidence": "low",
             "evidence_level": "mechanistic"
@@ -5089,9 +5207,9 @@
         "evidence_summary": "GABAergic inhibition supports calming neurophysiology relevant to sleep and arousal balance. In adults with polysomnography-verified primary insomnia, brain GABA concentration has been compared with good sleepers in three independent samples, reporting lower, higher, and null group differences {{cite:winkelman_reduced_2008,morgan_cortical_2012,spiegelhalder_magnetic_2016}}. However, the human findings are inconsistent, and these studies measure GABA concentration rather than GABA synthesis capacity.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM4-PM8",
+            "id": "BRS1-FM4-PM9",
             "name": "GABA Synthesis Capacity",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity",
+            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity",
             "relationship_type": "modulates",
             "confidence": "high",
             "evidence_level": "mechanistic"
@@ -5107,9 +5225,9 @@
         "evidence_summary": "GABAergic regulation may influence Social Engagement indirectly through processes such as arousal and threat processing. In mice, lifelong loss of GAD65 increased preference for social interaction partners in both sexes {{cite:ulrich_sex_2023}}, opposite to a simple expectation that reduced GABA synthesis would reduce social approach. There is no human evidence linking GABA synthesis capacity to social engagement, and rodent partner preference is not equivalent to human social capacity.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM4-PM8",
+            "id": "BRS1-FM4-PM9",
             "name": "GABA Synthesis Capacity",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity",
+            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity",
             "relationship_type": "indirect",
             "confidence": "low",
             "evidence_level": "mechanistic"
@@ -5125,17 +5243,17 @@
         "evidence_summary": "Excitation–inhibition balance modulates inhibitory control under arousal load; matched E/I tone is a contributory determinant of Stress Reactivity when excitatory drive exceeds inhibitory capacity. Mamiya et al. (2021) establishes E/I network framing; Evidence Confidence is low because attached refs do not directly measure stress-reactivity outcomes on this PM. Framework translation: modulating excitotoxic glutamatergic burden may intersect reactivity under excitatory load; Mamiya et al. (2021) frames network E/I balance while Clerc et al. (2013) provides preclinical magnesium–glutamate receptor context—not direct human stress-reactivity outcomes.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM4-PM7",
+            "id": "BRS1-FM4-PM8",
             "name": "GABA–Glutamate Neurotransmission Balance",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance",
+            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance",
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
           },
           {
-            "id": "BRS1-FM4-PM10",
+            "id": "BRS1-FM4-PM11",
             "name": "Excitotoxicity Modulation",
-            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation",
+            "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation",
             "relationship_type": "modulates",
             "confidence": "low",
             "evidence_level": "mechanistic"
@@ -5829,9 +5947,9 @@
         "evidence_summary": "Acetylcholine synthesis is a major contributory determinant of cholinergic cognitive precision and working-memory biology; impaired synthesis capacity would be expected to affect Cognitive Clarity as a direct biological consequence. Primary refs establish choline substrate and neurodevelopmental cholinergic context (Derbyshire et al., 2023; Briguglio et al., 2018) without direct cognitive-clarity outcome measurement on this PM.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM2-PM5",
+            "id": "BRS1-FM2-PM6",
             "name": "Acetylcholine Synthesis Support",
-            "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support",
+            "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support",
             "relationship_type": "modulates",
             "confidence": "medium",
             "evidence_level": "mechanistic"
@@ -5847,9 +5965,9 @@
         "evidence_summary": "Johansson et al. (2013) report decreased muscarinic acetylcholine receptor binding in boys with ADHD, supporting cholinergic biology relevant to attention in ADHD populations. Derbyshire and Maes (2023) review low choline intake and altered choline status in neurodevelopmental disorders including ADHD. This PM governs dietary choline substrate for acetylcholine synthesis—not direct choline supplementation outcome claims.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM2-PM5",
+            "id": "BRS1-FM2-PM6",
             "name": "Acetylcholine Synthesis Support",
-            "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support",
+            "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support",
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
@@ -5867,9 +5985,9 @@
         "evidence_summary": "DHA incorporation into neuronal phospholipids may support synaptic signalling competence and membrane architecture relevant to cognitive clarity without direct ADHD treatment-efficacy claims.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM3-PM6",
+            "id": "BRS1-FM3-PM7",
             "name": "Neuronal Membrane DHA Incorporation",
-            "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+            "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation",
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"
@@ -5885,9 +6003,9 @@
         "evidence_summary": "Huss et al. (2010) measured SDQ emotional problems directly: fewer emotional problems at 12 weeks versus baseline in children seeking medical advice for ADHD-related symptoms, alongside SNAP-IV attention/hyperactivity change, following combined omega-3/6 PUFA with magnesium and zinc. Membrane DHA delivery and incorporation remain the mechanism boundary; the observational multi-nutrient design prevents isolating membrane biology from co-supplemented minerals.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM3-PM6",
+            "id": "BRS1-FM3-PM7",
             "name": "Neuronal Membrane DHA Incorporation",
-            "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+            "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation",
             "relationship_type": "modulates",
             "confidence": "medium",
             "evidence_level": "observational"
@@ -5903,9 +6021,9 @@
         "evidence_summary": "Neuronal membrane DHA enrichment and phospholipid-carrier delivery may support membrane properties relevant to attention and neuropsychological function in ADHD-relevant populations; delivery form, barrier transport, and habitual intake matter—not isolated bolus dosing.",
         "contributing_pms": [
           {
-            "id": "BRS1-FM3-PM6",
+            "id": "BRS1-FM3-PM7",
             "name": "Neuronal Membrane DHA Incorporation",
-            "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+            "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation",
             "relationship_type": "modulates",
             "confidence": "low-medium",
             "evidence_level": "mechanistic"

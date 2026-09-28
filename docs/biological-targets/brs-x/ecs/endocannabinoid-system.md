@@ -22,9 +22,12 @@ hide_title: true
 (Lipid-Mediated Neuromodulation & Stress Buffering)
 
 <!-- brs-hub-all-mechanisms:start -->
-<div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index">
+<div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand All Mechanisms of BRS-X-ECS">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
 <div class="brs-fm-hub-group-summary-body">
 <p class="brs-fm-hub-group-heading">All Mechanisms of BRS-X-ECS</p>
 <ul class="brs-fm-hub-group-title-list">
@@ -36,8 +39,63 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity">BRS-X(ECS-PM1) — NAPE → NAE Biosynthesis Capacity</a></li>
+    <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling">BRS-X(ECS-PM2) — Omega-3-Derived Endocannabinoidome Signalling</a></li>
+    <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation">BRS-X(ECS-PM3) — FAAH-Mediated Endocannabinoid Preservation</a></li>
+    <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation">BRS-X(ECS-PM4) — Endocannabinoid–Dopamine Neuromodulation</a></li>
+    <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity">BRS-X(ECS-PM5) — Endocannabinoid Stress-Buffering Capacity</a></li>
+  </ul>
 </li>
 </ul>
+</div>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS-X(ECS-FM1) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS-X(ECS-FM1) — Endocannabinoidome Signalling Capacity & Neuromodulatory Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-fm1-endocannabinoidome-signalling-capacity-and-neuromodulatory-regulation" aria-label="Open FM: BRS-X(ECS-FM1) — Endocannabinoidome Signalling Capacity & Neuromodulatory Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity">BRS-X(ECS-PM1) — NAPE → NAE Biosynthesis Capacity</a></li>
+  <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling">BRS-X(ECS-PM2) — Omega-3-Derived Endocannabinoidome Signalling</a></li>
+  <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation">BRS-X(ECS-PM3) — FAAH-Mediated Endocannabinoid Preservation</a></li>
+  <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm4-endocannabinoid-dopamine-neuromodulation">BRS-X(ECS-PM4) — Endocannabinoid–Dopamine Neuromodulation</a></li>
+  <li><a href="/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm5-endocannabinoid-stress-buffering-capacity">BRS-X(ECS-PM5) — Endocannabinoid Stress-Buffering Capacity</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains endocannabinoidome signalling capacity by coordinating precursor availability, N-acyl ethanolamine production, degradation balance, and neuromodulatory interactions.
+
+**FM page:** [BRS-X(ECS-FM1) — Endocannabinoidome Signalling Capacity & Neuromodulatory Regulation](/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-fm1-endocannabinoidome-signalling-capacity-and-neuromodulatory-regulation)
+
+**Primary biological effects:** ↑ endocannabinoidome precursor and NAE signalling capacity; ↑ FAAH-sensitive endogenous tone preservation; ↑ dopaminergic neuromodulatory coupling; ↑ stress-buffering and neuroinflammatory modulation context; ↓ diet-limited endocannabinoidome insufficiency
+
+**Modulation context:** Intervention: Mixed Modulation · Timing-specific: Yes · Coverage: Daily
+
+**Key constraints:**
+
+- [BRS-X(ECS-KC1) — Phospholipid & NAPE Precursor Availability](/docs/biological-targets/brs-x/ecs/kc/brs-x-ecs-kc1-phospholipid-nape-precursor-availability)
+
+**Connected mechanisms:**
+
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — Classical NAPE → NAE biosynthesis from phospholipids
+- [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — monoaminergic Function
+- [BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation) — This PM integrates stress modulation, inflammation buffering, and glutamatergic regulation context — not isolated CB1/CB2 receptor biology. NAPE biosynthesis
+
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -175,7 +233,7 @@ Maintains endocannabinoidome signalling capacity by coordinating precursor avail
 
 **Connected mechanisms:**
 
-- [BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation) — Classical NAPE → NAE biosynthesis from phospholipids
+- [BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation](/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation) — Classical NAPE → NAE biosynthesis from phospholipids
 - [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — monoaminergic Function
 - [BRS6(FM2) — HPA Axis Rhythm & Cortisol Regulation](/docs/biological-targets/brs6/fm2/brs6-fm2-hpa-axis-rhythm-and-cortisol-regulation) — This PM integrates stress modulation, inflammation buffering, and glutamatergic regulation context — not isolated CB1/CB2 receptor biology. NAPE biosynthesis
 

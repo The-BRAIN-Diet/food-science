@@ -1,17 +1,17 @@
 # BRS-X(Circadian) — Implementation Specification
 
-**Status:** Spec only — **do not implement hub/FM/PM pages or migrate BRS6-FM2-PM5 until the ADHD paper ships.**  
-**Authoritative schema:** `system/brs-x-schema.md`, `system/specific-mechanism-schema.md`, `system/primary-mechanism-schema.md`  
+**Status:** Spec only — **do not implement hub/FM/PM pages or migrate BRS6-FM2-PM5 until the ADHD paper ships.**
+**Authoritative schema:** `system/brs-x-schema.md`, `system/specific-mechanism-schema.md`, `system/primary-mechanism-schema.md`
 **Related manuscript:** `paper.txt` Section 10 (Circadian Rhythm Modulators, Chrono-Nutrition, Exercise, Sleep)
 
 ---
 
 ## 1. Purpose & positioning
 
-**System ID:** `BRS-X(Circadian)`  
-**Working title:** Circadian Rhythm Regulation  
-**Hub path (post-v1):** `docs/biological-targets/brs-x/circadian/circadian-rhythm-regulation.md`  
-**Permalink (post-v1):** `/docs/biological-targets/brs-x/circadian/brs-x-circadian`  
+**System ID:** `BRS-X(Circadian)`
+**Working title:** Circadian Rhythm Regulation
+**Hub path (post-v1):** `docs/biological-targets/brs-x/circadian/circadian-rhythm-regulation.md`
+**Permalink (post-v1):** `/docs/biological-targets/brs-x/circadian/brs-x-circadian`
 **Register on:** `docs/biological-targets/cross-system-regulation.md`
 
 **One-line:** Cross-system timing architecture coordinating light, sleep, feeding, and neuroendocrine/metabolic oscillations across BRS1–BRS6.
@@ -43,10 +43,10 @@ BRS6(KC1/KC2) remain on BRS6 pages. Circadian KCs describe **timing-layer** suff
 
 ### FM1 — Zeitgeber Entrainment & Chrono-Structure
 
-**FM ID:** `BRS-X(Circadian-FM1)`  
+**FM ID:** `BRS-X(Circadian-FM1)`
 **Summary:** Aligns central and peripheral clocks through light, sleep–wake, and feeding timing — the upstream inputs that set 24-hour phase across systems.
 
-**Primary biological effects:** ↑ phase alignment; ↑ zeitgeber coherence; ↓ circadian misalignment; ↑ sleep–wake stability  
+**Primary biological effects:** ↑ phase alignment; ↑ zeitgeber coherence; ↓ circadian misalignment; ↑ sleep–wake stability
 **Modulation:** Behavioural/Lifestyle Dominant · Timing-specific: Yes · Coverage: Daily
 
 | PM | ID | Title |
@@ -88,10 +88,10 @@ BRS6(KC1/KC2) remain on BRS6 pages. Circadian KCs describe **timing-layer** suff
 
 ### FM2 — Circadian Metabolic & Endocrine Oscillation
 
-**FM ID:** `BRS-X(Circadian-FM2)`  
+**FM ID:** `BRS-X(Circadian-FM2)`
 **Summary:** How molecular clocks and peripheral rhythms reshape NAD⁺, cortisol, insulin sensitivity, and mitochondrial metabolic output across the 24-hour cycle.
 
-**Primary biological effects:** ↑ diurnal metabolic rhythm stability; ↑ NAD⁺ phase coupling; ↑ time-appropriate insulin sensitivity; ↓ misalignment-driven endocrine drift  
+**Primary biological effects:** ↑ diurnal metabolic rhythm stability; ↑ NAD⁺ phase coupling; ↑ time-appropriate insulin sensitivity; ↓ misalignment-driven endocrine drift
 **Modulation:** Mixed Modulation · Timing-specific: Yes · Coverage: Daily
 
 | PM | ID | Title |
@@ -130,10 +130,10 @@ BRS6(KC1/KC2) remain on BRS6 pages. Circadian KCs describe **timing-layer** suff
 
 ### FM3 — Circadian Neurochemical & Sleep–Wake Coupling
 
-**FM ID:** `BRS-X(Circadian-FM3)`  
+**FM ID:** `BRS-X(Circadian-FM3)`
 **Summary:** Diurnal neurotransmitter phasing, melatonin biology, and arousal/sleep chemistry — how nutrient timing supports brain-relevant circadian outputs.
 
-**Primary biological effects:** ↑ sleep–wake neurochemistry alignment; ↑ melatonin substrate context; ↑ time-appropriate monoamine bias; ↓ arousal–sleep conflict  
+**Primary biological effects:** ↑ sleep–wake neurochemistry alignment; ↑ melatonin substrate context; ↑ time-appropriate monoamine bias; ↓ arousal–sleep conflict
 **Modulation:** Food-State Leaning + Lifestyle · Timing-specific: Yes
 
 | PM | ID | Title |
@@ -161,7 +161,7 @@ BRS6(KC1/KC2) remain on BRS6 pages. Circadian KCs describe **timing-layer** suff
 
 | Target | Connection |
 |--------|------------|
-| BRS1-FM1-PM1–PM4 | Monoaminergic timing context |
+| BRS1-FM1-PM1–PM5 | Monoaminergic timing context; PM3 evidence assessment pending |
 | BRS1(SM-CROSS1) | Histaminergic arousal × circadian entrainment |
 | BRS5-FM2-PM5/PM6 | SCFA / butyrate–melatonin interface (Checa-Ros — defer detail to FM4) |
 
@@ -182,12 +182,12 @@ BRS6(KC1/KC2) remain on BRS6 pages. Circadian KCs describe **timing-layer** suff
 
 List **specific PM/FM pages** only — never BRS hubs alone.
 
-**BRS1:** FM1-PM1, FM1-PM2, FM1-PM4, SM-CROSS1  
-**BRS2:** FM1-PM3 (SAMe — brief link only)  
-**BRS3:** hub oxidative narrative (sleep/circadian disruption) until PM added  
-**BRS4:** FM1-PM2, FM1  
-**BRS5:** FM2-PM4, FM2-PM5  
-**BRS6:** FM2-PM4, FM2-PM5 (revised), FM1-PM1–PM3, FM3  
+**BRS1:** FM1-PM1, FM1-PM2, FM1-PM4, SM-CROSS1
+**BRS2:** FM1-PM3 (SAMe — brief link only)
+**BRS3:** hub oxidative narrative (sleep/circadian disruption) until PM added
+**BRS4:** FM1-PM2, FM1
+**BRS5:** FM2-PM4, FM2-PM5
+**BRS6:** FM2-PM4, FM2-PM5 (revised), FM1-PM1–PM3, FM3
 
 ---
 
@@ -221,7 +221,7 @@ List **specific PM/FM pages** only — never BRS hubs alone.
 
 ### New BRS6-FM2-PM5 (replacement)
 
-**Title:** Circadian Misalignment → HPA–Metabolic Stress Interface  
+**Title:** Circadian Misalignment → HPA–Metabolic Stress Interface
 **Keep pm_id:** `BRS6-FM2-PM5` (recommended — avoids renumbering FM2 PM list)
 
 **Definition:** How circadian misalignment and erratic timing propagate into BRS6-relevant HPA drift, glycaemic instability, and autonomic stress load — **downstream consequences**, not zeitgeber instruction.
@@ -263,13 +263,13 @@ List **specific PM/FM pages** only — never BRS hubs alone.
 
 ## 7. Evidence tiering (hub ADHD dropdown, post-v1)
 
-**Tier 1 (ADHD-facing):** Scheer, Garaulet, Hatori, Takahashi 2024, Franzago 2023, Poggiogalle 2018, Peuhkuri 2012  
+**Tier 1 (ADHD-facing):** Scheer, Garaulet, Hatori, Takahashi 2024, Franzago 2023, Poggiogalle 2018, Peuhkuri 2012
 
-**Tier 2 (architecture):** Ramsey, Nakahata, Wurtman, Huang 2020, Tähkämö, Silvani  
+**Tier 2 (architecture):** Ramsey, Nakahata, Wurtman, Huang 2020, Tähkämö, Silvani
 
-**Tier 3 (modulators — hub paragraph only):** Youngstedt, Burke (caffeine), exercise, stress techniques  
+**Tier 3 (modulators — hub paragraph only):** Youngstedt, Burke (caffeine), exercise, stress techniques
 
-**Therapeutic-area only:** Becker 2019, Isaksson 2012, Nair 2025, Hirose 2025  
+**Therapeutic-area only:** Becker 2019, Isaksson 2012, Nair 2025, Hirose 2025
 
 ---
 
@@ -287,13 +287,13 @@ Same deferral policy as exercise/stress modulators elsewhere in the framework.
 
 ## 9. Hub page skeleton
 
-1. Overview  
-2. Functional Mechanisms (FM1–FM3 `<details>`)  
-3. Requirements (KC1, KC2)  
-4. Connected BRS Mechanisms (BRS1–6 table)  
-5. ADHD dropdown (optional, post-v1)  
-6. References (Tier 1)  
-7. Modulators (future) — §8 paragraph  
+1. Overview
+2. Functional Mechanisms (FM1–FM3 `<details>`)
+3. Requirements (KC1, KC2)
+4. Connected BRS Mechanisms (BRS1–6 table)
+5. ADHD dropdown (optional, post-v1)
+6. References (Tier 1)
+7. Modulators (future) — §8 paragraph
 
 Mirror ECS/Hormones hub: `docs/biological-targets/brs-x/ecs/endocannabinoid-system.md`.
 

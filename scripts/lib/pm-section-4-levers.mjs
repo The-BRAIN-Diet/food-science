@@ -3,7 +3,7 @@
  * 4.1 Dietary → 4.2 System Optimisation Practices → 4.3 Lifestyle
  */
 
-export const PM6_ID = "BRS1-FM3-PM6";
+export const PM6_ID = "BRS1-FM3-PM7";
 
 export const PM_LEVER_HEADINGS = {
   optimisation: "4.2 System Optimisation Practices",
@@ -474,7 +474,7 @@ function isOptimisationNestedInDietary(content) {
 export function hoistOptimisationToTopLevel(content) {
   if (!isOptimisationNestedInDietary(content)) return { content, changed: false };
 
-  const dietary = extractHubItemBlock(content, DIETARY_HEADING);
+  const dietary = dietaryParentBlock(content);
   const optimisation = extractHubItemBlock(content, PM_LEVER_HEADINGS.optimisation);
   const cleanedDietaryBlock = dietary.block
     .replace(optimisation.block, "")

@@ -330,7 +330,7 @@ Immediately follow the opening paragraph with **exactly 3 concise bullets** high
 
 **Good bullet:** `Supports neurotransmitter synthesis and regulation through methylation-dependent pathways — Supporting BRS1.`
 
-**Poor bullet:** `Contributes to BRS1-FM1 monoaminergic integration via PM3/PM4 cross-links.`
+**Poor bullet:** `Contributes to BRS1-FM1 monoaminergic integration via PM3–PM5 cross-links.`
 
 ### Role split (Definition vs Mechanistic Basis)
 

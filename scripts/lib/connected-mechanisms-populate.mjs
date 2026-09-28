@@ -9,7 +9,7 @@ const HUB_PATH_RE =
   /\/docs\/biological-targets\/(?:methylation-one-carbon-metabolism|neurotransmitter-regulation|inflammation-oxidative-stress|mitochondrial-function-bioenergetics|gut-brain-axis-enteric-nervous-system|metabolic-neuroendocrine-stress|endocannabinoid-system|hormone-signalling-regulation)(?:\)|$)/;
 
 export const CURATED_PM_CONNECTIONS = {
-  "BRS1-FM3-PM6": [
+  "BRS1-FM3-PM7": [
     {
       label: "BRS3-FM2-PM5 — Lipid Peroxidation Control",
       href: "/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control",
@@ -35,8 +35,8 @@ export const CURATED_PM_CONNECTIONS = {
   ],
   "BRS3-FM3-PM8": [
     {
-      label: "BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation",
-      href: "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation",
+      label: "BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation",
+      href: "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation",
       connection: "membrane long-chain PUFA substrate pools feeding specialized pro-resolving mediator formation",
     },
     {

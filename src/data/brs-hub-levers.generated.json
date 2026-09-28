@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": 3,
-    "description": "BRS hub dietary and integrated lifestyle priority rollups — PM §4.1.1, §4.1.3 KCs, §4.2; curated Lifestyle Priorities in scripts/data/brs-hub-lifestyle-priorities.mjs.",
-    "generatedAt": "2026-06-29T12:23:46.022Z"
+    "description": "BRS hub dietary and integrated lifestyle priority rollups — PM §4.1.1, §4.1.3 KCs, §4.3; curated Lifestyle Priorities in scripts/data/brs-hub-lifestyle-priorities.mjs.",
+    "generatedAt": "2026-09-28T11:15:15.408Z"
   },
   "brs": {
     "BRS-X(ECS)": {
@@ -141,55 +141,23 @@
           ]
         },
         {
-          "action": "Maintain regular meal patterns with phospholipid- and omega-3-rich foods",
-          "explanation": "to support dietary entry into endocannabinoid precursor pools and related signalling context.",
-          "label": "Maintain regular meal patterns with phospholipid- and omega-3-rich foods to support dietary entry into endocannabinoid precursor pools and related signalling context.",
+          "action": "Maintain regular meal timing",
+          "explanation": "to support steady dietary entry into endocannabinoid precursor pools across the day.",
+          "label": "Maintain regular meal timing to support steady dietary entry into endocannabinoid precursor pools across the day.",
           "source_pms": [
             {
               "id": "BRS-X(ECS-PM1)",
               "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm1-nape-nae-biosynthesis-capacity"
-            },
-            {
-              "id": "BRS-X(ECS-PM2)",
-              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling"
-            }
-          ]
-        },
-        {
-          "action": "Limit ultra-processed, low-omega-3 dietary patterns",
-          "explanation": "to help preserve endocannabinoid-related signalling context supported by whole-food fat quality.",
-          "label": "Limit ultra-processed, low-omega-3 dietary patterns to help preserve endocannabinoid-related signalling context supported by whole-food fat quality.",
-          "source_pms": [
-            {
-              "id": "BRS-X(ECS-PM2)",
-              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm2-omega-3-derived-endocannabinoidome-signalling"
-            },
-            {
-              "id": "BRS-X(ECS-PM3)",
-              "href": "/docs/biological-targets/brs-x/ecs/fm1/brs-x-ecs-pm3-faah-mediated-endocannabinoid-preservation"
             }
           ]
         }
       ],
-      "key_constraints": {
-        "foods": [
-          "Eggs",
-          "Fish",
-          "Fish roe",
-          "Legumes",
-          "Liver",
-          "Oats",
-          "Soy"
-        ],
-        "commentary": "Key dietary constraints include phospholipid-rich whole foods, choline and NAPE precursor availability, and omega-3-supportive patterns that sustain endogenous lipid mediator formation.",
-        "show_food_list": true,
-        "kc_count": 1
-      },
+      "key_constraints": null,
       "stats": {
         "pm_count": 5,
         "unique_foods": 16,
-        "unique_lifestyle": 3,
-        "unique_key_constraints": 1,
+        "unique_lifestyle": 2,
+        "unique_key_constraints": 0,
         "nutrient_dense_stars": 6,
         "pm_lifestyle_notes": 10
       },
@@ -350,24 +318,9 @@
           ]
         },
         {
-          "action": "Emphasise repeated fermentable-fibre patterns over short probiotic bursts",
-          "explanation": "to support microbial steroid metabolism, estrobolome stability, and durable gut–hormone integration.",
-          "label": "Emphasise repeated fermentable-fibre patterns over short probiotic bursts to support microbial steroid metabolism, estrobolome stability, and durable gut–hormone integration.",
-          "source_pms": [
-            {
-              "id": "BRS-X(Hormones-PM2)",
-              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation"
-            },
-            {
-              "id": "BRS-X(Hormones-PM3)",
-              "href": "/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism"
-            }
-          ]
-        },
-        {
-          "action": "Limit antibiotic overuse and ultra-processed low-fibre eating",
+          "action": "Limit unnecessary antibiotic exposure where clinically appropriate",
           "explanation": "to help preserve microbial ecology that supports healthy steroid and androgen-related metabolism.",
-          "label": "Limit antibiotic overuse and ultra-processed low-fibre eating to help preserve microbial ecology that supports healthy steroid and androgen-related metabolism.",
+          "label": "Limit unnecessary antibiotic exposure where clinically appropriate to help preserve microbial ecology that supports healthy steroid and androgen-related metabolism.",
           "source_pms": [
             {
               "id": "BRS-X(Hormones-PM2)",
@@ -380,29 +333,14 @@
           ]
         }
       ],
-      "key_constraints": {
-        "foods": [
-          "Apples",
-          "Chicory",
-          "Cooled Potatoes",
-          "Cooled Rice",
-          "Flax",
-          "Green Bananas",
-          "Legumes",
-          "Oats",
-          "Onions"
-        ],
-        "commentary": "Key dietary constraints include fermentable fibre and prebiotic substrate, diverse plant-polyphenol intake, and protein and micronutrient sufficiency supporting microbial hormone metabolism.",
-        "show_food_list": true,
-        "kc_count": 1
-      },
+      "key_constraints": null,
       "stats": {
         "pm_count": 6,
         "unique_foods": 15,
-        "unique_lifestyle": 4,
-        "unique_key_constraints": 1,
+        "unique_lifestyle": 3,
+        "unique_key_constraints": 0,
         "nutrient_dense_stars": 5,
-        "pm_lifestyle_notes": 13
+        "pm_lifestyle_notes": 12
       },
       "dietary_strategy_prose": "Include fermentable fibre from vegetables, legumes, and whole grains to support microbial hormone metabolism. Eat a diverse range of plant foods across the week, phytoestrogen-containing whole foods where relevant to life stage, and adequate protein and micronutrients to support hormonal milieu through food-first patterns.",
       "dietary_strategy_targets": null
@@ -419,11 +357,11 @@
             "source_pms": [
               {
                 "id": "BRS1-FM4-PM10",
-                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation"
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling"
               },
               {
-                "id": "BRS1-FM4-PM9",
-                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling"
+                "id": "BRS1-FM4-PM11",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation"
               }
             ]
           },
@@ -443,20 +381,20 @@
                 "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation"
               },
               {
-                "id": "BRS1-FM1-PM3",
-                "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation"
-              },
-              {
                 "id": "BRS1-FM1-PM4",
-                "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation"
+                "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation"
               },
               {
-                "id": "BRS1-FM2-PM5",
-                "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support"
+                "id": "BRS1-FM1-PM5",
+                "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation"
               },
               {
-                "id": "BRS1-FM3-PM6",
-                "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation"
+                "id": "BRS1-FM2-PM6",
+                "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support"
+              },
+              {
+                "id": "BRS1-FM3-PM7",
+                "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation"
               }
             ]
           },
@@ -468,8 +406,8 @@
             "explanation": "Provides monounsaturated fats and polyphenols that support membrane context and glutamate clearance pathways within neuronal signalling balance.",
             "source_pms": [
               {
-                "id": "BRS1-FM4-PM9",
-                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling"
+                "id": "BRS1-FM4-PM10",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling"
               }
             ]
           },
@@ -481,8 +419,8 @@
             "explanation": "Delivers phospholipid-bound DHA in a food matrix suited to neuronal membrane incorporation rather than isolated triglyceride omega-3 alone.",
             "source_pms": [
               {
-                "id": "BRS1-FM3-PM6",
-                "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation"
+                "id": "BRS1-FM3-PM7",
+                "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation"
               }
             ]
           },
@@ -492,12 +430,7 @@
             "food_href": "/docs/foods/greek-yogurt",
             "missing_food_page": false,
             "explanation": "Fermented dairy providing protein matrix and microbial metabolites that support GABA synthesis capacity within the gut–neurotransmitter interface.",
-            "source_pms": [
-              {
-                "id": "BRS1-FM4-PM8",
-                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
-              }
-            ]
+            "source_pms": []
           },
           {
             "label": "Lentils",
@@ -509,10 +442,6 @@
               {
                 "id": "BRS1-FM1-PM1",
                 "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation"
-              },
-              {
-                "id": "BRS1-FM4-PM8",
-                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
               }
             ]
           },
@@ -524,12 +453,8 @@
             "explanation": "Magnesium- and zinc-rich seed supporting GABA–glutamate balance and GABA synthesis capacity within excitatory–inhibitory regulation.",
             "source_pms": [
               {
-                "id": "BRS1-FM4-PM7",
-                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance"
-              },
-              {
                 "id": "BRS1-FM4-PM8",
-                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance"
               }
             ]
           },
@@ -541,12 +466,12 @@
             "explanation": "Rich in DHA and phospholipid-bound omega-3s that support neuronal membrane incorporation and help modulate excitatory–inhibitory balance under inflammatory or oxidative load.",
             "source_pms": [
               {
-                "id": "BRS1-FM3-PM6",
-                "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation"
+                "id": "BRS1-FM3-PM7",
+                "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation"
               },
               {
-                "id": "BRS1-FM4-PM10",
-                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation"
+                "id": "BRS1-FM4-PM11",
+                "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation"
               }
             ]
           }
@@ -554,67 +479,13 @@
       },
       "lifestyle": [
         {
-          "action": "Maintain regular meal timing and circadian alignment",
-          "explanation": "to support a steady supply of neurotransmitter building blocks, metabolic regulation, and balanced brain signalling throughout the day.",
-          "label": "Maintain regular meal timing and circadian alignment to support a steady supply of neurotransmitter building blocks, metabolic regulation, and balanced brain signalling throughout the day.",
-          "source_pms": [
-            {
-              "id": "BRS1-FM1-PM1",
-              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation"
-            },
-            {
-              "id": "BRS1-FM1-PM2",
-              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation"
-            },
-            {
-              "id": "BRS1-FM1-PM3",
-              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation"
-            },
-            {
-              "id": "BRS1-FM1-PM4",
-              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation"
-            },
-            {
-              "id": "BRS1-FM2-PM5",
-              "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support"
-            },
-            {
-              "id": "BRS1-FM4-PM10",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation"
-            },
-            {
-              "id": "BRS1-FM4-PM7",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance"
-            },
-            {
-              "id": "BRS1-FM4-PM8",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
-            },
-            {
-              "id": "BRS1-FM4-PM9",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling"
-            }
-          ]
-        },
-        {
-          "action": "Include sufficient protein at main meals",
-          "explanation": "to help maintain reliable amino-acid availability and support neurotransmitter precursor supply across the day.",
-          "label": "Include sufficient protein at main meals to help maintain reliable amino-acid availability and support neurotransmitter precursor supply across the day.",
-          "source_pms": [
-            {
-              "id": "BRS1-FM1-PM1",
-              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation"
-            }
-          ]
-        },
-        {
           "action": "Prioritise sufficient, consistent sleep",
           "explanation": "to support balanced neurotransmitter regulation, cognitive performance, and physiological recovery.",
           "label": "Prioritise sufficient, consistent sleep to support balanced neurotransmitter regulation, cognitive performance, and physiological recovery.",
           "source_pms": [
             {
-              "id": "BRS1-FM1-PM4",
-              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation"
+              "id": "BRS1-FM1-PM5",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation"
             }
           ]
         },
@@ -628,32 +499,28 @@
               "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation"
             },
             {
-              "id": "BRS1-FM1-PM3",
-              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation"
-            },
-            {
               "id": "BRS1-FM1-PM4",
-              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation"
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation"
             },
             {
-              "id": "BRS1-FM2-PM5",
-              "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support"
+              "id": "BRS1-FM1-PM5",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation"
+            },
+            {
+              "id": "BRS1-FM2-PM6",
+              "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support"
             },
             {
               "id": "BRS1-FM4-PM10",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation"
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling"
             },
             {
-              "id": "BRS1-FM4-PM7",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance"
+              "id": "BRS1-FM4-PM11",
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation"
             },
             {
               "id": "BRS1-FM4-PM8",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
-            },
-            {
-              "id": "BRS1-FM4-PM9",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling"
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance"
             }
           ]
         },
@@ -667,82 +534,62 @@
               "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm2-lat1-competitive-transport-modulation"
             },
             {
-              "id": "BRS1-FM1-PM3",
-              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation"
-            },
-            {
               "id": "BRS1-FM1-PM4",
-              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation"
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation"
             },
             {
-              "id": "BRS1-FM2-PM5",
-              "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support"
+              "id": "BRS1-FM1-PM5",
+              "href": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation"
+            },
+            {
+              "id": "BRS1-FM2-PM6",
+              "href": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support"
             },
             {
               "id": "BRS1-FM4-PM10",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation"
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling"
             },
             {
-              "id": "BRS1-FM4-PM7",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance"
+              "id": "BRS1-FM4-PM11",
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation"
             },
             {
               "id": "BRS1-FM4-PM8",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
-            },
-            {
-              "id": "BRS1-FM4-PM9",
-              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling"
-            }
-          ]
-        },
-        {
-          "action": "Prepare omega-3-rich foods gently and include them regularly",
-          "explanation": "to protect delicate marine fats during cooking and support ongoing brain membrane health over time.",
-          "label": "Prepare omega-3-rich foods gently and include them regularly to protect delicate marine fats during cooking and support ongoing brain membrane health over time.",
-          "source_pms": [
-            {
-              "id": "BRS1-FM3-PM6",
-              "href": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation"
+              "href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance"
             }
           ]
         }
       ],
       "key_constraints": {
         "foods": [
+          "Almonds",
           "Barley",
-          "Beans",
-          "Beef",
+          "Brazil Nuts",
           "Brown Rice",
+          "Chia Seeds",
           "Dairy",
           "Eggs",
           "Fish",
-          "Fish roe",
-          "Kefir",
+          "Flax Seeds",
           "Legumes",
-          "Lentils",
-          "Liver",
+          "Meat",
           "Oats",
           "Poultry",
-          "Quinoa",
-          "Rice",
-          "Salmon",
-          "Sardines",
+          "Pumpkin Seeds",
           "Soy",
-          "Turkey",
-          "Yogurt"
+          "Walnuts"
         ],
         "commentary": "Key dietary constraints include complete amino-acid availability through protein-inclusive meals, complementary food pairings where plant proteins are used, and steady supply of membrane and cofactor nutrients that support neurotransmitter synthesis and signalling.",
         "show_food_list": true,
-        "kc_count": 3
+        "kc_count": 1
       },
       "stats": {
-        "pm_count": 10,
-        "unique_foods": 35,
-        "unique_lifestyle": 6,
-        "unique_key_constraints": 3,
+        "pm_count": 11,
+        "unique_foods": 32,
+        "unique_lifestyle": 3,
+        "unique_key_constraints": 1,
         "nutrient_dense_stars": 8,
-        "pm_lifestyle_notes": 12
+        "pm_lifestyle_notes": 8
       },
       "dietary_strategy_prose": "Prioritise protein at each meal so the brain has a steady supply of amino-acid precursors for neurotransmitter synthesis. Include B-vitamin-rich foods, omega-3-containing seafoods, and healthy fats from olive oil, nuts, and eggs that support cell membranes and receptor function. Build meals that combine protein, fibre-rich carbohydrates, and healthy fats to keep energy steady and support attention-relevant signalling.",
       "dietary_strategy_targets": null
@@ -766,8 +613,8 @@
                 "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
               },
               {
-                "id": "BRS2-FM1-PM3",
-                "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis"
+                "id": "BRS2-FM1-PM4",
+                "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux"
               },
               {
                 "id": "BRS2-FM2-PM5",
@@ -819,12 +666,7 @@
             "food_href": "/docs/foods/pumpkin-seeds",
             "missing_food_page": false,
             "explanation": "Magnesium- and zinc-rich seed supporting SAMe synthesis and enzymatic cofactor sufficiency across methylation-cycle reactions.",
-            "source_pms": [
-              {
-                "id": "BRS2-FM1-PM3",
-                "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis"
-              }
-            ]
+            "source_pms": []
           },
           {
             "label": "Salmon",
@@ -874,51 +716,12 @@
               {
                 "id": "BRS2-FM1-PM2",
                 "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
-              },
-              {
-                "id": "BRS2-FM1-PM3",
-                "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis"
               }
             ]
           }
         ]
       },
       "lifestyle": [
-        {
-          "action": "Maintain regular daily meal timing",
-          "explanation": "to support steady methyl-donor and one-carbon nutrient availability across the day.",
-          "label": "Maintain regular daily meal timing to support steady methyl-donor and one-carbon nutrient availability across the day.",
-          "source_pms": [
-            {
-              "id": "BRS2-FM1-PM1",
-              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation"
-            },
-            {
-              "id": "BRS2-FM1-PM2",
-              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
-            },
-            {
-              "id": "BRS2-FM1-PM3",
-              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis"
-            },
-            {
-              "id": "BRS2-FM1-PM4",
-              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm4-methionine-cycle-flux"
-            },
-            {
-              "id": "BRS2-FM2-PM5",
-              "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm5-transsulfuration-pathway"
-            },
-            {
-              "id": "BRS2-FM2-PM6",
-              "href": "/docs/biological-targets/brs2/fm2/brs2-fm2-pm6-glutathione-synthesis"
-            },
-            {
-              "id": "BRS2-FM3-PM7",
-              "href": "/docs/biological-targets/brs2/fm3/brs2-fm3-pm7-phosphatidylcholine-formation"
-            }
-          ]
-        },
         {
           "action": "Prioritise sleep and stress recovery",
           "explanation": "to help manage methylation demand and support broader one-carbon metabolism, alongside dietary substrate supply.",
@@ -931,10 +734,6 @@
             {
               "id": "BRS2-FM1-PM2",
               "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
-            },
-            {
-              "id": "BRS2-FM1-PM3",
-              "href": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm3-same-synthesis"
             },
             {
               "id": "BRS2-FM1-PM4",
@@ -959,18 +758,25 @@
         "foods": [
           "Beetroot",
           "Chard",
+          "Chicken",
           "Clams",
-          "Dairy",
           "Eggs",
           "Fish",
-          "Fish roe",
+          "Gelatin-rich Cuts",
           "Kale",
           "Legumes",
-          "Meat",
+          "Liver",
           "Mussels",
           "Oysters",
           "Poultry",
-          "Spinach"
+          "Poultry **",
+          "Quinoa",
+          "Salmon",
+          "Sardines",
+          "Soy Foods",
+          "Spinach",
+          "Turkey",
+          "Yogurt"
         ],
         "commentary": "Key dietary constraints include adequate methyl-donor intake from folate-, B12-, choline-, and betaine-rich whole foods, protein spread across the day, and dietary patterns that prevent chronic shortfall in methyl-donor availability.",
         "show_food_list": true,
@@ -978,8 +784,8 @@
       },
       "stats": {
         "pm_count": 7,
-        "unique_foods": 21,
-        "unique_lifestyle": 2,
+        "unique_foods": 19,
+        "unique_lifestyle": 1,
         "unique_key_constraints": 2,
         "nutrient_dense_stars": 7,
         "pm_lifestyle_notes": 2
@@ -1166,33 +972,6 @@
       },
       "lifestyle": [
         {
-          "action": "Maintain consistent daily eating patterns",
-          "explanation": "to support lower inflammatory load and more stable antioxidant and resolution capacity over time.",
-          "label": "Maintain consistent daily eating patterns to support lower inflammatory load and more stable antioxidant and resolution capacity over time.",
-          "source_pms": [
-            {
-              "id": "BRS3-FM1-PM1",
-              "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation"
-            },
-            {
-              "id": "BRS3-FM2-PM3",
-              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation"
-            },
-            {
-              "id": "BRS3-FM2-PM4",
-              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
-            },
-            {
-              "id": "BRS3-FM3-PM7",
-              "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation"
-            },
-            {
-              "id": "BRS3-FM3-PM8",
-              "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance"
-            }
-          ]
-        },
-        {
           "action": "Prioritise sleep and manage stress load",
           "explanation": "to help reduce systemic inflammatory pressure and support healthier immune and gut-related signalling.",
           "label": "Prioritise sleep and manage stress load to help reduce systemic inflammatory pressure and support healthier immune and gut-related signalling.",
@@ -1225,103 +1004,39 @@
               "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
             }
           ]
-        },
-        {
-          "action": "Choose gentler cooking and limit heavily fried or oxidised fats",
-          "explanation": "to reduce dietary sources of oxidative stress and help protect membrane lipids and antioxidant capacity.",
-          "label": "Choose gentler cooking and limit heavily fried or oxidised fats to reduce dietary sources of oxidative stress and help protect membrane lipids and antioxidant capacity.",
-          "source_pms": [
-            {
-              "id": "BRS3-FM2-PM4",
-              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
-            },
-            {
-              "id": "BRS3-FM2-PM5",
-              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm5-lipid-peroxidation-control"
-            }
-          ]
-        },
-        {
-          "action": "Limit ultra-processed food exposure",
-          "explanation": "to help reduce post-meal inflammatory burden and support a more anti-inflammatory dietary baseline.",
-          "label": "Limit ultra-processed food exposure to help reduce post-meal inflammatory burden and support a more anti-inflammatory dietary baseline.",
-          "source_pms": [
-            {
-              "id": "BRS3-FM1-PM1",
-              "href": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm1-nf-kb-signalling-regulation"
-            },
-            {
-              "id": "BRS3-FM3-PM7",
-              "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation"
-            }
-          ]
-        },
-        {
-          "action": "Include cruciferous vegetables and marine fats regularly",
-          "explanation": "to support repeated dietary activation of antioxidant and resolution pathways rather than one-off intake.",
-          "label": "Include cruciferous vegetables and marine fats regularly to support repeated dietary activation of antioxidant and resolution pathways rather than one-off intake.",
-          "source_pms": [
-            {
-              "id": "BRS3-FM2-PM3",
-              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation"
-            },
-            {
-              "id": "BRS3-FM2-PM6",
-              "href": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm6-antioxidant-network-recycling"
-            },
-            {
-              "id": "BRS3-FM3-PM8",
-              "href": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm8-eicosanoid-spm-balance"
-            }
-          ]
         }
       ],
       "key_constraints": {
         "foods": [
-          "Almonds",
-          "Basil",
+          "Bell Peppers",
           "Blueberries",
-          "Brazil Nuts",
-          "Carrots",
-          "Chard",
-          "Chia Seeds",
-          "Cinnamon",
           "Cocoa",
-          "Extra-virgin olive oil",
-          "Fish roe",
-          "Flaxseed",
-          "Ginger",
+          "Collagen-rich Cuts",
+          "Eggs",
+          "Fish",
           "Grapefruit",
           "Green Tea",
-          "Kale",
+          "Kiwi",
+          "Legumes",
           "Lemons",
-          "Mackerel",
+          "Meat",
           "Oranges",
-          "Oregano",
-          "Parsley",
-          "Peppers",
-          "Pumpkin Seeds",
+          "Poultry",
           "Raspberries",
-          "Salmon",
-          "Sardines",
-          "Spinach",
-          "Strawberries",
-          "Tea",
-          "Tomatoes",
-          "Turmeric",
-          "Walnuts"
+          "Soy",
+          "Strawberries"
         ],
         "commentary": "Key dietary constraints include antioxidant substrate availability from diverse plant foods, balanced omega-3 and omega-6 fatty-acid intake, and dietary patterns that limit chronic inflammatory and oxidative load.",
         "show_food_list": true,
-        "kc_count": 2
+        "kc_count": 1
       },
       "stats": {
         "pm_count": 8,
-        "unique_foods": 50,
-        "unique_lifestyle": 6,
-        "unique_key_constraints": 2,
+        "unique_foods": 51,
+        "unique_lifestyle": 2,
+        "unique_key_constraints": 1,
         "nutrient_dense_stars": 8,
-        "pm_lifestyle_notes": 17
+        "pm_lifestyle_notes": 6
       },
       "dietary_strategy_prose": "Centre meals on colourful vegetables, berries, herbs, and spices that provide natural antioxidants. Include oily fish, walnuts, flaxseed, and olive oil for omega-3 balance, and reduce reliance on ultra-processed foods and heavily fried or oxidised fats that add unnecessary inflammatory load. Eat a wide variety of plant foods rather than relying on high-dose isolated antioxidant supplements.",
       "dietary_strategy_targets": null
@@ -1537,12 +1252,7 @@
             "food_href": "/docs/foods/scallops",
             "missing_food_page": false,
             "explanation": "Lean shellfish supplying creatine- and taurine-relevant context, vitamin B12, and highly digestible protein supporting phosphocreatine buffering and mitochondrial cofactor biology at low energy density.",
-            "source_pms": [
-              {
-                "id": "BRS4-FM1-PM3",
-                "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer"
-              }
-            ]
+            "source_pms": []
           },
           {
             "label": "Spinach",
@@ -1640,50 +1350,9 @@
           ]
         },
         {
-          "action": "Maintain stable daily meal structure",
-          "explanation": "to help keep energy substrates available and support steady mitochondrial throughput across the day.",
-          "label": "Maintain stable daily meal structure to help keep energy substrates available and support steady mitochondrial throughput across the day.",
-          "source_pms": [
-            {
-              "id": "BRS4-FM1-PM1",
-              "href": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function"
-            },
-            {
-              "id": "BRS4-FM3-PM7",
-              "href": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity"
-            }
-          ]
-        },
-        {
           "action": "Reduce oxidant exposure from smoke, pollution, and excess alcohol",
           "explanation": "to lower mitochondrial oxidative pressure and help preserve redox balance and protective capacity.",
           "label": "Reduce oxidant exposure from smoke, pollution, and excess alcohol to lower mitochondrial oxidative pressure and help preserve redox balance and protective capacity.",
-          "source_pms": [
-            {
-              "id": "BRS4-FM2-PM4",
-              "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
-            },
-            {
-              "id": "BRS4-FM2-PM5",
-              "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
-            }
-          ]
-        },
-        {
-          "action": "Choose gentler cooking methods",
-          "explanation": "to reduce avoidable oxidative stress placed on mitochondrial protection and membrane integrity.",
-          "label": "Choose gentler cooking methods to reduce avoidable oxidative stress placed on mitochondrial protection and membrane integrity.",
-          "source_pms": [
-            {
-              "id": "BRS4-FM2-PM5",
-              "href": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity"
-            }
-          ]
-        },
-        {
-          "action": "Boil high-oxalate leafy greens when oxalate load matters",
-          "explanation": "to reduce soluble oxalate, improve mineral bioavailability from iron- and magnesium-rich greens, and limit avoidable pressure on mitochondrial cofactor and redox networks.",
-          "label": "Boil high-oxalate leafy greens when oxalate load matters to reduce soluble oxalate, improve mineral bioavailability from iron- and magnesium-rich greens, and limit avoidable pressure on mitochondrial cofactor and redox networks.",
           "source_pms": [
             {
               "id": "BRS4-FM2-PM4",
@@ -1710,33 +1379,33 @@
       "key_constraints": {
         "foods": [
           "Almonds",
+          "Apples",
           "Barley",
+          "Blueberries",
           "Brazil Nuts",
           "Brown Rice",
-          "Carbohydrate-containing Whole Foods",
           "Chard",
           "Chia Seeds",
           "Clams",
           "Dairy",
           "Eggs",
           "Fish",
-          "Flaxseed",
+          "Flax Seeds",
+          "Grapefruit",
           "Kale",
-          "Lean Meat",
           "Legumes",
-          "Mackerel",
+          "Lemons",
           "Meat",
           "Mussels",
           "Oats",
           "Olive Oil",
+          "Oranges",
           "Oysters",
-          "Poultry",
-          "Protein-rich Whole Foods",
           "Pumpkin Seeds",
           "Quinoa",
-          "Salmon",
-          "Sardines",
+          "Raspberries",
           "Spinach",
+          "Strawberries",
           "Walnuts"
         ],
         "commentary": "Key dietary constraints include steady energy from balanced meals across the day, sufficient B-vitamin, iron, and magnesium for mitochondrial function, and dietary patterns that avoid chronic energetic instability.",
@@ -1746,10 +1415,10 @@
       "stats": {
         "pm_count": 9,
         "unique_foods": 56,
-        "unique_lifestyle": 7,
+        "unique_lifestyle": 4,
         "unique_key_constraints": 2,
         "nutrient_dense_stars": 13,
-        "pm_lifestyle_notes": 23
+        "pm_lifestyle_notes": 16
       },
       "dietary_strategy_prose": "Build meals around dependable macronutrient fuel from protein, whole grains, legumes, and starchy vegetables, treating B-vitamin, iron, and magnesium cofactors as the enabling layer that helps omega-3s, polyphenols, and amino-acid substrates support mitochondrial work. Combine plant-forward patterns with nutrient-dense animal foods — seafood, eggs, fermented dairy (cheese and kefir), lean meats, and occasional offal — for creatine, carnitine, CoQ10-relevant context, taurine, and complete protein; creatine-rich examples include beef, lamb, pork, salmon, tuna, cod, and scallops, while plant-only patterns may lack meaningful dietary creatine unless supplemented. Quality extra virgin olive oil — especially early-harvest oils with higher polyphenol and CoQ10-relevant content — plus oily fish, beef, broccoli, spinach, and pistachios add further electron-transport and redox support. Support glutathione-linked antioxidant networks and polyphenol diversity through varied plants rather than high-dose isolated supplements. Include fermentable fibre from oats, barley, and legumes where tolerated to connect gut-derived butyrate biology to brain energy metabolism alongside BRS5 context.",
       "dietary_strategy_targets": null
@@ -1777,6 +1446,10 @@
             "missing_food_page": false,
             "explanation": "Polyphenol-rich fruit supporting keystone taxa, microbial turnover, and biotransformation of plant compounds into gut- and mitochondria-relevant metabolites.",
             "source_pms": [
+              {
+                "id": "BRS5-FM1-PM2",
+                "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment"
+              },
               {
                 "id": "BRS5-FM1-PM3",
                 "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support"
@@ -1870,12 +1543,7 @@
             "food_href": "/docs/foods/salmon",
             "missing_food_page": false,
             "explanation": "Omega-3-rich seafood supporting gut barrier tight-junction integrity and limiting gut-derived immune and inflammatory load.",
-            "source_pms": [
-              {
-                "id": "BRS5-FM1-PM1",
-                "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity"
-              }
-            ]
+            "source_pms": []
           },
           {
             "label": "Walnuts",
@@ -1894,9 +1562,9 @@
       },
       "lifestyle": [
         {
-          "action": "Maintain consistent daily meal patterns",
+          "action": "Maintain consistent daily meal timing",
           "explanation": "to support microbial rhythm stability, fermentation continuity, and steadier gut–brain signalling.",
-          "label": "Maintain consistent daily meal patterns to support microbial rhythm stability, fermentation continuity, and steadier gut–brain signalling.",
+          "label": "Maintain consistent daily meal timing to support microbial rhythm stability, fermentation continuity, and steadier gut–brain signalling.",
           "source_pms": [
             {
               "id": "BRS5-FM1-PM1",
@@ -1918,12 +1586,16 @@
         },
         {
           "action": "Prioritise sleep and manage stress",
-          "explanation": "to help reduce indirect strain on gut barrier integrity, endotoxin load, and enteric signalling stability.",
-          "label": "Prioritise sleep and manage stress to help reduce indirect strain on gut barrier integrity, endotoxin load, and enteric signalling stability.",
+          "explanation": "to reduce indirect strain on gut barrier integrity, endotoxin load, and enteric signalling stability.",
+          "label": "Prioritise sleep and manage stress to reduce indirect strain on gut barrier integrity, endotoxin load, and enteric signalling stability.",
           "source_pms": [
             {
               "id": "BRS5-FM1-PM2",
               "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment"
+            },
+            {
+              "id": "BRS5-FM3-PM7",
+              "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm7-vagal-ens-signalling-modulation"
             },
             {
               "id": "BRS5-FM3-PM8",
@@ -1932,20 +1604,9 @@
           ]
         },
         {
-          "action": "Limit alcohol and ultra-processed food exposure",
-          "explanation": "to reduce barrier strain and support a healthier gut environment for microbial and immune balance.",
-          "label": "Limit alcohol and ultra-processed food exposure to reduce barrier strain and support a healthier gut environment for microbial and immune balance.",
-          "source_pms": [
-            {
-              "id": "BRS5-FM1-PM1",
-              "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm1-gut-barrier-tight-junction-integrity"
-            }
-          ]
-        },
-        {
-          "action": "Emphasise repeated dietary pattern quality over short-term fixes",
-          "explanation": "to support keystone microbes, SCFA production, and durable gut ecological turnover rather than isolated bursts.",
-          "label": "Emphasise repeated dietary pattern quality over short-term fixes to support keystone microbes, SCFA production, and durable gut ecological turnover rather than isolated bursts.",
+          "action": "Limit alcohol exposure",
+          "explanation": "to reduce lifestyle-related barrier strain and support a more stable gut immune and microbial environment.",
+          "label": "Limit alcohol exposure to reduce lifestyle-related barrier strain and support a more stable gut immune and microbial environment.",
           "source_pms": [
             {
               "id": "BRS5-FM1-PM1",
@@ -1954,100 +1615,45 @@
             {
               "id": "BRS5-FM1-PM2",
               "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm2-lps-endotoxin-containment"
-            },
-            {
-              "id": "BRS5-FM1-PM3",
-              "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support"
-            },
-            {
-              "id": "BRS5-FM2-PM4",
-              "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection"
-            },
-            {
-              "id": "BRS5-FM2-PM5",
-              "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling"
-            },
-            {
-              "id": "BRS5-FM2-PM6",
-              "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation"
-            },
-            {
-              "id": "BRS5-FM3-PM8",
-              "href": "/docs/biological-targets/brs5/fm3/brs5-fm3-pm8-neurotransmitter-precursor-biotransformation-and-availability"
-            }
-          ]
-        },
-        {
-          "action": "Maintain dietary variety rather than overly restrictive eating",
-          "explanation": "to support microbial diversity, competitive ecological selection, and long-term gut resilience.",
-          "label": "Maintain dietary variety rather than overly restrictive eating to support microbial diversity, competitive ecological selection, and long-term gut resilience.",
-          "source_pms": [
-            {
-              "id": "BRS5-FM1-PM3",
-              "href": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support"
-            },
-            {
-              "id": "BRS5-FM2-PM6",
-              "href": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm6-polyphenol-biotransformation-and-mitochondrial-relevant-metabolite-generation"
             }
           ]
         }
       ],
       "key_constraints": {
         "foods": [
-          "Apples",
           "Barley",
           "Basil",
           "Blueberries",
           "Brown Rice",
-          "Chia Seeds",
-          "Chicory",
           "Cinnamon",
-          "Clams",
           "Cocoa",
-          "Cooled Potatoes",
-          "Cooled Rice",
-          "Cranberries",
-          "Eggs",
-          "Flax",
-          "Flaxseed",
           "Ginger",
-          "Green Bananas",
           "Green Tea",
+          "Inulin",
           "Legumes",
-          "Liver",
-          "Mackerel",
-          "Meat",
-          "Mussels",
           "Oats",
-          "Onions",
-          "Orange Vegetables",
           "Oregano",
-          "Oysters",
           "Parsley",
+          "Pectin",
           "Pomegranate",
-          "Protein Foods",
-          "Pumpkin Seeds",
           "Quinoa",
           "Raspberries",
-          "Salmon",
-          "Sardines",
           "Strawberries",
           "Turmeric"
         ],
         "commentary": "Key dietary constraints include adequate fermentable fibre, resistant starch, and diverse plant-food intake to support microbial diversity, microbial metabolism, and intestinal function.",
         "show_food_list": true,
-        "kc_count": 3
+        "kc_count": 2
       },
       "stats": {
         "pm_count": 8,
-        "unique_foods": 34,
-        "unique_lifestyle": 5,
-        "unique_key_constraints": 3,
+        "unique_foods": 25,
+        "unique_lifestyle": 3,
+        "unique_key_constraints": 2,
         "nutrient_dense_stars": 9,
-        "pm_lifestyle_notes": 16
+        "pm_lifestyle_notes": 3
       },
-      "dietary_strategy_prose": "Eat a wide variety of plant foods daily — vegetables, fruits, legumes, whole grains, nuts, and seeds — to support microbial diversity, competitive ecological turnover, and polyphenol-linked biotransformation rather than isolated superfood fixes. Include fermented foods where tolerated — kefir, plain yogurt, and fermented vegetables — alongside fermentable fibre from oats, barley, lentils, and cooled potatoes and rice to sustain short-chain fatty acid output relevant to barrier integrity and gut–brain signalling. Combine omega-3-rich seafood, eggs, and barrier-supportive whole foods with minimally processed meal patterns that limit ultra-processed load, excess alcohol, and chronic barrier strain from low plant diversity. Support neurotransmitter-precursor context through protein-rich whole foods combined with fibre-supported microbial metabolism rather than isolated amino-acid emphasis — repeated dietary pattern quality matters more than short probiotic bursts.",
+      "dietary_strategy_prose": "Eat a wide variety of plant foods daily — vegetables, fruits, legumes, whole grains, nuts, and seeds — to support microbial diversity, competitive ecological turnover, and polyphenol-linked biotransformation rather than isolated superfood fixes. Include fermented foods where tolerated — kefir, plain yogurt, and fermented vegetables — alongside fermentable fibre from oats, barley, lentils, and cooled potatoes and rice to sustain short-chain fatty acid output relevant to barrier integrity and gut–brain signalling. Combine nutrient-dense whole foods with minimally processed meal patterns that limit ultra-processed load, excess alcohol, and chronic barrier strain from low plant diversity. Support neurotransmitter-precursor context through protein-rich whole foods combined with fibre-supported microbial metabolism rather than isolated amino-acid emphasis — repeated dietary pattern quality matters more than short probiotic bursts.",
       "dietary_strategy_targets": null
     },
     "BRS6": {
@@ -2224,58 +1830,9 @@
           ]
         },
         {
-          "action": "Get morning daylight and limit evening artificial light",
-          "explanation": "to strengthen circadian timing, support healthy sleep transitions, and align feeding with the daily light–dark cycle.",
-          "label": "Get morning daylight and limit evening artificial light to strengthen circadian timing, support healthy sleep transitions, and align feeding with the daily light–dark cycle.",
-          "source_pms": [
-            {
-              "id": "BRS6-FM2-PM4",
-              "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation"
-            },
-            {
-              "id": "BRS6-FM2-PM5",
-              "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment"
-            }
-          ]
-        },
-        {
-          "action": "Maintain regular meal timing aligned with your daily rhythm",
-          "explanation": "to support glucose tolerance, insulin sensitivity, and more predictable energy regulation across the day.",
-          "label": "Maintain regular meal timing aligned with your daily rhythm to support glucose tolerance, insulin sensitivity, and more predictable energy regulation across the day.",
-          "source_pms": [
-            {
-              "id": "BRS6-FM1-PM1",
-              "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics"
-            },
-            {
-              "id": "BRS6-FM1-PM3",
-              "href": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal"
-            },
-            {
-              "id": "BRS6-FM2-PM5",
-              "href": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm5-circadian-feeding-and-light-dark-entrainment"
-            }
-          ]
-        },
-        {
-          "action": "Use slow breathing and recovery routines after stress or exertion",
-          "explanation": "to support healthy transitions between activation and recovery and improve long-term autonomic flexibility.",
-          "label": "Use slow breathing and recovery routines after stress or exertion to support healthy transitions between activation and recovery and improve long-term autonomic flexibility.",
-          "source_pms": [
-            {
-              "id": "BRS6-FM3-PM6",
-              "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery"
-            },
-            {
-              "id": "BRS6-FM3-PM7",
-              "href": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm7-vagal-tone-hrv-regulation"
-            }
-          ]
-        },
-        {
-          "action": "Support healthy body composition through sustainable nutrition, movement, sleep, and recovery",
+          "action": "Support healthy body composition through sustainable movement, sleep, and recovery",
           "explanation": "to improve insulin sensitivity and reduce adipose-related inflammatory signalling over time.",
-          "label": "Support healthy body composition through sustainable nutrition, movement, sleep, and recovery to improve insulin sensitivity and reduce adipose-related inflammatory signalling over time.",
+          "label": "Support healthy body composition through sustainable movement, sleep, and recovery to improve insulin sensitivity and reduce adipose-related inflammatory signalling over time.",
           "source_pms": [
             {
               "id": "BRS6-FM4-PM8",
@@ -2286,12 +1843,39 @@
       ],
       "key_constraints": {
         "foods": [
+          "Algal Oil",
+          "Almonds",
+          "Apples",
           "Barley",
+          "Brazil Nuts",
           "Brown Rice",
+          "Chard",
+          "Chia Seeds",
+          "Clams",
+          "Dairy",
+          "Eggs",
+          "Fish",
+          "Flax Seeds",
+          "Grapefruit",
+          "Kale",
+          "Kiwi",
           "Legumes",
+          "Lemons",
+          "Mackerel",
+          "Meat",
+          "Mussels",
           "Oats",
-          "Potatoes",
-          "Rice"
+          "Olive Oil",
+          "Oranges",
+          "Oysters",
+          "Peppers",
+          "Pulses",
+          "Pumpkin Seeds",
+          "Quinoa",
+          "Salmon",
+          "Sardines",
+          "Spinach",
+          "Walnuts"
         ],
         "commentary": "Key dietary constraints include stable energy availability, dietary patterns that minimise blood sugar swings, consistent meal timing, and sufficient micronutrient and healthy fat intake to support metabolic adaptation and recovery.",
         "show_food_list": true,
@@ -2300,7 +1884,7 @@
       "stats": {
         "pm_count": 9,
         "unique_foods": 6,
-        "unique_lifestyle": 7,
+        "unique_lifestyle": 4,
         "unique_key_constraints": 2,
         "nutrient_dense_stars": 8,
         "pm_lifestyle_notes": 28

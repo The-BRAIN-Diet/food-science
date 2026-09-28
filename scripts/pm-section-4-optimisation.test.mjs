@@ -23,7 +23,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DOCS = path.join(__dirname, "../docs/biological-targets");
 const PM6_PATH = path.join(
   __dirname,
-  "../docs/biological-targets/brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation.mdx",
+  "../docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx",
 );
 
 const HUB_ITEM = (heading, bullets) => `<div class="brs-fm-hub-item" data-brs-fm-hub>

@@ -21,7 +21,7 @@ test("structured ketogenic approaches has one id and three relationships", () =>
   const rels = normalizeRelationships(lever);
   assert.equal(rels.length, 3);
   assert.equal(rels.filter((r) => !isQualifiedRelationship(r)).length, 2);
-  const qualified = rels.find((r) => r.target_pm_id === "BRS1-FM4-PM8");
+  const qualified = rels.find((r) => r.target_pm_id === "BRS1-FM4-PM9");
   assert.ok(qualified?.context);
   assert.equal(qualified.evidence?.level, "preclinical-mechanistic");
   assert.deepEqual(qualified.evidence?.citation_keys, [
@@ -30,7 +30,7 @@ test("structured ketogenic approaches has one id and three relationships", () =>
   ]);
 });
 
-test("BRS4 hub ketogenic Supports excludes BRS1-FM4-PM8", () => {
+test("BRS4 hub ketogenic Supports excludes BRS1-FM4-PM9", () => {
   const byCategory = buildCategoryItemsForHub("BRS4", ROOT);
   const items = byCategory.dietary_protocols || [];
   const keto = items.find((item) =>
@@ -40,11 +40,11 @@ test("BRS4 hub ketogenic Supports excludes BRS1-FM4-PM8", () => {
   const supportIds = keto.source_pms.map((pm) => pm.id).sort();
   assert.deepEqual(supportIds, ["BRS4-FM3-PM7", "BRS4-FM3-PM8"]);
   assert.equal(keto.qualified_relationships?.length, 1);
-  assert.equal(keto.qualified_relationships[0].target_pm_id, "BRS1-FM4-PM8");
+  assert.equal(keto.qualified_relationships[0].target_pm_id, "BRS1-FM4-PM9");
 });
 
 test("PM8 derives qualified ketogenic relationship", () => {
-  const derived = getDerivedInterventionsForPm("BRS1-FM4-PM8", ROOT);
+  const derived = getDerivedInterventionsForPm("BRS1-FM4-PM9", ROOT);
   assert.equal(derived.length, 1);
   assert.equal(derived[0].intervention_id, "structured-ketogenic-approaches");
   assert.equal(derived[0].author_brs_id, "BRS4");

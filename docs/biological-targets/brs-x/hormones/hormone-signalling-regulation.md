@@ -24,9 +24,12 @@ hide_title: true
 (Reproductive & Metabolic Hormone Integration)
 
 <!-- brs-hub-all-mechanisms:start -->
-<div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index">
+<div class="brs-fm-hub-item brs-fm-hub-group brs-fm-hub-mechanism-index" data-brs-fm-hub>
 <div class="brs-fm-hub-shell">
 <div class="brs-fm-hub-group-summary-row">
+<button type="button" class="brs-fm-hub-toggle brs-fm-hub-group-toggle" aria-expanded="false" aria-label="Expand All Mechanisms of BRS-X-HORMONES">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
 <div class="brs-fm-hub-group-summary-body">
 <p class="brs-fm-hub-group-heading">All Mechanisms of BRS-X-HORMONES</p>
 <ul class="brs-fm-hub-group-title-list">
@@ -38,8 +41,66 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability">BRS-X(Hormones-PM1) — Oestrogen Signalling Stability</a></li>
+    <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation">BRS-X(Hormones-PM2) — Estrobolome Regulation</a></li>
+    <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism">BRS-X(Hormones-PM3) — Progesterone-Supportive Microbial Metabolism</a></li>
+    <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration">BRS-X(Hormones-PM4) — Metabolic-Reproductive Hormone Integration</a></li>
+    <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability">BRS-X(Hormones-PM5) — Testosterone Signalling Stability</a></li>
+    <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation">BRS-X(Hormones-PM6) — Androgen-Microbiome Regulation</a></li>
+  </ul>
 </li>
 </ul>
+</div>
+</div>
+<div class="brs-fm-hub-panel" hidden>
+<div class="brs-fm-hub-group-children">
+
+<div class="brs-fm-hub-item" data-brs-fm-hub>
+<div class="brs-fm-hub-shell">
+<div class="brs-fm-hub-summary-row">
+<button type="button" class="brs-fm-hub-toggle" aria-expanded="false" aria-label="Expand BRS-X(Hormones-FM1) summary">
+<span class="brs-fm-hub-chevron" aria-hidden="true"></span>
+</button>
+<strong class="brs-fm-hub-title">BRS-X(Hormones-FM1) — Reproductive Hormone Balance & Neurocognitive Regulation</strong>
+<a class="brs-fm-hub-open" href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation" aria-label="Open FM: BRS-X(Hormones-FM1) — Reproductive Hormone Balance & Neurocognitive Regulation">
+<span class="brs-fm-hub-open-label">Open FM →</span>
+<span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
+</a>
+</div>
+
+<ul class="brs-fm-hub-pm-list">
+  <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm1-oestrogen-signalling-stability">BRS-X(Hormones-PM1) — Oestrogen Signalling Stability</a></li>
+  <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm2-estrobolome-regulation">BRS-X(Hormones-PM2) — Estrobolome Regulation</a></li>
+  <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm3-progesterone-supportive-microbial-metabolism">BRS-X(Hormones-PM3) — Progesterone-Supportive Microbial Metabolism</a></li>
+  <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm4-metabolic-reproductive-hormone-integration">BRS-X(Hormones-PM4) — Metabolic-Reproductive Hormone Integration</a></li>
+  <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm5-testosterone-signalling-stability">BRS-X(Hormones-PM5) — Testosterone Signalling Stability</a></li>
+  <li><a href="/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-pm6-androgen-microbiome-regulation">BRS-X(Hormones-PM6) — Androgen-Microbiome Regulation</a></li>
+</ul>
+<div class="brs-fm-hub-panel" hidden>
+
+Maintains reproductive hormone balance and neurocognitive regulation by coordinating sex-hormone signalling, gut-mediated metabolism, and metabolic-endocrine integration.
+
+**FM page:** [BRS-X(Hormones-FM1) — Reproductive Hormone Balance & Neurocognitive Regulation](/docs/biological-targets/brs-x/hormones/fm1/brs-x-hormones-fm1-reproductive-hormone-balance-and-neurocognitive-regulation)
+
+**Primary biological effects:** ↑ coordinated reproductive hormone signalling; ↑ gut-mediated sex-hormone metabolism context; ↑ metabolic-reproductive integration; ↓ uncoupled hormonal volatility — reflecting integrated estrogen–gut–metabolic coupling rather than isolated endocrine endpoints [Baker et al., 2017; De Paoli et al., 2021].
+
+**Modulation context:** Intervention: Mixed Modulation · Timing-specific: Yes · Coverage: Daily
+
+**Key constraints:**
+
+- [BRS5(KC1) — Fermentable Fibre Availability](/docs/biological-targets/brs5/kc/brs5-kc1-fermentable-fibre-availability)
+
+**Connected mechanisms:**
+
+- [BRS1(FM1) — Monoaminergic Function](/docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function) — monoaminergic Function
+- [BRS5-FM2-PM5 — SCFA Production & Signalling](/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling) — sCFA Production & Signalling
+- [BRS5(FM1) — Gut Barrier Integrity & Immune Interface](/docs/biological-targets/brs5/fm1/brs5-fm1-gut-barrier-integrity-and-immune-interface) — gut Barrier Integrity & Immune Interface
+- [BRS6(FM1) — Glycaemic–Insulin Stability & Cognitive Energy Availability](/docs/biological-targets/brs6/fm1/brs6-fm1-glycaemic-insulin-stability-and-cognitive-energy-availability) — Direct oestrogen neural signalling
+
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>

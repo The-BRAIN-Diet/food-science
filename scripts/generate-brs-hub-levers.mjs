@@ -16,12 +16,15 @@ import {
 } from "./lib/brs-hub-levers.mjs";
 
 const ROOT = process.cwd();
+const registryOnly = process.argv.includes("--registry-only");
 
-try {
-  assertLegacyHubLeversGeneratorAllowed(ROOT);
-} catch (err) {
-  console.error(err.message);
-  process.exit(1);
+if (!registryOnly) {
+  try {
+    assertLegacyHubLeversGeneratorAllowed(ROOT);
+  } catch (err) {
+    console.error(err.message);
+    process.exit(1);
+  }
 }
 
 const OUT_JSON = path.join(ROOT, "src/data/brs-hub-levers.generated.json");
@@ -30,19 +33,21 @@ const registry = buildBrsHubLeversRegistry(ROOT);
 fs.writeFileSync(OUT_JSON, `${JSON.stringify(registry, null, 2)}\n`);
 
 let patched = 0;
-for (const [brsId, hubPath] of Object.entries(HUB_PAGES)) {
-  const rollup = registry.brs[brsId];
-  if (!rollup) {
-    console.warn(`Skip ${brsId}: no PM extractions`);
-    continue;
+if (!registryOnly) {
+  for (const [brsId, hubPath] of Object.entries(HUB_PAGES)) {
+    const rollup = registry.brs[brsId];
+    if (!rollup) {
+      console.warn(`Skip ${brsId}: no PM extractions`);
+      continue;
+    }
+    const html = renderHubLeversHtml(rollup, brsId);
+    patchHubPage(hubPath, html, ROOT);
+    patched++;
+    console.log(
+      `${brsId}: ${rollup.stats.pm_count} PMs → ${rollup.stats.unique_foods} foods, ${rollup.stats.unique_lifestyle} lifestyle priorities`,
+    );
   }
-  const html = renderHubLeversHtml(rollup, brsId);
-  patchHubPage(hubPath, html, ROOT);
-  patched++;
-  console.log(
-    `${brsId}: ${rollup.stats.pm_count} PMs → ${rollup.stats.unique_foods} foods, ${rollup.stats.unique_lifestyle} lifestyle priorities`,
-  );
 }
 
 console.log(`\nWrote ${OUT_JSON}`);
-console.log(`Patched ${patched} hub pages`);
+console.log(registryOnly ? "Registry-only mode: no hub pages patched" : `Patched ${patched} hub pages`);

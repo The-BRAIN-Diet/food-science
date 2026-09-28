@@ -36,7 +36,7 @@ export const CANONICAL_PM_OVERVIEWS = {
       "Sets transport-stage context upstream of noradrenergic and serotonergic signalling.",
     ],
   },
-  "brs1/fm1/brs1-fm1-pm3-noradrenergic-signalling-attention-executive-modulation.mdx": {
+  "brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation.mdx": {
     mission:
       "Sustain noradrenergic signalling so alertness, attention, and executive control remain appropriately engaged.",
     translational:
@@ -47,7 +47,7 @@ export const CANONICAL_PM_OVERVIEWS = {
       "Supports vigilance and task engagement across changing cognitive demand.",
     ],
   },
-  "brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation.mdx": {
+  "brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx": {
     mission:
       "Maintain serotonergic signalling so mood stability, behavioural inhibition, and emotional regulation stay well grounded.",
     translational:
@@ -58,7 +58,7 @@ export const CANONICAL_PM_OVERVIEWS = {
       "Supports emotional regulation, stress resilience, and behavioural control.",
     ],
   },
-  "brs1/fm2/brs1-fm2-pm5-acetylcholine-synthesis-support.mdx": {
+  "brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support.mdx": {
     mission:
       "Sustain acetylcholine synthesis so learning, working memory, and attention-focused signalling stay supplied.",
     translational:
@@ -69,7 +69,7 @@ export const CANONICAL_PM_OVERVIEWS = {
       "Depends on choline-rich foods and cofactor support to keep pace with demand.",
     ],
   },
-  "brs1/fm3/brs1-fm3-pm6-neuronal-membrane-dha-incorporation.mdx": {
+  "brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx": {
     mission:
       "Preserve neuronal membrane DHA content so the brain retains a flexible, signal-ready lipid foundation.",
     translational:
@@ -80,7 +80,7 @@ export const CANONICAL_PM_OVERVIEWS = {
       "Sets the structural lipid environment surrounding neurotransmitter receptors.",
     ],
   },
-  "brs1/fm4/brs1-fm4-pm7-gaba-glutamate-neurotransmission-balance.mdx": {
+  "brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance.mdx": {
     mission:
       "Maintain balanced excitatory glutamate and inhibitory GABA signalling so neural networks operate with stability.",
     translational:
@@ -91,7 +91,7 @@ export const CANONICAL_PM_OVERVIEWS = {
       "Sets the regulatory context for sibling synthesis and clearance mechanisms.",
     ],
   },
-  "brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity.mdx": {
+  "brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx": {
     mission:
       "Maintain sufficient glutamate decarboxylase capacity, and sufficient PLP cofactor to support it, so GABA can be synthesised from glutamate.",
     translational:
@@ -102,7 +102,7 @@ export const CANONICAL_PM_OVERVIEWS = {
       "Cofactor availability principally governs reserve rather than basal synthesis.",
     ],
   },
-  "brs1/fm4/brs1-fm4-pm9-glutamate-clearance-and-recycling.mdx": {
+  "brs1/fm4/brs1-fm4-pm10-glutamate-clearance-and-recycling.mdx": {
     mission:
       "Limit excitatory build-up by clearing and recycling glutamate before it overwhelms neural circuits.",
     translational:
@@ -113,7 +113,7 @@ export const CANONICAL_PM_OVERVIEWS = {
       "Protects neural circuits from sustained excitatory drive.",
     ],
   },
-  "brs1/fm4/brs1-fm4-pm10-excitotoxicity-modulation.mdx": {
+  "brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation.mdx": {
     mission:
       "Limit excitotoxic pressure when glutamatergic drive turns excessive so neural stability is protected over time.",
     translational:

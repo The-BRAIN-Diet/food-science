@@ -63,8 +63,8 @@ Control** — do not silently widen the PM.
 This is **not** a dietary filter: non-dietary biology may qualify when it materially
 establishes the mechanism in Mission + Overview.
 
-**Worked precedent:** BRS1-FM4-PM8 — concentration-versus-synthesis is scientifically
-valid but demoted to `PM8-IC1` (`interpretive-constraint`) because it constrains how
+**Worked precedent:** BRS1-FM4-PM9 — concentration-versus-synthesis is scientifically
+valid but demoted to `PM9-IC1` (`interpretive-constraint`) because it constrains how
 other evidence is read, not GAD-dependent synthesis capacity itself. It does **not**
 render in §4.1 or as a Finding card in §5. Its scientific consequences belong in the
 relevant Phenome **Rationale**, with numbered citations to the underlying studies
@@ -74,7 +74,7 @@ relevant Phenome **Rationale**, with numbered citations to the underlying studie
 evidence in §5. Interpretive constraints govern interpretation; they are not supporting
 Findings. **Evidence ownership does not imply presentation.**
 
-**PM8 §5 Phenome Connections — frozen (production exemplar):** Panel hierarchy
+**PM9 §5 Phenome Connections — frozen (production exemplar):** Panel hierarchy
 (strength → evidence confidence → Rationale → Supporting evidence), Rationale role,
 primary-phenome-only Supporting Evidence, IC synthesis via Rationale + `{{cite:}}` (not
 reader-facing IC cards), and numbered PM references are **accepted**. Change only via
@@ -96,10 +96,10 @@ PM scope itself challenged → Change Control
 
 ## Finding identity and numbering
 
-Headline Primary Mechanism Finding ids use **`[PM ID]-F[n]`** (example: `PM8-F1`).
+Headline Primary Mechanism Finding ids use **`[PM ID]-F[n]`** (example: `PM9-F1`).
 
 Interpretive constraints use **`[PM ID]-IC[n]`** and **do not** consume F sequence
-numbers (example: `PM8-IC1`).
+numbers (example: `PM9-IC1`).
 
 Connected / Supportive Evidence does not receive Finding ids.
 
@@ -112,7 +112,7 @@ Finding ids are canonical for structured data, anchors, cross-references, and au
 machinery. They **must not** render as reader-facing headings or labels — use
 `finding_label` in public copy.
 
-Legacy `SF-PM8-n` ids on PM8 were migrated to `PM8-Fn` / `PM8-IC1` when the production
+Legacy `SF-PM8-n` ids on the former PM8 page (now PM9) were migrated to `PM9-Fn` / `PM9-IC1` when the production
 contract was established.
 
 **Depth is proportional.** Individual Study Assessment fields are complete when
@@ -193,11 +193,13 @@ to any phenome attached to that PM.
 
 ```yaml
 scientific_findings:
-  - id: PM8-F1                        # PMn-Fm headline; PMn-ICk interpretive — unique on page
+  - id: PM9-F1                        # PMn-Fm headline; PMn-ICk interpretive — unique on page
     finding_label: >-                 # required — human-readable title (Level 1–2 default)
     presentation: mechanistic-basis   # mechanistic-basis | phenome-relationship | interpretive-constraint
     primary_phenome: Emotional Regulation # required only for phenome-relationship presentation
     fm_rollup: true                   # explicit FM §4.4 selection; omit/false means no roll-up
+    therapeutic_area_ids:            # optional — condition populations directly represented by the Finding
+      - TA001                        # canonical IDs from phenome-registry.json; not inferred from Phenome relevance
     finding_summary: >-               # recommended — plain-language opening (self-contained)
     finding_interpretation: >-        # optional — practitioner “What this means” / boundary
     finding_statement: >-             # required — the assessable proposition (Level 3 audit)
@@ -231,6 +233,9 @@ scientific_findings:
 ## Rules enforced by `validateScientificFindings`
 
 - Finding ids are unique and match `PMn-Fm` (headline) or `PMn-ICk` (interpretive constraint).
+- `therapeutic_area_ids`, when present, is a list of canonical Therapeutic Area IDs.
+  Tag only a condition population directly assessed or synthesised by the Finding;
+  do not infer tags from a Phenome's broader Therapeutic Area relevance.
 - Headline mechanistic Findings use `presentation: mechanistic-basis`; interpretive
   constraints use `presentation: interpretive-constraint` (not headline Findings; render
   at the point of inference they constrain — typically the referencing Phenome Connection

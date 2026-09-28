@@ -41,7 +41,7 @@ input: Vitamin B6
 input_type: nutrient/substance
 biological_role: Dietary precursor supporting PLP availability required for GAD-dependent GABA synthesis
 evidence_source:
-  finding_ids: [PM8-F1, PM8-F2]
+  finding_ids: [PM9-F1, PM9-F2]
   citation_keys: [martin_regulation_1993, lee_human_2000, tang_crystal_2005, navarro_catalytic_2013]
 ```
 
@@ -52,7 +52,7 @@ input: Glutamate
 input_type: substrate
 biological_role: Substrate for GAD-dependent GABA synthesis
 evidence_source:
-  finding_ids: [PM8-F1]
+  finding_ids: [PM9-F1]
   citation_keys: [martin_regulation_1993]
 ```
 
@@ -191,25 +191,25 @@ There is no KC→PM scientific propagation. PM review assesses candidate inputs
 against PM evidence independently, rather than inheriting the KC dietary list.
 
 ```
-PM8 → KC1 → only KC1 relationships whose biological role applies to PM8
+PM9 → KC1 → only KC1 relationships whose biological role applies to PM9
 ```
 
 **Not:**
 
 ```
-PM8 → KC1 → automatically inherit every KC1 dietary input
+PM9 → KC1 → automatically inherit every KC1 dietary input
 ```
 
-**Example — may project to PM8:**
+**Example — may project to PM9:**
 
 ```yaml
 input: Glutamate / relevant protein substrate
 input_type: substrate
 biological_role: Substrate availability for GAD-dependent GABA synthesis
-evidence_source: PM8 evidence
+evidence_source: PM9 evidence
 ```
 
-**Example — does not project to PM8 merely because PM8 lists KC1:**
+**Example — does not project to PM9 merely because PM9 lists KC1:**
 
 ```yaml
 input: Tryptophan
@@ -334,7 +334,7 @@ benefit from cofactor dependency alone.
 
 ## 7. Presentation / visibility contract
 
-**Atomic traceability is mandatory in the data model.**  
+**Atomic traceability is mandatory in the data model.**
 **Atomic verbosity is not required in the default presentation.**
 
 For every newly authored or recomputed PM, **every reader-facing §3.1 dietary
@@ -429,7 +429,7 @@ Record flags in `system/mechanism-change-control-queue.md`.
 
 **Exception:** Not every Scientific Finding is dietary-relevant. Do not create
 artificial dietary-input records for interpretation, boundary-setting, or phenome
-Findings with no dietary biology (e.g. PM8-IC1: GABA concentration ≠ synthesis rate).
+Findings with no dietary biology (e.g. PM9-IC1: GABA concentration ≠ synthesis rate).
 
 ---
 
@@ -440,17 +440,17 @@ relationships in front matter:
 
 ```yaml
 dietary_input_traceability:
-  - atom_id: PM8-DIT-1                 # stable link for Lever projection
+  - atom_id: PM9-DIT-1                 # stable link for Lever projection
     input: string                      # required
     input_type: string                 # required — see § Input types
     biological_role: string            # required
     evidence_source:                   # required
-      finding_ids: [PM8-F1]
+      finding_ids: [PM9-F1]
       citation_keys: [martin_regulation_1993]   # must resolve in PM References
       pathway_resources: []
 
 dietary_lever_atoms:
-  - atom_id: PM8-DIT-1                 # references traceability row
+  - atom_id: PM9-DIT-1                 # references traceability row
     requirement_classification: direct # optional relationship metadata
     derived_target: Methionine         # required when classification is derived
     derived_target_atom_id: PM3-DIT-1  # optional machine link to the Direct atom
@@ -459,7 +459,7 @@ dietary_lever_atoms:
     claim_ceiling: biological-dependency
 ```
 
-The YAML example above is structural. Do not treat the mixed PM8/PM3 identifiers as
+The YAML example above is structural. Do not treat the mixed PM9/PM3 identifiers as
 a live record.
 
 `dietary_input_traceability` is **PM Evidence durable source**.
@@ -549,7 +549,7 @@ requirement. Flag conflicts for adjudication.
 
 #### Canonical relationship examples (structure only)
 
-These define atom shape. They are not a PM3 or PM8 recomputation.
+These define atom shape. They are not a PM3 or PM9 recomputation.
 
 **Direct — methionine**
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * One-time PM8 Finding id + scope correction (PM8-Fn, demote concentration constraint).
+ * One-time PM9 Finding id + scope correction (PM9-Fn, demote concentration constraint).
  * @see system/scientific-finding-schema.md § Finding identity and PM scope triangulation
  */
 
@@ -9,20 +9,20 @@ import path from "node:path";
 import matter from "gray-matter";
 
 const root = process.cwd();
-const PM8 = path.join(
+const PM9 = path.join(
   root,
-  "docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity.mdx",
+  "docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity.mdx",
 );
 
 const ID_MAP = {
-  "SF-PM8-1": "PM8-F1",
-  "SF-PM8-2": "PM8-F2",
-  "SF-PM8-4": "PM8-IC1",
-  "SF-PM8-5": "PM8-F3",
-  "SF-PM8-6": "PM8-F4",
-  "SF-PM8-7": "PM8-F5",
-  "SF-PM8-8": "PM8-F6",
-  "SF-PM8-9": "PM8-F7",
+  "SF-PM8-1": "PM9-F1",
+  "SF-PM8-2": "PM9-F2",
+  "SF-PM8-4": "PM9-IC1",
+  "SF-PM8-5": "PM9-F3",
+  "SF-PM8-6": "PM9-F4",
+  "SF-PM8-7": "PM9-F5",
+  "SF-PM8-8": "PM9-F6",
+  "SF-PM8-9": "PM9-F7",
 };
 
 function remapId(value) {
@@ -81,8 +81,8 @@ function remapBody(content) {
   return out;
 }
 
-const { data, content } = matter(fs.readFileSync(PM8, "utf8"));
+const { data, content } = matter(fs.readFileSync(PM9, "utf8"));
 const newData = remapData(data);
 const newBody = remapBody(content);
-fs.writeFileSync(PM8, matter.stringify(newBody, newData, { lineWidth: 9999 }), "utf8");
-console.log("PM8 finding scope migration applied.");
+fs.writeFileSync(PM9, matter.stringify(newBody, newData, { lineWidth: 9999 }), "utf8");
+console.log("PM9 finding scope migration applied.");

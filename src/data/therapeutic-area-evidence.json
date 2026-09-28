@@ -1,0 +1,2798 @@
+{
+  "meta": {
+    "version": 2,
+    "description": "Curated anxiety and depression claims preserved when regenerating ADHD hub evidence.",
+    "adhdHubMigrationAt": "2026-09-28T17:09:29.529Z",
+    "adhdHubRowsMigrated": 50,
+    "adhdDistinctStudies": 49
+  },
+  "evidenceRecords": [
+    {
+      "id": "ER000011",
+      "citationKey": "kiecolt-glaser_omega-3_2011",
+      "citationLabel": "Kiecolt-Glaser et al., 2011",
+      "population": "Medical students under examination stress",
+      "lifeStage": "adult",
+      "exposure": {
+        "level": "supplement",
+        "label": "Omega-3 supplementation"
+      },
+      "studyDesign": "Randomised controlled trial",
+      "measuredOutcomes": [
+        "Anxiety symptoms",
+        "Inflammatory markers"
+      ],
+      "targetEngagement": "Cytokine modulation",
+      "functionalClinicalOutcome": "Anxiety symptom change",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Non-clinical stressed population"
+      ],
+      "provenance": [
+        "docs/biological-targets/inflammation-oxidative-stress.md"
+      ]
+    },
+    {
+      "id": "ER000012",
+      "citationKey": "lopresti_saffron_2014",
+      "citationLabel": "Lopresti & Drummond, 2014",
+      "population": "Adults with low mood in recovered saffron trials",
+      "lifeStage": "adult",
+      "exposure": {
+        "level": "supplement",
+        "label": "Standardised saffron extract"
+      },
+      "studyDesign": "Systematic review of clinical studies",
+      "measuredOutcomes": [
+        "Depressive symptoms"
+      ],
+      "targetEngagement": "Serotonergic plausibility; not measured directly",
+      "functionalClinicalOutcome": "Mood symptom signals in reviewed trials",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Extract doses; extrapolated to anxiety context"
+      ],
+      "provenance": [
+        "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx"
+      ]
+    },
+    {
+      "id": "ER000013",
+      "citationKey": "bravo_ingestion_2011",
+      "citationLabel": "Bravo et al., 2011",
+      "population": "Mice",
+      "lifeStage": "preclinical",
+      "exposure": {
+        "level": "supplement",
+        "label": "Lactobacillus rhamnosus"
+      },
+      "studyDesign": "Preclinical intervention",
+      "measuredOutcomes": [
+        "GABA receptor expression",
+        "Anxiety-like behaviour"
+      ],
+      "targetEngagement": "Vagal gut–brain signalling",
+      "functionalClinicalOutcome": "Anxiety-like behaviour in mice",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Preclinical only"
+      ],
+      "provenance": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md"
+      ]
+    },
+    {
+      "id": "ER000014",
+      "citationKey": "chauhan_saffron_2024",
+      "citationLabel": "Chauhan et al., 2024",
+      "population": "Mild-to-moderate depression contexts in reviewed literature",
+      "lifeStage": "adult",
+      "exposure": {
+        "level": "supplement",
+        "label": "Standardised saffron extract"
+      },
+      "studyDesign": "Comparative review",
+      "measuredOutcomes": [
+        "Depressive symptoms"
+      ],
+      "targetEngagement": "Multi-pathway plausibility",
+      "functionalClinicalOutcome": "Depression symptom signals in reviewed trials",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Review-level evidence; extract doses"
+      ],
+      "provenance": [
+        "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx"
+      ]
+    },
+    {
+      "id": "ER000015",
+      "citationKey": "jacka_randomised_2017",
+      "citationLabel": "Jacka et al., 2017",
+      "population": "Adults with major depression",
+      "lifeStage": "adult",
+      "exposure": {
+        "level": "dietary-pattern",
+        "label": "Modified Mediterranean dietary support"
+      },
+      "studyDesign": "Randomised controlled trial",
+      "measuredOutcomes": [
+        "Depressive symptoms"
+      ],
+      "targetEngagement": "Pattern-level; mechanisms not isolated",
+      "functionalClinicalOutcome": "Depressive symptom improvement",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Adjunctive pattern trial"
+      ],
+      "provenance": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md"
+      ]
+    },
+    {
+      "id": "ER000016",
+      "citationKey": "aguilar_latorre_lifestyle_2022",
+      "citationLabel": "Aguilar-Latorre et al., 2022",
+      "population": "Adults with depression",
+      "lifeStage": "adult",
+      "exposure": {
+        "level": "physical-activity",
+        "label": "Multi-component lifestyle programme"
+      },
+      "studyDesign": "Randomised controlled trial",
+      "measuredOutcomes": [
+        "Depressive symptoms"
+      ],
+      "targetEngagement": "Combined lifestyle components",
+      "functionalClinicalOutcome": "Depressive symptom improvement",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Diet, activity and sleep not isolated"
+      ],
+      "provenance": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md"
+      ]
+    },
+    {
+      "id": "ER000017",
+      "citationKey": "macdonald_dopamine_2024",
+      "citationKeys": [
+        "macdonald_dopamine_2024"
+      ],
+      "citationLabel": "MacDonald et al., 2024",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "null",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000018",
+      "citationKey": "wang_dietary_2019",
+      "citationKeys": [
+        "wang_dietary_2019"
+      ],
+      "citationLabel": "Wang et al., 2019",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms",
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms",
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000019",
+      "citationKey": "f_w_reimherr_open_1987",
+      "citationKeys": [
+        "f_w_reimherr_open_1987"
+      ],
+      "citationLabel": "Reimherr et al., 1987",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Open-label intervention",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "null",
+      "limitations": [
+        "Initial response was not sustained."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000020",
+      "citationKey": "oades_role_2010",
+      "citationKeys": [
+        "oades_role_2010"
+      ],
+      "citationLabel": "Oades, 2010",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000021",
+      "citationKey": "banerjee_does_2015",
+      "citationKeys": [
+        "banerjee_does_2015"
+      ],
+      "citationLabel": "Banerjee and Nandagopal, 2015",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000022",
+      "citationKey": "shaw_emotion_2014",
+      "citationKeys": [
+        "shaw_emotion_2014"
+      ],
+      "citationLabel": "Shaw et al., 2014",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000023",
+      "citationKey": "derbyshire_role_2023",
+      "citationKeys": [
+        "derbyshire_role_2023"
+      ],
+      "citationLabel": "Derbyshire et al., 2023",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms",
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000024",
+      "citationKey": "johansson_decreased_2013",
+      "citationKeys": [
+        "johansson_decreased_2013"
+      ],
+      "citationLabel": "Johansson et al., 2013",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms",
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000025",
+      "citationKey": "pei-chen_chang_personalised_2021",
+      "citationKeys": [
+        "pei-chen_chang_personalised_2021"
+      ],
+      "citationLabel": "Pei-Chen Chang, 2021",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000026",
+      "citationKey": "huss_supplementation_2010",
+      "citationKeys": [
+        "huss_supplementation_2010"
+      ],
+      "citationLabel": "Huss et al., 2010",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "supplement",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Intervention study",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000027",
+      "citationKey": "maltezos_glutamateglutamine_2014",
+      "citationKeys": [
+        "maltezos_glutamateglutamine_2014"
+      ],
+      "citationLabel": "Maltezos et al., 2014",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000028",
+      "citationKey": "edden_reduced_2012",
+      "citationKeys": [
+        "edden_reduced_2012"
+      ],
+      "citationLabel": "Edden et al., 2012",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human imaging study",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Biomarker association; does not by itself establish treatment effects."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000029",
+      "citationKey": "puts_reduced_2020",
+      "citationKeys": [
+        "puts_reduced_2020"
+      ],
+      "citationLabel": "Puts et al., 2020",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human imaging study",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000030",
+      "citationKey": "mamiya_precision_2021",
+      "citationKeys": [
+        "mamiya_precision_2021"
+      ],
+      "citationLabel": "Mamiya et al., 2021",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000031",
+      "citationKey": "lukovac_serum_2024",
+      "citationKeys": [
+        "lukovac_serum_2024"
+      ],
+      "citationLabel": "Lukovac et al., 2024",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "mixed",
+      "limitations": [
+        "Findings are heterogeneous across cohorts."
+      ],
+      "provenance": [
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000032",
+      "citationKey": "razavinia_vitamins_2024",
+      "citationKeys": [
+        "razavinia_vitamins_2024"
+      ],
+      "citationLabel": "Razavinia et al., 2024",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000033",
+      "citationKey": "meng_association_2022",
+      "citationKeys": [
+        "meng_association_2022"
+      ],
+      "citationLabel": "Meng et al., 2022",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Meta-analysis",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "mixed",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000034",
+      "citationKey": "millichap_diet_2012",
+      "citationKeys": [
+        "millichap_diet_2012"
+      ],
+      "citationLabel": "Millichap and Yee, 2012",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000035",
+      "citationKey": "chang_cortisol_2020",
+      "citationKeys": [
+        "chang_cortisol_2020"
+      ],
+      "citationLabel": "Chang et al., 2020",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "mixed",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms",
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000036",
+      "citationKey": "prehn-kristensen_reduced_2018",
+      "citationKeys": [
+        "prehn-kristensen_reduced_2018"
+      ],
+      "citationLabel": "Prehn-Kristensen et al., 2018",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms",
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000037",
+      "citationKey": "bulut_malondialdehyde_2007",
+      "citationKeys": [
+        "bulut_malondialdehyde_2007"
+      ],
+      "citationLabel": "Bulut et al., 2007",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Biomarker association; does not by itself establish treatment effects."
+      ],
+      "provenance": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000038",
+      "citationKey": "kurhan_dynamic_2021",
+      "citationKeys": [
+        "kurhan_dynamic_2021"
+      ],
+      "citationLabel": "Kurhan & Alp, 2021",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000039",
+      "citationKey": "miniksar_effect_2023",
+      "citationKeys": [
+        "miniksar_effect_2023"
+      ],
+      "citationLabel": "Miniksar et al., 2023",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000040",
+      "citationKey": "verlaet_rationale_2018",
+      "citationKeys": [
+        "verlaet_rationale_2018"
+      ],
+      "citationLabel": "Verlaet et al., 2018",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Narrative review",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000041",
+      "citationKey": "verlaet_oxidative_2019",
+      "citationKeys": [
+        "verlaet_oxidative_2019"
+      ],
+      "citationLabel": "Verlaet et al., 2019",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms",
+        "docs/biological-targets/mitochondrial-function-bioenergetics.md#adhd-evidence-and-connected-brs4-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000042",
+      "citationKey": "dufault_nutritional_2024",
+      "citationKeys": [
+        "dufault_nutritional_2024"
+      ],
+      "citationLabel": "Dufault et al., 2024",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000043",
+      "citationKey": "trebaticka_pycnogenol_adhd_2006",
+      "citationKeys": [
+        "trebaticka_pycnogenol_adhd_2006",
+        "dvorakova_glutathione_pycnogenol_adhd_2006",
+        "chovanova_8oxoguanine_pycnogenol_adhd_2006"
+      ],
+      "citationLabel": "Trebatická et al., 2006; Dvořáková et al., 2006; Chovanová et al., 2006",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "supplement",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Randomised controlled trial",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Replication remains limited."
+      ],
+      "provenance": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000044",
+      "citationKey": "van_oudheusden_efficacy_2002",
+      "citationKeys": [
+        "van_oudheusden_efficacy_2002"
+      ],
+      "citationLabel": "van Oudheusden & Scholte, 2002",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "supplement",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Controlled intervention trial",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/mitochondrial-function-bioenergetics.md#adhd-evidence-and-connected-brs4-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000045",
+      "citationKey": "verma_attention_2016",
+      "citationKeys": [
+        "verma_attention_2016"
+      ],
+      "citationLabel": "Verma et al., 2016",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Ex vivo mechanistic study",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/mitochondrial-function-bioenergetics.md#adhd-evidence-and-connected-brs4-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000046",
+      "citationKey": "ogutlu_mitochondrial_2023",
+      "citationKeys": [
+        "ogutlu_mitochondrial_2023"
+      ],
+      "citationLabel": "Öğütlü et al., 2022",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Narrative review",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Biomarker association; does not by itself establish treatment effects."
+      ],
+      "provenance": [
+        "docs/biological-targets/mitochondrial-function-bioenergetics.md#adhd-evidence-and-connected-brs4-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000047",
+      "citationKey": "almutairi_mitophagy_adhd_2024",
+      "citationKeys": [
+        "almutairi_mitophagy_adhd_2024"
+      ],
+      "citationLabel": "Almutairi et al., 2024",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Review",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Synthesis paper; not a new primary trial in this row."
+      ],
+      "provenance": [
+        "docs/biological-targets/mitochondrial-function-bioenergetics.md#adhd-evidence-and-connected-brs4-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000048",
+      "citationKey": "aarts_gut_2017",
+      "citationKeys": [
+        "aarts_gut_2017"
+      ],
+      "citationLabel": "Aarts et al., 2017",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000049",
+      "citationKey": "jiang_gut_2018",
+      "citationKeys": [
+        "jiang_gut_2018"
+      ],
+      "citationLabel": "Jiang et al., 2018",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000050",
+      "citationKey": "steckler_disrupted_2024",
+      "citationKeys": [
+        "steckler_disrupted_2024"
+      ],
+      "citationLabel": "Steckler et al., 2024",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000051",
+      "citationKey": "wang_effect_2022",
+      "citationKeys": [
+        "wang_effect_2022"
+      ],
+      "citationLabel": "Wang et al., 2022",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Open-label intervention",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000052",
+      "citationKey": "partty_possible_2015",
+      "citationKeys": [
+        "partty_possible_2015"
+      ],
+      "citationLabel": "Pärtty et al., 2015",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Hypothesis-generating; not definitive efficacy evidence."
+      ],
+      "provenance": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000053",
+      "citationKey": "schleupner_attention-deficithyperactivity_2022",
+      "citationKeys": [
+        "schleupner_attention-deficithyperactivity_2022"
+      ],
+      "citationLabel": "Schleupner & Carmichael, 2022",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Review",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "Synthesis paper; not a new primary trial in this row."
+      ],
+      "provenance": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000054",
+      "citationKey": "chang_cortisol_2021",
+      "citationKeys": [
+        "chang_cortisol_2021"
+      ],
+      "citationLabel": "Chang et al., 2021",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Meta-analysis",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000055",
+      "citationKey": "isaksson_cortisol_2012",
+      "citationKeys": [
+        "isaksson_cortisol_2012"
+      ],
+      "citationLabel": "Isaksson et al., 2012",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000056",
+      "citationKey": "lane_sensory_2010",
+      "citationKeys": [
+        "lane_sensory_2010"
+      ],
+      "citationLabel": "Lane et al., 2010",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000057",
+      "citationKey": "zametkin_cerebral_1990",
+      "citationKeys": [
+        "zametkin_cerebral_1990"
+      ],
+      "citationLabel": "Zametkin et al., 1990",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human imaging study",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000058",
+      "citationKey": "di_girolamo_prevalence_2022",
+      "citationKeys": [
+        "di_girolamo_prevalence_2022"
+      ],
+      "citationLabel": "Di Girolamo et al., 2022",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Human observational or review evidence",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ]
+    },
+    {
+      "id": "ER000059",
+      "citationKey": "marcelli_bridging_2025",
+      "citationKeys": [
+        "marcelli_bridging_2025"
+      ],
+      "citationLabel": "Marcelli et al., 2025",
+      "population": "See hub table row; interpret with connected mechanism context.",
+      "lifeStage": "mixed",
+      "exposure": {
+        "level": "non-intervention",
+        "label": "As described in hub Therapeutic Area Research table"
+      },
+      "studyDesign": "Narrative review",
+      "measuredOutcomes": [
+        "As summarised in hub table evidence column"
+      ],
+      "targetEngagement": "See hub row and connected mechanism pages",
+      "functionalClinicalOutcome": "See hub row wording",
+      "resultDirection": "supportive",
+      "limitations": [
+        "See hub row and mechanism pages for nuance."
+      ],
+      "provenance": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "EC000119",
+      "evidenceId": "ER000017",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM1-PM4"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Dopaminergic dysfunction in ADHD does not support a simple global hypo-dopaminergic model; alterations vary by subtype, stage, and brain region",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "null",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "Dopaminergic dysfunction in ADHD does not support a simple global hypo-dopaminergic model; altera…",
+      "displaySummary": "MacDonald et al., 2024 — Dopaminergic dysfunction in ADHD does not support a simple global hypo-dopaminergic model; alterations vary by subtype, stage, and brain region",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation"
+    },
+    {
+      "id": "EC000120",
+      "evidenceId": "ER000018",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM1-PM1"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Meal-level amino-acid sufficiency may support catecholaminergic and serotonergic precursor pools relevant to ADHD attention pathways",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "Meal-level amino-acid sufficiency may support catecholaminergic and serotonergic precursor pools …",
+      "displaySummary": "Wang et al., 2019 — Meal-level amino-acid sufficiency may support catecholaminergic and serotonergic precursor pools relevant to ADHD attention pathways",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation"
+    },
+    {
+      "id": "EC000121",
+      "evidenceId": "ER000019",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM1-PM1"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "A small open trial of L-tyrosine in 12 adults produced an initial response that disappeared as tolerance developed; it does not support sustained L-tyrosine supplementation for ADHD.",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "null",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "A small open trial of L-tyrosine in 12 adults produced an initial response that disappeared as to…",
+      "displaySummary": "Reimherr et al., 1987 — A small open trial of L-tyrosine in 12 adults produced an initial response that disappeared as tolerance developed; it does not support sustained L-tyrosine supplementation for ADHD.",
+      "limitationNote": "Initial response was not sustained.",
+      "studyDesignLabel": "Open-label intervention",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation"
+    },
+    {
+      "id": "EC000122",
+      "evidenceId": "ER000020",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM1-PM5",
+        "BRS1-FM1-PM1"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Role of serotonin in ADHD",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "Role of serotonin in ADHD",
+      "displaySummary": "Oades, 2010 — Role of serotonin in ADHD",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation"
+    },
+    {
+      "id": "EC000123",
+      "evidenceId": "ER000021",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM1-PM5"
+      ],
+      "phenomeIds": [
+        "PH003"
+      ],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Serotonin deficit susceptibility in ADHD",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "Serotonin deficit susceptibility in ADHD",
+      "displaySummary": "Banerjee and Nandagopal, 2015 — Serotonin deficit susceptibility in ADHD",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation"
+    },
+    {
+      "id": "EC000124",
+      "evidenceId": "ER000022",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM1-PM5"
+      ],
+      "phenomeIds": [
+        "PH003"
+      ],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Emotion dysregulation in attention deficit hyperactivity disorder",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "Emotion dysregulation in attention deficit hyperactivity disorder",
+      "displaySummary": "Shaw et al., 2014 — Emotion dysregulation in attention deficit hyperactivity disorder",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation"
+    },
+    {
+      "id": "EC000125",
+      "evidenceId": "ER000023",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM2-PM6"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "extrapolated-population",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Low choline intakes and altered choline status in neurodevelopmental subgroups relevant to attention and learning",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "Low choline intakes and altered choline status in neurodevelopmental subgroups relevant to attent…",
+      "displaySummary": "Derbyshire et al., 2023 — Low choline intakes and altered choline status in neurodevelopmental subgroups relevant to attention and learning",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support"
+    },
+    {
+      "id": "EC000126",
+      "evidenceId": "ER000024",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM2-PM6"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "extrapolated-population",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Decreased muscarinic acetylcholine receptor binding in neurodevelopmental contexts",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "Decreased muscarinic acetylcholine receptor binding in neurodevelopmental contexts",
+      "displaySummary": "Johansson et al., 2013 — Decreased muscarinic acetylcholine receptor binding in neurodevelopmental contexts",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm2/brs1-fm2-pm6-acetylcholine-synthesis-support"
+    },
+    {
+      "id": "EC000127",
+      "evidenceId": "ER000025",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM3-PM7"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Focus on omega-3 polyunsaturated fatty acids and ADHD",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "Focus on omega-3 polyunsaturated fatty acids and ADHD",
+      "displaySummary": "Pei-Chen Chang, 2021 — Focus on omega-3 polyunsaturated fatty acids and ADHD",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation"
+    },
+    {
+      "id": "EC000128",
+      "evidenceId": "ER000026",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM3-PM7"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "PUFA, magnesium, and zinc supplementation studied in children seeking medical attention for behavioural symptoms",
+      "claimCeiling": "adjunctive-intervention",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "PUFA, magnesium, and zinc supplementation studied in children seeking medical attention for behav…",
+      "displaySummary": "Huss et al., 2010 — PUFA, magnesium, and zinc supplementation studied in children seeking medical attention for behavioural symptoms",
+      "limitationNote": "",
+      "studyDesignLabel": "Intervention study",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm3/brs1-fm3-pm7-neuronal-membrane-dha-incorporation"
+    },
+    {
+      "id": "EC000129",
+      "evidenceId": "ER000027",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM4-PM8"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Low glutamate in critical brain areas correlates with low Barkley attention scale scores",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "Low glutamate in critical brain areas correlates with low Barkley attention scale scores",
+      "displaySummary": "Maltezos et al., 2014 — Low glutamate in critical brain areas correlates with low Barkley attention scale scores",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance"
+    },
+    {
+      "id": "EC000130",
+      "evidenceId": "ER000028",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM4-PM8"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Reduced GABA concentration in attention-deficit/hyperactivity disorder",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "Reduced GABA concentration in attention-deficit/hyperactivity disorder",
+      "displaySummary": "Edden et al., 2012 — Reduced GABA concentration in attention-deficit/hyperactivity disorder",
+      "limitationNote": "Biomarker association; does not by itself establish treatment effects.",
+      "studyDesignLabel": "Human imaging study",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance"
+    },
+    {
+      "id": "EC000131",
+      "evidenceId": "ER000029",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM4-PM8"
+      ],
+      "phenomeIds": [
+        "PH015"
+      ],
+      "evidenceRelation": "biomarker-association",
+      "demonstration": "association",
+      "currentClaim": "Reduced striatal GABA in unmedicated children with ADHD",
+      "claimCeiling": "biomarker-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "Reduced striatal GABA in unmedicated children with ADHD",
+      "displaySummary": "Puts et al., 2020 — Reduced striatal GABA in unmedicated children with ADHD",
+      "limitationNote": "",
+      "studyDesignLabel": "Human imaging study",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-glutamate-neurotransmission-balance"
+    },
+    {
+      "id": "EC000132",
+      "evidenceId": "ER000030",
+      "taId": "TA001",
+      "brsId": "BRS1",
+      "fmIds": [],
+      "pmIds": [
+        "BRS1-FM4-PM11"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Neural excitation and inhibition balance framing",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/neurotransmitter-regulation.md#adhd-evidence-and-connected-brs1-mechanisms"
+      ],
+      "displayTitle": "Neural excitation and inhibition balance framing",
+      "displaySummary": "Mamiya et al., 2021 — Neural excitation and inhibition balance framing",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm11-excitotoxicity-modulation"
+    },
+    {
+      "id": "EC000133",
+      "evidenceId": "ER000031",
+      "taId": "TA001",
+      "brsId": "BRS2",
+      "fmIds": [],
+      "pmIds": [
+        "BRS2-FM1-PM1",
+        "BRS2-FM1-PM4",
+        "BRS2-FM2-PM5"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "biomarker-association",
+      "demonstration": "association",
+      "currentClaim": "Elevated homocysteine, a functional marker of impaired one-carbon metabolism, has been reported in some pediatric ADHD cohorts, although findings remain heterogeneous across studies",
+      "claimCeiling": "biomarker-association",
+      "confidence": "medium",
+      "resultDirection": "mixed",
+      "sourceOccurrences": [
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ],
+      "displayTitle": "Elevated homocysteine, a functional marker of impaired one-carbon metabolism, has been reported i…",
+      "displaySummary": "Lukovac et al., 2024 — Elevated homocysteine, a functional marker of impaired one-carbon metabolism, has been reported in some pediatric ADHD cohorts, although findings remain heterogeneous across studies",
+      "limitationNote": "Findings are heterogeneous across cohorts.",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation"
+    },
+    {
+      "id": "EC000134",
+      "evidenceId": "ER000032",
+      "taId": "TA001",
+      "brsId": "BRS2",
+      "fmIds": [],
+      "pmIds": [
+        "BRS2-FM1-PM1"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "biomarker-association",
+      "demonstration": "association",
+      "currentClaim": "Lower folate and B12 in children with ADHD; meta-analytic support for methylation-relevant micronutrient disturbance",
+      "claimCeiling": "biomarker-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ],
+      "displayTitle": "Lower folate and B12 in children with ADHD; meta-analytic support for methylation-relevant micron…",
+      "displaySummary": "Razavinia et al., 2024 — Lower folate and B12 in children with ADHD; meta-analytic support for methylation-relevant micronutrient disturbance",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation"
+    },
+    {
+      "id": "EC000135",
+      "evidenceId": "ER000033",
+      "taId": "TA001",
+      "brsId": "BRS2",
+      "fmIds": [],
+      "pmIds": [
+        "BRS2-FM1-PM1"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "MTHFR 1298A>C associated with ADHD in meta-analysis of five case–control studies; 677C>T showed no consistent ADHD association in the same analysis",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "mixed",
+      "sourceOccurrences": [
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ],
+      "displayTitle": "MTHFR 1298A>C associated with ADHD in meta-analysis of five case–control studies; 677C>T showed n…",
+      "displaySummary": "Meng et al., 2022 — MTHFR 1298A>C associated with ADHD in meta-analysis of five case–control studies; 677C>T showed no consistent ADHD association in the same analysis",
+      "limitationNote": "",
+      "studyDesignLabel": "Meta-analysis",
+      "openEvidencePath": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation"
+    },
+    {
+      "id": "EC000136",
+      "evidenceId": "ER000018",
+      "taId": "TA001",
+      "brsId": "BRS2",
+      "fmIds": [],
+      "pmIds": [
+        "BRS2-FM1-PM1",
+        "BRS2-FM1-PM4"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Unhealthy dietary pattern linked to lower B12, folate, and B6 and to ADHD in case–control path analysis",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ],
+      "displayTitle": "Unhealthy dietary pattern linked to lower B12, folate, and B6 and to ADHD in case–control path an…",
+      "displaySummary": "Wang et al., 2019 — Unhealthy dietary pattern linked to lower B12, folate, and B6 and to ADHD in case–control path analysis",
+      "limitationNote": "",
+      "studyDesignLabel": "Observational path analysis",
+      "openEvidencePath": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation"
+    },
+    {
+      "id": "EC000137",
+      "evidenceId": "ER000034",
+      "taId": "TA001",
+      "brsId": "BRS2",
+      "fmIds": [],
+      "pmIds": [
+        "BRS2-FM1-PM1",
+        "BRS2-FM1-PM2",
+        "BRS2-FM3-PM7"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Dietary patterns rich in fibre, folate, and omega-3 fatty acids associated with reduced ADHD symptoms",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ],
+      "displayTitle": "Dietary patterns rich in fibre, folate, and omega-3 fatty acids associated with reduced ADHD symp…",
+      "displaySummary": "Millichap and Yee, 2012 — Dietary patterns rich in fibre, folate, and omega-3 fatty acids associated with reduced ADHD symptoms",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm1-folate-b12-dependent-homocysteine-remethylation"
+    },
+    {
+      "id": "EC000138",
+      "evidenceId": "ER000023",
+      "taId": "TA001",
+      "brsId": "BRS2",
+      "fmIds": [],
+      "pmIds": [
+        "BRS2-FM1-PM2",
+        "BRS2-FM3-PM7"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "extrapolated-population",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Choline implicated across neurodevelopmental disorders including ADHD, linking remethylation and phosphatidylcholine pathways",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ],
+      "displayTitle": "Choline implicated across neurodevelopmental disorders including ADHD, linking remethylation and …",
+      "displaySummary": "Derbyshire and Maes, 2023 — Choline implicated across neurodevelopmental disorders including ADHD, linking remethylation and phosphatidylcholine pathways",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
+    },
+    {
+      "id": "EC000139",
+      "evidenceId": "ER000024",
+      "taId": "TA001",
+      "brsId": "BRS2",
+      "fmIds": [],
+      "pmIds": [
+        "BRS2-FM1-PM2",
+        "BRS1-FM2-PM6"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Decreased muscarinic acetylcholine receptor binding reported in boys with ADHD, supporting cholinergic involvement in aetiology",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/methylation-one-carbon-metabolism.md#adhd-evidence-and-connected-brs2-mechanisms"
+      ],
+      "displayTitle": "Decreased muscarinic acetylcholine receptor binding reported in boys with ADHD, supporting cholin…",
+      "displaySummary": "Johansson et al., 2013 — Decreased muscarinic acetylcholine receptor binding reported in boys with ADHD, supporting cholinergic involvement in aetiology",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs2/fm1/brs2-fm1-pm2-betaine-bhmt-remethylation"
+    },
+    {
+      "id": "EC000140",
+      "evidenceId": "ER000035",
+      "taId": "TA001",
+      "brsId": "BRS3",
+      "fmIds": [],
+      "pmIds": [
+        "BRS3-FM3-PM7"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Higher hs-CRP and IL-6, with lower TNF-α, BDNF and bedtime salivary cortisol, in children and adolescents with ADHD (mixed marker pattern, not a uniform pro-inflammatory cytokine profile)",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "mixed",
+      "sourceOccurrences": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ],
+      "displayTitle": "Higher hs-CRP and IL-6, with lower TNF-α, BDNF and bedtime salivary cortisol, in children and ado…",
+      "displaySummary": "Chang et al., 2020 — Higher hs-CRP and IL-6, with lower TNF-α, BDNF and bedtime salivary cortisol, in children and adolescents with ADHD (mixed marker pattern, not a uniform pro-inflammatory cytokine profile)",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs3/fm3/brs3-fm3-pm7-cytokine-network-modulation"
+    },
+    {
+      "id": "EC000141",
+      "evidenceId": "ER000036",
+      "taId": "TA001",
+      "brsId": "BRS3",
+      "fmIds": [],
+      "pmIds": [
+        "BRS3-FM1-PM2"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Reduced microbiome alpha diversity reported in ADHD",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ],
+      "displayTitle": "Reduced microbiome alpha diversity reported in ADHD",
+      "displaySummary": "Prehn-Kristensen et al., 2018 — Reduced microbiome alpha diversity reported in ADHD",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs3/fm1/brs3-fm1-pm2-gut-derived-inflammatory-signalling"
+    },
+    {
+      "id": "EC000142",
+      "evidenceId": "ER000037",
+      "taId": "TA001",
+      "brsId": "BRS3",
+      "fmIds": [],
+      "pmIds": [
+        "BRS3-FM2-PM4",
+        "BRS3-FM2-PM5"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Significantly higher malondialdehyde in adult ADHD versus controls",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ],
+      "displayTitle": "Significantly higher malondialdehyde in adult ADHD versus controls",
+      "displaySummary": "Bulut et al., 2007 — Significantly higher malondialdehyde in adult ADHD versus controls",
+      "limitationNote": "Biomarker association; does not by itself establish treatment effects.",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+    },
+    {
+      "id": "EC000143",
+      "evidenceId": "ER000038",
+      "taId": "TA001",
+      "brsId": "BRS3",
+      "fmIds": [],
+      "pmIds": [
+        "BRS3-FM2-PM4"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Thiol/disulfide homeostasis shifted toward oxidation and higher leukocyte 8-OHdG in adult ADHD",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ],
+      "displayTitle": "Thiol/disulfide homeostasis shifted toward oxidation and higher leukocyte 8-OHdG in adult ADHD",
+      "displaySummary": "Kurhan & Alp, 2021 — Thiol/disulfide homeostasis shifted toward oxidation and higher leukocyte 8-OHdG in adult ADHD",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+    },
+    {
+      "id": "EC000144",
+      "evidenceId": "ER000039",
+      "taId": "TA001",
+      "brsId": "BRS3",
+      "fmIds": [],
+      "pmIds": [
+        "BRS3-FM2-PM4"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Elevated oxidative stress index and total oxidative status in children and adolescents with ADHD",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ],
+      "displayTitle": "Elevated oxidative stress index and total oxidative status in children and adolescents with ADHD",
+      "displaySummary": "Miniksar et al., 2023 — Elevated oxidative stress index and total oxidative status in children and adolescents with ADHD",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+    },
+    {
+      "id": "EC000145",
+      "evidenceId": "ER000040",
+      "taId": "TA001",
+      "brsId": "BRS3",
+      "fmIds": [],
+      "pmIds": [
+        "BRS3-FM2-PM3"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Narrative review framing a rationale for dietary antioxidant treatment of ADHD via immune, epigenetic, and oxidative-stress hypotheses",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ],
+      "displayTitle": "Narrative review framing a rationale for dietary antioxidant treatment of ADHD via immune, epigen…",
+      "displaySummary": "Verlaet et al., 2018 — Narrative review framing a rationale for dietary antioxidant treatment of ADHD via immune, epigenetic, and oxidative-stress hypotheses",
+      "limitationNote": "",
+      "studyDesignLabel": "Narrative review",
+      "openEvidencePath": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm3-nrf2-are-antioxidant-activation"
+    },
+    {
+      "id": "EC000146",
+      "evidenceId": "ER000041",
+      "taId": "TA001",
+      "brsId": "BRS3",
+      "fmIds": [],
+      "pmIds": [
+        "BRS3-FM2-PM4"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Elevated glutathione in ADHD may reflect compensatory response to increased oxidative stress",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ],
+      "displayTitle": "Elevated glutathione in ADHD may reflect compensatory response to increased oxidative stress",
+      "displaySummary": "Verlaet et al., 2019 — Elevated glutathione in ADHD may reflect compensatory response to increased oxidative stress",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+    },
+    {
+      "id": "EC000147",
+      "evidenceId": "ER000042",
+      "taId": "TA001",
+      "brsId": "BRS3",
+      "fmIds": [],
+      "pmIds": [
+        "BRS3-FM2-PM4"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "ADHD linked with metals contamination and ultra-processed foods, including colour-additive metals",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ],
+      "displayTitle": "ADHD linked with metals contamination and ultra-processed foods, including colour-additive metals",
+      "displaySummary": "Dufault et al., 2024 — ADHD linked with metals contamination and ultra-processed foods, including colour-additive metals",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+    },
+    {
+      "id": "EC000148",
+      "evidenceId": "ER000043",
+      "taId": "TA001",
+      "brsId": "BRS3",
+      "fmIds": [],
+      "pmIds": [
+        "BRS3-FM2-PM4",
+        "BRS3-FM2-PM6"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "A small randomized placebo-controlled trial found that Pycnogenol improved attention and reduced hyperactivity in children with ADHD. Companion studies from the same cohort reported normalization of total antioxidant status (TAS), improved glutathione balance, and reduced oxidative DNA damage, providing mechanistic support for oxidative stress pathways in ADHD. Replication remains limited.",
+      "claimCeiling": "adjunctive-intervention",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/inflammation-oxidative-stress.md#adhd-evidence-and-connected-brs3-mechanisms"
+      ],
+      "displayTitle": "A small randomized placebo-controlled trial found that Pycnogenol improved attention and reduced …",
+      "displaySummary": "Trebatická et al., 2006; Dvořáková et al., 2006; Chovanová et al., 2006 — A small randomized placebo-controlled trial found that Pycnogenol improved attention and reduced hyperactivity in children with ADHD.",
+      "limitationNote": "Replication remains limited.",
+      "studyDesignLabel": "Randomised controlled trial",
+      "openEvidencePath": "/docs/biological-targets/brs3/fm2/brs3-fm2-pm4-ros-generation-vs-clearance-balance"
+    },
+    {
+      "id": "EC000149",
+      "evidenceId": "ER000044",
+      "taId": "TA001",
+      "brsId": "BRS4",
+      "fmIds": [],
+      "pmIds": [
+        "BRS4-FM3-PM6"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Carnitine supplementation improved behavioural and functional outcomes in children with ADHD in a controlled trial",
+      "claimCeiling": "adjunctive-intervention",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/mitochondrial-function-bioenergetics.md#adhd-evidence-and-connected-brs4-mechanisms"
+      ],
+      "displayTitle": "Carnitine supplementation improved behavioural and functional outcomes in children with ADHD in a…",
+      "displaySummary": "van Oudheusden & Scholte, 2002 — Carnitine supplementation improved behavioural and functional outcomes in children with ADHD in a controlled trial",
+      "limitationNote": "",
+      "studyDesignLabel": "Controlled intervention trial",
+      "openEvidencePath": "/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport"
+    },
+    {
+      "id": "EC000150",
+      "evidenceId": "ER000041",
+      "taId": "TA001",
+      "brsId": "BRS4",
+      "fmIds": [],
+      "pmIds": [
+        "BRS4-FM2-PM4",
+        "BRS4-FM2-PM5"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Elevated glutathione and oxidative-stress markers in paediatric ADHD case–control work; GSH required for mitochondrial lactate metabolism and ROS neutralisation",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/mitochondrial-function-bioenergetics.md#adhd-evidence-and-connected-brs4-mechanisms"
+      ],
+      "displayTitle": "Elevated glutathione and oxidative-stress markers in paediatric ADHD case–control work; GSH requi…",
+      "displaySummary": "Verlaet et al., 2019 — Elevated glutathione and oxidative-stress markers in paediatric ADHD case–control work; GSH required for mitochondrial lactate metabolism and ROS neutralisation",
+      "limitationNote": "",
+      "studyDesignLabel": "Case-control study",
+      "openEvidencePath": "/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control"
+    },
+    {
+      "id": "EC000151",
+      "evidenceId": "ER000045",
+      "taId": "TA001",
+      "brsId": "BRS4",
+      "fmIds": [],
+      "pmIds": [
+        "BRS4-FM1-PM1",
+        "BRS4-FM1-PM2"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Cybrid models from ADHD platelets showed reduced cellular and mitochondrial respiration, lower complex V activity, membrane-potential loss, and elevated oxidative stress",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/mitochondrial-function-bioenergetics.md#adhd-evidence-and-connected-brs4-mechanisms"
+      ],
+      "displayTitle": "Cybrid models from ADHD platelets showed reduced cellular and mitochondrial respiration, lower co…",
+      "displaySummary": "Verma et al., 2016 — Cybrid models from ADHD platelets showed reduced cellular and mitochondrial respiration, lower complex V activity, membrane-potential loss, and elevated oxidative stress",
+      "limitationNote": "",
+      "studyDesignLabel": "Ex vivo mechanistic study",
+      "openEvidencePath": "/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function"
+    },
+    {
+      "id": "EC000152",
+      "evidenceId": "ER000046",
+      "taId": "TA001",
+      "brsId": "BRS4",
+      "fmIds": [],
+      "pmIds": [],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Narrative review synthesising ADHD-relevant mitochondrial biomarker, oxidative-stress, and genetic-variation literature (including elevated mtDNA copy number and haplogroup / polymorphism associations)",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/mitochondrial-function-bioenergetics.md#adhd-evidence-and-connected-brs4-mechanisms"
+      ],
+      "displayTitle": "Narrative review synthesising ADHD-relevant mitochondrial biomarker, oxidative-stress, and geneti…",
+      "displaySummary": "Öğütlü et al., 2022 — Narrative review synthesising ADHD-relevant mitochondrial biomarker, oxidative-stress, and genetic-variation literature (including elevated mtDNA copy number and haplogroup / polymorphism associations)",
+      "limitationNote": "Biomarker association; does not by itself establish treatment effects.",
+      "studyDesignLabel": "Narrative review",
+      "openEvidencePath": "/docs/biological-targets/brs4/fm1/brs4-fm1-cellular-bioenergetics"
+    },
+    {
+      "id": "EC000153",
+      "evidenceId": "ER000047",
+      "taId": "TA001",
+      "brsId": "BRS4",
+      "fmIds": [],
+      "pmIds": [
+        "BRS4-FM4-PM9"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Review of mitochondrial bioenergetic regulation and mitophagy at cellular and molecular level in ADHD",
+      "claimCeiling": "mechanistic-plausibility",
+      "confidence": "low-medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/mitochondrial-function-bioenergetics.md#adhd-evidence-and-connected-brs4-mechanisms"
+      ],
+      "displayTitle": "Review of mitochondrial bioenergetic regulation and mitophagy at cellular and molecular level in …",
+      "displaySummary": "Almutairi et al., 2024 — Review of mitochondrial bioenergetic regulation and mitophagy at cellular and molecular level in ADHD",
+      "limitationNote": "Synthesis paper; not a new primary trial in this row.",
+      "studyDesignLabel": "Review",
+      "openEvidencePath": "/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis"
+    },
+    {
+      "id": "EC000154",
+      "evidenceId": "ER000036",
+      "taId": "TA001",
+      "brsId": "BRS5",
+      "fmIds": [],
+      "pmIds": [
+        "BRS5-FM2-PM4"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "biomarker-association",
+      "demonstration": "association",
+      "currentClaim": "Reduced microbial alpha diversity reported in paediatric ADHD cohorts",
+      "claimCeiling": "biomarker-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ],
+      "displayTitle": "Reduced microbial alpha diversity reported in paediatric ADHD cohorts",
+      "displaySummary": "Prehn-Kristensen et al., 2018 — Reduced microbial alpha diversity reported in paediatric ADHD cohorts",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection"
+    },
+    {
+      "id": "EC000155",
+      "evidenceId": "ER000048",
+      "taId": "TA001",
+      "brsId": "BRS5",
+      "fmIds": [],
+      "pmIds": [
+        "BRS5-FM1-PM3"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Gut microbiome composition linked to neural reward anticipation in ADHD",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ],
+      "displayTitle": "Gut microbiome composition linked to neural reward anticipation in ADHD",
+      "displaySummary": "Aarts et al., 2017 — Gut microbiome composition linked to neural reward anticipation in ADHD",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support"
+    },
+    {
+      "id": "EC000156",
+      "evidenceId": "ER000049",
+      "taId": "TA001",
+      "brsId": "BRS5",
+      "fmIds": [],
+      "pmIds": [
+        "BRS5-FM1-PM3"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "biomarker-association",
+      "demonstration": "association",
+      "currentClaim": "Compositional differences in gut microbiota profiles in treatment-naïve children with ADHD, including beneficial taxa guild shifts",
+      "claimCeiling": "biomarker-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ],
+      "displayTitle": "Compositional differences in gut microbiota profiles in treatment-naïve children with ADHD, inclu…",
+      "displaySummary": "Jiang et al., 2018 — Compositional differences in gut microbiota profiles in treatment-naïve children with ADHD, including beneficial taxa guild shifts",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support"
+    },
+    {
+      "id": "EC000157",
+      "evidenceId": "ER000050",
+      "taId": "TA001",
+      "brsId": "BRS5",
+      "fmIds": [],
+      "pmIds": [
+        "BRS5-FM2-PM5",
+        "BRS5-FM2-PM4"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "biomarker-association",
+      "demonstration": "association",
+      "currentClaim": "ADHD cohorts showed lower faecal SCFA levels including acetic, propionic, isobutyric, isovaleric, and valeric acids versus controls",
+      "claimCeiling": "biomarker-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ],
+      "displayTitle": "ADHD cohorts showed lower faecal SCFA levels including acetic, propionic, isobutyric, isovaleric,…",
+      "displaySummary": "Steckler et al., 2024 — ADHD cohorts showed lower faecal SCFA levels including acetic, propionic, isobutyric, isovaleric, and valeric acids versus controls",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm5-scfa-production-and-signalling"
+    },
+    {
+      "id": "EC000158",
+      "evidenceId": "ER000051",
+      "taId": "TA001",
+      "brsId": "BRS5",
+      "fmIds": [],
+      "pmIds": [
+        "BRS5-FM1-PM3",
+        "BRS5-FM3-PM7"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "biomarker-association",
+      "demonstration": "association",
+      "currentClaim": "Open-label *Bifidobacterium bifidum* supplementation associated with symptom change and altered gut microbiota in children with ADHD",
+      "claimCeiling": "biomarker-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ],
+      "displayTitle": "Open-label *Bifidobacterium bifidum* supplementation associated with symptom change and altered g…",
+      "displaySummary": "Wang et al., 2022 — Open-label *Bifidobacterium bifidum* supplementation associated with symptom change and altered gut microbiota in children with ADHD",
+      "limitationNote": "",
+      "studyDesignLabel": "Open-label intervention",
+      "openEvidencePath": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support"
+    },
+    {
+      "id": "EC000159",
+      "evidenceId": "ER000052",
+      "taId": "TA001",
+      "brsId": "BRS5",
+      "fmIds": [],
+      "pmIds": [
+        "BRS5-FM1-PM3"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "extrapolated-population",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Early-life *Lactobacillus rhamnosus* GG exposure with later neurodevelopmental risk associations including ADHD; hypothesis-generating developmental modulation window rather than definitive prevention",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ],
+      "displayTitle": "Early-life *Lactobacillus rhamnosus* GG exposure with later neurodevelopmental risk associations …",
+      "displaySummary": "Pärtty et al., 2015 — Early-life *Lactobacillus rhamnosus* GG exposure with later neurodevelopmental risk associations including ADHD; hypothesis-generating developmental modulation window rather than definitive prevention",
+      "limitationNote": "Hypothesis-generating; not definitive efficacy evidence.",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs5/fm1/brs5-fm1-pm3-keystone-taxa-support"
+    },
+    {
+      "id": "EC000160",
+      "evidenceId": "ER000053",
+      "taId": "TA001",
+      "brsId": "BRS5",
+      "fmIds": [],
+      "pmIds": [
+        "BRS5-FM2-PM4"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "ADHD-focused review of gut microbiota–gut–brain axis research gaps, including female inclusion in study design",
+      "claimCeiling": "mechanistic-plausibility",
+      "confidence": "low-medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md#adhd-evidence-and-connected-brs5-mechanisms"
+      ],
+      "displayTitle": "ADHD-focused review of gut microbiota–gut–brain axis research gaps, including female inclusion in…",
+      "displaySummary": "Schleupner & Carmichael, 2022 — ADHD-focused review of gut microbiota–gut–brain axis research gaps, including female inclusion in study design",
+      "limitationNote": "Synthesis paper; not a new primary trial in this row.",
+      "studyDesignLabel": "Review",
+      "openEvidencePath": "/docs/biological-targets/brs5/fm2/brs5-fm2-pm4-microbial-ecological-turnover-and-competitive-selection"
+    },
+    {
+      "id": "EC000161",
+      "evidenceId": "ER000054",
+      "taId": "TA001",
+      "brsId": "BRS6",
+      "fmIds": [],
+      "pmIds": [
+        "BRS6-FM2-PM4",
+        "BRS6-FM4-PM9"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "biomarker-association",
+      "demonstration": "association",
+      "currentClaim": "Meta-analysis reports altered basal and morning cortisol patterns in youths with ADHD compared with typically developing peers",
+      "claimCeiling": "biomarker-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ],
+      "displayTitle": "Meta-analysis reports altered basal and morning cortisol patterns in youths with ADHD compared wi…",
+      "displaySummary": "Chang et al., 2021 — Meta-analysis reports altered basal and morning cortisol patterns in youths with ADHD compared with typically developing peers",
+      "limitationNote": "",
+      "studyDesignLabel": "Meta-analysis",
+      "openEvidencePath": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation"
+    },
+    {
+      "id": "EC000162",
+      "evidenceId": "ER000035",
+      "taId": "TA001",
+      "brsId": "BRS6",
+      "fmIds": [],
+      "pmIds": [
+        "BRS6-FM2-PM4",
+        "BRS6-FM3-PM6"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Cortisol, inflammatory biomarkers, and neurotrophins measured in children and adolescents with ADHD in Taiwan",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ],
+      "displayTitle": "Cortisol, inflammatory biomarkers, and neurotrophins measured in children and adolescents with AD…",
+      "displaySummary": "Chang et al., 2020 — Cortisol, inflammatory biomarkers, and neurotrophins measured in children and adolescents with ADHD in Taiwan",
+      "limitationNote": "Biomarker association; does not by itself establish treatment effects.",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation"
+    },
+    {
+      "id": "EC000163",
+      "evidenceId": "ER000055",
+      "taId": "TA001",
+      "brsId": "BRS6",
+      "fmIds": [],
+      "pmIds": [
+        "BRS6-FM2-PM4"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "biomarker-association",
+      "demonstration": "association",
+      "currentClaim": "Cortisol levels reported in children with ADHD",
+      "claimCeiling": "biomarker-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ],
+      "displayTitle": "Cortisol levels reported in children with ADHD",
+      "displaySummary": "Isaksson et al., 2012 — Cortisol levels reported in children with ADHD",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs6/fm2/brs6-fm2-pm4-cortisol-rhythm-regulation"
+    },
+    {
+      "id": "EC000164",
+      "evidenceId": "ER000056",
+      "taId": "TA001",
+      "brsId": "BRS6",
+      "fmIds": [],
+      "pmIds": [
+        "BRS6-FM3-PM6",
+        "BRS6-FM2-PM4"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Sensory over-responsivity and ADHD differentiated using electrodermal responses, cortisol, and anxiety",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ],
+      "displayTitle": "Sensory over-responsivity and ADHD differentiated using electrodermal responses, cortisol, and an…",
+      "displaySummary": "Lane et al., 2010 — Sensory over-responsivity and ADHD differentiated using electrodermal responses, cortisol, and anxiety",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs6/fm3/brs6-fm3-pm6-sympathetic-activation-and-parasympathetic-recovery"
+    },
+    {
+      "id": "EC000165",
+      "evidenceId": "ER000057",
+      "taId": "TA001",
+      "brsId": "BRS6",
+      "fmIds": [],
+      "pmIds": [
+        "BRS6-FM1-PM1",
+        "BRS6-FM1-PM2"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "PET study showed altered cerebral glucose metabolism in prefrontal and striatal regions in adults with hyperactivity of childhood onset",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ],
+      "displayTitle": "PET study showed altered cerebral glucose metabolism in prefrontal and striatal regions in adults…",
+      "displaySummary": "Zametkin et al., 1990 — PET study showed altered cerebral glucose metabolism in prefrontal and striatal regions in adults with hyperactivity of childhood onset",
+      "limitationNote": "",
+      "studyDesignLabel": "Human imaging study",
+      "openEvidencePath": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics"
+    },
+    {
+      "id": "EC000166",
+      "evidenceId": "ER000058",
+      "taId": "TA001",
+      "brsId": "BRS6",
+      "fmIds": [],
+      "pmIds": [
+        "BRS6-FM1-PM3",
+        "BRS6-FM4-PM8"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Prevalence of metabolic syndrome and insulin resistance in a sample of adult ADHD outpatients",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ],
+      "displayTitle": "Prevalence of metabolic syndrome and insulin resistance in a sample of adult ADHD outpatients",
+      "displaySummary": "Di Girolamo et al., 2022 — Prevalence of metabolic syndrome and insulin resistance in a sample of adult ADHD outpatients",
+      "limitationNote": "",
+      "studyDesignLabel": "Human observational or review evidence",
+      "openEvidencePath": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm3-insulin-sensitivity-and-glucose-disposal"
+    },
+    {
+      "id": "EC000167",
+      "evidenceId": "ER000059",
+      "taId": "TA001",
+      "brsId": "BRS6",
+      "fmIds": [],
+      "pmIds": [],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Narrative review bridging ADHD and metabolic disorders, synthesising shared mechanisms and clinical implications",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ],
+      "displayTitle": "Narrative review bridging ADHD and metabolic disorders, synthesising shared mechanisms and clinic…",
+      "displaySummary": "Marcelli et al., 2025 — Narrative review bridging ADHD and metabolic disorders, synthesising shared mechanisms and clinical implications",
+      "limitationNote": "",
+      "studyDesignLabel": "Narrative review",
+      "openEvidencePath": "/docs/biological-targets/brs6/fm4/brs6-fm4-stress-inflammation-metabolic-load-allocation"
+    },
+    {
+      "id": "EC000168",
+      "evidenceId": "ER000018",
+      "taId": "TA001",
+      "brsId": "BRS6",
+      "fmIds": [],
+      "pmIds": [
+        "BRS6-FM1-PM1",
+        "BRS6-FM4-PM9"
+      ],
+      "phenomeIds": [],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Unhealthy dietary pattern linked to ADHD in case–control path analysis",
+      "claimCeiling": "functional-association",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md#adhd-evidence-and-connected-brs6-mechanisms"
+      ],
+      "displayTitle": "Unhealthy dietary pattern linked to ADHD in case–control path analysis",
+      "displaySummary": "Wang et al., 2019 — Unhealthy dietary pattern linked to ADHD in case–control path analysis",
+      "limitationNote": "",
+      "studyDesignLabel": "Observational path analysis",
+      "openEvidencePath": "/docs/biological-targets/brs6/fm1/brs6-fm1-pm1-glucose-appearance-kinetics"
+    },
+    {
+      "id": "EC000011",
+      "evidenceId": "ER000011",
+      "taId": "TA002",
+      "brsId": "BRS3",
+      "fmIds": [
+        "BRS3(FM3)"
+      ],
+      "pmIds": [
+        "BRS3-FM3-PM7"
+      ],
+      "phenomeIds": [
+        "PH016"
+      ],
+      "evidenceRelation": "extrapolated-population",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Omega-3 supplementation changed inflammatory markers and anxiety symptoms in stressed students.",
+      "claimCeiling": "adjunctive-intervention",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/inflammation-oxidative-stress.md"
+      ]
+    },
+    {
+      "id": "EC000012",
+      "evidenceId": "ER000012",
+      "taId": "TA002",
+      "brsId": "BRS1",
+      "fmIds": [
+        "BRS1(FM1)"
+      ],
+      "pmIds": [
+        "BRS1-FM1-PM5"
+      ],
+      "phenomeIds": [
+        "PH003",
+        "PH008"
+      ],
+      "evidenceRelation": "extrapolated-population",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Recovered saffron extract evidence in adults with low mood; not established anxiety-disorder treatment.",
+      "claimCeiling": "adjunctive-intervention",
+      "confidence": "low-medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx"
+      ]
+    },
+    {
+      "id": "EC000013",
+      "evidenceId": "ER000013",
+      "taId": "TA002",
+      "brsId": "BRS5",
+      "fmIds": [
+        "BRS5(FM3)"
+      ],
+      "pmIds": [
+        "BRS5-FM3-PM7"
+      ],
+      "phenomeIds": [
+        "PH015"
+      ],
+      "evidenceRelation": "mechanistic-inference",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Probiotic exposure in mice altered vagal and GABA pathways linked to anxiety-like behaviour.",
+      "claimCeiling": "mechanistic-plausibility",
+      "confidence": "low",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/gut-brain-axis-enteric-nervous-system.md"
+      ]
+    },
+    {
+      "id": "EC000014",
+      "evidenceId": "ER000012",
+      "taId": "TA003",
+      "brsId": "BRS1",
+      "fmIds": [
+        "BRS1(FM1)"
+      ],
+      "pmIds": [
+        "BRS1-FM1-PM5"
+      ],
+      "phenomeIds": [
+        "PH003",
+        "PH017"
+      ],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Systematic review synthesises clinical saffron extract signals relevant to depressive symptoms.",
+      "claimCeiling": "adjunctive-intervention",
+      "confidence": "low-medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx"
+      ]
+    },
+    {
+      "id": "EC000015",
+      "evidenceId": "ER000014",
+      "taId": "TA003",
+      "brsId": "BRS1",
+      "fmIds": [
+        "BRS1(FM1)"
+      ],
+      "pmIds": [
+        "BRS1-FM1-PM5"
+      ],
+      "phenomeIds": [
+        "PH003",
+        "PH017"
+      ],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Comparative review links saffron extract to depression-relevant symptom signals.",
+      "claimCeiling": "adjunctive-intervention",
+      "confidence": "low-medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx"
+      ]
+    },
+    {
+      "id": "EC000016",
+      "evidenceId": "ER000015",
+      "taId": "TA003",
+      "brsId": "BRS6",
+      "fmIds": [
+        "BRS6(FM4)"
+      ],
+      "pmIds": [
+        "BRS6-FM1-PM1"
+      ],
+      "phenomeIds": [
+        "PH002",
+        "PH011"
+      ],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Modified Mediterranean dietary support improved depressive symptoms in adults with major depression.",
+      "claimCeiling": "adjunctive-intervention",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md"
+      ]
+    },
+    {
+      "id": "EC000017",
+      "evidenceId": "ER000016",
+      "taId": "TA003",
+      "brsId": "BRS6",
+      "fmIds": [
+        "BRS6(FM4)"
+      ],
+      "pmIds": [
+        "BRS6-FM2-PM4"
+      ],
+      "phenomeIds": [
+        "PH002",
+        "PH011"
+      ],
+      "evidenceRelation": "direct-condition",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Multi-component lifestyle programme improved depressive symptoms; active components were not isolated.",
+      "claimCeiling": "adjunctive-intervention",
+      "confidence": "medium",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/metabolic-neuroendocrine-stress.md"
+      ]
+    },
+    {
+      "id": "EC000018",
+      "evidenceId": "ER000011",
+      "taId": "TA003",
+      "brsId": "BRS3",
+      "fmIds": [
+        "BRS3(FM3)"
+      ],
+      "pmIds": [
+        "BRS3-FM3-PM7"
+      ],
+      "phenomeIds": [
+        "PH017"
+      ],
+      "evidenceRelation": "mechanistic-inference",
+      "demonstration": "symptom-improvement",
+      "currentClaim": "Omega-3 immune effects are modifiable; accepted record is not a depression trial.",
+      "claimCeiling": "mechanistic-plausibility",
+      "confidence": "low",
+      "resultDirection": "supportive",
+      "sourceOccurrences": [
+        "docs/biological-targets/inflammation-oxidative-stress.md"
+      ]
+    }
+  ]
+}

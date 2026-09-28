@@ -1,8 +1,8 @@
 # Phenome Relationship Review Methodology
 
-**Version:** 4.0  
-**Status:** Active  
-**Therapeutic area scope (v1):** Neuropsychiatric and neurocognitive health — ADHD (`TA001`) primary worked example  
+**Version:** 4.0
+**Status:** Active
+**Therapeutic area scope (v1):** Neuropsychiatric and neurocognitive health — ADHD (`TA001`) primary worked example
 
 **Related contracts:**
 
@@ -711,9 +711,9 @@ Phase 2 remains **mandatory** for single-PM FMs — §4.2 Functional Rationale a
 
 Do **not** publish FM-only phenomes that lack a corresponding PM mapping on a 1:1 FM without first extending the child PM (or revising schema enforcement).
 
-**Canonical Type B (single-PM anchor) example:** `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` → BRS1-FM3-PM6. See `system/single-pm-fm-rule.md`.
+**Canonical Type B (single-PM anchor) example:** `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` → BRS1-FM3-PM7. See `system/single-pm-fm-rule.md`.
 
-**Canonical FM evidence example:** `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` → `BRS1-FM3-PM6`.
+**Canonical FM evidence example:** `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` → `BRS1-FM3-PM7`.
 
 ### FM publish workflow (after Phase 3 + Phase 4)
 
@@ -952,8 +952,8 @@ Do **not** mass-update existing PM/FM mappings when adopting this methodology. R
 | Pilot | Page | Why |
 |-------|------|-----|
 | **A — PM empty state** | `docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation.mdx` | Canonical Profile A reference PM; high ADHD relevance; Phase 1 workflow proof |
-| **B — PM re-review** | `docs/biological-targets/brs1/fm1/brs1-fm1-pm4-serotonergic-signalling-regulation.mdx` | Existing mappings; test ADHD scoping tighten |
-| **C — FM canonical (complete)** | `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` + `brs1-fm3-pm6-neuronal-membrane-dha-incorporation.mdx` | Full §4.1–§4.4 template; Phase 1 + Phase 2 + 1:1 reconciliation |
+| **B — PM re-review** | `docs/biological-targets/brs1/fm1/brs1-fm1-pm5-serotonergic-signalling-regulation.mdx` | Existing mappings; test ADHD scoping tighten |
+| **C — FM canonical (complete)** | `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` + `brs1-fm3-pm7-neuronal-membrane-dha-incorporation.mdx` | Full §4.1–§4.4 template; Phase 1 + Phase 2 + 1:1 reconciliation |
 | **D — Multi-PM FM (optional)** | `docs/biological-targets/brs1/fm1/brs1-fm1-monoaminergic-function.mdx` | Test FM convergence across multiple child PMs without simple roll-up |
 
 ### Pilot success criteria
@@ -996,5 +996,5 @@ Track these for a future schema/tooling release. **Do not block pilots** — use
 | 3.0 | 2026-06-24 | Integrated PM/FM workflow; confidence assignment moved to Phase 3 only; Phase 4 audit & QC separated; external literature search mandatory in Phases 1 and 3; functional convergence explicitly not a confidence multiplier |
 | 4.0 | 2026-06-25 | **Biology → Phenome Confidence** separated from **Evidence Level**; Phase 3 question reframed to biological relationship strength; audit tooling no longer caps confidence from reference data_level; public §3 labels updated |
 | 4.1 | 2026-06-25 | Phase 3 **review stack**: Mechanism validation → Phenome validation → Biology → Phenome Confidence → Evidence Confidence; convergent translational evidence framing; Evidence Confidence = relationship demonstration (not RCT count) |
-| 4.2 | 2026-06-25 | **Functional dependency heuristic**: Biology → Phenome Confidence assigned from PM definition and mechanism boundary before reviewing refs; PM8→Sleep worked example in schema |
+| 4.2 | 2026-06-25 | **Functional dependency heuristic**: Biology → Phenome Confidence assigned from PM definition and mechanism boundary before reviewing refs; PM9→Sleep worked example in schema |
 | 4.3 | 2026-06-25 | **Evidence–biology gap disclosure**: when Biology confidence exceeds Evidence Confidence, rationale/synthesis must state why evidence is limited — not because the biological relationship is weak |

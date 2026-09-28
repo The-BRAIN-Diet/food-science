@@ -24,12 +24,12 @@ This document controls:
 
 The BRAIN Diet is structured as:
 
-Substances / Foods  
--> Key Constraints (KC) — feasibility conditions  
--> Primary Mechanisms (PM) — bounded biological mechanisms  
--> Functional Mechanisms (FM) — integrated biological states (principal framework targets)  
--> Specific Mechanisms (SM) — interpretation layers  
--> Biological Regulatory Systems (BRS)  
+Substances / Foods
+-> Key Constraints (KC) — feasibility conditions
+-> Primary Mechanisms (PM) — bounded biological mechanisms
+-> Functional Mechanisms (FM) — integrated biological states (principal framework targets)
+-> Specific Mechanisms (SM) — interpretation layers
+-> Biological Regulatory Systems (BRS)
 -> Functional Outcomes
 
 Therapeutic-area framing (e.g. ADHD) belongs on BRS hub pages and rationale sections, not as a primary SM category. The ontology remains biology-centric.
@@ -114,9 +114,9 @@ Navigation hierarchy: **BRS → FM → PM**. FMs are the primary navigational an
 
 **PM identifiers** use BRS-wide incremental numbering (unique within each BRS, not reset per FM):
 
-- `BRS1-FM1-PM1`, `BRS1-FM1-PM3`, `BRS1-FM1-PM2`, `BRS1-FM2-PM5`, … through `BRS1-FM4-PM10`
+- `BRS1-FM1-PM1`, `BRS1-FM1-PM4`, `BRS1-FM1-PM2`, `BRS1-FM2-PM6`, … through `BRS1-FM4-PM11`
 - The PM number is unique across the BRS; the FM segment identifies the parent function.
-- Shorthand in training: e.g. "Neurotransmitters PM9" = `BRS1-FM4-PM10`.
+- Shorthand in training: e.g. "Neurotransmitters PM9" = `BRS1-FM4-PM11`.
 
 **File paths:**
 
@@ -179,7 +179,7 @@ BUT NOT:
 
 ### 4.1 Practical Principle
 
-> FMs define what must be achieved.  
+> FMs define what must be achieved.
 > PMs explain how it works.
 
 ---

@@ -11,6 +11,7 @@ import styles from './styles.module.css';
 type TherapeuticAreaEntry = {
   id: string;
   name: string;
+  slug: string;
   description: string;
   status?: string;
 };
@@ -129,7 +130,7 @@ function TherapeuticAreaBadges({
           <span
             key={id}
             className={primary ? styles.taBadgePrimary : styles.taBadge}
-            title={ta.description}
+            title={`${ta.description} Dedicated TA page is internal pending publication review.`}
           >
             {ta.id}
             {primary ? ' ★' : ''}

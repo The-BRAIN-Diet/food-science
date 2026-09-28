@@ -1,6 +1,6 @@
 # BRAIN Framework Rule — Single-PM Functional Mechanisms (FMs)
 
-**Status:** Active  
+**Status:** Active
 **Related:** `system/functional-mechanism-schema.md`, `system/phenome-relationship-schema.md` (1:1 phenome rule), `system/phenome-relationship-review-methodology.md`
 
 ---
@@ -38,7 +38,7 @@ The framework must **not** force artificial PM integration where none exists.
 
 ### Type B — Single-PM anchor FM
 
-**Canonical example:** `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` → BRS1-FM3-PM6
+**Canonical example:** `docs/biological-targets/brs1/fm3/brs1-fm3-phospholipid-mediated-dha-delivery-and-membrane-integration.mdx` → BRS1-FM3-PM7
 
 **Characteristics:**
 
@@ -75,7 +75,7 @@ Explain:
 
 **Canonical example (BRS1 FM3):**
 
-> Although BRS1(FM3) is principally operationalised through BRS1-FM3-PM6 — Neuronal Membrane DHA Incorporation, the FM represents the broader membrane structural environment within which neuronal communication occurs. Membrane composition influences receptor function, ion-channel behaviour, synaptic transmission, and network signalling competence while interacting with phospholipid metabolism, lipid protection, inflammatory regulation, and downstream lipid-signalling systems.
+> Although BRS1(FM3) is principally operationalised through BRS1-FM3-PM7 — Neuronal Membrane DHA Incorporation, the FM represents the broader membrane structural environment within which neuronal communication occurs. Membrane composition influences receptor function, ion-channel behaviour, synaptic transmission, and network signalling competence while interacting with phospholipid metabolism, lipid protection, inflammatory regulation, and downstream lipid-signalling systems.
 
 ### 4.3 Suboptimal Function & Its Effects
 

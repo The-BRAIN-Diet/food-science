@@ -662,7 +662,7 @@ Sections must not restate the page title, entity ID, BRS name/number, or Definit
 
 **Retired:**
 
-- `BRS3(KC3) — Essential Fatty Acid Balance` — duplicated EPA/DHA and omega-3/omega-6 guidance already owned by BRS1-FM3-PM6, BRS3-FM2-PM5, BRS3-FM3-PM7/PM8, and BRS Dietary Guidance. Retained as PM Dietary Levers and Cross-BRS dependencies only.
+- `BRS3(KC3) — Essential Fatty Acid Balance` — duplicated EPA/DHA and omega-3/omega-6 guidance already owned by BRS1-FM3-PM7, BRS3-FM2-PM5, BRS3-FM3-PM7/PM8, and BRS Dietary Guidance. Retained as PM Dietary Levers and Cross-BRS dependencies only.
 - `BRS5(KC3) — Barrier-Supportive Nutrient Sufficiency` — grouped omega-3, vitamin A, zinc, and glutamine by a shared outcome label rather than one identifiable limiting substrate, precursor, cofactor, or structural pool. Its former constituents must be adjudicated independently against the relevant PM; supported PM1 relationships remain PM-specific atoms, while modulation or broader dietary guidance must not be promoted back into a replacement KC.
 
 **Retain (passes shared-pool test):**

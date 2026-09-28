@@ -19,26 +19,26 @@ export const BRS1_PM_PHASE3_SCORES = {
     { phenome: "Motivation / Drive", confidence: "low-medium", evidence_confidence: "low-medium", evidence_level: "mechanistic" },
     { phenome: "Emotional Regulation", confidence: "low", evidence_confidence: "low", evidence_level: "mechanistic" },
   ],
-  "BRS1-FM1-PM3": [
+  "BRS1-FM1-PM4": [
     { phenome: "Focus / Attention Stability", confidence: "high", evidence_confidence: "low-medium", evidence_level: "mechanistic" },
     { phenome: "Motivation / Drive", confidence: "medium", evidence_confidence: "low-medium", evidence_level: "mechanistic" },
   ],
-  "BRS1-FM1-PM4": [
+  "BRS1-FM1-PM5": [
     { phenome: "Emotional Regulation", confidence: "high", evidence_confidence: "low-medium", evidence_level: "mechanistic" },
     { phenome: "Stress Resilience", confidence: "low-medium", evidence_confidence: "low-medium", evidence_level: "mechanistic" },
     { phenome: "Sleep / Calming Tone", confidence: "medium", evidence_confidence: "low", evidence_level: "mechanistic" },
     { phenome: "Reward Regulation", confidence: "low", evidence_confidence: "low", evidence_level: "mechanistic" },
   ],
-  "BRS1-FM2-PM5": [
+  "BRS1-FM2-PM6": [
     { phenome: "Focus / Attention Stability", confidence: "low-medium", evidence_confidence: "low-medium", evidence_level: "mechanistic" },
     { phenome: "Cognitive Clarity", confidence: "medium", evidence_confidence: "low", evidence_level: "mechanistic" },
   ],
-  "BRS1-FM3-PM6": [
+  "BRS1-FM3-PM7": [
     { phenome: "Focus / Attention Stability", confidence: "low-medium", evidence_confidence: "low-medium", evidence_level: "mechanistic" },
     { phenome: "Cognitive Clarity", confidence: "low-medium", evidence_confidence: "low-medium", evidence_level: "mechanistic" },
     { phenome: "Emotional Regulation", confidence: "medium", evidence_confidence: "medium", evidence_level: "observational" },
   ],
-  "BRS1-FM4-PM7": [
+  "BRS1-FM4-PM8": [
     { phenome: "Focus / Attention Stability", confidence: "high", evidence_confidence: "low-medium", evidence_level: "observational" },
     { phenome: "Emotional Regulation", confidence: "medium", evidence_confidence: "low", evidence_level: "mechanistic" },
     { phenome: "Stress Reactivity", confidence: "low-medium", evidence_confidence: "low", evidence_level: "mechanistic" },
@@ -47,17 +47,17 @@ export const BRS1_PM_PHASE3_SCORES = {
   // current legacy values so re-running the phase-3 migration is a no-op and
   // cannot drop PH016 / PH018. Legacy values are unchanged by PM8 adjudication;
   // see the PM8 record for where they are no longer scientifically adequate.
-  "BRS1-FM4-PM8": [
+  "BRS1-FM4-PM9": [
     { phenome: "Emotional Regulation", confidence: "medium", evidence_confidence: "medium", evidence_level: "intervention" },
     { phenome: "Sleep / Calming Tone", confidence: "high", evidence_confidence: "low", evidence_level: "mechanistic" },
     { phenome: "Apprehensive Worry / Perseverative Thought", confidence: "low-medium", evidence_confidence: "low-medium", evidence_level: "mechanistic" },
     { phenome: "Social Engagement Capacity", confidence: "low", evidence_confidence: "low", evidence_level: "mechanistic" },
   ],
-  "BRS1-FM4-PM9": [
+  "BRS1-FM4-PM10": [
     { phenome: "Focus / Attention Stability", confidence: "low-medium", evidence_confidence: "low-medium", evidence_level: "mechanistic" },
     { phenome: "Cognitive Clarity", confidence: "low", evidence_confidence: "low", evidence_level: "mechanistic" },
   ],
-  "BRS1-FM4-PM10": [
+  "BRS1-FM4-PM11": [
     { phenome: "Stress Reactivity", confidence: "low", evidence_confidence: "low", evidence_level: "mechanistic" },
     { phenome: "Recovery Capacity", confidence: "low", evidence_confidence: "low", evidence_level: "mechanistic" },
   ],
@@ -79,6 +79,6 @@ export const BRS1_FM_PHASE3_SCORES = {
 
 /** Single-PM FM → child PM id (scores copied from PM). */
 export const BRS1_SINGLE_PM_FM = {
-  "BRS1(FM2)": "BRS1-FM2-PM5",
-  "BRS1(FM3)": "BRS1-FM3-PM6",
+  "BRS1(FM2)": "BRS1-FM2-PM6",
+  "BRS1(FM3)": "BRS1-FM3-PM7",
 };

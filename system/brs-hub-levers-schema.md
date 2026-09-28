@@ -285,7 +285,7 @@ Follow each guidance point with:
 >
 > **Target foods:** Eggs • Salmon • Greek Yogurt • Lentils
 >
-> **BRS:** BRS1-FM1-PM1 • BRS1-FM1-PM2 • BRS1-FM1-PM3 • BRS1-FM1-PM4
+> **BRS:** BRS1-FM1-PM1 • BRS1-FM1-PM2 • BRS1-FM1-PM4 • BRS1-FM1-PM5
 
 ### Authoring principles
 
@@ -435,7 +435,7 @@ Those remain in **Lifestyle Priorities** or **Dietary Guidance**.
 
 > **Prepare omega-3-rich foods gently and include them regularly** to protect delicate marine fats during cooking and support ongoing brain membrane health over time.
 >
-> **Supports:** BRS1-FM3-PM6
+> **Supports:** BRS1-FM3-PM7
 
 ---
 
@@ -708,7 +708,7 @@ Additional rules:
 | optimise precursor transport | support a steady supply of neurotransmitter building blocks |
 | reduce autonomic strain | support healthy stress recovery |
 
-**Bad (label only):** Sleep adequacy  
+**Bad (label only):** Sleep adequacy
 **Good:** **Prioritise sufficient, consistent sleep** to support balanced neurotransmitter regulation, cognitive performance, and physiological recovery.
 
 ### Source of truth

@@ -10,6 +10,7 @@ import DocUtilityBar from "@site/src/components/ReviewCorrections/DocUtilityBar"
 import {AdvancedNutritionProvider} from "@site/src/components/AdvancedNutrition"
 import PmDietaryLeverEnhancer from "@site/src/components/PmDietaryLeverEnhancer"
 import PmSystemOptimisationEnhancer from "@site/src/components/PmSystemOptimisationEnhancer"
+import {TherapeuticAreaPmLinks} from "@site/src/theme/TherapeuticAreaDetail"
 
 function useSyntheticTitle(): string | null {
   const {metadata, frontMatter, contentTitle} = useDoc()
@@ -21,6 +22,10 @@ function useSyntheticTitle(): string | null {
 export default function DocItemContent({children}: Props): ReactNode {
   const syntheticTitle = useSyntheticTitle()
   const {metadata, frontMatter} = useDoc()
+  const pmId =
+    typeof (frontMatter as {pm_id?: unknown})?.pm_id === "string"
+      ? String((frontMatter as {pm_id: string}).pm_id)
+      : null
 
   const isFoodDoc =
     metadata.permalink.includes("/docs/foods/") && Boolean(frontMatter?.id)
@@ -190,6 +195,7 @@ export default function DocItemContent({children}: Props): ReactNode {
       )}
 
         <MDXContent>{children}</MDXContent>
+        {pmId && <TherapeuticAreaPmLinks pmId={pmId} />}
       </DocUtilityBar>
         <PmDietaryLeverEnhancer frontMatter={frontMatter as Record<string, unknown>} />
         <PmSystemOptimisationEnhancer frontMatter={frontMatter as Record<string, unknown>} />

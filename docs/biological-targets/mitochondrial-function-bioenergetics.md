@@ -40,6 +40,11 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm1-electron-transport-chain-function">BRS4-FM1-PM1 — Electron Transport Chain Function</a></li>
+    <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm2-nad-metabolism">BRS4-FM1-PM2 — NAD⁺ Metabolism</a></li>
+    <li><a href="/docs/biological-targets/brs4/fm1/brs4-fm1-pm3-creatine-phosphocreatine-buffer">BRS4-FM1-PM3 — Creatine–Phosphocreatine Energy Buffering</a></li>
+  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -49,6 +54,10 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm4-ros-production-and-control">BRS4-FM2-PM4 — ROS Production and Control</a></li>
+    <li><a href="/docs/biological-targets/brs4/fm2/brs4-fm2-pm5-mitochondrial-protection-redox-integrity">BRS4-FM2-PM5 — Mitochondrial Protection (Redox Integrity)</a></li>
+  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -58,6 +67,11 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm6-carnitine-mediated-fat-transport">BRS4-FM3-PM6 — Carnitine-Mediated Fat Transport</a></li>
+    <li><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity">BRS4-FM3-PM7 — Ketone Utilisation Capacity</a></li>
+    <li><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching">BRS4-FM3-PM8 — Metabolic Fuel Switching</a></li>
+  </ul>
 </li>
   <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
@@ -67,6 +81,9 @@ hide_title: true
 <span class="brs-fm-hub-open-compact" aria-hidden="true">→</span>
 </a>
   </div>
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+    <li><a href="/docs/biological-targets/brs4/fm4/brs4-fm4-pm9-mitochondrial-biogenesis">BRS4-FM4-PM9 — Mitochondrial Biogenesis</a></li>
+  </ul>
 </li>
 </ul>
 </div>
@@ -429,7 +446,7 @@ Collectively, these findings do not imply that mitochondrial dysfunction is univ
 <p class="brs-hub-sop-category-desc">Targeted dietary approaches that modify physiology beyond routine healthy eating.</p>
 <ul class="brs-hub-lever-list brs-hub-optimisation-list">
 <li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider structured time-restricted eating windows where appropriate</strong> to provide periodic exposure to alternative fuel-utilisation pathways that support metabolic fuel switching.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></p></li>
-<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider structured ketogenic approaches only in specific clinical contexts</strong> to increase reliance on ketone metabolism and fuel-adaptation pathways where clinically indicated; not a general population recommendation.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></p><div class="brs-hub-optimisation-qualified-block"><p class="brs-hub-optimisation-qualified"><span class="brs-hub-optimisation-qualified-label">Cross-BRS relationship:</span> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM8</a></p><p class="brs-hub-optimisation-qualified-context"><span class="brs-hub-optimisation-qualified-label">Context:</span> Downstream cross-BRS relationship through altered ketone/substrate metabolism and carbon contribution to GABA formation.</p><p class="brs-hub-optimisation-qualified-evidence"><span class="brs-hub-optimisation-qualified-label">Evidence:</span> candidate · preclinical-mechanistic</p><p class="brs-hub-optimisation-qualified-limitation"><span class="brs-hub-optimisation-qualified-label">Limitation:</span> No demonstrated human GAD-activity or GABA synthesis-flux effect; human concentration evidence is inconsistent.</p><p class="brs-hub-optimisation-qualified-citations"><span class="brs-hub-optimisation-qualified-label">Citations:</span> <a href="/docs/papers/BRAIN-Diet-References#erecinska_regulation_1996" class="brs-hub-lever-pm">erecinska_regulation_1996</a> <a href="/docs/papers/BRAIN-Diet-References#zhang_decreased_carbon_2015" class="brs-hub-lever-pm">zhang_decreased_carbon_2015</a></p></div></li>
+<li class="brs-hub-optimisation-lever"><p class="brs-hub-optimisation-text"><strong>Consider structured ketogenic approaches only in specific clinical contexts</strong> to increase reliance on ketone metabolism and fuel-adaptation pathways where clinically indicated; not a general population recommendation.</p><p class="brs-hub-optimisation-supports"><span class="brs-hub-optimisation-supports-label">Supports:</span> <span class="brs-hub-lever-pms"><a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm7-ketone-utilisation-capacity" class="brs-hub-lever-pm">BRS4-FM3-PM7</a> <a href="/docs/biological-targets/brs4/fm3/brs4-fm3-pm8-metabolic-fuel-switching" class="brs-hub-lever-pm">BRS4-FM3-PM8</a></span></p><div class="brs-hub-optimisation-qualified-block"><p class="brs-hub-optimisation-qualified"><span class="brs-hub-optimisation-qualified-label">Cross-BRS relationship:</span> <a href="/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity" class="brs-hub-lever-pm">BRS1-FM4-PM9</a></p><p class="brs-hub-optimisation-qualified-context"><span class="brs-hub-optimisation-qualified-label">Context:</span> Downstream cross-BRS relationship through altered ketone/substrate metabolism and carbon contribution to GABA formation.</p><p class="brs-hub-optimisation-qualified-evidence"><span class="brs-hub-optimisation-qualified-label">Evidence:</span> candidate · preclinical-mechanistic</p><p class="brs-hub-optimisation-qualified-limitation"><span class="brs-hub-optimisation-qualified-label">Limitation:</span> No demonstrated human GAD-activity or GABA synthesis-flux effect; human concentration evidence is inconsistent.</p><p class="brs-hub-optimisation-qualified-citations"><span class="brs-hub-optimisation-qualified-label">Citations:</span> <a href="/docs/papers/BRAIN-Diet-References#erecinska_regulation_1996" class="brs-hub-lever-pm">erecinska_regulation_1996</a> <a href="/docs/papers/BRAIN-Diet-References#zhang_decreased_carbon_2015" class="brs-hub-lever-pm">zhang_decreased_carbon_2015</a></p></div></li>
 </ul>
 </div>
 </div>

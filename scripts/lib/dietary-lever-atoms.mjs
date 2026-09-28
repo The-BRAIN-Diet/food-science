@@ -306,7 +306,7 @@ export function validateDietaryLeverAtoms(data, issues, { entityLabel }) {
   }
 }
 
-/** Parse legacy §3 substance ← food bullets (PM8 audit). */
+/** Parse legacy §3 substance ← food bullets (PM9 audit). */
 export function parseLegacyLeverBullets(leversSection) {
   const lines = String(leversSection || "").split("\n");
   const bullets = [];
@@ -345,7 +345,7 @@ export function auditLegacyLeverGaps(data, content) {
       biological_role_present: Boolean(matched?.biological_role),
       unsupported_leap:
         matched == null
-          ? "No PM8 atomic relationship for this §3 row"
+          ? "No PM9 atomic relationship for this §3 row"
           : matched.dietary_addressability == null
             ? "Biological dependency established; dietary addressability not yet adjudicated — §3 reads as direct food lever"
             : null,
@@ -356,7 +356,7 @@ export function auditLegacyLeverGaps(data, content) {
   if (/dose_sensitivity:/i.test(JSON.stringify(data)) && data.dose_sensitivity) {
     gaps.push({
       legacy_line: `front matter dose_sensitivity: ${data.dose_sensitivity}`,
-      resolves_to_pm_atom: "PM8-DIT-3",
+      resolves_to_pm_atom: "PM9-DIT-3",
       dietary_addressability: "unadjudicated",
       evidence_source_present: true,
       biological_role_present: true,
@@ -367,7 +367,7 @@ export function auditLegacyLeverGaps(data, content) {
 
   gaps.push({
     legacy_line: "cofactors: B6 (PLP) — name-only front matter",
-    resolves_to_pm_atom: "PM8-DIT-2 / PM8-DIT-3",
+    resolves_to_pm_atom: "PM9-DIT-2 / PM9-DIT-3",
     dietary_addressability: "unadjudicated",
     evidence_source_present: true,
     biological_role_present: true,

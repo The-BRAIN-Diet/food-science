@@ -1,6 +1,6 @@
 {
   "byPmId": {
-    "BRS1-FM4-PM8": [
+    "BRS1-FM4-PM9": [
       {
         "intervention_id": "structured-ketogenic-approaches",
         "author_brs_id": "BRS4",
@@ -29,10 +29,10 @@
             }
           ]
         },
-        "target_pm_id": "BRS1-FM4-PM8",
-        "target_pm_href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm8-gaba-synthesis-capacity"
+        "target_pm_id": "BRS1-FM4-PM9",
+        "target_pm_href": "/docs/biological-targets/brs1/fm4/brs1-fm4-pm9-gaba-synthesis-capacity"
       }
     ]
   },
-  "generated_at": "2026-09-24T20:08:32.311Z"
+  "generated_at": "2026-09-28T11:15:16.141Z"
 }

@@ -77,7 +77,7 @@ function escapeHtmlText(text) {
 }
 
 /**
- * @param {string|{ title: string, openHref?: string, openLabel?: string, openAriaLabel?: string, focusChildIndex?: number }} item
+ * @param {string|{ title: string, openHref?: string, openLabel?: string, openAriaLabel?: string, focusChildIndex?: number, childItems?: Array<{title: string, href: string}> }} item
  * @param {number} index
  */
 function renderGroupTitleItem(item, index) {
@@ -101,11 +101,23 @@ function renderGroupTitleItem(item, index) {
 </button>`;
   }
 
+  const childList = Array.isArray(normalized.childItems) && normalized.childItems.length
+    ? `
+  <ul class="brs-fm-hub-pm-list brs-fm-hub-group-pm-list">
+${normalized.childItems
+  .map(
+    (child) =>
+      `    <li><a href="${escapeHtmlAttr(child.href)}">${escapeHtmlText(child.title)}</a></li>`,
+  )
+  .join("\n")}
+  </ul>`
+    : "";
+
   return `  <li class="brs-fm-hub-group-title-item">
   <div class="brs-fm-hub-group-title-row">
   <span class="brs-fm-hub-group-title-text">${safeTitle}</span>
 ${openControl}
-  </div>
+  </div>${childList}
 </li>`;
 }
 
