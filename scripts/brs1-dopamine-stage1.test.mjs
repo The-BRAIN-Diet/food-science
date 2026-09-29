@@ -72,7 +72,7 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   assert.deepEqual(dopamineFiles, [DOPAMINE_PATH]);
 
   const { data, content } = matter(fs.readFileSync(DOPAMINE_PATH, "utf8"));
-  assert.equal(data.evidence_status, "stage-2a-scientific-evidence");
+  assert.equal(data.evidence_status, "stage-2-dietary-addressability");
   assert.equal(data.mechanistic_authoring_required, false);
   assert.equal(data.dietary_addressability, "not-established");
   assert.equal(data.claim_ceiling, "biological-dependency");
@@ -97,11 +97,19 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   assert.ok(data.references.length >= 11);
   assert.deepEqual(
     data.dietary_input_traceability.map((atom) => atom.atom_id),
-    ["PM3-DIT-1", "PM3-DIT-2", "PM3-DIT-3"],
+    ["PM3-DIT-1", "PM3-DIT-2", "PM3-DIT-3", "PM3-DIT-4"],
   );
+  const byId = Object.fromEntries(
+    data.dietary_lever_atoms.map((atom) => [atom.atom_id, atom]),
+  );
+  assert.equal(byId["PM3-DIT-1"].dietary_addressability, "not-established");
+  assert.equal(byId["PM3-DIT-2"].dietary_addressability, "not-established");
+  assert.equal(byId["PM3-DIT-3"].dietary_addressability, "precursor-mediated");
+  assert.equal(byId["PM3-DIT-3"].claim_ceiling, "dietary-provision");
+  assert.equal(byId["PM3-DIT-4"].relationship_layer, "biochemical-requirement");
   assert.ok(
-    data.dietary_lever_atoms.every((atom) =>
-      /Candidate for Dietary Levers review/.test(atom.permitted_wording),
+    data.dietary_lever_atoms.every(
+      (atom) => !/Candidate for Dietary Levers review/.test(atom.permitted_wording || ""),
     ),
   );
   assert.deepEqual(
@@ -142,7 +150,7 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
     assert.ok(relationship.evidence_limitation);
   }
   assert.match(content, /### 4\.1 Scientific Findings/);
-  assert.match(content, /No scoreable inputs are activated in Stage 2A/);
+  assert.match(content, /No scoreable inputs are activated/);
   assert.match(content, /ADHD does not show one uniform dopamine abnormality/);
   assert.equal(
     (content.match(/data-brs-sop-category=/g) || []).length,
@@ -165,7 +173,7 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   );
   assert.match(content, /Acute voluntary cardiovascular exercise/);
   assert.match(content, /Avoid acute total sleep deprivation/);
-  assert.match(content, /Short-term selective dietary-fat restriction under controlled conditions/);
+  assert.match(content, /Short-term selective dietary-fat restriction in adults with obesity under controlled conditions/);
   assert.match(content, /Short-term very-low-calorie dieting in adults with obesity/);
   assert.ok(
     [...data.system_optimisation_practices, ...data.lifestyle_priorities].every(

@@ -154,7 +154,7 @@ rejected because the available small meal-retention study did not provide a
 strong enough evidence base for durable PM ownership.
 
 **Dietary & Fasting Protocols**
-1. Short-term selective dietary-fat restriction under controlled conditions.
+1. Short-term selective dietary-fat restriction in adults with obesity under controlled conditions.
 2. Short-term very-low-calorie dieting in adults with obesity.
 
 Both are population-specific mechanistic relationships based on regional D2/D3

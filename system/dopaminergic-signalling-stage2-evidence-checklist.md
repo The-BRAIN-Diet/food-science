@@ -1,9 +1,10 @@
 # BRS1-FM1-PM3 Dopaminergic Signalling — Stage 2 Evidence Checklist
 
-Status: **Stage 2A evidence integration complete**
+Status: **Stage 2A complete; dietary addressability pass complete**
 
-Implementation and Dietary Levers handoff:
-`system/dopaminergic-signalling-stage2a-report.md`.
+Implementation reports:
+`system/dopaminergic-signalling-stage2a-report.md` and
+`system/dopaminergic-signalling-dietary-addressability-report.md`.
 
 This checklist governs the dedicated evidence pass for BRS1-FM1-PM3. Stage 1
 establishes scope and architecture only; it does not establish dietary
