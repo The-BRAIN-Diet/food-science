@@ -471,6 +471,11 @@ determines the destination subsection. These PM scientific-evidence relationship
 not provisional dietary candidates and must not be removed or overwritten by a later
 Dietary Levers pass.
 
+Every populated §3.2 category and §3.3 Lifestyle Levers block begins with one
+plain-language sentence stating the measured proximal effect and the nearest important
+evidence boundary. Avoid governance language such as “provisional cofactor candidate”
+in reader-facing introductions; retain detailed qualification in each five-atom record.
+
 **§3.2 vs §3.3 boundary:**
 
 | §4.2 System Optimisation | §4.3 Lifestyle |
@@ -597,12 +602,17 @@ Mechanistic Basis must remain **evidence-anchored**, not assertion-only. Follow 
 
 | Where | Citation expectation |
 |-------|-------------------|
-| **`### Summary`** | Usually implication-only; add `[Author et al., Year]` only when a single study directly supports the central claim. |
-| **Primary mechanism `####` blocks** | **Required** for evidence-backed statements (pathway biology, meal effects, substrate relationships). Format: `[Author et al., Year]`. |
+| **`### Summary`** | Usually implication-only; when a single study directly supports the central claim, use canonical PM first-mention format `Author et al. (year) [n]`. |
+| **Primary mechanism `####` blocks** | **Required** for evidence-backed statements (pathway biology, meal effects, substrate relationships). First mention in a section uses `Author et al. (year) [n]`; two-author studies use `Author and Author (year) [n]`. |
 | **Boundaries** | Cite when the boundary claim depends on literature; PM cross-links alone need no duplicate citation if References already lists the source. |
 | **Integration** | Typically placement prose + entity links; citations optional unless integration asserts an evidence-backed dependency. |
 
-**References section:** each cited study appears as `Author et al. (Year) — Short Descriptive Study Topic` with link to `/docs/papers/BRAIN-Diet-References#citation_key`. Pull keys from `key_studies` / `references` front matter; verify each `citation_key` exists in `static/bibtex/BRAIN-diet.bib`.
+**Reference generation and integrity:** author text, year, display number and the
+linked `[n]` must derive from one canonical front-matter reference record. Each cited
+study appears in §8 as `[n] Author et al. (Year) — Short Descriptive Study Topic`,
+linked to `/docs/papers/BRAIN-Diet-References#citation_key`. The rendered body must not
+contain missing, duplicate, stale, misnumbered or unlinked PM citations, and every
+`#pm-ref-n` target must resolve to the matching §8 entry.
 
 **When rewriting Mechanistic Basis:** preserve existing citations unless the claim is removed; add citations for new evidence-backed claims.
 

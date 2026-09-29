@@ -19,7 +19,9 @@ The citation system should allow readers to:
 
 ## Inline Citations (Body Text)
 
-Use **author–year** citations within square brackets.
+Use **author–year** citations within square brackets on BRS hubs, FM, SM, KC and
+legacy PM pages. Canonical PM pages use the linked author–year + numbered format
+defined below.
 
 **Format:**
 
@@ -71,8 +73,19 @@ List studies in the order most relevant to the claim.
 
 **Do not use in body text:**
 
-- Numeric-only refs (`[1]`, `[2]`) — reserved for legacy pages until migrated; new/edited BRS prose uses author–year.
+- Numeric-only refs (`[1]`, `[2]`) without author text on first mention.
 - Markdown bibliography links in running prose — the References section carries the link.
+
+### Canonical PM pages
+
+On first mention of a study within a PM section, render `Author et al. (year) [n]`;
+name both authors as `Author and Author (year) [n]`. The square-bracket number
+links to that study's anchored entry in PM §8. Later mentions in the same section
+may use the linked `[n]` alone.
+
+Author text, year, number and link must be generated from the same canonical PM
+reference record. Do not hand-author author–year text beside an independently
+generated number.
 
 ---
 

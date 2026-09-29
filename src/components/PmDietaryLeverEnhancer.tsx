@@ -16,8 +16,8 @@ function renderEvidenceLinks(refs: EvidenceReference[]): string {
   if (!refs.length) return "<span>No linked reference available.</span>";
   return `<span class="brs-dietary-lever-detail-references">${refs
     .map(
-      ({ number, href }) =>
-        `<a href="${escapeHtml(href || pmReferenceHref(number))}">[${number}]</a>`,
+      ({ number, authorYear, href }) =>
+        `${escapeHtml(authorYear)} <a href="${escapeHtml(href || pmReferenceHref(number))}">[${number}]</a>`,
     )
     .join("; ")}</span>`;
 }

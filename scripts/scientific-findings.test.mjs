@@ -28,6 +28,9 @@ import {
   buildPmReferenceKeyIndex,
   expandPmCitationMarkers,
   formatPmCitationCluster,
+  formatPmStudyCitations,
+  renderNumberedPmReferencesSection,
+  validatePmReferenceIntegrity,
 } from "./lib/pm-reference-index.mjs";
 
 const root = process.cwd();
@@ -556,6 +559,43 @@ test("PM reference numbers are stable by citation_key", () => {
   assert.equal(formatPmCitationCluster(["mason_decrease_2001"], index), "[[6]](#pm-ref-6)");
   assert.ok(content.includes('id="pm-ref-6"'));
   assert.ok(content.includes("mason_decrease_2001"));
+});
+
+test("PM first-mention citations derive author, year, number and link from one reference record", () => {
+  const references = [
+    "[Greiner & Konietzny (1999) — Phytate reduction](/docs/papers/BRAIN-Diet-References#greiner_1999)",
+    "[Example et al. (2026) — Example finding](/docs/papers/BRAIN-Diet-References#example_2026)",
+  ];
+  assert.equal(
+    formatPmStudyCitations(["greiner_1999", "example_2026"], references),
+    "Greiner and Konietzny (1999) [[1]](#pm-ref-1); Example et al. (2026) [[2]](#pm-ref-2)",
+  );
+  assert.equal(
+    expandPmCitationMarkers(
+      "Evidence{{cite:greiner_1999}}.",
+      buildPmReferenceKeyIndex(references),
+      references,
+    ),
+    "Evidence Greiner and Konietzny (1999) [[1]](#pm-ref-1).",
+  );
+});
+
+test("PM reference integrity rejects stale, unlinked and misnumbered rendered citations", () => {
+  const references = [
+    "[Example et al. (2026) — Example finding](/docs/papers/BRAIN-Diet-References#example_2026)",
+  ];
+  const valid = `Claim Example et al. (2026) [[1]](#pm-ref-1).\n\n${renderNumberedPmReferencesSection(references)}`;
+  assert.deepEqual(validatePmReferenceIntegrity(references, valid), []);
+
+  const issues = [];
+  validatePmReferenceIntegrity(
+    references,
+    `${valid.replace("[[1]](#pm-ref-1)", "[1]")}\n- stale`,
+    issues,
+    { entityLabel: "PMX" },
+  );
+  assert.ok(issues.some((issue) => issue.code === "pm_body_citation_unlinked"));
+  assert.ok(issues.some((issue) => issue.code === "pm_references_section_stale"));
 });
 
 test("PM9 phenome Finding ids follow consecutive F sequence in presentation order", () => {

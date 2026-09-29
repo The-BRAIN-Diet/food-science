@@ -624,7 +624,7 @@ export function renderPmPhenomeSectionBody(relationships = [], { sectionNum = 3,
     const target = rel.target_phenome;
     const type = rel.relationship_type;
     const rationaleText = refKeyIndex
-      ? expandPmCitationMarkers(rel.rationale, refKeyIndex)
+      ? expandPmCitationMarkers(rel.rationale, refKeyIndex, findingData.references || [])
       : String(rel.rationale || "").trim();
     const panelLines = [
       ...renderRelationshipRatingLines(rel, rel.references || []),

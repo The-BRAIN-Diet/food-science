@@ -390,8 +390,10 @@ The **dietary-input label** is the evidence-bearing UI object:
 - **Hover, keyboard focus, or tap:** expose the five mandatory fields in a compact
   disclosure: `Input | Input type | Biological role | Evidence source | Limitation`.
 - **Evidence/reference control:** navigates to the canonical reference in the PM
-  References section. Reader-facing evidence uses the numbered reference and actual
-  paper title; internal Finding and relationship identifiers remain hidden.
+  References section. On first mention, reader-facing evidence uses
+  `Author et al. (year) [n]` (or both author names for a two-author study), with
+  `[n]` linked to §8. Author text, year, number and link derive from the same canonical
+  PM reference record; internal Finding and relationship identifiers remain hidden.
 
 Each disclosed field uses the consistent inline form `LABEL = value`.
 

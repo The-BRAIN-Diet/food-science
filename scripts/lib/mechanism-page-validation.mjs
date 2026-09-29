@@ -40,6 +40,7 @@ import {
   validateKcOwnedEvidence,
   validatePmKcGovernance,
 } from "./kc-evidence-governance.mjs";
+import { validatePmReferenceIntegrity } from "./pm-reference-index.mjs";
 
 export const TIMING_SPECIFIC_VALUES = new Set(["Yes", "No"]);
 
@@ -1369,6 +1370,7 @@ function validatePmPage(filePath, { canonicalKcIndex = null } = {}) {
     data.lifestyle_priorities?.length
   ) {
     validateDietaryLeverAtoms(data, issues, { entityLabel });
+    validatePmReferenceIntegrity(data.references || [], content, issues, { entityLabel });
   }
   validatePmKcGovernance(data, issues, { entityLabel, canonicalKcIndex });
   validatePmExtendedProfile(data, content, issues, { entityLabel });

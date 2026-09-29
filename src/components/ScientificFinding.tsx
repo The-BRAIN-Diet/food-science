@@ -29,15 +29,24 @@ export type EvidenceConsideredItem = {
   directional_finding: string
   evidence_source: EvidenceSource
   assessment?: IndividualStudyAssessment
+  canonical_reference?: CanonicalReference
 }
 
 export type ConnectedSupportiveItem = {
   label: string
   href?: string
+  citation_key?: string
   data_level?: string
   exposure_context?: string
   why_relevant: string
   why_excluded: string
+  canonical_reference?: CanonicalReference
+}
+
+type CanonicalReference = {
+  author_year: string
+  number: number
+  anchor: string
 }
 
 export type ScientificFindingData = {
@@ -72,17 +81,24 @@ function readerTitle(finding: ScientificFindingData): string {
 function Citation({
   label,
   href,
+  canonicalReference,
   dataLevel,
   exposureContext,
 }: {
   label: string
   href?: string
+  canonicalReference?: CanonicalReference
   dataLevel?: string
   exposureContext?: string
 }): React.JSX.Element {
   return (
     <>
-      {href ? (
+      {canonicalReference ? (
+        <>
+          <span>{canonicalReference.author_year}</span>{" "}
+          <a href={canonicalReference.anchor}>[{canonicalReference.number}]</a>
+        </>
+      ) : href ? (
         <a href={href} target="_blank" rel="noopener noreferrer">
           {label}
         </a>
@@ -95,6 +111,16 @@ function Citation({
       ) : null}
     </>
   )
+}
+
+function CitationNumber({
+  reference,
+  fallback,
+}: {
+  reference?: CanonicalReference
+  fallback: React.JSX.Element
+}): React.JSX.Element {
+  return reference ? <a href={reference.anchor}>[{reference.number}]</a> : fallback
 }
 
 function Assessment({
@@ -239,6 +265,7 @@ export default function ScientificFinding({
                     <Citation
                       label={item.label}
                       href={item.href}
+                      canonicalReference={item.canonical_reference}
                       dataLevel={item.data_level}
                       exposureContext={item.exposure_context}
                     />
@@ -250,7 +277,7 @@ export default function ScientificFinding({
                           className="brain-sf-isa-disclosure"
                           label={
                             <>
-                              <span className="brain-sf-evidence-label">{item.label}</span>
+                              <span className="brain-sf-evidence-label">{reference}</span>
                               <span className="brain-sf-evidence-finding"> — {item.directional_finding}</span>
                             </>
                           }
@@ -258,14 +285,18 @@ export default function ScientificFinding({
                           <Assessment
                             assessment={item.assessment}
                             source={item.evidence_source}
-                            reference={reference}
+                            reference={
+                              <CitationNumber
+                                reference={item.canonical_reference}
+                                fallback={reference}
+                              />
+                            }
                           />
                         </HubDisclosure>
                       ) : (
                         <>
-                          <span className="brain-sf-evidence-label">{item.label}</span>
+                          <span className="brain-sf-evidence-label">{reference}</span>
                           <span className="brain-sf-evidence-finding"> — {item.directional_finding}</span>
-                          <div className="brain-sf-evidence-ref">{reference}</div>
                         </>
                       )}
                     </li>
@@ -284,6 +315,7 @@ export default function ScientificFinding({
                         <Citation
                           label={item.label}
                           href={item.href}
+                          canonicalReference={item.canonical_reference}
                           dataLevel={item.data_level}
                           exposureContext={item.exposure_context}
                         />

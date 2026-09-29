@@ -73,10 +73,10 @@ test("PM reader mounts the atomic Dietary Requirement projection enhancer", () =
   );
 });
 
-test("PM lever references render only canonical linked square-bracket numbers", () => {
+test("PM lever references render canonical author-year plus linked square-bracket numbers", () => {
   const source = fs.readFileSync(PM_LEVER_ENHANCER, "utf8");
+  assert.match(source, /escapeHtml\(authorYear\)/);
   assert.match(source, />\[\$\{number\}\]<\/a>/);
-  assert.doesNotMatch(source, /\[\$\{number\}\]\s+\$\{escapeHtml\(label\)\}/);
   assert.doesNotMatch(source, /finding_ids|citation_keys|atom_id/);
   assert.doesNotMatch(
     source,
@@ -89,6 +89,7 @@ test("System Optimisation Practices and Lifestyle Priorities use the shared five
   const fixture = {
     references: [
       "[Example et al. (2026)](/docs/papers/BRAIN-Diet-References#example_2026)",
+      "[Greiner & Konietzny (1999)](/docs/papers/BRAIN-Diet-References#greiner_1999)",
     ],
     scientific_findings: [{ id: "PMX-F1" }],
     system_optimisation_practices: [
@@ -113,7 +114,7 @@ test("System Optimisation Practices and Lifestyle Priorities use the shared five
         biological_role: "Supports the PM process represented by the linked Finding",
         evidence_source: {
           finding_ids: ["PMX-F1"],
-          citation_keys: ["example_2026"],
+          citation_keys: ["greiner_1999"],
         },
         evidence_limitation: "The Finding does not establish an optimal programme.",
       },
@@ -130,9 +131,19 @@ test("System Optimisation Practices and Lifestyle Priorities use the shared five
     1,
   );
   assert.equal(
+    disclosures.get(dietaryLeverBulletKey("Gentle steaming", "", "3.2"))
+      ?.evidenceReferences[0]?.authorYear,
+    "Example et al. (2026)",
+  );
+  assert.equal(
     disclosures.get(dietaryLeverBulletKey("Regular physical activity", "", "3.3"))
       ?.evidenceReferences[0]?.number,
-    1,
+    2,
+  );
+  assert.equal(
+    disclosures.get(dietaryLeverBulletKey("Regular physical activity", "", "3.3"))
+      ?.evidenceReferences[0]?.authorYear,
+    "Greiner and Konietzny (1999)",
   );
 
   for (const field of [

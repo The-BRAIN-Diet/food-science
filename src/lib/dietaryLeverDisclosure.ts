@@ -32,6 +32,7 @@ export type DietaryLeverDisclosure = {
 export type EvidenceReference = {
   number: number;
   label: string;
+  authorYear: string;
   href?: string;
 };
 
@@ -74,6 +75,10 @@ function buildPmReferenceKeyIndex(references: string[] = []): Map<string, Eviden
     index.set(key, {
       number: index.size + 1,
       label: String(match?.[1] || "").trim(),
+      authorYear: String(match?.[1] || "")
+        .split(/\s+[—–-]\s+/)[0]
+        .trim()
+        .replace(/\s+&\s+/g, " and "),
     });
   }
   return index;

@@ -20,6 +20,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { REFERENCE_DATA_LEVELS } from "./reference-data-levels.mjs";
 import { loadPhenomeRegistry, phenomeDetailUrlForName } from "./phenome-registry.mjs";
+import { buildPmReferenceRecordIndex } from "./pm-reference-index.mjs";
 
 const PROJECT_ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 
@@ -420,9 +421,35 @@ function jsonProp(value) {
   return JSON.stringify(value).replace(/</g, "\\u003c");
 }
 
-function renderFindingBlocks(findings, informs) {
+function citationKeyForEvidenceItem(item) {
+  if (item?.citation_key) return String(item.citation_key);
+  const href = String(item?.href || "");
+  return href.includes("#") ? href.split("#").at(-1) : "";
+}
+
+function withCanonicalFindingReferences(finding, referenceIndex) {
+  const enrich = (item) => {
+    const reference = referenceIndex.get(citationKeyForEvidenceItem(item));
+    if (!reference) return item;
+    return {
+      ...item,
+      canonical_reference: {
+        author_year: reference.authorYear,
+        number: reference.number,
+        anchor: `#pm-ref-${reference.number}`,
+      },
+    };
+  };
+  return {
+    ...finding,
+    evidence_considered: (finding.evidence_considered || []).map(enrich),
+    connected_supportive_evidence: (finding.connected_supportive_evidence || []).map(enrich),
+  };
+}
+
+function renderFindingBlocks(findings, informs, referenceIndex = new Map()) {
   return findings.flatMap((finding) => {
-    const payload = { ...finding };
+    const payload = withCanonicalFindingReferences(finding, referenceIndex);
     const informedBy = informs.get(String(finding.id));
     if (informedBy?.length) payload.informs = informedBy;
     return [`<ScientificFinding finding={${jsonProp(payload)}} />`, ""];
@@ -437,7 +464,13 @@ export function renderRelationshipPrimaryFindings(rel, data, { informs = null } 
   const { primary } = splitRelationshipFindings(rel, byId);
   if (!primary.length) return "";
   const index = informs ?? findingInformsIndex(data);
-  return renderFindingBlocks(primary, index).join("\n").trimEnd();
+  return renderFindingBlocks(
+    primary,
+    index,
+    buildPmReferenceRecordIndex(data.references || []),
+  )
+    .join("\n")
+    .trimEnd();
 }
 
 /**
@@ -458,7 +491,11 @@ export function renderScientificFindingsSection(data, { sectionNum = 5, subNum =
     "",
     intro,
     "",
-    ...renderFindingBlocks(findings, informs),
+    ...renderFindingBlocks(
+      findings,
+      informs,
+      buildPmReferenceRecordIndex(data.references || []),
+    ),
   ]
     .join("\n")
     .trimEnd();

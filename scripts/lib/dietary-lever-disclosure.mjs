@@ -56,6 +56,10 @@ function evidenceSourceReferences(data, evidenceSource, { directHref = false } =
     return {
       number,
       label: String(match?.[1] || `Reference ${number}`).trim(),
+      authorYear: String(match?.[1] || `Reference ${number}`)
+        .split(/\s+[—–-]\s+/)[0]
+        .trim()
+        .replace(/\s+&\s+/g, " and "),
       ...(directHref
         ? { href: reference.match(/\]\(([^)]+)\)/)?.[1] || "" }
         : {}),

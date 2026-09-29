@@ -271,12 +271,16 @@ scientific_findings:
 `confidence`, `evidence_confidence`, `evidence_level` and `relationship_type` on
 ## PM numbered references (presentation)
 
-Scientific references on PM pages prefer **numbered square-bracket citations** linked
-to the canonical `## 8. References` section (anchors `pm-ref-n`). Numbers are derived
-from the front matter `references` array order — not hand-typed in durable prose.
+On first mention within a PM section, Scientific Finding evidence renders as
+**`Author et al. (year) [n]`**; two-author studies render as
+**`Author and Author (year) [n]`**. The numbered square bracket links to the
+canonical `## 8. References` entry (anchor `pm-ref-n`). Later mentions in the same
+section may use linked `[n]` alone. Author text, year, number and link are all derived
+from the same front-matter reference record, never maintained as parallel display data.
 Use `{{cite:citation_key,citation_key}}` in `phenome_relationships[].rationale`; sync
-resolves keys to display numbers. The same `citation_key` always maps to the same
-number on a given PM page.
+resolves keys to canonical author–year + numbered links. The same `citation_key`
+always maps to the same number on a given PM page. Validation fails on missing,
+duplicate, stale, misnumbered or unlinked body citations and reference anchors.
 
 phenome relationships are **legacy** values on a different scale from
 Synthesised Evidence Confidence. Findings do not read, rescore or replace them.
