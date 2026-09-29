@@ -169,7 +169,7 @@ while migration is in progress. On a canonical PM, read references to §4 Levers
      - **3.1.1 Direct and/or Derived Dietary Requirements** — PM-attributable dietary requirements, with Direct and Derived relationships distinguished.
      - **3.1.2 Cofactors and Substrates** — the actual biochemical cofactors and substrates required by the PM mechanism.
      - **3.1.3 Key Constraints** — shared nutritionally constrained resource pools or bottlenecks satisfying the KC schema.
-   - **3.2 System Optimisation Practices** — `<details>` dropdown; **Food Preparation & Delivery ONLY**. Broader SOP categories are curated on the parent BRS hub.
+   - **3.2 System Optimisation Practices** — outer `<details>` dropdown containing only evidence-populated nested category dropdowns: **Food Preparation & Delivery**, **Conditional Supplementation**, **Dietary & Fasting Protocols**, **Light & Circadian Optimisation**, and **Stress & Autonomic Regulation**. Do not render empty categories on PM pages; the parent BRS hub retains the complete five-category frame and its “Coming soon” states.
    - **3.3 Lifestyle Levers** — `<details>` dropdown; non-dietary behaviours; primary place for timing narrative when `timing_specific: "Yes"`
 4. Mechanistic Basis — `## 4. Mechanistic Basis` (legacy §5)
    - **Canonical structure (Profile A):** see **PM Mechanistic Basis — Canonical four-part narrative** below. **Reference page:** [BRS1-FM1-PM1](/docs/biological-targets/brs1/fm1/brs1-fm1-pm1-amino-acid-availability-and-prioritisation).
@@ -311,7 +311,7 @@ that increasing intake increases mechanism activity.
 reader-facing §3.1 dietary relationship must be an atomic projection governed by
 `system/dietary-input-traceability-contract.md`. Every entry must resolve by
 `atom_id` to the canonical `Input | Input Type | Biological Role | Evidence Source
-| Limitation (conditional)` record. Do not author an independent Markdown list
+| Limitation` record. Do not author an independent Markdown list
 that carries scientific relationship data separately from the atoms.
 
 `dietary_lever_presentations` controls placement only. It does not own Input Type,
@@ -433,7 +433,7 @@ Not every PM must contain every level. Food composition and Food → Substance m
 remain owned by the Food architecture.
 
 The five-atom evidence structure remains `Input | Input Type | Biological Role |
-Evidence Source | Limitation (conditional)`. Direct/Derived classification does not
+Evidence Source | Limitation`. Direct/Derived classification does not
 replace Input Type. See `system/dietary-input-traceability-contract.md` for evidence
 admissibility, limitations, claim ceilings, responsiveness and adjudication.
 
@@ -463,6 +463,13 @@ PM pages should progressively answer:
 **Rendering contract:** **3.1 Dietary Requirements**, **3.2 System Optimisation Practices**, and **3.3 Lifestyle Levers** are top-level `<details>` (or hub-collapsible) dropdowns under canonical `## 3. Levers`, in that order. Inside **3.1 Dietary Requirements**, use three nested blocks titled exactly **3.1.1 Direct and/or Derived Dietary Requirements**, **3.1.2 Cofactors and Substrates**, and **3.1.3 Key Constraints**. Untouched PMs may retain the former Dietary Levers / Direct Dietary Levers / Cofactors and Supporting Inputs / KCs headings until recomputed; shared readers and validators must accept both.
 
 **§3.2 guiding question:** How can dietary inputs be selected, prepared, combined, timed, or preserved to act more effectively on this biology?
+
+Evidence-qualified §3.2 practices use `system_optimisation_practices`; evidence-qualified
+§3.3 priorities use `lifestyle_priorities`. Each relationship carries the same five
+atoms as §3.1. PM ownership is implicit in the containing PM, and the collection name
+determines the destination subsection. These PM scientific-evidence relationships are
+not provisional dietary candidates and must not be removed or overwritten by a later
+Dietary Levers pass.
 
 **§3.2 vs §3.3 boundary:**
 
@@ -512,9 +519,17 @@ PM pages should progressively answer:
 <details>
 <summary><strong>3.2 System Optimisation Practices</strong></summary>
 
-<p class="brs-pm-sop-scope"><strong>1. Food Preparation &amp; Delivery ONLY</strong></p>
+Render a nested dropdown only for each category with at least one
+evidence-qualified `system_optimisation_practices` record:
 
-- Preparation, pairing, matrix preservation, and delivery-pattern bullets
+- Food Preparation & Delivery
+- Conditional Supplementation
+- Dietary & Fasting Protocols
+- Light & Circadian Optimisation
+- Stress & Autonomic Regulation
+
+Every record carries `optimisation_category` as relationship metadata. Category
+membership is not a sixth evidence atom.
 
 </details>
 

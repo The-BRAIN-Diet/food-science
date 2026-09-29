@@ -16,8 +16,8 @@ function renderEvidenceLinks(refs: EvidenceReference[]): string {
   if (!refs.length) return "<span>No linked reference available.</span>";
   return `<span class="brs-dietary-lever-detail-references">${refs
     .map(
-      ({ number, label, href }) =>
-        `<a href="${escapeHtml(href || pmReferenceHref(number))}">[${number}] ${escapeHtml(label)}</a>`,
+      ({ number, href }) =>
+        `<a href="${escapeHtml(href || pmReferenceHref(number))}">[${number}]</a>`,
     )
     .join("; ")}</span>`;
 }
@@ -29,7 +29,6 @@ function buildDetailHtml(d: DietaryLeverDisclosure): string {
 
   return `
     <div class="brs-dietary-lever-detail-inner">
-      <p class="brs-dietary-lever-detail-title">${escapeHtml(d.title)}</p>
       <p><span class="brs-dietary-lever-detail-k">Input</span> = ${escapeHtml(d.title)}</p>
       <p><span class="brs-dietary-lever-detail-k">Input type</span> = ${escapeHtml(d.inputType)}</p>
       <p><span class="brs-dietary-lever-detail-k">Biological role</span> = ${escapeHtml(d.biologicalRole)}</p>
@@ -53,9 +52,25 @@ function presentationSectionForListItem(li: HTMLLIElement): string {
     const summary = item.querySelector<HTMLElement>(
       ":scope > .brs-fm-hub-shell > .brs-fm-hub-summary",
     );
-    const match = String(summary?.textContent || "").match(/\b(3\.1\.[123])\b/);
+    const match = String(summary?.textContent || "").match(/\b(3\.1\.[123]|3\.[23])\b/);
     if (match) return match[1];
     item = item.parentElement?.closest<HTMLElement>(".brs-fm-hub-item") || null;
+  }
+
+  const details = li.closest<HTMLDetailsElement>("details");
+  if (details) {
+    let nearestHeadingSection = "";
+    details.querySelectorAll<HTMLElement>("h3").forEach((heading) => {
+      if (heading.compareDocumentPosition(li) & Node.DOCUMENT_POSITION_FOLLOWING) {
+        const match = String(heading.textContent || "").match(/\b(3\.1\.[123])\b/);
+        if (match) nearestHeadingSection = match[1];
+      }
+    });
+    if (nearestHeadingSection) return nearestHeadingSection;
+
+    const summary = details.querySelector<HTMLElement>(":scope > summary");
+    const match = String(summary?.textContent || "").match(/\b(3\.[23])\b/);
+    if (match) return match[1];
   }
   return "";
 }
@@ -97,7 +112,7 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   trigger.className = "brs-dietary-lever-trigger";
   trigger.setAttribute("aria-expanded", "false");
   trigger.setAttribute("aria-haspopup", "dialog");
-  trigger.title = "View evidence for this dietary input";
+  trigger.title = "View evidence for this PM lever";
   trigger.textContent = parsed.label;
 
   const qualifierSpan = document.createElement("span");
@@ -119,7 +134,7 @@ function enhanceListItem(li: HTMLLIElement, disclosure: DietaryLeverDisclosure, 
   detail.hidden = true;
   detail.setAttribute("role", "dialog");
   detail.setAttribute("aria-modal", "false");
-  detail.setAttribute("aria-label", `${disclosure.title} — dietary evidence`);
+  detail.setAttribute("aria-label", `${disclosure.title} — PM lever evidence`);
   detail.innerHTML = buildDetailHtml(disclosure);
 
   li.textContent = "";

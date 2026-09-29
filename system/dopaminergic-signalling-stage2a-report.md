@@ -11,7 +11,9 @@ Integrity. The branch-verified target is BRS1-FM1-PM3.
 Repository-reviewed evidence was used first. Bounded external follow-up was
 limited to propositions that the repository corpus could not adjudicate:
 nonlinear cognitive control, cognitive effort, flexibility, healthy aging and
-ADHD transporter heterogeneity.
+ADHD transporter heterogeneity. A subsequent bounded lever search assessed
+food preparation and delivery practices for the provisional cofactor candidates
+and direct human evidence for dopamine-related lifestyle relationships.
 
 ## Supported claims
 
@@ -32,6 +34,12 @@ ADHD transporter heterogeneity.
 - Dopamine biology is relevant to ADHD, but ADHD evidence is heterogeneous
   across process, region, age, method and medication history. A uniform global
   dopamine-deficiency account is not supported.
+- Controlled human meal studies support ascorbic-acid pairing and validated
+  dephytinisation as matrix-dependent ways to improve non-haem iron absorption.
+- Acute human PET evidence supports voluntary cardiovascular exercise as a
+  state-dependent stimulus for dorsal-striatal dopamine release.
+- One night of total sleep deprivation reduces ventral-striatal D2/D3 receptor
+  availability and alertness in healthy adults.
 
 ## Constrained claims
 
@@ -46,6 +54,11 @@ ADHD transporter heterogeneity.
 - BRS2 methyl-donor availability, BRS3 redox handling, BRS4 bioenergetics and
   BRS6 metabolic/stress/circadian context remain constrained dependencies,
   not PM3 roll-ups or dietary claims.
+- The two food-preparation relationships optimise provision of the provisional
+  iron cofactor candidate only. They do not establish brain iron delivery,
+  increased dopamine synthesis or functional benefit.
+- Exercise and sleep-deprivation findings are acute human mechanistic evidence,
+  not chronic programmes, dose prescriptions or clinical recommendations.
 
 ## Rejected claims
 
@@ -57,6 +70,11 @@ ADHD transporter heterogeneity.
   response disappeared and no dopamine process was measured.
 - Pharmacological dopamine manipulation can be translated directly into a
   food, nutrient or supplement recommendation.
+- Vitamin B6 cooking-retention evidence was too limited to establish a PM3
+  System Optimisation Practice.
+- Stress-management and circadian-regularity practices were not added because
+  the bounded evidence did not directly show that those interventions modify a
+  PM3 dopamine process.
 
 ## Unresolved claims
 
@@ -65,6 +83,10 @@ ADHD transporter heterogeneity.
 - Direct human dietary modification of dopamine synthesis, release, receptor
   signalling, transporter activity or metabolism remains insufficiently
   demonstrated.
+- Whether meal-level iron-absorption improvements change longer-term iron
+  status or any human brain dopamine process remains unresolved.
+- Whether repeated exercise or ordinary sleep improvement causes durable
+  dopamine adaptation or clinical benefit remains unresolved.
 - Depression- and anxiety-specific dopamine findings were not strong enough in
   this bounded pass to receive TA003 or TA002 tags.
 - End-to-end mediation from the BRS2, BRS3, BRS4 or BRS6 dependencies to a PM3
@@ -98,6 +120,70 @@ citation provenance and report material changes. Tyrosine is not duplicated as
 a PM3 atom because amino-acid availability and LAT1 competition are owned by
 PM1 and PM2.
 
+## Five-atom lever architecture amendment
+
+The three dopamine candidates now carry the complete PM-owned evidence record:
+Input, Input Type, Biological Role, Evidence Source and Limitation. Iron and PLP
+remain Direct relationships; vitamin B6 remains Derived and points to the Direct
+PLP atom. Direct/Derived, Derived Target, addressability and claim ceiling remain
+relationship metadata rather than additional atoms.
+
+The shared contract also accepts `system_optimisation_practices` and
+`lifestyle_priorities`. Each record uses the same five atoms, resolves its
+Scientific Finding and PM-bibliography citations, and derives §3.2 or §3.3
+placement from the containing collection. These PM-owned relationships are not
+provisional dietary candidates. System Optimisation records also carry one of
+the five hub-aligned category identifiers as relationship metadata; PM pages
+render nested dropdowns only for categories with substantive records.
+
+Reader disclosures render Evidence Source as linked PM reference numbers such as
+`[1]`; citation keys, Finding ids and atom ids remain internal.
+
+## Evidence-qualified §3.2 and §3.3 relationships
+
+The bounded external search added four System Optimisation Practices in two
+populated categories:
+
+**Food Preparation & Delivery**
+1. Pair non-haem iron-containing meals with an ascorbic-acid source.
+2. Use validated phytate-reducing preparation methods for high-phytate cereals.
+
+Both are capped at dietary provision of the provisional iron cofactor candidate.
+They do not claim dopamine modulation. A third vitamin B6 cooking practice was
+rejected because the available small meal-retention study did not provide a
+strong enough evidence base for durable PM ownership.
+
+**Dietary & Fasting Protocols**
+1. Short-term selective dietary-fat restriction under controlled conditions.
+2. Short-term very-low-calorie dieting in adults with obesity.
+
+Both are population-specific mechanistic relationships based on regional D2/D3
+receptor binding potential. They are not general weight-loss recommendations,
+and the imaging measure does not uniquely distinguish receptor regulation from
+endogenous dopamine occupancy.
+
+The search also added two Lifestyle Priorities:
+
+1. Acute voluntary cardiovascular exercise, supported by a small human PET
+   experiment measuring dorsal-striatal dopamine release.
+2. Avoid acute total sleep deprivation, supported by a within-person human PET
+   experiment measuring ventral-striatal D2/D3 receptor availability.
+
+No PM3 dropdown is rendered for the other three optimisation categories:
+
+- **Conditional Supplementation:** acute calcitriol altered
+  amphetamine-stimulated dopamine imaging in vitamin-D-sufficient adults, but
+  active calcitriol is a prescription hormone challenge rather than a qualified
+  supplement practice; iron PET supplementation evidence was not available as
+  a completed published result.
+- **Light & Circadian Optimisation:** seasonal and sunlight associations were
+  observational, while controlled light-therapy imaging measured serotonin
+  rather than dopamine.
+- **Stress & Autonomic Regulation:** a very small Yoga Nidra PET study measured
+  ventral-striatal dopamine release in expert practitioners but did not test
+  stress recovery or autonomic regulation; stress-provocation studies do not
+  establish an optimisation practice.
+
 ## GABA evidence-placement repair
 
 No edit was required. After branch renumbering, GABA Synthesis Capacity is
@@ -113,20 +199,23 @@ Passed:
 - `npm run findings:check`
 - `npm run test:scientific-findings` — 25 tests
 - `npm run test:brs1-dopamine-stage1` — 5 tests; command name retained for branch compatibility
-- `npm run test:dietary-lever-traceability` — 13 tests
+- `npm run test:dietary-lever-traceability` — 16 tests
 - `npm run test:pm-dietary-requirements-headings` — 6 tests
 - `npm run phenome:validate` — 159/159 relationship edges mapped
 - `npm run bib:validate` — all cited keys resolved
 - PM contract, PM Mechanistic Basis, Phenome index/mapping and Scientific
   Findings portions of `npm run mechanisms:validate`
 - IDE lint diagnostics for the edited PM, validator and tests
+- `npm run build` — production build passed
+
+The §3.2/§3.3 lever-search amendment was subsequently revalidated against the
+same gates.
 
 Existing baseline failure not changed:
 
 - `npm run mechanisms:validate` still exits non-zero for four pre-existing
   Specific Mechanism §6.2/§6.3 heading-contract failures. PM validation and all
   Stage 2A-specific gates pass.
-- `npm run build` compiled the client and server successfully, then exited
-  non-zero on pre-existing production broken links from PM pages to the
-  internal-only Therapeutic Area routes. No PM3 or new bibliography link was
-  reported in the broken-link output.
+- `npm run typecheck` still exits non-zero on pre-existing repository-wide
+  React/Docusaurus typing and DOM-iterability errors; no edited file has an IDE
+  lint diagnostic.

@@ -76,10 +76,22 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
   assert.equal(data.mechanistic_authoring_required, false);
   assert.equal(data.dietary_addressability, "not-established");
   assert.equal(data.claim_ceiling, "biological-dependency");
-  assert.equal(data.scientific_findings.length, 7);
+  assert.equal(data.scientific_findings.length, 11);
   assert.deepEqual(
     data.scientific_findings.map((finding) => finding.id),
-    ["PM3-F1", "PM3-F2", "PM3-F3", "PM3-F4", "PM3-F5", "PM3-F6", "PM3-F7"],
+    [
+      "PM3-F1",
+      "PM3-F2",
+      "PM3-F3",
+      "PM3-F4",
+      "PM3-F5",
+      "PM3-F6",
+      "PM3-F7",
+      "PM3-F8",
+      "PM3-F9",
+      "PM3-F10",
+      "PM3-F11",
+    ],
   );
   assert.ok(data.phenome_relationships.length >= 3);
   assert.ok(data.references.length >= 11);
@@ -104,9 +116,64 @@ test("there is one canonical Stage 2A dopamine PM with bounded evidence", () => 
       (relationship) => relationship.status === "constrained-dependency",
     ),
   );
+  assert.deepEqual(
+    data.system_optimisation_practices.map((relationship) => relationship.atom_id),
+    ["PM3-SOP-1", "PM3-SOP-2", "PM3-SOP-3", "PM3-SOP-4"],
+  );
+  assert.deepEqual(
+    [...new Set(data.system_optimisation_practices.map(
+      (relationship) => relationship.optimisation_category,
+    ))],
+    ["food_prep", "dietary_protocols"],
+  );
+  assert.deepEqual(
+    data.lifestyle_priorities.map((relationship) => relationship.atom_id),
+    ["PM3-LP-1", "PM3-LP-2"],
+  );
+  for (const relationship of [
+    ...data.system_optimisation_practices,
+    ...data.lifestyle_priorities,
+  ]) {
+    assert.ok(relationship.input);
+    assert.ok(relationship.input_type);
+    assert.ok(relationship.biological_role);
+    assert.ok(relationship.evidence_source.finding_ids.length);
+    assert.ok(relationship.evidence_source.citation_keys.length);
+    assert.ok(relationship.evidence_limitation);
+  }
   assert.match(content, /### 4\.1 Scientific Findings/);
   assert.match(content, /No scoreable inputs are activated in Stage 2A/);
   assert.match(content, /ADHD does not show one uniform dopamine abnormality/);
+  assert.equal(
+    (content.match(/data-brs-sop-category=/g) || []).length,
+    new Set(
+      data.system_optimisation_practices.map(
+        (relationship) => relationship.optimisation_category,
+      ),
+    ).size,
+    "PM §3.2 must render only categories with substantive records",
+  );
+  assert.match(content, /data-brs-sop-category="food_prep"/);
+  assert.match(content, /data-brs-sop-category="dietary_protocols"/);
+  assert.doesNotMatch(content, /data-brs-sop-category="conditional_supplementation"/);
+  assert.doesNotMatch(content, /data-brs-sop-category="light_circadian"/);
+  assert.doesNotMatch(content, /data-brs-sop-category="stress_autonomic"/);
+  assert.match(content, /Pair non-haem iron-containing meals with an ascorbic-acid source/);
+  assert.match(
+    content,
+    /Use validated phytate-reducing preparation methods for high-phytate cereals/,
+  );
+  assert.match(content, /Acute voluntary cardiovascular exercise/);
+  assert.match(content, /Avoid acute total sleep deprivation/);
+  assert.match(content, /Short-term selective dietary-fat restriction under controlled conditions/);
+  assert.match(content, /Short-term very-low-calorie dieting in adults with obesity/);
+  assert.ok(
+    [...data.system_optimisation_practices, ...data.lifestyle_priorities].every(
+      (relationship) =>
+        relationship.evidence_limitation.split(/[.!?](?:\s|$)/).filter(Boolean).length <= 1 &&
+        !/does not authorise/i.test(relationship.evidence_limitation),
+    ),
+  );
   assert.doesNotMatch(content, /uniform dopamine-deficiency disorder/i);
 });
 

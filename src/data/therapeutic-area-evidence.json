@@ -1332,7 +1332,7 @@
       "brsId": "BRS1",
       "fmIds": [],
       "pmIds": [
-        "BRS1-FM1-PM4"
+        "BRS1-FM1-PM3"
       ],
       "phenomeIds": [],
       "evidenceRelation": "direct-condition",
@@ -1348,7 +1348,7 @@
       "displaySummary": "MacDonald et al., 2024 — Dopaminergic dysfunction in ADHD does not support a simple global hypo-dopaminergic model; alterations vary by subtype, stage, and brain region",
       "limitationNote": "",
       "studyDesignLabel": "Human observational or review evidence",
-      "openEvidencePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm4-noradrenergic-signalling-attention-executive-modulation"
+      "openEvidencePath": "/docs/biological-targets/brs1/fm1/brs1-fm1-pm3-dopaminergic-signalling-regulation"
     },
     {
       "id": "EC000120",

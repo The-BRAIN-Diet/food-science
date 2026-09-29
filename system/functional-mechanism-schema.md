@@ -207,7 +207,7 @@ Describes **what happens when the integrated FM loses functional capacity** — 
 | Content | Belongs on |
 |---------|------------|
 | Dietary patterns, target foods | PM §4.1; BRS hub **Dietary Guidance** |
-| Food preparation, bioavailability | PM §4.2 System Optimisation Practices; Food Profiles; BRS hub **System Optimisation Practices** |
+| Targeted preparation, protocols, supplementation, light/circadian or stress/autonomic interventions | PM §3.2 System Optimisation Practices when evidence-qualified; Food Profiles where preparation detail belongs; BRS hub **System Optimisation Practices** |
 | Sleep, timing, activity, stress | PM §4.3 Lifestyle; BRS hub **Lifestyle Priorities** |
 | Biological consequences of lost FM capacity | **FM §4.3 only** |
 

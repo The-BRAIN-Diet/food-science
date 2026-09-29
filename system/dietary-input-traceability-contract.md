@@ -13,26 +13,25 @@ can consume PM evidence without reconstructing biological roles or provenance fr
 ## 1. Canonical five-atom structure
 
 For every **dietary-relevant** relationship established by PM evidence, preserve
-the four mandatory atomic fields:
+the five mandatory atomic fields:
 
-`Input | Input type | Biological role | Evidence source`
+`Input | Input type | Biological role | Evidence source | Limitation`
 
 | Atom | Meaning |
 |------|---------|
 | **Input** | Evidence-supported dietary-facing identifier at the granularity actually established (for example a substance, class, component, food group, matrix, pattern, preparation characteristic, or other defined exposure) |
 | **Input type** | Category of input (see § Input types) |
 | **Biological role** | What job this input performs **in this PM / KC / context** |
-| **Evidence source** | What supports **that biological role** — Finding id, `citation_key`, and/or curated pathway resource |
+| **Evidence source** | What supports **that biological role** — at least one resolvable Scientific Finding id and PM-bibliography `citation_key` |
+| **Limitation** | Concise boundary preventing interpretation beyond the linked Finding and citation |
 
-These four fields plus a conditional **Limitation** form the canonical reader-facing
-five-atom structure:
+Together these form the canonical reader-facing five-atom structure:
 
-`Input | Input type | Biological role | Evidence source | Limitation (conditional)`
+`Input | Input type | Biological role | Evidence source | Limitation`
 
-**Limitation is not a fifth research requirement.** It is a concise evidence-boundary
-statement derived from the adjudication and the cited Evidence Source. Do not initiate
-a separate search for a “limitation reference,” and do not require Limitation when the
-four mandatory fields already communicate the relationship accurately.
+**Limitation is mandatory relationship currency, not a separate research exercise.**
+Derive it from the existing adjudication and cited Evidence Source; do not initiate a
+separate search for a “limitation reference.”
 
 **Example — Vitamin B6:**
 
@@ -43,6 +42,7 @@ biological_role: Dietary precursor supporting PLP availability required for GAD-
 evidence_source:
   finding_ids: [PM9-F1, PM9-F2]
   citation_keys: [martin_regulation_1993, lee_human_2000, tang_crystal_2005, navarro_catalytic_2013]
+evidence_limitation: Increasing vitamin B6 intake has not been shown to increase human brain GABA synthesis.
 ```
 
 **Example — Glutamate:**
@@ -100,7 +100,7 @@ relationship outside the requirement chain. Not every dietary exposure belongs i
 §3.1.1.
 
 Granularity does not add or rename an atom. The canonical structure remains
-`Input | Input type | Biological role | Evidence source | Limitation (conditional)`;
+`Input | Input type | Biological role | Evidence source | Limitation`;
 the generic name **Input** is intentional.
 
 ---
@@ -252,7 +252,7 @@ roles, and future Lever claims.
 | **Dietary Requirements** | Dietary-facing Direct or Derived relationship that **projects** the same atoms—never a nutrient name alone |
 
 ```
-PM Evidence (four-field atom)
+PM Evidence (five-atom relationship)
         ↓
 dietary_addressability (+ claim_ceiling)
         ↓
@@ -341,10 +341,10 @@ For every newly authored or recomputed PM, **every reader-facing §3.1 dietary
 relationship entry must project from canonical relationship data**. A §3.1.1 or
 §3.1.2 entry resolves through `dietary_lever_presentations.atom_id` to:
 
-1. `dietary_input_traceability` for Input, Input Type, Biological Role and
-   Evidence Source; and
+1. `dietary_input_traceability` for Input, Input Type, Biological Role,
+   Evidence Source and Limitation; and
 2. `dietary_lever_atoms` for relationship-layer metadata, Direct/Derived
-   classification, Derived Target, claim ceiling and conditional Limitation.
+   classification, Derived Target and claim ceiling.
 
 §3.1.3 resolves through `pm_kc_relationships`: the PM↔KC row references `kc_id`,
 and every constituent row references a PM-owned `pm_atom_id`. A separately reviewed
@@ -355,7 +355,7 @@ inherit §3.1.1 Direct/Derived metadata.
 Do not maintain a second scientific record in Markdown bullets, labels or prose.
 Presentation rows may specify placement and a reader-facing label, but they must
 not restate or override the atom's Input Type, Biological Role, Evidence Source,
-classification, Derived Target or Limitation.
+Limitation, classification or Derived Target.
 
 Section context controls the compact projection:
 
@@ -387,11 +387,8 @@ The **dietary-input label** is the evidence-bearing UI object:
 
 - **Default:** show the dietary input only; indicate that more information is available
   (e.g. underlined / interactive label).
-- **Hover, keyboard focus, or tap:** expose the four mandatory fields in a compact
-  disclosure: `Input | Input type | Biological role | Evidence source`.
-- **Optional qualification:** show `Limitation` only where the adjudicated evidence
-  boundary is necessary to prevent overinterpretation. It is derived from the same
-  adjudication/evidence source and is not independently researched.
+- **Hover, keyboard focus, or tap:** expose the five mandatory fields in a compact
+  disclosure: `Input | Input type | Biological role | Evidence source | Limitation`.
 - **Evidence/reference control:** navigates to the canonical reference in the PM
   References section. Reader-facing evidence uses the numbered reference and actual
   paper title; internal Finding and relationship identifiers remain hidden.
@@ -447,7 +444,7 @@ dietary_input_traceability:
     evidence_source:                   # required
       finding_ids: [PM9-F1]
       citation_keys: [martin_regulation_1993]   # must resolve in PM References
-      pathway_resources: []
+    evidence_limitation: string        # required
 
 dietary_lever_atoms:
   - atom_id: PM9-DIT-1                 # references traceability row
@@ -463,8 +460,31 @@ The YAML example above is structural. Do not treat the mixed PM9/PM3 identifiers
 a live record.
 
 `dietary_input_traceability` is **PM Evidence durable source**.
-`dietary_lever_atoms` **projects** those atoms for the Lever layer (same four fields via
+`dietary_lever_atoms` **projects** those atoms for the Lever layer (same five atoms via
 `resolveLeverAtom`); it is not a second evidence ontology.
+
+PM-owned non-dietary relationships use the same five atoms in
+`system_optimisation_practices` (§3.2) and `lifestyle_priorities` (§3.3). The
+containing collection determines lever class and destination subsection, so records
+must not duplicate PM ownership or subsection fields. These relationships remain
+owned by the scientific-evidence layer and are not candidates for removal by the
+later Dietary Levers pass.
+
+Each `system_optimisation_practices` record also requires
+`optimisation_category` with one of the hub-aligned values: `food_prep`,
+`conditional_supplementation`, `dietary_protocols`, `light_circadian`, or
+`stress_autonomic`. This is relationship metadata used for nested presentation
+and hub roll-up; it is not an additional evidence atom. PM pages render only
+categories containing at least one substantive, evidence-qualified relationship.
+
+For these relationships, write the **Biological Role** at the level directly
+measured by the cited evidence, then state separately any established biological
+relevance to the PM. Do not turn improved absorption or another proximal effect
+into demonstrated delivery to a tissue pool or modification of the PM. Write the
+**Limitation** as one concise sentence wherever possible: identify the nearest
+important boundary rather than listing every unmeasured mechanism and outcome.
+Use plain scientific language; avoid governance phrases such as “does not
+authorise”.
 
 Validated when present (`validateDietaryLeverAtoms` in `scripts/lib/dietary-lever-atoms.mjs`).
 Untouched legacy PMs without these fields are not failures. Once a PM is newly

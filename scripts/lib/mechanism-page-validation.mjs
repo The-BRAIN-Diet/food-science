@@ -1362,7 +1362,12 @@ function validatePmPage(filePath, { canonicalKcIndex = null } = {}) {
   validateSubstanceFoodMappingSections(content, issues, { entityLabel, kind: "pm" });
   validatePmPhenomeFrontMatter(data, issues, { entityLabel });
   validatePhenomeSectionBody(content, issues, { entityLabel, kind: "pm" });
-  if (data.dietary_input_traceability?.length || data.dietary_lever_atoms?.length) {
+  if (
+    data.dietary_input_traceability?.length ||
+    data.dietary_lever_atoms?.length ||
+    data.system_optimisation_practices?.length ||
+    data.lifestyle_priorities?.length
+  ) {
     validateDietaryLeverAtoms(data, issues, { entityLabel });
   }
   validatePmKcGovernance(data, issues, { entityLabel, canonicalKcIndex });

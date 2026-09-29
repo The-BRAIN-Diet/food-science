@@ -76,6 +76,7 @@ dietary_input_traceability:
       citation_keys:
         - bailey_human_mat2a_2021
         - murray_crystallography_2016
+    evidence_limitation: No ordinary-diet human dose-response demonstrating increased MAT-dependent SAMe synthesis was identified.
   - atom_id: PM3-DIT-2
     input: ATP
     input_type: substrate
@@ -86,6 +87,7 @@ dietary_input_traceability:
       citation_keys:
         - bailey_human_mat2a_2021
         - murray_crystallography_2016
+    evidence_limitation: Diet does not supply ATP to MAT; no dietary ATP lever for SAMe synthesis is established.
   - atom_id: PM3-DIT-3
     input: Magnesium ions (Mg²⁺)
     input_type: catalytic ion
@@ -95,6 +97,7 @@ dietary_input_traceability:
         - PM3-F1
       citation_keys:
         - murray_crystallography_2016
+    evidence_limitation: No ordinary-diet human evidence demonstrates magnesium-responsive MAT flux.
   - atom_id: PM3-DIT-4
     input: Potassium ions (K⁺)
     input_type: catalytic ion
@@ -104,13 +107,17 @@ dietary_input_traceability:
         - PM3-F1
       citation_keys:
         - murray_crystallography_2016
+    evidence_limitation: No ordinary-diet human evidence demonstrates potassium-responsive MAT flux.
   - atom_id: PM3-DIT-5
     input: Dietary protein
     input_type: substrate provision
     biological_role: Provides methionine through protein digestion and amino-acid absorption; methionine is the direct amino-acid substrate for MAT-dependent SAMe synthesis.
     evidence_source:
+      finding_ids:
+        - PM3-F1
       citation_keys:
         - fao_diaas_2013
+    evidence_limitation: Dietary protein provides digestible methionine, but this does not establish that increasing protein or methionine intake increases MAT-dependent SAMe synthesis in humans. DIAAS evaluates sulfur amino acids as methionine + cysteine.
 dietary_lever_atoms:
   - atom_id: PM3-DIT-1
     requirement_classification: direct
